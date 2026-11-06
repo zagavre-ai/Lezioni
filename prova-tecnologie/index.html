@@ -97,7 +97,7 @@ function save(){try{localStorage.setItem(KEY,JSON.stringify(S))}catch(e){}}
 var $=function(i){return document.getElementById(i)};
 /* ---- lettore: YouTube (normale) oppure file mp4 (solo per prova locale, ?mp4=...) ---- */
 var P={ready:false,dur:CFG.dur,paused:true};
-var qp=new URLSearchParams(location.search),MP4=qp.get('mp4');
+var qp=new URLSearchParams(location.search),MP4=qp.get('mp4')||CFG.mp4;
 if(MP4){var v=document.createElement('video');v.id='vid';v.src=MP4;v.playsInline=true;v.preload='auto';$('yt').replaceWith(v);
  P.t=function(){return v.currentTime};P.seek=function(x){v.currentTime=x};P.play=function(){var r=v.play();if(r&&r.catch)r.catch(function(){})};P.pause=function(){v.pause()};
  v.addEventListener('loadedmetadata',function(){P.dur=v.duration;P.ready=true;draw()});v.addEventListener('play',function(){P.paused=false});v.addEventListener('pause',function(){P.paused=true});v.addEventListener('ended',function(){P.paused=true;ended()});
