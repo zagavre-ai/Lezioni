@@ -302,9 +302,9 @@ function head(){
   $('#how').innerHTML=ROLE==='docente'
     ?'<b>Come si usa.</b> Il registro si apre su oggi. Apri solo le sezioni che ti servono e scrivi: si salva da solo. La prima volta compila i «Dati generali». Il pallino giallo indica i giorni in cui hai scritto qualcosa.'
     :'<b>Come si usa.</b> Il registro si apre su oggi. Con «Ieri» o con il calendario vedi i giorni precedenti. Il pallino giallo indica i giorni in cui ci sono compiti.';
-  if(LIVE)$('#how').innerHTML+=ROLE==='docente'
-    ?'<p style="margin:10px 0 0">Sei entrato come docente: <b>'+esc(DOCNAME)+'</b>. <button class="lnk" id="esci">Esci</button></p>'
-    :'<p style="margin:10px 0 0"><button class="lnk" id="acc">Accesso docente</button></p>';
+  if(LIVE)$('#who').innerHTML+=ROLE==='docente'
+    ?'<span>Entrato come: <b>'+esc(DOCNAME)+'</b></span><button class="btn" id="esci">Esci</button>'
+    :'<button class="btn pri" id="acc">Accesso docente</button>';
   const ac=$('#acc');if(ac)ac.onclick=accesso;
   const es=$('#esci');if(es)es.onclick=()=>{try{localStorage.removeItem('telesio_pin')}catch(e){}PIN='';avvio()};
 }
