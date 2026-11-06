@@ -242,9 +242,13 @@ function seed(){
       '9.0.cor':'Buon lavoro. Attenzione alla differenza tra popolo e popolazione.','8.ex.st':['Completate']},
     [a]:{'2.0.mat':'Slide «Le fonti del diritto»','2.0.pag':'slide 1–10','2.0.att':['Ripasso'],'2.0.ok':true,'8.ex.st':['Da recuperare'],'8.ex.rec':'Esercizio 4 non svolto'}}};
 }
+const API='https://script.google.com/macros/s/AKfycbzpmvtDfjtUgxvvhnGBYDHToOOx_eGixN-GNsZ3Ipa8m9vKd-y24Ak-crKC-uY2HIjHuA/exec';
+const LIVE=/^https:\/\/script\.google\.com\//.test(API)&&!DEMO;
+let PIN='',DOCNAME='';try{PIN=localStorage.getItem('telesio_pin')||''}catch(e){}
+const DIRTY=new Set();let GENDIRTY=false;
 const EMPTY=()=>({gen:{},days:{}});
-function load(){try{const s=localStorage.getItem(KEY);if(s)return JSON.parse(s)}catch(e){}return null}
-function store(){try{localStorage.setItem(KEY,JSON.stringify(DB))}catch(e){}}
+function load(){if(LIVE)return null;try{const s=localStorage.getItem(KEY);if(s)return JSON.parse(s)}catch(e){}return null}
+function store(){if(LIVE)return;try{localStorage.setItem(KEY,JSON.stringify(DB))}catch(e){}}
 let DB=load()||(DEMO?seed():EMPTY());
 
 /* ---------- stato ---------- */
@@ -259,10 +263,31 @@ const has=v=>Array.isArray(v)?v.length>0:(v===true||(typeof v==='string'&&v.trim
 const rec=k=>DB.days[k]||null;
 function filled(r){return !!r&&Object.entries(r).some(([k,v])=>k!=='dir'&&has(v))}
 const visible=k=>ROLE==='docente'||k<=T;
-function setv(k,v){const d=iso(SEL);const r=DB.days[d]=DB.days[d]||{};if(!has(v))delete r[k];else r[k]=v;if(!Object.keys(r).length)delete DB.days[d];saved()}
+function setv(k,v){const d=iso(SEL);DIRTY.add(d);const r=DB.days[d]=DB.days[d]||{};if(!has(v))delete r[k];else r[k]=v;if(!Object.keys(r).length)delete DB.days[d];saved()}
 let tmr=null;
 const ora=()=>new Date().toLocaleTimeString('it-IT',{hour:'2-digit',minute:'2-digit'});
-function saved(){const st=$('#st');if(st){st.textContent='Salvataggio…';st.className='status'}clearTimeout(tmr);tmr=setTimeout(()=>{store();const s=$('#st');if(s){s.textContent='Salvato alle '+ora();s.className='status ok'}calendar();summary()},500)}
+function stato(t,ok){const s=$('#st');if(s){s.textContent=t;s.className='status'+(ok===true?' ok':'');if(ok===false)s.style.color='#b3261e';else s.style.color=''}}
+function saved(){stato('Salvataggio…');clearTimeout(tmr);tmr=setTimeout(salva,LIVE?900:500)}
+function testo(r){
+  const out=[];
+  SEZ.forEach(s=>{const parti=[];
+    for(let i=0;i<s.rows;i++){const v=s.f.filter(f=>f.ty!=='done').map(f=>{const x=r[s.n+'.'+i+'.'+f.k];return has(x)?(Array.isArray(x)?x.join(', '):(f.ty==='date'?f.l+' '+fmtS(x):x)):''}).filter(Boolean);
+      if(v.length)parti.push(v.join(' · ')+(r[s.n+'.'+i+'.ok']?' [completata]':''))}
+    (s.ex||[]).forEach(f=>{const x=r[s.n+'.ex.'+f.k];if(has(x))parti.push((f.l?f.l+' ':'')+(Array.isArray(x)?x.join(', '):x))});
+    if(parti.length)out.push(s.n+'. '+s.t.toUpperCase()+': '+parti.join(' | '))});
+  if(r.dir)out.unshift('Prossima diretta: '+fmtS(r.dir));
+  return out.join('\n');
+}
+const post=b=>fetch(API,{method:'POST',body:JSON.stringify(Object.assign({c:CODE,m:MAT,pin:PIN},b))}).then(x=>x.json());
+async function salva(){
+  if(!LIVE){store();stato('Salvato alle '+ora(),true);calendar();summary();return}
+  try{
+    if(GENDIRTY){GENDIRTY=false;const g=await post({gen:DB.gen});if(!g.ok)throw g}
+    for(const d of [...DIRTY]){DIRTY.delete(d);const r=DB.days[d]||{};const x=await post({giorno:d,dati:r,testo:testo(r)});if(!x.ok){DIRTY.add(d);throw x}}
+    stato('Salvato alle '+ora(),true);calendar();summary();
+  }catch(e){stato(e&&e.errore==='docente'?'Codice docente non valido: non salvato':'Non salvato: controlla la connessione e premi «Salva»',false)}
+}
+window.addEventListener('beforeunload',e=>{if(LIVE&&(DIRTY.size||GENDIRTY)){e.preventDefault();e.returnValue=''}});
 
 /* ---------- intestazione ---------- */
 function head(){
@@ -277,6 +302,22 @@ function head(){
   $('#how').innerHTML=ROLE==='docente'
     ?'<b>Come si usa.</b> Il registro si apre su oggi. Apri solo le sezioni che ti servono e scrivi: si salva da solo. La prima volta compila i «Dati generali». Il pallino giallo indica i giorni in cui hai scritto qualcosa.'
     :'<b>Come si usa.</b> Il registro si apre su oggi. Con «Ieri» o con il calendario vedi i giorni precedenti. Il pallino giallo indica i giorni in cui ci sono compiti.';
+  if(LIVE)$('#how').innerHTML+=ROLE==='docente'
+    ?'<p style="margin:10px 0 0">Sei entrato come docente: <b>'+esc(DOCNAME)+'</b>. <button class="lnk" id="esci">Esci</button></p>'
+    :'<p style="margin:10px 0 0"><button class="lnk" id="acc">Accesso docente</button></p>';
+  const ac=$('#acc');if(ac)ac.onclick=accesso;
+  const es=$('#esci');if(es)es.onclick=()=>{try{localStorage.removeItem('telesio_pin')}catch(e){}PIN='';avvio()};
+}
+function accesso(){
+  const box=document.createElement('div');
+  box.innerHTML='<div style="position:fixed;inset:0;background:rgba(10,29,55,.55);display:flex;align-items:center;justify-content:center;padding:16px;z-index:9"><div class="card" style="padding:20px;max-width:360px;width:100%"><h3 style="margin:0 0 8px;color:var(--navy)">Accesso docente</h3><p style="margin:0 0 12px;font-size:14px;color:var(--mut)">Scrivi il tuo codice docente. Questo computer lo ricorderà.</p><input type="text" id="pinx" autocomplete="off" style="width:100%;font-size:18px;letter-spacing:.15em;text-transform:uppercase;border:1px solid var(--line);border-radius:6px;padding:8px"><p id="pine" style="color:#b3261e;font-size:13px;min-height:18px;margin:6px 0"></p><div style="display:flex;gap:8px;justify-content:flex-end"><button class="btn" id="pinc">Annulla</button><button class="btn pri" id="pino">Entra</button></div></div></div>';
+  document.body.appendChild(box);const inp=box.querySelector('#pinx');inp.focus();
+  box.querySelector('#pinc').onclick=()=>box.remove();
+  const go=()=>{const p=inp.value.trim().toUpperCase();if(!p)return;box.querySelector('#pine').textContent='Controllo…';
+    fetch(API+'?verifica=1&pin='+encodeURIComponent(p)).then(x=>x.json()).then(r=>{
+      if(!r.ok){box.querySelector('#pine').textContent='Codice non valido.';return}
+      PIN=p;try{localStorage.setItem('telesio_pin',p)}catch(e){}box.remove();avvio()}).catch(()=>box.querySelector('#pine').textContent='Nessuna connessione, riprova.')};
+  box.querySelector('#pino').onclick=go;inp.onkeydown=e=>{if(e.key==='Enter')go()};
 }
 
 /* ---------- calendario ---------- */
@@ -365,14 +406,14 @@ function day(){
   $('#day').innerHTML=h;
   $('#pr').onclick=()=>{document.querySelectorAll('details.sec:not(.vuota)').forEach(d=>d.open=true);window.print()};
   if(ro)return;
-  $('#sv').onclick=()=>{clearTimeout(tmr);store();const s=$('#st');s.textContent='Salvato alle '+ora();s.className='status ok';calendar();summary()};
+  $('#sv').onclick=()=>{clearTimeout(tmr);stato('Salvataggio…');salva()};
   $('#day').querySelectorAll('[data-k]').forEach(el=>{
     const k=el.dataset.k;
     if(el.type==='checkbox'&&el.dataset.o!==undefined)el.onchange=()=>setv(k,[...$('#day').querySelectorAll('input[data-k="'+k+'"][data-o]')].filter(x=>x.checked).map(x=>x.dataset.o));
     else if(el.type==='checkbox')el.onchange=()=>setv(k,el.checked);
     else el.oninput=el.onchange=()=>setv(k,el.value);
   });
-  $('#day').querySelectorAll('[data-g]').forEach(el=>el.oninput=()=>{DB.gen=DB.gen||{};DB.gen[el.dataset.g]=el.value;saved();
+  $('#day').querySelectorAll('[data-g]').forEach(el=>el.oninput=()=>{DB.gen=DB.gen||{};DB.gen[el.dataset.g]=el.value;GENDIRTY=true;saved();
     const n=$('#day').querySelectorAll('.head4>div');n[0].innerHTML='<span class="lab">Studente</span>'+esc(DB.gen.nome||'');n[2].innerHTML='<span class="lab">Docente</span>'+esc(DB.gen.doc||'')});
   $('#day').querySelectorAll('[data-g]').forEach(el=>el.onchange=()=>head());
   const grow=t=>{t.style.height='auto';t.style.height=(t.scrollHeight+2)+'px'};
@@ -388,7 +429,18 @@ const goDay=d=>{SEL=d;VIEW=new Date(d.getFullYear(),d.getMonth(),1,12);render()}
 $('#oggi').onclick=()=>goDay(new Date(TODAY));$('#ieri').onclick=()=>goDay(add(TODAY,-1));
 document.querySelectorAll('.seg button').forEach(b=>b.onclick=()=>{ROLE=b.dataset.r;if(ROLE==='studente'&&iso(SEL)>T)goDay(new Date(TODAY));else render()});
 $('#reset').onclick=()=>{DB=seed();store();goDay(new Date(TODAY))};
-render();
+function avvio(){
+  if(!LIVE){render();return}
+  head();calendar();$('#day').innerHTML='<div class="empty"><b>Caricamento del registro…</b></div>';$('#sum').innerHTML='';
+  fetch(API+'?c='+encodeURIComponent(CODE)+(PIN?'&pin='+encodeURIComponent(PIN):'')).then(x=>x.json()).then(r=>{
+    if(!r.ok)throw r;
+    DB={gen:r.gen||{},days:r.days||{}};DOCNAME=r.docente||'';ROLE=DOCNAME?'docente':'studente';
+    if(!DOCNAME&&PIN){PIN='';try{localStorage.removeItem('telesio_pin')}catch(e){}}
+    if(ROLE==='studente'&&iso(SEL)>T)SEL=new Date(TODAY);
+    render();
+  }).catch(()=>{$('#day').innerHTML='<div class="empty"><b>Il registro non si è caricato</b>Controlla la connessione e ricarica la pagina.</div>'});
+}
+avvio();
 </script>
 </body>
 </html>
