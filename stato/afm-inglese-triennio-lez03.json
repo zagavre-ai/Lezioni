@@ -11,6 +11,10 @@
   {
    "quando": "08/11 14:03",
    "testo": "Caricare i video della Lez. 3 nella release afm-inglese-triennio-lez03. Intanto preparo quiz, testi narratore, dispensa, test e grafiche."
+  },
+  {
+   "quando": "08/11 14:05",
+   "testo": "Testi voci definitivi nel ramo voci-afm-inglese-triennio-lez03: INTRO1 R1-R5 S1-S5 GL1 RF1 FIN1 (inglese B1, Kore, 4.936 caratteri). Eventuali AN solo dopo aver visto la durata del video."
   }
  ],
  "domande_sara": [],
@@ -18,5 +22,5 @@
  "materia": "Inglese (AFM triennio)",
  "lezione": "Lezione 3 · Production",
  "docente": "Prof.ssa Maria Vittoria Fontanesi",
- "aggiornato": "2026-11-08 14:03:16"
+ "aggiornato": "2026-11-08 14:05:06"
 }
