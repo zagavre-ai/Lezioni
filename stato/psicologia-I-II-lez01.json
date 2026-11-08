@@ -1,0 +1,34 @@
+{
+ "tag": "psicologia-I-II-lez01",
+ "parti": {
+  "1": {
+   "titolo": "Introduzione alle scienze umane",
+   "stato": "IN_MONTAGGIO",
+   "voci": "kore",
+   "video": "Psicologia_Lez1_Parte1_1440p.mp4",
+   "durata_s": 3334.1,
+   "durata": "55:34.1",
+   "fotogrammi": 100023,
+   "fotogrammi_attesi": 100023,
+   "peso_MB": 386.3
+  }
+ },
+ "manca": "",
+ "serve_master": [
+  {
+   "quando": "08/11 14:30",
+   "testo": "MIGLIORAMENTO: nella scheda Quiz il titolo lungo passa sotto l'icona play (Quiz 1, 3, 5); scheda_da_timeline.py ha «Tecnologie dei materiali» scritto fisso come materia"
+  }
+ ],
+ "domande_sara": [],
+ "note": [
+  {
+   "quando": "08/11 14:30",
+   "testo": "Video 1440p finale pronto (55,6 min, 368 MiB, parlato -16 LUFS, jingle Quiz a 0,003 s). Sto rifacendo i sottotitoli con sub_finale.py."
+  }
+ ],
+ "materia": "Psicologia",
+ "lezione": "Lezione 1 · Introduzione alle scienze umane",
+ "docente": "Prof. Giorgio Mazzotti",
+ "aggiornato": "2026-11-08 14:30:11"
+}
