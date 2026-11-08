@@ -14,7 +14,297 @@
    "fotogrammi": 98346,
    "fotogrammi_attesi": 98347,
    "peso_MB": 293.8,
-   "vtt": "Tecnologie_Fibre_analisi_sicurezza_parte_1.vtt"
+   "vtt": "Tecnologie_Fibre_analisi_sicurezza_parte_1.vtt",
+   "scheda": {
+    "materia": "Tecnologie dei materiali",
+    "titolo": "Fibre tessili, analisi e sicurezza · Parte 1",
+    "durata_s": 3278.2,
+    "argomenti": [
+     {
+      "n": 1,
+      "titolo": "Le fibre vegetali e il cotone",
+      "inizio_s": 70.332,
+      "quiz_s": 1172.865
+     },
+     {
+      "n": 2,
+      "titolo": "Il lino",
+      "inizio_s": 1178.165,
+      "quiz_s": 1956.598
+     },
+     {
+      "n": 3,
+      "titolo": "La canapa",
+      "inizio_s": 1961.898,
+      "quiz_s": 2458.664
+     },
+     {
+      "n": 4,
+      "titolo": "Le altre fibre vegetali",
+      "inizio_s": 2463.964,
+      "quiz_s": 3192.763
+     }
+    ],
+    "quiz": {
+     "Q1": {
+      "title": "Quiz 1 · Le fibre vegetali e il cotone",
+      "items": [
+       {
+        "p": "Quali fibre sono classificate come fibre da fusto?",
+        "a": "Il lino, la canapa, la juta e il ramiè",
+        "w": [
+         "Il cotone e il kapok",
+         "Il sisal e l'ananas",
+         "Il cocco e il bambù"
+        ],
+        "ref": "Le fibre da fusto sono il lino, la canapa, la juta e il ramiè."
+       },
+       {
+        "p": "Perché le fibre vegetali sono adatte alla stagione estiva?",
+        "a": "Assorbono il sudore e trattengono poco il calore corporeo",
+        "w": [
+         "Sono molto elastiche e non si stropicciano",
+         "Trattengono il calore e respingono l'acqua",
+         "Sono sintetiche e asciugano subito"
+        ],
+        "ref": "Assorbono il sudore, lasciano traspirare la pelle e trattengono poco il calore corporeo."
+       },
+       {
+        "p": "Che cos'è il cotone sodo?",
+        "a": "Il cotone sgranato e pressato in balle per il trasporto",
+        "w": [
+         "Il cotone appena raccolto dalla capsula",
+         "Il cotone trattato con soda caustica",
+         "Il cotone di qualità più scadente"
+        ],
+        "ref": "Dopo la sgranatura (ginnatura) e la pressatura in balle il cotone prende il nome commerciale di cotone sodo."
+       },
+       {
+        "p": "Quali sono le proprietà commerciali che determinano il valore del cotone?",
+        "a": "Purezza, lunghezza, finezza e provenienza",
+        "w": [
+         "Colore, peso, odore e torsione",
+         "Elasticità, lucentezza, prezzo e marchio",
+         "Densità, umidità, spessore e durezza"
+        ],
+        "ref": "Il valore del cotone sul mercato dipende da purezza, lunghezza, finezza e provenienza."
+       },
+       {
+        "p": "Come brucia il cotone?",
+        "a": "Rapidamente, con odore di carta bruciata e residui leggeri",
+        "w": [
+         "Fonde lentamente e lascia una pallina dura",
+         "Non brucia e si spegne da solo",
+         "Brucia con odore di capelli bruciati"
+        ],
+        "ref": "Il cotone è molto infiammabile: brucia rapidamente con odore di carta bruciata e lascia residui scarsi e leggeri."
+       }
+      ]
+     },
+     "Q2": {
+      "title": "Quiz 2 · Il lino",
+      "items": [
+       {
+        "p": "Quale paese produce oggi il 70% del lino mondiale?",
+        "a": "La Cina",
+        "w": [
+         "La Francia",
+         "Il Belgio",
+         "L'Egitto"
+        ],
+        "ref": "Oggi la Cina detiene il 70% della produzione mondiale di lino."
+       },
+       {
+        "p": "Perché le piante di lino si estirpano intere durante la raccolta?",
+        "a": "Per avere la massima lunghezza della fibra e non disperdere la linfa",
+        "w": [
+         "Per raccogliere più semi",
+         "Per eliminare subito la parte legnosa",
+         "Per evitare la macerazione"
+        ],
+        "ref": "Si estirpano le piante intere per garantire la massima lunghezza della fibra ed evitare che la linfa, disperdendosi, la danneggi."
+       },
+       {
+        "p": "A che cosa serve la macerazione dello stelo di lino?",
+        "a": "A staccare i fasci fibrosi dalla parte corticale",
+        "w": [
+         "A colorare la fibra",
+         "Ad aumentare la torsione della fibra",
+         "A eliminare la cellulosa"
+        ],
+        "ref": "La macerazione favorisce il distacco dei fasci fibrosi dalla parte corticale dello stelo."
+       },
+       {
+        "p": "Come si chiamano gli scarti fibrosi del lino, usati per imbottiture e isolanti?",
+        "a": "Stoppa",
+        "w": [
+         "Linter",
+         "Lint",
+         "Fiocco"
+        ],
+        "ref": "Gli scarti fibrosi o stoppa si usano per imbottiture o come isolanti."
+       },
+       {
+        "p": "A che cosa serve il candeggio del lino?",
+        "a": "A ridurne la rigidità e permetterne la tintura",
+        "w": [
+         "Ad aumentarne il peso",
+         "A renderlo impermeabile",
+         "A farlo restringere"
+        ],
+        "ref": "Il candeggio riduce la rigidità del lino e ne consente la tintura."
+       }
+      ]
+     },
+     "Q3": {
+      "title": "Quiz 3 · La canapa",
+      "items": [
+       {
+        "p": "Quanto dura il ciclo vegetativo della canapa?",
+        "a": "Circa 110–120 giorni",
+        "w": [
+         "Circa 30 giorni",
+         "Circa un anno",
+         "Circa 5 anni"
+        ],
+        "ref": "La canapa ha un breve ciclo vegetativo di circa 110–120 giorni."
+       },
+       {
+        "p": "Quanto sono lunghe le fibre della canapa?",
+        "a": "Tra 90 centimetri e 4 metri",
+        "w": [
+         "Tra 2 e 5 millimetri",
+         "Tra 26 e 29 millimetri",
+         "Più di 10 metri"
+        ],
+        "ref": "Le fibre della canapa sono lunghe tra 90 cm e 4 m."
+       },
+       {
+        "p": "Che cos'è il cafìocco?",
+        "a": "La canapa ridotta a fibre più corte, sottili e soffici",
+        "w": [
+         "Un tessuto misto di canapa e cotone",
+         "Lo scarto legnoso dello stelo",
+         "Un tipo di semi di canapa"
+        ],
+        "ref": "Con un trattamento meccanico la canapa viene ridotta a fibre più corte e sottili: il cafìocco o fiocco di canapa."
+       },
+       {
+        "p": "Perché gli scarti della canapa si usano per sigillare i tubi dell'acqua?",
+        "a": "Con l'umidità si gonfiano e la fibra non marcisce",
+        "w": [
+         "Perché sono elastici come la gomma",
+         "Perché respingono l'acqua",
+         "Perché si sciolgono e fanno da colla"
+        ],
+        "ref": "Con l'umidità la fibra si gonfia chiudendo le fessure, ed è imputrescibile: la tenuta dura nel tempo."
+       },
+       {
+        "p": "Da quali radiazioni protegge la canapa?",
+        "a": "Raggi infrarossi e ultravioletti",
+        "w": [
+         "Raggi X",
+         "Onde radio",
+         "Microonde"
+        ],
+        "ref": "La canapa filtra un'elevata quota di raggi infrarossi e ultravioletti."
+       }
+      ]
+     },
+     "Q4": {
+      "title": "Quiz 4 · Le altre fibre vegetali",
+      "items": [
+       {
+        "p": "Perché la juta viene spesso usata al posto della canapa?",
+        "a": "Perché le somiglia molto, ma è priva di sostanze stupefacenti",
+        "w": [
+         "Perché è più elastica",
+         "Perché è più lucente della seta",
+         "Perché si tinge facilmente in colori chiari"
+        ],
+        "ref": "La juta somiglia molto alla canapa, ma è priva di sostanze stupefacenti: per questo la sostituisce spesso."
+       },
+       {
+        "p": "Da quale pianta si ricava il ramiè?",
+        "a": "Dalla Boehmeria",
+        "w": [
+         "Dalla Ceiba pentandra",
+         "Dall'Agave sisalana",
+         "Dal Linum usitatissimum"
+        ],
+        "ref": "Il ramiè si estrae dai ramoscelli di una pianta chiamata Boehmeria."
+       },
+       {
+        "p": "Per quanto tempo il guscio del cocco resta in acqua per estrarre la fibra?",
+        "a": "Fino a 8 mesi",
+        "w": [
+         "Poche ore",
+         "Due giorni",
+         "Dieci anni"
+        ],
+        "ref": "Per estrarre la fibra di cocco il guscio resta immerso in acqua fino a 8 mesi."
+       },
+       {
+        "p": "Perché il kapok è chiamato anche cotone serico o falso cotone?",
+        "a": "Per la sua lucentezza e per le capsule piene di peluria",
+        "w": [
+         "Perché è un cotone tinto",
+         "Perché si ricava dalla seta",
+         "Perché è una fibra sintetica"
+        ],
+        "ref": "Per la sua lucentezza è chiamato cotone serico; falso cotone per l'aspetto delle capsule cariche di peluria."
+       },
+       {
+        "p": "Quale fibra innovativa si ricava dal midollo e si usa per l'intimo?",
+        "a": "Il bambù",
+        "w": [
+         "L'ananas",
+         "Il sisal",
+         "Il cocco"
+        ],
+        "ref": "Dal midollo di bambù si ottiene una fibra antibatterica e traspirante, molto usata nell'intimo femminile."
+       }
+      ]
+     }
+    }
+   },
+   "timeline": [
+    [
+     "T1",
+     70.332,
+     3.6
+    ],
+    [
+     "Q1",
+     1172.865,
+     4.0
+    ],
+    [
+     "T2",
+     1178.165,
+     3.6
+    ],
+    [
+     "T3",
+     1961.898,
+     3.6
+    ],
+    [
+     "T4",
+     2463.964,
+     3.6
+    ],
+    [
+     "GL1",
+     3198.063,
+     62.833
+    ],
+    [
+     "FIN1",
+     3262.296,
+     8.0
+    ]
+   ]
   },
   "2": {
    "stato": "PRONTA",
@@ -28,7 +318,226 @@
    "fotogrammi": 94564,
    "fotogrammi_attesi": 94566,
    "peso_MB": 267.5,
-   "vtt": "Tecnologie_Fibre_analisi_sicurezza_parte_2.vtt"
+   "vtt": "Tecnologie_Fibre_analisi_sicurezza_parte_2.vtt",
+   "scheda": {
+    "materia": "Tecnologie dei materiali",
+    "titolo": "Fibre tessili, analisi e sicurezza · Parte 2",
+    "durata_s": 3152.13,
+    "argomenti": [
+     {
+      "n": 5,
+      "titolo": "Le fibre man-made e la filatura chimica",
+      "inizio_s": 74.233,
+      "quiz_s": 759.2
+     },
+     {
+      "n": 6,
+      "titolo": "Le fibre artificiali",
+      "inizio_s": 764.5,
+      "quiz_s": 2150.799
+     },
+     {
+      "n": 7,
+      "titolo": "Le fibre sintetiche",
+      "inizio_s": 2156.099,
+      "quiz_s": 3067.031
+     }
+    ],
+    "quiz": {
+     "Q5": {
+      "title": "Quiz 5 · Le fibre man-made e la filatura chimica",
+      "items": [
+       {
+        "p": "Che cosa sono le fibre man-made?",
+        "a": "Fibre non presenti in natura, prodotte dall'uomo con processi chimici",
+        "w": [
+         "Fibre naturali lavorate a mano",
+         "Fibre vegetali raccolte a macchina",
+         "Fibre animali tinte"
+        ],
+        "ref": "Le fibre man-made non sono disponibili in natura: l'uomo le produce con processi chimici a partire da polimeri naturali o chimici."
+       },
+       {
+        "p": "Quale quota della produzione mondiale di fibre occupano oggi le man-made?",
+        "a": "Più del 60%",
+        "w": [
+         "Circa il 5%",
+         "Circa il 20%",
+         "Il 100%"
+        ],
+        "ref": "Oggi le fibre man-made superano il 60% della produzione mondiale di fibre tessili."
+       },
+       {
+        "p": "Che cos'è la filiera?",
+        "a": "Un elemento metallico con fori da cui esce il polimero, un filamento per foro",
+        "w": [
+         "La macchina che raccoglie il cotone",
+         "Un tipo di tessuto",
+         "Il magazzino delle balle"
+        ],
+        "ref": "La filiera è un elemento metallico forato: il polimero passa nei fori e da ogni foro nasce un filamento."
+       },
+       {
+        "p": "Come si solidificano le bave nella filatura per fusione?",
+        "a": "Per raffreddamento dopo l'uscita dalla filiera",
+        "w": [
+         "Per evaporazione del solvente con aria",
+         "Per reazione chimica in un bagno",
+         "Per essiccazione al sole"
+        ],
+        "ref": "Nella filatura per fusione i composti fusi si solidificano raffreddandosi all'uscita dalla filiera."
+       },
+       {
+        "p": "Perché le microfibre hanno un valore commerciale alto?",
+        "a": "Perché più una fibra è fine, più vale",
+        "w": [
+         "Perché sono più pesanti",
+         "Perché sono sempre naturali",
+         "Perché non si possono tingere"
+        ],
+        "ref": "Ai fini commerciali conta la finezza: più la fibra è fine, più il suo valore è alto. Per questo si producono microfibre."
+       }
+      ]
+     },
+     "Q6": {
+      "title": "Quiz 6 · Le fibre artificiali",
+      "items": [
+       {
+        "p": "Da quali polimeri naturali si ottengono le fibre artificiali?",
+        "a": "Cellulosa, caseina del latte e acido alginico delle alghe",
+        "w": [
+         "Petrolio, carbone e gas naturale",
+         "Sabbia e argilla",
+         "Ferro e rame"
+        ],
+        "ref": "Le fibre artificiali derivano da polimeri già presenti in natura: cellulosa, caseina del latte, acido alginico delle alghe."
+       },
+       {
+        "p": "Quale fibra naturale volevano imitare le prime fibre artificiali?",
+        "a": "La seta",
+        "w": [
+         "La lana",
+         "Il lino",
+         "La canapa"
+        ],
+        "ref": "Le fibre artificiali nacquero per imitare la seta: all'inizio si chiamavano sete artificiali."
+       },
+       {
+        "p": "Da che cosa si ottiene principalmente la viscosa?",
+        "a": "Dalla pasta di legno di alberi a crescita rapida",
+        "w": [
+         "Dal latte",
+         "Dal petrolio",
+         "Dai gusci dei crostacei"
+        ],
+        "ref": "La viscosa si ottiene principalmente dalla pasta di legno di alberi a crescita rapida."
+       },
+       {
+        "p": "Perché l'acetato non è indicato per i capi estivi?",
+        "a": "Assorbe poco il sudore e trattiene molto il calore",
+        "w": [
+         "Perché si strappa con il sole",
+         "Perché è troppo trasparente",
+         "Perché si restringe al caldo"
+        ],
+        "ref": "L'acetato è poco igroscopico e trattiene molto il calore corporeo: non va bene per l'estate."
+       },
+       {
+        "p": "Quale effetto dà la fibrillazione del lyocell?",
+        "a": "Un effetto brinato e una mano simile alla pesca o al camoscio",
+        "w": [
+         "Una lucentezza a specchio",
+         "Un tessuto impermeabile",
+         "Un colore più scuro"
+        ],
+        "ref": "La fibrillazione crea microfilamenti in superficie: il tessuto prende un effetto brinato e una mano tipo pelle di pesca o camoscio."
+       }
+      ]
+     },
+     "Q7": {
+      "title": "Quiz 7 · Le fibre sintetiche",
+      "items": [
+       {
+        "p": "Da quali materie prime derivano le fibre sintetiche?",
+        "a": "Petrolio, carbone e gas naturale",
+        "w": [
+         "Legno e cotone",
+         "Latte e alghe",
+         "Lana e seta"
+        ],
+        "ref": "Le fibre sintetiche derivano da composti chimici ottenuti da petrolio, carbone e gas naturale."
+       },
+       {
+        "p": "Come si comportano le fibre sintetiche alla fiamma?",
+        "a": "Fondono, fanno fumi grigi e lasciano un residuo solido e scuro",
+        "w": [
+         "Bruciano con odore di carta bruciata",
+         "Non cambiano aspetto",
+         "Si sciolgono in acqua"
+        ],
+        "ref": "Le sintetiche fondono alla fiamma, generano fumi grigi e lasciano un residuo solido e scuro."
+       },
+       {
+        "p": "Quale quota del mercato tessile mondiale copre il poliestere?",
+        "a": "Circa il 40%",
+        "w": [
+         "Circa l'1%",
+         "Circa il 10%",
+         "Il 90%"
+        ],
+        "ref": "Il poliestere è la sintetica più diffusa: circa il 40% del mercato tessile mondiale."
+       },
+       {
+        "p": "Quanto può allungarsi l'elastan prima di rompersi?",
+        "a": "Dal 400% al 700%",
+        "w": [
+         "Dal 5% al 10%",
+         "Fino al 60%",
+         "Non si allunga"
+        ],
+        "ref": "L'elastan ha un allungamento a rottura tra il 400% e il 700%, con recupero totale."
+       },
+       {
+        "p": "Quale fibra è 5 volte più resistente dell'acciaio a parità di peso?",
+        "a": "L'aramide",
+        "w": [
+         "L'acrilica",
+         "La polipropilenica",
+         "La viscosa"
+        ],
+        "ref": "L'aramide (Nomex, Kevlar) ha una resistenza pari a 5 volte quella dell'acciaio a parità di peso."
+       }
+      ]
+     }
+    }
+   },
+   "timeline": [
+    [
+     "T5",
+     74.233,
+     3.6
+    ],
+    [
+     "T6",
+     764.5,
+     3.6
+    ],
+    [
+     "T7",
+     2156.099,
+     3.6
+    ],
+    [
+     "GL2",
+     3072.331,
+     62.5
+    ],
+    [
+     "FIN2",
+     3136.231,
+     8.0
+    ]
+   ]
   },
   "3": {
    "stato": "PRONTA",
@@ -42,7 +551,307 @@
    "fotogrammi": 94781,
    "fotogrammi_attesi": 94782,
    "peso_MB": 281.9,
-   "vtt": "Tecnologie_Fibre_analisi_sicurezza_parte_3.vtt"
+   "vtt": "Tecnologie_Fibre_analisi_sicurezza_parte_3.vtt",
+   "scheda": {
+    "materia": "Tecnologie dei materiali",
+    "titolo": "Fibre tessili, analisi e sicurezza · Parte 3",
+    "durata_s": 3159.37,
+    "argomenti": [
+     {
+      "n": 8,
+      "titolo": "Prime lavorazioni e analisi di laboratorio",
+      "inizio_s": 68.166,
+      "quiz_s": 1036.9
+     },
+     {
+      "n": 9,
+      "titolo": "La sicurezza sul lavoro",
+      "inizio_s": 1042.2,
+      "quiz_s": 1635.366
+     },
+     {
+      "n": 10,
+      "titolo": "I rischi chimici e le etichette",
+      "inizio_s": 1640.666,
+      "quiz_s": 2482.133
+     },
+     {
+      "n": 11,
+      "titolo": "Le fibre animali e le eccellenze",
+      "inizio_s": 2487.433,
+      "quiz_s": 3020.133
+     }
+    ],
+    "quiz": {
+     "Q8": {
+      "title": "Quiz 8 · Prime lavorazioni e analisi di laboratorio",
+      "items": [
+       {
+        "p": "A che cosa serve la scopinatura?",
+        "a": "A trovare i capi delle bave strofinando i bozzoli con una spazzola",
+        "w": [
+         "A pulire il cotone dai semi",
+         "A separare il lino dalla parte legnosa",
+         "A tagliare le fibre chimiche"
+        ],
+        "ref": "La scopinatura strofina i bozzoli con una spazzola per individuare i capi delle bave."
+       },
+       {
+        "p": "Che cosa fa la macchina apriballe?",
+        "a": "Raschia la balla pressata e fa cadere le fibre sul nastro trasportatore",
+        "w": [
+         "Tinge le fibre",
+         "Imballa i tessuti finiti",
+         "Cuce i capi"
+        ],
+        "ref": "L'apriballe ha un nastro con punte d'acciaio che raschia la balla e fa ricadere il materiale sul nastro trasportatore."
+       },
+       {
+        "p": "Con che cosa si puliscono i vetrini per il microscopio?",
+        "a": "Con alcool e carta per microscopia",
+        "w": [
+         "Con acqua e sapone",
+         "Con un panno di lana",
+         "Con acetone e cotone"
+        ],
+        "ref": "I vetrini si puliscono con alcool e carta per microscopia, che asciuga senza diluire il preparato."
+       },
+       {
+        "p": "Perché la prova di combustione è poco affidabile con le fibre in mischia?",
+        "a": "Perché la fibra presente in percentuale maggiore prevale sull'altra",
+        "w": [
+         "Perché le mischie non bruciano",
+         "Perché servono due provette",
+         "Perché la cartina si scioglie"
+        ],
+        "ref": "Nelle mischie la fibra in percentuale maggiore tende ad avere il sopravvento: il risultato è poco affidabile."
+       },
+       {
+        "p": "Che cosa fa il reattivo di Schweitzer?",
+        "a": "Scioglie la lana e lascia intatte seta e fibre vegetali",
+        "w": [
+         "Scioglie tutte le fibre",
+         "Colora la seta di rosso",
+         "Fa brillare il cotone"
+        ],
+        "ref": "Il reattivo di Schweitzer (solfato di rame e ammoniaca) scioglie la lana e lascia intatte seta e fibre vegetali."
+       }
+      ]
+     },
+     "Q9": {
+      "title": "Quiz 9 · La sicurezza sul lavoro",
+      "items": [
+       {
+        "p": "Quale articolo della Costituzione sancisce la salute come diritto fondamentale?",
+        "a": "L'articolo 32",
+        "w": [
+         "L'articolo 1",
+         "L'articolo 41",
+         "L'articolo 2087"
+        ],
+        "ref": "L'articolo 32 della Costituzione sancisce la salute come diritto fondamentale."
+       },
+       {
+        "p": "Come si chiama il testo unico sulla sicurezza sul lavoro?",
+        "a": "Decreto Legislativo 81/2008",
+        "w": [
+         "Regolamento CE 1272/2008",
+         "Direttiva 89/391/CEE",
+         "Articolo 2087 del Codice Civile"
+        ],
+        "ref": "Il recepimento delle direttive europee ha portato al testo unico sulla sicurezza, il Decreto Legislativo 81/2008."
+       },
+       {
+        "p": "Quale di questi è un obbligo dei lavoratori?",
+        "a": "Usare correttamente macchinari e dispositivi di protezione",
+        "w": [
+         "Scegliere da soli le misure di sicurezza",
+         "Fare la manutenzione degli impianti",
+         "Organizzare le visite mediche"
+        ],
+        "ref": "I lavoratori devono rispettare le istruzioni, usare bene macchinari e dispositivi di protezione, segnalare i guasti e fare le visite mediche."
+       },
+       {
+        "p": "Qual è il pericolo maggiore nell'uso dei carrelli elevatori?",
+        "a": "Il ribaltamento del mezzo",
+        "w": [
+         "Il rumore del motore",
+         "La foratura delle ruote",
+         "Il consumo di carburante"
+        ],
+        "ref": "Il pericolo maggiore dei carrelli elevatori è il ribaltamento."
+       },
+       {
+        "p": "Quale regola vale per chi guida il carrello elevatore?",
+        "a": "Non trasportare mai passeggeri",
+        "w": [
+         "Procedere sempre veloce",
+         "Spingere i carichi con il mezzo",
+         "Entrare sulla strada pubblica con il carico"
+        ],
+        "ref": "Con il carrello non si trasportano mai passeggeri e non si usa il mezzo per spingere i carichi."
+       }
+      ]
+     },
+     "Q10": {
+      "title": "Quiz 10 · I rischi chimici e le etichette",
+      "items": [
+       {
+        "p": "Che cos'è una miscela nel linguaggio tecnico?",
+        "a": "Una soluzione di due o più sostanze",
+        "w": [
+         "Un singolo elemento chimico",
+         "Un prodotto con nome commerciale",
+         "Un tessuto misto"
+        ],
+        "ref": "Una sostanza è un singolo elemento; una miscela è una soluzione di due o più sostanze; un prodotto è una miscela con un nome commerciale."
+       },
+       {
+        "p": "Qual è il comburente principale?",
+        "a": "L'ossigeno dell'aria",
+        "w": [
+         "L'acqua",
+         "L'azoto",
+         "Il cotone"
+        ],
+        "ref": "I comburenti favoriscono la combustione: il principale è l'ossigeno atmosferico."
+       },
+       {
+        "p": "Che cosa indicano le frasi H sull'etichetta?",
+        "a": "La natura del pericolo",
+        "w": [
+         "I consigli di prudenza",
+         "Il prezzo del prodotto",
+         "La data di scadenza"
+        ],
+        "ref": "Le frasi H indicano la natura del rischio; le frasi P danno i consigli di prudenza."
+       },
+       {
+        "p": "Che cosa significa la frase P102?",
+        "a": "Tenere fuori dalla portata dei bambini",
+        "w": [
+         "Consultare un medico",
+         "Conservare in luogo fresco",
+         "Sciacquare la bocca"
+        ],
+        "ref": "La frase P102 significa: tenere fuori dalla portata dei bambini."
+       },
+       {
+        "p": "Che cosa si fa in caso di spruzzi negli occhi in laboratorio?",
+        "a": "Si lava con molta acqua o al bagno oculare e si chiama subito un medico",
+        "w": [
+         "Si strofinano gli occhi",
+         "Si aspetta che passi",
+         "Si usa l'acetone"
+        ],
+        "ref": "In caso di spruzzi negli occhi si lava abbondantemente con acqua o al bagno oculare e si consulta subito un medico."
+       }
+      ]
+     },
+     "Q11": {
+      "title": "Quiz 11 · Le fibre animali e le eccellenze",
+      "items": [
+       {
+        "p": "Da quale animale si ricava il cashmere?",
+        "a": "Dalla capra del Kashmir",
+        "w": [
+         "Dalla capra d'Angora",
+         "Dal coniglio d'Angora",
+         "Dall'alpaca"
+        ],
+        "ref": "Il cashmere si ricava dalla capra del Kashmir; il mohair dalla capra d'Angora."
+       },
+       {
+        "p": "Che cosa distingue le fibre animali da quelle vegetali?",
+        "a": "Maggiore termocoibenza e una diversa struttura al microscopio",
+        "w": [
+         "Sono tutte più lunghe",
+         "Contengono più cellulosa",
+         "Non si possono filare"
+        ],
+        "ref": "Le fibre animali isolano di più dal freddo e dal caldo e hanno una diversa struttura cellulare visibile al microscopio."
+       },
+       {
+        "p": "A che cosa serve la stufatura dei bozzoli?",
+        "a": "A uccidere la crisalide senza danneggiare il filo",
+        "w": [
+         "A tingere la seta",
+         "A lavare la lana",
+         "A tagliare il vello"
+        ],
+        "ref": "La stufatura uccide la crisalide dentro il bozzolo senza danneggiare il filo."
+       },
+       {
+        "p": "A che cosa serve la sgommatura della seta?",
+        "a": "A eliminare la sericina e far risaltare la lucentezza",
+        "w": [
+         "A rendere la seta più rigida",
+         "A unire più bave",
+         "A selezionare i bozzoli"
+        ],
+        "ref": "La sgommatura elimina la sericina e libera la lucentezza della fibroina."
+       },
+       {
+        "p": "Nell'analisi del telo «100% cashmere», che cosa si è scoperto?",
+        "a": "Conteneva l'89% di cashmere e l'11% di lana: non era conforme",
+        "w": [
+         "Era davvero 100% cashmere",
+         "Conteneva solo lana",
+         "Conteneva poliestere"
+        ],
+        "ref": "Il laboratorio ha trovato 89% cashmere e 11% lana: il prodotto non era conforme all'etichetta."
+       }
+      ]
+     }
+    }
+   },
+   "timeline": [
+    [
+     "T8",
+     68.166,
+     3.6
+    ],
+    [
+     "T9",
+     1042.2,
+     3.6
+    ],
+    [
+     "T10",
+     1640.666,
+     3.6
+    ],
+    [
+     "Q10",
+     2482.133,
+     4.0
+    ],
+    [
+     "T11",
+     2487.433,
+     3.6
+    ],
+    [
+     "Q11",
+     3020.133,
+     4.0
+    ],
+    [
+     "GL3",
+     3025.433,
+     62.567
+    ],
+    [
+     "RF3",
+     3089.6,
+     52.467
+    ],
+    [
+     "FIN3",
+     3143.467,
+     8.0
+    ]
+   ]
   }
  },
  "manca": "",
@@ -57,5 +866,5 @@
  "materia": "Tecnologie dei materiali (moda III)",
  "lezione": "Lezione 2 · Fibre tessili, analisi e sicurezza",
  "docente": "Prof.ssa Piera Caputi",
- "aggiornato": "2026-11-08 14:10:49"
+ "aggiornato": "2026-11-08 15:42:22"
 }
