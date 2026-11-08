@@ -1,3 +1,5 @@
+[08/11 15:41] Quando una Parte è PRONTA, aggiorna il kit (git fetch -q origin main && git checkout origin/main -- kit && cp kit/tools/*.py tools/) e rifai lo stato con la scheda e la timeline: python3 tools/stato.py <tag> --parte N --scheda <scheda_pubblicazione.json> --timeline <timeline.json> --invia . Serve alla master per preparare il testo YouTube con i capitoli. Vale anche per le Parti già consegnate.
+
 DALLA MASTER (8/11 sera)
 - Sigla d Inglese pronta: kit/sigle/Sigla_Inglese_15s.mp4 su main (git fetch -q origin main && git checkout origin/main -- kit). Usala al posto del segnaposto.
 - Nuovi strumenti nel kit: controllo_finale.py, testo_youtube.py (vedi kit/LEGGIMI.md).
