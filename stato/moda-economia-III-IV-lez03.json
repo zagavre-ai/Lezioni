@@ -1,12 +1,23 @@
 {
  "tag": "moda-economia-III-IV-lez03",
- "parti": {},
+ "parti": {
+  "1": {
+   "titolo": "Marketing",
+   "stato": "IN_MONTAGGIO",
+   "voci": "segnaposto"
+  }
+ },
  "manca": "",
  "serve_master": [],
  "domande_sara": [],
- "note": [],
+ "note": [
+  {
+   "quando": "08/11 15:19",
+   "testo": "Lezione in UNA Parte (docente 51:51; con inserti stimati circa 63 min, entro i 65). 7 argomenti, 7 quiz da 5 domande. Testi voci definitivi (18 blocchi, ~7.800 caratteri) caricati in voci-moda-economia-III-IV-lez03. Kit gia' scompattati sulla macchina (non riscompattati in / per non sovrascrivere i file di Tecnologie in lavorazione); modello = Tecnologie lez05/lez02."
+  }
+ ],
  "materia": "Economia e marketing delle aziende della moda (III + IV)",
  "lezione": "Lezione 3 · Marketing",
  "docente": "Prof.ssa Piera Caputi",
- "aggiornato": "2026-11-08 15:14:10"
+ "aggiornato": "2026-11-08 15:19:57"
 }
