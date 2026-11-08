@@ -6,7 +6,7 @@
 # Scrive VIDEO.controllo.txt e, con --tag, aggiorna lo stato per la master (tools/stato.py).
 import sys,os,json,re,subprocess,argparse,numpy as np
 a=argparse.ArgumentParser();a.add_argument('video');a.add_argument('timeline');a.add_argument('vtt')
-for k in ['tag','parte','titolo','voci']:a.add_argument('--'+k)
+for k in ['tag','parte','titolo','voci','scheda']:a.add_argument('--'+k)
 a.add_argument('--invia',action='store_true');a.add_argument('--joff',type=float,default=0.5);o=a.parse_args()
 V=o.video;TL=json.load(open(o.timeline));R=[];OK={}
 def sh(c):return subprocess.run(c,capture_output=True,text=True)
@@ -70,5 +70,7 @@ if o.tag and o.parte:
        '--stato','PRONTA' if tutto else 'IN_MONTAGGIO','--nota','controllo_finale: '+R[-1]]
     if o.titolo:c+=['--titolo',o.titolo]
     if o.voci:c+=['--voci',o.voci]
+    if o.scheda:c+=['--scheda',o.scheda]
+    c+=['--timeline',o.timeline]
     if o.invia:c+=['--invia']
     print(sh(c).stdout[-300:])

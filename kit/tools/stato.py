@@ -3,14 +3,14 @@
 # uso:
 #   python3 tools/stato.py TAG --materia "Storia III" --lezione "Lezione 2 · titolo" --docente "Prof. ..."
 #   python3 tools/stato.py TAG --parte 1 --titolo "..." --stato IN_MONTAGGIO|IN_CODIFICA|PRONTA|FERMA \
-#          [--video FILE.mp4] [--vtt FILE.vtt] [--voci kore|segnaposto] [--quiz_ok si|no] [--fermi_ok si|no] [--sub_ok si|no]
+#          [--video FILE.mp4] [--vtt FILE.vtt] [--scheda scheda_pubblicazione.json] [--timeline timeline.json] [--voci kore|segnaposto] [--quiz_ok si|no] [--fermi_ok si|no] [--sub_ok si|no]
 #   python3 tools/stato.py TAG --manca "testo" --serve_master "testo" --domanda_sara "testo" --nota "testo"
 #   python3 tools/stato.py TAG --invia      (carica su GitHub; si può aggiungere a qualsiasi chiamata)
 # Durata, fotogrammi e peso del video li MISURA da solo (ffprobe): non si scrivono a mano.
 import sys,os,json,argparse,subprocess,time,shutil
 REPO='/home/claude/lezioni'
 a=argparse.ArgumentParser();a.add_argument('tag')
-for k in ['materia','lezione','docente','parte','titolo','stato','video','vtt','voci','quiz_ok','fermi_ok','sub_ok','manca','serve_master','domanda_sara','nota']:a.add_argument('--'+k)
+for k in ['materia','lezione','docente','parte','titolo','stato','video','vtt','voci','quiz_ok','fermi_ok','sub_ok','manca','serve_master','domanda_sara','nota','scheda','timeline']:a.add_argument('--'+k)
 a.add_argument('--invia',action='store_true');o=a.parse_args()
 F=f'{REPO}/stato_locale/{o.tag}.json';os.makedirs(os.path.dirname(F),exist_ok=True)
 S=json.load(open(F)) if os.path.exists(F) else {'tag':o.tag,'parti':{},'manca':'','serve_master':[],'domande_sara':[],'note':[]}
@@ -26,6 +26,8 @@ if o.parte:
         if getattr(o,k):P[k]=getattr(o,k)
     if o.video:P['video']=os.path.basename(o.video);P.update(misura(o.video))
     if o.vtt:P['vtt']=os.path.basename(o.vtt)
+    if o.scheda:P['scheda']=json.load(open(o.scheda))   # serve alla master per il testo YouTube (capitoli)
+    if o.timeline:P['timeline']=[x for x in json.load(open(o.timeline)) if str(x[0])[:2] in ('GL','RF','FI','T1','T2','T3','T4','T5','T6','T7','T8','T9','Q1')][:40]
     if P.get('stato')=='PRONTA':
         bad=[k for k in ['quiz_ok','fermi_ok','sub_ok'] if P.get(k)!='si']+(['voci'] if P.get('voci')!='kore' else [])+(['peso'] if P.get('peso_MB',0)>419 else [])
         if bad:P['stato']='IN_MONTAGGIO';print('NON PRONTA, manca:',bad)

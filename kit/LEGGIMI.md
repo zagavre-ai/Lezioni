@@ -8,3 +8,4 @@ Prima di iniziare leggi kit/REGOLE.md. Le novità sono in fondo a questo file.
 - Se `git pull` non funziona (modifiche locali): `git fetch -q origin main && git checkout origin/main -- kit && cp kit/tools/*.py tools/`
 - 8/11 sera: scheda_da_timeline.py prende la materia come 6° argomento (prima era fissa «Tecnologie»); tools/testo_youtube.py (testo per YouTube con capitoli). Scheda Quiz: titoli lunghi su 2 righe, non sotto l icona play.
 - 8/11 notte: kit/sigle/Sigla_Inglese_15s.mp4 (sigla d Inglese, stessa famiglia di Letteratura; sostituisce il segnaposto).
+- 8/11 notte: stato.py e controllo_finale.py accettano --scheda scheda_pubblicazione.json (e la timeline): la master prepara da sola il testo YouTube con i capitoli. Quando una Parte è PRONTA rifai: python3 tools/stato.py <tag> --parte N --scheda <scheda.json> --timeline <timeline.json> --invia
