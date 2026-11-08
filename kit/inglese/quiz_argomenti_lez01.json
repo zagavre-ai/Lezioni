@@ -1,0 +1,277 @@
+{
+ "Q1": {
+  "title": "Quiz 1 · Globalisation",
+  "items": [
+   {
+    "p": "How can globalisation be defined?",
+    "a": "The increasing level of integration of the world we live in",
+    "w": [
+     "The decreasing role of international trade",
+     "The independence of national economies",
+     "The protection of local markets from foreign products"
+    ],
+    "ref": "Globalisation can be defined as the increasing level of integration of the world we live in."
+   },
+   {
+    "p": "In business terms, globalisation has to do with…",
+    "a": "the increasing interdependence of world economies",
+    "w": [
+     "the closing of national borders to trade",
+     "the reduction of multinational corporations",
+     "the end of international investments"
+    ],
+    "ref": "In business terms, globalisation has to do with the increasing interdependence of world economies."
+   },
+   {
+    "p": "Which of these is one of the most visible effects of globalisation?",
+    "a": "A rise in the number of multinational corporations",
+    "w": [
+     "A decrease in international trade",
+     "Fewer goods exchanged between countries",
+     "Less movement of capital"
+    ],
+    "ref": "The effects are free movement of capital, goods and services, development of international trade and a rise in the number of multinational corporations."
+   },
+   {
+    "p": "Why did transportation help globalisation?",
+    "a": "Larger, faster ships and economies of scale made each item cheaper",
+    "w": [
+     "Ships became smaller and slower",
+     "Transport was banned between continents",
+     "Goods could only travel by air"
+    ],
+    "ref": "Larger ships and speed of transport, plus economies of scale: the cost per item is lower for large quantities."
+   },
+   {
+    "p": "Why do many companies produce in LDCs (Least Developed Countries)?",
+    "a": "Less regulation and lower labour costs",
+    "w": [
+     "Higher taxes and stricter rules",
+     "No workers are available there",
+     "Products cannot be exported from there"
+    ],
+    "ref": "Labour availability in LDCs: less regulation and lower labour costs."
+   }
+  ]
+ },
+ "Q2": {
+  "title": "Quiz 2 · Technological advancement",
+  "items": [
+   {
+    "p": "Why does technological advancement have a deep impact on business?",
+    "a": "New products arrive and goods are produced and delivered in better and faster ways",
+    "w": [
+     "It makes all products more expensive",
+     "It stops companies from producing new goods",
+     "It only affects the entertainment industry"
+    ],
+    "ref": "While new products are introduced on the market, also better and faster ways of producing and delivering goods are developed."
+   },
+   {
+    "p": "What are smart factories?",
+    "a": "Plants that are more efficient, more productive and less wasteful",
+    "w": [
+     "Factories run only by hand",
+     "Small family workshops",
+     "Factories without any machines"
+    ],
+    "ref": "Smart factories are plants that are more efficient and productive, and less wasteful."
+   },
+   {
+    "p": "What is the Internet of Things (IoT)?",
+    "a": "Machines with sensors that connect and exchange data with other devices",
+    "w": [
+     "A social media platform for factories",
+     "A type of mobile phone",
+     "A list of websites for businesses"
+    ],
+    "ref": "In smart factories machines have sensors allowing them to connect and exchange data with other devices."
+   },
+   {
+    "p": "What is a Digital Twin?",
+    "a": "A virtual replica of a process, a production line or a supply chain",
+    "w": [
+     "A second factory built next to the first",
+     "A copy of a worker's identity card",
+     "A twin brother who works in the same company"
+    ],
+    "ref": "Digital Twin: virtual replicas of processes, lines of production and supply chains, used to increase productivity and test changes."
+   },
+   {
+    "p": "What is the difference between edge computing and cloud computing?",
+    "a": "Edge computing processes data on the user's own device; cloud computing delivers services over the internet",
+    "w": [
+     "They are exactly the same thing",
+     "Edge computing uses only paper archives",
+     "Cloud computing works only without internet"
+    ],
+    "ref": "Edge computing: local processing on the user's own device. Cloud computing: delivery of services over the internet."
+   }
+  ]
+ },
+ "Q3": {
+  "title": "Quiz 3 · Diversity and inclusion",
+  "items": [
+   {
+    "p": "Which factors changed society and its attitude towards diversity?",
+    "a": "Globalisation, technological development and migration",
+    "w": [
+     "Only the weather",
+     "Only the end of the pandemic",
+     "The closing of borders"
+    ],
+    "ref": "Society has radically changed due to globalisation, technological development and migration."
+   },
+   {
+    "p": "What do many people believe today about opportunities?",
+    "a": "Everyone should have equal access to them, regardless of their conditions",
+    "w": [
+     "Only some groups should have them",
+     "Opportunities depend only on age",
+     "Opportunities should be decided by chance"
+    ],
+    "ref": "People believe everyone should have equal access to opportunities, regardless of gender, age, ethnicity, religion, sexual orientation and ability."
+   },
+   {
+    "p": "Which of these conditions is mentioned in the handout?",
+    "a": "Mental and physical ability",
+    "w": [
+     "Favourite sport",
+     "Shoe size",
+     "Mobile phone brand"
+    ],
+    "ref": "The conditions listed are gender, age, ethnicity, religion, sexual orientation, mental and physical ability."
+   },
+   {
+    "p": "Who is \"GenZ\"?",
+    "a": "The young people now looking for a job",
+    "w": [
+     "Retired workers",
+     "Company managers over 60",
+     "Primary school children"
+    ],
+    "ref": "The majority of young people looking for a job (GenZ) consider diversity and inclusion important."
+   },
+   {
+    "p": "What do businesses need to do to attract and retain young talents?",
+    "a": "Rethink their recruitment policies and value everyone's contribution",
+    "w": [
+     "Reduce all salaries",
+     "Hire only people from one country",
+     "Stop recruiting young people"
+    ],
+    "ref": "Businesses need to rethink their recruitment policies and the way they include and value everyone's contribution."
+   }
+  ]
+ },
+ "Q4": {
+  "title": "Quiz 4 · World instability",
+  "items": [
+   {
+    "p": "Since when has a wave of global instability been going on?",
+    "a": "Since 2019",
+    "w": [
+     "Since 1989",
+     "Since 2010",
+     "Since 2024"
+    ],
+    "ref": "A wave of instability on a global level has been going since 2019."
+   },
+   {
+    "p": "Which was a disruptive effect of the pandemic on the economy?",
+    "a": "Shortages in labour and delays in raw materials and deliveries",
+    "w": [
+     "Lower prices for all transport",
+     "More workers than jobs everywhere",
+     "Faster deliveries of finished goods"
+    ],
+    "ref": "There were shortages in labour, logistical bottlenecks, and delays in raw materials and finished goods."
+   },
+   {
+    "p": "What was the most visible effect of the war in Ukraine on countries not directly involved?",
+    "a": "Inflationary pressure, with higher transport costs and raw material prices",
+    "w": [
+     "A fall in all prices",
+     "Lower transport costs",
+     "An increase in investor confidence"
+    ],
+    "ref": "The most visible effect was the inflationary pressure: higher transportation costs and higher prices of raw materials."
+   },
+   {
+    "p": "According to the European Central Bank survey, what did the pandemic transform?",
+    "a": "The way businesses operate and the behaviour of customers",
+    "w": [
+     "Only the opening hours of shops",
+     "Only the colours of products",
+     "Nothing in the long term"
+    ],
+    "ref": "The survey showed the pandemic transformed both the way businesses operate and the general behaviour of customers."
+   },
+   {
+    "p": "When did the global Covid-19 pandemic end, according to the handout?",
+    "a": "In 2022",
+    "w": [
+     "In 2019",
+     "In 2020",
+     "In 2025"
+    ],
+    "ref": "With the end of the global pandemic of Covid-19 in 2022, many countries abandoned lockdowns and travel restrictions."
+   }
+  ]
+ },
+ "Q5": {
+  "title": "Quiz 5 · Environmental concerns",
+  "items": [
+   {
+    "p": "In how many ways does climate change influence business, according to the handout?",
+    "a": "6",
+    "w": [
+     "2",
+     "4",
+     "10"
+    ],
+    "ref": "Climate change influences business in 6 ways."
+   },
+   {
+    "p": "Why does climate change increase the risk for businesses?",
+    "a": "It makes extreme weather events like floods and droughts more likely",
+    "w": [
+     "It reduces the number of customers to zero",
+     "It makes all products cheaper",
+     "It stops international trade"
+    ],
+    "ref": "Climate change increases the likelihood of extreme weather events, which can damage businesses."
+   },
+   {
+    "p": "What happens when resources become scarce because of global warming?",
+    "a": "Their price tends to increase",
+    "w": [
+     "Their price tends to fall",
+     "They become free",
+     "Nothing changes"
+    ],
+    "ref": "If resources are scarce, their price tends to increase."
+   },
+   {
+    "p": "What do most customers prefer, because of public pressure?",
+    "a": "Products and services produced sustainably",
+    "w": [
+     "The cheapest products, whatever their impact",
+     "Products made with more CO2",
+     "Products from companies that pollute"
+    ],
+    "ref": "Most customers prefer products and services sustainably produced by companies active in reducing their environmental impact."
+   },
+   {
+    "p": "Which example of more difficult working conditions does the handout give?",
+    "a": "Working outdoors in extremely hot weather",
+    "w": [
+     "Working from home on a computer",
+     "Working fewer hours",
+     "Working in an air-conditioned office"
+    ],
+    "ref": "Working conditions tend to worsen, for example working outdoors in extremely hot weather."
+   }
+  ]
+ }
+}

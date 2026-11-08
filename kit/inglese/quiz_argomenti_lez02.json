@@ -1,0 +1,277 @@
+{
+ "Q1": {
+  "title": "Quiz 1 · Economic systems",
+  "items": [
+   {
+    "p": "Which questions does an economic system answer?",
+    "a": "What to produce, how to produce, for whom to produce",
+    "w": [
+     "When to pay taxes and how much",
+     "Who will win the elections",
+     "Where to build new schools"
+    ],
+    "ref": "An economic system answers: what to produce, how to produce, for whom to produce."
+   },
+   {
+    "p": "What is the main difference between economic systems?",
+    "a": "How much influence the government has on production and distribution",
+    "w": [
+     "The language spoken in the country",
+     "The number of banks",
+     "The size of the country"
+    ],
+    "ref": "The differences concern the amount of influence that the government has on the production and distribution of goods and services."
+   },
+   {
+    "p": "In a free-market economy, what is the economy based on?",
+    "a": "The market forces of supply and demand",
+    "w": [
+     "Decisions of the government only",
+     "The price of oil",
+     "A plan written every five years"
+    ],
+    "ref": "The economy is based on the market forces of supply and demand, and the government has little or no control."
+   },
+   {
+    "p": "In a command (planned) economy, who establishes the prices?",
+    "a": "The government",
+    "w": [
+     "Private companies",
+     "Consumers",
+     "Foreign banks"
+    ],
+    "ref": "The government is in complete control of the economy and prices are established by the government."
+   },
+   {
+    "p": "Which is the most common economic system in the modern world?",
+    "a": "The mixed economy",
+    "w": [
+     "The command economy",
+     "The completely free-market economy",
+     "No economic system"
+    ],
+    "ref": "The mixed economy is the most common economic system in the modern world, typical of European countries."
+   }
+  ]
+ },
+ "Q2": {
+  "title": "Quiz 2 · The public sector",
+  "items": [
+   {
+    "p": "What is the public sector?",
+    "a": "The part of the economy controlled by the state",
+    "w": [
+     "The part of the economy run only by private companies",
+     "A group of foreign companies",
+     "A type of bank account"
+    ],
+    "ref": "It is the part of the economy that is controlled by the state, formed by public corporations."
+   },
+   {
+    "p": "How are public corporations paid for?",
+    "a": "With money raised from taxation",
+    "w": [
+     "With donations from companies",
+     "With money from tourists only",
+     "They are not paid for"
+    ],
+    "ref": "These corporations provide goods and services for the citizens and are paid for with money raised from taxation."
+   },
+   {
+    "p": "Why did many governments privatise public corporations at the end of the 20th century?",
+    "a": "To make them more efficient and profitable",
+    "w": [
+     "To make them less efficient",
+     "To close them forever",
+     "To give them to other countries"
+    ],
+    "ref": "Many governments started to privatise some public corporations in order to make them more efficient and profitable."
+   },
+   {
+    "p": "What is remunicipalisation?",
+    "a": "A revival of public ownership at a local level",
+    "w": [
+     "The sale of all public services to private companies",
+     "A new tax on municipalities",
+     "The building of new town halls"
+    ],
+    "ref": "In the last two decades we witnessed a revival of public ownership at a local level, known as remunicipalisation."
+   },
+   {
+    "p": "Which is a disadvantage of the public sector?",
+    "a": "Increased bureaucracy and slow decision-making",
+    "w": [
+     "Lower and stable prices for essential industries",
+     "Profits go back to the government",
+     "No duplication of services"
+    ],
+    "ref": "Disadvantages: increased bureaucracy and slow decision-making, political influence, lack of competition, losses paid through taxes."
+   }
+  ]
+ },
+ "Q3": {
+  "title": "Quiz 3 · Economic indicators",
+  "items": [
+   {
+    "p": "What is the GDP (Gross Domestic Product)?",
+    "a": "The total value of goods and services produced within the borders of a nation in a year",
+    "w": [
+     "The total debt of a country",
+     "The number of people who work in a country",
+     "The money a country spends abroad"
+    ],
+    "ref": "GDP: total value of goods and services produced within the borders of a nation in a year."
+   },
+   {
+    "p": "What does GDP per capita indicate?",
+    "a": "The average income of the citizens of a country",
+    "w": [
+     "The total number of companies",
+     "The price of petrol",
+     "The number of unemployed people"
+    ],
+    "ref": "GDP per capita is a country's GDP divided by its population: it indicates the average income of its citizens."
+   },
+   {
+    "p": "Which are the 4 phases of the business cycle?",
+    "a": "Expansion, recession, depression, recovery",
+    "w": [
+     "Production, distribution, sale, profit",
+     "Spring, summer, autumn, winter",
+     "Inflation, deflation, taxation, investment"
+    ],
+    "ref": "The business cycle has 4 phases: expansion, recession, depression and recovery."
+   },
+   {
+    "p": "What happens to the purchasing power of money when prices rise?",
+    "a": "It decreases",
+    "w": [
+     "It increases",
+     "It stays the same",
+     "It doubles"
+    ],
+    "ref": "When price level rises, the purchasing power of money decreases."
+   },
+   {
+    "p": "What is shrinkflation?",
+    "a": "Reducing the size or quantity of a product while the price stays the same or rises",
+    "w": [
+     "Lowering all prices by law",
+     "A fall in the number of workers",
+     "Making products bigger at the same price"
+    ],
+    "ref": "Shrinkflation is reducing or shrinking the size, quantity or weight of a product while the price remains the same or even increases."
+   }
+  ]
+ },
+ "Q4": {
+  "title": "Quiz 4 · Focus: green economy",
+  "items": [
+   {
+    "p": "What is natural capital?",
+    "a": "Nature's contribution to the economy, such as water, air and land",
+    "w": [
+     "The money of a national bank",
+     "The capital city of a country",
+     "The number of factories in a region"
+    ],
+    "ref": "Natural capital can be defined as nature's contribution to the economy: elements necessary for our survival (water, air, land)."
+   },
+   {
+    "p": "What is the aim of the green economy?",
+    "a": "Improving human well-being in the long run without exposing future generations to environmental risks",
+    "w": [
+     "Producing as much as possible, whatever the cost",
+     "Reducing the number of products on the market",
+     "Increasing the price of all goods"
+    ],
+    "ref": "Green economy: activities resulting in an improvement of human well-being in the long run, without exposing future generations to environmental risks."
+   },
+   {
+    "p": "What is the problem with traditional measures of economic performance?",
+    "a": "They do not consider natural capital",
+    "w": [
+     "They consider only natural capital",
+     "They are too expensive to calculate",
+     "They are used only in Europe"
+    ],
+    "ref": "Traditional measures of economic performance do not consider natural capital, and this is becoming unsustainable."
+   },
+   {
+    "p": "What is the solution suggested in the handout?",
+    "a": "Integrating natural capital and green economy into economic decision making",
+    "w": [
+     "Stopping all economic growth",
+     "Ignoring climate change",
+     "Closing all factories"
+    ],
+    "ref": "The solution is the integration of natural capital and green economy into economic decision making."
+   },
+   {
+    "p": "What do consumers look for today?",
+    "a": "Environmentally friendly, socially responsible and sustainable products",
+    "w": [
+     "Only the cheapest products",
+     "Products with more packaging",
+     "Products made far away"
+    ],
+    "ref": "Today consumers look for environmentally friendly, socially responsible and sustainable products and services."
+   }
+  ]
+ },
+ "Q5": {
+  "title": "Quiz 5 · Focus: youth unemployment",
+  "items": [
+   {
+    "p": "What does NEET mean?",
+    "a": "Neither in Employment nor in Education or Training",
+    "w": [
+     "New European Economic Treaty",
+     "National Employment and Education Test",
+     "Never Employed in European Territory"
+    ],
+    "ref": "The NEET rate measures young people who are Neither in Employment nor in Education or Training."
+   },
+   {
+    "p": "Which age group does the NEET rate measure?",
+    "a": "Young people aged 15-24",
+    "w": [
+     "Children aged 6-10",
+     "Adults aged 40-50",
+     "People over 65"
+    ],
+    "ref": "It measures the percentage of young people aged 15-24."
+   },
+   {
+    "p": "What percentage of young people were NEET in 2020?",
+    "a": "22.4%",
+    "w": [
+     "2.4%",
+     "12.4%",
+     "42.4%"
+    ],
+    "ref": "In 2020, 22.4% of young people were NEET."
+   },
+   {
+    "p": "Who are the majority of NEET?",
+    "a": "Girls and young women",
+    "w": [
+     "Boys and young men",
+     "Retired people",
+     "University professors"
+    ],
+    "ref": "The majority of NEET are girls and young women, and the status tends to be more permanent for girls."
+   },
+   {
+    "p": "What is the main reason for the gender gap in NEET rates?",
+    "a": "Family responsibilities",
+    "w": [
+     "Better salaries for women",
+     "Too many schools",
+     "Lower taxes"
+    ],
+    "ref": "The main reason is family responsibilities, which penalize girls especially in low and middle-income countries."
+   }
+  ]
+ }
+}
