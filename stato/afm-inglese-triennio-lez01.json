@@ -3,7 +3,8 @@
  "parti": {
   "1": {
    "titolo": "Global Factors",
-   "stato": "IN_MONTAGGIO"
+   "stato": "IN_MONTAGGIO",
+   "voci": "kore"
   }
  },
  "manca": "",
@@ -11,6 +12,10 @@
   {
    "quando": "08/11 14:05",
    "testo": "VOCI: testi definitivi caricati nel ramo voci-afm-inglese-triennio-lez01 (scambio/afm-inglese-triennio-lez01/testi_voci.json, 9 blocchi, 4.035 caratteri, INGLESE, Kore)."
+  },
+  {
+   "quando": "08/11 14:19",
+   "testo": "Sigla di Inglese non presente nello zip sigle: metto un segnaposto di 15 s (scritta INGLESE + logo), da sostituire quando c'è la sigla."
   }
  ],
  "domande_sara": [],
@@ -18,10 +23,14 @@
   {
    "quando": "08/11 13:55",
    "testo": "Chat avviata: kit, lavoro della master e materiale recuperati."
+  },
+  {
+   "quando": "08/11 14:19",
+   "testo": "Voci Kore ricevute e importate (9/9; S1 segnato DA CONTROLLARE ma è completo: differenze solo di trascrizione). Slide sincronizzate (7 correzioni di inizio slide), webcam composta, pause oltre 1,0 s → 0,6 s: 185 tagli, −2,9 min. Durata prevista ~65 min in una Parte."
   }
  ],
  "materia": "Inglese (AFM triennio)",
  "lezione": "Lezione 1 · Global Factors",
  "docente": "Prof.ssa Maria Vittoria Fontanesi",
- "aggiornato": "2026-11-08 14:05:38"
+ "aggiornato": "2026-11-08 14:19:18"
 }
