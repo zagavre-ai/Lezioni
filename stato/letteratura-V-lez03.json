@@ -1,0 +1,23 @@
+{
+ "tag": "letteratura-V-lez03",
+ "parti": {
+  "1": {
+   "titolo": "Giosuè Carducci",
+   "stato": "IN_MONTAGGIO",
+   "voci": "segnaposto"
+  }
+ },
+ "manca": "Sincronizzazione, montaggio, codifica, controlli, .vtt, dispensa A4, scheda. Stima 4-5 ore di lavoro, più le voci.",
+ "serve_master": [
+  "Voci Kore: S1,S2,S3,S4,GL1,RF1,FIN1,INTRO1 da scambio/letteratura-V-lez03/testi_voci.json (ramo voci-letteratura-V-lez03); finora 0 voci ricevute.",
+  "tools/stato.py non è su main (kit/tools/ assente): stato scritto a mano nel formato di stato-moda-tecnologie-III-lez02."
+ ],
+ "domande_sara": [],
+ "note": [
+  "Quiz 4x5 e test finale proposto (18 domande, PROPOSTA_DA_VALIDARE) già consegnati a Sara. Immagini libro: 7 pagine su 7 trovate nello zip."
+ ],
+ "materia": "Letteratura italiana (V)",
+ "lezione": "Lezione 3 · Giosuè Carducci",
+ "docente": "Prof. Giorgio Mazzotti",
+ "aggiornato": "2026-11-08 12:23:36"
+}
