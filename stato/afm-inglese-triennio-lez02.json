@@ -3,7 +3,7 @@
  "parti": {
   "1": {
    "titolo": "The Business World",
-   "stato": "IN_MONTAGGIO",
+   "stato": "IN_CODIFICA",
    "voci": "kore"
   }
  },
@@ -27,10 +27,14 @@
   {
    "quando": "08/11 14:39",
    "testo": "Voci Kore ricevute e importate (9/9). Pause tagliate: 133 pause oltre 1,0 s portate a 0,6 s (−114 s), docente 52:49. Slide sincronizzate, schede T/Q/S/GL/RF/FIN pronte. Durata prevista ~58 min, una Parte. Ora composizione e montaggio."
+  },
+  {
+   "quando": "08/11 15:01",
+   "testo": "Montaggio fatto (durata prevista ~58,5 min). Codifica finale 1440p in corso con finale_a_pezzi."
   }
  ],
  "materia": "Inglese (AFM triennio)",
  "lezione": "Lezione 2 · The Business World",
  "docente": "Prof.ssa Maria Vittoria Fontanesi",
- "aggiornato": "2026-11-08 14:39:20"
+ "aggiornato": "2026-11-08 15:01:48"
 }
