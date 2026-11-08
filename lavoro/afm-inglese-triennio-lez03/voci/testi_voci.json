@@ -1,0 +1,87 @@
+{
+ "INTRO1": [
+  "Welcome to the English lesson of Professor Maria Vittoria Fontanesi.",
+  "Today our topic is production.",
+  "We will look at five topics.",
+  "One: production and sectors of production.",
+  "Two: economies of scale.",
+  "Three: quality control and smart manufacturing.",
+  "Four: relocation of business operations.",
+  "And five: a focus on the circular economy.",
+  "At the end of each topic there is a short quiz. Let's start!"
+ ],
+ "R1": ["Let's review: production, economic resources and the five sectors of production."],
+ "R2": ["Let's review: economies of scale, and diseconomies of scale."],
+ "R3": ["Let's review: quality control, and smart manufacturing in Industry four point zero."],
+ "R4": ["Let's review: offshoring, outsourcing and reshoring."],
+ "R5": ["Let's review: the circular economy and its two cycles."],
+ "S1": [
+  "Production and sectors of production.",
+  "Production is the process of making goods and providing services.",
+  "Goods are physical products: durable, like cars, or non-durable, like food.",
+  "Services are non-physical products, like education and healthcare.",
+  "They help consumers meet their needs and their wants.",
+  "There are four factors of production: land, labour, capital and entrepreneurship.",
+  "The difference between the cost and the selling price is the added value.",
+  "There are five sectors: primary, secondary, tertiary, quaternary and quinary.",
+  "Together they form the supply chain, from raw materials to finished goods and services."
+ ],
+ "S2": [
+  "Economies of scale.",
+  "When a business produces more, the unit cost goes down.",
+  "Fixed costs are shared across more units, and raw materials cost less in large quantities.",
+  "Internal economies come from the business itself: buying in bulk, technical, marketing, financial, and division of labour.",
+  "External economies come from the industry: clustering, transportation and tax incentives.",
+  "But when a company grows too much, costs can increase: these are diseconomies of scale.",
+  "The solutions are: more efficient production, leaner administration, and outsourcing."
+ ],
+ "S3": [
+  "Quality control and smart manufacturing.",
+  "Quality control ensures that products meet standards of quality and safety before they are sold.",
+  "It uses visual inspections, testing of materials, and equipment to detect defects.",
+  "Smart manufacturing is typical of Industry four point zero: machines and systems are interconnected.",
+  "It is based on four elements.",
+  "Connectivity, data and computational power. Artificial Intelligence. Human-machine interaction. And advanced engineering, like three D printing and digital twins."
+ ],
+ "S4": [
+  "Relocation of business operations.",
+  "Large companies move production to other countries for resources, lower labour costs, environmental regulations and market access.",
+  "Offshoring means relocating processes abroad to reduce costs.",
+  "It can be service offshoring or production offshoring.",
+  "Outsourcing means contracting work out to external organisations, not necessarily in another country.",
+  "Reshoring is the reverse of offshoring: production returns to the country of origin.",
+  "The reasons are cost, quality, disruptions in the supply chain, and national security."
+ ],
+ "S5": [
+  "Focus: the circular economy.",
+  "The circular economy means reusing and recycling materials.",
+  "It reduces the consumption of raw materials, and it minimises waste and pollution.",
+  "It is different from the linear economy, where materials are extracted, used and thrown away.",
+  "It has two cycles.",
+  "In the technical cycle, products last longer thanks to reusing, repairing and recycling.",
+  "In the biological cycle, nutrients from biodegradable materials return to the Earth."
+ ],
+ "GL1": [
+  "Let's review the key words. Listen to each word and its meaning.",
+  "Goods: physical products, durable or non-durable.",
+  "Services: non-physical products, actions that help other people.",
+  "Added value: the difference between the cost of production and the selling price.",
+  "Supply chain: the chain from raw materials to finished goods and services.",
+  "Unit cost: the money spent to produce, store and sell one unit.",
+  "Economies of scale: the benefits of an increase in production.",
+  "Quality control: checks that products meet standards of quality and safety.",
+  "Offshoring: moving business operations to other countries.",
+  "Outsourcing: contracting work out to external organisations.",
+  "Reshoring: bringing production back to the country of origin.",
+  "Circular economy: reusing and recycling materials to reduce waste."
+ ],
+ "RF1": [
+  "Before we say goodbye, let's summarise the five topics. At the end, try to repeat them in your own words.",
+  "One: production means making goods and providing services, in five sectors linked by the supply chain.",
+  "Two: with economies of scale, the unit cost goes down when production grows. But too much growth can bring diseconomies of scale.",
+  "Three: quality control checks quality and safety, and smart manufacturing connects machines and data.",
+  "Four: companies can move production abroad with offshoring, or bring it back home with reshoring.",
+  "Five: the circular economy reuses and recycles materials, with a technical cycle and a biological cycle."
+ ],
+ "FIN1": ["This is the end of the lesson. Thank you for your attention, and enjoy your studies!"]
+}

@@ -1,0 +1,102 @@
+{
+ "T1": {
+  "type": "title",
+  "num": "01",
+  "total": 5,
+  "lines": [
+   "Production and",
+   "sectors of production"
+  ],
+  "ex": "goods · services · sectors · supply chain",
+  "fs": 96,
+  "dur": 3.6,
+  "lineY": 720
+ },
+ "Q1": {
+  "type": "quiz",
+  "topic": "<span style=\"font-size:60px\">Production and sectors of production</span>",
+  "act": "Quiz 1",
+  "pts": "5 domande · per continuare almeno l’80%<div style=\"font-size:32px;font-weight:600;color:#5BD6F0;margin-top:12px\">Answer the 5 questions: you need at least 4 right answers to go on.</div>",
+  "dur": 4.0
+ },
+ "T2": {
+  "type": "title",
+  "num": "02",
+  "total": 5,
+  "lines": [
+   "Economies",
+   "of scale"
+  ],
+  "ex": "unit cost · internal · external · diseconomies",
+  "fs": 128,
+  "dur": 3.6,
+  "lineY": 720
+ },
+ "Q2": {
+  "type": "quiz",
+  "topic": "Economies of scale",
+  "act": "Quiz 2",
+  "pts": "5 domande · per continuare almeno l’80%<div style=\"font-size:32px;font-weight:600;color:#5BD6F0;margin-top:12px\">Answer the 5 questions: you need at least 4 right answers to go on.</div>",
+  "dur": 4.0
+ },
+ "T3": {
+  "type": "title",
+  "num": "03",
+  "total": 5,
+  "lines": [
+   "Quality control and",
+   "smart manufacturing"
+  ],
+  "ex": "QC · Industry 4.0 · AI · digital twins",
+  "fs": 108,
+  "dur": 3.6,
+  "lineY": 720
+ },
+ "Q3": {
+  "type": "quiz",
+  "topic": "<span style=\"font-size:60px\">Quality control and smart manufacturing</span>",
+  "act": "Quiz 3",
+  "pts": "5 domande · per continuare almeno l’80%<div style=\"font-size:32px;font-weight:600;color:#5BD6F0;margin-top:12px\">Answer the 5 questions: you need at least 4 right answers to go on.</div>",
+  "dur": 4.0
+ },
+ "T4": {
+  "type": "title",
+  "num": "04",
+  "total": 5,
+  "lines": [
+   "Relocation of",
+   "business operations"
+  ],
+  "ex": "offshoring · outsourcing · reshoring",
+  "fs": 108,
+  "dur": 3.6,
+  "lineY": 720
+ },
+ "Q4": {
+  "type": "quiz",
+  "topic": "<span style=\"font-size:60px\">Relocation of business operations</span>",
+  "act": "Quiz 4",
+  "pts": "5 domande · per continuare almeno l’80%<div style=\"font-size:32px;font-weight:600;color:#5BD6F0;margin-top:12px\">Answer the 5 questions: you need at least 4 right answers to go on.</div>",
+  "dur": 4.0
+ },
+ "T5": {
+  "type": "title",
+  "num": "05",
+  "total": 5,
+  "lines": [
+   "Focus: the",
+   "circular economy"
+  ],
+  "ex": "reuse · repair · recycle",
+  "fs": 128,
+  "dur": 3.6,
+  "lineY": 720
+ },
+ "Q5": {
+  "type": "quiz",
+  "topic": "<span style=\"font-size:60px\">Focus · the circular economy</span>",
+  "act": "Quiz 5",
+  "pts": "5 domande · per continuare almeno l’80%<div style=\"font-size:32px;font-weight:600;color:#5BD6F0;margin-top:12px\">Answer the 5 questions: you need at least 4 right answers to go on.</div>",
+  "dur": 4.0
+ }
+}
