@@ -1,0 +1,1 @@
+crop=960:960:500:60 (webcam a tutto schermo 1920x1080, misurato su 3 fotogrammi della Lez. 2)
