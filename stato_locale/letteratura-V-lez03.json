@@ -1,0 +1,23 @@
+{
+ "tag": "letteratura-V-lez03",
+ "parti": {
+  "1": {
+   "titolo": "Giosuè Carducci",
+   "stato": "IN_MONTAGGIO",
+   "voci": "kore"
+  }
+ },
+ "manca": "",
+ "serve_master": [
+  {
+   "quando": "08/11 12:54",
+   "testo": "Voci ricevute e importate: 8 su 8, 168 s totali (misurate). Nessuna richiesta."
+  }
+ ],
+ "domande_sara": [],
+ "note": [],
+ "materia": "Letteratura italiana (V)",
+ "lezione": "Lezione 3 · Giosuè Carducci",
+ "docente": "Prof. Giorgio Mazzotti",
+ "aggiornato": "2026-11-08 12:54:51"
+}
