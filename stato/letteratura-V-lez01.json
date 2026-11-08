@@ -1,0 +1,38 @@
+{
+ "tag": "letteratura-V-lez01",
+ "parti": {
+  "1": {
+   "titolo": "L'età del Naturalismo e del Decadentismo",
+   "stato": "PRONTA",
+   "voci": "kore",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "si",
+   "video": "Letteratura_Lez1_Parte1_1440p.mp4",
+   "durata_s": 3260.5,
+   "durata": "54:20.5",
+   "fotogrammi": 97815,
+   "fotogrammi_attesi": 97816,
+   "peso_MB": 343.6,
+   "vtt": "Letteratura_Lez1_Parte1.vtt"
+  }
+ },
+ "manca": "",
+ "serve_master": [
+  {
+   "quando": "08/11 12:55",
+   "testo": "MIGLIORAMENTO: trascrivere sempre l'audio del video finale per i .vtt (i tempi del montaggio davano 1-2,5 s di anticipo)."
+  }
+ ],
+ "domande_sara": [],
+ "note": [
+  {
+   "quando": "08/11 12:55",
+   "testo": "Audio a -16,0 LUFS misurato. .vtt dal video finale: campione 12 cue scarto medio 0,13 s, max 0,8 s (non verificato oltre). Ritratto Baudelaire dal PDF del prof (nessuna corrispondenza nello zip). Template match debole p024/p026/p030, ritagli controllati a occhio. Test finale proposto (20 domande, nessun Excel del prof). Voci Kore ricevute 9,04 min."
+  }
+ ],
+ "materia": "Letteratura italiana · V anno",
+ "lezione": "Lezione 1 · L'età del Naturalismo e del Decadentismo",
+ "docente": "Prof. Giorgio Mazzotti",
+ "aggiornato": "2026-11-08 12:55:17"
+}
