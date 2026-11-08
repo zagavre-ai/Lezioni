@@ -1,0 +1,4 @@
+moda-economia-III-IV-lez03 · Economia e marketing delle aziende della moda · Lezione 3 «Marketing» · Prof.ssa Piera Caputi
+Testi DEFINITIVI per la voce Kore: 18 blocchi, circa 7.800 caratteri (un file per blocco, nome = chiave del JSON).
+Blocchi: INTRO1, R1-R7, S1-S7, GL1, RF1, FIN1. Ogni elemento della lista è una frase (serve per i tempi degli schemi).
+Risposta attesa: scambio/moda-economia-III-IV-lez03/vox/NOME.wav + ESITI.txt in questo ramo.
