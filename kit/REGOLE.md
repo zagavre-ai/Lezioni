@@ -56,6 +56,9 @@ Valgono per tutte le chat e tutte le lezioni. Se una regola manca o non è chiar
 - Domande di contenuto per Sara: `--domanda_sara "..."`. Richieste alla master: `--serve_master "..."`.
 - Quando una Parte è PRONTA, manda a Sara in chat, in un solo messaggio: video, .vtt, quiz, test, dispensa, scheda.
 
+## 7-bis. Messaggi dalla master
+- A ogni cambio di fase guarda kit/LEGGIMI.md su main (novità del kit) e il file scambio/<tag>/DALLA_MASTER.txt nel tuo ramo voci-<tag>: lì la master ti scrive istruzioni e file nuovi, senza passare da Sara.
+
 ## 8. Macchina e sicurezza
 - I lavori lunghi devono poter ripartire: un lavoro in background viene fermato dopo 2 ore. Usa i marcatori .ok/.fatto.
 - Scrivi i log con `> log && touch .fatto`, mai con `| tail`.
