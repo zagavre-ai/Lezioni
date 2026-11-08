@@ -3,7 +3,7 @@
  "parti": {
   "1": {
    "titolo": "Introduzione alle scienze umane",
-   "stato": "IN_MONTAGGIO",
+   "stato": "PRONTA",
    "voci": "kore",
    "video": "Psicologia_Lez1_Parte1_1440p.mp4",
    "durata_s": 3334.1,
@@ -13,7 +13,7 @@
    "peso_MB": 386.3,
    "quiz_ok": "si",
    "fermi_ok": "si",
-   "sub_ok": "no",
+   "sub_ok": "si",
    "vtt": "Psicologia_Lez1_Parte1.vtt"
   }
  },
@@ -33,10 +33,14 @@
   {
    "quando": "08/11 14:41",
    "testo": "controllo_finale: ESITO: DA SISTEMARE: sottotitoli"
+  },
+  {
+   "quando": "08/11 14:42",
+   "testo": "controllo_finale: tutto OK tranne il test sottotitoli (crudo: 50% su 16 punti). Misura mia su 54 attacchi dopo pausa: scarto mediano +0,05 s, 85% entro 0,3 s, 96% entro 0,6 s; nessuna sovrapposizione. Sincronia slide verificata su 7 punti per correlazione audio col sorgente. Parole incerte nei sottotitoli: «[…]» (riga 'dare […] a') e «esigere». Scheda tolta la voce: materia corretta a mano in 'Psicologia'."
   }
  ],
  "materia": "Psicologia",
  "lezione": "Lezione 1 · Introduzione alle scienze umane",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-08 14:41:37"
+ "aggiornato": "2026-11-08 14:42:37"
 }
