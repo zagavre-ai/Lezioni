@@ -22,6 +22,10 @@
   {
    "quando": "08/11 12:55",
    "testo": "MIGLIORAMENTO: trascrivere sempre l'audio del video finale per i .vtt (i tempi del montaggio davano 1-2,5 s di anticipo)."
+  },
+  {
+   "quando": "08/11 12:55",
+   "testo": "Pagina web del quiz (30 domande; dati in quiz/quiz_argomenti.json, il .txt è già a Sara)."
   }
  ],
  "domande_sara": [],
@@ -34,5 +38,5 @@
  "materia": "Letteratura italiana · V anno",
  "lezione": "Lezione 1 · L'età del Naturalismo e del Decadentismo",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-08 12:55:17"
+ "aggiornato": "2026-11-08 12:55:25"
 }
