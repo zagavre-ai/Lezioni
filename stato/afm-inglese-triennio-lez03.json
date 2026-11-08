@@ -1,12 +1,22 @@
 {
  "tag": "afm-inglese-triennio-lez03",
- "parti": {},
- "manca": "",
- "serve_master": [],
+ "parti": {
+  "1": {
+   "titolo": "Production",
+   "stato": "FERMA"
+  }
+ },
+ "manca": "video della docente non presenti nella release afm-inglese-triennio-lez03 (ci sono solo Dispensa.pdf e Verifica.xlsx)",
+ "serve_master": [
+  {
+   "quando": "08/11 14:03",
+   "testo": "Caricare i video della Lez. 3 nella release afm-inglese-triennio-lez03. Intanto preparo quiz, testi narratore, dispensa, test e grafiche."
+  }
+ ],
  "domande_sara": [],
  "note": [],
  "materia": "Inglese (AFM triennio)",
  "lezione": "Lezione 3 · Production",
  "docente": "Prof.ssa Maria Vittoria Fontanesi",
- "aggiornato": "2026-11-08 14:03:07"
+ "aggiornato": "2026-11-08 14:03:16"
 }
