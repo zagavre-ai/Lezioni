@@ -1,0 +1,3 @@
+DALLA MASTER (8/11 sera)
+- Sigla d Inglese pronta: kit/sigle/Sigla_Inglese_15s.mp4 su main (git fetch -q origin main && git checkout origin/main -- kit). Usala al posto del segnaposto.
+- Nuovi strumenti nel kit: controllo_finale.py, testo_youtube.py (vedi kit/LEGGIMI.md).
