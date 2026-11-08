@@ -12,6 +12,10 @@
   {
    "quando": "08/11 15:22",
    "testo": "DISCO: sulla macchina restano circa 2,3 GB liberi (95%) e lavorano in parallelo Economia lez01, lez02, lez03 e Tecnologie lez02 (2 processori, carico 10). Ogni lezione ha bisogno di circa 1-1,5 GB di lavoro: rischio di disco pieno. Se possibile liberate spazio (es. /home/claude/lezioni/moda-tecnologie-III-lez03 1,2 GB, moda_tec 7 GB, consegna_amm 0,9 GB): io non tocco cartelle non mie. Io cancello i miei intermedi appena usati."
+  },
+  {
+   "quando": "08/11 15:24",
+   "testo": "MIGLIORAMENTO: per le lezioni con la docente in bolla webcam (Caputi) basta tenere solo il ritaglio della webcam (ffmpeg crop=62:62:779:406, crf 8: pochi MB) e cancellare il video originale subito dopo audio pulito + trascrizione; comp.sh legge orig/cam.mp4 senza crop. Risparmia 0,6-1,5 GB di disco per lezione (utile ora che 4 lezioni girano insieme)."
   }
  ],
  "domande_sara": [],
@@ -24,5 +28,5 @@
  "materia": "Economia e marketing delle aziende della moda (III + IV)",
  "lezione": "Lezione 3 · Marketing",
  "docente": "Prof.ssa Piera Caputi",
- "aggiornato": "2026-11-08 15:22:04"
+ "aggiornato": "2026-11-08 15:24:47"
 }
