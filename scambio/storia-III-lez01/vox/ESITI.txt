@@ -1,0 +1,22 @@
+R1 OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
+R2 OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
+R3 OK frasi trovate 1 / 1 parole diverse 0 (vere 1) tentativi 1
+R4 OK frasi trovate 1 / 1 parole diverse 3 (vere 3) tentativi 1
+R5 OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
+R6 OK frasi trovate 1 / 1 parole diverse 1 (vere 1) tentativi 1
+R7 OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
+R8 OK frasi trovate 1 / 1 parole diverse 2 (vere 2) tentativi 1
+S1 OK frasi trovate 5 / 5 parole diverse 5 (vere 3) tentativi 1
+S2 OK frasi trovate 5 / 5 parole diverse 8 (vere 5) tentativi 1
+S3 OK frasi trovate 6 / 6 parole diverse 3 (vere 3) tentativi 1
+S4 OK frasi trovate 5 / 5 parole diverse 3 (vere 3) tentativi 1
+S5 OK frasi trovate 5 / 5 parole diverse 6 (vere 5) tentativi 1
+S6 DA CONTROLLARE frasi trovate 5 / 5 parole diverse 12 (vere 37) REGIA LETTA tentativi 5
+S7 OK frasi trovate 4 / 4 parole diverse 2 (vere 3) tentativi 2
+S8 OK frasi trovate 5 / 5 parole diverse 7 (vere 3) tentativi 3
+GL1 DA CONTROLLARE frasi trovate 11 / 11 parole diverse 17 (vere 17) tentativi 5
+RF1 OK frasi trovate 9 / 9 parole diverse 22 (vere 6) tentativi 1
+FIN1 OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
+RFP1 OK frasi trovate 5 / 5 parole diverse 9 (vere 3) tentativi 1
+FINP1 OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
+IN2 OK frasi trovate 1 / 1 parole diverse 2 (vere 3) tentativi 1
