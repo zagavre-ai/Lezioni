@@ -1,5 +1,4 @@
-RIFARE (errori veri della voce, ritrascritti da soli; il testo e giusto):
-GL1: "sensazione personale. Percepita" (parola in piu)
-RF1: "Il componente... Il comportamentismo" (falsa partenza)
-FIN1: "Grazie l attenzione" (manca "per")
-S9: "La psicologia sociale. Sociale studia" (ripetizione)
+ANNULLATO (08:3x): NON rifare niente.
+GL1, RF1, S9: falso allarme, errore della MIA trascrizione a pezzi da 20 s (le voci sono corrette).
+FIN1: sistemata qui tagliando "Grazie l attenzione" -> "Fine della lezione, e alla prossima lezione di Psicologia."
+Voci tutte importate: 13/13.
