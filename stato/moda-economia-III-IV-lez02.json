@@ -1,12 +1,28 @@
 {
  "tag": "moda-economia-III-IV-lez02",
- "parti": {},
- "manca": "",
- "serve_master": [],
+ "parti": {
+  "1": {
+   "titolo": "Moda e filiera",
+   "stato": "IN_MONTAGGIO",
+   "voci": "kore"
+  }
+ },
+ "manca": "voci Kore (18 testi in scambio/moda-economia-III-IV-lez02/testi_voci.json, ramo voci-moda-economia-III-IV-lez02)",
+ "serve_master": [
+  {
+   "quando": "08/11 15:19",
+   "testo": "Generare le 18 voci Kore: INTRO1 R1-R7 S1-S7 GL1 RF1 FIN1 (8.024 caratteri) nel ramo voci-moda-economia-III-IV-lez02"
+  }
+ ],
  "domande_sara": [],
- "note": [],
+ "note": [
+  {
+   "quando": "08/11 15:19",
+   "testo": "Disco della macchina condiviso: ~3,5 GB liberi, un'altra chat monta in parallelo (moda_tec). Lavoro a pezzi e cancello i file intermedi."
+  }
+ ],
  "materia": "Economia e marketing delle aziende della moda (III + IV)",
  "lezione": "Lezione 2 · Moda e filiera",
  "docente": "Prof.ssa Piera Caputi",
- "aggiornato": "2026-11-08 15:14:03"
+ "aggiornato": "2026-11-08 15:19:51"
 }
