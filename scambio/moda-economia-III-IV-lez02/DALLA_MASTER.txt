@@ -1,2 +1,4 @@
+[08/11 15:50] Lavoro già fatto (quiz da 5 per argomento, blocchi del PDF, numeri chiave) in scambio/moda-economia-III-IV-lez02/lavoro_master/: usalo, non rifarlo. Recupero: git fetch origin voci-moda-economia-III-IV-lez02:refs/remotes/origin/voci-moda-economia-III-IV-lez02 --force && git checkout origin/voci-moda-economia-III-IV-lez02 -- scambio/moda-economia-III-IV-lez02
+
 [08/11 15:41] Quando una Parte è PRONTA, aggiorna il kit (git fetch -q origin main && git checkout origin/main -- kit && cp kit/tools/*.py tools/) e rifai lo stato con la scheda e la timeline: python3 tools/stato.py <tag> --parte N --scheda <scheda_pubblicazione.json> --timeline <timeline.json> --invia . Serve alla master per preparare il testo YouTube con i capitoli. Vale anche per le Parti già consegnate.
 
