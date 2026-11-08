@@ -1,12 +1,26 @@
 {
  "tag": "moda-economia-III-IV-lez01",
- "parti": {},
+ "parti": {
+  "1": {
+   "stato": "IN_MONTAGGIO"
+  }
+ },
  "manca": "",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "08/11 15:15",
+   "testo": "Disco quasi pieno: 3,5 GB liberi su /, e un'altra chat (Tecnologie, asm_moda2.py in /home/claude/moda_tec) sta montando sulla stessa macchina. Se potete, liberate spazio (es. moda-tecnologie-III-lez02 occupa 4,5 GB)."
+  }
+ ],
  "domande_sara": [],
- "note": [],
+ "note": [
+  {
+   "quando": "08/11 15:15",
+   "testo": "Materiali scaricati (video 61,5 min 480p, PDF 26 pagine, PPTX; niente Excel → test PROPOSTA_DA_VALIDARE). Scelta consigliata applicata: una sola Parte (lezione ~61 min, regola 8/11 fino a ~65 min), inserti ridotti per stare sotto ~65 min. Avvio trascrizione."
+  }
+ ],
  "materia": "Economia e marketing delle aziende della moda (III + IV)",
  "lezione": "Lezione 1 · Attività economica",
  "docente": "Prof.ssa Piera Caputi",
- "aggiornato": "2026-11-08 15:13:58"
+ "aggiornato": "2026-11-08 15:15:42"
 }
