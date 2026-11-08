@@ -1,0 +1,34 @@
+{
+ "tag": "psicologia-I-II-lez03",
+ "parti": {
+  "1": {
+   "titolo": "La percezione: la mente e la realtà",
+   "stato": "PRONTA",
+   "voci": "kore",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "si",
+   "video": "Psicologia_Lez3_Parte1_1440p.mp4",
+   "durata_s": 3153.9,
+   "durata": "52:33.9",
+   "fotogrammi": 94617,
+   "fotogrammi_attesi": 94617,
+   "peso_MB": 405.6,
+   "vtt": "Psicologia_Lez3_Parte1.vtt"
+  }
+ },
+ "manca": "",
+ "serve_master": [
+  "tools/stato.py non è su main (kit/tools/ assente): stato scritto a mano nel formato di stato-moda-tecnologie-III-lez02. Valori misurati con ffprobe/ebur128: 405.613.289 byte (386,8 MiB), 94.617 fotogrammi, -16,0 LUFS, 7 quiz a 0,000 s.",
+  "Due voci da riascoltare: prima parola di R5 e quarta frase di S5 («più»). Voci ricevute 13,78 min; nessun ESITI.txt nel ramo.",
+  "Sara ha preferito il cappello come esempio del caso Sacks; la voce AN8 è già Kore (testa della moglie / cappello, dal PDF), quindi lasciato com'è. Se serve solo-cappello occorre una voce nuova per AN8."
+ ],
+ "domande_sara": [],
+ "note": [
+  "Test finale (20 domande) validato da Sara. Caso Sacks confermato da Sara. Fermi su intro e ripassi accettati dalla master."
+ ],
+ "materia": "Psicologia (I-II anno)",
+ "lezione": "Lezione 3 · La percezione: la mente e la realtà",
+ "docente": "Prof. Giorgio Mazzotti",
+ "aggiornato": "2026-11-08 12:30:00"
+}
