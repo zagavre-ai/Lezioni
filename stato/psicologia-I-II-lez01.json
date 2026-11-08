@@ -10,7 +10,11 @@
    "durata": "55:34.1",
    "fotogrammi": 100023,
    "fotogrammi_attesi": 100023,
-   "peso_MB": 386.3
+   "peso_MB": 386.3,
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "no",
+   "vtt": "Psicologia_Lez1_Parte1.vtt"
   }
  },
  "manca": "",
@@ -25,10 +29,14 @@
   {
    "quando": "08/11 14:30",
    "testo": "Video 1440p finale pronto (55,6 min, 368 MiB, parlato -16 LUFS, jingle Quiz a 0,003 s). Sto rifacendo i sottotitoli con sub_finale.py."
+  },
+  {
+   "quando": "08/11 14:41",
+   "testo": "controllo_finale: ESITO: DA SISTEMARE: sottotitoli"
   }
  ],
  "materia": "Psicologia",
  "lezione": "Lezione 1 · Introduzione alle scienze umane",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-08 14:30:11"
+ "aggiornato": "2026-11-08 14:41:37"
 }
