@@ -12,6 +12,10 @@
   {
    "quando": "08/11 15:19",
    "testo": "Generare le 18 voci Kore: INTRO1 R1-R7 S1-S7 GL1 RF1 FIN1 (8.024 caratteri) nel ramo voci-moda-economia-III-IV-lez02"
+  },
+  {
+   "quando": "08/11 15:24",
+   "testo": "DISCO: solo 1,6 GB liberi su / (4 chat sulla stessa macchina). Per montare 60 min mi servono ~2 GB di pezzi intermedi. Se potete, liberate spazio (es. moda-tecnologie-III-lez02 4,5 GB, moda_tec 7 GB, /tmp/cbx 1,7 GB): io non tocco cartelle di altre chat."
   }
  ],
  "domande_sara": [],
@@ -28,5 +32,5 @@
  "materia": "Economia e marketing delle aziende della moda (III + IV)",
  "lezione": "Lezione 2 · Moda e filiera",
  "docente": "Prof.ssa Piera Caputi",
- "aggiornato": "2026-11-08 15:20:03"
+ "aggiornato": "2026-11-08 15:24:04"
 }
