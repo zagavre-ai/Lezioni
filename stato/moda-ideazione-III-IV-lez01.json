@@ -1,12 +1,28 @@
 {
  "tag": "moda-ideazione-III-IV-lez01",
- "parti": {},
+ "parti": {
+  "1": {
+   "titolo": "Il costume mesopotamico",
+   "stato": "IN_MONTAGGIO",
+   "voci": "kore"
+  }
+ },
  "manca": "",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "08/11 14:12",
+   "testo": "VOCI: testi definitivi nel ramo voci-moda-ideazione-III-IV-lez01, scambio/moda-ideazione-III-IV-lez01/testi_voci.json (14 blocchi: INTRO1, R1-R9, GL1, RF1, FIN1)"
+  }
+ ],
  "domande_sara": [],
- "note": [],
+ "note": [
+  {
+   "quando": "08/11 14:12",
+   "testo": "Docente 64:32 (registrazione). Una sola Parte (regola 65 min), 9 argomenti, 45 domande di quiz. Niente animazioni aggiuntive: la durata e' gia' oltre i 60 minuti."
+  }
+ ],
  "materia": "Ideazione, progettazione e industrializzazione dei prodotti di moda (III + IV)",
  "lezione": "Lezione 1 · Il costume mesopotamico",
  "docente": "Prof.ssa Piera Caputi",
- "aggiornato": "2026-11-08 14:03:19"
+ "aggiornato": "2026-11-08 14:12:58"
 }
