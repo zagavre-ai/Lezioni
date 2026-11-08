@@ -2,7 +2,8 @@
  "tag": "moda-economia-III-IV-lez01",
  "parti": {
   "1": {
-   "stato": "IN_MONTAGGIO"
+   "stato": "IN_MONTAGGIO",
+   "voci": "kore"
   }
  },
  "manca": "",
@@ -10,6 +11,10 @@
   {
    "quando": "08/11 15:15",
    "testo": "Disco quasi pieno: 3,5 GB liberi su /, e un'altra chat (Tecnologie, asm_moda2.py in /home/claude/moda_tec) sta montando sulla stessa macchina. Se potete, liberate spazio (es. moda-tecnologie-III-lez02 occupa 4,5 GB)."
+  },
+  {
+   "quando": "08/11 15:25",
+   "testo": "Generare le 12 voci Kore dei testi in scambio/moda-economia-III-IV-lez01/testi_voci.json"
   }
  ],
  "domande_sara": [],
@@ -17,10 +22,14 @@
   {
    "quando": "08/11 15:15",
    "testo": "Materiali scaricati (video 61,5 min 480p, PDF 26 pagine, PPTX; niente Excel → test PROPOSTA_DA_VALIDARE). Scelta consigliata applicata: una sola Parte (lezione ~61 min, regola 8/11 fino a ~65 min), inserti ridotti per stare sotto ~65 min. Avvio trascrizione."
+  },
+  {
+   "quando": "08/11 15:25",
+   "testo": "Testi voci definitivi caricati in scambio/moda-economia-III-IV-lez01/testi_voci.json (ramo voci-moda-economia-III-IV-lez01): 12 voci, 5744 caratteri (INTRO1, S1-S8, GL1, RF1, FIN1). Scelta consigliata applicata: per stare vicino ai 65 min ogni argomento ha titolo, docente, schema di ripasso breve con voce, Quiz; niente animazioni extra (la docente da sola dura circa 61 min). Quiz 8x5 e test PROPOSTA_DA_VALIDARE (24 domande) pronti."
   }
  ],
  "materia": "Economia e marketing delle aziende della moda (III + IV)",
  "lezione": "Lezione 1 · Attività economica",
  "docente": "Prof.ssa Piera Caputi",
- "aggiornato": "2026-11-08 15:15:42"
+ "aggiornato": "2026-11-08 15:25:32"
 }
