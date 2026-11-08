@@ -1,0 +1,130 @@
+{
+ "T1": {
+  "type": "title",
+  "num": "01",
+  "total": 5,
+  "lines": [
+   "Globalisation"
+  ],
+  "ex": "globalizzazione",
+  "fs": 128,
+  "dur": 3.6,
+  "lineY": 600
+ },
+ "Q1": {
+  "type": "quiz",
+  "topic": "Globalisation",
+  "act": "Quiz 1",
+  "pts": "5 questions · 5 domande · per continuare almeno l’80%",
+  "dur": 4.0
+ },
+ "T2": {
+  "type": "title",
+  "num": "02",
+  "total": 5,
+  "lines": [
+   "Technological",
+   "advancement"
+  ],
+  "ex": "progresso tecnologico",
+  "fs": 128,
+  "dur": 3.6,
+  "lineY": 720
+ },
+ "Q2": {
+  "type": "quiz",
+  "topic": "Technological advancement",
+  "act": "Quiz 2",
+  "pts": "5 questions · 5 domande · per continuare almeno l’80%",
+  "dur": 4.0
+ },
+ "T3": {
+  "type": "title",
+  "num": "03",
+  "total": 5,
+  "lines": [
+   "Diversity",
+   "and inclusion"
+  ],
+  "ex": "diversità e inclusione",
+  "fs": 128,
+  "dur": 3.6,
+  "lineY": 720
+ },
+ "Q3": {
+  "type": "quiz",
+  "topic": "Diversity and inclusion",
+  "act": "Quiz 3",
+  "pts": "5 questions · 5 domande · per continuare almeno l’80%",
+  "dur": 4.0
+ },
+ "T4": {
+  "type": "title",
+  "num": "04",
+  "total": 5,
+  "lines": [
+   "World instability"
+  ],
+  "ex": "instabilità mondiale",
+  "fs": 108,
+  "dur": 3.6,
+  "lineY": 600
+ },
+ "Q4": {
+  "type": "quiz",
+  "topic": "World instability",
+  "act": "Quiz 4",
+  "pts": "5 questions · 5 domande · per continuare almeno l’80%",
+  "dur": 4.0
+ },
+ "T5": {
+  "type": "title",
+  "num": "05",
+  "total": 5,
+  "lines": [
+   "Environmental",
+   "concerns"
+  ],
+  "ex": "preoccupazioni ambientali",
+  "fs": 128,
+  "dur": 3.6,
+  "lineY": 720
+ },
+ "Q5": {
+  "type": "quiz",
+  "topic": "Environmental concerns",
+  "act": "Quiz 5",
+  "pts": "5 questions · 5 domande · per continuare almeno l’80%",
+  "dur": 4.0
+ },
+ "FIN1": {
+  "type": "final",
+  "kicker": "Inglese · Global Factors",
+  "t1": "THE END",
+  "t2": "FINE",
+  "items": [
+   [
+    "Globalisation",
+    "globalizzazione"
+   ],
+   [
+    "Technological advancement",
+    "progresso tecnologico"
+   ],
+   [
+    "Diversity and inclusion",
+    "diversità e inclusione"
+   ],
+   [
+    "World instability",
+    "instabilità mondiale"
+   ],
+   [
+    "Environmental concerns",
+    "preoccupazioni ambientali"
+   ]
+  ],
+  "sub": "This is the end of our lesson on global factors. Now try the final test. Thank you, and see you next time!",
+  "dur": 9.54
+ }
+}

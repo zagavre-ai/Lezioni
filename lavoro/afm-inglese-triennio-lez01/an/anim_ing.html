@@ -1,0 +1,141 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:'BG';font-weight:800;src:url('file:///home/claude/l1/fz/33157a64-Bricolage_GrotesqueDM_MonoFigtree/Bricolage_Grotesque/static/BricolageGrotesque-ExtraBold.ttf')}
+@font-face{font-family:'FG';font-weight:500;src:url('file:///home/claude/l1/fz/33157a64-Bricolage_GrotesqueDM_MonoFigtree/Figtree/static/Figtree-Medium.ttf')}
+@font-face{font-family:'FG';font-weight:700;src:url('file:///home/claude/l1/fz/33157a64-Bricolage_GrotesqueDM_MonoFigtree/Figtree/static/Figtree-Bold.ttf')}
+@font-face{font-family:'FG';font-weight:800;src:url('file:///home/claude/l1/fz/33157a64-Bricolage_GrotesqueDM_MonoFigtree/Figtree/static/Figtree-ExtraBold.ttf')}
+:root{--ink:#0B1530;--blue:#2060AF;--hl:#FFE600;--soft:#EEF3FA}
+*{box-sizing:border-box;margin:0;padding:0}
+body{width:1920px;height:1080px;overflow:hidden;background:#fff;font-family:'FG';color:var(--ink);position:relative}
+.abs{position:absolute}
+#hd{left:80px;top:52px;height:52px}
+#ey{left:80px;top:140px;font-weight:800;letter-spacing:.16em;font-size:22px;color:var(--blue);text-transform:uppercase;background:var(--soft);padding:6px 16px;border-radius:30px}
+#tt{left:80px;top:185px;font-family:'BG';font-weight:800;font-size:64px;letter-spacing:-.02em}
+#bar{left:80px;top:270px;width:84px;height:6px;border-radius:4px;background:var(--blue)}
+#cap{left:80px;right:80px;bottom:56px;min-height:110px;background:var(--ink);color:#fff;border-radius:18px;padding:22px 34px;font-weight:600;font-size:34px;line-height:1.35;display:flex;align-items:center}
+#stage{left:80px;right:80px;top:310px;height:560px}
+.card{position:absolute;background:#fff;border:1.5px solid #D5DCE8;border-radius:22px;box-shadow:0 18px 50px rgba(11,21,48,.10);padding:22px 28px}
+.lb{display:inline-block;font-weight:800;font-size:18px;letter-spacing:.16em;color:var(--blue);background:var(--soft);padding:5px 12px;border-radius:20px;text-transform:uppercase;margin-bottom:10px}
+.big{font-family:'BG';font-weight:800;font-size:96px;letter-spacing:-.02em;line-height:1}
+.mid{font-family:'BG';font-weight:800;font-size:44px;line-height:1.05}
+.tx{font-size:28px;font-weight:600;line-height:1.35}
+.chip{display:inline-block;background:var(--soft);color:var(--blue);font-weight:800;font-size:26px;border-radius:30px;padding:8px 18px;margin:6px 8px 0 0}
+.chip.on{background:var(--hl);color:var(--ink)}
+.hl{background:linear-gradient(transparent 55%,var(--hl) 55%)}
+svg text{font-family:'FG';font-weight:800}
+</style></head><body>
+<img id="hd" class="abs" src="file:///home/claude/logo/out/Telesio_logo_blu.svg">
+<div id="ey" class="abs">Approfondimento</div><div id="tt" class="abs"></div><div id="bar" class="abs"></div>
+<div id="stage" class="abs"></div><div id="cap" class="abs"></div>
+<script>
+const E=x=>{x=Math.max(0,Math.min(1,x));return 1-Math.pow(1-x,3)};
+const EB=x=>{x=Math.max(0,Math.min(1,x));const c=1.70158;return 1+(c+1)*Math.pow(x-1,3)+c*Math.pow(x-1,2)};
+const $=id=>document.getElementById(id);
+let A=null;
+function el(h){const d=document.createElement('div');d.innerHTML=h.trim();return d.firstElementChild}
+function show(e,v,dy){if(!e)return;e.style.opacity=Math.min(1,Math.max(0,v));e.style.transform='translateY('+((1-Math.min(1,v))*(dy==null?24:dy))+'px)'}
+// ---------- scene ----------
+const SC={};
+SC.AN1=function(st){st.innerHTML=`
+ <div class="card" id="c1" style="left:0;top:0;width:520px"><span class="lb">Le origini</span><div class="mid">Prime civiltà umane</div><div class="tx" style="margin-top:10px">e già gli uomini primitivi</div></div>
+ <div class="card" id="c2" style="left:560px;top:0;width:1200px;height:230px"><span class="lb">La diffusione</span>
+  <div style="display:flex;align-items:center;gap:18px;margin-top:20px">${['Asia Minore','Mediterraneo','Antica Grecia','Antica Roma'].map((x,i)=>`<div class="chip" data-r="${i}" style="font-size:30px">${x}</div>${i<3?`<div data-a="${i}" style="height:4px;width:60px;background:var(--blue);border-radius:2px"></div>`:''}`).join('')}</div></div>
+ <div class="card" id="c3" style="left:0;top:270px;width:520px;height:280px"><span class="lb">Oggi</span><div class="big"><span id="cnt">0</span></div><div class="mid" style="font-size:34px;margin-top:8px">miliardo di capi nel mondo</div></div>
+ <div class="card" id="c4" style="left:560px;top:270px;width:580px;height:280px"><span class="lb">Allevamenti</span><div id="au" class="mid" style="font-size:36px">Australia <span class="hl">≈ 1/5</span></div><div id="oth" style="margin-top:6px">${['Cina','Nuova Zelanda','Russia','Argentina','Regno Unito','Uruguay','Sudafrica'].map(x=>`<span class="chip" style="font-size:20px;padding:5px 12px">${x}</span>`).join('')}</div></div>
+ <div class="card" id="c5" style="left:1180px;top:270px;width:580px;height:280px"><span class="lb">Commercio</span><div class="tx"><b>Esportano:</b> Australia, Nuova Zelanda, Uruguay, Argentina, Sudafrica</div><div class="tx" style="margin-top:12px"><b>Importano:</b> Cina e <span id="it">Italia</span></div></div>
+ <div class="card" id="c6" style="left:1180px;top:270px;width:580px;height:280px;background:var(--ink);color:#fff;border:0"><span class="lb" style="background:var(--hl);color:var(--ink)">Italia</span><div class="mid" style="font-size:40px">1° Paese al mondo</div><div class="tx" style="margin-top:8px">per la trasformazione della lana in tessuto e maggior esportatore di questi manufatti</div></div>`};
+SC.AN1.draw=function(t,P){show($('c1'),E((t-P[0])/.6));show($('c2'),E((t-P[1])/.6));
+ document.querySelectorAll('[data-r]').forEach(e=>{const i=+e.dataset.r;const v=E((t-P[1]-.6-i*.9)/.5);show(e,v,10);e.classList.toggle('on',v>.9&&t<P[2]&&t>P[1]+.6+i*.9&&t<P[1]+1.5+i*.9)});
+ document.querySelectorAll('[data-a]').forEach(e=>{const i=+e.dataset.a;e.style.transform='scaleX('+E((t-P[1]-1.1-i*.9)/.4)+')';e.style.transformOrigin='left'});
+ show($('c3'),E((t-P[2])/.6));$('cnt').textContent=t<P[2]?'0':(Math.min(1,(t-P[2])/1.5)).toFixed(t-P[2]<1.5?1:0).replace('.',',');
+ show($('c4'),E((t-P[3])/.6));document.querySelectorAll('#oth .chip').forEach((e,i)=>show(e,E((t-P[3]-1.2-i*.35)/.4),8));
+ show($('c5'),E((t-P[4])/.6)*(1-E((t-P[5])/.4)));$('it').className=t>P[4]+2?'hl':'';
+ show($('c6'),E((t-P[5])/.6))};
+SC.AN2=function(st){st.innerHTML=`
+ <svg class="abs" style="left:0;top:0" width="1100" height="560" viewBox="0 0 1100 560">
+  <defs><clipPath id="bodyc"><ellipse cx="520" cy="270" rx="296" ry="166"/></clipPath></defs><g id="sheep">
+   <ellipse cx="520" cy="270" rx="300" ry="170" fill="#EEF3FA" stroke="#0B1530" stroke-width="4"/>
+   <path clip-path="url(#bodyc)" id="zs" d="M600,90 L840,90 L840,330 L600,330 Z" fill="#2060AF" opacity="0"/>
+   <path clip-path="url(#bodyc)" id="zf" d="M380,100 L600,100 L600,330 L380,330 Z" fill="#2060AF" opacity="0"/>
+   <path clip-path="url(#bodyc)" id="zv" d="M200,360 L840,360 L840,460 L200,460 Z" fill="#D9534F" opacity="0"/>
+   <circle cx="860" cy="200" r="78" fill="#fff" stroke="#0B1530" stroke-width="4"/>
+   <path id="zm" d="M860,230 m-60,0 a60,48 0 1,0 120,0 a60,48 0 1,0 -120,0" fill="#D9534F" opacity="0"/>
+   <circle cx="885" cy="185" r="7" fill="#0B1530"/>
+   ${[330,420,600,690].map(x=>`<rect x="${x}" y="400" width="34" height="130" rx="10" fill="#0B1530"/>`).join('')}
+  </g>
+  <text id="tm" x="860" y="330" font-size="26" fill="#D9534F" text-anchor="middle" opacity="0">MUSO</text>
+  <text id="tv" x="520" y="500" font-size="26" fill="#D9534F" text-anchor="middle" opacity="0">VENTRE</text>
+  <text id="tsf" x="600" y="230" font-size="30" fill="#fff" text-anchor="middle" opacity="0">SPALLE E FIANCHI</text>
+ </svg>
+ <div class="card" id="k1" style="left:1150px;top:0;width:610px"><span class="lb">Il vello</span><div class="tx">La pulizia dipende dal tipo di vita dell'animale e dalle zone del corpo esposte a deterioramento</div></div>
+ <div class="card" id="k2" style="left:1150px;top:190px;width:610px;border-color:#D9534F"><span class="lb" style="color:#D9534F;background:#FBEAEA">Non pregiate</span><div class="tx">muso e ventre</div></div>
+ <div class="card" id="k3" style="left:1150px;top:310px;width:610px;border-color:#2060AF"><span class="lb">Maggior pregio</span><div class="tx">spalle e fianchi</div></div>
+ <div class="card" id="k4" style="left:1150px;top:430px;width:610px;background:var(--ink);color:#fff;border:0"><div class="mid" style="font-size:40px">CERNITA</div><div class="tx" style="font-size:24px">separa e classifica le parti del vello</div></div>`};
+SC.AN2.draw=function(t,P){show($('sheep'),E((t-P[0]+.4)/.8),0);show($('k1'),E((t-P[0])/.6));
+ const m=E((t-P[1])/.6);['zm','zv'].forEach(i=>$(i).setAttribute('opacity',.85*m));['tm','tv'].forEach(i=>$(i).setAttribute('opacity',m));show($('k2'),m);
+ const s=E((t-P[2])/.6);['zs','zf'].forEach(i=>$(i).setAttribute('opacity',.9*s));$('tsf').setAttribute('opacity',s);show($('k3'),s);
+ show($('k4'),EB((t-P[3])/.6))};
+SC.AN3=function(st){const S=[[80,19.75],[90,19.25],[100,18.25],[110,18.25],[120,17.75],[130,17.25],[140,16.75],[150,16.25],[160,15.75],[170,15.25],[180,14.75],[190,14.25],[200,13.75],[210,13.25],[220,12.75],[230,12.25],[240,11.75],[250,11.25]];
+ st.innerHTML=`<div class="card" id="h0" style="left:0;top:0;width:640px"><span class="lb">Provenienza</span><div class="tx">classificazione commerciale legata all'origine della fibra</div></div>
+ ${[['Lana vergine','tosata esclusivamente da animali vivi'],['Lana di concia','ricavata da animali uccisi o morti'],['Lana rigenerata','da scarti di lavorazione o riciclo di manufatti usati']].map((x,i)=>`<div class="card" data-v="${i}" style="left:0;top:${175+i*128}px;width:640px;padding:14px 26px"><div class="mid" style="font-size:34px">${x[0]}</div><div class="tx" style="font-size:24px">${x[1]}</div></div>`).join('')}
+ <div class="card" id="h1" style="left:700px;top:0;width:1060px;height:550px"><span class="lb">IWTO · categorie super</span><div class="tx" style="font-size:22px">diametro massimo delle fibre (micron)</div>
+ <div style="display:flex;align-items:flex-end;gap:8px;height:380px;margin-top:20px">${S.map((x,i)=>`<div data-s="${i}" style="flex:1;display:flex;flex-direction:column;align-items:center;gap:6px"><div style="font-size:15px;font-weight:800">${String(x[1]).replace('.',',')}</div><div style="width:100%;height:${(x[1]-10)*30}px;background:${i==0||i==17?'#2060AF':'#9DB6DA'};border-radius:6px 6px 0 0"></div><div style="font-size:15px;font-weight:800;color:#2060AF">${x[0]}</div></div>`).join('')}</div></div>`};
+SC.AN3.draw=function(t,P){show($('h0'),E((t-P[0])/.6));document.querySelectorAll('[data-v]').forEach(e=>{const i=+e.dataset.v;show(e,E((t-P[1]-i*2.2)/.6))});
+ show($('h1'),E((t-P[2])/.6));document.querySelectorAll('[data-s]').forEach(e=>{const i=+e.dataset.s;show(e,E((t-P[2]-1-i*.18)/.4),30)})};
+SC.AN4=function(st){st.innerHTML=`
+ <div class="card" id="f0" style="left:0;top:0;width:820px;height:550px"><span class="lb">La lana e il fuoco</span>
+  <svg width="180" height="220" viewBox="0 0 180 220" style="position:absolute;right:30px;top:30px"><path id="fl" d="M90,10 C130,70 160,100 150,150 C140,200 40,200 30,150 C22,110 60,90 70,50 C80,80 95,90 90,10 Z" fill="#F08A24"/><path d="M90,90 C110,120 120,140 112,165 C104,190 76,190 68,165 C62,145 80,130 90,90 Z" fill="#FFE600"/></svg>
+  ${['brucia con estrema lentezza','lieve scoppiettio, nessun fumo tossico','non fonde e non gocciola','odore di capelli bruciati','si spegne da sola','residuo carbonioso fragile'].map((x,i)=>`<div class="tx" data-f="${i}" style="margin-top:14px;font-size:27px">✓ ${x}</div>`).join('')}</div>
+ <div class="card" id="g0" style="left:880px;top:0;width:880px;height:550px"><span class="lb">Il taglio della lana</span>
+  <div style="position:relative;height:300px;margin-top:10px"><div id="fab" style="position:absolute;left:40px;top:60px;height:150px;width:420px;background:repeating-linear-gradient(90deg,#9DB6DA 0 10px,#C9D7EC 10px 20px);border-radius:8px;border:3px solid #2060AF"></div>
+   <div id="g1" class="chip" style="position:absolute;left:40px;top:230px">tessuto umido: si allunga</div><div id="g2" class="chip on" style="position:absolute;left:380px;top:230px">dopo il taglio: −1 taglia</div></div>
+  <div id="g3" class="tx" style="font-size:26px">✓ falde più lunghe e materasso a riposo per una notte</div><div id="g4" class="tx" style="font-size:26px;margin-top:8px">✓ macchine stenditrici con controllo della tensione</div></div>`};
+SC.AN4.draw=function(t,P){show($('f0'),E((t-P[0])/.6));$('fl').style.transform='scale(1,'+(1+.06*Math.sin(t*8))+')';$('fl').style.transformOrigin='90px 200px';
+ const ff=[[P[1],0],[P[1]+3,1],[P[1]+6,2],[P[2],3],[P[2]+3.5,4],[P[2]+7,5]];ff.forEach(([a,i])=>show(document.querySelector('[data-f="'+i+'"]'),E((t-a)/.5),10));
+ show($('g0'),E((t-P[3])/.6));const w=420+200*E((t-P[3]-1.5)/1.5)-260*E((t-P[4])/1.2);$('fab').style.width=w+'px';
+ show($('g1'),E((t-P[3]-1.2)/.5),8);show($('g2'),E((t-P[4]-.4)/.5),8);show($('g3'),E((t-P[5])/.5),8);show($('g4'),E((t-P[5]-4)/.5),8)};
+SC.AN5=function(st){const D=[['vigogna',13,16,'120 g'],['cashmere',13,15,'400-1.000 g'],['yak',15,19,'400 g'],['cammello',17,23,'2-5 kg'],['alpaca',20,25,'300 g'],['lama',27,30,'4 kg']];
+ st.innerHTML=`<div class="card" id="p0" style="left:0;top:0;width:1760px;padding:14px 28px;background:var(--ink);color:#fff;border:0"><div class="mid" style="font-size:36px">pelo fine + resa modesta + tecnica complessa = <span style="color:var(--hl)">prezzo più elevato</span></div></div>
+ <div class="card" id="p1" style="left:0;top:100px;width:860px;height:450px"><span class="lb">Finezza (micron)</span>${D.map((x,i)=>`<div data-fi="${i}" style="display:flex;align-items:center;gap:14px;margin-top:12px"><div style="width:150px;font-weight:800;font-size:24px">${x[0]}</div><div style="position:relative;flex:1;height:30px;background:#EEF3FA;border-radius:15px"><div style="position:absolute;left:${(x[1]-10)*30}px;width:${(x[2]-x[1])*30}px;top:0;bottom:0;background:#2060AF;border-radius:15px"></div></div><div style="width:90px;font-weight:800;font-size:22px">${x[1]}-${x[2]}</div></div>`).join('')}</div>
+ <div class="card" id="p2" style="left:900px;top:100px;width:860px;height:450px"><span class="lb">Resa per animale</span>${[['vigogna','120 g',1],['cashmere','400-1.000 g',5],['mohair','1.600 g',11],['lama','4.000 g',28]].map((x,i)=>`<div data-re="${i}" style="display:flex;align-items:center;gap:14px;margin-top:22px"><div style="width:150px;font-weight:800;font-size:24px">${x[0]}</div><div style="height:34px;width:${x[2]*15+8}px;background:${i==0?'var(--hl)':'#9DB6DA'};border-radius:8px"></div><div style="font-weight:800;font-size:24px">${x[1]}</div></div>`).join('')}
+ <div id="rac" style="margin-top:26px">${['cammello · ciuffi caduti','vigogna · raduno dei branchi','alpaca e lama · tosatura','cashmere e angora · pettinatura'].map(x=>`<span class="chip" style="font-size:20px">${x}</span>`).join('')}</div></div>`};
+SC.AN5.draw=function(t,P){show($('p0'),E((t-P[0])/.6));show($('p1'),E((t-P[1])/.6));document.querySelectorAll('[data-fi]').forEach(e=>{const i=+e.dataset.fi;show(e,E((t-P[1]-.8-i*1.4)/.5),8)});
+ show($('p2'),E((t-P[2])/.6));document.querySelectorAll('[data-re]').forEach(e=>{const i=+e.dataset.re;show(e,E((t-P[2]-.8-i*2.4)/.5),8)});document.querySelectorAll('#rac .chip').forEach((e,i)=>show(e,E((t-P[3]-1-i*2.2)/.5),8))};
+SC.AN6=function(st){const T=[['III millennio a.C.','Cina: nasce la seta'],['leggenda orientale','la principessa promessa al principe di Khotan nasconde uova e semi di gelso nell\'acconciatura'],['leggenda europea','i monaci di Giustiniano portano le uova nei bastoni da viaggio'],['dal XII secolo','Italia: Palermo, Catanzaro, Como'],['dal 1900','declino; Como punta sui tessuti di alta qualità'],['oggi','Cina e India ≈ 90% della produzione']];
+ st.innerHTML=`<div id="line" class="abs" style="left:40px;top:180px;height:6px;width:0;background:var(--blue);border-radius:3px"></div>
+ ${T.map((x,i)=>`<div class="abs" data-tl="${i}" style="left:${40+i*285}px;top:160px;width:270px"><div style="width:46px;height:46px;border-radius:50%;background:${i==5?'var(--hl)':'#fff'};border:6px solid var(--blue)"></div><div class="lb" style="margin-top:18px">${x[0]}</div><div class="tx" style="font-size:27px">${x[1]}</div></div>`).join('')}`};
+SC.AN6.draw=function(t,P){$('line').style.width=(1680*E((t-P[0])/((P[5]-P[0])+2)))+'px';document.querySelectorAll('[data-tl]').forEach(e=>{const i=+e.dataset.tl;show(e,EB((t-P[i])/.6))})};
+SC.RIP=function(st){const C=[['1','La fibra tessile','elemento di base, allungato, flessibile e sottile'],['1','Naturali e chimiche','vegetali e animali · artificiali e sintetiche · in mischia'],['2','Le proprietà','morfologiche · chimiche · fisico-meccaniche · fisiologiche'],['3','Il mercato','×8 dal 1950 · naturali al 37% · Cina oltre il 60%'],['4','La lana','merino, incrociate, indigene · tosatura · lavaggio'],['5','La fibra di lana','80% cheratina · squame · finezza in micron']];
+ st.innerHTML=C.map((x,i)=>`<div class="card" data-k="${i}" style="left:${(i%3)*590}px;top:${Math.floor(i/3)*235}px;width:560px;height:210px"><span class="lb">Argomento ${x[0]}</span><div class="mid" style="font-size:38px">${x[1]}</div><div class="tx" style="font-size:24px;margin-top:8px">${x[2]}</div></div>`).join('')+`<div class="card" id="nx" style="left:0;top:480px;width:1760px;padding:14px 28px;background:var(--ink);color:#fff;border:0"><div class="mid" style="font-size:34px">Parte 2 · trattamenti e cura della lana · lane speciali · seta</div></div>`};
+SC.RIP.draw=function(t,P){document.querySelectorAll('[data-k]').forEach(e=>{const i=+e.dataset.k;const v=E((t-P[i+1])/.6);show(e,v);const on=t>=P[i+1]&&t<P[i+2];e.style.borderColor=on?'#2060AF':'#D5DCE8';e.style.boxShadow=on?'0 0 0 4px #FFE600,0 18px 50px rgba(11,21,48,.12)':'0 18px 50px rgba(11,21,48,.10)'});show($('nx'),E((t-P[7])/.6))};
+
+SC.GL1=function(st){const G=A.gl;A.nocap=1;
+ st.innerHTML=`<div class="card" id="gi" style="left:0;top:180px;width:1760px;height:200px;display:flex;align-items:center;justify-content:center;text-align:center;background:var(--soft);border:0"><div class="mid" style="font-size:46px;max-width:1500px" id="gitx"></div></div>`+
+ G.map((x,i)=>{const j=i%4;return `<div class="card" data-g="${i}" style="left:${(j%2)*890}px;top:${Math.floor(j/2)*285}px;width:870px;height:260px;opacity:0"><span class="lb">Parola chiave ${i+1}</span><div class="mid" style="font-size:46px;color:var(--blue)">${x[0]}</div><div class="tx" style="font-size:30px;margin-top:12px">${x[1]}</div></div>`}).join('')+
+ `<div class="abs" id="pgn" style="right:0;top:-70px;font-weight:800;font-size:24px;color:var(--blue);letter-spacing:.1em"></div>`};
+SC.GL1.draw=function(t,P){const n=A.gl.length;let k=-1;for(let i=1;i<=n;i++)if(t>=P[i]-.1)k=i-1;
+ const intro=t<P[1]-.1,outro=t>=P[n+1]-.1;$('gitx').textContent=intro?A.caps[0]:(outro?A.caps[n+1]:'');
+ show($('gi'),intro?E((t-P[0])/.6):(outro?E((t-P[n+1])/.6):0));
+ const pg=Math.floor(Math.max(k,0)/4);$('pgn').textContent=(intro||outro)?'':(pg+1)+' / '+Math.ceil(n/4);
+ document.querySelectorAll('[data-g]').forEach(e=>{const i=+e.dataset.g;const p=Math.floor(i/4);
+  let v=0;if(!intro&&!outro&&p==pg&&i<=k){v=E((t-P[i+1])/.6)}
+  const nextPage=(pg+1)*4+1;if(p==pg&&nextPage<=n&&t>P[nextPage]-.6)v*=1-E((t-(P[nextPage]-.6))/.5);
+  if(outro)v=0;show(e,v);const on=i==k&&!outro;e.style.borderColor=on?'#2060AF':'#D5DCE8';e.style.boxShadow=on?'0 0 0 4px #FFE600,0 18px 50px rgba(11,21,48,.12)':'0 18px 50px rgba(11,21,48,.10)'})};
+SC.RF1=function(st){const R=A.rf;
+ st.innerHTML=`<div class="abs" style="left:0;top:0;width:520px">`+R.map((x,i)=>`<div class="card" data-rt="${i}" style="position:relative;margin-bottom:14px;padding:14px 22px;width:520px;display:flex;align-items:center;gap:16px"><div style="flex:none;width:50px;height:50px;border-radius:50%;background:var(--soft);color:var(--blue);font:800 26px FG;display:flex;align-items:center;justify-content:center" class="nn">${i+1}</div><div class="tx" style="font-size:25px;font-weight:700;line-height:1.2">${x[0]}</div></div>`).join('')+`</div>`+
+ R.map((x,i)=>`<div class="card" data-rc="${i}" style="left:560px;top:0;width:1200px;height:560px;opacity:0;padding:30px 40px"><span class="lb">Argomento ${i+1}</span><div class="mid" style="font-size:50px;margin-bottom:26px">${x[0]}</div>`+x[1].map((b,j)=>`<div data-rb="${i}_${j}" style="display:flex;gap:18px;align-items:flex-start;margin-bottom:22px;opacity:0"><div style="flex:none;margin-top:12px;width:16px;height:16px;border-radius:50%;background:var(--blue)"></div><div class="tx" style="font-size:34px">${b}</div></div>`).join('')+`</div>`).join('')+
+ `<div class="card" id="rfi" style="left:560px;top:0;width:1200px;height:560px;display:flex;align-items:center;justify-content:center;text-align:center;background:var(--soft);border:0"><div class="mid" style="font-size:50px">Final review · Ripasso finale<br><span style="color:var(--blue)">5 global factors</span></div></div>`+
+ `<div class="card" id="rfn" style="left:560px;top:0;width:1200px;height:560px;display:flex;flex-direction:column;justify-content:center;background:var(--ink);color:#fff;border:0;opacity:0"><span class="lb" style="align-self:flex-start">Nella Parte 2</span><div class="mid" style="font-size:46px;line-height:1.3"></div></div>`};
+SC.RF1.draw=function(t,P){const R=A.rf;let k=-1;for(let i=1;i<P.length;i++)if(t>=P[i]-.1)k=i;
+ const cur=k>=1?k-1:-1;
+ show($('rfi'),cur<0?E((t-P[0])/.6):1-E((t-(P[1]-.4))/.4),0);show($('rfn'),0);
+ document.querySelectorAll('[data-rt]').forEach(e=>{const i=+e.dataset.rt;show(e,E((t-P[0]-.3-i*.25)/.6),10);const on=i==cur,done=i<cur;
+  e.style.borderColor=on?'#2060AF':'#D5DCE8';e.style.boxShadow=on?'0 0 0 4px #FFE600,0 18px 50px rgba(11,21,48,.12)':'0 10px 30px rgba(11,21,48,.08)';
+  const nn=e.querySelector('.nn');nn.style.background=on?'var(--blue)':(done?'#DDF3E4':'var(--soft)');nn.style.color=on?'#fff':(done?'#1E7B45':'var(--blue)');nn.textContent=done?'✓':(i+1)});
+ document.querySelectorAll('[data-rc]').forEach(e=>{const i=+e.dataset.rc;const a=P[1+i];let v=i==cur?E((t-a+.1)/.5):0;show(e,v,12)});
+ document.querySelectorAll('[data-rb]').forEach(e=>{const [i,j]=e.dataset.rb.split('_').map(Number);const a=P[1+i]+0.5+0.9*j;show(e,E((t-a)/.5),14)})};
+// ---------- motore ----------
+window.init=function(a){A=a;$('tt').textContent=a.title;$('ey').textContent=a.ey||'Approfondimento';SC[a.id]($('stage'))};
+window.draw=function(t){const P=A.P;SC[A.id].draw(t,P);
+ let k=-1;for(let i=0;i<P.length;i++)if(t>=P[i]-.1)k=i;const c=$('cap');const tx=k>=0?A.caps[k]:'';if(c.dataset.k!=k){c.dataset.k=k;c.textContent=tx}
+ c.style.opacity=(k>=0&&!A.nocap)?1:0;const fo=1-E((t-(A.dur-.5))/.5),fi=E(t/.5);document.body.style.opacity=Math.min(fi,fo)};
+</script></body></html>

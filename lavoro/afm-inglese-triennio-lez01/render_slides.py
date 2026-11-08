@@ -5,7 +5,7 @@ D='/home/claude/lezioni/afm-inglese-triennio-lez01/'
 SL=json.load(open(D+(__import__('os').environ.get('SLJ','slides.json'))))
 SY=json.load(open(D+'sync2.json'))
 T={a['i']:a['t'] for a in SY['align']}
-END=7260.2
+END=3731.5
 # inizio di ogni slide = inizio della prima frase; prima slide dalla fine dell'introduzione
 starts=[T[s['ids'][0]] for s in SL]
 for k in range(1,len(starts)):
