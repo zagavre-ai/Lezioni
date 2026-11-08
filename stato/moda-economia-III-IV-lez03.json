@@ -16,6 +16,10 @@
   {
    "quando": "08/11 15:24",
    "testo": "MIGLIORAMENTO: per le lezioni con la docente in bolla webcam (Caputi) basta tenere solo il ritaglio della webcam (ffmpeg crop=62:62:779:406, crf 8: pochi MB) e cancellare il video originale subito dopo audio pulito + trascrizione; comp.sh legge orig/cam.mp4 senza crop. Risparmia 0,6-1,5 GB di disco per lezione (utile ora che 4 lezioni girano insieme)."
+  },
+  {
+   "quando": "08/11 15:26",
+   "testo": "MEMORIA: la trascrizione (pk.py, circa 2,4 GB l'una) lanciata in 3 chat insieme sfora gli 8 GB: la mia è stata uccisa (OOM). La rilancio da sola, in coda, quando la memoria lo permette (asr_resume.sh: riprende dal punto raggiunto). Consiglio per le altre chat: una trascrizione alla volta."
   }
  ],
  "domande_sara": [],
@@ -28,5 +32,5 @@
  "materia": "Economia e marketing delle aziende della moda (III + IV)",
  "lezione": "Lezione 3 · Marketing",
  "docente": "Prof.ssa Piera Caputi",
- "aggiornato": "2026-11-08 15:24:47"
+ "aggiornato": "2026-11-08 15:26:24"
 }
