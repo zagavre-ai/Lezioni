@@ -3,7 +3,8 @@
  "parti": {
   "1": {
    "titolo": "The Business World",
-   "stato": "IN_MONTAGGIO"
+   "stato": "IN_MONTAGGIO",
+   "voci": "kore"
   }
  },
  "manca": "",
@@ -22,10 +23,14 @@
   {
    "quando": "08/11 14:12",
    "testo": "Testi voci definitivi caricati (9 voci, inglese B1, 3.974 caratteri) nel ramo voci-afm-inglese-triennio-lez02. Trascrizione in corso."
+  },
+  {
+   "quando": "08/11 14:39",
+   "testo": "Voci Kore ricevute e importate (9/9). Pause tagliate: 133 pause oltre 1,0 s portate a 0,6 s (−114 s), docente 52:49. Slide sincronizzate, schede T/Q/S/GL/RF/FIN pronte. Durata prevista ~58 min, una Parte. Ora composizione e montaggio."
   }
  ],
  "materia": "Inglese (AFM triennio)",
  "lezione": "Lezione 2 · The Business World",
  "docente": "Prof.ssa Maria Vittoria Fontanesi",
- "aggiornato": "2026-11-08 14:12:54"
+ "aggiornato": "2026-11-08 14:39:20"
 }
