@@ -3,7 +3,7 @@
  "parti": {
   "1": {
    "titolo": "Global Factors",
-   "stato": "IN_MONTAGGIO",
+   "stato": "IN_CODIFICA",
    "voci": "kore"
   }
  },
@@ -31,10 +31,14 @@
   {
    "quando": "08/11 14:47",
    "testo": "Docente+slide composto (62:11). Inizia il montaggio con i tagli delle pause."
+  },
+  {
+   "quando": "08/11 15:07",
+   "testo": "Montaggio pronto: 65:55 previsti (docente 59:16 dopo i tagli delle pause). Codifica unica in corso."
   }
  ],
  "materia": "Inglese (AFM triennio)",
  "lezione": "Lezione 1 · Global Factors",
  "docente": "Prof.ssa Maria Vittoria Fontanesi",
- "aggiornato": "2026-11-08 14:47:50"
+ "aggiornato": "2026-11-08 15:07:06"
 }
