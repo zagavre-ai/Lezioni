@@ -12,17 +12,50 @@
    "durata_s": 3278.2,
    "durata": "54:38.2",
    "fotogrammi": 98346,
-   "fotogrammi_attesi": 98346,
-   "peso_MB": 293.6,
+   "fotogrammi_attesi": 98347,
+   "peso_MB": 293.8,
    "vtt": "Tecnologie_Fibre_analisi_sicurezza_parte_1.vtt"
+  },
+  "2": {
+   "stato": "PRONTA",
+   "voci": "kore",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "si",
+   "video": "Tecnologie_Fibre_analisi_sicurezza_parte_2_1440p.mp4",
+   "durata_s": 3152.2,
+   "durata": "52:32.2",
+   "fotogrammi": 94564,
+   "fotogrammi_attesi": 94566,
+   "peso_MB": 267.5,
+   "vtt": "Tecnologie_Fibre_analisi_sicurezza_parte_2.vtt"
+  },
+  "3": {
+   "stato": "PRONTA",
+   "voci": "kore",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "si",
+   "video": "Tecnologie_Fibre_analisi_sicurezza_parte_3_1440p.mp4",
+   "durata_s": 3159.4,
+   "durata": "52:39.4",
+   "fotogrammi": 94781,
+   "fotogrammi_attesi": 94782,
+   "peso_MB": 281.9,
+   "vtt": "Tecnologie_Fibre_analisi_sicurezza_parte_3.vtt"
   }
  },
  "manca": "",
  "serve_master": [],
  "domande_sara": [],
- "note": [],
+ "note": [
+  {
+   "quando": "08/11 14:10",
+   "testo": "volume portato a -16 LUFS su P1-P3 (solo audio)"
+  }
+ ],
  "materia": "Tecnologie dei materiali (moda III)",
  "lezione": "Lezione 2 · Fibre tessili, analisi e sicurezza",
  "docente": "Prof.ssa Piera Caputi",
- "aggiornato": "2026-11-08 11:41:04"
+ "aggiornato": "2026-11-08 14:10:49"
 }
