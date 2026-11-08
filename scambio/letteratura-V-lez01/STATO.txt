@@ -1,0 +1,8 @@
+STATO letteratura-V-lez01 · Letteratura italiana · V anno · Lezione 1 · L'età del Naturalismo e del Decadentismo · Prof. Giorgio Mazzotti (8/11, 12:5x)
+Parte 1: PRONTA, voci Kore (9,04 min), file consegnati a Sara.
+MISURATO sul file finale: 3260,54 s (54:20) · 97815 fotogrammi · 343,6 MB · audio -16,0 LUFS · 2560x1440 30 fps.
+Controlli: scatto Quiz 0,0 s sì (6/6) · nessun fermo del docente sì (0 fermi >=1 s nel riquadro webcam) · fotogrammi sì · sotto 400 MB sì.
+Sottotitoli: .vtt rifatto dall'audio del video finale; campione 12 cue scarto medio 0,13 s, max 0,8 s (probabile parola ripetuta, non verificato). Limite 0,3 s non dimostrato su tutti i cue.
+Sincronia slide-voce controllata a mano frase per frase prima del montaggio; sul file finale vista a campione (mosaico di 36 fotogrammi, uno per pezzo).
+SERVE_MASTER: (1) kit/tools/*.py non è su main (ci sono solo kit/LEGGIMI.md e kit/REGOLE.md): stato.py e sub_finale.py non disponibili, ho scritto questo file al loro posto. (2) pagina web del quiz. (3) MIGLIORAMENTO: l'ASR dei tempi parole dà .vtt in anticipo se si usano i tempi del montaggio; meglio trascrivere sempre l'audio del video finale.
+Immagini libro: ritratto Baudelaire senza corrispondente nello zip, usato quello del PDF (p.7); template match debole su p024, p026, p030 (ritagli controllati a occhio).
