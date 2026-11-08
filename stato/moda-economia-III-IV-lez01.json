@@ -15,6 +15,10 @@
   {
    "quando": "08/11 15:25",
    "testo": "Generare le 12 voci Kore dei testi in scambio/moda-economia-III-IV-lez01/testi_voci.json"
+  },
+  {
+   "quando": "08/11 15:30",
+   "testo": "Macchina sovraccarica: carico 12 su 2 processori e memoria esaurita (economia lez02 e lez03, tecnologie in /home/claude/moda_tec lavorano qui insieme a me). La trascrizione di 61 min procede a circa 1/3 del tempo reale (stima 2-3 ore). Se possibile spostate qualche chat o mettetele in fila."
   }
  ],
  "domande_sara": [],
@@ -26,10 +30,14 @@
   {
    "quando": "08/11 15:25",
    "testo": "Testi voci definitivi caricati in scambio/moda-economia-III-IV-lez01/testi_voci.json (ramo voci-moda-economia-III-IV-lez01): 12 voci, 5744 caratteri (INTRO1, S1-S8, GL1, RF1, FIN1). Scelta consigliata applicata: per stare vicino ai 65 min ogni argomento ha titolo, docente, schema di ripasso breve con voce, Quiz; niente animazioni extra (la docente da sola dura circa 61 min). Quiz 8x5 e test PROPOSTA_DA_VALIDARE (24 domande) pronti."
+  },
+  {
+   "quando": "08/11 15:30",
+   "testo": "Struttura (8 argomenti, 79 slide), quiz, test, dispensa A4 (80 pagine), schemi, glossario e ripasso finale pronti. Trascrizione in corso ma lentissima: macchina condivisa con altre 3-4 chat (carico medio 12 su 2 processori, memoria piena: la trascrizione è stata uccisa 2 volte, ora riparte da sola a pezzi)."
   }
  ],
  "materia": "Economia e marketing delle aziende della moda (III + IV)",
  "lezione": "Lezione 1 · Attività economica",
  "docente": "Prof.ssa Piera Caputi",
- "aggiornato": "2026-11-08 15:25:32"
+ "aggiornato": "2026-11-08 15:30:06"
 }
