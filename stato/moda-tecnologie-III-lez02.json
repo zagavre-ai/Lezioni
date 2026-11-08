@@ -1,0 +1,28 @@
+{
+ "tag": "moda-tecnologie-III-lez02",
+ "parti": {
+  "1": {
+   "titolo": "Argomenti 1–4",
+   "stato": "PRONTA",
+   "voci": "kore",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "si",
+   "video": "Tecnologie_Fibre_analisi_sicurezza_parte_1_1440p.mp4",
+   "durata_s": 3278.2,
+   "durata": "54:38.2",
+   "fotogrammi": 98346,
+   "fotogrammi_attesi": 98346,
+   "peso_MB": 293.6,
+   "vtt": "Tecnologie_Fibre_analisi_sicurezza_parte_1.vtt"
+  }
+ },
+ "manca": "",
+ "serve_master": [],
+ "domande_sara": [],
+ "note": [],
+ "materia": "Tecnologie dei materiali (moda III)",
+ "lezione": "Lezione 2 · Fibre tessili, analisi e sicurezza",
+ "docente": "Prof.ssa Piera Caputi",
+ "aggiornato": "2026-11-08 11:41:04"
+}
