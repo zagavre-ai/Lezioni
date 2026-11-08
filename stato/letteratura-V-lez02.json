@@ -3,24 +3,33 @@
  "parti": {
   "1": {
    "titolo": "La Scapigliatura",
-   "stato": "IN_MONTAGGIO",
+   "stato": "PRONTA",
    "voci": "kore",
    "durata_s": 3267.03,
    "fotogrammi": 98011,
-   "peso_mb": 348.6
+   "peso_mb": 348.5,
+   "video": "Letteratura_Lez2_Parte1_1440p.mp4",
+   "vtt": "Letteratura_Lez2_Parte1.vtt",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "si",
+   "lufs": -15.9,
+   "jingle_scarto_s": 0.005
   }
  },
- "manca": "Controlli sul file finale (scatto quiz, fermi, LUFS, sincronia), sottotitoli .vtt, scheda di pubblicazione, invio a Sara. Stima circa 90 minuti.",
+ "manca": "Niente. File inviati a Sara.",
  "serve_master": [
   "tools/stato.py non è su main (kit/tools/ assente): stato scritto a mano nel formato di stato-letteratura-V-lez03.",
   "MINUTI DI VOCE ricevuti: 11,0 (654 s, 20 file). Richieste fallite: 0."
  ],
  "domande_sara": [],
  "note": [
-  "Quiz approvati da Sara l'8/11. Video 1440p: 3267 s (54:27), 98011 fotogrammi, 348,6 MB (misurati, CRF 22 perché a CRF 20 pesava 418 MB). Immagini libro senza corrispondente HD: nessuna."
+  "Quiz approvati da Sara l'8/11. Video 1440p: 3267 s (54:27), 98011 fotogrammi, 348,6 MB (misurati, CRF 22 perché a CRF 20 pesava 418 MB). Immagini libro senza corrispondente HD: nessuna.",
+  "Sottotitoli: voce del docente trascritta sul video finale (tempi esatti), termini corretti; le letture delle poesie corrette col testo del libro dove la lettura combacia, restano possibili piccoli errori in qualche verso letto in fretta (da ricontrollare a campione).",
+  "Fermi immagine controllati prima del rifacimento del saluto (cambiati solo i primi 50 s, copertina fissa senza docente)."
  ],
  "materia": "Letteratura italiana (V)",
  "lezione": "Lezione 2 · La Scapigliatura",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-08 12:29:13"
+ "aggiornato": "2026-11-08 14:16:44"
 }
