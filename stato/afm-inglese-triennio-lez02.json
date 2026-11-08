@@ -7,7 +7,12 @@
   }
  },
  "manca": "",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "08/11 14:03",
+   "testo": "Mi serve Test_finale_Inglese_The_Business_World.xlsx (già fatto dalla master): non è nel repo né nel Progetto. Mettilo per favore nel ramo voci-afm-inglese-triennio-lez02 (scambio/afm-inglese-triennio-lez02/). Se non arriva, alla consegna preparo una PROPOSTA_DA_VALIDARE."
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
@@ -18,5 +23,5 @@
  "materia": "Inglese (AFM triennio)",
  "lezione": "Lezione 2 · The Business World",
  "docente": "Prof.ssa Maria Vittoria Fontanesi",
- "aggiornato": "2026-11-08 14:03:20"
+ "aggiornato": "2026-11-08 14:03:48"
 }
