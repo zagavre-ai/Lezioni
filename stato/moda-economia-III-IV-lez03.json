@@ -3,8 +3,511 @@
  "parti": {
   "1": {
    "titolo": "Marketing",
-   "stato": "IN_CODIFICA",
-   "voci": "kore"
+   "stato": "IN_MONTAGGIO",
+   "voci": "kore",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "no",
+   "video": "Economia_Lez3_Parte1_1440p.mp4",
+   "durata_s": 3845.4,
+   "durata": "64:05.4",
+   "fotogrammi": 115362,
+   "fotogrammi_attesi": 115362,
+   "peso_MB": 356.0,
+   "vtt": "Economia_Lez3_Parte1.vtt",
+   "scheda": {
+    "materia": "Economia e marketing delle aziende della moda",
+    "titolo": "Lezione 3 · Marketing · Parte 1",
+    "durata_s": 3845.4,
+    "argomenti": [
+     {
+      "n": 1,
+      "titolo": "Il marketing e il mercato",
+      "inizio_s": 61.932,
+      "quiz_s": 558.799
+     },
+     {
+      "n": 2,
+      "titolo": "Il mercato globale",
+      "inizio_s": 564.099,
+      "quiz_s": 1010.099
+     },
+     {
+      "n": 3,
+      "titolo": "Consumatore e concorrenza",
+      "inizio_s": 1015.399,
+      "quiz_s": 1382.266
+     },
+     {
+      "n": 4,
+      "titolo": "Le strategie competitive",
+      "inizio_s": 1387.566,
+      "quiz_s": 1757.532
+     },
+     {
+      "n": 5,
+      "titolo": "Marketing strategico e operativo",
+      "inizio_s": 1762.832,
+      "quiz_s": 2332.932
+     },
+     {
+      "n": 6,
+      "titolo": "Ambiente di marketing e microambiente",
+      "inizio_s": 2338.232,
+      "quiz_s": 3007.899
+     },
+     {
+      "n": 7,
+      "titolo": "Porter e il macroambiente",
+      "inizio_s": 3013.199,
+      "quiz_s": 3641.099
+     }
+    ],
+    "quiz": {
+     "Q1": {
+      "title": "Quiz 1 · Il marketing e il mercato",
+      "items": [
+       {
+        "p": "Da quale verbo inglese deriva il termine marketing?",
+        "a": "Da to market, che significa commercializzare e immettere sul mercato",
+        "w": [
+         "Da to make, che significa produrre e fabbricare",
+         "Da to manage, che significa dirigere un'azienda",
+         "Da to mark, che significa contrassegnare un prodotto"
+        ],
+        "ref": "Il termine marketing deriva dal verbo inglese to market, che significa commercializzare e immettere sul mercato."
+       },
+       {
+        "p": "Che cos'è la miopia di marketing?",
+        "a": "L'errore di concentrarsi sui beni prodotti anziché sui benefici offerti al consumatore",
+        "w": [
+         "L'errore di investire troppo nella pubblicità",
+         "La scelta di vendere solo nel mercato nazionale",
+         "L'abitudine di fissare prezzi troppo alti"
+        ],
+        "ref": "Il cliente è il cuore di tutte le attività aziendali: bisogna evitare la miopia di marketing, cioè concentrarsi sui beni prodotti anziché sui benefici offerti al consumatore."
+       },
+       {
+        "p": "Come viene definito il mercato?",
+        "a": "L'insieme degli acquirenti attuali e potenziali che condividono un bisogno o un desiderio",
+        "w": [
+         "L'insieme dei soli negozi presenti in una città",
+         "L'insieme delle imprese che producono lo stesso bene",
+         "Il luogo in cui si fissano i prezzi per legge"
+        ],
+        "ref": "Il mercato è l'insieme di tutti gli acquirenti attuali e potenziali che condividono un particolare bisogno o desiderio e che potrebbero essere interessati a uno scambio per soddisfarlo."
+       },
+       {
+        "p": "Il mercato immobiliare e il mercato finanziario sono esempi di mercato inteso come…",
+        "a": "Settore",
+        "w": [
+         "Luogo",
+         "Insieme di persone",
+         "Mercato obiettivo"
+        ],
+        "ref": "Il mercato come settore definisce l'insieme delle imprese che offrono prodotti o servizi simili, come il mercato immobiliare, finanziario, delle materie prime e agricolo."
+       },
+       {
+        "p": "Che cos'è il mercato obiettivo?",
+        "a": "Il gruppo omogeneo di consumatori a cui l'impresa indirizza i propri sforzi di marketing",
+        "w": [
+         "Il fatturato che l'impresa vuole raggiungere in un anno",
+         "Il paese estero in cui l'impresa vuole aprire un negozio",
+         "L'insieme dei concorrenti diretti dell'impresa"
+        ],
+        "ref": "Il mercato obiettivo è il gruppo omogeneo di consumatori a cui l'impresa sceglie di indirizzare i propri sforzi di marketing, suddividendoli per età, sesso, stile di vita o gusti."
+       }
+      ]
+     },
+     "Q2": {
+      "title": "Quiz 2 · Il mercato globale",
+      "items": [
+       {
+        "p": "Che cosa ha reso il mercato «planetario»?",
+        "a": "L'avanzamento dei trasporti e delle comunicazioni",
+        "w": [
+         "La riduzione del numero delle imprese",
+         "La chiusura dei negozi tradizionali",
+         "L'aumento dei prezzi delle materie prime"
+        ],
+        "ref": "Con la globalizzazione l'avanzamento dei trasporti e delle comunicazioni facilita l'ingresso nei paesi esteri e rende il mercato planetario."
+       },
+       {
+        "p": "Quale effetto ha l'aumento della concorrenza sulle imprese?",
+        "a": "Aumentano i costi di marketing e si riducono i margini di profitto",
+        "w": [
+         "Si riducono i costi di marketing e aumentano i margini",
+         "Le piccole aziende non devono più competere con le multinazionali",
+         "I prezzi aumentano per tutti i prodotti"
+        ],
+        "ref": "L'intensificarsi della rivalità tra imprese comporta l'incremento dei costi di marketing, la riduzione dei margini di profitto e la necessità per le piccole aziende di competere con i colossi multinazionali."
+       },
+       {
+        "p": "Come la tecnologia ha cambiato il ruolo del consumatore?",
+        "a": "Può confrontare prezzi e offerte 24 ore su 24 e condividere opinioni sui social",
+        "w": [
+         "Può acquistare solo nei negozi fisici",
+         "Ha meno informazioni sui prodotti",
+         "Ha perso potere d'acquisto"
+        ],
+        "ref": "La tecnologia consente ai clienti di valutare diverse offerte, acquistare da remoto, confrontare i prezzi 24 ore al giorno per 7 giorni alla settimana e condividere opinioni sui social media."
+       },
+       {
+        "p": "Che cosa sono Yoox, Net-a-porter e Zalando?",
+        "a": "Piattaforme online commerciali, cioè nuovi canali di vendita",
+        "w": [
+         "Marchi di alta moda italiani",
+         "Associazioni di consumatori",
+         "Fiere internazionali della moda"
+        ],
+        "ref": "Tra i nuovi canali di vendita ci sono piattaforme online commerciali come Privalia, Yoox, Net-a-porter e Zalando, che propongono prodotti scontati."
+       },
+       {
+        "p": "Che cosa prevede la politica fur free?",
+        "a": "L'abolizione totale delle pellicce animali",
+        "w": [
+         "L'uso di sole pellicce certificate",
+         "La vendita di pellicce solo online",
+         "Lo sconto sulle pellicce a fine stagione"
+        ],
+        "ref": "L'attenzione alla sostenibilità e al benessere animale porta a scelte etiche come la politica fur free, cioè l'abolizione totale delle pellicce animali dalla stagione autunno-inverno 2016/2017."
+       }
+      ]
+     },
+     "Q3": {
+      "title": "Quiz 3 · Consumatore e concorrenza",
+      "items": [
+       {
+        "p": "Su quali due principi si fonda il marketing?",
+        "a": "L'analisi del consumatore e l'analisi della concorrenza",
+        "w": [
+         "L'analisi dei costi e l'analisi dei ricavi",
+         "La produzione e la vendita",
+         "La pubblicità e gli sconti"
+        ],
+        "ref": "Il marketing si fonda sull'analisi del consumatore, per individuare e soddisfare i bisogni dei clienti, e sull'analisi della concorrenza, per offrire prodotti superiori a quelli dei rivali."
+       },
+       {
+        "p": "Nel modello delle 6W, che cosa indica la variabile «who»?",
+        "a": "Chi effettua l'acquisto: età, sesso, professione e ruolo nella famiglia",
+        "w": [
+         "Che cosa viene acquistato",
+         "Dove avviene l'acquisto",
+         "Perché si acquista"
+        ],
+        "ref": "Who identifica chi effettua l'acquisto, esaminando età, sesso, professione e ruolo nella famiglia."
+       },
+       {
+        "p": "Nel modello delle 6W, che cosa indica la variabile «why»?",
+        "a": "Perché si acquista: necessità reali, condizione sociale o prestigio",
+        "w": [
+         "Quando si acquista: giorni e orari",
+         "Come si acquista: d'impulso o ponderatamente",
+         "Dove si acquista: negozi, Internet, outlet"
+        ],
+        "ref": "Why spiega perché si acquista, valutando motivazioni legate a necessità reali, condizione sociale o prestigio."
+       },
+       {
+        "p": "Qual è la prima fase del processo di analisi della concorrenza?",
+        "a": "L'identificazione dei concorrenti, diretti e indiretti",
+        "w": [
+         "La scelta della strategia",
+         "La definizione del prezzo di vendita",
+         "L'apertura di nuovi punti vendita"
+        ],
+        "ref": "Le fasi sono: identificazione dei concorrenti (diretti e indiretti), definizione del mercato di riferimento e scelta della strategia."
+       },
+       {
+        "p": "Chi deve comprendere la psicologia e le azioni dei clienti prima, durante e dopo l'acquisto?",
+        "a": "I marketing manager",
+        "w": [
+         "I fornitori",
+         "Gli agenti di commercio",
+         "Le società di trasporto"
+        ],
+        "ref": "I marketing manager devono comprendere la psicologia e le azioni dei clienti prima, durante e dopo l'acquisto."
+       }
+      ]
+     },
+     "Q4": {
+      "title": "Quiz 4 · Le strategie competitive",
+      "items": [
+       {
+        "p": "Quali sono le tre strategie competitive?",
+        "a": "Differenziazione del prodotto, leadership di costo e concentrazione su un mercato",
+        "w": [
+         "Prodotto, prezzo e promozione",
+         "Globalizzazione, tecnologia e concorrenza",
+         "Microambiente, macroambiente e marketing interno"
+        ],
+        "ref": "Per affrontare la concorrenza si applicano la differenziazione del prodotto, la leadership di costo e la concentrazione su un mercato."
+       },
+       {
+        "p": "Che cosa crea la differenziazione del prodotto?",
+        "a": "Un'immagine distintiva nella mente del consumatore",
+        "w": [
+         "Il prezzo più basso del mercato",
+         "Una nicchia di clienti molto piccola",
+         "L'eliminazione di tutti i servizi accessori"
+        ],
+        "ref": "La differenziazione crea un'immagine distintiva nella mente del consumatore: l'offerta è riconoscibile per stile, qualità, affidabilità e prestazioni, come nel caso di Desigual."
+       },
+       {
+        "p": "A che cosa punta la leadership di costo?",
+        "a": "A contenere i costi produttivi ai livelli più bassi possibili, senza sacrificare la qualità",
+        "w": [
+         "A vendere solo prodotti di lusso",
+         "A cambiare fornitore ogni stagione",
+         "A rivolgersi solo ai mercati esteri"
+        ],
+        "ref": "La leadership di costo mira a contenere i costi produttivi ai livelli più bassi possibili, scegliendo fornitori che offrano materie prime al miglior prezzo senza sacrificare la qualità."
+       },
+       {
+        "p": "Che cos'è una nicchia di mercato?",
+        "a": "Un segmento ristretto di consumatori con esigenze omogenee",
+        "w": [
+         "Il mercato più grande di un settore",
+         "L'insieme di tutti i concorrenti",
+         "Un negozio di piccole dimensioni"
+        ],
+        "ref": "La concentrazione su un mercato focalizza gli sforzi su una nicchia, cioè un segmento ristretto composto da consumatori con esigenze omogenee, come il vintage e l'usato."
+       },
+       {
+        "p": "Quale di queste è una condizione della nicchia?",
+        "a": "Una dimensione sufficiente a rendere profittevole l'investimento",
+        "w": [
+         "Un numero di clienti il più basso possibile",
+         "Un prodotto identico a quello dei concorrenti",
+         "L'assenza di competenze di marketing"
+        ],
+        "ref": "Le condizioni della nicchia sono: capacità di marketing superiori, dimensione sufficiente e adattamento dell'offerta."
+       }
+      ]
+     },
+     "Q5": {
+      "title": "Quiz 5 · Marketing strategico e operativo",
+      "items": [
+       {
+        "p": "Che cosa fa il marketing strategico?",
+        "a": "Stabilisce le linee guida per gli obiettivi di medio e lungo termine",
+        "w": [
+         "Attua concretamente le decisioni sul mercato",
+         "Gestisce solo le vetrine dei negozi",
+         "Si occupa solo dei trasporti"
+        ],
+        "ref": "Il marketing strategico stabilisce le linee guida per il raggiungimento degli obiettivi di medio e lungo termine; il marketing operativo le attua sul mercato."
+       },
+       {
+        "p": "Che cosa significa la sigla CRM?",
+        "a": "Customer Relationship Management, la gestione delle relazioni con i clienti",
+        "w": [
+         "Controllo dei ricavi mensili",
+         "Centro ricerche di mercato",
+         "Costo reale della merce"
+        ],
+        "ref": "Il marketing strategico comprende le attività di CRM, Customer Relationship Management, per la gestione delle relazioni con i clienti."
+       },
+       {
+        "p": "Quali sono le 4P del marketing mix?",
+        "a": "Prodotto, prezzo, distribuzione e promozione",
+        "w": [
+         "Produzione, personale, profitto e pubblicità",
+         "Prodotto, prezzo, personale e progetto",
+         "Piano, prezzo, punto vendita e profitto"
+        ],
+        "ref": "Il marketing operativo attua le scelte strategiche attraverso il marketing mix, con le 4P: prodotto, prezzo, distribuzione e promozione."
+       },
+       {
+        "p": "Con quale esempio si spiega la strategia di prezzo?",
+        "a": "La linea Emme del gruppo MaxMara, con capi a prezzi più contenuti",
+        "w": [
+         "Le vetrine di H&M rinnovate ogni 10-15 giorni",
+         "Le borse artigianali di Louis Vuitton",
+         "Le campagne promozionali di Mango"
+        ],
+        "ref": "Il gruppo MaxMara ha lanciato dall'autunno-inverno 2014 la linea Emme, con capi dallo stile rinnovato a prezzi più contenuti."
+       },
+       {
+        "p": "Che cosa è successo alla Maison Martin Margiela nel 2002?",
+        "a": "L'ingresso in Borsa, la prima linea uomo e l'acquisizione della maggioranza da parte del gruppo Diesel",
+        "w": [
+         "La nomina di John Galliano a direttore creativo",
+         "L'apertura del primo hotel a Parigi",
+         "La collaborazione con H&M"
+        ],
+        "ref": "Nel 2002 la società entra in Borsa, crea la prima linea da uomo e il gruppo Diesel di Renzo Rosso ne acquisisce la maggioranza."
+       }
+      ]
+     },
+     "Q6": {
+      "title": "Quiz 6 · Ambiente di marketing e microambiente",
+      "items": [
+       {
+        "p": "Quando si realizza la creazione di valore?",
+        "a": "Quando l'azienda soddisfa un bisogno del consumatore con i propri prodotti",
+        "w": [
+         "Quando l'azienda aumenta i prezzi",
+         "Quando l'azienda riduce il personale",
+         "Quando l'azienda apre un nuovo stabilimento"
+        ],
+        "ref": "La creazione di valore si realizza quando l'azienda soddisfa un bisogno del consumatore attraverso i propri prodotti."
+       },
+       {
+        "p": "Che differenza c'è tra microambiente e macroambiente?",
+        "a": "Il microambiente è vicino all'impresa; il macroambiente sono le grandi forze sociali ed economiche non controllabili",
+        "w": [
+         "Il microambiente riguarda solo il personale interno",
+         "Il macroambiente riguarda solo i fornitori",
+         "Non c'è differenza: sono sinonimi"
+        ],
+        "ref": "Il microambiente raggruppa individui, gruppi e organizzazioni vicini all'impresa; il macroambiente racchiude le grandi forze sistemiche sociali ed economiche non controllabili."
+       },
+       {
+        "p": "Chi sono gli intermediari indiretti?",
+        "a": "Agenti, broker e società di trasporto, che non acquisiscono la proprietà della merce",
+        "w": [
+         "Grossisti e dettaglianti",
+         "I consumatori finali",
+         "I concorrenti dominanti"
+        ],
+        "ref": "Gli intermediari indiretti, come agenti e broker e società di trasporto, facilitano la vendita senza acquisire la proprietà della merce. Grossisti e dettaglianti sono intermediari diretti."
+       },
+       {
+        "p": "Come si calcola la quota di mercato assoluta?",
+        "a": "Fatturato dell'impresa diviso fatturato del mercato, moltiplicato per 100",
+        "w": [
+         "Fatturato dell'impresa diviso fatturato del principale concorrente",
+         "Fatturato del mercato meno fatturato dell'impresa",
+         "Numero di clienti diviso numero di negozi"
+        ],
+        "ref": "La quota di mercato assoluta si ottiene moltiplicando per 100 il rapporto tra il fatturato dell'impresa e il fatturato complessivo del mercato."
+       },
+       {
+        "p": "La quota di mercato relativa di Prada rispetto ad Armani è 1,64. Che cosa significa?",
+        "a": "Che Prada è leader rispetto al rivale diretto",
+        "w": [
+         "Che Prada è follower",
+         "Che Prada ha l'1,64% del mercato",
+         "Che le due imprese hanno lo stesso fatturato"
+        ],
+        "ref": "Un valore della quota relativa superiore a 1 attribuisce il ruolo di leader, inferiore a 1 la posizione di follower: con 1,64 Prada è leader sul rivale diretto."
+       }
+      ]
+     },
+     "Q7": {
+      "title": "Quiz 7 · Porter e il macroambiente",
+      "items": [
+       {
+        "p": "Quale di queste è una delle cinque forze di Porter?",
+        "a": "La minaccia di prodotti sostitutivi",
+        "w": [
+         "La responsabilità sociale",
+         "Il marketing interno",
+         "La politica fur free"
+        ],
+        "ref": "Le cinque forze sono: intensità della concorrenza, potere contrattuale dei fornitori, potere contrattuale degli acquirenti, minaccia di nuovi entranti e minaccia di prodotti sostitutivi."
+       },
+       {
+        "p": "Quale di questi elementi è una barriera all'entrata?",
+        "a": "La notorietà della marca",
+        "w": [
+         "Il reddito disponibile",
+         "Il consumerismo",
+         "La multiculturalità"
+        ],
+        "ref": "Le barriere all'entrata comprendono gli investimenti iniziali, la notorietà della marca, l'accesso ai canali distributivi, le economie di scala e le politiche governative."
+       },
+       {
+        "p": "Da che cosa dipende l'ambiente economico?",
+        "a": "Dal reddito disponibile e dal livello di disoccupazione",
+        "w": [
+         "Dalle scoperte scientifiche",
+         "Dalle norme locali e internazionali",
+         "Dai valori e dagli stili di vita"
+        ],
+        "ref": "L'ambiente economico dipende dal reddito disponibile, ossia il denaro residuo dopo le spese obbligatorie, e dal livello di disoccupazione."
+       },
+       {
+        "p": "Che cos'è il kanecaron, usato da Chanel nel 2010?",
+        "a": "Una fibra modacrilica ad alta tecnologia per il pelo sintetico",
+        "w": [
+         "Una pelliccia animale pregiata",
+         "Un tessuto di cotone biologico",
+         "Una vernice per pelletteria"
+        ],
+        "ref": "Chanel nel 2010 ha consacrato il pelo sintetico con il kanecaron, una fibra modacrilica ad alta tecnologia inventata dal colosso giapponese Kaneka."
+       },
+       {
+        "p": "Che cosa tutela il consumerismo?",
+        "a": "I diritti e la forza contrattuale dei clienti verso produttori e distributori",
+        "w": [
+         "Il patrimonio naturale",
+         "I profitti delle imprese",
+         "I diritti dei fornitori"
+        ],
+        "ref": "Il movimento dei consumatori o consumerismo tutela i diritti e la forza contrattuale dei clienti nei confronti di produttori e distributori; l'ambientalismo tutela il patrimonio naturale."
+       }
+      ]
+     }
+    }
+   },
+   "timeline": [
+    [
+     "T1",
+     61.932,
+     3.6
+    ],
+    [
+     "Q1",
+     558.799,
+     4.0
+    ],
+    [
+     "T2",
+     564.099,
+     3.6
+    ],
+    [
+     "T3",
+     1015.399,
+     3.6
+    ],
+    [
+     "T4",
+     1387.566,
+     3.6
+    ],
+    [
+     "T5",
+     1762.832,
+     3.6
+    ],
+    [
+     "T6",
+     2338.232,
+     3.6
+    ],
+    [
+     "T7",
+     3013.199,
+     3.6
+    ],
+    [
+     "GL1",
+     3646.399,
+     108.7
+    ],
+    [
+     "RF1",
+     3756.699,
+     71.4
+    ],
+    [
+     "FIN1",
+     3829.499,
+     8.0
+    ]
+   ]
   }
  },
  "manca": "",
@@ -22,10 +525,14 @@
   {
    "quando": "09/11 02:08",
    "testo": "09/11 02:00: montaggio fatto (64:05 misurati sulla lista: sigla, saluto, 7 argomenti con titolo/docente/ripasso/schema/quiz, glossario, ripasso finale, fine). Codifica unica 1440p in corso."
+  },
+  {
+   "quando": "09/11 03:32",
+   "testo": "controllo_finale: ESITO: DA SISTEMARE: volume, sottotitoli"
   }
  ],
  "materia": "Economia e marketing delle aziende della moda (III + IV)",
  "lezione": "Lezione 3 · Marketing",
  "docente": "Prof.ssa Piera Caputi",
- "aggiornato": "2026-11-09 02:08:29"
+ "aggiornato": "2026-11-09 03:32:23"
 }
