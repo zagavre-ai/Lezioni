@@ -1,0 +1,454 @@
+{
+ "tag": "moda-tecnologie-III-lez04",
+ "parti": {
+  "1": {
+   "stato": "PRONTA",
+   "voci": "kore",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "si",
+   "video": "Tecnologie_Tessitura_parte_I_1440p.mp4",
+   "durata_s": 4219.8,
+   "durata": "70:19.8",
+   "fotogrammi": 126593,
+   "fotogrammi_attesi": 126595,
+   "peso_MB": 383.7,
+   "vtt": "Tecnologie_Tessitura_parte_I.vtt",
+   "scheda": {
+    "materia": "Tecnologie dei materiali",
+    "titolo": "Tessitura · Parte I",
+    "durata_s": 4219.8,
+    "argomenti": [
+     {
+      "n": 1,
+      "titolo": "Il tessuto a navetta",
+      "inizio_s": 40.432,
+      "quiz_s": 1025.765
+     },
+     {
+      "n": 2,
+      "titolo": "Le armature fondamentali",
+      "inizio_s": 1031.065,
+      "quiz_s": 1834.632
+     },
+     {
+      "n": 3,
+      "titolo": "Il telaio",
+      "inizio_s": 1839.932,
+      "quiz_s": 2305.398
+     },
+     {
+      "n": 4,
+      "titolo": "La maglia",
+      "inizio_s": 2310.698,
+      "quiz_s": 2632.498
+     },
+     {
+      "n": 5,
+      "titolo": "Le macchine da maglieria",
+      "inizio_s": 2637.798,
+      "quiz_s": 3247.398
+     },
+     {
+      "n": 6,
+      "titolo": "Maglia in catena ed effetti",
+      "inizio_s": 3252.698,
+      "quiz_s": 4061.631
+     }
+    ],
+    "quiz": {
+     "Q1": {
+      "title": "Quiz 1 · Il tessuto a navetta",
+      "items": [
+       {
+        "p": "Come sono disposti i fili in un tessuto a navetta?",
+        "a": "Perpendicolari tra loro, ad angolo retto",
+        "w": [
+         "Paralleli in diagonale",
+         "Avvolti a spirale",
+         "Annodati tra loro a boccole"
+        ],
+        "ref": "Nei tessuti a navetta i fili sono intrecciati perpendicolarmente tra loro, costituendo un angolo retto che li definisce ortogonali."
+       },
+       {
+        "p": "Che cosa determina l'ordito (o catena)?",
+        "a": "La lunghezza e il verso del tessuto",
+        "w": [
+         "La larghezza, cioè l'altezza del tessuto",
+         "Il colore del tessuto",
+         "Il peso delle cimose"
+        ],
+        "ref": "I fili verticali, ordito o catena, determinano la lunghezza e il verso del tessuto; la trama determina la larghezza, detta altezza."
+       },
+       {
+        "p": "Perché per l'ordito si usano fili con maggiore torsione?",
+        "a": "Perché devono essere più resistenti e tesi",
+        "w": [
+         "Perché devono essere più morbidi",
+         "Perché costano meno",
+         "Perché si tingono meglio"
+        ],
+        "ref": "Per l'ordito si usano fili con maggiore torsione, più resistenti e tesi; per la trama fili con minore torsione, più elastici."
+       },
+       {
+        "p": "Che cosa sono le cimose?",
+        "a": "I bordi laterali resistenti che evitano lo sfilacciamento",
+        "w": [
+         "Le pieghe al centro del tessuto",
+         "I difetti di trama",
+         "Le etichette di composizione"
+        ],
+        "ref": "Le cimose sono le parti laterali del tessuto, bordi resistenti progettati per proteggerlo ed evitarne lo sfilacciamento."
+       },
+       {
+        "p": "Quale altezza si tende a produrre oggi per la confezione industriale?",
+        "a": "150 cm",
+        "w": [
+         "70 cm",
+         "100 cm",
+         "300 cm"
+        ],
+        "ref": "Oggi, per le esigenze della confezione industriale, si tende a produrre tessuti con altezza di 150 cm."
+       }
+      ]
+     },
+     "Q2": {
+      "title": "Quiz 2 · Le armature fondamentali",
+      "items": [
+       {
+        "p": "Qual è l'armatura più semplice?",
+        "a": "La tela, o taffetas",
+        "w": [
+         "La saia",
+         "Il raso",
+         "Il crêpe"
+        ],
+        "ref": "L'armatura a tela, nota anche come taffetas, rappresenta la struttura più semplice."
+       },
+       {
+        "p": "Perché i tessuti a tela sono «a doppio dritto»?",
+        "a": "Perché sono identici sulle due facce",
+        "w": [
+         "Perché hanno due cimose",
+         "Perché si cuciono doppi",
+         "Perché sono molto lucidi"
+        ],
+        "ref": "Il rapporto 2x2 della tela produce tessuti identici sulle due facce, a doppio dritto e privi di un vero rovescio."
+       },
+       {
+        "p": "Che cosa si vede sulla superficie dei tessuti in saia?",
+        "a": "Linee diagonali",
+        "w": [
+         "Quadretti bianchi e neri",
+         "Righe orizzontali in rilievo",
+         "Una superficie completamente lucida"
+        ],
+        "ref": "La saia, detta anche spina o diagonale, è caratterizzata da linee diagonali ben visibili sulla superficie del tessuto."
+       },
+       {
+        "p": "Qual è il rapporto minimo dell'armatura raso?",
+        "a": "5x5",
+        "w": [
+         "2x2",
+         "3x3",
+         "1x1"
+        ],
+        "ref": "Il rapporto minimo d'armatura richiesto per il raso è di 5x5."
+       },
+       {
+        "p": "Perché i tessuti in raso sono delicati?",
+        "a": "Hanno briglie lunghe: si sfilacciano e formano anelle",
+        "w": [
+         "Sono troppo rigidi e si spezzano",
+         "Assorbono troppa acqua",
+         "Hanno fili troppo corti"
+        ],
+        "ref": "I tessuti in raso sono delicati, inclini allo sfilacciamento e alla formazione di anelle a causa delle briglie lunghe."
+       }
+      ]
+     },
+     "Q3": {
+      "title": "Quiz 3 · Il telaio",
+      "items": [
+       {
+        "p": "Che cos'è l'imbozzimatura?",
+        "a": "L'immersione dei fili in bozzime collanti per renderli più scorrevoli e resistenti",
+        "w": [
+         "Il taglio del tessuto finito",
+         "La tintura dei fili di trama",
+         "L'avvolgimento del tessuto sul subbio"
+        ],
+        "ref": "Prima del telaio i fili subiscono l'imbozzimatura: vengono immersi in bozzime collanti per renderli più scorrevoli e resistenti."
+       },
+       {
+        "p": "A che cosa servono i licci?",
+        "a": "A sollevare o abbassare i fili d'ordito",
+        "w": [
+         "A battere la trama",
+         "Ad avvolgere il tessuto finito",
+         "A tagliare il filo"
+        ],
+        "ref": "Il liccio è il quadro che contiene le maglie metalliche in cui passano i fili per sollevarli o abbassarli."
+       },
+       {
+        "p": "Che cosa fa il pettine battente?",
+        "a": "Tiene paralleli i fili e batte la trama contro il tessuto",
+        "w": [
+         "Solleva i fili d'ordito",
+         "Conta i fili per centimetro",
+         "Asciuga il tessuto"
+        ],
+        "ref": "Il pettine battente mantiene paralleli i fili e batte la trama contro la pezza in formazione."
+       },
+       {
+        "p": "Chi inventò nel 1801 il telaio a cartoni perforati?",
+        "a": "Joseph Marie Jacquard",
+        "w": [
+         "Ermenegildo Zegna",
+         "James Watt",
+         "Raschel"
+        ],
+        "ref": "Nel 1801 il tessitore francese Joseph Marie Jacquard inventò il telaio con cartoni perforati."
+       },
+       {
+        "p": "Come si chiama l'apertura tra i fili d'ordito in cui passa la trama?",
+        "a": "Bocca d'ordito, o passo",
+        "w": [
+         "Cimosa",
+         "Imbozzo",
+         "Specula"
+        ],
+        "ref": "Il movimento alternato dei licci crea un'apertura angolare chiamata bocca d'ordito o passo, in cui viene inserita la trama."
+       }
+      ]
+     },
+     "Q4": {
+      "title": "Quiz 4 · La maglia",
+      "items": [
+       {
+        "p": "Come si forma un tessuto a maglia?",
+        "a": "Con le boccole di uno o più fili, concatenate con gli aghi",
+        "w": [
+         "Incrociando ordito e trama ad angolo retto",
+         "Unendo veli di fibre con colla",
+         "Intrecciando tre fili in diagonale"
+        ],
+        "ref": "La maglia si ottiene dalle evoluzioni curvilinee di uno o più fili, che generano anse chiamate boccole concatenate tramite aghi."
+       },
+       {
+        "p": "Come si chiamano le righe orizzontali di boccole?",
+        "a": "Ranghi",
+        "w": [
+         "File",
+         "Coste",
+         "Cimose"
+        ],
+        "ref": "Nel percorso orizzontale le boccole formano righe chiamate ranghi; in verticale colonne dette file o coste."
+       },
+       {
+        "p": "Qual è il rischio tipico della maglia in trama?",
+        "a": "Le smagliature",
+        "w": [
+         "La trama storta",
+         "Lo sbandieramento delle cimose",
+         "L'imbozzo"
+        ],
+        "ref": "La maglia in trama è molto elastica ma espone al rischio di smagliature, cioè boccole che si liberano sfilandosi."
+       },
+       {
+        "p": "Come va asciugata la maglia bagnata?",
+        "a": "In piano, perché se appesa si deforma",
+        "w": [
+         "Appesa a una gruccia",
+         "In asciugatrice ad alta temperatura",
+         "Al sole, tirandola"
+        ],
+        "ref": "La maglia bagnata tende a deformarsi se appesa: è preferibile l'asciugatura in piano."
+       },
+       {
+        "p": "Che cos'è la maglia integrale?",
+        "a": "Un capo completo realizzato senza cuciture",
+        "w": [
+         "Un telo da tagliare con il cartamodello",
+         "Una maglia fatta solo a mano",
+         "Una maglia in catena per costumi"
+        ],
+        "ref": "La maglia integrale realizza capi completi privi di cuciture, con speciali macchine rettilinee bifrontura."
+       }
+      ]
+     },
+     "Q5": {
+      "title": "Quiz 5 · Le macchine da maglieria",
+      "items": [
+       {
+        "p": "Come si chiama la piastra metallica in cui sono inseriti gli aghi?",
+        "a": "Frontura, o letto degli aghi",
+        "w": [
+         "Subbio",
+         "Liccio",
+         "Cantra"
+        ],
+        "ref": "Gli aghi sono inseriti nelle scanalature di una piastra metallica chiamata frontura o letto degli aghi."
+       },
+       {
+        "p": "Quante serie di aghi ha una macchina bifrontura?",
+        "a": "Due, una di fronte all'altra",
+        "w": [
+         "Una sola",
+         "Tre o quattro",
+         "Nessuna: usa la navetta"
+        ],
+        "ref": "Le bifrontura hanno due serie di aghi disposte una di fronte all'altra per lavorazioni complesse."
+       },
+       {
+        "p": "Con quale densità di aghi si ottiene una maglia leggera?",
+        "a": "Alta densità di aghi",
+        "w": [
+         "Bassa densità di aghi",
+         "Densità nulla",
+         "La densità non conta"
+        ],
+        "ref": "La maglia leggera si produce con un'alta densità di aghi; la maglia pesante con una bassa densità."
+       },
+       {
+        "p": "A che cosa serve la paraffinatura del filo?",
+        "a": "Ad aumentarne la scorrevolezza",
+        "w": [
+         "A colorarlo",
+         "A renderlo impermeabile",
+         "A torcerlo di più"
+        ],
+        "ref": "Il filo viene paraffinato con un disco di cera per aumentarne la scorrevolezza."
+       },
+       {
+        "p": "Che vantaggio hanno le macchine circolari?",
+        "a": "Una produttività molto superiore alle rettilinee",
+        "w": [
+         "Producono solo maglia calata",
+         "Non usano aghi",
+         "Fanno solo capi integrali"
+        ],
+        "ref": "Le macchine circolari offrono una produttività molto superiore rispetto a quelle rettilinee."
+       }
+      ]
+     },
+     "Q6": {
+      "title": "Quiz 6 · Maglia in catena ed effetti",
+      "items": [
+       {
+        "p": "Perché la maglia in catena è molto resistente?",
+        "a": "È indeformabile e resiste alle smagliature",
+        "w": [
+         "È fatta a mano",
+         "Usa un unico filo orizzontale",
+         "Non ha boccole"
+        ],
+        "ref": "La maglieria in catena ha una struttura indeformabile e molto resistente alle smagliature."
+       },
+       {
+        "p": "Quanti aghi conta la finezza inglese E?",
+        "a": "Gli aghi presenti in 2,54 cm",
+        "w": [
+         "Gli aghi presenti in 5,08 cm",
+         "Gli aghi presenti in 3,81 cm",
+         "Gli aghi presenti in un metro"
+        ],
+        "ref": "Finezza inglese E: aghi presenti in 2,54 cm; ER (Raschel): 5,08 cm; GG (Gauge): 3,81 cm."
+       },
+       {
+        "p": "Com'è la maglia rasata, o jersey?",
+        "a": "Liscia sul dritto e rugosa sul rovescio",
+        "w": [
+         "Uguale sulle due facce",
+         "Ondulata su entrambe le facce",
+         "Senza elasticità"
+        ],
+        "ref": "La maglia rasata o jersey è la struttura fondamentale monofrontura, liscia sul dritto e rugosa sul rovescio."
+       },
+       {
+        "p": "Perché il picchè è adatto all'abbigliamento sportivo?",
+        "a": "Assorbe bene il sudore",
+        "w": [
+         "È impermeabile",
+         "Non si lava mai",
+         "È molto pesante"
+        ],
+        "ref": "Il picchè, jersey operato a nido d'ape, è ideale per l'abbigliamento sportivo grazie all'ottimo assorbimento del sudore."
+       },
+       {
+        "p": "Che cosa caratterizza il jacquard a fili coupé?",
+        "a": "Le briglie libere sul rovescio sono tagliate",
+        "w": [
+         "Due colori lavorano sulle due facce",
+         "Le briglie sul rovescio sono lunghe e libere",
+         "Il rovescio è puntinato"
+        ],
+        "ref": "Nel jacquard a fili coupé le briglie libere sul rovescio vengono tagliate per eliminare il rischio di aggancio."
+       }
+      ]
+     }
+    }
+   },
+   "timeline": [
+    [
+     "T1",
+     40.432,
+     3.6
+    ],
+    [
+     "Q1",
+     1025.765,
+     4.0
+    ],
+    [
+     "T2",
+     1031.065,
+     3.6
+    ],
+    [
+     "T3",
+     1839.932,
+     3.6
+    ],
+    [
+     "T4",
+     2310.698,
+     3.6
+    ],
+    [
+     "T5",
+     2637.798,
+     3.6
+    ],
+    [
+     "T6",
+     3252.698,
+     3.6
+    ],
+    [
+     "GL1",
+     4066.931,
+     69.567
+    ],
+    [
+     "RF1",
+     4138.098,
+     64.4
+    ],
+    [
+     "FIN1",
+     4203.898,
+     8.0
+    ]
+   ]
+  }
+ },
+ "manca": "",
+ "serve_master": [],
+ "domande_sara": [],
+ "note": [],
+ "materia": "Tecnologie dei materiali (moda III)",
+ "lezione": "Lezione 4 · Tessitura parte I",
+ "docente": "Prof.ssa Piera Caputi",
+ "aggiornato": "2026-11-08 20:19:25"
+}
