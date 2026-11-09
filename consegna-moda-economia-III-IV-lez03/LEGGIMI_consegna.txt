@@ -1,0 +1,8 @@
+Consegna · Economia e marketing delle aziende della moda (III + IV) · Lezione 3 · Marketing · Prof.ssa Piera Caputi
+
+Video (una sola Parte, 64:05,5, 2560x1440, 30 fps, 356,2 MB): diviso in pezzi da 90 MB perché il ramo non accetta file oltre 100 MB.
+Per ricomporlo:  cat Economia_Lez3_Parte1_1440p.mp4.parte_* > Economia_Lez3_Parte1_1440p.mp4
+Controllo:       sha256sum -c Economia_Lez3_Parte1_1440p.mp4.sha256
+
+Altri file: sottotitoli .vtt, quiz (7 x 5 domande) .txt, test finale .xlsx (Excel della docente, 7 domande, tracciato piattaforma),
+dispensa A4 PDF (63 pagine), scheda_pubblicazione.json, timeline, testo per YouTube con i capitoli.
