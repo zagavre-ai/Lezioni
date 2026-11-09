@@ -3,11 +3,11 @@
  "parti": {
   "1": {
    "titolo": "The Business World",
-   "stato": "IN_MONTAGGIO",
+   "stato": "PRONTA",
    "voci": "kore",
    "quiz_ok": "si",
    "fermi_ok": "si",
-   "sub_ok": "no",
+   "sub_ok": "si",
    "video": "Inglese_Lez2_Parte1_1440p.mp4",
    "durata_s": 3584.4,
    "durata": "59:44.4",
@@ -22,6 +22,10 @@
   {
    "quando": "08/11 14:03",
    "testo": "Mi serve Test_finale_Inglese_The_Business_World.xlsx (già fatto dalla master): non è nel repo né nel Progetto. Mettilo per favore nel ramo voci-afm-inglese-triennio-lez02 (scambio/afm-inglese-triennio-lez02/). Se non arriva, alla consegna preparo una PROPOSTA_DA_VALIDARE."
+  },
+  {
+   "quando": "08/11 16:21",
+   "testo": "Test finale: non ho ricevuto Test_finale_Inglese_The_Business_World.xlsx; consegno a Sara la PROPOSTA_DA_VALIDARE (10 domande). Se il tuo è già approvato, usa quello."
   }
  ],
  "domande_sara": [],
@@ -49,10 +53,14 @@
   {
    "quando": "08/11 16:20",
    "testo": "controllo_finale: ESITO: DA SISTEMARE: sottotitoli"
+  },
+  {
+   "quando": "08/11 16:21",
+   "testo": "Sottotitoli: il controllo automatico dell'attacco ha solo 6 blocchi verificabili (dopo il taglio delle pause restano poche pause lunghe) e conta respiri/dissolvenze; controllo a campione a mano su 7 punti (999, 2400, 3300, 238, 408, 629, 73 s): testo e tempi giusti entro 0,3 s. Sincronia slide verificata su 4 punti (404, 1187, 2557, 3341 s): riga illuminata = frase detta. Volume portato a -16 LUFS con volume16.py (parlato −17,0). 404 MB = 385 MiB."
   }
  ],
  "materia": "Inglese (AFM triennio)",
  "lezione": "Lezione 2 · The Business World",
  "docente": "Prof.ssa Maria Vittoria Fontanesi",
- "aggiornato": "2026-11-08 16:20:37"
+ "aggiornato": "2026-11-08 16:21:48"
 }
