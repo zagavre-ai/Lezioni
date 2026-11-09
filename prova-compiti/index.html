@@ -25,15 +25,15 @@ fieldset{border:0;padding:0;margin:0}fieldset:disabled{opacity:.85}
 #compiti{display:none}
 </style></head><body><div class="w">
 <div class="mat">Tecnologie dei materiali · Prof.ssa (prova)</div><h1>Le fibre tessili</h1>
-<div class="demo"><b>Pagina di prova per la direzione.</b> Mostra le tre novità: 1) la verifica della lezione precedente all'inizio, che sblocca il video; 2) il finale del video (gli ultimi minuti); 3) i compiti da svolgere a video. In questa prova le consegne restano sul tuo computer; nella versione vera arrivano al registro dei compiti delle videolezioni. <a href="#" id="reset">Ricomincia la prova</a></div>
+<div class="demo"><b>Pagina di prova per la direzione.</b> Mostra la parte finale di una videolezione: 1) gli ultimi minuti del video; 2) la verifica finale, che ferma il video prima della sigla; 3) superata la verifica, la sigla e poi i compiti da svolgere a video. In questa prova le consegne restano sul tuo computer; nella versione vera arrivano al registro dei compiti delle videolezioni. <a href="#" id="reset">Ricomincia la prova</a></div>
 
-<div class="card" id="verifica"><span class="tag">VERIFICA DELLA LEZIONE PRECEDENTE</span><h2>Prima di iniziare: verifica</h2>
-<p class="note">Per vedere questa videolezione devi superare la verifica sulla lezione precedente con almeno l'80% di risposte giuste. Se non la superi, rivedi la lezione precedente e riprova.</p>
+
+<div class="card"><span class="tag">VIDEOLEZIONE</span><div class="vid"><div id="yt"></div></div>
+<p class="note">Prova: il video parte dagli ultimi minuti e si ferma da solo per la verifica finale.</p></div>
+
+<div class="card" id="verifica" style="display:none"><span class="tag">VERIFICA FINALE</span><h2>Verifica della lezione</h2>
+<p class="note">Il video si è fermato: prima della sigla finale c'è la verifica su tutta la lezione. Servono almeno l'80% di risposte giuste. Se non la superi, rivedi la lezione e riprova. Superata la verifica, il video riparte con la sigla e poi trovi i compiti.</p>
 <fieldset id="vf"></fieldset><button class="btn" id="vbtn">Controlla</button><div class="esito" id="vesito"></div></div>
-
-<div class="card"><span class="tag">VIDEOLEZIONE</span><div class="vid"><div id="yt"></div><div class="lock" id="lock"><b>Video bloccato</b><p>Supera la verifica qui sopra per sbloccare la videolezione.</p></div></div>
-<p class="note">Prova: il video parte dagli ultimi minuti. Alla fine compaiono i compiti qui sotto.</p></div>
-
 <div class="card" id="compiti"><span class="tag">COMPITI</span><h2>Compiti della lezione</h2>
 <p class="note">Svolgi gli esercizi direttamente qui e premi «Consegna». Si consegna <b>una volta sola</b>: ricontrolla prima di inviare. Gli esercizi 1–3 si correggono subito; il 4 lo corregge il docente.</p>
 <p><b>Il tuo codice studente</b> <span class="note">(lo trovi nella tua scheda; in questa prova scrivi il tuo nome)</span><br><input type="text" id="cod" style="width:260px;margin-top:6px"></p>
@@ -73,10 +73,11 @@ async function init(){
 }
 const val=n=>{const x=document.querySelector('input[name="'+n+'"]:checked');return x?x.value:''};
 $('vbtn').onclick=async()=>{let ok=0;for(let i=0;i<VER.length;i++){const g=(await h(val('v'+i)))===VH[i]&&val('v'+i);ok+=g?1:0;$('v'+i).className='q '+(g?'ok':'ko')}
- const pc=Math.round(ok/VER.length*100);if(pc>=80){ST.ver=pc;save();sblocca()}else $('vesito').innerHTML='<span class="sba">'+ok+' su '+VER.length+' ('+pc+'%). Non basta: serve l\'80%. Rivedi la lezione precedente e riprova.</span>'};
-function sblocca(){$('lock').style.display='none';$('vf').disabled=true;$('vbtn').style.display='none';$('vesito').innerHTML='<span class="giu">Verifica superata ('+ST.ver+'%). La videolezione è sbloccata.</span>'}
+ const pc=Math.round(ok/VER.length*100);if(pc>=80){ST.ver=pc;save();sblocca()}else $('vesito').innerHTML='<span class="sba">'+ok+' su '+VER.length+' ('+pc+'%). Non basta: serve l\'80%. Rivedi la lezione e riprova.</span>'};
+function sblocca(){$('verifica').style.display='block';$('vf').disabled=true;$('vbtn').style.display='none';$('vesito').innerHTML='<span class="giu">Verifica superata ('+ST.ver+'%). Il video riparte con la sigla finale; poi trovi i compiti.</span>';if(yt&&yt.playVideo&&!ST.fine){yt.playVideo();document.querySelector('.vid').scrollIntoView({behavior:'smooth'})}}
 /* video: ultimi minuti */
-let yt;window.onYouTubeIframeAPIReady=()=>{yt=new YT.Player('yt',{videoId:'gWy_ksBqdPY',playerVars:{start:195,rel:0,modestbranding:1,playsinline:1},events:{onStateChange:e=>{if(e.data===0){ST.fine=1;save();$('compiti').style.display='block';$('compiti').scrollIntoView({behavior:'smooth'})}}}})};
+let yt;window.onYouTubeIframeAPIReady=()=>{yt=new YT.Player('yt',{videoId:'gWy_ksBqdPY',playerVars:{start:195,rel:0,modestbranding:1,playsinline:1},events:{onStateChange:e=>{if(e.data===0&&ST.ver){ST.fine=1;save();$('compiti').style.display='block';$('compiti').scrollIntoView({behavior:'smooth'})}}}})};
+const STOP=244.3;setInterval(()=>{if(!yt||!yt.getCurrentTime||ST.ver)return;if(yt.getCurrentTime()>=STOP){yt.pauseVideo();if(yt.getCurrentTime()>STOP+1)yt.seekTo(STOP,true);if($('verifica').style.display!=='block'){$('verifica').style.display='block';$('verifica').scrollIntoView({behavior:'smooth'})}}},250);
 const s=document.createElement('script');s.src='https://www.youtube.com/iframe_api';document.head.appendChild(s);
 $('cbtn').onclick=async()=>{const cod=$('cod').value.trim();if(!cod){$('cesito').innerHTML='<span class="sba">Scrivi il tuo codice studente.</span>';return}
  const r={cod,quando:new Date().toLocaleString('it-IT'),voci:{},aperte:C.ap.map((_,i)=>$('a'+i).value.trim())};let ok=0,tot=0;
