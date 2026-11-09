@@ -47,10 +47,14 @@
   {
    "quando": "08/11 17:05",
    "testo": "Controllo sincronia sul file finale: 16 frasi del lavoro master si accendevano 10–60 s fuori tempo (es. AI/ML +44 s, Environmental concerns 74–78 in anticipo di 10–15 s). Corrette sulla trascrizione (override_chat.json); rifaccio slide, 5 pezzi su 7, docente, codifica. Peso già risolto (CRF 22 = 373 MB) e volume portato a -16 LUFS."
+  },
+  {
+   "quando": "08/11 17:06",
+   "testo": "Scansione completa della sincronia: in tutto 44 frasi corrette (la regola automatica accendeva la frase 15 s prima della lettura inglese anche quando la docente stava ancora spiegando la frase precedente). Rifaccio tutto il docente+slide; consegna prevista tra circa 2 ore e mezza."
   }
  ],
  "materia": "Inglese (AFM triennio)",
  "lezione": "Lezione 1 · Global Factors",
  "docente": "Prof.ssa Maria Vittoria Fontanesi",
- "aggiornato": "2026-11-08 17:05:21"
+ "aggiornato": "2026-11-08 17:06:29"
 }
