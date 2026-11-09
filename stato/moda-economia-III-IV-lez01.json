@@ -76,7 +76,504 @@
      4258.929,
      8.0
     ]
-   ]
+   ],
+   "scheda": {
+    "materia": "Economia e marketing delle aziende della moda",
+    "titolo": "Lezione 1 · Attività economica · Parte 1",
+    "durata_s": 4274.85,
+    "argomenti": [
+     {
+      "n": 1,
+      "titolo": "I bisogni",
+      "inizio_s": 99.932,
+      "quiz_s": 744.532
+     },
+     {
+      "n": 2,
+      "titolo": "I beni e i servizi",
+      "inizio_s": 749.832,
+      "quiz_s": 1256.165
+     },
+     {
+      "n": 3,
+      "titolo": "L'attività economica",
+      "inizio_s": 1261.465,
+      "quiz_s": 1649.165
+     },
+     {
+      "n": 4,
+      "titolo": "L'azienda e la sua organizzazione",
+      "inizio_s": 1654.465,
+      "quiz_s": 2111.332
+     },
+     {
+      "n": 5,
+      "titolo": "Il contratto di compravendita",
+      "inizio_s": 2116.632,
+      "quiz_s": 2612.265
+     },
+     {
+      "n": 6,
+      "titolo": "Gli elementi del contratto",
+      "inizio_s": 2617.565,
+      "quiz_s": 3020.931
+     },
+     {
+      "n": 7,
+      "titolo": "Proporzioni e percentuali",
+      "inizio_s": 3026.231,
+      "quiz_s": 3591.23
+     },
+     {
+      "n": 8,
+      "titolo": "Tabelle e grafici",
+      "inizio_s": 3596.53,
+      "quiz_s": 4106.529
+     }
+    ],
+    "quiz": {
+     "Q1": {
+      "title": "Quiz 1 · I bisogni",
+      "items": [
+       {
+        "p": "Che cos'è un bisogno?",
+        "a": "Uno stato soggettivo di necessità o di insoddisfazione legato alla mancanza di qualcosa",
+        "w": [
+         "Il desiderio rivolto verso un prodotto di una certa marca",
+         "La capacità finanziaria di acquistare un bene",
+         "Un bene disponibile in natura in quantità illimitata"
+        ],
+        "ref": "Tutti i bisogni consistono in uno stato soggettivo di necessità o di insoddisfazione legato alla mancanza di qualcosa, che si attenua con l'appagamento."
+       },
+       {
+        "p": "Quando un bisogno diventa domanda?",
+        "a": "Quando il desiderio verso un prodotto specifico è unito alla concreta capacità finanziaria di acquisto",
+        "w": [
+         "Quando viene avvertito dal singolo come membro della società",
+         "Quando viene soddisfatto dallo Stato con un servizio pubblico",
+         "Quando non è ancora legato a un determinato marchio"
+        ],
+        "ref": "La domanda è il desiderio rivolto verso specifici prodotti unito alla concreta capacità finanziaria di acquisto."
+       },
+       {
+        "p": "Quali sono i bisogni primari?",
+        "a": "Quelli indispensabili per la sopravvivenza fisica, come alimentazione, vestiario e riposo",
+        "w": [
+         "Quelli avvertiti solo dopo aver migliorato la qualità della vita",
+         "Quelli soddisfatti dallo Stato, come la difesa e la giustizia",
+         "Quelli destinati a trovare risposta in un momento successivo"
+        ],
+        "ref": "I bisogni primari sono indispensabili per garantire la sopravvivenza fisica dell'individuo: alimentazione, vestiario e riposo."
+       },
+       {
+        "p": "Comprare in saldo un capo da usare nella stagione successiva risponde a un bisogno…",
+        "a": "futuro",
+        "w": [
+         "presente",
+         "collettivo",
+         "primario"
+        ],
+        "ref": "I bisogni futuri trovano risposta in un momento successivo, come l'acquisto di capi in saldo da usare nelle stagioni successive."
+       },
+       {
+        "p": "Che cosa si trova alla base della piramide di Maslow?",
+        "a": "I bisogni fisiologici",
+        "w": [
+         "I bisogni di autorealizzazione",
+         "I bisogni di stima",
+         "I bisogni di appartenenza"
+        ],
+        "ref": "Alla base della piramide di Maslow ci sono i bisogni fisiologici, poi sicurezza, appartenenza, stima e, in cima, autorealizzazione."
+       }
+      ]
+     },
+     "Q2": {
+      "title": "Quiz 2 · I beni e i servizi",
+      "items": [
+       {
+        "p": "Che cosa distingue i beni economici dai beni liberi?",
+        "a": "Sono disponibili in quantità limitata e richiedono un sacrificio economico",
+        "w": [
+         "Sono presenti in natura in quantità illimitata",
+         "Sono sempre privi di consistenza fisica",
+         "Possono essere usati una sola volta"
+        ],
+        "ref": "I beni economici hanno disponibilità limitata e richiedono un sacrificio economico o lo scambio con altri beni per essere ottenuti."
+       },
+       {
+        "p": "Il marchio e il brevetto sono esempi di…",
+        "a": "beni immateriali",
+        "w": [
+         "beni materiali",
+         "beni succedanei",
+         "materie prime"
+        ],
+        "ref": "Tra i beni immateriali rientrano il brevetto, che protegge un'invenzione, e il marchio, che identifica un prodotto sul mercato."
+       },
+       {
+        "p": "I macchinari e le attrezzature di un'azienda sono…",
+        "a": "beni strumentali",
+        "w": [
+         "beni di consumo durevoli",
+         "beni ad uso immediato",
+         "beni liberi"
+        ],
+        "ref": "I beni di produzione si dividono in materie prime, destinate alla trasformazione, e beni strumentali, cioè macchinari e attrezzature."
+       },
+       {
+        "p": "Come si chiamano i beni capaci di sostituirsi ad altri beni nella stessa funzione?",
+        "a": "Beni succedanei",
+        "w": [
+         "Beni complementari",
+         "Beni semplici",
+         "Beni immateriali"
+        ],
+        "ref": "I beni succedanei possono sostituirsi ad altri beni nello svolgimento della medesima funzione."
+       },
+       {
+        "p": "Quale strategia ha valorizzato Pandora con il bracciale di base e i ciondoli?",
+        "a": "La strategia dei beni complementari",
+        "w": [
+         "La strategia dei beni liberi",
+         "La strategia dei beni succedanei",
+         "La strategia dei servizi pubblici"
+        ],
+        "ref": "Pandora ha affiancato a un bracciale di base economico una vasta gamma di ciondoli personalizzabili: beni complementari."
+       }
+      ]
+     },
+     "Q3": {
+      "title": "Quiz 3 · L'attività economica",
+      "items": [
+       {
+        "p": "Quali sono i momenti fondamentali dell'attività economica?",
+        "a": "Produzione, scambio, consumo e risparmio",
+        "w": [
+         "Acquisto, vendita, trasporto e pubblicità",
+         "Trattativa, stipulazione, esecuzione e pagamento",
+         "Bisogno, desiderio, domanda e offerta"
+        ],
+        "ref": "L'attività economica si suddivide in produzione, scambio, consumo e risparmio."
+       },
+       {
+        "p": "Trasferire i beni nel tempo con la conservazione e nello spazio con la distribuzione è…",
+        "a": "produzione indiretta",
+        "w": [
+         "produzione diretta",
+         "consumo",
+         "risparmio in natura"
+        ],
+        "ref": "La produzione indiretta riguarda il trasferimento dei beni nel tempo, con la conservazione, e nello spazio, con la distribuzione."
+       },
+       {
+        "p": "Quali sono i fattori produttivi?",
+        "a": "Le risorse naturali, il capitale e il lavoro",
+        "w": [
+         "Il prezzo, la quantità e la qualità",
+         "I clienti, i fornitori e le banche",
+         "La domanda, l'offerta e il mercato"
+        ],
+        "ref": "I fattori produttivi necessari alla produzione sono le risorse naturali, il capitale e il lavoro, organizzati dall'imprenditore."
+       },
+       {
+        "p": "Nello scambio monetario, il prezzo concordato rappresenta per il venditore…",
+        "a": "il ricavo di vendita",
+        "w": [
+         "il costo di acquisto",
+         "un interesse",
+         "un risparmio"
+        ],
+        "ref": "Il valore concordato è il ricavo di vendita per il venditore e il costo di acquisto per il compratore."
+       },
+       {
+        "p": "Il risparmio monetario destinato all'investimento serve a…",
+        "a": "ottenere in futuro più denaro a titolo di interesse",
+        "w": [
+         "consumare subito tutti i beni a disposizione",
+         "scambiare beni senza usare il denaro",
+         "pagare i fattori produttivi in anticipo"
+        ],
+        "ref": "Il risparmio monetario può essere conservato oppure investito per ottenere in futuro una maggiore quantità di denaro come interesse."
+       }
+      ]
+     },
+     "Q4": {
+      "title": "Quiz 4 · L'azienda e la sua organizzazione",
+      "items": [
+       {
+        "p": "Qual è la differenza tra un'azienda di erogazione e un'impresa?",
+        "a": "L'azienda di erogazione non ha scopo di lucro, l'impresa produce per conseguire un utile",
+        "w": [
+         "L'azienda di erogazione produce beni, l'impresa solo servizi",
+         "L'impresa non vende sul mercato, l'azienda di erogazione sì",
+         "Non c'è differenza: sono due nomi della stessa azienda"
+        ],
+        "ref": "Le aziende di erogazione soddisfano i bisogni dei propri componenti senza scopo di lucro; le imprese producono beni e servizi da scambiare sul mercato per conseguire un utile."
+       },
+       {
+        "p": "Un'impresa che trasforma le materie prime opera nel settore…",
+        "a": "secondario",
+        "w": [
+         "primario",
+         "terziario",
+         "terziario avanzato"
+        ],
+        "ref": "Le imprese industriali o manifatturiere operano nel settore secondario per la trasformazione delle materie prime."
+       },
+       {
+        "p": "Approvvigionamento, gestione del personale e ricerca e sviluppo sono funzioni…",
+        "a": "di supporto",
+        "w": [
+         "primarie",
+         "infrastrutturali",
+         "divisionali"
+        ],
+        "ref": "Le funzioni di supporto sostengono le attività primarie: approvvigionamento, gestione del personale e ricerca e sviluppo."
+       },
+       {
+        "p": "Quale struttura organizzativa adottano le grandi imprese articolate per linee di prodotto o aree geografiche?",
+        "a": "La struttura divisionale",
+        "w": [
+         "La struttura elementare",
+         "La struttura funzionale",
+         "La struttura individuale"
+        ],
+        "ref": "La struttura divisionale è utilizzata dalle grandi imprese articolate per linee di prodotto o aree geografiche."
+       },
+       {
+        "p": "Come si chiama la rappresentazione grafica della struttura organizzativa?",
+        "a": "Organigramma",
+        "w": [
+         "Istogramma",
+         "Cartogramma",
+         "Diagramma cartesiano"
+        ],
+        "ref": "La struttura organizzativa viene rappresentata graficamente dall'organigramma."
+       }
+      ]
+     },
+     "Q5": {
+      "title": "Quiz 5 · Il contratto di compravendita",
+      "items": [
+       {
+        "p": "Che cos'è il mercato di sbocco?",
+        "a": "L'ambito in cui le imprese cedono i propri prodotti",
+        "w": [
+         "L'ambito in cui l'azienda acquista le risorse necessarie",
+         "L'insieme dei bisogni dei consumatori",
+         "Il luogo in cui si conserva la merce"
+        ],
+        "ref": "Il mercato di sbocco è l'ambito in cui le imprese di produzione o commerciali cedono i propri prodotti, sostenendo l'offerta."
+       },
+       {
+        "p": "Con il contratto di compravendita il venditore…",
+        "a": "trasferisce la proprietà di un bene al compratore dietro pagamento di un prezzo",
+        "w": [
+         "presta un bene al compratore per un periodo limitato",
+         "regala un bene senza chiedere nulla in cambio",
+         "affida la merce a un trasportatore"
+        ],
+        "ref": "Con il contratto di compravendita il venditore trasferisce la proprietà di un bene o di un diritto al compratore dietro pagamento di un prezzo."
+       },
+       {
+        "p": "Perché la compravendita è un contratto consensuale?",
+        "a": "Perché si perfeziona quando le parti raggiungono l'accordo su tutti gli elementi",
+        "w": [
+         "Perché richiede sempre la forma scritta",
+         "Perché comporta un sacrificio solo per il compratore",
+         "Perché deve essere approvato da un terzo"
+        ],
+        "ref": "Il contratto consensuale si perfeziona nel momento in cui le parti raggiungono l'accordo su tutti gli elementi contrattuali."
+       },
+       {
+        "p": "Garantire il compratore dai difetti nascosti al momento dell'acquisto significa garantire…",
+        "a": "dai vizi occulti",
+        "w": [
+         "dall'evizione",
+         "il ritiro della merce",
+         "il pagamento del prezzo"
+        ],
+        "ref": "Il venditore deve garantire dai vizi occulti, tutelando il compratore da difetti nascosti al momento dell'acquisto."
+       },
+       {
+        "p": "Qual è la fase in cui il venditore consegna la merce e il compratore paga il prezzo?",
+        "a": "L'esecuzione del contratto",
+        "w": [
+         "La trattativa",
+         "La stipulazione del contratto",
+         "La richiesta di preventivo"
+        ],
+        "ref": "Nell'esecuzione del contratto il venditore consegna la merce e il compratore paga il prezzo."
+       }
+      ]
+     },
+     "Q6": {
+      "title": "Quiz 6 · Gli elementi del contratto",
+      "items": [
+       {
+        "p": "Quali sono gli elementi essenziali del contratto di compravendita?",
+        "a": "Quantità, qualità della merce e prezzo",
+        "w": [
+         "Consegna, imballaggio e pagamento",
+         "Trattativa, stipulazione ed esecuzione",
+         "Marchio, brevetto e packaging"
+        ],
+        "ref": "Gli elementi essenziali sono la quantità, la qualità della merce e il prezzo pattuito; consegna, imballaggio e pagamento sono elementi accessori."
+       },
+       {
+        "p": "Entro quanto tempo dal ricevimento dell'ordine avviene la pronta consegna?",
+        "a": "Entro 15 giorni",
+        "w": [
+         "Contestualmente alla stipulazione",
+         "Oltre 15 giorni",
+         "Entro 90 giorni"
+        ],
+        "ref": "La pronta consegna è eseguita entro 15 giorni dal ricevimento dell'ordine; oltre 15 giorni si parla di consegna differita."
+       },
+       {
+        "p": "Un pagamento effettuato a 30, 60 o 90 giorni è un pagamento…",
+        "a": "differito",
+        "w": [
+         "anticipato",
+         "per pronta cassa",
+         "rateale"
+        ],
+        "ref": "Il pagamento differito è effettuato entro un termine successivo, come 30, 60 o 90 giorni."
+       },
+       {
+        "p": "Una scatola che contiene 12 paia di calzature è un imballaggio…",
+        "a": "secondario",
+        "w": [
+         "primario",
+         "terziario",
+         "a rendere"
+        ],
+        "ref": "L'imballaggio secondario racchiude uno o più imballaggi primari, come una scatola contenente 12 paia di calzature."
+       },
+       {
+        "p": "Che cos'è l'imballaggio a rendere?",
+        "a": "Un imballaggio restituito al venditore, a volte con il versamento di una cauzione",
+        "w": [
+         "Un imballaggio addebitato al compratore",
+         "Un imballaggio fornito senza costo aggiuntivo",
+         "L'involucro a diretto contatto con il prodotto"
+        ],
+        "ref": "L'imballaggio a rendere viene restituito al venditore, eventualmente con il versamento di una cauzione di garanzia."
+       }
+      ]
+     },
+     "Q7": {
+      "title": "Quiz 7 · Proporzioni e percentuali",
+      "items": [
+       {
+        "p": "Che cos'è una proporzione?",
+        "a": "L'uguaglianza di due rapporti",
+        "w": [
+         "La somma di due grandezze",
+         "Il prodotto di due numeri",
+         "La differenza tra due rapporti"
+        ],
+        "ref": "La proporzione è l'uguaglianza di due rapporti: a : b = c : d."
+       },
+       {
+        "p": "Nella proporzione a : b = c : d, quali termini sono gli estremi?",
+        "a": "a e d",
+        "w": [
+         "b e c",
+         "a e c",
+         "b e d"
+        ],
+        "ref": "a e d sono gli estremi, b e c sono i medi; a e c sono gli antecedenti, b e d i conseguenti."
+       },
+       {
+        "p": "Che cosa stabilisce la proprietà fondamentale delle proporzioni?",
+        "a": "Il prodotto dei medi è uguale al prodotto degli estremi",
+        "w": [
+         "La somma dei medi è uguale alla somma degli estremi",
+         "Gli antecedenti sono sempre maggiori dei conseguenti",
+         "Il rapporto tra i medi è sempre uguale a 100"
+        ],
+        "ref": "Il prodotto dei medi è uguale al prodotto degli estremi: a × d = b × c."
+       },
+       {
+        "p": "Se per 1 camicia servono 2,5 metri di tessuto, quante camicie si ottengono con 30 metri?",
+        "a": "12 camicie",
+        "w": [
+         "75 camicie",
+         "15 camicie",
+         "10 camicie"
+        ],
+        "ref": "2,5 : 1 = 30 : x, quindi x = (1 × 30) : 2,5 = 12 camicie."
+       },
+       {
+        "p": "Una provvigione del 7% su vendite di 180.000 € è pari a…",
+        "a": "12.600 €",
+        "w": [
+         "1.260 €",
+         "7.000 €",
+         "25.714 €"
+        ],
+        "ref": "100 : 7 = 180.000 : x, quindi x = (7 × 180.000) : 100 = 12.600 €."
+       }
+      ]
+     },
+     "Q8": {
+      "title": "Quiz 8 · Tabelle e grafici",
+      "items": [
+       {
+        "p": "Che cosa bisogna indicare per rendere chiara la lettura di una tabella?",
+        "a": "Titolo della tabella, titolo delle colonne, unità di misura e una didascalia",
+        "w": [
+         "Solo i numeri, senza titoli",
+         "Il nome di chi l'ha compilata e la data",
+         "Un grafico a torta accanto a ogni colonna"
+        ],
+        "ref": "Servono il titolo della tabella, il titolo delle colonne, l'unità di misura dei dati e una didascalia o breve descrizione."
+       },
+       {
+        "p": "Una tabella che si legge sia in orizzontale sia in verticale, con i dati di due aspetti dell'elemento, è…",
+        "a": "una tabella a doppia entrata",
+        "w": [
+         "una tabella semplice",
+         "una tabella complessa",
+         "un cartogramma"
+        ],
+        "ref": "Le tabelle a doppia entrata si leggono in orizzontale e in verticale e contengono i dati relativi a due aspetti dell'elemento considerato."
+       },
+       {
+        "p": "Quale grafico si usa soprattutto per rappresentare la variazione di un fenomeno nel tempo?",
+        "a": "Il diagramma cartesiano",
+        "w": [
+         "Il grafico a torta",
+         "Il cartogramma",
+         "L'organigramma"
+        ],
+        "ref": "I diagrammi cartesiani rappresentano la variazione di un fenomeno in un periodo di tempo: il tempo sull'asse orizzontale, il fenomeno su quello verticale."
+       },
+       {
+        "p": "In un grafico a torta, ogni settore del cerchio indica…",
+        "a": "una percentuale rispetto al valore totale del fenomeno",
+        "w": [
+         "un periodo di tempo",
+         "un'area geografica",
+         "il numero di colonne della tabella"
+        ],
+        "ref": "Nel grafico a torta ogni settore indica una percentuale rispetto al valore totale del fenomeno rappresentato."
+       },
+       {
+        "p": "Quale grafico illustra la distribuzione di un fenomeno sul territorio con mappe colorate?",
+        "a": "Il cartogramma",
+        "w": [
+         "L'istogramma",
+         "Il diagramma cartesiano",
+         "La tabella semplice"
+        ],
+        "ref": "I cartogrammi illustrano la distribuzione nel territorio di un fenomeno con mappe suddivise in aree di colore diverso."
+       }
+      ]
+     }
+    }
+   }
   }
  },
  "manca": "",
@@ -135,10 +632,14 @@
   {
    "quando": "08/11 20:02",
    "testo": "controllo_finale: ESITO: TUTTO OK"
+  },
+  {
+   "quando": "08/11 20:03",
+   "testo": "PRONTA. Consegna nel ramo consegna-moda-economia-III-IV-lez01 (cartella consegna-moda-economia-III-IV-lez01/): la sessione non può creare release, video diviso in 4 pezzi da 90 MB + sha256 (cat ...parte_* > Economia_Lez1_Parte1_1440p.mp4). Volume della docente portato a -16 LUFS (+2,4 dB solo sui tratti della docente, solo audio); attacchi dei sottotitoli riallineati alla voce; termini dei sottotitoli corretti dal PDF."
   }
  ],
  "materia": "Economia e marketing delle aziende della moda (III + IV)",
  "lezione": "Lezione 1 · Attività economica",
  "docente": "Prof.ssa Piera Caputi",
- "aggiornato": "2026-11-08 20:02:08"
+ "aggiornato": "2026-11-08 20:03:10"
 }
