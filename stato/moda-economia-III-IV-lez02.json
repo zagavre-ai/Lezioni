@@ -3,11 +3,11 @@
  "parti": {
   "1": {
    "titolo": "Moda e filiera",
-   "stato": "IN_MONTAGGIO",
+   "stato": "FERMA",
    "voci": "kore",
    "quiz_ok": "si",
    "fermi_ok": "si",
-   "sub_ok": "no",
+   "sub_ok": "si",
    "video": "Economia_Lez2_Parte1_1440p.mp4",
    "durata_s": 3785.1,
    "durata": "63:05.1",
@@ -510,7 +510,7 @@
    ]
   }
  },
- "manca": "montaggio e codifica 1440p in corso, poi sottotitoli e controlli",
+ "manca": "solo l'invio dei file a Sara (alla ripresa)",
  "serve_master": [
   {
    "quando": "08/11 15:19",
@@ -550,10 +550,14 @@
   {
    "quando": "09/11 03:32",
    "testo": "controllo_finale: ESITO: DA SISTEMARE: sottotitoli"
+  },
+  {
+   "quando": "09/11 03:32",
+   "testo": "pausa. Ordine visto tardi (01:10): a quell'ora erano già in corso montaggio e codifica, li ho portati a termine. Parte 1 COMPLETA in consegna/P1: video 63:05 1440p 343,9 MiB, vtt 661 blocchi, quiz 7x5, test 8 domande dall'Excel della docente, dispensa A4 49 pagine, scheda, timeline, testo YouTube. Controlli: fotogrammi OK, quiz scatto 0,0 s OK, fermi OK, volume -16,0 LUFS (alzato il parlato della docente di 2,9 dB solo sull'audio), sincronia verificata in 4 punti OK. Sottotitoli: il controllo automatico dice 40% (falso allarme: ho guardato l'energia dei 15 punti, gli attacchi sono sulla voce; i rumori prima della frase ingannano il misuratore). S6: tagliato il titolo detto due volte; 'studiano' forse pronunciato 'storiano', da ascoltare. Aspetto RIPRENDI per mandare i file a Sara."
   }
  ],
  "materia": "Economia e marketing delle aziende della moda (III + IV)",
  "lezione": "Lezione 2 · Moda e filiera",
  "docente": "Prof.ssa Piera Caputi",
- "aggiornato": "2026-11-09 03:32:03"
+ "aggiornato": "2026-11-09 03:32:15"
 }
