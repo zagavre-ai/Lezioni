@@ -15,6 +15,10 @@
   {
    "quando": "08/11 14:05",
    "testo": "Testi voci definitivi nel ramo voci-afm-inglese-triennio-lez03: INTRO1 R1-R5 S1-S5 GL1 RF1 FIN1 (inglese B1, Kore, 4.936 caratteri). Eventuali AN solo dopo aver visto la durata del video."
+  },
+  {
+   "quando": "08/11 16:14",
+   "testo": "ANCORA FERMA (00:15 UTC): nella release afm-inglese-triennio-lez03 manca il video della docente. Tutto il resto è pronto (voci importate, grafiche, quiz, test, dispensa); appena il video c'è, monto subito. Sigla nuova già inserita."
   }
  ],
  "domande_sara": [],
@@ -31,5 +35,5 @@
  "materia": "Inglese (AFM triennio)",
  "lezione": "Lezione 3 · Production",
  "docente": "Prof.ssa Maria Vittoria Fontanesi",
- "aggiornato": "2026-11-08 14:35:03"
+ "aggiornato": "2026-11-08 16:14:49"
 }
