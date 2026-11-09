@@ -194,19 +194,19 @@ const KEY='telesio_registro_'+CODE+'_'+MAT;
 
 /* ---------- le 10 sezioni del modello ---------- */
 const SEZ=[
- {n:1,t:'Videolezioni registrate da visionare',rows:3,cols:'38px 1.2fr 1.3fr 90px',f:[
+ {n:1,t:'Videolezioni registrate da visionare',rows:3,nonum:1,cols:'1.2fr 1.3fr 90px',f:[
    {k:'tit',l:'Lezione / Titolo'},{k:'arg',l:'Argomenti da studiare'},{k:'ok',l:'Completata',ty:'done'}]},
- {n:2,t:'Studio di dispense, slide e materiali didattici',rows:2,cols:'38px 1fr .7fr 1.4fr 90px',f:[
+ {n:2,t:'Studio di dispense, slide e materiali didattici',rows:2,nonum:1,cols:'1fr .7fr 1.4fr 90px',f:[
    {k:'mat',l:'Materiale da studiare'},{k:'pag',l:'Pagine / Sezioni'},
    {k:'att',l:'Attività richiesta',ty:'chk',o:['Studio','Ripasso','Approfondimento','Svolgere gli esercizi caricati']},{k:'ok',l:'Completato',ty:'done'}]},
- {n:3,t:'Compiti scritti ed esercizi',rows:2,cols:'38px 1.1fr 1.2fr .9fr 130px',f:[
+ {n:3,t:'Compiti scritti ed esercizi',rows:2,nonum:1,cols:'1.1fr 1.2fr .9fr 130px',f:[
    {k:'tip',l:'Tipologia',ty:'chk',o:['Esercizi','Problemi','Questionario','Altro']},{k:'arg',l:'Argomento e consegna'},
    {k:'lib',l:'Libro / Pagine / Esercizi'},{k:'sca',l:'Scadenza',ty:'date',due:'Consegna compiti'}],
    ex:[{k:'cons',l:'Consegna:',ty:'chk',o:['Quaderno','Libro/dispensa','Documento digitale','Piattaforma','In diretta','Altro']},{k:'consA',l:'Altro:',ty:'short'}]},
  {n:4,t:'Temi, elaborati, relazioni e produzioni scritte',rows:1,cols:'1.3fr 1.3fr 1fr',nonum:1,f:[
    {k:'tip',l:'Tipologia',ty:'chk',o:['Tema','Riassunto','Relazione','Ricerca','Traduzione','Progetto','Altro']},
    {k:'tit',l:'Titolo / Traccia / Indicazioni',ty:'area'},{k:'con',l:'Consegna (data e modalità)'}]},
- {n:5,t:'Preparazione orale e interrogazioni',rows:2,cols:'38px 1.2fr .8fr 1.3fr 130px',f:[
+ {n:5,t:'Preparazione orale e interrogazioni',rows:2,nonum:1,cols:'1.2fr .8fr 1.3fr 130px',f:[
    {k:'arg',l:'Argomenti da preparare'},{k:'pag',l:'Pagine / Lezioni'},
    {k:'tip',l:'Tipo di attività',ty:'chk',o:['Ripasso','Esposizione','Interrogazione']},{k:'dat',l:'Data prevista',ty:'date',due:'Orale'}],
    ex:[{k:'asp',l:'Aspetti da conoscere o saper esporre:',ty:'chk',o:['Definizioni e concetti fondamentali','Regole, formule e procedimenti','Date, eventi e collegamenti','Esempi e applicazioni pratiche','Capacità di esposizione e argomentazione','Altro']},
@@ -219,7 +219,7 @@ const SEZ=[
    ex:[{k:'st',l:'',ty:'chk',o:['Tutte da svolgere','Completate','Consegnate','Da recuperare']},{k:'rec',l:'Da recuperare:',ty:'short'}]},
  {n:9,t:'Correzione dei compiti e osservazioni del docente',rows:1,cols:'1fr 1fr',nonum:1,f:[
    {k:'cor',l:'Compiti corretti / Errori e aspetti da migliorare',ty:'area'},{k:'esi',l:'Esito verifica orale o pratica / Indicazioni per la lezione successiva',ty:'area'}]},
- {n:10,t:'Prima della prossima lezione lo studente dovrà',rows:3,cols:'38px 1fr',f:[{k:'x',l:'Da fare'}]}
+ {n:10,t:'Prima della prossima lezione lo studente dovrà',rows:3,nonum:1,cols:'1fr',f:[{k:'x',l:'Da fare'}]}
 ];
 
 /* ---------- date ---------- */
