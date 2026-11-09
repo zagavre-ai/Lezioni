@@ -16,7 +16,8 @@ header b{font-size:16px}header span{font-size:13px;opacity:.8}header button{marg
 .it{padding:10px 14px;border-top:1px solid #EEF1F6;cursor:pointer}
 .it:hover{background:#F6F8FD}.it.on{background:#E8EDFF;border-left:4px solid var(--acc);padding-left:10px}
 .it b{display:block;font-size:14px}.it small{color:var(--mut);font-size:12px}
-iframe{width:100%;height:100%;border:0;background:var(--bg)}
+#frame{display:flex;flex-direction:column;min-height:0}.vb{display:flex;gap:8px;align-items:center;padding:8px 12px;border-bottom:1px solid var(--line);background:#fff;font-size:13px;color:var(--mut)}.vb .btn.on{background:var(--navy);border-color:var(--navy);color:#fff}
+iframe{width:100%;flex:1;border:0;background:var(--bg)}
 #vuoto{display:flex;align-items:center;justify-content:center;height:100%;color:var(--mut);padding:24px;text-align:center}
 #login{max-width:380px;margin:12vh auto;background:#fff;border:1px solid var(--line);border-radius:12px;padding:24px}
 #login h1{font-size:20px;margin:0 0 8px;color:var(--navy)}#login p{color:var(--mut);font-size:14px;margin:0 0 16px}
@@ -37,7 +38,7 @@ const sha=async t=>hex(await crypto.subtle.digest('SHA-256',enc.encode(t)));
 const unb64=t=>Uint8Array.from(atob(t),c=>c.charCodeAt(0));
 const $=s=>document.querySelector(s);
 const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-let L=[],SEL='';
+let L=[],SEL='',VISTA='docente';
 async function apri(pin){
   const f=(await sha('telesio-elenco-file|'+pin)).slice(0,16);
   const r=await fetch('elenco_'+f+'.enc?t='+Date.now());if(!r.ok)throw 'codice';
@@ -49,7 +50,11 @@ async function apri(pin){
 function lista(){const q=$('#q').value.toLowerCase();
   $('#list').innerHTML=L.filter(s=>(s.nome+' '+s.indirizzo).toLowerCase().includes(q)).map(s=>'<div class="it'+(s.codice===SEL?' on':'')+'" data-c="'+s.codice+'"><b>'+esc(s.nome)+'</b><small>'+esc(s.indirizzo)+'</small></div>').join('')||'<div class="it"><small>Nessun alunno trovato</small></div>';
   document.querySelectorAll('.it[data-c]').forEach(d=>d.onclick=()=>{SEL=d.dataset.c;const s=L.find(x=>x.codice===SEL);
-    $('#frame').innerHTML='<iframe src="index.html?c='+encodeURIComponent(s.codice)+'&n='+encodeURIComponent(s.nome)+'&i='+encodeURIComponent(s.indirizzo)+'&ruolo=docente"></iframe>';lista()})}
+    mostra();lista()})}
+function mostra(){const s=L.find(x=>x.codice===SEL);if(!s)return;
+  $('#frame').innerHTML='<div class="vb"><button class="btn'+(VISTA==='docente'?' on':'')+'" data-v="docente">Vista docente</button><button class="btn'+(VISTA==='studente'?' on':'')+'" data-v="studente">Vista studente</button><span>'+(VISTA==='studente'?'Vedi esattamente quello che vede l’alunno, fino a oggi. Sola lettura.':'Puoi scrivere in tutte le materie.')+'</span></div>'+
+  '<iframe src="index.html?c='+encodeURIComponent(s.codice)+'&n='+encodeURIComponent(s.nome)+'&i='+encodeURIComponent(s.indirizzo)+(VISTA==='studente'?'&vista=studente':'&ruolo=docente')+'"></iframe>';
+  document.querySelectorAll('.vb [data-v]').forEach(b=>b.onclick=()=>{VISTA=b.dataset.v;mostra()})}
 $('#q').oninput=lista;
 const go=()=>{const p=$('#pin').value.trim().toUpperCase();if(!p)return;$('#err').textContent='Controllo…';apri(p).catch(()=>{$('#err').textContent='Codice non valido.'})};
 $('#ok').onclick=go;$('#pin').onkeydown=e=>{if(e.key==='Enter')go()};

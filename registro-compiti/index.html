@@ -471,7 +471,7 @@ function avvio(){
     for(const r of csv(t).slice(1)){if(r[1]!==RID||!r[3])continue;
       try{const o=await decifra(r[3]);if(!DOCENTI[o.p])continue;
         if(r[2]==='GEN')D.gen=o.gen||{};else if(o.dati&&Object.keys(o.dati).length)D.days[r[2]]=o.dati;else delete D.days[r[2]]}catch(e){}}
-    DB=D;const ph=PIN?await pinhash(PIN):'';DOCNAME=DNOME(ph);ROLE=DOCNAME&&PUO(ph)?'docente':'studente';
+    DB=D;const ph=PIN?await pinhash(PIN):'';DOCNAME=DNOME(ph);ROLE=DOCNAME&&PUO(ph)?'docente':'studente';if(Q.get('vista')==='studente')ROLE='studente';
     if(DOCNAME&&!PUO(ph))setTimeout(()=>stato('Sola lettura: questa materia non è tra le tue'),50);
     if(!DOCNAME&&PIN){PIN='';try{localStorage.removeItem('telesio_pin')}catch(e){}}
     if(ROLE==='studente'&&iso(SEL)>T)SEL=new Date(TODAY);
