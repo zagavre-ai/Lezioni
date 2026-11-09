@@ -1,0 +1,91 @@
+<!doctype html><html lang="it"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Prova · verifica, fine lezione e compiti</title>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@800&family=Figtree:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#0B1530;--blue:#2060AF;--yel:#FFE600;--line:#D9DEE8;--bg:#F3F5F9;--mut:#5B6478;--ok:#1B7F4B;--ko:#B3261E}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:Figtree,Arial,sans-serif;line-height:1.45}
+.w{max-width:980px;margin:0 auto;padding:14px 16px 40px}
+.mat{font-weight:800;color:var(--blue);letter-spacing:.14em;font-size:12px;text-transform:uppercase}
+h1{font:800 26px/1.1 'Bricolage Grotesque';margin:4px 0 14px}h2{font:800 21px/1.15 'Bricolage Grotesque';margin:0 0 6px}
+.card{background:#fff;border:1px solid var(--line);border-radius:12px;padding:18px;margin:14px 0}
+.tag{display:inline-block;background:var(--yel);font-weight:800;font-size:12px;letter-spacing:.08em;padding:3px 8px;border-radius:5px;margin-bottom:8px}
+.vid{position:relative;aspect-ratio:16/9;background:#000;border-radius:10px;overflow:hidden}.vid>div,.vid iframe{position:absolute;inset:0;width:100%;height:100%}
+.lock{position:absolute;inset:0;background:rgba(11,21,48,.92);color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:20px;z-index:2}
+.lock b{font:800 22px 'Bricolage Grotesque'}
+.q{border-top:1px solid #EEF1F6;padding:12px 0}.q:first-of-type{border-top:0}.q p{margin:0 0 8px;font-weight:600}
+label.o{display:block;padding:7px 10px;border:1px solid var(--line);border-radius:8px;margin:5px 0;cursor:pointer}label.o:hover{background:#F6F8FD}
+.vf{display:flex;gap:8px;align-items:center;justify-content:space-between;flex-wrap:wrap}.vf span{flex:1 1 300px}
+input[type=text],textarea{font:inherit;border:1px solid var(--line);border-radius:8px;padding:7px 10px}input.gap{width:150px}textarea{width:100%;min-height:90px}
+.bank{background:#EEF0F4;border-radius:8px;padding:8px 12px;margin:6px 0 10px;font-weight:700;color:var(--blue)}
+.btn{border:0;background:var(--ink);color:#fff;font:700 16px Figtree;padding:11px 20px;border-radius:9px;cursor:pointer}.btn.sec{background:#fff;color:var(--ink);border:1px solid var(--line)}
+.esito{font-weight:700;margin-top:10px}.giu{color:var(--ok)}.sba{color:var(--ko)}
+.q.ok{background:#EAF6EF;border-radius:8px;padding:12px}.q.ko{background:#FCEDEC;border-radius:8px;padding:12px}
+.note{font-size:14px;color:var(--mut)}.demo{background:#FFF8C2;border-left:5px solid var(--yel);padding:10px 14px;border-radius:6px;font-size:14px}
+fieldset{border:0;padding:0;margin:0}fieldset:disabled{opacity:.85}
+#compiti{display:none}
+</style></head><body><div class="w">
+<div class="mat">Tecnologie dei materiali · Prof.ssa (prova)</div><h1>Le fibre tessili</h1>
+<div class="demo"><b>Pagina di prova per la direzione.</b> Mostra le tre novità: 1) la verifica della lezione precedente all'inizio, che sblocca il video; 2) il finale del video (gli ultimi minuti); 3) i compiti da svolgere a video. In questa prova le consegne restano sul tuo computer; nella versione vera arrivano al registro dei compiti delle videolezioni. <a href="#" id="reset">Ricomincia la prova</a></div>
+
+<div class="card" id="verifica"><span class="tag">VERIFICA DELLA LEZIONE PRECEDENTE</span><h2>Prima di iniziare: verifica</h2>
+<p class="note">Per vedere questa videolezione devi superare la verifica sulla lezione precedente con almeno l'80% di risposte giuste. Se non la superi, rivedi la lezione precedente e riprova.</p>
+<fieldset id="vf"></fieldset><button class="btn" id="vbtn">Controlla</button><div class="esito" id="vesito"></div></div>
+
+<div class="card"><span class="tag">VIDEOLEZIONE</span><div class="vid"><div id="yt"></div><div class="lock" id="lock"><b>Video bloccato</b><p>Supera la verifica qui sopra per sbloccare la videolezione.</p></div></div>
+<p class="note">Prova: il video parte dagli ultimi minuti. Alla fine compaiono i compiti qui sotto.</p></div>
+
+<div class="card" id="compiti"><span class="tag">COMPITI</span><h2>Compiti della lezione</h2>
+<p class="note">Svolgi gli esercizi direttamente qui e premi «Consegna». Si consegna <b>una volta sola</b>: ricontrolla prima di inviare. Gli esercizi 1–3 si correggono subito; il 4 lo corregge il docente.</p>
+<p><b>Il tuo codice studente</b> <span class="note">(lo trovi nella tua scheda; in questa prova scrivi il tuo nome)</span><br><input type="text" id="cod" style="width:260px;margin-top:6px"></p>
+<fieldset id="cf"></fieldset>
+<button class="btn" id="cbtn">Consegna i compiti</button><div class="esito" id="cesito"></div></div>
+</div>
+<script>
+const $=s=>document.getElementById(s);const K='telesio_prova_compiti';
+let ST={};try{ST=JSON.parse(localStorage.getItem(K)||'{}')}catch(e){}
+const save=()=>{try{localStorage.setItem(K,JSON.stringify(ST))}catch(e){}};
+$('reset').onclick=e=>{e.preventDefault();try{localStorage.removeItem(K)}catch(x){}location.reload()};
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+async function h(t){const b=await crypto.subtle.digest('SHA-256',new TextEncoder().encode('telesio|'+t.trim().toLowerCase().replace(/\s+/g,' ')));return [...new Uint8Array(b)].map(x=>x.toString(16).padStart(2,'0')).join('').slice(0,16)}
+/* verifica (lezione precedente): risposte salvate come impronta, non in chiaro */
+const VER=[
+ {p:'Che cos\'è una fibra tessile?',o:['Un filato già ritorto pronto per la tessitura','L\'elemento di base, allungato, flessibile e sottile, che si presta a essere filato','Un tessuto non tessuto ottenuto per pressione','Una sostanza chimica usata per tingere i filati']},
+ {p:'In quali due grandi gruppi si dividono le fibre?',o:['Vegetali e minerali','Lunghe e corte','Naturali e chimiche (man-made)','Pettinate e cardate']},
+ {p:'Quale di queste è una fibra naturale animale?',o:['Il lyocell','Il mohair','Il kapok','La poliammide']},
+ {p:'Come si ottengono le fibre chimiche artificiali?',o:['Da prodotti già esistenti in natura, opportunamente lavorati','Dall\'unione di elementi chimici semplici in polimeri','Dal vello degli animali','Dal fusto delle piante, senza lavorazioni']},
+ {p:'A che cosa servono le fibre in mischia?',o:['A rendere il tessuto più economico','A ottenere solo tessuti impermeabili','A unire i pregi di più fibre e ridurne i difetti','A sostituire la filatura']}];
+const VH=[];
+const C={vf:[['Le fibre tessili si dividono in naturali e chimiche.','V'],['Il mohair è una fibra vegetale.','F'],['La viscosa è una fibra chimica artificiale.','V'],['Nelle fibre in mischia si uniscono i pregi di fibre diverse.','V']],
+ gap:[['Lana e seta sono fibre ','naturali',' di origine animale.'],['Viscosa e acetato sono fibre chimiche ','artificiali','.'],['Poliammide e poliestere sono fibre chimiche ','sintetiche','.']],
+ mc:[{p:'Quale fibra NON è artificiale?',o:['Viscosa','Acetato','Poliestere','Modal'],a:'Poliestere'},{p:'Il cashmere è una fibra…',o:['vegetale','animale','sintetica','artificiale'],a:'animale'}],
+ ap:['Spiega con parole tue la differenza tra fibre chimiche artificiali e sintetiche, con un esempio per ciascuna.','Scegli un capo che indossi spesso: di quale fibra è fatto? Perché pensi che sia stata scelta proprio quella fibra?']};
+const HS={};
+async function init(){
+ const giuste=[1,2,1,0,2];for(let i=0;i<VER.length;i++)VH.push(await h(VER[i].o[giuste[i]]));
+ $('vf').innerHTML=VER.map((q,i)=>'<div class="q" id="v'+i+'"><p>'+(i+1)+'. '+esc(q.p)+'</p>'+q.o.map(o=>'<label class="o"><input type="radio" name="v'+i+'" value="'+esc(o)+'"> '+esc(o)+'</label>').join('')+'</div>').join('');
+ for(const [i,x] of C.vf.entries())HS['vf'+i]=await h(x[1]);for(const [i,x] of C.gap.entries())HS['g'+i]=await h(x[1]);for(const [i,x] of C.mc.entries())HS['m'+i]=await h(x.a);
+ let t='<div class="q"><p>Esercizio 1 · Vero o falso?</p>'+C.vf.map((x,i)=>'<div class="vf" id="qvf'+i+'"><span>'+esc(x[0])+'</span><span style="flex:0 0 auto"><label><input type="radio" name="vf'+i+'" value="V"> V</label> &nbsp; <label><input type="radio" name="vf'+i+'" value="F"> F</label></span></div>').join('')+'</div>';
+ t+='<div class="q"><p>Esercizio 2 · Completa con la parola giusta.</p><div class="bank">naturali · artificiali · sintetiche</div>'+C.gap.map((x,i)=>'<div id="qg'+i+'" style="margin:6px 0">'+esc(x[0])+'<input type="text" class="gap" id="g'+i+'">'+esc(x[2])+'</div>').join('')+'</div>';
+ t+='<div class="q"><p>Esercizio 3 · Scegli la risposta giusta.</p>'+C.mc.map((q,i)=>'<div id="qm'+i+'" style="margin:8px 0"><div style="font-weight:600">'+esc(q.p)+'</div>'+q.o.map(o=>'<label class="o"><input type="radio" name="m'+i+'" value="'+esc(o)+'"> '+esc(o)+'</label>').join('')+'</div>').join('')+'</div>';
+ t+='<div class="q"><p>Esercizio 4 · Rispondi (lo corregge il docente).</p>'+C.ap.map((p,i)=>'<div style="margin:8px 0"><div style="font-weight:600;margin-bottom:4px">'+esc(p)+'</div><textarea id="a'+i+'"></textarea></div>').join('')+'</div>';
+ $('cf').innerHTML=t;
+ if(ST.ver)sblocca();if(ST.fine)$('compiti').style.display='block';if(ST.cons)mostra(ST.cons);
+}
+const val=n=>{const x=document.querySelector('input[name="'+n+'"]:checked');return x?x.value:''};
+$('vbtn').onclick=async()=>{let ok=0;for(let i=0;i<VER.length;i++){const g=(await h(val('v'+i)))===VH[i]&&val('v'+i);ok+=g?1:0;$('v'+i).className='q '+(g?'ok':'ko')}
+ const pc=Math.round(ok/VER.length*100);if(pc>=80){ST.ver=pc;save();sblocca()}else $('vesito').innerHTML='<span class="sba">'+ok+' su '+VER.length+' ('+pc+'%). Non basta: serve l\'80%. Rivedi la lezione precedente e riprova.</span>'};
+function sblocca(){$('lock').style.display='none';$('vf').disabled=true;$('vbtn').style.display='none';$('vesito').innerHTML='<span class="giu">Verifica superata ('+ST.ver+'%). La videolezione è sbloccata.</span>'}
+/* video: ultimi minuti */
+let yt;window.onYouTubeIframeAPIReady=()=>{yt=new YT.Player('yt',{videoId:'gWy_ksBqdPY',playerVars:{start:195,rel:0,modestbranding:1,playsinline:1},events:{onStateChange:e=>{if(e.data===0){ST.fine=1;save();$('compiti').style.display='block';$('compiti').scrollIntoView({behavior:'smooth'})}}}})};
+const s=document.createElement('script');s.src='https://www.youtube.com/iframe_api';document.head.appendChild(s);
+$('cbtn').onclick=async()=>{const cod=$('cod').value.trim();if(!cod){$('cesito').innerHTML='<span class="sba">Scrivi il tuo codice studente.</span>';return}
+ const r={cod,quando:new Date().toLocaleString('it-IT'),voci:{},aperte:C.ap.map((_,i)=>$('a'+i).value.trim())};let ok=0,tot=0;
+ for(let i=0;i<C.vf.length;i++){const v=val('vf'+i),g=!!v&&(await h(v))===HS['vf'+i];r.voci['qvf'+i]=g;ok+=g;tot++}
+ for(let i=0;i<C.gap.length;i++){const v=$('g'+i).value,g=!!v.trim()&&(await h(v))===HS['g'+i];r.voci['qg'+i]=g;r['g'+i]=v;ok+=g;tot++}
+ for(let i=0;i<C.mc.length;i++){const v=val('m'+i),g=!!v&&(await h(v))===HS['m'+i];r.voci['qm'+i]=g;ok+=g;tot++}
+ r.ok=ok;r.tot=tot;ST.cons=r;save();mostra(r)};
+function mostra(r){$('cf').disabled=true;$('cod').value=r.cod;$('cod').disabled=true;$('cbtn').style.display='none';
+ for(const [id,g] of Object.entries(r.voci)){const el=$(id);if(el)el.style.cssText='border-radius:6px;padding:4px 8px;background:'+(g?'#EAF6EF':'#FCEDEC')}
+ $('cesito').innerHTML='<span class="giu">Compiti consegnati il '+esc(r.quando)+'.</span><br>Esercizi 1–3: <b>'+r.ok+' su '+r.tot+'</b> corretti (in rosso quelli da rivedere).<br>Esercizio 4: inviato al docente per la correzione.'}
+init();
+</script></body></html>
