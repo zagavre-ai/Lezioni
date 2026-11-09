@@ -1,2 +1,4 @@
+[09/11 01:11] PAUSA ORDINATA DA SARA (uso settimanale al 60%): finisci SOLO il comando già in corso, poi aggiorna lo stato (stato.py --stato FERMA --nota 'pausa' --invia) e FERMATI. Non iniziare lavori nuovi finché la master non scrive RIPRENDI.
+
 [08/11 15:42] Quando una Parte è PRONTA, aggiorna il kit (git fetch -q origin main && git checkout origin/main -- kit && cp kit/tools/*.py tools/) e rifai lo stato con la scheda e la timeline: python3 tools/stato.py <tag> --parte N --scheda <scheda_pubblicazione.json> --timeline <timeline.json> --invia . Serve alla master per preparare il testo YouTube con i capitoli. Vale anche per le Parti già consegnate.
 
