@@ -9,10 +9,10 @@
    "fermi_ok": "si",
    "sub_ok": "no",
    "video": "Inglese_Lez2_Parte1_1440p.mp4",
-   "durata_s": 3584.3,
-   "durata": "59:44.3",
+   "durata_s": 3584.4,
+   "durata": "59:44.4",
    "fotogrammi": 107530,
-   "fotogrammi_attesi": 107530,
+   "fotogrammi_attesi": 107532,
    "peso_MB": 404.1,
    "vtt": "Inglese_Lez2_Parte1.vtt"
   }
@@ -45,10 +45,14 @@
   {
    "quando": "08/11 16:01",
    "testo": "controllo_finale: ESITO: DA SISTEMARE: volume, sottotitoli"
+  },
+  {
+   "quando": "08/11 16:20",
+   "testo": "controllo_finale: ESITO: DA SISTEMARE: sottotitoli"
   }
  ],
  "materia": "Inglese (AFM triennio)",
  "lezione": "Lezione 2 · The Business World",
  "docente": "Prof.ssa Maria Vittoria Fontanesi",
- "aggiornato": "2026-11-08 16:01:04"
+ "aggiornato": "2026-11-08 16:20:37"
 }
