@@ -4,7 +4,17 @@
   "1": {
    "titolo": "Global Factors",
    "stato": "IN_MONTAGGIO",
-   "voci": "kore"
+   "voci": "kore",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "no",
+   "video": "Inglese_Lez1_Parte1_1440p.mp4",
+   "durata_s": 3955.2,
+   "durata": "65:55.2",
+   "fotogrammi": 118655,
+   "fotogrammi_attesi": 118655,
+   "peso_MB": 372.8,
+   "vtt": "Inglese_Lez1_Parte1.vtt"
   }
  },
  "manca": "",
@@ -51,10 +61,14 @@
   {
    "quando": "08/11 17:06",
    "testo": "Scansione completa della sincronia: in tutto 44 frasi corrette (la regola automatica accendeva la frase 15 s prima della lettura inglese anche quando la docente stava ancora spiegando la frase precedente). Rifaccio tutto il docente+slide; consegna prevista tra circa 2 ore e mezza."
+  },
+  {
+   "quando": "08/11 19:24",
+   "testo": "controllo_finale: ESITO: DA SISTEMARE: sottotitoli"
   }
  ],
  "materia": "Inglese (AFM triennio)",
  "lezione": "Lezione 1 · Global Factors",
  "docente": "Prof.ssa Maria Vittoria Fontanesi",
- "aggiornato": "2026-11-08 17:06:29"
+ "aggiornato": "2026-11-08 19:24:17"
 }
