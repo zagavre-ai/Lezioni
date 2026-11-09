@@ -3,8 +3,18 @@
  "parti": {
   "1": {
    "titolo": "The Business World",
-   "stato": "IN_CODIFICA",
-   "voci": "kore"
+   "stato": "IN_MONTAGGIO",
+   "voci": "kore",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "no",
+   "video": "Inglese_Lez2_Parte1_1440p.mp4",
+   "durata_s": 3584.3,
+   "durata": "59:44.3",
+   "fotogrammi": 107530,
+   "fotogrammi_attesi": 107530,
+   "peso_MB": 404.1,
+   "vtt": "Inglese_Lez2_Parte1.vtt"
   }
  },
  "manca": "",
@@ -31,10 +41,14 @@
   {
    "quando": "08/11 15:01",
    "testo": "Montaggio fatto (durata prevista ~58,5 min). Codifica finale 1440p in corso con finale_a_pezzi."
+  },
+  {
+   "quando": "08/11 16:01",
+   "testo": "controllo_finale: ESITO: DA SISTEMARE: volume, sottotitoli"
   }
  ],
  "materia": "Inglese (AFM triennio)",
  "lezione": "Lezione 2 · The Business World",
  "docente": "Prof.ssa Maria Vittoria Fontanesi",
- "aggiornato": "2026-11-08 15:01:48"
+ "aggiornato": "2026-11-08 16:01:04"
 }
