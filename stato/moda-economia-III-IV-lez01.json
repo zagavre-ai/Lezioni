@@ -23,6 +23,10 @@
   {
    "quando": "08/11 16:15",
    "testo": "Mancano 4 voci: S8, GL1, RF1, FIN1 (testi in scambio/moda-economia-III-IV-lez01/testi_voci.json)."
+  },
+  {
+   "quando": "08/11 18:11",
+   "testo": "MIGLIORAMENTO: finale_a_pezzi.py codifica un gruppo alla volta e usa di fatto 1 processore su 2; con 2 gruppi in parallelo (ThreadPoolExecutor(2), stessi parametri) la codifica finale dimezza. Copia in moda-economia-III-IV-lez01/finale_2x.py."
   }
  ],
  "domande_sara": [],
@@ -46,10 +50,14 @@
   {
    "quando": "08/11 17:14",
    "testo": "Tutte le 12 voci Kore importate e controllate. Grafiche pronte (8 titoli, 8 schemi di ripasso, 8 schede Quiz con titoli lunghi su 2 righe, glossario, ripasso finale, FINE). Durata pianificata 71,3 min (docente 61,6 + inserti 9,7). Scelta consigliata applicata: UNA sola Parte, perché la lezione della docente (61,6 min) è sotto i ~65 min della regola dell'8/11; con due Parti si avrebbero circa 38 min ciascuna. Montaggio e codifica in corso."
+  },
+  {
+   "quando": "08/11 18:11",
+   "testo": "Montaggio fatto (71,25 min, 39 pezzi). Codifica finale 1440p: l'encoder x264 fast su questa macchina usa un solo processore (~25-30 min per gruppo da 8 min). Uso una copia di finale_a_pezzi.py che codifica 2 gruppi alla volta, stessi parametri."
   }
  ],
  "materia": "Economia e marketing delle aziende della moda (III + IV)",
  "lezione": "Lezione 1 · Attività economica",
  "docente": "Prof.ssa Piera Caputi",
- "aggiornato": "2026-11-08 17:14:38"
+ "aggiornato": "2026-11-08 18:11:47"
 }
