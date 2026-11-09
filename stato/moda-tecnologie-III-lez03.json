@@ -1,0 +1,758 @@
+{
+ "tag": "moda-tecnologie-III-lez03",
+ "parti": {
+  "1": {
+   "stato": "PRONTA",
+   "voci": "kore",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "si",
+   "video": "Tecnologie_Filatura_parte_1_1440p.mp4",
+   "durata_s": 3588.8,
+   "durata": "59:48.8",
+   "fotogrammi": 107661,
+   "fotogrammi_attesi": 107664,
+   "peso_MB": 346.3,
+   "vtt": "Tecnologie_Filatura_parte_1.vtt",
+   "scheda": {
+    "materia": "Tecnologie dei materiali",
+    "titolo": "Filatura · Parte 1",
+    "durata_s": 3588.7,
+    "argomenti": [
+     {
+      "n": 1,
+      "titolo": "La filatura e i cicli di lavorazione",
+      "inizio_s": 38.7,
+      "quiz_s": 691.033
+     },
+     {
+      "n": 2,
+      "titolo": "I filatoi",
+      "inizio_s": 696.333,
+      "quiz_s": 1337.366
+     },
+     {
+      "n": 3,
+      "titolo": "I filati e le operazioni di rifinitura",
+      "inizio_s": 1342.666,
+      "quiz_s": 2070.766
+     },
+     {
+      "n": 4,
+      "titolo": "La torsione e i ritorti",
+      "inizio_s": 2076.066,
+      "quiz_s": 2733.599
+     },
+     {
+      "n": 5,
+      "titolo": "Filati lineari e filati a fantasia",
+      "inizio_s": 2738.899,
+      "quiz_s": 3480.298
+     }
+    ],
+    "quiz": {
+     "Q1": {
+      "title": "Quiz 1 · La filatura e i cicli di lavorazione",
+      "items": [
+       {
+        "p": "Che cos'è la filatura?",
+        "a": "Il processo che trasforma un ammasso di fibre disordinate in un filato",
+        "w": [
+         "Il processo che intreccia i fili per formare un tessuto",
+         "La tintura delle fibre prima della lavorazione",
+         "Il taglio dei filamenti chimici in fiocchi"
+        ],
+        "ref": "La filatura è il processo attraverso cui, da un ammasso di fibre disordinate, si ottiene un prodotto con struttura ben definita e lunghezza indefinita, denominato filato."
+       },
+       {
+        "p": "Perché il filato è considerato un semilavorato?",
+        "a": "Perché è in parte lavorato ma il suo ciclo di produzione non è finito",
+        "w": [
+         "Perché è fatto solo per metà di fibre naturali",
+         "Perché si vende soltanto ai negozi al dettaglio",
+         "Perché non ha ancora subito la torcitura"
+        ],
+        "ref": "Il filato costituisce un semilavorato: è un prodotto in parte lavorato, ma il cui ciclo di produzione non è ancora portato a termine."
+       },
+       {
+        "p": "Che cosa determina il ciclo di lavorazione delle fibre discontinue?",
+        "a": "La lunghezza delle fibre",
+        "w": [
+         "Il colore delle fibre",
+         "Il peso della balla",
+         "Il paese di provenienza"
+        ],
+        "ref": "È la lunghezza delle fibre discontinue a determinare il ciclo di lavorazione meccanica a cui verranno sottoposte."
+       },
+       {
+        "p": "Quale ciclo seguono le fibre più lunghe?",
+        "a": "Il ciclo pettinato, con cardatura e pettinatura",
+        "w": [
+         "Il ciclo cardato, con la sola cardatura",
+         "La trattura, come la seta",
+         "L'estrusione, come le fibre chimiche"
+        ],
+        "ref": "Le fibre più lunghe sono sottoposte a un ciclo che comprende sia la cardatura che la pettinatura: il ciclo di filatura pettinata."
+       },
+       {
+        "p": "Come si chiamano le fibre corte eliminate dalla pettinatrice?",
+        "a": "Blousses",
+        "w": [
+         "Scardassi",
+         "Lucignoli",
+         "Top"
+        ],
+        "ref": "Le fibre più corte, denominate blousses, sono recuperate e sottoposte al ciclo cardato."
+       }
+      ]
+     },
+     "Q2": {
+      "title": "Quiz 2 · I filatoi",
+      "items": [
+       {
+        "p": "Qual è stato il primo filatoio inventato?",
+        "a": "Il filatoio intermittente, o self-acting",
+        "w": [
+         "Il filatoio ad anello",
+         "Il filatoio Open End",
+         "Il filatoio a getto d'aria"
+        ],
+        "ref": "Il primo filatoio inventato è il filatoio intermittente o self-acting, introdotto nel 1765 da James Hargreaves e migliorato da Samuel Crompton nel 1779."
+       },
+       {
+        "p": "Qual è il filatoio più comune e tradizionalmente usato?",
+        "a": "Il filatoio ad anello, detto anche continuo o ring",
+        "w": [
+         "Il filatoio intermittente",
+         "Il filatoio Open End",
+         "Il filatoio a condensazione"
+        ],
+        "ref": "Il filatoio più comune e tradizionalmente usato è il filatoio ad anello, noto anche come filatoio continuo o ring."
+       },
+       {
+        "p": "Quale filatoio produce circa 200 metri di filato al minuto?",
+        "a": "Il filatoio Open End",
+        "w": [
+         "Il filatoio self-acting",
+         "Il filatoio ad anello",
+         "Il filatoio a condensazione"
+        ],
+        "ref": "L'Open End è molto più veloce dei precedenti, con una resa intorno ai 200 m al minuto, ma con torsioni meno costanti e regolari."
+       },
+       {
+        "p": "Come si chiama l'anellino che scorre sulla ghiera nel filatoio ad anello?",
+        "a": "Cursore",
+        "w": [
+         "Fuso",
+         "Rotore",
+         "Stoppino"
+        ],
+        "ref": "Ogni fuso è circondato da una ghiera o anello, sulla quale scorre ad alta velocità un anellino, denominato cursore, entro cui passa il filo."
+       },
+       {
+        "p": "Che filato si ottiene con il filatoio a condensazione?",
+        "a": "Poco peloso, più regolare e più tenace",
+        "w": [
+         "Molto peloso e gonfio",
+         "Irregolare, adatto ai tessuti da lavoro",
+         "Privo di torsione"
+        ],
+        "ref": "Il filatoio a condensazione condensa le fibre con un'aspirazione continua, ottenendo un filato con scarsa pelosità, migliore regolarità e superiore tenacità."
+       }
+      ]
+     },
+     "Q3": {
+      "title": "Quiz 3 · I filati e le operazioni di rifinitura",
+      "items": [
+       {
+        "p": "Come si chiama un filato fatto da due o più fibre diverse?",
+        "a": "Filato misto",
+        "w": [
+         "Filato puro",
+         "Filato cardato",
+         "Filato lineare"
+        ],
+        "ref": "I filati misti sono costituiti da 2 o più fibre diverse; i filati puri sono costituiti integralmente dalla stessa fibra."
+       },
+       {
+        "p": "Quali caratteristiche hanno i filati pettinati?",
+        "a": "Aspetto liscio e compatto, più resistenti all'usura e poco pilling",
+        "w": [
+         "Fibre poco orientate, pelose e gonfie",
+         "Torsione leggera e molto pilling",
+         "Costo basso e mano molto morbida"
+        ],
+        "ref": "I filati pettinati hanno fibre ben ritorte, aspetto liscio, omogeneo e compatto, maggiore resistenza all'usura e non producono facilmente pilling."
+       },
+       {
+        "p": "A che cosa serve la stribbiatura?",
+        "a": "A eliminare i difetti del filato",
+        "w": [
+         "A lubrificare il filato con la cera",
+         "A formare le matasse",
+         "A bruciare la peluria"
+        ],
+        "ref": "La stribbiatura è un procedimento di controllo sul filato che mira a eliminare i difetti, come punti deboli, ingrossamenti e neps."
+       },
+       {
+        "p": "In che cosa consiste la paraffinatura?",
+        "a": "Far passare il filato tra due dischi di cera paraffina",
+        "w": [
+         "Bruciare le pelurie con una fiamma",
+         "Fissare la torsione con il vapore",
+         "Riportare il filato all'umidità legale"
+        ],
+        "ref": "Con la paraffinatura i filati per maglieria passano tra due dischi di cera paraffina, che li rende più scorrevoli."
+       },
+       {
+        "p": "Quale operazione fissa la torsione con il vapore in autoclave?",
+        "a": "Il vaporissaggio",
+        "w": [
+         "La gasatura",
+         "La condizionatura",
+         "L'aspatura"
+        ],
+        "ref": "Il vaporissaggio fissa la torsione per evitare che i filati si arriccino; si esegue in autoclave, dove entra in azione il vapore."
+       }
+      ]
+     },
+     "Q4": {
+      "title": "Quiz 4 · La torsione e i ritorti",
+      "items": [
+       {
+        "p": "In quali unità si misura il grado di torsione?",
+        "a": "Giri al metro e giri al pollice",
+        "w": [
+         "Grammi al metro e grammi al pollice",
+         "Metri al minuto",
+         "Tex e Denari"
+        ],
+        "ref": "Il grado di torsione si misura in giri al metro (g/m) o in giri al pollice (g/\"), perché la lunghezza si può esprimere in metri o in pollici."
+       },
+       {
+        "p": "Che filato si ottiene con un numero di spire limitato?",
+        "a": "Gonfio, lanuginoso e morbido",
+        "w": [
+         "Fine, sottile e molto resistente",
+         "Secco e adatto all'ordito",
+         "Lucido e privo di peluria"
+        ],
+        "ref": "Con poche spire si ottiene un filato gonfio, lanuginoso e morbido; aumentando la torsione il filato diventa più fine e più resistente."
+       },
+       {
+        "p": "Come si chiama la torsione verso destra?",
+        "a": "Torsione a Z",
+        "w": [
+         "Torsione a S",
+         "Torsione soffice",
+         "Detorsione"
+        ],
+        "ref": "La torsione verso sinistra è detta torsione a S, quella verso destra torsione a Z."
+       },
+       {
+        "p": "Come si ottiene un ritorto composto?",
+        "a": "Unendo almeno tre capi con due torciture successive",
+        "w": [
+         "Unendo due capi con una sola torsione",
+         "Accostando due filati senza torsione",
+         "Torcendo un solo capo due volte"
+        ],
+        "ref": "Il ritorto composto unisce almeno tre capi attraverso due operazioni di torcitura successive; servono almeno due detorsioni per dividerlo."
+       },
+       {
+        "p": "Che cosa sono i filati accoppiati o binati?",
+        "a": "Due o più filati accostati senza torsione",
+        "w": [
+         "Filati con torsione molto forte",
+         "Filati di due colori diversi",
+         "Capi singoli stirati"
+        ],
+        "ref": "I filati accoppiati o binati si ottengono dal semplice accostamento, senza torsione, di due o più filati, con le macchine binatrici."
+       }
+      ]
+     },
+     "Q5": {
+      "title": "Quiz 5 · Filati lineari e filati a fantasia",
+      "items": [
+       {
+        "p": "Come sono i filati lineari?",
+        "a": "Puliti, senza peluria e regolari nella sezione",
+        "w": [
+         "Pieni di riccioli e ingrossamenti",
+         "Formati da tre colori diversi",
+         "Privi di torsione"
+        ],
+        "ref": "I filati lineari hanno una buona torsione che dà loro un aspetto pulito, privo di peluria superficiale, e una sezione regolare."
+       },
+       {
+        "p": "Nei filati a fantasia da torsione, che cos'è l'anima?",
+        "a": "Il filato che fa da scheletro del ritorto",
+        "w": [
+         "Il filato che forma i riccioli",
+         "Il filato che lega i fili d'effetto",
+         "Il colore di fondo del filato"
+        ],
+        "ref": "L'anima costituisce lo scheletro del ritorto; i filati a effetto si attorcigliano attorno a essa e la legatura dà stabilità."
+       },
+       {
+        "p": "Quale filato presenta anelle o boccole distanziate in modo regolare?",
+        "a": "Il bouclé, o anellato",
+        "w": [
+         "L'ondé",
+         "Il mouliné",
+         "Il glacé"
+        ],
+        "ref": "L'anellato o bouclé presenta anelle o boccole di grandezza variabile, distanziate piuttosto regolarmente."
+       },
+       {
+        "p": "Che cos'è il filato mouliné?",
+        "a": "Un ritorto a due capi di colore diverso",
+        "w": [
+         "Un filato con tre colori",
+         "Un filato con pagliuzze argentee",
+         "Un filato lucidato con cere"
+        ],
+        "ref": "Il mouliné è un filato bicolore: un ritorto semplice a due capi di colore diverso, generalmente contrastante."
+       },
+       {
+        "p": "Quale filato si usa per il tessuto tweed?",
+        "a": "Il bottonato",
+        "w": [
+         "Il lamé",
+         "Lo jaspé",
+         "Il marezzato"
+        ],
+        "ref": "Il bottonato ha bottoncini o grumi di fibre di colore diverso ed è utilizzato per ottenere il tessuto denominato tweed."
+       }
+      ]
+     }
+    }
+   },
+   "timeline": [
+    [
+     "T1",
+     38.7,
+     3.6
+    ],
+    [
+     "Q1",
+     691.033,
+     4.0
+    ],
+    [
+     "T2",
+     696.333,
+     3.6
+    ],
+    [
+     "T3",
+     1342.666,
+     3.6
+    ],
+    [
+     "T4",
+     2076.066,
+     3.6
+    ],
+    [
+     "T5",
+     2738.899,
+     3.6
+    ],
+    [
+     "GL1",
+     3485.598,
+     85.8
+    ],
+    [
+     "FIN1",
+     3572.798,
+     8.0
+    ]
+   ]
+  },
+  "2": {
+   "stato": "PRONTA",
+   "voci": "kore",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "si",
+   "video": "Tecnologie_Filatura_parte_2_1440p.mp4",
+   "durata_s": 3331.0,
+   "durata": "55:31.0",
+   "fotogrammi": 99929,
+   "fotogrammi_attesi": 99931,
+   "peso_MB": 322.0,
+   "vtt": "Tecnologie_Filatura_parte_2.vtt",
+   "scheda": {
+    "materia": "Tecnologie dei materiali",
+    "titolo": "Filatura · Parte 2",
+    "durata_s": 3330.97,
+    "argomenti": [
+     {
+      "n": 6,
+      "titolo": "Filati da maglieria, cucirini e filati speciali",
+      "inizio_s": 81.6,
+      "quiz_s": 810.666
+     },
+     {
+      "n": 7,
+      "titolo": "La titolazione dei filati",
+      "inizio_s": 815.966,
+      "quiz_s": 1211.899
+     },
+     {
+      "n": 8,
+      "titolo": "Il controllo qualità dei filati",
+      "inizio_s": 1217.199,
+      "quiz_s": 1889.565
+     },
+     {
+      "n": 9,
+      "titolo": "La sicurezza nella filatura",
+      "inizio_s": 1894.865,
+      "quiz_s": 2812.798
+     },
+     {
+      "n": 10,
+      "titolo": "Campionari, etichette e analisi dei difetti",
+      "inizio_s": 2818.098,
+      "quiz_s": 3147.797
+     }
+    ],
+    "quiz": {
+     "Q6": {
+      "title": "Quiz 6 · Filati da maglieria, cucirini e filati speciali",
+      "items": [
+       {
+        "p": "Come devono essere i filati da maglieria?",
+        "a": "Morbidi, poco ritorti e coprenti",
+        "w": [
+         "Rigidi, molto ritorti e lisci",
+         "Lucidi e senza umidità",
+         "Fatti solo di fibre sintetiche"
+        ],
+        "ref": "La maglia richiede un filato molto morbido, poco ritorto e coprente; la torsione è debole e di solito a S."
+       },
+       {
+        "p": "Quale materiale è il più diffuso per i cucirini?",
+        "a": "Il cotone",
+        "w": [
+         "La lana",
+         "La seta",
+         "Il lino"
+        ],
+        "ref": "Il cotone è il materiale più diffuso: è resistente e non rischia di fondere per il calore dello sfregamento dell'ago."
+       },
+       {
+        "p": "Che torsione hanno di solito i cucirini?",
+        "a": "Elevata, con direzione a Z",
+        "w": [
+         "Debole, con direzione a S",
+         "Nessuna torsione",
+         "Alternata S e Z"
+        ],
+        "ref": "I cucirini presentano solitamente un livello elevato di torsione con direzione a Z, per aumentare la resistenza alla trazione."
+       },
+       {
+        "p": "Perché il filo da imbastire ha una torsione debole a S?",
+        "a": "Per essere tolto facilmente senza rovinare il tessuto",
+        "w": [
+         "Per essere più lucido",
+         "Per resistere ai lavaggi a 60 °C",
+         "Per cucire il cuoio"
+        ],
+        "ref": "I fili per imbastitura richiedono una torsione debole e una direzione a S per poter essere rimossi facilmente senza danneggiare il tessuto."
+       },
+       {
+        "p": "Che cosa sono i filati corespun?",
+        "a": "Un filamento continuo rivestito a spirale da fibre di cotone",
+        "w": [
+         "Filati sintetici alleggeriti in superficie",
+         "Monobave ottenute per estrusione",
+         "Filati da ricamo multicolori"
+        ],
+        "ref": "I filati corespun sono multicomponenti: un filamento continuo rivestito a spirale da fibre di cotone."
+       }
+      ]
+     },
+     "Q7": {
+      "title": "Quiz 7 · La titolazione dei filati",
+      "items": [
+       {
+        "p": "Perché non si misura direttamente il diametro di un filato?",
+        "a": "Perché le fibre si deformano e hanno sezione irregolare",
+        "w": [
+         "Perché il filato è troppo lungo",
+         "Perché la legge lo vieta",
+         "Perché il diametro cambia con il colore"
+        ],
+        "ref": "Il diametro non si misura direttamente per la deformabilità e la sezione irregolare delle fibre: si usa la titolazione, rapporto tra lunghezza e peso."
+       },
+       {
+        "p": "Che cosa indica il titolo Tex?",
+        "a": "Il peso in grammi di 1.000 metri di filato",
+        "w": [
+         "Il numero di matasse in un chilo",
+         "La lunghezza di un grammo di filato",
+         "Il peso di 450 metri di filato"
+        ],
+        "ref": "Il Tex indica il peso in grammi di 1.000 m di filato; è un sistema diretto."
+       },
+       {
+        "p": "Nei sistemi indiretti, cosa significa un titolo più alto?",
+        "a": "Che il filato è più fine",
+        "w": [
+         "Che il filato è più grosso",
+         "Che il filato è più pesante",
+         "Che il filato ha più capi"
+        ],
+        "ref": "Nei sistemi indiretti, all'aumentare del valore del titolo corrisponde una diminuzione dello spessore: il filato è più fine."
+       },
+       {
+        "p": "Come si scrive un ritorto semplice a due capi da 76 Tex?",
+        "a": "76 Tex x 2",
+        "w": [
+         "Tex 2/76",
+         "Ne 76/2",
+         "Nm 2/76"
+        ],
+        "ref": "Nel sistema Tex il numero dei capi si scrive dopo il titolo: un ritorto semplice a due capi è 76 Tex x 2."
+       },
+       {
+        "p": "Come si converte un titolo in Denari in Tex?",
+        "a": "Dividendo il titolo in Denari per 9",
+        "w": [
+         "Moltiplicando il titolo per 9",
+         "Dividendo 590,5 per il titolo",
+         "Dividendo 1.000 per il titolo"
+        ],
+        "ref": "Conversione da denari a tex: si divide il titolo denari per la costante 9."
+       }
+      ]
+     },
+     "Q8": {
+      "title": "Quiz 8 · Il controllo qualità dei filati",
+      "items": [
+       {
+        "p": "Con quale strumento si misura il grado di torsione?",
+        "a": "Il torsiometro",
+        "w": [
+         "Il dinamometro",
+         "Il regolarimetro",
+         "L'aspino"
+        ],
+        "ref": "La determinazione del grado di torsione si effettua con torsiometri digitali ed elettronici."
+       },
+       {
+        "p": "Che cosa misura il dinamometro?",
+        "a": "La resistenza alla trazione e l'allungamento a rottura",
+        "w": [
+         "Il numero di giri della torsione",
+         "L'umidità del filato",
+         "Il colore del filato"
+        ],
+        "ref": "Con il dinamometro si determinano la resistenza alla trazione e, insieme, il grado di allungamento a rottura."
+       },
+       {
+        "p": "Qual è l'umidità legale della lana pettinata?",
+        "a": "18,25%",
+        "w": [
+         "12%",
+         "65%",
+         "4%"
+        ],
+        "ref": "L'umidità legale prevista per la lana pettinata è pari al 18,25%; per il lino è inferiore, pari al 12%."
+       },
+       {
+        "p": "Quale strumento misura la regolarità del titolo?",
+        "a": "Il regolarimetro Uster",
+        "w": [
+         "Il torsiometro",
+         "La stribbia",
+         "L'autoclave"
+        ],
+        "ref": "Oggi si preferisce il regolarimetro Uster, che registra la variazione percentuale di massa del filato (U%)."
+       },
+       {
+        "p": "Come si chiama il difetto della maglia con fittezza minore?",
+        "a": "Chiarella",
+        "w": [
+         "Neps",
+         "Pilling",
+         "Boccola"
+        ],
+        "ref": "Le barrature sono zone di maglia con diversa fittezza; una fittezza minore costituisce un difetto denominato chiarella."
+       }
+      ]
+     },
+     "Q9": {
+      "title": "Quiz 9 · La sicurezza nella filatura",
+      "items": [
+       {
+        "p": "Quali sono i rischi maggiori nella filatura?",
+        "a": "Le parti in movimento delle macchine e le polveri tessili",
+        "w": [
+         "Le alte temperature dei forni",
+         "I solventi delle tinture",
+         "Il peso delle balle di fibre"
+        ],
+        "ref": "I rischi maggiori provengono dal contatto con le parti in movimento dei macchinari e dalla presenza costante di polveri tessili."
+       },
+       {
+        "p": "Che cosa attesta la marcatura CE di un macchinario?",
+        "a": "Che è costruito secondo i requisiti di sicurezza delle direttive",
+        "w": [
+         "Che è stato prodotto in Europa",
+         "Che ha più di dieci anni",
+         "Che è adatto solo alla filatura"
+        ],
+        "ref": "La marcatura CE attesta che un macchinario è stato costruito in conformità ai requisiti di sicurezza previsti da tutte le direttive applicabili."
+       },
+       {
+        "p": "Come deve avvenire l'avviamento di una macchina?",
+        "a": "Solo con un'azione volontaria sul comando specifico",
+        "w": [
+         "In automatico all'apertura del reparto",
+         "Con qualsiasi pulsante della macchina",
+         "Solo da remoto"
+        ],
+        "ref": "L'avviamento deve avvenire solamente tramite un'azione volontaria sul dispositivo di comando specifico."
+       },
+       {
+        "p": "A che cosa servono gli elmetti nella filatura?",
+        "a": "Anche a evitare che i capelli si impiglino nelle macchine",
+        "w": [
+         "A ridurre il rumore dei filatoi",
+         "A filtrare le polveri tessili",
+         "A proteggere dagli agenti chimici"
+        ],
+        "ref": "Nella filatura si usano elmetti per evitare l'impigliamento dei capelli nei macchinari."
+       },
+       {
+        "p": "Quali estintori sono consigliati in un filatoio?",
+        "a": "A polvere e ad anidride carbonica",
+        "w": [
+         "Ad acqua",
+         "Solo a schiuma",
+         "Nessuno: solo gli sprinkler"
+        ],
+        "ref": "All'interno di un filatoio si sconsigliano gli estintori ad acqua, a favore di quelli a polvere e ad anidride carbonica."
+       }
+      ]
+     },
+     "Q10": {
+      "title": "Quiz 10 · Campionari, etichette e analisi dei difetti",
+      "items": [
+       {
+        "p": "A che cosa servono i campionari di filati?",
+        "a": "A far scegliere ai clienti i futuri prodotti",
+        "w": [
+         "A conservare i filati difettosi",
+         "A misurare il titolo",
+         "A spedire il filato in rocche"
+        ],
+        "ref": "I filati destinati all'industria, in particolare ai maglifici, si presentano in campionari per consentire ai clienti di scegliere i futuri prodotti."
+       },
+       {
+        "p": "Quale di questi è un modo di raccogliere i campioni?",
+        "a": "I raccoglitori a fisarmonica",
+        "w": [
+         "Le autoclavi",
+         "Le roccatrici",
+         "Gli aspi"
+        ],
+        "ref": "Le modalità di raccolta sono listelle, listini singoli e raccoglitori a fisarmonica."
+       },
+       {
+        "p": "Quale informazione NON compare sull'etichetta dei rocchetti?",
+        "a": "Il prezzo di vendita",
+        "w": [
+         "Il codice colore",
+         "Il titolo del filato",
+         "La composizione fibrosa"
+        ],
+        "ref": "L'etichetta riporta codice colore, titolo, lunghezza del filo, composizione fibrosa e origine geografica."
+       },
+       {
+        "p": "Che cosa si controlla su un tratto di 20–30 cm del filato contestato?",
+        "a": "Le torsioni, cioè gli avvitamenti",
+        "w": [
+         "Il colore",
+         "Il peso esatto",
+         "La marcatura CE"
+        ],
+        "ref": "Le prove consistono nel controllare ripetutamente le torsioni su un tratto di 20–30 cm, verificando gli avvitamenti in senso orario, antiorario o assenti."
+       },
+       {
+        "p": "A che cosa è stato attribuito il difetto delle boccole distorte?",
+        "a": "A voluminosità irregolare e torsione distribuita male",
+        "w": [
+         "A un errore di tintura",
+         "All'umidità troppo alta",
+         "A un ago della macchina rotto"
+        ],
+        "ref": "La relazione tecnica attribuisce il difetto a irregolarità di voluminosità e a una non uniforme distribuzione della torsione del filato."
+       }
+      ]
+     }
+    }
+   },
+   "timeline": [
+    [
+     "T6",
+     81.6,
+     3.6
+    ],
+    [
+     "T7",
+     815.966,
+     3.6
+    ],
+    [
+     "T8",
+     1217.199,
+     3.6
+    ],
+    [
+     "T9",
+     1894.865,
+     3.6
+    ],
+    [
+     "T10",
+     2818.098,
+     3.6
+    ],
+    [
+     "Q10",
+     3147.797,
+     4.0
+    ],
+    [
+     "GL2",
+     3153.097,
+     102.167
+    ],
+    [
+     "RF2",
+     3256.864,
+     56.8
+    ],
+    [
+     "FIN2",
+     3315.064,
+     8.0
+    ]
+   ]
+  }
+ },
+ "manca": "",
+ "serve_master": [],
+ "domande_sara": [],
+ "note": [],
+ "materia": "Tecnologie dei materiali (moda III)",
+ "lezione": "Lezione 3 · Filatura",
+ "docente": "Prof.ssa Piera Caputi",
+ "aggiornato": "2026-11-08 20:18:48"
+}
