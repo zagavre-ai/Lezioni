@@ -3,17 +3,17 @@
  "parti": {
   "1": {
    "titolo": "Marketing",
-   "stato": "IN_MONTAGGIO",
+   "stato": "PRONTA",
    "voci": "kore",
    "quiz_ok": "si",
    "fermi_ok": "si",
-   "sub_ok": "no",
+   "sub_ok": "si",
    "video": "Economia_Lez3_Parte1_1440p.mp4",
-   "durata_s": 3845.4,
-   "durata": "64:05.4",
+   "durata_s": 3845.5,
+   "durata": "64:05.5",
    "fotogrammi": 115362,
-   "fotogrammi_attesi": 115362,
-   "peso_MB": 356.0,
+   "fotogrammi_attesi": 115364,
+   "peso_MB": 356.2,
    "vtt": "Economia_Lez3_Parte1.vtt",
    "scheda": {
     "materia": "Economia e marketing delle aziende della moda",
@@ -529,10 +529,14 @@
   {
    "quando": "09/11 03:32",
    "testo": "controllo_finale: ESITO: DA SISTEMARE: volume, sottotitoli"
+  },
+  {
+   "quando": "09/11 04:05",
+   "testo": "controllo_finale: ESITO: TUTTO OK"
   }
  ],
  "materia": "Economia e marketing delle aziende della moda (III + IV)",
  "lezione": "Lezione 3 · Marketing",
  "docente": "Prof.ssa Piera Caputi",
- "aggiornato": "2026-11-09 03:32:23"
+ "aggiornato": "2026-11-09 04:05:10"
 }
