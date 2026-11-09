@@ -3,11 +3,11 @@
  "parti": {
   "1": {
    "titolo": "Moda e filiera",
-   "stato": "IN_MONTAGGIO",
+   "stato": "IN_CODIFICA",
    "voci": "kore"
   }
  },
- "manca": "montaggio in corso: slide sincronizzate, webcam, schemi, glossario, ripasso finale, poi codifica 1440p",
+ "manca": "montaggio e codifica 1440p in corso, poi sottotitoli e controlli",
  "serve_master": [
   {
    "quando": "08/11 15:19",
@@ -40,5 +40,5 @@
  "materia": "Economia e marketing delle aziende della moda (III + IV)",
  "lezione": "Lezione 2 · Moda e filiera",
  "docente": "Prof.ssa Piera Caputi",
- "aggiornato": "2026-11-09 00:47:49"
+ "aggiornato": "2026-11-09 01:39:12"
 }
