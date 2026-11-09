@@ -7,7 +7,7 @@
    "voci": "kore"
   }
  },
- "manca": "voci Kore (18 testi in scambio/moda-economia-III-IV-lez02/testi_voci.json, ramo voci-moda-economia-III-IV-lez02)",
+ "manca": "montaggio in corso: slide sincronizzate, webcam, schemi, glossario, ripasso finale, poi codifica 1440p",
  "serve_master": [
   {
    "quando": "08/11 15:19",
@@ -31,10 +31,14 @@
   {
    "quando": "09/11 00:26",
    "testo": "09/11: nuova chat riprende la lezione. Voci Kore (18) ricevute dalla master; lavoro_master usato. Macchina con 30 GB liberi."
+  },
+  {
+   "quando": "09/11 00:47",
+   "testo": "Voci Kore importate (18). S6: la voce ripeteva due volte il titolo, ho tagliato la prima ripetizione (originale conservato). S6 da ascoltare: 'studiano' trascritto 'storiano'. S4: differenze solo di trascrizione (parole composte)."
   }
  ],
  "materia": "Economia e marketing delle aziende della moda (III + IV)",
  "lezione": "Lezione 2 · Moda e filiera",
  "docente": "Prof.ssa Piera Caputi",
- "aggiornato": "2026-11-09 00:26:48"
+ "aggiornato": "2026-11-09 00:47:49"
 }
