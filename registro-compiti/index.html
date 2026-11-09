@@ -132,6 +132,7 @@ footer b{color:var(--ink)}
   .sec{break-inside:avoid}
   @page{size:A4;margin:14mm}
 }
+.tabs{display:flex;flex-wrap:wrap;gap:6px}.tab{border:1px solid #c9d2e3;background:#fff;color:#0B1530;border-radius:999px;padding:6px 12px;font-weight:600;font-size:14px;font-family:inherit;line-height:1.2;cursor:pointer}.tab.on{background:#0B1530;color:#fff;border-color:#0B1530}
 </style>
 </head>
 <body>
@@ -188,9 +189,9 @@ details.sec>summary small{text-transform:none;font-weight:normal;opacity:.85}
 /* Un registro = un alunno + una materia. Il codice del registro arriva dal PDF nella cartella (?c=...&m=...). */
 const Q=new URLSearchParams(location.search);
 const CODE=Q.get('c')||'prova';
-const MAT=Q.get('m')||'Diritto ed economia';
+let MAT=Q.get('m')||'';let MATERIE=[];let ALUNNO=null;
 const DEMO=CODE==='prova';
-const KEY='telesio_registro_'+CODE+'_'+MAT;
+const KEY='telesio_registro_'+CODE;
 
 /* ---------- le 10 sezioni del modello ---------- */
 const SEZ=[
@@ -254,7 +255,8 @@ const hex=b=>[...new Uint8Array(b)].map(x=>x.toString(16).padStart(2,'0')).join(
 const sha=async t=>hex(await crypto.subtle.digest('SHA-256',enc.encode(t)));
 const b64=u=>btoa(String.fromCharCode(...u)),unb64=t=>Uint8Array.from(atob(t),c=>c.charCodeAt(0));
 let KEYC=null,RID='';
-async function chiavi(){if(KEYC)return;RID=(await sha('id|'+CODE+'|'+MAT)).slice(0,24);
+let KEYM='';
+async function chiavi(){if(KEYC&&KEYM===MAT)return;KEYM=MAT;RID=(await sha('id|'+CODE+'|'+MAT)).slice(0,24);
   KEYC=await crypto.subtle.importKey('raw',await crypto.subtle.digest('SHA-256',enc.encode('telesio-registro|'+CODE+'|'+MAT)),'AES-GCM',false,['encrypt','decrypt'])}
 async function cifra(o){const iv=crypto.getRandomValues(new Uint8Array(12));const ct=new Uint8Array(await crypto.subtle.encrypt({name:'AES-GCM',iv},KEYC,enc.encode(JSON.stringify(o))));const u=new Uint8Array(12+ct.length);u.set(iv);u.set(ct,12);return b64(u)}
 async function decifra(t){const u=unb64(t);return JSON.parse(dec.decode(await crypto.subtle.decrypt({name:'AES-GCM',iv:u.slice(0,12)},KEYC,u.slice(12))))}
@@ -263,6 +265,13 @@ function csv(t){const R=[];let r=[],f='',q=false;for(let i=0;i<t.length;i++){con
   else if(c=='"')q=true;else if(c==','){r.push(f);f=''}else if(c=='\n'){r.push(f);R.push(r);r=[];f=''}else if(c!='\r')f+=c}
   if(f||r.length){r.push(f);R.push(r)}return R}
 async function docenti(){try{DOCENTI=await (await fetch('docenti.json?t='+Date.now())).json()}catch(e){DOCENTI={}}}
+const DNOME=h=>{const v=DOCENTI[h];return !v?'':typeof v==='string'?v:v.n};
+const norm=t=>String(t||'').toLowerCase().replace(/\(.*?\)/g,'').replace(/[^a-zàèéìòù]+/g,' ').trim();
+const PUO=h=>{const v=DOCENTI[h];if(!v)return false;if(typeof v==='string'||!v.m||v.m.includes('*'))return true;return v.m.some(x=>norm(MAT).startsWith(norm(x))||norm(x).startsWith(norm(MAT)))};
+async function alunno(){if(ALUNNO||DEMO)return;try{const f=(await sha('alunno|'+CODE)).slice(0,16);const t=await (await fetch('alunni/'+f+'.enc?t='+Date.now())).text();
+  const k=await crypto.subtle.importKey('raw',await crypto.subtle.digest('SHA-256',enc.encode('telesio-alunno|'+CODE)),'AES-GCM',false,['decrypt']);const u=unb64(t.trim());
+  ALUNNO=JSON.parse(dec.decode(await crypto.subtle.decrypt({name:'AES-GCM',iv:u.slice(0,12)},k,u.slice(12))));MATERIE=ALUNNO.materie||[];}catch(e){ALUNNO={};}
+  if(!MAT)MAT=MATERIE[0]||'Tutte le materie';if(MATERIE.length&&!MATERIE.includes(MAT)&&!Q.get('m'))MAT=MATERIE[0];}
 async function pinhash(p){return (await sha('telesio-docente|'+p)).slice(0,32)}
 let PIN='',DOCNAME='';try{PIN=localStorage.getItem('telesio_pin')||''}catch(e){}
 const DIRTY=new Set();let GENDIRTY=false;
@@ -298,8 +307,8 @@ function testo(r){
   if(r.dir)out.unshift('Prossima diretta: '+fmtS(r.dir));
   return out.join('\n');
 }
-async function post(b){await chiavi();const ph=await pinhash(PIN);if(!DOCENTI[ph])return {ok:false,errore:'docente'};
-  const g=b.gen?'GEN':b.giorno,o=b.gen?{gen:b.gen}:{dati:b.dati,testo:b.testo};o.p=ph;o.n=DOCENTI[ph];o.ts=Date.now();
+async function post(b){await chiavi();const ph=await pinhash(PIN);if(!PUO(ph))return {ok:false,errore:'docente'};
+  const g=b.gen?'GEN':b.giorno,o=b.gen?{gen:b.gen}:{dati:b.dati,testo:b.testo};o.p=ph;o.n=DNOME(ph);o.ts=Date.now();
   const f=new URLSearchParams();f.append(EN.c,RID);f.append(EN.g,g);f.append(EN.d,await cifra(o));
   await fetch(FORM,{method:'POST',mode:'no-cors',body:f});return {ok:true}}
 async function salva(){
@@ -318,7 +327,8 @@ function head(){
   $('#demo').style.display=DEMO?'':'none';
   document.querySelectorAll('.seg button').forEach(b=>b.classList.toggle('on',b.dataset.r===ROLE));
   $('#eyebrow').textContent='Registro compiti · '+VIEW.toLocaleDateString('it-IT',{month:'long',year:'numeric'});
-  $('#mat').textContent=MAT;
+  $('#mat').innerHTML=MATERIE.length>1?'<span class="tabs">'+MATERIE.map(m=>'<button class="tab'+(m===MAT?' on':'')+'" data-m="'+esc(m)+'">'+esc(m)+'</button>').join('')+'</span>':esc(MAT);
+  document.querySelectorAll('#mat .tab').forEach(b=>b.onclick=()=>{if(b.dataset.m===MAT)return;MAT=b.dataset.m;avvio()});
   const g=DB.gen||{};
   $('#who').innerHTML=(ROLE==='docente'?'<span class="pill doc">VISTA DOCENTE</span>':'<span class="pill stu">VISTA STUDENTE · sola lettura</span>')+
     '<span>Studente: <b>'+(g.nome?esc(g.nome):'<i>da compilare</i>')+'</b></span>'+(g.doc?'<span>Docente: <b>'+esc(g.doc)+'</b></span>':'');
@@ -455,15 +465,17 @@ $('#reset').onclick=()=>{DB=seed();store();goDay(new Date(TODAY))};
 function avvio(){
   if(!LIVE){render();return}
   head();calendar();$('#day').innerHTML='<div class="empty"><b>Caricamento del registro…</b></div>';$('#sum').innerHTML='';
-  (async()=>{await chiavi();await docenti();
+  (async()=>{await alunno();await chiavi();await docenti();
     const t=await (await fetch(CSV+(CSV.includes('?')?'&':'?')+'t='+Date.now(),{cache:'no-store'})).text();
     const D={gen:{},days:{}};
     for(const r of csv(t).slice(1)){if(r[1]!==RID||!r[3])continue;
       try{const o=await decifra(r[3]);if(!DOCENTI[o.p])continue;
         if(r[2]==='GEN')D.gen=o.gen||{};else if(o.dati&&Object.keys(o.dati).length)D.days[r[2]]=o.dati;else delete D.days[r[2]]}catch(e){}}
-    DB=D;const ph=PIN?await pinhash(PIN):'';DOCNAME=DOCENTI[ph]||'';ROLE=DOCNAME?'docente':'studente';
+    DB=D;const ph=PIN?await pinhash(PIN):'';DOCNAME=DNOME(ph);ROLE=DOCNAME&&PUO(ph)?'docente':'studente';
+    if(DOCNAME&&!PUO(ph))setTimeout(()=>stato('Sola lettura: questa materia non è tra le tue'),50);
     if(!DOCNAME&&PIN){PIN='';try{localStorage.removeItem('telesio_pin')}catch(e){}}
     if(ROLE==='studente'&&iso(SEL)>T)SEL=new Date(TODAY);
+    if(!(DB.gen&&DB.gen.nome)&&ALUNNO&&ALUNNO.nome){DB.gen=Object.assign({},DB.gen,{nome:ALUNNO.nome,ind:ALUNNO.indirizzo||''})}
     if(ROLE==='docente'&&!(DB.gen&&DB.gen.nome)&&Q.get('n')){DB.gen=Object.assign({},DB.gen,{nome:Q.get('n'),ind:Q.get('i')||''});GENDIRTY=true;saved()}
     render();
   })().catch(()=>{$('#day').innerHTML='<div class="empty"><b>Il registro non si è caricato</b>Controlla la connessione e ricarica la pagina.</div>'});

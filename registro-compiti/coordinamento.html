@@ -49,7 +49,7 @@ async function apri(pin){
 function lista(){const q=$('#q').value.toLowerCase();
   $('#list').innerHTML=L.filter(s=>(s.nome+' '+s.indirizzo).toLowerCase().includes(q)).map(s=>'<div class="it'+(s.codice===SEL?' on':'')+'" data-c="'+s.codice+'"><b>'+esc(s.nome)+'</b><small>'+esc(s.indirizzo)+'</small></div>').join('')||'<div class="it"><small>Nessun alunno trovato</small></div>';
   document.querySelectorAll('.it[data-c]').forEach(d=>d.onclick=()=>{SEL=d.dataset.c;const s=L.find(x=>x.codice===SEL);
-    $('#frame').innerHTML='<iframe src="index.html?c='+encodeURIComponent(s.codice)+'&m='+encodeURIComponent(s.materia)+'&n='+encodeURIComponent(s.nome)+'&i='+encodeURIComponent(s.indirizzo)+'&ruolo=docente"></iframe>';lista()})}
+    $('#frame').innerHTML='<iframe src="index.html?c='+encodeURIComponent(s.codice)+'&n='+encodeURIComponent(s.nome)+'&i='+encodeURIComponent(s.indirizzo)+'&ruolo=docente"></iframe>';lista()})}
 $('#q').oninput=lista;
 const go=()=>{const p=$('#pin').value.trim().toUpperCase();if(!p)return;$('#err').textContent='Controllo…';apri(p).catch(()=>{$('#err').textContent='Codice non valido.'})};
 $('#ok').onclick=go;$('#pin').onkeydown=e=>{if(e.key==='Enter')go()};
