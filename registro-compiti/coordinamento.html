@@ -1,60 +1,57 @@
 <!doctype html>
 <html lang="it"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Registro compiti · Coordinamento</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 <style>
-:root{--navy:#0A1D37;--blu:#2B4BFF;--giallo:#FFE600;--grigio:#eef1f6;--testo:#14213d}
-*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",sans-serif;background:var(--grigio);color:var(--testo)}
+:root{--navy:#0B1530;--bg:#F3F5F9;--line:#D9DEE8;--txt:#14203A;--mut:#5B6478;--acc:#2B4BFF;--yel:#FFC21A}
+*{box-sizing:border-box}html,body{margin:0;height:100%;background:var(--bg);color:var(--txt);font-family:Inter,system-ui,sans-serif}
 header{background:var(--navy);color:#fff;padding:12px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap}
-header b{font-size:17px}header .sp{flex:1}header button{background:transparent;color:#fff;border:1px solid #ffffff66;border-radius:8px;padding:6px 10px;cursor:pointer}
-.bar{height:4px;background:var(--giallo)}
-#login{max-width:380px;margin:60px auto;background:#fff;border-radius:12px;padding:22px;box-shadow:0 2px 12px #0001}
-#login h2{margin:0 0 8px;color:var(--navy)}#login input{width:100%;font-size:18px;padding:10px;border:1px solid #c8cfdb;border-radius:8px;letter-spacing:2px;text-transform:uppercase}
-#login button{margin-top:12px;width:100%;padding:11px;border:0;border-radius:8px;background:var(--blu);color:#fff;font-size:16px;cursor:pointer}
-#err{color:#b3261e;min-height:20px;margin-top:8px;font-size:14px}
-#app{display:none;grid-template-columns:320px 1fr;height:calc(100vh - 62px)}
-#side{background:#fff;border-right:1px solid #dde3ec;overflow:auto;padding:12px}
-#q{width:100%;padding:9px;border:1px solid #c8cfdb;border-radius:8px;font-size:15px;margin-bottom:10px}
-.al{padding:9px 10px;border-radius:8px;cursor:pointer;margin-bottom:2px}.al:hover{background:var(--grigio)}.al.on{background:#dfe6ff}
-.al b{display:block;font-size:14px}.al span{font-size:12px;color:#5b6577}
-#mats{display:flex;flex-wrap:wrap;gap:6px;padding:10px 12px;background:#fff;border-bottom:1px solid #dde3ec}
-#mats button{border:1px solid #c8cfdb;background:#fff;border-radius:16px;padding:5px 11px;font-size:13px;cursor:pointer}
-#mats button.on{background:var(--navy);color:#fff;border-color:var(--navy)}
-#main{display:flex;flex-direction:column;min-width:0}#tit{padding:10px 12px 0;font-size:14px;color:#5b6577}
-iframe{flex:1;border:0;width:100%;background:#fff}
-.vuoto{padding:40px;color:#5b6577;text-align:center}
-@media(max-width:800px){#app{grid-template-columns:1fr;height:auto}#side{max-height:40vh}iframe{height:80vh}}
+header b{font-size:16px}header span{font-size:13px;opacity:.8}header button{margin-left:auto}
+.btn{border:1px solid var(--line);background:#fff;border-radius:8px;padding:8px 12px;font:600 14px Inter,sans-serif;cursor:pointer;color:var(--txt)}
+.btn.pri{background:var(--acc);border-color:var(--acc);color:#fff}
+#main{height:100%}#app{display:grid;grid-template-columns:320px 1fr;height:calc(100% - 52px)}
+#side{border-right:1px solid var(--line);background:#fff;display:flex;flex-direction:column;min-height:0}
+#q{margin:12px;padding:10px 12px;border:1px solid var(--line);border-radius:8px;font:15px Inter,sans-serif}
+#list{overflow:auto;flex:1}
+.it{padding:10px 14px;border-top:1px solid #EEF1F6;cursor:pointer}
+.it:hover{background:#F6F8FD}.it.on{background:#E8EDFF;border-left:4px solid var(--acc);padding-left:10px}
+.it b{display:block;font-size:14px}.it small{color:var(--mut);font-size:12px}
+iframe{width:100%;height:100%;border:0;background:var(--bg)}
+#vuoto{display:flex;align-items:center;justify-content:center;height:100%;color:var(--mut);padding:24px;text-align:center}
+#login{max-width:380px;margin:12vh auto;background:#fff;border:1px solid var(--line);border-radius:12px;padding:24px}
+#login h1{font-size:20px;margin:0 0 8px;color:var(--navy)}#login p{color:var(--mut);font-size:14px;margin:0 0 16px}
+#pin{width:100%;padding:12px;border:1px solid var(--line);border-radius:8px;font:600 18px Inter,sans-serif;letter-spacing:2px;text-transform:uppercase;margin-bottom:12px}
+#err{color:#b3261e;font-size:14px;min-height:20px}
+@media(max-width:760px){#app{grid-template-columns:1fr;grid-template-rows:40% 60%}#side{border-right:0;border-bottom:1px solid var(--line)}}
 </style></head><body>
-<header><b>Registro compiti · Coordinamento</b><span class="sp"></span><span id="chi"></span><button id="esci" style="display:none">Esci</button></header><div class="bar"></div>
-<div id="login"><h2>Accesso</h2><p style="margin:0 0 12px;font-size:14px">Scrivi il tuo codice personale. Il computer lo ricorda fino a quando premi «Esci».</p>
-<input id="pin" autocomplete="off" placeholder="CODICE"><button id="ok">Entra</button><div id="err"></div></div>
-<div id="app"><div id="side"><input id="q" placeholder="Cerca un alunno…"><div id="lista"></div></div>
-<div id="main"><div id="tit"></div><div id="mats"></div><div id="frame" style="flex:1;display:flex"><div class="vuoto">Scegli un alunno a sinistra, poi la materia.</div></div></div></div>
+<div id="login"><h1>Registro compiti · Coordinamento</h1><p>Scrivi il tuo codice personale. Questo computer lo ricorderà.</p>
+<input id="pin" autocomplete="off" placeholder="CODICE"><button class="btn pri" id="ok" style="width:100%">Entra</button><div id="err"></div></div>
+<div id="main" style="display:none">
+<header><b>Registro compiti · Coordinamento</b><span id="chi"></span><button class="btn" id="esci">Esci</button></header>
+<div id="app"><div id="side"><input id="q" placeholder="Cerca alunno o indirizzo…"><div id="list"></div></div>
+<div id="frame"><div id="vuoto">Scegli un alunno dall'elenco a sinistra:<br>si apre il suo registro, già in modalità docente.</div></div></div></div>
 <script>
-const MATERIE=['Italiano','Storia','Geografia','Inglese','Francese','Spagnolo','Tedesco','Matematica','Fisica','Chimica','Scienze naturali','Informatica','Scienze umane','Diritto ed economia','Economia aziendale','Filosofia','Storia dell\'arte','Discipline progettuali','Laboratori tecnologici','Tecnologie e tecniche','Scienze motorie','Religione / Alternativa','Altro'];
 const enc=new TextEncoder(),dec=new TextDecoder();
 const hex=b=>[...new Uint8Array(b)].map(x=>x.toString(16).padStart(2,'0')).join('');
 const sha=async t=>hex(await crypto.subtle.digest('SHA-256',enc.encode(t)));
-const $=s=>document.querySelector(s);const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-let EL=[],SEL=null,MAT=null;
-async function apri(p){
-  const ph=(await sha('telesio-docente|'+p)).slice(0,32);
-  const D=await (await fetch('docenti.json?t='+Date.now())).json();if(!D[ph])throw 'codice';
-  const E=await (await fetch('elenco.json?t='+Date.now())).json();if(!E[ph])throw 'elenco';
-  const u=Uint8Array.from(atob(E[ph]),c=>c.charCodeAt(0));
-  const k=await crypto.subtle.importKey('raw',await crypto.subtle.digest('SHA-256',enc.encode('telesio-elenco|'+p)),'AES-GCM',false,['decrypt']);
-  EL=JSON.parse(dec.decode(await crypto.subtle.decrypt({name:'AES-GCM',iv:u.slice(0,12)},k,u.slice(12))));
-  try{localStorage.setItem('telesio_pin',p)}catch(e){}
-  $('#login').style.display='none';$('#app').style.display='grid';$('#chi').textContent=D[ph];$('#esci').style.display='';lista();
+const unb64=t=>Uint8Array.from(atob(t),c=>c.charCodeAt(0));
+const $=s=>document.querySelector(s);
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+let L=[],SEL='';
+async function apri(pin){
+  const f=(await sha('telesio-elenco-file|'+pin)).slice(0,16);
+  const r=await fetch('elenco_'+f+'.enc?t='+Date.now());if(!r.ok)throw 'codice';
+  const k=await crypto.subtle.importKey('raw',await crypto.subtle.digest('SHA-256',enc.encode('telesio-elenco|'+pin)),'AES-GCM',false,['decrypt']);
+  const u=unb64((await r.text()).trim());const o=JSON.parse(dec.decode(await crypto.subtle.decrypt({name:'AES-GCM',iv:u.slice(0,12)},k,u.slice(12))));
+  try{localStorage.setItem('telesio_pin',pin)}catch(e){}
+  L=o.registri;$('#chi').textContent=o.nome+' · '+L.length+' registri';$('#login').style.display='none';$('#main').style.display='';lista();
 }
-function lista(){const q=$('#q').value.trim().toLowerCase();
-  $('#lista').innerHTML=EL.filter(a=>!q||a.nome.toLowerCase().includes(q)||a.ind.toLowerCase().includes(q)).map(a=>'<div class="al'+(SEL===a?' on':'')+'" data-c="'+a.c+'"><b>'+esc(a.nome)+'</b><span>'+esc(a.ind)+'</span></div>').join('')||'<div class="vuoto">Nessun alunno trovato.</div>';
-  document.querySelectorAll('.al').forEach(d=>d.onclick=()=>{SEL=EL.find(a=>a.c===d.dataset.c);MAT=null;lista();materie();vista()})}
-function materie(){$('#mats').innerHTML=SEL?MATERIE.map(m=>'<button class="'+(m===MAT?'on':'')+'">'+esc(m)+'</button>').join(''):'';
-  document.querySelectorAll('#mats button').forEach(b=>b.onclick=()=>{MAT=b.textContent;materie();vista()})}
-function vista(){$('#tit').textContent=SEL?(SEL.nome+' · '+SEL.ind+(MAT?' · '+MAT:' · scegli la materia')):'';
-  $('#frame').innerHTML=SEL&&MAT?'<iframe src="./?c='+SEL.c+'&m='+encodeURIComponent(MAT)+'&ruolo=docente"></iframe>':'<div class="vuoto">'+(SEL?'Scegli la materia qui sopra.':'Scegli un alunno a sinistra, poi la materia.')+'</div>'}
+function lista(){const q=$('#q').value.toLowerCase();
+  $('#list').innerHTML=L.filter(s=>(s.nome+' '+s.indirizzo).toLowerCase().includes(q)).map(s=>'<div class="it'+(s.codice===SEL?' on':'')+'" data-c="'+s.codice+'"><b>'+esc(s.nome)+'</b><small>'+esc(s.indirizzo)+'</small></div>').join('')||'<div class="it"><small>Nessun alunno trovato</small></div>';
+  document.querySelectorAll('.it[data-c]').forEach(d=>d.onclick=()=>{SEL=d.dataset.c;const s=L.find(x=>x.codice===SEL);
+    $('#frame').innerHTML='<iframe src="index.html?c='+encodeURIComponent(s.codice)+'&m='+encodeURIComponent(s.materia)+'&n='+encodeURIComponent(s.nome)+'&i='+encodeURIComponent(s.indirizzo)+'&ruolo=docente"></iframe>';lista()})}
 $('#q').oninput=lista;
-const go=()=>{const p=$('#pin').value.trim().toUpperCase();if(!p)return;$('#err').textContent='Controllo…';apri(p).catch(()=>$('#err').textContent='Codice non valido.')};
+const go=()=>{const p=$('#pin').value.trim().toUpperCase();if(!p)return;$('#err').textContent='Controllo…';apri(p).catch(()=>{$('#err').textContent='Codice non valido.'})};
 $('#ok').onclick=go;$('#pin').onkeydown=e=>{if(e.key==='Enter')go()};
 $('#esci').onclick=()=>{try{localStorage.removeItem('telesio_pin')}catch(e){}location.reload()};
 let P='';try{P=localStorage.getItem('telesio_pin')||''}catch(e){}if(P)apri(P).catch(()=>{});

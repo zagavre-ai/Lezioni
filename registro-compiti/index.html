@@ -464,6 +464,7 @@ function avvio(){
     DB=D;const ph=PIN?await pinhash(PIN):'';DOCNAME=DOCENTI[ph]||'';ROLE=DOCNAME?'docente':'studente';
     if(!DOCNAME&&PIN){PIN='';try{localStorage.removeItem('telesio_pin')}catch(e){}}
     if(ROLE==='studente'&&iso(SEL)>T)SEL=new Date(TODAY);
+    if(ROLE==='docente'&&!(DB.gen&&DB.gen.nome)&&Q.get('n')){DB.gen=Object.assign({},DB.gen,{nome:Q.get('n'),ind:Q.get('i')||''});GENDIRTY=true;saved()}
     render();
   })().catch(()=>{$('#day').innerHTML='<div class="empty"><b>Il registro non si è caricato</b>Controlla la connessione e ricarica la pagina.</div>'});
 }
