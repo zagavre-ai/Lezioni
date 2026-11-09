@@ -26,6 +26,10 @@
   {
    "quando": "08/11 16:21",
    "testo": "Test finale: non ho ricevuto Test_finale_Inglese_The_Business_World.xlsx; consegno a Sara la PROPOSTA_DA_VALIDARE (10 domande). Se il tuo è già approvato, usa quello."
+  },
+  {
+   "quando": "08/11 16:22",
+   "testo": "MIGLIORAMENTO: per le registrazioni con molte pause (Inglese) il taglio pause si fa una volta sola sulla webcam piccola (412x310) prima della composizione: 9 gruppi da 6 min con xfade 0,2 s, circa 15 min di macchina invece di ricodificare il 1080p. E la cache di sub_finale si può riempire dalla trascrizione già fatta (sub_cache.py): risparmia ~50 min di trascrizione. Script in /home/claude/ing2 e afm-inglese-triennio-lez02."
   }
  ],
  "domande_sara": [],
@@ -61,10 +65,14 @@
   {
    "quando": "08/11 16:21",
    "testo": "Test finale della master ricevuto e usato (la richiesta sul test è superata)."
+  },
+  {
+   "quando": "08/11 16:22",
+   "testo": "Consegnato a Sara: video, vtt, quiz, test, dispensa, scheda."
   }
  ],
  "materia": "Inglese (AFM triennio)",
  "lezione": "Lezione 2 · The Business World",
  "docente": "Prof.ssa Maria Vittoria Fontanesi",
- "aggiornato": "2026-11-08 16:21:58"
+ "aggiornato": "2026-11-08 16:22:22"
 }
