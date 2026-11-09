@@ -1,0 +1,520 @@
+{
+ "tag": "moda-tecnologie-III-lez05",
+ "parti": {
+  "1": {
+   "stato": "PRONTA",
+   "voci": "kore",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "si",
+   "video": "Tecnologie_Tessitura_parte_II_1440p.mp4",
+   "durata_s": 3609.6,
+   "durata": "60:09.6",
+   "fotogrammi": 108285,
+   "fotogrammi_attesi": 108286,
+   "peso_MB": 367.2,
+   "vtt": "Tecnologie_Tessitura_parte_II.vtt",
+   "scheda": {
+    "materia": "Tecnologie dei materiali",
+    "titolo": "Tessitura · Parte II",
+    "durata_s": 3609.53,
+    "argomenti": [
+     {
+      "n": 1,
+      "titolo": "Tessuti a treccia e a rete",
+      "inizio_s": 41.766,
+      "quiz_s": 440.333
+     },
+     {
+      "n": 2,
+      "titolo": "I non tessuti",
+      "inizio_s": 445.633,
+      "quiz_s": 1069.5
+     },
+     {
+      "n": 3,
+      "titolo": "I tessuti accoppiati",
+      "inizio_s": 1074.8,
+      "quiz_s": 1288.533
+     },
+     {
+      "n": 4,
+      "titolo": "Il controllo qualità",
+      "inizio_s": 1293.833,
+      "quiz_s": 1819.699
+     },
+     {
+      "n": 5,
+      "titolo": "Peso, stabilità e pilling",
+      "inizio_s": 1824.999,
+      "quiz_s": 2201.465
+     },
+     {
+      "n": 6,
+      "titolo": "La sicurezza nei reparti",
+      "inizio_s": 2206.765,
+      "quiz_s": 2770.532
+     },
+     {
+      "n": 7,
+      "titolo": "Navetta, maglia e laboratorio",
+      "inizio_s": 2775.832,
+      "quiz_s": 3371.465
+     }
+    ],
+    "quiz": {
+     "Q1": {
+      "title": "Quiz 1 · Tessuti a treccia e a rete",
+      "items": [
+       {
+        "p": "Da quali fili sono formati i tessuti a treccia?",
+        "a": "Da soli fili d'ordito mossi in diagonale",
+        "w": [
+         "Da soli fili di trama mossi in orizzontale",
+         "Da fili d'ordito e di trama perpendicolari",
+         "Da veli di fibre uniti con colla"
+        ],
+        "ref": "I tessuti a treccia sono caratterizzati da soli fili d'ordito mossi in diagonale, che conferiscono un'elevata elasticità trasversale."
+       },
+       {
+        "p": "Quanti fili d'ordito servono almeno per formare una treccia?",
+        "a": "Tre",
+        "w": [
+         "Due",
+         "Cinque",
+         "Dieci"
+        ],
+        "ref": "Per formare una treccia servono almeno tre fili d'ordito intrecciati a zig-zag."
+       },
+       {
+        "p": "A che cosa servono i tessuti a treccia tubolari?",
+        "a": "Per cordoncini, stoppini e lacci per calzature",
+        "w": [
+         "Per nastri decorativi e cappelli",
+         "Per abiti da sposa e tutù",
+         "Per bomboniere"
+        ],
+        "ref": "I tubolari sono impiegati per cordoncini, stoppini e lacci per calzature; i piatti per nastri decorativi o cappelli."
+       },
+       {
+        "p": "Con quali telai si producono oggi quasi tutti i tessuti a rete?",
+        "a": "Con i telai Raschel",
+        "w": [
+         "Con i telai a navetta tradizionali",
+         "Con le macchine circolari a monofrontura",
+         "Con i telai jacquard a mano"
+        ],
+        "ref": "Oggi sono prodotti quasi esclusivamente con telai Raschel, che semplificano la produzione e abbattono i costi."
+       },
+       {
+        "p": "Che cos'è il tulle?",
+        "a": "Una rete esagonale fine e rigida, usata per abiti da sposa e tutù",
+        "w": [
+         "Una rete esagonale di medio peso per bomboniere",
+         "Una rete fine a losanghe usata come base per i pizzi",
+         "Un tessuto a treccia piatto"
+        ],
+        "ref": "Tulle: rete esagonale fine e rigida impiegata per abiti da sposa e tutù. Bobinet: medio peso per bomboniere. Malines: rete fine a losanghe."
+       }
+      ]
+     },
+     "Q2": {
+      "title": "Quiz 2 · I non tessuti",
+      "items": [
+       {
+        "p": "Che cosa hanno in comune i non tessuti?",
+        "a": "Passano dalle fibre a un velo senza filatura né tessitura",
+        "w": [
+         "Sono tessuti a navetta molto leggeri",
+         "Si ottengono intrecciando fili di trama",
+         "Sono sempre fatti di sola lana"
+        ],
+        "ref": "I non tessuti passano dallo stato di fibre a una struttura disordinata di veli senza ricorrere a filatura o tessitura."
+       },
+       {
+        "p": "Su che cosa si basa la feltratura dei peli animali?",
+        "a": "Su umidità, calore e pressione",
+        "w": [
+         "Su colle sintetiche e resine",
+         "Su getti d'acqua ad alta pressione",
+         "Sulla cucitura a catenella"
+        ],
+        "ref": "L'antico metodo della feltratura si basa su umidità, calore e pressione, che causano l'infeltrimento delle fibre di lana."
+       },
+       {
+        "p": "Da quando si sono diffusi i tessuti non tessuti (TNT)?",
+        "a": "Dagli anni 1940, con le fibre chimiche e i collanti industriali",
+        "w": [
+         "Dal Medioevo",
+         "Dagli anni 2000",
+         "Dal 1973, con lo spunlacing"
+        ],
+        "ref": "I TNT si sono diffusi a partire dagli anni 1940 con lo sviluppo delle fibre chimiche e dei collanti industriali."
+       },
+       {
+        "p": "Che cos'è lo spunlacing (idro-aggrovigliamento)?",
+        "a": "La coesione del velo con getti d'acqua ad alta pressione",
+        "w": [
+         "L'incollaggio del velo con resine",
+         "La cucitura del velo a catenella",
+         "La pressatura del feltro con martelli"
+        ],
+        "ref": "L'idro-aggrovigliamento o spunlacing, brevettato nel 1973, sfrutta getti d'acqua ad alta pressione."
+       },
+       {
+        "p": "Come sono uniti i veli negli agocuciti?",
+        "a": "Con una cucitura a catenella",
+        "w": [
+         "Con getti d'acqua",
+         "Con saldatura termica",
+         "Con un adesivo solubile in acqua"
+        ],
+        "ref": "Gli agocuciti sono non tessuti in cui i veli sono uniti tramite una cucitura a catenella che ne aumenta la resistenza."
+       }
+      ]
+     },
+     "Q3": {
+      "title": "Quiz 3 · I tessuti accoppiati",
+      "items": [
+       {
+        "p": "Come si ottengono i tessuti accoppiati?",
+        "a": "Unendo due tessuti con tessitura, cucitura, fusione o adesivi",
+        "w": [
+         "Partendo direttamente dalle fibre, senza filatura",
+         "Intrecciando solo fili d'ordito in diagonale",
+         "Lavorando un unico filo a maglia"
+        ],
+        "ref": "I tessuti accoppiati derivano dall'unione di due tessuti tramite tessitura, cucitura, fusione o adesivi."
+       },
+       {
+        "p": "Che cos'è un doubleface?",
+        "a": "Due tessuti uniti, utilizzabili su entrambi i lati",
+        "w": [
+         "Un tessuto accoppiato a una pellicola sottile",
+         "Strati di tessuto con un velo di fibre in mezzo",
+         "Due tessuti uniti da un adesivo solubile"
+        ],
+        "ref": "Doubleface: due tessuti utilizzabili indifferentemente su entrambi i lati."
+       },
+       {
+        "p": "Che cos'è un laminato?",
+        "a": "Un tessuto accoppiato a una pellicola sottile",
+        "w": [
+         "Due tessuti con un velo di fibre interno",
+         "Un tessuto tinto su entrambi i lati",
+         "Un feltro pressato"
+        ],
+        "ref": "Laminati: costituiti da un tessuto accoppiato a una pellicola sottile, senza aumentarne lo spessore."
+       },
+       {
+        "p": "Che cosa c'è in mezzo agli strati di un imbottito?",
+        "a": "Un velo di fibre",
+        "w": [
+         "Una pellicola di plastica",
+         "Un adesivo solubile in acqua",
+         "Nulla: gli strati sono solo cuciti"
+        ],
+        "ref": "Imbottiti: strati di tessuto sovrapposti con interposto un velo di fibre."
+       },
+       {
+        "p": "Che cosa succede allo scoppiato al lavaggio?",
+        "a": "L'adesivo si scioglie e i due tessuti si separano, con effetto foderato",
+        "w": [
+         "Diventa impermeabile",
+         "Si restringe e diventa un feltro",
+         "Le due facce si fondono"
+        ],
+        "ref": "Lo scoppiato unisce due tessuti con un adesivo idrosolubile che si scioglie al lavaggio, separando i tessuti e lasciando un effetto foderato."
+       }
+      ]
+     },
+     "Q4": {
+      "title": "Quiz 4 · Il controllo qualità",
+      "items": [
+       {
+        "p": "Su che cosa si fa il controllo visivo del tessuto?",
+        "a": "Su un tavolo luminoso inclinabile, la specula o tribunale",
+        "w": [
+         "Su un manichino da sartoria",
+         "In una cabina a luce ultravioletta",
+         "Su una bilancia di precisione"
+        ],
+        "ref": "Il tessuto, ben disteso, si controlla su un tavolo luminoso inclinabile chiamato specula o tribunale."
+       },
+       {
+        "p": "Quando la riduzione si dice equilibrata o quadrata?",
+        "a": "Quando i fili di ordito sono quasi tanti quanti quelli di trama",
+        "w": [
+         "Quando ci sono più trame che orditi",
+         "Quando il tessuto pesa più di 200 g/m²",
+         "Quando il tessuto è a maglia"
+        ],
+        "ref": "La riduzione si definisce equilibrata o quadrata quando il numero di fili di ordito è quasi uguale a quello di trama."
+       },
+       {
+        "p": "Perché spesso ci sono meno fili di trama che di ordito?",
+        "a": "Per motivi economici e tecnici: inserire la trama richiede più tempo",
+        "w": [
+         "Perché la trama è più resistente",
+         "Perché lo impone la legge",
+         "Perché l'ordito si vede di più"
+        ],
+        "ref": "Spesso si hanno meno trame rispetto agli orditi per motivi economici e tecnici, poiché inserire la trama richiede più tempo."
+       },
+       {
+        "p": "Che cos'è una chiarella?",
+        "a": "La mancanza di un filo di trama",
+        "w": [
+         "Una striscia di colore diverso nella trama",
+         "Un filo d'ordito sinuoso",
+         "Una macchia di unto"
+        ],
+        "ref": "La chiarella indica la mancanza di un filo di trama; le barrature sono strisce di colore o spessore diverso."
+       },
+       {
+        "p": "In quali tessuti la trama storta è un difetto grave?",
+        "a": "Nei tessuti rigati o a quadretti",
+        "w": [
+         "Nei tessuti in tinta unita",
+         "Nei tessuti con intrecci complessi",
+         "In nessun tessuto"
+        ],
+        "ref": "La trama storta è un difetto grave, evidente nei tessuti rigati o a quadretti; è meno rilevante in tinta unita."
+       }
+      ]
+     },
+     "Q5": {
+      "title": "Quiz 5 · Peso, stabilità e pilling",
+      "items": [
+       {
+        "p": "Come si esprime di solito il peso di un tessuto?",
+        "a": "In grammi al metro quadrato (g/m²)",
+        "w": [
+         "In chilogrammi a pezza",
+         "In litri al metro",
+         "In metri al grammo"
+        ],
+        "ref": "La determinazione del peso si esprime in grammi su metro quadrato o in grammi su metro lineare, oppure in once per il mercato statunitense."
+       },
+       {
+        "p": "Quanto è grande il dischetto usato per pesare il campione?",
+        "a": "1 dm², con un diametro di 11,3 cm",
+        "w": [
+         "1 m², con un diametro di 113 cm",
+         "1 cm², con un diametro di 1,1 cm",
+         "10 dm², con un diametro di 30 cm"
+        ],
+        "ref": "Si usa un dischetto di un dm² con diametro di 11,3 centimetri e si moltiplica il valore ottenuto per 100."
+       },
+       {
+        "p": "Che cosa misura la stabilità dimensionale?",
+        "a": "Se il tessuto mantiene lunghezza e larghezza dopo lavaggio, asciugatura e stiro",
+        "w": [
+         "Quanto pesa il tessuto al metro",
+         "Quanti fili ci sono in un centimetro",
+         "Quanto pilling si forma"
+        ],
+        "ref": "La stabilità dimensionale è la capacità di un tessuto di rimanere stabile in lunghezza e larghezza dopo lavaggio, asciugatura e stiro."
+       },
+       {
+        "p": "Qual è la tolleranza ammessa per i tessuti comuni nella prova di stabilità?",
+        "a": "Da −4% a +6%",
+        "w": [
+         "Da −1% a +1%",
+         "Da −10% a +10%",
+         "Nessuna tolleranza"
+        ],
+        "ref": "Per i tessuti comuni si ammette una tolleranza che varia da −4% a +6%."
+       },
+       {
+        "p": "Nella scala del pilling, che cosa indica il grado 5?",
+        "a": "L'assenza totale di pilling",
+        "w": [
+         "Una presenza eccessiva di pilling",
+         "Un pilling medio",
+         "Un tessuto da scartare"
+        ],
+        "ref": "Grado 1 per una presenza eccessiva di pilling; grado 5 per assenza totale di pilling."
+       }
+      ]
+     },
+     "Q6": {
+      "title": "Quiz 6 · La sicurezza nei reparti",
+      "items": [
+       {
+        "p": "Quale legge regola la tutela della salute dei lavoratori negli stabilimenti tessili?",
+        "a": "Il D. Lgs. 81/2008",
+        "w": [
+         "Il Regolamento UE n. 1007/2011",
+         "Il Codice del consumo",
+         "Nessuna legge specifica"
+        ],
+        "ref": "La tutela della salute dei lavoratori è regolata dal D. Lgs. 81/2008."
+       },
+       {
+        "p": "Nei reparti di tessitura, quanta umidità serve per evitare la rottura dei filati?",
+        "a": "Più del 65%, con temperatura sopra i 20 °C",
+        "w": [
+         "Meno del 30%, con temperatura sotto i 15 °C",
+         "Esattamente il 50%",
+         "Non conta l'umidità, solo la luce"
+        ],
+        "ref": "Nei reparti di tessitura l'umidità deve essere superiore al 65% e la temperatura superiore ai 20 °C."
+       },
+       {
+        "p": "Quanta luce serve per depositi, magazzini e luoghi di passaggio?",
+        "a": "100 lux",
+        "w": [
+         "400 lux",
+         "1.000 lux",
+         "4.000 lux"
+        ],
+        "ref": "Requisiti minimi: 100 lux per depositi, magazzini e luoghi di passaggio."
+       },
+       {
+        "p": "Qual è il valore limite di esposizione al rumore?",
+        "a": "87 dB(A)",
+        "w": [
+         "50 dB(A)",
+         "130 dB(A)",
+         "20 dB(A)"
+        ],
+        "ref": "Valori limite di esposizione pari a 87 dB(A), con pressione di picco a 140 dB(A)."
+       },
+       {
+        "p": "Che cosa diventa obbligatorio in tessitura, dove il rumore supera i 90 dB?",
+        "a": "L'uso di tappi auricolari o cuffie",
+        "w": [
+         "L'uso di occhiali da sole",
+         "Lavorare solo di notte",
+         "Spegnere i telai a turno"
+        ],
+        "ref": "In queste condizioni diventa obbligatorio l'uso di dispositivi di protezione individuale quali tappi auricolari o speciali cuffie."
+       }
+      ]
+     },
+     "Q7": {
+      "title": "Quiz 7 · Navetta, maglia e laboratorio",
+      "items": [
+       {
+        "p": "Qual è un vantaggio dei tessuti a navetta?",
+        "a": "Sono facili da tagliare e confezionare",
+        "w": [
+         "Hanno un'elevata elasticità",
+         "Non si stropicciano mai",
+         "Non ostacolano i movimenti"
+        ],
+        "ref": "I tessuti a navetta garantiscono limitata deformabilità e facilità nelle operazioni di taglio e confezione, ma si stropicciano facilmente."
+       },
+       {
+        "p": "Qual è un difetto tipico dei tessuti a maglia?",
+        "a": "Si possono smagliare e deformare facilmente",
+        "w": [
+         "Sono troppo rigidi",
+         "Non sono elastici",
+         "Si stropicciano molto"
+        ],
+        "ref": "I tessuti a maglia sono elastici e comodi, ma sono soggetti a smagliatura, asciugano con difficoltà e si deformano facilmente."
+       },
+       {
+        "p": "Quale maglia è del tutto indemagliabile?",
+        "a": "La maglia in catena",
+        "w": [
+         "La maglia in trama",
+         "La maglia a monofrontura",
+         "Nessuna maglia"
+        ],
+        "ref": "La maglia in trama si smaglia facilmente; la maglia in catena è del tutto indemagliabile."
+       },
+       {
+        "p": "Con quali macchine si produce la maglia in catena?",
+        "a": "Telai in catena, telai Raschel o telai crochet",
+        "w": [
+         "Solo macchine rettilinee",
+         "Telai a navetta",
+         "Il dischetto da 1 dm²"
+        ],
+        "ref": "La maglia in catena viene realizzata su telai in catena, telai Raschel o telai crochet."
+       },
+       {
+        "p": "Nella scheda di laboratorio, perché le piccole differenze di ritiro e di peso sono un problema?",
+        "a": "Creano scarti e difetti di misura nel taglio e nella confezione",
+        "w": [
+         "Cambiano il colore del tessuto",
+         "Rendono il tessuto impermeabile",
+         "Non sono un problema"
+        ],
+        "ref": "Tali difformità, anche se minime sui singoli teli, creano gravi problemi di scarto e difetti di misura durante il taglio e la confezione industriale."
+       }
+      ]
+     }
+    }
+   },
+   "timeline": [
+    [
+     "T1",
+     41.766,
+     3.6
+    ],
+    [
+     "Q1",
+     440.333,
+     4.0
+    ],
+    [
+     "T2",
+     445.633,
+     3.6
+    ],
+    [
+     "T3",
+     1074.8,
+     3.6
+    ],
+    [
+     "T4",
+     1293.833,
+     3.6
+    ],
+    [
+     "T5",
+     1824.999,
+     3.6
+    ],
+    [
+     "T6",
+     2206.765,
+     3.6
+    ],
+    [
+     "T7",
+     2775.832,
+     3.6
+    ],
+    [
+     "GL1",
+     3376.765,
+     108.267
+    ],
+    [
+     "RF1",
+     3486.632,
+     105.6
+    ],
+    [
+     "FIN1",
+     3593.632,
+     8.0
+    ]
+   ]
+  }
+ },
+ "manca": "",
+ "serve_master": [],
+ "domande_sara": [],
+ "note": [],
+ "materia": "Tecnologie dei materiali (moda III)",
+ "lezione": "Lezione 5 · Tessitura parte II",
+ "docente": "Prof.ssa Piera Caputi",
+ "aggiornato": "2026-11-08 20:19:49"
+}
