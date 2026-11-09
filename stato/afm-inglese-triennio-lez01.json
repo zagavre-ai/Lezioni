@@ -3,7 +3,7 @@
  "parti": {
   "1": {
    "titolo": "Global Factors",
-   "stato": "IN_CODIFICA",
+   "stato": "IN_MONTAGGIO",
    "voci": "kore"
   }
  },
@@ -20,6 +20,10 @@
   {
    "quando": "08/11 15:51",
    "testo": "MIGLIORAMENTO: per lezioni sopra i 60 minuti con docente a tutto schermo, CRF 20 supera i 400 MB (66 min = 447 MB). Proposta: CRF 22 di partenza quando la Parte supera i 60 minuti, così si evita la seconda codifica."
+  },
+  {
+   "quando": "08/11 17:05",
+   "testo": "MIGLIORAMENTO: l'allineamento automatico sbaglia quando la docente parafrasa in italiano prima di leggere l'inglese o legge la frase dopo: prima del montaggio conviene una scansione rapida (trascrizione 14 s prima di ogni frase accesa) per tutte le lezioni di Inglese, costa 5 minuti e risparmia una seconda codifica."
   }
  ],
  "domande_sara": [],
@@ -39,10 +43,14 @@
   {
    "quando": "08/11 15:07",
    "testo": "Montaggio pronto: 65:55 previsti (docente 59:16 dopo i tagli delle pause). Codifica unica in corso."
+  },
+  {
+   "quando": "08/11 17:05",
+   "testo": "Controllo sincronia sul file finale: 16 frasi del lavoro master si accendevano 10–60 s fuori tempo (es. AI/ML +44 s, Environmental concerns 74–78 in anticipo di 10–15 s). Corrette sulla trascrizione (override_chat.json); rifaccio slide, 5 pezzi su 7, docente, codifica. Peso già risolto (CRF 22 = 373 MB) e volume portato a -16 LUFS."
   }
  ],
  "materia": "Inglese (AFM triennio)",
  "lezione": "Lezione 1 · Global Factors",
  "docente": "Prof.ssa Maria Vittoria Fontanesi",
- "aggiornato": "2026-11-08 15:51:53"
+ "aggiornato": "2026-11-08 17:05:21"
 }
