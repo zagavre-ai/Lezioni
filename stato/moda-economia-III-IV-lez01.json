@@ -2,8 +2,81 @@
  "tag": "moda-economia-III-IV-lez01",
  "parti": {
   "1": {
-   "stato": "IN_CODIFICA",
-   "voci": "kore"
+   "stato": "IN_MONTAGGIO",
+   "voci": "kore",
+   "titolo": "Lezione 1 · Attività economica",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "no",
+   "video": "Economia_Lez1_Parte1_1440p.mp4",
+   "durata_s": 4274.8,
+   "durata": "71:14.8",
+   "fotogrammi": 128245,
+   "fotogrammi_attesi": 128245,
+   "peso_MB": 354.2,
+   "vtt": "Economia_Lez1_Parte1.vtt",
+   "timeline": [
+    [
+     "T1",
+     99.932,
+     3.6
+    ],
+    [
+     "Q1",
+     744.532,
+     4.0
+    ],
+    [
+     "T2",
+     749.832,
+     3.6
+    ],
+    [
+     "T3",
+     1261.465,
+     3.6
+    ],
+    [
+     "T4",
+     1654.465,
+     3.6
+    ],
+    [
+     "T5",
+     2116.632,
+     3.6
+    ],
+    [
+     "T6",
+     2617.565,
+     3.6
+    ],
+    [
+     "T7",
+     3026.231,
+     3.6
+    ],
+    [
+     "T8",
+     3596.53,
+     3.6
+    ],
+    [
+     "GL1",
+     4111.829,
+     68.1
+    ],
+    [
+     "RF1",
+     4181.529,
+     76.0
+    ],
+    [
+     "FIN1",
+     4258.929,
+     8.0
+    ]
+   ]
   }
  },
  "manca": "",
@@ -54,10 +127,14 @@
   {
    "quando": "08/11 18:11",
    "testo": "Montaggio fatto (71,25 min, 39 pezzi). Codifica finale 1440p: l'encoder x264 fast su questa macchina usa un solo processore (~25-30 min per gruppo da 8 min). Uso una copia di finale_a_pezzi.py che codifica 2 gruppi alla volta, stessi parametri."
+  },
+  {
+   "quando": "08/11 19:27",
+   "testo": "controllo_finale: ESITO: DA SISTEMARE: volume, sottotitoli"
   }
  ],
  "materia": "Economia e marketing delle aziende della moda (III + IV)",
  "lezione": "Lezione 1 · Attività economica",
  "docente": "Prof.ssa Piera Caputi",
- "aggiornato": "2026-11-08 18:11:47"
+ "aggiornato": "2026-11-08 19:27:38"
 }
