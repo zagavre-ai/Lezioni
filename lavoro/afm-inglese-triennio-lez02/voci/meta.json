@@ -1,0 +1,153 @@
+{
+ "INTRO1": {
+  "dur": 26.98,
+  "phrases": [
+   0.0,
+   6.51,
+   9.39,
+   15.95,
+   21.63
+  ],
+  "text": [
+   "Welcome to a new English lesson, with Professor Maria Vittoria Fontanesi.",
+   "Today we study the business world.",
+   "We will look at economic systems, the public sector and the main economic indicators.",
+   "Then we will focus on two topics: the green economy and youth unemployment.",
+   "After each topic you will find a short review and a quiz. Let's start!"
+  ]
+ },
+ "S1": {
+  "dur": 39.67,
+  "phrases": [
+   0.0,
+   2.46,
+   11.9,
+   20.06,
+   27.18
+  ],
+  "text": [
+   "Review: economic systems.",
+   "An economic system answers three questions: what to produce, how to produce, and for whom to produce.",
+   "In a free-market economy, the market forces of supply and demand decide, and private companies are the main actors.",
+   "In a command, or planned, economy, the government controls everything and establishes the prices.",
+   "The mixed economy is the most common system in the modern world: the government controls essential services like health and education, and the private sector follows supply and demand."
+  ]
+ },
+ "S2": {
+  "dur": 50.01,
+  "phrases": [
+   0.0,
+   2.32,
+   9.92,
+   19.44,
+   26.8,
+   38.0
+  ],
+  "text": [
+   "Review: the public sector.",
+   "The public sector is the part of the economy controlled by the state. It is paid for with money from taxes.",
+   "At the end of the twentieth century, many governments started to privatise public corporations. Privatisation is a controversial phenomenon.",
+   "In the last two decades, public ownership has come back at a local level. This is called remunicipalisation.",
+   "The advantages: essential services are protected, there is no duplication of services, prices are lower and stable, and profits go back to the government.",
+   "The disadvantages: more bureaucracy, slow decisions, political influence, lack of competition, and losses paid for by the state through taxes."
+  ]
+ },
+ "S3": {
+  "dur": 60.2,
+  "phrases": [
+   0.0,
+   2.35,
+   10.91,
+   21.87,
+   28.67,
+   40.03,
+   50.11
+  ],
+  "text": [
+   "Review: economic indicators.",
+   "GDP, Gross Domestic Product, is the total value of goods and services produced within the borders of a nation in a year.",
+   "GNP, Gross National Product, is the GDP plus money earned from investments abroad, minus money earned by non-citizens and foreign businesses within the nation.",
+   "The business cycle has four phases: expansion, recession, depression and recovery.",
+   "Inflation is the increase in prices. Most economists favour a low and steady rate, around two per cent, and central banks control it with interest rates.",
+   "With deflation, prices fall, and economic development slows down. Shrinkflation is a form of hidden inflation: the product gets smaller, but the price stays the same.",
+   "A healthy economy has low unemployment, between three and five per cent. Governments can reduce it with retraining, incentives for businesses and lower taxes."
+  ]
+ },
+ "S4": {
+  "dur": 28.11,
+  "phrases": [
+   0.0,
+   1.98,
+   7.26,
+   14.78,
+   21.98
+  ],
+  "text": [
+   "Review: the green economy.",
+   "Natural capital is nature's contribution to the economy: water, air and land.",
+   "The green economy improves human well-being in the long run, without exposing future generations to environmental risks.",
+   "To achieve sustainable growth, natural capital and the green economy must become part of economic decision making.",
+   "Today consumers look for sustainable products, so companies should adapt to this change in consumption trends."
+  ]
+ },
+ "S5": {
+  "dur": 24.94,
+  "phrases": [
+   0.0,
+   2.29,
+   10.85,
+   17.65
+  ],
+  "text": [
+   "Review: youth unemployment.",
+   "The NEET rate measures the percentage of young people, aged fifteen to twenty-four, who are Neither in Employment nor in Education or Training.",
+   "In twenty twenty, twenty-two point four per cent of young people were NEET, and most of them were girls and young women.",
+   "There is a gender gap: the NEET status is more permanent for girls, mainly because of family responsibilities."
+  ]
+ },
+ "GL1": {
+  "dur": 24.44,
+  "phrases": [
+   0.0,
+   3.56,
+   10.36,
+   17.64
+  ],
+  "text": [
+   "Glossary: the key words of this lesson.",
+   "Economic system. Supply and demand. Command economy. Mixed economy.",
+   "Public sector. Privatisation. GDP, Gross Domestic Product. Business cycle.",
+   "Inflation. Deflation. Unemployment. Green economy. NEET rate."
+  ]
+ },
+ "RF1": {
+  "dur": 27.2,
+  "phrases": [
+   0.0,
+   1.75,
+   6.23,
+   11.75,
+   18.63,
+   23.03
+  ],
+  "text": [
+   "Final review.",
+   "Economic systems: free-market, command and mixed economy.",
+   "The public sector: controlled by the state, with advantages and disadvantages.",
+   "Economic indicators: GDP, the business cycle, inflation, deflation and unemployment.",
+   "The green economy: natural capital and sustainable growth.",
+   "Youth unemployment: the NEET rate and the gender gap."
+  ]
+ },
+ "FIN1": {
+  "dur": 7.54,
+  "phrases": [
+   0.0,
+   4.16
+  ],
+  "text": [
+   "Well done! You have completed this lesson on the business world.",
+   "Now try the final test. See you next time!"
+  ]
+ }
+}

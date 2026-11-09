@@ -1,0 +1,102 @@
+{
+ "T1": {
+  "type": "title",
+  "num": "01",
+  "total": 5,
+  "lines": [
+   "Economic",
+   "systems"
+  ],
+  "ex": "free market · command · mixed",
+  "fs": 128,
+  "dur": 3.6,
+  "lineY": 720
+ },
+ "Q1": {
+  "type": "quiz",
+  "topic": "Economic systems",
+  "act": "Quiz 1",
+  "pts": "5 questions · 5 domande · per continuare almeno l’80%",
+  "dur": 4.0
+ },
+ "T2": {
+  "type": "title",
+  "num": "02",
+  "total": 5,
+  "lines": [
+   "The public",
+   "sector"
+  ],
+  "ex": "privatisation · pros and cons",
+  "fs": 128,
+  "dur": 3.6,
+  "lineY": 720
+ },
+ "Q2": {
+  "type": "quiz",
+  "topic": "The public sector",
+  "act": "Quiz 2",
+  "pts": "5 questions · 5 domande · per continuare almeno l’80%",
+  "dur": 4.0
+ },
+ "T3": {
+  "type": "title",
+  "num": "03",
+  "total": 5,
+  "lines": [
+   "Economic",
+   "indicators"
+  ],
+  "ex": "GDP · inflation · unemployment",
+  "fs": 128,
+  "dur": 3.6,
+  "lineY": 720
+ },
+ "Q3": {
+  "type": "quiz",
+  "topic": "Economic indicators",
+  "act": "Quiz 3",
+  "pts": "5 questions · 5 domande · per continuare almeno l’80%",
+  "dur": 4.0
+ },
+ "T4": {
+  "type": "title",
+  "num": "04",
+  "total": 5,
+  "lines": [
+   "Focus:",
+   "green economy"
+  ],
+  "ex": "natural capital · sustainability",
+  "fs": 128,
+  "dur": 3.6,
+  "lineY": 720
+ },
+ "Q4": {
+  "type": "quiz",
+  "topic": "Focus · green economy",
+  "act": "Quiz 4",
+  "pts": "5 questions · 5 domande · per continuare almeno l’80%",
+  "dur": 4.0
+ },
+ "T5": {
+  "type": "title",
+  "num": "05",
+  "total": 5,
+  "lines": [
+   "Focus: youth",
+   "unemployment"
+  ],
+  "ex": "NEET rate · gender gap",
+  "fs": 128,
+  "dur": 3.6,
+  "lineY": 720
+ },
+ "Q5": {
+  "type": "quiz",
+  "topic": "Focus · youth unemployment",
+  "act": "Quiz 5",
+  "pts": "5 questions · 5 domande · per continuare almeno l’80%",
+  "dur": 4.0
+ }
+}
