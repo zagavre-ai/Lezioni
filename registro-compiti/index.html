@@ -228,8 +228,9 @@ const add=(d,n)=>{const x=new Date(d);x.setDate(x.getDate()+n);return x};
 const TODAY=new Date();TODAY.setHours(12,0,0,0);const T=iso(TODAY);
 
 /* ---------- dati di esempio (solo nella prova) ---------- */
+const BASE=new Date('2026-11-06T12:00'); /* date di esempio FISSE: tutti vedono gli stessi giorni */
 function seed(){
-  const y=iso(add(TODAY,-1)),a=iso(add(TODAY,-4)),nx=iso(add(TODAY,3)),tw=iso(add(TODAY,7));
+  const y=iso(add(BASE,-1)),a=iso(add(BASE,-4)),nx=iso(add(BASE,3)),tw=iso(add(BASE,7));
   return {gen:{nome:'Studente di prova',ind:'Istituto tecnico',cla:'Terzo anno',doc:'Docente di prova',ora:'Martedì e giovedì, 15:00–16:00'},
    days:{
     [T]:{dir:nx,'1.0.tit':'La Costituzione italiana','1.0.arg':'I principi fondamentali (articoli 1–12)',
@@ -247,7 +248,7 @@ const LIVE=/^https:\/\/script\.google\.com\//.test(API)&&!DEMO;
 let PIN='',DOCNAME='';try{PIN=localStorage.getItem('telesio_pin')||''}catch(e){}
 const DIRTY=new Set();let GENDIRTY=false;
 const EMPTY=()=>({gen:{},days:{}});
-function load(){if(LIVE)return null;try{const s=localStorage.getItem(KEY);if(s)return JSON.parse(s)}catch(e){}return null}
+function load(){if(LIVE||DEMO)return null;try{const s=localStorage.getItem(KEY);if(s)return JSON.parse(s)}catch(e){}return null}
 function store(){if(LIVE)return;try{localStorage.setItem(KEY,JSON.stringify(DB))}catch(e){}}
 let DB=load()||(DEMO?seed():EMPTY());
 
