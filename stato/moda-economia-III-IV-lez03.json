@@ -1,12 +1,23 @@
 {
  "tag": "moda-economia-III-IV-lez03",
- "parti": {},
+ "parti": {
+  "1": {
+   "titolo": "Marketing",
+   "stato": "IN_MONTAGGIO",
+   "voci": "kore"
+  }
+ },
  "manca": "",
  "serve_master": [],
  "domande_sara": [],
- "note": [],
+ "note": [
+  {
+   "quando": "09/11 00:29",
+   "testo": "09/11 00:40: nuova chat riprende la lezione (macchina nuova, 30 GB liberi). Voci Kore (18) ricevute e lavoro_master usato. Trascrizione in corso; una sola Parte (docente 51:51)."
+  }
+ ],
  "materia": "Economia e marketing delle aziende della moda (III + IV)",
  "lezione": "Lezione 3 · Marketing",
  "docente": "Prof.ssa Piera Caputi",
- "aggiornato": "2026-11-09 00:26:53"
+ "aggiornato": "2026-11-09 00:29:51"
 }
