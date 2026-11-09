@@ -2,12 +2,12 @@
  "tag": "moda-economia-III-IV-lez01",
  "parti": {
   "1": {
-   "stato": "IN_MONTAGGIO",
+   "stato": "PRONTA",
    "voci": "kore",
    "titolo": "Lezione 1 · Attività economica",
    "quiz_ok": "si",
    "fermi_ok": "si",
-   "sub_ok": "no",
+   "sub_ok": "si",
    "video": "Economia_Lez1_Parte1_1440p.mp4",
    "durata_s": 4274.8,
    "durata": "71:14.8",
@@ -131,10 +131,14 @@
   {
    "quando": "08/11 19:27",
    "testo": "controllo_finale: ESITO: DA SISTEMARE: volume, sottotitoli"
+  },
+  {
+   "quando": "08/11 20:02",
+   "testo": "controllo_finale: ESITO: TUTTO OK"
   }
  ],
  "materia": "Economia e marketing delle aziende della moda (III + IV)",
  "lezione": "Lezione 1 · Attività economica",
  "docente": "Prof.ssa Piera Caputi",
- "aggiornato": "2026-11-08 19:27:38"
+ "aggiornato": "2026-11-08 20:02:08"
 }
