@@ -2,7 +2,7 @@
  "tag": "moda-economia-III-IV-lez01",
  "parti": {
   "1": {
-   "stato": "IN_MONTAGGIO",
+   "stato": "IN_CODIFICA",
    "voci": "kore"
   }
  },
@@ -42,10 +42,14 @@
   {
    "quando": "08/11 16:15",
    "testo": "Trascrizione e sincronia fatte (175 frasi del PDF su 177 dette; inizi degli 8 argomenti controllati a mano, correzioni in override_s.json). Fase A in corso (78 slide, webcam). Voci ricevute 8 su 12 (INTRO1, S1-S7) e importate: tutte complete. Mancano S8, GL1, RF1, FIN1. Refuso del PDF corretto sulle slide e nella dispensa: «si attenua o scomplete» → «si attenua o scompare»."
+  },
+  {
+   "quando": "08/11 17:14",
+   "testo": "Tutte le 12 voci Kore importate e controllate. Grafiche pronte (8 titoli, 8 schemi di ripasso, 8 schede Quiz con titoli lunghi su 2 righe, glossario, ripasso finale, FINE). Durata pianificata 71,3 min (docente 61,6 + inserti 9,7). Scelta consigliata applicata: UNA sola Parte, perché la lezione della docente (61,6 min) è sotto i ~65 min della regola dell'8/11; con due Parti si avrebbero circa 38 min ciascuna. Montaggio e codifica in corso."
   }
  ],
  "materia": "Economia e marketing delle aziende della moda (III + IV)",
  "lezione": "Lezione 1 · Attività economica",
  "docente": "Prof.ssa Piera Caputi",
- "aggiornato": "2026-11-08 16:15:26"
+ "aggiornato": "2026-11-08 17:14:38"
 }
