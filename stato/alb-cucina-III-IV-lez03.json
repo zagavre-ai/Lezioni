@@ -1,0 +1,93 @@
+{
+ "tag": "alb-cucina-III-IV-lez03",
+ "parti": {
+  "1": {
+   "titolo": "Pasticceria · Parte 1",
+   "stato": "IN_MONTAGGIO",
+   "voci": "segnaposto",
+   "video": "Cucina_Pasticceria_Parte1_VIDEO.mp4",
+   "durata_s": 3357.3,
+   "durata": "55:57.3",
+   "fotogrammi": 100720,
+   "fotogrammi_attesi": 100720,
+   "peso_MB": 245.7,
+   "timeline": [
+    [
+     "T1",
+     88.166,
+     3.6
+    ],
+    [
+     "Q1",
+     851.899,
+     4.0
+    ],
+    [
+     "T2",
+     857.199,
+     3.6
+    ],
+    [
+     "T3",
+     1357.132,
+     3.6
+    ],
+    [
+     "T4",
+     1740.431,
+     3.6
+    ],
+    [
+     "T5",
+     2202.398,
+     3.6
+    ],
+    [
+     "GL1",
+     3162.664,
+     75.8
+    ],
+    [
+     "RF1",
+     3240.064,
+     98.067
+    ],
+    [
+     "FIN1",
+     3339.531,
+     9.9
+    ]
+   ]
+  },
+  "2": {
+   "titolo": "Pasticceria · Parte 2",
+   "stato": "IN_MONTAGGIO",
+   "voci": "segnaposto"
+  }
+ },
+ "manca": "P1 montata 56:00; era già codificata a 1440p con la regola vecchia (CRF 16, 787 MB), con voci provvisorie e senza la chiusura nuova: va rifatta comunque per le voci Kore. P2 da rimontare con l'audio corretto. Ore stimate: P1 2 h, P2 3 h (dopo le voci).",
+ "serve_master": [
+  {
+   "quando": "10/11 20:37",
+   "testo": "L3 P1 era già codificata (CRF 16) senza la chiusura nuova e con voci provvisorie: propongo di rifarla con la chiusura nuova quando arrivano le voci Kore. Decidi tu."
+  },
+  {
+   "quando": "10/11 20:43",
+   "testo": "Questa sessione non può scrivere su GitHub (push rifiutato 403, release non leggibili). Lo stato è pronto in stato_locale e il file per le voci in scambio/alb-cucina-III-IV-lez03/testi_voci.json: serve l'accesso in scrittura al repository oppure che qualcuno li carichi."
+  }
+ ],
+ "domande_sara": [],
+ "note": [
+  {
+   "quando": "10/11 20:37",
+   "testo": "Chiusura nuova (Verifica finale, sigla, intro Compiti, scheda Compiti) da aggiungere: t_verifica e t_compiti si scrivono al montaggio finale."
+  },
+  {
+   "quando": "10/11 20:43",
+   "testo": "Chiusura nuova inserita nel montaggio (FIN → Verifica finale 5 s → sigla finale → intro Compiti 3,5 s con jingle → Compiti 5 s). Test finale tolto dal montaggio. Montaggio con voci provvisorie senza codifica: la codifica a 1440p si fa una volta sola, quando arrivano le voci Kore."
+  }
+ ],
+ "materia": "Laboratori dei servizi enogastronomici – settore cucina",
+ "lezione": "Pasticceria",
+ "aggiornato": "2026-11-10 21:18:33"
+}
