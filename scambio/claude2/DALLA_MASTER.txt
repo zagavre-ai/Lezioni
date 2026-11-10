@@ -31,3 +31,5 @@ Sara vuole che stanotte si finisca il più possibile. Se non ci sono chat di pro
 Voci: se servono, scrivi qui «servono voci: <tag>» con testi_voci.json già pronto sul ramo voci-<tag>. I testi devono essere approvati da Sara: se non lo sono, monta con voci segnaposto e mettili in fila per l'approvazione di domattina.
 Domattina alle 8 (ora italiana) scrivi qui il QUADRO aggiornato: pronte, in corso, ferme e perché.
 Nota: il prof. Mazzotti insegna anche Letteratura italiana, Storia V e Storia dell'arte: i compiti di tutte le sue lezioni li scrive la master 1 (Letteratura = temi).
+
+- 10/11 22:40: Mazzotti insegna anche Storia III (storia-III-lez01..03): compiti anche per queste, li scrive la master 1.
