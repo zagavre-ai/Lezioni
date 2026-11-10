@@ -145,11 +145,11 @@ async function caricaCompiti(){COMPITI=(await api('lista')).compiti}
 
 /* ---------------- vista alunno (telefono) ---------------- */
 const SCELTE={};// compito_id -> [{blob,url}]
-function vistaAlunno(msg){
-  const daFare=COMPITI.filter(c=>c.stato==='assegnato'||c.stato==='da_rifare').sort((a,b)=>(a.scadenza||'9').localeCompare(b.scadenza||'9'));
-  const attesa=COMPITI.filter(c=>c.stato==='consegnato');
-  const fatti=COMPITI.filter(c=>['corretto','verificato','segnalato'].includes(c.stato));
-  let h=`<h1>I miei compiti</h1><div class="bar"></div><div class="who"><b>${esc(IO.nome)}</b></div>${msg||''}
+function vistaAlunno(msg,V){V=V||{lista:COMPITI,nome:IO.nome,ro:false,dove:'#app'};const L=V.lista;
+  const daFare=L.filter(c=>c.stato==='assegnato'||c.stato==='da_rifare').sort((a,b)=>(a.scadenza||'9').localeCompare(b.scadenza||'9'));
+  const attesa=L.filter(c=>c.stato==='consegnato');
+  const fatti=L.filter(c=>['corretto','verificato','segnalato'].includes(c.stato));
+  let h=(V.ro?`<div class="msg ok" style="background:#FFF4CC;color:#6b5300"><b>Vista dell'alunno · sola lettura.</b> È esattamente la pagina che vede ${esc(V.nome)} (senza i pulsanti per consegnare).</div>`:'')+`<h1>${V.ro?'I compiti di '+esc(V.nome):'I miei compiti'}</h1><div class="bar"></div><div class="who"><b>${esc(V.nome)}</b></div>${msg||''}
   <h2 style="font-size:17px;margin:20px 0 4px">Da consegnare (${daFare.length})</h2>`;
   if(!daFare.length)h+='<div class="vuoto">Non hai compiti da consegnare. 👍</div>';
   daFare.forEach(c=>{const rif=c.stato==='da_rifare';const ult=[...c.eventi].reverse().find(e=>e.tipo==='da_rifare');
@@ -158,20 +158,21 @@ function vistaAlunno(msg){
     ${c.allegato?`<button class="btn sec" data-vedi="${esc(c.allegato)}">Apri il compito (file del docente)</button>`:''}
     <p class="${c.ritardo?'rit':'note'}">${c.scadenza?'Da consegnare entro '+dd(c.scadenza)+(c.ritardo?' · IN RITARDO':''):'Nessuna scadenza indicata'}</p>
     ${rif?`<div class="msg no"><b>Da rifare.</b> ${esc(ult?.testo||'')}${ult?.foto?.length?' <button class="esci" data-fotoev="'+c.id+'">Vedi la correzione</button>':''}</div>`:''}
-    <label class="cam" for="cam_${c.id}">📷 Fotografa una pagina</label>
+    ${V.ro?(c.eventi.filter(e=>e.tipo==='consegna').length?`<p class="note">Consegne precedenti: ${c.eventi.filter(e=>e.tipo==='consegna').map(e=>dlo(e.il)).join(', ')}</p>`:''):`<label class="cam" for="cam_${c.id}">📷 Fotografa una pagina</label>
     <input class="nasc" id="cam_${c.id}" type="file" accept="image/*" capture="environment" multiple data-cam="${c.id}">
     <label class="note" for="gal_${c.id}" style="display:block;text-align:center;margin-top:6px;text-decoration:underline;cursor:pointer">oppure scegli foto o PDF già salvati</label>
     <input class="nasc" id="gal_${c.id}" type="file" accept="image/*,application/pdf" multiple data-cam="${c.id}">
     <div class="foto" id="sc_${c.id}"></div>
     <label class="f">Una nota per il docente (se vuoi)</label><textarea class="t" id="nt_${c.id}" style="min-height:44px"></textarea>
-    <button class="btn big verde" data-consegna="${c.id}" style="margin-top:10px" disabled>Consegna</button><div id="es_${c.id}"></div></div>`});
+    <button class="btn big verde" data-consegna="${c.id}" style="margin-top:10px" disabled>Consegna</button><div id="es_${c.id}"></div>`}</div>`});
   if(attesa.length){h+=`<h2 style="font-size:17px;margin:20px 0 4px">Consegnati, in attesa di correzione (${attesa.length})</h2>`;
-    attesa.forEach(c=>{const e=[...c.eventi].reverse().find(x=>x.tipo==='consegna');h+=`<div class="card"><div class="mat">${esc(c.materia)}</div><b>${esc(c.titolo)}</b><p class="note">Consegnato ${dlo(e?.il)}${c.consegna_in_ritardo?' · <span class="rit">in ritardo</span>':''}</p></div>`})}
+    attesa.forEach(c=>{const e=[...c.eventi].reverse().find(x=>x.tipo==='consegna');h+=`<div class="card"><div class="mat">${esc(c.materia)}</div><b>${esc(c.titolo)}</b><p class="note">Consegnato ${dlo(e?.il)}${c.consegna_in_ritardo?' · <span class="rit">in ritardo</span>':''}</p>${e?.foto?.length?`<button class="btn sec" data-fotocons="${c.id}">Vedi le pagine consegnate</button>`:''}</div>`})}
   if(fatti.length){h+=`<h2 style="font-size:17px;margin:20px 0 4px">Corretti (${fatti.length})</h2>`;
     fatti.forEach(c=>{const e=[...c.eventi].reverse().find(x=>x.tipo==='correzione');h+=`<div class="card"><div class="mat">${esc(c.materia)}</div><b>${esc(c.titolo)}</b>
     <p style="margin:6px 0"><span class="st corretto">Voto: ${esc(c.voto)}</span> <span class="note">corretto ${dl(e?.il)}</span></p>${e?.testo?`<p style="margin:4px 0">${esc(e.testo)}</p>`:''}
-    ${e?.foto?.length?`<button class="btn sec" data-fotoev="${c.id}">Vedi la correzione</button>`:''}</div>`})}
-  $('#app').innerHTML=h;
+    <p class="note" style="margin:4px 0">Consegnato ${dlo((([...c.eventi].reverse().find(x=>x.tipo==='consegna'))||{}).il)}${c.consegna_in_ritardo?' · <span class="rit">in ritardo</span>':''}</p>
+    <div style="display:flex;flex-wrap:wrap;gap:8px">${c.eventi.some(x=>x.tipo==='consegna'&&x.foto.length)?`<button class="btn sec" data-fotocons="${c.id}">Vedi le pagine consegnate</button>`:''}${e?.foto?.length?`<button class="btn sec" data-fotoev="${c.id}">Vedi la correzione</button>`:''}</div></div>`})}
+  $(V.dove).innerHTML=h;if(V.ro){collegaVedi(V.dove);return}
   daFare.forEach(c=>mostraScelte(c.id));
   document.querySelectorAll('[data-cam]').forEach(i=>i.onchange=async e=>{const id=i.dataset.cam;SCELTE[id]=SCELTE[id]||[];
     for(const f of e.target.files){try{const r=await riduci(f);SCELTE[id].push({...r,url:r.mime==='application/pdf'?'':URL.createObjectURL(r.blob),nome:f.name})}catch(x){alert('Questa foto non si apre: '+f.name)}}
@@ -198,13 +199,13 @@ function filtra(){return COMPITI.filter(c=>(!F.alunno||c.alunno_id===F.alunno)&&
 function vistaScuola(msg){
   const dc=COMPITI.filter(c=>c.stato==='consegnato'),dv=COMPITI.filter(c=>c.stato==='corretto');
   const tabs=[['correggere','Da correggere',dc.length]];if(STAFF())tabs.push(['verificare','Da verificare',dv.length]);
-  tabs.push(['tutti','Tutti i compiti',0],['assegna','Assegna un compito',0]);if(STAFF())tabs.push(['docenti','Docenti',0]);tabs.push(['esporta','Esporta',0]);
+  tabs.push(['tutti','Tutti i compiti',0],['assegna','Assegna un compito',0]);if(STAFF())tabs.push(['vistaalunno','Vista alunno',0],['docenti','Docenti',0]);tabs.push(['esporta','Esporta',0]);
   let h=`<h1>Quaderno dei compiti</h1><div class="bar"></div><div class="who"><b>${esc(IO.nome)}</b> · ${STAFF()?'coordinamento e direzione':'docente di '+esc(IO.materie.join(', '))}</div>${msg||''}
   <div class="tabs">${tabs.map(t=>`<button data-tab="${t[0]}" class="${TAB===t[0]?'on':''}">${t[1]}${t[2]?`<span class="n">${t[2]}</span>`:''}</button>`).join('')}</div><div id="tab"></div>`;
   $('#app').innerHTML=h;document.querySelectorAll('[data-tab]').forEach(b=>b.onclick=()=>{TAB=b.dataset.tab;vistaScuola()});
   ({correggere:()=>tabella(dc.sort((a,b)=>ultimo(a,'consegna').localeCompare(ultimo(b,'consegna'))),'Nessun compito da correggere.'),
     verificare:()=>tabella(dv,'Nessun compito corretto da verificare.'),
-    tutti:tabTutti,assegna:tabAssegna,docenti:tabDocenti,esporta:tabEsporta})[TAB]();
+    tutti:tabTutti,vistaalunno:tabVistaAlunno,assegna:tabAssegna,docenti:tabDocenti,esporta:tabEsporta})[TAB]();
 }
 const ultimo=(c,t)=>([...c.eventi].reverse().find(e=>e.tipo===t)||{}).il||'';
 function tabella(l,vuoto,dove='#tab'){
@@ -224,6 +225,13 @@ function tabTutti(){
   const rif=()=>tabella(filtra(),'Nessun compito con questi filtri.','#lista');
   $('#fa').onchange=e=>{F.alunno=e.target.value;rif()};$('#fm').onchange=e=>{F.materia=e.target.value;rif()};$('#fs').onchange=e=>{F.stato=e.target.value;rif()};$('#fc').oninput=e=>{F.cerca=e.target.value;rif()};
   $('#agg').onclick=async()=>{await caricaCompiti();vistaScuola()};rif();
+}
+let VA='';
+function tabVistaAlunno(){
+  $('#tab').innerHTML=`<div class="filtri"><select id="va1"><option value="">Scegli l'alunno…</option>${ALUNNI.map(a=>`<option value="${a.id}" ${VA===a.id?'selected':''}>${esc(a.nome)}</option>`).join('')}</select><button class="btn sec" id="va2">Aggiorna</button></div><div id="va"></div>`;
+  const mostra=()=>{const a=ALUNNI.find(x=>x.id===VA);if(!a){$('#va').innerHTML='<div class="vuoto">Scegli un alunno per vedere la sua pagina come la vede lui.</div>';return}
+    vistaAlunno('',{lista:COMPITI.filter(c=>c.alunno_id===VA),nome:a.nome,ro:true,dove:'#va'})};
+  $('#va1').onchange=e=>{VA=e.target.value;mostra()};$('#va2').onclick=async()=>{await caricaCompiti();mostra()};mostra();
 }
 let ALLEGATO=null;
 function tabAssegna(){
@@ -344,8 +352,8 @@ function editor(path,src){
 function mostraCorrette(){$('#corrette').innerHTML=CORR.map((b,i)=>`<figure><img src="${URL.createObjectURL(b)}" alt="Pagina corretta ${i+1}"><figcaption>Corretta ${i+1}</figcaption><button class="x" data-tc="${i}">×</button></figure>`).join('');
   document.querySelectorAll('[data-tc]').forEach(b=>b.onclick=()=>{CORR.splice(+b.dataset.tc,1);mostraCorrette()})}
 function collegaVedi(dove=''){document.querySelectorAll(dove+' [data-vedi]').forEach(b=>b.onclick=async()=>{const w=window.open('','_blank');try{const u=await vedi(b.dataset.vedi);if(w)w.location=u;else location.href=u}catch(e){if(w)w.close();alert(e.message)}});
-  document.querySelectorAll(dove+' [data-fotoev]').forEach(b=>b.onclick=async()=>{const c=COMPITI.find(x=>x.id===b.dataset.fotoev);const e=[...c.eventi].reverse().find(x=>(x.tipo==='correzione'||x.tipo==='da_rifare')&&x.foto.length);if(!e)return;
-    $('#mbody').innerHTML=`<h2 style="margin-top:0">${esc(c.titolo)}</h2><p class="note">Le pagine corrette dal docente</p><div class="foto" style="grid-template-columns:1fr">${e.foto.map(p=>`<img data-path="${esc(p)}" style="aspect-ratio:auto;object-fit:contain">`).join('')}</div>`;$('#modal').style.display='block';
+  document.querySelectorAll(dove+' [data-fotoev],'+dove+' [data-fotocons]').forEach(b=>b.onclick=async()=>{const cons=!!b.dataset.fotocons;const c=COMPITI.find(x=>x.id===(b.dataset.fotoev||b.dataset.fotocons));const e=[...c.eventi].reverse().find(x=>(cons?x.tipo==='consegna':(x.tipo==='correzione'||x.tipo==='da_rifare'))&&x.foto.length);if(!e)return;
+    $('#mbody').innerHTML=`<h2 style="margin-top:0">${esc(c.titolo)}</h2><p class="note">${cons?'Le pagine consegnate il '+dlo(e.il):'Le pagine corrette dal docente'}</p><div class="foto" style="grid-template-columns:1fr">${e.foto.map(p=>`<img data-path="${esc(p)}" style="aspect-ratio:auto;object-fit:contain">`).join('')}</div>`;$('#modal').style.display='block';
     document.querySelectorAll('#mbody img[data-path]').forEach(async im=>{im.src=await vedi(im.dataset.path);im.onclick=()=>window.open(im.src,'_blank')})})}
 
 /* ---------------- avvio ---------------- */
