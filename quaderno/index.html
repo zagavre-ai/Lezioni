@@ -1,0 +1,356 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Quaderno dei compiti</title>
+<meta name="robots" content="noindex">
+<style>
+:root{--navy:#003366;--ink:#0A1D37;--line:#c9d1db;--soft:#f4f6f9;--soft2:#e9eef4;--mut:#5a6676;--ok:#1d7a46;--okbg:#e7f4ec;--acc:#F2B705;--red:#b3261e;--redbg:#fdecea;--page:#eef1f5}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--page);color:var(--ink);font:15px/1.4 Arial,"Liberation Sans",Helvetica,sans-serif}
+button,input,textarea,select{font:inherit;color:inherit}
+.wrap{max-width:1000px;margin:0 auto;padding:0 16px 48px}
+header.top{background:#fff;border-bottom:1px solid var(--line)}
+header.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:12px;padding-top:12px;padding-bottom:12px}
+.eyebrow{letter-spacing:.18em;font-size:12px;font-weight:bold;color:var(--navy);text-transform:uppercase}
+.esci{background:none;border:0;color:var(--navy);text-decoration:underline;cursor:pointer;font-size:13px}
+h1{font-size:26px;margin:22px 0 4px;text-transform:uppercase}
+.bar{width:96px;height:4px;background:var(--ink);margin:10px 0 16px}
+.who{color:var(--mut)}.who b{color:var(--ink)}
+.card{background:#fff;border:1px solid var(--line);border-radius:8px;padding:14px;margin:12px 0}
+.tabs{display:flex;flex-wrap:wrap;gap:6px;margin:16px 0 8px}
+.tabs button{border:1px solid var(--line);background:#fff;border-radius:6px;padding:7px 12px;cursor:pointer;font-weight:bold;color:var(--navy)}
+.tabs button.on{background:var(--navy);border-color:var(--navy);color:#fff}
+.tabs .n{display:inline-block;min-width:20px;padding:0 6px;margin-left:4px;border-radius:99px;background:var(--acc);color:var(--ink);font-size:12px}
+label.f{display:block;font-size:13px;font-weight:bold;color:var(--navy);margin:10px 0 4px}
+input.t,select.t,textarea.t{width:100%;border:1px solid var(--line);border-radius:6px;padding:8px;background:#fff}
+textarea.t{min-height:70px}
+.row{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:0 14px}
+.btn{border:0;background:var(--navy);color:#fff;font-weight:bold;padding:10px 16px;border-radius:6px;cursor:pointer}
+.btn.big{width:100%;font-size:17px;padding:14px;border-radius:10px}
+.btn.sec{background:#fff;color:var(--navy);border:1px solid var(--navy)}
+.btn.rosso{background:var(--red)}.btn.verde{background:var(--ok)}
+.btn:disabled{opacity:.45;cursor:default}
+.note{font-size:13px;color:var(--mut)}
+.msg{padding:10px 12px;border-radius:6px;margin:10px 0;font-size:14px}
+.msg.ok{background:var(--okbg);color:var(--ok)}.msg.no{background:var(--redbg);color:var(--red)}
+.filtri{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:8px 0}
+.filtri select,.filtri input{border:1px solid var(--line);border-radius:6px;padding:6px 8px;background:#fff;max-width:100%}
+table.l{width:100%;border-collapse:collapse;background:#fff;font-size:14px}
+table.l th{text-align:left;background:var(--navy);color:#fff;padding:7px 8px;font-size:12px;text-transform:uppercase;letter-spacing:.03em}
+table.l td{border-bottom:1px solid var(--line);padding:7px 8px;vertical-align:top}
+table.l tr.cl{cursor:pointer}table.l tr.cl:hover td{background:var(--soft)}
+.tw{overflow-x:auto;border:1px solid var(--line);border-radius:8px}
+.st{display:inline-block;padding:2px 8px;border-radius:99px;font-size:12px;font-weight:bold;white-space:nowrap}
+.st.assegnato{background:#dfe9f5;color:var(--navy)}.st.consegnato{background:#FFF4CC;color:#6b5300}
+.st.da_rifare{background:#ffe2cc;color:#8a3b00}.st.corretto{background:var(--okbg);color:var(--ok)}
+.st.verificato{background:var(--ok);color:#fff}.st.segnalato{background:var(--red);color:#fff}
+.rit{color:var(--red);font-weight:bold}
+.mat{font-size:12px;font-weight:bold;letter-spacing:.1em;color:var(--navy);text-transform:uppercase}
+.comp h3{margin:4px 0 6px;font-size:17px}
+.foto{display:grid;grid-template-columns:repeat(auto-fill,minmax(120px,1fr));gap:8px;margin-top:10px}
+.foto figure{margin:0;position:relative}
+.foto img{width:100%;aspect-ratio:3/4;object-fit:cover;border-radius:6px;border:1px solid var(--line);cursor:pointer;background:var(--soft)}
+.foto figcaption{font-size:12px;color:var(--mut)}
+.foto .x{position:absolute;top:4px;right:4px;border:0;background:rgba(0,0,0,.65);color:#fff;border-radius:99px;width:26px;height:26px;cursor:pointer}
+label.cam{display:block;text-align:center;background:var(--ink);color:#fff;font-weight:bold;font-size:17px;padding:14px;border-radius:10px;cursor:pointer;margin-top:10px}
+input[type=file].nasc{display:none}
+.storia{list-style:none;padding:0;margin:8px 0 0}
+.storia li{border-left:3px solid var(--line);padding:4px 0 8px 10px;font-size:14px}
+.storia li b{color:var(--navy)}
+.storia li.rosso{border-color:var(--red)}.storia li.verde{border-color:var(--ok)}
+#modal{position:fixed;inset:0;background:rgba(10,29,55,.55);display:none;z-index:10;overflow:auto;padding:16px}
+#modal .box{background:#fff;max-width:860px;margin:0 auto;border-radius:10px;padding:16px;position:relative}
+#modal .chiudi{position:absolute;top:10px;right:10px}
+.edit{border:1px solid var(--line);border-radius:8px;background:var(--soft);padding:8px;margin-top:10px}
+.edit canvas{display:block;max-width:100%;touch-action:none;margin:0 auto;background:#fff;cursor:crosshair}
+.edit .tools{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:8px}
+.chk{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:4px 12px;max-height:280px;overflow:auto;border:1px solid var(--line);border-radius:6px;padding:8px;background:#fff}
+.chk label{font-size:14px;display:flex;gap:6px;align-items:flex-start}
+.chk small{color:var(--mut)}
+.vuoto{color:var(--mut);padding:18px;text-align:center;background:#fff;border:1px dashed var(--line);border-radius:8px}
+.codice{font:bold 20px/1.2 ui-monospace,Menlo,monospace;letter-spacing:.08em;background:var(--soft2);padding:8px 12px;border-radius:6px;display:inline-block}
+@media (max-width:640px){h1{font-size:21px}table.l .mob-no{display:none}}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap"><span class="eyebrow">Centro Studi Telesio · Quaderno dei compiti</span><button class="esci" id="esci" hidden>Esci</button></div></header>
+<main class="wrap" id="app"></main>
+<div id="modal"><div class="box"><button class="btn sec chiudi" id="mchiudi">Chiudi</button><div id="mbody"></div></div></div>
+<script>
+const API='https://tsguzxawpywxrydazhrc.supabase.co/functions/v1/quaderno';
+const $=s=>document.querySelector(s);
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const STATI={assegnato:'Da consegnare',consegnato:'Da correggere',da_rifare:'Da rifare',corretto:'Corretto',verificato:'Verificato',segnalato:'Segnalato'};
+const dl=s=>s?new Date(s).toLocaleDateString('it-IT',{weekday:'short',day:'numeric',month:'short'}):'';
+const dlo=s=>s?new Date(s).toLocaleString('it-IT',{weekday:'short',day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'}):'';
+const dd=s=>s?new Date(s+'T12:00').toLocaleDateString('it-IT',{weekday:'short',day:'numeric',month:'short'}):'';
+let CODICE='',IO=null,COMPITI=[],ALUNNI=[],NOMI={},TAB='',F={alunno:'',materia:'',stato:'',cerca:''};
+
+async function api(azione,dati={}){
+  const r=await fetch(API,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({codice:CODICE,azione,...dati})});
+  let j={};try{j=await r.json()}catch(e){}
+  if(!r.ok)throw new Error(j.errore||('errore '+r.status));
+  return j;
+}
+async function carica(blob,mime,compito_id){
+  const u=await api('carica',{mime,compito_id});
+  const r=await fetch(u.url,{method:'PUT',headers:{'Content-Type':mime},body:blob});
+  if(!r.ok)throw new Error('caricamento non riuscito ('+r.status+')');
+  return u.path;
+}
+const URLS={};
+async function vedi(path){if(URLS[path])return URLS[path];const u=(await api('vedi',{path})).url;URLS[path]=u;setTimeout(()=>delete URLS[path],50*60e3);return u}
+async function riduci(file){
+  if(file.type==='application/pdf')return {blob:file,mime:'application/pdf'};
+  const img=await createImageBitmap(file);const k=Math.min(1,1600/Math.max(img.width,img.height));
+  const c=document.createElement('canvas');c.width=Math.round(img.width*k);c.height=Math.round(img.height*k);
+  c.getContext('2d').drawImage(img,0,0,c.width,c.height);
+  return {blob:await new Promise(r=>c.toBlob(r,'image/jpeg',.72)),mime:'image/jpeg'};
+}
+function ricorda(c){try{if(c)localStorage.setItem('quaderno_codice',c);else localStorage.removeItem('quaderno_codice')}catch(e){}}
+function ricordato(){try{return localStorage.getItem('quaderno_codice')||''}catch(e){return ''}}
+
+/* ---------------- accesso ---------------- */
+function schermataAccesso(err){
+  $('#esci').hidden=true;
+  $('#app').innerHTML=`<h1>Quaderno dei compiti</h1><div class="bar"></div>
+  <div class="card" style="max-width:460px">
+    <label class="f" for="cod">Il tuo codice</label>
+    <input class="t" id="cod" autocomplete="off" autocapitalize="characters" placeholder="Scrivi il codice che ti ha dato la scuola">
+    <label style="display:flex;gap:6px;margin-top:10px;font-size:14px"><input type="checkbox" id="ric"> Ricorda il codice su questo dispositivo</label>
+    <button class="btn big" id="entra" style="margin-top:12px">Entra</button>
+    ${err?`<div class="msg no">${esc(err)}</div>`:''}
+    <p class="note">Alunni: il modo più semplice è inquadrare con il telefono il codice QR che trovi nel tuo registro.</p>
+  </div>`;
+  const go=()=>entra($('#cod').value.trim(),$('#ric').checked);
+  $('#entra').onclick=go;$('#cod').onkeydown=e=>{if(e.key==='Enter')go()};$('#cod').focus();
+}
+async function entra(c,salva){
+  if(!c)return;CODICE=c;
+  $('#app').innerHTML='<div class="vuoto" style="margin-top:30px">Accesso in corso…</div>';
+  try{IO=await api('accesso')}catch(e){CODICE='';ricorda('');return schermataAccesso(e.message==='Codice non valido'?'Codice non valido. Controlla di averlo scritto bene.':'Non riesco a collegarmi: '+e.message)}
+  if(salva)ricorda(c);
+  $('#esci').hidden=false;
+  if(IO.tipo==='alunno'){await caricaCompiti();return vistaAlunno()}
+  TAB='correggere';
+  await Promise.all([caricaCompiti(),api('alunni').then(r=>ALUNNI=r.alunni),api('nomi').then(r=>r.persone.forEach(p=>NOMI[p.id]=p.nome))]);
+  vistaScuola();
+}
+$('#esci').onclick=()=>{ricorda('');CODICE='';IO=null;COMPITI=[];schermataAccesso()};
+async function caricaCompiti(){COMPITI=(await api('lista')).compiti}
+
+/* ---------------- vista alunno (telefono) ---------------- */
+const SCELTE={};// compito_id -> [{blob,url}]
+function vistaAlunno(msg){
+  const daFare=COMPITI.filter(c=>c.stato==='assegnato'||c.stato==='da_rifare').sort((a,b)=>(a.scadenza||'9').localeCompare(b.scadenza||'9'));
+  const attesa=COMPITI.filter(c=>c.stato==='consegnato');
+  const fatti=COMPITI.filter(c=>['corretto','verificato','segnalato'].includes(c.stato));
+  let h=`<h1>I miei compiti</h1><div class="bar"></div><div class="who"><b>${esc(IO.nome)}</b></div>${msg||''}
+  <h2 style="font-size:17px;margin:20px 0 4px">Da consegnare (${daFare.length})</h2>`;
+  if(!daFare.length)h+='<div class="vuoto">Non hai compiti da consegnare. 👍</div>';
+  daFare.forEach(c=>{const rif=c.stato==='da_rifare';const ult=[...c.eventi].reverse().find(e=>e.tipo==='da_rifare');
+    h+=`<div class="card comp" data-id="${c.id}"><div class="mat">${esc(c.materia)}${c.lezione?' · '+esc(c.lezione):''}</div>
+    <h3>${esc(c.titolo)}</h3>${c.testo?`<p style="white-space:pre-wrap;margin:4px 0">${esc(c.testo)}</p>`:''}
+    ${c.allegato?`<button class="btn sec" data-vedi="${esc(c.allegato)}">Apri il compito (file del docente)</button>`:''}
+    <p class="${c.ritardo?'rit':'note'}">${c.scadenza?'Da consegnare entro '+dd(c.scadenza)+(c.ritardo?' · IN RITARDO':''):'Nessuna scadenza indicata'}</p>
+    ${rif?`<div class="msg no"><b>Da rifare.</b> ${esc(ult?.testo||'')}${ult?.foto?.length?' <button class="esci" data-fotoev="'+c.id+'">Vedi la correzione</button>':''}</div>`:''}
+    <label class="cam" for="cam_${c.id}">📷 Fotografa una pagina</label>
+    <input class="nasc" id="cam_${c.id}" type="file" accept="image/*" capture="environment" multiple data-cam="${c.id}">
+    <label class="note" for="gal_${c.id}" style="display:block;text-align:center;margin-top:6px;text-decoration:underline;cursor:pointer">oppure scegli foto o PDF già salvati</label>
+    <input class="nasc" id="gal_${c.id}" type="file" accept="image/*,application/pdf" multiple data-cam="${c.id}">
+    <div class="foto" id="sc_${c.id}"></div>
+    <label class="f">Una nota per il docente (se vuoi)</label><textarea class="t" id="nt_${c.id}" style="min-height:44px"></textarea>
+    <button class="btn big verde" data-consegna="${c.id}" style="margin-top:10px" disabled>Consegna</button><div id="es_${c.id}"></div></div>`});
+  if(attesa.length){h+=`<h2 style="font-size:17px;margin:20px 0 4px">Consegnati, in attesa di correzione (${attesa.length})</h2>`;
+    attesa.forEach(c=>{const e=[...c.eventi].reverse().find(x=>x.tipo==='consegna');h+=`<div class="card"><div class="mat">${esc(c.materia)}</div><b>${esc(c.titolo)}</b><p class="note">Consegnato ${dlo(e?.il)}${c.consegna_in_ritardo?' · <span class="rit">in ritardo</span>':''}</p></div>`})}
+  if(fatti.length){h+=`<h2 style="font-size:17px;margin:20px 0 4px">Corretti (${fatti.length})</h2>`;
+    fatti.forEach(c=>{const e=[...c.eventi].reverse().find(x=>x.tipo==='correzione');h+=`<div class="card"><div class="mat">${esc(c.materia)}</div><b>${esc(c.titolo)}</b>
+    <p style="margin:6px 0"><span class="st corretto">Voto: ${esc(c.voto)}</span> <span class="note">corretto ${dl(e?.il)}</span></p>${e?.testo?`<p style="margin:4px 0">${esc(e.testo)}</p>`:''}
+    ${e?.foto?.length?`<button class="btn sec" data-fotoev="${c.id}">Vedi la correzione</button>`:''}</div>`})}
+  $('#app').innerHTML=h;
+  daFare.forEach(c=>mostraScelte(c.id));
+  document.querySelectorAll('[data-cam]').forEach(i=>i.onchange=async e=>{const id=i.dataset.cam;SCELTE[id]=SCELTE[id]||[];
+    for(const f of e.target.files){try{const r=await riduci(f);SCELTE[id].push({...r,url:r.mime==='application/pdf'?'':URL.createObjectURL(r.blob),nome:f.name})}catch(x){alert('Questa foto non si apre: '+f.name)}}
+    i.value='';mostraScelte(id)});
+  document.querySelectorAll('[data-consegna]').forEach(b=>b.onclick=()=>consegna(b.dataset.consegna,b));
+  collegaVedi();
+}
+function mostraScelte(id){const l=SCELTE[id]||[];const box=$('#sc_'+id);if(!box)return;
+  box.innerHTML=l.map((f,i)=>`<figure>${f.mime==='application/pdf'?'<div class="vuoto" style="aspect-ratio:3/4;padding:10px">PDF<br><small>'+esc(f.nome)+'</small></div>':`<img src="${f.url}" alt="Pagina ${i+1}">`}<figcaption>Pagina ${i+1} · ${Math.round(f.blob.size/1024)} KB</figcaption><button class="x" data-tolgo="${i}" aria-label="Togli">×</button></figure>`).join('');
+  box.querySelectorAll('[data-tolgo]').forEach(b=>b.onclick=()=>{l.splice(+b.dataset.tolgo,1);mostraScelte(id)});
+  const btn=document.querySelector(`[data-consegna="${id}"]`);if(btn)btn.disabled=!l.length;
+}
+async function consegna(id,btn){const l=SCELTE[id]||[];if(!l.length)return;btn.disabled=true;const es=$('#es_'+id);
+  try{const foto=[];for(let i=0;i<l.length;i++){es.innerHTML=`<div class="msg ok">Invio della pagina ${i+1} di ${l.length}…</div>`;foto.push(await carica(l[i].blob,l[i].mime,id))}
+    await api('consegna',{compito_id:id,foto,testo:$('#nt_'+id).value});delete SCELTE[id];await caricaCompiti();
+    vistaAlunno('<div class="msg ok"><b>Compito consegnato.</b> Il docente lo correggerà entro il giovedì.</div>');window.scrollTo(0,0);
+  }catch(e){es.innerHTML=`<div class="msg no">Non è partito: ${esc(e.message)}. Controlla la connessione e riprova.</div>`;btn.disabled=false}
+}
+
+/* ---------------- vista scuola (docenti, coordinamento, direzione) ---------------- */
+const STAFF=()=>IO.tipo==='staff';
+function filtra(){return COMPITI.filter(c=>(!F.alunno||c.alunno_id===F.alunno)&&(!F.materia||c.materia===F.materia)&&(!F.stato||c.stato===F.stato||(F.stato==='ritardo'&&c.ritardo))
+  &&(!F.cerca||(c.titolo+' '+(c.lezione||'')+' '+(c.alunni?.nome||'')).toLowerCase().includes(F.cerca.toLowerCase())))}
+function vistaScuola(msg){
+  const dc=COMPITI.filter(c=>c.stato==='consegnato'),dv=COMPITI.filter(c=>c.stato==='corretto');
+  const tabs=[['correggere','Da correggere',dc.length]];if(STAFF())tabs.push(['verificare','Da verificare',dv.length]);
+  tabs.push(['tutti','Tutti i compiti',0],['assegna','Assegna un compito',0]);if(STAFF())tabs.push(['docenti','Docenti',0]);tabs.push(['esporta','Esporta',0]);
+  let h=`<h1>Quaderno dei compiti</h1><div class="bar"></div><div class="who"><b>${esc(IO.nome)}</b> · ${STAFF()?'coordinamento e direzione':'docente di '+esc(IO.materie.join(', '))}</div>${msg||''}
+  <div class="tabs">${tabs.map(t=>`<button data-tab="${t[0]}" class="${TAB===t[0]?'on':''}">${t[1]}${t[2]?`<span class="n">${t[2]}</span>`:''}</button>`).join('')}</div><div id="tab"></div>`;
+  $('#app').innerHTML=h;document.querySelectorAll('[data-tab]').forEach(b=>b.onclick=()=>{TAB=b.dataset.tab;vistaScuola()});
+  ({correggere:()=>tabella(dc.sort((a,b)=>ultimo(a,'consegna').localeCompare(ultimo(b,'consegna'))),'Nessun compito da correggere.'),
+    verificare:()=>tabella(dv,'Nessun compito corretto da verificare.'),
+    tutti:tabTutti,assegna:tabAssegna,docenti:tabDocenti,esporta:tabEsporta})[TAB]();
+}
+const ultimo=(c,t)=>([...c.eventi].reverse().find(e=>e.tipo===t)||{}).il||'';
+function tabella(l,vuoto,dove='#tab'){
+  if(!l.length){$(dove).innerHTML=`<div class="vuoto">${vuoto}</div>`;return}
+  $(dove).innerHTML=`<div class="tw"><table class="l"><thead><tr><th>Alunno</th><th>Materia</th><th>Compito</th><th class="mob-no">Scadenza</th><th>Stato</th><th class="mob-no">Voto</th></tr></thead><tbody>${l.map(c=>{
+    const nota=c.stato==='consegnato'?(c.ritardo?'<br><span class="rit">correzione in ritardo</span>':'<br><span class="note">correggere entro '+dl(c.scadenza_correzione)+'</span>'):(c.stato==='assegnato'&&c.ritardo?'<br><span class="rit">consegna in ritardo</span>':'');
+    return `<tr class="cl" data-apri="${c.id}"><td><b>${esc(c.alunni?.nome)}</b></td><td>${esc(c.materia)}</td><td>${esc(c.titolo)}${c.lezione?'<br><span class="note">'+esc(c.lezione)+'</span>':''}</td>
+    <td class="mob-no ${c.consegna_in_ritardo?'rit':''}">${dd(c.scadenza)}</td><td><span class="st ${c.stato}">${STATI[c.stato]}</span>${nota}</td><td class="mob-no">${esc(c.voto||'')}</td></tr>`}).join('')}</tbody></table></div>`;
+  document.querySelectorAll('[data-apri]').forEach(r=>r.onclick=()=>apri(r.dataset.apri));
+}
+function tabTutti(){
+  const mat=[...new Set(COMPITI.map(c=>c.materia))].sort();
+  $('#tab').innerHTML=`<div class="filtri"><select id="fa"><option value="">Tutti gli alunni</option>${ALUNNI.map(a=>`<option value="${a.id}" ${F.alunno===a.id?'selected':''}>${esc(a.nome)}</option>`).join('')}</select>
+  <select id="fm"><option value="">Tutte le materie</option>${mat.map(m=>`<option ${F.materia===m?'selected':''}>${esc(m)}</option>`).join('')}</select>
+  <select id="fs"><option value="">Tutti gli stati</option>${Object.entries(STATI).map(([k,v])=>`<option value="${k}" ${F.stato===k?'selected':''}>${v}</option>`).join('')}<option value="ritardo" ${F.stato==='ritardo'?'selected':''}>Solo in ritardo</option></select>
+  <input id="fc" placeholder="Cerca…" value="${esc(F.cerca)}"><button class="btn sec" id="agg">Aggiorna</button></div><div id="lista"></div>`;
+  const rif=()=>tabella(filtra(),'Nessun compito con questi filtri.','#lista');
+  $('#fa').onchange=e=>{F.alunno=e.target.value;rif()};$('#fm').onchange=e=>{F.materia=e.target.value;rif()};$('#fs').onchange=e=>{F.stato=e.target.value;rif()};$('#fc').oninput=e=>{F.cerca=e.target.value;rif()};
+  $('#agg').onclick=async()=>{await caricaCompiti();vistaScuola()};rif();
+}
+let ALLEGATO=null;
+function tabAssegna(){
+  const tutte=[...new Set(ALUNNI.flatMap(a=>a.materie).filter(m=>m!=='Tutte le materie'))].sort();
+  const mie=STAFF()?tutte:IO.materie;
+  const oggi=new Date();const lun=new Date(oggi);lun.setDate(oggi.getDate()+((8-oggi.getDay())%7||7)+2);// mercoledì prossimo
+  $('#tab').innerHTML=`<div class="card"><div class="row"><div><label class="f">Materia</label><select class="t" id="am">${mie.map(m=>`<option>${esc(m)}</option>`).join('')}</select></div>
+  <div><label class="f">Lezione della piattaforma (nome originale)</label><input class="t" id="al" placeholder="es. Lezione 12 · Le frazioni"></div>
+  <div><label class="f">Da consegnare entro</label><input class="t" type="date" id="as" value="${lun.toISOString().slice(0,10)}"></div></div>
+  <label class="f">Titolo del compito</label><input class="t" id="at" placeholder="es. Esercizi 1–5 pagina 3">
+  <label class="f">Consegna per l'alunno (cosa deve fare)</label><textarea class="t" id="ax" placeholder="Scrivi qui il testo del compito, oppure allega il PDF qui sotto"></textarea>
+  <label class="f">File del compito (PDF o foto, facoltativo)</label><input type="file" id="af" accept="application/pdf,image/*"> <span class="note" id="afn"></span>
+  <label class="f">Alunni <button class="esci" id="tutti">seleziona tutti</button></label><div class="chk" id="ach"></div>
+  <button class="btn big" id="ago" style="margin-top:14px">Assegna il compito</button><div id="aes"></div></div>`;
+  const alunniMat=()=>{const m=$('#am').value;$('#ach').innerHTML=ALUNNI.filter(a=>a.materie.includes('Tutte le materie')||a.materie.some(x=>x.toLowerCase()===m.toLowerCase())).map(a=>`<label><input type="checkbox" value="${a.id}"> <span>${esc(a.nome)}<br><small>${esc(a.indirizzo||'')}</small></span></label>`).join('')||'<span class="note">Nessun alunno ha questa materia.</span>'};
+  $('#am').onchange=alunniMat;alunniMat();
+  $('#tutti').onclick=e=>{e.preventDefault();$('#ach').querySelectorAll('input').forEach(i=>i.checked=true)};
+  ALLEGATO=null;$('#af').onchange=e=>{ALLEGATO=e.target.files[0]||null;$('#afn').textContent=ALLEGATO?Math.round(ALLEGATO.size/1024)+' KB':''};
+  $('#ago').onclick=async()=>{const sel=[...$('#ach').querySelectorAll('input:checked')].map(i=>i.value);const es=$('#aes');
+    if(!$('#at').value.trim())return es.innerHTML='<div class="msg no">Manca il titolo del compito.</div>';
+    if(!sel.length)return es.innerHTML='<div class="msg no">Scegli almeno un alunno.</div>';
+    $('#ago').disabled=true;
+    try{let allegato=null;if(ALLEGATO){es.innerHTML='<div class="msg ok">Carico il file…</div>';const r=await riduci(ALLEGATO);if(r.blob.size>5*1024*1024)throw new Error('il file supera 5 MB');allegato=await carica(r.blob,r.mime)}
+      const r=await api('assegna',{materia:$('#am').value,lezione:$('#al').value.trim(),titolo:$('#at').value.trim(),testo:$('#ax').value.trim(),scadenza:$('#as').value||null,alunni:sel,allegato});
+      await caricaCompiti();TAB='tutti';vistaScuola(`<div class="msg ok">Compito assegnato a ${r.creati} ${r.creati===1?'alunno':'alunni'}.</div>`)}
+    catch(e){es.innerHTML=`<div class="msg no">Non assegnato: ${esc(e.message)}</div>`;$('#ago').disabled=false}};
+}
+function tabDocenti(){
+  const tutte=[...new Set(ALUNNI.flatMap(a=>a.materie).filter(m=>m!=='Tutte le materie'))].sort();
+  $('#tab').innerHTML=`<div class="card"><p class="note" style="margin-top:0">Aggiungi un docente: riceve un codice personale e vede solo le sue materie. Per cambiare le materie di un docente, rifai l'operazione con lo <b>stesso codice</b>. Per disattivarlo, togli la spunta «attivo».</p>
+  <div class="row"><div><label class="f">Nome e cognome</label><input class="t" id="dn"></div><div><label class="f">Codice personale</label><input class="t" id="dc" style="text-transform:uppercase"> <button class="esci" id="dgen">crea un codice nuovo</button></div></div>
+  <label class="f">Materie</label><div class="chk" id="dm">${tutte.map(m=>`<label><input type="checkbox" value="${esc(m)}"> ${esc(m)}</label>`).join('')}</div>
+  <label style="display:flex;gap:6px;margin-top:10px;font-size:14px"><input type="checkbox" id="da" checked> attivo</label>
+  <button class="btn big" id="dgo" style="margin-top:12px">Salva il docente</button><div id="des"></div></div>`;
+  const gen=()=>{const a='ABCDEFGHJKLMNPQRSTUVWXYZ23456789';const r=crypto.getRandomValues(new Uint8Array(8));$('#dc').value='DOC-'+[...r].map(x=>a[x%a.length]).join('')};
+  $('#dgen').onclick=gen;gen();
+  $('#dgo').onclick=async()=>{const nome=$('#dn').value.trim(),cod=$('#dc').value.trim().toUpperCase(),materie=[...$('#dm').querySelectorAll('input:checked')].map(i=>i.value);
+    if(!nome||cod.length<6)return $('#des').innerHTML='<div class="msg no">Servono il nome e un codice di almeno 6 caratteri.</div>';
+    try{await api('persona',{nome,nuovo_codice:cod,materie,ruolo:'docente',attivo:$('#da').checked});
+      $('#des').innerHTML=`<div class="msg ok"><b>Salvato.</b> Manda a ${esc(nome)} questo codice e il link di questa pagina:<br><span class="codice">${esc(cod)}</span><br>Il codice non si può rivedere dopo: copialo adesso.</div>`;
+      api('nomi').then(r=>r.persone.forEach(p=>NOMI[p.id]=p.nome))}catch(e){$('#des').innerHTML=`<div class="msg no">${esc(e.message)}</div>`}};
+}
+function tabEsporta(){
+  $('#tab').innerHTML=`<div class="card"><p style="margin-top:0">Scarica tutti i compiti in un file che si apre con Excel. È la base per il report del venerdì.</p>
+  <div class="row"><div><label class="f">Dal giorno</label><input class="t" type="date" id="ed"></div><div><label class="f">Al giorno</label><input class="t" type="date" id="ea"></div></div>
+  <button class="btn big" id="ego" style="margin-top:12px">Scarica il file (CSV per Excel)</button></div>`;
+  const oggi=new Date(),lun=new Date(oggi);lun.setDate(oggi.getDate()-((oggi.getDay()+6)%7)-7);const dom=new Date(lun);dom.setDate(lun.getDate()+6);
+  $('#ed').value=lun.toISOString().slice(0,10);$('#ea').value=dom.toISOString().slice(0,10);
+  $('#ego').onclick=()=>{const da=$('#ed').value||'0000',a=($('#ea').value||'9999')+'T23:59:59';
+    const l=COMPITI.filter(c=>{const ev=c.eventi.map(e=>e.il);const t=[c.assegnato_il,...ev];return t.some(x=>x>=da&&x<=a)});
+    const righe=[['Alunno','Indirizzo','Materia','Lezione','Compito','Assegnato da','Assegnato il','Scadenza','Consegnato il','Consegna in ritardo','Corretto il','Voto','Commento del docente','Stato','Correzione in ritardo','Verificato da','Nota di verifica']];
+    l.forEach(c=>{const cons=[...c.eventi].reverse().find(e=>e.tipo==='consegna'),cor=[...c.eventi].reverse().find(e=>e.tipo==='correzione'||e.tipo==='da_rifare'),ver=[...c.eventi].reverse().find(e=>e.tipo==='verifica'||e.tipo==='segnalazione');
+      righe.push([c.alunni?.nome,c.alunni?.indirizzo,c.materia,c.lezione,c.titolo,c.persone?.nome,dlo(c.assegnato_il),dd(c.scadenza),dlo(cons?.il),c.consegna_in_ritardo?'sì':'',dlo(cor?.il),c.voto,cor?.testo,STATI[c.stato],c.ritardo&&c.stato==='consegnato'?'sì':'',ver?NOMI[ver.autore_id]:'',ver?.testo])});
+    const csv='﻿'+righe.map(r=>r.map(x=>'"'+String(x??'').replace(/"/g,'""')+'"').join(';')).join('\r\n');
+    const u=URL.createObjectURL(new Blob([csv],{type:'text/csv'}));const el=document.createElement('a');el.href=u;el.download='quaderno_compiti_'+$('#ed').value+'_'+$('#ea').value+'.csv';el.click();setTimeout(()=>URL.revokeObjectURL(u),5000)};
+}
+
+/* ---------------- scheda del compito ---------------- */
+function chiudi(){$('#modal').style.display='none';$('#mbody').innerHTML=''}
+$('#mchiudi').onclick=chiudi;
+function nomeAutore(e,c){return e.autore_tipo==='alunno'?(c.alunni?.nome||'alunno'):(NOMI[e.autore_id]||e.autore_tipo)}
+const TIPI={consegna:'Consegnato',correzione:'Corretto',da_rifare:'Rimandato «da rifare»',verifica:'Verificato',segnalazione:'Segnalazione'};
+async function apri(id){
+  const c=COMPITI.find(x=>x.id===id);if(!c)return;
+  const puoCorreggere=c.stato==='consegnato';const puoVerificare=STAFF()&&['corretto','verificato','segnalato'].includes(c.stato);
+  const cons=[...c.eventi].reverse().find(e=>e.tipo==='consegna');
+  $('#mbody').innerHTML=`<div class="mat">${esc(c.materia)}${c.lezione?' · '+esc(c.lezione):''}</div><h2 style="margin:4px 0">${esc(c.titolo)}</h2>
+  <p class="who" style="margin:0"><b>${esc(c.alunni?.nome)}</b> · ${esc(c.alunni?.indirizzo||'')}</p>
+  <p><span class="st ${c.stato}">${STATI[c.stato]}</span> ${c.voto?'<b>Voto: '+esc(c.voto)+'</b>':''} ${c.stato==='consegnato'?(c.ritardo?'<span class="rit">Correzione in ritardo (andava fatta entro '+dl(c.scadenza_correzione)+')</span>':'<span class="note">Da correggere entro '+dl(c.scadenza_correzione)+'</span>'):''}</p>
+  ${c.testo?`<p style="white-space:pre-wrap">${esc(c.testo)}</p>`:''}${c.allegato?`<button class="btn sec" data-vedi="${esc(c.allegato)}">Apri il file del compito</button>`:''}
+  <h3 style="font-size:15px;margin:16px 0 0">Storia del compito</h3><ul class="storia">
+  <li><b>Assegnato</b> ${dlo(c.assegnato_il)} da ${esc(c.persone?.nome||'')} · scadenza ${dd(c.scadenza)||'—'}</li>
+  ${c.eventi.map((e,i)=>`<li class="${e.tipo==='da_rifare'||e.tipo==='segnalazione'?'rosso':(e.tipo==='verifica'||e.tipo==='correzione'?'verde':'')}"><b>${TIPI[e.tipo]}</b> ${dlo(e.il)} da ${esc(nomeAutore(e,c))}
+    ${e.tipo==='consegna'&&c.scadenza&&e.il.slice(0,10)>c.scadenza?' <span class="rit">in ritardo</span>':''}${e.voto?' · voto <b>'+esc(e.voto)+'</b>':''}${e.testo?'<br>«'+esc(e.testo)+'»':''}
+    ${e.foto.length?`<div class="foto" data-ev="${i}">${e.foto.map((p,j)=>`<figure><img alt="Pagina ${j+1}" data-path="${esc(p)}"><figcaption>Pagina ${j+1}</figcaption></figure>`).join('')}</div>`:''}</li>`).join('')}</ul>
+  ${puoCorreggere?`<div class="card" style="background:var(--soft)"><h3 style="margin:0 0 4px;font-size:16px">Correzione</h3>
+    <p class="note" style="margin:0">Tocca una pagina qui sopra per segnarla in rosso (facoltativo). Poi scrivi voto e commento.</p><div id="editor"></div><div class="foto" id="corrette"></div>
+    <div class="row"><div><label class="f">Voto</label><input class="t" id="cv" placeholder="es. 7 o 6½"></div></div>
+    <label class="f">Commento per l'alunno</label><textarea class="t" id="cc"></textarea>
+    <div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:10px"><button class="btn verde" id="cok">Salva la correzione</button><button class="btn rosso" id="crif">Da rifare</button></div><div id="ces"></div></div>`:''}
+  ${puoVerificare?`<div class="card" style="background:var(--soft)"><h3 style="margin:0 0 4px;font-size:16px">Controllo del coordinamento</h3>
+    <label class="f">Nota (facoltativa per «Verificato», obbligatoria per la segnalazione)</label><textarea class="t" id="vn" style="min-height:44px"></textarea>
+    <div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:10px"><button class="btn verde" id="vok">Verificato</button><button class="btn rosso" id="vno">Segnalazione</button></div><div id="ves"></div></div>`:''}`;
+  $('#modal').style.display='block';$('#modal').scrollTop=0;
+  document.querySelectorAll('#mbody img[data-path]').forEach(async im=>{try{im.src=await vedi(im.dataset.path)}catch(e){im.alt='non disponibile'}
+    im.onclick=()=>{if(puoCorreggere&&cons&&cons.foto.includes(im.dataset.path))editor(im.dataset.path,im.src);else window.open(im.src,'_blank')}});
+  collegaVedi('#mbody');
+  if(puoCorreggere){CORR=[];const fine=async esito=>{const es=$('#ces');const voto=$('#cv').value.trim(),commento=$('#cc').value.trim();
+      if(esito!=='da_rifare'&&!voto)return es.innerHTML='<div class="msg no">Manca il voto.</div>';
+      if(esito==='da_rifare'&&!commento)return es.innerHTML='<div class="msg no">Scrivi nel commento che cosa deve rifare.</div>';
+      $('#cok').disabled=$('#crif').disabled=true;
+      try{const foto=[];for(let i=0;i<CORR.length;i++){es.innerHTML=`<div class="msg ok">Invio della pagina corretta ${i+1} di ${CORR.length}…</div>`;foto.push(await carica(CORR[i],'image/jpeg',c.id))}
+        await api('correggi',{compito_id:c.id,esito,voto,commento,foto});await caricaCompiti();chiudi();vistaScuola(`<div class="msg ok">${esito==='da_rifare'?'Compito rimandato all\'alunno da rifare.':'Correzione salvata.'}</div>`)}
+      catch(e){es.innerHTML=`<div class="msg no">${esc(e.message)}</div>`;$('#cok').disabled=$('#crif').disabled=false}};
+    $('#cok').onclick=()=>fine('correzione');$('#crif').onclick=()=>fine('da_rifare')}
+  if(puoVerificare){const v=async esito=>{const nota=$('#vn').value.trim();if(esito==='segnalazione'&&!nota)return $('#ves').innerHTML='<div class="msg no">Scrivi il motivo della segnalazione.</div>';
+      try{await api('verifica',{compito_id:c.id,esito,nota});await caricaCompiti();chiudi();vistaScuola(`<div class="msg ok">${esito==='segnalazione'?'Segnalazione registrata.':'Segnato come verificato.'}</div>`)}catch(e){$('#ves').innerHTML=`<div class="msg no">${esc(e.message)}</div>`}};
+    $('#vok').onclick=()=>v('verifica');$('#vno').onclick=()=>v('segnalazione')}
+}
+/* penna rossa sulla foto */
+let CORR=[];
+function editor(path,src){
+  const box=$('#editor');box.innerHTML=`<div class="edit"><div class="tools"><button class="btn sec" id="eu">Annulla l'ultimo segno</button><button class="btn sec" id="ep">Penna: sottile</button><button class="btn" id="es">Tieni questa pagina corretta</button><button class="btn sec" id="ex">Chiudi senza tenere</button></div><canvas id="cv2"></canvas></div>`;
+  const img=new Image();img.crossOrigin='anonymous';
+  img.onload=()=>{const cv=$('#cv2'),k=Math.min(1,1600/Math.max(img.width,img.height));cv.width=Math.round(img.width*k);cv.height=Math.round(img.height*k);const g=cv.getContext('2d');
+    const tratti=[];let cur=null,spess=4;
+    const disegna=()=>{g.drawImage(img,0,0,cv.width,cv.height);g.strokeStyle='#e00000';g.lineCap=g.lineJoin='round';tratti.forEach(t=>{g.lineWidth=t.w;g.beginPath();t.p.forEach((p,i)=>i?g.lineTo(p[0],p[1]):g.moveTo(p[0],p[1]));g.stroke()})};
+    const pos=e=>{const r=cv.getBoundingClientRect();return [(e.clientX-r.left)*cv.width/r.width,(e.clientY-r.top)*cv.height/r.height]};
+    cv.onpointerdown=e=>{cv.setPointerCapture(e.pointerId);cur={w:spess*cv.width/800,p:[pos(e)]};tratti.push(cur)};
+    cv.onpointermove=e=>{if(cur){cur.p.push(pos(e));disegna()}};cv.onpointerup=cv.onpointercancel=()=>{cur=null};
+    $('#eu').onclick=()=>{tratti.pop();disegna()};
+    $('#ep').onclick=()=>{spess=spess===4?9:4;$('#ep').textContent='Penna: '+(spess===4?'sottile':'grossa')};
+    $('#es').onclick=()=>cv.toBlob(b=>{CORR.push(b);box.innerHTML='';mostraCorrette()},'image/jpeg',.8);
+    $('#ex').onclick=()=>box.innerHTML='';disegna();box.scrollIntoView({behavior:'smooth'})};
+  img.onerror=()=>{box.innerHTML='<div class="msg no">Non riesco ad aprire la foto per segnarla. Puoi comunque scrivere voto e commento.</div>'};
+  img.src=src;
+}
+function mostraCorrette(){$('#corrette').innerHTML=CORR.map((b,i)=>`<figure><img src="${URL.createObjectURL(b)}" alt="Pagina corretta ${i+1}"><figcaption>Corretta ${i+1}</figcaption><button class="x" data-tc="${i}">×</button></figure>`).join('');
+  document.querySelectorAll('[data-tc]').forEach(b=>b.onclick=()=>{CORR.splice(+b.dataset.tc,1);mostraCorrette()})}
+function collegaVedi(dove=''){document.querySelectorAll(dove+' [data-vedi]').forEach(b=>b.onclick=async()=>{const w=window.open('','_blank');try{const u=await vedi(b.dataset.vedi);if(w)w.location=u;else location.href=u}catch(e){if(w)w.close();alert(e.message)}});
+  document.querySelectorAll(dove+' [data-fotoev]').forEach(b=>b.onclick=async()=>{const c=COMPITI.find(x=>x.id===b.dataset.fotoev);const e=[...c.eventi].reverse().find(x=>(x.tipo==='correzione'||x.tipo==='da_rifare')&&x.foto.length);if(!e)return;
+    $('#mbody').innerHTML=`<h2 style="margin-top:0">${esc(c.titolo)}</h2><p class="note">Le pagine corrette dal docente</p><div class="foto" style="grid-template-columns:1fr">${e.foto.map(p=>`<img data-path="${esc(p)}" style="aspect-ratio:auto;object-fit:contain">`).join('')}</div>`;$('#modal').style.display='block';
+    document.querySelectorAll('#mbody img[data-path]').forEach(async im=>{im.src=await vedi(im.dataset.path);im.onclick=()=>window.open(im.src,'_blank')})})}
+
+/* ---------------- avvio ---------------- */
+(function(){const h=new URLSearchParams(location.hash.slice(1));const c=h.get('c');
+  if(c){history.replaceState(null,'',location.pathname+location.search);return entra(c,true)}
+  const r=ricordato();if(r)return entra(r,false);schermataAccesso()})();
+</script>
+</body>
+</html>

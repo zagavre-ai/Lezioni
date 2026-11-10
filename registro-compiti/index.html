@@ -180,6 +180,7 @@ details.sec>summary small{text-transform:none;font-weight:normal;opacity:.85}
       </div>
       <div class="card sum nop" id="sum"></div>
       <div class="how nop" id="how"></div>
+      <div class="card nop" id="qq" hidden style="padding:12px;margin-top:12px;font-size:13px"></div>
     </aside>
     <section class="card day" id="day"></section>
   </div>
@@ -342,6 +343,7 @@ function head(){
   $('#how').innerHTML=ROLE==='docente'
     ?'<b>Come si usa.</b> Il registro si apre su oggi. Apri solo le sezioni che ti servono e scrivi: si salva da solo. La prima volta compila i «Dati generali». Il pallino giallo indica i giorni in cui hai scritto qualcosa.'
     :'<b>Come si usa.</b> Il registro si apre su oggi. Con «Ieri» o con il calendario vedi i giorni precedenti. Il pallino giallo indica i giorni in cui ci sono compiti.';
+  quaderno();
   if(LIVE)$('#who').innerHTML+=ROLE==='docente'
     ?'<span>Entrato come: <b>'+esc(DOCNAME)+'</b></span><button class="btn" id="esci">Esci</button>'
     :'<button class="btn pri" id="acc">Accesso docente</button>';
@@ -487,6 +489,13 @@ function avvio(){
     render();
   })().catch(()=>{$('#day').innerHTML='<div class="empty"><b>Il registro non si è caricato</b>Controlla la connessione e ricarica la pagina.</div>'});
 }
+/* quaderno dei compiti: QR per consegnare con il telefono (solo vista studente) */
+let QRLIB=null;
+function quaderno(){const q=$('#qq');if(!q)return;if(!(LIVE&&ROLE==='studente')){q.hidden=true;return}
+  const u='https://zagavre-ai.github.io/Lezioni/quaderno/#c='+encodeURIComponent(CODE);q.hidden=false;
+  q.innerHTML='<b style="color:var(--navy)">QUADERNO DEI COMPITI</b><p style="margin:6px 0">Hai svolto un compito su carta? Inquadra questo codice con la fotocamera del telefono, fotografa le pagine e premi «Consegna».</p><div id="qrc" style="display:flex;justify-content:center;margin:8px 0"></div><a href="'+u+'" target="_blank" rel="noopener" style="color:var(--navy)">Apri il quaderno su questo dispositivo</a>';
+  QRLIB=QRLIB||new Promise((ok,no)=>{const s=document.createElement('script');s.src='https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js';s.onload=ok;s.onerror=no;document.head.appendChild(s)});
+  QRLIB.then(()=>{const b=$('#qrc');if(b){b.innerHTML='';new QRCode(b,{text:u,width:170,height:170,correctLevel:QRCode.CorrectLevel.M})}}).catch(()=>{const b=$('#qrc');if(b)b.textContent='(il codice QR non si è caricato: usa il link qui sotto)'})}
 avvio();
 </script>
 </body>
