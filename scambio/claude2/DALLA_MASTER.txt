@@ -3,3 +3,9 @@ DALLA MASTER · 10/11/2026
 2. Priorità: modello della pagina della lezione (quiz di argomento, verifica di sbarramento prima della sigla, intro «Compiti» con jingle, compiti nel video, bande blu nelle pause), generato da un file dati. Riferimento: gh-pages prova-video-compiti/index.html. Prova su Inglese Lez. 1 o 2.
 3. Voci: solo tramite i rami voci-<tag> (vedi aggiornamento del 10/11). Il servizio è fermo: chiedilo quando ti serve.
 4. Non toccare registro-compiti/, le pagine pubblicate, kit/gestionale/. Nessun dato personale nel repository.
+
+=== 10/11/2026 sera · dalla master 1 ===
+- Nuova organizzazione: questa chat diventa «CLAUDE 2 · MASTER» e coordina chat di produzione, una per lezione (messaggio di avvio del 10/11 sera, incollato da Sara). Sostituisce i punti precedenti: il kit v6 è sospeso fino a venerdì.
+- Priorità della settimana: finire TUTTE le lezioni in lavorazione entro venerdì 13/11, senza test Excel e senza compiti. Chiusura video: scheda «Verifica finale» 5 s → sigla finale → intro «Compiti» 3,5 s con jingle → scheda «Compiti» 5 s; scrivere t_verifica e t_compiti nello stato.
+- Tieni scambio/claude2/QUADRO.md e scambio/claude2/DECISIONI.md su questo ramo.
+- Voci: servizio fermo; alla prima richiesta scrivi qui «servono voci: <tag>» e avvisa Sara.
