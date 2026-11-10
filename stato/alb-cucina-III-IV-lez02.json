@@ -1,0 +1,132 @@
+{
+ "tag": "alb-cucina-III-IV-lez02",
+ "parti": {
+  "1": {
+   "titolo": "Prodotti ittici · Parte 1",
+   "stato": "IN_MONTAGGIO",
+   "voci": "segnaposto",
+   "video": "Cucina_Prodotti_ittici_Parte1_VIDEO.mp4",
+   "durata_s": 3026.4,
+   "durata": "50:26.4",
+   "fotogrammi": 90793,
+   "fotogrammi_attesi": 90793,
+   "peso_MB": 265.5,
+   "timeline": [
+    [
+     "T1",
+     47.499,
+     3.6
+    ],
+    [
+     "Q1",
+     707.833,
+     4.0
+    ],
+    [
+     "T2",
+     713.133,
+     3.6
+    ],
+    [
+     "T3",
+     1687.133,
+     3.6
+    ],
+    [
+     "T4",
+     2260.566,
+     3.6
+    ],
+    [
+     "GL1",
+     2871.532,
+     63.467
+    ],
+    [
+     "RF1",
+     2936.599,
+     70.167
+    ],
+    [
+     "FIN1",
+     3008.166,
+     10.367
+    ]
+   ]
+  },
+  "2": {
+   "titolo": "Prodotti ittici · Parte 2",
+   "stato": "IN_MONTAGGIO",
+   "voci": "segnaposto",
+   "video": "Cucina_Prodotti_ittici_Parte2_VIDEO.mp4",
+   "durata_s": 3093.6,
+   "durata": "51:33.6",
+   "fotogrammi": 92809,
+   "fotogrammi_attesi": 92809,
+   "peso_MB": 296.6,
+   "timeline": [
+    [
+     "T5",
+     89.267,
+     3.6
+    ],
+    [
+     "T6",
+     800.866,
+     3.6
+    ],
+    [
+     "T7",
+     1180.898,
+     3.6
+    ],
+    [
+     "T8",
+     1828.515,
+     3.6
+    ],
+    [
+     "T9",
+     2414.581,
+     3.6
+    ],
+    [
+     "GL2",
+     2900.748,
+     74.4
+    ],
+    [
+     "RF2",
+     2976.748,
+     93.967
+    ],
+    [
+     "FIN2",
+     3077.715,
+     8.0
+    ]
+   ]
+  }
+ },
+ "manca": "P1 montata 50:26 con voci provvisorie, controlli ok. P2 montata 51:34 ma lo scatto del Quiz 7 è a -0,11 s: audio da rifare. Mancano per entrambe: voci Kore e la chiusura nuova. Ore stimate: P1 2 h, P2 2,5 h (dopo le voci).",
+ "serve_master": [
+  {
+   "quando": "10/11 20:43",
+   "testo": "Questa sessione non può scrivere su GitHub (push rifiutato 403, release non leggibili). Lo stato è pronto in stato_locale e il file per le voci in scambio/alb-cucina-III-IV-lez02/testi_voci.json: serve l'accesso in scrittura al repository oppure che qualcuno li carichi."
+  }
+ ],
+ "domande_sara": [],
+ "note": [
+  {
+   "quando": "10/11 20:37",
+   "testo": "Chiusura nuova (Verifica finale, sigla, intro Compiti, scheda Compiti) da aggiungere: t_verifica e t_compiti si scrivono al montaggio finale."
+  },
+  {
+   "quando": "10/11 20:43",
+   "testo": "Chiusura nuova inserita nel montaggio (FIN → Verifica finale 5 s → sigla finale → intro Compiti 3,5 s con jingle → Compiti 5 s). Test finale tolto dal montaggio. Montaggio con voci provvisorie senza codifica: la codifica a 1440p si fa una volta sola, quando arrivano le voci Kore."
+  }
+ ],
+ "materia": "Laboratori dei servizi enogastronomici – settore cucina",
+ "lezione": "Prodotti ittici",
+ "aggiornato": "2026-11-10 21:18:31"
+}
