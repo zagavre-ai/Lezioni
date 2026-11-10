@@ -491,7 +491,8 @@ function avvio(){
 }
 /* quaderno dei compiti: QR per consegnare con il telefono (solo vista studente) */
 let QRLIB=null;
-function quaderno(){const q=$('#qq');if(!q)return;if(!(LIVE&&ROLE==='studente')){q.style.display='none';return}
+function quaderno(){const q=$('#qq');if(!q)return;if(LIVE&&ROLE==='docente'){q.style.display='flex';q.innerHTML='<div style="flex:1 1 260px"><b style="color:var(--navy);letter-spacing:.06em">QUADERNO DEI COMPITI</b><p style="margin:6px 0 10px">Qui assegni i compiti, li correggi sulla foto e metti il voto. Entri con il tuo codice personale e vedi tutti i tuoi alunni.</p><a href="https://zagavre-ai.github.io/Lezioni/quaderno/" target="_blank" rel="noopener" style="display:inline-block;background:var(--navy);color:#fff;font-weight:bold;padding:11px 18px;border-radius:8px;text-decoration:none">Apri il quaderno dei compiti</a></div>';return}
+  if(!(LIVE&&ROLE==='studente')){q.style.display='none';return}
   const u='https://zagavre-ai.github.io/Lezioni/quaderno/#c='+encodeURIComponent(CODE);q.style.display='flex';
   q.innerHTML='<div style="flex:1 1 260px"><b style="color:var(--navy);letter-spacing:.06em">QUADERNO DEI COMPITI</b><p style="margin:6px 0 10px">Qui trovi i compiti da consegnare, i voti e le correzioni. Hai svolto un compito su carta? <b>Inquadra il codice con la fotocamera del telefono</b>, fotografa le pagine e premi «Consegna».</p><a href="'+u+'" target="_blank" rel="noopener" style="display:inline-block;background:var(--navy);color:#fff;font-weight:bold;padding:11px 18px;border-radius:8px;text-decoration:none">Apri il mio quaderno</a></div><div id="qrc" style="flex:0 0 auto"></div>';
   QRLIB=QRLIB||new Promise((ok,no)=>{const s=document.createElement('script');s.src='https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js';s.onload=ok;s.onerror=no;document.head.appendChild(s)});
