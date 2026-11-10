@@ -86,6 +86,7 @@ const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&g
 const STATI={assegnato:'Da consegnare',consegnato:'Da correggere',da_rifare:'Da rifare',corretto:'Corretto',verificato:'Verificato',segnalato:'Segnalato'};
 const dl=s=>s?new Date(s).toLocaleDateString('it-IT',{weekday:'short',day:'numeric',month:'short'}):'';
 const dlo=s=>s?new Date(s).toLocaleString('it-IT',{weekday:'short',day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'}):'';
+const loc=d=>d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');
 const dd=s=>s?new Date(s+'T12:00').toLocaleDateString('it-IT',{weekday:'short',day:'numeric',month:'short'}):'';
 let CODICE='',IO=null,COMPITI=[],ALUNNI=[],NOMI={},TAB='',F={alunno:'',materia:'',stato:'',cerca:''};
 
@@ -228,10 +229,10 @@ let ALLEGATO=null;
 function tabAssegna(){
   const tutte=[...new Set(ALUNNI.flatMap(a=>a.materie).filter(m=>m!=='Tutte le materie'))].sort();
   const mie=STAFF()?tutte:IO.materie;
-  const oggi=new Date();const lun=new Date(oggi);lun.setDate(oggi.getDate()+((8-oggi.getDay())%7||7)+2);// mercoledì prossimo
+  const lun=new Date();lun.setDate(lun.getDate()+7);// tra una settimana
   $('#tab').innerHTML=`<div class="card"><div class="row"><div><label class="f">Materia</label><select class="t" id="am">${mie.map(m=>`<option>${esc(m)}</option>`).join('')}</select></div>
   <div><label class="f">Lezione della piattaforma (nome originale)</label><input class="t" id="al" placeholder="es. Lezione 12 · Le frazioni"></div>
-  <div><label class="f">Da consegnare entro</label><input class="t" type="date" id="as" value="${lun.toISOString().slice(0,10)}"></div></div>
+  <div><label class="f">Da consegnare entro</label><input class="t" type="date" id="as" value="${loc(lun)}"></div></div>
   <label class="f">Titolo del compito</label><input class="t" id="at" placeholder="es. Esercizi 1–5 pagina 3">
   <label class="f">Consegna per l'alunno (cosa deve fare)</label><textarea class="t" id="ax" placeholder="Scrivi qui il testo del compito, oppure allega il PDF qui sotto"></textarea>
   <label class="f">File del compito (PDF o foto, facoltativo)</label><input type="file" id="af" accept="application/pdf,image/*"> <span class="note" id="afn"></span>
@@ -270,7 +271,7 @@ function tabEsporta(){
   <div class="row"><div><label class="f">Dal giorno</label><input class="t" type="date" id="ed"></div><div><label class="f">Al giorno</label><input class="t" type="date" id="ea"></div></div>
   <button class="btn big" id="ego" style="margin-top:12px">Scarica il file (CSV per Excel)</button></div>`;
   const oggi=new Date(),lun=new Date(oggi);lun.setDate(oggi.getDate()-((oggi.getDay()+6)%7)-7);const dom=new Date(lun);dom.setDate(lun.getDate()+6);
-  $('#ed').value=lun.toISOString().slice(0,10);$('#ea').value=dom.toISOString().slice(0,10);
+  $('#ed').value=loc(lun);$('#ea').value=loc(dom);
   $('#ego').onclick=()=>{const da=$('#ed').value||'0000',a=($('#ea').value||'9999')+'T23:59:59';
     const l=COMPITI.filter(c=>{const ev=c.eventi.map(e=>e.il);const t=[c.assegnato_il,...ev];return t.some(x=>x>=da&&x<=a)});
     const righe=[['Alunno','Indirizzo','Materia','Lezione','Compito','Assegnato da','Assegnato il','Scadenza','Consegnato il','Consegna in ritardo','Corretto il','Voto','Commento del docente','Stato','Correzione in ritardo','Verificato da','Nota di verifica']];
