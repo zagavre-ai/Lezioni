@@ -1,0 +1,45 @@
+# Struttura dei dati per crea_excel_controllo.py (esempio anonimizzato: nome e ID sostituiti)
+# Per ogni lezione con attività: id, titolo, fruizioni, test, tentativi, punteggio, prima vis., ultimo log, completamento,
+# sessioni, secondi visti, download materiale, verifiche presenza, questionari
+ALUNNA = {'nome': 'COGNOME NOME', 'id': 0, 'indirizzo': 'TECNICO ECONOMICO - TURISMO (I+II)', 'iscrizione': '03/11/2026'}
+CORSI = [
+ {'materia': 'Storia', 'id': 21, 'corso': 'STORIA I I ANNO', 'durata': '15 ore, 47 min e 36 sec', 'tempo': '06:11:12', 'cartella': 'STORIA',
+  'att': [
+   ('139', "LE ORIGINI DELL'UMANITÀ E LA PREISTORIA", 2, 'SI', 1, '100%', 'Mar, 03 Novembre, ore 17:20:15', 'Mer, 04 Novembre, ore 01:20:39', 'Mer, 04 Novembre, ore 01:20:39', 212, 9666, 1, 7, ['0 (0 sec) 03/11 19:11', '100 (5 min 32 sec) 04/11 01:20']),
+   ('140', 'LE CIVILTÀ DELLA MEZZALUNA FERTILE', 1, 'SI', 1, '90%', 'Gio, 05 Novembre, ore 19:49:34', 'Gio, 05 Novembre, ore 21:33:22', 'Gio, 05 Novembre, ore 21:33:22', 69, 3266, 1, 3, ['90 (5 min 27 sec) 05/11 21:33']),
+   ('141', "L'ANTICO EGITTO", 1, 'SI', 1, '100%', 'Lun, 09 Novembre, ore 11:19:16', 'Lun, 09 Novembre, ore 22:31:00', 'Lun, 09 Novembre, ore 22:31:00', 186, 4375, 1, 4, ['100 (3 min 7 sec) 09/11 22:31']),
+   ('142', 'I POPOLI DEL MEDITERRANEO', 0, 'SI', 0, '-', 'Mar, 10 Novembre, ore 11:49:57', 'Mar, 10 Novembre, ore 14:21:21', '-', 126, 4140, 2, 4, []),
+  ],
+  'altre': [('143','ORIGINE DEL MONDO GRECO'),('287','DUE MODELLI DI POLIS: SPARTA E ATENE'),('288','LE GUERRE PERSIANE'),('289',"L'ATENE DI PERICLE"),('373','LA GUERRA DEL PELOPONNESO'),('392','ALESSANDRO MAGNO'),('440',"L'ITALIA PREROMANA"),('490','LA REPUBBLICA ROMANA'),('587',"LE GUERRE DI ESPANSIONE - LA CONQUISTA DELL'ITALIA"),('662','LE GUERRE PUNICHE'),('815','LA CRISI DELLA REPUBBLICA-LE GUERRE CIVILI'),('915','CESARE E IL TRAMONTO DELLA REPUBBLICA')]},
+ {'materia': 'Matematica', 'id': 48, 'corso': 'MATEMATICA I I anno', 'durata': '33 ore, 35 min e 20 sec', 'tempo': '06:34:18', 'cartella': 'MATEMATICA',
+  'att': [
+   ('253', 'I NUMERI NATURALI E LE OPERAZIONI FONDAMENTALI', 1, 'SI', 1, '100%', 'Mar, 03 Novembre, ore 14:56:45', 'Mar, 03 Novembre, ore 16:41:45', 'Mar, 03 Novembre, ore 16:41:45', 189, 4083, 1, 3, ['0 (0 sec) 03/11 15:59', '100 (39 sec) 03/11 16:41']),
+   ('254', 'ESPRESSIONI, PROPRIETÀ DELLE OPERAZIONI E DELLE POTENZE', 1, 'SI', 1, '84%', 'Mer, 04 Novembre, ore 15:07:36', 'Mer, 04 Novembre, ore 16:50:00', 'Mer, 04 Novembre, ore 16:50:00', 25, 3606, 3, 2, ['84 (10 min 27 sec) 04/11 16:50']),
+   ('255', 'MULTIPLI, DIVISORI, CRITERI DI DIVISIBILITÀ, MCD, mcm', 1, 'SI', 1, '100%', 'Gio, 05 Novembre, ore 21:39:47', 'Ven, 06 Novembre, ore 11:36:08', 'Ven, 06 Novembre, ore 11:36:08', 19, 3506, 1, 3, ['0 (0 sec) 05/11 22:56', '0 (0 sec) 06/11 10:43', '100 (31 min 38 sec) 06/11 11:36']),
+   ('256', 'I NUMERI RELATIVI', 1, 'SI', 2, '88%', 'Sab, 07 Novembre, ore 12:30:17', 'Sab, 07 Novembre, ore 13:51:11', 'Sab, 07 Novembre, ore 13:51:11', 18, 3653, 1, 3, ['75 (6 min 15 sec) 07/11 13:45', '88 (4 min 27 sec) 07/11 13:51']),
+   ('258', 'I NUMERI RAZIONALI (I parte)', 1, 'SI', 1, '100%', 'Mar, 10 Novembre, ore 09:56:49', 'Mar, 10 Novembre, ore 11:26:43', 'Mar, 10 Novembre, ore 11:26:43', 33, 3622, 1, 3, ['100 (2 min 59 sec) 10/11 11:26']),
+  ],
+  'altre': [('261','I NUMERI RAZIONALI (II parte)'),('257','RISOLVERE ESPRESSIONI CON LE FRAZIONI'),('259','I NUMERI DECIMALI E PERIODICI'),('260','LE PROPORZIONI E LE PERCENTUALI'),('282','I NUMERI REALI'),('458','GLI INSIEMI E SOTTOINSIEMI'),('479','OPERAZIONI CON GLI INSIEMI'),('506','INSIEMI E LOGICA'),('518','RELAZIONI E FUNZIONI (I PARTE)'),('519','RELAZIONI E FUNZIONI (II PARTE)'),('1048','I MONOMI (1° PARTE)'),('1049','I MONOMI (2° PARTE)'),('589','MASSIMO COMUNE DIVISORE E MINIMO COMUNE MULTIPLO FRA MONOMI'),('1050','I POLINOMI (1° PARTE)'),('1051','I POLINOMI (2° PARTE)'),('1052','IL CALCOLO LETTERALE : I PRODOTTI NOTEVOLI (1° PARTE)'),('1054','IL CALCOLO LETTERALE : I PRODOTTI NOTEVOLI (2° PARTE)'),('1055','IL CALCOLO LETTERALE : LA SCOMPOSIZIONE IN FATTORI (1° PARTE)'),('1056','IL CALCOLO LETTERALE : LA SCOMPOSIZIONE IN FATTORI (2° PARTE)'),('1053','CALCOLO LETTERALE: SCOMPORRE I PRODOTTI NOTEVOLI'),('1125','IL CALCOLO LETTERALE: I TRINOMI CARATTERISTICI'),('1135','IL CALCOLO LETTERALE : M.C.D E m.c.m. tra polinomi'),('1255','LE FRAZIONI ALGEBRICHE'),('1256','MOLTIPLICAZIONE, DIVISIONE E POTENZA DI FRAZIONI ALGEBRICHE'),('1257','ADDIZIONI E SOTTRAZIONI DI FRAZIONI ALGEBRICHE'),('1328','LE EQUAZIONI DI I° GRADO INTERE'),('1329','RISOLUZIONI DI EQUAZIONI DI I° GRADO INTERE'),('1330','EQUAZIONI DI I° GRADO FRATTE')]},
+ {'materia': 'Italiano', 'id': 665, 'corso': 'LINGUA ITALIANA I (GRAMMATICA - NARRATIVA - EPICA) I ANNO', 'durata': '22 ore, 36 min e 14 sec', 'tempo': '02:28:37', 'cartella': 'ITALIANO',
+  'att': [
+   ('135', 'LA COMUNICAZIONE', 1, 'SI', 1, '90%', 'Mer, 04 Novembre, ore 18:51:28', 'Mer, 04 Novembre, ore 21:02:42', 'Mer, 04 Novembre, ore 21:02:42', 31, 4600, 1, 4, ['90 (5 min 28 sec) 04/11 21:02']),
+   ('136', 'LA STRUTTURA E IL SIGNIFICATO DELLE PAROLE', 1, 'SI', 1, '90%', 'Ven, 06 Novembre, ore 11:41:48', 'Ven, 06 Novembre, ore 13:21:30', 'Ven, 06 Novembre, ore 13:21:30', 42, 3704, 1, 3, ['90 (4 min 42 sec) 06/11 13:21']),
+  ],
+  'altre': [('137','IL VERBO'),('138',"IL NOME E L'ARTICOLO"),('283',"L'AGGETTIVO"),('365','IL PRONOME'),('414','LE PARTI INVARIABILI'),('505','LA SINTASSI DELLA FRASE SEMPLICE (1° PARTE)'),('3277','LA SINTASSI DELLA FRASE SEMPLICE (2° PARTE)'),('372','IL TESTO NARRATIVO (I parte)'),('334','IL TESTO NARRATIVO (II parte)'),('387','NARRATIVA-LO STILE'),('477','I GENERI LETTERARI (1° PARTE)'),('600','I GENERI LETTERARI (2° PARTE)'),('780','I GENERI LETTERARI (3° PARTE)'),('786','I GENERI LETTERARI (4° PARTE)'),('860',"L' ILIADE"),('945',"L'ODISSEA"),('986',"L'ENEIDE")]},
+ {'materia': 'Diritto ed economia', 'id': 811, 'corso': 'DIRITTO ED ECONOMIA (I+II) - PROF.SSA J. DIDONE', 'durata': '45 ore, 43 min e 27 sec', 'tempo': '01:02:54', 'cartella': None,
+  'att': [
+   ('4214', 'DIRITTO ED ECONOMIA: COSA FAREMO INSIEME', 1, 'SI', 1, '100%', 'Sab, 07 Novembre, ore 16:36:10', 'Sab, 07 Novembre, ore 17:41:53', 'Sab, 07 Novembre, ore 17:41:53', 11, 3656, 1, 3, ['100 (1 min 57 sec) 07/11 17:41']),
+  ],
+  'altre': [('4215','FOCUS SUGLI OBIETTIVI FORMATIVI DEL CORSO'),('4216','LA NORMA GIURIDICA (1° PARTE)'),('4217','LA NORMA GIURIDICA (2° PARTE)'),('4218','LA NORMA GIURIDICA (3° PARTE)'),('4219','RIPASSIAMO:LEGAME TRA DIRITTO ED ECONOMIA-ORDINAMENTO GIURIDICO-NORME GIURIDICHE-IL DIRITTO E LE SUE FONTI-LA PIRAMIDE GERARCHICA'),('4220','I SOGGETTI DEL DIRITTO'),('4221',"FOCUS SUI PERCORSI PER LE COMPETENZE TRASVERSALI E L'ORIENTAMENTO (PCTO)"),('4222',"LE ORGANIZZAZIONI COLLETTIVE E L'IMPRESA"),('4223','LA NASCITA ED EVOLUZIONE DELLE RISORSE UMANE E IL RAPPORTO DI LAVORO')]},
+ {'materia': 'Scienze della terra', 'id': 759, 'corso': 'SCIENZE DELLA TERRA', 'durata': '14 ore, 27 min e 15 sec', 'tempo': '00:00:00', 'cartella': None, 'att': [],
+  'altre': [('3850','CONOSCENZE DI BASE PER LE SCIENZE DELLA TERRA'),('3851',"L'UNIVERSO E IL SISTEMA SOLARE (1° PARTE)"),('3875',"L'UNIVERSO E IL SISTEMA SOLARE PARTE (2° PARTE)"),('3876','LA TERRA E LA LUNA (1° PARTE)')]},
+ {'materia': 'Chimica', 'id': 690, 'corso': 'CHIMICA (I+II)', 'durata': '17 ore, 23 min e 24 sec', 'tempo': '00:00:00', 'cartella': None, 'att': [],
+  'altre': [('3262','LE MISURE E LE GRANDEZZE'),('3263','LE TRASFORMAZIONI FISICHE DELLA MATERIA'),('3264','DALLE TRASFORMAZIONI CHIMICHE ALLA TEORIA ATOMICA'),('3295','LA TEORIA CINETICO-MOLECOLARE')]},
+ {'materia': 'Tecnologie informatiche', 'id': 27, 'corso': 'TECNOLOGIE INFORMATICHE E SCIENZE E TECNOLOGIE APPLICATE I anno', 'durata': '9 ore, 48 min e 42 sec', 'tempo': '00:00:00', 'cartella': None, 'att': [],
+  'altre': [('161','LA TECNOLOGIA DIGITALE- FONDAMENTI'),('162','HARDWARE'),('163','SOFTWARE E SISTEMA OPERATIVO'),('164','PC MULTIMEDIALE')]},
+ {'materia': 'Tecnologie e tecniche di rappresentazione grafica', 'id': 689, 'corso': 'TECNOLOGIE E TECNICHE DI RAPPRESENTAZIONE GRAFICA PROF. DANIELE LAGATTA', 'durata': '31 ore, 15 min e 43 sec', 'tempo': '00:00:00', 'cartella': None, 'att': [],
+  'altre': [('3052','STRUMENTI E NORME PER IL DISEGNO GEOMETRICO'),('3287','NOMENCLATURA E DEFINIZIONI: ENTI GEOMETRICI FONDAMENTALI'),('3290','USO CORRETTO DELLE SQUADRE'),('3291','LA GEOMETRIA EUCLIDEA - ELEMENTI BASILARI CON APPLICAZIONI PRATICHE (1° PARTE)')]},
+]
+TOT_LEZ = {21: 16, 48: 33, 665: 19, 811: 45, 759: 16, 690: 17, 27: 9, 689: 36}
+CARTELLE = {'MATEMATICA': [('MATEMATICA_ESERCIZIO_1.jpeg','04/11/2026'),('MATEMATICA_ESERCIZIO_2.jpeg','04/11/2026'),('MATEMATICA_ESERCIZIO_2_.jpeg','04/11/2026'),('MATEMATICA_ESERCIZIO_2_ - Copia.jpeg','04/11/2026'),('ESERCIZI_LEZIONE_4_.jpeg','07/11/2026'),('ESERCIZI_LEZIONE_4.jpeg','07/11/2026'),('ESERCIZI_LEZIONE_4_ - Copia.jpeg','07/11/2026')], 'ITALIANO': [], 'STORIA': []}
+LIVE = ('8439', '1° lezione live di Italiano', '28/10/2026', 'completata (31 min)')
