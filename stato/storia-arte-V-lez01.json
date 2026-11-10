@@ -1,0 +1,23 @@
+{
+ "tag": "storia-arte-V-lez01",
+ "parti": {
+  "1": {
+   "titolo": "Il Neoclassicismo",
+   "stato": "IN_MONTAGGIO",
+   "voci": "segnaposto"
+  }
+ },
+ "manca": "traccia docente (pezzi 5-7, in corso), montaggio, nuova chiusura, codifica, controlli, voci Kore",
+ "serve_master": [
+  {
+   "quando": "10/11 20:38",
+   "testo": "STRUTTURA: registrazione 64:21 (docente pulito ~63:24). Con la regola dell'8/11 (fino a ~65 min una sola Parte) la monto in UNA Parte: con gli inserti obbligatori viene circa 74 min; con anche le 22 schede opera, linee del tempo e confronti (già pronti) circa 80 min. Confermate una Parte e quali inserti tenere?"
+  }
+ ],
+ "domande_sara": [],
+ "note": [],
+ "materia": "Storia dell'Arte V",
+ "lezione": "Il Neoclassicismo",
+ "docente": "Prof. Giorgio Mazzotti",
+ "aggiornato": "2026-11-10 21:22:20"
+}
