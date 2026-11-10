@@ -1,0 +1,591 @@
+{
+ "tag": "alb-alimentazione-III-IV-lez03",
+ "parti": {
+  "1": {
+   "titolo": "I cereali",
+   "stato": "IN_MONTAGGIO",
+   "voci": "segnaposto",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "si",
+   "video": "Scienza_alimentazione_Lez3_1440p.mp4",
+   "durata_s": 3575.2,
+   "durata": "59:35.2",
+   "fotogrammi": 107253,
+   "fotogrammi_attesi": 107255,
+   "peso_MB": 324.6,
+   "vtt": "Scienza_alimentazione_Lez3.vtt",
+   "scheda": {
+    "titolo": "Scienza e cultura dell'alimentazione · Lezione 3 · I cereali",
+    "file": "Scienza_alimentazione_Lez3_1440p.mp4",
+    "durata_s": 3575.2,
+    "argomenti": [
+     {
+      "n": 1,
+      "titolo": "Struttura e classificazione dei cereali",
+      "inizio_s": 36.4,
+      "quiz_s": 427.1
+     },
+     {
+      "n": 2,
+      "titolo": "La storia dei cereali",
+      "inizio_s": 432.4,
+      "quiz_s": 632.6
+     },
+     {
+      "n": 3,
+      "titolo": "Il frumento e il valore nutritivo",
+      "inizio_s": 637.9,
+      "quiz_s": 963.4
+     },
+     {
+      "n": 4,
+      "titolo": "Molitura e farine",
+      "inizio_s": 968.7,
+      "quiz_s": 1583.4
+     },
+     {
+      "n": 5,
+      "titolo": "Il pane e la pasta",
+      "inizio_s": 1588.7,
+      "quiz_s": 2196.2
+     },
+     {
+      "n": 6,
+      "titolo": "Il riso",
+      "inizio_s": 2201.5,
+      "quiz_s": 2454.4
+     },
+     {
+      "n": 7,
+      "titolo": "Il mais",
+      "inizio_s": 2459.7,
+      "quiz_s": 2816.8
+     },
+     {
+      "n": 8,
+      "titolo": "Orzo e cereali minori",
+      "inizio_s": 2822.1,
+      "quiz_s": 3148.2
+     },
+     {
+      "n": 9,
+      "titolo": "I tuberi",
+      "inizio_s": 3153.5,
+      "quiz_s": 3502.3
+     }
+    ],
+    "quiz": {
+     "Q1": {
+      "title": "Quiz 1 · Struttura e classificazione dei cereali",
+      "items": [
+       {
+        "p": "Come si chiama il frutto secco prodotto dai cereali?",
+        "a": "Cariosside.",
+        "w": [
+         "Tutolo.",
+         "Glumella.",
+         "Plansichter."
+        ],
+        "ref": "Tutti i cereali appartengono alla famiglia delle Poaceae (Graminacee) e producono un frutto secco chiamato cariosside."
+       },
+       {
+        "p": "Quale parte del chicco è la riserva di energia, ricca di amido?",
+        "a": "L'endosperma.",
+        "w": [
+         "La crusca.",
+         "Il germe.",
+         "Lo strato aleuronico."
+        ],
+        "ref": "Endosperma (83-85%): riserva di energia. Qui troviamo i granuli di amido (60-70% del peso del chicco)."
+       },
+       {
+        "p": "Che cosa contiene la crusca?",
+        "a": "Fibre (cellulosa e lignina) e sali minerali.",
+        "w": [
+         "Quasi tutti i lipidi del chicco.",
+         "Solo amido.",
+         "Solo acqua."
+        ],
+        "ref": "Crusca (14-15%): scudo esterno. Ricca di fibre (cellulosa e lignina) e sali minerali."
+       },
+       {
+        "p": "Quali sono i cereali maggiori, cioè di maggior consumo?",
+        "a": "Frumento, riso e mais.",
+        "w": [
+         "Orzo, avena e miglio.",
+         "Grano saraceno, quinoa e amaranto.",
+         "Segale, sorgo e farro."
+        ],
+        "ref": "Cereali maggiori (di maggior consumo: frumento, riso e mais)."
+       },
+       {
+        "p": "Quale di questi cereali è naturalmente privo di glutine?",
+        "a": "Il riso.",
+        "w": [
+         "Il frumento.",
+         "L'orzo.",
+         "La segale."
+        ],
+        "ref": "Cereali naturalmente privi di glutine: mais, miglio e riso."
+       }
+      ]
+     },
+     "Q2": {
+      "title": "Quiz 2 · La storia dei cereali",
+      "items": [
+       {
+        "p": "Secondo un'antica credenza, da quale dea nascevano i cereali?",
+        "a": "Dalla dea romana Cerere.",
+        "w": [
+         "Da Minerva.",
+         "Da Venere.",
+         "Da Diana."
+        ],
+        "ref": "La storia dei cereali nasce in tempi antichissimi come nel caso della credenza antica che nascessero dalla dea romana Cerere."
+       },
+       {
+        "p": "Dove ebbe inizio la coltivazione dell'orzo e del frumento?",
+        "a": "Nel Medio Oriente.",
+        "w": [
+         "In America centrale.",
+         "In Asia orientale.",
+         "In Nord Europa."
+        ],
+        "ref": "La coltivazione dell'orzo e del frumento ebbe inizio nel Medio Oriente."
+       },
+       {
+        "p": "Quando arrivò il mais in Europa?",
+        "a": "Dopo la scoperta delle Americhe, nel 1492.",
+        "w": [
+         "Nel Medioevo, con gli Arabi.",
+         "Al tempo dell'antica Roma.",
+         "Nel 1900."
+        ],
+        "ref": "Il mais arrivò in Europa solo dopo la scoperta delle Americhe nel 1492."
+       },
+       {
+        "p": "Come si conservano oggi le cariossidi?",
+        "a": "In silos ad atmosfera controllata con azoto.",
+        "w": [
+         "In sacchi all'aperto.",
+         "Sotto sale.",
+         "In acqua fredda."
+        ],
+        "ref": "Oggi la conservazione delle cariossidi è riservata a silos ad atmosfera controllata con azoto, che proteggono il raccolto dai parassiti."
+       },
+       {
+        "p": "Quale cereale era fondamentale per i Maya e gli Inca?",
+        "a": "Il mais.",
+        "w": [
+         "Il riso.",
+         "L'orzo.",
+         "La segale."
+        ],
+        "ref": "Il mais rappresentava il cereale fondamentale per le popolazioni dell'America centrale come i Maya e gli Inca."
+       }
+      ]
+     },
+     "Q3": {
+      "title": "Quiz 3 · Il frumento e il valore nutritivo",
+      "items": [
+       {
+        "p": "Come sono le cariossidi del grano tenero?",
+        "a": "Rotondeggianti e farinose.",
+        "w": [
+         "Allungate e vitree.",
+         "Lunghe e affusolate.",
+         "Piccole e nere."
+        ],
+        "ref": "Grano tenero: le sue cariossidi sono prevalentemente rotondeggianti e farinose."
+       },
+       {
+        "p": "A che cosa è adatta la semola del grano duro?",
+        "a": "Alla pasta secca alimentare.",
+        "w": [
+         "Ai biscotti.",
+         "Al pane azzimo.",
+         "Alla birra."
+        ],
+        "ref": "Grano duro: le cariossidi sono allungate e vitree; producono una semola adatta alla pasta secca alimentare."
+       },
+       {
+        "p": "Che cos'è il triticale?",
+        "a": "Il primo cereale creato dall'uomo, incrociando frumento e segale.",
+        "w": [
+         "Una varietà di riso.",
+         "Un tipo di farina 00.",
+         "Uno pseudocereale come la quinoa."
+        ],
+        "ref": "Triticale: primo cereale creato dall'uomo tramite l'incrocio tra frumento e segale."
+       },
+       {
+        "p": "Quali proteine formano il glutine nel frumento?",
+        "a": "Gliadina e glutenina.",
+        "w": [
+         "Albumine e globuline.",
+         "Cellulosa e lignina.",
+         "Lisina e triptofano."
+        ],
+        "ref": "Protidi (~12%): nel frumento la componente principale è formata da gliadina e glutenina (che formano il glutine)."
+       },
+       {
+        "p": "Perché i cereali sono alimenti prevalentemente energetici?",
+        "a": "Per l'alto contenuto di amido.",
+        "w": [
+         "Per l'alto contenuto di grassi.",
+         "Per l'alto contenuto di acqua.",
+         "Perché sono privi di glucidi."
+        ],
+        "ref": "I cereali sono alimenti prevalentemente energetici grazie all'alto contenuto di amido."
+       }
+      ]
+     },
+     "Q4": {
+      "title": "Quiz 4 · Molitura e farine",
+      "items": [
+       {
+        "p": "Su quale principio si basa la molitura del frumento?",
+        "a": "Separare l'endosperma dalle altre parti del chicco.",
+        "w": [
+         "Unire la crusca all'endosperma.",
+         "Far germogliare il chicco.",
+         "Eliminare l'amido."
+        ],
+        "ref": "La molitura del frumento si basa sul principio fondamentale di separazione dell'endosperma dalle altre parti del chicco."
+       },
+       {
+        "p": "A che cosa serve il condizionamento?",
+        "a": "A mettere a riposo i chicchi per standardizzare l'umidità della massa.",
+        "w": [
+         "A eliminare i sassolini.",
+         "A misurare la forza della farina.",
+         "A confezionare la farina."
+        ],
+        "ref": "Il condizionamento serve a mettere a riposo i chicchi per standardizzare l'umidità della massa."
+       },
+       {
+        "p": "Come si chiamano i setacci a piani oscillanti dell'abburattamento?",
+        "a": "Plansichter.",
+        "w": [
+         "Alveografi.",
+         "Laminatoi.",
+         "Silos."
+        ],
+        "ref": "Abburattamento: separazione della farina dalle parti esterne tramite setacci a piani oscillanti chiamati plansichter."
+       },
+       {
+        "p": "Se il grado di abburattamento aumenta…",
+        "a": "si ottiene più farina, ma meno fine.",
+        "w": [
+         "si ottiene meno farina, ma più fine.",
+         "la farina diventa senza glutine.",
+         "la farina aumenta di forza W."
+        ],
+        "ref": "Maggiore sarà questo grado e maggiore sarà la quantità di farina ottenuta, ma minore risulterà il suo livello di finezza."
+       },
+       {
+        "p": "Con quale strumento si misura la forza della farina?",
+        "a": "L'alveografo di Chopin.",
+        "w": [
+         "Il plansichter.",
+         "Il termometro.",
+         "Il laminatoio."
+        ],
+        "ref": "La forza della farina, indicata con la sigla W, è misurata con l'alveografo di Chopin."
+       }
+      ]
+     },
+     "Q5": {
+      "title": "Quiz 5 · Il pane e la pasta",
+      "items": [
+       {
+        "p": "Che cosa dà alla crosta del pane il tipico aroma e colore bruno?",
+        "a": "La reazione di Maillard.",
+        "w": [
+         "La gramolatura.",
+         "La trafilatura.",
+         "L'abburattamento."
+        ],
+        "ref": "Durante la cottura, la reazione di Maillard conferisce alla crosta il tipico aroma e colore bruno."
+       },
+       {
+        "p": "Quante tipologie regionali di pane vanta l'Italia?",
+        "a": "Oltre 250.",
+        "w": [
+         "Circa 25.",
+         "Circa 100.",
+         "Oltre 1.000."
+        ],
+        "ref": "L'Italia vanta oltre 250 tipologie regionali, influenzate dalle materie prime locali."
+       },
+       {
+        "p": "Che cos'è il pane azzimo?",
+        "a": "Un pane senza lievito.",
+        "w": [
+         "Un pane di segale.",
+         "Un pane di mais.",
+         "Un pane di semola aromatizzato."
+        ],
+        "ref": "Specialità: come il pane azzimo (senza lievito)."
+       },
+       {
+        "p": "Quante uova deve contenere almeno la pasta all'uovo per ogni chilo di semola?",
+        "a": "Quattro uova intere di gallina.",
+        "w": [
+         "Una.",
+         "Due.",
+         "Dieci."
+        ],
+        "ref": "Pasta all'uovo: deve contenere almeno quattro uova intere di gallina per ogni chilogrammo di semola."
+       },
+       {
+        "p": "Perché la pasta dà un maggiore senso di sazietà?",
+        "a": "Perché in cottura aumenta di 2-3 volte il proprio peso assorbendo acqua.",
+        "w": [
+         "Perché è priva di amido.",
+         "Perché si cuoce a 250 °C.",
+         "Perché contiene molti grassi."
+        ],
+        "ref": "Durante la cottura la pasta aumenta di 2-3 volte il proprio peso assorbendo acqua, il che favorisce un maggiore senso di sazietà."
+       }
+      ]
+     },
+     "Q6": {
+      "title": "Quiz 6 · Il riso",
+      "items": [
+       {
+        "p": "Chi introdusse il riso in Europa?",
+        "a": "Gli Arabi, durante il Medioevo.",
+        "w": [
+         "I Romani.",
+         "Cristoforo Colombo.",
+         "I Maya."
+        ],
+        "ref": "Il riso è stato introdotto in Europa dagli Arabi durante il Medioevo."
+       },
+       {
+        "p": "Come sono i chicchi del riso japonica?",
+        "a": "Tondeggianti e opachi.",
+        "w": [
+         "Lunghi e vitrei.",
+         "Neri e piccoli.",
+         "Lunghissimi e trasparenti."
+        ],
+        "ref": "Japonica: chicchi tondeggianti e opachi, coltivata nei climi temperati come l'Italia."
+       },
+       {
+        "p": "Quale lavorazione dà il riso integrale?",
+        "a": "La sbramatura.",
+        "w": [
+         "La brillatura.",
+         "La sbiancatura.",
+         "La lucidatura."
+        ],
+        "ref": "Sbramatura: eliminazione delle glumelle per ottenere il riso integrale (o sbramato)."
+       },
+       {
+        "p": "Quanti chili di riso brillato si ricavano da 100 kg di risone?",
+        "a": "Circa 55 kg.",
+        "w": [
+         "Circa 95 kg.",
+         "Circa 20 kg.",
+         "Circa 80 kg."
+        ],
+        "ref": "Da 100 kg di risone si ricavano mediamente solo 55 kg di riso brillato."
+       },
+       {
+        "p": "Che cosa succede nel riso parboiled?",
+        "a": "Il vapore sposta vitamine e sali minerali verso l'interno del chicco.",
+        "w": [
+         "Il chicco viene ricoperto di talco.",
+         "Il chicco viene fatto germogliare.",
+         "Il chicco perde tutto l'amido."
+        ],
+        "ref": "Riso parboiled: il trattamento con vapore sposta i nutrienti idrosolubili dal germe e dagli strati esterni verso l'interno."
+       }
+      ]
+     },
+     "Q7": {
+      "title": "Quiz 7 · Il mais",
+      "items": [
+       {
+        "p": "Perché in Italia il mais fu chiamato granoturco?",
+        "a": "Perché si definiva turco tutto ciò che veniva dall'oltremare.",
+        "w": [
+         "Perché arrivò dalla Turchia.",
+         "Perché ha i chicchi gialli.",
+         "Perché si coltivava solo al Sud."
+        ],
+        "ref": "In Italia venne chiamato granoturco, per l'usanza di definire turco qualsiasi prodotto proveniente dall'oltremare."
+       },
+       {
+        "p": "Come si chiama la struttura centrale su cui sono disposti i chicchi?",
+        "a": "Tutolo.",
+        "w": [
+         "Cariosside.",
+         "Glumella.",
+         "Spiga distica."
+        ],
+        "ref": "I chicchi sono disposti su una struttura centrale (tutolo), che insieme formano la pannocchia."
+       },
+       {
+        "p": "Quanto dura il ciclo dei mais quarantini o cinquantini?",
+        "a": "Circa 3 mesi.",
+        "w": [
+         "Circa 6 mesi.",
+         "Circa 1 anno.",
+         "Circa 2 settimane."
+        ],
+        "ref": "Quarantini o cinquantini: seminati in estate con un ciclo breve di circa 3 mesi."
+       },
+       {
+        "p": "Che cos'è la maizena?",
+        "a": "Amido di mais purificato, usato come addensante.",
+        "w": [
+         "Farina di mais per polenta.",
+         "Olio di mais.",
+         "Mais dolce in scatola."
+        ],
+        "ref": "Maizena: amido di mais purificato, usato come addensante in cucina e pasticceria."
+       },
+       {
+        "p": "Perché le proteine del mais sono di basso valore biologico?",
+        "a": "Perché sono carenti di lisina e triptofano.",
+        "w": [
+         "Perché sono troppo abbondanti.",
+         "Perché contengono glutine.",
+         "Perché si trovano solo nella crusca."
+        ],
+        "ref": "Le proteine del mais sono di basso valore biologico perché carenti di amminoacidi essenziali come la lisina e il triptofano."
+       }
+      ]
+     },
+     "Q8": {
+      "title": "Quiz 8 · Orzo e cereali minori",
+      "items": [
+       {
+        "p": "Quale varietà di orzo si usa per il malto della birra e del whisky?",
+        "a": "L'orzo distico.",
+        "w": [
+         "L'orzo esastico.",
+         "L'orzo perlato.",
+         "L'orzo tetrastico."
+        ],
+        "ref": "Distico: con 2 file di chicchi, particolarmente utilizzato per la produzione del malto."
+       },
+       {
+        "p": "Che cos'è l'orzo perlato?",
+        "a": "Un orzo privato completamente degli strati esterni.",
+        "w": [
+         "Un orzo con tutte le fibre.",
+         "Un orzo per la birra.",
+         "Un orzo tostato per il caffè."
+        ],
+        "ref": "Orzo perlato: privato completamente degli strati esterni; bianco, di facile cottura, usato in zuppe e minestre."
+       },
+       {
+        "p": "Che cosa sono i betaglucani dell'avena?",
+        "a": "Fibre solubili che aiutano ad abbassare il colesterolo.",
+        "w": [
+         "Proteine che formano il glutine.",
+         "Zuccheri semplici.",
+         "Sostanze tossiche."
+        ],
+        "ref": "L'avena contiene betaglucani, fibre solubili che aiutano ad abbassare il colesterolo."
+       },
+       {
+        "p": "Quale di questi cereali contiene glutine?",
+        "a": "La segale.",
+        "w": [
+         "Il miglio.",
+         "Il sorgo.",
+         "Il grano saraceno."
+        ],
+        "ref": "Il pane di segale, di colore scuro, si conserva a lungo ed è ricchissimo di fibre; contiene glutine."
+       },
+       {
+        "p": "Di quali piatti è ingrediente base il grano saraceno?",
+        "a": "Pizzoccheri valtellinesi e polenta taragna.",
+        "w": [
+         "Risotto e paella.",
+         "Pane azzimo e grissini.",
+         "Porridge e muesli."
+        ],
+        "ref": "Il grano saraceno è l'ingrediente base per i pizzoccheri valtellinesi IGP e la polenta taragna."
+       }
+      ]
+     },
+     "Q9": {
+      "title": "Quiz 9 · I tuberi",
+      "items": [
+       {
+        "p": "Quali patate sono perfette per gnocchi e purè?",
+        "a": "Le patate a pasta bianca.",
+        "w": [
+         "Le patate a pasta gialla.",
+         "Le patate a buccia rossa.",
+         "Le patate precoci."
+        ],
+        "ref": "Patate a pasta bianca: farinose, sono perfette per gnocchi e purè."
+       },
+       {
+        "p": "Quanto amido contengono circa le patate?",
+        "a": "Il 16%.",
+        "w": [
+         "Il 75%.",
+         "Il 2%.",
+         "Il 50%."
+        ],
+        "ref": "Contengono circa il 16% di amido, il 2% di proteine, vitamina C, vitamine del gruppo B e sali minerali."
+       },
+       {
+        "p": "Dove si trova la solanina, sostanza tossica delle patate?",
+        "a": "Nella buccia e nelle parti verdi.",
+        "w": [
+         "Solo nella polpa bianca.",
+         "Solo nell'acqua di cottura delle patate gialle.",
+         "Nei germogli della manioca."
+        ],
+        "ref": "La solanina è una sostanza tossica che si trova nella buccia e nelle parti verdi."
+       },
+       {
+        "p": "Perché la manioca va sbucciata prima di essere consumata?",
+        "a": "Perché nella buccia ci sono cianuri tossici.",
+        "w": [
+         "Perché la buccia è troppo dura da cuocere.",
+         "Perché la buccia contiene glutine.",
+         "Perché la buccia è amara ma innocua."
+        ],
+        "ref": "Prima di essere lavorata o consumata, la manioca deve essere sbucciata: nella buccia sono presenti cianuri (tossici)."
+       },
+       {
+        "p": "Che cos'è la tapioca?",
+        "a": "Una farina granulata di amido derivata dalla manioca.",
+        "w": [
+         "Una varietà di patata rossa.",
+         "Un cereale africano.",
+         "Un tipo di topinambur."
+        ],
+        "ref": "La tapioca è una farina granulata di amido (fecola) derivata dalla manioca."
+       }
+      ]
+     }
+    }
+   }
+  }
+ },
+ "manca": "Voci Kore (13 voci, 3,1 min, testi da approvare da Sara); chiusura nuova Verifica/Compiti: video già codificato senza (decide la master). Ore stimate dopo le voci: 1,5",
+ "serve_master": [
+  {
+   "quando": "10/11 20:36",
+   "testo": "Accesso in scrittura al repository: add_repo push rifiutato (l'account GitHub della sessione non ha push su zagavre-ai/Lezioni), quindi niente rami stato-/voci-. Video già codificato senza la nuova chiusura: rifare?"
+  }
+ ],
+ "domande_sara": [],
+ "note": [],
+ "materia": "Scienza e cultura dell'alimentazione · Alberghiero III-IV",
+ "lezione": "Lezione 3 · I cereali",
+ "docente": "Prof.ssa Piera Caputi",
+ "aggiornato": "2026-11-10 21:22:33"
+}
