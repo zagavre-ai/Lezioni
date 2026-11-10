@@ -1,0 +1,31 @@
+{
+ "tag": "alb-cucina-III-IV-lez04",
+ "parti": {
+  "1": {
+   "titolo": "Gastronomia internazionale 1",
+   "stato": "DA_FARE",
+   "voci": "segnaposto"
+  }
+ },
+ "manca": "Parte unica, circa 52 min stimati. Fatti: testo, sincronia slide, quiz, testi delle voci. Mancano: grafiche, montaggio, voci Kore, chiusura nuova, codifica. Ore stimate: 5 h.",
+ "serve_master": [
+  {
+   "quando": "10/11 20:43",
+   "testo": "Questa sessione non può scrivere su GitHub (push rifiutato 403, release non leggibili). Lo stato è pronto in stato_locale e il file per le voci in scambio/alb-cucina-III-IV-lez04/testi_voci.json: serve l'accesso in scrittura al repository oppure che qualcuno li carichi."
+  }
+ ],
+ "domande_sara": [],
+ "note": [
+  {
+   "quando": "10/11 20:37",
+   "testo": "Chiusura nuova (Verifica finale, sigla, intro Compiti, scheda Compiti) da aggiungere: t_verifica e t_compiti si scrivono al montaggio finale."
+  },
+  {
+   "quando": "10/11 20:43",
+   "testo": "Chiusura nuova inserita nel montaggio (FIN → Verifica finale 5 s → sigla finale → intro Compiti 3,5 s con jingle → Compiti 5 s). Test finale tolto dal montaggio. Montaggio con voci provvisorie senza codifica: la codifica a 1440p si fa una volta sola, quando arrivano le voci Kore."
+  }
+ ],
+ "materia": "Laboratori dei servizi enogastronomici – settore cucina",
+ "lezione": "Gastronomia internazionale 1",
+ "aggiornato": "2026-11-10 21:18:36"
+}
