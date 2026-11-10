@@ -1,0 +1,137 @@
+{
+ "tag": "psicologia-I-II-lez01",
+ "titolo": "Introduzione alle scienze umane",
+ "approvato_da_Sara": "10/11/2026",
+ "impronta": "sha256('compiti|'+tag+'|'+id+'|'+risposta.trim().toLowerCase()); 'ordina' = elementi in ordine giusto uniti da '|'",
+ "A_esercizi_chiusi": [
+  {
+   "id": "A1",
+   "tipo": "vf",
+   "testo": "Le scienze della natura studiano l'essere umano, le sue azioni e la sua mente.",
+   "opzioni": [
+    "V",
+    "F"
+   ],
+   "soluzione_sha256": "4623b3c65f6b8a8af23251a6dc146af8c925237a4c6715a007044bd2d5285531"
+  },
+  {
+   "id": "A2",
+   "tipo": "vf",
+   "testo": "Scienze umane e scienze della natura hanno in comune l'uso del metodo scientifico.",
+   "opzioni": [
+    "V",
+    "F"
+   ],
+   "soluzione_sha256": "bdfcb61d08e91cbfa7bcf6c94d1168178f6f9d5f7c8925927618d7da4499f847"
+  },
+  {
+   "id": "A3",
+   "tipo": "vf",
+   "testo": "Secondo le scienze umane, un comportamento dipende di solito da una sola causa.",
+   "opzioni": [
+    "V",
+    "F"
+   ],
+   "soluzione_sha256": "34bcc1cd7e4f4e3701028da4a2ff438909d4274d10f548d81808d0e3e368536c"
+  },
+  {
+   "id": "A4",
+   "tipo": "vf",
+   "testo": "La dimensione storica spiega come valori e tradizioni cambiano nel tempo.",
+   "opzioni": [
+    "V",
+    "F"
+   ],
+   "soluzione_sha256": "e4c7be0c7a3b2cb8a19c1d39f5870cf0993b42fc9edfc59b7853719701ed5f54"
+  },
+  {
+   "id": "A5",
+   "tipo": "collega",
+   "testo": "Psicologia",
+   "opzioni": [
+    "gli strumenti e le tecniche per le indagini sul campo",
+    "i popoli e le diverse culture umane",
+    "il comportamento e i processi mentali dell'individuo",
+    "le strutture sociali, le istituzioni e l'interazione nei gruppi"
+   ],
+   "soluzione_sha256": "6fb141805896db3d30bc6e90e4e1d43ad43fe4edfe55e8b4824f7f249097f895"
+  },
+  {
+   "id": "A6",
+   "tipo": "collega",
+   "testo": "Sociologia",
+   "opzioni": [
+    "gli strumenti e le tecniche per le indagini sul campo",
+    "i popoli e le diverse culture umane",
+    "il comportamento e i processi mentali dell'individuo",
+    "le strutture sociali, le istituzioni e l'interazione nei gruppi"
+   ],
+   "soluzione_sha256": "917fe59378ef3a347c631c42c00b2ccd46772e9b98bbf556c5a46ff2d237a867"
+  },
+  {
+   "id": "A7",
+   "tipo": "collega",
+   "testo": "Antropologia",
+   "opzioni": [
+    "gli strumenti e le tecniche per le indagini sul campo",
+    "i popoli e le diverse culture umane",
+    "il comportamento e i processi mentali dell'individuo",
+    "le strutture sociali, le istituzioni e l'interazione nei gruppi"
+   ],
+   "soluzione_sha256": "6a348608641dac0ae2292527b18107e332e906a0499dce8f730f411929e5f7c8"
+  },
+  {
+   "id": "A8",
+   "tipo": "collega",
+   "testo": "Metodologia della ricerca",
+   "opzioni": [
+    "gli strumenti e le tecniche per le indagini sul campo",
+    "i popoli e le diverse culture umane",
+    "il comportamento e i processi mentali dell'individuo",
+    "le strutture sociali, le istituzioni e l'interazione nei gruppi"
+   ],
+   "soluzione_sha256": "369bc9b0048797a7fb67eb225f4770ea29e4d37b83932595a4a386f631a0aabd"
+  },
+  {
+   "id": "A9",
+   "tipo": "completa",
+   "testo": "I fattori che influenzano il comportamento sono i fattori ___ e di sviluppo",
+   "soluzione_sha256": "2291e2fe39d6f3d4b82ddaad8a8bf99d6fc529b1d74fdeba9098f010354a73a1"
+  },
+  {
+   "id": "A10",
+   "tipo": "completa",
+   "testo": "l'influenza dell'___",
+   "soluzione_sha256": "71a410f6fee38d252fd16dbbc2500c32a202b1266971eb8c5563c6024038b4ae"
+  },
+  {
+   "id": "A11",
+   "tipo": "completa",
+   "testo": "e la dimensione ___",
+   "soluzione_sha256": "8135535185502a146a5c3bf8107145e3b419f9ed7ed17aee2e50f27308878bab"
+  }
+ ],
+ "B_domande_aperte": [
+  {
+   "id": "B1",
+   "testo": "Spiega la differenza tra scienze umane e scienze della natura: che cosa studiano e che cosa hanno in comune?",
+   "righe": "10–15"
+  },
+  {
+   "id": "B2",
+   "testo": "Che cosa significa che il comportamento umano ha una «natura multi-causale»? Descrivi i tre fattori principali con un esempio per ciascuno.",
+   "righe": "10–15"
+  },
+  {
+   "id": "B3",
+   "testo": "Perché, secondo il docente, le scienze umane sono «uno strumento» e non solo una materia teorica?",
+   "righe": "10–15"
+  }
+ ],
+ "C_elaborato": {
+  "id": "C1",
+  "testo": "«Io e i miei contesti». Scegli un tuo comportamento abituale (per esempio come usi i social, come studi, come passi il tempo con gli amici). Analizzalo con i tre fattori della lezione: biologico e di sviluppo, ambiente (famiglia, scuola, amici), dimensione storica (sarebbe stato uguale 50 anni fa?). Indica quale delle quattro discipline (psicologia, sociologia, antropologia, metodologia della ricerca) ti aiuterebbe di più a studiarlo e perché. Circa una pagina di quaderno.",
+  "criteri_docente_decimi": "Comprensione dei concetti 4 · uso corretto dei termini 2 · collegamento con la propria esperienza 2 · ordine e chiarezza 2",
+  "consegna": "su carta, foto nel quaderno dei compiti"
+ }
+}

@@ -1,0 +1,188 @@
+{
+ "tag": "psicologia-I-II-lez02",
+ "titolo": "La psicologia: nascita e sviluppi",
+ "approvato_da_Sara": "10/11/2026",
+ "impronta": "sha256('compiti|'+tag+'|'+id+'|'+risposta.trim().toLowerCase()); 'ordina' = elementi in ordine giusto uniti da '|'",
+ "A_esercizi_chiusi": [
+  {
+   "id": "A1",
+   "tipo": "collega",
+   "testo": "Cartesio",
+   "opzioni": [
+    "il comportamentismo",
+    "il dualismo tra mente e corpo",
+    "il funzionalismo e la «corrente del pensiero»",
+    "il metodo dei tempi di reazione",
+    "il primo laboratorio di psicologia (Lipsia, 1879)",
+    "la Gestalt",
+    "la legge psicofisica tra intensità dello stimolo e sensazione"
+   ],
+   "soluzione_sha256": "b4ac5c0977812462420dbd5441289ff9fc5e2bad82191eeda39085ad64f4336d"
+  },
+  {
+   "id": "A2",
+   "tipo": "collega",
+   "testo": "Fechner",
+   "opzioni": [
+    "il comportamentismo",
+    "il dualismo tra mente e corpo",
+    "il funzionalismo e la «corrente del pensiero»",
+    "il metodo dei tempi di reazione",
+    "il primo laboratorio di psicologia (Lipsia, 1879)",
+    "la Gestalt",
+    "la legge psicofisica tra intensità dello stimolo e sensazione"
+   ],
+   "soluzione_sha256": "d6ebeeb2a37cea7b82f120056ab42e5355a2a2fab853bd24fa94da1ee06683e4"
+  },
+  {
+   "id": "A3",
+   "tipo": "collega",
+   "testo": "Donders",
+   "opzioni": [
+    "il comportamentismo",
+    "il dualismo tra mente e corpo",
+    "il funzionalismo e la «corrente del pensiero»",
+    "il metodo dei tempi di reazione",
+    "il primo laboratorio di psicologia (Lipsia, 1879)",
+    "la Gestalt",
+    "la legge psicofisica tra intensità dello stimolo e sensazione"
+   ],
+   "soluzione_sha256": "0062a3bd0696bd4d5073b6109037a9257f589be9a5d3ebca463bc3335e8f85ef"
+  },
+  {
+   "id": "A4",
+   "tipo": "collega",
+   "testo": "Wundt",
+   "opzioni": [
+    "il comportamentismo",
+    "il dualismo tra mente e corpo",
+    "il funzionalismo e la «corrente del pensiero»",
+    "il metodo dei tempi di reazione",
+    "il primo laboratorio di psicologia (Lipsia, 1879)",
+    "la Gestalt",
+    "la legge psicofisica tra intensità dello stimolo e sensazione"
+   ],
+   "soluzione_sha256": "7ed0d4b86cafb52191472b18835320126df01dc203b976028403c12326f41ad7"
+  },
+  {
+   "id": "A5",
+   "tipo": "collega",
+   "testo": "William James",
+   "opzioni": [
+    "il comportamentismo",
+    "il dualismo tra mente e corpo",
+    "il funzionalismo e la «corrente del pensiero»",
+    "il metodo dei tempi di reazione",
+    "il primo laboratorio di psicologia (Lipsia, 1879)",
+    "la Gestalt",
+    "la legge psicofisica tra intensità dello stimolo e sensazione"
+   ],
+   "soluzione_sha256": "c51cb75c7d69c80661021d318d1e4fc1fbd9790ffcec4946da410c14f4ce642b"
+  },
+  {
+   "id": "A6",
+   "tipo": "collega",
+   "testo": "Wertheimer",
+   "opzioni": [
+    "il comportamentismo",
+    "il dualismo tra mente e corpo",
+    "il funzionalismo e la «corrente del pensiero»",
+    "il metodo dei tempi di reazione",
+    "il primo laboratorio di psicologia (Lipsia, 1879)",
+    "la Gestalt",
+    "la legge psicofisica tra intensità dello stimolo e sensazione"
+   ],
+   "soluzione_sha256": "e640d57261bd1f15da2731eafa3e6117c7bdae4ed4033d50a5fa5146aeaabc68"
+  },
+  {
+   "id": "A7",
+   "tipo": "collega",
+   "testo": "Watson",
+   "opzioni": [
+    "il comportamentismo",
+    "il dualismo tra mente e corpo",
+    "il funzionalismo e la «corrente del pensiero»",
+    "il metodo dei tempi di reazione",
+    "il primo laboratorio di psicologia (Lipsia, 1879)",
+    "la Gestalt",
+    "la legge psicofisica tra intensità dello stimolo e sensazione"
+   ],
+   "soluzione_sha256": "4a395fe92c23da858431ba9ed84ac7e8f0a6b01a4c38535a417abe0d2a50b564"
+  },
+  {
+   "id": "A8",
+   "tipo": "vf",
+   "testo": "La parola «psicologia» viene dal greco e significa «scienza dell'anima».",
+   "opzioni": [
+    "V",
+    "F"
+   ],
+   "soluzione_sha256": "590900cf51b0827126bc19ef04b80e68b88573dd4caebf65d76dc0b13b99c893"
+  },
+  {
+   "id": "A9",
+   "tipo": "vf",
+   "testo": "Per il comportamentismo la psicologia deve studiare soprattutto la mente e i pensieri nascosti.",
+   "opzioni": [
+    "V",
+    "F"
+   ],
+   "soluzione_sha256": "0cf72b388b2468d2fff8b7f90fb53f760254f8681b02d2d825e978e0e04bf6b0"
+  },
+  {
+   "id": "A10",
+   "tipo": "vf",
+   "testo": "Per il cognitivismo la mente è come un elaboratore di informazioni: riceve input e restituisce output.",
+   "opzioni": [
+    "V",
+    "F"
+   ],
+   "soluzione_sha256": "a0b20d3567e67099a187a11f8c6f2de83ea7fd3e2cc17ef31c598c6c34fe16b7"
+  },
+  {
+   "id": "A11",
+   "tipo": "vf",
+   "testo": "Il caso di Phineas Gage mostra un legame tra aree del cervello e personalità.",
+   "opzioni": [
+    "V",
+    "F"
+   ],
+   "soluzione_sha256": "0a9a50bf6e06a33894eedf25441aee98230a2b006cb368660e03ef47cc7f209a"
+  },
+  {
+   "id": "A12",
+   "tipo": "ordina",
+   "testo": "Metti in ordine gli stadi di Piaget",
+   "elementi": [
+    "operatorio-astratto",
+    "operatorio-concreto",
+    "pre-operatorio",
+    "senso-motorio"
+   ],
+   "soluzione_sha256": "eee69e3d5e7c4dfbe4c6017fb03b1e65e9f115e28173b559f2d1aa39487439e4"
+  }
+ ],
+ "B_domande_aperte": [
+  {
+   "id": "B1",
+   "testo": "Racconta il caso di Phineas Gage e spiega perché è così importante per la psicologia.",
+   "righe": "10–15"
+  },
+  {
+   "id": "B2",
+   "testo": "Confronta lo strutturalismo e il funzionalismo: che cosa studiano e in che cosa si oppongono?",
+   "righe": "10–15"
+  },
+  {
+   "id": "B3",
+   "testo": "Perché il cognitivismo nasce «in opposizione» al comportamentismo? Spiega il modello H.I.P. con un esempio della vita quotidiana.",
+   "righe": "10–15"
+  }
+ ],
+ "C_elaborato": {
+  "id": "C1",
+  "testo": "«La psicologia al lavoro». Scegli uno degli ambiti di applicazione presentati dal docente (scuola, sanità, azienda e selezione del personale, marketing, sport oppure psicologia dell'emergenza). Descrivi una situazione concreta in cui interviene uno psicologo e indica quale area di ricerca gli serve (cognitiva, dello sviluppo, clinica, sociale). Se scegli l'emergenza, spiega le sue tre funzioni (descrivere, intervenire, prevenire) con un esempio, come la pandemia o una catastrofe naturale. Circa una pagina.",
+  "criteri_docente_decimi": "Correttezza dei contenuti 4 · lessico specifico 2 · esempio concreto e pertinente 2 · chiarezza 2",
+  "consegna": "su carta, foto nel quaderno dei compiti"
+ }
+}

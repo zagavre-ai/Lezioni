@@ -1,0 +1,130 @@
+{
+ "tag": "psicologia-I-II-lez03",
+ "titolo": "La percezione: la mente e la realtà",
+ "approvato_da_Sara": "10/11/2026",
+ "impronta": "sha256('compiti|'+tag+'|'+id+'|'+risposta.trim().toLowerCase()); 'ordina' = elementi in ordine giusto uniti da '|'",
+ "A_esercizi_chiusi": [
+  {
+   "id": "A1",
+   "tipo": "ordina",
+   "testo": "Metti in ordine le tre fasi della rielaborazione dei dati sensoriali",
+   "elementi": [
+    "interpretazione",
+    "trasformazione",
+    "unificazione"
+   ],
+   "soluzione_sha256": "8821560bd00c1c09b6450a84c0add9469a4ef61feb4b4020e5ddd2b66e57ee66"
+  },
+  {
+   "id": "A2",
+   "tipo": "scelta",
+   "testo": "Vediamo un gruppo di puntini vicini come un'unica macchia: quale legge della Gestalt?",
+   "opzioni": [
+    "vicinanza",
+    "somiglianza",
+    "chiusura",
+    "continuità"
+   ],
+   "soluzione_sha256": "0d597cef64435b02c75e1611d4f28d9b6b2ad54b4c97ee49b17ed980737f48d8"
+  },
+  {
+   "id": "A3",
+   "tipo": "scelta",
+   "testo": "In una scacchiera vediamo «le righe rosse» e «le righe blu»: quale legge?",
+   "opzioni": [
+    "vicinanza",
+    "somiglianza",
+    "chiusura",
+    "continuità"
+   ],
+   "soluzione_sha256": "88c90dab50ad7d407384d5eeb8729dc8028b17eae6419d89594a30c8111668de"
+  },
+  {
+   "id": "A4",
+   "tipo": "scelta",
+   "testo": "Vediamo un cerchio intero anche se il contorno è interrotto: quale legge?",
+   "opzioni": [
+    "vicinanza",
+    "somiglianza",
+    "chiusura",
+    "continuità"
+   ],
+   "soluzione_sha256": "4a4082dac4432c1d3056d75dd36165f5f068b597d0907fe2a13647f0cc3cbf43"
+  },
+  {
+   "id": "A5",
+   "tipo": "scelta",
+   "testo": "Vediamo una linea curva unica dove due linee si incrociano: quale legge?",
+   "opzioni": [
+    "vicinanza",
+    "somiglianza",
+    "chiusura",
+    "continuità"
+   ],
+   "soluzione_sha256": "832070e31fc58def002190237069dd21e6e52cf6887d0453436aa3cb1e4977af"
+  },
+  {
+   "id": "A6",
+   "tipo": "vf",
+   "testo": "La percezione è una semplice fotografia della realtà.",
+   "opzioni": [
+    "V",
+    "F"
+   ],
+   "soluzione_sha256": "5eedcebb432aae7610356f23d42ee05c78ff75c34877e69c45b3e4c3e351773c"
+  },
+  {
+   "id": "A7",
+   "tipo": "vf",
+   "testo": "Il vaso di Rubin è un esempio di percezione fluttuante.",
+   "opzioni": [
+    "V",
+    "F"
+   ],
+   "soluzione_sha256": "9e35568871373fd189dc14c0da2c84cfda5db1236cd3b3601d3a58e2ef8c4f74"
+  },
+  {
+   "id": "A8",
+   "tipo": "vf",
+   "testo": "La stanza di Ames inganna la costanza della grandezza.",
+   "opzioni": [
+    "V",
+    "F"
+   ],
+   "soluzione_sha256": "42793d67174fe1343c019976986f9cddd1cedfb748a8e629ea1266c35059606e"
+  },
+  {
+   "id": "A9",
+   "tipo": "vf",
+   "testo": "L'agnosia è causata da un danno agli occhi o alle orecchie.",
+   "opzioni": [
+    "V",
+    "F"
+   ],
+   "soluzione_sha256": "fc1db16c82db056fe7147710c769850ed0f58aba4bea728167a80bbecd9ed2c9"
+  }
+ ],
+ "B_domande_aperte": [
+  {
+   "id": "B1",
+   "testo": "Perché la psicologia afferma che la percezione è un processo attivo e non passivo? Usa l'esempio dei limiti dei nostri sensi (onde luminose, ultrasuoni).",
+   "righe": "10–15"
+  },
+  {
+   "id": "B2",
+   "testo": "Spiega che cosa sono le costanze percettive e descrivine due, con un esempio per ciascuna preso dalla tua esperienza.",
+   "righe": "10–15"
+  },
+  {
+   "id": "B3",
+   "testo": "Qual è la differenza tra un'illusione percettiva, un'allucinazione e un'agnosia?",
+   "righe": "10–15"
+  }
+ ],
+ "C_elaborato": {
+  "id": "C1",
+  "testo": "«Il mio esperimento di percezione». 1) Disegna sul quaderno, oppure cerca e incolla, una figura fra queste: vaso di Rubin, triangolo di Penrose, illusione di Müller-Lyer, illusione di Ponzo. 2) Mostrala a due persone (familiari o amici) senza spiegare niente e scrivi che cosa vedono e quanto ci mettono. 3) Spiega il risultato con i concetti della lezione (figura e sfondo, percezione fluttuante, figure impossibili, costanze). 4) Concludi con una riflessione di 5–6 righe: che cosa ti ha insegnato l'esperimento su come la mente «costruisce» la realtà?",
+  "criteri_docente_decimi": "Descrizione dell'esperimento 2 · spiegazione con i concetti corretti 4 · riflessione personale 2 · chiarezza e ordine 2",
+  "consegna": "su carta, foto nel quaderno dei compiti"
+ }
+}
