@@ -14,3 +14,10 @@ DALLA MASTER · 10/11/2026
 - Da domani TUTTO il lavoro pesante (montaggio, codifica, controlli, pagine) lo fa Claude 2: la master 1 ha poco utilizzo fino a venerdì 19:00.
 - La master 1 fa solo: voci (servizio), testi dei compiti, controllo finale degli stati, riepilogo del mattino.
 - Nuovo in coda per Claude 2: Psicologia I-II Lez1 e Lez2 da RIMONTARE (vietato unire lezioni). Lez1 = solo la sua registrazione, arricchita a 50 min con il suo PDF; Lez2 = intera con i suoi argomenti 1–2 (0–819,68 s), una Parte sola (~70–72 min, approvato da Sara). Riusare voci/slide/quiz già fatti (vedi stati stato-psicologia-I-II-lez01/02). Excel docente nelle release (lez03: file sbagliato, Sara lo ricarica).
+
+=== 10/11/2026 22:40 · dalla master 1 · LEZIONI DELL'ACCOUNT 1 ===
+- Le chat di produzione dell'account 1 si FERMANO. Le loro lezioni passano a te.
+- Lezioni già PRONTA (vedi rami stato-*): NON si ricodificano. Verifica e compiti li aggiunge la PAGINA della lezione: ferma il video a t_sigla_finale, mostra la verifica con le bande blu sopra il video, poi la sigla, poi (fine video) jingle «Compiti» suonato dalla pagina e compiti. Serve solo t_sigla_finale: prendilo da scheda_pubblicazione.json (Sara lo carica nella release se serve) o misuralo sul video (corrispondenza audio con la sigla in kit/sigle). Il player di riferimento è prova-video-compiti/.
+- Per le lezioni NUOVE resta la chiusura nel video (scheda Verifica 5 s → sigla → intro Compiti 3,5 s → scheda Compiti 5 s).
+- Da riprendere con una chat ciascuna: afm-inglese-triennio-lez03 (FERMA), moda-economia-III-IV-lez02 (FERMA), letteratura-V-lez03 e moda-ideazione-III-IV-lez01 (in montaggio all'8/11: controlla lo stato), psicologia-I-II-lez01 e lez02 (rimontaggio, vedi nota precedente). Le voci già fatte sono sui rami voci-<tag>: non rigenerarle.
+- Excel mancanti nelle release: letteratura-V lez01-03, storia-V-lez01, afm-inglese lez02 (Sara dice che dovrebbe averlo), moda-economia lez01, moda-tecnologie lez01, storia-arte-V lez01/03/04/05. Compiti: nessun docente li ha mandati, li scrive la master 1 (Psicologia 1-3 proposti il 10/11; Letteratura = temi).
