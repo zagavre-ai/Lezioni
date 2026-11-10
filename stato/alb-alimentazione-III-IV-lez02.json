@@ -1,0 +1,586 @@
+{
+ "tag": "alb-alimentazione-III-IV-lez02",
+ "parti": {
+  "1": {
+   "titolo": "Sicurezza alimentare",
+   "stato": "IN_MONTAGGIO",
+   "voci": "segnaposto",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "si",
+   "video": "Scienza_alimentazione_Lez2_1440p.mp4",
+   "durata_s": 3500.2,
+   "durata": "58:20.2",
+   "fotogrammi": 105007,
+   "fotogrammi_attesi": 105008,
+   "peso_MB": 305.0,
+   "vtt": "Scienza_alimentazione_Lez2.vtt",
+   "scheda": {
+    "titolo": "Scienza e cultura dell'alimentazione · Lezione 2 · Sicurezza alimentare",
+    "file": "Scienza_alimentazione_Lez2_1440p.mp4",
+    "durata_s": 3500.2,
+    "argomenti": [
+     {
+      "n": 1,
+      "titolo": "Sicurezza alimentare e buone pratiche",
+      "inizio_s": 39.4,
+      "quiz_s": 670.0
+     },
+     {
+      "n": 2,
+      "titolo": "Filiera, tracciabilità e rintracciabilità",
+      "inizio_s": 675.3,
+      "quiz_s": 1037.0
+     },
+     {
+      "n": 3,
+      "titolo": "Alimenti naturali, trasformati e gruppi",
+      "inizio_s": 1042.3,
+      "quiz_s": 1314.1
+     },
+     {
+      "n": 4,
+      "titolo": "Le norme ISO",
+      "inizio_s": 1319.5,
+      "quiz_s": 1571.9
+     },
+     {
+      "n": 5,
+      "titolo": "Rischi, HACCP e controlli",
+      "inizio_s": 1577.2,
+      "quiz_s": 1970.9
+     },
+     {
+      "n": 6,
+      "titolo": "Le certificazioni di qualità",
+      "inizio_s": 1976.3,
+      "quiz_s": 2313.7
+     },
+     {
+      "n": 7,
+      "titolo": "Etichetta e frodi alimentari",
+      "inizio_s": 2319.0,
+      "quiz_s": 2634.0
+     },
+     {
+      "n": 8,
+      "titolo": "La degustazione e i sensi",
+      "inizio_s": 2639.3,
+      "quiz_s": 2939.6
+     },
+     {
+      "n": 9,
+      "titolo": "La Carta di Milano",
+      "inizio_s": 2945.0,
+      "quiz_s": 3431.1
+     }
+    ],
+    "quiz": {
+     "Q1": {
+      "title": "Quiz 1 · Sicurezza alimentare e buone pratiche",
+      "items": [
+       {
+        "p": "Quando un alimento è considerato salubre?",
+        "a": "Quando non ha tossicità propria, non ha tossicità acquisita e non contiene microrganismi patogeni.",
+        "w": [
+         "Quando è stato prodotto in un'area geografica delimitata.",
+         "Quando ha un sapore gradevole e un bell'aspetto.",
+         "Quando è stato confezionato da meno di un giorno."
+        ],
+        "ref": "Un alimento è considerato salubre quando non ha tossicità propria, non ha tossicità acquisita (come metalli pesanti) e non contiene microrganismi patogeni."
+       },
+       {
+        "p": "Quale di questi è un esempio di tossicità acquisita?",
+        "a": "I metalli pesanti.",
+        "w": [
+         "Il colore naturale dell'alimento.",
+         "La data di scadenza.",
+         "Il contenuto di vitamine."
+        ],
+        "ref": "Non ha tossicità acquisita (come metalli pesanti)."
+       },
+       {
+        "p": "Chi sono gli OSA?",
+        "a": "Gli operatori del settore alimentare.",
+        "w": [
+         "Gli organi di sorveglianza degli allergeni.",
+         "Gli osservatori della salute animale.",
+         "Gli organismi di standardizzazione alimentare."
+        ],
+        "ref": "Il Regolamento (CE) 178/2002 e il «Pacchetto Igiene» responsabilizzano gli OSA (operatori del settore alimentare)."
+       },
+       {
+        "p": "Quale norma europea è citata come base della sicurezza alimentare?",
+        "a": "Il Regolamento (CE) 178/2002.",
+        "w": [
+         "Il Regolamento 1169/2011.",
+         "La norma ISO 14001.",
+         "Il DPR 187/2001."
+        ],
+        "ref": "L'Unione Europea ha stabilito norme rigide, come il Regolamento (CE) 178/2002 e il cosiddetto «Pacchetto Igiene»."
+       },
+       {
+        "p": "Che cosa devono fare i servizi di ristorazione con le confezioni danneggiate, sporche o sospette?",
+        "a": "Eliminarle.",
+        "w": [
+         "Venderle a prezzo scontato.",
+         "Usarle per prime in cucina.",
+         "Conservarle in un'area di stoccaggio separata per venderle in seguito."
+        ],
+        "ref": "In base alla normativa vigente, i servizi di ristorazione devono eliminare le confezioni danneggiate, sporche e sospette."
+       }
+      ]
+     },
+     "Q2": {
+      "title": "Quiz 2 · Filiera, tracciabilità e rintracciabilità",
+      "items": [
+       {
+        "p": "Che cos'è la filiera agroalimentare?",
+        "a": "L'insieme dei passaggi di un prodotto dalla nascita al consumo.",
+        "w": [
+         "L'elenco degli ingredienti riportato in etichetta.",
+         "Il sistema dei controlli dei NAS.",
+         "La classificazione degli alimenti in cinque gruppi."
+        ],
+        "ref": "Ogni prodotto segue una filiera agroalimentare, ovvero l'insieme di passaggi dalla nascita al consumo (from farm to fork, dalla fattoria alla forchetta)."
+       },
+       {
+        "p": "Che cos'è la tracciabilità?",
+        "a": "La capacità di seguire il processo da monte a valle, dalle materie prime al prodotto finito.",
+        "w": [
+         "Il processo che dal prodotto finito risale alle materie prime.",
+         "Il controllo della temperatura dei frigoriferi.",
+         "La lettura dell'etichetta da parte del consumatore."
+        ],
+        "ref": "Tracciabilità: la capacità di seguire il processo dal «monte a valle» (dalle materie prime al prodotto finito)."
+       },
+       {
+        "p": "Con quali strumenti si identificano i lotti nella rintracciabilità?",
+        "a": "Il codice a barre o la tecnologia RFID.",
+        "w": [
+         "Il marchio DOP o IGP.",
+         "La dichiarazione nutrizionale.",
+         "Il colore della confezione."
+        ],
+        "ref": "La rintracciabilità permette di risalire l'intera catena in caso di problemi, identificando i lotti attraverso strumenti come il codice a barre o la tecnologia RFID."
+       },
+       {
+        "p": "Perché la filiera corta (Km 0) è spesso più sostenibile?",
+        "a": "Perché riduce i trasporti e l'inquinamento.",
+        "w": [
+         "Perché prevede numerosi passaggi intermedi.",
+         "Perché usa solo alimenti trasformati.",
+         "Perché i prodotti non hanno la data di scadenza."
+        ],
+        "ref": "Una filiera corta (Km 0) è spesso più sostenibile perché riduce i trasporti e l'inquinamento, mentre la filiera lunga prevede numerosi passaggi intermedi."
+       },
+       {
+        "p": "Secondo la normativa, la filiera riguarda anche…",
+        "a": "i mangimi destinati agli animali.",
+        "w": [
+         "solo gli alimenti biologici.",
+         "solo i prodotti DOP.",
+         "solo gli alimenti surgelati."
+        ],
+        "ref": "Tale percorso, secondo la normativa vigente, non è destinato solo agli alimenti consumati dall'uomo ma anche ai mangimi destinati agli animali."
+       }
+      ]
+     },
+     "Q3": {
+      "title": "Quiz 3 · Alimenti naturali, trasformati e gruppi",
+      "items": [
+       {
+        "p": "Da quali attività provengono le sostanze alimentari (alimenti naturali)?",
+        "a": "Da agricoltura, zootecnia, pesca e caccia.",
+        "w": [
+         "Dall'industria alimentare.",
+         "Dalla grande distribuzione.",
+         "Dai laboratori di analisi."
+        ],
+        "ref": "Sostanze alimentari: prodotti che provengono direttamente dalle attività primarie della filiera come agricoltura, zootecnia, pesca e caccia."
+       },
+       {
+        "p": "Quale funzione prevalente hanno cereali, derivati e tuberi?",
+        "a": "Energetica.",
+        "w": [
+         "Plastica.",
+         "Regolatrice e protettiva.",
+         "Nessuna funzione nutritiva."
+        ],
+        "ref": "1. cereali, derivati e tuberi: la loro funzione è principalmente energetica poiché apportano in prevalenza glucidi (carboidrati complessi)."
+       },
+       {
+        "p": "Quali alimenti sono la fonte principale di fibre, vitamine, sali minerali e fitocomposti?",
+        "a": "Frutta e ortaggi.",
+        "w": [
+         "Grassi da condimento.",
+         "Carne, pesce, uova e legumi.",
+         "Latte e derivati."
+        ],
+        "ref": "2. frutta e ortaggi: fonte principale di fibre, vitamine, sali minerali e fitocomposti."
+       },
+       {
+        "p": "Perché i grassi da condimento sono importanti, oltre che per l'energia?",
+        "a": "Perché servono per l'assorbimento di alcune vitamine.",
+        "w": [
+         "Perché sono ricchi di fibre.",
+         "Perché forniscono calcio.",
+         "Perché sono privi di calorie."
+        ],
+        "ref": "5. grassi da condimento: possiedono funzione energetica, poiché apportano lipidi, necessari anche per l'assorbimento di alcune vitamine."
+       },
+       {
+        "p": "Quale gruppo ha funzione prevalentemente plastica, fondamentale per la costruzione dei tessuti?",
+        "a": "Carne, pesce, uova e legumi.",
+        "w": [
+         "Cereali, derivati e tuberi.",
+         "Frutta e ortaggi.",
+         "Grassi da condimento."
+        ],
+        "ref": "4. carne, pesce, uova e legumi: la loro funzione è prevalentemente plastica, fondamentali per la costruzione dei tessuti."
+       }
+      ]
+     },
+     "Q4": {
+      "title": "Quiz 4 · Le norme ISO",
+      "items": [
+       {
+        "p": "Le norme ISO sono…",
+        "a": "standard internazionali volontari.",
+        "w": [
+         "regolamenti obbligatori per legge.",
+         "marchi di qualità regionali.",
+         "controlli dei NAS."
+        ],
+        "ref": "Oltre ai regolamenti obbligatori per legge, le industrie agroalimentari possono scegliere di aderire a standard internazionali volontari."
+       },
+       {
+        "p": "Chi emette gli standard ISO?",
+        "a": "L'organismo internazionale per la standardizzazione.",
+        "w": [
+         "L'Unione Europea.",
+         "Il Ministero della Salute.",
+         "I NAS dei Carabinieri."
+        ],
+        "ref": "Questi standard sono emessi dall'ISO (International Organization for Standardization), l'organismo internazionale per la standardizzazione."
+       },
+       {
+        "p": "Su quale serie si basa il Sistema di Gestione di Qualità (SGQ)?",
+        "a": "La serie ISO 9000.",
+        "w": [
+         "La serie ISO 14000.",
+         "La norma ISO 19011.",
+         "Il Regolamento 1169/2011."
+        ],
+        "ref": "Le aziende si avvalgono del Sistema di Gestione di Qualità (SGQ) basato sulla serie ISO 9000."
+       },
+       {
+        "p": "Di che cosa si occupa la ISO 19011?",
+        "a": "Delle verifiche ispettive (audit) sui sistemi di gestione.",
+        "w": [
+         "Della gestione ambientale.",
+         "Dei requisiti per soddisfare il cliente.",
+         "Dei principi e della terminologia della qualità."
+        ],
+        "ref": "ISO 19011: guida le aziende nella conduzione delle verifiche ispettive (audit) sui propri sistemi di gestione."
+       },
+       {
+        "p": "Che cosa definisce la ISO 9000?",
+        "a": "I principi fondamentali e la terminologia del sistema qualità.",
+        "w": [
+         "I requisiti per la gestione ambientale.",
+         "Le regole delle verifiche ispettive.",
+         "Le informazioni obbligatorie in etichetta."
+        ],
+        "ref": "ISO 9000: definisce i principi fondamentali e la terminologia specifica per sviluppare e migliorare il sistema qualità."
+       }
+      ]
+     },
+     "Q5": {
+      "title": "Quiz 5 · Rischi, HACCP e controlli",
+      "items": [
+       {
+        "p": "Un pezzo di vetro nel cibo è un rischio…",
+        "a": "fisico.",
+        "w": [
+         "chimico.",
+         "biologico.",
+         "commerciale."
+        ],
+        "ref": "Il cibo può essere esposto a tre tipi di rischi: fisico (vetro, metallo), chimico (residui di pesticidi) o biologico."
+       },
+       {
+        "p": "I residui di pesticidi sono un rischio…",
+        "a": "chimico.",
+        "w": [
+         "fisico.",
+         "biologico.",
+         "sensoriale."
+        ],
+        "ref": "Rischio chimico (residui di pesticidi)."
+       },
+       {
+        "p": "Salmonella e Listeria sono esempi di rischio…",
+        "a": "biologico.",
+        "w": [
+         "fisico.",
+         "chimico.",
+         "ambientale."
+        ],
+        "ref": "Rischio biologico (virus, batteri come Salmonella o Listeria)."
+       },
+       {
+        "p": "Su quanti principi si basa il sistema HACCP?",
+        "a": "Sette.",
+        "w": [
+         "Tre.",
+         "Cinque.",
+         "Tredici."
+        ],
+        "ref": "Il sistema HACCP si basa su sette principi per identificare e monitorare i punti critici di controllo."
+       },
+       {
+        "p": "Chi vigila in Italia sulla sicurezza alimentare?",
+        "a": "I NAS e vari ministeri.",
+        "w": [
+         "L'ISO.",
+         "Le aziende stesse, senza controlli esterni.",
+         "Solo i consumatori."
+        ],
+        "ref": "A vigilare in Italia troviamo organi come i NAS (Nucleo Antisofisticazioni e Sanità) e vari ministeri che collaborano per tutelare la salute pubblica."
+       }
+      ]
+     },
+     "Q6": {
+      "title": "Quiz 6 · Le certificazioni di qualità",
+      "items": [
+       {
+        "p": "Che cosa garantisce l'IGP?",
+        "a": "Che almeno una fase della produzione avviene nell'area delimitata.",
+        "w": [
+         "Che tutto il processo produttivo avviene in un'area specifica.",
+         "Che il prodotto segue solo un metodo tradizionale.",
+         "Che il prodotto non usa sostanze chimiche di sintesi."
+        ],
+        "ref": "IGP (Indicazione Geografica Protetta): almeno una fase della produzione avviene nell'area delimitata."
+       },
+       {
+        "p": "Che cosa valorizza la STG?",
+        "a": "Una composizione o un metodo di produzione tradizionale.",
+        "w": [
+         "Una specifica area geografica di produzione.",
+         "La riduzione dei trasporti.",
+         "L'assenza di allergeni."
+        ],
+        "ref": "STG (Specialità Tradizionale Garantita): valorizza una composizione o un metodo di produzione tradizionale."
+       },
+       {
+        "p": "Che cosa caratterizza l'agricoltura biologica?",
+        "a": "Evita le sostanze chimiche di sintesi.",
+        "w": [
+         "Ne riduce l'uso al minimo necessario.",
+         "Usa solo serre riscaldate.",
+         "Produce solo alimenti trasformati."
+        ],
+        "ref": "L'agricoltura biologica evita sostanze chimiche di sintesi."
+       },
+       {
+        "p": "Che cosa caratterizza l'agricoltura integrata?",
+        "a": "Riduce l'uso delle sostanze chimiche di sintesi al minimo necessario.",
+        "w": [
+         "Le evita del tutto.",
+         "Le usa senza limiti.",
+         "Usa solo prodotti DOP."
+        ],
+        "ref": "L'agricoltura integrata riduce l'uso delle sostanze chimiche di sintesi al minimo necessario."
+       },
+       {
+        "p": "A che cosa servono le certificazioni europee DOP, IGP e STG?",
+        "a": "A proteggere le eccellenze alimentari.",
+        "w": [
+         "A ridurre il prezzo dei prodotti.",
+         "A certificare l'assenza di allergeni.",
+         "A indicare la data di scadenza."
+        ],
+        "ref": "Non tutto il cibo possiede la stessa qualità; esistono certificazioni europee che proteggono le eccellenze."
+       }
+      ]
+     },
+     "Q7": {
+      "title": "Quiz 7 · Etichetta e frodi alimentari",
+      "items": [
+       {
+        "p": "Quale regolamento stabilisce le informazioni obbligatorie in etichetta?",
+        "a": "Il Regolamento 1169/2011.",
+        "w": [
+         "Il Regolamento (CE) 178/2002.",
+         "La norma ISO 9001.",
+         "Il Protocollo di Milano."
+        ],
+        "ref": "Le norme (Reg. 1169/2011) impongono la presenza di informazioni chiare: denominazione, elenco ingredienti, allergeni, data di scadenza e dichiarazione nutrizionale."
+       },
+       {
+        "p": "In che ordine sono elencati gli ingredienti in etichetta?",
+        "a": "In ordine decrescente di peso.",
+        "w": [
+         "In ordine alfabetico.",
+         "In ordine crescente di peso.",
+         "In ordine di prezzo."
+        ],
+        "ref": "Elenco ingredienti (in ordine decrescente di peso)."
+       },
+       {
+        "p": "Vendere un prodotto diverso da quello dichiarato è una frode…",
+        "a": "commerciale: la contraffazione.",
+        "w": [
+         "sanitaria: l'alterazione.",
+         "sanitaria: l'adulterazione.",
+         "sanitaria: la sofisticazione."
+        ],
+        "ref": "Commerciali: come la contraffazione (vendere un prodotto diverso da quello dichiarato)."
+       },
+       {
+        "p": "Il latte venduto come intero ma parzialmente scremato è un esempio di…",
+        "a": "adulterazione.",
+        "w": [
+         "sofisticazione.",
+         "alterazione.",
+         "contraffazione."
+        ],
+        "ref": "Adulterazione: viene sottratto uno dei componenti originari pregiati dell'alimento (latte venduto come intero ma parzialmente scremato)."
+       },
+       {
+        "p": "Nell'alterazione, in che cosa consiste il reato?",
+        "a": "Nel porre in commercio il prodotto alterato.",
+        "w": [
+         "Nel conservare il prodotto in frigorifero.",
+         "Nel sottrarre la panna al latte.",
+         "Nell'aggiungere coloranti."
+        ],
+        "ref": "L'alterazione è un fenomeno spontaneo del prodotto; il reato consiste nel porre il prodotto alterato in commercio."
+       }
+      ]
+     },
+     "Q8": {
+      "title": "Quiz 8 · La degustazione e i sensi",
+      "items": [
+       {
+        "p": "Come si percepisce l'aroma durante la masticazione?",
+        "a": "Per via retronasale.",
+        "w": [
+         "Per via nasale diretta.",
+         "Con le papille gustative.",
+         "Con il tatto."
+        ],
+        "ref": "L'odore è percepito per via nasale diretta, mentre l'aroma si avverte per via retronasale durante la masticazione."
+       },
+       {
+        "p": "Quali sensi valutano la consistenza e la croccantezza?",
+        "a": "Tatto e udito.",
+        "w": [
+         "Vista e olfatto.",
+         "Solo il gusto.",
+         "Olfatto e gusto."
+        ],
+        "ref": "Tatto e udito: valutano la consistenza e la croccantezza (pensate al rumore di un cracker fresco)."
+       },
+       {
+        "p": "Quanti sono i sapori primari riconosciuti dalle papille gustative?",
+        "a": "Cinque.",
+        "w": [
+         "Tre.",
+         "Quattro.",
+         "Sette."
+        ],
+        "ref": "Le papille gustative riconoscono i cinque sapori primari: dolce, salato, amaro, acido e umami."
+       },
+       {
+        "p": "Che cos'è l'umami?",
+        "a": "Il gusto del glutammato.",
+        "w": [
+         "Il gusto dello zucchero.",
+         "Il gusto del limone.",
+         "L'aroma percepito per via retronasale."
+        ],
+        "ref": "Umami (il gusto del glutammato)."
+       },
+       {
+        "p": "Come si percepisce l'odore di un alimento?",
+        "a": "Per via nasale diretta.",
+        "w": [
+         "Per via retronasale.",
+         "Con le papille gustative.",
+         "Con l'udito."
+        ],
+        "ref": "L'odore è percepito per via nasale diretta, mentre l'aroma si avverte per via retronasale durante la masticazione."
+       }
+      ]
+     },
+     "Q9": {
+      "title": "Quiz 9 · La Carta di Milano",
+      "items": [
+       {
+        "p": "Di quale evento la Carta di Milano è considerata l'eredità culturale?",
+        "a": "Expo Milano 2015.",
+        "w": [
+         "Le Olimpiadi invernali.",
+         "La nascita dell'Unione Europea.",
+         "La pubblicazione delle norme ISO."
+        ],
+        "ref": "La Carta di Milano, considerata l'eredità culturale di Expo Milano 2015."
+       },
+       {
+        "p": "Quante persone soffrono di denutrizione secondo il testo?",
+        "a": "805 milioni.",
+        "w": [
+         "2,1 miliardi.",
+         "1,3 miliardi.",
+         "15.000."
+        ],
+        "ref": "Mentre 805 milioni di persone soffrono di denutrizione, oltre 2,1 miliardi sono obese o in sovrappeso."
+       },
+       {
+        "p": "Quanto cibo commestibile si spreca ogni anno?",
+        "a": "1,3 miliardi di tonnellate.",
+        "w": [
+         "805 milioni di tonnellate.",
+         "15.000 tonnellate.",
+         "2,1 miliardi di chili."
+        ],
+        "ref": "Ogni anno vengono sprecate 1,3 miliardi di tonnellate di cibo commestibile, quantità pari a ⅓ della produzione globale."
+       },
+       {
+        "p": "Quanta acqua occorre per produrre 1 kg di carne di manzo?",
+        "a": "Circa 15.000 litri.",
+        "w": [
+         "Circa 150 litri.",
+         "Circa 1.500 litri.",
+         "Circa 150.000 litri."
+        ],
+        "ref": "Per produrre 1 kg di carne di manzo occorrono circa 15.000 litri d'acqua."
+       },
+       {
+        "p": "Quale di questi è uno dei tre obiettivi del Protocollo di Milano?",
+        "a": "La riduzione dello spreco di cibo.",
+        "w": [
+         "L'aumento della produzione di biocarburanti.",
+         "L'eliminazione delle certificazioni DOP.",
+         "L'aumento dei passaggi della filiera lunga."
+        ],
+        "ref": "Il Protocollo di Milano stabilisce 3 obiettivi: riduzione dello spreco di cibo, agricoltura sostenibile, lotta alla fame e all'obesità."
+       }
+      ]
+     }
+    }
+   }
+  }
+ },
+ "manca": "Voci Kore (13 voci, 3,0 min, testi da approvare); screenshot HD del libro (fino a 15 figure: senza, la slide resta ferma dove la docente commenta una figura, es. HACCP 26-30 min); chiusura nuova Verifica/Compiti (video già codificato senza). Ore stimate: 2",
+ "serve_master": [],
+ "domande_sara": [],
+ "note": [],
+ "materia": "Scienza e cultura dell'alimentazione · Alberghiero III-IV",
+ "lezione": "Lezione 2 · Sicurezza alimentare",
+ "docente": "Prof.ssa Piera Caputi",
+ "aggiornato": "2026-11-10 21:22:30"
+}
