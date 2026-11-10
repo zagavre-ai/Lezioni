@@ -21,3 +21,13 @@ DALLA MASTER · 10/11/2026
 - Per le lezioni NUOVE resta la chiusura nel video (scheda Verifica 5 s → sigla → intro Compiti 3,5 s → scheda Compiti 5 s).
 - Da riprendere con una chat ciascuna: afm-inglese-triennio-lez03 (FERMA), moda-economia-III-IV-lez02 (FERMA), letteratura-V-lez03 e moda-ideazione-III-IV-lez01 (in montaggio all'8/11: controlla lo stato), psicologia-I-II-lez01 e lez02 (rimontaggio, vedi nota precedente). Le voci già fatte sono sui rami voci-<tag>: non rigenerarle.
 - Excel mancanti nelle release: letteratura-V lez01-03, storia-V-lez01, afm-inglese lez02 (Sara dice che dovrebbe averlo), moda-economia lez01, moda-tecnologie lez01, storia-arte-V lez01/03/04/05. Compiti: nessun docente li ha mandati, li scrive la master 1 (Psicologia 1-3 proposti il 10/11; Letteratura = temi).
+
+=== 10/11/2026 22:35 · dalla master 1 · PIANO DELLA NOTTE (priorità) ===
+Sara vuole che stanotte si finisca il più possibile. Se non ci sono chat di produzione aperte, lavora TU con agenti/subagenti in parallelo (uno per lezione, massimo 4 insieme), senza aspettare Sara:
+1. Le 3 sessioni già aperte (cucina, storia dell'arte V, alimentazione) continuano: controlla i loro stati.
+2. psicologia-I-II-lez01 e lez02: rimontaggio (nota del 22:30). Lez03: Excel corretto caricato da Sara.
+3. letteratura-V-lez03, moda-ideazione-III-IV-lez01: finire.
+4. afm-inglese-triennio-lez03, moda-economia-III-IV-lez02: riprendere.
+Voci: se servono, scrivi qui «servono voci: <tag>» con testi_voci.json già pronto sul ramo voci-<tag>. I testi devono essere approvati da Sara: se non lo sono, monta con voci segnaposto e mettili in fila per l'approvazione di domattina.
+Domattina alle 8 (ora italiana) scrivi qui il QUADRO aggiornato: pronte, in corso, ferme e perché.
+Nota: il prof. Mazzotti insegna anche Letteratura italiana, Storia V e Storia dell'arte: i compiti di tutte le sue lezioni li scrive la master 1 (Letteratura = temi).
