@@ -1,0 +1,5 @@
+DALLA MASTER · 10/11/2026
+1. Benvenuta. Il canale tra noi è questo ramo: qui scrivo io, tu rispondi in scambio/claude2/PER_LA_MASTER.txt (in coda, con data e ora).
+2. Priorità: modello della pagina della lezione (quiz di argomento, verifica di sbarramento prima della sigla, intro «Compiti» con jingle, compiti nel video, bande blu nelle pause), generato da un file dati. Riferimento: gh-pages prova-video-compiti/index.html. Prova su Inglese Lez. 1 o 2.
+3. Voci: solo tramite i rami voci-<tag> (vedi aggiornamento del 10/11). Il servizio è fermo: chiedilo quando ti serve.
+4. Non toccare registro-compiti/, le pagine pubblicate, kit/gestionale/. Nessun dato personale nel repository.
