@@ -170,6 +170,7 @@ details.sec>summary small{text-transform:none;font-weight:normal;opacity:.85}
   <div class="bar"></div>
   <p class="mat" id="mat"></p>
   <div class="who" id="who"></div>
+  <div class="card nop" id="qq" hidden style="padding:12px 14px;margin-top:14px;font-size:14px;display:flex;flex-wrap:wrap;gap:12px 18px;align-items:center;border-left:5px solid var(--acc)"></div>
   <div class="grid" style="margin-top:18px">
     <aside>
       <div class="card cal nop">
@@ -180,7 +181,6 @@ details.sec>summary small{text-transform:none;font-weight:normal;opacity:.85}
       </div>
       <div class="card sum nop" id="sum"></div>
       <div class="how nop" id="how"></div>
-      <div class="card nop" id="qq" hidden style="padding:12px;margin-top:12px;font-size:13px"></div>
     </aside>
     <section class="card day" id="day"></section>
   </div>
@@ -493,9 +493,9 @@ function avvio(){
 let QRLIB=null;
 function quaderno(){const q=$('#qq');if(!q)return;if(!(LIVE&&ROLE==='studente')){q.hidden=true;return}
   const u='https://zagavre-ai.github.io/Lezioni/quaderno/#c='+encodeURIComponent(CODE);q.hidden=false;
-  q.innerHTML='<b style="color:var(--navy)">QUADERNO DEI COMPITI</b><p style="margin:6px 0">Hai svolto un compito su carta? Inquadra questo codice con la fotocamera del telefono, fotografa le pagine e premi «Consegna».</p><div id="qrc" style="display:flex;justify-content:center;margin:8px 0"></div><a href="'+u+'" target="_blank" rel="noopener" style="color:var(--navy)">Apri il quaderno su questo dispositivo</a>';
+  q.innerHTML='<div style="flex:1 1 260px"><b style="color:var(--navy);letter-spacing:.06em">QUADERNO DEI COMPITI</b><p style="margin:6px 0 10px">Qui trovi i compiti da consegnare, i voti e le correzioni. Hai svolto un compito su carta? <b>Inquadra il codice con la fotocamera del telefono</b>, fotografa le pagine e premi «Consegna».</p><a href="'+u+'" target="_blank" rel="noopener" style="display:inline-block;background:var(--navy);color:#fff;font-weight:bold;padding:11px 18px;border-radius:8px;text-decoration:none">Apri il mio quaderno</a></div><div id="qrc" style="flex:0 0 auto"></div>';
   QRLIB=QRLIB||new Promise((ok,no)=>{const s=document.createElement('script');s.src='https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js';s.onload=ok;s.onerror=no;document.head.appendChild(s)});
-  QRLIB.then(()=>{const b=$('#qrc');if(b){b.innerHTML='';new QRCode(b,{text:u,width:170,height:170,correctLevel:QRCode.CorrectLevel.M})}}).catch(()=>{const b=$('#qrc');if(b)b.textContent='(il codice QR non si è caricato: usa il link qui sotto)'})}
+  QRLIB.then(()=>{const b=$('#qrc');if(b){b.innerHTML='';new QRCode(b,{text:u,width:140,height:140,correctLevel:QRCode.CorrectLevel.M})}}).catch(()=>{const b=$('#qrc');if(b)b.textContent='(il codice QR non si è caricato: usa il link qui sotto)'})}
 avvio();
 </script>
 </body>
