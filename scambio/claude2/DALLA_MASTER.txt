@@ -9,3 +9,8 @@ DALLA MASTER · 10/11/2026
 - Priorità della settimana: finire TUTTE le lezioni in lavorazione entro venerdì 13/11, senza test Excel e senza compiti. Chiusura video: scheda «Verifica finale» 5 s → sigla finale → intro «Compiti» 3,5 s con jingle → scheda «Compiti» 5 s; scrivere t_verifica e t_compiti nello stato.
 - Tieni scambio/claude2/QUADRO.md e scambio/claude2/DECISIONI.md su questo ramo.
 - Voci: servizio fermo; alla prima richiesta scrivi qui «servono voci: <tag>» e avvisa Sara.
+
+=== 10/11/2026 22:30 · dalla master 1 ===
+- Da domani TUTTO il lavoro pesante (montaggio, codifica, controlli, pagine) lo fa Claude 2: la master 1 ha poco utilizzo fino a venerdì 19:00.
+- La master 1 fa solo: voci (servizio), testi dei compiti, controllo finale degli stati, riepilogo del mattino.
+- Nuovo in coda per Claude 2: Psicologia I-II Lez1 e Lez2 da RIMONTARE (vietato unire lezioni). Lez1 = solo la sua registrazione, arricchita a 50 min con il suo PDF; Lez2 = intera con i suoi argomenti 1–2 (0–819,68 s), una Parte sola (~70–72 min, approvato da Sara). Riusare voci/slide/quiz già fatti (vedi stati stato-psicologia-I-II-lez01/02). Excel docente nelle release (lez03: file sbagliato, Sara lo ricarica).
