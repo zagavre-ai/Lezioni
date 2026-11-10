@@ -124,9 +124,17 @@
   {
    "quando": "10/11 20:43",
    "testo": "Chiusura nuova inserita nel montaggio (FIN → Verifica finale 5 s → sigla finale → intro Compiti 3,5 s con jingle → Compiti 5 s). Test finale tolto dal montaggio. Montaggio con voci provvisorie senza codifica: la codifica a 1440p si fa una volta sola, quando arrivano le voci Kore."
+  },
+  {
+   "quando": "10/11 21:29",
+   "testo": "P1 montata 50:46.0 con la chiusura nuova (voci provvisorie, non codificata): t_verifica=3020.1 s, t_compiti=3039.7 s; scatto Quiz 0,0 s."
+  },
+  {
+   "quando": "10/11 21:29",
+   "testo": "P2 montata 51:47.6 con la chiusura nuova (voci provvisorie, non codificata): t_verifica=3081.7 s, t_compiti=3101.3 s; scatto Quiz 0,0 s."
   }
  ],
  "materia": "Laboratori dei servizi enogastronomici – settore cucina",
  "lezione": "Prodotti ittici",
- "aggiornato": "2026-11-10 21:18:31"
+ "aggiornato": "2026-11-10 21:29:27"
 }
