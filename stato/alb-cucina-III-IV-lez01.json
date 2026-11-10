@@ -1,0 +1,84 @@
+{
+ "tag": "alb-cucina-III-IV-lez01",
+ "parti": {
+  "1": {
+   "titolo": "Le carni · Parte 1",
+   "stato": "IN_MONTAGGIO",
+   "voci": "segnaposto",
+   "video": "Cucina_Le_carni_Parte1_VIDEO.mp4",
+   "durata_s": 3080.3,
+   "durata": "51:20.3",
+   "fotogrammi": 92408,
+   "fotogrammi_attesi": 92408,
+   "peso_MB": 278.2,
+   "timeline": [
+    [
+     "T1",
+     78.566,
+     2.333
+    ],
+    [
+     "Q1",
+     613.932,
+     4.0
+    ],
+    [
+     "T2",
+     619.232,
+     3.6
+    ],
+    [
+     "T3",
+     1384.864,
+     3.6
+    ],
+    [
+     "T4",
+     2184.963,
+     3.6
+    ],
+    [
+     "GL1",
+     2896.263,
+     82.233
+    ],
+    [
+     "RF1",
+     2980.096,
+     81.733
+    ],
+    [
+     "FIN1",
+     3063.229,
+     9.133
+    ]
+   ]
+  },
+  "2": {
+   "titolo": "Le carni · Parte 2",
+   "stato": "IN_MONTAGGIO",
+   "voci": "segnaposto"
+  }
+ },
+ "manca": "P1 montata 51:20 con voci provvisorie, controlli ok (scatto Quiz 0,0 s, sottotitoli). P2 da rimontare con l'audio corretto. Mancano per entrambe: voci Kore e la chiusura nuova. Ore stimate: P1 2 h, P2 3 h (dopo le voci).",
+ "serve_master": [
+  {
+   "quando": "10/11 20:43",
+   "testo": "Questa sessione non può scrivere su GitHub (push rifiutato 403, release non leggibili). Lo stato è pronto in stato_locale e il file per le voci in scambio/alb-cucina-III-IV-lez01/testi_voci.json: serve l'accesso in scrittura al repository oppure che qualcuno li carichi."
+  }
+ ],
+ "domande_sara": [],
+ "note": [
+  {
+   "quando": "10/11 20:36",
+   "testo": "Chiusura nuova (Verifica finale, sigla, intro Compiti, scheda Compiti) da aggiungere: t_verifica e t_compiti si scrivono al montaggio finale."
+  },
+  {
+   "quando": "10/11 20:43",
+   "testo": "Chiusura nuova inserita nel montaggio (FIN → Verifica finale 5 s → sigla finale → intro Compiti 3,5 s con jingle → Compiti 5 s). Test finale tolto dal montaggio. Montaggio con voci provvisorie senza codifica: la codifica a 1440p si fa una volta sola, quando arrivano le voci Kore."
+  }
+ ],
+ "materia": "Laboratori dei servizi enogastronomici – settore cucina",
+ "lezione": "Le carni",
+ "aggiornato": "2026-11-10 21:18:28"
+}
