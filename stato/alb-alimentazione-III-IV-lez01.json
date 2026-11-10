@@ -1,0 +1,26 @@
+{
+ "tag": "alb-alimentazione-III-IV-lez01",
+ "parti": {
+  "1": {
+   "titolo": "Il mondo dell'alimentazione · Parte 1 (argomenti 1-4)",
+   "stato": "FERMA"
+  },
+  "2": {
+   "titolo": "Il mondo dell'alimentazione · Parte 2 (argomenti 5-8)",
+   "stato": "FERMA"
+  }
+ },
+ "manca": "Docente 58,7 min: con gli inserti 67 min, quindi due Parti, ma ciascuna arriva a circa 45 min (sotto i 50) senza il libro come fonte; screenshot HD del libro (12 figure); voci Kore (34 voci, 16,9 min; 8 animazioni da approvare). Sincronia, voci locali e testi pronti. Ore stimate: 5",
+ "serve_master": [
+  {
+   "quando": "10/11 20:36",
+   "testo": "Lezione 1 (58,7 min di docente): con la regola dell'8/11 (fino a circa 65 min resta una Parte) va in UNA Parte? Con inserti compatti verrebbe circa 66 min."
+  }
+ ],
+ "domande_sara": [],
+ "note": [],
+ "materia": "Scienza e cultura dell'alimentazione · Alberghiero III-IV",
+ "lezione": "Lezione 1 · Il mondo dell'alimentazione",
+ "docente": "Prof.ssa Piera Caputi",
+ "aggiornato": "2026-11-10 21:22:28"
+}
