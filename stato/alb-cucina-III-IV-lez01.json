@@ -60,7 +60,7 @@
    "voci": "segnaposto"
   }
  },
- "manca": "P1 montata 51:20 con voci provvisorie, controlli ok (scatto Quiz 0,0 s, sottotitoli). P2 da rimontare con l'audio corretto. Mancano per entrambe: voci Kore e la chiusura nuova. Ore stimate: P1 2 h, P2 3 h (dopo le voci).",
+ "manca": "P1 e P2 montate con chiusura nuova (51:40 e 51:15). Mancano: voci Kore (testi da approvare da Sara), codifica 1440p.",
  "serve_master": [
   {
    "quando": "10/11 20:43",
@@ -88,5 +88,5 @@
  ],
  "materia": "Laboratori dei servizi enogastronomici – settore cucina",
  "lezione": "Le carni",
- "aggiornato": "2026-11-10 21:29:25"
+ "aggiornato": "2026-11-11 11:08:29"
 }
