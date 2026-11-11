@@ -1,0 +1,122 @@
+[
+ {
+  "nome": "INTRO1",
+  "testo": "Benvenuti alla lezione di gastronomia internazionale. Il materiale offre una panoramica delle principali tradizioni culinarie mondiali, descrivendo i prodotti tipici e i piatti caratteristici di diverse aree geografiche.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R1",
+  "testo": "Ripassiamo le macroaree europee e la penisola iberica. Guarda lo schema: Portogallo e Spagna.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R2",
+  "testo": "Ripassiamo le isole britanniche e la Francia. Osserva lo schema dei prodotti e dei piatti simbolo.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R3",
+  "testo": "Ripassiamo la Mitteleuropa e il Nord Europa. Guarda lo schema, dalla Germania all'Islanda.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R4",
+  "testo": "Ripassiamo cibo e religioni e la cucina slava. Osserva lo schema delle due gastronomie russe.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R5",
+  "testo": "Ripassiamo l'area mediterranea. Guarda lo schema delle tre aree e dei piatti tipici.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R6",
+  "testo": "Ripassiamo l'Asia: Cina, Giappone e India. Osserva lo schema, paese per paese.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R7",
+  "testo": "Ripassiamo il Nord America. Guarda lo schema degli stili e dei piatti simbolo.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R8",
+  "testo": "Ripassiamo l'America Latina. Osserva lo schema prima di concludere.",
+  "lingua": "it"
+ },
+ {
+  "nome": "S1",
+  "testo": "Europa: macroaree e penisola iberica. L'Europa si divide in macroaree: Iberico-Atlantica, Isole Britanniche, Nord Europea, Est Europea, Mitteleuropea e Mediterranea. In Portogallo l'ingrediente principe è il bacalhau, il baccalà, affiancato dalle sardine. Il piatto nazionale portoghese è il caldo verde, una zuppa di patate e cavolo con salsiccia. In Spagna sono pilastri l'olio extravergine d'oliva, il chorizo e il jamón ibérico de bellota. La paella, originaria di Valencia, è il piatto simbolo della cucina iberica.",
+  "lingua": "it"
+ },
+ {
+  "nome": "S2",
+  "testo": "Isole britanniche e Francia. In Gran Bretagna il settore caseario è d'eccellenza, con il cheddar e lo stilton. La giornata inizia con la colazione salata di uova, bacon e fagioli, oppure con il porridge scozzese. I simboli britannici sono il fish and chips e il sunday roast. In Francia la baguette è il pane simbolo, accanto a formaggi come il brie, il camembert e il roquefort. Tra i piatti celebri ci sono la quiche Lorraine, il foie gras e la bouillabaisse.",
+  "lingua": "it"
+ },
+ {
+  "nome": "S3",
+  "testo": "Mitteleuropa e Nord Europa. Germania e Austria hanno origini contadine, grandi birre e una panificazione eccezionale, con il Bretzel. I salumi più noti sono i wurstel, come la Bratwurst, la Weisswurst e i Frankfurter. Tra i piatti iconici ci sono il Tafelspitz e la Wiener Schnitzel. In Danimarca la portata simbolo sono gli smørrebrød, tartine di pane di segale. In Islanda si usano carne salata, pesce essiccato o fermentato, e lo skyr.",
+  "lingua": "it"
+ },
+ {
+  "nome": "S4",
+  "testo": "Cibo e religioni, cucina slava. Conoscere i precetti religiosi legati all'alimentazione è un requisito fondamentale per i professionisti della ristorazione. In molte religioni il cibo è un dono di Dio e il pasto ha un valore sacro. La cucina russa si divide in gastronomia aristocratica e gastronomia popolare. I prodotti tipici sono panna acida, aceto, rafano, paprika e zenzero. Piatti celebri sono i blinis, i pirojki, il borscht e, in Polonia, i pierogi.",
+  "lingua": "it"
+ },
+ {
+  "nome": "S5",
+  "testo": "L'area mediterranea. Comprende un'area europea, un'area asiatica e medio-orientale e un'area nordafricana. È unita da influenze greche, romane, ottomane e arabe, e da cristianesimo, ebraismo e islam. Olio extravergine, olive, frutta secca, legumi e cereali sono la base dei pasti. Il pasto inizia con i mezedes, come lo tzatziki; tra le carni ci sono il souvlaki e il gyros. Il couscous e il tajine sono tipici del Nord Africa.",
+  "lingua": "it"
+ },
+ {
+  "nome": "S6",
+  "testo": "Asia: Cina, Giappone e India. La cucina cinese divide i cibi in Yin, freddi e rinfrescanti, e Yang, caldi, come carni e spezie. In Cina il pilastro è il riso; si cuoce al vapore nei cestini di bambù o saltato nel wok. La cucina giapponese cerca l'estetica e la minima manipolazione degli ingredienti: sushi, sashimi e tempura. In India il Nord consuma più carne, il Sud è vegetariano e ricco di spezie. In India si usano il ghee, il garam masala, il pane naan e il pollo tandoori.",
+  "lingua": "it"
+ },
+ {
+  "nome": "S7",
+  "testo": "Il Nord America. La sua cucina nasce dalle influenze dei nativi, dei conquistatori e dei migranti. Nel Sud ci sono la cucina creola e la cucina cajun; la tex-mex unisce Messico e Texas. Tra i prodotti tipici ci sono il mais, la patata, la zucca e il cranberry. Piatti simbolo sono le costine al barbecue, le alette di pollo e il tacchino del Ringraziamento. Tra i dolci ci sono la cheesecake, la pumpkin pie e l'apple pie.",
+  "lingua": "it"
+ },
+ {
+  "nome": "S8",
+  "testo": "L'America Latina. Unisce l'eredità delle culture Inca e Azteca alla dominazione di Spagna e Portogallo. I prodotti base sono fagioli neri, patata dolce, manioca e peperoncino. In Argentina e Brasile la carne si prepara come churrasco o asado, con il chimichurri. Tra i piatti tipici ci sono empanadas, tacos e, in Cile e Perù, il ceviche. In Brasile il piatto simbolo è la feijoada, stufato di maiale e fagioli neri.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN1",
+  "testo": "Approfondiamo i piatti e i dolci della penisola iberica. La pasticceria portoghese è rinomata per i pastéis de Belém, dolci di pasta frolla con crema, gli ovos moles de Aveiro e l'arroz doce. In Spagna altre ricette tradizionali sono il cocido, il polpo alla gallega e il baccalà al pil-pil. Per concludere il pasto si scelgono spesso la crema catalana, la torta di Santiago alle mandorle o i churros intinti nella cioccolata calda.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN2",
+  "testo": "Approfondiamo la tavola britannica e quella francese. Tra i pasti da pub britannici spiccano lo scotch egg, la jacket potato, il welsh rarebit e torte salate come la cottage pie e la cornish pasty. La tradizione dolciaria britannica offre il crumble di frutta, il Christmas pudding, i muffin e l'Eton mess. In Francia tra i secondi spiccano il boeuf bourguignon, il coq au vin e l'anatra confit, con contorni come la ratatouille o il gratin dauphinois. La pasticceria francese è rinomata per i macaron, le madeleines, l'éclair, la tarte tatin e la millefoglie.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN3",
+  "testo": "Approfondiamo i dolci dell'Europa centrale e del Nord. La pasticceria dell'Europa centrale è tra le più varie al mondo: Sacher Torte, strudel di mele, krapfen, torta Linzer e Stollen natalizio. Tra i dolci scandinavi si ricordano la julekage, la kransekake, le girelle alla cannella chiamate kanelbulle e le brioche lussekatter. Sono celebri anche i dolci della viennoiserie, nati da pasticceri austriaci stabilitisi in Danimarca: paste lievitate e sfogliate farcite con frutta secca o confettura. Nelle Repubbliche baltiche i cereali principali sono la segale, il grano saraceno e l'orzo.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN4",
+  "testo": "Approfondiamo i dolci di Russia, Giappone e India. La pasticceria russa offre il pashka, una cheesecake con frutta candita, le palacinte, la torta sharlotka e la charlotte a base di crema bavarese. I dolci tipici giapponesi includono i mochi, i dolcetti kompeito e la spugnosa kasutera, spesso accompagnati dal tè verde matcha. Tra i dolci tradizionali indiani si distinguono i laddu, polpettine di farina di ceci, e i jalebi, frittelle croccanti immerse nello sciroppo.",
+  "lingua": "it"
+ },
+ {
+  "nome": "GL1",
+  "testo": "Ripassiamo le parole chiave della lezione. Ascolta ogni parola e la sua definizione, e prova a ripeterla. Macroaree gastronomiche: gruppi di paesi con caratteristiche gastronomiche affini. Bacalhau: il baccalà, ingrediente principe della cucina portoghese. Tapas e pinchos: piccoli assaggi spagnoli consumati nei bar durante il tapeo. Sunday roast: l'arrosto della domenica, simbolo britannico. Nordic cuisine: movimento che ha reso leggera e creativa la cucina del Nord Europa. Smørrebrød: tartine danesi di pane di segale con burro e guarnizioni. Gastronomia aristocratica: cucina russa influenzata da quella francese, con ingredienti pregiati. Mezedes: antipasti mediterranei, come lo tzatziki. Couscous: semola di frumento cotta a vapore. Tajine: stufato nordafricano cotto in un recipiente di terracotta. Yin e Yang: cibi freddi e rinfrescanti, e cibi caldi, nella cucina cinese. Kaiseki: pasto cerimoniale giapponese di molte piccole portate. Ghee: il burro chiarificato della cucina indiana. Tandoor: il forno d'argilla indiano. Cucina creola: incontro della cultura francese con quella spagnola, portoghese, italiana e africana. Tex-mex: unione delle tradizioni messicane e texane. Ceviche: pesce crudo marinato in lime, cipolla e peperoncino. Feijoada: stufato brasiliano di maiale e fagioli neri. Ricorda: queste parole le trovi anche nella dispensa.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RF1",
+  "testo": "Prima di salutarci, ricapitoliamo insieme gli otto argomenti della lezione. Alla fine, prova a ripeterli con parole tue. Primo argomento: europa: macroaree e penisola iberica. Sei macroaree gastronomiche europee. Portogallo: baccalà e caldo verde. Spagna: jamón, tapas e paella. Secondo argomento: isole britanniche e Francia. Formaggi britannici e colazione salata. Fish and chips e sunday roast. Francia: baguette, formaggi DOP e foie gras. Terzo argomento: mitteleuropa e Nord Europa. Birra, pane e wurstel. Tafelspitz e Wiener Schnitzel. Smørrebrød, aringhe e skyr. Quarto argomento: cibo e religioni, cucina slava. I precetti religiosi a tavola. Gastronomia aristocratica e popolare. Blinis, pirojki e borscht. Quinto argomento: l'area mediterranea. Tre aree, tre religioni. Olio, olive, legumi e cereali. Mezedes, couscous e tajine. Sesto argomento: asia: Cina, Giappone e India. Cina: Yin e Yang, riso e wok. Giappone: sushi, sashimi e tempura. India: spezie, ghee e tandoor. Settimo argomento: il Nord America. Influenze di nativi e migranti. Cucina creola, cajun e tex-mex. Barbecue, panini e dolci. Ottavo argomento: l'America Latina. Culture Inca e Azteca. Peperoncino, fagioli e carni alla griglia. Ceviche e feijoada. Ottimo lavoro. Ora mettiti alla prova con il test finale della lezione.",
+  "lingua": "it"
+ },
+ {
+  "nome": "FIN1",
+  "testo": "Fine della lezione di gastronomia internazionale. Grazie per l'attenzione, e buono studio.",
+  "lingua": "it"
+ }
+]
