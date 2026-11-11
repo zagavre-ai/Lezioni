@@ -3,7 +3,8 @@
  "parti": {
   "1": {
    "titolo": "Introduzione alle scienze umane",
-   "stato": "IN_MONTAGGIO"
+   "stato": "IN_MONTAGGIO",
+   "voci": "kore"
   }
  },
  "manca": "",
@@ -21,10 +22,14 @@
   {
    "quando": "11/11 13:17",
    "testo": "Rimontaggio avviato su macchina nuova: riparto dal ramo lavoro-psicologia-I-II-lez01; rigenero media (audio, slide, pezzi)."
+  },
+  {
+   "quando": "11/11 20:48",
+   "testo": "Voci nuove importate (29/29). Media rigenerati; montaggio pezzi in corso."
   }
  ],
  "materia": "Psicologia",
  "lezione": "Introduzione alle scienze umane",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-11 13:17:21"
+ "aggiornato": "2026-11-11 20:48:46"
 }
