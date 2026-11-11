@@ -4,7 +4,7 @@
   "1": {
    "titolo": "La psicologia: nascita e sviluppi",
    "stato": "IN_MONTAGGIO",
-   "voci": "segnaposto"
+   "voci": "kore"
   }
  },
  "manca": "",
@@ -22,10 +22,14 @@
   {
    "quando": "11/11 13:18",
    "testo": "13:20 ripresa su macchina nuova dal ramo lavoro-psicologia-I-II-lez02 (trascrizione, sincronia con 19 correzioni, struttura, quiz gia' fatti): rigenero solo i media mancanti e rimonto la lezione intera. Voci segnaposto: INTRO1b (in arrivo dalla master 1)."
+  },
+  {
+   "quando": "11/11 21:53",
+   "testo": "RIPRESA su ordine master: voci vere tutte importate (INTRO1b 19,87 s inclusa), niente segnaposto. In corso: render schede T/Q/R/GL/RF, pezzi docente D0-D10, poi montaggio e codifica CRF 22 veryfast."
   }
  ],
  "materia": "Psicologia",
  "lezione": "La psicologia: nascita e sviluppi",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-11 13:18:10"
+ "aggiornato": "2026-11-11 21:53:28"
 }
