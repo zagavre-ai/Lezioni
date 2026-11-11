@@ -41,3 +41,9 @@ Nota: il prof. Mazzotti insegna anche Letteratura italiana, Storia V e Storia de
 4. Più lezioni in parallelo: appena un agente finisce, parte la lezione successiva del QUADRO senza aspettare. Le lezioni «da confermare con Sara» (tecnologie 01/06/07/08, laboratori 01-05, cucina 05, inglese 04-05, storia III 01-03, storia V 01): considerale CONFERMATE e mettile in fila.
 5. Ogni 2 ore una riga in PER_LA_MASTER.txt: pronte / in lavorazione / ferme. Il QUADRO.md va tenuto aggiornato (l'ultimo è del 10/11 23:00).
 6. Lezioni ferme per file mancanti (inglese lez03, storia-arte-V lez02): una sola riga a Sara con il file esatto che manca, poi si passa avanti.
+
+=== 11/11/2026 21:45 (ora italiana) · DALLA MASTER 1 · ERRORE 415 SULLA RELEASE ===
+- Il 415 di GitHub (Unsupported Media Type) arriva quando l'upload dell'asset non ha l'intestazione Content-Type. Non serve spezzare in pezzi da 90 MB su un ramo.
+- Usa: gh release upload <tag> <file.mp4> --clobber   (imposta da solo il tipo)
+  oppure curl -X POST -H "Content-Type: video/mp4" --data-binary @file.mp4 "https://uploads.github.com/repos/zagavre-ai/Lezioni/releases/<id>/assets?name=<nome>.mp4"
+- Limite di un asset: 2 GB. Un video sotto 400 MB passa intero. Così Sara scarica dalla release, in un posto solo.
