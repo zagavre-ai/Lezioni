@@ -1,0 +1,277 @@
+{
+ "Q1": {
+  "title": "Quiz 1 · Le scienze umane come strumento",
+  "items": [
+   {
+    "p": "Secondo la slide, le scienze umane sono…",
+    "a": "uno strumento: non solo una materia teorica, ma una chiave per comprendere le proprie esperienze vissute",
+    "w": [
+     "una materia solo teorica, da memorizzare",
+     "un elenco di leggi fisiche universali",
+     "una tecnica di calcolo per le costruzioni"
+    ],
+    "ref": "Le scienze umane come strumento: non solo una materia teorica, ma una chiave per comprendere le proprie esperienze vissute."
+   },
+   {
+    "p": "Che cosa significa «decodificare»?",
+    "a": "Interpretare e saper leggere correttamente ciò che abbiamo vissuto e ciò che ci viene raccontato",
+    "w": [
+     "Ripetere a memoria un testo",
+     "Dimenticare le esperienze passate",
+     "Misurare un fenomeno con strumenti di laboratorio"
+    ],
+    "ref": "Decodificare significa interpretare, saper leggere correttamente ciò che abbiamo vissuto e ciò che ci viene raccontato."
+   },
+   {
+    "p": "Qual è l'obiettivo indicato nella slide?",
+    "a": "Aprire e analizzare i diversi contesti dell'esistenza umana",
+    "w": [
+     "Formulare leggi fisiche universali",
+     "Preparare soltanto all'esame di statistica",
+     "Studiare esclusivamente la storia antica"
+    ],
+    "ref": "Obiettivo: aprire e analizzare i diversi contesti dell'esistenza umana."
+   },
+   {
+    "p": "Quali contesti cita il docente come «cassetti dell'esistenza»?",
+    "a": "La famiglia, l'amicizia, lo sport e il rapporto costante con le nuove tecnologie",
+    "w": [
+     "La finanza, la geologia, l'astronomia e l'ingegneria",
+     "La politica internazionale, il commercio e i viaggi",
+     "La chimica, la fisica, la biologia e la matematica"
+    ],
+    "ref": "Le relazioni più significative della vita quotidiana: la famiglia, l'amicizia, lo sport, il rapporto costante con le nuove tecnologie."
+   },
+   {
+    "p": "Da quali fattori dipende la crescita di una persona?",
+    "a": "Da fattori sia genetici sia ambientali, quindi interni ed esterni",
+    "w": [
+     "Solo da fattori genetici",
+     "Solo dall'ambiente scolastico",
+     "Da nessun fattore: è un fatto casuale"
+    ],
+    "ref": "La crescita dipende da una serie di fattori, sia genetici sia ambientali, interni ed esterni: è un percorso plurimo e frastagliato."
+   }
+  ]
+ },
+ "Q2": {
+  "title": "Quiz 2 · I temi vicini ai giovani",
+  "items": [
+   {
+    "p": "Quali sono i temi vicini ai giovani indicati nella slide?",
+    "a": "L'analisi delle relazioni quotidiane, la ricerca di sé e l'inserimento in una società multiculturale e tecnologica",
+    "w": [
+     "La gestione del denaro, la politica internazionale e il lavoro",
+     "Lo studio dei popoli antichi e dei loro riti",
+     "La misurazione dei fenomeni fisici e chimici"
+    ],
+    "ref": "Temi vicini ai giovani: analisi delle relazioni quotidiane, della ricerca di sé e dell'inserimento in una società multiculturale e tecnologica."
+   },
+   {
+    "p": "Che cosa si intende per società «multiculturale»?",
+    "a": "Una società in cui più culture si fondono, anche con attriti e incomprensioni",
+    "w": [
+     "Una società con una sola cultura",
+     "Una società priva di tecnologia",
+     "Una società senza differenze tra le generazioni"
+    ],
+    "ref": "La società di oggi è multiculturale: più culture che si fondono, anche con attriti e incomprensioni."
+   },
+   {
+    "p": "Quale evento collettivo cita il docente come esempio?",
+    "a": "La pandemia, con restrizioni che hanno inciso su scuola, comunicazione e sfera psicologica",
+    "w": [
+     "La rivoluzione industriale",
+     "La scoperta dell'America",
+     "L'invenzione della stampa"
+    ],
+    "ref": "La società è segnata da eventi collettivi complessi, come la pandemia."
+   },
+   {
+    "p": "Che cosa dimostrano anche queste videolezioni, secondo il docente?",
+    "a": "Che viviamo in una società ipertecnologica",
+    "w": [
+     "Che la tecnologia non serve per studiare",
+     "Che la società non cambia nel tempo",
+     "Che le relazioni tra le persone sono sempre semplici"
+    ],
+    "ref": "Le videolezioni sono un segno dell'ipertecnologia in cui viviamo."
+   },
+   {
+    "p": "In che senso le scienze umane sono «discipline scientificamente indagabili»?",
+    "a": "Ci sono casi da analizzare, dati da ricavare ed esperimenti per confermare i dati",
+    "w": [
+     "Si basano soltanto su opinioni personali",
+     "Non possono essere verificate in alcun modo",
+     "Usano soltanto leggi fisiche universali"
+    ],
+    "ref": "Le scienze umane sono indagabili scientificamente: casi da analizzare, dati da ricavare, esperimenti per confermare i dati."
+   }
+  ]
+ },
+ "Q3": {
+  "title": "Quiz 3 · Scienze umane e scienze della natura",
+  "items": [
+   {
+    "p": "Che cosa studiano le scienze della natura?",
+    "a": "La realtà materiale, per esempio con la chimica e la biologia",
+    "w": [
+     "L'essere umano, le sue azioni e la sua mente",
+     "Le istituzioni e i processi di interazione nei gruppi",
+     "Le tradizioni dei popoli antichi"
+    ],
+    "ref": "Le scienze della natura studiano la realtà materiale (es. chimica, biologia)."
+   },
+   {
+    "p": "Che cosa studiano le scienze umane?",
+    "a": "L'essere umano, le sue azioni e la sua mente",
+    "w": [
+     "Solo la realtà materiale",
+     "Soltanto le leggi della gravità",
+     "Esclusivamente i fenomeni atmosferici"
+    ],
+    "ref": "Le scienze umane studiano l'essere umano, le sue azioni e la sua mente."
+   },
+   {
+    "p": "Qual è l'obiettivo comune delle due famiglie di scienze?",
+    "a": "Spiegare e comprendere la realtà circostante attraverso il metodo scientifico",
+    "w": [
+     "Eliminare ogni forma di ricerca",
+     "Formulare opinioni senza verifiche",
+     "Studiare soltanto il passato"
+    ],
+    "ref": "Obiettivo comune: spiegare e comprendere la realtà circostante attraverso il metodo scientifico."
+   },
+   {
+    "p": "Che cosa significa «ricerca delle cause»?",
+    "a": "Identificare le leggi o i fattori che determinano i comportamenti delle persone",
+    "w": [
+     "Cercare il colpevole di un errore",
+     "Elencare le date degli eventi storici",
+     "Misurare la velocità dei corpi"
+    ],
+    "ref": "Ricerca delle cause: identificare le «leggi» o i fattori che determinano i comportamenti delle persone."
+   },
+   {
+    "p": "Perché per le scienze umane non esiste una sola prospettiva?",
+    "a": "Perché i comportamenti umani sono guidati da fattori interni ed esterni molto più sfaccettati",
+    "w": [
+     "Perché le scienze umane non usano il metodo scientifico",
+     "Perché ogni persona risponde a una rigida legge di causa ed effetto",
+     "Perché i comportamenti non possono essere studiati"
+    ],
+    "ref": "A differenza di un fenomeno naturale, i comportamenti umani sono guidati da fattori interni ed esterni infinitamente più sfaccettati: l'essere umano è come un prisma."
+   }
+  ]
+ },
+ "Q4": {
+  "title": "Quiz 4 · I fattori del comportamento",
+  "items": [
+   {
+    "p": "Che cosa significa «natura multi-causale»?",
+    "a": "Le azioni umane non dipendono mai da una sola causa",
+    "w": [
+     "Le azioni umane dipendono sempre da una sola causa",
+     "Le azioni umane non hanno cause",
+     "Le azioni umane sono tutte identiche"
+    ],
+    "ref": "Natura multi-causale: le azioni umane non dipendono mai da una sola causa."
+   },
+   {
+    "p": "Quali sono i fattori principali analizzati?",
+    "a": "Fattori biologici e di sviluppo, influenza dell'ambiente, dimensione storica",
+    "w": [
+     "Fattori chimici, fisici e matematici",
+     "Fattori economici, militari e religiosi",
+     "Soltanto fattori genetici"
+    ],
+    "ref": "Fattori principali analizzati: biologici e di sviluppo, influenza dell'ambiente, dimensione storica."
+   },
+   {
+    "p": "A che cosa si riferiscono i fattori biologici e di sviluppo?",
+    "a": "Alla crescita e alle tappe evolutive della persona",
+    "w": [
+     "Al contesto sociale e alla famiglia",
+     "Ai valori e alle tradizioni",
+     "Alle leggi dello Stato"
+    ],
+    "ref": "Fattori biologici e di sviluppo: la crescita e le tappe evolutive della persona."
+   },
+   {
+    "p": "Che cosa indica la «dimensione storica»?",
+    "a": "Che comportamenti, valori e tradizioni cambiano nel corso del tempo",
+    "w": [
+     "Che si studiano solo eventi prima del Medioevo",
+     "Che i comportamenti non cambiano mai",
+     "Che le leggi fisiche valgono per il passato"
+    ],
+    "ref": "Dimensione storica: come i comportamenti, i valori e le tradizioni cambiano nel corso del tempo."
+   },
+   {
+    "p": "Come va analizzato un insuccesso scolastico, secondo il docente?",
+    "a": "Con una valutazione multidisciplinare: metodo di studio, ambiente familiare e sociale, relazione con i docenti, contesto",
+    "w": [
+     "Come una semplice mancanza di intelligenza",
+     "Come una semplice mancanza di impegno",
+     "Come un evento privo di cause"
+    ],
+    "ref": "L'insuccesso scolastico non si spiega solo con la mancanza di intelligenza o di impegno: richiede una valutazione multidisciplinare."
+   }
+  ]
+ },
+ "Q5": {
+  "title": "Quiz 5 · Le discipline e il percorso di studio",
+  "items": [
+   {
+    "p": "Che cosa studia la psicologia?",
+    "a": "Il comportamento e i processi mentali dell'individuo",
+    "w": [
+     "Le strutture sociali e le istituzioni",
+     "I popoli e le culture del mondo",
+     "Gli strumenti statistici per le indagini"
+    ],
+    "ref": "Psicologia: studia il comportamento e i processi mentali dell'individuo."
+   },
+   {
+    "p": "Che cosa analizza la sociologia?",
+    "a": "Le strutture sociali, le istituzioni e i processi di interazione nei gruppi",
+    "w": [
+     "I processi mentali dell'individuo",
+     "I popoli e le culture umane",
+     "Le leggi della fisica"
+    ],
+    "ref": "Sociologia: analizza le strutture sociali, le istituzioni e i processi di interazione nei gruppi."
+   },
+   {
+    "p": "Che cosa studia l'antropologia?",
+    "a": "I popoli e le diverse culture umane nel mondo",
+    "w": [
+     "Le strutture sociali dello Stato moderno",
+     "I processi di memoria e di pensiero",
+     "Le tecniche di indagine statistica"
+    ],
+    "ref": "Antropologia: studia i popoli e le diverse culture umane nel mondo."
+   },
+   {
+    "p": "A che cosa serve la metodologia della ricerca?",
+    "a": "A offrire gli strumenti scientifici e le tecniche per svolgere le indagini sul campo",
+    "w": [
+     "A studiare le tradizioni dei popoli antichi",
+     "A descrivere le istituzioni sociali",
+     "A sostituire lo studio della psicologia"
+    ],
+    "ref": "Metodologia della ricerca: offre gli strumenti scientifici e le tecniche per svolgere le indagini sul campo."
+   },
+   {
+    "p": "Che cosa prevede il percorso del primo biennio?",
+    "a": "Studio approfondito della psicologia, introduzione alla metodologia statistica e ai dati, percorsi di educazione civica",
+    "w": [
+     "Solo lo studio della sociologia",
+     "Solo la storia antica",
+     "Solo esercizi di calcolo"
+    ],
+    "ref": "Articolazione del programma: studio approfondito della psicologia, introduzione alla metodologia della ricerca statistica e dei dati, integrazione con percorsi di Educazione civica."
+   }
+  ]
+ }
+}

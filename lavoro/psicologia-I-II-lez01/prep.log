@@ -1,0 +1,18 @@
++ set -e
++++ dirname .6 pagine
+PREPARA_OK · ora: struttura.py (argomenti/sottotitoli), estrai_quiz.py, align.py, coverage.py, sync.py, align_s.py
+ez01
++ mkdir -p audio voci/wav an es po dk sv w2 consegna anteprima fr
++ '[' -f orig/lez1.mp4 ']'
+++ ffprobe -v error -show_entries format=duration -of csv=p=0 orig/lez1.mp4
++ echo 'durata: 1821.732000 s'
+durata: 1821.732000 s
++ ffmpeg -v error -y -i orig/lez1.mp4 -vn -af highpass=f=80,arnndn=m=/home/claude/kit/02_Video/sh.rnnn,loudnorm=I=-16:TP=-1.5:LRA=11 -ar 48000 -ac 1 audio/audio_B_full.wav
++ ffmpeg -v error -y -i orig/lez1.mp4 -vn -ac 1 -ar 16000 audio16.wav
++ cd /home/claude/asr_pk
++ python3 pk.py /home/claude/lezioni/psicologia-I-II-lez01/audio16.wav /home/claude/lezioni/psicologia-I-II-lez01/pk.jsonl 0
++ python3 estrai_pdf.py lez1.pdf
+6 pagine
++ python3 build_blocks.py
++ echo 'PREPARA_OK · ora: struttura.py (argomenti/sottotitoli), estrai_quiz.py, align.py, coverage.py, sync.py, align_s.py'
+PREPARA_OK · ora: struttura.py (argomenti/sottotitoli), estrai_quiz.py, align.py, coverage.py, sync.py, align_s.py

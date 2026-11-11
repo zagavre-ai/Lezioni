@@ -1,0 +1,7 @@
+INIZIO 2026-11-11 11:09:09 fase0 setup
+11:09:25 fase1 download+kit
+11:29:50 fase1 prep OK (asr)
+11:34:53 fase2 render slide
+11:42:52 fase3 render schede T/Q/R e schemi S
+11:49:10 asm scritto
+11:49:19 fase3b render AN/GL/RF

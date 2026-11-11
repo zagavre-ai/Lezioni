@@ -1,0 +1,266 @@
+<!doctype html><html lang="it"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Prova verifica e compiti · Tecnologie dei materiali · Videolezione</title>
+<style>
+@font-face{font-family:'BG';font-weight:800;src:url(DATA)}@font-face{font-family:'FG';font-weight:400;src:url(DATA)}@font-face{font-family:'FG';font-weight:500;src:url(DATA)}@font-face{font-family:'FG';font-weight:700;src:url(DATA)}@font-face{font-family:'FG';font-weight:800;src:url(DATA)}
+:root{--ink:#0B1530;--blue:#2060AF;--hl:#FFE600;--soft:#EEF0F4;--line:#C9D0DC}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{background:#fff}
+body{font-family:'FG',Arial,sans-serif;color:var(--ink);line-height:1.4;padding:8px 12px 20px}
+header{display:flex;align-items:center;gap:14px;padding:4px 0 8px;flex-wrap:wrap;max-width:1280px;margin:0 auto}
+header img{height:30px}.mat{font-weight:800;color:var(--blue);letter-spacing:.14em;font-size:12px;text-transform:uppercase}
+h1{font-family:'BG';font-weight:800;font-size:21px;line-height:1.1;letter-spacing:-.01em;flex:1 1 100%}
+main{max-width:1280px;margin:0 auto}
+.stage{position:relative;width:100%;aspect-ratio:16/9;background:#000;border-radius:12px;overflow:hidden;container-type:inline-size;box-shadow:0 12px 30px rgba(11,21,48,.18)}
+.stage:fullscreen{border-radius:0;aspect-ratio:auto;width:100vw;height:100vh}
+#yt,#yt iframe,#vid{position:absolute;inset:0;width:100%;height:100%;border:0;background:#000}
+#poster{position:absolute;inset:0;z-index:2;background:#081127 center/cover no-repeat;display:none}#poster.on{display:block}
+#shield{position:absolute;inset:0;z-index:2;cursor:pointer;background:transparent}
+.big{position:absolute;inset:0;display:grid;place-items:center;z-index:3;background:rgba(11,21,48,.25);border:0;cursor:pointer}
+.big span{width:86px;height:86px;border-radius:50%;background:#fff;display:grid;place-items:center;box-shadow:0 8px 24px rgba(0,0,0,.35)}
+.big svg{width:34px;height:34px;margin-left:5px;fill:var(--ink)}
+#cap{position:absolute;left:50%;transform:translateX(-50%);bottom:5%;max-width:86%;z-index:3;pointer-events:none;text-align:center;display:none}
+#cap.on{display:block}#cap span{background:rgba(11,21,48,.86);color:#fff;font:700 max(14px,2.1cqw)/1.38 'FG',sans-serif;padding:.12em .5em;border-radius:.3em;-webkit-box-decoration-break:clone;box-decoration-break:clone;white-space:pre-line}
+/* quiz */
+.ov{position:absolute;inset:0;z-index:5;background:#fff;display:none;flex-direction:column}
+.ov.on{display:flex}
+.ov.fix{position:fixed;inset:0;z-index:50}.ov.fix .qb{font-size:16px}.ov.fix .qh b{font-size:19px}.ov.fix .qh small,.ov.fix .qf .msg{font-size:14px}
+.qh{background:linear-gradient(115deg,#0B1530,#1b3d7a);color:#fff;padding:12px 22px}
+.qh b{font-family:'BG';font-weight:800;font-size:clamp(17px,2.2cqw,28px);display:block;line-height:1.1}
+.qh small{color:#5BD6F0;font-weight:700;font-size:clamp(12px,1.3cqw,16px)}
+.qb{flex:1;overflow-y:auto;padding:14px 22px;font-size:clamp(14px,1.45cqw,19px)}
+.qi{border:1px solid #D5DCE8;border-radius:14px;padding:12px 14px;margin-bottom:12px}
+.qi .p{font-weight:800;margin-bottom:8px}
+.qi label{display:flex;gap:10px;align-items:flex-start;padding:7px 11px;border:1.5px solid #D5DCE8;border-radius:11px;cursor:pointer;margin-top:6px;line-height:1.3;font-weight:500}
+.qi label:has(input:checked){border-color:var(--blue);background:rgba(32,96,175,.07)}
+.qi input{margin-top:3px;flex:none;width:18px;height:18px;accent-color:var(--blue)}
+.qi.good{border-color:var(--ink);border-width:2px}.qi.bad{border-style:dashed;border-color:#B3261E;border-width:2px}
+.qi .fb{display:none;margin-top:8px;font-weight:600;font-size:.92em;background:rgba(32,96,175,.07);border-radius:10px;padding:8px 10px}
+.qi.bad .fb{display:block}
+.qf{display:flex;gap:12px;align-items:center;flex-wrap:wrap;padding:10px 22px;border-top:1px solid var(--line);box-shadow:0 -6px 16px rgba(11,21,48,.08)}
+.qf .msg{flex:1 1 240px;font-weight:800;font-size:clamp(14px,1.5cqw,19px)}
+.btn{font:800 16px 'FG';padding:11px 22px;border-radius:999px;border:2px solid var(--ink);background:var(--ink);color:#fff;cursor:pointer}
+.btn.sec{background:#fff;color:var(--ink)}.btn[disabled]{opacity:.4;cursor:not-allowed}
+.btn.go{background:var(--hl);color:var(--ink);border-color:var(--ink)}
+/* controls */
+.ctl{display:flex;align-items:center;gap:10px;margin-top:10px;flex-wrap:wrap}
+.ctl button{font:800 14px 'FG';padding:8px 15px;border-radius:999px;border:2px solid var(--ink);background:var(--ink);color:#fff;cursor:pointer;min-width:44px}
+.ctl button.sec{background:#fff;color:var(--ink)}
+.ctl button[aria-pressed="true"]{background:var(--ink);color:#fff}
+button:focus-visible,input:focus-visible{outline:3px solid var(--blue);outline-offset:2px}
+.time{font-variant-numeric:tabular-nums;font-weight:700;font-size:14px;min-width:100px}
+.bar{position:relative;flex:1 1 220px;height:26px;display:flex;align-items:center}
+.bar input{width:100%;accent-color:var(--blue);height:26px}
+.tick{position:absolute;top:2px;width:5px;height:22px;background:var(--hl);border:1px solid var(--ink);border-radius:2px;transform:translateX(-2px);pointer-events:none}
+.tick.done{background:var(--ink)}
+.stage:fullscreen .ctl{position:absolute;left:0;right:0;bottom:0;margin:0;padding:16px 22px 18px;background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,.78) 45%);z-index:4}
+.stage:fullscreen .ctl .time{color:#fff}.stage:fullscreen .ctl #pp{background:var(--hl);color:var(--ink);border-color:var(--hl)}.stage:fullscreen .ctl button.sec{background:rgba(255,255,255,.94)}
+.stage:fullscreen:has(.ctl) #cap{bottom:110px}
+.steps{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px;list-style:none}
+.steps li{display:flex;gap:8px;align-items:center;padding:7px 12px;border-radius:999px;background:var(--soft);font-size:14px;font-weight:700}
+.steps li i{font-style:normal;font-size:11px;letter-spacing:.1em;text-transform:uppercase;padding:2px 8px;border-radius:999px;background:rgba(32,96,175,.12);color:var(--blue)}
+.steps li.ok i{background:var(--ink);color:#fff}
+.steps li button{font:800 12px 'FG';padding:4px 10px;border-radius:999px;border:1.5px solid var(--ink);background:#fff;cursor:pointer}
+.steps li button[disabled]{opacity:.35;cursor:not-allowed}
+.small{font-size:13px;color:#44506b;margin-top:8px}
+@media(max-width:640px){h1{font-size:18px}.big span{width:64px;height:64px}}
+
+/* dentro la piattaforma (iframe): tutto in una schermata */
+html.emb body{padding:4px 10px 6px}html.emb header{display:none}
+html.emb .stage{width:min(100%,calc((100vh - 118px)*1.7778));margin:0 auto}
+html.emb .ctl,html.emb .steps{width:min(100%,calc((100vh - 118px)*1.7778));margin-left:auto;margin-right:auto}
+html.emb .ctl{margin-top:6px}html.emb .steps{margin-top:6px}html.emb .small{display:none}
+
+/* schermo intero dentro la piattaforma (quando il browser non lo permette): il video riempie tutta la finestra della lezione */
+html.maxi,html.maxi body{height:100%;overflow:hidden;padding:0!important}html.maxi header,html.maxi .steps,html.maxi .small{display:none}
+html.maxi .stage{position:fixed!important;inset:0;width:100%!important;height:100%!important;aspect-ratio:auto;border-radius:0;margin:0;z-index:20}
+html.maxi .stage .ctl{position:absolute;left:0;right:0;bottom:0;margin:0!important;width:auto!important;padding:14px 20px 16px;background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,.78) 45%);z-index:4}
+html.maxi .stage .ctl .time{color:#fff}html.maxi .stage .ctl #pp{background:var(--hl);color:var(--ink);border-color:var(--hl)}html.maxi .stage .ctl button.sec{background:rgba(255,255,255,.94)}
+html.maxi #yt,html.maxi #vid{object-fit:contain}html.maxi #cap{bottom:90px}
+
+html.ytwait #shield{display:none}
+html.ytwait #poster,html.ytwait .big{pointer-events:none}
+.blk{position:absolute;left:0;right:0;height:19%;z-index:4;display:none;cursor:default}
+html.ytwait .blk{display:block}
+.blk.t{top:0}.blk.b{bottom:0}
+
+/* in pausa e per 4 s dopo la ripartenza: fasce Telesio piene sopra il titolo e i suggerimenti di YouTube */
+.pz{position:absolute;left:0;right:0;z-index:4;display:none;background:#081127;color:#fff;font:700 clamp(12px,1.4cqw,18px) 'FG',sans-serif;align-items:center;justify-content:center;pointer-events:none;transition:opacity .5s}
+.pz.t{top:0;height:16%}
+.pz.b{bottom:0;height:22%}
+html.yt.paused:not(.ytwait) .pz,html.yt.pzhold:not(.ytwait) .pz{display:flex}
+html.yt.pzhold .pz.b span{display:none}
+</style><style>#intro{position:absolute;inset:0;z-index:40;display:none;align-items:center;justify-content:center;flex-direction:column;background:radial-gradient(circle at 30% 30%,#1d3a78,#0B1530 70%);color:#fff;text-align:center;overflow:hidden}
+#intro.on{display:flex}#intro small{font:800 clamp(11px,1.3cqw,16px) 'FG',sans-serif;letter-spacing:.3em;color:#FFE600;opacity:0;animation:ii .5s .2s forwards}
+#intro b{font-family:'BG';font-weight:800;font-size:clamp(40px,9cqw,120px);line-height:1;letter-spacing:-.02em;margin:.15em 0;opacity:0;transform:scale(.8);animation:ib .6s .35s cubic-bezier(.2,1.4,.4,1) forwards}
+#intro i{display:block;height:clamp(5px,.7cqw,9px);width:0;background:#FFE600;border-radius:9px;animation:iw .7s .8s forwards}
+#intro p{font:600 clamp(14px,1.9cqw,26px) 'FG',sans-serif;margin:.8em 1em 0;opacity:0;animation:ii .6s 1.1s forwards}
+@keyframes ii{to{opacity:1}}@keyframes ib{to{opacity:1;transform:none}}@keyframes iw{to{width:clamp(80px,14cqw,190px)}}</style></head><body>
+<header><img src="DATA" alt="Centro Studi Telesio"><span class="mat">Tecnologie dei materiali · Videolezione interattiva</span><h1>Le fibre tessili · prova: verifica e compiti nel video</h1></header>
+<main>
+<div class="stage" id="stage">
+ <div id="yt"></div>
+ <div id="shield" aria-hidden="true"></div>
+ <div id="poster" aria-hidden="true"></div>
+ <div class="blk t" aria-hidden="true"></div><div class="blk b" aria-hidden="true"></div><div class="pz t" aria-hidden="true"></div><div class="pz b" aria-hidden="true"><span>In pausa · premi Play per continuare</span></div>
+ <div id="cap"><span></span></div>
+ <button class="big" id="big" aria-label="Avvia la videolezione"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4l14 8-14 8z"/></svg></span></button>
+ <div id="intro" aria-hidden="true"><small>DOPO LA LEZIONE</small><b>Compiti</b><i></i><p>Ora metti in pratica quello che hai imparato</p></div>
+ <div class="ov" id="ov" role="dialog" aria-modal="true" aria-labelledby="qt">
+  <div class="qh"><b id="qt"></b><small id="qs"></small></div>
+  <div class="qb" id="qb"></div>
+  <div class="qf"><span class="msg" id="qm" aria-live="polite"></span><button class="btn sec" id="qr" style="display:none">Rivedi la parte del video</button><button class="btn" id="qv">Check</button></div>
+ </div>
+</div>
+<div class="ctl" id="ctl">
+ <button id="pp" aria-label="Riproduci o metti in pausa">Play</button>
+ <button class="sec" id="b10" aria-label="Indietro di 10 secondi">−10 s</button>
+ <span class="time" id="tm">0:00 / 0:00</span>
+ <div class="bar"><input id="sk" type="range" min="0" max="1000" value="0" step="1" aria-label="Posizione nel video"><span id="ticks"></span></div>
+ <button class="sec" id="cc" aria-pressed="false">Sottotitoli</button>
+ <button class="sec" id="fs">Schermo intero</button>
+</div>
+<ul class="steps" id="steps"></ul>
+<p style="margin-top:6px"><button id="rst" style="font:700 12px 'FG';padding:4px 12px;border-radius:999px;border:1.5px solid #C9D0DC;background:#fff;color:#44506b;cursor:pointer">Ricomincia da capo</button></p>
+<p class="small">Prova per la direzione: il video parte dagli ultimi minuti. Prima della sigla il video si ferma e compare la verifica di sbarramento (serve l'80%); superata la verifica, parte la sigla e poi, sempre dentro il video, compaiono i compiti. «Ricomincia da capo» rifà la prova.</p>
+</main>
+<script>
+try{if(window.self!==window.top)document.documentElement.classList.add('emb')}catch(e){document.documentElement.classList.add('emb')}
+var CFG={"id": "prova_vc_v3", "mp4": "", "yt": "gWy_ksBqdPY", "dur": 253.8, "soglia": 0.8, "poster": "DATA", "final": null, "stops": [{"t": 244.33, "q": "VF", "top": 195}], "tappe": [{"n": "Ultimi minuti della lezione", "t": 195}, {"n": "Verifica di sbarramento (prima della sigla)", "q": "VF"}]};
+var CUES=[[20.49, 24.4, "parliamo di un settore tessile,\ndi industria tessile,"], [24.41, 27.12, "abbiamo a che fare con un settore,\nperò che non utilizza,"], [27.13, 32.32, "diciamo, la fibra singola, ovvero non andiamo\nad utilizzare solo la fibra di cotone,"], [32.33, 36.24, "o la fibra acrilica o la\nfibra di seta e così via."], [36.25, 41.43, "Ma in realtà possiamo avere delle situazioni\ndove andiamo a realizzare delle fibre"], [41.44, 47.59, "in mischia. Queste fibre in realtà nascono\nper unire le caratteristiche positive"], [47.6, 50.47, "delle varie fibre a nostra disposizione."], [50.48, 55.19, "Quindi cerchiamo in questo modo di andare\na minimizzare quelli che possono essere"], [55.2, 60.63, "gli aspetti negativi, per riuscire a\nsoddisfare delle specifiche esigenze richieste"], [60.64, 62.42, "dal consumatore ultimo."], [62.43, 66.74, "Quindi queste, diciamo, sono altre\ndinamiche con le quali possiamo entrare in"], [66.75, 67.75, "contatto."]];
+var QZ={"VF":{"title": "Verifica di sbarramento · Le fibre tessili", "items": [{"p": "Che cos'è una fibra tessile?", "a": "L'elemento di base, allungato, flessibile e sottile, che si presta a essere filato", "w": ["Un filato già ritorto pronto per la tessitura", "Un tessuto non tessuto ottenuto per pressione", "Una sostanza chimica usata per tingere i filati"], "ref": "La fibra tessile è l'elemento di base, allungato, flessibile e sottile, che si presta a essere filato."}, {"p": "In quali due grandi gruppi si dividono le fibre?", "a": "Naturali e chimiche (man-made)", "w": ["Vegetali e minerali", "Lunghe e corte", "Pettinate e cardate"], "ref": "Le fibre si dividono in naturali e chimiche (man-made)."}, {"p": "Quale di queste è una fibra naturale animale?", "a": "Il mohair", "w": ["Il lyocell", "Il kapok", "La poliammide"], "ref": "Lana, cashmere, mohair, angora e seta sono fibre animali."}, {"p": "Come si ottengono le fibre chimiche artificiali?", "a": "Da prodotti già esistenti in natura, opportunamente lavorati", "w": ["Dall'unione di elementi chimici semplici in polimeri", "Dal vello degli animali", "Dal fusto delle piante, senza lavorazioni"], "ref": "Le artificiali partono da prodotti naturali lavorati (viscosa, acetato, modal, lyocell)."}, {"p": "A che cosa servono le fibre in mischia?", "a": "A unire i pregi di più fibre e ridurne i difetti", "w": ["A rendere il tessuto più economico", "A ottenere solo tessuti impermeabili", "A sostituire la filatura"], "ref": "Le mischie uniscono i pregi delle fibre e ne riducono i difetti."}]},"Q1": {"title": "Quiz 1 · Le fibre tessili: definizione e classificazione", "items": [{"p": "Che cos'è la fibra tessile?", "a": "L'elemento di base, di forma allungata, flessibile e sottile, che si presta a essere filato", "w": ["Il tessuto finito, pronto per il taglio del capo", "Il filato ritorto, pronto per il telaio", "Una sostanza chimica che si aggiunge al tessuto per colorarlo"], "ref": "La fibra tessile è l'elemento di base di forma allungata, flessibile e sottile che si presta a essere filato: è la materia prima da cui si ricavano i filati."}, {"p": "In quali due grandi gruppi si dividono le fibre tessili?", "a": "Fibre naturali e fibre chimiche (man-made)", "w": ["Fibre corte e fibre lunghe", "Fibre italiane e fibre estere", "Fibre per maglia e fibre per navetta"], "ref": "Le fibre si dividono in naturali (materie prime non modificate dall'uomo) e chimiche o man-made (prodotte con l'intervento dell'uomo)."}, {"p": "Quale di queste è una fibra naturale di origine vegetale?", "a": "Il lino", "w": ["La lana", "La viscosa", "Il poliestere"], "ref": "Le fibre vegetali derivano dal regno vegetale: cotone, lino, canapa, juta, ramiè, sisal, cocco e kapok. La lana è animale, la viscosa artificiale, il poliestere sintetico."}, {"p": "Come si ottengono le fibre sintetiche?", "a": "Dall'unione di elementi chimici semplici che formano polimeri complessi", "w": ["Lavorando prodotti già esistenti in natura, come la cellulosa", "Tosando gli animali e lavando il vello", "Raccogliendo e pettinando le fibre delle piante"], "ref": "Le sintetiche (poliestere, poliammide, acrilica, elastan…) nascono da elementi chimici semplici che formano polimeri complessi. Le artificiali, invece, partono da prodotti già esistenti in natura."}, {"p": "Perché si realizzano le fibre in mischia?", "a": "Per unire le caratteristiche positive di fibre diverse e ridurre quelle negative", "w": ["Per abbassare sempre il prezzo, anche a scapito della qualità", "Perché la legge vieta i tessuti di una sola fibra", "Per rendere il tessuto più pesante"], "ref": "Le mischie uniscono le caratteristiche positive delle varie fibre e ne minimizzano gli aspetti negativi, per rispondere alle esigenze dei consumatori."}]}, "FT": {"title": "Test finale · Le fibre tessili", "items": [{"p": "Come definisce la fibra tessile il Regolamento UE n. 1007/2011?", "a": "Un elemento caratterizzato da flessibilità, finezza ed elevato rapporto tra la lunghezza e la dimensione trasversale massima", "w": ["Una materia prima unicamente sintetica ad alta resistenza meccanica priva di flessibilità", "Un filamento continuo minerale resistente ad altissime temperature e non filabile", "Un preparato di origine esclusivamente animale caratterizzato da rigidità e peso specifico superiore a 10 g/cm³", "Un composto vegetale a base di cellulosa modificato dall'uomo per via chimica", "Una bava polimerica artificiale priva di diametro trasversale misurabile"], "ref": "Il Regolamento UE n. 1007/2011 la definisce come un elemento caratterizzato da flessibilità, finezza ed elevato rapporto tra la lunghezza e la dimensione trasversale massima."}, {"p": "Quali tra le seguenti fibre sono classificate come artificiali (ottenute da prodotti già esistenti in natura opportunamente lavorati)?", "a": "Viscosa, acetato, triacetato, cupro, modal e lyocell", "w": ["Poliestere, poliammide, nylon, acrilica ed elastan", "Lana, cashmere, mohair, angora e seta", "Cotone, lino, canapa, juta, ramiè e cocco", "Aramide, polipropilene, lana di pecora e seta di baco", "Poliestere, viscosa, cotone, acetato e acrilica"], "ref": "artificiali, ottenute da prodotti già esistenti in natura opportunamente lavorati come viscosa, acetato, triacetato, cupro, modal e lyocell;"}, {"p": "Che cosa indicano le proprietà morfologiche di una fibra tessile?", "a": "La struttura fisica esterna della fibra, come lunghezza, finezza, colore, lucentezza, mano, densità e sezione al microscopio", "w": ["Il comportamento e la resistenza della fibra a contatto con sostanze chimiche quali acidi, alcali e solventi", "Il comportamento della materia sotto l'azione di forze fisiche esterne come trazione, pressione e torsione", "L'interazione biologica della fibra con l'organismo umano e con gli agenti atmosferici circostanti", "Esclusivamente il punto di fusione e il punto di rammollimento della fibra sotto l'azione del calore", "La capacità intrinseca della fibra di non propagare la fiamma in presenza di combustione"], "ref": "Le proprietà morfologiche definiscono la struttura fisica esterna della fibra."}, {"p": "Che cos'è il fenomeno del pilling?", "a": "La formazione di antiestetici pallini sulla superficie del tessuto.", "w": ["Il restringimento progressivo e irreversibile delle fibre dovuto all'azione meccanica del lavaggio.", "L'allungamento permanente subito da un tessuto umido durante le fasi di taglio industriale.", "La perdita di lucentezza della fibra causata da lavaggi alcalini ripetuti.", "L'applicazione a freddo di resine protettive per fissare le pieghe permanenti di un capo.", "Il sollevamento del pelo superficiale ottenuto mediante la garzatura del filato."], "ref": "Tra queste, la lunghezza permette di catalogare le fibre in discontinue, semicontinue e continue, influenzando la resistenza, la lucentezza e la tendenza al pilling, ovvero la formazione di antiestetici pallini sulla superficie del tessuto."}, {"p": "A quanto ammonta attualmente la quota percentuale delle fibre naturali sulla produzione totale complessiva globale?", "a": "37%", "w": ["62%", "50%", "63%", "80%", "8,7%"], "ref": "Mentre nel 1900 le fibre naturali dominavano incontrastate, la loro quota sulla produzione totale è scesa dal sessantadue percento del 1970 ad appena il 37% attuale."}, {"p": "Quale quota percentuale della produzione totale di fibre sintetiche è rappresentata dal poliestere?", "a": "Quasi l'80%", "w": ["Il 37%", "Circa il 62%", "Meno del 50%", "Circa il 10%", "Quasi il 60%"], "ref": "La crescita delle fibre chimiche è guidata principalmente dal poliestere, che rappresenta quasi l'80% della produzione totale di fibre sintetiche."}, {"p": "Quale Paese detiene oggi una posizione di assoluto dominio globale sul mercato, controllando oltre il 60% della produzione di fibre sintetiche?", "a": "La Cina", "w": ["L'Italia", "L'India", "L'Australia", "Il Brasile", "Gli Stati Uniti"], "ref": "Oggi la Cina detiene una posizione di assoluto dominio sul mercato globale, avendo aumentato la propria quota dall'8,7% a oltre il 60% della produzione di fibre sintetiche nel giro di vent'anni."}, {"p": "Qual è l'indice di sporcabilità della seta (tendenza a trattenere lo sporco grasso come smog o sostanze oleose) secondo la scala del testo?", "a": "40%", "w": ["100%", "70%", "50%", "20%", "0%"], "ref": "Tra questi estremi si colloca la fibra acrilica con un valore del 70%, seguita dal lino e dalle fibre artificiali quali viscosa, modal e acetato che si attestano intorno al 50%, mentre la seta presenta un indice pari al 40%."}, {"p": "Quali fibre si posizionano al vertice della graduatoria della pulibilità con un punteggio del 100% (facilità di rimozione delle macchie)?", "a": "Poliammide ed elastan.", "w": ["Cotone e lana.", "Viscosa e seta.", "Acrilica e modal.", "Lino e poliestere.", "Seta e lana."], "ref": "In questa specifica graduatoria si posizionano al vertice la poliammide e l'elastan con il 100%, seguite a breve distanza dal poliestere e dal lino."}, {"p": "Quale importante ruolo commerciale e industriale ricopre l'Italia a livello internazionale nel settore laniero?", "a": "Primo Paese al mondo per potenza industriale legata alla trasformazione della lana in tessuto e maggior esportatore mondiale di tali manufatti.", "w": ["Primo produttore mondiale di lana sucida con oltre un quinto del patrimonio ovino globale.", "Maggior importatore mondiale di tessuti finiti di lana Merino provenienti dall'Australia.", "Unico Paese depositario dei trattamenti di nobilitazione chimica della lana rigenerata.", "Principale allevatore di pecore Merino destinate alla produzione di lana agnellina.", "Primo esportatore mondiale di macchinari per la tosatura e la bistosa."], "ref": "L'Italia si distingue a livello internazionale come primo Paese al mondo per potenza industriale legata alla trasformazione della lana in tessuto, oltre a ricoprire il ruolo di maggior esportatore mondiale di questi pregiati manufatti tessili."}, {"p": "Da quali zone del corpo della pecora provengono le lane migliori e di maggior pregio commerciale?", "a": "Dalle spalle e dai fianchi.", "w": ["Dal muso e dal ventre.", "Dalle zampe e dalla testa.", "Esclusivamente dalla coda e dalla groppa.", "Dal sottomento e dalle estremità inferiori.", "Dal ventre e dalle orecchie."], "ref": "Al contrario, le lane migliori e di maggior pregio commerciale provengono dalla zona delle spalle e dei fianchi della pecora."}, {"p": "Qual è la composizione chimica percentuale approssimativa della fibra di lana?", "a": "80% cheratina, 18% altre proteine, 1,5% lanolina e 0,5% sali minerali.", "w": ["75% fibroina, 22% sericina, 2% grasso cutaneo e 1% sali minerali.", "50% cellulosa, 30% lignina, 15% pectine e 5% sali minerali.", "98% cheratina, 1% lanolina, 0,5% acido solforico e 0,5% acqua.", "60% proteine della seta, 30% grassi animali, 9% polimeri e 1% titanio.", "100% cheratina pura priva di qualsiasi componente grassa o minerale."], "ref": "La proteina principale è la cheratina, presente nella misura dell'80%, accompagnata da altre proteine minori per il 18%. Il restante 2% è formato da lanolina per l'1,5% e da sali minerali per lo 0,5%."}, {"p": "In base alla classificazione della finezza della lana espressa in micron, a quale categoria appartengono le fibre extrafine?", "a": "Fibre fino a 20 micron.", "w": ["Fibre da 20 a 25 micron.", "Fibre da 25 a 30 micron.", "Fibre da 30 a 50 micron.", "Fibre da 50 a 100 micron.", "Fibre oltre i 120 micron."], "ref": "extrafine, riferita a fibre fino a 20 micron;"}, {"p": "Come vengono commercializzate le lane tosate dai piccoli di pecora di 4, 6 o 8 mesi, apprezzate per la loro eccezionale sofficità?", "a": "Lane agnelline o lambswool.", "w": ["Lane matricine.", "Lane di concia.", "Lane rigenerate.", "Lane saltate.", "Lane bistose."], "ref": "Le lane tosate dai piccoli di 4, 6 o 8 mesi sono considerate le più pregiate per la loro eccezionale sofficità e vengono commercializzate come lane agnelline o lambswool, mentre le pecore che hanno già partorito forniscono le lane matricine."}, {"p": "Che cos'è lo speciale trattamento chimico della lana denominato ZIRPRO?", "a": "Un trattamento a base di zirconio o titanio che accresce notevolmente le naturali doti di resistenza al fuoco della lana, rendendola altamente ignifuga e anti-fumo.", "w": ["Un lavaggio energico ad acido solforico concentrato per eliminare le impurità vegetali.", "Un processo che utilizza cloro e aceto per rimpicciolire e avvicinare le squame esterne.", "Un'applicazione a freddo di resine speciali per fissare pieghe permanenti e durature.", "Un finissaggio meccanico per eliminare i piccoli peli sporgenti dal filato tramite fiammelle a gas.", "Un'addizione di sali minerali per recuperare la perdita di peso dovuta alla sgommatura."], "ref": "L'impiego di zirconio o titanio, alla base dello speciale trattamento denominato ZIRPRO, accresce notevolmente le naturali doti di resistenza al fuoco della lana, rendendola una fibra ancor più ignifuga, anti-fumo e priva di tossicità, ideale per confezionare gli indumenti protettivi destinati a pompieri, corridori automobilistici e addetti ai altoforni."}, {"p": "Qual è il tasso eccezionale di igroscopicità della lana (capacità di incamerare umidità e sudore senza risultare umida o fredda al tatto)?", "a": "Fino al 30% del proprio peso.", "w": ["Fino al 10% del proprio peso.", "Esattamente il 50% del proprio peso.", "Fino al 100% del proprio peso.", "Meno del 5% del proprio peso.", "Circa il 75% del proprio peso."], "ref": "Grazie a un tasso di igroscopicità eccezionale, la lana può incamerare umidità e sudore fino al 30% del proprio peso senza risultare umida o fredda al tatto."}, {"p": "Qual è la resa media di fibra finissima color cannella ottenibile per ciascun capo di Vigogna durante la tosatura biennale?", "a": "Appena 120 g di fibra", "w": ["Circa 300 g di fibra", "Esattamente 400 g di fibra", "Circa 1.600 g di fibra", "Da 2 a 5 kg di fibra", "Circa 4 kg di fibra"], "ref": "Il vello fornisce il sottopelo più fine e costoso in assoluto, destinato a un mercato di nicchia, con una finezza tra 13 e 16 micron, una lunghezza media tra 4 e 8 cm e una resa per capo di appena 120 g di fibra di colore cannella;"}, {"p": "Dal punto di vista chimico, quali sono le due proteine principali che compongono la bava grezza del baco da seta e le loro percentuali?", "a": "Fibroina (75-77%) e sericina (22-23%).", "w": ["Cheratina (80%) e lanolina (1,5%).", "Collagene (90%) e elastina (10%).", "Fibroina (50%) e cheratina (50%).", "Sericina (60%) e albumina (40%).", "Fibroina (10%) e sericina (90%)."], "ref": "Fibroina 75-77% proteina fibrosa che rappresenta la parte indispensabile per ottenere un filato Sericina 22-23% proteina gommosa che funziona da collante per tenere unite le **2** bavelle"}, {"p": "A quanto ammonta la resa media di seta grezza (tratta direttamente) a partire da 100 kg di bozzoli integri?", "a": "Appena 20-25 kg di seta grezza", "w": ["Circa 50 kg di seta grezza", "Esattamente 70 kg di seta grezza", "Circa 10 kg di seta grezza", "Più di 90 kg di seta grezza", "Esattamente 15 kg di seta grezza"], "ref": "Si tratta di una fibra particolarmente costosa per via delle difficoltà di allevamento e della bassa resa produttiva, in quanto da 100 kg di bozzoli si ricavano appena 20-25 kg di seta grezza e 15 kg di cascami."}, {"p": "Quale innovativo metodo di ingegneria genetica si sta studiando per produrre su larga scala le proteine della seta di ragno (Nephila clavipes)?", "a": "L'impianto dei geni del ragno in una capra per fare in modo che le proteine base della fibra siano presenti direttamente all'interno del suo latte.", "w": ["L'ibridazione in laboratorio del ragno Nephila clavipes con il comune baco da seta Bombix mori.", "L'alimentazione controllata di ragni giganti selvatici con foglie di quercia e frassino.", "La produzione di polimeri sintetici derivati dal petrolio che imitano la sequenza genica della seta.", "L'impianto dei geni del ragno nelle uova (seme-bachi) del baco da seta in bachicoltura.", "L'estrazione delle bave polimeriche da batteri marini trattati con acido solforico a media concentrazione."], "ref": "Per risolvere questo problema si sta studiando una soluzione attraverso l'uso dell'ingegneria genetica: i geni del ragno responsabili della fabbricazione della seta sono stati impiantati in una capra, in modo tale che le proteine base della fibra siano presenti direttamente all'interno del suo latte."}]}};
+var KEY='telesio_'+CFG.id;
+var S={pass:{},t:196,max:196};{try{var o=JSON.parse(localStorage.getItem(KEY)||'null');if(o&&o.pass)S=o}catch(e){}}
+function save(){try{localStorage.setItem(KEY,JSON.stringify(S))}catch(e){}}
+var $=function(i){return document.getElementById(i)};
+/* ---- lettore: YouTube (normale) oppure file mp4 (solo per prova locale, ?mp4=...) ---- */
+var P={ready:false,dur:CFG.dur,paused:true};
+var qp=new URLSearchParams(location.search),MP4=qp.get('mp4')||CFG.mp4;
+if(MP4){var v=document.createElement('video');v.id='vid';v.src=MP4;v.playsInline=true;v.preload='auto';$('yt').replaceWith(v);
+ P.t=function(){return v.currentTime};P.seek=function(x){v.currentTime=x};P.play=function(){var r=v.play();if(r&&r.catch)r.catch(function(){})};P.pause=function(){v.pause()};
+ v.addEventListener('loadedmetadata',function(){P.dur=v.duration;P.ready=true;resume();draw()});v.addEventListener('timeupdate',tick);v.addEventListener('play',function(){P.paused=false});v.addEventListener('pause',function(){P.paused=true});v.addEventListener('ended',function(){P.paused=true;ended()});
+}else{
+ function nocc(){try{yt.unloadModule('captions');yt.unloadModule('cc')}catch(x){}}
+ var yt,VID=qp.get('v')||CFG.yt;window.onYouTubeIframeAPIReady=function(){yt=new YT.Player('yt',{videoId:VID,host:'https://www.youtube-nocookie.com',playerVars:{controls:0,disablekb:1,rel:0,playsinline:1,iv_load_policy:3,fs:0,cc_load_policy:0,cc_lang_pref:'it',modestbranding:1,hl:'it'},
+  events:{onReady:function(){P.ready=true;nocc();var d=yt.getDuration();if(d)P.dur=d;resume();draw()},onStateChange:function(e){P.paused=(e.data!==1&&e.data!==3);if(e.data===1)nocc();if(e.data===1&&document.documentElement.classList.contains('ytwait')){document.documentElement.classList.remove('ytwait');$('big').style.display='none';$('poster').classList.remove('on');started=true;if(open){P.pause()}}if(e.data===1){var d=yt.getDuration();if(d)P.dur=d}if(e.data===0)ended()}}})};
+ P.t=function(){return yt&&yt.getCurrentTime?yt.getCurrentTime():0};P.seek=function(x){yt.seekTo(x,true)};P.play=function(){yt.playVideo()};P.pause=function(){yt.pauseVideo()};
+ document.documentElement.classList.add('ytwait','yt');
+ var s=document.createElement('script');s.src='https://www.youtube.com/iframe_api';document.head.appendChild(s);
+}
+/* ---- tappe ---- */
+var STOPS=CFG.stops;/* [{t:521.4,q:'Q1',top:59.7}] */
+function passed(q){return !!S.pass[q]}
+function limit(){for(var i=0;i<STOPS.length;i++)if(!passed(STOPS[i].q))return STOPS[i].t;return Infinity}
+function fmt(t){t=Math.max(0,Math.floor(t||0));return Math.floor(t/60)+':'+('0'+t%60).slice(-2)}
+var open=null,lastT=0,started=false;
+function resume(){var t=Math.min(S.t||0,S.max||0);if(S.end){t=P.dur-1}if(t>3){P.seek(Math.max(0,t-1));lastT=t-1}}
+var DEMO=new URLSearchParams(location.search).get('prova')==='1';
+function cap(){return DEMO?limit():Math.min(limit(),S.max||0)}
+function go(t){if(open)return;var c=cap();if(t>c)t=Math.max(0,c-0.3);P.seek(t);lastT=t}
+function play(){if(open)return;$('big').style.display='none';$('poster').classList.remove('on');started=true;P.play()}
+function toggle(){if(open)return;if(P.paused)play();else P.pause()}
+$('pp').onclick=toggle;$('big').onclick=play;$('shield').onclick=toggle;
+function back(t){if(open&&cur&&cur.idx>=0){closeQ()}if(!open)go(Math.max(0,t))}
+$('b10').onclick=function(){back(P.t()-10)};
+$('sk').oninput=function(){var t=$('sk').value/1000*P.dur;if(open&&cur&&cur.idx>=0&&t<P.t())back(t);else go(t)};
+document.addEventListener('keydown',function(e){if(open)return;var tg=(e.target&&e.target.tagName)||'';if(tg==='INPUT'&&e.target.type!=='range')return;if(e.code==='Space'){e.preventDefault();toggle()}else if(e.key==='ArrowLeft'){e.preventDefault();go(Math.max(0,P.t()-10))}});
+function maxi(on){document.documentElement.classList.toggle('maxi',on);$('fs').textContent=on?'Esci da schermo intero':'Schermo intero';if(on)$('stage').appendChild($('ctl'));else $('stage').parentNode.insertBefore($('ctl'),$('steps'))}
+$('fs').onclick=function(){var s=$('stage');
+ if(document.documentElement.classList.contains('maxi')){maxi(false);return}
+ if(document.fullscreenElement){document.exitFullscreen();return}
+ var ok=document.fullscreenEnabled||document.webkitFullscreenEnabled;
+ if(ok&&s.requestFullscreen){s.requestFullscreen().catch(function(){maxi(true)})}else if(ok&&s.webkitRequestFullscreen){s.webkitRequestFullscreen()}else maxi(true)};
+document.addEventListener('keydown',function(e){if(e.key==='Escape'&&document.documentElement.classList.contains('maxi'))maxi(false)});
+document.addEventListener('fullscreenchange',function(){var f=document.fullscreenElement===$('stage');if(f)$('stage').appendChild($('ctl'));else $('stage').parentNode.insertBefore($('ctl'),$('steps'));$('fs').textContent=f?'Esci da schermo intero':'Schermo intero'});
+var lastW=0;
+function tick(){if(!P.ready)return;var t=P.t(),now=Date.now(),dt=lastW?(now-lastW)/1000:0.2;lastW=now;
+ /* margine in base al tempo reale passato: regge anche quando il browser rallenta i controlli (scheda in secondo piano) */
+ var tol=Math.max(2.5,dt*1.5+1.5);
+ if(!open){var L=limit();
+  var M=DEMO?1e9:(S.max||0);if(!P.paused&&t>M&&t-M<tol)S.max=M=Math.min(t,L);
+  if(!DEMO&&t>M+tol+1){var c=Math.max(0,M-0.3);P.seek(c);t=c}
+  for(var i=0;i<STOPS.length;i++){var s=STOPS[i];if(!passed(s.q)){if(t>=s.t-0.05){P.pause();if(t>s.t+0.5)P.seek(s.t);openQ(s.q,i)}break}}
+  if(!P.paused){S.t=t;if(Math.random()<.2)save()}}
+ var wasP=document.documentElement.classList.contains('paused'),isP=!!(P.paused&&!open);if(wasP&&!isP&&!open){var de=document.documentElement;de.classList.add('pzhold');clearTimeout(window.__pzT);window.__pzT=setTimeout(function(){de.classList.remove('pzhold')},4000)}document.documentElement.classList.toggle('paused',isP);lastT=t;$('sk').value=P.dur?Math.round(t/P.dur*1000):0;$('tm').textContent=fmt(t)+' / '+fmt(P.dur);$('pp').textContent=P.paused?'Play':'Pausa';subs(t)}
+setInterval(tick,200);
+var JING='DATA';
+function introC(){if(open)return;open='I';var el=$('intro');el.classList.remove('on');void el.offsetWidth;el.classList.add('on');try{var a=new Audio(JING);a.volume=.8;var r=a.play();if(r&&r.catch)r.catch(function(){})}catch(e){}
+ setTimeout(function(){el.classList.remove('on');open=null;openC()},3600)}
+function ended(){S.end=true;save();draw();if(open)return;if(limit()===Infinity){if(S.cons)openC();else introC()}}
+
+/* ---- compiti nel video ---- */
+var CT={vf:[["Le fibre tessili si dividono in naturali e chimiche.","V"],["Il mohair è una fibra vegetale.","F"],["La viscosa è una fibra chimica artificiale.","V"],["Nelle fibre in mischia si uniscono i pregi di fibre diverse.","V"]],
+ gap:[["Lana e seta sono fibre ","naturali"," di origine animale."],["Viscosa e acetato sono fibre chimiche ","artificiali","."],["Poliammide e poliestere sono fibre chimiche ","sintetiche","."]],
+ mc:[{p:"Quale fibra NON è artificiale?",o:["Viscosa","Acetato","Poliestere","Modal"],a:"Poliestere"},{p:"Il cashmere è una fibra…",o:["vegetale","animale","sintetica","artificiale"],a:"animale"}],
+ ap:["Spiega con parole tue la differenza tra fibre chimiche artificiali e sintetiche, con un esempio per ciascuna.","Scegli un capo che indossi spesso: di quale fibra è fatto? Perché pensi che sia stata scelta proprio quella fibra?"]};
+var HS={};
+async function hh(t){var b=await crypto.subtle.digest('SHA-256',new TextEncoder().encode('telesio|'+String(t).trim().toLowerCase().replace(/\s+/g,' ')));return Array.from(new Uint8Array(b)).map(function(x){return x.toString(16).padStart(2,'0')}).join('').slice(0,16)}
+(async function(){for(var i=0;i<CT.vf.length;i++)HS['vf'+i]=await hh(CT.vf[i][1]);for(i=0;i<CT.gap.length;i++)HS['g'+i]=await hh(CT.gap[i][1]);for(i=0;i<CT.mc.length;i++)HS['m'+i]=await hh(CT.mc[i].a);
+ CT.vf.forEach(function(x){x[1]=''});CT.gap.forEach(function(x){x[1]=''});CT.mc.forEach(function(x){x.a=''})})();
+function openC(){open='C';cur={q:'C',idx:-1};P.pause();
+ var ov=$('ov'),narrow=$('stage').clientWidth<720&&!document.fullscreenElement;if(narrow){document.body.appendChild(ov);ov.classList.add('fix')}else{$('stage').appendChild(ov);ov.classList.remove('fix')}
+ $('qt').textContent='Compiti della lezione';$('qs').textContent='Svolgili qui e premi «Consegna» · si consegna una volta sola · gli esercizi 1–3 si correggono subito, il 4 lo corregge il docente';
+ var h='<div class="qi"><div class="p">Il tuo codice studente</div><input type="text" id="ccod" style="font:inherit;padding:6px 10px;border-radius:8px;border:1px solid #C9D0DC;width:240px" placeholder="nella prova: il tuo nome"></div>';
+ h+='<div class="qi"><div class="p">Esercizio 1 · Vero o falso?</div>'+CT.vf.map(function(x,i){return '<div id="cvf'+i+'" style="display:flex;gap:10px;justify-content:space-between;align-items:center;padding:3px 6px;border-radius:6px"><span>'+esc(x[0])+'</span><span style="white-space:nowrap"><label style="display:inline"><input type="radio" name="vf'+i+'" value="V"> V</label> <label style="display:inline"><input type="radio" name="vf'+i+'" value="F"> F</label></span></div>'}).join('')+'</div>';
+ h+='<div class="qi"><div class="p">Esercizio 2 · Completa con: naturali · artificiali · sintetiche</div>'+CT.gap.map(function(x,i){return '<div id="cg'+i+'" style="padding:3px 6px;border-radius:6px">'+esc(x[0])+'<input type="text" id="g'+i+'" style="font:inherit;width:130px;padding:2px 6px;border-radius:6px;border:1px solid #C9D0DC">'+esc(x[2])+'</div>'}).join('')+'</div>';
+ h+='<div class="qi"><div class="p">Esercizio 3 · Scegli la risposta giusta</div>'+CT.mc.map(function(q,i){return '<div id="cm'+i+'" style="padding:3px 6px;border-radius:6px"><b>'+esc(q.p)+'</b>'+q.o.map(function(o){return '<label><input type="radio" name="m'+i+'" value="'+esc(o)+'"> <span>'+esc(o)+'</span></label>'}).join('')+'</div>'}).join('')+'</div>';
+ h+='<div class="qi"><div class="p">Esercizio 4 · Rispondi (lo corregge il docente)</div>'+CT.ap.map(function(p,i){return '<div style="margin:6px 0">'+esc(p)+'<textarea id="ca'+i+'" style="display:block;width:100%;min-height:70px;font:inherit;padding:6px 8px;border-radius:8px;border:1px solid #C9D0DC;margin-top:4px"></textarea></div>'}).join('')+'</div>';
+ $('qb').innerHTML=h;$('qb').scrollTop=0;$('qm').textContent='';$('qr').style.display='none';$('qv').textContent='Consegna';$('qv').className='btn';$('qv').onclick=consegna;
+ $('ov').classList.add('on');$('cap').classList.remove('on');if(S.cons)esito(S.cons)}
+function val(n){var x=document.querySelector('input[name="'+n+'"]:checked');return x?x.value:''}
+async function consegna(){var cod=$('ccod').value.trim();if(!cod){$('qm').textContent='Scrivi il tuo codice studente.';return}
+ var r={cod:cod,quando:new Date().toLocaleString('it-IT'),voci:{},v:{},ok:0,tot:0},i,g,x;
+ for(i=0;i<CT.vf.length;i++){x=val('vf'+i);g=!!x&&(await hh(x))===HS['vf'+i];r.voci['cvf'+i]=g;r.v['vf'+i]=x;r.ok+=g;r.tot++}
+ for(i=0;i<CT.gap.length;i++){x=$('g'+i).value;g=!!x.trim()&&(await hh(x))===HS['g'+i];r.voci['cg'+i]=g;r.v['g'+i]=x;r.ok+=g;r.tot++}
+ for(i=0;i<CT.mc.length;i++){x=val('m'+i);g=!!x&&(await hh(x))===HS['m'+i];r.voci['cm'+i]=g;r.v['m'+i]=x;r.ok+=g;r.tot++}
+ r.aperte=CT.ap.map(function(_,i){return $('ca'+i).value.trim()});S.cons=r;save();draw();esito(r)}
+function esito(r){$('ccod').value=r.cod;
+ Object.keys(r.v).forEach(function(k){var el=document.querySelector('input[name="'+k+'"][value="'+(r.v[k]||'').replace(/"/g,'')+'"]');if(el)el.checked=true;else if($(k)&&$(k).tagName==='INPUT')$(k).value=r.v[k]});
+ (r.aperte||[]).forEach(function(t,i){$('ca'+i).value=t});
+ $('qb').querySelectorAll('input,textarea').forEach(function(e){e.disabled=true});
+ Object.keys(r.voci).forEach(function(id){if($(id))$(id).style.background=r.voci[id]?'#EAF6EF':'#FCEDEC'});
+ $('qm').textContent='Consegnati il '+r.quando+' · esercizi 1–3: '+r.ok+' su '+r.tot+' corretti (in rosso quelli da rivedere) · esercizio 4: inviato al docente.';
+ $('qv').textContent='Chiudi';$('qv').className='btn go';$('qv').onclick=closeQ}
+/* ---- sottotitoli ---- */
+var ccOn=false,ci=-2;$('cc').onclick=function(){ccOn=!ccOn;this.setAttribute('aria-pressed',ccOn);this.textContent=ccOn?'Sottotitoli: sì':'Sottotitoli';ci=-2};
+function subs(t){var i=-1;if(ccOn&&!open){var lo=0,hi=CUES.length-1;while(lo<=hi){var m=(lo+hi)>>1;if(CUES[m][1]<t)lo=m+1;else if(CUES[m][0]>t)hi=m-1;else{i=m;break}}}
+ if(i!==ci){ci=i;$('cap').firstChild.textContent=i<0?'':CUES[i][2];$('cap').classList.toggle('on',i>=0)}}
+/* ---- quiz ---- */
+function shuf(a){a=a.slice();for(var i=a.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1));var x=a[i];a[i]=a[j];a[j]=x}return a}
+var cur=null;
+function openQ(q,idx){var Z=QZ[q];open=q;cur={q:q,idx:idx};P.pause();
+ var ov=$('ov'),narrow=$('stage').clientWidth<720&&!document.fullscreenElement;if(narrow){document.body.appendChild(ov);ov.classList.add('fix')}else{$('stage').appendChild(ov);ov.classList.remove('fix')}
+ if(document.fullscreenElement&&idx<0){}
+ $('qt').textContent=Z.title;var need=Math.ceil(Z.items.length*CFG.soglia);
+ $('qs').textContent=Z.items.length+' domande · per '+(idx<0?'superare il test':'continuare')+' servono almeno '+need+' risposte giuste (80%)';
+ var h='';Z.items.forEach(function(it,k){var op=shuf([it.a].concat(it.w));h+='<div class="qi" id="qi'+k+'"><div class="p">'+(k+1)+'. '+esc(it.p)+'</div>';
+  op.forEach(function(o,j){h+='<label><input type="radio" name="r'+k+'" value="'+esc(o)+'"> <span>'+esc(o)+'</span></label>'});
+  h+='<div class="fb">Da rivedere: '+esc(it.ref||'')+'</div></div>'});
+ $('qb').innerHTML=h;$('qb').scrollTop=0;$('qm').textContent='';$('qv').textContent='Check';$('qv').className='btn';$('qv').onclick=check;
+ $('qr').style.display=(idx>=0?'':'none');$('ov').classList.add('on');$('cap').classList.remove('on');
+ setTimeout(function(){$('qt').focus&&$('qb').querySelector('input')&&$('qb').querySelector('input').focus({preventScroll:true})},60)}
+function esc(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/"/g,'&quot;')}
+function check(){var Z=QZ[cur.q],ok=0,miss=0;
+ Z.items.forEach(function(it,k){var c=document.querySelector('input[name=r'+k+']:checked');var e=$('qi'+k);e.classList.remove('good','bad');
+  if(!c){miss++;return}if(c.value===it.a){ok++;e.classList.add('good')}else e.classList.add('bad')});
+ if(miss){$('qm').textContent='Rispondi a tutte le domande (ne mancano '+miss+').';Z.items.forEach(function(it,k){if(!document.querySelector('input[name=r'+k+']:checked'))$('qi'+k).classList.add('bad')});return}
+ var n=Z.items.length,pc=Math.round(ok/n*100);
+ if(ok/n>=CFG.soglia-1e-9){S.pass[cur.q]={ok:ok,n:n,d:new Date().toISOString()};save();draw();
+  if(cur.idx<0){$('qm').textContent='Test superato: '+ok+' su '+n+' ('+pc+'%). Puoi accedere alla lezione successiva.';$('qv').textContent='Chiudi';$('qv').onclick=closeQ;$('qr').style.display='none'}
+  else{$('qm').textContent='Superato: '+ok+' su '+n+' ('+pc+'%).';$('qv').textContent='Continua';$('qv').className='btn go';$('qv').onclick=function(){closeQ();play()}}}
+ else{$('qm').textContent=ok+' su '+n+' ('+pc+'%): serve almeno l\'80%. Leggi i suggerimenti e riprova.';$('qv').textContent='Riprova';$('qv').onclick=function(){openQ(cur.q,cur.idx)}}}
+function closeQ(){$('ov').classList.remove('on');open=null;ci=-2}
+$('qr').onclick=function(){var s=STOPS[cur.idx];closeQ();var t=s.top;P.seek(t);lastT=t;play()};
+function draw(){var ul=$('steps');ul.innerHTML='';
+ CFG.tappe.forEach(function(tp){var li=document.createElement('li');var ok=tp.q&&passed(tp.q);if(ok)li.className='ok';
+  li.innerHTML='<span>'+esc(tp.n)+'</span>'+(tp.q?'<i>'+(ok?'superato':(tp.fin?'test finale':'quiz da fare'))+'</i>':'');
+  if(tp.t!=null){var b=document.createElement('button');b.textContent='Vai';b.disabled=tp.t>cap()+0.5;b.onclick=function(){go(tp.t);play()};li.appendChild(b)}
+  if(tp.fin){var f=document.createElement('button');f.textContent='Apri';f.disabled=!(S.end&&limit()===Infinity);f.onclick=function(){if(!open)openQ(CFG.final,-1)};li.appendChild(f)}
+  if(ok&&!tp.fin){var r=document.createElement('button');r.textContent='Rifai';r.onclick=function(){openQ(tp.q,CFG.stops.findIndex(function(s){return s.q===tp.q}))};li.appendChild(r)}
+  ul.appendChild(li)});
+ var lc=document.createElement('li');if(S.cons)lc.className='ok';lc.innerHTML='<span>Compiti (dopo la sigla)</span><i>'+(S.cons?'consegnati':'dopo il video')+'</i>';var bc=document.createElement('button');bc.textContent='Apri';bc.disabled=!S.end;bc.onclick=function(){if(!open)openC()};lc.appendChild(bc);ul.appendChild(lc);
+ var tk=$('ticks');tk.innerHTML='';if(P.dur)STOPS.forEach(function(s){var e=document.createElement('span');e.className='tick'+(passed(s.q)?' done':'');e.style.left=(s.t/P.dur*100)+'%';tk.appendChild(e)})}
+$('rst').onclick=function(){if(CFG.poster)$('poster').classList.add('on');S={pass:{},t:196,max:196};save();closeQ();P.pause();P.seek(195);lastT=195;$('big').style.display='grid';draw()};
+if(CFG.poster){$('poster').style.backgroundImage='url('+CFG.poster+')';$('poster').classList.add('on')}
+draw();
+window.__t={P:P,S:S,openQ:openQ,limit:limit};
+</script></body></html>

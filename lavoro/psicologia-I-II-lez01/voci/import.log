@@ -1,0 +1,25 @@
+R1 durata 6.12 frasi trovate 1 / 1 parole diverse 0
+R2 durata 5.09 frasi trovate 1 / 1 parole diverse 1
+   ('replace', ['la'], ['alla'])
+R3 durata 4.99 frasi trovate 1 / 1 parole diverse 1
+   ('replace', ['ripassiamo'], ['ripsiamo'])
+R4 durata 5.79 frasi trovate 1 / 1 parole diverse 0
+R5 durata 4.92 frasi trovate 1 / 1 parole diverse 0
+S1 durata 51.12 frasi trovate 5 / 5 parole diverse 1
+   ('delete', ['i'], [])
+S2 durata 49.85 frasi trovate 5 / 5 parole diverse 3
+   ('replace', ['videolezioni'], ['videolettività'])
+   ('replace', ['complessi'], ['comples'])
+   ('delete', ['e'], [])
+S3 durata 57.28 frasi trovate 5 / 5 parole diverse 3
+   ('replace', ['scienze', 'umane'], ['scien'])
+   ('insert', [], ['psicolare'])
+   ('replace', ['cento'], ['100'])
+S4 durata 57.2 frasi trovate 5 / 5 parole diverse 2
+   ('replace', ['multicausale'], ['multicauale'])
+   ('replace', ['relazioni'], ['relaz'])
+S5 durata 41.51 frasi trovate 5 / 5 parole diverse 1
+   ('replace', ['attualità'], ['attualiità'])
+GL1 durata 52.98 frasi trovate 9 / 9 parole diverse 0
+RF1 durata 53.6 frasi trovate 7 / 7 parole diverse 1
+   ('replace', ['milleseicentoquarantuno'], ['1641'])

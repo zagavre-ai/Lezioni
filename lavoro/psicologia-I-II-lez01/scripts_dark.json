@@ -1,0 +1,192 @@
+{
+ "T1": {
+  "type": "title",
+  "num": "01",
+  "total": 5,
+  "lines": [
+   "Le scienze umane",
+   "come strumento"
+  ],
+  "ex": "chiave · esperienze vissute",
+  "fs": 128,
+  "dur": 3.6,
+  "lineY": 720
+ },
+ "Q1": {
+  "type": "quiz",
+  "topic": "Le scienze umane come strumento",
+  "act": "Quiz 1",
+  "pts": "5 domande · per continuare almeno l’80%",
+  "dur": 4.0
+ },
+ "R1": {
+  "type": "repaso",
+  "kicker": "Ripasso con voce",
+  "topic": "Le scienze umane come strumento",
+  "caps": [
+   [
+    0.9,
+    5.56,
+    "Ripassiamo insieme le scienze umane come strumento e l'obiettivo del corso."
+   ],
+   [
+    5.56,
+    6.62,
+    "Guarda lo schema."
+   ]
+  ],
+  "dur": 13.0
+ },
+ "T2": {
+  "type": "title",
+  "num": "02",
+  "total": 5,
+  "lines": [
+   "I temi vicini",
+   "ai giovani"
+  ],
+  "ex": "relazioni · ricerca di sé · società",
+  "fs": 128,
+  "dur": 3.6,
+  "lineY": 720
+ },
+ "Q2": {
+  "type": "quiz",
+  "topic": "I temi vicini ai giovani",
+  "act": "Quiz 2",
+  "pts": "5 domande · per continuare almeno l’80%",
+  "dur": 4.0
+ },
+ "R2": {
+  "type": "repaso",
+  "kicker": "Ripasso con voce",
+  "topic": "I temi vicini ai giovani",
+  "caps": [
+   [
+    0.9,
+    4.46,
+    "Ripassiamo i temi vicini ai giovani e la società di oggi."
+   ],
+   [
+    4.46,
+    5.59,
+    "Osserva lo schema."
+   ]
+  ],
+  "dur": 13.0
+ },
+ "T3": {
+  "type": "title",
+  "num": "03",
+  "total": 5,
+  "lines": [
+   "Scienze umane e",
+   "scienze della natura"
+  ],
+  "ex": "oggetto di studio · metodo",
+  "fs": 104,
+  "dur": 3.6,
+  "lineY": 720
+ },
+ "Q3": {
+  "type": "quiz",
+  "topic": "Scienze umane e scienze della natura",
+  "act": "Quiz 3",
+  "pts": "5 domande · per continuare almeno l’80%",
+  "dur": 4.0
+ },
+ "R3": {
+  "type": "repaso",
+  "kicker": "Ripasso con voce",
+  "topic": "Scienze umane e scienze della natura",
+  "caps": [
+   [
+    0.9,
+    4.54,
+    "Ripassiamo il confronto tra scienze umane e scienze della natura."
+   ],
+   [
+    4.54,
+    5.49,
+    "Guarda lo schema."
+   ]
+  ],
+  "dur": 13.0
+ },
+ "T4": {
+  "type": "title",
+  "num": "04",
+  "total": 5,
+  "lines": [
+   "I fattori del",
+   "comportamento"
+  ],
+  "ex": "biologici · ambiente · storia",
+  "fs": 128,
+  "dur": 3.6,
+  "lineY": 720
+ },
+ "Q4": {
+  "type": "quiz",
+  "topic": "I fattori del comportamento",
+  "act": "Quiz 4",
+  "pts": "5 domande · per continuare almeno l’80%",
+  "dur": 4.0
+ },
+ "R4": {
+  "type": "repaso",
+  "kicker": "Ripasso con voce",
+  "topic": "I fattori del comportamento",
+  "caps": [
+   [
+    0.9,
+    4.25,
+    "Ripassiamo i fattori che influenzano il comportamento."
+   ],
+   [
+    4.25,
+    6.29,
+    "Osserva lo schema prima del quiz."
+   ]
+  ],
+  "dur": 13.0
+ },
+ "T5": {
+  "type": "title",
+  "num": "05",
+  "total": 5,
+  "lines": [
+   "Le discipline e",
+   "il percorso di studio"
+  ],
+  "ex": "psicologia · sociologia · antropologia",
+  "fs": 104,
+  "dur": 3.6,
+  "lineY": 720
+ },
+ "Q5": {
+  "type": "quiz",
+  "topic": "Le discipline e il percorso di studio",
+  "act": "Quiz 5",
+  "pts": "5 domande · per continuare almeno l’80%",
+  "dur": 4.0
+ },
+ "R5": {
+  "type": "repaso",
+  "kicker": "Ripasso con voce",
+  "topic": "Le discipline e il percorso di studio",
+  "caps": [
+   [
+    0.9,
+    4.53,
+    "Ripassiamo le discipline delle scienze umane e il percorso di studio."
+   ],
+   [
+    4.53,
+    5.42,
+    "Guarda lo schema."
+   ]
+  ],
+  "dur": 13.0
+ }
+}

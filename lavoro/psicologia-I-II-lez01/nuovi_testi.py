@@ -1,0 +1,91 @@
+# -*- coding: utf-8 -*-
+import json
+N={}
+N['AN1']=["Le scienze umane sono uno strumento: non solo una materia teorica, ma una chiave per comprendere le proprie esperienze vissute.",
+"Una materia solo teorica resta sulla carta: si studia, si ripete, si ricorda. Una chiave, invece, serve ad aprire qualcosa.",
+"Che cosa apre? Le esperienze vissute: quello che abbiamo davvero attraversato, giorno dopo giorno, nella nostra vita.",
+"Per questo le scienze umane non riguardano qualcosa di lontano da noi: riguardano la persona, cioè noi stessi e gli altri.",
+"Comprendere le proprie esperienze vuol dire interpretarle con metodo, e non soltanto viverle, subirle o raccontarle.",
+"Nella slide sono in evidenza tre parole: scienze umane, strumento ed esperienze vissute. Sono il cuore di questa prima idea.",
+"Lo scopo del corso comincia da qui: usare le scienze umane come una chiave, e non come un semplice elenco di nozioni da ricordare.",
+"Per ricordarlo: le scienze umane sono uno strumento, una chiave per comprendere le proprie esperienze vissute."]
+N['AN2']=["Obiettivo del corso: aprire e analizzare i diversi contesti dell'esistenza umana.",
+"L'esistenza umana non è un blocco unico: è fatta di contesti diversi, e ogni contesto ha le sue regole, i suoi ruoli e le sue relazioni.",
+"Aprire un contesto significa guardarci dentro, senza fermarsi alla superficie e alle prime impressioni.",
+"Analizzarlo significa osservarlo con metodo: descrivere che cosa accade e cercare di spiegare perché accade.",
+"Nella slide sono in evidenza le parole esistenza umana: ciò che si studia riguarda la vita delle persone, in tutte le sue forme.",
+"Contesto dopo contesto, il quadro si completa: ogni analisi aggiunge un tassello alla comprensione della persona.",
+"È il percorso che il corso propone fin dalla sua introduzione: aprire, analizzare, comprendere.",
+"Ricordiamo la parola obiettivo: è ciò che orienta tutto il lavoro dei prossimi argomenti."]
+N['AN3']=["Tra i temi vicini ai giovani, la slide indica l'analisi delle relazioni quotidiane e la ricerca di sé.",
+"Le relazioni quotidiane sono quelle che viviamo ogni giorno, con le persone che incontriamo e con cui ci confrontiamo.",
+"Analizzarle significa osservarle con attenzione: capire come nascono, come cambiano e che cosa ci dicono di noi.",
+"La ricerca di sé è la domanda su chi siamo e su chi vogliamo diventare, un percorso che riguarda ogni giovane.",
+"Le due cose sono legate: ci conosciamo anche attraverso le relazioni, e le relazioni cambiano insieme a noi.",
+"Sono temi vicini ai giovani proprio perché toccano da vicino la loro vita di tutti i giorni.",
+"Studiarli con le scienze umane vuol dire trasformare esperienze che conosciamo già in un oggetto di analisi.",
+"Relazioni quotidiane e ricerca di sé: due modi per dire che le scienze umane partono dalla vita di tutti i giorni."]
+N['AN4']=["Il terzo tema vicino ai giovani è l'inserimento in una società multiculturale e tecnologica.",
+"Multiculturale vuol dire che nella stessa società convivono culture diverse, ognuna con le proprie abitudini e i propri valori.",
+"Tecnologica vuol dire che la tecnologia fa parte della vita quotidiana, anche della scuola e dello studio.",
+"Inserirsi significa trovare il proprio posto in questo contesto, con le sue differenze e con i suoi strumenti.",
+"Le scienze umane aiutano a leggere questo inserimento: come ci si colloca, come ci si relaziona, come si cambia.",
+"Nella slide sono in evidenza le parole società multiculturale e tecnologica: sono il contesto in cui i giovani vivono.",
+"Per questo è uno dei temi centrali del corso, già a partire da questa lezione introduttiva.",
+"Ricordiamo la formula della slide: società multiculturale e tecnologica, il contesto in cui si inseriscono i giovani."]
+N['AN5']=["Scienze umane e scienze della natura hanno un oggetto di studio differente.",
+"Le scienze della natura studiano la realtà materiale: la chimica e la biologia sono gli esempi indicati nella slide.",
+"Le scienze umane studiano l'essere umano, le sue azioni e la sua mente.",
+"Da una parte la materia, dall'altra la persona: sono due oggetti di studio diversi.",
+"Ma c'è anche un obiettivo comune: spiegare e comprendere la realtà circostante attraverso il metodo scientifico.",
+"Spiegare vuol dire individuare come e perché accade qualcosa; comprendere vuol dire darle un significato.",
+"Oggetti diversi, dunque, ma stesso metodo: è questo che permette di chiamare scienze anche le scienze umane.",
+"Per riassumere: oggetto di studio differente, obiettivo comune, metodo scientifico."]
+N['AN6']=["La slide indica un'altra parola chiave: la ricerca delle cause.",
+"Ricercare le cause significa identificare le leggi o i fattori che determinano i comportamenti delle persone.",
+"Le leggi sono regole generali; i fattori sono gli elementi che, insieme, influenzano ciò che una persona fa.",
+"Quando osserviamo un comportamento, la domanda scientifica è sempre la stessa: che cosa lo determina?",
+"Rispondere a questa domanda è il modo con cui le scienze umane spiegano e comprendono la realtà.",
+"Nella slide sono in evidenza le parole determinano i comportamenti: è questo l'oggetto della ricerca.",
+"Ricordiamo la formula: obiettivo comune, il metodo scientifico; strumento per raggiungerlo, la ricerca delle cause.",
+"Una domanda di ripasso: che cosa cerca di identificare la ricerca delle cause? Le leggi o i fattori che determinano i comportamenti."]
+N['AN7']=["I comportamenti hanno una natura multi-causale: le azioni umane non dipendono mai da una sola causa.",
+"Multi-causale significa con molte cause: un solo comportamento può avere più cause che agiscono insieme.",
+"La parola decisiva è mai: non esiste una causa unica che spieghi da sola un'azione umana.",
+"Cercare una sola causa sarebbe una semplificazione, e le scienze umane evitano di semplificare troppo.",
+"Per questo la slide elenca i fattori principali analizzati, e anche questi non agiscono mai da soli.",
+"Immaginiamo un comportamento al centro, e intorno a lui le cause che si sommano e si intrecciano.",
+"Capire un comportamento vuol dire guardare tutte le cause insieme, e non scegliere la più comoda.",
+"Ricordiamo la parola chiave: multi-causale, cioè mai una sola causa."]
+N['AN8']=["I fattori principali analizzati sono tre.",
+"Primo: i fattori biologici e di sviluppo, cioè la crescita e le tappe evolutive della persona.",
+"Secondo: l'influenza dell'ambiente, cioè il contesto sociale, le relazioni interpersonali e il ruolo della famiglia e della scuola.",
+"Terzo: la dimensione storica, cioè il modo in cui i comportamenti, i valori e le tradizioni cambiano nel corso del tempo.",
+"Il primo fattore riguarda la persona, il secondo ciò che la circonda, il terzo il tempo in cui vive.",
+"Persona, ambiente e tempo: tre sguardi che, messi insieme, aiutano a spiegare un comportamento.",
+"Nessuno dei tre basta da solo: è la loro combinazione a rendere ogni comportamento umano così ricco e complesso.",
+"Ricordiamo i tre fattori: biologici e di sviluppo, influenza dell'ambiente, dimensione storica."]
+N['AN9']=["Le principali discipline delle scienze umane sono quattro.",
+"La psicologia studia il comportamento e i processi mentali dell'individuo.",
+"La sociologia analizza le strutture sociali, le istituzioni e i processi di interazione nei gruppi.",
+"L'antropologia studia i popoli e le diverse culture umane nel mondo.",
+"La metodologia della ricerca offre gli strumenti scientifici e le tecniche per svolgere le indagini sul campo.",
+"Individuo, società, culture e metodo: quattro prospettive diverse sullo stesso oggetto, l'essere umano.",
+"Ogni disciplina guarda l'essere umano da un punto di vista, e insieme costruiscono un quadro completo.",
+"Ricordiamo le quattro discipline: psicologia, sociologia, antropologia e metodologia della ricerca."]
+N['AN10']=["Il percorso di studio nel primo biennio ha un'articolazione precisa.",
+"Il programma prevede lo studio approfondito della psicologia, in particolare i processi cognitivi, la memoria e il pensiero.",
+"Poi c'è l'introduzione alla metodologia della ricerca statistica e dei dati.",
+"Infine, l'integrazione con percorsi di educazione civica, per riflettere sui temi di attualità della società civile.",
+"Tre direzioni: conoscere la mente, imparare a usare i dati, collegare lo studio alla società in cui viviamo.",
+"Si comincia dalla psicologia, che è la disciplina al centro del primo biennio.",
+"È la strada che si inizia a percorrere con questa lezione introduttiva: un passo dopo l'altro, dall'introduzione alla disciplina.",
+"Ricordiamo le tre direzioni: psicologia, metodologia della ricerca statistica e dei dati, educazione civica."]
+N['GL2']=["Psicologia: la disciplina che studia il comportamento e i processi mentali dell'individuo.",
+"Sociologia: la disciplina che analizza le strutture sociali, le istituzioni e i processi di interazione nei gruppi.",
+"Antropologia: la disciplina che studia i popoli e le diverse culture umane nel mondo.",
+"Metodologia della ricerca: gli strumenti scientifici e le tecniche per svolgere le indagini sul campo."]
+N['RF2']=["Nel primo biennio si studia in modo approfondito la psicologia, con un'introduzione alla metodologia della ricerca statistica e dei dati, e percorsi di educazione civica."]
+if __name__=='__main__':
+    for k,v in N.items(): print(k,sum(len(x) for x in v),'car ~%.0f s'%(sum(len(x) for x in v)/14.8))
+    json.dump(N,open('/home/claude/lezioni/psicologia-I-II-lez01/testi_voci_NUOVI.json','w'),ensure_ascii=False,indent=1)

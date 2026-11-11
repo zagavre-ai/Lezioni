@@ -1,0 +1,53 @@
+<!doctype html><meta charset=utf-8><style>
+@font-face{font-family:'BG';font-weight:800;src:url('file:///home/claude/l1/fz/33157a64-Bricolage_GrotesqueDM_MonoFigtree/Bricolage_Grotesque/static/BricolageGrotesque-ExtraBold.ttf')}
+@font-face{font-family:'DM';font-weight:500;src:url('file:///home/claude/l1/fz/33157a64-Bricolage_GrotesqueDM_MonoFigtree/DM_Mono/DMMono-Medium.ttf')}
+*{margin:0}body{background:#05070F;width:1920px;height:1080px;overflow:hidden}canvas{position:absolute;left:0;top:0}
+#ti{position:absolute;left:0;right:0;top:445px;text-align:center;font-family:BG;font-weight:800;font-size:150px;color:#fff;letter-spacing:-.02em;opacity:0}
+#ul{position:absolute;left:50%;top:620px;height:14px;width:0;background:#FFE600;transform:translateX(-50%);border-radius:7px}
+#su{position:absolute;left:0;right:0;top:680px;text-align:center;font-family:DM,monospace;font-weight:500;font-size:34px;letter-spacing:.14em;color:#C9D0DC;opacity:0}
+#lg{position:absolute;left:50%;top:850px;height:70px;transform:translateX(-50%);opacity:0}
+</style><body><canvas id=c width=1920 height=1080></canvas><div id=ti>PSICOLOGIA</div><div id=ul></div><div id=su>[MENTE E COMPORTAMENTO]</div><img id=lg src="file:///home/claude/logo/out/Telesio_logo_bianco.svg">
+<script>
+const cv=document.getElementById('c'),g=cv.getContext('2d');
+const E=x=>{x=Math.max(0,Math.min(1,x));return 1-Math.pow(1-x,3)};
+const EIO=x=>{x=Math.max(0,Math.min(1,x));return x<.5?4*x*x*x:1-Math.pow(-2*x+2,3)/2};
+const CY='53,224,255',CO='255,61,127';
+const CX=960,CYY=505,S=190,C30=Math.cos(Math.PI/6),S30=Math.sin(Math.PI/6);
+function P(x,y,z,yaw){ // x,y,z in [-1,1]; ruota attorno a z
+  return [CX+(x-y)*C30*S, CYY+(x+y)*S30*S - z*S*1.05]}
+const V=[[-1,-1,-1],[1,-1,-1],[1,1,-1],[-1,1,-1],[-1,-1,1],[1,-1,1],[1,1,1],[-1,1,1]];
+const ED=[[0,1],[1,2],[2,3],[3,0],[4,5],[5,6],[6,7],[7,4],[0,4],[1,5],[2,6],[3,7]];
+// 9 lastre: centro, larghezza, altezza, angolo iniziale (multipli di 15°), angolo finale (0/90)
+const PL=[[-.5,-.4,0,.7,.9,45,0],[.4,-.5,0,.7,.9,-30,90],[0,.1,0,.8,.9,75,0],[.5,.5,0,.7,.9,15,90],[-.5,.5,0,.7,.9,-60,0],[-.1,-.6,0,.6,.9,30,90],[.1,.6,0,.6,.9,-15,0],[.65,0,0,.6,.9,60,90],[-.7,.05,0,.6,.9,-45,0]];
+function plate(p,ang,al){const [cx,cy,cz,w,h]=p;const a=ang*Math.PI/180,ca=Math.cos(a),sa=Math.sin(a);const pts=[[-w/2,-h/2],[w/2,-h/2],[w/2,h/2],[-w/2,h/2]].map(([u,v])=>{const x=cx+u*ca,y=cy+u*sa,z=v;return P(Math.max(-1,Math.min(1,x)),Math.max(-1,Math.min(1,y)),z)});
+ g.beginPath();pts.forEach((q,i)=>i?g.lineTo(q[0],q[1]):g.moveTo(q[0],q[1]));g.closePath();g.fillStyle=`rgba(255,255,255,${.05*al})`;g.fill();g.strokeStyle=`rgba(${CY},${.55*al})`;g.lineWidth=2;g.stroke()}
+// profilo geometrico (testa astratta) in coordinate schermo relative al centro
+const PR=[[-60,-210],[40,-225],[120,-170],[150,-80],[150,-10],[185,40],[150,60],[150,110],[110,170],[40,190],[40,260],[-90,260],[-90,170],[-150,90],[-170,-20],[-140,-130],[-60,-210]];
+const K=.72;
+function bounce(t){const k=t*1.3;const x=Math.sin(k*2.1)*.8,y=Math.cos(k*1.7)*.8,z=-.3+Math.abs(Math.sin(k*2.6))*.9;return [x,y,z]}
+window.draw=function(t){
+ g.clearRect(0,0,1920,1080);g.fillStyle='#05070F';g.fillRect(0,0,1920,1080);
+ // riflesso sul pavimento
+ const fade=1-E((t-13.0)/.5);
+ // 0-1: bordo di luce diagonale
+ if(t<2.2){const a=E((t-.4)/.6)*(1-E((t-1.4)/.8));g.strokeStyle=`rgba(${CY},${a})`;g.lineWidth=3;g.beginPath();g.moveTo(300,900);g.lineTo(300+E((t-.4)/.8)*1320,900-E((t-.4)/.8)*720);g.stroke()}
+ // cubo: spigoli disegnati in sequenza 1-2.4
+ let ca=1;if(t>12.2)ca=1-E((t-12.2)/1.0);
+ if(t>1.0&&ca>0){ED.forEach((e,i)=>{const prog=E((t-1.0-i*.1)/.6);if(prog<=0)return;const a=P(...V[e[0]]),b=P(...V[e[1]]);g.strokeStyle=`rgba(${CY},${.9*ca})`;g.lineWidth=3;g.beginPath();g.moveTo(a[0],a[1]);g.lineTo(a[0]+(b[0]-a[0])*prog,a[1]+(b[1]-a[1])*prog);g.stroke()})}
+ // lastre 2.4-: compaiono, ruotano nel caos, poi si allineano 8-10
+ if(t>2.4&&ca>0){const al=ca;PL.forEach((p,i)=>{const ap=E((t-2.4-i*.25)/.5);if(ap<=0)return;let ang=p[5]+Math.sin(t*.9+i)*18*(1-EIO((t-7.5)/2.2));ang=ang+(p[6]-p[5])*EIO((t-7.6-i*.18)/1.6);ang=ang*1;plate(p,ang,ap*al)})}
+ // sfera corallo e riflessi 3-12.6
+ if(t>3.0&&t<13){const nrf=t<5?1:(t<7?4:12);const sa=E((t-3)/.5)*(t>11.6?1-E((t-11.6)/1.2):1);
+  for(let r=0;r<nrf;r++){const tt=t-r*.12;const b=bounce(tt);const q=P(b[0],b[1],b[2]);const a=sa*(r==0?1:.35/(1+r*.15));
+   g.fillStyle=`rgba(${CO},${a})`;g.beginPath();g.arc(q[0],q[1],r==0?16:10,0,7);g.fill();
+   if(r>0&&t>5){const b0=bounce(t);const q0=P(b0[0],b0[1],b0[2]);g.strokeStyle=`rgba(${CO},${a*.6})`;g.lineWidth=1.5;g.beginPath();g.moveTo(q0[0],q0[1]);g.lineTo(q[0],q[1]);g.stroke()}}}
+ // profilo 9-13
+ if(t>9.0){const pa=E((t-9.0)/1.8);const n=Math.floor(pa*(PR.length-1));g.strokeStyle=`rgba(${CY},${fade})`;g.lineWidth=4;g.lineJoin='round';g.beginPath();g.moveTo(CX+PR[0][0]*K,CYY+PR[0][1]*K);
+  for(let i=1;i<=n;i++)g.lineTo(CX+PR[i][0]*K,CYY+PR[i][1]*K);if(n<PR.length-1){const f=pa*(PR.length-1)-n;g.lineTo(CX+(PR[n][0]+(PR[n+1][0]-PR[n][0])*f)*K,CYY+(PR[n][1]+(PR[n+1][1]-PR[n][1])*f)*K)}g.stroke();
+  // sfera di consapevolezza
+  if(t>10.8){const sa=E((t-10.8)/.6)*fade;const pu=1+.15*Math.sin(Math.max(0,t-11.4)*Math.PI/1.0)*(t<12.6?1:0);g.fillStyle=`rgba(${CO},${sa*.25})`;g.beginPath();g.arc(CX-8,CYY-22,36*pu,0,7);g.fill();g.fillStyle=`rgba(${CO},${sa})`;g.beginPath();g.arc(CX-8,CYY-22,17*pu,0,7);g.fill()}}
+ // titolo 13-15
+ const ti=document.getElementById('ti'),ul=document.getElementById('ul'),su=document.getElementById('su'),lg=document.getElementById('lg');
+ const ta=E((t-13.1)/.6);ti.style.opacity=ta;ti.style.transform=`translateY(${(1-ta)*30}px)`;ul.style.width=(E((t-13.7)/.5)*620)+'px';su.style.opacity=E((t-14.0)/.4);lg.style.opacity=E((t-13.8)/.4)*.95;
+ document.body.style.opacity=t>14.75?1-E((t-14.75)/.25):1;return Math.round(t*30)}
+</script>

@@ -1,0 +1,189 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:'BG';font-weight:800;src:url('file:///home/claude/l1/fz/33157a64-Bricolage_GrotesqueDM_MonoFigtree/Bricolage_Grotesque/static/BricolageGrotesque-ExtraBold.ttf')}
+@font-face{font-family:'FG';font-weight:500;src:url('file:///home/claude/l1/fz/33157a64-Bricolage_GrotesqueDM_MonoFigtree/Figtree/static/Figtree-Medium.ttf')}
+@font-face{font-family:'FG';font-weight:700;src:url('file:///home/claude/l1/fz/33157a64-Bricolage_GrotesqueDM_MonoFigtree/Figtree/static/Figtree-Bold.ttf')}
+@font-face{font-family:'FG';font-weight:800;src:url('file:///home/claude/l1/fz/33157a64-Bricolage_GrotesqueDM_MonoFigtree/Figtree/static/Figtree-ExtraBold.ttf')}
+:root{--ink:#0B1530;--blue:#2060AF;--hl:#FFE600;--soft:#EEF0F4;--line:#C9D0DC}
+*{box-sizing:border-box;margin:0;padding:0}
+body{width:1920px;height:1080px;overflow:hidden;background:#F5F8FC;font-family:'FG';color:var(--ink);position:relative}
+.abs{position:absolute}
+#hd{left:80px;top:52px;height:52px}
+#ey{left:80px;top:140px;font-weight:800;letter-spacing:.16em;font-size:24px;color:var(--blue);text-transform:uppercase;background:#E3ECF8;padding:6px 16px;border-radius:30px}
+#tt{left:80px;top:190px;font-family:'BG';font-weight:800;font-size:64px;letter-spacing:-.02em;white-space:nowrap}
+#bar{left:80px;top:272px;width:84px;height:6px;border-radius:4px;background:var(--blue)}
+#cap{left:80px;right:80px;bottom:56px;min-height:118px;background:var(--ink);color:#fff;border-radius:18px;padding:20px 34px;font-weight:600;font-size:34px;line-height:1.32;display:flex;align-items:center}
+#stage{left:80px;top:310px;width:1760px;height:560px}
+.el{position:absolute;opacity:0}
+.card{background:#fff;border:2px solid #D5DCE8;border-radius:22px;box-shadow:0 18px 50px rgba(11,21,48,.10);padding:20px 26px;overflow:hidden}
+.card.dark{background:var(--ink);color:#fff;border-color:var(--ink)}
+.card.yel{background:var(--hl);border-color:var(--ink)}
+.card.soft{background:#E3ECF8;border-color:#C9D8EE}
+.lb{display:inline-block;font-weight:800;font-size:22px;letter-spacing:.14em;color:var(--blue);background:#EEF3FA;padding:4px 12px;border-radius:20px;text-transform:uppercase;margin-bottom:10px}
+.dark .lb{background:var(--hl);color:var(--ink)}
+.yel .lb{background:var(--ink);color:#fff}
+.mid{font-family:'BG';font-weight:800;font-size:44px;line-height:1.05;letter-spacing:-.01em}
+.tx{font-size:30px;font-weight:600;line-height:1.28;margin-top:8px}
+.ic{position:absolute;right:22px;top:20px;width:84px;height:84px;stroke:var(--blue);fill:none;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.dark .ic{stroke:var(--hl)}.yel .ic{stroke:var(--ink)}
+.chip{display:inline-block;background:#E3ECF8;color:var(--blue);font-weight:800;font-size:30px;border-radius:40px;padding:10px 24px;white-space:nowrap}
+.chip.y{background:var(--hl);color:var(--ink)}
+.chip.d{background:var(--ink);color:#fff}
+.on .card,.el.on>.card{border-color:var(--blue);box-shadow:0 0 0 6px var(--hl),0 18px 50px rgba(11,21,48,.12)}
+.el.on>.chip{box-shadow:0 0 0 6px rgba(255,230,0,.9)}
+.hl{background:linear-gradient(transparent 58%,var(--hl) 58%)}
+svg.ln{overflow:visible}
+</style></head><body>
+<img id="hd" class="abs" src="file:///home/claude/logo/out/Telesio_logo_blu.svg">
+<div id="ey" class="abs">Approfondimento</div><div id="tt" class="abs"></div><div id="bar" class="abs"></div>
+<div id="stage" class="abs"></div><div id="cap" class="abs"></div>
+<script>
+const E=x=>{x=Math.max(0,Math.min(1,x));return 1-Math.pow(1-x,3)};
+const $=id=>document.getElementById(id);
+const IC={
+key:'<circle cx="7.5" cy="12" r="3.8"/><path d="M11.3 12H21M17.5 12v3.2M20.7 12v2"/>',
+book:'<path d="M3 5.5h7a2 2 0 012 2V20a2 2 0 00-2-2H3zM21 5.5h-7a2 2 0 00-2 2V20a2 2 0 012-2h7z"/>',
+door:'<rect x="6" y="3" width="12" height="18" rx="1.2"/><circle cx="15" cy="12.3" r=".9"/><path d="M3 21h18"/>',
+person:'<circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.5 3.6-7 8-7s8 2.5 8 7"/>',
+people:'<circle cx="12" cy="8" r="3"/><path d="M6.5 20c0-3.4 2.4-5.2 5.5-5.2s5.5 1.8 5.5 5.2"/><circle cx="4.7" cy="10" r="2.2"/><path d="M1 19c0-2.6 1.5-4 3.7-4"/><circle cx="19.3" cy="10" r="2.2"/><path d="M23 19c0-2.6-1.5-4-3.7-4"/>',
+globe:'<circle cx="12" cy="12" r="9"/><ellipse cx="12" cy="12" rx="4" ry="9"/><path d="M3 12h18M4.5 7.5h15M4.5 16.5h15"/>',
+phone:'<rect x="7" y="2.5" width="10" height="19" rx="2.2"/><path d="M10.5 18.5h3"/>',
+flask:'<path d="M9 3h6M10 3v6l-5.2 9.6a2 2 0 001.8 2.9h10.8a2 2 0 001.8-2.9L14 9V3"/><path d="M7.5 15h9"/>',
+cell:'<circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3.2"/><path d="M12 3v3M12 18v3M3 12h3M18 12h3"/>',
+mind:'<path d="M9 4a3 3 0 00-3 3 3 3 0 00-2 5 3 3 0 002 5 3 3 0 003 3h6a3 3 0 003-3 3 3 0 002-5 3 3 0 00-2-5 3 3 0 00-3-3z"/><path d="M12 4v16M12 9l-3 2M12 14l3-2"/>',
+lens:'<circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5L21 21"/>',
+chart:'<path d="M4 20V4M4 20h17"/><rect x="7" y="12" width="3" height="8"/><rect x="12" y="8" width="3" height="12"/><rect x="17" y="14" width="3" height="6"/>',
+build:'<path d="M3 21h18M5 21V9l7-5 7 5v12"/><path d="M9 21v-6h6v6M9 11h.01M12 11h.01M15 11h.01"/>',
+clock:'<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/>',
+flag:'<path d="M5 21V4M5 4h12l-2.5 4L17 12H5"/>',
+prism:'<path d="M12 4l8 14H4z"/><path d="M2 11l6-1M16 12l6-2M16.5 14l5.5 1.5"/>',
+scale:'<path d="M12 4v16M6 20h12M4 8h16"/><path d="M4 8l-2 6a3 3 0 006 0zM20 8l-2 6a3 3 0 006 0z"/>',
+tree:'<circle cx="12" cy="6" r="2.5"/><circle cx="5" cy="18" r="2.5"/><circle cx="12" cy="18" r="2.5"/><circle cx="19" cy="18" r="2.5"/><path d="M12 8.5V15.5M10.5 8L6 15.8M13.5 8L18 15.8"/>',
+hand:'<path d="M8 21v-9.5a1.5 1.5 0 013 0V8.5a1.5 1.5 0 013 0v3a1.5 1.5 0 013 0V13a1.5 1.5 0 013 0v4c0 2.5-2 4-4.5 4H11a4 4 0 01-3-1.4L4 15"/>',
+stats:'<path d="M3 17l5-6 4 3 7-9"/><path d="M15 5h4v4"/>',
+heart:'<path d="M12 20s-8-5-8-11a4.5 4.5 0 018-2.8A4.5 4.5 0 0120 9c0 6-8 11-8 11z"/>',
+seed:'<path d="M12 21V11M12 11c0-4 3-6 7-6 0 4-3 6-7 6zM12 15c0-3-2-5-6-5 0 3 2 5 6 5z"/>',
+tool:'<path d="M14.5 6.5a4 4 0 005 5L21 13l-8 8-3-3 6.5-6.5a4 4 0 01-2-5z"/>'
+};
+const svg=(n,cls)=>`<svg class="${cls||'ic'}" viewBox="0 0 24 24">${IC[n]||''}</svg>`;
+let A=null,EL=[];
+// ---- costruttori ----
+const mk=(o,html)=>{EL.push(Object.assign({html,at:0,d:0,x:0,y:0,w:100,h:100,out:99,on:null,z:1},o))};
+const C=(at,x,y,w,h,o)=>{o=o||{};mk({at,x,y,w,h,d:o.d||0,out:o.out==null?99:o.out,on:o.on,z:o.z||1},
+ `<div class="card ${o.cls||''}" style="width:${w}px;height:${h}px">${o.lb?`<span class="lb">${o.lb}</span>`:''}${o.t?`<div class="mid" style="${o.fs?'font-size:'+o.fs+'px;':''}${o.ic?'padding-right:100px':''}">${o.t}</div>`:''}${o.tx?`<div class="tx">${o.tx}</div>`:''}${o.ic?svg(o.ic):''}</div>`)};
+const CH=(at,x,y,t,o)=>{o=o||{};mk({at,x,y,w:o.w||400,h:60,d:o.d||0,out:o.out==null?99:o.out,on:o.on,z:o.z||1},`<span class="chip ${o.cls||''}" style="${o.fs?'font-size:'+o.fs+'px':''}">${t}</span>`)};
+const AR=(at,x1,y1,x2,y2,o)=>{o=o||{};const dx=x2-x1,dy=y2-y1,L=Math.hypot(dx,dy),a=Math.atan2(dy,dx)*180/Math.PI;
+ mk({at,x:x1,y:y1,w:L,h:20,d:o.d||0,out:o.out==null?99:o.out,z:0,rot:a,origin:'0 50%',grow:1},`<svg class="ln" width="${L}" height="20" viewBox="0 0 ${L} 20"><line x1="0" y1="10" x2="${L-14}" y2="10" stroke="#2060AF" stroke-width="5" stroke-linecap="round"/><path d="M${L-18} 2L${L-2} 10L${L-18} 18z" fill="#2060AF"/></svg>`)};
+const BIG=(at,x,y,w,h,t,o)=>{o=o||{};mk({at,x,y,w,h,d:o.d||0,out:o.out==null?99:o.out,z:o.z||1},`<div style="width:${w}px;height:${h}px;display:flex;align-items:center;justify-content:center;text-align:center;font-family:BG;font-weight:800;font-size:${o.fs||60}px;line-height:1.05;color:${o.col||'var(--ink)'}">${t}</div>`)};
+// ---- scene ----
+const SC={};
+// AN1 · una chiave per comprendere
+SC.AN1=()=>{C(0,0,0,560,250,{lb:'Scienze umane',t:'Uno strumento',ic:'tool'});
+ C(1,600,0,560,250,{lb:'Solo teoria',t:'Resta sulla carta',ic:'book',out:5});C(1,1200,0,560,250,{lb:'Una chiave',t:'Serve ad aprire',ic:'key',cls:'yel',d:1.2,out:5});
+ C(2,0,290,860,250,{lb:'Esperienze vissute',t:'Ciò che abbiamo attraversato',tx:'giorno dopo giorno',ic:'door',out:5});
+ C(3,900,290,860,250,{lb:'La persona',t:'Noi stessi e gli altri',tx:'non qualcosa di lontano',ic:'person',out:5});
+ CH(4,560,232,'Interpretare con metodo',{cls:'d',w:560,z:3,out:5});
+ C(5,300,100,1160,360,{cls:'soft',z:2,out:5});CH(5,360,150,'scienze umane',{d:.3,z:3,cls:'y',out:5});CH(5,360,260,'strumento',{d:1.4,z:3,cls:'y',out:5});CH(5,360,370,'esperienze vissute',{d:2.5,z:3,cls:'y',out:5});
+ C(6,180,150,1400,270,{cls:'dark',z:5,lb:'Lo scopo del corso',t:'Una chiave, non un elenco di nozioni da ricordare',fs:56})};
+// AN2 · i contesti dell'esistenza
+SC.AN2=()=>{C(0,0,0,1760,170,{cls:'dark',lb:'Obiettivo del corso',t:'Aprire e analizzare i diversi contesti dell\'esistenza umana',fs:46});
+ [['Contesto','le sue regole','people'],['Contesto','i suoi ruoli','person'],['Contesto','le sue relazioni','heart']].forEach((x,i)=>C(1,i*600,210,560,170,{lb:x[0]+' '+(i+1),t:x[1],ic:x[2],d:i*.9,out:5,fs:40}));
+ C(2,0,420,860,130,{lb:'Aprire',t:'guardare dentro, oltre la superficie',fs:34,out:5});
+ C(3,900,420,860,130,{lb:'Analizzare',t:'che cosa accade, e perché accade',fs:34,out:5,ic:'lens'});
+ C(4,300,200,1160,330,{cls:'yel',z:2,lb:'In evidenza',t:'esistenza umana',tx:'la vita delle persone, in tutte le sue forme',fs:80,out:5});
+ C(5,0,210,1760,340,{cls:'soft',z:2,lb:'Contesto dopo contesto',t:'ogni analisi aggiunge un tassello',fs:56,ic:'tree'});
+ CH(6,300,470,'aprire',{cls:'y',z:4,d:0,fs:40});CH(6,620,470,'analizzare',{cls:'y',z:4,d:.8,fs:40});CH(6,1050,470,'comprendere',{cls:'y',z:4,d:1.6,fs:40})};
+// AN3 · relazioni quotidiane e ricerca di sé
+SC.AN3=()=>{C(0,0,0,860,230,{lb:'Temi vicini ai giovani',t:'Relazioni quotidiane',tx:'e ricerca di sé',ic:'people',out:5});
+ C(1,900,0,860,230,{lb:'Relazioni quotidiane',t:'Le persone di ogni giorno',tx:'quelle con cui ci confrontiamo',ic:'hand',out:5});
+ C(2,0,270,860,260,{lb:'Analizzarle',t:'Come nascono, come cambiano',tx:'che cosa ci dicono di noi',ic:'lens',out:5});
+ C(3,900,270,860,260,{lb:'Ricerca di sé',t:'Chi siamo? Chi vogliamo diventare?',ic:'person',out:5,cls:'yel'});
+ CH(4,640,225,'le due cose sono legate',{cls:'d',z:3,w:520,out:5});AR(4,430,230,430,270,{out:5});
+ C(5,200,120,1360,300,{cls:'soft',z:2,lb:'Vita di tutti i giorni',t:'Temi vicini ai giovani',fs:70,out:5});
+ C(6,0,40,1760,200,{cls:'dark',z:4,lb:'Con le scienze umane',t:'esperienze che conosciamo già diventano oggetto di analisi',fs:46})};
+// AN4 · società multiculturale e tecnologica
+SC.AN4=()=>{C(0,0,0,1760,150,{cls:'dark',lb:'Terzo tema vicino ai giovani',t:'L\'inserimento in una società multiculturale e tecnologica',fs:44});
+ C(1,0,190,860,200,{lb:'Multiculturale',t:'Culture diverse nella stessa società',ic:'globe',fs:38,out:5});
+ C(2,900,190,860,200,{lb:'Tecnologica',t:'Presente anche a scuola e nello studio',ic:'phone',fs:38,out:5});
+ C(3,300,430,1160,120,{cls:'yel',t:'Inserirsi: trovare il proprio posto',fs:44,out:5});AR(3,430,390,430,430,{out:5});AR(3,1330,390,1330,430,{out:5});
+ C(4,0,430,1760,120,{cls:'soft',z:2,t:'Come ci si colloca · come ci si relaziona · come si cambia',fs:40,out:5});
+ C(5,0,190,1760,360,{cls:'soft',z:3,lb:'In evidenza',t:'società multiculturale e tecnologica',fs:64,tx:'il contesto in cui i giovani vivono',out:5});
+ C(6,300,150,1160,300,{cls:'dark',z:5,lb:'Tema centrale del corso',t:'già dalla lezione introduttiva',fs:54})};
+// AN5 · oggetto di studio differente
+SC.AN5=()=>{C(0,0,0,1760,120,{cls:'dark',t:'Oggetto di studio differente',fs:56});
+ C(1,0,150,860,300,{lb:'Scienze della natura',t:'La realtà materiale',tx:'es. chimica, biologia',ic:'flask',out:5});
+ C(2,900,150,860,300,{lb:'Scienze umane',t:'L\'essere umano',tx:'le sue azioni e la sua mente',ic:'mind',cls:'yel',out:5});
+ CH(3,330,470,'da una parte la materia',{cls:'d',w:520,fs:32,out:5});CH(3,1000,470,'dall\'altra la persona',{cls:'d',w:520,d:1,fs:32,out:5});
+ C(4,300,150,1160,300,{cls:'soft',z:2,lb:'Obiettivo comune',t:'Spiegare e comprendere la realtà circostante',tx:'attraverso il metodo scientifico',fs:52,ic:'scale',out:5});
+ C(5,0,470,860,90,{z:3,t:'Spiegare: come e perché accade',fs:32,out:5});C(5,900,470,860,90,{z:3,t:'Comprendere: darle un significato',fs:32,out:5,d:1.2});
+ C(6,180,140,1400,330,{cls:'dark',z:5,lb:'Per riassumere',t:'Oggetti diversi, stesso metodo: scienza',fs:60})};
+// AN6 · ricerca delle cause
+SC.AN6=()=>{C(0,0,0,860,200,{lb:'Parola chiave',t:'La ricerca delle cause',ic:'lens',out:5});
+ C(1,900,0,860,200,{cls:'yel',lb:'Identificare',t:'le leggi o i fattori',tx:'che determinano i comportamenti',out:5});
+ C(2,0,240,560,300,{lb:'Le leggi',t:'Regole generali',ic:'scale',out:5});C(2,600,240,560,300,{lb:'I fattori',t:'Elementi che insieme influenzano ciò che una persona fa',fs:34,ic:'tree',d:1,out:5});
+ C(3,1200,240,560,300,{cls:'dark',lb:'La domanda',t:'Che cosa determina questo comportamento?',fs:36,d:.3,out:5});
+ C(4,0,100,1760,340,{cls:'soft',z:2,lb:'Così le scienze umane',t:'spiegano e comprendono la realtà',fs:64,out:5});
+ CH(5,200,470,'determinano i comportamenti',{cls:'y',w:700,z:4,fs:40,out:5});
+ C(6,0,60,1760,430,{cls:'dark',z:5,lb:'La formula',t:'Obiettivo comune: il metodo scientifico',tx:'Strumento per raggiungerlo: la ricerca delle cause',fs:58})};
+// AN7 · natura multi-causale
+SC.AN7=()=>{C(0,0,0,1760,130,{cls:'dark',t:'Natura multi-causale: mai una sola causa',fs:56});
+ C(1,0,170,560,380,{lb:'Multi-causale',t:'Con molte cause',tx:'più cause che agiscono insieme',ic:'tree',out:4});
+ C(2,600,170,560,380,{cls:'yel',lb:'La parola decisiva',t:'MAI',fs:130,tx:'una causa unica non basta',out:4});
+ C(3,1200,170,560,380,{lb:'Cercare una sola causa',t:'Semplificare troppo',tx:'le scienze umane evitano',fs:40,out:4});
+ // diagramma causale (frase 5)
+ C(5,560,215,640,150,{cls:'dark',z:4,lb:'Comportamento',t:'al centro',fs:44});
+ [[0,170,'causa'],[1,330,'causa'],[2,450,'causa'],[3,170,'causa']];
+ CH(5,40,200,'fattore',{z:4,d:.5,fs:34});CH(5,40,330,'fattore',{z:4,d:1,fs:34});CH(5,1380,200,'fattore',{z:4,d:1.5,fs:34});CH(5,1380,330,'fattore',{z:4,d:2,fs:34});
+ AR(5,250,230,555,270,{d:.5});AR(5,250,360,555,310,{d:1});AR(5,1370,230,1205,270,{d:1.5});AR(5,1370,360,1205,310,{d:2});
+ C(6,0,400,1760,150,{cls:'soft',z:5,t:'Guardare tutte le cause insieme, non la più comoda',fs:48})};
+// AN8 · i tre fattori
+SC.AN8=()=>{C(0,0,0,1760,120,{cls:'dark',lb:'Fattori principali analizzati',t:'Sono tre',fs:50});
+ C(1,0,150,560,400,{lb:'Primo',t:'Biologici e di sviluppo',tx:'la crescita e le tappe evolutive della persona',ic:'cell',fs:40,out:5});
+ C(2,600,150,560,400,{lb:'Secondo',t:'Influenza dell\'ambiente',tx:'contesto sociale, relazioni interpersonali, famiglia e scuola',ic:'people',fs:40,d:0,out:5});
+ C(3,1200,150,560,400,{lb:'Terzo',t:'Dimensione storica',tx:'comportamenti, valori e tradizioni cambiano nel tempo',ic:'clock',fs:40,out:5});
+ CH(4,40,555,'la persona',{cls:'y',w:300,fs:32,z:4,out:5});CH(4,680,555,'ciò che la circonda',{cls:'y',w:420,fs:32,z:4,d:.9,out:5});CH(4,1360,555,'il tempo in cui vive',{cls:'y',w:420,fs:32,z:4,d:1.8,out:5});
+ C(5,200,130,1360,380,{cls:'soft',z:3,lb:'Messi insieme',t:'Persona · ambiente · tempo',fs:72,out:5});
+ C(6,180,140,1400,340,{cls:'dark',z:5,lb:'Nessuno basta da solo',t:'È la combinazione a rendere ogni comportamento umano complesso',fs:48})};
+// AN9 · le quattro discipline
+SC.AN9=()=>{C(0,0,0,1760,100,{cls:'dark',t:'Le principali discipline: quattro',fs:50});
+ C(1,0,130,860,200,{lb:'Psicologia',t:'Comportamento e processi mentali dell\'individuo',ic:'mind',fs:34,out:5});
+ C(2,900,130,860,200,{lb:'Sociologia',t:'Strutture sociali, istituzioni e interazione nei gruppi',ic:'build',fs:34,out:5});
+ C(3,0,360,860,200,{lb:'Antropologia',t:'I popoli e le diverse culture umane nel mondo',ic:'globe',fs:34,out:5});
+ C(4,900,360,860,200,{lb:'Metodologia della ricerca',t:'Strumenti scientifici e tecniche per le indagini sul campo',ic:'chart',fs:34,out:5});
+ C(5,160,110,1440,420,{cls:'soft',z:3,lb:'Quattro prospettive',t:'individuo · società · culture · metodo',fs:60,tx:'sullo stesso oggetto: l\'essere umano',out:5});
+ C(6,180,140,1400,340,{cls:'dark',z:5,lb:'Insieme',t:'Un quadro completo dell\'essere umano',fs:60})};
+// AN10 · il percorso del primo biennio
+SC.AN10=()=>{C(0,0,0,1760,110,{cls:'dark',lb:'Il percorso di studio nel primo biennio',t:'Articolazione del programma',fs:44});
+ C(1,0,150,560,400,{lb:'Psicologia',t:'Studio approfondito',tx:'processi cognitivi, memoria, pensiero',ic:'mind',fs:42,out:5});
+ C(2,600,150,560,400,{lb:'Metodologia',t:'Ricerca statistica e dati',tx:'introduzione',ic:'stats',fs:42,out:5});
+ C(3,1200,150,560,400,{lb:'Educazione civica',t:'Temi di attualità',tx:'della società civile',ic:'flag',fs:42,out:5});
+ CH(4,50,580,'conoscere la mente',{cls:'y',w:400,fs:30,z:4,out:5});CH(4,700,580,'usare i dati',{cls:'y',w:400,fs:30,z:4,d:.9,out:5});CH(4,1260,580,'collegare lo studio alla società',{cls:'y',w:480,fs:30,z:4,d:1.8,out:5});
+ C(5,0,130,560,420,{cls:'yel',z:4,lb:'Si comincia da qui',t:'La psicologia',tx:'al centro del primo biennio',fs:52,ic:'mind',out:5});
+ C(6,180,140,1400,340,{cls:'dark',z:5,lb:'Questa lezione',t:'Il primo passo del percorso',fs:60})};
+// ---- GL2 / glossario (cinque termini già registrati + quattro nuovi) ----
+SC.GL=()=>{const G=A.gl;
+  mk({at:0,x:0,y:140,w:1760,h:260,z:2,hide:1},`<div class="card soft" style="width:1760px;height:260px;display:flex;align-items:center;justify-content:center;text-align:center"><div class="mid" style="font-size:72px">Le parole chiave<br><span style="color:#2060AF">della lezione</span></div></div>`);
+  G.forEach((g,i)=>{const pg=Math.floor(i/3),k=i%3;const nxt=(pg+1)*3+1;
+  mk({at:i+1,x:0,y:k*185,w:1760,h:170,d:0,out:99,z:1,hide:(nxt<=G.length)?nxt:null},`<div class="card" style="width:1760px;height:170px;display:flex;align-items:center;gap:40px;padding:16px 36px"><div style="flex:none;width:60px;height:60px;border-radius:50%;background:#EEF3FA;color:#2060AF;font:800 32px FG;display:flex;align-items:center;justify-content:center">${i+1}</div><div style="flex:none;width:520px;font-family:BG;font-weight:800;font-size:46px;line-height:1.05;color:#2060AF">${g[0]}</div><div style="font-size:34px;font-weight:600;line-height:1.25">${g[1]}</div></div>`)})};
+// ---- RF · ripasso finale ----
+SC.RF=()=>{const R=A.rf;
+ mk({at:0,x:0,y:0,w:560,h:560,z:1},`<div style="width:560px">${R.map((x,i)=>`<div class="card" data-rt="${i}" style="margin-bottom:12px;padding:12px 20px;display:flex;align-items:center;gap:16px;height:98px"><div style="flex:none;width:52px;height:52px;border-radius:50%;background:#EEF3FA;color:#2060AF;font:800 28px FG;display:flex;align-items:center;justify-content:center" class="nn">${i+1}</div><div style="font-size:30px;font-weight:700;line-height:1.15">${x[0]}</div></div>`).join('')}</div>`);
+ R.forEach((x,i)=>mk({at:x[2],x:600,y:0,w:1160,h:560,z:2,out:x[3]==null?99:x[3],grp:i},`<div class="card" style="width:1160px;height:560px;padding:34px 44px"><span class="lb">Argomento ${i+1}</span><div class="mid" style="font-size:52px;margin-bottom:26px">${x[0]}</div>${x[1].map(b=>`<div style="display:flex;gap:18px;align-items:flex-start;margin-bottom:22px"><div style="flex:none;margin-top:14px;width:16px;height:16px;border-radius:50%;background:#2060AF"></div><div class="tx" style="font-size:34px;margin-top:0">${b}</div></div>`).join('')}</div>`))};
+window.init=function(a){A=a;EL=[];$('tt').textContent=a.title;$('ey').textContent=a.ey||'Approfondimento';const st=$('stage');st.innerHTML='';
+ (SC[a.scene||a.id])();
+ EL.forEach((e,i)=>{const d=document.createElement('div');d.className='el';d.id='e'+i;d.style.cssText=`left:${e.x}px;top:${e.y}px;width:${e.w}px;z-index:${e.z}`;if(e.rot!=null){d.style.transformOrigin=e.origin;d.dataset.rot=e.rot}d.innerHTML=e.html;st.appendChild(d);e.node=d})};
+window.draw=function(t){const P=A.P,k=(()=>{let k=-1;for(let i=0;i<P.length;i++)if(t>=P[i]-.05)k=i;return k})();let key=[k];
+ const GLN=A.gl?Math.ceil(A.gl.length/3):0;
+ EL.forEach(e=>{let a=P[Math.min(e.at,P.length-1)]+e.d;let v=E((t-a)/.6);
+  if(e.hide!=null&&k>=e.hide){v*=1-E((t-(P[e.hide]-.3))/.4)}
+  let dim=1;if(e.out!=null&&e.out<99&&k>e.out)dim=.16;
+  if(e.grp!=null){v=(k>=e.at&&(e.out==99||k<e.out))?E((t-P[e.at])/.5):0;dim=1}
+  const on=(k===e.at&&v>.3)||(e.on&&e.on.includes(k));
+  const dy=(1-Math.min(1,v))*(e.grow?0:26);
+  if(e.grow){e.node.style.transform=`rotate(${e.node.dataset.rot}deg) scaleX(${Math.min(1,v)})`}else e.node.style.transform=`translateY(${dy.toFixed(1)}px)`;
+  e.node.style.opacity=(Math.min(1,Math.max(0,v))*dim).toFixed(2);e.node.classList.toggle('on',!!on);
+  key.push(e.node.style.opacity,e.node.style.transform,on?1:0)});
+ if(A.id=='RF'){document.querySelectorAll('[data-rt]').forEach((n,i)=>{const on=A.rf[i][2]<=k&&(A.rf[i][3]==null||k<A.rf[i][3]);n.style.borderColor=on?'#2060AF':'#D5DCE8';n.style.boxShadow=on?'0 0 0 5px #FFE600':'';key.push(on?1:0)})}
+ const c=$('cap');const tx=(k>=0&&!A.nocap)?A.caps[k]:'';c.textContent=tx;c.style.opacity=tx?1:0;
+ const fo=1-E((t-(A.dur-.5))/.5),fi=E(t/.5);document.body.style.opacity=Math.min(fi,fo).toFixed(2);key.push(document.body.style.opacity);
+ return key.join('|')};
+</script></body></html>
