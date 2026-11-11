@@ -169,7 +169,7 @@ function vistaAlunno(msg,V){V=V||{lista:COMPITI,nome:IO.nome,ro:false,dove:'#app
     attesa.forEach(c=>{const e=[...c.eventi].reverse().find(x=>x.tipo==='consegna');h+=`<div class="card"><div class="mat">${esc(c.materia)}</div><b>${esc(c.titolo)}</b><p class="note">Consegnato ${dlo(e?.il)}${c.consegna_in_ritardo?' · <span class="rit">in ritardo</span>':''}</p>${e?.foto?.length?`<button class="btn sec" data-fotocons="${c.id}">Vedi le pagine consegnate</button>`:''}</div>`})}
   if(fatti.length){h+=`<h2 style="font-size:17px;margin:20px 0 4px">Corretti (${fatti.length})</h2>`;
     fatti.forEach(c=>{const e=[...c.eventi].reverse().find(x=>x.tipo==='correzione');h+=`<div class="card"><div class="mat">${esc(c.materia)}</div><b>${esc(c.titolo)}</b>
-    <p style="margin:6px 0"><span class="st corretto">Voto: ${esc(c.voto)}</span> <span class="note">corretto ${dl(e?.il)}</span></p>${e?.testo?`<p style="margin:4px 0">${esc(e.testo)}</p>`:''}
+    <p style="margin:6px 0"><span class="st corretto">${c.voto?'Voto: '+esc(c.voto):'Corretto (senza voto)'}</span> <span class="note">corretto ${dl(e?.il)}</span></p>${e?.testo?`<p style="margin:4px 0">${esc(e.testo)}</p>`:''}
     <p class="note" style="margin:4px 0">Consegnato ${dlo((([...c.eventi].reverse().find(x=>x.tipo==='consegna'))||{}).il)}${c.consegna_in_ritardo?' · <span class="rit">in ritardo</span>':''}</p>
     <div style="display:flex;flex-wrap:wrap;gap:8px">${c.eventi.some(x=>x.tipo==='consegna'&&x.foto.length)?`<button class="btn sec" data-fotocons="${c.id}">Vedi le pagine consegnate</button>`:''}${e?.foto?.length?`<button class="btn sec" data-fotoev="${c.id}">Vedi la correzione</button>`:''}</div></div>`})}
   $(V.dove).innerHTML=h;if(V.ro){collegaVedi(V.dove);return}
