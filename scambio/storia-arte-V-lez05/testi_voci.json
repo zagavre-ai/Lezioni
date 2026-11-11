@@ -1,0 +1,82 @@
+[
+ {
+  "nome": "INTRO",
+  "testo": "Benvenuti alla lezione Oltre l'Impressionismo. Vedremo sei argomenti. Parigi, la Ville lumière, e l'Esposizione universale del milleottocentottantanove. Il Neoimpressionismo di Georges Seurat. Paul Gauguin e il sogno primitivo. Vincent van Gogh e il tormento interiore. Paul Cézanne e la scomposizione geometrica. E infine il rinnovamento della scultura con Rodin e Medardo Rosso.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R1",
+  "testo": "Ripassiamo Parigi, la Ville lumière, e l'Esposizione del milleottocentottantanove.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R2",
+  "testo": "Ripassiamo il Neoimpressionismo di Georges Seurat.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R3",
+  "testo": "Ripassiamo Paul Gauguin e il sogno primitivo.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R4",
+  "testo": "Ripassiamo Vincent van Gogh.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R5",
+  "testo": "Ripassiamo Paul Cézanne.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R6",
+  "testo": "Ripassiamo Rodin e Medardo Rosso.",
+  "lingua": "it"
+ },
+ {
+  "nome": "S1",
+  "testo": "Parigi e l'Esposizione del milleottocentottantanove. Con vent'anni di interventi del prefetto Haussmann Parigi diventa una metropoli moderna; i lampioni elettrici fanno vivere la città anche di notte. Aprono teatri, caffè, locali notturni e grandi magazzini come il Printemps; Montmartre diventa il cuore della vita bohémienne, con il Chat Noir e il Moulin Rouge. La Tour Eiffel di Gustave Eiffel, costruita per l'Esposizione del milleottocentottantanove, è il simbolo del progresso: una struttura reticolare interamente in ferro, alta oltre trecento metri. Molti intellettuali, tra cui Guy de Maupassant, la contestano come un disonore per la città.",
+  "lingua": "it"
+ },
+ {
+  "nome": "S2",
+  "testo": "Il Neoimpressionismo di Georges Seurat. Seurat supera l'Impressionismo in modo scientifico: rifiuta l'improvvisazione e cerca un ordine geometrico basato sulle leggi ottiche. Con il Puntinismo, sulle scoperte di Chevreul sul contrasto simultaneo, accosta piccolissimi tocchi di colori puri che si fondono nell'occhio di chi guarda. In Una domenica pomeriggio all'isola della Grande-Jatte dispone le figure in un equilibrio calcolato: la scena è immobile e silenziosa, con figure simili a manichini.",
+  "lingua": "it"
+ },
+ {
+  "nome": "S3",
+  "testo": "Paul Gauguin e il sogno primitivo. Gauguin lascia la vita borghese di Parigi: va in Bretagna, a Pont-Aven, e poi a Tahiti e in Martinica, in cerca di un'esistenza autentica. Con Émile Bernard sviluppa il Sintetismo e il cloisonnisme: contorni netti che racchiudono colori piatti. Il colore diventa simbolico, come il terreno rosso della Visione dopo il sermone; Da dove veniamo? Chi siamo? Dove andiamo? è il suo testamento artistico.",
+  "lingua": "it"
+ },
+ {
+  "nome": "S4",
+  "testo": "Vincent van Gogh. La pittura di Van Gogh è lo specchio della sua interiorità inquieta e drammatica. A Parigi incontra gli impressionisti e le stampe giapponesi, e sviluppa una pennellata spessa e materica. Negli autoritratti usa i colori complementari per amplificare l'espressività; nella Notte stellata cielo e cipressi diventano vortici di colore.",
+  "lingua": "it"
+ },
+ {
+  "nome": "S5",
+  "testo": "Paul Cézanne e la scomposizione geometrica. Ad Aix-en-Provence Cézanne cerca la stabilità e la verità profonda delle cose, oltre la fugacità dell'Impressionismo. La natura si può ridurre a cilindro, sfera e cono; i volumi e la profondità si costruiscono solo con il colore, con toni caldi e freddi. Studia per anni pochi soggetti: le nature morte con le mele e la Montagna Sainte-Victoire.",
+  "lingua": "it"
+ },
+ {
+  "nome": "S6",
+  "testo": "Il rinnovamento della scultura: Rodin e Rosso. Auguste Rodin rompe con la scultura accademica e dà ai corpi una forte carica espressiva, ispirata a Michelangelo. Con il non finito, nella Porta dell'Inferno e nel Pensatore, lascia parti abbozzate nella materia grezza. Medardo Rosso porta nella scultura la luce e l'atmosfera dell'Impressionismo: con la cera sul gesso le forme, come nel Bookmaker, si fondono con lo spazio.",
+  "lingua": "it"
+ },
+ {
+  "nome": "GL",
+  "testo": "Ripassiamo le parole chiave della lezione. Belle Époque: l'epoca della Parigi moderna e illuminata. Bohémien: lo stile di vita libero degli artisti di Montmartre. Puntinismo: piccoli tocchi di colori puri accostati sulla tela. Contrasto simultaneo: la legge dei colori studiata da Chevreul. Sintetismo: forme sintetizzate senza dettagli superflui. Cloisonnisme: contorni netti che racchiudono colori piatti. Stesura materica: la pennellata spessa e densa di Van Gogh. Non finito: parti di scultura lasciate abbozzate nella materia.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RF",
+  "testo": "Prima di salutarci, ricapitoliamo i sei argomenti della lezione. Parigi diventa la Ville lumière e la Tour Eiffel è il simbolo dell'Esposizione del milleottocentottantanove. Seurat ordina la pittura con il Puntinismo e le leggi ottiche. Gauguin cerca un mondo primitivo e usa il colore in modo simbolico. Van Gogh fa della pittura lo specchio del suo tormento interiore. Cézanne riduce la natura a forme geometriche e costruisce lo spazio con il colore. Rodin e Medardo Rosso rinnovano la scultura con il non finito.",
+  "lingua": "it"
+ },
+ {
+  "nome": "FIN",
+  "testo": "Fine della lezione. Grazie per l'attenzione.",
+  "lingua": "it"
+ }
+]
