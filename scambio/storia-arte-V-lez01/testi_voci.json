@@ -1,0 +1,82 @@
+[
+ {
+  "nome": "INTRO",
+  "testo": "Benvenuti alla lezione sul Neoclassicismo, il ritorno all'antico. Vedremo sei argomenti. Le origini del movimento: il Grand Tour, i musei e la moda. L'architettura: le vedute di Piranesi e i progetti visionari francesi. L'architettura neoclassica in Italia e in Europa. I teorici del movimento e la scultura di Antonio Canova. La pittura di Jacques-Louis David. E infine Jean-Auguste-Dominique Ingres.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R1",
+  "testo": "Ripassiamo le origini del Neoclassicismo: il Grand Tour, i musei pubblici, la moda e le città.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R2",
+  "testo": "Ripassiamo l'architettura neoclassica: le vedute di Piranesi e i progetti visionari francesi.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R3",
+  "testo": "Ripassiamo l'architettura neoclassica in Italia, in Inghilterra e in Germania.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R4",
+  "testo": "Ripassiamo i teorici del Neoclassicismo e la scultura di Antonio Canova.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R5",
+  "testo": "Ripassiamo la pittura di Jacques-Louis David.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R6",
+  "testo": "Ripassiamo Jean-Auguste-Dominique Ingres, tra classicismo e fascino dell'Oriente.",
+  "lingua": "it"
+ },
+ {
+  "nome": "S1",
+  "testo": "Le origini del Neoclassicismo. È un fenomeno internazionale: il movimento nasce e si irradia da Roma, diffondendosi in tutta Europa. Il Grand Tour è il viaggio formativo in Italia di giovani aristocratici, artisti e architetti europei. Le mete principali sono Venezia, Firenze, Roma, Napoli, Ercolano e Pompei. Gli scavi di Ercolano e Pompei alimentano l'amore e l'ispirazione per l'antichità classica. Le collezioni private di antichità diventano musei aperti al pubblico, come il British Museum a Londra e il Louvre a Parigi. Le Accademie di Belle Arti diffondono i principi artistici classici. Il gusto per l'antico entra nella vita quotidiana: nell'arredamento, con lo stile impero, e nella moda, con abiti dalle linee semplici. Le città vengono riorganizzate con regolarità, simmetria e funzionalità. Il dipinto di Hackert, con Goethe davanti al Colosseo, racconta proprio il Grand Tour: i viaggiatori affascinati dalle rovine di Roma.",
+  "lingua": "it"
+ },
+ {
+  "nome": "S2",
+  "testo": "L'architettura neoclassica in Francia. L'architettura neoclassica privilegia forme geometriche semplici, piante simmetriche e gli elementi degli ordini classici: frontoni, colonne, timpani. Giambattista Piranesi diffonde il fascino delle rovine classiche con le Vedute fantastiche di Roma e le Prigioni immaginarie. In Francia, Étienne-Louis Boullée propone un'architettura monumentale basata su pure forme geometriche, come la sfera del Cenotafio di Newton, un progetto mai realizzato. La chiesa di Sainte-Geneviève a Parigi, il Pantheon, è progettata da Soufflot come cantiere laboratorio: pianta a croce greca, pronao con colonne corinzie e una grande cupola. Il Pantheon nasce come chiesa, ma sembra un tempio: durante la Rivoluzione diventa il pantheon nazionale dei grandi della patria.",
+  "lingua": "it"
+ },
+ {
+  "nome": "S3",
+  "testo": "L'architettura in Italia e in Europa. In Italia, Giuseppe Piermarini progetta il Teatro alla Scala di Milano, unendo funzionalità e sobrietà neoclassica, e rinnova il Palazzo Reale. In Inghilterra si passa dal Neopalladianesimo, la riscoperta di Andrea Palladio, al Neogreco e allo stile Adam. Robert Adam progetta Kedleston Hall, con la Marble Hall e il Saloon. La Germania guarda alla Grecia: a Berlino la Porta di Brandeburgo, ispirata ai modelli ateniesi, e a Ratisbona il tempio del Walhalla. La Scala, costruita dopo l'incendio del vecchio teatro, ha l'interno a ferro di cavallo con cinque ordini di palchi; fu inaugurata nel millesettecentosettantotto.",
+  "lingua": "it"
+ },
+ {
+  "nome": "S4",
+  "testo": "I teorici e la scultura di Canova. Johann Joachim Winckelmann è il principale teorico del movimento: l'ideale estetico è l'arte greca, definita da nobile semplicità e quieta grandezza. Per Winckelmann l'imitazione degli antichi non è una copia servile, ma la ricerca della bellezza ideale. Anton Raphael Mengs lega i principi classici a un disegno geometrico e simmetrico. Antonio Canova è il più grande scultore neoclassico. Il suo metodo va dal disegno al modello in argilla, fino alla sbozzatura e alla finitura del marmo. Le opere celebri sono Amore e Psiche, Paolina Borghese come Venere vincitrice e il Monumento funebre di Maria Cristina d'Austria, che rinnova il genere dei monumenti funebri. In Amore e Psiche le ali e i corpi formano una grande X, e le braccia un cerchio che incornicia i volti dei due amanti.",
+  "lingua": "it"
+ },
+ {
+  "nome": "S5",
+  "testo": "La pittura di Jacques-Louis David. David è il massimo esponente della pittura neoclassica francese e lega l'arte all'impegno etico e politico. Il giuramento degli Orazi è l'opera simbolo del Neoclassicismo: severa prospettiva, composizione geometrica, esaltazione delle virtù civiche e del sacrificio per la patria. Nella Morte di Marat la morte del leader rivoluzionario è idealizzata con un'essenziale sobrietà formale e richiami alla pietà cristiana. Con il Giuramento della pallacorda e Napoleone valica il Gran San Bernardo, David celebra la Rivoluzione e il mito di Napoleone. Negli Orazi lo spazio è diviso in tre settori, come i tre archi sullo sfondo: i fratelli a sinistra, il padre al centro, le donne a destra.",
+  "lingua": "it"
+ },
+ {
+  "nome": "S6",
+  "testo": "Jean-Auguste-Dominique Ingres. Allievo di David, Ingres difende il primato del disegno e del colore locale. È famoso per i ritratti realistici e dettagliati dell'aristocrazia e dell'alta borghesia. Introduce il tema del nudo e dell'Oriente, come nella Grande odalisca: linee sinuose, deformazioni anatomiche calibrate e una sensualità astratta. In Giove e Teti, ispirato all'Iliade, Giove è rigido e frontale, mentre Teti è disegnata con linee curve e sinuose. Nella Grande odalisca Ingres allunga la schiena della modella per accentuare la linea sinuosa del corpo.",
+  "lingua": "it"
+ },
+ {
+  "nome": "GL",
+  "testo": "Ripassiamo le parole chiave della lezione. Neoclassicismo: il ritorno all'antico, ai modelli greci e romani. Grand Tour: il viaggio formativo in Italia di giovani aristocratici, artisti e architetti europei. Stile impero: il gusto per l'antico nell'arredamento. Architettura visionaria: progetti monumentali basati su pure forme geometriche, come la sfera. Neopalladianesimo: la riscoperta di Andrea Palladio in Inghilterra. Nobile semplicità e quieta grandezza: così Winckelmann definisce l'arte greca. Imitazione: per Winckelmann non è una copia servile, ma la ricerca della bellezza ideale. Esotismo: il fascino dell'Oriente, come nella Grande odalisca di Ingres. Monumento funebre: Canova rinnova il genere con opere solenni e allegoriche, come il Monumento a Maria Cristina d'Austria. Primato del disegno: Ingres lo difende, insieme al colore locale, rispetto alle innovazioni dell'epoca.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RF",
+  "testo": "Prima di salutarci, ricapitoliamo i sei argomenti della lezione. Uno: il Neoclassicismo nasce a Roma e si diffonde in Europa grazie al Grand Tour, agli scavi di Ercolano e Pompei e ai nuovi musei pubblici. Due: l'architettura sceglie forme geometriche semplici. Piranesi diffonde il fascino delle rovine, Boullée immagina il Cenotafio di Newton, Soufflot costruisce il Pantheon di Parigi. Tre: in Italia Piermarini progetta la Scala e il Palazzo Reale di Milano; in Inghilterra Robert Adam costruisce Kedleston Hall; in Germania nascono la Porta di Brandeburgo e il Walhalla. Quattro: Winckelmann indica nell'arte greca la nobile semplicità e quieta grandezza; Canova la traduce nel marmo, da Amore e Psiche al Monumento di Maria Cristina d'Austria. Cinque: David lega la pittura all'impegno politico, dal Giuramento degli Orazi alla Morte di Marat, fino a Napoleone. Sei: Ingres, allievo di David, difende il primato del disegno e apre al nudo e all'Oriente con la Grande odalisca.",
+  "lingua": "it"
+ },
+ {
+  "nome": "FIN",
+  "testo": "Fine della lezione. Grazie per l'attenzione.",
+  "lingua": "it"
+ }
+]
