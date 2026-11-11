@@ -3,18 +3,7 @@
  "parti": {
   "1": {
    "titolo": "La psicologia: nascita e sviluppi",
-   "stato": "PRONTA",
-   "voci": "kore",
-   "quiz_ok": "si",
-   "fermi_ok": "si",
-   "sub_ok": "si",
-   "video": "Psicologia_Lez2_Parte1_1440p.mp4",
-   "durata_s": 3405.7,
-   "durata": "56:45.7",
-   "fotogrammi": 102171,
-   "fotogrammi_attesi": 102171,
-   "peso_MB": 378.0,
-   "vtt": "Psicologia_Lez2_Parte1.vtt"
+   "stato": "IN_MONTAGGIO"
   }
  },
  "manca": "",
@@ -22,12 +11,12 @@
  "domande_sara": [],
  "note": [
   {
-   "quando": "08/11 13:18",
-   "testo": "Quiz e test validati da Sara. CRF 22 (CRF 20 dava 434 MB). Media audio -18,6 LUFS, parlato -16, ok master. Sub controllati a campione su 30 battute, scarto max 0,13 s. File gia' consegnati a Sara."
+   "quando": "11/11 11:10",
+   "testo": "Ripartenza 11/11 11:10: rimontaggio da zero, lezione intera con argomenti 1-2 (0-819,68 s). Parte unica ~70-72 min, CRF 22."
   }
  ],
- "materia": "Psicologia I-II anno",
- "lezione": "Lezione 2 · La psicologia: nascita e sviluppi",
+ "materia": "Psicologia",
+ "lezione": "La psicologia: nascita e sviluppi",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-08 13:18:28"
+ "aggiornato": "2026-11-11 11:10:15"
 }
