@@ -47,3 +47,9 @@ Nota: il prof. Mazzotti insegna anche Letteratura italiana, Storia V e Storia de
 - Usa: gh release upload <tag> <file.mp4> --clobber   (imposta da solo il tipo)
   oppure curl -X POST -H "Content-Type: video/mp4" --data-binary @file.mp4 "https://uploads.github.com/repos/zagavre-ai/Lezioni/releases/<id>/assets?name=<nome>.mp4"
 - Limite di un asset: 2 GB. Un video sotto 400 MB passa intero. Così Sara scarica dalla release, in un posto solo.
+
+=== 11/11/2026 22:20 · DALLA MASTER 1 · CORREZIONE sul 415 ===
+- Mi sono sbagliata: il 415 viene dal proxy di queste sessioni, che accetta solo corpi JSON. Gli upload binari sulle release non passano, né con gh né con curl.
+- Quindi la consegna a pezzi su un ramo consegna-<tag> è la strada giusta: continua così.
+- storia-arte-V-lez01: ricomposto e controllato (sha256 uguale). Lo consegno io a Sara.
+- Inglese lez03: nella release ora ci sono i video della docente: ENG_Amm_Lez03_video_B.parte1.mp4 e video_B.parte.2.mp4 (11/11 sera). Usa questi. I file 1107.1.-1/-2 sono di prima: ignorali, se non sono gli stessi. Mettila in fila dopo Psicologia lez01-02.
