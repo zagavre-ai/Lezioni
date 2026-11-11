@@ -1,0 +1,112 @@
+[
+ {
+  "nome": "AN101",
+  "testo": "Mettiamo a confronto i pesci in base alla quantità di grassi presente nelle carni, una distinzione fondamentale sotto il profilo nutrizionale e commerciale. Pesci magri: hanno meno del tre per cento di grassi: è la categoria più leggera e digeribile, come la platessa. Pesci semigrassi: hanno tra il tre e il dieci per cento di grassi, come l'aguglia, che ha carni semigrasse e piuttosto spinose. Pesci grassi: superano il dieci per cento di grassi, come l'anguilla, dalle carni molto grasse, nutrienti e saporite. Pesci azzurri: hanno il dorso bluastro e il ventre argenteo, e carni ricche di acidi grassi essenziali omega-tre. Pesci bianchi: sono apprezzati per la delicatezza e il colore chiaro delle carni, come il merluzzo, il pagello e il pagro. In cucina: conoscere i grassi aiuta a scegliere la cottura: le carni magre e delicate si prestano al vapore, quelle grasse alla griglia.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN102",
+  "testo": "Ora confrontiamo i pesci per forma, per struttura ossea e per ambiente di vita, con un esempio per ogni gruppo. Pesci piatti: vivono sui fondali e hanno entrambi gli occhi su un lato, come la sogliola, il rombo, la platessa e la passera di mare. Pesci affusolati: hanno sezione ellittica e caratteristiche idrodinamiche, come il branzino, l'orata e il tonno. Pesci cartilaginei: hanno uno scheletro di cartilagine, come la razza, di cui si consumano le pinne pettorali, e lo storione. Pesci ossei: hanno la lisca, chiamata anche spina: sono la maggior parte dei pesci che arrivano in cucina. Acqua salata e acqua dolce: i pesci di mare, come lo sgombro, e quelli d'acqua dolce, come la trota, la carpa e il luccio. Pesci diadromi: migrano tra acqua dolce e acqua salata, come l'anguilla, il salmone e lo storione.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN103",
+  "testo": "Un esempio pratico di tracciabilità: dove è stato pescato il pesce che arriva in cucina. Zone FAO: per la tracciabilità e la gestione internazionale, la FAO ha diviso il planisfero in zone di pesca numerate. Area trentasette: è il numero che identifica il Mar Mediterraneo. Esempio: se in etichetta leggiamo zona FAO trentasette, sappiamo che il pesce è stato pescato nel Mediterraneo. Pesca: i prodotti ittici sono gli organismi edibili ottenuti dalle attività di pesca. Allevamento: oppure derivano dall'allevamento in acqua, dolce o marina. Etichetta: riporta le informazioni per capire caratteristiche e provenienza di ogni prodotto.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN104",
+  "testo": "Molluschi e crostacei: vediamo le differenze tra i gruppi, con gli esempi che incontreremo in cucina. Bivalvi: sono protetti da due conchiglie, come le vongole, le cozze o mitili, le ostriche e le capesante. Cefalopodi: hanno tentacoli e una conchiglia interna, assente o esterna, come i calamari, i totani, le seppie e i polpi. Gasteropodi: hanno una conchiglia a forma di chiocciola, un po' come le lumache di mare. Macruri: sono crostacei con addome e torace ben sviluppati e allungati, come i gamberi, gli scampi, le aragoste e gli astici. Brachiuri: hanno il corpo compatto, come il granciporro, la cui polpa si estrae con la forchetta da crostacei. Stomatopodi: hanno il corpo lungo e schiacciato sul dorso, come le canocchie, che si sbollentano per circa due minuti.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN105",
+  "testo": "Vediamo come si usano in cucina i principali pesci azzurri, dal più piccolo al più pregiato. Alice o acciuga: si cucina fritta o al forno, o si conserva sotto sale e sott'olio: da alici eviscerate e maturate in botti di legno nasce la colatura di alici di Cetara. Sarda o sardina: ha un corpo più tozzo e carnoso dell'alice; l'alaccia le somiglia, ma è più grande e ha una linea gialla sui fianchi. Sgombro o maccarello: ha carni sode e saporite, adatte alla conservazione sott'olio o alla cottura al forno. Tonno: è il più pregiato dei pesci azzurri: le carni rosso scuro sono ideali per il sashimi o per la conservazione sott'olio. Aringa: vive nelle acque fredde del Nord e si vende soprattutto salata, affumicata o marinata. Cicerello e sugarello: il cicerello è un pesciolino da frittura o carpione; il sugarello è economico, con carni bianche e magre.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN106",
+  "testo": "Confrontiamo alcuni pesci bianchi pregiati e le cotture che li valorizzano. Branzino o spigola: ha carni sode con pochi spini ed è perfetto al vapore, alla griglia o in crosta di sale. Orata e ombrina: l'orata ha fianchi appiattiti e carni sode; l'ombrina ha carni bianche simili al branzino. Cernia: vive in mare aperto, ha grandi dimensioni e carni molto pregiate prive di spine, come la corvina. Dentice: ha carni sode e pregiate, di colore bruno-azzurro o rosso. Pesce San Pietro: è molto pregiato e si riconosce per le due macchie nere sui fianchi. Rombo e sogliola: il rombo è il pesce piatto più pregiato; la sogliola, ovoidale, ha carni bianche e delicate.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN107",
+  "testo": "In cucina e in sala conta anche la presenza delle spine: ecco un confronto tra i pesci più comodi e quelli più impegnativi. Palombo: è uno squalo innocuo, venduto a tranci e privo di lische. Spinarolo: è un altro squalo senza lische, adatto agli umidi e alle fritture. Pesce spada: è privo di spine, con carni sode e delicate. Rana pescatrice: detta coda di rospo, ha carni consistenti e un'unica lisca centrale. Gallinella di mare: ha carni saporite, ideali per le zuppe, nonostante le numerose lische. Mormora e palamita: la mormora è pregiata ma ricca di spine; la palamita somiglia a un piccolo tonno, con carni rosate e spine.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN108",
+  "testo": "Alcuni pesci arrivano dai mari freddi del Nord: vediamoli a confronto. Merluzzo: è una specie molto comune, usata fresca. Stoccafisso: è il merluzzo essiccato. Baccalà: è il merluzzo salato. Halibut: proviene dai mari del Nord e offre carni bianche e tenere. Aringa: vive nelle acque fredde del Nord ed è venduta salata, affumicata o marinata. Molo o merlano: ha carni delicate, adatte alle fritture.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN109",
+  "testo": "Mettiamo a confronto i principali pesci d'acqua dolce della tradizione italiana. Trota: è il pesce d'acqua dolce più comune, con le varietà fario, iridea e salmonata; viene quasi sempre dall'allevamento. Carpa e tinca: hanno un sapore di fango dovuto all'habitat; dal nome della carpa deriva la preparazione in carpione. Luccio: si riconosce dal muso a becco d'anatra e ha carni bianche ricche di lische, da bollire, in umido o fritte. Pesce persico: è diffuso nei laghi del Nord e del Centro Italia, si vende in filetti e si cucina alla piastra, saltato o fritto. Lavarello o coregone: ha carni pregiate simili al salmone e alla trota; sul lago di Como si prepara il missoltino affumicato. Alborella e ghiozzo: l'alborella va consumata fresca vicino ai luoghi di pesca; il ghiozzo gò è una prelibatezza della cucina veneziana.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN110",
+  "testo": "I tre pesci diadromi della lezione, uno accanto all'altro: origine, carni e preparazioni. Anguilla: nasce nel Mar dei Sargassi e risale i fiumi europei; ha carni grasse e saporite. Anguilla in cucina: si frigge, si cuoce alla griglia, allo spiedo o in umido, come il bisato veneto e il capitone napoletano di Natale. Salmone: ha carni sode e aranciate e oggi viene quasi tutto dall'acquacoltura; si cucina bollito, fritto o alla griglia. Salmone affumicato: a freddo, marinato e affumicato sotto i venti gradi per dodici ore, oppure a caldo, fino a centoventi gradi. Storione: è un pesce grande, senza squame e con scheletro cartilagineo; la pesca è vietata e il prodotto viene dall'allevamento. Storione in cucina: ha carni bianche e grasse, da cuocere intere al forno, alla griglia, fritte o in tranci.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN111",
+  "testo": "Uova di pesce: confrontiamo il caviale, i suoi succedanei e la bottarga. Caviale: sono uova di storione estratte a mano e salate; le varietà più pregiate vengono dagli storioni russi Sevruga, Beluga e Osetra. Produzione: per il pericolo di estinzione degli storioni selvatici si alleva, e l'Italia è diventata il primo produttore mondiale di caviale. Succedanei: si preparano con uova di aringa, salmone, trota, carpa o lompo, con sapori e consistenze diverse. Come si servono: a crudo, con burro, panna acida, crostini, blinis o patate bollite. Bottarga: uova di muggine o di tonno lavate, salate, pressate e stagionate per circa novanta giorni, da affettare o grattugiare. Bottarghe d'eccellenza: quella di muggine si fa in Sardegna e Toscana, quella di tonno al Sud; famose sono Favignana, Cabras e Orbetello.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN112",
+  "testo": "Confrontiamo i luoghi in cui la cucina professionale acquista il pesce. Vendita diretta: il pescatore cede il prodotto appena pescato direttamente al consumatore o al ristoratore. Piccola distribuzione: comprende le pescherie tradizionali e i supermercati di quartiere. Grande distribuzione organizzata: sono i grandi supermercati con il reparto pescheria interno. Mercati ittici: sono i centri dove confluiscono il pescato fresco e i prodotti trasformati di ogni genere. Mercati locali: si trovano vicino ai porti o nelle piccole città. Mercati all'ingrosso: raccolgono il pescato di ampie zone marine e gestiscono grandi quantità di merce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN113",
+  "testo": "Ecco una mappa dell'acquacoltura: come vengono nutriti i pesci e dove vengono allevati. Intensiva: i pesci sono nutriti con mangimi artificiali. Estensiva e semiestensiva: i pesci si nutrono con le risorse naturali dell'ambiente, oppure con una formula mista. Impianti a terra: sfruttano bacini vicino a corsi d'acqua, laghi o sorgenti, per trote, carpe, storioni, anguille e salmoni. Impianti sotto costa: sono le valli da pesca, vicino al litorale. Impianti in mare aperto: sono gabbie galleggianti o sommergibili per branzini, orate, cefali, tonni e ricciole. Le etichette: chi lavora in cucina deve leggerle per scegliere prodotti idonei e sostenibili.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN114",
+  "testo": "Concludiamo con l'elenco delle principali specie allevate, divise per ambiente. Acqua dolce: anguilla, carpa, pesce gatto, salmerino alpino e storione. Le trote: trota fario, trota iridea e trota marmorata. Acqua salata: muggine o cefalo, ombrina boccadoro, ombrina cirrosa e orata. Altre specie marine: ricciola, spigola o branzino e tonno. Crostacei: gambero d'acqua dolce e gambero d'acqua salata. Molluschi: cozze o mitili, ostriche e vongole.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN115",
+  "testo": "Mettiamo a confronto un pesce fresco e un pesce avariato, caratteristica per caratteristica. Occhio: fresco: limpido, vivo, brillante e sporgente. Avariato: opaco e infossato. Odore: fresco: delicato e gradevole, di acqua di mare. Avariato: odore di ammoniaca. Polpa: fresca: elastica, torna alla forma originaria dopo una leggera pressione. Avariata: cedevole, mantiene il segno. Branchie: fresche: rosse o rosate, con muco trasparente. Corpo e pelle: fresco: corpo rigido e diritto, pelle lucida e brillante, squame aderenti. Altre specie: cefalopodi con pelle viva e tentacoli resistenti; crostacei con carapace intenso e occhio nero e lucente.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN116",
+  "testo": "Ecco un calendario per scegliere il pesce di stagione durante l'anno. Da aprile a ottobre: acciuga, sardina, sgombro, tonno, pesce spada, aragosta e scampo. Da settembre a febbraio: calamaro, seppia, polpo, triglia, orata, spigola e cefalo. Da gennaio a maggio: sogliola, rombo, rana pescatrice e pesce San Pietro. Tutto l'anno: nasello, vongola verace, granchio, mazzancolla e pannocchia. Perché scegliere di stagione: vantaggi per l'ambiente, qualità garantita e minori costi di trasporto e conservazione. Il menu etico: pesce di stagione, pescato con metodi sostenibili, fresco, sfuso e non imballato.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN117",
+  "testo": "Confrontiamo i sistemi di conservazione del pesce con le loro temperature e i loro tempi. Fresco refrigerato: in cassette forate con ghiaccio pilé, a zero gradi, dopo aver tolto le viscere. Surgelato: stoccato subito a meno diciotto gradi; i semilavorati si cuociono direttamente da surgelati. Sottovuoto a zero gradi: si conserva per circa dieci giorni. Sottovuoto a meno diciotto gradi: si conserva per circa sessanta giorni, con poca ossidazione. Altri metodi: prodotti essiccati, salati, in scatola o sott'olio, in luoghi freschi e asciutti. Contro l'Anisakis: cottura oltre sessantatré gradi al cuore, oppure abbattimento a meno venti gradi per più di ventiquattro ore.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN118",
+  "testo": "Mettiamo in fila i tagli del pesce affusolato, dal pezzo più grande al più piccolo. Trancio: si elimina la testa con un taglio netto e si ricavano fette dello spessore desiderato. Baffa: è il filetto intero, deliscato e rifilato, usato anche per marinature e affumicature. Darna: è una fetta di polpa ricavata dalla baffa, spessa tra cinque e dieci centimetri. Scaloppa: è una fetta sottile tagliata dalla baffa, ideale per il sashimi. Coulibiac: sono bocconcini a cubetto ricavati dalle darne, della tradizione russa. Tartare: polpa a listarelle e poi a cubetti piccolissimi, anche dai ritagli o dalla polpa raschiata dalla lisca.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN119",
+  "testo": "Ogni mollusco ha la sua pulizia: vediamole una accanto all'altra. Calamaro: si estraggono testa, interiora e penna, si toglie la pelle sotto l'acqua, poi occhi e becco. Vongole: si controllano lanciandole in una teglia e si lasciano spurgare in acqua fredda. Cozze: si strappa il bisso, si spazzola il guscio e si lavano in acqua corrente. Capasanta: si apre con il coltello per ostriche e si tengono solo la noce e il corallo. Ostrica: si spazzola, si apre facendo leva tra le valve e si serve su ghiaccio pilé. Polpi e seppie: seguono la stessa tecnica dei calamari: testa, interiora, penna e pelle.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN120",
+  "testo": "Ora i crostacei: come si preparano, specie per specie. Gamberi e scampi: si tolgono testa e zampe, si incide il carapace e si toglie il filo dell'intestino. Scampi per griglia o umido: il carapace si incide sul dorso o sul ventre senza toglierlo. Aragosta: si lega a una tavoletta prima della bollitura o del vapore, per non farla ripiegare. Astice a crudo: si divide a metà, si toglie la sacca stomacale e si rompono le chele. Granciporro cotto: si tolgono carapace, zampe, chele e branchie; la polpa si estrae con la forchetta. Canocchie: si sbollentano per circa due minuti, si raffreddano e si puliscono con le forbici.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN121",
+  "testo": "Ripassiamo le cotture del pesce attraverso le loro temperature e gli usi. Vapore: in forno a vapore sotto i cento gradi, in pentole specifiche o nei cestelli di bambù. Affogata: il liquido non supera mai gli ottantacinque gradi. Crosta di sale: in forno a circa centosettanta gradi, fino a sessantacinque gradi al cuore. Au bleu: per i pesci d'acqua dolce, in un liquido con aceto che dà alle carni un colore bluastro. Saltata: cucina espressa per filetti, tranci o piccoli tagli, con rapida rosolatura e finitura con salse. Bassa temperatura: la cottura a bassa temperatura garantisce una precisione millimetrica nella consistenza delle carni.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN122",
+  "testo": "Confrontiamo le altre cotture del pesce: in umido, al forno, alla griglia e fritto. Stufata: in umido per quasi tutte le specie, tagliate a pezzi e cucinate con salse e liquidi. Brasata: per pesci medi e grandi cotti interi, spesso porzionati in sala da personale qualificato. Al cartoccio: il pesce cuoce nei propri succhi, dentro carta trasparente o alluminio, conservando aromi e umidità. Al forno o gratinata: su teglie con condimenti, con gratinatura finale in forno o in salamandra. Alla griglia: con olio o panure di pane; per le carni tenere si usa la graticola doppia o un tappetino antiaderente. Fritta: immersione totale nell'olio bollente, dopo aver infarinato, panato o passato il pesce in pastella.",
+  "lingua": "it"
+ }
+]
