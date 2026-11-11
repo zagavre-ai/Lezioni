@@ -24,3 +24,8 @@
 - storia-arte-V-lez01: montata in 1 Parte (72:13 con voci segnaposto), codifica fatta, ora volume/sottotitoli/controlli; poi si rifà con le voci Kore.
 - In fila sulla macchina: lez03 -> lez05 -> lez04 (2 Parti). lez02 FERMA: nella release manca il video del Romanticismo.
 - Testi voci e quiz di lez02-05 inviati a Sara: aspettano l'approvazione.
+
+=== 11/11/2026 11:16 UTC · dalla chat STORIA DELL'ARTE V ===
+- Sara ha approvato quiz e testi voci di storia-arte-V lez02-05.
+- servono voci: storia-arte-V-lez03 (14 voci, 4.353 caratteri), storia-arte-V-lez04 (23 voci, 5.948), storia-arte-V-lez05 (16 voci, 4.477). Rami voci-<tag>, file scambio/<tag>/testi_voci.json.
+- lez02: testi approvati ma voci NON richieste finché non c'è il video giusto del Romanticismo nella release.
