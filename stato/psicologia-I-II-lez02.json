@@ -3,7 +3,8 @@
  "parti": {
   "1": {
    "titolo": "La psicologia: nascita e sviluppi",
-   "stato": "IN_MONTAGGIO"
+   "stato": "IN_MONTAGGIO",
+   "voci": "segnaposto"
   }
  },
  "manca": "",
@@ -17,10 +18,14 @@
   {
    "quando": "11/11 11:26",
    "testo": "Fase 1/6 preparazione: materiali scaricati, PDF a slide letto (10 argomenti), 13+4 voci Kore riusate (L2 + L1 per arg 1-2, GL/RF composti con frasi gia' generate), quiz proposti (50 domande, da approvare), schede di chiusura, trascrizione in corso."
+  },
+  {
+   "quando": "11/11 13:18",
+   "testo": "13:20 ripresa su macchina nuova dal ramo lavoro-psicologia-I-II-lez02 (trascrizione, sincronia con 19 correzioni, struttura, quiz gia' fatti): rigenero solo i media mancanti e rimonto la lezione intera. Voci segnaposto: INTRO1b (in arrivo dalla master 1)."
   }
  ],
  "materia": "Psicologia",
  "lezione": "La psicologia: nascita e sviluppi",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-11 13:17:57"
+ "aggiornato": "2026-11-11 13:18:10"
 }
