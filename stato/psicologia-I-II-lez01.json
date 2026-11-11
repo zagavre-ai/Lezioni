@@ -2,6 +2,7 @@
  "tag": "psicologia-I-II-lez01",
  "parti": {
   "1": {
+   "titolo": "Introduzione alle scienze umane",
    "stato": "IN_MONTAGGIO"
   }
  },
@@ -10,13 +11,20 @@
  "domande_sara": [],
  "note": [
   {
-   "quando": "11/11 11:09",
-   "testo": "ripartenza 11/11: rimontaggio da zero, solo Lez1"
+   "quando": "11/11 13:16",
+   "testo": "Rimontaggio avviato su macchina nuova: riparto dal ramo lavoro-psicologia-I-II-lez01; rigenero media (audio, slide, pezzi)."
   },
   {
-   "quando": "11/11 11:51",
-   "testo": "11/11: rimontaggio solo Lez1: docente+slide in codifica 1080p, schede e animazioni in render, sigla Psicologia provvisoria fatta; voci nuove (AN, GL2, RF2) = segnaposto"
+   "quando": "11/11 13:16",
+   "testo": "Rimontaggio avviato su macchina nuova: riparto dal ramo lavoro-psicologia-I-II-lez01; rigenero media (audio, slide, pezzi)."
+  },
+  {
+   "quando": "11/11 13:17",
+   "testo": "Rimontaggio avviato su macchina nuova: riparto dal ramo lavoro-psicologia-I-II-lez01; rigenero media (audio, slide, pezzi)."
   }
  ],
- "aggiornato": "2026-11-11 11:51:08"
+ "materia": "Psicologia",
+ "lezione": "Introduzione alle scienze umane",
+ "docente": "Prof. Giorgio Mazzotti",
+ "aggiornato": "2026-11-11 13:17:21"
 }
