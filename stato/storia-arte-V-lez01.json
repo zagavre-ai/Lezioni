@@ -3,8 +3,445 @@
  "parti": {
   "1": {
    "titolo": "Il Neoclassicismo",
-   "stato": "IN_CODIFICA",
-   "voci": "segnaposto"
+   "stato": "IN_MONTAGGIO",
+   "voci": "Kore (16 voci della master, reali)",
+   "quiz_ok": "6 Quiz, scatto 0,0 s (max 0,038 s)",
+   "fermi_ok": "nessuno",
+   "sub_ok": "891 blocchi, 0 sovrapposti; controllo automatico dell'attacco 23% (euristica), controllo a campione: attacchi dopo pausa allineati; trascrizione automatica con qualche errore di parole",
+   "video": "Storia_arte_Lez1_Parte1_1440p.mp4",
+   "durata_s": 4366.7,
+   "durata": "72:46.7",
+   "fotogrammi": 131000,
+   "fotogrammi_attesi": 131000,
+   "peso_MB": 406.9,
+   "vtt": "Storia_arte_Lez1_Parte1.vtt",
+   "scheda": {
+    "materia": "Storia dell'Arte",
+    "titolo": "Il Neoclassicismo · Parte 1",
+    "durata_s": 4366.67,
+    "argomenti": [
+     {
+      "n": 1,
+      "titolo": "Le origini: Grand Tour, musei e moda",
+      "inizio_s": 45.2,
+      "quiz_s": 1128.2
+     },
+     {
+      "n": 2,
+      "titolo": "Architettura: Piranesi e i visionari francesi",
+      "inizio_s": 1132.2,
+      "quiz_s": 1612.8
+     },
+     {
+      "n": 3,
+      "titolo": "L'architettura in Italia e in Europa",
+      "inizio_s": 1616.8,
+      "quiz_s": 2232.5
+     },
+     {
+      "n": 4,
+      "titolo": "I teorici e la scultura di Canova",
+      "inizio_s": 2236.5,
+      "quiz_s": 3092.467
+     },
+     {
+      "n": 5,
+      "titolo": "La pittura di Jacques-Louis David",
+      "inizio_s": 3096.467,
+      "quiz_s": 3837.0
+     },
+     {
+      "n": 6,
+      "titolo": "Jean-Auguste-Dominique Ingres",
+      "inizio_s": 3841.0,
+      "quiz_s": 4205.467
+     }
+    ],
+    "quiz": {
+     "Q1": {
+      "title": "Quiz 1 · Le origini: Grand Tour, musei e moda",
+      "items": [
+       {
+        "p": "Da quale città nasce e si irradia il Neoclassicismo?",
+        "a": "Roma",
+        "w": [
+         "Parigi",
+         "Londra",
+         "Firenze"
+        ],
+        "ref": "Il movimento nasce e si irradia da Roma, diffondendosi in tutta Europa."
+       },
+       {
+        "p": "Che cos'era il Grand Tour?",
+        "a": "Un viaggio formativo in Italia di giovani aristocratici, artisti e architetti europei",
+        "w": [
+         "Una mostra itinerante di opere greche e romane",
+         "Una scuola d'arte fondata a Parigi",
+         "Un concorso di architettura bandito dal re di Francia"
+        ],
+        "ref": "Il Grand Tour è il viaggio formativo essenziale in Italia per l'educazione di giovani aristocratici, artisti e architetti europei."
+       },
+       {
+        "p": "Quali scavi alimentano l'amore per l'antichità classica?",
+        "a": "Ercolano e Pompei",
+        "w": [
+         "Atene e Delfi",
+         "Paestum e Agrigento",
+         "Ostia e Tivoli"
+        ],
+        "ref": "Gli scavi di Ercolano e Pompei alimentano l'amore e l'ispirazione per l'antichità classica."
+       },
+       {
+        "p": "Quali musei nascono in quest'epoca, aprendo le collezioni al pubblico?",
+        "a": "Il British Museum a Londra e il Louvre a Parigi",
+        "w": [
+         "Gli Uffizi a Firenze e il Prado a Madrid",
+         "La Galleria Borghese a Roma e il Kunsthaus a Zurigo",
+         "I Musei Vaticani e la Pinacoteca di Brera"
+        ],
+        "ref": "Nascono istituzioni celebri come il British Museum a Londra e il Louvre a Parigi."
+       },
+       {
+        "p": "Come si chiama lo stile neoclassico dell'arredamento?",
+        "a": "Stile impero",
+        "w": [
+         "Stile rococò",
+         "Stile Adam",
+         "Stile gotico"
+        ],
+        "ref": "Il gusto per l'antico invade la vita quotidiana, influenzando l'arredamento (stile impero) e la moda."
+       }
+      ]
+     },
+     "Q2": {
+      "title": "Quiz 2 · Architettura: Piranesi e i visionari francesi",
+      "items": [
+       {
+        "p": "Quali forme privilegia l'architettura neoclassica?",
+        "a": "Forme geometriche semplici e piante simmetriche",
+        "w": [
+         "Forme curve e decorazioni sovrabbondanti",
+         "Archi acuti e vetrate colorate",
+         "Piante irregolari e asimmetriche"
+        ],
+        "ref": "L'architettura neoclassica privilegia forme geometriche semplici, piante simmetriche e gli elementi degli ordini classici."
+       },
+       {
+        "p": "Con quali opere Piranesi diffonde il fascino delle rovine classiche?",
+        "a": "Le Vedute fantastiche di Roma e le Prigioni immaginarie",
+        "w": [
+         "I disegni del Pantheon di Parigi",
+         "I progetti per il Teatro alla Scala",
+         "Le statue della Galleria Borghese"
+        ],
+        "ref": "Piranesi diffonde il fascino delle rovine classiche con le sue Vedute fantastiche di Roma e le scenografie delle Prigioni immaginarie."
+       },
+       {
+        "p": "Quale forma geometrica caratterizza il Cenotafio di Newton di Boullée?",
+        "a": "La sfera",
+        "w": [
+         "La piramide",
+         "Il cubo",
+         "Il cilindro"
+        ],
+        "ref": "Boullée propone un'architettura monumentale basata su pure forme geometriche, come la sfera."
+       },
+       {
+        "p": "Il Cenotafio di Newton (1784) fu realizzato?",
+        "a": "No, è un progetto non realizzato",
+        "w": [
+         "Sì, a Parigi",
+         "Sì, a Londra",
+         "Sì, ma fu distrutto durante la Rivoluzione"
+        ],
+        "ref": "Étienne-Louis Boullée, Cenotafio di Newton, 1784, progetto non realizzato."
+       },
+       {
+        "p": "Chi progettò la chiesa di Sainte-Geneviève (Pantheon) a Parigi?",
+        "a": "Soufflot",
+        "w": [
+         "Boullée",
+         "Piermarini",
+         "Robert Adam"
+        ],
+        "ref": "La Chiesa di Sainte-Geneviève (Pantheon) a Parigi, progettata da Soufflot come cantiere-laboratorio sperimentale."
+       }
+      ]
+     },
+     "Q3": {
+      "title": "Quiz 3 · L'architettura in Italia e in Europa",
+      "items": [
+       {
+        "p": "Chi progetta il Teatro alla Scala di Milano?",
+        "a": "Giuseppe Piermarini",
+        "w": [
+         "Antonio Canova",
+         "Leo von Klenze",
+         "Carl Gotthard Langhans"
+        ],
+        "ref": "Giuseppe Piermarini progetta il Teatro alla Scala di Milano, unendo funzionalità urbana e sobrietà neoclassica."
+       },
+       {
+        "p": "Che cosa riscopre il Neopalladianesimo inglese?",
+        "a": "L'architettura di Andrea Palladio",
+        "w": [
+         "Le cattedrali gotiche",
+         "L'architettura egizia",
+         "Il barocco romano"
+        ],
+        "ref": "In Inghilterra si passa dal Neopalladianesimo (riscoperta di Andrea Palladio) al Neogreco e allo stile Adam."
+       },
+       {
+        "p": "Quale architetto progetta Kedleston Hall, nel Derbyshire?",
+        "a": "Robert Adam",
+        "w": [
+         "Soufflot",
+         "Giuseppe Piermarini",
+         "Étienne-Louis Boullée"
+        ],
+        "ref": "Robert Adam, Kedleston Hall, 1760-65, Derbyshire (Gran Bretagna)."
+       },
+       {
+        "p": "A quali modelli si ispira la Porta di Brandeburgo a Berlino?",
+        "a": "Ai modelli ateniesi",
+        "w": [
+         "Ai castelli medievali tedeschi",
+         "Alle chiese barocche",
+         "Ai palazzi rinascimentali di Firenze"
+        ],
+        "ref": "A Berlino viene costruito il Propileo (Porta di Brandeburgo) ispirato ai modelli ateniesi."
+       },
+       {
+        "p": "Dove sorge il tempio del Walhalla?",
+        "a": "A Ratisbona",
+        "w": [
+         "A Berlino",
+         "A Vienna",
+         "A Monaco"
+        ],
+        "ref": "A Ratisbona sorge il tempio del Walhalla (Leo von Klenze, 1830-42)."
+       }
+      ]
+     },
+     "Q4": {
+      "title": "Quiz 4 · I teorici e la scultura di Canova",
+      "items": [
+       {
+        "p": "Come definisce Winckelmann l'arte greca?",
+        "a": "«Nobile semplicità e quieta grandezza»",
+        "w": [
+         "«Ordine, misura e movimento»",
+         "«Genio e immaginazione»",
+         "«Luce, colore e impressione»"
+        ],
+        "ref": "Winckelmann identifica l'ideale estetico nell'arte greca, definita da «nobile semplicità e quieta grandezza»."
+       },
+       {
+        "p": "Che cos'è l'imitazione degli antichi per Winckelmann?",
+        "a": "La ricerca della bellezza ideale, non una copia servile",
+        "w": [
+         "La copia fedele delle statue antiche",
+         "Il rifiuto dell'arte greca",
+         "L'uso di materiali moderni al posto del marmo"
+        ],
+        "ref": "Per Winckelmann l'imitazione degli antichi non è una copia servile, ma la ricerca della bellezza ideale."
+       },
+       {
+        "p": "Chi dipinse il Ritratto di J.J. Winckelmann (1764)?",
+        "a": "Angelica Kauffmann",
+        "w": [
+         "Jacques-Louis David",
+         "Anton Raphael Mengs",
+         "Jean-Auguste-Dominique Ingres"
+        ],
+        "ref": "Angelica Kauffmann, Ritratto di J.J. Winckelmann, 1764, olio su tela, Zurigo, Kunsthaus."
+       },
+       {
+        "p": "Qual è l'ordine del metodo creativo di Canova?",
+        "a": "Disegno, modello in argilla, sbozzatura, finitura del marmo",
+        "w": [
+         "Sbozzatura, disegno, finitura, modello in argilla",
+         "Modello in gesso, fusione in bronzo, doratura",
+         "Disegno, pittura a olio, incisione"
+        ],
+        "ref": "L'artista segue un rigoroso processo che va dal disegno al modello in argilla, fino alla sbozzatura e alla finitura finale del marmo."
+       },
+       {
+        "p": "Come è ritratta Paolina Borghese da Canova?",
+        "a": "Come Venere vincitrice",
+        "w": [
+         "Come Psiche",
+         "Come una delle tre Grazie",
+         "Come la Virtù del monumento funebre"
+        ],
+        "ref": "La Venere vincitrice: Paolina Borghese ritratta come una divinità classica."
+       }
+      ]
+     },
+     "Q5": {
+      "title": "Quiz 5 · La pittura di Jacques-Louis David",
+      "items": [
+       {
+        "p": "A che cosa lega l'arte Jacques-Louis David?",
+        "a": "All'impegno etico e politico",
+        "w": [
+         "Al fascino dell'Oriente",
+         "Alla pittura di paesaggio",
+         "Alla religione e ai santi"
+        ],
+        "ref": "David è il massimo esponente della pittura neoclassica francese, legando l'arte all'impegno etico e politico."
+       },
+       {
+        "p": "Quale opera è considerata il simbolo del Neoclassicismo?",
+        "a": "Il giuramento degli Orazi",
+        "w": [
+         "La grande odalisca",
+         "Giove e Teti",
+         "Il Giuramento della pallacorda"
+        ],
+        "ref": "Il giuramento degli Orazi: opera simbolo del Neoclassicismo."
+       },
+       {
+        "p": "Quali caratteri ha Il giuramento degli Orazi?",
+        "a": "Severa prospettiva, composizione geometrica, esaltazione delle virtù civiche",
+        "w": [
+         "Linee sinuose e sensualità astratta",
+         "Colori sfumati e paesaggio in primo piano",
+         "Composizione disordinata e luce notturna"
+        ],
+        "ref": "Caratterizzata da una severa prospettiva, composizione geometrica e l'esaltazione delle virtù civiche e del sacrificio per la patria."
+       },
+       {
+        "p": "Nella Morte di Marat (1793) la morte del leader rivoluzionario è…",
+        "a": "idealizzata con sobrietà formale e richiami alla pietà cristiana",
+        "w": [
+         "rappresentata come una battaglia",
+         "ambientata in un paesaggio orientale",
+         "descritta con colori vivaci e molti personaggi"
+        ],
+        "ref": "La morte del leader rivoluzionario viene idealizzata attraverso un'essenziale sobrietà formale e richiami alla pietà cristiana."
+       },
+       {
+        "p": "Con quale tecnica è realizzato Il Giuramento della pallacorda?",
+        "a": "Disegno a penna seppiato su carta",
+        "w": [
+         "Olio su tela",
+         "Affresco",
+         "Marmo"
+        ],
+        "ref": "Jacques-Louis David, Il Giuramento della pallacorda, 1790-92, disegno a penna seppiato su carta."
+       }
+      ]
+     },
+     "Q6": {
+      "title": "Quiz 6 · Jean-Auguste-Dominique Ingres",
+      "items": [
+       {
+        "p": "Di chi fu allievo Ingres?",
+        "a": "Di Jacques-Louis David",
+        "w": [
+         "Di Antonio Canova",
+         "Di Anton Raphael Mengs",
+         "Di Giambattista Piranesi"
+        ],
+        "ref": "Allievo di David, Ingres difende il primato del disegno e del colore locale."
+       },
+       {
+        "p": "Che cosa difende Ingres rispetto alle innovazioni dell'epoca?",
+        "a": "Il primato del disegno e del colore locale",
+        "w": [
+         "Il primato della luce naturale",
+         "La pittura all'aria aperta",
+         "L'abbandono dei modelli classici"
+        ],
+        "ref": "Ingres difende il primato del disegno e del colore locale rispetto alle innovazioni dell'epoca."
+       },
+       {
+        "p": "Quale opera di Ingres è legata al tema dell'Oriente?",
+        "a": "La grande odalisca",
+        "w": [
+         "Giove e Teti",
+         "Morte di Marat",
+         "Amore e Psiche"
+        ],
+        "ref": "Introduce il tema del nudo e dell'Oriente ottomano (es. La grande odalisca)."
+       },
+       {
+        "p": "Quali caratteri ha La grande odalisca?",
+        "a": "Linee sinuose, deformazioni anatomiche calibrate, sensualità astratta",
+        "w": [
+         "Composizione geometrica e severa prospettiva",
+         "Pennellate rapide e colori puri",
+         "Figure rigide e frontali"
+        ],
+        "ref": "Caratterizzato da linee sinuose, deformazioni anatomiche calibrate e una sensualità astratta."
+       },
+       {
+        "p": "In che anno Ingres dipinge Giove e Teti?",
+        "a": "1811",
+        "w": [
+         "1784",
+         "1793",
+         "1830"
+        ],
+        "ref": "Jean-Auguste-Dominique Ingres, Giove e Teti, 1811, olio su tela, Aix-en-Provence, Musée Granet."
+       }
+      ]
+     }
+    }
+   },
+   "timeline": [
+    [
+     "T1",
+     45.2,
+     3.6
+    ],
+    [
+     "Q1",
+     1128.2,
+     4.0
+    ],
+    [
+     "T2",
+     1132.2,
+     3.6
+    ],
+    [
+     "T3",
+     1616.8,
+     3.6
+    ],
+    [
+     "T4",
+     2236.5,
+     3.6
+    ],
+    [
+     "T5",
+     3096.467,
+     3.6
+    ],
+    [
+     "T6",
+     3841.0,
+     3.6
+    ],
+    [
+     "GL",
+     4209.467,
+     64.333
+    ],
+    [
+     "RF",
+     4273.8,
+     69.067
+    ],
+    [
+     "FIN",
+     4342.867,
+     5.067
+    ]
+   ]
   }
  },
  "manca": "volume, sottotitoli, controlli in corso; poi voci Kore (richieste) e rifacimento inserti",
@@ -19,10 +456,14 @@
   {
    "quando": "11/11 11:09",
    "testo": "1 Parte, 72:13,4 di montaggio; t_verifica 4314.87, t_compiti 4328.37 (voci segnaposto: cambiano con Kore)"
+  },
+  {
+   "quando": "11/11 20:39",
+   "testo": "72:46,7 (4366,7 s), 131000 fotogrammi, 388,1 MiB, -16,5 LUFS; t_verifica 4347,93 t_compiti 4361,43. Voci Kore reali sostituite, webcam corretta ai 4 spostamenti. ALLEGATI NON CARICATI: uploads.github.com risponde 415 dal proxy; file in /home/claude/lezioni/storia-arte-V-lez01/consegna/ (video, vtt, scheda, testo_youtube)."
   }
  ],
- "materia": "Storia dell'Arte V",
- "lezione": "Il Neoclassicismo",
+ "materia": "Storia dell'Arte",
+ "lezione": "1",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-11 11:09:59"
+ "aggiornato": "2026-11-11 20:39:12"
 }
