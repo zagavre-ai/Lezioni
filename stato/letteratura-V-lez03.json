@@ -8,16 +8,16 @@
   }
  },
  "manca": "",
- "serve_master": [
+ "serve_master": [],
+ "domande_sara": [],
+ "note": [
   {
-   "quando": "08/11 12:54",
-   "testo": "Voci ricevute e importate: 8 su 8, 168 s totali (misurate). Nessuna richiesta."
+   "quando": "11/11 11:10",
+   "testo": "11/11 ripartenza da zero (file di lavoro persi): materiale scaricato, voci Kore riusate (8/8)."
   }
  ],
- "domande_sara": [],
- "note": [],
  "materia": "Letteratura italiana (V)",
  "lezione": "Lezione 3 · Giosuè Carducci",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-08 12:54:51"
+ "aggiornato": "2026-11-11 11:10:17"
 }
