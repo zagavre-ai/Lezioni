@@ -10,9 +10,14 @@
  "manca": "in coda dopo la Lez1: webcam, traccia docente, inserti, montaggio, codifica, controlli; quiz e testi voci in attesa OK Sara; voci Kore",
  "serve_master": [],
  "domande_sara": [],
- "note": [],
+ "note": [
+  {
+   "quando": "11/11 11:16",
+   "testo": "quiz e testi voci approvati da Sara (11/11)"
+  }
+ ],
  "materia": "Storia dell'Arte V",
  "lezione": "Il Realismo",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-10 21:22:06"
+ "aggiornato": "2026-11-11 11:16:23"
 }
