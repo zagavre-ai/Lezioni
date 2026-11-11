@@ -9,9 +9,14 @@
  "manca": "VIDEO E PDF NON PIU' NELLA RELEASE (404): servono per webcam e audio. Pronti: struttura, sincronia, 14 slide, 20 pagine-opera, quiz e testi voci (in attesa OK Sara)",
  "serve_master": [],
  "domande_sara": [],
- "note": [],
+ "note": [
+  {
+   "quando": "11/11 11:16",
+   "testo": "quiz e testi voci approvati da Sara (11/11)"
+  }
+ ],
  "materia": "Storia dell'Arte V",
  "lezione": "Il Romanticismo",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-10 21:22:04"
+ "aggiornato": "2026-11-11 11:16:21"
 }
