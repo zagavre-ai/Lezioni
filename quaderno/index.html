@@ -76,7 +76,7 @@ input[type=file].nasc{display:none}
 .codice{font:bold 20px/1.2 ui-monospace,Menlo,monospace;letter-spacing:.08em;background:var(--soft2);padding:8px 12px;border-radius:6px;display:inline-block}
 @media (max-width:640px){h1{font-size:21px}table.l .mob-no{display:none}}
 </style>
-<meta name="versione" content="2026-11-11a">
+<meta name="versione" content="2026-11-11b">
 <script>/* se GitHub ha una versione più nuova di questa pagina, la carica subito (niente più «non vedo le novità») */
 (function(){try{var mia=document.querySelector('meta[name=versione]').content;
 fetch(location.pathname,{cache:'reload'}).then(function(r){return r.text()}).then(function(t){var m=t.match(/name="versione" content="([^"]+)"/);
@@ -411,7 +411,7 @@ async function vistaDispense(dove){
   try{DISPENSE=(await api('dispense')).dispense}catch(e){$('#dlista').innerHTML=`<div class="msg no">${esc(e.message)}</div>`;return}
   const per={};DISPENSE.forEach(d=>(per[d.materia]||=[]).push(d));
   const ord=Object.keys(per).sort();
-  $('#dlista').innerHTML=ord.length?ord.map(m=>`<h2 class="disp-m">${esc(m)} (${per[m].length})</h2>`+per[m].map(d=>`<div class="card disp"><div><b>${esc(d.titolo)}</b><br><span class="note">${dd(d.data)}${d.lezione?' · '+esc(d.lezione):''}${puo&&d.persone?.nome?' · caricata da '+esc(d.persone.nome):''}</span></div>
+  $('#dlista').innerHTML=ord.length?ord.map(m=>`<h2 class="disp-m">${esc(m)} (${per[m].length})</h2>`+per[m].map(d=>`<div class="card disp"><div><b>${esc(d.titolo)}</b><br><span class="note">${dd(d.data)}${d.lezione?' · '+esc(d.lezione):''}${puo&&d.persone?.nome?' · caricata da '+esc(d.persone.nome):''}${puo&&d.alunni?.length?' · solo per '+d.alunni.length+(d.alunni.length>1?' alunni':' alunno'):''}</span></div>
     <div style="display:flex;gap:8px"><button class="btn sec" data-vedi="${esc(d.file)}">Apri</button>${d.puo_togliere?`<button class="esci" data-togli="${d.id}">togli</button>`:''}</div></div>`).join('')).join('')
     :`<div class="vuoto">${puo?'Nessuna dispensa caricata.':'Non ci sono ancora dispense per le tue materie.'}</div>`;
   collegaVedi('#dlista');
