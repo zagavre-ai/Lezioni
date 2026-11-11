@@ -47,6 +47,8 @@ table.l tr.cl{cursor:pointer}table.l tr.cl:hover td{background:var(--soft)}
 .st.assegnato{background:#dfe9f5;color:var(--navy)}.st.consegnato{background:#FFF4CC;color:#6b5300}
 .st.da_rifare{background:#ffe2cc;color:#8a3b00}.st.corretto{background:var(--okbg);color:var(--ok)}
 .st.verificato{background:var(--ok);color:#fff}.st.segnalato{background:var(--red);color:#fff}
+.st.storico{background:#e6e6e6;color:#444}
+.disp-m{margin:18px 0 6px;font-size:16px;color:var(--navy)}.disp{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
 .rit{color:var(--red);font-weight:bold}
 .mat{font-size:12px;font-weight:bold;letter-spacing:.1em;color:var(--navy);text-transform:uppercase}
 .comp h3{margin:4px 0 6px;font-size:17px}
@@ -83,11 +85,12 @@ input[type=file].nasc{display:none}
 const API='https://tsguzxawpywxrydazhrc.supabase.co/functions/v1/quaderno';
 const $=s=>document.querySelector(s);
 const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-const STATI={assegnato:'Da consegnare',consegnato:'Da correggere',da_rifare:'Da rifare',corretto:'Corretto',verificato:'Verificato',segnalato:'Segnalato'};
+const STATI={assegnato:'Da consegnare',consegnato:'Da correggere',da_rifare:'Da rifare',corretto:'Corretto',verificato:'Verificato',segnalato:'Segnalato',storico:'Storico'};
 const dl=s=>s?new Date(s).toLocaleDateString('it-IT',{weekday:'short',day:'numeric',month:'short'}):'';
 const dlo=s=>s?new Date(s).toLocaleString('it-IT',{weekday:'short',day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'}):'';
 const loc=d=>d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');
 const dd=s=>s?new Date(s+'T12:00').toLocaleDateString('it-IT',{weekday:'short',day:'numeric',month:'short'}):'';
+let ALTAB='compiti',DISPENSE=null;
 let CODICE='',IO=null,COMPITI=[],ALUNNI=[],NOMI={},TAB='',F={alunno:'',materia:'',stato:'',cerca:''};
 
 async function api(azione,dati={}){
@@ -145,11 +148,14 @@ async function caricaCompiti(){COMPITI=(await api('lista')).compiti}
 
 /* ---------------- vista alunno (telefono) ---------------- */
 const SCELTE={};// compito_id -> [{blob,url}]
-function vistaAlunno(msg,V){V=V||{lista:COMPITI,nome:IO.nome,ro:false,dove:'#app'};const L=V.lista;
+function tabAlunno(){return `<div class="tabs"><button data-atab="compiti" class="${ALTAB==='compiti'?'on':''}">I miei compiti</button><button data-atab="dispense" class="${ALTAB==='dispense'?'on':''}">Dispense di studio</button></div>`}
+function collegaTabAlunno(){document.querySelectorAll('[data-atab]').forEach(b=>b.onclick=()=>{ALTAB=b.dataset.atab;vistaAlunno()})}
+function vistaAlunno(msg,V){if(!V&&ALTAB==='dispense'){$('#app').innerHTML=`<h1>Dispense di studio</h1><div class="bar"></div><div class="who"><b>${esc(IO.nome)}</b></div>${tabAlunno()}<div id="dsp"></div>`;collegaTabAlunno();return vistaDispense('#dsp')}
+  V=V||{lista:COMPITI,nome:IO.nome,ro:false,dove:'#app'};const L=V.lista;
   const daFare=L.filter(c=>c.stato==='assegnato'||c.stato==='da_rifare').sort((a,b)=>(a.scadenza||'9').localeCompare(b.scadenza||'9'));
   const attesa=L.filter(c=>c.stato==='consegnato');
   const fatti=L.filter(c=>['corretto','verificato','segnalato'].includes(c.stato));
-  let h=(V.ro?`<div class="msg ok" style="background:#FFF4CC;color:#6b5300"><b>Vista dell'alunno · sola lettura.</b> È esattamente la pagina che vede ${esc(V.nome)} (senza i pulsanti per consegnare).</div>`:'')+`<h1>${V.ro?'I compiti di '+esc(V.nome):'I miei compiti'}</h1><div class="bar"></div><div class="who"><b>${esc(V.nome)}</b></div>${msg||''}
+  let h=(V.ro?`<div class="msg ok" style="background:#FFF4CC;color:#6b5300"><b>Vista dell'alunno · sola lettura.</b> È esattamente la pagina che vede ${esc(V.nome)} (senza i pulsanti per consegnare).</div>`:'')+`<h1>${V.ro?'I compiti di '+esc(V.nome):'I miei compiti'}</h1><div class="bar"></div><div class="who"><b>${esc(V.nome)}</b></div>${V.ro?'':tabAlunno()}${msg||''}
   <h2 style="font-size:17px;margin:20px 0 4px">Da consegnare (${daFare.length})</h2>`;
   if(!daFare.length)h+='<div class="vuoto">Non hai compiti da consegnare. 👍</div>';
   daFare.forEach(c=>{const rif=c.stato==='da_rifare';const ult=[...c.eventi].reverse().find(e=>e.tipo==='da_rifare');
@@ -173,7 +179,7 @@ function vistaAlunno(msg,V){V=V||{lista:COMPITI,nome:IO.nome,ro:false,dove:'#app
     <p class="note" style="margin:4px 0">Consegnato ${dlo((([...c.eventi].reverse().find(x=>x.tipo==='consegna'))||{}).il)}${c.consegna_in_ritardo?' · <span class="rit">in ritardo</span>':''}</p>
     <div style="display:flex;flex-wrap:wrap;gap:8px">${c.eventi.some(x=>x.tipo==='consegna'&&x.foto.length)?`<button class="btn sec" data-fotocons="${c.id}">Vedi le pagine consegnate</button>`:''}${e?.foto?.length?`<button class="btn sec" data-fotoev="${c.id}">Vedi la correzione</button>`:''}</div></div>`})}
   $(V.dove).innerHTML=h;if(V.ro){collegaVedi(V.dove);return}
-  daFare.forEach(c=>mostraScelte(c.id));
+  collegaTabAlunno();daFare.forEach(c=>mostraScelte(c.id));
   document.querySelectorAll('[data-cam]').forEach(i=>i.onchange=async e=>{const id=i.dataset.cam;SCELTE[id]=SCELTE[id]||[];
     for(const f of e.target.files){try{const r=await riduci(f);SCELTE[id].push({...r,url:r.mime==='application/pdf'?'':URL.createObjectURL(r.blob),nome:f.name})}catch(x){alert('Questa foto non si apre: '+f.name)}}
     i.value='';mostraScelte(id)});
@@ -199,13 +205,13 @@ function filtra(){return COMPITI.filter(c=>(!F.alunno||c.alunno_id===F.alunno)&&
 function vistaScuola(msg){
   const dc=COMPITI.filter(c=>c.stato==='consegnato'),dv=COMPITI.filter(c=>c.stato==='corretto');
   const tabs=[['correggere','Da correggere',dc.length]];if(STAFF())tabs.push(['verificare','Da verificare',dv.length]);
-  tabs.push(['tutti','Tutti i compiti',0],['assegna','Assegna un compito',0]);if(STAFF())tabs.push(['vistaalunno','Vista alunno',0],['docenti','Docenti',0]);tabs.push(['esporta','Esporta',0]);
+  tabs.push(['tutti','Tutti i compiti',0],['assegna','Assegna un compito',0],['dispense','Dispense di studio',0]);if(STAFF())tabs.push(['vistaalunno','Vista alunno',0],['docenti','Docenti',0]);tabs.push(['esporta','Esporta',0]);
   let h=`<h1>Quaderno dei compiti</h1><div class="bar"></div><div class="who"><b>${esc(IO.nome)}</b> · ${STAFF()?'coordinamento e direzione':'docente di '+esc(IO.materie.join(', '))}</div>${msg||''}
   <div class="tabs">${tabs.map(t=>`<button data-tab="${t[0]}" class="${TAB===t[0]?'on':''}">${t[1]}${t[2]?`<span class="n">${t[2]}</span>`:''}</button>`).join('')}</div><div id="tab"></div>`;
   $('#app').innerHTML=h;document.querySelectorAll('[data-tab]').forEach(b=>b.onclick=()=>{TAB=b.dataset.tab;vistaScuola()});
   ({correggere:()=>tabella(dc.sort((a,b)=>ultimo(a,'consegna').localeCompare(ultimo(b,'consegna'))),'Nessun compito da correggere.'),
     verificare:()=>tabella(dv,'Nessun compito corretto da verificare.'),
-    tutti:tabTutti,vistaalunno:tabVistaAlunno,assegna:tabAssegna,docenti:tabDocenti,esporta:tabEsporta})[TAB]();
+    tutti:tabTutti,dispense:()=>vistaDispense('#tab'),vistaalunno:tabVistaAlunno,assegna:tabAssegna,docenti:tabDocenti,esporta:tabEsporta})[TAB]();
 }
 const ultimo=(c,t)=>([...c.eventi].reverse().find(e=>e.tipo===t)||{}).il||'';
 function tabella(l,vuoto,dove='#tab'){
@@ -221,8 +227,11 @@ function tabTutti(){
   $('#tab').innerHTML=`<div class="filtri"><select id="fa"><option value="">Tutti gli alunni</option>${ALUNNI.map(a=>`<option value="${a.id}" ${F.alunno===a.id?'selected':''}>${esc(a.nome)}</option>`).join('')}</select>
   <select id="fm"><option value="">Tutte le materie</option>${mat.map(m=>`<option ${F.materia===m?'selected':''}>${esc(m)}</option>`).join('')}</select>
   <select id="fs"><option value="">Tutti gli stati</option>${Object.entries(STATI).map(([k,v])=>`<option value="${k}" ${F.stato===k?'selected':''}>${v}</option>`).join('')}<option value="ritardo" ${F.stato==='ritardo'?'selected':''}>Solo in ritardo</option></select>
-  <input id="fc" placeholder="Cerca…" value="${esc(F.cerca)}"><button class="btn sec" id="agg">Aggiorna</button></div><div id="lista"></div>`;
-  const rif=()=>tabella(filtra(),'Nessun compito con questi filtri.','#lista');
+  <input id="fc" placeholder="Cerca…" value="${esc(F.cerca)}"><button class="btn sec" id="agg">Aggiorna</button></div><div id="blocco"></div><div id="lista"></div>`;
+  const rif=()=>{const l=filtra();tabella(l,'Nessun compito con questi filtri.','#lista');const st=l.filter(c=>c.stato==='storico');
+    $('#blocco').innerHTML=F.stato==='storico'&&st.length?`<div class="card" style="background:var(--soft)"><b>${st.length} compiti «Storico»</b> con questi filtri (gli alunni non li vedono).
+      <div class="row"><div><label class="f">Rendili da svolgere entro</label><input class="t" type="date" id="bsd"></div></div><button class="btn" id="bsgo" style="margin-top:8px">Rendi da svolgere (${st.length})</button><div id="bses"></div></div>`:'';
+    if($('#bsgo'))$('#bsgo').onclick=()=>rendiDaSvolgere(st.map(c=>c.id),$('#bsd').value,$('#bses'),$('#bsgo'))};
   $('#fa').onchange=e=>{F.alunno=e.target.value;rif()};$('#fm').onchange=e=>{F.materia=e.target.value;rif()};$('#fs').onchange=e=>{F.stato=e.target.value;rif()};$('#fc').oninput=e=>{F.cerca=e.target.value;rif()};
   $('#agg').onclick=async()=>{await caricaCompiti();vistaScuola()};rif();
 }
@@ -261,7 +270,7 @@ function tabAssegna(){
 }
 function tabDocenti(){
   const tutte=[...new Set(ALUNNI.flatMap(a=>a.materie).filter(m=>m!=='Tutte le materie'))].sort();
-  $('#tab').innerHTML=`<div class="card"><p class="note" style="margin-top:0">Aggiungi un docente: riceve un codice personale e vede solo le sue materie. Per cambiare le materie di un docente, rifai l'operazione con lo <b>stesso codice</b>. Per disattivarlo, togli la spunta «attivo».</p>
+  $('#tab').innerHTML=`<div class="card"><p class="note" style="margin-top:0">Aggiungi un docente: riceve un codice personale e vede solo le sue materie. Se il docente è <b>già nel quaderno</b> (per esempio con compiti importati), scrivi il suo nome <b>esattamente uguale</b>: riceve il codice nuovo e tiene i suoi compiti; se non spunti nessuna materia, restano quelle che aveva. Per disattivarlo, togli la spunta «attivo».</p>
   <div class="row"><div><label class="f">Nome e cognome</label><input class="t" id="dn"></div><div><label class="f">Codice personale</label><input class="t" id="dc" style="text-transform:uppercase"> <button class="esci" id="dgen">crea un codice nuovo</button></div></div>
   <label class="f">Materie</label><div class="chk" id="dm">${tutte.map(m=>`<label><input type="checkbox" value="${esc(m)}"> ${esc(m)}</label>`).join('')}</div>
   <label style="display:flex;gap:6px;margin-top:10px;font-size:14px"><input type="checkbox" id="da" checked> attivo</label>
@@ -270,8 +279,8 @@ function tabDocenti(){
   $('#dgen').onclick=gen;gen();
   $('#dgo').onclick=async()=>{const nome=$('#dn').value.trim(),cod=$('#dc').value.trim().toUpperCase(),materie=[...$('#dm').querySelectorAll('input:checked')].map(i=>i.value);
     if(!nome||cod.length<6)return $('#des').innerHTML='<div class="msg no">Servono il nome e un codice di almeno 6 caratteri.</div>';
-    try{await api('persona',{nome,nuovo_codice:cod,materie,ruolo:'docente',attivo:$('#da').checked});
-      $('#des').innerHTML=`<div class="msg ok"><b>Salvato.</b> Manda a ${esc(nome)} questo codice e il link di questa pagina:<br><span class="codice">${esc(cod)}</span><br>Il codice non si può rivedere dopo: copialo adesso.</div>`;
+    try{const rp=await api('persona',{nome,nuovo_codice:cod,materie,ruolo:'docente',attivo:$('#da').checked});
+      $('#des').innerHTML=`<div class="msg ok"><b>${rp.aggiornato?'Aggiornato (docente già presente).':'Salvato.'}</b> Manda a ${esc(nome)} questo codice e il link di questa pagina:<br><span class="codice">${esc(cod)}</span><br>Il codice non si può rivedere dopo: copialo adesso.</div>`;
       api('nomi').then(r=>r.persone.forEach(p=>NOMI[p.id]=p.nome))}catch(e){$('#des').innerHTML=`<div class="msg no">${esc(e.message)}</div>`}};
 }
 function tabEsporta(){
@@ -307,6 +316,10 @@ async function apri(id){
   ${c.eventi.map((e,i)=>`<li class="${e.tipo==='da_rifare'||e.tipo==='segnalazione'?'rosso':(e.tipo==='verifica'||e.tipo==='correzione'?'verde':'')}"><b>${TIPI[e.tipo]}</b> ${dlo(e.il)} da ${esc(nomeAutore(e,c))}
     ${e.tipo==='consegna'&&c.scadenza&&e.il.slice(0,10)>c.scadenza?' <span class="rit">in ritardo</span>':''}${e.voto?' · voto <b>'+esc(e.voto)+'</b>':''}${e.testo?'<br>«'+esc(e.testo)+'»':''}
     ${e.foto.length?`<div class="foto" data-ev="${i}">${e.foto.map((p,j)=>`<figure><img alt="Pagina ${j+1}" data-path="${esc(p)}"><figcaption>Pagina ${j+1}</figcaption></figure>`).join('')}</div>`:''}</li>`).join('')}</ul>
+  ${c.stato==='storico'?`<div class="card" style="background:var(--soft)"><h3 style="margin:0 0 4px;font-size:16px">Compito «Storico»</h3>
+    <p class="note" style="margin:0">Registrato per memoria: l'alunno non lo vede. Se la direzione decide che va svolto, scegli la scadenza e rendilo «da svolgere».</p>
+    <div class="row"><div><label class="f">Da consegnare entro</label><input class="t" type="date" id="sd"></div></div>
+    <button class="btn" id="sgo" style="margin-top:8px">Rendi da svolgere</button><div id="ses"></div></div>`:''}
   ${puoCorreggere?`<div class="card" style="background:var(--soft)"><h3 style="margin:0 0 4px;font-size:16px">Correzione</h3>
     <p class="note" style="margin:0">Tocca una pagina qui sopra per segnarla in rosso (facoltativo). Poi scrivi voto e commento.</p><div id="editor"></div><div class="foto" id="corrette"></div>
     <div class="row"><div><label class="f">Voto</label><input class="t" id="cv" placeholder="es. 7 o 6½"></div></div>
@@ -319,6 +332,7 @@ async function apri(id){
   document.querySelectorAll('#mbody img[data-path]').forEach(async im=>{try{im.src=await vedi(im.dataset.path)}catch(e){im.alt='non disponibile'}
     im.onclick=()=>{if(puoCorreggere&&cons&&cons.foto.includes(im.dataset.path))editor(im.dataset.path,im.src);else window.open(im.src,'_blank')}});
   collegaVedi('#mbody');
+  if($('#sgo'))$('#sgo').onclick=()=>rendiDaSvolgere([c.id],$('#sd').value,$('#ses'),$('#sgo'),true);
   if(puoCorreggere){CORR=[];const fine=async esito=>{const es=$('#ces');const voto=$('#cv').value.trim(),commento=$('#cc').value.trim();
       if(esito!=='da_rifare'&&!voto)return es.innerHTML='<div class="msg no">Manca il voto.</div>';
       if(esito==='da_rifare'&&!commento)return es.innerHTML='<div class="msg no">Scrivi nel commento che cosa deve rifare.</div>';
@@ -355,6 +369,50 @@ function collegaVedi(dove=''){document.querySelectorAll(dove+' [data-vedi]').for
   document.querySelectorAll(dove+' [data-fotoev],'+dove+' [data-fotocons]').forEach(b=>b.onclick=async()=>{const cons=!!b.dataset.fotocons;const c=COMPITI.find(x=>x.id===(b.dataset.fotoev||b.dataset.fotocons));const e=[...c.eventi].reverse().find(x=>(cons?x.tipo==='consegna':(x.tipo==='correzione'||x.tipo==='da_rifare'))&&x.foto.length);if(!e)return;
     $('#mbody').innerHTML=`<h2 style="margin-top:0">${esc(c.titolo)}</h2><p class="note">${cons?'Le pagine consegnate il '+dlo(e.il):'Le pagine corrette dal docente'}</p><div class="foto" style="grid-template-columns:1fr">${e.foto.map(p=>`<img data-path="${esc(p)}" style="aspect-ratio:auto;object-fit:contain">`).join('')}</div>`;$('#modal').style.display='block';
     document.querySelectorAll('#mbody img[data-path]').forEach(async im=>{im.src=await vedi(im.dataset.path);im.onclick=()=>window.open(im.src,'_blank')})})}
+
+/* ---------------- storico ---------------- */
+async function rendiDaSvolgere(ids,scadenza,es,btn,modal){
+  if(!scadenza)return es.innerHTML='<div class="msg no">Scegli la data di consegna.</div>';
+  if(!confirm(ids.length+(ids.length===1?' compito diventa':' compiti diventano')+' da svolgere: gli alunni li vedranno con scadenza '+dd(scadenza)+'. Confermi?'))return;
+  btn.disabled=true;
+  try{const r=await api('storico',{compito_ids:ids,storico:false,scadenza});await caricaCompiti();if(modal)chiudi();
+    vistaScuola(`<div class="msg ok">${r.aggiornati} ${r.aggiornati===1?'compito ora è':'compiti ora sono'} da svolgere.</div>`)}
+  catch(e){es.innerHTML=`<div class="msg no">${esc(e.message)}</div>`;btn.disabled=false}
+}
+
+/* ---------------- dispense di studio ---------------- */
+async function vistaDispense(dove){
+  const puo=IO.tipo!=='alunno';
+  const mat=STAFF()?[...new Set(ALUNNI.flatMap(a=>a.materie).filter(m=>m!=='Tutte le materie'))].sort():(IO.materie||[]);
+  $(dove).innerHTML=(puo?`<div class="card"><h3 style="margin:0 0 4px;font-size:16px">Carica una dispensa</h3>
+    <p class="note" style="margin:0">Le slide della lezione in PDF (da PowerPoint: File › Esporta › PDF). Le vedono gli alunni che hanno quella materia.</p>
+    <div class="row"><div><label class="f">Materia</label><select class="t" id="dm">${mat.map(m=>`<option>${esc(m)}</option>`).join('')}</select></div>
+    <div><label class="f">Data della lezione</label><input class="t" type="date" id="dd" value="${loc(new Date())}"></div></div>
+    <label class="f">Titolo</label><input class="t" id="dt" placeholder="es. Slide · Giosuè Carducci">
+    <label class="f">Lezione (facoltativo)</label><input class="t" id="dl" placeholder="es. Lezione 3 · Letteratura italiana V">
+    <label class="f">File PDF (massimo 50 MB)</label><input type="file" id="df" accept="application/pdf">
+    <button class="btn big" id="dgo" style="margin-top:12px">Carica la dispensa</button><div id="des"></div></div>`:'')+'<div id="dlista"><div class="vuoto">Carico le dispense…</div></div>';
+  if(puo)$('#dgo').onclick=async()=>{const es=$('#des'),f=$('#df').files[0],titolo=$('#dt').value.trim(),materia=$('#dm').value;
+    if(!materia)return es.innerHTML='<div class="msg no">Scegli la materia.</div>';
+    if(!titolo)return es.innerHTML='<div class="msg no">Manca il titolo.</div>';
+    if(!f||f.type!=='application/pdf')return es.innerHTML='<div class="msg no">Scegli un file PDF.</div>';
+    if(f.size>50*1024*1024)return es.innerHTML='<div class="msg no">Il file supera 50 MB: esportalo di nuovo con «dimensione ridotta».</div>';
+    $('#dgo').disabled=true;es.innerHTML='<div class="msg ok">Carico il file… (con file grandi ci vuole un po\')</div>';
+    try{const u=await api('dispensa_carica',{materia});const r=await fetch(u.url,{method:'PUT',headers:{'Content-Type':'application/pdf'},body:f});
+      if(!r.ok)throw new Error('caricamento non riuscito ('+r.status+')');
+      await api('dispensa_salva',{materia,titolo,lezione:$('#dl').value.trim(),data:$('#dd').value||null,file:u.path});
+      DISPENSE=null;await vistaDispense(dove);$('#des').innerHTML='<div class="msg ok">Dispensa caricata.</div>'}
+    catch(e){es.innerHTML=`<div class="msg no">Non caricata: ${esc(e.message)}</div>`;$('#dgo').disabled=false}};
+  try{DISPENSE=(await api('dispense')).dispense}catch(e){$('#dlista').innerHTML=`<div class="msg no">${esc(e.message)}</div>`;return}
+  const per={};DISPENSE.forEach(d=>(per[d.materia]||=[]).push(d));
+  const ord=Object.keys(per).sort();
+  $('#dlista').innerHTML=ord.length?ord.map(m=>`<h2 class="disp-m">${esc(m)} (${per[m].length})</h2>`+per[m].map(d=>`<div class="card disp"><div><b>${esc(d.titolo)}</b><br><span class="note">${dd(d.data)}${d.lezione?' · '+esc(d.lezione):''}${puo&&d.persone?.nome?' · caricata da '+esc(d.persone.nome):''}</span></div>
+    <div style="display:flex;gap:8px"><button class="btn sec" data-vedi="${esc(d.file)}">Apri</button>${d.puo_togliere?`<button class="esci" data-togli="${d.id}">togli</button>`:''}</div></div>`).join('')).join('')
+    :`<div class="vuoto">${puo?'Nessuna dispensa caricata.':'Non ci sono ancora dispense per le tue materie.'}</div>`;
+  collegaVedi('#dlista');
+  document.querySelectorAll('[data-togli]').forEach(b=>b.onclick=async()=>{if(!confirm('Togliere questa dispensa? Gli alunni non la vedranno più.'))return;
+    try{await api('dispensa_togli',{id:b.dataset.togli});await vistaDispense(dove)}catch(e){alert(e.message)}});
+}
 
 /* ---------------- avvio ---------------- */
 (function(){const h=new URLSearchParams(location.hash.slice(1));const c=h.get('c');
