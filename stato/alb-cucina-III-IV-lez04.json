@@ -12,6 +12,10 @@
   {
    "quando": "10/11 20:43",
    "testo": "Questa sessione non può scrivere su GitHub (push rifiutato 403, release non leggibili). Lo stato è pronto in stato_locale e il file per le voci in scambio/alb-cucina-III-IV-lez04/testi_voci.json: serve l'accesso in scrittura al repository oppure che qualcuno li carichi."
+  },
+  {
+   "quando": "11/11 11:16",
+   "testo": "servono voci: alb-cucina-III-IV-lez04 (testi approvati da Sara l'11/11, sul ramo voci-alb-cucina-III-IV-lez04)"
   }
  ],
  "domande_sara": [],
@@ -27,5 +31,5 @@
  ],
  "materia": "Laboratori dei servizi enogastronomici – settore cucina",
  "lezione": "Gastronomia internazionale 1",
- "aggiornato": "2026-11-10 21:18:36"
+ "aggiornato": "2026-11-11 11:16:49"
 }
