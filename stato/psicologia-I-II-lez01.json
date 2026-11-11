@@ -3,7 +3,7 @@
  "parti": {
   "1": {
    "titolo": "Introduzione alle scienze umane",
-   "stato": "IN_MONTAGGIO",
+   "stato": "IN_CODIFICA",
    "voci": "kore"
   }
  },
@@ -26,10 +26,14 @@
   {
    "quando": "11/11 20:48",
    "testo": "Voci nuove importate (29/29). Media rigenerati; montaggio pezzi in corso."
+  },
+  {
+   "quando": "11/11 21:14",
+   "testo": "t_verifica=2979.2 s; t_compiti=2992.4 s (intro Compiti), scheda Compiti 2997.5 s; durata attesa 3002.5 s (50:02)"
   }
  ],
  "materia": "Psicologia",
  "lezione": "Introduzione alle scienze umane",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-11 20:48:46"
+ "aggiornato": "2026-11-11 21:14:41"
 }
