@@ -3,7 +3,7 @@
  "parti": {
   "1": {
    "titolo": "La psicologia: nascita e sviluppi",
-   "stato": "IN_MONTAGGIO",
+   "stato": "IN_CODIFICA",
    "voci": "kore"
   }
  },
@@ -26,10 +26,14 @@
   {
    "quando": "11/11 21:53",
    "testo": "RIPRESA su ordine master: voci vere tutte importate (INTRO1b 19,87 s inclusa), niente segnaposto. In corso: render schede T/Q/R/GL/RF, pezzi docente D0-D10, poi montaggio e codifica CRF 22 veryfast."
+  },
+  {
+   "quando": "11/11 23:00",
+   "testo": "Montaggio completo 73,8 min (lezione intera, parte unica). t_verifica=4373.2 s, t_compiti=4424.0 s (inizio schede statiche; timeline in timeline_P1.json). Codifica 1440p CRF 22 veryfast e sottotitoli in corso in parallelo."
   }
  ],
  "materia": "Psicologia",
  "lezione": "La psicologia: nascita e sviluppi",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-11 21:53:28"
+ "aggiornato": "2026-11-11 23:00:43"
 }
