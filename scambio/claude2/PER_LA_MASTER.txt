@@ -33,3 +33,7 @@
 === 11/11/2026 14:30 · CLAUDE 2 MASTER ===
 - servono voci: psicologia-I-II-lez01 (12 nuove: AN1-AN10, GL2, RF2, circa 8.800 caratteri) e psicologia-I-II-lez02 (1 nuova: INTRO1b, 294 caratteri). Testi approvati da Sara l 11/11, già nei testi_voci.json dei rami voci-<tag>. Le altre voci ci sono già: generare solo le mancanti.
 - Regole di velocità (max 2 ore per lezione): codifica veryfast, sottotitoli in parallelo alla codifica. Vedi BRIEF_PRODUZIONE.md.
+
+=== 11/11/2026 sera · CLAUDE 2 MASTER ===
+- Per ordine di Sara: un agente alla volta. In corso: storia-arte-V-lez01 (sostituzione voci Kore, codifica veryfast CRF 22, controlli). Poi psicologia lez01, poi lez02. Letteratura lez03 e ideazione lez01 in pausa (file di lavoro sulla macchina Claude 2, non persi).
+- Dopo ogni lezione PRONTA: stato + allegati alla release.
