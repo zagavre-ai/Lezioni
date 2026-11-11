@@ -1,0 +1,365 @@
+{
+ "R1": {
+  "dur": 5.5,
+  "phrases": [
+   0.0
+  ],
+  "text": [
+   "Ripassiamo che cos'è la mente e la definizione di psicologia. Guarda lo schema."
+  ]
+ },
+ "S1": {
+  "dur": 44.96,
+  "phrases": [
+   0.0,
+   13.83,
+   22.15,
+   32.71
+  ],
+  "text": [
+   "Che cos'è la mente? La parola psicologia significa letteralmente scienza dell'anima: deriva dai termini greci psiche, l'anima, e logos, cioè discorso, parola, concetto.",
+   "La definizione scientifica: la psicologia è la disciplina che studia il comportamento e i processi mentali dell'essere umano.",
+   "Le attività mentali sono operazioni intuitive come ricordare, ragionare e immaginare: la memoria, il ragionamento e l'immaginazione.",
+   "Mente e corpo: le attività mentali si distinguono nettamente dalle funzioni puramente biologiche del corpo, come la respirazione e la digestione, che sono indagate soprattutto dalla medicina."
+  ]
+ },
+ "R2": {
+  "dur": 6.73,
+  "phrases": [
+   0.0
+  ],
+  "text": [
+   "Ripassiamo le origini della psicologia e il punto di vista dei filosofi. Osserva lo schema prima del quiz."
+  ]
+ },
+ "S2": {
+  "dur": 61.84,
+  "phrases": [
+   0.0,
+   12.4,
+   23.76,
+   35.12,
+   49.28
+  ],
+  "text": [
+   "Le origini: il punto di vista dei filosofi. Nell'antica Grecia, Platone e Aristotele, tra il quinto e il quarto secolo avanti Cristo, sono i primi a interrogarsi sulla psiche e sul suo rapporto con il corpo.",
+   "Era una psicologia non ancora scientifica: mancava un metodo codificato e condiviso. La psicologia scientifica nasce solo tra la fine dell'Ottocento e l'inizio del Novecento.",
+   "Nel milleseicentoquarantuno il filosofo francese Cartesio, nelle sue Meditazioni metafisiche, sostiene l'esistenza di una netta differenza tra mente e corpo: è il dualismo.",
+   "Per Cartesio la mente è una e medesima, un'unità indivisibile, che non perde nulla anche se al corpo viene tolto un arto. Le facoltà come volere, sentire e comprendere sono espressioni della stessa mente unica.",
+   "La mente è il tramite necessario del nostro rapporto con il mondo: la usiamo anche nelle attività più semplici. Quando una malattia ne altera le capacità, la relazione con l'ambiente esterno risulta compromessa."
+  ]
+ },
+ "S3": {
+  "dur": 34.32,
+  "phrases": [
+   0.0,
+   4.15,
+   11.59,
+   19.75,
+   24.63
+  ],
+  "text": [
+   "Schema di ripasso: il cervello e i processi mentali.",
+   "Il cervello è lo strumento biologico della mente: ogni sua area presiede a una specifica attività mentale.",
+   "Nel milleottocentoquarantotto, l'operaio edile Fìnias Ghèig sopravvive a una barra di ferro che gli trapassa il cranio.",
+   "La lesione al cervello cambia radicalmente il suo carattere e la sua personalità.",
+   "Il caso dimostra il legame tra specifiche aree del cervello e le dimensioni affettive, emotive e sociali del comportamento."
+  ]
+ },
+ "S4": {
+  "dur": 31.32,
+  "phrases": [
+   0.0,
+   4.05,
+   15.09,
+   23.81
+  ],
+  "text": [
+   "Schema di ripasso: dalla fisiologia alla psicologia scientifica.",
+   "I fisiologi pongono le basi della psicologia come scienza autonoma: dall'aspetto biologico, l'hardware, a quello mentale, il software.",
+   "Gùstav Fèkner definisce la legge psicofisica fondamentale: una relazione matematica tra l'intensità di uno stimolo e quella della sensazione percepita.",
+   "Franciscus Dònders introduce il metodo dei tempi di reazione, per misurare la durata delle operazioni mentali."
+  ]
+ },
+ "S5": {
+  "dur": 25.47,
+  "phrases": [
+   0.0,
+   3.88,
+   12.68,
+   19.4
+  ],
+  "text": [
+   "Schema di ripasso: Vilhelm Vunt e lo strutturalismo.",
+   "Nel milleottocentosettantanove Vunt inaugura a Lipsia il primo laboratorio di psicologia: la disciplina diventa una scienza autonoma.",
+   "Per lo strutturalismo di Èdward Tìcena, la mente è una struttura formata da un aggregato di elementi più semplici.",
+   "Lo scopo è scomporre l'esperienza cosciente, per individuare le connessioni tra le singole parti."
+  ]
+ },
+ "S6": {
+  "dur": 33.5,
+  "phrases": [
+   0.0,
+   3.85,
+   10.97,
+   20.01,
+   29.61
+  ],
+  "text": [
+   "Schema di ripasso: funzionalismo e Ghestàlt.",
+   "Il funzionalismo di Uìlliam Gèims, nel milleottocentonovanta, si contrappone allo strutturalismo.",
+   "Studia a che cosa servono i processi mentali: la vita mentale è una corrente del pensiero, indispensabile per adattarsi all'ambiente.",
+   "La Ghestàlt di Max Vertàimer, nel millenovecentododici, sostiene che la mente organizza le informazioni in modo globale e strutturato.",
+   "Il tutto è diverso dalla somma delle singole parti."
+  ]
+ },
+ "S7": {
+  "dur": 35.0,
+  "phrases": [
+   0.0,
+   3.66,
+   13.1,
+   19.42,
+   25.26
+  ],
+  "text": [
+   "Schema di ripasso: comportamentismo e cognitivismo.",
+   "Per il comportamentismo di Gion Uòtson, nel millenovecentotredici, la psicologia deve studiare solo ciò che è visibile e osservabile: il comportamento.",
+   "La mente resta fuori dalla ricerca: conta il meccanismo di risposta agli stimoli dell'ambiente.",
+   "Il cognitivismo nasce nella seconda metà del Novecento, in opposizione al comportamentismo.",
+   "La mente è come un computer: riceve input dal mondo esterno, li elabora e restituisce output, cioè comportamenti o risposte."
+  ]
+ },
+ "S8": {
+  "dur": 45.54,
+  "phrases": [
+   0.0,
+   4.1,
+   11.78,
+   19.54,
+   27.38,
+   35.7
+  ],
+  "text": [
+   "Schema di ripasso: Gian Piagè e lo sviluppo della mente.",
+   "Con l'epistemologia genetica, Piagè studia le origini e lo sviluppo delle capacità cognitive nel corso della vita.",
+   "Primo: lo stadio senso-motorio, nei primi due anni, con attività basate su sensi e movimento.",
+   "Secondo: lo stadio pre-operatorio, dai due ai sei anni circa, con il linguaggio e l'uso dei simboli.",
+   "Terzo: lo stadio operatorio-concreto, con il ragionamento logico applicato solo ad azioni e oggetti concreti.",
+   "Quarto: lo stadio operatorio-astratto, nell'adolescenza, dagli undici ai quindici anni, con ipotesi e ragionamenti logici e astratti."
+  ]
+ },
+ "S9": {
+  "dur": 33.97,
+  "phrases": [
+   0.0,
+   3.35,
+   8.63,
+   13.99,
+   18.55,
+   24.15
+  ],
+  "text": [
+   "Schema di ripasso: la psicologia oggi.",
+   "La psicologia cognitiva studia processi mentali come memoria e attenzione.",
+   "La psicologia dello sviluppo studia i cambiamenti psichici nel corso della vita.",
+   "La psicologia clinica studia e tratta i disturbi del comportamento.",
+   "La psicologia sociale studia il modo in cui la mente agisce nelle interazioni sociali.",
+   "Gli ambiti pratici sono il socio-sanitario, la scuola, l'azienda con la selezione del personale, il marketing e la psicologia dello sport."
+  ]
+ },
+ "S10": {
+  "dur": 33.58,
+  "phrases": [
+   0.0,
+   3.65,
+   13.65,
+   20.05,
+   27.97
+  ],
+  "text": [
+   "Schema di ripasso: la psicologia dell'emergenza.",
+   "È una branca nata in ambito militare, che interviene in situazioni straordinarie e traumatiche, come catastrofi naturali, guerre e pandemie.",
+   "Esempi recenti sono la pandemia da Còvid diciannove e la guerra in Europa nel duemilaventidue.",
+   "Descrive i fenomeni causati dalle emergenze ed elabora interventi per le vittime dirette e per i soccorritori sotto forte stress.",
+   "Opera anche in funzione preventiva, analizzando la percezione del rischio delle comunità."
+  ]
+ },
+ "GL1": {
+  "dur": 70.21,
+  "phrases": [
+   0.0,
+   7.77,
+   13.29,
+   20.81,
+   25.69,
+   31.53,
+   37.45,
+   43.37,
+   49.61,
+   54.33,
+   60.49,
+   66.89
+  ],
+  "text": [
+   "Ripassiamo le parole chiave di questa lezione. Ascolta ogni parola e la sua definizione, e prova a ripeterla.",
+   "Substrato biologico: il cervello, strumento biologico della mente.",
+   "Legge psicofisica: la relazione matematica tra l'intensità di uno stimolo fisico e quella della sensazione percepita.",
+   "Tempi di reazione: il metodo per misurare la durata delle operazioni mentali.",
+   "Strutturalismo: la mente come struttura formata da un aggregato di elementi più semplici.",
+   "Funzionalismo: lo studio di a che cosa servono i processi mentali.",
+   "Ghestàlt: la mente organizza le informazioni in modo globale; il tutto è diverso dalla somma delle parti.",
+   "Comportamentismo: la psicologia studia solo ciò che è osservabile, il comportamento.",
+   "Cognitivismo: la mente come elaboratore attivo di informazioni.",
+   "Epistemologia genetica: lo studio delle origini e dello sviluppo delle capacità cognitive.",
+   "Psicologia dell'emergenza: la branca che interviene nelle situazioni straordinarie e traumatiche.",
+   "Ricorda: queste parole le trovi anche nella dispensa."
+  ]
+ },
+ "GLL1": {
+  "dur": 52.98,
+  "phrases": [
+   0.0,
+   2.02,
+   8.26,
+   15.06,
+   22.02,
+   27.78,
+   34.1,
+   41.94,
+   48.02
+  ],
+  "text": [
+   "Le parole chiave della lezione.",
+   "Scienze umane: le discipline che studiano l'essere umano, le sue azioni e la sua mente.",
+   "Scienze della natura: le discipline che studiano la realtà materiale, come la chimica e la biologia.",
+   "Metodo scientifico: casi da analizzare, dati da ricavare ed esperimenti per confermarli.",
+   "Natura multi-causale: le azioni umane non dipendono mai da una sola causa.",
+   "Dimensione storica: comportamenti, valori e tradizioni cambiano nel corso del tempo.",
+   "Psicologia: letteralmente scienza dell'anima; studia il comportamento e i processi mentali dell'essere umano.",
+   "Attività mentali: operazioni come ricordare, ragionare e immaginare.",
+   "Dualismo: per Cartesio, la netta differenza tra mente e corpo."
+  ]
+ },
+ "RF1": {
+  "dur": 62.86,
+  "phrases": [
+   0.0,
+   4.03,
+   12.83,
+   21.95,
+   30.11,
+   39.47,
+   47.87,
+   51.07,
+   58.43
+  ],
+  "text": [
+   "Prima di salutarci, ricapitoliamo insieme quello che hai studiato.",
+   "Il cervello è lo strumento biologico della mente, e il caso di Fìnias Ghèig mostra il suo legame con le emozioni e la personalità.",
+   "I fisiologi, con Fèkner e Dònders, aprono la strada alla psicologia scientifica.",
+   "Nel milleottocentosettantanove Vunt fonda a Lipsia il primo laboratorio di psicologia; con lo strutturalismo la mente si scompone in elementi semplici.",
+   "Il funzionalismo studia a che cosa servono i processi mentali; la Ghestàlt studia la mente come un tutto organizzato.",
+   "Il comportamentismo studia solo il comportamento osservabile; il cognitivismo vede la mente come un computer.",
+   "Piagè descrive quattro stadi dello sviluppo della mente.",
+   "Oggi la psicologia ha molte aree di ricerca e di applicazione, fino alla psicologia dell'emergenza.",
+   "Ottimo lavoro. Prova a ripetere questi passaggi con parole tue."
+  ]
+ },
+ "RFL1": {
+  "dur": 53.6,
+  "phrases": [
+   0.0,
+   2.15,
+   11.03,
+   17.19,
+   25.67,
+   36.07,
+   44.63
+  ],
+  "text": [
+   "Ricapitoliamo la lezione.",
+   "Le scienze umane sono uno strumento per comprendere le esperienze vissute, nostre e degli altri, in una società multiculturale e tecnologica.",
+   "A differenza delle scienze della natura, studiano l'essere umano, ma con lo stesso metodo scientifico.",
+   "Il comportamento ha una natura multi-causale: fattori biologici e di sviluppo, influenza dell'ambiente e dimensione storica.",
+   "Le discipline sono la psicologia, la sociologia, l'antropologia e la metodologia della ricerca. Nel primo biennio si comincia dalla psicologia.",
+   "La psicologia è la scienza dell'anima: studia il comportamento e i processi mentali, che si distinguono dalle funzioni biologiche del corpo.",
+   "Già Platone e Aristotele si interrogarono sulla psiche; nel milleseicentoquarantuno Cartesio distinse nettamente la mente dal corpo."
+  ]
+ },
+ "FIN1": {
+  "dur": 5.27,
+  "phrases": [
+   0.0
+  ],
+  "text": [
+   "Fine della lezione. Grazie per l'attenzione, e alla prossima lezione di Psicologia."
+  ]
+ },
+ "GLX": {
+  "dur": 94.02,
+  "phrases": [
+   0.0,
+   8.2,
+   16.54,
+   23.12,
+   28.58,
+   34.33,
+   42.16,
+   47.34,
+   53.68,
+   60.1,
+   66.29,
+   72.76,
+   77.68,
+   84.12,
+   90.83
+  ],
+  "text": [
+   "Ripassiamo le parole chiave di questa lezione. Ascolta ogni parola e la sua definizione, e prova a ripeterla.",
+   "Psicologia: letteralmente scienza dell'anima; studia il comportamento e i processi mentali dell'essere umano.",
+   "Attività mentali: operazioni come ricordare, ragionare e immaginare.",
+   "Dualismo: per Cartesio, la netta differenza tra mente e corpo.",
+   "Substrato biologico: il cervello, strumento biologico della mente.",
+   "Legge psicofisica: la relazione matematica tra l'intensità di uno stimolo fisico e quella della sensazione percepita.",
+   "Tempi di reazione: il metodo per misurare la durata delle operazioni mentali.",
+   "Strutturalismo: la mente come struttura formata da un aggregato di elementi più semplici.",
+   "Funzionalismo: lo studio di a che cosa servono i processi mentali.",
+   "Ghestàlt: la mente organizza le informazioni in modo globale; il tutto è diverso dalla somma delle parti.",
+   "Comportamentismo: la psicologia studia solo ciò che è osservabile, il comportamento.",
+   "Cognitivismo: la mente come elaboratore attivo di informazioni.",
+   "Epistemologia genetica: lo studio delle origini e dello sviluppo delle capacità cognitive.",
+   "Psicologia dell'emergenza: la branca che interviene nelle situazioni straordinarie e traumatiche.",
+   "Ricorda: queste parole le trovi anche nella dispensa."
+  ]
+ },
+ "RFX": {
+  "dur": 84.57,
+  "phrases": [
+   0.0,
+   4.27,
+   13.16,
+   22.63,
+   31.93,
+   41.55,
+   50.12,
+   59.98,
+   68.88,
+   72.48,
+   80.27
+  ],
+  "text": [
+   "Prima di salutarci, ricapitoliamo insieme quello che hai studiato.",
+   "La psicologia è la scienza dell'anima: studia il comportamento e i processi mentali, che si distinguono dalle funzioni biologiche del corpo.",
+   "Già Platone e Aristotele si interrogarono sulla psiche; nel milleseicentoquarantuno Cartesio distinse nettamente la mente dal corpo.",
+   "Il cervello è lo strumento biologico della mente, e il caso di Fìnias Ghèig mostra il suo legame con le emozioni e la personalità.",
+   "I fisiologi, con Fèkner e Dònders, aprono la strada alla psicologia scientifica.",
+   "Nel milleottocentosettantanove Vunt fonda a Lipsia il primo laboratorio di psicologia; con lo strutturalismo la mente si scompone in elementi semplici.",
+   "Il funzionalismo studia a che cosa servono i processi mentali; la Ghestàlt studia la mente come un tutto organizzato.",
+   "Il comportamentismo studia solo il comportamento osservabile; il cognitivismo vede la mente come un computer.",
+   "Piagè descrive quattro stadi dello sviluppo della mente.",
+   "Oggi la psicologia ha molte aree di ricerca e di applicazione, fino alla psicologia dell'emergenza.",
+   "Ottimo lavoro. Prova a ripetere questi passaggi con parole tue."
+  ]
+ }
+}

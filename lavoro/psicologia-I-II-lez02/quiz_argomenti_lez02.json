@@ -1,0 +1,552 @@
+{
+ "Q1": {
+  "title": "Quiz 1 · Che cos'è la mente",
+  "items": [
+   {
+    "p": "Che cosa significa letteralmente la parola «psicologia»?",
+    "a": "Scienza dell'anima",
+    "w": [
+     "Scienza del cervello",
+     "Studio delle malattie del corpo",
+     "Scienza dei comportamenti sociali"
+    ],
+    "ref": "Definizione di psicologia: letteralmente significa «Scienza dell'anima» (dai termini greci psyché e lógos)."
+   },
+   {
+    "p": "Qual è la definizione scientifica di psicologia?",
+    "a": "La disciplina che studia il comportamento e i processi mentali dell'essere umano",
+    "w": [
+     "La disciplina che studia solo le funzioni biologiche del corpo",
+     "La disciplina che studia esclusivamente le malattie mentali",
+     "La disciplina che studia i fenomeni della natura"
+    ],
+    "ref": "Definizione scientifica: disciplina che studia il comportamento e i processi mentali dell'essere umano."
+   },
+   {
+    "p": "Quale tra queste è un'attività mentale?",
+    "a": "Ricordare",
+    "w": [
+     "Respirare",
+     "Digerire",
+     "Far battere il cuore"
+    ],
+    "ref": "Attività mentali: operazioni intuitive come ricordare, ragionare e immaginare."
+   },
+   {
+    "p": "Quale tra queste attività mentali è citata nel testo?",
+    "a": "Immaginare",
+    "w": [
+     "Digerire",
+     "Respirare",
+     "Camminare"
+    ],
+    "ref": "Attività mentali: operazioni intuitive come ricordare, ragionare e immaginare."
+   },
+   {
+    "p": "Quali sono due esempi di funzioni puramente biologiche del corpo?",
+    "a": "La respirazione e la digestione",
+    "w": [
+     "Il ragionamento e l'immaginazione",
+     "La memoria e il ragionamento",
+     "L'immaginazione e la respirazione"
+    ],
+    "ref": "Le attività mentali si distinguono nettamente dalle funzioni puramente biologiche del corpo (es. respirazione, digestione)."
+   }
+  ]
+ },
+ "Q2": {
+  "title": "Quiz 2 · Le origini: il punto di vista dei filosofi",
+  "items": [
+   {
+    "p": "Chi sono stati i primi a interrogarsi sulla «psiche» e sul suo rapporto con il corpo?",
+    "a": "Platone e Aristotele",
+    "w": [
+     "Cartesio e Wundt",
+     "Fechner e Donders",
+     "Piaget e Watson"
+    ],
+    "ref": "Antica Grecia: Platone e Aristotele (V-IV secolo a.C.) sono i primi a interrogarsi sulla «psiche» e sul suo rapporto con il corpo."
+   },
+   {
+    "p": "In quale anno Cartesio formula il suo dualismo?",
+    "a": "Nel 1641",
+    "w": [
+     "Nel 1879",
+     "Nel 1913",
+     "Nel 1848"
+    ],
+    "ref": "Il dualismo di Cartesio (1641)."
+   },
+   {
+    "p": "Che cosa sostiene il dualismo di Cartesio?",
+    "a": "Esiste una netta differenza tra mente e corpo",
+    "w": [
+     "Mente e corpo sono la stessa cosa",
+     "La mente dipende solo dal cervello",
+     "Il corpo è l'unica realtà esistente"
+    ],
+    "ref": "Il dualismo sostiene l'esistenza di una netta differenza tra mente e corpo."
+   },
+   {
+    "p": "Secondo Cartesio, che cosa accade alla mente se al corpo viene tolto un arto?",
+    "a": "Non perde nulla",
+    "w": [
+     "Perde una parte delle sue facoltà",
+     "Si divide in più parti",
+     "Si indebolisce progressivamente"
+    ],
+    "ref": "La mente è considerata una e medesima, un'unità indivisibile che non perde nulla anche se al corpo viene tolto un arto."
+   },
+   {
+    "p": "Secondo Cartesio, che cosa sono volere, sentire e comprendere?",
+    "a": "Espressioni della stessa mente unica",
+    "w": [
+     "Tre menti distinte",
+     "Funzioni puramente biologiche",
+     "Attività del solo corpo"
+    ],
+    "ref": "Le facoltà come volere, sentire e comprendere sono espressioni della stessa mente unica."
+   }
+  ]
+ },
+ "Q3": {
+  "title": "Quiz 3 · Le funzioni del cervello e i processi mentali",
+  "items": [
+   {
+    "p": "Che cos'è il cervello per la psicologia?",
+    "a": "Lo strumento biologico della mente",
+    "w": [
+     "Un organo senza legami con la mente",
+     "Il luogo della sola attività fisica",
+     "Una funzione della digestione"
+    ],
+    "ref": "Il substrato biologico: il cervello è lo strumento biologico della mente e ogni sua area presiede a una specifica attività mentale."
+   },
+   {
+    "p": "A che cosa presiede ogni area del cervello?",
+    "a": "A una specifica attività mentale",
+    "w": [
+     "A tutte le attività mentali insieme",
+     "Soltanto ai movimenti del corpo",
+     "A nessuna funzione in particolare"
+    ],
+    "ref": "Ogni area del cervello presiede a una specifica attività mentale."
+   },
+   {
+    "p": "Che cosa accadde all'operaio Phineas Gage nel 1848?",
+    "a": "Una barra di ferro gli trapassò il cranio ed egli sopravvisse",
+    "w": [
+     "Perse la memoria per un virus",
+     "Cadde da un'impalcatura e perse l'uso delle gambe",
+     "Fu colpito da un fulmine"
+    ],
+    "ref": "Un operaio edile sopravvive a un grave incidente: una barra di ferro gli trapassa il cranio."
+   },
+   {
+    "p": "Quale fu la conseguenza della lesione di Phineas Gage?",
+    "a": "Un radicale cambiamento del carattere e della personalità",
+    "w": [
+     "La perdita completa della vista",
+     "La perdita del linguaggio",
+     "Nessun cambiamento nel comportamento"
+    ],
+    "ref": "La lesione al cervello provoca un radicale cambiamento del suo carattere e della sua personalità."
+   },
+   {
+    "p": "Che cosa dimostra il caso di Phineas Gage?",
+    "a": "Il legame tra specifiche aree cerebrali e le dimensioni affettive, emotive e sociali del comportamento",
+    "w": [
+     "Che il cervello non incide sul comportamento",
+     "Che la mente è indipendente dal corpo",
+     "Che le emozioni nascono nel cuore"
+    ],
+    "ref": "Importanza scientifica: dimostra il legame diretto tra specifiche aree cerebrali e le dimensioni affettive, emotive e sociali del comportamento."
+   }
+  ]
+ },
+ "Q4": {
+  "title": "Quiz 4 · Dalla fisiologia alla psicologia scientifica",
+  "items": [
+   {
+    "p": "Chi pose le basi della psicologia come scienza autonoma?",
+    "a": "I fisiologi",
+    "w": [
+     "I filosofi dell'antica Grecia",
+     "I sociologi",
+     "Gli informatici"
+    ],
+    "ref": "I primi a porre le basi della psicologia come scienza autonoma furono i fisiologi."
+   },
+   {
+    "p": "Che cosa cambia con i fisiologi nello studio della psicologia?",
+    "a": "L'attenzione passa dall'aspetto biologico (hardware) a quello mentale (software)",
+    "w": [
+     "Si studia solo l'aspetto biologico",
+     "Si abbandona lo studio della mente",
+     "Si passa dal software all'hardware"
+    ],
+    "ref": "I fisiologi spostano l'attenzione dall'aspetto puramente biologico (hardware) a quello mentale (software)."
+   },
+   {
+    "p": "Che cosa definisce Gustav Fechner?",
+    "a": "La legge psicofisica fondamentale",
+    "w": [
+     "Il metodo dei tempi di reazione",
+     "Il primo laboratorio di psicologia",
+     "Il modello del computer"
+    ],
+    "ref": "Gustav Fechner definisce la legge psicofisica fondamentale."
+   },
+   {
+    "p": "Che relazione stabilisce la legge psicofisica?",
+    "a": "Una relazione matematica tra l'intensità di uno stimolo fisico e quella della sensazione percepita",
+    "w": [
+     "Una relazione tra mente e corpo",
+     "Una relazione tra memoria e attenzione",
+     "Una relazione tra stimolo e risposta osservabile"
+    ],
+    "ref": "Stabilisce una relazione matematica tra l'intensità di uno stimolo fisico e quella della sensazione percepita."
+   },
+   {
+    "p": "Che cosa introduce Franciscus Donders?",
+    "a": "Il metodo dei tempi di reazione",
+    "w": [
+     "La legge psicofisica",
+     "Lo strutturalismo",
+     "L'epistemologia genetica"
+    ],
+    "ref": "Franciscus Donders introduce il metodo dei tempi di reazione per misurare la durata delle operazioni mentali necessarie a rispondere a uno stimolo."
+   }
+  ]
+ },
+ "Q5": {
+  "title": "Quiz 5 · Wilhelm Wundt e lo strutturalismo",
+  "items": [
+   {
+    "p": "Che cosa fa Wilhelm Wundt a Lipsia nel 1879?",
+    "a": "Inaugura il primo laboratorio di psicologia",
+    "w": [
+     "Scrive le Meditazioni metafisiche",
+     "Fonda la Gestalt",
+     "Studia il caso di Phineas Gage"
+    ],
+    "ref": "Wilhelm Wundt inaugura a Lipsia nel 1879 il primo laboratorio di psicologia."
+   },
+   {
+    "p": "Con il primo laboratorio, che cosa diventa la psicologia?",
+    "a": "Una scienza autonoma",
+    "w": [
+     "Una branca della filosofia",
+     "Una parte della medicina",
+     "Una disciplina solo pratica"
+    ],
+    "ref": "Il primo laboratorio rende la disciplina una scienza autonoma."
+   },
+   {
+    "p": "Chi è il rappresentante dello strutturalismo citato nel testo?",
+    "a": "Edward Titchener",
+    "w": [
+     "William James",
+     "Max Wertheimer",
+     "John Watson"
+    ],
+    "ref": "Lo strutturalismo (Edward Titchener)."
+   },
+   {
+    "p": "Come considera la mente lo strutturalismo?",
+    "a": "Una struttura formata da un aggregato di elementi più semplici",
+    "w": [
+     "Un flusso continuo di pensiero",
+     "Un computer che elabora informazioni",
+     "Un'unità indivisibile"
+    ],
+    "ref": "Lo strutturalismo considera la mente come una struttura formata da un aggregato di elementi più semplici."
+   },
+   {
+    "p": "Qual è lo scopo dello strutturalismo?",
+    "a": "Scomporre l'esperienza cosciente per individuare le connessioni tra le singole parti",
+    "w": [
+     "Studiare solo il comportamento visibile",
+     "Misurare i tempi di reazione",
+     "Studiare lo sviluppo del bambino"
+    ],
+    "ref": "Lo scopo è scomporre l'esperienza cosciente per individuare le connessioni tra le singole parti."
+   }
+  ]
+ },
+ "Q6": {
+  "title": "Quiz 6 · Funzionalismo e Gestalt",
+  "items": [
+   {
+    "p": "Con quale corrente si contrappone il funzionalismo?",
+    "a": "Lo strutturalismo",
+    "w": [
+     "Il comportamentismo",
+     "Il cognitivismo",
+     "La psicologia clinica"
+    ],
+    "ref": "Il funzionalismo (William James, 1890) si contrappone allo Strutturalismo."
+   },
+   {
+    "p": "Che cosa studia il funzionalismo?",
+    "a": "A che cosa servono i processi mentali, cioè la loro funzione",
+    "w": [
+     "Gli elementi più semplici della mente",
+     "Solo il comportamento osservabile",
+     "Lo sviluppo del linguaggio"
+    ],
+    "ref": "Studia a cosa servono i processi mentali (la loro funzione)."
+   },
+   {
+    "p": "Come descrive la vita mentale il funzionalismo?",
+    "a": "Come un flusso continuo, la «corrente del pensiero»",
+    "w": [
+     "Come una somma di elementi isolati",
+     "Come un insieme di riflessi",
+     "Come un'unità indivisibile"
+    ],
+    "ref": "Descrive la vita mentale come un flusso continuo («corrente del pensiero») indispensabile per l'adattamento all'ambiente."
+   },
+   {
+    "p": "Chi è l'autore della Gestalt e in quale anno?",
+    "a": "Max Wertheimer, nel 1912",
+    "w": [
+     "William James, nel 1890",
+     "John Watson, nel 1913",
+     "Edward Titchener, nel 1879"
+    ],
+    "ref": "La Gestalt: la forma dei dati sensoriali (Max Wertheimer, 1912)."
+   },
+   {
+    "p": "Che cosa sostiene la Gestalt sulla mente?",
+    "a": "Organizza le informazioni in modo globale e strutturato: il tutto è diverso dalla somma delle parti",
+    "w": [
+     "Percepisce solo singoli elementi isolati",
+     "Funziona come un computer",
+     "Non è oggetto di studio scientifico"
+    ],
+    "ref": "La mente non percepisce singoli elementi isolati, ma organizza le informazioni in modo globale e strutturato (il tutto è diverso dalla somma delle singole parti)."
+   }
+  ]
+ },
+ "Q7": {
+  "title": "Quiz 7 · Comportamentismo e cognitivismo",
+  "items": [
+   {
+    "p": "Chi fonda il comportamentismo e in quale anno?",
+    "a": "John Watson, nel 1913",
+    "w": [
+     "Max Wertheimer, nel 1912",
+     "Jean Piaget, nel 1952",
+     "Wilhelm Wundt, nel 1879"
+    ],
+    "ref": "Il comportamentismo (John Watson, 1913)."
+   },
+   {
+    "p": "Che cosa deve studiare la psicologia secondo il comportamentismo?",
+    "a": "Solo ciò che è direttamente visibile e osservabile: il comportamento",
+    "w": [
+     "La mente e la coscienza",
+     "I processi interni del pensiero",
+     "Le strutture della mente"
+    ],
+    "ref": "La psicologia, per essere scientifica, deve studiare solo ciò che è direttamente visibile e osservabile: il comportamento."
+   },
+   {
+    "p": "Che cosa esclude il comportamentismo dalla ricerca?",
+    "a": "La mente",
+    "w": [
+     "Il comportamento",
+     "Gli stimoli ambientali",
+     "Le risposte agli stimoli"
+    ],
+    "ref": "Esclude la mente dalla ricerca e si concentra sul meccanismo di risposta agli stimoli ambientali."
+   },
+   {
+    "p": "Quando nasce il cognitivismo?",
+    "a": "Nella seconda metà del Novecento, in opposizione al comportamentismo",
+    "w": [
+     "Nell'antica Grecia",
+     "Alla fine dell'Ottocento, insieme allo strutturalismo",
+     "Nel 1641, con Cartesio"
+    ],
+    "ref": "Il cognitivismo nasce nella seconda metà del Novecento in opposizione al comportamentismo."
+   },
+   {
+    "p": "A che cosa è paragonata la mente dal cognitivismo?",
+    "a": "A un computer che riceve input, li elabora e restituisce output",
+    "w": [
+     "A una struttura di elementi semplici",
+     "A una corrente di pensiero",
+     "A una scatola nera da non studiare"
+    ],
+    "ref": "La mente riceve input dal mondo esterno, li elabora e restituisce output (comportamenti o risposte)."
+   }
+  ]
+ },
+ "Q8": {
+  "title": "Quiz 8 · Jean Piaget e lo sviluppo della mente",
+  "items": [
+   {
+    "p": "Che cosa studia l'epistemologia genetica di Piaget?",
+    "a": "Le origini e lo sviluppo delle capacità cognitive nel corso della vita",
+    "w": [
+     "Solo le malattie mentali",
+     "I tempi di reazione agli stimoli",
+     "La struttura degli elementi della mente"
+    ],
+    "ref": "Epistemologia genetica: Jean Piaget studia le origini e lo sviluppo delle capacità cognitive umane nel corso della vita."
+   },
+   {
+    "p": "Quanti sono gli stadi dello sviluppo descritti da Piaget?",
+    "a": "Quattro",
+    "w": [
+     "Due",
+     "Tre",
+     "Sei"
+    ],
+    "ref": "I quattro stadi dello sviluppo infantile."
+   },
+   {
+    "p": "Quale stadio comprende i primi due anni di vita?",
+    "a": "Lo stadio senso-motorio",
+    "w": [
+     "Lo stadio pre-operatorio",
+     "Lo stadio operatorio-concreto",
+     "Lo stadio operatorio-astratto"
+    ],
+    "ref": "Stadio senso-motorio (primi due anni): attività basate su sensi e movimento."
+   },
+   {
+    "p": "Che cosa caratterizza lo stadio pre-operatorio?",
+    "a": "Lo sviluppo del linguaggio e l'uso dei simboli",
+    "w": [
+     "L'uso di ragionamenti puramente astratti",
+     "Attività basate solo su sensi e movimento",
+     "Il ragionamento logico sugli oggetti concreti"
+    ],
+    "ref": "Stadio pre-operatorio (dai 2 ai 6 anni circa): sviluppo del linguaggio e uso dei simboli."
+   },
+   {
+    "p": "Che cosa caratterizza lo stadio operatorio-astratto?",
+    "a": "La capacità di formulare ipotesi e sviluppare ragionamenti puramente logici e astratti",
+    "w": [
+     "Attività basate su sensi e movimento",
+     "Lo sviluppo del linguaggio",
+     "Il ragionamento logico applicato solo a oggetti concreti"
+    ],
+    "ref": "Stadio operatorio-astratto (adolescenza, 11-15 anni): capacità di formulare ipotesi e sviluppare ragionamenti puramente logici e astratti."
+   }
+  ]
+ },
+ "Q9": {
+  "title": "Quiz 9 · La psicologia oggi",
+  "items": [
+   {
+    "p": "Quale area di ricerca studia processi mentali come la memoria e l'attenzione?",
+    "a": "La psicologia cognitiva",
+    "w": [
+     "La psicologia clinica",
+     "La psicologia sociale",
+     "La psicologia dello sviluppo"
+    ],
+    "ref": "Psicologia cognitiva: processi mentali come memoria e attenzione."
+   },
+   {
+    "p": "Che cosa studia la psicologia dello sviluppo?",
+    "a": "I cambiamenti psichici nel corso della vita",
+    "w": [
+     "I disturbi del comportamento",
+     "Le interazioni sociali",
+     "La memoria e l'attenzione"
+    ],
+    "ref": "Psicologia dello sviluppo: cambiamenti psichici nel corso della vita."
+   },
+   {
+    "p": "Di che cosa si occupa la psicologia clinica?",
+    "a": "Dello studio e del trattamento dei disturbi del comportamento",
+    "w": [
+     "Dei processi mentali come l'attenzione",
+     "Del modo in cui la mente agisce nelle interazioni sociali",
+     "Dei cambiamenti psichici nel corso della vita"
+    ],
+    "ref": "Psicologia clinica: studio e trattamento dei disturbi del comportamento."
+   },
+   {
+    "p": "Che cosa studia la psicologia sociale?",
+    "a": "Il modo in cui la mente agisce nelle interazioni sociali",
+    "w": [
+     "I disturbi del comportamento",
+     "Lo sviluppo del bambino",
+     "La memoria e l'attenzione"
+    ],
+    "ref": "Psicologia sociale: studio del modo in cui la mente agisce nelle interazioni sociali."
+   },
+   {
+    "p": "Quale tra questi è un ambito di applicazione pratica della psicologia?",
+    "a": "La selezione del personale in azienda",
+    "w": [
+     "La chimica dei materiali",
+     "L'astronomia",
+     "La geometria"
+    ],
+    "ref": "Ambiti di applicazione pratica: contesto socio-sanitario, educativo/scolastico, aziendale (selezione del personale), marketing e psicologia dello sport."
+   }
+  ]
+ },
+ "Q10": {
+  "title": "Quiz 10 · La psicologia dell'emergenza",
+  "items": [
+   {
+    "p": "In quale ambito nasce la psicologia dell'emergenza?",
+    "a": "In ambito militare",
+    "w": [
+     "In ambito scolastico",
+     "In ambito sportivo",
+     "In ambito aziendale"
+    ],
+    "ref": "Definizione: branca nata in ambito militare che interviene in situazioni straordinarie e traumatiche."
+   },
+   {
+    "p": "In quali situazioni interviene la psicologia dell'emergenza?",
+    "a": "Straordinarie e traumatiche, come catastrofi naturali, guerre e pandemie",
+    "w": [
+     "Nella vita quotidiana, senza eventi particolari",
+     "Solo nei casi di malattia fisica",
+     "Soltanto nelle gare sportive"
+    ],
+    "ref": "Interviene in situazioni straordinarie e traumatiche (es. catastrofi naturali, guerre, pandemie) che sconvolgono comunità o individui."
+   },
+   {
+    "p": "Quale esempio storico recente è analizzato?",
+    "a": "La pandemia da Covid-19",
+    "w": [
+     "La caduta dell'Impero romano",
+     "La rivoluzione industriale",
+     "L'invenzione della stampa"
+    ],
+    "ref": "Esempi storici recenti analizzati: l'impatto psicologico globale della pandemia da Covid-19 e lo shock legato alla guerra in Europa nel 2022."
+   },
+   {
+    "p": "A chi sono rivolti gli interventi elaborati dalla psicologia dell'emergenza?",
+    "a": "Alle vittime dirette e ai soccorritori sottoposti a forte stress",
+    "w": [
+     "Solo ai soccorritori",
+     "Solo ai medici",
+     "Solo ai militari"
+    ],
+    "ref": "Elaborare interventi efficaci sia per le vittime dirette (es. chi perde la casa) sia per i soccorritori sottoposti a forte stress."
+   },
+   {
+    "p": "Che cosa significa operare in funzione preventiva?",
+    "a": "Analizzare la percezione del rischio delle comunità",
+    "w": [
+     "Intervenire solo dopo l'emergenza",
+     "Curare i disturbi già manifestati",
+     "Descrivere soltanto i fenomeni passati"
+    ],
+    "ref": "Operare in funzione preventiva analizzando la percezione del rischio delle comunità."
+   }
+  ]
+ }
+}

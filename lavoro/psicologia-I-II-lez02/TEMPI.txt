@@ -1,0 +1,10 @@
+2026-11-11T11:09:13+00:00 INIZIO ripartenza (preparazione ambiente)
+2026-11-11T11:10:15+00:00 INIZIO prepara_lezione (audio B + ASR + PDF)
+2026-11-11T11:22:14+00:00 INIZIO import voci (ASR sulle 17 wav)
+2026-11-11T11:25:28+00:00 INIZIO render schede T/Q/R (dk)
+2026-11-11T11:30:28+00:00 FINE import voci
+2026-11-11T11:30:46+00:00 INIZIO render schemi S1-S10 (po)
+2026-11-11T11:54:14+00:00 FINE prepara (ASR); INIZIO sincronia
+2026-11-11T11:56:35+00:00 FINE sincronia (override manuali su 19 unita'); INIZIO fase A slide
+2026-11-11T11:58:35+00:00 FINE fase A slide; INIZIO comp.sh (docente+slide 1080p)
+2026-11-11T11:58:44+00:00 INIZIO render GL1/RF1

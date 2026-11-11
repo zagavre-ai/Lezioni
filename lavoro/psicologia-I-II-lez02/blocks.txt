@@ -1,0 +1,54 @@
+0 2 p **Definizione di Psicologia**: letteralmente significa "Scienza dell'anima" (dai termini greci psyché e lógos).
+1 2 p **Definizione scientifica**: disciplina che studia il comportamento e i processi mentali dell'essere umano.
+2 2 p **Attività mentali**: operazioni intuitive come ricordare, ragionare e immaginare.
+3 2 p **Mente vs corpo**: le attività mentali si distinguono nettamente dalle funzioni puramente biologiche del corpo (es. respirazione, digestione).
+4 3 p **Antica Grecia**: Platone e Aristotele (V-IV secolo a.C.) sono i primi a interrogarsi sulla "psiche" e sul suo rapporto con il corpo.
+5 3 p **Il dualismo di Cartesio (1641)**:
+6 3 li sostiene l'esistenza di una netta differenza tra mente e corpo
+7 3 li la mente è considerata una e medesima, un'unità indivisibile che non perde nulla anche se al corpo viene tolto un arto
+8 3 li le facoltà come volere, sentire e comprendere sono espressioni della stessa mente unica.
+9 4 p **Il substrato biologico**: il cervello è lo strumento biologico della mente e ogni sua area presiede a una specifica attività mentale.
+10 4 p **Cervello ed emozioni: il caso di Phineas Gage (1848)**:
+11 4 li un operaio edile sopravvive a un grave incidente: una barra di ferro gli trapassa il cranio
+12 4 li la lesione al cervello provoca un radicale cambiamento del suo carattere e della sua personalità.
+13 4 p **Importanza scientifica**: dimostra il legame diretto tra specifiche aree cerebrali e le dimensioni affettive, emotive e sociali del comportamento.
+14 5 p **I precursori**: i primi a porre le basi della psicologia come scienza autonoma furono i fisiologi, spostando l'attenzione dall'aspetto puramente biologico (hardware) a quello mentale (software).
+15 5 p **Gustav Fechner (1801-1887)**: definisce la legge psicofisica fondamentale, stabilendo una relazione matematica tra l'intensità di uno stimolo fisico e quella della sensazione percepita.
+16 5 p **Franciscus Donders (1818-1889)**: introduce il metodo dei tempi di reazione per misurare la durata delle operazioni mentali necessarie a rispondere a uno stimolo.
+17 6 p **Il primo laboratorio**: Wilhelm Wundt inaugura a Lipsia nel 1879 il primo laboratorio di psicologia, rendendo la disciplina una scienza autonoma.
+18 6 p **Lo strutturalismo (Edward Titchener)**:
+19 6 li considera la mente come una struttura formata da un aggregato di elementi più semplici
+20 6 li lo scopo è scomporre l'esperienza cosciente per individuare le connessioni tra le singole parti.
+21 7 p **Il funzionalismo (William James, 1890)**:
+22 7 li si contrappone allo Strutturalismo
+23 7 li studia a cosa servono i processi mentali (la loro funzione), descrivendo la vita mentale come un flusso continuo ("corrente del pensiero") indispensabile per l'adattamento all'ambiente.
+24 7 p **La Gestalt: la forma dei dati sensoriali (Max Wertheimer,** **1912)**:
+25 7 li sostiene che la mente non percepisce singoli elementi isolati, ma organizza le informazioni in modo globale e strutturato (il tutto è diverso dalla somma delle singole parti)
+26 7 li studia i processi percettivi e cognitivi.
+27 8 p **Il comportamentismo (John Watson, 1913)**:
+28 8 li sostiene che la psicologia, per essere scientifica, deve studiare solo ciò che è direttamente visibile e osservabile: il comportamento
+29 8 li esclude la mente dalla ricerca e si concentra sul meccanismo di risposta agli stimoli ambientali.
+30 8 p **Il cognitivismo: la mente come un computer**:
+31 8 li nasce nella seconda metà del Novecento in opposizione al comportamentismo
+32 8 li considera la mente come un elaboratore attivo di informazioni, basandosi sul modello H.I.P. (Human Information Processing)
+33 8 li la mente riceve input dal mondo esterno, li elabora e restituisce output (comportamenti o risposte).
+34 9 p **Epistemologia genetica**: Jean Piaget studia le origini e lo sviluppo delle capacità cognitive umane nel corso della vita.
+35 9 p **I quattro stadi dello sviluppo infantile**:
+36 9 li Stadio senso-motorio (primi due anni): attività basate su sensi e movimento
+37 9 li Stadio pre-operatorio (dai 2 ai 6 anni circa): sviluppo del linguaggio e uso dei simboli
+38 9 li Stadio operatorio-concreto (dagli 11 anni circa): ragionamento logico applicato solo ad azioni e oggetti concreti
+39 9 li Stadio operatorio-astratto (adolescenza, 11-15 anni): capacità di formulare ipotesi e sviluppare ragionamenti puramente logici e astratti.
+40 10 p **Principali aree di ricerca**:
+41 10 li Psicologia cognitiva: processi mentali come memoria e attenzione
+42 10 li Psicologia dello sviluppo: cambiamenti psichici nel corso della vita
+43 10 li Psicologia clinica: studio e trattamento dei disturbi del comportamento
+44 10 li Psicologia sociale: studio del modo in cui la mente agisce nelle interazioni sociali.
+45 10 p **Ambiti di applicazione pratica**:
+46 10 li contesto socio-sanitario, educativo/scolastico, aziendale (selezione del personale), marketing e psicologia dello sport.
+47 11 p **Definizione**: branca nata in ambito militare che interviene in situazioni straordinarie e traumatiche (es. catastrofi naturali, guerre, pandemie) che sconvolgono comunità o individui.
+48 11 p **Esempi storici recenti analizzati**: l'impatto psicologico globale della pandemia da Covid-19 e lo shock legato alla guerra in Europa nel 2022.
+49 11 p **Le funzioni principali**:
+50 11 li descrivere i fenomeni cognitivi, emotivi e relazionali causati dalle emergenze
+51 11 li elaborare interventi efficaci sia per le vittime dirette (es. chi perde la casa) sia per i soccorritori sottoposti a forte stress
+52 11 li operare in funzione preventiva analizzando la percezione del rischio delle comunità.
+{2: "Che cos'è la Mente?", 3: 'Le origini: il punto di vista dei filosofi', 4: 'Le funzioni del cervello e i processi mentali', 5: 'Dalla Fisiologia alla Psicologia scientifica', 6: 'Wilhelm Wundt e lo strutturalismo', 7: 'Le prime scuole di pensiero: funzionalismo e Gestalt', 8: 'Comportamentismo e cognitivismo', 9: 'Jean Piaget e lo sviluppo della Mente', 10: 'La Psicologia oggi: aree di ricerca e ambiti applicativi', 11: 'Un focus moderno: la Psicologia dell’emergenza'}

@@ -1,0 +1,640 @@
+[
+{
+"t": "p",
+"runs": [
+[
+true,
+"Definizione di Psicologia"
+],
+[
+false,
+": letteralmente significa \"Scienza dell'anima\" (dai termini greci psyché e lógos)."
+]
+],
+"pg": 2
+},
+{
+"t": "p",
+"runs": [
+[
+true,
+"Definizione scientifica"
+],
+[
+false,
+": disciplina che studia il comportamento e i processi mentali dell'essere umano."
+]
+],
+"pg": 2
+},
+{
+"t": "p",
+"runs": [
+[
+true,
+"Attività mentali"
+],
+[
+false,
+": operazioni intuitive come ricordare, ragionare e immaginare."
+]
+],
+"pg": 2
+},
+{
+"t": "p",
+"runs": [
+[
+true,
+"Mente vs corpo"
+],
+[
+false,
+": le attività mentali si distinguono nettamente dalle funzioni puramente biologiche del corpo (es. respirazione, digestione)."
+]
+],
+"pg": 2
+},
+{
+"t": "p",
+"runs": [
+[
+true,
+"Antica Grecia"
+],
+[
+false,
+": Platone e Aristotele (V-IV secolo a.C.) sono i primi a interrogarsi sulla \"psiche\" e sul suo rapporto con il corpo."
+]
+],
+"pg": 3
+},
+{
+"t": "p",
+"runs": [
+[
+true,
+"Il dualismo di Cartesio (1641)"
+],
+[
+false,
+":"
+]
+],
+"pg": 3
+},
+{
+"t": "li",
+"runs": [
+[
+false,
+"sostiene l'esistenza di una netta differenza tra mente e corpo"
+]
+],
+"pg": 3
+},
+{
+"t": "li",
+"runs": [
+[
+false,
+"la mente è considerata una e medesima, un'unità indivisibile che non perde nulla anche se al corpo viene tolto un arto"
+]
+],
+"pg": 3
+},
+{
+"t": "li",
+"runs": [
+[
+false,
+"le facoltà come volere, sentire e comprendere sono espressioni della stessa mente unica."
+]
+],
+"pg": 3
+},
+{
+"t": "p",
+"runs": [
+[
+true,
+"Il substrato biologico"
+],
+[
+false,
+": il cervello è lo strumento biologico della mente e ogni sua area presiede a una specifica attività mentale."
+]
+],
+"pg": 4
+},
+{
+"t": "p",
+"runs": [
+[
+true,
+"Cervello ed emozioni: il caso di Phineas Gage (1848)"
+],
+[
+false,
+":"
+]
+],
+"pg": 4
+},
+{
+"t": "li",
+"runs": [
+[
+false,
+"un operaio edile sopravvive a un grave incidente: una barra di ferro gli trapassa il cranio"
+]
+],
+"pg": 4
+},
+{
+"t": "li",
+"runs": [
+[
+false,
+"la lesione al cervello provoca un radicale cambiamento del suo carattere e della sua personalità."
+]
+],
+"pg": 4
+},
+{
+"t": "p",
+"runs": [
+[
+true,
+"Importanza scientifica"
+],
+[
+false,
+": dimostra il legame diretto tra specifiche aree cerebrali e le dimensioni affettive, emotive e sociali del comportamento."
+]
+],
+"pg": 4
+},
+{
+"t": "p",
+"runs": [
+[
+true,
+"I precursori"
+],
+[
+false,
+": i primi a porre le basi della psicologia come scienza autonoma furono i fisiologi, spostando l'attenzione dall'aspetto puramente biologico (hardware) a quello mentale (software)."
+]
+],
+"pg": 5
+},
+{
+"t": "p",
+"runs": [
+[
+true,
+"Gustav Fechner (1801-1887)"
+],
+[
+false,
+": definisce la legge psicofisica fondamentale, stabilendo una relazione matematica tra l'intensità di uno stimolo fisico e quella della sensazione percepita."
+]
+],
+"pg": 5
+},
+{
+"t": "p",
+"runs": [
+[
+true,
+"Franciscus Donders (1818-1889)"
+],
+[
+false,
+": introduce il metodo dei tempi di reazione per misurare la durata delle operazioni mentali necessarie a rispondere a uno stimolo."
+]
+],
+"pg": 5
+},
+{
+"t": "p",
+"runs": [
+[
+true,
+"Il primo laboratorio"
+],
+[
+false,
+": Wilhelm Wundt inaugura a Lipsia nel 1879 il primo laboratorio di psicologia, rendendo la disciplina una scienza autonoma."
+]
+],
+"pg": 6
+},
+{
+"t": "p",
+"runs": [
+[
+true,
+"Lo strutturalismo (Edward Titchener)"
+],
+[
+false,
+":"
+]
+],
+"pg": 6
+},
+{
+"t": "li",
+"runs": [
+[
+false,
+"considera la mente come una struttura formata da un aggregato di elementi più semplici"
+]
+],
+"pg": 6
+},
+{
+"t": "li",
+"runs": [
+[
+false,
+"lo scopo è scomporre l'esperienza cosciente per individuare le connessioni tra le singole parti."
+]
+],
+"pg": 6
+},
+{
+"t": "p",
+"runs": [
+[
+true,
+"Il funzionalismo (William James, 1890)"
+],
+[
+false,
+":"
+]
+],
+"pg": 7
+},
+{
+"t": "li",
+"runs": [
+[
+false,
+"si contrappone allo Strutturalismo"
+]
+],
+"pg": 7
+},
+{
+"t": "li",
+"runs": [
+[
+false,
+"studia a cosa servono i processi mentali (la loro funzione), descrivendo la vita mentale come un flusso continuo (\"corrente del pensiero\") indispensabile per l'adattamento all'ambiente."
+]
+],
+"pg": 7
+},
+{
+"t": "p",
+"runs": [
+[
+true,
+"La Gestalt: la forma dei dati sensoriali (Max Wertheimer,"
+],
+[
+false,
+" "
+],
+[
+true,
+"1912)"
+],
+[
+false,
+":"
+]
+],
+"pg": 7
+},
+{
+"t": "li",
+"runs": [
+[
+false,
+"sostiene che la mente non percepisce singoli elementi isolati, ma organizza le informazioni in modo globale e strutturato (il tutto è diverso dalla somma delle singole parti)"
+]
+],
+"pg": 7
+},
+{
+"t": "li",
+"runs": [
+[
+false,
+"studia i processi percettivi e cognitivi."
+]
+],
+"pg": 7
+},
+{
+"t": "p",
+"runs": [
+[
+true,
+"Il comportamentismo (John Watson, 1913)"
+],
+[
+false,
+":"
+]
+],
+"pg": 8
+},
+{
+"t": "li",
+"runs": [
+[
+false,
+"sostiene che la psicologia, per essere scientifica, deve studiare solo ciò che è direttamente visibile e osservabile: il comportamento"
+]
+],
+"pg": 8
+},
+{
+"t": "li",
+"runs": [
+[
+false,
+"esclude la mente dalla ricerca e si concentra sul meccanismo di risposta agli stimoli ambientali."
+]
+],
+"pg": 8
+},
+{
+"t": "p",
+"runs": [
+[
+true,
+"Il cognitivismo: la mente come un computer"
+],
+[
+false,
+":"
+]
+],
+"pg": 8
+},
+{
+"t": "li",
+"runs": [
+[
+false,
+"nasce nella seconda metà del Novecento in opposizione al comportamentismo"
+]
+],
+"pg": 8
+},
+{
+"t": "li",
+"runs": [
+[
+false,
+"considera la mente come un elaboratore attivo di informazioni, basandosi sul modello H.I.P. (Human Information Processing)"
+]
+],
+"pg": 8
+},
+{
+"t": "li",
+"runs": [
+[
+false,
+"la mente riceve input dal mondo esterno, li elabora e restituisce output (comportamenti o risposte)."
+]
+],
+"pg": 8
+},
+{
+"t": "p",
+"runs": [
+[
+true,
+"Epistemologia genetica"
+],
+[
+false,
+": Jean Piaget studia le origini e lo sviluppo delle capacità cognitive umane nel corso della vita."
+]
+],
+"pg": 9
+},
+{
+"t": "p",
+"runs": [
+[
+true,
+"I quattro stadi dello sviluppo infantile"
+],
+[
+false,
+":"
+]
+],
+"pg": 9
+},
+{
+"t": "li",
+"runs": [
+[
+false,
+"Stadio senso-motorio (primi due anni): attività basate su sensi e movimento"
+]
+],
+"pg": 9
+},
+{
+"t": "li",
+"runs": [
+[
+false,
+"Stadio pre-operatorio (dai 2 ai 6 anni circa): sviluppo del linguaggio e uso dei simboli"
+]
+],
+"pg": 9
+},
+{
+"t": "li",
+"runs": [
+[
+false,
+"Stadio operatorio-concreto (dagli 11 anni circa): ragionamento logico applicato solo ad azioni e oggetti concreti"
+]
+],
+"pg": 9
+},
+{
+"t": "li",
+"runs": [
+[
+false,
+"Stadio operatorio-astratto (adolescenza, 11-15 anni): capacità di formulare ipotesi e sviluppare ragionamenti puramente logici e astratti."
+]
+],
+"pg": 9
+},
+{
+"t": "p",
+"runs": [
+[
+true,
+"Principali aree di ricerca"
+],
+[
+false,
+":"
+]
+],
+"pg": 10
+},
+{
+"t": "li",
+"runs": [
+[
+false,
+"Psicologia cognitiva: processi mentali come memoria e attenzione"
+]
+],
+"pg": 10
+},
+{
+"t": "li",
+"runs": [
+[
+false,
+"Psicologia dello sviluppo: cambiamenti psichici nel corso della vita"
+]
+],
+"pg": 10
+},
+{
+"t": "li",
+"runs": [
+[
+false,
+"Psicologia clinica: studio e trattamento dei disturbi del comportamento"
+]
+],
+"pg": 10
+},
+{
+"t": "li",
+"runs": [
+[
+false,
+"Psicologia sociale: studio del modo in cui la mente agisce nelle interazioni sociali."
+]
+],
+"pg": 10
+},
+{
+"t": "p",
+"runs": [
+[
+true,
+"Ambiti di applicazione pratica"
+],
+[
+false,
+":"
+]
+],
+"pg": 10
+},
+{
+"t": "li",
+"runs": [
+[
+false,
+"contesto socio-sanitario, educativo/scolastico, aziendale (selezione del personale), marketing e psicologia dello sport."
+]
+],
+"pg": 10
+},
+{
+"t": "p",
+"runs": [
+[
+true,
+"Definizione"
+],
+[
+false,
+": branca nata in ambito militare che interviene in situazioni straordinarie e traumatiche (es. catastrofi naturali, guerre, pandemie) che sconvolgono comunità o individui."
+]
+],
+"pg": 11
+},
+{
+"t": "p",
+"runs": [
+[
+true,
+"Esempi storici recenti analizzati"
+],
+[
+false,
+": l'impatto psicologico globale della pandemia da Covid-19 e lo shock legato alla guerra in Europa nel 2022."
+]
+],
+"pg": 11
+},
+{
+"t": "p",
+"runs": [
+[
+true,
+"Le funzioni principali"
+],
+[
+false,
+":"
+]
+],
+"pg": 11
+},
+{
+"t": "li",
+"runs": [
+[
+false,
+"descrivere i fenomeni cognitivi, emotivi e relazionali causati dalle emergenze"
+]
+],
+"pg": 11
+},
+{
+"t": "li",
+"runs": [
+[
+false,
+"elaborare interventi efficaci sia per le vittime dirette (es. chi perde la casa) sia per i soccorritori sottoposti a forte stress"
+]
+],
+"pg": 11
+},
+{
+"t": "li",
+"runs": [
+[
+false,
+"operare in funzione preventiva analizzando la percezione del rischio delle comunità."
+]
+],
+"pg": 11
+}
+]

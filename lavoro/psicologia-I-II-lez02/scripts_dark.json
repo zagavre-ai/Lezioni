@@ -1,0 +1,269 @@
+{
+ "T1": {
+  "type": "title",
+  "num": "01",
+  "total": 10,
+  "lines": [
+   "Che cos'è",
+   "la mente"
+  ],
+  "ex": "psicologia · attività mentali · mente e corpo",
+  "fs": 128,
+  "dur": 3.6,
+  "lineY": 720
+ },
+ "Q1": {
+  "type": "quiz",
+  "topic": "Che cos'è la mente",
+  "act": "Quiz 1",
+  "pts": "5 domande · per continuare almeno l’80%",
+  "dur": 4.0
+ },
+ "T2": {
+  "type": "title",
+  "num": "02",
+  "total": 10,
+  "lines": [
+   "Le origini:",
+   "i filosofi"
+  ],
+  "ex": "Platone · Aristotele · Cartesio",
+  "fs": 128,
+  "dur": 3.6,
+  "lineY": 720
+ },
+ "Q2": {
+  "type": "quiz",
+  "topic": "Le origini: i filosofi",
+  "act": "Quiz 2",
+  "pts": "5 domande · per continuare almeno l’80%",
+  "dur": 4.0
+ },
+ "T3": {
+  "type": "title",
+  "num": "03",
+  "total": 10,
+  "lines": [
+   "Il cervello e",
+   "i processi mentali"
+  ],
+  "ex": "substrato biologico · Phineas Gage",
+  "fs": 108,
+  "dur": 3.6,
+  "lineY": 720
+ },
+ "Q3": {
+  "type": "quiz",
+  "topic": "Il cervello e i processi mentali",
+  "act": "Quiz 3",
+  "pts": "5 domande · per continuare almeno l’80%",
+  "dur": 4.0
+ },
+ "T4": {
+  "type": "title",
+  "num": "04",
+  "total": 10,
+  "lines": [
+   "Dalla fisiologia",
+   "alla psicologia scientifica"
+  ],
+  "ex": "Fechner · Donders · tempi di reazione",
+  "fs": 92,
+  "dur": 3.6,
+  "lineY": 720
+ },
+ "Q4": {
+  "type": "quiz",
+  "topic": "Dalla fisiologia alla psicologia scientifica",
+  "act": "Quiz 4",
+  "pts": "5 domande · per continuare almeno l’80%",
+  "dur": 4.0
+ },
+ "T5": {
+  "type": "title",
+  "num": "05",
+  "total": 10,
+  "lines": [
+   "Wilhelm Wundt",
+   "e lo strutturalismo"
+  ],
+  "ex": "laboratorio di Lipsia · Titchener",
+  "fs": 108,
+  "dur": 3.6,
+  "lineY": 720
+ },
+ "Q5": {
+  "type": "quiz",
+  "topic": "Wilhelm Wundt e lo strutturalismo",
+  "act": "Quiz 5",
+  "pts": "5 domande · per continuare almeno l’80%",
+  "dur": 4.0
+ },
+ "T6": {
+  "type": "title",
+  "num": "06",
+  "total": 10,
+  "lines": [
+   "Funzionalismo",
+   "e Gestalt"
+  ],
+  "ex": "James · corrente del pensiero · Wertheimer",
+  "fs": 128,
+  "dur": 3.6,
+  "lineY": 720
+ },
+ "Q6": {
+  "type": "quiz",
+  "topic": "Funzionalismo e Gestalt",
+  "act": "Quiz 6",
+  "pts": "5 domande · per continuare almeno l’80%",
+  "dur": 4.0
+ },
+ "T7": {
+  "type": "title",
+  "num": "07",
+  "total": 10,
+  "lines": [
+   "Comportamentismo",
+   "e cognitivismo"
+  ],
+  "ex": "Watson · stimolo e risposta · mente e computer",
+  "fs": 128,
+  "dur": 3.6,
+  "lineY": 720
+ },
+ "Q7": {
+  "type": "quiz",
+  "topic": "Comportamentismo e cognitivismo",
+  "act": "Quiz 7",
+  "pts": "5 domande · per continuare almeno l’80%",
+  "dur": 4.0
+ },
+ "T8": {
+  "type": "title",
+  "num": "08",
+  "total": 10,
+  "lines": [
+   "Jean Piaget e lo",
+   "sviluppo della mente"
+  ],
+  "ex": "epistemologia genetica · quattro stadi",
+  "fs": 108,
+  "dur": 3.6,
+  "lineY": 720
+ },
+ "Q8": {
+  "type": "quiz",
+  "topic": "Jean Piaget e lo sviluppo della mente",
+  "act": "Quiz 8",
+  "pts": "5 domande · per continuare almeno l’80%",
+  "dur": 4.0
+ },
+ "T9": {
+  "type": "title",
+  "num": "09",
+  "total": 10,
+  "lines": [
+   "La psicologia",
+   "oggi"
+  ],
+  "ex": "aree di ricerca · ambiti applicativi",
+  "fs": 128,
+  "dur": 3.6,
+  "lineY": 720
+ },
+ "Q9": {
+  "type": "quiz",
+  "topic": "La psicologia oggi",
+  "act": "Quiz 9",
+  "pts": "5 domande · per continuare almeno l’80%",
+  "dur": 4.0
+ },
+ "T10": {
+  "type": "title",
+  "num": "10",
+  "total": 10,
+  "lines": [
+   "La psicologia",
+   "dell'emergenza"
+  ],
+  "ex": "situazioni straordinarie · prevenzione",
+  "fs": 128,
+  "dur": 3.6,
+  "lineY": 720
+ },
+ "Q10": {
+  "type": "quiz",
+  "topic": "La psicologia dell'emergenza",
+  "act": "Quiz 10",
+  "pts": "5 domande · per continuare almeno l’80%",
+  "dur": 4.0
+ },
+ "R1": {
+  "type": "repaso",
+  "kicker": "Schema di ripasso",
+  "topic": "Che cos'è la mente",
+  "caps": [
+   [
+    0.9,
+    4.89,
+    "Ripassiamo che cos'è la mente e la definizione di psicologia."
+   ],
+   [
+    4.89,
+    6.0,
+    "Guarda lo schema."
+   ]
+  ],
+  "dur": 7.3
+ },
+ "R2": {
+  "type": "repaso",
+  "kicker": "Schema di ripasso",
+  "topic": "Le origini: i filosofi",
+  "caps": [
+   [
+    0.9,
+    5.24,
+    "Ripassiamo le origini della psicologia e il punto di vista dei filosofi."
+   ],
+   [
+    5.24,
+    7.23,
+    "Osserva lo schema prima del quiz."
+   ]
+  ],
+  "dur": 8.53
+ },
+ "FIN1": {
+  "type": "final",
+  "kicker": "Psicologia",
+  "t1": "FINE",
+  "t2": "",
+  "items": [
+   [
+    "La mente e le origini",
+    ""
+   ],
+   [
+    "Cervello e fisiologia",
+    ""
+   ],
+   [
+    "Wundt, funzionalismo e Gestalt",
+    ""
+   ],
+   [
+    "Comportamentismo, cognitivismo e Piaget",
+    ""
+   ],
+   [
+    "La psicologia oggi e dell'emergenza",
+    ""
+   ]
+  ],
+  "n0": 1,
+  "sub": "Fine della lezione. Grazie per l'attenzione, e alla prossima lezione di Psicologia.",
+  "dur": 8.0
+ }
+}

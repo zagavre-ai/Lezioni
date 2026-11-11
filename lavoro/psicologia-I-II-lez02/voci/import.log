@@ -1,0 +1,60 @@
+R1 durata 5.5 frasi trovate 1 / 1 parole diverse 0
+S1 durata 44.96 frasi trovate 4 / 4 parole diverse 0
+   ('insert', [], ['progetti'])
+R2 durata 6.73 frasi trovate 1 / 1 parole diverse 1
+   ('replace', ['ripassiamo'], ['ripassi'])
+S2 durata 61.84 frasi trovate 5 / 5 parole diverse 5
+   ('replace', ['quinto'], ['v'])
+   ('replace', ['quarto'], ['iv'])
+   ('replace', ['avanti', 'cristo'], ['ac'])
+   ('replace', ['milleseicentoquarantuno'], ['1641'])
+S3 durata 34.32 frasi trovate 5 / 5 parole diverse 3
+   ('replace', ['milleottocentoquarantotto'], ['1848'])
+   ('replace', ['fìnias', 'ghèig'], ['phineas', 'gage'])
+S4 durata 31.32 frasi trovate 4 / 4 parole diverse 3
+   ('replace', ['gùstav', 'fèkner'], ['gustav', 'fekner'])
+   ('replace', ['dònders'], ['donders'])
+S5 durata 25.47 frasi trovate 4 / 4 parole diverse 6
+   ('replace', ['vilhelm', 'vunt'], ['wilhelm', 'wundt'])
+   ('replace', ['milleottocentosettantanove', 'vunt'], ['1879', 'wund'])
+   ('replace', ['èdward', 'tìcena'], ['edward', 'tichena'])
+S6 durata 33.5 frasi trovate 5 / 5 parole diverse 7
+   ('replace', ['ghestàlt'], ['gestalt'])
+   ('replace', ['uìlliam', 'gèims'], ['william', 'james'])
+   ('replace', ['milleottocentonovanta'], ['1890'])
+   ('replace', ['ghestàlt'], ['gestalt'])
+   ('replace', ['vertàimer'], ['wertheimer'])
+   ('replace', ['millenovecentododici'], ['1912'])
+S7 durata 35.0 frasi trovate 5 / 5 parole diverse 3
+   ('replace', ['gion', 'uòtson'], ['john', 'watson'])
+   ('replace', ['millenovecentotredici'], ['1913'])
+S8 durata 45.54 frasi trovate 6 / 6 parole diverse 9
+   ('replace', ['piagè'], ['piaget'])
+   ('replace', ['piagè'], ['piaget'])
+   ('replace', ['sensomotorio'], ['senso', 'motorio'])
+   ('replace', ['operatorioconcreto'], ['operatorio', 'concreto'])
+   ('replace', ['operatorioastratto', 'nelladolescenza', 'dagli', 'undici'], ['operatorio', 'astratto', 'dli', '11'])
+   ('replace', ['quindici'], ['15'])
+S9 durata 33.97 frasi trovate 6 / 6 parole diverse 1
+   ('insert', [], ['sociale'])
+   ('replace', ['sociosanitario'], ['socio', 'sanitario'])
+S10 durata 33.58 frasi trovate 5 / 5 parole diverse 3
+   ('replace', ['còvid', 'diciannove'], ['covid19'])
+   ('replace', ['duemilaventidue'], ['2022'])
+GL1 durata 70.21 frasi trovate 12 / 12 parole diverse 1
+   ('insert', [], ['personale'])
+   ('replace', ['ghestàlt'], ['gestalt'])
+GLL1 durata 52.98 frasi trovate 9 / 9 parole diverse 0
+RF1 durata 62.86 frasi trovate 9 / 9 parole diverse 9
+   ('replace', ['fìnias', 'ghèig'], ['phineas', 'gage'])
+   ('replace', ['fèkner'], ['feckner'])
+   ('replace', ['dònders'], ['donders'])
+   ('replace', ['nel', 'milleottocentosettantanove', 'vunt'], ['1879', 'wundt'])
+   ('replace', ['ghestàlt'], ['gestalt'])
+   ('insert', [], ['il', 'componente'])
+   ('replace', ['piagè'], ['piaget'])
+RFL1 durata 53.6 frasi trovate 7 / 7 parole diverse 1
+   ('replace', ['milleseicentoquarantuno'], ['1641'])
+FIN1 durata 5.27 frasi trovate 1 / 1 parole diverse 2
+   ('delete', ['per'], [])
+   ('replace', ['psicologia'], ['psologia'])
