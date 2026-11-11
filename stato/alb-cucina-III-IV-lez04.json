@@ -3,11 +3,11 @@
  "parti": {
   "1": {
    "titolo": "Gastronomia internazionale 1",
-   "stato": "DA_FARE",
+   "stato": "IN_MONTAGGIO",
    "voci": "segnaposto"
   }
  },
- "manca": "Parte unica, circa 52 min stimati. Fatti: testo, sincronia slide, quiz, testi delle voci. Mancano: grafiche, montaggio, voci Kore, chiusura nuova, codifica. Ore stimate: 5 h.",
+ "manca": "Parte unica montata (50:41). Mancano: voci Kore (testi approvati, sul ramo voci-alb-cucina-III-IV-lez04), codifica 1440p. Ore: 2 dopo le voci.",
  "serve_master": [
   {
    "quando": "10/11 20:43",
@@ -27,9 +27,13 @@
   {
    "quando": "10/11 20:43",
    "testo": "Chiusura nuova inserita nel montaggio (FIN → Verifica finale 5 s → sigla finale → intro Compiti 3,5 s con jingle → Compiti 5 s). Test finale tolto dal montaggio. Montaggio con voci provvisorie senza codifica: la codifica a 1440p si fa una volta sola, quando arrivano le voci Kore."
+  },
+  {
+   "quando": "11/11 13:16",
+   "testo": "Parte unica montata 50:41 con la chiusura nuova, schede Quiz e approfondimenti (voci provvisorie, non codificata): t_verifica=3016.5 s, t_compiti=3034.8 s; scatto Quiz 0,0 s su 8 Quiz."
   }
  ],
  "materia": "Laboratori dei servizi enogastronomici – settore cucina",
  "lezione": "Gastronomia internazionale 1",
- "aggiornato": "2026-11-11 11:16:49"
+ "aggiornato": "2026-11-11 13:16:43"
 }
