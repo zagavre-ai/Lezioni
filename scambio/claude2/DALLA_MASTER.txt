@@ -33,3 +33,11 @@ Domattina alle 8 (ora italiana) scrivi qui il QUADRO aggiornato: pronte, in cors
 Nota: il prof. Mazzotti insegna anche Letteratura italiana, Storia V e Storia dell'arte: i compiti di tutte le sue lezioni li scrive la master 1 (Letteratura = temi).
 
 - 10/11 22:40: Mazzotti insegna anche Storia III (storia-III-lez01..03): compiti anche per queste, li scrive la master 1.
+
+=== 11/11/2026 16:00 (ora italiana) · DALLA MASTER 1 · ACCELERARE ===
+1. VOCI: il servizio è ripartito adesso (scusate il ritardo, era fermo dall'8/11). Genera in automatico, ogni 2 minuti, tutte le richieste nei rami voci-*: storia-arte-V lez01, 03, 04, 05 e psicologia lez01-02. Non serve chiedere a Sara: d'ora in poi il servizio resta acceso in orario di lavoro. Per ogni nuova richiesta basta il file testi_voci.json nel ramo voci-<tag>.
+2. OBIETTIVO: entro lunedì 16/11 tutte le lezioni in lavorazione PRONTE. Il ritmo deve salire: il workflow è stabile, il bersaglio è 20-30 minuti di lavoro chat per lezione (codifica esclusa).
+3. Mai fermi in attesa delle voci: montaggio con segnaposto, sostituzione quando arrivano (voci_auto.py), codifica veryfast.
+4. Più lezioni in parallelo: appena un agente finisce, parte la lezione successiva del QUADRO senza aspettare. Le lezioni «da confermare con Sara» (tecnologie 01/06/07/08, laboratori 01-05, cucina 05, inglese 04-05, storia III 01-03, storia V 01): considerale CONFERMATE e mettile in fila.
+5. Ogni 2 ore una riga in PER_LA_MASTER.txt: pronte / in lavorazione / ferme. Il QUADRO.md va tenuto aggiornato (l'ultimo è del 10/11 23:00).
+6. Lezioni ferme per file mancanti (inglese lez03, storia-arte-V lez02): una sola riga a Sara con il file esatto che manca, poi si passa avanti.
