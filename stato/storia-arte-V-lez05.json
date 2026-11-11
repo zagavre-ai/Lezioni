@@ -9,9 +9,14 @@
  "manca": "quiz e testi voci inviati a Sara; da fare: pagine, sincronia, slide, montaggio",
  "serve_master": [],
  "domande_sara": [],
- "note": [],
+ "note": [
+  {
+   "quando": "11/11 11:16",
+   "testo": "quiz e testi voci approvati da Sara (11/11)"
+  }
+ ],
  "materia": "Storia dell'Arte V",
  "lezione": "Oltre l'Impressionismo",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-10 21:22:11"
+ "aggiornato": "2026-11-11 11:16:28"
 }
