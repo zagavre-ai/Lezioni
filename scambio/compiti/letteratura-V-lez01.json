@@ -1,0 +1,106 @@
+{
+ "tag": "letteratura-V-lez01",
+ "titolo": "L'età del Naturalismo e del Decadentismo",
+ "approvato_da_Sara": "11/11/2026",
+ "impronta": "sha256('compiti|'+tag+'|'+id+'|'+risposta.trim().toLowerCase()); 'ordina' = elementi in ordine giusto uniti da '|'",
+ "A_esercizi_chiusi": [
+  {
+   "id": "A1",
+   "tipo": "vf",
+   "testo": "Il Regno d'Italia nasce ufficialmente il 17 marzo 1861.",
+   "opzioni": [
+    "V",
+    "F"
+   ],
+   "soluzione_sha256": "f51f2cb5de6ca88455257d717f6e24c870baccf06c95e9616a103a8cc1235fca"
+  },
+  {
+   "id": "A2",
+   "tipo": "vf",
+   "testo": "Con la Sinistra storica di Depretis nasce il «trasformismo» parlamentare.",
+   "opzioni": [
+    "V",
+    "F"
+   ],
+   "soluzione_sha256": "64de8b1bf05156f1b1ea006cc62c13566f8c07b32dafe7a0cda41f9feda014ee"
+  },
+  {
+   "id": "A3",
+   "tipo": "vf",
+   "testo": "Nel 1861 l'analfabetismo in Italia è inferiore al 30%.",
+   "opzioni": [
+    "V",
+    "F"
+   ],
+   "soluzione_sha256": "60cd90170b564a08ee08d6d9dcaefa8e32fd924c3e4dcc1eb8dbaf6fd9cb0d3b"
+  },
+  {
+   "id": "A4",
+   "tipo": "vf",
+   "testo": "Baudelaire pubblica «I fiori del male» nel 1857 e subisce un processo per immoralità.",
+   "opzioni": [
+    "V",
+    "F"
+   ],
+   "soluzione_sha256": "31bd82e5ff5bb56b7fb2921356f63e20b0d0b316ba67d863c8d7239f4f0808d3"
+  },
+  {
+   "id": "A5",
+   "tipo": "collega",
+   "testo": "Entusiasmo per il progresso",
+   "opzioni": [
+    "Carducci",
+    "D'Annunzio e il Decadentismo",
+    "Verga e il Verismo"
+   ],
+   "soluzione_sha256": "253d89523fceabd5714a7924c6fd815f3c12f5f3a5bababb909cf332b64329a0"
+  },
+  {
+   "id": "A6",
+   "tipo": "collega",
+   "testo": "Rifiuto estetizzante",
+   "opzioni": [
+    "Carducci",
+    "D'Annunzio e il Decadentismo",
+    "Verga e il Verismo"
+   ],
+   "soluzione_sha256": "1dee2e6feaa70cd577d8a3e56043e31c92635aadb2c3fae73afdde474bf4f599"
+  },
+  {
+   "id": "A7",
+   "tipo": "collega",
+   "testo": "Osservazione distaccata della realtà",
+   "opzioni": [
+    "Carducci",
+    "D'Annunzio e il Decadentismo",
+    "Verga e il Verismo"
+   ],
+   "soluzione_sha256": "1c4f8532abaf4658686181669f8f4669231320a0b2f8c07a95ee55c40f23a2eb"
+  },
+  {
+   "id": "A8",
+   "tipo": "completa",
+   "testo": "Le leggi Casati (1859) e ___ (1877) introducono l'obbligo scolastico.",
+   "soluzione_sha256": "046ac8f0a0b718727560b3d2e0e9febb3923dbca6068bcd7db34f7b0593bed1a"
+  }
+ ],
+ "B_domande_aperte": [],
+ "C_elaborato": {
+  "id": "C",
+  "testo": "Tema: scegli UNA delle due tracce. Circa 3–4 colonne di foglio protocollo, scritto a mano.",
+  "tracce": [
+   {
+    "id": "C1",
+    "tipologia": "A · Analisi e interpretazione di un testo",
+    "testo": "Leggi «L'albatro» di Baudelaire (dall'antologia o dal testo fornito dal docente). 1. Riassumi la situazione descritta nella poesia in 5–6 righe. 2. Che cosa rappresenta l'albatro? Spiega l'allegoria: perché è «maestoso» in volo e «goffo» sulla nave? 3. Individua due immagini o parole che mostrano la derisione dei marinai. 4. Interpretazione: collega la poesia alla condizione dell'intellettuale di fine Ottocento descritta nella lezione (la fine del mecenatismo, gli scrittori che lavorano per il mercato). Secondo te, oggi esiste ancora un «albatro», cioè una persona di talento che la società non capisce? Argomenta con esempi."
+   },
+   {
+    "id": "C2",
+    "tipologia": "B · Testo argomentativo",
+    "testo": "«Fare gli italiani»: la lingua che ci unisce. Nel 1861 la maggioranza degli italiani parlava solo il dialetto. La lingua comune si diffonde grazie alla scuola obbligatoria, alla leva militare, alle migrazioni interne e ai giornali. Spiega questo processo con le informazioni della lezione. Poi rifletti: quali sono oggi i fattori che cambiano la nostra lingua (televisione, internet, social, inglese)? Sono una ricchezza o un pericolo? Sostieni la tua tesi con almeno due argomenti e considera anche la tesi contraria."
+   }
+  ],
+  "criteri_docente_decimi": "Aderenza alla traccia e uso delle conoscenze della lezione 3 · organizzazione del testo 2 · correttezza linguistica 3 · capacità critica e rielaborazione personale 2",
+  "consegna": "su carta, foto nel quaderno dei compiti"
+ }
+}

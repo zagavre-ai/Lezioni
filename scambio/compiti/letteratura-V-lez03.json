@@ -1,0 +1,85 @@
+{
+ "tag": "letteratura-V-lez03",
+ "titolo": "Giosuè Carducci",
+ "approvato_da_Sara": "11/11/2026",
+ "impronta": "sha256('compiti|'+tag+'|'+id+'|'+risposta.trim().toLowerCase()); 'ordina' = elementi in ordine giusto uniti da '|'",
+ "A_esercizi_chiusi": [
+  {
+   "id": "A1",
+   "tipo": "vf",
+   "testo": "Carducci insegna Letteratura italiana all'Università di Bologna per circa quarant'anni.",
+   "opzioni": [
+    "V",
+    "F"
+   ],
+   "soluzione_sha256": "4d49213a34f242dfd1c045833bfe0b9702126ee4ccb313bee16a7d822f8b3a5f"
+  },
+  {
+   "id": "A2",
+   "tipo": "vf",
+   "testo": "Da giovane Carducci è monarchico, poi diventa repubblicano.",
+   "opzioni": [
+    "V",
+    "F"
+   ],
+   "soluzione_sha256": "9bd893200ded69362c7658c5b5a182a20948637991c3caec8eee4137202eec92"
+  },
+  {
+   "id": "A3",
+   "tipo": "vf",
+   "testo": "Carducci riceve il premio Nobel per la Letteratura nel 1906.",
+   "opzioni": [
+    "V",
+    "F"
+   ],
+   "soluzione_sha256": "3834b1aa61422908d8c8e0ce5e59d545cc622ba4f9bc84d9af60335e2e0fea33"
+  },
+  {
+   "id": "A4",
+   "tipo": "vf",
+   "testo": "Le «Odi barbare» si chiamano così perché sono scritte in una lingua straniera.",
+   "opzioni": [
+    "V",
+    "F"
+   ],
+   "soluzione_sha256": "217732e6ca96506585d14d64f72778b2e5c5046a42c0f587d756ec3d5c692c92"
+  },
+  {
+   "id": "A5",
+   "tipo": "ordina",
+   "testo": "Metti in ordine cronologico le raccolte di Carducci",
+   "opzioni": [
+    "Rime nuove (1887)",
+    "Juvenilia e prime raccolte",
+    "Rime e ritmi (1899)",
+    "Odi barbare (dal 1877)"
+   ],
+   "soluzione_sha256": "7b469d1cc1056bcadaffc2427c16d42ee779ea9bdf36d700c9956d81be427687"
+  },
+  {
+   "id": "A6",
+   "tipo": "completa",
+   "testo": "Nell'inno «A Satana» Carducci celebra il progresso, la ragione e la ___ contro le superstizioni religiose.",
+   "soluzione_sha256": "331b6064f8031daa3008540572e1b0c7a08d609f1c0c7ec72bafc24227ac501e"
+  }
+ ],
+ "B_domande_aperte": [],
+ "C_elaborato": {
+  "id": "C",
+  "testo": "Tema: scegli UNA delle due tracce. Circa 3–4 colonne di foglio protocollo, scritto a mano.",
+  "tracce": [
+   {
+    "id": "C1",
+    "tipologia": "A · Analisi e interpretazione di un testo",
+    "testo": "Leggi «Pianto antico» (dalle «Rime nuove»). Carducci la scrive nel 1871, dopo la morte del figlio Dante, di tre anni. Testo: L'albero a cui tendevi / la pargoletta mano, / il verde melograno / da' bei vermigli fior, // nel muto orto solingo / rinverdì tutto or ora / e giugno lo ristora / di luce e di calor. // Tu fior de la mia pianta / percossa e inaridita, / tu de l'inutil vita / estremo unico fior, // sei ne la terra fredda, / sei ne la terra negra; / né il sol più ti rallegra / né ti risveglia amor. 1. Riassumi il contenuto della poesia in 4–5 righe. 2. La poesia è costruita su un contrasto: individua le parole della vita e della luce (strofe 1–2) e quelle della morte e del buio (strofe 3–4). 3. Che cosa rappresentano il melograno e la «pianta percossa e inaridita»? 4. Riconosci almeno una figura retorica (per esempio anafora o metafora) e spiega il suo effetto. 5. Interpretazione: la lezione dice che nelle «Rime nuove» c'è «il contrasto tra la solarità della vita e la cupa presenza della morte». Spiega come questa poesia lo mostra e che cosa ti ha comunicato."
+   },
+   {
+    "id": "C2",
+    "tipologia": "B · Testo argomentativo",
+    "testo": "Si può cambiare idea? Carducci passa dalle idee repubblicane e dalla polemica contro il governo a diventare senatore del Regno e «poeta ufficiale» dell'Italia umbertina. Racconta questa evoluzione con le informazioni della lezione. Poi argomenta: cambiare idea è un segno di coerenza tradita o di maturità? Usa almeno un esempio della storia o dell'attualità, e considera anche il punto di vista opposto al tuo."
+   }
+  ],
+  "criteri_docente_decimi": "Aderenza alla traccia e uso delle conoscenze della lezione 3 · organizzazione del testo 2 · correttezza linguistica 3 · capacità critica e rielaborazione personale 2",
+  "consegna": "su carta, foto nel quaderno dei compiti"
+ }
+}

@@ -1,0 +1,127 @@
+{
+ "tag": "letteratura-V-lez02",
+ "titolo": "La Scapigliatura",
+ "approvato_da_Sara": "11/11/2026",
+ "impronta": "sha256('compiti|'+tag+'|'+id+'|'+risposta.trim().toLowerCase()); 'ordina' = elementi in ordine giusto uniti da '|'",
+ "A_esercizi_chiusi": [
+  {
+   "id": "A1",
+   "tipo": "vf",
+   "testo": "La Scapigliatura ha come centro principale Milano.",
+   "opzioni": [
+    "V",
+    "F"
+   ],
+   "soluzione_sha256": "32a3a1876809047ce908b8edf4d7a5085c56bd52cfd636b889f9a7b628e1a232"
+  },
+  {
+   "id": "A2",
+   "tipo": "vf",
+   "testo": "Gli scapigliati scrivono un manifesto con una poetica comune e codificata.",
+   "opzioni": [
+    "V",
+    "F"
+   ],
+   "soluzione_sha256": "95f95f39b61bbcf88b39ed96a24e50af444206d80221bc6bfeb5f158f1b165a0"
+  },
+  {
+   "id": "A3",
+   "tipo": "vf",
+   "testo": "Gli scapigliati rifiutano l'impegno civile e patriottico del primo Ottocento.",
+   "opzioni": [
+    "V",
+    "F"
+   ],
+   "soluzione_sha256": "05277666dbd9cea33af73688288c9a660197580ce8fb7848efcc478c4cf91521"
+  },
+  {
+   "id": "A4",
+   "tipo": "vf",
+   "testo": "Lo stile degli scapigliati cerca l'armonia e il linguaggio elevato della tradizione.",
+   "opzioni": [
+    "V",
+    "F"
+   ],
+   "soluzione_sha256": "8064687144d571dd64f3cce2a149409d6be497e67b716baa0ae2247258c7bd58"
+  },
+  {
+   "id": "A5",
+   "tipo": "collega",
+   "testo": "Emilio Praga",
+   "opzioni": [
+    "«Preludio», la crisi spirituale della sua generazione",
+    "«Dualismo», l'artista diviso tra ideale e realtà",
+    "la prosa, l'attrazione per la morte e il mistero",
+    "il romanzo che dà il nome al movimento (1862)"
+   ],
+   "soluzione_sha256": "5910efb9eabba04ff3909bfb01adecedf8ce671608909f789686058b6b87b3e6"
+  },
+  {
+   "id": "A6",
+   "tipo": "collega",
+   "testo": "Arrigo Boito",
+   "opzioni": [
+    "«Preludio», la crisi spirituale della sua generazione",
+    "«Dualismo», l'artista diviso tra ideale e realtà",
+    "la prosa, l'attrazione per la morte e il mistero",
+    "il romanzo che dà il nome al movimento (1862)"
+   ],
+   "soluzione_sha256": "c9044deba7498ac1ffdc2f5796454cebda8666d908e5bc65ddbbd68956fdfd13"
+  },
+  {
+   "id": "A7",
+   "tipo": "collega",
+   "testo": "Igino Ugo Tarchetti",
+   "opzioni": [
+    "«Preludio», la crisi spirituale della sua generazione",
+    "«Dualismo», l'artista diviso tra ideale e realtà",
+    "la prosa, l'attrazione per la morte e il mistero",
+    "il romanzo che dà il nome al movimento (1862)"
+   ],
+   "soluzione_sha256": "8a18fd97218893f244af5d3debdfb97eca62265c3c5ac2117615daaf9ee4ef30"
+  },
+  {
+   "id": "A8",
+   "tipo": "collega",
+   "testo": "Cletto Arrighi",
+   "opzioni": [
+    "«Preludio», la crisi spirituale della sua generazione",
+    "«Dualismo», l'artista diviso tra ideale e realtà",
+    "la prosa, l'attrazione per la morte e il mistero",
+    "il romanzo che dà il nome al movimento (1862)"
+   ],
+   "soluzione_sha256": "024d931ddd6781ee4a92f9bed8f80cea59d66fe8733a676a718a1b5fe1adc378"
+  },
+  {
+   "id": "A9",
+   "tipo": "scelta",
+   "testo": "«Scapigliato» è l'equivalente italiano del termine francese…",
+   "opzioni": [
+    "bohémien",
+    "dandy",
+    "flâneur",
+    "poète maudit"
+   ],
+   "soluzione_sha256": "e4fb5b280f150ec51853d7c7f283483c4007a8adf6edf7d86aa7c8d279ab88ec"
+  }
+ ],
+ "B_domande_aperte": [],
+ "C_elaborato": {
+  "id": "C",
+  "testo": "Tema: scegli UNA delle due tracce. Circa 3–4 colonne di foglio protocollo, scritto a mano.",
+  "tracce": [
+   {
+    "id": "C1",
+    "tipologia": "A · Analisi e interpretazione di un testo",
+    "testo": "Leggi la prima strofa di «Preludio» di Emilio Praga (1864): «Noi siamo i figli dei padri ammalati: / aquile al tempo di mutar le piume, / svolazziam muti, attoniti, affamati, / sull'agonia di un nume». 1. Chi sono i «figli dei padri ammalati»? A quale generazione si riferisce il poeta? 2. Spiega l'immagine delle «aquile al tempo di mutar le piume»: che cosa dice della condizione degli scapigliati? 3. Che cosa può essere il «nume» in agonia? Collega la risposta alla perdita della fede e alla crisi dei valori descritte nella lezione. 4. Interpretazione: confronta questa strofa con la figura dell'artista in Baudelaire. Quali somiglianze trovi?"
+   },
+   {
+    "id": "C2",
+    "tipologia": "C · Riflessione critica",
+    "testo": "Ribelli contro il proprio tempo. Gli scapigliati rifiutano la società borghese e le convenzioni della letteratura del loro tempo, ma ne sono anche attratti: vivono sospesi «tra ideali perduti e una realtà degradata». Parti dalle informazioni della lezione e rifletti: anche i giovani di oggi vivono un rapporto di attrazione e di rifiuto verso la società in cui vivono? Puoi parlare di tecnologia, consumi, lavoro o modelli di successo. Dai un titolo al tuo testo e dividilo in paragrafi."
+   }
+  ],
+  "criteri_docente_decimi": "Aderenza alla traccia e uso delle conoscenze della lezione 3 · organizzazione del testo 2 · correttezza linguistica 3 · capacità critica e rielaborazione personale 2",
+  "consegna": "su carta, foto nel quaderno dei compiti"
+ }
+}
