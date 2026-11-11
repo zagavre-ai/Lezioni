@@ -24,11 +24,16 @@ iframe{width:100%;flex:1;border:0;background:var(--bg)}
 #pin{width:100%;padding:12px;border:1px solid var(--line);border-radius:8px;font:600 18px Inter,sans-serif;letter-spacing:2px;text-transform:uppercase;margin-bottom:12px}
 #err{color:#b3261e;font-size:14px;min-height:20px}
 @media(max-width:760px){#app{grid-template-columns:1fr;grid-template-rows:40% 60%}#side{border-right:0;border-bottom:1px solid var(--line)}}
-</style></head><body>
+</style><meta name="versione" content="2026-11-11a">
+<script>/* se GitHub ha una versione più nuova di questa pagina, la carica subito (niente più «non vedo le novità») */
+(function(){try{var mia=document.querySelector('meta[name=versione]').content;
+fetch(location.pathname,{cache:'reload'}).then(function(r){return r.text()}).then(function(t){var m=t.match(/name="versione" content="([^"]+)"/);
+if(m&&m[1]!==mia){var k='aggiornata_'+m[1];try{if(sessionStorage.getItem(k))return;sessionStorage.setItem(k,'1')}catch(e){}location.reload()}}).catch(function(){})}catch(e){}})();</script>
+</head><body>
 <div id="login"><h1>Registro compiti · Coordinamento</h1><p>Scrivi il tuo codice personale. Questo computer lo ricorderà.</p>
 <input id="pin" autocomplete="off" placeholder="CODICE"><button class="btn pri" id="ok" style="width:100%">Entra</button><div id="err"></div></div>
 <div id="main" style="display:none">
-<header><b>Registro compiti · Coordinamento</b><span id="chi"></span><button class="btn" id="esci">Esci</button></header>
+<header><b>Registro compiti · Coordinamento</b><span id="chi"></span><a class="btn" href="https://zagavre-ai.github.io/Lezioni/quaderno/" target="_blank" rel="noopener" style="text-decoration:none;margin-left:auto">Quaderno dei compiti ↗</a><button class="btn" id="esci" style="margin-left:0">Esci</button></header>
 <div id="app"><div id="side"><input id="q" placeholder="Cerca alunno o indirizzo…"><div id="list"></div></div>
 <div id="frame"><div id="vuoto">Scegli un alunno dall'elenco a sinistra:<br>si apre il suo registro, già in modalità docente.</div></div></div></div>
 <script>
