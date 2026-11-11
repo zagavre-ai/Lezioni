@@ -3,7 +3,7 @@
  "parti": {
   "1": {
    "titolo": "Pasticceria · Parte 1",
-   "stato": "IN_MONTAGGIO",
+   "stato": "FERMA",
    "voci": "segnaposto",
    "video": "Cucina_Pasticceria_Parte1_VIDEO.mp4",
    "durata_s": 3357.3,
@@ -61,7 +61,7 @@
   },
   "2": {
    "titolo": "Pasticceria · Parte 2",
-   "stato": "IN_MONTAGGIO",
+   "stato": "FERMA",
    "voci": "segnaposto"
   }
  },
@@ -78,6 +78,10 @@
   {
    "quando": "11/11 11:16",
    "testo": "servono voci: alb-cucina-III-IV-lez03 (testi approvati da Sara l'11/11, sul ramo voci-alb-cucina-III-IV-lez03)"
+  },
+  {
+   "quando": "11/11 13:17",
+   "testo": "FERMA: in attesa delle voci Kore (richieste l'11/11 alle 11:16 sul ramo voci-alb-cucina-III-IV-lez03, cartella vox/ ancora vuota alle 13:20). Montaggio con voci provvisorie fatto; appena arrivano: import, rimontaggio, codifica 1440p, controlli, consegna."
   }
  ],
  "domande_sara": [],
@@ -101,5 +105,5 @@
  ],
  "materia": "Laboratori dei servizi enogastronomici – settore cucina",
  "lezione": "Pasticceria",
- "aggiornato": "2026-11-11 11:16:47"
+ "aggiornato": "2026-11-11 13:17:29"
 }
