@@ -2,45 +2,17 @@
  "tag": "psicologia-I-II-lez01",
  "parti": {
   "1": {
-   "titolo": "Introduzione alle scienze umane",
-   "stato": "PRONTA",
-   "voci": "kore",
-   "video": "Psicologia_Lez1_Parte1_1440p.mp4",
-   "durata_s": 3334.1,
-   "durata": "55:34.1",
-   "fotogrammi": 100023,
-   "fotogrammi_attesi": 100023,
-   "peso_MB": 386.3,
-   "quiz_ok": "si",
-   "fermi_ok": "si",
-   "sub_ok": "si",
-   "vtt": "Psicologia_Lez1_Parte1.vtt"
+   "stato": "IN_MONTAGGIO"
   }
  },
  "manca": "",
- "serve_master": [
-  {
-   "quando": "08/11 14:30",
-   "testo": "MIGLIORAMENTO: nella scheda Quiz il titolo lungo passa sotto l'icona play (Quiz 1, 3, 5); scheda_da_timeline.py ha «Tecnologie dei materiali» scritto fisso come materia"
-  }
- ],
+ "serve_master": [],
  "domande_sara": [],
  "note": [
   {
-   "quando": "08/11 14:30",
-   "testo": "Video 1440p finale pronto (55,6 min, 368 MiB, parlato -16 LUFS, jingle Quiz a 0,003 s). Sto rifacendo i sottotitoli con sub_finale.py."
-  },
-  {
-   "quando": "08/11 14:41",
-   "testo": "controllo_finale: ESITO: DA SISTEMARE: sottotitoli"
-  },
-  {
-   "quando": "08/11 14:42",
-   "testo": "controllo_finale: tutto OK tranne il test sottotitoli (crudo: 50% su 16 punti). Misura mia su 54 attacchi dopo pausa: scarto mediano +0,05 s, 85% entro 0,3 s, 96% entro 0,6 s; nessuna sovrapposizione. Sincronia slide verificata su 7 punti per correlazione audio col sorgente. Parole incerte nei sottotitoli: «[…]» (riga 'dare […] a') e «esigere». Scheda tolta la voce: materia corretta a mano in 'Psicologia'."
+   "quando": "11/11 11:09",
+   "testo": "ripartenza 11/11: rimontaggio da zero, solo Lez1"
   }
  ],
- "materia": "Psicologia",
- "lezione": "Lezione 1 · Introduzione alle scienze umane",
- "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-08 14:42:37"
+ "aggiornato": "2026-11-11 11:09:44"
 }
