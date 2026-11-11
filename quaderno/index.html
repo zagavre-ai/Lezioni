@@ -48,6 +48,11 @@ table.l tr.cl{cursor:pointer}table.l tr.cl:hover td{background:var(--soft)}
 .st.da_rifare{background:#ffe2cc;color:#8a3b00}.st.corretto{background:var(--okbg);color:var(--ok)}
 .st.verificato{background:var(--ok);color:#fff}.st.segnalato{background:var(--red);color:#fff}
 .st.storico{background:#e6e6e6;color:#444}
+.mp-ed{display:grid;grid-template-columns:minmax(260px,380px) 1fr;gap:14px;align-items:start}@media (max-width:760px){.mp-ed{grid-template-columns:1fr}.mp-svg{position:static;order:-1;max-height:55vh}}
+.mp-svg{position:sticky;top:8px;background:#fff;border:1px solid var(--line);border-radius:8px;overflow:auto;max-height:78vh}.mp-svg svg{display:block}
+.mp-r{border:1px solid var(--line);border-left:6px solid var(--c);border-radius:6px;padding:8px;margin:8px 0;background:#fff}.mp-r input{margin:3px 0}
+.mp-r .x{float:right}.mp-sub{margin-left:14px}.mp-bar{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0}
+@media print{header.top,.tabs,.mp-form,.mp-bar,.who,#esci{display:none!important}.mp-ed{display:block}.mp-svg{border:0;max-height:none}}
 .disp-m{margin:18px 0 6px;font-size:16px;color:var(--navy)}.disp{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
 .rit{color:var(--red);font-weight:bold}
 .mat{font-size:12px;font-weight:bold;letter-spacing:.1em;color:var(--navy);text-transform:uppercase}
@@ -76,7 +81,7 @@ input[type=file].nasc{display:none}
 .codice{font:bold 20px/1.2 ui-monospace,Menlo,monospace;letter-spacing:.08em;background:var(--soft2);padding:8px 12px;border-radius:6px;display:inline-block}
 @media (max-width:640px){h1{font-size:21px}table.l .mob-no{display:none}}
 </style>
-<meta name="versione" content="2026-11-11b">
+<meta name="versione" content="2026-11-12a">
 <script>/* se GitHub ha una versione più nuova di questa pagina, la carica subito (niente più «non vedo le novità») */
 (function(){try{var mia=document.querySelector('meta[name=versione]').content;
 fetch(location.pathname,{cache:'reload'}).then(function(r){return r.text()}).then(function(t){var m=t.match(/name="versione" content="([^"]+)"/);
@@ -153,9 +158,10 @@ async function caricaCompiti(){COMPITI=(await api('lista')).compiti}
 
 /* ---------------- vista alunno (telefono) ---------------- */
 const SCELTE={};// compito_id -> [{blob,url}]
-function tabAlunno(){return `<div class="tabs"><button data-atab="compiti" class="${ALTAB==='compiti'?'on':''}">I miei compiti</button><button data-atab="dispense" class="${ALTAB==='dispense'?'on':''}">Dispense di studio</button></div>`}
+function tabAlunno(){return `<div class="tabs"><button data-atab="compiti" class="${ALTAB==='compiti'?'on':''}">I miei compiti</button><button data-atab="dispense" class="${ALTAB==='dispense'?'on':''}">Dispense di studio</button><button data-atab="mappe" class="${ALTAB==='mappe'?'on':''}">Le mie mappe</button></div>`}
 function collegaTabAlunno(){document.querySelectorAll('[data-atab]').forEach(b=>b.onclick=()=>{ALTAB=b.dataset.atab;vistaAlunno()})}
-function vistaAlunno(msg,V){if(!V&&ALTAB==='dispense'){$('#app').innerHTML=`<h1>Dispense di studio</h1><div class="bar"></div><div class="who"><b>${esc(IO.nome)}</b></div>${tabAlunno()}<div id="dsp"></div>`;collegaTabAlunno();return vistaDispense('#dsp')}
+function vistaAlunno(msg,V){if(!V&&ALTAB==='mappe'){$('#app').innerHTML=`<h1>Le mie mappe</h1><div class="bar"></div><div class="who"><b>${esc(IO.nome)}</b></div>${tabAlunno()}<div id="mpp"></div>`;collegaTabAlunno();return vistaMappe('#mpp')}
+  if(!V&&ALTAB==='dispense'){$('#app').innerHTML=`<h1>Dispense di studio</h1><div class="bar"></div><div class="who"><b>${esc(IO.nome)}</b></div>${tabAlunno()}<div id="dsp"></div>`;collegaTabAlunno();return vistaDispense('#dsp')}
   V=V||{lista:COMPITI,nome:IO.nome,ro:false,dove:'#app'};const L=V.lista;
   const daFare=L.filter(c=>c.stato==='assegnato'||c.stato==='da_rifare').sort((a,b)=>(a.scadenza||'9').localeCompare(b.scadenza||'9'));
   const attesa=L.filter(c=>c.stato==='consegnato');
@@ -244,7 +250,8 @@ let VA='';
 function tabVistaAlunno(){
   $('#tab').innerHTML=`<div class="filtri"><select id="va1"><option value="">Scegli l'alunno…</option>${ALUNNI.map(a=>`<option value="${a.id}" ${VA===a.id?'selected':''}>${esc(a.nome)}</option>`).join('')}</select><button class="btn sec" id="va2">Aggiorna</button></div><div id="va"></div>`;
   const mostra=()=>{const a=ALUNNI.find(x=>x.id===VA);if(!a){$('#va').innerHTML='<div class="vuoto">Scegli un alunno per vedere la sua pagina come la vede lui.</div>';return}
-    vistaAlunno('',{lista:COMPITI.filter(c=>c.alunno_id===VA),nome:a.nome,ro:true,dove:'#va'})};
+    vistaAlunno('',{lista:COMPITI.filter(c=>c.alunno_id===VA),nome:a.nome,ro:true,dove:'#va'});
+    const m=document.createElement('div');m.id='vam';$('#va').appendChild(m);vistaMappe('#vam',VA)};
   $('#va1').onchange=e=>{VA=e.target.value;mostra()};$('#va2').onclick=async()=>{await caricaCompiti();mostra()};mostra();
 }
 let ALLEGATO=null;
@@ -417,6 +424,60 @@ async function vistaDispense(dove){
   collegaVedi('#dlista');
   document.querySelectorAll('[data-togli]').forEach(b=>b.onclick=async()=>{if(!confirm('Togliere questa dispensa? Gli alunni non la vedranno più.'))return;
     try{await api('dispensa_togli',{id:b.dataset.togli});await vistaDispense(dove)}catch(e){alert(e.message)}});
+}
+
+/* ---------------- mappe concettuali (BES, per tutti) ---------------- */
+const MCOL=['#2060AF','#C2410C','#15803D','#7E22CE','#B91C1C','#0E7490','#A16207','#0B1530'];
+const MODELLO=()=>({centro:'',rami:[{t:'Concetti chiave',k:'',e:'',c:0,f:[]},{t:'Parole importanti',k:'',e:'',c:1,f:[]},{t:'Esempi',k:'',e:'',c:2,f:[]},{t:'Domande e dubbi',k:'',e:'',c:3,f:[]}]});
+let MAPPA=null,MZOOM=1,MTIMER=null;
+async function vistaMappe(dove,alunno){
+  const ro=IO.tipo!=='alunno';
+  let l=[];try{l=(await api('mappe',ro?{alunno_id:alunno}:{})).mappe}catch(e){$(dove).innerHTML=`<div class="msg no">${esc(e.message)}</div>`;return}
+  if(ro){$(dove).innerHTML=`<h2 style="font-size:17px;margin:24px 0 4px">Mappe dell'alunno (${l.length})</h2>`+(l.length?l.map(m=>`<div class="card disp"><div><b>${esc(m.titolo)}</b><br><span class="note">${esc(m.materia)} · aggiornata ${dlo(m.aggiornata)}</span></div><button class="btn sec" data-mapro="${m.id}">Apri</button></div>`).join(''):'<div class="vuoto">Nessuna mappa.</div>');
+    document.querySelectorAll(dove+' [data-mapro]').forEach(b=>b.onclick=async()=>{const m=(await api('mappe',{alunno_id:alunno,id:b.dataset.mapro,con_dati:true})).mappe[0];if(!m)return;
+      $('#mbody').innerHTML=`<h2 style="margin-top:0">${esc(m.titolo)}</h2><p class="note">${esc(m.materia)}</p><div class="mp-svg">${svgMappa(m.dati,1)}</div>`;$('#modal').style.display='block'});return}
+  const mat=(IO.materie||[]).filter(x=>x!=='Tutte le materie');
+  $(dove).innerHTML=`<div class="card"><p class="note" style="margin-top:0">Durante la lezione costruisci la tua mappa: al centro l'argomento, intorno i rami con i concetti. Si salva da sola.</p>
+   <div class="row"><div><label class="f">Materia</label><select class="t" id="nmm">${(mat.length?mat:['Generale']).map(m=>`<option>${esc(m)}</option>`).join('')}</select></div>
+   <div><label class="f">Argomento della mappa</label><input class="t" id="nmt" placeholder="es. Il Neoclassicismo"></div></div>
+   <button class="btn big" id="nmgo" style="margin-top:10px">+ Nuova mappa</button></div><div id="mpl"></div>`;
+  $('#mpl').innerHTML=l.length?l.map(m=>`<div class="card disp"><div><b>${esc(m.titolo)}</b><br><span class="note">${esc(m.materia)} · ${dlo(m.aggiornata)}</span></div><div style="display:flex;gap:8px"><button class="btn sec" data-mpa="${m.id}">Apri</button><button class="esci" data-mpt="${m.id}">togli</button></div></div>`).join(''):'<div class="vuoto">Non hai ancora mappe.</div>';
+  $('#nmgo').onclick=async()=>{const t=$('#nmt').value.trim()||'Nuova mappa';const d=MODELLO();d.centro=t;const r=await api('mappa_salva',{materia:$('#nmm').value,titolo:t,dati:d});editorMappa({id:r.id,materia:$('#nmm').value,titolo:t,dati:d},dove)};
+  document.querySelectorAll('[data-mpa]').forEach(b=>b.onclick=async()=>{const m=(await api('mappe',{id:b.dataset.mpa,con_dati:true})).mappe[0];if(m)editorMappa(m,dove)});
+  document.querySelectorAll('[data-mpt]').forEach(b=>b.onclick=async()=>{if(!confirm('Togliere questa mappa?'))return;await api('mappa_togli',{id:b.dataset.mpt});vistaMappe(dove)});
+}
+function svgMappa(d,z){
+  const R=d.rami||[],n=Math.max(R.length,1),W=860,H=600,cx=W/2,cy=H/2,rr=215;const wrap=(t,m)=>{const w=String(t||'').split(/\s+/);const o=[];let c='';w.forEach(x=>{if((c+' '+x).trim().length>m){if(c)o.push(c);c=x}else c=(c+' '+x).trim()});if(c)o.push(c);return o.slice(0,4)};
+  const txt=(x,y,t,m,sz,col,b)=>wrap(t,m).map((r,i,a)=>`<text x="${x}" y="${y+(i-(a.length-1)/2)*sz*1.2}" text-anchor="middle" dominant-baseline="middle" font-size="${sz}" font-family="Verdana,Arial" ${b?'font-weight="bold"':''} fill="${col}">${esc(r)}</text>`).join('');
+  let g='';R.forEach((r,i)=>{const a=-Math.PI/2+i*2*Math.PI/n,x=cx+rr*Math.cos(a),y=cy+rr*0.8*Math.sin(a),c=MCOL[r.c%MCOL.length];
+    g+=`<line x1="${cx}" y1="${cy}" x2="${x}" y2="${y}" stroke="${c}" stroke-width="6"/>`;
+    (r.f||[]).forEach((s,j,A)=>{const b=a+(j-(A.length-1)/2)*0.32,sx=x+150*Math.cos(b),sy=y+120*Math.sin(b);g+=`<line x1="${x}" y1="${y}" x2="${sx}" y2="${sy}" stroke="${c}" stroke-width="3"/><rect x="${sx-75}" y="${sy-26}" width="150" height="52" rx="10" fill="#fff" stroke="${c}" stroke-width="2"/>`+txt(sx,sy,s.t,15,17,'#0B1530')});
+    g+=`<rect x="${x-95}" y="${y-48}" width="190" height="96" rx="14" fill="${c}"/>`+txt(x,y-(r.k||r.e?16:0),r.t,16,22,'#fff',1)+(r.k?txt(x,y+16,'🔑 '+r.k,22,14,'#fff'):'')+(r.e?txt(x,y+34,'es. '+r.e,24,13,'#fff'):'')});
+  g+=`<ellipse cx="${cx}" cy="${cy}" rx="130" ry="62" fill="#FFE600" stroke="#0B1530" stroke-width="4"/>`+txt(cx,cy,d.centro||'Argomento',16,28,'#0B1530',1);
+  return `<svg viewBox="0 0 ${W} ${H}" width="${Math.round(100*z)}%" style="min-width:${Math.round(520*z)}px" role="img" aria-label="Mappa: ${esc(d.centro||'')}">${g}</svg>`;
+}
+function editorMappa(m,dove){MAPPA=m;MZOOM=1;
+  const form=()=>{const d=MAPPA.dati;return `<div class="mp-form"><label class="f">Argomento (al centro)</label><input class="t" data-k="centro" value="${esc(d.centro)}">
+   ${d.rami.map((r,i)=>`<div class="mp-r" style="--c:${MCOL[r.c%MCOL.length]}"><button class="esci x" data-rx="${i}">togli</button>
+    <label class="f">Ramo ${i+1}</label><input class="t" data-r="${i}" data-k="t" value="${esc(r.t)}" placeholder="Concetto">
+    <input class="t" data-r="${i}" data-k="k" value="${esc(r.k)}" placeholder="Parola chiave"><input class="t" data-r="${i}" data-k="e" value="${esc(r.e)}" placeholder="Esempio">
+    <div class="mp-sub">${(r.f||[]).map((s,j)=>`<div style="display:flex;gap:4px"><input class="t" data-r="${i}" data-s="${j}" value="${esc(s.t)}" placeholder="Dettaglio"><button class="esci" data-sx="${i}.${j}">×</button></div>`).join('')}
+    <button class="esci" data-sa="${i}">+ sotto-ramo</button> <button class="esci" data-col="${i}">cambia colore</button></div></div>`).join('')}
+   <button class="btn sec" id="mpra">+ ramo</button></div>`};
+  const disegna=()=>{$('#mpv').innerHTML=svgMappa(MAPPA.dati,MZOOM)};
+  const salva=()=>{clearTimeout(MTIMER);$('#mps').textContent='Salvataggio…';MTIMER=setTimeout(async()=>{try{await api('mappa_salva',{id:MAPPA.id,materia:MAPPA.materia,titolo:MAPPA.dati.centro||MAPPA.titolo,dati:MAPPA.dati});$('#mps').textContent='Salvata ✓'}catch(e){$('#mps').textContent='Non salvata: '+e.message}},1200)};
+  const tutto=()=>{$(dove).innerHTML=`<div class="mp-bar"><button class="btn sec" id="mpb">← Le mie mappe</button><button class="btn sec" id="mpz1">A−</button><button class="btn sec" id="mpz2">A+</button><button class="btn sec" onclick="print()">Stampa / PDF</button><span class="note" id="mps"></span></div>
+    <div class="mp-ed"><div>${form()}</div><div class="mp-svg" id="mpv"></div></div>`;disegna();
+    $('#mpb').onclick=()=>vistaMappe(dove);$('#mpz1').onclick=()=>{MZOOM=Math.max(.4,MZOOM-.15);disegna()};$('#mpz2').onclick=()=>{MZOOM=Math.min(2.5,MZOOM+.15);disegna()};
+    const d=MAPPA.dati;
+    document.querySelectorAll('.mp-form input').forEach(inp=>inp.oninput=()=>{const r=inp.dataset.r,k=inp.dataset.k,sj=inp.dataset.s;
+      if(r===undefined)d.centro=inp.value;else if(sj!==undefined)d.rami[r].f[sj].t=inp.value;else d.rami[r][k]=inp.value;disegna();salva()});
+    $('#mpra').onclick=()=>{d.rami.push({t:'',k:'',e:'',c:d.rami.length,f:[]});tutto();salva()};
+    document.querySelectorAll('[data-rx]').forEach(b=>b.onclick=()=>{d.rami.splice(+b.dataset.rx,1);tutto();salva()});
+    document.querySelectorAll('[data-sa]').forEach(b=>b.onclick=()=>{d.rami[b.dataset.sa].f.push({t:''});tutto();salva()});
+    document.querySelectorAll('[data-sx]').forEach(b=>b.onclick=()=>{const [i,j]=b.dataset.sx.split('.');d.rami[i].f.splice(j,1);tutto();salva()});
+    document.querySelectorAll('[data-col]').forEach(b=>b.onclick=()=>{d.rami[b.dataset.col].c++;tutto();salva()})};
+  tutto();
 }
 
 /* ---------------- avvio ---------------- */
