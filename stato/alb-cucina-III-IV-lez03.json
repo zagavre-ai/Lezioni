@@ -65,7 +65,7 @@
    "voci": "segnaposto"
   }
  },
- "manca": "P1 montata 56:00; era già codificata a 1440p con la regola vecchia (CRF 16, 787 MB), con voci provvisorie e senza la chiusura nuova: va rifatta comunque per le voci Kore. P2 da rimontare con l'audio corretto. Ore stimate: P1 2 h, P2 3 h (dopo le voci).",
+ "manca": "P1 e P2 montate con chiusura nuova (56:17 e 52:06). Mancano: voci Kore (testi da approvare da Sara), codifica 1440p. Ore: 2 per Parte dopo le voci.",
  "serve_master": [
   {
    "quando": "10/11 20:37",
@@ -85,9 +85,17 @@
   {
    "quando": "10/11 20:43",
    "testo": "Chiusura nuova inserita nel montaggio (FIN → Verifica finale 5 s → sigla finale → intro Compiti 3,5 s con jingle → Compiti 5 s). Test finale tolto dal montaggio. Montaggio con voci provvisorie senza codifica: la codifica a 1440p si fa una volta sola, quando arrivano le voci Kore."
+  },
+  {
+   "quando": "11/11 11:08",
+   "testo": "P1 montata 56:16.9 con la chiusura nuova, schede Quiz e approfondimenti (voci provvisorie, non codificata): t_verifica=3351.0 s, t_compiti=3370.6 s; scatto Quiz 0,0 s."
+  },
+  {
+   "quando": "11/11 11:08",
+   "testo": "P2 montata 52:06.0 con la chiusura nuova, schede Quiz e approfondimenti (voci provvisorie, non codificata): t_verifica=3100.1 s, t_compiti=3119.7 s; scatto Quiz 0,0 s."
   }
  ],
  "materia": "Laboratori dei servizi enogastronomici – settore cucina",
  "lezione": "Pasticceria",
- "aggiornato": "2026-11-10 21:18:33"
+ "aggiornato": "2026-11-11 11:08:23"
 }
