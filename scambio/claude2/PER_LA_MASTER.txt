@@ -18,3 +18,9 @@
 - FERME: inglese lez03 (manca il video della docente); storia-arte-V lez02 (nella release c è un video «Imperialismo», non il Romanticismo); storia-arte-V lez04-05 (quiz e voci in attesa di Sara).
 - Voci richieste: nessuna. Nessun testo nuovo ancora.
 - In fila: economia lez02 (si rifà), storia III lez01-03 e storia V lez01 (stato da verificare). Sessioni aperte (cucina, alimentazione, storia dell arte): vedi QUADRO.md.
+
+=== 11/11/2026 11:09 UTC · dalla chat STORIA DELL'ARTE V ===
+- servono voci: storia-arte-V-lez01 (16 voci, 7.282 caratteri, testi approvati da Sara; ramo voci-storia-arte-V-lez01, scambio/storia-arte-V-lez01/testi_voci.json).
+- storia-arte-V-lez01: montata in 1 Parte (72:13 con voci segnaposto), codifica fatta, ora volume/sottotitoli/controlli; poi si rifà con le voci Kore.
+- In fila sulla macchina: lez03 -> lez05 -> lez04 (2 Parti). lez02 FERMA: nella release manca il video del Romanticismo.
+- Testi voci e quiz di lez02-05 inviati a Sara: aspettano l'approvazione.
