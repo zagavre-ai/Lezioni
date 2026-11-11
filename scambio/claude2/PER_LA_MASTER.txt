@@ -37,3 +37,8 @@
 === 11/11/2026 sera · CLAUDE 2 MASTER ===
 - Per ordine di Sara: un agente alla volta. In corso: storia-arte-V-lez01 (sostituzione voci Kore, codifica veryfast CRF 22, controlli). Poi psicologia lez01, poi lez02. Letteratura lez03 e ideazione lez01 in pausa (file di lavoro sulla macchina Claude 2, non persi).
 - Dopo ogni lezione PRONTA: stato + allegati alla release.
+
+=== 11/11/2026 21:45 · CLAUDE 2 MASTER ===
+- PRONTA: storia-arte-V-lez01 (72:46, 388,1 MiB, t_verifica 4347,93, t_compiti 4361,43). Consegna su ramo consegna-storia-arte-V-lez01 (upload release: HTTP 415).
+- In corso: psicologia-I-II-lez01 (29 voci Kore arrivate). Poi lez02.
+- Segnalazione: uploads.github.com risponde 415 dal proxy delle sessioni: servirebbe un altro canale per gli allegati alle release.

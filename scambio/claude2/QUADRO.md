@@ -1,4 +1,10 @@
-# QUADRO · CLAUDE 2 · MASTER — aggiornato 10/11/2026 23:00 (ora italiana)
+# QUADRO · CLAUDE 2 · MASTER — aggiornato 11/11/2026 21:45 (ora italiana)
+
+## PRONTE NUOVE
+- storia-arte-V-lez01 · PRONTA 11/11 (72:46, 388,1 MiB, 131000 fotogrammi, −16,5 LUFS, 6 Quiz a 0,0 s). t_verifica 4347,93 · t_compiti 4361,43. Consegna sul ramo consegna-storia-arte-V-lez01 (5 pezzi da 90 MiB: l'upload alla release dà 415). Test finale = proposta da validare. Sottotitoli: qualche parola da spuntare.
+
+## IN CORSO (un agente alla volta, ordine di Sara): psicologia lez01 → psicologia lez02. In pausa: letteratura lez03, ideazione lez01, economia lez02.
+
 Fonte: rami stato-* e voci-* (letti 10/11 22:40). Ore = STIMA. Le 14 PRONTE non si ricodificano: verifica e compiti li aggiunge la pagina (nota master 1 22:40).
 
 ## In lavorazione stanotte (agenti Claude 2, max 4 insieme, codifica 1440p una alla volta)
