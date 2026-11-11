@@ -1,0 +1,62 @@
+[
+ {
+  "nome": "AN101",
+  "testo": "Mettiamo a confronto le conserve dolci di frutta e ciò che le distingue per legge. Confetture: contenuto minimo di frutta superiore al trentacinque per cento. Confetture extra: contenuto di frutta superiore al quarantacinque per cento. Marmellate: solo con agrumi, con almeno il venti per cento di frutta. Marmellate gelatine: come le marmellate, ma senza sostanze insolubili. Gelatine: solo succhi di frutta, senza buccia né polpa, che gelificano. Composte e frutta sciroppata: le composte hanno meno zucchero e durano poco; la frutta sciroppata dura dai sei ai dodici mesi.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN102",
+  "testo": "Due metodi per produrre le conserve: confrontiamoli passo per passo. Cottura unica: macerazione: frutta, zuccheri e acidi macerano per un'ora a tre gradi. Cottura unica: cottura: si cuoce fino a centocinque, centootto gradi. Doppia cottura: macerazione: dodici ore, una breve ebollizione e altre dodici ore di riposo. Doppia cottura: sciroppo: si filtra la frutta e si cuoce solo lo sciroppo fino a sessantacinque gradi Brix. Doppia cottura: finale: si riunisce la frutta allo sciroppo e si porta a centocinque gradi prima dell'invasamento. Il rifrattometro: misura i gradi Brix, cioè il rapporto tra zucchero e acqua.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN103",
+  "testo": "Mettiamo in fila le fasi che trasformano il cacao in cioccolato. Semi: si estraggono dal frutto, si fermentano e si essiccano al sole. Tostatura: tra centoventi e centoquaranta gradi. Pasta di cacao: nasce dalla macinazione; pressata dà burro di cacao e cacao in polvere. Concaggio: amalgama il composto a temperature controllate. Temperaggio: raffreddamento da quarantacinque a ventisette gradi e riscaldamento a trentasette. Un po' di storia: le prime tavolette nascono alla fine dell'Ottocento; prima il cacao si beveva caldo.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN104",
+  "testo": "Confrontiamo i tipi di cioccolato in base al cacao e agli ingredienti. Extrafondente: dal quarantacinque fino al novantanove per cento di cacao. Fondente: almeno il quarantatré per cento di cacao. Al latte: venticinque per cento di cacao e quindici per cento di prodotti lattici. Gianduia: trentadue per cento di cacao e da venti a quaranta grammi di nocciole ogni cento grammi. Bianco: venti per cento di burro di cacao e quattordici per cento di sostanze lattiche, senza pasta di cacao. Copertura e surrogato: la copertura ha almeno il trentuno per cento di burro di cacao; il surrogato lo sostituisce con altri grassi.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN105",
+  "testo": "Il temperaggio cambia con il tipo di cioccolato: ecco le temperature a confronto. Scioglimento: a quarantacinque, cinquanta gradi, con microonde, scioglitore a secco o temperatrice. Raffreddamento: due terzi della massa su marmo o acciaio, mescolando fino a ventinove gradi. Fondente: stabilizzazione a trentuno, trentadue gradi. Al latte: stabilizzazione a ventinove, trenta gradi. Bianco: stabilizzazione a ventotto, ventinove gradi. Ambiente: locale asciutto, circa sessanta per cento di umidità e ventidue gradi, attrezzi sanificati e asciutti.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN106",
+  "testo": "Mettiamo a confronto il gelato artigianale e quello industriale. Artigianale: creato dai gelatieri con ingredienti freschi, dura circa ventiquattro ore nei freezer di stoccaggio. Latte e grassi: almeno il sessanta per cento di latte, grassi tra il sei e il dieci per cento di sola origine animale. Aria nell'artigianale: insufflazione naturale, non oltre il trentacinque per cento. Industriale: prodotto in serie, a lunga scadenza, può contenere conservanti e grassi vegetali. Grassi nell'industriale: tra l'otto e il dodici per cento. Aria nell'industriale: almeno il settanta per cento, ottenuta artificialmente.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN107",
+  "testo": "Seguiamo il ciclo produttivo del gelato, fase per fase. Miscela: si prepara la base, bianca, gialla con tuorli, o sorbetto. Pastorizzazione: tra sessantacinque e ottantacinque gradi. Raffreddamento: rapido, fino a cinque gradi. Maturazione: controllata, per circa dodici ore. Mantecazione: il gelato passa da liquido a solido con freddo, agitazione e aria. Conservazione: per ventiquattro ore tra meno dodici e meno quindici gradi, poi il servizio.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN108",
+  "testo": "Confrontiamo le farine di grano tenero: prima per tipo, poi per forza. Tipo doppio zero: nove per cento di proteine: pasticceria, dolci e pasta fresca. Tipo zero, uno e due: dall'undici al dodici per cento di proteine e più fibre, per il pane bianco e i pani rustici. Integrale: dall'intero chicco, con molte fibre. Farine deboli e medie: deboli per biscotti e cialde; medie per pizza, pane comune e poolish brevi. Farine forti: per la pasticceria a lunga lievitazione, come babà e brioche. Farine molto forti: oltre trecentocinquanta: per panettone e pandoro.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN109",
+  "testo": "Confrontiamo le tipologie di gelato artigianale in base agli ingredienti. Granite: acqua, puree o succhi di frutta e saccarosio, con molta acqua. Cremolate o gremolate: stessi ingredienti, ma con acqua pari alla frutta: più fini al palato. Sorbetti: senza latte: solo frutta, zuccheri e acqua. Gelati di frutta al latte: alla base di frutta si aggiungono panna, latte o burro. Gelati di crema: con latte e derivati; con i tuorli si dicono a base gialla. Bevande vegetali: con bevande di soia o di riso, per esigenze vegane o intolleranze.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN110",
+  "testo": "Mettiamo a confronto i tipi di lievitazione, con un esempio per ciascuno. Fisica: aria incorporata montando, come nel pan di Spagna. Fisica con vapore: dilatazione dell'acqua in cottura, come nella sfoglia e nei bignè. Chimica: reazione tra sali che libera anidride carbonica, come nei muffin. Biologica: lieviti vivi che trasformano gli zuccheri in anidride carbonica. Mista: laminazione con grassi e lievitazione biologica, come nel croissant. Biga e poolish: la biga ha farina e acqua due a uno, il poolish uno a uno, per pani come la ciabatta.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN111",
+  "testo": "Ecco una scheda riassuntiva del commercio equo e solidale: regole e prodotti. Giustizia sociale: lotta contro lo sfruttamento e la povertà. Rispetto: dell'ambiente e delle persone, aumentando la consapevolezza dei consumatori. Prezzi: prezzi minimi d'acquisto e rapporti commerciali lunghi. Filiera: filiera corta, trasparenza e tracciabilità. Materie prime: caffè, tè, cacao, zucchero e miele, oltre alla frutta esotica come ananas, banane e cocco. Prodotti trasformati: confetture, salse, liquori e bevande, da usare nelle produzioni dolciarie.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN112",
+  "testo": "Due famiglie da conoscere: i prodotti di grano duro e le farine senza glutine. Semola: prodotto granulare a spigolo vivo, di colore giallo. Semolato e semola integrale: il semolato è meno raffinato; la semola integrale contiene tutta la cariosside. Semola rimacinata: è la più adatta alla panificazione perché assorbe meglio l'acqua. Cereali senza glutine: mais, riso, miglio e sorgo. Pseudocereali: grano saraceno, amaranto e quinoa. Frutta secca e legumi: castagne, mandorle, nocciole; ceci, soia e fave.",
+  "lingua": "it"
+ }
+]
