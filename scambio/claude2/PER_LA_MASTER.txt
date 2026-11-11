@@ -42,3 +42,8 @@
 - PRONTA: storia-arte-V-lez01 (72:46, 388,1 MiB, t_verifica 4347,93, t_compiti 4361,43). Consegna su ramo consegna-storia-arte-V-lez01 (upload release: HTTP 415).
 - In corso: psicologia-I-II-lez01 (29 voci Kore arrivate). Poi lez02.
 - Segnalazione: uploads.github.com risponde 415 dal proxy delle sessioni: servirebbe un altro canale per gli allegati alle release.
+
+=== 11/11/2026 22:55 · CLAUDE 2 MASTER ===
+- PRONTA: psicologia-I-II-lez01 (50:02,5, 237,8 MiB, t_verifica 2979,2, t_compiti 2992,4). Consegna sul ramo consegna-psicologia-I-II-lez01.
+- storia-arte-V-lez01: test finale = Excel del docente (ramo consegna-storia-arte-V-lez01, sostituita la proposta).
+- In corso: psicologia-I-II-lez02.

@@ -1,9 +1,11 @@
 # QUADRO · CLAUDE 2 · MASTER — aggiornato 11/11/2026 21:45 (ora italiana)
 
 ## PRONTE NUOVE
-- storia-arte-V-lez01 · PRONTA 11/11 (72:46, 388,1 MiB, 131000 fotogrammi, −16,5 LUFS, 6 Quiz a 0,0 s). t_verifica 4347,93 · t_compiti 4361,43. Consegna sul ramo consegna-storia-arte-V-lez01 (5 pezzi da 90 MiB: l'upload alla release dà 415). Test finale = proposta da validare. Sottotitoli: qualche parola da spuntare.
+- storia-arte-V-lez01 · PRONTA 11/11 (72:46, 388,1 MiB, 131000 fotogrammi, −16,5 LUFS, 6 Quiz a 0,0 s). t_verifica 4347,93 · t_compiti 4361,43. Consegna sul ramo consegna-storia-arte-V-lez01 (5 pezzi da 90 MiB: l'upload alla release dà 415). Test finale = Excel del docente (ricevuto da Sara l'11/11). Sottotitoli: qualche parola da spuntare.
 
-## IN CORSO (un agente alla volta, ordine di Sara): psicologia lez01 → psicologia lez02. In pausa: letteratura lez03, ideazione lez01, economia lez02.
+- psicologia-I-II-lez01 · PRONTA 11/11 (50:02,5, 237,8 MiB, 90076 fotogrammi, −16,8 LUFS, 5 Quiz a 0,0 s). t_verifica 2979,2 · t_compiti 2992,4. Consegna: ramo consegna-psicologia-I-II-lez01 (3 pezzi). Test = Excel della docente. Sottotitoli: 65% crudo, da spuntare. Schede titolo/Quiz allungate per arrivare a 50 min.
+
+## IN CORSO (un agente alla volta, ordine di Sara): psicologia lez02 (14 voci arrivate). In pausa: letteratura lez03, ideazione lez01, economia lez02.
 
 Fonte: rami stato-* e voci-* (letti 10/11 22:40). Ore = STIMA. Le 14 PRONTE non si ricodificano: verifica e compiti li aggiunge la pagina (nota master 1 22:40).
 
