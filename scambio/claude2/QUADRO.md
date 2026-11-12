@@ -5,7 +5,9 @@
 
 - psicologia-I-II-lez01 · PRONTA 11/11 (50:02,5, 237,8 MiB, 90076 fotogrammi, −16,8 LUFS, 5 Quiz a 0,0 s). t_verifica 2979,2 · t_compiti 2992,4. Consegna: ramo consegna-psicologia-I-II-lez01 (3 pezzi). Test = Excel della docente. Sottotitoli: 65% crudo, da spuntare. Schede titolo/Quiz allungate per arrivare a 50 min.
 
-## IN CORSO (un agente alla volta, ordine di Sara): psicologia lez02 (14 voci arrivate). In pausa: letteratura lez03, ideazione lez01, economia lez02.
+- psicologia-I-II-lez02 · PRONTA 12/11 (73:16,6, 360,8 MiB, 131896 fotogrammi, −16 LUFS, 10 Quiz a 0,0 s). t_verifica 4373,2 · t_compiti 4391,5. Consegna: ramo consegna-psicologia-I-II-lez02 (5 pezzi). Sigla iniziale = SEGNAPOSTO di 15 s (sigla Psicologia non esiste). Sottotitoli: 61% crudo, mediana 0,08 s.
+
+## IN CORSO: nessuno. Prossimo da decidere con Sara. In pausa: letteratura lez03, ideazione lez01, economia lez02.
 
 Fonte: rami stato-* e voci-* (letti 10/11 22:40). Ore = STIMA. Le 14 PRONTE non si ricodificano: verifica e compiti li aggiunge la pagina (nota master 1 22:40).
 
