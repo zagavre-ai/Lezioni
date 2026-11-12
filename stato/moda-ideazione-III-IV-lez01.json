@@ -2,7 +2,7 @@
  "tag": "moda-ideazione-III-IV-lez01",
  "parti": {
   "1": {
-   "stato": "IN_MONTAGGIO",
+   "stato": "IN_CODIFICA",
    "voci": "kore",
    "quiz_ok": "si"
   }
@@ -22,7 +22,11 @@
   {
    "quando": "12/11 08:15",
    "testo": "12/11 08:30 UTC: tutte le schede e la webcam fatte; in corso montaggio dei pezzi, poi codifica."
+  },
+  {
+   "quando": "12/11 08:41",
+   "testo": "12/11 08:50 UTC: montaggio finito (72,35 min), codifica 1440p CRF 22 in corso."
   }
  ],
- "aggiornato": "2026-11-12 08:15:18"
+ "aggiornato": "2026-11-12 08:41:13"
 }
