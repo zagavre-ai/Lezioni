@@ -40,10 +40,14 @@
   {
    "quando": "12/11 07:26",
    "testo": "12/11 07:30 video 1440p fatto: 62:12,9, 111988 fotogrammi, 261,8 MiB, jingle ok, volume -16, fermi ok. Sottotitoli in rifacimento. t_verifica=3709.66 s (scheda Verifica 5 s), sigla finale 3716.27, t_compiti=3722.87 (intro Compiti 3,47 s), scheda Compiti 3727.93-3732.93"
+  },
+  {
+   "quando": "12/11 07:32",
+   "testo": "12/11 ricodifica ultimi due gruppi (correzione grafica Quiz 3, Quiz 4, Compiti, ripasso finale); timeline invariata"
   }
  ],
  "materia": "Letteratura italiana (V)",
  "lezione": "Lezione 3 · Giosuè Carducci",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-12 07:26:49"
+ "aggiornato": "2026-11-12 07:32:19"
 }
