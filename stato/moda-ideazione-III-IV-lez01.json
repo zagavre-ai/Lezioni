@@ -3,7 +3,8 @@
  "parti": {
   "1": {
    "stato": "IN_MONTAGGIO",
-   "voci": "kore"
+   "voci": "kore",
+   "quiz_ok": "si"
   }
  },
  "manca": "",
@@ -17,7 +18,11 @@
   {
    "quando": "11/11 13:08",
    "testo": "11/11 13:10 UTC: trascrizione, struttura (9 argomenti), sincronia e 76 slide fatte; in corso webcam composta e schede (R/T/Q). Quiz: 9 domande della docente + 36 nuove da approvare (quiz_proposta.txt)."
+  },
+  {
+   "quando": "12/11 08:15",
+   "testo": "12/11 08:30 UTC: tutte le schede e la webcam fatte; in corso montaggio dei pezzi, poi codifica."
   }
  ],
- "aggiornato": "2026-11-11 13:08:40"
+ "aggiornato": "2026-11-12 08:15:18"
 }
