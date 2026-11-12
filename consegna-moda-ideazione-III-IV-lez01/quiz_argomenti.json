@@ -1,0 +1,497 @@
+{
+ "Q1": {
+  "title": "Quiz 1 · I Sumeri: società e arte",
+  "items": [
+   {
+    "p": "Chi governava le città-stato indipendenti dei Sumeri intorno al 3000 a.C.?",
+    "a": "Il re-sacerdote (patesi) e il capo militare (lugal).",
+    "w": [
+     "Esclusivamente un'oligarchia di proprietari terrieri e commercianti.",
+     "Un consiglio di scribi controllato da ispettori reali assiri.",
+     "Un satrapo imperiale affiancato da funzionari di corte medi."
+    ],
+    "e": "Le città-stato sumere (Ur, Uruk, Nippur, Lagash) erano governate dal re-sacerdote, il patesi, e dal capo militare, il lugal."
+   },
+   {
+    "p": "Quale invenzione culturale dei Sumeri è ricordata tra le più rilevanti?",
+    "a": "La scrittura cuneiforme, incisa con stili metallici su tavolette d'argilla.",
+    "w": [
+     "La scrittura geroglifica, dipinta con pennelli su fogli di papiro.",
+     "L'alfabeto fonetico, scritto con inchiostro su pergamene di pelle.",
+     "La scrittura a nodi, ottenuta annodando cordicelle di lana colorata."
+    ],
+    "e": "I Sumeri inventarono la scrittura cuneiforme, incisa con stili metallici su tavolette d'argilla."
+   },
+   {
+    "p": "Chi faceva parte della prima fascia sociale sumera?",
+    "a": "Sacerdoti, funzionari di corte, scribi, guerrieri, proprietari terrieri e commercianti.",
+    "w": [
+     "Operai, contadini e soldati arruolati in caso di conflitti.",
+     "Gli schiavi, assistiti in vecchiaia dalla comunità.",
+     "Soltanto il re-sacerdote e il capo militare."
+    ],
+    "e": "La prima fascia comprendeva le professioni più alte; operai, contadini e soldati erano la seconda, gli schiavi la terza."
+   },
+   {
+    "p": "Che cos'è una ziggurat?",
+    "a": "Una piramide a gradoni con un tempio sulla sommità.",
+    "w": [
+     "Una tomba reale scavata sotto terra, con statuette votive.",
+     "Una cinta muraria doppia decorata con draghi e tori.",
+     "Un palazzo a otto piani con giardini pensili."
+    ],
+    "e": "Le imponenti ziggurat esprimevano la religiosità e il potere regale dei Sumeri."
+   },
+   {
+    "p": "Che cosa indica il principio «peso ed equilibrio» nelle regole compositive sumere?",
+    "a": "Una composizione simmetrica che si alleggerisce verso l'alto grazie al decrescere delle balze.",
+    "w": [
+     "Una struttura rigida e massiccia, simile a parallelepipedi sovrapposti.",
+     "Una scansione orizzontale decrescente verso l'alto e costante in verticale.",
+     "Una composizione asimmetrica che si appesantisce verso l'alto."
+    ],
+    "e": "Il volume è la struttura rigida, il ritmo la scansione orizzontale; peso ed equilibrio è la simmetria che si alleggerisce verso l'alto."
+   }
+  ]
+ },
+ "Q2": {
+  "title": "Quiz 2 · Il kaunakès e il costume sumero",
+  "items": [
+   {
+    "p": "Qual era l'indumento principale maschile della civiltà sumera?",
+    "a": "Il kaunakès, una gonna priva di cuciture avvolta intorno al corpo e fermata da una cintura.",
+    "w": [
+     "Il kandys, una tunica talare a maniche corte con decorazioni geometriche.",
+     "Gli anaxyrides, calzoni aderenti in pelle o stoffa.",
+     "Il bashliq, un cappuccio floscio in feltro con bande copriorecchie."
+    ],
+    "e": "Il kaunakès è la gonna senza cuciture avvolta intorno al corpo e fermata da una cintura."
+   },
+   {
+    "p": "Secondo la prima tesi formulata dagli studiosi, con quale materiale era originariamente realizzato il kaunakès sumero?",
+    "a": "Con pelle di pecora originale indossata con la lana rivolta verso l'esterno.",
+    "w": [
+     "Con pelo di capra o pecora intrecciato artificialmente per imitare il vello.",
+     "Con strisce di tessuto rettangolari cucite su un fondo semplice.",
+     "Con feltro compatto ottenuto battendo strati di lana e crine umidi."
+    ],
+    "e": "La prima ipotesi lo identifica con la pelle di pecora originale, indossata con la lana all'esterno."
+   },
+   {
+    "p": "Quale modello di gonna kaunakès era riservato esclusivamente ai sovrani e alle divinità?",
+    "a": "La gonna talare, lunga fino alle caviglie con ricche balze asimmetriche e frangiate.",
+    "w": [
+     "La gonna semplice, priva di frange ad eccezione del bordo inferiore.",
+     "La gonna nobile, con balze sovrapposte e una coda posteriore.",
+     "La gonna a teli, caratterizzata da una linea a trapezio con tagli verticali."
+    ],
+    "e": "La gonna talare, lunga fino alle caviglie e con ricche balze frangiate, era riservata a re e divinità."
+   },
+   {
+    "p": "Con il dominio dei Gutei, che cosa sostituì la gonna a balze?",
+    "a": "Un elegante drappeggio asimmetrico che passava sotto l'ascella destra per risalire sulla spalla sinistra.",
+    "w": [
+     "Una tunica a maniche lunghe stretta in vita da una cintura.",
+     "Calzoni aderenti in feltro con stivali al polpaccio.",
+     "Un mantello rettangolare fissato da una fibbia sulla spalla destra."
+    ],
+    "e": "Sotto i Gutei il drappeggio asimmetrico prese il posto della gonna a balze."
+   },
+   {
+    "p": "Come veniva chiamata la barba maschile folta, arricciata sulle guance e sul mento e senza baffi?",
+    "a": "Barba e collana.",
+    "w": [
+     "Barba quadrata a strati sovrapposti.",
+     "Barba a piani riccioli.",
+     "Barba a torciglione."
+    ],
+    "e": "Nel costume sumero la barba arricciata senza baffi era detta «barba e collana»; la barba quadrata a strati è degli Assiro-Babilonesi."
+   }
+  ]
+ },
+ "Q3": {
+  "title": "Quiz 3 · Le gonne nel disegno di moda",
+  "items": [
+   {
+    "p": "Quanti modelli principali di gonna si individuano nell'analisi per il disegno di moda?",
+    "a": "Quattro: gonna a teli, con baschina alta, con baschina e con baschina bassa.",
+    "w": [
+     "Tre: semplice, nobile e talare.",
+     "Due: corta al ginocchio e lunga alle caviglie.",
+     "Sei: una per ogni fascia sociale e per ogni sesso."
+    ],
+    "e": "Le tre gonne semplice, nobile e talare sono i tipi di kaunakès; i modelli del disegno di moda sono quattro."
+   },
+   {
+    "p": "Quale effetto ha la gonna a teli, con linea a trapezio e tagli verticali?",
+    "a": "Una composizione simmetrica che slancia la figura.",
+    "w": [
+     "Un'immagine appesantita, che abbassa e allarga la silhouette.",
+     "Un taglio asimmetrico spostato verso il basso.",
+     "Una parte frangiata prevalente che copre la baschina."
+    ],
+    "e": "I tagli verticali e la linea a trapezio slanciano la figura."
+   },
+   {
+    "p": "Quale gonna ha una suddivisione orizzontale che appesantisce la figura, tendendo ad abbassare e allargare la silhouette?",
+    "a": "La gonna con baschina.",
+    "w": [
+     "La gonna a teli.",
+     "La gonna con baschina alta.",
+     "La gonna semplice, priva di frange."
+    ],
+    "e": "La suddivisione orizzontale appesantisce: è la gonna con baschina."
+   },
+   {
+    "p": "Nella gonna con baschina alta, che cosa controbilancia la baschina?",
+    "a": "La parte frangiata prevalente, che mantiene un effetto slanciato.",
+    "w": [
+     "Un taglio asimmetrico spostato verso il basso.",
+     "Una linea a trapezio con tagli verticali.",
+     "Una coda posteriore sollevata sulla spalla."
+    ],
+    "e": "Il taglio orizzontale è in alto e la parte frangiata prevalente lo controbilancia: la figura resta slanciata."
+   },
+   {
+    "p": "Che cosa definivano le variazioni di forma e lunghezza della gonna kaunakès?",
+    "a": "L'importanza del personaggio.",
+    "w": [
+     "Soltanto la stagione dell'anno.",
+     "Il mestiere artigiano di chi la confezionava.",
+     "La città di provenienza di chi la indossava."
+    ],
+    "e": "Forma e lunghezza della gonna indicavano il rango e l'importanza di chi la portava."
+   }
+  ]
+ },
+ "Q4": {
+  "title": "Quiz 4 · Lo stendardo di Ur e le statue",
+  "items": [
+   {
+    "p": "Di quali materiali è fatto lo Stendardo di Ur?",
+    "a": "Una cassetta di legno intarsiata con conchiglia, lapislazzuli e calcare rosso su un fondo di asfalto.",
+    "w": [
+     "Una lastra di alabastro scolpita con bassorilievi policromi.",
+     "Una stele di pietra con iscrizioni cuneiformi.",
+     "Un pannello di mattoni vetrificati smaltati."
+    ],
+    "e": "Lo Stendardo di Ur è una cassetta di legno alta 20 cm, intarsiata su quattro facce."
+   },
+   {
+    "p": "Nello Stendardo di Ur, come viene identificato visivamente il costume del re rispetto a quello delle altre classi sociali?",
+    "a": "Per l'uso di una gonna kaunakès lunga fino alle caviglie con ricche frange sovrapposte.",
+    "w": [
+     "Per un gonnellino semplice avvolto intorno ai fianchi e privo di frange.",
+     "Per un ampio drappo asimmetrico in vello di pecora appoggiato sul dorso.",
+     "Per lunghe vesti a balze frangiate e un copricapo speciale a corna multiple."
+    ],
+    "e": "Il re si riconosce dalla gonna kaunakès lunga fino alle caviglie con ricche frange sovrapposte."
+   },
+   {
+    "p": "Come è rappresentato il costume del servo nello Stendardo di Ur?",
+    "a": "Con un gonnellino semplice avvolto intorno ai fianchi e privo di frange.",
+    "w": [
+     "Con una gonna talare a balze frangiate.",
+     "Con un ampio drappo asimmetrico in vello di pecora sul dorso.",
+     "Con lunghe vesti a balze e un copricapo a corna multiple."
+    ],
+    "e": "Il servo indossa un gonnellino semplice, senza frange."
+   },
+   {
+    "p": "Come è sempre rappresentato il costume del dio?",
+    "a": "Con lunghe vesti a balze frangiate e un copricapo speciale a corna multiple.",
+    "w": [
+     "Con un gonnellino semplice privo di frange.",
+     "Con un drappo in vello di pecora e una gonna lunga.",
+     "Con una corazza in cuoio e un elmo aderente."
+    ],
+    "e": "Il dio ha lunghe vesti a balze frangiate e il copricapo a corna multiple."
+   },
+   {
+    "p": "Che cosa si osserva nella statua del sovrano Gudea?",
+    "a": "Un ampio scialle rettangolare di lana, drappeggiato asimmetricamente sotto l'ascella destra.",
+    "w": [
+     "Una gonna a metà gamba con la coda sollevata sulla spalla.",
+     "Una gonna kaunakès corta con un casco aderente di cuoio.",
+     "Un gonnellino semplice avvolto intorno ai fianchi."
+    ],
+    "e": "Gudea indossa uno scialle rettangolare che copre la spalla e il braccio sinistro."
+   }
+  ]
+ },
+ "Q5": {
+  "title": "Quiz 5 · Copricapi, acconciature e scialle-mantello",
+  "items": [
+   {
+    "p": "Che cosa riproduce il casco d'oro di Meskalamdug?",
+    "a": "L'acconciatura dei sovrani, con una fascia frontale a calotta e una crocchia posteriore a protezione della nuca.",
+    "w": [
+     "Una tiara a corna multiple riservata alle divinità.",
+     "Un turbante avvolto con vari giri di bende.",
+     "Un elmo conico e appuntito con un sottogola."
+    ],
+    "e": "Il casco d'oro riproduce l'acconciatura tipica dei sovrani."
+   },
+   {
+    "p": "Che cosa indicava il rango di una divinità nella tiara a corna multiple?",
+    "a": "Il numero di corna presenti.",
+    "w": [
+     "Il colore della stoffa.",
+     "L'altezza del puntale.",
+     "Il numero di giri di benda."
+    ],
+    "e": "Più corna, più alto il rango divino."
+   },
+   {
+    "p": "Quale acconciatura femminile era tipica delle sacerdotesse?",
+    "a": "Lo chignon a corona, alto dietro la nuca e decorato da un nastro centrale.",
+    "w": [
+     "La scriminatura centrale con i capelli dietro le orecchie.",
+     "I capelli sciolti con un nastro incrociato sulla fronte.",
+     "Un basso chignon interamente coperto da un velo."
+    ],
+    "e": "Lo chignon a corona è tipico delle sacerdotesse."
+   },
+   {
+    "p": "Che cos'è la tiara a polos?",
+    "a": "Un copricapo rigido che si allarga verso l'alto, fermato da un nastro alla base.",
+    "w": [
+     "Un cappuccio floscio di feltro con bande copriorecchie.",
+     "Una tiara troncoconica sormontata da un puntale.",
+     "Un turbante a strati avvolto intorno alla testa."
+    ],
+    "e": "Il polos è rigido, si allarga verso l'alto ed è fermato da un nastro alla base."
+   },
+   {
+    "p": "A quale indumento richiama lo scialle della statua della moglie di Gudea?",
+    "a": "Al sari indiano.",
+    "w": [
+     "Alla toga romana.",
+     "Al kimono giapponese.",
+     "Al poncho andino."
+    ],
+    "e": "Lo scialle drappeggiato richiama la struttura del sari indiano."
+   }
+  ]
+ },
+ "Q6": {
+  "title": "Quiz 6 · Babilonesi e Assiri",
+  "items": [
+   {
+    "p": "Su quale principio si basavano le pene del codice di Hammurabi?",
+    "a": "Sulla legge del taglione: il colpevole subiva la stessa offesa arrecata.",
+    "w": [
+     "Sul pagamento di tributi al tempio.",
+     "Sul perdono concesso dal re-sacerdote.",
+     "Sull'esilio per un anno dalla città."
+    ],
+    "e": "Il codice, di 282 norme, applicava la legge del taglione."
+   },
+   {
+    "p": "Qual era la capitale dell'impero assiro?",
+    "a": "Ninive.",
+    "w": [
+     "Ur.",
+     "Susa.",
+     "Persepoli."
+    ],
+    "e": "Gli Assiri crearono un vasto impero con capitale Ninive."
+   },
+   {
+    "p": "Come variava la lunghezza della tunica kandys?",
+    "a": "Corta al ginocchio per soldati e lavoratori, lunga alle caviglie per sovrano, sacerdoti e alti funzionari.",
+    "w": [
+     "Era più lunga per i soldati e più corta per il sovrano.",
+     "Era sempre lunga fino ai piedi per tutti.",
+     "Variava solo con la stagione dell'anno."
+    ],
+    "e": "La lunghezza del kandys dipendeva dal rango sociale."
+   },
+   {
+    "p": "Che cos'era la tiara nota come kirbase?",
+    "a": "La tiara troncoconica sormontata da un puntale, ad uso esclusivo del sovrano assiro-babilonese.",
+    "w": [
+     "Un copricapo rigido femminile che si allarga verso l'alto, fermato da un nastro alla base.",
+     "Un cappuccio floscio in feltro con bande copriorecchie usato dai Persiani.",
+     "Un turbante a strati avvolto intorno alla testa con vari giri di bende."
+    ],
+    "e": "Il kirbase è la tiara troncoconica con puntale, esclusiva del sovrano."
+   },
+   {
+    "p": "Come è chiamata la colossale ziggurat di Babilonia?",
+    "a": "Torre di Babele, alta 100 metri.",
+    "w": [
+     "Porta di Ishtar, decorata con draghi e tori.",
+     "Giardini pensili di Semiramide.",
+     "Apadana, sala delle udienze."
+    ],
+    "e": "La Torre di Babele aveva la cima d'oro, visibile a 15 chilometri."
+   }
+  ]
+ },
+ "Q7": {
+  "title": "Quiz 7 · La corte assira di Til-Barsib",
+  "items": [
+   {
+    "p": "Quali ruoli sono raffigurati nell'udienza reale di Til-Barsib?",
+    "a": "Guardia reale, servitori, re, tartan, dignitari, introduttore e ufficiale militare.",
+    "w": [
+     "Soltanto il re e la regina.",
+     "Sacerdoti, scribi e commercianti.",
+     "Arcieri e cavalieri persiani."
+    ],
+    "e": "L'affresco mostra l'organizzazione cerimoniale della corte assira."
+   },
+   {
+    "p": "Nell'affresco del Palazzo Reale di Til-Barsib, quali elementi caratterizzano il costume dell'alto funzionario denominato tartan?",
+    "a": "Una lunga tunica frangiata e uno scialle asimmetrico.",
+    "w": [
+     "Una tunica a scacchi e uno scialle kaunakès sulle spalle.",
+     "Un kandys talare a scacchi rossi e azzurri e la tiara kirbase.",
+     "Un kandys al ginocchio con decorazioni geometriche e stivali aperti."
+    ],
+    "e": "Il tartan, alto funzionario, porta una lunga tunica frangiata e uno scialle asimmetrico."
+   },
+   {
+    "p": "Chi sono i servitori dell'affresco di Til-Barsib?",
+    "a": "Giovani efebi con tunica a scacchi che sorreggono lo scialle kaunakes.",
+    "w": [
+     "Ufficiali con kandys al ginocchio e stivali aperti.",
+     "Uomini con un elmo metallico appuntito.",
+     "Il re con scettro e tiara kirbase."
+    ],
+    "e": "I servitori sono giovani efebi che sorreggono lo scialle kaunakes sulle spalle."
+   },
+   {
+    "p": "Quale abito introduce la statua in steatite del governatore di Idi-Ilum?",
+    "a": "Un abito a campana con sopraveste rifinita da frange a nodini.",
+    "w": [
+     "Un kandys talare a scacchi rossi e azzurri.",
+     "Una tunica a maniche corte con scollo a V.",
+     "Una gonna kaunakès corta con elmo di cuoio."
+    ],
+    "e": "La statua di Idi-Ilum introduce l'abito a campana."
+   },
+   {
+    "p": "Che cosa indossa Assurnasirpal II nella sua scultura?",
+    "a": "Una lunga tunica a maniche corte coperta da uno scialle kaunakes fermato da un cordone metallico.",
+    "w": [
+     "Un abito a campana con frange a nodini.",
+     "Un gonnellino semplice senza frange.",
+     "Un mantello militare borchiato."
+    ],
+    "e": "Lo scialle kaunakes poteva essere drappeggiato asimmetrico oppure avvolto a gonna."
+   }
+  ]
+ },
+ "Q8": {
+  "title": "Quiz 8 · I Persiani",
+  "items": [
+   {
+    "p": "Come si chiamavano le province dell'impero persiano?",
+    "a": "Satrapie, governate da un satrapo.",
+    "w": [
+     "Patesie, governate da un patesi.",
+     "Ziggurat, amministrate dai sacerdoti.",
+     "Terrazze, amministrate da scribi."
+    ],
+    "e": "Le satrapie erano controllate dagli ispettori reali, gli occhi e le orecchie del re."
+   },
+   {
+    "p": "Quali novità sartoriali introdussero i Persiani per adattarsi al clima delle loro fredde regioni montuose d'origine?",
+    "a": "L'uso di pantaloni, tuniche con maniche applicate e copricapi in feltro.",
+    "w": [
+     "Lo scialle-mantello drappeggiato a spirale con frange a nodini.",
+     "Gonne a balze prive di cuciture realizzate in lana sbiancata.",
+     "Vesti asimmetriche che lasciavano scoperta la spalla destra."
+    ],
+    "e": "Originari di regioni montuose e fredde, i Persiani inventarono i pantaloni."
+   },
+   {
+    "p": "Che cosa sono gli anaxyrides nell'abbigliamento cerimoniale persiano?",
+    "a": "I calzoni aderenti in pelle o stoffa, chiamati successivamente dai romani stile palmireno.",
+    "w": [
+     "Le tuniche interne più strette e aderenti adagiate sotto la sopraveste.",
+     "I cappucci flosci in morbido feltro dotati di bande copriorecchie.",
+     "Le sopravesti ampie lunghe fino alle caviglie con maniche a saio e bottoni."
+    ],
+    "e": "Gli anaxyrides sono i calzoni aderenti in pelle o stoffa."
+   },
+   {
+    "p": "Come veniva fabbricato il feltro?",
+    "a": "Premendo strati di lana e crine umidi e battendoli con bastoni fino a renderli compatti.",
+    "w": [
+     "Intrecciando fili di lino sul telaio.",
+     "Cucendo strisce di pelle di pecora.",
+     "Incollando piume su un fondo di tela."
+    ],
+    "e": "Il feltro si ottiene pressando lana e crine umidi."
+   },
+   {
+    "p": "Che cos'era la strada reale persiana?",
+    "a": "Una via di comunicazione lunga 2700 km, percorsa da messaggeri a cavallo in una settimana.",
+    "w": [
+     "Una via di 270 km, percorsa in un giorno da carovane di cammelli.",
+     "Un canale navigabile tra Susa e Babilonia.",
+     "Una scalinata monumentale del Palazzo Reale."
+    ],
+    "e": "La strada reale garantiva stabilità e velocità delle comunicazioni."
+   }
+  ]
+ },
+ "Q9": {
+  "title": "Quiz 9 · Arcieri e delegazioni di Persepoli",
+  "items": [
+   {
+    "p": "In quale materiale è realizzata la raffigurazione degli arcieri della guardia reale?",
+    "a": "Mattoni vetrificati smaltati, dal Palazzo di Dario a Susa.",
+    "w": [
+     "Alabastro con bassorilievi policromi.",
+     "Diorite, alta 17 cm.",
+     "Steatite, alta 41 cm."
+    ],
+    "e": "Gli arcieri sono un capolavoro in mattoni vetrificati, alto 1,83 metri."
+   },
+   {
+    "p": "Come erano i pomoli delle lance degli Immortali?",
+    "a": "D'oro per i primi 1000 combattenti e d'argento per gli altri 9000.",
+    "w": [
+     "Tutti d'oro.",
+     "D'argento per gli ufficiali e di ferro per i soldati.",
+     "Di bronzo per i primi 9000 e d'oro per gli altri."
+    ],
+    "e": "I 10000 Immortali erano distinti dai pomoli delle lance."
+   },
+   {
+    "p": "Com'è la tunica degli arcieri della guardia reale?",
+    "a": "Ampia, in cotone o lana, con maniche voluminose riprese all'omero e cintura sotto il torace.",
+    "w": [
+     "Corta e aderente, con corazza di cuoio.",
+     "Lunga e frangiata, con scialle asimmetrico.",
+     "A scacchi rossi e azzurri con scollo a V."
+    ],
+    "e": "È una tunica ampia con maniche voluminose, fermata da una cintura sotto il torace."
+   },
+   {
+    "p": "Quale delegazione di Persepoli porta il copricapo a turbante chiamato sakkos?",
+    "a": "La delegazione di Lidia o Siria.",
+    "w": [
+     "La delegazione della Cappadocia.",
+     "La delegazione dei battriani.",
+     "La delegazione della Cilicia."
+    ],
+    "e": "Il sakkos è il turbante della delegazione di Lidia o Siria; la Cappadocia ha il bashliq."
+   },
+   {
+    "p": "Che cosa richiama la linea a trapezio dell'abito moderno del figurino?",
+    "a": "La gonna sumera, con balze sovrapposte che simulano il ritmo del kaunakès.",
+    "w": [
+     "La tunica kandys assira.",
+     "La veste persiana a saio.",
+     "Lo scialle-mantello avvolto a spirale."
+    ],
+    "e": "Il figurino reinterpreta la struttura a balze del kaunakès."
+   }
+  ]
+ }
+}
