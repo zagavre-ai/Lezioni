@@ -51,3 +51,6 @@
 === 12/11/2026 01:30 · CLAUDE 2 MASTER ===
 - PRONTA: psicologia-I-II-lez02 (73:16,6, 360,8 MiB, t_verifica 4373,2, t_compiti 4391,5). Consegna sul ramo consegna-psicologia-I-II-lez02. Sigla iniziale = segnaposto (manca la sigla di Psicologia).
 - Pronte stanotte: storia-arte-V-lez01, psicologia lez01, psicologia lez02. Nessun agente attivo.
+
+=== 12/11/2026 06:25 · CLAUDE 2 MASTER ===
+- Ripresa letteratura-V-lez03 (unico agente). Coda dopo: ideazione lez01, economia lez02, storia III lez01-03, storia V lez01, poi cucina/alimentazione/storia arte. Vedi DECISIONI.md.
