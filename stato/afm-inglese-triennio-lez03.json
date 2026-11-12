@@ -2,42 +2,17 @@
  "tag": "afm-inglese-triennio-lez03",
  "parti": {
   "1": {
-   "titolo": "Production",
-   "stato": "FERMA"
+   "stato": "IN_MONTAGGIO"
   }
  },
- "manca": "video della docente non presenti nella release afm-inglese-triennio-lez03 (ci sono solo Dispensa.pdf e Verifica.xlsx)",
- "serve_master": [
-  {
-   "quando": "08/11 14:03",
-   "testo": "Caricare i video della Lez. 3 nella release afm-inglese-triennio-lez03. Intanto preparo quiz, testi narratore, dispensa, test e grafiche."
-  },
-  {
-   "quando": "08/11 14:05",
-   "testo": "Testi voci definitivi nel ramo voci-afm-inglese-triennio-lez03: INTRO1 R1-R5 S1-S5 GL1 RF1 FIN1 (inglese B1, Kore, 4.936 caratteri). Eventuali AN solo dopo aver visto la durata del video."
-  },
-  {
-   "quando": "08/11 16:14",
-   "testo": "ANCORA FERMA (00:15 UTC): nella release afm-inglese-triennio-lez03 manca il video della docente. Tutto il resto è pronto (voci importate, grafiche, quiz, test, dispensa); appena il video c'è, monto subito. Sigla nuova già inserita."
-  }
- ],
+ "manca": "",
+ "serve_master": [],
  "domande_sara": [],
  "note": [
   {
-   "quando": "08/11 14:11",
-   "testo": "Pronti senza video: quiz 5x5 (inglese), test finale della docente (10 domande), dispensa A4 orizzontale 44 pagine, schede titolo e Quiz, glossario e ripasso finale (in attesa delle voci). Refusi corretti nelle slide: 'It consists in', 'costs increase', 'governments offer', 'it has'; righe sovrapposte del PDF (Primary/Secondary sector) ricostruite."
-  },
-  {
-   "quando": "08/11 14:35",
-   "testo": "Voci Kore ricevute e importate (14/14, nessuna frase mancante). In corso: schede ripasso, schemi, glossario, ripasso finale. Video ancora assente nella release."
-  },
-  {
-   "quando": "09/11 02:19",
-   "testo": "pausa"
+   "quando": "12/11 09:34",
+   "testo": "12/11 ripresa: video scaricati, ASR in corso, voci Kore 14/14"
   }
  ],
- "materia": "Inglese (AFM triennio)",
- "lezione": "Lezione 3 · Production",
- "docente": "Prof.ssa Maria Vittoria Fontanesi",
- "aggiornato": "2026-11-09 02:19:25"
+ "aggiornato": "2026-11-12 09:34:04"
 }
