@@ -9,7 +9,9 @@
 
 - letteratura-V-lez03 · PRONTA 12/11 (62:12,9, 261,6 MiB, 111988 fotogrammi, −16,0 LUFS, 4 Quiz a 0,000 s). t_verifica 3709,66 · t_compiti 3722,87. Consegna: ramo consegna-letteratura-V-lez03 (3 pezzi). Nessun Excel del docente (test da fare). Sottotitoli rifatti per tratti (-ss), controllati su 5 punti.
 
-## IN CORSO: moda-ideazione-III-IV-lez01. Coda: inglese lez03, economia lez02, storia III 1-3, storia V 1, cucina/alimentazione, storia arte 3-5. In pausa: letteratura lez03, ideazione lez01, economia lez02.
+- moda-ideazione-III-IV-lez01 · PRONTA 12/11 (72:21, 293,9 MiB, 130238 fotogrammi, −16,1 LUFS, 9 Quiz a 0,0 s). t_verifica 4316,664 · t_compiti 4329,864. Consegna: ramo consegna-moda-ideazione-III-IV-lez01 (4 pezzi). Test = Excel della docente. Da sapere: ~12 s di webcam quasi ferma in D4 (1366–1376 e 1447–1460 s) per la registrazione originale; controllo_finale «DA SISTEMARE» su 2 voci (da riascoltare). Quiz: 9 dal test della docente + 36 scritti.
+
+## IN CORSO: afm-inglese-triennio-lez03 (4 video OK). Coda: economia lez02, storia III 1-3, storia V 1, cucina/alimentazione, storia arte 3-5. In pausa: letteratura lez03, ideazione lez01, economia lez02.
 
 Fonte: rami stato-* e voci-* (letti 10/11 22:40). Ore = STIMA. Le 14 PRONTE non si ricodificano: verifica e compiti li aggiunge la pagina (nota master 1 22:40).
 
