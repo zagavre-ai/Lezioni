@@ -11,7 +11,7 @@
 
 - moda-ideazione-III-IV-lez01 · PRONTA 12/11 (72:21, 293,9 MiB, 130238 fotogrammi, −16,1 LUFS, 9 Quiz a 0,0 s). t_verifica 4316,664 · t_compiti 4329,864. Consegna: ramo consegna-moda-ideazione-III-IV-lez01 (4 pezzi). Test = Excel della docente. Da sapere: ~12 s di webcam quasi ferma in D4 (1366–1376 e 1447–1460 s) per la registrazione originale; controllo_finale «DA SISTEMARE» su 2 voci (da riascoltare). Quiz: 9 dal test della docente + 36 scritti.
 
-## IN CORSO: afm-inglese-triennio-lez03 (4 video OK). Coda: economia lez02, storia III 1-3, storia V 1, cucina/alimentazione, storia arte 3-5. In pausa: letteratura lez03, ideazione lez01, economia lez02.
+## IN CORSO: moda-economia-III-IV-lez02 (rifacimento). Coda: storia III 1-3, cucina/alimentazione, storia arte 3-5.
 
 Fonte: rami stato-* e voci-* (letti 10/11 22:40). Ore = STIMA. Le 14 PRONTE non si ricodificano: verifica e compiti li aggiunge la pagina (nota master 1 22:40).
 
@@ -27,7 +27,7 @@ Fonte: rami stato-* e voci-* (letti 10/11 22:40). Ore = STIMA. Le 14 PRONTE non 
 | tag | lezione | motivo / che cosa manca |
 |---|---|---|
 | moda-economia-III-IV-lez02 | Moda e filiera | era completa sulla macchina dell'account 1, file non su GitHub: va rifatta (18 voci Kore esistenti). Parte appena si libera un agente |
-| afm-inglese-triennio-lez03 | Production | FERMA: nella release manca ancora il video della docente |
+| afm-inglese-triennio-lez03 | Production | PRONTA 12/11: 1 Parte, 3879,0 s, 116370 fotogrammi, 369,5 MiB, CRF 22, −16,0 LUFS, Quiz 0,000 s; t_verifica 3855,699 / t_compiti 3873,999 (da timeline). Ramo consegna-afm-inglese-triennio-lez03. APERTO: sottotitoli 64% entro 0,3 s (a campione ok ~1 s). Test: Test_Inglese_Lez3.xlsx nella consegna |
 | storia-III-lez01..03, storia-V-lez01 | Storia (Mazzotti) | nessuno stato; voci fatte (storia-V no ESITI). Da assegnare |
 | moda-tecnologie-III-lez01, 06, 07, 08; moda-laboratori-III-IV-lez01..05; alb-cucina-III-IV-lez05; afm-inglese lez04/05 | — | release presenti, nessuno stato: da confermare con Sara se sono di questa settimana |
 

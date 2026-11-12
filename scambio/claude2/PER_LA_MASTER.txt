@@ -70,3 +70,5 @@
 === 12/11/2026 sera · CLAUDE 2 MASTER ===
 - Storia V NON è di questa master (il prompt era per un altra chat). Tolto lo stato IN_MONTAGGIO di storia-V-lez01.
 - Il video «Imperialismo» nella release storia-arte-V-lez02 era di Storia V lez02: Storia dell arte V lez02 (Romanticismo) resta senza video.
+
+12/11 21:05 – PRONTA afm-inglese-triennio-lez03 (consegna-afm-inglese-triennio-lez03, verificata): 3879,0 s, 369,5 MiB, t_verifica 3855,699, t_compiti 3873,999. Sottotitoli da ricontrollare (64% entro 0,3 s). Bug render_slides.py (END fisso) corretto. Prossima: moda-economia-III-IV-lez02.
