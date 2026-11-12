@@ -26,6 +26,6 @@ Ogni zip è indipendente: scarica SOLO gli zip che contengono la tua lezione (`g
 | 20 | 004 · LEZIONE 20 GLI ANNI NOVANTA IL MONDO POST-BIPOLARE.mp4 · 1079 | 010 | 010 |
 | 21 | 001 · LEZIONE 21 IL MONDO DAL 2001 AD OGGI.mp4 · 1065 | **manca** | 003 |
 
-Il numero dello zip è l'ultima parte del nome: `…-1-001.zip` = 001. Lo zip 008 contiene i quiz: NON va usato (decisione della direzione, 12/11). Video ancora mancanti: lezioni 3, 4, 8, 10, 13, 17.
+Il numero dello zip è l'ultima parte del nome: `…-1-001.zip` = 001. Lo zip 008 contiene gli Excel delle verifiche del prof (test finale di ogni lezione): SERVONO, da caricare. Video ancora mancanti: lezioni 3, 4, 8, 10, 13, 17.
 Le lezioni 1 e 2 sono già avviate con le release `storia-V-lez01` e `storia-V-lez02`.
 Test finali e compiti: arrivano dalla direzione il 13/11; nel video restano le schede «Verifica finale» e «Compiti».
