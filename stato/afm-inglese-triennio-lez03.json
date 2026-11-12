@@ -2,7 +2,379 @@
  "tag": "afm-inglese-triennio-lez03",
  "parti": {
   "1": {
-   "stato": "IN_CODIFICA"
+   "stato": "PRONTA",
+   "voci": "kore",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "si",
+   "video": "Inglese_Lez3_Parte1_1440p.mp4",
+   "durata_s": 3879.0,
+   "durata": "64:39.0",
+   "fotogrammi": 116370,
+   "fotogrammi_attesi": 116371,
+   "peso_MB": 387.5,
+   "vtt": "Inglese_Lez3_Parte1.vtt",
+   "scheda": {
+    "materia": "Inglese",
+    "titolo": "Production · Parte 1",
+    "durata_s": 3879.02,
+    "argomenti": [
+     {
+      "n": 1,
+      "titolo": "Production and sectors of production",
+      "inizio_s": 54.033,
+      "quiz_s": 1991.599
+     },
+     {
+      "n": 2,
+      "titolo": "Economies of scale",
+      "inizio_s": 1996.899,
+      "quiz_s": 2552.099
+     },
+     {
+      "n": 3,
+      "titolo": "Quality control and smart manufacturing",
+      "inizio_s": 2557.399,
+      "quiz_s": 2990.232
+     },
+     {
+      "n": 4,
+      "titolo": "Relocation of business operations",
+      "inizio_s": 2995.532,
+      "quiz_s": 3496.565
+     },
+     {
+      "n": 5,
+      "titolo": "Focus: the circular economy",
+      "inizio_s": 3501.865,
+      "quiz_s": 3728.332
+     }
+    ],
+    "quiz": {
+     "Q1": {
+      "title": "Quiz 1 · Production and sectors of production",
+      "items": [
+       {
+        "p": "What is production?",
+        "a": "The process of making goods and providing services",
+        "w": [
+         "The process of selling goods at a lower price",
+         "The process of saving money in a bank",
+         "The process of buying raw materials only"
+        ],
+        "ref": "Production is the process of making goods and providing services."
+       },
+       {
+        "p": "Which of these is an example of non-durable goods?",
+        "a": "Food",
+        "w": [
+         "Cars",
+         "Furniture",
+         "Education"
+        ],
+        "ref": "Non-durable goods are consumed once or used in a short period of time, like food."
+       },
+       {
+        "p": "Which factor of production means human skills and work effort?",
+        "a": "Labour",
+        "w": [
+         "Land",
+         "Capital",
+         "Entrepreneurship"
+        ],
+        "ref": "Labour: human skills and work effort."
+       },
+       {
+        "p": "Which sector converts raw materials into semi-finished or finished goods?",
+        "a": "The secondary sector",
+        "w": [
+         "The primary sector",
+         "The tertiary sector",
+         "The quinary sector"
+        ],
+        "ref": "The secondary sector converts raw materials into semi-finished or finished goods (manufacturing, building, clothing, food)."
+       },
+       {
+        "p": "What is responsible sourcing?",
+        "a": "Considering social and environmental responsibilities when managing suppliers",
+        "w": [
+         "Buying raw materials always at the lowest price",
+         "Producing everything inside one country",
+         "Stopping all relationships with suppliers"
+        ],
+        "ref": "Responsible sourcing means that companies consider their social and environmental responsibilities when managing relationships with suppliers."
+       }
+      ]
+     },
+     "Q2": {
+      "title": "Quiz 2 · Economies of scale",
+      "items": [
+       {
+        "p": "What happens to the unit cost when a business expands its scale of production?",
+        "a": "It decreases",
+        "w": [
+         "It increases",
+         "It stays exactly the same",
+         "It disappears completely"
+        ],
+        "ref": "When a business expands its scale of production, there is a decrease in the unit cost."
+       },
+       {
+        "p": "Why do fixed costs help to create economies of scale?",
+        "a": "They are distributed across a higher number of units",
+        "w": [
+         "They grow with every unit produced",
+         "They are paid only by small businesses",
+         "They are paid by the government"
+        ],
+        "ref": "Fixed costs, like rent and administration, are distributed across a higher number of units."
+       },
+       {
+        "p": "Buying in bulk is an example of…",
+        "a": "an internal economy of scale",
+        "w": [
+         "an external economy of scale",
+         "a diseconomy of scale",
+         "offshoring"
+        ],
+        "ref": "Internal economies of scale come from the business itself: buying in bulk means a lower price per item."
+       },
+       {
+        "p": "Similar companies in the same geographical area, like the Ceramic Valley, are an example of…",
+        "a": "clustering",
+        "w": [
+         "division of labour",
+         "reshoring",
+         "quality control"
+        ],
+        "ref": "Clustering is an external economy of scale: similar companies in the same geographical area."
+       },
+       {
+        "p": "Which of these is a way to solve diseconomies of scale?",
+        "a": "Outsourcing certain processes to third-party providers",
+        "w": [
+         "Hiring more managers without a plan",
+         "Making administrative processes slower",
+         "Reducing communication between workers"
+        ],
+        "ref": "Diseconomies of scale can be solved with more efficient production, leaner administration and outsourcing."
+       }
+      ]
+     },
+     "Q3": {
+      "title": "Quiz 3 · Quality control and smart manufacturing",
+      "items": [
+       {
+        "p": "What does quality control (QC) ensure?",
+        "a": "That products meet standards of quality and safety before they are sold",
+        "w": [
+         "That products are always the cheapest on the market",
+         "That products are sold only abroad",
+         "That workers do not need training"
+        ],
+        "ref": "QC ensures that products meet certain standards of quality and safety before they are sold to the public."
+       },
+       {
+        "p": "Which of these is typically part of quality control?",
+        "a": "Visual inspections and testing of materials",
+        "w": [
+         "Moving the factory abroad",
+         "Increasing the price of products",
+         "Buying in bulk"
+        ],
+        "ref": "QC typically consists of visual inspections, testing of materials and equipment to detect defects."
+       },
+       {
+        "p": "Smart manufacturing is typical of…",
+        "a": "Industry 4.0",
+        "w": [
+         "the linear economy",
+         "the primary sector",
+         "the post-war period"
+        ],
+        "ref": "Smart manufacturing is typical of Industry 4.0, where machines and production systems are interconnected."
+       },
+       {
+        "p": "What do collaborative robots show?",
+        "a": "Human-machine interaction",
+        "w": [
+         "Clustering",
+         "Responsible sourcing",
+         "Production offshoring"
+        ],
+        "ref": "Human-machine interaction: people and automated systems work together to achieve shared goals (e.g. collaborative robots)."
+       },
+       {
+        "p": "What is a digital twin?",
+        "a": "A virtual replica used for testing",
+        "w": [
+         "A second factory in another country",
+         "A copy of a contract",
+         "A worker who does two jobs"
+        ],
+        "ref": "Augmented reality can create digital twins, virtual replicas for testing purposes."
+       }
+      ]
+     },
+     "Q4": {
+      "title": "Quiz 4 · Relocation of business operations",
+      "items": [
+       {
+        "p": "Why do large companies move some production activities to other countries?",
+        "a": "For lower labour costs and easier access to resources",
+        "w": [
+         "To pay higher taxes",
+         "To be further from their target markets",
+         "To increase shipping costs"
+        ],
+        "ref": "Companies relocate for easier access to resources, lower labour costs, environmental regulations and market access."
+       },
+       {
+        "p": "What is offshoring?",
+        "a": "Relocating business processes to different international locations due to lower costs",
+        "w": [
+         "Returning production to the country of origin",
+         "Selling products only online",
+         "Closing a business forever"
+        ],
+        "ref": "Offshoring: relocating business processes or operations to different international locations due to lower costs."
+       },
+       {
+        "p": "Moving customer service to another country is an example of…",
+        "a": "service offshoring",
+        "w": [
+         "production offshoring",
+         "reshoring",
+         "clustering"
+        ],
+        "ref": "Service offshoring is the relocation of support processes, like IT and customer service."
+       },
+       {
+        "p": "How is outsourcing different from offshoring?",
+        "a": "Outsourcing uses external organisations, but not necessarily in another country",
+        "w": [
+         "Outsourcing always happens in another country",
+         "Outsourcing means returning home",
+         "There is no difference"
+        ],
+        "ref": "Outsourcing involves contracting work out to external organisations, but it doesn't have to be in another country."
+       },
+       {
+        "p": "What is reshoring?",
+        "a": "When a business returns production to the country of origin",
+        "w": [
+         "When a business moves production abroad",
+         "When a business buys in bulk",
+         "When a business recycles materials"
+        ],
+        "ref": "Reshoring: when a business returns production or operations to the country of origin. It is the reverse of offshoring."
+       }
+      ]
+     },
+     "Q5": {
+      "title": "Quiz 5 · Focus: the circular economy",
+      "items": [
+       {
+        "p": "What does the circular economy consist in?",
+        "a": "Reusing and recycling materials to reduce consumption and waste",
+        "w": [
+         "Extracting more raw materials",
+         "Throwing products away after one use",
+         "Producing only in one country"
+        ],
+        "ref": "The circular economy consists in reusing and recycling materials to reduce consumption of raw materials and minimise waste and pollution."
+       },
+       {
+        "p": "In the linear economy, raw materials are…",
+        "a": "extracted, used and then thrown away",
+        "w": [
+         "always reused and repaired",
+         "returned to the Earth",
+         "never extracted"
+        ],
+        "ref": "In the linear economy raw materials are extracted, used and then thrown away."
+       },
+       {
+        "p": "The circular economy is an answer to which problems?",
+        "a": "Climate change, waste and pollution",
+        "w": [
+         "High taxes and low salaries",
+         "Bad marketing and low sales",
+         "Small factories and few workers"
+        ],
+        "ref": "Circular economy is an answer to the problems of climate change, waste and pollution."
+       },
+       {
+        "p": "In the technical cycle, products last longer thanks to…",
+        "a": "reusing, repairing and recycling",
+        "w": [
+         "buying new products more often",
+         "moving factories abroad",
+         "using more raw materials"
+        ],
+        "ref": "Technical cycle: products and materials last longer thanks to reusing, repairing and recycling."
+       },
+       {
+        "p": "What happens in the biological cycle?",
+        "a": "Nutrients from biodegradable materials are returned to the Earth",
+        "w": [
+         "Products are repaired in factories",
+         "Plastic is burned for energy",
+         "Materials are sent abroad"
+        ],
+        "ref": "Biological cycle: the nutrients from biodegradable materials are returned to the Earth."
+       }
+      ]
+     }
+    }
+   },
+   "timeline": [
+    [
+     "T1",
+     54.033,
+     3.6
+    ],
+    [
+     "Q1",
+     1991.599,
+     4.0
+    ],
+    [
+     "T2",
+     1996.899,
+     3.6
+    ],
+    [
+     "T3",
+     2557.399,
+     3.6
+    ],
+    [
+     "T4",
+     2995.532,
+     3.6
+    ],
+    [
+     "T5",
+     3501.865,
+     3.6
+    ],
+    [
+     "GL1",
+     3733.632,
+     62.8
+    ],
+    [
+     "RF1",
+     3798.032,
+     46.667
+    ],
+    [
+     "FIN1",
+     3846.099,
+     8.0
+    ]
+   ]
   }
  },
  "manca": "",
@@ -16,7 +388,11 @@
   {
    "quando": "12/11 20:04",
    "testo": "12/11 montaggio 64,65 min (una Parte); codifica CRF22 in corso; voci Kore 14/14"
+  },
+  {
+   "quando": "12/11 21:02",
+   "testo": "t_verifica=3855.699 t_compiti=3873.999 (intro Compiti 3868.899); consegna: ramo consegna-afm-inglese-triennio-lez03 (5 pezzi da 90 MiB + sha256); controllo_finale OK tranne sottotitoli 64% attacco entro 0,3 s (campione manuale su 4 punti OK); i 4 video della docente consecutivi, nessuna ripetizione"
   }
  ],
- "aggiornato": "2026-11-12 20:04:25"
+ "aggiornato": "2026-11-12 21:02:30"
 }
