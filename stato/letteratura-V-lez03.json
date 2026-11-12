@@ -4,7 +4,13 @@
   "1": {
    "titolo": "Giosuè Carducci",
    "stato": "IN_CODIFICA",
-   "voci": "kore"
+   "voci": "kore",
+   "video": "Letteratura_Lez3_Parte1_1440p.mp4",
+   "durata_s": 3732.9,
+   "durata": "62:12.9",
+   "fotogrammi": 111988,
+   "fotogrammi_attesi": 111988,
+   "peso_MB": 274.5
   }
  },
  "manca": "",
@@ -30,10 +36,14 @@
   {
    "quando": "12/11 06:52",
    "testo": "12/11 06:55 assemblato 62,24 min; codifica 1440p CRF22 in corso, sottotitoli in parallelo su a.m4a"
+  },
+  {
+   "quando": "12/11 07:26",
+   "testo": "12/11 07:30 video 1440p fatto: 62:12,9, 111988 fotogrammi, 261,8 MiB, jingle ok, volume -16, fermi ok. Sottotitoli in rifacimento. t_verifica=3709.66 s (scheda Verifica 5 s), sigla finale 3716.27, t_compiti=3722.87 (intro Compiti 3,47 s), scheda Compiti 3727.93-3732.93"
   }
  ],
  "materia": "Letteratura italiana (V)",
  "lezione": "Lezione 3 · Giosuè Carducci",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-12 06:52:51"
+ "aggiornato": "2026-11-12 07:26:49"
 }
