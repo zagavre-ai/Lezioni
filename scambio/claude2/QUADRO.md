@@ -49,6 +49,3 @@ Fonte: rami stato-* e voci-* (letti 10/11 22:40). Ore = STIMA. Le 14 PRONTE non 
 ## PRONTE (14): verifica e compiti dalla pagina, serve t_sigla_finale
 afm-inglese lez01, lez02 · letteratura-V lez01, lez02 · moda-economia lez01, lez03 · moda-tecnologie lez02–05 · psicologia lez03 (lez01 e lez02 si rimontano).
 
-## STORIA V (Mazzotti) · incarico del 12/11 sera · scadenza domenica 15/11
-In corso: storia-V-lez01. Poi 02 (video+PDF+Excel già in release), 05, 06, 07, 09, 11, 12, 14, 15, 16, 18, 19, 20, 21. Mancano i video di 03, 04, 08, 10, 13, 17. Indice: ramo scambio-mazzotti.
-Disco: la release mazzotti-storia-V pesa 13,9 GB in zip: scaricare solo gli zip della lezione e cancellarli subito.
