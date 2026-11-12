@@ -3,7 +3,7 @@
  "parti": {
   "1": {
    "titolo": "Giosuè Carducci",
-   "stato": "IN_MONTAGGIO",
+   "stato": "IN_CODIFICA",
    "voci": "kore"
   }
  },
@@ -26,10 +26,14 @@
   {
    "quando": "11/11 13:08",
    "testo": "13:10 ripresa: schede e scene pronte (.fatto), pezzi docente D2-D4 in composizione, poi lista e codifica CRF22. Quiz nuovi in consegna/quiz_da_approvare.txt (da approvare)"
+  },
+  {
+   "quando": "12/11 06:52",
+   "testo": "12/11 06:55 assemblato 62,24 min; codifica 1440p CRF22 in corso, sottotitoli in parallelo su a.m4a"
   }
  ],
  "materia": "Letteratura italiana (V)",
  "lezione": "Lezione 3 · Giosuè Carducci",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-11 13:08:47"
+ "aggiornato": "2026-11-12 06:52:51"
 }
