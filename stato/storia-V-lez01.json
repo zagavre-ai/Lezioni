@@ -5,10 +5,17 @@
  "serve_master": [],
  "domande_sara": [],
  "note": [
-  {"quando": "12/11 21:00", "testo": "NON ASSEGNATA a Claude 2. Lo stato IN_MONTAGGIO scritto alle 18:47 è annullato: la lezione è libera per la chat che la prende."}
+  {
+   "quando": "12/11 18:57",
+   "testo": "IN_MONTAGGIO · presa da Claude 2 (chat Storia V)"
+  },
+  {
+   "quando": "12/11 19:16",
+   "testo": "Trascrizione finita; quiz e testi voci pronti; divisione prevista in 2 Parti"
+  }
  ],
  "materia": "Storia",
  "lezione": "1",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-12 21:00:00"
+ "aggiornato": "2026-11-12 19:16:52"
 }
