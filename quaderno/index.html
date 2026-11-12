@@ -81,7 +81,7 @@ input[type=file].nasc{display:none}
 .codice{font:bold 20px/1.2 ui-monospace,Menlo,monospace;letter-spacing:.08em;background:var(--soft2);padding:8px 12px;border-radius:6px;display:inline-block}
 @media (max-width:640px){h1{font-size:21px}table.l .mob-no{display:none}}
 </style>
-<meta name="versione" content="2026-11-12b">
+<meta name="versione" content="2026-11-12c">
 <script>/* se GitHub ha una versione più nuova di questa pagina, la carica subito (niente più «non vedo le novità») */
 (function(){try{var mia=document.querySelector('meta[name=versione]').content;
 fetch(location.pathname,{cache:'reload'}).then(function(r){return r.text()}).then(function(t){var m=t.match(/name="versione" content="([^"]+)"/);
@@ -314,7 +314,7 @@ function tabEsporta(){
 function chiudi(){$('#modal').style.display='none';$('#mbody').innerHTML=''}
 $('#mchiudi').onclick=chiudi;
 function nomeAutore(e,c){return e.autore_tipo==='alunno'?(c.alunni?.nome||'alunno'):(NOMI[e.autore_id]||e.autore_tipo)}
-const TIPI={consegna:'Consegnato',correzione:'Corretto',da_rifare:'Rimandato «da rifare»',verifica:'Verificato',segnalazione:'Segnalazione'};
+const TIPI={modifica:'Modificato',consegna:'Consegnato',correzione:'Corretto',da_rifare:'Rimandato «da rifare»',verifica:'Verificato',segnalazione:'Segnalazione'};
 async function apri(id){
   const c=COMPITI.find(x=>x.id===id);if(!c)return;
   const puoCorreggere=c.stato==='consegnato';const puoVerificare=STAFF()&&['corretto','verificato','segnalato'].includes(c.stato);
@@ -332,6 +332,15 @@ async function apri(id){
     <p class="note" style="margin:0">Registrato per memoria: l'alunno non lo vede. Se la direzione decide che va svolto, scegli la scadenza e rendilo «da svolgere».</p>
     <div class="row"><div><label class="f">Da consegnare entro</label><input class="t" type="date" id="sd"></div></div>
     <button class="btn" id="sgo" style="margin-top:8px">Rendi da svolgere</button><div id="ses"></div></div>`:''}
+  ${IO.tipo!=='alunno'?`<details class="card" style="background:var(--soft)"><summary style="cursor:pointer;font-weight:700">Modifica il compito (se è stato assegnato per errore)</summary>
+    <p class="note" style="margin:6px 0 0">Correggi alunno, materia, lezione, titolo, contenuto, data o scadenza. La modifica resta scritta nella storia del compito.</p>
+    <label class="f">Alunno</label><select class="t" id="mo_al">${ALUNNI.map(a=>`<option value="${a.id}" ${a.id===c.alunno_id?'selected':''}>${esc(a.nome)}</option>`).join('')}</select>
+    <div class="row"><div><label class="f">Materia</label><input class="t" id="mo_ma" value="${esc(c.materia)}"></div><div><label class="f">Lezione</label><input class="t" id="mo_le" value="${esc(c.lezione||'')}"></div></div>
+    <label class="f">Titolo</label><input class="t" id="mo_ti" value="${esc(c.titolo)}">
+    <label class="f">Contenuto</label><textarea class="t" id="mo_te" style="min-height:120px">${esc(c.testo||'')}</textarea>
+    <div class="row"><div><label class="f">Data della lezione / assegnazione</label><input class="t" type="date" id="mo_da" value="${String(c.assegnato_il||'').slice(0,10)}"></div><div><label class="f">Scadenza</label><input class="t" type="date" id="mo_sc" value="${c.scadenza||''}"></div></div>
+    <label class="f">Motivo della modifica (facoltativo)</label><input class="t" id="mo_no" placeholder="es. data sbagliata, alunno sbagliato">
+    <div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:10px"><button class="btn" id="mo_ok">Salva le modifiche</button>${c.eventi.some(e=>e.tipo!=='modifica')?'':'<button class="btn rosso" id="mo_tg">Togli il compito</button>'}</div><div id="mo_es"></div></details>`:''}
   ${puoCorreggere?`<div class="card" style="background:var(--soft)"><h3 style="margin:0 0 4px;font-size:16px">Correzione</h3>
     <p class="note" style="margin:0">Tocca una pagina qui sopra per segnarla in rosso (facoltativo). Poi scrivi voto e commento.</p><div id="editor"></div><div class="foto" id="corrette"></div>
     <div class="row"><div><label class="f">Voto</label><input class="t" id="cv" placeholder="es. 7 o 6½"></div></div>
@@ -344,6 +353,13 @@ async function apri(id){
   document.querySelectorAll('#mbody img[data-path]').forEach(async im=>{try{im.src=await vedi(im.dataset.path)}catch(e){im.alt='non disponibile'}
     im.onclick=()=>{if(puoCorreggere&&cons&&cons.foto.includes(im.dataset.path))editor(im.dataset.path,im.src);else window.open(im.src,'_blank')}});
   collegaVedi('#mbody');
+  if($('#mo_ok')){$('#mo_ok').onclick=async()=>{const es=$('#mo_es');
+      const d={compito_id:c.id,alunno_id:$('#mo_al').value,materia:$('#mo_ma').value.trim(),lezione:$('#mo_le').value.trim(),titolo:$('#mo_ti').value.trim(),testo:$('#mo_te').value,data:$('#mo_da').value,scadenza:$('#mo_sc').value||null,nota:$('#mo_no').value.trim()};
+      if(!d.titolo)return es.innerHTML='<div class="msg no">Il titolo non può essere vuoto.</div>';
+      $('#mo_ok').disabled=true;try{const r=await api('modifica',d);await caricaCompiti();chiudi();vistaScuola(`<div class="msg ok">Compito modificato (${esc(r.cambi.join('; '))}).</div>`)}catch(e){es.innerHTML=`<div class="msg no">${esc(e.message)}</div>`;$('#mo_ok').disabled=false}};
+    if($('#mo_tg')){let conferma=false;$('#mo_tg').onclick=async()=>{const es=$('#mo_es');
+      if(!conferma){conferma=true;$('#mo_tg').textContent='Sicuro? Tocca di nuovo per togliere';es.innerHTML='<div class="msg no">Il compito sparisce per l\'alunno e dal quaderno. Si può togliere solo se non è mai stato consegnato.</div>';return}
+      $('#mo_tg').disabled=true;try{await api('togli_compito',{compito_id:c.id});await caricaCompiti();chiudi();vistaScuola('<div class="msg ok">Compito tolto.</div>')}catch(e){es.innerHTML=`<div class="msg no">${esc(e.message)}</div>`}}}}
   if($('#sgo'))$('#sgo').onclick=()=>rendiDaSvolgere([c.id],$('#sd').value,$('#ses'),$('#sgo'),true);
   if(puoCorreggere){CORR=[];const fine=async esito=>{const es=$('#ces');const voto=$('#cv').value.trim(),commento=$('#cc').value.trim();
       if(esito!=='da_rifare'&&!voto)return es.innerHTML='<div class="msg no">Manca il voto.</div>';
