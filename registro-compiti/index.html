@@ -143,7 +143,7 @@ footer b{color:var(--ink)}
 }
 .tabs{display:flex;flex-wrap:wrap;gap:6px}.tab{border:1px solid #c9d2e3;background:#fff;color:#0B1530;border-radius:999px;padding:6px 12px;font-weight:600;font-size:14px;font-family:inherit;line-height:1.2;cursor:pointer}.tab.on{background:#0B1530;color:#fff;border-color:#0B1530}
 </style>
-<meta name="versione" content="2026-11-12d">
+<meta name="versione" content="2026-11-12e">
 <script>/* se GitHub ha una versione più nuova di questa pagina, la carica subito (niente più «non vedo le novità») */
 (function(){try{var mia=document.querySelector('meta[name=versione]').content;
 fetch(location.pathname,{cache:'reload'}).then(function(r){return r.text()}).then(function(t){var m=t.match(/name="versione" content="([^"]+)"/);
@@ -333,6 +333,8 @@ const fmtS=s=>{if(!s)return'';return new Date(s+'T12:00').toLocaleDateString('it
 const has=v=>Array.isArray(v)?v.length>0:(v===true||(typeof v==='string'&&v.trim()!==''));
 const rec=k=>DB.days[k]||null;
 function filled(r){return !!r&&Object.entries(r).some(([k,v])=>k!=='dir'&&has(v))}
+/* pallino giallo = compiti veri: sezioni 1–6 e 10 (non le spunte «completata», non verifiche, riepilogo o correzioni) */
+function conCompiti(r){return !!r&&Object.entries(r).some(([k,v])=>{const n=+k.split('.')[0];return ((n>=1&&n<=6)||n===10)&&!k.endsWith('.ok')&&has(v)})}
 const visible=k=>ROLE==='docente'||k<=T;
 function setv(k,v){const d=iso(SEL);DIRTY.add(d);const r=DB.days[d]=DB.days[d]||{};if(!has(v))delete r[k];else r[k]=v;if(!Object.keys(r).length)delete DB.days[d];saved()}
 let tmr=null;
@@ -410,7 +412,7 @@ function calendar(){
   let h=['L','M','M','G','V','S','D'].map(x=>'<div class="wd">'+x+'</div>').join('');
   for(let i=0;i<off;i++)h+='<button class="d out" tabindex="-1" aria-hidden="true"></button>';
   for(let g=1;g<=n;g++){const d=new Date(VIEW.getFullYear(),VIEW.getMonth(),g,12),k=iso(d),ok=visible(k);
-    h+='<button class="d'+(k===T?' today':'')+(k===iso(SEL)?' sel':'')+(ok&&filled(rec(k))?' has':'')+'" data-k="'+k+'"'+(ok?'':' disabled')+' aria-label="'+fmtL(d)+'">'+g+(ok?pallini(k):'')+'</button>'}
+    h+='<button class="d'+(k===T?' today':'')+(k===iso(SEL)?' sel':'')+(ok&&conCompiti(rec(k))?' has':'')+'" data-k="'+k+'"'+(ok?'':' disabled')+' aria-label="'+fmtL(d)+'">'+g+(ok?pallini(k):'')+'</button>'}
   $('#days').innerHTML=h+'<div class="leg" style="grid-column:1/-1"><span><i style="background:#d64545"></i>verifica o scadenza</span><span><i style="background:#2e9e5b"></i>lezione completata</span><span><i style="background:#e8832a"></i>lezione non terminata</span><span><i style="background:#3b6fd8"></i>lezione in diretta</span></div>';
   $('#days').querySelectorAll('.d[data-k]').forEach(b=>b.onclick=()=>{SEL=new Date(b.dataset.k+'T12:00');render()});
   $('#nm').disabled=ROLE==='studente'&&new Date(VIEW.getFullYear(),VIEW.getMonth()+1,1,12)>TODAY;
@@ -422,7 +424,7 @@ function summary(){
   Object.entries(DB.days).forEach(([k,r])=>{
     if(!visible(k)||!filled(r))return;
     const d=new Date(k+'T12:00'),inMese=d.getFullYear()===y&&d.getMonth()===mo;
-    if(inMese){giorni++;if((r['8.ex.st']||[]).includes('Da recuperare'))recu++}
+    if(inMese){if(conCompiti(r))giorni++;if((r['8.ex.st']||[]).includes('Da recuperare'))recu++}
     SEZ.forEach(s=>{if(s.n>=8)return;for(let i=0;i<s.rows;i++){
       const any=s.f.some(f=>f.ty!=='done'&&has(r[s.n+'.'+i+'.'+f.k]));if(!any)continue;
       if(inMese){ass++;if(r[s.n+'.'+i+'.ok'])comp++}
