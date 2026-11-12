@@ -2,7 +2,7 @@
  "tag": "afm-inglese-triennio-lez03",
  "parti": {
   "1": {
-   "stato": "IN_MONTAGGIO"
+   "stato": "IN_CODIFICA"
   }
  },
  "manca": "",
@@ -12,7 +12,11 @@
   {
    "quando": "12/11 09:34",
    "testo": "12/11 ripresa: video scaricati, ASR in corso, voci Kore 14/14"
+  },
+  {
+   "quando": "12/11 20:04",
+   "testo": "12/11 montaggio 64,65 min (una Parte); codifica CRF22 in corso; voci Kore 14/14"
   }
  ],
- "aggiornato": "2026-11-12 09:34:04"
+ "aggiornato": "2026-11-12 20:04:25"
 }
