@@ -81,7 +81,7 @@ input[type=file].nasc{display:none}
 .codice{font:bold 20px/1.2 ui-monospace,Menlo,monospace;letter-spacing:.08em;background:var(--soft2);padding:8px 12px;border-radius:6px;display:inline-block}
 @media (max-width:640px){h1{font-size:21px}table.l .mob-no{display:none}}
 </style>
-<meta name="versione" content="2026-11-12a">
+<meta name="versione" content="2026-11-12b">
 <script>/* se GitHub ha una versione più nuova di questa pagina, la carica subito (niente più «non vedo le novità») */
 (function(){try{var mia=document.querySelector('meta[name=versione]').content;
 fetch(location.pathname,{cache:'reload'}).then(function(r){return r.text()}).then(function(t){var m=t.match(/name="versione" content="([^"]+)"/);
@@ -158,9 +158,9 @@ async function caricaCompiti(){COMPITI=(await api('lista')).compiti}
 
 /* ---------------- vista alunno (telefono) ---------------- */
 const SCELTE={};// compito_id -> [{blob,url}]
-function tabAlunno(){return `<div class="tabs"><button data-atab="compiti" class="${ALTAB==='compiti'?'on':''}">I miei compiti</button><button data-atab="dispense" class="${ALTAB==='dispense'?'on':''}">Dispense di studio</button><button data-atab="mappe" class="${ALTAB==='mappe'?'on':''}">Le mie mappe</button></div>`}
+function tabAlunno(){return `<div class="tabs"><button data-atab="compiti" class="${ALTAB==='compiti'?'on':''}">I miei compiti</button><button data-atab="dispense" class="${ALTAB==='dispense'?'on':''}">Dispense di studio</button><button data-atab="mappe" class="${ALTAB==='mappe'?'on':''}">Mappe</button></div>`}
 function collegaTabAlunno(){document.querySelectorAll('[data-atab]').forEach(b=>b.onclick=()=>{ALTAB=b.dataset.atab;vistaAlunno()})}
-function vistaAlunno(msg,V){if(!V&&ALTAB==='mappe'){$('#app').innerHTML=`<h1>Le mie mappe</h1><div class="bar"></div><div class="who"><b>${esc(IO.nome)}</b></div>${tabAlunno()}<div id="mpp"></div>`;collegaTabAlunno();return vistaMappe('#mpp')}
+function vistaAlunno(msg,V){if(!V&&ALTAB==='mappe'){$('#app').innerHTML=`<h1>Mappe</h1><div class="bar"></div><div class="who"><b>${esc(IO.nome)}</b></div>${tabAlunno()}<div id="mpp"></div>`;collegaTabAlunno();return vistaMappe('#mpp')}
   if(!V&&ALTAB==='dispense'){$('#app').innerHTML=`<h1>Dispense di studio</h1><div class="bar"></div><div class="who"><b>${esc(IO.nome)}</b></div>${tabAlunno()}<div id="dsp"></div>`;collegaTabAlunno();return vistaDispense('#dsp')}
   V=V||{lista:COMPITI,nome:IO.nome,ro:false,dove:'#app'};const L=V.lista;
   const daFare=L.filter(c=>c.stato==='assegnato'||c.stato==='da_rifare').sort((a,b)=>(a.scadenza||'9').localeCompare(b.scadenza||'9'));
@@ -466,7 +466,7 @@ function editorMappa(m,dove){MAPPA=m;MZOOM=1;
    <button class="btn sec" id="mpra">+ ramo</button></div>`};
   const disegna=()=>{$('#mpv').innerHTML=svgMappa(MAPPA.dati,MZOOM)};
   const salva=()=>{clearTimeout(MTIMER);$('#mps').textContent='Salvataggio…';MTIMER=setTimeout(async()=>{try{await api('mappa_salva',{id:MAPPA.id,materia:MAPPA.materia,titolo:MAPPA.dati.centro||MAPPA.titolo,dati:MAPPA.dati});$('#mps').textContent='Salvata ✓'}catch(e){$('#mps').textContent='Non salvata: '+e.message}},1200)};
-  const tutto=()=>{$(dove).innerHTML=`<div class="mp-bar"><button class="btn sec" id="mpb">← Le mie mappe</button><button class="btn sec" id="mpz1">A−</button><button class="btn sec" id="mpz2">A+</button><button class="btn sec" onclick="print()">Stampa / PDF</button><span class="note" id="mps"></span></div>
+  const tutto=()=>{$(dove).innerHTML=`<div class="mp-bar"><button class="btn sec" id="mpb">← Mappe</button><button class="btn sec" id="mpz1">A−</button><button class="btn sec" id="mpz2">A+</button><button class="btn sec" onclick="print()">Stampa / PDF</button><span class="note" id="mps"></span></div>
     <div class="mp-ed"><div>${form()}</div><div class="mp-svg" id="mpv"></div></div>`;disegna();
     $('#mpb').onclick=()=>vistaMappe(dove);$('#mpz1').onclick=()=>{MZOOM=Math.max(.4,MZOOM-.15);disegna()};$('#mpz2').onclick=()=>{MZOOM=Math.min(2.5,MZOOM+.15);disegna()};
     const d=MAPPA.dati;
