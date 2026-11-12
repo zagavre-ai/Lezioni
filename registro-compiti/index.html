@@ -45,6 +45,14 @@ select.stud{border:1px solid var(--line);border-radius:6px;padding:6px 8px;backg
 .d.out{visibility:hidden}
 .d.has::after{content:"";position:absolute;left:50%;bottom:4px;width:6px;height:6px;margin-left:-3px;border-radius:50%;background:var(--acc)}
 .d.today{border-color:var(--navy)}
+.d .pl{position:absolute;top:3px;right:3px;display:flex;gap:2px}.d .pl i{width:6px;height:6px;border-radius:50%;display:block}
+.pl .c{background:#2e9e5b}.pl .i{background:#e8832a}.pl .l{background:#3b6fd8}
+.leg{display:flex;flex-wrap:wrap;gap:10px;font-size:11px;color:var(--mut);margin-top:8px}.leg i{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:4px;vertical-align:middle}
+.att{border:1px solid #d9dee8;border-radius:10px;padding:12px 14px;margin:12px 0;background:#f7f9fc}
+.att h4{margin:0 0 8px;font-size:14px;color:var(--navy)}.att .it{display:grid;grid-template-columns:150px 1fr;gap:4px 12px;padding:7px 0;border-top:1px solid #e6eaf1;font-size:13px}
+.att .it:first-of-type{border-top:0}.att .st{font-weight:bold}.att .st.C{color:#2e9e5b}.att .st.I{color:#c9671a}.att .st.A{color:#8a6d1a}.att .st.L{color:#3b6fd8}.att .st.Q{color:var(--navy)}
+.att .sm{color:var(--mut);font-size:12px}.att .fb{white-space:pre-wrap}
+@media(max-width:640px){.att .it{grid-template-columns:1fr}}
 .d.sel{background:var(--navy);color:#fff}
 .d:disabled{opacity:.35;cursor:default}
 .legend{display:flex;gap:12px;flex-wrap:wrap;font-size:12px;color:var(--mut);margin-top:10px}
@@ -134,7 +142,7 @@ footer b{color:var(--ink)}
 }
 .tabs{display:flex;flex-wrap:wrap;gap:6px}.tab{border:1px solid #c9d2e3;background:#fff;color:#0B1530;border-radius:999px;padding:6px 12px;font-weight:600;font-size:14px;font-family:inherit;line-height:1.2;cursor:pointer}.tab.on{background:#0B1530;color:#fff;border-color:#0B1530}
 </style>
-<meta name="versione" content="2026-11-11a">
+<meta name="versione" content="2026-11-12a">
 <script>/* se GitHub ha una versione più nuova di questa pagina, la carica subito (niente più «non vedo le novità») */
 (function(){try{var mia=document.querySelector('meta[name=versione]').content;
 fetch(location.pathname,{cache:'reload'}).then(function(r){return r.text()}).then(function(t){var m=t.match(/name="versione" content="([^"]+)"/);
@@ -278,6 +286,25 @@ async function alunno(){if(ALUNNO||DEMO)return;try{const f=(await sha('alunno|'+
   const k=await crypto.subtle.importKey('raw',await crypto.subtle.digest('SHA-256',enc.encode('telesio-alunno|'+CODE)),'AES-GCM',false,['decrypt']);const u=unb64(t.trim());
   ALUNNO=JSON.parse(dec.decode(await crypto.subtle.decrypt({name:'AES-GCM',iv:u.slice(0,12)},k,u.slice(12))));MATERIE=ALUNNO.materie||[];}catch(e){ALUNNO={};}
   if(!MAT)MAT=MATERIE[0]||'Tutte le materie';if(MATERIE.length&&!MATERIE.includes(MAT)&&!Q.get('m'))MAT=MATERIE[0];}
+/* attività rilevate (piattaforma, lezioni in diretta, quaderno): file cifrato con il codice dell'alunno */
+let ATT=null;
+async function attivita(){if(ATT||DEMO)return;try{const f=(await sha('attivita|'+CODE)).slice(0,16);const r=await fetch('attivita/'+f+'.enc?t='+Date.now());if(!r.ok){ATT={days:{}};return}
+  const k=await crypto.subtle.importKey('raw',await crypto.subtle.digest('SHA-256',enc.encode('telesio-attivita|'+CODE)),'AES-GCM',false,['decrypt']);const u=unb64((await r.text()).trim());
+  ATT=JSON.parse(dec.decode(await crypto.subtle.decrypt({name:'AES-GCM',iv:u.slice(0,12)},k,u.slice(12))));}catch(e){ATT={days:{}}}}
+const LINGUE=[[/INGLES/,'Inglese'],[/FRANCES/,'Francese'],[/SPAGNOL/,'Spagnolo'],[/TEDESC/,'Tedesco'],[/LATIN/,'Latino'],[/MOTORI/,'Scienze motorie']];
+const FAMS=[[/STORIA DELL.ARTE|ARTE E IMMAGINE|ARTE E TERRITORIO/,"Storia dell'arte"],[/ITALIAN|LETTERATURA/,'Italiano'],[/INGLES/,'Inglese'],[/FRANCES/,'Francese'],[/SPAGNOL/,'Spagnolo'],[/TEDESC/,'Tedesco'],[/LATIN/,'Latino'],[/^STORIA|STORIA /,'Storia'],[/DIRITTO/,'Diritto ed economia'],[/SCIENZE UMANE|PSICOLOG/,'Scienze umane'],[/MATEMATICA/,'Matematica'],[/GEOGRAF/,'Geografia'],[/FILOSOF/,'Filosofia'],[/FISICA/,'Fisica'],[/CHIMIC/,'Chimica'],[/INFORMATIC/,'Informatica'],[/ECONOMIA AZIENDALE/,'Economia aziendale'],[/SCIENZE/,'Scienze']];
+function famiglia(nome){const n=String(nome||'').toUpperCase();for(const [r,f] of LINGUE)if(r.test(n))return f;let best=null;FAMS.forEach(([r,f],i)=>{const m=n.match(r);if(m&&(!best||m.index<best[0]||(m.index===best[0]&&i<best[1])))best=[m.index,i,f]});return best?best[2]:String(nome||'').trim()}
+const tutte=()=>!MAT||/^tutte/i.test(MAT);
+const attDi=k=>((ATT&&ATT.days&&ATT.days[k])||[]).filter(x=>tutte()||x.f===famiglia(MAT)||famiglia(x.f)===famiglia(MAT));
+function attBox(k){const L=attDi(k);if(!L.length)return '';
+  const v=L.filter(x=>x.k==='v'),l=L.filter(x=>x.k==='l'),q=L.filter(x=>x.k==='q');let h='<div class="att"><h4>Attività rilevate in questo giorno'+(ATT.letto?' <span class="sm">· dati letti il '+esc(ATT.letto)+'</span>':'')+'</h4>';
+  const SV={C:'✓ Completata',I:'Iniziata, non terminata',A:'Studiata (completata più avanti)'};
+  v.forEach(x=>{h+='<div class="it"><div class="st '+x.s+'">'+SV[x.s]+'</div><div><b>Videolezione:</b> '+esc(x.t)+(x.p?' · test '+esc(x.p):'')+(x.s==='A'&&x.cd?' · completata il '+esc(fmtS(x.cd)):'')+(tutte()?'<div class="sm">'+esc(x.f)+'</div>':'')+'<div class="sm">'+esc(x.c)+'</div></div></div>'});
+  l.forEach(x=>{h+='<div class="it"><div class="st L">'+(x.ass?'Lezione in diretta · assente':'Lezione in diretta')+(x.voto?'<br>Voto '+esc(x.voto):'')+'</div><div><b>'+esc(x.t)+'</b><div class="sm">'+esc(x.doc)+'</div>'+(x.arg?'<div><span class="sm">Argomento:</span> '+esc(x.arg)+'</div>':'')+(x.fb&&x.fb!==x.arg?'<div class="fb"><span class="sm">Giudizio:</span> '+esc(x.fb)+'</div>':'')+'</div></div>'});
+  q.forEach(x=>{h+='<div class="it"><div class="st Q">Compito '+esc(x.e)+(x.v?' · voto '+esc(x.v):'')+'</div><div><b>'+esc(x.t)+'</b>'+(x.l?'<div class="sm">'+esc(x.l)+'</div>':'')+(x.sc&&x.e==='assegnato'?'<div class="sm">Scadenza '+esc(fmtS(x.sc))+'</div>':'')+'<div class="sm">'+esc(x.doc)+'</div></div></div>'});
+  return h+'</div>'}
+function pallini(k){const L=attDi(k);if(!L.length)return '';const c=L.some(x=>x.k==='v'&&x.s!=='I'),i=L.some(x=>x.k==='v'&&x.s==='I'),l=L.some(x=>x.k==='l');
+  return '<span class="pl">'+(c?'<i class="c"></i>':'')+(i?'<i class="i"></i>':'')+(l?'<i class="l"></i>':'')+'</span>'}
 async function pinhash(p){return (await sha('telesio-docente|'+p)).slice(0,32)}
 let PIN='',DOCNAME='';try{PIN=localStorage.getItem('telesio_pin')||''}catch(e){}
 const DIRTY=new Set();let GENDIRTY=false;
@@ -374,8 +401,8 @@ function calendar(){
   let h=['L','M','M','G','V','S','D'].map(x=>'<div class="wd">'+x+'</div>').join('');
   for(let i=0;i<off;i++)h+='<button class="d out" tabindex="-1" aria-hidden="true"></button>';
   for(let g=1;g<=n;g++){const d=new Date(VIEW.getFullYear(),VIEW.getMonth(),g,12),k=iso(d),ok=visible(k);
-    h+='<button class="d'+(k===T?' today':'')+(k===iso(SEL)?' sel':'')+(ok&&filled(rec(k))?' has':'')+'" data-k="'+k+'"'+(ok?'':' disabled')+' aria-label="'+fmtL(d)+'">'+g+'</button>'}
-  $('#days').innerHTML=h;
+    h+='<button class="d'+(k===T?' today':'')+(k===iso(SEL)?' sel':'')+(ok&&filled(rec(k))?' has':'')+'" data-k="'+k+'"'+(ok?'':' disabled')+' aria-label="'+fmtL(d)+'">'+g+(ok?pallini(k):'')+'</button>'}
+  $('#days').innerHTML=h+'<div class="leg" style="grid-column:1/-1"><span><i style="background:#2e9e5b"></i>lezione completata</span><span><i style="background:#e8832a"></i>lezione non terminata</span><span><i style="background:#3b6fd8"></i>lezione in diretta</span></div>';
   $('#days').querySelectorAll('.d[data-k]').forEach(b=>b.onclick=()=>{SEL=new Date(b.dataset.k+'T12:00');render()});
   $('#nm').disabled=ROLE==='studente'&&new Date(VIEW.getFullYear(),VIEW.getMonth()+1,1,12)>TODAY;
 }
@@ -393,10 +420,12 @@ function summary(){
       s.f.filter(f=>f.due).forEach(f=>{const v=r[s.n+'.'+i+'.'+f.k];if(v&&v>=T){
         const what=r[s.n+'.'+i+'.arg']||r[s.n+'.'+i+'.att']||'';sc.push([v,f.due+(what?': '+what:'')])}})}});
   });
+  let vc=0,vi=0,lv=0;const vis=new Set();Object.keys((ATT&&ATT.days)||{}).forEach(k=>{const d=new Date(k+'T12:00');if(d.getFullYear()!==y||d.getMonth()!==mo||!visible(k))return;
+    attDi(k).forEach(x=>{if(x.k==='v'){if(x.s==='C')vc++;else if(x.s==='I'&&!vis.has(x.c+x.t)){vis.add(x.c+x.t);vi++}}if(x.k==='l')lv++})});
   sc.sort((a,b)=>a[0]<b[0]?-1:1);
   const uniq=[...new Map(sc.map(x=>[x.join('|'),x])).values()].slice(0,5);
   $('#sum').innerHTML='<h3>Riepilogo del mese</h3><div class="n">'+
-    [[giorni,'giorni con compiti'],[ass,'attività assegnate'],[comp,'completate'],[recu,'giorni da recuperare']].map(([v,l])=>'<div><b>'+v+'</b><span>'+l+'</span></div>').join('')+
+    [[giorni,'giorni con compiti'],[ass,'attività assegnate'],[comp,'completate'],[recu,'giorni da recuperare'],[vc,'videolezioni completate'],[vi,'videolezioni non terminate'],[lv,'lezioni in diretta']].map(([v,l])=>'<div><b>'+v+'</b><span>'+l+'</span></div>').join('')+
     '</div><div class="scad"><h3>Prossime scadenze</h3>'+(uniq.length?'<ul>'+uniq.map(([d,t])=>'<li><b>'+esc(fmtS(d))+'</b><span>'+esc(t)+'</span></li>').join('')+'</ul>':'<div class="none">Nessuna scadenza in arrivo.</div>')+'</div>';
 }
 
@@ -448,7 +477,8 @@ function day(){
   let h='<div class="dayh"><div><h2>'+fmtL(SEL)+'</h2><div class="bar"></div></div><div class="tools">'+(ro?'':'<span class="status" id="st"></span><button class="btn pri" id="sv">Salva</button>')+'<button class="btn" id="pr">Stampa / PDF</button></div></div>';
   h+='<div class="head4"><div><span class="lab">Studente</span>'+esc(g.nome||'')+'</div><div><span class="lab">Materia</span>'+esc(MAT)+'</div><div><span class="lab">Docente</span>'+esc(g.doc||'')+'</div><div><span class="lab">Prossima diretta</span>'+(ro?esc(fmtS(r.dir)):'<input type="date" data-k="dir" value="'+esc(r.dir||'')+'">')+'</div></div>';
   h+=genBox();
-  if(ro&&!filled(r))h+='<div class="empty"><b>Nessun compito per questo giorno</b>Guarda i giorni con il pallino giallo.</div>';
+  h+=attBox(k);
+  if(ro&&!filled(r))h+=attDi(k).length?'':'<div class="empty"><b>Nessun compito per questo giorno</b>Guarda i giorni con il pallino giallo.</div>';
   else h+=sections(r);
   $('#day').innerHTML=h;
   $('#pr').onclick=()=>{document.querySelectorAll('details.sec:not(.vuota)').forEach(d=>d.open=true);window.print()};
@@ -479,7 +509,7 @@ $('#reset').onclick=()=>{DB=seed();store();goDay(new Date(TODAY))};
 function avvio(){
   if(!LIVE){render();return}
   head();calendar();$('#day').innerHTML='<div class="empty"><b>Caricamento del registro…</b></div>';$('#sum').innerHTML='';
-  (async()=>{await alunno();await chiavi();await docenti();
+  (async()=>{await alunno();await attivita();await chiavi();await docenti();
     const t=await (await fetch(CSV+(CSV.includes('?')?'&':'?')+'t='+Date.now(),{cache:'no-store'})).text();
     const D={gen:{},days:{}};
     for(const r of csv(t).slice(1)){if(r[1]!==RID||!r[3])continue;
