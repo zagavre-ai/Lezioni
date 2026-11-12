@@ -1,1 +1,21 @@
-{"ea63f1d4d6a8ed27ab08f2c1a7ab87ee": "Sara Zagarese (responsabile corsi)", "d51fb217dc58432a3e76b87a156ea393": "Docente di prova", "a3ef9c31c9a7774a3ceef02f79576251": "Antonella Lopreiato (direttrice)"}
+{
+ "ea63f1d4d6a8ed27ab08f2c1a7ab87ee": "Sara Zagarese (responsabile corsi)",
+ "d51fb217dc58432a3e76b87a156ea393": "Docente di prova",
+ "a3ef9c31c9a7774a3ceef02f79576251": "Antonella Lopreiato (direttrice)",
+ "66db234abd065df4ce01b6a57d9b7c82": {
+  "n": "Giorgio Mazzotti",
+  "m": [
+   "Italiano",
+   "Lingua italiana",
+   "Letteratura italiana",
+   "Lingua e letteratura italiana",
+   "Storia",
+   "Geografia",
+   "Filosofia",
+   "Lingua latina",
+   "Latino",
+   "Storia dell'arte",
+   "Scienze umane"
+  ]
+ }
+}
