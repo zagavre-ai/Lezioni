@@ -142,7 +142,7 @@ footer b{color:var(--ink)}
 }
 .tabs{display:flex;flex-wrap:wrap;gap:6px}.tab{border:1px solid #c9d2e3;background:#fff;color:#0B1530;border-radius:999px;padding:6px 12px;font-weight:600;font-size:14px;font-family:inherit;line-height:1.2;cursor:pointer}.tab.on{background:#0B1530;color:#fff;border-color:#0B1530}
 </style>
-<meta name="versione" content="2026-11-12a">
+<meta name="versione" content="2026-11-12b">
 <script>/* se GitHub ha una versione più nuova di questa pagina, la carica subito (niente più «non vedo le novità») */
 (function(){try{var mia=document.querySelector('meta[name=versione]').content;
 fetch(location.pathname,{cache:'reload'}).then(function(r){return r.text()}).then(function(t){var m=t.match(/name="versione" content="([^"]+)"/);
@@ -367,7 +367,7 @@ function head(){
   $('#demo').style.display=DEMO?'':'none';
   document.querySelectorAll('.seg button').forEach(b=>b.classList.toggle('on',b.dataset.r===ROLE));
   $('#eyebrow').textContent='Registro compiti · '+VIEW.toLocaleDateString('it-IT',{month:'long',year:'numeric'});
-  $('#mat').innerHTML=MATERIE.length>1?'<span class="tabs">'+MATERIE.map(m=>'<button class="tab'+(m===MAT?' on':'')+'" data-m="'+esc(m)+'">'+esc(m)+'</button>').join('')+'</span>':esc(MAT);
+  $('#mat').innerHTML=MATERIE.length>=1?'<span class="tabs">'+[...MATERIE,'Tutte le materie'].map(m=>'<button class="tab'+(m===MAT?' on':'')+'" data-m="'+esc(m)+'">'+esc(m)+'</button>').join('')+'</span>':esc(MAT);
   document.querySelectorAll('#mat .tab').forEach(b=>b.onclick=()=>{if(b.dataset.m===MAT)return;MAT=b.dataset.m;avvio()});
   const g=DB.gen||{};
   $('#who').innerHTML=(ROLE==='docente'?'<span class="pill doc">VISTA DOCENTE</span>':'<span class="pill stu">VISTA STUDENTE · sola lettura</span>')+
@@ -474,6 +474,11 @@ function genBox(){
 }
 function day(){
   const k=iso(SEL),ro=ROLE==='studente',r=rec(k)||{},g=DB.gen||{};
+  if(tutte()&&MATERIE.length){const a=attBox(k);$('#day').innerHTML='<div class="dayh"><div><h2>'+fmtL(SEL)+'</h2><div class="bar"></div></div><div class="tools"><button class="btn" id="pr">Stampa / PDF</button></div></div>'+
+    '<div class="head4"><div><span class="lab">Studente</span>'+esc(g.nome||(ALUNNO&&ALUNNO.nome)||'')+'</div><div><span class="lab">Materia</span>Tutte le materie</div><div></div><div></div></div>'+
+    (a||'<div class="empty"><b>Nessuna attività rilevata in questo giorno</b>Guarda i giorni con i pallini colorati.</div>')+
+    '<p class="sm" style="color:var(--mut);font-size:12px;margin-top:10px">Qui si vedono le attività di tutte le materie: videolezioni della piattaforma, lezioni in diretta, compiti del quaderno. I compiti del registro si scrivono nella scheda della materia.</p>';
+    $('#pr').onclick=()=>window.print();return}
   let h='<div class="dayh"><div><h2>'+fmtL(SEL)+'</h2><div class="bar"></div></div><div class="tools">'+(ro?'':'<span class="status" id="st"></span><button class="btn pri" id="sv">Salva</button>')+'<button class="btn" id="pr">Stampa / PDF</button></div></div>';
   h+='<div class="head4"><div><span class="lab">Studente</span>'+esc(g.nome||'')+'</div><div><span class="lab">Materia</span>'+esc(MAT)+'</div><div><span class="lab">Docente</span>'+esc(g.doc||'')+'</div><div><span class="lab">Prossima diretta</span>'+(ro?esc(fmtS(r.dir)):'<input type="date" data-k="dir" value="'+esc(r.dir||'')+'">')+'</div></div>';
   h+=genBox();
