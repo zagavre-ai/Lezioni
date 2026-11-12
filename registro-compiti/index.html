@@ -143,7 +143,7 @@ footer b{color:var(--ink)}
 }
 .tabs{display:flex;flex-wrap:wrap;gap:6px}.tab{border:1px solid #c9d2e3;background:#fff;color:#0B1530;border-radius:999px;padding:6px 12px;font-weight:600;font-size:14px;font-family:inherit;line-height:1.2;cursor:pointer}.tab.on{background:#0B1530;color:#fff;border-color:#0B1530}
 </style>
-<meta name="versione" content="2026-11-12f">
+<meta name="versione" content="2026-11-12g">
 <script>/* se GitHub ha una versione più nuova di questa pagina, la carica subito (niente più «non vedo le novità») */
 (function(){try{var mia=document.querySelector('meta[name=versione]').content;
 fetch(location.pathname,{cache:'reload'}).then(function(r){return r.text()}).then(function(t){var m=t.match(/name="versione" content="([^"]+)"/);
@@ -334,7 +334,7 @@ const has=v=>Array.isArray(v)?v.length>0:(v===true||(typeof v==='string'&&v.trim
 const rec=k=>DB.days[k]||null;
 function filled(r){return !!r&&Object.entries(r).some(([k,v])=>k!=='dir'&&has(v))}
 /* pallino giallo = compiti veri: sezioni 1–6 e 10 (non le spunte «completata», non verifiche, riepilogo o correzioni) */
-function conCompiti(r){return !!r&&Object.entries(r).some(([k,v])=>{const n=+k.split('.')[0];return ((n>=1&&n<=6)||n===10)&&!k.includes('.ex.')&&typeof v==='string'&&!/^\d{4}-\d{2}-\d{2}$/.test(v)&&v.trim()!==''})}
+function conCompiti(r){return !!r&&Object.entries(r).some(([k,v])=>{const n=+k.split('.')[0];const pz=k.split('.');return ((n>=1&&n<=6)||n===10)&&!k.includes('.ex.')&&r[pz[0]+'.'+pz[1]+'.ok']!==true&&typeof v==='string'&&!/^\d{4}-\d{2}-\d{2}$/.test(v)&&v.trim()!==''})}
 const visible=k=>ROLE==='docente'||k<=T;
 function setv(k,v){const d=iso(SEL);DIRTY.add(d);const r=DB.days[d]=DB.days[d]||{};if(!has(v))delete r[k];else r[k]=v;if(!Object.keys(r).length)delete DB.days[d];saved()}
 let tmr=null;
