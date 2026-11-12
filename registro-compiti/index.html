@@ -50,7 +50,7 @@ select.stud{border:1px solid var(--line);border-radius:6px;padding:6px 8px;backg
 .leg{display:flex;flex-wrap:wrap;gap:10px;font-size:11px;color:var(--mut);margin-top:8px}.leg i{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:4px;vertical-align:middle}
 .att{border:1px solid #d9dee8;border-radius:10px;padding:12px 14px;margin:12px 0;background:#f7f9fc}
 .att h4{margin:0 0 8px;font-size:14px;color:var(--navy)}.att .it{display:grid;grid-template-columns:150px 1fr;gap:4px 12px;padding:7px 0;border-top:1px solid #e6eaf1;font-size:13px}
-.att .it:first-of-type{border-top:0}.att .st{font-weight:bold}.att .st.C{color:#2e9e5b}.att .st.I{color:#c9671a}.att .st.A{color:#8a6d1a}.att .st.L{color:#3b6fd8}.att .st.Q{color:var(--navy)}
+.att .it:first-of-type{border-top:0}.att .st{font-weight:bold}.att .st.C{color:#2e9e5b}.att .st.I{color:#c9671a}.att .st.A{color:#8a6d1a}.att .st.R{color:#2e9e5b}.att .st.L{color:#3b6fd8}.att .st.Q{color:var(--navy)}
 .att .sm{color:var(--mut);font-size:12px}.att .fb{white-space:pre-wrap}
 @media(max-width:640px){.att .it{grid-template-columns:1fr}}
 .d.sel{background:var(--navy);color:#fff}
@@ -142,7 +142,7 @@ footer b{color:var(--ink)}
 }
 .tabs{display:flex;flex-wrap:wrap;gap:6px}.tab{border:1px solid #c9d2e3;background:#fff;color:#0B1530;border-radius:999px;padding:6px 12px;font-weight:600;font-size:14px;font-family:inherit;line-height:1.2;cursor:pointer}.tab.on{background:#0B1530;color:#fff;border-color:#0B1530}
 </style>
-<meta name="versione" content="2026-11-12b">
+<meta name="versione" content="2026-11-12c">
 <script>/* se GitHub ha una versione più nuova di questa pagina, la carica subito (niente più «non vedo le novità») */
 (function(){try{var mia=document.querySelector('meta[name=versione]').content;
 fetch(location.pathname,{cache:'reload'}).then(function(r){return r.text()}).then(function(t){var m=t.match(/name="versione" content="([^"]+)"/);
@@ -298,8 +298,8 @@ const tutte=()=>!MAT||/^tutte/i.test(MAT);
 const attDi=k=>((ATT&&ATT.days&&ATT.days[k])||[]).filter(x=>tutte()||x.f===famiglia(MAT)||famiglia(x.f)===famiglia(MAT));
 function attBox(k){const L=attDi(k);if(!L.length)return '';
   const v=L.filter(x=>x.k==='v'),l=L.filter(x=>x.k==='l'),q=L.filter(x=>x.k==='q');let h='<div class="att"><h4>Attività rilevate in questo giorno'+(ATT.letto?' <span class="sm">· dati letti il '+esc(ATT.letto)+'</span>':'')+'</h4>';
-  const SV={C:'✓ Completata',I:'Iniziata, non terminata',A:'Studiata (completata più avanti)'};
-  v.forEach(x=>{h+='<div class="it"><div class="st '+x.s+'">'+SV[x.s]+'</div><div><b>Videolezione:</b> '+esc(x.t)+(x.p?' · test '+esc(x.p):'')+(x.s==='A'&&x.cd?' · completata il '+esc(fmtS(x.cd)):'')+(tutte()?'<div class="sm">'+esc(x.f)+'</div>':'')+'<div class="sm">'+esc(x.c)+'</div></div></div>'});
+  const SV={C:'✓ Completata',I:'Iniziata, non terminata',A:'Studiata (completata più avanti)',R:'Ripassata (già completata)'};
+  v.forEach(x=>{h+='<div class="it"><div class="st '+x.s+'">'+SV[x.s]+'</div><div><b>Videolezione:</b> '+esc(x.t)+(x.p?' · test '+esc(x.p):'')+((x.s==='A'||x.s==='R')&&x.cd?' · completata il '+esc(fmtS(x.cd)):'')+(tutte()?'<div class="sm">'+esc(x.f)+'</div>':'')+'<div class="sm">'+esc(x.c)+'</div></div></div>'});
   l.forEach(x=>{h+='<div class="it"><div class="st L">'+(x.ass?'Lezione in diretta · assente':'Lezione in diretta')+(x.voto?'<br>Voto '+esc(x.voto):'')+'</div><div><b>'+esc(x.t)+'</b><div class="sm">'+esc(x.doc)+'</div>'+(x.arg?'<div><span class="sm">Argomento:</span> '+esc(x.arg)+'</div>':'')+(x.fb&&x.fb!==x.arg?'<div class="fb"><span class="sm">Giudizio:</span> '+esc(x.fb)+'</div>':'')+'</div></div>'});
   q.forEach(x=>{h+='<div class="it"><div class="st Q">Compito '+esc(x.e)+(x.v?' · voto '+esc(x.v):'')+'</div><div><b>'+esc(x.t)+'</b>'+(x.l?'<div class="sm">'+esc(x.l)+'</div>':'')+(x.sc&&x.e==='assegnato'?'<div class="sm">Scadenza '+esc(fmtS(x.sc))+'</div>':'')+'<div class="sm">'+esc(x.doc)+'</div></div></div>'});
   return h+'</div>'}
@@ -421,7 +421,7 @@ function summary(){
         const what=r[s.n+'.'+i+'.arg']||r[s.n+'.'+i+'.att']||'';sc.push([v,f.due+(what?': '+what:'')])}})}});
   });
   let vc=0,vi=0,lv=0;const vis=new Set();Object.keys((ATT&&ATT.days)||{}).forEach(k=>{const d=new Date(k+'T12:00');if(d.getFullYear()!==y||d.getMonth()!==mo||!visible(k))return;
-    attDi(k).forEach(x=>{if(x.k==='v'){if(x.s==='C')vc++;else if(x.s==='I'&&!vis.has(x.c+x.t)){vis.add(x.c+x.t);vi++}}if(x.k==='l')lv++})});
+    attDi(k).forEach(x=>{if(x.k==='v'){if(x.s==='C')vc++;else if(x.s==='I'&&!vis.has(x.c+x.t)&&!Object.values(ATT.days).some(L=>L.some(y=>y.c===x.c&&y.t===x.t&&y.s==='C'))){vis.add(x.c+x.t);vi++}}if(x.k==='l')lv++})});
   sc.sort((a,b)=>a[0]<b[0]?-1:1);
   const uniq=[...new Map(sc.map(x=>[x.join('|'),x])).values()].slice(0,5);
   $('#sum').innerHTML='<h3>Riepilogo del mese</h3><div class="n">'+
