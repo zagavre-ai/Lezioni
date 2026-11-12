@@ -46,7 +46,8 @@ select.stud{border:1px solid var(--line);border-radius:6px;padding:6px 8px;backg
 .d.has::after{content:"";position:absolute;left:50%;bottom:4px;width:6px;height:6px;margin-left:-3px;border-radius:50%;background:var(--acc)}
 .d.today{border-color:var(--navy)}
 .d .pl{position:absolute;top:3px;right:3px;display:flex;gap:2px}.d .pl i{width:6px;height:6px;border-radius:50%;display:block}
-.pl .c{background:#2e9e5b}.pl .i{background:#e8832a}.pl .l{background:#3b6fd8}
+.pl .c{background:#2e9e5b}.pl .v{background:#d64545}
+.prog{border:1px solid #f0c7c7;background:#fdf5f5;border-radius:10px;padding:12px 14px;margin:12px 0}.prog h4{margin:0 0 8px;font-size:14px;color:#a12a2a}.prog .it{padding:6px 0;border-top:1px solid #f3dede;font-size:13px}.prog .it:first-of-type{border-top:0}.prog .es{font-weight:bold;color:#2e9e5b}.prog .na{color:var(--mut)}.pl .i{background:#e8832a}.pl .l{background:#3b6fd8}
 .leg{display:flex;flex-wrap:wrap;gap:10px;font-size:11px;color:var(--mut);margin-top:8px}.leg i{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:4px;vertical-align:middle}
 .att{border:1px solid #d9dee8;border-radius:10px;padding:12px 14px;margin:12px 0;background:#f7f9fc}
 .att h4{margin:0 0 8px;font-size:14px;color:var(--navy)}.att .it{display:grid;grid-template-columns:150px 1fr;gap:4px 12px;padding:7px 0;border-top:1px solid #e6eaf1;font-size:13px}
@@ -142,7 +143,7 @@ footer b{color:var(--ink)}
 }
 .tabs{display:flex;flex-wrap:wrap;gap:6px}.tab{border:1px solid #c9d2e3;background:#fff;color:#0B1530;border-radius:999px;padding:6px 12px;font-weight:600;font-size:14px;font-family:inherit;line-height:1.2;cursor:pointer}.tab.on{background:#0B1530;color:#fff;border-color:#0B1530}
 </style>
-<meta name="versione" content="2026-11-12c">
+<meta name="versione" content="2026-11-12d">
 <script>/* se GitHub ha una versione più nuova di questa pagina, la carica subito (niente più «non vedo le novità») */
 (function(){try{var mia=document.querySelector('meta[name=versione]').content;
 fetch(location.pathname,{cache:'reload'}).then(function(r){return r.text()}).then(function(t){var m=t.match(/name="versione" content="([^"]+)"/);
@@ -303,8 +304,16 @@ function attBox(k){const L=attDi(k);if(!L.length)return '';
   l.forEach(x=>{h+='<div class="it"><div class="st L">'+(x.ass?'Lezione in diretta · assente':'Lezione in diretta')+(x.voto?'<br>Voto '+esc(x.voto):'')+'</div><div><b>'+esc(x.t)+'</b><div class="sm">'+esc(x.doc)+'</div>'+(x.arg?'<div><span class="sm">Argomento:</span> '+esc(x.arg)+'</div>':'')+(x.fb&&x.fb!==x.arg?'<div class="fb"><span class="sm">Giudizio:</span> '+esc(x.fb)+'</div>':'')+'</div></div>'});
   q.forEach(x=>{h+='<div class="it"><div class="st Q">Compito '+esc(x.e)+(x.v?' · voto '+esc(x.v):'')+'</div><div><b>'+esc(x.t)+'</b>'+(x.l?'<div class="sm">'+esc(x.l)+'</div>':'')+(x.sc&&x.e==='assegnato'?'<div class="sm">Scadenza '+esc(fmtS(x.sc))+'</div>':'')+'<div class="sm">'+esc(x.doc)+'</div></div></div>'});
   return h+'</div>'}
-function pallini(k){const L=attDi(k);if(!L.length)return '';const c=L.some(x=>x.k==='v'&&x.s!=='I'),i=L.some(x=>x.k==='v'&&x.s==='I'),l=L.some(x=>x.k==='l');
-  return '<span class="pl">'+(c?'<i class="c"></i>':'')+(i?'<i class="i"></i>':'')+(l?'<i class="l"></i>':'')+'</span>'}
+function programmati(k){const out=[];Object.entries((DB&&DB.days)||{}).forEach(([d,r])=>{if(!r)return;SEZ.forEach(s=>{for(let i=0;i<(s.rows||0);i++)s.f.filter(f=>f.due).forEach(f=>{if(r[s.n+'.'+i+'.'+f.k]===k){
+  const g=x=>r[s.n+'.'+i+'.'+x];out.push({da:d,cosa:f.due,tip:(g('tip')||[]).join(', '),arg:g('arg')||g('att')||g('lib')||g('cos')||''})}})})});return out}
+function esiti(k){return attDi(k).filter(x=>(x.k==='l'&&x.voto)||(x.k==='q'&&x.e==='corretto'&&x.v))}
+function progBox(k){const P=programmati(k);if(!P.length)return '';const E=esiti(k);
+  let h='<div class="prog"><h4>In programma in questo giorno</h4>';
+  P.forEach(p=>{h+='<div class="it"><b>'+esc(p.cosa)+(p.tip?' · '+esc(p.tip):'')+'</b>'+(p.arg?': '+esc(p.arg):'')+' <span class="sm">(fissata il '+esc(fmtS(p.da))+')</span></div>'});
+  h+='<div class="it">'+(E.length?E.map(x=>'<span class="es">Esito: voto '+esc(x.k==='l'?x.voto:x.v)+'</span> <span class="sm">· '+esc(x.k==='l'?'registro della piattaforma, '+x.doc:'quaderno, '+x.t)+'</span>').join('<br>'):'<span class="na">Esito: nessun voto registrato per questo giorno.</span>')+'</div>';
+  return h+'</div>'}
+function pallini(k){const L=attDi(k),V=programmati(k).length;if(!L.length&&!V)return '';const c=L.some(x=>x.k==='v'&&x.s!=='I'),i=L.some(x=>x.k==='v'&&x.s==='I'),l=L.some(x=>x.k==='l');
+  return '<span class="pl">'+(V?'<i class="v"></i>':'')+(c?'<i class="c"></i>':'')+(i?'<i class="i"></i>':'')+(l?'<i class="l"></i>':'')+'</span>'}
 async function pinhash(p){return (await sha('telesio-docente|'+p)).slice(0,32)}
 let PIN='',DOCNAME='';try{PIN=localStorage.getItem('telesio_pin')||''}catch(e){}
 const DIRTY=new Set();let GENDIRTY=false;
@@ -402,7 +411,7 @@ function calendar(){
   for(let i=0;i<off;i++)h+='<button class="d out" tabindex="-1" aria-hidden="true"></button>';
   for(let g=1;g<=n;g++){const d=new Date(VIEW.getFullYear(),VIEW.getMonth(),g,12),k=iso(d),ok=visible(k);
     h+='<button class="d'+(k===T?' today':'')+(k===iso(SEL)?' sel':'')+(ok&&filled(rec(k))?' has':'')+'" data-k="'+k+'"'+(ok?'':' disabled')+' aria-label="'+fmtL(d)+'">'+g+(ok?pallini(k):'')+'</button>'}
-  $('#days').innerHTML=h+'<div class="leg" style="grid-column:1/-1"><span><i style="background:#2e9e5b"></i>lezione completata</span><span><i style="background:#e8832a"></i>lezione non terminata</span><span><i style="background:#3b6fd8"></i>lezione in diretta</span></div>';
+  $('#days').innerHTML=h+'<div class="leg" style="grid-column:1/-1"><span><i style="background:#d64545"></i>verifica o scadenza</span><span><i style="background:#2e9e5b"></i>lezione completata</span><span><i style="background:#e8832a"></i>lezione non terminata</span><span><i style="background:#3b6fd8"></i>lezione in diretta</span></div>';
   $('#days').querySelectorAll('.d[data-k]').forEach(b=>b.onclick=()=>{SEL=new Date(b.dataset.k+'T12:00');render()});
   $('#nm').disabled=ROLE==='studente'&&new Date(VIEW.getFullYear(),VIEW.getMonth()+1,1,12)>TODAY;
 }
@@ -482,8 +491,8 @@ function day(){
   let h='<div class="dayh"><div><h2>'+fmtL(SEL)+'</h2><div class="bar"></div></div><div class="tools">'+(ro?'':'<span class="status" id="st"></span><button class="btn pri" id="sv">Salva</button>')+'<button class="btn" id="pr">Stampa / PDF</button></div></div>';
   h+='<div class="head4"><div><span class="lab">Studente</span>'+esc(g.nome||'')+'</div><div><span class="lab">Materia</span>'+esc(MAT)+'</div><div><span class="lab">Docente</span>'+esc(g.doc||'')+'</div><div><span class="lab">Prossima diretta</span>'+(ro?esc(fmtS(r.dir)):'<input type="date" data-k="dir" value="'+esc(r.dir||'')+'">')+'</div></div>';
   h+=genBox();
-  h+=attBox(k);
-  if(ro&&!filled(r))h+=attDi(k).length?'':'<div class="empty"><b>Nessun compito per questo giorno</b>Guarda i giorni con il pallino giallo.</div>';
+  h+=progBox(k)+attBox(k);
+  if(ro&&!filled(r))h+=(attDi(k).length||programmati(k).length)?'':'<div class="empty"><b>Nessun compito per questo giorno</b>Guarda i giorni con il pallino giallo.</div>';
   else h+=sections(r);
   $('#day').innerHTML=h;
   $('#pr').onclick=()=>{document.querySelectorAll('details.sec:not(.vuota)').forEach(d=>d.open=true);window.print()};
