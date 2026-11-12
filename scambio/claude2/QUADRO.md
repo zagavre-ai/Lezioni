@@ -7,7 +7,9 @@
 
 - psicologia-I-II-lez02 · PRONTA 12/11 (73:16,6, 360,8 MiB, 131896 fotogrammi, −16 LUFS, 10 Quiz a 0,0 s). t_verifica 4373,2 · t_compiti 4391,5. Consegna: ramo consegna-psicologia-I-II-lez02 (5 pezzi). Sigla iniziale = SEGNAPOSTO di 15 s (sigla Psicologia non esiste). Sottotitoli: 61% crudo, mediana 0,08 s.
 
-## IN CORSO: nessuno. Prossimo da decidere con Sara. In pausa: letteratura lez03, ideazione lez01, economia lez02.
+- letteratura-V-lez03 · PRONTA 12/11 (62:12,9, 261,6 MiB, 111988 fotogrammi, −16,0 LUFS, 4 Quiz a 0,000 s). t_verifica 3709,66 · t_compiti 3722,87. Consegna: ramo consegna-letteratura-V-lez03 (3 pezzi). Nessun Excel del docente (test da fare). Sottotitoli rifatti per tratti (-ss), controllati su 5 punti.
+
+## IN CORSO: moda-ideazione-III-IV-lez01. Coda: inglese lez03, economia lez02, storia III 1-3, storia V 1, cucina/alimentazione, storia arte 3-5. In pausa: letteratura lez03, ideazione lez01, economia lez02.
 
 Fonte: rami stato-* e voci-* (letti 10/11 22:40). Ore = STIMA. Le 14 PRONTE non si ricodificano: verifica e compiti li aggiunge la pagina (nota master 1 22:40).
 
