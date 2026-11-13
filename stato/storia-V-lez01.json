@@ -876,10 +876,14 @@
   {
    "quando": "13/11 08:53",
    "testo": "controllo_finale: ESITO: TUTTO OK"
+  },
+  {
+   "quando": "13/11 09:05",
+   "testo": "controllo_finale: ESITO: DA SISTEMARE: sottotitoli"
   }
  ],
  "materia": "Storia",
  "lezione": "1",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-13 08:53:28"
+ "aggiornato": "2026-11-13 09:05:00"
 }
