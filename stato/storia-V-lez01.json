@@ -376,6 +376,453 @@
      20.267
     ]
    ]
+  },
+  "2": {
+   "titolo": "Il Novecento, il secolo delle masse · Parte 2",
+   "stato": "IN_MONTAGGIO",
+   "voci": "kore",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "no",
+   "video": "Storia_Lez1_Parte2_1080p.mp4",
+   "durata_s": 3083.4,
+   "durata": "51:23.4",
+   "fotogrammi": 92502,
+   "fotogrammi_attesi": 92502,
+   "peso_MB": 278.6,
+   "vtt": "Storia_Lez1_Parte2.vtt",
+   "scheda": {
+    "materia": "Storia",
+    "titolo": "Il Novecento, il secolo delle masse · Parte 2",
+    "durata_s": 3083.4,
+    "argomenti": [
+     {
+      "n": 6,
+      "titolo": "Tempo libero, taylorismo e fordismo",
+      "inizio_s": 83.333,
+      "quiz_s": 660.166
+     },
+     {
+      "n": 7,
+      "titolo": "Trust, crisi agraria e migrazioni",
+      "inizio_s": 665.466,
+      "quiz_s": 1111.732
+     },
+     {
+      "n": 8,
+      "titolo": "Politica di massa e socialismo",
+      "inizio_s": 1117.032,
+      "quiz_s": 1641.098
+     },
+     {
+      "n": 9,
+      "titolo": "La Chiesa e i movimenti femministi",
+      "inizio_s": 1646.398,
+      "quiz_s": 2178.564
+     },
+     {
+      "n": 10,
+      "titolo": "La crisi del Positivismo",
+      "inizio_s": 2183.864,
+      "quiz_s": 2390.93
+     },
+     {
+      "n": 11,
+      "titolo": "Razzismo, antisemitismo e nazionalismo",
+      "inizio_s": 2396.23,
+      "quiz_s": 2956.429
+     }
+    ],
+    "quiz": {
+     "Q6": {
+      "title": "Quiz 6 · Tempo libero, taylorismo e fordismo",
+      "items": [
+       {
+        "p": "Che cosa generano le lotte sindacali?",
+        "a": "Meno ore di lavoro, salari più alti e il concetto di «tempo libero»",
+        "w": [
+         "Più ore di lavoro",
+         "La fine dei sindacati",
+         "Il divieto di turismo"
+        ],
+        "e": "Le lotte sindacali ottengono meno ore e più salari, e nasce il tempo libero."
+       },
+       {
+        "p": "Quale località balneare è citata come meta del turismo?",
+        "a": "Deauville",
+        "w": [
+         "Rimini",
+         "Biarritz",
+         "Brighton"
+        ],
+        "e": "Tra le località balneari il PDF cita Deauville."
+       },
+       {
+        "p": "Che cosa teorizza Friedrich W. Taylor nel 1911?",
+        "a": "L'organizzazione scientifica del lavoro",
+        "w": [
+         "La rivoluzione proletaria",
+         "Il suffragio universale",
+         "La psicoanalisi"
+        ],
+        "e": "Taylor teorizza l'organizzazione scientifica del lavoro per calcolare i tempi e massimizzare l'efficienza."
+       },
+       {
+        "p": "Che cosa porta il nastro meccanico della catena di montaggio?",
+        "a": "I pezzi direttamente all'operaio fermo nella sua postazione",
+        "w": [
+         "L'operaio da un reparto all'altro",
+         "I clienti alla fabbrica",
+         "I prodotti finiti ai negozi"
+        ],
+        "e": "Il nastro porta i pezzi all'operaio, che resta immobile nella sua postazione."
+       },
+       {
+        "p": "Quale è un aspetto negativo della catena di montaggio?",
+        "a": "Il lavoro alienante e ripetitivo, che fa perdere la visione dell'oggetto completo",
+        "w": [
+         "I prezzi più alti delle merci",
+         "La produzione in piccole quantità",
+         "La fine della standardizzazione"
+        ],
+        "e": "L'operaio diventa «ingranaggio» e perde creatività; tra i lati positivi ci sono i prezzi ridotti."
+       }
+      ]
+     },
+     "Q7": {
+      "title": "Quiz 7 · Trust, crisi agraria e migrazioni",
+      "items": [
+       {
+        "p": "Che cosa sono i trust?",
+        "a": "Accordi finanziari e industriali tra grandi imprese che eliminano la concorrenza",
+        "w": [
+         "Sindacati di operai",
+         "Partiti politici di massa",
+         "Cooperative agricole"
+        ],
+        "e": "Con i trust le imprese eliminano la concorrenza e creano condizioni di monopolio."
+       },
+       {
+        "p": "Quale causa ha la crisi agraria europea?",
+        "a": "La sovrapproduzione e l'arrivo di cereali a basso costo da America, Australia e Argentina",
+        "w": [
+         "La scarsità di cereali",
+         "Le guerre coloniali",
+         "La chiusura dei mercati americani"
+        ],
+        "e": "Trasporti rapidi e meccanizzazione portano in Europa cereali a basso costo."
+       },
+       {
+        "p": "Quale conseguenza ha la crisi agraria sui piccoli agricoltori?",
+        "a": "Crollo di prezzi e profitti e fallimento di molte piccole aziende",
+        "w": [
+         "Aumento dei profitti",
+         "Espansione delle piccole aziende",
+         "Fine dell'emigrazione"
+        ],
+        "e": "Crollano prezzi e profitti, falliscono le piccole aziende e si impoveriscono contadini e salariati."
+       },
+       {
+        "p": "Quale era la porta d'accesso principale degli emigranti negli Stati Uniti?",
+        "a": "New York",
+        "w": [
+         "Boston",
+         "Chicago",
+         "San Francisco"
+        ],
+        "e": "New York è la porta d'accesso principale per la grande migrazione transoceanica."
+       },
+       {
+        "p": "Quali difficoltà affrontano i migranti?",
+        "a": "Discriminazione, barriere linguistiche e quartieri malsani e sovraffollati",
+        "w": [
+         "Un'accoglienza senza ostacoli",
+         "Il rimpatrio immediato",
+         "L'assegnazione di terre gratuite"
+        ],
+        "e": "I migranti affrontano discriminazione, emarginazione, barriere linguistiche e quartieri malsani."
+       }
+      ]
+     },
+     "Q8": {
+      "title": "Quiz 8 · Politica di massa e socialismo",
+      "items": [
+       {
+        "p": "Che cosa chiedono le masse lavoratrici scendendo in piazza?",
+        "a": "Migliori condizioni salariali e maggiore rappresentanza politica",
+        "w": [
+         "Il ritorno alla monarchia assoluta",
+         "Meno scuole",
+         "La fine dei sindacati"
+        ],
+        "e": "Le masse chiedono migliori salari e maggiore rappresentanza politica."
+       },
+       {
+        "p": "Quali caratteristiche hanno i partiti di massa?",
+        "a": "Programmi precisi, iscritti, militanti e leader carismatici",
+        "w": [
+         "Nessun programma e pochi iscritti",
+         "Solo élite aristocratiche",
+         "Nessuna propaganda"
+        ],
+        "e": "I partiti moderni sono strutturati e usano comizi, manifesti e opuscoli."
+       },
+       {
+        "p": "In che anno nasce la CGL in Italia?",
+        "a": "Nel 1906",
+        "w": [
+         "Nel 1889",
+         "Nel 1914",
+         "Nel 1946"
+        ],
+        "e": "La CGL nasce nel 1906; le Trade Unions sono inglesi."
+       },
+       {
+        "p": "Che cosa sostengono i socialisti riformisti?",
+        "a": "Il miglioramento delle condizioni operaie con riforme graduali e pacifiche in Parlamento",
+        "w": [
+         "La rivoluzione proletaria immediata",
+         "Il ritorno alle corporazioni",
+         "La difesa della proprietà privata senza riforme"
+        ],
+        "e": "I rivoluzionari o massimalisti, fedeli a Marx, puntano invece sulla rivoluzione proletaria."
+       },
+       {
+        "p": "Dove e quando nasce la Seconda Internazionale?",
+        "a": "A Parigi, nel 1889",
+        "w": [
+         "A Londra, nel 1863",
+         "A Berlino, nel 1914",
+         "A Roma, nel 1906"
+        ],
+        "e": "Nel 1889 nasce a Parigi per coordinare i partiti socialisti europei."
+       }
+      ]
+     },
+     "Q9": {
+      "title": "Quiz 9 · La Chiesa e i movimenti femministi",
+      "items": [
+       {
+        "p": "Che cosa pubblica papa Leone XIII nel 1891?",
+        "a": "L'enciclica Rerum Novarum",
+        "w": [
+         "Il Manifesto dei comunisti",
+         "Il Syllabus",
+         "Il Codice di diritto canonico"
+        ],
+        "e": "La Rerum Novarum è la linea di mediazione della Chiesa sulla questione operaia."
+       },
+       {
+        "p": "Che cosa fa la Rerum Novarum rispetto alla proprietà privata?",
+        "a": "La difende, condannando la lotta di classe",
+        "w": [
+         "La abolisce",
+         "La affida allo Stato",
+         "La ignora"
+        ],
+        "e": "Condanna le teorie socialiste ma esorta i padroni a trattare con giustizia i lavoratori."
+       },
+       {
+        "p": "Chi condanna il modernismo cattolico nel 1907?",
+        "a": "Papa Pio X",
+        "w": [
+         "Papa Leone XIII",
+         "Romolo Murri",
+         "Emmeline Pankhurst"
+        ],
+        "e": "Il movimento democratico-cristiano di Romolo Murri è condannato da Pio X nel 1907."
+       },
+       {
+        "p": "Quale metodo di protesta usano le suffragette?",
+        "a": "Incendi di cassette postali, incatenamenti e scioperi della fame",
+        "w": [
+         "Solo petizioni scritte",
+         "Solo comizi autorizzati",
+         "La rinuncia alla protesta"
+        ],
+        "e": "I loro metodi sono duri ed eclatanti, con repressione violenta."
+       },
+       {
+        "p": "Quando le donne ottengono il diritto di voto in Italia?",
+        "a": "Nel 1946",
+        "w": [
+         "Nel 1903",
+         "Nel 1918",
+         "Nel 1910"
+        ],
+        "e": "Il voto alle donne arriva dopo la Prima guerra mondiale: Italia nel 1946."
+       }
+      ]
+     },
+     "Q10": {
+      "title": "Quiz 10 · La crisi del Positivismo",
+      "items": [
+       {
+        "p": "Che cosa mette in crisi la fiducia nel progresso tipica dell'Ottocento?",
+        "a": "Nuove scoperte scientifiche",
+        "w": [
+         "La fine delle guerre",
+         "La diffusione dell'istruzione",
+         "L'invenzione della stampa"
+        ],
+        "e": "Le nuove scoperte scientifiche incrinano la fiducia cieca nella scienza."
+       },
+       {
+        "p": "Chi elabora la meccanica quantistica?",
+        "a": "Max Planck",
+        "w": [
+         "Albert Einstein",
+         "Sigmund Freud",
+         "Robert Koch"
+        ],
+        "e": "Planck elabora la meccanica quantistica; Einstein la relatività."
+       },
+       {
+        "p": "In che anno Einstein formula la teoria della relatività?",
+        "a": "Nel 1905",
+        "w": [
+         "Nel 1896",
+         "Nel 1914",
+         "Nel 1889"
+        ],
+        "e": "Spazio e tempo non sono più assoluti."
+       },
+       {
+        "p": "Che cosa annuncia Nietzsche?",
+        "a": "La «morte di Dio»",
+        "w": [
+         "La nascita della psicoanalisi",
+         "La fine dell'Ottocento",
+         "La legge di gravità"
+        ],
+        "e": "Nietzsche attacca la cultura occidentale e smaschera le ipocrisie metafisiche."
+       },
+       {
+        "p": "Che cosa scopre Sigmund Freud?",
+        "a": "La dimensione profonda e irrazionale dell'inconscio",
+        "w": [
+         "La teoria della relatività",
+         "Il vaccino contro la rabbia",
+         "Il bacillo della tubercolosi"
+        ],
+        "e": "Freud fonda la psicoanalisi e incrina l'idea dell'individuo totalmente razionale."
+       }
+      ]
+     },
+     "Q11": {
+      "title": "Quiz 11 · Razzismo, antisemitismo e nazionalismo",
+      "items": [
+       {
+        "p": "Che cosa è il «darwinismo sociale»?",
+        "a": "L'applicazione distorta dell'evoluzionismo di Darwin alla società umana",
+        "w": [
+         "Una teoria medica",
+         "Una dottrina religiosa",
+         "Un movimento sindacale"
+        ],
+        "e": "Sono teorie pseudo-scientifiche che giustificano il dominio dei «più forti»."
+       },
+       {
+        "p": "Chi scrive il Saggio sulla disuguaglianza delle razze umane (1855)?",
+        "a": "Arthur de Gobineau",
+        "w": [
+         "Charles Darwin",
+         "Theodor Herzl",
+         "Gustave Le Bon"
+        ],
+        "e": "È un testo di riferimento teorico del razzismo moderno."
+       },
+       {
+        "p": "Che cosa è il sionismo?",
+        "a": "Il movimento politico di Theodor Herzl per creare uno Stato ebraico in Palestina",
+        "w": [
+         "Un partito socialista",
+         "Un movimento di suffragiste",
+         "Un'organizzazione sindacale"
+        ],
+        "e": "Nasce come risposta all'antisemitismo dilagante."
+       },
+       {
+        "p": "Che cosa chiede il panslavismo?",
+        "a": "L'unione dei popoli slavi",
+        "w": [
+         "L'unione dei popoli di lingua tedesca",
+         "La fine dell'imperialismo",
+         "La pace tra le potenze"
+        ],
+        "e": "Il pangermanesimo vuole invece unire i popoli di lingua tedesca."
+       },
+       {
+        "p": "Che cosa prepara il terreno per la Prima guerra mondiale?",
+        "a": "La competizione coloniale e la corsa agli armamenti tra le grandi potenze",
+        "w": [
+         "Il disarmo generale",
+         "La crescita dei sindacati",
+         "La riduzione dell'orario di lavoro"
+        ],
+        "e": "Imperialismo e militarismo preparano il conflitto."
+       }
+      ]
+     }
+    }
+   },
+   "timeline": [
+    [
+     "T6",
+     83.333,
+     3.6
+    ],
+    [
+     "T7",
+     665.466,
+     3.6
+    ],
+    [
+     "T8",
+     1117.032,
+     3.6
+    ],
+    [
+     "T9",
+     1646.398,
+     3.6
+    ],
+    [
+     "T10",
+     2183.864,
+     3.6
+    ],
+    [
+     "Q10",
+     2390.93,
+     4.0
+    ],
+    [
+     "T11",
+     2396.23,
+     3.6
+    ],
+    [
+     "Q11",
+     2956.429,
+     4.0
+    ],
+    [
+     "GL2",
+     2961.729,
+     41.667
+    ],
+    [
+     "RF2",
+     3004.996,
+     38.267
+    ],
+    [
+     "FIN2",
+     3044.663,
+     12.533
+    ]
+   ]
   }
  },
  "manca": "",
@@ -409,10 +856,14 @@
   {
    "quando": "13/11 07:52",
    "testo": "controllo_finale: ESITO: DA SISTEMARE: volume, sottotitoli"
+  },
+  {
+   "quando": "13/11 07:59",
+   "testo": "controllo_finale: ESITO: DA SISTEMARE: volume, sottotitoli"
   }
  ],
  "materia": "Storia",
  "lezione": "1",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-13 07:52:56"
+ "aggiornato": "2026-11-13 07:59:00"
 }
