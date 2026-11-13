@@ -1,171 +1,137 @@
-{
- "INTRO1": [
-  "Benvenuti alla lezione di Storia del professor Giorgio Mazzotti: il Novecento, il secolo delle masse.",
-  "In questa prima parte vedremo quattro argomenti.",
-  "La Belle Époque, con le sue luci e le sue ombre; la rivoluzione dei trasporti e delle comunicazioni.",
-  "I successi della medicina e la società di massa; infine l'urbanizzazione e la società dei consumi.",
-  "Alla fine di ogni argomento ti aspetta un breve quiz. Buono studio!"
- ],
- "S1": [
-  "La Belle Époque. È il periodo compreso tra la fine dell'Ottocento e il millenovecentoquattordici: forte crescita economica, sviluppo industriale e un lungo periodo di pace europeo, dopo la Grande depressione.",
-  "Le luci: il trionfo della borghesia, ottimista e intraprendente, e la diffusione del benessere, con uno stile di vita mondano, tra caffè, salotti e lunghe vacanze.",
-  "Il progresso tecnico si celebra nelle Grandi Esposizioni Universali, come l'inaugurazione della Tour Eiffel a Parigi, nel milleottocentottantanove.",
-  "Le ombre: forti inquietudini e profonde disuguaglianze sociali, e condizioni di vita e di lavoro disumane per le masse operaie delle città, fonte di continue proteste.",
-  "E la diffusione di pericolose ideologie nazionaliste e imperialiste, basate su presunte gerarchie razziali."
- ],
- "S2": [
-  "La rivoluzione dei trasporti e delle comunicazioni.",
-  "L'energia elettrica si diffonde per l'illuminazione privata e delle città, e Parigi diventa la Ville lumière. Inizia lo sfruttamento del petrolio, da cui deriva la benzina.",
-  "Gli ingegneri Daimler e Benz costruiscono i primi veicoli con motore a scoppio, e nasce il settore automobilistico. I fratelli Wright realizzano il primo volo con un aeroplano.",
-  "Nelle comunicazioni: il telefono, elaborato da Antonio Meucci, e la radio, messa a punto da Guglielmo Marconi nel milleottocentonovantasei, senza fili, con le onde elettromagnetiche.",
-  "E nel milleottocentonovantacinque i fratelli Lumière proiettano la prima pellicola: nasce il cinema muto."
- ],
- "S3": [
-  "I successi della medicina e la società di massa.",
-  "Louis Pasteur introduce la pastorizzazione, nel milleottocentosessantaquattro, e la sterilizzazione, per eliminare germi e batteri.",
-  "Pasteur sviluppa i vaccini contro il carbonchio e la rabbia; Robert Koch individua il bacillo della tubercolosi.",
-  "Padiglioni ospedalieri specializzati e severe norme igienico-sanitarie abbattono la mortalità infantile, e nel millenovecento la popolazione mondiale raggiunge un miliardo e mezzo.",
-  "Nasce la società di massa: la moltitudine smette di essere un aggregato inerte e diventa protagonista attiva della vita sociale, economica e politica."
- ],
- "S4": [
-  "Urbanizzazione e società dei consumi.",
-  "Enormi masse di lavoratori si trasferiscono dalle campagne alle città, in cerca di lavoro in fabbriche o uffici: è l'urbanizzazione.",
-  "Le capitali crescono in modo esponenziale: nel millenovecento Londra supera i sei milioni di abitanti, Parigi i due milioni.",
-  "Le città si rinnovano: vie larghe e salubri, acquedotti, reti fognarie e metropolitane, a Londra dal milleottocentosessantatré e a Parigi dal millenovecento.",
-  "Nasce la società dei consumi: i lavoratori comprano anche beni secondari, i grandi magazzini vendono merci in serie a prezzi contenuti, e la pubblicità e i mass media orientano i consumi."
- ],
- "S5": [
-  "Stili di vita e produzione industriale.",
-  "Le lotte sindacali riducono le ore di lavoro e aumentano i salari: nasce il tempo libero, con gli sport di massa, come ciclismo, rugby e football, e la moda del turismo e delle vacanze.",
-  "Il taylorismo: nel millenovecentoundici Friedrich Taylor teorizza l'organizzazione scientifica del lavoro, per calcolare i tempi e massimizzare l'efficienza.",
-  "La catena di montaggio: nel millenovecentotredici Henry Ford, nella sua fabbrica di Detroit, introduce un nastro meccanico che porta i pezzi all'operaio, fermo nella sua postazione.",
-  "Le conseguenze: merci in serie a prezzi ridotti, accessibili anche agli operai; ma anche un lavoro alienante e ripetitivo, in cui l'operaio diventa un ingranaggio della macchina.",
-  "E l'omologazione: gusti standardizzati e perdita dell'individualità, in una massa facile da manipolare."
- ],
- "S6": [
-  "Concentrazioni industriali, crisi agraria e migrazioni.",
-  "Le grandi imprese si associano nei trust: eliminano la concorrenza e creano condizioni di monopolio.",
-  "Negli anni Settanta e Novanta dell'Ottocento una grave crisi agraria, dovuta alla sovrapproduzione, colpisce l'Europa: arrivano cereali a basso costo da America, Australia e Argentina.",
-  "Crollano prezzi e profitti, falliscono le piccole aziende agricole, e contadini e salariati si impoveriscono.",
-  "Milioni di persone, soprattutto dal Sud e dall'Est Europa, Italia inclusa, emigrano verso le Americhe. Dal milleottocentonovantadue i migranti passano dal centro di Ellis Island, a New York, con visite mediche e interrogatori.",
-  "La nuova vita è difficile: discriminazione, emarginazione, barriere linguistiche, e quartieri malsani e sovraffollati."
- ],
- "GL1": [
-  "Ripassiamo le parole chiave di questa prima parte. Ascolta ogni parola e la sua definizione, e prova a ripeterla.",
-  "Belle Époque: il periodo tra la fine dell'Ottocento e il millenovecentoquattordici, di crescita economica e di pace in Europa.",
-  "Borghesia: la classe sociale protagonista della Belle Époque, ottimista e intraprendente.",
-  "Esposizioni Universali: le grandi mostre che celebrano il progresso tecnico.",
-  "Ville lumière: Parigi, la città illuminata dall'energia elettrica.",
-  "Motore a scoppio: il motore dei primi veicoli di Daimler e Benz, da cui nasce il settore automobilistico.",
-  "Pastorizzazione: il metodo di Pasteur per eliminare germi e batteri dai liquidi.",
-  "Società di massa: la moltitudine diventa protagonista attiva della vita sociale, economica e politica.",
-  "Urbanizzazione: il trasferimento di masse di lavoratori dalle campagne alle città.",
-  "Grandi magazzini: negozi che vendono merci in serie a prezzi contenuti.",
-  "Mass media: giornali e riviste che, con la pubblicità, orientano i consumi.",
-  "Ricorda: queste parole le trovi anche nella dispensa."
- ],
- "RF1": [
-  "Prima di salutarci, ricapitoliamo insieme i quattro argomenti di questa prima parte. Alla fine, prova a ripeterli con parole tue.",
-  "Primo: la Belle Époque, dalla fine dell'Ottocento al millenovecentoquattordici. Luci: borghesia, benessere, progresso. Ombre: disuguaglianze, condizioni disumane degli operai, ideologie nazionaliste.",
-  "Secondo: la rivoluzione dei trasporti e delle comunicazioni. Elettricità e petrolio, motore a scoppio e aeroplano, telefono, radio e cinema.",
-  "Terzo: i successi della medicina, da Pasteur a Koch, e la nascita della società di massa.",
-  "Quarto: l'urbanizzazione, con la crescita delle capitali, e la società dei consumi, con i grandi magazzini e la pubblicità."
- ],
- "FIN1": [
-  "Hai completato la prima parte. Nella seconda parte vedremo la catena di montaggio, la crisi agraria e le migrazioni, la politica di massa, la Chiesa e i movimenti femministi, la crisi delle certezze e i nazionalismi. A presto!"
- ],
- "AN1": [
-  "Mettiamo in fila le date di questa prima parte, su una linea del tempo.",
-  "Milleottocentosessantatré: a Londra apre la metropolitana.",
-  "Milleottocentosessantaquattro: Louis Pasteur introduce la pastorizzazione.",
-  "Milleottocentottantanove: a Parigi si inaugura la Tour Eiffel, simbolo delle Esposizioni Universali.",
-  "Milleottocentonovantacinque: i fratelli Lumière proiettano la prima pellicola; nasce il cinema muto.",
-  "Milleottocentonovantasei: Guglielmo Marconi mette a punto la radio.",
-  "Millenovecento: apre la metropolitana di Parigi, e la popolazione mondiale raggiunge un miliardo e mezzo.",
-  "Millenovecentoquattordici: finisce la Belle Époque."
- ],
- "AN2": [
-  "Guardiamo i numeri della città che cresce.",
-  "Nel millenovecento Londra supera i sei milioni di abitanti, Parigi i due milioni.",
-  "Le città cambiano volto: vie larghe e salubri, acquedotti, reti fognarie e trasporto pubblico.",
-  "I lavoratori diventano acquirenti: non solo beni primari, ma anche secondari, come abiti alla moda e arredamento.",
-  "Nei grandi magazzini di Parigi e degli Stati Uniti si vendono merci in serie a prezzi contenuti.",
-  "E la pubblicità, con giornali e riviste, orienta i consumi di una popolazione che sa leggere sempre di più."
- ],
- "IN2": [
-  "Bentornati alla lezione di Storia del professor Giorgio Mazzotti: il Novecento, il secolo delle masse. Questa è la seconda parte.",
-  "Prima ripassiamo insieme la prima parte.",
-  "Poi vedremo sei argomenti: i cambiamenti negli stili di vita e la produzione industriale; le concentrazioni industriali, la crisi agraria e le migrazioni; la nuova politica di massa e il Socialismo.",
-  "La posizione della Chiesa e i movimenti femministi; il clima culturale, tra crisi delle certezze e nascita del razzismo; infine antisemitismo, nazionalismo e imperialismo."
- ],
- "RIP": [
-  "Nella prima parte abbiamo visto un mondo che cambia in fretta.",
-  "La Belle Époque: crescita, pace e ottimismo della borghesia, ma anche disuguaglianze e proteste operaie.",
-  "Il progresso: elettricità, automobili, aeroplani, radio, cinema, e le scoperte della medicina.",
-  "Nasce la società di massa: le città si riempiono, e con i grandi magazzini e la pubblicità nasce la società dei consumi.",
-  "Ora vediamo come cambiano il lavoro e la politica."
- ],
- "S7": [
-  "La nuova politica di massa e il Socialismo.",
-  "Le masse lavoratrici scendono in piazza per salari migliori e più rappresentanza politica, e nei paesi occidentali si introduce, a poco a poco, il suffragio universale maschile.",
-  "Nascono i partiti di massa: moderni, con programmi precisi, iscritti, militanti e leader carismatici, che usano la propaganda, cioè comizi, manifesti e opuscoli.",
-  "Nascono i grandi sindacati, come le Trade Unions in Inghilterra e la CGL in Italia nel millenovecentosei: conquistano la giornata di otto ore, tutele sulla sicurezza e le prime forme di previdenza sociale.",
-  "Il Socialismo ha due correnti: i riformisti, per riforme graduali e pacifiche in Parlamento, e i rivoluzionari, o massimalisti, fedeli a Karl Marx, per la rivoluzione proletaria.",
-  "Nel milleottocentottantanove nasce a Parigi la Seconda Internazionale, che coordina i partiti socialisti europei."
- ],
- "S8": [
-  "La Chiesa e i movimenti femministi.",
-  "Nel milleottocentonovantuno papa Leone tredicesimo pubblica l'enciclica Rerum Novarum: condanna la lotta di classe e difende la proprietà privata, ma chiede ai padroni giustizia ed equità verso i lavoratori.",
-  "Si sviluppa il modernismo cattolico, per esempio con Romolo Murri, che spinge per un impegno politico democratico cristiano; papa Pio decimo lo condanna nel millenovecentosette.",
-  "Le donne sono escluse dai diritti civili e politici. Nel Regno Unito, nel millenovecentotré, Emmeline Pankhurst fonda l'Unione sociale e politica delle donne: le attiviste sono chiamate suffragette.",
-  "Le proteste sono dure e la repressione è violenta, come nel Venerdì nero del novembre millenovecentodieci. Il voto alle donne arriva solo dopo la Prima guerra mondiale: in Italia, nel millenovecentoquarantasei."
- ],
- "S9": [
-  "Il clima culturale: crisi delle certezze e nascita del razzismo.",
-  "Entra in crisi il Positivismo: le nuove scoperte scientifiche incrinano la fiducia cieca nel progresso e nella scienza dell'Ottocento.",
-  "Max Planck elabora la meccanica quantistica; Albert Einstein, nel millenovecentocinque, formula la teoria della relatività: spazio e tempo non sono più assoluti.",
-  "Friedrich Nietzsche annuncia la morte di Dio; Sigmund Freud fonda la psicoanalisi e scopre l'inconscio, che condiziona le azioni umane.",
-  "Si diffonde il darwinismo sociale, che applica in modo distorto l'evoluzionismo di Charles Darwin alla società, con l'idea di razze divise in una gerarchia di valore. Un testo di riferimento è il saggio di Arthur de Gobineau, del milleottocentocinquantacinque."
- ],
- "S10": [
-  "Antisemitismo, nazionalismo e imperialismo.",
-  "L'antisemitismo moderno diffonde teorie del complotto che fanno degli ebrei il capro espiatorio delle crisi sociali ed economiche.",
-  "In Russia la polizia segreta zarista confeziona i Protocolli dei Savi di Sion, il più grande falso storico, per giustificare i pogrom contro le comunità ebraiche.",
-  "Come risposta, l'austriaco Theodor Herzl fonda il sionismo, per creare uno Stato ebraico in Palestina.",
-  "Il sentimento patriottico diventa nazionalismo aggressivo, e nascono il pangermanesimo e il panslavismo.",
-  "La competizione coloniale e la corsa agli armamenti tra Germania, Francia e Regno Unito preparano il terreno al primo conflitto mondiale."
- ],
- "GL2": [
-  "Ripassiamo le parole chiave di questa seconda parte. Ascolta ogni parola e la sua definizione, e prova a ripeterla.",
-  "Taylorismo: l'organizzazione scientifica del lavoro, per calcolare i tempi e massimizzare l'efficienza.",
-  "Catena di montaggio: il nastro meccanico che porta i pezzi all'operaio fermo nella sua postazione.",
-  "Omologazione: la standardizzazione dei gusti e la perdita dell'individualità.",
-  "Trust: accordi tra grandi imprese che eliminano la concorrenza e creano monopoli.",
-  "Sovrapproduzione: la produzione superiore alla domanda, causa della crisi agraria.",
-  "Suffragio universale maschile: il diritto di voto esteso a tutti gli uomini.",
-  "Propaganda: comizi, manifesti e opuscoli per orientare il consenso.",
-  "Riformisti: socialisti favorevoli a riforme graduali e pacifiche in Parlamento.",
-  "Massimalisti: socialisti rivoluzionari, fedeli alle teorie di Karl Marx.",
-  "Rerum Novarum: l'enciclica di papa Leone tredicesimo sulla questione operaia.",
-  "Suffragette: le attiviste dei movimenti per il voto alle donne.",
-  "Positivismo: la fiducia cieca nel progresso e nella scienza dell'Ottocento.",
-  "Inconscio: la dimensione profonda e irrazionale che condiziona le azioni umane, scoperta da Freud.",
-  "Darwinismo sociale: l'applicazione distorta dell'evoluzionismo alla società umana.",
-  "Pogrom: i violenti massacri popolari contro le comunità ebraiche.",
-  "Sionismo: il movimento politico per uno Stato ebraico in Palestina.",
-  "Pangermanesimo e panslavismo: i movimenti per l'unione dei popoli di lingua tedesca e dei popoli slavi.",
-  "Ricorda: queste parole le trovi anche nella dispensa."
- ],
- "RF2": [
-  "Prima di salutarci, ricapitoliamo i sei argomenti di questa seconda parte. Alla fine, prova a ripeterli con parole tue.",
-  "Primo: il tempo libero, il taylorismo e la catena di montaggio di Ford, con i suoi vantaggi e i suoi costi per l'operaio.",
-  "Secondo: i trust, la crisi agraria dovuta alla sovrapproduzione, e la grande migrazione verso le Americhe.",
-  "Terzo: la politica di massa. Suffragio universale maschile, partiti di massa, sindacati, e le due correnti del Socialismo.",
-  "Quarto: la Chiesa, con la Rerum Novarum e il modernismo, e la lotta delle suffragette per il voto alle donne.",
-  "Quinto: la crisi delle certezze, con Planck, Einstein, Nietzsche e Freud, e la nascita del razzismo pseudo-scientifico.",
-  "Sesto: l'antisemitismo e il falso dei Protocolli, il sionismo, e i nazionalismi che preparano la Prima guerra mondiale."
- ],
- "FIN2": [
-  "Hai completato la lezione. Ora ti aspetta il test finale: per superarlo serve almeno l'ottanta per cento di risposte corrette. Buono studio!"
- ]
-}
+[
+ {
+  "nome": "R1",
+  "testo": "Ripassiamo. La Belle Époque va dalla fine dell'Ottocento al millenovecentoquattordici: crescita economica, sviluppo industriale e lunga pace in Europa. Le luci: la centralità della borghesia, il benessere, la vita mondana e la celebrazione del progresso, come la Tour Eiffel nel milleottocentoottantanove. Le ombre: forti disuguaglianze sociali, condizioni disumane per le masse operaie e ideologie nazionaliste e imperialiste basate su presunte gerarchie razziali.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R2",
+  "testo": "Ripassiamo. L'energia elettrica illumina case e città: Parigi diventa la Ville lumière. Inizia lo sfruttamento del petrolio, da cui deriva la benzina. Daimler e Benz costruiscono i primi veicoli con motore a scoppio; nel millenovecentouno i fratelli Wright compiono il primo volo con un aeroplano. Nelle comunicazioni: il telefono di Antonio Meucci, la radio di Guglielmo Marconi nel milleottocentonovantasei e il primo film dei fratelli Lumière nel milleottocentonovantacinque, che dà vita al cinema muto.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN1",
+  "testo": "Le date che cambiano il mondo. Nel milleottocentosessantatré a Londra si inaugura la prima linea metropolitana. Nel milleottocentosessantaquattro Louis Pasteur introduce la pastorizzazione. Nel milleottocentoottantanove, a Parigi, si inaugura la Tour Eiffel. Nel milleottocentonovantacinque i fratelli Lumière proiettano la prima pellicola cinematografica. L'anno dopo, nel milleottocentonovantasei, Guglielmo Marconi mette a punto la radio. Nel millenovecento, a Parigi, arriva la metropolitana. E nel millenovecentouno i fratelli Wright realizzano il primo volo con un aeroplano. In meno di quarant'anni, la vita quotidiana cambia per sempre.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R3",
+  "testo": "Ripassiamo. Louis Pasteur introduce la pastorizzazione e la sterilizzazione e sviluppa i vaccini contro il carbonchio e la rabbia. Robert Koch individua il bacillo della tubercolosi. Nascono padiglioni ospedalieri specializzati e norme igieniche severe, che abbattono la mortalità infantile. La popolazione mondiale cresce fino a un miliardo e mezzo nel millenovecento. Nasce la società di massa: la massa non è più un aggregato inerte, ma protagonista della vita sociale, economica e politica.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R4",
+  "testo": "Ripassiamo. L'urbanizzazione porta enormi masse di lavoratori dalle campagne alle città, nella speranza di un impiego in fabbriche o uffici. Londra supera i sei milioni di abitanti nel millenovecento, Parigi i due milioni. Le città si rinnovano: vie larghe e salubri, acquedotti, fognature e trasporto pubblico, con la metropolitana a Londra dal milleottocentosessantatré e a Parigi dal millenovecento.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN2",
+  "testo": "Londra e Parigi a confronto. Nel millenovecento Londra supera i sei milioni di abitanti, Parigi i due milioni. Entrambe si rinnovano: vie larghe e salubri, acquedotti, reti fognarie e trasporto pubblico. Londra ha le linee metropolitane dal milleottocentosessantatré, Parigi dal millenovecento. Parigi diventa la Ville lumière grazie all'energia elettrica e, nel milleottocentoottantanove, inaugura la Tour Eiffel. Due capitali, un'unica trasformazione: la crescita delle grandi città.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R5",
+  "testo": "Ripassiamo. Nasce la società dei consumi. I lavoratori acquistano non solo beni primari, ma anche beni secondari, come abbigliamento alla moda e arredamento. A Parigi e negli Stati Uniti nascono i grandi magazzini, che vendono merci in serie a prezzi contenuti. Esplode la pubblicità, e i mass media, giornali e riviste, favoriti dall'alfabetizzazione, orientano i consumi della popolazione.",
+  "lingua": "it"
+ },
+ {
+  "nome": "GL1",
+  "testo": "Le parole chiave di questa prima parte. Belle Époque: il periodo dalla fine dell'Ottocento al millenovecentoquattordici, di crescita e lunga pace. Ville lumière: Parigi illuminata dall'energia elettrica. Mortalità infantile: abbattuta dalle norme igienico-sanitarie. Società di massa: la moltitudine che diventa protagonista della vita sociale, economica e politica. Urbanizzazione: il trasferimento dei lavoratori dalle campagne alle città. Grandi magazzini: negozi che vendono merci in serie a prezzi contenuti.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RF1",
+  "testo": "Ripasso finale della prima parte. Tra Ottocento e Novecento l'Europa vive la Belle Époque: crescita economica, benessere e fiducia nel progresso, ma anche disuguaglianze e nazionalismi. Elettricità, petrolio, automobile, aeroplano, telefono, radio e cinema trasformano la vita. I progressi della medicina fanno crescere la popolazione e nasce la società di massa. Le città si ingrandiscono e nasce la società dei consumi.",
+  "lingua": "it"
+ },
+ {
+  "nome": "FIN1",
+  "testo": "Per oggi è tutto. Nella seconda parte vedremo il tempo libero, il taylorismo e la catena di montaggio, la crisi agraria e le migrazioni, i partiti di massa, i sindacati e il socialismo, la Chiesa, le suffragette e il clima culturale di inizio Novecento. Ti aspetto.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RIP2",
+  "testo": "Prima di continuare, un ripasso della prima parte. La Belle Époque è il periodo che va dalla fine dell'Ottocento al millenovecentoquattordici: crescita economica, sviluppo industriale e una lunga pace in Europa. Le luci sono il trionfo della borghesia, il benessere e il progresso, come la Tour Eiffel nel milleottocentoottantanove. Le ombre sono le disuguaglianze sociali, le condizioni disumane delle masse operaie e le ideologie nazionaliste e imperialiste. L'elettricità illumina le città, il petrolio dà la benzina, nascono l'automobile e l'aeroplano, il telefono, la radio e il cinema. La medicina di Pasteur e di Koch abbatte la mortalità infantile: la popolazione cresce fino a un miliardo e mezzo e nasce la società di massa. Le città si ingrandiscono, con vie larghe, fognature e metropolitane. E nasce la società dei consumi: grandi magazzini, pubblicità e mass media orientano gli acquisti di tutti.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R6",
+  "testo": "Ripassiamo. Le lotte sindacali riducono le ore di lavoro e aumentano i salari: nasce il tempo libero, con sport di massa, turismo e vacanze al mare. Nel millenovecentoundici Taylor teorizza l'organizzazione scientifica del lavoro. Nel millenovecentotredici Henry Ford applica il taylorismo a Detroit con la catena di montaggio. Il lato positivo: merci in serie, standardizzate e a prezzi ridotti. Il lato negativo: lavoro alienante e ripetitivo e omologazione dei gusti.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN3",
+  "testo": "Taylorismo e fordismo: aspetti positivi e negativi. Friedrich W. Taylor, nel millenovecentoundici, teorizza l'organizzazione scientifica del lavoro. Henry Ford, nel millenovecentotredici, applica il taylorismo a Detroit con la catena di montaggio. Gli aspetti positivi: merci in serie, standardizzate, in grandi quantità e a prezzi ridotti, accessibili anche agli operai. Gli aspetti negativi: lavoro alienante e ripetitivo; l'operaio perde la visione dell'oggetto completo e la creatività, e diventa un ingranaggio della macchina. Infine l'omologazione: gusti standardizzati e perdita dell'individualità, in una massa facilmente manipolabile dai mass media.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R7",
+  "testo": "Ripassiamo. Le grandi imprese si uniscono nei trust, eliminando la concorrenza e creando monopoli. La crisi agraria europea è causata dalla sovrapproduzione e dall'arrivo di cereali a basso costo da America, Australia e Argentina: crollano prezzi e profitti, e le piccole aziende falliscono. Milioni di persone emigrano verso le Americhe. Dal milleottocentonovantadue gli emigranti passano da Ellis Island, a New York, e affrontano discriminazione, barriere linguistiche e quartieri sovraffollati.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN6",
+  "testo": "Dalla crisi agraria alla grande migrazione. Trasporti rapidi e meccanizzazione portano in Europa cereali a basso costo dall'America, dall'Australia e dall'Argentina. I prezzi e i profitti crollano, le piccole aziende agricole falliscono, contadini e salariati si impoveriscono. Milioni di persone, soprattutto dal Sud e dall'Est Europa, Italia inclusa, emigrano verso le Americhe. New York diventa la porta d'accesso principale: nel milleottocentonovantadue il governo statunitense apre il centro di Ellis Island, dove i migranti subiscono visite mediche e interrogatori. La nuova vita è difficile: discriminazione, emarginazione, barriere linguistiche e quartieri malsani e sovraffollati.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R8",
+  "testo": "Ripassiamo. Le masse scendono in piazza per salari migliori e maggiore rappresentanza: si diffonde il suffragio universale maschile. Nascono i partiti di massa, con programmi, iscritti, militanti e propaganda. Nascono i sindacati, come le Trade Unions in Inghilterra e la CGL in Italia nel millenovecentosei, che ottengono la giornata di otto ore. I socialisti si dividono in riformisti e rivoluzionari, fedeli a Karl Marx. Nel milleottocentoottantanove nasce a Parigi la Seconda Internazionale.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN4",
+  "testo": "Le due anime del socialismo. I riformisti vogliono migliorare le condizioni operaie con riforme graduali e pacifiche in Parlamento. I rivoluzionari, o massimalisti, fedeli alle teorie di Karl Marx, puntano a sovvertire il sistema capitalistico con la rivoluzione proletaria. Nel milleottocentoottantanove nasce a Parigi la Seconda Internazionale, per coordinare i partiti socialisti europei, uniti dalla bandiera rossa e dalla falce e martello. Intanto i sindacati, come le Trade Unions in Inghilterra e la CGL in Italia nel millenovecentosei, ottengono la giornata di otto ore.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R9",
+  "testo": "Ripassiamo. Nel milleottocentonovantuno papa Leone Tredicesimo pubblica la Rerum Novarum: condanna la lotta di classe e difende la proprietà privata, ma esorta i padroni a trattare con giustizia i lavoratori. Il modernismo cattolico di Romolo Murri è condannato da Pio Decimo nel millenovecentosette. I movimenti suffragisti chiedono il voto alle donne: nel millenovecentotre Emmeline Pankhurst fonda l'Unione sociale e politica delle donne. Il voto femminile arriva dopo la Prima guerra mondiale; in Italia nel millenovecentoquarantasei.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN5",
+  "testo": "Le suffragette. Nel millenovecentotre, nel Regno Unito, Emmeline Pankhurst fonda l'Unione sociale e politica delle donne. Le sue attiviste vengono chiamate, con disprezzo, suffragette. I metodi di protesta sono duri ed eclatanti: incendi di cassette postali, incatenamenti e scioperi della fame, con alimentazione forzata in carcere. La repressione è violenta, come il Venerdì nero del novembre millenovecentodieci. Il diritto di voto alle donne arriverà solo dopo la Prima guerra mondiale: nel Regno Unito nel millenovecentodiciotto e nel millenovecentoventotto, in Italia nel millenovecentoquarantasei.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R10",
+  "testo": "Ripassiamo. Le nuove scoperte scientifiche mettono in crisi il Positivismo. Max Planck elabora la meccanica quantistica; Albert Einstein, nel millenovecentocinque, formula la teoria della relatività: spazio e tempo non sono più assoluti. Friedrich Nietzsche annuncia la morte di Dio. Sigmund Freud fonda la psicoanalisi e scopre la dimensione profonda e irrazionale dell'inconscio.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN7",
+  "testo": "La crisi delle certezze. Nell'Ottocento domina la fiducia cieca nel progresso e nella scienza: il Positivismo. Ma le nuove scoperte scientifiche lo mettono in crisi. Max Planck elabora la meccanica quantistica. Albert Einstein, nel millenovecentocinque, formula la teoria della relatività: lo spazio e il tempo non sono più assoluti, e nella fisica entrano margini di incertezza. Friedrich Nietzsche attacca la cultura occidentale, annuncia la morte di Dio e smaschera le ipocrisie metafisiche. Sigmund Freud fonda la psicoanalisi e scopre la dimensione profonda e irrazionale dell'inconscio, che condiziona le azioni umane: l'individuo non è più totalmente razionale.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R11",
+  "testo": "Ripassiamo. Il darwinismo sociale applica in modo distorto l'evoluzionismo alla società e sostiene l'esistenza di razze gerarchicamente divise; un testo di riferimento è il saggio di Arthur de Gobineau del milleottocentocinquantacinque. L'antisemitismo individua negli ebrei un capro espiatorio; in Russia nascono i Protocolli dei Savi di Sion, un falso storico. Theodor Herzl fonda il sionismo. Il nazionalismo diventa aggressivo, con pangermanesimo e panslavismo. La competizione coloniale e la corsa agli armamenti preparano la Prima guerra mondiale.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN9",
+  "testo": "Antisemitismo e sionismo. Si sviluppano teorie del complotto che accusano gli ebrei di controllare banche e industrie per dominare il mondo: un capro espiatorio per le crisi sociali ed economiche. Nei primi anni del Novecento, in Russia, la polizia segreta zarista confeziona i Protocolli dei Savi di Sion, il più grande falso storico, creato per giustificare i violenti massacri popolari, i pogrom, contro le comunità ebraiche. Come risposta, l'austriaco Theodor Herzl fonda il sionismo, il movimento politico che vuole creare uno Stato ebraico in Palestina, dove gli ebrei possano trovare rifugio e una vera patria.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN8",
+  "testo": "Verso la Prima guerra mondiale. L'antico sentimento patriottico si trasforma in un nazionalismo aggressivo, intollerante e intriso di xenofobia. Nascono movimenti come il pangermanesimo, l'unione dei popoli di lingua tedesca, e il panslavismo, l'unione dei popoli slavi. Le relazioni tra le grandi potenze, Germania, Francia e Regno Unito, sono condizionate da una dura competizione coloniale e da una logica imperialista e militarista. È la corsa agli armamenti, che preparerà il terreno per lo scoppio del primo conflitto mondiale.",
+  "lingua": "it"
+ },
+ {
+  "nome": "GL2",
+  "testo": "Le parole chiave di questa seconda parte. Taylorismo: l'organizzazione scientifica del lavoro. Catena di montaggio: il nastro meccanico che porta i pezzi all'operaio. Trust: accordi tra grandi imprese che eliminano la concorrenza. Crisi agraria: il crollo dei prezzi dovuto alla sovrapproduzione. Suffragio universale: il diritto di voto esteso a tutti i cittadini maschi. Rerum Novarum: l'enciclica di Leone Tredicesimo sulla questione operaia. Darwinismo sociale: l'uso distorto dell'evoluzionismo per giustificare il razzismo. Sionismo: il movimento per creare uno Stato ebraico in Palestina.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RF2",
+  "testo": "Ripasso finale della seconda parte. Le lotte sindacali portano al tempo libero; il taylorismo e la catena di montaggio producono merci in serie, ma anche lavoro alienante. Nascono i trust, esplode la crisi agraria e milioni di europei emigrano verso le Americhe. Nascono partiti di massa e sindacati, e il socialismo si divide in riformisti e rivoluzionari. La Chiesa risponde con la Rerum Novarum e le suffragette lottano per il voto. La crisi del Positivismo, il razzismo, l'antisemitismo e il nazionalismo preparano la Prima guerra mondiale.",
+  "lingua": "it"
+ },
+ {
+  "nome": "FIN2",
+  "testo": "Con questo si chiude la lezione sul Novecento, il secolo delle masse. Nella prossima lezione vedremo il mondo agli inizi del ventesimo secolo e l'imperialismo.",
+  "lingua": "it"
+ }
+]
