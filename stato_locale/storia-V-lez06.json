@@ -1,0 +1,31 @@
+{
+ "tag": "storia-V-lez06",
+ "parti": {
+  "1": {
+   "titolo": "Il primo dopoguerra (1919-1925)",
+   "stato": "IN_MONTAGGIO"
+  }
+ },
+ "manca": "",
+ "serve_master": [],
+ "domande_sara": [
+  {
+   "quando": "13/11 05:43",
+   "testo": "Approvare 40 quiz e 17 testi voce lezione 6 (file nel messaggio a Sara)"
+  }
+ ],
+ "note": [
+  {
+   "quando": "13/11 05:36",
+   "testo": "IN_MONTAGGIO · presa da Claude 2 (chat Storia V, seconda, pari)"
+  },
+  {
+   "quando": "13/11 05:43",
+   "testo": "13/11: video e slide scaricati (video 39,6 min, 1092x614, una sola Parte). Trascrizione Whisper base fatta (40 min in circa 4 min). Struttura in 8 argomenti, cambi slide in rilevazione. 40 quiz e 17 testi voce pronti, in attesa di approvazione di Sara. Prossimo passo: slide sincronizzate e inserti, poi voci dalla master."
+  }
+ ],
+ "materia": "Storia",
+ "lezione": "Lezione 6 · Il primo dopoguerra (1919-1925)",
+ "docente": "Prof. Giorgio Mazzotti",
+ "aggiornato": "2026-11-13 05:43:38"
+}
