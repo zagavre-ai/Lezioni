@@ -1,0 +1,37 @@
+R1 OK frasi trovate 1 / 1 parole diverse 3 (vere 1) tentativi 1
+AN1 OK frasi trovate 1 / 1 parole diverse 4 (vere 3) tentativi 1
+AN2 OK frasi trovate 1 / 1 parole diverse 1 (vere 2) tentativi 1
+R2 OK frasi trovate 1 / 1 parole diverse 9 (vere 5) tentativi 1
+AN3 OK frasi trovate 1 / 1 parole diverse 5 (vere 2) tentativi 1
+AN4 OK frasi trovate 1 / 1 parole diverse 3 (vere 0) tentativi 1
+R3 DA CONTROLLARE frasi trovate 1 / 1 parole diverse 10 (vere 7) tentativi 1
+AN5 DA CONTROLLARE frasi trovate 1 / 1 parole diverse 6 (vere 5) tentativi 1
+AN6 OK frasi trovate 1 / 1 parole diverse 8 (vere 4) tentativi 1
+MAP1 OK frasi trovate 1 / 1 parole diverse 3 (vere 4) tentativi 1
+GL1 OK frasi trovate 1 / 1 parole diverse 8 (vere 5) tentativi 1
+RF1 DA CONTROLLARE frasi trovate 1 / 1 parole diverse 5 (vere 7) tentativi 1
+FIN1 OK frasi trovate 1 / 1 parole diverse 1 (vere 1) tentativi 1
+RIP2 OK frasi trovate 1 / 1 parole diverse 7 (vere 6) tentativi 1
+R4 OK frasi trovate 1 / 1 parole diverse 6 (vere 5) tentativi 1
+AN7 OK frasi trovate 1 / 1 parole diverse 5 (vere 4) tentativi 1
+AN8 OK frasi trovate 1 / 1 parole diverse 4 (vere 4) tentativi 1
+R5 DA CONTROLLARE frasi trovate 1 / 1 parole diverse 8 (vere 8) tentativi 1
+AN9 OK frasi trovate 1 / 1 parole diverse 2 (vere 1) tentativi 1
+AN10 DA CONTROLLARE frasi trovate 1 / 1 parole diverse 5 (vere 7) tentativi 1
+R6 OK frasi trovate 1 / 1 parole diverse 10 (vere 4) tentativi 1
+AN11 OK frasi trovate 1 / 1 parole diverse 4 (vere 0) tentativi 1
+AN12 OK frasi trovate 1 / 1 parole diverse 6 (vere 3) tentativi 1
+MAP2 OK frasi trovate 1 / 1 parole diverse 3 (vere 2) tentativi 1
+R7 OK frasi trovate 1 / 1 parole diverse 6 (vere 5) tentativi 1
+AN13 OK frasi trovate 1 / 1 parole diverse 2 (vere 2) tentativi 1
+AN14 OK frasi trovate 1 / 1 parole diverse 8 (vere 6) tentativi 1
+R8 OK frasi trovate 1 / 1 parole diverse 6 (vere 5) tentativi 1
+AN15 OK frasi trovate 1 / 1 parole diverse 1 (vere 0) tentativi 1
+AN16 DA CONTROLLARE frasi trovate 1 / 1 parole diverse 5 (vere 5) tentativi 1
+R9 DA CONTROLLARE frasi trovate 1 / 1 parole diverse 14 (vere 11) tentativi 1
+AN17 OK frasi trovate 1 / 1 parole diverse 6 (vere 4) tentativi 1
+AN18 OK frasi trovate 1 / 1 parole diverse 4 (vere 1) tentativi 1
+MAP3 OK frasi trovate 1 / 1 parole diverse 1 (vere 1) tentativi 1
+GL2 DA CONTROLLARE frasi trovate 1 / 1 parole diverse 10 (vere 10) tentativi 1
+RF2 OK frasi trovate 1 / 1 parole diverse 4 (vere 4) tentativi 1
+FIN2 OK frasi trovate 1 / 1 parole diverse 1 (vere 1) tentativi 1
