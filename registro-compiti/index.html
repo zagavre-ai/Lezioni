@@ -143,7 +143,7 @@ footer b{color:var(--ink)}
 }
 .tabs{display:flex;flex-wrap:wrap;gap:6px}.tab{border:1px solid #c9d2e3;background:#fff;color:#0B1530;border-radius:999px;padding:6px 12px;font-weight:600;font-size:14px;font-family:inherit;line-height:1.2;cursor:pointer}.tab.on{background:#0B1530;color:#fff;border-color:#0B1530}
 </style>
-<meta name="versione" content="2026-11-13c">
+<meta name="versione" content="2026-11-13d">
 <script>/* se GitHub ha una versione più nuova di questa pagina, la carica subito (niente più «non vedo le novità») */
 (function(){try{var mia=document.querySelector('meta[name=versione]').content;
 fetch(location.pathname,{cache:'reload'}).then(function(r){return r.text()}).then(function(t){var m=t.match(/name="versione" content="([^"]+)"/);
@@ -180,7 +180,7 @@ details.sec>summary small{text-transform:none;font-weight:normal;opacity:.85}
   <div class="eyebrow" id="eyebrow">Registro compiti</div>
 </div></header>
 <main class="wrap">
-  <h1>Registro dei compiti <small style="font-size:12px;font-weight:600;opacity:.75;vertical-align:middle">versione 1.3 · 13/11/2026</small></h1>
+  <h1>Registro dei compiti <small style="font-size:12px;font-weight:600;opacity:.75;vertical-align:middle">versione 1.4 · 13/11/2026</small></h1>
   <div class="bar"></div>
   <p class="mat" id="mat"></p>
   <div class="who" id="who"></div>
@@ -297,7 +297,15 @@ const FAMS=[[/STORIA DELL.ARTE|ARTE E IMMAGINE|ARTE E TERRITORIO/,"Storia dell'a
 function famiglia(nome){const n=String(nome||'').toUpperCase();for(const [r,f] of LINGUE)if(r.test(n))return f;let best=null;FAMS.forEach(([r,f],i)=>{const m=n.match(r);if(m&&(!best||m.index<best[0]||(m.index===best[0]&&i<best[1])))best=[m.index,i,f]});return best?best[2]:String(nome||'').trim()}
 const tutte=()=>!MAT||/^tutte/i.test(MAT);
 const attDi=k=>((ATT&&ATT.days&&ATT.days[k])||[]).filter(x=>tutte()||x.f===famiglia(MAT)||famiglia(x.f)===famiglia(MAT));
-function attBox(k){const L=attDi(k);if(!L.length)return '';
+
+/* attività del giorno: il docente o lo staff possono correggerle; la correzione resta nel nostro registro (la piattaforma non si tocca) */
+function attBox(k){const auto=attAuto(k);if(tutte())return auto;const r=rec(k)||{},m=r['att.txt'],doc=ROLE==='docente';
+  if(!doc&&!m)return auto;
+  let h=m?'<div class="att"><h4>Attività del giorno <span class="sm">· corrette dal docente</span></h4><div style="white-space:pre-wrap">'+esc(m)+'</div></div>':auto;
+  if(doc)h+='<div style="margin:-4px 0 12px"><button type="button" class="btn" id="attmod" style="font-size:13px;padding:6px 10px">'+(m?'Modifica le attività del giorno':(auto?'Correggi le attività rilevate':'Aggiungi le attività del giorno'))+'</button>'+(m?' <button type="button" class="btn" id="attrip" style="font-size:13px;padding:6px 10px">Torna ai dati della piattaforma</button>':'')+'<div id="attedit" style="display:none;margin-top:8px"><textarea id="atttx" style="width:100%;min-height:160px;padding:10px;border:1px solid #cfd6e4;border-radius:8px;font:15px inherit"></textarea><div class="sm">Si salva da solo. La piattaforma non viene modificata.</div></div></div>';
+  setTimeout(()=>{const b=document.getElementById('attmod');if(!b)return;b.onclick=()=>{const e=document.getElementById('attedit'),t=document.getElementById('atttx');e.style.display='';if(!t.value){const tmp=document.createElement('div');tmp.innerHTML=auto;const h4=tmp.querySelector('h4');if(h4)h4.remove();t.value=m||tmp.innerText.trim()}t.focus();t.oninput=()=>setv('att.txt',t.value)};const rp=document.getElementById('attrip');if(rp)rp.onclick=()=>{setv('att.txt','');render()}},0);
+  return h}
+function attAuto(k){const L=attDi(k);if(!L.length)return '';
   const v=L.filter(x=>x.k==='v'),l=L.filter(x=>x.k==='l'),q=L.filter(x=>x.k==='q');let h='<div class="att"><h4>Attività rilevate in questo giorno'+(ATT.letto?' <span class="sm">· dati letti il '+esc(ATT.letto)+'</span>':'')+'</h4>';
   const SV={C:'✓ Completata',I:'Iniziata, non terminata',A:'Studiata (completata più avanti)',R:'Ripassata (già completata)'};
   v.forEach(x=>{h+='<div class="it"><div class="st '+x.s+'">'+SV[x.s]+'</div><div><b>Videolezione:</b> '+esc(x.n?'LEZIONE '+x.n+': '+x.t+' (n. '+x.n+' del corso)':x.t)+(x.p?' · test '+esc(x.p):'')+((x.s==='A'||x.s==='R')&&x.cd?' · completata il '+esc(fmtS(x.cd)):'')+(tutte()?'<div class="sm">'+esc(x.f)+'</div>':'')+'<div class="sm">'+esc(x.c)+'</div></div></div>'});
