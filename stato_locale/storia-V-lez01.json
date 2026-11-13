@@ -1,6 +1,383 @@
 {
  "tag": "storia-V-lez01",
- "parti": {},
+ "parti": {
+  "1": {
+   "titolo": "Il Novecento, il secolo delle masse · Parte 1",
+   "stato": "IN_MONTAGGIO",
+   "voci": "kore",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "no",
+   "video": "Storia_Lez1_Parte1_1080p.mp4",
+   "durata_s": 3237.7,
+   "durata": "53:57.7",
+   "fotogrammi": 97130,
+   "fotogrammi_attesi": 97130,
+   "peso_MB": 298.2,
+   "vtt": "Storia_Lez1_Parte1.vtt",
+   "scheda": {
+    "materia": "Storia",
+    "titolo": "Il Novecento, il secolo delle masse · Parte 1",
+    "durata_s": 3237.67,
+    "argomenti": [
+     {
+      "n": 1,
+      "titolo": "Belle Époque · luci e ombre",
+      "inizio_s": 102.9,
+      "quiz_s": 1192.433
+     },
+     {
+      "n": 2,
+      "titolo": "Trasporti e comunicazioni",
+      "inizio_s": 1197.733,
+      "quiz_s": 1789.099
+     },
+     {
+      "n": 3,
+      "titolo": "Medicina e società di massa",
+      "inizio_s": 1794.399,
+      "quiz_s": 2384.466
+     },
+     {
+      "n": 4,
+      "titolo": "Urbanizzazione e grandi città",
+      "inizio_s": 2389.766,
+      "quiz_s": 2641.532
+     },
+     {
+      "n": 5,
+      "titolo": "La società dei consumi",
+      "inizio_s": 2646.832,
+      "quiz_s": 3113.799
+     }
+    ],
+    "quiz": {
+     "Q1": {
+      "title": "Quiz 1 · Belle Époque · luci e ombre",
+      "items": [
+       {
+        "p": "Quale periodo viene chiamato Belle Époque?",
+        "a": "Dalla fine dell'Ottocento al 1914",
+        "w": [
+         "Dal 1914 al 1945",
+         "Dal 1815 al 1848",
+         "Dal 1945 al 1989"
+        ],
+        "e": "È il periodo di crescita economica e lunga pace europea che precede la Prima guerra mondiale."
+       },
+       {
+        "p": "Quale evento simboleggia la celebrazione del progresso tecnico nel 1889?",
+        "a": "L'inaugurazione della Tour Eiffel a Parigi",
+        "w": [
+         "La nascita della radio",
+         "Il primo volo dei fratelli Wright",
+         "La fondazione della Seconda Internazionale a Londra"
+        ],
+        "e": "Le Grandi Esposizioni Universali celebravano il progresso: nel 1889 a Parigi fu inaugurata la Tour Eiffel."
+       },
+       {
+        "p": "Quale gruppo sociale è al centro dell'ottimismo della Belle Époque?",
+        "a": "La borghesia",
+        "w": [
+         "I contadini",
+         "Il clero",
+         "La nobiltà terriera"
+        ],
+        "e": "La borghesia, ottimista e intraprendente, è la protagonista di questo periodo."
+       },
+       {
+        "p": "Quale di questi è un aspetto critico, un'«ombra» della Belle Époque?",
+        "a": "Le condizioni di vita disumane delle masse operaie nelle città",
+        "w": [
+         "La diffusione dei caffè e dei salotti",
+         "Le lunghe vacanze della borghesia",
+         "Le Esposizioni Universali"
+        ],
+        "e": "Le ombre sono le disuguaglianze sociali e le condizioni di lavoro delle masse operaie."
+       },
+       {
+        "p": "Su che cosa si basavano le ideologie nazionaliste e imperialiste di questo periodo?",
+        "a": "Su presunte gerarchie razziali",
+        "w": [
+         "Sulla parità tra i popoli",
+         "Sul libero scambio tra Stati",
+         "Sul pacifismo internazionale"
+        ],
+        "e": "Erano ideologie pericolose fondate su presunte gerarchie razziali."
+       }
+      ]
+     },
+     "Q2": {
+      "title": "Quiz 2 · Trasporti e comunicazioni",
+      "items": [
+       {
+        "p": "Quale città diventa la «Ville lumière» grazie all'energia elettrica?",
+        "a": "Parigi",
+        "w": [
+         "Londra",
+         "New York",
+         "Berlino"
+        ],
+        "e": "L'illuminazione elettrica delle città cambia i ritmi di vita: Parigi diventa la «Ville lumière»."
+       },
+       {
+        "p": "Da quale risorsa deriva la benzina, il cui sfruttamento inizia in questo periodo?",
+        "a": "Dal petrolio",
+        "w": [
+         "Dal carbone",
+         "Dal gas di città",
+         "Dall'energia idroelettrica"
+        ],
+        "e": "Con l'estrazione del petrolio si ottiene la benzina."
+       },
+       {
+        "p": "Che cosa realizzano i fratelli Wright nel 1901?",
+        "a": "Il primo volo con un aeroplano",
+        "w": [
+         "Il primo veicolo con motore a scoppio",
+         "La prima proiezione cinematografica",
+         "La prima trasmissione radiofonica"
+        ],
+        "e": "Nel 1901 i fratelli Wright realizzano il primo volo con un aeroplano."
+       },
+       {
+        "p": "A chi si deve l'elaborazione del telefono, secondo il docente?",
+        "a": "Ad Antonio Meucci",
+        "w": [
+         "A Guglielmo Marconi",
+         "Ai fratelli Lumière",
+         "A Louis Pasteur"
+        ],
+        "e": "Il telefono è stato elaborato da Antonio Meucci."
+       },
+       {
+        "p": "Che cosa proiettano i fratelli Lumière nel 1895?",
+        "a": "La prima pellicola cinematografica, che dà vita al cinema muto",
+        "w": [
+         "Il primo film sonoro",
+         "La prima trasmissione televisiva",
+         "La prima fotografia a colori"
+        ],
+        "e": "Nel 1895 la prima pellicola dei Lumière segna la nascita del cinema muto."
+       }
+      ]
+     },
+     "Q3": {
+      "title": "Quiz 3 · Medicina e società di massa",
+      "items": [
+       {
+        "p": "Che cosa introduce Louis Pasteur nel 1864?",
+        "a": "La pastorizzazione",
+        "w": [
+         "La penicillina",
+         "La radiografia",
+         "L'anestesia"
+        ],
+        "e": "Pasteur introduce la pastorizzazione e la sterilizzazione per eliminare germi e batteri."
+       },
+       {
+        "p": "Per quali malattie Pasteur sviluppa vaccini cruciali?",
+        "a": "Carbonchio e rabbia",
+        "w": [
+         "Vaiolo e peste",
+         "Colera e tifo",
+         "Influenza e morbillo"
+        ],
+        "e": "I vaccini di Pasteur riguardano il carbonchio e la rabbia."
+       },
+       {
+        "p": "Quale effetto hanno le severe norme igienico-sanitarie?",
+        "a": "Abbattono la mortalità infantile",
+        "w": [
+         "Riducono la popolazione mondiale",
+         "Fanno chiudere gli ospedali",
+         "Aumentano il lavoro nei campi"
+        ],
+        "e": "Le norme igienico-sanitarie riducono la mortalità infantile."
+       },
+       {
+        "p": "Quanti abitanti raggiunge la popolazione mondiale nel 1900?",
+        "a": "1,5 miliardi",
+        "w": [
+         "500 milioni",
+         "3 miliardi",
+         "6 miliardi"
+        ],
+        "e": "Grazie ai miglioramenti alimentari e igienici la popolazione cresce fino a 1,5 miliardi."
+       },
+       {
+        "p": "Che cosa si intende per «massa»?",
+        "a": "La moltitudine che diventa protagonista attiva della vita sociale, economica e politica",
+        "w": [
+         "Un gruppo di persone passivo e inerte",
+         "L'insieme dei soli lavoratori delle fabbriche",
+         "L'aristocrazia al potere"
+        ],
+        "e": "La massa smette di essere un aggregato inerte e diventa protagonista attiva."
+       }
+      ]
+     },
+     "Q4": {
+      "title": "Quiz 4 · Urbanizzazione e grandi città",
+      "items": [
+       {
+        "p": "Che cos'è l'urbanizzazione?",
+        "a": "Il trasferimento di enormi masse di lavoratori dalle campagne alle città",
+        "w": [
+         "Il ritorno dei lavoratori nei campi",
+         "La costruzione di ville di campagna",
+         "L'emigrazione verso le colonie"
+        ],
+        "e": "I lavoratori si spostano in città nella speranza di un impiego in fabbriche o uffici."
+       },
+       {
+        "p": "Quanti abitanti supera Londra nel 1900?",
+        "a": "6 milioni",
+        "w": [
+         "600 mila",
+         "2 milioni",
+         "20 milioni"
+        ],
+        "e": "Londra supera i 6 milioni di abitanti nel 1900, Parigi i 2 milioni."
+       },
+       {
+        "p": "Da quale anno Parigi ha linee metropolitane?",
+        "a": "Dal 1900",
+        "w": [
+         "Dal 1863",
+         "Dal 1889",
+         "Dal 1914"
+        ],
+        "e": "Le metropolitane: Londra dal 1863, Parigi dal 1900."
+       },
+       {
+        "p": "Quale di questi interventi fa parte del rinnovamento urbanistico?",
+        "a": "Vie larghe e salubri, acquedotti e reti fognarie",
+        "w": [
+         "Mura difensive attorno alle città",
+         "Demolizione delle fabbriche",
+         "Divieto di trasporto pubblico"
+        ],
+        "e": "Il rinnovamento urbanistico crea vie salubri, acquedotti, fognature e trasporto pubblico."
+       },
+       {
+        "p": "Quanti abitanti supera Parigi nel 1900?",
+        "a": "2 milioni",
+        "w": [
+         "200 mila",
+         "6 milioni",
+         "10 milioni"
+        ],
+        "e": "Parigi supera i 2 milioni di abitanti, Londra i 6 milioni."
+       }
+      ]
+     },
+     "Q5": {
+      "title": "Quiz 5 · La società dei consumi",
+      "items": [
+       {
+        "p": "Che cosa cambia nei consumi dei lavoratori?",
+        "a": "Acquistano anche beni secondari, come abbigliamento alla moda e arredamento",
+        "w": [
+         "Acquistano solo beni primari",
+         "Smettono di acquistare beni",
+         "Acquistano solo beni di lusso"
+        ],
+        "e": "I lavoratori diventano acquirenti di beni non solo primari, ma anche secondari."
+       },
+       {
+        "p": "Dove nascono i grandi magazzini?",
+        "a": "A Parigi e negli Stati Uniti",
+        "w": [
+         "A Roma e a Berlino",
+         "A Mosca e a Vienna",
+         "Solo a Londra"
+        ],
+        "e": "I grandi magazzini nascono a Parigi e negli Stati Uniti."
+       },
+       {
+        "p": "Che cosa vendono i grandi magazzini?",
+        "a": "Merci in serie a prezzi contenuti",
+        "w": [
+         "Solo merci artigianali di lusso",
+         "Solo prodotti agricoli",
+         "Merci a prezzi altissimi"
+        ],
+        "e": "Vendono merci in serie a prezzi contenuti."
+       },
+       {
+        "p": "Quale fattore facilita giornali e riviste come mass media?",
+        "a": "L'aumento dell'alfabetizzazione",
+        "w": [
+         "Il calo della popolazione",
+         "La chiusura delle scuole",
+         "Il divieto di pubblicità"
+        ],
+        "e": "Giornali e riviste sono facilitati dall'aumento dell'alfabetizzazione."
+       },
+       {
+        "p": "A che cosa serve l'esplosione della pubblicità?",
+        "a": "A orientare i consumi della popolazione",
+        "w": [
+         "A ridurre le vendite",
+         "A informare sulla politica estera",
+         "A ostacolare i mass media"
+        ],
+        "e": "La pubblicità orienta i consumi della popolazione."
+       }
+      ]
+     }
+    }
+   },
+   "timeline": [
+    [
+     "T1",
+     102.9,
+     3.6
+    ],
+    [
+     "Q1",
+     1192.433,
+     4.0
+    ],
+    [
+     "T2",
+     1197.733,
+     3.6
+    ],
+    [
+     "T3",
+     1794.399,
+     3.6
+    ],
+    [
+     "T4",
+     2389.766,
+     3.6
+    ],
+    [
+     "T5",
+     2646.832,
+     3.6
+    ],
+    [
+     "GL1",
+     3119.099,
+     35.833
+    ],
+    [
+     "RF1",
+     3156.532,
+     33.267
+    ],
+    [
+     "FIN1",
+     3191.199,
+     20.267
+    ]
+   ]
+  }
+ },
  "manca": "",
  "serve_master": [],
  "domande_sara": [],
@@ -28,10 +405,14 @@
   {
    "quando": "13/11 05:36",
    "testo": "Voci arrivate (27/27); in rendering ripassi/animazioni; poi montaggio e codifica 1080p"
+  },
+  {
+   "quando": "13/11 07:52",
+   "testo": "controllo_finale: ESITO: DA SISTEMARE: volume, sottotitoli"
   }
  ],
  "materia": "Storia",
  "lezione": "1",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-13 05:36:39"
+ "aggiornato": "2026-11-13 07:52:56"
 }
