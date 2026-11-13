@@ -7,7 +7,12 @@
   }
  },
  "manca": "",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "13/11 05:55",
+   "testo": "Voci Kore storia-V-lez06: testi in scambio/storia-V-lez06/testi_voci.json (17 testi), ramo voci-storia-V-lez06"
+  }
+ ],
  "domande_sara": [
   {
    "quando": "13/11 05:43",
@@ -22,10 +27,14 @@
   {
    "quando": "13/11 05:43",
    "testo": "13/11: video e slide scaricati (video 39,6 min, 1092x614, una sola Parte). Trascrizione Whisper base fatta (40 min in circa 4 min). Struttura in 8 argomenti, cambi slide in rilevazione. 40 quiz e 17 testi voce pronti, in attesa di approvazione di Sara. Prossimo passo: slide sincronizzate e inserti, poi voci dalla master."
+  },
+  {
+   "quando": "13/11 05:55",
+   "testo": "13/11: Sara ha approvato 40 quiz e 17 testi voce. Testi inviati alla master nel ramo voci-storia-V-lez06. Ora: slide sincronizzate e montaggio con voci segnaposto."
   }
  ],
  "materia": "Storia",
  "lezione": "Lezione 6 · Il primo dopoguerra (1919-1925)",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-13 05:43:38"
+ "aggiornato": "2026-11-13 05:55:33"
 }
