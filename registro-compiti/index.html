@@ -143,7 +143,7 @@ footer b{color:var(--ink)}
 }
 .tabs{display:flex;flex-wrap:wrap;gap:6px}.tab{border:1px solid #c9d2e3;background:#fff;color:#0B1530;border-radius:999px;padding:6px 12px;font-weight:600;font-size:14px;font-family:inherit;line-height:1.2;cursor:pointer}.tab.on{background:#0B1530;color:#fff;border-color:#0B1530}
 </style>
-<meta name="versione" content="2026-11-13a">
+<meta name="versione" content="2026-11-13b">
 <script>/* se GitHub ha una versione più nuova di questa pagina, la carica subito (niente più «non vedo le novità») */
 (function(){try{var mia=document.querySelector('meta[name=versione]').content;
 fetch(location.pathname,{cache:'reload'}).then(function(r){return r.text()}).then(function(t){var m=t.match(/name="versione" content="([^"]+)"/);
@@ -481,10 +481,10 @@ function sections(r){
   });
   return h;
 }
-const GEN=[['nome','Nome e cognome dello studente'],['ind','Indirizzo di studio'],['cla','Classe / annualità'],['doc','Docente'],['ora','Orario delle lezioni in diretta']];
+const GEN=[['nome','Nome e cognome dello studente'],['ind','Indirizzo di studio'],['cla','Classe / annualità'],['doc','Docente'],['ora','Orario delle lezioni in diretta'],['nfam','Note per la famiglia']];
 function genBox(){
   const g=DB.gen||{};
-  if(ROLE==='studente')return '';
+  if(ROLE==='studente')return g.nfam?'<div class="gen" style="padding:10px 14px;border:1px solid #F0C36D;background:#FFF8E6;border-radius:10px;margin:10px 0"><b>Note per la famiglia</b><div style="white-space:pre-wrap;margin-top:4px">'+esc(g.nfam)+'</div></div>':'';
   const vuoto=!g.nome;
   return '<details class="gen"'+(vuoto?' open':'')+'><summary>Dati generali'+(vuoto?' — da compilare la prima volta':'')+'</summary><div class="g2">'+GEN.map(([k,l])=>'<div>'+l+'</div><div><input type="text" data-g="'+k+'" value="'+esc(g[k]||'')+'"></div>').join('')+'</div></details>';
 }
