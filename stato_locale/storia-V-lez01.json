@@ -379,22 +379,22 @@
   },
   "2": {
    "titolo": "Il Novecento, il secolo delle masse · Parte 2",
-   "stato": "IN_MONTAGGIO",
+   "stato": "PRONTA",
    "voci": "kore",
    "quiz_ok": "si",
    "fermi_ok": "si",
-   "sub_ok": "no",
+   "sub_ok": "si",
    "video": "Storia_Lez1_Parte2_1080p.mp4",
-   "durata_s": 3083.5,
-   "durata": "51:23.5",
+   "durata_s": 3083.4,
+   "durata": "51:23.4",
    "fotogrammi": 92502,
-   "fotogrammi_attesi": 92504,
+   "fotogrammi_attesi": 92502,
    "peso_MB": 278.6,
    "vtt": "Storia_Lez1_Parte2.vtt",
    "scheda": {
     "materia": "Storia",
     "titolo": "Il Novecento, il secolo delle masse · Parte 2",
-    "durata_s": 3083.48,
+    "durata_s": 3083.4,
     "argomenti": [
      {
       "n": 6,
@@ -872,10 +872,14 @@
   {
    "quando": "13/11 08:45",
    "testo": "controllo_finale: ESITO: DA SISTEMARE: sottotitoli"
+  },
+  {
+   "quando": "13/11 08:53",
+   "testo": "controllo_finale: ESITO: TUTTO OK"
   }
  ],
  "materia": "Storia",
  "lezione": "1",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-13 08:45:58"
+ "aggiornato": "2026-11-13 08:53:28"
 }
