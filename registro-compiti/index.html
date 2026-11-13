@@ -143,7 +143,7 @@ footer b{color:var(--ink)}
 }
 .tabs{display:flex;flex-wrap:wrap;gap:6px}.tab{border:1px solid #c9d2e3;background:#fff;color:#0B1530;border-radius:999px;padding:6px 12px;font-weight:600;font-size:14px;font-family:inherit;line-height:1.2;cursor:pointer}.tab.on{background:#0B1530;color:#fff;border-color:#0B1530}
 </style>
-<meta name="versione" content="2026-11-12g">
+<meta name="versione" content="2026-11-13a">
 <script>/* se GitHub ha una versione più nuova di questa pagina, la carica subito (niente più «non vedo le novità») */
 (function(){try{var mia=document.querySelector('meta[name=versione]').content;
 fetch(location.pathname,{cache:'reload'}).then(function(r){return r.text()}).then(function(t){var m=t.match(/name="versione" content="([^"]+)"/);
@@ -210,12 +210,12 @@ const KEY='telesio_registro_'+CODE;
 
 /* ---------- le 10 sezioni del modello ---------- */
 const SEZ=[
- {n:1,t:'Videolezioni registrate da visionare',rows:3,nonum:1,cols:'1.2fr 1.3fr 90px',f:[
+ {n:1,t:'Videolezioni registrate da visionare',rows:3,max:8,nonum:1,cols:'1.2fr 1.3fr 90px',f:[
    {k:'tit',l:'Lezione / Titolo'},{k:'arg',l:'Argomenti da studiare'},{k:'ok',l:'Completata',ty:'done'}]},
- {n:2,t:'Studio di dispense, slide e materiali didattici',rows:2,nonum:1,cols:'1fr .7fr 1.4fr 90px',f:[
+ {n:2,t:'Studio di dispense, slide e materiali didattici',rows:2,max:6,nonum:1,cols:'1fr .7fr 1.4fr 90px',f:[
    {k:'mat',l:'Materiale da studiare'},{k:'pag',l:'Pagine / Sezioni'},
    {k:'att',l:'Attività richiesta',ty:'chk',o:['Studio','Ripasso','Approfondimento','Svolgere gli esercizi caricati']},{k:'ok',l:'Completato',ty:'done'}]},
- {n:3,t:'Compiti scritti ed esercizi',rows:2,nonum:1,cols:'1.1fr 1.2fr .9fr 130px',f:[
+ {n:3,t:'Compiti scritti ed esercizi',rows:2,max:6,nonum:1,cols:'1.1fr 1.2fr .9fr 130px',f:[
    {k:'tip',l:'Tipologia',ty:'chk',o:['Esercizi','Problemi','Questionario','Altro']},{k:'arg',l:'Argomento e consegna'},
    {k:'lib',l:'Libro / Pagine / Esercizi'},{k:'sca',l:'Scadenza',ty:'date',due:'Consegna compiti'}],
    ex:[{k:'cons',l:'Consegna:',ty:'chk',o:['Quaderno','Libro/dispensa','Documento digitale','Piattaforma','In diretta','Altro']},{k:'consA',l:'Altro:',ty:'short'}]},
@@ -300,11 +300,11 @@ const attDi=k=>((ATT&&ATT.days&&ATT.days[k])||[]).filter(x=>tutte()||x.f===famig
 function attBox(k){const L=attDi(k);if(!L.length)return '';
   const v=L.filter(x=>x.k==='v'),l=L.filter(x=>x.k==='l'),q=L.filter(x=>x.k==='q');let h='<div class="att"><h4>Attività rilevate in questo giorno'+(ATT.letto?' <span class="sm">· dati letti il '+esc(ATT.letto)+'</span>':'')+'</h4>';
   const SV={C:'✓ Completata',I:'Iniziata, non terminata',A:'Studiata (completata più avanti)',R:'Ripassata (già completata)'};
-  v.forEach(x=>{h+='<div class="it"><div class="st '+x.s+'">'+SV[x.s]+'</div><div><b>Videolezione:</b> '+esc(x.t)+(x.p?' · test '+esc(x.p):'')+((x.s==='A'||x.s==='R')&&x.cd?' · completata il '+esc(fmtS(x.cd)):'')+(tutte()?'<div class="sm">'+esc(x.f)+'</div>':'')+'<div class="sm">'+esc(x.c)+'</div></div></div>'});
+  v.forEach(x=>{h+='<div class="it"><div class="st '+x.s+'">'+SV[x.s]+'</div><div><b>Videolezione:</b> '+esc(x.n?'LEZIONE '+x.n+': '+x.t+' (n. '+x.n+' del corso)':x.t)+(x.p?' · test '+esc(x.p):'')+((x.s==='A'||x.s==='R')&&x.cd?' · completata il '+esc(fmtS(x.cd)):'')+(tutte()?'<div class="sm">'+esc(x.f)+'</div>':'')+'<div class="sm">'+esc(x.c)+'</div></div></div>'});
   l.forEach(x=>{h+='<div class="it"><div class="st L">'+(x.ass?'Lezione in diretta · assente':'Lezione in diretta')+(x.voto?'<br>Voto '+esc(x.voto):'')+'</div><div><b>'+esc(x.t)+'</b><div class="sm">'+esc(x.doc)+'</div>'+(x.arg?'<div><span class="sm">Argomento:</span> '+esc(x.arg)+'</div>':'')+(x.fb&&x.fb!==x.arg?'<div class="fb"><span class="sm">Giudizio:</span> '+esc(x.fb)+'</div>':'')+'</div></div>'});
   q.forEach(x=>{h+='<div class="it"><div class="st Q">Compito '+esc(x.e)+(x.v?' · voto '+esc(x.v):'')+'</div><div><b>'+esc(x.t)+'</b>'+(x.l?'<div class="sm">'+esc(x.l)+'</div>':'')+(x.sc&&x.e==='assegnato'?'<div class="sm">Scadenza '+esc(fmtS(x.sc))+'</div>':'')+'<div class="sm">'+esc(x.doc)+'</div></div></div>'});
   return h+'</div>'}
-function programmati(k){const out=[];Object.entries((DB&&DB.days)||{}).forEach(([d,r])=>{if(!r)return;SEZ.forEach(s=>{for(let i=0;i<(s.rows||0);i++)s.f.filter(f=>f.due).forEach(f=>{if(r[s.n+'.'+i+'.'+f.k]===k){
+function programmati(k){const out=[];Object.entries((DB&&DB.days)||{}).forEach(([d,r])=>{if(!r)return;SEZ.forEach(s=>{for(let i=0;i<(s.max||s.rows||0);i++)s.f.filter(f=>f.due).forEach(f=>{if(r[s.n+'.'+i+'.'+f.k]===k){
   const g=x=>r[s.n+'.'+i+'.'+x];out.push({da:d,cosa:f.due,tip:(g('tip')||[]).join(', '),arg:g('arg')||g('att')||g('lib')||g('cos')||''})}})})});return out}
 function esiti(k){return attDi(k).filter(x=>(x.k==='l'&&x.voto)||(x.k==='q'&&x.e==='corretto'&&x.v))}
 function progBox(k){const P=programmati(k);if(!P.length)return '';const E=esiti(k);
@@ -344,7 +344,7 @@ function saved(){stato('Salvataggio…');clearTimeout(tmr);tmr=setTimeout(salva,
 function testo(r){
   const out=[];
   SEZ.forEach(s=>{const parti=[];
-    for(let i=0;i<s.rows;i++){const v=s.f.filter(f=>f.ty!=='done').map(f=>{const x=r[s.n+'.'+i+'.'+f.k];return has(x)?(Array.isArray(x)?x.join(', '):(f.ty==='date'?f.l+' '+fmtS(x):x)):''}).filter(Boolean);
+    for(let i=0;i<(s.max||s.rows);i++){const v=s.f.filter(f=>f.ty!=='done').map(f=>{const x=r[s.n+'.'+i+'.'+f.k];return has(x)?(Array.isArray(x)?x.join(', '):(f.ty==='date'?f.l+' '+fmtS(x):x)):''}).filter(Boolean);
       if(v.length)parti.push(v.join(' · ')+(r[s.n+'.'+i+'.ok']?' [completata]':''))}
     (s.ex||[]).forEach(f=>{const x=r[s.n+'.ex.'+f.k];if(has(x))parti.push((f.l?f.l+' ':'')+(Array.isArray(x)?x.join(', '):x))});
     if(parti.length)out.push(s.n+'. '+s.t.toUpperCase()+': '+parti.join(' | '))});
@@ -425,7 +425,7 @@ function summary(){
     if(!visible(k)||!filled(r))return;
     const d=new Date(k+'T12:00'),inMese=d.getFullYear()===y&&d.getMonth()===mo;
     if(inMese){if(conCompiti(r))giorni++;if((r['8.ex.st']||[]).includes('Da recuperare'))recu++}
-    SEZ.forEach(s=>{if(s.n>=8)return;for(let i=0;i<s.rows;i++){
+    SEZ.forEach(s=>{if(s.n>=8)return;for(let i=0;i<(s.max||s.rows);i++){
       const any=s.f.some(f=>f.ty!=='done'&&has(r[s.n+'.'+i+'.'+f.k]));if(!any)continue;
       if(inMese){ass++;if(r[s.n+'.'+i+'.ok'])comp++}
       s.f.filter(f=>f.due).forEach(f=>{const v=r[s.n+'.'+i+'.'+f.k];if(v&&v>=T){
@@ -457,11 +457,15 @@ function ctrl(key,f,r){
 }
 const rowHas=(s,i,r)=>s.f.some(f=>f.ty!=='done'&&has(r[s.n+'.'+i+'.'+f.k]));
 const exHas=(s,r)=>(s.ex||[]).some(f=>has(r[s.n+'.ex.'+f.k]));
+const EXTRA={};
+function aggiungiRiga(n){const k=iso(SEL)+'|'+n;EXTRA[k]=(EXTRA[k]||0)+1;render();setTimeout(()=>{const d=[...document.querySelectorAll('details.sec')][n-1];if(d)d.open=true},0)}
 function sections(r){
   const ro=ROLE==='studente';let h='';
   SEZ.forEach(s=>{
-    const rows=[...Array(s.rows).keys()].filter(i=>!ro||rowHas(s,i,r));
-    const piena=[...Array(s.rows).keys()].some(i=>rowHas(s,i,r))||exHas(s,r);
+    const M=s.max||s.rows||0,tutte=[...Array(M).keys()],ult=tutte.filter(i=>rowHas(s,i,r)).pop();
+    const vis=Math.min(M,Math.max(s.rows||0,ult===undefined?0:ult+1)+(EXTRA[iso(SEL)+'|'+s.n]||0));
+    const rows=ro?tutte.filter(i=>rowHas(s,i,r)):[...Array(vis).keys()];
+    const piena=tutte.some(i=>rowHas(s,i,r))||exHas(s,r);
     if(ro&&!piena)return;
     const tit=s.n+'. '+esc(s.t)+(s.opt?' <small>'+s.opt+'</small>':'');
     h+=ro?'<div class="sec"><h4>'+tit+'</h4>':'<details class="sec'+(piena?'':' vuota')+'"'+(piena?' open':'')+'><summary><span>'+tit+'</span></summary>';
@@ -469,6 +473,7 @@ function sections(r){
       h+='<div class="rows" style="--cols:'+s.cols+'"><div class="hd">'+(s.nonum?'':'<div>N.</div>')+s.f.map(f=>'<div>'+esc(f.l)+'</div>').join('')+'</div>';
       rows.forEach(i=>{h+='<div class="r">'+(s.nonum?'':'<div class="num">'+(i+1)+'</div>')+s.f.map(f=>'<div><span class="lab">'+esc(f.l)+'</span>'+ctrl(s.n+'.'+i+'.'+f.k,f,r)+'</div>').join('')+'</div>'});
       h+='</div>';
+      if(!ro&&s.max&&vis<s.max)h+='<button type="button" class="addriga" onclick="aggiungiRiga('+s.n+')" style="margin:6px 0 4px;border:1px dashed #9aa6bd;background:#fff;border-radius:8px;padding:6px 12px;font:600 13px inherit;cursor:pointer;color:#2B4BFF">+ Aggiungi riga</button>';
     }
     (s.ex||[]).forEach(f=>{const k=s.n+'.ex.'+f.k;if(ro&&!has(r[k]))return;
       h+='<div class="extra">'+(f.l?'<span class="lab">'+esc(f.l)+'</span>':'')+(f.ty==='area'&&!ro?'<div style="margin-top:4px">'+ctrl(k,f,r)+'</div>':ctrl(k,f,r))+'</div>'});
