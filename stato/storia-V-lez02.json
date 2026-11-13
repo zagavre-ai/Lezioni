@@ -2,7 +2,12 @@
  "tag": "storia-V-lez02",
  "parti": {},
  "manca": "",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "13/11 07:51",
+   "testo": "lez02: 13 testi voce nuovi sul ramo voci-storia-V-lez02 (testi_voci.json ora 50 testi; nuovi in testi_nuovi_13nov.json): genera solo i mancanti"
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
@@ -16,10 +21,14 @@
   {
    "quando": "13/11 05:36",
    "testo": "È mia (chat 1 · Claude 2 · Storia V) · IN_MONTAGGIO. Disposizione master 13/11: io faccio le DISPARI; lez02 finita da me, poi la seconda chat prende le pari"
+  },
+  {
+   "quando": "13/11 07:51",
+   "testo": "Parti sotto i 50 min (48,2 e 45,9): aggiunti 13 testi (cronologie, carte, protagonisti), voci richieste alla master; slide 3450 s corretta"
   }
  ],
  "materia": "Storia",
  "lezione": "2",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-13 05:36:36"
+ "aggiornato": "2026-11-13 07:51:48"
 }
