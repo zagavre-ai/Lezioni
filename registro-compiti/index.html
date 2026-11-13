@@ -143,7 +143,7 @@ footer b{color:var(--ink)}
 }
 .tabs{display:flex;flex-wrap:wrap;gap:6px}.tab{border:1px solid #c9d2e3;background:#fff;color:#0B1530;border-radius:999px;padding:6px 12px;font-weight:600;font-size:14px;font-family:inherit;line-height:1.2;cursor:pointer}.tab.on{background:#0B1530;color:#fff;border-color:#0B1530}
 </style>
-<meta name="versione" content="2026-11-13b">
+<meta name="versione" content="2026-11-13c">
 <script>/* se GitHub ha una versione più nuova di questa pagina, la carica subito (niente più «non vedo le novità») */
 (function(){try{var mia=document.querySelector('meta[name=versione]').content;
 fetch(location.pathname,{cache:'reload'}).then(function(r){return r.text()}).then(function(t){var m=t.match(/name="versione" content="([^"]+)"/);
@@ -180,7 +180,7 @@ details.sec>summary small{text-transform:none;font-weight:normal;opacity:.85}
   <div class="eyebrow" id="eyebrow">Registro compiti</div>
 </div></header>
 <main class="wrap">
-  <h1>Registro dei compiti</h1>
+  <h1>Registro dei compiti <small style="font-size:12px;font-weight:600;opacity:.75;vertical-align:middle">versione 1.3 · 13/11/2026</small></h1>
   <div class="bar"></div>
   <p class="mat" id="mat"></p>
   <div class="who" id="who"></div>
@@ -190,7 +190,7 @@ details.sec>summary small{text-transform:none;font-weight:normal;opacity:.85}
       <div class="card cal nop">
         <div class="calh"><button id="pm" aria-label="Mese precedente">‹</button><b id="mlab"></b><button id="nm" aria-label="Mese successivo">›</button></div>
         <div class="days" id="days"></div>
-        <div class="legend"><span><s></s>oggi</span><span><i></i>ci sono compiti</span></div>
+        <div class="legend"><span><s></s>oggi</span><span><i></i>compiti assegnati</span></div>
         <div class="quick"><button id="ieri">Ieri</button><button id="oggi">Oggi</button></div>
       </div>
       <div class="card sum nop" id="sum"></div>
@@ -413,7 +413,7 @@ function calendar(){
   for(let i=0;i<off;i++)h+='<button class="d out" tabindex="-1" aria-hidden="true"></button>';
   for(let g=1;g<=n;g++){const d=new Date(VIEW.getFullYear(),VIEW.getMonth(),g,12),k=iso(d),ok=visible(k);
     h+='<button class="d'+(k===T?' today':'')+(k===iso(SEL)?' sel':'')+(ok&&conCompiti(rec(k))?' has':'')+'" data-k="'+k+'"'+(ok?'':' disabled')+' aria-label="'+fmtL(d)+'">'+g+(ok?pallini(k):'')+'</button>'}
-  $('#days').innerHTML=h+'<div class="leg" style="grid-column:1/-1"><span><i style="background:#d64545"></i>verifica o scadenza</span><span><i style="background:#2e9e5b"></i>lezione completata</span><span><i style="background:#e8832a"></i>lezione non terminata</span><span><i style="background:#3b6fd8"></i>lezione in diretta</span></div>';
+  $('#days').innerHTML=h+'<div class="leg" style="grid-column:1/-1"><span><i style="background:#d64545"></i>verifica o scadenza</span><span><i style="background:#2e9e5b"></i>videolezione completata</span><span><i style="background:#e8832a"></i>videolezione iniziata, non terminata</span><span><i style="background:#3b6fd8"></i>lezione in diretta</span><span><i style="background:#FFC21A"></i>compiti assegnati</span></div>';
   $('#days').querySelectorAll('.d[data-k]').forEach(b=>b.onclick=()=>{SEL=new Date(b.dataset.k+'T12:00');render()});
   $('#nm').disabled=ROLE==='studente'&&new Date(VIEW.getFullYear(),VIEW.getMonth()+1,1,12)>TODAY;
 }
