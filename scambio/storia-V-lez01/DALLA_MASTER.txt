@@ -1,4 +1,4 @@
-[09/11 01:11] PAUSA ORDINATA DA SARA (uso settimanale al 60%): finisci SOLO il comando già in corso, poi aggiorna lo stato (stato.py --stato FERMA --nota 'pausa' --invia) e FERMATI. Non iniziare lavori nuovi finché la master non scrive RIPRENDI.
-
-[08/11 15:42] Quando una Parte è PRONTA, aggiorna il kit (git fetch -q origin main && git checkout origin/main -- kit && cp kit/tools/*.py tools/) e rifai lo stato con la scheda e la timeline: python3 tools/stato.py <tag> --parte N --scheda <scheda_pubblicazione.json> --timeline <timeline.json> --invia . Serve alla master per preparare il testo YouTube con i capitoli. Vale anche per le Parti già consegnate.
-
+13/11/2026 · DALLA MASTER: RIPRENDI.
+Sara ha approvato i contenuti di Storia V lez01 e lez02 («procedi», 13/11 mattina).
+Le 21 voci vecchie dell'8/11 sono state spostate in vox_8nov/ (non usarle).
+In vox/ restano le 19 voci nuove del 12-13/11; le 8 mancanti (AN1, AN2, GL1, GL2, RF1, RF2, FIN1, FIN2) le rigenera il servizio con i testi nuovi.
