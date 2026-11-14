@@ -2,7 +2,314 @@
  "tag": "letteratura-V-lez15",
  "parti": {
   "1": {
-   "stato": "IN_MONTAGGIO"
+   "stato": "PRONTA",
+   "titolo": "La narrativa tra le due guerre",
+   "voci": "kore",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "si",
+   "video": "Letteratura_Lez15_Parte1_1080p.mp4",
+   "durata_s": 2274.0,
+   "durata": "37:54.0",
+   "fotogrammi": 68221,
+   "fotogrammi_attesi": 68221,
+   "peso_MB": 143.8,
+   "vtt": "Letteratura_Lez15_Parte1.vtt",
+   "scheda": {
+    "materia": "Letteratura italiana (V)",
+    "titolo": "La narrativa tra le due guerre · Parte 1",
+    "durata_s": 2274.03,
+    "argomenti": [
+     {
+      "n": 1,
+      "titolo": "Il dopoguerra e il fascismo",
+      "inizio_s": 37.933,
+      "quiz_s": 591.7
+     },
+     {
+      "n": 2,
+      "titolo": "Il regime e la sua politica",
+      "inizio_s": 596.7,
+      "quiz_s": 765.433
+     },
+     {
+      "n": 3,
+      "titolo": "Ideologia e cultura",
+      "inizio_s": 770.433,
+      "quiz_s": 1318.6
+     },
+     {
+      "n": 4,
+      "titolo": "La narrativa tra le due guerre",
+      "inizio_s": 1323.6,
+      "quiz_s": 2144.567
+     }
+    ],
+    "quiz": {
+     "Q1": {
+      "title": "Quiz 1 · Il dopoguerra e il fascismo",
+      "items": [
+       {
+        "p": "In che condizioni esce l'Italia dalla Prima guerra mondiale?",
+        "a": "In profonda crisi economica, con inflazione e disoccupazione",
+        "w": [
+         "In pieno sviluppo economico",
+         "Con un forte aumento delle esportazioni",
+         "Senza alcuna tensione sociale"
+        ],
+        "e": "Il Paese esce dalla guerra in una profonda crisi economica: mancanza di capitali, inflazione, disoccupazione e tensioni sociali."
+       },
+       {
+        "p": "Che cosa si intende per «vittoria mutilata»?",
+        "a": "Il malcontento per i risultati dei trattati di pace, per la Dalmazia e Fiume",
+        "w": [
+         "La sconfitta dell'Italia a Caporetto",
+         "La perdita delle colonie africane",
+         "La resa dell'Austria-Ungheria"
+        ],
+        "e": "Si diffonde il malcontento per i risultati dei trattati di pace, in particolare per la Dalmazia e Fiume."
+       },
+       {
+        "p": "Quale impresa alimenta il mito della vittoria mutilata?",
+        "a": "L'impresa di Gabriele D'Annunzio a Fiume",
+        "w": [
+         "La marcia su Roma",
+         "La guerra d'Etiopia",
+         "Lo sbarco in Sicilia"
+        ],
+        "e": "Il malcontento è alimentato anche dall'impresa di Gabriele D'Annunzio a Fiume."
+       },
+       {
+        "p": "Chi fonda i Fasci di combattimento nel 1919?",
+        "a": "Benito Mussolini",
+        "w": [
+         "Gabriele D'Annunzio",
+         "Giovanni Giolitti",
+         "Giovanni Gentile"
+        ],
+        "e": "I Fasci di combattimento sono fondati nel 1919 da Benito Mussolini."
+       },
+       {
+        "p": "Quale evento del 1922 porta Mussolini al governo?",
+        "a": "La marcia su Roma",
+        "w": [
+         "Le leggi fascistissime",
+         "I Patti Lateranensi",
+         "La guerra in Libia"
+        ],
+        "e": "Il movimento cresce fino alla marcia su Roma del 1922, che porta Mussolini a ricevere l'incarico di formare il governo."
+       }
+      ]
+     },
+     "Q2": {
+      "title": "Quiz 2 · Il regime e la sua politica",
+      "items": [
+       {
+        "p": "Che cosa fanno le «leggi fascistissime» del 1925-1926?",
+        "a": "Cancellano le libertà democratiche e mettono fuori legge i partiti d'opposizione",
+        "w": [
+         "Introducono il suffragio universale",
+         "Riconoscono i sindacati liberi",
+         "Separano lo Stato dalla Chiesa"
+        ],
+        "e": "Con le leggi fascistissime il regime cancella le libertà democratiche, mette fuori legge i partiti d'opposizione e scioglie i sindacati liberi."
+       },
+       {
+        "p": "Che cos'è il corporativismo?",
+        "a": "Un sistema per superare i conflitti tra le classi sociali",
+        "w": [
+         "Un accordo con la Chiesa cattolica",
+         "Un'alleanza militare con la Germania",
+         "Una riforma della scuola"
+        ],
+        "e": "Viene introdotto il corporativismo per superare i conflitti tra classi sociali."
+       },
+       {
+        "p": "Con quale accordo del 1929 il regime si accorda con la Chiesa?",
+        "a": "I Patti Lateranensi",
+        "w": [
+         "Il Patto d'acciaio",
+         "L'Asse Roma-Berlino",
+         "Le leggi fascistissime"
+        ],
+        "e": "Il regime trova un accordo con la Chiesa cattolica tramite i Patti Lateranensi del 1929."
+       },
+       {
+        "p": "Quale Paese conquista il fascismo nel 1935-1936, proclamando l'Impero?",
+        "a": "L'Etiopia",
+        "w": [
+         "La Libia",
+         "La Grecia",
+         "L'Albania"
+        ],
+        "e": "Il fascismo aggredisce e conquista l'Etiopia nel 1935-1936, proclamando l'Impero."
+       },
+       {
+        "p": "Che cosa accade il 25 luglio 1943?",
+        "a": "Il Gran Consiglio del fascismo sfiducia Mussolini, che viene arrestato",
+        "w": [
+         "L'Italia entra in guerra",
+         "Viene firmato il Patto d'acciaio",
+         "Mussolini fonda i Fasci di combattimento"
+        ],
+        "e": "Il 25 luglio il Gran Consiglio del fascismo sfiducia Mussolini, che viene arrestato; nasce la Resistenza partigiana."
+       }
+      ]
+     },
+     "Q3": {
+      "title": "Quiz 3 · Ideologia e cultura",
+      "items": [
+       {
+        "p": "Quale filosofo guida l'opera ideologica del fascismo?",
+        "a": "Giovanni Gentile",
+        "w": [
+         "Benedetto Croce",
+         "Giovanni Papini",
+         "Dino Buzzati"
+        ],
+        "e": "L'integrazione della cultura nel regime è guidata dall'opera ideologica di Giovanni Gentile."
+       },
+       {
+        "p": "Che cosa viene imposto ai professori universitari?",
+        "a": "Il giuramento di fedeltà al regime",
+        "w": [
+         "L'iscrizione all'Opera Nazionale Balilla",
+         "L'uso del dialetto nelle lezioni",
+         "Lo studio obbligatorio del tedesco"
+        ],
+        "e": "Il fascismo impone il giuramento di fedeltà ai professori universitari."
+       },
+       {
+        "p": "Quali sono i principali strumenti di propaganda del regime?",
+        "a": "La radio e il cinema, con l'Istituto LUCE",
+        "w": [
+         "I romanzi d'appendice",
+         "Le riviste letterarie fiorentine",
+         "Il teatro dialettale"
+        ],
+        "e": "La radio e il cinema, attraverso l'Istituto LUCE e i cinegiornali, diventano i principali strumenti di propaganda."
+       },
+       {
+        "p": "Come si comporta il regime con i dialetti e le minoranze linguistiche?",
+        "a": "Li combatte per imporre un modello unico nazionale",
+        "w": [
+         "Li protegge e li insegna a scuola",
+         "Li rende lingue ufficiali",
+         "Li ignora del tutto"
+        ],
+        "e": "Il regime combatte severamente l'uso dei dialetti e delle minoranze linguistiche per imporre un modello unico nazionale."
+       },
+       {
+        "p": "Con quale parola il regime sostituisce «garage»?",
+        "a": "Rimessa",
+        "w": [
+         "Torpedone",
+         "Autorimessa di Stato",
+         "Stallaggio"
+        ],
+        "e": "Viene proibito l'uso di parole straniere: rimessa per garage, torpedone per pullman."
+       }
+      ]
+     },
+     "Q4": {
+      "title": "Quiz 4 · La narrativa tra le due guerre",
+      "items": [
+       {
+        "p": "Che cosa esplorano gli scrittori tra le due guerre?",
+        "a": "La crisi dell'identità moderna e la frantumazione della realtà",
+        "w": [
+         "Le grandi imprese eroiche del Risorgimento",
+         "Solo la vita dell'aristocrazia",
+         "Il progresso scientifico come salvezza"
+        ],
+        "e": "Abbandonano le strutture dell'Ottocento per esplorare la crisi dell'identità moderna, i blocchi psicologici e la frantumazione della realtà."
+       },
+       {
+        "p": "Come appare il mondo esterno nei romanzi di Federigo Tozzi, come Con gli occhi chiusi?",
+        "a": "Disgregato e caotico, senza gerarchie logiche",
+        "w": [
+         "Ordinato e rassicurante",
+         "Fantastico e allegorico",
+         "Eroico e glorioso"
+        ],
+        "e": "Tozzi rappresenta un mondo esterno disgregato e caotico, privo di gerarchie logiche, specchio dell'inettitudine dei protagonisti."
+       },
+       {
+        "p": "Quale mondo descrive Corrado Alvaro in Gente in Aspromonte?",
+        "a": "Un mondo meridionale arcaico, proiettato in una dimensione mitica",
+        "w": [
+         "La grande città industriale del Nord",
+         "Una fortezza ai confini del deserto",
+         "I salotti borghesi di Firenze"
+        ],
+        "e": "Alvaro descrive un mondo meridionale arretrato e arcaico, proiettato in una dimensione mitica e primitiva."
+       },
+       {
+        "p": "In Fontamara, da quale punto di vista racconta Ignazio Silone?",
+        "a": "Dal basso, dei contadini poveri, i cafoni",
+        "w": [
+         "Dei gerarchi fascisti",
+         "Dei proprietari terrieri",
+         "Dei soldati in trincea"
+        ],
+        "e": "Silone adotta l'ottica «dal basso» dei contadini poveri, i cafoni, per denunciare i soprusi del regime."
+       },
+       {
+        "p": "Che cosa simboleggia l'attesa nel Deserto dei Tartari di Dino Buzzati?",
+        "a": "Il vuoto e la piattezza dell'esistenza nella società di massa",
+        "w": [
+         "La gloria della vita militare",
+         "La speranza nella rivoluzione",
+         "La nostalgia per il Risorgimento"
+        ],
+        "e": "Il tempo immobile e l'attesa vana simboleggiano il vuoto e la piattezza dell'esistenza nella società di massa."
+       }
+      ]
+     }
+    }
+   },
+   "timeline": [
+    [
+     "T1",
+     37.933,
+     3.5
+    ],
+    [
+     "Q1",
+     591.7,
+     5.0
+    ],
+    [
+     "T2",
+     596.7,
+     3.5
+    ],
+    [
+     "T3",
+     770.433,
+     3.5
+    ],
+    [
+     "T4",
+     1323.6,
+     3.5
+    ],
+    [
+     "GL",
+     2149.567,
+     50.533
+    ],
+    [
+     "RF",
+     2200.1,
+     49.333
+    ],
+    [
+     "FIN",
+     2249.433,
+     6.1
+    ]
+   ]
   }
  },
  "manca": "",
@@ -16,10 +323,14 @@
   {
    "quando": "14/11 04:40",
    "testo": "chat B2: docente misurato 31:16; quiz 20 domande (4 argomenti) e 13 testi voci inviati su voci-letteratura-V-lez15 (delega alla master). Con gli inserti si stima circa 38 min, sotto i 50 senza riempitivi."
+  },
+  {
+   "quando": "14/11 07:34",
+   "testo": "chat B2 · PRONTA e CONSEGNATA sul ramo consegna-letteratura-V-lez15. Misurato: 37:54.0, 68221 fotogrammi, 143,8 MB, 1920x1080, -15,9 LUFS, quiz 4/4, nessun fermo (2 brevi fermi del video originale, 1,1 s e 1,9 s, coperti con la slide in zoom lento; la webcam si sposta a 1169 s e il ritaglio la segue). Sotto i 50 min (docente 31:16, nessun riempitivo). t_verifica 2255.533 s, t_compiti 2269.033 s. Sottotitoli Whisper base con nomi e date corretti; controllo automatico attacco 62%, campione con trascrizione 13/16 sulla parola giusta."
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 15",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 04:40:22"
+ "aggiornato": "2026-11-14 07:34:52"
 }
