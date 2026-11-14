@@ -6,16 +6,25 @@
   }
  },
  "manca": "",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "14/11 22:48",
+   "testo": "Voci Kore storia-V-lez18: 39 testi in scambio/storia-V-lez18/testi_voci.json (ramo voci-storia-V-lez18), 17 minuti circa di voce. Quiz: scambio/storia-V-lez18/quiz.json (30 domande, da approvare)."
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
    "quando": "14/11 22:32",
    "testo": "Storia V · chat S1: presa lezione 18. Video 71 min: 2 Parti. Trascrizione Whisper base in corso."
+  },
+  {
+   "quando": "14/11 22:48",
+   "testo": "Lezione divisa in 2 Parti (35 + 36 min di docente, 6 argomenti). Testi voci e quiz inviati; monto con voci segnaposto."
   }
  ],
  "materia": "Storia",
  "lezione": "Lezione 18 · L'Italia repubblicana",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 22:32:35"
+ "aggiornato": "2026-11-14 22:48:02"
 }
