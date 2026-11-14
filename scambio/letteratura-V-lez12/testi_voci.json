@@ -1,68 +1,137 @@
-{
- "INTRO1": [
-  "Benvenuti. In questa lezione parliamo della narrativa e della saggistica del primo Novecento.",
-  "Vedremo cinque argomenti: la crisi delle certezze; il nuovo romanzo del Novecento; Marcel Prust e la memoria; Franz Kafka e l'assurdo; e infine Virginia Vulf.",
-  "Alla fine di ogni argomento troverai un breve ripasso e un quiz di cinque domande."
- ],
- "S1": [
-  "La crisi delle certezze. Ecco i punti da ricordare.",
-  "Alla fine dell'Ottocento la mentalità del Positivismo entra in crisi, per nuove teorie irrazionalistiche e scientifiche.",
-  "Nìcce critica la morale tradizionale ed esalta gli aspetti istintuali dell'esistenza.",
-  "Bergsòn introduce la durata: il tempo come dimensione soggettiva, in cui passato, presente e futuro si fondono.",
-  "Fròid, con la psicanalisi, mostra che le vere motivazioni umane sono nell'inconscio e nelle pulsioni.",
-  "Àinstain, con la teoria della relatività, scardina i concetti assoluti di spazio e di tempo."
- ],
- "S2": [
-  "Il romanzo del primo Novecento. Ecco i punti da ricordare.",
-  "Le nuove teorie e le avanguardie spingono gli scrittori a sperimentare nel linguaggio e nelle strutture narrative.",
-  "L'eroe entra in crisi: al suo posto compare l'inetto, l'uomo alienato che non riesce a inserirsi nella società.",
-  "Il tempo non è più logico e cronologico: diventa interiore, e si frammenta nei ricordi e nel flusso di coscienza.",
-  "Lo spazio diventa lo specchio degli stati d'animo dei personaggi.",
-  "La focalizzazione si sposta all'interno, con punti di vista parziali, multipli e soggettivi."
- ],
- "S3": [
-  "Marcel Prust e la ricerca del tempo perduto. Ecco i punti da ricordare.",
-  "L'opera di Prust vuole recuperare ciò che sembra sottratto alla memoria.",
-  "La memoria volontaria è legata all'intelligenza: richiama i ricordi in modo cosciente, ma frammentario.",
-  "La memoria involontaria si accende all'improvviso grazie a una sensazione, e restituisce il passato nella sua interezza e verità."
- ],
- "S4": [
-  "Franz Kafka e l'assurdo quotidiano. Ecco i punti da ricordare.",
-  "Nella Metamorfosi un evento impossibile, la trasformazione in insetto, è presentato come un fatto naturale.",
-  "Il protagonista non si stupisce, e il normale si mescola al mostruoso: è l'effetto di straniamento.",
-  "La metamorfosi rende concreti i sensi di colpa e l'inettitudine del personaggio.",
-  "Il protagonista si sente inferiore per l'autoritarismo del datore di lavoro, e quando non può più lavorare la famiglia diventa ostile.",
-  "La camera è insieme una prigione e un rifugio dalle responsabilità della vita adulta."
- ],
- "S5": [
-  "Virginia Vulf. Ecco i punti da ricordare.",
-  "Nei suoi romanzi principali la trama quasi scompare, per ricostruire i processi mentali dei personaggi.",
-  "Usa il flusso di coscienza: la serie casuale e disordinata di pensieri e associazioni.",
-  "La realtà esterna conta solo come riflesso della coscienza individuale.",
-  "Nel saggio Una stanza tutta per sé indica nell'indipendenza economica la condizione della libertà creativa delle donne.",
-  "Inventa Giudit, la sorella di Scespir: una donna di talento che, nel Cinquecento, è destinata al fallimento e al suicidio."
- ],
- "GL1": [
-  "Ripassiamo le parole chiave di questa lezione. Ascolta ogni parola e la sua definizione, e prova a ripeterla.",
-  "Positivismo: fiducia nella scienza e nel progresso, che entra in crisi a fine Ottocento.",
-  "Durata: per Bergsòn, il tempo vissuto dentro di noi, dove passato, presente e futuro si fondono.",
-  "Inconscio: per Fròid, la parte nascosta della psiche, dove nascono le vere motivazioni.",
-  "Inetto: il personaggio incapace di vivere e di inserirsi nella società.",
-  "Flusso di coscienza: la scrittura che segue i pensieri così come arrivano, senza ordine logico.",
-  "Memoria involontaria: il ricordo che torna da solo, acceso da una sensazione.",
-  "Straniamento: l'effetto di estraneità che nasce quando l'assurdo è raccontato come normale.",
-  "Ricorda: queste parole le trovi anche nella dispensa."
- ],
- "RF1": [
-  "Prima di salutarci, ricapitoliamo insieme i cinque argomenti di questa lezione. Alla fine, prova a ripeterli con parole tue.",
-  "Primo argomento: Nìcce, Bergsòn, Fròid e Àinstain mettono in crisi le certezze del Positivismo.",
-  "Secondo argomento: nel romanzo del Novecento l'eroe lascia il posto all'inetto, e tempo, spazio e punto di vista diventano soggettivi.",
-  "Terzo argomento: per Prust la memoria involontaria, accesa da una sensazione, restituisce il tempo perduto.",
-  "Quarto argomento: nella Metamorfosi di Kafka l'impossibile diventa normale, e la trasformazione rende concreti la colpa e l'inettitudine.",
-  "Quinto argomento: Virginia Vulf usa il flusso di coscienza, e in Una stanza tutta per sé difende l'indipendenza economica delle donne.",
-  "Ottimo lavoro."
- ],
- "FIN1": [
-  "Fine della lezione. Grazie per l'attenzione, e ci vediamo alla prossima lezione."
- ]
-}
+[
+ {
+  "nome": "AN1",
+  "testo": "Tra la fine dell'Ottocento e l'inizio del Novecento la mentalità positivistica entra in una crisi irreversibile. Il Positivismo si basava sulla fiducia incrollabile nel progresso e nel sapere scientifico. Il declino è accelerato da nuove teorie filosofiche e scientifiche, di stampo irrazionalistico e relativistico. Vediamo i quattro protagonisti di questa crisi, uno alla volta. Primo: Friedrich Nietzsche. Muove una critica feroce alla morale tradizionale e alla mentalità borghese. Esalta la componente istintuale dell'esistenza, il dionisiaco. Secondo: Henri Bergson. Scardina la concezione del tempo fisico-matematico, inteso come successione di istanti separati. Introduce il concetto di durata: una dimensione puramente soggettiva, in cui passato, presente e futuro si fondono. Terzo: Sigmund Freud, con la psicoanalisi. Distrugge l'idea di un soggetto cosciente e padrone delle proprie azioni. Le vere motivazioni del comportamento umano stanno nelle pulsioni dell'inconscio. Quarto: Albert Einstein, con la teoria della relatività. Demolisce l'assolutezza dello spazio e del tempo, e priva l'uomo di punti di riferimento stabili. Ricorda i quattro nomi, e per ognuno una parola: istinto, durata, inconscio, relatività.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN2",
+  "testo": "Mettiamo a confronto la mentalità positivista e la mentalità che nasce dalla crisi. Prima, a sinistra: il Positivismo. Dopo, a destra: la crisi delle certezze. Il Positivismo ha una fiducia incrollabile nel progresso. Dopo la crisi, nessuna certezza è più al sicuro. Nel Positivismo il sapere scientifico è la strada per la verità. Dopo, le teorie sono irrazionalistiche e relativistiche. Il tempo è una successione di istanti separati, fisico e matematico. Con Bergson il tempo diventa durata, soggettiva e interiore. L'uomo è un soggetto cosciente e padrone delle proprie azioni. Con Freud, le motivazioni vere stanno nell'inconscio. Spazio e tempo sono assoluti. Con Einstein non lo sono più. Questo terremoto culturale, dice il professore, insieme alle sperimentazioni delle avanguardie storiche, genera una rivoluzione nella struttura del romanzo. Ripeti il confronto: certezza contro crisi, in ogni coppia.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN3",
+  "testo": "Fissiamo le parole chiave del primo argomento. Prima parola: Positivismo. È la mentalità fondata sulla fiducia nel progresso e nella scienza. Seconda parola: irrazionalismo. È la corrente di pensiero che mette in dubbio il primato della ragione. Terza parola: dionisiaco. È la componente istintuale dell'esistenza, esaltata da Nietzsche. Quarta parola: durata. È il tempo soggettivo di Bergson. Quinta parola: inconscio. È il luogo delle vere motivazioni umane, secondo Freud. Sesta parola: relatività. È la teoria di Einstein che scardina spazio e tempo assoluti. Settima parola: avanguardie storiche. Sono le sperimentazioni artistiche che accompagnano la crisi. Ottava parola: modernismo. Il professore lo usa per la letteratura che nasce da questo terremoto. Ripeti le otto parole, e collegale al pensatore giusto.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN4",
+  "testo": "Ecco la mappa concettuale del primo argomento: la crisi delle certezze. Al centro c'è il superamento del Positivismo. Primo ramo: il Positivismo. Fiducia incrollabile nel progresso e nel sapere scientifico. Entra in una crisi irreversibile a cavallo tra Ottocento e Novecento. Secondo ramo: Nietzsche. Critica feroce alla morale tradizionale, esaltazione dell'istinto. Il dionisiaco al posto della ragione. Terzo ramo: Bergson. Il concetto di durata, il tempo soggettivo. Passato, presente e futuro si fondono. Quarto ramo: Freud. La psicoanalisi e l'inconscio. Il soggetto non è più padrone di sé. Quinto ramo: Einstein. La relatività dello spazio e del tempo. Vengono meno i punti di riferimento stabili. Sesto ramo: la rivoluzione del romanzo. Un terremoto culturale che unito alle avanguardie cambia la narrativa. È il filo che porta ai prossimi argomenti. Ripeti la mappa, ramo per ramo.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN5",
+  "testo": "Sul piano dei temi, il romanzo del primo Novecento supera i protagonisti ottocenteschi. Il professore parla di una grande piroetta. I protagonisti dell'Ottocento sono intraprendenti, sicuri di sé, di mentalità romantica o tardoromantica. Al loro posto emerge una nuova figura: l'inetto. Emerge anche l'uomo alienato. L'inetto è spesso un intellettuale o un artista. È incapace di integrarsi nella società e di agire in modo efficace. È dominato da un senso di disagio esistenziale. È alienato dalla società industriale, dalla velocità, dall'energia dei tempi. A volte ha una mentalità un po' antica: non possiede la mentalità frenetica e veloce del suo tempo. Il professore annuncia che ritroveremo questa figura in Svevo. Ricorda la scheda: l'eroe lascia il posto all'inetto.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN6",
+  "testo": "Mettiamo a confronto il romanzo tradizionale e quello novecentesco. Parliamo di tre coordinate: tempo, spazio e focalizzazione. Primo, il tempo. Nel romanzo tradizionale segue una successione logica e cronologica. Nel romanzo novecentesco diventa interiore, e si frammenta nei flussi di coscienza e nei ricordi. Il professore ricorda il flusso di coscienza di Joyce. Secondo, lo spazio. Nel romanzo tradizionale ha un'oggettività realistica. Nel romanzo novecentesco è lo specchio degli stati d'animo dei personaggi. Il paesaggio chiama ed evoca ricordi, come già nel Romanticismo. Terzo, la focalizzazione. Nel romanzo tradizionale il narratore è un osservatore esterno. Nel romanzo novecentesco si sposta verso l'interno. I punti di vista sono parziali, multipli o legati alla voce narrante. Ripeti il confronto: tempo interiore, spazio come stato d'animo, focalizzazione interna.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN7",
+  "testo": "Analizziamo il profilo dell'inetto, la nuova figura del romanzo novecentesco. Leggi la frase sullo schermo e segui le parole evidenziate. Il professore lo descrive come un uomo che non trova il proprio posto. Prima parola: alienato. Si sente estraneo alla società in cui vive. Seconda parola: veloce. La società industriale è frenetica, piena di energia. Terza parola: incapace. L'inetto non riesce a integrarsi né ad agire con efficacia. Quarta parola: disagio. Vive un malessere esistenziale, che non riesce a superare. Spesso è un intellettuale, o un artista. Non si adatta alla mentalità faristica e velocistica dei suoi tempi. È l'opposto dell'eroe romantico, intraprendente e sicuro di sé. Il professore ricorda che questa figura avrà un grande impatto, e la ritroveremo in Svevo. Ripeti i quattro termini: alienato, veloce, incapace, disagio.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN8",
+  "testo": "Fissiamo le parole chiave del secondo argomento. Prima parola: inetto. È il protagonista incapace di integrarsi e di agire. Seconda parola: alienazione. È l'estraneità alla società industriale, veloce e frenetica. Terza parola: tempo interiore. Non è più cronologico, ma si frammenta in ricordi. Quarta parola: flusso di coscienza. È la tecnica che riproduce i pensieri nel loro scorrere. Quinta parola: spazio come stato d'animo. Il paesaggio riflette ciò che il personaggio sente. Sesta parola: focalizzazione interna. Il punto di vista coincide con quello del personaggio. Settima parola: intreccio che si disgrega. La trama tradizionale perde peso. Ripeti le parole, e per ognuna cerca un esempio.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN9",
+  "testo": "Ecco la mappa concettuale del secondo argomento: il romanzo del primo Novecento. Al centro c'è il romanzo novecentesco. Primo ramo: il contesto. Le nuove teorie e le avanguardie spingono a sperimentare. Si cercano soluzioni inedite nel linguaggio e nelle strutture narrative. Secondo ramo: la crisi dell'eroe. Si passa dal protagonista intraprendente all'inetto. È il passaggio da un uomo sicuro di sé a un uomo alienato. Terzo ramo: il tempo. Non è più cronologico, è interiore, frammentato. Lo scandiscono i ricordi e i flussi di coscienza. Quarto ramo: lo spazio. Perde l'oggettività realistica. Diventa lo specchio degli stati d'animo. Quinto ramo: la focalizzazione. Si sposta verso l'interno. Con punti di vista parziali, multipli o soggettivi. Sesto ramo: i maestri. Joyce, Mann, Proust, Kafka e Woolf. Sono gli autori dei prossimi argomenti. Ripeti la mappa, ramo per ramo.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN10",
+  "testo": "Apriamo la scheda di Marcel Proust e della sua monumentale opera in più volumi: Alla ricerca del tempo perduto. Il professore dice che Proust incarna magistralmente la transizione verso il modernismo. È influenzato dalle teorie di Bergson sul tempo. Per Proust il tempo è un flusso interiore. Non è qualcosa che passa fuori di noi: è dentro di noi, con un prima e un dopo. Il tema dell'opera è il recupero del passato. Si tratta di recuperare ciò che sembra sottratto dalla memoria. Il protagonista inizialmente conserva solo ricordi frammentari dell'infanzia a Combray. Poi un'esperienza gli restituisce il passato intero. Il professore la definisce un momento di pura illuminazione interiore. Si può dire che la ricerca è anche un gesto etico: salvare un ricordo dall'azione distruttiva degli anni e dell'oblio. Ricorda la scheda: autore, influenza, tema, protagonista.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN11",
+  "testo": "Mettiamo a confronto i due tipi di memoria di cui parla Proust. Il professore dice che qui sta il vero punto fondamentale. A sinistra, la memoria volontaria. A destra, la memoria involontaria. La memoria volontaria è il ricordo cosciente. È legata all'intelligenza e permette di richiamare i fatti passati in modo razionale. Ma restituisce un'immagine sbiadita e parziale, priva di spessore emotivo. La memoria involontaria si attiva inaspettatamente. Scatta per uno stimolo sensoriale, apparentemente insignificante: un sapore, un profumo, una sensazione visiva. E restituisce il passato nella sua interezza e autenticità. Come in un viaggio nel tempo, dentro di te. Il professore fa un esempio: un sapore che non provavi da vent'anni ti riporta a una sera lontana. Ricordi la persona, il luogo, il profumo. Questo è il modo in cui il tempo perduto viene ritrovato. Ripeti il confronto: intelligenza contro sensazione, immagine sbiadita contro verità.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN12",
+  "testo": "Analizziamo lo stile di Proust. Il professore dice che lo stile riflette perfettamente la complessità della sua ricerca. Leggi la frase sullo schermo e segui le parole evidenziate. Prima parola: digressioni. La prosa è ricca di ampie digressioni saggistiche. Seconda parola: ipotattica. La sintassi è fatta di periodi lunghi, con molte subordinate. Terza parola: analogie. Un elemento richiama un altro. Quarta parola: metafore. Servono a rendere ciò che sfugge alla descrizione diretta. Quinta parola: coscienza. Lo scopo è restituire la fitta rete di corrispondenze della coscienza. Si tratta di narrativa psicologica, nel senso più profondo. Lo stile imita il modo in cui il ricordo emerge: a ondate, senza ordine cronologico. Ripeti le cinque parole: digressioni, ipotattica, analogie, metafore, coscienza.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN13",
+  "testo": "Fissiamo le parole chiave del terzo argomento. Prima parola: tempo interiore. È il tempo come flusso dentro di noi, secondo Bergson. Seconda parola: memoria volontaria. È il ricordo cosciente, legato all'intelligenza. Terza parola: memoria involontaria. È il ricordo che scatta da uno stimolo sensoriale. Quarta parola: stimolo sensoriale. Un sapore, un profumo, una sensazione visiva. Quinta parola: tempo perduto. È il passato che sembrava sottratto dagli anni e dall'oblio. Sesta parola: illuminazione interiore. È il momento in cui passato e presente si fondono. Settima parola: ipotassi. È la sintassi dei lunghi periodi con molte subordinate. Ottava parola: narrativa psicologica. È il filone in cui si inserisce Proust. Ripeti le parole, e prova a spiegarle con un esempio.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN14",
+  "testo": "Ecco la mappa concettuale del terzo argomento: Marcel Proust e la memoria. Al centro c'è Alla ricerca del tempo perduto. Primo ramo: Proust e il modernismo. Una monumentale opera in più volumi. È la transizione verso il modernismo. Secondo ramo: Bergson. Il tempo è un flusso interiore. Non passa fuori di noi, ma dentro di noi. Terzo ramo: la memoria volontaria. Ricordo cosciente, legato all'intelligenza. Un'immagine sbiadita e parziale. Quarto ramo: la memoria involontaria. Attivata da un sapore, un profumo, una sensazione. Restituisce il passato nella sua interezza e verità. Quinto ramo: il tempo ritrovato. Un viaggio dentro di noi. Una illuminazione che salva il passato dall'oblio. Sesto ramo: lo stile. Digressioni saggistiche, ipotassi, analogie e metafore. Per restituire la complessità della coscienza. Ripeti la mappa, ramo per ramo.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN15",
+  "testo": "Passiamo a Franz Kafka. Il professore lo colloca tecnicamente nell'impero austro-ungarico, a Praga. Kafka propone una prospettiva radicalmente diversa e angosciante. La sua è la narrativa dell'assurdo. Con l'assurdo narrativizzato vuole raccontare l'assurdo dell'esistenza umana e della società che abbiamo costruito. La sua opera scava nei temi della colpa. Poi dell'alienazione, del mondo che non ci appartiene. E dell'impossibilità di comunicare. Risente del complesso rapporto conflittuale con la figura paterna. Il racconto più importante è La metamorfosi. Gregor Samsa si risveglia trasformato in un insetto gigantesco. Non sa perché è successo. Ricorda la scheda: Praga, assurdo, colpa, alienazione, padre.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN16",
+  "testo": "Analizziamo l'effetto di straniamento ne La metamorfosi. Leggi la frase sullo schermo e segui le parole evidenziate. Il racconto comincia con un risveglio. Prima parola: impossibile. Un uomo si trasforma in un insetto gigantesco. Seconda parola: naturalezza. Il narratore lo presenta con assoluta naturalezza. Il professore parla di una tecnica di inversione. Terza parola: stupore. Non c'è nessuno stupore, né nel narratore né nel protagonista. Gregor si preoccupa subito delle meschine conseguenze materiali sul lavoro. Quarta parola: mostruoso. Normale e mostruoso si mescolano. I fatti impossibili sono messi sullo stesso piano della logica quotidiana. Nel lettore nasce un profondo effetto di straniamento. L'assurdo diventa ancora più inquietante. Ripeti i quattro termini: impossibile, naturalezza, stupore, mostruoso.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN17",
+  "testo": "Chiediamoci che cosa significa la metamorfosi di Gregor. Il professore la definisce la materializzazione della colpa. La trasformazione fisica non è una scelta. È la manifestazione visibile dell'inettitudine di Gregor. È anche la manifestazione dei suoi profondi sensi di colpa interiori, rispetto alle aspettative sociali e familiari. Gregor si sente un essere inutile, e la sua svalutazione diventa corpo: un insetto. Il professore lo chiama una specie di mega scarafaggio. Per questo l'assurdo non è un incidente: è il segno di una condizione. Ricorda la scheda: la metamorfosi significa colpa e inettitudine.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN18",
+  "testo": "Ripercorriamo la vicenda di Gregor Samsa, momento per momento. All'inizio Gregor si risveglia trasformato in un insetto. Il narratore descrive il risveglio con assoluta naturalezza. Gregor non si stupisce: pensa alle conseguenze sul lavoro. Il lavoro è opprimente: Gregor vive un senso di inferiorità e di sottomissione. Il datore di lavoro è autoritario. Gregor è l'unico sostegno economico della famiglia, dopo il fallimento del padre. Poi perde la capacità di lavorare. L'iniziale disgusto dei familiari si trasforma in aperta ostilità. Gli altri prendono le distanze: è diventato un insetto, ma era la loro unica fonte di reddito. Il rapporto più violento è con il padre, che incarna un principio autoritario, oppressivo e intollerante. Gregor resta isolato nella sua stessa casa. La sua camera diventa una prigione. Ma è anche un rifugio dalle responsabilità e dalle ostilità del mondo esterno. Ricorda la sequenza: risveglio, lavoro, famiglia, padre, camera.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN19",
+  "testo": "Guardiamo il doppio ruolo della camera di Gregor. Il professore ricorda che la metamorfosi è anche una regressione forzata. È un ritorno nel mondo delle paure infantili. La camera, allora, ha due volti. Il primo volto è una prigione oppressiva. Gregor è chiuso, isolato, privato della sua vita di prima. La famiglia lo tiene lontano. Il secondo volto è un rifugio sicuro. Lì Gregor è al riparo dall'ostilità del mondo esterno. Lì non deve affrontare il lavoro e le responsabilità della vita adulta. Prigione e rifugio coesistono: è questa ambiguità che rende la camera così potente. Il professore ricorda anche lo stile: una descrizione precisa, quasi clinica. Una trasparenza formale che rende l'assurdo ancora più inquietante. Ripeti il confronto: prigione oppressiva, rifugio sicuro.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN20",
+  "testo": "Ecco la mappa concettuale del quarto argomento: Franz Kafka e l'assurdo. Al centro c'è La metamorfosi. Primo ramo: l'assurdo. Un fatto impossibile presentato come naturale. Gregor si trasforma in un insetto gigantesco. Secondo ramo: lo straniamento. Nessuno stupore, normale e mostruoso mescolati. Un effetto che inquieta il lettore. Terzo ramo: il significato. La materializzazione della colpa e dell'inettitudine. Un essere che si sente inutile diventa un insetto. Quarto ramo: il lavoro. Autoritarismo, inferiorità, sottomissione. Il datore di lavoro è oppressivo. Quinto ramo: la famiglia. Dal disgusto all'ostilità, fino all'isolamento. Il padre incarna un principio autoritario e intollerante. Sesto ramo: la camera. Prigione e rifugio insieme. È la regressione nelle paure infantili. Ripeti la mappa, ramo per ramo.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN21",
+  "testo": "Passiamo a Virginia Woolf. Il professore la definisce una delle voci più innovative del panorama britannico. È legata al sodalizio intellettuale del Bloomsbury Group. È una sperimentatrice formale, nei romanzi come Mrs Dalloway e Al faro. Scardina la sequenza cronologica degli eventi. Si concentra sulla ricostruzione dei processi mentali dei personaggi attraverso il tempo interiore. La trama quasi scompare. Il passato e il presente si mescolano: mentre il tempo passa, il pensiero resta fermo lì. La tecnica è quella del flusso di coscienza. Riproduce la serie casuale e disordinata di pensieri e associazioni mentali. Richiama Joyce, ma senza conservare tutte le sue scelte, come l'assenza di punteggiatura. Il professore ricorda il monologo di Molly, nell'Ulisse: non tutta l'opera è così. La realtà esteriore, per Woolf, ha valore solo come riflesso della coscienza individuale. Ricorda la scheda: Bloomsbury, romanzi, flusso di coscienza, realtà come riflesso.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN22",
+  "testo": "Passiamo al saggio più importante di Virginia Woolf: Una stanza tutta per sé, del millenovecentoventinove. Woolf affronta con rigore storico e critico la condizione delle donne nell'arte e nella letteratura. Denuncia l'assenza quasi totale di scrittrici nel corso della storia. E dice che non dipende da una mancanza di talento naturale. Dipende da precise barriere materiali ed economiche. Per scrivere, una donna ha bisogno di due cose. Prima: indipendenza economica, cinquecento sterline di rendita all'anno. Seconda: uno spazio proprio, una stanza tutta per sé. Nel Cinquecento, le donne erano costrette a matrimoni precoci. Erano relegate alla cura dei figli e della casa. Erano private di qualsiasi possibilità di istruzione. Il genio artistico, dice Woolf, non fiorisce nella servitù e nell'ignoranza. Così lo sviluppo di una produzione letteraria femminile era di fatto impossibile. Ricorda la tesi: senza indipendenza economica e senza uno spazio proprio, non c'è libertà creativa.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN23",
+  "testo": "Analizziamo la figura di Judith, inventata da Woolf per dimostrare la sua tesi. Leggi la frase sullo schermo e segui le parole evidenziate. Woolf immagina che Shakespeare abbia avuto una sorella. Prima parola: sorella. Judith è una sorella ipotetica di Shakespeare. Seconda parola: talento. Ha lo stesso straordinario talento del fratello. William può studiare, viaggiare e fare fortuna a Londra, perché è un maschio. Terza parola: ostacoli. Judith incontra solo ostacoli, di ordine pratico e sociale. Una donna sola non poteva muoversi liberamente. Lavorare a teatro avrebbe messo a repentaglio la sua castità, il bene più prezioso della reputazione femminile. A teatro, si pensava, gli attori fossero tutti dissoluti: un pregiudizio radicato per secoli. Judith cerca un riscatto, ma finisce per cedere alla protezione di un uomo. Resta incinta, e poi si toglie la vita. Quarta parola: suicidio. È la fine di una donna di talento, schiacciata dai vincoli sociali. Ripeti i quattro termini: sorella, talento, ostacoli, suicidio.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN24",
+  "testo": "Chiediamoci da dove nascono questi pregiudizi. Woolf parla di un profondo rigorismo morale. I comportamenti repressivi nei confronti delle donne hanno radici antiche. E prolungano i loro effetti nel tempo, fino al ventesimo secolo. La disparità di genere persiste. Persiste anche la mentalità patriarcale. Su che cosa si fonda? Sul bisogno psicologico degli uomini di sentirsi superiori. Per affrontare le dure lotte della vita, l'uomo cerca una sicurezza immediata. La trova svalutando l'altro sesso, e considerandolo inferiore per natura. Il professore ricorda che questa riflessione unisce l'innovazione formale a una pionieristica denuncia sociale. Arte e libertà personale sono indissolubilmente legate alle strutture economiche e culturali del proprio tempo. Ricorda i passaggi: rigorismo morale, mentalità patriarcale, bisogno di superiorità.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN25",
+  "testo": "Fissiamo le parole chiave dell'ultimo argomento. Prima parola: Bloomsbury Group. È il sodalizio intellettuale a cui Woolf appartiene. Seconda parola: flusso di coscienza. È la tecnica che riproduce i pensieri nel loro disordine. Terza parola: tempo interiore. Il pensiero resta fermo mentre il tempo passa. Quarta parola: Mrs Dalloway. È uno dei romanzi sperimentali di Woolf. Quinta parola: indipendenza economica. È la prima condizione per la libertà creativa. Sesta parola: una stanza tutta per sé. È la seconda condizione: uno spazio proprio. Settima parola: Judith. È la sorella inventata di Shakespeare. Ottava parola: mentalità patriarcale. È la convinzione maschile di superiorità. Ripeti le parole, e collegale al romanzo o al saggio.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN26",
+  "testo": "Ecco la mappa concettuale del quinto argomento: Virginia Woolf. Al centro c'è Virginia Woolf, una delle voci più innovative del Novecento britannico. Primo ramo: il gruppo. Il Bloomsbury Group, un sodalizio intellettuale. Una scrittrice sperimentatrice. Secondo ramo: i romanzi. Mrs Dalloway e Al faro. La trama quasi scompare. Terzo ramo: il flusso di coscienza. Pensieri e associazioni nel loro disordine. La realtà esteriore è un riflesso della coscienza. Quarto ramo: il saggio. Una stanza tutta per sé, del millenovecentoventinove. Indipendenza economica e uno spazio proprio. Quinto ramo: Judith. La sorella inventata di Shakespeare. Il talento schiacciato dai vincoli sociali. Sesto ramo: il patriarcato. La mentalità di superiorità, dal bisogno psicologico degli uomini. Una pionieristica denuncia sociale. Ripeti la mappa, ramo per ramo.",
+  "lingua": "it"
+ },
+ {
+  "nome": "ANF",
+  "testo": "Concludiamo con la mappa di tutta la lezione: narrativa e saggistica del primo Novecento. Al centro c'è la rivoluzione del romanzo novecentesco. Primo ramo: la crisi delle certezze. Nietzsche, Bergson, Freud, Einstein. È la fine della fiducia nel Positivismo. Secondo ramo: il nuovo romanzo. L'inetto, il tempo interiore, lo spazio come stato d'animo. La focalizzazione si sposta all'interno. Terzo ramo: Proust. La memoria volontaria e quella involontaria. Il tempo perduto si ritrova da uno stimolo sensoriale. Quarto ramo: Kafka. L'assurdo, lo straniamento, la metamorfosi come colpa. Il lavoro, la famiglia, la camera. Quinto ramo: Woolf. Il flusso di coscienza e la soggettività della scrittura. La realtà come riflesso della coscienza. Sesto ramo: Una stanza tutta per sé. Indipendenza economica, Judith, la mentalità patriarcale. Guarda la mappa intera: è il filo di tutta la lezione. Prima del glossario, prova a ripercorrerla con parole tue.",
+  "lingua": "it"
+ }
+]
