@@ -3,7 +3,7 @@
  "parti": {
   "1": {
    "titolo": "Leonardo Sciascia",
-   "stato": "IN_MONTAGGIO",
+   "stato": "FERMA",
    "voci": "kore",
    "quiz_ok": "si",
    "fermi_ok": "si",
@@ -250,7 +250,7 @@
    "t_compiti": 1426.402
   }
  },
- "manca": "",
+ "manca": "Voci Kore AN* non ancora arrivate (testi inviati 22:25, ramo voci-letteratura-V-lez24). Tagli video e dispensa pronti; riprendo appena le voci sono nel ramo.",
  "serve_master": [
   {
    "quando": "14/11 07:55",
@@ -295,5 +295,5 @@
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 24",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 23:07:23"
+ "aggiornato": "2026-11-14 23:37:40"
 }
