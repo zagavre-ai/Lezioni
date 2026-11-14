@@ -1,0 +1,232 @@
+[
+ {
+  "nome": "MAP1",
+  "testo": "La mappa del Sessantotto. Primo ramo: le radici del malcontento, con un boom economico ormai in esaurimento. Secondo ramo: la scuola di massa, che però resta inadeguata e autoritaria. Terzo ramo: la protesta degli studenti, con le occupazioni di università e licei. Quarto ramo: la richiesta di un mondo nuovo, con l'antimperialismo e l'opposizione alla guerra del Vietnam.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MAP2",
+  "testo": "La mappa dell'Autunno caldo e delle riforme. Primo ramo: nel millenovecentosessantanove studenti e operai si uniscono in una stessa battaglia. Secondo ramo: le richieste degli operai, cioè salari più alti, più diritti sindacali e più tutele. Terzo ramo: lo Statuto dei lavoratori, approvato nel maggio millenovecentosettanta. Quarto ramo: le Regioni, previste dalla Costituzione e finalmente attuate. Quinto ramo: la scuola e l'università, con i consigli studenteschi e l'accesso libero agli studi universitari.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MAP3",
+  "testo": "La mappa degli anni di piombo. Primo ramo: la violenza come arma politica, che negli anni Settanta diventa una spirale eversiva. Secondo ramo: la strategia della tensione, con cui il terrorismo neofascista vuole destabilizzare lo Stato democratico. Terzo ramo: le stragi di destra, da Piazza Fontana a Milano fino alla stazione di Bologna. Quarto ramo: il terrorismo di estrema sinistra delle Brigate Rosse, che colpisce i simboli dello Stato.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MAP4",
+  "testo": "La mappa del caso Moro. Primo ramo: l'agguato di via Fani, il sedici marzo millenovecentosettantotto, con i cinque agenti della scorta uccisi. Secondo ramo: i cinquantacinque giorni di prigionia, con lo Stato che sceglie la linea della fermezza. Terzo ramo: il tragico epilogo del nove maggio, in via Caetani a Roma. Quarto ramo: la reazione democratica, che unisce i partiti e avvia il declino del terrorismo.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MAP5",
+  "testo": "La mappa delle conquiste sociali e della crisi. Primo ramo: l'emancipazione femminile, una svolta per i diritti delle donne. Secondo ramo: il divorzio. Nel referendum del millenovecentosettantaquattro vincono i no, e la legge resta. Terzo ramo: il nuovo diritto di famiglia e la tutela della maternità. Quarto ramo: la crisi del petrolio del millenovecentosettantatré, con le domeniche a piedi. Quinto ramo: la stagflazione, con un'inflazione che supera il venti per cento. Sesto ramo: la Terza Italia, con i distretti e le piccole imprese del Centro-Nordest.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MAP6",
+  "testo": "La mappa degli anni Ottanta. Primo ramo: il riflusso. Dopo le passioni collettive, conta il benessere personale. Secondo ramo: la svolta sindacale del millenovecentottanta, con la marcia dei quarantamila a Torino. Terzo ramo: lo scandalo della loggia Pi Due, scoperta nel millenovecentottantuno. Quarto ramo: l'attacco della mafia, con l'omicidio del generale Carlo Alberto Dalla Chiesa. Quinto ramo: il Pentapartito e i governi di Bettino Craxi. Sesto ramo: la ripresa economica, accompagnata però da un forte aumento del debito pubblico.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MAP7",
+  "testo": "La mappa di Tangentopoli. Primo ramo: la fine delle ideologie dopo il crollo del blocco sovietico, con l'ascesa della Lega Nord. Secondo ramo: l'inchiesta Mani Pulite del millenovecentonovantadue, che svela un sistema di corruzione. Terzo ramo: l'attacco di Cosa Nostra, con le stragi di Capaci e di via D'Amelio. Quarto ramo: il crollo della Prima Repubblica, con la fine della Democrazia Cristiana e del Partito Socialista.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MAP8",
+  "testo": "La mappa della transizione. Primo ramo: la spinta verso il maggioritario, con il referendum dell'aprile millenovecentonovantatré. Secondo ramo: la legge Mattarella, un sistema misto: settantacinque per cento maggioritario e venticinque per cento proporzionale. Terzo ramo: i governi tecnici, affidati a figure indipendenti di alto profilo. Quarto ramo: il governo Ciampi del millenovecentonovantatré, con gli accordi con i sindacati per frenare l'inflazione.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MAPF1",
+  "testo": "La mappa di questa prima parte. Il Sessantotto: studenti e operai scendono in piazza. Le riforme: lo Statuto dei lavoratori e le Regioni. Gli anni di piombo: le stragi neofasciste, da Piazza Fontana a Bologna. Le Brigate Rosse, che colpiscono i simboli dello Stato. Il caso Moro: cinquantacinque giorni di prigionia e la linea della fermezza.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MAPF2",
+  "testo": "La mappa di tutta la lezione. Il Sessantotto, con l'Autunno caldo e le riforme. Gli anni di piombo, con le stragi e il caso Moro. Le conquiste sociali e la crisi energetica. Gli anni Ottanta, dal riflusso al Pentapartito di Craxi. Tangentopoli e il crollo dei partiti storici. La transizione verso il maggioritario e il governo Ciampi.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN1",
+  "testo": "Dalla piazza alle riforme. Nel millenovecentosessantanove, con l'Autunno caldo, gli operai delle grandi fabbriche del Nord avviano scioperi di massa per il rinnovo dei contratti. Nel maggio millenovecentosettanta lo Stato approva lo Statuto dei lavoratori, per tutelare i diritti nelle fabbriche. Nello stesso anno nascono le Regioni a statuto ordinario, per decentrare il potere.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN2",
+  "testo": "Le stragi neofasciste. Il dodici dicembre millenovecentosessantanove esplode una bomba nella Banca Nazionale dell'Agricoltura, in Piazza Fontana a Milano. Nel maggio millenovecentosettantaquattro una strage colpisce Piazza della Loggia, a Brescia. Poi le bombe sul treno Italicus. Il due agosto millenovecentottanta la strage della stazione di Bologna chiude il decennio.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN4",
+  "testo": "Il caso Moro in numeri. Il sedici marzo millenovecentosettantotto, nel giorno dell'insediamento di un nuovo governo, le Brigate Rosse rapiscono Aldo Moro, presidente della Democrazia Cristiana. Cinque: gli agenti della scorta uccisi nell'agguato. Cinquantacinque: i giorni di prigionia, che paralizzano e sconvolgono il Paese. Il nove maggio il corpo di Moro viene fatto ritrovare nel bagagliaio di un'auto, in via Caetani a Roma.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN5",
+  "testo": "Le leggi che cambiano la società. Nel millenovecentosettanta viene approvata la legge sul divorzio. Nel millenovecentosettantaquattro un referendum chiede di abrogarla, ma vincono nettamente i no: è una sconfitta per il fronte conservatore e per la Chiesa. Nel millenovecentosettantacinque la riforma del diritto di famiglia cancella la figura del capofamiglia. Nel millenovecentosettantotto una legge regola l'interruzione volontaria di gravidanza e mette al primo posto la salute della donna.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN6",
+  "testo": "Dalla guerra del Kippur al carovita. Nel millenovecentosettantatré scoppia la guerra arabo-israeliana del Kippur. I paesi produttori tagliano le forniture di greggio. I prezzi dell'energia salgono in tutta Europa. Il governo vieta di circolare in auto la domenica: sono le domeniche a piedi. Arriva la stagflazione: la produzione si blocca e l'inflazione supera il venti per cento.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN7",
+  "testo": "Tre parole dell'economia. Stagflazione: il blocco della produzione unito a un'inflazione record. Scala mobile: l'adeguamento automatico dei salari all'aumento del costo della vita. Terza Italia: il nuovo modello dei distretti industriali e delle piccole imprese del Centro-Nordest.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN8",
+  "testo": "Gli anni Ottanta, anno per anno. Nel millenovecentottanta, a Torino, i quadri della Fiat sfilano contro gli scioperi: è la marcia dei quarantamila. Nel millenovecentottantuno viene scoperta la loggia Pi Due, una setta massonica segreta guidata da Licio Gelli. Nel millenovecentottantadue la mafia uccide a Palermo il generale Carlo Alberto Dalla Chiesa. Nel millenovecentottantatré Bettino Craxi, segretario del Partito Socialista, diventa Presidente del Consiglio. Nel millenovecentottantacinque, durante il sequestro della nave Achille Lauro, Craxi si oppone agli Stati Uniti a Sigonella.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN9",
+  "testo": "La crescita degli anni Ottanta. Il Pentapartito garantisce stabilità politica. Il governo Craxi imprime una forte spinta di modernizzazione. Nella seconda metà del decennio l'economia cresce con forza. Aumentano anche i consumi. Ma cresce in modo pericoloso il debito pubblico.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN10",
+  "testo": "Il crollo di un sistema. All'inizio degli anni Novanta crolla il blocco sovietico e i vecchi equilibri politici svaniscono. Nel millenovecentonovantadue i magistrati di Milano avviano l'inchiesta Mani Pulite. A maggio la mafia uccide il giudice Giovanni Falcone nella strage di Capaci. A luglio, in via D'Amelio, viene ucciso il giudice Paolo Borsellino.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN11",
+  "testo": "I protagonisti. Giovanni Falcone, giudice, assassinato dalla mafia nella strage di Capaci. Paolo Borsellino, giudice, assassinato nella strage di via D'Amelio. Antonio Di Pietro, il magistrato simbolo delle udienze di Tangentopoli.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN12",
+  "testo": "La nuova legge elettorale. Nell'aprile del millenovecentonovantatré un referendum chiede di abbandonare il sistema proporzionale. Con la legge Mattarella, il settantacinque per cento dei seggi è assegnato con il maggioritario uninominale. Il restante venticinque per cento con il proporzionale. L'obiettivo: coalizioni stabili e alternanza democratica.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN13",
+  "testo": "Le radici del malcontento. Alla fine degli anni Sessanta il miracolo economico è ormai in esaurimento. Il boom non è stato omogeneo: ha premiato le città e spopolato le campagne. Con la scuola media unica cresce la popolazione studentesca, ma scuole e programmi restano inadeguati e autoritari. Gli studenti occupano le facoltà universitarie, e poi i licei. Non mancano gli scontri con le forze dell'ordine, come la battaglia di Valle Giulia a Roma. Gli studenti rifiutano i valori tradizionali della società borghese.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN14",
+  "testo": "Che cosa cambia dopo il Sessantotto. Nella scuola nascono i consigli e le elezioni degli studenti, e spariscono le punizioni corporali. L'accesso all'università diventa libero: anche chi viene da un istituto tecnico può iscriversi. Nel maggio millenovecentosettanta lo Statuto dei lavoratori garantisce più diritti e più tutele. Lo Stato attua finalmente le Regioni previste dalla Costituzione del millenovecentoquarantotto.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN16",
+  "testo": "Le Brigate Rosse. Il fondatore è Renato Curcio, uno studente di sociologia. Dopo il suo arresto il comando passa a Mario Moretti, un operaio, che guida una fase più brutale. Colpiscono magistrati, giornalisti e poliziotti: il giudice Sossi viene sequestrato e poi liberato.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN17",
+  "testo": "Moro, l'uomo del dialogo. Negli anni Sessanta Aldo Moro aveva aperto il dialogo con i socialisti. Negli anni Settanta cerca il dialogo con i comunisti di Enrico Berlinguer, per affrontare la crisi. Le Brigate Rosse lo sequestrano anche per impedire questo accordo.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN18",
+  "testo": "Il Sessantotto in Italia e nel mondo. Negli Stati Uniti si protesta contro la guerra del Vietnam. In Italia la contestazione comincia già nel millenovecentosessantasette, con le occupazioni all'università di Roma. Nel millenovecentosessantotto i sovietici invadono Praga. A Parigi gli studenti occupano il Quartiere Latino. A Roma scoppia la battaglia di Valle Giulia, davanti alla facoltà di Architettura.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN19",
+  "testo": "La loggia Pi Due. La guida Licio Gelli, che da giovane era stato volontario fascista nella guerra di Spagna. Tra gli iscritti ci sono militari, uomini dei servizi segreti, giornalisti e imprenditori. Molte indagini sulle stragi vengono ostacolate e depistate: la loggia è accusata di un progetto eversivo.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN20",
+  "testo": "Il piano della strategia della tensione. I neofascisti colpiscono la gente comune con bombe indiscriminate. Molte indagini vengono ostacolate e depistate. L'obiettivo è diffondere la paura nel Paese. E convincere l'opinione pubblica che i governi democratici sono troppo deboli. Per chiedere infine una soluzione autoritaria, come in Grecia, in Spagna e in Portogallo.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN21",
+  "testo": "Dopo il caso Moro. L'uccisione di Aldo Moro provoca un profondo sgomento. L'insurrezione degli operai sperata dai brigatisti non avviene. Tutto il Paese è sconvolto. Sindacati e partiti, anche quelli di sinistra, condannano il terrorismo. Il Parlamento approva leggi speciali e i brigatisti vengono arrestati.",
+  "lingua": "it"
+ },
+ {
+  "nome": "GL1",
+  "testo": "Le parole chiave di questa parte. Autunno caldo: le grandi lotte operaie del millenovecentosessantanove. Statuto dei lavoratori: la legge che tutela i diritti nelle fabbriche. Anni di piombo: la stagione della violenza politica degli anni Settanta. Strategia della tensione: le stragi per destabilizzare lo Stato democratico. Linea della fermezza: nessuna trattativa con i terroristi. Solidarietà nazionale: i partiti uniti nella difesa delle istituzioni.",
+  "lingua": "it"
+ },
+ {
+  "nome": "GL2",
+  "testo": "Le parole chiave di questa parte. Stagflazione: il blocco della produzione unito a un'inflazione record. Scala mobile: i salari adeguati al costo della vita. Riflusso: il passaggio dalla piazza alla dimensione privata. Pentapartito: l'alleanza di cinque partiti che governa negli anni Ottanta. Tangentopoli: il sistema di corruzione tra imprenditori e partiti. Governo tecnico: un governo guidato da figure indipendenti.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R1",
+  "testo": "Ripassiamo. Alla fine degli anni Sessanta il boom economico è in esaurimento e la scuola di massa resta autoritaria. Gli studenti occupano università e licei e rifiutano i valori della società borghese. La protesta si lega ai grandi temi globali, come l'opposizione alla guerra del Vietnam.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R2",
+  "testo": "Ripassiamo. Nell'Autunno caldo del millenovecentosessantanove gli operai delle grandi fabbriche chiedono salari più alti e più diritti. Nel millenovecentosettanta arrivano lo Statuto dei lavoratori e le Regioni. Scuola e università diventano più democratiche.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R3",
+  "testo": "Ripassiamo. Negli anni Settanta la tensione sociale degenera nella violenza politica: sono gli anni di piombo. Il terrorismo neofascista compie stragi come Piazza Fontana e la stazione di Bologna. Le Brigate Rosse colpiscono i simboli dello Stato.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R4",
+  "testo": "Ripassiamo. Il sedici marzo millenovecentosettantotto le Brigate Rosse rapiscono Aldo Moro e uccidono la sua scorta. Lo Stato non tratta con i terroristi: è la linea della fermezza. La morte di Moro unisce i partiti nella difesa delle istituzioni.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R5",
+  "testo": "Ripassiamo. Gli anni Settanta sono una svolta per i diritti delle donne: divorzio, diritto di famiglia, tutela della maternità. La crisi del petrolio porta l'austerity e la stagflazione. La scala mobile protegge i salari, mentre nasce la Terza Italia delle piccole imprese.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R6",
+  "testo": "Ripassiamo. Negli anni Ottanta la società passa dalla piazza al privato: è il riflusso. La marcia dei quarantamila, la loggia Pi Due e l'offensiva della mafia segnano il decennio. Con il Pentapartito e Craxi l'economia cresce, ma cresce anche il debito pubblico.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R7",
+  "testo": "Ripassiamo. Nel millenovecentonovantadue l'inchiesta Mani Pulite svela Tangentopoli, un sistema di corruzione tra imprenditori e partiti. La mafia uccide i giudici Falcone e Borsellino. I partiti storici, come la Democrazia Cristiana e il Partito Socialista, si dissolvono.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R8",
+  "testo": "Ripassiamo. Nel millenovecentonovantatré un referendum apre la strada al sistema maggioritario. La legge Mattarella introduce un sistema misto. Il governo tecnico di Carlo Azeglio Ciampi firma accordi con i sindacati per frenare l'inflazione.",
+  "lingua": "it"
+ },
+ {
+  "nome": "BENV1",
+  "testo": "Benvenuta e benvenuto alla lezione di Storia. Oggi il professor Mazzotti ci accompagna nell'Italia dal Sessantotto alla crisi della Prima Repubblica. In questa prima parte vedremo il Sessantotto, l'Autunno caldo, gli anni di piombo e il caso Moro. Alla fine di ogni argomento ti aspetta un breve quiz.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RF1",
+  "testo": "Ripasso finale. Tra la fine degli anni Sessanta e gli anni Settanta l'Italia cambia profondamente. Studenti e operai ottengono nuove riforme, ma il Paese vive anche la stagione del terrorismo, fino al caso Moro.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RF2",
+  "testo": "Ripasso finale. Dagli anni Settanta ai primi anni Novanta l'Italia conquista nuovi diritti e attraversa crisi economiche e politiche. Tangentopoli chiude la Prima Repubblica e apre la strada al sistema maggioritario.",
+  "lingua": "it"
+ },
+ {
+  "nome": "FIN1",
+  "testo": "Per oggi è tutto. Nella seconda parte vedremo le conquiste sociali, la crisi energetica, gli anni Ottanta e la fine della Prima Repubblica. Ti aspetto.",
+  "lingua": "it"
+ },
+ {
+  "nome": "FIN2",
+  "testo": "Per oggi è tutto. Abbiamo seguito l'Italia dal Sessantotto alla crisi della Prima Repubblica. Ora mettiti alla prova con la verifica finale e con i compiti. Ti aspetto.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RIP2",
+  "testo": "Bentornata e bentornato. Nella prima parte abbiamo visto il Sessantotto, l'Autunno caldo e le riforme. Poi gli anni di piombo, con le stragi e il terrorismo delle Brigate Rosse, fino al caso Moro. Ora vediamo le conquiste sociali, la crisi energetica, gli anni Ottanta e la fine della Prima Repubblica.",
+  "lingua": "it"
+ },
+ {
+  "nome": "COMPI",
+  "testo": "Ora tocca a te: ecco i compiti.",
+  "lingua": "it"
+ }
+]
