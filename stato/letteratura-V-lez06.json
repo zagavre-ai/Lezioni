@@ -394,6 +394,10 @@
   {
    "quando": "14/11 05:10",
    "testo": "MIGLIORAMENTO: controllo_finale.py controlla ancora 2560x1440 (con il 1080p dà NO): uso una copia che accetta 1920x1080. Il docente mono messo su due canali pesa +3 LU: va messo a 0,707 per canale (o volume16.py sul finale)."
+  },
+  {
+   "quando": "14/11 23:09",
+   "testo": "R4: voci NUOVE da generare (nomi AP*/MP*) in scambio/letteratura-V-lez06/testi_voci.json sul ramo voci-letteratura-V-lez06 (le voci vecchie sono gia' fatte, non rigenerarle). Servono per rifare la lezione."
   }
  ],
  "domande_sara": [],
@@ -430,5 +434,5 @@
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 6",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 22:40:10"
+ "aggiornato": "2026-11-14 23:09:14"
 }
