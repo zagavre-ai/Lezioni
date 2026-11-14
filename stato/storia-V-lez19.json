@@ -2,20 +2,25 @@
  "tag": "storia-V-lez19",
  "parti": {
   "1": {
-   "stato": "IN_MONTAGGIO"
+   "stato": "IN_MONTAGGIO",
+   "titolo": "L'Italia dal '68 alla crisi della Prima Repubblica · Parte 1"
   }
  },
- "manca": "",
+ "manca": "COMPITI_MANCANTI; test finale: PROPOSTA_DA_VALIDARE (zip 008 non caricato)",
  "serve_master": [],
  "domande_sara": [],
  "note": [
   {
    "quando": "14/11 11:38",
    "testo": "IN_MONTAGGIO · Storia V · chat S2"
+  },
+  {
+   "quando": "14/11 11:54",
+   "testo": "Video 79:56 → 2 Parti (argomenti 1-4 / 5-8). Testi voci (46) e quiz sul ramo voci-storia-V-lez19, in attesa delle voci Kore"
   }
  ],
  "materia": "Storia",
  "lezione": "19",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 11:38:37"
+ "aggiornato": "2026-11-14 11:54:52"
 }
