@@ -463,10 +463,14 @@
   {
    "quando": "14/11 08:38",
    "testo": "controllo_finale: ESITO: TUTTO OK"
+  },
+  {
+   "quando": "14/11 08:38",
+   "testo": "Chat D2: PRONTA. Consegna sul ramo consegna-letteratura-V-lez18 (video in 2 pezzi + sha256, .vtt, quiz, test, dispensa A4, scheda, testo YouTube, timeline). t_verifica 2269.96 s, t_compiti 2288.26 s. Durata 38:14,6. Senza videodispensa: card ricopiate dalle slide del video; le pagine del libro (poesie) non sono mostrate perché non ci sono in alta risoluzione: i testi sono riassunti nelle card."
   }
  ],
  "materia": "Letteratura italiana · V anno",
  "lezione": "Lezione 18",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 08:38:30"
+ "aggiornato": "2026-11-14 08:38:32"
 }
