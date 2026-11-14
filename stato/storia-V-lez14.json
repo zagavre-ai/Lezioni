@@ -575,10 +575,14 @@
   {
    "quando": "14/11 15:02",
    "testo": "rev. 2 (14/11 sera): corrette le etichette sovrapposte al testo negli approfondimenti AN5 e AN14 (ricodificati solo i GOP coinvolti, stessa durata e stessi fotogrammi, quiz ricontrollati a 0,0 s). Ramo consegna aggiornato."
+  },
+  {
+   "quando": "14/11 15:46",
+   "testo": "Compiti del docente arrivati (zip del 14/11 sera): aggiunti alla consegna come Storia_Lez14_compiti_docente.pdf. Niente più COMPITI_MANCANTI."
   }
  ],
  "materia": "Storia V",
  "lezione": "Lezione 14 · La guerra fredda (1945-1961)",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 15:02:08"
+ "aggiornato": "2026-11-14 15:46:54"
 }
