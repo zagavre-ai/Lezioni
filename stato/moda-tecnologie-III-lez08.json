@@ -5,11 +5,16 @@
    "stato": "IN_MONTAGGIO"
   }
  },
- "manca": "",
- "serve_master": [],
+ "manca": "COMPITI_MANCANTI",
+ "serve_master": [
+  {
+   "quando": "14/11 22:19",
+   "testo": "Voci Kore: testi_voci.json (20 voci L8_*) e quiz.json sul ramo voci-moda-tecnologie-III-lez08. Compiti: file Compiti assente nella release (COMPITI_MANCANTI)."
+  }
+ ],
  "domande_sara": [],
  "note": [],
  "materia": "Moda · Tecnologie III · chat TEC",
  "lezione": "Lezione 8",
- "aggiornato": "2026-11-14 22:04:02"
+ "aggiornato": "2026-11-14 22:19:03"
 }
