@@ -2,12 +2,12 @@
  "tag": "letteratura-V-lez05",
  "parti": {
   "1": {
-   "stato": "IN_MONTAGGIO",
+   "stato": "PRONTA",
    "titolo": "Giovanni Verga",
    "voci": "kore",
    "quiz_ok": "si",
    "fermi_ok": "si",
-   "sub_ok": "no",
+   "sub_ok": "si",
    "video": "Letteratura_Lez5_Parte1_1080p.mp4",
    "durata_s": 3417.7,
    "durata": "56:57.7",
@@ -405,10 +405,14 @@
   {
    "quando": "14/11 05:24",
    "testo": "controllo_finale: ESITO: DA SISTEMARE: sottotitoli"
+  },
+  {
+   "quando": "14/11 05:29",
+   "testo": "chat B2 · PRONTA. Misurato: 56:57.7, 102532 fotogrammi (attesi 102532), 248,9 MB, 1920x1080, parlato -15,9 LUFS, scatto Quiz 5/5 entro 0,003 s, nessun fermo del docente. t_verifica 3399.233 s, t_compiti 3412.733 s (intro Compiti a 3409.233 s). Sottotitoli Whisper base, nomi/date corretti a mano (es. 1840, 1893, Malpelo, Mazzarò): il controllo automatico dell'attacco dà 40% (soglia di energia sopra la voce bassa del docente, non affidabile qui); controllo a campione con trascrizione di 16 blocchi: 15 su 16 partono sulla parola giusta entro 0,5 s. Sincronia slide: la card si accende sul tempo della parola chiave trascritta (scarto 0 per costruzione), verificata a campione su 4 punti (Giurisprudenza, Milano, impersonalità, fiumana). Animazioni: titoli animati, schemi di ripasso e glossario a comparsa sincronizzati con la voce."
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 5",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 05:24:44"
+ "aggiornato": "2026-11-14 05:29:06"
 }
