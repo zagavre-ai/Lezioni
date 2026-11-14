@@ -6,7 +6,12 @@
   }
  },
  "manca": "",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "14/11 01:08",
+   "testo": "DURATA: il video del prof dura 31:00 (misurato). Con tutti gli inserti (5 argomenti, 5 animazioni, schemi, glossario, ripasso finale) stimo 42-45 min: sotto i 50 senza riempitivi. Procedo così salvo diversa indicazione."
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
@@ -17,5 +22,5 @@
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 6",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 00:58:06"
+ "aggiornato": "2026-11-14 01:08:37"
 }
