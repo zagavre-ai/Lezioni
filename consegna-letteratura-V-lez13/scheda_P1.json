@@ -1,0 +1,192 @@
+{
+ "materia": "Letteratura italiana (V)",
+ "titolo": "Italo Svevo · Parte 1",
+ "durata_s": 2589.27,
+ "argomenti": [
+  {
+   "n": 1,
+   "titolo": "L'inetto e il pensiero sveviano",
+   "inizio_s": 227.848,
+   "quiz_s": 1437.548
+  },
+  {
+   "n": 2,
+   "titolo": "Una vita e Senilità",
+   "inizio_s": 1442.848,
+   "quiz_s": 2108.915
+  },
+  {
+   "n": 3,
+   "titolo": "La coscienza di Zeno",
+   "inizio_s": 2114.215,
+   "quiz_s": 2577.582
+  }
+ ],
+ "quiz": {
+  "Q1": {
+   "title": "Quiz 1 · L'inetto e il pensiero sveviano",
+   "items": [
+    {
+     "p": "Chi è l'inetto nell'opera di Svevo?",
+     "a": "Un uomo incapace di adattarsi alla società borghese, paralizzato dai conflitti interiori",
+     "w": [
+      "Un eroe che domina la realtà con la forza della volontà",
+      "Un poeta che si isola nel culto della bellezza",
+      "Un contadino che lotta contro la miseria"
+     ],
+     "e": "è il nuovo modello umano introdotto da Svevo."
+    },
+    {
+     "p": "Che cosa unisce Svevo alla cultura letteraria?",
+     "a": "Una solida formazione scientifico-commerciale",
+     "w": [
+      "Una lunga carriera militare",
+      "Gli studi di teologia",
+      "L'attività di attore teatrale"
+     ],
+     "e": "per questo si distacca dalla figura del letterato tradizionale."
+    },
+    {
+     "p": "In quale città si sviluppa la fisionomia intellettuale di Svevo?",
+     "a": "Trieste, città di confine aperta alle influenze mitteleuropee",
+     "w": [
+      "Roma, capitale del nuovo Regno",
+      "Firenze, centro della tradizione letteraria",
+      "Napoli, grande porto del Sud"
+     ],
+     "e": "Trieste è il contesto culturale decisivo."
+    },
+    {
+     "p": "Che cosa prende Svevo da Schopenhauer?",
+     "a": "Il pessimismo radicale e la teoria sulle illusioni umane",
+     "w": [
+      "La lotta per la vita e le leggi naturali",
+      "La critica ai valori borghesi",
+      "Il metodo della psicoanalisi"
+     ],
+     "e": "da Nietzsche prende la critica ai valori borghesi, da Darwin la lotta per la vita."
+    },
+    {
+     "p": "Come vede Svevo la psicoanalisi di Freud?",
+     "a": "Come uno strumento di indagine conoscitiva e narrativa, più che come una terapia",
+     "w": [
+      "Come l'unica cura efficace per la nevrosi",
+      "Come una teoria da rifiutare del tutto",
+      "Come un metodo per scrivere poesie"
+     ],
+     "e": "serve a smascherare la psiche."
+    }
+   ]
+  },
+  "Q2": {
+   "title": "Quiz 2 · Una vita e Senilità",
+   "items": [
+    {
+     "p": "Chi è il protagonista di Una vita (1892)?",
+     "a": "Alfonso Nitti, un modesto impiegato di banca",
+     "w": [
+      "Emilio Brentani, un letterato fallito",
+      "Zeno Cosini, un ricco commerciante",
+      "Il banchiere Maller"
+     ],
+     "e": "è un giovane intellettuale che finisce per suicidarsi."
+    },
+    {
+     "p": "Come è vissuta l'inettitudine in Una vita?",
+     "a": "Come inferiorità sociale, di fronte alla figura forte del banchiere Maller",
+     "w": [
+      "Come un dono che rende il protagonista superiore",
+      "Come una malattia del corpo",
+      "Come una scelta religiosa"
+     ],
+     "e": "Maller è il simbolo della forza, una figura di «padre»."
+    },
+    {
+     "p": "Che cosa fa il narratore in terza persona di Una vita?",
+     "a": "Interviene spesso per giudicare e smascherare le bugie del protagonista",
+     "w": [
+      "Racconta tutto in modo impersonale, senza mai giudicare",
+      "Lascia parlare solo il protagonista in prima persona",
+      "Si identifica completamente con il protagonista"
+     ],
+     "e": "corregge le auto-giustificazioni di Alfonso."
+    },
+    {
+     "p": "Perché l'esistenza di Emilio Brentani è «senile»?",
+     "a": "Ha solo 35 anni, ma vive una vita grigia, fatta di rinunce e paura della realtà",
+     "w": [
+      "Perché è molto anziano e malato",
+      "Perché vive in una casa di riposo",
+      "Perché rimpiange la giovinezza perduta in guerra"
+     ],
+     "e": "Senilità è del 1898."
+    },
+    {
+     "p": "Che cos'è l'ironia oggettiva di Senilità?",
+     "a": "Il narratore smonta gli alibi e le maschere che Emilio si costruisce",
+     "w": [
+      "Il protagonista prende in giro gli altri personaggi",
+      "Un linguaggio comico e dialettale",
+      "Un finale lieto e sorprendente"
+     ],
+     "e": "crea un contrasto tra le bugie del personaggio e la realtà dei fatti."
+    }
+   ]
+  },
+  "Q3": {
+   "title": "Quiz 3 · La coscienza di Zeno",
+   "items": [
+    {
+     "p": "Come è costruita La coscienza di Zeno (1923)?",
+     "a": "Come l'autobiografia di Zeno Cosini, scritta su invito del suo psicoanalista",
+     "w": [
+      "Come un diario di guerra",
+      "Come una raccolta di lettere tra due amanti",
+      "Come un romanzo in terza persona sulla vita di Trieste"
+     ],
+     "e": "lo psicoanalista è il Dottor S."
+    },
+    {
+     "p": "Perché il tempo del romanzo è «misto»?",
+     "a": "Perché non è lineare e segue il flusso della memoria",
+     "w": [
+      "Perché alterna giorni e notti in modo regolare",
+      "Perché racconta solo il futuro",
+      "Perché ogni capitolo dura un'ora"
+     ],
+     "e": "è una delle grandi innovazioni del romanzo."
+    },
+    {
+     "p": "Che cosa rappresenta l'«ultima sigaretta»?",
+     "a": "Il continuo rinvio di Zeno, segno della sua nevrosi",
+     "w": [
+      "La guarigione definitiva dal vizio",
+      "Un regalo del padre",
+      "Il titolo di un altro romanzo di Svevo"
+     ],
+     "e": "il fumo è uno dei temi chiave."
+    },
+    {
+     "p": "Perché Zeno è un narratore inattendibile?",
+     "a": "Le sue memorie sono piene di bugie inconsce e autogiustificazioni",
+     "w": [
+      "Perché non ricorda nulla del suo passato",
+      "Perché racconta in una lingua straniera",
+      "Perché riporta solo i fatti degli altri"
+     ],
+     "e": "si giustifica per sentirsi innocente."
+    },
+    {
+     "p": "Come si chiude il romanzo?",
+     "a": "Con la profezia di un ordigno che distruggerà la terra, cancellando ogni malattia",
+     "w": [
+      "Con la morte di Zeno in guerra",
+      "Con il matrimonio tra Zeno e Ada",
+      "Con la guarigione grazie alla psicoanalisi"
+     ],
+     "e": "Zeno si dice guarito per i successi commerciali, ma la vita è inquinata alle radici."
+    }
+   ]
+  }
+ }
+}
