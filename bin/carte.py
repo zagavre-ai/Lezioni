@@ -24,7 +24,10 @@ def f_segnaposto():
     print('segnaposto',len(TV))
 # ------------------------------------------------ schede scure del modello (titolo, quiz, fine)
 import dark
+import re as _re
+dark.CSS=_re.sub(r"@font-face\{[^}]*\}","",dark.CSS).replace("font-family:'BG'","font-family:'Bricolage Grotesque'").replace("font-family:'FG'","font-family:'Figtree'")
 dark.JS=dark.JS.replace("${[...'Lezione 1 · ¿De dónde eres?'].map","${[...(sp.kicker||'')].map").replace('style="font-size:150px">RESUMEN</div>','style="font-size:150px">${sp.t1||"RIEPILOGO"}</div>').replace('style="font-size:150px;color:#E3A95C">RIEPILOGO</div>','style="font-size:120px;color:#E3A95C">${sp.t2||""}</div>')
+dark.JS=dark.JS.replace('style="font-size:84px;color:#E3A95C;margin-top:10px">${sp.topic}','style="font-size:72px;line-height:1.08;max-width:1120px;color:#E3A95C;margin-top:10px">${sp.topic}')
 dark.JS=dark.JS.replace("${[...'Pausa del video · Quiz'].map","${[...(sp.kk||'Pausa del video · Quiz')].map").replace('Rispondi · premi <b class=cy>Check</b> · poi <b class=cy>Continua</b>','${sp.hint||"Rispondi · premi <b class=cy>Check</b> · poi <b class=cy>Continua</b>"}')
 def f_schede():
     os.makedirs(D+'dk',exist_ok=True);SP={}
@@ -70,6 +73,18 @@ def blocchi():
     return B
 def pron(s):  # nella grafica i nomi si scrivono giusti (le voci li hanno in grafia fonetica)
     for a,b in [('Uismàns','Huysmans'),('Uàild','Wilde'),('Dorian Grei','Dorian Gray'),('Dez Essànt','Des Esseintes'),('Zolà','Zola'),('Dèndi','Dandy'),('dèndi','dandy'),('Prust','Proust'),('Vulf','Woolf'),('Nìcce','Nietzsche'),('Bergsòn','Bergson'),('Fròid','Freud'),('Àinstain','Einstein'),('Giudit','Judith'),('Scespir','Shakespeare')]:s=s.replace(a,b)
+    U={'uno':1,'due':2,'tre':3,'tré':3,'quattro':4,'cinque':5,'sei':6,'sette':7,'otto':8,'nove':9,'dieci':10,'undici':11,'dodici':12,'tredici':13,'quattordici':14,'quindici':15,'sedici':16,'diciassette':17,'diciotto':18,'diciannove':19}
+    T={'venti':20,'vent':20,'trenta':30,'trent':30,'quaranta':40,'quarant':40,'cinquanta':50,'cinquant':50,'sessanta':60,'sessant':60,'settanta':70,'settant':70,'ottanta':80,'ottant':80,'novanta':90,'novant':90}
+    def n99(w):
+        if w=='':return 0
+        if w in U:return U[w]
+        for k in sorted(T,key=len,reverse=True):
+            if w.startswith(k) and (w[len(k):]=='' or w[len(k):] in U):return T[k]+(U[w[len(k):]] if w[len(k):] else 0)
+        return None
+    def yr(m):
+        v=n99(m.group(2));return str({'otto':1800,'nove':1900}[m.group(1)]+v) if v is not None else m.group(0)
+    s=re.sub(r'mille(otto|nove)cento([a-zé]*)',yr,s)
+    for a,b in [('1921, ventidue','1921-22'),('ventisette gennaio','27 gennaio'),('otto settembre','8 settembre'),('A B B A e C D D A','ABBA e CDDA'),('Viessò','Vieusseux')]:s=s.replace(a,b)
     for a,b in [('milleottocentoquarantotto','1848'),('milleottocentoottantaquattro','1884'),('milleottocentocinquantaquattro','1854'),('milleottocentonovantacinque','1895'),('millenovecentoventisei','1926'),('milleottocentosettantuno','1871'),('millenovecento','1900')]:s=s.replace(a,b)
     return s
 def f_inserti():

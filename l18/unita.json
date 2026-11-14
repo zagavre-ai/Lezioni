@@ -1,0 +1,386 @@
+[
+ {
+  "k": 1,
+  "t": "La vita",
+  "a": 73.0,
+  "b": 246.0,
+  "img": null,
+  "pages": [
+   [
+    {
+     "slide": 2,
+     "tit": "La vita",
+     "lab": "La giovinezza e la Grande Guerra:",
+     "txt": "nasce a Genova nel 1896, si diploma come ragioniere, nutre una forte passione per il canto e partecipa come ufficiale alla prima guerra mondiale.",
+     "full": "La giovinezza e la Grande Guerra: nasce a Genova nel 1896, si diploma come ragioniere, nutre una forte passione per il canto e partecipa come ufficiale alla prima guerra mondiale.",
+     "t": 170.7,
+     "src": "voce"
+    },
+    {
+     "slide": 2,
+     "tit": "La vita",
+     "lab": "Il periodo a Firenze:",
+     "txt": "dal 1927 si trasferisce a Firenze per lavorare in ambito editoriale e assume la direzione del Gabinetto Vieusseux, da cui viene licenziato nel 1938 perché non iscritto al Partito fascista.",
+     "full": "Il periodo a Firenze: dal 1927 si trasferisce a Firenze per lavorare in ambito editoriale e assume la direzione del Gabinetto Vieusseux, da cui viene licenziato nel 1938 perché non iscritto al Partito fascista.",
+     "t": 179.34,
+     "src": "voce"
+    },
+    {
+     "slide": 2,
+     "tit": "La vita",
+     "lab": "La maturità a Milano:",
+     "txt": "nel 1948 si stabilisce a Milano come redattore e critico per il «Corriere della Sera»; nel 1975 riceve il premio Nobel per la letteratura e muore nel 1981.",
+     "full": "La maturità a Milano: nel 1948 si stabilisce a Milano come redattore e critico per il «Corriere della Sera»; nel 1975 riceve il premio Nobel per la letteratura e muore nel 1981.",
+     "t": 228.38,
+     "src": "voce"
+    }
+   ]
+  ]
+ },
+ {
+  "k": 2,
+  "t": "Ossi di seppia e la poetica",
+  "a": 245.95,
+  "b": 485.5,
+  "img": null,
+  "pages": [
+   [
+    {
+     "slide": 3,
+     "tit": "Ossi di seppia (1925) – La crisi dell'identità",
+     "lab": "La struttura della raccolta:",
+     "txt": "si tratta della prima opera poetica di Montale, pubblicata nel 1925 e divisa in quattro sezioni.",
+     "full": "La struttura della raccolta: si tratta della prima opera poetica di Montale, pubblicata nel 1925 e divisa in quattro sezioni.",
+     "t": 246.0,
+     "src": "voce"
+    },
+    {
+     "slide": 3,
+     "tit": "Ossi di seppia (1925) – La crisi dell'identità",
+     "lab": "Il tema centrale:",
+     "txt": "l'opera manifesta una profonda consapevolezza della crisi dell'identità individuale e del soggetto, fenomeno tipico del Novecento.",
+     "full": "Il tema centrale: l'opera manifesta una profonda consapevolezza della crisi dell'identità individuale e del soggetto, fenomeno tipico del Novecento.",
+     "t": 365.66,
+     "src": "voce"
+    },
+    {
+     "slide": 3,
+     "tit": "Ossi di seppia (1925) – La crisi dell'identità",
+     "lab": "La condizione esistenziale:",
+     "txt": "il titolo evoca gli scheletri dei molluschi scartati dal mare, simbolo di una vita impoverita, arida e ridotta all'essenziale.",
+     "full": "La condizione esistenziale: il titolo evoca gli scheletri dei molluschi scartati dal mare, simbolo di una vita impoverita, arida e ridotta all'essenziale.",
+     "t": 384.04,
+     "src": "voce"
+    }
+   ],
+   [
+    {
+     "slide": 4,
+     "tit": "La poetica dell'aridità e il «correlativo oggettivo»",
+     "lab": "Il paesaggio ligure come simbolo:",
+     "txt": "la natura nei testi montaliani non è consolatoria, ma rappresenta l'aridità e il mal di vivere attraverso oggetti concreti.",
+     "full": "Il paesaggio ligure come simbolo: la natura nei testi montaliani non è consolatoria, ma rappresenta l'aridità e il mal di vivere attraverso oggetti concreti.",
+     "t": 391.5,
+     "src": "voce"
+    },
+    {
+     "slide": 4,
+     "tit": "La poetica dell'aridità e il «correlativo oggettivo»",
+     "lab": "Il correlativo oggettivo:",
+     "txt": "i sentimenti e i processi interiori non vengono spiegati direttamente, ma si oggettivano in immagini concrete: come il muro scalcinato, il rivo strozzato o il secchio nel pozzo.",
+     "full": "Il correlativo oggettivo: i sentimenti e i processi interiori non vengono spiegati direttamente, ma si oggettivano in immagini concrete: come il muro scalcinato, il rivo strozzato o il secchio nel pozzo.",
+     "t": 401.1,
+     "src": "voce"
+    },
+    {
+     "slide": 4,
+     "tit": "La poetica dell'aridità e il «correlativo oggettivo»",
+     "lab": "Un linguaggio antilirico:",
+     "txt": "la poesia rifiuta la magia musicale tradizionale per usare un linguaggio secco, scabro, spoglio e aspro.",
+     "full": "Un linguaggio antilirico: la poesia rifiuta la magia musicale tradizionale per usare un linguaggio secco, scabro, spoglio e aspro.",
+     "t": 438.86,
+     "src": "voce"
+    }
+   ],
+   [
+    {
+     "slide": 5,
+     "tit": "Il ruolo della poesia e il «messaggio in negativo»",
+     "lab": "Nessuna formula magica:",
+     "txt": "a differenza dei simbolisti o di Ungaretti, Montale afferma che la poesia non può dare risposte certe, né portare ordine nel caos dell'animo umano.",
+     "full": "Nessuna formula magica: a differenza dei simbolisti o di Ungaretti, Montale afferma che la poesia non può dare risposte certe, né portare ordine nel caos dell'animo umano.",
+     "t": 442.0,
+     "src": "voce"
+    },
+    {
+     "slide": 5,
+     "tit": "Il ruolo della poesia e il «messaggio in negativo»",
+     "lab": "Il rifiuto del poeta vate:",
+     "txt": "il poeta rifiuta l'atteggiamento di chi vuole diffondere verità sublimi o messaggi altisonanti.",
+     "full": "Il rifiuto del poeta vate: il poeta rifiuta l'atteggiamento di chi vuole diffondere verità sublimi o messaggi altisonanti.",
+     "t": 461.88,
+     "src": "voce"
+    },
+    {
+     "slide": 5,
+     "tit": "Il ruolo della poesia e il «messaggio in negativo»",
+     "lab": "La definizione in negativo:",
+     "txt": "la poesia può solo definire una condizione al negativo, esprimendo lucidamente «ciò che non siamo, ciò che non vogliamo».",
+     "full": "La definizione in negativo: la poesia può solo definire una condizione al negativo, esprimendo lucidamente «ciò che non siamo, ciò che non vogliamo».",
+     "t": 476.46,
+     "src": "voce"
+    }
+   ]
+  ]
+ },
+ {
+  "k": 3,
+  "t": "I testi degli Ossi",
+  "a": 485.47,
+  "b": 1013.5,
+  "img": null,
+  "pages": [
+   [
+    {
+     "slide": 6,
+     "tit": "I limoni",
+     "lab": "Il testo:",
+     "txt": "risale al 1921-22: dopo In limine, fa da introduzione alla raccolta Ossi di seppia; versi liberi, con prevalenza di endecasillabi.",
+     "full": "Il testo: risale al 1921-22: dopo In limine, fa da introduzione alla raccolta Ossi di seppia; versi liberi, con prevalenza di endecasillabi.",
+     "t": 485.5,
+     "src": "voce"
+    },
+    {
+     "slide": 6,
+     "tit": "I limoni",
+     "lab": "I poeti laureati:",
+     "txt": "Montale rifiuta la poesia aulica dei poeti «coronati d'alloro» e preferisce oggetti umili e quotidiani.",
+     "full": "I poeti laureati: Montale rifiuta la poesia aulica dei poeti «coronati d'alloro» e preferisce oggetti umili e quotidiani.",
+     "t": 569.93,
+     "src": "stima"
+    },
+    {
+     "slide": 6,
+     "tit": "I limoni",
+     "lab": "I limoni:",
+     "txt": "la loro gialla solarità è un simbolo di speranza e di rinascita.",
+     "full": "I limoni: la loro gialla solarità è un simbolo di speranza e di rinascita.",
+     "t": 642.91,
+     "src": "voce"
+    }
+   ],
+   [
+    {
+     "slide": 7,
+     "tit": "Meriggiare pallido e assorto",
+     "lab": "Il muro:",
+     "txt": "l'immagine del muro che ha in cima cocci aguzzi di bottiglia è la barriera invalicabile che separa l'uomo dalla comprensione della verità.",
+     "full": "Il muro: l'immagine del muro che ha in cima cocci aguzzi di bottiglia è la barriera invalicabile che separa l'uomo dalla comprensione della verità.",
+     "t": 770.0,
+     "src": "voce"
+    },
+    {
+     "slide": 7,
+     "tit": "Meriggiare pallido e assorto",
+     "lab": "La prigionia esistenziale:",
+     "txt": "il muro esprime l'impossibilità di superare la condizione dell'uomo.",
+     "full": "La prigionia esistenziale: il muro esprime l'impossibilità di superare la condizione dell'uomo.",
+     "t": 847.14,
+     "src": "stima"
+    }
+   ],
+   [
+    {
+     "slide": 8,
+     "tit": "Spesso il male di vivere ho incontrato",
+     "lab": "Il testo:",
+     "txt": "risale probabilmente al 1924; due quartine con rime ABBA e CDDA.",
+     "full": "Il testo: risale probabilmente al 1924; due quartine con rime ABBA e CDDA.",
+     "t": 897.0,
+     "src": "voce"
+    },
+    {
+     "slide": 8,
+     "tit": "Spesso il male di vivere ho incontrato",
+     "lab": "Il male di vivere:",
+     "txt": "si manifesta negli aspetti più comuni della natura: il rivo strozzato, la foglia riarsa, il cavallo stramazzato.",
+     "full": "Il male di vivere: si manifesta negli aspetti più comuni della natura: il rivo strozzato, la foglia riarsa, il cavallo stramazzato.",
+     "t": 922.62,
+     "src": "stima"
+    },
+    {
+     "slide": 8,
+     "tit": "Spesso il male di vivere ho incontrato",
+     "lab": "La divina Indifferenza:",
+     "txt": "il solo bene è il distacco dalla miseria del mondo: la statua, la nuvola e il falco alto levato.",
+     "full": "La divina Indifferenza: il solo bene è il distacco dalla miseria del mondo: la statua, la nuvola e il falco alto levato.",
+     "t": 967.96,
+     "src": "stima"
+    }
+   ]
+  ]
+ },
+ {
+  "k": 4,
+  "t": "Le occasioni",
+  "a": 1011.95,
+  "b": 1209.0,
+  "img": null,
+  "pages": [
+   [
+    {
+     "slide": 9,
+     "tit": "Le occasioni (1939) – La memoria e lo scorrere del tempo",
+     "lab": "Il secondo Montale:",
+     "txt": "la raccolta si colloca nel clima storico del dopoguerra e degli anni trenta, segnati dalla minaccia del fascismo e dal senso di impotenza degli intellettuali.",
+     "full": "Il secondo Montale: la raccolta si colloca nel clima storico del dopoguerra e degli anni trenta, segnati dalla minaccia del fascismo e dal senso di impotenza degli intellettuali.",
+     "t": 1019.95,
+     "src": "stima"
+    },
+    {
+     "slide": 9,
+     "tit": "Le occasioni (1939) – La memoria e lo scorrere del tempo",
+     "lab": "L'angoscia della memoria:",
+     "txt": "emerge il tema della memoria stanca e offuscata; i ricordi del passato e dei volti amati sono fragili, tendono a svanire e risultano impossibili da recuperare.",
+     "full": "L'angoscia della memoria: emerge il tema della memoria stanca e offuscata; i ricordi del passato e dei volti amati sono fragili, tendono a svanire e risultano impossibili da recuperare.",
+     "t": 1080.84,
+     "src": "stima"
+    },
+    {
+     "slide": 9,
+     "tit": "Le occasioni (1939) – La memoria e lo scorrere del tempo",
+     "lab": "La ricerca del varco:",
+     "txt": "il poeta tenta di trovare una via di fuga o un'eccezione alla prigionia del tempo monotono, ma la speranza viene quasi sempre spenta da una desolata realtà.",
+     "full": "La ricerca del varco: il poeta tenta di trovare una via di fuga o un'eccezione alla prigionia del tempo monotono, ma la speranza viene quasi sempre spenta da una desolata realtà.",
+     "t": 1144.11,
+     "src": "stima"
+    }
+   ]
+  ]
+ },
+ {
+  "k": 5,
+  "t": "La bufera e altro e Satura",
+  "a": 1208.91,
+  "b": 1470.0,
+  "img": null,
+  "pages": [
+   [
+    {
+     "slide": 10,
+     "tit": "La bufera e altro (1956) – La storia e l'impegno",
+     "lab": "Il contesto della guerra:",
+     "txt": "la raccolta risente della tragedia della seconda guerra mondiale e delle delusioni del secondo dopoguerra.",
+     "full": "Il contesto della guerra: la raccolta risente della tragedia della seconda guerra mondiale e delle delusioni del secondo dopoguerra.",
+     "t": 1209.0,
+     "src": "voce"
+    },
+    {
+     "slide": 10,
+     "tit": "La bufera e altro (1956) – La storia e l'impegno",
+     "lab": "Il rifiuto delle ideologie:",
+     "txt": "Montale esprime il suo dissenso sia nei confronti del clericalismo sia del comunismo, rifiutando la massificazione e l'allineamento culturale.",
+     "full": "Il rifiuto delle ideologie: Montale esprime il suo dissenso sia nei confronti del clericalismo sia del comunismo, rifiutando la massificazione e l'allineamento culturale.",
+     "t": 1251.1,
+     "src": "stima"
+    },
+    {
+     "slide": 10,
+     "tit": "La bufera e altro (1956) – La storia e l'impegno",
+     "lab": "Una fede civile:",
+     "txt": "i testi contengono una sorta di testamento spirituale e rivendicano la difesa dei valori storici della civiltà liberale e dell'autonomia dell'intellettuale.",
+     "full": "Una fede civile: i testi contengono una sorta di testamento spirituale e rivendicano la difesa dei valori storici della civiltà liberale e dell'autonomia dell'intellettuale.",
+     "t": 1305.32,
+     "src": "stima"
+    }
+   ],
+   [
+    {
+     "slide": 11,
+     "tit": "Satura (1971) – Il pessimismo radicale e la svolta prosastica",
+     "lab": "Il mutamento dello stile:",
+     "txt": "l'opera segna una svolta radicale con componimenti brevi, ironici e prosastici, distanti dalla lirica precedente.",
+     "full": "Il mutamento dello stile: l'opera segna una svolta radicale con componimenti brevi, ironici e prosastici, distanti dalla lirica precedente.",
+     "t": 1360.5,
+     "src": "voce"
+    },
+    {
+     "slide": 11,
+     "tit": "Satura (1971) – Il pessimismo radicale e la svolta prosastica",
+     "lab": "La polemica contro la modernità:",
+     "txt": "il poeta critica aspramente la società dei consumi, la cultura di massa e l'appiattimento generale.",
+     "full": "La polemica contro la modernità: il poeta critica aspramente la società dei consumi, la cultura di massa e l'appiattimento generale.",
+     "t": 1390.37,
+     "src": "stima"
+    },
+    {
+     "slide": 11,
+     "tit": "Satura (1971) – Il pessimismo radicale e la svolta prosastica",
+     "lab": "La concezione della storia:",
+     "txt": "Montale sviluppa una posizione radicalmente antistoricistica; la storia non è mossa da razionalità o progresso, ma procede in modo disordinato e imprevedibile, senza offrire certezze all'uomo.",
+     "full": "La concezione della storia: Montale sviluppa una posizione radicalmente antistoricistica; la storia non è mossa da razionalità o progresso, ma procede in modo disordinato e imprevedibile, senza offrire certezze all'uomo.",
+     "t": 1418.73,
+     "src": "stima"
+    }
+   ]
+  ]
+ },
+ {
+  "k": 6,
+  "t": "La figura della moglie",
+  "a": 1468.25,
+  "b": 1765.61,
+  "img": null,
+  "pages": [
+   [
+    {
+     "slide": 12,
+     "tit": "Ho sceso, dandoti il braccio, almeno un milione di scale",
+     "lab": "Il testo:",
+     "txt": "da Satura (1971), sezione Xenia; sul manoscritto la data 20 novembre 1967.",
+     "full": "Il testo: da Satura (1971), sezione Xenia; sul manoscritto la data 20 novembre 1967.",
+     "t": 1470.0,
+     "src": "voce"
+    },
+    {
+     "slide": 12,
+     "tit": "Ho sceso, dandoti il braccio, almeno un milione di scale",
+     "lab": "Le scale:",
+     "txt": "il poeta offriva il braccio alla moglie, con forti problemi di miopia, per scendere le scale.",
+     "full": "Le scale: il poeta offriva il braccio alla moglie, con forti problemi di miopia, per scendere le scale.",
+     "t": 1556.7,
+     "src": "stima"
+    }
+   ],
+   [
+    {
+     "slide": 13,
+     "tit": "La figura della moglie e la conclusione",
+     "lab": "La sezione Xenia:",
+     "txt": "contiene poesie intime dedicate alla memoria della moglie Drusilla Tanzi (soprannominata «Mosca»), morta nel 1963.",
+     "full": "La sezione Xenia: contiene poesie intime dedicate alla memoria della moglie Drusilla Tanzi (soprannominata «Mosca»), morta nel 1963.",
+     "t": 1663.0,
+     "src": "voce"
+    },
+    {
+     "slide": 13,
+     "tit": "La figura della moglie e la conclusione",
+     "lab": "Una guida nella cecità:",
+     "txt": "nella celebre lirica «Ho sceso, dandoti il braccio...», la miopia fisica della moglie diventa metafora di una superiore capacità di vedere oltre le apparenze e le trappole della realtà quotidiana.",
+     "full": "Una guida nella cecità: nella celebre lirica «Ho sceso, dandoti il braccio...», la miopia fisica della moglie diventa metafora di una superiore capacità di vedere oltre le apparenze e le trappole della realtà quotidiana.",
+     "t": 1689.24,
+     "src": "stima"
+    },
+    {
+     "slide": 13,
+     "tit": "La figura della moglie e la conclusione",
+     "lab": "L'eredità di Montale:",
+     "txt": "la sua opera si configura come una testimonianza lucida e priva di illusioni sulla complessa condizione dell'uomo moderno.",
+     "full": "L'eredità di Montale: la sua opera si configura come una testimonianza lucida e priva di illusioni sulla complessa condizione dell'uomo moderno.",
+     "t": 1732.98,
+     "src": "stima"
+    }
+   ]
+  ]
+ }
+]

@@ -31,17 +31,22 @@ def f_unita():
                 cards.append(dict(slide=n,tit=tit,lab=lab,txt=txt,full=t))
         r=allinea([c['full'] for c in cards],TR,a,b)
         # ancore affidabili, monotone, dentro l'argomento
-        an={};last=a
+        an={};last=a;ST=A.get('st',{})
+        def win(i):
+            n=cards[i]['slide'];ks=sorted(ST);lo=ST.get(n,a);hi=min([ST[k] for k in ks if k>n]+[b]);return lo,hi
         for i,x in enumerate(r):
-            if x and x[0] is not None and x[1]>=0.4 and last+3<x[0]<b-5:an[i]=x[0];last=x[0]
+            if ST and (i==0 or cards[i-1]['slide']!=cards[i]['slide']) and cards[i]['slide'] in ST:
+                an[i]=max(ST[cards[i]['slide']],last+0.5) if i else max(ST[cards[i]['slide']],a);last=an[i];continue
+            lo,hi=win(i) if ST else (a,b)
+            if x and x[0] is not None and x[1]>=0.4 and last+3<x[0]<b-5 and lo<=x[0]<hi:an[i]=x[0];last=x[0]
         t0=a+min(8.0,(b-a)*0.05);pts=[(-1,t0)]+sorted(an.items())+[(len(cards),b-4)]
         L=[len(c['full']) for c in cards];cum=[0]
         for l in L:cum.append(cum[-1]+l)
         for i,c in enumerate(cards):
             if i in an:c['t']=round(an[i],2);c['src']='voce';continue
             p=max(x for x in pts if x[0]<i);q=min(x for x in pts if x[0]>i)
-            ci=cum[i]-cum[p[0]+1 if p[0]>=0 else 0];cs=cum[q[0]]-cum[p[0]+1 if p[0]>=0 else 0]
-            lo=p[1]+(0 if p[0]<0 else 4);c['t']=round(lo+(q[1]-lo)*(ci/cs if cs else 0),2);c['src']='stima'
+            p0=max(p[0],0);ci=cum[i]-cum[p0];cs=cum[q[0]]-cum[p0]
+            c['t']=round(p[1]+(q[1]-p[1])*(ci/cs if cs else 0),2);c['src']='stima'
         if cards and cards[0]['src']=='stima':cards[0]['t']=round(t0,2)
         # pagine: stessa slide, al massimo 3 card
         pages=[];cur=[]
@@ -126,6 +131,16 @@ def doc_piece(name,a,b,states):
         for _ in range(nn):s+=f"file '{png}'\nduration {dd/nn:.4f}\n"
     s+=f"file '{states[-1][1]}'\n";open(lst,'w').write(s)
     x,y,w,h=C['cam']
+    I=[i for i in json.load(open(D+'campos.json')) if i[1]-i[0]>=3];J=[]
+    for i in I:
+        if J and abs(J[-1][2]-i[2])<=4 and abs(J[-1][3]-i[3])<=4:J[-1][1]=i[1]
+        else:J.append(list(i))
+    J=[i for i in J if i[1]>a and i[0]<b];J[0][0]=a;J[-1][1]=b
+    def ex(k):
+        e=str(J[-1][k])
+        for i in reversed(J[:-1]):e=f"if(lt(t,{i[1]-a:.2f}),{i[k]},{e})"
+        return "'"+e+"'"
+    x,y=ex(2),ex(3);w,h=242,132
     LT=1.3
     run(['nice','-n','5','ffmpeg','-y','-v','error','-f','concat','-safe','0','-i',lst,'-ss','%.3f'%a,'-t','%.3f'%d,'-i',SRC,'-ss','%.3f'%a,'-t','%.3f'%d,'-i',AUD,'-filter_complex',
         f"[0:v]fps=30,format=yuv420p,trim=duration={d:.3f}[s];[1:v]fps=30,crop={w}:{h}:{x}:{y},normalize=blackpt=black:whitept=white:smoothing=30:independence=0.6:strength=0.5,scale=394:218:flags=lanczos,hqdn3d=2:2:3:3,unsharp=5:5:0.8,eq=contrast=1.05:saturation=1.1:gamma=1.04[c];[s][c]overlay=1508:143:shortest=1,tpad=start_mode=clone:start_duration={LT}:stop_mode=clone:stop_duration={LT},format=yuv420p[v];"

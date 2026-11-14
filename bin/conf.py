@@ -14,3 +14,15 @@ CONF={
        dict(t="Franz Kafka e l'assurdo",l=['Franz Kafka','e l’assurdo'],ex='Metamorfosi · straniamento · colpa',sl=[8,10],img='s09_3.jpg',a=576.5),
        dict(t="Virginia Woolf",l=['Virginia Woolf'],ex='flusso di coscienza · Una stanza tutta per sé',sl=[11,13,14],img='s12_3.jpg',a=911.0)]),
 }
+CONF['18']=dict(N=18,titolo="Eugenio Montale",cam=(820,340,242,132),
+  arg=[dict(t="La vita",l=['La vita'],ex='Genova · Firenze · Milano · Nobel 1975',sl=[2],img=None,a=73.0),
+       dict(t="Ossi di seppia e la poetica",l=['Ossi di seppia','e la poetica'],ex='aridità · correlativo oggettivo',sl=[3,4,5],img=None,a=246.0,st={3:246.0,4:391.5,5:442.0}),
+       dict(t="I testi degli Ossi",l=['I testi','degli Ossi'],ex='I limoni · Meriggiare · Spesso il male di vivere',sl=[6,7,8],img=None,a=485.5,st={6:485.5,7:770.0,8:897.0}),
+       dict(t="Le occasioni",l=['Le occasioni'],ex='memoria · varco · Mottetti',sl=[9],img=None,a=1013.5),
+       dict(t="La bufera e altro e Satura",l=['La bufera e altro','e Satura'],ex='impegno civile · ironia · antistoricismo',sl=[10,11],img=None,a=1209.0,st={10:1209.0,11:1360.5}),
+       dict(t="La figura della moglie",l=['La figura','della moglie'],ex='Xenia · Ho sceso, dandoti il braccio',sl=[12,13],img=None,a=1470.0,st={12:1470.0,13:1663.0})])
+CONF['23']=dict(N=23,titolo="Primo Levi",cam=(820,340,242,132),
+  arg=[dict(t="La vita e la formazione",l=['La vita e','la formazione'],ex='Torino · chimica · Giustizia e Libertà',sl=[2],img=None,a=155.0),
+       dict(t="La sopravvivenza nel Lager",l=['La sopravvivenza','nel Lager'],ex='forza d’animo · chimica · 27 gennaio 1945',sl=[3],img=None,a=330.5),
+       dict(t="Se questo è un uomo",l=['Se questo','è un uomo'],ex='sommersi e salvati · stile sobrio',sl=[4,5],img=None,a=575.5,st={4:575.5,5:702.0}),
+       dict(t="La tregua",l=['La tregua'],ex='il viaggio · il ritorno · umorismo',sl=[6],img=None,a=830.0)])

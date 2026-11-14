@@ -1,0 +1,194 @@
+[
+ {
+  "k": 1,
+  "t": "La vita e la formazione",
+  "a": 155.0,
+  "b": 330.5,
+  "img": null,
+  "pages": [
+   [
+    {
+     "slide": 2,
+     "tit": "Primo Levi: la vita e la formazione",
+     "lab": "Nascita e studi:",
+     "txt": "nato a Torino nel 1919, si laurea in chimica nel 1941. Sviluppa fin da giovane una vasta cultura anche letteraria.",
+     "full": "Nascita e studi: nato a Torino nel 1919, si laurea in chimica nel 1941. Sviluppa fin da giovane una vasta cultura anche letteraria.",
+     "t": 170.86,
+     "src": "voce"
+    },
+    {
+     "slide": 2,
+     "tit": "Primo Levi: la vita e la formazione",
+     "lab": "La scelta partigiana:",
+     "txt": "dopo l'armistizio dell'8 settembre 1943, entra nelle formazioni partigiane di Giustizia e Libertà in Valle d'Aosta.",
+     "full": "La scelta partigiana: dopo l'armistizio dell'8 settembre 1943, entra nelle formazioni partigiane di Giustizia e Libertà in Valle d'Aosta.",
+     "t": 264.74,
+     "src": "voce"
+    },
+    {
+     "slide": 2,
+     "tit": "Primo Levi: la vita e la formazione",
+     "lab": "L'arresto e la deportazione:",
+     "txt": "nel dicembre 1943 viene catturato dalle milizie fasciste e, in quanto ebreo, viene deportato nel campo di sterminio di Auschwitz.",
+     "full": "L'arresto e la deportazione: nel dicembre 1943 viene catturato dalle milizie fasciste e, in quanto ebreo, viene deportato nel campo di sterminio di Auschwitz.",
+     "t": 298.82,
+     "src": "voce"
+    }
+   ]
+  ]
+ },
+ {
+  "k": 2,
+  "t": "La sopravvivenza nel Lager",
+  "a": 328.41,
+  "b": 575.5,
+  "img": null,
+  "pages": [
+   [
+    {
+     "slide": 3,
+     "tit": "La sopravvivenza nel Lager",
+     "lab": "Fattori di salvezza:",
+     "txt": "riesce a sopravvivere grazie al fisico giovane, alla forza d'animo, all'aiuto di pochi amici e a una serie di fortunate coincidenze.",
+     "full": "Fattori di salvezza: riesce a sopravvivere grazie al fisico giovane, alla forza d'animo, all'aiuto di pochi amici e a una serie di fortunate coincidenze.",
+     "t": 364.42,
+     "src": "voce"
+    },
+    {
+     "slide": 3,
+     "tit": "La sopravvivenza nel Lager",
+     "lab": "Il ruolo della chimica:",
+     "txt": "le sue competenze di chimico gli permettono di lavorare nei laboratori del campo, evitandogli i lavori più massacranti.",
+     "full": "Il ruolo della chimica: le sue competenze di chimico gli permettono di lavorare nei laboratori del campo, evitandogli i lavori più massacranti.",
+     "t": 392.45,
+     "src": "stima"
+    },
+    {
+     "slide": 3,
+     "tit": "La sopravvivenza nel Lager",
+     "lab": "La liberazione:",
+     "txt": "viene liberato dall'esercito sovietico il 27 gennaio 1945, giorno oggi assunto come Giorno della Memoria.",
+     "full": "La liberazione: viene liberato dall'esercito sovietico il 27 gennaio 1945, giorno oggi assunto come Giorno della Memoria.",
+     "t": 418.65,
+     "src": "voce"
+    }
+   ]
+  ]
+ },
+ {
+  "k": 3,
+  "t": "Se questo è un uomo",
+  "a": 574.41,
+  "b": 830.0,
+  "img": null,
+  "pages": [
+   [
+    {
+     "slide": 4,
+     "tit": "Se questo è un uomo (1947): l'esordio",
+     "lab": "L'obiettivo dell'opera:",
+     "txt": "scritto subito dopo il ritorno, nasce da un'esigenza morale e civile: far conoscere l'orrore dei campi di sterminio affinché non si ripeta.",
+     "full": "L'obiettivo dell'opera: scritto subito dopo il ritorno, nasce da un'esigenza morale e civile: far conoscere l'orrore dei campi di sterminio affinché non si ripeta.",
+     "t": 575.5,
+     "src": "voce"
+    },
+    {
+     "slide": 4,
+     "tit": "Se questo è un uomo (1947): l'esordio",
+     "lab": "La distruzione dell'uomo:",
+     "txt": "descrive la barbarie del sistema dei campi, organizzato scientificamente per distruggere la sostanza umana dei deportati.",
+     "full": "La distruzione dell'uomo: descrive la barbarie del sistema dei campi, organizzato scientificamente per distruggere la sostanza umana dei deportati.",
+     "t": 621.22,
+     "src": "stima"
+    },
+    {
+     "slide": 4,
+     "tit": "Se questo è un uomo (1947): l'esordio",
+     "lab": "La vita quotidiana:",
+     "txt": "il testo illustra le regole oppressive, la fame continua, il lavoro sfibrante nel gelo polacco e le costanti umiliazioni.",
+     "full": "La vita quotidiana: il testo illustra le regole oppressive, la fame continua, il lavoro sfibrante nel gelo polacco e le costanti umiliazioni.",
+     "t": 662.45,
+     "src": "stima"
+    }
+   ],
+   [
+    {
+     "slide": 5,
+     "tit": "I temi chiave di Se questo è un uomo",
+     "lab": "I «sommersi» e i «salvati»:",
+     "txt": "nel campo non esiste solidarietà. I più forti o senza scrupoli riescono a sopravvivere (i salvati), mentre la maggioranza dei deboli soccombe (i sommersi).",
+     "full": "I «sommersi» e i «salvati»: nel campo non esiste solidarietà. I più forti o senza scrupoli riescono a sopravvivere (i salvati), mentre la maggioranza dei deboli soccombe (i sommersi).",
+     "t": 702.0,
+     "src": "voce"
+    },
+    {
+     "slide": 5,
+     "tit": "I temi chiave di Se questo è un uomo",
+     "lab": "I lavoratori-schiavi:",
+     "txt": "a causa della scarsità di braccia dovuta alla guerra, i nazisti sfruttano i prigionieri come schiavi prima di mandare i più deboli nelle camere a gas.",
+     "full": "I lavoratori-schiavi: a causa della scarsità di braccia dovuta alla guerra, i nazisti sfruttano i prigionieri come schiavi prima di mandare i più deboli nelle camere a gas.",
+     "t": 714.82,
+     "src": "stima"
+    },
+    {
+     "slide": 5,
+     "tit": "I temi chiave di Se questo è un uomo",
+     "lab": "Lo stile di scrittura:",
+     "txt": "la narrazione è priva di emotività e di retorica. Adotta uno stile preciso, sobrio ed essenziale, quasi scientifico e antropologico, per portare ordine nel caos della realtà.",
+     "full": "Lo stile di scrittura: la narrazione è priva di emotività e di retorica. Adotta uno stile preciso, sobrio ed essenziale, quasi scientifico e antropologico, per portare ordine nel caos della realtà.",
+     "t": 726.86,
+     "src": "voce"
+    }
+   ]
+  ]
+ },
+ {
+  "k": 4,
+  "t": "La tregua",
+  "a": 828.99,
+  "b": 1062.02,
+  "img": null,
+  "pages": [
+   [
+    {
+     "slide": 6,
+     "tit": "La tregua (1963): il ritorno alla vita",
+     "lab": "La continuazione:",
+     "txt": "il libro racconta la liberazione dal campo e la lunga odissea del ritorno in patria attraverso l'Europa orientale.",
+     "full": "La continuazione: il libro racconta la liberazione dal campo e la lunga odissea del ritorno in patria attraverso l'Europa orientale.",
+     "t": 836.99,
+     "src": "stima"
+    },
+    {
+     "slide": 6,
+     "tit": "La tregua (1963): il ritorno alla vita",
+     "lab": "Il tema del viaggio:",
+     "txt": "al centro c'è il viaggio, arricchito dall'osservazione di paesaggi e paesi, e dal ritratto di una miriade di figure umane vitali.",
+     "full": "Il tema del viaggio: al centro c'è il viaggio, arricchito dall'osservazione di paesaggi e paesi, e dal ritratto di una miriade di figure umane vitali.",
+     "t": 882.58,
+     "src": "stima"
+    },
+    {
+     "slide": 6,
+     "tit": "La tregua (1963): il ritorno alla vita",
+     "lab": "La dimensione picaresca:",
+     "txt": "a differenza del dramma cupo del Lager, il racconto assume tratti avventurosi e sfumature di sottile umorismo tipico della tradizione ebraica.",
+     "full": "La dimensione picaresca: a differenza del dramma cupo del Lager, il racconto assume tratti avventurosi e sfumature di sottile umorismo tipico della tradizione ebraica.",
+     "t": 934.38,
+     "src": "stima"
+    }
+   ],
+   [
+    {
+     "slide": 6,
+     "tit": "La tregua (1963): il ritorno alla vita",
+     "lab": "Il significato del titolo:",
+     "txt": "la «tregua» rappresenta quella parentesi faticosa di vagabondaggio prima di un futuro oscuro, dominato dalle ferite interne del Lager che non si rimargineranno mai.",
+     "full": "Il significato del titolo: la «tregua» rappresenta quella parentesi faticosa di vagabondaggio prima di un futuro oscuro, dominato dalle ferite interne del Lager che non si rimargineranno mai.",
+     "t": 992.06,
+     "src": "stima"
+    }
+   ]
+  ]
+ }
+]
