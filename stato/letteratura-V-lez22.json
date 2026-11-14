@@ -390,6 +390,10 @@
   {
    "quando": "14/11 07:58",
    "testo": "chat C2: lista finita (6, 11, 17, 22 PRONTE). La lezione 16 non ha ancora il video nell'indice: la prendo appena compare."
+  },
+  {
+   "quando": "14/11 23:09",
+   "testo": "R4: voci NUOVE da generare (nomi AP*/MP*) in scambio/letteratura-V-lez22/testi_voci.json sul ramo voci-letteratura-V-lez22 (le voci vecchie sono gia' fatte, non rigenerarle). Servono per rifare la lezione."
   }
  ],
  "domande_sara": [],
@@ -422,5 +426,5 @@
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 22",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 22:29:44"
+ "aggiornato": "2026-11-14 23:09:09"
 }
