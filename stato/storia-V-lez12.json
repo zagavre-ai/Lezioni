@@ -6,16 +6,25 @@
   }
  },
  "manca": "",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "14/11 15:49",
+   "testo": "Voci Kore lezione 12: una sola richiesta, 52 testi (circa 41.000 caratteri, stima 46 min) in voci-storia-V-lez12/scambio/storia-V-lez12/testi_voci.json. Quiz 9x5 in quiz.json da approvare."
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
    "quando": "14/11 15:13",
    "testo": "Storia V · chat S3 (preparazione: trascrizione)"
+  },
+  {
+   "quando": "14/11 15:49",
+   "testo": "Analisi fatta: video 54:01 (1092x614), 9 argomenti, slide ricostruite dal video; 2 Parti (P1 arg 1-5, P2 arg 6-9), stima 52 + 52 min. Mappe del prof (3 pagine) usate per MAP3, MAP5, MAP6, MAP8."
   }
  ],
  "materia": "Storia V",
  "lezione": "Lezione 12 · L'Europa e il mondo negli anni Trenta",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 15:13:38"
+ "aggiornato": "2026-11-14 15:49:49"
 }
