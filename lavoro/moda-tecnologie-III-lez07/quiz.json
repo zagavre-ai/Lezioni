@@ -1,0 +1,518 @@
+{
+ "tag": "moda-tecnologie-III-lez07",
+ "argomenti": [
+  {
+   "n": 1,
+   "parte": 1,
+   "titolo": "Trattamenti e sistemi di macchine",
+   "domande": [
+    {
+     "d": "Quali due parametri si valutano per scegliere il trattamento di nobilitazione?",
+     "giusta": "La composizione chimico-fibrosa del prodotto e l'effetto desiderato",
+     "sbagliate": [
+      "Il prezzo e il colore del tessuto",
+      "Il peso e la larghezza della pezza",
+      "La stagione e il luogo d'origine"
+     ],
+     "spiegazione": "Sono i due parametri fondamentali indicati dalla docente."
+    },
+    {
+     "d": "Come sono disposte le macchine in un sistema continuo?",
+     "giusta": "In linea, come una catena, per eseguire sempre lo stesso tipo di lavorazione",
+     "sbagliate": [
+      "Una sola macchina esegue fasi diverse in successione",
+      "Alternando fasi in continuo e in discontinuo",
+      "In modo casuale in reparti separati"
+     ],
+     "spiegazione": "Alta uniformità e bassi costi di manodopera, ma investimenti elevati."
+    },
+    {
+     "d": "Che cosa caratterizza un sistema discontinuo?",
+     "giusta": "Elevata flessibilità per produzioni limitate, ma costi di manodopera elevati e qualità non sempre omogenea",
+     "sbagliate": [
+      "Alta uniformità per produzioni elevate",
+      "Pezze cucite in rotoli per saturare l'impianto",
+      "Nessuna manodopera"
+     ],
+     "spiegazione": "La stessa macchina esegue diverse fasi in successione."
+    },
+    {
+     "d": "Che cosa richiede un sistema semicontinuo?",
+     "giusta": "La cucitura delle pezze in rotoli per saturare l'impianto",
+     "sbagliate": [
+      "Una sola pezza alla volta",
+      "Solo lavorazioni a secco",
+      "Macchine disposte a ferro di cavallo"
+     ],
+     "spiegazione": "Integra fasi in continuo e fasi in discontinuo."
+    },
+    {
+     "d": "Che cosa sono le nobilitazioni per foulardaggio?",
+     "giusta": "Trattamenti a umido con impregnazione di piccole quantità di liquido",
+     "sbagliate": [
+      "Trattamenti per immersione in un bagno pieno",
+      "Trattamenti a secco su tessuti asciutti",
+      "Trattamenti solo meccanici"
+     ],
+     "spiegazione": "Quelli per esaurimento prevedono l'immersione in un bagno pieno."
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "parte": 1,
+   "titolo": "Durata e obiettivi delle nobilitazioni",
+   "domande": [
+    {
+     "d": "Quale trattamento incide sulla struttura intima della fibra e rimane inalterato nel tempo?",
+     "giusta": "Il trattamento permanente",
+     "sbagliate": [
+      "Il trattamento temporaneo",
+      "Il trattamento semidurevole",
+      "Il trattamento durevole"
+     ],
+     "spiegazione": "I durevoli si usurano gradualmente; i temporanei perdono effetto già con i primi cicli."
+    },
+    {
+     "d": "Che cosa significa trattamento semidurevole?",
+     "giusta": "Mantiene la sua efficacia solo per un numero limitato di cicli di manutenzione",
+     "sbagliate": [
+      "Dura per tutta la vita del capo",
+      "Perde effetto al primo lavaggio",
+      "Non si usura mai"
+     ],
+     "spiegazione": "Il temporaneo perde gran parte dell'effetto già con i primi cicli."
+    },
+    {
+     "d": "Che cos'è il candeggio, detto anche sbianca?",
+     "giusta": "Il trattamento che rende bianco il materiale eliminando le colorazioni naturali",
+     "sbagliate": [
+      "Un trattamento fisico a secco",
+      "La stampa di un disegno chiaro",
+      "La pressatura del tessuto"
+     ],
+     "spiegazione": "È un trattamento chimico a umido, considerato permanente."
+    },
+    {
+     "d": "Con che cosa si candeggiano le fibre vegetali?",
+     "giusta": "Con ipocloriti, acqua ossigenata e soluzioni diluite di soda caustica",
+     "sbagliate": [
+      "Con anidride solforosa",
+      "Con acido solforico",
+      "Con perborato in forno"
+     ],
+     "spiegazione": "La lana si candeggia con anidride solforosa o acqua ossigenata."
+    },
+    {
+     "d": "A che serve il carbonissaggio?",
+     "giusta": "A eliminare le impurità vegetali dai tessili di lana, con acido solforico",
+     "sbagliate": [
+      "A rendere lucido il cotone",
+      "A rendere irrestringibile la lana",
+      "A decorare il tessuto con il rilievo"
+     ],
+     "spiegazione": "Va poi lavato completamente per non danneggiare la lana."
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "parte": 1,
+   "titolo": "Mercerizzazione, calandratura e lucidatura",
+   "domande": [
+    {
+     "d": "Quale incremento di resistenza dà la mercerizzazione con soda caustica?",
+     "giusta": "Circa il 20%",
+     "sbagliate": [
+      "Circa il 5%",
+      "Circa il 40%, sempre",
+      "Nessun incremento"
+     ],
+     "spiegazione": "Con ammoniaca liquida l'incremento arriva al 40%."
+    },
+    {
+     "d": "In che anno Mercer ideò la mercerizzazione?",
+     "giusta": "Nel 1791",
+     "sbagliate": [
+      "Nel 1856",
+      "Nel 1866, anno del brevetto, come invenzione",
+      "Nel 2002"
+     ],
+     "spiegazione": "Fu ideata nel 1791 e brevettata nel 1866."
+    },
+    {
+     "d": "Che cos'è la calandratura?",
+     "giusta": "Un trattamento fisico a secco che preme il tessuto per assottigliarlo e renderlo più lucido",
+     "sbagliate": [
+      "Un trattamento chimico a umido con amido",
+      "Un lavaggio con sapone",
+      "Una tintura in largo"
+     ],
+     "spiegazione": "L'effetto è in genere temporaneo."
+    },
+    {
+     "d": "Che cos'è il chintz?",
+     "giusta": "Un tessuto lucido ottenuto con la lucidatura, con armatura fine e compatta e mano scivolosa",
+     "sbagliate": [
+      "Un tessuto crespo di seta",
+      "Un tessuto di lana follato",
+      "Un tessuto a pelo"
+     ],
+     "spiegazione": "La lucidatura usa una sospensione di amido e cilindri incisi con righe diagonali."
+    },
+    {
+     "d": "Come si chiamano i tessuti con minirilievi leggeri ottenuti per increspatura?",
+     "giusta": "Crêpe o crepelle",
+     "sbagliate": [
+      "Crepòn",
+      "Seersucker",
+      "Froissé"
+     ],
+     "spiegazione": "Con rilievi più pronunciati si parla di crepòn."
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "parte": 1,
+   "titolo": "Marezzatura, ceratura e stabilità dimensionale",
+   "domande": [
+    {
+     "d": "Che effetto dà la marezzatura?",
+     "giusta": "Un aspetto simile alle onde del mare, per la luce riflessa in modo non omogeneo",
+     "sbagliate": [
+      "Un aspetto imbottito",
+      "Un aspetto peloso",
+      "Un aspetto trasparente"
+     ],
+     "spiegazione": "Si ottiene con pressione e calore tra due cilindri, uno dei quali solcato."
+    },
+    {
+     "d": "Che cosa fa il decatissaggio?",
+     "giusta": "Dà stabilità dimensionale permanente ai tessuti lanieri con vapore sotto pressione in autoclave",
+     "sbagliate": [
+      "Rende la lana irrestringibile con ipocloriti",
+      "Infeltrisce la lana con sapone",
+      "Irrigidisce i colli delle camicie"
+     ],
+     "spiegazione": "Si arriva a temperature fino a 135 °C."
+    },
+    {
+     "d": "Che cos'è la follatura?",
+     "giusta": "Un infeltrimento controllato a umido della lana, con calore, sapone e sfregamento",
+     "sbagliate": [
+      "Una pressatura a secco",
+      "Una tintura in capo",
+      "Una stampa a transfert"
+     ],
+     "spiegazione": "Si ottiene la cosiddetta lana cotta."
+    },
+    {
+     "d": "Come funziona la sanforizzazione?",
+     "giusta": "Comprime meccanicamente su nastro di gomma le fibre vegetali bagnate e vaporizzate, prevenendo il ritiro",
+     "sbagliate": [
+      "Impregna la lana con resine speciali",
+      "Immerge il tessuto in acetone",
+      "Appiattisce il pelo"
+     ],
+     "spiegazione": "Si completa con calandre asciugatrici."
+    },
+    {
+     "d": "Che restringimento massimo garantisce il trattamento superwash?",
+     "giusta": "3% in lunghezza e 1% in larghezza",
+     "sbagliate": [
+      "10% in lunghezza",
+      "Nessun restringimento in nessuna direzione",
+      "1% in lunghezza e 3% in larghezza"
+     ],
+     "spiegazione": "Rende la lana lavabile in lavatrice."
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "parte": 1,
+   "titolo": "Le nobilitazioni che agiscono sul pelo",
+   "domande": [
+    {
+     "d": "A che servono i cardi vegetali nella garzatura?",
+     "giusta": "Per estrarre il pelo dalle lane pregiate come il cashmere",
+     "sbagliate": [
+      "Per tagliare il pelo ad altezza uniforme",
+      "Per bruciare la peluria",
+      "Per aggrovigliare il pelo"
+     ],
+     "spiegazione": "Per gli altri tessuti si usano punte metalliche montate su garzatrici."
+    },
+    {
+     "d": "Che cosa fa la cimatura?",
+     "giusta": "Taglia le fibre ad altezza uniforme o crea disegni, con lame elicoidali",
+     "sbagliate": [
+      "Appiattisce il pelo",
+      "Fa sollevare il pelo con resine",
+      "Forma pallottoline volute"
+     ],
+     "spiegazione": "Si usa una macchina cimatrice."
+    },
+    {
+     "d": "Che cos'è la ratinatura?",
+     "giusta": "L'aggrovigliamento del pelo in pallottoline, come nel tessuto casentino",
+     "sbagliate": [
+      "L'eliminazione della peluria con la fiamma",
+      "Il taglio del pelo",
+      "La pressatura del pelo"
+     ],
+     "spiegazione": "Cerca l'effetto pilling voluto."
+    },
+    {
+     "d": "A che velocità passa il tessuto sulla fiamma nel bruciapelo?",
+     "giusta": "Tra 60 e 120 metri al minuto",
+     "sbagliate": [
+      "Tra 6 e 12 metri al minuto",
+      "Oltre 500 metri al minuto",
+      "È fermo sulla fiamma"
+     ],
+     "spiegazione": "Si può eliminare la peluria anche chimicamente con l'enzima cellulasi."
+    },
+    {
+     "d": "Che mano dà la smerigliatura?",
+     "giusta": "La tipica mano pesca o scamosciata",
+     "sbagliate": [
+      "Una mano secca",
+      "Una mano rigida e scabra",
+      "Una mano scivolosa"
+     ],
+     "spiegazione": "Si usano rulli ricoperti di materiale abrasivo."
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "parte": 2,
+   "titolo": "Uso del prodotto e mano del tessuto",
+   "domande": [
+    {
+     "d": "Da che cosa protegge il trattamento antitarme?",
+     "giusta": "Dall'attacco degli insetti sulla lana",
+     "sbagliate": [
+      "Dai microrganismi sulle fibre vegetali",
+      "Dalle cariche elettriche",
+      "Dalla formazione di pallottoline"
+     ],
+     "spiegazione": "L'antimuffa protegge invece le fibre vegetali dai microrganismi."
+    },
+    {
+     "d": "Con che cosa agiscono i trattamenti antipiega?",
+     "giusta": "Con resine ureiche che modificano la struttura delle fibre cellulosiche",
+     "sbagliate": [
+      "Con vapore a 135 °C",
+      "Con fiamme a gas",
+      "Con bagni di acetone"
+     ],
+     "spiegazione": "Riducono le sgualciture causate dall'uso."
+    },
+    {
+     "d": "Quale finissaggio è progettato per non essere assolutamente stirato?",
+     "giusta": "Il finissaggio non iron",
+     "sbagliate": [
+      "Il finissaggio sgocciola-asciuga",
+      "Il finissaggio lava-indossa",
+      "L'apprettatura"
+     ],
+     "spiegazione": "Lava-indossa rende superfluo il ferro da stiro; sgocciola-asciuga si asciuga appeso."
+    },
+    {
+     "d": "Che mano conferisce la garzatura?",
+     "giusta": "Morbida, calda e voluminosa",
+     "sbagliate": [
+      "Secca",
+      "Rigida e scabra",
+      "Scivolosa"
+     ],
+     "spiegazione": "Il bruciapelo dà mano secca, la lucidatura scivolosa."
+    },
+    {
+     "d": "Che cos'è l'apprettatura?",
+     "giusta": "Un trattamento temporaneo che dà mano sostenuta e liscia usando sostanze amidacee",
+     "sbagliate": [
+      "Un trattamento permanente con resine",
+      "Una tintura in capo",
+      "Una calandratura a pillone"
+     ],
+     "spiegazione": "Si può ammorbidire con cilindri rompi-appretto."
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "parte": 2,
+   "titolo": "Solidità del colore e prove",
+   "domande": [
+    {
+     "d": "Che cos'è la migrazione del colore?",
+     "giusta": "Il trasferimento del colore su un materiale tessile adiacente",
+     "sbagliate": [
+      "Lo scolorimento sotto vari agenti",
+      "La perdita di lucentezza",
+      "Il restringimento del tessuto"
+     ],
+     "spiegazione": "Lo scolorimento si chiama degrado."
+    },
+    {
+     "d": "Che cos'è la striscia multifibra?",
+     "giusta": "Un tessuto alto circa 10 cm con fili d'ordito di composizioni diverse, usato nelle prove",
+     "sbagliate": [
+      "Una scala di tessuti blu",
+      "Un apparecchio per lo sfregamento",
+      "Un contenitore metallico"
+     ],
+     "spiegazione": "Si cuce insieme al campione e a un testimone bianco."
+    },
+    {
+     "d": "Che cosa indica il valore 5 della scala dei grigi?",
+     "giusta": "Assenza di contrasto e solidità ottima",
+     "sbagliate": [
+      "Solidità debolissima",
+      "Contrasto maggiore",
+      "Solidità media"
+     ],
+     "spiegazione": "Il valore 1 indica contrasto maggiore e solidità debolissima."
+    },
+    {
+     "d": "Quanti campioni ha la scala dei blu, usata per la solidità alla luce?",
+     "giusta": "Otto",
+     "sbagliate": [
+      "Cinque",
+      "Dieci",
+      "Due"
+     ],
+     "spiegazione": "Il valore 8 indica solidità eccezionale."
+    },
+    {
+     "d": "Quali condizioni ha la prova di sfregamento con il crock-meter?",
+     "giusta": "Forza di 9 N, 10 sfregamenti su 10 cm in 10 secondi",
+     "sbagliate": [
+      "Forza di 5 kg per 4 ore",
+      "37 °C per 4 ore",
+      "30 sfregamenti in un minuto"
+     ],
+     "spiegazione": "Il peso di 5 kg per 4 ore a 37 °C riguarda il perspirometro."
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "parte": 2,
+   "titolo": "Controlli, sicurezza e norme tecniche",
+   "domande": [
+    {
+     "d": "A che serve il controllo centro-cimosa?",
+     "giusta": "A confrontare il tono del centro del tessuto con quello dei bordi",
+     "sbagliate": [
+      "A confrontare i due bordi opposti",
+      "A misurare la trazione",
+      "A verificare il pilling"
+     ],
+     "spiegazione": "Il controllo cimosa-cimosa confronta i due bordi."
+    },
+    {
+     "d": "Quale strumento misura la resistenza alla trazione?",
+     "giusta": "Il dinamometro",
+     "sbagliate": [
+      "Il perspirometro",
+      "Il linitest",
+      "La specula luminosa"
+     ],
+     "spiegazione": "Il pilling si misura con Random Tumble, ICI pilling box o Martindale."
+    },
+    {
+     "d": "Quali rischi derivano da acqua e soluzioni chimiche sui pavimenti?",
+     "giusta": "Scivolamento e cadute, da prevenire con stivali antisdrucciolo",
+     "sbagliate": [
+      "Ustioni da vapore",
+      "Asma da polveri",
+      "Avvelenamenti cronici"
+     ],
+     "spiegazione": "Gli stivali hanno puntale e lamina in acciaio."
+    },
+    {
+     "d": "Che cosa indica la sigla UNI EN ISO 105-E04:2013?",
+     "giusta": "Una norma nazionale, europea e internazionale sulla solidità del colore al sudore, nell'edizione del 2013",
+     "sbagliate": [
+      "Una norma solo tedesca sul pilling",
+      "Una norma statunitense sul peso",
+      "Una norma giapponese sul titolo"
+     ],
+     "spiegazione": "105 indica le prove di solidità, E04 il sudore, 2013 l'anno."
+    },
+    {
+     "d": "Quale ente normatore opera in Italia?",
+     "giusta": "L'UNI",
+     "sbagliate": [
+      "Il DIN",
+      "L'ASTM",
+      "Il JIS"
+     ],
+     "spiegazione": "DIN Germania, ASTM Stati Uniti, JIS Giappone."
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "parte": 2,
+   "titolo": "Tutela del consumatore e casi reali",
+   "domande": [
+    {
+     "d": "Che cos'è la formaldeide, secondo la lezione?",
+     "giusta": "Una sostanza irritante, classificata come cancerogena dall'Organizzazione Mondiale della Sanità",
+     "sbagliate": [
+      "Un colorante naturale",
+      "Un ausiliare ecologico",
+      "Un enzima"
+     ],
+     "spiegazione": "Può essere presente in capi d'importazione."
+    },
+    {
+     "d": "Dal 2002 che cosa è vietato nell'Unione Europea?",
+     "giusta": "I coloranti azoici con ammine aromatiche cancerogene",
+     "sbagliate": [
+      "I coloranti naturali",
+      "Il candeggio ottico",
+      "Il bruciapelo"
+     ],
+     "spiegazione": "Direttiva 2002/61/CE."
+    },
+    {
+     "d": "Che cos'è la silicosi?",
+     "giusta": "Una patologia polmonare irreversibile degli addetti alla sabbiatura dei jeans",
+     "sbagliate": [
+      "Una dermatite da coloranti",
+      "Un'allergia al cotone",
+      "Un'infezione batterica"
+     ],
+     "spiegazione": "La sabbiatura fu vietata in Turchia nel 2009."
+    },
+    {
+     "d": "Qual è l'unica strategia sostenibile per il tessile italiano?",
+     "giusta": "Investire in ricerca e innovazione ed esportare prodotti di alta qualità",
+     "sbagliate": [
+      "Applicare dazi doganali",
+      "Ridurre le norme di sicurezza",
+      "Eliminare le prove di laboratorio"
+     ],
+     "spiegazione": "I dazi e i contingenti si sono rivelati inefficaci."
+    },
+    {
+     "d": "Che cosa misura il metodo grab secondo UNI EN ISO 13935-2?",
+     "giusta": "La resistenza delle cuciture",
+     "sbagliate": [
+      "La solidità allo sfregamento",
+      "Il pilling",
+      "Il peso del tessuto"
+     ],
+     "spiegazione": "Nell'esempio, valori 16 in ordito e 25,8 in trama contro un requisito di 20."
+    }
+   ]
+  }
+ ]
+}

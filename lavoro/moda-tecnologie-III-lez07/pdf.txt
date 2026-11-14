@@ -1,0 +1,525 @@
+[[p1]]
+Tecnologie dei materiali e dei processi produttivi e organizzativi della moda.
+Lezione 7.
+Prof.ssa Caputi Piera
+Nobilitazione
+Parte II
+La lezione tratta dei diversi trattamenti di nobilitazione tessile, delle procedure di laboratorio per il controllo
+qualità e la solidità del colore e delle relative normative tecniche e di sicurezza per la tutela della salute e
+del consumatore.
+[[p2]]
+I trattamenti di nobilitazione tessile hanno lo scopo di migliorare il tessuto e di
+renderlo più adatto alle esigenze del consumatore. Per scegliere quale trattamento
+effettuare, è necessario valutare due parametri fondamentali: la composizione
+chimico-fibrosa del prodotto e l'effetto desiderato. Tutte le lavorazioni possono
+essere eseguite sia in continuo, lavorando rotoli di tessuto composti da più pezze
+cucite insieme, sia in discontinuo, trattando una pezza alla volta. Anche le macchine
+possono essere disposte in continuo, quando compiono operazioni consecutive una di
+seguito all'altra, o in discontinuo, costringendo gli operatori a spostare manualmente il
+tessile da una macchina alla successiva.
+L'evoluzione tecnologica ha permesso lo sviluppo di macchinari multiuso e flessibili,
+che possono essere organizzati secondo diversi schemi per la produzione.
+- sistemi di macchine discontinui, nei quali la medesima macchina esegue
+diverse fasi di lavorazione in successione, garantendo un'elevata flessibilità per
+produzioni limitate ma richiedendo costi elevati di manodopera e offrendo una
+qualità di prodotto non sempre omogenea;
+- sistemi di macchine continui, in cui i macchinari sono disposti in linea come una
+catena per eseguire sempre lo stesso tipo di lavorazione, garantendo alta
+[[p3]]
+uniformità qualitativa per produzioni elevate con bassi costi di manodopera ma
+investimenti elevati per l'attrezzatura;
+- sistemi di macchine semicontinui, che integrano fasi in continuo e fasi in
+discontinuo, necessitando della cucitura delle pezze in rotoli per saturare
+l'impianto.
+La classificazione delle nobilitazioni può essere effettuata secondo diversi criteri per
+rispondere a specifiche esigenze. Le principali suddivisioni riguardano le tecnologie
+impiegate, il tempo di permanenza sul prodotto e gli effetti finali sul tessuto.
+Prendendo in considerazione le tecnologie e i mezzi utilizzati nei processi, si
+distinguono diverse tipologie di trattamento.
+- nobilitazioni a umido, eseguite sul tessile bagnato e suddivise in trattamenti per
+esaurimento, che prevedono l'immersione del materiale in un bagno pieno, e
+trattamenti per foulardaggio, basati sull'impregnazione con piccole quantità di
+liquido;
+- nobilitazioni a secco, che vengono realizzate su tessuti asciutti e in ambienti
+asciutti;
+- nobilitazioni fisiche, che comprendono lavorazioni meccaniche o termiche
+[[p4]]
+eseguite mediante l'impiego di vapore, aria, gas o superfici metalliche riscaldate
+ad alte temperature;
+- nobilitazioni chimiche, che fanno ricorso ad ausiliari di diversa natura, come
+enzimi o resine, per conferire proprietà particolari altrimenti impossibili da
+ottenere.
+In base alla durata del trattamento e alla sua resistenza ai trattamenti di manutenzione
+e all'uso, si individuano:
+- trattamenti permanenti, che incidono sulla struttura intima della fibra e
+rimangono inalterati nel tempo;
+- trattamenti durevoli, che si usurano nel corso del tempo perdendo
+progressivamente la loro intensità;
+- trattamenti semidurevoli, che mantengono la loro efficacia solo per un numero
+limitato di cicli di manutenzione;
+- trattamenti temporanei, che perdono gran parte del loro effetto già con i primi
+cicli di manutenzione.
+Se si considera invece l'obiettivo finale che la lavorazione si propone sul prodotto, le
+nobilitazioni possono essere suddivise in categorie precise.
+[[p5]]
+- nobilitazioni che agiscono sull'aspetto esteriore, destinate a modificare le proprietà
+estetiche;
+- nobilitazioni che rendono più stabili le dimensioni, finalizzate a scopi prettamente
+funzionali;
+- nobilitazioni che agiscono sul pelo, destinate a scopi sia estetici che funzionali;
+- nobilitazioni che modificano o migliorano l'uso del prodotto, orientate a finalità
+funzionali;
+- nobilitazioni che modificano la mano del tessuto, destinate a scopi sia estetici che
+funzionali.
+Le lavorazioni che agiscono sull'aspetto esteriore del tessuto hanno una funzione
+prevalentemente estetica, pur potendo influenzare altre caratteristiche come la
+stabilità dimensionale o la mano del materiale. Tra queste operazioni spicca il
+candeggio, detto anche sbianca, che consiste nel rendere bianco il materiale tessile
+eliminando le colorazioni naturali dal beige al bruno, spesso associate a sudiciume o
+degrado. Questo trattamento chimico a umido, pur potendo indebolire le fibre, è
+considerato permanente poiché un secondo trattamento, anche domestico, può
+ripristinare il bianco in caso di successivo ingiallimento della lana o della seta.
+[[p6]]
+Oltre alla valenza estetica, il candeggio ha una funzione funzionale poiché prepara il
+tessuto a trattamenti successivi come la prima tintura o la stampa. In passato veniva
+eseguito in modo naturale esponendo il lino al sole sul prato, mentre oggi si utilizzano
+procedimenti a umido differenziati a seconda della fibra. Per le fibre vegetali si
+impiegano ipocloriti, acqua ossigenata e soluzioni diluite di soda caustica all'interno di
+recipienti a forma di J, in cui il tessuto scorre continuamente. Per la lana si ricorre a
+fumigazioni con anidride solforosa o a bagni di acqua ossigenata, soluzione utilizzata
+anche per la seta. Per coprire colorazioni residue si può eseguire il candeggio ottico
+con coloranti fluorescenti, oppure il candeggio elettrolitico, in cui la corrente elettrica
+decompone il cloruro di sodio per produrre ipoclorito di sodio. Anche le fibre artificiali e
+sintetiche possono essere trattate con prodotti analoghi, sebbene spesso non ne
+abbiano bisogno o rispondano male al processo.
+Il carbonissaggio è un'operazione chimica specifica per i tessili di lana volta a
+eliminare le impurità vegetali. Questo trattamento garantisce una purezza estrema che
+favorisce l'uniformità delle successive lavorazioni, in particolare della tintura. Si applica
+soprattutto ai tessuti cardati, ricchi di impurità, ed è indispensabile per quelli realizzati
+con cascami o stracci, mentre è meno frequente sui tessuti pettinati. Il processo
+[[p7]]
+prevede l'utilizzo di acido solforico che distrugge i residui vegetali senza danneggiare
+la lana, a patto che venga completamente rimosso con un successivo lavaggio.
+La mercerizzazione, ideata dal chimico John Mercer nel 1791 e brevettata nel 1866, è
+un trattamento a umido destinato alle fibre cellulosiche per migliorarne la lucentezza e
+la resistenza. I risultati di questa operazione si riflettono sia sull'aspetto estetico che su
+quello funzionale. I principali effetti consistono nel rigonfiamento e aumento di
+spessore delle fibre, nella loro tendenza ad accorciarsi, in un aspetto più lucente, in
+un incremento della resistenza del 20%, in una maggiore stabilità dimensionale, in
+una mano più sostenuta, in una migliore risposta alla tintura, in un limitato fenomeno di
+pilling e nella riduzione dello sbilanciamento torsionale causato dalla tessitura. Si tratta
+di un trattamento durevole che mantiene i suoi effetti per l'intera vita del prodotto,
+riducendo solo gradualmente la brillantezza. Per eseguire la lavorazione si immerge il
+filato o il tessuto in una soluzione fredda contenente il 15% o il 20% di soda caustica.
+In alternativa, per ridurre l'impatto ambientale e i costi, si può utilizzare ammoniaca
+liquida in macchinari specifici, ottenendo un incremento della resistenza del 40%
+rispetto al prodotto non trattato. La mercerizzazione può essere effettuata anche con
+metodi fisici tendendo il materiale in lunghezza e lasciandolo libero in larghezza,
+[[p8]]
+ottenendo un'estensibilità limitata senza elasticità. Su tessuti di cotone fine si può
+eseguire una doppia mercerizzazione intervallata da un trattamento acido per ottenere
+la trasparentizzazione del prodotto. Il processo è applicabile anche alla maglia tubolare
+con opportuni accorgimenti.
+La calandratura, o schiacciatura, è un trattamento fisico a secco che consiste nella
+pressatura del tessuto per assottigliarlo, aumentandone la lucentezza e conferendo
+una mano più compatta e ferma. L'effetto è generalmente temporaneo, ma può
+diventare permanente sulle fibre termoplastiche, con l'uso di resine termoindurenti o
+nel trattamento a pillone. Può essere eseguito su maglieria in aperto o tubolare e
+talvolta permette di ottenere tessuti che non necessitano di stiratura. L'operazione
+meccanica si realizza facendolo passare attraverso le calandre, macchine composte
+da una o più coppie di cilindri che esercitano una pressione regolare su tutta l'altezza. I
+cilindri possono essere elastici o rigidi in acciaio o ghisa, cromati o nichelati, e
+riscaldati internamente tramite vapore, elettricità o fluidi. Se i cilindri ruotano alla
+stessa velocità esercitano una semplice pressione, mentre se ruotano a velocità
+differenti sottopongono il tessuto a frizione. Le calandre sono macchine multifunzionali
+impiegate anche per opacizzare, lucidare, increspare, goffrare o marezzare. Un tipo
+[[p9]]
+particolare è la calandratura a pillone, utilizzata per i tessuti di lino da tavola, in cui
+grandi martelli di legno percuotono il filato appiattendolo in modo permanente per
+chiudere gli spazi dell'intreccio e ottenere una superficie lucida e compatta.
+La pressatura a costine è un trattamento fisico a secco e semidurevole che consiste
+nell'applicare una forte pressione sul tessuto mediante un cilindro d'acciaio inciso con
+linee sottilissime. Questo processo permette di ottenere una migliore riflessione della
+luce e una lucentezza serica, ed è solitamente impiegato su tessuti di scarso valore o
+già mercerizzati, con i quali può essere confuso per l'effetto finale.
+La lucidatura è una nobilitazione chimica e fisica a umido, semidurevole, applicata
+soprattutto ai tessuti in cotone per incrementarne la lucentezza superficiale. Il
+procedimento prevede l'applicazione di una sospensione di amido come collante che,
+asciugandosi, crea una patina protettiva. Successivamente, il tessuto passa ad alta
+temperatura e pressione tra due cilindri d'acciaio incisi con sottilissime righe diagonali,
+dove un cilindro trascina il materiale e l'altro lo leviga. Un classico esempio di tessuto
+lucido ottenuto con questo metodo è il chintz, caratterizzato da un'armatura fine e
+compatta e da una mano scivolosa.
+L'increspatura, nota anche come crespatura o arricciatura, conferisce al tessuto
+[[p10]]
+un aspetto rugoso e una mano più secca. Questo effetto è caratteristico di molti tessuti
+di seta, ma può essere realizzato su quasi tutte le fibre. Il trattamento è permanente
+sulle fibre termoplastiche, mentre è temporaneo sulle altre fibre come quelle
+cellulosiche, che richiedono un pretrattamento con resine termoplastiche per
+prolungarne la durata. L'operazione può avvenire per via fisica, utilizzando cilindri
+caldi, o per via chimica, impiegando sostanze specifiche. In entrambi i casi si provoca
+la contrazione del tessuto in zone predefinite creando dei minirilievi. I tessuti con
+minirilievi leggeri sono definiti crêpe o crepelle, mentre quelli con rilievi più pronunciati
+sono detti crepòn. L'effetto increspato può essere ottenuto anche senza nobilitazione
+chimica o fisica, utilizzando filati molto ritorti, intrecci crêpe o fili a tensioni differenti nei
+tessuti rigati, denominati in questo caso seersucker.
+La goffratura, o bugnatura, rappresenta una forma di increspatura pronunciata che si
+distingue per il motivo tridimensionale che assume una chiara terza dimensione. Per
+accentuare ulteriormente il rilievo, si inseriscono spesso fibre di elastan che fanno
+contrarre il tessuto in punti specifici. Il processo si realizza tramite calandre con cilindri
+incisi con motivi svariati. Una variante particolare è la stropicciatura con andamento
+disordinato, spesso definita froissé.
+[[p11]]
+La marezzatura, o marmorizzazione, è una nobilitazione che crea sul tessuto un
+aspetto simile alle onde del mare, dove la luce si riflette in modo non omogeneo e
+sembra muoversi con il movimento del prodotto. L'effetto risalta in particolare sui
+tessuti con trame più grosse rispetto agli orditi e sui tessuti leggeri di seta. La stabilità
+del disegno è elevata o permanente sugli acetati e sulle fibre sintetiche, mentre è
+breve sulla viscosa e poco più duratura sulla seta; per renderla permanente sui tessuti
+in cotone è necessario un pretrattamento chimico. Il processo si basa sull'azione
+combinata di pressione e calore facendo passare il tessuto tra due cilindri, uno dei
+quali solcato, con contemporanea immissione di vapore ad alta temperatura, creando
+così una diffrazione della luce sulla superficie.
+La ceratura, l'oleatura e la gommatura sono nobilitazioni chimiche applicate a secco
+principalmente su fibre naturali vegetali come cotone e lino, ma talvolta anche sulla
+lana. Questi trattamenti hanno una permanenza variabile e si caratterizzano per il fatto
+che la ceratura copre interamente l'intreccio di fondo del tessuto. Storicamente
+utilizzati per produrre capi impermeabili antipioggia e antivento, come le vecchie
+mantelle dei pompieri, questi processi sono stati oggi quasi interamente sostituiti da
+resinature e siliconature, venendo considerati i precursori dei moderni tessuti tecnici.
+[[p12]]
+I tessili sottoposti a ceratura, oleatura o gommatura richiedono una manutenzione
+attenta, in quanto alcuni non tollerano il lavaggio a secco, mentre altri rischiano di
+perdere l'effetto impermeabilizzante se lavati ad acqua.
+Le nobilitazioni che rendono più stabili le dimensioni hanno l'obiettivo prevalentemente
+funzionale di limitare il restringimento dei tessili sottoposti a lavaggio o manutenzione
+ordinaria utilizzando calore, sostanze chimiche e vapore. Le principali lavorazioni di
+questo tipo si classificano in una lista precisa.
+- cloraggio, eseguito su filati o tessuti di lana destinati a maglieria intima e calze,
+che sfrutta ipocloriti di calcio o di sodio per degradare le squame della fibra
+rendendola irrestringibile;
+- decatissaggio, applicato ai tessuti lanieri in autoclave con vapore sotto pressione
+a temperature fino a 135 °C per conferire stabilità dimensionale permanente e
+pienezza, eliminando l'aspetto lucido indotto da altre lavorazioni;
+- follatura, destinata alla lana, che provoca un infeltrimento controllato a umido con
+calore, sapone e sfregamento meccanico, per ottenere un tessuto compatto detto
+lana cotta;
+- trattamento london, ideato dai lanaioli di Londra per la sartoria, che stabilizza
+[[p13]]
+la lana avvolgendola in coperte bagnate per almeno 20 ore per farle assorbire
+umidità prima di asciugarla lentamente;
+- ramatura, o stiro, che assesta altezza, lunghezza e peso dei tessuti in umido o a
+secco tramite la macchina rameuse;
+- sanforizzazione, trattamento brevettato per fibre vegetali che ne previene il ritiro
+comprimendole meccanicamente su un nastro di gomma dopo averle bagnate e
+vaporizzate, completando il tutto con calandre asciugatrici;
+- trattamento superwash, ideato dal Segretario Internazionale della Lana, che
+rende la lana lavabile in lavatrice garantendo un restringimento massimo del 3%
+in lunghezza e del 1% in larghezza grazie a cloraggio e resine speciali;
+- trubenissaggio, processo chimico che irrigidisce i colli e i polsi delle camicie
+immergendo il tessuto cellulosico in un bagno di acetone prima della pressatura;
+- vaporissaggio, il sistema più utilizzato per stabilizzare i tessuti eliminando difetti
+come la mano rigida tramite vapore erogato da tubi perforati in apposite camere.
+Le nobilitazioni che agiscono sul pelo hanno lo scopo di estrarre o lavorare le fibre
+superficiali per ottenere tessuti pelosi, caldi e morbidi. Questi trattamenti si classificano
+in base alle azioni meccaniche o termiche svolte.
+[[p14]]
+- cardatura e garzatura, che estraggono il pelo per creare un aspetto peloso
+usando cardi vegetali per le lane pregiate come il cashmere o punte metalliche
+montate su macchine garzatrici per gli altri tessuti, spesso dopo una follatura
+preventiva per evitare la felpatura;
+- spazzolatura, che segue la garzatura per sollevare e districare le fibre
+rendendole parallele con apposite spazzole a spilli;
+- cimatura, eseguita con una macchina cimatrice dotata di lame elicoidali che
+tagliano le fibre a altezza uniforme o creano disegni;
+- pressatura, che consiste nell'appiattimento del pelo per orientarlo o lasciarlo non
+orientato a seconda del tessuto desiderato, come il loden o la flanella;
+- elettrizzatura, utilizzata soprattutto per le pellicce sintetiche per mantenere i peli
+sollevati e lucidi con l'ausilio di resine e calore;
+- ratinatura, che aggroviglia il pelo formando pallottoline per ottenere l'effetto pilling
+voluto tipico del tessuto casentino;
+- bruciapelo, o gasatura, che elimina la peluria superficiale facendo passare il
+tessuto rapidamente sopra una fiammella a gas a velocità tra 60 e 120 m/min,
+oppure chimicamente con l'enzima cellulasi;
+[[p15]]
+- smerigliatura, che solleva una cortissima peluria abrasiva per conferire la tipica
+mano pesca o scamosciata mediante rulli ricoperti di materiale abrasivo.
+Una curiosità storica riguarda la macchina per la cardatura ideata da Leonardo da
+Vinci, che cercò di migliorare questo processo. Le nobilitazioni che migliorano l'uso del
+prodotto sono finissaggi funzionali volti a eliminare i difetti della fibra o della tessitura.
+Queste operazioni si classificano in base al tipo di protezione o stabilità fornita al
+consumatore.
+- trattamento antimuffa, che protegge le fibre vegetali dai microrganismi usando
+prodotti batteriostatici come sali di rame o derivati del fenolo, specialmente per
+articoli esposti all'umidità;
+- antitarme, specifico per la lana, che impregna le fibre con sostanze chimiche o
+rimedi ecologici come l'infiorescenza di lavanda per prevenire l'attacco degli
+insetti;
+- trattamenti antipiega, che utilizzano resine ureiche per modificare la struttura
+intima delle fibre cellulosiche riducendo le sgualciture causate dall'uso;
+- pressatura permanente, che memorizza la forma del capo tramite l'applicazione
+di resine reticolanti e calore per mantenere la piega dei pantaloni o creare
+[[p16]]
+plissettature resistenti al lavaggio;
+- antiscorrimento, che blocca lo spostamento dei fili di trama e ordito nei tessuti a
+trama rada immergendoli in resine sintetiche sotto tensione;
+- trattamento antistatico, che elimina le cariche elettriche dalle fibre sintetiche
+applicando sostanze chimiche o incorporando materiali conduttori come carbonio,
+acciaio o argento;
+- antipilling, volto a limitare la formazione di pallottoline su lana e fibre chimiche a
+taglio laniero tramite cloraggio o resine specifiche.
+Per i trattamenti antipiega si adotta una classificazione commerciale standard basata
+sulla manutenzione.
+- finissaggio lava-indossa, che rende superfluo l'uso del ferro da stiro;
+- finissaggio sgocciola-asciuga, in cui la piega scompare lasciando asciugare il
+capo bagnato appeso;
+- finissaggio easy-care, che garantisce una manutenzione estremamente facile;
+- finissaggio non iron, progettato per non essere assolutamente stirato;
+- finissaggio wrinkle free, che previene attivamente la formazione di grinze sul
+tessuto.
+[[p17]]
+La lana e le fibre sintetiche richiedono soluzioni specifiche per evitare lo
+stropicciamento, mentre un problema comune per i tessuti d'abbigliamento riguarda la
+scelta di cucirini che non provochino grinze dopo il lavaggio, spesso risolto con
+fettucce termoadesive. Molte delle nobilitazioni descritte modificano la mano del
+tessuto, rendendola più secca, rigida o calda, anche se questo non costituisce il loro
+scopo primario. Le caratteristiche tattili ottenute si classificano in base alla lavorazione
+effettuata sul materiale:
+- bruciapelo, che determina una mano secca;
+- calandratura, che conferisce una mano solida e ferma;
+- ceratura, che produce una mano sostenuta, quasi rigida e scabra;
+- garzatura, che dona una mano morbida, calda e voluminosa;
+- goffratura, che assicura una mano piena e voluminosa;
+- increspatura, che determina una mano ruvida e secca;
+- lucidatura, che offre una mano scivolosa;
+- mercerizzazione, che garantisce una mano sostenuta.
+Un finissaggio specificamente ideato per modificare la mano è l'apprettatura, un
+trattamento temporaneo che conferisce una mano sostenuta e liscia aumentando
+[[p18]]
+il peso e la resistenza del tessuto. Il processo impiega sostanze amidacee come
+collanti e può essere ammorbidito facendolo passare attraverso cilindri rompi-appretto
+se l'effetto finale risulta eccessivamente rigido. Le moderne tecnologie includono
+l'applicazione di nanotecnologie ispirate alle foglie di loto per rendere il cotone
+autopulente, in grado di respingere lo sporco e distruggere i batteri sotto l'azione della
+luce.
+La solidità del colore rappresenta la capacità di un materiale tessile di conservare il
+medesimo tono cromatico iniziale durante le fasi di utilizzo e manutenzione, senza
+subire degradazione e senza scaricare colore su altri tessuti adiacenti. La mancanza di
+questa caratteristica costituisce un difetto occulto che si manifesta solo con l'uso. Le
+principali alterazioni del colore si dividono in due fenomeni distinti.
+- lo scolorimento del materiale sottoposto all'azione di vari agenti, noto come
+degrado;
+- il trasferimento del colore su un materiale tessile adiacente, denominato
+migrazione.
+La responsabilità di questi difetti ricade sui diversi attori della filiera produttiva.
+- filatori per le problematiche relative ai filati;
+[[p19]]
+- tessitori per i difetti riscontrati sui tessuti;
+- confezionisti nel caso di prodotti tinti in capo.
+I venditori sono invece i diretti responsabili verso il consumatore finale per i prodotti
+esposti, pur potendo rivalersi sui propri fornitori. Per verificare l'idoneità all'uso
+previsto, si eseguono molteplici prove di laboratorio che analizzano il comportamento
+del colore rispetto a diversi agenti come i lavaggi, lo sfregamento, la luce, il sudore e
+l'acqua di mare.
+Le alterazioni cromatiche si classificano in base alle circostanze in cui si verificano.
+- alterazioni dovute all'indosso, che comprendono lo sfregamento a secco e a
+umido, il sudore acido e basico, la pioggia e l'esposizione alla luce;
+- alterazioni dovute alla manutenzione, come il lavaggio in acqua o a secco con
+diversi solventi, l'azione di agenti candeggianti, l'asciugatura al sole e la stiratura;
+- alterazioni dovute a usi particolari, che comprendono l'esposizione all'acqua di
+piscina o di mare, lo sfregamento sulla sabbia e il contatto con la saliva.
+Per eseguire queste complesse misurazioni ci si affida a laboratori specializzati che
+utilizzano la striscia multifibra, ovvero un tessuto alto circa 10 cm i cui fili d'ordito
+presentano composizioni diverse come acetato, cotone, poliammide, poliestere,
+[[p20]]
+acrilico e lana. Per effettuare il test si prepara una provetta composta cucendo insieme
+su uno dei lati corti la striscia multifibra, il campione di tessuto da analizzare e un
+tessuto bianco di identica composizione del campione che funge da testimone.
+La lettura dei risultati si esprime tramite valori numerici ricavati da apposite scale di
+confronto. La valutazione del degrado e dello scarico avviene mediante la scala dei
+grigi, che presenta cinque coppie di colore grigio corrispondenti a diversi livelli di
+contrasto. Il valore 1 indica il contrasto maggiore e una solidità debolissima, mentre il
+valore 5 indica l'assenza di contrasto e una solidità ottima. Per determinare la
+resistenza alla luce solare o artificiale si utilizza invece la scala dei blu, costituita da
+otto campioni di tessuto blu con diverse tonalità. Il valore 1 indica una solidità
+debolissima con contrasto elevatissimo, mentre il valore 8 corrisponde a una solidità
+eccezionale con contrasto nullo. L'esposizione alla luce viene effettuata coprendo
+metà del campione e inserendolo nel Solarbox, un apparecchio che simula la luce
+solare attraverso una lampada ad arco allo xeno per poi confrontare la parte esposta
+con quella protetta.
+Le specifiche prove di solidità seguono procedure e strumenti normati. La prova di
+solidità allo sfregamento si esegue sia a secco che a umido tramite il crock-meter,
+[[p21]]
+uno strumento tarato per applicare una forza di 9 N (newton) attraverso un cilindro di
+16 mm di diametro rivestito con un testimone di cotone bianco. Il test si realizza
+compiendo 10 sfregamenti su una lunghezza di 10 cm in un tempo di 10 secondi.
+Esiste anche un test empirico rapido consistente nello sfregare manualmente un
+tessuto di cotone bianco sul campione per riscontrare un eventuale scarico visivo. La
+solidità al sudore umano si verifica inserendo la provetta composta nel perspirometro
+sotto un peso di 5 kg per 4 ore alla temperatura di 37 °C, utilizzando soluzioni che
+simulano il sudore acido e basico. Per la solidità al lavaggio e all'acqua si posiziona
+la provetta all'interno di contenitori metallici inseriti nel linitest, un apparecchio
+riscaldato in cui i contenitori ruotano in un bagno termostatico. Si utilizza acqua
+distillata e sapone neutro per il lavaggio ad acqua, percloroetilene per il lavaggio a
+secco e una soluzione di acqua e perborato per verificare la resistenza ai
+candeggianti. La differenza principale tra la prova di lavaggio e quella all'acqua
+riguarda la fase di asciugatura. Nel lavaggio la provetta viene scucita prima di essere
+asciugata in piano affinché le parti non si tocchino. Nella prova all'acqua la provetta
+umida non viene scucita ma viene compressa sotto un peso di 5 kg per 4 ore a 37 °C
+in forno, simulando il comportamento di un capo umido lasciato ripiegato. Tutti i
+[[p22]]
+risultati di queste prove vengono espressi tramite la scala dei
+grigi.
+Oltre a queste analisi si effettuano ulteriori controlli sul colore.
+La verifica dell'aspetto visivo si realizza sotto la specula
+luminosa per individuare macchie, difetti di stampa o
+imperfezioni. Il controllo del tono colore tra pezze provenienti
+da lotti differenti avviene montando un campione di ciascuna
+pezza su un cartoncino per confrontarli visivamente, stabilendo
+limiti di tolleranza in base alla fascia qualitativa del mercato.
+Per rilevare le differenze di tono all'interno dello stesso rotolo si
+eseguono due specifiche analisi:
+- controllo centro-cimosa, che confronta il tono cromatico
+del centro del tessuto con quello dei bordi;
+- controllo cimosa-cimosa, che confronta il tono tra i due
+bordi opposti.
+Questi test si eseguono accostando strisce di tessuto lunghe
+circa 20 cm, denominate manichette, prima della stesura a
+[[p23]]
+materasso in confezione, programmando controlli a campione in base all'affidabilità del
+fornitore.
+Le lavorazioni modificano anche le caratteristiche meccaniche del tessuto, verificate in
+laboratorio tramite specifiche analisi fisico-meccaniche. Si misura la resistenza alla
+trazione e alla stramatura con il dinamometro, mentre la resistenza al pilling si
+determina con il Random Tumble Pilling Tester, l'ICI pilling box tester o
+l'apparecchio Martindale. Molti di questi test presentano elementi di soggettività e
+richiedono accordi specifici tra le parti commerciali per stabilire i livelli qualitativi
+accettabili, come accade per la valutazione visiva e tattile della garzatura. I trattamenti
+industriali presentano pericoli significativi per la salute degli operatori, legati a fattori
+specifici:
+- alte temperature e l'uso del vapore nelle macchine di asciugatura o
+vaporizzazione, che possono causare gravi ustioni e impongono l'isolamento
+termico degli impianti e l'uso obbligatorio di guanti a isolamento termico;
+- presenza costante di acqua e soluzioni chimiche sui pavimenti, che aumenta il
+rischio di scivolamento e cadute;
+- contatto diretto con i coloranti e gli ausiliari chimici, che può provocare dermatiti
+[[p24]]
+cutanee e asma bronchiale dovuto all'inalazione di polveri;
+- emissioni atmosferiche nocive o maleodoranti provenienti dai processi industriali e
+dagli impianti di trattamento delle acque di scarico.
+Per prevenire i rischi di caduta sui pavimenti bagnati, i lavoratori devono calzare stivali
+in PVC e nitrile dotati di puntale e lamina in acciaio, suola ergonomica, antistatica e
+antisdrucciolo. Nei reparti di preparazione dei coloranti è obbligatorio indossare
+occhiali protettivi per evitare schizzi negli occhi e mascherine per prevenire l'inalazione
+di polveri, oltre al divieto assoluto di mangiare, bere o fumare. L'esposizione non
+controllata a sostanze tossiche come la formaldeide, le ammine aromatiche e i metalli
+pesanti come il nichel e il piombo può causare avvelenamenti cronici e patologie
+tumorali a vescica, reni e fegato. Le molestie olfattive all'interno dello stabilimento
+derivano da sorgenti precise:
+- fumi generati dal processo di bruciapelo;
+- gas solforati dal tipico odore di uova marce emessi durante le operazioni di tintura
+con coloranti allo zolfo;
+- vapori acidi derivanti dall'impiego di acido acetico nelle fasi di lavaggio e
+finissaggio;
+[[p25]]
+- esalazioni emanate dai fanghi delle vasche di depurazione delle acque reflue.
+La legislazione impone l'adozione di idonei impianti di aspirazione dei fumi e dell'aria e
+un costante ricambio d'aria naturale o forzato all'interno dei locali di lavoro.
+I controlli e le metodologie di analisi fanno riferimento a standard tecnici definiti da
+organismi nazionali e internazionali. I principali enti normatori si classificano in base al
+loro ambito territoriale:
+- l'ente UNI, attivo in Italia;
+- l'ente DIN, operante in Germania;
+- l'ente BS, di riferimento nel Regno Unito;
+- l'ente EN, valido a livello europeo;
+- l'ente ASTM, utilizzato negli Stati Uniti;
+- l'ente JIS, applicato in Giappone;
+- l'ente GB, in vigore in Cina;
+- l'ente ISO, riconosciuto a livello internazionale.
+Ogni norma tecnica è identificata da una sigla che ne definisce l'origine, un numero
+progressivo e l'anno di pubblicazione. Ad esempio, la codifica UNI EN ISO 105-
+E04:2013 indica una norma valida a livello nazionale, europeo e internazionale,
+[[p26]]
+in cui la serie 105 descrive le prove di solidità del colore, la sigla E04 definisce il
+metodo specifico per la solidità al sudore e il numero 2013 indica l'anno di
+emissione dell'aggiornamento. Le prove sui filati comprendono la determinazione
+della torsione con la norma UNI EN ISO 2061:2010, del titolo con la UNI EN ISO
+2060:1997, della resistenza alla trazione con la UNI EN ISO 2062:2010, dell'elasticità
+con la UNI 4818-24:1992, del restringimento con la UNI EN ISO 12590:2002 e
+dell'umidità legale con la ISO 6741 o la UNI 1335. Per i tessuti si applicano norme
+come la UNI EN 12127:1999 per la determinazione del peso, la ISO 6330:2012 per la
+stabilità dimensionale e la UNI EN ISO 12945 per la determinazione del pilling tramite
+strumenti Martindale o ICI pilling box.
+In Italia la consultazione e l'acquisto delle norme tecniche avvengono presso i Punti
+UNI presenti sul territorio nazionale. Le analisi di laboratorio verificano non solo le
+prestazioni del materiale, ma anche i requisiti di idoneità all'uso e di tutela della salute
+del consumatore. Molti capi di abbigliamento d'importazione, in particolare quelli
+provenienti dalla Cina, possono contenere quantità elevate di formaldeide, una
+sostanza altamente irritante per gli occhi, la pelle e le vie respiratorie, classificata
+come cancerogena dall'Organizzazione Mondiale della Sanità. In diversi paesi
+[[p27]]
+extraeuropei è ancora consentito l'uso di coloranti azoici contenenti ammine
+aromatiche cancerogene, vietate nell'Unione Europea a partire dal 2002 attraverso la
+Direttiva 2002/61/CE. Un ulteriore grave pericolo per la salute legato alla lavorazione
+dei tessili è la silicosi, una patologia polmonare irreversibile che colpisce gli operatori
+addetti alla sabbiatura dei jeans con sabbia contenente silice cristallina. Questo
+trattamento è stato vietato dal Ministero della salute della Turchia nell'anno 2009.
+La disparità legislativa tra i paesi dell'Unione Europea e i produttori extraeuropei ha
+forti ripercussioni economiche. Le aziende extraeuropee, libere da rigidi vincoli di
+sicurezza sul lavoro e tutela ambientale, riducono notevolmente i costi operativi
+ottenendo un significativo vantaggio competitivo sul mercato globale. I tentativi di
+arginare questo fenomeno attraverso l'applicazione di dazi doganali e contingenti
+d'importazione si sono rivelati inefficaci, soprattutto a causa della recente abolizione
+dei dazi per alcuni paesi asiatici. L'unica strategia sostenibile per il settore tessile
+italiano risiede negli investimenti costanti in ricerca e innovazione, abbinati a una forte
+esportazione di prodotti di alta qualità verso mercati ricchi come la Cina, la Russia e gli
+Emirati Arabi.
+L'osservazione dei prodotti reali permette di individuare anomalie visive e difetti di
+[[p28]]
+lavorazione. Un esempio è dato dalla combinazione di stampa e ricamo
+nell'abbigliamento infantile, dove una stampa realizzata sul rovescio può trasparire sul
+diritto del tessuto, sovrapponendosi in modo imprevisto al ricamo esterno. Nel settore
+dei costumi da bagno, si riscontra frequentemente il problema dello scarico del colore
+in acqua fredda, che causa una vistosa migrazione del colorante. Per studiare queste
+problematiche si effettuano prove di tintura sperimentali utilizzando coloranti naturali.
+Le diverse tecniche di finissaggio modificano sensibilmente l'aspetto e la consistenza
+della maglieria. La maglia rasata può essere sottoposta a garzatura, lavaggio,
+ammorbidimento e vaporizzazione con l'inserimento di un filato bouclé per ricreare
+l'aspetto compatto della lana cotta, oppure tinta in filo e garzata a pelo lungo per
+ottenere una superficie direzionata. Il jersey a tinta unita, tinto in pezza, può subire un
+processo di cinzatura per acquisire un effetto ottico di lucentezza brillante. Sulla maglia
+jacquard bicolore si effettuano operazioni di infeltrimento, ammorbidimento e
+decatissaggio per ottenere una mano piena e consistente. Nei tessuti operati come la
+maglia jacquard o la spugna bicolore lavorati a fil lancé, i fili flottanti vengono
+preventivamente tagliati prima di procedere a trattamenti quali la garzatura, il lavaggio,
+l'ammorbidimento e la cimatura delle boccole.
+[[p29]]
+Le valutazioni di laboratorio si classificano in base alla natura delle verifiche eseguite:
+- prove di solidità del colore, che misurano la resistenza del colorante ad agenti
+esterni come lo sfregamento a secco o il lavaggio a 40 °C;
+- prove fisico-meccaniche, che quantificano le prestazioni strutturali come la
+tenuta delle cuciture e la resistenza all'abrasione.
+I rapporti di prova emessi dai laboratori specializzati descrivono quantitativamente le
+prestazioni dei tessuti. Un test di solidità allo sfregamento a secco, eseguito secondo
+la norma UNI EN ISO 105-X12:2003, può evidenziare una parziale perdita di colore
+con un valore di scarico pari a 3 e un degrado pari a 5, indicando che il provino non ha
+subito alcuna alterazione di tono. Al contrario, la prova di solidità al lavaggio a 40 °C,
+regolata dalla norma UNI EN ISO 105-C06:2010, può registrare risultati inferiori con
+uno scarico pari a 2 e un degrado pari a 3. Le tabelle prestazionali per articoli specifici
+come i costumi da bagno riassumono il comportamento dei diversi colori esposti a
+fattori molteplici, misurando sistematicamente il cambio colore e lo stingimento su
+poliammide e cotone.
+Le analisi multiple su tessuti misti, come un articolo composto da 64% cotone, 31%
+lino e 5% poliuretano con una tolleranza del +/-3%, evidenziano le relazioni tra
+[[p30]]
+composizione e difettosità. La resistenza alle cuciture, misurata con il metodo grab
+secondo la norma UNI EN ISO N13935-2:2001, può rivelare valori di 16 in ordito e
+25,8 in trama, risultando parzialmente inferiore al requisito standard di 20. I test di
+resistenza all'abrasione eseguiti con l'apparecchio Martindale, in conformità alla norma
+UNI EN ISO 12947-4:2000, possono mostrare i primi segni di degrado a 7.000 cicli
+rispetto al limite ottimale di 10.000, raggiungendo la rottura completa a 14.000 cicli
+contro i 20.000 richiesti dallo standard. La valutazione finale di questi articoli complessi
+evidenzia spesso criticità cumulative, tra cui una mediocre tenuta delle cuciture, una
+scarsa resistenza all'usura, un forte degrado cromatico dopo il lavaggio a secco, la
+formazione di bastonature e pieghe permanenti dopo il lavaggio ad acqua, e la
+persistenza di aloni evidenti dovuti allo sfregamento.

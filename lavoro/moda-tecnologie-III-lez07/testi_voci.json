@@ -1,0 +1,147 @@
+[
+ {
+  "nome": "L7_BEN1",
+  "testo": "Benvenuta, benvenuto. In questa lezione continuiamo a parlare di nobilitazione tessile: i diversi trattamenti, il controllo della solidità del colore e le norme di sicurezza. In questa prima parte vediamo i trattamenti. Alla fine di ogni argomento trovi un breve quiz.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L7_BEN2",
+  "testo": "Benvenuta, benvenuto alla seconda parte. Dopo un breve ripasso, parleremo delle nobilitazioni che migliorano l'uso e la mano del tessuto, della solidità del colore, delle prove di laboratorio e delle norme.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L7_RP1",
+  "testo": "Ripasso della prima parte. I trattamenti si scelgono in base alla composizione della fibra e all'effetto desiderato. Possono essere a umido, a secco, fisici o chimici, e permanenti, durevoli, semidurevoli o temporanei. Abbiamo visto candeggio, carbonissaggio, mercerizzazione, calandratura, lucidatura, increspatura e marezzatura. Poi le lavorazioni per la stabilità dimensionale e quelle che agiscono sul pelo.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L7_M1",
+  "testo": "Mappa dell'argomento: trattamenti e sistemi di macchine. Per scegliere il trattamento si valutano la composizione della fibra e l'effetto desiderato. I sistemi di macchine sono discontinui, continui e semicontinui. I trattamenti si classificano in umidi, secchi, fisici e chimici.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L7_R1",
+  "testo": "Ricapitoliamo. Le lavorazioni possono essere in continuo o in discontinuo. I sistemi di macchine sono discontinui, flessibili ma costosi in manodopera, continui, uniformi ma con investimenti elevati, e semicontinui, che integrano le due fasi.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L7_M2",
+  "testo": "Mappa dell'argomento: durata e obiettivi. In base alla durata i trattamenti sono permanenti, durevoli, semidurevoli o temporanei. In base all'obiettivo agiscono sull'aspetto, sulle dimensioni, sul pelo, sull'uso o sulla mano. Il candeggio rende bianco il tessuto, il carbonissaggio elimina le impurità vegetali dalla lana.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L7_R2",
+  "testo": "Ricapitoliamo. I trattamenti si distinguono per durata e per obiettivo. Il candeggio elimina le colorazioni naturali e prepara a tintura e stampa. Il carbonissaggio, con acido solforico, elimina le impurità vegetali dalla lana.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L7_M3",
+  "testo": "Mappa dell'argomento: mercerizzazione, calandratura e lucidatura. La mercerizzazione, con soda caustica, dà lucentezza e resistenza. La calandratura preme il tessuto tra cilindri. La pressatura a costine dà una lucentezza serica. La lucidatura usa amido, come nel chintz. L'increspatura e la goffratura creano rilievi.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L7_R3",
+  "testo": "Ricapitoliamo. La mercerizzazione aumenta la resistenza del venti per cento. La calandratura assottiglia e rende lucido. La lucidatura dà il chintz. L'increspatura crea i crêpe, e la goffratura un rilievo tridimensionale.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L7_M4",
+  "testo": "Mappa dell'argomento: marezzatura, ceratura e stabilità dimensionale. La marezzatura crea l'effetto onda. La ceratura impermeabilizza. Per la stabilità ci sono cloraggio, decatissaggio, follatura, sanforizzazione, superwash e vaporissaggio.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L7_R4",
+  "testo": "Ricapitoliamo. La marezzatura dà l'aspetto a onde. Per rendere stabili le dimensioni si usano trattamenti diversi: decatissaggio per la lana, follatura per la lana cotta, sanforizzazione per le fibre vegetali, superwash per la lana lavabile.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L7_M5",
+  "testo": "Mappa dell'argomento: il pelo. La garzatura estrae il pelo, la spazzolatura lo districa, la cimatura lo taglia, la pressatura lo appiattisce. La ratinatura crea pallottoline. Il bruciapelo elimina la peluria. La smerigliatura dà la mano pesca.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L7_R5",
+  "testo": "Ricapitoliamo. Per lavorare il pelo si garza, si spazzola, si cima e si preme. Con la ratinatura si ottengono pallottoline volute, con il bruciapelo si elimina la peluria, con la smerigliatura una mano scamosciata.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L7_M6",
+  "testo": "Mappa dell'argomento: uso e mano del tessuto. I trattamenti migliorano l'uso: antimuffa, antitarme, antipiega, pressatura permanente, antiscorrimento, antistatico e antipilling. Per la mano c'è l'apprettatura. Le nanotecnologie ispirate al loto rendono il cotone autopulente.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L7_R6",
+  "testo": "Ricapitoliamo. Antimuffa e antitarme proteggono le fibre. L'antipiega riduce le sgualciture. La mano dipende dalla lavorazione: secca con il bruciapelo, morbida con la garzatura, sostenuta con la mercerizzazione. L'apprettatura dà una mano liscia.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L7_M7",
+  "testo": "Mappa dell'argomento: solidità del colore. Le alterazioni sono il degrado e la migrazione. Si provano con la striscia multifibra. Le scale sono quella dei grigi e quella dei blu. Le prove sono sfregamento, sudore, lavaggio e luce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L7_R7",
+  "testo": "Ricapitoliamo. Degrado è lo scolorimento, migrazione è il trasferimento del colore. Si valutano con la scala dei grigi, da uno a cinque, e con la scala dei blu per la luce, da uno a otto. Le prove sono sfregamento, sudore, lavaggio e luce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L7_M8",
+  "testo": "Mappa dell'argomento: controlli, sicurezza e norme. I controlli sul tono sono il centro-cimosa e il cimosa-cimosa. Le prove fisico-meccaniche usano dinamometro e Martindale. I rischi sono ustioni, cadute, dermatiti e fumi. Le norme sono UNI, EN, ISO e altre.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L7_R8",
+  "testo": "Ricapitoliamo. Il tono si controlla tra centro e cimosa e tra le due cimose. Il dinamometro misura la trazione. Per la sicurezza servono guanti, stivali, occhiali e mascherine. Le norme tecniche hanno una sigla, un numero e un anno.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L7_M9",
+  "testo": "Mappa dell'argomento: tutela del consumatore e casi reali. La formaldeide è cancerogena. Le ammine aromatiche sono vietate in Europa dal duemiladue. La silicosi colpisce chi sabbia i jeans. Le aziende extraeuropee hanno costi minori. La strategia italiana è ricerca, innovazione ed esportazione.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L7_R9",
+  "testo": "Ricapitoliamo. Le analisi verificano prestazioni e tutela della salute. Formaldeide e ammine aromatiche sono rischi per il consumatore. Per competere, il tessile italiano punta su ricerca, innovazione ed esportazione di qualità.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L7_MF1",
+  "testo": "Mappa finale della prima parte. I trattamenti di nobilitazione si scelgono in base alla fibra e all'effetto. Agiscono su aspetto, stabilità delle dimensioni e pelo, con sistemi di macchine continui, discontinui o semicontinui.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L7_MF2",
+  "testo": "Mappa finale della seconda parte. Uso e mano del tessuto, solidità del colore e prove di laboratorio, sicurezza e norme tecniche, tutela del consumatore e mercato.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L7_GL1",
+  "testo": "Glossario. Foulardaggio: impregnazione con poco liquido. Mercerizzazione: trattamento delle fibre cellulosiche che dà lucentezza e resistenza. Calandratura: pressatura del tessuto tra cilindri. Garzatura: estrazione del pelo. Decatissaggio: stabilità dimensionale della lana con il vapore.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L7_GL2",
+  "testo": "Glossario. Degrado: scolorimento del materiale. Migrazione: trasferimento del colore su un tessuto adiacente. Striscia multifibra: tessuto di prova con fibre diverse. Cimosa: il bordo del tessuto. Norma tecnica: documento con sigla, numero e anno di pubblicazione.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L7_RFIN1",
+  "testo": "Ripasso finale della prima parte. I trattamenti si classificano per tecnologia, durata e obiettivo. Candeggio, mercerizzazione, calandratura, lucidatura e increspatura agiscono sull'aspetto. Decatissaggio e sanforizzazione danno stabilità. Garzatura e cimatura lavorano il pelo.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L7_RFIN2",
+  "testo": "Ripasso finale della seconda parte. Antipiega e apprettatura migliorano uso e mano. La solidità del colore si misura con le scale dei grigi e dei blu. La sicurezza e le norme tutelano lavoratori e consumatori.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L7_VER",
+  "testo": "Verifica finale.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L7_COMP",
+  "testo": "Ed ora i compiti.",
+  "lingua": "it"
+ }
+]

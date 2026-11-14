@@ -1,0 +1,2477 @@
+[
+{
+"s": 0.0,
+"e": 6.5,
+"t": "Procediamo con il discorso che abbiamo affrontato già nella scorsa lezione, quindi continuiamo a parlare di questi processi"
+},
+{
+"s": 6.5,
+"e": 14.3,
+"t": "di nobilitazione inerenti proprio al miglioramento di un tessuto. Abbiamo già detto cosa qual è lo scopo di questa nobilitazione,"
+},
+{
+"s": 14.3,
+"e": 22.8,
+"t": "ovvero appunto questa miglioria di tessuti adatti poi per rispondere alla domanda richiesta dal consumatore stesso."
+},
+{
+"s": 22.8,
+"e": 31.8,
+"t": "Per riuscire a scegliere, diciamo, il trattamento adeguato, abbiamo bisogno di porci una domanda su due parametri fondamentali,"
+},
+{
+"s": 31.8,
+"e": 40.5,
+"t": "ovvero quella che è la composizione chimico-fisica del prodotto e, ovviamente, quello che dovrà essere poi l'effetto desiderato finale."
+},
+{
+"s": 40.5,
+"e": 48.0,
+"t": "Tutte queste nobilitazioni che noi possiamo effettuare sui nostri tessuti possono essere eseguiti in due modalità,"
+},
+{
+"s": 48.0,
+"e": 56.4,
+"t": "una situazione che abbiamo già trattato, appunto, nella lezione scorsa, inerente ad una modalità in continuo ed una modalità in discontinuo."
+},
+{
+"s": 56.4,
+"e": 65.5,
+"t": "Quando effettuiamo una lavorazione in continuo? Quando, diciamo, andiamo a lavorare dei rotoli di tessuto che sono composti da più pezze che vengono cucite insieme."
+},
+{
+"s": 65.5,
+"e": 74.0,
+"t": "Per quanto riguarda invece una lavorazione in discontinuo, andiamo a lavorare su una singola pezza alla volta."
+},
+{
+"s": 74.0,
+"e": 83.7,
+"t": "Quindi, nel momento in cui andiamo ad effettuare queste due modalità come lavorazioni, ovviamente andremo ad interfacciarci con due tipologie di macchine differenti,"
+},
+{
+"s": 83.7,
+"e": 92.5,
+"t": "ovvero una macchina disposta in continuo e un'altra invece che è disposta in discontinuo."
+},
+{
+"s": 92.5,
+"e": 102.1,
+"t": "Quindi, nel momento in cui andiamo a parlare di sistemi di macchine discontinui, abbiamo bisogno di interfacciarci, diciamo, con una macchina che esegue le diverse fasi di lavorazione in successione,"
+},
+{
+"s": 102.1,
+"e": 111.4,
+"t": "dove, diciamo, grazie a questa macchina riusciamo a garantire un'elevata flessibilità per le produzioni limitate."
+},
+{
+"s": 111.4,
+"e": 122.9,
+"t": "In ogni caso, quando noi parliamo di un utilizzo di macchine in discontinuo parliamo anche di un elevato costo e anche, ovviamente, di un'elevata manodopera."
+},
+{
+"s": 122.9,
+"e": 130.3,
+"t": "Per quanto riguarda invece la qualità ottenuta, il prodotto in realtà non risulta sempre essere omogeneo."
+},
+{
+"s": 130.3,
+"e": 139.6,
+"t": "Per quanto riguarda invece l'utilizzo di sistemi di macchine in continuo, parliamo ovviamente di macchinari,"
+},
+{
+"s": 139.6,
+"e": 147.9,
+"t": "o meglio più macchinari in questo caso, che vanno ad essere posti in linea uno all'altro,"
+},
+{
+"s": 147.9,
+"e": 154.9,
+"t": "come se dovessimo andare appunto a creare questa catena, diciamo, di montaggio."
+},
+{
+"s": 154.9,
+"e": 164.2,
+"t": "Infatti, ogni macchina va a procedere in una determinata sezione di lavoro di lavorazione."
+},
+{
+"s": 164.2,
+"e": 172.9,
+"t": "Per questo motivo andiamo ad ottenere un'uniformità differente di qualità rispetto alle macchine in discontinuo."
+},
+{
+"s": 172.9,
+"e": 182.5,
+"t": "La produzione in questo caso si si interfaccia con un basso costo e un basso, ovviamente, una bassa richiesta di manodopera."
+},
+{
+"s": 182.5,
+"e": 192.4,
+"t": "Tuttavia le macchine che noi andiamo ad utilizzare in questo sistema risultano essere economicamente di costo elevato."
+},
+{
+"s": 192.4,
+"e": 200.2,
+"t": "Abbiamo però anche un terzo sistema al quale ci possiamo interfacciare, ovvero abbiamo un sistema di macchine semicontinui."
+},
+{
+"s": 200.2,
+"e": 208.5,
+"t": "In questo caso noi andiamo ad integrare le fasi le fasi in continuo con le fasi in discontinuo."
+},
+{
+"s": 208.5,
+"e": 218.4,
+"t": "Quindi andiamo a richiedere la cucitura delle pezze a rotoli per saturare l'impianto stesso."
+},
+{
+"s": 218.4,
+"e": 228.6,
+"t": "Quindi queste sono le tre modalità con il quale, appunto, possiamo interfacciarci per effettuare le lavorazioni richieste sui nostri vari tessuti."
+},
+{
+"s": 228.6,
+"e": 236.8,
+"t": "Per quanto riguarda invece la classificazione delle nobilitazioni, possiamo effettuarla secondo diversi criteri."
+},
+{
+"s": 236.8,
+"e": 249.2,
+"t": "Le principali suddivisioni comunque si rivolgono verso le tecnologie che sono utilizzate, il tempo di permanenza sul prodotto stesso e ovviamente gli effetti finali."
+},
+{
+"s": 249.2,
+"e": 257.0,
+"t": "Per interfacciarci con la prima classificazione, andiamo a prendere in considerazione le tecnologie e i mezzi utilizzati durante i processi."
+},
+{
+"s": 257.0,
+"e": 265.7,
+"t": "In questo caso facciamo riferimento alla nobilitazione a umido del quale abbiamo già parlato, ma andiamo, diciamo, a ripetere questa concezione."
+},
+{
+"s": 265.7,
+"e": 277.6,
+"t": "In questo caso abbiamo, diciamo, un tessile bagnato e andiamo a suddividere i trattamenti per esaurimento,"
+},
+{
+"s": 277.6,
+"e": 286.0,
+"t": "ovvero andiamo ad immergere quindi il materiale in questo bagno pieno e successivamente vengono attuati dei trattamenti per il foulardaggio."
+},
+{
+"s": 286.0,
+"e": 294.6,
+"t": "Questi trattamenti si basano sull'impregnazione delle piccole quantità di liquido sul tessuto stesso."
+},
+{
+"s": 294.6,
+"e": 303.4,
+"t": "Le nobilitazioni a secco invece vengono realizzate su questi tessuti che in realtà sono asciutti e ovviamente il clima atmosferico della stanza richiede ovviamente o comunque degli ambienti"
+},
+{
+"s": 303.4,
+"e": 309.8,
+"t": "preposti per queste lavorazioni devono essere asciutti."
+},
+{
+"s": 309.8,
+"e": 319.4,
+"t": "Le nobilitazioni fisiche invece comprendono le lavorazioni meccaniche, ma anche termiche,"
+},
+{
+"s": 319.4,
+"e": 328.7,
+"t": "e solitamente viene utilizzato il vapore, l'aria, il gas e superfici metalliche che vengono riscaldate preventivamente ad alte temperature."
+},
+{
+"s": 328.7,
+"e": 336.5,
+"t": "Infine abbiamo le nobilitazioni chimiche. In questo caso subentrano i nostri ausiliari."
+},
+{
+"s": 336.5,
+"e": 344.2,
+"t": "Gli ausiliari abbiamo già visto che possono avere una diversa natura e, ovviamente, dovranno essere scelti in base al tessuto che noi andiamo a lavorare."
+},
+{
+"s": 344.2,
+"e": 352.8,
+"t": "Questi ausiliari ci consentono di conferire delle proprietà particolari ai tessuti che naturalmente non hanno."
+},
+{
+"s": 352.8,
+"e": 361.9,
+"t": "Per quanto riguarda invece la classificazione per durata del trattamento e verso la resistenza ai trattamenti di manutenzione e ai trattamenti di uso,"
+},
+{
+"s": 361.9,
+"e": 370.2,
+"t": "possiamo invece andare a distinguere trattamenti permanenti, quelli durevoli, i semidurevoli e i temporanei."
+},
+{
+"s": 370.2,
+"e": 378.2,
+"t": "Per quanto riguarda i trattamenti permanenti, andiamo ad incidere in realtà verso la struttura intima della fibra,"
+},
+{
+"s": 378.2,
+"e": 385.9,
+"t": "quindi questi trattamenti, come lo dice il termine stesso, vanno a essere inalterati durante il corso del tempo."
+},
+{
+"s": 385.9,
+"e": 395.9,
+"t": "Per quanto riguarda i trattamenti durevoli, in realtà parliamo di trattamenti che possono essere persi con il passare del tempo,"
+},
+{
+"s": 395.9,
+"e": 402.6,
+"t": "quindi progredendo, diciamo, nel tempo stesso, andiamo a perdere la loro intensità."
+},
+{
+"s": 402.6,
+"e": 411.3,
+"t": "Per i trattamenti semidurevoli, abbiamo un mantenimento di efficacia solo per un numero limitato di manutenzione ciclica."
+},
+{
+"s": 411.3,
+"e": 420.7,
+"t": "Per quanto riguarda i trattamenti temporanei, infine, andiamo a perdere gran parte del loro effetto già con i primi cicli di manutenzione."
+},
+{
+"s": 420.7,
+"e": 431.1,
+"t": "Nel momento in cui, quindi, andiamo a effettuare, diciamo, questi trattamenti, dobbiamo prendere in considerazione quello che è l'obiettivo finale in modo tale da capire effettivamente come possiamo interfacciarci"
+},
+{
+"s": 431.1,
+"e": 438.4,
+"t": "con il tessuto ultimo. In questo caso possiamo anche andare a definire un'ulteriore classificazione"
+},
+{
+"s": 438.4,
+"e": 445.6,
+"t": "che si rivolge proprio all'ottenimento stesso del prodotto finale."
+},
+{
+"s": 445.6,
+"e": 454.0,
+"t": "Abbiamo infatti a disposizione delle nobilitazioni che che agiscano proprio sull'aspetto esteriore"
+},
+{
+"s": 454.0,
+"e": 461.3,
+"t": "e quindi vanno a modificare l'estetica stessa del tessuto; le nobilitazioni che rendono invece più stabili le dimensioni;"
+},
+{
+"s": 461.3,
+"e": 470.9,
+"t": "le nobilitazioni che invece agiscono sul pelo, quindi anche qui, ovviamente, andiamo ad intaccare l'aspetto estetico;"
+},
+{
+"s": 470.9,
+"e": 477.5,
+"t": "e infine le nobilitazioni che modificano o migliorano l'utilizzo del prodotto stesso o che modificano la mano del tessuto."
+},
+{
+"s": 477.5,
+"e": 487.3,
+"t": "Le lavorazioni, quindi, che vanno ad agire proprio sull'aspetto esteriore del tessuto hanno proprio questa funzione prevalente estetica."
+},
+{
+"s": 487.3,
+"e": 497.0,
+"t": "In ogni caso possono anche andare ad interferire con quelle che sono le altre caratteristiche fisiche del prodotto,"
+},
+{
+"s": 497.0,
+"e": 506.6,
+"t": "come ad esempio la mano o la stabilità dimensionale. In ogni caso, tra queste operazioni la più importante, diciamo, del quale abbiamo già trattato nella scorsa lezione,"
+},
+{
+"s": 506.6,
+"e": 516.4,
+"t": "è il candeggio. Il candeggio viene anche chiamato sbianca e ci permette, appunto, di rendere più bianco il materiale che noi stiamo andando a lavorare."
+},
+{
+"s": 516.4,
+"e": 526.9,
+"t": "Questo trattamento avviene come trattamento chimico a umido e ci ci consente da una parte però di indebolire le fibre,"
+},
+{
+"s": 526.9,
+"e": 532.7,
+"t": "tuttavia è un trattamento che risulta essere permanente."
+},
+{
+"s": 532.7,
+"e": 542.4,
+"t": "Nel momento in cui invece parliamo di una situazione che va oltre alla valenza estetica,"
+},
+{
+"s": 542.4,
+"e": 553.0,
+"t": "il candeggio può ottenere anche una funzione funzionale perché va a preparare proprio il tessuto ai futuri trattamenti,"
+},
+{
+"s": 553.0,
+"e": 558.9,
+"t": "come ad esempio la prima tintura o la stampa stessa."
+},
+{
+"s": 558.9,
+"e": 568.1,
+"t": "Nel momento in cui parliamo di candeggio, possiamo anche rivolgerci a delle tecniche utilizzate in passato,"
+},
+{
+"s": 568.1,
+"e": 577.8,
+"t": "dove venivano richiesti questi procedimenti a umido che venivano differenziati a seconda della fibra che veniva trattata."
+},
+{
+"s": 577.8,
+"e": 587.3,
+"t": "Infatti, per quanto riguarda le fibre vegetali veniva utilizzata venivano utilizzati gli ipo gli ipocloriti,"
+},
+{
+"s": 587.3,
+"e": 598.6,
+"t": "acqua ossigenata e anche delle soluzioni diluite di soda caustica all'interno di questi recipienti che comunemente avevano una forma a J."
+},
+{
+"s": 598.6,
+"e": 600.0,
+"t": "In questo caso,"
+},
+{
+"s": 600.0,
+"e": 603.76,
+"t": "Alla lana possiamo andare ad interfacciarci con la fumigazione."
+},
+{
+"s": 603.76,
+"e": 610.36,
+"t": "La fumigazione viene attuata attraverso l'utilizzo di anidride solforosa o attraverso i bagni di acqua ossigenata."
+},
+{
+"s": 613.9,
+"e": 623.46,
+"t": "Per coprire invece le colorazioni residue possiamo utilizzare come prima fase il candeggio ottico con quelli che sono i coloranti fluorescenti,"
+},
+{
+"s": 624.3,
+"e": 633.6,
+"t": "oppure possiamo utilizzare anche il candeggio elettrolitico, dove abbiamo questa corrente elettrica che decompone il cloruro di sodio"
+},
+{
+"s": 633.6,
+"e": 637.16,
+"t": "per andare a produrre infine l'ipoclorito di sodio."
+},
+{
+"s": 637.52,
+"e": 643.12,
+"t": "Infine anche le fibre artificiali e sintetiche comunque possono essere candeggiati."
+},
+{
+"s": 643.12,
+"e": 653.4,
+"t": "In ogni caso hanno comunque bisogno di interfacciarsi con quelli che sono i prodotti più idonei per il loro trattamento."
+},
+{
+"s": 653.4,
+"e": 662.4,
+"t": "Arriviamo così al carbonissaggio. Il carbonissaggio abbiamo già detto che è un'altra operazione di nobilitazione e in questo caso parliamo di un'operazione chimica specifica"
+},
+{
+"s": 662.4,
+"e": 669.18,
+"t": "per i tessuti di lana ed è utile per l'eliminazione delle impurità vegetali."
+},
+{
+"s": 669.44,
+"e": 677.2,
+"t": "Infatti diciamo che i tessuti che attraversano questa fase di carbonissaggio risultano poi essere estremamente puri."
+},
+{
+"s": 677.2,
+"e": 683.56,
+"t": "Infatti il carbonissaggio favorisce l'uniformità alle successive lavorazioni."
+},
+{
+"s": 684.1,
+"e": 690.96,
+"t": "Solitamente si applica nelle circostanze in cui vengono richiesti tessuti cardati."
+},
+{
+"s": 691.86,
+"e": 698.66,
+"t": "Se facciamo riferimento a questa tipologia di tessuti abbiamo già detto che sono quei tessuti ricchi di impurità,"
+},
+{
+"s": 699.4,
+"e": 708.92,
+"t": "quindi è essenziale effettuare questo questo procedimento in modo tale da eliminare, appunto, queste elevate impurità e quindi rendere il tessuto cardato utile"
+},
+{
+"s": 709.84,
+"e": 715.54,
+"t": "al alla funzione successiva."
+},
+{
+"s": 716.0,
+"e": 721.36,
+"t": "Il processo in questo caso richiede l'utilizzo di acido solforico,"
+},
+{
+"s": 721.36,
+"e": 728.0,
+"t": "dove questo acido andrà a distruggere questi residui vegetali senza però andare a danneggiare la lana stessa,"
+},
+{
+"s": 728.0,
+"e": 736.24,
+"t": "a meno che comunque questo passaggio sia inoltre rimosso successivamente con un lavaggio adeguato."
+},
+{
+"s": 736.86,
+"e": 742.72,
+"t": "La mercerizzazione invece subentra nel 1791 con Mercer."
+},
+{
+"s": 743.46,
+"e": 751.78,
+"t": "In realtà viene brevettata effettivamente per la prima volta nel 1866"
+},
+{
+"s": 751.78,
+"e": 757.94,
+"t": "e parliamo anche in questo caso di un trattamento a umido che si volge verso le fibre cellulosiche."
+},
+{
+"s": 758.42,
+"e": 765.74,
+"t": "Perché diciamo viene effettuata su questa tipologia di fibre? In modo da migliorare la loro lucentezza, ma anche la loro resistenza."
+},
+{
+"s": 766.4,
+"e": 772.98,
+"t": "I risultati di questa operazione ovviamente hanno delle ripercussioni sia estetiche che funzionali."
+},
+{
+"s": 773.74,
+"e": 784.28,
+"t": "I principali effetti consistono in questo caso nel rigonfiamento, ma anche nell'aumento dello spessore delle fibre e nella loro tendenza ad accorciarsi."
+},
+{
+"s": 785.04,
+"e": 794.28,
+"t": "Si rivolge anche verso un aspetto più lucente e quindi abbiamo anche di conseguenza un incremento della resistenza pari al 20%."
+},
+{
+"s": 794.88,
+"e": 804.0,
+"t": "Un'altra un altro lato positivo della mercerizzazione è il suo consentire al tessuto una maggiore stabilità dimensionale,"
+},
+{
+"s": 804.0,
+"e": 809.68,
+"t": "con una mano più sostenuta e una migliore risposta alla tintura."
+},
+{
+"s": 810.84,
+"e": 819.04,
+"t": "Quindi parliamo in sostanza di un trattamento durevole che ovviamente concede al tessuto diverse proprietà positive."
+},
+{
+"s": 820.3,
+"e": 829.8,
+"t": "In ogni caso per eseguire la nostra mercerizzazione abbiamo bisogno di di effettuare questa lavorazione su sul filato o il tessuto posto in immersione"
+},
+{
+"s": 830.7,
+"e": 838.4,
+"t": "in soluzione fredda. In questa soluzione avremo all'interno il 15-20% circa di soda caustica."
+},
+{
+"s": 839.5,
+"e": 849.52,
+"t": "In alternativa, nel momento in cui dovessimo andare ad interfacciarci con una situazione che deve abbassare i costi, ma anche ridurre l'impatto ambientale,"
+},
+{
+"s": 850.04,
+"e": 853.94,
+"t": "possiamo utilizzare l'ammoniaca liquida in macchinari specifici."
+},
+{
+"s": 854.44,
+"e": 862.58,
+"t": "In questo caso la resistenza non è più incrementata circa del 20%, ma si innalza verso il 40% del prodotto non trattato."
+},
+{
+"s": 864.44,
+"e": 872.58,
+"t": "Un'altra caratteristica della mercerizzazione è che questo procedimento può essere anche attuato attraverso le metodologie fisiche."
+},
+{
+"s": 872.88,
+"e": 878.48,
+"t": "In questo caso il materiale viene tenuto in lunghezza e viene lasciato libero in larghezza."
+},
+{
+"s": 879.16,
+"e": 886.9,
+"t": "In questo caso otteniamo quindi un'estensibilità limitata, però senza elasticità."
+},
+{
+"s": 887.4,
+"e": 896.2,
+"t": "Per quanto riguarda nello specifico il tessuto di cotone fine, possiamo anche eseguire una doppia mercerizzazione."
+},
+{
+"s": 896.2,
+"e": 906.94,
+"t": "Questa doppia mercerizzazione verrà richiederà un intervallo da un trattamento acido per riuscire ad ottenere la trasparentizzazione del prodotto stesso."
+},
+{
+"s": 907.72,
+"e": 914.16,
+"t": "La calandratura, o anche comunemente chiamata schiacciatura, invece è un trattamento fisico a secco"
+},
+{
+"s": 914.54,
+"e": 922.68,
+"t": "e ci consente di passare il nostro tessuto in una pressatura in modo tale da assottigliarlo."
+},
+{
+"s": 923.2,
+"e": 931.06,
+"t": "Questo procedimento va ad aumentare la lucentezza e gli conferisce anche una mano più compatta e ferma."
+},
+{
+"s": 931.7,
+"e": 941.74,
+"t": "In realtà, a differenza della mercerizzazione che è un effetto duraturo nel tempo, la calandratura risulta essere invece temporaneo."
+},
+{
+"s": 942.34,
+"e": 953.4,
+"t": "Tuttavia può diventare permanente quando andiamo a gestire le fibre termoplastiche insieme all'utilizzo di resine termoindurenti o con il trattamento a pillone."
+},
+{
+"s": 954.9,
+"e": 961.34,
+"t": "Questa tipologia di nobilitazione può essere anche eseguita su maglieria in aperto o tubolare"
+},
+{
+"s": 961.96,
+"e": 968.5,
+"t": "e a volte ci permette anche di ottenere dei tessuti che non necessitano la stiratura finale."
+},
+{
+"s": 969.34,
+"e": 977.94,
+"t": "Per quanto riguarda il procedimento stesso, abbiamo bisogno di far passare il tessuto attraverso le calandre,"
+},
+{
+"s": 978.36,
+"e": 984.62,
+"t": "quindi attraverso queste macchine che possono essere composte da una o più coppie di cilindri."
+},
+{
+"s": 985.1,
+"e": 991.24,
+"t": "Questi cilindri andranno ad esercitare una pressione regolare su tutta l'altezza del tessuto stesso."
+},
+{
+"s": 992.0,
+"e": 1005.58,
+"t": "I cilindri possono essere anche rigidi o elastici, in acciaio o in ghisa, cromati o nichelati, e riscaldati interamente attraverso l'utilizzo del vapore, di fluidi, ma anche di elettricità."
+},
+{
+"s": 1006.84,
+"e": 1016.74,
+"t": "Nel momento in cui dovessimo aver a che fare con cilindri che ruotano alla stessa velocità, abbiamo una dinamica che prevede una semplice pressione."
+},
+{
+"s": 1017.38,
+"e": 1024.12,
+"t": "Nel momento in cui dovessero invece ruotare a velocità differenti, abbiamo un tessuto a frizione."
+},
+{
+"s": 1025.44,
+"e": 1035.16,
+"t": "L'ottenimento del tessuto quando passa dalle calandrature risulta essere anche, diciamo, tendente all'opacizzazione,"
+},
+{
+"s": 1035.48,
+"e": 1041.72,
+"t": "ma possono essere anche utilizzate queste macchine per lucidare, increspare, goffrare o marezzare."
+},
+{
+"s": 1042.54,
+"e": 1055.52,
+"t": "Quindi in realtà le macchine di calandratura ci permettono di effettuare diversi effetti visivi, estetici, utili alla destinazione ultima del tessuto che andiamo a lavorare."
+},
+{
+"s": 1056.0,
+"e": 1061.76,
+"t": "Una lavorazione particolare dipende anche dalla calandratura a pillone come utilizzo."
+},
+{
+"s": 1062.18,
+"e": 1066.82,
+"t": "Infatti questa viene utilizzata per il trattamento dei tessuti di lino da tavola."
+},
+{
+"s": 1068.44,
+"e": 1076.92,
+"t": "Per quanto riguarda, diciamo, questo trattamento abbiamo un filato che viene appiattito in modo permanente"
+},
+{
+"s": 1077.34,
+"e": 1083.74,
+"t": "e quindi ci consente di chiudere gli spazi dell'intreccio caratteristici del del lino,"
+},
+{
+"s": 1083.74,
+"e": 1088.72,
+"t": "e quindi di conseguenza ci permette di ottenere questa superficie molto più compatta e di conseguenza lucida."
+},
+{
+"s": 1089.14,
+"e": 1097.16,
+"t": "La pressatura a costine invece è un altro trattamento sempre fisico a secco, ma risulta essere semidurevole"
+},
+{
+"s": 1097.16,
+"e": 1107.02,
+"t": "e consiste nell'applicazione di questa forte pressione sul tessuto attraverso l'utilizzo di un cilindro in acciaio inciso con delle linee molto sottili."
+},
+{
+"s": 1107.66,
+"e": 1116.32,
+"t": "Che cosa ci permette di ottenere questa pressatura a costine? In realtà una migliore riflessione della luce e una lucentezza più serica."
+},
+{
+"s": 1117.44,
+"e": 1123.54,
+"t": "Infatti viene solitamente utilizzato su dei tessuti di scarso valore o già mercerizzati."
+},
+{
+"s": 1124.3,
+"e": 1135.86,
+"t": "La lucidatura è un'altra diciamo un altro processo di nobilitazione, ma in questo caso parliamo di una di un trattamento chimico e fisico a umido."
+},
+{
+"s": 1136.4,
+"e": 1147.46,
+"t": "La lucidatura risulta essere anche semidurevole e viene applicata su tessuti di cotone in modo tale che questi possano avere un incremento della lucentezza superficiale."
+},
+{
+"s": 1148.36,
+"e": 1156.76,
+"t": "Il procedimento in questo caso richiede l'applicazione di una sospensione di amido come collante."
+},
+{
+"s": 1157.38,
+"e": 1163.38,
+"t": "Questo collante nel momento in cui va ad asciugarsi creerà infine questa patina protettiva."
+},
+{
+"s": 1163.78,
+"e": 1170.62,
+"t": "Una volta quindi che questo questa sospensione di amido si sarà indurito,"
+},
+{
+"s": 1170.62,
+"e": 1177.2,
+"t": "il tessuto potrà passare ad una elevata temperatura ed una pressione posta tra due cilindri d'acciaio."
+},
+{
+"s": 1178.14,
+"e": 1187.2,
+"t": "Un classico esempio di questo tessuto lucido ottenuto grazie alla lucidatura può essere, diciamo, sottoposto al metodo"
+},
+{
+"s": 1187.54,
+"e": 1193.74,
+"t": "dell' dell'amido utilizzato e il materiale chintz."
+},
+{
+"s": 1194.38,
+"e": 1200.0,
+"t": "In questo caso abbiamo, diciamo, un tessuto con un'armatura fine e compatta e con una mano"
+},
+{
+"s": 1200.0,
+"e": 1202.12,
+"t": "molto scivolosa."
+},
+{
+"s": 1202.12,
+"e": 1206.72,
+"t": "L'increspatura invece viene chiamata crepatura o arricciatura"
+},
+{
+"s": 1206.72,
+"e": 1211.48,
+"t": "e ci consente di dare al nostro tessuto un aspetto rugoso e una mano più secca."
+},
+{
+"s": 1211.48,
+"e": 1217.38,
+"t": "In questo caso parliamo di un effetto che va a caratterizzare diversi tessuti,"
+},
+{
+"s": 1217.38,
+"e": 1223.94,
+"t": "come ad esempio il tessuto di seta, ma può essere comunque utilizzato in quasi tutte le fibre."
+},
+{
+"s": 1223.94,
+"e": 1232.5,
+"t": "Il trattamento in questo caso, nel momento in cui si rivolge verso ad esempio delle fibre termoplastiche, può risultare trattamento permanente."
+},
+{
+"s": 1232.5,
+"e": 1237.84,
+"t": "Per quanto riguarda invece le fibre cellulosiche, risulta essere temporaneo"
+},
+{
+"s": 1237.84,
+"e": 1243.72,
+"t": "e quindi, nel momento in cui andiamo a lavorare queste fibre cellulosiche,"
+},
+{
+"s": 1243.72,
+"e": 1252.74,
+"t": "ovviamente dovremo attuare anche un pre-trattamento con l'utilizzo di resine termoplastiche per riuscire a prolungare ulteriormente la durata stessa."
+},
+{
+"s": 1252.74,
+"e": 1260.08,
+"t": "Questa nobilitazione può essere effettuata attraverso, diciamo, un procedimento fisico, quindi utilizzando dei cilindri caldi,"
+},
+{
+"s": 1260.08,
+"e": 1270.76,
+"t": "oppure attraverso un procedimento chimico, quindi utilizzando ovviamente delle sostanze specifiche per l'increspatura stessa."
+},
+{
+"s": 1270.76,
+"e": 1280.7,
+"t": "In entrambi i casi comunque andiamo a provocare la contrazione del tessuto in delle zone predefinite e quindi andremo a creare questi mini rilievi."
+},
+{
+"s": 1280.7,
+"e": 1292.38,
+"t": "I tessuti leggeri che vanno ad essere trattati con questo procedimento e che ne escono, diciamo, con questi mini rilievi leggeri sono definiti crêpe o crêpelle."
+},
+{
+"s": 1292.38,
+"e": 1301.56,
+"t": "Quelli invece che possiedono dei rilievi più pronunciati all'uscita, diciamo, di questo trattamento vengono chiamati crépon."
+},
+{
+"s": 1301.56,
+"e": 1312.98,
+"t": "Un'altra caratteristica, diciamo, dell'effetto increspato può essere ottenuta grazie, diciamo, alla non applicazione della nobilitazione chimica o fisica,"
+},
+{
+"s": 1312.98,
+"e": 1316.84,
+"t": "ma andando ad utilizzare semplicemente dei filati molto ritorti."
+},
+{
+"s": 1316.84,
+"e": 1325.84,
+"t": "In questo caso parliamo di tensioni differenti presenti all'interno dei rigati. In questo caso parliamo dei seersucker."
+},
+{
+"s": 1325.84,
+"e": 1333.56,
+"t": "La goffratura, o anche chiamata bugnatura, invece è una forma di increspatura pronunciata che va a distinguersi"
+},
+{
+"s": 1333.56,
+"e": 1338.86,
+"t": "dalla nobilitazione precedente per un motivo tridimensionale."
+},
+{
+"s": 1338.86,
+"e": 1344.52,
+"t": "Infatti, in questo caso, diciamo che il motivo risulta essere molto chiaro."
+},
+{
+"s": 1344.52,
+"e": 1356.92,
+"t": "Per accentuare ulteriormente il livello di questa increspatura possiamo inserire delle fibre di elastan che vanno a far contrarre il tessuto in specifici punti richiesti."
+},
+{
+"s": 1356.92,
+"e": 1365.92,
+"t": "Il processo in questo caso richiede delle calandre munite di cilindri incisi con motivi diversi."
+},
+{
+"s": 1365.92,
+"e": 1376.62,
+"t": "Una variante particolare di questa goffratura può essere la stropicciatura. In questo caso abbiamo ovviamente un andamento disordinato e viene chiamata froissé."
+},
+{
+"s": 1376.62,
+"e": 1385.34,
+"t": "La marezzatura o la marmorizzazione è invece una nobilitazione che ci permette di ottenere un tessuto con aspetto simile alle onde del mare."
+},
+{
+"s": 1385.34,
+"e": 1394.5,
+"t": "In questo caso, diciamo, la luce va a riflettersi in modo non omogeneo e infatti sembra muoversi quasi con il movimento del prodotto stesso."
+},
+{
+"s": 1394.5,
+"e": 1407.82,
+"t": "In questo caso l'effetto va a risaltare nel momento in cui i tessuti hanno delle trame più grosse rispetto agli orditi, oppure anche risalta nel momento in cui viene utilizzato un tessuto leggero di seta."
+},
+{
+"s": 1407.82,
+"e": 1418.0,
+"t": "La stabilità del disegno in questo caso risulta essere elevata o permanente nel momento in cui andiamo a trattare acetati e fibre sintetiche."
+},
+{
+"s": 1418.0,
+"e": 1426.78,
+"t": "Per quanto riguarda la viscosa invece risulta essere una nobilitazione molto breve e per quanto riguarda la seta è comunque"
+},
+{
+"s": 1426.78,
+"e": 1431.86,
+"t": "leggermente duratura ma non è semipermanente o permanente."
+},
+{
+"s": 1431.86,
+"e": 1439.54,
+"t": "Per renderla tuttavia permanente invece sui tessuti in cotone abbiamo bisogno di effettuare sul tessuto un pre-trattamento chimico."
+},
+{
+"s": 1439.54,
+"e": 1446.36,
+"t": "Il processo in questo caso richiede l'azione combinata di pressione e calore,"
+},
+{
+"s": 1446.36,
+"e": 1451.78,
+"t": "quindi abbiamo bisogno di far passare questo tessuto tra i due cilindri, uno dei quali viene solcato."
+},
+{
+"s": 1451.78,
+"e": 1463.26,
+"t": "In contemporanea viene immesso un getto di vapore ad alta temperatura e quindi in questo caso andiamo a creare questa diffrazione della luce sulla superficie del tessuto."
+},
+{
+"s": 1463.26,
+"e": 1472.58,
+"t": "La ceratura o l'oleatura e la gommatura invece sono altre nobilitazioni però del settore chimico."
+},
+{
+"s": 1472.58,
+"e": 1482.72,
+"t": "Queste vengono applicate a secco e vengono riferite verso le fibre naturali vegetali, come ad esempio nel caso del lino e del cotone,"
+},
+{
+"s": 1482.72,
+"e": 1489.44,
+"t": "anche se qualche volta possono anche rivolgersi verso fibre di origine animale come per esempio la lana."
+},
+{
+"s": 1489.44,
+"e": 1499.88,
+"t": "Questi trattamenti possono avere una permanenza variabile e vengono caratterizzati grazie alla loro ceratura che può andare a coprire interamente l'intreccio di fondo del tessuto."
+},
+{
+"s": 1499.88,
+"e": 1507.72,
+"t": "Storicamente veniva utilizzata, in realtà venivano utilizzate per produrre capi impermeabili."
+},
+{
+"s": 1507.72,
+"e": 1514.92,
+"t": "Di questi capi impermeabili, diciamo, i principali sono quelli antivento e quelli antipioggia."
+},
+{
+"s": 1514.92,
+"e": 1529.9,
+"t": "Per quanto riguarda invece la produzione di tessuti odierni per quanto riguarda queste nobilitazioni, possiamo dire che vengono sostituite quasi del tutto con le resinature e le siliconature."
+},
+{
+"s": 1529.9,
+"e": 1541.6,
+"t": "I tessili inoltre possono essere, diciamo, sottoposti a queste nobilitazioni perché vanno a richiedere una manutenzione attenta finale."
+},
+{
+"s": 1541.6,
+"e": 1549.52,
+"t": "In questo caso parliamo di una manutenzione attenta finale perché alcuni di questi tessuti non tollerano il lavaggio a secco."
+},
+{
+"s": 1549.52,
+"e": 1557.54,
+"t": "Invece altri rischiano di perdere questo effetto impermeabilizzante nel momento in cui vengono lavati ad acqua."
+},
+{
+"s": 1557.54,
+"e": 1566.38,
+"t": "Per quanto riguarda quindi nel momento in cui parliamo delle nobilitazioni generali,"
+},
+{
+"s": 1566.38,
+"e": 1572.48,
+"t": "abbiamo comunque a che fare con queste che cercano di rendere più stabili le dimensioni stesse del tessuto."
+},
+{
+"s": 1572.48,
+"e": 1582.46,
+"t": "In questo caso parliamo di nobilitazioni che hanno proprio l'obiettivo funzionale di andare a limitare il restringimento del tessuto dopo lavaggio"
+},
+{
+"s": 1582.46,
+"e": 1590.6,
+"t": "o dopo la loro manutenzione con eventuali dinamiche esterne come l'utilizzo di vapore, calore o sostanze chimiche."
+},
+{
+"s": 1590.6,
+"e": 1602.7,
+"t": "Per evitare, diciamo, queste particolari restringimenti dobbiamo fare riferimento ad altre tipologie di nobilitazione oltre a quelle che abbiamo già nominato per altre dinamiche estetiche e funzionali."
+},
+{
+"s": 1602.7,
+"e": 1616.74,
+"t": "In questo campo abbiamo a che fare con il cloraggio, ovvero questo viene eseguito su dei filati o su dei tessuti di lana che sono destinati alla creazione di maglieria come calze e maglieria intima."
+},
+{
+"s": 1616.74,
+"e": 1631.18,
+"t": "In questa nobilitazione abbiamo bisogno di utilizzare gli ipocloriti di calcio o gli ipocloriti di sodio, che ci permettono appunto di degradare le squame della fibra e quindi ci permette di renderla irrestringibile."
+},
+{
+"s": 1631.18,
+"e": 1641.56,
+"t": "Per quanto riguarda invece la nobilitazione del decatissaggio, andiamo a porci sui tessuti lanieri sottoposti in autoclave."
+},
+{
+"s": 1641.56,
+"e": 1651.7,
+"t": "In questo caso nell'autoclavi viene immesso del vapore sotto pressione fino ad una temperatura di circa 135 °C."
+},
+{
+"s": 1651.7,
+"e": 1658.74,
+"t": "Questo vapore fa sì che il tessuto possa avere una stabilità dimensionale permanente."
+},
+{
+"s": 1658.74,
+"e": 1670.9,
+"t": "Nella follatura invece parliamo sempre di una nobilitazione rivolta verso la lana e provoca in realtà un infeltrimento controllato a umido."
+},
+{
+"s": 1670.9,
+"e": 1681.3,
+"t": "Per riuscire ad ottenere, diciamo, un tessuto quindi compatto attraverso l'utilizzo della fibra di lana, abbiamo proprio bisogno di questa follatura."
+},
+{
+"s": 1681.3,
+"e": 1687.82,
+"t": "Infatti il tessuto ottenuto da questa nobilitazione viene chiamato lana cotta."
+},
+{
+"s": 1687.82,
+"e": 1698.42,
+"t": "Per quanto riguarda il trattamento London va a stabilizzare invece la lana nel momento in cui viene avvolta in coperte bagnate per almeno 20 ore."
+},
+{
+"s": 1698.42,
+"e": 1705.5,
+"t": "In questo modo la lana va ad assorbire l'umidità e poi viene fatta asciugare lentamente."
+},
+{
+"s": 1705.5,
+"e": 1714.88,
+"t": "La ramatura o lo stiro invece va ad assestare tutte le dimensioni del del tessuto stesso"
+},
+{
+"s": 1714.88,
+"e": 1720.6,
+"t": "e in questo caso parliamo di altezza, lunghezza e peso dei tessuti in umido o a secco."
+},
+{
+"s": 1720.6,
+"e": 1729.7,
+"t": "Per quanto riguarda la sanforizzazione, invece parliamo di un trattamento che viene brevettato per le fibre vegetali."
+},
+{
+"s": 1729.7,
+"e": 1744.78,
+"t": "Queste in realtà, questa nobilitazione fa sì che queste fibre non vadano a ritirarsi e quindi vengono compresse in modo meccanico su questo nastro di gomma dopo esserle, dopo averle bagnate."
+},
+{
+"s": 1744.78,
+"e": 1753.76,
+"t": "Il trattamento Superwash invece viene ideato dal Segretariato Internazionale della Lana,"
+},
+{
+"s": 1753.76,
+"e": 1762.3,
+"t": "e questo trattamento è utile per rendere la lana lavabile in lavatrice, quindi garantisce in questo caso un restringimento massimo del 3%"
+},
+{
+"s": 1762.3,
+"e": 1771.9,
+"t": "per quanto riguarda la dimensione della lunghezza, mentre per quanto riguarda la dimensione della larghezza abbiamo un restringimento massimo dell'1%."
+},
+{
+"s": 1771.9,
+"e": 1780.44,
+"t": "Per il trubenissaggio parliamo invece di un processo chimico che ci aiuta ad irrigidire i colli e i polsi delle camicie."
+},
+{
+"s": 1780.44,
+"e": 1791.16,
+"t": "Infatti in questo caso il tessuto viene immerso in questo composto cellulosico e bagno di acetone prima della sua pressatura stessa."
+},
+{
+"s": 1791.16,
+"e": 1799.78,
+"t": "Infine parliamo del vaporissaggio, ovvero il sistema più utilizzato per stabilire proprio i tessuti perché va ad eliminare questi difetti e quindi"
+},
+{
+"s": 1800.0,
+"e": 1804.88,
+"t": "di concede questa mano rigida attraverso invece l'utilizzo del vapore"
+},
+{
+"s": 1804.88,
+"e": 1808.8,
+"t": "che viene emesso da dei tubi posti in apposite camere."
+},
+{
+"s": 1808.8,
+"e": 1813.76,
+"t": "Per quanto riguarda invece, diciamo, le nobilitazioni che vanno ad agire nello specifico sul pelo,"
+},
+{
+"s": 1813.76,
+"e": 1821.84,
+"t": "abbiamo a che fare con nobilitazioni che possiedono come scopo l'estrazione o la lavorazione delle fibre superficiali."
+},
+{
+"s": 1821.84,
+"e": 1827.76,
+"t": "In questo modo riusciamo ad ottenere i tessuti caldi, morbidi e soprattutto pelosi."
+},
+{
+"s": 1827.76,
+"e": 1834.88,
+"t": "In questa sezione diciamo, i procedimenti di nobilitazione richiesti sono la cardatura e la garzatura del quale abbiamo già parlato,"
+},
+{
+"s": 1834.88,
+"e": 1841.6,
+"t": "la spazzolatura che va a essere eseguita dopo la garzatura"
+},
+{
+"s": 1841.6,
+"e": 1848.88,
+"t": "e va a sollevare e districare le fibre rendendole così parallele"
+},
+{
+"s": 1848.88,
+"e": 1854.96,
+"t": "con apposite, diciamo, spazzole a spilli. Per quanto riguarda la cimatura, invece, viene eseguita grazie all'utilizzo di questa macchina cimatrice;"
+},
+{
+"s": 1854.96,
+"e": 1862.56,
+"t": "all'interno di questa macchina possiamo notare la presenza di lame elicoidali;"
+},
+{
+"s": 1862.56,
+"e": 1869.84,
+"t": "queste lame vanno a tagliare le fibre ad un'altezza uniforme o possono anche creare determinati disegni."
+},
+{
+"s": 1869.84,
+"e": 1877.6,
+"t": "La pressatura è un'altra, diciamo, nobilitazione che può essere effettuata e consiste proprio nell'appiattimento del pelo per riuscire ad orientarlo"
+},
+{
+"s": 1877.6,
+"e": 1884.24,
+"t": "o per lasciarlo non orientato, a seconda, ovviamente, del tessuto che vogliamo ottenere come, per esempio, il loden o la flanella."
+},
+{
+"s": 1884.24,
+"e": 1890.8,
+"t": "Poi abbiamo l'elettrizzatura, ovvero in questo caso parliamo di un procedimento che viene utilizzato per le pellicce sintetiche;"
+},
+{
+"s": 1890.8,
+"e": 1897.28,
+"t": "in questo modo i peli verranno mantenuti sollevati e lucidi."
+},
+{
+"s": 1897.28,
+"e": 1903.84,
+"t": "La ratinatura invece va ad aggrovigliare il pelo formando queste pallottoline per riuscire ad ottenere il famoso effetto pilling."
+},
+{
+"s": 1903.84,
+"e": 1910.8,
+"t": "In questo caso, però, noi cerchiamo di ottenere questo determinato effetto per aumentare una proprietà anche estetica."
+},
+{
+"s": 1910.8,
+"e": 1918.48,
+"t": "Un esempio di questo, diciamo, procedimento è il casentino. Per quanto riguarda il bruciapelo o gasatura,"
+},
+{
+"s": 1918.48,
+"e": 1925.76,
+"t": "invece, andiamo ad eliminare la peluria superficiale facendo passare questo tessuto rapidamente sopra una fiammella a gas,"
+},
+{
+"s": 1925.76,
+"e": 1931.68,
+"t": "quindi la velocità è posta tra i 60 e i 120 m/min."
+},
+{
+"s": 1931.68,
+"e": 1939.6,
+"t": "Infine abbiamo la smerigliatura, ovvero questa va a sollevare questa cortissima peluria abrasiva"
+},
+{
+"s": 1939.6,
+"e": 1946.48,
+"t": "per conferire una mano, diciamo, molto morbida, molto vellutata, scamosciata."
+},
+{
+"s": 1946.48,
+"e": 1952.8,
+"t": "Quindi questi sono, diciamo, le nobilitazioni utili all'ottenimento di questi tessuti morbidi, pelosi."
+},
+{
+"s": 1952.8,
+"e": 1959.2,
+"t": "Per quanto riguarda la macchina di cardatura, abbiamo anche una curiosità storica,"
+},
+{
+"s": 1959.2,
+"e": 1967.12,
+"t": "ovvero il fatto che sia stata ideata proprio da Leonardo da Vinci; infatti, Leonardo da Vinci cercò in qualche modo di migliorare questo processo stesso."
+},
+{
+"s": 1967.12,
+"e": 1974.64,
+"t": "Ritornando alle nobilitazioni generali, invece, abbiamo bisogno adesso di interfacciarci con un settore che mira"
+},
+{
+"s": 1974.64,
+"e": 1980.88,
+"t": "alla miglioria dell'utilizzo del prodotto. Quindi parliamo di trattamento antimuffa,"
+},
+{
+"s": 1980.88,
+"e": 1987.6,
+"t": "che va a proteggere le fibre vegetali da questi microrganismi e vengono utilizzati dei prodotti batteriostatici"
+},
+{
+"s": 1987.6,
+"e": 1992.64,
+"t": "come, ad esempio, i derivati del fenolo o i sali di rame. L'antitarme,"
+},
+{
+"s": 1992.64,
+"e": 2000.72,
+"t": "questo in realtà è un trattamento specifico per la lana e quindi va ad impregnare le fibre con queste sostanze chimiche o rimedi ecologici"
+},
+{
+"s": 2000.72,
+"e": 2007.28,
+"t": "per evitare, appunto, questo attacco degli insetti. Poi abbiamo i trattamenti antipiega;"
+},
+{
+"s": 2007.28,
+"e": 2014.4,
+"t": "in questo caso vengono richieste le resine ureiche. Queste resine andranno a modificare la struttura intima della fibra cellulosica"
+},
+{
+"s": 2014.4,
+"e": 2020.88,
+"t": "e andrà quindi, di conseguenza, a ridurre le sgualciture che possono essere causate dall'utilizzo del tessuto stesso."
+},
+{
+"s": 2020.88,
+"e": 2027.36,
+"t": "Poi abbiamo la pressatura permanente; in questo caso invece andiamo a memorizzare la forma del capo"
+},
+{
+"s": 2027.36,
+"e": 2034.4,
+"t": "attraverso l'applicazione di resine reticolanti. Oltre a queste resine, abbiamo in realtà bisogno anche del calore;"
+},
+{
+"s": 2034.4,
+"e": 2041.6,
+"t": "il calore, infatti, aiuta a mantenere una determinata piega che è stata concessa al pantalone oppure una determinata plissettatura"
+},
+{
+"s": 2041.6,
+"e": 2047.92,
+"t": "che è stata apposta, appunto, su un tessuto. L'antiscorrimento invece ci aiuta a bloccare lo spostamento dei fili di trama"
+},
+{
+"s": 2047.92,
+"e": 2055.44,
+"t": "e ordito, il trattamento antistatico va ad eliminare le cariche elettriche delle fibre sintetiche e l'antipilling,"
+},
+{
+"s": 2055.44,
+"e": 2062.72,
+"t": "invece, va ad eliminare questa formazione di pallottoline antiestetiche, appunto, riferite all'effetto pilling stesso."
+},
+{
+"s": 2062.72,
+"e": 2070.8,
+"t": "Per quanto riguarda i trattamenti antipiega, invece, abbiamo il finissaggio \"lava e indossa\", che rende superfluo proprio l'utilizzo del ferro da stiro;"
+},
+{
+"s": 2070.8,
+"e": 2077.68,
+"t": "il finissaggio \"sgocciola e asciuga\", dove, diciamo, la piega va a scomparire nel momento in cui lascia asciugare il capo bagnato appeso;"
+},
+{
+"s": 2077.68,
+"e": 2085.44,
+"t": "il finissaggio \"easy-care\" va a garantire invece una manutenzione molto facile; il finissaggio \"non-iron\" invece"
+},
+{
+"s": 2085.44,
+"e": 2092.0,
+"t": "fa sì di ottenere questo tessuto che non deve essere assolutamente stirato; il finissaggio \"wrinkle-free\""
+},
+{
+"s": 2092.0,
+"e": 2098.64,
+"t": "invece va a prevenire la formazione di grinze sul tessuto e quindi, in questo modo, riusciamo, appunto, a completare"
+},
+{
+"s": 2098.64,
+"e": 2105.6,
+"t": "l'iter inerente a quelle che sono le diverse nobilitazioni che possiamo attuare nella realizzazione dei diversi tessuti"
+},
+{
+"s": 2105.6,
+"e": 2112.88,
+"t": "nell'ambito, appunto, tessile. Nel momento in cui abbiamo a che fare, nello specifico però, con lana e fibre sintetiche,"
+},
+{
+"s": 2112.88,
+"e": 2119.2,
+"t": "ovviamente abbiamo bisogno di soluzioni particolari in modo tale che queste fibre possano non andare incontro allo stropicciamento."
+},
+{
+"s": 2119.2,
+"e": 2127.44,
+"t": "Nel momento in cui parliamo di nobilitazioni che possono aiutarci in queste dinamiche e alla risoluzione di queste problematiche,"
+},
+{
+"s": 2127.44,
+"e": 2135.2,
+"t": "abbiamo bisogno però anche di interfacciarci, diciamo, con altre situazioni che vanno a prevedere la modifica della mano del tessuto,"
+},
+{
+"s": 2135.2,
+"e": 2142.32,
+"t": "quindi, in questo caso, parliamo di una mano che può essere più calda, più secca, più rigida e così via. Quali sono queste nobilitazioni?"
+},
+{
+"s": 2142.32,
+"e": 2149.52,
+"t": "Innanzitutto il bruciapelo, la calandratura, la ceratura, la garzatura, la goffratura, l'increspatura, la lucidatura e la mercerizzazione."
+},
+{
+"s": 2149.52,
+"e": 2157.28,
+"t": "Ovviamente non andiamo a vedere, diciamo, come vengono poste queste nobilitazioni, ma parliamo della mano che possiamo ottenere."
+},
+{
+"s": 2157.28,
+"e": 2163.6,
+"t": "Il bruciapelo possiede una mano secca, la calandratura una solida e ferma, la ceratura rigida e scabra,"
+},
+{
+"s": 2163.6,
+"e": 2171.44,
+"t": "la garzatura invece calda e voluminosa, la goffratura fa sì di ottenere una mano piena e voluminosa,"
+},
+{
+"s": 2171.44,
+"e": 2179.76,
+"t": "l'increspatura ruvida e secca, la lucidatura invece scivolosa e infine la mercerizzazione una mano sostenuta."
+},
+{
+"s": 2179.76,
+"e": 2186.4,
+"t": "Ovviamente non andiamo a descriverle nel dettaglio perché sono già situazioni che abbiamo descritto e del quale abbiamo già parlato"
+},
+{
+"s": 2186.4,
+"e": 2194.08,
+"t": "anche per eventuali macchinari utili nei processi di nobilitazione precedentemente descritti."
+},
+{
+"s": 2194.08,
+"e": 2200.96,
+"t": "Per quanto riguarda, però, il campo della mano, oltre questi, diciamo, queste, questi procedimenti di nobilitazione,"
+},
+{
+"s": 2200.96,
+"e": 2208.8,
+"t": "possiamo fare riferimento anche alla chiamata apprettatura. L'apprettatura è, in realtà, questo trattamento temporaneo"
+},
+{
+"s": 2208.8,
+"e": 2215.84,
+"t": "che ci permette di ottenere una mano sostenuta e liscia, quindi va ad aumentare, di conseguenza, anche la resistenza e il peso del tessuto stesso."
+},
+{
+"s": 2215.84,
+"e": 2222.32,
+"t": "Per ottenere quest'apprettatura abbiamo bisogno di sostanze amidacee come, ad esempio, i collanti"
+},
+{
+"s": 2222.32,
+"e": 2229.68,
+"t": "e può essere poi ammorbidito facendo passare il tessuto attraverso i cilindri rompiappretto."
+},
+{
+"s": 2229.68,
+"e": 2236.4,
+"t": "Questo passaggio può avvenire nel momento in cui l'effetto finale dovrà essere rigido."
+},
+{
+"s": 2236.4,
+"e": 2243.2,
+"t": "Le moderne tecnologie ci permettono anche di utilizzare delle nanotecnologie che vanno ad ispirarsi alle foglie di loto."
+},
+{
+"s": 2243.2,
+"e": 2250.48,
+"t": "Queste ci permettono di rendere il cotone autopulente e quindi ci permette di avere questa tipologia di tessuto"
+},
+{
+"s": 2250.48,
+"e": 2257.2,
+"t": "non idonea, non affine a quello che è lo sporco; infatti, ci aiuta a distruggere i batteri sotto l'azione della luce."
+},
+{
+"s": 2257.2,
+"e": 2264.4,
+"t": "Per quanto riguarda invece la solidità del colore, abbiamo questa capacità del materiale tessile di riuscire a conservare"
+},
+{
+"s": 2264.4,
+"e": 2270.88,
+"t": "la stessa tonalità cromatica durante tutte le fasi di utilizzo e di manutenzione."
+},
+{
+"s": 2270.88,
+"e": 2277.68,
+"t": "La mancanza di questa caratteristica, ovviamente, diciamo, costituisce un difetto del tessuto stesso."
+},
+{
+"s": 2277.68,
+"e": 2283.68,
+"t": "In ogni caso, le alterazioni cromatiche possono riguardare lo scolorimento del materiale"
+},
+{
+"s": 2283.68,
+"e": 2291.52,
+"t": "sottoposto all'azione di diversi agenti, ovvero il degrado, oppure la migrazione, ovvero questo trasferimento del colore"
+},
+{
+"s": 2291.52,
+"e": 2298.48,
+"t": "su un materiale tessile vicino. Questa, diciamo, migrazione l'abbiamo già trattata, appunto, nella scorsa lezione"
+},
+{
+"s": 2298.48,
+"e": 2305.44,
+"t": "con quella che era la tintura. Perché accadono, diciamo, queste dinamiche? In realtà possono avvenire per diverse situazioni"
+},
+{
+"s": 2305.44,
+"e": 2314.0,
+"t": "inerenti alla filiera produttiva come, ad esempio, i filatori che mostrano delle problematiche relative proprio ai filati"
+},
+{
+"s": 2314.0,
+"e": 2319.8,
+"t": "oppure i difetti riscontrati subito sul tessuto oppure"
+},
+{
+"s": 2400.0,
+"e": 2405.9,
+"t": "Possiamo riscontrare delle dinamiche non idonee anche al capo confezionato ultimo."
+},
+{
+"s": 2406.78,
+"e": 2417.58,
+"t": "Per quanto riguarda, diciamo, tutto il processo di produzione tessile e tutti i procedimenti che vengono attuati dall'estrazione della fibra fino al confezionamento,"
+},
+{
+"s": 2417.84,
+"e": 2423.36,
+"t": "abbiamo anche bisogno un po' di verificare l'idoneità dell'uso del capo richiesto."
+},
+{
+"s": 2423.68,
+"e": 2434.2,
+"t": "Infatti in questo caso subentrano le nostre prove di laboratorio, che ci permettono di andare ad analizzare il comportamento del tessuto, in questo caso rispetto al colore,"
+},
+{
+"s": 2435.14,
+"e": 2444.22,
+"t": "e quindi rispetto a diversi agenti utilizzati per il maneggiamento del tessuto stesso."
+},
+{
+"s": 2444.42,
+"e": 2450.8,
+"t": "In questo caso faremo riferimento ai lavaggi, allo sfregamento, alla luce, il sudore e all'acqua di mare."
+},
+{
+"s": 2451.34,
+"e": 2455.48,
+"t": "Innanzitutto dobbiamo classificare, diciamo, le alterazioni cromatiche."
+},
+{
+"s": 2455.84,
+"e": 2462.4,
+"t": "Abbiamo delle alterazioni dovute all'indosso dove abbiamo questo sfregamento a secco o a umido"
+},
+{
+"s": 2462.58,
+"e": 2471.74,
+"t": "con diciamo un'alterazione che su viene ricavata anche dalla sudorazione basica o acida,"
+},
+{
+"s": 2472.18,
+"e": 2475.32,
+"t": "oppure dall'esposizione alla luce o per pioggia."
+},
+{
+"s": 2476.54,
+"e": 2482.26,
+"t": "Successivamente possiamo riscontrare anche le alterazioni dovute alla manutenzione, quindi questi lavaggi se posti in acqua o a secco,"
+},
+{
+"s": 2482.38,
+"e": 2489.96,
+"t": "con diversi solventi, oppure l'utilizzo di agenti candeggianti o l'asciugatura al sole o la stiratura."
+},
+{
+"s": 2490.76,
+"e": 2498.44,
+"t": "Infine possiamo avere anche delle alterazioni dovute ad usi particolari, come per esempio l'utilizzo di tessuti con l'acqua di piscina o di mare,"
+},
+{
+"s": 2498.98,
+"e": 2504.76,
+"t": "oppure con lo sfregamento insieme a sabbia, oppure il contatto con la saliva."
+},
+{
+"s": 2505.74,
+"e": 2513.88,
+"t": "Per riuscire quindi a capire bene queste dinamiche del comportamento cromatico del tessuto,"
+},
+{
+"s": 2514.12,
+"e": 2521.26,
+"t": "abbiamo bisogno di effettuare appunto le nostre analisi e abbiamo bisogno di affidarci a dei laboratori specializzati"
+},
+{
+"s": 2521.36,
+"e": 2531.68,
+"t": "che vanno ad utilizzare una striscia multifibra, ovvero questo tessuto di 10 cm alto dove i fili di ordito presentano diverse composizione,"
+},
+{
+"s": 2532.06,
+"e": 2538.82,
+"t": "ovvero si rifanno al poliestere, al cotone, all'acetato, la poliammide, all'acrilico e infine alla lana."
+},
+{
+"s": 2539.12,
+"e": 2549.32,
+"t": "Per effettuare questo test, abbiamo bisogno innanzitutto di preparare una provetta che è composta cucendo insieme su uno dei lati corti la striscia multifibra."
+},
+{
+"s": 2549.92,
+"e": 2559.98,
+"t": "In questo caso il campione, quindi, di tessuto che sarà analizzato sarà appunto sottoposto a questi svariati test insieme ad un tessuto bianco."
+},
+{
+"s": 2560.7,
+"e": 2569.58,
+"t": "Questo tessuto bianco avrà, ovviamente, identica composizione del campione e dovrà avere la funzione di testimone."
+},
+{
+"s": 2572.58,
+"e": 2585.34,
+"t": "Per quanto riguarda la lettura dei risultati, invece, abbiamo bisogno di fare riferimento a valori numerici che vengono ricavate da scale di confronto utili proprio all'esecuzione di questi test."
+},
+{
+"s": 2586.72,
+"e": 2591.68,
+"t": "Iniziamo con la valutazione del degrado e dello scarico. In questo caso faremo riferimento alla scala dei grigi,"
+},
+{
+"s": 2592.18,
+"e": 2599.98,
+"t": "che va a presentare cinque coppie di colore di grigio corrispondenti a diversi livelli di contrasto, dove nel momento in cui abbiamo un valore 1,"
+},
+{
+"s": 2600.28,
+"e": 2609.68,
+"t": "avremo avremo a che fare con un contrasto maggiore e una una solidità molto debole."
+},
+{
+"s": 2611.78,
+"e": 2617.48,
+"t": "Per quanto riguarda, ad esempio, invece il valore 5, questa andrà ad indicare l'assenza di contrasto e quindi un'ottima solidità."
+},
+{
+"s": 2618.7,
+"e": 2624.26,
+"t": "Per la resistenza alla luce solare o artificiale, invece, andremo ad utilizzare la scala dei blu."
+},
+{
+"s": 2624.96,
+"e": 2634.86,
+"t": "Questa, invece, possiede otto campioni di tessuto blu con diverse tonalità, dove il valore 1 indica la solidità più bassa, con contrasto elevatissimo,"
+},
+{
+"s": 2635.54,
+"e": 2642.02,
+"t": "mentre il valore 8 andrà a porre un'eccezionale solidità, ma un contrasto praticamente assente."
+},
+{
+"s": 2643.08,
+"e": 2654.4,
+"t": "L'esposizione alla luce invece viene effettuata coprendo metà del campione per poi inserirlo nel nel Solarbox, ovvero questo apparecchio che va a simulare la luce del sole."
+},
+{
+"s": 2655.62,
+"e": 2667.08,
+"t": "Le specifiche invece prove di solidità richiedono, ovviamente, delle procedure e degli strumenti idonei e soprattutto che possano seguire le leggi emanate."
+},
+{
+"s": 2668.08,
+"e": 2675.52,
+"t": "La prova di solidità allo sfregamento, ad esempio, viene effettuata sia a secco che a umido attraverso questo Crockmeter,"
+},
+{
+"s": 2675.92,
+"e": 2681.3,
+"t": "ovvero questo strumento che viene tarato per l'applicazione di forza di 9 N."
+},
+{
+"s": 2681.9,
+"e": 2690.48,
+"t": "Questa applicazione di forza avviene attraverso il cilindro di 16 mm di diametro, rivestito da questo testimone di cotone bianco."
+},
+{
+"s": 2691.96,
+"e": 2701.26,
+"t": "Per procedere con il nostro test, abbiamo bisogno di compiere dieci sfregamenti su una lunghezza di 10 cm in un tempo di 10 secondi."
+},
+{
+"s": 2702.24,
+"e": 2712.38,
+"t": "Per quanto riguarda, diciamo, queste tipologie di test, possiamo anche fare riferimento a un test empirico molto rapido che ci consente di sfregare manualmente un tessuto di cotone sul campione."
+},
+{
+"s": 2713.12,
+"e": 2718.52,
+"t": "In questo caso riusciremo a riscontrare un eventuale scarico visivo."
+},
+{
+"s": 2719.46,
+"e": 2728.78,
+"t": "La solidità al sudore invece si verifica inserendo questa provetta composta nel nel perspirometro,"
+},
+{
+"s": 2730.42,
+"e": 2735.5,
+"t": "sotto un peso di circa 5 kg per almeno 4 ore ad una temperatura di 37 °C."
+},
+{
+"s": 2736.56,
+"e": 2744.42,
+"t": "In questo test verranno utilizzato anche delle soluzioni che vanno a riprodurre il sudore basico o il sudore acido."
+},
+{
+"s": 2745.56,
+"e": 2755.84,
+"t": "Per la solidità al lavaggio invece e all'acqua possiamo posizionare la provetta all'interno dei contenitori metallici inseriti nell'indirizzo test."
+},
+{
+"s": 2756.44,
+"e": 2764.58,
+"t": "In questo caso abbiamo a che fare con un apparecchio riscaldato dove i contenitori vanno a ruotare in un bagno termostatico."
+},
+{
+"s": 2765.18,
+"e": 2772.46,
+"t": "Per effettuare questa tipologia di test abbiamo bisogno di acqua distillata e sapone neutro."
+},
+{
+"s": 2773.18,
+"e": 2784.28,
+"t": "Nel momento in cui ci andiamo ad interfacciare però con quello che viene chiamato lavaggio ad acqua, dovessimo invece effettuare un lavaggio a secco abbiamo bisogno del percloroetilene."
+},
+{
+"s": 2784.94,
+"e": 2793.9,
+"t": "Per invece verificare la resistenza ai candeggi invece abbiamo bisogno del perborato insieme a soluzione di acqua."
+},
+{
+"s": 2794.52,
+"e": 2803.44,
+"t": "La differenza principale tra la prova di lavaggio e quella di acqua si va a rivolgere in realtà alla fase di asciugatura. Infatti,"
+},
+{
+"s": 2804.04,
+"e": 2814.9,
+"t": "nel test del lavaggio la provetta viene scucita prima di essere poi asciugata in piano, in modo tale che tutte le loro parti non vadano a toccarsi e quindi ad alterare il risultato."
+},
+{
+"s": 2815.54,
+"e": 2827.56,
+"t": "Nella prova dell'acqua la provetta umida invece non va scucita, ma deve essere compressa sotto questi 5 kg per 4 ore a 37° in forno."
+},
+{
+"s": 2828.66,
+"e": 2835.16,
+"t": "In questo caso andiamo a simulare quello che è il comportamento del capo umido lasciato ripiegato."
+},
+{
+"s": 2835.94,
+"e": 2843.28,
+"t": "Tutti i risultati di queste prove verranno poi espressi attraverso le scale dei grigi che possiamo vedere, appunto, qui accanto."
+},
+{
+"s": 2845.66,
+"e": 2853.64,
+"t": "Tra le analisi che possiamo effettuare sui nostri tessuti, possiamo anche effettuare il test per l'aspetto visivo."
+},
+{
+"s": 2854.04,
+"e": 2861.5,
+"t": "In questo caso abbiamo bisogno della specula luminosa, che ci permette di individuare eventuali macchie, difetti di stampe o imperfezioni."
+},
+{
+"s": 2862.88,
+"e": 2872.96,
+"t": "Il controllo anche del tono colore tra le pezze che possono provenire da lotti differenti richiede invece la montatura di un campione di ciascuna pezza su un determinato cartoncino."
+},
+{
+"s": 2873.46,
+"e": 2885.44,
+"t": "In questo modo potremo confrontare il campione a livello visivo e quindi andremo a stabilire i limiti di tolleranza in base alla fascia qualitativa del mercato."
+},
+{
+"s": 2887.0,
+"e": 2895.22,
+"t": "Per riuscire a rilevare queste differenze di tonalità cromatiche possiamo effettuare un controllo centro-cimosa e un controllo cimosa-cimosa."
+},
+{
+"s": 2895.8,
+"e": 2901.76,
+"t": "Nella prima andiamo a confrontare il tono cromatico del centro del tessuto con quello dei bordi."
+},
+{
+"s": 2902.16,
+"e": 2905.74,
+"t": "Nella seconda sezione invece andremo a confrontare il tono tra i bordi opposti."
+},
+{
+"s": 2907.0,
+"e": 2912.96,
+"t": "Questi test possono essere seguiti comunque accostando queste strisce di tessuto solitamente lunghe 20 cm circa."
+},
+{
+"s": 2915.68,
+"e": 2918.72,
+"t": "Queste queste strisce prendono anche il nome tecnico di manichette."
+},
+{
+"s": 2919.86,
+"e": 2931.06,
+"t": "Queste, prima della stesura del materasso in confezione, ci permette di programmare dei controlli in modo tale da capire l'affidabilità del fornitore al quale ci interfacciamo."
+},
+{
+"s": 2932.22,
+"e": 2944.7,
+"t": "Quindi queste diciamo sono le i diversi test che possiamo appunto attuare sui nostri capi per capire se sono idonei ad una determinata qualità oppure possono venirne meno."
+},
+{
+"s": 2946.66,
+"e": 2959.6,
+"t": "Un'altra situazione importante che non possiamo tralasciare riguarda un po' la lavorazione in caso di trattamenti di finissaggio che però vanno a modificare le caratteristiche meccaniche del tessuto stesso."
+},
+{
+"s": 2960.84,
+"e": 2969.36,
+"t": "In questo caso possiamo andare a misurare la resistenza alla trazione e alla stramatura e quindi subentriamo con delle analisi dei test proprio"
+},
+{
+"s": 2969.46,
+"e": 2974.62,
+"t": "specifici per queste situazione fisicomeccaniche."
+},
+{
+"s": 2975.64,
+"e": 2982.46,
+"t": "Come facciamo a misurare quindi questa trazione e questa stramatura? Abbiamo bisogno innanzitutto del dinamometro"
+},
+{
+"s": 2983.52,
+"e": 2986.68,
+"t": "per poi procedere appunto alla misurazione stessa."
+},
+{
+"s": 2987.72,
+"e": 2999.98,
+"t": "La resistenza al pilling comunque si determina invece con il Random Tumble Pilling Tester, oppure con l'ICI Pilling Box tester, oppure l'apparecchio Martindale."
+},
+{
+"s": 3000,
+"e": 3003,
+"t": "In ogni caso, diciamo che molti di questi test"
+},
+{
+"s": 3003,
+"e": 3007,
+"t": "rispondono un po' anche a degli elementi di soggettività"
+},
+{
+"s": 3007,
+"e": 3011,
+"t": "e quindi di conseguenza per capire se un tessuto può essere idoneo o meno,"
+},
+{
+"s": 3011,
+"e": 3017,
+"t": "abbiamo anche bisogno di specifici accordi tra le parti commerciali,"
+},
+{
+"s": 3017,
+"e": 3021,
+"t": "in modo tale che possiamo capire qual è il livello qualitativo accettabile"
+},
+{
+"s": 3021,
+"e": 3024,
+"t": "e quale invece no."
+},
+{
+"s": 3024,
+"e": 3029,
+"t": "Per quanto riguarda comunque, diciamo,"
+},
+{
+"s": 3029,
+"e": 3032,
+"t": "i trattamenti industriali, abbiamo"
+},
+{
+"s": 3032,
+"e": 3038,
+"t": "delle situazioni utili per il trattamento del tessuto ultimo,"
+},
+{
+"s": 3038,
+"e": 3042,
+"t": "per, diciamo, prepararlo alla confezionatura stessa,"
+},
+{
+"s": 3042,
+"e": 3046,
+"t": "ma tuttavia vanno ad interfacciarci con una situazione comunque di pericolo."
+},
+{
+"s": 3046,
+"e": 3052,
+"t": "Finora abbiamo parlato un po' di diversi ambiti lavorativi e quindi, di conseguenza,"
+},
+{
+"s": 3052,
+"e": 3056,
+"t": "abbiamo sempre parlato di questa sezione di sicurezza sul lavoro."
+},
+{
+"s": 3056,
+"e": 3061,
+"t": "Ovviamente anche in questo caso, per quanto riguarda il settore della nobilitazione, non possiamo tralasciare questa sezione"
+},
+{
+"s": 3061,
+"e": 3067,
+"t": "e quindi dobbiamo sapere quali sono, diciamo, i pericoli significativi"
+},
+{
+"s": 3067,
+"e": 3071,
+"t": "legati, diciamo, a questo, a questa dinamica."
+},
+{
+"s": 3071,
+"e": 3077,
+"t": "Innanzitutto i pericoli derivano dalle alte temperature e dall'utilizzo del vapore,"
+},
+{
+"s": 3077,
+"e": 3081,
+"t": "la presenza costante di acqua e di soluzioni chimiche sui pavimenti,"
+},
+{
+"s": 3081,
+"e": 3087,
+"t": "il contatto diretto con i coloranti e ovviamente con gli ausiliari chimici del quale abbiamo già visto quali possono essere,"
+},
+{
+"s": 3087,
+"e": 3092,
+"t": "diciamo, i danni riscontrabili, infine abbiamo a che fare con delle emissioni atmosferiche"
+},
+{
+"s": 3092,
+"e": 3096,
+"t": "nocive."
+},
+{
+"s": 3096,
+"e": 3103,
+"t": "Per prevenire quindi questi tutti questi rischi, abbiamo bisogno di concentrarci settore per settore."
+},
+{
+"s": 3103,
+"e": 3108,
+"t": "Nel momento in cui parliamo di rischi di caduta su questi pavimenti bagnati, abbiamo bisogno ovviamente di"
+},
+{
+"s": 3108,
+"e": 3114,
+"t": "calzare degli stivali in PVC"
+},
+{
+"s": 3114,
+"e": 3120,
+"t": "e nitrile. Questi solitamente sono dotati di puntale e lamine d'acciaio,"
+},
+{
+"s": 3120,
+"e": 3125,
+"t": "suola ergonomica, antistatiche e antisdrucciolo, quindi le nostre scarpe, appunto, antinfortunistiche."
+},
+{
+"s": 3125,
+"e": 3131,
+"t": "Nei reparti di preparazione dei coloranti, invece, abbiamo bisogno anche di indossare i nostri occhiali protettivi,"
+},
+{
+"s": 3131,
+"e": 3136,
+"t": "in modo tale che questi eventuali schizzi che possono essere determinati, appunto, dall'utilizzo di queste sostanze"
+},
+{
+"s": 3136,
+"e": 3141,
+"t": "non possono andare ad intaccare i nostri occhi."
+},
+{
+"s": 3141,
+"e": 3146,
+"t": "Le mascherine invece sono utili a prevenire l'inalazione delle polveri,"
+},
+{
+"s": 3146,
+"e": 3151,
+"t": "oltre ovviamente il fatto che c'è un obbligo"
+},
+{
+"s": 3151,
+"e": 3153,
+"t": "ben definito"
+},
+{
+"s": 3153,
+"e": 3158,
+"t": "verso il mangiare, bere o fumare nel momento in cui vengono utilizzate appunto queste sostanze."
+},
+{
+"s": 3158,
+"e": 3164,
+"t": "L'esposizione non controllata alle sostanze tossiche, come può essere l'utilizzo della formaldeide,"
+},
+{
+"s": 3164,
+"e": 3169,
+"t": "delle ammine aromatiche o dei metalli pesanti, può comunque comportare degli avvelenamenti"
+},
+{
+"s": 3169,
+"e": 3175,
+"t": "o comunque delle patologie gravi verso rene o fegato oppure delle patologie tumorali alla vescica."
+},
+{
+"s": 3175,
+"e": 3180,
+"t": "Per quanto riguarda invece le situazioni olfattive,"
+},
+{
+"s": 3180,
+"e": 3186,
+"t": "abbiamo a che fare con fumi generati dal processo di bruciapelo, con gas solforati che hanno quest'odore di uova marce"
+},
+{
+"s": 3186,
+"e": 3191,
+"t": "tipico, vapori acidi che derivano invece dall'utilizzo di acido acetico"
+},
+{
+"s": 3191,
+"e": 3196,
+"t": "all'interno delle varie fasi di lavaggio e finissaggio, e l'esalazione che vengono emanate"
+},
+{
+"s": 3196,
+"e": 3201,
+"t": "dai fanghi nelle vasche dove avviene la depurazione delle acque reflue."
+},
+{
+"s": 3201,
+"e": 3207,
+"t": "In questo caso subentra ovviamente la legislazione"
+},
+{
+"s": 3207,
+"e": 3211,
+"t": "per garantire, diciamo, l'adozione di impianti idonei"
+},
+{
+"s": 3211,
+"e": 3215,
+"t": "all'aspirazione di questi fumi o comunque all'aspirazione e ricircolo dell'aria"
+},
+{
+"s": 3215,
+"e": 3223,
+"t": "costante. I controlli e le metodologie delle analisi fanno anche riferimento a degli standard tecnici che vengono definiti a livello"
+},
+{
+"s": 3223,
+"e": 3230,
+"t": "internazionale e anche nazionale. In questo caso facciamo riferimento all'ente UNI, ovvero l'ente attivo in Italia, l'ente DIN"
+},
+{
+"s": 3230,
+"e": 3236,
+"t": "in Germania, BS nel Regno Unito, EN a livello europeo,"
+},
+{
+"s": 3236,
+"e": 3243,
+"t": "ASTM negli Stati Uniti, JIS in Giappone, GB in Cina e l'ISO invece"
+},
+{
+"s": 3243,
+"e": 3248,
+"t": "è una situazione riconosciuta proprio a livello internazionale."
+},
+{
+"s": 3248,
+"e": 3255,
+"t": "Perché per noi è importante capire questi enti normatori del settore tessile? Perché ogni norma tecnica"
+},
+{
+"s": 3255,
+"e": 3261,
+"t": "viene identificata proprio da una sigla che va a definire l'origine"
+},
+{
+"s": 3261,
+"e": 3266,
+"t": "oltre al numero progressivo e all'anno di pubblicazione. Un esempio"
+},
+{
+"s": 3266,
+"e": 3272,
+"t": "possiamo rivolgerlo verso la codifica UNI EN ISO 105-E04:2013."
+},
+{
+"s": 3272,
+"e": 3277,
+"t": "In questo caso iniziamo col dire che ovviamente abbiamo una norma valida a livello nazionale, perché abbiamo detto che UNI"
+},
+{
+"s": 3277,
+"e": 3282,
+"t": "sta per in Italia, a livello europeo perché EN è valido a livello europeo,"
+},
+{
+"s": 3282,
+"e": 3286,
+"t": "e internazionale perché abbiamo la sezione ISO."
+},
+{
+"s": 3286,
+"e": 3291,
+"t": "La serie 105 invece si rivolge alle prove di solidità del colore,"
+},
+{
+"s": 3291,
+"e": 3296,
+"t": "mentre la sigla E04 va a definire il metodo specifico per la solidità al sudore"
+},
+{
+"s": 3296,
+"e": 3301,
+"t": "e il 2013 si riferisce invece all'anno di emissione dell'aggiornamento."
+},
+{
+"s": 3301,
+"e": 3306,
+"t": "Le prove che possono essere poste sui filati invece vanno a comprendere la determinazione della torsione"
+},
+{
+"s": 3306,
+"e": 3312,
+"t": "e facciamo riferimento alla norma UNI EN ISO 2061:2010."
+},
+{
+"s": 3312,
+"e": 3317,
+"t": "Per quanto riguarda il titolo invece facciamo riferimento alla normativa UNI EN ISO 2060:1997,"
+},
+{
+"s": 3317,
+"e": 3323,
+"t": "per la resistenza alle trazioni UNI EN ISO 2062:2010,"
+},
+{
+"s": 3323,
+"e": 3330,
+"t": "l'elasticità invece UNI 4818-24:1992,"
+},
+{
+"s": 3330,
+"e": 3336,
+"t": "per il restringimento la UNI EN ISO 12590:2002,"
+},
+{
+"s": 3336,
+"e": 3341,
+"t": "e per l'umidità legale invece l'ISO 6741 o la UNI 1335."
+},
+{
+"s": 3341,
+"e": 3346,
+"t": "Per quanto riguarda invece i tessuti,"
+},
+{
+"s": 3346,
+"e": 3352,
+"t": "abbiamo delle norme applicabili come ad esempio la UNI EN 12127:1999."
+},
+{
+"s": 3352,
+"e": 3357,
+"t": "In questo caso, diciamo, questa norma ci aiuta a determinare il peso stesso del tessuto."
+},
+{
+"s": 3357,
+"e": 3363,
+"t": "Per la stabilità dimensionale del tessuto invece abbiamo l'ISO 6330:2012,"
+},
+{
+"s": 3363,
+"e": 3370,
+"t": "e per la determinazione del pilling attraverso l'utilizzo di strumenti come l'ICI pilling box"
+},
+{
+"s": 3370,
+"e": 3374,
+"t": "o il Martindale, abbiamo l'UNI EN ISO 12945."
+},
+{
+"s": 3374,
+"e": 3379,
+"t": "Per quanto riguarda, diciamo, uno sguardo verso l'Italia, abbiamo ovviamente a che fare con la consultazione e l'acquisto"
+},
+{
+"s": 3379,
+"e": 3383,
+"t": "di norme tecniche che avvengono attraverso i punti UNI."
+},
+{
+"s": 3383,
+"e": 3388,
+"t": "Questi punti UNI sono ovviamente presenti proprio a livello del territorio nazionale"
+},
+{
+"s": 3388,
+"e": 3394,
+"t": "italiano, mentre le analisi di laboratorio vanno a verificare la prestazione del materiale utilizzato,"
+},
+{
+"s": 3394,
+"e": 3399,
+"t": "i requisiti di idoneità dell'utilizzo del materiale e la tutela della salute del consumatore"
+},
+{
+"s": 3399,
+"e": 3403,
+"t": "stesso che vada a comprare quel determinato materiale."
+},
+{
+"s": 3403,
+"e": 3407,
+"t": "In realtà c'è da dire che diversi capi di abbigliamento vengono importati,"
+},
+{
+"s": 3407,
+"e": 3410,
+"t": "in particolare dalla sezione della Cina."
+},
+{
+"s": 3410,
+"e": 3417,
+"t": "Questi capi importati possono contenere a volte alte quantità di formaldeide, ovvero questa sostanza"
+},
+{
+"s": 3417,
+"e": 3423,
+"t": "molto irritante per gli occhi, per le vie respiratorie e per la pelle. Infatti per l'Organizzazione Mondiale della Sanità,"
+},
+{
+"s": 3423,
+"e": 3429,
+"t": "quindi per l'OMS, è stata classificata come una sostanza cancerogena."
+},
+{
+"s": 3429,
+"e": 3433,
+"t": "In diversi paesi extraeuropei"
+},
+{
+"s": 3433,
+"e": 3437,
+"t": "invece è ancora consentito l'utilizzo di coloranti azoici."
+},
+{
+"s": 3437,
+"e": 3442,
+"t": "Questi in realtà all'interno contengono delle ammine aromatiche cancerogene"
+},
+{
+"s": 3442,
+"e": 3448,
+"t": "e sono dei coloranti che sono stati vietati all'interno dell'Unione Europea già dal 2002 grazie alla direttiva 2002/61/CE."
+},
+{
+"s": 3448,
+"e": 3456,
+"t": "Un altro pericolo grave per la nostra salute può essere legato anche alla lavorazione dei tessili e quindi"
+},
+{
+"s": 3456,
+"e": 3461,
+"t": "ci rivolgiamo alla silicosi. Questa in realtà è una patologia polmonare"
+},
+{
+"s": 3461,
+"e": 3466,
+"t": "irreversibile e questa patologia va a colpire gli operatori che solitamente sono addetti alla sabbiatura dei jeans."
+},
+{
+"s": 3466,
+"e": 3473,
+"t": "Questo trattamento in realtà è stato vietato dal ministero della salute della Turchia già nel 2009."
+},
+{
+"s": 3473,
+"e": 3479,
+"t": "Quindi diciamo che abbiamo diverse normative che ci aiutano a capire quali possono essere, diciamo, le sostanze non idonee"
+},
+{
+"s": 3479,
+"e": 3485,
+"t": "per la nostra salute e quindi per evitarle ed eliminarle del tutto dalla produzione, ma anche dal commercio."
+},
+{
+"s": 3485,
+"e": 3491,
+"t": "In ogni caso abbiamo comunque una disparità legislativa presente sia tra i paesi dell'Unione Europea"
+},
+{
+"s": 3491,
+"e": 3496,
+"t": "che per i produttori extraeuropei."
+},
+{
+"s": 3496,
+"e": 3501,
+"t": "Quindi questa disparità legislativa concede, diciamo, delle ripercussioni economiche molto importanti."
+},
+{
+"s": 3501,
+"e": 3506,
+"t": "Infatti le aziende extraeuropee oggi sono libere da vincoli rigidi di sicurezza sul lavoro,"
+},
+{
+"s": 3506,
+"e": 3511,
+"t": "ma anche vincoli rigidi riguardo la tutela dell'ambiente. Questi infatti riescono a ridurre"
+},
+{
+"s": 3511,
+"e": 3517,
+"t": "in modo notevole i costi operativi e quindi,"
+},
+{
+"s": 3517,
+"e": 3523,
+"t": "diciamo, vanno ad avere un significativo vantaggio a livello proprio mercantile."
+},
+{
+"s": 3523,
+"e": 3527,
+"t": "Tuttavia c'è da dire che le norme italiane o comunque europee ci permettono di avere una maggiore tutela"
+},
+{
+"s": 3527,
+"e": 3533,
+"t": "anche nel momento in cui noi andiamo ad acquistare un determinato capo che risulta anche essere idoneo"
+},
+{
+"s": 3533,
+"e": 3537,
+"t": "alla nostra salute nel momento in cui andiamo ad indossarlo o comunque andiamo ad utilizzarlo."
+},
+{
+"s": 3537,
+"e": 3541,
+"t": "In ogni caso sono stati effettuati diversi"
+},
+{
+"s": 3600.0,
+"e": 3605.4,
+"t": "tentativi per riuscire a eliminare questo fenomeno o comunque a ridurlo."
+},
+{
+"s": 3606.0,
+"e": 3616.0,
+"t": "Questi tentativi si rivolgono verso l'applicazione di dazi doganali e contingenti, per quanto riguarda ovviamente l'importazione."
+},
+{
+"s": 3616.8,
+"e": 3628.6,
+"t": "In ogni caso l'unica strategia che possiamo utilizzare a livello sostenibile per il settore tessile italiano si rivolge verso gli investimenti costanti della ricerca e dell'innovazione."
+},
+{
+"s": 3629.5,
+"e": 3641.5,
+"t": "Queste in realtà sono delle ricerche che vengono abbinate ad un'esportazione anche di prodotti importanti di alta qualità verso mercati come la Cina, la Russia, ma anche gli Emirati Arabi."
+},
+{
+"s": 3642.1,
+"e": 3650.1,
+"t": "L'osservazione quindi di questi prodotti ci permette di individuare queste anomalie visive e anche difetti di lavorazione."
+},
+{
+"s": 3650.6,
+"e": 3658.7,
+"t": "Un esempio è nel momento in cui ci interfacciamo con la combinazione di stampa e ricamo all'interno dell'abbigliamento infantile."
+},
+{
+"s": 3659.2,
+"e": 3666.3,
+"t": "In questo caso la stampa viene realizzata solitamente sul rovescio e può trasparire sul dritto del tessuto."
+},
+{
+"s": 3666.8,
+"e": 3673.1,
+"t": "In questo modo si andranno a sovrapporre in modo imprevisto al ricamo esterno effettuato precedentemente."
+},
+{
+"s": 3673.8,
+"e": 3679.5,
+"t": "Nei costumi da bagno invece possiamo riscontrare il problema dello scarico del colore in acqua fredda."
+},
+{
+"s": 3680.4,
+"e": 3685.0,
+"t": "Questo viene causato dalla migrazione del colore del costume stesso."
+},
+{
+"s": 3685.8,
+"e": 3697.4,
+"t": "In ogni caso le diverse tecniche di finissaggio ci aiutano appunto a modificare in modo importante l'aspetto e anche la consistenza della maglieria stessa."
+},
+{
+"s": 3698.4,
+"e": 3714.1,
+"t": "Un altro esempio può essere rivolto verso la maglia rasata che può essere sottoposta a garzatura, lavaggio, ammorbidente e vaporizzazione, oltre che l'inserimento di un filato bouclé per riuscire a ricreare l'aspetto della lana cotta."
+},
+{
+"s": 3714.6,
+"e": 3725.1,
+"t": "Il jersey a tinta unito invece può essere tinto in pezzo e può subire la cinzatura per riuscire ad ottenere questo effetto ottico di lucentezza brillante."
+},
+{
+"s": 3725.4,
+"e": 3736.9,
+"t": "Per quanto riguarda invece la maglia jacquard bicolore possiamo effettuare delle operazioni di infeltrimento, ammorbidimento e decatissaggio per riuscire ad ottenere una mano piena e consistente."
+},
+{
+"s": 3737.4,
+"e": 3749.7,
+"t": "Per quanto riguarda i tessuti operati come la maglia jacquard o la spugna bicolori che vengono lavorati a fil coupé sono altre ovviamente situazioni che ci permettono di essere ottenute grazie appunto alla sessione di nobilitazione e quindi con i procedimenti di finissaggio."
+},
+{
+"s": 3757.9,
+"e": 3769.1,
+"t": "Finiamo la lezione con la valutazione di laboratorio stesso, del quale abbiamo già riferito che possono essere effettuate in diverse dinamiche su diverse, diciamo, componenti anche fisico-chimiche,"
+},
+{
+"s": 3769.2,
+"e": 3778.6,
+"t": "meccaniche del tessuto stesso, ma in questo caso abbiamo detto che ci rivolgeremo verso le prove di solidità del colore e le prove fisico-meccaniche."
+},
+{
+"s": 3779.4,
+"e": 3794.5,
+"t": "Le prove di solidità del colore vanno a misurare la resistenza del colorante verso agenti esterni come, ad esempio, lo sfregamento a secco e il lavaggio a 40 °C."
+},
+{
+"s": 3795.0,
+"e": 3806.1,
+"t": "Per quanto riguarda invece le prove fisico-meccaniche abbiamo detto che andremo a quantificare le prestazioni strutturali come ad esempio la tenuta della cucitura e la resistenza all'abrasione stessa."
+},
+{
+"s": 3807.1,
+"e": 3818.4,
+"t": "I rapporti di prova che vengono forniti dai laboratori specializzati andranno quindi a descrivere in modo qualitativo la prestazione del tessuto."
+},
+{
+"s": 3818.7,
+"e": 3826.7,
+"t": "Un test di solidità allo sfregamento a secco può essere eseguito grazie alla norma UNI EN ISO 105-X12:2003."
+},
+{
+"s": 3827.4,
+"e": 3837.9,
+"t": "In questo caso possiamo andare ad evidenziare una parziale perdita di colore con un valore di scarico pari a 3 e un degrado invece pari a 5."
+},
+{
+"s": 3838.4,
+"e": 3845.5,
+"t": "Indicheremo quindi successivamente che il provino non ha subito alcuna alterazione del tono."
+},
+{
+"s": 3846.0,
+"e": 3866.3,
+"t": "Dovessimo invece effettuare la prova di solidità al lavaggio a 40 °C, che invece viene regolata dalla norma UNI EN ISO 105-C06:2010, potremmo andare invece a registrare ipoteticamente dei risultati inferiori con uno scarico ad esempio pari a 2 o un degrado pari a 3."
+},
+{
+"s": 3866.8,
+"e": 3883.4,
+"t": "Quindi in questi esempi possiamo interfacciarci comunque con delle tabelle prestazionali per articoli specifici che possono fare riferimento a costumi da bagno, che ovviamente sono i principali indumenti che vanno a riassumere il comportamento dei diversi colori esposti a diversi fattori,"
+},
+{
+"s": 3883.5,
+"e": 3907.7,
+"t": "come appunto quello che è l'acqua fredda, un'asciugatura al sole prolungata, l'utilizzo di acqua salata, agenti altri agenti atmosferici e così via. Quindi quando noi parliamo di costume da bagno parliamo effettivamente di un indumento che è soggetto a diverse situazioni."
+},
+{
+"s": 3908.2,
+"e": 3923.7,
+"t": "Per quanto riguarda invece un esempio di analisi multiple effettuate su tessuti misti, possiamo fare riferimento a un articolo che può essere composto dal 64% di cotone, il 31% di lino e 5% di poliuretano."
+},
+{
+"s": 3924.2,
+"e": 3930.1,
+"t": "In questo caso il valore di tolleranza sarà sempre più o meno il 3%."
+},
+{
+"s": 3930.6,
+"e": 3937.8,
+"t": "Sotto questa, diciamo, analisi andremo ad evidenziare le relazioni tra composizione e difettosità."
+},
+{
+"s": 3938.4,
+"e": 3948.1,
+"t": "Quindi andremo ad utilizzare la norma UNI EN ISO 13935-2:2001 che si interfaccia alla resistenza delle cuciture."
+},
+{
+"s": 3948.6,
+"e": 3956.1,
+"t": "In questo esempio possiamo ottenere una rilevazione dei valori di 16 in ordito e 25,8 in trama."
+},
+{
+"s": 3956.7,
+"e": 3964.5,
+"t": "Quindi in questo caso riusciremo ad avere un risultato parzialmente inferiore al requisito standard ovvero 20."
+},
+{
+"s": 3965.1,
+"e": 3975.4,
+"t": "I test di resistenza all'abrasione invece verranno eseguiti con l'apparecchio Martindale e si rivolgeranno alla norma UNI EN ISO 12947-4:2000."
+},
+{
+"s": 3975.9,
+"e": 3986.3,
+"t": "In questo caso, secondo l'esempio citato prima, potremmo mostrare i primi segni di degrado a 7.000 cicli rispetto invece al limite ottimale di 10.000."
+},
+{
+"s": 3986.9,
+"e": 3998.9,
+"t": "In questo modo potremo capire che il nostro esempio ci porterà la rottura completa a circa 14.000 cicli contro i 20.000 cicli richiesti a livello standard."
+},
+{
+"s": 3999.7,
+"e": 4018.5,
+"t": "Quindi complessivamente la valutazione finale di questi articoli andrà ad evidenziare ovviamente la criticità cumulativa dove avremo una mediocre tenuta alle cuciture, una scarsa resistenza all'usura e dall'altra parte un forte degrado cromatico dopo il lavaggio a secco."
+},
+{
+"s": 4020.2,
+"e": 4038.4,
+"t": "Quindi diciamo queste sono delle dinamiche che possono emergere proprio nel momento in cui attueremo degli specifici test per capire su che base va a orientarsi, diciamo, il tessuto che abbiamo prodotto e come possono essere utili dei delle azioni di finissaggio"
+},
+{
+"s": 4038.5,
+"e": 4050.4,
+"t": "rispetto a situazioni invece che magari non sono state previste oppure se sono effettivamente delle operazioni di finissaggio effettuate su tessuto sbagliato che ovviamente comporteranno anche un problema, una scarsa qualità finale del tessuto."
+},
+{
+"s": 4051.0,
+"e": 4059.7,
+"t": "Quindi diciamo questi sono i procedimenti e le analisi che possiamo attuare sui tessuti finiti prima del confezionamento,"
+},
+{
+"s": 4059.8,
+"e": 4079.9,
+"t": "in modo tale che il capo confezionato ultimo posto in commercio possa comunque essere valido sia sotto un punto di vista normativo, ma anche sotto un punto di vista qualitativo. Termineremo poi il percorso con la prossima lezione interfacciandoci invece con gli specifici tessuti che possiamo andare ad ottenere a ciclo di lavorazione ultimato."
+}
+]

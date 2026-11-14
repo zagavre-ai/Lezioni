@@ -1,0 +1,1 @@
+Lavoro in corso (testi e tempi, niente video). Trascrizione con Gemini (Whisper non scaricabile): trascr.json = frasi con secondi. pdf.txt = testo del PDF. quiz.json e testi_voci.json = gia' sul ramo voci-moda-tecnologie-III-lez07.
