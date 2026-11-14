@@ -1,7 +1,12 @@
 {
  "tag": "storia-V-lez07",
- "parti": {},
- "manca": "",
+ "parti": {
+  "1": {
+   "titolo": "Gli Stati Uniti dal boom economico al New Deal",
+   "stato": "IN_MONTAGGIO"
+  }
+ },
+ "manca": "COMPITI_MANCANTI; test PROPOSTA_DA_VALIDARE",
  "serve_master": [],
  "domande_sara": [],
  "note": [
@@ -21,5 +26,5 @@
  "materia": "Storia",
  "lezione": "7",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 12:07:51"
+ "aggiornato": "2026-11-14 12:44:28"
 }
