@@ -2,7 +2,7 @@
  "tag": "letteratura-V-lez04",
  "parti": {
   "1": {
-   "stato": "PRONTA",
+   "stato": "IN_MONTAGGIO",
    "titolo": "Naturalismo e Verismo",
    "voci": "kore",
    "quiz_ok": "si",
@@ -345,10 +345,14 @@
   {
    "quando": "14/11 05:01",
    "testo": "chat A2: PRONTA, consegnata sul ramo consegna-letteratura-V-lez04 (video in 2 pezzi + sha256, vtt, quiz, test Excel del prof, compiti, dispensa A4, scheda, testo YouTube). Misurato: 37:53,7, 68211 fotogrammi, 165,3 MB, parlato -16,6 LUFS, scatto quiz 4/4 a 0,0 s, nessun fermo, sincronia 5/5 punti, sottotitoli 440 blocchi 100% sull'attacco. controllo_finale segna solo 'risoluzione' perché si aspetta ancora 2560x1440: il video è 1920x1080 come da regola del 13/11. Durata sotto i 50 min: il video del prof dura 32:07, nessun riempitivo."
+  },
+  {
+   "quando": "14/11 22:17",
+   "testo": "Letteratura V · chat R1: v2 con approfondimenti animati (da 37:54 a circa 52-55 min)"
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 4",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 05:01:35"
+ "aggiornato": "2026-11-14 22:17:24"
 }
