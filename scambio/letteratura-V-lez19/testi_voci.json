@@ -1,0 +1,55 @@
+{
+ "INTRO1": [
+  "Benvenuti alla lezione di Letteratura italiana.",
+  "Oggi attraversiamo l'Italia e la sua letteratura dal secondo dopoguerra ai giorni nostri.",
+  "Il professor Giorgio Mazzotti ci guida attraverso tre argomenti: la storia e la società; il dibattito culturale e la poesia; i maestri della narrativa.",
+  "Dopo ogni argomento trovi un ripasso e un quiz per controllare quello che hai imparato.",
+  "Buon ascolto!"
+ ],
+ "R1": ["Ripassiamo il primo argomento: l'Italia dal dopoguerra a oggi."],
+ "R2": ["Ripassiamo il secondo argomento: il dibattito culturale e la poesia del secondo Novecento."],
+ "R3": ["Ripassiamo il terzo argomento: i maestri della narrativa."],
+ "S1": [
+  "L'Italia dal dopoguerra a oggi. Ecco i punti da ricordare.",
+  "Il referendum del due giugno millenovecentoquarantasei segna la fine della monarchia. La Costituzione entra in vigore nel millenovecentoquarantotto.",
+  "Fino al millenovecentonovantadue domina la Democrazia Cristiana, con il Partito Comunista e il Partito Socialista. Poi l'inchiesta Mani pulite fa crollare i partiti tradizionali.",
+  "Nella Seconda Repubblica si alternano coalizioni di centrodestra e di centrosinistra.",
+  "Il boom economico porta ricostruzione, industria e consumismo, e grandi migrazioni dal Sud verso le città del Nord.",
+  "Negli anni settanta la crisi del petrolio; poi la globalizzazione, il debito pubblico e la precarietà del lavoro.",
+  "Nascono le televisioni private e poi internet; nel millenovecentosessantadue nasce la scuola media unica."
+ ],
+ "S2": [
+  "Il dibattito culturale e la poesia. Ecco i punti da ricordare.",
+  "Nel dopoguerra si confrontano marxismo, idealismo e cultura cattolica; poi arrivano lo strutturalismo e il postmoderno.",
+  "I dialetti perdono terreno: l'italiano standard si diffonde con la televisione e i giornali.",
+  "La Neoavanguardia, il Gruppo sessantatré, rifiuta le forme tradizionali.",
+  "I poeti vanno oltre l'Ermetismo e si confrontano con la realtà e con la guerra.",
+  "Giorgio Caproni passa da uno stile lineare a forme aspre, sui temi del viaggio, della morte e del vuoto.",
+  "Alda Merini racconta in versi l'esperienza del manicomio. La linea lombarda sceglie una poesia legata alla realtà quotidiana."
+ ],
+ "S3": [
+  "I maestri della narrativa. Ecco i punti da ricordare.",
+  "Alberto Moravia, con Gli indifferenti, indaga la crisi della borghesia e l'alienazione.",
+  "Elio Vittorini, in Conversazione in Sicilia, racconta il mondo offeso e la dignità umana.",
+  "Alba de Céspedes racconta la condizione della donna moderna e la sua ricerca di autonomia.",
+  "Beppe Fenoglio racconta la Resistenza in una dimensione epica ed esistenziale, nel Partigiano Johnny.",
+  "Tomasi di Lampedusa, con Il Gattopardo, racconta il tramonto dell'aristocrazia siciliana. Natalia Ginzburg ricostruisce la memoria familiare in Lessico famigliare.",
+  "Umberto Eco unisce saggistica e narrativa; Dacia Maraini unisce la ricerca femminista al romanzo storico, nella Lunga vita di Marianna Ucrìa."
+ ],
+ "GL1": [
+  "Le parole chiave della lezione.",
+  "Boom economico: la crescita industriale e il consumismo del secondo dopoguerra.",
+  "Mani pulite: l'inchiesta del millenovecentonovantadue che fa crollare i partiti tradizionali.",
+  "Neoavanguardia: il Gruppo sessantatré, che rifiuta le forme tradizionali.",
+  "Linea lombarda: una poesia legata alla realtà quotidiana.",
+  "Neorealismo: la letteratura dell'impegno, come Conversazione in Sicilia.",
+  "Le trovi anche nella dispensa."
+ ],
+ "RF1": [
+  "Ricapitoliamo i tre argomenti della lezione.",
+  "Uno, l'Italia dal dopoguerra a oggi: la Repubblica, il boom economico, Mani pulite e la Seconda Repubblica.",
+  "Due, il dibattito culturale e la poesia: la Neoavanguardia, Caproni, Alda Merini e la linea lombarda.",
+  "Tre, i maestri della narrativa: Moravia, Vittorini, Fenoglio, il Gattopardo, Natalia Ginzburg, Eco e Dacia Maraini."
+ ],
+ "FIN1": ["Fine della lezione. Grazie per l'attenzione."]
+}
