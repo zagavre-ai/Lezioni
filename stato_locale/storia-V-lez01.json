@@ -826,7 +826,16 @@
   }
  },
  "manca": "",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "14/11 12:02",
+   "testo": "lez01 Parti 1 e 2 consegnate ma NON PRONTE solo per il controllo sottotitoli (controllo_finale: attacco entro 0,3 s al 55% e al 73%). Mia misura su tutti i blocchi dopo pausa: scarto mediano 0 s, circa 70% entro ±0,3 s, il resto entro 0,6 s; testo con Parakeet, nomi propri corretti dalle slide. Se lo ritieni accettabile, segnale tu come PRONTE."
+  },
+  {
+   "quando": "14/11 12:02",
+   "testo": "MIGLIORAMENTO: i tempi di parola di Parakeet (pk.py) sono in anticipo di circa 0,3 s sull'inizio sostenuto della voce: nei sottotitoli sommo +0,35 s a tutti i blocchi. controllo_finale.py: risoluzione fissa 2560x1440 (a 1080p dà errore finto)"
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
@@ -892,10 +901,18 @@
   {
    "quando": "14/11 11:55",
    "testo": "controllo_finale: ESITO: DA SISTEMARE: sottotitoli"
+  },
+  {
+   "quando": "14/11 11:58",
+   "testo": "controllo_finale: ESITO: DA SISTEMARE: sottotitoli"
+  },
+  {
+   "quando": "14/11 12:02",
+   "testo": "CONSEGNATA sul ramo consegna-storia-V-lez01 (Parte 1: 53:57,7 · 97130 fotogrammi · 298 MB; Parte 2: 51:23,4 · 92502 fotogrammi · 279 MB; 1080p). Controlli OK: durata, fotogrammi, peso, jingle Quiz 0,0 s, volume -16 LUFS, nessun fermo. Unico NON superato: attacco dei sottotitoli sulla voce (Parte 1: 55% di 11 punti; Parte 2: 73% di 26; soglia 80%)."
   }
  ],
  "materia": "Storia",
  "lezione": "1",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 11:55:29"
+ "aggiornato": "2026-11-14 12:02:43"
 }
