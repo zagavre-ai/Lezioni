@@ -1,0 +1,637 @@
+[
+ {
+  "nome": "INTRO1",
+  "testo": "Benvenuti alla lezione di Laboratori tecnologici, con la professoressa Piera Caputi. Oggi parliamo di modellistica: il ruolo del modellista, il figurino, gli strumenti, le misure, le fibre e i tessuti.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN1_0",
+  "testo": "Approfondiamo: Il modellista in tre mosse.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN1_1",
+  "testo": "Legge il figurino: L'idea dello stilista diventa un progetto da costruire.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN1_2",
+  "testo": "Costruisce il modello: I pezzi del capo, con le misure e il tracciato.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN1_3",
+  "testo": "Collega i reparti: Fa dialogare creatività e produzione.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP1_0",
+  "testo": "La mappa: Il modellista.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP1_1",
+  "testo": "Ruolo: parola chiave, interpretare. Per esempio, dal figurino al modello.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP1_2",
+  "testo": "Competenze: parola chiave, geometria. Per esempio, misure e tessuti.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP1_3",
+  "testo": "Oggi: parola chiave, cad. Per esempio, figura integrata.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP1_4",
+  "testo": "Contesto: parola chiave, industriale. Per esempio, o sartoriale.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R1",
+  "testo": "Ripassiamo: Il modellista interpreta gli schizzi dello stilista e li traduce nel modello, unendo creatività e produzione. Oggi lavora con basi sartoriali e con il cad, in contesto industriale o sartoriale.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN2_0",
+  "testo": "Approfondiamo: Tre figurini a confronto.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN2_1",
+  "testo": "Emozione: Evoca atmosfere e temi stagionali.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN2_2",
+  "testo": "Precisione: Il capo in piano, con linee precise.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN2_3",
+  "testo": "Equilibrio: Unisce estetica ed esigenze produttive.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP2_0",
+  "testo": "La mappa: Il figurino.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP2_1",
+  "testo": "Tendenza: parola chiave, sketch. Per esempio, atmosfere stagionali.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP2_2",
+  "testo": "Tecnico: parola chiave, plat. Per esempio, capo in piano.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP2_3",
+  "testo": "Ibrido: parola chiave, senza colore. Per esempio, etichette e cartellini.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP2_4",
+  "testo": "Ispirazione: parola chiave, giornali e web. Per esempio, immagine globale.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R2",
+  "testo": "Ripassiamo: Il figurino è l'espressione grafica di un'idea. Può essere di tendenza, tecnico o ibrido, e da lui parte la costruzione del modello.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN3_0",
+  "testo": "Approfondiamo: Dal manuale al digitale.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN3_1",
+  "testo": "Metro e manichino: Il rilievo delle misure e la prova del capo.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN3_2",
+  "testo": "Matite, righe, curvilinei: Il disegno tecnico su carta e cartoncino.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN3_3",
+  "testo": "cad, plotter, cam: Tracciati e piazzamenti al computer.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP3_0",
+  "testo": "La mappa: Gli strumenti.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP3_1",
+  "testo": "Misura: parola chiave, metro. Per esempio, nastro, rigido, bilancia.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP3_2",
+  "testo": "Disegno: parola chiave, mine e squadre. Per esempio, curvilinei.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP3_3",
+  "testo": "Marcatura: parola chiave, segnatacche. Per esempio, spilli, punteruolo.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP3_4",
+  "testo": "Digitale: parola chiave, cad e cam. Per esempio, plotter.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R3",
+  "testo": "Ripassiamo: Gli strumenti del modellista servono a misurare, disegnare, marcare e digitalizzare. Il cad velocizza il lavoro, ma la manualità resta centrale.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN4_0",
+  "testo": "Approfondiamo: Tre strade per il modello.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN4_1",
+  "testo": "Dalle misure al tracciato: Diretto in sartoria, proporzionale in industria.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN4_2",
+  "testo": "Si trasforma: Tracciati standard adattati alle tendenze.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN4_3",
+  "testo": "Sul manichino: Il tessuto prende forma senza calcoli preventivi.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP4_0",
+  "testo": "La mappa: Costruire un modello.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP4_1",
+  "testo": "Geometrico: parola chiave, misure. Per esempio, diretto o proporzionale.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP4_2",
+  "testo": "Modello base: parola chiave, trasformazione. Per esempio, standard testati.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP4_3",
+  "testo": "Moulage: parola chiave, manichino. Per esempio, tessuto e spilli.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP4_4",
+  "testo": "cad: parola chiave, computer. Per esempio, ciclo digitale.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R4",
+  "testo": "Ripassiamo: Il modello si costruisce con il tracciato geometrico, con la trasformazione di un modello base o con il moulage. Il cad porta tutto al computer.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN5_0",
+  "testo": "Approfondiamo: Il corpo in otto parti.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN5_1",
+  "testo": "Parti uguali: Il canone di Policleto: unità antropometriche.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN5_2",
+  "testo": "Parti sopra: Dalla sommità del capo alla linea della vita.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN5_3",
+  "testo": "Parti sotto: Dalla vita ai piedi.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP5_0",
+  "testo": "La mappa: Le misure del corpo.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP5_1",
+  "testo": "Proporzione: parola chiave, Policleto. Per esempio, otto unità.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP5_2",
+  "testo": "Rilievo: parola chiave, metro. Per esempio, soggetto scalzo.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP5_3",
+  "testo": "Larghezze: parola chiave, circonferenze. Per esempio, torace e vita.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP5_4",
+  "testo": "Lunghezze: parola chiave, livelli. Per esempio, ascella, vita, bacino.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R5",
+  "testo": "Ripassiamo: Il canone di Policleto divide il corpo in otto parti uguali. Le misure si rilevano con il metro e si distinguono in larghezze, lunghezze, arti e misure accessorie.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN6_0",
+  "testo": "Approfondiamo: Le misure della taglia quarantadue.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN6_1",
+  "testo": "Torace: La semicirconferenza indica la taglia quarantadue.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN6_2",
+  "testo": "Vita: La differenza di otto cm si chiama drop otto.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN6_3",
+  "testo": "Bacino: Semicirconferenza del bacino: taglia più cinque centimetri.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP6_0",
+  "testo": "La mappa: Taglie e normotipo.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP6_1",
+  "testo": "Taglia: parola chiave, semicirconferenza. Per esempio, torace ottantaquattro cm = quarantadue.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP6_2",
+  "testo": "Passo: parola chiave, due cm. Per esempio, tra una taglia e l'altra.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP6_3",
+  "testo": "Drop otto: parola chiave, vita. Per esempio, taglia meno otto.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP6_4",
+  "testo": "Normotipo: parola chiave, centosessantotto cm. Per esempio, taglia quarantadue.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP6_5",
+  "testo": "Vestibilità: parola chiave, gradi gradi di vestibilità. Per esempio, uno grado = uno cm.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R6",
+  "testo": "Ripassiamo: In Italia la taglia è la semicirconferenza del torace: ottantaquattro centimetri sono la taglia quarantadue. La vita è taglia meno otto, il drop otto, e il normotipo è alto centosessantotto centimetri.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN7_0",
+  "testo": "Approfondiamo: L'etichetta secondo la norma.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN7_1",
+  "testo": "Solo centimetri: Via i pollici: le misure sono espresse in centimetri.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN7_2",
+  "testo": "Primarie: I dati essenziali, mai omessi in etichetta.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN7_3",
+  "testo": "Secondarie: Informazioni utili, indicate a discrezione del produttore.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP7_0",
+  "testo": "La mappa: La norma E N tredici quattrocentodue.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP7_1",
+  "testo": "Scopo: parola chiave, meno resi. Per esempio, uniformità.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP7_2",
+  "testo": "Unità: parola chiave, centimetri. Per esempio, niente pollici.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP7_3",
+  "testo": "Larghezze: parola chiave, circonferenze. Per esempio, intere.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP7_4",
+  "testo": "Dati: parola chiave, intervalli. Per esempio, range di misure.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP7_5",
+  "testo": "Misure: parola chiave, primarie. Per esempio, secondarie facoltative.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP7_6",
+  "testo": "Pittogrammi: parola chiave, figura umana. Per esempio, misure indicate.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R7",
+  "testo": "Ripassiamo: La norma E N tredici quattrocentodue uniforma le misure: centimetri, circonferenze intere e intervalli. Le misure primarie sono obbligatorie in etichetta, le secondarie facoltative.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN8_0",
+  "testo": "Approfondiamo: La famiglia delle fibre.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN8_1",
+  "testo": "Animali e vegetali: Lana e seta , cotone e lino.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN8_2",
+  "testo": "Da polimeri naturali: Viscosa e modal, dalla cellulosa.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN8_3",
+  "testo": "Da sintesi chimica: Poliestere, acrilico ed elastan.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP8_0",
+  "testo": "La mappa: Le fibre tessili.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP8_1",
+  "testo": "Naturali: parola chiave, animali o vegetali. Per esempio, lana, seta, cotone, lino.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP8_2",
+  "testo": "Artificiali: parola chiave, polimeri naturali. Per esempio, viscosa, modal.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP8_3",
+  "testo": "Sintetiche: parola chiave, sintesi chimica. Per esempio, poliestere, elastan.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP8_4",
+  "testo": "In mischia: parola chiave, filatura. Per esempio, proprietà combinate.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP8_5",
+  "testo": "Vestibilità: parola chiave, elastan. Per esempio, gradi di vestibilità zero.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R8",
+  "testo": "Ripassiamo: Le fibre si dividono in naturali, animali o vegetali, e chimiche, artificiali o sintetiche. L'elastan migliora la vestibilità e permette la vestibilità zero.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN9_0",
+  "testo": "Approfondiamo: Ordito e trama.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN9_1",
+  "testo": "Fili verticali: Definiscono la lunghezza del tessuto.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN9_2",
+  "testo": "Fili perpendicolari: Formano la larghezza.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN9_3",
+  "testo": "Tela, saia, raso: Dall'intreccio nascono le armature fondamentali.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP9_0",
+  "testo": "La mappa: I tessuti.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP9_1",
+  "testo": "Navetta: parola chiave, ordito e trama. Per esempio, tela, saia, raso.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP9_2",
+  "testo": "Maglia: parola chiave, elasticità. Per esempio, comfort.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP9_3",
+  "testo": "Rete: parola chiave, celle vuote. Per esempio, tulle.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP9_4",
+  "testo": "Cimose: parola chiave, bordi. Per esempio, basse, medie, alte.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP9_5",
+  "testo": "Verso: parola chiave, diritto e rovescio. Per esempio, indifferente o obbligato.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP9_6",
+  "testo": "Vestibilità: parola chiave, nobilitazioni. Per esempio, gradi gradi di vestibilità.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R9",
+  "testo": "Ripassiamo: I tessuti si dividono in navetta, maglia, rete e non tessuti. Il modellista guarda cimose, diritto e rovescio, verso e diritto filo per un buon piazzamento.",
+  "lingua": "it"
+ },
+ {
+  "nome": "GL1_0",
+  "testo": "Ripassiamo le parole chiave della lezione.",
+  "lingua": "it"
+ },
+ {
+  "nome": "GL1_1",
+  "testo": "Modello: l'insieme dei pezzi che compongono il capo finale.",
+  "lingua": "it"
+ },
+ {
+  "nome": "GL1_2",
+  "testo": "Figurino: l'espressione grafica di un'idea, base di ogni modello.",
+  "lingua": "it"
+ },
+ {
+  "nome": "GL1_3",
+  "testo": "Plat: il figurino tecnico, il capo in piano.",
+  "lingua": "it"
+ },
+ {
+  "nome": "GL1_4",
+  "testo": "Moulage: la tecnica che modella il tessuto sul manichino.",
+  "lingua": "it"
+ },
+ {
+  "nome": "GL1_5",
+  "testo": "Taglia: in Italia, la semicirconferenza del torace in centimetri.",
+  "lingua": "it"
+ },
+ {
+  "nome": "GL1_6",
+  "testo": "Drop otto: la differenza di otto centimetri tra torace e vita.",
+  "lingua": "it"
+ },
+ {
+  "nome": "GL1_7",
+  "testo": "Vestibilità: lo spazio aggiunto o sottratto alle misure, in gradi.",
+  "lingua": "it"
+ },
+ {
+  "nome": "GL1_8",
+  "testo": "Cimosa: il bordo laterale del tessuto.",
+  "lingua": "it"
+ },
+ {
+  "nome": "GL1_9",
+  "testo": "Diritto filo: la direzione parallela ai fili di ordito.",
+  "lingua": "it"
+ },
+ {
+  "nome": "GL1_10",
+  "testo": "Sbieco: la linea a quarantacinque gradi rispetto a trama e ordito.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MPF_0",
+  "testo": "La mappa di tutta la lezione: Modellistica.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MPF_1",
+  "testo": "Il modellista: ruolo, figura integrata.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MPF_2",
+  "testo": "Il figurino: tre tipologie, dal disegno al modello.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MPF_3",
+  "testo": "Il modello: geometrico, base, moulage, strumenti e cad.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MPF_4",
+  "testo": "Taglie: semicirconferenza, norma E N tredici quattrocentodue.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MPF_5",
+  "testo": "Fibre: naturali e chimiche, elastan.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MPF_6",
+  "testo": "Tessuti: navetta, maglia, rete, cimose e verso.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RF1_0",
+  "testo": "Prima di salutarci, ricapitoliamo insieme gli argomenti della lezione.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RF1_1",
+  "testo": "Primo: il modellista e le sue competenze.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RF1_2",
+  "testo": "Secondo: il figurino.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RF1_3",
+  "testo": "Terzo: gli strumenti del modellista.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RF1_4",
+  "testo": "Quarto: come si costruisce un modello.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RF1_5",
+  "testo": "Quinto: proporzioni e misure del corpo.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RF1_6",
+  "testo": "Sesto: le taglie e il normotipo.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RF1_7",
+  "testo": "Settimo: la norma E N tredici quattrocentodue e il rilievo delle misure.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RF1_8",
+  "testo": "Ottavo: le fibre tessili.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RF1_9",
+  "testo": "Nono: i tessuti e le loro caratteristiche.",
+  "lingua": "it"
+ },
+ {
+  "nome": "FIN1",
+  "testo": "Fine della lezione. Grazie per l'attenzione, e buono studio.",
+  "lingua": "it"
+ },
+ {
+  "nome": "COMP1",
+  "testo": "Ora passa ai compiti.",
+  "lingua": "it"
+ }
+]
