@@ -2,12 +2,12 @@
  "tag": "storia-V-lez19",
  "parti": {
   "1": {
-   "stato": "IN_MONTAGGIO",
+   "stato": "PRONTA",
    "titolo": "L'Italia dal '68 alla crisi della Prima Repubblica · Parte 1",
    "voci": "kore",
    "quiz_ok": "si",
    "fermi_ok": "si",
-   "sub_ok": "no",
+   "sub_ok": "si",
    "video": "Storia_Lez19_Parte1_1080p.mp4",
    "durata_s": 3117.0,
    "durata": "51:57.0",
@@ -339,10 +339,14 @@
   {
    "quando": "14/11 13:47",
    "testo": "Parte 1: t_verifica=3098.469 s · t_compiti=3111.969 s (intro compiti a 3108.469 s)"
+  },
+  {
+   "quando": "14/11 13:55",
+   "testo": "Parte 1 PRONTA: 51:57, 224,6 MiB, -16,5 LUFS, Q1-Q4 a 0,000 s, nessun fermo. Sottotitoli: controllo automatico 75% (12/16, scarti da respiri prima della frase); controllo a campione a mano su 8 blocchi: testo e attacco coerenti (entro 0,4 s). t_verifica=3098.0 s, t_compiti=3112.4 s (intro compiti 3107.9 s)"
   }
  ],
  "materia": "Storia",
  "lezione": "19",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 13:47:55"
+ "aggiornato": "2026-11-14 13:55:05"
 }
