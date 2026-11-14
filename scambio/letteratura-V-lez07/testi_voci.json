@@ -1,60 +1,127 @@
-{
- "INTRO1": [
-  "Benvenuti. In questa lezione parliamo del romanzo nell'Europa e nell'Italia del Decadentismo.",
-  "Vedremo quattro argomenti: il romanzo decadente in Europa; Uismàns e il suo romanzo Controcorrente; Oscar Uàild e l'Estetismo; e infine Grazia Deledda e il romanzo in Italia.",
-  "Alla fine di ogni argomento troverai un breve ripasso e un quiz di cinque domande."
- ],
- "S1": [
-  "Il romanzo decadente in Europa. Ecco i punti da ricordare.",
-  "Il romanzo decadente rompe con la tradizione: si allontana dal realismo dell'Ottocento e dal Naturalismo.",
-  "Al centro ci sono temi nuovi: l'irrazionale e il rapporto difficile tra l'artista e la società.",
-  "Lo sfondo storico è appena tratteggiato, e la trama diventa esigua: conta soprattutto la psicologia dei personaggi.",
-  "I modelli principali sono due: Controcorrente di Uismàns e Il ritratto di Dorian Grei di Oscar Uàild."
- ],
- "S2": [
-  "Uismàns e Controcorrente. Ecco i punti da ricordare.",
-  "Uismàns nasce a Parigi nel milleottocentoquarantotto. Comincia vicino alla scuola naturalista di Zolà, poi sviluppa una sensibilità diversa.",
-  "Controcorrente, del milleottocentoottantaquattro, è considerato la bibbia del Decadentismo, ed è quasi privo di intreccio.",
-  "Il protagonista, Dez Essànt, è un aristocratico che rifiuta la mediocrità borghese e la vita cittadina.",
-  "Si chiude in una solitudine artificiale fatta di arte, sogni e profumi: la natura è banale, meglio l'immaginazione.",
-  "L'autore attraversa poi una crisi mistica, legata all'occultismo, e approda al cattolicesimo."
- ],
- "S3": [
-  "Oscar Uàild e l'Estetismo. Ecco i punti da ricordare.",
-  "Uàild nasce a Dublino nel milleottocentocinquantaquattro e studia a Oxford, dove lo influenzano Ruskin e Pater.",
-  "A Londra è un dèndi provocatorio: eccentrico, brillante, difende il bello contro la società industriale.",
-  "Nel milleottocentonovantacinque è condannato a due anni di lavori forzati, e muore in solitudine a Parigi nel millenovecento.",
-  "Nel Ritratto di Dorian Grei il quadro invecchia al posto del protagonista: è il tema del doppio.",
-  "La Prefazione al romanzo è un manifesto: non esistono libri morali o immorali, ma solo libri scritti bene o scritti male; e tutta l'arte è inutile."
- ],
- "S4": [
-  "Grazia Deledda e il romanzo in Italia. Ecco i punti da ricordare.",
-  "In Italia, nel secondo Ottocento, il romanzo approfondisce lo studio psicologico e i drammi intimi.",
-  "Grazia Deledda nasce a Nuoro nel milleottocentosettantuno.",
-  "Nel millenovecentoventisei è la prima donna italiana a ricevere il premio Nobel per la Letteratura.",
-  "Tra i suoi capolavori ci sono Elias Portolu e Canne al vento.",
-  "I suoi temi sono la Sardegna, il destino, il senso di colpa, i turbamenti religiosi, la solitudine e l'incapacità di comunicare."
- ],
- "GL1": [
-  "Ripassiamo le parole chiave di questa lezione. Ascolta ogni parola e la sua definizione, e prova a ripeterla.",
-  "Decadentismo: movimento di fine Ottocento che rifiuta il realismo e la mentalità borghese, e mette al centro l'irrazionale.",
-  "Naturalismo: corrente realistica dell'Ottocento, da cui il romanzo decadente si allontana.",
-  "Estetismo: il culto della bellezza come valore supremo, superiore alla morale comune.",
-  "Dèndi: l'artista eccentrico e raffinato che sfida la società con il suo stile di vita.",
-  "Il doppio: l'idea di una forza oscura dentro l'uomo, come nel Ritratto di Dorian Grei.",
-  "Aforisma: frase breve e paradossale, come quelle della Prefazione di Uàild.",
-  "Occultismo: interesse per il soprannaturale e il mistero, nella crisi mistica di Uismàns.",
-  "Ricorda: queste parole le trovi anche nella dispensa."
- ],
- "RF1": [
-  "Prima di salutarci, ricapitoliamo insieme i quattro argomenti di questa lezione. Alla fine, prova a ripeterli con parole tue.",
-  "Primo argomento: il romanzo decadente si allontana dal realismo e dal Naturalismo, ha una trama esigua e guarda alla psicologia dei personaggi.",
-  "Secondo argomento: in Controcorrente di Uismàns, del milleottocentoottantaquattro, Dez Essànt rifiuta la realtà e la natura e vive in un mondo artificiale.",
-  "Terzo argomento: Oscar Uàild è il dèndi dell'Estetismo; nel Ritratto di Dorian Grei la bellezza vale più della morale, e il quadro porta i segni del vizio.",
-  "Quarto argomento: Grazia Deledda, sarda, premio Nobel nel millenovecentoventisei, racconta il destino, la colpa e la solitudine in romanzi come Canne al vento.",
-  "Ottimo lavoro."
- ],
- "FIN1": [
-  "Fine della lezione. Grazie per l'attenzione, e ci vediamo alla prossima lezione."
- ]
-}
+[
+ {
+  "nome": "AN1",
+  "testo": "Apriamo la scheda del romanzo decadente europeo, punto per punto. Nell'età del Decadentismo si assiste a una profonda frattura rispetto alla tradizione. La tradizione è quella del realismo ottocentesco, e in particolare del naturalismo. Il Decadentismo va oltre: è un'altra cosa. Il romanzo decadente ridefinisce i propri fondamenti ideologici. Il primo nuovo tema è l'irrazionale. Il secondo è il problematico rapporto tra l'artista e la società. Poi cambia il modo di costruire il romanzo. Lo sfondo storico si fa appena tratteggiato. La trama diventa esigua: succede poco. L'asse della narrazione si sposta interamente sulla psicologia, sulla dimensione interiore del personaggio. Il professore ricorda che i due pilastri di questa nuova stagione letteraria si trovano in Francia e in Inghilterra. Sono Huysmans, con Controcorrente, e Wilde, con Il ritratto di Dorian Gray. Ricorda la scheda: rottura, nuovi temi, sfondo sfumato, trama esigua.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN2",
+  "testo": "Mettiamo a confronto due modi di fare romanzo: quello naturalista e quello decadente. Il professore ricorda che il naturalismo e il verismo hanno la figura dello scrittore scienziato. Il Decadentismo è un'altra corrente ancora, sempre legata ai romanzi. Cominciamo dall'oggetto del racconto. Il romanzo naturalista guarda alla società e al suo ambiente. Il romanzo decadente guarda all'interiorità del personaggio. Poi lo sfondo storico. Nel romanzo realista il contesto è definito e documentato. In quello decadente è appena tratteggiato. Poi la trama. Nel romanzo realista c'è un intreccio strutturato. In quello decadente la trama diventa esigua, o manca del tutto. Infine, il rapporto con il reale. Il naturalismo indaga la realtà come uno scienziato. Il Decadentismo la rifiuta, e le preferisce l'immaginazione. Ripeti il confronto: società contro interiorità, intreccio contro psicologia.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN3",
+  "testo": "Mettiamo in ordine le date principali di questa lezione. Guarda la linea del tempo, e collega ogni data a un autore. Nel milleottocentoquarantotto nasce a Parigi Joris-Karl Huysmans. Nel milleottocentocinquantaquattro nasce a Dublino Oscar Wilde. Nel milleottocentosettantuno nasce a Nuoro Grazia Deledda. Nel milleottocentottantaquattro Huysmans pubblica Controcorrente, la bibbia del Decadentismo. Nel milleottocentonovantuno esce Il ritratto di Dorian Gray, di Wilde. Nel milleottocentonovantacinque Wilde è condannato a due anni di lavori forzati. Nel millenovecento muore a Parigi, in solitudine. Nel millenovecentotré Deledda pubblica Elias Portolu. Nel millenovecentotredici pubblica Canne al vento. Nel millenovecentoventisei Deledda riceve il premio Nobel per la letteratura. Ripeti ogni data, e dimmi a quale autore appartiene.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN4",
+  "testo": "Fissiamo le parole chiave del primo argomento. Prima parola: frattura. È il distacco dal realismo e dal naturalismo ottocenteschi. Seconda parola: irrazionale. È uno dei nuovi temi del romanzo decadente. Terza parola: artista e società. Il loro rapporto è problematico. Quarta parola: sfondo storico appena tratteggiato. La storia non è più al centro. Quinta parola: trama esigua. Il racconto si riduce all'essenziale. Sesta parola: psicologia. È il vero centro della narrazione. Settima parola: estetismo. È il culto della bellezza, in Wilde. Ottava parola: simbolismo. Il professore ricorda che nella lezione precedente abbiamo visto Decadentismo, Estetismo e Simbolismo in poesia. In questa lezione chiudiamo il Decadentismo francese in narrativa e ci spostiamo in Inghilterra. Poi arriveremo in Italia. Ripeti le parole, e collegale all'autore giusto.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN5",
+  "testo": "Ecco la mappa concettuale del primo argomento: il romanzo decadente in Europa. Al centro c'è il romanzo decadente. Primo ramo: la rottura. Si abbandona il realismo ottocentesco e il naturalismo. Ma non si abbandona il romanzo: cambia il suo modo di essere. Secondo ramo: i nuovi temi. L'irrazionale e il rapporto problematico tra artista e società. Sono temi che portano il romanzo lontano dalla cronaca sociale. Terzo ramo: lo sfondo storico. Appena tratteggiato. La storia non è più protagonista. Quarto ramo: la trama. Esigua, quasi minima. Succede poco, e si guarda dentro. Quinto ramo: la psicologia. L'asse della narrazione si sposta sull'interiorità. Il personaggio è il vero centro del libro. Sesto ramo: i due pilastri. Huysmans in Francia, Wilde in Inghilterra. Sono i due autori che vedremo nei prossimi argomenti. Ripeti i sei rami, seguendo le parole chiave.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN6",
+  "testo": "Apriamo la scheda di Controcorrente, il romanzo di Huysmans del milleottocentottantaquattro. Il professore lo definisce la bibbia del Decadentismo francese in prosa. Il tema è il totale rifiuto della realtà. Dal punto di vista formale, il romanzo scardina l'impianto tradizionale. Non esiste un vero intreccio strutturato. Manca una rete di personaggi, e manca uno sfondo sociale storicamente definito. Il testo si risolve nel ritratto di Des Esseintes. Des Esseintes è un uomo eccezionale ed eccentrico: è l'intellettuale aristocratico che rifiuta la mediocrità borghese e la vita cittadina. Il libro si configura come un catalogo delle sue nevrosi, delle sue manie e dei suoi gusti raffinati. Ci sono le sue passioni e ossessioni per l'arte, per i profumi e per la letteratura. Tutto questo avviene in una splendida quanto artificiale solitudine, costruita apposta per staccarsi da tutto. Ma i profondi turbamenti psichici lo costringono, alla fine, ad abbandonare il suo rifugio. Ricorda la scheda: anno, forma, protagonista, solitudine, crisi.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN7",
+  "testo": "Analizziamo il cuore ideologico di Controcorrente. È il rifiuto della realtà e della natura. Leggi la frase sullo schermo e segui le parole evidenziate. Prima parola: natura. Per Huysmans la natura è ormai banale e usurata. Il decadente prova disgusto per ciò che è comune. Seconda parola: immaginazione. Al mondo reale viene anteposta la creazione della mente. Terza parola: artificiale. È una realtà costruita dall'uomo, con la forza dell'arte. L'artificiale non è un difetto: è una scelta, una forma di superiorità. Quarta parola: inedite. L'obiettivo è attingere a sensazioni del tutto nuove, rare e preziose. È una dimensione quasi metafisica, che porta fuori dal corpo e dal reale. Per questo Des Esseintes non ha bisogno degli altri. Al narratore decadente, nota il professore, non interessa parlare da scienziato della società. Gli interessa la sua interiorità, e il suo modo di sentire. Ripeti le quattro parole: natura, immaginazione, artificiale, inedite.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN8",
+  "testo": "Ripercorriamo la vita di Joris-Karl Huysmans. Il professore dice che la sua biografia riflette una continua inquietudine. Huysmans nasce a Parigi nel milleottocentoquarantotto. Inizia vicino alla scuola naturalista, grazie al legame con Émile Zola. Nel milleottocentoottanta collabora con Zola e altri autori alle Serate di Médan. Poi i due si staccano: uno sarà più naturalista, l'altro decadentista. Nel milleottocentottantaquattro pubblica Controcorrente. È l'esempio più importante e più celebre della letteratura decadente francese in prosa. Poi attraversa una profonda crisi mistica. La crisi lo conduce prima verso l'occultismo. Poi lo porta ad abbracciare l'ortodossia cattolica. Scrive allora opere di carattere esplicitamente religioso. Il professore la chiama una corsa verso l'estremo: da una parte l'eccesso, dall'altra il raccoglimento. Ripeti le tappe: Parigi, Zola, Controcorrente, la crisi mistica.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN9",
+  "testo": "Mettiamo a confronto Zola e Huysmans, che per un periodo hanno lavorato insieme. A sinistra, Zola, il maestro del naturalismo. A destra, Huysmans, che diventa decadentista. Zola è lo scrittore scienziato. Huysmans cerca altro: dopo un'iniziale fase naturalista sviluppa una diversa sensibilità. Per Zola, il racconto osserva la società e il suo ambiente. Per Huysmans, in Controcorrente, la società viene rifiutata. Zola costruisce romanzi con una rete di personaggi. Huysmans scrive un romanzo senza intreccio e con un solo protagonista. Zola indaga la realtà. Huysmans la sostituisce con una realtà artificiale. Collaborarono nel milleottocentoottanta alle Serate di Médan. Poi le loro strade si separarono. Il confronto mostra come lo stesso ambiente culturale possa generare due modi opposti di scrivere. Ripeti: Zola, la realtà osservata; Huysmans, la realtà rifiutata.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN10",
+  "testo": "Fissiamo le parole chiave del secondo argomento. Prima parola: Controcorrente. È il romanzo del milleottocentottantaquattro, la bibbia del Decadentismo. Seconda parola: Des Esseintes. È il protagonista, l'intellettuale aristocratico ed eccentrico. Terza parola: dandy. È la figura dell'esteta raffinato, che piacerà tanto anche a Wilde. Quarta parola: artificiale. È la realtà costruita dall'uomo al posto della natura. Quinta parola: solitudine. È la splendida quanto artificiale solitudine in cui si chiude. Sesta parola: nevrosi. Il romanzo è un catalogo delle sue nevrosi e delle sue manie. Settima parola: mediocrità borghese. È ciò che Des Esseintes rifiuta. Ottava parola: crisi mistica. È la svolta della vita di Huysmans, dall'occultismo al cattolicesimo. Ripeti le otto parole, e prova a spiegare ognuna con una frase.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN11",
+  "testo": "Ecco la mappa concettuale del secondo argomento: Huysmans e Controcorrente. Al centro c'è Controcorrente, del milleottocentottantaquattro. Primo ramo: l'autore. Joris-Karl Huysmans, nato a Parigi nel milleottocentoquarantotto. Parte vicino a Zola e al naturalismo, poi se ne stacca. Secondo ramo: il rifiuto della realtà. La natura è banale e usurata. Alla realtà si oppone l'immaginazione. Terzo ramo: la forma. Nessun intreccio, nessuna rete di personaggi. Il testo si risolve in un ritratto. Quarto ramo: il protagonista. Des Esseintes, un intellettuale aristocratico, un dandy. Rifiuta la mediocrità borghese e la vita cittadina. Quinto ramo: la solitudine artificiale. Arte, sogni, profumi, letteratura. Interrotta solo da gravi crisi psichiche. Sesto ramo: la svolta religiosa. Dalla crisi mistica all'occultismo, fino al cattolicesimo. È la conclusione di una vita inquieta. Ripeti la mappa, ramo per ramo.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN12",
+  "testo": "Ripercorriamo la vita di Oscar Wilde, in ordine. Il professore avverte: la sua biografia non va approfondita troppo in un corso di letteratura italiana, ma è utile per capire l'Estetismo. Wilde nasce a Dublino nel milleottocentocinquantaquattro. È tecnicamente irlandese. Si forma culturalmente a Oxford, sotto l'influenza di Ruskin e di Pater. Diventa celebre a Londra per il suo spirito eccentrico e le sue posizioni estetiche provocatorie. Si distingue per il look, i capelli lunghi, i vestiti vistosi, le battute sagaci. Difende il principio del bello contro la società industriale. Produce una vasta gamma di opere: fiabe come Il principe felice, racconti, saggi estetici. E commedie teatrali brillanti, come L'importanza di chiamarsi Ernesto. Nel milleottocentonovantuno pubblica Il ritratto di Dorian Gray. Il dramma Salomé viene censurato, per i suoi contenuti spiccatamente erotici. Nel milleottocentonovantacinque viene arrestato e condannato a due anni di lavori forzati. Muore in solitudine a Parigi, nel millenovecento. Ripeti la sequenza: Dublino, Oxford, Londra, il carcere, Parigi.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN13",
+  "testo": "Apriamo la scheda dell'opera più importante di Wilde: Il ritratto di Dorian Gray. È del milleottocentonovantuno, ed è un vero manifesto del movimento estetico. L'impianto narrativo è più tradizionale di quello di Huysmans: ci sono personaggi, un intreccio, una vicenda. Su questa vicenda si innesta una forte dimensione saggistica e intellettuale. Il romanzo vuole capovolgere i luoghi comuni della società borghese. C'è anche una dimensione fantastica e allegorica, centrata sul tema del doppio. Il protagonista è Dorian Gray, un giovane bellissimo. Il pittore Basil dipinge il suo ritratto. Dorian diventa consapevole della sua bellezza. E vorrebbe non morire mai: che sia il ritratto a invecchiare, al posto suo. Così accade: il quadro invecchia, e porta i segni dei suoi vizi. Dorian resta giovane e bello, mentre le persone che lo conoscono da anni se ne accorgono. Interiormente, però, diventa un mostro: affamato di bellezza, di immortalità e di potenza. C'è, in fondo, un patto diabolico, e alla fine perde la sua umanità. Ricorda la scheda: anno, impianto, tema, trama.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN14",
+  "testo": "Analizziamo il tema del doppio nel Ritratto di Dorian Gray. Il professore ne indica le radici nella tradizione ottocentesca. Pensa a Frankenstein di Mary Shelley, e a Dottor Jekyll e Mister Hyde di Stevenson. Leggi ora la frase sullo schermo e segui le parole evidenziate. Prima parola: bellezza. Dorian è bellissimo, e ne è consapevole. Seconda parola: oscura. Il motivo del doppio si fonda sulla presenza nell'uomo di forze oscure e minacciose. In Wilde si aggiunge una sostituzione simbolica tra l'arte e la vita. Il dipinto, cioè l'arte, invecchia al posto della persona. Terza parola: ritratto. È lui che porta il peso del tempo. Quarta parola: vizi. Il quadro accumula i segni dei vizi e delle azioni turpi di Dorian. Il male non si vede sul suo volto: si vede solo sul quadro. Wilde celebra la bellezza, ma allo stesso tempo ne mostra i limiti. Vuole così lanciare un messaggio, e sancire la supremazia dell'arte sulla vita. Ripeti le quattro parole: bellezza, oscura, ritratto, vizi.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN15",
+  "testo": "Passiamo a un testo breve, ma fondamentale: la Prefazione al Ritratto di Dorian Gray. Il professore la definisce un manifesto, una sorta di avvertimento al lettore. È formata da aforismi paradossali, che riassumono la concezione dell'arte di Wilde. Primo aforisma: l'artista è unicamente il creatore di cose belle. Il suo compito non è educare, né criticare la società. Secondo aforisma: non esistono libri morali o immorali. Esistono soltanto libri scritti bene o scritti male. Per Wilde, naturalmente, Dorian Gray è scritto bene. Terzo aforisma: il vizio e la virtù sono semplicemente materiali dell'arte. Sono ingredienti, come i colori per un pittore. Quarto aforisma: tutta l'arte è completamente inutile. Ma inutile qui vuol dire libera da intenti morali. In queste frasi si sente tutta la visione decadente e estetizzante. Ripassa i quattro aforismi, uno alla volta.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN16",
+  "testo": "Raccogliamo le opere di Wilde citate dal professore. Wilde produce una vasta gamma di opere in diversi generi. Cominciamo dalle fiabe: tra queste, Il principe felice. Poi i racconti e i saggi estetici. Poi il teatro, con commedie di enorme successo. La più celebre è L'importanza di chiamarsi Ernesto, brillante e sagace. C'è anche il dramma Salomé. Il professore ricorda che viene censurato, per i suoi contenuti spiccatamente erotici. Il romanzo, naturalmente, è Il ritratto di Dorian Gray, del milleottocentonovantuno. Dopo l'esperienza del carcere, la produzione cambia. Nascono opere mature e malinconiche. Sono La ballata del carcere di Reading e il De profundis. Con queste opere c'è un completo cambio di rotta. Ripassa la sequenza: fiabe, teatro, romanzo, opere del carcere.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN17",
+  "testo": "Per capire fino in fondo Wilde bisogna guardare il suo rapporto con la società del tempo. Nel milleottocentonovantacinque viene condannato a due anni di lavori forzati. Il professore ricorda che l'omosessualità, all'epoca, era un reato penale nel codice britannico. Wilde aveva una moglie e dei figli, ma aveva anche passioni omosessuali. Questo segna profondamente la sua produzione. Secondo il professore, anche il Ritratto di Dorian Gray può essere letto con questa chiave. Non ci sono riferimenti espliciti, perché il libro sarebbe stato censurato. Però, tra le righe, qua e là si colgono degli indizi. I due anni di lavori forzati sono per Wilde un'esperienza dolorosa. Dopo il carcere, la famiglia gli volta le spalle. Muore in solitudine a Parigi, nel millenovecento. La sua folgorante carriera si chiude con un arresto drammatico. Il professore ricorda, in ogni caso, che Wilde è uno dei rappresentanti più importanti in Europa dell'Estetismo. Ricorda i passaggi: condanna, esperienza dolorosa, opere malinconiche, solitudine.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN18",
+  "testo": "Fissiamo le parole chiave del terzo argomento. Prima parola: estetismo. È il culto assoluto della bellezza, elevata a valore supremo. È un valore al di sopra di qualsiasi convenzione morale comune. Seconda parola: dandy. È la figura eccentrica ed elegante, che Wilde incarna a Londra. Terza parola: doppio. È la presenza nell'uomo di forze oscure e minacciose. Quarta parola: ritratto. È il dipinto che invecchia al posto di Dorian. Quinta parola: aforisma paradossale. È la forma della Prefazione. Sesta parola: arte inutile. Vuol dire arte libera da intenti morali. Settima parola: supremazia dell'arte sulla vita. È una tesi centrale del romanzo. Ottava parola: patto diabolico. È ciò che porta Dorian a perdere la sua umanità. Ripeti le otto parole, e collegale all'opera di Wilde.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN19",
+  "testo": "Ecco la mappa concettuale del terzo argomento: Oscar Wilde e l'Estetismo. Al centro c'è Wilde, il rappresentante dell'Estetismo in Inghilterra. Primo ramo: la vita. Nato a Dublino nel milleottocentocinquantaquattro, formato a Oxford. Diventa a Londra un dandy celebre e provocatorio. Secondo ramo: l'Estetismo. Il culto della bellezza, sopra ogni morale comune. Il bello viene difeso contro la società industriale. Terzo ramo: Il ritratto di Dorian Gray, del milleottocentonovantuno. Un romanzo che è anche un manifesto. Quarto ramo: il doppio. Il ritratto che invecchia al posto di Dorian. Una forza oscura che si nasconde dietro la bellezza. Quinto ramo: la Prefazione. Aforismi paradossali sull'arte e sulla morale. Non esistono libri morali o immorali, ma libri scritti bene o male. Sesto ramo: il declino. Il carcere, nel milleottocentonovantacinque, e la morte a Parigi nel millenovecento. Dall'esperienza del carcere nascono opere mature e malinconiche. Ripeti la mappa, ramo per ramo.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN20",
+  "testo": "Ripercorriamo la vita e le opere di Grazia Deledda. Il professore passa ora al contesto italiano. Dell'Italia abbiamo visto Verga, che riprende il naturalismo. Ma accanto al romanzo verista c'è un'altra produzione. Riflette le tensioni e i dibattiti artistici e letterari dell'Europa del tempo. In questo quadro spicca la figura di Grazia Deledda. Nasce a Nuoro nel milleottocentosettantuno: è una sarda. Si forma in Sardegna, poi si trasferisce a Roma. La sua vasta produzione letteraria è ricca di forti componenti autobiografiche. Si discosta dal Verismo documentario, quindi anche dalla lezione di Zola. Nel millenovecentotré pubblica Elias Portolu. Nel millenovecentotredici pubblica Canne al vento. Nel millenovecentoventisei riceve il premio Nobel per la letteratura. È la prima donna italiana a ricevere questo riconoscimento. Il premio arriva in epoca fascista, ma non è un premio italiano. Ripeti le tappe: Nuoro, Roma, i due romanzi, il Nobel.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN21",
+  "testo": "Apriamo la scheda dei temi di Grazia Deledda. Il primo tema è il legame con il mondo e con i paesaggi della Sardegna. I paesaggi sardi sono mitizzati e solenni, e fanno da sfondo alle vicende. Ma le vicende sono dominate da profonde inquietudini interiori. Siamo quasi in una narrativa psicologica. Il secondo tema è l'analisi del destino. Il terzo è il senso di colpa. Il quarto sono i turbamenti religiosi. I personaggi vivono un costante senso di colpa e di peccato. Il quinto tema è la solitudine. E la drammatica incapacità umana di comunicare. Il professore ricorda anche i conflitti familiari e generazionali, il senso del divieto. E la ricerca di libertà o di riscatto, che si scontra con il peso della fatalità. Ricorda la scheda: Sardegna, destino, colpa, religione, solitudine.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN22",
+  "testo": "Mettiamo a confronto Grazia Deledda e Giovanni Verga. Il professore lo dice chiaramente: Deledda non è verghiana. Verga è il grande autore del Verismo documentario. Deledda si distacca dal Verismo documentario, e anche dalla lezione di Zola. Verga è più disincantato. Il professore ricorda che nel suo mondo la barca della Provvidenza, per quanto riparata, non genera fortuna. Deledda, invece, avverte e sente tutte le contraddizioni della sua terra e della società italiana. Soprattutto, sente le tensioni morali interiori. Verga osserva la società dall'esterno. Deledda esplora la soggettività dei personaggi. Entrambe le opere partono da un mondo locale. In Deledda quel mondo assume un respiro europeo e universale. Perché racconta, con lucidità, i drammi dell'individuo moderno. Ripeti il confronto: Verga disincantato e documentario, Deledda interiore e psicologica.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN23",
+  "testo": "Fissiamo le parole chiave del quarto argomento. Prima parola: narrativa psicologica. È una narrativa che esplora l'interiorità, con una notevole fortuna anche in Italia. Seconda parola: Sardegna. È lo sfondo mitizzato, ma anche il punto di partenza di un respiro universale. Terza parola: destino. È il peso della fatalità che grava sui personaggi. Quarta parola: colpa. È il costante senso di peccato. Quinta parola: solitudine. È la condizione costitutiva dell'individuo moderno. Sesta parola: incapacità di comunicare. È un dramma che attraversa le sue opere. Settima parola: Nobel. È il premio del millenovecentoventisei, il primo a una donna italiana. Ottava parola: Elias Portolu e Canne al vento. Sono i due capolavori. Il professore ricorda che ritroveremo la narrativa psicologica più avanti, con Italo Svevo. Ripeti le parole, e spiega una per una a voce alta.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN24",
+  "testo": "Ecco la mappa concettuale del quarto argomento: Grazia Deledda e il romanzo in Italia. Al centro c'è Grazia Deledda. Primo ramo: la vita. Nuoro, milleottocentosettantuno, poi Roma. Una vasta produzione, con forti componenti autobiografiche. Secondo ramo: il Nobel. Millenovecentoventisei, la prima donna italiana. Un premio importante, anche perché non italiano. Terzo ramo: i capolavori. Elias Portolu e Canne al vento. Il dramma del legame tra padri e figli. Quarto ramo: la Sardegna. Paesaggi mitizzati e solenni, sfondo di vicende interiori. Un legame profondo con la sua terra. Quinto ramo: i temi. Destino, colpa, turbamenti religiosi. Il peso della fatalità sulla ricerca di libertà. Sesto ramo: la solitudine. L'incapacità di comunicare. È il dramma dell'individuo moderno, che dà all'opera un respiro universale. Ripeti la mappa, seguendo i sei rami.",
+  "lingua": "it"
+ },
+ {
+  "nome": "ANF",
+  "testo": "Concludiamo con la mappa di tutta la lezione: il romanzo nell'Europa e nell'Italia del Decadentismo. Al centro c'è il romanzo decadente, dall'Europa all'Italia. Primo ramo: la rottura. Si abbandona il realismo ottocentesco e il naturalismo. La trama diventa esigua, lo sfondo storico sfuma e la psicologia è al centro. Secondo ramo: Huysmans e Controcorrente, del milleottocentottantaquattro. La bibbia del Decadentismo francese. Con il rifiuto della natura e il dandy Des Esseintes. Terzo ramo: Wilde e l'Estetismo. Il culto della bellezza, sopra ogni morale comune. Con Il ritratto di Dorian Gray, del milleottocentonovantuno, e il tema del doppio. Quarto ramo: la Prefazione. Aforismi paradossali: l'arte è inutile, i libri sono scritti bene o male. Quinto ramo: Grazia Deledda e il romanzo psicologico in Italia. Con Elias Portolu e Canne al vento, e il Nobel del millenovecentoventisei. Sesto ramo: i temi comuni. Interiorità, solitudine, rifiuto della mediocrità. Guarda la mappa intera: è il filo di tutta la lezione. Prima del glossario, prova a ripercorrerla con parole tue.",
+  "lingua": "it"
+ }
+]
