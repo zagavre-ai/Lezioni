@@ -1,6 +1,688 @@
 {
  "tag": "storia-V-lez02",
- "parti": {},
+ "parti": {
+  "1": {
+   "titolo": "Il mondo agli inizi del XX secolo e l'imperialismo · Parte 1",
+   "stato": "IN_MONTAGGIO",
+   "voci": "kore",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "no",
+   "video": "Storia_Lez2_Parte1_1080p.mp4",
+   "durata_s": 3102.9,
+   "durata": "51:42.9",
+   "fotogrammi": 93088,
+   "fotogrammi_attesi": 93088,
+   "peso_MB": 274.7,
+   "vtt": "Storia_Lez2_Parte1.vtt",
+   "scheda": {
+    "materia": "Storia",
+    "titolo": "Il mondo agli inizi del XX secolo e l'imperialismo · Parte 1",
+    "durata_s": 3102.93,
+    "argomenti": [
+     {
+      "n": 1,
+      "titolo": "La competizione imperialista",
+      "inizio_s": 196.333,
+      "quiz_s": 1469.467
+     },
+     {
+      "n": 2,
+      "titolo": "Regno Unito e Impero britannico",
+      "inizio_s": 1474.767,
+      "quiz_s": 2373.934
+     },
+     {
+      "n": 3,
+      "titolo": "La Francia · nazionalismo e Dreyfus",
+      "inizio_s": 2379.234,
+      "quiz_s": 2920.0
+     }
+    ],
+    "quiz": {
+     "Q1": {
+      "title": "Quiz 1 · La competizione imperialista",
+      "items": [
+       {
+        "p": "Quale Stato, con la sua ascesa, sfida il primato britannico e alimenta il revanscismo francese?",
+        "a": "La Germania unificata",
+        "w": [
+         "L'Austria-Ungheria",
+         "La Russia zarista",
+         "Gli Stati Uniti"
+        ],
+        "e": "L'ascesa della Germania unificata scuote gli equilibri europei tra fine Ottocento e inizio Novecento."
+       },
+       {
+        "p": "Che cosa definisce la conferenza di Berlino del 1884?",
+        "a": "Le regole per l'espansione in Africa, con sfere di influenza",
+        "w": [
+         "La fine della tratta degli schiavi",
+         "I confini dell'Impero ottomano",
+         "Un'alleanza militare tra Francia e Germania"
+        ],
+        "e": "Il continente africano viene diviso in sfere di influenza tra le nazioni europee."
+       },
+       {
+        "p": "In che cosa si trasforma il vecchio colonialismo economico nell'imperialismo?",
+        "a": "In sottomissione politica e militare con rigido controllo amministrativo",
+        "w": [
+         "In libero scambio tra le potenze",
+         "In una federazione di Stati autonomi",
+         "In un'amministrazione affidata solo ai missionari"
+        ],
+        "e": "L'imperialismo comporta controllo amministrativo e sfruttamento intensivo delle risorse."
+       },
+       {
+        "p": "Che cosa accompagna le spinte economiche tra le motivazioni dell'imperialismo?",
+        "a": "La ricerca di prestigio politico e la presunta superiorità razziale e culturale europea",
+        "w": [
+         "Il desiderio di diffondere la democrazia",
+         "La richiesta delle popolazioni locali",
+         "Il calo demografico europeo"
+        ],
+        "e": "Accanto all'economia emergono ragioni ideologiche."
+       },
+       {
+        "p": "Come si chiama la reazione di rivincita della Francia contro la Germania?",
+        "a": "Revanscismo",
+        "w": [
+         "Pangermanesimo",
+         "Isolazionismo",
+         "Irredentismo"
+        ],
+        "e": "Il revanscismo francese è alimentato dall'ascesa tedesca."
+       }
+      ]
+     },
+     "Q2": {
+      "title": "Quiz 2 · Regno Unito e Impero britannico",
+      "items": [
+       {
+        "p": "In quale anno muore la regina Vittoria, segnando la fine dell'età vittoriana?",
+        "a": "1901",
+        "w": [
+         "1888",
+         "1914",
+         "1870"
+        ],
+        "e": "La morte della regina nel 1901 chiude l'età vittoriana."
+       },
+       {
+        "p": "Che cosa limita il Parliament Act del 1911?",
+        "a": "Il potere della Camera dei Lords",
+        "w": [
+         "Il potere del re",
+         "Il diritto di voto operaio",
+         "Il commercio coloniale"
+        ],
+        "e": "Il governo liberale riduce il potere dei Lords."
+       },
+       {
+        "p": "Quale riforma liberale è citata tra quelle approvate?",
+        "a": "La giornata lavorativa di otto ore",
+        "w": [
+         "L'abolizione della monarchia",
+         "Il suffragio femminile",
+         "Il servizio militare obbligatorio"
+        ],
+        "e": "Riforme liberali: otto ore, uffici di collocamento, assicurazioni sociali."
+       },
+       {
+        "p": "Che cosa chiede il Sud cattolico nella questione irlandese?",
+        "a": "Indipendenza e autogoverno con la Home Rule",
+        "w": [
+         "L'unione con la Francia",
+         "Un nuovo re cattolico",
+         "La fine dell'autonomia"
+        ],
+        "e": "Il Nord protestante è contrario; la legge del 1914 viene sospesa per la Grande Guerra."
+       },
+       {
+        "p": "Come viene definita l'India, colonia diretta, nell'amministrazione imperiale?",
+        "a": "La «perla dell'impero»",
+        "w": [
+         "La «porta dell'Asia»",
+         "Il «granaio dell'impero»",
+         "Il «cuore del Commonwealth»"
+        ],
+        "e": "Dominions, protettorati e colonie dirette: l'India è una colonia diretta."
+       }
+      ]
+     },
+     "Q3": {
+      "title": "Quiz 3 · La Francia · nazionalismo e Dreyfus",
+      "items": [
+       {
+        "p": "In che anno il capitano Alfred Dreyfus viene ingiustamente condannato per tradimento?",
+        "a": "1894",
+        "w": [
+         "1870",
+         "1906",
+         "1899"
+        ],
+        "e": "Il caso Dreyfus spacca il Paese fino al proscioglimento totale nel 1906."
+       },
+       {
+        "p": "Chi è tra i principali innocentisti, i dreyfusardi?",
+        "a": "Émile Zola",
+        "w": [
+         "Clemenceau",
+         "Napoleone III",
+         "Bismarck"
+        ],
+        "e": "Gli antidreyfusardi erano nazionalisti e antisemiti."
+       },
+       {
+        "p": "Che cosa introducono i governi radicali dal 1899?",
+        "a": "L'istruzione elementare laica",
+        "w": [
+         "Il servizio civile obbligatorio",
+         "Il voto alle donne",
+         "Le colonie in Africa"
+        ],
+        "e": "Introducono riforme sul lavoro e rompono con la Santa Sede nel 1905."
+       },
+       {
+        "p": "Che cosa è la crisi di Fashoda (1898)?",
+        "a": "Un quasi scontro militare con il Regno Unito in Sudan",
+        "w": [
+         "Una guerra con la Germania",
+         "Una rivolta in Algeria",
+         "Un trattato commerciale con la Russia"
+        ],
+        "e": "La risoluzione pacifica porta all'Entente cordiale."
+       },
+       {
+        "p": "In quale anno nasce l'Entente cordiale tra Francia e Regno Unito?",
+        "a": "1904",
+        "w": [
+         "1898",
+         "1911",
+         "1894"
+        ],
+        "e": "È un accordo in funzione antirussa e antitedesca."
+       }
+      ]
+     }
+    }
+   },
+   "timeline": [
+    [
+     "T1",
+     196.333,
+     3.6
+    ],
+    [
+     "Q1",
+     1469.467,
+     4.0
+    ],
+    [
+     "T2",
+     1474.767,
+     3.6
+    ],
+    [
+     "T3",
+     2379.234,
+     3.6
+    ],
+    [
+     "GL1",
+     2977.7,
+     52.1
+    ],
+    [
+     "RF1",
+     3031.4,
+     30.333
+    ],
+    [
+     "FIN1",
+     3063.133,
+     13.6
+    ]
+   ]
+  },
+  "2": {
+   "titolo": "Il mondo agli inizi del XX secolo e l'imperialismo · Parte 2",
+   "stato": "IN_MONTAGGIO",
+   "voci": "kore",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "no",
+   "video": "Storia_Lez2_Parte2_1080p.mp4",
+   "durata_s": 3043.3,
+   "durata": "50:43.3",
+   "fotogrammi": 91300,
+   "fotogrammi_attesi": 91300,
+   "peso_MB": 281.3,
+   "vtt": "Storia_Lez2_Parte2.vtt",
+   "scheda": {
+    "materia": "Storia",
+    "titolo": "Il mondo agli inizi del XX secolo e l'imperialismo · Parte 2",
+    "durata_s": 3043.33,
+    "argomenti": [
+     {
+      "n": 4,
+      "titolo": "La Germania di Guglielmo II",
+      "inizio_s": 73.7,
+      "quiz_s": 505.199
+     },
+     {
+      "n": 5,
+      "titolo": "Austria-Ungheria e Balcani",
+      "inizio_s": 510.499,
+      "quiz_s": 852.065
+     },
+     {
+      "n": 6,
+      "titolo": "L'Impero russo · autocrazia e rivoluzione",
+      "inizio_s": 857.365,
+      "quiz_s": 1605.898
+     },
+     {
+      "n": 7,
+      "titolo": "L'Estremo Oriente · Giappone e Cina",
+      "inizio_s": 1611.198,
+      "quiz_s": 2082.098
+     },
+     {
+      "n": 8,
+      "titolo": "Gli Stati Uniti nuova potenza",
+      "inizio_s": 2087.398,
+      "quiz_s": 2477.297
+     },
+     {
+      "n": 9,
+      "titolo": "America Latina e Messico",
+      "inizio_s": 2482.597,
+      "quiz_s": 2786.897
+     }
+    ],
+    "quiz": {
+     "Q4": {
+      "title": "Quiz 4 · La Germania di Guglielmo II",
+      "items": [
+       {
+        "p": "In che anno sale al trono il Kaiser Guglielmo II?",
+        "a": "1888",
+        "w": [
+         "1871",
+         "1901",
+         "1914"
+        ],
+        "e": "Il Kaiser abbandona la linea prudente di Bismarck."
+       },
+       {
+        "p": "Che cosa significa Weltpolitik?",
+        "a": "«Politica mondiale»",
+        "w": [
+         "«Politica prudente»",
+         "«Politica interna»",
+         "«Politica coloniale difensiva»"
+        ],
+        "e": "È una politica estera aggressiva, con espansione in Africa."
+       },
+       {
+        "p": "Quale piano avvia il riarmo navale tedesco?",
+        "a": "Il piano Tirpitz",
+        "w": [
+         "Il piano Schlieffen",
+         "Il piano Marshall",
+         "Il piano Dawes"
+        ],
+        "e": "Serve a sfidare l'egemonia marittima britannica."
+       },
+       {
+        "p": "Quale popolazione viene sterminata nelle colonie tedesche in Namibia?",
+        "a": "Gli Herero",
+        "w": [
+         "I Boeri",
+         "I Boxer",
+         "I Maya"
+        ],
+        "e": "Le colonie vengono amministrate duramente."
+       },
+       {
+        "p": "Che cosa subisce la società tedesca interna?",
+        "a": "Una forte militarizzazione guidata dal sovrano",
+        "w": [
+         "Una rivoluzione socialista",
+         "Una smilitarizzazione",
+         "Un'ondata di emigrazione obbligata"
+        ],
+        "e": "Predominio dei militari."
+       }
+      ]
+     },
+     "Q5": {
+      "title": "Quiz 5 · Austria-Ungheria e Balcani",
+      "items": [
+       {
+        "p": "Quali popoli privilegia il «compromesso» del 1867?",
+        "a": "Tedeschi e ungheresi",
+        "w": [
+         "Slavi e serbi",
+         "Italiani e croati",
+         "Cechi e polacchi"
+        ],
+        "e": "Le altre minoranze, specialmente gli slavi, sono oppresse."
+       },
+       {
+        "p": "Quale annessione del 1908 alimenta il nazionalismo serbo?",
+        "a": "La Bosnia Erzegovina",
+        "w": [
+         "Il Montenegro",
+         "La Macedonia",
+         "L'Albania"
+        ],
+        "e": "La Serbia è sostenuta dalla Russia in ottica panslavista."
+       },
+       {
+        "p": "Quale Stato sostiene la Serbia in ottica panslavista?",
+        "a": "La Russia",
+        "w": [
+         "La Francia",
+         "La Germania",
+         "La Turchia"
+        ],
+        "e": "Il panslavismo vuole l'unione dei popoli slavi."
+       },
+       {
+        "p": "Chi progetta la trasformazione dell'impero in senso trialistico?",
+        "a": "Francesco Ferdinando",
+        "w": [
+         "Francesco Giuseppe",
+         "Guglielmo II",
+         "Bismarck"
+        ],
+        "e": "Gli slavi sarebbero equiparati a tedeschi e ungheresi."
+       },
+       {
+        "p": "Quali città sono citate come centri di sviluppo culturale dell'impero?",
+        "a": "Vienna e Praga",
+        "w": [
+         "Budapest e Roma",
+         "Berlino e Dresda",
+         "Mosca e Kiev"
+        ],
+        "e": "Nonostante lo sviluppo culturale, l'impero è fragile."
+       }
+      ]
+     },
+     "Q6": {
+      "title": "Quiz 6 · L'Impero russo · autocrazia e rivoluzione",
+      "items": [
+       {
+        "p": "Da che cosa è considerato derivare il potere dello zar?",
+        "a": "Da un'origine divina",
+        "w": [
+         "Dal voto popolare",
+         "Da un contratto con la nobiltà",
+         "Dal Parlamento"
+        ],
+        "e": "La Russia è l'unica potenza europea con un'autocrazia pura."
+       },
+       {
+        "p": "Quale grande opera segna l'industrializzazione russa degli anni Novanta?",
+        "a": "La Transiberiana",
+        "w": [
+         "Il canale di Suez",
+         "La metropolitana di Mosca",
+         "Il porto di Odessa"
+        ],
+        "e": "Lo sviluppo è guidato da capitali stranieri."
+       },
+       {
+        "p": "Chi guida i bolscevichi?",
+        "a": "Lenin",
+        "w": [
+         "Trotskij",
+         "Stalin",
+         "Kerenskij"
+        ],
+        "e": "I menscevichi sono i riformisti del Partito operaio socialdemocratico."
+       },
+       {
+        "p": "Quale battaglia segna la sconfitta russa nella guerra con il Giappone (1904-1905)?",
+        "a": "Tsushima",
+        "w": [
+         "Mukden",
+         "Port Arthur",
+         "Sebastopoli"
+        ],
+        "e": "Il conflitto era per Manciuria e Corea."
+       },
+       {
+        "p": "Che cosa è la «Domenica di sangue» del 1905?",
+        "a": "La violenta repressione a San Pietroburgo che scatena scioperi e i primi soviet",
+        "w": [
+         "L'assassinio dello zar",
+         "L'inizio della guerra con il Giappone",
+         "La proclamazione della Duma"
+        ],
+        "e": "Lo zar concede la Duma, ma ne riduce subito i poteri."
+       }
+      ]
+     },
+     "Q7": {
+      "title": "Quiz 7 · L'Estremo Oriente · Giappone e Cina",
+      "items": [
+       {
+        "p": "Con quale era il Giappone si modernizza sul modello occidentale?",
+        "a": "L'era Meiji",
+        "w": [
+         "L'era Edo",
+         "L'era Heian",
+         "L'era Taisho"
+        ],
+        "e": "Istruzione, ferrovie, industria e flotta: il Giappone diventa potenza imperialista."
+       },
+       {
+        "p": "Quale dinastia governa la Cina in crisi?",
+        "a": "La dinastia Qing",
+        "w": [
+         "La dinastia Ming",
+         "La dinastia Han",
+         "La dinastia Tang"
+        ],
+        "e": "La Cina subisce imposizioni commerciali (guerre dell'oppio)."
+       },
+       {
+        "p": "Che cosa è la rivolta dei Boxer (1900)?",
+        "a": "Un movimento nazionalista e xenofobo che assedia le legazioni a Pechino",
+        "w": [
+         "Una rivolta di contadini filo-occidentali",
+         "Una guerra civile tra Qing e Ming",
+         "Uno sciopero di operai portuali"
+        ],
+        "e": "Viene repressa da una spedizione militare internazionale."
+       },
+       {
+        "p": "Chi guida il movimento che nel 1912 abbatte l'impero Qing?",
+        "a": "Sun Yat-sen",
+        "w": [
+         "Mao Zedong",
+         "Yuan Shikai",
+         "Chiang Kai-shek"
+        ],
+        "e": "Proclama la Repubblica di Cina."
+       },
+       {
+        "p": "Sotto quale dittatura cade presto la Repubblica di Cina?",
+        "a": "Quella militare di Yuan Shikai",
+        "w": [
+         "Quella comunista di Mao",
+         "Quella imperiale di Qing",
+         "Quella di Sun Yat-sen"
+        ],
+        "e": "Il millenario impero era finito nel 1912."
+       }
+      ]
+     },
+     "Q8": {
+      "title": "Quiz 8 · Gli Stati Uniti nuova potenza",
+      "items": [
+       {
+        "p": "Quale legge del 1890 contrasta i grandi monopoli aziendali?",
+        "a": "Lo Sherman Antitrust Act",
+        "w": [
+         "Il Clayton Act",
+         "Il Homestead Act",
+         "Il Patent Act"
+        ],
+        "e": "Si sviluppano siderurgia e petrolio, con grandi trust."
+       },
+       {
+        "p": "Quale presidente adotta misure progressiste come il divieto del lavoro minorile?",
+        "a": "Theodore Roosevelt",
+        "w": [
+         "Franklin Roosevelt",
+         "Woodrow Wilson",
+         "William McKinley"
+        ],
+        "e": "Limita l'orario di lavoro e regola i grandi gruppi."
+       },
+       {
+        "p": "Che cosa è la politica del Big Stick?",
+        "a": "L'intervento armato per tutelare gli interessi americani",
+        "w": [
+         "Il ritiro dalle questioni internazionali",
+         "Il libero scambio",
+         "Un accordo con l'Europa"
+        ],
+        "e": "Trasforma l'America Latina in una sfera d'influenza esclusiva."
+       },
+       {
+        "p": "Per quale opera Roosevelt promuove l'autonomia di Panama?",
+        "a": "La costruzione del canale",
+        "w": [
+         "Una ferrovia transcontinentale",
+         "Una base militare",
+         "Un porto commerciale"
+        ],
+        "e": "Il canale è del 1914."
+       },
+       {
+        "p": "Quali territori ottengono gli Stati Uniti dopo la guerra con la Spagna (1898)?",
+        "a": "Il controllo di Cuba, Portorico, Filippine e Guam",
+        "w": [
+         "Il Messico e il Texas",
+         "La Florida e la Louisiana",
+         "L'Alaska e le Hawaii"
+        ],
+        "e": "Gli Stati Uniti intervengono a Cuba e sconfiggono la Spagna."
+       }
+      ]
+     },
+     "Q9": {
+      "title": "Quiz 9 · America Latina e Messico",
+      "items": [
+       {
+        "p": "Da chi sono governate le repubbliche latinoamericane?",
+        "a": "Da oligarchie di grandi proprietari terrieri (latifondisti)",
+        "w": [
+         "Da governi socialisti",
+         "Da monarchie costituzionali",
+         "Da consigli di operai"
+        ],
+        "e": "La massa dei contadini poveri è legata alla monocoltura da esportazione."
+       },
+       {
+        "p": "Chi governa il Messico dal 1876 in modo autoritario?",
+        "a": "Il generale Porfirio Díaz",
+        "w": [
+         "Francisco Madero",
+         "Pancho Villa",
+         "Obregón"
+        ],
+        "e": "Favorisce i latifondisti a danno dei contadini (peones)."
+       },
+       {
+        "p": "Quale liberale guida la rivolta del 1910 contro Díaz?",
+        "a": "Francisco Madero",
+        "w": [
+         "Emiliano Zapata",
+         "Victoriano Huerta",
+         "Pancho Villa"
+        ],
+        "e": "È sostenuto da generali guerriglieri."
+       },
+       {
+        "p": "Chi sono i generali guerriglieri promotori della riforma agraria?",
+        "a": "Emiliano Zapata e Pancho Villa",
+        "w": [
+         "Huerta e Obregón",
+         "Díaz e Madero",
+         "Bolívar e San Martín"
+        ],
+        "e": "Sostengono la rivoluzione messicana."
+       },
+       {
+        "p": "Che cosa ristabilisce parzialmente l'ordine dopo la guerra civile?",
+        "a": "La Costituzione del 1917 e la presidenza di Obregón (1921)",
+        "w": [
+         "Un intervento militare statunitense",
+         "Il ritorno di Díaz",
+         "L'abolizione del Parlamento"
+        ],
+        "e": "Dopo l'assassinio di Madero per mano del generale Huerta."
+       }
+      ]
+     }
+    }
+   },
+   "timeline": [
+    [
+     "T4",
+     73.7,
+     3.6
+    ],
+    [
+     "T5",
+     510.499,
+     3.6
+    ],
+    [
+     "T6",
+     857.365,
+     3.6
+    ],
+    [
+     "T7",
+     1611.198,
+     3.6
+    ],
+    [
+     "T8",
+     2087.398,
+     3.6
+    ],
+    [
+     "T9",
+     2482.597,
+     3.6
+    ],
+    [
+     "GL2",
+     2909.697,
+     51.6
+    ],
+    [
+     "RF2",
+     2962.897,
+     39.033
+    ],
+    [
+     "FIN2",
+     3003.33,
+     13.8
+    ]
+   ]
+  }
+ },
  "manca": "",
  "serve_master": [
   {
@@ -25,10 +707,18 @@
   {
    "quando": "13/11 07:51",
    "testo": "Parti sotto i 50 min (48,2 e 45,9): aggiunti 13 testi (cronologie, carte, protagonisti), voci richieste alla master; slide 3450 s corretta"
+  },
+  {
+   "quando": "14/11 12:03",
+   "testo": "controllo_finale: ESITO: DA SISTEMARE: sottotitoli"
+  },
+  {
+   "quando": "14/11 12:06",
+   "testo": "controllo_finale: ESITO: DA SISTEMARE: sottotitoli"
   }
  ],
  "materia": "Storia",
  "lezione": "2",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-13 07:51:48"
+ "aggiornato": "2026-11-14 12:06:50"
 }
