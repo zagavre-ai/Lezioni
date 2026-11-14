@@ -1,0 +1,96 @@
+{
+ "Parte1": [
+  {
+   "p": "Quale tragico evento segnò profondamente l'infanzia di Giovanni Pascoli il 10 agosto 1867?",
+   "a": "L'uccisione del padre",
+   "w": [
+    "La morte della madre",
+    "La perdita della sorella maggiore",
+    "Il fallimento economico della famiglia"
+   ]
+  },
+  {
+   "p": "Presso quale Università Giovanni Pascoli ottenne la cattedra di Letteratura italiana nel 1905, succedendo a Giosuè Carducci?",
+   "a": "Bologna",
+   "w": [
+    "Messina",
+    "Pisa",
+    "Firenze"
+   ]
+  },
+  {
+   "p": "Che cosa rappresenta il concetto del \"nido\" nella sensibilità e nella poetica pascoliana?",
+   "a": "Un rifugio rassicurante e protettivo dal dolore e dalla crudeltà del mondo esterno",
+   "w": [
+    "Un luogo di speranza e apertura verso la modernità industriale",
+    "Un simbolo dell'impegno politico e della lotta sociale",
+    "Una metafora della solitudine e dell'isolamento dell'intellettuale"
+   ]
+  },
+  {
+   "p": "In quale celebre saggio, pubblicato nel 1897, Pascoli espone organicamente la sua teoria poetica?",
+   "a": "Il fanciullino",
+   "w": [
+    "Myricae",
+    "Canti di Castelvecchio",
+    "Italy"
+   ]
+  },
+  {
+   "p": "Qual è il significato del titolo della prima raccolta pascoliana, \"Myricae\"?",
+   "a": "Tamerici, piante umili che richiamano la vita campestre",
+   "w": [
+    "Rose selvatiche, simbolo della giovinezza perduta",
+    "Canti della sera, legati al tema della morte",
+    "Nebbie autunnali, che evocano la malinconia"
+   ]
+  }
+ ],
+ "Parte2": [
+  {
+   "p": "Quale raccolta di Pascoli, pubblicata nel 1903, si propone esplicitamente di continuare la linea tematica e lirica di \"Myricae\"?",
+   "a": "I Canti di Castelvecchio",
+   "w": [
+    "I Poemi conviviali",
+    "Odi e Inni",
+    "I Carmina"
+   ]
+  },
+  {
+   "p": "Nella lirica \"L'assiuolo\", quale suono misterioso e malinconico si leva in lontananza, fungendo da vero e proprio asse tematico e strutturale del testo?",
+   "a": "Il pianto di morte dell'uccello notturno",
+   "w": [
+    "Il fruscio del vento tra i rami del moro",
+    "Il tintinnio sottilissimo e dorato dei pettirossi",
+    "Il rumore lontano delle onde del mare"
+   ]
+  },
+  {
+   "p": "Nella poesia \"Temporale\", quale elemento visivo si staglia nel cielo nero come la pece, venendo paragonato a una \"ala di gabbiano\"?",
+   "a": "Un casolare bianco",
+   "w": [
+    "Un fulmine improvviso",
+    "Una nube lontana",
+    "Un filare di pampani"
+   ]
+  },
+  {
+   "p": "Nella celebre poesia \"Il gelsomino notturno\", quale evento privato e umano fa da contrappunto alla segreta e feconda attività della natura?",
+   "a": "La prima notte di nozze di un amico del poeta, legata al tema della sessualità",
+   "w": [
+    "Il ritorno doloroso dei cari defunti nel nido familiare durante la notte",
+    "Il lavoro notturno e silenzioso dei contadini della campagna toscana",
+    "La solitaria veglia del poeta che piange la morte del padre"
+   ]
+  },
+  {
+   "p": "Con quale particolare ossimoro visivo si apre la poesia \"Novembre\", in cui l'illusione della primavera viene subito smentita dalla realtà autunnale?",
+   "a": "L'aria è del gemma, il sole così chiaro",
+   "w": [
+    "Il cielo nero come la pece brulicante di stelle",
+    "Il freddo intenso sotto la luce abbagliante del fulmine",
+    "La nebbia fitta che nasconde il sole mattutino"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,84 @@
+{
+ "titolo": "Compiti · Giovanni Pascoli",
+ "stato": "approvati per delega alla master (Sara, 13/11); dal materiale del docente",
+ "Parte1": [
+  {
+   "n": 1,
+   "tipo": "vero_falso",
+   "testo": "Il padre di Pascoli, Ruggero, fu ucciso il 10 agosto 1867 e il colpevole non fu mai scoperto.",
+   "soluzione": "V"
+  },
+  {
+   "n": 2,
+   "tipo": "vero_falso",
+   "testo": "Per Pascoli il poeta-fanciullo conosce il mondo con la logica e il ragionamento scientifico.",
+   "soluzione": "F"
+  },
+  {
+   "n": 3,
+   "tipo": "completamento",
+   "testo": "Pascoli ricostruisce il «nido» con le sorelle Ida e ____ a Castelvecchio di ____.",
+   "soluzione": [
+    "Mariù",
+    "Barga"
+   ]
+  },
+  {
+   "n": 4,
+   "tipo": "scelta_multipla",
+   "testo": "Che cosa significa il titolo Myricae?",
+   "opzioni": [
+    "Tamerici",
+    "Rose selvatiche",
+    "Canti della sera",
+    "Nebbie d'autunno"
+   ],
+   "soluzione": "Tamerici"
+  },
+  {
+   "n": 5,
+   "tipo": "aperta",
+   "testo": "In 5-8 righe spiega che cos'è il «nido» per Pascoli e perché è legato alla sua storia familiare."
+  }
+ ],
+ "Parte2": [
+  {
+   "n": 1,
+   "tipo": "vero_falso",
+   "testo": "In X Agosto la Terra è definita «atomo opaco del Male».",
+   "soluzione": "V"
+  },
+  {
+   "n": 2,
+   "tipo": "vero_falso",
+   "testo": "Il gelsomino notturno fu scritto per la morte della madre del poeta.",
+   "soluzione": "F"
+  },
+  {
+   "n": 3,
+   "tipo": "completamento",
+   "testo": "Nell'Assiuolo il verso dell'uccello, «____», è un presagio di ____.",
+   "soluzione": [
+    "chiù",
+    "morte"
+   ]
+  },
+  {
+   "n": 4,
+   "tipo": "scelta_multipla",
+   "testo": "Di che cosa parla la lirica Italy?",
+   "opzioni": [
+    "Dell'emigrazione in America",
+    "Della guerra di Libia",
+    "Della vita a Bologna",
+    "Del Risorgimento"
+   ],
+   "soluzione": "Dell'emigrazione in America"
+  },
+  {
+   "n": 5,
+   "tipo": "aperta",
+   "testo": "In 5-8 righe confronta la rondine e il padre in X Agosto: quali elementi li accomunano e che cosa vuole dire il poeta?"
+  }
+ ]
+}

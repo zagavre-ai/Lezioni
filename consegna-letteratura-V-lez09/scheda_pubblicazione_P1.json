@@ -1,0 +1,253 @@
+{
+ "materia": "Letteratura italiana (V)",
+ "titolo": "Giovanni Pascoli · Parte 1",
+ "durata_s": 2256.27,
+ "argomenti": [
+  {
+   "n": 1,
+   "titolo": "La vita di Giovanni Pascoli",
+   "inizio_s": 43.7,
+   "quiz_s": 783.933
+  },
+  {
+   "n": 2,
+   "titolo": "La teoria del nido",
+   "inizio_s": 788.933,
+   "quiz_s": 1021.867
+  },
+  {
+   "n": 3,
+   "titolo": "La poetica del fanciullino",
+   "inizio_s": 1026.867,
+   "quiz_s": 1892.067
+  },
+  {
+   "n": 4,
+   "titolo": "Myricae e i Canti di Castelvecchio",
+   "inizio_s": 1897.067,
+   "quiz_s": 2164.933
+  }
+ ],
+ "quiz": {
+  "Q1": {
+   "title": "Quiz 1 · La vita di Giovanni Pascoli",
+   "items": [
+    {
+     "p": "Dove e quando nasce Giovanni Pascoli?",
+     "a": "A San Mauro di Romagna, nel 1855",
+     "w": [
+      "A Bologna, nel 1835",
+      "A Castelvecchio di Barga, nel 1867",
+      "A Firenze, nel 1905"
+     ],
+     "e": "Nasce nel 1855 a San Mauro di Romagna, da una famiglia della piccola borghesia rurale."
+    },
+    {
+     "p": "Che cosa faceva il padre Ruggero?",
+     "a": "Amministrava le terre di un principe, come intermediario",
+     "w": [
+      "Era un professore di liceo",
+      "Era un medico di provincia",
+      "Era un ufficiale dell'esercito"
+     ],
+     "e": "Il padre gestiva terreni per conto del principe Torlonia."
+    },
+    {
+     "p": "Che cosa si sa dell'assassino del padre?",
+     "a": "Non è mai stato scoperto: il delitto resta un mistero",
+     "w": [
+      "Fu arrestato subito e condannato",
+      "Era un fratello di Pascoli",
+      "Fu ucciso in un duello"
+     ],
+     "e": "Il padre viene ucciso con un colpo d'arma da fuoco e il colpevole non sarà mai trovato."
+    },
+    {
+     "p": "Perché Pascoli subisce un breve arresto nel 1879?",
+     "a": "Per il suo impegno nel movimento socialista",
+     "w": [
+      "Per un debito non pagato",
+      "Per un duello con un compagno",
+      "Per aver copiato una tesi"
+     ],
+     "e": "Negli anni dell'università si avvicina all'ideologia socialista e nel 1879 viene arrestato per un breve periodo."
+    },
+    {
+     "p": "Che cosa ottiene Pascoli nel 1905?",
+     "a": "La cattedra di Letteratura italiana a Bologna, dopo Carducci",
+     "w": [
+      "Il premio Nobel per la Letteratura",
+      "Un seggio in Senato",
+      "La direzione della rivista «Il Marzocco»"
+     ],
+     "e": "Dopo anni di insegnamento nei licei, nel 1905 succede a Carducci all'Università di Bologna."
+    }
+   ]
+  },
+  "Q2": {
+   "title": "Quiz 2 · La teoria del nido",
+   "items": [
+    {
+     "p": "Che cosa rappresenta il «nido» per Pascoli?",
+     "a": "Il rifugio familiare che protegge dal mondo esterno, minaccioso e violento",
+     "w": [
+      "La città moderna e industriale",
+      "La scuola dove insegna",
+      "Il partito socialista"
+     ],
+     "e": "Il nido familiare è un rifugio protettivo dal mondo esterno, percepito come minaccioso."
+    },
+    {
+     "p": "Con chi Pascoli ricostruisce il nido familiare?",
+     "a": "Con le sorelle Ida e Mariù",
+     "w": [
+      "Con la moglie e i figli",
+      "Con il fratello maggiore",
+      "Con Carducci e i suoi allievi"
+     ],
+     "e": "Vive a lungo con le sorelle Ida e Mariù, per ricostruire il nucleo originario."
+    },
+    {
+     "p": "Dove si trova la casa del nido ricostruito?",
+     "a": "A Castelvecchio di Barga",
+     "w": [
+      "A San Mauro di Romagna",
+      "A Matera",
+      "A Roma"
+     ],
+     "e": "Il nido viene ricostruito a Castelvecchio di Barga."
+    },
+    {
+     "p": "Quale conseguenza psicologica ha il trauma familiare?",
+     "a": "Una fragilità profonda e la difficoltà a vivere relazioni mature fuori dal nido",
+     "w": [
+      "Il desiderio di viaggiare e conoscere il mondo",
+      "Una grande fiducia nella scienza e nel progresso",
+      "La scelta di diventare avvocato"
+     ],
+     "e": "Il trauma genera fragilità e difficoltà a stabilire relazioni mature esterne al nido."
+    },
+    {
+     "p": "Perché Pascoli si sente in dovere di proteggere le sorelle?",
+     "a": "Perché è rimasto l'unico maschio della famiglia dopo tanti lutti",
+     "w": [
+      "Perché il padre glielo aveva chiesto per lettera",
+      "Perché le sorelle erano molto ricche",
+      "Perché lavoravano con lui a scuola"
+     ],
+     "e": "Dopo la morte del padre e di altri familiari, si sente padre e fratello insieme per le sorelle sopravvissute."
+    }
+   ]
+  },
+  "Q3": {
+   "title": "Quiz 3 · La poetica del fanciullino",
+   "items": [
+    {
+     "p": "Come cambia il rapporto di Pascoli con la scienza?",
+     "a": "Pur formato nel Positivismo, arriva alla sfiducia nella scienza e si apre al mistero",
+     "w": [
+      "Diventa un grande sostenitore del Positivismo",
+      "Abbandona la poesia per la scienza",
+      "Non si occupa mai di questi temi"
+     ],
+     "e": "Pascoli si forma in epoca positivista, ma approda a una sfiducia nella scienza."
+    },
+    {
+     "p": "Che cos'è il «fanciullino»?",
+     "a": "La parte fanciullesca presente in ogni uomo, che scopre le cose con meraviglia",
+     "w": [
+      "Un personaggio di un romanzo di Pascoli",
+      "Il figlio di Pascoli",
+      "Un allievo di Pascoli al liceo"
+     ],
+     "e": "Per Pascoli la poesia coincide con la parte fanciullesca dell'uomo."
+    },
+    {
+     "p": "Come conosce il mondo il poeta fanciullo?",
+     "a": "Con l'intuizione, cogliendo le corrispondenze nascoste tra le cose",
+     "w": [
+      "Con la logica e il ragionamento scientifico",
+      "Con lo studio della storia",
+      "Con l'osservazione dei fatti sociali"
+     ],
+     "e": "Il poeta-fanciullo non usa la logica, ma percepisce accordi segreti tra le cose."
+    },
+    {
+     "p": "Che funzione hanno gli oggetti quotidiani e naturali nella poesia di Pascoli?",
+     "a": "Diventano simboli che alludono a una realtà ignota",
+     "w": [
+      "Servono solo a descrivere il paesaggio",
+      "Sono elenchi di informazioni scientifiche",
+      "Hanno un valore puramente decorativo"
+     ],
+     "e": "I dettagli quotidiani e naturali filtrano la soggettività e alludono a una realtà ignota."
+    },
+    {
+     "p": "Perché la poesia «pura» è utile, secondo Pascoli?",
+     "a": "Perché, senza scopi morali o politici, unisce gli uomini e li rende più buoni",
+     "w": [
+      "Perché insegna le regole della grammatica",
+      "Perché sostiene un partito politico",
+      "Perché fa guadagnare molto denaro"
+     ],
+     "e": "Proprio per la sua purezza, la poesia spontanea unisce gli uomini e induce alla bontà."
+    }
+   ]
+  },
+  "Q4": {
+   "title": "Quiz 4 · Myricae e i Canti di Castelvecchio",
+   "items": [
+    {
+     "p": "In che anno esce la prima edizione di Myricae?",
+     "a": "Nel 1891",
+     "w": [
+      "Nel 1903",
+      "Nel 1867",
+      "Nel 1912"
+     ],
+     "e": "Myricae, del 1891, è la prima raccolta."
+    },
+    {
+     "p": "Da chi è tratto il verso latino che dà il titolo a Myricae?",
+     "a": "Da Virgilio",
+     "w": [
+      "Da Dante",
+      "Da Carducci",
+      "Da Orazio"
+     ],
+     "e": "Il titolo viene da un verso di Virgilio sugli arbusti e le umili tamerici."
+    },
+    {
+     "p": "Quali temi hanno le poesie di Myricae?",
+     "a": "La vita campestre, con significati simbolici legati alla morte e al dramma familiare",
+     "w": [
+      "Le battaglie del Risorgimento",
+      "La vita mondana delle città",
+      "I miti dell'antica Grecia"
+     ],
+     "e": "La raccolta è dedicata alla vita campestre, ricca di simboli legati alla morte."
+    },
+    {
+     "p": "Che cosa distingue i Canti di Castelvecchio da Myricae?",
+     "a": "Una misura lirica che approfondisce temi inquieti, morbosi e cosmici",
+     "w": [
+      "Sono scritti in dialetto romagnolo",
+      "Sono romanzi in prosa",
+      "Parlano solo di politica"
+     ],
+     "e": "I Canti continuano Myricae, ma approfondiscono temi inquieti, morbosi e cosmici."
+    },
+    {
+     "p": "Quali soluzioni formali usa Pascoli?",
+     "a": "Onomatopee, fonosimbolismo, linguaggio analogico e sintassi frantumata",
+     "w": [
+      "Periodi lunghi e subordinate complesse",
+      "Solo sonetti in endecasillabi",
+      "Parole rare e auliche della tradizione"
+     ],
+     "e": "La sintassi preferisce la coordinazione e lo stile usa onomatopee e fonosimbolismo."
+    }
+   ]
+  }
+ }
+}
