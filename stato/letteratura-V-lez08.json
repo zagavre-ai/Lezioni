@@ -377,11 +377,18 @@
      3989.283,
      5.633
     ]
-   ]
+   ],
+   "t_verifica": 3982.983,
+   "t_compiti": 4007.703
   }
  },
  "manca": "",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "14/11 06:24",
+   "testo": "voci lez08: R5.wav dice solo «Il periodo notturno.» (manca «Ripassiamo il quinto argomento:») e RF1.wav comincia da «i cinque argomenti» (manca «Ricapitoliamo»): usate così, didascalia adattata. Non ho chiesto rigenerazioni."
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
@@ -403,10 +410,14 @@
   {
    "quando": "14/11 06:22",
    "testo": "controllo_finale: ESITO: TUTTO OK"
+  },
+  {
+   "quando": "14/11 06:24",
+   "testo": "chat E2: PRONTA e consegnata sul ramo consegna-letteratura-V-lez08 (video 1080p a pezzi da 90 MB + sha256, .vtt, quiz, quiz_argomenti.json, test Excel del prof, dispensa A4 PDF, scheda_pubblicazione con t_verifica 3982,983 s e t_compiti 4007,703 s, testo YouTube). Una sola Parte di 66:54 (docente 58 min + inserti), come la lez03 (62 min). Senza animazioni AN (nessun testo AN nelle voci)."
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 8",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 06:22:21"
+ "aggiornato": "2026-11-14 06:24:40"
 }
