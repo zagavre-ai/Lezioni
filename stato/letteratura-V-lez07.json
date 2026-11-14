@@ -2,9 +2,9 @@
  "tag": "letteratura-V-lez07",
  "parti": {
   "1": {
-   "stato": "IN_MONTAGGIO",
-   "titolo": "Il romanzo decadente in Europa e in Italia",
-   "voci": "segnaposto"
+   "stato": "IN_CODIFICA",
+   "titolo": "Il romanzo nell'Europa e nell'Italia del Decadentismo",
+   "voci": "kore"
   }
  },
  "manca": "",
@@ -40,10 +40,14 @@
   {
    "quando": "14/11 04:38",
    "testo": "Chat D2 04:45 UTC: pezzi del docente montati (21:19 misurato), slide con webcam, schede T/Q/FIN, schemi S1-S4, GL1, RF1, INTRO1, Verifica, Compiti pronti con voci segnaposto; unione in corso. Sincronia: ancore dalla trascrizione dove il docente segue il testo, il resto stimato (da rivedere). Dispensa A4 16 pagine, quiz .txt e test .xlsx (10 domande del prof) pronti."
+  },
+  {
+   "quando": "14/11 05:00",
+   "testo": "Chat D2: voci Kore importate (8/8; INTRO1 e RF1 segnate DA CONTROLLARE dal servizio: differenze solo nei nomi in grafia fonetica e nelle date in cifre, controllate). Montaggio 28:10,7 misurato sulla lista; codifica 1080p in corso."
   }
  ],
  "materia": "Letteratura italiana · V anno",
  "lezione": "Lezione 7",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 04:38:36"
+ "aggiornato": "2026-11-14 05:00:40"
 }
