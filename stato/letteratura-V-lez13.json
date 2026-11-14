@@ -2,7 +2,9 @@
  "tag": "letteratura-V-lez13",
  "parti": {
   "1": {
-   "stato": "IN_MONTAGGIO"
+   "stato": "IN_MONTAGGIO",
+   "titolo": "Italo Svevo",
+   "voci": "segnaposto"
   }
  },
  "manca": "",
@@ -16,10 +18,14 @@
   {
    "quando": "14/11 03:58",
    "testo": "Letteratura V · chat E2: lezione ripresa da capo (il lavoro della chat E era rimasto sulla sua macchina)"
+  },
+  {
+   "quando": "14/11 04:36",
+   "testo": "chat E2: quiz (20 domande) e testi voci (12 blocchi) sul ramo voci-letteratura-V-lez13, approvati per delega; materiali scaricati, lavoro a catena mentre la lez08 si monta"
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 13",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 03:58:50"
+ "aggiornato": "2026-11-14 04:36:38"
 }
