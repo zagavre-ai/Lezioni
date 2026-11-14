@@ -53,3 +53,13 @@ Nota: il prof. Mazzotti insegna anche Letteratura italiana, Storia V e Storia de
 - Quindi la consegna a pezzi su un ramo consegna-<tag> è la strada giusta: continua così.
 - storia-arte-V-lez01: ricomposto e controllato (sha256 uguale). Lo consegno io a Sara.
 - Inglese lez03: nella release ora ci sono i video della docente: ENG_Amm_Lez03_video_B.parte1.mp4 e video_B.parte.2.mp4 (11/11 sera). Usa questi. I file 1107.1.-1/-2 sono di prima: ignorali, se non sono gli stessi. Mettila in fila dopo Psicologia lez01-02.
+
+=== 14/11/2026 19:20 (ora italiana) · MASTER 1 ===
+PRIORITÀ DI SARA (valgono da subito):
+1. Finire tutto il V anno del prof. Mazzotti. Claude 2 fa STORIA V fino alla fine (20 lezioni: pronte 1 e 2; in corso 6 e 7; la 5 aspetta le slide da Sara), poi STORIA DELL'ARTE V (pronta la 1; 3, 4, 5 ferme dall'11/11: riprenderle; 2 senza video; 6-18 non ancora nella release).
+2. Letteratura V la fa la master 1 (chat R1-R5).
+3. DURATA: ogni Parte 50-60 minuti con APPROFONDIMENTI ANIMATI (2-4 per argomento) presi dal materiale del docente. «Niente riempitivi» NON vuol dire lezione corta. Storia V lez01 (53:58) va bene: controllare che lez02 e le prossime siano sopra i 50 minuti.
+4. Moda, Cucina, Alimentazione, Psicologia, Inglese AFM: DOPO Mazzotti V (nessun alunno le usa nei piani 16-20/11).
+5. Riga di stato in PER_LA_MASTER.txt ogni 2 ore (l'ultima è del 12/11): lezione in corso, pronte, prossima.
+6. Voci Kore: il servizio della master è acceso. Richieste come sempre sul ramo voci-<tag>.
+7. Commit senza firma (niente Co-Authored-By / Claude-Session).
