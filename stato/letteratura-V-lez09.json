@@ -2,7 +2,7 @@
  "tag": "letteratura-V-lez09",
  "parti": {
   "1": {
-   "stato": "PRONTA",
+   "stato": "IN_MONTAGGIO",
    "titolo": "Giovanni Pascoli · Parte 1",
    "voci": "kore",
    "quiz_ok": "si",
@@ -313,7 +313,7 @@
   },
   "2": {
    "titolo": "Giovanni Pascoli · Parte 2",
-   "stato": "PRONTA",
+   "stato": "IN_MONTAGGIO",
    "voci": "kore",
    "quiz_ok": "si",
    "fermi_ok": "si",
@@ -645,6 +645,10 @@
   {
    "quando": "14/11 07:08",
    "testo": "chat A2: Parte 2 PRONTA, lezione 9 completa sul ramo consegna-letteratura-V-lez09. Misurato: 41:38,8, 74965 fotogrammi, 215,3 MB, parlato -16,1 LUFS, quiz 4/4 a 0,0 s, nessun fermo, sincronia 4/4 punti, sottotitoli 474 blocchi (92% sull'attacco). Verifica finale: domande 1-5 dell'Excel del prof nella Parte 1, 6-10 nella Parte 2. controllo_finale segna solo 'risoluzione' (si aspetta ancora 2560x1440)."
+  },
+  {
+   "quando": "14/11 22:22",
+   "testo": "Letteratura V · chat R3: IN_MONTAGGIO v2 con approfondimenti animati (P1 oggi 37:36, P2 41:39, obiettivo >=50). Voci Kore nuove richieste sul ramo voci (28 testi). Durata prevista (stima, voce Kore 2,24 parole/s misurata): P1 circa 55, P2 circa 55 min."
   }
  ],
  "materia": "Letteratura italiana V",
