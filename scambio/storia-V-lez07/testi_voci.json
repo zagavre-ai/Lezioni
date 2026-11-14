@@ -118,5 +118,45 @@
   "nome": "FIN1",
   "testo": "Per oggi è tutto. Con la Grande Depressione si incrina l'equilibrio mondiale: nelle prossime lezioni vedremo come la crisi economica favorisce l'ascesa dei regimi totalitari. Ti aspetto.",
   "lingua": "it"
+ },
+ {
+  "nome": "MAP1",
+  "testo": "La mappa dei ruggenti anni Venti. Primo ramo: gli Stati Uniti sono la prima potenza mondiale e il reddito nazionale cresce di oltre il cinquanta per cento. Secondo ramo: il fordismo, con la catena di montaggio, abbatte i costi e diffonde automobili ed elettrodomestici. Terzo ramo: le grandi città, come New York, Chicago e Detroit, con i primi grattacieli. Quarto ramo: la cultura di massa, con il jazz, la radio, il grammofono e il cinema muto. Quinto ramo: il mito del sogno americano, basato sul benessere e sulla fiducia nel futuro. Sesto ramo: la generazione perduta di Hemingway, Fitzgerald e Steinbeck, che denuncia un vuoto morale.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MAP2",
+  "testo": "La mappa delle donne negli anni Venti. Primo ramo: il diritto di voto, ottenuto nel millenovecentoventi dopo i sacrifici della guerra. Secondo ramo: le flappers, giovani indipendenti che rifiutano i ruoli tradizionali. Terzo ramo: una nuova moda, con il taglio a caschetto, il trucco marcato e le gonne sopra il ginocchio. Quarto ramo: nuovi comportamenti, come frequentare da sole i locali, guidare l'automobile e ballare il charleston.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MAP3",
+  "testo": "La mappa dell'isolazionismo. Primo ramo: l'isolazionismo dei presidenti Harding e Coolidge, lontani dalle vicende europee. Secondo ramo: il liberismo, con i dazi protezionistici e meno tasse sui grandi patrimoni. Terzo ramo: le leggi contro l'immigrazione, tra il millenovecentoventuno e il millenovecentotrentaquattro. Quarto ramo: il razzismo del Ku Klux Klan e la paura rossa. Quinto ramo: il caso di Sacco e Vanzetti, condannati ingiustamente nel millenovecentoventisette. Sesto ramo: il proibizionismo, che favorisce il mercato nero e boss come Al Capone.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MAP4",
+  "testo": "La mappa del crollo del millenovecentoventinove. Primo ramo: le fragilità del boom, con i bassi salari e la crisi agricola. Secondo ramo: la sovrapproduzione, perché l'offerta supera la domanda. Terzo ramo: la bolla speculativa, con le azioni comprate a credito. Quarto ramo: il Giovedì e il Martedì nero dell'ottobre millenovecentoventinove. Quinto ramo: la Grande Depressione, con quattordici milioni di disoccupati. Sesto ramo: gli errori di Hoover e il contagio della crisi in Europa.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MAP5",
+  "testo": "La mappa del New Deal. Primo ramo: Franklin Delano Roosevelt, eletto nel millenovecentotrentadue, lancia il Nuovo Corso. Secondo ramo: le idee di Keynes: lo Stato interviene con la spesa pubblica. Terzo ramo: i grandi lavori pubblici, come strade, ponti e dighe. Quarto ramo: il controllo della finanza, con la Federal Reserve, le regole per la Borsa e la svalutazione del dollaro. Quinto ramo: le riforme di agricoltura e industria. Sesto ramo: lo Stato sociale, con il Social Security Act del millenovecentotrentacinque.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MAPF1",
+  "testo": "La mappa di tutta la lezione. I ruggenti anni Venti, con il fordismo e il sogno americano. Le donne, che ottengono il voto e cambiano moda e costumi. L'isolazionismo, con la xenofobia, il razzismo e il proibizionismo. Il crollo di Wall Street del millenovecentoventinove e la Grande Depressione. Il New Deal di Roosevelt, con le idee di Keynes e lo Stato sociale.",
+  "lingua": "it"
+ },
+ {
+  "nome": "BENV1",
+  "testo": "Benvenuta e benvenuto alla lezione di Storia. Oggi il professor Mazzotti ci porta negli Stati Uniti, dal boom economico degli anni Venti al New Deal. Alla fine di ogni argomento ti aspetta un breve quiz.",
+  "lingua": "it"
+ },
+ {
+  "nome": "COMPI",
+  "testo": "Ora tocca a te: ecco i compiti.",
+  "lingua": "it"
  }
 ]
