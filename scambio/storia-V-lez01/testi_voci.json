@@ -133,5 +133,70 @@
   "nome": "FIN2",
   "testo": "Con questo si chiude la lezione sul Novecento, il secolo delle masse. Nella prossima lezione vedremo il mondo agli inizi del ventesimo secolo e l'imperialismo.",
   "lingua": "it"
+ },
+ {
+  "nome": "CM1",
+  "testo": "Ecco la mappa della Belle Époque. Primo ramo: il periodo, dalla fine dell'Ottocento al millenovecentoquattordici, di crescita e di pace. Secondo ramo: la borghesia, ottimista e intraprendente. Terzo ramo: le Esposizioni universali, come quella della Tour Eiffel nel milleottocentottantanove. Quarto ramo: le ombre, cioè le disuguaglianze e la vita dura delle masse operaie. Quinto ramo: i nazionalismi, basati su presunte gerarchie razziali.",
+  "lingua": "it"
+ },
+ {
+  "nome": "CM2",
+  "testo": "Ecco la mappa dei trasporti e delle comunicazioni. Primo ramo: l'elettricità, che fa di Parigi la Ville lumière. Secondo ramo: il petrolio, da cui deriva la benzina per il motore a scoppio. Terzo ramo: l'aereo, con il primo volo dei fratelli Wright. Quarto ramo: il telefono di Meucci e la radio di Marconi. Quinto ramo: il cinema dei fratelli Lumière, nel milleottocentonovantacinque.",
+  "lingua": "it"
+ },
+ {
+  "nome": "CM3",
+  "testo": "Ecco la mappa della medicina e della società di massa. Primo ramo: Pasteur e la pastorizzazione, nel milleottocentosessantaquattro. Secondo ramo: i vaccini contro il carbonchio e la rabbia. Terzo ramo: l'igiene, che riduce la mortalità infantile. Quarto ramo: la popolazione mondiale, che nel millenovecento arriva a un miliardo e mezzo. Quinto ramo: le masse, che diventano protagoniste.",
+  "lingua": "it"
+ },
+ {
+  "nome": "CM4",
+  "testo": "Ecco la mappa dell'urbanizzazione. Primo ramo: l'urbanizzazione, dalle campagne alle città. Secondo ramo: Londra, che supera i sei milioni di abitanti. Terzo ramo: Parigi, con oltre due milioni di abitanti e la metropolitana. Quarto ramo: il rinnovamento urbano, con vie larghe, acquedotti e fognature.",
+  "lingua": "it"
+ },
+ {
+  "nome": "CM5",
+  "testo": "Ecco la mappa della società dei consumi. Primo ramo: i beni secondari, come la moda e l'arredamento. Secondo ramo: i grandi magazzini, con merci in serie a prezzi contenuti. Terzo ramo: i mass media, favoriti dall'alfabetizzazione. Quarto ramo: la pubblicità, che orienta i consumi.",
+  "lingua": "it"
+ },
+ {
+  "nome": "CM6",
+  "testo": "Ecco la mappa del tempo libero e della fabbrica moderna. Primo ramo: le lotte sindacali, per meno ore e salari più alti. Secondo ramo: il tempo libero e il turismo. Terzo ramo: Taylor e l'organizzazione scientifica del lavoro. Quarto ramo: la catena di montaggio di Ford. Quinto ramo: il lavoro ripetitivo e alienante.",
+  "lingua": "it"
+ },
+ {
+  "nome": "CM7",
+  "testo": "Ecco la mappa dei trust, della crisi agraria e delle migrazioni. Primo ramo: i trust, accordi tra grandi imprese. Secondo ramo: la crisi agraria, con i cereali a basso costo da oltreoceano. Terzo ramo: i piccoli agricoltori, che falliscono. Quarto ramo: l'emigrazione verso le Americhe, con la porta di New York. Quinto ramo: le difficoltà dei migranti.",
+  "lingua": "it"
+ },
+ {
+  "nome": "CM8",
+  "testo": "Ecco la mappa della politica di massa. Primo ramo: le masse in piazza, per salari e rappresentanza. Secondo ramo: i partiti di massa. Terzo ramo: i sindacati, come la CGL del millenovecentosei. Quarto ramo: i socialisti riformisti. Quinto ramo: la Seconda Internazionale, nata a Parigi nel milleottocentottantanove.",
+  "lingua": "it"
+ },
+ {
+  "nome": "CM9",
+  "testo": "Ecco la mappa della Chiesa e dei movimenti femministi. Primo ramo: la Rerum Novarum di Leone XIII. Secondo ramo: la difesa della proprietà privata. Terzo ramo: il modernismo, condannato da Pio X. Quarto ramo: le suffragette e le loro proteste. Quinto ramo: il voto alle donne, in Italia nel millenovecentoquarantasei.",
+  "lingua": "it"
+ },
+ {
+  "nome": "CM10",
+  "testo": "Ecco la mappa della crisi del Positivismo. Primo ramo: le nuove scoperte, che mettono in crisi le certezze. Secondo ramo: Planck e la meccanica quantistica. Terzo ramo: Einstein e la relatività. Quarto ramo: Nietzsche e la morte di Dio. Quinto ramo: Freud e l'inconscio.",
+  "lingua": "it"
+ },
+ {
+  "nome": "CM11",
+  "testo": "Ecco la mappa del razzismo, dell'antisemitismo e del nazionalismo. Primo ramo: il darwinismo sociale. Secondo ramo: Gobineau e la presunta disuguaglianza delle razze. Terzo ramo: il sionismo di Herzl. Quarto ramo: il panslavismo. Quinto ramo: la competizione coloniale e la corsa agli armamenti.",
+  "lingua": "it"
+ },
+ {
+  "nome": "CMF1",
+  "testo": "Ecco la mappa di questa prima parte. La Belle Époque, con le sue luci e le sue ombre. Le invenzioni nei trasporti e nelle comunicazioni. La medicina, i vaccini e l'igiene. Le grandi città. La società dei consumi.",
+  "lingua": "it"
+ },
+ {
+  "nome": "CMF2",
+  "testo": "Ecco la mappa di tutta la lezione. La Belle Époque e la fiducia nel progresso. Le invenzioni e la medicina. Le masse, le città e i consumi. Il lavoro in fabbrica, i trust e le migrazioni. I partiti di massa, il socialismo, la Chiesa e le donne. La crisi del Positivismo e i nazionalismi.",
+  "lingua": "it"
  }
 ]
