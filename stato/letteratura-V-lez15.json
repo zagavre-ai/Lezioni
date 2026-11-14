@@ -2,7 +2,7 @@
  "tag": "letteratura-V-lez15",
  "parti": {
   "1": {
-   "stato": "PRONTA",
+   "stato": "IN_MONTAGGIO",
    "titolo": "La narrativa tra le due guerre",
    "voci": "kore",
    "quiz_ok": "si",
@@ -327,10 +327,14 @@
   {
    "quando": "14/11 07:34",
    "testo": "chat B2 · PRONTA e CONSEGNATA sul ramo consegna-letteratura-V-lez15. Misurato: 37:54.0, 68221 fotogrammi, 143,8 MB, 1920x1080, -15,9 LUFS, quiz 4/4, nessun fermo (2 brevi fermi del video originale, 1,1 s e 1,9 s, coperti con la slide in zoom lento; la webcam si sposta a 1169 s e il ritaglio la segue). Sotto i 50 min (docente 31:16, nessun riempitivo). t_verifica 2255.533 s, t_compiti 2269.033 s. Sottotitoli Whisper base con nomi e date corretti; controllo automatico attacco 62%, campione con trascrizione 13/16 sulla parola giusta."
+  },
+  {
+   "quando": "14/11 22:45",
+   "testo": "Letteratura V · chat R5: presa, v2 con approfondimenti animati. Testi voci AN inviati su voci-letteratura-V-lez15, in attesa delle voci Kore; montaggio pronto con segnaposto."
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 15",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 07:34:52"
+ "aggiornato": "2026-11-14 22:45:10"
 }
