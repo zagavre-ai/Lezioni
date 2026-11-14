@@ -27,6 +27,7 @@ Ogni zip è indipendente: scarica SOLO gli zip che contengono la tua lezione (`g
 | 21 | 001 · LEZIONE 21 IL MONDO DAL 2001 AD OGGI.mp4 · 1065 | **manca** | 003 |
 
 **Test finali (Excel del prof), lezioni 1–21:** zip `STORIA.V-20261114T194325Z-1-001.zip` (caricato il 14/11), file «DOMANDE LEZIONE N.xlsx».
+**Compiti del prof (lezioni 1–21):** zip `STORIA.V.-20261114T220649Z-1-001.zip` (caricato il 14/11 sera), file «LEZIONE N.pdf» (domande aperte). Vanno nella scheda «Compiti» e in `compiti.json`.
 **Video caricati il 14/11 come file singoli:** `LEZIONE.3.L.ITALIA.DI.GIOLITTI.mp4`, `Storia.V.Lez.13-1/-2/-3.mp4` (lezione 13 in 3 file), `LEZIONE.17.LE.FASI.CONCLUSIVE.DELLA.GUERRA.FREDDA.1969-1991.mp4`, `LEZIONE.21.IL.MONDO.DAL.2001.AD.OGGI.mp4`. Ancora mancanti: 4, 8, 10.
 **Download:** con l'API REST (gh release download non funziona nelle sessioni): `gh api -H "Accept: application/octet-stream" repos/zagavre-ai/Lezioni/releases/assets/<id>`.
 
