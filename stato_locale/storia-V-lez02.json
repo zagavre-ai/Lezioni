@@ -3,11 +3,11 @@
  "parti": {
   "1": {
    "titolo": "Il mondo agli inizi del XX secolo e l'imperialismo · Parte 1",
-   "stato": "IN_MONTAGGIO",
+   "stato": "PRONTA",
    "voci": "kore",
    "quiz_ok": "si",
    "fermi_ok": "si",
-   "sub_ok": "no",
+   "sub_ok": "si",
    "video": "Storia_Lez2_Parte1_1080p.mp4",
    "durata_s": 3102.9,
    "durata": "51:42.9",
@@ -715,10 +715,14 @@
   {
    "quando": "14/11 12:06",
    "testo": "controllo_finale: ESITO: DA SISTEMARE: sottotitoli"
+  },
+  {
+   "quando": "14/11 12:38",
+   "testo": "controllo_finale: ESITO: TUTTO OK"
   }
  ],
  "materia": "Storia",
  "lezione": "2",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 12:06:50"
+ "aggiornato": "2026-11-14 12:38:46"
 }
