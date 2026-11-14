@@ -2,7 +2,8 @@
  "tag": "moda-tecnologie-III-lez08",
  "parti": {
   "1": {
-   "stato": "IN_MONTAGGIO"
+   "stato": "IN_MONTAGGIO",
+   "voci": "segnaposto"
   }
  },
  "manca": "COMPITI_MANCANTI",
@@ -13,8 +14,13 @@
   }
  ],
  "domande_sara": [],
- "note": [],
+ "note": [
+  {
+   "quando": "14/11 22:29",
+   "testo": "Fatto: trascrizione, 7 argomenti, quiz 35 domande, 20 testi voci inviati. Resto del montaggio da fare. Ramo lavoro-moda-tecnologie-III-lez08."
+  }
+ ],
  "materia": "Moda · Tecnologie III · chat TEC",
  "lezione": "Lezione 8",
- "aggiornato": "2026-11-14 22:19:03"
+ "aggiornato": "2026-11-14 22:29:09"
 }
