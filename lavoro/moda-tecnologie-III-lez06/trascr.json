@@ -1,0 +1,1952 @@
+[
+{
+"s": 0.78,
+"e": 7.82,
+"t": "Nelle precedenti lezioni noi abbiamo parlato diverse volte della sezione di nobilitazione, quindi di questi processi utili,"
+},
+{
+"s": 8.72,
+"e": 16.14,
+"t": "diciamo, al termine ultimo della produzione dei filati e quindi anche del tessuto stesso."
+},
+{
+"s": 16.54,
+"e": 21.5,
+"t": "Infatti, in questa lezione inizieremo a parlare proprio di questi processi e andremo a descrivere nel dettaglio"
+},
+{
+"s": 21.84,
+"e": 29.1,
+"t": "anche le macchine che vengono utilizzate insieme ai materiali utili per quanto riguarda, appunto, questi processi di nobilitazione,"
+},
+{
+"s": 29.98,
+"e": 39.46,
+"t": "tra cui andremo ad indagare anche quali sono le varie tecniche di stampa o anche di tintura."
+},
+{
+"s": 40.66,
+"e": 46.52,
+"t": "Innanzitutto dobbiamo ripartire dal tessuto greggio del quale abbiamo parlato nelle precedenti lezioni."
+},
+{
+"s": 46.88,
+"e": 52.12,
+"t": "Questo tessuto greggio abbiamo detto che viene prodotto da queste macchine, da questi telai e quindi"
+},
+{
+"s": 53.64,
+"e": 60.84,
+"t": "risulta essere la prima produzione, diciamo, di questo elemento non ancora trattato"
+},
+{
+"s": 61.64,
+"e": 65.62,
+"t": "in modo da essere utile al confezionamento dei capi ultimi."
+},
+{
+"s": 66.62,
+"e": 70.74,
+"t": "In questo caso, quindi, subentrano i procedimenti di nobilitazione."
+},
+{
+"s": 71.4,
+"e": 75.9,
+"t": "Prima, però, di procedere a questa operazione abbiamo bisogno di attuare dei pretrattamenti,"
+},
+{
+"s": 76.98,
+"e": 83.42,
+"t": "ovvero andiamo a preparare la nostra fibra a quelle che saranno le fasi successive,"
+},
+{
+"s": 83.82,
+"e": 88.24,
+"t": "poiché queste risultano essere anche dei procedimenti più invasivi."
+},
+{
+"s": 90.0,
+"e": 97.28,
+"t": "Nel momento in cui parliamo, quindi, di questi pretrattamenti abbiamo bisogno di rivolgerci verso la fase principale,"
+},
+{
+"s": 98.36,
+"e": 105.78,
+"t": "ovvero la fase dove la fibra viene soggetta alla purga, ovvero questo lavaggio molto profondo"
+},
+{
+"s": 106.32,
+"e": 111.96,
+"t": "utile all'eliminazione di tutte le impurità ancora presenti sul filato stesso."
+},
+{
+"s": 113.1,
+"e": 122.1,
+"t": "Le lavorazioni preparatorie successive riguardano il candeggio, la mercerizzazione, il bruciapelo o la gasatura."
+},
+{
+"s": 122.7,
+"e": 131.2,
+"t": "Per quanto riguarda il candeggio, noi parliamo, diciamo, di un processo che va ad eliminare le tonalità giallognole naturali"
+},
+{
+"s": 131.42,
+"e": 136.96,
+"t": "e quindi conferisce al filato questo bianco puro, a questo tessuto greggio questo bianco puro."
+},
+{
+"s": 137.98,
+"e": 145.48,
+"t": "La mercerizzazione, invece, va a stabilire o meglio a concedere questa stabilità dimensionale al tessuto greggio,"
+},
+{
+"s": 145.74,
+"e": 150.0,
+"t": "mentre il bruciapelo va ad eliminare la peluria superficiale."
+},
+{
+"s": 150.84,
+"e": 158.46,
+"t": "Queste lavorazioni preliminari ovviamente richiederanno sempre l'utilizzo di un ausiliario, ovvero in questo caso parliamo di prodotti chimici"
+},
+{
+"s": 158.82,
+"e": 164.72,
+"t": "che vengono proprio formulati in modo che abbiano come scopo l'agevolazione di questi percorsi."
+},
+{
+"s": 166.52,
+"e": 174.54,
+"t": "Tra questi abbiamo diverse diversi prodotti che possono, appunto, migliorare"
+},
+{
+"s": 174.9,
+"e": 182.28,
+"t": "il tessuto greggio, oppure possono subentrare successivamente nei vari processi di nobilitazione,"
+},
+{
+"s": 182.88,
+"e": 189.66,
+"t": "ma in ogni caso i mordenzanti rivestono il ruolo più importante perché in questo caso vanno ad aiutare la fibra"
+},
+{
+"s": 190.52,
+"e": 197.8,
+"t": "a poter essere ricettiva verso quella che è la tintura o la stampa successiva."
+},
+{
+"s": 198.88,
+"e": 206.28,
+"t": "In ogni caso tra le diverse classificazioni di ausiliari chimici utilizzati all'interno dell'industria tessile"
+},
+{
+"s": 206.66,
+"e": 214.36,
+"t": "possiamo riscontrare l'utilizzo degli ammorbidenti per migliorare questa mano del tessuto,"
+},
+{
+"s": 214.78,
+"e": 222.1,
+"t": "gli antibastanti che invece concedono, diciamo, un potere scivolante e quindi vanno a ridurre la possibile formazione di pieghe"
+},
+{
+"s": 222.38,
+"e": 229.4,
+"t": "durante i trattamenti stessi. Gli antischiuma invece vanno ad eliminare o a limitare quella che è la schiuma all'interno dei bagni."
+},
+{
+"s": 230.12,
+"e": 237.4,
+"t": "Gli antislittanti invece vanno a ridurre quello che è lo scorrimento dei fili nel tessuto."
+},
+{
+"s": 237.84,
+"e": 245.52,
+"t": "I detergenti vanno a rimuovere lo sporco, i disperdenti invece vanno a stabilizzare i solidi all'interno dei liquidi,"
+},
+{
+"s": 245.88,
+"e": 253.94,
+"t": "quindi non c'è, diciamo, ad esempio nella fase di tintura e di colore, quello che può essere la la creazione di questi agglomerati di colore stesso,"
+},
+{
+"s": 254.4,
+"e": 259.04,
+"t": "quindi questi disperdenti ci aiutano proprio a dissolverli."
+},
+{
+"s": 259.8,
+"e": 268.04,
+"t": "Poi abbiamo gli emulsionanti, in questo caso abbiamo delle miscele che non delle miscele utili a mixare delle sostanze"
+},
+{
+"s": 268.22,
+"e": 273.28,
+"t": "che altrimenti potrebbero essere non solubili tra loro."
+},
+{
+"s": 274.02,
+"e": 281.02,
+"t": "Gli enzimi di natura biologica invece vanno ad accelerare determinate reazioni chimiche che desideriamo all'interno del procedimento tessile."
+},
+{
+"s": 281.42,
+"e": 290.76,
+"t": "I fissatori invece vanno ad alzare questa capacità di legamento del colore al tessuto e quindi di conseguenza andranno ad aumentare la loro vita."
+},
+{
+"s": 291.5,
+"e": 299.78,
+"t": "Gli imbibenti invece vanno a ridurre la tensione superficiale dell'acqua e quindi di conseguenza permettono al tessuto di essere facilmente e rapidamente bagnabili."
+},
+{
+"s": 300.94,
+"e": 309.4,
+"t": "Gli impermeabilizzanti invece sono utili a impedire all'acqua di penetrare all'interno della fibra."
+},
+{
+"s": 309.92,
+"e": 317.06,
+"t": "I mordenzanti o premetallizzati sono, diciamo, dei composti che ci aiutano a preparare"
+},
+{
+"s": 317.58,
+"e": 324.78,
+"t": "le fibre proteiche ad accogliere, appunto, la tintura, ciò che dicevamo, appunto, prima."
+},
+{
+"s": 325.26,
+"e": 333.68,
+"t": "Infine abbiamo gli ugualizzanti, ovvero in questo caso andiamo a regolare la velocità di risalita del colorante per riuscire a garantire questa tinta omogenea."
+},
+{
+"s": 334.34,
+"e": 341.6,
+"t": "Quindi questi sono tutti gli gli ausiliari che noi possiamo utilizzare nel campo dell'industria tessile."
+},
+{
+"s": 343.34,
+"e": 349.52,
+"t": "Oltre a questi ausiliari però possiamo anche adottare una speciale tecnica, ovvero la sbozzima."
+},
+{
+"s": 350.28,
+"e": 357.54,
+"t": "In questo caso noi andiamo a ripulire, in realtà, i filati di ordito da quelli che sono stati, diciamo, i residui applicati"
+},
+{
+"s": 358.54,
+"e": 362.46,
+"t": "da parte della fase di bozzime."
+},
+{
+"s": 364.54,
+"e": 371.18,
+"t": "Il pretrattamento tuttavia più comune rimane comunque la purga,"
+},
+{
+"s": 371.68,
+"e": 377.12,
+"t": "ovvero, appunto, questo lavaggio che è utile all'eliminazione di ogni impurità."
+},
+{
+"s": 378.14,
+"e": 385.74,
+"t": "Quando abbiamo a che fare con tessuti misti, tuttavia, questa fase può avvenire tramite delle miscele calibrate di sostanze,"
+},
+{
+"s": 386.08,
+"e": 391.86,
+"t": "oppure attraverso dei trattamenti che vengono effettuati successivamente."
+},
+{
+"s": 392.2,
+"e": 400.98,
+"t": "In ogni caso gli elementi più utili all'interno del processo della purga riguardano un bagno acquoso con imbibenti, emulsionanti, detergenti e soda caustica,"
+},
+{
+"s": 401.46,
+"e": 406.84,
+"t": "oppure per quanto riguarda il cotone possiamo utilizzare i semplici enzimi."
+},
+{
+"s": 407.46,
+"e": 415.54,
+"t": "Per quanto riguarda il bagno con questi specifici enzimi ma con aggiunta anche di soluzioni saponose calde, possiamo rivolgerci invece alla seta."
+},
+{
+"s": 416.02,
+"e": 423.86,
+"t": "Per quanto riguarda la lana abbiamo bisogno del bagno in soluzioni di carbonato sodico, sapone e ammoniaca."
+},
+{
+"s": 424.84,
+"e": 430.74,
+"t": "Per le fibre sintetiche invece abbiamo bisogno di detergenti sintetici ed emulsionanti."
+},
+{
+"s": 431.14,
+"e": 438.48,
+"t": "Quindi questi sono gli attrezzi utili per eliminare ogni impurità a seconda"
+},
+{
+"s": 439.12,
+"e": 443.08,
+"t": "del tessuto con il quale noi ci interfacciamo."
+},
+{
+"s": 444.6,
+"e": 451.98,
+"t": "La tintura invece è la nobilitazione utile all'applicazione del colore."
+},
+{
+"s": 452.44,
+"e": 460.78,
+"t": "In questo caso parliamo, quindi, di una un elemento estetico che ovviamente va a definire non solo, appunto, questa bellezza"
+},
+{
+"s": 461.12,
+"e": 467.54,
+"t": "esterna, ma anche la personalità del tessuto."
+},
+{
+"s": 467.8,
+"e": 475.22,
+"t": "Questa personalità del tessuto è ciò che noi indichiamo, diciamo, con quell'adattamento alla richiesta della moda."
+},
+{
+"s": 476.32,
+"e": 483.98,
+"t": "Per riuscire ad avere una tintura di alta qualità abbiamo ovviamente bisogno di riporre determinate attenzioni,"
+},
+{
+"s": 484.22,
+"e": 492.3,
+"t": "come la composizione la composizione fibrosa, il tipo di colorante che andremo ad utilizzare, la qualità, la scelta dei macchinari"
+},
+{
+"s": 492.5,
+"e": 499.78,
+"t": "e il rapporto qualità prezzo. Quindi queste sono le dinamiche al quale dobbiamo fare riferimento nel momento in cui parliamo di tintura."
+},
+{
+"s": 500.4,
+"e": 508.3,
+"t": "In ogni caso questo procedimento avviene solitamente per immersione del materiale all'interno di questo bagno"
+},
+{
+"s": 509.18,
+"e": 514.86,
+"t": "nel quale vengono inseriti acqua e colore a delle temperature variabili."
+},
+{
+"s": 515.56,
+"e": 523.5,
+"t": "Nel momento in cui parliamo di un bagno che avviene a delle temperature molto elevate abbiamo in realtà un termine che va a"
+},
+{
+"s": 524.32,
+"e": 531.02,
+"t": "caratterizzare proprio questo processo e quindi parliamo in realtà di tintura a cotta."
+},
+{
+"s": 531.54,
+"e": 540.36,
+"t": "È comunque importantissimo riuscire a visionare tutte le singole partite di produzione in modo da evitare"
+},
+{
+"s": 540.66,
+"e": 548.88,
+"t": "di unire dei lotti che in realtà hanno subito dei bagni differenti, quindi per evitare proprio la commercializzazione di"
+},
+{
+"s": 549.44,
+"e": 559.48,
+"t": "situazioni non uniformi, abbiamo bisogno, appunto, di selezionare i diversi tessuti che derivano dai diversi bagni in modo tale, appunto, che queste balle"
+},
+{
+"s": 559.78,
+"e": 566.2,
+"t": "di consegna ultima non vadano a rifornirsi di di situazioni"
+},
+{
+"s": 566.86,
+"e": 570.62,
+"t": "disomogenee tra loro."
+},
+{
+"s": 572.7,
+"e": 580.44,
+"t": "Nel momento in cui un tessuto quindi passa anche nella fase di tintura abbiamo anche bisogno di far particolarmente attenzione a dei processi"
+},
+{
+"s": 580.7,
+"e": 588.6,
+"t": "successivi, ovvero in questo caso parliamo dei lavaggi che"
+},
+{
+"s": 600,
+"e": 605.2,
+"t": "possono essere non idonee a una determinata tintura effettuata,"
+},
+{
+"s": 605.2,
+"e": 613.5,
+"t": "oppure possono essere utilizzate delle temperature non idonee, magari ad esempio troppo elevate."
+},
+{
+"s": 613.5,
+"e": 622.1,
+"t": "E quindi questo cosa comporterà? Comporterà ad esempio o il deterioramento della pezza oppure la migrazione del colore da un tessuto all'altro,"
+},
+{
+"s": 622.1,
+"e": 631.2,
+"t": "un po' quando ci rendiamo conto magari che un tessuto appunto ha tinto un altro tessuto. In questo caso c'è stata la migrazione del colore"
+},
+{
+"s": 631.2,
+"e": 643.8,
+"t": "e ovviamente ha comportato la perdita di un colore dal tessuto primario e ha rovinato ovviamente irreversibilmente il secondo capo."
+},
+{
+"s": 643.8,
+"e": 651.2,
+"t": "Quindi per evitare appunto queste dinamiche, oltre ad altre che possono comportare altre dinamiche,"
+},
+{
+"s": 651.2,
+"e": 702.6,
+"t": "abbiamo bisogno appunto di valutare e di prestare particolarmente attenzione a come noi andiamo a gestire poi questi tessuti che acquistiamo."
+},
+{
+"s": 702.6,
+"e": 713.3,
+"t": "In ogni caso nel momento in cui noi parliamo di tintura abbiamo anche bisogno di fare riferimento a diversi momenti di ciclo di fabbricazione."
+},
+{
+"s": 713.3,
+"e": 721.2,
+"t": "Cosa intendiamo? Che in realtà questa tintura non ha una fase ben precisa, ovvero prima del confezionamento,"
+},
+{
+"s": 721.2,
+"e": 728.8,
+"t": "dopo il confezionamento, dopo la creazione del filato, dopo la creazione del tessuto grezzo e così via,"
+},
+{
+"s": 728.8,
+"e": 739.3,
+"t": "ma in realtà la tintura è un procedimento che può andare a porsi in diversi momenti appunto della fabbricazione del prodotto tessile ultimo"
+},
+{
+"s": 739.3,
+"e": 749.6,
+"t": "e a seconda della dello stadio di lavorazione che richiede il suo inserimento, allora possiamo andare a distinguere le varie tipologie di tintura."
+},
+{
+"s": 749.6,
+"e": 758.5,
+"t": "Come ad esempio possiamo avere la tintura in fibra o in balla. In questo caso parliamo di una tintura che avviene prima della filatura"
+},
+{
+"s": 758.5,
+"e": 764.3,
+"t": "e quindi in questo caso riusciamo ad ottenere i filati melange o bottonati."
+},
+{
+"s": 764.3,
+"e": 773.8,
+"t": "La tintura in nastro invece va ad applicarsi sulle fibre pettinate di lana che vengono in realtà a volte su queste rocche perforate."
+},
+{
+"s": 773.8,
+"e": 780.9,
+"t": "E le fibre pettinate di lana hanno anche la particolarità di avere questo diametro un pochino più spesso, infatti parliamo di 25-35 cm."
+},
+{
+"s": 780.9,
+"e": 790.2,
+"t": "In ogni caso in questo caso la tintura risulta essere vantaggiosa perché va ad eliminare la tintura presente nello scarto di lana."
+},
+{
+"s": 790.2,
+"e": 799.1,
+"t": "Poi abbiamo la tintura in pasta, ovvero qui parliamo di un processo effettuato per le fibre chimiche,"
+},
+{
+"s": 799.1,
+"e": 807.3,
+"t": "dove il colorante viene miscelato nella con la massa fluida artificiale o sintetica"
+},
+{
+"s": 807.3,
+"e": 814.3,
+"t": "e quindi diciamo questa fibra viene tinta ancor prima di essere estrusa."
+},
+{
+"s": 814.3,
+"e": 823.3,
+"t": "Quindi diciamo una tintura proprio in origine. La tintura in filato invece viene realizzata dopo la torsione delle fibre"
+},
+{
+"s": 823.3,
+"e": 835.1,
+"t": "e questo ci può portare diciamo all'ottenimento di disegni rigati o quadrettati su quello che è il tessuto finale."
+},
+{
+"s": 835.1,
+"e": 842.3,
+"t": "Viene poi avvolto diciamo in queste rocche e poi in matasse e"
+},
+{
+"s": 842.3,
+"e": 851.2,
+"t": "possono essere anche posti sul subbio d'ordito per quanto riguarda la creazione di tessuti denim."
+},
+{
+"s": 851.2,
+"e": 859.6,
+"t": "Altre due tipologie di processi di tintura riguardano la tintura in pezza, dove diciamo la tintura viene sul tessuto già tessuto,"
+},
+{
+"s": 859.6,
+"e": 870.2,
+"t": "e in questo caso parliamo più che altro di un procedimento più economico, ma anche più flessibile. La tintura in capo invece viene"
+},
+{
+"s": 870.2,
+"e": 882.4,
+"t": "a richiedere la tintura direttamente sul capo già confezionato, quindi diciamo nel momento in cui c'è tra virgolette quasi una prevendita."
+},
+{
+"s": 882.4,
+"e": 894.6,
+"t": "Una tecnica molto interessante riguardo invece come vengono applicate diciamo queste tinture per ottenere le diverse i diversi aspetti estetici"
+},
+{
+"s": 894.6,
+"e": 901.6,
+"t": "riguarda la tintura incrociata o differenziale, questa viene anche chiamata differential dyeing."
+},
+{
+"s": 901.6,
+"e": 912.3,
+"t": "In questo caso noi parliamo diciamo di una tintura che va a sfruttare l'affinità differente delle fibre per riuscire ad ottenere questi effetti bicolor o tricolor,"
+},
+{
+"s": 912.3,
+"e": 916.5,
+"t": "ma anche degli effetti iridescenti."
+},
+{
+"s": 916.5,
+"e": 925.2,
+"t": "In ogni caso ci permette di riuscire ad ottenere questo tessuto che sembra avere un aspetto cangiante,"
+},
+{
+"s": 925.2,
+"e": 934.3,
+"t": "appunto perché c'è questa tintura incrociata che ci permette di giocare appunto sulla bicromia o sull'iridescenza."
+},
+{
+"s": 934.3,
+"e": 943.3,
+"t": "Nel momento in cui parliamo di tintura abbiamo anche bisogno di far riferimento alla storia dell'uomo perché fin dalla preistoria l'uomo ha utilizzato questi coloranti,"
+},
+{
+"s": 943.3,
+"e": 952.3,
+"t": "soprattutto naturali nel momento in cui parliamo di uomo preistorico, del quale poi ha diciamo affinato le tecniche,"
+},
+{
+"s": 952.3,
+"e": 964.5,
+"t": "e quindi ha portato un progresso all'interno anche delle tecniche stesse estrattive dei coloranti fino ad arrivare diciamo"
+},
+{
+"s": 964.5,
+"e": 975.4,
+"t": "alla consapevolezza di estrazione che riguardava ad esempio nel momento in cui ci rivolgiamo all'antica Cina, alla Babilonia, gli egiziani, delle situazioni che possiamo andare a ricavare non solo diciamo dal mondo vegetale, ma anche dal mondo animale,"
+},
+{
+"s": 975.4,
+"e": 985.5,
+"t": "come ad esempio il rosso porpora che viene ricavato dal mollusco Murice. Con la scoperta dell'America invece abbiamo riscoperto delle tecniche di tintura"
+},
+{
+"s": 985.5,
+"e": 995.2,
+"t": "molto importanti come per esempio quella degli Aztechi, dei Maya e degli Incas, oltre al fatto che verso il 1600 abbiamo avuto anche"
+},
+{
+"s": 995.2,
+"e": 1014.1,
+"t": "in Europe una diffusione di coltivazione di piante per riuscire a ricavare proprio questi principi tintori."
+},
+{
+"s": 1014.1,
+"e": 1025.2,
+"t": "Quindi oggi noi possiamo effettuare comunque una distinzione su quelli che sono i coloranti naturali che possiamo ottenere."
+},
+{
+"s": 1025.2,
+"e": 1031.5,
+"t": "Innanzitutto abbiamo i coloranti di origine vegetale e dall'altra parte i coloranti di origine animale."
+},
+{
+"s": 1031.5,
+"e": 1038.3,
+"t": "Quando parliamo di coloranti di origine vegetale, quando vengono ovviamente ricavati da delle piante o dalle radici, come ad esempio nel caso della robbia"
+},
+{
+"s": 1038.3,
+"e": 1044.2,
+"t": "che ci permette di ottenere il rosso turco, la curcuma invece ad esempio ci permette di ottenere il giallo,"
+},
+{
+"s": 1044.2,
+"e": 1050.1,
+"t": "il pernambuco il rosa rosso, il quebracho invece tutte le tonalità di giallo,"
+},
+{
+"s": 1050.1,
+"e": 1056.2,
+"t": "campeggio invece ci permette di ottenere queste sfumature più nere, azzurre, violacee, il melograno"
+},
+{
+"s": 1056.2,
+"e": 1062.3,
+"t": "parte dal giallo o comunque ci fa ottenere il colore nero, l'henné invece va dalle gradazioni brune al giallo oro,"
+},
+{
+"s": 1062.3,
+"e": 1068.4,
+"t": "lo zafferano ovviamente ci permette di ottenere il giallo zafferano, l'indigofera l'azzurro, la reseda il giallo e la noce"
+},
+{
+"s": 1068.4,
+"e": 1078.5,
+"t": "invece diciamo ci permette di ottenere questo beige fino al marrone. Per quanto riguarda quelli di origine animale ovviamente"
+},
+{
+"s": 1078.5,
+"e": 1087.2,
+"t": "parliamo di una dinamica che deriva da insetti e molluschi, come dicevamo prima. Ad esempio abbiamo il murice che ci permette di ottenere questo porpora,"
+},
+{
+"s": 1087.2,
+"e": 1098.3,
+"t": "la coccinella del carminio invece ci aiuta ad ottenere il rosso carminio e in realtà viene anche indicato solitamente"
+},
+{
+"s": 1098.3,
+"e": 1105.4,
+"t": "con la sigla E120, infine la cocciniglia ci permette di ottenere questo rosso kermes."
+},
+{
+"s": 1105.4,
+"e": 1114.2,
+"t": "In ogni caso nel momento in cui noi parliamo di questi coloranti naturali parliamo di coloranti ovviamente ecologici."
+},
+{
+"s": 1114.2,
+"e": 1123.3,
+"t": "In ogni caso la loro applicazione richiede anche dei mordenzanti. Questi mordenzanti devono essere particolari perché devono avere questa base di sali metallici non nocivi,"
+},
+{
+"s": 1123.3,
+"e": 1130.1,
+"t": "come ad esempio può essere il rame, lo stagno, il ferro e così via, che vanno però a determinare questo impatto ambientale superiore"
+},
+{
+"s": 1130.1,
+"e": 1141.2,
+"t": "a dei prodotti direttamente sintetici che possiamo utilizzare appunto all'interno della nostra tintura."
+},
+{
+"s": 1141.2,
+"e": 1149.3,
+"t": "In ogni caso nel momento in cui dovessimo fare riferimento alla tintura biologica abbiamo a che fare in realtà con degli ausiliari"
+},
+{
+"s": 1149.3,
+"e": 1157.4,
+"t": "e dei coloranti che risultano essere biodegradabili e anche sicuri. I coloranti sintetici quindi"
+},
+{
+"s": 1157.4,
+"e": 1164.1,
+"t": "sono delle situazioni che subentrano ovviamente già"
+},
+{
+"s": 1164.1,
+"e": 1171.2,
+"t": "nel momento in cui l'uomo ha iniziato ad avere una determinata evoluzione, perché parliamo dal 1800 in poi, quindi"
+},
+{
+"s": 1171.2,
+"e": 1178.3,
+"t": "sono delle dinamiche totalmente diverse dalla creazione appunto dei coloranti naturali e della loro scoperta."
+},
+{
+"s": 1178.3,
+"e": 1187.4,
+"t": "In realtà questi coloranti sintetici nello specifico vanno ad uscire per la prima volta nel 1856 grazie al chimico Perkin."
+},
+{
+"s": 1187.4,
+"e": 1195.2,
+"t": "Perkin in realtà scoprì in modo accidentale la malveina, ovvero questo in realtà un colorante violaceo che deriva dall'anilina."
+},
+{
+"s": 1195.2,
+"e": 1203.4,
+"t": "Oggi invece abbiamo una serie di coloranti sintetici che sono posti diciamo in ambiti differenti e ci possono aiutare"
+},
+{
+"s": 1203.4,
+"e": 1215.0,
+"t": "soprattutto nel nostro settore a colorare appunto i nostri a tingere i nostri capi di abbigliamento o comunque ciò che riguarda il prodotto tessile stesso."
+},
+{
+"s": 1200.0,
+"e": 1203.36,
+"t": "sintetici. In realtà ne abbiamo diversi, tra cui i costi minori"
+},
+{
+"s": 1203.36,
+"e": 1208.8,
+"t": "rispetto ai costi inerenti alla produzione di coloranti naturali,"
+},
+{
+"s": 1208.8,
+"e": 1216.76,
+"t": "possiedono la capacità di permanere sul tessuto molto più a lungo rispetto ai coloranti naturali,"
+},
+{
+"s": 1216.76,
+"e": 1226.16,
+"t": "hanno un'uniformità differente rispetto a quelle naturali perché diciamo"
+},
+{
+"s": 1226.16,
+"e": 1233.72,
+"t": "risultano essere più uniformi. Infine possiamo riuscire ad ottenere coloranti in ogni situazione dell'anno,"
+},
+{
+"s": 1233.72,
+"e": 1242.74,
+"t": "perché ovviamente nel momento in cui dovessimo fare ricorso ai coloranti naturali abbiamo bisogno di una determinata stagionalità,"
+},
+{
+"s": 1242.74,
+"e": 1252.16,
+"t": "quindi non sempre possiamo riuscire a percepire, a recapitare quelli che sono i coloranti a noi idonei per il fine ultimo."
+},
+{
+"s": 1252.16,
+"e": 1256.56,
+"t": "Quindi questi diciamo sono i vantaggi dei coloranti sintetici."
+},
+{
+"s": 1256.56,
+"e": 1262.56,
+"t": "In ogni caso però ovviamente anche queste sostanze hanno dei punti negativi."
+},
+{
+"s": 1262.56,
+"e": 1267.6,
+"t": "Infatti questi presentano delle criticità che sono legate alla salute dei lavoratori"
+},
+{
+"s": 1267.6,
+"e": 1275.28,
+"t": "perché hanno questo rischio di rilascio di ammine aromatiche cancerogene"
+},
+{
+"s": 1275.28,
+"e": 1284.18,
+"t": "e soprattutto hanno anche ovviamente un impatto ambientale che viene scaturito dagli scarichi idrici delle fabbriche stesse."
+},
+{
+"s": 1284.18,
+"e": 1293.8,
+"t": "Quindi diciamo che ovviamente anche in questo caso non abbiamo delle situazioni comunque positive per la loro produzione, ma anche per"
+},
+{
+"s": 1294.02,
+"e": 1303.88,
+"t": "le conseguenze, ecco. Le caratteristiche per riuscire però a capire e a valutare l'efficacia di un determinata di un determinato colorante possono basarsi"
+},
+{
+"s": 1303.88,
+"e": 1311.4,
+"t": "su alcune proprietà fisiche e chimiche molto essenziali. Innanzitutto abbiamo bisogno di far riferimento all'affinità."
+},
+{
+"s": 1311.4,
+"e": 1320.72,
+"t": "Cos'è questa affinità? È in realtà questa spontaneità con il quale il colorante va a fissarsi sulla fibra. Quindi dovessimo avere un'elevata affinità vorrebbe dire che"
+},
+{
+"s": 1320.72,
+"e": 1329.28,
+"t": "abbiamo a che fare con una notevole facilità di tintura. Il potere coprente invece indica la dose esatta di colorante"
+},
+{
+"s": 1329.28,
+"e": 1337.92,
+"t": "utile per coprire in modo uniforme una determinata quantità di tessuto fino ovviamente ad ottenere poi la tonalità cromatica richiesta."
+},
+{
+"s": 1337.92,
+"e": 1345.88,
+"t": "Il potere migratorio invece va a rivolgersi alla capacità del colorante di spostarsi all'interno della fibra."
+},
+{
+"s": 1345.88,
+"e": 1356.92,
+"t": "Quindi in questo caso parliamo diciamo di una situazione migratoria che ci permette l'uniformità del tono stesso. Scusate."
+},
+{
+"s": 1357.0,
+"e": 1366.44,
+"t": "La solidità invece è la caratteristica che ci permette di andare a misurare la resistenza del colore a determinati trattamenti di manutenzione"
+},
+{
+"s": 1366.44,
+"e": 1373.32,
+"t": "o comunque a determinati agenti chimici e fisici, come ad esempio l'utilizzo di detersivi, acqua oppure agenti esterni"
+},
+{
+"s": 1373.32,
+"e": 1382.28,
+"t": "come il sudore, il calore o la luce. I coloranti inoltre possono essere anche suddivisi secondo diciamo un altro criterio,"
+},
+{
+"s": 1382.28,
+"e": 1392.68,
+"t": "ovvero secondo le loro proprietà applicative e la loro compatibilità chimica. In questo caso possiamo diciamo avere delle dinamiche che riguardano i coloranti basici,"
+},
+{
+"s": 1392.68,
+"e": 1400.76,
+"t": "i coloranti acidi, quelli diretti, reattivi, al tino, dispersi e a pigmento. Iniziamo con i coloranti basici o cationici"
+},
+{
+"s": 1400.76,
+"e": 1406.92,
+"t": "in modo tale da capire diciamo le diverse differenze poste all'interno delle diverse categorie."
+},
+{
+"s": 1406.92,
+"e": 1418.4,
+"t": "Questi coloranti hanno un'ottima brillantezza, tuttavia hanno una solidità limitata nel momento in cui però parliamo di fibre naturali."
+},
+{
+"s": 1418.4,
+"e": 1425.48,
+"t": "In ogni caso vengono utilizzati soprattutto per la gestione delle fibre acriliche. I coloranti acidi invece vengono utilizzati per tingere"
+},
+{
+"s": 1425.48,
+"e": 1433.72,
+"t": "la lana, la seta e le fibre poliammidiche. In questo caso diciamo garantiscono una solidità molto elevata"
+},
+{
+"s": 1433.72,
+"e": 1443.32,
+"t": "sia alla luce che ai lavaggi. Per quanto riguarda i coloranti diretti invece abbiamo un'affinità verso le fibre cellulosiche,"
+},
+{
+"s": 1443.32,
+"e": 1450.84,
+"t": "quindi in questo caso parliamo della viscosa, del lino e del cotone, e richiedono diciamo un'applicazione a costo contenuto."
+},
+{
+"s": 1450.84,
+"e": 1459.0,
+"t": "In ogni caso questa tipologia di coloranti va a fornire rispetto ai precedenti una brillantezza inferiore e una solidità anche al lavaggio molto bassa."
+},
+{
+"s": 1459.0,
+"e": 1469.4,
+"t": "I coloranti reattivi vanno a legarsi in modo chimico invece alle fibre cellulosiche generali."
+},
+{
+"s": 1469.4,
+"e": 1479.4,
+"t": "I coloranti al tino invece vengono sempre utilizzate verso le fibre cellulosiche, ma risultano essere insolubili in acqua."
+},
+{
+"s": 1479.4,
+"e": 1487.0,
+"t": "Risultano essere solubili solo nel momento in cui vengono diciamo trattati con determinati prodotti o comunque con determinati trattamenti specifici."
+},
+{
+"s": 1487.0,
+"e": 1495.68,
+"t": "I coloranti dispersi invece vengono formulati per la tintura del poliestere e del poliestere modificato. In questo caso parliamo del PBT ed Elite,"
+},
+{
+"s": 1495.68,
+"e": 1504.72,
+"t": "ovvero questo poliestere intelligente. In realtà i coloranti dispersi vengono comunque diciamo utilizzati in condizioni di temperature elevate, come ad esempio 130 °C"
+},
+{
+"s": 1504.72,
+"e": 1514.16,
+"t": "oppure a 95 °C con determinate macchine specifiche. Queste sostanze perché sono particolari? Perché in realtà anche qui non abbiamo diciamo un dissolvimento all'interno dell'acqua,"
+},
+{
+"s": 1514.16,
+"e": 1524.08,
+"t": "ma vanno a disperdersi negli spazi liberi che vanno a crearsi all'interno della fibra. Questa fibra per accogliere il colorante però diciamo deve aver superato il punto"
+},
+{
+"s": 1524.08,
+"e": 1533.68,
+"t": "di transizione vetrosa, ovvero parliamo questo stato dove il polimero va a passare da rigido a gommoso."
+},
+{
+"s": 1533.68,
+"e": 1541.6,
+"t": "I coloranti a pigmento invece non hanno un'affinità chimica e quindi richiedono l'applicazione a tutte le fibre sotto forma di emulsione"
+},
+{
+"s": 1541.6,
+"e": 1551.48,
+"t": "con all'interno delle resine e leganti e degli ausiliari. In questo caso i coloranti a pigmento verso queste fibre vanno a garantire una resistenza elevata alla luce,"
+},
+{
+"s": 1551.48,
+"e": 1559.88,
+"t": "ma tuttavia risultano essere molto delicati nel momento in cui i tessuti vengono sfregati. Un'altra situazione importante riguardo la tintura e i coloranti"
+},
+{
+"s": 1559.88,
+"e": 1568.56,
+"t": "è il fatto che per riuscire ad ottenere l'esatta tonalità richiesta del cliente abbiamo bisogno di un'analisi strumentale del campione stesso."
+},
+{
+"s": 1568.56,
+"e": 1577.28,
+"t": "In questo caso abbiamo diversi strumenti che ci aiutano a queste diverse analisi, tra cui il colorimetro lo e lo spettrofo- lo spettrofotometro."
+},
+{
+"s": 1577.28,
+"e": 1587.68,
+"t": "Il colorimetro è in pratica questo sistema che ci aiuta a confrontare l'intensità luminosa del campione andando a misurarla successivamente con la percentuale dei colori primari,"
+},
+{
+"s": 1587.68,
+"e": 1597.0,
+"t": "quindi il blu, il rosso e il giallo. Lo spettrofotometro invece ci aiuta ad analizzare le lunghezze d'onda della luce che viene riflessa dal tessuto,"
+},
+{
+"s": 1597.0,
+"e": 1606.48,
+"t": "quindi ci permette di calibrare le miscele, di riuscire ad archiviare ovviamente i dati e di automatizzare la formulazione delle ricette di tintoria."
+},
+{
+"s": 1606.48,
+"e": 1614.28,
+"t": "Quindi queste sono diciamo i due strumenti utili e fondamentali all' all'analisi della tonalità richiesta."
+},
+{
+"s": 1614.28,
+"e": 1623.76,
+"t": "Diciamo che oggi c'è una situazione molto particolare che viene offerta dalle nanoparticelle. Queste nanoparticelle presenti in natura, come ad esempio nel caso delle farfalle,"
+},
+{
+"s": 1623.76,
+"e": 1633.04,
+"t": "non hanno al loro interno dei pigmenti chimici, ma in realtà riescono comunque a generare dei colori in base alla propria forma e dimensione microscopica."
+},
+{
+"s": 1633.04,
+"e": 1643.0,
+"t": "Quindi diciamo questa particolare sezione che è stata diciamo individuata e scoperta può aprire delle strade ovviamente all'ottenimento di tinture molto più ecologiche"
+},
+{
+"s": 1643.0,
+"e": 1650.48,
+"t": "di quelle che noi utilizziamo oggi. In ogni caso la scelta degli impianti di tintura va a dipendere ovviamente dal materiale"
+},
+{
+"s": 1650.48,
+"e": 1659.4,
+"t": "e dal tipo di di processo che noi siamo andati a scegliere. Nel momento in cui abbiamo a che fare con le macchine industriali ovviamente abbiamo a che fare con una grande produzione di capi"
+},
+{
+"s": 1659.4,
+"e": 1669.8,
+"t": "o comunque di situazioni tessili appunto richieste. I componenti principali di questi macchinari riguardano la vasca di tintura, il recipiente per introdurre i coloranti"
+},
+{
+"s": 1669.8,
+"e": 1676.96,
+"t": "e gli ausiliari, le tubazioni utili al trasporto ovviamente di queste sostanze, i sistemi di di livello,"
+},
+{
+"s": 1676.96,
+"e": 1685.4,
+"t": "le pompe, il termometro, la centrifuga, il motore, il quadro elettrico, la serpentina utile al riscaldamento del bagno, le valvole di di regolazione,"
+},
+{
+"s": 1685.4,
+"e": 1694.6,
+"t": "le valvole di ricircolo e infine il sistema di programmazione. Quindi diciamo che queste macchine ovviamente industriali richiedono ovviamente nel complesso"
+},
+{
+"s": 1694.6,
+"e": 1700.0,
+"t": "tutti i gli strumenti utili al sostegno di dei tutto il procedimento ovviamente di tutte le fasi che ci aiutano a tingere, a colorare un determinato tessuto."
+},
+{
+"s": 1800.44,
+"e": 1804.54,
+"t": "Nel momento in cui parliamo di questi impianti industriali,"
+},
+{
+"s": 1804.62,
+"e": 1810.36,
+"t": "è importante anche capire un po' il perché ci sono determinate dinamiche,"
+},
+{
+"s": 1810.46,
+"e": 1812.38,
+"t": "oltre al fatto di andarle ad elencare."
+},
+{
+"s": 1813.06,
+"e": 1818.28,
+"t": "Infatti è importantissimo che questi impianti industriali abbiano dei sistemi di contenimento cilindrici"
+},
+{
+"s": 1818.3,
+"e": 1823.36,
+"t": "che vengono chiamati tamburi. Questi tamburi sono importanti"
+},
+{
+"s": 1823.44,
+"e": 1833.32,
+"t": "perché? Perché riescono a roteare il tessuto mentre subisce il trattamento."
+},
+{
+"s": 1834.0,
+"e": 1840.7,
+"t": "Le apparecchiature per la tintura delle fibre e dei filati, ovviamente, devono avere anche delle autoclavi,"
+},
+{
+"s": 1841.22,
+"e": 1846.16,
+"t": "dove all'interno ci sono queste rocche e questi subbi che, diciamo,"
+},
+{
+"s": 1846.88,
+"e": 1851.52,
+"t": "trattengono il tessuto, quindi rimangono fermi, mentre è il bagno di colore che viene"
+},
+{
+"s": 1851.98,
+"e": 1857.06,
+"t": "fatto circolare. Quindi questo bagno va a muoversi"
+},
+{
+"s": 1857.48,
+"e": 1863.84,
+"t": "e quindi va ad investire il tessuto posto, appunto, su queste rocche e questo subbio."
+},
+{
+"s": 1864.92,
+"e": 1871.0,
+"t": "Per quanto riguarda invece le matasse, abbiamo bisogno di armadi e a cassetti"
+},
+{
+"s": 1871.42,
+"e": 1877.2,
+"t": "di materiale fermo oppure di macchine a bracci oscillanti. Perché? Perché nel momento in cui noi utilizziamo le matasse"
+},
+{
+"s": 1877.28,
+"e": 1883.9,
+"t": "per la loro tintura, abbiamo bisogno di questo bagno in movimento,"
+},
+{
+"s": 1884.18,
+"e": 1891.9,
+"t": "in modo tale che la matassa venga colorata, tinta con la massima uniformità."
+},
+{
+"s": 1893.38,
+"e": 1900.94,
+"t": "Nel momento in cui tuttavia noi andiamo ad effettuare questo ciclo di tintura, ovviamente non abbiamo delle tempistiche specifiche,"
+},
+{
+"s": 1901.32,
+"e": 1908.14,
+"t": "perché questa tempistica può andare a variare a seconda della fibra e della tonalità desiderata."
+},
+{
+"s": 1909.18,
+"e": 1915.68,
+"t": "Un esempio può essere che alcune fibre possono richiedere semplicemente un trattamento che va dalle tre alle quattro ore,"
+},
+{
+"s": 1916.32,
+"e": 1922.92,
+"t": "come ad esempio il tessuto della lana. Per quanto riguarda invece, ad esempio, cotone e viscosa,"
+},
+{
+"s": 1923.08,
+"e": 1928.52,
+"t": "per ottenere dei toni scuri, abbiamo bisogno addirittura di un bagno di colore che può durare sedici ore."
+},
+{
+"s": 1931.08,
+"e": 1939.12,
+"t": "Per quanto riguarda la tintura delle diverse tappe, abbiamo bisogno comunque di interfacciarci con la sezione"
+},
+{
+"s": 1939.38,
+"e": 1942.16,
+"t": "dedicata, ad esempio, dei capi già confezionati."
+},
+{
+"s": 1943.1399999999999,
+"e": 1949.32,
+"t": "In questo caso abbiamo delle macchine, ovviamente, specifiche per queste dinamiche e parliamo di macchine rotative."
+},
+{
+"s": 1950.3600000000001,
+"e": 1955.12,
+"t": "Queste macchine sono molto simili alle lavatrici industriali."
+},
+{
+"s": 1955.76,
+"e": 1964.88,
+"t": "La tintura dei tessuti in pezza, quindi, è una tintura, diciamo, tra le tante ad essere quella più più utilizzata e soprattutto più diffusa."
+},
+{
+"s": 1967.3600000000001,
+"e": 1972.96,
+"t": "In questo caso possiamo andare a suddividere le due modalità che si che riguardano proprio la tintura in pezza."
+},
+{
+"s": 1973.32,
+"e": 1978.6,
+"t": "Da una parte abbiamo la tintura in corda e dall'altra la tintura in largo. Quando parliamo di tintura in corda?"
+},
+{
+"s": 1980.78,
+"e": 1986.2,
+"t": "Quando andiamo ad utilizzare le macchine che vengono chiamate jet o overflow."
+},
+{
+"s": 1986.82,
+"e": 1994.88,
+"t": "Qui il tessuto viene raccolto in pieghe longitudinali e viene poi fatto scorrere in modo continuo o discontinuo in questo bagno,"
+},
+{
+"s": 1995.12,
+"e": 2000.74,
+"t": "che avviene grazie al movimento di un aspo motorizzato."
+},
+{
+"s": 2001.76,
+"e": 2006.68,
+"t": "In realtà, diciamo, questa macchina viene dedicata a quasi tutte le fibre,"
+},
+{
+"s": 2007.24,
+"e": 2013.98,
+"t": "ma quando abbiamo a che fare con tessuti cardati a maglia, in realtà è bene forse evitare questo determinato"
+},
+{
+"s": 2014.04,
+"e": 2019.78,
+"t": "trattamento perché può andare a formare, diciamo, questa peluria superficiale."
+},
+{
+"s": 2020.52,
+"e": 2026.78,
+"t": "Questa peluria, questa formazione va a prendere il nome di implumatura,"
+},
+{
+"s": 2027.24,
+"e": 2034.34,
+"t": "che richiede ovviamente poi delle dei procedimenti successivi e quindi, ovviamente, diciamo, abbiamo bisogno di trattare"
+},
+{
+"s": 2034.42,
+"e": 2038.16,
+"t": "ulteriormente un capo quando dovrebbe essere quasi ultimo."
+},
+{
+"s": 2040.54,
+"e": 2048.5,
+"t": "Per quanto riguarda la tintura in largo, invece, parliamo di una tintura che può essere effettuato effettuata quando si vuole."
+},
+{
+"s": 2049.2,
+"e": 2057.6,
+"t": "Questa operazione, diciamo, richiede delle macchine come il jigger e in queste macchine il tessuto viene srotolato"
+},
+{
+"s": 2058.06,
+"e": 2063.26,
+"t": "per poi riavvolgerlo in modo alternato tra due rulli."
+},
+{
+"s": 2063.84,
+"e": 2072.96,
+"t": "Una volta che viene alternato su questi rulli, viene passato poi all'interno del bagno per circa trenta volte in una camera chiusa,"
+},
+{
+"s": 2073.66,
+"e": 2079.7799999999997,
+"t": "in modo tale che durante questo procedimento non vada ad esserci una dispersione del vapore."
+},
+{
+"s": 2080.96,
+"e": 2088.74,
+"t": "Un'altra variante, diciamo, applicabile è il foulard. Il foulard è un sistema continuo a basso costumo a consumo"
+},
+{
+"s": 2088.7799999999997,
+"e": 2096.84,
+"t": "d'acqua e anche a basso consumo d'energia. In questo caso il tessuto viene teso e va ad attraversare la vasca"
+},
+{
+"s": 2097.2200000000003,
+"e": 2102.26,
+"t": "e viene spremuto tra due rulli spremitori metallici. Al termine,"
+},
+{
+"s": 2102.48,
+"e": 2108.2,
+"t": "comunque, del processo di tintura, per ogni dinamica con il quale ci interfacciamo e ogni tipologia"
+},
+{
+"s": 2108.26,
+"e": 2115.68,
+"t": "di tessuto con il quale abbiamo a che fare, dobbiamo andare poi ad effettuare dei trattamenti di finitura."
+},
+{
+"s": 2117.02,
+"e": 2123.86,
+"t": "Questi trattamenti di finitura, ovviamente, sono utili per stabilizzare la pezza stessa che stiamo lavorando."
+},
+{
+"s": 2124.2799999999997,
+"e": 2129.1,
+"t": "In questo caso parliamo di diverse fasi finali di nobilitazione."
+},
+{
+"s": 2129.84,
+"e": 2136.88,
+"t": "La prima è il vaporissaggio, ovvero questo procedimento che va a sfruttare l'azione combinata tra umidità e calore"
+},
+{
+"s": 2137.52,
+"e": 2144.2200000000003,
+"t": "e quindi ci permette di penetrare e fissare le molecole di colore all'interno della struttura della fibra stessa."
+},
+{
+"s": 2144.92,
+"e": 2152.54,
+"t": "Il lavaggio in umido, invece, ci aiuta ad eliminare residui di colorante e gli ausiliari che non sono, diciamo, stati fissati."
+},
+{
+"s": 2153.94,
+"e": 2161.38,
+"t": "L'asciugatura e lo stiro, invece, devono avvenire in continuo su queste macchine tenditrici,"
+},
+{
+"s": 2161.94,
+"e": 2168.52,
+"t": "che vengono chiamate rameuse nel caso del trattamento di maglie tubolari,"
+},
+{
+"s": 2168.74,
+"e": 2173.44,
+"t": "oppure calandre metalliche riscaldate nel caso in cui dovessimo utilizzare altre tipologie di maglie."
+},
+{
+"s": 2174.34,
+"e": 2181.56,
+"t": "In ogni caso, all'interno dell'asciugatura e dello stiro abbiamo l'acqua residua che viene totalmente eliminata,"
+},
+{
+"s": 2181.74,
+"e": 2188.94,
+"t": "anche grazie eventualmente, se necessario, all'utilizzo di radiazioni infrarosse o microonde ad alta frequenza."
+},
+{
+"s": 2190.62,
+"e": 2197.68,
+"t": "L'arrotolatura, infine, è diciamo quel processo che va ad avvolgere il tessuto stesso."
+},
+{
+"s": 2198.88,
+"e": 2202.76,
+"t": "Quindi viene, diciamo, preparato all'imballaggio ultimo."
+},
+{
+"s": 2204.14,
+"e": 2208.82,
+"t": "Arriviamo quindi al procedimento di stampa. La stampa è un altro procedimento"
+},
+{
+"s": 2209.2799999999997,
+"e": 2216.74,
+"t": "utile all'estetica del tessuto e, diciamo, consiste proprio nel riporto di un determinato disegno, anche con più colori,"
+},
+{
+"s": 2218.16,
+"e": 2222.42,
+"t": "su un tessuto o su altri materiali."
+},
+{
+"s": 2224.3,
+"e": 2232.26,
+"t": "Ovviamente la stampa è una sempre una nobilitazione e in questo caso parliamo di una nobilitazione estetica."
+},
+{
+"s": 2233.82,
+"e": 2241.86,
+"t": "Nel momento in cui abbiamo a che fare con questa stampa, ovviamente andiamo a differirci in situazione"
+},
+{
+"s": 2242.2200000000003,
+"e": 2251.98,
+"t": "in una situazione riguardo alla tintura, perché ovviamente la stampa ci permette di ritrasportare un determinato disegno,"
+},
+{
+"s": 2252.12,
+"e": 2258.74,
+"t": "mentre la tintura ci permette di andare a inondare, diciamo così, il tessuto con il colore stesso."
+},
+{
+"s": 2259.7200000000003,
+"e": 2265.98,
+"t": "Più colori sono presenti all'interno di questa stampa e, ovviamente, il risultato avrà un costo maggiore."
+},
+{
+"s": 2268.04,
+"e": 2276.32,
+"t": "Diciamo che la stampa, come un po' anche il processo dei coloranti, ha subito una storia."
+},
+{
+"s": 2276.84,
+"e": 2283.9,
+"t": "Ovviamente non partiamo dai tempi più antichi, però come nell'epoca della preistoria con la situazione,"
+},
+{
+"s": 2283.98,
+"e": 2291.56,
+"t": "diciamo, dei dei coloranti, ma abbiamo bisogno comunque di andare abbastanza indietro nella vita dell'uomo."
+},
+{
+"s": 2291.68,
+"e": 2296.08,
+"t": "Infatti, diciamo che anticamente la stampa avveniva grazie a questi stampi in legno o in metallo incisi."
+},
+{
+"s": 2296.64,
+"e": 2304.66,
+"t": "L'industria moderna invece, ovviamente, utilizza le tecnologie odierne, quindi cilindri quadri cilindri o quadri."
+},
+{
+"s": 2305.7,
+"e": 2314.86,
+"t": "I colori comunque vengono ad assumere un aspetto di questa pasta densa colorata e viene chiamata pasta densa da stampa."
+},
+{
+"s": 2315.7799999999997,
+"e": 2322.68,
+"t": "Per stampare comunque in modo corretto un determinato motivo, abbiamo bisogno che la pasta di stampa"
+},
+{
+"s": 2322.76,
+"e": 2327.24,
+"t": "vada a soddisfare diversi requisiti. Ovviamente questa deve risultare una pasta da stampa"
+},
+{
+"s": 2327.36,
+"e": 2334.62,
+"t": "omogenea, stabile, senza sbavature, senza allargamenti laterali,"
+},
+{
+"s": 2334.82,
+"e": 2342.48,
+"t": "oppure deve avere, ovviamente, un'opportuna densità e una facilità di applicazione."
+},
+{
+"s": 2344.7,
+"e": 2351.98,
+"t": "Per quanto riguarda invece la composizione, abbiamo bisogno, ovviamente, di una situazione inerente a coloranti e ausiliari."
+},
+{
+"s": 2352.74,
+"e": 2360.84,
+"t": "Questi ovviamente si devono si devono interfacciare con la struttura stessa fisica e chimica della fibra con il quale entreremo in contatto."
+},
+{
+"s": 2363.14,
+"e": 2370.02,
+"t": "Per quanto riguarda gli ausiliari utili nel processo di stampa, abbiamo bisogno di addensanti,"
+},
+{
+"s": 2370.16,
+"e": 2377.26,
+"t": "ovvero queste sostanze che ci permettono di rendere la pasta di una consistenza adeguata al termine, diciamo, del nostro processo;"
+},
+{
+"s": 2377.94,
+"e": 2384.7,
+"t": "incollante non permanente, quindi va a bloccare in modo temporaneo il tessuto al tavolo; rigonfiante,"
+},
+{
+"s": 2385.12,
+"e": 2391.98,
+"t": "che va a aumentare la resa della pasta stessa; e il disaerante, ovvero, in questo caso andrà a limitare,"
+},
+{
+"s": 2392.04,
+"e": 2396.86,
+"t": "questo ausiliare, la quantità di aria all'interno della preparazione stessa."
+},
+{
+"s": 2398.14,
+"e": 2400.0,
+"t": "Una volta che abbiamo quindi capito"
+},
+{
+"s": 2400.0,
+"e": 2406.2,
+"t": "Quali sono gli ausiliari possibili da utilizzare? Andiamo, diciamo, a vedere..."
+},
+{
+"s": 2406.2,
+"e": 2410.2,
+"t": "...come possiamo effettuare questa applicazione della pasta."
+},
+{
+"s": 2410.2,
+"e": 2418.5,
+"t": "Innanzitutto, abbiamo bisogno di capire che questa applicazione va ad incidere sul peso finale del prodotto."
+},
+{
+"s": 2418.5,
+"e": 2425.1,
+"t": "In questo caso, il peso del prodotto può oscillare comunque con delle tolleranze."
+},
+{
+"s": 2425.1,
+"e": 2433.1,
+"t": "Le tolleranze si riferiscono a questo controllo peso con un massimo di circa il 5%."
+},
+{
+"s": 2433.1,
+"e": 2446.1,
+"t": "Un altro elemento molto importante da tenere presente in questa tecnica è il rapporto stampa, ovvero questo spazio occupato dal disegno che va a ripetersi in larghezza e in lunghezza."
+},
+{
+"s": 2446.1,
+"e": 2459.4,
+"t": "Ogni disegno, inoltre, deve essere messo a registro in modo tale che possa evitare di essere stampato fuori registro e quindi di ottenere questo difetto."
+},
+{
+"s": 2459.4,
+"e": 2475.3,
+"t": "Perché parliamo, diciamo, di questo fuori registro? Perché nel momento in cui noi parliamo di registro di una stampa di disegno messo a registro vuol dire che è ben centrato e ben posto, diciamo, sulla sezione dedicata alla stampa stessa."
+},
+{
+"s": 2475.3,
+"e": 2488.0,
+"t": "Dovessimo andare fuori registro, ovviamente potremmo andare incontro a una sovrapposizione errata di parti o alla creazione di spazi vuoti, quindi a un difetto molto importante di produzione del capo."
+},
+{
+"s": 2488.0,
+"e": 2493.3,
+"t": "Quali sono le tecniche di stampa? Innanzitutto partiamo dalla stampa diretta."
+},
+{
+"s": 2493.3,
+"e": 2502.5,
+"t": "In questo caso andiamo ad applicare la decorazione direttamente sul tessuto bianco o su tessuti tinti con colori chiari."
+},
+{
+"s": 2502.5,
+"e": 2512.1,
+"t": "Perché parliamo di stampa diretta? Perché in realtà abbiamo questa metodologia che va ad applicarsi direttamente sul tessuto..."
+},
+{
+"s": 2512.1,
+"e": 2521.2,
+"t": "...e soprattutto questa metodologia è molto particolare perché ha un'alta velocità di stampa e un relativo ridotto costo di produzione."
+},
+{
+"s": 2521.2,
+"e": 2531.2,
+"t": "In questo caso la colorazione avviene con applicazione successiva dei diversi toni fino al completamento ultimo del motivo."
+},
+{
+"s": 2531.2,
+"e": 2542.3,
+"t": "Un esempio lo possiamo riscontrare qui nell'immagine a destra dove dovessimo riportare con la stampa diretta una violetta abbiamo bisogno di almeno tre passaggi,"
+},
+{
+"s": 2542.3,
+"e": 2547.2,
+"t": "ovvero andiamo ad applicare, diciamo, la prima sezione..."
+},
+{
+"s": 2547.2,
+"e": 2557.6,
+"t": "...riguardo ovviamente la parte delle foglie, andiamo ad applicare la seconda e infine la terza e quindi riscontriamo la creazione di questa violetta."
+},
+{
+"s": 2557.6,
+"e": 2574.4,
+"t": "Una volta che abbiamo effettuato, diciamo, queste tre sezioni differenti, possiamo far asciugare il tessuto, sottoporlo a vaporissaggio, sottoporlo a lavaggio e infine a stiraggio."
+},
+{
+"s": 2574.4,
+"e": 2589.7,
+"t": "Nel momento in cui invece dovessimo avere dei tessuti compatti, il colore in realtà non riuscirebbe a penetrare del tutto e quindi questo disegno potrebbe risultare dalla parte posta al rovescio sbiadita."
+},
+{
+"s": 2589.7,
+"e": 2595.4,
+"t": "L'altra tecnica di stampa riguarda la stampa a corrosione."
+},
+{
+"s": 2595.4,
+"e": 2602.4,
+"t": "In questo caso andiamo per decorazione della pezza che viene già tinta."
+},
+{
+"s": 2602.4,
+"e": 2608.5,
+"t": "In questo caso subentra, diciamo, la corrosione locale del colore."
+},
+{
+"s": 2608.5,
+"e": 2619.0,
+"t": "Perché andiamo a corrodere, diciamo, localmente il colore della pezza? Perché in questo caso noi riusciamo ad ottenere dei motivi più chiari e ben delineati."
+},
+{
+"s": 2619.0,
+"e": 2629.4,
+"t": "Quindi per ottenere questa stampa a corrosione abbiamo bisogno di ausiliari come agenti azzurranti ottici o coloranti resistenti ai corrosivi."
+},
+{
+"s": 2629.4,
+"e": 2639.9,
+"t": "Questa tecnica quindi ovviamente presenta anche dei difetti, ovvero un elevato rischio di deterioramento della zona corrosa."
+},
+{
+"s": 2639.9,
+"e": 2650.7,
+"t": "Quindi, diciamo, è importante effettuare questa tipologia di stampa con un personale ben istruito e ovviamente ben qualificato."
+},
+{
+"s": 2650.7,
+"e": 2655.7,
+"t": "Per quanto riguarda l'altra tecnica parliamo di stampa a riserva."
+},
+{
+"s": 2655.7,
+"e": 2666.3,
+"t": "Qui, diciamo, va ad utilizzare come tecnica le paste impermeabili o questi prodotti chimici applicati prima della tintura."
+},
+{
+"s": 2666.3,
+"e": 2676.1,
+"t": "Perché vengono applicati prima? Perché ci permettono di impedire la penetrazione del colore all'interno delle zone protette."
+},
+{
+"s": 2676.1,
+"e": 2689.4,
+"t": "Quindi, diciamo, grazie a questi schermi, perché alla fine andiamo a creare queste maschere, questi schermi, noi andiamo ovviamente a tutelare delle porzioni che rimarranno ovviamente inalterate."
+},
+{
+"s": 2689.4,
+"e": 2698.5,
+"t": "Un'altra situazione di stampe con il quale possiamo entrare in contatto sono le stampe devorè e la stampa a transfer,"
+},
+{
+"s": 2698.5,
+"e": 2706.4,
+"t": "oltre alla stampa in ordito, la stampa floccata, la stampa con lamine metalliche, la stampa in quadricromia e la stampa a pigmento."
+},
+{
+"s": 2706.4,
+"e": 2711.5,
+"t": "Andiamo a vedere adesso una a una quali tipologie di stampe abbiamo a che fare."
+},
+{
+"s": 2711.5,
+"e": 2719.4,
+"t": "Innanzitutto c'è da dire che tutto questo elenco di stampe riguarda delle tecniche particolari."
+},
+{
+"s": 2719.4,
+"e": 2730.1,
+"t": "Con la stampa devorè abbiamo a che fare con una stampa applicata su tessuti misti come ad esempio 40% cotone, 30% nylon e 30% modal"
+},
+{
+"s": 2730.1,
+"e": 2740.6,
+"t": "e ci permette ovviamente di creare queste soluzioni molto eleganti grazie all'utilizzo di motivi trasparenti. Infatti lo possiamo notare nella prima immagine."
+},
+{
+"s": 2740.6,
+"e": 2746.7,
+"t": "La stampa a transfer, che possiamo riscontrarla nella seconda e nella terza,"
+},
+{
+"s": 2746.7,
+"e": 2754.1,
+"t": "abbiamo bisogno in questo caso, diciamo, di una stampa che va a trasferire un motivo dalla carta al tessuto."
+},
+{
+"s": 2754.1,
+"e": 2761.3,
+"t": "Infatti noi riscontriamo, diciamo, la creazione della prima sezione che poi dovrà essere riportata nella seconda."
+},
+{
+"s": 2761.3,
+"e": 2768.5,
+"t": "Questo trasferimento richiede comunque delle alte temperature perché parliamo di 190-210 °C"
+},
+{
+"s": 2768.5,
+"e": 2772.5,
+"t": "e viene applicata attraverso cilindri metallici."
+},
+{
+"s": 2772.5,
+"e": 2785.6,
+"t": "I coloranti in questo caso sublimano questo stato da solido a gassoso e vanno in questo modo a penetrare all'interno delle fibre."
+},
+{
+"s": 2785.6,
+"e": 2794.9,
+"t": "La stampa in ordito invece, che riguarda l'ultima immagine, va a richiedere questa applicazione del colore solo sui fili di ordito prima ancora che avvenga la tessitura."
+},
+{
+"s": 2794.9,
+"e": 2808.3,
+"t": "Quindi grazie a questa determinata stampa noi riusciamo ad ottenere questo disegno sfumato che possiamo notare, ripeto, nell'ultima immagine, che viene chiamato chiné."
+},
+{
+"s": 2808.3,
+"e": 2818.5,
+"t": "Per quanto riguarda la stampa floccata invece abbiamo questa distribuzione di minuscoli fiocchi di fibre su zone, diciamo, di colla."
+},
+{
+"s": 2818.5,
+"e": 2828.0,
+"t": "In questo modo riusciamo ad ottenere questo effetto vellutato che possiamo vedere nelle immagini, ma tuttavia questo effetto è molto sensibile allo sfregamento."
+},
+{
+"s": 2828.0,
+"e": 2837.0,
+"t": "Per quanto riguarda la stampa con le lamine metalliche abbiamo bisogno dell'applicazione di questa pellicola metallica decorativa"
+},
+{
+"s": 2837.0,
+"e": 2847.1,
+"t": "e l'applicazione richiede, diciamo, questo adesivo termocollante con una temperatura posta tra 150 e 170 °C."
+},
+{
+"s": 2847.1,
+"e": 2858.0,
+"t": "La stampa in quadricromia invece richiede, diciamo, l'utilizzo dei tre colori primari, quindi come vediamo nell'immagine il blu, il rosso e il giallo."
+},
+{
+"s": 2858.0,
+"e": 2873.5,
+"t": "Tuttavia non bastano solo questi tre colori, ma abbiamo bisogno anche del nero in modo tale da ottenere, diciamo, tutte le sfumature possibili per ottenere appunto ovviamente il disegno ultimo idoneo."
+},
+{
+"s": 2873.5,
+"e": 2886.3,
+"t": "La stampa a pigmento invece va ad utilizzare dei pigmenti insolubili e questi vengono a legarsi alla fibra attraverso l'utilizzo di resine polimerizzate."
+},
+{
+"s": 2886.3,
+"e": 2895.5,
+"t": "Le tecnologie di stampa infine vanno a suddividersi anche in base agli strumenti e al livello di automazione che viene utilizzato."
+},
+{
+"s": 2895.5,
+"e": 2907.0,
+"t": "Le tecniche artigianali antiche richiedono ovviamente la stampa a mano e quindi parliamo di tecniche che utilizzano stampi in legno o metallo incisi."
+},
+{
+"s": 2907.0,
+"e": 2914.8,
+"t": "Un esempio tradizionale italiano può essere la stampa della tela ruggine tipica della Romagna."
+},
+{
+"s": 2914.8,
+"e": 2925.6,
+"t": "Per quanto riguarda la stampa batik invece riguarda un'antica tecnica di stampa che possiede origine all'isola di Giava."
+},
+{
+"s": 2925.6,
+"e": 2936.8,
+"t": "In questo caso parliamo di una tecnica che richiede questa cera che viene applicata sul tessuto in modo tale che vada a proteggere le zone che non devono essere colorate."
+},
+{
+"s": 2936.8,
+"e": 2943.8,
+"t": "Una volta che viene applicata questa cera può essere posto il bagno di colore."
+},
+{
+"s": 2943.8,
+"e": 2954.4,
+"t": "Una volta però che viene completata questa tintura la cera dovrà essere rimossa e quindi ovviamente inizia a mostrare, diciamo, questi disegni"
+},
+{
+"s": 2954.4,
+"e": 2971.2,
+"t": "che tuttavia saranno comunque molto, diciamo, caratteristici perché riscontreremmo sempre, diciamo, questa questa sezione estetica screpolata, infatti lo possiamo notare perfettamente nelle immagini in basso."
+},
+{
+"s": 2971.2,
+"e": 2984.4,
+"t": "Ovviamente nel momento in cui facciamo un confronto poi tra le tecniche di stampa a mano e la tecnica batik, ovviamente quella che risulta essere molto più costosa e tempi più lunghi sarà la stampa batik."
+},
+{
+"s": 2984.4,
+"e": 3000.0,
+"t": "Per quanto riguarda infine la stampa a quadro serigrafica abbiamo bisogno, diciamo, della di interfacciarci con motivi decorativi che vengono ottenuti grazie all'applicazione del colore diretta sul tessuto."
+},
+{
+"s": 3000,
+"e": 3005.6,
+"t": "In questo caso vengono utilizzati come accompagnamenti dei telai chiamati quadri."
+},
+{
+"s": 3007.16,
+"e": 3014.48,
+"t": "Ciascun quadro viene rivestito da questo tessuto fine a tela che prende il nome di burazzo."
+},
+{
+"s": 3015.7,
+"e": 3025.32,
+"t": "Storicamente, in realtà, questo burazzo veniva realizzato in seta, in ogni caso oggi comunque si presenta composto di fibre chimiche."
+},
+{
+"s": 3026.54,
+"e": 3038.9,
+"t": "Tramite poi, diciamo, un determinato processo, una volta che noi poniamo questo burazzo, quindi su questi quadri, su questo telaio, possiamo andare ad effettuare questo processo di fotoincisione."
+},
+{
+"s": 3039.52,
+"e": 3049.34,
+"t": "Qui il burazzo sarà occluso nelle zone che non devono essere stampate, in modo tale che, appunto, non ci sia sempre questo passaggio del colore,"
+},
+{
+"s": 3050.2,
+"e": 3058.82,
+"t": "e, diciamo, questa applicazione verrà avverrà poi sui quadri grazie all'utilizzo di spatole che verranno chiamato ràcle."
+},
+{
+"s": 3061.08,
+"e": 3071.28,
+"t": "I quadri preparati vengono poi posizionati sui tavoli e i tavoli, ovviamente, prenderanno, diciamo, il posto dei macchinari di stampa."
+},
+{
+"s": 3072.96,
+"e": 3084.88,
+"t": "In questo caso abbiamo bisogno di fare una distinzione su quella che è la tecnologia utilizzata: abbiamo i sistemi con carrelli meccanizzati e i sistemi mano-macchina."
+},
+{
+"s": 3085.66,
+"e": 3095.74,
+"t": "Per quanto riguarda i sistemi con carrelli meccanizzati, in questo caso il tessuto viene tenuto fermo dai tappeti, mentre i quadri vengono a muoversi su delle rotaie."
+},
+{
+"s": 3096.76,
+"e": 3103.74,
+"t": "Nei sistemi mano-macchina, invece, il tessuto viene fatto aderire a questo tappeto di gomma resinata,"
+},
+{
+"s": 3103.74,
+"e": 3110.26,
+"t": "questo tappeto poi verrà fatto scorrere lungo le diverse stazioni utili al procedimento di stampa,"
+},
+{
+"s": 3110.74,
+"e": 3121.28,
+"t": "e a ogni fermata del tappeto i quadri verranno ad abbassarsi in simultanea, mentre le ràcle andranno ad effettuare i passaggi programmati prima che il tappeto possa avanzare"
+},
+{
+"s": 3121.28,
+"e": 3128.84,
+"t": "nuovamente verso la successiva tappa. Quindi, diciamo, questa è una situazione che ci permette di ottenere, appunto,"
+},
+{
+"s": 3131.96,
+"e": 3139.12,
+"t": "le nostre stampe. In ogni caso abbiamo anche, diciamo, la stampa inerente alla stampa a cilindro cavo o rotativa."
+},
+{
+"s": 3139.12,
+"e": 3147.24,
+"t": "In questo caso il tessuto viene teso e viene posizionato su questo tappeto, in modo tale, appunto, che non possa muoversi."
+},
+{
+"s": 3147.46,
+"e": 3156.44,
+"t": "I cilindri, in questo caso, andranno poi a depositare il colore in modo da ottenere il disegno."
+},
+{
+"s": 3158.08,
+"e": 3166.42,
+"t": "Come viene a strutturarsi, diciamo, la dinamica riguardo questa determinata tipologia di stampa?"
+},
+{
+"s": 3166.42,
+"e": 3177.34,
+"t": "Abbiamo a che fare con questo grosso cilindro centrale che va a trascinare, diciamo, appunto,"
+},
+{
+"s": 3177.34,
+"e": 3188.74,
+"t": "questo movimento utile alla stampa finale, ma tuttavia questo grosso cilindro sarà anche circondato da diversi cilindri stampatori."
+},
+{
+"s": 3188.74,
+"e": 3198.5,
+"t": "Questi cilindri saranno tanti quanti i colori utili alla stampa finale."
+},
+{
+"s": 3199.1,
+"e": 3211.96,
+"t": "Questa tecnologia in realtà, diciamo, può essere indicata come tecnologia a processo continuo perché ci permette di stampare in modo molto veloce e soprattutto con una qualità comunque medio-alta."
+},
+{
+"s": 3212.44,
+"e": 3220.14,
+"t": "L'incisione tradizionale dei quadri e dei cilindri invece, diciamo, fa sì che noi possiamo ritornare indietro anche nel tempo."
+},
+{
+"s": 3220.6,
+"e": 3227.42,
+"t": "Infatti storicamente questo passaggio ha richiesto diverse fasi molto lunghe e manuali,"
+},
+{
+"s": 3227.8,
+"e": 3239.38,
+"t": "perché? Perché, diciamo, anticamente c'era questa creazione del disegno direttamente su carta per poi passare, diciamo, a quella che era l'incisione stessa."
+},
+{
+"s": 3240.66,
+"e": 3251.34,
+"t": "Tuttavia ci permette oggi la tecnologia di velocizzare proprio il procedimento grazie, ovviamente, ai sistemi CAD e ai sistemi di incisione al laser."
+},
+{
+"s": 3252.1,
+"e": 3263.84,
+"t": "I costi degli impianti comunque sono, ovviamente, molto elevati, ma dall'altra parte abbiamo anche il problema di conservazione a magazzino dei quadri e dei cilindri non venduti."
+},
+{
+"s": 3265.62,
+"e": 3278.38,
+"t": "Nella stampa digitale invece abbiamo, diciamo, un un funzionamento che va a basarsi su queste piccolissime gocce di inchiostro a base acquosa o"
+},
+{
+"s": 3278.38,
+"e": 3288.64,
+"t": "l'utilizzo di pigmenti insolubili che vengono proiettate sul tessuto in modo tale che possano combinarsi per effettuare, diciamo, il disegno richiesto."
+},
+{
+"s": 3289.44,
+"e": 3301.24,
+"t": "Ovviamente la stampa digitale ha una grande applicazione per la personalizzazione di magliette oppure per la personalizzazione e la produzione anche di capi pronti."
+},
+{
+"s": 3302.26,
+"e": 3314.48,
+"t": "In questo caso, diciamo che nel momento in cui dopo la dopo che avviene la stampa, il tessuto deve anche subire determinati, diciamo, procedimenti di finissaggio."
+},
+{
+"s": 3315.68,
+"e": 3323.76,
+"t": "Ovviamente abbiamo anche a che fare con dei fattori di valutazione della tecnologia stessa."
+},
+{
+"s": 3323.76,
+"e": 3334.82,
+"t": "Infatti nel momento in cui noi parliamo di stampa digitale e delle altre tipologie di stampa, possiamo andare a riscontrare, ovviamente, determinate determinate tipologie di vantaggi."
+},
+{
+"s": 3335.2,
+"e": 3346.74,
+"t": "E abbiamo i vantaggi legati all'eliminazione dei costi di quadri e di cilindri, ci aiuta, ovviamente, ad avere un'esecuzione molto più rapida per ottenere anche diverse varianti,"
+},
+{
+"s": 3347.1,
+"e": 3357.24,
+"t": "ci facilita, diciamo, l'ottenimento di un capo personalizzato, ci aiuta con un basso impatto ambientale,"
+},
+{
+"s": 3357.64,
+"e": 3366.56,
+"t": "ma tuttavia comunque ha anche degli svantaggi come, per esempio, il numero limitato di sfumature, il costo elevato degli inchiostri,"
+},
+{
+"s": 3366.56,
+"e": 3376.64,
+"t": "o comunque una differenza che risiede all'interno del tono utilizzato rispetto a quella che dovrebbe essere la produzione richiesta,"
+},
+{
+"s": 3377.2,
+"e": 3389.96,
+"t": "oppure, diciamo, può risultare impossibile da da realizzare per quanto riguarda delle specifiche lavorazioni come, per esempio, nel momento in cui abbiamo bisogno di una stampa a pigmento,"
+},
+{
+"s": 3390.66,
+"e": 3401.76,
+"t": "oppure una stampa attraverso lamine metalliche o floccate e così via. Quindi diciamo che, ovviamente, a seconda della tipologia di stampa noi possiamo trovare dei degli aspetti positivi e negativi"
+},
+{
+"s": 3401.76,
+"e": 3410.96,
+"t": "come qualsiasi altro procedimento e tecnica che noi possiamo, ovviamente, attuare su qualsiasi campo,"
+},
+{
+"s": 3410.96,
+"e": 3423.86,
+"t": "soprattutto nel momento in cui abbiamo descritto più fasi riguardo alla creazione, appunto, dei tessuti: partendo dalla descrizione delle fibre, di come possiamo ottenere le fibre, fino al tessuto greggio e adesso"
+},
+{
+"s": 3424.36,
+"e": 3431.14,
+"t": "alle sezioni della nobilitazione effettuata, appunto, sui tessuti per renderli idonei e ultimi."
+},
+{
+"s": 3431.14,
+"e": 3441.74,
+"t": "Quindi per noi in questo caso è importante comunque riuscire a capire quali sono le differenze tra i coloranti, quali possono essere le diverse tecniche di stampa,"
+},
+{
+"s": 3441.74,
+"e": 3453.7200000000003,
+"t": "ma, ovviamente, dobbiamo anche sapere quali possono essere quelle più vantaggiose e quelle più svantaggiose e, soprattutto,"
+},
+{
+"s": 3453.7200000000003,
+"e": 3461.34,
+"t": "ovviamente, quali possono essere idonee verso un determinato risultato che può essere, appunto, richiesto."
+}
+]

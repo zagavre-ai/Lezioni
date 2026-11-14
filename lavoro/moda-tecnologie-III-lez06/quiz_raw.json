@@ -1,0 +1,170 @@
+[
+ {
+  "p": "Qual è lo scopo principale del processo preliminare di mercerizzazione sui tessuti?",
+  "a": "Migliorare la stabilità dimensionale, la lucentezza e la resistenza del tessuto",
+  "w": [
+   "Rimuovere la peluria superficiale per rendere il tessuto liscio",
+   "Eliminare le tonalità giallognole naturali del tessuto per ottenere un bianco puro",
+   "Eseguire un lavaggio profondo per eliminare ogni tipo di impurità",
+   "Ripulire i filati di ordito dai residui di bozzime applicate in tessitura",
+   "Ridurre lo scivolamento reciproco dei fili nel tessuto"
+  ],
+  "quiz": 1,
+  "ref": "Il candeggio viene impiegato per eliminare le tonalità giallognole naturali e conferire un bianco puro, la mercerizzazione migliora la stabilità dimensionale, la lucentezza e la resistenza del tessuto, mentre il bruciapelo elimina la peluria superficiale per rendere il tessuto estremamente liscio.",
+  "ref_a": 1
+ },
+ {
+  "p": "Quale tipologia di ausiliario chimico regola la velocità di salita del colorante per garantire una tinta omogenea?",
+  "a": "Gli ugualizzanti",
+  "w": [
+   "I disperdenti",
+   "Gli antibastanti",
+   "Gli imbibenti",
+   "I mordenzanti",
+   "I fissatori"
+  ],
+  "quiz": 1,
+  "ref": "gli ugualizzanti che regolano la velocità di salita del colorante per garantire una tinta omogenea.",
+  "ref_a": 1
+ },
+ {
+  "p": "In cosa consiste il pre-trattamento di purga specifico per la fibra di seta?",
+  "a": "In un bagno con specifici enzimi o soluzioni saponose calde",
+  "w": [
+   "In un bagno acquoso con imbibenti, detergenti e soda caustica",
+   "In un bagno contenente carbonato sodico, sapone e ammoniaca",
+   "In un bagno con detergenti sintetici ed emulsionanti",
+   "In un lavaggio a secco che utilizza solo solventi clorurati",
+   "In una stesura di acidi concentrati per eliminare la componente gommosa"
+  ],
+  "quiz": 1,
+  "ref": "un bagno con specifici enzimi o soluzioni saponose calde per la seta;",
+  "ref_a": 1
+ },
+ {
+  "p": "In quale stadio di lavorazione del materiale tessile si effettua la tintura in pasta?",
+  "a": "Miscelando il colorante direttamente alla massa fluida artificiale o sintetica prima dell'estrusione",
+  "w": [
+   "Subito dopo la torsione delle fibre per ottenere disegni rigati o quadrettati nel tessuto finale",
+   "Sulle fibre pettinate di lana avvolte su rocche perforate dall'aspetto di grosse corde",
+   "Prima della filatura per ottenere prodotti pregiati come i filati mélange o i bottonati",
+   "Sul tessuto già tessuto per ridurre sensibilmente il rischio di invenduto",
+   "Direttamente sul capo finito e confezionato per rispondere rapidamente al mercato"
+  ],
+  "quiz": 2,
+  "ref": "la tintura in pasta, processo specifico per le fibre chimiche in cui il colorante viene miscelato direttamente alla massa fluida artificiale o sintetica prima dell'estrusione;",
+  "ref_a": 2
+ },
+ {
+  "p": "Quale proprietà fondamentale di un colorante indica la dose esatta necessaria per coprire uniformemente una quantità di tessuto fino all'intensità desiderata?",
+  "a": "Il potere coprente",
+  "w": [
+   "L'affinità",
+   "Il potere migratorio",
+   "La solidità",
+   "La stabilità termica",
+   "La bagnabilità strutturale"
+  ],
+  "quiz": 4,
+  "ref": "Il potere coprente indica invece la dose esatta di colorante necessaria per coprire uniformemente una determinata quantità di tessuto fino a raggiungere l'intensità desiderata.",
+  "ref_a": 4
+ },
+ {
+  "p": "Quale classe di coloranti è specificamente formulata per la tintura del poliestere e del poliestere modificato (PBT Elité)?",
+  "a": "I coloranti dispersi",
+  "w": [
+   "I coloranti acidi",
+   "I coloranti basici",
+   "I coloranti diretti",
+   "I coloranti reattivi",
+   "I coloranti al tino"
+  ],
+  "quiz": 4,
+  "ref": "I coloranti dispersi sono formulati per la tintura del poliestere e del poliestere modificato, denominato PBT Elité (poliestere intelligente), agendo in condizioni di pressione elevata a una temperatura di 130 °C, oppure a 95 °C in particolari macchine.",
+  "ref_a": 4
+ },
+ {
+  "p": "Quale macchina per la tintura in largo fa srotolare e riavvolgere il tessuto alternativamente tra due rulli passandolo nel bagno per circa 30 volte in camera chiusa?",
+  "a": "Il jitter (o jigger)",
+  "w": [
+   "Il jet",
+   "L'overflow",
+   "Il foulard",
+   "L'autoclave",
+   "La rameuse"
+  ],
+  "quiz": 5,
+  "ref": "Questa operazione si effettua con macchine come il jitter, in cui il tessuto si srotola e si riavvolge alternativamente tra due rulli passando nel bagno per circa 30 volte all'interno di una camera chiusa per evitare la dispersione del vapore.",
+  "ref_a": 5
+ },
+ {
+  "p": "Quale ausiliario specifico per la pasta da stampa ha il compito di limitare la quantità di aria nella preparazione?",
+  "a": "Il disaerante",
+  "w": [
+   "L'addensante",
+   "L'incollante non permanente",
+   "Il rigonfiante",
+   "L'ugualizzante",
+   "L'ammorbidente"
+  ],
+  "quiz": 6,
+  "ref": "disaerante, formulato per limitare la quantità di aria nella preparazione.",
+  "ref_a": 6
+ },
+ {
+  "p": "In cosa consiste la particolare tecnica della stampa devoré?",
+  "a": "Nell'eliminare chimicamente una delle componenti fibrose di un tessuto misto tramite acidi o basi per creare trasparenze",
+  "w": [
+   "Nel trasferire un motivo da carta a tessuto ad alte temperature per sublimazione",
+   "Nel distribuire minuscoli fiocchi di fibre su zone spalmate di colla per ottenere un effetto vellutato",
+   "Nell'applicare una pellicola metallica decorativa tramite adesivo termocollante",
+   "Nel decorare una pezza già tinta corrodendone localmente il colore di fondo",
+   "Nel proteggere le zone da non colorare applicando cera calda prima dei bagni di colore"
+  ],
+  "quiz": 6,
+  "ref": "La stampa devoré si esegue su tessuti misti, ad esempio composti da cotone al 40%, modal al 30% e nylon al 30%, per creare soluzioni eleganti con motivi trasparenti, eliminando chimicamente una delle componenti fibrose tramite acidi o basi e lasciando intatta l'altra.",
+  "ref_a": 6
+ },
+ {
+  "p": "Che cos'è il burazzo nel contesto della stampa a quadro o serigrafica?",
+  "a": "Il fine tessuto a tela (storicamente in seta e oggi in fibre chimiche) che riveste ciascun quadro di stampa",
+  "w": [
+   "La spatola utilizzata per applicare e spingere il colore attraverso il telaio",
+   "Il tappeto di gomma resinata a cui aderisce il tessuto durante la stampa",
+   "Il registro di riferimento per evitare l'errore di fuori registro",
+   "Il carrello meccanizzato che muove i quadri su apposite rotaie",
+   "La pasta da taglio utilizzata per diluire le paste madri concentrate"
+  ],
+  "quiz": 7,
+  "ref": "Ciascun quadro è rivestito da un fine tessuto a tela denominato burazzo, storicamente realizzato in seta e oggi costituito da fibre chimiche con diverse fittezze a seconda della nitidezza desiderata.",
+  "ref_a": 7
+ },
+ {
+  "p": "Con quali ingredienti viene tradizionalmente preparata la pasta per la tipica stampa romagnola della tela ruggine?",
+  "a": "Pasta a base di farina, aceto e ossidi di ferro",
+  "w": [
+   "Pasta a base di cera d'api calda e resine vegetali protettive",
+   "Miscela di soda caustica, amido di mais e allume di rocca",
+   "Sali metallici di stagno, gomma arabica e acido citrico",
+   "Gelatine fotosensibili, colla di pesce e polvere di carbone",
+   "Estratto concentrato di mallo di noce, ammoniaca e bicarbonato"
+  ],
+  "quiz": 7,
+  "ref": "Un esempio tradizionale italiano è la stampa della tela ruggine tipica della Romagna, effettuata con pasta a base di farina, aceto e ossidi di ferro.",
+  "ref_a": 7
+ },
+ {
+  "p": "Nel contesto della tintura delle fibre di poliestere con coloranti dispersi, che cos'è il punto di transizione vetrosa?",
+  "a": "Lo stato in cui il polimero passa da rigido a gommoso, creando gli spazi liberi necessari al fissaggio fisico del colorante",
+  "w": [
+   "La temperatura limite in cui il colorante sublima passando direttamente dallo stato solido a quello gassoso",
+   "Il momento esatto in cui la pasta da stampa raggiunge la densità ottimale per evitare sbavature",
+   "La fase di raffreddamento rapido che conferisce al tessuto finito una lucentezza e stabilità simile al vetro",
+   "Il punto di ebollizione in cui l'acqua del bagno evapora completamente lasciando solo il pigmento secco",
+   "Il processo termico di fusione controllata della peluria superficiale del filato"
+  ],
+  "quiz": 4,
+  "ref": "Queste sostanze non si sciolgono nel bagno ma si disperdono fisicamente negli spazi liberi che si creano nella fibra una volta superato il punto di transizione vetrosa, ossia lo stato in cui il polimero passa da rigido a gommoso.",
+  "ref_a": 4
+ }
+]
