@@ -383,6 +383,10 @@
   {
    "quando": "14/11 06:54",
    "testo": "Lez26: la slide del prof dice «Muore a Siena nel 1983», ma Calvino è morto nel 1985 (le Lezioni americane sono del 1985). Nelle card e nella voce ho scritto solo «Muore a Siena», senza anno. Da segnalare al prof se serve."
+  },
+  {
+   "quando": "14/11 22:45",
+   "testo": "MIGLIORAMENTO: mappa.py non carica i font Telesio (usa set_content, i file:// sono bloccati): scrivere l'html su file e usare page.goto. Serve anche playwright python legato a /opt/pw-browsers (sitecustomize con executable_path). Lez16: nessun trascrittore audio raggiungibile (HuggingFace 403): serve la trascrizione dalla master o dal ramo."
   }
  ],
  "domande_sara": [],
@@ -411,5 +415,5 @@
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 26",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 22:45:12"
+ "aggiornato": "2026-11-14 22:45:14"
 }
