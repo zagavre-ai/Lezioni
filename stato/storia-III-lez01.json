@@ -4,6 +4,10 @@
   "1": {
    "stato": "IN_MONTAGGIO",
    "voci": "segnaposto"
+  },
+  "2": {
+   "stato": "IN_MONTAGGIO",
+   "voci": "segnaposto"
   }
  },
  "manca": "COMPITI_MANCANTI",
@@ -26,10 +30,14 @@
   {
    "quando": "14/11 22:40",
    "testo": "Parte 1 montata con segnaposto (49:35). Attendo voci CM1-CM4, CMF1 per la codifica finale. Compiti: file non presente nella release (COMPITI_MANCANTI)."
+  },
+  {
+   "quando": "14/11 22:52",
+   "testo": "Parte 2 montata con segnaposto (46:11). Lez02/03: trascrizione docente pronta, montaggio dopo lez01."
   }
  ],
  "materia": "Storia III",
  "lezione": "Lezione 1 · Le forme del potere tra X e XI secolo e la rinascita dell'Impero",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 22:40:10"
+ "aggiornato": "2026-11-14 22:52:22"
 }
