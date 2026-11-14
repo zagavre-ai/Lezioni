@@ -1,0 +1,397 @@
+{
+ "tag": "moda-tecnologie-III-lez08",
+ "argomenti": [
+  {
+   "n": 1,
+   "titolo": "Classificare e denominare i tessuti",
+   "domande": [
+    {
+     "d": "Come si distinguono i tessuti secondo la tecnologia di produzione?",
+     "giusta": "A navetta (ortogonali), a maglia, a rete e a treccia",
+     "sbagliate": [
+      "A pelo, a coste, rigati e scozzesi",
+      "Leggeri, rustici ed elasticizzati",
+      "Naturali, artificiali e sintetici"
+     ],
+     "spiegazione": "Sono i quattro grandi gruppi dei processi di tessitura."
+    },
+    {
+     "d": "Quale elemento spesso manca nelle denominazioni, ma è determinante per il prezzo?",
+     "giusta": "Il peso effettivo, al metro quadrato o lineare",
+     "sbagliate": [
+      "Il colore",
+      "Il luogo d'origine",
+      "La stagione"
+     ],
+     "spiegazione": "Indica la quantità di tessuto acquistato."
+    },
+    {
+     "d": "Perché i fornitori usano codici numerici o nomi di fantasia?",
+     "giusta": "Per superare l'incompletezza delle denominazioni e contraddistinguere il prodotto",
+     "sbagliate": [
+      "Per nascondere la composizione",
+      "Per ridurre il prezzo",
+      "Perché i nomi classici sono vietati"
+     ],
+     "spiegazione": "L'industria tessile usa quasi esclusivamente i codici numerici."
+    },
+    {
+     "d": "Come si indica una fibra chimica che imita una naturale?",
+     "giusta": "Con denominazioni classiche precedute da «effetto» o «tipo»",
+     "sbagliate": [
+      "Con il solo nome della fibra naturale",
+      "Con un codice numerico obbligatorio",
+      "Non si può denominare"
+     ],
+     "spiegazione": "Serve a indicare la somiglianza."
+    },
+    {
+     "d": "Qual è il primo senso coinvolto nell'identificazione di un tessuto?",
+     "giusta": "La vista",
+     "sbagliate": [
+      "Il tatto",
+      "L'olfatto",
+      "L'udito"
+     ],
+     "spiegazione": "Si valutano disegno, caduta, peso e stagionalità."
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "titolo": "Tessuti con effetti minuti",
+   "domande": [
+    {
+     "d": "Quali sono gli intrecci più comuni dei tessuti con effetti minuti?",
+     "giusta": "La tela, la saia e i loro derivati",
+     "sbagliate": [
+      "Il raso e il velluto",
+      "La maglia e la rete",
+      "Il pizzo e il tulle"
+     ],
+     "spiegazione": "Sono tipici dell'abbigliamento maschile e della laneria."
+    },
+    {
+     "d": "Che cos'è il fil à fil?",
+     "giusta": "L'alternanza uno a uno dei fili, in ordito, in trama o in entrambi",
+     "sbagliate": [
+      "Un disegno a quattro fili chiari e quattro scuri",
+      "Un tessuto a rombi",
+      "Un tessuto a rilievo"
+     ],
+     "spiegazione": "Trova applicazione in drapperia, laneria e camiceria."
+    },
+    {
+     "d": "Come si chiama l'effetto minuto per eccellenza del guardaroba maschile, ottenuto alternando fili chiari e scuri su armatura batavia?",
+     "giusta": "La grisaglia",
+     "sbagliate": [
+      "L'oxford",
+      "Il vichy",
+      "Il damier"
+     ],
+     "spiegazione": "Se i colori non sono grigi si parla di sale e pepe o pepe e sale."
+    },
+    {
+     "d": "Quanti fili chiari e scuri si alternano nel pied de poule?",
+     "giusta": "Quattro chiari e quattro scuri, in ordito e in trama",
+     "sbagliate": [
+      "Due chiari e due scuri",
+      "Uno e uno",
+      "Sei e sei"
+     ],
+     "spiegazione": "Con proporzioni più ampie si chiama pied de coq."
+    },
+    {
+     "d": "Per quale abbigliamento si usa l'oxford?",
+     "giusta": "Per la camiceria sportiva",
+     "sbagliate": [
+      "Per i cappotti invernali",
+      "Per la lingerie",
+      "Per le tende"
+     ],
+     "spiegazione": "Prende il nome dalla città inglese."
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "titolo": "Tessuti rigati e scozzesi",
+   "domande": [
+    {
+     "d": "Come si chiama il tessuto con righe orizzontali?",
+     "giusta": "Barré",
+     "sbagliate": [
+      "Baiadera",
+      "Gessato",
+      "Millerighe"
+     ],
+     "spiegazione": "La baiadera ha rigature verticali multicolori."
+    },
+    {
+     "d": "Che cosa ricorda il gessato?",
+     "giusta": "Il segno del gesso bianco sulla lavagna",
+     "sbagliate": [
+      "La carta da lettere",
+      "Le tovaglie",
+      "Un materasso"
+     ],
+     "spiegazione": "Righe chiare leggermente intermittenti su fondo scuro."
+    },
+    {
+     "d": "Come si ottiene l'arricciatura del seersucker?",
+     "giusta": "Con fili ad alta tensione accanto a fili a tensione diversa, o con trattamenti chimici o cilindri caldi",
+     "sbagliate": [
+      "Con il solo sfregamento",
+      "Con la stampa a quadro",
+      "Con il taglio del pelo"
+     ],
+     "spiegazione": "L'effetto può essere più o meno permanente."
+    },
+    {
+     "d": "Che cosa identificano i colori dominanti nei tessuti scozzesi?",
+     "giusta": "I diversi clan",
+     "sbagliate": [
+      "Le stagioni",
+      "I fornitori",
+      "Le fibre"
+     ],
+     "spiegazione": "Il nome deriva dall'uso presso le famiglie scozzesi per i kilt."
+    },
+    {
+     "d": "Chi lanciò il disegno principe di Galles?",
+     "giusta": "Il principe Edoardo VIII d'Inghilterra",
+     "sbagliate": [
+      "Un re scozzese",
+      "Un tessitore di Damasco",
+      "Il chimico Perkin"
+     ],
+     "spiegazione": "Grandi quadri che racchiudono quadri più piccoli."
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "titolo": "Tessuti traforati",
+   "domande": [
+    {
+     "d": "Come sono chiamati anche i tessuti traforati?",
+     "giusta": "A giorno o alla francese",
+     "sbagliate": [
+      "A pelo",
+      "Rustici",
+      "Operati"
+     ],
+     "spiegazione": "Hanno intrecci radi e parti vuote."
+    },
+    {
+     "d": "Come si ottiene il dévoré?",
+     "giusta": "Con una stampa chimica che elimina parte delle fibre di un tessuto misto",
+     "sbagliate": [
+      "Tagliando il pelo",
+      "Con filati molto ritorti",
+      "Con la tintura incrociata"
+     ],
+     "spiegazione": "Lascia motivi trasparenti su un fondo più consistente."
+    },
+    {
+     "d": "Che cosa richiama il filet?",
+     "giusta": "La struttura della rete da pescatore",
+     "sbagliate": [
+      "Il manto della pecora",
+      "Le tovaglie",
+      "Il kilt"
+     ],
+     "spiegazione": "I vuoti si riempiono di ricami."
+    },
+    {
+     "d": "Da quale paese è originario il sangallo?",
+     "giusta": "Dalla Svizzera",
+     "sbagliate": [
+      "Dalla Scozia",
+      "Dalla Cina",
+      "Dal Giappone"
+     ],
+     "spiegazione": "È un tessuto ricamato a giorno."
+    },
+    {
+     "d": "Che forma hanno le maglie del tulle?",
+     "giusta": "Esagonale",
+     "sbagliate": [
+      "Quadrata",
+      "Rotonda",
+      "Romboidale"
+     ],
+     "spiegazione": "È una sottilissima rete leggera e trasparente."
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "titolo": "Tessuti a pelo",
+   "domande": [
+    {
+     "d": "Quali sono le due tecniche per ottenere un tessuto a pelo?",
+     "giusta": "Inserimento e taglio di fili supplementari, oppure cardatura o garzatura",
+     "sbagliate": [
+      "Stampa e tintura",
+      "Candeggio e mercerizzazione",
+      "Follatura e sanforizzazione"
+     ],
+     "spiegazione": "Sfilando un filo si distingue il metodo."
+    },
+    {
+     "d": "Che cosa distingue il velluto riccio?",
+     "giusta": "Piccoli anelli non tagliati sulla superficie",
+     "sbagliate": [
+      "Un pelo uniforme tagliato",
+      "Rilievi longitudinali",
+      "Disegni impressi a caldo"
+     ],
+     "spiegazione": "Nel rasato unito gli anelli sono tagliati."
+    },
+    {
+     "d": "Come appare un velluto con il pelo orientato verso l'alto?",
+     "giusta": "Più scuro e lucido, adatto a capi eleganti",
+     "sbagliate": [
+      "Più chiaro e opaco",
+      "Senza pelo",
+      "Trasparente"
+     ],
+     "spiegazione": "Verso il basso risulta più chiaro e opaco, ideale per abiti sportivi."
+    },
+    {
+     "d": "Che cos'è il mollettone?",
+     "giusta": "Un fustagno con pelo su entrambi i lati",
+     "sbagliate": [
+      "Un velluto operato",
+      "Un tessuto elasticizzato",
+      "Un tessuto di seta leggero"
+     ],
+     "spiegazione": "Il fustagno classico ha il pelo solo sul rovescio."
+    },
+    {
+     "d": "Quale tessuto è un panno tirolese di lana reso impermeabile con follatura e garzatura?",
+     "giusta": "Il loden",
+     "sbagliate": [
+      "Il casentino",
+      "Il velour",
+      "Il muflone"
+     ],
+     "spiegazione": "Il colore classico è verde foresta o grigio."
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "titolo": "Tessuti a coste, operati e jacquard",
+   "domande": [
+    {
+     "d": "Come possono essere le coste dei tessuti a coste?",
+     "giusta": "In diagonale, in trama o in ordito",
+     "sbagliate": [
+      "Solo verticali",
+      "Solo orizzontali",
+      "Solo oblique a 90°"
+     ],
+     "spiegazione": "Le diagonali si ottengono con armature saia."
+    },
+    {
+     "d": "Che tessuto è il denim?",
+     "giusta": "Un cotone con ordito blu indaco e trama bianca, con struttura diagonale",
+     "sbagliate": [
+      "Un tessuto di lana leggero",
+      "Una rete",
+      "Un tessuto di seta"
+     ],
+     "spiegazione": "Con il denim si confezionano i jeans."
+    },
+    {
+     "d": "Per quale capo è classico il popeline?",
+     "giusta": "Per la camiceria maschile",
+     "sbagliate": [
+      "Per i nastri",
+      "Per i cappotti",
+      "Per i tappeti"
+     ],
+     "spiegazione": "Ha coste orizzontali finissime."
+    },
+    {
+     "d": "Come si distinguono operati e jacquard?",
+     "giusta": "Operati hanno motivo piccolo, jacquard motivo ampio e ornamentale",
+     "sbagliate": [
+      "Operati hanno il pelo, jacquard no",
+      "Sono la stessa cosa",
+      "Jacquard sono sempre a maglia"
+     ],
+     "spiegazione": "Entrambi hanno motivi ottenuti per intreccio."
+    },
+    {
+     "d": "Che cosa caratterizza il damasco?",
+     "giusta": "Un effetto bicolore lucido e opaco ottenuto con l'armatura raso",
+     "sbagliate": [
+      "Un aspetto imbottito",
+      "Un pelo lungo",
+      "Fili tagliati sul rovescio"
+     ],
+     "spiegazione": "Ha un disegno reversibile."
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "titolo": "Leggeri, increspati, rustici ed elasticizzati",
+   "domande": [
+    {
+     "d": "Quale peso hanno i tessuti leggeri?",
+     "giusta": "Meno di 100 g/m²",
+     "sbagliate": [
+      "Più di 300 g/m²",
+      "Esattamente 200 g/m²",
+      "Non hanno un peso"
+     ],
+     "spiegazione": "Presentano diversi gradi di trasparenza."
+    },
+    {
+     "d": "Da che cosa deriva la rigidità dell'organza?",
+     "giusta": "Da un finissaggio speciale",
+     "sbagliate": [
+      "Dal pelo",
+      "Dall'elastan",
+      "Dalla garzatura"
+     ],
+     "spiegazione": "Pesa da 15 a 40 g/m²."
+    },
+    {
+     "d": "Come è il crêpe georgette?",
+     "giusta": "Leggero e trasparente, con mano secca",
+     "sbagliate": [
+      "Pesante e opaco",
+      "Lucido e granuloso",
+      "Di cotone con motivo geometrico"
+     ],
+     "spiegazione": "Il crêpe marocain è più pesante e opaco."
+    },
+    {
+     "d": "Che aspetto ha il tweed?",
+     "giusta": "Ruvido e caldo, con piccoli bottoncini di fibre multicolori",
+     "sbagliate": [
+      "Liscio e lucido",
+      "Trasparente",
+      "Elastico"
+     ],
+     "spiegazione": "È in lana cardata; prende il nome da un fiume scozzese."
+    },
+    {
+     "d": "Che cosa sono i tessuti bielastici?",
+     "giusta": "Tessuti con estensibilità in entrambe le direzioni",
+     "sbagliate": [
+      "Tessuti estensibili in una sola direzione",
+      "Tessuti senza elastan",
+      "Tessuti con pelo"
+     ],
+     "spiegazione": "Gli stretch si estendono solo in una direzione."
+    }
+   ]
+  }
+ ]
+}
