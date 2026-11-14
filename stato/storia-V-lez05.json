@@ -6,7 +6,12 @@
   }
  },
  "manca": "",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "14/11 12:06",
+   "testo": "Voci Kore: una sola richiesta, 54 testi (circa 38.600 caratteri, stima 42-44 min di voce) in voci-storia-V-lez05/scambio/storia-V-lez05/testi_voci.json. Quiz 9 argomenti x 5 domande in quiz.json, da approvare. Intanto monto con segnaposto."
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
@@ -21,5 +26,5 @@
  "materia": "Storia V",
  "lezione": "Lezione 5 · La Rivoluzione russa",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 11:57:23"
+ "aggiornato": "2026-11-14 12:06:30"
 }
