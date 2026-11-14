@@ -1,0 +1,162 @@
+[
+ {
+  "nome": "MAP1",
+  "testo": "La mappa dell'età del benessere. Primo ramo: il capitalismo avanzato e i consumi di massa trasformano la vita quotidiana in Occidente. Secondo ramo: la crescita nasce dal petrolio a basso costo, dalle innovazioni tecnologiche e dagli accordi di Bretton Woods. Terzo ramo: il baby boom e l'aumento delle aspettative di vita. Quarto ramo: il Welfare State, con istruzione e sanità pubblica accessibili. Quinto ramo: le donne entrano nel lavoro qualificato e partecipano di più alla vita politica.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MAP2",
+  "testo": "La mappa della presidenza Kennedy. Primo ramo: la Nuova Frontiera, un programma di progresso economico, scientifico e sociale. Secondo ramo: i diritti civili, contro la segregazione razziale degli afroamericani. Terzo ramo: la politica estera, con il rilancio della sfida al blocco comunista. Quarto ramo: la fine tragica, con l'assassinio a Dallas il ventidue novembre millenovecentosessantatré.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MAP3",
+  "testo": "La mappa della presidenza Johnson. Primo ramo: la Great Society, con riforme contro la povertà e l'ingiustizia razziale. Secondo ramo: il Civil Rights Act del millenovecentosessantaquattro, contro la segregazione. Terzo ramo: il Voting Rights Act del millenovecentosessantacinque, per il diritto di voto degli afroamericani. Quarto ramo: le tensioni nelle città e, nel millenovecentosessantotto, l'assassinio di Martin Luther King.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MAP4",
+  "testo": "La mappa della corsa allo spazio. Primo ramo: Stati Uniti e Unione Sovietica vogliono dimostrare la loro superiorità tecnologica e ideologica. Secondo ramo: nel millenovecentocinquantasette i sovietici lanciano lo Sputnik, il primo satellite artificiale. Terzo ramo: nel millenovecentosessantuno Jurij Gagarin è il primo uomo nello spazio. Quarto ramo: il venti luglio millenovecentosessantanove la missione Apollo undici porta Neil Armstrong sulla Luna.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MAP5",
+  "testo": "La mappa dei punti di attrito della guerra fredda. Primo ramo: il Muro di Berlino, eretto nell'agosto millenovecentosessantuno per fermare la fuga verso l'Occidente. Secondo ramo: la crisi dei missili di Cuba del millenovecentosessantadue, il momento di massima tensione. Terzo ramo: la guerra del Vietnam, che provoca una fortissima opposizione nell'opinione pubblica mondiale.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MAP6",
+  "testo": "La mappa del blocco sovietico. Primo ramo: Chruščëv avvia la destalinizzazione, ma controlla con rigore il blocco orientale. Secondo ramo: con Brežnev si torna a un rigido centralismo. Terzo ramo: nel millenovecentosessantotto la Primavera di Praga cerca un socialismo dal volto umano. Quarto ramo: l'intervento armato del Patto di Varsavia la reprime duramente.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MAP7",
+  "testo": "La mappa del Sessantotto. Primo ramo: studenti e intellettuali contestano il capitalismo, la scuola autoritaria e la guerra del Vietnam. Secondo ramo: nasce il movimento hippy, che rifiuta il materialismo. Terzo ramo: il femminismo lotta per la parità, la contraccezione e l'aborto legale. Quarto ramo: il bilancio. Poche vittorie politiche immediate, ma una profonda trasformazione della cultura e dei costumi.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MAPF1",
+  "testo": "La mappa di tutta la lezione. L'età del benessere, con i consumi, il baby boom e il Welfare State. Kennedy e Johnson, con la Nuova Frontiera, la Great Society e i diritti civili. La corsa allo spazio, dallo Sputnik alla Luna. I punti di attrito della guerra fredda: Berlino, Cuba e il Vietnam. Il blocco sovietico, fino alla Primavera di Praga. Il Sessantotto, la grande protesta globale.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN1",
+  "testo": "Perché l'economia cresce. Le materie prime costano poco, a partire dal petrolio. Le innovazioni tecnologiche trasformano la produzione. Gli accordi di Bretton Woods danno stabilità agli scambi. Nasce un capitalismo avanzato. E i consumi di massa cambiano la vita quotidiana in Occidente.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN2",
+  "testo": "Una società che cambia. È l'epoca del baby boom. Aumentano le aspettative di vita. Con il Welfare State scuola e sanità diventano gratuite o accessibili. Le donne entrano nel lavoro qualificato e partecipano di più alla vita politica.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN3",
+  "testo": "I volti dei diritti civili. Il presidente John Kennedy sostiene la lotta contro la segregazione razziale. Rosa Parks è un simbolo della resistenza alla segregazione. Martin Luther King guida la battaglia per i diritti civili degli afroamericani.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN4",
+  "testo": "Gli anni di Kennedy. Nel millenovecentosessantuno Kennedy diventa presidente e lancia la Nuova Frontiera. Nell'agosto dello stesso anno viene eretto il Muro di Berlino. Nel millenovecentosessantadue scoppia la crisi dei missili di Cuba. Il ventidue novembre millenovecentosessantatré Kennedy viene assassinato a Dallas.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN5",
+  "testo": "Le leggi dei diritti civili. Dopo la morte di Kennedy, Johnson ne prosegue la linea con la Great Society. Nel millenovecentosessantaquattro il Civil Rights Act vieta la segregazione. Nel millenovecentosessantacinque il Voting Rights Act garantisce il voto agli afroamericani. Ma le tensioni crescono, e nel millenovecentosessantotto Martin Luther King viene assassinato.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN6",
+  "testo": "La corsa allo spazio, tappa per tappa. Nel millenovecentocinquantasette i sovietici lanciano lo Sputnik. Nel millenovecentosessantuno Jurij Gagarin vola nello spazio. Kennedy lancia il progetto per arrivare sulla Luna. Il venti luglio millenovecentosessantanove Neil Armstrong cammina sulla Luna.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN7",
+  "testo": "Una gara tra due sistemi. Lo spazio diventa il terreno per dimostrare la superiorità tecnologica e ideologica. All'inizio vincono i sovietici, con il primo satellite e il primo uomo nello spazio. Poi arriva il riscatto americano, con lo sbarco sulla Luna.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN8",
+  "testo": "Perché nasce il Muro di Berlino. Dalla Germania Est moltissime persone fuggono verso l'Occidente. Nell'agosto millenovecentosessantuno la Germania Est costruisce il Muro per fermarle. Berlino resta divisa, simbolo della guerra fredda.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN9",
+  "testo": "Cuba e Vietnam. Nel millenovecentosessantadue l'Unione Sovietica installa missili sull'isola di Cuba. È il momento di massima tensione della guerra fredda. In Vietnam gli Stati Uniti intervengono in modo massiccio contro le forze comuniste del Nord. La guerra provoca una fortissima opposizione nell'opinione pubblica mondiale.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN10",
+  "testo": "La Primavera di Praga. Nel millenovecentosessantotto la Cecoslovacchia vuole riformare il sistema. Cerca un socialismo dal volto umano. Interviene l'esercito del Patto di Varsavia. Le riforme vengono represse duramente: è la dottrina Brežnev.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN11",
+  "testo": "Le anime del Sessantotto. Gli studenti contestano il capitalismo e l'autoritarismo della scuola. Si protesta in tutto il mondo contro la guerra del Vietnam. Il movimento hippy rifiuta il materialismo e sperimenta nuovi modelli di vita. Il femminismo lotta per la parità, la contraccezione e la legalizzazione dell'aborto.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN12",
+  "testo": "Il bilancio del Sessantotto. Il Sessantotto è una protesta che attraversa tutto il mondo. Sul piano politico ottiene poche vittorie immediate. Ma trasforma radicalmente la cultura. E cambia i costumi e la morale delle società occidentali.",
+  "lingua": "it"
+ },
+ {
+  "nome": "GL1",
+  "testo": "Le parole chiave della lezione. Baby boom: il forte aumento delle nascite. Welfare State: lo Stato che garantisce a tutti servizi come scuola e sanità. Nuova Frontiera: il programma politico di Kennedy. Great Society: le riforme di Johnson contro povertà e ingiustizia. Destalinizzazione: il distacco dall'epoca di Stalin, avviato da Chruščëv. Dottrina Brežnev: il controllo rigido e repressivo sul blocco sovietico.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R1",
+  "testo": "Ripassiamo. Negli anni Sessanta l'Occidente vive l'età del benessere, con i consumi di massa e il baby boom. Il Welfare State garantisce scuola e sanità, e le donne entrano nel lavoro qualificato.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R2",
+  "testo": "Ripassiamo. Kennedy lancia la Nuova Frontiera e sostiene i diritti civili. Rilancia la sfida al blocco comunista, ma viene assassinato a Dallas nel millenovecentosessantatré.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R3",
+  "testo": "Ripassiamo. Johnson prosegue con la Great Society. Il Civil Rights Act e il Voting Rights Act combattono la segregazione, ma nel millenovecentosessantotto viene ucciso Martin Luther King.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R4",
+  "testo": "Ripassiamo. Nella corsa allo spazio i sovietici arrivano primi con lo Sputnik e con Gagarin. Gli Stati Uniti rispondono portando Armstrong sulla Luna nel millenovecentosessantanove.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R5",
+  "testo": "Ripassiamo. Nel millenovecentosessantuno viene eretto il Muro di Berlino e nel millenovecentosessantadue scoppia la crisi dei missili di Cuba. La guerra del Vietnam provoca una fortissima opposizione in tutto il mondo.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R6",
+  "testo": "Ripassiamo. Chruščëv avvia la destalinizzazione, Brežnev torna al centralismo. Nel millenovecentosessantotto la Primavera di Praga viene repressa dal Patto di Varsavia.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R7",
+  "testo": "Ripassiamo. Nel Sessantotto studenti, hippy e femministe contestano la società. Ottengono poco sul piano politico, ma cambiano profondamente la cultura e i costumi.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RF1",
+  "testo": "Ripasso finale. Gli anni Sessanta sono anni di benessere, di diritti civili e di conquiste spaziali. Ma sono anche anni di crisi della guerra fredda, di repressione nel blocco sovietico e di grande contestazione.",
+  "lingua": "it"
+ },
+ {
+  "nome": "FIN1",
+  "testo": "Per oggi è tutto. Abbiamo attraversato gli anni Sessanta, tra crisi e progressi. Ora mettiti alla prova con la verifica finale e con i compiti. Ti aspetto.",
+  "lingua": "it"
+ },
+ {
+  "nome": "BENV1",
+  "testo": "Benvenuta e benvenuto alla lezione di Storia. Oggi il professor Mazzotti ci accompagna negli anni Sessanta, tra crisi e progressi. Alla fine di ogni argomento ti aspetta un breve quiz.",
+  "lingua": "it"
+ },
+ {
+  "nome": "COMPI",
+  "testo": "Ora tocca a te: ecco i compiti.",
+  "lingua": "it"
+ }
+]
