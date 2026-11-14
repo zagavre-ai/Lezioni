@@ -6,16 +6,25 @@
   }
  },
  "manca": "",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "14/11 22:14",
+   "testo": "Voci Kore: scambio/afm-inglese-triennio-lez04/testi_voci.json (43 voci, nomi E4_*, lingua en). Quiz da approvare: scambio/afm-inglese-triennio-lez04/quiz.json"
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
    "quando": "14/11 22:01",
    "testo": "Inglese AFM · chat E1: presa in carico lezione 4"
+  },
+  {
+   "quando": "14/11 22:14",
+   "testo": "Testi voci (43) e quiz (25 domande) pubblicati sul ramo voci-afm-inglese-triennio-lez04: la master puo' generare le voci. Intanto monto con segnaposto."
   }
  ],
  "materia": "Inglese AFM",
  "lezione": "Lezione 4",
  "docente": "Prof.ssa Maria Vittoria Fontanesi",
- "aggiornato": "2026-11-14 22:01:15"
+ "aggiornato": "2026-11-14 22:14:14"
 }
