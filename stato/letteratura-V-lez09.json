@@ -623,7 +623,9 @@
   }
  },
  "manca": "",
- "serve_master": [],
+ "serve_master": [
+  "R3: servono le voci Kore nuove (nomi P1_*/P2_*) dal ramo voci-letteratura-V-lez09, file testi_voci.json, vedi R3_NUOVE_VOCI.txt. Senza le voci le Parti non possono essere PRONTE (durate solo stimate)."
+ ],
  "domande_sara": [],
  "note": [
   {
