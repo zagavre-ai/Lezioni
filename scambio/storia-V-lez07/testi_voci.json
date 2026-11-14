@@ -1,0 +1,107 @@
+[
+ {
+  "nome": "R1",
+  "testo": "Ripassiamo. Dopo la Grande Guerra gli Stati Uniti sono la prima potenza mondiale e il reddito nazionale aumenta di oltre il cinquanta per cento in dieci anni. Il sistema fordista abbatte i costi e diffonde automobili ed elettrodomestici, acquistati con le vendite a rate. New York, Chicago e Detroit crescono e vedono nascere i primi grattacieli. Il jazz, la radio e il cinema muto creano un immaginario condiviso e il mito del sogno americano; scrittori come Hemingway, Fitzgerald e Steinbeck denunciano però un profondo vuoto morale.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN1",
+  "testo": "Il boom economico. Gli Stati Uniti escono dalla Grande Guerra come prima potenza mondiale. Non hanno subito le distruzioni territoriali patite dall'Europa. Il reddito nazionale aumenta di oltre il cinquanta per cento in soli dieci anni. Il sistema fordista abbatte i costi di produzione e riduce i prezzi. Si diffondono automobili ed elettrodomestici, acquistati con le vendite a rate.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN2",
+  "testo": "Città e cultura di massa. New York, Chicago e Detroit registrano un massiccio afflusso di popolazione. Nascono i primi grattacieli, sede dei grandi gruppi industriali e finanziari. Il jazz diventa il simbolo della nuova energia sociale. Radio, grammofono e cinema muto di Hollywood creano un immaginario condiviso. Si diffonde il mito del sogno americano. Ma Hemingway, Fitzgerald e Steinbeck denunciano un profondo vuoto morale.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R2",
+  "testo": "Ripassiamo. Nel millenovecentoventi le donne ottengono il suffragio universale negli Stati Uniti, dopo i sacrifici della guerra. Le flapper rifiutano i ruoli tradizionali: sono giovani indipendenti, audaci e disinibite. La moda cambia: capelli corti a caschetto, trucco marcato e gonne sopra il ginocchio. Le donne frequentano da sole i locali, fumano, bevono e guidano l'automobile; nelle sale da ballo esplode il charleston, sulle note del jazz.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN3",
+  "testo": "Le donne negli anni Venti. Durante la Prima guerra mondiale molte donne avevano sostituito gli uomini al fronte. Lavoravano come operaie o impiegate. Nel millenovecentoventi ottengono il suffragio universale. Le flapper rifiutano i ruoli tradizionali di cura della casa e della famiglia. Sono giovani indipendenti, audaci e disinibite.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN4",
+  "testo": "Una rivoluzione della moda. Le donne abbandonano i vecchi abiti restrittivi e i capelli lunghi. Adottano tagli corti a caschetto, trucco marcato e gonne sopra il ginocchio. Frequentano da sole i locali pubblici. Fumano, bevono alcolici e guidano l'automobile. Nelle sale da ballo esplode il charleston, sulle note del jazz.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R3",
+  "testo": "Ripassiamo. Con i presidenti repubblicani Harding e Coolidge gli Stati Uniti scelgono l'isolazionismo e il liberismo: dazi protezionistici e meno tasse sui grandi patrimoni. Tra il millenovecentoventuno e il millenovecentotrentaquattro leggi severe limitano l'immigrazione, soprattutto dall'Europa meridionale e orientale. Rinasce il Ku Klux Klan e si diffonde la paura rossa. L'esempio più drammatico è il caso di Sacco e Vanzetti, condannati a morte nel millenovecentoventisette. Il proibizionismo, introdotto nel millenovecentodiciannove, favorisce il mercato nero e boss come Al Capone.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN5",
+  "testo": "Isolazionismo e liberismo. Con i presidenti repubblicani Harding e Coolidge gli Stati Uniti non si coinvolgono nelle vicende politiche europee. Applicano tariffe doganali protezionistiche e riducono le imposte sui grandi patrimoni. Tra il millenovecentoventuno e il millenovecentotrentaquattro vengono varate leggi anti-immigrazione. Colpiscono soprattutto italiani, spagnoli, slavi e greci. Sono visti come una minaccia per la presunta identità etnica americana.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN6",
+  "testo": "Razzismo e proibizionismo. Nel Sud rinasce il Ku Klux Klan contro gli afroamericani e le minoranze religiose. Si diffonde la paura rossa: il terrore di spie comuniste o anarchiche. Nel millenovecentoventisette gli anarchici italiani Sacco e Vanzetti sono condannati a morte. Nel millenovecentodiciannove una riforma della Costituzione vieta la produzione e il consumo di alcol. Il proibizionismo fallisce e favorisce un immenso mercato nero. Lo controllano organizzazioni mafiose guidate da boss come Al Capone.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R4",
+  "testo": "Ripassiamo. Dietro il boom restano squilibri: operai con salari bassi e crisi agricola. A metà del decennio c'è sovrapproduzione: l'offerta supera la domanda e le scorte restano invendute. Molti risparmiatori comprano azioni a credito e il valore dei titoli sale in modo fittizio. Nell'ottobre del millenovecentoventinove il panico travolge Wall Street, con il Giovedì e il Martedì nero. Falliscono migliaia di banche e i disoccupati salgono a quattordici milioni. Hoover taglia la spesa pubblica e la crisi si estende all'Europa, in particolare alla Germania.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN7",
+  "testo": "Le fragilità del boom. Gli operai guadagnano il minimo indispensabile per sopravvivere. Il mondo rurale affronta una grave crisi agricola. A metà del decennio c'è sovrapproduzione industriale. L'offerta supera la domanda e si accumulano scorte invendute. Molti risparmiatori comprano azioni a credito. Il valore dei titoli sale in modo fittizio.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN8",
+  "testo": "Il crollo del millenovecentoventinove. Nell'ottobre il panico travolge Wall Street, con il Giovedì e il Martedì nero. Milioni di azioni vengono svendute di colpo. Il credito si blocca e falliscono migliaia di banche. I disoccupati salgono a quattordici milioni. In Midwest la siccità distrugge i raccolti e oltre cinquecentomila contadini fuggono verso l'Ovest. Il presidente Hoover taglia la spesa pubblica e la crisi arriva in Europa.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R5",
+  "testo": "Ripassiamo. Nel millenovecentotrentadue vince Franklin Delano Roosevelt, che lancia il New Deal, il Nuovo Corso. Seguendo le idee di Keynes, lo Stato interviene con una forte spesa pubblica per rilanciare la domanda. Finanzia grandi lavori pubblici, rafforza la Federal Reserve, regola la Borsa e svaluta il dollaro del quaranta per cento. L'Agricultural Adjustment Act e il National Industrial Recovery Act riformano agricoltura e industria. Nel millenovecentotrentacinque il Social Security Act dà vita allo Stato sociale. Roosevelt parla ai cittadini con le chiacchiere al caminetto; il New Deal riforma il capitalismo, ma la piena ripresa arriva solo con la Seconda guerra mondiale.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN9",
+  "testo": "L'elezione di Roosevelt. Nel millenovecentotrentadue vince il democratico Franklin Delano Roosevelt. Propone un radicale cambio di rotta chiamato New Deal, il Nuovo Corso. Applica le idee dell'economista John Maynard Keynes. Lo Stato deve intervenire con una forte spesa pubblica per rilanciare la domanda. Finanzia strade, ponti, dighe, centrali idroelettriche e scuole.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN10",
+  "testo": "Riforme e Stato sociale. Viene rafforzata la Federal Reserve e regolamentata la Borsa. Il dollaro è svalutato del quaranta per cento. L'Agricultural Adjustment Act limita la sovrapproduzione agricola con sussidi ai contadini. Il National Industrial Recovery Act garantisce salari minimi e orari regolati. Nel millenovecentotrentacinque il Social Security Act introduce pensioni e sussidi di disoccupazione. Con le chiacchiere al caminetto Roosevelt parla ai cittadini alla radio.",
+  "lingua": "it"
+ },
+ {
+  "nome": "TIME1",
+  "testo": "Cronologia. Nel millenovecentodiciannove una riforma della Costituzione introduce il proibizionismo. Nel millenovecentoventi le donne ottengono il suffragio universale. Tra il millenovecentoventuno e il millenovecentotrentaquattro gli Stati Uniti varano le leggi anti-immigrazione. Nel millenovecentoventisette Sacco e Vanzetti sono condannati a morte. Nell'ottobre del millenovecentoventinove crolla la Borsa di Wall Street.",
+  "lingua": "it"
+ },
+ {
+  "nome": "TIME2",
+  "testo": "Cronologia del New Deal. Nel millenovecentotrentadue Roosevelt è eletto presidente. Parte il New Deal, con i grandi lavori pubblici, la regolazione della Borsa e la svalutazione del dollaro. Nel millenovecentotrentacinque viene approvato il Social Security Act. Nel millenovecentotrentasei i disoccupati sono ancora nove milioni. La vera ripresa arriva solo con la Seconda guerra mondiale.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PERS1",
+  "testo": "I protagonisti. Henry Ford introduce il sistema fordista della catena di montaggio. Ernest Hemingway, Francis Scott Fitzgerald e John Steinbeck criticano il vuoto morale della società. Nicola Sacco e Bartolomeo Vanzetti sono gli anarchici italiani condannati a morte nel millenovecentoventisette. Al Capone è il boss del mercato nero dell'alcol. Herbert Hoover, presidente repubblicano, taglia la spesa pubblica durante la crisi. Franklin Delano Roosevelt lancia il New Deal, ispirato alle teorie di John Maynard Keynes.",
+  "lingua": "it"
+ },
+ {
+  "nome": "GL1",
+  "testo": "Le parole chiave della lezione. Fordismo: il sistema della catena di montaggio che abbatte i costi di produzione. Flapper: le giovani donne indipendenti e anticonformiste degli anni Venti. Isolazionismo: la scelta di non farsi coinvolgere nelle vicende politiche europee. Proibizionismo: il divieto di produrre e consumare alcol. Sovrapproduzione: l'offerta che supera la domanda. Giovedì e Martedì nero: il panico che travolge Wall Street nel millenovecentoventinove. New Deal: il Nuovo Corso di Roosevelt. Keynes: l'economista secondo cui lo Stato deve sostenere la domanda con la spesa pubblica. Welfare: il sistema previdenziale nazionale con pensioni e sussidi.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RF1",
+  "testo": "Ripasso finale. Negli anni Venti gli Stati Uniti vivono un boom economico, con il fordismo, il jazz e il sogno americano. Le donne ottengono il voto e le flapper cambiano la moda e i costumi. L'isolazionismo si accompagna a xenofobia, razzismo e proibizionismo. Il crollo della Borsa del millenovecentoventinove apre la Grande Depressione, con milioni di disoccupati. Roosevelt risponde con il New Deal: spesa pubblica, riforme e Stato sociale.",
+  "lingua": "it"
+ },
+ {
+  "nome": "FIN1",
+  "testo": "Per oggi è tutto. Con la Grande Depressione si incrina l'equilibrio mondiale: nelle prossime lezioni vedremo come la crisi economica favorisce l'ascesa dei regimi totalitari. Ti aspetto.",
+  "lingua": "it"
+ }
+]
