@@ -13,7 +13,7 @@
    "durata": "50:38.6",
    "fotogrammi": 91158,
    "fotogrammi_attesi": 91158,
-   "peso_MB": 272.5,
+   "peso_MB": 272.6,
    "vtt": "Storia_Lez14_Parte1.vtt",
    "scheda": {
     "materia": "Storia",
@@ -257,7 +257,7 @@
    "durata": "50:05.9",
    "fotogrammi": 90176,
    "fotogrammi_attesi": 90176,
-   "peso_MB": 279.8,
+   "peso_MB": 279.7,
    "vtt": "Storia_Lez14_Parte2.vtt",
    "scheda": {
     "materia": "Storia",
@@ -571,10 +571,14 @@
   {
    "quando": "14/11 14:45",
    "testo": "CONSEGNATA sul ramo consegna-storia-V-lez14 (14/11, chat S4). P1 50:38,6 (t_verifica 3020,100 · t_compiti 3033,600); P2 50:05,9 (t_verifica 2987,367 · t_compiti 3000,867). Test = Excel del docente. Sottotitoli: il controllo automatico «attacco entro 0,3 s» segna 54% su 13 blocchi, ma i casi segnalati sono code della frase precedente prima della pausa (misurato: scarto mediano 0,01 s su 212 blocchi dopo pausa); sub_ok dato dopo questa verifica."
+  },
+  {
+   "quando": "14/11 15:02",
+   "testo": "rev. 2 (14/11 sera): corrette le etichette sovrapposte al testo negli approfondimenti AN5 e AN14 (ricodificati solo i GOP coinvolti, stessa durata e stessi fotogrammi, quiz ricontrollati a 0,0 s). Ramo consegna aggiornato."
   }
  ],
  "materia": "Storia V",
  "lezione": "Lezione 14 · La guerra fredda (1945-1961)",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 14:45:10"
+ "aggiornato": "2026-11-14 15:02:08"
 }
