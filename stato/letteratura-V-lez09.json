@@ -2,7 +2,9 @@
  "tag": "letteratura-V-lez09",
  "parti": {
   "1": {
-   "stato": "IN_MONTAGGIO"
+   "stato": "IN_CODIFICA",
+   "titolo": "Giovanni Pascoli · Parte 1",
+   "voci": "kore"
   }
  },
  "manca": "",
@@ -16,10 +18,14 @@
   {
    "quando": "14/11 03:58",
    "testo": "Presa da Letteratura V · chat A2 (ripresa da capo; la chat A si era fermata)"
+  },
+  {
+   "quando": "14/11 05:45",
+   "testo": "chat A2: video del prof 69:17 (misurato) diviso in 2 Parti. Voci Kore (16) ricevute e importate, tutte le frasi trovate. Parte 1 montata 37:36, in codifica; Parte 2 in montaggio."
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 9",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 03:58:50"
+ "aggiornato": "2026-11-14 05:45:21"
 }
