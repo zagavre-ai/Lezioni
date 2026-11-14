@@ -2,7 +2,8 @@
  "tag": "moda-tecnologie-III-lez07",
  "parti": {
   "1": {
-   "stato": "IN_MONTAGGIO"
+   "stato": "IN_MONTAGGIO",
+   "voci": "segnaposto"
   }
  },
  "manca": "COMPITI_MANCANTI",
@@ -13,8 +14,13 @@
   }
  ],
  "domande_sara": [],
- "note": [],
+ "note": [
+  {
+   "quando": "14/11 22:29",
+   "testo": "Fatto: trascrizione, 9 argomenti, quiz 45 domande, 29 testi voci inviati. Docente 68 min: 2 Parti da imbottire con approfondimenti (circa 33+35 min di docente). Resto del montaggio da fare. Ramo lavoro-moda-tecnologie-III-lez07."
+  }
+ ],
  "materia": "Moda · Tecnologie III · chat TEC",
  "lezione": "Lezione 7",
- "aggiornato": "2026-11-14 22:19:01"
+ "aggiornato": "2026-11-14 22:29:07"
 }
