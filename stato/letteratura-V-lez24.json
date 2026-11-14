@@ -251,7 +251,12 @@
   }
  },
  "manca": "",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "14/11 07:55",
+   "testo": "MIGLIORAMENTO (chat E2): con il video finale a 1080p (§10 del 13/11) kit/tools/controllo_finale.py segna sempre «risoluzione NO» perché controlla 2560x1440; ho usato una copia locale con (1920,1080). Anche kit/tools/finale_a_pezzi.py su main è ancora a 1440p fast CRF 20: ho usato scale=1920:1080, veryfast, CRF 19. Conviene aggiornarli su main."
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
@@ -282,5 +287,5 @@
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 24",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 07:54:58"
+ "aggiornato": "2026-11-14 07:55:55"
 }
