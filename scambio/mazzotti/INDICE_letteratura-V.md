@@ -3,6 +3,7 @@
 File singoli, non zip di Drive: si scarica solo quello che serve con `gh release download mazzotti-letteratura-V -p "<nome>"`.
 
 - **Lezioni 1, 2, 3: già PRONTE**, da non rifare.
+- **Compiti del prof (lezioni 1–26):** zip `LETTERATURA.ITALIANA.V.-20261114T221058Z-1-001.zip`, file «LEZIONE N.pdf».
 - **Lezione 16: video caricato da Sara il 14/11** (`Letteratura_Lez16.mp4`, 584 MB). La fa la chat R5 (rifacimento del 14/11).
 - **Videodispense (pptx) presenti solo per le lezioni 3–16.** Per le lezioni 17–26 si usano le slide del video e le pagine del libro.
 - **Pagine del libro ad alta risoluzione** (`LezNN_ingrandita.zip`) solo per le lezioni 1–5.
