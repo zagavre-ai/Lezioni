@@ -5,11 +5,16 @@
    "stato": "IN_MONTAGGIO"
   }
  },
- "manca": "",
- "serve_master": [],
+ "manca": "COMPITI_MANCANTI",
+ "serve_master": [
+  {
+   "quando": "14/11 22:10",
+   "testo": "Voci Kore: testi_voci.json (20 voci, nomi L6_*) e quiz.json sul ramo voci-moda-tecnologie-III-lez06. Compiti: nella release non c'e' il file Compiti -> COMPITI_MANCANTI. Nota: Whisper non scaricabile (HuggingFace bloccato), trascrizione fatta con Gemini; sottotitoli da controllare."
+  }
+ ],
  "domande_sara": [],
  "note": [],
  "materia": "Moda · Tecnologie III · chat TEC",
  "lezione": "Lezione 6",
- "aggiornato": "2026-11-14 22:03:55"
+ "aggiornato": "2026-11-14 22:10:45"
 }
