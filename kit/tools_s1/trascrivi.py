@@ -1,31 +1,44 @@
 #!/usr/bin/env python3
-"""Trascrizione con timestamp (modello transcribe via proxy). Uso: trascrivi.py video.mp4 out.json [chunk_s=150]"""
-import sys,os,json,subprocess,base64,time,concurrent.futures as cf,urllib.request,re
-V,OUT=sys.argv[1],sys.argv[2];CH=int(sys.argv[3]) if len(sys.argv)>3 else 150
-MODEL=os.environ.get('TRMODEL','gemini-3.5-transcribe')
-d=float(subprocess.check_output(['ffprobe','-v','error','-show_entries','format=duration','-of','csv=p=0',V]))
-tmp=OUT+'_chunks';os.makedirs(tmp,exist_ok=True)
-PROMPT=("Trascrivi in italiano, parola per parola, questo audio di una lezione di storia. Restituisci SOLO JSON: lista di segmenti "
- "[{\"s\":inizio_in_secondi,\"e\":fine_in_secondi,\"t\":\"frase\"}] con tempi relativi all'inizio dell'audio (decimali), frasi di 3-12 secondi. "
- "Non omettere nulla del parlato, non aggiungere nulla. Nomi propri e date scritti correttamente.")
-def one(i):
-    f=f'{tmp}/c{i:03d}.json'
-    if os.path.exists(f):return json.load(open(f))
-    st=i*CH;mp=f'{tmp}/c{i:03d}.mp3'
-    subprocess.run(['ffmpeg','-v','error','-y','-ss',str(st),'-t',str(CH),'-i',V,'-vn','-ac','1','-ar','16000','-b:a','32k',mp],check=True)
-    b=base64.b64encode(open(mp,'rb').read()).decode()
-    body={'contents':[{'parts':[{'text':PROMPT},{'inline_data':{'mime_type':'audio/mp3','data':b}}]}],'generationConfig':{'temperature':0,'responseMimeType':'application/json'}}
-    for k in range(4):
-        try:
-            r=urllib.request.Request(f'https://generativelanguage.googleapis.com/v1beta/models/{MODEL}:generateContent',data=json.dumps(body).encode(),headers={'Content-Type':'application/json','x-goog-api-key':'dummy'})
-            j=json.load(urllib.request.urlopen(r,timeout=300))
-            t=j['candidates'][0]['content']['parts'][0]['text']
-            seg=json.loads(t);seg=[{'s':round(x['s']+st,2),'e':round(x['e']+st,2),'t':x['t']} for x in seg]
-            json.dump(seg,open(f,'w'),ensure_ascii=False);return seg
-        except Exception as ex:
-            print('retry',i,str(ex)[:150],file=sys.stderr);time.sleep(5*(k+1))
-    return []
-n=int(d//CH)+1
-with cf.ThreadPoolExecutor(4) as ex:res=list(ex.map(one,range(n)))
-allseg=[s for r in res for s in r]
-json.dump(allseg,open(OUT,'w'),ensure_ascii=False,indent=0);print(len(allseg),'segmenti',d)
+"""Trascrizione locale (Whisper base int8, sherpa-onnx) con tempi per segmento.
+Uso: trascrivi.py video.mp4 out.json [lingua=it]
+Modello: /tmp/whisper/whisper-base (vedi ramo modelli-whisper-base). Taglia l'audio alle pause (pezzi 4-14 s)."""
+import sys,subprocess,json,numpy as np,sherpa_onnx,time
+V,OUT=sys.argv[1],sys.argv[2];LANG=sys.argv[3] if len(sys.argv)>3 else 'it'
+M='/tmp/whisper/whisper-base/'
+a=np.frombuffer(subprocess.run(['ffmpeg','-v','error','-i',V,'-vn','-ac','1','-ar','16000','-f','s16le','-'],capture_output=True).stdout,dtype=np.int16).astype(np.float32)/32768
+SR=16000;F=320;n=len(a)//F
+e=np.sqrt((a[:n*F].reshape(n,F)**2).mean(1))+1e-9
+db=20*np.log10(e);thr=max(np.percentile(db,15)+6,-52)
+sil=db<thr
+# pause: run di frame silenziosi >= 0.2 s -> punto di taglio al centro
+cuts=[];i=0
+while i<n:
+    if sil[i]:
+        j=i
+        while j<n and sil[j]:j+=1
+        if (j-i)*F/SR>=0.2:cuts.append(((i+j)//2*F/SR,(j-i)*F/SR))
+        i=j
+    else:i+=1
+D=len(a)/SR;bounds=[0.0];MAXL,MINL=14.0,4.0
+for c,l in cuts:
+    pass
+cur=0.0;k=0
+while cur<D-0.01:
+    cand=[(c,l) for c,l in cuts if cur+MINL<=c<=cur+MAXL]
+    if cur+MAXL>=D:nxt=D
+    elif cand:nxt=max(cand,key=lambda x:x[1])[0] if max(x[1] for x in cand)>0.35 else cand[-1][0]
+    else:nxt=cur+MAXL
+    bounds.append(nxt);cur=nxt
+rec=sherpa_onnx.OfflineRecognizer.from_whisper(encoder=M+'base-encoder.int8.onnx',decoder=M+'base-decoder.int8.onnx',tokens=M+'base-tokens.txt',language=LANG,task='transcribe',num_threads=4)
+out=[];t0=time.time();B=8
+segs=list(zip(bounds[:-1],bounds[1:]))
+for b in range(0,len(segs),B):
+    grp=segs[b:b+B];st=[]
+    for s,e_ in grp:
+        s_=rec.create_stream();s_.accept_waveform(SR,a[int(s*SR):int(e_*SR)]);st.append(s_)
+    rec.decode_streams(st)
+    for (s,e_),x in zip(grp,st):
+        t=x.result.text.strip()
+        if t:out.append({'s':round(s,2),'e':round(e_,2),'t':t})
+    print(f'{b}/{len(segs)} {time.time()-t0:.0f}s',flush=True)
+json.dump(out,open(OUT,'w'),ensure_ascii=False,indent=0);print('OK',len(out),'segmenti')
