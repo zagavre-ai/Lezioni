@@ -1,0 +1,26 @@
+{
+ "titolo": "Compiti · Storia V · Lezione 5",
+ "stato": "compiti del prof. Mazzotti (file «LEZIONE 5.pdf», release mazzotti-storia-V, 14/11), testo invariato",
+ "compiti": [
+  {
+   "n": 1,
+   "tipo": "risposta_aperta",
+   "testo": "Quali fattori politici, economici e militari aggravano la crisi della Russia zarista durante la Prima guerra mondiale e portano al crollo del regime nel febbraio del 1917?"
+  },
+  {
+   "n": 2,
+   "tipo": "risposta_aperta",
+   "testo": "Che cosa si intende per dualismo di potere dopo la Rivoluzione di Febbraio e quali sono i punti principali del programma politico presentato da Lenin nelle Tesi di Aprile?"
+  },
+  {
+   "n": 3,
+   "tipo": "risposta_aperta",
+   "testo": "Attraverso quali provvedimenti i bolscevichi consolidano il potere e attuano una svolta autoritaria tra la fine del 1917 e il 1918?"
+  },
+  {
+   "n": 4,
+   "tipo": "risposta_aperta",
+   "testo": "Quali sono le differenze principali tra il Comunismo di guerra e la Nuova Politica Economica (NEP) varata da Lenin nel 1921, e quali conseguenze producono sulle campagne e sull'economia russa?"
+  }
+ ]
+}
