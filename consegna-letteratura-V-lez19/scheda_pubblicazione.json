@@ -1,0 +1,194 @@
+{
+ "materia": "Letteratura italiana (V)",
+ "titolo": "Dal secondo dopoguerra a oggi",
+ "durata_s": 2132.24,
+ "argomenti": [
+  {
+   "n": 1,
+   "titolo": "L'Italia dal dopoguerra a oggi",
+   "inizio_s": 172.248,
+   "quiz_s": 881.081
+  },
+  {
+   "n": 2,
+   "titolo": "Il dibattito culturale e la poesia",
+   "inizio_s": 886.381,
+   "quiz_s": 1411.448
+  },
+  {
+   "n": 3,
+   "titolo": "I maestri della narrativa",
+   "inizio_s": 1416.748,
+   "quiz_s": 2026.449
+  }
+ ],
+ "quiz": {
+  "Q1": {
+   "title": "Quiz 1 · L'Italia dal dopoguerra a oggi",
+   "items": [
+    {
+     "p": "Che cosa sancisce il referendum del 2 giugno 1946?",
+     "a": "La fine della monarchia e l'inizio della democrazia parlamentare",
+     "w": [
+      "L'entrata in vigore della Costituzione",
+      "La nascita della Seconda Repubblica",
+      "L'ingresso dell'Italia nell'integrazione europea"
+     ],
+     "e": "la Costituzione entra in vigore poi nel 1948."
+    },
+    {
+     "p": "Su che cosa si basa la Costituzione del 1948?",
+     "a": "Sulla separazione dei poteri legislativo, esecutivo e giudiziario",
+     "w": [
+      "Sul potere assoluto del presidente del Consiglio",
+      "Sul ritorno della monarchia",
+      "Sull'abolizione dei partiti"
+     ],
+     "e": "è la base della democrazia parlamentare."
+    },
+    {
+     "p": "Che cosa provoca l'inchiesta «Mani pulite» del 1992?",
+     "a": "Il crollo dei partiti tradizionali",
+     "w": [
+      "La nascita della Repubblica",
+      "Il boom economico",
+      "La nascita della scuola media unica"
+     ],
+     "e": "svela una rete di corruzione e di finanziamenti illeciti."
+    },
+    {
+     "p": "Che cosa caratterizza il boom economico del secondo dopoguerra?",
+     "a": "Ricostruzione, crescita industriale e consumismo",
+     "w": [
+      "La crisi del petrolio e le tensioni sociali",
+      "Il debito pubblico e la precarietà del lavoro",
+      "Il ritorno all'agricoltura"
+     ],
+     "e": "con il boom ci sono grandi migrazioni dal Sud verso il Nord."
+    },
+    {
+     "p": "Che cosa nasce nel 1962?",
+     "a": "La scuola media unica",
+     "w": [
+      "La televisione privata",
+      "Il Partito Socialista Italiano",
+      "Internet"
+     ],
+     "e": "poi aumentano gli studenti universitari."
+    }
+   ]
+  },
+  "Q2": {
+   "title": "Quiz 2 · Il dibattito culturale e la poesia",
+   "items": [
+    {
+     "p": "Quali culture si confrontano in Italia nel dopoguerra?",
+     "a": "Marxismo, idealismo e cultura cattolica",
+     "w": [
+      "Solo il pensiero liberale",
+      "Futurismo e Dadaismo",
+      "Romanticismo e Illuminismo"
+     ],
+     "e": "in seguito emergono lo strutturalismo e il postmoderno."
+    },
+    {
+     "p": "Come si diffonde l'italiano standard?",
+     "a": "Soprattutto grazie alla televisione e ai giornali",
+     "w": [
+      "Grazie al ritorno dei dialetti",
+      "Solo grazie ai romanzi storici",
+      "Grazie alle lingue straniere"
+     ],
+     "e": "i dialetti perdono terreno."
+    },
+    {
+     "p": "Che cos'è il Gruppo 63?",
+     "a": "La Neoavanguardia, che rifiuta le forme tradizionali",
+     "w": [
+      "Un partito politico del dopoguerra",
+      "Una casa editrice di Milano",
+      "Una corrente di poesia ermetica"
+     ],
+     "e": "è un movimento di rottura."
+    },
+    {
+     "p": "Su quali temi si concentra Giorgio Caproni nella produzione matura?",
+     "a": "Il viaggio, la morte e il vuoto esistenziale, con forme aspre",
+     "w": [
+      "Le lotte operaie e il sindacato",
+      "La vita dei salotti borghesi",
+      "La natura e il panismo"
+     ],
+     "e": "il suo stile passa da lineare a complesso e aspro."
+    },
+    {
+     "p": "Quale esperienza racconta in versi Alda Merini?",
+     "a": "L'esperienza dolorosa del manicomio",
+     "w": [
+      "La guerra partigiana",
+      "L'emigrazione in America",
+      "La vita in fabbrica"
+     ],
+     "e": "con uno stile limpido, tra misticismo ed erotismo."
+    }
+   ]
+  },
+  "Q3": {
+   "title": "Quiz 3 · I maestri della narrativa",
+   "items": [
+    {
+     "p": "Che cosa indaga Alberto Moravia negli Indifferenti?",
+     "a": "La crisi della borghesia e l'alienazione",
+     "w": [
+      "La vita dei contadini siciliani",
+      "La Resistenza partigiana",
+      "Il mondo dell'aristocrazia"
+     ],
+     "e": "racconta anche l'ingresso nel mondo adulto."
+    },
+    {
+     "p": "Di quale tema parla Elio Vittorini in Conversazione in Sicilia?",
+     "a": "Il «mondo offeso» e la dignità umana",
+     "w": [
+      "Il tramonto dell'aristocrazia siciliana",
+      "La memoria familiare",
+      "La semiologia"
+     ],
+     "e": "Vittorini è una figura centrale dell'impegno culturale."
+    },
+    {
+     "p": "Come racconta la Resistenza Beppe Fenoglio?",
+     "a": "In una dimensione epica ed esistenziale, con una lingua che unisce italiano e inglese",
+     "w": [
+      "Con un tono comico e leggero",
+      "Attraverso le lettere dei soldati",
+      "Con un romanzo storico ambientato nel Medioevo"
+     ],
+     "e": "lo fa nel Partigiano Johnny."
+    },
+    {
+     "p": "Che cosa rappresenta Il Gattopardo di Tomasi di Lampedusa?",
+     "a": "Il tramonto dell'aristocrazia siciliana, con una visione nichilista della storia",
+     "w": [
+      "La nascita della classe operaia",
+      "Il boom economico",
+      "La condizione della donna moderna"
+     ],
+     "e": "è un «caso letterario»."
+    },
+    {
+     "p": "Che cosa unisce Dacia Maraini?",
+     "a": "La ricerca femminista e la denuncia della violenza al romanzo storico",
+     "w": [
+      "La semiologia e la comunicazione di massa",
+      "La poesia ermetica e il teatro",
+      "Il dialetto e la cronaca nera"
+     ],
+     "e": "ne è un esempio La lunga vita di Marianna Ucrìa."
+    }
+   ]
+  }
+ },
+ "t_verifica": 2101.616,
+ "t_compiti": 2125.936
+}
