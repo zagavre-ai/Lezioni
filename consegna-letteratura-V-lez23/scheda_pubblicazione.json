@@ -1,0 +1,253 @@
+{
+ "materia": "Letteratura italiana (V)",
+ "titolo": "Primo Levi · Parte 1",
+ "durata_s": 1443.53,
+ "argomenti": [
+  {
+   "n": 1,
+   "titolo": "La vita e la formazione",
+   "inizio_s": 198.467,
+   "quiz_s": 418.2
+  },
+  {
+   "n": 2,
+   "titolo": "La sopravvivenza nel Lager",
+   "inizio_s": 423.5,
+   "quiz_s": 709.633
+  },
+  {
+   "n": 3,
+   "titolo": "Se questo è un uomo",
+   "inizio_s": 714.933,
+   "quiz_s": 1030.266
+  },
+  {
+   "n": 4,
+   "titolo": "La tregua",
+   "inizio_s": 1035.566,
+   "quiz_s": 1311.632
+  }
+ ],
+ "quiz": {
+  "Q1": {
+   "title": "Quiz 1 · La vita e la formazione",
+   "items": [
+    {
+     "p": "Dove e quando nasce Primo Levi?",
+     "a": "A Torino, nel 1919",
+     "w": [
+      "A Milano, nel 1921",
+      "A Roma, nel 1915",
+      "A Genova, nel 1919"
+     ],
+     "e": "Primo Levi nasce a Torino nel 1919."
+    },
+    {
+     "p": "In che cosa si laurea Primo Levi nel 1941?",
+     "a": "In chimica",
+     "w": [
+      "In lettere",
+      "In medicina",
+      "In giurisprudenza"
+     ],
+     "e": "Si laurea in chimica nel 1941 e sviluppa anche una vasta cultura letteraria."
+    },
+    {
+     "p": "In quali formazioni partigiane entra dopo l'8 settembre 1943?",
+     "a": "Giustizia e Libertà, in Valle d'Aosta",
+     "w": [
+      "Le Brigate Garibaldi, in Piemonte",
+      "Le formazioni monarchiche, in Liguria",
+      "Le Fiamme Verdi, in Lombardia"
+     ],
+     "e": "Dopo l'armistizio entra nelle formazioni di Giustizia e Libertà in Valle d'Aosta."
+    },
+    {
+     "p": "Quando viene catturato dalle milizie fasciste?",
+     "a": "Nel dicembre 1943",
+     "w": [
+      "Nel luglio 1943",
+      "Nel gennaio 1945",
+      "Nel settembre 1941"
+     ],
+     "e": "Nel dicembre 1943 viene catturato dalle milizie fasciste."
+    },
+    {
+     "p": "Perché Levi viene deportato ad Auschwitz?",
+     "a": "In quanto ebreo",
+     "w": [
+      "Perché era un chimico",
+      "Per un reato comune",
+      "Perché era un prigioniero di guerra inglese"
+     ],
+     "e": "In quanto ebreo, viene deportato nel campo di sterminio di Auschwitz."
+    }
+   ]
+  },
+  "Q2": {
+   "title": "Quiz 2 · La sopravvivenza nel Lager",
+   "items": [
+    {
+     "p": "Quale di questi NON è un fattore di salvezza ricordato nella lezione?",
+     "a": "Un trattamento di favore da parte dei nazisti",
+     "w": [
+      "Il fisico giovane",
+      "La forza d'animo",
+      "L'aiuto di pochi amici"
+     ],
+     "e": "Levi sopravvive grazie al fisico giovane, alla forza d'animo, all'aiuto di pochi amici e a fortunate coincidenze."
+    },
+    {
+     "p": "Che cosa gli permettono le competenze di chimico?",
+     "a": "Di lavorare nei laboratori del campo",
+     "w": [
+      "Di fuggire dal campo",
+      "Di diventare un guardiano",
+      "Di essere liberato prima"
+     ],
+     "e": "Lavora nei laboratori del campo ed evita i lavori più massacranti."
+    },
+    {
+     "p": "Da chi viene liberato Levi?",
+     "a": "Dall'esercito sovietico",
+     "w": [
+      "Dall'esercito americano",
+      "Dai partigiani italiani",
+      "Dall'esercito inglese"
+     ],
+     "e": "Viene liberato dall'esercito sovietico."
+    },
+    {
+     "p": "In che giorno avviene la liberazione?",
+     "a": "Il 27 gennaio 1945",
+     "w": [
+      "L'8 settembre 1943",
+      "Il 25 aprile 1945",
+      "Il 2 giugno 1946"
+     ],
+     "e": "La liberazione avviene il 27 gennaio 1945."
+    },
+    {
+     "p": "Che cosa ricorda oggi il 27 gennaio?",
+     "a": "Il Giorno della Memoria",
+     "w": [
+      "La Festa della Liberazione",
+      "La Festa della Repubblica",
+      "La fine della guerra in Europa"
+     ],
+     "e": "Il 27 gennaio è oggi assunto come Giorno della Memoria."
+    }
+   ]
+  },
+  "Q3": {
+   "title": "Quiz 3 · Se questo è un uomo",
+   "items": [
+    {
+     "p": "Quando esce Se questo è un uomo?",
+     "a": "Nel 1947",
+     "w": [
+      "Nel 1963",
+      "Nel 1941",
+      "Nel 1945"
+     ],
+     "e": "Se questo è un uomo è del 1947, scritto subito dopo il ritorno."
+    },
+    {
+     "p": "Da quale esigenza nasce l'opera?",
+     "a": "Un'esigenza morale e civile: far conoscere l'orrore dei campi perché non si ripeta",
+     "w": [
+      "Il desiderio di diventare famoso",
+      "La volontà di scrivere un romanzo d'avventura",
+      "Una richiesta dell'esercito sovietico"
+     ],
+     "e": "Nasce da un'esigenza morale e civile: far conoscere l'orrore dei campi affinché non si ripeta."
+    },
+    {
+     "p": "Chi sono i «sommersi» nel campo?",
+     "a": "La maggioranza dei deboli, che soccombe",
+     "w": [
+      "I più forti, che sopravvivono",
+      "Le guardie del campo",
+      "I prigionieri liberati"
+     ],
+     "e": "I più forti o senza scrupoli si salvano (i salvati), mentre la maggioranza dei deboli soccombe (i sommersi)."
+    },
+    {
+     "p": "Perché i nazisti sfruttano i prigionieri come schiavi?",
+     "a": "Per la scarsità di braccia dovuta alla guerra",
+     "w": [
+      "Per punirli dei loro reati",
+      "Per insegnare loro un mestiere",
+      "Per pagare i debiti di guerra"
+     ],
+     "e": "A causa della scarsità di braccia, i nazisti sfruttano i prigionieri come schiavi."
+    },
+    {
+     "p": "Com'è lo stile di Se questo è un uomo?",
+     "a": "Preciso, sobrio, quasi scientifico, senza emotività né retorica",
+     "w": [
+      "Enfatico e pieno di retorica",
+      "Comico e leggero",
+      "Poetico, in versi rimati"
+     ],
+     "e": "La narrazione è priva di emotività e di retorica: uno stile preciso, sobrio ed essenziale."
+    }
+   ]
+  },
+  "Q4": {
+   "title": "Quiz 4 · La tregua",
+   "items": [
+    {
+     "p": "Quando esce La tregua?",
+     "a": "Nel 1963",
+     "w": [
+      "Nel 1947",
+      "Nel 1945",
+      "Nel 1975"
+     ],
+     "e": "La tregua è del 1963."
+    },
+    {
+     "p": "Che cosa racconta La tregua?",
+     "a": "La liberazione e il lungo ritorno in patria attraverso l'Europa orientale",
+     "w": [
+      "L'infanzia di Levi a Torino",
+      "La vita partigiana in Valle d'Aosta",
+      "Il lavoro nei laboratori del campo"
+     ],
+     "e": "Il libro racconta la liberazione dal campo e la lunga odissea del ritorno."
+    },
+    {
+     "p": "Qual è il tema centrale della Tregua?",
+     "a": "Il viaggio",
+     "w": [
+      "Il lavoro in fabbrica",
+      "La guerra di trincea",
+      "L'amore"
+     ],
+     "e": "Al centro c'è il viaggio, con paesaggi, paesi e figure umane vitali."
+    },
+    {
+     "p": "Che tono assume a tratti il racconto?",
+     "a": "Avventuroso, con un sottile umorismo tipico della tradizione ebraica",
+     "w": [
+      "Tragico e solenne dall'inizio alla fine",
+      "Freddo come un rapporto militare",
+      "Satirico verso i sovietici"
+     ],
+     "e": "A differenza del dramma cupo del Lager, il racconto ha tratti avventurosi e un sottile umorismo."
+    },
+    {
+     "p": "Che cosa rappresenta la «tregua» del titolo?",
+     "a": "Una parentesi di vagabondaggio prima di un futuro segnato dalle ferite del Lager",
+     "w": [
+      "La pace definitiva dopo la guerra",
+      "Un accordo tra eserciti",
+      "Il ritorno al lavoro di chimico"
+     ],
+     "e": "La tregua è una parentesi faticosa prima di un futuro oscuro, dominato da ferite che non si rimargineranno."
+    }
+   ]
+  }
+ }
+}
