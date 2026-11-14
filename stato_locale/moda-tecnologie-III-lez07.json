@@ -1,0 +1,26 @@
+{
+ "tag": "moda-tecnologie-III-lez07",
+ "parti": {
+  "1": {
+   "stato": "IN_MONTAGGIO",
+   "voci": "segnaposto"
+  }
+ },
+ "manca": "COMPITI_MANCANTI",
+ "serve_master": [
+  {
+   "quando": "14/11 22:19",
+   "testo": "Voci Kore: testi_voci.json (29 voci L7_*) e quiz.json sul ramo voci-moda-tecnologie-III-lez07. Il docente dura 68 min: serve dividere in 2 Parti (argomenti 1-5 e 6-9). Compiti: file Compiti assente nella release (COMPITI_MANCANTI)."
+  }
+ ],
+ "domande_sara": [],
+ "note": [
+  {
+   "quando": "14/11 22:29",
+   "testo": "Fatto: trascrizione, 9 argomenti, quiz 45 domande, 29 testi voci inviati. Docente 68 min: 2 Parti da imbottire con approfondimenti (circa 33+35 min di docente). Resto del montaggio da fare. Ramo lavoro-moda-tecnologie-III-lez07."
+  }
+ ],
+ "materia": "Moda · Tecnologie III · chat TEC",
+ "lezione": "Lezione 7",
+ "aggiornato": "2026-11-14 22:29:07"
+}

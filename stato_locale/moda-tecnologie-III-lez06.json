@@ -1,0 +1,26 @@
+{
+ "tag": "moda-tecnologie-III-lez06",
+ "parti": {
+  "1": {
+   "stato": "IN_MONTAGGIO",
+   "voci": "segnaposto"
+  }
+ },
+ "manca": "COMPITI_MANCANTI",
+ "serve_master": [
+  {
+   "quando": "14/11 22:10",
+   "testo": "Voci Kore: testi_voci.json (20 voci, nomi L6_*) e quiz.json sul ramo voci-moda-tecnologie-III-lez06. Compiti: nella release non c'e' il file Compiti -> COMPITI_MANCANTI. Nota: Whisper non scaricabile (HuggingFace bloccato), trascrizione fatta con Gemini; sottotitoli da controllare."
+  }
+ ],
+ "domande_sara": [],
+ "note": [
+  {
+   "quando": "14/11 22:29",
+   "testo": "Fatto: materiali scaricati, trascrizione, struttura in 7 argomenti, quiz (35 domande) e 20 testi voci inviati alla master. Sincronia automatica da rivedere a mano (da circa 2000 s in poi sfasata). Manca: sincronia, slide, mappe, montaggio, voci Kore, dispensa. Lavoro salvato su ramo lavoro-moda-tecnologie-III-lez06."
+  }
+ ],
+ "materia": "Moda · Tecnologie III · chat TEC",
+ "lezione": "Lezione 6",
+ "aggiornato": "2026-11-14 22:29:05"
+}
