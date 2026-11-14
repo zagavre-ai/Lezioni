@@ -2,12 +2,24 @@
  "tag": "letteratura-V-lez07",
  "parti": {
   "1": {
-   "stato": "IN_MONTAGGIO"
+   "stato": "IN_MONTAGGIO",
+   "titolo": "Il romanzo decadente in Europa e in Italia",
+   "voci": "segnaposto"
   }
  },
  "manca": "",
- "serve_master": [],
- "domande_sara": [],
+ "serve_master": [
+  {
+   "quando": "14/11 01:09",
+   "testo": "Lez07: docente misurato 21:19. Con 4 argomenti, 8 animazioni con voce, schemi, glossario e ripasso finale stimo 33-38 min, non 50: oltre servirebbero riempitivi. Procedo così salvo diversa indicazione."
+  }
+ ],
+ "domande_sara": [
+  {
+   "quando": "14/11 01:09",
+   "testo": "Quiz (20) e testi voci (14) della lez07 mandati a Sara in chat D, in attesa di ok"
+  }
+ ],
  "note": [
   {
    "quando": "14/11 00:57",
@@ -17,5 +29,5 @@
  "materia": "Letteratura italiana · V anno",
  "lezione": "Lezione 7",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 00:57:47"
+ "aggiornato": "2026-11-14 01:09:04"
 }
