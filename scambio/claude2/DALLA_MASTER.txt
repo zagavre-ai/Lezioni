@@ -85,3 +85,14 @@ Claude 2 fa queste lezioni, in quest'ordine (quasi tutte già montate: mancano v
  3. moda-economia-III-IV-lez02
  4. storia-III-lez01, lez02, lez03 (materiali e test nelle release; servono agli alunni da lunedì)
 Per ognuna: durata 50-60 min per Parte; MAPPE CONCETTUALI obbligatorie con kit/tools/mappa.py (una per argomento + mappa finale, pagina nella dispensa); bande blu in pausa/verifica/compiti; codifica finale 1080p veryfast CRF 19 sotto 400 MB; consegna sul ramo consegna-<tag>; stato PRONTA. Riga di stato ogni 2 ore in PER_LA_MASTER.txt.
+
+=== 14/11/2026 22:45 (ora italiana) · MASTER 1 · ELENCO COMPLETO DEL LAVORO DI CLAUDE 2 ===
+Le chat che hanno finito NON si cancellano: continuano con altre lezioni (decisione di Sara).
+- chat Inglese lez03 → afm-inglese-triennio-lez04, lez05
+- chat Psicologia → storia-III-lez01, lez02, lez03 (servono da lunedì)
+- chat Moda ideazione lez01 → moda-tecnologie-III-lez06, lez07, lez08
+- chat Moda economia lez01/03 → moda-laboratori-III-IV-lez01, lez02, lez5 (saltare se già PRONTA)
+- chat Cucina → chiudere alb-cucina 1-4, poi alb-cucina-III-IV-lez05
+- chat Alimentazione → chiudere alb-alimentazione 1-3
+- chat Moda economia lez02 → chiudere moda-economia-III-IV-lez02
+Regole per tutte: Parte 50-60 min con approfondimenti animati dal materiale del docente; MAPPE CONCETTUALI obbligatorie (kit/tools/mappa.py: una per argomento + mappa finale + pagine nella dispensa); bande blu in pausa/verifica/compiti; 1080p veryfast CRF 19 < 400 MB; consegna-<tag>; stato PRONTA; download release via API REST; commit senza firma. Storia V e Storia dell'arte V: NON toccarle (le fa la master 1).
