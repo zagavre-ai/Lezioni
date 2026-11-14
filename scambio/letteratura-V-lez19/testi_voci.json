@@ -1,55 +1,77 @@
-{
- "INTRO1": [
-  "Benvenuti alla lezione di Letteratura italiana.",
-  "Oggi attraversiamo l'Italia e la sua letteratura dal secondo dopoguerra ai giorni nostri.",
-  "Il professor Giorgio Mazzotti ci guida attraverso tre argomenti: la storia e la società; il dibattito culturale e la poesia; i maestri della narrativa.",
-  "Dopo ogni argomento trovi un ripasso e un quiz per controllare quello che hai imparato.",
-  "Buon ascolto!"
- ],
- "R1": ["Ripassiamo il primo argomento: l'Italia dal dopoguerra a oggi."],
- "R2": ["Ripassiamo il secondo argomento: il dibattito culturale e la poesia del secondo Novecento."],
- "R3": ["Ripassiamo il terzo argomento: i maestri della narrativa."],
- "S1": [
-  "L'Italia dal dopoguerra a oggi. Ecco i punti da ricordare.",
-  "Il referendum del due giugno millenovecentoquarantasei segna la fine della monarchia. La Costituzione entra in vigore nel millenovecentoquarantotto.",
-  "Fino al millenovecentonovantadue domina la Democrazia Cristiana, con il Partito Comunista e il Partito Socialista. Poi l'inchiesta Mani pulite fa crollare i partiti tradizionali.",
-  "Nella Seconda Repubblica si alternano coalizioni di centrodestra e di centrosinistra.",
-  "Il boom economico porta ricostruzione, industria e consumismo, e grandi migrazioni dal Sud verso le città del Nord.",
-  "Negli anni settanta la crisi del petrolio; poi la globalizzazione, il debito pubblico e la precarietà del lavoro.",
-  "Nascono le televisioni private e poi internet; nel millenovecentosessantadue nasce la scuola media unica."
- ],
- "S2": [
-  "Il dibattito culturale e la poesia. Ecco i punti da ricordare.",
-  "Nel dopoguerra si confrontano marxismo, idealismo e cultura cattolica; poi arrivano lo strutturalismo e il postmoderno.",
-  "I dialetti perdono terreno: l'italiano standard si diffonde con la televisione e i giornali.",
-  "La Neoavanguardia, il Gruppo sessantatré, rifiuta le forme tradizionali.",
-  "I poeti vanno oltre l'Ermetismo e si confrontano con la realtà e con la guerra.",
-  "Giorgio Caproni passa da uno stile lineare a forme aspre, sui temi del viaggio, della morte e del vuoto.",
-  "Alda Merini racconta in versi l'esperienza del manicomio. La linea lombarda sceglie una poesia legata alla realtà quotidiana."
- ],
- "S3": [
-  "I maestri della narrativa. Ecco i punti da ricordare.",
-  "Alberto Moravia, con Gli indifferenti, indaga la crisi della borghesia e l'alienazione.",
-  "Elio Vittorini, in Conversazione in Sicilia, racconta il mondo offeso e la dignità umana.",
-  "Alba de Céspedes racconta la condizione della donna moderna e la sua ricerca di autonomia.",
-  "Beppe Fenoglio racconta la Resistenza in una dimensione epica ed esistenziale, nel Partigiano Johnny.",
-  "Tomasi di Lampedusa, con Il Gattopardo, racconta il tramonto dell'aristocrazia siciliana. Natalia Ginzburg ricostruisce la memoria familiare in Lessico famigliare.",
-  "Umberto Eco unisce saggistica e narrativa; Dacia Maraini unisce la ricerca femminista al romanzo storico, nella Lunga vita di Marianna Ucrìa."
- ],
- "GL1": [
-  "Le parole chiave della lezione.",
-  "Boom economico: la crescita industriale e il consumismo del secondo dopoguerra.",
-  "Mani pulite: l'inchiesta del millenovecentonovantadue che fa crollare i partiti tradizionali.",
-  "Neoavanguardia: il Gruppo sessantatré, che rifiuta le forme tradizionali.",
-  "Linea lombarda: una poesia legata alla realtà quotidiana.",
-  "Neorealismo: la letteratura dell'impegno, come Conversazione in Sicilia.",
-  "Le trovi anche nella dispensa."
- ],
- "RF1": [
-  "Ricapitoliamo i tre argomenti della lezione.",
-  "Uno, l'Italia dal dopoguerra a oggi: la Repubblica, il boom economico, Mani pulite e la Seconda Repubblica.",
-  "Due, il dibattito culturale e la poesia: la Neoavanguardia, Caproni, Alda Merini e la linea lombarda.",
-  "Tre, i maestri della narrativa: Moravia, Vittorini, Fenoglio, il Gattopardo, Natalia Ginzburg, Eco e Dacia Maraini."
- ],
- "FIN1": ["Fine della lezione. Grazie per l'attenzione."]
-}
+[
+ {
+  "nome": "AN1a",
+  "testo": "Mettiamo in ordine, con una linea del tempo, il cammino dell'Italia dal dopoguerra a oggi, come l'ha presentato il professore. Il corso di Storia lo approfondisce molto di più: qui ci serve lo sfondo per capire la letteratura.\nIl due giugno 1946: un referendum decreta la nascita della Repubblica italiana e la fine della monarchia. Poi entra in vigore la Costituzione, nel 1948, fondata sulla separazione dei poteri: legislativo, esecutivo e giudiziario.\nComincia così la cosiddetta Prima Repubblica. Il confronto politico è dominato dai grandi partiti di massa: la Democrazia Cristiana, di centro, perno dei governi; il Partito Comunista Italiano all'opposizione; e il Partito Socialista, che fa un po' da interlocutore.\nNel 1992 il sistema crolla. L'inchiesta giudiziaria Mani pulite, detta anche Tangentopoli, porta alla luce una rete di corruzione e di finanziamenti illeciti ai partiti.\nSi apre allora la Seconda Repubblica, con un sistema bipolare: coalizioni di centrodestra e di centrosinistra che si alternano. Nascono nuove forze politiche, come Forza Italia, nel 1994, guidata da Silvio Berlusconi, e la Lega Nord.\nNel ventunesimo secolo arrivano la globalizzazione, le crisi finanziarie e l'emergenza del Covid, con i governi tecnici di Monti e di Draghi. Nel 2022 vince il centrodestra guidato da Giorgia Meloni, prima donna presidente del Consiglio.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN1b",
+  "testo": "Dopo la politica, l'economia e la società. Ancora una linea del tempo, con le tappe che il professore indica come sfondo della letteratura.\nDal 1958 al 1963 c'è il miracolo economico, il boom economico. L'Italia diventa una moderna potenza industriale e introduce la cultura del consumismo. Da grande nazione contadina, l'Italia diventa una grande nazione operaia.\nIl benessere accelera le migrazioni interne: milioni di persone si spostano dalle campagne alle città e dal Meridione al Nord, verso le fabbriche delle metropoli. Il professore ricorda anche i contadini nelle borgate romane, che vedremo con Pasolini.\nAlla fine degli anni Sessanta esplodono le tensioni giovanili: le rivolte studentesche e operaie del Sessantotto e l'autunno caldo del Sessantanove.\nPoi gli anni Settanta, gli anni di piombo: il terrorismo di estrema destra e di estrema sinistra, il terrorismo nero e rosso, le stragi. Si aggiunge la crisi economica provocata dall'aumento del prezzo del petrolio.\nDagli anni Ottanta il paese diventa post-industriale, con la crescita dei servizi; poi digitale. Gli anni Novanta e Duemila portano l'integrazione europea, ma anche l'esplosione del debito pubblico e la precarietà del lavoro.\nLa letteratura riflette tutto questo: ora lo accoglie, ora lo contesta, e rielabora il proprio ruolo civile e le proprie scelte stilistiche.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN1c",
+  "testo": "Ora le parole chiave dei mass media e dell'istruzione, con una definizione per ciascuna.\nTelevisione. La Rai inizia le trasmissioni il tre gennaio 1954. Negli anni Ottanta la Rai perde il monopolio, con la nascita delle televisioni private. La televisione ha un ruolo decisivo nell'unificazione linguistica nazionale: i dialetti perdono terreno a favore dell'italiano standard.\nWeb e social. Internet e i social media rivoluzionano la comunicazione, con instantaneità e, dice il professore, anche processi di omologazione culturale.\nMercato editoriale. Nascono grandi concentrazioni editoriali, grandi case editrici che ne inglobano altre, e cresce la cultura di massa: scuola di massa, editoria di massa, aumento del pubblico dei lettori.\nScuola media unica. Nel 1962 una riforma unifica la scuola media: prima c'erano due percorsi, uno più ricco che portava al liceo e uno per le classi popolari che portava al lavoro. Da quel momento la media è uguale per tutti.\nUniversità. Negli anni successivi aumentano gli studenti universitari e si attuano riforme per collegare gli studi al mondo del lavoro.\nQuattro parole, un'unica idea: la cultura diventa di massa.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN1d",
+  "testo": "Una lezione ponte: così il professore presenta questa lezione. Vediamo che cosa significa, con un confronto tra quattro Italie.\nLa lezione fa da collegamento tra gli autori già studiati, come D'Annunzio, Montale, Pirandello e Svevo, e gli ultimi autori che verranno approfonditi uno per uno nelle lezioni successive. Qui facciamo una veloce carrellata dei più significativi, nella prosa, nella poesia, e anche nel teatro e nel cinema.\nIl quadro è quello di una stagione di radicali trasformazioni storiche, sociali e politiche: dal trauma della Seconda guerra mondiale e dalla nascita della Repubblica, fino alle sfide della globalizzazione.\nIl professore descrive il passaggio in quattro tappe. Prima, una società agricola e tradizionale. Poi, con il boom economico degli anni Sessanta, una grande nazione operaia. Negli anni Ottanta, una società post-industriale, con l'esplosione del terziario e dei servizi. Infine, la realtà digitale che viviamo oggi.\nLa letteratura dialoga con tutto questo: ora lo scontra, ora lo accoglie, e rielabora il proprio ruolo civile e le proprie scelte stilistiche.\nPerciò, prima degli autori, conviene conoscere il contesto.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN1m",
+  "testo": "La mappa concettuale dell'Italia dal dopoguerra a oggi. Al centro, appunto, l'Italia dal dopoguerra a oggi.\nPrimo ramo: la Repubblica. Referendum del 1946, Costituzione del 1948. La parola chiave è democrazia.\nSecondo ramo: la Prima Repubblica. Democrazia Cristiana, Partito Comunista e Partito Socialista, fino a Mani pulite nel 1992. La parola chiave è partiti.\nTerzo ramo: la Seconda Repubblica. Alternanza tra centrodestra e centrosinistra. La parola chiave è bipolarismo.\nQuarto ramo: il boom economico. Industria, consumismo e migrazioni dal Sud al Nord. La parola chiave è trasformazione.\nQuinto ramo: le tensioni. Il Sessantotto, gli anni di piombo e la crisi del petrolio. La parola chiave è crisi.\nSesto ramo: media e istruzione. Televisione, web e scuola media unica. La parola chiave è cultura di massa.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN2a",
+  "testo": "Il dibattito culturale del dopoguerra, in un confronto tra correnti, come lo presenta il professore.\nNel Secondo dopoguerra la cultura italiana è dominata dal confronto tra tre grandi posizioni: il marxismo, cioè le ideologie di sinistra, anche rivoluzionarie; l'idealismo; e la cultura cattolica. In seguito emergono anche lo strutturalismo e il postmoderno.\nC'è poi la questione della lingua. I dialetti perdono terreno a favore dell'italiano standard, che si diffonde soprattutto grazie alla televisione e ai giornali.\nNegli anni Sessanta si sviluppano movimenti di rottura. Il più importante in letteratura è la Neoavanguardia, il cosiddetto Gruppo 63. Il professore ricorda la differenza: le avanguardie storiche sono quelle del primo Novecento, come il futurismo; la Neoavanguardia nasce nel secondo dopoguerra. Il suo obiettivo è superare certi modelli. Accanto a lei c'è il teatro dell'antagonismo.\nChe cosa hanno in comune? Rifiutano le forme tradizionali.\nTieni a mente la formula: dopo il confronto fra le ideologie, la rottura con le forme.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN2b",
+  "testo": "Scheda autore: Giorgio Caproni, secondo il professore.\nPremessa. La poesia del secondo dopoguerra si stacca dalle forme chiuse dell'Ermetismo. Cerca una lirica più comunicativa, più accessibile, ma non meno profonda, che indaga la realtà quotidiana e il vuoto esistenziale.\nCaproni. All'inizio la sua poesia è lineare, semplice. Poi passa a forme metriche più rigorose e complesse. Nelle raccolte Il passaggio d'Enea e Cronistoria intreccia gli orrori della guerra e il dramma della sua vicenda privata.\nNella maturità, con Il seme del piangere e con Il viaggiatore cerimonioso, la sua poesia diventa un artificio ingannevole, capace di svelare il senso ultimo dell'esistenza. Lo stile si fa aspro, duro, anti-musicale.\nI temi sono tre: il viaggio, la fuga e lo smarrimento del soggetto. Il professore aggiunge due parole: morte e vuoto esistenziale.\nCaproni indaga se stesso, ed è molto autobiografico: racconta la crisi del soggetto nella postmodernità.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN2c",
+  "testo": "Scheda autrice: Alda Merini, con le parole chiave che il professore sottolinea.\nLa sua poesia è fondata su un contrasto. Da una parte le pulsioni dei sensi, l'erotismo. Dall'altra una profonda tensione mistico-religiosa. Lo stile è di limpida chiarezza.\nNelle sue opere fondamentali, tra cui La Terra Santa, emerge con insistenza il doloroso ricordo dell'esperienza del manicomio, a causa di problemi psichici. Ma la reclusione non annulla la sua aspirazione a una pienezza di vita, che solo la parola poetica, precisa e razionale, riesce a conquistare e a disciplinare.\nParole chiave: manicomio, misticismo, erotismo, parola poetica.\nUna poesia moderna, che parte da un fondo di esperienza dolorosa e la trasforma in versi.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN2d",
+  "testo": "Ultimo approfondimento sulla poesia: la linea lombarda e le tendenze contemporanee, con un confronto fra voci diverse.\nLa linea lombarda è teorizzata nell'antologia del 1952 da Luciano Anceschi. È una poesia che torna alla realtà di tutti i giorni, descritta con una visione pessimistica e priva di illusioni, ma sorretta da un forte rigore morale. Rifiuta le oscurità ermetiche e sceglie un linguaggio piano, colloquiale, vicino alla prosa.\nIl rappresentante più autorevole è Vittorio Sereni, con raccolte come Diario d'Algeria e Gli strumenti umani. Concepisce la poesia come un confronto diretto con la realtà e con la storia. Interiorizza la precarietà della guerra e della prigionia, e affronta le contraddizioni del neocapitalismo. Accanto a lui, Giovanni Giudici e Giovanni Raboni, con sguardo ironico, denunciano la progressiva omologazione sociale.\nPoi le ultime tendenze. Patrizia Cavalli rifiuta il conformismo e mette al centro il corpo e la vita psichica, con una lingua fluida e apparentemente semplice. Patrizia Valduga, al contrario, sceglie le forme tradizionali, come il sonetto, per un erotismo acceso che si fonde con il motivo funebre e con la riflessione sulla morte.\nDue modi opposti di fare poesia, oggi.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN2m",
+  "testo": "La mappa concettuale del dibattito culturale e della poesia. Al centro: dibattito culturale e poesia.\nPrimo ramo: il dibattito. Marxismo, idealismo e cultura cattolica. La parola chiave è confronto.\nSecondo ramo: la Neoavanguardia. Il Gruppo 63 rifiuta le forme tradizionali. La parola chiave è rottura.\nTerzo ramo: oltre l'Ermetismo. Una lirica più comunicativa, attenta alla realtà. La parola chiave è realtà.\nQuarto ramo: Caproni e Merini. Viaggio e vuoto esistenziale; manicomio e misticismo. La parola chiave è esperienza.\nQuinto ramo: la linea lombarda. Il linguaggio piano di Sereni. La parola chiave è quotidiano.\nSesto ramo: le voci di oggi. Patrizia Cavalli e Patrizia Valduga. La parola chiave è contemporaneità.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN3a",
+  "testo": "Scheda dei maestri della narrativa, prima parte. Tre autori, tre opere.\nAlberto Moravia. Titolo: Gli indifferenti. Il professore lo definisce il massimo esponente di un realismo oggettivo e analitico, quasi da verismo. Indaga la crisi morale e le ipocrisie della classe borghese, con uno stile lucido e distaccato. Mette in evidenza l'alienazione dei personaggi, la freddezza dei sentimenti e l'impossibilità di un rapporto autentico con la realtà.\nElio Vittorini. Titolo: Conversazione in Sicilia. È scrittore e instancabile scopritore di talenti, fondatore di riviste come Il Politecnico e Il Menabò: incarna la letteratura dell'impegno. Nel suo capolavoro trasforma la realtà storica in un clima mitico e simbolico, e introduce il tema del mondo offeso e della difesa della dignità umana contro l'oppressione.\nAlba de Céspedes. Titoli: Dalla parte di lei e Quaderno proibito. Al centro, la condizione della donna nella società moderna. Le sue protagoniste intraprendono percorsi lucidi di revisione della propria esistenza per conquistare l'autonomia, rompendo con i pregiudizi dell'ambiente borghese.\nTre parole: crisi, impegno, autonomia.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN3b",
+  "testo": "Scheda dei maestri della narrativa, seconda parte. Altri tre autori.\nBeppe Fenoglio. Titolo: Il partigiano Johnny. Racconta la Resistenza senza retorica e senza moralismi. Lo scontro bellico diventa un'avventura esistenziale assoluta, in cui l'individuo mette alla prova la propria dignità. Lo stile ha un'immediatezza quasi cinematografica, e la lingua è innovativa: un pastiche tra italiano e inglese, una lingua privata inventata dallo scrittore.\nGiuseppe Tomasi di Lampedusa. Titolo: Il Gattopardo, del 1958. Un clamoroso caso letterario. Ambientato in Sicilia durante il Risorgimento, esprime una visione della storia radicalmente pessimistica e nichilista, che segna una rottura con l'ottimismo progressista del neorealismo. La storia è solo un'apparenza esteriore: dietro ci sono l'immobilità della vita e l'incombere costante della morte.\nNatalia Ginzburg. Titolo: Lessico famigliare. Una scrittura volutamente povera, priva di ascensioni liriche, giocata su un'unica tonalità. Esplora la dimensione quotidiana, domestica e privata degli affetti, e richiama la memoria del passato attraverso il linguaggio familiare e i ricordi d'infanzia.\nTre parole: epica, nichilismo, memoria.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN3c",
+  "testo": "Ultimo approfondimento sulla narrativa: saggistica, romanzo storico e diari, con due autori a confronto.\nUmberto Eco. È romanziere eminente, saggista e docente di semiotica all'Università di Bologna. Applica le teorie strutturaliste all'analisi della comunicazione di massa. Poi esordisce nella narrativa con romanzi storici e filosofici di grande successo. Teorizza l'opera aperta: il lettore è un collaboratore attivo nella costruzione del senso. Mescola narrazione ed erudizione, con ironia. Il suo romanzo più famoso è Il nome della rosa.\nDacia Maraini. La sua produzione è legata all'impegno civile e alle rivendicazioni del movimento femminista degli anni Settanta. In opere come La vacanza, L'età del malessere, Donne in guerra e La lunga vita di Marianna Ucrìa, usa il romanzo storico e strutture narrative di taglio autobiografico. Al centro c'è la denuncia della violenza sulle donne e la ricerca di una piena identità sociale femminile.\nDue strade: Eco e il gioco dei significati, Maraini e l'impegno femminista.\nIl professore ricorda che nelle lezioni successive approfondiremo autore per autore.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN3m",
+  "testo": "La mappa concettuale dei maestri della narrativa. Al centro: i maestri della narrativa.\nPrimo ramo: Moravia, Gli indifferenti. La crisi della borghesia. La parola chiave è alienazione.\nSecondo ramo: Vittorini, Conversazione in Sicilia. Il mondo offeso. La parola chiave è impegno.\nTerzo ramo: Alba de Céspedes. La donna moderna. La parola chiave è autonomia.\nQuarto ramo: Fenoglio e il Gattopardo. La Resistenza epica ed esistenziale; la storia pessimistica. La parola chiave è storia.\nQuinto ramo: Natalia Ginzburg, Lessico famigliare. La memoria della famiglia. La parola chiave è memoria.\nSesto ramo: Eco e Maraini. Il lettore che costruisce il senso, e la denuncia della violenza sulle donne. La parola chiave è identità.",
+  "lingua": "it"
+ },
+ {
+  "nome": "ANF",
+  "testo": "Chiudiamo con la mappa di tutta la lezione, dal secondo dopoguerra a oggi. Al centro: dal secondo dopoguerra a oggi.\nPrimo ramo: lo sfondo storico. Repubblica, boom, anni di piombo e Seconda Repubblica. La parola chiave è trasformazione.\nSecondo ramo: media e scuola. Televisione, web e scuola media unica. La parola chiave è cultura di massa.\nTerzo ramo: il dibattito culturale. Marxismo, idealismo, cultura cattolica e Gruppo 63. La parola chiave è rottura.\nQuarto ramo: la poesia. Caproni, Merini, la linea lombarda e le voci di oggi. La parola chiave è realtà.\nQuinto ramo: la narrativa. Moravia, Vittorini, Fenoglio, il Gattopardo e Ginzburg. La parola chiave è impegno.\nSesto ramo: saggistica e romanzo storico. Eco e Maraini. La parola chiave è identità.\nLa letteratura riflette il mondo in cui vive: per questo, per capire gli autori, bisogna capire il contesto.",
+  "lingua": "it"
+ }
+]
