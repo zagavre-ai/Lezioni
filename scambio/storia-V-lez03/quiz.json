@@ -1,0 +1,607 @@
+{
+ "Q1": {
+  "title": "Quiz 1 · La crisi di fine secolo e la svolta liberale",
+  "items": [
+   {
+    "p": "Quale sconfitta segna nel 1896 la fine delle ambizioni africane di Crispi?",
+    "a": "Adua",
+    "w": [
+     "Dogali",
+     "Caporetto",
+     "Tripoli"
+    ],
+    "e": "La disfatta di Adua provoca anche la caduta del governo Crispi."
+   },
+   {
+    "p": "Che cosa provoca la crisi del pane?",
+    "a": "Un'ondata di proteste popolari in tutta la penisola",
+    "w": [
+     "Un aumento dei salari",
+     "La fine dell'emigrazione",
+     "La guerra di Libia"
+    ],
+    "e": "I cattivi raccolti fanno salire i prezzi dei beni alimentari."
+   },
+   {
+    "p": "Chi fa sparare sulla folla a Milano nel 1898?",
+    "a": "Il generale Bava Beccaris",
+    "w": [
+     "Giovanni Giolitti",
+     "Gaetano Bresci",
+     "Giuseppe Zanardelli"
+    ],
+    "e": "Con i cannoni sulla folla provoca oltre ottanta morti."
+   },
+   {
+    "p": "Chi uccide il re Umberto I nel 1900?",
+    "a": "L'anarchico Gaetano Bresci",
+    "w": [
+     "Il generale Bava Beccaris",
+     "Un soldato austriaco",
+     "Benito Mussolini"
+    ],
+    "e": "Bresci torna dagli Stati Uniti per vendicare i morti di Milano."
+   },
+   {
+    "p": "Quale scelta fa Vittorio Emanuele III?",
+    "a": "Abbandona la linea repressiva e affida il governo a Zanardelli e Giolitti",
+    "w": [
+     "Continua la repressione del padre",
+     "Scioglie per sempre il Parlamento",
+     "Dichiara guerra all'Etiopia"
+    ],
+    "e": "È la svolta liberale."
+   }
+  ]
+ },
+ "Q2": {
+  "title": "Quiz 2 · La nuova linea politica di Giolitti",
+  "items": [
+   {
+    "p": "Quando Giolitti diventa presidente del Consiglio?",
+    "a": "Nel 1903",
+    "w": [
+     "Nel 1896",
+     "Nel 1914",
+     "Nel 1861"
+    ],
+    "e": "Inizia così l'età giolittiana."
+   },
+   {
+    "p": "Su che cosa si basa la strategia di Giolitti nei conflitti sociali?",
+    "a": "Sulla neutralità dello Stato",
+    "w": [
+     "Sulla repressione con l'esercito",
+     "Sul sostegno ai soli padroni",
+     "Sulla chiusura dei sindacati"
+    ],
+    "e": "Lo Stato fa da mediatore e la polizia sorveglia senza reprimere."
+   },
+   {
+    "p": "Perché Giolitti rifiuta di usare la forza contro gli scioperi?",
+    "a": "Pensa che la repressione inasprisca i conflitti",
+    "w": [
+     "Perché non ha una polizia",
+     "Perché è un rivoluzionario",
+     "Perché glielo vieta il papa"
+    ],
+    "e": "Secondo Giolitti le riforme attenuano i conflitti."
+   },
+   {
+    "p": "Quale organizzazione nazionale dei lavoratori nasce nel 1906?",
+    "a": "La Confederazione generale del lavoro",
+    "w": [
+     "Il Partito popolare",
+     "L'Unione elettorale cattolica",
+     "La Federterra"
+    ],
+    "e": "Prima erano nate le Camere del lavoro locali e la Federterra."
+   },
+   {
+    "p": "Qual è l'obiettivo strategico di Giolitti?",
+    "a": "Modernizzare il Paese ascoltando le masse popolari",
+    "w": [
+     "Riportare l'Italia alla monarchia assoluta",
+     "Conquistare l'Etiopia",
+     "Abolire i partiti"
+    ],
+    "e": "Il ministero vuole assecondare le richieste economiche delle masse."
+   }
+  ]
+ },
+ "Q3": {
+  "title": "Quiz 3 · I rapporti con i socialisti e lo sciopero del 1904",
+  "items": [
+   {
+    "p": "Chi guida i socialisti riformisti?",
+    "a": "Filippo Turati",
+    "w": [
+     "Benito Mussolini",
+     "Romolo Murri",
+     "Francesco Crispi"
+    ],
+    "e": "I riformisti vogliono riforme graduali."
+   },
+   {
+    "p": "Che cosa vogliono i massimalisti?",
+    "a": "Una rivoluzione proletaria immediata",
+    "w": [
+     "Riforme graduali",
+     "Un accordo con i cattolici",
+     "Il ritorno di Crispi"
+    ],
+    "e": "Rifiutano ogni compromesso con lo Stato borghese."
+   },
+   {
+    "p": "Con quale corrente socialista dialoga Giolitti?",
+    "a": "Con i riformisti",
+    "w": [
+     "Con i massimalisti",
+     "Con gli anarchici",
+     "Con nessuna"
+    ],
+    "e": "Cerca un accordo per garantire la pace sociale."
+   },
+   {
+    "p": "Che cosa accade nel settembre 1904?",
+    "a": "Il primo sciopero generale nazionale",
+    "w": [
+     "La guerra di Libia",
+     "Il regicidio di Monza",
+     "Il Patto Gentiloni"
+    ],
+    "e": "Lo sciopero segue l'uccisione di alcuni lavoratori negli scontri."
+   },
+   {
+    "p": "Come reagisce Giolitti allo sciopero del 1904?",
+    "a": "Non interviene con la forza e lo lascia esaurire",
+    "w": [
+     "Fa intervenire l'esercito",
+     "Fa arrestare tutti i socialisti",
+     "Si dimette subito"
+    ],
+    "e": "Il codice Zanardelli riconosce lo sciopero senza violenza."
+   }
+  ]
+ },
+ "Q4": {
+  "title": "Quiz 4 · Il rapporto con i cattolici e il trasformismo",
+  "items": [
+   {
+    "p": "Che cos'era il Non expedit?",
+    "a": "Il divieto della Chiesa ai cattolici di partecipare alla vita politica",
+    "w": [
+     "Una legge sulla scuola",
+     "Un accordo con i socialisti",
+     "Una tassa sul pane"
+    ],
+    "e": "Fu stabilito da papa Pio IX dopo l'Unità."
+   },
+   {
+    "p": "Perché la Chiesa si riavvicina allo Stato liberale?",
+    "a": "Per arginare la crescita dei socialisti",
+    "w": [
+     "Per fare la guerra in Libia",
+     "Per abolire la monarchia",
+     "Per sostenere i massimalisti"
+    ],
+    "e": "Cattolici e liberali si avvicinano contro la sinistra."
+   },
+   {
+    "p": "Che cosa permette Pio X nel 1904?",
+    "a": "Ai cattolici di votare dove rischia di vincere la sinistra",
+    "w": [
+     "Il divorzio",
+     "Il voto alle donne",
+     "La nascita del Partito popolare"
+    ],
+    "e": "Entrano alla Camera i primi deputati cattolici."
+   },
+   {
+    "p": "Che cos'è il trasformismo?",
+    "a": "Governare con alleanze flessibili a destra e a sinistra",
+    "w": [
+     "Trasformare le fabbriche in scuole",
+     "Cambiare la Costituzione",
+     "Una riforma agraria"
+    ],
+    "e": "Serve a Giolitti per mantenere stabilità e potere."
+   },
+   {
+    "p": "Dove porterà l'avvicinamento tra cattolici e liberali?",
+    "a": "Al Patto Gentiloni",
+    "w": [
+     "Alla settimana rossa",
+     "Alla legge Orlando",
+     "Al congresso di Reggio Emilia"
+    ],
+    "e": "Il patto sarà stretto nel 1913."
+   }
+  ]
+ },
+ "Q5": {
+  "title": "Quiz 5 · Le riforme sociali e scolastiche",
+  "items": [
+   {
+    "p": "Quale lavoro viene vietato dalle riforme giolittiane?",
+    "a": "Il lavoro dei minori di 12 anni",
+    "w": [
+     "Il lavoro delle donne",
+     "Il lavoro notturno degli uomini",
+     "Il lavoro nei campi"
+    ],
+    "e": "Si stabiliscono anche orari più sostenibili per le donne."
+   },
+   {
+    "p": "Quale diritto viene introdotto per tutti i lavoratori?",
+    "a": "Il riposo settimanale",
+    "w": [
+     "Le ferie di un mese",
+     "Il voto a 18 anni",
+     "Lo stipendio minimo"
+    ],
+    "e": "Prima in fabbrica si lavorava anche la domenica."
+   },
+   {
+    "p": "Che cos'è l'INA, nata nel 1912?",
+    "a": "L'Istituto nazionale delle assicurazioni",
+    "w": [
+     "Un partito cattolico",
+     "Un sindacato",
+     "Una banca mista"
+    ],
+    "e": "Finanzia le pensioni di invalidità."
+   },
+   {
+    "p": "Che cosa stabilisce la legge Orlando?",
+    "a": "L'obbligo scolastico fino a 12 anni e i corsi serali",
+    "w": [
+     "La scuola solo per i ricchi",
+     "La chiusura delle scuole dei comuni",
+     "Il voto alle donne"
+    ],
+    "e": "Serve a combattere l'analfabetismo."
+   },
+   {
+    "p": "Che cosa cambia con la legge Daneo-Credaro del 1911?",
+    "a": "Le scuole elementari passano dai comuni allo Stato",
+    "w": [
+     "Le scuole diventano private",
+     "Si abolisce l'obbligo scolastico",
+     "I maestri non vengono più pagati"
+    ],
+    "e": "Così gli stipendi dei maestri arrivano regolarmente."
+   }
+  ]
+ },
+ "Q6": {
+  "title": "Quiz 6 · Il suffragio universale maschile e il Patto Gentiloni",
+  "items": [
+   {
+    "p": "Chi può votare con la riforma del 1912?",
+    "a": "Tutti i maschi oltre i 30 anni, o di 21 se alfabetizzati o ex militari",
+    "w": [
+     "Tutti i cittadini, uomini e donne",
+     "Solo i proprietari",
+     "Solo i laureati"
+    ],
+    "e": "È il suffragio universale maschile."
+   },
+   {
+    "p": "Quanti diventano gli elettori dopo la riforma?",
+    "a": "Circa 8 milioni",
+    "w": [
+     "Circa 3 milioni",
+     "Circa 20 milioni",
+     "Circa mezzo milione"
+    ],
+    "e": "Prima erano circa tre milioni."
+   },
+   {
+    "p": "Che cos'è l'indennità parlamentare?",
+    "a": "Una retribuzione per i deputati",
+    "w": [
+     "Una tassa sui deputati",
+     "Una pensione per i soldati",
+     "Un premio per i sindaci"
+    ],
+    "e": "Permette anche ai non abbienti di fare politica."
+   },
+   {
+    "p": "Con chi stringe Giolitti il Patto Gentiloni?",
+    "a": "Con l'Unione elettorale cattolica",
+    "w": [
+     "Con i socialisti massimalisti",
+     "Con i repubblicani",
+     "Con l'Impero ottomano"
+    ],
+    "e": "Il patto è del 1913."
+   },
+   {
+    "p": "Che cosa promettono i liberali in cambio dei voti cattolici?",
+    "a": "Di non approvare il divorzio e di difendere le scuole religiose",
+    "w": [
+     "Di abolire la monarchia",
+     "Di fare la guerra alla Francia",
+     "Di dare il voto alle donne"
+    ],
+    "e": "È lo scambio politico del Patto Gentiloni."
+   }
+  ]
+ },
+ "Q7": {
+  "title": "Quiz 7 · Le riforme mancate: le donne in lotta",
+  "items": [
+   {
+    "p": "Le donne possono votare dopo la riforma del 1912?",
+    "a": "No, restano escluse",
+    "w": [
+     "Sì, tutte",
+     "Solo quelle sposate",
+     "Solo quelle laureate"
+    ],
+    "e": "Le donne restano escluse dai diritti politici nazionali."
+   },
+   {
+    "p": "Chi è Anna Kuliscioff?",
+    "a": "Una figura vicina al PSI che si batte per i diritti delle donne",
+    "w": [
+     "Una regina",
+     "Un'imprenditrice della Fiat",
+     "Una deputata cattolica"
+    ],
+    "e": "Chiede il voto alle donne."
+   },
+   {
+    "p": "Come si chiama una rivista che chiede parità e uguaglianza?",
+    "a": "«Lucciola»",
+    "w": [
+     "«Avanti!»",
+     "«La Stampa»",
+     "«Il Popolo»"
+    ],
+    "e": "Le testate animano il dibattito."
+   },
+   {
+    "p": "Che cosa subiscono spesso le attiviste?",
+    "a": "Il ricovero forzato negli ospedali psichiatrici",
+    "w": [
+     "Il carcere a vita",
+     "L'esilio in Libia",
+     "La perdita della cittadinanza"
+    ],
+    "e": "Lo Stato vuole frenare il loro comportamento ritenuto scandaloso."
+   },
+   {
+    "p": "Quale pratica la legge dell'epoca tutelava?",
+    "a": "Il delitto d'onore",
+    "w": [
+     "Il divorzio",
+     "Il voto femminile",
+     "La parità salariale"
+    ],
+    "e": "La società relega la donna al ruolo di moglie e madre."
+   }
+  ]
+ },
+ "Q8": {
+  "title": "Quiz 8 · Il decollo industriale italiano",
+  "items": [
+   {
+    "p": "Che cosa sono le alte tariffe doganali?",
+    "a": "Protezionismo per difendere i prodotti nazionali",
+    "w": [
+     "Aiuti agli emigranti",
+     "Tasse sul pane",
+     "Premi alle esportazioni agricole"
+    ],
+    "e": "Proteggono l'industria italiana dalla concorrenza straniera."
+   },
+   {
+    "p": "Come aiuta lo Stato lo sviluppo industriale?",
+    "a": "Con commesse pubbliche per ferrovie e flotta",
+    "w": [
+     "Chiudendo le fabbriche",
+     "Abolendo le banche",
+     "Vietando il commercio estero"
+    ],
+    "e": "Le commesse danno lavoro alle imprese."
+   },
+   {
+    "p": "Che cosa fanno le banche miste?",
+    "a": "Prestano a lungo termine alla grande industria",
+    "w": [
+     "Prestano solo ai contadini",
+     "Raccolgono le tasse",
+     "Stampano la moneta"
+    ],
+    "e": "Usano i depositi dei risparmiatori."
+   },
+   {
+    "p": "Dove nasce la Fiat nel 1899?",
+    "a": "A Torino",
+    "w": [
+     "A Milano",
+     "A Genova",
+     "A Terni"
+    ],
+    "e": "In quindici anni controlla il settore automobilistico."
+   },
+   {
+    "p": "Quali servizi statalizza lo Stato?",
+    "a": "Telefoni e ferrovie",
+    "w": [
+     "Scuole private e ospedali",
+     "Banche e fabbriche",
+     "Giornali e teatri"
+    ],
+    "e": "Lo Stato ne assume la proprietà diretta."
+   }
+  ]
+ },
+ "Q9": {
+  "title": "Quiz 9 · Il divario Nord-Sud e l'emigrazione",
+  "items": [
+   {
+    "p": "Quali città formano il triangolo industriale?",
+    "a": "Torino, Milano e Genova",
+    "w": [
+     "Roma, Napoli e Bari",
+     "Firenze, Bologna e Venezia",
+     "Palermo, Catania e Messina"
+    ],
+    "e": "Lo sviluppo si concentra nel Nord-Ovest."
+   },
+   {
+    "p": "Com'è l'economia del Mezzogiorno?",
+    "a": "Prevalentemente agricola, dominata dal latifondo",
+    "w": [
+     "Molto industrializzata",
+     "Basata sul turismo",
+     "Basata sulle banche"
+    ],
+    "e": "Mancano quasi del tutto le infrastrutture."
+   },
+   {
+    "p": "Chi accusa Giolitti di corruzione e clientelismo?",
+    "a": "Gaetano Salvemini",
+    "w": [
+     "Filippo Turati",
+     "Giovanni Pascoli",
+     "Antonio Salandra"
+    ],
+    "e": "Lo chiama «ministro della malavita»."
+   },
+   {
+    "p": "Quanti italiani emigrano tra il 1901 e il 1915?",
+    "a": "Circa 9 milioni",
+    "w": [
+     "Circa 1 milione",
+     "Circa 30 milioni",
+     "Circa 100 mila"
+    ],
+    "e": "Vanno in Europa e nelle Americhe."
+   },
+   {
+    "p": "Perché si parla di politica ambigua al Sud?",
+    "a": "Il governo reprime nel sangue le proteste delle leghe contadine",
+    "w": [
+     "Il governo dà tutto il potere ai contadini",
+     "Il governo chiude le scuole",
+     "Il governo abolisce le tasse"
+    ],
+    "e": "Al Nord dialoga con i sindacati, al Sud reprime."
+   }
+  ]
+ },
+ "Q10": {
+  "title": "Quiz 10 · La politica coloniale e la guerra in Libia",
+  "items": [
+   {
+    "p": "Chi spinge Giolitti verso un'impresa coloniale?",
+    "a": "Industriali e nazionalisti",
+    "w": [
+     "I socialisti massimalisti",
+     "Il papa",
+     "I sindacati"
+    ],
+    "e": "Vogliono commesse e prestigio internazionale."
+   },
+   {
+    "p": "A chi appartiene la Libia prima della guerra?",
+    "a": "All'Impero ottomano",
+    "w": [
+     "Alla Francia",
+     "Al Regno Unito",
+     "All'Egitto"
+    ],
+    "e": "Non appartiene a nessuna potenza europea."
+   },
+   {
+    "p": "Quando l'Italia dichiara guerra all'Impero ottomano?",
+    "a": "Nel settembre 1911",
+    "w": [
+     "Nel 1896",
+     "Nel 1914",
+     "Nel 1904"
+    ],
+    "e": "Attacca le coste della Tripolitania e della Cirenaica."
+   },
+   {
+    "p": "Come presenta la Libia la propaganda di Pascoli?",
+    "a": "Come una terra promessa per i migranti italiani",
+    "w": [
+     "Come un deserto inutile",
+     "Come una colonia francese",
+     "Come una minaccia"
+    ],
+    "e": "È la retorica della «grande proletaria»."
+   },
+   {
+    "p": "Che cosa ottiene l'Italia con il trattato di Losanna del 1912?",
+    "a": "La Libia e il Dodecaneso",
+    "w": [
+     "La Tunisia e l'Egitto",
+     "L'Etiopia",
+     "La Dalmazia"
+    ],
+    "e": "Ma l'impresa dà scarsi risultati economici."
+   }
+  ]
+ },
+ "Q11": {
+  "title": "Quiz 11 · La caduta di Giolitti e la «settimana rossa»",
+  "items": [
+   {
+    "p": "Che effetto ha la guerra di Libia sul PSI?",
+    "a": "Lo spacca: i riformisti vengono espulsi",
+    "w": [
+     "Lo unisce attorno a Giolitti",
+     "Lo fa sciogliere",
+     "Lo fa allearsi con i cattolici"
+    ],
+    "e": "Al congresso di Reggio Emilia del 1912."
+   },
+   {
+    "p": "Chi sale alla guida dell'ala rivoluzionaria del PSI?",
+    "a": "Il giovane Benito Mussolini",
+    "w": [
+     "Filippo Turati",
+     "Antonio Salandra",
+     "Giovanni Giolitti"
+    ],
+    "e": "Mussolini era allora un socialista rivoluzionario."
+   },
+   {
+    "p": "Perché il Patto Gentiloni indebolisce la maggioranza liberale?",
+    "a": "Per le proteste dei laici",
+    "w": [
+     "Perché i cattolici non votano",
+     "Perché vince la sinistra",
+     "Perché il re lo vieta"
+    ],
+    "e": "Nonostante la vittoria elettorale del 1913."
+   },
+   {
+    "p": "Chi guida il governo dopo le dimissioni di Giolitti nel 1914?",
+    "a": "Il conservatore Antonio Salandra",
+    "w": [
+     "Francesco Crispi",
+     "Giuseppe Zanardelli",
+     "Benito Mussolini"
+    ],
+    "e": "Giolitti pensava di tornare presto."
+   },
+   {
+    "p": "Che cos'è la settimana rossa?",
+    "a": "Una settimana di scioperi e scontri nel giugno 1914",
+    "w": [
+     "Una festa socialista",
+     "Una battaglia in Libia",
+     "Una crisi di governo nel 1900"
+    ],
+    "e": "Scoppia dopo l'uccisione di tre dimostranti ad Ancona."
+   }
+  ]
+ }
+}
