@@ -2,7 +2,7 @@
  "tag": "letteratura-V-lez07",
  "parti": {
   "1": {
-   "stato": "PRONTA",
+   "stato": "IN_MONTAGGIO",
    "titolo": "Il romanzo nell'Europa e nell'Italia del Decadentismo",
    "voci": "kore",
    "quiz_ok": "si",
@@ -357,10 +357,14 @@
   {
    "quando": "14/11 06:52",
    "testo": "Chat D2: PRONTA. Consegna sul ramo consegna-letteratura-V-lez07 (video in 2 pezzi da 90 MB + sha256, .vtt, quiz, test, dispensa A4, scheda, testo YouTube, timeline). t_verifica 1666.07 s, t_compiti 1684.37 s. Durata 28:10,7 (sotto i 50 min: materiale del docente breve, niente riempitivi). Sincronia card: in parte stimata."
+  },
+  {
+   "quando": "14/11 22:30",
+   "testo": "Letteratura V · chat R2: IN_MONTAGGIO v2 con approfondimenti animati; testi voci inviati"
   }
  ],
  "materia": "Letteratura italiana · V anno",
  "lezione": "Lezione 7",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 06:52:58"
+ "aggiornato": "2026-11-14 22:30:39"
 }
