@@ -1,0 +1,192 @@
+{
+ "materia": "Storia",
+ "titolo": "Il mondo agli inizi del XX secolo e l'imperialismo · Parte 1",
+ "durata_s": 3102.93,
+ "argomenti": [
+  {
+   "n": 1,
+   "titolo": "La competizione imperialista",
+   "inizio_s": 196.333,
+   "quiz_s": 1469.467
+  },
+  {
+   "n": 2,
+   "titolo": "Regno Unito e Impero britannico",
+   "inizio_s": 1474.767,
+   "quiz_s": 2373.934
+  },
+  {
+   "n": 3,
+   "titolo": "La Francia · nazionalismo e Dreyfus",
+   "inizio_s": 2379.234,
+   "quiz_s": 2920.0
+  }
+ ],
+ "quiz": {
+  "Q1": {
+   "title": "Quiz 1 · La competizione imperialista",
+   "items": [
+    {
+     "p": "Quale Stato, con la sua ascesa, sfida il primato britannico e alimenta il revanscismo francese?",
+     "a": "La Germania unificata",
+     "w": [
+      "L'Austria-Ungheria",
+      "La Russia zarista",
+      "Gli Stati Uniti"
+     ],
+     "e": "L'ascesa della Germania unificata scuote gli equilibri europei tra fine Ottocento e inizio Novecento."
+    },
+    {
+     "p": "Che cosa definisce la conferenza di Berlino del 1884?",
+     "a": "Le regole per l'espansione in Africa, con sfere di influenza",
+     "w": [
+      "La fine della tratta degli schiavi",
+      "I confini dell'Impero ottomano",
+      "Un'alleanza militare tra Francia e Germania"
+     ],
+     "e": "Il continente africano viene diviso in sfere di influenza tra le nazioni europee."
+    },
+    {
+     "p": "In che cosa si trasforma il vecchio colonialismo economico nell'imperialismo?",
+     "a": "In sottomissione politica e militare con rigido controllo amministrativo",
+     "w": [
+      "In libero scambio tra le potenze",
+      "In una federazione di Stati autonomi",
+      "In un'amministrazione affidata solo ai missionari"
+     ],
+     "e": "L'imperialismo comporta controllo amministrativo e sfruttamento intensivo delle risorse."
+    },
+    {
+     "p": "Che cosa accompagna le spinte economiche tra le motivazioni dell'imperialismo?",
+     "a": "La ricerca di prestigio politico e la presunta superiorità razziale e culturale europea",
+     "w": [
+      "Il desiderio di diffondere la democrazia",
+      "La richiesta delle popolazioni locali",
+      "Il calo demografico europeo"
+     ],
+     "e": "Accanto all'economia emergono ragioni ideologiche."
+    },
+    {
+     "p": "Come si chiama la reazione di rivincita della Francia contro la Germania?",
+     "a": "Revanscismo",
+     "w": [
+      "Pangermanesimo",
+      "Isolazionismo",
+      "Irredentismo"
+     ],
+     "e": "Il revanscismo francese è alimentato dall'ascesa tedesca."
+    }
+   ]
+  },
+  "Q2": {
+   "title": "Quiz 2 · Regno Unito e Impero britannico",
+   "items": [
+    {
+     "p": "In quale anno muore la regina Vittoria, segnando la fine dell'età vittoriana?",
+     "a": "1901",
+     "w": [
+      "1888",
+      "1914",
+      "1870"
+     ],
+     "e": "La morte della regina nel 1901 chiude l'età vittoriana."
+    },
+    {
+     "p": "Che cosa limita il Parliament Act del 1911?",
+     "a": "Il potere della Camera dei Lords",
+     "w": [
+      "Il potere del re",
+      "Il diritto di voto operaio",
+      "Il commercio coloniale"
+     ],
+     "e": "Il governo liberale riduce il potere dei Lords."
+    },
+    {
+     "p": "Quale riforma liberale è citata tra quelle approvate?",
+     "a": "La giornata lavorativa di otto ore",
+     "w": [
+      "L'abolizione della monarchia",
+      "Il suffragio femminile",
+      "Il servizio militare obbligatorio"
+     ],
+     "e": "Riforme liberali: otto ore, uffici di collocamento, assicurazioni sociali."
+    },
+    {
+     "p": "Che cosa chiede il Sud cattolico nella questione irlandese?",
+     "a": "Indipendenza e autogoverno con la Home Rule",
+     "w": [
+      "L'unione con la Francia",
+      "Un nuovo re cattolico",
+      "La fine dell'autonomia"
+     ],
+     "e": "Il Nord protestante è contrario; la legge del 1914 viene sospesa per la Grande Guerra."
+    },
+    {
+     "p": "Come viene definita l'India, colonia diretta, nell'amministrazione imperiale?",
+     "a": "La «perla dell'impero»",
+     "w": [
+      "La «porta dell'Asia»",
+      "Il «granaio dell'impero»",
+      "Il «cuore del Commonwealth»"
+     ],
+     "e": "Dominions, protettorati e colonie dirette: l'India è una colonia diretta."
+    }
+   ]
+  },
+  "Q3": {
+   "title": "Quiz 3 · La Francia · nazionalismo e Dreyfus",
+   "items": [
+    {
+     "p": "In che anno il capitano Alfred Dreyfus viene ingiustamente condannato per tradimento?",
+     "a": "1894",
+     "w": [
+      "1870",
+      "1906",
+      "1899"
+     ],
+     "e": "Il caso Dreyfus spacca il Paese fino al proscioglimento totale nel 1906."
+    },
+    {
+     "p": "Chi è tra i principali innocentisti, i dreyfusardi?",
+     "a": "Émile Zola",
+     "w": [
+      "Clemenceau",
+      "Napoleone III",
+      "Bismarck"
+     ],
+     "e": "Gli antidreyfusardi erano nazionalisti e antisemiti."
+    },
+    {
+     "p": "Che cosa introducono i governi radicali dal 1899?",
+     "a": "L'istruzione elementare laica",
+     "w": [
+      "Il servizio civile obbligatorio",
+      "Il voto alle donne",
+      "Le colonie in Africa"
+     ],
+     "e": "Introducono riforme sul lavoro e rompono con la Santa Sede nel 1905."
+    },
+    {
+     "p": "Che cosa è la crisi di Fashoda (1898)?",
+     "a": "Un quasi scontro militare con il Regno Unito in Sudan",
+     "w": [
+      "Una guerra con la Germania",
+      "Una rivolta in Algeria",
+      "Un trattato commerciale con la Russia"
+     ],
+     "e": "La risoluzione pacifica porta all'Entente cordiale."
+    },
+    {
+     "p": "In quale anno nasce l'Entente cordiale tra Francia e Regno Unito?",
+     "a": "1904",
+     "w": [
+      "1898",
+      "1911",
+      "1894"
+     ],
+     "e": "È un accordo in funzione antirussa e antitedesca."
+    }
+   ]
+  }
+ }
+}
