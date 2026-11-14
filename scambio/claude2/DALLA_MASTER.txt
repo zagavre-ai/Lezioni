@@ -63,3 +63,10 @@ PRIORITÀ DI SARA (valgono da subito):
 5. Riga di stato in PER_LA_MASTER.txt ogni 2 ore (l'ultima è del 12/11): lezione in corso, pronte, prossima.
 6. Voci Kore: il servizio della master è acceso. Richieste come sempre sul ramo voci-<tag>.
 7. Commit senza firma (niente Co-Authored-By / Claude-Session).
+
+=== 14/11/2026 19:40 (ora italiana) · MASTER 1 · AGGIUNTA OBBLIGATORIA ===
+MAPPE CONCETTUALI in tutte le lezioni (Sara, 14/11; didattica inclusiva BES/DSA), a partire da quelle in corso (Storia V 6, 7 e successive) e da aggiungere alle già consegnate (Storia V 1, 2):
+- nel video: una mappa concettuale animata per ogni argomento (dentro gli AN, si costruisce ramo per ramo con la voce Kore) + una mappa finale della lezione prima del glossario;
+- nella dispensa A4: pagina «Mappa della lezione» dopo la copertina + una mappa per argomento a fine sezione, testo vero, leggibile in bianco e nero;
+- modello: argomento al centro; rami con concetto, parola chiave, esempio; max 6 rami, max 3 parole per nodo; colori Telesio.
+Per Storia V 1 e 2 già consegnate: aggiungere la mappa finale nel video (inserto prima del glossario, una sola ricodifica) e le pagine di mappa nella dispensa; riconsegna sullo stesso ramo con LEGGIMI «v2 con mappe».
