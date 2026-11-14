@@ -1,14 +1,15 @@
 {
  "tag": "storia-V-lez07",
  "parti": {},
- "manca": "",
+ "manca": "schede scure R2-R5/FIN1/VER/CINTRO/COMP/SIGLA da rendere; voce PERS1 da rigenerare (master, testo in testi_nuovi_14nov.json); poi asm_storia.py, codifica 1080p, volume16, sottotitoli, controlli, consegna",
  "serve_master": [],
  "domande_sara": [],
  "note": [
   {
    "quando": "14/11 12:03",
    "testo": "IN_MONTAGGIO · presa da Claude 2 (chat 1, dispari). Lez05 saltata: slide mancanti nella release"
-  }
+  },
+  "14/11 stop richiesto: quiz e testi approvati da Sara; voci 23/24 ok; animazioni 17/18 ok; webcam e audio pronti. In coda con video+slide: 5, 9, 11, 15, 17, 19, 21. Attendono video: 3, 13."
  ],
  "materia": "Storia",
  "lezione": "7",
