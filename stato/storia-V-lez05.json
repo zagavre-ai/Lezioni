@@ -2,8 +2,314 @@
  "tag": "storia-V-lez05",
  "parti": {
   "1": {
-   "stato": "IN_CODIFICA",
-   "voci": "kore"
+   "stato": "PRONTA",
+   "voci": "kore",
+   "titolo": "La Rivoluzione russa e la nascita dell'URSS · Parte 1",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "si",
+   "video": "Storia_Lez5_Parte1_1080p.mp4",
+   "durata_s": 3187.3,
+   "durata": "53:07.3",
+   "fotogrammi": 95619,
+   "fotogrammi_attesi": 95619,
+   "peso_MB": 222.0,
+   "vtt": "Storia_Lez5_Parte1.vtt",
+   "scheda": {
+    "materia": "Storia",
+    "titolo": "La Rivoluzione russa e la nascita dell'URSS (1917-1922) · Parte 1",
+    "durata_s": 3187.3,
+    "argomenti": [
+     {
+      "n": 1,
+      "titolo": "La crisi della Russia zarista",
+      "inizio_s": 210.8,
+      "quiz_s": 788.4
+     },
+     {
+      "n": 2,
+      "titolo": "La Rivoluzione di Febbraio (1917)",
+      "inizio_s": 792.4,
+      "quiz_s": 1514.067
+     },
+     {
+      "n": 3,
+      "titolo": "Il dualismo di potere e il ritorno di Lenin",
+      "inizio_s": 1518.067,
+      "quiz_s": 2243.867
+     },
+     {
+      "n": 4,
+      "titolo": "Dalle giornate di luglio alla Rivoluzione di Ottobre",
+      "inizio_s": 2247.867,
+      "quiz_s": 3024.4
+     }
+    ],
+    "quiz": {
+     "Q1": {
+      "title": "Quiz 1 · La crisi della Russia zarista",
+      "items": [
+       {
+        "p": "Quale effetto ha la Prima guerra mondiale sull'Impero zarista?",
+        "a": "Aggrava difficoltà politiche ed economiche già esistenti",
+        "w": [
+         "Rafforza il potere dello zar",
+         "Fa crescere l'industria dei beni di consumo",
+         "Porta a una rapida vittoria sulla Germania"
+        ],
+        "e": "La partecipazione al conflitto accentua difficoltà che esistevano da tempo e rende la situazione sociale insostenibile."
+       },
+       {
+        "p": "Perché l'esercito russo non riesce a rifornire le truppe?",
+        "a": "Per una rete ferroviaria arretrata",
+        "w": [
+         "Per la mancanza di soldati",
+         "Per il blocco dei porti del Mar Nero",
+         "Per un ammutinamento della marina"
+        ],
+        "e": "Le ferrovie meno sviluppate di quelle tedesche e austriache paralizzano i rifornimenti."
+       },
+       {
+        "p": "Che cosa succede nelle città russe durante la guerra?",
+        "a": "Mancano i beni di consumo, sale il costo della vita e manca il cibo",
+        "w": [
+         "Aumentano i salari degli operai",
+         "Arrivano grano e viveri dall'Ucraina",
+         "Le fabbriche producono più vestiti e mobili"
+        ],
+        "e": "La riconversione industriale per la guerra riduce i beni di consumo; mancano il pane e il cibo."
+       },
+       {
+        "p": "Che ruolo lascia Nicola II alla Duma?",
+        "a": "Un ruolo senza reali poteri decisionali",
+        "w": [
+         "Il potere di eleggere lo zar",
+         "Il comando dell'esercito",
+         "Il potere di dichiarare guerra"
+        ],
+        "e": "Lo zar difende il potere assoluto e riduce il parlamento a un'istituzione priva di reali prerogative."
+       },
+       {
+        "p": "Chi era Grigorij Rasputin?",
+        "a": "Un mistico consigliere molto vicino alla famiglia imperiale",
+        "w": [
+         "Il capo dei bolscevichi",
+         "Il generale sconfitto a Tannenberg",
+         "Il fondatore del partito dei cadetti"
+        ],
+        "e": "Era un santone religioso con grande influenza a corte; fu ucciso nel dicembre 1916."
+       }
+      ]
+     },
+     "Q2": {
+      "title": "Quiz 2 · La Rivoluzione di Febbraio (1917)",
+      "items": [
+       {
+        "p": "Dove scoppia la Rivoluzione di febbraio?",
+        "a": "A Pietrogrado",
+        "w": [
+         "A Mosca",
+         "A Ekaterinburg",
+         "A Kronstadt"
+        ],
+        "e": "Le proteste scoppiano a Pietrogrado, cioè San Pietroburgo, la capitale imperiale."
+       },
+       {
+        "p": "Chi guida le prime proteste di febbraio?",
+        "a": "Donne esasperate dalle code per il pane",
+        "w": [
+         "I generali dell'esercito",
+         "I nobili della Duma",
+         "I marinai di Kronstadt"
+        ],
+        "e": "Le proteste sono guidate da donne in coda per il pane, a cui si uniscono gli operai in sciopero."
+       },
+       {
+        "p": "Che cosa fanno i soldati mandati a reprimere le proteste?",
+        "a": "Si schierano con i manifestanti",
+        "w": [
+         "Sparano sulla folla",
+         "Arrestano gli operai",
+         "Tornano subito al fronte"
+        ],
+        "e": "I soldati scelgono di solidarizzare con la folla e la classe dirigente resta isolata."
+       },
+       {
+        "p": "Perché per noi la Rivoluzione di febbraio cade a marzo?",
+        "a": "Perché in Russia si usava il calendario giuliano",
+        "w": [
+         "Perché la rivoluzione durò un mese",
+         "Perché lo zar abdicò ad aprile",
+         "Perché i giornali ne parlarono in ritardo"
+        ],
+        "e": "La Russia usava il calendario giuliano, diverso dal gregoriano dell'Europa occidentale."
+       },
+       {
+        "p": "Chi guida il governo provvisorio nato dopo l'abdicazione?",
+        "a": "Il principe L'vov",
+        "w": [
+         "Lenin",
+         "Il generale Kornilov",
+         "Lev Trockij"
+        ],
+        "e": "Le forze liberali formano un governo provvisorio guidato dal principe L'vov."
+       }
+      ]
+     },
+     "Q3": {
+      "title": "Quiz 3 · Il dualismo di potere e il ritorno di Lenin",
+      "items": [
+       {
+        "p": "Che cosa si intende per «dualismo di potere»?",
+        "a": "La convivenza del governo provvisorio con i soviet",
+        "w": [
+         "La divisione tra Mosca e Pietrogrado",
+         "Il governo di due zar",
+         "La guerra tra Russia e Germania"
+        ],
+        "e": "Il potere ufficiale del governo provvisorio è limitato e contrastato dai soviet."
+       },
+       {
+        "p": "Che cosa sono i soviet?",
+        "a": "Consigli di operai e soldati",
+        "w": [
+         "Ministeri dello zar",
+         "Reparti della polizia politica",
+         "Partiti della borghesia"
+        ],
+        "e": "Sono assemblee di operai e soldati nate spontaneamente nelle fabbriche e nei reparti."
+       },
+       {
+        "p": "Qual è la posizione del governo provvisorio sulla guerra?",
+        "a": "Vuole proseguirla a fianco dell'Intesa",
+        "w": [
+         "Vuole firmare subito la pace",
+         "Vuole allearsi con la Germania",
+         "Vuole sciogliere l'esercito"
+        ],
+        "e": "Il governo provvisorio intende proseguire il conflitto a fianco delle potenze occidentali."
+       },
+       {
+        "p": "Perché i tedeschi facilitano il ritorno di Lenin in Russia?",
+        "a": "Per destabilizzare la Russia e farla uscire dalla guerra",
+        "w": [
+         "Perché Lenin era loro alleato da anni",
+         "Per farlo arrestare al confine",
+         "Perché volevano che diventasse zar"
+        ],
+        "e": "Le autorità tedesche vedevano in Lenin un elemento di destabilizzazione interna."
+       },
+       {
+        "p": "Quale slogan riassume le Tesi di aprile?",
+        "a": "«Tutto il potere ai soviet»",
+        "w": [
+         "«Pane, pace e zar»",
+         "«Tutto il potere alla Duma»",
+         "«La guerra fino alla vittoria»"
+        ],
+        "e": "Lenin chiede il trasferimento di tutto il potere ai soviet, l'uscita dalla guerra e la nazionalizzazione delle terre."
+       }
+      ]
+     },
+     "Q4": {
+      "title": "Quiz 4 · Dalle giornate di luglio alla Rivoluzione di Ottobre",
+      "items": [
+       {
+        "p": "Che cosa provoca le «giornate di luglio»?",
+        "a": "Il fallimento di un'offensiva militare in Galizia",
+        "w": [
+         "L'arresto di Lenin",
+         "La morte dello zar",
+         "La firma della pace con la Germania"
+        ],
+        "e": "La disastrosa offensiva in Galizia innesca nuove rivolte a Pietrogrado."
+       },
+       {
+        "p": "Dove si rifugia Lenin dopo le giornate di luglio?",
+        "a": "In Finlandia",
+        "w": [
+         "In Svizzera",
+         "In Germania",
+         "In Polonia"
+        ],
+        "e": "Il governo accusa i bolscevichi di tradimento e Lenin è costretto a fuggire in Finlandia."
+       },
+       {
+        "p": "Che cosa tenta di fare il generale Kornilov?",
+        "a": "Un colpo di Stato per instaurare una dittatura",
+        "w": [
+         "Riportare Lenin al governo",
+         "Proclamare la repubblica dei soviet",
+         "Firmare la pace con la Germania"
+        ],
+        "e": "Kornilov marcia su Pietrogrado, ma il golpe viene sventato anche grazie ai bolscevichi."
+       },
+       {
+        "p": "Chi occupa il Palazzo d'Inverno il 25 ottobre 1917?",
+        "a": "Le Guardie rosse",
+        "w": [
+         "Le Armate bianche",
+         "I soldati di Kornilov",
+         "I marinai inglesi"
+        ],
+        "e": "Le Guardie rosse bolsceviche occupano il Palazzo d'Inverno e Kerenskij fugge."
+       },
+       {
+        "p": "Che cos'è il Consiglio dei commissari del popolo?",
+        "a": "Il nuovo governo dei bolscevichi, presieduto da Lenin",
+        "w": [
+         "Il parlamento dello zar",
+         "Un'assemblea dei menscevichi",
+         "Il comando delle Armate bianche"
+        ],
+        "e": "Dopo l'uscita di menscevichi e socialrivoluzionari, i bolscevichi formano da soli il nuovo governo."
+       }
+      ]
+     }
+    }
+   },
+   "timeline": [
+    [
+     "T1",
+     210.8,
+     3.6
+    ],
+    [
+     "Q1",
+     788.4,
+     4.0
+    ],
+    [
+     "T2",
+     792.4,
+     3.6
+    ],
+    [
+     "T3",
+     1518.067,
+     3.6
+    ],
+    [
+     "T4",
+     2247.867,
+     3.6
+    ],
+    [
+     "GL1",
+     3061.067,
+     56.733
+    ],
+    [
+     "RF1",
+     3117.8,
+     36.333
+    ],
+    [
+     "FIN1",
+     3154.133,
+     14.667
+    ]
+   ]
   }
  },
  "manca": "",
@@ -26,10 +332,14 @@
   {
    "quando": "14/11 12:55",
    "testo": "Parte 1 montata (53:07 misurata sui pezzi), in codifica 1080p. Parte 2: animazioni con voci Kore in rendering."
+  },
+  {
+   "quando": "14/11 14:10",
+   "testo": "controllo_finale: ESITO: TUTTO OK"
   }
  ],
  "materia": "Storia V",
  "lezione": "Lezione 5 · La Rivoluzione russa",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 12:55:04"
+ "aggiornato": "2026-11-14 14:10:06"
 }
