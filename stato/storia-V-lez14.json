@@ -7,7 +7,12 @@
   }
  },
  "manca": "test finale: Excel del docente (zip 008); compiti: COMPITI_MANCANTI",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "14/11 12:43",
+   "testo": "VOCI: richiesta unica sul ramo voci-storia-V-lez14 (scambio/storia-V-lez14/testi_voci.json, 47 voci, stima 24,7 min). Montaggio pronto con segnaposto: Parte 1 50:40, Parte 2 50:03 (stime)."
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
@@ -22,5 +27,5 @@
  "materia": "Storia V",
  "lezione": "Lezione 14 · La guerra fredda (1945-1961)",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 11:59:39"
+ "aggiornato": "2026-11-14 12:43:48"
 }
