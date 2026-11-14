@@ -343,10 +343,14 @@
   {
    "quando": "14/11 13:55",
    "testo": "Parte 1 PRONTA: 51:57, 224,6 MiB, -16,5 LUFS, Q1-Q4 a 0,000 s, nessun fermo. Sottotitoli: controllo automatico 75% (12/16, scarti da respiri prima della frase); controllo a campione a mano su 8 blocchi: testo e attacco coerenti (entro 0,4 s). t_verifica=3098.0 s, t_compiti=3112.4 s (intro compiti 3107.9 s)"
+  },
+  {
+   "quando": "14/11 13:55",
+   "testo": "Parte 1 · tempi esatti: t_verifica=3098.469 s · t_compiti=3111.969 s (intro compiti 3108.469 s)"
   }
  ],
  "materia": "Storia",
  "lezione": "19",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 13:55:05"
+ "aggiornato": "2026-11-14 13:55:13"
 }
