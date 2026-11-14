@@ -3,7 +3,7 @@
  "parti": {
   "1": {
    "titolo": "Dal secondo dopoguerra a oggi",
-   "stato": "PRONTA",
+   "stato": "IN_MONTAGGIO",
    "voci": "kore",
    "quiz_ok": "si",
    "fermi_ok": "si",
@@ -265,10 +265,14 @@
   {
    "quando": "14/11 07:44",
    "testo": "chat E2: PRONTA e consegnata sul ramo consegna-letteratura-V-lez19. Una Parte di 35:32: il video del docente dura solo 29:35, quindi resta sotto i 50 minuti (nessun riempitivo). Card ricostruite dalle slide del video (nessuna videodispensa per le lezioni 17-26); foto degli autori delle slide non usate. t_verifica 2101,616 s · t_compiti 2125,936 s."
+  },
+  {
+   "quando": "14/11 22:45",
+   "testo": "Letteratura V · chat R5: presa, v2 con approfondimenti animati. Testi voci AN inviati su voci-letteratura-V-lez19, in attesa delle voci Kore; montaggio pronto con segnaposto."
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 19",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 07:44:39"
+ "aggiornato": "2026-11-14 22:45:06"
 }
