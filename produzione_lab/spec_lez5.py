@@ -1,0 +1,196 @@
+# -*- coding: utf-8 -*-
+# Lezione 5 · Industrializzazione · Prof.ssa Piera Caputi. Contenuti SOLO dal materiale del docente.
+TAG='moda-laboratori-III-IV-lez5'
+MATERIA='Laboratori tecnologici · Tecnico Sistema Moda'
+DOCENTE='Prof.ssa Piera Caputi'
+TITOLO='Industrializzazione'
+FILE='Industrializzazione_Lez5'
+SRC='Lezione.5.-.Industrializzazione.mp4'
+CAM=(810,437,34)
+ARGS=[
+dict(n=1,t0=0,titolo='Il ciclo industriale e il campionario',
+ slides=[
+  dict(t='Il ciclo industriale',c=['Trasforma le materie prime in prodotti finiti','Si basa su programmazione e organizzazione','Tre grandi processi: analisi, creativo-operativo, commerciale']),
+  dict(t='I tre processi',c=['Analisi: studi di mercato, tendenze, dati di vendita','Creativo e operativo: progetto, campionario, industrializzazione','Commerciale: grossisti, dettaglianti, e-commerce']),
+  dict(t='Il campionario',c=['Lo stilista ha l\'idea, il modellista la interpreta','Si tiene conto dei vincoli della produzione industriale','Si distinguono tre tipologie di campioni']),
+  dict(t='Le tipologie di campionario',c=['Commerciali: per la vendita, curati nell\'estetica','Tecnici: uso interno, ricchi di informazioni di produzione','Elettronici: riducono i costi dei prototipi fisici']),
+  dict(t='Il valore del campione fisico',c=['Il campionario elettronico si sta diffondendo','Quello fisico resta insostituibile','È la tangibilità a dargli valore']),
+ ],
+ an=dict(t='Il ciclo industriale in tre processi',items=[('Analisi','Mercato e dati','Studi di mercato, tendenze e vendite precedenti.'),('Creativo','Progetto e serie','Campionario e industrializzazione del prodotto.'),('Commerciale','Distribuzione','Grossisti, dettaglianti ed e-commerce.')]),
+ mappa=dict(titolo='Il ciclo industriale',rami=[('Analisi','mercato','tendenze e vendite'),('Creativo','campionario','industrializzazione'),('Commerciale','distribuzione','e-commerce'),('Campioni','tre tipologie','commerciali, tecnici, elettronici')]),
+ ripasso='Il ciclo industriale ha tre processi: analisi, creativo e operativo, commerciale. Il campionario può essere commerciale, tecnico o elettronico, ma quello fisico resta insostituibile.',
+ quiz=[
+  ('Quali sono i tre grandi processi del ciclo industriale?','Analisi, creativo e operativo, commerciale',['Taglio, cucito e stiro','Filatura, tessitura e tintura','Acquisto, magazzino e spedizione'],'Il ciclo trasforma le materie prime in prodotti finiti attraverso programmazione e organizzazione.'),
+  ('A che cosa servono i campionari tecnici?','Sono usati internamente e ricchi di informazioni per la produzione',['Alla propaganda e alla vendita','A ridurre i costi dei prototipi fisici','A decorare i negozi'],'I commerciali sono curati nell\'estetica e destinati alla vendita.'),
+  ('Che cosa permettono i campionari elettronici?','Di ridurre i costi di confezione dei prototipi fisici',['Di eliminare la produzione','Di sostituire i tessuti','Di non usare i modelli'],'Sono visualizzati con tecnologie informatiche.'),
+  ('Perché il campionario fisico resta insostituibile?','Per la sua tangibilità',['Perché costa meno','Perché è più veloce','Perché non serve il modellista'],'È la tangibilità a mantenerne il grande valore.'),
+  ('Che cosa fa il processo commerciale?','Riguarda distribuzione e vendita tramite grossisti, dettaglianti ed e-commerce',['Studia le tendenze','Progetta il campionario','Industrializza il prodotto'],'Il processo di analisi, invece, studia mercato, tendenze e dati di vendita.')]),
+dict(n=2,t0=231,titolo='La codifica dei modelli',
+ slides=[
+  dict(t='Perché si codifica',c=['Per distinguere ogni creazione nell\'azienda','Si usa un nome o un codice','Facilita archiviazione e comunicazione']),
+  dict(t='Nome o codice',c=['Piccole realtà: nomi di fiori, piante o persone','Grande industria: codice numerico o alfanumerico','Il codice contiene specifiche tecniche']),
+  dict(t='Che cosa dice il codice',c=['Una lettera: il progressivo del campionario annuale','Una sigla per linea e tipologia umana','Tipologia di capo, numero del modello, tessuto']),
+  dict(t='Codifica degli elementi',c=['DAV e DT: davanti e dietro','DF: diritto filo','CNTR: componenti del contro']),
+  dict(t='Il digitale e la distinta base',c=['Ogni sagoma ha un codice per funzione e posizione','Suffissi DX e SX per destra e sinistra','La distinta base elenca ogni pezzo, anche le minuterie']),
+ ],
+ an=dict(t='Leggere un codice',items=[('Lettera','Progressivo','Il numero del campionario annuale.'),('Sigla','Linea e tipologia','Per esempio abbigliamento maschile o femminile.'),('Capo','Tipologia e tessuto','La lettera P identifica i pantaloni.')]),
+ mappa=dict(titolo='La codifica',rami=[('Nome','piccole realtà','fiori, piante, persone'),('Codice','grande industria','alfanumerico'),('Elementi','DAV, DT, DF','CNTR'),('Digitale','DX e SX','distinta base')]),
+ ripasso='I modelli si codificano con un nome nelle piccole aziende e con un codice nella grande industria. Anche le singole sagome hanno un codice, come DAV, DT, DF, DX e SX.',
+ quiz=[
+  ('Come identificano i modelli le piccole realtà?','Con un nome, spesso di fiori, piante o persone',['Con un codice a barre','Con una lettera sola','Non li identificano'],'La grande industria preferisce un codice numerico o alfanumerico.'),
+  ('Che cosa significa DF?','Diritto filo',['Davanti frontale','Dietro foderato','Disegno finale'],'Il diritto filo è indispensabile per il corretto piazzamento.'),
+  ('Che cosa indicano DAV e DT?','Il davanti e il dietro',['Destra e sinistra','Dime e tacche','Diritto e rovescio'],'DX e SX indicano invece le parti destre e sinistre.'),
+  ('Che cos\'è la distinta base?','L\'elenco di ogni pezzo necessario per la confezione',['Il disegno del capo','Il listino prezzi','Una tabella di taglie'],'Comprende le parti principali e le minuterie, come bottoni e passanti.'),
+  ('Che cosa può indicare la lettera P in un codice?','I pantaloni',['La produzione','Il prezzo','La pattina'],'Un codice strutturato può indicare anche linea, numero del modello e tessuto.')]),
+dict(n=3,t0=689,titolo='I modelli base e le cuciture',
+ slides=[
+  dict(t='I modelli base',c=['Modelli studiati e collaudati con prove di confezione','Archiviati come punto di partenza','Riducono il tempo: si trasforma la base in un nuovo prodotto']),
+  dict(t='Elementi singoli in archivio',c=['Modelli per tasche, cinture, dettagli','Componenti con resa estetica nota','Tempi di lavorazione già conosciuti']),
+  dict(t='Incroci e linee esterne',c=['Le cuciture si accostano e si esaminano','Controlli accurati su fianco della gonna e cavallo','Linee rigide o aguzze: si limano o si compensano']),
+  dict(t='Sdifettatura preventiva',c=['Migliora la vestibilità','Previene irraggiamenti e pieghe all\'indosso','È una verifica fatta prima della produzione']),
+ ],
+ an=dict(t='Perché servono i modelli base',items=[('Collaudati','Senza difetti','Provati con ripetute prove di confezione e indosso.'),('Archivio','Punto di partenza','Si usano per le lavorazioni successive.'),('Tempo','Si risparmia','Si salta la fase preliminare.')]),
+ mappa=dict(titolo='I modelli base',rami=[('Basi','collaudate','prove di indosso'),('Archivio','riuso','tasche e cinture'),('Incroci','cuciture','fianco e cavallo'),('Sdifettatura','preventiva','vestibilità')]),
+ ripasso='I modelli base sono collaudati e archiviati: riducono il tempo di lavoro. Il reparto modelli controlla incroci e linee esterne, per una sdifettatura preventiva.',
+ quiz=[
+  ('Che cosa sono i modelli base?','Modelli studiati e collaudati con ripetute prove di confezione e indosso',['Modelli solo digitali','Campioni di tessuto','Cartellini dei prezzi'],'Sono archiviati dall\'azienda come punto di partenza.'),
+  ('Qual è il vantaggio di partire da un modello base?','Si riduce il tempo di lavorazione',['Non servono più le misure','Non serve il tessuto','Si evita la confezione'],'Si possono saltare i passaggi preliminari.'),
+  ('Quali elementi singoli si trovano negli archivi?','Modelli per tasche, cinture e altri dettagli',['Solo giacche','Solo scarpe','Solo etichette'],'Di questi componenti l\'azienda conosce resa estetica e tempi.'),
+  ('Dove i controlli sulle cuciture devono essere più accurati?','Nel fianco della gonna e nel cavallo dei pantaloni',['Solo sulle etichette','Solo sugli orli','Solo sulle tasche'],'Sono gli incroci più significativi per l\'armonia del capo.'),
+  ('Che cosa si fa con linee rigide o incontri aguzzi?','Si limano o si compensano le sagome',['Si lasciano così','Si cambia tessuto','Si elimina il capo'],'Così si previene la comparsa di pieghe durante l\'indosso.')]),
+dict(n=4,t0=1006,titolo='Rimesse, orli e sagome',
+ slides=[
+  dict(t='Le rimesse di cucitura',c=['0,7 cm: giro collo, attaccatura colletti, forme tonde','1 cm: tutte le cuciture lineari','1,5 o 2 cm: fianco o centro dietro, linea morbida']),
+  dict(t='Gli orli',c=['L\'immissione varia tra 3, 4 e 5 cm','Si applica alle sagome','Dipende dal capo']),
+  dict(t='Industriale e sartoriale',c=['Industria: si sviluppano tutte le sagome','Sartoria: se ne sviluppa solo una metà','Due parti uguali e speculari: destra e sinistra']),
+  dict(t='La gonna jeans',c=['Dietro: due parti, due baschine, due taschini','Davanti: parti, controtasche, interni tasca','Bottoniere, striscia dei passanti e cintura']),
+ ],
+ an=dict(t='Le misure delle rimesse',items=[('0,7','Forme tonde','Giro collo, colletti e tasche rotonde.'),('1','Cuciture lineari','Il centimetro standard.'),('1,5','Fianco e centro dietro','Anche due centimetri nelle linee morbide.')]),
+ mappa=dict(titolo='Rimesse e sagome',rami=[('Rimesse','0,7, 1, 1,5 cm','secondo la forma'),('Orli','3, 4 o 5 cm','immissione'),('Sagome','tutte, in serie','destra e sinistra'),('Gonna jeans','dietro e davanti','baschine e cintura')]),
+ ripasso='Le rimesse sono di zero virgola sette, uno, uno e mezzo o due centimetri, gli orli di tre, quattro o cinque. In industria si sviluppano tutte le sagome.',
+ quiz=[
+  ('Quale rimessa si usa per le cuciture lineari?','1 cm',['0,7 cm','3 cm','5 cm'],'Per il giro collo e le forme tonde si usa 0,7 cm.'),
+  ('Di quanto può variare l\'immissione degli orli?','3, 4 o 5 cm',['0,7 cm','1 cm','10 cm'],'La misura si applica alle sagome.'),
+  ('Che cosa si sviluppa a livello industriale?','Tutte le sagome del capo, destre e sinistre',['Solo metà delle sagome','Solo il davanti','Solo la cintura'],'In sartoria è possibile svilupparne solo una metà.'),
+  ('Quando basta una sola sagoma intera?','Quando il capo non ha cuciture centrali davanti o dietro',['Sempre','Mai','Solo per i pantaloni'],'Altrimenti si hanno due parti uguali ma speculari.'),
+  ('Quali sagome compongono il dietro di una gonna jeans?','Le parti terminali, due baschine e due taschini',['Cintura e passanti','Bottoniere e controtasche','Solo la fodera'],'Il davanti comprende parti principali, controtasche, interni tasca, bottoniere, striscia passanti e cintura.')]),
+dict(n=5,t0=1326,titolo='Diritto filo e tacche di riferimento',
+ slides=[
+  dict(t='La codifica sulla sagoma',c=['Ogni sagoma porta il proprio codice','Sul pezzo o sotto la sagoma','Compaiono diritto filo, tacche e dime']),
+  dict(t='Il diritto filo',c=['Presente su tutte le sagome industrializzate','Un segmento che non tocca il perimetro','Si omette se il centro è un segmento rettilineo']),
+  dict(t='Le tacche',c=['Segni convenzionali sul perimetro della sagoma','Indicano orli, cuciture, sormonti','Evitano che parti lunghe slittino']),
+  dict(t='Due forme di tacca',c=['Rientranti: piccoli tagli, rischiose sulla maglia','Sporgenti: a piramide, preferibili sui tessuti delicati','Non intaccano il materiale della sagoma']),
+  dict(t='Le tacche nel capo',c=['Tasca quadrata: una tacca indica la parte alta','Pattina: distingue sopra patta e sotto patta','Cintura: indica la parte da attaccare alla vita']),
+ ],
+ an=dict(t='Due tipi di tacca',items=[('Rientrante','Taglio','Asporta materiale: attenzione sulla maglia.'),('Sporgente','Piramide','Non intacca il tessuto: ideale per i delicati.'),('Scopo','Riferimento','Orli, cuciture e sormonti.')]),
+ mappa=dict(titolo='Segni sulle sagome',rami=[('Codice','su ogni sagoma','leggibile'),('Diritto filo','segmento','non tocca il bordo'),('Tacche','rientranti','sporgenti a piramide'),('Usi','tasca e pattina','orli e cintura')]),
+ ripasso='Ogni sagoma ha codice, diritto filo e tacche. Le tacche rientranti asportano materiale, quelle sporgenti a piramide sono preferibili per i tessuti delicati.',
+ quiz=[
+  ('Che cosa indica il segno del diritto filo?','Come disporre la sagoma sul tessuto',['Il prezzo della sagoma','Il colore del tessuto','La taglia del cliente'],'Deve essere presente su tutte le sagome industrializzate.'),
+  ('Come è tracciato il diritto filo?','Con un segmento che non tocca il perimetro della sagoma',['Con una linea che tocca tutti i bordi','Con un cerchio','Non si traccia mai'],'Si può omettere se il centro davanti o dietro è rettilineo.'),
+  ('Che cosa sono le tacche di riferimento?','Segni convenzionali sul perimetro della sagoma',['Fori nel tessuto','Etichette adesive','Tipi di filo'],'Indicano per esempio orli, ampiezza della cucitura e sormonti.'),
+  ('Quale tacca è preferibile per i tessuti delicati?','La tacca sporgente, a forma di piramide',['La tacca rientrante','Nessuna tacca','Un foro'],'Le rientranti sono rischiose sui tessuti di maglia.'),
+  ('A che cosa serve una tacca su una tasca quadrata?','A indicare la parte alta e distinguere diritto e rovescio',['A scegliere il filo','A decorare la tasca','A indicare il prezzo'],'Evita errori di posizionamento.')]),
+dict(n=6,t0=1634,titolo='Fori di riferimento e dime',
+ slides=[
+  dict(t='I fori di riferimento',c=['Piccoli buchi nelle sagome','Segnano fine ripresa, tasche, asole','Fustellatrice sul cartone; trapano marcatore sul tessuto']),
+  dict(t='Attenzione ai fori',c=['Sulla maglia possono causare smagliature','Molte aziende li sostituiscono con le dime','Oppure li nascondono a 1-1,5 cm dalla ripresa']),
+  dict(t='Le riprese',c=['Tagliata: rimessa 0,7 cm, si cuce 1,5 cm oltre il foro','Con tacche: si sovrappongono le tacche e si cuce','Interna: piegatura lungo la linea dei tre fori']),
+  dict(t='Le dime o mascherine',c=['Indicano posizione di tasche, asole, riprese','Non danneggiano il tessuto','Segno a matita o gesso: svanisce con il ferro']),
+  dict(t='Una buona dima',c=['Posizione precisa e facile da collocare','Facile da impugnare, di materiale rigido','Non deve deformarsi · non entra nei piazzamenti']),
+ ],
+ an=dict(t='Fori e dime a confronto',items=[('Fori','Precisi, ma','Possono danneggiare, soprattutto la maglia.'),('Dime','Senza danni','Indicano la posizione senza intaccare il tessuto.'),('Segno','Gesso o matita','Svanisce con il calore del ferro da stiro.')]),
+ mappa=dict(titolo='Fori e dime',rami=[('Fori','riferimento','ripresa, tasca, asola'),('Rischio','maglia','smagliature'),('Riprese','tagliata','con tacche, interna'),('Dime','mascherine','segno col gesso')]),
+ ripasso='I fori segnano riprese, tasche e asole, ma sulla maglia possono rovinare il tessuto. Le dime indicano la posizione senza danni e non entrano nei piazzamenti.',
+ quiz=[
+  ('Che cosa sono i fori di riferimento?','Piccoli buchi nelle sagome per segnare fine ripresa, tasche e asole',['Cuciture decorative','Etichette adesive','Tacche a piramide'],'Si realizzano con la fustellatrice e si riportano con il trapano marcatore.'),
+  ('Perché l\'uso dei fori è discusso?','Sulla maglia possono causare smagliature e abbassare la qualità',['Costano troppo','Sono illegali','Sono troppo grandi'],'Molte aziende preferiscono le dime.'),
+  ('A quale distanza dal termine della ripresa si possono nascondere i fori?','Circa 1-1,5 cm',['10 cm','Sul bordo','20 cm'],'La loro posizione va documentata nella scheda tecnica.'),
+  ('Che cosa sono le dime?','Mascherine che indicano con precisione la posizione di tasche, asole e riprese',['Tessuti di rinforzo','Cartellini dei prezzi','Fili da cucire'],'Individuano la posizione senza deteriorare il tessuto.'),
+  ('Le dime vanno inserite nei piazzamenti per il taglio?','No, non devono essere inserite',['Sì, sempre','Solo per i pantaloni','Solo per le gonne'],'Possono però servire anche a confezione ultimata.')]),
+dict(n=7,t0=2105,titolo='Collaudo del prototipo e difetti comuni',
+ slides=[
+  dict(t='Controllare il prototipo',c=['L\'abbinamento capo e tessuto può non convincere','Si controlla prima della produzione in serie','Poi la prova d\'indosso su modella prototipo']),
+  dict(t='Dal prototipo alla scheda tecnica',c=['Superato il collaudo, il capo entra in archivio','La scheda prototipo diventa scheda tecnica','Si correggono i difetti non visti prima']),
+  dict(t='Difetti della gonna',c=['Stretta al bacino: risale e fa pieghe → allargare centri','Riprese sproporzionate → ridurre dietro, allargare davanti','Difetto di appiombo → abbassare il centro dietro']),
+  dict(t='Difetti dei pantaloni',c=['Baffi e pieghe davanti: esubero di tessuto','Si stringe e si alza la punta dell\'inforcatura','Raggi al cavallo → si allarga la punta del cavallo']),
+ ],
+ an=dict(t='Difetto e correzione',items=[('Gonna','Stretta al bacino','Si allarga sul centro davanti e sul centro dietro.'),('Appiombo','Si alza davanti','Si abbassa il centro dietro sulla vita.'),('Pantaloni','Baffi e raggi','Si agisce sulla punta dell\'inforcatura.')]),
+ mappa=dict(titolo='Il collaudo',rami=[('Controllo','prototipo','prima della serie'),('Prova','modella','correzioni'),('Gonna','bacino, appiombo','riprese'),('Pantaloni','baffi e raggi','punta dell\'inforcatura')]),
+ ripasso='Il prototipo si collauda e si prova su modella. Superato il collaudo, la scheda prototipo diventa scheda tecnica. Per ogni difetto di gonne e pantaloni c\'è una correzione.',
+ quiz=[
+  ('Quando il prototipo diventa scheda tecnica?','Dopo aver superato il collaudo, quando entra nell\'archivio',['Prima del disegno','Dopo la vendita','Mai'],'La prova d\'indosso su modella prototipo trova difetti non visti prima.'),
+  ('Come si corregge una gonna stretta al bacino?','Allargando il capo sul centro davanti e sul centro dietro',['Accorciando l\'orlo','Cambiando il colore','Stringendo la vita'],'La gonna tende a risalire verso la vita formando pieghe.'),
+  ('Come si corregge il difetto di appiombo?','Abbassando il centro dietro sulla linea della vita',['Alzando il centro davanti','Allungando l\'orlo','Togliendo la cintura'],'Si riscontra quando la gonna si alza sul davanti.'),
+  ('Che cosa sono i baffi sul davanti dei pantaloni?','Pieghe dovute a esubero di tessuto, da eliminare stringendo e alzando la punta dell\'inforcatura',['Decorazioni','Cuciture laterali','Tasche applicate'],'I raggi al cavallo richiedono invece di allargare la punta.'),
+  ('Che cosa si controlla prima della produzione in serie?','Che il prototipo abbia mantenuto le caratteristiche ricercate',['Il prezzo dei bottoni','Il numero di clienti','Il colore delle etichette'],'Si valutano aspetto tecnico e cromatico.')]),
+dict(n=8,t0=2314,titolo='La scheda modello',
+ slides=[
+  dict(t='Che cosa descrive',c=['Quali e quante sagome compongono il capo','Il tessuto da usare, fodere e interfodere','Le dime per tasche, bottoniere e dettagli']),
+  dict(t='A che cosa serve',c=['Può essere nella scheda tecnica o autonoma','Dopo il taglio si verifica che ci siano tutte le sagome','Il confezionista controlla di avere tutte le parti']),
+  dict(t='Un esempio di suddivisione',c=['Davanti: parte principale, controtasche, bottoniere','Dietro: parti principali, baschine, tasche applicate','Completamento: cintura e passanti · dime']),
+  dict(t='La scheda digitalizzata',c=['Si chiama anche distinta base modello','Ogni riga: codice, quantità, materiale, significato','Codici univoci riconosciuti dai software di piazzamento']),
+ ],
+ an=dict(t='Che cosa contiene una scheda modello',items=[('Sagome','Quali e quante','I pezzi che compongono il capo.'),('Materiali','Tessuto e fodere','Anche interfodere e dime.'),('Controllo','Taglio e confezione','Si verifica che i pezzi ci siano tutti.')]),
+ mappa=dict(titolo='La scheda modello',rami=[('Contenuto','sagome','tessuto, fodere'),('Uso','controllo','taglio e confezione'),('Esempio','davanti e dietro','cintura, dime'),('Digitale','distinta base','codice e quantità')]),
+ ripasso='La scheda modello elenca le sagome, i materiali e le dime. Serve a controllare che nulla manchi. In digitale diventa la distinta base modello.',
+ quiz=[
+  ('Che cosa descrive la scheda modello?','Quali e quante sagome compongono il capo e il tessuto da usare',['Solo il prezzo','Solo il colore','Solo la taglia'],'Indica anche fodere, interfodere e dime.'),
+  ('Perché serve dopo il taglio?','Per verificare che siano presenti tutte le sagome prima dell\'assemblaggio',['Per scegliere il tessuto','Per fissare il prezzo','Per scrivere il codice'],'Il confezionista la usa per sapere di quante sagome è fatto il capo.'),
+  ('Come si chiama anche la scheda modello digitalizzata?','Distinta base modello',['Plat','Dima','Cartamodello'],'Ogni riga riporta codice, quantità, materiale e significato del pezzo.'),
+  ('Che cosa permettono i codici univoci?','Ai software di piazzamento di distinguere le sagome in modo automatico',['Di eliminare il modellista','Di non misurare','Di non stirare'],'Si rispettano rigorosamente le misure progettate.'),
+  ('Quali sono pezzi di completamento di una gonna?','La cintura e i passanti',['Il davanti','Le baschine','Le controtasche'],'Il davanti comprende parte principale, controtasche e bottoniere.')]),
+dict(n=9,t0=2606,titolo='La scheda tecnica del capo',
+ slides=[
+  dict(t='Due tipi di scheda',c=['Provvisoria o del prototipo: stilista, modellista, ufficio tecnico','Definitiva: dopo il collaudo, con i consumi per taglia','Scopo: comunicazione chiara tra i reparti']),
+  dict(t='Gli elementi della scheda',c=['Dati di identificazione: stagione, linea, modello, piano taglie','Descrizione tecnica e raffigurazione tecnica (plat)','Distinta consumi: materie prime per taglia']),
+  dict(t='Chi compila che cosa',c=['Stilista: grafica, stagione e linea','Modellista: aspetto, cuciture, tacche, dime, consumi','Ufficio tecnico: etichette, imballaggio, trattamenti']),
+ ],
+ an=dict(t='La scheda tecnica in quattro blocchi',items=[('Dati','Identificazione','Stagione, linea, modello e piano taglie.'),('Tecnica','Descrizione e plat','Come si ideano e si assemblano.'),('Consumi','Per ogni taglia','Tessuti, fodere, bottoni ed etichette.')]),
+ mappa=dict(titolo='La scheda tecnica',rami=[('Tipi','provvisoria','definitiva'),('Dati','identificazione','stagione, linea'),('Tecnica','plat','descrizione'),('Consumi','per taglia','materie prime'),('Chi','stilista, modellista','ufficio tecnico')]),
+ ripasso='La scheda tecnica può essere provvisoria o definitiva. Contiene dati, descrizione, plat e consumi, ed è compilata da stilista, modellista e ufficio tecnico.',
+ quiz=[
+  ('Che cos\'è la scheda provvisoria?','La scheda del prototipo, preparata da stilista, modellista e ufficio tecnico',['La scheda dei clienti','L\'elenco delle taglie','Il catalogo dei tessuti'],'La definitiva nasce dopo il collaudo e aggiunge i consumi per taglia.'),
+  ('Che cosa descrive la distinta consumi?','La quantità di materie prime necessarie per ogni taglia',['Il prezzo di vendita','Il numero dei dipendenti','I tempi di consegna'],'Comprende tessuti, fodere, bottoni ed etichette.'),
+  ('Che cos\'è la raffigurazione tecnica?','Il plat, la rappresentazione grafica del capo in piano',['Una fotografia','Un campione di tessuto','Un codice'],'È parte della scheda tecnica.'),
+  ('Che cosa compila il modellista?','Descrizione dell\'aspetto, cuciture, tacche, dime e consumi degli accessori',['Etichettatura e imballaggio','Stagione e linea','Il listino'],'Lo stilista compila grafica, stagione e linea.'),
+  ('Chi trascrive i dati su etichettatura e imballaggio?','L\'ufficio tecnico',['Lo stilista','Il cliente','Il corriere'],'Trascrive anche trattamenti finali e caratteristiche del tessuto.')]),
+dict(n=10,t0=2888,titolo='Il controllo delle misure finali',
+ slides=[
+  dict(t='La scheda di controllo misure',c=['Verifica che i capi rispettino le dimensioni previste','Contiene il plat e le misure per ogni taglia','Parte della scheda tecnica o documento autonomo']),
+  dict(t='Perché le misure non tornano',c=['Stesura troppo tesa: le misure rientrano','Taglio imperfetto o stiro non omogeneo','Presentazione errata: il jersey si allunga sull\'appendiabiti']),
+  dict(t='Come si prepara',c=['La prepara il modellista, che conosce il progetto','Prima le larghezze, poi le lunghezze','Alcune aziende misurano le lunghezze sul fianco']),
+  dict(t='Quante misure inserire',c=['Dipende dalla tipologia del capo','Più complesso è il capo, più misure servono','Standard alti: più punti di controllo millimetrici']),
+ ],
+ an=dict(t='Capo finito e progetto',items=[('Verifica','Misure per taglia','Il capo deve corrispondere al progetto.'),('Cause','Stesura, taglio, stiro','Dove nascono le differenze.'),('Ordine','Larghezze e lunghezze','Il controllo segue una sequenza ragionata.')]),
+ mappa=dict(titolo='Controllo misure',rami=[('Scheda','plat e misure','ogni taglia'),('Errori','stesura tesa','taglio e stiro'),('Ordine','larghezze','poi lunghezze'),('Numero','dipende','dal capo e dalla qualità')]),
+ ripasso='La scheda di controllo misure verifica il capo finito. Le differenze nascono da stesura, taglio, stiro o presentazione. Si controllano prima le larghezze, poi le lunghezze.',
+ quiz=[
+  ('A che cosa serve la scheda di controllo misure finali?','A verificare che il capo finito rispetti le dimensioni previste',['A scegliere il tessuto','A fissare il prezzo','A disegnare il plat'],'Contiene il plat e le misure per ogni taglia.'),
+  ('Quale può essere una causa di misure non corrispondenti?','Una stesura delle falde troppo tesa',['Il colore del filo','La stagione','Il nome del modello'],'La stesura tesa provoca un successivo rientro delle misure.'),
+  ('Che cosa può succedere ai capi in jersey sull\'appendiabiti?','Possono subire allungamenti',['Si restringono','Cambiano colore','Si scuciono'],'È un caso di presentazione errata.'),
+  ('Chi prepara la scheda di controllo misure?','Il modellista',['Il cliente','Il magazziniere','Il commerciale'],'Conosce con precisione le misure del progetto.'),
+  ('Con quale ordine si organizzano le misure?','Prima le larghezze, poi le lunghezze',['Prima le lunghezze','A caso','Solo le altezze'],'Un ordine ragionato facilita il lavoro degli operatori.')]),
+dict(n=11,t0=3121,titolo='Digitalizzazione e correzione digitale',
+ slides=[
+  dict(t='Digitalizzare i modelli',c=['Molti modelli sono ancora su carta o cartoncino','La digitalizzazione rende rapidi sviluppo taglie e piazzamento','Il digitalizzatore ripercorre le sagome con un cursore']),
+  dict(t='Che cosa inserisce l\'operatore',c=['L\'orientamento della sagoma','Diritto filo, tasche, bottoni','Sistemi con fotocamere: tacche e fori, scala 1:1']),
+  dict(t='La correzione digitale',c=['Si lavora su una copia della sagoma','L\'originale resta in archivio come confronto','Si eliminano i difetti con pochi clic']),
+  dict(t='Gli strumenti del software',c=['Misure in millimetri sulle sagome','Spilli virtuali: bloccano misure e punti','Colori diversi: evidenziano l\'area modificata']),
+  dict(t='Attenzione alle proporzioni',c=['Se si allunga una canotta, valutare anche l\'ampiezza','La vestibilità deve restare corretta','Il confronto con l\'originale guida gli interventi']),
+ ],
+ an=dict(t='Tre aiuti del software',items=[('mm','Misure','Visualizzate sulle sagome per controllare la taglia.'),('Spilli','Virtuali','Bloccano lunghezze e larghezze da non variare.'),('Colori','Modifiche','Evidenziano l\'area modificata rispetto alla base.')]),
+ mappa=dict(titolo='Modelli digitali',rami=[('Digitalizzare','digitalizzatore','cursore e tavolo'),('Scala','1:1','plotter'),('Copia','originale','in archivio'),('Strumenti','millimetri','spilli e colori')]),
+ ripasso='Si digitalizzano i modelli per velocizzare sviluppo taglie e piazzamento. Le correzioni si fanno su una copia, con misure, spilli virtuali e colori.',
+ quiz=[
+  ('Che cosa permette la digitalizzazione dei modelli?','Rende più rapidi sviluppo taglie e piazzamento',['Eliminare le taglie','Non usare più tessuti','Evitare il collaudo'],'Converte le sagome fisiche in formato digitale.'),
+  ('Come vengono acquisite le sagome con il digitalizzatore?','Fissate su un tavolo e ripercorse con un cursore',['Fotografate col telefono','Ricopiate a mano','Pesate'],'L\'operatore indica anche orientamento e diritto filo.'),
+  ('Su che cosa opera il modellista nella correzione digitale?','Su una copia della sagoma, mentre l\'originale resta in archivio',['Sull\'originale','Sul tessuto','Sull\'etichetta'],'L\'originale è l\'elemento di confronto.'),
+  ('A che cosa servono gli spilli virtuali?','A bloccare misure o punti che non devono variare',['A cucire','A tagliare','A stampare'],'I colori diversi mostrano l\'area modificata.'),
+  ('Che cosa va valutato se si allunga una canotta?','Anche l\'eventuale allargamento, per mantenere la vestibilità',['Il colore','Il prezzo','Il numero di bottoni'],'Il capo non deve risultare troppo aderente.')]),
+]
+GLOSSARIO=[('Campionario','la raccolta dei campioni: commerciale, tecnico o elettronico'),('Codifica','il codice che identifica in modo univoco modelli e sagome'),('Modello base','modello collaudato, archiviato come punto di partenza'),('Rimessa','l\'entità della cucitura sulla sagoma'),('Diritto filo','il segno che indica come disporre la sagoma sul tessuto'),('Tacca','il segno sul perimetro della sagoma come riferimento'),('Dima','la mascherina che indica la posizione di tasche e asole'),('Scheda tecnica','il documento con tutte le informazioni per produrre il capo'),('Distinta base','l\'elenco digitale di tutti i pezzi del capo')]
+MAPPA_FINALE=dict(titolo='Industrializzazione',rami=[('Ciclo','tre processi','campionario'),('Codifica','nomi e codici','distinta base'),('Sagome','rimesse e orli','diritto filo e tacche'),('Segni','fori e dime','riprese'),('Schede','modello e tecnica','controllo misure'),('Digitale','digitalizzazione','correzione')])
+INTRO='Benvenuti alla lezione di Laboratori tecnologici, con la professoressa Piera Caputi. Oggi parliamo di industrializzazione: il ciclo industriale, la codifica dei modelli, le sagome, le schede e la digitalizzazione.'
+FIN='Fine della lezione. Grazie per l\'attenzione, e buono studio.'
+COMPITI='Ora passa ai compiti.'
