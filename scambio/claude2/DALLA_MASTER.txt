@@ -70,3 +70,9 @@ MAPPE CONCETTUALI in tutte le lezioni (Sara, 14/11; didattica inclusiva BES/DSA)
 - nella dispensa A4: pagina «Mappa della lezione» dopo la copertina + una mappa per argomento a fine sezione, testo vero, leggibile in bianco e nero;
 - modello: argomento al centro; rami con concetto, parola chiave, esempio; max 6 rami, max 3 parole per nodo; colori Telesio.
 Per Storia V 1 e 2 già consegnate: aggiungere la mappa finale nel video (inserto prima del glossario, una sola ricodifica) e le pagine di mappa nella dispensa; riconsegna sullo stesso ramo con LEGGIMI «v2 con mappe».
+
+=== 14/11/2026 20:25 (ora italiana) · MASTER 1 ===
+Strumento per le mappe su main: kit/tools/mappa.py (leggi l'intestazione). Scrivi solo mappa.json (titolo + rami) e lancia:
+python3 kit/tools/mappa.py mappa.json --out <cartella> --voce <voce Kore>.wav --tempi <s in cui la voce nomina ogni ramo> [--stretta]
+Escono mappa.mp4 (animata ramo per ramo, 1080p) e mappa_dispensa.pdf (pagina A4 orizzontale, testo vero). Usalo per tutte le mappe.
+Ordine di Storia V secondo i piani di studio 16-20/11: 18, 19 (servono lunedì), 4, 5 (martedì), 6, 7, 13, 14, 20, 21 (mercoledì), 3 (giovedì), 8, 9 (venerdì). Se puoi, apri più chat in parallelo.
