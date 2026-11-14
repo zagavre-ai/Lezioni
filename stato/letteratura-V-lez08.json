@@ -2,7 +2,9 @@
  "tag": "letteratura-V-lez08",
  "parti": {
   "1": {
-   "stato": "IN_MONTAGGIO"
+   "stato": "IN_MONTAGGIO",
+   "titolo": "Gabriele d'Annunzio",
+   "voci": "segnaposto"
   }
  },
  "manca": "",
@@ -12,10 +14,14 @@
   {
    "quando": "14/11 00:57",
    "testo": "Letteratura V · chat E"
+  },
+  {
+   "quando": "14/11 01:30",
+   "testo": "chat E: slide sincronizzate e dispensa pronte, montaggio del docente in corso; quiz e testi voci mandati a Sara per approvazione (01:20)"
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 8",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 00:57:41"
+ "aggiornato": "2026-11-14 01:30:52"
 }
