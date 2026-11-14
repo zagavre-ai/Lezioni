@@ -393,10 +393,14 @@
   {
    "quando": "14/11 07:36",
    "testo": "chat B2 · PRONTA e CONSEGNATA sul ramo consegna-letteratura-V-lez21. Misurato: 35:41.3, 64240 fotogrammi, 130,7 MB, 1920x1080, -15,9 LUFS, quiz 5/5, nessun fermo. Sotto i 50 min (docente 28:25, nessun riempitivo). Nessuna videodispensa: card dai testi delle slide del docente nel video. t_verifica 2122.833 s, t_compiti 2136.333 s. Sottotitoli Whisper base (corretto 1988 -> 1928); controllo automatico attacco 70%; campione con trascrizione 11/16 (nei 5 casi incerti il parlato è basso: ascolto dell'energia, la voce parte entro 0,5 s dall'inizio del blocco)."
+  },
+  {
+   "quando": "14/11 07:36",
+   "testo": "Precisazione chat B2: dei 5 blocchi incerti del campione sottotitoli ho verificato con l'energia dell'audio solo quello a 182,65 s (voce entro 0,5 s); gli altri 4 non li ho verificati uno per uno."
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 21",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 07:36:08"
+ "aggiornato": "2026-11-14 07:36:15"
 }
