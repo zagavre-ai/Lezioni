@@ -123,5 +123,10 @@
   "nome": "COMPI",
   "testo": "Ora tocca a te: ecco i compiti.",
   "lingua": "it"
+ },
+ {
+  "nome": "MAPF1B",
+  "testo": "La mappa di tutta la lezione. L'undici settembre e la guerra al terrore. Il Medio Oriente, dalle primavere arabe all'ISIS. Gli Stati Uniti della crisi, di Obama e di Trump. Il mondo multipolare dei BRICS, della Cina e della Russia. L'Europa e l'Italia, tra crisi, populismo e nuovi governi. Le questioni aperte: pandemia, Ucraina, clima e migrazioni.",
+  "lingua": "it"
  }
 ]
