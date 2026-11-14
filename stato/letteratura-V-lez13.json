@@ -351,7 +351,8 @@
   {
    "quando": "14/11 07:09",
    "testo": "voci lez13: R3.wav dice solo «La coscienza di Zeno» e R4.wav dice «e infine alcuni testi della coscienza di Zeno» (frase dell'INTRO, non del ripasso): usate così, con la didascalia uguale all'audio."
-  }
+  },
+  "R3: servono le voci Kore nuove (nomi P1_*/P2_*) dal ramo voci-letteratura-V-lez13, file testi_voci.json, vedi R3_NUOVE_VOCI.txt. Senza le voci le Parti non possono essere PRONTE (durate solo stimate)."
  ],
  "domande_sara": [],
  "note": [
