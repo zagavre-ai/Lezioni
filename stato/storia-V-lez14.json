@@ -3,10 +3,555 @@
  "parti": {
   "1": {
    "titolo": "La guerra fredda (1945-1961) · Parte 1",
-   "stato": "IN_MONTAGGIO"
+   "stato": "PRONTA",
+   "voci": "kore",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "si",
+   "video": "Storia_Lez14_Parte1_1080p.mp4",
+   "durata_s": 3038.6,
+   "durata": "50:38.6",
+   "fotogrammi": 91158,
+   "fotogrammi_attesi": 91158,
+   "peso_MB": 272.5,
+   "vtt": "Storia_Lez14_Parte1.vtt",
+   "scheda": {
+    "materia": "Storia",
+    "titolo": "La guerra fredda (1945-1961) · Parte 1",
+    "durata_s": 3038.6,
+    "argomenti": [
+     {
+      "n": 1,
+      "titolo": "Il dopoguerra e la nuova geopolitica",
+      "inizio_s": 79.7,
+      "quiz_s": 1183.6
+     },
+     {
+      "n": 2,
+      "titolo": "Bretton Woods e il bipolarismo",
+      "inizio_s": 1188.9,
+      "quiz_s": 2007.733
+     },
+     {
+      "n": 3,
+      "titolo": "Dottrina Truman, piano Marshall e Berlino",
+      "inizio_s": 2013.033,
+      "quiz_s": 2899.267
+     }
+    ],
+    "quiz": {
+     "Q1": {
+      "title": "Quiz 1 · Il dopoguerra e la nuova geopolitica",
+      "items": [
+       {
+        "p": "Quanti furono, circa, i morti della seconda guerra mondiale?",
+        "a": "Circa 50 milioni",
+        "w": [
+         "Circa 5 milioni",
+         "Circa 15 milioni",
+         "Circa 200 milioni"
+        ],
+        "e": "Il bilancio del conflitto fu di circa 50 milioni di morti, soprattutto tra i civili."
+       },
+       {
+        "p": "Dove si tennero i processi contro i crimini nazisti e giapponesi?",
+        "a": "A Norimberga e a Tokyo",
+        "w": [
+         "A Parigi e a Pechino",
+         "A Roma e a Berlino",
+         "A Londra e a Osaka"
+        ],
+        "e": "Il Tribunale Militare Internazionale processò i nazisti a Norimberga e i responsabili giapponesi a Tokyo."
+       },
+       {
+        "p": "In quale città e in quale anno nasce l'ONU?",
+        "a": "A San Francisco, nel 1945",
+        "w": [
+         "A Ginevra, nel 1919",
+         "A New York, nel 1948",
+         "A Parigi, nel 1946"
+        ],
+        "e": "L'ONU nasce a San Francisco nel 1945 per mantenere la pace globale."
+       },
+       {
+        "p": "Che cosa possono fare i cinque membri permanenti del Consiglio di Sicurezza?",
+        "a": "Bloccare una decisione con il diritto di veto",
+        "w": [
+         "Eleggere il presidente degli Stati Uniti",
+         "Dichiarare guerra senza voto",
+         "Escludere gli altri Stati dall'ONU"
+        ],
+        "e": "Basta il veto di uno dei cinque membri permanenti perché una risoluzione non passi."
+       },
+       {
+        "p": "Che cosa viene approvato nel 1948?",
+        "a": "La Dichiarazione universale dei diritti umani",
+        "w": [
+         "Il piano Marshall",
+         "Il Patto di Varsavia",
+         "Il trattato della CECA"
+        ],
+        "e": "Nel 1948 viene approvata la Dichiarazione universale dei diritti umani, per la libertà e la dignità di ogni individuo."
+       }
+      ]
+     },
+     "Q2": {
+      "title": "Quiz 2 · Bretton Woods e il bipolarismo",
+      "items": [
+       {
+        "p": "Che cosa nasce con gli accordi di Bretton Woods del 1944?",
+        "a": "Il Fondo Monetario Internazionale e la Banca Mondiale",
+        "w": [
+         "La NATO e il Patto di Varsavia",
+         "La CECA e la CEE",
+         "L'ONU e il Consiglio di Sicurezza"
+        ],
+        "e": "Bretton Woods fonda il Fondo Monetario Internazionale e la Banca Mondiale."
+       },
+       {
+        "p": "Quale moneta diventa il riferimento mondiale dopo Bretton Woods?",
+        "a": "Il dollaro statunitense",
+        "w": [
+         "La sterlina britannica",
+         "Il rublo sovietico",
+         "Il franco francese"
+        ],
+        "e": "Il dollaro sostituisce la sterlina come valuta internazionale di riferimento."
+       },
+       {
+        "p": "Che cosa caratterizza il polo occidentale guidato dagli USA?",
+        "a": "Democrazia parlamentare, capitalismo e proprietà privata",
+        "w": [
+         "Partito unico ed economia pianificata",
+         "Monarchia assoluta e protezionismo",
+         "Regime militare e collettivizzazione"
+        ],
+        "e": "Il polo occidentale si basa su democrazia parlamentare, capitalismo e difesa della proprietà privata."
+       },
+       {
+        "p": "Che cosa caratterizza il polo orientale guidato dall'URSS?",
+        "a": "Regime a partito unico ed economia pianificata dallo Stato",
+        "w": [
+         "Democrazia parlamentare e libero mercato",
+         "Federazione di monarchie costituzionali",
+         "Neutralità e disarmo"
+        ],
+        "e": "L'URSS è un regime totalitario a partito unico, con comunismo ed economia pianificata."
+       },
+       {
+        "p": "Chi usò nel 1946 l'espressione «cortina di ferro»?",
+        "a": "Winston Churchill",
+        "w": [
+         "Harry Truman",
+         "Iosif Stalin",
+         "Charles de Gaulle"
+        ],
+        "e": "L'ex primo ministro britannico Churchill descrisse così la divisione dell'Europa, da Stettino a Trieste."
+       }
+      ]
+     },
+     "Q3": {
+      "title": "Quiz 3 · Dottrina Truman, piano Marshall e Berlino",
+      "items": [
+       {
+        "p": "Perché si parla di guerra «fredda»?",
+        "a": "Le superpotenze si scontrano senza mai farsi guerra direttamente",
+        "w": [
+         "Si combatté soprattutto in inverno",
+         "Si combatté solo nelle regioni artiche",
+         "Durò pochi mesi senza vittime"
+        ],
+        "e": "Lo scontro è politico, ideologico ed economico, ma senza una guerra diretta tra USA e URSS."
+       },
+       {
+        "p": "Qual è l'obiettivo della dottrina Truman?",
+        "a": "Bloccare l'espansione del comunismo nel mondo",
+        "w": [
+         "Ritirare gli USA dall'Europa",
+         "Dividere la Germania in due Stati",
+         "Fondare l'ONU"
+        ],
+        "e": "La dottrina Truman è la strategia del contenimento del comunismo."
+       },
+       {
+        "p": "Che cos'è il piano Marshall (1947)?",
+        "a": "Un programma di aiuti per ricostruire l'Europa occidentale",
+        "w": [
+         "Un'alleanza militare contro l'URSS",
+         "Un trattato di pace con la Germania",
+         "Un piano per collettivizzare le terre"
+        ],
+        "e": "Il piano Marshall porta aiuti finanziari e materiali per la ricostruzione."
+       },
+       {
+        "p": "Come risponde l'URSS al piano Marshall?",
+        "a": "Rifiuta gli aiuti e crea il Cominform",
+        "w": [
+         "Accetta gli aiuti per tutti i satelliti",
+         "Entra nella NATO",
+         "Scioglie i partiti comunisti europei"
+        ],
+        "e": "Mosca rifiuta gli aiuti USA e crea il Cominform per coordinare i partiti comunisti."
+       },
+       {
+        "p": "Come viene superato il blocco di Berlino del 1948?",
+        "a": "Con un ponte aereo durato 427 giorni",
+        "w": [
+         "Con un'invasione via terra",
+         "Con un accordo all'ONU dopo una settimana",
+         "Con la costruzione di un muro"
+        ],
+        "e": "Gli alleati occidentali riforniscono Berlino Ovest solo via aerea, finché l'URSS toglie il blocco."
+       }
+      ]
+     }
+    }
+   },
+   "timeline": [
+    [
+     "T1",
+     79.7,
+     3.6
+    ],
+    [
+     "Q1",
+     1183.6,
+     4.0
+    ],
+    [
+     "T2",
+     1188.9,
+     3.6
+    ],
+    [
+     "T3",
+     2013.033,
+     3.6
+    ],
+    [
+     "GL1",
+     2929.0,
+     40.833
+    ],
+    [
+     "RF1",
+     2971.133,
+     32.367
+    ],
+    [
+     "FIN1",
+     3004.8,
+     14.0
+    ]
+   ]
+  },
+  "2": {
+   "titolo": "La guerra fredda (1945-1961) · Parte 2",
+   "stato": "PRONTA",
+   "voci": "kore",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "si",
+   "video": "Storia_Lez14_Parte2_1080p.mp4",
+   "durata_s": 3005.9,
+   "durata": "50:05.9",
+   "fotogrammi": 90176,
+   "fotogrammi_attesi": 90176,
+   "peso_MB": 279.8,
+   "vtt": "Storia_Lez14_Parte2.vtt",
+   "scheda": {
+    "materia": "Storia",
+    "titolo": "La guerra fredda (1945-1961) · Parte 2",
+    "durata_s": 3005.87,
+    "argomenti": [
+     {
+      "n": 4,
+      "titolo": "L'Europa del blocco occidentale",
+      "inizio_s": 70.1,
+      "quiz_s": 712.233
+     },
+     {
+      "n": 5,
+      "titolo": "Gli Stati Uniti negli anni Cinquanta",
+      "inizio_s": 717.533,
+      "quiz_s": 1075.833
+     },
+     {
+      "n": 6,
+      "titolo": "Il blocco orientale e la destalinizzazione",
+      "inizio_s": 1081.133,
+      "quiz_s": 1869.5
+     },
+     {
+      "n": 7,
+      "titolo": "La guerra fredda in Asia",
+      "inizio_s": 1874.8,
+      "quiz_s": 2852.0
+     }
+    ],
+    "quiz": {
+     "Q4": {
+      "title": "Quiz 4 · L'Europa del blocco occidentale",
+      "items": [
+       {
+        "p": "Che cos'è il Welfare State?",
+        "a": "Lo Stato sociale, con sanità e istruzione gratuite",
+        "w": [
+         "Un'alleanza militare europea",
+         "Il piano per collettivizzare le terre",
+         "Un sistema a partito unico"
+        ],
+        "e": "Nel Regno Unito e in altri paesi nasce lo Stato sociale, con sanità e istruzione gratuite."
+       },
+       {
+        "p": "Quando nasce la NATO?",
+        "a": "Nel 1949",
+        "w": [
+         "Nel 1945",
+         "Nel 1955",
+         "Nel 1961"
+        ],
+        "e": "La NATO nasce nel 1949 come patto di difesa reciproca."
+       },
+       {
+        "p": "Che cosa prevede il patto della NATO?",
+        "a": "Se uno Stato membro viene attaccato, gli altri lo difendono",
+        "w": [
+         "Gli Stati membri hanno una moneta unica",
+         "Gli Stati membri aboliscono le frontiere",
+         "Gli Stati membri rinunciano agli eserciti"
+        ],
+        "e": "È un'alleanza difensiva: un attacco a un membro impegna tutti gli altri."
+       },
+       {
+        "p": "Quale organismo nasce nel 1951 tra sei paesi europei?",
+        "a": "La CECA",
+        "w": [
+         "La CEE",
+         "Il Cominform",
+         "Il Fondo Monetario Internazionale"
+        ],
+        "e": "La CECA del 1951, l'Europa dei sei, è il primo passo verso l'unità economica."
+       },
+       {
+        "p": "Che cosa istituiscono i Trattati di Roma del 1957?",
+        "a": "La CEE e l'Euratom",
+        "w": [
+         "La NATO e la CECA",
+         "L'ONU e l'UNESCO",
+         "La Banca Mondiale e il FMI"
+        ],
+        "e": "I Trattati di Roma istituiscono la Comunità Economica Europea e l'Euratom."
+       }
+      ]
+     },
+     "Q5": {
+      "title": "Quiz 5 · Gli Stati Uniti negli anni Cinquanta",
+      "items": [
+       {
+        "p": "Che cosa si intende per maccartismo?",
+        "a": "Il clima di isteria anticomunista negli USA",
+        "w": [
+         "La politica economica di Eisenhower",
+         "Il piano di aiuti all'Europa",
+         "La destalinizzazione sovietica"
+        ],
+        "e": "Dal senatore McCarthy prende il nome la caccia ai presunti comunisti infiltrati."
+       },
+       {
+        "p": "Di che cosa vengono accusati i coniugi Rosenberg?",
+        "a": "Di spionaggio nucleare a favore dell'URSS",
+        "w": [
+         "Di aver tradito la Germania",
+         "Di corruzione elettorale",
+         "Di aver guidato una rivolta in Ungheria"
+        ],
+        "e": "Vengono condannati a morte nel 1953 con l'accusa di spionaggio nucleare."
+       },
+       {
+        "p": "Quale presidente USA lancia il «rollback»?",
+        "a": "Eisenhower",
+        "w": [
+         "Truman",
+         "Roosevelt",
+         "MacArthur"
+        ],
+        "e": "La presidenza Eisenhower punta a respingere il comunismo, non solo a contenerlo."
+       },
+       {
+        "p": "In che cosa il rollback è diverso dal contenimento?",
+        "a": "Vuole respingere il comunismo, non solo fermarlo",
+        "w": [
+         "Vuole ritirare le truppe dall'Europa",
+         "Vuole un'alleanza con l'URSS",
+         "Vuole sciogliere la NATO"
+        ],
+        "e": "Il rollback punta a liberare i popoli sottomessi respingendo il comunismo."
+       },
+       {
+        "p": "Quale evento del 1953 allenta un poco la tensione?",
+        "a": "La morte di Stalin",
+        "w": [
+         "La nascita della NATO",
+         "Il blocco di Berlino",
+         "La rivolta d'Ungheria"
+        ],
+        "e": "Con la morte di Stalin, nel 1953, si apre una fase di relativo rilassamento."
+       }
+      ]
+     },
+     "Q6": {
+      "title": "Quiz 6 · Il blocco orientale e la destalinizzazione",
+      "items": [
+       {
+        "p": "Che cosa sono gli «stati satelliti»?",
+        "a": "Paesi dell'Est sottomessi all'URSS con regimi a partito unico",
+        "w": [
+         "Paesi neutrali tra i due blocchi",
+         "Colonie africane della Francia",
+         "Stati americani alleati della NATO"
+        ],
+        "e": "I paesi occupati dall'Armata Rossa diventano satelliti dell'URSS."
+       },
+       {
+        "p": "Che cosa prevede l'economia pianificata nel blocco orientale?",
+        "a": "Collettivizzazione delle terre e industria pesante",
+        "w": [
+         "Libero mercato e proprietà privata",
+         "Aiuti del piano Marshall",
+         "Abolizione delle fabbriche"
+        ],
+        "e": "Terre collettivizzate, industrie nazionalizzate e produzione pesante a scapito dei consumi."
+       },
+       {
+        "p": "Quale paese comunista resta autonomo dal blocco sovietico?",
+        "a": "La Jugoslavia di Tito",
+        "w": [
+         "La Polonia",
+         "L'Ungheria",
+         "La Bulgaria"
+        ],
+        "e": "Tito si rifiuta di piegarsi alle direttive di Stalin e mantiene il paese autonomo."
+       },
+       {
+        "p": "Che cos'è il Patto di Varsavia (1955)?",
+        "a": "Un'alleanza militare dei paesi comunisti in risposta alla NATO",
+        "w": [
+         "Un accordo commerciale con gli USA",
+         "Un trattato di pace con la Germania",
+         "Una dichiarazione dei diritti umani"
+        ],
+        "e": "Il Patto di Varsavia unisce i paesi comunisti dell'Est in risposta alla NATO."
+       },
+       {
+        "p": "Che cosa accade in Ungheria nel 1956?",
+        "a": "Un'insurrezione repressa dalle truppe sovietiche",
+        "w": [
+         "L'ingresso nella NATO",
+         "La vittoria dei comunisti alle elezioni",
+         "La rottura definitiva con la Cina"
+        ],
+        "e": "Le speranze aperte dalla destalinizzazione portano alla rivolta, schiacciata dai carri armati sovietici."
+       }
+      ]
+     },
+     "Q7": {
+      "title": "Quiz 7 · La guerra fredda in Asia",
+      "items": [
+       {
+        "p": "Che cosa proclama Mao Zedong nel 1949?",
+        "a": "La Repubblica Popolare Cinese",
+        "w": [
+         "L'indipendenza di Taiwan",
+         "La monarchia costituzionale",
+         "L'alleanza con gli USA"
+        ],
+        "e": "Mao vince la guerra civile e proclama la Repubblica Popolare Cinese."
+       },
+       {
+        "p": "Dove si rifugiano i nazionalisti cinesi sconfitti?",
+        "a": "A Taiwan",
+        "w": [
+         "In Corea del Sud",
+         "In Giappone",
+         "In Vietnam"
+        ],
+        "e": "I nazionalisti fuggono sull'isola di Taiwan."
+       },
+       {
+        "p": "Come inizia la guerra di Corea nel 1950?",
+        "a": "La Corea del Nord comunista invade la Corea del Sud",
+        "w": [
+         "Il Giappone invade la Corea",
+         "La Corea del Sud invade la Cina",
+         "L'URSS invade la Corea del Sud"
+        ],
+        "e": "Il Nord, appoggiato da URSS e Cina, invade il Sud alleato degli USA."
+       },
+       {
+        "p": "Come si conclude la guerra di Corea?",
+        "a": "Con un armistizio e il confine sul 38° parallelo",
+        "w": [
+         "Con la riunificazione della Corea",
+         "Con la vittoria del Nord",
+         "Con un trattato di pace firmato a Roma"
+        ],
+        "e": "L'armistizio del 1953 ripristina la divisione lungo il 38° parallelo."
+       },
+       {
+        "p": "Che cosa provoca il «Grande balzo in avanti» (1958-1961)?",
+        "a": "Una gravissima carestia con milioni di morti",
+        "w": [
+         "Una rapida crescita dell'agricoltura",
+         "L'alleanza con gli Stati Uniti",
+         "La fine della guerra di Corea"
+        ],
+        "e": "Il piano di Mao fallisce e provoca una gravissima carestia."
+       }
+      ]
+     }
+    }
+   },
+   "timeline": [
+    [
+     "T4",
+     70.1,
+     3.6
+    ],
+    [
+     "T5",
+     717.533,
+     3.6
+    ],
+    [
+     "T6",
+     1081.133,
+     3.6
+    ],
+    [
+     "T7",
+     1874.8,
+     3.6
+    ],
+    [
+     "GL2",
+     2891.567,
+     44.733
+    ],
+    [
+     "RF2",
+     2937.6,
+     34.6
+    ],
+    [
+     "FIN2",
+     2973.5,
+     12.567
+    ]
+   ]
   }
  },
- "manca": "test finale: Excel del docente (zip 008); compiti: COMPITI_MANCANTI",
+ "manca": "COMPITI_MANCANTI",
  "serve_master": [
   {
    "quando": "14/11 12:43",
@@ -22,10 +567,14 @@
   {
    "quando": "14/11 11:59",
    "testo": "Storia V · chat S4: testi delle voci (47, stima 24,7 min) e quiz (35) sul ramo voci-storia-V-lez14. Monto con voci segnaposto."
+  },
+  {
+   "quando": "14/11 14:45",
+   "testo": "CONSEGNATA sul ramo consegna-storia-V-lez14 (14/11, chat S4). P1 50:38,6 (t_verifica 3020,100 · t_compiti 3033,600); P2 50:05,9 (t_verifica 2987,367 · t_compiti 3000,867). Test = Excel del docente. Sottotitoli: il controllo automatico «attacco entro 0,3 s» segna 54% su 13 blocchi, ma i casi segnalati sono code della frase precedente prima della pausa (misurato: scarto mediano 0,01 s su 212 blocchi dopo pausa); sub_ok dato dopo questa verifica."
   }
  ],
  "materia": "Storia V",
  "lezione": "Lezione 14 · La guerra fredda (1945-1961)",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 12:43:48"
+ "aggiornato": "2026-11-14 14:45:10"
 }
