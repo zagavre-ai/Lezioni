@@ -75,6 +75,11 @@
   "lingua": "it"
  },
  {
+  "nome": "CAUSE1",
+  "testo": "Dal boom alla crisi: le cause del crollo. Prima causa: la sovrapproduzione industriale, perché le fabbriche producono più di quanto i mercati riescano ad assorbire. Seconda causa: i bassi salari degli operai e la crisi agricola, che frenano la domanda. Terza causa: la speculazione in Borsa, con azioni comprate a credito e valori fittizi. Il risultato è il panico dell'ottobre del millenovecentoventinove, che si trasmette a banche, imprese e lavoratori.",
+  "lingua": "it"
+ },
+ {
   "nome": "TIME1",
   "testo": "Cronologia. Nel millenovecentodiciannove una riforma della Costituzione introduce il proibizionismo. Nel millenovecentoventi le donne ottengono il suffragio universale. Tra il millenovecentoventuno e il millenovecentotrentaquattro gli Stati Uniti varano le leggi anti-immigrazione. Nel millenovecentoventisette Sacco e Vanzetti sono condannati a morte. Nell'ottobre del millenovecentoventinove crolla la Borsa di Wall Street.",
   "lingua": "it"
@@ -85,8 +90,18 @@
   "lingua": "it"
  },
  {
+  "nome": "NUM1",
+  "testo": "I numeri della lezione. Oltre il cinquanta per cento: l'aumento del reddito nazionale americano in dieci anni. Millenovecentoventi: le donne ottengono il suffragio universale. Tra il millenovecentoventuno e il millenovecentotrentaquattro: le leggi anti-immigrazione. Millenovecentoventisette: la condanna a morte di Sacco e Vanzetti. Quattordici milioni: i disoccupati dopo il crollo del millenovecentoventinove. Oltre cinquecentomila: i contadini del Midwest che fuggono verso l'Ovest. Quaranta per cento: la svalutazione del dollaro voluta da Roosevelt. Nove milioni: i disoccupati ancora presenti nel millenovecentotrentasei.",
+  "lingua": "it"
+ },
+ {
   "nome": "PERS1",
   "testo": "I protagonisti. Henry Ford introduce il sistema fordista della catena di montaggio. Ernest Hemingway, Francis Scott Fitzgerald e John Steinbeck criticano il vuoto morale della società. Nicola Sacco e Bartolomeo Vanzetti sono gli anarchici italiani condannati a morte nel millenovecentoventisette. Al Capone è il boss del mercato nero dell'alcol. Herbert Hoover, presidente repubblicano, taglia la spesa pubblica durante la crisi. Franklin Delano Roosevelt lancia il New Deal, ispirato alle teorie di John Maynard Keynes.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PERS2",
+  "testo": "I presidenti americani. Harding e Coolidge, repubblicani, scelgono l'isolazionismo, i dazi protezionistici e la riduzione delle imposte sui grandi patrimoni. Herbert Hoover, repubblicano, di fronte alla crisi taglia la spesa pubblica e aumenta le tasse per mantenere il pareggio di bilancio, aggravando la recessione. Franklin Delano Roosevelt, democratico, eletto nel millenovecentotrentadue, avvia il New Deal e si rivolge ai cittadini con le chiacchiere al caminetto.",
   "lingua": "it"
  },
  {
