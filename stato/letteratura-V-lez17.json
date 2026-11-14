@@ -2,7 +2,8 @@
  "tag": "letteratura-V-lez17",
  "parti": {
   "1": {
-   "stato": "IN_MONTAGGIO"
+   "stato": "IN_MONTAGGIO",
+   "titolo": "Giuseppe Ungaretti e l'Ermetismo"
   }
  },
  "manca": "",
@@ -21,10 +22,14 @@
   {
    "quando": "14/11 05:33",
    "testo": "Ripresa da capo da Letteratura V · chat C2 (preparazione a catena mentre la 11 codifica). Video 39:17 misurato."
+  },
+  {
+   "quando": "14/11 05:42",
+   "testo": "chat C2: testi delle voci (23) inviati su voci-letteratura-V-lez17 alle 05:42 UTC; 6 argomenti; stima totale circa 50 min."
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 17",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 05:33:23"
+ "aggiornato": "2026-11-14 05:42:04"
 }
