@@ -321,6 +321,10 @@
   {
    "quando": "14/11 22:31",
    "testo": "R1: inviati i testi AN01-AN13 (ramo voci-letteratura-V-lez04, scambio/letteratura-V-lez04/testi_voci.json). Attendo vox/AN01..AN13.wav. MIGLIORAMENTO: kit/tools/mappa.py carica i font con file:// da set_content e il browser non li legge (esce Arial): va usato data:base64 (patch in mia copia)."
+  },
+  {
+   "quando": "14/11 23:50",
+   "testo": "R1: ATTENZIONE, il mio primo push aveva sovrascritto testi_voci.json (perdendo INTRO1,S1-S4,GL1,RF1,FIN1, gia' generati). Ripristinato nel commit f79234e: ora il file ha 21 voci; le 8 vecchie hanno gia' il wav, DA GENERARE SOLO AN01-AN13 (nuove). Whisper sherpa ok, Gemini non piu' usato."
   }
  ],
  "domande_sara": [
@@ -362,5 +366,5 @@
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 4",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 23:44:30"
+ "aggiornato": "2026-11-14 23:50:36"
 }
