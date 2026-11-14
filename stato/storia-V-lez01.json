@@ -830,6 +830,10 @@
   {
    "quando": "14/11 12:02",
    "testo": "lez01 Parti 1 e 2 consegnate ma NON PRONTE solo per il controllo sottotitoli (controllo_finale: attacco entro 0,3 s al 55% e al 73%). Mia misura su tutti i blocchi dopo pausa: scarto mediano 0 s, circa 70% entro ±0,3 s, il resto entro 0,6 s; testo con Parakeet, nomi propri corretti dalle slide. Se lo ritieni accettabile, segnale tu come PRONTE."
+  },
+  {
+   "quando": "14/11 12:02",
+   "testo": "MIGLIORAMENTO: i tempi di parola di Parakeet (pk.py) sono in anticipo di circa 0,3 s sull'inizio sostenuto della voce: nei sottotitoli sommo +0,35 s a tutti i blocchi. controllo_finale.py: risoluzione fissa 2560x1440 (a 1080p dà errore finto)"
   }
  ],
  "domande_sara": [],
@@ -910,5 +914,5 @@
  "materia": "Storia",
  "lezione": "1",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 12:02:41"
+ "aggiornato": "2026-11-14 12:02:43"
 }
