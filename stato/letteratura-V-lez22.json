@@ -2,8 +2,9 @@
  "tag": "letteratura-V-lez22",
  "parti": {
   "1": {
-   "stato": "IN_MONTAGGIO",
-   "titolo": "Elsa Morante"
+   "stato": "IN_CODIFICA",
+   "titolo": "Elsa Morante",
+   "voci": "kore"
   }
  },
  "manca": "",
@@ -26,10 +27,14 @@
   {
    "quando": "14/11 06:32",
    "testo": "chat C2: testi delle voci (20) inviati su voci-letteratura-V-lez22 alle 06:32 UTC; 5 argomenti; video 25:03, totale stimato circa 35 min senza riempitivi."
+  },
+  {
+   "quando": "14/11 07:22",
+   "testo": "chat C2: montaggio completo, 34:46 misurati (docente 25:03 + inserti); sotto i 50 min perché il video del prof è breve, senza riempitivi. Voce S2 ricevuta con le parole «dopo una grave malattia.» in testa (dalla voce precedente): tagliati i primi 2,3 s, l'originale è conservato. Codifica in corso."
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 22",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 06:32:41"
+ "aggiornato": "2026-11-14 07:22:07"
 }
