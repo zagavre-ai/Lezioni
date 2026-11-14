@@ -21,10 +21,14 @@
   {
    "quando": "14/11 00:58",
    "testo": "Presa da Letteratura V · chat C"
+  },
+  {
+   "quando": "14/11 03:59",
+   "testo": "Ripresa da capo da Letteratura V · chat C2 (la chat C si è fermata; il suo lavoro locale non è sul repository)"
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 6",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 02:03:21"
+ "aggiornato": "2026-11-14 03:59:01"
 }
