@@ -2,7 +2,7 @@
  "tag": "letteratura-V-lez05",
  "parti": {
   "1": {
-   "stato": "IN_CODIFICA",
+   "stato": "PRONTA",
    "titolo": "Giovanni Verga",
    "voci": "kore",
    "quiz_ok": "si",
@@ -13,7 +13,7 @@
    "durata": "56:57.7",
    "fotogrammi": 102532,
    "fotogrammi_attesi": 102532,
-   "peso_MB": 248.9,
+   "peso_MB": 247.5,
    "vtt": "Letteratura_Lez5_Parte1.vtt",
    "scheda": {
     "materia": "Letteratura italiana (V)",
@@ -413,10 +413,14 @@
   {
    "quando": "14/11 05:47",
    "testo": "chat B2: corretta la sincronia di alcune card (D1, D3, D4, D5: card accese su tempi verificati nella trascrizione); ricodifica in corso, poi ricontrollo e consegna"
+  },
+  {
+   "quando": "14/11 06:18",
+   "testo": "chat B2 · PRONTA e CONSEGNATA sul ramo consegna-letteratura-V-lez05 (video a pezzi da 90 MB + sha256, .vtt, quiz, scheda, testo YouTube, dispensa A4, verifica Excel del prof). Ricodifica dopo correzione della sincronia: misurato 56:57.7, 102532 fotogrammi, 247,5 MB, -15,9 LUFS, quiz 5/5, nessun fermo. t_verifica 3399.233 s, t_compiti 3412.733 s. Sincronia card: verificata sulla trascrizione (tempi in sincronia.log). Sottotitoli: controllo automatico attacco 40% (soglia non affidabile con voce bassa), campione con trascrizione 15/16 sulla parola giusta entro 0,5 s."
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 5",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 05:47:43"
+ "aggiornato": "2026-11-14 06:18:31"
 }
