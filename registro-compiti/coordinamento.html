@@ -45,7 +45,7 @@ const $=s=>document.querySelector(s);
 const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 let L=[],SEL='',VISTA='docente';
 async function apri(pin){
-  const f=(await sha('telesio-elenco-file|'+pin)).slice(0,16);
+  const f=(await sha('telesio-elenco-file|'+pin)).slice(0,16);if(f!=='65c8d2c30e6be5e0'){alert('Pagina in manutenzione: accesso non disponibile.');throw 'codice'}
   const r=await fetch('elenco_'+f+'.enc?t='+Date.now());if(!r.ok)throw 'codice';
   const k=await crypto.subtle.importKey('raw',await crypto.subtle.digest('SHA-256',enc.encode('telesio-elenco|'+pin)),'AES-GCM',false,['decrypt']);
   const u=unb64((await r.text()).trim());const o=JSON.parse(dec.decode(await crypto.subtle.decrypt({name:'AES-GCM',iv:u.slice(0,12)},k,u.slice(12))));

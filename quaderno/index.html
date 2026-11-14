@@ -146,6 +146,7 @@ async function entra(c,salva){
   if(!c)return;CODICE=c;
   $('#app').innerHTML='<div class="vuoto" style="margin-top:30px">Accesso in corso…</div>';
   try{IO=await api('accesso')}catch(e){CODICE='';ricorda('');return schermataAccesso(e.message==='Codice non valido'?'Codice non valido. Controlla di averlo scritto bene.':'Non riesco a collegarmi: '+e.message)}
+  if(!(IO.tipo==='staff'&&/zagarese/i.test(IO.nome||''))){CODICE='';IO=null;ricorda('');$('#app').innerHTML='<div style="max-width:520px;margin:60px auto;padding:24px;font-family:Arial,sans-serif;text-align:center"><h2 style="color:#0a1d37">In manutenzione</h2><p>Stiamo aggiornando questa pagina. Tornerà disponibile a breve.</p><p style="font-size:13px;color:#666">Centro Studi Telesio</p></div>';return}/* MANUTENZIONE 14/11 */
   if(salva)ricorda(c);
   $('#esci').hidden=false;
   if(IO.tipo==='alunno'){await caricaCompiti();return vistaAlunno()}

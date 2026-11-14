@@ -561,7 +561,13 @@ function quaderno(){const q=$('#qq');if(!q)return;if(LIVE&&ROLE==='docente'){q.s
   q.innerHTML='<div style="flex:1 1 260px"><b style="color:var(--navy);letter-spacing:.06em">QUADERNO DEI COMPITI</b><p style="margin:6px 0 10px">Qui trovi i compiti da consegnare, i voti e le correzioni. Hai svolto un compito su carta? <b>Inquadra il codice con la fotocamera del telefono</b>, fotografa le pagine e premi «Consegna».</p><a href="'+u+'" target="_blank" rel="noopener" style="display:inline-block;background:var(--navy);color:#fff;font-weight:bold;padding:11px 18px;border-radius:8px;text-decoration:none">Apri il mio quaderno</a></div><div id="qrc" style="flex:0 0 auto"></div>';
   QRLIB=QRLIB||new Promise((ok,no)=>{const s=document.createElement('script');s.src='https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js';s.onload=ok;s.onerror=no;document.head.appendChild(s)});
   QRLIB.then(()=>{const b=$('#qrc');if(b){b.innerHTML='';new QRCode(b,{text:u,width:140,height:140,correctLevel:QRCode.CorrectLevel.M})}}).catch(()=>{const b=$('#qrc');if(b)b.textContent='(il codice QR non si è caricato: usa il link qui sotto)'})}
-avvio();
+/* MANUTENZIONE (14/11, richiesta di Sara): solo la responsabile corsi */
+(async()=>{const OK='ea63f1d4d6a8ed27ab08f2c1a7ab87ee';let p='';try{p=localStorage.getItem('telesio_pin')||''}catch(e){}
+ if(p&&(await pinhash(p))===OK){avvio();return}
+ document.body.innerHTML='<div style="max-width:520px;margin:60px auto;padding:24px;font-family:Arial,sans-serif;text-align:center"><h2 style="color:#0a1d37">In manutenzione</h2><p>Stiamo aggiornando questa pagina. Tornerà disponibile a breve.</p><p style="font-size:13px;color:#666">Centro Studi Telesio</p><p><input id="mpin" placeholder="Codice" style="padding:8px;font-size:16px;text-transform:uppercase"> <button id="mgo" style="padding:8px 14px">Entra</button></p><p id="merr" style="color:#b00"></p></div>';
+ const go=async()=>{const v=document.getElementById('mpin').value.trim().toUpperCase();if(v&&(await pinhash(v))===OK){try{localStorage.setItem('telesio_pin',v)}catch(e){}location.reload()}else document.getElementById('merr').textContent='Accesso non disponibile durante la manutenzione.'};
+ document.getElementById('mgo').onclick=go;document.getElementById('mpin').onkeydown=e=>{if(e.key==='Enter')go()};
+})();
 </script>
 </body>
 </html>
