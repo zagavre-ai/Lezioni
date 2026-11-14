@@ -1,0 +1,717 @@
+[
+ {
+  "nome": "INTRO1",
+  "testo": "Benvenuti alla lezione di Laboratori tecnologici, con la professoressa Piera Caputi. Oggi parliamo di industrializzazione: il ciclo industriale, la codifica dei modelli, le sagome, le schede e la digitalizzazione.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN1_0",
+  "testo": "Approfondiamo: Il ciclo industriale in tre processi.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN1_1",
+  "testo": "Mercato e dati: Studi di mercato, tendenze e vendite precedenti.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN1_2",
+  "testo": "Progetto e serie: Campionario e industrializzazione del prodotto.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN1_3",
+  "testo": "Distribuzione: Grossisti, dettaglianti ed e-commerce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP1_0",
+  "testo": "La mappa: Il ciclo industriale.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP1_1",
+  "testo": "Analisi: parola chiave, mercato. Per esempio, tendenze e vendite.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP1_2",
+  "testo": "Creativo: parola chiave, campionario. Per esempio, industrializzazione.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP1_3",
+  "testo": "Commerciale: parola chiave, distribuzione. Per esempio, e-commerce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP1_4",
+  "testo": "Campioni: parola chiave, tre tipologie. Per esempio, commerciali, tecnici, elettronici.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R1",
+  "testo": "Ripassiamo: Il ciclo industriale ha tre processi: analisi, creativo e operativo, commerciale. Il campionario può essere commerciale, tecnico o elettronico, ma quello fisico resta insostituibile.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN2_0",
+  "testo": "Approfondiamo: Leggere un codice.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN2_1",
+  "testo": "Progressivo: Il numero del campionario annuale.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN2_2",
+  "testo": "Linea e tipologia: Per esempio abbigliamento maschile o femminile.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN2_3",
+  "testo": "Tipologia e tessuto: La lettera P identifica i pantaloni.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP2_0",
+  "testo": "La mappa: La codifica.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP2_1",
+  "testo": "Nome: parola chiave, piccole realtà. Per esempio, fiori, piante, persone.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP2_2",
+  "testo": "Codice: parola chiave, grande industria. Per esempio, alfanumerico.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP2_3",
+  "testo": "Elementi: parola chiave, DAV, DT, DF. Per esempio, CNTR.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP2_4",
+  "testo": "Digitale: parola chiave, DX e SX. Per esempio, distinta base.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R2",
+  "testo": "Ripassiamo: I modelli si codificano con un nome nelle piccole aziende e con un codice nella grande industria. Anche le singole sagome hanno un codice, come DAV, DT, DF, DX e SX.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN3_0",
+  "testo": "Approfondiamo: Perché servono i modelli base.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN3_1",
+  "testo": "Senza difetti: Provati con ripetute prove di confezione e indosso.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN3_2",
+  "testo": "Punto di partenza: Si usano per le lavorazioni successive.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN3_3",
+  "testo": "Si risparmia: Si salta la fase preliminare.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP3_0",
+  "testo": "La mappa: I modelli base.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP3_1",
+  "testo": "Basi: parola chiave, collaudate. Per esempio, prove di indosso.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP3_2",
+  "testo": "Archivio: parola chiave, riuso. Per esempio, tasche e cinture.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP3_3",
+  "testo": "Incroci: parola chiave, cuciture. Per esempio, fianco e cavallo.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP3_4",
+  "testo": "Sdifettatura: parola chiave, preventiva. Per esempio, vestibilità.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R3",
+  "testo": "Ripassiamo: I modelli base sono collaudati e archiviati: riducono il tempo di lavoro. Il reparto modelli controlla incroci e linee esterne, per una sdifettatura preventiva.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN4_0",
+  "testo": "Approfondiamo: Le misure delle rimesse.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN4_1",
+  "testo": "Forme tonde: Giro collo, colletti e tasche rotonde.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN4_2",
+  "testo": "Cuciture lineari: Il centimetro standard.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN4_3",
+  "testo": "Fianco e centro dietro: Anche due centimetri nelle linee morbide.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP4_0",
+  "testo": "La mappa: Rimesse e sagome.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP4_1",
+  "testo": "Rimesse: parola chiave, zero,sette, uno, uno,cinque cm. Per esempio, secondo la forma.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP4_2",
+  "testo": "Orli: parola chiave, tre, quattro o cinque cm. Per esempio, immissione.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP4_3",
+  "testo": "Sagome: parola chiave, tutte, in serie. Per esempio, destra e sinistra.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP4_4",
+  "testo": "Gonna jeans: parola chiave, dietro e davanti. Per esempio, baschine e cintura.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R4",
+  "testo": "Ripassiamo: Le rimesse sono di zero virgola sette, uno, uno e mezzo o due centimetri, gli orli di tre, quattro o cinque. In industria si sviluppano tutte le sagome.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN5_0",
+  "testo": "Approfondiamo: Due tipi di tacca.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN5_1",
+  "testo": "Taglio: Asporta materiale: attenzione sulla maglia.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN5_2",
+  "testo": "Piramide: Non intacca il tessuto: ideale per i delicati.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN5_3",
+  "testo": "Riferimento: Orli, cuciture e sormonti.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP5_0",
+  "testo": "La mappa: Segni sulle sagome.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP5_1",
+  "testo": "Codice: parola chiave, su ogni sagoma. Per esempio, leggibile.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP5_2",
+  "testo": "Diritto filo: parola chiave, segmento. Per esempio, non tocca il bordo.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP5_3",
+  "testo": "Tacche: parola chiave, rientranti. Per esempio, sporgenti a piramide.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP5_4",
+  "testo": "Usi: parola chiave, tasca e pattina. Per esempio, orli e cintura.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R5",
+  "testo": "Ripassiamo: Ogni sagoma ha codice, diritto filo e tacche. Le tacche rientranti asportano materiale, quelle sporgenti a piramide sono preferibili per i tessuti delicati.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN6_0",
+  "testo": "Approfondiamo: Fori e dime a confronto.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN6_1",
+  "testo": "Precisi, ma: Possono danneggiare, soprattutto la maglia.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN6_2",
+  "testo": "Senza danni: Indicano la posizione senza intaccare il tessuto.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN6_3",
+  "testo": "Gesso o matita: Svanisce con il calore del ferro da stiro.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP6_0",
+  "testo": "La mappa: Fori e dime.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP6_1",
+  "testo": "Fori: parola chiave, riferimento. Per esempio, ripresa, tasca, asola.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP6_2",
+  "testo": "Rischio: parola chiave, maglia. Per esempio, smagliature.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP6_3",
+  "testo": "Riprese: parola chiave, tagliata. Per esempio, con tacche, interna.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP6_4",
+  "testo": "Dime: parola chiave, mascherine. Per esempio, segno col gesso.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R6",
+  "testo": "Ripassiamo: I fori segnano riprese, tasche e asole, ma sulla maglia possono rovinare il tessuto. Le dime indicano la posizione senza danni e non entrano nei piazzamenti.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN7_0",
+  "testo": "Approfondiamo: Difetto e correzione.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN7_1",
+  "testo": "Stretta al bacino: Si allarga sul centro davanti e sul centro dietro.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN7_2",
+  "testo": "Si alza davanti: Si abbassa il centro dietro sulla vita.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN7_3",
+  "testo": "Baffi e raggi: Si agisce sulla punta dell'inforcatura.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP7_0",
+  "testo": "La mappa: Il collaudo.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP7_1",
+  "testo": "Controllo: parola chiave, prototipo. Per esempio, prima della serie.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP7_2",
+  "testo": "Prova: parola chiave, modella. Per esempio, correzioni.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP7_3",
+  "testo": "Gonna: parola chiave, bacino, appiombo. Per esempio, riprese.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP7_4",
+  "testo": "Pantaloni: parola chiave, baffi e raggi. Per esempio, punta dell'inforcatura.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R7",
+  "testo": "Ripassiamo: Il prototipo si collauda e si prova su modella. Superato il collaudo, la scheda prototipo diventa scheda tecnica. Per ogni difetto di gonne e pantaloni c'è una correzione.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN8_0",
+  "testo": "Approfondiamo: Che cosa contiene una scheda modello.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN8_1",
+  "testo": "Quali e quante: I pezzi che compongono il capo.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN8_2",
+  "testo": "Tessuto e fodere: Anche interfodere e dime.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN8_3",
+  "testo": "Taglio e confezione: Si verifica che i pezzi ci siano tutti.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP8_0",
+  "testo": "La mappa: La scheda modello.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP8_1",
+  "testo": "Contenuto: parola chiave, sagome. Per esempio, tessuto, fodere.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP8_2",
+  "testo": "Uso: parola chiave, controllo. Per esempio, taglio e confezione.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP8_3",
+  "testo": "Esempio: parola chiave, davanti e dietro. Per esempio, cintura, dime.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP8_4",
+  "testo": "Digitale: parola chiave, distinta base. Per esempio, codice e quantità.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R8",
+  "testo": "Ripassiamo: La scheda modello elenca le sagome, i materiali e le dime. Serve a controllare che nulla manchi. In digitale diventa la distinta base modello.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN9_0",
+  "testo": "Approfondiamo: La scheda tecnica in quattro blocchi.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN9_1",
+  "testo": "Identificazione: Stagione, linea, modello e piano taglie.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN9_2",
+  "testo": "Descrizione e plat: Come si ideano e si assemblano.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN9_3",
+  "testo": "Per ogni taglia: Tessuti, fodere, bottoni ed etichette.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP9_0",
+  "testo": "La mappa: La scheda tecnica.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP9_1",
+  "testo": "Tipi: parola chiave, provvisoria. Per esempio, definitiva.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP9_2",
+  "testo": "Dati: parola chiave, identificazione. Per esempio, stagione, linea.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP9_3",
+  "testo": "Tecnica: parola chiave, plat. Per esempio, descrizione.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP9_4",
+  "testo": "Consumi: parola chiave, per taglia. Per esempio, materie prime.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP9_5",
+  "testo": "Chi: parola chiave, stilista, modellista. Per esempio, ufficio tecnico.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R9",
+  "testo": "Ripassiamo: La scheda tecnica può essere provvisoria o definitiva. Contiene dati, descrizione, plat e consumi, ed è compilata da stilista, modellista e ufficio tecnico.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN10_0",
+  "testo": "Approfondiamo: Capo finito e progetto.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN10_1",
+  "testo": "Misure per taglia: Il capo deve corrispondere al progetto.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN10_2",
+  "testo": "Stesura, taglio, stiro: Dove nascono le differenze.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN10_3",
+  "testo": "Larghezze e lunghezze: Il controllo segue una sequenza ragionata.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP10_0",
+  "testo": "La mappa: Controllo misure.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP10_1",
+  "testo": "Scheda: parola chiave, plat e misure. Per esempio, ogni taglia.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP10_2",
+  "testo": "Errori: parola chiave, stesura tesa. Per esempio, taglio e stiro.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP10_3",
+  "testo": "Ordine: parola chiave, larghezze. Per esempio, poi lunghezze.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP10_4",
+  "testo": "Numero: parola chiave, dipende. Per esempio, dal capo e dalla qualità.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R10",
+  "testo": "Ripassiamo: La scheda di controllo misure verifica il capo finito. Le differenze nascono da stesura, taglio, stiro o presentazione. Si controllano prima le larghezze, poi le lunghezze.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN11_0",
+  "testo": "Approfondiamo: Tre aiuti del software.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN11_1",
+  "testo": "Misure: Visualizzate sulle sagome per controllare la taglia.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN11_2",
+  "testo": "Virtuali: Bloccano lunghezze e larghezze da non variare.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN11_3",
+  "testo": "Modifiche: Evidenziano l'area modificata rispetto alla base.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP11_0",
+  "testo": "La mappa: Modelli digitali.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP11_1",
+  "testo": "Digitalizzare: parola chiave, digitalizzatore. Per esempio, cursore e tavolo.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP11_2",
+  "testo": "Scala: parola chiave, uno:uno. Per esempio, plotter.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP11_3",
+  "testo": "Copia: parola chiave, originale. Per esempio, in archivio.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP11_4",
+  "testo": "Strumenti: parola chiave, millimetri. Per esempio, spilli e colori.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R11",
+  "testo": "Ripassiamo: Si digitalizzano i modelli per velocizzare sviluppo taglie e piazzamento. Le correzioni si fanno su una copia, con misure, spilli virtuali e colori.",
+  "lingua": "it"
+ },
+ {
+  "nome": "GL1_0",
+  "testo": "Ripassiamo le parole chiave della lezione.",
+  "lingua": "it"
+ },
+ {
+  "nome": "GL1_1",
+  "testo": "Campionario: la raccolta dei campioni: commerciale, tecnico o elettronico.",
+  "lingua": "it"
+ },
+ {
+  "nome": "GL1_2",
+  "testo": "Codifica: il codice che identifica in modo univoco modelli e sagome.",
+  "lingua": "it"
+ },
+ {
+  "nome": "GL1_3",
+  "testo": "Modello base: modello collaudato, archiviato come punto di partenza.",
+  "lingua": "it"
+ },
+ {
+  "nome": "GL1_4",
+  "testo": "Rimessa: l'entità della cucitura sulla sagoma.",
+  "lingua": "it"
+ },
+ {
+  "nome": "GL1_5",
+  "testo": "Diritto filo: il segno che indica come disporre la sagoma sul tessuto.",
+  "lingua": "it"
+ },
+ {
+  "nome": "GL1_6",
+  "testo": "Tacca: il segno sul perimetro della sagoma come riferimento.",
+  "lingua": "it"
+ },
+ {
+  "nome": "GL1_7",
+  "testo": "Dima: la mascherina che indica la posizione di tasche e asole.",
+  "lingua": "it"
+ },
+ {
+  "nome": "GL1_8",
+  "testo": "Scheda tecnica: il documento con tutte le informazioni per produrre il capo.",
+  "lingua": "it"
+ },
+ {
+  "nome": "GL1_9",
+  "testo": "Distinta base: l'elenco digitale di tutti i pezzi del capo.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MPF_0",
+  "testo": "La mappa di tutta la lezione: Industrializzazione.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MPF_1",
+  "testo": "Ciclo: tre processi, campionario.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MPF_2",
+  "testo": "Codifica: nomi e codici, distinta base.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MPF_3",
+  "testo": "Sagome: rimesse e orli, diritto filo e tacche.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MPF_4",
+  "testo": "Segni: fori e dime, riprese.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MPF_5",
+  "testo": "Schede: modello e tecnica, controllo misure.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MPF_6",
+  "testo": "Digitale: digitalizzazione, correzione.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RF1_0",
+  "testo": "Prima di salutarci, ricapitoliamo insieme gli argomenti della lezione.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RF1_1",
+  "testo": "Primo: il ciclo industriale e il campionario.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RF1_2",
+  "testo": "Secondo: la codifica dei modelli.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RF1_3",
+  "testo": "Terzo: i modelli base e le cuciture.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RF1_4",
+  "testo": "Quarto: rimesse, orli e sagome.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RF1_5",
+  "testo": "Quinto: diritto filo e tacche di riferimento.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RF1_6",
+  "testo": "Sesto: fori di riferimento e dime.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RF1_7",
+  "testo": "Settimo: collaudo del prototipo e difetti comuni.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RF1_8",
+  "testo": "Ottavo: la scheda modello.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RF1_9",
+  "testo": "Nono: la scheda tecnica del capo.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RF1_10",
+  "testo": "Decimo: il controllo delle misure finali.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RF1_11",
+  "testo": "Undicesimo: digitalizzazione e correzione digitale.",
+  "lingua": "it"
+ },
+ {
+  "nome": "FIN1",
+  "testo": "Fine della lezione. Grazie per l'attenzione, e buono studio.",
+  "lingua": "it"
+ },
+ {
+  "nome": "COMP1",
+  "testo": "Ora passa ai compiti.",
+  "lingua": "it"
+ }
+]

@@ -1,0 +1,607 @@
+{
+ "Q1": {
+  "title": "Quiz 1 · Il ciclo industriale e il campionario",
+  "domande": [
+   {
+    "domanda": "Quali sono i tre grandi processi del ciclo industriale?",
+    "giusta": "Analisi, creativo e operativo, commerciale",
+    "sbagliate": [
+     "Taglio, cucito e stiro",
+     "Filatura, tessitura e tintura",
+     "Acquisto, magazzino e spedizione"
+    ],
+    "spiegazione": "Il ciclo trasforma le materie prime in prodotti finiti attraverso programmazione e organizzazione."
+   },
+   {
+    "domanda": "A che cosa servono i campionari tecnici?",
+    "giusta": "Sono usati internamente e ricchi di informazioni per la produzione",
+    "sbagliate": [
+     "Alla propaganda e alla vendita",
+     "A ridurre i costi dei prototipi fisici",
+     "A decorare i negozi"
+    ],
+    "spiegazione": "I commerciali sono curati nell'estetica e destinati alla vendita."
+   },
+   {
+    "domanda": "Che cosa permettono i campionari elettronici?",
+    "giusta": "Di ridurre i costi di confezione dei prototipi fisici",
+    "sbagliate": [
+     "Di eliminare la produzione",
+     "Di sostituire i tessuti",
+     "Di non usare i modelli"
+    ],
+    "spiegazione": "Sono visualizzati con tecnologie informatiche."
+   },
+   {
+    "domanda": "Perché il campionario fisico resta insostituibile?",
+    "giusta": "Per la sua tangibilità",
+    "sbagliate": [
+     "Perché costa meno",
+     "Perché è più veloce",
+     "Perché non serve il modellista"
+    ],
+    "spiegazione": "È la tangibilità a mantenerne il grande valore."
+   },
+   {
+    "domanda": "Che cosa fa il processo commerciale?",
+    "giusta": "Riguarda distribuzione e vendita tramite grossisti, dettaglianti ed e-commerce",
+    "sbagliate": [
+     "Studia le tendenze",
+     "Progetta il campionario",
+     "Industrializza il prodotto"
+    ],
+    "spiegazione": "Il processo di analisi, invece, studia mercato, tendenze e dati di vendita."
+   }
+  ]
+ },
+ "Q2": {
+  "title": "Quiz 2 · La codifica dei modelli",
+  "domande": [
+   {
+    "domanda": "Come identificano i modelli le piccole realtà?",
+    "giusta": "Con un nome, spesso di fiori, piante o persone",
+    "sbagliate": [
+     "Con un codice a barre",
+     "Con una lettera sola",
+     "Non li identificano"
+    ],
+    "spiegazione": "La grande industria preferisce un codice numerico o alfanumerico."
+   },
+   {
+    "domanda": "Che cosa significa DF?",
+    "giusta": "Diritto filo",
+    "sbagliate": [
+     "Davanti frontale",
+     "Dietro foderato",
+     "Disegno finale"
+    ],
+    "spiegazione": "Il diritto filo è indispensabile per il corretto piazzamento."
+   },
+   {
+    "domanda": "Che cosa indicano DAV e DT?",
+    "giusta": "Il davanti e il dietro",
+    "sbagliate": [
+     "Destra e sinistra",
+     "Dime e tacche",
+     "Diritto e rovescio"
+    ],
+    "spiegazione": "DX e SX indicano invece le parti destre e sinistre."
+   },
+   {
+    "domanda": "Che cos'è la distinta base?",
+    "giusta": "L'elenco di ogni pezzo necessario per la confezione",
+    "sbagliate": [
+     "Il disegno del capo",
+     "Il listino prezzi",
+     "Una tabella di taglie"
+    ],
+    "spiegazione": "Comprende le parti principali e le minuterie, come bottoni e passanti."
+   },
+   {
+    "domanda": "Che cosa può indicare la lettera P in un codice?",
+    "giusta": "I pantaloni",
+    "sbagliate": [
+     "La produzione",
+     "Il prezzo",
+     "La pattina"
+    ],
+    "spiegazione": "Un codice strutturato può indicare anche linea, numero del modello e tessuto."
+   }
+  ]
+ },
+ "Q3": {
+  "title": "Quiz 3 · I modelli base e le cuciture",
+  "domande": [
+   {
+    "domanda": "Che cosa sono i modelli base?",
+    "giusta": "Modelli studiati e collaudati con ripetute prove di confezione e indosso",
+    "sbagliate": [
+     "Modelli solo digitali",
+     "Campioni di tessuto",
+     "Cartellini dei prezzi"
+    ],
+    "spiegazione": "Sono archiviati dall'azienda come punto di partenza."
+   },
+   {
+    "domanda": "Qual è il vantaggio di partire da un modello base?",
+    "giusta": "Si riduce il tempo di lavorazione",
+    "sbagliate": [
+     "Non servono più le misure",
+     "Non serve il tessuto",
+     "Si evita la confezione"
+    ],
+    "spiegazione": "Si possono saltare i passaggi preliminari."
+   },
+   {
+    "domanda": "Quali elementi singoli si trovano negli archivi?",
+    "giusta": "Modelli per tasche, cinture e altri dettagli",
+    "sbagliate": [
+     "Solo giacche",
+     "Solo scarpe",
+     "Solo etichette"
+    ],
+    "spiegazione": "Di questi componenti l'azienda conosce resa estetica e tempi."
+   },
+   {
+    "domanda": "Dove i controlli sulle cuciture devono essere più accurati?",
+    "giusta": "Nel fianco della gonna e nel cavallo dei pantaloni",
+    "sbagliate": [
+     "Solo sulle etichette",
+     "Solo sugli orli",
+     "Solo sulle tasche"
+    ],
+    "spiegazione": "Sono gli incroci più significativi per l'armonia del capo."
+   },
+   {
+    "domanda": "Che cosa si fa con linee rigide o incontri aguzzi?",
+    "giusta": "Si limano o si compensano le sagome",
+    "sbagliate": [
+     "Si lasciano così",
+     "Si cambia tessuto",
+     "Si elimina il capo"
+    ],
+    "spiegazione": "Così si previene la comparsa di pieghe durante l'indosso."
+   }
+  ]
+ },
+ "Q4": {
+  "title": "Quiz 4 · Rimesse, orli e sagome",
+  "domande": [
+   {
+    "domanda": "Quale rimessa si usa per le cuciture lineari?",
+    "giusta": "1 cm",
+    "sbagliate": [
+     "0,7 cm",
+     "3 cm",
+     "5 cm"
+    ],
+    "spiegazione": "Per il giro collo e le forme tonde si usa 0,7 cm."
+   },
+   {
+    "domanda": "Di quanto può variare l'immissione degli orli?",
+    "giusta": "3, 4 o 5 cm",
+    "sbagliate": [
+     "0,7 cm",
+     "1 cm",
+     "10 cm"
+    ],
+    "spiegazione": "La misura si applica alle sagome."
+   },
+   {
+    "domanda": "Che cosa si sviluppa a livello industriale?",
+    "giusta": "Tutte le sagome del capo, destre e sinistre",
+    "sbagliate": [
+     "Solo metà delle sagome",
+     "Solo il davanti",
+     "Solo la cintura"
+    ],
+    "spiegazione": "In sartoria è possibile svilupparne solo una metà."
+   },
+   {
+    "domanda": "Quando basta una sola sagoma intera?",
+    "giusta": "Quando il capo non ha cuciture centrali davanti o dietro",
+    "sbagliate": [
+     "Sempre",
+     "Mai",
+     "Solo per i pantaloni"
+    ],
+    "spiegazione": "Altrimenti si hanno due parti uguali ma speculari."
+   },
+   {
+    "domanda": "Quali sagome compongono il dietro di una gonna jeans?",
+    "giusta": "Le parti terminali, due baschine e due taschini",
+    "sbagliate": [
+     "Cintura e passanti",
+     "Bottoniere e controtasche",
+     "Solo la fodera"
+    ],
+    "spiegazione": "Il davanti comprende parti principali, controtasche, interni tasca, bottoniere, striscia passanti e cintura."
+   }
+  ]
+ },
+ "Q5": {
+  "title": "Quiz 5 · Diritto filo e tacche di riferimento",
+  "domande": [
+   {
+    "domanda": "Che cosa indica il segno del diritto filo?",
+    "giusta": "Come disporre la sagoma sul tessuto",
+    "sbagliate": [
+     "Il prezzo della sagoma",
+     "Il colore del tessuto",
+     "La taglia del cliente"
+    ],
+    "spiegazione": "Deve essere presente su tutte le sagome industrializzate."
+   },
+   {
+    "domanda": "Come è tracciato il diritto filo?",
+    "giusta": "Con un segmento che non tocca il perimetro della sagoma",
+    "sbagliate": [
+     "Con una linea che tocca tutti i bordi",
+     "Con un cerchio",
+     "Non si traccia mai"
+    ],
+    "spiegazione": "Si può omettere se il centro davanti o dietro è rettilineo."
+   },
+   {
+    "domanda": "Che cosa sono le tacche di riferimento?",
+    "giusta": "Segni convenzionali sul perimetro della sagoma",
+    "sbagliate": [
+     "Fori nel tessuto",
+     "Etichette adesive",
+     "Tipi di filo"
+    ],
+    "spiegazione": "Indicano per esempio orli, ampiezza della cucitura e sormonti."
+   },
+   {
+    "domanda": "Quale tacca è preferibile per i tessuti delicati?",
+    "giusta": "La tacca sporgente, a forma di piramide",
+    "sbagliate": [
+     "La tacca rientrante",
+     "Nessuna tacca",
+     "Un foro"
+    ],
+    "spiegazione": "Le rientranti sono rischiose sui tessuti di maglia."
+   },
+   {
+    "domanda": "A che cosa serve una tacca su una tasca quadrata?",
+    "giusta": "A indicare la parte alta e distinguere diritto e rovescio",
+    "sbagliate": [
+     "A scegliere il filo",
+     "A decorare la tasca",
+     "A indicare il prezzo"
+    ],
+    "spiegazione": "Evita errori di posizionamento."
+   }
+  ]
+ },
+ "Q6": {
+  "title": "Quiz 6 · Fori di riferimento e dime",
+  "domande": [
+   {
+    "domanda": "Che cosa sono i fori di riferimento?",
+    "giusta": "Piccoli buchi nelle sagome per segnare fine ripresa, tasche e asole",
+    "sbagliate": [
+     "Cuciture decorative",
+     "Etichette adesive",
+     "Tacche a piramide"
+    ],
+    "spiegazione": "Si realizzano con la fustellatrice e si riportano con il trapano marcatore."
+   },
+   {
+    "domanda": "Perché l'uso dei fori è discusso?",
+    "giusta": "Sulla maglia possono causare smagliature e abbassare la qualità",
+    "sbagliate": [
+     "Costano troppo",
+     "Sono illegali",
+     "Sono troppo grandi"
+    ],
+    "spiegazione": "Molte aziende preferiscono le dime."
+   },
+   {
+    "domanda": "A quale distanza dal termine della ripresa si possono nascondere i fori?",
+    "giusta": "Circa 1-1,5 cm",
+    "sbagliate": [
+     "10 cm",
+     "Sul bordo",
+     "20 cm"
+    ],
+    "spiegazione": "La loro posizione va documentata nella scheda tecnica."
+   },
+   {
+    "domanda": "Che cosa sono le dime?",
+    "giusta": "Mascherine che indicano con precisione la posizione di tasche, asole e riprese",
+    "sbagliate": [
+     "Tessuti di rinforzo",
+     "Cartellini dei prezzi",
+     "Fili da cucire"
+    ],
+    "spiegazione": "Individuano la posizione senza deteriorare il tessuto."
+   },
+   {
+    "domanda": "Le dime vanno inserite nei piazzamenti per il taglio?",
+    "giusta": "No, non devono essere inserite",
+    "sbagliate": [
+     "Sì, sempre",
+     "Solo per i pantaloni",
+     "Solo per le gonne"
+    ],
+    "spiegazione": "Possono però servire anche a confezione ultimata."
+   }
+  ]
+ },
+ "Q7": {
+  "title": "Quiz 7 · Collaudo del prototipo e difetti comuni",
+  "domande": [
+   {
+    "domanda": "Quando il prototipo diventa scheda tecnica?",
+    "giusta": "Dopo aver superato il collaudo, quando entra nell'archivio",
+    "sbagliate": [
+     "Prima del disegno",
+     "Dopo la vendita",
+     "Mai"
+    ],
+    "spiegazione": "La prova d'indosso su modella prototipo trova difetti non visti prima."
+   },
+   {
+    "domanda": "Come si corregge una gonna stretta al bacino?",
+    "giusta": "Allargando il capo sul centro davanti e sul centro dietro",
+    "sbagliate": [
+     "Accorciando l'orlo",
+     "Cambiando il colore",
+     "Stringendo la vita"
+    ],
+    "spiegazione": "La gonna tende a risalire verso la vita formando pieghe."
+   },
+   {
+    "domanda": "Come si corregge il difetto di appiombo?",
+    "giusta": "Abbassando il centro dietro sulla linea della vita",
+    "sbagliate": [
+     "Alzando il centro davanti",
+     "Allungando l'orlo",
+     "Togliendo la cintura"
+    ],
+    "spiegazione": "Si riscontra quando la gonna si alza sul davanti."
+   },
+   {
+    "domanda": "Che cosa sono i baffi sul davanti dei pantaloni?",
+    "giusta": "Pieghe dovute a esubero di tessuto, da eliminare stringendo e alzando la punta dell'inforcatura",
+    "sbagliate": [
+     "Decorazioni",
+     "Cuciture laterali",
+     "Tasche applicate"
+    ],
+    "spiegazione": "I raggi al cavallo richiedono invece di allargare la punta."
+   },
+   {
+    "domanda": "Che cosa si controlla prima della produzione in serie?",
+    "giusta": "Che il prototipo abbia mantenuto le caratteristiche ricercate",
+    "sbagliate": [
+     "Il prezzo dei bottoni",
+     "Il numero di clienti",
+     "Il colore delle etichette"
+    ],
+    "spiegazione": "Si valutano aspetto tecnico e cromatico."
+   }
+  ]
+ },
+ "Q8": {
+  "title": "Quiz 8 · La scheda modello",
+  "domande": [
+   {
+    "domanda": "Che cosa descrive la scheda modello?",
+    "giusta": "Quali e quante sagome compongono il capo e il tessuto da usare",
+    "sbagliate": [
+     "Solo il prezzo",
+     "Solo il colore",
+     "Solo la taglia"
+    ],
+    "spiegazione": "Indica anche fodere, interfodere e dime."
+   },
+   {
+    "domanda": "Perché serve dopo il taglio?",
+    "giusta": "Per verificare che siano presenti tutte le sagome prima dell'assemblaggio",
+    "sbagliate": [
+     "Per scegliere il tessuto",
+     "Per fissare il prezzo",
+     "Per scrivere il codice"
+    ],
+    "spiegazione": "Il confezionista la usa per sapere di quante sagome è fatto il capo."
+   },
+   {
+    "domanda": "Come si chiama anche la scheda modello digitalizzata?",
+    "giusta": "Distinta base modello",
+    "sbagliate": [
+     "Plat",
+     "Dima",
+     "Cartamodello"
+    ],
+    "spiegazione": "Ogni riga riporta codice, quantità, materiale e significato del pezzo."
+   },
+   {
+    "domanda": "Che cosa permettono i codici univoci?",
+    "giusta": "Ai software di piazzamento di distinguere le sagome in modo automatico",
+    "sbagliate": [
+     "Di eliminare il modellista",
+     "Di non misurare",
+     "Di non stirare"
+    ],
+    "spiegazione": "Si rispettano rigorosamente le misure progettate."
+   },
+   {
+    "domanda": "Quali sono pezzi di completamento di una gonna?",
+    "giusta": "La cintura e i passanti",
+    "sbagliate": [
+     "Il davanti",
+     "Le baschine",
+     "Le controtasche"
+    ],
+    "spiegazione": "Il davanti comprende parte principale, controtasche e bottoniere."
+   }
+  ]
+ },
+ "Q9": {
+  "title": "Quiz 9 · La scheda tecnica del capo",
+  "domande": [
+   {
+    "domanda": "Che cos'è la scheda provvisoria?",
+    "giusta": "La scheda del prototipo, preparata da stilista, modellista e ufficio tecnico",
+    "sbagliate": [
+     "La scheda dei clienti",
+     "L'elenco delle taglie",
+     "Il catalogo dei tessuti"
+    ],
+    "spiegazione": "La definitiva nasce dopo il collaudo e aggiunge i consumi per taglia."
+   },
+   {
+    "domanda": "Che cosa descrive la distinta consumi?",
+    "giusta": "La quantità di materie prime necessarie per ogni taglia",
+    "sbagliate": [
+     "Il prezzo di vendita",
+     "Il numero dei dipendenti",
+     "I tempi di consegna"
+    ],
+    "spiegazione": "Comprende tessuti, fodere, bottoni ed etichette."
+   },
+   {
+    "domanda": "Che cos'è la raffigurazione tecnica?",
+    "giusta": "Il plat, la rappresentazione grafica del capo in piano",
+    "sbagliate": [
+     "Una fotografia",
+     "Un campione di tessuto",
+     "Un codice"
+    ],
+    "spiegazione": "È parte della scheda tecnica."
+   },
+   {
+    "domanda": "Che cosa compila il modellista?",
+    "giusta": "Descrizione dell'aspetto, cuciture, tacche, dime e consumi degli accessori",
+    "sbagliate": [
+     "Etichettatura e imballaggio",
+     "Stagione e linea",
+     "Il listino"
+    ],
+    "spiegazione": "Lo stilista compila grafica, stagione e linea."
+   },
+   {
+    "domanda": "Chi trascrive i dati su etichettatura e imballaggio?",
+    "giusta": "L'ufficio tecnico",
+    "sbagliate": [
+     "Lo stilista",
+     "Il cliente",
+     "Il corriere"
+    ],
+    "spiegazione": "Trascrive anche trattamenti finali e caratteristiche del tessuto."
+   }
+  ]
+ },
+ "Q10": {
+  "title": "Quiz 10 · Il controllo delle misure finali",
+  "domande": [
+   {
+    "domanda": "A che cosa serve la scheda di controllo misure finali?",
+    "giusta": "A verificare che il capo finito rispetti le dimensioni previste",
+    "sbagliate": [
+     "A scegliere il tessuto",
+     "A fissare il prezzo",
+     "A disegnare il plat"
+    ],
+    "spiegazione": "Contiene il plat e le misure per ogni taglia."
+   },
+   {
+    "domanda": "Quale può essere una causa di misure non corrispondenti?",
+    "giusta": "Una stesura delle falde troppo tesa",
+    "sbagliate": [
+     "Il colore del filo",
+     "La stagione",
+     "Il nome del modello"
+    ],
+    "spiegazione": "La stesura tesa provoca un successivo rientro delle misure."
+   },
+   {
+    "domanda": "Che cosa può succedere ai capi in jersey sull'appendiabiti?",
+    "giusta": "Possono subire allungamenti",
+    "sbagliate": [
+     "Si restringono",
+     "Cambiano colore",
+     "Si scuciono"
+    ],
+    "spiegazione": "È un caso di presentazione errata."
+   },
+   {
+    "domanda": "Chi prepara la scheda di controllo misure?",
+    "giusta": "Il modellista",
+    "sbagliate": [
+     "Il cliente",
+     "Il magazziniere",
+     "Il commerciale"
+    ],
+    "spiegazione": "Conosce con precisione le misure del progetto."
+   },
+   {
+    "domanda": "Con quale ordine si organizzano le misure?",
+    "giusta": "Prima le larghezze, poi le lunghezze",
+    "sbagliate": [
+     "Prima le lunghezze",
+     "A caso",
+     "Solo le altezze"
+    ],
+    "spiegazione": "Un ordine ragionato facilita il lavoro degli operatori."
+   }
+  ]
+ },
+ "Q11": {
+  "title": "Quiz 11 · Digitalizzazione e correzione digitale",
+  "domande": [
+   {
+    "domanda": "Che cosa permette la digitalizzazione dei modelli?",
+    "giusta": "Rende più rapidi sviluppo taglie e piazzamento",
+    "sbagliate": [
+     "Eliminare le taglie",
+     "Non usare più tessuti",
+     "Evitare il collaudo"
+    ],
+    "spiegazione": "Converte le sagome fisiche in formato digitale."
+   },
+   {
+    "domanda": "Come vengono acquisite le sagome con il digitalizzatore?",
+    "giusta": "Fissate su un tavolo e ripercorse con un cursore",
+    "sbagliate": [
+     "Fotografate col telefono",
+     "Ricopiate a mano",
+     "Pesate"
+    ],
+    "spiegazione": "L'operatore indica anche orientamento e diritto filo."
+   },
+   {
+    "domanda": "Su che cosa opera il modellista nella correzione digitale?",
+    "giusta": "Su una copia della sagoma, mentre l'originale resta in archivio",
+    "sbagliate": [
+     "Sull'originale",
+     "Sul tessuto",
+     "Sull'etichetta"
+    ],
+    "spiegazione": "L'originale è l'elemento di confronto."
+   },
+   {
+    "domanda": "A che cosa servono gli spilli virtuali?",
+    "giusta": "A bloccare misure o punti che non devono variare",
+    "sbagliate": [
+     "A cucire",
+     "A tagliare",
+     "A stampare"
+    ],
+    "spiegazione": "I colori diversi mostrano l'area modificata."
+   },
+   {
+    "domanda": "Che cosa va valutato se si allunga una canotta?",
+    "giusta": "Anche l'eventuale allargamento, per mantenere la vestibilità",
+    "sbagliate": [
+     "Il colore",
+     "Il prezzo",
+     "Il numero di bottoni"
+    ],
+    "spiegazione": "Il capo non deve risultare troppo aderente."
+   }
+  ]
+ }
+}
