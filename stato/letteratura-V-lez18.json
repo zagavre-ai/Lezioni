@@ -2,8 +2,446 @@
  "tag": "letteratura-V-lez18",
  "parti": {
   "1": {
-   "stato": "IN_MONTAGGIO",
-   "voci": "segnaposto"
+   "stato": "PRONTA",
+   "voci": "kore",
+   "titolo": "Eugenio Montale",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "si",
+   "video": "Letteratura_Lez18_Parte1_1080p.mp4",
+   "durata_s": 2294.6,
+   "durata": "38:14.6",
+   "fotogrammi": 68837,
+   "fotogrammi_attesi": 68837,
+   "peso_MB": 162.8,
+   "vtt": "Letteratura_Lez18_Parte1.vtt",
+   "scheda": {
+    "materia": "Letteratura italiana (V)",
+    "titolo": "Eugenio Montale · Parte 1",
+    "durata_s": 2294.57,
+    "argomenti": [
+     {
+      "n": 1,
+      "titolo": "La vita",
+      "inizio_s": 119.267,
+      "quiz_s": 343.834
+     },
+     {
+      "n": 2,
+      "titolo": "Ossi di seppia e la poetica",
+      "inizio_s": 349.134,
+      "quiz_s": 644.267
+     },
+     {
+      "n": 3,
+      "titolo": "I testi degli Ossi",
+      "inizio_s": 649.567,
+      "quiz_s": 1234.533
+     },
+     {
+      "n": 4,
+      "titolo": "Le occasioni",
+      "inizio_s": 1239.833,
+      "quiz_s": 1477.532
+     },
+     {
+      "n": 5,
+      "titolo": "La bufera e altro e Satura",
+      "inizio_s": 1482.832,
+      "quiz_s": 1791.332
+     },
+     {
+      "n": 6,
+      "titolo": "La figura della moglie",
+      "inizio_s": 1796.632,
+      "quiz_s": 2138.298
+     }
+    ],
+    "quiz": {
+     "Q1": {
+      "title": "Quiz 1 · La vita",
+      "items": [
+       {
+        "p": "Dove e quando nasce Eugenio Montale?",
+        "a": "A Genova, nel 1896",
+        "w": [
+         "A Firenze, nel 1927",
+         "A Milano, nel 1948",
+         "A Torino, nel 1881"
+        ],
+        "e": "Montale nasce a Genova nel 1896."
+       },
+       {
+        "p": "Quale diploma consegue Montale?",
+        "a": "Ragioniere",
+        "w": [
+         "Maestro elementare",
+         "Geometra",
+         "Perito agrario"
+        ],
+        "e": "Si diploma come ragioniere e nutre una forte passione per il canto."
+       },
+       {
+        "p": "Perché nel 1938 Montale viene licenziato dal Gabinetto Vieusseux?",
+        "a": "Perché non è iscritto al Partito fascista",
+        "w": [
+         "Perché si trasferisce a Milano",
+         "Perché vince il premio Nobel",
+         "Perché parte per la guerra"
+        ],
+        "e": "Dal 1927 dirige il Gabinetto Vieusseux a Firenze, da cui viene licenziato nel 1938 perché non iscritto al Partito fascista."
+       },
+       {
+        "p": "Per quale giornale lavora Montale a Milano dal 1948?",
+        "a": "Il Corriere della Sera",
+        "w": [
+         "La Stampa",
+         "Il Mattino",
+         "La Repubblica"
+        ],
+        "e": "Nel 1948 si stabilisce a Milano come redattore e critico del Corriere della Sera."
+       },
+       {
+        "p": "In che anno Montale riceve il premio Nobel per la letteratura?",
+        "a": "Nel 1975",
+        "w": [
+         "Nel 1925",
+         "Nel 1956",
+         "Nel 1981"
+        ],
+        "e": "Riceve il Nobel nel 1975 e muore nel 1981."
+       }
+      ]
+     },
+     "Q2": {
+      "title": "Quiz 2 · Ossi di seppia e la poetica",
+      "items": [
+       {
+        "p": "Quando esce Ossi di seppia e com'è organizzata la raccolta?",
+        "a": "Nel 1925, divisa in quattro sezioni",
+        "w": [
+         "Nel 1939, divisa in due parti",
+         "Nel 1956, in un'unica sezione",
+         "Nel 1971, in sei sezioni"
+        ],
+        "e": "È la prima opera poetica di Montale, pubblicata nel 1925 e divisa in quattro sezioni."
+       },
+       {
+        "p": "Che cosa evoca il titolo Ossi di seppia?",
+        "a": "Gli scheletri dei molluschi scartati dal mare, simbolo di una vita arida",
+        "w": [
+         "Un piatto tipico della cucina ligure",
+         "La forza vitale del mare",
+         "Un viaggio avventuroso in nave"
+        ],
+        "e": "Il titolo evoca gli scheletri dei molluschi scartati dal mare, simbolo di una vita impoverita e ridotta all'essenziale."
+       },
+       {
+        "p": "In che cosa consiste il correlativo oggettivo?",
+        "a": "I sentimenti si esprimono attraverso oggetti concreti",
+        "w": [
+         "Il poeta spiega direttamente i propri sentimenti",
+         "Ogni oggetto ha un solo significato oggettivo",
+         "La poesia descrive la natura in modo scientifico"
+        ],
+        "e": "I processi interiori non vengono spiegati, ma si oggettivano in immagini concrete: il muro scalcinato, il rivo strozzato, il secchio nel pozzo."
+       },
+       {
+        "p": "Come rappresenta la natura ligure Montale?",
+        "a": "Non è consolatoria: rappresenta l'aridità e il male di vivere",
+        "w": [
+         "È un rifugio sereno e consolante",
+         "È lo sfondo di avventure eroiche",
+         "È descritta solo per la sua bellezza"
+        ],
+        "e": "La natura nei testi montaliani non è consolatoria, ma rappresenta l'aridità e il mal di vivere."
+       },
+       {
+        "p": "Che cosa può fare la poesia, secondo Montale?",
+        "a": "Solo definire una condizione in negativo: «ciò che non siamo, ciò che non vogliamo»",
+        "w": [
+         "Dare risposte certe sul senso della vita",
+         "Portare ordine nel caos dell'animo umano",
+         "Diffondere verità sublimi come un vate"
+        ],
+        "e": "A differenza dei simbolisti o di Ungaretti, la poesia non ha formule magiche: può solo dire ciò che non siamo, ciò che non vogliamo."
+       }
+      ]
+     },
+     "Q3": {
+      "title": "Quiz 3 · I testi degli Ossi",
+      "items": [
+       {
+        "p": "Quale funzione ha I limoni dentro Ossi di seppia?",
+        "a": "Introduce la raccolta, dopo In limine",
+        "w": [
+         "La chiude come congedo",
+         "È un testo aggiunto nel 1971",
+         "È la poesia dedicata alla moglie"
+        ],
+        "e": "Il componimento risale al 1921-22 e, dopo In limine, fa da introduzione alla vera e propria raccolta."
+       },
+       {
+        "p": "Chi sono i «poeti laureati» da cui Montale prende le distanze nei Limoni?",
+        "a": "I poeti della tradizione aulica, coronati d'alloro",
+        "w": [
+         "I poeti laureati all'università di Genova",
+         "I poeti dialettali liguri",
+         "I giovani poeti futuristi"
+        ],
+        "e": "Laureati vale coronati d'alloro, simbolo della gloria poetica: Montale rifiuta la poesia aulica e sceglie oggetti umili."
+       },
+       {
+        "p": "Che cosa simboleggia la gialla solarità dei limoni?",
+        "a": "Speranza e rinascita",
+        "w": [
+         "Il dolore e la morte",
+         "La ricchezza della borghesia",
+         "La gloria militare"
+        ],
+        "e": "Tra i temi principali c'è la gialla solarità dei limoni come simbolo di speranza e rinascita."
+       },
+       {
+        "p": "In Meriggiare pallido e assorto, che cosa rappresenta il muro con i cocci di bottiglia?",
+        "a": "La barriera che separa l'uomo dalla verità ultima",
+        "w": [
+         "La protezione della casa del poeta",
+         "La bellezza del paesaggio ligure",
+         "Il ricordo della moglie"
+        ],
+        "e": "Il muro è l'impossibilità di superare la prigionia esistenziale e di comprendere la verità."
+       },
+       {
+        "p": "In Spesso il male di vivere ho incontrato, quali sono gli emblemi del «bene»?",
+        "a": "La statua, la nuvola e il falco",
+        "w": [
+         "Il rivo, la foglia e il cavallo",
+         "I limoni, il sole e il mare",
+         "Il muro, il secchio e il pozzo"
+        ],
+        "e": "Il bene è solo la divina Indifferenza: la statua, la nuvola e il falco alto levato."
+       }
+      ]
+     },
+     "Q4": {
+      "title": "Quiz 4 · Le occasioni",
+      "items": [
+       {
+        "p": "In che anno escono Le occasioni?",
+        "a": "Nel 1939",
+        "w": [
+         "Nel 1925",
+         "Nel 1956",
+         "Nel 1971"
+        ],
+        "e": "Le occasioni sono del 1939."
+       },
+       {
+        "p": "In quale clima storico si colloca la raccolta?",
+        "a": "Il dopoguerra e gli anni Trenta, con la minaccia del fascismo",
+        "w": [
+         "Il Risorgimento",
+         "Il boom economico degli anni Sessanta",
+         "La Belle Époque"
+        ],
+        "e": "La raccolta nasce nel clima del dopoguerra e degli anni Trenta, segnati dal fascismo e dall'impotenza degli intellettuali."
+       },
+       {
+        "p": "Che cosa caratterizza la memoria nelle Occasioni?",
+        "a": "È stanca e offuscata: i ricordi svaniscono",
+        "w": [
+         "È lucida e sempre affidabile",
+         "Riporta il passato intatto",
+         "È del tutto assente"
+        ],
+        "e": "Emerge il tema della memoria stanca e offuscata: ricordi e volti amati sono fragili e impossibili da recuperare."
+       },
+       {
+        "p": "Che cos'è il «varco» che il poeta cerca?",
+        "a": "Una via di fuga dalla prigionia del tempo monotono",
+        "w": [
+         "Un passaggio segreto in una casa ligure",
+         "Una nuova forma metrica",
+         "Una carica politica"
+        ],
+        "e": "Il poeta tenta di trovare una via di fuga, ma la speranza viene quasi sempre spenta."
+       },
+       {
+        "p": "Quale sezione fa parte delle Occasioni?",
+        "a": "I Mottetti",
+        "w": [
+         "Xenia",
+         "In limine",
+         "Satura"
+        ],
+        "e": "Montale inserisce la sezione Mottetti nelle Occasioni."
+       }
+      ]
+     },
+     "Q5": {
+      "title": "Quiz 5 · La bufera e altro e Satura",
+      "items": [
+       {
+        "p": "Di che cosa risente La bufera e altro (1956)?",
+        "a": "Della seconda guerra mondiale e delle delusioni del dopoguerra",
+        "w": [
+         "Della prima guerra mondiale",
+         "Della crisi economica del 1929",
+         "Del Risorgimento"
+        ],
+        "e": "La raccolta risente della tragedia della seconda guerra mondiale e delle delusioni del dopoguerra."
+       },
+       {
+        "p": "Verso che cosa Montale esprime il suo dissenso nella Bufera?",
+        "a": "Il clericalismo, il comunismo e la massificazione",
+        "w": [
+         "La civiltà liberale",
+         "L'autonomia dell'intellettuale",
+         "La poesia dei simbolisti"
+        ],
+        "e": "Montale rifiuta le ideologie: il clericalismo e il comunismo, la massificazione e l'allineamento culturale."
+       },
+       {
+        "p": "Quali valori difendono i testi della Bufera?",
+        "a": "I valori della civiltà liberale e l'autonomia dell'intellettuale",
+        "w": [
+         "I valori della società dei consumi",
+         "L'obbedienza al partito",
+         "Il culto della guerra"
+        ],
+        "e": "I testi sono una sorta di testamento spirituale in difesa della civiltà liberale e dell'autonomia dell'intellettuale."
+       },
+       {
+        "p": "Che svolta segna Satura (1971) nello stile?",
+        "a": "Componimenti brevi, ironici e prosastici",
+        "w": [
+         "Lunghi poemi epici",
+         "Sonetti di stile aulico",
+         "Canzoni in dialetto"
+        ],
+        "e": "Satura segna una svolta radicale con componimenti brevi, ironici e prosastici."
+       },
+       {
+        "p": "Com'è la concezione della storia in Satura?",
+        "a": "Antistoricistica: la storia non è mossa da progresso o razionalità",
+        "w": [
+         "Ottimistica: la storia è maestra di vita",
+         "Positivistica: la storia progredisce sempre",
+         "Religiosa: la storia segue un disegno divino"
+        ],
+        "e": "Montale assume una posizione antistoricistica: la storia procede in modo disordinato e senza certezze."
+       }
+      ]
+     },
+     "Q6": {
+      "title": "Quiz 6 · La figura della moglie",
+      "items": [
+       {
+        "p": "A chi è dedicata la sezione Xenia?",
+        "a": "Alla moglie Drusilla Tanzi",
+        "w": [
+         "Alla madre del poeta",
+         "A una donna immaginaria",
+         "Agli amici di Firenze"
+        ],
+        "e": "Xenia contiene poesie intime dedicate alla memoria della moglie Drusilla Tanzi."
+       },
+       {
+        "p": "Con quale soprannome è ricordata Drusilla Tanzi?",
+        "a": "Mosca",
+        "w": [
+         "Clizia",
+         "Volpe",
+         "Annetta"
+        ],
+        "e": "Drusilla Tanzi era soprannominata «Mosca»."
+       },
+       {
+        "p": "In che anno muore Drusilla Tanzi?",
+        "a": "Nel 1963",
+        "w": [
+         "Nel 1939",
+         "Nel 1971",
+         "Nel 1981"
+        ],
+        "e": "La moglie del poeta muore nel 1963."
+       },
+       {
+        "p": "Che cosa diventa la miopia della moglie in Ho sceso, dandoti il braccio?",
+        "a": "La metafora di una capacità superiore di vedere oltre le apparenze",
+        "w": [
+         "Un difetto di cui il poeta si lamenta",
+         "Il segno della sua debolezza",
+         "Un motivo di scherzo"
+        ],
+        "e": "La miopia fisica della moglie diventa metafora di una superiore capacità di vedere oltre le apparenze e le trappole della realtà."
+       },
+       {
+        "p": "Come si configura l'opera di Montale, secondo la conclusione della lezione?",
+        "a": "Una testimonianza lucida e priva di illusioni sulla condizione dell'uomo moderno",
+        "w": [
+         "Un invito all'ottimismo",
+         "Un manuale di storia",
+         "Una raccolta di poesie per bambini"
+        ],
+        "e": "L'eredità di Montale è una testimonianza lucida e priva di illusioni sulla complessa condizione dell'uomo moderno."
+       }
+      ]
+     }
+    }
+   },
+   "timeline": [
+    [
+     "T1",
+     119.267,
+     3.6
+    ],
+    [
+     "Q1",
+     343.834,
+     4.0
+    ],
+    [
+     "T2",
+     349.134,
+     3.6
+    ],
+    [
+     "T3",
+     649.567,
+     3.6
+    ],
+    [
+     "T4",
+     1239.833,
+     3.6
+    ],
+    [
+     "T5",
+     1482.832,
+     3.6
+    ],
+    [
+     "T6",
+     1796.632,
+     3.6
+    ],
+    [
+     "GL1",
+     2143.598,
+     50.533
+    ],
+    [
+     "RF1",
+     2195.731,
+     63.233
+    ],
+    [
+     "FIN1",
+     2260.364,
+     8.0
+    ]
+   ]
   }
  },
  "manca": "",
@@ -21,10 +459,14 @@
   {
    "quando": "14/11 07:10",
    "testo": "Chat D2: voci Kore importate (10/10; S3 segnata DA CONTROLLARE: differenze solo di trascrizione, numeri in cifre). Pezzi del docente montati; schede e unione in corso, poi codifica."
+  },
+  {
+   "quando": "14/11 08:38",
+   "testo": "controllo_finale: ESITO: TUTTO OK"
   }
  ],
  "materia": "Letteratura italiana · V anno",
  "lezione": "Lezione 18",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 07:10:56"
+ "aggiornato": "2026-11-14 08:38:30"
 }
