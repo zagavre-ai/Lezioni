@@ -6,7 +6,12 @@
   }
  },
  "manca": "",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "14/11 04:05",
+   "testo": "Lez10: docente 36:19, con gli inserti circa 42 min (stima). Sotto i 50 min: la regola vieta i riempitivi. La consegno in una Parte sola salvo diversa indicazione."
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
@@ -16,10 +21,14 @@
   {
    "quando": "14/11 03:59",
    "testo": "Ripresa da capo da chat B2 (Letteratura V · chat B2)"
+  },
+  {
+   "quando": "14/11 04:05",
+   "testo": "chat B2: docente misurato 36:19; quiz 20 domande (4 argomenti) e 11 testi voci (INTRO, R1-R4, S1-S4, GL, RF, FIN) inviati su voci-letteratura-V-lez10. Con gli inserti si stima circa 42 min: sotto i 50 senza riempitivi (stesso caso della lez07 di chat D)."
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 10",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 03:59:00"
+ "aggiornato": "2026-11-14 04:05:47"
 }
