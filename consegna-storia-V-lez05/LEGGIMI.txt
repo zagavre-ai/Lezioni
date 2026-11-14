@@ -2,6 +2,6 @@ Storia V · Lezione 5 · La Rivoluzione russa e la nascita dell'URSS (1917-1922)
 Video a pezzi da 90 MB: riunisci con  cat Storia_Lez5_ParteN_1080p.mp4.parte_* > Storia_Lez5_ParteN_1080p.mp4  e controlla con il file .sha256.
 Parte 1: argomenti 1-4 · Parte 2: argomenti 5-9 (nel video della Parte 2 i quiz sono numerati 1-5; vedi scheda_pubblicazione_Parte2.json).
 Tempi esatti: Parte 1 t_verifica 3168.800 s, t_compiti 3182.300 s · Parte 2 t_verifica 3051.967 s, t_compiti 3065.467 s.
-Test finale: PROPOSTA_DA_VALIDARE (10 domande dal materiale del docente): l'Excel del docente (zip 008) non è ancora caricato; si sostituisce senza rimontare.
-Compiti: COMPITI_MANCANTI (nel video ci sono le schede «Compiti»).
+Test finale: Excel del docente (10 domande, Storia_Lez5_test_finale_docente.xlsx; date e numeri riscritti come testo). Aggiornato il 14/11 sera.
+Compiti: quelli del docente (4 domande aperte), Storia_Lez5_compiti_docente.pdf e .txt.
 Slide: ricostruite dal video del docente (nella release mancano). Nota: la slide del docente dice «20 dicembre 1922» per la nascita dell'URSS; il docente a voce dice 30 dicembre (data storica): nelle nostre slide 30 dicembre.
