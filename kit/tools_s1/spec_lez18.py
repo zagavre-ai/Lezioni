@@ -430,3 +430,11 @@ _NEW = {
 }
 for _a in ARG:
     if _a['id'] in _NEW:_a['an'].insert(0 if _a['id']==1 else len(_a['an']),_NEW[_a['id']])
+
+MAPPA_LEZIONE = dict(centro="L'Italia repubblicana",
+ rami=[dict(concetto="Un Paese da ricostruire", parola="macerie", esempio="mercato nero"),
+       dict(concetto="Nasce la Repubblica", parola="referendum 1946", esempio="12 milioni contro 10"),
+       dict(concetto="La Costituzione", parola="1° gennaio 1948", esempio="tre poteri"),
+       dict(concetto="Il Centrismo", parola="DC al governo", esempio="Marshall, NATO"),
+       dict(concetto="Il boom economico", parola="1958-1963", esempio="Fiat 500"),
+       dict(concetto="Il Centrosinistra", parola="DC e PSI", esempio="ENEL, scuola media")])
