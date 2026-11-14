@@ -1,0 +1,375 @@
+{
+ "materia": "Storia",
+ "titolo": "Il mondo agli inizi del XX secolo e l'imperialismo · Parte 2",
+ "durata_s": 3043.33,
+ "argomenti": [
+  {
+   "n": 4,
+   "titolo": "La Germania di Guglielmo II",
+   "inizio_s": 73.7,
+   "quiz_s": 505.199
+  },
+  {
+   "n": 5,
+   "titolo": "Austria-Ungheria e Balcani",
+   "inizio_s": 510.499,
+   "quiz_s": 852.065
+  },
+  {
+   "n": 6,
+   "titolo": "L'Impero russo · autocrazia e rivoluzione",
+   "inizio_s": 857.365,
+   "quiz_s": 1605.898
+  },
+  {
+   "n": 7,
+   "titolo": "L'Estremo Oriente · Giappone e Cina",
+   "inizio_s": 1611.198,
+   "quiz_s": 2082.098
+  },
+  {
+   "n": 8,
+   "titolo": "Gli Stati Uniti nuova potenza",
+   "inizio_s": 2087.398,
+   "quiz_s": 2477.297
+  },
+  {
+   "n": 9,
+   "titolo": "America Latina e Messico",
+   "inizio_s": 2482.597,
+   "quiz_s": 2786.897
+  }
+ ],
+ "quiz": {
+  "Q4": {
+   "title": "Quiz 4 · La Germania di Guglielmo II",
+   "items": [
+    {
+     "p": "In che anno sale al trono il Kaiser Guglielmo II?",
+     "a": "1888",
+     "w": [
+      "1871",
+      "1901",
+      "1914"
+     ],
+     "e": "Il Kaiser abbandona la linea prudente di Bismarck."
+    },
+    {
+     "p": "Che cosa significa Weltpolitik?",
+     "a": "«Politica mondiale»",
+     "w": [
+      "«Politica prudente»",
+      "«Politica interna»",
+      "«Politica coloniale difensiva»"
+     ],
+     "e": "È una politica estera aggressiva, con espansione in Africa."
+    },
+    {
+     "p": "Quale piano avvia il riarmo navale tedesco?",
+     "a": "Il piano Tirpitz",
+     "w": [
+      "Il piano Schlieffen",
+      "Il piano Marshall",
+      "Il piano Dawes"
+     ],
+     "e": "Serve a sfidare l'egemonia marittima britannica."
+    },
+    {
+     "p": "Quale popolazione viene sterminata nelle colonie tedesche in Namibia?",
+     "a": "Gli Herero",
+     "w": [
+      "I Boeri",
+      "I Boxer",
+      "I Maya"
+     ],
+     "e": "Le colonie vengono amministrate duramente."
+    },
+    {
+     "p": "Che cosa subisce la società tedesca interna?",
+     "a": "Una forte militarizzazione guidata dal sovrano",
+     "w": [
+      "Una rivoluzione socialista",
+      "Una smilitarizzazione",
+      "Un'ondata di emigrazione obbligata"
+     ],
+     "e": "Predominio dei militari."
+    }
+   ]
+  },
+  "Q5": {
+   "title": "Quiz 5 · Austria-Ungheria e Balcani",
+   "items": [
+    {
+     "p": "Quali popoli privilegia il «compromesso» del 1867?",
+     "a": "Tedeschi e ungheresi",
+     "w": [
+      "Slavi e serbi",
+      "Italiani e croati",
+      "Cechi e polacchi"
+     ],
+     "e": "Le altre minoranze, specialmente gli slavi, sono oppresse."
+    },
+    {
+     "p": "Quale annessione del 1908 alimenta il nazionalismo serbo?",
+     "a": "La Bosnia Erzegovina",
+     "w": [
+      "Il Montenegro",
+      "La Macedonia",
+      "L'Albania"
+     ],
+     "e": "La Serbia è sostenuta dalla Russia in ottica panslavista."
+    },
+    {
+     "p": "Quale Stato sostiene la Serbia in ottica panslavista?",
+     "a": "La Russia",
+     "w": [
+      "La Francia",
+      "La Germania",
+      "La Turchia"
+     ],
+     "e": "Il panslavismo vuole l'unione dei popoli slavi."
+    },
+    {
+     "p": "Chi progetta la trasformazione dell'impero in senso trialistico?",
+     "a": "Francesco Ferdinando",
+     "w": [
+      "Francesco Giuseppe",
+      "Guglielmo II",
+      "Bismarck"
+     ],
+     "e": "Gli slavi sarebbero equiparati a tedeschi e ungheresi."
+    },
+    {
+     "p": "Quali città sono citate come centri di sviluppo culturale dell'impero?",
+     "a": "Vienna e Praga",
+     "w": [
+      "Budapest e Roma",
+      "Berlino e Dresda",
+      "Mosca e Kiev"
+     ],
+     "e": "Nonostante lo sviluppo culturale, l'impero è fragile."
+    }
+   ]
+  },
+  "Q6": {
+   "title": "Quiz 6 · L'Impero russo · autocrazia e rivoluzione",
+   "items": [
+    {
+     "p": "Da che cosa è considerato derivare il potere dello zar?",
+     "a": "Da un'origine divina",
+     "w": [
+      "Dal voto popolare",
+      "Da un contratto con la nobiltà",
+      "Dal Parlamento"
+     ],
+     "e": "La Russia è l'unica potenza europea con un'autocrazia pura."
+    },
+    {
+     "p": "Quale grande opera segna l'industrializzazione russa degli anni Novanta?",
+     "a": "La Transiberiana",
+     "w": [
+      "Il canale di Suez",
+      "La metropolitana di Mosca",
+      "Il porto di Odessa"
+     ],
+     "e": "Lo sviluppo è guidato da capitali stranieri."
+    },
+    {
+     "p": "Chi guida i bolscevichi?",
+     "a": "Lenin",
+     "w": [
+      "Trotskij",
+      "Stalin",
+      "Kerenskij"
+     ],
+     "e": "I menscevichi sono i riformisti del Partito operaio socialdemocratico."
+    },
+    {
+     "p": "Quale battaglia segna la sconfitta russa nella guerra con il Giappone (1904-1905)?",
+     "a": "Tsushima",
+     "w": [
+      "Mukden",
+      "Port Arthur",
+      "Sebastopoli"
+     ],
+     "e": "Il conflitto era per Manciuria e Corea."
+    },
+    {
+     "p": "Che cosa è la «Domenica di sangue» del 1905?",
+     "a": "La violenta repressione a San Pietroburgo che scatena scioperi e i primi soviet",
+     "w": [
+      "L'assassinio dello zar",
+      "L'inizio della guerra con il Giappone",
+      "La proclamazione della Duma"
+     ],
+     "e": "Lo zar concede la Duma, ma ne riduce subito i poteri."
+    }
+   ]
+  },
+  "Q7": {
+   "title": "Quiz 7 · L'Estremo Oriente · Giappone e Cina",
+   "items": [
+    {
+     "p": "Con quale era il Giappone si modernizza sul modello occidentale?",
+     "a": "L'era Meiji",
+     "w": [
+      "L'era Edo",
+      "L'era Heian",
+      "L'era Taisho"
+     ],
+     "e": "Istruzione, ferrovie, industria e flotta: il Giappone diventa potenza imperialista."
+    },
+    {
+     "p": "Quale dinastia governa la Cina in crisi?",
+     "a": "La dinastia Qing",
+     "w": [
+      "La dinastia Ming",
+      "La dinastia Han",
+      "La dinastia Tang"
+     ],
+     "e": "La Cina subisce imposizioni commerciali (guerre dell'oppio)."
+    },
+    {
+     "p": "Che cosa è la rivolta dei Boxer (1900)?",
+     "a": "Un movimento nazionalista e xenofobo che assedia le legazioni a Pechino",
+     "w": [
+      "Una rivolta di contadini filo-occidentali",
+      "Una guerra civile tra Qing e Ming",
+      "Uno sciopero di operai portuali"
+     ],
+     "e": "Viene repressa da una spedizione militare internazionale."
+    },
+    {
+     "p": "Chi guida il movimento che nel 1912 abbatte l'impero Qing?",
+     "a": "Sun Yat-sen",
+     "w": [
+      "Mao Zedong",
+      "Yuan Shikai",
+      "Chiang Kai-shek"
+     ],
+     "e": "Proclama la Repubblica di Cina."
+    },
+    {
+     "p": "Sotto quale dittatura cade presto la Repubblica di Cina?",
+     "a": "Quella militare di Yuan Shikai",
+     "w": [
+      "Quella comunista di Mao",
+      "Quella imperiale di Qing",
+      "Quella di Sun Yat-sen"
+     ],
+     "e": "Il millenario impero era finito nel 1912."
+    }
+   ]
+  },
+  "Q8": {
+   "title": "Quiz 8 · Gli Stati Uniti nuova potenza",
+   "items": [
+    {
+     "p": "Quale legge del 1890 contrasta i grandi monopoli aziendali?",
+     "a": "Lo Sherman Antitrust Act",
+     "w": [
+      "Il Clayton Act",
+      "Il Homestead Act",
+      "Il Patent Act"
+     ],
+     "e": "Si sviluppano siderurgia e petrolio, con grandi trust."
+    },
+    {
+     "p": "Quale presidente adotta misure progressiste come il divieto del lavoro minorile?",
+     "a": "Theodore Roosevelt",
+     "w": [
+      "Franklin Roosevelt",
+      "Woodrow Wilson",
+      "William McKinley"
+     ],
+     "e": "Limita l'orario di lavoro e regola i grandi gruppi."
+    },
+    {
+     "p": "Che cosa è la politica del Big Stick?",
+     "a": "L'intervento armato per tutelare gli interessi americani",
+     "w": [
+      "Il ritiro dalle questioni internazionali",
+      "Il libero scambio",
+      "Un accordo con l'Europa"
+     ],
+     "e": "Trasforma l'America Latina in una sfera d'influenza esclusiva."
+    },
+    {
+     "p": "Per quale opera Roosevelt promuove l'autonomia di Panama?",
+     "a": "La costruzione del canale",
+     "w": [
+      "Una ferrovia transcontinentale",
+      "Una base militare",
+      "Un porto commerciale"
+     ],
+     "e": "Il canale è del 1914."
+    },
+    {
+     "p": "Quali territori ottengono gli Stati Uniti dopo la guerra con la Spagna (1898)?",
+     "a": "Il controllo di Cuba, Portorico, Filippine e Guam",
+     "w": [
+      "Il Messico e il Texas",
+      "La Florida e la Louisiana",
+      "L'Alaska e le Hawaii"
+     ],
+     "e": "Gli Stati Uniti intervengono a Cuba e sconfiggono la Spagna."
+    }
+   ]
+  },
+  "Q9": {
+   "title": "Quiz 9 · America Latina e Messico",
+   "items": [
+    {
+     "p": "Da chi sono governate le repubbliche latinoamericane?",
+     "a": "Da oligarchie di grandi proprietari terrieri (latifondisti)",
+     "w": [
+      "Da governi socialisti",
+      "Da monarchie costituzionali",
+      "Da consigli di operai"
+     ],
+     "e": "La massa dei contadini poveri è legata alla monocoltura da esportazione."
+    },
+    {
+     "p": "Chi governa il Messico dal 1876 in modo autoritario?",
+     "a": "Il generale Porfirio Díaz",
+     "w": [
+      "Francisco Madero",
+      "Pancho Villa",
+      "Obregón"
+     ],
+     "e": "Favorisce i latifondisti a danno dei contadini (peones)."
+    },
+    {
+     "p": "Quale liberale guida la rivolta del 1910 contro Díaz?",
+     "a": "Francisco Madero",
+     "w": [
+      "Emiliano Zapata",
+      "Victoriano Huerta",
+      "Pancho Villa"
+     ],
+     "e": "È sostenuto da generali guerriglieri."
+    },
+    {
+     "p": "Chi sono i generali guerriglieri promotori della riforma agraria?",
+     "a": "Emiliano Zapata e Pancho Villa",
+     "w": [
+      "Huerta e Obregón",
+      "Díaz e Madero",
+      "Bolívar e San Martín"
+     ],
+     "e": "Sostengono la rivoluzione messicana."
+    },
+    {
+     "p": "Che cosa ristabilisce parzialmente l'ordine dopo la guerra civile?",
+     "a": "La Costituzione del 1917 e la presidenza di Obregón (1921)",
+     "w": [
+      "Un intervento militare statunitense",
+      "Il ritorno di Díaz",
+      "L'abolizione del Parlamento"
+     ],
+     "e": "Dopo l'assassinio di Madero per mano del generale Huerta."
+    }
+   ]
+  }
+ }
+}
