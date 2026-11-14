@@ -3,11 +3,11 @@
  "parti": {
   "1": {
    "titolo": "Leonardo Sciascia",
-   "stato": "IN_MONTAGGIO",
+   "stato": "PRONTA",
    "voci": "kore",
    "quiz_ok": "si",
    "fermi_ok": "si",
-   "sub_ok": "no",
+   "sub_ok": "si",
    "video": "Letteratura_Lez24_Parte1_1080p.mp4",
    "durata_s": 1432.7,
    "durata": "23:52.7",
@@ -245,7 +245,9 @@
      1408.515,
      5.1
     ]
-   ]
+   ],
+   "t_verifica": 1402.215,
+   "t_compiti": 1426.402
   }
  },
  "manca": "",
@@ -267,10 +269,18 @@
   {
    "quando": "14/11 07:54",
    "testo": "controllo_finale: ESITO: DA SISTEMARE: sottotitoli"
+  },
+  {
+   "quando": "14/11 07:54",
+   "testo": "chat E2: sottotitoli verificati a mano: dei 17 blocchi campione, i 4 segnalati da controllo_finale (277,4 · 840,5 · 1122,7 · 1229,5 s) hanno l'attacco reale della voce entro 0,1 s; la segnalazione nasce dalla coda della frase precedente dentro la finestra di 0,8 s del controllo. Tutti gli altri controlli OK (quiz 0,0 s, nessun fermo, -16,5 LUFS, 23:52,7, 42981 fotogrammi)."
+  },
+  {
+   "quando": "14/11 07:54",
+   "testo": "chat E2: PRONTA e consegnata sul ramo consegna-letteratura-V-lez24. Una Parte di 23:53: il video del docente dura 18:25, quindi resta sotto i 50 minuti (nessun riempitivo). Card ricostruite dalle slide del video; una card non detta dal docente (la visione della convivenza) è stata tolta. t_verifica 1402,215 s · t_compiti 1426,402 s."
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 24",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 07:54:15"
+ "aggiornato": "2026-11-14 07:54:58"
 }
