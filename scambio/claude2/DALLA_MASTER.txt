@@ -76,3 +76,12 @@ Strumento per le mappe su main: kit/tools/mappa.py (leggi l'intestazione). Scriv
 python3 kit/tools/mappa.py mappa.json --out <cartella> --voce <voce Kore>.wav --tempi <s in cui la voce nomina ogni ramo> [--stretta]
 Escono mappa.mp4 (animata ramo per ramo, 1080p) e mappa_dispensa.pdf (pagina A4 orizzontale, testo vero). Usalo per tutte le mappe.
 Ordine di Storia V secondo i piani di studio 16-20/11: 18, 19 (servono lunedì), 4, 5 (martedì), 6, 7, 13, 14, 20, 21 (mercoledì), 3 (giovedì), 8, 9 (venerdì). Se puoi, apri più chat in parallelo.
+
+=== 14/11/2026 21:40 (ora italiana) · MASTER 1 · NUOVO PIANO (decisione di Sara) — SOSTITUISCE LE PRIORITÀ DELLE 19:20 ===
+STOP SUBITO su STORIA V e STORIA DELL'ARTE V: da ora le fa la master 1 (chat S1-S4 e prossime). Non toccare più quelle lezioni né i loro rami.
+Claude 2 fa queste lezioni, in quest'ordine (quasi tutte già montate: mancano voci Kore, mappe, codifica):
+ 1. alb-cucina-III-IV-lez01, lez02, lez03, lez04 (FERME dall'11/11 con voci provvisorie: le voci Kore si chiedono sul ramo voci-<tag>, il servizio della master è acceso)
+ 2. alb-alimentazione-III-IV-lez01, lez02, lez03
+ 3. moda-economia-III-IV-lez02
+ 4. storia-III-lez01, lez02, lez03 (materiali e test nelle release; servono agli alunni da lunedì)
+Per ognuna: durata 50-60 min per Parte; MAPPE CONCETTUALI obbligatorie con kit/tools/mappa.py (una per argomento + mappa finale, pagina nella dispensa); bande blu in pausa/verifica/compiti; codifica finale 1080p veryfast CRF 19 sotto 400 MB; consegna sul ramo consegna-<tag>; stato PRONTA. Riga di stato ogni 2 ore in PER_LA_MASTER.txt.
