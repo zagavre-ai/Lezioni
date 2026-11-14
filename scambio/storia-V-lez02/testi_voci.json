@@ -248,5 +248,60 @@
   "nome": "MAP8",
   "testo": "Leggere la carta: l'espansione degli Stati Uniti, dal milleottocentonovantacinque al millenovecentoquattordici. La carta mostra l'espansionismo statunitense, che si indirizza nell'oceano Pacifico e nell'America Latina. Le frecce indicano le direttrici di espansione territoriale. Nel Pacifico si vedono, tra gli altri, l'Alaska, le Hawaii, Guam e le Filippine. Nell'America Latina, Cuba, Porto Rico, la Repubblica Dominicana, Honduras, Nicaragua e Panama, con il canale di Panama. Il colore indica se sono possedimenti, protettorati o territori subordinati agli Stati Uniti.",
   "lingua": "it"
+ },
+ {
+  "nome": "CM1",
+  "testo": "Ecco la mappa della competizione imperialista. Primo ramo: la Germania unificata, che sfida il primato britannico. Secondo ramo: il revanscismo francese. Terzo ramo: la conferenza di Berlino del milleottocentottantaquattro. Quarto ramo: l'imperialismo, cioè il controllo politico e militare. Quinto ramo: le motivazioni, economiche, di prestigio e di presunta superiorità.",
+  "lingua": "it"
+ },
+ {
+  "nome": "CM2",
+  "testo": "Ecco la mappa del Regno Unito. Primo ramo: la fine dell'età vittoriana, nel millenovecentouno. Secondo ramo: il Parliament Act del millenovecentoundici. Terzo ramo: le riforme liberali, come le otto ore. Quarto ramo: la questione irlandese e la Home Rule. Quinto ramo: l'India, perla dell'impero.",
+  "lingua": "it"
+ },
+ {
+  "nome": "CM3",
+  "testo": "Ecco la mappa della Francia. Primo ramo: il caso Dreyfus. Secondo ramo: gli innocentisti, come Zola. Terzo ramo: i governi radicali e la scuola laica. Quarto ramo: la crisi di Fashoda. Quinto ramo: l'Entente cordiale del millenovecentoquattro.",
+  "lingua": "it"
+ },
+ {
+  "nome": "CM4",
+  "testo": "Ecco la mappa della Germania di Guglielmo II. Primo ramo: Guglielmo II, sul trono dal milleottocentottantotto. Secondo ramo: la Weltpolitik. Terzo ramo: il piano Tirpitz. Quarto ramo: lo sterminio degli Herero. Quinto ramo: la militarizzazione della società.",
+  "lingua": "it"
+ },
+ {
+  "nome": "CM5",
+  "testo": "Ecco la mappa dell'Austria-Ungheria e dei Balcani. Primo ramo: il compromesso del milleottocentosessantasette. Secondo ramo: l'annessione della Bosnia Erzegovina. Terzo ramo: la Serbia, sostenuta dalla Russia. Quarto ramo: Francesco Ferdinando e il trialismo. Quinto ramo: la cultura di Vienna e di Praga.",
+  "lingua": "it"
+ },
+ {
+  "nome": "CM6",
+  "testo": "Ecco la mappa dell'Impero russo. Primo ramo: lo zar e l'autocrazia. Secondo ramo: l'industrializzazione e la Transiberiana. Terzo ramo: i bolscevichi di Lenin. Quarto ramo: la sconfitta contro il Giappone. Quinto ramo: la rivoluzione del millenovecentocinque.",
+  "lingua": "it"
+ },
+ {
+  "nome": "CM7",
+  "testo": "Ecco la mappa dell'Estremo Oriente. Primo ramo: il Giappone dell'era Meiji. Secondo ramo: la Cina della dinastia Qing. Terzo ramo: la rivolta dei Boxer. Quarto ramo: Sun Yat-sen e la repubblica. Quinto ramo: la dittatura di Yuan Shikai.",
+  "lingua": "it"
+ },
+ {
+  "nome": "CM8",
+  "testo": "Ecco la mappa degli Stati Uniti. Primo ramo: lo Sherman Act contro i monopoli. Secondo ramo: Theodore Roosevelt e le riforme. Terzo ramo: la politica del Big Stick. Quarto ramo: il canale di Panama. Quinto ramo: la guerra con la Spagna del milleottocentonovantotto.",
+  "lingua": "it"
+ },
+ {
+  "nome": "CM9",
+  "testo": "Ecco la mappa dell'America Latina e del Messico. Primo ramo: le oligarchie dei latifondisti. Secondo ramo: Porfirio Díaz. Terzo ramo: la rivolta di Madero. Quarto ramo: Zapata e Villa. Quinto ramo: la Costituzione del millenovecentodiciassette.",
+  "lingua": "it"
+ },
+ {
+  "nome": "CMF1",
+  "testo": "Ecco la mappa di questa prima parte. La competizione imperialista. Il Regno Unito e il suo impero. La Francia e il caso Dreyfus.",
+  "lingua": "it"
+ },
+ {
+  "nome": "CMF2",
+  "testo": "Ecco la mappa di tutta la lezione. La competizione imperialista. Le potenze liberali, Regno Unito e Francia. Gli imperi centrali, Germania e Austria-Ungheria. La Russia degli zar e il millenovecentocinque. Il Giappone e la Cina. Gli Stati Uniti e il Messico.",
+  "lingua": "it"
  }
 ]
