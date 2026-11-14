@@ -2,7 +2,8 @@
  "tag": "letteratura-V-lez11",
  "parti": {
   "1": {
-   "stato": "IN_MONTAGGIO"
+   "stato": "IN_MONTAGGIO",
+   "titolo": "Il Futurismo e le avanguardie"
   }
  },
  "manca": "",
@@ -12,10 +13,14 @@
   {
    "quando": "14/11 01:26",
    "testo": "Presa da Letteratura V · chat C (preparazione mentre la lezione 6 aspetta le voci)"
+  },
+  {
+   "quando": "14/11 04:47",
+   "testo": "Ripresa da capo da Letteratura V · chat C2. Video 33:04 (misurato), 4 argomenti. Testi delle voci (17) inviati su voci-letteratura-V-lez11 alle 04:47 UTC; approvazione delegata alla master."
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 11",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 01:26:18"
+ "aggiornato": "2026-11-14 04:47:51"
 }
