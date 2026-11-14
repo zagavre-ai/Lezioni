@@ -1,78 +1,162 @@
-{
- "INTRO1": [
-  "Benvenuti. In questa lezione parliamo di Eugenio Montale.",
-  "Vedremo sei argomenti: la vita; Ossi di seppia e la poetica; i testi degli Ossi; Le occasioni; La bufera e altro e Satura; e infine la figura della moglie.",
-  "Alla fine di ogni argomento troverai un breve ripasso e un quiz di cinque domande."
- ],
- "S1": [
-  "La vita di Montale. Ecco i punti da ricordare.",
-  "Montale nasce a Genova nel milleottocentonovantasei, si diploma ragioniere e ha una forte passione per il canto.",
-  "Partecipa come ufficiale alla prima guerra mondiale.",
-  "Dal millenovecentoventisette lavora a Firenze, nell'editoria, e dirige una celebre biblioteca, il Gabinetto Viessò.",
-  "Nel millenovecentotrentotto viene licenziato, perché non è iscritto al Partito fascista.",
-  "Dal millenovecentoquarantotto vive a Milano e scrive per il Corriere della Sera. Riceve il premio Nobel nel millenovecentosettantacinque e muore nel millenovecentoottantuno."
- ],
- "S2": [
-  "Ossi di seppia e la poetica. Ecco i punti da ricordare.",
-  "Ossi di seppia è la prima raccolta di Montale: esce nel millenovecentoventicinque ed è divisa in quattro sezioni.",
-  "Il tema centrale è la crisi dell'identità, tipica del Novecento. Gli ossi di seppia sono simbolo di una vita arida, ridotta all'essenziale.",
-  "Il paesaggio ligure non consola: rappresenta l'aridità e il male di vivere.",
-  "Con il correlativo oggettivo i sentimenti diventano oggetti concreti, come il muro, il rivo strozzato, il secchio nel pozzo.",
-  "Il linguaggio è secco e aspro. La poesia non dà risposte certe: dice solo ciò che non siamo, ciò che non vogliamo."
- ],
- "S3": [
-  "I testi degli Ossi di seppia. Ecco i punti da ricordare.",
-  "I limoni è del millenovecentoventuno, ventidue, e fa da introduzione alla raccolta. È in versi liberi.",
-  "Montale rifiuta i poeti laureati e la poesia aulica, e sceglie oggetti umili. La gialla luce dei limoni è un simbolo di speranza.",
-  "In Meriggiare pallido e assorto, il muro con i cocci di bottiglia è la barriera che separa l'uomo dalla verità.",
-  "Spesso il male di vivere ho incontrato è del millenovecentoventiquattro: due quartine con rime A B B A e C D D A.",
-  "Il male è il rivo strozzato, la foglia riarsa, il cavallo stramazzato. Il bene è solo la divina Indifferenza: la statua, la nuvola e il falco."
- ],
- "S4": [
-  "Le occasioni. Ecco i punti da ricordare.",
-  "Le occasioni escono nel millenovecentotrentanove: è il secondo Montale.",
-  "Il clima è quello degli anni trenta, con la minaccia del fascismo e l'impotenza degli intellettuali.",
-  "Domina l'angoscia della memoria: i ricordi e i volti amati sono fragili e svaniscono.",
-  "Il poeta cerca un varco, una via di fuga, ma la speranza viene quasi sempre spenta.",
-  "Nella raccolta c'è anche la sezione dei Mottetti."
- ],
- "S5": [
-  "La bufera e altro e Satura. Ecco i punti da ricordare.",
-  "La bufera e altro, del millenovecentocinquantasei, risente della seconda guerra mondiale e delle delusioni del dopoguerra.",
-  "Montale rifiuta le ideologie: il clericalismo, il comunismo, la massificazione.",
-  "I testi difendono i valori della civiltà liberale e l'autonomia dell'intellettuale.",
-  "Satura, del millenovecentosettantuno, segna una svolta: poesie brevi, ironiche, vicine alla prosa.",
-  "Il poeta critica la società dei consumi, e ha una visione antistoricistica: la storia non è guidata dal progresso."
- ],
- "S6": [
-  "La figura della moglie. Ecco i punti da ricordare.",
-  "La sezione Xenia, in Satura, è dedicata alla moglie Drusilla Tanzi, chiamata Mosca, morta nel millenovecentosessantatré.",
-  "In Ho sceso, dandoti il braccio, il poeta ricorda di aver accompagnato la moglie lungo milioni di scale.",
-  "La moglie era miope, ma vedeva più di lui: le sue pupille, pur offuscate, erano le sole vere.",
-  "L'opera di Montale resta una testimonianza lucida e senza illusioni sulla condizione dell'uomo moderno."
- ],
- "GL1": [
-  "Ripassiamo le parole chiave di questa lezione. Ascolta ogni parola e la sua definizione, e prova a ripeterla.",
-  "Correlativo oggettivo: un oggetto concreto che rappresenta un sentimento.",
-  "Male di vivere: il dolore dell'esistenza, che si vede nelle cose comuni.",
-  "Poeti laureati: i poeti della tradizione aulica, da cui Montale prende le distanze.",
-  "Poeta vate: il poeta che vuole insegnare verità sublimi. Montale lo rifiuta.",
-  "Varco: la via di fuga dalla prigionia del tempo e della realtà.",
-  "Antistoricismo: l'idea che la storia non sia guidata dal progresso.",
-  "Xenia: la sezione di Satura dedicata alla moglie.",
-  "Ricorda: queste parole le trovi anche nella dispensa."
- ],
- "RF1": [
-  "Prima di salutarci, ricapitoliamo insieme i sei argomenti di questa lezione. Alla fine, prova a ripeterli con parole tue.",
-  "Primo argomento: Montale nasce a Genova nel milleottocentonovantasei e riceve il Nobel nel millenovecentosettantacinque.",
-  "Secondo argomento: Ossi di seppia racconta l'aridità e la crisi dell'identità, con il correlativo oggettivo e un linguaggio aspro.",
-  "Terzo argomento: nei Limoni, in Meriggiare e in Spesso il male di vivere, gli oggetti comuni diventano simboli del male e della speranza.",
-  "Quarto argomento: nelle Occasioni domina la memoria che svanisce, e la ricerca di un varco.",
-  "Quinto argomento: La bufera e altro difende la civiltà liberale; Satura è ironica e antistoricistica.",
-  "Sesto argomento: in Xenia e in Ho sceso, dandoti il braccio, Montale ricorda la moglie, che vedeva oltre le apparenze.",
-  "Ottimo lavoro."
- ],
- "FIN1": [
-  "Fine della lezione. Grazie per l'attenzione, e ci vediamo alla prossima lezione."
- ]
-}
+[
+ {
+  "nome": "INTRO1",
+  "testo": "Benvenuti. In questa lezione parliamo di Eugenio Montale. Vedremo sei argomenti: la vita; Ossi di seppia e la poetica; i testi degli Ossi; Le occasioni; La bufera e altro e Satura; e infine la figura della moglie. Alla fine di ogni argomento troverai un breve ripasso e un quiz di cinque domande.",
+  "lingua": "it"
+ },
+ {
+  "nome": "S1",
+  "testo": "La vita di Montale. Ecco i punti da ricordare. Montale nasce a Genova nel milleottocentonovantasei, si diploma ragioniere e ha una forte passione per il canto. Partecipa come ufficiale alla prima guerra mondiale. Dal millenovecentoventisette lavora a Firenze, nell'editoria, e dirige una celebre biblioteca, il Gabinetto Viessò. Nel millenovecentotrentotto viene licenziato, perché non è iscritto al Partito fascista. Dal millenovecentoquarantotto vive a Milano e scrive per il Corriere della Sera. Riceve il premio Nobel nel millenovecentosettantacinque e muore nel millenovecentoottantuno.",
+  "lingua": "it"
+ },
+ {
+  "nome": "S2",
+  "testo": "Ossi di seppia e la poetica. Ecco i punti da ricordare. Ossi di seppia è la prima raccolta di Montale: esce nel millenovecentoventicinque ed è divisa in quattro sezioni. Il tema centrale è la crisi dell'identità, tipica del Novecento. Gli ossi di seppia sono simbolo di una vita arida, ridotta all'essenziale. Il paesaggio ligure non consola: rappresenta l'aridità e il male di vivere. Con il correlativo oggettivo i sentimenti diventano oggetti concreti, come il muro, il rivo strozzato, il secchio nel pozzo. Il linguaggio è secco e aspro. La poesia non dà risposte certe: dice solo ciò che non siamo, ciò che non vogliamo.",
+  "lingua": "it"
+ },
+ {
+  "nome": "S3",
+  "testo": "I testi degli Ossi di seppia. Ecco i punti da ricordare. I limoni è del millenovecentoventuno, ventidue, e fa da introduzione alla raccolta. È in versi liberi. Montale rifiuta i poeti laureati e la poesia aulica, e sceglie oggetti umili. La gialla luce dei limoni è un simbolo di speranza. In Meriggiare pallido e assorto, il muro con i cocci di bottiglia è la barriera che separa l'uomo dalla verità. Spesso il male di vivere ho incontrato è del millenovecentoventiquattro: due quartine con rime A B B A e C D D A. Il male è il rivo strozzato, la foglia riarsa, il cavallo stramazzato. Il bene è solo la divina Indifferenza: la statua, la nuvola e il falco.",
+  "lingua": "it"
+ },
+ {
+  "nome": "S4",
+  "testo": "Le occasioni. Ecco i punti da ricordare. Le occasioni escono nel millenovecentotrentanove: è il secondo Montale. Il clima è quello degli anni trenta, con la minaccia del fascismo e l'impotenza degli intellettuali. Domina l'angoscia della memoria: i ricordi e i volti amati sono fragili e svaniscono. Il poeta cerca un varco, una via di fuga, ma la speranza viene quasi sempre spenta. Nella raccolta c'è anche la sezione dei Mottetti.",
+  "lingua": "it"
+ },
+ {
+  "nome": "S5",
+  "testo": "La bufera e altro e Satura. Ecco i punti da ricordare. La bufera e altro, del millenovecentocinquantasei, risente della seconda guerra mondiale e delle delusioni del dopoguerra. Montale rifiuta le ideologie: il clericalismo, il comunismo, la massificazione. I testi difendono i valori della civiltà liberale e l'autonomia dell'intellettuale. Satura, del millenovecentosettantuno, segna una svolta: poesie brevi, ironiche, vicine alla prosa. Il poeta critica la società dei consumi, e ha una visione antistoricistica: la storia non è guidata dal progresso.",
+  "lingua": "it"
+ },
+ {
+  "nome": "S6",
+  "testo": "La figura della moglie. Ecco i punti da ricordare. La sezione Xenia, in Satura, è dedicata alla moglie Drusilla Tanzi, chiamata Mosca, morta nel millenovecentosessantatré. In Ho sceso, dandoti il braccio, il poeta ricorda di aver accompagnato la moglie lungo milioni di scale. La moglie era miope, ma vedeva più di lui: le sue pupille, pur offuscate, erano le sole vere. L'opera di Montale resta una testimonianza lucida e senza illusioni sulla condizione dell'uomo moderno.",
+  "lingua": "it"
+ },
+ {
+  "nome": "GL1",
+  "testo": "Ripassiamo le parole chiave di questa lezione. Ascolta ogni parola e la sua definizione, e prova a ripeterla. Correlativo oggettivo: un oggetto concreto che rappresenta un sentimento. Male di vivere: il dolore dell'esistenza, che si vede nelle cose comuni. Poeti laureati: i poeti della tradizione aulica, da cui Montale prende le distanze. Poeta vate: il poeta che vuole insegnare verità sublimi. Montale lo rifiuta. Varco: la via di fuga dalla prigionia del tempo e della realtà. Antistoricismo: l'idea che la storia non sia guidata dal progresso. Xenia: la sezione di Satura dedicata alla moglie. Ricorda: queste parole le trovi anche nella dispensa.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RF1",
+  "testo": "Prima di salutarci, ricapitoliamo insieme i sei argomenti di questa lezione. Alla fine, prova a ripeterli con parole tue. Primo argomento: Montale nasce a Genova nel milleottocentonovantasei e riceve il Nobel nel millenovecentosettantacinque. Secondo argomento: Ossi di seppia racconta l'aridità e la crisi dell'identità, con il correlativo oggettivo e un linguaggio aspro. Terzo argomento: nei Limoni, in Meriggiare e in Spesso il male di vivere, gli oggetti comuni diventano simboli del male e della speranza. Quarto argomento: nelle Occasioni domina la memoria che svanisce, e la ricerca di un varco. Quinto argomento: La bufera e altro difende la civiltà liberale; Satura è ironica e antistoricistica. Sesto argomento: in Xenia e in Ho sceso, dandoti il braccio, Montale ricorda la moglie, che vedeva oltre le apparenze. Ottimo lavoro.",
+  "lingua": "it"
+ },
+ {
+  "nome": "FIN1",
+  "testo": "Fine della lezione. Grazie per l'attenzione, e ci vediamo alla prossima lezione.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AP1a",
+  "testo": "Eugenio Montale nasce a Genova nel milleottocentonovantasei. Si diploma ragioniere, ma coltiva una forte passione per il canto. Partecipa come ufficiale alla prima guerra mondiale. Dal millenovecentoventisette vive a Firenze, dove lavora in ambito editoriale e dirige il Gabinetto Vieusseux. Nel millenovecentotrentotto viene licenziato dal Gabinetto Vieusseux, perché non è iscritto al partito fascista. Nel millenovecentoquarantotto, a guerra finita, si stabilisce a Milano come redattore e critico del Corriere della Sera. Nel millenovecentosettantacinque riceve il premio Nobel per la letteratura. Morirà nel millenovecentoottantuno, dopo aver attraversato quasi tutto il Novecento.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AP1b",
+  "testo": "Facciamo un confronto con altri autori che hai incontrato. Pirandello era iscritto al partito fascista. Anche Ungaretti era iscritto, e aveva firmato il manifesto degli intellettuali fascisti. Montale invece è dichiaratamente antifascista: non si iscrive e firma il manifesto degli intellettuali antifascisti di Benedetto Croce. Un altro filo lega Montale agli autori già studiati: la crisi dell'identità individuale. E la perdita delle certezze, che troviamo anche in Svevo e in Pirandello e che caratterizza l'uomo contemporaneo. Un percorso segnato prima dall'esperienza ligure, poi da Firenze e da Milano.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP1",
+  "testo": "Ecco la mappa della vita di Montale. Al centro c'è il poeta. Primo ramo, le origini: Montale nasce a Genova nel milleottocentonovantasei e si diploma ragioniere. Secondo ramo: partecipa come ufficiale alla prima guerra mondiale. Terzo ramo, Firenze: dal millenovecentoventisette lavora nell'editoria e dirige il Gabinetto Vieusseux. Quarto ramo, l'antifascismo: non si iscrive al partito e viene licenziato nel millenovecentotrentotto. Quinto ramo, Milano: dal millenovecentoquarantotto è redattore e critico del Corriere della Sera. Ultimo ramo, il Nobel: lo riceve nel millenovecentosettantacinque, e muore nel millenovecentoottantuno.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AP2a",
+  "testo": "Ossi di seppia è la prima raccolta di Montale, pubblicata nel millenovecentoventicinque, divisa in quattro sezioni. Il titolo rimanda a un oggetto povero: lo scheletro della seppia, scartato dal mare. È l'emblema della condizione umana: ridotta all'essenziale, privata di calore vitale. Il paesaggio ligure è scabro, arido e assolato, e fa da specchio alla desolazione esistenziale. Il tema centrale è la totale disarmonia dell'uomo rispetto al mondo esterno. L'opera esprime una profonda consapevolezza della crisi dell'identità individuale.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AP2b",
+  "testo": "Montale rifiuta l'idea della poesia come formula magica, o come privilegio di verità assolute. Si distingue così dai simbolisti, da Ungaretti e dagli ermetici. Propone invece una poetica degli oggetti: i sentimenti prendono forma attraverso elementi concreti della realtà. Il linguaggio è scabro, secco e antilirico, lontano dalla musicalità della tradizione classica e di D'Annunzio. I testi non consolano: rappresentano la realtà e il male di vivere attraverso oggetti concreti. La poesia può solo dire che cosa non siamo e che cosa non vogliamo.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AP2c",
+  "testo": "Parola chiave: correlativo oggettivo. Il poeta non dice il proprio sentimento: lo affida a un oggetto, o a un paesaggio. Esempi? Il muro scalcinato. Il rivo strozzato: un ruscello con poca acqua, che rimanda a uno stato d'animo strozzato, angosciato.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP2",
+  "testo": "Ora la mappa di Ossi di seppia e della poetica di Montale. Primo ramo, la raccolta: Ossi di seppia, del millenovecentoventicinque, divisa in quattro sezioni. Secondo ramo, il titolo: lo scheletro della seppia, scartato dal mare, simbolo di una vita ridotta all'essenziale. Terzo ramo, il paesaggio: la Liguria scabra, arida e assolata. Quarto ramo, la poetica: una poetica degli oggetti, senza formule magiche. Quinto ramo, il linguaggio: scabro, secco, antilirico. Ultimo ramo, il tema: il male di vivere e la disarmonia con il mondo.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AP3a",
+  "testo": "I limoni è una vera dichiarazione di poetica. Fin dai primi versi Montale polemizza contro i poeti laureati. Sono i poeti classici e premiati, che usano un linguaggio solenne e descrivono piante rare e preziose. Montale preferisce una realtà umile: i limoni, che crescono nei fossi e nei vicoli dei paesi. Nel testo c'è un contrasto fondamentale. Da una parte la natura aperta, aspra, ma talvolta generosa. Dall'altra lo spazio chiuso, freddo e rumoroso della città. Guardando la natura umile, l'uomo spera per un attimo di toccare la realtà profonda del mondo. Ma la rivelazione è precaria: svanisce, e l'individuo torna nella routine delle città grigie. Nel finale, però, il giallo dei limoni, visto da un portone socchiuso, ridà energia alla vita.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AP3b",
+  "testo": "Meriggiare pallido e assorto ha tre quartine e una strofa finale di cinque versi. Il metro alterna versi di diversa lunghezza, come novenari, decasillabi ed endecasillabi. Le rime sono baciate o alternate, con assonanze e consonanze, e questo dà una certa musicalità. Il paesaggio ligure, calcinato dal sole, diventa il correlativo oggettivo della sofferenza. Un muro d'orto, le formiche rosse, il canto delle cicale: immagini che materializzano la prigionia dell'individuo. Il sole spietato non dà vita: prosciuga e immobilizza ogni cosa. Nella strofa finale la vita è come un cammino lungo una muraglia invalicabile. In cima alla muraglia ci sono cocci aguzzi di bottiglia: nessuna via d'uscita. La vita è solo questo cammino faticoso, senza sbocchi né risposte superiori.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AP3c",
+  "testo": "In Spesso il male di vivere ho incontrato, il poeta usa tre emblemi. Il rivo strozzato, che fatica a scorrere. La foglia che si accartoccia, riarsa dal calore. E il cavallo stramazzato al suolo per la fatica. La seconda parte presenta la divina indifferenza: l'unico rimedio al dolore. Prima l'immagine della statua, nella sonnolenza del meriggio. Poi la nuvola alta nel cielo. E il falco che vola lontano, e se ne infischia della nostra condizione. La lirica ha una simmetria perfetta: va dall'astratto al concreto. Nella prima strofa il dolore è orizzontale, terreno. Nella seconda c'è una spinta verso l'alto, verso la verticalità e l'isolamento.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP3",
+  "testo": "Mettiamo ordine nei tre testi che hai appena visto, con una mappa. Primo ramo, I limoni: una dichiarazione di poetica, contro i poeti laureati. Secondo ramo: il contrasto tra la natura aperta e la città chiusa. Terzo ramo, Meriggiare pallido e assorto: la vita come cammino lungo una muraglia con cocci di bottiglia. Quarto ramo: tre quartine, una strofa di cinque versi e rime che creano musicalità. Quinto ramo, Spesso il male di vivere: tre emblemi, il rivo, la foglia e il cavallo. Ultimo ramo: la divina indifferenza, con la statua, la nuvola e il falco.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AP4a",
+  "testo": "Le occasioni è la seconda raccolta, del millenovecentotrentanove, e segna una svolta poetica. Il contesto sono gli anni Trenta, segnati dall'affermarsi dei totalitarismi e del fascismo, che Montale rifiuta con fermezza. Scompare il paesaggio ligure arido, e lascia spazio a un'ambientazione più urbana e aristocratica. La tecnica centrale resta il correlativo oggettivo, spinto alle estreme conseguenze. Gli oggetti compaiono sulla pagina senza spiegazioni logiche e senza introduzioni sentimentali. Compare la figura di Clizia, la donna angelo: una figura salvifica, dotata di una altissima virtù chiaroveggente.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AP4b",
+  "testo": "Primo testo: Non recidere, forbice, quel volto, del millenovecentotrentasette, nella sezione dei Mottetti. Esprime l'angoscia per il dissolversi del ricordo della donna amata. L'angoscia si oggettiva nella violenza delle forbici, che tagliano tutto, e nel guscio vuoto di una cicala. Secondo testo: La casa dei doganieri, del millenovecentotrenta, che riprende il tema della memoria. Entra in un dialogo esplicito, ma rovesciato, con A Silvia di Leopardi. La casa abbandonata, sferzata dal vento, diventa l'emblema del fallimento del ricordo.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP4",
+  "testo": "Ecco la mappa de Le occasioni. Primo ramo, la raccolta: Le occasioni, del millenovecentotrentanove, una svolta poetica. Secondo ramo, il contesto: gli anni Trenta dei totalitarismi, che Montale rifiuta. Terzo ramo, l'ambiente: non più la Liguria arida, ma un mondo urbano e aristocratico. Quarto ramo, la tecnica: il correlativo oggettivo spinto all'estremo. Quinto ramo, Clizia: la donna angelo, figura salvifica e chiaroveggente. Ultimo ramo, i testi: Non recidere, forbice, quel volto, e La casa dei doganieri, sul tema della memoria.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AP5a",
+  "testo": "La bufera e altro è la terza raccolta, pubblicata nel millenovecentocinquantasei. È profondamente segnata dalla tragedia della seconda guerra mondiale e dalle speranze del dopoguerra. La bufera del titolo è la catastrofe reale della guerra, ma anche la tempesta cosmica ed esistenziale che investe l'umanità. Sul piano stilistico c'è un notevole espressionismo linguistico. Si alternano registri aulici e termini molto realistici, o dialettali. Il pessimismo si fa più radicale, di fronte al trionfo della società dei consumi e allo scontro ideologico tra i grandi blocchi. Un testo importante è Il piccolo testamento, scritto nel millenovecentocinquantatré: un testamento spirituale rivolto alla donna ispiratrice. Il poeta rifiuta con orgoglio le ideologie politiche di massa, cattoliche o comuniste. Difende una fede poetica, espressa con oggetti poveri e minimi, come la traccia di una lumaca.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AP5b",
+  "testo": "Satura, del millenovecentosettantuno, è l'ultima grande raccolta, e segna una rottura radicale con la poesia precedente. Il titolo rimanda al genere letterario della satira, e al concetto di miscellanea: un minestrone di argomenti diversi. Lo stile diventa prosastico, ironico, colloquiale e parodistico. L'obiettivo è smascherare i cliché e i miti del progresso. E i linguaggi alienanti della moderna società dei consumi. All'interno c'è la sezione Xenia: brevi poesie dedicate alla memoria della moglie, Drusilla Tanzi.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AP5c",
+  "testo": "Mettiamo a confronto la prima e l'ultima grande raccolta. Ossi di seppia, millenovecentoventicinque: linguaggio scabro e antilirico, il paesaggio ligure. Le occasioni, millenovecentotrentanove: ambiente urbano e aristocratico, la donna angelo Clizia. Satura, millenovecentosettantuno: stile prosastico, ironico e parodistico, contro i miti del progresso.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP5",
+  "testo": "Ecco la mappa delle ultime due raccolte. Primo ramo, La bufera e altro, del millenovecentocinquantasei: la guerra e il dopoguerra. Secondo ramo: la bufera è la catastrofe bellica e la tempesta esistenziale. Terzo ramo, lo stile: un espressionismo che alterna parole auliche e dialettali. Quarto ramo: Il piccolo testamento, che rifiuta le ideologie di massa. Quinto ramo, Satura, del millenovecentosettantuno: satira e miscellanea di argomenti. Ultimo ramo: uno stile prosastico, ironico e parodistico, contro i miti del progresso.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AP6a",
+  "testo": "La moglie di Montale, Drusilla Tanzi, era chiamata affettuosamente Mosca, per la sua forte miopia. Muore nel millenovecentosessantatré. Il testo più importante è Ho sceso, dandoti il braccio, almeno un milione di scale, dalla sezione Xenia. Il poeta si rivolge direttamente alla moglie scomparsa, e ricorda la loro vita quotidiana. Scendere le scale, sorreggendo la moglie, diventa l'allegoria del loro lungo viaggio esistenziale. Ora che lei non c'è, il poeta sente un vuoto totale, ad ogni gradino. Il testo è profondamente ironico: ribalta la concezione tradizionale della preveggenza. La vera guida della coppia non era il poeta veggente. Era la moglie Mosca: miope, con le pupille offuscate, ma capace di penetrazione interiore.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AP6b",
+  "testo": "Un altro testo possibile è La storia, contenuto in Satura. Riflette la posizione radicalmente anti-storicistica del poeta. Montale nega alla storia qualsiasi razionalità, finalità o progresso ininterrotto. Rifiuta il determinismo storico, l'idea che tutto accada per una causa precisa. Rifiuta la storia maestra di vita: non è detto che impariamo dal passato. Rifiuta anche la visione marxista, con la storia come riscatto delle classi più umili.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP6",
+  "testo": "Ecco la mappa su Xenia, la moglie e la storia. Primo ramo, la moglie: Drusilla Tanzi, detta Mosca, morta nel millenovecentosessantatré. Secondo ramo: Xenia, la sezione di Satura con brevi poesie di memoria. Terzo ramo, le scale: l'allegoria del viaggio esistenziale della coppia. Quarto ramo, il vuoto: l'assenza della moglie, ad ogni gradino. Quinto ramo, il ribaltamento: la vera guida è Mosca, miope ma lucidissima. Ultimo ramo, la storia: Montale nega finalità e progresso.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MPF",
+  "testo": "Per finire, la mappa di tutta la lezione, con Eugenio Montale al centro. Primo ramo, la vita: da Genova nel milleottocentonovantasei a Milano, fino al Nobel del millenovecentosettantacinque. Secondo ramo: Ossi di seppia, millenovecentoventicinque, la poetica degli oggetti. Terzo ramo, i testi: I limoni, Meriggiare e Spesso il male di vivere. Quarto ramo: Le occasioni, millenovecentotrentanove, con Clizia, la donna angelo. Quinto ramo: La bufera e altro, millenovecentocinquantasei, tra guerra e dopoguerra. Ultimo ramo: Satura, millenovecentosettantuno, con Xenia e il ricordo della moglie.",
+  "lingua": "it"
+ }
+]
