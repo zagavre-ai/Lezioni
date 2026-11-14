@@ -6,7 +6,12 @@
   }
  },
  "manca": "",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "14/11 23:47",
+   "testo": "storia-V-lez06: SECONDA RICHIESTA voci, 14 nomi nuovi (MAP1-8, MAPF1, ANB2/3/5/7/8) in scambio/storia-V-lez06/testi_voci.json, ramo voci-storia-V-lez06 (vedi RICHIESTA_2.txt). Quiz 8x5 da approvare."
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
@@ -14,5 +19,5 @@
    "testo": "Storia V · chat S1: ripresa lezione 6 dai rami voci-/stato- (15 voci Kore gia' ricevute). Video e slide scaricati; trascrizione in corso."
   }
  ],
- "aggiornato": "2026-11-14 23:40:06"
+ "aggiornato": "2026-11-14 23:47:09"
 }
