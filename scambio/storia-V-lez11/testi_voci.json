@@ -1,0 +1,182 @@
+[
+ {
+  "nome": "MAP1",
+  "testo": "La mappa dell'ascesa di Stalin. Primo ramo: nel millenovecentoventiquattro muore Lenin e si apre la lotta per la successione. Secondo ramo: Trockij, leader dell'Armata rossa, sostiene la rivoluzione permanente. Terzo ramo: Bucharin difende la NEP e uno sviluppo economico graduale. Quarto ramo: Stalin, segretario del Partito, propone il socialismo in un solo paese. Quinto ramo: Stalin elimina tutti gli oppositori e raggiunge il potere assoluto; Trockij viene sconfitto ed esiliato.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MAP2",
+  "testo": "La mappa della grande svolta. Primo ramo: nel millenovecentoventinove Stalin avvia la grande svolta. Secondo ramo: l'economia è totalmente pianificata dallo Stato. Terzo ramo: i piani quinquennali fissano gli obiettivi da raggiungere in cinque anni, soprattutto nell'industria pesante. Quarto ramo: la produzione industriale cresce in modo straordinario e la disoccupazione quasi scompare. Quinto ramo: il prezzo è lo sfruttamento dei lavoratori e una rigida disciplina di fabbrica.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MAP3",
+  "testo": "La mappa della collettivizzazione. Primo ramo: lo Stato requisisce le terre e crea grandi aziende pubbliche e cooperative, i sovchoz e i kolchoz. Secondo ramo: i kulaki, i contadini benestanti che si oppongono, vengono perseguitati, deportati o eliminati. Terzo ramo: il grano viene requisito con la forza per finanziare l'industrializzazione. Quarto ramo: la carestia del millenovecentotrentadue e trentatré, chiamata in Ucraina Holodomor, causa milioni di morti.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MAP4",
+  "testo": "La mappa del totalitarismo staliniano. Primo ramo: Stalin instaura una dittatura personale, senza separazione tra partito e Stato. Secondo ramo: le grandi purghe, dal millenovecentotrentasei al millenovecentotrentotto. Terzo ramo: i processi pubblici, con confessioni estorte con la forza. Quarto ramo: il Gulag, dove milioni di cittadini finiscono ai lavori forzati. Quinto ramo: i pilastri del regime, cioè polizia segreta, sospetto, censura e propaganda.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MAP5",
+  "testo": "La mappa della società staliniana. Primo ramo: il culto della personalità esalta Stalin come piccolo padre dei popoli. Secondo ramo: il realismo socialista è l'unico stile artistico ammesso. Terzo ramo: i giovani vengono indottrinati a scuola e nel Komsomol. Quarto ramo: il mito del minatore Stachanov spinge a superare i record di produzione. Quinto ramo: per le donne, negli anni Trenta, si torna a modelli tradizionali e l'aborto diventa illegale.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MAP6",
+  "testo": "La mappa della politica estera. Primo ramo: negli anni Venti l'Unione Sovietica esce dall'isolamento. Secondo ramo: nel millenovecentotrentaquattro entra nella Società delle Nazioni. Terzo ramo: il Comintern promuove il Fronte unito contro il fascismo e il nazismo. Quarto ramo: nell'agosto millenovecentotrentanove il patto Molotov-Ribbentrop con la Germania di Hitler.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MAPF1",
+  "testo": "La mappa di tutta la lezione. L'ascesa di Stalin e il socialismo in un solo paese. La grande svolta e i piani quinquennali. La collettivizzazione forzata, la persecuzione dei kulaki e la carestia. Il Grande Terrore, con le purghe, i processi e il Gulag. La società staliniana, con il culto della personalità e il mito di Stachanov. La politica estera, fino al patto con Hitler del millenovecentotrentanove.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN1",
+  "testo": "Tre uomini per un potere. Lev Trockij guida la sinistra: critica la concentrazione del potere e vuole la rivoluzione permanente. Nikolaj Bucharin guida la destra: difende la NEP, la liberalizzazione agricola e uno sviluppo pacifico. Stalin propone il socialismo in un solo paese: prima consolidare la rivoluzione in Unione Sovietica, poi esportarla.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN2",
+  "testo": "Come Stalin vince la lotta per il potere. Nel millenovecentoventiquattro muore Lenin. Nel partito si scontrano la sinistra di Trockij e la destra di Bucharin. Stalin si inserisce nello scontro con la sua proposta. Poco alla volta elimina politicamente tutti gli oppositori. Alla fine emerge come leader supremo dell'Unione Sovietica.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN3",
+  "testo": "Gli anni della successione. Nel millenovecentoventiquattro muore Lenin. A metà degli anni Venti si scontrano la sinistra di Trockij e la destra di Bucharin. Alla fine del decennio Stalin ha eliminato i suoi oppositori. Nel millenovecentoventinove avvia la grande svolta.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN4",
+  "testo": "Perché la grande svolta. Alla fine degli anni Venti l'Unione Sovietica è ancora un paese agricolo. Stalin vuole trasformarla in una grande potenza industriale. L'economia viene totalmente pianificata dallo Stato. I piani quinquennali fissano in anticipo gli obiettivi da raggiungere. La priorità va all'industria pesante, agli armamenti e alle infrastrutture.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN5",
+  "testo": "Come funziona un piano quinquennale. È lo Stato a decidere che cosa produrre, e non il mercato. Il piano fissa in anticipo gli obiettivi da raggiungere in cinque anni. Si punta soprattutto sull'industria pesante, sugli armamenti e sulle infrastrutture.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN6",
+  "testo": "Luci e ombre dell'industrializzazione. La produzione industriale cresce in modo straordinario. La disoccupazione scompare quasi completamente. Ma i costi umani sono altissimi, con lo sfruttamento dei lavoratori. E nelle fabbriche si impone una rigida disciplina.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN7",
+  "testo": "Le parole della collettivizzazione. Sovchoz: la grande azienda agricola pubblica. Kolchoz: la cooperativa, dove la terra è lavorata in comune. Kulaki: i contadini benestanti che si oppongono alla collettivizzazione. Dekulakizzazione: la loro persecuzione, con deportazioni ed eliminazioni fisiche.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN8",
+  "testo": "Dalla requisizione alla carestia. Lo Stato impone con la forza la collettivizzazione delle campagne. Il grano viene requisito per finanziare l'industrializzazione. I contadini resistono e vengono repressi. Tra il millenovecentotrentadue e il millenovecentotrentatré scoppia una catastrofica carestia. Muoiono milioni di persone, soprattutto in Ucraina.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN9",
+  "testo": "La carestia in numeri. Tra il millenovecentotrentadue e il millenovecentotrentatré. Milioni di morti nelle campagne sovietiche. In Ucraina questa tragedia è chiamata Holodomor.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN10",
+  "testo": "Gli anni del Terrore. Negli anni Trenta Stalin instaura una dittatura personale. Nel millenovecentotrentasei iniziano le grandi purghe nel partito, nell'esercito e nella società. Nei processi pubblici i vecchi dirigenti bolscevichi vengono condannati a morte, dopo confessioni estorte con la forza. Quando le purghe finiscono, nel millenovecentotrentotto, milioni di persone sono nei Gulag.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN11",
+  "testo": "I pilastri del regime. La polizia segreta controlla la popolazione. Il sospetto è diffuso: chiunque può essere considerato un nemico. La cultura è censurata. La propaganda costruisce il consenso.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN12",
+  "testo": "La violenza del regime. Il regime usa la violenza contro i rivali politici. E anche contro i cittadini comuni. I rivali vengono eliminati con le purghe. I cittadini comuni vengono deportati nei Gulag.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN13",
+  "testo": "Il culto della personalità. La propaganda presenta Stalin come il piccolo padre dei popoli, un leader infallibile. Il realismo socialista diventa l'unico stile artistico ammesso. Anche le attività associative sono controllate dal regime.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN14",
+  "testo": "Formare il cittadino sovietico. Il controllo comincia a scuola, fin dall'infanzia. I giovani entrano nel Komsomol, l'organizzazione giovanile del partito. Il minatore Aleksej Stachanov diventa il modello del lavoratore che supera ogni record.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN15",
+  "testo": "Le donne in Unione Sovietica. Negli anni Venti le donne ottengono il voto, il divorzio e l'aborto. Negli anni Trenta si torna a modelli tradizionali e l'aborto diventa illegale. Lo Stato promuove la natalità. Ma celebra anche le donne come eroine del lavoro nell'industria.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN16",
+  "testo": "La politica estera di Stalin. Negli anni Venti l'Unione Sovietica ristabilisce i rapporti con le potenze occidentali. Nel millenovecentotrentaquattro entra nella Società delle Nazioni. Il Comintern promuove il Fronte unito contro il fascismo e il nazismo. Nell'agosto millenovecentotrentanove arriva la svolta: il patto con la Germania di Hitler.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN17",
+  "testo": "Uniti contro il fascismo. Il Comintern chiede ai comunisti di allearsi con socialisti e forze democratiche. L'obiettivo è fermare l'ascesa del fascismo e del nazismo. Un esempio è la guerra civile spagnola, a sostegno della Repubblica.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN18",
+  "testo": "Il patto Molotov-Ribbentrop. Nell'agosto millenovecentotrentanove arriva una svolta improvvisa. L'Unione Sovietica firma un patto di non aggressione con la Germania nazista. Un accordo segreto prevede la spartizione dell'Europa orientale.",
+  "lingua": "it"
+ },
+ {
+  "nome": "GL1",
+  "testo": "Le parole chiave della lezione. Socialismo in un solo paese: prima consolidare la rivoluzione in Unione Sovietica. Piano quinquennale: gli obiettivi economici fissati per cinque anni. Kolchoz: la cooperativa agricola. Kulaki: i contadini benestanti perseguitati dal regime. Gulag: i campi di lavoro forzato. Stachanovismo: il mito del lavoratore che supera ogni record.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R1",
+  "testo": "Ripassiamo. Dopo la morte di Lenin si scontrano Trockij e Bucharin. Stalin propone il socialismo in un solo paese, elimina gli oppositori e diventa leader supremo.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R2",
+  "testo": "Ripassiamo. Nel millenovecentoventinove la grande svolta trasforma l'Unione Sovietica in una potenza industriale. I piani quinquennali puntano sull'industria pesante: la produzione cresce, ma a costi umani altissimi.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R3",
+  "testo": "Ripassiamo. La collettivizzazione forzata crea kolchoz e sovchoz e colpisce i kulaki. Le requisizioni di grano provocano la carestia del millenovecentotrentadue e trentatré, l'Holodomor.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R4",
+  "testo": "Ripassiamo. Stalin instaura una dittatura personale. Con le grandi purghe, i processi pubblici e il Gulag elimina ogni possibile oppositore.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R5",
+  "testo": "Ripassiamo. La propaganda costruisce il culto di Stalin. I giovani sono indottrinati nel Komsomol, il lavoro è esaltato con Stachanov e le donne tornano a ruoli tradizionali.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R6",
+  "testo": "Ripassiamo. L'Unione Sovietica esce dall'isolamento ed entra nella Società delle Nazioni. Promuove il Fronte unito contro il fascismo, ma nel millenovecentotrentanove firma il patto con Hitler.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RF1",
+  "testo": "Ripasso finale. Stalin trasforma l'Unione Sovietica in una potenza industriale. Il prezzo è altissimo: carestia, terrore, Gulag e un controllo totale sulla società.",
+  "lingua": "it"
+ },
+ {
+  "nome": "FIN1",
+  "testo": "Per oggi è tutto. Abbiamo visto come Stalin costruisce uno dei grandi totalitarismi del Novecento. Ora mettiti alla prova con la verifica finale e con i compiti. Ti aspetto.",
+  "lingua": "it"
+ },
+ {
+  "nome": "BENV1",
+  "testo": "Benvenuta e benvenuto alla lezione di Storia. Oggi il professor Mazzotti ci porta nell'Unione Sovietica di Stalin, dal millenovecentoventiquattro al millenovecentotrentanove. Alla fine di ogni argomento ti aspetta un breve quiz.",
+  "lingua": "it"
+ },
+ {
+  "nome": "COMPI",
+  "testo": "Ora tocca a te: ecco i compiti.",
+  "lingua": "it"
+ }
+]
