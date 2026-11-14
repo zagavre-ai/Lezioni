@@ -3,20 +3,35 @@
  "parti": {
   "1": {
    "stato": "IN_MONTAGGIO",
-   "voci": "segnaposto"
+   "voci": "segnaposto",
+   "titolo": "Narrativa e saggistica del primo Novecento"
   }
  },
  "manca": "",
- "serve_master": [],
- "domande_sara": [],
+ "serve_master": [
+  {
+   "quando": "14/11 02:20",
+   "testo": "Lez12: docente misurato 20:42; montaggio con segnaposto 31,5 min. Anche qui sotto i 50 min per mancanza di materiale."
+  }
+ ],
+ "domande_sara": [
+  {
+   "quando": "14/11 02:20",
+   "testo": "Quiz (25) e testi voci (15) mandati a Sara in chat D"
+  }
+ ],
  "note": [
   {
    "quando": "14/11 01:22",
    "testo": "Presa da Letteratura V · chat D (preparazione a catena mentre la lez07 aspetta le voci)"
+  },
+  {
+   "quando": "14/11 02:20",
+   "testo": "Montaggio completo con voci segnaposto: 31,5 min misurati. In attesa ok di Sara."
   }
  ],
  "materia": "Letteratura italiana · V anno",
  "lezione": "Lezione 12",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 01:22:13"
+ "aggiornato": "2026-11-14 02:20:35"
 }
