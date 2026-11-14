@@ -415,10 +415,14 @@
   {
    "quando": "14/11 07:08",
    "testo": "controllo_finale: ESITO: TUTTO OK"
+  },
+  {
+   "quando": "14/11 07:08",
+   "testo": "Chat D2: PRONTA. Consegna sul ramo consegna-letteratura-V-lez12 (video in 2 pezzi da 90 MB + sha256, .vtt, quiz, test, dispensa A4, scheda, testo YouTube, timeline). t_verifica 1677.00 s, t_compiti 1695.30 s. Durata 28:21,6 (sotto i 50 min: materiale del docente breve, niente riempitivi). Sincronia card: in parte stimata."
   }
  ],
  "materia": "Letteratura italiana · V anno",
  "lezione": "Lezione 12",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 07:08:35"
+ "aggiornato": "2026-11-14 07:08:38"
 }
