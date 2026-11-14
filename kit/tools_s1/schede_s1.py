@@ -84,14 +84,14 @@ def an_cards(kicker, titolo, items, visibili, parte=None):
     cs = ''
     for k, (h, t) in enumerate(items):
         on = k < visibili
-        cs += ('<div class="card" style="width:%dpx;padding:34px 36px 36px;opacity:%s;transform:translateY(%dpx);min-height:430px">'
+        cs += ('<div class="card" style="width:%dpx;padding:40px 40px 44px;opacity:%s;transform:translateY(%dpx);min-height:560px">'
                '<div style="width:56px;height:56px;border-radius:50%%;background:#2060AF;color:#fff;font-weight:800;font-size:30px;display:flex;align-items:center;justify-content:center">%d</div>'
-               '<div class=bg2 style="font-size:40px;margin-top:22px">%s</div>'
-               '<div style="font-size:30px;line-height:1.38;margin-top:16px;color:#26334f">%s</div></div>'
+               '<div class=bg2 style="font-size:46px;margin-top:26px">%s</div>'
+               '<div style="font-size:34px;line-height:1.38;margin-top:20px;color:#26334f">%s</div></div>'
                % ((1760 - 40 * (n - 1)) // n, 1 if on else 0, 0 if on else 24, k + 1, E(h), E(t)))
     body = (head() + '<div class="kick abs" style="left:80px;top:150px;font-size:24px;color:#2060AF">%s</div>' % E(kicker) +
             '<div class=bg2 style="position:absolute;left:80px;top:196px;font-size:70px;width:1760px">%s</div>' % E(titolo) +
-            '<div class=abs style="left:80px;top:360px;width:1760px;display:flex;gap:40px">%s</div>' % cs + foot())
+            '<div class=abs style="left:80px;top:340px;width:1760px;display:flex;gap:40px">%s</div>' % cs + foot())
     return page(body, 'light')
 
 
@@ -108,11 +108,11 @@ def an_timeline(kicker, titolo, items, visibili):
         x = xs[k]
         up = (k % 2 == 0)
         parts += ('<div class=abs style="left:%dpx;top:543px;width:40px;height:40px;margin-left:-20px;border-radius:50%%;background:%s;border:6px solid #fff;box-shadow:0 4px 12px rgba(20,40,90,.3)"></div>' % (x, '#2060AF' if on else '#C9D0DC'))
-        top = 330 if up else 620
-        cw = 380
+        top = 300 if up else 620
+        cw = 420
         parts += ('<div class="abs" style="left:%dpx;top:%dpx;width:%dpx;opacity:%s;transform:translateY(%dpx)">'
-                  '<div class=card style="padding:22px 26px;%s"><div class=bg2 style="font-size:40px;color:#2060AF">%s</div>'
-                  '<div style="font-size:30px;line-height:1.3;margin-top:8px">%s</div></div></div>'
+                  '<div class=card style="padding:26px 30px;%s"><div class=bg2 style="font-size:46px;color:#2060AF">%s</div>'
+                  '<div style="font-size:34px;line-height:1.3;margin-top:10px">%s</div></div></div>'
                   % (min(max(40, x - cw / 2), 1920 - 40 - cw), top, cw, 1 if on else 0, 0 if on else 20, 'border-color:#FFE600;' if (k == visibili - 1) else '', E(d), E(t)))
     body = (head() + '<div class="kick abs" style="left:80px;top:150px;font-size:24px;color:#2060AF">%s</div>' % E(kicker) +
             '<div class=bg2 style="position:absolute;left:80px;top:196px;font-size:70px;width:1760px">%s</div>' % E(titolo) + parts + foot())
