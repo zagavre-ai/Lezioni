@@ -1,0 +1,472 @@
+[
+ {
+  "nome": "MAP1",
+  "testo": "Ecco la mappa di questo argomento. Primo ramo: Richard Nixon, presidente dal millenovecentosessantanove. Secondo ramo: il deficit, causato dalla guerra in Vietnam e dalle spese sociali. Terzo ramo: i concorrenti, come il Giappone e la Germania Ovest. Quarto ramo: l'agosto del millenovecentosettantuno, quando il dollaro non è più convertibile in oro. Quinto ramo: la crisi, con mercati instabili in tutto il mondo.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN1",
+  "testo": "Nel millenovecentosessantanove il repubblicano Richard Nixon diventa presidente degli Stati Uniti, e trova un'economia in difficoltà. Pesano le spese per la guerra in Vietnam, una guerra impopolare che Nixon eredita da Johnson. Pesano i programmi di assistenza sociale avviati dai presidenti democratici Kennedy e Johnson. E crescono i concorrenti: il Giappone vende tecnologia in tutto il mondo e la Germania Ovest è tornata forte e ricca. Il risultato è un forte deficit di bilancio: lo Stato spende più di quanto incassa.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN2",
+  "testo": "Dal millenovecentoquarantaquattro gli accordi di Bretton Woods regolano l'economia mondiale: il dollaro è la moneta di riferimento e i cambi sono stabili. Nell'agosto del millenovecentosettantuno Nixon sospende la convertibilità del dollaro in oro, per difendere l'economia americana e frenare le importazioni. Finisce il sistema dei cambi fissi: il valore delle monete oscilla, i mercati diventano instabili e in Europa comincia una lunga crisi.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN34",
+  "testo": "All'inizio degli anni Settanta l'economia americana ha nuovi concorrenti, e sono suoi alleati. Il Giappone, cresciuto dalla metà degli anni Cinquanta, produce il meglio della tecnologia: televisori, videoregistratori, macchine fotografiche, musicassette. E vende questi prodotti negli Stati Uniti e in Europa, arricchendosi enormemente. Anche la Germania Ovest si è ripresa dalle distruzioni della guerra: è ricca e fa concorrenza agli americani. Washington resta la prima potenza finanziaria, ma è preoccupata.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R1",
+  "testo": "Ripassiamo. Nel millenovecentosessantanove Richard Nixon diventa presidente e trova un forte deficit, causato dalla guerra in Vietnam e dalle spese sociali. Intanto il Giappone e la Germania Ovest fanno concorrenza agli Stati Uniti. Nell'agosto del millenovecentosettantuno Nixon sospende la convertibilità del dollaro in oro: finiscono gli accordi di Bretton Woods e i cambi fissi, e i mercati diventano instabili. Il Giappone e la Germania Ovest, ormai ricchi, sono i nuovi concorrenti degli Stati Uniti.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MAP2",
+  "testo": "Ecco la mappa della crisi degli anni Settanta. Primo ramo: la guerra del Kippur del millenovecentosettantatré. Secondo ramo: la ritorsione dei paesi arabi dell'OPEC. Terzo ramo: il prezzo del petrolio che quadruplica. Quarto ramo: le conseguenze, con il calo della produzione e la disoccupazione. Quinto ramo: la stagflazione, cioè inflazione e stagnazione insieme.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN3",
+  "testo": "Dopo la guerra dei Sei giorni del millenovecentosessantasette, Israele è più forte. Nel millenovecentosettantatré Egitto e Siria attaccano Israele proprio durante il Kippur, una festa del calendario ebraico. I combattimenti finiscono presto, grazie alla mediazione di Washington e di Mosca. Ma per ritorsione contro gli alleati di Israele, i paesi arabi dell'OPEC bloccano le forniture di petrolio agli Stati Uniti e all'Europa occidentale.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN4",
+  "testo": "Alla fine del millenovecentosettantatré il prezzo del petrolio quadruplica. Nei paesi industrializzati manca il carburante: le fabbriche devono interrompere la produzione per ore o per giorni. Si vende di meno, e a catena crescono i licenziamenti e la disoccupazione. Nasce una parola nuova, stagflazione: l'economia non cresce, ma i prezzi salgono e il denaro vale sempre meno.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN5",
+  "testo": "La crisi cambia la vita di tutti i giorni. In Italia arrivano le targhe alterne: le auto possono circolare solo in alcuni giorni, per evitare code ai distributori quasi vuoti. Si torna ad andare al lavoro in bicicletta e con i mezzi pubblici. Cresce la consapevolezza dell'importanza di un mondo più verde. E le monete europee, come la lira, il franco francese e la sterlina, perdono valore.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R2",
+  "testo": "Ripassiamo. Nel millenovecentosettantatré Egitto e Siria attaccano Israele nel giorno del Kippur. Gli Stati Uniti sostengono Israele e i paesi arabi dell'OPEC reagiscono: riducono il petrolio e ne quadruplicano il prezzo. È lo shock petrolifero, che porta la stagflazione, cioè stagnazione e inflazione insieme, con fabbriche ferme e disoccupazione. In Italia arrivano le targhe alterne, e le monete europee perdono valore.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MAP3",
+  "testo": "Ecco la mappa del Medio Oriente. Primo ramo: gli accordi di Camp David del millenovecentosettantotto. Secondo ramo: Sadat, assassinato nel millenovecentottantuno. Terzo ramo: la guerra civile in Libano. Quarto ramo: l'OLP e i massacri di Sabra e Chatila. Quinto ramo: l'Intifada del millenovecentottantasette. Sesto ramo: Hamas e il fondamentalismo islamico.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN6",
+  "testo": "Nel millenovecentosettantacinque in Libano scoppia una guerra civile tra la minoranza cristiana e i profughi palestinesi. Nel millenovecentosettantotto, con la mediazione americana, l'egiziano Sadat e l'israeliano Begin firmano gli accordi di Camp David. Ma nel mondo arabo Sadat è visto come un traditore, e nel millenovecentottantuno viene assassinato da estremisti islamici. Nel millenovecentottantadue Israele invade il Libano per cacciare l'OLP; nei campi profughi di Sabra e Chatila avvengono tragici massacri. Nel millenovecentottantasette, a Gaza e in Cisgiordania, scoppia l'Intifada, la rivolta popolare palestinese.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN7",
+  "testo": "Due nomi tornano spesso quando si parla della questione palestinese. L'OLP è l'Organizzazione per la liberazione della Palestina; Hamas è un'organizzazione fondamentalista islamica. L'OLP organizza attentati, ma è anche disposta al dialogo; Hamas rifiuta ogni dialogo. L'OLP vuole liberare i territori occupati; Hamas vuole la distruzione di Israele. Per il docente, il fallimento di Camp David ha favorito gli estremismi.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN36",
+  "testo": "Il Libano è una sottile striscia di terra sul Mediterraneo. Nel millenovecentosettantacinque vi scoppia una guerra civile tra la minoranza cristiana e i profughi palestinesi. Nel conflitto intervengono la Siria da una parte e Israele dall'altra. In Libano si è rafforzata l'OLP, che da lì organizza attacchi contro Israele. Nel millenovecentottantadue Israele invade il Libano per cacciarla, e nei campi profughi di Sabra e Chatila avviene un tragico massacro di palestinesi.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R3",
+  "testo": "Ripassiamo. Nel millenovecentosettantotto, con gli accordi di Camp David, l'Egitto di Sadat riconosce Israele, ma Sadat viene assassinato nel millenovecentottantuno. In Libano scoppia una guerra civile; nel millenovecentottantadue Israele invade il paese per cacciare l'OLP e avvengono i massacri di Sabra e Chatila. Nel millenovecentottantasette nei territori occupati scoppia l'Intifada, e cresce Hamas. Per il docente, il fallimento della pace ha favorito gli estremismi da entrambe le parti.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MAP4",
+  "testo": "Ecco la mappa della rivoluzione iraniana. Primo ramo: lo Shah, sovrano vicino all'Occidente. Secondo ramo: la rivoluzione popolare del millenovecentosettantanove. Terzo ramo: l'Ayatollah Khomeini. Quarto ramo: la teocrazia fondata sulla sharia. Quinto ramo: la crisi degli ostaggi a Teheran.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN8",
+  "testo": "In Iran governa lo Shah Mohammad Reza Pahlavi, un sovrano moderno e vicino all'Occidente. Nel millenovecentosettantanove una rivoluzione popolare lo travolge e nasce la Repubblica islamica. Lo Shah aveva imposto con la forza la laicità; ora la legge dello Stato diventa la legge islamica, la sharia: è una teocrazia. Prima l'Iran era vicino all'Occidente; con l'Ayatollah Khomeini diventa anti-occidentale e anti-americano.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN9",
+  "testo": "Nel novembre del millenovecentosettantanove gli studenti iraniani assaltano l'ambasciata degli Stati Uniti a Teheran. Il personale diplomatico resta in ostaggio per oltre un anno. Per gli Stati Uniti è uno smacco: il presidente Carter non riesce a risolvere la crisi, e questo pesa sulla sua sconfitta elettorale.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN37",
+  "testo": "Lo Shah vuole un Iran moderno e laico. Impone la laicità per legge, anche togliendo il velo negli uffici pubblici, con una polizia che controlla. Si veste all'occidentale e frequenta l'Europa: per i tradizionalisti sta cancellando le radici del paese. Si aggiungono la corruzione e riforme impopolari, e lo Shah appare come un dittatore. Nel millenovecentosettantanove una rivoluzione popolare lo travolge, e lo Shah lascia l'Iran.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R4",
+  "testo": "Ripassiamo. Nel millenovecentosettantanove una rivoluzione popolare travolge lo Shah di Persia. L'Ayatollah Khomeini fonda una Repubblica islamica, una teocrazia basata sulla sharia, anti-occidentale e anti-americana. Nel novembre millenovecentosettantanove gli studenti assaltano l'ambasciata americana di Teheran e tengono in ostaggio il personale per oltre un anno. Lo Shah aveva imposto la laicità con la forza, e per molti era diventato un dittatore.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MAP5",
+  "testo": "Ecco la mappa della guerra tra Iran e Iraq. Primo ramo: Saddam Hussein e il suo regime laico. Secondo ramo: la paura del contagio della rivoluzione islamica. Terzo ramo: il petrolio del golfo Persico. Quarto ramo: otto anni di guerra e quasi due milioni di morti. Quinto ramo: uno stallo, senza vincitori.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN10",
+  "testo": "Nel millenovecentottanta il dittatore iracheno Saddam Hussein attacca l'Iran. Le ragioni sono diverse. La prima è ideologica: Saddam guida un regime laico e teme il contagio della rivoluzione islamica. La seconda è il potere: teme che i fondamentalisti rovescino anche lui. La terza è il petrolio: il controllo delle risorse e dell'accesso al golfo Persico.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN11",
+  "testo": "Guardiamo la carta del golfo Persico. L'Iraq è l'antica Mesopotamia, la terra del Tigri e dell'Eufrate. Accanto c'è l'Iran, molto più grande. E sul golfo c'è il Kuwait, piccolo ma ricchissimo di pozzi di petrolio, che Saddam desidera.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN12",
+  "testo": "La guerra tra Iran e Iraq dura otto anni, dal millenovecentottanta al millenovecentottantotto. Provoca quasi due milioni di morti. E si chiude senza vincitori. Negli anni Ottanta gli Stati Uniti di Reagan dialogano con Saddam, nemico della teocrazia iraniana; più tardi la situazione cambierà.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R5",
+  "testo": "Ripassiamo. Nel millenovecentottanta Saddam Hussein, dittatore dell'Iraq, attacca l'Iran: teme il contagio della rivoluzione islamica e vuole controllare il petrolio del golfo Persico. La guerra dura otto anni, fino al millenovecentottantotto, provoca quasi due milioni di morti e finisce senza vincitori. Negli anni Ottanta gli Stati Uniti di Reagan dialogano con Saddam, nemico della teocrazia iraniana.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MAP6",
+  "testo": "Ecco la mappa degli Stati Uniti di Nixon. Primo ramo: le relazioni con la Cina di Mao, nel millenovecentosettantadue. Secondo ramo: i trattati SALT uno sulle armi nucleari. Terzo ramo: gli accordi di Helsinki del millenovecentosettantacinque. Quarto ramo: la crisi economica, che porta New York quasi al fallimento.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN13",
+  "testo": "Nel millenovecentosettantadue Nixon apre relazioni diplomatiche con la Cina comunista di Mao. Il seggio cinese all'ONU, fino ad allora di Taiwan, passa alla Repubblica Popolare. L'obiettivo è isolare l'Unione Sovietica di Bresnev: la Cina di Mao, infatti, prende sempre più le distanze da Mosca.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN14",
+  "testo": "Nel millenovecentosettantadue Stati Uniti e Unione Sovietica firmano i trattati SALT uno, per limitare gli armamenti nucleari. Nel millenovecentosettantaquattro lo scandalo Watergate costringe Nixon alle dimissioni. Nel millenovecentosettantacinque gli accordi di Helsinki stabilizzano i confini europei e impegnano i due blocchi a rispettare i diritti umani.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN38",
+  "testo": "Lo shock petrolifero del millenovecentosettantatré colpisce anche gli Stati Uniti. Gli Stati Uniti sono uno Stato federale: il bilancio di ogni Stato e di ogni città è separato da quello del governo di Washington. E così, a metà degli anni Settanta, la città di New York rischia il fallimento: ha più debiti che entrate. Alzare le tasse impoverisce ancora di più i cittadini, i servizi essenziali sono a rischio e cresce la criminalità.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R6",
+  "testo": "Ripassiamo. Nel millenovecentosettantadue Nixon apre le relazioni diplomatiche con la Cina di Mao, per isolare l'Unione Sovietica. Lo stesso anno Stati Uniti e URSS firmano i trattati SALT uno, per limitare le armi nucleari, e nel millenovecentosettantacinque gli accordi di Helsinki stabilizzano i confini europei e impegnano i blocchi a rispettare i diritti umani. Intanto la crisi colpisce anche gli Stati Uniti: New York rischia il fallimento. Gli Stati Uniti sono uno Stato federale, e ogni città deve far quadrare il proprio bilancio.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MAP6W",
+  "testo": "Ecco la mappa dello scandalo Watergate. Primo ramo: le microspie nella sede dei democratici. Secondo ramo: i nastri della Casa Bianca, che provano il tentativo di fermare i giudici. Terzo ramo: le dimissioni di Nixon nel millenovecentosettantaquattro. Quarto ramo: la grazia concessa da Gerald Ford. Quinto ramo: i poteri divisi e la magistratura indipendente.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN15",
+  "testo": "Uomini legati a Nixon mettono delle microspie nella sede del Partito democratico, per spiarne le strategie elettorali. La magistratura indaga, e dai nastri della Casa Bianca emerge che il presidente voleva fermare le indagini. Nel millenovecentosettantaquattro Nixon annuncia in televisione le sue dimissioni. Il nuovo presidente, Gerald Ford, gli concede la grazia. È la prova che, in una democrazia, i poteri dello Stato sono divisi e la magistratura è indipendente.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN39",
+  "testo": "Lo scandalo Watergate mostra come funziona una democrazia. Il presidente guida il potere esecutivo, ma non può bloccare le indagini. La magistratura è indipendente, e può indagare anche sul presidente in carica. E il Congresso può chiedergliene conto. Per questo Nixon, travolto dallo scandalo, sceglie di dimettersi.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN42",
+  "testo": "Richard Nixon viene eletto nel millenovecentosessantanove e rieletto nel millenovecentosettantadue. Nel millenovecentosettantaquattro, dopo le dimissioni, gli succede il repubblicano Gerald Ford, la cui presidenza è indebolita dalle proteste per la grazia concessa a Nixon. Alle elezioni successive vince il democratico Jimmy Carter, presidente dal millenovecentosettantasette.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R7",
+  "testo": "Ripassiamo. Uomini legati a Nixon mettono delle microspie nella sede del Partito democratico. La magistratura indaga, e i nastri della Casa Bianca mostrano che il presidente voleva fermare le indagini. Nel millenovecentosettantaquattro Nixon si dimette; il nuovo presidente, Gerald Ford, gli concede la grazia. Poi arriva il democratico Jimmy Carter. Lo scandalo dimostra che in democrazia i poteri sono divisi.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MAP7",
+  "testo": "Ecco la mappa da Carter a Reagan. Primo ramo: Jimmy Carter e i diritti umani. Secondo ramo: la crisi degli ostaggi in Iran. Terzo ramo: l'invasione sovietica dell'Afghanistan, nel millenovecentosettantanove. Quarto ramo: Ronald Reagan, presidente dal millenovecentottantuno. Quinto ramo: l'URSS definita impero del male. Sesto ramo: lo scudo spaziale e le spese militari.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN16",
+  "testo": "Dopo Nixon e Ford, nel millenovecentosettantasette arriva il democratico Jimmy Carter; nel millenovecentottantuno il repubblicano Ronald Reagan. Carter mette i diritti umani al centro della politica; Reagan sceglie la linea dura contro l'Unione Sovietica. Carter fa installare i pannelli solari sul tetto della Casa Bianca; Reagan aumenta le spese militari. Carter viene travolto dalla crisi degli ostaggi in Iran; Reagan, nel millenovecentottantaquattro, viene rieletto vincendo in quasi tutti gli Stati.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN17",
+  "testo": "Nel millenovecentosettantanove l'Unione Sovietica invade l'Afghanistan, al suo confine: il dialogo con gli Stati Uniti fallisce. Nel millenovecentottantuno diventa presidente Ronald Reagan, che chiama l'URSS l'impero del male. Reagan aumenta le spese militari e lancia il progetto dello scudo spaziale, soprannominato Star Wars, per difendersi da un attacco anche dallo spazio.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN18",
+  "testo": "L'Unione Sovietica invade l'Afghanistan per impedire che al suo confine governi una giunta islamista anticomunista. Ma la guerra non finisce: i sovietici non riescono a controllare il paese. Il conflitto logora le risorse dell'URSS, già in crisi, e diventa uno dei motivi del suo declino.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R8",
+  "testo": "Ripassiamo. Alla fine degli anni Settanta la distensione entra in crisi: nel millenovecentosettantanove l'Unione Sovietica invade l'Afghanistan. Carter non riesce a risolvere la crisi degli ostaggi in Iran. Nel millenovecentottantuno arriva Ronald Reagan, che chiama l'URSS impero del male, aumenta le spese militari e lancia lo scudo spaziale. In Afghanistan l'Unione Sovietica non riuscirà mai a controllare il paese.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MAP9",
+  "testo": "Ecco la mappa del Cile. Primo ramo: Salvador Allende, eletto nel millenovecentosettanta. Secondo ramo: le riforme, con nazionalizzazioni e terre ai contadini. Terzo ramo: il golpe del generale Pinochet nel millenovecentosettantatré. Quarto ramo: la dittatura, che dura fino al millenovecentottantotto. Quinto ramo: gli Stati Uniti, che appoggiano indirettamente il golpe.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN19",
+  "testo": "Nel millenovecentosettanta in Cile vince le elezioni il socialista Salvador Allende, che nazionalizza le banche e distribuisce le terre ai contadini. Nel settembre del millenovecentosettantatré i militari guidati da Augusto Pinochet attaccano il palazzo presidenziale; Allende muore. Inizia una dittatura feroce: Parlamento abolito, libertà sospese, oppositori arrestati e scomparsi. Gli Stati Uniti appoggiano indirettamente il golpe.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN43",
+  "testo": "Per gli Stati Uniti l'America Latina è un'area da controllare. A Cuba governa il regime marxista di Fidel Castro, alleato dell'Unione Sovietica. Washington teme che altri paesi del continente diventino comunisti, con la rivoluzione o con il voto. Per questo, negli anni di Reagan, sostiene in Nicaragua i Contras, guerriglieri che combattono il governo sandinista e compiono massacri. E in Cile, già nel millenovecentosettantatré, appoggia indirettamente il golpe contro Allende.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN47",
+  "testo": "Dopo il golpe, il Cile vive sotto la dittatura militare. Viene proclamato lo stato d'assedio e il Parlamento viene abolito. Le libertà civili sono sospese. Molti sostenitori di Allende vengono arrestati e rinchiusi in uno stadio, sorvegliati dai militari. E molti di loro spariscono: il regime non dice dove sono, ma probabilmente sono stati uccisi.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R9",
+  "testo": "Ripassiamo. Gli Stati Uniti temono il contagio comunista in America Latina, dopo la rivoluzione di Castro a Cuba. In Cile, nel millenovecentosettanta, vince le elezioni il socialista Salvador Allende, che nazionalizza le banche e distribuisce le terre. Nel settembre millenovecentosettantatré il generale Augusto Pinochet guida un sanguinoso golpe: Allende muore e inizia una dittatura feroce, che dura fino al millenovecentottantotto. Gli Stati Uniti, che temono il comunismo, appoggiano indirettamente il golpe.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MAP9A",
+  "testo": "Ecco la mappa dell'Argentina. Primo ramo: la giunta militare, dal millenovecentosettantasei al millenovecentottantatré. Secondo ramo: i desaparecidos. Terzo ramo: le madri di Plaza de Mayo. Quarto ramo: la sconfitta nella guerra delle Falkland. Quinto ramo: il ritorno della democrazia.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN20",
+  "testo": "Dal millenovecentosettantasei al millenovecentottantatré l'Argentina è governata da una giunta militare di estrema destra. Migliaia di oppositori politici spariscono nel nulla: sono i desaparecidos, gli scomparsi. Le madri di Plaza de Mayo manifestano con coraggio, a Buenos Aires, per chiedere la verità sui figli scomparsi.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN21",
+  "testo": "Nel millenovecentottantadue la giunta argentina occupa le isole Falkland, che gli argentini chiamano Malvinas e che appartengono al Regno Unito. La premier britannica Margaret Thatcher manda la flotta, e le isole vengono riconquistate. La sconfitta accelera il crollo della giunta militare, e in Sudamerica torna la democrazia.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN48",
+  "testo": "Mettiamo a confronto le due dittature. In Cile il golpe arriva nel millenovecentosettantatré; in Argentina la giunta prende il potere nel millenovecentosettantasei. In Cile comanda il generale Pinochet; in Argentina una giunta di militari. La dittatura cilena dura fino al millenovecentottantotto; quella argentina cade nel millenovecentottantatré, dopo la sconfitta delle Falkland. In entrambi i paesi migliaia di oppositori vengono fatti sparire.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R10",
+  "testo": "Ripassiamo. Dal millenovecentosettantasei al millenovecentottantatré l'Argentina è governata da una giunta militare che fa sparire migliaia di oppositori, i desaparecidos; le madri di Plaza de Mayo chiedono la verità sui figli. Nel millenovecentottantadue la giunta occupa le isole Falkland, ma il Regno Unito di Margaret Thatcher le riconquista. La sconfitta accelera il ritorno della democrazia in Sudamerica. In entrambe le dittature migliaia di oppositori vengono fatti sparire.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MAP10",
+  "testo": "Ecco la mappa del neoliberismo. Primo ramo: la crisi degli shock petroliferi. Secondo ramo: meno Stato e più mercato. Terzo ramo: le privatizzazioni e i tagli al welfare. Quarto ramo: Margaret Thatcher, la Lady di ferro. Quinto ramo: Reagan e la Reaganomics.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN22",
+  "testo": "Margaret Thatcher, prima donna premier del Regno Unito, governa dal millenovecentosettantanove al millenovecentonovanta. La sua ricetta è il neoliberismo: meno Stato e più mercato. Privatizza molti servizi e taglia lo stato sociale. Non cede neppure al lungo sciopero dei minatori: per questo la chiamano la Lady di ferro. Negli Stati Uniti Reagan segue la stessa strada: la sua economia liberista viene chiamata Reaganomics.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN44",
+  "testo": "Margaret Thatcher è la prima donna primo ministro nella storia del Regno Unito. Guida i conservatori e vince tre elezioni, restando in carica dal millenovecentosettantanove al millenovecentonovanta. La vittoria nella guerra delle Falkland la rende popolarissima: alla parata della vittoria, al posto della regina, c'è lei. Anche nell'Irlanda del Nord, dove una parte della popolazione vuole staccarsi, sceglie la linea dura e manda l'esercito.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN49",
+  "testo": "Il neoliberismo è una risposta alla crisi degli anni Settanta. Critica l'intervento dello Stato nell'economia e sostiene: meno Stato, più mercato. In pratica affida i servizi ai privati, con le privatizzazioni, e promette la riduzione delle tasse. Lo applicano Margaret Thatcher nel Regno Unito, dal millenovecentosettantanove, e Ronald Reagan negli Stati Uniti, dal millenovecentottantuno.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R11",
+  "testo": "Ripassiamo. Gli shock petroliferi colpiscono l'Europa con inflazione, disoccupazione e scioperi. Nel Regno Unito Margaret Thatcher, la Lady di ferro, governa dal millenovecentosettantanove al millenovecentonovanta con una politica neoliberista: meno Stato e più mercato, privatizzazioni, tagli allo stato sociale e scontro con i sindacati dei minatori. Negli Stati Uniti Reagan segue la stessa strada. La sua politica viene criticata, ma la vittoria nelle Falkland la rende popolarissima.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MAP10E",
+  "testo": "Ecco la mappa dell'Europa che si allarga. Primo ramo: il Portogallo e la rivoluzione dei garofani. Secondo ramo: la Grecia e la fine dei colonnelli. Terzo ramo: la Spagna di Juan Carlos. Quarto ramo: i nuovi membri della CEE. Quinto ramo: le prime elezioni del Parlamento europeo.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN23",
+  "testo": "Nel millenovecentosettantaquattro in Portogallo i militari rovesciano pacificamente la dittatura: è la rivoluzione dei garofani, perché nelle canne dei fucili e dei carri armati spuntano dei fiori. Lo stesso anno in Grecia cade la dittatura dei colonnelli. Nel millenovecentosettantacinque in Spagna muore il dittatore Francisco Franco; il re Juan Carlos di Borbone guida il paese verso una monarchia pienamente democratica.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN24",
+  "testo": "Nonostante la crisi, l'integrazione europea va avanti. Nel millenovecentosettantatré entrano nella Comunità europea il Regno Unito, l'Irlanda e la Danimarca. Nel millenovecentosettantanove i cittadini eleggono per la prima volta il Parlamento europeo a suffragio universale. Nel millenovecentottantuno entra la Grecia, e nel millenovecentottantasei la Spagna e il Portogallo, ormai tornati alla democrazia.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN45",
+  "testo": "Negli anni Ottanta, in Europa occidentale, convivono strade diverse. Nel Regno Unito governa la conservatrice Margaret Thatcher; in Francia, nel millenovecentottantuno, vince il socialista François Mitterrand. Thatcher è al governo dal millenovecentosettantanove; Mitterrand è eletto presidente nel millenovecentottantuno: è la prima volta che la sinistra vince in modo esplicito. Thatcher punta sul neoliberismo e sulle privatizzazioni; Mitterrand governa con una coalizione di socialisti e comunisti.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R12",
+  "testo": "Ripassiamo. Negli anni Settanta finiscono le dittature dell'Europa meridionale: in Portogallo con la rivoluzione dei garofani, in Grecia con la caduta dei colonnelli, in Spagna dopo la morte di Franco. La Comunità europea si allarga: nel millenovecentosettantatré al Regno Unito, all'Irlanda e alla Danimarca, poi alla Grecia nel millenovecentottantuno, alla Spagna e al Portogallo nel millenovecentottantasei. Nel millenovecentosettantanove si vota per il Parlamento europeo. Le nuove democrazie chiedono di entrare nella Comunità europea, per consolidare la libertà.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MAP10",
+  "testo": "Ecco la mappa della crisi del comunismo. Primo ramo: l'URSS di Bresnev e la stagnazione. Secondo ramo: Solidarnosc in Polonia. Terzo ramo: Gorbaciòv, leader dal millenovecentottantacinque. Quarto ramo: la perestrojka. Quinto ramo: la glasnost. Sesto ramo: il disarmo con gli Stati Uniti.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN25",
+  "testo": "Sotto la guida di Leonid Bresnev l'Unione Sovietica vive anni di immobilismo. L'economia è in stagnazione, la tecnologia è in ritardo rispetto all'Occidente, le spese militari sono enormi, e dal millenovecentosettantanove la guerra in Afghanistan logora le risorse del paese. Bresnev muore nel millenovecentottantadue.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN26",
+  "testo": "In Polonia arrivano i primi segnali di cedimento del sistema. Nasce Solidarnosc, un sindacato indipendente e non comunista, guidato da Lech Valensa. A sostenerlo c'è il forte sentimento cattolico dei polacchi, rinvigorito nel millenovecentosettantotto dall'elezione di un papa polacco, Giovanni Paolo II.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN27",
+  "testo": "Nel millenovecentottantacinque Michail Gorbaciòv diventa il leader dell'Unione Sovietica e lancia due parole chiave. Perestrojka vuol dire ristrutturazione; glasnost vuol dire trasparenza. La perestrojka dà più spazio al mercato; la glasnost porta la libertà di espressione. L'obiettivo è un sistema meno pianificato e la fine della censura. Ma quando un regime fondato sulla repressione allenta il controllo, le spinte all'indipendenza diventano inarrestabili.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R13",
+  "testo": "Ripassiamo. Sotto Bresnev l'URSS vive stagnazione economica e ritardo tecnologico, e nel millenovecentosettantanove invade l'Afghanistan. In Polonia nasce il sindacato Solidarnosc. Nel millenovecentottantacinque Michail Gorbaciòv diventa leader e lancia la perestrojka, cioè la ristrutturazione economica, e la glasnost, cioè la trasparenza. Avvia anche il disarmo con gli Stati Uniti. Il sindacato polacco Solidarnosc, sostenuto dalla Chiesa, è uno dei primi segnali di crisi.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MAP11",
+  "testo": "Ecco la mappa del millenovecentottantanove. Primo ramo: Gorbaciòv sceglie di non intervenire. Secondo ramo: in Polonia e in Ungheria libere elezioni e frontiere aperte. Terzo ramo: l'esodo dei tedeschi dell'Est. Quarto ramo: la caduta del Muro di Berlino. Quinto ramo: l'effetto domino che travolge gli altri regimi.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN28",
+  "testo": "Nel millenovecentottantanove Gorbaciòv sceglie di non intervenire con l'esercito nei paesi satelliti. In Polonia e in Ungheria si tengono libere elezioni e si aprono le frontiere. D'estate migliaia di tedeschi dell'Est passano dall'Ungheria all'Austria, e da lì alla Germania Ovest. Il nove novembre millenovecentottantanove cade il Muro di Berlino: berlinesi dell'Est e dell'Ovest si ritrovano e fanno festa. Crollano i regimi comunisti anche in Cecoslovacchia e in Bulgaria; in Romania la fine del dittatore Ciausescu è violenta.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN40",
+  "testo": "Per il docente, il sistema sovietico crolla proprio mentre prova a migliorarsi. Era un regime che si reggeva sulla repressione, sulla censura e sulla forza militare. Quando Gorbaciòv allenta il controllo con le sue riforme, milioni di persone dell'Est, stanche dell'economia pianificata e della dittatura, vogliono un altro mondo. E nel millenovecentottantanove i regimi cadono uno dopo l'altro, come in un effetto domino.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN46",
+  "testo": "In Romania la fine del comunismo non è pacifica. Il dittatore Nicolae Ciausescu guida un regime chiuso, che non vuole aprirsi all'Occidente. Per anni i dissidenti politici sono stati perseguitati. Nel dicembre del millenovecentottantanove Ciausescu non vuole cedere il potere, e scoppia un'insurrezione popolare. Il dittatore viene catturato e ucciso. Altrove, come in Polonia e in Cecoslovacchia, la transizione è pacifica.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R14",
+  "testo": "Ripassiamo. Gorbaciòv rinuncia a intervenire militarmente nei paesi satelliti. Nel millenovecentottantanove in Polonia e in Ungheria si tengono libere elezioni e si aprono le frontiere; migliaia di tedeschi dell'Est fuggono verso l'Ovest. Il nove novembre millenovecentottantanove cade il Muro di Berlino, e i regimi comunisti crollano anche in Cecoslovacchia, in Bulgaria e in Romania. In Romania la transizione è violenta: il dittatore Ciausescu viene catturato e ucciso.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MAP11U",
+  "testo": "Ecco la mappa della fine dell'Unione Sovietica. Primo ramo: la Germania riunificata nell'ottobre del millenovecentonovanta. Secondo ramo: il colpo di Stato fallito dell'agosto millenovecentonovantuno. Terzo ramo: la dissoluzione dell'URSS nel dicembre millenovecentonovantuno. Quarto ramo: la Comunità degli Stati Indipendenti. Quinto ramo: la Russia degli anni Novanta.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN29",
+  "testo": "Nell'ottobre del millenovecentonovanta la Germania Est entra nella Repubblica Federale: la Germania è di nuovo unita. Nell'agosto del millenovecentonovantuno i comunisti conservatori tentano un colpo di Stato a Mosca, ma falliscono. Il ventisei dicembre millenovecentonovantuno l'Unione Sovietica si dissolve: sul Cremlino la bandiera rossa viene ammainata, e Gorbaciòv si dimette. Molte ex repubbliche sovietiche formano la CSI, la Comunità degli Stati Indipendenti; le repubbliche baltiche, invece, se ne restano fuori.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN30",
+  "testo": "Guardiamo la carta degli Stati nati dall'Unione Sovietica. Al centro c'è la Federazione Russa, che resta di gran lunga la più grande. Intorno nascono Stati indipendenti: l'Ucraina, la Bielorussia, la Moldavia, i paesi del Caucaso e dell'Asia centrale, come il Kazakistan. Le repubbliche baltiche, Estonia, Lettonia e Lituania, si staccano completamente e restano fuori dalla CSI.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN41",
+  "testo": "Dopo il millenovecentonovantuno la Russia deve passare in pochi anni dal comunismo al libero mercato. Negli anni Novanta arriva una crisi economica devastante, con corruzione e criminalità, e il paese è vicino al fallimento. Alla fine del decennio diventa primo ministro Vladimir Putin, ex agente dei servizi segreti, che guiderà la Russia per i decenni successivi.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R15",
+  "testo": "Ripassiamo. Nell'ottobre del millenovecentonovanta la Germania si riunifica. Nell'agosto del millenovecentonovantuno un colpo di Stato dei comunisti conservatori fallisce, e le repubbliche sovietiche dichiarano l'indipendenza. Il ventisei dicembre millenovecentonovantuno l'Unione Sovietica si dissolve: Gorbaciòv si dimette e nasce la Comunità degli Stati Indipendenti. Negli anni Novanta la Russia attraversa una crisi devastante.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MAP12",
+  "testo": "Ecco la mappa della Cina di Deng. Primo ramo: Deng Xiaoping e le Quattro modernizzazioni. Secondo ramo: l'apertura al capitalismo. Terzo ramo: il partito unico, che non cede il potere. Quarto ramo: la protesta di piazza Tienanmen e la repressione.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN31",
+  "testo": "Dopo la morte di Mao, Deng Xiaoping guida la Cina e alla fine degli anni Settanta lancia le Quattro modernizzazioni. La Cina si apre al capitalismo, alla proprietà privata e agli investimenti esteri, e l'economia cresce in modo vertiginoso. Ma la politica non cambia: il Partito Comunista mantiene il controllo assoluto dello Stato.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN32",
+  "testo": "Nella primavera del millenovecentottantanove studenti e cittadini manifestano in piazza Tienanmen, a Pechino, chiedendo democrazia e libertà politiche. A giugno il governo manda l'esercito e i carri armati, e reprime la protesta nel sangue. Le immagini fanno il giro del mondo e provocano una ferma condanna internazionale. In Cina, ancora oggi, di quei fatti non si può parlare.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN33",
+  "testo": "Unione Sovietica e Cina, negli anni Ottanta, scelgono due strade diverse. Gorbaciòv prova a cambiare insieme l'economia e la politica; Deng cambia solo l'economia. In Unione Sovietica il partito perde il controllo; in Cina il partito resta al potere. L'Unione Sovietica si dissolve nel millenovecentonovantuno; la Cina diventa una grande potenza economica, ma resta un regime autoritario.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R16",
+  "testo": "Ripassiamo. Dalla fine degli anni Settanta Deng Xiaoping apre la Cina al capitalismo con le Quattro modernizzazioni, e l'economia cresce rapidamente. Ma il Partito Comunista mantiene il controllo assoluto. Nel millenovecentottantanove gli studenti chiedono democrazia in piazza Tienanmen, e il governo reprime la protesta con i carri armati. Così il Partito Comunista salva il proprio potere, e la Cina diventa una grande potenza economica.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MAPF1",
+  "testo": "Ecco la mappa di questa prima parte. La fine di Bretton Woods, nel millenovecentosettantuno. Lo shock petrolifero del millenovecentosettantatré e la stagflazione. La crisi entra nella vita quotidiana, con le targhe alterne e le fabbriche ferme. Il Medio Oriente, da Camp David all'Intifada. La rivoluzione iraniana del millenovecentosettantanove.",
+  "lingua": "it"
+ },
+ {
+  "nome": "GL1",
+  "testo": "Le parole chiave di questa parte. Deficit: lo Stato spende più di quanto incassa. Bretton Woods: il sistema dei cambi fissi. OPEC: i paesi esportatori di petrolio. Shock petrolifero: il prezzo del petrolio che quadruplica. Stagflazione: stagnazione e inflazione insieme. Camp David: la pace tra Egitto e Israele. OLP: l'Organizzazione per la liberazione della Palestina. Intifada: la rivolta palestinese. Teocrazia: uno Stato fondato sulla legge religiosa. Kippur: la festa ebraica in cui inizia la guerra del millenovecentosettantatré. Sharia: la legge islamica.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RF1",
+  "testo": "Facciamo il punto di questa prima parte. Nel millenovecentosettantuno Nixon chiude il sistema di Bretton Woods. Nel millenovecentosettantatré la guerra del Kippur provoca lo shock petrolifero e la stagflazione. In Medio Oriente gli accordi di Camp David portano la pace tra Egitto e Israele, ma il conflitto con i palestinesi continua, fino all'Intifada. Nel millenovecentosettantanove in Iran nasce la Repubblica islamica di Khomeini. Intanto Saddam Hussein, in Iraq, guarda con paura alla rivoluzione iraniana.",
+  "lingua": "it"
+ },
+ {
+  "nome": "FIN1",
+  "testo": "Per oggi è tutto. Nella seconda parte vedremo la guerra tra Iran e Iraq, gli Stati Uniti da Nixon a Reagan e le dittature dell'America Latina. Ti aspetto.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MAPF2",
+  "testo": "Ecco la mappa di questa seconda parte. La guerra tra Iran e Iraq. Gli Stati Uniti di Nixon, tra distensione e Watergate. La linea dura di Reagan. Le dittature in America Latina.",
+  "lingua": "it"
+ },
+ {
+  "nome": "GL2",
+  "testo": "Le parole chiave di questa parte. Saddam Hussein: il dittatore dell'Iraq. Distensione: il calo della tensione tra Stati Uniti e Unione Sovietica. SALT uno: i trattati per limitare le armi nucleari. Helsinki: gli accordi sui confini e sui diritti umani. Watergate: lo scandalo che porta Nixon alle dimissioni. Impero del male: così Reagan chiama l'URSS. Scudo spaziale: il progetto Star Wars. Golpe: un colpo di Stato militare. Desaparecidos: gli scomparsi delle dittature.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RF2",
+  "testo": "Facciamo il punto di questa seconda parte. Iran e Iraq combattono per otto anni senza vincitori. Nixon apre alla Cina e firma con l'URSS i trattati SALT, ma cade per lo scandalo Watergate. Dopo l'invasione sovietica dell'Afghanistan, Reagan sceglie la linea dura. In America Latina dominano le dittature militari, fino al ritorno della democrazia negli anni Ottanta.",
+  "lingua": "it"
+ },
+ {
+  "nome": "FIN2",
+  "testo": "Per oggi è tutto. Nella terza parte vedremo l'Europa occidentale, il crollo del comunismo e la Cina di Deng. Ti aspetto.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MAPF3",
+  "testo": "Ecco la mappa di tutta la lezione. La crisi economica e lo shock petrolifero. Il Medio Oriente, da Camp David alla rivoluzione iraniana. Gli Stati Uniti, da Nixon a Reagan. Le dittature dell'America Latina e la fine di quelle europee. Il crollo del comunismo e dell'Unione Sovietica. La Cina di Deng e la repressione di Tienanmen.",
+  "lingua": "it"
+ },
+ {
+  "nome": "GL3",
+  "testo": "Le parole chiave di questa parte. Neoliberismo: meno Stato e più mercato. Lady di ferro: il soprannome di Margaret Thatcher. Solidarnosc: il sindacato polacco non comunista. Perestrojka: la ristrutturazione economica. Glasnost: la trasparenza. Muro di Berlino: caduto il nove novembre millenovecentottantanove. CSI: la Comunità degli Stati Indipendenti. Quattro modernizzazioni: le riforme di Deng Xiaoping. Tienanmen: la piazza della protesta del millenovecentottantanove. Rivoluzione dei garofani: la fine pacifica della dittatura in Portogallo. Reaganomics: l'economia liberista di Reagan.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RF3",
+  "testo": "Facciamo il punto di questa terza parte. In Europa occidentale si afferma il neoliberismo di Thatcher, cadono le ultime dittature e la Comunità europea si allarga. In Unione Sovietica Gorbaciòv prova a riformare il sistema con la perestrojka e la glasnost. Nel millenovecentottantanove cade il Muro di Berlino e nel millenovecentonovantuno l'URSS si dissolve. La Cina, invece, cambia l'economia ma non la politica. Nel millenovecentonovanta la Germania torna unita, e la guerra fredda finisce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "FIN3",
+  "testo": "Abbiamo concluso la lezione sulle fasi conclusive della guerra fredda. Ora mettiti alla prova con la verifica finale. A presto.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RIP2",
+  "testo": "Bentornato. Ricordiamo la prima parte. Nel millenovecentosettantuno Nixon sospende la convertibilità del dollaro in oro e finisce il sistema di Bretton Woods. Nel millenovecentosettantatré, dopo la guerra del Kippur, i paesi arabi dell'OPEC quadruplicano il prezzo del petrolio: arriva la stagflazione. In Medio Oriente gli accordi di Camp David portano la pace tra Egitto e Israele, ma il conflitto con i palestinesi continua, dal Libano all'Intifada. Nel millenovecentosettantanove in Iran cade lo Shah e nasce la Repubblica islamica di Khomeini. Adesso ripartiamo dalla guerra tra Iran e Iraq.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RIP3",
+  "testo": "Bentornato. Ricordiamo la seconda parte. Dal millenovecentottanta al millenovecentottantotto Iran e Iraq combattono una guerra senza vincitori. Negli Stati Uniti Nixon apre alla Cina di Mao, per isolare l'Unione Sovietica, e firma i trattati SALT, ma si dimette per lo scandalo Watergate. Dopo l'invasione sovietica dell'Afghanistan, Reagan sceglie la linea dura contro l'impero del male. In America Latina le dittature militari di Pinochet in Cile e della giunta argentina fanno sparire migliaia di oppositori. Intanto, in Argentina, la sconfitta nella guerra delle Falkland accelera il ritorno della democrazia. Adesso vediamo l'Europa occidentale e la fine del comunismo.",
+  "lingua": "it"
+ }
+]
