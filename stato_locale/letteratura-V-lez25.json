@@ -1,0 +1,21 @@
+{
+ "tag": "letteratura-V-lez25",
+ "parti": {
+  "1": {
+   "stato": "FERMA"
+  }
+ },
+ "manca": "Da fare da capo (R1). Scaricati video del prof, compiti del prof e test Excel; trascrizione fatta (Gemini, tempi a frase). Non iniziato il montaggio.",
+ "serve_master": [
+  {
+   "quando": "14/11 23:03",
+   "testo": "R1: per partire con la lezione 25 servono (a) trascrizione con tempi per parola (faster-whisper: il download del modello da HuggingFace e' bloccato dal proxy, 403) oppure accetto tempi a frase; (b) conferma che posso usare gli script di montaggio del ramo lavoro-letteratura-V-chatD2 (bin/monta.py ecc.); (c) 2 richieste voci per la lezione (standard + AN). Intanto finisco la lezione 4."
+  }
+ ],
+ "domande_sara": [],
+ "note": [],
+ "materia": "Letteratura italiana V",
+ "lezione": "Lezione 25",
+ "docente": "Prof. Giorgio Mazzotti",
+ "aggiornato": "2026-11-14 23:03:16"
+}
