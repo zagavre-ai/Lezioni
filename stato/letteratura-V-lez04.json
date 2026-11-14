@@ -2,20 +2,31 @@
  "tag": "letteratura-V-lez04",
  "parti": {
   "1": {
-   "stato": "IN_MONTAGGIO"
+   "stato": "IN_MONTAGGIO",
+   "titolo": "Naturalismo e Verismo",
+   "voci": "segnaposto"
   }
  },
  "manca": "",
  "serve_master": [],
- "domande_sara": [],
+ "domande_sara": [
+  {
+   "quando": "14/11 01:18",
+   "testo": "Approvare quiz (20) e testi voci (25) della lezione 4: mandati in chat il 14/11"
+  }
+ ],
  "note": [
   {
    "quando": "14/11 00:57",
    "testo": "Presa da Letteratura V · chat A"
+  },
+  {
+   "quando": "14/11 01:18",
+   "testo": "Video prof 32:07 misurato; docente pulito circa 31 min (stima). 4 argomenti."
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 4",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 00:57:16"
+ "aggiornato": "2026-11-14 01:18:23"
 }
