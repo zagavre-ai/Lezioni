@@ -1,0 +1,387 @@
+{
+ "Q1": {
+  "title": "Quiz 1 · Il sistema moda",
+  "items": [
+   {
+    "p": "A quale settore è stato storicamente associato il sistema moda?",
+    "a": "All'abbigliamento femminile di fascia alta",
+    "w": [
+     "All'arredamento per la casa",
+     "Alle calzature sportive",
+     "All'abbigliamento per bambini"
+    ],
+    "ref": "Il sistema moda è stato storicamente associato all'abbigliamento, in particolare all'abbigliamento femminile di fascia alta: l'alta moda e il prêt-à-porter."
+   },
+   {
+    "p": "Che cosa succede nella fase di introduzione del ciclo della moda?",
+    "a": "Il nuovo stile è adottato solo da un gruppo ristretto che vuole distinguersi",
+    "w": [
+     "Il nuovo stile raggiunge il picco della popolarità",
+     "Lo stile perde attrattiva e scompare",
+     "Lo stile viene copiato da tutti i negozi"
+    ],
+    "ref": "Nell'introduzione il nuovo stile è adottato solo da un gruppo ristretto di consumatori che cercano di distinguersi: è la moda emergente."
+   },
+   {
+    "p": "Che cosa rappresenta lo stile, rispetto alla moda?",
+    "a": "L'espressione di un'identità personale che va oltre le singole mode",
+    "w": [
+     "Una moda che dura una sola stagione",
+     "Il marchio di una casa di moda",
+     "Un capo prodotto in serie"
+    ],
+    "ref": "Lo stile rappresenta l'espressione di un'identità individuale che travalica le singole mode per creare un risultato unico."
+   },
+   {
+    "p": "Quali sono le tre componenti fondamentali del sistema della moda?",
+    "a": "Settore della moda, servizi per la moda e distribuzione della moda",
+    "w": [
+     "Filatura, tessitura e confezione",
+     "Alta moda, prêt-à-porter e pronto moda",
+     "Stilisti, fotografi e riviste"
+    ],
+    "ref": "Le componenti fondamentali sono il settore della moda, i servizi per la moda e la distribuzione della moda."
+   },
+   {
+    "p": "Quale istituzione raggruppa le maison e i marchi più prestigiosi che partecipano alle sfilate?",
+    "a": "La Camera Nazionale della Moda",
+    "w": [
+     "Assomoda",
+     "Assocalzaturifici Italiani",
+     "AIMPES"
+    ],
+    "ref": "La Camera Nazionale della Moda raggruppa le maison e i marchi più prestigiosi che partecipano alle sfilate stagionali."
+   }
+  ]
+ },
+ "Q2": {
+  "title": "Quiz 2 · Il Made in Italy",
+  "items": [
+   {
+    "p": "Da dove nasce la creatività del Made in Italy, secondo la lezione?",
+    "a": "Dall'effetto Rinascimento, legato al patrimonio artistico e culturale",
+    "w": [
+     "Dalla produzione in serie di fascia bassa",
+     "Dall'importazione di modelli stranieri",
+     "Dalle grandi dimensioni delle aziende"
+    ],
+    "ref": "La creatività affonda le sue radici nel cosiddetto effetto Rinascimento, legato al patrimonio artistico e culturale."
+   },
+   {
+    "p": "Quali caratteristiche ha l'industria italiana della moda?",
+    "a": "Piccole dimensioni aziendali, grande flessibilità e innovazione a costi contenuti",
+    "w": [
+     "Grandi dimensioni e organizzazione rigida",
+     "Produzione solo all'estero",
+     "Poca innovazione e costi molto alti"
+    ],
+    "ref": "La tecnologia risiede nella tipicità dell'industria italiana: piccole dimensioni aziendali, grande flessibilità e capacità innovativa a costi contenuti."
+   },
+   {
+    "p": "Quale di queste è un'area di collaborazione tra industria e creatività?",
+    "a": "Design e modellistica",
+    "w": [
+     "Agricoltura",
+     "Edilizia",
+     "Trasporto aereo"
+    ],
+    "ref": "Le aree di collaborazione sono design e modellistica, produzione, distribuzione e comunicazione."
+   },
+   {
+    "p": "Quale elemento del successo dei marchi italiani giustifica un prezzo medio-alto?",
+    "a": "L'autenticità, cioè il legame con la storia e il territorio",
+    "w": [
+     "La produzione in grandi quantità",
+     "I bassi costi di gestione",
+     "La pubblicità ridotta al minimo"
+    ],
+    "ref": "L'autenticità è il profondo legame con la storia e le radici territoriali che giustifica un posizionamento di prezzo medio-alto."
+   },
+   {
+    "p": "Dove è realizzata la linea di calzature Italian Shoe Collection di J. Crew?",
+    "a": "In Italia, in una fabbrica toscana",
+    "w": [
+     "A New York",
+     "In Irlanda",
+     "In Cina"
+    ],
+    "ref": "La linea è disegnata a New York e realizzata in Italia: la campagna mostrava designer e artigiani di una fabbrica toscana."
+   }
+  ]
+ },
+ "Q3": {
+  "title": "Quiz 3 · Imprese, distretti e subfornitura",
+  "items": [
+   {
+    "p": "Che cosa caratterizza l'impresa integrata?",
+    "a": "Tutte le funzioni nello stesso luogo, organizzate in modo gerarchico",
+    "w": [
+     "Fasi affidate a tante piccole imprese esterne",
+     "Assenza di controllo sulla produzione",
+     "Solo attività di vendita"
+    ],
+    "ref": "L'impresa integrata vede tutte le funzioni localizzate in uno stesso luogo e organizzate secondo criteri gerarchici."
+   },
+   {
+    "p": "Perché le aziende ricorrono all'outsourcing?",
+    "a": "Per affidare all'esterno le fasi a basso margine e trasferire il rischio d'impresa",
+    "w": [
+     "Per aumentare i costi del personale",
+     "Per controllare direttamente ogni fase",
+     "Per ridurre la flessibilità"
+    ],
+    "ref": "Le aziende trasferiscono il rischio d'impresa affidando all'esterno le fasi a basso margine tramite esternalizzazione o outsourcing."
+   },
+   {
+    "p": "Quale di queste è una caratteristica del distretto industriale?",
+    "a": "Una forte densità di piccole e medie imprese specializzate",
+    "w": [
+     "Una sola grande impresa per tutta la regione",
+     "Imprese sparse in tutto il mondo",
+     "Nessuna specializzazione produttiva"
+    ],
+    "ref": "Il distretto ha radicamento nel territorio, elevata specializzazione, notevole densità di PMI specializzate ed economie esterne."
+   },
+   {
+    "p": "Quale distretto è chiamato jeans valley?",
+    "a": "Urbania",
+    "w": [
+     "Biella",
+     "Prato",
+     "Vigevano"
+    ],
+    "ref": "Il distretto tessile-abbigliamento di Urbania è noto come jeans valley."
+   },
+   {
+    "p": "Che cosa succede nel prodotto su commessa?",
+    "a": "Il committente dà le direttive generali e il subfornitore sceglie materiali e confezionamento",
+    "w": [
+     "Il committente fornisce materiale e specifiche tecniche",
+     "Il subfornitore vende direttamente al cliente finale",
+     "Il committente produce tutto da solo"
+    ],
+    "ref": "Nel prodotto su commessa il committente stabilisce le direttive generali lasciando al subfornitore la scelta dei materiali e del confezionamento."
+   }
+  ]
+ },
+ "Q4": {
+  "title": "Quiz 4 · La filiera del tessile-abbigliamento",
+  "items": [
+   {
+    "p": "Che cosa indica la filiera?",
+    "a": "Il percorso del prodotto dalle materie prime ai prodotti finiti sul mercato",
+    "w": [
+     "Solo la fase di vendita",
+     "L'elenco dei negozi di un marchio",
+     "Il calendario delle sfilate"
+    ],
+    "ref": "La filiera indica il percorso del prodotto nella trasformazione delle materie prime, nei semilavorati e nella distribuzione dei prodotti finiti."
+   },
+   {
+    "p": "Quale industria fornisce le fibre sintetiche e i filati tecnici?",
+    "a": "L'industria chimica",
+    "w": [
+     "L'industria meccanotessile",
+     "L'agricoltura",
+     "Il terziario avanzato"
+    ],
+    "ref": "L'industria chimica fornisce le fibre sintetiche e i filati tecnici; il meccanotessile produce i macchinari."
+   },
+   {
+    "p": "Quali sono le due filiere principali della moda?",
+    "a": "Tessile-abbigliamento e pelle-calzature-accessori",
+    "w": [
+     "Alta moda e pronto moda",
+     "Uomo e donna",
+     "Fiere e riviste"
+    ],
+    "ref": "Le filiere principali sono la filiera del tessile-abbigliamento e quella della pelle-calzature-accessori."
+   },
+   {
+    "p": "Che cosa indica la parola «vergine» nella certificazione della pura lana vergine?",
+    "a": "Lana di tosa non rigenerata né recuperata da lavorazioni industriali",
+    "w": [
+     "Lana tinta con colori naturali",
+     "Lana prodotta solo in Italia",
+     "Lana mescolata con fibre chimiche"
+    ],
+    "ref": "«Vergine» indica l'impiego di lana di tosa non rigenerata o recuperata da lavorazioni industriali."
+   },
+   {
+    "p": "Che cosa comprende la nobilitazione dei tessuti?",
+    "a": "Candeggio, tintura e finissaggio",
+    "w": [
+     "Filatura e tessitura",
+     "Taglio e cucitura",
+     "Imballaggio e spedizione"
+    ],
+    "ref": "La nobilitazione comprende candeggio, tintura e finissaggio, per rendere i tessuti greggi adatti al taglio e alla confezione."
+   }
+  ]
+ },
+ "Q5": {
+  "title": "Quiz 5 · Il settore abbigliamento",
+  "items": [
+   {
+    "p": "Quali prodotti distingue il settore abbigliamento?",
+    "a": "Prodotti di confezione e maglieria",
+    "w": [
+     "Fibre e filati",
+     "Pelli e calzature",
+     "Profumi e cosmetici"
+    ],
+    "ref": "Il settore abbigliamento riguarda le fasi a valle della filiera e distingue tra prodotti di confezione e maglieria."
+   },
+   {
+    "p": "Che cosa caratterizza il settore donna?",
+    "a": "Processi labour-intensive e cicli di vita brevissimi dei capi",
+    "w": [
+     "Circa seicento aziende e offerta affollata",
+     "Contratti di licenza con le griffe",
+     "Fasce d'età da zero a sedici anni"
+    ],
+    "ref": "Il settore donna ha processi labour-intensive, fasi esternalizzabili, innovazione costante, cicli di vita brevissimi e facilità di imitazione."
+   },
+   {
+    "p": "Perché il settore bambino è particolarmente complesso?",
+    "a": "Per le tante taglie e l'adattamento di stili e finiture a ogni fascia d'età",
+    "w": [
+     "Perché ha pochissime aziende",
+     "Perché produce solo capi da cerimonia",
+     "Perché non usa contratti di licenza"
+    ],
+    "ref": "Il settore bambino è complesso per la presenza di più taglie e i vincoli di adattamento di stili, stampati e finiture per ciascuna fascia d'età."
+   },
+   {
+    "p": "Che cosa distingue i terzisti dai façonisti?",
+    "a": "I terzisti realizzano da soli il capo finito, i façonisti fanno lavorazioni accessorie",
+    "w": [
+     "I terzisti sono più piccoli dei façonisti",
+     "I façonisti vendono nei negozi",
+     "Non c'è nessuna differenza"
+    ],
+    "ref": "I terzisti sono in grado di realizzare autonomamente il capo finito; i façonisti sono più piccoli e si dedicano a lavorazioni accessorie e di finissaggio."
+   },
+   {
+    "p": "Quanto valeva l'industria dell'abbigliamento femminile, secondo la lezione?",
+    "a": "Quattrocentonovantasette miliardi di euro",
+    "w": [
+     "Centoquarantanove miliardi di euro",
+     "Trecentoventidue miliardi di euro",
+     "Venti miliardi di euro"
+    ],
+    "ref": "L'abbigliamento femminile vale 497 miliardi di euro, quello maschile 322 e quello per bambini 149."
+   }
+  ]
+ },
+ "Q6": {
+  "title": "Quiz 6 · Il timing della filiera e i modelli di attività",
+  "items": [
+   {
+    "p": "Quanto tempo prima della vendita le filature studiano le tendenze dei filati?",
+    "a": "Quasi due anni prima",
+    "w": [
+     "Due settimane prima",
+     "Un mese prima",
+     "Dopo la vendita"
+    ],
+    "ref": "Le filature studiano le tendenze su tipologia, composizione e colori dei filati quasi due anni prima della distribuzione nei punti vendita."
+   },
+   {
+    "p": "Quale funzione hanno le fiere di settore?",
+    "a": "Regolano le fasi della filiera e verificano il gradimento dei compratori",
+    "w": [
+     "Sostituiscono i negozi",
+     "Producono i tessuti",
+     "Stabiliscono i prezzi per legge"
+    ],
+    "ref": "Le fiere regolano le fasi, danno idee, stimolano creatività e innovazione, promuovono imprese e prodotti e verificano il gradimento."
+   },
+   {
+    "p": "Quale logica seguono le imprese del programmato?",
+    "a": "Make to order o pull, con due collezioni stagionali",
+    "w": [
+     "Make to stock o push",
+     "Mini collezioni ogni settimana",
+     "Produzione solo su catalogo"
+    ],
+    "ref": "Le imprese del programmato operano nella fascia alta e medio-alta secondo una logica make to order o pull, con due collezioni stagionali."
+   },
+   {
+    "p": "Qual è uno svantaggio delle imprese del pronto moda?",
+    "a": "L'alto rischio di rimanenze",
+    "w": [
+     "La lontananza dal mercato",
+     "I flussi di cassa troppo prevedibili",
+     "I lead time di molti mesi"
+    ],
+    "ref": "Il pronto moda garantisce vicinanza al mercato e flessibilità, ma comporta alto rischio di rimanenze e incassi non prevedibili."
+   },
+   {
+    "p": "Che cosa aggiungono le imprese del semiprogrammato alle collezioni di base?",
+    "a": "Pre-collezioni e flash per riassortire spesso i negozi",
+    "w": [
+     "Solo capi usati",
+     "Una collezione ogni due anni",
+     "Esclusivamente accessori"
+    ],
+    "ref": "Il semiprogrammato integra le collezioni stagionali di base con pre-collezioni e flash per riassortire frequentemente i punti vendita."
+   }
+  ]
+ },
+ "Q7": {
+  "title": "Quiz 7 · Il fast fashion e i casi aziendali",
+  "items": [
+   {
+    "p": "Che cosa caratterizza le imprese del fast fashion?",
+    "a": "Mini collezioni continue, produzione delocalizzata e grande copertura geografica",
+    "w": [
+     "Due sole collezioni all'anno",
+     "Prezzi altissimi e pochi negozi",
+     "Produzione solo artigianale in Italia"
+    ],
+    "ref": "Il fast fashion ha elevata copertura geografica, produzione delocalizzata e proposta continua di mini collezioni ad alto contenuto moda."
+   },
+   {
+    "p": "Quanti modelli conta la collezione base di Sandro Ferrone?",
+    "a": "Ottocento modelli",
+    "w": [
+     "Cento modelli",
+     "Duemila modelli",
+     "Dodici modelli"
+    ],
+    "ref": "Sandro Ferrone adotta la strategia delle collezioni vive con una collezione base di 800 modelli e micro-collezioni flash settimanali."
+   },
+   {
+    "p": "Quante volte all'anno un cliente può visitare un negozio Sandro Ferrone trovando novità?",
+    "a": "Fino a dodici volte",
+    "w": [
+     "Quattro volte",
+     "Due volte",
+     "Una volta"
+    ],
+    "ref": "Le micro-collezioni settimanali consentono di visitare il negozio fino a 12 volte all'anno, contro le 4 della concorrenza."
+   },
+   {
+    "p": "Che cosa avviene nella prima settimana del ciclo operativo di Zara?",
+    "a": "Si definiscono idea, prezzi e quantità, e si disegna e approva il modello",
+    "w": [
+     "Si producono i capi",
+     "Si spediscono i capi ai negozi",
+     "Si applicano i cartellini"
+    ],
+    "ref": "Nella settimana 1 si definiscono l'idea di prodotto, i prezzi e le quantità, si chiedono tessuti e accessori e si approva il design."
+   },
+   {
+    "p": "Perché Primark colloca i suoi grandi negozi nei centri commerciali?",
+    "a": "Per abbattere gli elevati costi di locazione dei centri città",
+    "w": [
+     "Per stare vicino alle fabbriche",
+     "Per vendere solo online",
+     "Per aumentare la pubblicità"
+    ],
+    "ref": "I grandi negozi stanno nei centri commerciali per vendere ampi volumi e abbattere gli elevati costi di locazione dei centri città."
+   }
+  ]
+ }
+}
