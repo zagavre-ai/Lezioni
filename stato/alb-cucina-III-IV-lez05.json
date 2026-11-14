@@ -1,0 +1,21 @@
+{
+ "tag": "alb-cucina-III-IV-lez05",
+ "parti": {
+  "1": {
+   "titolo": "Made in Italy",
+   "stato": "IN_MONTAGGIO"
+  }
+ },
+ "manca": "Parte unica da costruire (docente 25 min, da portare a 50+). Fatti: trascrizione, testo, quiz (6) e testi voci (22), mandati a Sara per l'approvazione. Mancano: approvazione, voci Kore, sincronia slide, grafiche, montaggio, codifica.",
+ "serve_master": [],
+ "domande_sara": [
+  {
+   "quando": "14/11 22:43",
+   "testo": "Quiz e testi voci di Made in Italy (file Da_approvare_Made_in_Italy.txt) da approvare"
+  }
+ ],
+ "note": [],
+ "materia": "Laboratori dei servizi enogastronomici – settore cucina",
+ "lezione": "Made in Italy",
+ "aggiornato": "2026-11-14 22:43:23"
+}
