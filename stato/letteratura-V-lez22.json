@@ -6,7 +6,12 @@
   }
  },
  "manca": "",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "14/11 02:03",
+   "testo": "DURATA: video del prof 25:03 (misurato); totale stimato 32 min. Niente pagine HD per questa lezione: solo slide (nessun brano del libro nel video)."
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
@@ -17,5 +22,5 @@
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 22",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 01:55:38"
+ "aggiornato": "2026-11-14 02:03:11"
 }
