@@ -1,0 +1,314 @@
+{
+ "materia": "Letteratura italiana (V)",
+ "titolo": "Giovanni Verga · Parte 1",
+ "durata_s": 3417.74,
+ "argomenti": [
+  {
+   "n": 1,
+   "titolo": "La vita e la formazione di Verga",
+   "inizio_s": 41.367,
+   "quiz_s": 636.1
+  },
+  {
+   "n": 2,
+   "titolo": "La svolta verso il Verismo",
+   "inizio_s": 641.1,
+   "quiz_s": 1727.467
+  },
+  {
+   "n": 3,
+   "titolo": "Il «ciclo dei Vinti»",
+   "inizio_s": 1732.467,
+   "quiz_s": 2005.333
+  },
+  {
+   "n": 4,
+   "titolo": "I Malavoglia",
+   "inizio_s": 2010.333,
+   "quiz_s": 2648.667
+  },
+  {
+   "n": 5,
+   "titolo": "Mastro-don Gesualdo e le novelle",
+   "inizio_s": 2653.667,
+   "quiz_s": 3260.0
+  }
+ ],
+ "quiz": {
+  "Q1": {
+   "title": "Quiz 1 · La vita e la formazione di Verga",
+   "items": [
+    {
+     "p": "In quale città nasce Giovanni Verga nel 1840?",
+     "a": "Catania",
+     "w": [
+      "Palermo",
+      "Messina",
+      "Firenze"
+     ],
+     "e": "Nato a Catania nel 1840 da una famiglia di proprietari terrieri nobili."
+    },
+    {
+     "p": "Da chi Verga assorbe, nei primi studi, il gusto romantico e il patriottismo?",
+     "a": "Dal patriota Antonino Abate",
+     "w": [
+      "Da Giosue Carducci",
+      "Dagli Scapigliati milanesi",
+      "Da Alessandro Manzoni"
+     ],
+     "e": "Compie i primi studi con il patriota Antonino Abate, da cui assorbe il gusto romantico e il patriottismo."
+    },
+    {
+     "p": "Quale romanzo storico Verga pubblica a proprie spese da giovane?",
+     "a": "I carbonari della montagna",
+     "w": [
+      "Amore e patria",
+      "I Malavoglia",
+      "Mastro-don Gesualdo"
+     ],
+     "e": "Scrive a sedici anni Amore e patria (inedito) e pubblica a proprie spese I carbonari della montagna."
+    },
+    {
+     "p": "Su quali letture si forma il giovane Verga?",
+     "a": "Romanzi storici italiani e scrittori francesi popolari come Dumas e Sue",
+     "w": [
+      "Soprattutto i classici latini e greci",
+      "I poeti dell'Arcadia",
+      "I filosofi tedeschi dell'idealismo"
+     ],
+     "e": "Si forma sui romanzi storici italiani e sugli scrittori francesi moderni di grande popolarità come Dumas e Sue."
+    },
+    {
+     "p": "In che anno Verga si sposta a Milano, dove frequenta gli Scapigliati?",
+     "a": "Nel 1872",
+     "w": [
+      "Nel 1865",
+      "Nel 1893",
+      "Nel 1840"
+     ],
+     "e": "Nel 1872 si sposta a Milano, centro culturale più aperto agli stimoli europei, dove frequenta gli ambienti degli Scapigliati."
+    }
+   ]
+  },
+  "Q2": {
+   "title": "Quiz 2 · La svolta verso il Verismo",
+   "items": [
+    {
+     "p": "Con quale novella Verga aderisce al Verismo, nel 1878?",
+     "a": "Rosso Malpelo",
+     "w": [
+      "La roba",
+      "Libertà",
+      "Nedda"
+     ],
+     "e": "L'adesione al Verismo avviene nel 1878 con la pubblicazione della novella Rosso Malpelo."
+    },
+    {
+     "p": "Che cosa prevede il principio dell'impersonalità?",
+     "a": "L'autore si eclissa e l'opera sembra «fatta da sé»",
+     "w": [
+      "L'autore commenta i fatti e giudica i personaggi",
+      "Il narratore racconta solo in prima persona",
+      "L'autore descrive soltanto ambienti aristocratici"
+     ],
+     "e": "L'autore deve eclissarsi e la mano dello scrittore deve rimanere invisibile, facendo apparire l'opera come «fatta da sé»."
+    },
+    {
+     "p": "In che cosa consiste la tecnica dello straniamento?",
+     "a": "Presentare come strano ciò che è normale, o viceversa, dal punto di vista della comunità",
+     "w": [
+      "Raccontare i fatti in ordine cronologico inverso",
+      "Usare solo il dialetto siciliano",
+      "Inserire nel racconto il punto di vista dell'autore colto"
+     ],
+     "e": "Adottare il punto di vista della comunità popolare per presentare come strano ciò che è normale, o viceversa."
+    },
+    {
+     "p": "Che cosa si intende per artificio della regressione?",
+     "a": "Il narratore si adegua alla mentalità e al linguaggio dei personaggi",
+     "w": [
+      "Il narratore torna indietro nel tempo con dei flashback",
+      "L'autore regredisce a uno stile romantico",
+      "I personaggi parlano con il linguaggio dell'autore"
+     ],
+     "e": "Il narratore si adegua alla mentalità, alle passioni e al linguaggio dei personaggi dello sfondo sociale rappresentato."
+    },
+    {
+     "p": "Quali influssi segnano la svolta verista di Verga?",
+     "a": "Il Positivismo e il Naturalismo francese",
+     "w": [
+      "Il Romanticismo tedesco e l'idealismo",
+      "Il Futurismo e le avanguardie",
+      "L'Arcadia e il Neoclassicismo"
+     ],
+     "e": "Svolta segnata dall'influsso del Positivismo e del Naturalismo francese."
+    }
+   ]
+  },
+  "Q3": {
+   "title": "Quiz 3 · Il «ciclo dei Vinti»",
+   "items": [
+    {
+     "p": "Com'è il pessimismo di Verga?",
+     "a": "Totale: nessuna speranza di riscatto, né dalla fede né dal progresso",
+     "w": [
+      "Moderato: il progresso salverà i più deboli",
+      "Religioso: la fede porta al riscatto",
+      "Politico: la rivoluzione cambierà la società"
+     ],
+     "e": "Totale assenza di una speranza di riscatto sociale o di un'alternativa futura, sia sul piano della fede religiosa che del progresso economico."
+    },
+    {
+     "p": "Che cos'è la «fiumana del progresso»?",
+     "a": "Una forza travolgente che esalta i vincitori e schiaccia i deboli",
+     "w": [
+      "Il fiume che attraversa Aci Trezza",
+      "Il movimento politico dei socialisti",
+      "Una forza che porta benessere a tutti"
+     ],
+     "e": "Il progresso è visto come una forza travolgente che esalta i vincitori ma schiaccia i più deboli lungo il suo cammino."
+    },
+    {
+     "p": "Quanti romanzi doveva comprendere il progetto del ciclo dei Vinti?",
+     "a": "Cinque",
+     "w": [
+      "Due",
+      "Tre",
+      "Dieci"
+     ],
+     "e": "Una serie di cinque romanzi per analizzare la lotta per l'esistenza a tutti i livelli sociali."
+    },
+    {
+     "p": "Da quali classi sociali parte il ciclo dei Vinti?",
+     "a": "Dalle classi più basse, per salire fino a quelle elevate",
+     "w": [
+      "Dall'aristocrazia, per scendere fino ai pescatori",
+      "Solo dalla borghesia industriale",
+      "Solo dal clero e dai nobili"
+     ],
+     "e": "Partendo dalle classi più basse fino a quelle elevate."
+    },
+    {
+     "p": "Perché il ciclo resta incompiuto dopo i primi due romanzi?",
+     "a": "Per la stanchezza dello scrittore e la difficoltà di applicare il metodo verista all'alta società",
+     "w": [
+      "Perché l'editore rifiutò di pubblicarlo",
+      "Perché Verga morì giovane",
+      "Perché fu censurato dal governo"
+     ],
+     "e": "Stanchezza dello scrittore e difficoltà nell'applicare il metodo verista all'alta società."
+    }
+   ]
+  },
+  "Q4": {
+   "title": "Quiz 4 · I Malavoglia",
+   "items": [
+    {
+     "p": "In che anno escono I Malavoglia?",
+     "a": "Nel 1881",
+     "w": [
+      "Nel 1878",
+      "Nel 1889",
+      "Nel 1893"
+     ],
+     "e": "I Malavoglia (1881)."
+    },
+    {
+     "p": "Di quale famiglia narra il romanzo I Malavoglia?",
+     "a": "Una famiglia di pescatori di Aci Trezza",
+     "w": [
+      "Una famiglia di nobili di Catania",
+      "Una famiglia di minatori di Milano",
+      "Una famiglia di muratori arricchiti"
+     ],
+     "e": "Narra la storia di una famiglia di pescatori di Aci Trezza e la loro lotta per la sopravvivenza."
+    },
+    {
+     "p": "Come si chiama la barca dei Malavoglia che fa naufragio?",
+     "a": "La Provvidenza",
+     "w": [
+      "La Speranza",
+      "La Fortuna",
+      "La Redenzione"
+     ],
+     "e": "La barca di famiglia che subisce il naufragio è la Provvidenza."
+    },
+    {
+     "p": "Perché si parla di struttura corale nei Malavoglia?",
+     "a": "Il punto di vista passa tra la famiglia e gli abitanti del villaggio",
+     "w": [
+      "Il romanzo è scritto in versi da cantare",
+      "Parla un solo narratore onnisciente",
+      "I capitoli sono raccontati dall'autore"
+     ],
+     "e": "Il punto di vista si sposta continuamente tra i membri della famiglia e gli abitanti del villaggio."
+    },
+    {
+     "p": "Con che cosa si chiude il romanzo?",
+     "a": "Con la partenza di 'Ntoni dal paese",
+     "w": [
+      "Con il matrimonio di 'Ntoni",
+      "Con il ritorno della Provvidenza",
+      "Con la morte di mastro-don Gesualdo"
+     ],
+     "e": "T8 · La conclusione del romanzo e la partenza di 'Ntoni."
+    }
+   ]
+  },
+  "Q5": {
+   "title": "Quiz 5 · Mastro-don Gesualdo e le novelle",
+   "items": [
+    {
+     "p": "In che anno esce Mastro-don Gesualdo?",
+     "a": "Nel 1889",
+     "w": [
+      "Nel 1881",
+      "Nel 1872",
+      "Nel 1922"
+     ],
+     "e": "Mastro-don Gesualdo (1889)."
+    },
+    {
+     "p": "Chi è Gesualdo all'inizio della sua ascesa?",
+     "a": "Un muratore",
+     "w": [
+      "Un pescatore",
+      "Un nobile decaduto",
+      "Un avvocato"
+     ],
+     "e": "L'ascesa sociale di un muratore che accumula una fortuna immensa."
+    },
+    {
+     "p": "Perché Gesualdo è insieme vincitore e vinto?",
+     "a": "Vince sul piano della «roba», ma fallisce sul piano umano e familiare",
+     "w": [
+      "Vince la guerra ma perde la patria",
+      "Perde la roba ma trova l'amore",
+      "Vince in tribunale ma va in prigione"
+     ],
+     "e": "Vince sul piano materiale e della «roba», ma fallisce totalmente sul piano umano e familiare."
+    },
+    {
+     "p": "Come muore mastro-don Gesualdo?",
+     "a": "Solo e disprezzato",
+     "w": [
+      "Circondato dall'affetto della famiglia",
+      "In un naufragio",
+      "In battaglia"
+     ],
+     "e": "Morendo solo e disprezzato."
+    },
+    {
+     "p": "Come si intitola la novella sull'accumulo dei beni, uno dei testi letti dal docente?",
+     "a": "La roba",
+     "w": [
+      "Libertà",
+      "Rosso Malpelo",
+      "Nedda"
+     ],
+     "e": "T9 · La roba."
+    }
+   ]
+  }
+ }
+}
