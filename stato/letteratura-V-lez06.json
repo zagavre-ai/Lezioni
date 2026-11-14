@@ -2,8 +2,9 @@
  "tag": "letteratura-V-lez06",
  "parti": {
   "1": {
-   "stato": "IN_MONTAGGIO",
-   "titolo": "Decadentismo e Simbolismo"
+   "stato": "IN_CODIFICA",
+   "titolo": "Decadentismo e Simbolismo",
+   "voci": "kore"
   }
  },
  "manca": "",
@@ -30,10 +31,14 @@
   {
    "quando": "14/11 04:07",
    "testo": "chat C2: quiz (25 domande, 5 argomenti) pronti; testi delle voci (20) inviati sul ramo voci-letteratura-V-lez06 alle 04:07 UTC, approvazione delegata alla master"
+  },
+  {
+   "quando": "14/11 04:38",
+   "testo": "chat C2: montaggio completo con le voci Kore (39 pezzi, 41:59 misurati: docente 31:00 + inserti 11:00, sotto i 50 min senza riempitivi). Codifica 1080p in corso."
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 6",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 04:07:14"
+ "aggiornato": "2026-11-14 04:38:56"
 }
