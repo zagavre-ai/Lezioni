@@ -1,0 +1,253 @@
+{
+ "materia": "Letteratura italiana (V)",
+ "titolo": "Il romanzo nell'Europa e nell'Italia del Decadentismo · Parte 1",
+ "durata_s": 1690.67,
+ "argomenti": [
+  {
+   "n": 1,
+   "titolo": "Il romanzo decadente in Europa",
+   "inizio_s": 130.567,
+   "quiz_s": 339.667
+  },
+  {
+   "n": 2,
+   "titolo": "Huysmans e Controcorrente",
+   "inizio_s": 344.967,
+   "quiz_s": 570.967
+  },
+  {
+   "n": 3,
+   "titolo": "Oscar Wilde e l'Estetismo",
+   "inizio_s": 576.267,
+   "quiz_s": 1183.567
+  },
+  {
+   "n": 4,
+   "titolo": "Grazia Deledda e il romanzo in Italia",
+   "inizio_s": 1188.867,
+   "quiz_s": 1533.5
+  }
+ ],
+ "quiz": {
+  "Q1": {
+   "title": "Quiz 1 · Il romanzo decadente in Europa",
+   "items": [
+    {
+     "p": "Da quale tradizione si allontana il romanzo decadente?",
+     "a": "Dal realismo ottocentesco e dal Naturalismo",
+     "w": [
+      "Dal Romanticismo e dalla poesia lirica",
+      "Dall'Illuminismo e dal romanzo storico",
+      "Dal Futurismo e dalle avanguardie"
+     ],
+     "e": "Il romanzo decadente rompe con la tradizione: si allontana dal realismo dell'Ottocento e dal Naturalismo."
+    },
+    {
+     "p": "Quali temi nuovi mette al centro il romanzo decadente?",
+     "a": "L'irrazionale e il rapporto tra l'artista e la società",
+     "w": [
+      "Il progresso scientifico e l'industria",
+      "Le lotte operaie e la questione sociale",
+      "La storia nazionale e le guerre d'indipendenza"
+     ],
+     "e": "I nuovi temi ideologici sono l'irrazionale e il complesso rapporto tra l'artista e la società."
+    },
+    {
+     "p": "Come viene trattato lo sfondo storico nel romanzo decadente?",
+     "a": "È appena tratteggiato, sfumato",
+     "w": [
+      "È descritto con grande precisione documentaria",
+      "È il vero protagonista del romanzo",
+      "È sostituito da ambientazioni future"
+     ],
+     "e": "Il contesto storico viene solo appena tratteggiato."
+    },
+    {
+     "p": "Che cosa succede alla trama nel romanzo decadente?",
+     "a": "Diventa esigua, per concentrarsi sulla psicologia dei personaggi",
+     "w": [
+      "Diventa ricca di colpi di scena e avventure",
+      "Segue rigorosamente l'ordine cronologico dei fatti storici",
+      "Si basa sull'osservazione scientifica degli ambienti"
+     ],
+     "e": "La struttura narrativa è minima: la trama diventa esigua e conta soprattutto la psicologia dei personaggi."
+    },
+    {
+     "p": "Quali sono i due modelli principali del romanzo decadente europeo?",
+     "a": "Controcorrente di Huysmans e Il ritratto di Dorian Gray di Wilde",
+     "w": [
+      "I Malavoglia di Verga e Madame Bovary di Flaubert",
+      "I promessi sposi di Manzoni e Germinal di Zola",
+      "Canne al vento di Deledda e Elias Portolu"
+     ],
+     "e": "Il Decadentismo europeo si sviluppa attraverso testi fondamentali come Controcorrente di Huysmans e Il ritratto di Dorian Gray di Wilde."
+    }
+   ]
+  },
+  "Q2": {
+   "title": "Quiz 2 · Huysmans e Controcorrente",
+   "items": [
+    {
+     "p": "Vicino a quale scuola inizia la sua carriera Huysmans?",
+     "a": "La scuola naturalista di Zola",
+     "w": [
+      "Il gruppo dei poeti romantici tedeschi",
+      "La Scapigliatura milanese",
+      "Il circolo dei futuristi"
+     ],
+     "e": "Huysmans inizia vicino alla scuola naturalista di Zola, per poi sviluppare una diversa sensibilità."
+    },
+    {
+     "p": "In che anno esce Controcorrente?",
+     "a": "Nel 1884",
+     "w": [
+      "Nel 1848",
+      "Nel 1871",
+      "Nel 1895"
+     ],
+     "e": "Il romanzo Controcorrente è del 1884; Huysmans era nato nel 1848."
+    },
+    {
+     "p": "Perché Controcorrente è chiamato «la bibbia del Decadentismo»?",
+     "a": "Perché ne condensa la visione, pur essendo privo di un vero intreccio",
+     "w": [
+      "Perché racconta episodi della Bibbia",
+      "Perché fu scritto da un sacerdote",
+      "Perché ha un intreccio ricchissimo di avventure"
+     ],
+     "e": "Il romanzo è privo di un intreccio strutturato ma raccoglie i principi della visione decadente."
+    },
+    {
+     "p": "Che cosa rifiuta Des Esseintes, il protagonista?",
+     "a": "La mediocrità borghese e la vita cittadina",
+     "w": [
+      "L'arte e la letteratura",
+      "I profumi e i sogni",
+      "La solitudine e l'isolamento"
+     ],
+     "e": "Des Esseintes è l'intellettuale aristocratico che rifiuta la mediocrità borghese e la vita cittadina."
+    },
+    {
+     "p": "Con che cosa Huysmans sostituisce la natura, considerata banale?",
+     "a": "Con l'immaginazione e una realtà artificiale",
+     "w": [
+      "Con il lavoro manuale nei campi",
+      "Con la scienza e il progresso tecnico",
+      "Con la vita mondana nei salotti"
+     ],
+     "e": "In Huysmans la natura è banale e viene sostituita dall'immaginazione e da una realtà artificiale."
+    }
+   ]
+  },
+  "Q3": {
+   "title": "Quiz 3 · Oscar Wilde e l'Estetismo",
+   "items": [
+    {
+     "p": "Dove studia Oscar Wilde e chi lo influenza?",
+     "a": "A Oxford, influenzato da John Ruskin e Walter Pater",
+     "w": [
+      "A Parigi, influenzato da Zola",
+      "A Londra, influenzato da Dickens",
+      "A Cambridge, influenzato da Darwin"
+     ],
+     "e": "Nato a Dublino nel 1854, Wilde studia a Oxford, dove subisce l'influenza di Ruskin e Pater."
+    },
+    {
+     "p": "Come si presenta Wilde nella società londinese?",
+     "a": "Come un dandy provocatorio ed eccentrico",
+     "w": [
+      "Come un ascetico religioso",
+      "Come un operaio impegnato in politica",
+      "Come uno scienziato positivista"
+     ],
+     "e": "A Londra si distingue per atteggiamenti eccentrici, battute sagaci e la difesa del bello contro la società industriale."
+    },
+    {
+     "p": "Quale sua commedia ebbe un enorme successo?",
+     "a": "L'importanza di chiamarsi Ernesto",
+     "w": [
+      "Salomé",
+      "La ballata del carcere di Reading",
+      "Controcorrente"
+     ],
+     "e": "Tra le commedie teatrali di grande successo c'è L'importanza di chiamarsi Ernesto; Salomé invece subisce la censura."
+    },
+    {
+     "p": "A quali classici dell'Ottocento si collega il tema del «doppio»?",
+     "a": "Frankenstein e Il dottor Jekyll e mister Hyde",
+     "w": [
+      "I promessi sposi e I Malavoglia",
+      "Madame Bovary e Germinal",
+      "Elias Portolu e Canne al vento"
+     ],
+     "e": "L'idea di una forza oscura interiore si collega a classici come Frankenstein e Il dottor Jekyll e mister Hyde."
+    },
+    {
+     "p": "Secondo la Prefazione a Dorian Gray, che cosa sono il vizio e la virtù?",
+     "a": "Semplicemente materiali dell'arte",
+     "w": [
+      "Il fine morale di ogni libro",
+      "Argomenti da evitare in letteratura",
+      "Le regole che l'artista deve insegnare"
+     ],
+     "e": "Per Wilde il vizio e la virtù sono solo materiali dell'arte; non esistono libri morali o immorali, ma scritti bene o male."
+    }
+   ]
+  },
+  "Q4": {
+   "title": "Quiz 4 · Grazia Deledda e il romanzo in Italia",
+   "items": [
+    {
+     "p": "Che cosa approfondiscono i filoni del romanzo italiano nel secondo Ottocento?",
+     "a": "Lo studio psicologico e i drammi intimi",
+     "w": [
+      "Le imprese militari e coloniali",
+      "La fantascienza e i viaggi",
+      "La vita delle grandi città industriali"
+     ],
+     "e": "Nel secondo Ottocento si sviluppano filoni che approfondiscono lo studio psicologico e i drammi intimi."
+    },
+    {
+     "p": "Dove e quando nasce Grazia Deledda?",
+     "a": "A Nuoro, nel 1871",
+     "w": [
+      "A Cagliari, nel 1848",
+      "A Roma, nel 1884",
+      "A Sassari, nel 1926"
+     ],
+     "e": "Grazia Deledda nasce a Nuoro nel 1871."
+    },
+    {
+     "p": "Quale primato ottiene Grazia Deledda nel 1926?",
+     "a": "È la prima donna italiana a ricevere il Nobel per la Letteratura",
+     "w": [
+      "È la prima donna a insegnare all'università",
+      "È la prima scrittrice tradotta in inglese",
+      "È la prima donna eletta in Parlamento"
+     ],
+     "e": "Nel 1926 è la prima donna italiana a ricevere il premio Nobel per la Letteratura."
+    },
+    {
+     "p": "Quali sono due suoi romanzi principali?",
+     "a": "Elias Portolu e Canne al vento",
+     "w": [
+      "Controcorrente e Salomé",
+      "I Malavoglia e Mastro-don Gesualdo",
+      "Il piacere e L'innocente"
+     ],
+     "e": "Tra le sue opere principali spiccano Elias Portolu e Canne al vento."
+    },
+    {
+     "p": "Quale di questi NON è un tema centrale di Deledda?",
+     "a": "L'esaltazione del progresso industriale",
+     "w": [
+      "Il legame con la Sardegna",
+      "Il destino e il senso di colpa",
+      "La solitudine e l'incapacità di comunicare"
+     ],
+     "e": "I suoi temi sono la Sardegna, il destino, la colpa, i turbamenti religiosi, la solitudine e l'incapacità di comunicare."
+    }
+   ]
+  }
+ }
+}
