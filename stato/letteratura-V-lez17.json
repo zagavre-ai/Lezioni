@@ -2,9 +2,449 @@
  "tag": "letteratura-V-lez17",
  "parti": {
   "1": {
-   "stato": "IN_CODIFICA",
+   "stato": "PRONTA",
    "titolo": "Giuseppe Ungaretti e l'Ermetismo",
-   "voci": "kore"
+   "voci": "kore",
+   "t_verifica": 3072.467,
+   "t_compiti": 3091.967,
+   "consegna": "ramo consegna-letteratura-V-lez17 (video in 3 pezzi da 90 MB + sha256, vtt, quiz, test, dispensa, scheda, testo YouTube)",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "si",
+   "video": "Letteratura_Lez17_Parte1_1080p.mp4",
+   "durata_s": 3097.0,
+   "durata": "51:37.0",
+   "fotogrammi": 92909,
+   "fotogrammi_attesi": 92909,
+   "peso_MB": 208.3,
+   "vtt": "Letteratura_Lez17_Parte1.vtt",
+   "scheda": {
+    "materia": "Letteratura italiana (V)",
+    "titolo": "Giuseppe Ungaretti e l'Ermetismo",
+    "durata_s": 3096.97,
+    "argomenti": [
+     {
+      "n": 1,
+      "titolo": "Ungaretti e L'allegria",
+      "inizio_s": 48.433,
+      "quiz_s": 739.667
+     },
+     {
+      "n": 2,
+      "titolo": "In memoria e l'Ermetismo",
+      "inizio_s": 744.967,
+      "quiz_s": 1297.833
+     },
+     {
+      "n": 3,
+      "titolo": "Veglia e San Martino del Carso",
+      "inizio_s": 1303.133,
+      "quiz_s": 1677.933
+     },
+     {
+      "n": 4,
+      "titolo": "Mattina, Soldati e Fratelli",
+      "inizio_s": 1683.233,
+      "quiz_s": 2121.5
+     },
+     {
+      "n": 5,
+      "titolo": "Sentimento del tempo",
+      "inizio_s": 2126.8,
+      "quiz_s": 2662.367
+     },
+     {
+      "n": 6,
+      "titolo": "L'Ermetismo: Quasimodo e Luzi",
+      "inizio_s": 2667.667,
+      "quiz_s": 3005.0
+     }
+    ],
+    "quiz": {
+     "Q1": {
+      "title": "Quiz 1 · Ungaretti e L'allegria",
+      "items": [
+       {
+        "p": "Dove nasce Giuseppe Ungaretti nel 1888?",
+        "a": "Ad Alessandria d'Egitto",
+        "w": [
+         "A Lucca",
+         "A Parigi",
+         "A Milano"
+        ],
+        "e": "Nasce ad Alessandria d'Egitto da genitori lucchesi."
+       },
+       {
+        "p": "Che cosa fa Ungaretti a Parigi dal 1912?",
+        "a": "Studia alla Sorbona e conosce le avanguardie",
+        "w": [
+         "Lavora come giornalista sportivo",
+         "Insegna in un liceo italiano",
+         "Combatte nell'esercito francese"
+        ],
+        "e": "A Parigi studia alla Sorbona ed entra in contatto con Apollinaire, Marinetti e Picasso."
+       },
+       {
+        "p": "Con quale titolo esce nel 1916 il primo nucleo dell'Allegria?",
+        "a": "Il porto sepolto",
+        "w": [
+         "Sentimento del tempo",
+         "Il dolore",
+         "Allegria di naufragi"
+        ],
+        "e": "La prima edizione esce nel 1916 con il titolo Il porto sepolto, poi confluita nell'Allegria."
+       },
+       {
+        "p": "Perché il titolo L'allegria è antifrastico?",
+        "a": "Perché dice il contrario della materia tragica della guerra",
+        "w": [
+         "Perché parla di feste e di gioia",
+         "Perché è scritto in un'altra lingua",
+         "Perché è il titolo di una canzone"
+        ],
+        "e": "Il titolo esprime il coraggio e la volontà di vivere, nonostante la devastazione."
+       },
+       {
+        "p": "Quale scelta formale caratterizza L'allegria?",
+        "a": "Versi brevissimi e abolizione della punteggiatura",
+        "w": [
+         "Sonetti con rime regolari",
+         "Lunghe ottave narrative",
+         "Versi in latino"
+        ],
+        "e": "Ungaretti frantuma il verso, abolisce la punteggiatura e usa l'analogia."
+       }
+      ]
+     },
+     "Q2": {
+      "title": "Quiz 2 · In memoria e l'Ermetismo",
+      "items": [
+       {
+        "p": "A chi è dedicata la poesia In memoria?",
+        "a": "A Moammed Sceab, amico arabo del poeta",
+        "w": [
+         "Al padre del poeta",
+         "A un compagno morto sul Carso",
+         "A Guillaume Apollinaire"
+        ],
+        "e": "La poesia apre Il porto sepolto ed è dedicata a Moammed Sceab, morto suicida a Parigi."
+       },
+       {
+        "p": "Quale tema affronta In memoria?",
+        "a": "L'esilio e lo sradicamento culturale",
+        "w": [
+         "L'amore per la natura",
+         "La gloria della guerra",
+         "La vita in campagna"
+        ],
+        "e": "Moammed, diventato Marcel, non sa più vivere nella tenda dei suoi e non diventa francese."
+       },
+       {
+        "p": "Che cosa permette a Ungaretti di superare il dolore, a differenza dell'amico?",
+        "a": "La poesia",
+        "w": [
+         "La fede religiosa",
+         "La carriera militare",
+         "Il ritorno in Egitto"
+        ],
+        "e": "Ungaretti possiede lo strumento della poesia per esprimere il proprio dolore."
+       },
+       {
+        "p": "Come sono trattate le parole chiave come «suicida» e «patria»?",
+        "a": "Sono isolate in un verso intero, per avere il massimo rilievo",
+        "w": [
+         "Sono scritte in maiuscolo",
+         "Sono ripetute in ogni strofa",
+         "Sono messe tra virgolette"
+        ],
+        "e": "La scarnificazione del verso isola le parole chiave."
+       },
+       {
+        "p": "Su che cosa si basa l'Ermetismo?",
+        "a": "Sulla centralità della parola pura",
+        "w": [
+         "Sulla retorica celebrativa",
+         "Sull'impegno politico",
+         "Sulla narrazione in prosa"
+        ],
+        "e": "L'Ermetismo cerca la parola pura e rifiuta l'impegno politico e la retorica celebrativa."
+       }
+      ]
+     },
+     "Q3": {
+      "title": "Quiz 3 · Veglia e San Martino del Carso",
+      "items": [
+       {
+        "p": "Dove e quando è scritta Veglia?",
+        "a": "A Cima Quattro, il 23 dicembre 1915",
+        "w": [
+         "A Parigi, nel 1912",
+         "A Roma, nel 1933",
+         "A Santa Maria La Longa, nel 1917"
+        ],
+        "e": "La data e il luogo, come in una lettera dal fronte: Cima Quattro, 23 dicembre 1915."
+       },
+       {
+        "p": "Accanto a chi passa la notte il poeta in Veglia?",
+        "a": "Accanto al cadavere di un compagno massacrato",
+        "w": [
+         "Accanto alla madre malata",
+         "Accanto a un nemico ferito",
+         "Accanto all'amico Moammed"
+        ],
+        "e": "Un'intera nottata accanto a un compagno massacrato, con la bocca digrignata."
+       },
+       {
+        "p": "Quale reazione nasce nel poeta davanti all'orrore?",
+        "a": "Un disperato attaccamento alla vita",
+        "w": [
+         "Il desiderio di vendetta",
+         "La rassegnazione",
+         "La fuga dal fronte"
+        ],
+        "e": "Scrive lettere piene d'amore: non è mai stato tanto attaccato alla vita."
+       },
+       {
+        "p": "Che cosa diventa il cuore del poeta in San Martino del Carso?",
+        "a": "Il paese più straziato, dove nessuna croce manca",
+        "w": [
+         "Una casa piena di luce",
+         "Un giardino in fiore",
+         "Un porto sicuro"
+        ],
+        "e": "I compagni morti trovano rifugio nella memoria del poeta."
+       },
+       {
+        "p": "Come cambia San Martino del Carso rispetto alla prima stesura?",
+        "a": "Ungaretti elimina i dettagli di luogo troppo insistiti",
+        "w": [
+         "Aggiunge la rima",
+         "Lo allunga con nuove strofe",
+         "Lo traduce in francese"
+        ],
+        "e": "L'eliminazione dei dettagli dà alle immagini più forza suggestiva."
+       }
+      ]
+     },
+     "Q4": {
+      "title": "Quiz 4 · Mattina, Soldati e Fratelli",
+      "items": [
+       {
+        "p": "Quali sono i versi di Mattina?",
+        "a": "«M'illumino / d'immenso»",
+        "w": [
+         "«Si sta come / d'autunno»",
+         "«Ognuno sta solo / sul cuor della terra»",
+         "«Di queste case / non è rimasto»"
+        ],
+        "e": "Mattina è fatta di due versi e quattro parole."
+       },
+       {
+        "p": "Che cosa prova il poeta in Mattina?",
+        "a": "Un rapimento estatico davanti all'infinito",
+        "w": [
+         "Paura del buio",
+         "Nostalgia di Parigi",
+         "Rabbia contro la guerra"
+        ],
+        "e": "Davanti alla vastità dello spazio il poeta si sente integrato nell'infinito."
+       },
+       {
+        "p": "A che cosa è paragonata la vita dei soldati in Soldati?",
+        "a": "Alle foglie d'autunno sugli alberi",
+        "w": [
+         "Ai fiumi che scorrono",
+         "Alle stelle nel cielo",
+         "Alle pietre del Carso"
+        ],
+        "e": "«Si sta come d'autunno sugli alberi le foglie»: la precarietà della vita."
+       },
+       {
+        "p": "Che funzione ha il titolo in Soldati?",
+        "a": "È parte integrante del testo: dice chi sono i protagonisti",
+        "w": [
+         "È solo una data",
+         "Non ha legame con il testo",
+         "Indica il luogo della battaglia"
+        ],
+        "e": "Senza il titolo la similitudine non si capisce del tutto."
+       },
+       {
+        "p": "Come risuona la parola «fratelli» nella poesia Fratelli?",
+        "a": "Come una parola tremante nella notte",
+        "w": [
+         "Come un grido di vittoria",
+         "Come un ordine militare",
+         "Come una preghiera in latino"
+        ],
+        "e": "È un'involontaria rivolta dell'uomo presente alla propria fragilità."
+       }
+      ]
+     },
+     "Q5": {
+      "title": "Quiz 5 · Sentimento del tempo",
+      "items": [
+       {
+        "p": "Che cosa recupera Ungaretti in Sentimento del tempo (1933)?",
+        "a": "La sintassi e le forme metriche tradizionali",
+        "w": [
+         "Le parole in libertà",
+         "Il verso di una sola parola",
+         "La prosa sperimentale"
+        ],
+        "e": "Si ispira esplicitamente a Petrarca e Leopardi."
+       },
+       {
+        "p": "Qual è il tema centrale di Sentimento del tempo?",
+        "a": "Il tempo come durata, il fluire delle cose",
+        "w": [
+         "La velocità delle macchine",
+         "L'amore romantico",
+         "La vita in trincea"
+        ],
+        "e": "Il tempo non è più l'attimo fulmineo, ma la durata."
+       },
+       {
+        "p": "Qual è lo scenario privilegiato della raccolta?",
+        "a": "Roma, con i resti antichi e il barocco",
+        "w": [
+         "Parigi",
+         "Il deserto egiziano",
+         "Il Carso"
+        ],
+        "e": "Le rovine e il barocco fanno riflettere sulla fragilità umana."
+       },
+       {
+        "p": "Che cosa esprime Sono una creatura?",
+        "a": "Il dolore che pietrifica l'animo, simile alla roccia del Carso",
+        "w": [
+         "La gioia della pace",
+         "L'amore per la patria",
+         "La nostalgia dell'infanzia"
+        ],
+        "e": "Il dolore è così prosciugato da diventare simile alla roccia fredda e arida."
+       },
+       {
+        "p": "Che valore ha l'immersione nell'Isonzo nei Fiumi?",
+        "a": "Un lavacro che purifica dalle brutture della guerra",
+        "w": [
+         "Una fuga dal fronte",
+         "Un gioco tra soldati",
+         "Un'esercitazione militare"
+        ],
+        "e": "L'acqua del fiume è come un battesimo che purifica."
+       }
+      ]
+     },
+     "Q6": {
+      "title": "Quiz 6 · L'Ermetismo: Quasimodo e Luzi",
+      "items": [
+       {
+        "p": "Che cosa cerca la poesia ermetica?",
+        "a": "Il senso dell'esistenza, esplorando l'interiorità",
+        "w": [
+         "La cronaca dei fatti",
+         "La celebrazione del regime",
+         "Il divertimento del pubblico"
+        ],
+        "e": "L'Ermetismo è una corrente poetica e filosofico-religiosa."
+       },
+       {
+        "p": "Quanti versi ha Ed è subito sera?",
+        "a": "Tre",
+        "w": [
+         "Quattordici",
+         "Due",
+         "Otto"
+        ],
+        "e": "In tre versi Quasimodo riassume la precarietà della condizione umana."
+       },
+       {
+        "p": "Che cosa rappresenta il «raggio di sole» in Ed è subito sera?",
+        "a": "La vita, che illumina e ferisce",
+        "w": [
+         "La fede",
+         "La guerra",
+         "La gloria"
+        ],
+        "e": "Siamo trafitti dalla vita e dalle sue brutture."
+       },
+       {
+        "p": "Che cosa rappresenta la «sera»?",
+        "a": "La fine dell'esistenza, che arriva all'improvviso",
+        "w": [
+         "Il riposo dopo il lavoro",
+         "Una festa",
+         "Il ritorno a casa"
+        ],
+        "e": "La sera dell'esistenza arriva subito: siamo soli e la morte è vicina."
+       },
+       {
+        "p": "Che cosa crea Mario Luzi nella lirica Avorio?",
+        "a": "Un'atmosfera irreale e simbolica, con un rifugio nel mito classico",
+        "w": [
+         "Una cronaca di guerra",
+         "Una satira della borghesia",
+         "Un manifesto politico"
+        ],
+        "e": "Luzi, poeta fiorentino, usa immagini oscure e simboliche."
+       }
+      ]
+     }
+    }
+   },
+   "timeline": [
+    [
+     "T1",
+     48.433,
+     5.0
+    ],
+    [
+     "Q1",
+     739.667,
+     5.3
+    ],
+    [
+     "T2",
+     744.967,
+     5.0
+    ],
+    [
+     "T3",
+     1303.133,
+     5.0
+    ],
+    [
+     "T4",
+     1683.233,
+     5.0
+    ],
+    [
+     "T5",
+     2126.8,
+     5.0
+    ],
+    [
+     "T6",
+     2667.667,
+     5.0
+    ],
+    [
+     "GL1",
+     3010.3,
+     31.533
+    ],
+    [
+     "RF1",
+     3041.833,
+     30.633
+    ],
+    [
+     "FIN",
+     3077.467,
+     6.0
+    ]
+   ]
   }
  },
  "manca": "",
@@ -31,10 +471,14 @@
   {
    "quando": "14/11 06:25",
    "testo": "chat C2: montaggio completo con voci Kore, 51:37 misurati (docente 39:17 + inserti). Codifica 1080p in corso. Pagine del libro ritagliate dal video del prof (non ci sono immagini HD per questa lezione)."
+  },
+  {
+   "quando": "14/11 07:53",
+   "testo": "chat C2: PRONTA. Misurato: 51:37.0, 92909 fotogrammi (attesi 92909), 198,6 MiB, 1920x1080, 6 quiz con scatto a 0,0 s, nessun fermo, parlato -16,7 LUFS, sottotitoli 81%. controllo_finale: TUTTO OK. t_verifica 3072.467 s, t_compiti 3091.967 s. Pagine del libro ritagliate dal video del prof (niente immagini HD per questa lezione): leggibili ma meno nitide."
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 17",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 06:25:37"
+ "aggiornato": "2026-11-14 07:53:05"
 }
