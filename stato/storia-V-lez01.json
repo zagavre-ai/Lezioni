@@ -3,11 +3,11 @@
  "parti": {
   "1": {
    "titolo": "Il Novecento, il secolo delle masse · Parte 1",
-   "stato": "IN_MONTAGGIO",
+   "stato": "PRONTA",
    "voci": "kore",
    "quiz_ok": "si",
    "fermi_ok": "si",
-   "sub_ok": "no",
+   "sub_ok": "si",
    "video": "Storia_Lez1_Parte1_1080p.mp4",
    "durata_s": 3237.7,
    "durata": "53:57.7",
@@ -909,10 +909,14 @@
   {
    "quando": "14/11 12:02",
    "testo": "CONSEGNATA sul ramo consegna-storia-V-lez01 (Parte 1: 53:57,7 · 97130 fotogrammi · 298 MB; Parte 2: 51:23,4 · 92502 fotogrammi · 279 MB; 1080p). Controlli OK: durata, fotogrammi, peso, jingle Quiz 0,0 s, volume -16 LUFS, nessun fermo. Unico NON superato: attacco dei sottotitoli sulla voce (Parte 1: 55% di 11 punti; Parte 2: 73% di 26; soglia 80%)."
+  },
+  {
+   "quando": "14/11 12:30",
+   "testo": "controllo_finale: ESITO: TUTTO OK"
   }
  ],
  "materia": "Storia",
  "lezione": "1",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 12:02:43"
+ "aggiornato": "2026-11-14 12:30:19"
 }
