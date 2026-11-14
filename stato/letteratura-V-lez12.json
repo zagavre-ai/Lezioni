@@ -2,7 +2,7 @@
  "tag": "letteratura-V-lez12",
  "parti": {
   "1": {
-   "stato": "IN_MONTAGGIO",
+   "stato": "FERMA",
    "voci": "kore",
    "titolo": "Narrativa e saggistica del primo Novecento",
    "quiz_ok": "si",
@@ -378,7 +378,7 @@
    ]
   }
  },
- "manca": "",
+ "manca": "Voci Kore AN* non ancora arrivate (testi inviati 22:25, ramo voci-letteratura-V-lez12). Tagli video e dispensa pronti; riprendo appena le voci sono nel ramo.",
  "serve_master": [
   {
    "quando": "14/11 02:20",
@@ -432,5 +432,5 @@
  "materia": "Letteratura italiana · V anno",
  "lezione": "Lezione 12",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 23:07:27"
+ "aggiornato": "2026-11-14 23:37:43"
 }
