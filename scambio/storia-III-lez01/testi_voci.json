@@ -317,5 +317,79 @@
  ],
  "IN2": [
   "Bentornati. In questa seconda parte vediamo Francia e Italia, Ottone primo e il Sacro Romano Impero, la strategia dei vescovi-conti e la fine della dinastia degli Ottoni. Prima, ripassiamo la prima parte."
+ ],
+ "CM1": [
+  "Mappa dell'argomento: la frammentazione del potere.",
+  "Primo ramo: la fine dell'Impero carolingio. Parola chiave: tre regni, Francia, Germania e Italia.",
+  "Secondo ramo: i re diventano più deboli. Parola chiave: poteri locali, cioè contee, marchesati e ducati.",
+  "Terzo ramo: le grandi famiglie aristocratiche. Parola chiave: autonomia. Ognuna è sovrana a casa propria."
+ ],
+ "CM2": [
+  "Mappa dell'argomento: vassalli, cariche ereditarie e feudo.",
+  "Primo ramo: il beneficio carolingio. Parola chiave: terra temporanea, che alla morte del vassallo tornava al re.",
+  "Secondo ramo: le cariche diventano ereditarie. Parola chiave: figli maschi. Per esempio, il Capitolare di Chiersì, dell'ottocentosettantasette.",
+  "Terzo ramo: i feudi minori. Parola chiave: valvassori. Per esempio, la Constitùtio de fèudis, del milletrentasette.",
+  "Quarto ramo: nasce il feudo. Parola chiave: feudo, il termine che sostituisce beneficio."
+ ],
+ "CM3": [
+  "Mappa dell'argomento: le nuove invasioni e l'incastellamento.",
+  "Primo ramo: i Saraceni. Parola chiave: pirati, che colpiscono le coste italiane e francesi.",
+  "Secondo ramo: gli Ungari. Parola chiave: razzie, in Germania, Francia e Italia del Nord.",
+  "Terzo ramo: i Normanni, o Vichinghi. Parola chiave: Scandinavia. Si fermano in Normandia.",
+  "Quarto ramo: la risposta dei signori. Parola chiave: incastellamento, con palizzate, fossati e castelli."
+ ],
+ "CM4": [
+  "Mappa dell'argomento: i poteri di banno e la rete di relazioni.",
+  "Primo ramo: i poteri di banno. Parola chiave: diritti regi, che i signori locali prendono per sé.",
+  "Secondo ramo: difesa e giustizia. Parola chiave: giustizia. Il signore giudica nel suo territorio.",
+  "Terzo ramo: tasse e corvé. Parola chiave: corvé, cioè lavoro gratuito dei contadini.",
+  "Quarto ramo: non una piramide. Parola chiave: rete di relazioni. Un vassallo può avere più signori."
+ ],
+ "CM5": [
+  "Mappa dell'argomento: Francia e Italia.",
+  "Primo ramo: la Francia. Parola chiave: Capetingi. Per esempio, Ugo Capeto, nel novecentottantasette.",
+  "Secondo ramo: un potere limitato. Parola chiave: Parigi e Orleàn. Altrove comandano duchi e conti.",
+  "Terzo ramo: l'Italia divisa. Parola chiave: instabilità. Il Regno d'Italia è al Nord e al Centro.",
+  "Quarto ramo: lo Stato della Chiesa. Parola chiave: centro Italia, sotto il dominio del papa.",
+  "Quinto ramo: il Sud Italia. Parola chiave: più domini: longobardi, bizantini e arabi."
+ ],
+ "CM6": [
+  "Mappa dell'argomento: Ottone primo e il Sacro Romano Impero.",
+  "Primo ramo: il Regno di Germania. Parola chiave: duchi, che eleggono il sovrano.",
+  "Secondo ramo: la dinastia di Sassonia. Parola chiave: Ottoni. Per esempio, Enrico primo e Ottone primo.",
+  "Terzo ramo: la vittoria sugli Ungari. Parola chiave: Lèchfeld, nel novecentocinquantacinque.",
+  "Quarto ramo: l'incoronazione. Parola chiave: novecentosessantadue, da papa Giovanni dodicesimo.",
+  "Quinto ramo: il Sacro Romano Impero. Parola chiave: Germania e Italia, senza la Francia."
+ ],
+ "CM7": [
+  "Mappa dell'argomento: la strategia dei vescovi-conti.",
+  "Primo ramo: contro l'ereditarietà. Parola chiave: Capitolare di Chiersì, che lasciava i feudi ai figli.",
+  "Secondo ramo: i poteri ai vescovi. Parola chiave: vescovi-conti, al posto dei nobili laici.",
+  "Terzo ramo: l'obbligo del celibato. Parola chiave: niente figli. I vescovi non hanno eredi legittimi.",
+  "Quarto ramo: i feudi tornano al sovrano. Parola chiave: riassegnazione, alla morte del vescovo.",
+  "Quinto ramo: il papa sotto controllo. Parola chiave: Privilègium Otònis. L'elezione richiede il consenso dell'imperatore."
+ ],
+ "CM8": [
+  "Mappa dell'argomento: Ottone terzo e la fine della dinastia.",
+  "Primo ramo: il sogno imperiale. Parola chiave: renovàzio impèrii, la rinascita di Roma.",
+  "Secondo ramo: la corte a Roma. Parola chiave: papa Silvestro secondo, un forte alleato.",
+  "Terzo ramo: le rivolte. Parola chiave: aristocrazia romana. I piani falliscono.",
+  "Quarto ramo: la fine degli Ottoni. Parola chiave: milledue. Ottone terzo muore senza eredi."
+ ],
+ "CMF1": [
+  "Mappa riassuntiva della prima parte: il sistema feudale.",
+  "Primo ramo: la frammentazione. Parola chiave: tre regni, con contee e ducati.",
+  "Secondo ramo: il feudo ereditario. Parola chiave: Capitolare di Chiersì e valvassori.",
+  "Terzo ramo: le invasioni. Parola chiave: castelli, cioè l'incastellamento.",
+  "Quarto ramo: banno e rete. Parola chiave: diritti regi, e vassalli legati a più signori."
+ ],
+ "CMF2": [
+  "Mappa riassuntiva di tutta la lezione: potere e Impero.",
+  "Primo ramo: la frammentazione. Parola chiave: tre regni, con contee e ducati.",
+  "Secondo ramo: il feudo ereditario. Parola chiave: Capitolare di Chiersì e valvassori.",
+  "Terzo ramo: invasioni e castelli. Parola chiave: incastellamento, contro Saraceni, Ungari e Normanni.",
+  "Quarto ramo: banno e rete. Parola chiave: diritti regi, e vassalli legati a più signori.",
+  "Quinto ramo: Francia e Italia. Parola chiave: Capetingi e Stato della Chiesa.",
+  "Sesto ramo: gli Ottoni e l'Impero. Parola chiave: Sacro Romano Impero, con i vescovi-conti."
  ]
 }
