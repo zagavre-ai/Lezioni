@@ -10,6 +10,10 @@
   {
    "quando": "14/11 13:50",
    "testo": "Lezione 13: i 3 file del video (78:50 in tutto) finiscono a metà frase sull'armistizio dell'8 settembre 1943 («...l'Italia di Vittorio Emanuele»). L'ultima slide (Italia divisa, Salò) non viene spiegata. Manca un quarto file? Intanto monto con quello che c'è; se arriva il seguito lo aggiungo."
+  },
+  {
+   "quando": "14/11 13:56",
+   "testo": "Voci Kore lezione 13: una sola richiesta, 37 testi (circa 22.100 caratteri, stima 24 min) in voci-storia-V-lez13/scambio/storia-V-lez13/testi_voci.json. Quiz 8x5 in quiz.json da approvare."
   }
  ],
  "domande_sara": [],
@@ -24,7 +28,7 @@
   }
  ],
  "materia": "Storia V",
- "lezione": "Lezione 13",
+ "lezione": "Lezione 13 · La seconda guerra mondiale",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 13:50:54"
+ "aggiornato": "2026-11-14 13:56:07"
 }
