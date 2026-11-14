@@ -2,7 +2,7 @@
  "tag": "letteratura-V-lez10",
  "parti": {
   "1": {
-   "stato": "PRONTA",
+   "stato": "IN_MONTAGGIO",
    "titolo": "Il primo Novecento e la lirica italiana",
    "voci": "kore",
    "quiz_ok": "si",
@@ -336,6 +336,10 @@
   {
    "quando": "14/11 06:23",
    "testo": "chat B2 · PRONTA e CONSEGNATA sul ramo consegna-letteratura-V-lez10. Misurato: 42:36.2, 76686 fotogrammi, 165,0 MB, 1920x1080, -16,0 LUFS, quiz 4/4 entro 0,003 s, nessun fermo (il video originale ha 6 s di webcam ferma a 222,5-228,6 s: in quel tratto si vede la slide con zoom lento, senza cerchio, voce del docente intera). Sotto i 50 min (docente 36:19, nessun riempitivo). t_verifica 2537.7 s, t_compiti 2551.2 s. Sottotitoli Whisper base con nomi corretti; controllo automatico attacco 57%, campione con trascrizione 14/16 sulla parola giusta."
+  },
+  {
+   "quando": "14/11 22:24",
+   "testo": "Letteratura V · chat R3: IN_MONTAGGIO v2 con approfondimenti animati (oggi 42:36, obiettivo 52-54). Voci Kore nuove richieste sul ramo voci. Durata prevista: stima circa 52 min (Kore 2,24 parole/s misurato). Compiti del prof: assenti nella consegna."
   }
  ],
  "materia": "Letteratura italiana V",
