@@ -1,0 +1,73 @@
+{
+ "INTRO1": [
+  "Benvenuti alla lezione di Letteratura italiana.",
+  "Oggi conosciamo Gabriele d'Annunzio, il poeta che volle fare della propria vita un'opera d'arte.",
+  "Il professor Giorgio Mazzotti ci guida attraverso cinque argomenti: l'esteta e il superuomo; il mercato, il pubblico e la politica; i romanzi e il teatro; le Laudi e Alcyone; il periodo notturno.",
+  "Dopo ogni argomento trovi un ripasso e un quiz per controllare quello che hai imparato.",
+  "Buon ascolto!"
+ ],
+ "R1": ["Ripassiamo il primo argomento: d'Annunzio esteta e il mito del superuomo."],
+ "R2": ["Ripassiamo il secondo argomento: il rapporto con il mercato, il pubblico e la politica."],
+ "R3": ["Ripassiamo il terzo argomento: i romanzi e il teatro di d'Annunzio."],
+ "R4": ["Ripassiamo il quarto argomento: le Laudi e il capolavoro Alcyone."],
+ "R5": ["Ripassiamo il quinto argomento: il periodo notturno."],
+ "S1": [
+  "L'esteta e il superuomo. Ecco i punti da ricordare.",
+  "Per d'Annunzio la vita è la sua opera più interessante: l'obiettivo è trasformare l'esistenza stessa in un'opera d'arte.",
+  "Nasce a Pescara nel milleottocentosessantatré, studia al collegio Cicognini di Prato ed esordisce nel milleottocentosettantanove con la raccolta Primo vere.",
+  "Nel milleottocentottantuno si trasferisce a Roma: abbandona presto l'università e lavora nella cronaca mondana dei giornali.",
+  "Costruisce l'immagine dell'esteta, un individuo superiore che rifiuta la mediocrità borghese e si rifugia nella pura arte.",
+  "Negli anni novanta adotta il mito del superuomo, ispirato in modo approssimativo al filosofo tedesco Friedrich Nìce: non più solo culto della bellezza, ma energia eroica e attiva.",
+  "Il vivere inimitabile: la vita da principe rinascimentale nella villa della Capponcina, a Fiesole, e la lunga relazione con l'attrice Eleonora Duse."
+ ],
+ "S2": [
+  "Il mercato, il pubblico e la politica. Ecco i punti da ricordare.",
+  "Nonostante il disprezzo dichiarato per la vita comune, d'Annunzio dipende dalle esigenze commerciali del suo tempo.",
+  "Usa gli scandali come strategia, per promuovere la propria immagine e vendere i propri libri.",
+  "Conduce una vita dispendiosa e accumula debiti enormi: il culto della bellezza finisce per servire proprio il denaro e il successo.",
+  "In politica è eletto deputato della Destra nel milleottocentonovantasette, e nel millenovecento passa clamorosamente alla Sinistra.",
+  "Nella prima guerra mondiale si arruola volontario a cinquantadue anni: la beffa di Buccari e il volo su Vienna.",
+  "Nel settembre millenovecentodiciannove occupa la città di Fiume, contro la vittoria mutilata. Poi si ritira al Vittoriale, a Gardone, dove muore nel millenovecentotrentotto."
+ ],
+ "S3": [
+  "I romanzi e il teatro. Ecco i punti da ricordare.",
+  "L'esordio narrativo è la raccolta di novelle Terra vergine, del milleottocentottantadue. Nel milleottocentottantanove arriva il romanzo Il piacere.",
+  "Il piacere mette in scena la crisi dell'estetismo: il protagonista Andrea Sperelli è diviso tra la donna fatale Elena Muti e la donna pura Maria Ferres.",
+  "È un romanzo psicologico: scava nella coscienza e segue il punto di vista del protagonista.",
+  "I romanzi del superuomo sono Il trionfo della morte, Le vergini delle rocce e Il fuoco: esaltano lo spirito dionisiaco e la volontà di potenza.",
+  "Dal milleottocentonovantasei, con La città morta, il teatro diventa uno strumento per diffondere il mito del superuomo.",
+  "È un teatro di poesia, che rifiuta il teatro borghese: ne è un esempio La figlia di Iorio, che evoca un Abruzzo primitivo e magico."
+ ],
+ "S4": [
+  "Le Laudi e Alcyone. Ecco i punti da ricordare.",
+  "Le Laudi sono un ciclo poetico che celebra la natura e i miti della modernità, come le macchine e le metropoli.",
+  "Alcyone, del millenovecentotré, è il terzo libro delle Laudi: è il diario ideale di una vacanza estiva ed è il vertice della poesia di d'Annunzio.",
+  "Il tema centrale è il panismo: l'uomo si fonde con la natura, fino a farsi divino.",
+  "La sera fiesolana e La pioggia nel pineto mostrano una musicalità raffinata: la parola diventa pura suggestione."
+ ],
+ "S5": [
+  "Il periodo notturno. Ecco i punti da ricordare.",
+  "Dopo il millenovecentodieci d'Annunzio abbandona il romanzo per una prosa lirica e frammentaria, legata alla memoria.",
+  "Il Notturno, del millenovecentosedici, è scritto al buio, per un trauma agli occhi dopo un incidente di volo, su sottili strisce di carta.",
+  "Lo stile è agile, secco e nervoso, con periodi brevissimi, spesso senza verbi.",
+  "Allo stesso filone appartengono Contemplazione della morte, Le faville del maglio e Il libro segreto."
+ ],
+ "GL1": [
+  "Le parole chiave della lezione.",
+  "Estetismo: fare della vita un'opera d'arte, rifiutando la mediocrità borghese.",
+  "Superuomo: l'individuo eccezionale, fatto di energia eroica e volontà di potenza.",
+  "Vivere inimitabile: una vita eccezionale, fuori dalle regole comuni.",
+  "Panismo: la fusione dell'uomo con la natura, fino a farsi divino.",
+  "Teatro di poesia: un teatro che rifiuta il realismo borghese, con personaggi d'eccezione e trame simboliche.",
+  "Le trovi anche nella dispensa."
+ ],
+ "RF1": [
+  "Ricapitoliamo i cinque argomenti della lezione.",
+  "Uno, l'esteta e il superuomo: la vita come opera d'arte e il vivere inimitabile.",
+  "Due, il mercato e la politica: gli scandali come strategia, la guerra e l'impresa di Fiume.",
+  "Tre, i romanzi e il teatro: Il piacere, i romanzi del superuomo e il teatro di poesia.",
+  "Quattro, le Laudi e Alcyone: il panismo della Sera fiesolana e della Pioggia nel pineto.",
+  "Cinque, il periodo notturno: la prosa frammentaria del Notturno."
+ ],
+ "FIN1": ["Fine della lezione. Grazie per l'attenzione."]
+}
