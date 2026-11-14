@@ -2,7 +2,7 @@
  "tag": "letteratura-V-lez11",
  "parti": {
   "1": {
-   "stato": "PRONTA",
+   "stato": "IN_MONTAGGIO",
    "titolo": "Il Futurismo e le avanguardie",
    "voci": "kore",
    "t_verifica": 2522.767,
@@ -334,10 +334,14 @@
   {
    "quando": "14/11 06:24",
    "testo": "chat C2: PRONTA. Misurato: 42:27.3, 76418 fotogrammi (attesi 76418), 170,3 MiB, 1920x1080, 4 quiz con scatto entro 0,002 s, nessun fermo, parlato -17,0 LUFS (integrato -16,6), sottotitoli 80% OK. controllo_finale: TUTTO OK. t_verifica 2522.767 s, t_compiti 2542.267 s."
+  },
+  {
+   "quando": "14/11 22:41",
+   "testo": "Letteratura V · chat R4: rifacimento con approfondimenti animati (v2)"
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 11",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 06:24:29"
+ "aggiornato": "2026-11-14 22:41:24"
 }
