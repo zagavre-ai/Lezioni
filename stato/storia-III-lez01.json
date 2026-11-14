@@ -6,16 +6,25 @@
   }
  },
  "manca": "",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "14/11 22:18",
+   "testo": "VOCI NUOVE (mappe concettuali, decisione Sara 14/11): aggiunte in testi_voci.json del ramo voci-storia-III-lez01 con nomi nuovi CM1-CM8, CMF1, CMF2 (una sola richiesta, niente rigenerazioni). Nel frattempo monto con segnaposto."
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
    "quando": "14/11 22:03",
    "testo": "Storia III (prof. Mazzotti) · chat ST3: presa in carico, riparto dalle voci gia' presenti"
+  },
+  {
+   "quando": "14/11 22:18",
+   "testo": "Quiz 40 domande scritte in scambio/storia-III-lez01/quiz.json (ramo voci). Docente trascritto, slide allineate; montaggio Parte 1 in corso."
   }
  ],
  "materia": "Storia III",
  "lezione": "Lezione 1 · Le forme del potere tra X e XI secolo e la rinascita dell'Impero",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 22:03:48"
+ "aggiornato": "2026-11-14 22:18:33"
 }
