@@ -2,15 +2,19 @@
  "tag": "afm-inglese-triennio-lez04",
  "parti": {
   "1": {
-   "stato": "IN_MONTAGGIO",
+   "stato": "FERMA",
    "voci": "segnaposto"
   }
  },
- "manca": "",
+ "manca": "voci Kore (43 file E4_*) non ancora arrivate sul ramo voci-afm-inglese-triennio-lez04",
  "serve_master": [
   {
    "quando": "14/11 22:14",
    "testo": "Voci Kore: scambio/afm-inglese-triennio-lez04/testi_voci.json (43 voci, nomi E4_*, lingua en). Quiz da approvare: scambio/afm-inglese-triennio-lez04/quiz.json"
+  },
+  {
+   "quando": "14/11 23:22",
+   "testo": "URGENTE: lez04 pronta con segnaposto (62 min), manca solo la codifica finale: servono le voci Kore di testi_voci.json (richiesta del 14/11 sera)."
   }
  ],
  "domande_sara": [],
@@ -31,5 +35,5 @@
  "materia": "Inglese AFM",
  "lezione": "Lezione 4",
  "docente": "Prof.ssa Maria Vittoria Fontanesi",
- "aggiornato": "2026-11-14 23:12:47"
+ "aggiornato": "2026-11-14 23:22:10"
 }
