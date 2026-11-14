@@ -313,11 +313,11 @@
   },
   "2": {
    "titolo": "L'Italia dal '68 alla crisi della Prima Repubblica · Parte 2",
-   "stato": "IN_MONTAGGIO",
+   "stato": "PRONTA",
    "voci": "kore",
    "quiz_ok": "si",
    "fermi_ok": "si",
-   "sub_ok": "no",
+   "sub_ok": "si",
    "video": "Storia_Lez19_Parte2_1080p.mp4",
    "durata_s": 3001.6,
    "durata": "50:01.6",
@@ -660,10 +660,14 @@
   {
    "quando": "14/11 14:22",
    "testo": "Parte 2: t_verifica=2983.002 s · t_compiti=2996.502 s (intro compiti a 2993.002 s)"
+  },
+  {
+   "quando": "14/11 14:25",
+   "testo": "Parte 2 PRONTA: 50:01,6, 203,7 MiB, -16,2 LUFS, Q5-Q8 a 0,000 s, nessun fermo. t_verifica=2983.002 s · t_compiti=2996.502 s (intro 2993.002). Sottotitoli: automatico ~70% (scarti da coda della frase precedente nella finestra di misura), controllo a mano su 8 blocchi: attacco entro 0,4 s."
   }
  ],
  "materia": "Storia",
  "lezione": "19",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 14:22:20"
+ "aggiornato": "2026-11-14 14:25:13"
 }
