@@ -6,17 +6,21 @@
    "stato": "IN_MONTAGGIO"
   }
  },
- "manca": "",
+ "manca": "test finale: Excel del docente (zip 008); compiti: COMPITI_MANCANTI",
  "serve_master": [],
  "domande_sara": [],
  "note": [
   {
    "quando": "14/11 11:38",
    "testo": "Storia V · chat S4"
+  },
+  {
+   "quando": "14/11 11:59",
+   "testo": "Storia V · chat S4: testi delle voci (47, stima 24,7 min) e quiz (35) sul ramo voci-storia-V-lez14. Monto con voci segnaposto."
   }
  ],
  "materia": "Storia V",
  "lezione": "Lezione 14 · La guerra fredda (1945-1961)",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 11:38:58"
+ "aggiornato": "2026-11-14 11:59:39"
 }
