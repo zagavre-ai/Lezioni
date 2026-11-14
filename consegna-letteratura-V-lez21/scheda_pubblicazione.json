@@ -1,0 +1,314 @@
+{
+ "materia": "Letteratura italiana (V)",
+ "titolo": "Cesare Pavese · Parte 1",
+ "durata_s": 2141.33,
+ "argomenti": [
+  {
+   "n": 1,
+   "titolo": "La vita e i traumi di Pavese",
+   "inizio_s": 36.267,
+   "quiz_s": 650.367
+  },
+  {
+   "n": 2,
+   "titolo": "La storia e l'impegno politico",
+   "inizio_s": 655.367,
+   "quiz_s": 857.3
+  },
+  {
+   "n": 3,
+   "titolo": "Il mito e Il mestiere di vivere",
+   "inizio_s": 862.3,
+   "quiz_s": 1272.233
+  },
+  {
+   "n": 4,
+   "titolo": "Le opere narrative",
+   "inizio_s": 1277.233,
+   "quiz_s": 1727.233
+  },
+  {
+   "n": 5,
+   "titolo": "La luna e i falò",
+   "inizio_s": 1732.233,
+   "quiz_s": 1998.833
+  }
+ ],
+ "quiz": {
+  "Q1": {
+   "title": "Quiz 1 · La vita e i traumi di Pavese",
+   "items": [
+    {
+     "p": "Dove nasce Cesare Pavese nel 1908?",
+     "a": "Nelle Langhe cuneesi",
+     "w": [
+      "A Milano",
+      "In Calabria",
+      "A Firenze"
+     ],
+     "e": "Nasce nel 1908 nelle Langhe cuneesi, luoghi a cui rimarrà legato per tutta la vita."
+    },
+    {
+     "p": "Che cosa accade a Pavese a sei anni?",
+     "a": "Perde il padre e riceve dalla madre un'educazione rigida",
+     "w": [
+      "Si trasferisce in America",
+      "Viene mandato al confino",
+      "Inizia a lavorare come traduttore"
+     ],
+     "e": "Perde il padre a sei anni e riceve dalla madre un'educazione rigida che ne segna il carattere introverso."
+    },
+    {
+     "p": "Su quale autore Pavese scrive la tesi di laurea?",
+     "a": "Walt Whitman",
+     "w": [
+      "Ernest Hemingway",
+      "Edgar Allan Poe",
+      "Herman Melville"
+     ],
+     "e": "Si laurea con una tesi su Walt Whitman e diventa un importante traduttore di autori statunitensi e britannici."
+    },
+    {
+     "p": "Perché nel 1935 Pavese viene arrestato?",
+     "a": "Per documenti politici trovati in casa, affidatigli da Tina Pizzardo",
+     "w": [
+      "Per aver partecipato alla Resistenza",
+      "Per un articolo contro il duce",
+      "Per aver tradotto un libro proibito"
+     ],
+     "e": "Nel 1935 viene arrestato a causa di documenti politici trovati in casa sua, affidatigli dalla donna amata, Tina Pizzardo."
+    },
+    {
+     "p": "Dove sconta Pavese il confino?",
+     "a": "In Calabria",
+     "w": [
+      "In Sicilia",
+      "In Sardegna",
+      "Nelle Langhe"
+     ],
+     "e": "Sconta mesi di confino in Calabria."
+    }
+   ]
+  },
+  "Q2": {
+   "title": "Quiz 2 · La storia e l'impegno politico",
+   "items": [
+    {
+     "p": "Che cosa fa Pavese dopo l'armistizio del 1943?",
+     "a": "Non partecipa alla Resistenza e si rifugia a Casale Monferrato",
+     "w": [
+      "Guida una brigata partigiana",
+      "Fugge negli Stati Uniti",
+      "Si arruola nell'esercito"
+     ],
+     "e": "Dopo l'armistizio del 1943 non partecipa alla Resistenza e si rifugia a Casale Monferrato."
+    },
+    {
+     "p": "Che cosa lascia in Pavese la mancata partecipazione alla Resistenza?",
+     "a": "Un forte rimorso",
+     "w": [
+      "Un senso di orgoglio",
+      "Indifferenza",
+      "La voglia di lasciare la letteratura"
+     ],
+     "e": "Questa mancata partecipazione gli lascerà un forte rimorso."
+    },
+    {
+     "p": "Perché nel dopoguerra Pavese si iscrive al Partito Comunista?",
+     "a": "Per un dovere etico di ricostruzione",
+     "w": [
+      "Per interesse economico",
+      "Per fare carriera politica",
+      "Per obbligo della casa editrice"
+     ],
+     "e": "Si iscrive al PCI spinto da un dovere etico di ricostruzione."
+    },
+    {
+     "p": "Perché il rapporto di Pavese con il PCI resta problematico?",
+     "a": "Per la sua tendenza al disimpegno",
+     "w": [
+      "Perché era stato fascista",
+      "Perché scriveva solo in inglese",
+      "Perché viveva all'estero"
+     ],
+     "e": "Il rapporto rimarrà problematico a causa della sua tendenza al disimpegno."
+    },
+    {
+     "p": "Di che cosa lo accusano i militanti comunisti?",
+     "a": "Di trattare temi troppo soggettivi, mitici e irrazionali",
+     "w": [
+      "Di imitare troppo i neorealisti",
+      "Di scrivere solo romanzi storici",
+      "Di non tradurre autori americani"
+     ],
+     "e": "I militanti comunisti lo accusano di trattare temi troppo soggettivi, mitici e irrazionali."
+    }
+   ]
+  },
+  "Q3": {
+   "title": "Quiz 3 · Il mito e Il mestiere di vivere",
+   "items": [
+    {
+     "p": "Che cosa rappresenta il mito per Pavese?",
+     "a": "Il recupero dell'infanzia, quando si incontrano le cose per la prima volta",
+     "w": [
+      "Lo studio delle religioni antiche",
+      "Il racconto delle guerre eroiche",
+      "La fiducia nel progresso"
+     ],
+     "e": "Il mito rappresenta il recupero dell'infanzia: il momento in cui l'individuo incontra le cose per la prima volta e assegna loro un valore sacro e assoluto."
+    },
+    {
+     "p": "A che cosa contrappone Pavese il tempo storico e progressivo?",
+     "a": "Alla dimensione del mito e della campagna, fuori dal tempo",
+     "w": [
+      "Alla vita della grande città",
+      "Al tempo della fabbrica",
+      "Al futuro tecnologico"
+     ],
+     "e": "Contrappone il tempo storico e progressivo alla dimensione del mito e della campagna, intesi come luoghi fuori dal tempo."
+    },
+    {
+     "p": "Che cos'è Il mestiere di vivere?",
+     "a": "Il diario personale di Pavese",
+     "w": [
+      "Una raccolta di poesie",
+      "Un romanzo sulla Resistenza",
+      "Una traduzione di Whitman"
+     ],
+     "e": "Il mestiere di vivere è il titolo del suo diario personale."
+    },
+    {
+     "p": "Su che cosa riflette Pavese nel Mestiere di vivere?",
+     "a": "Sulla propria incapacità di vivere e sulla solitudine",
+     "w": [
+      "Sulla politica del PCI",
+      "Sui viaggi in America",
+      "Sulla storia delle Langhe"
+     ],
+     "e": "Rappresenta la sua costante riflessione sulla propria incapacità di vivere e sulla solitudine esistenziale."
+    },
+    {
+     "p": "Che tipo di poesia propone Pavese in Lavorare stanca?",
+     "a": "Una poesia-racconto, oggettiva e dal ritmo ampio",
+     "w": [
+      "Una poesia ermetica e oscura",
+      "Sonetti in rima",
+      "Versi futuristi"
+     ],
+     "e": "Le sue raccolte, come Lavorare stanca, propongono una poesia-racconto con uno stile oggettivo e un ritmo ampio, influenzato dalla letteratura americana."
+    }
+   ]
+  },
+  "Q4": {
+   "title": "Quiz 4 · Le opere narrative",
+   "items": [
+    {
+     "p": "Che cosa analizzano La bella estate e La spiaggia?",
+     "a": "Le illusioni giovanili e il passaggio traumatico all'età adulta",
+     "w": [
+      "La guerra partigiana",
+      "La vita degli emigrati in America",
+      "La storia delle Langhe nel Medioevo"
+     ],
+     "e": "La bella estate (scritto nel 1940) e La spiaggia analizzano le illusioni giovanili e il passaggio traumatico verso l'età adulta."
+    },
+    {
+     "p": "Quale romanzo racconta la conversione antifascista del giovane torinese Pablo?",
+     "a": "Il compagno",
+     "w": [
+      "La casa in collina",
+      "La luna e i falò",
+      "La spiaggia"
+     ],
+     "e": "Il compagno (1946) è il romanzo in cui Pavese cerca di allinearsi all'impegno politico richiesto dal PCI, narrando la conversione antifascista di Pablo."
+    },
+    {
+     "p": "In che anno esce Il compagno?",
+     "a": "Nel 1946",
+     "w": [
+      "Nel 1940",
+      "Nel 1948",
+      "Nel 1950"
+     ],
+     "e": "Il compagno è del 1946."
+    },
+    {
+     "p": "Chi è Corrado nella Casa in collina?",
+     "a": "Un professore che fugge dalle responsabilità della guerra e della storia",
+     "w": [
+      "Un capo partigiano",
+      "Un emigrato tornato dall'America",
+      "Un contadino delle Langhe"
+     ],
+     "e": "La casa in collina (1948) è incentrato sul professore Corrado, che fugge dalle responsabilità della guerra e della storia."
+    },
+    {
+     "p": "Che cosa riflette La casa in collina?",
+     "a": "Il senso di colpa dell'autore per non aver combattuto",
+     "w": [
+      "La gioia per la Liberazione",
+      "La nostalgia per l'America",
+      "L'amore per Tina Pizzardo"
+     ],
+     "e": "Riflette lo stesso senso di colpa dell'autore per non aver combattuto."
+    }
+   ]
+  },
+  "Q5": {
+   "title": "Quiz 5 · La luna e i falò",
+   "items": [
+    {
+     "p": "In che anno esce La luna e i falò?",
+     "a": "Nel 1950",
+     "w": [
+      "Nel 1946",
+      "Nel 1935",
+      "Nel 1943"
+     ],
+     "e": "Il capolavoro La luna e i falò è del 1950."
+    },
+    {
+     "p": "Chi è Anguilla?",
+     "a": "Un orfano che torna nelle Langhe dopo aver fatto fortuna in America",
+     "w": [
+      "Un professore torinese",
+      "Un giovane partigiano",
+      "Un militante comunista"
+     ],
+     "e": "Il romanzo narra di Anguilla, un orfano che torna nelle Langhe dopo aver fatto fortuna in America."
+    },
+    {
+     "p": "Quali sono i tre piani temporali del romanzo?",
+     "a": "Il presente del ritorno, l'infanzia e gli anni in America",
+     "w": [
+      "Il Medioevo, il Risorgimento e il Novecento",
+      "La guerra, il confino e il dopoguerra",
+      "Il passato, il futuro e il sogno"
+     ],
+     "e": "La narrazione intreccia il presente del ritorno, il passato lontano dell'infanzia e gli anni intermedi trascorsi in America."
+    },
+    {
+     "p": "Che cosa scopre il protagonista al ritorno?",
+     "a": "Che il passato è distrutto e i vecchi amici sono morti per la guerra",
+     "w": [
+      "Che il paese è diventato ricco",
+      "Che la sua famiglia lo aspetta",
+      "Che nulla è cambiato"
+     ],
+     "e": "Il protagonista scopre che il passato è andato distrutto e che i vecchi amici sono morti a causa dei conflitti della guerra."
+    },
+    {
+     "p": "Con quale immagine si chiude il romanzo?",
+     "a": "Il rogo del corpo di Santa, una giovane spia giustiziata",
+     "w": [
+      "La partenza per l'America",
+      "Una festa di paese",
+      "Il matrimonio di Anguilla"
+     ],
+     "e": "Il romanzo si chiude con il rogo del corpo di Santa: il fuoco storico si fonde con l'antico rito mitico della terra."
+    }
+   ]
+  }
+ }
+}
