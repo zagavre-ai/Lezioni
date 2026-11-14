@@ -1,0 +1,316 @@
+{
+ "materia": "Letteratura italiana (V)",
+ "titolo": "Gabriele d'Annunzio",
+ "durata_s": 4014.0,
+ "argomenti": [
+  {
+   "n": 1,
+   "titolo": "L'esteta e il superuomo",
+   "inizio_s": 204.315,
+   "quiz_s": 1433.747
+  },
+  {
+   "n": 2,
+   "titolo": "Mercato, pubblico e politica",
+   "inizio_s": 1439.047,
+   "quiz_s": 2259.081
+  },
+  {
+   "n": 3,
+   "titolo": "I romanzi e il teatro",
+   "inizio_s": 2264.381,
+   "quiz_s": 2821.214
+  },
+  {
+   "n": 4,
+   "titolo": "Le Laudi e Alcyone",
+   "inizio_s": 2826.514,
+   "quiz_s": 3728.914
+  },
+  {
+   "n": 5,
+   "titolo": "Il periodo notturno",
+   "inizio_s": 3734.214,
+   "quiz_s": 3902.848
+  }
+ ],
+ "quiz": {
+  "Q1": {
+   "title": "Quiz 1 · L'esteta e il superuomo",
+   "items": [
+    {
+     "p": "Qual è il principio cardine della vita di d'Annunzio?",
+     "a": "Trasformare l'esistenza stessa in un'opera d'arte",
+     "w": [
+      "Vivere lontano dal pubblico e dalla mondanità",
+      "Mettere la letteratura al servizio della scienza",
+      "Descrivere la realtà in modo oggettivo e impersonale"
+     ],
+     "e": "la vita di d'Annunzio è concepita come la sua opera più interessante."
+    },
+    {
+     "p": "Con quale raccolta poetica esordisce d'Annunzio nel 1879?",
+     "a": "Primo vere",
+     "w": [
+      "Alcyone",
+      "Terra vergine",
+      "Il Libro segreto"
+     ],
+     "e": "esordisce precocissimo, ancora studente al collegio Cicognini di Prato, con Primo vere."
+    },
+    {
+     "p": "Che cosa fa d'Annunzio dopo il trasferimento a Roma nel 1881?",
+     "a": "Abbandona presto l'università e lavora nella cronaca mondana dei giornali",
+     "w": [
+      "Si laurea in Lettere e diventa professore",
+      "Entra subito in Parlamento come deputato",
+      "Si ritira in una villa sul lago di Garda"
+     ],
+     "e": "si immerge nei salotti mondani e nelle redazioni giornalistiche."
+    },
+    {
+     "p": "Che cosa diventa il superuomo dannunziano rispetto all'estetismo?",
+     "a": "Non più solo culto della bellezza, ma energia eroica e attiva",
+     "w": [
+      "Un ritorno alla morale borghese",
+      "Una forma di rinuncia e di pietà cristiana",
+      "Un modo per rifiutare ogni azione politica"
+     ],
+     "e": "dopo la crisi della fase estetizzante, negli anni novanta il mito del superuomo esalta l'energia e l'azione."
+    },
+    {
+     "p": "Dove d'Annunzio conduce una vita da «principe rinascimentale»?",
+     "a": "Nella villa della Capponcina, a Fiesole",
+     "w": [
+      "Nel collegio Cicognini, a Prato",
+      "Nella redazione di un giornale romano",
+      "Nella città di Fiume"
+     ],
+     "e": "è l'esempio del «vivere inimitabile», una vita eccezionale fuori dalle regole comuni."
+    }
+   ]
+  },
+  "Q2": {
+   "title": "Quiz 2 · Mercato, pubblico e politica",
+   "items": [
+    {
+     "p": "Perché d'Annunzio usa le sue esibizioni clamorose e gli scandali?",
+     "a": "Per mettersi in primo piano e vendere la propria immagine e i propri libri",
+     "w": [
+      "Per allontanare il pubblico borghese",
+      "Per protestare contro l'editoria",
+      "Per nascondere la propria vita privata"
+     ],
+     "e": "gli scandali sono una strategia commerciale."
+    },
+    {
+     "p": "Qual è la contraddizione di fondo nel rapporto con il mercato?",
+     "a": "Il culto della bellezza finisce per servire il denaro e il successo, che diceva di disprezzare",
+     "w": [
+      "Disprezza il denaro e infatti vive in povertà",
+      "Scrive solo per pochi amici e rifiuta di pubblicare",
+      "Ama la vita borghese ma la critica nei libri"
+     ],
+     "e": "la vita dispendiosa e i debiti lo legano alle esigenze commerciali del suo tempo."
+    },
+    {
+     "p": "Che cosa accade nel 1900 nella carriera politica di d'Annunzio?",
+     "a": "Passa clamorosamente dalla Destra alla Sinistra",
+     "w": [
+      "Viene eletto per la prima volta deputato della Destra",
+      "Occupa la città di Fiume",
+      "Si ritira al Vittoriale"
+     ],
+     "e": "eletto deputato della Destra nel 1897, nel 1900 passa allo schieramento di Sinistra."
+    },
+    {
+     "p": "Quali imprese compie d'Annunzio nella prima guerra mondiale?",
+     "a": "La beffa di Buccari e il volo su Vienna",
+     "w": [
+      "L'occupazione di Roma e la marcia su Milano",
+      "La difesa di Venezia e la presa di Trieste",
+      "La spedizione dei Mille e la presa di Palermo"
+     ],
+     "e": "si arruola volontario a cinquantadue anni."
+    },
+    {
+     "p": "Che cosa fa d'Annunzio nel settembre 1919?",
+     "a": "Guida una spedizione di volontari che occupa la città di Fiume",
+     "w": [
+      "Si arruola come volontario",
+      "Viene eletto deputato",
+      "Si trasferisce a Roma per l'università"
+     ],
+     "e": "protesta contro la «vittoria mutilata» e tiene Fiume fino al Natale del 1920."
+    }
+   ]
+  },
+  "Q3": {
+   "title": "Quiz 3 · I romanzi e il teatro",
+   "items": [
+    {
+     "p": "Qual è la prima opera narrativa di d'Annunzio?",
+     "a": "La raccolta di novelle Terra vergine (1882)",
+     "w": [
+      "Il romanzo Il piacere (1889)",
+      "Il romanzo Il fuoco (1900)",
+      "Il Notturno (1916)"
+     ],
+     "e": "Terra vergine è seguita dal modello del romanzo, Il piacere."
+    },
+    {
+     "p": "Tra quali figure femminili è diviso Andrea Sperelli nel Piacere?",
+     "a": "La donna fatale Elena Muti e la donna pura Maria Ferres",
+     "w": [
+      "Eleonora Duse ed Elena Muti",
+      "Maria Ferres e la figlia di Iorio",
+      "Due attrici di teatro"
+     ],
+     "e": "il romanzo mette in scena il fallimento del progetto estetico."
+    },
+    {
+     "p": "Perché Il piacere è un romanzo psicologico?",
+     "a": "Scava nella coscienza e segue il punto di vista del protagonista",
+     "w": [
+      "Descrive con precisione quadri di costume sociale",
+      "Racconta la vita dei contadini in modo oggettivo",
+      "È scritto come un diario di guerra"
+     ],
+     "e": "elimina i residui naturalistici e i quadri di costume."
+    },
+    {
+     "p": "Quale di questi è un romanzo del superuomo?",
+     "a": "Le vergini delle rocce",
+     "w": [
+      "Terra vergine",
+      "Primo vere",
+      "Contemplazione della morte"
+     ],
+     "e": "con Il trionfo della morte e Il fuoco esalta lo spirito dionisiaco e la volontà di potenza."
+    },
+    {
+     "p": "Che cos'è il «teatro di poesia» di d'Annunzio?",
+     "a": "Un teatro che rifiuta il realismo borghese, con personaggi d'eccezione e trame simboliche",
+     "w": [
+      "Un teatro domestico che racconta la vita di tutti i giorni",
+      "Un teatro comico in dialetto abruzzese",
+      "Un teatro di sole letture di poesie"
+     ],
+     "e": "inizia nel 1896 con La città morta; ne è esempio La figlia di Iorio (1904)."
+    }
+   ]
+  },
+  "Q4": {
+   "title": "Quiz 4 · Le Laudi e Alcyone",
+   "items": [
+    {
+     "p": "Che cosa celebrano le Laudi?",
+     "a": "La natura e i miti della modernità, come le macchine e le metropoli",
+     "w": [
+      "Soltanto la vita religiosa medievale",
+      "La vita dei contadini abruzzesi",
+      "Le vittorie della prima guerra mondiale"
+     ],
+     "e": "sono un ciclo di testi poetici di celebrazione totale."
+    },
+    {
+     "p": "Come è strutturato Alcyone?",
+     "a": "Come il diario ideale di una vacanza estiva",
+     "w": [
+      "Come una raccolta di novelle",
+      "Come un romanzo psicologico",
+      "Come una tragedia in cinque atti"
+     ],
+     "e": "è il terzo libro delle Laudi (1903) e il vertice della poesia dannunziana."
+    },
+    {
+     "p": "Che cos'è il panismo?",
+     "a": "La fusione dell'uomo con la natura, fino a farsi divino",
+     "w": [
+      "Il rifiuto della natura in nome della città",
+      "La paura della natura selvaggia",
+      "Lo studio scientifico delle piante"
+     ],
+     "e": "l'identità umana si dissolve negli elementi naturali."
+    },
+    {
+     "p": "Quali testi di Alcyone sono stati letti nella lezione?",
+     "a": "La sera fiesolana e La pioggia nel pineto",
+     "w": [
+      "Primo vere e Terra vergine",
+      "Il piacere e Il fuoco",
+      "La città morta e La figlia di Iorio"
+     ],
+     "e": "sono i testi antologici T6 e T7."
+    },
+    {
+     "p": "Che cosa caratterizza la poesia di Alcyone?",
+     "a": "Una musicalità raffinata e la parola come pura suggestione",
+     "w": [
+      "Un linguaggio tecnico e scientifico",
+      "Uno stile secco, con frasi senza verbi",
+      "Il dialetto abruzzese"
+     ],
+     "e": "la parola vale per il suono e per ciò che evoca."
+    }
+   ]
+  },
+  "Q5": {
+   "title": "Quiz 5 · Il periodo notturno",
+   "items": [
+    {
+     "p": "Che tipo di prosa sceglie d'Annunzio dopo il 1910?",
+     "a": "Una prosa lirica e frammentaria, legata alla memoria",
+     "w": [
+      "Il grande romanzo naturalista",
+      "La cronaca mondana dei giornali",
+      "Il teatro di poesia"
+     ],
+     "e": "abbandona la struttura romanzesca."
+    },
+    {
+     "p": "In che condizioni è scritto il Notturno (1916)?",
+     "a": "Al buio, per un trauma agli occhi dopo un incidente di volo",
+     "w": [
+      "In trincea, durante una battaglia",
+      "In carcere, dopo l'impresa di Fiume",
+      "In viaggio, durante una vacanza estiva"
+     ],
+     "e": "lo scrive su sottili strisce di carta."
+    },
+    {
+     "p": "Come è lo stile del periodo notturno?",
+     "a": "Agile, secco e nervoso, con periodi brevissimi spesso senza verbi",
+     "w": [
+      "Sontuoso e ricco di termini rari",
+      "Lento, con lunghi periodi complessi",
+      "Realistico, con quadri di costume"
+     ],
+     "e": "è una sorta di «flusso di coscienza»."
+    },
+    {
+     "p": "Su che cosa si concentra il Notturno?",
+     "a": "Sui sensi e sull'interiorità",
+     "w": [
+      "Sulle battaglie e sulle imprese militari",
+      "Sulla vita mondana di Roma",
+      "Sulla politica del Parlamento"
+     ],
+     "e": "è un'esplorazione dei sensi e dell'interiorità."
+    },
+    {
+     "p": "Quale di queste opere appartiene al filone notturno?",
+     "a": "Il Libro segreto (1935)",
+     "w": [
+      "Il piacere (1889)",
+      "Alcyone (1903)",
+      "La figlia di Iorio (1904)"
+     ],
+     "e": "con Contemplazione della morte e Le faville del maglio, ha un registro più misurato."
+    }
+   ]
+  }
+ },
+ "t_verifica": 3982.983,
+ "t_compiti": 4007.703
+}
