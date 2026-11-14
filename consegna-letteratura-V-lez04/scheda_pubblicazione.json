@@ -1,0 +1,253 @@
+{
+ "materia": "Letteratura italiana (V)",
+ "titolo": "Naturalismo e Verismo · Parte 1",
+ "durata_s": 2273.7,
+ "argomenti": [
+  {
+   "n": 1,
+   "titolo": "Le basi del Naturalismo francese",
+   "inizio_s": 50.167,
+   "quiz_s": 578.633
+  },
+  {
+   "n": 2,
+   "titolo": "Émile Zola e il romanzo sperimentale",
+   "inizio_s": 583.633,
+   "quiz_s": 1105.1
+  },
+  {
+   "n": 3,
+   "titolo": "Il Verismo in Italia",
+   "inizio_s": 1110.1,
+   "quiz_s": 1812.4
+  },
+  {
+   "n": 4,
+   "titolo": "Flaubert e Madame Bovary",
+   "inizio_s": 1817.4,
+   "quiz_s": 2173.633
+  }
+ ],
+ "quiz": {
+  "Q1": {
+   "title": "Quiz 1 · Le basi del Naturalismo francese",
+   "items": [
+    {
+     "p": "Dove e quando nasce il Naturalismo?",
+     "a": "In Francia, nella seconda metà dell'Ottocento",
+     "w": [
+      "In Italia, all'inizio dell'Ottocento",
+      "In Inghilterra, nel Settecento",
+      "In Germania, all'inizio del Novecento"
+     ],
+     "e": "Il Naturalismo nasce in Francia nella seconda metà dell'Ottocento."
+    },
+    {
+     "p": "Quale corrente filosofica influenza il Naturalismo?",
+     "a": "Il Positivismo",
+     "w": [
+      "Il Romanticismo",
+      "L'Illuminismo",
+      "Lo spiritualismo"
+     ],
+     "e": "Il Positivismo ha fiducia nella scienza come strumento di progresso: il Naturalismo nasce sotto la sua influenza."
+    },
+    {
+     "p": "Secondo il filosofo Hippolyte Taine, quali tre fattori determinano le manifestazioni dello spirito umano?",
+     "a": "L'ereditarietà biologica, l'ambiente sociale e il momento storico",
+     "w": [
+      "La fede, la famiglia e la patria",
+      "Il talento, la fortuna e la volontà",
+      "L'istruzione, la ricchezza e la salute"
+     ],
+     "e": "Per Taine contano la razza (ereditarietà biologica), l'ambiente sociale e il momento storico."
+    },
+    {
+     "p": "Come racconta la realtà il narratore naturalista?",
+     "a": "In modo impersonale e obiettivo, senza esprimere giudizi",
+     "w": [
+      "Commentando e giudicando i personaggi",
+      "Inventando luoghi e fatti fantastici",
+      "Parlando soprattutto di sé stesso"
+     ],
+     "e": "Lo scrittore naturalista non glorifica e non distrugge: racconta la realtà in modo obiettivo."
+    },
+    {
+     "p": "Chi sono considerati i precursori del Naturalismo?",
+     "a": "Honoré de Balzac e Gustave Flaubert",
+     "w": [
+      "Émile Zola e Guy de Maupassant",
+      "Giovanni Verga e Luigi Capuana",
+      "Matilde Serao e Sibilla Aleramo"
+     ],
+     "e": "Balzac e Flaubert sono realisti: anticipano il Naturalismo, ma non sono ancora veri naturalisti."
+    }
+   ]
+  },
+  "Q2": {
+   "title": "Quiz 2 · Émile Zola e il romanzo sperimentale",
+   "items": [
+    {
+     "p": "In quale saggio Zola teorizza il Naturalismo?",
+     "a": "Il romanzo sperimentale (1880)",
+     "w": [
+      "Le serate di Médan",
+      "Per l'arte",
+      "Il ventre di Napoli"
+     ],
+     "e": "Nel saggio Il romanzo sperimentale, del 1880, Zola teorizza il movimento."
+    },
+    {
+     "p": "A chi paragona lo scrittore Zola?",
+     "a": "A uno scienziato",
+     "w": [
+      "A un poeta ispirato",
+      "A un giudice",
+      "A un sacerdote"
+     ],
+     "e": "Per Zola lo scrittore è come uno scienziato e il romanzo è come la relazione di un esperimento."
+    },
+    {
+     "p": "Che cosa deve dimostrare il romanzo, secondo Zola?",
+     "a": "Le leggi dell'ereditarietà e dell'influenza dell'ambiente sui comportamenti umani",
+     "w": [
+      "La bontà naturale di tutti gli uomini",
+      "L'esistenza di un destino deciso da Dio",
+      "La superiorità della fantasia sulla realtà"
+     ],
+     "e": "Il romanzo funziona come un esperimento scientifico, volto a dimostrare le leggi dell'ereditarietà e dell'ambiente."
+    },
+    {
+     "p": "Quanti romanzi compongono il ciclo dei Rougon-Macquart, e in quale periodo è ambientato?",
+     "a": "Venti romanzi, sotto il Secondo Impero francese",
+     "w": [
+      "Cinque romanzi, durante la Rivoluzione francese",
+      "Dieci romanzi, nell'età di Luigi XIV",
+      "Quaranta romanzi, durante la Prima guerra mondiale"
+     ],
+     "e": "Il ciclo conta venti romanzi e traccia la storia naturale e sociale di una famiglia sotto il Secondo Impero (1852-1870)."
+    },
+    {
+     "p": "Verso che cosa si orienta Zola negli ultimi anni?",
+     "a": "Verso un messianismo umanitario, con i cicli delle Tre città e dei Quattro Vangeli",
+     "w": [
+      "Verso la poesia simbolista",
+      "Verso il teatro comico",
+      "Verso il romanzo storico romantico"
+     ],
+     "e": "Negli ultimi anni Zola si allontana dai canoni naturalisti e si orienta verso un messianismo umanitario."
+    }
+   ]
+  },
+  "Q3": {
+   "title": "Quiz 3 · Il Verismo in Italia",
+   "items": [
+    {
+     "p": "Qual è il limite della prima diffusione di Zola negli ambienti milanesi di sinistra?",
+     "a": "Non elaborano una teoria artistica organica: si limitano alla protesta sociale o a effetti scandalistici",
+     "w": [
+      "Rifiutano del tutto l'opera di Zola",
+      "Si occupano soltanto di poesia",
+      "Scrivono soltanto in dialetto milanese"
+     ],
+     "e": "La sinistra milanese non riesce a elaborare una teoria artistica organica."
+    },
+    {
+     "p": "A chi si deve la vera svolta del Verismo italiano?",
+     "a": "A Luigi Capuana e Giovanni Verga, intellettuali siciliani e conservatori",
+     "w": [
+      "A Matilde Serao e Sibilla Aleramo",
+      "Agli intellettuali milanesi di sinistra",
+      "Ai fratelli Goncourt"
+     ],
+     "e": "La rielaborazione del modello francese si deve a due intellettuali meridionali e conservatori: Capuana e Verga."
+    },
+    {
+     "p": "Che cosa rifiutano Capuana e Verga del modello di Zola?",
+     "a": "La subordinazione della letteratura a scopi scientifici, politici o sociali",
+     "w": [
+      "Il principio dell'impersonalità",
+      "Il racconto della realtà contemporanea",
+      "La forma del romanzo e della novella"
+     ],
+     "e": "Per loro la scientificità sta solo nella tecnica di rappresentazione: la letteratura non è al servizio di scienza o politica."
+    },
+    {
+     "p": "Quali temi rappresenta il Verismo?",
+     "a": "Le miserie delle classi umili, il colore locale e le realtà regionali",
+     "w": [
+      "La vita di corte e le feste dei nobili",
+      "Le avventure in paesi lontani ed esotici",
+      "I miti e gli dèi dell'antichità classica"
+     ],
+     "e": "Il Verismo rappresenta le miserie delle classi più umili, il colore locale e le realtà regionali."
+    },
+    {
+     "p": "Come cambia Luigi Capuana a fine secolo?",
+     "a": "Si allontana dal Positivismo e si avvicina al clima spiritualista e antipositivista",
+     "w": [
+      "Diventa il capo della sinistra milanese",
+      "Si trasferisce a Parigi e lavora con Zola",
+      "Abbandona la letteratura per la politica"
+     ],
+     "e": "Con il volume Per l'arte (1885) rivendica l'autonomia dell'arte dalla scienza; poi subisce il nuovo clima spiritualista, come mostra Il marchese di Roccaverdina (1901)."
+    }
+   ]
+  },
+  "Q4": {
+   "title": "Quiz 4 · Flaubert e Madame Bovary",
+   "items": [
+    {
+     "p": "In che anno esce Madame Bovary?",
+     "a": "Nel 1857",
+     "w": [
+      "Nel 1880",
+      "Nel 1906",
+      "Nel 1830"
+     ],
+     "e": "Madame Bovary di Gustave Flaubert è del 1857."
+    },
+    {
+     "p": "Chi è Emma Bovary?",
+     "a": "La moglie di un medico di provincia, annoiata, che sogna la vita dei romanzi romantici",
+     "w": [
+      "Una contadina siciliana che lavora la terra",
+      "Un'operaia parigina rovinata dall'alcol",
+      "Una nobile della corte di Napoleone III"
+     ],
+     "e": "Emma è vittima di una frustrazione esistenziale: intrappolata nella provincia, sogna una vita romantica irrealizzabile."
+    },
+    {
+     "p": "Che cos'è il discorso indiretto libero?",
+     "a": "Riferisce i pensieri del personaggio senza verbi dichiarativi, fondendo la sua voce con quella del narratore",
+     "w": [
+      "Un dialogo tra virgolette, preceduto dai due punti",
+      "Il commento morale del narratore onnisciente",
+      "Una lettera scritta da un personaggio a un altro"
+     ],
+     "e": "Riporta pensieri e modo di esprimersi del personaggio senza «disse che» e senza i due punti."
+    },
+    {
+     "p": "Come si comporta la voce narrante in Madame Bovary?",
+     "a": "Non esprime giudizi e filtra la realtà attraverso la coscienza dei personaggi",
+     "w": [
+      "Giudica severamente Emma in ogni capitolo",
+      "Racconta in prima persona la vita dell'autore",
+      "Interrompe il racconto per spiegare la morale"
+     ],
+     "e": "Flaubert introduce l'impersonalità oggettiva e la focalizzazione interna."
+    },
+    {
+     "p": "Che cosa cambiano i veristi italiani rispetto a Flaubert?",
+     "a": "Raccontano le classi popolari, come i contadini in Verga, invece della borghesia",
+     "w": [
+      "Raccontano soltanto la vita dei nobili",
+      "Tornano al narratore che giudica e commenta",
+      "Scrivono soltanto poesie in metrica classica"
+     ],
+     "e": "Flaubert racconta la borghesia di provincia; i veristi spostano l'interesse verso le classi popolari."
+    }
+   ]
+  }
+ }
+}

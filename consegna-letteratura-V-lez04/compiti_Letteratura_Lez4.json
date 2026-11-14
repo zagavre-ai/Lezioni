@@ -1,0 +1,44 @@
+{
+ "titolo": "Compiti · Naturalismo e Verismo",
+ "stato": "approvati per delega alla master (Sara, 13/11); dal materiale del docente",
+ "esercizi": [
+  {
+   "n": 1,
+   "tipo": "vero_falso",
+   "testo": "Il Verismo italiano è una scuola organizzata con un programma comune, come il Naturalismo francese.",
+   "soluzione": "F"
+  },
+  {
+   "n": 2,
+   "tipo": "vero_falso",
+   "testo": "Per Capuana e Verga l'impersonalità è l'«eclisse» dell'autore: scompare il narratore che giudica e commenta.",
+   "soluzione": "V"
+  },
+  {
+   "n": 3,
+   "tipo": "completamento",
+   "testo": "Nel saggio Il romanzo sperimentale (____) Émile Zola paragona lo scrittore a uno ____.",
+   "soluzione": [
+    "1880",
+    "scienziato"
+   ]
+  },
+  {
+   "n": 4,
+   "tipo": "scelta_multipla",
+   "testo": "Quale romanzo di Luigi Capuana, del 1879, analizza un caso psicopatologico?",
+   "opzioni": [
+    "Giacinta",
+    "Una donna",
+    "L'Assommoir",
+    "Madame Bovary"
+   ],
+   "soluzione": "Giacinta"
+  },
+  {
+   "n": 5,
+   "tipo": "aperta",
+   "testo": "In 5-8 righe spiega che cosa hanno in comune e in che cosa sono diversi il Naturalismo di Zola e il Verismo di Capuana e Verga (ruolo della scienza, tecnica narrativa, ambienti raccontati)."
+  }
+ ]
+}
