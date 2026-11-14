@@ -1,0 +1,102 @@
+[
+ {
+  "nome": "L6_BEN",
+  "testo": "Benvenuta, benvenuto. In questa lezione parliamo di nobilitazione: dai pretrattamenti alla tintura, fino alla stampa dei tessuti. Alla fine di ogni argomento trovi un breve quiz.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_M1",
+  "testo": "Mappa dell'argomento: pretrattamenti e ausiliari. Il tessuto greggio ha bisogno di nobilitazione. Prima della tintura, la purga elimina le impurità. Poi il candeggio dà un bianco puro, la mercerizzazione migliora stabilità e lucentezza, il bruciapelo toglie la peluria. Gli ausiliari, come i mordenzanti, agevolano tutti i processi.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_R1",
+  "testo": "Ricapitoliamo. Il tessuto greggio viene preparato con la purga, il candeggio, la mercerizzazione e il bruciapelo. Gli ausiliari sono prodotti chimici che agevolano i processi, e i mordenzanti preparano la fibra al colore.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_M2",
+  "testo": "Mappa dell'argomento: la tintura. Si fa per immersione in un bagno di acqua e colore. Occorre controllare le singole partite. Si può tingere in fibra, in nastro, in pasta, in filato, in pezza o in capo. La tintura incrociata sfrutta l'affinità diversa delle fibre.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_R2",
+  "testo": "Ricapitoliamo. La tintura avviene per immersione in un bagno di acqua e colore, e può essere fatta in diversi momenti del ciclo: in fibra, in filato, in pezza, in capo. La tintura in pezza è la più economica e flessibile.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_M3",
+  "testo": "Mappa dell'argomento: i coloranti. I coloranti naturali sono di origine vegetale o animale. La vera tintura biologica usa prodotti biodegradabili e sicuri. I sintetici nascono nel milleottocentocinquantasei con Perkin. Costano meno e durano di più, ma hanno criticità per la salute e per l'ambiente.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_R3",
+  "testo": "Ricapitoliamo. I coloranti naturali vengono da piante, insetti e molluschi, ma richiedono spesso mordenzanti nocivi. I sintetici, nati nel milleottocentocinquantasei, costano meno e durano di più, ma pongono problemi di salute e di ambiente.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_M4",
+  "testo": "Mappa dell'argomento: proprietà e classi dei coloranti. Le proprietà sono affinità, potere coprente, potere migratorio e solidità. Le classi sono basici, acidi, diretti, reattivi, al tino, dispersi e a pigmento. In laboratorio, colorimetro e spettrofotometro formulano le ricette.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_R4",
+  "testo": "Ricapitoliamo. Un colorante si valuta per affinità, potere coprente, potere migratorio e solidità. Le classi dipendono dalla fibra: per esempio, i dispersi tingono il poliestere e i reattivi le fibre cellulosiche.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_M5",
+  "testo": "Mappa dell'argomento: macchine di tintura e finissaggio. Per fibre e filati ci sono le autoclavi e le macchine per matasse. Per i capi, le macchine rotative. Per le pezze, la tintura in corda con jet e overflow e quella in largo con jitter e foulard. Alla fine, vaporissaggio, lavaggio, asciugatura e arrotolatura.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_R5",
+  "testo": "Ricapitoliamo. La macchina dipende dallo stato del materiale: autoclavi per rocche e subbi, macchine rotative per i capi, jet e overflow per la corda, jitter e foulard per il largo. Dopo la tintura: vaporissaggio, lavaggio, asciugatura e arrotolatura.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_M6",
+  "testo": "Mappa dell'argomento: la stampa. Riporta un disegno su parti specifiche del tessuto. Usa una pasta da stampa con coloranti e ausiliari. Il disegno si ripete secondo il rapporto di stampa e va messo a registro. I sistemi sono la stampa diretta, la corrosione e la riserva.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_R6",
+  "testo": "Ricapitoliamo. La stampa colora solo alcune parti del tessuto, usando una pasta da stampa. Il disegno va messo a registro. I sistemi principali sono la stampa diretta, a corrosione e a riserva, e poi ci sono le stampe particolari come devoré e transfert.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_M7",
+  "testo": "Mappa dell'argomento: le tecnologie di stampa. Le tecniche artigianali sono la stampa a mano e il batik. La stampa a quadro, o serigrafica, usa quadri e racle. La stampa a cilindro è un processo continuo e veloce. La stampa digitale proietta gocce di inchiostro, ed è ideale per piccoli lotti.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_R7",
+  "testo": "Ricapitoliamo. La stampa a quadro è adatta a tessuti di pregio e campionature. La stampa a cilindro è continua e veloce. La stampa digitale elimina i costi di quadri e cilindri, ma è limitata a campionari e piccoli lotti.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_MF",
+  "testo": "Mappa finale della lezione. La nobilitazione prepara e valorizza il tessuto greggio. Si parte dai pretrattamenti, si passa alla tintura con i suoi coloranti e le sue macchine, e si arriva alla stampa e alle sue tecnologie.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_GL",
+  "testo": "Glossario. Purga: lavaggio che elimina le impurità. Mordenzante: prodotto che prepara la fibra alla tintura. Affinità: spontaneità con cui il colorante si fissa sulla fibra. Solidità: resistenza del colore ai trattamenti. Vaporissaggio: calore e umidità che fissano il colore. Rapporto di stampa: spazio occupato dal disegno che si ripete.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_RFIN",
+  "testo": "Ripasso finale. La nobilitazione dà valore al tessuto greggio. I pretrattamenti lo preparano, la tintura lo colora per immersione, la stampa riporta un disegno su parti specifiche. La scelta di coloranti, macchine e tecnologie dipende dalla fibra, dal costo e dall'impatto ambientale.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_VER",
+  "testo": "Verifica finale.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_COMP",
+  "testo": "Ed ora i compiti.",
+  "lingua": "it"
+ }
+]
