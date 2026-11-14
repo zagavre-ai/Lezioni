@@ -2,9 +2,380 @@
  "tag": "letteratura-V-lez12",
  "parti": {
   "1": {
-   "stato": "IN_MONTAGGIO",
-   "voci": "segnaposto",
-   "titolo": "Narrativa e saggistica del primo Novecento"
+   "stato": "PRONTA",
+   "voci": "kore",
+   "titolo": "Narrativa e saggistica del primo Novecento",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "si",
+   "video": "Letteratura_Lez12_Parte1_1080p.mp4",
+   "durata_s": 1701.6,
+   "durata": "28:21.6",
+   "fotogrammi": 51048,
+   "fotogrammi_attesi": 51048,
+   "peso_MB": 128.0,
+   "vtt": "Letteratura_Lez12_Parte1.vtt",
+   "scheda": {
+    "materia": "Letteratura italiana (V)",
+    "titolo": "Narrativa e saggistica del primo Novecento · Parte 1",
+    "durata_s": 1701.6,
+    "argomenti": [
+     {
+      "n": 1,
+      "titolo": "La crisi delle certezze",
+      "inizio_s": 143.233,
+      "quiz_s": 344.5
+     },
+     {
+      "n": 2,
+      "titolo": "Il romanzo del primo Novecento",
+      "inizio_s": 349.8,
+      "quiz_s": 549.733
+     },
+     {
+      "n": 3,
+      "titolo": "Marcel Proust e la memoria",
+      "inizio_s": 555.033,
+      "quiz_s": 773.2
+     },
+     {
+      "n": 4,
+      "titolo": "Franz Kafka e l'assurdo",
+      "inizio_s": 778.5,
+      "quiz_s": 1161.899
+     },
+     {
+      "n": 5,
+      "titolo": "Virginia Woolf",
+      "inizio_s": 1167.199,
+      "quiz_s": 1546.366
+     }
+    ],
+    "quiz": {
+     "Q1": {
+      "title": "Quiz 1 · La crisi delle certezze",
+      "items": [
+       {
+        "p": "Quale mentalità entra in crisi alla fine dell'Ottocento?",
+        "a": "La mentalità positivistica",
+        "w": [
+         "La mentalità romantica",
+         "La mentalità illuminista",
+         "La mentalità religiosa medievale"
+        ],
+        "e": "A fine Ottocento la mentalità positivistica entra in crisi per nuove teorie irrazionalistiche e scientifiche."
+       },
+       {
+        "p": "Che cosa critica Friedrich Nietzsche?",
+        "a": "La morale tradizionale",
+        "w": [
+         "La teoria della relatività",
+         "La psicanalisi",
+         "Il flusso di coscienza"
+        ],
+        "e": "Nietzsche critica la morale tradizionale ed esalta gli aspetti istintuali dell'esistenza."
+       },
+       {
+        "p": "Come vede il tempo Henri Bergson con il concetto di «durata»?",
+        "a": "Come una dimensione soggettiva in cui passato, presente e futuro si fondono",
+        "w": [
+         "Come una serie di istanti misurabili e separati",
+         "Come un ciclo che si ripete sempre uguale",
+         "Come una grandezza assoluta e oggettiva"
+        ],
+        "e": "Bergson introduce la durata: il tempo come dimensione soggettiva dove passato, presente e futuro si fondono."
+       },
+       {
+        "p": "Con quale disciplina Freud mostra il ruolo dell'inconscio?",
+        "a": "La psicanalisi",
+        "w": [
+         "La sociologia",
+         "La fisica",
+         "La linguistica"
+        ],
+        "e": "Con la psicanalisi Freud dimostra che le vere motivazioni umane risiedono nell'inconscio e nelle pulsioni."
+       },
+       {
+        "p": "Che cosa mette in discussione la teoria della relatività di Einstein?",
+        "a": "I concetti assoluti di spazio e tempo",
+        "w": [
+         "L'esistenza dell'inconscio",
+         "La morale borghese",
+         "Il valore della memoria"
+        ],
+        "e": "Einstein con la relatività scardina i concetti assoluti di spazio e tempo."
+       }
+      ]
+     },
+     "Q2": {
+      "title": "Quiz 2 · Il romanzo del primo Novecento",
+      "items": [
+       {
+        "p": "Che cosa spinge gli scrittori del primo Novecento a sperimentare?",
+        "a": "Le nuove teorie e le avanguardie storiche",
+        "w": [
+         "Il ritorno ai modelli classici",
+         "Le richieste della Chiesa",
+         "La censura dei governi"
+        ],
+        "e": "L'influenza delle nuove teorie e delle avanguardie spinge a soluzioni inedite nel linguaggio e nelle strutture narrative."
+       },
+       {
+        "p": "Quale figura sostituisce l'eroe intraprendente dell'Ottocento?",
+        "a": "L'inetto, l'uomo alienato",
+        "w": [
+         "Il cavaliere medievale",
+         "Lo scienziato positivista",
+         "Il conquistatore coloniale"
+        ],
+        "e": "Si passa dai protagonisti eroici o intraprendenti alla figura dell'inetto e dell'uomo alienato."
+       },
+       {
+        "p": "Com'è spesso l'inetto?",
+        "a": "Un intellettuale o un artista incapace di integrarsi nella società",
+        "w": [
+         "Un imprenditore di successo",
+         "Un soldato coraggioso",
+         "Un politico molto popolare"
+        ],
+        "e": "L'inetto è spesso un intellettuale o un artista, dominato da un senso di disagio esistenziale."
+       },
+       {
+        "p": "Come diventa il tempo nel romanzo novecentesco?",
+        "a": "Interiore, frammentato nei ricordi e nei flussi di coscienza",
+        "w": [
+         "Rigorosamente cronologico",
+         "Scandito da date storiche precise",
+         "Del tutto assente"
+        ],
+        "e": "Il tempo non segue più una successione logico-cronologica, ma diventa interiore e si frammenta."
+       },
+       {
+        "p": "Che cosa diventa lo spazio nel nuovo romanzo?",
+        "a": "Lo specchio degli stati d'animo dei personaggi",
+        "w": [
+         "Una descrizione oggettiva e realistica",
+         "Un elemento senza importanza",
+         "Una mappa geografica precisa"
+        ],
+        "e": "Lo spazio perde l'oggettività realistica e riflette gli stati d'animo dei personaggi."
+       }
+      ]
+     },
+     "Q3": {
+      "title": "Quiz 3 · Marcel Proust e la memoria",
+      "items": [
+       {
+        "p": "Su che cosa si concentra l'opera di Proust?",
+        "a": "Sul recupero di ciò che sembra sottratto dalla memoria",
+        "w": [
+         "Sulla descrizione delle battaglie",
+         "Sulla vita nelle fabbriche",
+         "Sulla critica alla religione"
+        ],
+        "e": "L'opera di Proust si concentra sull'importanza di recuperare ciò che sembra perduto dalla memoria."
+       },
+       {
+        "p": "A che cosa è legata la memoria volontaria?",
+        "a": "All'intelligenza",
+        "w": [
+         "Ai sensi",
+         "Ai sogni",
+         "Al caso"
+        ],
+        "e": "La memoria volontaria è legata all'intelligenza e richiama i ricordi in modo cosciente."
+       },
+       {
+        "p": "Come restituisce i ricordi la memoria volontaria?",
+        "a": "In modo cosciente ma frammentario",
+        "w": [
+         "Nella loro interezza e verità",
+         "In modo inconsapevole e completo",
+         "Solo attraverso i sogni"
+        ],
+        "e": "La memoria volontaria richiama i ricordi in modo cosciente ma frammentario."
+       },
+       {
+        "p": "Da che cosa viene attivata la memoria involontaria?",
+        "a": "Da uno stimolo sensoriale inaspettato",
+        "w": [
+         "Da uno sforzo di volontà",
+         "Dalla lettura di un libro di storia",
+         "Da un ragionamento logico"
+        ],
+        "e": "La memoria involontaria si attiva inaspettatamente grazie a uno stimolo sensoriale."
+       },
+       {
+        "p": "Che cosa restituisce la memoria involontaria?",
+        "a": "Il passato nella sua interezza e verità",
+        "w": [
+         "Solo frammenti confusi",
+         "Previsioni sul futuro",
+         "Ricordi inventati"
+        ],
+        "e": "La memoria involontaria restituisce il passato nella sua interezza e verità."
+       }
+      ]
+     },
+     "Q4": {
+      "title": "Quiz 4 · Franz Kafka e l'assurdo",
+      "items": [
+       {
+        "p": "Come viene presentata la trasformazione in insetto nella Metamorfosi?",
+        "a": "Come un fatto naturale",
+        "w": [
+         "Come un sogno del protagonista",
+         "Come un esperimento scientifico",
+         "Come una punizione divina annunciata"
+        ],
+        "e": "L'evento impossibile viene presentato come un fatto naturale."
+       },
+       {
+        "p": "Da che cosa nasce l'effetto di straniamento?",
+        "a": "Dalla mancanza di stupore del protagonista e dalla mescolanza tra normale e mostruoso",
+        "w": [
+         "Dalla descrizione realistica della città",
+         "Dalla presenza di un narratore che giudica",
+         "Dall'uso di una lingua antica"
+        ],
+        "e": "La mancanza di stupore del protagonista si unisce alla mescolanza tra normale e mostruoso."
+       },
+       {
+        "p": "Che cosa rappresenta la metamorfosi?",
+        "a": "La materializzazione dei sensi di colpa e dell'inettitudine del personaggio",
+        "w": [
+         "Il desiderio di viaggiare",
+         "Il successo nel lavoro",
+         "La forza della famiglia"
+        ],
+        "e": "La metamorfosi rende concreti i sensi di colpa e l'inettitudine del personaggio."
+       },
+       {
+        "p": "Come cambia la famiglia quando il protagonista non può più lavorare?",
+        "a": "Diventa ostile e lo isola nella sua stessa casa",
+        "w": [
+         "Diventa più affettuosa",
+         "Lo porta in ospedale",
+         "Si trasferisce in un'altra città"
+        ],
+        "e": "L'incapacità di lavorare trasforma l'atteggiamento dei familiari in ostilità."
+       },
+       {
+        "p": "Che cosa diventa la camera del protagonista?",
+        "a": "Una prigione e al tempo stesso un rifugio",
+        "w": [
+         "Un laboratorio scientifico",
+         "Un luogo di lavoro",
+         "Una sala per le feste"
+        ],
+        "e": "La camera diventa una prigione e un rifugio dalle responsabilità della vita adulta."
+       }
+      ]
+     },
+     "Q5": {
+      "title": "Quiz 5 · Virginia Woolf",
+      "items": [
+       {
+        "p": "Che cosa accade alla trama nei romanzi principali di Virginia Woolf?",
+        "a": "Quasi scompare, per ricostruire i processi mentali",
+        "w": [
+         "Diventa ricchissima di avventure",
+         "Segue la storia inglese anno per anno",
+         "È affidata a un narratore che giudica"
+        ],
+        "e": "Nei suoi romanzi principali la trama quasi scompare per dare spazio ai processi mentali."
+       },
+       {
+        "p": "Che cosa riproduce la tecnica del flusso di coscienza?",
+        "a": "La serie casuale e disordinata dei pensieri dei personaggi",
+        "w": [
+         "Un dialogo teatrale ordinato",
+         "Le lettere tra due personaggi",
+         "Un elenco di fatti storici"
+        ],
+        "e": "Il flusso di coscienza riproduce pensieri e associazioni mentali casuali e disordinati."
+       },
+       {
+        "p": "Che valore ha la realtà esteriore per Woolf?",
+        "a": "Conta solo come riflesso della coscienza individuale",
+        "w": [
+         "È l'unica cosa che conta",
+         "Va descritta in modo scientifico",
+         "Deve essere ignorata del tutto"
+        ],
+        "e": "La realtà esteriore non ha significato da sola, ma solo come riflesso della coscienza."
+       },
+       {
+        "p": "In Una stanza tutta per sé, qual è la condizione della libertà creativa delle donne?",
+        "a": "L'indipendenza economica",
+        "w": [
+         "Il matrimonio precoce",
+         "L'approvazione della famiglia",
+         "Il permesso della Chiesa"
+        ],
+        "e": "L'autrice individua nell'indipendenza economica la condizione necessaria per la libertà creativa."
+       },
+       {
+        "p": "Su che cosa si fonda, secondo la lezione, la mentalità patriarcale?",
+        "a": "Sul bisogno psicologico maschile di sentirsi superiore",
+        "w": [
+         "Su prove scientifiche",
+         "Su una scelta delle donne",
+         "Sulle leggi dell'età moderna soltanto"
+        ],
+        "e": "La mentalità patriarcale si fonda sul bisogno maschile di sentirsi superiore, considerando l'altro genere inferiore per natura."
+       }
+      ]
+     }
+    }
+   },
+   "timeline": [
+    [
+     "T1",
+     143.233,
+     3.6
+    ],
+    [
+     "Q1",
+     344.5,
+     4.0
+    ],
+    [
+     "T2",
+     349.8,
+     3.6
+    ],
+    [
+     "T3",
+     555.033,
+     3.6
+    ],
+    [
+     "T4",
+     778.5,
+     3.6
+    ],
+    [
+     "T5",
+     1167.199,
+     3.6
+    ],
+    [
+     "GL1",
+     1551.666,
+     58.367
+    ],
+    [
+     "RF1",
+     1611.633,
+     54.367
+    ],
+    [
+     "FIN1",
+     1667.4,
+     8.0
+    ]
+   ]
   }
  },
  "manca": "",
@@ -40,10 +411,14 @@
   {
    "quando": "14/11 04:38",
    "testo": "Chat D2 04:45 UTC: pezzi del docente montati (20:42 misurato), slide e schede in preparazione con voci segnaposto. Dispensa A4 12 pagine, quiz .txt e test .xlsx (10 domande del prof) pronti."
+  },
+  {
+   "quando": "14/11 07:08",
+   "testo": "controllo_finale: ESITO: TUTTO OK"
   }
  ],
  "materia": "Letteratura italiana · V anno",
  "lezione": "Lezione 12",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 04:38:40"
+ "aggiornato": "2026-11-14 07:08:35"
 }
