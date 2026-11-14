@@ -2,7 +2,7 @@
  "tag": "letteratura-V-lez10",
  "parti": {
   "1": {
-   "stato": "IN_MONTAGGIO",
+   "stato": "FERMA",
    "titolo": "Il primo Novecento e la lirica italiana",
    "voci": "kore",
    "quiz_ok": "si",
@@ -312,7 +312,7 @@
    ]
   }
  },
- "manca": "",
+ "manca": "R3: ferma in attesa delle voci Kore nuove (richieste da oltre 70 minuti sul ramo voci). Testi, animazioni e montaggio sono pronti: appena arrivano le voci si rifanno le durate, si codifica e si consegna.",
  "serve_master": [
   {
    "quando": "14/11 04:05",
@@ -341,6 +341,10 @@
   {
    "quando": "14/11 22:24",
    "testo": "Letteratura V · chat R3: IN_MONTAGGIO v2 con approfondimenti animati (oggi 42:36, obiettivo 52-54). Voci Kore nuove richieste sul ramo voci. Durata prevista: stima circa 52 min (Kore 2,24 parole/s misurato). Compiti del prof: assenti nella consegna."
+  },
+  {
+   "quando": "14/11 23:28",
+   "testo": "chat R3: FERMA per voci Kore mancanti. Compiti del prof aggiunti come compiti.json sul ramo consegna."
   }
  ],
  "materia": "Letteratura italiana V",
