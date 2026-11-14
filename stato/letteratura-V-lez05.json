@@ -2,7 +2,9 @@
  "tag": "letteratura-V-lez05",
  "parti": {
   "1": {
-   "stato": "IN_MONTAGGIO"
+   "stato": "IN_CODIFICA",
+   "titolo": "Giovanni Verga",
+   "voci": "kore"
   }
  },
  "manca": "",
@@ -24,10 +26,14 @@
   {
    "quando": "14/11 04:05",
    "testo": "chat B2: docente misurato 48:56; quiz 25 domande (5 argomenti) e 12 testi voci (INTRO, R1-R5, S1-S5, GL, RF, FIN) inviati su voci-letteratura-V-lez05 (approvati per delega alla master). Verifica finale dall'Excel del prof (10 domande). Montaggio con voci segnaposto."
+  },
+  {
+   "quando": "14/11 04:56",
+   "testo": "chat B2: montaggio completo con voci Kore, 56:58 (misurato sulla somma dei pezzi), 1 Parte; codifica 1080p in corso"
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 5",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 04:05:45"
+ "aggiornato": "2026-11-14 04:56:01"
 }
