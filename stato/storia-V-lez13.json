@@ -14,6 +14,10 @@
   {
    "quando": "14/11 13:56",
    "testo": "Voci Kore lezione 13: una sola richiesta, 37 testi (circa 22.100 caratteri, stima 24 min) in voci-storia-V-lez13/scambio/storia-V-lez13/testi_voci.json. Quiz 8x5 in quiz.json da approvare."
+  },
+  {
+   "quando": "14/11 14:33",
+   "testo": "SECONDA richiesta di voci per la lezione 13 (34 nomi nuovi, circa 22.700 caratteri, 25 min): è arrivato il quarto file del video (13-4, 30:12) con 3 argomenti nuovi; la lezione diventa di 3 Parti (docente 34 + 36 + 39 min). Le 37 voci già generate restano in uso quasi tutte; dettagli in scambio/storia-V-lez13/RICHIESTA_2.txt. Quiz definitivo 11x5 in quiz.json."
   }
  ],
  "domande_sara": [],
@@ -25,10 +29,14 @@
   {
    "quando": "14/11 13:50",
    "testo": "Trascrizione finita; 8 argomenti; previste 2 Parti (P1 argomenti 1-4, P2 5-8)."
+  },
+  {
+   "quando": "14/11 14:33",
+   "testo": "Arrivato il quarto file: 11 argomenti, 3 Parti (P1 arg 1-3, P2 arg 4-7, P3 arg 8-11). Stima: 51 / 52 / 55 min."
   }
  ],
  "materia": "Storia V",
  "lezione": "Lezione 13 · La seconda guerra mondiale",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 13:56:07"
+ "aggiornato": "2026-11-14 14:33:11"
 }
