@@ -2,7 +2,7 @@
  "tag": "letteratura-V-lez13",
  "parti": {
   "1": {
-   "stato": "IN_MONTAGGIO",
+   "stato": "FERMA",
    "titolo": "Italo Svevo · Parte 1",
    "voci": "kore",
    "quiz_ok": "si",
@@ -232,7 +232,7 @@
   },
   "2": {
    "titolo": "Italo Svevo · Parte 2",
-   "stato": "IN_MONTAGGIO",
+   "stato": "FERMA",
    "voci": "kore",
    "quiz_ok": "si",
    "fermi_ok": "si",
@@ -342,7 +342,7 @@
    "t_compiti": 2734.203
   }
  },
- "manca": "",
+ "manca": "R3: ferma in attesa delle voci Kore nuove (richieste da oltre 70 minuti sul ramo voci). Testi, animazioni e montaggio sono pronti: appena arrivano le voci si rifanno le durate, si codifica e si consegna.",
  "serve_master": [
   {
    "quando": "14/11 04:55",
@@ -383,6 +383,10 @@
   {
    "quando": "14/11 22:25",
    "testo": "Letteratura V · chat R3: IN_MONTAGGIO v2 con approfondimenti animati (P1 oggi 43:09, P2 45:41, obiettivo >=50). Voci Kore nuove richieste sul ramo voci. Durata prevista (stima, Kore 2,24 parole/s): P1 circa 53, P2 circa 54 min. Compiti del prof: file compiti non presente nella consegna."
+  },
+  {
+   "quando": "14/11 23:28",
+   "testo": "chat R3: FERMA per voci Kore mancanti. Compiti del prof aggiunti come compiti.json sul ramo consegna."
   }
  ],
  "materia": "Letteratura italiana V",
