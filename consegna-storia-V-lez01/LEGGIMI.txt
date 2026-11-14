@@ -1,0 +1,2 @@
+Storia V · Lezione 1 · consegna 13/11. Video a pezzi da 90 MB: riunisci con  cat Storia_Lez1_Parte1_1080p.mp4.parte_* > Storia_Lez1_Parte1_1080p.mp4  e controlla con il file .sha256.
+Test finale: Excel del docente (10 domande), da collegare. Compiti: arrivano dalla direzione; nel video ci sono le schede Verifica finale e Compiti (tempi nelle timeline).

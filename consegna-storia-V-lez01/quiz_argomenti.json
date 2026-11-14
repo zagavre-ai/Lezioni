@@ -1,0 +1,607 @@
+{
+ "Q1": {
+  "title": "Quiz 1 · Belle Époque · luci e ombre",
+  "items": [
+   {
+    "p": "Quale periodo viene chiamato Belle Époque?",
+    "a": "Dalla fine dell'Ottocento al 1914",
+    "w": [
+     "Dal 1914 al 1945",
+     "Dal 1815 al 1848",
+     "Dal 1945 al 1989"
+    ],
+    "e": "È il periodo di crescita economica e lunga pace europea che precede la Prima guerra mondiale."
+   },
+   {
+    "p": "Quale evento simboleggia la celebrazione del progresso tecnico nel 1889?",
+    "a": "L'inaugurazione della Tour Eiffel a Parigi",
+    "w": [
+     "La nascita della radio",
+     "Il primo volo dei fratelli Wright",
+     "La fondazione della Seconda Internazionale a Londra"
+    ],
+    "e": "Le Grandi Esposizioni Universali celebravano il progresso: nel 1889 a Parigi fu inaugurata la Tour Eiffel."
+   },
+   {
+    "p": "Quale gruppo sociale è al centro dell'ottimismo della Belle Époque?",
+    "a": "La borghesia",
+    "w": [
+     "I contadini",
+     "Il clero",
+     "La nobiltà terriera"
+    ],
+    "e": "La borghesia, ottimista e intraprendente, è la protagonista di questo periodo."
+   },
+   {
+    "p": "Quale di questi è un aspetto critico, un'«ombra» della Belle Époque?",
+    "a": "Le condizioni di vita disumane delle masse operaie nelle città",
+    "w": [
+     "La diffusione dei caffè e dei salotti",
+     "Le lunghe vacanze della borghesia",
+     "Le Esposizioni Universali"
+    ],
+    "e": "Le ombre sono le disuguaglianze sociali e le condizioni di lavoro delle masse operaie."
+   },
+   {
+    "p": "Su che cosa si basavano le ideologie nazionaliste e imperialiste di questo periodo?",
+    "a": "Su presunte gerarchie razziali",
+    "w": [
+     "Sulla parità tra i popoli",
+     "Sul libero scambio tra Stati",
+     "Sul pacifismo internazionale"
+    ],
+    "e": "Erano ideologie pericolose fondate su presunte gerarchie razziali."
+   }
+  ]
+ },
+ "Q2": {
+  "title": "Quiz 2 · Trasporti e comunicazioni",
+  "items": [
+   {
+    "p": "Quale città diventa la «Ville lumière» grazie all'energia elettrica?",
+    "a": "Parigi",
+    "w": [
+     "Londra",
+     "New York",
+     "Berlino"
+    ],
+    "e": "L'illuminazione elettrica delle città cambia i ritmi di vita: Parigi diventa la «Ville lumière»."
+   },
+   {
+    "p": "Da quale risorsa deriva la benzina, il cui sfruttamento inizia in questo periodo?",
+    "a": "Dal petrolio",
+    "w": [
+     "Dal carbone",
+     "Dal gas di città",
+     "Dall'energia idroelettrica"
+    ],
+    "e": "Con l'estrazione del petrolio si ottiene la benzina."
+   },
+   {
+    "p": "Che cosa realizzano i fratelli Wright nel 1901?",
+    "a": "Il primo volo con un aeroplano",
+    "w": [
+     "Il primo veicolo con motore a scoppio",
+     "La prima proiezione cinematografica",
+     "La prima trasmissione radiofonica"
+    ],
+    "e": "Nel 1901 i fratelli Wright realizzano il primo volo con un aeroplano."
+   },
+   {
+    "p": "A chi si deve l'elaborazione del telefono, secondo il docente?",
+    "a": "Ad Antonio Meucci",
+    "w": [
+     "A Guglielmo Marconi",
+     "Ai fratelli Lumière",
+     "A Louis Pasteur"
+    ],
+    "e": "Il telefono è stato elaborato da Antonio Meucci."
+   },
+   {
+    "p": "Che cosa proiettano i fratelli Lumière nel 1895?",
+    "a": "La prima pellicola cinematografica, che dà vita al cinema muto",
+    "w": [
+     "Il primo film sonoro",
+     "La prima trasmissione televisiva",
+     "La prima fotografia a colori"
+    ],
+    "e": "Nel 1895 la prima pellicola dei Lumière segna la nascita del cinema muto."
+   }
+  ]
+ },
+ "Q3": {
+  "title": "Quiz 3 · Medicina e società di massa",
+  "items": [
+   {
+    "p": "Che cosa introduce Louis Pasteur nel 1864?",
+    "a": "La pastorizzazione",
+    "w": [
+     "La penicillina",
+     "La radiografia",
+     "L'anestesia"
+    ],
+    "e": "Pasteur introduce la pastorizzazione e la sterilizzazione per eliminare germi e batteri."
+   },
+   {
+    "p": "Per quali malattie Pasteur sviluppa vaccini cruciali?",
+    "a": "Carbonchio e rabbia",
+    "w": [
+     "Vaiolo e peste",
+     "Colera e tifo",
+     "Influenza e morbillo"
+    ],
+    "e": "I vaccini di Pasteur riguardano il carbonchio e la rabbia."
+   },
+   {
+    "p": "Quale effetto hanno le severe norme igienico-sanitarie?",
+    "a": "Abbattono la mortalità infantile",
+    "w": [
+     "Riducono la popolazione mondiale",
+     "Fanno chiudere gli ospedali",
+     "Aumentano il lavoro nei campi"
+    ],
+    "e": "Le norme igienico-sanitarie riducono la mortalità infantile."
+   },
+   {
+    "p": "Quanti abitanti raggiunge la popolazione mondiale nel 1900?",
+    "a": "1,5 miliardi",
+    "w": [
+     "500 milioni",
+     "3 miliardi",
+     "6 miliardi"
+    ],
+    "e": "Grazie ai miglioramenti alimentari e igienici la popolazione cresce fino a 1,5 miliardi."
+   },
+   {
+    "p": "Che cosa si intende per «massa»?",
+    "a": "La moltitudine che diventa protagonista attiva della vita sociale, economica e politica",
+    "w": [
+     "Un gruppo di persone passivo e inerte",
+     "L'insieme dei soli lavoratori delle fabbriche",
+     "L'aristocrazia al potere"
+    ],
+    "e": "La massa smette di essere un aggregato inerte e diventa protagonista attiva."
+   }
+  ]
+ },
+ "Q4": {
+  "title": "Quiz 4 · Urbanizzazione e grandi città",
+  "items": [
+   {
+    "p": "Che cos'è l'urbanizzazione?",
+    "a": "Il trasferimento di enormi masse di lavoratori dalle campagne alle città",
+    "w": [
+     "Il ritorno dei lavoratori nei campi",
+     "La costruzione di ville di campagna",
+     "L'emigrazione verso le colonie"
+    ],
+    "e": "I lavoratori si spostano in città nella speranza di un impiego in fabbriche o uffici."
+   },
+   {
+    "p": "Quanti abitanti supera Londra nel 1900?",
+    "a": "6 milioni",
+    "w": [
+     "600 mila",
+     "2 milioni",
+     "20 milioni"
+    ],
+    "e": "Londra supera i 6 milioni di abitanti nel 1900, Parigi i 2 milioni."
+   },
+   {
+    "p": "Da quale anno Parigi ha linee metropolitane?",
+    "a": "Dal 1900",
+    "w": [
+     "Dal 1863",
+     "Dal 1889",
+     "Dal 1914"
+    ],
+    "e": "Le metropolitane: Londra dal 1863, Parigi dal 1900."
+   },
+   {
+    "p": "Quale di questi interventi fa parte del rinnovamento urbanistico?",
+    "a": "Vie larghe e salubri, acquedotti e reti fognarie",
+    "w": [
+     "Mura difensive attorno alle città",
+     "Demolizione delle fabbriche",
+     "Divieto di trasporto pubblico"
+    ],
+    "e": "Il rinnovamento urbanistico crea vie salubri, acquedotti, fognature e trasporto pubblico."
+   },
+   {
+    "p": "Quanti abitanti supera Parigi nel 1900?",
+    "a": "2 milioni",
+    "w": [
+     "200 mila",
+     "6 milioni",
+     "10 milioni"
+    ],
+    "e": "Parigi supera i 2 milioni di abitanti, Londra i 6 milioni."
+   }
+  ]
+ },
+ "Q5": {
+  "title": "Quiz 5 · La società dei consumi",
+  "items": [
+   {
+    "p": "Che cosa cambia nei consumi dei lavoratori?",
+    "a": "Acquistano anche beni secondari, come abbigliamento alla moda e arredamento",
+    "w": [
+     "Acquistano solo beni primari",
+     "Smettono di acquistare beni",
+     "Acquistano solo beni di lusso"
+    ],
+    "e": "I lavoratori diventano acquirenti di beni non solo primari, ma anche secondari."
+   },
+   {
+    "p": "Dove nascono i grandi magazzini?",
+    "a": "A Parigi e negli Stati Uniti",
+    "w": [
+     "A Roma e a Berlino",
+     "A Mosca e a Vienna",
+     "Solo a Londra"
+    ],
+    "e": "I grandi magazzini nascono a Parigi e negli Stati Uniti."
+   },
+   {
+    "p": "Che cosa vendono i grandi magazzini?",
+    "a": "Merci in serie a prezzi contenuti",
+    "w": [
+     "Solo merci artigianali di lusso",
+     "Solo prodotti agricoli",
+     "Merci a prezzi altissimi"
+    ],
+    "e": "Vendono merci in serie a prezzi contenuti."
+   },
+   {
+    "p": "Quale fattore facilita giornali e riviste come mass media?",
+    "a": "L'aumento dell'alfabetizzazione",
+    "w": [
+     "Il calo della popolazione",
+     "La chiusura delle scuole",
+     "Il divieto di pubblicità"
+    ],
+    "e": "Giornali e riviste sono facilitati dall'aumento dell'alfabetizzazione."
+   },
+   {
+    "p": "A che cosa serve l'esplosione della pubblicità?",
+    "a": "A orientare i consumi della popolazione",
+    "w": [
+     "A ridurre le vendite",
+     "A informare sulla politica estera",
+     "A ostacolare i mass media"
+    ],
+    "e": "La pubblicità orienta i consumi della popolazione."
+   }
+  ]
+ },
+ "Q6": {
+  "title": "Quiz 6 · Tempo libero, taylorismo e fordismo",
+  "items": [
+   {
+    "p": "Che cosa generano le lotte sindacali?",
+    "a": "Meno ore di lavoro, salari più alti e il concetto di «tempo libero»",
+    "w": [
+     "Più ore di lavoro",
+     "La fine dei sindacati",
+     "Il divieto di turismo"
+    ],
+    "e": "Le lotte sindacali ottengono meno ore e più salari, e nasce il tempo libero."
+   },
+   {
+    "p": "Quale località balneare è citata come meta del turismo?",
+    "a": "Deauville",
+    "w": [
+     "Rimini",
+     "Biarritz",
+     "Brighton"
+    ],
+    "e": "Tra le località balneari il PDF cita Deauville."
+   },
+   {
+    "p": "Che cosa teorizza Friedrich W. Taylor nel 1911?",
+    "a": "L'organizzazione scientifica del lavoro",
+    "w": [
+     "La rivoluzione proletaria",
+     "Il suffragio universale",
+     "La psicoanalisi"
+    ],
+    "e": "Taylor teorizza l'organizzazione scientifica del lavoro per calcolare i tempi e massimizzare l'efficienza."
+   },
+   {
+    "p": "Che cosa porta il nastro meccanico della catena di montaggio?",
+    "a": "I pezzi direttamente all'operaio fermo nella sua postazione",
+    "w": [
+     "L'operaio da un reparto all'altro",
+     "I clienti alla fabbrica",
+     "I prodotti finiti ai negozi"
+    ],
+    "e": "Il nastro porta i pezzi all'operaio, che resta immobile nella sua postazione."
+   },
+   {
+    "p": "Quale è un aspetto negativo della catena di montaggio?",
+    "a": "Il lavoro alienante e ripetitivo, che fa perdere la visione dell'oggetto completo",
+    "w": [
+     "I prezzi più alti delle merci",
+     "La produzione in piccole quantità",
+     "La fine della standardizzazione"
+    ],
+    "e": "L'operaio diventa «ingranaggio» e perde creatività; tra i lati positivi ci sono i prezzi ridotti."
+   }
+  ]
+ },
+ "Q7": {
+  "title": "Quiz 7 · Trust, crisi agraria e migrazioni",
+  "items": [
+   {
+    "p": "Che cosa sono i trust?",
+    "a": "Accordi finanziari e industriali tra grandi imprese che eliminano la concorrenza",
+    "w": [
+     "Sindacati di operai",
+     "Partiti politici di massa",
+     "Cooperative agricole"
+    ],
+    "e": "Con i trust le imprese eliminano la concorrenza e creano condizioni di monopolio."
+   },
+   {
+    "p": "Quale causa ha la crisi agraria europea?",
+    "a": "La sovrapproduzione e l'arrivo di cereali a basso costo da America, Australia e Argentina",
+    "w": [
+     "La scarsità di cereali",
+     "Le guerre coloniali",
+     "La chiusura dei mercati americani"
+    ],
+    "e": "Trasporti rapidi e meccanizzazione portano in Europa cereali a basso costo."
+   },
+   {
+    "p": "Quale conseguenza ha la crisi agraria sui piccoli agricoltori?",
+    "a": "Crollo di prezzi e profitti e fallimento di molte piccole aziende",
+    "w": [
+     "Aumento dei profitti",
+     "Espansione delle piccole aziende",
+     "Fine dell'emigrazione"
+    ],
+    "e": "Crollano prezzi e profitti, falliscono le piccole aziende e si impoveriscono contadini e salariati."
+   },
+   {
+    "p": "Quale era la porta d'accesso principale degli emigranti negli Stati Uniti?",
+    "a": "New York",
+    "w": [
+     "Boston",
+     "Chicago",
+     "San Francisco"
+    ],
+    "e": "New York è la porta d'accesso principale per la grande migrazione transoceanica."
+   },
+   {
+    "p": "Quali difficoltà affrontano i migranti?",
+    "a": "Discriminazione, barriere linguistiche e quartieri malsani e sovraffollati",
+    "w": [
+     "Un'accoglienza senza ostacoli",
+     "Il rimpatrio immediato",
+     "L'assegnazione di terre gratuite"
+    ],
+    "e": "I migranti affrontano discriminazione, emarginazione, barriere linguistiche e quartieri malsani."
+   }
+  ]
+ },
+ "Q8": {
+  "title": "Quiz 8 · Politica di massa e socialismo",
+  "items": [
+   {
+    "p": "Che cosa chiedono le masse lavoratrici scendendo in piazza?",
+    "a": "Migliori condizioni salariali e maggiore rappresentanza politica",
+    "w": [
+     "Il ritorno alla monarchia assoluta",
+     "Meno scuole",
+     "La fine dei sindacati"
+    ],
+    "e": "Le masse chiedono migliori salari e maggiore rappresentanza politica."
+   },
+   {
+    "p": "Quali caratteristiche hanno i partiti di massa?",
+    "a": "Programmi precisi, iscritti, militanti e leader carismatici",
+    "w": [
+     "Nessun programma e pochi iscritti",
+     "Solo élite aristocratiche",
+     "Nessuna propaganda"
+    ],
+    "e": "I partiti moderni sono strutturati e usano comizi, manifesti e opuscoli."
+   },
+   {
+    "p": "In che anno nasce la CGL in Italia?",
+    "a": "Nel 1906",
+    "w": [
+     "Nel 1889",
+     "Nel 1914",
+     "Nel 1946"
+    ],
+    "e": "La CGL nasce nel 1906; le Trade Unions sono inglesi."
+   },
+   {
+    "p": "Che cosa sostengono i socialisti riformisti?",
+    "a": "Il miglioramento delle condizioni operaie con riforme graduali e pacifiche in Parlamento",
+    "w": [
+     "La rivoluzione proletaria immediata",
+     "Il ritorno alle corporazioni",
+     "La difesa della proprietà privata senza riforme"
+    ],
+    "e": "I rivoluzionari o massimalisti, fedeli a Marx, puntano invece sulla rivoluzione proletaria."
+   },
+   {
+    "p": "Dove e quando nasce la Seconda Internazionale?",
+    "a": "A Parigi, nel 1889",
+    "w": [
+     "A Londra, nel 1863",
+     "A Berlino, nel 1914",
+     "A Roma, nel 1906"
+    ],
+    "e": "Nel 1889 nasce a Parigi per coordinare i partiti socialisti europei."
+   }
+  ]
+ },
+ "Q9": {
+  "title": "Quiz 9 · La Chiesa e i movimenti femministi",
+  "items": [
+   {
+    "p": "Che cosa pubblica papa Leone XIII nel 1891?",
+    "a": "L'enciclica Rerum Novarum",
+    "w": [
+     "Il Manifesto dei comunisti",
+     "Il Syllabus",
+     "Il Codice di diritto canonico"
+    ],
+    "e": "La Rerum Novarum è la linea di mediazione della Chiesa sulla questione operaia."
+   },
+   {
+    "p": "Che cosa fa la Rerum Novarum rispetto alla proprietà privata?",
+    "a": "La difende, condannando la lotta di classe",
+    "w": [
+     "La abolisce",
+     "La affida allo Stato",
+     "La ignora"
+    ],
+    "e": "Condanna le teorie socialiste ma esorta i padroni a trattare con giustizia i lavoratori."
+   },
+   {
+    "p": "Chi condanna il modernismo cattolico nel 1907?",
+    "a": "Papa Pio X",
+    "w": [
+     "Papa Leone XIII",
+     "Romolo Murri",
+     "Emmeline Pankhurst"
+    ],
+    "e": "Il movimento democratico-cristiano di Romolo Murri è condannato da Pio X nel 1907."
+   },
+   {
+    "p": "Quale metodo di protesta usano le suffragette?",
+    "a": "Incendi di cassette postali, incatenamenti e scioperi della fame",
+    "w": [
+     "Solo petizioni scritte",
+     "Solo comizi autorizzati",
+     "La rinuncia alla protesta"
+    ],
+    "e": "I loro metodi sono duri ed eclatanti, con repressione violenta."
+   },
+   {
+    "p": "Quando le donne ottengono il diritto di voto in Italia?",
+    "a": "Nel 1946",
+    "w": [
+     "Nel 1903",
+     "Nel 1918",
+     "Nel 1910"
+    ],
+    "e": "Il voto alle donne arriva dopo la Prima guerra mondiale: Italia nel 1946."
+   }
+  ]
+ },
+ "Q10": {
+  "title": "Quiz 10 · La crisi del Positivismo",
+  "items": [
+   {
+    "p": "Che cosa mette in crisi la fiducia nel progresso tipica dell'Ottocento?",
+    "a": "Nuove scoperte scientifiche",
+    "w": [
+     "La fine delle guerre",
+     "La diffusione dell'istruzione",
+     "L'invenzione della stampa"
+    ],
+    "e": "Le nuove scoperte scientifiche incrinano la fiducia cieca nella scienza."
+   },
+   {
+    "p": "Chi elabora la meccanica quantistica?",
+    "a": "Max Planck",
+    "w": [
+     "Albert Einstein",
+     "Sigmund Freud",
+     "Robert Koch"
+    ],
+    "e": "Planck elabora la meccanica quantistica; Einstein la relatività."
+   },
+   {
+    "p": "In che anno Einstein formula la teoria della relatività?",
+    "a": "Nel 1905",
+    "w": [
+     "Nel 1896",
+     "Nel 1914",
+     "Nel 1889"
+    ],
+    "e": "Spazio e tempo non sono più assoluti."
+   },
+   {
+    "p": "Che cosa annuncia Nietzsche?",
+    "a": "La «morte di Dio»",
+    "w": [
+     "La nascita della psicoanalisi",
+     "La fine dell'Ottocento",
+     "La legge di gravità"
+    ],
+    "e": "Nietzsche attacca la cultura occidentale e smaschera le ipocrisie metafisiche."
+   },
+   {
+    "p": "Che cosa scopre Sigmund Freud?",
+    "a": "La dimensione profonda e irrazionale dell'inconscio",
+    "w": [
+     "La teoria della relatività",
+     "Il vaccino contro la rabbia",
+     "Il bacillo della tubercolosi"
+    ],
+    "e": "Freud fonda la psicoanalisi e incrina l'idea dell'individuo totalmente razionale."
+   }
+  ]
+ },
+ "Q11": {
+  "title": "Quiz 11 · Razzismo, antisemitismo e nazionalismo",
+  "items": [
+   {
+    "p": "Che cosa è il «darwinismo sociale»?",
+    "a": "L'applicazione distorta dell'evoluzionismo di Darwin alla società umana",
+    "w": [
+     "Una teoria medica",
+     "Una dottrina religiosa",
+     "Un movimento sindacale"
+    ],
+    "e": "Sono teorie pseudo-scientifiche che giustificano il dominio dei «più forti»."
+   },
+   {
+    "p": "Chi scrive il Saggio sulla disuguaglianza delle razze umane (1855)?",
+    "a": "Arthur de Gobineau",
+    "w": [
+     "Charles Darwin",
+     "Theodor Herzl",
+     "Gustave Le Bon"
+    ],
+    "e": "È un testo di riferimento teorico del razzismo moderno."
+   },
+   {
+    "p": "Che cosa è il sionismo?",
+    "a": "Il movimento politico di Theodor Herzl per creare uno Stato ebraico in Palestina",
+    "w": [
+     "Un partito socialista",
+     "Un movimento di suffragiste",
+     "Un'organizzazione sindacale"
+    ],
+    "e": "Nasce come risposta all'antisemitismo dilagante."
+   },
+   {
+    "p": "Che cosa chiede il panslavismo?",
+    "a": "L'unione dei popoli slavi",
+    "w": [
+     "L'unione dei popoli di lingua tedesca",
+     "La fine dell'imperialismo",
+     "La pace tra le potenze"
+    ],
+    "e": "Il pangermanesimo vuole invece unire i popoli di lingua tedesca."
+   },
+   {
+    "p": "Che cosa prepara il terreno per la Prima guerra mondiale?",
+    "a": "La competizione coloniale e la corsa agli armamenti tra le grandi potenze",
+    "w": [
+     "Il disarmo generale",
+     "La crescita dei sindacati",
+     "La riduzione dell'orario di lavoro"
+    ],
+    "e": "Imperialismo e militarismo preparano il conflitto."
+   }
+  ]
+ }
+}
