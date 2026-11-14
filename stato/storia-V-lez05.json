@@ -683,7 +683,7 @@
    ]
   }
  },
- "manca": "",
+ "manca": "COMPITI_MANCANTI; test finale PROPOSTA_DA_VALIDARE (Excel del docente nello zip 008 non ancora caricato)",
  "serve_master": [
   {
    "quando": "14/11 12:06",
@@ -711,10 +711,14 @@
   {
    "quando": "14/11 14:14",
    "testo": "controllo_finale: ESITO: TUTTO OK"
+  },
+  {
+   "quando": "14/11 14:14",
+   "testo": "CONSEGNATA sul ramo consegna-storia-V-lez05 (chat S3). Parte 1: 53:07,3 · 95619 fotogrammi · 222 MB; Parte 2: 51:10,5 · 92114 fotogrammi · 187 MB; 1080p. Controlli tutti OK. t_verifica/t_compiti nel LEGGIMI e nelle timeline."
   }
  ],
  "materia": "Storia V",
  "lezione": "Lezione 5 · La Rivoluzione russa",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 14:14:08"
+ "aggiornato": "2026-11-14 14:14:10"
 }
