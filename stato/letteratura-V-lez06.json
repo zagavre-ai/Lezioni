@@ -10,6 +10,10 @@
   {
    "quando": "14/11 01:08",
    "testo": "DURATA: il video del prof dura 31:00 (misurato). Con tutti gli inserti (5 argomenti, 5 animazioni, schemi, glossario, ripasso finale) stimo 42-45 min: sotto i 50 senza riempitivi. Procedo così salvo diversa indicazione."
+  },
+  {
+   "quando": "14/11 02:03",
+   "testo": "MIGLIORAMENTO: (1) controllo_finale.py su main controlla ancora 2560x1440: con il 1080p dà sempre NO; in locale accetto anche 1920x1080. (2) ffmpeg va in OOM con immagini lunghe nel concat se fps viene prima di format: mettere format=yuv420p,fps=30. (3) scheda_da_timeline.py scrive sempre materia 'Tecnologie dei materiali'."
   }
  ],
  "domande_sara": [],
@@ -22,5 +26,5 @@
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 6",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 01:08:37"
+ "aggiornato": "2026-11-14 02:03:21"
 }
