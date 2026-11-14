@@ -1,0 +1,192 @@
+{
+ "materia": "Storia",
+ "titolo": "La guerra fredda (1945-1961) · Parte 1",
+ "durata_s": 3038.6,
+ "argomenti": [
+  {
+   "n": 1,
+   "titolo": "Il dopoguerra e la nuova geopolitica",
+   "inizio_s": 79.7,
+   "quiz_s": 1183.6
+  },
+  {
+   "n": 2,
+   "titolo": "Bretton Woods e il bipolarismo",
+   "inizio_s": 1188.9,
+   "quiz_s": 2007.733
+  },
+  {
+   "n": 3,
+   "titolo": "Dottrina Truman, piano Marshall e Berlino",
+   "inizio_s": 2013.033,
+   "quiz_s": 2899.267
+  }
+ ],
+ "quiz": {
+  "Q1": {
+   "title": "Quiz 1 · Il dopoguerra e la nuova geopolitica",
+   "items": [
+    {
+     "p": "Quanti furono, circa, i morti della seconda guerra mondiale?",
+     "a": "Circa 50 milioni",
+     "w": [
+      "Circa 5 milioni",
+      "Circa 15 milioni",
+      "Circa 200 milioni"
+     ],
+     "e": "Il bilancio del conflitto fu di circa 50 milioni di morti, soprattutto tra i civili."
+    },
+    {
+     "p": "Dove si tennero i processi contro i crimini nazisti e giapponesi?",
+     "a": "A Norimberga e a Tokyo",
+     "w": [
+      "A Parigi e a Pechino",
+      "A Roma e a Berlino",
+      "A Londra e a Osaka"
+     ],
+     "e": "Il Tribunale Militare Internazionale processò i nazisti a Norimberga e i responsabili giapponesi a Tokyo."
+    },
+    {
+     "p": "In quale città e in quale anno nasce l'ONU?",
+     "a": "A San Francisco, nel 1945",
+     "w": [
+      "A Ginevra, nel 1919",
+      "A New York, nel 1948",
+      "A Parigi, nel 1946"
+     ],
+     "e": "L'ONU nasce a San Francisco nel 1945 per mantenere la pace globale."
+    },
+    {
+     "p": "Che cosa possono fare i cinque membri permanenti del Consiglio di Sicurezza?",
+     "a": "Bloccare una decisione con il diritto di veto",
+     "w": [
+      "Eleggere il presidente degli Stati Uniti",
+      "Dichiarare guerra senza voto",
+      "Escludere gli altri Stati dall'ONU"
+     ],
+     "e": "Basta il veto di uno dei cinque membri permanenti perché una risoluzione non passi."
+    },
+    {
+     "p": "Che cosa viene approvato nel 1948?",
+     "a": "La Dichiarazione universale dei diritti umani",
+     "w": [
+      "Il piano Marshall",
+      "Il Patto di Varsavia",
+      "Il trattato della CECA"
+     ],
+     "e": "Nel 1948 viene approvata la Dichiarazione universale dei diritti umani, per la libertà e la dignità di ogni individuo."
+    }
+   ]
+  },
+  "Q2": {
+   "title": "Quiz 2 · Bretton Woods e il bipolarismo",
+   "items": [
+    {
+     "p": "Che cosa nasce con gli accordi di Bretton Woods del 1944?",
+     "a": "Il Fondo Monetario Internazionale e la Banca Mondiale",
+     "w": [
+      "La NATO e il Patto di Varsavia",
+      "La CECA e la CEE",
+      "L'ONU e il Consiglio di Sicurezza"
+     ],
+     "e": "Bretton Woods fonda il Fondo Monetario Internazionale e la Banca Mondiale."
+    },
+    {
+     "p": "Quale moneta diventa il riferimento mondiale dopo Bretton Woods?",
+     "a": "Il dollaro statunitense",
+     "w": [
+      "La sterlina britannica",
+      "Il rublo sovietico",
+      "Il franco francese"
+     ],
+     "e": "Il dollaro sostituisce la sterlina come valuta internazionale di riferimento."
+    },
+    {
+     "p": "Che cosa caratterizza il polo occidentale guidato dagli USA?",
+     "a": "Democrazia parlamentare, capitalismo e proprietà privata",
+     "w": [
+      "Partito unico ed economia pianificata",
+      "Monarchia assoluta e protezionismo",
+      "Regime militare e collettivizzazione"
+     ],
+     "e": "Il polo occidentale si basa su democrazia parlamentare, capitalismo e difesa della proprietà privata."
+    },
+    {
+     "p": "Che cosa caratterizza il polo orientale guidato dall'URSS?",
+     "a": "Regime a partito unico ed economia pianificata dallo Stato",
+     "w": [
+      "Democrazia parlamentare e libero mercato",
+      "Federazione di monarchie costituzionali",
+      "Neutralità e disarmo"
+     ],
+     "e": "L'URSS è un regime totalitario a partito unico, con comunismo ed economia pianificata."
+    },
+    {
+     "p": "Chi usò nel 1946 l'espressione «cortina di ferro»?",
+     "a": "Winston Churchill",
+     "w": [
+      "Harry Truman",
+      "Iosif Stalin",
+      "Charles de Gaulle"
+     ],
+     "e": "L'ex primo ministro britannico Churchill descrisse così la divisione dell'Europa, da Stettino a Trieste."
+    }
+   ]
+  },
+  "Q3": {
+   "title": "Quiz 3 · Dottrina Truman, piano Marshall e Berlino",
+   "items": [
+    {
+     "p": "Perché si parla di guerra «fredda»?",
+     "a": "Le superpotenze si scontrano senza mai farsi guerra direttamente",
+     "w": [
+      "Si combatté soprattutto in inverno",
+      "Si combatté solo nelle regioni artiche",
+      "Durò pochi mesi senza vittime"
+     ],
+     "e": "Lo scontro è politico, ideologico ed economico, ma senza una guerra diretta tra USA e URSS."
+    },
+    {
+     "p": "Qual è l'obiettivo della dottrina Truman?",
+     "a": "Bloccare l'espansione del comunismo nel mondo",
+     "w": [
+      "Ritirare gli USA dall'Europa",
+      "Dividere la Germania in due Stati",
+      "Fondare l'ONU"
+     ],
+     "e": "La dottrina Truman è la strategia del contenimento del comunismo."
+    },
+    {
+     "p": "Che cos'è il piano Marshall (1947)?",
+     "a": "Un programma di aiuti per ricostruire l'Europa occidentale",
+     "w": [
+      "Un'alleanza militare contro l'URSS",
+      "Un trattato di pace con la Germania",
+      "Un piano per collettivizzare le terre"
+     ],
+     "e": "Il piano Marshall porta aiuti finanziari e materiali per la ricostruzione."
+    },
+    {
+     "p": "Come risponde l'URSS al piano Marshall?",
+     "a": "Rifiuta gli aiuti e crea il Cominform",
+     "w": [
+      "Accetta gli aiuti per tutti i satelliti",
+      "Entra nella NATO",
+      "Scioglie i partiti comunisti europei"
+     ],
+     "e": "Mosca rifiuta gli aiuti USA e crea il Cominform per coordinare i partiti comunisti."
+    },
+    {
+     "p": "Come viene superato il blocco di Berlino del 1948?",
+     "a": "Con un ponte aereo durato 427 giorni",
+     "w": [
+      "Con un'invasione via terra",
+      "Con un accordo all'ONU dopo una settimana",
+      "Con la costruzione di un muro"
+     ],
+     "e": "Gli alleati occidentali riforniscono Berlino Ovest solo via aerea, finché l'URSS toglie il blocco."
+    }
+   ]
+  }
+ }
+}

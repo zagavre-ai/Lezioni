@@ -1,0 +1,253 @@
+{
+ "materia": "Storia",
+ "titolo": "La guerra fredda (1945-1961) · Parte 2",
+ "durata_s": 3005.87,
+ "argomenti": [
+  {
+   "n": 4,
+   "titolo": "L'Europa del blocco occidentale",
+   "inizio_s": 70.1,
+   "quiz_s": 712.233
+  },
+  {
+   "n": 5,
+   "titolo": "Gli Stati Uniti negli anni Cinquanta",
+   "inizio_s": 717.533,
+   "quiz_s": 1075.833
+  },
+  {
+   "n": 6,
+   "titolo": "Il blocco orientale e la destalinizzazione",
+   "inizio_s": 1081.133,
+   "quiz_s": 1869.5
+  },
+  {
+   "n": 7,
+   "titolo": "La guerra fredda in Asia",
+   "inizio_s": 1874.8,
+   "quiz_s": 2852.0
+  }
+ ],
+ "quiz": {
+  "Q4": {
+   "title": "Quiz 4 · L'Europa del blocco occidentale",
+   "items": [
+    {
+     "p": "Che cos'è il Welfare State?",
+     "a": "Lo Stato sociale, con sanità e istruzione gratuite",
+     "w": [
+      "Un'alleanza militare europea",
+      "Il piano per collettivizzare le terre",
+      "Un sistema a partito unico"
+     ],
+     "e": "Nel Regno Unito e in altri paesi nasce lo Stato sociale, con sanità e istruzione gratuite."
+    },
+    {
+     "p": "Quando nasce la NATO?",
+     "a": "Nel 1949",
+     "w": [
+      "Nel 1945",
+      "Nel 1955",
+      "Nel 1961"
+     ],
+     "e": "La NATO nasce nel 1949 come patto di difesa reciproca."
+    },
+    {
+     "p": "Che cosa prevede il patto della NATO?",
+     "a": "Se uno Stato membro viene attaccato, gli altri lo difendono",
+     "w": [
+      "Gli Stati membri hanno una moneta unica",
+      "Gli Stati membri aboliscono le frontiere",
+      "Gli Stati membri rinunciano agli eserciti"
+     ],
+     "e": "È un'alleanza difensiva: un attacco a un membro impegna tutti gli altri."
+    },
+    {
+     "p": "Quale organismo nasce nel 1951 tra sei paesi europei?",
+     "a": "La CECA",
+     "w": [
+      "La CEE",
+      "Il Cominform",
+      "Il Fondo Monetario Internazionale"
+     ],
+     "e": "La CECA del 1951, l'Europa dei sei, è il primo passo verso l'unità economica."
+    },
+    {
+     "p": "Che cosa istituiscono i Trattati di Roma del 1957?",
+     "a": "La CEE e l'Euratom",
+     "w": [
+      "La NATO e la CECA",
+      "L'ONU e l'UNESCO",
+      "La Banca Mondiale e il FMI"
+     ],
+     "e": "I Trattati di Roma istituiscono la Comunità Economica Europea e l'Euratom."
+    }
+   ]
+  },
+  "Q5": {
+   "title": "Quiz 5 · Gli Stati Uniti negli anni Cinquanta",
+   "items": [
+    {
+     "p": "Che cosa si intende per maccartismo?",
+     "a": "Il clima di isteria anticomunista negli USA",
+     "w": [
+      "La politica economica di Eisenhower",
+      "Il piano di aiuti all'Europa",
+      "La destalinizzazione sovietica"
+     ],
+     "e": "Dal senatore McCarthy prende il nome la caccia ai presunti comunisti infiltrati."
+    },
+    {
+     "p": "Di che cosa vengono accusati i coniugi Rosenberg?",
+     "a": "Di spionaggio nucleare a favore dell'URSS",
+     "w": [
+      "Di aver tradito la Germania",
+      "Di corruzione elettorale",
+      "Di aver guidato una rivolta in Ungheria"
+     ],
+     "e": "Vengono condannati a morte nel 1953 con l'accusa di spionaggio nucleare."
+    },
+    {
+     "p": "Quale presidente USA lancia il «rollback»?",
+     "a": "Eisenhower",
+     "w": [
+      "Truman",
+      "Roosevelt",
+      "MacArthur"
+     ],
+     "e": "La presidenza Eisenhower punta a respingere il comunismo, non solo a contenerlo."
+    },
+    {
+     "p": "In che cosa il rollback è diverso dal contenimento?",
+     "a": "Vuole respingere il comunismo, non solo fermarlo",
+     "w": [
+      "Vuole ritirare le truppe dall'Europa",
+      "Vuole un'alleanza con l'URSS",
+      "Vuole sciogliere la NATO"
+     ],
+     "e": "Il rollback punta a liberare i popoli sottomessi respingendo il comunismo."
+    },
+    {
+     "p": "Quale evento del 1953 allenta un poco la tensione?",
+     "a": "La morte di Stalin",
+     "w": [
+      "La nascita della NATO",
+      "Il blocco di Berlino",
+      "La rivolta d'Ungheria"
+     ],
+     "e": "Con la morte di Stalin, nel 1953, si apre una fase di relativo rilassamento."
+    }
+   ]
+  },
+  "Q6": {
+   "title": "Quiz 6 · Il blocco orientale e la destalinizzazione",
+   "items": [
+    {
+     "p": "Che cosa sono gli «stati satelliti»?",
+     "a": "Paesi dell'Est sottomessi all'URSS con regimi a partito unico",
+     "w": [
+      "Paesi neutrali tra i due blocchi",
+      "Colonie africane della Francia",
+      "Stati americani alleati della NATO"
+     ],
+     "e": "I paesi occupati dall'Armata Rossa diventano satelliti dell'URSS."
+    },
+    {
+     "p": "Che cosa prevede l'economia pianificata nel blocco orientale?",
+     "a": "Collettivizzazione delle terre e industria pesante",
+     "w": [
+      "Libero mercato e proprietà privata",
+      "Aiuti del piano Marshall",
+      "Abolizione delle fabbriche"
+     ],
+     "e": "Terre collettivizzate, industrie nazionalizzate e produzione pesante a scapito dei consumi."
+    },
+    {
+     "p": "Quale paese comunista resta autonomo dal blocco sovietico?",
+     "a": "La Jugoslavia di Tito",
+     "w": [
+      "La Polonia",
+      "L'Ungheria",
+      "La Bulgaria"
+     ],
+     "e": "Tito si rifiuta di piegarsi alle direttive di Stalin e mantiene il paese autonomo."
+    },
+    {
+     "p": "Che cos'è il Patto di Varsavia (1955)?",
+     "a": "Un'alleanza militare dei paesi comunisti in risposta alla NATO",
+     "w": [
+      "Un accordo commerciale con gli USA",
+      "Un trattato di pace con la Germania",
+      "Una dichiarazione dei diritti umani"
+     ],
+     "e": "Il Patto di Varsavia unisce i paesi comunisti dell'Est in risposta alla NATO."
+    },
+    {
+     "p": "Che cosa accade in Ungheria nel 1956?",
+     "a": "Un'insurrezione repressa dalle truppe sovietiche",
+     "w": [
+      "L'ingresso nella NATO",
+      "La vittoria dei comunisti alle elezioni",
+      "La rottura definitiva con la Cina"
+     ],
+     "e": "Le speranze aperte dalla destalinizzazione portano alla rivolta, schiacciata dai carri armati sovietici."
+    }
+   ]
+  },
+  "Q7": {
+   "title": "Quiz 7 · La guerra fredda in Asia",
+   "items": [
+    {
+     "p": "Che cosa proclama Mao Zedong nel 1949?",
+     "a": "La Repubblica Popolare Cinese",
+     "w": [
+      "L'indipendenza di Taiwan",
+      "La monarchia costituzionale",
+      "L'alleanza con gli USA"
+     ],
+     "e": "Mao vince la guerra civile e proclama la Repubblica Popolare Cinese."
+    },
+    {
+     "p": "Dove si rifugiano i nazionalisti cinesi sconfitti?",
+     "a": "A Taiwan",
+     "w": [
+      "In Corea del Sud",
+      "In Giappone",
+      "In Vietnam"
+     ],
+     "e": "I nazionalisti fuggono sull'isola di Taiwan."
+    },
+    {
+     "p": "Come inizia la guerra di Corea nel 1950?",
+     "a": "La Corea del Nord comunista invade la Corea del Sud",
+     "w": [
+      "Il Giappone invade la Corea",
+      "La Corea del Sud invade la Cina",
+      "L'URSS invade la Corea del Sud"
+     ],
+     "e": "Il Nord, appoggiato da URSS e Cina, invade il Sud alleato degli USA."
+    },
+    {
+     "p": "Come si conclude la guerra di Corea?",
+     "a": "Con un armistizio e il confine sul 38° parallelo",
+     "w": [
+      "Con la riunificazione della Corea",
+      "Con la vittoria del Nord",
+      "Con un trattato di pace firmato a Roma"
+     ],
+     "e": "L'armistizio del 1953 ripristina la divisione lungo il 38° parallelo."
+    },
+    {
+     "p": "Che cosa provoca il «Grande balzo in avanti» (1958-1961)?",
+     "a": "Una gravissima carestia con milioni di morti",
+     "w": [
+      "Una rapida crescita dell'agricoltura",
+      "L'alleanza con gli Stati Uniti",
+      "La fine della guerra di Corea"
+     ],
+     "e": "Il piano di Mao fallisce e provoca una gravissima carestia."
+    }
+   ]
+  }
+ }
+}
