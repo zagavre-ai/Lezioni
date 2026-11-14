@@ -2,7 +2,7 @@
  "tag": "letteratura-V-lez23",
  "parti": {
   "1": {
-   "stato": "PRONTA",
+   "stato": "IN_MONTAGGIO",
    "voci": "kore",
    "titolo": "Primo Levi",
    "quiz_ok": "si",
@@ -331,10 +331,14 @@
   {
    "quando": "14/11 08:46",
    "testo": "Chat D2: PRONTA. Consegna sul ramo consegna-letteratura-V-lez23 (video in 2 pezzi + sha256, .vtt, quiz, test, dispensa A4, scheda, testo YouTube, timeline). t_verifica 1418.93 s, t_compiti 1437.23 s. Durata 24:03,5 (materiale del docente breve, niente riempitivi). Card ricopiate dalle slide del video (manca la videodispensa)."
+  },
+  {
+   "quando": "14/11 22:17",
+   "testo": "Letteratura V · chat R2: IN_MONTAGGIO v2 con approfondimenti animati (da 24:03 a 50+ min)"
   }
  ],
  "materia": "Letteratura italiana · V anno",
  "lezione": "Lezione 23",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 08:46:32"
+ "aggiornato": "2026-11-14 22:17:40"
 }
