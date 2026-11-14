@@ -7,16 +7,25 @@
   }
  },
  "manca": "COMPITI_MANCANTI",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "14/11 22:18",
+   "testo": "Voci Kore lez01: scambio/moda-laboratori-III-IV-lez01/testi_voci.json sul ramo voci-moda-laboratori-III-IV-lez01. Sigla: uso Sigla_Ideazione_progettazione_moda_15s come segnaposto per Laboratori (manca una sigla dedicata)."
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
    "quando": "14/11 22:07",
    "testo": "Materiali scaricati; trascrizione in corso; compiti: file non presente"
+  },
+  {
+   "quando": "14/11 22:18",
+   "testo": "Testi voci e quiz inviati sul ramo voci-moda-laboratori-III-IV-lez01 (127 voci). Monto con segnaposto."
   }
  ],
  "materia": "Moda · Laboratori III-IV · chat LAB",
  "lezione": "Modellistica",
  "docente": "Prof.ssa Piera Caputi",
- "aggiornato": "2026-11-14 22:07:39"
+ "aggiornato": "2026-11-14 22:18:57"
 }
