@@ -3,7 +3,7 @@
 File singoli, non zip di Drive: si scarica solo quello che serve con `gh release download mazzotti-letteratura-V -p "<nome>"`.
 
 - **Lezioni 1, 2, 3: già PRONTE**, da non rifare.
-- **Video mancante: lezione 16** (c'è solo la videodispensa). Va fatta quando Sara carica il video.
+- **Lezione 16: video caricato da Sara il 14/11** (`Letteratura_Lez16.mp4`, 584 MB). La fa la chat R5 (rifacimento del 14/11).
 - **Videodispense (pptx) presenti solo per le lezioni 3–16.** Per le lezioni 17–26 si usano le slide del video e le pagine del libro.
 - **Pagine del libro ad alta risoluzione** (`LezNN_ingrandita.zip`) solo per le lezioni 1–5.
 - **Prove finali:** `Excel.prova.finale.LETTERATURA.ITALIANA.V.zip` (verifiche del prof, servono per la scheda «Verifica finale» e per i compiti).
@@ -41,7 +41,7 @@ File singoli, non zip di Drive: si scarica solo quello che serve con `gh release
 | 14 | `Letteratura_Lez14_videodispensa.pptx` | 31 |
 | 15 | `Letteratura_Lez15.mp4` | 598 |
 | 15 | `Letteratura_Lez15_videodispensa.pptx` | 2 |
-| 16 | `Letteratura_Lez16_videodispensa.pptx` | 4 |
+| 16 | `Letteratura_Lez16.mp4`, `Letteratura_Lez16_videodispensa.pptx` | 4 |
 | 17 | `Letteratura_Lez17.mp4` | 751 |
 | 18 | `Letteratura_Lez18.mp4` | 562 |
 | 19 | `Letteratura_Lez19.mp4` | 565 |
