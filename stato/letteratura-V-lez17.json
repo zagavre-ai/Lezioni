@@ -6,7 +6,12 @@
   }
  },
  "manca": "",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "14/11 02:03",
+   "testo": "DURATA: video del prof 39:17 (misurato); totale stimato 49 min. Niente pagine HD per questa lezione: poesie ritagliate dal video del prof."
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
@@ -17,5 +22,5 @@
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 17",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 01:40:35"
+ "aggiornato": "2026-11-14 02:03:09"
 }
