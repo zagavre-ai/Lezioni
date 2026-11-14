@@ -1,0 +1,217 @@
+[
+ {
+  "nome": "E4_INTRO1",
+  "testo": "Welcome to this lesson on types of business. Today we will look at five topics. First, business structures. Second, franchising and start-ups. Third, business growth and multinationals. Fourth, the internal organisation of a company. And fifth, corporate social responsibility. After each topic you will see a concept map and a short quiz. You need at least eighty percent to continue. Let's begin.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E4_R1",
+  "testo": "Quick review. Sole traders have unlimited liability. Partners share profits and risks. Limited companies have their own legal identity. Cooperatives are run in a democratic way.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E4_R2",
+  "testo": "Quick review. Franchising means using another company's brand and business model. Start-ups are young, innovative companies, with high risk.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E4_R3",
+  "testo": "Quick review. Growth can be internal or external. A merger joins companies of similar size. A takeover is when a business buys another one. Multinationals operate in more than one country.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E4_R4",
+  "testo": "Quick review. Companies are divided into departments. The organigram shows the chain of command. Outsourcing uses external organisations, and reshoring brings production back home.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E4_R5",
+  "testo": "Quick review. Corporate social responsibility means creating a positive social impact. It improves reputation and loyalty. It is a win-win strategy.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E4_RF1",
+  "testo": "Let's review the whole lesson. A business can be a sole trader, a partnership, a limited company or a cooperative. Franchising and start-ups are two ways to start a business. Companies grow in an internal or external way, and multinationals operate in many countries. Organigrams show the chain of command. And corporate social responsibility helps companies to do good, and to do well. Now it is time for the final test.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E4_FIN1",
+  "testo": "It is time for the final test.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E4_CMP1",
+  "testo": "And now, your homework.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E4_GL0",
+  "testo": "Here are the key words of the lesson, in English and in Italian.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E4_GLa",
+  "testo": "sole trader. unlimited liability. partnership. sleeping partner. limited company. share. shareholder. dividend. cooperative. franchisor. franchisee. turnover.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E4_GLb",
+  "testo": "start-up. merger. takeover. parent company. subsidiary. organigram. chain of command. outsourcing. reshoring. stakeholder. win-win. reputation.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E4_AN1_0",
+  "testo": "Let's put this topic on a map.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E4_AN1_1",
+  "testo": "Sole traders: one owner, and unlimited liability. Think of bakers and plumbers.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E4_AN1_2",
+  "testo": "Partnerships: the partners share responsibility, profits and losses.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E4_AN1_3",
+  "testo": "Limited companies: owners hold shares, and their liability is limited.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E4_AN1_4",
+  "testo": "Cooperatives: members decide together, with one vote each.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E4_AN2_0",
+  "testo": "Here is the map of this topic.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E4_AN2_1",
+  "testo": "Franchising: the franchisee buys the right to use the franchisor's business model.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E4_AN2_2",
+  "testo": "The franchisee pays an initial fee, and a percentage of the annual turnover.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E4_AN2_3",
+  "testo": "Start-ups are young, innovative companies with high costs, and high risk.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E4_AN2_4",
+  "testo": "They thrive in hubs of technology, like Silicon Valley, London or Boston.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E4_AN3_0",
+  "testo": "Now the map of business growth.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E4_AN3_1",
+  "testo": "Internal growth: a company uses its own resources. It is more gradual.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E4_AN3_2",
+  "testo": "External growth is faster: a business integrates with other organisations, horizontally or vertically.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E4_AN3_3",
+  "testo": "In a merger, similar companies join. In a takeover, one company buys another.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E4_AN3_4",
+  "testo": "Multinationals operate in more than one country. A parent company controls its subsidiaries.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E4_AN4_0",
+  "testo": "This is the map of the internal organisation.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E4_AN4_1",
+  "testo": "A growing company is divided into departments, each with its own area of work.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E4_AN4_2",
+  "testo": "The organigram shows the chain of command: who is responsible for what.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E4_AN4_3",
+  "testo": "At the top we find the Board of Directors and the CEO.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E4_AN4_4",
+  "testo": "Outsourcing gives work to outside companies. Reshoring brings production back to the home country.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E4_AN5_0",
+  "testo": "Here is the map of CSR.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E4_AN5_1",
+  "testo": "CSR means creating a positive social impact for all stakeholders.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E4_AN5_2",
+  "testo": "There are environmental, economic, philanthropic and ethical types of CSR.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E4_AN5_3",
+  "testo": "It is a win-win strategy: the company does good, and does well.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E4_AN5_4",
+  "testo": "The advantages are a better reputation, loyal customers and engaged employees.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E4_AN6_0",
+  "testo": "And now the map of the whole lesson.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E4_AN6_1",
+  "testo": "Business structures: sole traders, partnerships, limited companies and cooperatives.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E4_AN6_2",
+  "testo": "Franchising uses a tested model. Start-ups are new, and risky.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E4_AN6_3",
+  "testo": "Businesses grow in an internal or external way. Multinationals operate in many countries.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E4_AN6_4",
+  "testo": "The internal organisation divides the company into departments, with a clear chain of command.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E4_AN6_5",
+  "testo": "Finally, CSR: do good, and do well.",
+  "lingua": "en"
+ }
+]
