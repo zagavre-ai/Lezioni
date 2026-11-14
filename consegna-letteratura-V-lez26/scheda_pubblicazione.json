@@ -1,0 +1,314 @@
+{
+ "materia": "Letteratura italiana (V)",
+ "titolo": "Italo Calvino · Parte 1",
+ "durata_s": 1980.73,
+ "argomenti": [
+  {
+   "n": 1,
+   "titolo": "La vita di Calvino",
+   "inizio_s": 40.567,
+   "quiz_s": 484.0
+  },
+  {
+   "n": 2,
+   "titolo": "Tra neorealismo e fiaba",
+   "inizio_s": 489.0,
+   "quiz_s": 792.467
+  },
+  {
+   "n": 3,
+   "titolo": "Il barone rampante e il filone realistico",
+   "inizio_s": 797.467,
+   "quiz_s": 1246.933
+  },
+  {
+   "n": 4,
+   "titolo": "Scienza, combinatoria e città invisibili",
+   "inizio_s": 1251.933,
+   "quiz_s": 1540.933
+  },
+  {
+   "n": 5,
+   "titolo": "Il meta-romanzo e le ultime opere",
+   "inizio_s": 1545.933,
+   "quiz_s": 1845.7
+  }
+ ],
+ "quiz": {
+  "Q1": {
+   "title": "Quiz 1 · La vita di Calvino",
+   "items": [
+    {
+     "p": "Dove nasce Italo Calvino nel 1923?",
+     "a": "A Santiago de Las Vegas, a Cuba",
+     "w": [
+      "A Sanremo",
+      "A Torino",
+      "A Parigi"
+     ],
+     "e": "Nasce nel 1923 a Santiago de Las Vegas, a Cuba."
+    },
+    {
+     "p": "Che impronta ha la famiglia di Calvino?",
+     "a": "Scientifica, legata all'agricoltura",
+     "w": [
+      "Letteraria, legata al teatro",
+      "Militare",
+      "Religiosa"
+     ],
+     "e": "La famiglia ha una forte impronta scientifica ed è legata all'agricoltura."
+    },
+    {
+     "p": "A quale esperienza partecipa Calvino durante la guerra?",
+     "a": "Alla guerra partigiana",
+     "w": [
+      "Alla campagna di Russia",
+      "Alla guerra d'Etiopia",
+      "A nessuna: si rifugia in campagna"
+     ],
+     "e": "Partecipa attivamente alla guerra partigiana."
+    },
+    {
+     "p": "Perché nel 1957 Calvino si allontana dal PCI?",
+     "a": "Dopo i fatti d'Ungheria",
+     "w": [
+      "Dopo la morte di Pavese",
+      "Per un litigio con Vittorini",
+      "Per trasferirsi a Parigi"
+     ],
+     "e": "Si allontana dal Partito Comunista nel 1957, dopo i fatti d'Ungheria."
+    },
+    {
+     "p": "Con quale casa editrice collabora strettamente?",
+     "a": "Einaudi",
+     "w": [
+      "Mondadori",
+      "Feltrinelli",
+      "Bompiani"
+     ],
+     "e": "Collabora strettamente con la casa editrice Einaudi."
+    }
+   ]
+  },
+  "Q2": {
+   "title": "Quiz 2 · Tra neorealismo e fiaba",
+   "items": [
+    {
+     "p": "In che anno pubblica Il sentiero dei nidi di ragno?",
+     "a": "Nel 1947",
+     "w": [
+      "Nel 1952",
+      "Nel 1957",
+      "Nel 1943"
+     ],
+     "e": "Pubblica nel 1947 Il sentiero dei nidi di ragno, legato al clima neorealista."
+    },
+    {
+     "p": "Attraverso gli occhi di chi è raccontata la Resistenza nel Sentiero dei nidi di ragno?",
+     "a": "Di Pin, un bambino",
+     "w": [
+      "Di un comandante partigiano",
+      "Di un soldato tedesco",
+      "Dell'autore adulto"
+     ],
+     "e": "L'esperienza partigiana è filtrata attraverso gli occhi di Pin, un bambino."
+    },
+    {
+     "p": "Chi consiglia a Calvino di puntare sulla favola allegorica?",
+     "a": "Vittorini",
+     "w": [
+      "Cesare Pavese",
+      "Italo Svevo",
+      "Primo Levi"
+     ],
+     "e": "Nei primi anni Cinquanta, su consiglio di Vittorini, Calvino punta sulla componente della favola allegorica."
+    },
+    {
+     "p": "Che cosa accade al visconte Medardo di Terralba?",
+     "a": "Viene diviso in due da una palla di cannone",
+     "w": [
+      "Sale sugli alberi",
+      "Diventa invisibile",
+      "Viaggia in Oriente"
+     ],
+     "e": "Il visconte viene diviso in due da una palla di cannone durante la guerra contro i Turchi."
+    },
+    {
+     "p": "Che cosa rappresentano il Gramo e il Buono?",
+     "a": "L'uomo contemporaneo, diviso e incompleto",
+     "w": [
+      "Due popoli in guerra",
+      "Il passato e il futuro",
+      "La città e la campagna"
+     ],
+     "e": "Le due metà rappresentano la condizione dell'uomo contemporaneo, diviso e incompleto."
+    }
+   ]
+  },
+  "Q3": {
+   "title": "Quiz 3 · Il barone rampante e il filone realistico",
+   "items": [
+    {
+     "p": "Che cosa decide Cosimo Piovasco di Rondò?",
+     "a": "Di salire sugli alberi e non scendere mai più",
+     "w": [
+      "Di partire per la guerra",
+      "Di farsi monaco",
+      "Di vivere su un'isola"
+     ],
+     "e": "Il giovane nobile Cosimo decide di salire sugli alberi e di non scendere mai più a terra."
+    },
+    {
+     "p": "Che cosa rappresenta il distacco di Cosimo?",
+     "a": "La distanza necessaria per capire la realtà e agire su di essa",
+     "w": [
+      "La fuga dalle responsabilità",
+      "Il rifiuto della cultura",
+      "La follia del protagonista"
+     ],
+     "e": "Non è isolamento, ma la distanza necessaria per capire meglio la realtà e agire su di essa: l'allegoria dell'intellettuale moderno."
+    },
+    {
+     "p": "Chi narra la storia del Barone rampante?",
+     "a": "Il fratello minore Biagio",
+     "w": [
+      "Cosimo stesso",
+      "Il padre",
+      "Un narratore onnisciente"
+     ],
+     "e": "La storia è narrata dal fratello minore Biagio."
+    },
+    {
+     "p": "Di che cosa parla La speculazione edilizia (1957)?",
+     "a": "Della distruzione del paesaggio ligure per le costruzioni selvagge",
+     "w": [
+      "Dell'inquinamento di Torino",
+      "Delle elezioni al Cottolengo",
+      "Della guerra partigiana"
+     ],
+     "e": "La speculazione edilizia affronta la distruzione del paesaggio ligure a causa delle costruzioni selvagge."
+    },
+    {
+     "p": "Dove si svolge La giornata d'uno scrutatore?",
+     "a": "Al Cottolengo di Torino",
+     "w": [
+      "A Sanremo",
+      "A Parigi",
+      "In una fabbrica di Milano"
+     ],
+     "e": "Amerigo Ormea affronta il mistero della sofferenza al Cottolengo di Torino."
+    }
+   ]
+  },
+  "Q4": {
+   "title": "Quiz 4 · Scienza, combinatoria e città invisibili",
+   "items": [
+    {
+     "p": "Che cosa unisce Le cosmicomiche (1965)?",
+     "a": "Le teorie sull'origine dell'universo e la quotidianità ironica",
+     "w": [
+      "La guerra e la fiaba",
+      "La storia e il mito",
+      "La poesia e la musica"
+     ],
+     "e": "Le cosmicomiche unisce le teorie sull'origine dell'universo alla quotidianità ironica."
+    },
+    {
+     "p": "Come concepisce la scrittura Calvino, influenzato dall'Oulipo?",
+     "a": "Come un meccanismo combinatorio",
+     "w": [
+      "Come una confessione personale",
+      "Come un documento storico",
+      "Come una preghiera"
+     ],
+     "e": "Influenzato dallo strutturalismo e dall'Oulipo, concepisce la scrittura come un meccanismo combinatorio."
+    },
+    {
+     "p": "Da che cosa nascono le storie del Castello dei destini incrociati?",
+     "a": "Dalla combinazione delle carte dei tarocchi",
+     "w": [
+      "Dai sogni dell'autore",
+      "Dalle lettere di un soldato",
+      "Da un diario ritrovato"
+     ],
+     "e": "Le storie nascono dalla combinazione e dall'incastro delle carte dei tarocchi."
+    },
+    {
+     "p": "Quante descrizioni di città contiene Le città invisibili?",
+     "a": "55",
+     "w": [
+      "10",
+      "26",
+      "100"
+     ],
+     "e": "L'opera raccoglie 55 descrizioni di città immaginarie."
+    },
+    {
+     "p": "Chi racconta le città all'imperatore Kublai Kan?",
+     "a": "Marco Polo",
+     "w": [
+      "Il signor Palomar",
+      "Cosimo",
+      "Il Lettore"
+     ],
+     "e": "Sono descrizioni fatte da Marco Polo all'imperatore Kublai Kan."
+    }
+   ]
+  },
+  "Q5": {
+   "title": "Quiz 5 · Il meta-romanzo e le ultime opere",
+   "items": [
+    {
+     "p": "Chi è il protagonista di Se una notte d'inverno un viaggiatore?",
+     "a": "Il Lettore stesso",
+     "w": [
+      "Marco Polo",
+      "Amerigo Ormea",
+      "Pin"
+     ],
+     "e": "Il protagonista della vicenda coincide con il «Lettore» stesso."
+    },
+    {
+     "p": "Che cosa alterna la struttura del romanzo?",
+     "a": "La ricerca del Lettore e di Ludmilla e gli incipit di dieci romanzi",
+     "w": [
+      "Poesie e lettere",
+      "Capitoli in italiano e in francese",
+      "Il presente e il futuro"
+     ],
+     "e": "Il libro alterna i capitoli sulla ricerca del Lettore e della Lettrice Ludmilla e gli incipit di dieci romanzi diversi."
+    },
+    {
+     "p": "Che cosa testimonia Palomar (1983)?",
+     "a": "La sfiducia nella possibilità di una conoscenza totale del mondo",
+     "w": [
+      "La fiducia nel progresso",
+      "L'amore per la città",
+      "Il ricordo della guerra"
+     ],
+     "e": "Le riflessioni del signor Palomar testimoniano la sfiducia nella possibilità di una conoscenza totale e razionale del mondo."
+    },
+    {
+     "p": "Per quale università sono scritte le Lezioni americane?",
+     "a": "L'Università di Harvard",
+     "w": [
+      "L'Università di Torino",
+      "La Sorbona di Parigi",
+      "L'Università di Oxford"
+     ],
+     "e": "Le Lezioni americane (1985) sono conferenze destinate all'Università di Harvard."
+    },
+    {
+     "p": "Quale di queste è una delle qualità indicate nelle Lezioni americane?",
+     "a": "Leggerezza",
+     "w": [
+      "Pesantezza",
+      "Lentezza",
+      "Oscurità"
+     ],
+     "e": "Le sei qualità: leggerezza, rapidità, esattezza, visibilità, molteplicità e consistenza."
+    }
+   ]
+  }
+ }
+}
