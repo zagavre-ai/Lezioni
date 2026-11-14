@@ -78,7 +78,7 @@ for i in range(nb):
             order.append((f'[x{ai}v]', f'[x{ai}a]')); ai += 1
 fc.append(''.join(v + a for v, a in order) + f'concat=n={len(order)}:v=1:a=1[vo][ao]')
 cmd = ['ffmpeg', '-y', '-v', 'error'] + inp + ['-filter_complex', ';'.join(fc), '-map', '[vo]', '-map', '[ao]', '-c:v', 'libx264', '-preset', 'veryfast', '-crf', os.environ.get('CRF', '19'), '-maxrate', '16M', '-bufsize', '32M', '-pix_fmt', 'yuv420p', '-r', '30', '-c:a', 'aac', '-b:a', '192k', '-ar', '48000', '-movflags', '+faststart']
-if o.prova: cmd += ['-t', '60']
+if o.prova: cmd += ['-ss', os.environ.get('SS', '0'), '-t', os.environ.get('T', '60')]
 cmd += [f'{o.out}/video.mp4']
 open(f'{o.out}/cmd.txt', 'w').write(' '.join(map(str, cmd)))
 subprocess.run(cmd, check=True); print('fatto')
