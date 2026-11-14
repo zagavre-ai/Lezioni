@@ -255,6 +255,10 @@
   {
    "quando": "14/11 07:55",
    "testo": "MIGLIORAMENTO (chat E2): con il video finale a 1080p (§10 del 13/11) kit/tools/controllo_finale.py segna sempre «risoluzione NO» perché controlla 2560x1440; ho usato una copia locale con (1920,1080). Anche kit/tools/finale_a_pezzi.py su main è ancora a 1440p fast CRF 20: ho usato scale=1920:1080, veryfast, CRF 19. Conviene aggiornarli su main."
+  },
+  {
+   "quando": "14/11 23:07",
+   "testo": "R2: aspetto le voci Kore AN* (testi gia' sul ramo voci-letteratura-V-lez24, inviati ~22:25). Tagli del video pronti, monto appena arrivano."
   }
  ],
  "domande_sara": [],
@@ -291,5 +295,5 @@
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 24",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 22:27:42"
+ "aggiornato": "2026-11-14 23:07:23"
 }
