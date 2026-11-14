@@ -1,0 +1,7 @@
+durata 41:38.8 (2498.8 s) | fotogrammi 74965 (attesi 74965) OK | peso 215.3 MB (205.3 MiB) OK | 1920x1080 NO
+quiz 4 scatto 0,0 s: OK
+fermi immagine nei pezzi del docente: nessuno OK
+volume del parlato (mediana dei pezzi del docente): -16.1 LUFS OK
+sottotitoli: 474 blocchi, sovrapposti 0, oltre la fine 0, attacco sulla voce entro 0,3 s: 92% di 12 verificabili OK
+foglio di miniature: Letteratura_Lez9_Parte2_1080p.mp4.miniature.jpg
+ESITO: DA SISTEMARE: risoluzione
