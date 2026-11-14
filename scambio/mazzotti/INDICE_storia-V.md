@@ -26,6 +26,10 @@ Ogni zip è indipendente: scarica SOLO gli zip che contengono la tua lezione (`g
 | 20 | 004 · LEZIONE 20 GLI ANNI NOVANTA IL MONDO POST-BIPOLARE.mp4 · 1079 | 010 | 010 |
 | 21 | 001 · LEZIONE 21 IL MONDO DAL 2001 AD OGGI.mp4 · 1065 | **manca** | 003 |
 
+**Test finali (Excel del prof), lezioni 1–21:** zip `STORIA.V-20261114T194325Z-1-001.zip` (caricato il 14/11), file «DOMANDE LEZIONE N.xlsx».
+**Video caricati il 14/11 come file singoli:** `LEZIONE.3.L.ITALIA.DI.GIOLITTI.mp4`, `Storia.V.Lez.13-1/-2/-3.mp4` (lezione 13 in 3 file), `LEZIONE.17.LE.FASI.CONCLUSIVE.DELLA.GUERRA.FREDDA.1969-1991.mp4`, `LEZIONE.21.IL.MONDO.DAL.2001.AD.OGGI.mp4`. Ancora mancanti: 4, 8, 10.
+**Download:** con l'API REST (gh release download non funziona nelle sessioni): `gh api -H "Accept: application/octet-stream" repos/zagavre-ai/Lezioni/releases/assets/<id>`.
+
 Il numero dello zip è l'ultima parte del nome: `…-1-001.zip` = 001. Lo zip 008 contiene gli Excel delle verifiche del prof (test finale di ogni lezione): SERVONO, da caricare. Video ancora mancanti: lezioni 3, 4, 8, 10, 13, 17.
 Le lezioni 1 e 2 sono già avviate con le release `storia-V-lez01` e `storia-V-lez02`.
 Test finali e compiti: arrivano dalla direzione il 13/11; nel video restano le schede «Verifica finale» e «Compiti».
