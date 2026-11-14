@@ -417,10 +417,14 @@
   {
    "quando": "14/11 05:10",
    "testo": "chat C2: PRONTA. Misurato: 41:59.4, 75582 fotogrammi (attesi 75582), 157,5 MiB, 1920x1080, scatto dei 5 quiz entro 0,002 s, nessun fermo nel docente, parlato -16,0 LUFS. t_verifica 2494.533 s, t_compiti 2514.4 s. Sottotitoli: Whisper base + correzioni di nomi/opere/date; controllo automatico dell'attacco 74% (4 blocchi su 19 iniziano a metà frase senza pausa, verificati sull'energia: scarto reale circa 0,3 s) - sub_ok dato da me, da ricontrollare se serve. Durata sotto i 50 min: docente 31:00 + inserti, senza riempitivi."
+  },
+  {
+   "quando": "14/11 05:32",
+   "testo": "chat C2: ricaricata la consegna alle 05:32 UTC: nel glossario la sesta parola (Sinestesia) usciva dallo schermo; corretto e ricodificato solo quel gruppo. Controlli rifatti: scatto quiz OK, volume -16,0."
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 6",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 05:10:12"
+ "aggiornato": "2026-11-14 05:32:31"
 }
