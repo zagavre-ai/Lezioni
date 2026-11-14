@@ -397,10 +397,14 @@
   {
    "quando": "14/11 15:10",
    "testo": "controllo_finale: ESITO: DA SISTEMARE: sottotitoli"
+  },
+  {
+   "quando": "14/11 15:10",
+   "testo": "Parte 1: t_verifica=3185.165 s · t_compiti=3198.865 s (intro compiti a 3195.165 s)"
   }
  ],
  "materia": "Storia",
  "lezione": "7",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 15:10:18"
+ "aggiornato": "2026-11-14 15:10:22"
 }
