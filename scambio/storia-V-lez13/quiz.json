@@ -438,5 +438,170 @@
     "e": "Al Nord i tedeschi liberano Mussolini e fondano lo stato fantoccio di Salò."
    }
   ]
+ },
+ "Q9": {
+  "title": "Quiz 9 · I movimenti di Resistenza in Europa e in Italia",
+  "items": [
+   {
+    "p": "Che cos'è il CLN?",
+    "a": "Il Comitato di Liberazione Nazionale, che coordina i partiti antifascisti",
+    "w": [
+     "Il governo della Repubblica di Salò",
+     "L'esercito del Regno del Sud",
+     "Un reparto delle SS"
+    ],
+    "e": "Il CLN coordina le brigate partigiane nella lotta contro i nazifascisti."
+   },
+   {
+    "p": "Che ruolo hanno le donne nella Resistenza?",
+    "a": "Combattono e fanno le staffette, portando armi e messaggi",
+    "w": [
+     "Restano escluse dalla lotta",
+     "Guidano l'esercito del re",
+     "Lavorano solo nelle fabbriche tedesche"
+    ],
+    "e": "Il loro ruolo strategico e logistico è fondamentale."
+   },
+   {
+    "p": "Come rispondono i nazifascisti agli attacchi partigiani?",
+    "a": "Con rappresaglie e stragi di civili",
+    "w": [
+     "Con trattative di pace",
+     "Liberando i prigionieri",
+     "Ritirandosi in Germania"
+    ],
+    "e": "Per ogni tedesco ucciso vengono fucilati dieci italiani: Marzabotto, Fosse Ardeatine."
+   },
+   {
+    "p": "Che cos'è la svolta di Salerno?",
+    "a": "La proposta di Togliatti di unire gli antifascisti con il re contro i nazisti",
+    "w": [
+     "Lo sbarco alleato a Salerno",
+     "La fuga del re da Roma",
+     "La fondazione della Repubblica di Salò"
+    ],
+    "e": "Nella primavera del 1944 nasce un governo di unità nazionale."
+   },
+   {
+    "p": "Chi guida la Resistenza in Jugoslavia?",
+    "a": "Tito",
+    "w": [
+     "De Gaulle",
+     "Togliatti",
+     "Badoglio"
+    ],
+    "e": "In Francia i partigiani sono legati a de Gaulle, in Jugoslavia a Tito."
+   }
+  ]
+ },
+ "Q10": {
+  "title": "Quiz 10 · Il declino dell'Asse e la vittoria Alleata in Europa (1944-1945)",
+  "items": [
+   {
+    "p": "Che cosa accade il 6 giugno 1944?",
+    "a": "Lo sbarco alleato in Normandia (D-Day)",
+    "w": [
+     "La liberazione di Roma",
+     "La resa della Germania",
+     "Il bombardamento di Dresda"
+    ],
+    "e": "Con l'operazione Overlord si apre un secondo fronte occidentale."
+   },
+   {
+    "p": "Quando viene liberata Roma?",
+    "a": "Il 4 giugno 1944",
+    "w": [
+     "Il 25 aprile 1945",
+     "L'8 settembre 1943",
+     "Il 6 agosto 1945"
+    ],
+    "e": "Gli Alleati superano la Linea Gustav e arrivano a Roma."
+   },
+   {
+    "p": "Che cosa si ricorda il 25 aprile 1945?",
+    "a": "La Liberazione dell'Italia",
+    "w": [
+     "Lo sbarco in Sicilia",
+     "La caduta di Mussolini nel Gran Consiglio",
+     "La resa del Giappone"
+    ],
+    "e": "Milano, Torino e Genova vengono liberate dai partigiani."
+   },
+   {
+    "p": "Come muore Hitler?",
+    "a": "Si suicida nel bunker a Berlino",
+    "w": [
+     "Viene fucilato dai partigiani",
+     "Muore a Stalingrado",
+     "Viene processato a Norimberga"
+    ],
+    "e": "Il 30 aprile 1945, mentre i sovietici entrano a Berlino."
+   },
+   {
+    "p": "Quando la Germania firma la resa incondizionata?",
+    "a": "Il 7-8 maggio 1945",
+    "w": [
+     "Il 2 settembre 1945",
+     "Il 25 aprile 1945",
+     "Il 4 giugno 1944"
+    ],
+    "e": "La Germania è stretta tra gli angloamericani a ovest e l'Armata rossa a est."
+   }
+  ]
+ },
+ "Q11": {
+  "title": "Quiz 11 · La fine della guerra nel Pacifico e la bomba atomica (1945)",
+  "items": [
+   {
+    "p": "Chi sono i kamikaze?",
+    "a": "Piloti giapponesi che si lanciano con l'aereo contro le navi nemiche",
+    "w": [
+     "Soldati tedeschi in Africa",
+     "Partigiani italiani",
+     "Marinai americani"
+    ],
+    "e": "Il Giappone continua a combattere anche dopo la resa della Germania."
+   },
+   {
+    "p": "Chi decide di usare la bomba atomica?",
+    "a": "Il presidente americano Truman",
+    "w": [
+     "Churchill",
+     "Stalin",
+     "Hirohito"
+    ],
+    "e": "Truman vuole evitare una lunga invasione di terra del Giappone."
+   },
+   {
+    "p": "Su quali città vengono sganciate le bombe atomiche?",
+    "a": "Hiroshima e Nagasaki",
+    "w": [
+     "Tokyo e Okinawa",
+     "Iwo Jima e Midway",
+     "Pearl Harbor e Guadalcanal"
+    ],
+    "e": "Il 6 agosto 1945 su Hiroshima, il 9 agosto su Nagasaki."
+   },
+   {
+    "p": "Quando il Giappone firma la resa?",
+    "a": "Il 2 settembre 1945",
+    "w": [
+     "Il 7 dicembre 1941",
+     "L'8 maggio 1945",
+     "Il 6 agosto 1945"
+    ],
+    "e": "La firma dell'imperatore Hirohito segna la fine della guerra."
+   },
+   {
+    "p": "Come si presenta il mondo dopo la guerra?",
+    "a": "Diviso in due blocchi contrapposti",
+    "w": [
+     "Unito sotto un solo governo",
+     "Dominato dal Giappone",
+     "Senza più grandi potenze"
+    ],
+    "e": "Da una parte gli Stati Uniti e i loro alleati, dall'altra l'Unione Sovietica."
+   }
+  ]
  }
 }

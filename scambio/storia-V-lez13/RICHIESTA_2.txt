@@ -1,0 +1,4 @@
+14/11 · chat S3 · SECONDA RICHIESTA per la lezione 13 (solo nomi nuovi, nessuna voce già generata da rifare).
+Motivo: nella release è arrivato il quarto file del video (Storia.V.Lez.13-4.mp4, 30:12). La lezione passa da 79 a 109 minuti di docente e diventa di 3 Parti, con 3 argomenti nuovi (Resistenza, vittoria alleata in Europa, fine della guerra nel Pacifico).
+Le 37 voci già arrivate restano quasi tutte in uso (non uso: AN12, MAPF1, GL1, RF1, FIN1, RIP2, MAPF2, GL2, RF2, FIN2, che con 3 Parti non tornano più).
+Il quiz definitivo (11 argomenti x 5) è in quiz.json.
