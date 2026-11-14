@@ -428,8 +428,17 @@ _NEW = {
               "Cresce anche il terziario, cioè i servizi e i trasporti.",
               "E con le ferie retribuite, diventate obbligatorie, la vacanza al mare entra nella vita di molte famiglie."]),
 }
+_NEW[3] = [_NEW[3], dict(nome="AN3c", tipo="cards", kicker="Approfondimento", titolo="Chi scrive la Costituzione",
+        items=[("Un'assemblea di partiti", "La Democrazia Cristiana è il primo partito, con circa il 35%. Con socialisti e comunisti ha la maggioranza."),
+               ("Madri e padri costituenti", "Tra le 21 donne elette ci sono democristiane, comuniste, socialiste, liberali e dell'Uomo Qualunque."),
+               ("La famiglia nella Carta", "La tutela della famiglia è scritta soprattutto dai cattolici.")],
+        voce=["Chi scrive davvero la Costituzione?",
+              "Il primo partito dell'Assemblea è la Democrazia Cristiana, con circa il trentacinque per cento, e insieme a socialisti e comunisti forma la maggioranza.",
+              "Tra le ventuno donne elette ci sono democristiane, comuniste, socialiste, liberali e dell'Uomo Qualunque. Madri e padri costituenti lavorano insieme.",
+              "Anche la tutela della famiglia entra nella Carta, e viene scritta soprattutto dai cattolici.",
+              "Poi la Costituzione viene firmata dal presidente della Repubblica provvisorio e, sotto il governo De Gasperi, entra in vigore."])]
 for _a in ARG:
-    if _a['id'] in _NEW:_a['an'].insert(0 if _a['id']==1 else len(_a['an']),_NEW[_a['id']])
+    if _a['id'] in _NEW:_a['an'][0 if _a['id']==1 else len(_a['an']):0 if _a['id']==1 else len(_a['an'])] = (_NEW[_a['id']] if isinstance(_NEW[_a['id']], list) else [_NEW[_a['id']]])
 
 MAPPA_LEZIONE = dict(centro="L'Italia repubblicana",
  rami=[dict(concetto="Un Paese da ricostruire", parola="macerie", esempio="mercato nero"),

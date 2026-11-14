@@ -30,8 +30,8 @@ PDF = ANCH['pdf']
 TRANS = json.load(open(ANCH['trascrizione']))
 GAIN_DOC = ANCH['gain_db']
 R = Renderer()
-LEAD = 0.8   # secondi di attacco prima della voce
-TAIL = 1.6   # secondi di coda dopo la voce
+LEAD = 1.0   # secondi di attacco prima della voce
+TAIL = 3.4   # secondi di coda dopo la voce (la scheda completa resta visibile)
 N_ARG = len(S.ARG)
 ARG = {a['id']: a for a in S.ARG}
 PART = [p for p in S.PARTI if p['n'] == PARTE][0]
@@ -68,7 +68,7 @@ def voce(nome, frasi):
         w = n
         stima = False
     else:
-        d = len(testo.split()) / 2.6 + 0.4 * len(frasi)
+        d = len(testo.split()) / 2.05 + 0.3 * len(frasi)
         w = silence_wav('%s/tmp/%s_sil.wav' % (W, nome), d)
         stima = True
     tot = sum(len(f) for f in frasi)
@@ -320,7 +320,7 @@ def main():
         a = ARG[aid]
         idx = aid
         # titolo
-        scheda_fissa('T%d' % idx, 'T%d' % idx, SC.titolo_arg(idx, N_ARG, a['titolo']), 3.6, [sfx('titolo', 0.0, -8)])
+        scheda_fissa('T%d' % idx, 'T%d' % idx, SC.titolo_arg(idx, N_ARG, a['titolo']), 4.5, [sfx('titolo', 0.0, -8)])
         # docente
         an_ = ANCH['arg'][str(aid)]
         scena_docente('D%d' % idx, 'D%d' % idx, an_['t0'], an_['t1'], a['pagine'][0], '%02d · %s' % (idx, a['breve'].upper()), an_['ancore'], an_.get('immagini', []))

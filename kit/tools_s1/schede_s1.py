@@ -182,8 +182,8 @@ def pausa(titolo_grande, titolo, sotto):
         '<div class="kick abs" style="left:160px;top:300px;font-size:30px;color:#5BD6F0;letter-spacing:.4em">Pausa del video · Quiz</div>'
         '<div class=bg2 style="position:absolute;left:160px;top:370px;font-size:132px;color:#fff">%s</div>' % E(titolo_grande) +
         '<div class=bg2 style="position:absolute;left:160px;top:545px;font-size:72px;color:#E3A95C;width:1250px;line-height:1.05">%s</div>' % E(titolo) +
-        '<div class="abs" style="left:1380px;top:420px;width:240px;height:240px;border-radius:50%;border:4px solid #5BD6F0"></div>'
-        '<div class="abs" style="left:1440px;top:480px;width:120px;height:120px;border-radius:50%;background:#5BD6F0"></div>'
+        '<div class="abs" style="left:1380px;top:420px;width:240px;height:240px;border-radius:50%%;border:4px solid #5BD6F0"></div>'
+        '<div class="abs" style="left:1440px;top:480px;width:120px;height:120px;border-radius:50%%;background:#5BD6F0"></div>'
         '<div class="abs" style="left:1480px;top:512px;width:0;height:0;border-left:44px solid #0B1530;border-top:28px solid transparent;border-bottom:28px solid transparent"></div>'
         '<div class="glass abs" style="left:160px;top:760px;padding:22px 42px;font-size:36px;font-weight:700;border-radius:20px">%s</div>' % E(sotto)), bande_on=True)
     return page(body, 'dark')
