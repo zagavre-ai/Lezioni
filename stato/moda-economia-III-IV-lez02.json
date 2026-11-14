@@ -1,24 +1,14 @@
 {
  "tag": "moda-economia-III-IV-lez02",
- "parti": {
-  "1": {
-   "titolo": "Moda e filiera",
-   "stato": "IN_MONTAGGIO",
-   "voci": "kore",
-   "quiz_ok": "si"
-  }
- },
- "manca": "COMPITI_MANCANTI (nessun file Compiti nella release)",
- "serve_master": [],
- "domande_sara": [],
- "note": [
+ "parti": {},
+ "manca": "",
+ "serve_master": [
   {
-   "quando": "14/11 22:39",
-   "testo": "Chat ECO: rimontaggio lez02 con 18 voci Kore gia' pronte"
+   "quando": "14/11 23:00",
+   "testo": "Voci mappe: sul ramo voci-moda-economia-III-IV-lez02, testi_voci.json, nomi MAP1..MAP7 e MAPF (una sola richiesta). Monto intanto con segnaposto."
   }
  ],
- "materia": "Moda economia · chat ECO",
- "lezione": "Lezione 2 · Moda e filiera",
- "docente": "Prof.ssa Piera Caputi",
- "aggiornato": "2026-11-14 22:39:22"
+ "domande_sara": [],
+ "note": [],
+ "aggiornato": "2026-11-14 23:00:46"
 }
