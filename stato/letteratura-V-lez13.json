@@ -229,6 +229,115 @@
      3.6
     ]
    ]
+  },
+  "2": {
+   "titolo": "Italo Svevo · Parte 2",
+   "stato": "PRONTA",
+   "voci": "kore",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "si",
+   "video": "Letteratura_Lez13_Parte2_1080p.mp4",
+   "durata_s": 2740.5,
+   "durata": "45:40.5",
+   "fotogrammi": 82215,
+   "fotogrammi_attesi": 82215,
+   "peso_MB": 225.2,
+   "vtt": "Letteratura_Lez13_Parte2.vtt",
+   "scheda": {
+    "materia": "Letteratura italiana (V)",
+    "titolo": "Italo Svevo · Parte 2",
+    "durata_s": 2740.5,
+    "argomenti": [
+     {
+      "n": 4,
+      "titolo": "Testi da La coscienza di Zeno",
+      "inizio_s": 17.982,
+      "quiz_s": 2635.149
+     }
+    ],
+    "quiz": {
+     "Q4": {
+      "title": "Quiz 4 · Testi da La coscienza di Zeno",
+      "items": [
+       {
+        "p": "Che cosa mostra il testo «Il fumo»?",
+        "a": "La malattia come alibi dell'inetto e l'origine psicologica del vizio",
+        "w": [
+         "Il successo di Zeno negli affari",
+         "Il viaggio di Zeno a Vienna",
+         "La guarigione di Zeno grazie al dottore"
+        ],
+        "e": "è all'avvio del romanzo, dopo la prefazione del dottor S."
+       },
+       {
+        "p": "Quali temi emergono nel capitolo sulla morte del padre?",
+        "a": "Il conflitto con la figura paterna, la rimozione della colpa, l'affermazione di innocenza",
+        "w": [
+         "L'amore per Augusta e la gelosia per Ada",
+         "La guerra e i commerci",
+         "Il fumo e l'ultima sigaretta"
+        ],
+        "e": "è uno dei momenti centrali del libro."
+       },
+       {
+        "p": "Come appare Augusta agli occhi di Zeno?",
+        "a": "Come il campione della «salute» e della normalità borghese",
+        "w": [
+         "Come una donna fatale e distruttiva",
+         "Come un'intellettuale tormentata",
+         "Come una sorella da curare"
+        ],
+        "e": "Zeno nota anche la somiglianza tra la moglie e il padre."
+       },
+       {
+        "p": "Da quale capitolo è tratto «Un affare commerciale disastroso»?",
+        "a": "Storia di un'associazione commerciale, sull'impresa del cognato Guido",
+        "w": [
+         "Il fumo, sull'ultima sigaretta",
+         "La morte di mio padre",
+         "Psico-analisi, la pagina finale"
+        ],
+        "e": "Zeno affianca Guido, con sentimenti ambigui verso di lui."
+       },
+       {
+        "p": "Che cosa dice Zeno della vita nella pagina conclusiva?",
+        "a": "Somiglia alla malattia, ma a differenza delle altre malattie è sempre mortale",
+        "w": [
+         "È una festa da vivere senza pensieri",
+         "È guarita grazie alla psicoanalisi",
+         "È uguale per tutti gli uomini"
+        ],
+        "e": "è la pagina della profezia di un'apocalisse cosmica."
+       }
+      ]
+     }
+    },
+    "t_verifica": 2709.916,
+    "t_compiti": 2734.203
+   },
+   "timeline": [
+    [
+     "T4",
+     17.982,
+     3.6
+    ],
+    [
+     "GL1",
+     2640.449,
+     34.7
+    ],
+    [
+     "RF1",
+     2676.749,
+     31.9
+    ],
+    [
+     "FIN1",
+     2716.216,
+     5.2
+    ]
+   ]
   }
  },
  "manca": "",
@@ -255,10 +364,14 @@
   {
    "quando": "14/11 06:49",
    "testo": "controllo_finale: ESITO: TUTTO OK"
+  },
+  {
+   "quando": "14/11 07:06",
+   "testo": "controllo_finale: ESITO: TUTTO OK"
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 13",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 06:49:27"
+ "aggiornato": "2026-11-14 07:06:18"
 }
