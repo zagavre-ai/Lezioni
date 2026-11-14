@@ -1,0 +1,277 @@
+{
+ "Q1": {
+  "title": "Quiz 1 · La vita e la formazione",
+  "items": [
+   {
+    "p": "Dove e quando nasce Elsa Morante?",
+    "a": "A Roma, nel 1912",
+    "w": [
+     "A Napoli, nel 1912",
+     "A Milano, nel 1920",
+     "A Procida, nel 1907"
+    ],
+    "e": "Nasce a Roma nel 1912 da una famiglia della piccola borghesia."
+   },
+   {
+    "p": "Perché Elsa Morante si forma da autodidatta?",
+    "a": "A causa della salute malferma, che la costringe a casa",
+    "w": [
+     "Perché vive all'estero",
+     "Perché lavora fin da bambina",
+     "Perché rifiuta la scuola per protesta"
+    ],
+    "e": "La salute malferma la porta a letture onnivore, che alimentano la sua fantasia."
+   },
+   {
+    "p": "Come si mantiene all'inizio?",
+    "a": "Con collaborazioni giornalistiche e traduzioni",
+    "w": [
+     "Insegnando in un liceo",
+     "Lavorando in una fabbrica",
+     "Con l'eredità di famiglia"
+    ],
+    "e": "Si mantiene con collaborazioni giornalistiche e traduzioni."
+   },
+   {
+    "p": "Chi sposa Elsa Morante nel 1941?",
+    "a": "Lo scrittore Alberto Moravia",
+    "w": [
+     "Il poeta Pier Paolo Pasolini",
+     "Lo scrittore Italo Calvino",
+     "Il poeta Cesare Pavese"
+    ],
+    "e": "Il matrimonio con Moravia è un legame centrale nella sua vita."
+   },
+   {
+    "p": "Che cosa caratterizza la sua prosa?",
+    "a": "Un lirismo che ricorda la poesia e l'attenzione alla psicologia",
+    "w": [
+     "Uno stile scientifico e impersonale",
+     "Il dialetto romanesco",
+     "Il linguaggio della cronaca giornalistica"
+    ],
+    "e": "Una prosa lirica e una profonda indagine dell'interiorità."
+   }
+  ]
+ },
+ "Q2": {
+  "title": "Quiz 2 · I primi successi e Menzogna e sortilegio",
+  "items": [
+   {
+    "p": "Con quale romanzo Morante ottiene il primo grande successo?",
+    "a": "Menzogna e sortilegio (1948)",
+    "w": [
+     "L'isola di Arturo",
+     "La storia",
+     "Aracoeli"
+    ],
+    "e": "Menzogna e sortilegio, del 1948, è il primo successo di pubblico e di critica."
+   },
+   {
+    "p": "Quale premio vince Menzogna e sortilegio?",
+    "a": "Il premio Viareggio",
+    "w": [
+     "Il premio Strega",
+     "Il premio Nobel",
+     "Il premio Campiello"
+    ],
+    "e": "Il romanzo vince il premio Viareggio."
+   },
+   {
+    "p": "Quali raccolte poetiche pubblica Morante?",
+    "a": "Alibi e Il mondo salvato dai ragazzini",
+    "w": [
+     "Ossi di seppia e Le occasioni",
+     "L'allegria e Il dolore",
+     "Canti e Operette"
+    ],
+    "e": "Alibi è del 1958, Il mondo salvato dai ragazzini del 1968."
+   },
+   {
+    "p": "Che cosa racconta Menzogna e sortilegio?",
+    "a": "La saga di una famiglia della piccola borghesia meridionale, fatta di inganni e menzogne",
+    "w": [
+     "Il viaggio di un uomo in Spagna",
+     "La crescita di un ragazzo a Procida",
+     "La vita di una maestra a Roma in guerra"
+    ],
+    "e": "Una saga familiare claustrofobica, analizzata con ironia distaccata."
+   },
+   {
+    "p": "Contro che cosa interviene Morante nel 1965?",
+    "a": "Contro i pericoli dell'era atomica",
+    "w": [
+     "Contro il premio Strega",
+     "Contro il divorzio",
+     "Contro la televisione"
+    ],
+    "e": "L'intervento confluisce nel volume Pro o contro la bomba atomica."
+   }
+  ]
+ },
+ "Q3": {
+  "title": "Quiz 3 · L'isola di Arturo",
+  "items": [
+   {
+    "p": "Quale premio vince L'isola di Arturo nel 1957?",
+    "a": "Il premio Strega",
+    "w": [
+     "Il premio Viareggio",
+     "Il premio Bagutta",
+     "Il premio Nobel"
+    ],
+    "e": "Con il secondo romanzo Morante vince il premio Strega."
+   },
+   {
+    "p": "Dove è ambientato il romanzo?",
+    "a": "A Procida",
+    "w": [
+     "A Capri",
+     "A Roma",
+     "In Spagna"
+    ],
+    "e": "Arturo vive sull'isola di Procida."
+   },
+   {
+    "p": "Che cosa simboleggia l'allontanamento di Arturo dall'isola?",
+    "a": "L'uscita dolorosa ma necessaria dall'infanzia",
+    "w": [
+     "Una fuga d'amore",
+     "Il ritorno in patria",
+     "La partenza per la guerra"
+    ],
+    "e": "È un romanzo di formazione."
+   },
+   {
+    "p": "Chi è Nunziata?",
+    "a": "La giovane matrigna di Arturo",
+    "w": [
+     "La madre di Arturo",
+     "La sorella di Arturo",
+     "Un'amica d'infanzia"
+    ],
+    "e": "Arturo prova per lei un amore impossibile."
+   },
+   {
+    "p": "Chi racconta la storia?",
+    "a": "Arturo stesso, con uno sguardo fanciullesco e ingenuo",
+    "w": [
+     "Un narratore esterno onnisciente",
+     "Il padre di Arturo",
+     "Nunziata"
+    ],
+    "e": "La visione di Arturo trasforma la realtà in un clima di sogno."
+   }
+  ]
+ },
+ "Q4": {
+  "title": "Quiz 4 · La storia",
+  "items": [
+   {
+    "p": "Come viene rappresentata la storia nel romanzo?",
+    "a": "Come un potere mostruoso che schiaccia gli umili",
+    "w": [
+     "Come un progresso continuo",
+     "Come un gioco di eroi",
+     "Come un ciclo di feste"
+    ],
+    "e": "La storia schiaccia inesorabilmente gli umili, i poveri e gli esclusi."
+   },
+   {
+    "p": "Dove e quando è ambientato La storia?",
+    "a": "A Roma, tra la seconda guerra mondiale e il dopoguerra",
+    "w": [
+     "A Procida, negli anni Trenta",
+     "A Parigi, nell'Ottocento",
+     "A Milano, negli anni Settanta"
+    ],
+    "e": "Roma devastata dalla guerra fa da sfondo."
+   },
+   {
+    "p": "Chi è Ida Ramundo?",
+    "a": "Una maestra ebrea, madre di Nino e Useppe",
+    "w": [
+     "Una contessa romana",
+     "Una giornalista",
+     "La matrigna di Arturo"
+    ],
+    "e": "Il romanzo narra le sue drammatiche traversie."
+   },
+   {
+    "p": "Quale tecnica del romanzo ottocentesco recupera Morante?",
+    "a": "Il narratore esterno onnisciente che commenta",
+    "w": [
+     "Il flusso di coscienza",
+     "Il romanzo epistolare",
+     "Il monologo interiore"
+    ],
+    "e": "Un narratore che sa tutto e interviene con i suoi commenti."
+   },
+   {
+    "p": "Come reagisce la critica a La storia?",
+    "a": "Si divide: capolavoro di umanità o sentimentalismo commerciale",
+    "w": [
+     "La giudica all'unanimità un capolavoro",
+     "Lo ignora del tutto",
+     "Lo considera un romanzo di fantascienza"
+    ],
+    "e": "Grande successo di pubblico, ma la critica si divide."
+   }
+  ]
+ },
+ "Q5": {
+  "title": "Quiz 5 · Aracoeli, l'ultimo romanzo",
+  "items": [
+   {
+    "p": "Quando esce Aracoeli?",
+    "a": "Nel 1982",
+    "w": [
+     "Nel 1948",
+     "Nel 1957",
+     "Nel 1974"
+    ],
+    "e": "Aracoeli è l'ultimo romanzo, pubblicato nel 1982."
+   },
+   {
+    "p": "Dove si reca il protagonista di Aracoeli?",
+    "a": "In Spagna, nel paese natale della madre defunta",
+    "w": [
+     "A Procida",
+     "A Parigi",
+     "In America"
+    ],
+    "e": "Vuole ricostruire il rapporto con la madre."
+   },
+   {
+    "p": "Che atmosfera ha Aracoeli rispetto alle opere precedenti?",
+    "a": "Cupa e dolente, segnata da degradazione e follia",
+    "w": [
+     "Fiabesca e luminosa",
+     "Comica e leggera",
+     "Epica e celebrativa"
+    ],
+    "e": "Alle atmosfere fiabesche subentra una materia torbida."
+   },
+   {
+    "p": "Come accoglie la critica dell'epoca Aracoeli?",
+    "a": "Non favorevolmente: rimpiange L'isola di Arturo",
+    "w": [
+     "Con entusiasmo unanime",
+     "Con un premio Nobel",
+     "Senza leggerlo"
+    ],
+    "e": "Una lettura più attenta rivela però un grande valore."
+   },
+   {
+    "p": "Che cosa rivela Aracoeli a una lettura attenta?",
+    "a": "Un'acuta introspezione psicologica e una profonda partecipazione umana",
+    "w": [
+     "Un ritorno al Futurismo",
+     "Un romanzo di avventura",
+     "Un testo di propaganda"
+    ],
+    "e": "Conferma i temi familiari e la ricerca di nuove strade."
+   }
+  ]
+ }
+}
