@@ -1,17 +1,30 @@
 {
  "tag": "afm-inglese-triennio-lez05",
- "parti": {},
+ "parti": {
+  "1": {
+   "stato": "IN_MONTAGGIO"
+  }
+ },
  "manca": "",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "14/11 23:14",
+   "testo": "Voci Kore lez05: scambio/afm-inglese-triennio-lez05/testi_voci.json. Quiz da approvare: scambio/afm-inglese-triennio-lez05/quiz.json. Lez04: stesso per afm-inglese-triennio-lez04, attendo le voci per chiudere."
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
    "quando": "14/11 22:01",
    "testo": "in coda dopo lezione 4 (chat E1)"
+  },
+  {
+   "quando": "14/11 23:14",
+   "testo": "Testi voci (45) e quiz (30 domande) su voci-afm-inglese-triennio-lez05. Docente 62 min grezzi (~60 dopo i tagli): una sola Parte ~66 min, senza ripassi brevi per argomento."
   }
  ],
  "materia": "Inglese AFM",
  "lezione": "Lezione 5",
  "docente": "Prof.ssa Maria Vittoria Fontanesi",
- "aggiornato": "2026-11-14 22:01:18"
+ "aggiornato": "2026-11-14 23:14:21"
 }
