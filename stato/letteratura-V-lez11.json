@@ -316,7 +316,12 @@
   }
  },
  "manca": "",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "14/11 23:09",
+   "testo": "R4: voci NUOVE da generare (nomi AP*/MP*) in scambio/letteratura-V-lez11/testi_voci.json sul ramo voci-letteratura-V-lez11 (le voci vecchie sono gia' fatte, non rigenerarle). Servono per rifare la lezione."
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
@@ -343,5 +348,5 @@
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 11",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 22:41:24"
+ "aggiornato": "2026-11-14 23:09:17"
 }
