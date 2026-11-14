@@ -1,0 +1,5 @@
+14/11 · chat S1 · SECONDA RICHIESTA per la lezione 6 (solo nomi nuovi, nessuna voce già generata da rifare).
+Motivo: dal 14/11 (decisione di Sara) ogni argomento ha una mappa concettuale animata con voce, e servono 2-4 approfondimenti per argomento per portare la lezione (una sola Parte, 39,6 min di docente) tra 50 e 60 minuti.
+Nuovi: MAP1-MAP8 (una mappa per argomento), MAPF1 (mappa finale), ANB2, ANB3, ANB5, ANB7, ANB8 (un approfondimento per gli argomenti che non lo avevano). 14 testi in testi_voci.json.
+Le 15 voci già arrivate (INTRO1, R1-R8, AN1-AN3, GL1, RF1, FIN1) restano tutte in uso.
+Quiz definitivo (8 argomenti x 5): quiz.json, da approvare.

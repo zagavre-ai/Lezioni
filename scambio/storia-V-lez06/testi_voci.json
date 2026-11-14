@@ -1,77 +1,72 @@
 [
  {
-  "nome": "INTRO1",
-  "testo": "Benvenuti. In questa lezione parliamo del primo dopoguerra, dal millenovecentodiciannove al millenovecentoventicinque. Vedremo come cambia la mappa dell'Europa dopo il crollo degli imperi, come la Germania prova a costruire una repubblica, che cosa accade ai Paesi vincitori, e come il Medio Oriente, l'Africa e l'Asia cominciano a chiedere l'indipendenza.",
+  "nome": "MAP1",
+  "testo": "Ecco la mappa dell'Europa centro-orientale. Primo ramo: il crollo degli imperi, quello zarista e quello austro-ungarico, che stravolge la mappa europea. Secondo ramo: i nuovi Stati nazionali, come la Polonia e la Cecoslovacchia. Terzo ramo: gli Stati cuscinetto, creati dalle potenze vincitrici contro la Russia e la Germania. Quarto ramo: i territori zaristi. La Finlandia mantiene l'indipendenza, mentre Ucraina, Georgia e Bielorussia vengono rioccupate dalle truppe bolsceviche entro il millenovecentoventidue.",
   "lingua": "it"
  },
  {
-  "nome": "R1",
-  "testo": "Ripasso. Dopo la guerra l'Impero zarista e quello austro-ungarico crollano. Nascono Stati nuovi: Cecoslovacchia, Polonia e Regno dei Serbi, Croati e Sloveni. Le potenze vincitrici creano grandi Stati cuscinetto per arginare la Russia bolscevica e contenere la Germania.",
+  "nome": "ANB2",
+  "testo": "Vediamo come si perde la stabilità. In Jugoslavia prevale il centralismo serbo, le tensioni etniche crescono e nel millenovecentoventinove il re instaura la dittatura. In Polonia, dopo la guerra contro la Russia e la pace di Riga, il maresciallo Piłsudski instaura un regime dittatoriale nel millenovecentotrenta. In Ungheria, dopo la breve Repubblica sovietica di Béla Kun, l'ammiraglio Horthy restaura formalmente la monarchia e governa come reggente. L'Austria, ridotta a una piccola repubblica, subisce una gravissima crisi economica e scontri tra socialdemocratici e conservatori.",
   "lingua": "it"
  },
  {
-  "nome": "R2",
-  "testo": "Ripasso. Nell'Europa dell'Est la stabilità dura poco. In Jugoslavia prevale il centralismo serbo e nel millenovecentoventinove arriva la dittatura del re. In Polonia governa Piłsudski. In Ungheria, dopo Béla Kun, prende il potere Horthy. L'Austria vive una gravissima crisi economica.",
+  "nome": "MAP2",
+  "testo": "Ecco la mappa dell'instabilità nell'Europa dell'Est. Primo ramo: la Jugoslavia, con il centralismo serbo e la dittatura del re nel millenovecentoventinove. Secondo ramo: la Polonia di Piłsudski, che instaura un regime nel millenovecentotrenta. Terzo ramo: l'Ungheria di Horthy, dopo la Repubblica sovietica di Béla Kun. Quarto ramo: l'Austria, colpita da una gravissima crisi economica e da scontri politici.",
   "lingua": "it"
  },
  {
-  "nome": "R3",
-  "testo": "Ripasso. In Germania, dopo l'abdicazione del Kaiser, nasce una repubblica democratica. Il governo reprime la rivolta spartachista. La Costituzione di Weimar introduce il voto a uomini e donne. Ma il trattato di Versailles è vissuto come un diktat e alimenta l'odio delle forze di estrema destra.",
+  "nome": "ANB3",
+  "testo": "La Repubblica di Weimar nasce già sotto attacco. Dopo l'abdicazione del Kaiser nel millenovecentodiciotto nasce una repubblica democratica e parlamentare, guidata dai socialdemocratici. All'inizio del millenovecentodiciannove il governo reprime nel sangue la rivolta comunista spartachista, guidata da Karl Liebknecht e Rosa Luxemburg. La Costituzione, approvata a Weimar, introduce il suffragio universale maschile e femminile, ma concede ampi poteri di emergenza al presidente. Il trattato di Versailles, vissuto come un diktat, alimenta intanto l'odio delle forze di estrema destra.",
   "lingua": "it"
  },
  {
-  "nome": "R4",
-  "testo": "Ripasso. Le riparazioni di guerra, centotrentadue miliardi di marchi-oro, causano l'iperinflazione. Falliscono il putsch di Kapp e quello di Monaco. Nel millenovecentoventitré la Ruhr è occupata. Con Stresemann e il Piano Dawes, grazie ai prestiti americani, l'economia riparte.",
+  "nome": "MAP3",
+  "testo": "Ecco la mappa della Repubblica di Weimar. Primo ramo: la nascita della repubblica democratica, dopo l'abdicazione del Kaiser. Secondo ramo: la minaccia comunista, con la rivolta spartachista di Liebknecht e Luxemburg. Terzo ramo: la Costituzione, con il suffragio universale e i poteri di emergenza al presidente. Quarto ramo: Versailles, vissuto come un diktat che alimenta l'odio dell'estrema destra.",
   "lingua": "it"
  },
  {
-  "nome": "R5",
-  "testo": "Ripasso. In Francia si alternano il Blocco nazionale e il Cartello delle sinistre. Nel Regno Unito Lloyd George introduce riforme sociali e il voto alle donne sopra i trent'anni. Nel millenovecentoventuno nasce lo Stato Libero d'Irlanda, escludendo il Nord. Nel millenovecentoventisei scioperano i minatori.",
+  "nome": "MAP4",
+  "testo": "Ecco la mappa della crisi in Germania. Primo ramo: le riparazioni di guerra, centotrentadue miliardi di marchi-oro. Secondo ramo: l'iperinflazione, che azzera i risparmi della classe media. Terzo ramo: i colpi di Stato, il putsch di Kapp del millenovecentoventi e quello di Monaco del millenovecentoventitré. Quarto ramo: l'occupazione della Ruhr, da parte di truppe francesi e belghe, nel millenovecentoventitré. Quinto ramo: la stabilizzazione, con il Piano Dawes e il governo Stresemann nel millenovecentoventiquattro.",
   "lingua": "it"
  },
  {
-  "nome": "R6",
-  "testo": "Ripasso. Il trattato di Sèvres prevede la spartizione dell'Impero ottomano. Mustafa Kemal guida la riscossa turca e ottiene il trattato di Losanna. Poi proclama la Repubblica, trasferisce la capitale ad Ankara e rende lo Stato laico. Agli arabi, invece, i mandati assegnano il Medio Oriente a Regno Unito e Francia.",
+  "nome": "ANB5",
+  "testo": "Anche i Paesi vincitori affrontano grandi difficoltà. La Francia sostiene enormi costi di ricostruzione e una forte inflazione, e al governo si alternano il Blocco nazionale di centro-destra e il Cartello delle sinistre. Nel Regno Unito il governo di Lloyd George introduce riforme sociali, tra cui il voto alle donne sopra i trent'anni e sussidi per i disoccupati. Nel millenovecentoventuno, dopo la guerriglia dell'IRA, nasce lo Stato Libero d'Irlanda, che esclude il Nord, e scoppia una sanguinosa guerra civile. Nel Regno Unito il malcontento culmina nei grandi scioperi dei minatori del millenovecentoventisei.",
   "lingua": "it"
  },
  {
-  "nome": "R7",
-  "testo": "Ripasso. L'Egitto ottiene una formale indipendenza nel millenovecentoventidue. In India, dopo Amritsar, Gandhi guida la disobbedienza civile. La Francia affronta rivolte in Marocco e in Indocina, dove si organizza il movimento di Ho Chi Minh.",
+  "nome": "MAP5",
+  "testo": "Ecco la mappa di Francia e Regno Unito. Primo ramo: la Francia, tra costi di ricostruzione, inflazione e l'alternanza tra Blocco nazionale e Cartello delle sinistre. Secondo ramo: il Regno Unito, con le riforme sociali di Lloyd George e il voto alle donne. Terzo ramo: le tensioni sociali, che culminano negli scioperi dei minatori del millenovecentoventisei. Quarto ramo: l'Irlanda, con la nascita dello Stato Libero nel millenovecentoventuno.",
   "lingua": "it"
  },
  {
-  "nome": "R8",
-  "testo": "Ripasso. Il Giappone diventa grande potenza ma matura risentimento verso l'Occidente. La Cina cade nel caos dei signori della guerra. Il Guomintang si allea con i comunisti, ma nel millenovecentoventisei Chiang Kai-shek rompe l'alleanza: comincia la strada verso la guerra civile.",
+  "nome": "MAP6",
+  "testo": "Ecco la mappa del Medio Oriente e della Turchia. Primo ramo: il trattato di Sèvres del millenovecentoventi, che prevede la spartizione dell'Impero ottomano. Secondo ramo: la riscossa turca di Mustafa Kemal, che ottiene il trattato di Losanna nel millenovecentoventitré. Terzo ramo: la modernizzazione di Atatürk, con la capitale ad Ankara e uno Stato laico. Quarto ramo: i mandati della Società delle Nazioni, a Regno Unito e Francia. Quinto ramo: le promesse tradite agli arabi, dopo l'accordo segreto Sykes-Picot.",
   "lingua": "it"
  },
  {
-  "nome": "AN1",
-  "testo": "Gli Stati cuscinetto. Le potenze vincitrici creano vasti Stati nazionali al confine tra Germania e Russia. Da un lato devono contenere la Germania, dall'altro arginare la Russia bolscevica. Nascono così Polonia, Cecoslovacchia e il Regno dei Serbi, Croati e Sloveni.",
+  "nome": "ANB7",
+  "testo": "Vediamo come cresce la protesta contro le potenze coloniali. L'Egitto ottiene una formale indipendenza dal Regno Unito nel millenovecentoventidue, ma gli inglesi mantengono il controllo militare del territorio. In India, dopo il massacro di Amritsar del millenovecentodiciannove, Gandhi guida la protesta con la disobbedienza civile e il boicottaggio, fino alla marcia del sale del millenovecentotrenta. L'impero coloniale francese affronta rivolte armate in Marocco e in Indocina, dove comincia a organizzarsi il movimento nazionalista vietnamita guidato da Ho Chi Minh.",
   "lingua": "it"
  },
  {
-  "nome": "AN2",
-  "testo": "Dalla crisi alla ripresa. Millenovecentodiciannove: nasce la Repubblica di Weimar. Millenovecentoventitré: iperinflazione e occupazione della Ruhr. Millenovecentoventiquattro: con il governo Stresemann e il Piano Dawes l'economia tedesca si stabilizza.",
+  "nome": "MAP7",
+  "testo": "Ecco la mappa dei movimenti anticoloniali. Primo ramo: l'Egitto, con una indipendenza solo formale nel millenovecentoventidue. Secondo ramo: l'India, con la non violenza di Gandhi e la marcia del sale. Terzo ramo: il massacro di Amritsar del millenovecentodiciannove, che spinge alla protesta. Quarto ramo: la rivolta armata in Marocco contro i francesi. Quinto ramo: l'Indocina, dove nasce il movimento nazionalista di Ho Chi Minh.",
   "lingua": "it"
  },
  {
-  "nome": "AN3",
-  "testo": "Il Medio Oriente dopo l'Impero ottomano. Con l'accordo segreto Sykes-Picot, il Medio Oriente è diviso tra Regno Unito e Francia. Palestina, Iraq e Transgiordania ai britannici; Siria e Libano ai francesi. La Turchia, invece, ottiene il trattato di Losanna e diventa una repubblica.",
+  "nome": "ANB8",
+  "testo": "Guardiamo all'Estremo Oriente. Il Giappone si afferma come grande potenza imperialista e ottiene le ex colonie tedesche nel Pacifico, ma a Versailles matura un forte risentimento e un nazionalismo contro le potenze occidentali. Dopo la morte di Yuan Shikai, nel millenovecentosedici, la Cina cade nel caos, controllata dai signori della guerra locali. Il Guomintang, guidato da Sun Yat-sen, si allea con i comunisti per unificare il Paese. Ma nel millenovecentoventisei Chiang Kai-shek assume la guida del partito, rompe l'alleanza e avvia una violenta repressione contro i comunisti: sono le basi della guerra civile.",
   "lingua": "it"
  },
  {
-  "nome": "GL1",
-  "testo": "Glossario. Stato cuscinetto: Stato creato per contenere un avversario. Diktat: pace imposta senza trattativa. Iperinflazione: perdita di valore della moneta che azzera i risparmi. Putsch: tentativo di colpo di Stato. Mandato: territorio affidato dalla Società delle Nazioni a una potenza europea. Disobbedienza civile: protesta non violenta contro una legge o un governo.",
+  "nome": "MAP8",
+  "testo": "Ecco la mappa dell'Estremo Oriente. Primo ramo: il Giappone, grande potenza imperialista che ottiene le ex colonie tedesche nel Pacifico. Secondo ramo: il nazionalismo, nato dal risentimento contro le potenze occidentali a Versailles. Terzo ramo: la Cina nel caos dei signori della guerra, dopo la morte di Yuan Shikai. Quarto ramo: il Guomintang di Sun Yat-sen, alleato dei comunisti. Quinto ramo: la rottura con i comunisti da parte di Chiang Kai-shek, nel millenovecentoventisei, che prepara la guerra civile.",
   "lingua": "it"
  },
  {
-  "nome": "RF1",
-  "testo": "Ripasso finale. Il primo dopoguerra cambia l'Europa: crollano gli imperi, nascono nuovi Stati, la Germania prova a diventare una democrazia, i vincitori faticano a ripartire. Fuori dall'Europa, la Turchia si rinnova, il Medio Oriente passa sotto mandato e in Africa e in Asia crescono i movimenti per l'indipendenza.",
-  "lingua": "it"
- },
- {
-  "nome": "FIN1",
-  "testo": "Per oggi è tutto. Ripassa gli argomenti, rifai i quiz e metti alla prova quello che hai imparato con la verifica finale.",
+  "nome": "MAPF1",
+  "testo": "Ecco la mappa di tutto il primo dopoguerra. Dai crolli degli imperi nascono nuovi Stati nell'Europa dell'Est, presto segnati da regimi autoritari. In Germania la Repubblica di Weimar attraversa crisi e ripresa. Anche i vincitori, come Francia e Regno Unito, affrontano grandi difficoltà. Nel Medio Oriente i mandati segnano il destino degli arabi, mentre nasce la Turchia di Atatürk. In Africa e in Asia crescono i movimenti per l'indipendenza, da Gandhi a Ho Chi Minh. E in Estremo Oriente si affermano i nazionalismi di Giappone e Cina.",
   "lingua": "it"
  }
 ]
