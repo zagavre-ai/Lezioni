@@ -327,10 +327,14 @@
   {
    "quando": "14/11 08:46",
    "testo": "controllo_finale: ESITO: TUTTO OK"
+  },
+  {
+   "quando": "14/11 08:46",
+   "testo": "Chat D2: PRONTA. Consegna sul ramo consegna-letteratura-V-lez23 (video in 2 pezzi + sha256, .vtt, quiz, test, dispensa A4, scheda, testo YouTube, timeline). t_verifica 1418.93 s, t_compiti 1437.23 s. Durata 24:03,5 (materiale del docente breve, niente riempitivi). Card ricopiate dalle slide del video (manca la videodispensa)."
   }
  ],
  "materia": "Letteratura italiana · V anno",
  "lezione": "Lezione 23",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 08:46:27"
+ "aggiornato": "2026-11-14 08:46:32"
 }
