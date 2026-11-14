@@ -7,15 +7,24 @@
   }
  },
  "manca": "",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "14/11 22:39",
+   "testo": "Voci Kore moda-laboratori-III-IV-lez02: scambio/moda-laboratori-III-IV-lez02/testi_voci.json sul ramo voci-moda-laboratori-III-IV-lez02."
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
    "quando": "14/11 22:07",
    "testo": "In coda dopo lez01"
+  },
+  {
+   "quando": "14/11 22:39",
+   "testo": "Testi voci e quiz inviati sul ramo voci-moda-laboratori-III-IV-lez02 (165 voci)."
   }
  ],
  "materia": "Moda · Laboratori III-IV · chat LAB",
  "lezione": "Sartoria",
- "aggiornato": "2026-11-14 22:07:43"
+ "aggiornato": "2026-11-14 22:39:35"
 }
