@@ -1,52 +1,137 @@
-{
- "INTRO1": [
-  "Benvenuti alla lezione di Letteratura italiana.",
-  "Oggi conosciamo Leonardo Sciascia, lo scrittore siciliano che unisce il gusto per l'intrigo e l'impegno civile.",
-  "Il professor Giorgio Mazzotti ci guida attraverso tre argomenti: la vita e l'impegno civile; Il consiglio d'Egitto e Il contesto; Todo modo e le ultime opere.",
-  "Dopo ogni argomento trovi un ripasso e un quiz per controllare quello che hai imparato.",
-  "Buon ascolto!"
- ],
- "R1": ["Ripassiamo il primo argomento: la vita e l'impegno civile di Sciascia."],
- "R2": ["Ripassiamo il secondo argomento: Il consiglio d'Egitto e Il contesto."],
- "R3": ["Ripassiamo il terzo argomento: Todo modo e le ultime opere."],
- "S1": [
-  "La vita e l'impegno civile. Ecco i punti da ricordare.",
-  "Sciascia nasce nel millenovecentoventuno a Racalmuto, in provincia di Agrigento, e lavora come maestro elementare.",
-  "I suoi testi uniscono il gusto per l'intrigo e l'impegno civile; tra i primi a notarlo c'è Pier Paolo Pasolini.",
-  "La notorietà arriva nel millenovecentosessantuno con Il giorno della civetta, che impone all'opinione pubblica il problema della mafia.",
-  "Eletto nel millenovecentosettantacinque come indipendente nelle liste del Partito comunista a Palermo, si dimette per dissensi; poi è deputato con il Partito radicale.",
-  "Si schiera contro le leggi speciali antiterrorismo e denuncia le collusioni tra mafia e potere politico."
- ],
- "S2": [
-  "Il consiglio d'Egitto e Il contesto. Ecco i punti da ricordare.",
-  "Il consiglio d'Egitto è ambientato a Palermo a fine Settecento: un prete imbroglione inventa falsi manoscritti arabi, e l'avvocato Di Blasi, un illuminista, viene giustiziato.",
-  "Il passato è una metafora: Sciascia denuncia l'abuso del potere, la corruzione e la tortura nel mondo di oggi.",
-  "La sua scrittura è limpida e pacata, con una grande forza persuasiva.",
-  "Il contesto, del millenovecentosettantuno, è un giallo: un ispettore scopre un complotto di Stato e viene ucciso.",
-  "Il romanzo riflette gli anni di piombo, con le stragi e le trame oscure."
- ],
- "S3": [
-  "Todo modo e le ultime opere. Ecco i punti da ricordare.",
-  "In Todo modo, del millenovecentosettantaquattro, politici della Democrazia cristiana intrecciano intrighi durante un ritiro spirituale.",
-  "Nel romanzo manca la rivelazione finale dell'assassino: è impossibile arrivare alla verità e alla giustizia.",
-  "In Candido Sciascia riprende il modello di Voltaire per parlare dei suoi rapporti con il Partito comunista.",
-  "Porte aperte affronta la pena di morte; L'affaire Moro indaga i punti oscuri del rapimento di Aldo Moro.",
-  "Sciascia resta indipendente da partiti e chiese; il suo stile è terso, essenziale e concreto."
- ],
- "GL1": [
-  "Le parole chiave della lezione.",
-  "Impegno civile: la letteratura che denuncia la mafia e gli abusi del potere.",
-  "Giallo: un genere che Sciascia usa per parlare di politica, e che a volte viola, senza svelare l'assassino.",
-  "Illuminismo: la ragione e la ricerca della verità, il modello di Sciascia.",
-  "Anni di piombo: gli anni delle stragi e delle trame oscure.",
-  "Pamphlet: un breve testo di polemica e di inchiesta.",
-  "Le trovi anche nella dispensa."
- ],
- "RF1": [
-  "Ricapitoliamo i tre argomenti della lezione.",
-  "Uno, la vita e l'impegno civile: Il giorno della civetta e la denuncia della mafia.",
-  "Due, Il consiglio d'Egitto e Il contesto: il passato come metafora del presente e gli anni di piombo.",
-  "Tre, Todo modo e le ultime opere: il giallo senza soluzione, Candido, Porte aperte e L'affaire Moro."
- ],
- "FIN1": ["Fine della lezione. Grazie per l'attenzione."]
-}
+[
+ {
+  "nome": "AN1",
+  "testo": "Ripercorriamo la vita di Leonardo Sciascia, tappa dopo tappa. Il professore lo presenta come una delle figure più emblematiche e coraggiose del panorama intellettuale italiano del secondo Novecento. È un autore caratterizzato da un'incessante tensione morale e civile. Nasce nel millenovecentoventuno a Racalmuto, in provincia di Agrigento, da una famiglia piccolo borghese. È siciliano, e la Sicilia sarà il suo campo, come per altri scrittori lo sono stati altri ambiti. Consegue il diploma magistrale: era il diploma che portava, di solito, a insegnare alle elementari. Prima di dedicarsi interamente alla scrittura, lavora come maestro elementare. Poi ricopre altri incarichi statali, fino al millenovecentosettanta. Intanto la sua attività culturale prende il via: romanzi, saggi, collaborazioni con giornali, riviste e case editrici. Riscuote subito il favore della critica e l'interesse di intellettuali militanti di sinistra, come Pier Paolo Pasolini. Nel millenovecentosessantuno arriva la consacrazione con Il giorno della civetta. Il libro porta all'attenzione dell'opinione pubblica nazionale il problema della mafia. Nel millenovecentosettantacinque viene eletto come indipendente nelle liste del Partito comunista, al consiglio comunale di Palermo. Ma si dimette presto, per profondi dissensi con la linea del partito. Si avvicina allora al Partito radicale. Dal millenovecentosettantanove al millenovecentoottantatré è deputato. Nel millenovecentoottantanove la sua esistenza si chiude a Palermo. Rivedi la linea del tempo: dalla Sicilia della maestra alla Camera dei deputati.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN2",
+  "testo": "Chiediamoci qual è il campo letterario di Sciascia. È un autore siciliano. Il professore ricorda che lo erano anche Pirandello e Verga. Ma ognuno ha avuto il suo ambito, il suo campo. Quello di Sciascia è la Sicilia e, principalmente, la criminalità organizzata. Il professore precisa che ci sono anche altri concetti da dire, ma questo è il centro. Nelle sue prime opere narrative Sciascia si dedica alla rappresentazione e all'analisi della realtà siciliana. Ma supera i confini regionali. Fa della Sicilia una metafora delle condizioni umane e sociali più ampie. Lo sfondo è la Sicilia, però la riflessione è trasversale, e più grande di così. La sua narrativa si distingue per un'equilibrata e originale miscela di due elementi. Il primo è il gusto per l'intrigo. Il secondo è l'impegno civile. La storia è inventata, la trama è fittizia, ma lo sfondo storico, contemporaneo e attuale, è inquietantemente lo specchio della realtà. Ricorda: Sicilia come punto di partenza, mai come confine.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN3",
+  "testo": "Apriamo la scheda dell'opera fondamentale di Sciascia: Il giorno della civetta. Il professore avverte: è un libro che si legge a scuola, ed è bene conoscerlo con attenzione. L'anno è il millenovecentosessantuno. Con questo romanzo Sciascia ha il merito storico di portare il problema della mafia all'attenzione dell'opinione pubblica nazionale. Non è che la mafia non si conoscesse: era un fenomeno noto, ma sistematicamente trascurato o minimizzato. Ora guardiamo la struttura: è un giallo. L'indagine su un delitto è affidata al capitano Bellodi. Bellodi è un ex partigiano emiliano, quindi un uomo del Nord. Si scontra con l'omertà della popolazione locale. Si scontra con la violenza dei capi mafia, incarnati dalla figura di don Mariano Arena. Ma soprattutto si scontra con un intreccio di legami e di protezioni politiche. Questo intreccio arriva fino a Roma, e impedisce di fatto il trionfo della giustizia. Il professore lo definisce un gesto d'accusa spietato. Ricorda la scheda: anno, genere, protagonista, ostacoli.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN4",
+  "testo": "Per capire il valore del Giorno della civetta bisogna ricordare come veniva trattata la mafia. Nel millenovecentosessantuno è un fenomeno conosciuto, ma sistematicamente trascurato o minimizzato. Dai partiti di governo, anzitutto, in particolare dai partiti della Repubblica. Qualche provvedimento c'era, ma l'idea era di arginare il fenomeno, non di combatterlo fino alla radice. I fatti di mafia venivano rubricati come crimini comuni, invece erano crimini di stampo mafioso. Il professore ricorda un precedente: sotto il fascismo il governo aveva tentato di contrastare il fenomeno. Lo aveva fatto con la carcerazione e con il confino, perché era una lotta contro lo Stato. Poi le cose andarono diversamente: l'Italia comincia a diventare più ricca, siamo in pieno boom economico. Sciascia racconta la Sicilia di alcuni contesti sociali, tipici dei borghi, vicini alla protocriminalità. Ma la mafia non è soltanto brigantaggio organizzato: è un fenomeno ancora presente. Era trascurata dalla politica, dalla magistratura, a volte corrotta, dalle forze dell'ordine e dagli organi di informazione. Sono criminali, ma non sono solo criminali. C'è qualcosa sotto la criminalità: la mafia fa parte del tessuto civile della società. Per questo Sciascia è così importante: fa vedere ciò che molti non volevano vedere.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN5",
+  "testo": "Il talento di Sciascia va oltre la pagina scritta: si traduce in una partecipazione attiva e spesso controversa alla vita politica. Mettiamo a confronto le sue due esperienze, tra gli anni Settanta e Ottanta. Prima esperienza: il Partito comunista. Nel millenovecentosettantacinque è eletto come indipendente, nelle liste del Partito comunista, al consiglio comunale di Palermo. Ma si dimette presto, per profondi dissensi. Il partito stava ormai cercando di accreditarsi presso il sistema di potere, e non era più un partito di rottura. Seconda esperienza: il Partito radicale. È un partito più di rottura, quello di Marco Pannella e di Emma Bonino. Con loro Sciascia condivide le battaglie per i diritti civili. Viene eletto deputato dal millenovecentosettantanove al millenovecentoottantatré. Il professore nota: il sistema in parte corrotto non riesce a fermarlo, perché c'è anche un sistema buono. Cambia l'etichetta politica, ma non cambia il punto fermo: l'indipendenza di giudizio. Ripeti: indipendente nel Partito comunista, deputato nel Partito radicale.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN6",
+  "testo": "Negli anni di cui parliamo l'Italia vive una stagione drammatica: gli anni di piombo. È la fase più convulsa di terrorismo e di brigate rosse, ma anche di terrorismo fascista. Dopo il sequestro di Aldo Moro e la sua uccisione, lo Stato reagisce con leggi speciali antiterrorismo. Sciascia si scaglia con forza contro queste leggi. Ed è per questo che la sua posizione è controversa. Difende strenuamente la legalità democratica e i principi garantisti. Sostiene che quei provvedimenti limitino pericolosamente i diritti costituzionali e le libertà dei cittadini. Il professore ricorda che, in nome dell'emergenza, quei diritti furono davvero limitati, e poi la situazione rientrò. Parallelamente Sciascia continua a denunciare la mafia. Denuncia anche le sue collusioni con i vertici del potere politico. Sollevando aspre polemiche: a destra, a sinistra e anche nel centro democristiano. Le sue posizioni sono anticonformiste e radicali. Ricorda due parole: garantismo e denuncia.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN7",
+  "testo": "Raccogliamo le parole chiave del primo argomento. Ascoltale una per una. Prima parola: impegno civile. È la tensione morale che attraversa ogni opera di Sciascia. Seconda parola: giallo. È la struttura narrativa che unisce il gusto per l'intrigo e il racconto di un delitto. La storia è inventata, ma lo sfondo storico è lo specchio della realtà. Terza parola: mafia, o criminalità organizzata. Il problema che Il giorno della civetta porta all'attenzione di tutti. Quarta parola: omertà. È il silenzio della popolazione, che ostacola le indagini. Quinta parola: garantismo. Sono i principi di tutela dei diritti, in nome dei quali Sciascia combatte le leggi speciali. Sesta parola: anni di piombo. Il periodo dei terrorismi, tra gli anni Settanta e Ottanta. Settima parola: Partito radicale. Il partito di rottura con cui è deputato. Ottava parola: indipendente. È la parola più adatta a descrivere Sciascia. Ripetile ad alta voce, e associa a ognuna un episodio della sua vita.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN8",
+  "testo": "Ecco la mappa concettuale del primo argomento: la vita e l'impegno civile di Sciascia. Al centro c'è Leonardo Sciascia. Primo ramo: le origini. Racalmuto, in provincia di Agrigento, millenovecentoventuno. Sono gli anni di una famiglia piccolo borghese e di un diploma magistrale. Secondo ramo: il lavoro. Maestro elementare, poi altri incarichi statali. Fino al millenovecentosettanta, prima di dedicarsi interamente alla scrittura. Terzo ramo: lo stile. Un'equilibrata miscela di intrigo e di impegno civile. La storia è inventata, ma lo sfondo è lo specchio della realtà. Quarto ramo: Il giorno della civetta, del millenovecentosessantuno. Il problema della mafia entra nell'opinione pubblica nazionale. Quinto ramo: la politica. Il Partito comunista, poi il Partito radicale. Una partecipazione attiva e spesso controversa, fino a deputato. Sesto ramo: le battaglie. Contro le leggi speciali, per le garanzie, e contro le collusioni tra mafia e potere. Sono battaglie che sollevano aspre polemiche a destra, a sinistra e al centro. Ripeti i sei rami, seguendo le parole chiave.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN9",
+  "testo": "Passiamo al secondo argomento. Apriamo la scheda di un romanzo storico: Il consiglio d'Egitto. Il professore parte dal pensiero di Sciascia: la sua profonda matrice culturale affonda le radici nell'illuminismo. Illuminismo vuol dire fiducia nella ragione, nella trasparenza e nel diritto. Sciascia li usa come strumenti critici per smascherare le aberrazioni del potere. Questa attitudine emerge chiaramente nel romanzo storico Il consiglio d'Egitto, del millenovecentosessantatré. La vicenda è ambientata nella Palermo di fine Settecento. Al centro, un contrasto tra due figure antitetiche. Il primo è l'avido cappellano maltese Giuseppe Vella, che falsifica antichi manoscritti arabi. Favorisce così i privilegi dei baroni siciliani contro la Corona, e ne ricava benefici e fama. Il secondo è l'avvocato Di Blasi, un intellettuale impregnato di idee democratiche e lettore dei filosofi francesi. Di Blasi organizza una congiura rivoluzionaria contro il viceré. Ma viene tradito, imprigionato, torturato e decapitato. Ricorda la scheda: anno, ambientazione, due figure, esito.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN10",
+  "testo": "Mettiamo a confronto i due protagonisti del Consiglio d'Egitto. A sinistra, il cappellano Vella. A destra, l'avvocato Di Blasi. Vella è un uomo avido. Di Blasi è un intellettuale impregnato di idee democratiche. Vella falsifica antichi manoscritti arabi. Di Blasi legge i filosofi francesi. Vella lavora a favore dei privilegi dei baroni siciliani contro la Corona. Di Blasi organizza una congiura rivoluzionaria contro il viceré. Vella ricava benefici e fama. Di Blasi viene tradito, imprigionato, torturato e decapitato. Il confronto mostra il senso del romanzo. Da una parte l'inganno al servizio del privilegio, dall'altra la ragione al servizio della giustizia. E la giustizia, nel romanzo, finisce sotto la scure. Ripeti il confronto: avidità e inganno contro ragione e coraggio.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN11",
+  "testo": "Mettiamo a confronto i due romanzi del secondo argomento. A sinistra, Il consiglio d'Egitto, del millenovecentosessantatré. A destra, Il contesto, del millenovecentosettantuno. Il primo è un romanzo storico, ambientato a Palermo alla fine del Settecento. Il secondo è un giallo, ambientato in un paese immaginario che ricalca l'Italia contemporanea. Nel primo il protagonista positivo è l'avvocato Di Blasi, un intellettuale illuminista. Nel secondo il protagonista è l'ispettore Rogas, che indaga su una catena di omicidi di giudici. Il primo racconta una congiura contro il viceré, tradita. Il secondo racconta un complotto eversivo, che coinvolge i servizi segreti. In entrambi, chi cerca la verità paga con la vita. Di Blasi viene giustiziato, Rogas viene ucciso. Nel primo la scrittura è limpida e pacata, di grande forza persuasiva. Nel secondo la scrittura è ironica, disincantata e corrosiva. Il primo usa il passato come metafora per denunciare le storture del presente. Il secondo guarda direttamente al presente, nel clima degli anni di piombo. Ripeti il confronto: forma, protagonista, esito, scrittura.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN12",
+  "testo": "Analizziamo come Sciascia usa il passato nel Consiglio d'Egitto. Il professore lo definisce un autore simbolico, anzi analogico. Leggi la frase sullo schermo, e seguila mentre evidenziamo le parole. Sciascia non alza i toni, non usa enfasi. Primo: limpido. Il suo linguaggio è chiaro e trasparente. Secondo: pacato. Conduce le sue battaglie civili senza toni enfatici. Eppure questo linguaggio ha una grande forza persuasiva. Terzo: violenze. Racconta l'uso della tortura nella Palermo del Settecento. Quarto: ingiustizie. Mostra gli abusi del potere e la corruzione dei sistemi politici. Ma la storia non è solo un quadro del passato. Quinto: monito. Il racconto è un severo avvertimento rivolto al presente. Il messaggio è che i sistemi politici contemporanei non si sono ancora liberati da tali barbarie. Il passato, dunque, funziona come una metafora del nostro tempo. Ripeti i cinque termini: limpido, pacato, violenze, ingiustizie, monito.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN13",
+  "testo": "Con il passare degli anni Sciascia guarda al degrado morale della Repubblica. Vede personalità politiche legate alla mafia e al terrorismo, e poteri economici e finanziari: il professore ricorda anche la P2. La sua indagine lucida si trasforma progressivamente in un cupo pessimismo. Si traduce in una scrittura ironica, disincantata e corrosiva. Siamo al romanzo Il contesto, del millenovecentosettantuno. L'autore adotta la struttura del giallo. L'ambientazione è un paese immaginario, che ricalca fedelmente l'Italia contemporanea. Il protagonista è l'ispettore Rogas. Rogas indaga su una catena di omicidi di giudici. E scopre un vasto complotto eversivo, che coinvolge anche i servizi segreti. Ma non può rivelare la verità: viene ucciso. A causa di un patto sotterraneo tra il governo e il principale partito di opposizione, per preservare un delicato equilibrio politico. Il professore lo collega al clima del compromesso storico. Ricorda la scheda: anno, genere, protagonista, complotto, finale.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN14",
+  "testo": "Per capire Il contesto bisogna conoscere gli anni in cui nasce. Il romanzo riflette l'inquietante clima degli anni della tensione e dello stragismo. Guarda la linea del tempo degli eventi richiamati dal professore. Nel millenovecentosessantanove ci sono le bombe di Piazza Fontana, a Milano. È l'evento che apre la stagione delle stragi. Nel millenovecentosettanta c'è il tentato colpo di Stato, il golpe Borghese. Sono gli anni dei depistaggi e dei servizi segreti coinvolti in trame oscure. Nel millenovecentosettantuno esce Il contesto, che racconta tutto questo come un giallo. Poi c'è il compromesso storico, a cui il professore collega il patto tra governo e opposizione. Naufraga in parte con la morte di Moro, nel millenovecentosettantotto. E il professore ricorda anche la P2, un sistema occulto di potere. Per ogni evento, rimanda al corso di Storia. Rivedi la sequenza: Piazza Fontana, golpe Borghese, Il contesto, compromesso storico, Moro.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN15",
+  "testo": "Raccogliamo le parole chiave del secondo argomento. Prima parola: illuminismo. È la fiducia nella ragione, nella trasparenza e nel diritto. Seconda parola: falsificare. È ciò che fa don Giuseppe Vella con gli antichi manoscritti arabi. Terza parola: congiura. È quella che l'avvocato Di Blasi organizza contro il viceré. Quarta parola: metafora. Il passato racconta il presente: tortura, abuso di potere, corruzione. Quinta parola: pessimismo. È la svolta cupa che nasce dal degrado morale della Repubblica. Sesta parola: complotto. È quello scoperto dall'ispettore Rogas, che coinvolge i servizi segreti. Settima parola: stragismo. È il clima degli anni di piombo, con Piazza Fontana e i tentati colpi di Stato. Ottava parola: depistaggi. Sono le manovre per nascondere la verità. Nona parola: compromesso storico. È l'accordo tra governo e opposizione che sta dietro al patto sotterraneo. Ripetile e collegale al romanzo giusto: Il consiglio d'Egitto oppure Il contesto.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN16",
+  "testo": "Ecco la mappa del secondo argomento: Il consiglio d'Egitto e Il contesto. Al centro c'è Sciascia illuminista e pessimista. Primo ramo: l'illuminismo. Fiducia nella ragione, nella trasparenza e nel diritto. Sono gli strumenti critici con cui smaschera gli abusi del potere. Secondo ramo: Il consiglio d'Egitto, del millenovecentosessantatré. Palermo, fine Settecento: il cappellano Vella e l'avvocato Di Blasi. Terzo ramo: il passato come metafora. Tortura, abuso di potere, corruzione. Un monito rivolto al presente. Quarto ramo: la scrittura. Limpida e pacata, di grande forza persuasiva. Poi, con gli anni, ironica, disincantata e corrosiva. Quinto ramo: Il contesto, del millenovecentosettantuno. Un giallo con l'ispettore Rogas e un complotto di Stato. Rogas viene ucciso per un patto sotterraneo tra governo e opposizione. Sesto ramo: gli anni di piombo. Piazza Fontana, il golpe Borghese, i depistaggi. È il clima da cui nasce il romanzo. Ripeti la mappa, ramo per ramo.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN17",
+  "testo": "Mettiamo in ordine cronologico le opere principali di Sciascia. Guarda la linea del tempo, e collega a ogni titolo il suo tema. Nel millenovecentosessantuno: Il giorno della civetta. Il tema è la mafia. Nel millenovecentosessantatré: Il consiglio d'Egitto, un romanzo storico di impronta illuminista. Nello stesso anno esce anche Morte dell'inquisitore, un testo di inchiesta. Nel millenovecentosettanta: La corda pazza, tra i testi di indagine. Nel millenovecentosettantuno: Il contesto, un giallo sul complotto di Stato. Nel millenovecentosettantaquattro: Todo modo, l'anatomia del potere democristiano. Nel millenovecentosettantacinque: La scomparsa di Majorana. Nel millenovecentosettantasette: Candido, il rifacimento del racconto filosofico di Voltaire. Nel millenovecentosettantanove: L'affaire Moro, un pamphlet politico. Nel millenovecentoottantasette: Porte aperte, contro la pena di morte. Nel millenovecentoottantanove: Una storia semplice, sulla mafia e lo Stato. Osserva come il giallo e la saggistica si alternano lungo tutta la sua carriera. Ripassa la sequenza da capo, con il titolo e il tema di ogni opera.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN18",
+  "testo": "Passiamo al terzo argomento. Apriamo la scheda di Todo modo, del millenovecentosettantaquattro. Il professore lo presenta come il culmine di un quadro radicalmente negativo e impietoso. La vicenda si svolge in un eremo-albergo, un hotel. Qui si raduna l'élite di un partito cattolico di maggioranza, chiaramente la Democrazia cristiana. Il pretesto ufficiale: compiere esercizi spirituali. In realtà, quei notabili sono intenti a spartirsi il potere e il denaro pubblico. L'incontro viene sconvolto da una serie di misteriosi delitti. Che colpiscono i vertici del partito. Qui Sciascia compie una vera e propria violazione dei codici del giallo. L'assassino non viene scoperto: manca la rivelazione finale. È una scelta voluta: il professore osserva che a Sciascia interessa piuttosto mostrare il sistema. Ricorda la scheda: anno, luogo, personaggi, delitti, finale mancato.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN19",
+  "testo": "Analizziamo la scelta più singolare di Todo modo. Un giallo, di solito, finisce con la scoperta del colpevole. Leggi la frase sullo schermo e seguila con le parole evidenziate. Prima parola: rivelazione. Nel romanzo manca, volutamente, la rivelazione finale. Il lettore si aspetta di sapere chi è l'assassino, e non lo saprà. Il professore la chiama una scelta stilistica. Seconda parola: giustizia. Il finale mancato dice che non c'è giustizia. Terza parola: verità. Dice che non si può giungere alla verità. È l'espressione del profondo pessimismo dell'autore. Quarta parola: corrotto. Sciascia non crede alla verità in un sistema profondamente corrotto. L'atmosfera del romanzo è cupa, opprimente, grottesca. Il professore la definisce anche profetica. Pensa al millenovecentonovantadue: lo scandalo giudiziario di Mani pulite. Mani pulite porta alla luce la corruzione sistemica della politica italiana, di maggioranza e di opposizione. Ripeti i quattro termini: rivelazione, giustizia, verità, corrotto.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN20",
+  "testo": "Il professore sottolinea un aspetto: Todo modo anticipa, in modo profetico, ciò che accade molti anni dopo. Nel millenovecentonovantadue esplode lo scandalo giudiziario di Mani pulite. Passano quasi vent'anni dal romanzo, che è del millenovecentosettantaquattro. Mani pulite porta alla luce, davanti agli occhi di tutti, una corruzione sistemica e sistematica. È la corruzione della politica italiana, di maggioranza come di opposizione. Coinvolge i vertici dei partiti e le aziende. Le conseguenze sono pesanti. La Democrazia cristiana si disgrega in modo definitivo. Il Partito socialista italiano si dissolve. Il professore rimanda al corso di Storia per approfondire questi fatti. Intanto, che cosa vedeva Sciascia già nel millenovecentosettantaquattro? Vedeva un'élite politica che si spartiva il potere e il denaro pubblico dietro un pretesto spirituale. Per questo l'atmosfera di Todo modo è cupa, opprimente e grottesca. Ricorda: il romanzo del settantaquattro, lo scandalo del novantadue.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN21",
+  "testo": "Confrontiamo i tre gialli principali di Sciascia, per vedere come cambia lo sguardo dell'autore. Il primo è Il giorno della civetta, del millenovecentosessantuno. Il capitano Bellodi indaga su un delitto. Si scontra con l'omertà, con la violenza dei capi mafia e con le protezioni politiche che arrivano fino a Roma. La giustizia non trionfa, ma l'indagine c'è, e c'è un uomo che la porta avanti. Il secondo è Il contesto, del millenovecentosettantuno. L'ispettore Rogas scopre un complotto di Stato. Ma viene ucciso per tutelare un patto sotterraneo tra governo e opposizione. Qui chi cerca la verità non soltanto non vince: viene eliminato. Il terzo è Todo modo, del millenovecentosettantaquattro. I delitti colpiscono i vertici del partito di maggioranza. E l'assassino non viene scoperto: manca la rivelazione finale. Qui è il genere stesso del giallo a essere violato. Il percorso è chiaro: dall'indagine che trova ostacoli, all'investigatore ucciso, fino alla verità che non arriva. È il cammino del pessimismo di Sciascia. Ripeti i tre finali: giustizia ostacolata, investigatore ucciso, assassino mai scoperto.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN22",
+  "testo": "Negli ultimi anni della sua produzione narrativa Sciascia torna a confrontarsi con i suoi modelli storici e letterari. Nel millenovecentosettantasette pubblica Candido, ovvero un sogno fatto in Sicilia. Il professore lo definisce un esplicito rifacimento del racconto filosofico di Voltaire. Cioè del Candido di Voltaire. Qual è lo scopo? Affrontare le ipocrisie sociali. E affrontare il problematico rapporto di Sciascia con il Partito comunista. Lo fa attraverso gli occhi di un giovane. Il giovane desidera vivere liberamente e felicemente. Vuole vivere fuori dai dogmi ideologici, anche del comunismo, anzi soprattutto del comunismo. Torna dunque il tema dell'indipendenza assoluta, che abbiamo già incontrato. Qui l'illuminismo di Sciascia incontra la tradizione francese del racconto filosofico. Ricorda la scheda: anno, modello, tema, protagonista.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN23",
+  "testo": "Seguiamo ora le ultime opere narrative di Sciascia. Il professore dice che tornano alla struttura poliziesca. Il racconto giallo diventa di nuovo uno strumento per parlare di temi civili. Nel millenovecentoottantasette esce Porte aperte. Al centro c'è una battaglia civile contro la pena di morte. Nel millenovecentoottantanove esce Una storia semplice. Riprende il tema della mafia e della sua pericolosa infiltrazione negli apparati statali. È un ritorno alla materia da cui era partito: la mafia e il potere. Accanto alla narrativa, Sciascia coltiva una vastissima produzione saggistica. Vi profonde la sua penetrante intelligenza analitica. Sono inchieste storiche e letterarie. Nel millenovecentosessantatré, Morte dell'inquisitore. Nel millenovecentosettanta, La corda pazza. Nel millenovecentosettantacinque, La scomparsa di Majorana, che indaga sulla sparizione di un personaggio. E soprattutto un breve pamphlet politico: L'affaire Moro, del millenovecentosettantanove. È dedicato a esaminare numerosi punti oscuri legati al rapimento e all'uccisione del presidente della Democrazia cristiana. Il rapimento era opera delle Brigate Rosse, nel millenovecentosettantotto. Ripassa le quattro tappe: Porte aperte, Una storia semplice, le inchieste, L'affaire Moro.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN24",
+  "testo": "Chiudiamo il terzo argomento con l'eredità intellettuale e lo stile di Sciascia. Il professore parla di un'indipendenza assoluta. La sua attività è mossa da una costante tensione morale e da una razionalità laica. Non si piega alle direttive dei partiti, né a quelle delle istituzioni religiose. Leggi ora la frase sullo schermo e segui le parole evidenziate. Primo: tersa. Una prosa limpida. Secondo: cristallina. Non c'è oscurità. Terzo: essenziale. Niente di superfluo. Quarto: concreta. Parla di fatti, non di sentimenti vaghi. È una scrittura totalmente priva di fronzoli retorici e di sentimentalismi. Quinto: classici. Dietro la semplicità c'è una raffinatissima sapienza letteraria, nutrita dallo studio dei grandi classici. Il rigore morale si riflette perfettamente nello stile. La razionalità illuministica si traduce in una scrittura chiara. Il professore lo descrive come un intellettuale, un politico, un contestatore e un analista sociale, quasi un sociologo. Ripeti: tersa, cristallina, essenziale, concreta, nutrita dai classici.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN25",
+  "testo": "Concludiamo con le parole chiave del terzo argomento. Prima parola: anatomia del potere. È ciò che Sciascia fa in Todo modo, con la politica democristiana. Seconda parola: violazione del genere. Il giallo senza assassino rivelato. Terza parola: Mani pulite. Lo scandalo del millenovecentonovantadue che il romanzo anticipa profeticamente. Quarta parola: racconto filosofico. È la forma di Candido, ripresa da Voltaire. Quinta parola: pena di morte. Il tema di Porte aperte. Sesta parola: infiltrazione. Quella della mafia negli apparati statali, in Una storia semplice. Settima parola: pamphlet. È L'affaire Moro, un testo breve e di denuncia. Ottava parola: razionalità laica. Il metodo di Sciascia: la ragione al di sopra dei dogmi. Ricorda che per ognuna di queste parole c'è un'opera. Ripeti le otto parole, e collega ognuna al suo libro.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN26",
+  "testo": "Ecco la mappa del terzo argomento: Todo modo e le ultime opere. Al centro c'è Sciascia e il suo pessimismo. Primo ramo: Todo modo, del millenovecentosettantaquattro. Un ritiro spirituale di politici democristiani. Intrighi d'affari e di potere, sconvolti da misteriosi delitti. Secondo ramo: il giallo violato. Manca la rivelazione dell'assassino. Verità e giustizia sono impossibili, e il romanzo anticipa Mani pulite. Terzo ramo: Candido, del millenovecentosettantasette. Il modello è Voltaire. Al centro, il rapporto problematico con il Partito comunista. Quarto ramo: il ritorno al giallo. Porte aperte e Una storia semplice. Pena di morte, mafia e infiltrazioni statali. Quinto ramo: la saggistica. Inchieste, e L'affaire Moro, del millenovecentosettantanove. Un pamphlet sui punti oscuri del rapimento. Sesto ramo: lo stile. Terso, essenziale, concreto, nutrito dai classici. È la scrittura di un intellettuale indipendente e razionale. Ripeti i sei rami, seguendo le parole chiave.",
+  "lingua": "it"
+ },
+ {
+  "nome": "ANF",
+  "testo": "Concludiamo con la mappa di tutta la lezione su Leonardo Sciascia. Al centro c'è Sciascia, intellettuale indipendente. Primo ramo: la vita. Nato a Racalmuto nel millenovecentoventuno, maestro elementare. Secondo ramo: l'impegno civile. Il giorno della civetta, del millenovecentosessantuno, porta il problema della mafia all'opinione pubblica. Terzo ramo: la politica. Prima indipendente nel Partito comunista, poi deputato radicale. Quarto ramo: l'illuminismo. Il consiglio d'Egitto usa il passato come metafora del presente. Quinto ramo: il pessimismo. Il contesto e Todo modo, due gialli che denunciano il potere. Sesto ramo: lo stile e le ultime opere. Una prosa tersa e concreta, da Candido a L'affaire Moro. Questa mappa è il filo di tutta la lezione. Prima di passare al glossario, prova a ripercorrerla con parole tue.",
+  "lingua": "it"
+ }
+]
