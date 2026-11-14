@@ -2,7 +2,7 @@
  "tag": "letteratura-V-lez26",
  "parti": {
   "1": {
-   "stato": "PRONTA",
+   "stato": "IN_MONTAGGIO",
    "titolo": "Italo Calvino",
    "voci": "kore",
    "quiz_ok": "si",
@@ -398,10 +398,14 @@
   {
    "quando": "14/11 07:49",
    "testo": "chat B2 · PRONTA e CONSEGNATA sul ramo consegna-letteratura-V-lez26. Misurato: 33:00.7, 59422 fotogrammi, 126,0 MB, 1920x1080, -16,0 LUFS, quiz 5/5, nessun fermo. Sotto i 50 min (docente 25:32, nessun riempitivo). Card dai testi delle slide del docente nel video. t_verifica 1962.233 s, t_compiti 1975.733 s. Sottotitoli Whisper base con nomi/date corretti (1943, 1983 Palomar); controllo automatico attacco 47%, campione con trascrizione 15/16 sulla parola giusta. Il docente dice e scrive che Calvino muore nel 1983: nei sottotitoli resta la sua parola, nelle card e nelle voci l'anno non c'è."
+  },
+  {
+   "quando": "14/11 22:17",
+   "testo": "Letteratura V · chat R5: presa, v2 con approfondimenti animati (servono almeno 17 min, obiettivo 19-22)"
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 26",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 07:49:05"
+ "aggiornato": "2026-11-14 22:17:19"
 }
