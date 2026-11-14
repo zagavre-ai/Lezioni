@@ -6,16 +6,25 @@
   }
  },
  "manca": "",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "14/11 13:50",
+   "testo": "Lezione 13: i 3 file del video (78:50 in tutto) finiscono a metà frase sull'armistizio dell'8 settembre 1943 («...l'Italia di Vittorio Emanuele»). L'ultima slide (Italia divisa, Salò) non viene spiegata. Manca un quarto file? Intanto monto con quello che c'è; se arriva il seguito lo aggiungo."
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
    "quando": "14/11 12:27",
    "testo": "Storia V · chat S3 (preparazione: trascrizione e slide mentre la lezione 5 aspetta le voci)"
+  },
+  {
+   "quando": "14/11 13:50",
+   "testo": "Trascrizione finita; 8 argomenti; previste 2 Parti (P1 argomenti 1-4, P2 5-8)."
   }
  ],
  "materia": "Storia V",
  "lezione": "Lezione 13",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 12:27:09"
+ "aggiornato": "2026-11-14 13:50:54"
 }
