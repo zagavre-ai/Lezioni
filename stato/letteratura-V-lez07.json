@@ -2,7 +2,7 @@
  "tag": "letteratura-V-lez07",
  "parti": {
   "1": {
-   "stato": "IN_MONTAGGIO",
+   "stato": "FERMA",
    "titolo": "Il romanzo nell'Europa e nell'Italia del Decadentismo",
    "voci": "kore",
    "quiz_ok": "si",
@@ -312,7 +312,7 @@
    ]
   }
  },
- "manca": "",
+ "manca": "Voci Kore AN* non ancora arrivate (testi inviati 22:25, ramo voci-letteratura-V-lez07). Tagli video e dispensa pronti; riprendo appena le voci sono nel ramo.",
  "serve_master": [
   {
    "quando": "14/11 01:09",
@@ -370,5 +370,5 @@
  "materia": "Letteratura italiana · V anno",
  "lezione": "Lezione 7",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 23:07:25"
+ "aggiornato": "2026-11-14 23:37:42"
 }
