@@ -7,7 +7,12 @@
   }
  },
  "manca": "COMPITI_MANCANTI; test PROPOSTA_DA_VALIDARE; slide ricavate dal video (fotogrammi + lettura del testo)",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "14/11 13:03",
+   "testo": "voce MAPF1 di lez21: la voce generata dice un testo inventato (dopoguerra, Keynes...), non il testo inviato. Scartata. Chiesta di nuovo con nome nuovo MAPF1B, stesso testo, sul ramo voci-storia-V-lez21. (Anche AN2 di lez19 aveva frasi inventate: tagliate a mano.)"
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
@@ -18,5 +23,5 @@
  "materia": "Storia",
  "lezione": "21",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 12:44:20"
+ "aggiornato": "2026-11-14 13:03:57"
 }
