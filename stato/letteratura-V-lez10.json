@@ -2,7 +2,314 @@
  "tag": "letteratura-V-lez10",
  "parti": {
   "1": {
-   "stato": "IN_MONTAGGIO"
+   "stato": "PRONTA",
+   "titolo": "Il primo Novecento e la lirica italiana",
+   "voci": "kore",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "si",
+   "video": "Letteratura_Lez10_Parte1_1080p.mp4",
+   "durata_s": 2556.2,
+   "durata": "42:36.2",
+   "fotogrammi": 76686,
+   "fotogrammi_attesi": 76686,
+   "peso_MB": 165.0,
+   "vtt": "Letteratura_Lez10_Parte1.vtt",
+   "scheda": {
+    "materia": "Letteratura italiana (V)",
+    "titolo": "Il primo Novecento e la lirica italiana · Parte 1",
+    "durata_s": 2556.2,
+    "argomenti": [
+     {
+      "n": 1,
+      "titolo": "L'Età giolittiana e la Grande Guerra",
+      "inizio_s": 257.9,
+      "quiz_s": 1024.133
+     },
+     {
+      "n": 2,
+      "titolo": "Trasformazioni sociali e culturali",
+      "inizio_s": 1029.133,
+      "quiz_s": 1774.633
+     },
+     {
+      "n": 3,
+      "titolo": "I crepuscolari",
+      "inizio_s": 1779.633,
+      "quiz_s": 2119.133
+     },
+     {
+      "n": 4,
+      "titolo": "I vociani e Clemente Rebora",
+      "inizio_s": 2124.133,
+      "quiz_s": 2419.967
+     }
+    ],
+    "quiz": {
+     "Q1": {
+      "title": "Quiz 1 · L'Età giolittiana e la Grande Guerra",
+      "items": [
+       {
+        "p": "Chi guida il governo italiano tra il 1903 e il 1914?",
+        "a": "Giovanni Giolitti",
+        "w": [
+         "Vittorio Emanuele III",
+         "Agostino Depretis",
+         "Benito Mussolini"
+        ],
+        "e": "La politica dell'equilibrio, guidata da Giovanni Giolitti tra il 1903 e il 1914."
+       },
+       {
+        "p": "Fino a che età viene innalzato l'obbligo scolastico in età giolittiana?",
+        "a": "Fino a dodici anni",
+        "w": [
+         "Fino a otto anni",
+         "Fino a sedici anni",
+         "Fino a diciotto anni"
+        ],
+        "e": "Innalzamento dell'obbligo scolastico fino a dodici anni."
+       },
+       {
+        "p": "Perché nel 1911 l'Italia fa la guerra in Libia?",
+        "a": "Per contrastare la disoccupazione e l'emigrazione",
+        "w": [
+         "Per difendersi da un attacco libico",
+         "Per aiutare l'Austria-Ungheria",
+         "Per rispettare la Triplice Alleanza"
+        ],
+        "e": "Ripresa dell'espansionismo nel settembre 1911 con la guerra in Libia, per contrastare la disoccupazione e l'emigrazione."
+       },
+       {
+        "p": "Quale evento fa scoppiare la Prima guerra mondiale?",
+        "a": "L'attentato di Sarajevo del 28 giugno 1914",
+        "w": [
+         "La rivoluzione d'ottobre",
+         "La guerra in Libia",
+         "La pace di Brest-Litovsk"
+        ],
+        "e": "Scoppio della Prima guerra mondiale dopo l'attentato di Sarajevo il 28 giugno 1914."
+       },
+       {
+        "p": "Quando l'Italia entra in guerra?",
+        "a": "Il 24 maggio 1915",
+        "w": [
+         "Il 28 giugno 1914",
+         "Nel settembre 1911",
+         "Nel 1917"
+        ],
+        "e": "Ingresso in guerra il 24 maggio 1915."
+       }
+      ]
+     },
+     "Q2": {
+      "title": "Quiz 2 · Trasformazioni sociali e culturali",
+      "items": [
+       {
+        "p": "Che effetto ha l'esperienza delle trincee sulla lingua?",
+        "a": "Soldati di regioni diverse devono comunicare superando i dialetti",
+        "w": [
+         "I soldati imparano il tedesco",
+         "Si torna a parlare solo in dialetto",
+         "Si diffonde il latino come lingua comune"
+        ],
+        "e": "L'esperienza delle trincee ha costretto soldati di regioni e classi sociali diverse a comunicare tra loro superando i dialetti locali."
+       },
+       {
+        "p": "Che cos'è l'italiano popolare?",
+        "a": "Una lingua viva delle classi subalterne, tra italiano ufficiale e dialetto",
+        "w": [
+         "La lingua dei poeti crepuscolari",
+         "L'italiano dei giornali di Firenze",
+         "La lingua dei documenti ufficiali dello Stato"
+        ],
+        "e": "Lingua viva usata dalle classi subalterne, nata dalla mescolanza tra l'italiano ufficiale e forme dialettali."
+       },
+       {
+        "p": "Quale di questi fattori accelera l'unificazione linguistica?",
+        "a": "Il servizio militare obbligatorio",
+        "w": [
+         "La televisione di Stato",
+         "L'iscrizione obbligatoria ai partiti",
+         "Lo studio dell'inglese"
+        ],
+        "e": "Il servizio militare obbligatorio, l'urbanesimo e l'emigrazione interna hanno accelerato l'unificazione linguistica."
+       },
+       {
+        "p": "Quale teoria introduce Sigmund Freud?",
+        "a": "La psicoanalisi e la scoperta dell'inconscio",
+        "w": [
+         "La teoria della relatività",
+         "Il Positivismo",
+         "L'idealismo"
+        ],
+        "e": "La psicoanalisi di Sigmund Freud (scoperta dell'inconscio)."
+       },
+       {
+        "p": "In quale città nascono le riviste «La Voce» e «Lacerba»?",
+        "a": "Firenze",
+        "w": [
+         "Milano",
+         "Torino",
+         "Roma"
+        ],
+        "e": "Fioritura a Firenze di riviste militanti come «La Voce» e «Lacerba»."
+       }
+      ]
+     },
+     "Q3": {
+      "title": "Quiz 3 · I crepuscolari",
+      "items": [
+       {
+        "p": "Contro quale modello polemizzano i crepuscolari?",
+        "a": "Il poeta-veggente e l'estetismo di D'Annunzio",
+        "w": [
+         "La poesia dialettale",
+         "Il Verismo di Verga",
+         "La lirica dei vociani"
+        ],
+        "e": "Netta polemica contro la figura del poeta-veggente e l'estetismo aristocratico di Gabriele D'Annunzio."
+       },
+       {
+        "p": "Qual è il tono della poesia crepuscolare?",
+        "a": "Dimesso, malinconico e ironico",
+        "w": [
+         "Solenne ed eroico",
+         "Aggressivo e futurista",
+         "Religioso e mistico"
+        ],
+        "e": "Una poesia dal tono dimesso, malinconico e ironico."
+       },
+       {
+        "p": "Di che cosa parlano di preferenza i crepuscolari?",
+        "a": "Delle «piccole cose» e della vita di provincia",
+        "w": [
+         "Delle grandi imprese militari",
+         "Delle macchine e della velocità",
+         "Dei miti dell'antica Grecia"
+        ],
+        "e": "Focalizzata sulle «piccole cose», sulla quotidianità borghese e sugli ambienti provinciali."
+       },
+       {
+        "p": "Chi è l'esponente principale dei crepuscolari?",
+        "a": "Guido Gozzano",
+        "w": [
+         "Clemente Rebora",
+         "Gabriele D'Annunzio",
+         "Filippo Tommaso Marinetti"
+        ],
+        "e": "Guido Gozzano: esponente principale."
+       },
+       {
+        "p": "Che cosa usa Gozzano per dichiarare la fine del sublime?",
+        "a": "L'ironia e lo scontro tra la bellezza del passato e lo squallore del presente",
+        "w": [
+         "Lo stile alto e sublime dei classici",
+         "Il verso libero dei futuristi",
+         "Le parole in libertà"
+        ],
+        "e": "Utilizza l'ironia e lo scontro tra la bellezza del passato e lo squallore del presente per dichiarare la fine del sublime autentico."
+       }
+      ]
+     },
+     "Q4": {
+      "title": "Quiz 4 · I vociani e Clemente Rebora",
+      "items": [
+       {
+        "p": "Che cosa cercano i poeti della Voce?",
+        "a": "Il frammentismo lirico e l'espressione diretta della soggettività",
+        "w": [
+         "Il ritorno al sonetto e alla rima",
+         "La poesia narrativa in ottave",
+         "Il racconto impersonale verista"
+        ],
+        "e": "Ricerca di frammentismo lirico, espressione diretta della propria soggettività e rifiuto delle forme metriche tradizionali."
+       },
+       {
+        "p": "Come si pongono i vociani verso le forme metriche tradizionali?",
+        "a": "Le rifiutano",
+        "w": [
+         "Le seguono alla lettera",
+         "Le usano solo nelle canzoni",
+         "Le copiano da D'Annunzio"
+        ],
+        "e": "Rifiuto delle forme metriche tradizionali."
+       },
+       {
+        "p": "Che cosa esprime la poesia di Clemente Rebora?",
+        "a": "Un forte impegno etico e la denuncia della disumanizzazione urbana",
+        "w": [
+         "L'amore per la vita mondana",
+         "L'esaltazione della macchina",
+         "La nostalgia per il buon tempo antico"
+        ],
+        "e": "Forte impegno etico, tensione espressionistica e denuncia della disumanizzazione urbana."
+       },
+       {
+        "p": "Che cosa descrive la poesia Viatico?",
+        "a": "L'orrore e lo strazio dei soldati in trincea",
+        "w": [
+         "Un viaggio in treno verso il mare",
+         "La vita in una villa di provincia",
+         "Una festa di paese"
+        ],
+        "e": "Descrive con crudo realismo l'orrore e lo strazio dei soldati in trincea."
+       },
+       {
+        "p": "In che cosa trasforma la sofferenza Rebora in Viatico?",
+        "a": "In un richiamo morale alla solidarietà umana",
+        "w": [
+         "In un inno alla vittoria",
+         "In un gioco ironico",
+         "In una preghiera per la patria"
+        ],
+        "e": "Trasformando la sofferenza in un richiamo morale alla solidarietà umana."
+       }
+      ]
+     }
+    }
+   },
+   "timeline": [
+    [
+     "T1",
+     257.9,
+     3.5
+    ],
+    [
+     "Q1",
+     1024.133,
+     5.0
+    ],
+    [
+     "T2",
+     1029.133,
+     3.5
+    ],
+    [
+     "T3",
+     1779.633,
+     3.5
+    ],
+    [
+     "T4",
+     2124.133,
+     3.5
+    ],
+    [
+     "GL",
+     2424.967,
+     54.933
+    ],
+    [
+     "RF",
+     2479.9,
+     51.033
+    ],
+    [
+     "FIN",
+     2530.933,
+     6.767
+    ]
+   ]
   }
  },
  "manca": "",
@@ -25,10 +332,14 @@
   {
    "quando": "14/11 04:05",
    "testo": "chat B2: docente misurato 36:19; quiz 20 domande (4 argomenti) e 11 testi voci (INTRO, R1-R4, S1-S4, GL, RF, FIN) inviati su voci-letteratura-V-lez10. Con gli inserti si stima circa 42 min: sotto i 50 senza riempitivi (stesso caso della lez07 di chat D)."
+  },
+  {
+   "quando": "14/11 06:23",
+   "testo": "chat B2 · PRONTA e CONSEGNATA sul ramo consegna-letteratura-V-lez10. Misurato: 42:36.2, 76686 fotogrammi, 165,0 MB, 1920x1080, -16,0 LUFS, quiz 4/4 entro 0,003 s, nessun fermo (il video originale ha 6 s di webcam ferma a 222,5-228,6 s: in quel tratto si vede la slide con zoom lento, senza cerchio, voce del docente intera). Sotto i 50 min (docente 36:19, nessun riempitivo). t_verifica 2537.7 s, t_compiti 2551.2 s. Sottotitoli Whisper base con nomi corretti; controllo automatico attacco 57%, campione con trascrizione 14/16 sulla parola giusta."
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 10",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 04:05:47"
+ "aggiornato": "2026-11-14 06:23:15"
 }
