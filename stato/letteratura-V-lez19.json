@@ -245,7 +245,9 @@
      2107.916,
      5.233
     ]
-   ]
+   ],
+   "t_verifica": 2101.616,
+   "t_compiti": 2125.936
   }
  },
  "manca": "",
@@ -259,10 +261,14 @@
   {
    "quando": "14/11 07:43",
    "testo": "controllo_finale: ESITO: TUTTO OK"
+  },
+  {
+   "quando": "14/11 07:44",
+   "testo": "chat E2: PRONTA e consegnata sul ramo consegna-letteratura-V-lez19. Una Parte di 35:32: il video del docente dura solo 29:35, quindi resta sotto i 50 minuti (nessun riempitivo). Card ricostruite dalle slide del video (nessuna videodispensa per le lezioni 17-26); foto degli autori delle slide non usate. t_verifica 2101,616 s · t_compiti 2125,936 s."
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 19",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 07:43:05"
+ "aggiornato": "2026-11-14 07:44:39"
 }
