@@ -337,7 +337,9 @@
      2716.216,
      5.2
     ]
-   ]
+   ],
+   "t_verifica": 2709.916,
+   "t_compiti": 2734.203
   }
  },
  "manca": "",
@@ -345,6 +347,10 @@
   {
    "quando": "14/11 04:55",
    "testo": "lez13 dura 82 min: due Parti. Sul ramo voci-letteratura-V-lez13 ho aggiunto testi_voci_P2.json (IN2, RIP: apertura della Parte 2 con il ripasso della Parte 1), 2 blocchi nuovi. Se non si possono generare, la Parte 2 si apre senza ripasso a voce."
+  },
+  {
+   "quando": "14/11 07:09",
+   "testo": "voci lez13: R3.wav dice solo «La coscienza di Zeno» e R4.wav dice «e infine alcuni testi della coscienza di Zeno» (frase dell'INTRO, non del ripasso): usate così, con la didascalia uguale all'audio."
   }
  ],
  "domande_sara": [],
@@ -368,10 +374,14 @@
   {
    "quando": "14/11 07:06",
    "testo": "controllo_finale: ESITO: TUTTO OK"
+  },
+  {
+   "quando": "14/11 07:09",
+   "testo": "chat E2: PRONTA in due Parti (43:09 e 45:41; il docente parla 82 min) e consegnata sul ramo consegna-letteratura-V-lez13. Parte 1: argomenti 1-3, chiude con la sigla. Parte 2: testi della Coscienza di Zeno, poi glossario, ripasso finale, Verifica (t_verifica 2709,916 s), sigla, Compiti (t_compiti 2734,203 s). La Parte 2 si apre senza ripasso a voce: IN2 e RIP non sono arrivati."
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 13",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 07:06:18"
+ "aggiornato": "2026-11-14 07:09:00"
 }
