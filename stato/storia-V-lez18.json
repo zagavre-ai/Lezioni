@@ -10,6 +10,10 @@
   {
    "quando": "14/11 22:48",
    "testo": "Voci Kore storia-V-lez18: 39 testi in scambio/storia-V-lez18/testi_voci.json (ramo voci-storia-V-lez18), 17 minuti circa di voce. Quiz: scambio/storia-V-lez18/quiz.json (30 domande, da approvare)."
+  },
+  {
+   "quando": "14/11 23:39",
+   "testo": "storia-V-lez18: testi_voci.json aggiornato a 40 testi (aggiunto AN3c); se hai gia' generato i 39 precedenti basta generare solo AN3c. Montaggio pronto, aspetto le voci."
   }
  ],
  "domande_sara": [],
@@ -26,5 +30,5 @@
  "materia": "Storia",
  "lezione": "Lezione 18 · L'Italia repubblicana",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 22:48:02"
+ "aggiornato": "2026-11-14 23:39:45"
 }
