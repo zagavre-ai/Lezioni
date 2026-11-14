@@ -2,9 +2,383 @@
  "tag": "letteratura-V-lez06",
  "parti": {
   "1": {
-   "stato": "IN_CODIFICA",
+   "stato": "PRONTA",
    "titolo": "Decadentismo e Simbolismo",
-   "voci": "kore"
+   "voci": "kore",
+   "t_verifica": 2494.533,
+   "t_compiti": 2514.4,
+   "consegna": "ramo consegna-letteratura-V-lez06 (video in 2 pezzi da 90 MB + sha256, vtt, quiz, test, dispensa, scheda, testo YouTube)",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "si",
+   "video": "Letteratura_Lez6_Parte1_1080p.mp4",
+   "durata_s": 2519.4,
+   "durata": "41:59.4",
+   "fotogrammi": 75582,
+   "fotogrammi_attesi": 75582,
+   "peso_MB": 165.2,
+   "vtt": "Letteratura_Lez6_Parte1.vtt",
+   "scheda": {
+    "materia": "Letteratura italiana (V)",
+    "titolo": "Decadentismo e Simbolismo",
+    "durata_s": 2519.4,
+    "argomenti": [
+     {
+      "n": 1,
+      "titolo": "Il Decadentismo e i poeti maledetti",
+      "inizio_s": 49.867,
+      "quiz_s": 586.0
+     },
+     {
+      "n": 2,
+      "titolo": "L'origine del termine: Languore",
+      "inizio_s": 591.3,
+      "quiz_s": 1023.6
+     },
+     {
+      "n": 3,
+      "titolo": "La visione decadente del mondo",
+      "inizio_s": 1028.9,
+      "quiz_s": 1419.967
+     },
+     {
+      "n": 4,
+      "titolo": "Rimbaud e il sonetto Vocali",
+      "inizio_s": 1425.267,
+      "quiz_s": 1933.8
+     },
+     {
+      "n": 5,
+      "titolo": "Poetica, temi e figure tipiche",
+      "inizio_s": 1939.1,
+      "quiz_s": 2411.267
+     }
+    ],
+    "quiz": {
+     "Q1": {
+      "title": "Quiz 1 · Il Decadentismo e i poeti maledetti",
+      "items": [
+       {
+        "p": "In quale periodo si sviluppa la corrente culturale del Decadentismo?",
+        "a": "Negli ultimi due decenni dell'Ottocento, con prolungamenti nel primo Novecento",
+        "w": [
+         "Nella prima metà dell'Ottocento, in piena età romantica",
+         "Alla metà del Settecento, contro l'Illuminismo",
+         "Solo dopo la prima guerra mondiale"
+        ],
+        "e": "Il Decadentismo si sviluppa negli ultimi due decenni dell'Ottocento (anni Ottanta e Novanta) e si prolunga nel primo Novecento."
+       },
+       {
+        "p": "Con quale significato la critica ufficiale usa all'inizio il termine «decadentismo»?",
+        "a": "In senso negativo e spregiativo",
+        "w": [
+         "In senso elogiativo, per celebrare i nuovi poeti",
+         "In senso tecnico, per indicare una forma metrica",
+         "In senso politico, per indicare un partito"
+        ],
+        "e": "La critica ufficiale usa il termine in accezione negativa e spregiativa, contro un movimento letterario parigino."
+       },
+       {
+        "p": "Contro che cosa si schierano i gruppi d'avanguardia decadenti?",
+        "a": "Contro la mentalità borghese e l'ottimismo positivista",
+        "w": [
+         "Contro la poesia di Baudelaire",
+         "Contro il sogno e l'irrazionale",
+         "Contro la vita bohémienne"
+        ],
+        "e": "Sono movimenti contrari alla mentalità borghese e all'ottimismo positivista, con atteggiamenti bohémiens e provocatori ispirati a Baudelaire."
+       },
+       {
+        "p": "Come reagiscono gli artisti al termine spregiativo usato dalla critica?",
+        "a": "Lo ribaltano e lo assumono come bandiera d'orgoglio e privilegio spirituale",
+        "w": [
+         "Lo rifiutano e cambiano nome al movimento",
+         "Lo accettano come una critica giusta",
+         "Lo ignorano e smettono di scrivere"
+        ],
+        "e": "Gli artisti ribaltano polemicamente il senso del termine e lo assumono come un privilegio spirituale e una bandiera d'orgoglio."
+       },
+       {
+        "p": "Quale romanzo è considerato il manifesto letterario del Decadentismo?",
+        "a": "Controcorrente (1884) di Joris-Karl Huysmans",
+        "w": [
+         "Languore di Paul Verlaine",
+         "I fiori del male di Charles Baudelaire",
+         "Vocali di Arthur Rimbaud"
+        ],
+        "e": "Il manifesto è il romanzo Controcorrente (1884) di Huysmans, che fissa le tematiche del gruppo."
+       }
+      ]
+     },
+     "Q2": {
+      "title": "Quiz 2 · L'origine del termine: Languore",
+      "items": [
+       {
+        "p": "Con che cosa si identifica l'io lirico nel sonetto Languore?",
+        "a": "Con l'Impero romano alla fine della sua decadenza",
+        "w": [
+         "Con un eroe che guida i barbari alla vittoria",
+         "Con la natura che rinasce in primavera",
+         "Con la Parigi moderna e industriale"
+        ],
+        "e": "«Sono l'Impero alla fine della decadenza»: il testo si identifica con la stanchezza spirituale dell'Impero romano al tramonto."
+       },
+       {
+        "p": "Qual è la forma metrica di Languore?",
+        "a": "Un sonetto: due quartine e due terzine",
+        "w": [
+         "Una canzone in versi liberi",
+         "Un poema in ottave",
+         "Un'ode in metrica barbara"
+        ],
+        "e": "Languore è un sonetto (4-4-3-3), con un andamento lento che riflette il tedio e la svogliatezza."
+       },
+       {
+        "p": "Quale atmosfera domina il sonetto?",
+        "a": "Vuoto, noia e stanchezza spirituale",
+        "w": [
+         "Entusiasmo per il progresso",
+         "Fiducia nella scienza e nella ragione",
+         "Gioia per una vittoria in battaglia"
+        ],
+        "e": "Il testo è immerso nel vuoto e nella noia: è la stanchezza spirituale di una civiltà alla fine."
+       },
+       {
+        "p": "Come vive il poeta l'idea di un cataclisma imminente?",
+        "a": "La assapora con compiacimento autodistruttivo",
+        "w": [
+         "Con terrore, e cerca di fuggire",
+         "Combattendo per salvare la civiltà",
+         "Con la preghiera e la speranza"
+        ],
+        "e": "Il cataclisma imminente non è vissuto con terrore, ma assaporato con un compiacimento autodistruttivo."
+       },
+       {
+        "p": "Come assiste il poeta alle «lunghe battaglie cruente»?",
+        "a": "In uno stato di totale passività e indifferenza",
+        "w": [
+         "Combattendo in prima fila",
+         "Raccontandole come un cronista di guerra",
+         "Celebrandole con entusiasmo"
+        ],
+        "e": "Il poeta sente dire che laggiù infuriano battaglie, ma resta passivo e indifferente: l'unica attività sono esercizi letterari raffinati e inutili."
+       }
+      ]
+     },
+     "Q3": {
+      "title": "Quiz 3 · La visione decadente del mondo",
+      "items": [
+       {
+        "p": "Quale visione della realtà rifiuta il Decadentismo?",
+        "a": "Quella del Positivismo, con fenomeni regolati da leggi deterministiche",
+        "w": [
+         "Quella mistica, basata sul mistero",
+         "Quella simbolica, basata sulle corrispondenze",
+         "Quella irrazionale, basata sul sogno"
+        ],
+        "e": "Il Decadentismo rifiuta la visione scientifica e razionale che considera la realtà un complesso di fenomeni regolati da leggi deterministiche."
+       },
+       {
+        "p": "Che cosa nasconde la realtà, secondo i decadenti?",
+        "a": "Un mistero, al di là delle cose visibili",
+        "w": [
+         "Solo fenomeni misurabili",
+         "La legge del progresso",
+         "Nulla oltre ciò che si vede"
+        ],
+        "e": "La realtà non è mossa dal progresso, ma nasconde un mistero al di là delle cose visibili."
+       },
+       {
+        "p": "Chi esprime il concetto della rete di corrispondenze, e in quale testo?",
+        "a": "Charles Baudelaire, nel sonetto Corrispondenze",
+        "w": [
+         "Paul Verlaine, nel sonetto Languore",
+         "Arthur Rimbaud, nel sonetto Vocali",
+         "Huysmans, nel romanzo Controcorrente"
+        ],
+        "e": "Tutti gli aspetti della natura sono legati da legami occulti in una misteriosa unità: lo esprime Baudelaire in Corrispondenze."
+       },
+       {
+        "p": "Quale scoperta nasce dal crollo della fiducia nella ragione?",
+        "a": "L'inconscio, una nuova dimensione della psiche",
+        "w": [
+         "Il metodo sperimentale",
+         "Le leggi dell'ereditarietà",
+         "Il romanzo naturalista"
+        ],
+        "e": "La scoperta dell'inconscio è il nucleo fondamentale della cultura decadente."
+       },
+       {
+        "p": "Che cosa fa l'estetismo, secondo la visione decadente?",
+        "a": "Trasforma la vita stessa in un'opera d'arte",
+        "w": [
+         "Mette la morale comune al di sopra dell'arte",
+         "Descrive la realtà in modo oggettivo",
+         "Rifiuta il culto della bellezza"
+        ],
+        "e": "L'arte diventa il valore supremo: l'estetismo trasforma la vita in un'opera d'arte e mette l'estetica sopra la morale comune."
+       }
+      ]
+     },
+     "Q4": {
+      "title": "Quiz 4 · Rimbaud e il sonetto Vocali",
+      "items": [
+       {
+        "p": "Su che cosa si fonda il sonetto Vocali?",
+        "a": "Sull'accostamento tra i suoni delle vocali e specifici colori",
+        "w": [
+         "Sul racconto di un viaggio in mare",
+         "Sulla descrizione dell'Impero romano",
+         "Su una serie di dialoghi tra personaggi"
+        ],
+        "e": "Il testo accosta sistematicamente ogni vocale a un colore: A nera, E bianca, I rossa, U verde, O blu."
+       },
+       {
+        "p": "Quale colore associa Rimbaud alla vocale A?",
+        "a": "Il nero",
+        "w": [
+         "Il bianco",
+         "Il rosso",
+         "Il verde"
+        ],
+        "e": "Alla A Rimbaud associa il nero dei corsetti villosi delle mosche che ronzano intorno a fetori crudeli."
+       },
+       {
+        "p": "Come si chiama la fusione di sensazioni uditive e visive usata in Vocali?",
+        "a": "Sinestesia",
+        "w": [
+         "Anafora",
+         "Panismo",
+         "Enjambement"
+        ],
+        "e": "La sinestesia fonde sensazioni di sensi diversi: qui il suono delle vocali e il colore."
+       },
+       {
+        "p": "Che cosa diventa la poesia nel sonetto Vocali?",
+        "a": "Un atto magico che suscita immagini sfumate e indefinite",
+        "w": [
+         "Una descrizione oggettiva della realtà",
+         "Un trattato scientifico sui colori",
+         "Una cronaca della vita a Parigi"
+        ],
+        "e": "La poesia non descrive una realtà oggettiva: è un atto magico che evoca immagini sfumate nella mente del lettore."
+       },
+       {
+        "p": "Con quale immagine si chiude il sonetto?",
+        "a": "L'Omega, «raggio violetto dei Suoi Occhi»: una visione mistica",
+        "w": [
+         "La A nera delle mosche",
+         "I pascoli seminati di animali",
+         "Il sangue sputato e le labbra belle"
+        ],
+        "e": "Il sonetto si chiude con la visione mistica dell'Omega, che richiama l'alfa e l'omega della Bibbia."
+       }
+      ]
+     },
+     "Q5": {
+      "title": "Quiz 5 · Poetica, temi e figure tipiche",
+      "items": [
+       {
+        "p": "Quali strumenti si usano per attingere al mistero?",
+        "a": "Gli stati aberranti della mente: malattia, follia, delirio, sogno, allucinazione",
+        "w": [
+         "La scienza e la ragione",
+         "Gli esperimenti di laboratorio",
+         "Le leggi della storia"
+        ],
+        "e": "La scienza e la ragione non bastano: si usano gli stati aberranti della mente."
+       },
+       {
+        "p": "Che cos'è il panismo?",
+        "a": "La ricerca di una fusione profonda con il tutto e con la natura",
+        "w": [
+         "La paura ossessiva della natura",
+         "Il rifiuto della natura per la città",
+         "Una forma metrica del sonetto"
+        ],
+        "e": "Il panismo è la fusione profonda con il tutto e con la natura, esaltata in Italia da d'Annunzio."
+       },
+       {
+        "p": "Quale di queste espressioni è un esempio di sinestesia citato nella dispensa?",
+        "a": "«Profumi freschi, verdi, dolci»",
+        "w": [
+         "«Sono l'Impero alla fine della decadenza»",
+         "«Tutto è bevuto, tutto è mangiato»",
+         "«I grandi Barbari bianchi»"
+        ],
+        "e": "Profumi (olfatto) freschi (tatto), verdi (vista), dolci (gusto): sensazioni di sensi diversi fuse insieme."
+       },
+       {
+        "p": "Chi è la donna fatale nella letteratura decadente?",
+        "a": "Una dominatrice lussuriosa e perversa che consuma le energie del maschio fragile",
+        "w": [
+         "Una donna angelicata che salva il poeta",
+         "Una madre che protegge il nido familiare",
+         "Un'eroina che combatte per la patria"
+        ],
+        "e": "La donna fatale porta il maschio fragile alla follia e alla distruzione."
+       },
+       {
+        "p": "Chi è l'inetto a vivere?",
+        "a": "Una figura incapace di agire, che rifiuta la vita di relazione sociale",
+        "w": [
+         "Un eroe che esalta la forza vitale",
+         "Un artista che sceglie il male per provocare",
+         "Un esteta che vive per la bellezza"
+        ],
+        "e": "L'inetto a vivere è incapace di agire e rifiuta la vita sociale; il fanciullino pascoliano ne è una variante originale."
+       }
+      ]
+     }
+    }
+   },
+   "timeline": [
+    [
+     "T1",
+     49.867,
+     5.0
+    ],
+    [
+     "Q1",
+     586.0,
+     5.3
+    ],
+    [
+     "T2",
+     591.3,
+     5.0
+    ],
+    [
+     "T3",
+     1028.9,
+     5.0
+    ],
+    [
+     "T4",
+     1425.267,
+     5.0
+    ],
+    [
+     "T5",
+     1939.1,
+     5.0
+    ],
+    [
+     "GL1",
+     2416.567,
+     36.867
+    ],
+    [
+     "RF1",
+     2453.433,
+     41.1
+    ],
+    [
+     "FIN",
+     2499.533,
+     6.367
+    ]
+   ]
   }
  },
  "manca": "",
@@ -16,6 +390,10 @@
   {
    "quando": "14/11 02:03",
    "testo": "MIGLIORAMENTO: (1) controllo_finale.py su main controlla ancora 2560x1440: con il 1080p dà sempre NO; in locale accetto anche 1920x1080. (2) ffmpeg va in OOM con immagini lunghe nel concat se fps viene prima di format: mettere format=yuv420p,fps=30. (3) scheda_da_timeline.py scrive sempre materia 'Tecnologie dei materiali'."
+  },
+  {
+   "quando": "14/11 05:10",
+   "testo": "MIGLIORAMENTO: controllo_finale.py controlla ancora 2560x1440 (con il 1080p dà NO): uso una copia che accetta 1920x1080. Il docente mono messo su due canali pesa +3 LU: va messo a 0,707 per canale (o volume16.py sul finale)."
   }
  ],
  "domande_sara": [],
@@ -35,10 +413,14 @@
   {
    "quando": "14/11 04:38",
    "testo": "chat C2: montaggio completo con le voci Kore (39 pezzi, 41:59 misurati: docente 31:00 + inserti 11:00, sotto i 50 min senza riempitivi). Codifica 1080p in corso."
+  },
+  {
+   "quando": "14/11 05:10",
+   "testo": "chat C2: PRONTA. Misurato: 41:59.4, 75582 fotogrammi (attesi 75582), 157,5 MiB, 1920x1080, scatto dei 5 quiz entro 0,002 s, nessun fermo nel docente, parlato -16,0 LUFS. t_verifica 2494.533 s, t_compiti 2514.4 s. Sottotitoli: Whisper base + correzioni di nomi/opere/date; controllo automatico dell'attacco 74% (4 blocchi su 19 iniziano a metà frase senza pausa, verificati sull'energia: scarto reale circa 0,3 s) - sub_ok dato da me, da ricontrollare se serve. Durata sotto i 50 min: docente 31:00 + inserti, senza riempitivi."
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 6",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 04:38:56"
+ "aggiornato": "2026-11-14 05:10:12"
 }
