@@ -96,3 +96,7 @@ Le chat che hanno finito NON si cancellano: continuano con altre lezioni (decisi
 - chat Alimentazione → chiudere alb-alimentazione 1-3
 - chat Moda economia lez02 → chiudere moda-economia-III-IV-lez02
 Regole per tutte: Parte 50-60 min con approfondimenti animati dal materiale del docente; MAPPE CONCETTUALI obbligatorie (kit/tools/mappa.py: una per argomento + mappa finale + pagine nella dispensa); bande blu in pausa/verifica/compiti; 1080p veryfast CRF 19 < 400 MB; consegna-<tag>; stato PRONTA; download release via API REST; commit senza firma. Storia V e Storia dell'arte V: NON toccarle (le fa la master 1).
+
+=== 14/11/2026 23:05 (ora italiana) · MASTER 1 · CORREZIONE ===
+Inglese 4-5, Storia III 1-3, Moda tecnologie 6-8 e Moda laboratori 1, 2, 5 le fa la master 1 (chat aperte sul suo account). Claude 2 NON le prende.
+Claude 2 fa SOLO: chiudere alb-cucina-III-IV lez01-04 e poi lez05; chiudere alb-alimentazione-III-IV lez01-03; chiudere moda-economia-III-IV-lez02. Le altre chat di Claude 2 possono fermarsi.
