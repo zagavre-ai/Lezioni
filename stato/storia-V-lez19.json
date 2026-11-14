@@ -12,13 +12,13 @@
    "durata_s": 3117.0,
    "durata": "51:57.0",
    "fotogrammi": 93509,
-   "fotogrammi_attesi": 93509,
+   "fotogrammi_attesi": 93510,
    "peso_MB": 235.5,
    "vtt": "Storia_Lez19_Parte1.vtt",
    "scheda": {
     "materia": "Storia",
     "titolo": "L'Italia dal '68 alla crisi della Prima Repubblica · Parte 1",
-    "durata_s": 3116.97,
+    "durata_s": 3117.0,
     "argomenti": [
      {
       "n": 1,
@@ -331,10 +331,14 @@
   {
    "quando": "14/11 13:33",
    "testo": "Parte 1: t_verifica=3098.469 s · t_compiti=3111.969 s (intro compiti a 3108.469 s)"
+  },
+  {
+   "quando": "14/11 13:47",
+   "testo": "controllo_finale: ESITO: DA SISTEMARE: sottotitoli"
   }
  ],
  "materia": "Storia",
  "lezione": "19",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 13:33:27"
+ "aggiornato": "2026-11-14 13:47:53"
 }
