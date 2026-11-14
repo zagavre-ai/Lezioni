@@ -317,6 +317,10 @@
   {
    "quando": "14/11 05:01",
    "testo": "MIGLIORAMENTO: controllo_finale.py controlla ancora la risoluzione 2560x1440; con la regola del 13/11 (1080p) tutte le consegne risultano 'DA SISTEMARE: risoluzione'. Da portare a 1920x1080."
+  },
+  {
+   "quando": "14/11 22:31",
+   "testo": "R1: inviati i testi AN01-AN13 (ramo voci-letteratura-V-lez04, scambio/letteratura-V-lez04/testi_voci.json). Attendo vox/AN01..AN13.wav. MIGLIORAMENTO: kit/tools/mappa.py carica i font con file:// da set_content e il browser non li legge (esce Arial): va usato data:base64 (patch in mia copia)."
   }
  ],
  "domande_sara": [
@@ -354,5 +358,5 @@
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 4",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 22:17:24"
+ "aggiornato": "2026-11-14 22:31:34"
 }
