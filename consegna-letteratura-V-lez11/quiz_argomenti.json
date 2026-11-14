@@ -1,0 +1,222 @@
+{
+ "Q1": {
+  "title": "Quiz 1 · Le avanguardie storiche",
+  "items": [
+   {
+    "p": "Da quale linguaggio deriva il termine «avanguardia»?",
+    "a": "Dal linguaggio militare: la pattuglia che precede il grosso delle truppe",
+    "w": [
+     "Dal linguaggio musicale: il primo violino dell'orchestra",
+     "Dal linguaggio religioso: il predicatore che apre la processione",
+     "Dal linguaggio sportivo: il corridore in testa alla gara"
+    ],
+    "e": "Avanguardia è la pattuglia di soldati che precede il grosso delle truppe: i movimenti artistici che sperimentano per primi."
+   },
+   {
+    "p": "Qual è l'obiettivo principale delle avanguardie?",
+    "a": "Rompere con la tradizione, provocando e scandalizzando il pubblico borghese",
+    "w": [
+     "Recuperare i modelli classici della poesia",
+     "Celebrare i valori della borghesia",
+     "Tornare alla poesia romantica"
+    ],
+    "e": "Le avanguardie vogliono rompere definitivamente con le tradizioni culturali del passato e provocare il pubblico borghese."
+   },
+   {
+    "p": "Dove e quando nasce il movimento Dada?",
+    "a": "A Zurigo, nel 1916",
+    "w": [
+     "A Parigi, nel 1924",
+     "A Milano, nel 1909",
+     "A Mosca, nel 1917"
+    ],
+    "e": "Il Dadaismo nasce a Zurigo nel 1916, fondato da Tristan Tzara nel clima della prima guerra mondiale."
+   },
+   {
+    "p": "Che cosa significa la parola «Dada»?",
+    "a": "Nulla: è un termine infantile che indica il rifiuto di ogni logica",
+    "w": [
+     "«Velocità» in rumeno",
+     "«Sogno» in francese",
+     "«Rivoluzione» in tedesco"
+    ],
+    "e": "La parola Dada non significa nulla: è scelta apposta per rifiutare ogni logica e senso precostituito."
+   },
+   {
+    "p": "Che cos'è la scrittura automatica dei surrealisti?",
+    "a": "L'espressione del pensiero senza alcun controllo della ragione",
+    "w": [
+     "Una scrittura con regole metriche fisse",
+     "La copiatura dei testi classici",
+     "Una scrittura fatta solo di numeri"
+    ],
+    "e": "Il Surrealismo di André Breton (1924) si basa sull'inconscio: la scrittura automatica esprime il pensiero senza freni inibitori."
+   }
+  ]
+ },
+ "Q2": {
+  "title": "Quiz 2 · Il Futurismo italiano",
+  "items": [
+   {
+    "p": "Quando nasce ufficialmente il Futurismo?",
+    "a": "Il 20 febbraio 1909, con il Manifesto di Marinetti",
+    "w": [
+     "Il 26 maggio 1883, con un sonetto di Verlaine",
+     "Nel 1916, a Zurigo",
+     "Nel 1924, con il manifesto di Breton"
+    ],
+    "e": "Il Futurismo nasce il 20 febbraio 1909, con la pubblicazione del Manifesto di Filippo Tommaso Marinetti."
+   },
+   {
+    "p": "Su quale quotidiano è pubblicato il Manifesto del Futurismo?",
+    "a": "«Le Figaro», a Parigi",
+    "w": [
+     "«Il Corriere della Sera», a Milano",
+     "«Lacerba», a Firenze",
+     "«Le Chat Noir», a Parigi"
+    ],
+    "e": "Marinetti lo pubblica a Parigi, centro della cultura europea, sul quotidiano «Le Figaro»."
+   },
+   {
+    "p": "Come definiscono la guerra i futuristi?",
+    "a": "«Sola igiene del mondo»",
+    "w": [
+     "«Inutile strage»",
+     "«Male necessario»",
+     "«Fine della civiltà»"
+    ],
+    "e": "I futuristi esaltano l'azione, la forza e la guerra, definita «sola igiene del mondo»."
+   },
+   {
+    "p": "Che cosa sono le «parole in libertà»?",
+    "a": "Parole disposte sulla pagina senza punteggiatura né vincoli grammaticali",
+    "w": [
+     "Parole prese da lingue straniere",
+     "Rime libere di un sonetto",
+     "Parole lette ad alta voce in piazza"
+    ],
+    "e": "Il Futurismo distrugge la sintassi: abolisce la punteggiatura e dispone le parole liberamente."
+   },
+   {
+    "p": "Con quale atteggiamento partecipa Aldo Palazzeschi al Futurismo?",
+    "a": "Con una vena ironica e dissacrante",
+    "w": [
+     "Con un tono tragico e solenne",
+     "Con un forte impegno religioso",
+     "Con nostalgia per la tradizione"
+    ],
+    "e": "Palazzeschi partecipa con ironia, come in «E lasciatemi divertire!», dove rifiuta il ruolo sacro del poeta vate."
+   }
+  ]
+ },
+ "Q3": {
+  "title": "Quiz 3 · Il Manifesto del Futurismo",
+  "items": [
+   {
+    "p": "Che cosa vogliono cantare i futuristi, secondo il primo punto del manifesto?",
+    "a": "L'amore del pericolo, l'abitudine all'energia e alla temerità",
+    "w": [
+     "L'amore romantico e la nostalgia",
+     "La pace e la tranquillità della campagna",
+     "Il ricordo delle glorie antiche"
+    ],
+    "e": "«Noi vogliamo cantare l'amore del pericolo, l'abitudine all'energia e alla temerità»."
+   },
+   {
+    "p": "Quali saranno gli elementi essenziali della poesia futurista?",
+    "a": "Il coraggio, l'audacia e la ribellione",
+    "w": [
+     "La malinconia, la noia e il tedio",
+     "La misura, l'armonia e l'equilibrio",
+     "La fede, la speranza e la carità"
+    ],
+    "e": "Il secondo punto del manifesto: il coraggio, l'audacia, la ribellione."
+   },
+   {
+    "p": "Quale nuova bellezza esalta il manifesto?",
+    "a": "La bellezza della velocità",
+    "w": [
+     "La bellezza della natura",
+     "La bellezza dei musei",
+     "La bellezza del silenzio"
+    ],
+    "e": "La magnificenza del mondo si è arricchita di una bellezza nuova: la bellezza della velocità."
+   },
+   {
+    "p": "Che cosa è più bello, per Marinetti, della Vittoria di Samotracia?",
+    "a": "Un'automobile ruggente",
+    "w": [
+     "Un tramonto sul mare",
+     "Una cattedrale gotica",
+     "Una poesia d'amore"
+    ],
+    "e": "«Un'automobile ruggente, che sembra correre sulla mitraglia, è più bella della Vittoria di Samotracia»."
+   },
+   {
+    "p": "Che cosa vogliono distruggere i futuristi?",
+    "a": "I musei, le biblioteche e le accademie",
+    "w": [
+     "Le fabbriche e le officine",
+     "Le automobili e gli aeroplani",
+     "Le stazioni e i ponti"
+    ],
+    "e": "Il manifesto vuole distruggere musei, biblioteche e accademie, e canta invece le macchine e le città moderne."
+   }
+  ]
+ },
+ "Q4": {
+  "title": "Quiz 4 · James Joyce e il flusso di coscienza",
+  "items": [
+   {
+    "p": "Di quale nazionalità è James Joyce?",
+    "a": "Irlandese",
+    "w": [
+     "Francese",
+     "Tedesca",
+     "Russa"
+    ],
+    "e": "Joyce è irlandese: una grande figura isolata dell'avanguardia, fuori dai manifesti di gruppo."
+   },
+   {
+    "p": "Che cosa elimina Joyce dalla struttura narrativa classica?",
+    "a": "La trama lineare e l'ordine cronologico",
+    "w": [
+     "I personaggi e i dialoghi",
+     "Il titolo e i capitoli",
+     "Le descrizioni dei luoghi"
+    ],
+    "e": "Joyce distrugge la struttura classica, eliminando la trama lineare e l'ordine cronologico degli eventi."
+   },
+   {
+    "p": "Che cos'è il flusso di coscienza?",
+    "a": "La tecnica che trascrive pensieri, ricordi e sensazioni come emergono dall'inconscio",
+    "w": [
+     "Un racconto in terza persona con narratore onnisciente",
+     "Un genere di poesia in rima",
+     "La descrizione oggettiva dei fatti"
+    ],
+    "e": "Il flusso di coscienza riproduce il pensiero così come nasce, libero."
+   },
+   {
+    "p": "Qual è l'opera principale di James Joyce?",
+    "a": "Ulisse",
+    "w": [
+     "Controcorrente",
+     "Il piacere",
+     "La coscienza di Zeno"
+    ],
+    "e": "L'Ulisse adotta una prosa sperimentale che abolisce i nessi logici e la punteggiatura."
+   },
+   {
+    "p": "Che cosa caratterizza il monologo di Molly?",
+    "a": "L'assenza della punteggiatura e il libero fluire dei pensieri",
+    "w": [
+     "Una rima regolare",
+     "Un dialogo tra due personaggi",
+     "Una divisione in brevi capitoli"
+    ],
+    "e": "Nel monologo di Molly i pensieri scorrono senza punti né virgole, come nel pensiero vero."
+   }
+  ]
+ }
+}
