@@ -2,7 +2,8 @@
  "tag": "moda-tecnologie-III-lez06",
  "parti": {
   "1": {
-   "stato": "IN_MONTAGGIO"
+   "stato": "IN_MONTAGGIO",
+   "voci": "segnaposto"
   }
  },
  "manca": "COMPITI_MANCANTI",
@@ -13,8 +14,13 @@
   }
  ],
  "domande_sara": [],
- "note": [],
+ "note": [
+  {
+   "quando": "14/11 22:29",
+   "testo": "Fatto: materiali scaricati, trascrizione, struttura in 7 argomenti, quiz (35 domande) e 20 testi voci inviati alla master. Sincronia automatica da rivedere a mano (da circa 2000 s in poi sfasata). Manca: sincronia, slide, mappe, montaggio, voci Kore, dispensa. Lavoro salvato su ramo lavoro-moda-tecnologie-III-lez06."
+  }
+ ],
  "materia": "Moda · Tecnologie III · chat TEC",
  "lezione": "Lezione 6",
- "aggiornato": "2026-11-14 22:10:45"
+ "aggiornato": "2026-11-14 22:29:05"
 }
