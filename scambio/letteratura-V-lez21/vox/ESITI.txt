@@ -1,0 +1,14 @@
+INTRO OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
+R1 OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
+R2 OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
+R3 OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
+R4 OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
+R5 OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
+S1 OK frasi trovate 1 / 1 parole diverse 7 (vere 6) tentativi 1
+S2 OK frasi trovate 1 / 1 parole diverse 2 (vere 1) tentativi 1
+S3 OK frasi trovate 1 / 1 parole diverse 4 (vere 6) tentativi 1
+S4 OK frasi trovate 1 / 1 parole diverse 7 (vere 4) tentativi 1
+S5 OK frasi trovate 1 / 1 parole diverse 4 (vere 4) tentativi 1
+GL OK frasi trovate 1 / 1 parole diverse 3 (vere 4) tentativi 1
+RF OK frasi trovate 1 / 1 parole diverse 6 (vere 6) tentativi 1
+FIN OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
