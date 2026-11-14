@@ -1,0 +1,552 @@
+{
+ "Q1": {
+  "title": "Quiz 1 · Il ciclo del lavoro sartoriale",
+  "domande": [
+   {
+    "domanda": "Che cosa distingue il lavoro sartoriale?",
+    "giusta": "Un approccio diretto e un dialogo costante con chi indosserà il capo",
+    "sbagliate": [
+     "Il lavoro in serie",
+     "L'assenza di prove",
+     "L'uso esclusivo di macchine"
+    ],
+    "spiegazione": "Il sarto indaga la vestibilità desiderata e valuta la fattibilità tecnica."
+   },
+   {
+    "domanda": "Che cos'è il cartamodello?",
+    "giusta": "Lo sviluppo geometrico del figurino su carta o cartoncino",
+    "sbagliate": [
+     "Un tipo di tessuto",
+     "Un filo da imbastire",
+     "Un ferro da stiro"
+    ],
+    "spiegazione": "Può essere testato su un manichino con gli spilli."
+   },
+   {
+    "domanda": "Che cos'è l'imbastitura?",
+    "giusta": "Una cucitura provvisoria a punti lunghi",
+    "sbagliate": [
+     "La cucitura finale",
+     "Un tipo di stiro",
+     "Un trattamento del tessuto"
+    ],
+    "spiegazione": "Permette al capo di assumere una forma tridimensionale per la prima prova."
+   },
+   {
+    "domanda": "Che cosa si fa dopo la prova sul soggetto?",
+    "giusta": "La sdifettatura, per correggere le imperfezioni",
+    "sbagliate": [
+     "Si butta il tessuto",
+     "Si cambia cliente",
+     "Si stampa l'etichetta"
+    ],
+    "spiegazione": "Poi si passa alla confezione finale."
+   },
+   {
+    "domanda": "A che cosa serve la scheda anagrafica?",
+    "giusta": "A calcolare i costi finali e creare un archivio storico dei clienti",
+    "sbagliate": [
+     "A scegliere i bottoni",
+     "A misurare il tessuto",
+     "A regolare la macchina"
+    ],
+    "spiegazione": "Raccoglie informazioni su materiali, tempi e operazioni."
+   }
+  ]
+ },
+ "Q2": {
+  "title": "Quiz 2 · Quanto tessuto serve",
+  "domande": [
+   {
+    "domanda": "Quale altezza del tessuto si considera di solito?",
+    "giusta": "150 cm",
+    "sbagliate": [
+     "50 cm",
+     "300 cm",
+     "440 cm"
+    ],
+    "spiegazione": "Si considerano anche tipologia del modello e taglia del destinatario."
+   },
+   {
+    "domanda": "Quanto tessuto serve circa per una minigonna?",
+    "giusta": "Circa 50-55 cm",
+    "sbagliate": [
+     "Circa 90-95 cm",
+     "Circa 120-130 cm",
+     "Circa 440 cm"
+    ],
+    "spiegazione": "La gonna midi richiede 90-95 cm."
+   },
+   {
+    "domanda": "Quanto serve per una gonna a terra molto ampia?",
+    "giusta": "Circa 440 cm, quattro lunghezze capo",
+    "sbagliate": [
+     "Circa 50 cm",
+     "Circa 75 cm",
+     "Circa 120 cm"
+    ],
+    "spiegazione": "Per la gonna a terra normale bastano due lunghezze, circa 220-230 cm."
+   },
+   {
+    "domanda": "Perché nelle taglie forti si calcola il livello inforcatura?",
+    "giusta": "Perché l'ampiezza del modello potrebbe superare quella del tessuto",
+    "sbagliate": [
+     "Per scegliere il colore",
+     "Per risparmiare filo",
+     "Per stirare meglio"
+    ],
+    "spiegazione": "Si consiglia un tessuto a verso indifferente per capovolgere le sagome."
+   },
+   {
+    "domanda": "Quanto si aggiunge alla lunghezza per i bermuda?",
+    "giusta": "55-65 cm",
+    "sbagliate": [
+     "30-40 cm",
+     "75-85 cm",
+     "5 cm"
+    ],
+    "spiegazione": "Per gli shorts si aggiungono 30-40 cm."
+   }
+  ]
+ },
+ "Q3": {
+  "title": "Quiz 3 · Stabilizzare il tessuto",
+  "domande": [
+   {
+    "domanda": "Perché si stabilizza il tessuto prima della lavorazione?",
+    "giusta": "Per evitare restringimenti o deformazioni dopo il primo lavaggio",
+    "sbagliate": [
+     "Per cambiare colore",
+     "Per renderlo più lucido",
+     "Per ridurre il costo"
+    ],
+    "spiegazione": "La scelta della tecnica dipende dalla composizione fibrosa."
+   },
+   {
+    "domanda": "Per quanto tempo si lascia il tessuto avvolto nei panni bagnati?",
+    "giusta": "Circa venti ore",
+    "sbagliate": [
+     "Circa dieci minuti",
+     "Circa due ore",
+     "Circa una settimana"
+    ],
+    "spiegazione": "Poi si srotola e si lascia asciugare con lentezza."
+   },
+   {
+    "domanda": "Per quali tessuti è indicata l'immersione in acqua?",
+    "giusta": "Cotone e misto cotone",
+    "sbagliate": [
+     "Lana",
+     "Seta",
+     "Tessuti stampati delicati"
+    ],
+    "spiegazione": "Si immerge in acqua fredda e poi tiepida, senza detergenti."
+   },
+   {
+    "domanda": "Quale vantaggio dà l'acqua fredda nell'immersione?",
+    "giusta": "Permette spesso di fissare meglio il colore",
+    "sbagliate": [
+     "Asciuga prima",
+     "Stira il tessuto",
+     "Elimina le cimose"
+    ],
+    "spiegazione": "Il passaggio dura circa dieci-quindici minuti."
+   },
+   {
+    "domanda": "Su quale lato si esegue la vaporizzatura?",
+    "giusta": "Sul rovescio del materiale",
+    "sbagliate": [
+     "Sul diritto",
+     "Su entrambi i lati sempre",
+     "Sulle cimose"
+    ],
+    "spiegazione": "Si usa un ferro a vapore a bassa temperatura."
+   }
+  ]
+ },
+ "Q4": {
+  "title": "Quiz 4 · Piegatura e piazzamento",
+  "domande": [
+   {
+    "domanda": "Quali sono le categorie di piegatura del tessuto?",
+    "giusta": "Singola, doppia e senza piegatura",
+    "sbagliate": [
+     "Rossa, blu e verde",
+     "Corta, media e lunga",
+     "Calda, tiepida e fredda"
+    ],
+    "spiegazione": "Senza piegatura il tessuto è aperto, per i capi asimmetrici."
+   },
+   {
+    "domanda": "Che cosa indica la sigla 2A?",
+    "giusta": "Due piegature, tessuto completamente doppio e cimose accostate al centro",
+    "sbagliate": [
+     "Una piegatura con cimose sovrapposte",
+     "Tessuto aperto",
+     "Tessuto parzialmente triplo"
+    ],
+    "spiegazione": "La 2C ha tessuto parzialmente triplo e cimose distanziate."
+   },
+   {
+    "domanda": "Perché il piazzamento non deve includere le cimose?",
+    "giusta": "Possono avere composizione diversa e causare difetti di vestibilità o manutenzione",
+    "sbagliate": [
+     "Sono troppo colorate",
+     "Sono troppo lunghe",
+     "Non si possono tagliare"
+    ],
+    "spiegazione": "Le sagome vanno distanziate per margini di cucitura e orli."
+   },
+   {
+    "domanda": "Come deve correre il diritto filo nel piazzamento?",
+    "giusta": "Parallelo alle cimose, secondo i fili d'ordito",
+    "sbagliate": [
+     "Perpendicolare alle cimose",
+     "A 45 gradi",
+     "In qualsiasi direzione"
+    ],
+    "spiegazione": "Si verificano con il metro le distanze dalle cimose."
+   },
+   {
+    "domanda": "Quale vantaggio ha la cintura parallela all'ordito?",
+    "giusta": "Minore deformazione nel tempo, per la stabilità dei fili d'ordito",
+    "sbagliate": [
+     "Richiede sempre l'interfodera",
+     "È più elastica",
+     "È più corta"
+    ],
+    "spiegazione": "Parallela alla trama serve di solito un'interfodera di sostegno."
+   }
+  ]
+ },
+ "Q5": {
+  "title": "Quiz 5 · Taglio e imbastitura",
+  "domande": [
+   {
+    "domanda": "Perché si usa il gessetto?",
+    "giusta": "Il suo segno svanisce con il calore del ferro da stiro",
+    "sbagliate": [
+     "È indelebile",
+     "Costa meno del filo",
+     "Non si vede"
+    ],
+    "spiegazione": "Si lascia spazio per orli e cuciture oltre il bordo del cartamodello."
+   },
+   {
+    "domanda": "Che cos'è la stesura?",
+    "giusta": "La sovrapposizione di molti strati di tessuto per tagliare più pezzi insieme",
+    "sbagliate": [
+     "Un tipo di punto",
+     "Una piegatura",
+     "Un ferro da stiro"
+    ],
+    "spiegazione": "È tipica dell'industria e poco praticata in sartoria."
+   },
+   {
+    "domanda": "Che cosa si fa con i tessuti scivolosi?",
+    "giusta": "Si stende sotto uno strato di carta resistente",
+    "sbagliate": [
+     "Si bagnano",
+     "Si tagliano a 45 gradi",
+     "Si lasciano da parte"
+    ],
+    "spiegazione": "La carta goffrata o rugosa aumenta l'attrito e facilita il taglio."
+   },
+   {
+    "domanda": "Come sono i punti dell'imbastitura?",
+    "giusta": "Lunghi e poco resistenti",
+    "sbagliate": [
+     "Corti e fitti",
+     "Invisibili",
+     "Sempre a zig-zag"
+    ],
+    "spiegazione": "Il capo inizia a prendere forma tridimensionale."
+   },
+   {
+    "domanda": "Che cosa avviene prima della confezione finale?",
+    "giusta": "La prova sul soggetto e una seconda prova generalmente definitiva",
+    "sbagliate": [
+     "Il lavaggio in lavatrice",
+     "La stampa del cartellino",
+     "La vendita"
+    ],
+    "spiegazione": "Poi si toglie l'imbastitura e si cuce a mano o a macchina."
+   }
+  ]
+ },
+ "Q6": {
+  "title": "Quiz 6 · Gli elementi del capo",
+  "domande": [
+   {
+    "domanda": "Che cos'è la fodera?",
+    "giusta": "Un rivestimento del rovescio, in tessuto leggero e scivoloso",
+    "sbagliate": [
+     "Un filo da cucito",
+     "Una piegatura",
+     "Un ferro da stiro"
+    ],
+    "spiegazione": "Protegge dall'usura, migliora la vestibilità, scalda e dà più valore al capo."
+   },
+   {
+    "domanda": "A che cosa serve l'interfodera?",
+    "giusta": "A sostenere e rinforzare parti del capo",
+    "sbagliate": [
+     "A decorare",
+     "A stirare",
+     "A tagliare"
+    ],
+    "spiegazione": "Può essere termoadesiva o applicata con ancoraggi manuali."
+   },
+   {
+    "domanda": "Che cosa sono i passanti?",
+    "giusta": "Strisce di tessuto affrancate sul capo per far passare la cintura",
+    "sbagliate": [
+     "Bottoni decorativi",
+     "Cerniere",
+     "Fodere"
+    ],
+    "spiegazione": "Possono essere fissate anche con travette."
+   },
+   {
+    "domanda": "Come si chiamano le tasche applicate all'esterno?",
+    "giusta": "Tasche a toppa",
+    "sbagliate": [
+     "Tasche interne",
+     "Tasche a fessura",
+     "Pattine"
+    ],
+    "spiegazione": "Le tasche interne si riconoscono per la fessura e sono completate da una fodera."
+   },
+   {
+    "domanda": "Dove si usa la paramontura?",
+    "giusta": "Per rifinire il giro vita senza cintura o le tasche sagomate",
+    "sbagliate": [
+     "Per allungare l'orlo",
+     "Per cambiare colore",
+     "Per stirare"
+    ],
+    "spiegazione": "È un risvolto modellato di rinforzo e abbellimento."
+   }
+  ]
+ },
+ "Q7": {
+  "title": "Quiz 7 · Mercerie e finiture",
+  "domande": [
+   {
+    "domanda": "Quali sono le mercerie più comuni su gonne e pantaloni?",
+    "giusta": "Cerniere e bottoni",
+    "sbagliate": [
+     "Lustrini e pizzi soltanto",
+     "Frange e passamanerie soltanto",
+     "Etichette"
+    ],
+    "spiegazione": "Possono esserci anche nastri, cordelle e frange."
+   },
+   {
+    "domanda": "Com'è fatta una cerniera?",
+    "giusta": "Due nastri con dentini chiusi da un cursore",
+    "sbagliate": [
+     "Un solo nastro",
+     "Un bottone",
+     "Un filo elastico"
+    ],
+    "spiegazione": "I materiali possono essere plastici o metallici."
+   },
+   {
+    "domanda": "Quanto deve essere lunga l'asola?",
+    "giusta": "Di poco superiore al diametro del bottone",
+    "sbagliate": [
+     "Metà del bottone",
+     "Il doppio del bottone",
+     "Non importa"
+    ],
+    "spiegazione": "I bottoni da jeans si applicano con strumenti particolari."
+   },
+   {
+    "domanda": "Che cos'è la baschina?",
+    "giusta": "Un taglio orizzontale, a volte sagomato, tra la vita e il bacino",
+    "sbagliate": [
+     "Una cerniera",
+     "Un tipo di asola",
+     "Una tasca interna"
+    ],
+    "spiegazione": "Può trovarsi sul davanti o sul dietro."
+   },
+   {
+    "domanda": "Quali sono i due tipi di asole?",
+    "giusta": "Piane e volanti",
+    "sbagliate": [
+     "Lunghe e corte",
+     "Rosse e blu",
+     "Esterne e interne"
+    ],
+    "spiegazione": "Le volanti usano filo, cordoncino o tessuto tubolare a budellino."
+   }
+  ]
+ },
+ "Q8": {
+  "title": "Quiz 8 · La cucitura a mano",
+  "domande": [
+   {
+    "domanda": "Com'è fatto l'ago a mano?",
+    "giusta": "Cruna a un'estremità e punta affilata all'altra",
+    "sbagliate": [
+     "Una punta per lato",
+     "Solo una cruna",
+     "Un bottone"
+    ],
+    "spiegazione": "È in acciaio nichelato e numerato da 1 a 12."
+   },
+   {
+    "domanda": "Quale filo si usa per l'imbastitura?",
+    "giusta": "Un filo più spesso e morbido di quello delle cuciture permanenti",
+    "sbagliate": [
+     "Un filo sottile e duro",
+     "Un filo metallico",
+     "Nessun filo"
+    ],
+    "spiegazione": "La scelta dipende da peso del tessuto, tipo di cucitura e ago."
+   },
+   {
+    "domanda": "A che cosa serve il ditale?",
+    "giusta": "A proteggere il dito medio e agevolare la spinta dell'ago",
+    "sbagliate": [
+     "A tagliare i fili",
+     "A segnare il tessuto",
+     "A stirare"
+    ],
+    "spiegazione": "Gli spilli si ripongono in cuscinetti imbottiti."
+   },
+   {
+    "domanda": "Che cos'è il punto di cucitura?",
+    "giusta": "Il tratto che il filo compie tra due penetrazioni dell'ago in successione",
+    "sbagliate": [
+     "Il bottone",
+     "La cimosa",
+     "Il tessuto in doppio"
+    ],
+    "spiegazione": "I punti a mano sono temporanei o permanenti."
+   },
+   {
+    "domanda": "Quale punto blocca l'orlo senza vedersi né sul diritto né sul rovescio?",
+    "giusta": "Il punto cieco",
+    "sbagliate": [
+     "Il punto filza",
+     "Il punto sella",
+     "Il punto indietro"
+    ],
+    "spiegazione": "Il sottopunto usa piccoli punti obliqui non visibili dal diritto."
+   }
+  ]
+ },
+ "Q9": {
+  "title": "Quiz 9 · La macchina per cucire",
+  "domande": [
+   {
+    "domanda": "Quali sono i principali organi della macchina per cucire?",
+    "giusta": "Ago, piedino premistoffa, sistema trasportatore, crochet e blocco regola tensione",
+    "sbagliate": [
+     "Solo ago e filo",
+     "Ferro e asse da stiro",
+     "Cerniera e bottone"
+    ],
+    "spiegazione": "I fili cucirini sono due: uno sopra e uno sotto il tessuto."
+   },
+   {
+    "domanda": "Che cosa fa la griffa?",
+    "giusta": "Fa avanzare il tessuto secondo la lunghezza del punto",
+    "sbagliate": [
+     "Taglia il filo",
+     "Regola la tensione",
+     "Raccoglie la spolina"
+    ],
+    "spiegazione": "Può anche invertire la marcia per fermare la cucitura."
+   },
+   {
+    "domanda": "Dove deve avvenire l'incrocio dei due fili con tensione corretta?",
+    "giusta": "Al centro dello spessore del tessuto",
+    "sbagliate": [
+     "Sopra il tessuto",
+     "Sotto il tessuto",
+     "Fuori dal tessuto"
+    ],
+    "spiegazione": "Con tensione eccessiva il cappio inferiore oltrepassa il centro."
+   },
+   {
+    "domanda": "Che cosa indica il numero 301?",
+    "giusta": "Il punto annodato, identico su entrambi i lati",
+    "sbagliate": [
+     "Il punto catenella",
+     "Il punto a zig-zag",
+     "La macchina tagliacuci"
+    ],
+    "spiegazione": "Il 304 è il punto annodato a zig-zag; la classe 200 i punti a effetto mano."
+   },
+   {
+    "domanda": "Che cosa permette la tagliacuci?",
+    "giusta": "Di cucire i lembi e tagliare contemporaneamente le parti eccedenti",
+    "sbagliate": [
+     "Solo di stirare",
+     "Solo di imbastire",
+     "Di ricamare"
+    ],
+    "spiegazione": "Sul jersey realizza una cucitura chiusa con sopraggitto, molto elastica."
+   }
+  ]
+ },
+ "Q10": {
+  "title": "Quiz 10 · Lo stiro e la scheda anagrafica",
+  "domande": [
+   {
+    "domanda": "Quali sono le fasi dello stiro?",
+    "giusta": "Preparatorio, intermedio e finale",
+    "sbagliate": [
+     "Rapido, lento e medio",
+     "Caldo, tiepido e freddo",
+     "Singolo, doppio e triplo"
+    ],
+    "spiegazione": "Lo stiro finale è eseguito con estrema accuratezza."
+   },
+   {
+    "domanda": "Quanti punti si impostano per la lana?",
+    "giusta": "Due punti",
+    "sbagliate": [
+     "Un punto",
+     "Tre punti",
+     "Nessun punto"
+    ],
+    "spiegazione": "Un punto per le fibre sintetiche, tre per lino e cotone."
+   },
+   {
+    "domanda": "Perché si usa acqua demineralizzata nel ferro?",
+    "giusta": "Per evitare il calcare",
+    "sbagliate": [
+     "Per colorare il tessuto",
+     "Per raffreddare il ferro",
+     "Per profumare"
+    ],
+    "spiegazione": "Aiutano anche i sistemi anticalcare e antigocciolamento."
+   },
+   {
+    "domanda": "A che cosa serve la soletta o piattello?",
+    "giusta": "A proteggere i capi delicati o scuri dall'effetto lucido",
+    "sbagliate": [
+     "A misurare il tessuto",
+     "A tagliare i fili",
+     "A tendere il filo"
+    ],
+    "spiegazione": "Si applica alla piastra del ferro."
+   },
+   {
+    "domanda": "Perché serve la scheda anagrafica?",
+    "giusta": "Per calcolare con precisione i costi e rispondere ai preventivi",
+    "sbagliate": [
+     "Per scegliere i colori",
+     "Per lavare i capi",
+     "Per stampare le etichette"
+    ],
+    "spiegazione": "Il sarto costruisce una casistica con le schede nel tempo."
+   }
+  ]
+ }
+}

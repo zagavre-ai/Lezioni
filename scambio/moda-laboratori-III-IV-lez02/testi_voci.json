@@ -1,0 +1,827 @@
+[
+ {
+  "nome": "INTRO1",
+  "testo": "Benvenuti alla lezione di Laboratori tecnologici, con la professoressa Piera Caputi. Oggi parliamo di sartoria: il ciclo del lavoro sartoriale, il metraggio, la stabilizzazione, il piazzamento, il taglio e gli elementi del capo.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN1_0",
+  "testo": "Approfondiamo: Il ciclo in tre momenti.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN1_1",
+  "testo": "Misure e tessuto: Rilievo, stabilizzazione e cartamodello.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN1_2",
+  "testo": "Taglio e imbastitura: Dal piazzamento al capo in prima prova.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN1_3",
+  "testo": "Cucitura e stiro: Cucitura finale e stiro definitivo.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP1_0",
+  "testo": "La mappa: Il ciclo sartoriale.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP1_1",
+  "testo": "Dialogo: parola chiave, cliente. Per esempio, vestibilità desiderata.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP1_2",
+  "testo": "Preparazione: parola chiave, misure. Per esempio, tessuto stabilizzato.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP1_3",
+  "testo": "Costruzione: parola chiave, cartamodello. Per esempio, taglio e imbastitura.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP1_4",
+  "testo": "Rifinitura: parola chiave, prove. Per esempio, cucitura e stiro.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP1_5",
+  "testo": "Archivio: parola chiave, scheda anagrafica. Per esempio, costi e storico.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R1",
+  "testo": "Ripassiamo: Il lavoro sartoriale parte dal dialogo con il cliente, passa per misure, cartamodello, taglio, imbastitura e prove, e si chiude con cucitura, stiro e scheda anagrafica.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN2_0",
+  "testo": "Approfondiamo: Il metraggio delle gonne.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN2_1",
+  "testo": "Minigonna: Circa cinquanta e cinquantacinque centimetri.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN2_2",
+  "testo": "Gonna midi: Tra novanta e novantacinque centimetri.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN2_3",
+  "testo": "Gonna a terra molto ampia: Quattro lunghezze capo, circa quattrocentoquaranta centimetri.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP2_0",
+  "testo": "La mappa: Il metraggio.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP2_1",
+  "testo": "Fattori: parola chiave, modello e taglia. Per esempio, altezza centocinquanta cm.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP2_2",
+  "testo": "Gonne: parola chiave, lunghezza capo. Per esempio, mini, midi, a terra.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP2_3",
+  "testo": "Pantaloni: parola chiave, inforcatura. Per esempio, taglie forti.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP2_4",
+  "testo": "Verso: parola chiave, indifferente. Per esempio, sagome capovolte.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP2_5",
+  "testo": "Esempi: parola chiave, shorts, bermuda. Per esempio, pinocchietti.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R2",
+  "testo": "Ripassiamo: Il metraggio dipende da modello, taglia e altezza del tessuto, di solito centocinquanta centimetri. Cambia per gonne, pantaloni, shorts, bermuda e pinocchietti.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN3_0",
+  "testo": "Approfondiamo: Quale tecnica per quale tessuto.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN3_1",
+  "testo": "Panni bagnati: Per tessuti delicati per composizione o stampa.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN3_2",
+  "testo": "Immersione: Acqua fredda e poi tiepida, senza detergenti.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN3_3",
+  "testo": "Vapore: Sul rovescio, con ferro a bassa temperatura.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP3_0",
+  "testo": "La mappa: Stabilizzazione.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP3_1",
+  "testo": "Scopo: parola chiave, niente restringimenti. Per esempio, dopo il lavaggio.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP3_2",
+  "testo": "Panni bagnati: parola chiave, delicati. Per esempio, venti ore.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP3_3",
+  "testo": "Immersione: parola chiave, cotone. Per esempio, acqua fredda e tiepida.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP3_4",
+  "testo": "Vapore: parola chiave, lana. Per esempio, sul rovescio.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R3",
+  "testo": "Ripassiamo: Si stabilizza il tessuto per evitare restringimenti. Panni bagnati per i delicati, immersione per il cotone, vapore sul rovescio per la lana e le fibre artificiali vegetali.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN4_0",
+  "testo": "Approfondiamo: Sigle di piegatura.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN4_1",
+  "testo": "Cimose al centro: Due piegature, tessuto completamente doppio.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN4_2",
+  "testo": "Cimose distanziate: Due piegature, tessuto parzialmente doppio.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN4_3",
+  "testo": "Parzialmente triplo: Cimose distanziate e sovrapposte.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP4_0",
+  "testo": "La mappa: Piegatura e piazzamento.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP4_1",
+  "testo": "Piegatura: parola chiave, singola, doppia. Per esempio, senza piegatura.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP4_2",
+  "testo": "Sigle: parola chiave, unoA, unoB. Per esempio, dueA, dueB, dueC.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP4_3",
+  "testo": "Piazzamento: parola chiave, sagome distanziate. Per esempio, cimose escluse.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP4_4",
+  "testo": "Diritto filo: parola chiave, parallelo alle cimose. Per esempio, ordito.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP4_5",
+  "testo": "Cintura: parola chiave, ordito o trama. Per esempio, interfodera.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R4",
+  "testo": "Ripassiamo: La piegatura può essere singola, doppia o assente, con sigle da uno A a due C. Nel piazzamento si rispettano verso e diritto filo e non si includono le cimose.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN5_0",
+  "testo": "Approfondiamo: Dal taglio alla prova.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN5_1",
+  "testo": "Il gessetto: Il segno svanisce con il ferro da stiro.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN5_2",
+  "testo": "Le forbici: Su uno o pochi strati di tessuto.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN5_3",
+  "testo": "Punti lunghi: Una cucitura provvisoria per la prova.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP5_0",
+  "testo": "La mappa: Taglio e imbastitura.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP5_1",
+  "testo": "Segno: parola chiave, gessetto. Per esempio, orli e cuciture.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP5_2",
+  "testo": "Taglio: parola chiave, forbici. Per esempio, pochi strati.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP5_3",
+  "testo": "Scivolosi: parola chiave, carta resistente. Per esempio, più attrito.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP5_4",
+  "testo": "Imbastitura: parola chiave, punti lunghi. Per esempio, prima prova.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP5_5",
+  "testo": "Finale: parola chiave, macchina. Per esempio, tagliacuci.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R5",
+  "testo": "Ripassiamo: Si traccia con il gessetto, si taglia con le forbici, si imbastisce per la prima prova. Per i tessuti scivolosi si usa uno strato di carta resistente.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN6_0",
+  "testo": "Approfondiamo: Fodera e interfodera.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN6_1",
+  "testo": "Rivestimento: Tessuto leggero e scivoloso sul rovescio del capo.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN6_2",
+  "testo": "Rinforzo: Sostiene le parti del capo, termoadesiva o cucita.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN6_3",
+  "testo": "Aderenza: Mantiene il capo al punto vita.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP6_0",
+  "testo": "La mappa: Elementi del capo.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP6_1",
+  "testo": "Fodera: parola chiave, rivestimento. Per esempio, rovescio.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP6_2",
+  "testo": "Interfodera: parola chiave, rinforzo. Per esempio, termoadesiva.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP6_3",
+  "testo": "Cintura: parola chiave, punto vita. Per esempio, passanti.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP6_4",
+  "testo": "Tasca: parola chiave, a toppa o interna. Per esempio, pattina.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP6_5",
+  "testo": "Risvolto: parola chiave, estetica. Per esempio, orli e polsini.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP6_6",
+  "testo": "Paramontura: parola chiave, rifinitura. Per esempio, giro vita.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R6",
+  "testo": "Ripassiamo: La fodera riveste il rovescio, l'interfodera rinforza, la cintura tiene il capo in vita, i passanti la guidano. Poi ci sono tasche, risvolto e paramontura.",
+  "lingua": "it"
+ },
+ {
+  "nome": "GL1_0",
+  "testo": "Ripassiamo le parole chiave di questa parte.",
+  "lingua": "it"
+ },
+ {
+  "nome": "GL1_1",
+  "testo": "Cartamodello: lo sviluppo geometrico del figurino su carta o cartoncino.",
+  "lingua": "it"
+ },
+ {
+  "nome": "GL1_2",
+  "testo": "Imbastitura: la cucitura provvisoria a punti lunghi.",
+  "lingua": "it"
+ },
+ {
+  "nome": "GL1_3",
+  "testo": "Sdifettatura: la correzione delle imperfezioni dopo la prova.",
+  "lingua": "it"
+ },
+ {
+  "nome": "GL1_4",
+  "testo": "Stabilizzazione: il trattamento che evita restringimenti del tessuto.",
+  "lingua": "it"
+ },
+ {
+  "nome": "GL1_5",
+  "testo": "Piegatura: il modo di sistemare il tessuto sul piano di lavoro.",
+  "lingua": "it"
+ },
+ {
+  "nome": "GL1_6",
+  "testo": "Piazzamento: la disposizione delle sagome sul tessuto.",
+  "lingua": "it"
+ },
+ {
+  "nome": "GL1_7",
+  "testo": "Fodera: il rivestimento del rovescio del capo.",
+  "lingua": "it"
+ },
+ {
+  "nome": "GL1_8",
+  "testo": "Interfodera: lo strato di rinforzo tra i tessuti.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MPF1_0",
+  "testo": "La mappa di questa parte: Sartoria , prima parte.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MPF1_1",
+  "testo": "Il ciclo: dal cliente al capo, prove e rifiniture.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MPF1_2",
+  "testo": "Il tessuto: metraggio, stabilizzazione.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MPF1_3",
+  "testo": "Piazzamento: piegatura, diritto filo.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MPF1_4",
+  "testo": "Taglio: gessetto e forbici, imbastitura.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MPF1_5",
+  "testo": "Elementi: fodera e cintura, passanti e tasche.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RF1_0",
+  "testo": "Prima di salutarci, ricapitoliamo insieme gli argomenti di questa parte.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RF1_1",
+  "testo": "Primo: il ciclo del lavoro sartoriale.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RF1_2",
+  "testo": "Secondo: quanto tessuto serve.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RF1_3",
+  "testo": "Terzo: stabilizzare il tessuto.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RF1_4",
+  "testo": "Quarto: piegatura e piazzamento.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RF1_5",
+  "testo": "Quinto: taglio e imbastitura.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RF1_6",
+  "testo": "Sesto: gli elementi del capo.",
+  "lingua": "it"
+ },
+ {
+  "nome": "FIN1",
+  "testo": "Fine della prima parte. Continua con la seconda parte della lezione.",
+  "lingua": "it"
+ },
+ {
+  "nome": "INTRO2",
+  "testo": "Benvenuti alla seconda parte della lezione di Laboratori tecnologici, con la professoressa Piera Caputi. Parliamo di mercerie, cucitura a mano, macchina per cucire, stiro e scheda anagrafica.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RPR2_0",
+  "testo": "Prima di continuare, ripassiamo la parte precedente.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RPR2_1",
+  "testo": "Primo: il ciclo del lavoro sartoriale.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RPR2_2",
+  "testo": "Secondo: quanto tessuto serve.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RPR2_3",
+  "testo": "Terzo: stabilizzare il tessuto.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RPR2_4",
+  "testo": "Quarto: piegatura e piazzamento.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RPR2_5",
+  "testo": "Quinto: taglio e imbastitura.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RPR2_6",
+  "testo": "Sesto: gli elementi del capo.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN7_0",
+  "testo": "Approfondiamo: Cerniera e bottoni.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN7_1",
+  "testo": "Due nastri: Dentini chiusi da un cursore, in plastica o metallo.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN7_2",
+  "testo": "Nell'asola: L'asola è un po' più lunga del diametro.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN7_3",
+  "testo": "Piane o volanti: Filo, cordoncino o budellino.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP7_0",
+  "testo": "La mappa: Mercerie e finiture.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP7_1",
+  "testo": "Mercerie: parola chiave, estetiche o pratiche. Per esempio, pizzi, elastici.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP7_2",
+  "testo": "Chiusure: parola chiave, cerniera e bottoni. Per esempio, asole.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP7_3",
+  "testo": "Baschina: parola chiave, taglio orizzontale. Per esempio, vita e bacino.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP7_4",
+  "testo": "Spacco: parola chiave, movimento. Per esempio, rovescio curato.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP7_5",
+  "testo": "Ricamo: parola chiave, ago e filo. Per esempio, a mano o a macchina.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R7",
+  "testo": "Ripassiamo: Le mercerie completano il capo: cerniere, bottoni, asole. Poi ci sono bottoniera, baschina, spacco e ricamo.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN8_0",
+  "testo": "Approfondiamo: Tre punti a mano.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN8_1",
+  "testo": "Elasticità: Unisce in fretta, con ritorno sul rovescio.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN8_2",
+  "testo": "Contro lo sfilo: Eseguito sul lembo del tessuto.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN8_3",
+  "testo": "Invisibile: Blocca l'orlo senza vedersi né sul diritto né sul rovescio.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP8_0",
+  "testo": "La mappa: Cucitura a mano.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP8_1",
+  "testo": "Ago: parola chiave, cruna e punta. Per esempio, numeri da uno a dodici.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP8_2",
+  "testo": "Cucirino: parola chiave, filo. Per esempio, resistenza.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP8_3",
+  "testo": "Strumenti: parola chiave, ditale. Per esempio, forbici e spilli.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP8_4",
+  "testo": "Temporanee: parola chiave, imbastitura. Per esempio, fili lenti.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP8_5",
+  "testo": "Permanenti: parola chiave, indietro, sopraffilo. Per esempio, mosca, cieco.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R8",
+  "testo": "Ripassiamo: Ago, cucirino, ditale e spilli sono gli strumenti della cucitura a mano. I punti sono temporanei o permanenti, come l'imbastitura, il sopraffilo e il punto cieco.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN9_0",
+  "testo": "Approfondiamo: Gli organi della macchina.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN9_1",
+  "testo": "Con cruna in punta: Spessore da settanta a novanta.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN9_2",
+  "testo": "Fa avanzare: Il tessuto, secondo la lunghezza del punto.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN9_3",
+  "testo": "Filo inferiore: Incontra il filo superiore e forma il nodo.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP9_0",
+  "testo": "La mappa: La macchina per cucire.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP9_1",
+  "testo": "Organi: parola chiave, ago, piedino. Per esempio, griffa, crochet.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP9_2",
+  "testo": "Tensione: parola chiave, due dischi. Per esempio, incrocio al centro.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP9_3",
+  "testo": "Sicurezza: parola chiave, manuale. Per esempio, macchina spenta.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP9_4",
+  "testo": "Difetti: parola chiave, ago e filo rotti. Per esempio, grinze.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP9_5",
+  "testo": "Punti: parola chiave, trecentouno e trecentoquattro. Per esempio, classe duecento.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP9_6",
+  "testo": "Tagliacuci: parola chiave, TC. Per esempio, cuce e taglia.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R9",
+  "testo": "Ripassiamo: La macchina cuce con due fili che si incontrano a metà del tessuto. Contano ago, piedino, griffa, crochet e tensione. La tagliacuci cuce e taglia il margine.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN10_0",
+  "testo": "Approfondiamo: Stirare nel modo giusto.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN10_1",
+  "testo": "Sintetiche: La temperatura più bassa.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN10_2",
+  "testo": "Lana: Temperatura media.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN10_3",
+  "testo": "Lino e cotone: La temperatura più alta.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP10_0",
+  "testo": "La mappa: Stiro e scheda.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP10_1",
+  "testo": "Fasi: parola chiave, preparatorio. Per esempio, intermedio, finale.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP10_2",
+  "testo": "Ferro: parola chiave, piastra. Per esempio, vapore e calcare.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP10_3",
+  "testo": "Calore: parola chiave, uno, due, tre punti. Per esempio, fibra e temperatura.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP10_4",
+  "testo": "Accessori: parola chiave, asse, soletta. Per esempio, stiramaniche.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP10_5",
+  "testo": "Scheda: parola chiave, anagrafica. Per esempio, materiali, tempi, costi.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R10",
+  "testo": "Ripassiamo: Lo stiro è preparatorio, intermedio e finale. Un punto per le sintetiche, due per la lana, tre per lino e cotone. La scheda anagrafica raccoglie materiali, tempi e costi.",
+  "lingua": "it"
+ },
+ {
+  "nome": "GL2_0",
+  "testo": "Ripassiamo le parole chiave di questa parte.",
+  "lingua": "it"
+ },
+ {
+  "nome": "GL2_1",
+  "testo": "Merceria: l'accessorio che completa il capo.",
+  "lingua": "it"
+ },
+ {
+  "nome": "GL2_2",
+  "testo": "Baschina: il taglio orizzontale tra vita e bacino.",
+  "lingua": "it"
+ },
+ {
+  "nome": "GL2_3",
+  "testo": "Cucirino: il filato per cucire.",
+  "lingua": "it"
+ },
+ {
+  "nome": "GL2_4",
+  "testo": "Punto cieco: il punto che non si vede da nessun lato.",
+  "lingua": "it"
+ },
+ {
+  "nome": "GL2_5",
+  "testo": "Crochet: l'organo che accoglie la spolina.",
+  "lingua": "it"
+ },
+ {
+  "nome": "GL2_6",
+  "testo": "Griffa: l'organo che fa avanzare il tessuto.",
+  "lingua": "it"
+ },
+ {
+  "nome": "GL2_7",
+  "testo": "Tagliacuci: la macchina che cuce e taglia il margine.",
+  "lingua": "it"
+ },
+ {
+  "nome": "GL2_8",
+  "testo": "Scheda anagrafica: il documento con materiali, tempi e costi.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MPF2_0",
+  "testo": "La mappa di questa parte: Sartoria , seconda parte.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MPF2_1",
+  "testo": "Mercerie: cerniere e bottoni, asole.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MPF2_2",
+  "testo": "A mano: ago e punti, temporanei e permanenti.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MPF2_3",
+  "testo": "Macchina: organi, tensione e sicurezza.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MPF2_4",
+  "testo": "Tagliacuci: cuce e taglia, jersey.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MPF2_5",
+  "testo": "Stiro: tre fasi, scheda anagrafica.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RF2_0",
+  "testo": "Prima di salutarci, ricapitoliamo insieme gli argomenti di questa parte.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RF2_7",
+  "testo": "Primo: mercerie e finiture.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RF2_8",
+  "testo": "Secondo: la cucitura a mano.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RF2_9",
+  "testo": "Terzo: la macchina per cucire.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RF2_10",
+  "testo": "Quarto: lo stiro e la scheda anagrafica.",
+  "lingua": "it"
+ },
+ {
+  "nome": "FIN2",
+  "testo": "Fine della lezione. Grazie per l'attenzione, e buono studio.",
+  "lingua": "it"
+ },
+ {
+  "nome": "COMP1",
+  "testo": "Ora passa ai compiti.",
+  "lingua": "it"
+ }
+]
