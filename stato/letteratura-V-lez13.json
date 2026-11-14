@@ -8,7 +8,12 @@
   }
  },
  "manca": "",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "14/11 04:55",
+   "testo": "lez13 dura 82 min: due Parti. Sul ramo voci-letteratura-V-lez13 ho aggiunto testi_voci_P2.json (IN2, RIP: apertura della Parte 2 con il ripasso della Parte 1), 2 blocchi nuovi. Se non si possono generare, la Parte 2 si apre senza ripasso a voce."
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
@@ -27,5 +32,5 @@
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 13",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 04:36:38"
+ "aggiornato": "2026-11-14 04:55:13"
 }
