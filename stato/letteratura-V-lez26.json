@@ -6,16 +6,25 @@
   }
  },
  "manca": "",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "14/11 06:54",
+   "testo": "Lez26: la slide del prof dice «Muore a Siena nel 1983», ma Calvino è morto nel 1985 (le Lezioni americane sono del 1985). Nelle card e nella voce ho scritto solo «Muore a Siena», senza anno. Da segnalare al prof se serve."
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
    "quando": "14/11 06:39",
    "testo": "Letteratura V · chat B2: presa (preparazione a catena)"
+  },
+  {
+   "quando": "14/11 06:54",
+   "testo": "chat B2: docente misurato 25:32 (Italo Calvino); testi delle slide presi dai fotogrammi del video. Quiz 25 domande e 14 testi voci inviati su voci-letteratura-V-lez26."
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 26",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 06:39:25"
+ "aggiornato": "2026-11-14 06:54:02"
 }
