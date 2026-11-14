@@ -2,7 +2,8 @@
  "tag": "afm-inglese-triennio-lez04",
  "parti": {
   "1": {
-   "stato": "IN_MONTAGGIO"
+   "stato": "IN_MONTAGGIO",
+   "voci": "segnaposto"
   }
  },
  "manca": "",
@@ -21,10 +22,14 @@
   {
    "quando": "14/11 22:14",
    "testo": "Testi voci (43) e quiz (25 domande) pubblicati sul ramo voci-afm-inglese-triennio-lez04: la master puo' generare le voci. Intanto monto con segnaposto."
+  },
+  {
+   "quando": "14/11 23:12",
+   "testo": "Pezzi pronti con voci segnaposto (stima 62 min). Attendo le voci Kore dalla master per la codifica finale; intanto preparo la lezione 5."
   }
  ],
  "materia": "Inglese AFM",
  "lezione": "Lezione 4",
  "docente": "Prof.ssa Maria Vittoria Fontanesi",
- "aggiornato": "2026-11-14 22:14:14"
+ "aggiornato": "2026-11-14 23:12:47"
 }
