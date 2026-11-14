@@ -2,7 +2,7 @@
  "tag": "letteratura-V-lez22",
  "parti": {
   "1": {
-   "stato": "PRONTA",
+   "stato": "IN_MONTAGGIO",
    "titolo": "Elsa Morante",
    "voci": "kore",
    "t_verifica": 2061.633,
@@ -413,10 +413,14 @@
   {
    "quando": "14/11 07:58",
    "testo": "chat C2: PRONTA. Misurato: 34:46.1, 62584 fotogrammi (attesi 62584), 129,1 MiB, 1920x1080, 5 quiz con scatto a 0,0 s, nessun fermo, parlato -16,5 LUFS, sottotitoli 86%. controllo_finale: TUTTO OK. t_verifica 2061.633 s, t_compiti 2081.133 s. Durata sotto i 50 min: il video del prof dura 25 min, nessun riempitivo."
+  },
+  {
+   "quando": "14/11 22:29",
+   "testo": "Letteratura V · chat R4: rifacimento con approfondimenti animati (v2)"
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 22",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 07:58:18"
+ "aggiornato": "2026-11-14 22:29:44"
 }
