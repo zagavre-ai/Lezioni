@@ -3,7 +3,7 @@
 import sys,os,json,subprocess,shutil,importlib.util
 spec_path=sys.argv[1];out=sys.argv[2]
 sp=importlib.util.spec_from_file_location('spec',spec_path);S=importlib.util.module_from_spec(sp);sp.loader.exec_module(S)
-voci=[];quiz={}
+voci=[];quiz={};EX=set(getattr(S,'EXISTING',[]))
 J=lambda l:' '.join(l)
 for P in S.PARTI:
     n=P['n'];voci.append(('INTRO%d'%n,J(P['intro'])))
@@ -15,6 +15,7 @@ for P in S.PARTI:
         quiz['Q%d'%aid]={'title':'Quiz %d · %s'%(aid,A['breve']),'items':[{'p':p,'a':a,'w':w,'e':e} for p,a,w,e in A['quiz']]}
     voci.append(('MAPF%d'%n,J(P['mappa_fin']['voce'])));voci.append(('GL%d'%n,J(P['voce_gl'])))
     voci.append(('RF%d'%n,J(P['voce_rf'])));voci.append(('FIN%d'%n,J(P['voce_fin'])))
+voci=[(n,t) for n,t in voci if n not in EX]
 os.makedirs(out,exist_ok=True)
 json.dump([{'nome':n,'testo':t,'lingua':'it'} for n,t in voci],open(out+'/testi_voci.json','w'),ensure_ascii=False,indent=1)
 json.dump(quiz,open(out+'/quiz.json','w'),ensure_ascii=False,indent=1)
