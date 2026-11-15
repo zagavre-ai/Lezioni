@@ -151,3 +151,13 @@ Valgono anche per Cucina 1-5.
 ## 15/11 sera (19:52) · CORREZIONE: LE VOCI FUNZIONANO
 - Il blocco era solo sul modello «lite». Il servizio ora usa l altro modello e **le voci stanno arrivando di nuovo**. Priorità: correzioni del controllo 15/11 (Letteratura 3, 5, 8, 17, 20, 25; Storia V 1, 9), poi Storia dell arte, Storia V, Letteratura V.
 
+
+=== 15/11/2026 00:25 (notte, ora italiana) · MASTER 1 · CLAUDE 2 ALL'87% DEL LIMITE SETTIMANALE: CHI CONTINUA E CHI SI FERMA (decisione di Sara) ===
+Il limite settimanale di Claude 2 non si ripristina: usiamo il poco che resta solo per chiudere le lezioni quasi pronte.
+- CONTINUANO (e basta):
+  · «Tre lezioni di alimentazione»: monta con le voci arrivate, una sola codifica, controlli, consegna git, stato PRONTA.
+  · «Tre lezioni Laboratori enogastronomia»: chiudi Cucina 5 con le correzioni del 15/11 02:05 e consegna.
+- SI FERMANO SUBITO (non partire con niente, non rispondere oltre):
+  · «Lezioni storia dell'arte V anno» (già ferma).
+  · Le due chat di Inglese AFM triennio (ex «Storia V videolezioni Mazzotti» e «Storia V videolezioni pari»): se hai lavoro a metà, scrivi in PER_LA_MASTER.txt a che punto sei e il nome del ramo; poi fermati.
+  · Le due chat «PRODUZIONE · Psicologia» (Chimica moda): se avete già iniziato una lezione, scrivete in PER_LA_MASTER.txt a che punto siete; poi fermatevi. Chimica moda la riprende la master.
