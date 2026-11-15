@@ -1,0 +1,105 @@
+{
+ "R1": [
+  "Ripassiamo la luce e il colore. Guarda la mappa."
+ ],
+ "R2": [
+  "Ripassiamo pigmenti, coloranti e le loro proprietà. Osserva la mappa."
+ ],
+ "R3": [
+  "Ripassiamo i coloranti naturali. Guarda la mappa."
+ ],
+ "R4": [
+  "Ripassiamo i coloranti sintetici. Osserva la mappa."
+ ],
+ "R5": [
+  "Ripassiamo la tintura e la stampa. Guarda la mappa."
+ ],
+ "R6": [
+  "Ripassiamo l'analisi dei coloranti. Osserva la mappa prima del quiz."
+ ],
+ "M1": [
+  "Mappa concettuale: la luce e il colore.",
+  "La luce si spiega con fotoni e con onde, e viaggia a circa trecentomila chilometri al secondo.",
+  "Lunghezza d'onda e frequenza sono legate: a lunghezze grandi corrispondono frequenze basse.",
+  "L'occhio vede lo spettro visibile, tra quattromila e settemila angstrom, in sette colori.",
+  "Una sostanza appare del colore delle radiazioni che riflette.",
+  "Con tre colori fondamentali si ottengono tutti i colori.",
+  "I coni vedono i colori, i bastoncelli lavorano con poca luce."
+ ],
+ "M2": [
+  "Mappa concettuale: pigmenti, coloranti e proprietà.",
+  "I pigmenti sono polveri insolubili, usate per vernici e smalti.",
+  "I coloranti sono sostanze organiche solubili che si legano alla fibra.",
+  "I cromofori assorbono la luce, gli auxocromi intensificano il colore e permettono il fissaggio.",
+  "Per origine i coloranti sono naturali o sintetici.",
+  "Per impiego si dividono in basici, acidi, diretti, al tino, reattivi, dispersi e altri.",
+  "Le proprietà sono affinità, potere coprente, solidità, potere egualizzante e sostantività."
+ ],
+ "M3": [
+  "Mappa concettuale: i coloranti naturali.",
+  "La porpora di Tiro viene da molluschi Murex ed era riservata alle classi più elevate.",
+  "La cocciniglia, con acido carminico, dà tinte scarlatte.",
+  "Dal legno si ricavano brasileina ed emateina, per toni violetti e neri.",
+  "Dalla radice di robbia si ottiene l'alizarina, per il rosso turco.",
+  "Dalle foglie si ricavano indaco, henné e rutina.",
+  "Da fiori e frutti si ricavano crocina e bixina, per tinte gialle e arancio."
+ ],
+ "M4": [
+  "Mappa concettuale: i coloranti sintetici.",
+  "I coloranti basici sono brillanti ma poco solidi alla luce.",
+  "I coloranti acidi sono affini alle fibre proteiche e poliammidiche.",
+  "I diretti si fissano sulla cellulosa con ponti a idrogeno; quelli a sviluppo si formano sulla fibra.",
+  "I coloranti al tino si applicano ridotti in forma leuco e poi riossidati.",
+  "I reattivi formano legami covalenti; i premetallizzati contengono già un metallo.",
+  "I coloranti dispersi servono per le fibre sintetiche idrofobe, come il poliestere."
+ ],
+ "M5": [
+  "Mappa concettuale: tintura e stampa.",
+  "La tintura colora il materiale in modo uniforme, a esaurimento di bagno o per foulardaggio.",
+  "Si può tingere in massa, in fiocco, in filo, in pezza o in capo.",
+  "La stampa applica motivi decorativi localizzati.",
+  "La stampa diretta usa un fondo bianco o tinto; quella per corrosione distrugge il colore in alcuni punti.",
+  "A riserva si proteggono aree con cere; con il transfer il disegno passa dalla carta al tessuto con il calore.",
+  "L'ink-jet è digitale; si usano anche quadri serigrafici e cilindri incisi."
+ ],
+ "M6": [
+  "Mappa concettuale: l'analisi dei coloranti.",
+  "I saggi di solubilità dividono i composti in sette classi.",
+  "Si cercano i gruppi funzionali: alcoli, fenoli, aldeidi, chetoni, ammine, acidi e doppi legami.",
+  "Il carattere tintoriale si verifica su provini di tessuto.",
+  "La purezza si valuta con microscopio, saggio su carta e cromatografia su striscia.",
+  "La concentrazione assoluta si ottiene con titolazioni, con il tricloruro di titanio.",
+  "La concentrazione relativa si ottiene per colorimetria o spettrofotometria."
+ ],
+ "MF": [
+  "Mappa finale della lezione: coloranti e stampe.",
+  "Il colore nasce dall'interazione tra luce e materia.",
+  "I coloranti hanno gruppi cromofori e auxocromi e sono naturali o sintetici.",
+  "I gruppi tintoriali dipendono dalla fibra.",
+  "La tintura colora in modo uniforme, la stampa in modo localizzato.",
+  "L'analisi identifica il colorante e ne misura purezza e concentrazione."
+ ],
+ "GL1": [
+  "Le parole chiave della lezione.",
+  "Fotone: Particella o quanto di luce che si muove a altissima velocità.",
+  "Tricromia: Con tre colori fondamentali si ottengono tutti i colori.",
+  "Pigmento: Polvere insolubile usata per vernici e smalti.",
+  "Colorante: Sostanza organica solubile che si lega stabilmente alla fibra.",
+  "Cromoforo: Gruppo con doppi o tripli legami capace di assorbire radiazioni luminose.",
+  "Auxocromo: Gruppo che intensifica il colore e permette il fissaggio.",
+  "Solidità: Resistenza della tinta ad acqua, detersivi, luce e calore.",
+  "Foulardaggio: Impregnazione con il bagno di tintura e fissaggio con calore o vapore.",
+  "Stampa: Applicazione di motivi decorativi localizzati sul materiale tessile."
+ ],
+ "RF1": [
+  "Ricapitoliamo la lezione.",
+  "Il colore dipende dal comportamento della materia verso la luce: lo spettro visibile e la tricromia lo descrivono.",
+  "I coloranti sono sostanze organiche solubili con gruppi cromofori e auxocromi; possono essere naturali o sintetici.",
+  "I gruppi tintoriali, basici, acidi, diretti, al tino, reattivi e dispersi, si scelgono secondo la fibra.",
+  "La tintura colora in modo uniforme, a esaurimento di bagno o per foulardaggio; la stampa applica motivi localizzati.",
+  "L'analisi qualitativa usa saggi di solubilità e ricerca dei gruppi funzionali; quella quantitativa misura la concentrazione."
+ ],
+ "FIN1": [
+  "Fine della lezione. Hai ripassato i sei argomenti: dalla luce all'analisi dei coloranti. Buono studio!"
+ ]
+}
