@@ -41,3 +41,10 @@
 - **Storia V lezioni 4, 8, 10:** Sara sta caricando adesso i video del docente nella release `mazzotti-storia-V`. Le chat di Storia V: appena compaiono, partite.
 - **Non stare ferme:** se la tua lezione è consegnata, passa subito alla successiva della tua lista nel prompt.
 - Ogni voce segnata «da controllare» nel log del servizio va ascoltata prima della codifica finale.
+
+## 15/11 sera (19:15) · DECISIONE DI SARA SULLE MAPPE (vale per TUTTE le lezioni)
+- Le **mappe concettuali restano nel video** in tutte le lezioni: il modello deve essere uguale per tutte.
+- In più ogni lezione consegna le mappe anche come **file PDF a parte**: `Mappe_<tag>.pdf`, **A4 orizzontale**, una mappa per pagina (una per argomento + mappa finale), stessa grafica del video. Va sul ramo `consegna-<tag>` insieme agli altri file.
+- Le mappe **NON vanno nella dispensa**: la dispensa resta senza mappe, le mappe sono solo nel file a parte.
+- **Lezioni già consegnate:** se hanno le mappe nel video, aggiungete solo `Mappe_<tag>.pdf` sul ramo di consegna (nessuna ricodifica). Se NON hanno le mappe nel video, scrivetelo in PER_LA_MASTER / nello stato («senza mappe nel video») così la master fa l elenco per Sara.
+
