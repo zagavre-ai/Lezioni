@@ -2,7 +2,8 @@
  "tag": "afm-inglese-triennio-lez07",
  "parti": {
   "1": {
-   "stato": "FERMA"
+   "stato": "IN_MONTAGGIO",
+   "voci": "segnaposto"
   }
  },
  "manca": "",
@@ -10,6 +11,10 @@
   {
    "quando": "15/11 12:35",
    "testo": "Release inglese-afm-triennio vuota: servono i file della lezione 7 (video, dispensa, Verifica.xlsx, Compiti.pdf) e delle dispari 9, 11"
+  },
+  {
+   "quando": "16/11 00:34",
+   "testo": "Lezione 7: servono nella release inglese-afm-triennio Dispensa.pdf (o Presentazione.pdf), Verifica.xlsx e Compiti.pdf."
   }
  ],
  "domande_sara": [],
@@ -17,9 +22,14 @@
   {
    "quando": "15/11 12:35",
    "testo": "15/11: presa da Claude 2 (ex Storia V dispari). La release inglese-afm-triennio e' vuota (0 file): mancano video, dispensa, ENG_Amm_Lez07_Verifica.xlsx e ENG_Amm_Lez07_Compiti.pdf. Riprendo appena compaiono."
+  },
+  {
+   "quando": "16/11 00:34",
+   "testo": "16/11 00:40: ripresa dalla chat della master (E1) al posto di Claude 2. Nella release c'è il video (zip 004); mancano Dispensa, Presentazione, Verifica.xlsx e Compiti.pdf. Parto da trascrizione, argomenti, slide, quiz e mappe; per chiudere servono Verifica e Compiti."
   }
  ],
  "materia": "Inglese AFM triennio",
  "lezione": "Lezione 7",
- "aggiornato": "2026-11-15 12:35:58"
+ "aggiornato": "2026-11-16 00:34:03",
+ "docente": "Prof.ssa Maria Vittoria Fontanesi"
 }
