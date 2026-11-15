@@ -48,3 +48,13 @@
 - Le mappe **NON vanno nella dispensa**: la dispensa resta senza mappe, le mappe sono solo nel file a parte.
 - **Lezioni già consegnate:** se hanno le mappe nel video, aggiungete solo `Mappe_<tag>.pdf` sul ramo di consegna (nessuna ricodifica). Se NON hanno le mappe nel video, scrivetelo in PER_LA_MASTER / nello stato («senza mappe nel video») così la master fa l elenco per Sara.
 
+
+## 15/11 sera (19:35) · CONTROLLO DELLA MASTER PRIMA DI PUBBLICARE: DA SISTEMARE STASERA (la direzione le vuole domani)
+Controllate dai file di consegna. Sistemare **senza rifare il montaggio**:
+- **Mappe mancanti nel video → «Ripasso con le mappe» inserito SUBITO PRIMA della verifica finale** (decisione di Sara): codifica solo del pezzo nuovo con gli stessi parametri, concatenazione, aggiornare `t_verifica` e `t_compiti` (slittano della durata del pezzo), sottotitoli e capitoli. Voci delle mappe con richiesta sul ramo `voci-<tag>` (il servizio è acceso). Più il file `Mappe_<tag>.pdf` A4 orizzontale.
+  - **Letteratura V 3, 5, 8, 17** (chat che le ha consegnate). Letteratura 3 anche: dispensa e `compiti.json` mancanti.
+- **Compiti del prof non trovati nel video:** Letteratura V **20** e **25**; Storia V **1**. Aggiungere intro + scheda «Compiti» prima della chiusura (stesso metodo: solo il pezzo nuovo) + `compiti.json`.
+- **Storia V 9:** non trovo né la verifica finale né i compiti nei file di consegna. Controllare e sistemare.
+- **`compiti.json` mancante** (solo il file, nessuna ricodifica): Storia V 1, 2, 11, 14, 16, 17, 19, 21; Letteratura V 8, 17.
+- **Letteratura V 1 e 2:** non c'è il ramo `consegna-<tag>` nel formato nuovo. Chi le ha fatte: consegna sul ramo con tutti i file.
+- Finito: stato `PRONTA` e scrivete nella nota «sistemata per controllo 15/11».
