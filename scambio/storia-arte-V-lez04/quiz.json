@@ -1,0 +1,387 @@
+[
+ {
+  "argomento": "Parigi, la capitale del cambiamento",
+  "domande": [
+   {
+    "domanda": "Quale barone guida i lavori urbanistici che trasformano Parigi nella seconda metà dell'Ottocento?",
+    "giusta": "Haussmann",
+    "sbagliate": [
+     "Leroy",
+     "Nadar",
+     "Manet"
+    ],
+    "spiegazione": "I lavori del barone Haussmann fanno di Parigi una metropoli moderna."
+   },
+   {
+    "domanda": "Quali luoghi diventano il centro della vita borghese e del ritrovo degli artisti?",
+    "giusta": "I viali, le gallerie commerciali e i caffè",
+    "sbagliate": [
+     "Le cattedrali gotiche",
+     "I palazzi dell'Accademia",
+     "Le fabbriche della periferia"
+    ],
+    "spiegazione": "Boulevard, gallerie e caffè sono i nuovi spazi di socialità."
+   },
+   {
+    "domanda": "Perché nascono Salon alternativi?",
+    "giusta": "Per superare la rigidità dei Salon ufficiali e dell'arte accademica",
+    "sbagliate": [
+     "Perché i Salon ufficiali sono stati chiusi",
+     "Per vendere solo fotografie",
+     "Per esporre soltanto opere straniere"
+    ],
+    "spiegazione": "I pittori cercano spazi indipendenti, come lo studio di Nadar."
+   },
+   {
+    "domanda": "Che cosa introducono le prime foto aeree scattate da Nadar?",
+    "giusta": "Una nuova prospettiva visiva che influenza i pittori",
+    "sbagliate": [
+     "Il colore nella fotografia",
+     "La fine della pittura a olio",
+     "Il ritratto in studio"
+    ],
+    "spiegazione": "La nuova prospettiva dall'alto cambia il modo di dipingere degli impressionisti."
+   },
+   {
+    "domanda": "Che cosa si intende per Salon ufficiale?",
+    "giusta": "L'esposizione ufficiale legata all'arte accademica",
+    "sbagliate": [
+     "Un caffè frequentato dagli artisti",
+     "Una galleria commerciale coperta",
+     "Un viale alberato"
+    ],
+    "spiegazione": "I Salon ufficiali erano rigidi e legati all'accademia."
+   }
+  ]
+ },
+ {
+  "argomento": "L'inizio dell'arte moderna e la prima mostra (1874)",
+  "domande": [
+   {
+    "domanda": "Che cosa cerca di restituire la poetica dell'attimo?",
+    "giusta": "Le sensazioni visive e gli effetti di luce e colore nella loro immediatezza",
+    "sbagliate": [
+     "Scene storiche e mitologiche",
+     "Ritratti idealizzati dei nobili",
+     "Disegni anatomici precisi"
+    ],
+    "spiegazione": "Gli impressionisti rifiutano la pittura accademica per cogliere l'attimo."
+   },
+   {
+    "domanda": "Che cosa significa dipingere en plein air?",
+    "giusta": "Dipingere all'aperto, fuori dallo studio",
+    "sbagliate": [
+     "Dipingere solo di notte",
+     "Dipingere copiando fotografie",
+     "Dipingere con colori a tempera"
+    ],
+    "spiegazione": "Si abbandona lo studio per lavorare all'aperto."
+   },
+   {
+    "domanda": "Che cosa rende possibile la pittura all'aperto?",
+    "giusta": "I tubetti di colore a olio in stagno e i cavalletti portatili",
+    "sbagliate": [
+     "Le lampade a gas",
+     "Le tele di grandi dimensioni",
+     "I pennelli di ferro"
+    ],
+    "spiegazione": "Tubetti e cavalletti portatili permettono di portare il colore fuori dallo studio."
+   },
+   {
+    "domanda": "Circa quanti pittori partecipano alla mostra del 1874?",
+    "giusta": "Circa trenta",
+    "sbagliate": [
+     "Circa tre",
+     "Circa trecento",
+     "Circa duemila"
+    ],
+    "spiegazione": "La Società anonima di artisti riunisce circa trenta pittori, tra cui Monet, Degas, Renoir e Pissarro."
+   },
+   {
+    "domanda": "Da quale quadro di Monet nasce il nome «impressionisti»?",
+    "giusta": "Impressione, sole nascente",
+    "sbagliate": [
+     "Le ninfee",
+     "La stazione Saint-Lazare",
+     "La cattedrale di Rouen"
+    ],
+    "spiegazione": "Il critico Louis Leroy usa il termine in senso dispregiativo, partendo da quel titolo."
+   }
+  ]
+ },
+ {
+  "argomento": "Édouard Manet, il padre degli impressionisti",
+  "domande": [
+   {
+    "domanda": "Perché Manet è considerato il padre spirituale degli impressionisti?",
+    "giusta": "È il punto di riferimento della nuova arte pur non partecipando alle loro mostre",
+    "sbagliate": [
+     "Perché ha organizzato la mostra del 1874",
+     "Perché ha inventato i tubetti di colore",
+     "Perché ha fondato l'Accademia"
+    ],
+    "spiegazione": "Manet non espone mai con il gruppo, ma ne è il capofila indipendente."
+   },
+   {
+    "domanda": "Che cosa sconvolge il pubblico nella Colazione sull'erba?",
+    "giusta": "L'assenza di chiaroscuro sfumato e un nudo femminile contemporaneo non idealizzato",
+    "sbagliate": [
+     "La grandezza eccessiva della tela",
+     "Il soggetto religioso",
+     "L'uso dell'oro"
+    ],
+    "spiegazione": "Tecnica e soggetto rompono con le regole dell'accademia."
+   },
+   {
+    "domanda": "A quale opera di Tiziano si ispira Olympia?",
+    "giusta": "La Venere",
+    "sbagliate": [
+     "La Pietà",
+     "La Tempesta",
+     "L'Assunta"
+    ],
+    "spiegazione": "Olympia ripropone la Venere di Tiziano in chiave realistica."
+   },
+   {
+    "domanda": "Come fu interpretata dalla critica la figura di Olympia?",
+    "giusta": "Come l'immagine di una prostituta",
+    "sbagliate": [
+     "Come una dea dell'antichità",
+     "Come una santa",
+     "Come una regina"
+    ],
+    "spiegazione": "Il realismo del nudo scardina i tabù dell'epoca."
+   },
+   {
+    "domanda": "Che cosa unisce Il bar delle Folies-Bergère?",
+    "giusta": "Una natura morta straordinaria e un complesso gioco di specchi",
+    "sbagliate": [
+     "Un paesaggio marino e una cattedrale",
+     "Una danza e un ritratto equestre",
+     "Una stazione e un treno"
+    ],
+    "spiegazione": "È il capolavoro finale di Manet, del 1881-82."
+   }
+  ]
+ },
+ {
+  "argomento": "Claude Monet, il «cacciatore di impressioni»",
+  "domande": [
+   {
+    "domanda": "A che cosa si dedica soprattutto Monet?",
+    "giusta": "Alla resa dell'istante visivo e dei cambiamenti della luce",
+    "sbagliate": [
+     "Al disegno preciso delle figure",
+     "Ai ritratti di corte",
+     "Alle scene storiche"
+    ],
+    "spiegazione": "Luce e colori cambiano continuamente sulle cose."
+   },
+   {
+    "domanda": "Che cosa dipinge Monet alla Gare Saint-Lazare?",
+    "giusta": "Fumi, vapore e riflessi di luce sotto le tettoie in vetro",
+    "sbagliate": [
+     "Ballerine in prova",
+     "Feste popolari",
+     "Un nudo di donna"
+    ],
+    "spiegazione": "Monet è affascinato dalla modernità urbana delle locomotive."
+   },
+   {
+    "domanda": "In che cosa consiste la tecnica delle «Serie»?",
+    "giusta": "Dipingere lo stesso soggetto in ore e stagioni diverse",
+    "sbagliate": [
+     "Dipingere molti soggetti in un solo giorno",
+     "Copiare le fotografie di Nadar",
+     "Usare solo il bianco e il nero"
+    ],
+    "spiegazione": "Serve a mostrare il mutamento della luce."
+   },
+   {
+    "domanda": "Quale serie celebre di Monet ha per soggetto una chiesa gotica?",
+    "giusta": "Le Cattedrali di Rouen",
+    "sbagliate": [
+     "Le Ninfee",
+     "I Covoni",
+     "Le Stazioni"
+    ],
+    "spiegazione": "La cattedrale è ripresa in ore e stagioni diverse."
+   },
+   {
+    "domanda": "Che cosa dipinge Monet negli ultimi anni a Giverny?",
+    "giusta": "Il suo giardino acquatico, fino a composizioni quasi astratte",
+    "sbagliate": [
+     "Le strade di Londra",
+     "I teatri di Parigi",
+     "Le corse dei cavalli"
+    ],
+    "spiegazione": "Pennellate libere e vibranti dominano le Ninfee."
+   }
+  ]
+ },
+ {
+  "argomento": "Pierre-Auguste Renoir, il pittore della gioia di vivere",
+  "domande": [
+   {
+    "domanda": "Che cosa celebra Renoir nelle sue opere?",
+    "giusta": "La vita parigina, con ottimismo e vitalità",
+    "sbagliate": [
+     "La solitudine moderna",
+     "La guerra e la violenza",
+     "I paesaggi desertici"
+    ],
+    "spiegazione": "Feste popolari, gite domenicali e svago della borghesia."
+   },
+   {
+    "domanda": "Che cosa sperimenta Renoir alla Grenouillère insieme a Monet?",
+    "giusta": "La scomposizione del colore per rendere i riflessi mobili della luce sull'acqua",
+    "sbagliate": [
+     "La scultura in cera",
+     "La prospettiva rinascimentale",
+     "L'incisione"
+    ],
+    "spiegazione": "La Grenouillère è uno stabilimento balneare sulla Senna."
+   },
+   {
+    "domanda": "Quale è il quadro più celebre di Renoir, del 1876?",
+    "giusta": "Il ballo al Moulin de la Galette",
+    "sbagliate": [
+     "L'assenzio",
+     "Olympia",
+     "Impressione, sole nascente"
+    ],
+    "spiegazione": "Cattura il movimento della folla attraversata dalla luce tra gli alberi."
+   },
+   {
+    "domanda": "In che cosa Renoir si differenzia da Monet?",
+    "giusta": "Mantiene sempre un forte interesse per la figura umana",
+    "sbagliate": [
+     "Dipinge soltanto paesaggi",
+     "Non usa mai il colore",
+     "Lavora solo in studio"
+    ],
+    "spiegazione": "Esalta in particolare la giovinezza e la luminosità della pelle femminile."
+   },
+   {
+    "domanda": "Che cosa attraversa le figure nel Moulin de la Galette?",
+    "giusta": "I filtri di luce solare tra gli alberi",
+    "sbagliate": [
+     "La nebbia del mattino",
+     "La luce delle lampade",
+     "Il fumo dei treni"
+    ],
+    "spiegazione": "La luce sulle figure è uno dei temi centrali del quadro."
+   }
+  ]
+ },
+ {
+  "argomento": "Edgar Degas, il più «classico» degli impressionisti",
+  "domande": [
+   {
+    "domanda": "Quale legame mantiene Degas con la tradizione?",
+    "giusta": "Il disegno e la tradizione classica",
+    "sbagliate": [
+     "Il rifiuto del disegno",
+     "L'arte medievale",
+     "Il solo uso del colore puro"
+    ],
+    "spiegazione": "Preferisce spesso lo studio al plein air."
+   },
+   {
+    "domanda": "Quali ambienti ispirano Degas?",
+    "giusta": "Teatri, corse dei cavalli, caffè e vita parigina",
+    "sbagliate": [
+     "Montagne e ghiacciai",
+     "Campi di grano",
+     "Cantieri navali"
+    ],
+    "spiegazione": "Con tagli prospettici audaci influenzati dalla fotografia."
+   },
+   {
+    "domanda": "Che cosa descrive L'assenzio?",
+    "giusta": "La solitudine e lo smarrimento della società moderna",
+    "sbagliate": [
+     "Una festa popolare",
+     "Una danza di gruppo",
+     "Una battaglia"
+    ],
+    "spiegazione": "Due bevitori silenziosi seduti in un caffè."
+   },
+   {
+    "domanda": "Quale soggetto rende celebre Degas nei dipinti e nei pastelli?",
+    "giusta": "Le ballerine classiche",
+    "sbagliate": [
+     "I mietitori",
+     "I cavalieri medievali",
+     "Le cattedrali"
+    ],
+    "spiegazione": "Le coglie sul palcoscenico, nelle prove, nel riposo e nella fatica."
+   },
+   {
+    "domanda": "Da che cosa sono influenzati i tagli prospettici di Degas?",
+    "giusta": "Dalla fotografia",
+    "sbagliate": [
+     "Dall'arte bizantina",
+     "Dalla pittura barocca",
+     "Dalla scultura greca"
+    ],
+    "spiegazione": "I tagli audaci derivano dal nuovo modo di vedere della fotografia."
+   }
+  ]
+ },
+ {
+  "argomento": "Le pittrici impressioniste e la presenza italiana",
+  "domande": [
+   {
+    "domanda": "Di che cosa si occupa soprattutto Berthe Morisot?",
+    "giusta": "Di momenti privati della vita quotidiana e familiare",
+    "sbagliate": [
+     "Di battaglie storiche",
+     "Di nudi mitologici",
+     "Di paesaggi industriali"
+    ],
+    "spiegazione": "È una delle figure fondatrici del movimento."
+   },
+   {
+    "domanda": "Quale contributo dà Mary Cassatt?",
+    "giusta": "Fa apprezzare l'arte impressionista negli Stati Uniti",
+    "sbagliate": [
+     "Fonda i Salon ufficiali",
+     "Dipinge solo paesaggi",
+     "Inventa il tubetto di colore"
+    ],
+    "spiegazione": "È americana, vive a Parigi ed è vicina a Degas."
+   },
+   {
+    "domanda": "In che cosa si specializza De Nittis?",
+    "giusta": "Nelle vedute urbane moderne di Parigi e Londra",
+    "sbagliate": [
+     "Nei ritratti dell'alta società",
+     "Nelle nature morte",
+     "Nelle scene sacre"
+    ],
+    "spiegazione": "Il suo stile è legato alla vita moderna delle grandi città."
+   },
+   {
+    "domanda": "Che cosa unisce Zandomeneghi?",
+    "giusta": "L'esperienza dei Macchiaioli toscani e lo stile impressionista",
+    "sbagliate": [
+     "Il disegno accademico e il Barocco",
+     "L'arte bizantina e la fotografia",
+     "Il Futurismo e il Cubismo"
+    ],
+    "spiegazione": "Federico Zandomeneghi porta la macchia in Francia."
+   },
+   {
+    "domanda": "Per che cosa è celebre Giovanni Boldini?",
+    "giusta": "Per i ritratti dell'alta società della Belle Époque, dallo stile fluido e dinamico",
+    "sbagliate": [
+     "Per le scene di guerra",
+     "Per i paesaggi di montagna",
+     "Per le sculture in cera"
+    ],
+    "spiegazione": "Diventa uno dei ritrattisti più richiesti di Parigi."
+   }
+  ]
+ }
+]
