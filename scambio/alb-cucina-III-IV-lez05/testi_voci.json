@@ -1,0 +1,112 @@
+[
+ {
+  "nome": "INTRO1",
+  "testo": "Benvenuti alla lezione sul Made in Italy. Esploreremo l'identità gastronomica e le tradizioni culinarie di tutte le regioni italiane, comprese la tutela del Made in Italy e il contrasto all'Italian sounding.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R1",
+  "testo": "Ripassiamo l'identità della cucina italiana e la sua tutela. Guarda lo schema: fattori, marchi di qualità e Italian sounding.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R2",
+  "testo": "Ripassiamo il Nord-Ovest: Valle d'Aosta, Piemonte, Liguria e Lombardia. Guarda lo schema.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R3",
+  "testo": "Ripassiamo il Nord-Est: Trentino-Alto Adige, Veneto, Friuli-Venezia Giulia ed Emilia-Romagna. Guarda lo schema.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R4",
+  "testo": "Ripassiamo il Centro Italia: Toscana, Umbria, Marche e Lazio. Guarda lo schema.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R5",
+  "testo": "Ripassiamo Abruzzo, Molise, Campania e Puglia. Guarda lo schema.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R6",
+  "testo": "Ripassiamo Basilicata, Calabria, Sicilia e Sardegna. Guarda lo schema.",
+  "lingua": "it"
+ },
+ {
+  "nome": "S1",
+  "testo": "Identità e tutela del Made in Italy. La cucina italiana non ha un modello unico nazionale: è il risultato di tante identità regionali e locali. I fattori che la determinano sono storici e politici, geografici e climatici. I marchi europei di certificazione sono tre: la DOP, denominazione di origine protetta, la IGP, indicazione geografica protetta, e la STG, specialità tradizionale garantita. L'Italian sounding è un fenomeno ingannevole: sfrutta nomi, immagini e colori evocativi dell'Italia per vendere prodotti non autentici. Per contrastarlo servono informazione corretta ai consumatori stranieri e meno barriere commerciali.",
+  "lingua": "it"
+ },
+ {
+  "nome": "S2",
+  "testo": "Nord-Ovest: Valle d'Aosta, Piemonte, Liguria e Lombardia. In Valle d'Aosta spiccano la Fontina DOP, il Jambon de Bosses DOP e il Lardo d'Arnad DOP. Il Piemonte è la terra del tartufo bianco, degli agnolotti, del vitello tonnato e del brasato al Barolo. I suoi dolci sono i baci di dama e il cioccolato gianduja, a base di Nocciole di Piemonte DOP. La Liguria è la terra del pesto, con il Basilico di Prà Genovese DOP, e della focaccia di Recco IGP. In Lombardia dominano i risotti, il Gorgonzola, il Taleggio e il Grana Padano, e dolci come il panettone e il torrone di Cremona.",
+  "lingua": "it"
+ },
+ {
+  "nome": "S3",
+  "testo": "Nord-Est: Trentino-Alto Adige, Veneto, Friuli-Venezia Giulia ed Emilia-Romagna. Il Trentino-Alto Adige unisce cultura alpina e mitteleuropea: canederli, spätzle, speck e strudel di mele. Il Veneto è la terra della polenta bianca, del baccalà alla vicentina, del radicchio rosso, del pandoro di Verona e del tiramisù. Il Friuli-Venezia Giulia offre il Montasio DOP, il Prosciutto di San Daniele DOP, il frico, la gubana e il presnitz. L'Emilia-Romagna è la terra della pasta all'uovo: tortellini, lasagne e tagliatelle. Qui trovi il Prosciutto di Parma DOP, la Mortadella di Bologna IGP, il Parmigiano Reggiano e l'Aceto Balsamico Tradizionale.",
+  "lingua": "it"
+ },
+ {
+  "nome": "S4",
+  "testo": "Centro Italia: Toscana, Umbria, Marche e Lazio. La Toscana usa il pane sciapo, senza sale, nella ribollita, nella pappa al pomodoro e nella panzanella, e ha la bistecca alla fiorentina, i cantucci e il panforte di Siena. L'Umbria ha l'olio extravergine d'oliva, i tartufi neri di Norcia, il Prosciutto di Norcia IGP e la lenticchia di Castelluccio IGP. Le Marche uniscono mare e montagna: olive ascolane, vincisgrassi alla maceratese STG, ciauscolo IGP e maccheroncini di Campofilone IGP. Il Lazio ha il Pecorino Romano DOP e il guanciale, da cui nascono la carbonara e l'amatriciana, e inoltre il carciofo romanesco IGP e l'abbacchio romano IGP.",
+  "lingua": "it"
+ },
+ {
+  "nome": "S5",
+  "testo": "Abruzzo, Molise, Campania e Puglia. L'Abruzzo è terra contadina e pastorale: zafferano dell'Aquila DOP, ventricina vastese, aglio rosso di Sulmona, maccheroni alla chitarra e arrosticini. Il Molise conserva le tradizioni della transumanza: vitellone bianco IGP, caciocavallo silano DOP, brodetto alla termolese e cavatelli. La Campania è il cuore della dieta mediterranea: pasta di Gragnano IGP, mozzarella di bufala, pomodoro San Marzano DOP, pizza napoletana e pastiera. La Puglia vive del grano duro: pane di Altamura DOP, taralli, friselle e orecchiette con le cime di rapa.",
+  "lingua": "it"
+ },
+ {
+  "nome": "S6",
+  "testo": "Basilicata, Calabria, Sicilia e Sardegna. La Basilicata ha una cucina lucana: peperoni cruschi di Senise IGP, lucanica di Picerno, fagioli di Sarconi IGP e baccalà alla potentina. La Calabria usa molto il peperoncino: 'nduja, cipolla rossa di Tropea IGP e Pecorino del Monte Poro DOP. La Sicilia è un mosaico di culture: pistacchio di Bronte DOP, pomodoro di Pachino IGP, arancini, pasta alla Norma, cannoli, cassata e cioccolato di Modica IGP. La Sardegna conserva tradizioni pastorali: pane carasau, pecorino sardo, bottarga, porceddu allo spiedo, culurgionis d'Ogliastra IGP, malloreddus e sebadas al miele.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN1",
+  "testo": "Approfondiamo il valore del Made in Italy. L'Italia detiene il record europeo per numero di prodotti a marchio di qualità e per la varietà di specie edibili coltivate. Questa ricchezza alimenta anche il food tourism, cioè il turismo che valorizza le tradizioni locali. L'Articolo nove della Costituzione riconosce il paesaggio e il patrimonio storico-artistico, di cui i beni enogastronomici sono parte integrante. L'UNESCO ha inserito tra i patrimoni dell'umanità la dieta mediterranea, l'arte dei pizzaiuoli napoletani e le colline del Prosecco.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN2",
+  "testo": "Approfondiamo i piatti e i dolci del Nord-Ovest. In Valle d'Aosta le zuppe energetiche sono la seupa à la vapelenentze e la fonduta, accanto alla polenta e alla selvaggina, come il civet. I pasti si concludono con il Mont Blanc o con il caffè alla valdostana, servito nella coppa dell'amicizia. In Liguria il ciuppin e la buridda sono i piatti di mare più noti, mentre il pesto condisce trofie e trenette. In Lombardia ci sono i tortelli di zucca e i pizzoccheri della Valtellina.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN3",
+  "testo": "Approfondiamo le specialità del Nord-Est. Nel Trentino si usano la polenta di mais e i pesci d'acqua dolce, mentre l'Alto Adige è noto per la tradizione casearia e lo speck. Seguono zuppe d'orzo, goulash di manzo, zelten e krapfen. In Friuli-Venezia Giulia ci sono la pitina IGP, la brovada, i cjarsons, il muset e il boreto. In Emilia-Romagna trovi il Culatello di Zibello DOP, la piadina romagnola IGP, lo gnocco fritto, il pampapato di Ferrara IGP e la pinza bolognese.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN4",
+  "testo": "Approfondiamo i sapori del Centro Italia. In Toscana trovi il prosciutto toscano DOP, il lardo di Colonnata IGP e il cacciucco alla livornese. In Umbria la norcineria si accompagna agli umbrichelli, alla minestra di cicerchie, all'agnello scottadito e alla porchetta. Nelle Marche il ciauscolo IGP ha una consistenza spalmabile, e la Casciotta d'Urbino DOP è il formaggio più noto. Nel Lazio la cucina romana eccelle nelle verdure e nella carne, con la coda alla vaccinara.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN5",
+  "testo": "Approfondiamo le tradizioni del Sud Italia. In Abruzzo arrivano la pecora alla cottora, i confetti di Sulmona, il parrozzo e le ferratelle. In Molise la mollica di pane è usata in molte ricette, come lo scapèce di alicette, e si preparano le ceppellette di Trivento e le ostie di Agnone. In Puglia ci sono fave e cicoria, la tiella di riso, patate e cozze, le carteddate, i pasticciotti leccesi e le pettole.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN6",
+  "testo": "Approfondiamo la Basilicata, la Calabria e le isole. In Basilicata i ferretti e le lagane con i ceci precedono l'agnello, e i dolci sono le scarcelle pasquali e le zeppole di San Giuseppe. In Calabria ci sono la pasta cu' muddica, le melanzane ripiene, il torrone di Bagnara IGP e le cuzzupe. La Sicilia deve la sua biodiversità alle influenze arabe, normanne e spagnole, e propone il couscous trapanese. In Sardegna, nell'entroterra, si prepara il porceddu allo spiedo.",
+  "lingua": "it"
+ },
+ {
+  "nome": "GL1",
+  "testo": "Ripassiamo le parole chiave della lezione. Ascolta ogni parola e la sua definizione, e prova a ripeterla. Made in Italy: identifica uno stile di vita e un'eccellenza produttiva italiana. Identità regionale: la cucina italiana è l'insieme di tante identità regionali e locali. DOP: denominazione di origine protetta. IGP: indicazione geografica protetta. STG: specialità tradizionale garantita. Italian sounding: fenomeno ingannevole che imita nomi, immagini e colori italiani per vendere prodotti non autentici. Food tourism: turismo che valorizza le tradizioni gastronomiche locali. Dieta mediterranea: patrimonio immateriale dell'umanità riconosciuto dall'UNESCO. Bagna caòda: salsa piemontese a base di aglio, con verdure e carne. Pesto: condimento ligure a base di Basilico di Prà Genovese DOP. Canederli: piatto simbolo del Trentino-Alto Adige. Pane sciapo: pane toscano senza sale. Carbonara: piatto laziale con Pecorino Romano DOP e guanciale. Transumanza: spostamento stagionale delle greggi, tradizione del Molise. Arancini: palle di riso con ripieno, specialità siciliana. Pane carasau: pane sardo tipico della vita pastorale. Ricorda: queste parole le trovi anche nella dispensa.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RF1",
+  "testo": "Prima di salutarci, ricapitoliamo insieme i sei argomenti della lezione. Alla fine, prova a ripeterli con parole tue. Primo argomento: Identità e tutela del Made in Italy. Tante identità regionali e locali. I marchi DOP, IGP e STG. Contro l'Italian sounding: informazione e meno barriere. Secondo argomento: Nord-Ovest. Valle d'Aosta: Fontina DOP e fonduta. Piemonte: tartufo bianco e agnolotti. Liguria: pesto e focaccia di Recco. Lombardia: risotti, formaggi e panettone. Terzo argomento: Nord-Est. Trentino-Alto Adige: canederli, speck e strudel. Veneto: polenta, baccalà e tiramisù. Friuli-Venezia Giulia: San Daniele e Montasio. Emilia-Romagna: pasta all'uovo, Parma e Parmigiano. Quarto argomento: Centro Italia. Toscana: pane sciapo, ribollita e bistecca. Umbria: tartufi neri e norcineria. Marche: olive ascolane e vincisgrassi. Lazio: carbonara, amatriciana e carciofo romanesco. Quinto argomento: Abruzzo, Molise, Campania e Puglia. Abruzzo: zafferano, arrosticini e maccheroni alla chitarra. Molise: transumanza e brodetto alla termolese. Campania: pizza, mozzarella e San Marzano. Puglia: pane di Altamura, orecchiette e taralli. Sesto argomento: Basilicata, Calabria e isole. Basilicata: peperoni cruschi e lucanica. Calabria: peperoncino e 'nduja. Sicilia: pistacchio, arancini, cannoli e cassata. Sardegna: pane carasau, pecorino e porceddu. Ottimo lavoro. Ora mettiti alla prova con il test finale della lezione.",
+  "lingua": "it"
+ },
+ {
+  "nome": "FIN1",
+  "testo": "Fine della lezione sul Made in Italy. Grazie per l'attenzione, e buono studio.",
+  "lingua": "it"
+ }
+]
