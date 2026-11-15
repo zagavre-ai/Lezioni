@@ -2,7 +2,7 @@
  "tag": "letteratura-V-lez26",
  "parti": {
   "1": {
-   "stato": "FERMA",
+   "stato": "IN_MONTAGGIO",
    "titolo": "Italo Calvino",
    "voci": "kore",
    "quiz_ok": "si",
@@ -418,10 +418,14 @@
   {
    "quando": "14/11 22:45",
    "testo": "chat R5: testi voci AN inviati, in attesa delle voci Kore; montaggio pronto con segnaposto (53:08 stimati)"
+  },
+  {
+   "quando": "15/11 02:33",
+   "testo": "chat R5: pronta, attende voci Kore (animazioni, mappe, compiti, sottotitoli, dispensa in lavorazione con segnaposto)"
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 26",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-15 00:16:37"
+ "aggiornato": "2026-11-15 02:33:44"
 }
