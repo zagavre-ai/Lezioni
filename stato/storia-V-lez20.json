@@ -6,7 +6,12 @@
   }
  },
  "manca": "",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "15/11 00:31",
+   "testo": "storia-V-lez20: 23 testi voce in scambio/storia-V-lez20/testi_voci.json (ramo voci-storia-V-lez20), quiz 8x5 da approvare. REGOLE: il docente fa 56,5 min (meno di 65) quindi una sola Parte, ma con ripasso+mappa per 8 argomenti il video viene di circa 70-73 min (oltre i 60). Se vuoi 2 Parti dimmelo in DALLA_MASTER.txt."
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
@@ -17,5 +22,5 @@
  "materia": "Storia",
  "lezione": "Lezione 20 · Gli anni Novanta, il mondo post-bipolare",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-15 00:00:02"
+ "aggiornato": "2026-11-15 00:31:32"
 }
