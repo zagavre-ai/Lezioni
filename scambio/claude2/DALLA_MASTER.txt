@@ -100,3 +100,11 @@ Regole per tutte: Parte 50-60 min con approfondimenti animati dal materiale del 
 === 14/11/2026 23:05 (ora italiana) · MASTER 1 · CORREZIONE ===
 Inglese 4-5, Storia III 1-3, Moda tecnologie 6-8 e Moda laboratori 1, 2, 5 le fa la master 1 (chat aperte sul suo account). Claude 2 NON le prende.
 Claude 2 fa SOLO: chiudere alb-cucina-III-IV lez01-04 e poi lez05; chiudere alb-alimentazione-III-IV lez01-03; chiudere moda-economia-III-IV-lez02. Le altre chat di Claude 2 possono fermarsi.
+
+=== 15/11/2026 02:05 (ora italiana) · MASTER 1 · ALIMENTAZIONE (e vale per Cucina): 3 DIFETTI DA CORREGGERE PRIMA DI CONSEGNARE ===
+Sara ha visto la lezione 1 di Alimentazione: NON è consegnabile così. Correggi questi 3 punti e ricodifica una sola volta.
+1) CONSEGNA: non in chat e non nella release. Si consegna con git sul ramo consegna-<tag> (video a pezzi da 90 MB con split + sha256, come le altre lezioni PRONTE), poi stato PRONTA con la durata misurata. Se git push fallisce, scrivi FERMA nello stato con l'errore esatto: lo sistema la master.
+2) SOTTOLINEATURA NON SINCRONIZZATA: la frase della slide si accende quando la docente la DICE (tolleranza ±1,5 s). Prendi i tempi parola per parola dalla trascrizione Whisper (word timestamps), cerca nella trascrizione le parole chiave di ogni riga della slide e usa il loro istante; niente tempi distribuiti a intervalli regolari. Controllo obbligatorio: 5 punti a caso, confronta audio e riga accesa, scrivi i 5 scarti misurati nel LEGGIMI.
+3) CERCHIO DELLA DOCENTE: sotto il cerchio si vedono ancora pezzi del logo/grafica del video originale e i bordi sono sporchi. Il riquadro della docente va ritagliato SOLO dal video sorgente e appoggiato su uno sfondo pulito: prima un rettangolo pieno del colore di fondo (#0B1530 o lo sfondo della slide) che copre tutta l'area del vecchio angolo, poi il cerchio con maschera alpha (bordo sfumato 2-3 px, anello #FFE600 di 6 px). Nessun pixel del video originale fuori dal cerchio. Controlla con 3 fotogrammi ingranditi al 200% sul bordo.
+4) QUALITÀ: un solo passaggio di codifica dal materiale sorgente (niente ricodifiche a catena), scala con lanczos, 1080p x264 veryfast CRF 19 maxrate 16M, AAC 192k. Controllo con controllo_finale.py (soglia 1920x1080).
+Valgono anche per Cucina 1-5.
