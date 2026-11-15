@@ -14,6 +14,10 @@
   {
    "quando": "14/11 23:39",
    "testo": "storia-V-lez18: testi_voci.json aggiornato a 40 testi (aggiunto AN3c); se hai gia' generato i 39 precedenti basta generare solo AN3c. Montaggio pronto, aspetto le voci."
+  },
+  {
+   "quando": "15/11 14:05",
+   "testo": "storia-V-lez18: attendo le voci Kore dal ramo voci-storia-V-lez18 (richiesta gia' inviata il 14/11; resto pronto)."
   }
  ],
  "domande_sara": [],
@@ -38,5 +42,5 @@
  "materia": "Storia",
  "lezione": "Lezione 18 · L'Italia repubblicana",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-15 10:18:35"
+ "aggiornato": "2026-11-15 14:05:55"
 }
