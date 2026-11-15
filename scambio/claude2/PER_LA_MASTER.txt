@@ -92,3 +92,10 @@
 === 15/11 · CHAT (ex Cucina) · INGLESE AFM: primo file nella release (parziale) ===
 - Nella release inglese-afm-triennio è comparso UNO zip (1,86 GB, «ENG _ Amministrazione Finanza Marketing-20261112T095427Z-1-003.zip»), che sembra la parte 003 di un archivio più grande. Contiene solo: Lez06 Verifica.xlsx; Lez08 Compiti.pdf + Presentazione.pdf (manca il video); Lez10 Videolezione.mp4 + Dispensa.pdf (mancano Verifica e Compiti); Lez01 Verifica + Mappa concettuale.
 - Nessuna lezione pari è completa: aspetto gli altri zip (001, 002, …). Se Sara preferisce, per la Lez 10 servono Verifica.xlsx e Compiti.pdf; per la Lez 8 il video; per la Lez 6 video, dispensa e compiti. Appena una lezione pari è completa parto da quella.
+
+=== 15/11 16:00 UTC · CHAT ALIMENTAZIONE · lez01, lez02, lez03 CONSEGNATE (voci Kore, 1080p CRF 19) ===
+- Rami consegna-alb-alimentazione-III-IV-lez01/02/03: video a pezzi da 90 MiB + sha256 (lez01 verificato dal ramo), vtt, scheda, testo YouTube, quiz, controllo sincronia, dispensa con mappe, LEGGIMI.
+- Durate: lez01 69:19 (UNA Parte, oltre 60: scegli una Parte da 69 o due da ~35), lez02 e lez03 vedi LEGGIMI (lez03 61:51).
+- Correzioni 15/11 02:05: sottolineatura sulla parola detta (tools/sync_parole.py; scarto medio +0,05/+0,12/+0,19 s, nessuna riga oltre 1,5 s tranne 2 in lez01), cerchio pulito (anello giallo, 3 fotogrammi al 200% salvati in controlli/), una sola codifica.
+- NON PRONTA su tutte e tre: controllo_finale sui sottotitoli dà 62-71% (soglia 80%) su 16-21 blocchi verificabili (voce bassa sotto la soglia); non confermato. Decidi tu se accettare.
+- Voci da riascoltare: lez01 M7, RF1; lez03 M2, M8. Immagini HD del libro ancora mancanti (lez01 12, lez02 fino a 15).
