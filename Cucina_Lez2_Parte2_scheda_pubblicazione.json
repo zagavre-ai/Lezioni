@@ -1,0 +1,314 @@
+{
+ "materia": "Laboratori dei servizi enogastronomici – settore cucina",
+ "titolo": "Prodotti ittici · Parte 2",
+ "durata_s": 3113.0,
+ "argomenti": [
+  {
+   "n": 5,
+   "titolo": "Freschezza e stagionalità",
+   "inizio_s": 89.267,
+   "quiz_s": 798.933
+  },
+  {
+   "n": 6,
+   "titolo": "La conservazione del pesce",
+   "inizio_s": 804.233,
+   "quiz_s": 1180.032
+  },
+  {
+   "n": 7,
+   "titolo": "Le lavorazioni preliminari dei pesci",
+   "inizio_s": 1185.332,
+   "quiz_s": 1827.649
+  },
+  {
+   "n": 8,
+   "titolo": "Molluschi e crostacei: pulizia e taglio",
+   "inizio_s": 1832.949,
+   "quiz_s": 2413.715
+  },
+  {
+   "n": 9,
+   "titolo": "Le cotture del pesce",
+   "inizio_s": 2419.015,
+   "quiz_s": 2900.815
+  }
+ ],
+ "quiz": {
+  "Q5": {
+   "title": "Quiz 5 · Freschezza e stagionalità",
+   "items": [
+    {
+     "p": "Come deve essere l'occhio di un pesce fresco?",
+     "a": "Limpido, vivo, brillante e sporgente",
+     "w": [
+      "Opaco e infossato",
+      "Lattiginoso e piatto",
+      "Arrossato e asciutto"
+     ],
+     "ref": "L'occhio deve apparire limpido, vivo, brillante e sporgente verso l'esterno."
+    },
+    {
+     "p": "Di che colore devono essere le branchie di un pesce fresco?",
+     "a": "Rosso o rosato, con muco trasparente",
+     "w": [
+      "Grigio scuro",
+      "Marrone e asciutte",
+      "Giallastre con muco denso"
+     ],
+     "ref": "Le branchie devono essere di colore rosso o rosato, coperte da muco trasparente."
+    },
+    {
+     "p": "Quale di questi segni indica che il pesce è avariato?",
+     "a": "Odore di ammoniaca",
+     "w": [
+      "Odore delicato di acqua di mare",
+      "Corpo rigido e diritto",
+      "Squame ben aderenti e lucide"
+     ],
+     "ref": "Se il pesce presenta un occhio opaco e infossato, un odore di ammoniaca o una polpa cedevole, è da considerarsi avariato."
+    },
+    {
+     "p": "In quale periodo dell'anno sono disponibili calamaro, seppia, polpo e triglia?",
+     "a": "Da settembre a febbraio",
+     "w": [
+      "Da aprile a ottobre",
+      "Da gennaio a maggio",
+      "Tutto l'anno"
+     ],
+     "ref": "Specie autunnali e invernali (settembre-febbraio): calamaro, seppia, polpo, triglia, orata, spigola e cefalo."
+    },
+    {
+     "p": "Come devono essere le squame di un pesce fresco?",
+     "a": "Ben aderenti al corpo e lucide",
+     "w": [
+      "Staccate e opache",
+      "Assenti",
+      "Ricoperte di muco denso"
+     ],
+     "ref": "Le squame devono essere ben aderenti al corpo e lucide."
+    }
+   ]
+  },
+  "Q6": {
+   "title": "Quiz 6 · La conservazione del pesce",
+   "items": [
+    {
+     "p": "Qual è la temperatura ottimale per il pesce fresco refrigerato?",
+     "a": "0 °C",
+     "w": [
+      "+8 °C",
+      "−18 °C",
+      "+4 °C"
+     ],
+     "ref": "Il pesce fresco refrigerato va in cassette forate con ghiaccio pilé; la temperatura ottimale di mantenimento è di 0 °C."
+    },
+    {
+     "p": "Perché è importante eviscerare subito il pesce fresco?",
+     "a": "Per allungare la conservazione e ridurre il rischio di contaminazione, anche da Anisakis",
+     "w": [
+      "Per renderlo più pesante",
+      "Per dargli più sapore",
+      "Per poterlo surgelare a −5 °C"
+     ],
+     "ref": "È fondamentale rimuovere le viscere per aumentare il tempo di conservazione e ridurre il rischio di contaminazione microbica, inclusa quella da Anisakis."
+    },
+    {
+     "p": "Come si previene il rischio di Anisakis con l'abbattimento termico?",
+     "a": "A −20 °C per più di 24 ore",
+     "w": [
+      "A 0 °C per 12 ore",
+      "A −18 °C per 2 ore",
+      "A +4 °C per 3 giorni"
+     ],
+     "ref": "Bisogna cuocere oltre +63 °C al cuore oppure abbattere a −20 °C per un tempo superiore alle 24 ore."
+    },
+    {
+     "p": "Per quanto tempo si conserva il pesce sottovuoto a −18 °C?",
+     "a": "Circa 60 giorni",
+     "w": [
+      "Circa 10 giorni",
+      "Circa 2 giorni",
+      "Circa 2 anni"
+     ],
+     "ref": "La conservazione a −18 °C consente il mantenimento per circa 60 giorni; quella refrigerata a 0 °C per circa 10 giorni."
+    },
+    {
+     "p": "Per quanto tempo si conserva il pesce sottovuoto a 0 °C?",
+     "a": "Circa 10 giorni",
+     "w": [
+      "Circa 60 giorni",
+      "Circa un anno",
+      "Circa 2 ore"
+     ],
+     "ref": "La conservazione refrigerata a +0 °C consente il mantenimento per circa 10 giorni."
+    }
+   ]
+  },
+  "Q7": {
+   "title": "Quiz 7 · Le lavorazioni preliminari dei pesci",
+   "items": [
+    {
+     "p": "Da dove si parte per eviscerare il pesce?",
+     "a": "Dalla cavità anale, risalendo lungo il ventre",
+     "w": [
+      "Dalla testa, scendendo verso la coda",
+      "Dal dorso, vicino alla lisca",
+      "Dalle branchie, verso la coda"
+     ],
+     "ref": "L'eviscerazione si esegue con un taglio che parte dalla cavità anale e risale per tutta la lunghezza del ventre."
+    },
+    {
+     "p": "Che cos'è la baffa?",
+     "a": "Il filetto intero, deliscato e rifilato",
+     "w": [
+      "Una fetta di polpa spessa 5-10 cm",
+      "Una fetta sottile tagliata in obliquo",
+      "Bocconcini di polpa a cubetto"
+     ],
+     "ref": "La baffa identifica il filetto intero, perfettamente deliscato e rifilato."
+    },
+    {
+     "p": "Quale taglio è ideale per preparazioni a crudo come il sashimi?",
+     "a": "La scaloppa",
+     "w": [
+      "Il trancio",
+      "La darna",
+      "Il coulibiac"
+     ],
+     "ref": "La scaloppa è una fetta sottile ottenuta tagliando la baffa in modo obliquo o perpendicolare, ideale per preparazioni a crudo come il sashimi."
+    },
+    {
+     "p": "Quanti filetti si ottengono di solito da un pesce piatto come la sogliola?",
+     "a": "Quattro, due per lato",
+     "w": [
+      "Due, uno per lato",
+      "Sei, tre per lato",
+      "Uno solo"
+     ],
+     "ref": "Dai pesci piatti si ottengono solitamente quattro filetti, con due porzioni per ogni lato."
+    },
+    {
+     "p": "Che cos'è la tartare di pesce?",
+     "a": "Polpa tagliata a listarelle e poi a cubetti molto piccoli",
+     "w": [
+      "Il filetto intero deliscato",
+      "Una fetta spessa tra 5 e 10 cm",
+      "Il trancio con la testa"
+     ],
+     "ref": "La tartare è composta da polpa tagliata a listarelle e successivamente a cubetti molto piccoli."
+    }
+   ]
+  },
+  "Q8": {
+   "title": "Quiz 8 · Molluschi e crostacei: pulizia e taglio",
+   "items": [
+    {
+     "p": "Nella pulizia dei cefalopodi, che cosa si estrae dopo testa e interiora?",
+     "a": "La penna interna",
+     "w": [
+      "Il bisso",
+      "Il carapace",
+      "Il corallo"
+     ],
+     "ref": "Si deve individuare ed estrarre la penna interna e poi rimuovere la pelle."
+    },
+    {
+     "p": "Come si eliminano la sabbia e le impurità dalle vongole?",
+     "a": "Si lasciano spurgare in acqua fredda",
+     "w": [
+      "Si sbollentano per due minuti",
+      "Si spazzolano e si strappa il bisso",
+      "Si mettono sotto sale"
+     ],
+     "ref": "Le vongole vanno controllate e lasciate spurgare in acqua fredda per diversi minuti."
+    },
+    {
+     "p": "Che cos'è il bisso delle cozze?",
+     "a": "Il filamento esterno da strappare",
+     "w": [
+      "La conchiglia interna",
+      "La sacca stomacale",
+      "Il muscolo che chiude le valve"
+     ],
+     "ref": "Per le cozze o mitili è fondamentale strappare energicamente il bisso, il filamento esterno."
+    },
+    {
+     "p": "Perché si lega l'aragosta a una tavoletta prima della bollitura?",
+     "a": "Per evitare che si ripieghi",
+     "w": [
+      "Per toglierle il carapace",
+      "Per svuotarla dell'acqua",
+      "Per rompere le chele"
+     ],
+     "ref": "L'aragosta deve essere assicurata a una tavoletta rigida con dello spago prima della bollitura per evitarne il ripiegamento."
+    },
+    {
+     "p": "Che cosa si conserva della capasanta dopo la pulizia?",
+     "a": "La noce e il corallo",
+     "w": [
+      "Il mantello e le barbe",
+      "La vescicola nera",
+      "Solo il guscio"
+     ],
+     "ref": "Della capasanta si scartano mantello, vescicola nera e barbe, conservando solo la noce e il corallo."
+    }
+   ]
+  },
+  "Q9": {
+   "title": "Quiz 9 · Le cotture del pesce",
+   "items": [
+    {
+     "p": "Che cos'è la cottura au bleu?",
+     "a": "Una cottura bollita di pesci d'acqua dolce in un liquido con aceto, che li colora di bluastro",
+     "w": [
+      "Una cottura al vapore in cestelli di bambù",
+      "Una frittura in pastella di pesce azzurro",
+      "Una cottura in crosta di sale"
+     ],
+     "ref": "La cottura au bleu è riservata a pesci d'acqua dolce cotti in un liquido arricchito con aceto, che conferisce alle carni una colorazione bluastra."
+    },
+    {
+     "p": "Nella cottura affogata, quale temperatura non deve mai superare il liquido?",
+     "a": "+85 °C",
+     "w": [
+      "+65 °C",
+      "+100 °C",
+      "+120 °C"
+     ],
+     "ref": "Un requisito fondamentale della cottura affogata è che la temperatura del liquido non superi mai gli +85 °C."
+    },
+    {
+     "p": "Nella cottura in crosta di sale, quando si termina la cottura?",
+     "a": "Quando l'interno raggiunge 65 °C al cuore",
+     "w": [
+      "Dopo esattamente 10 minuti",
+      "Quando la crosta diventa scura",
+      "Quando l'interno raggiunge 100 °C"
+     ],
+     "ref": "La cottura avviene in forno a circa 170 °C e termina quando la temperatura interna raggiunge i 65 °C al cuore."
+    },
+    {
+     "p": "Quale cottura fa cuocere il pesce nei propri succhi dentro carta o alluminio?",
+     "a": "La cottura al cartoccio",
+     "w": [
+      "La cottura stufata",
+      "La cottura saltata",
+      "La cottura gratinata"
+     ],
+     "ref": "La cottura al cartoccio racchiude il pesce in un involucro di carta o alluminio e lo fa cuocere nei propri succhi."
+    },
+    {
+     "p": "A quale temperatura del forno avviene la cottura in crosta di sale?",
+     "a": "Circa 170 °C",
+     "w": [
+      "Circa 85 °C",
+      "Circa 100 °C",
+      "Circa 250 °C"
+     ],
+     "ref": "La cottura in crosta di sale avviene in forno a circa 170 °C."
+    }
+   ]
+  }
+ }
+}
