@@ -1,43 +1,43 @@
 {
  "materia": "Storia",
  "titolo": "Il mondo agli inizi del XX secolo e l'imperialismo · Parte 2",
- "durata_s": 3043.33,
+ "durata_s": 3198.23,
  "argomenti": [
   {
    "n": 4,
    "titolo": "La Germania di Guglielmo II",
    "inizio_s": 73.7,
-   "quiz_s": 505.199
+   "quiz_s": 528.732
   },
   {
    "n": 5,
    "titolo": "Austria-Ungheria e Balcani",
-   "inizio_s": 510.499,
-   "quiz_s": 852.065
+   "inizio_s": 534.032,
+   "quiz_s": 901.532
   },
   {
    "n": 6,
    "titolo": "L'Impero russo · autocrazia e rivoluzione",
-   "inizio_s": 857.365,
-   "quiz_s": 1605.898
+   "inizio_s": 906.832,
+   "quiz_s": 1677.831
   },
   {
    "n": 7,
    "titolo": "L'Estremo Oriente · Giappone e Cina",
-   "inizio_s": 1611.198,
-   "quiz_s": 2082.098
+   "inizio_s": 1683.131,
+   "quiz_s": 2174.898
   },
   {
    "n": 8,
    "titolo": "Gli Stati Uniti nuova potenza",
-   "inizio_s": 2087.398,
-   "quiz_s": 2477.297
+   "inizio_s": 2180.198,
+   "quiz_s": 2591.364
   },
   {
    "n": 9,
    "titolo": "America Latina e Messico",
-   "inizio_s": 2482.597,
-   "quiz_s": 2786.897
+   "inizio_s": 2596.664,
+   "quiz_s": 2922.33
   }
  ],
  "quiz": {

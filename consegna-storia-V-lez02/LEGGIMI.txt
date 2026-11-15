@@ -1,2 +1,7 @@
-Storia V · Lezione 2 · consegna 13/11. Video a pezzi da 90 MB: riunisci con  cat Storia_Lez2_Parte1_1080p.mp4.parte_* > Storia_Lez2_Parte1_1080p.mp4  e controlla con il file .sha256.
-Test finale: Excel del docente (10 domande), da collegare. Compiti: arrivano dalla direzione; nel video ci sono le schede Verifica finale e Compiti (tempi nelle timeline).
+Storia V · Lezione 2 «Il mondo agli inizi del XX secolo e l'imperialismo» · v2 con mappe · consegna 14/11 (chat S4). Sostituisce la consegna del 13/11.
+Novità: una mappa concettuale a voce prima di ogni ripasso e una mappa finale prima del glossario; dispensa con «Mappa della lezione» in apertura e una mappa a fine argomento. Testo del docente invariato, una sola ricodifica.
+Parte 1: 53:15,6 · t_verifica 3170.966 · t_compiti 3189.266
+Parte 2: 53:18,2 · t_verifica 3173.630 · t_compiti 3191.930
+Test finale: Excel del docente (Storia_Lez2_test_finale_docente.xlsx). Compiti: PDF del docente (Storia_Lez2_compiti_docente.pdf). Quiz: invariati (approvati il 13/11).
+Sottotitoli e timeline aggiornati ai nuovi tempi.
+Video a pezzi da 90 MB: riunisci con  cat NOME.mp4.parte_* > NOME.mp4  e controlla con il file .sha256.

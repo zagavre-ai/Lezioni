@@ -1,25 +1,25 @@
 {
  "materia": "Storia",
  "titolo": "Il mondo agli inizi del XX secolo e l'imperialismo · Parte 1",
- "durata_s": 3102.93,
+ "durata_s": 3195.57,
  "argomenti": [
   {
    "n": 1,
    "titolo": "La competizione imperialista",
    "inizio_s": 196.333,
-   "quiz_s": 1469.467
+   "quiz_s": 1500.267
   },
   {
    "n": 2,
    "titolo": "Regno Unito e Impero britannico",
-   "inizio_s": 1474.767,
-   "quiz_s": 2373.934
+   "inizio_s": 1505.567,
+   "quiz_s": 2431.301
   },
   {
    "n": 3,
    "titolo": "La Francia · nazionalismo e Dreyfus",
-   "inizio_s": 2379.234,
-   "quiz_s": 2920.0
+   "inizio_s": 2436.601,
+   "quiz_s": 3001.033
   }
  ],
  "quiz": {
