@@ -1,0 +1,8 @@
+Controllo sincronia slide/voce · 73 frasi verificabili su 148
+unità 8 · riga accesa a 353.53 s · detta a 353.83 s · scarto +0.30 s · «Dal punto di vista dietetico, i cereali vengono su» (parola «suddivisione,»)
+unità 20 · riga accesa a 695.69 s · detta a 695.91 s · scarto +0.22 s · «grano tenero: le sue cariossidi sono prevalentemen» (parola «grano»)
+unità 43 · riga accesa a 1322.06 s · detta a 1322.30 s · scarto +0.24 s · «farine di grano tenero tipo 1 e tipo 2 con protein» (parola «tipo»)
+unità 63 · riga accesa a 1737.56 s · detta a 1737.66 s · scarto +0.10 s · «pane di segale: caratteristico delle zone alpine p» (parola «pane»)
+unità 98 · riga accesa a 2360.28 s · detta a 2360.48 s · scarto +0.20 s · «L'Unione Europea classifica il riso in base alla l» (parola «l'Unione»)
+tutte le frasi: scarto medio +0.19 s, massimo 0.70 s, oltre 1,5 s: 0
+ESITO: OK

@@ -1,0 +1,21 @@
+CONSEGNA alb-alimentazione-III-IV-lez03 · I cereali · video 1080p, voci Kore
+
+Una sola Parte: durata misurata 61:51.1 (3711.1 s), peso 226.1 MiB, 1920x1080, x264 veryfast CRF 19, AAC 192k 48 kHz.
+volume del parlato (mediana dei pezzi del docente): -16.2 LUFS OK
+
+Correzioni del 15/11 02:05
+1) Consegna su git a pezzi da 90 MiB + sha256 (questo ramo).
+2) Sottolineatura: ogni riga si accende sulla prima parola chiave detta dalla docente (tempi parola per parola, tools/sync_parole.py). Scarti misurati: vedi controllo_sincronia.txt (5 punti a caso + tutte le righe verificabili). L'istante di accensione è quello calcolato dal montaggio, non letto fotogramma per fotogramma.
+3) Cerchio della docente: ritaglio tutto dentro il cerchio del video originale, disco pieno #0B1530, maschera sfumata 3 px, anello #FFE600 di 6 px. Controlli/: 3 fotogrammi ingranditi al 200%.
+4) Qualità: intermedi a CRF 12, una sola codifica finale (lanczos, 1080p, CRF 19, maxrate 16M, AAC 192k).
+
+Controllo finale (controllo_finale.py): ESITO: DA SISTEMARE: sottotitoli
+sottotitoli: 718 blocchi, sovrapposti 0, oltre la fine 0, attacco sulla voce entro 0,3 s: 65% di 17 verificabili DA GUARDARE
+
+Tempi per lo stato: t_verifica 3686.5 s · t_sigla_finale 3693.1 s · t_compiti_intro 3699.7 s · t_compiti 3704.8 s.
+
+Voci da riascoltare (segnate «DA CONTROLLARE» dalla master; le differenze viste nella trascrizione sembrano errori del riconoscimento, ma non le ho ascoltate): M2 (avena, sorgo, maya) e M8 (quinoa, pizzoccheri)
+Immagini del libro in alta risoluzione: non servono (due tabelle ridisegnate)
+Dispensa A4 con le mappe: Dispensa_A4_I_cereali_v2.pdf.
+
+Ricomporre: cat Scienza_alimentazione_Lez3_Parte1_1080p.mp4.parte_* > Scienza_alimentazione_Lez3_Parte1_1080p.mp4 e verificare con sha256sum -c Scienza_alimentazione_Lez3_Parte1_1080p.mp4.sha256.
