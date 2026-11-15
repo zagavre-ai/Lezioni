@@ -3,7 +3,7 @@
  "parti": {
   "1": {
    "titolo": "Gli Stati Uniti dal boom economico al New Deal",
-   "stato": "PRONTA",
+   "stato": "IN_MONTAGGIO",
    "voci": "kore",
    "quiz_ok": "si",
    "fermi_ok": "si",
@@ -405,10 +405,14 @@
   {
    "quando": "14/11 15:11",
    "testo": "PRONTA (chat S2): 53:23,9, 213,5 MiB, -16,9 LUFS, Q1-Q5 a 0,000 s, nessun fermo. t_verifica=3185.165 s · t_compiti=3198.865 s (intro 3195.165). Sottotitoli: automatico 67% (scarti da code di frase nella finestra), controllo a mano su 8 blocchi: attacco entro 0,5 s. Voci: 24 di Claude 2 + 8 nuove (mappe). PERS1 e NUM1 non usate."
+  },
+  {
+   "quando": "14/11 16:10",
+   "testo": "Correzione in corso: nella lezione a Parte unica le schede benvenuto/ripasso finale/fine dicevano «Prima parte/Parte 1». Ricodifico; il video consegnato resta valido nel contenuto."
   }
  ],
  "materia": "Storia",
  "lezione": "7",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 15:11:18"
+ "aggiornato": "2026-11-14 16:10:34"
 }
