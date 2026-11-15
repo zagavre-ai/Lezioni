@@ -1,0 +1,32 @@
+{
+ "materia": "Storia dell'arte V",
+ "docente": "Prof. Giorgio Mazzotti",
+ "titolo": "Ingres",
+ "rami": [
+  {
+   "concetto": "Allievo di David",
+   "parola": "accademia",
+   "esempio": "classicismo"
+  },
+  {
+   "concetto": "Primato del disegno",
+   "parola": "linea",
+   "esempio": "colore locale"
+  },
+  {
+   "concetto": "Ritratti",
+   "parola": "dettaglio",
+   "esempio": "aristocrazia e borghesia"
+  },
+  {
+   "concetto": "Esotismo",
+   "parola": "Oriente",
+   "esempio": "La grande odalisca"
+  },
+  {
+   "concetto": "Stile",
+   "parola": "sensualità",
+   "esempio": "linee sinuose"
+  }
+ ]
+}

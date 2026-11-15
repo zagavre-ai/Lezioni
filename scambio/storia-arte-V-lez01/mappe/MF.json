@@ -1,0 +1,37 @@
+{
+ "materia": "Storia dell'arte V",
+ "docente": "Prof. Giorgio Mazzotti",
+ "titolo": "Il Neoclassicismo",
+ "rami": [
+  {
+   "concetto": "Origini",
+   "parola": "Roma",
+   "esempio": "Grand Tour, musei, moda"
+  },
+  {
+   "concetto": "Architettura",
+   "parola": "geometria",
+   "esempio": "Piranesi, Boullée, Piermarini"
+  },
+  {
+   "concetto": "Teoria",
+   "parola": "bellezza ideale",
+   "esempio": "Winckelmann, Mengs"
+  },
+  {
+   "concetto": "Scultura",
+   "parola": "marmo",
+   "esempio": "Canova"
+  },
+  {
+   "concetto": "Pittura",
+   "parola": "virtù civiche",
+   "esempio": "David"
+  },
+  {
+   "concetto": "Dopo David",
+   "parola": "disegno",
+   "esempio": "Ingres"
+  }
+ ]
+}

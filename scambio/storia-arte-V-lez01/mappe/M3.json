@@ -1,0 +1,37 @@
+{
+ "materia": "Storia dell'arte V",
+ "docente": "Prof. Giorgio Mazzotti",
+ "titolo": "Architettura in Europa",
+ "rami": [
+  {
+   "concetto": "Italia",
+   "parola": "sobrietà",
+   "esempio": "Piermarini"
+  },
+  {
+   "concetto": "Teatro alla Scala",
+   "parola": "funzionalità",
+   "esempio": "Milano"
+  },
+  {
+   "concetto": "Inghilterra",
+   "parola": "Neopalladianesimo",
+   "esempio": "Palladio"
+  },
+  {
+   "concetto": "Stile Adam",
+   "parola": "decorazione",
+   "esempio": "raffinata"
+  },
+  {
+   "concetto": "Berlino",
+   "parola": "Propileo",
+   "esempio": "Porta di Brandeburgo"
+  },
+  {
+   "concetto": "Ratisbona",
+   "parola": "Grecia",
+   "esempio": "tempio Walhalla"
+  }
+ ]
+}

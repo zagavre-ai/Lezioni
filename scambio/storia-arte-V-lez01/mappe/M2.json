@@ -1,0 +1,37 @@
+{
+ "materia": "Storia dell'arte V",
+ "docente": "Prof. Giorgio Mazzotti",
+ "titolo": "Piranesi e i visionari",
+ "rami": [
+  {
+   "concetto": "Forme geometriche",
+   "parola": "semplicità",
+   "esempio": "frontoni, colonne, timpani"
+  },
+  {
+   "concetto": "Piranesi",
+   "parola": "rovine",
+   "esempio": "Vedute di Roma"
+  },
+  {
+   "concetto": "Prigioni immaginarie",
+   "parola": "scenografia",
+   "esempio": "incisioni"
+  },
+  {
+   "concetto": "Teoria illuminista",
+   "parola": "ragione",
+   "esempio": "architettura naturale"
+  },
+  {
+   "concetto": "Boullée",
+   "parola": "visionario",
+   "esempio": "la sfera"
+  },
+  {
+   "concetto": "Soufflot",
+   "parola": "Pantheon",
+   "esempio": "Sainte-Geneviève"
+  }
+ ]
+}

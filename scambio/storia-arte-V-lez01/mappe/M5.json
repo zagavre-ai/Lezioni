@@ -1,0 +1,32 @@
+{
+ "materia": "Storia dell'arte V",
+ "docente": "Prof. Giorgio Mazzotti",
+ "titolo": "Jacques-Louis David",
+ "rami": [
+  {
+   "concetto": "David",
+   "parola": "pittore",
+   "esempio": "massimo esponente francese"
+  },
+  {
+   "concetto": "Impegno etico",
+   "parola": "politica",
+   "esempio": "arte e rivoluzione"
+  },
+  {
+   "concetto": "Giuramento degli Orazi",
+   "parola": "opera simbolo",
+   "esempio": "virtù civiche"
+  },
+  {
+   "concetto": "Composizione",
+   "parola": "geometria",
+   "esempio": "severa prospettiva"
+  },
+  {
+   "concetto": "Morte di Marat",
+   "parola": "sobrietà",
+   "esempio": "pietà cristiana"
+  }
+ ]
+}

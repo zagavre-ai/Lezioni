@@ -1,0 +1,37 @@
+{
+ "materia": "Storia dell'arte V",
+ "docente": "Prof. Giorgio Mazzotti",
+ "titolo": "Le origini",
+ "rami": [
+  {
+   "concetto": "Nasce a Roma",
+   "parola": "Roma",
+   "esempio": "diffusione in Europa"
+  },
+  {
+   "concetto": "Il Grand Tour",
+   "parola": "viaggio",
+   "esempio": "giovani aristocratici in Italia"
+  },
+  {
+   "concetto": "Gli scavi",
+   "parola": "antichità",
+   "esempio": "Ercolano e Pompei"
+  },
+  {
+   "concetto": "I musei pubblici",
+   "parola": "accesso",
+   "esempio": "British Museum, Louvre"
+  },
+  {
+   "concetto": "Le Accademie",
+   "parola": "insegnamento",
+   "esempio": "Belle Arti statali"
+  },
+  {
+   "concetto": "Moda e città",
+   "parola": "stile impero",
+   "esempio": "viali, parchi, teatri"
+  }
+ ]
+}

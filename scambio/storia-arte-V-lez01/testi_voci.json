@@ -78,5 +78,45 @@
   "nome": "FIN",
   "testo": "Fine della lezione. Grazie per l'attenzione.",
   "lingua": "it"
+ },
+ {
+  "nome": "M1",
+  "testo": "Mappa delle origini. Il Neoclassicismo nasce a Roma e si diffonde in Europa. Il Grand Tour porta in Italia giovani aristocratici, artisti e architetti. Gli scavi di Ercolano e Pompei alimentano l'amore per l'antico. Nascono i musei pubblici, come il British Museum e il Louvre. Le Accademie di Belle Arti insegnano i principi classici. Infine l'antico entra nella moda e nelle città.",
+  "lingua": "it"
+ },
+ {
+  "nome": "M2",
+  "testo": "Mappa su Piranesi e i visionari francesi. L'architettura sceglie forme geometriche semplici: frontoni, colonne, timpani. Piranesi diffonde il fascino delle rovine con le Vedute di Roma. Le Prigioni immaginarie sono scenografie incise. In Francia la teoria illuminista cerca un fondamento razionale. Boullée propone architetture di pure forme, come la sfera. Soufflot progetta Sainte-Geneviève, il Pantheon di Parigi.",
+  "lingua": "it"
+ },
+ {
+  "nome": "M3",
+  "testo": "Mappa dell'architettura in Europa. In Italia Piermarini unisce funzionalità e sobrietà. Il suo capolavoro è il Teatro alla Scala di Milano. In Inghilterra si passa dal Neopalladianesimo allo stile Adam. A Berlino sorge il Propileo, la Porta di Brandeburgo. A Ratisbona il tempio del Walhalla guarda alla Grecia.",
+  "lingua": "it"
+ },
+ {
+  "nome": "M4",
+  "testo": "Mappa di Winckelmann e Canova. Winckelmann è il principale teorico del movimento. L'ideale estetico è l'arte greca: nobile semplicità e quieta grandezza. Imitare gli antichi non significa copiare, ma cercare la bellezza ideale. Mengs applica i principi classici con un disegno simmetrico. Canova è il grande scultore, dal disegno all'argilla fino al marmo. Tra le opere, Amore e Psiche.",
+  "lingua": "it"
+ },
+ {
+  "nome": "M5",
+  "testo": "Mappa su Jacques-Louis David. David è il massimo esponente della pittura neoclassica francese. Lega l'arte all'impegno etico e politico. Il giuramento degli Orazi è l'opera simbolo e esalta le virtù civiche. La composizione è geometrica, con una severa prospettiva. La morte di Marat unisce sobrietà formale e richiami alla pietà cristiana.",
+  "lingua": "it"
+ },
+ {
+  "nome": "M6",
+  "testo": "Mappa su Ingres. Allievo di David, resta fedele al classicismo. Difende il primato del disegno e del colore locale. I suoi ritratti sono dettagliati e realistici. L'esotismo porta il tema dell'Oriente, come nella Grande odalisca. Lo stile ha linee sinuose e una sensualità astratta.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MF",
+  "testo": "Mappa di tutta la lezione. Le origini nascono a Roma, con il Grand Tour, i musei e la moda. L'architettura cerca geometria, con Piranesi, Boullée e Piermarini. La teoria di Winckelmann e Mengs indica la bellezza ideale. La scultura ha in Canova il suo maestro. La pittura ha in David l'impegno civile. Dopo David, Ingres difende il primato del disegno.",
+  "lingua": "it"
+ },
+ {
+  "nome": "CI",
+  "testo": "Prima di salutarci, un momento per i compiti. Nella prossima scheda trovi le attività assegnate dal professore: svolgile con calma, per fissare gli argomenti di oggi.",
+  "lingua": "it"
  }
 ]

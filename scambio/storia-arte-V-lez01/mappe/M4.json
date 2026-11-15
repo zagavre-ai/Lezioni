@@ -1,0 +1,37 @@
+{
+ "materia": "Storia dell'arte V",
+ "docente": "Prof. Giorgio Mazzotti",
+ "titolo": "Winckelmann e Canova",
+ "rami": [
+  {
+   "concetto": "Winckelmann",
+   "parola": "teorico",
+   "esempio": "arte greca"
+  },
+  {
+   "concetto": "Ideale estetico",
+   "parola": "bellezza",
+   "esempio": "nobile semplicità"
+  },
+  {
+   "concetto": "Imitazione",
+   "parola": "non copia",
+   "esempio": "ricerca del bello"
+  },
+  {
+   "concetto": "Mengs",
+   "parola": "disegno",
+   "esempio": "pittore e teorico"
+  },
+  {
+   "concetto": "Canova",
+   "parola": "scultore",
+   "esempio": "disegno, argilla, marmo"
+  },
+  {
+   "concetto": "Opere",
+   "parola": "sensualità",
+   "esempio": "Amore e Psiche"
+  }
+ ]
+}
