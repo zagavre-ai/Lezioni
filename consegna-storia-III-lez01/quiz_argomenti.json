@@ -1,0 +1,442 @@
+{
+ "Q1": {
+  "title": "Quiz 1 · La frammentazione del potere",
+  "items": [
+   {
+    "p": "Che cosa accadde in Europa occidentale dopo la fine dell'Impero carolingio?",
+    "a": "Il territorio si divise nei regni di Francia, Germania e Italia",
+    "w": [
+     "Nacque un unico grande regno europeo",
+     "Il potere dei sovrani si rafforzò",
+     "L'Europa tornò unita sotto Roma"
+    ],
+    "e": "Dopo l'Impero carolingio si formarono tre regni: Francia, Germania e Italia."
+   },
+   {
+    "p": "Che cosa accadde al potere dei sovrani in questo periodo?",
+    "a": "Si indebolì drasticamente",
+    "w": [
+     "Aumentò in modo stabile",
+     "Passò tutto al papa",
+     "Restò identico al tempo di Carlo Magno"
+    ],
+    "e": "Il potere dei sovrani si indebolì e a governare furono sempre più le grandi famiglie aristocratiche."
+   },
+   {
+    "p": "Chi iniziò a governare in modo autonomo all'interno di ciascun regno?",
+    "a": "Le grandi famiglie aristocratiche",
+    "w": [
+     "I contadini",
+     "I mercanti delle città",
+     "I soli vescovi"
+    ],
+    "e": "Le grandi famiglie aristocratiche governarono in autonomia i propri territori."
+   },
+   {
+    "p": "Quali erano i poteri locali che nacquero in questo mosaico?",
+    "a": "Contee, marchesati e ducati",
+    "w": [
+     "Repubbliche e consolati",
+     "Province e prefetture",
+     "Satrapie e tetrarchie"
+    ],
+    "e": "Il mosaico di poteri locali autonomi era fatto di contee, marchesati e ducati."
+   },
+   {
+    "p": "A quali secoli si riferisce questo periodo?",
+    "a": "Al decimo e all'undicesimo secolo",
+    "w": [
+     "Al quinto e al sesto secolo",
+     "Al quindicesimo e al sedicesimo secolo",
+     "Al terzo e al quarto secolo"
+    ],
+    "e": "Il periodo studiato va dal X all'XI secolo, cioè dagli anni 900 al 1100 circa."
+   }
+  ]
+ },
+ "Q2": {
+  "title": "Quiz 2 · Vassalli e feudo",
+  "items": [
+   {
+    "p": "Che cosa riceveva il vassallo sotto Carlo Magno?",
+    "a": "Un territorio in beneficio, in cambio di sostegno militare",
+    "w": [
+     "Un titolo senza terre",
+     "Una somma di denaro ogni anno",
+     "Il comando dell'esercito del re"
+    ],
+    "e": "Il beneficio era un territorio da sfruttare economicamente in cambio di sostegno militare."
+   },
+   {
+    "p": "Che cosa succedeva alla morte del vassallo, ai tempi di Carlo Magno?",
+    "a": "La terra tornava al re",
+    "w": [
+     "La terra passava ai figli",
+     "La terra veniva divisa tra i contadini",
+     "La terra restava alla Chiesa"
+    ],
+    "e": "Il beneficio non era ereditario: alla morte del vassallo tornava al re."
+   },
+   {
+    "p": "Che cosa stabilì il Capitolare di Quierzy dell'877?",
+    "a": "Rese ereditarie le cariche e i benefici dei grandi feudatari",
+    "w": [
+     "Abolì il vassallaggio",
+     "Creò il Sacro Romano Impero",
+     "Vietò ai vescovi di possedere terre"
+    ],
+    "e": "Fu emanato da Carlo il Calvo e rese ereditari cariche e benefici dei grandi feudatari."
+   },
+   {
+    "p": "Che cosa stabilì la Constitutio de feudis del 1037?",
+    "a": "Estese l'ereditarietà ai feudatari minori, i valvassori",
+    "w": [
+     "Tolse i feudi ai valvassori",
+     "Vietò la successione ai figli",
+     "Cancellò il Capitolare di Quierzy"
+    ],
+    "e": "Fu emanata dall'imperatore Corrado II e allargò l'ereditarietà ai valvassori."
+   },
+   {
+    "p": "Quale termine sostituì progressivamente «beneficio»?",
+    "a": "Feudo",
+    "w": [
+     "Contea",
+     "Ducato",
+     "Marca"
+    ],
+    "e": "Il termine germanico «feudo» sostituì «beneficio» e formalizzò la nascita del sistema feudale."
+   }
+  ]
+ },
+ "Q3": {
+  "title": "Quiz 3 · Le nuove invasioni e l'incastellamento",
+  "items": [
+   {
+    "p": "Da dove provenivano i Saraceni?",
+    "a": "Dall'Africa del Nord e dalla Sicilia",
+    "w": [
+     "Dalla Scandinavia",
+     "Dall'Asia centrale",
+     "Dalla Spagna cristiana"
+    ],
+    "e": "I Saraceni erano pirati musulmani che colpivano le coste italiane e francesi."
+   },
+   {
+    "p": "Che cosa facevano gli Ungari?",
+    "a": "Saccheggiavano Germania, Francia e Italia settentrionale",
+    "w": [
+     "Attaccavano soltanto l'Irlanda",
+     "Navigavano verso l'Islanda",
+     "Difendevano le coste italiane"
+    ],
+    "e": "Gli Ungari, popolazione asiatica, saccheggiavano la Germania, la Francia e l'Italia settentrionale."
+   },
+   {
+    "p": "Chi erano i Normanni, detti anche Vichinghi?",
+    "a": "Navigatori provenienti dalla Scandinavia",
+    "w": [
+     "Pirati dell'Africa del Nord",
+     "Cavalieri provenienti dall'Asia",
+     "Mercanti genovesi"
+    ],
+    "e": "Attaccarono Inghilterra, Francia e Irlanda e si stabilirono in zone come la Normandia."
+   },
+   {
+    "p": "Come risposero i signori locali all'insicurezza?",
+    "a": "Fortificando i villaggi con palizzate, fossati e castelli di pietra",
+    "w": [
+     "Aspettando l'aiuto del re",
+     "Abbandonando le campagne",
+     "Pagando un tributo agli invasori"
+    ],
+    "e": "I signori presero l'iniziativa senza attendere il re."
+   },
+   {
+    "p": "Come si chiama il fenomeno della costruzione dei castelli?",
+    "a": "Incastellamento",
+    "w": [
+     "Feudalesimo",
+     "Vassallaggio",
+     "Frammentazione"
+    ],
+    "e": "L'incastellamento permise ai signori di consolidare il controllo politico ed economico sul territorio."
+   }
+  ]
+ },
+ "Q4": {
+  "title": "Quiz 4 · I poteri di banno e la rete di relazioni",
+  "items": [
+   {
+    "p": "Che cosa erano i poteri di banno?",
+    "a": "Diritti originariamente regi di cui i signori si appropriarono",
+    "w": [
+     "Tasse pagate al papa",
+     "Cariche ecclesiastiche",
+     "Privilegi dei soli contadini"
+    ],
+    "e": "Erano diritti del re che i signori locali presero per sé."
+   },
+   {
+    "p": "Quale di questi NON è un potere di banno?",
+    "a": "L'elezione del papa",
+    "w": [
+     "La difesa militare",
+     "L'amministrazione della giustizia",
+     "La riscossione delle tasse"
+    ],
+    "e": "I poteri di banno comprendevano difesa militare, giustizia, tasse e corvées."
+   },
+   {
+    "p": "Che cosa sono le corvées?",
+    "a": "Giornate di lavoro obbligatorie e gratuite dei contadini",
+    "w": [
+     "Tributi pagati in denaro dai mercanti",
+     "Feste religiose",
+     "Titoli nobiliari"
+    ],
+    "e": "Erano giornate di lavoro imposte ai contadini senza compenso."
+   },
+   {
+    "p": "Che cosa pensano oggi gli storici della «piramide feudale»?",
+    "a": "L'hanno superata come idea classica",
+    "w": [
+     "La considerano una descrizione esatta",
+     "La attribuiscono a Carlo Magno",
+     "La vedono solo nell'Italia del Sud"
+    ],
+    "e": "La realtà era una complessa rete di relazioni."
+   },
+   {
+    "p": "Che cosa poteva accadere a un vassallo, secondo il docente?",
+    "a": "Poteva essere legato a più signori contemporaneamente",
+    "w": [
+     "Poteva avere un solo signore, il re",
+     "Non poteva giurare fedeltà",
+     "Doveva vivere sempre alla corte"
+    ],
+    "e": "Questo creava frequenti conflitti di interesse e guerre locali."
+   }
+  ]
+ },
+ "Q5": {
+  "title": "Quiz 5 · Francia e Italia",
+  "items": [
+   {
+    "p": "Chi fu eletto re di Francia nel 987?",
+    "a": "Ugo Capeto",
+    "w": [
+     "Ottone I",
+     "Carlo il Calvo",
+     "Corrado II"
+    ],
+    "e": "Con Ugo Capeto comincia la dinastia dei Capetingi."
+   },
+   {
+    "p": "Quanto era esteso, all'inizio, il potere effettivo dei Capetingi?",
+    "a": "Alla regione tra Parigi e Orléans",
+    "w": [
+     "A tutta la Francia",
+     "A Francia e Germania",
+     "Alla sola Normandia"
+    ],
+    "e": "Il resto del territorio era in mano a potenti duchi e conti."
+   },
+   {
+    "p": "Come era la situazione politica dell'Italia?",
+    "a": "Frammentata e instabile",
+    "w": [
+     "Unita sotto un solo re",
+     "Governata dai Capetingi",
+     "Sotto il controllo dei Normanni"
+    ],
+    "e": "L'Italia era divisa tra più poteri."
+   },
+   {
+    "p": "Che cosa si estendeva al centro dell'Italia?",
+    "a": "Lo Stato della Chiesa",
+    "w": [
+     "Il Regno di Francia",
+     "Il Califfato di Cordova",
+     "Il Ducato di Normandia"
+    ],
+    "e": "Al centro c'era lo Stato della Chiesa."
+   },
+   {
+    "p": "Chi aveva conquistato la Sicilia?",
+    "a": "Gli arabi",
+    "w": [
+     "I Franchi",
+     "I Capetingi",
+     "Gli Ungari"
+    ],
+    "e": "Il Sud era diviso tra domini longobardi, territori bizantini e la Sicilia conquistata dagli arabi."
+   }
+  ]
+ },
+ "Q6": {
+  "title": "Quiz 6 · Ottone I e il Sacro Romano Impero",
+  "items": [
+   {
+    "p": "Quale dinastia segnò la svolta nel Regno di Germania?",
+    "a": "La dinastia di Sassonia",
+    "w": [
+     "La dinastia dei Capetingi",
+     "La dinastia carolingia",
+     "La dinastia normanna"
+    ],
+    "e": "Prima Enrico I l'Uccellatore e poi il figlio Ottone I."
+   },
+   {
+    "p": "Quale vittoria diede grande prestigio a Ottone I?",
+    "a": "La battaglia di Lechfeld, nel 955, contro gli Ungari",
+    "w": [
+     "La battaglia di Poitiers",
+     "La conquista della Sicilia",
+     "La presa di Parigi"
+    ],
+    "e": "Sconfisse definitivamente gli Ungari, bloccando le loro invasioni."
+   },
+   {
+    "p": "Quando e da chi fu incoronato imperatore Ottone I?",
+    "a": "Nel 962, da papa Giovanni XII",
+    "w": [
+     "Nel 877, da papa Silvestro II",
+     "Nel 987, da Ugo Capeto",
+     "Nel 1037, da Corrado II"
+    ],
+    "e": "Nacque così il Sacro Romano Impero Germanico."
+   },
+   {
+    "p": "Quale differenza c'era rispetto all'impero di Carlo Magno?",
+    "a": "Il nuovo impero escludeva la Francia",
+    "w": [
+     "Comprendeva anche l'Inghilterra",
+     "Era incentrato sulla Francia",
+     "Non includeva l'Italia"
+    ],
+    "e": "Era fortemente incentrato su Germania e Italia."
+   },
+   {
+    "p": "Che cosa stabilì il Privilegium Othonis?",
+    "a": "Che l'elezione del papa richiedeva il consenso dell'imperatore",
+    "w": [
+     "Che il papa eleggeva l'imperatore",
+     "Che i feudi diventavano ereditari",
+     "Che i vescovi potevano sposarsi"
+    ],
+    "e": "Sottometteva di fatto il pontefice al controllo imperiale."
+   }
+  ]
+ },
+ "Q7": {
+  "title": "Quiz 7 · La strategia dei vescovi-conti",
+  "items": [
+   {
+    "p": "A chi Ottone I affidò poteri pubblici e territori?",
+    "a": "Ai vescovi anziché ai nobili laici",
+    "w": [
+     "Ai soli valvassori",
+     "Ai contadini liberi",
+     "Ai mercanti"
+    ],
+    "e": "Era la strategia dei vescovi-conti."
+   },
+   {
+    "p": "Contro quale effetto era diretta questa strategia?",
+    "a": "L'ereditarietà dei feudi introdotta dal Capitolare di Quierzy",
+    "w": [
+     "Le invasioni dei Normanni",
+     "Il potere del papa",
+     "La perdita della Sicilia"
+    ],
+    "e": "Ottone voleva contrastare l'ereditarietà dei feudi."
+   },
+   {
+    "p": "Perché i vescovi non potevano avere figli legittimi?",
+    "a": "Per l'obbligo del celibato",
+    "w": [
+     "Per un divieto del re",
+     "Perché non possedevano terre",
+     "Per una legge dei Capetingi"
+    ],
+    "e": "Per il celibato non potevano avere eredi legittimi."
+   },
+   {
+    "p": "Che cosa accadeva ai feudi alla morte di un vescovo?",
+    "a": "Tornavano automaticamente al sovrano",
+    "w": [
+     "Passavano ai figli",
+     "Erano distrutti",
+     "Passavano ai contadini"
+    ],
+    "e": "Il sovrano poteva così riassegnarli."
+   },
+   {
+    "p": "Che cosa guadagnava il sovrano con questa strategia?",
+    "a": "Il controllo sulle terre, che tornavano a lui",
+    "w": [
+     "Il diritto di eleggere i duchi",
+     "Il titolo di papa",
+     "L'esenzione dalle tasse"
+    ],
+    "e": "I feudi non restavano nelle famiglie dei nobili."
+   }
+  ]
+ },
+ "Q8": {
+  "title": "Quiz 8 · Ottone III e la fine della dinastia",
+  "items": [
+   {
+    "p": "Che cosa sognò Ottone III?",
+    "a": "La renovatio imperii, la rinascita dell'antico Impero romano",
+    "w": [
+     "La conquista della Francia",
+     "L'abolizione del papato",
+     "La divisione dell'impero"
+    ],
+    "e": "Voleva far rinascere l'antico Impero romano."
+   },
+   {
+    "p": "Dove trasferì la sua corte?",
+    "a": "A Roma",
+    "w": [
+     "A Parigi",
+     "A Palermo",
+     "A Aquisgrana"
+    ],
+    "e": "Trasferì la corte a Roma."
+   },
+   {
+    "p": "Con quale papa strinse un forte legame?",
+    "a": "Silvestro II",
+    "w": [
+     "Giovanni XII",
+     "Corrado II",
+     "Ugo Capeto"
+    ],
+    "e": "Il legame fu con papa Silvestro II."
+   },
+   {
+    "p": "Perché i suoi piani fallirono?",
+    "a": "A causa delle rivolte dell'aristocrazia romana",
+    "w": [
+     "Per una sconfitta contro gli Ungari",
+     "Per l'invasione dei Saraceni",
+     "Per un decreto del papa"
+    ],
+    "e": "Le rivolte dell'aristocrazia romana bloccarono il progetto."
+   },
+   {
+    "p": "Che cosa accadde nel 1002?",
+    "a": "Ottone III morì senza eredi e si estinse la dinastia degli Ottoni",
+    "w": [
+     "Nacque il Sacro Romano Impero",
+     "Fu eletto Ugo Capeto",
+     "Fu emanata la Constitutio de feudis"
+    ],
+    "e": "La morte prematura senza eredi aprì nuove ribellioni e indebolì il potere imperiale."
+   }
+  ]
+ }
+}

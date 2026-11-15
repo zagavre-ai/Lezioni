@@ -1,0 +1,257 @@
+{
+ "materia": "Storia",
+ "titolo": "Storia III · Lezione 1 · Parte 2",
+ "durata_s": 3008.03,
+ "argomenti": [
+  {
+   "n": 5,
+   "titolo": "Francia e Italia",
+   "inizio_s": 55.7,
+   "quiz_s": 663.933
+  },
+  {
+   "n": 6,
+   "titolo": "Ottone I e il Sacro Romano Impero",
+   "inizio_s": 667.933,
+   "quiz_s": 1263.6
+  },
+  {
+   "n": 7,
+   "titolo": "La strategia dei vescovi-conti",
+   "inizio_s": 1267.6,
+   "quiz_s": 2120.767
+  },
+  {
+   "n": 8,
+   "titolo": "Ottone III e la fine della dinastia",
+   "inizio_s": 2124.767,
+   "quiz_s": 2710.767
+  }
+ ],
+ "quiz": {
+  "Q5": {
+   "title": "Quiz 5 · Francia e Italia",
+   "items": [
+    {
+     "p": "Chi fu eletto re di Francia nel 987?",
+     "a": "Ugo Capeto",
+     "w": [
+      "Ottone I",
+      "Carlo il Calvo",
+      "Corrado II"
+     ],
+     "e": "Con Ugo Capeto comincia la dinastia dei Capetingi."
+    },
+    {
+     "p": "Quanto era esteso, all'inizio, il potere effettivo dei Capetingi?",
+     "a": "Alla regione tra Parigi e Orléans",
+     "w": [
+      "A tutta la Francia",
+      "A Francia e Germania",
+      "Alla sola Normandia"
+     ],
+     "e": "Il resto del territorio era in mano a potenti duchi e conti."
+    },
+    {
+     "p": "Come era la situazione politica dell'Italia?",
+     "a": "Frammentata e instabile",
+     "w": [
+      "Unita sotto un solo re",
+      "Governata dai Capetingi",
+      "Sotto il controllo dei Normanni"
+     ],
+     "e": "L'Italia era divisa tra più poteri."
+    },
+    {
+     "p": "Che cosa si estendeva al centro dell'Italia?",
+     "a": "Lo Stato della Chiesa",
+     "w": [
+      "Il Regno di Francia",
+      "Il Califfato di Cordova",
+      "Il Ducato di Normandia"
+     ],
+     "e": "Al centro c'era lo Stato della Chiesa."
+    },
+    {
+     "p": "Chi aveva conquistato la Sicilia?",
+     "a": "Gli arabi",
+     "w": [
+      "I Franchi",
+      "I Capetingi",
+      "Gli Ungari"
+     ],
+     "e": "Il Sud era diviso tra domini longobardi, territori bizantini e la Sicilia conquistata dagli arabi."
+    }
+   ]
+  },
+  "Q6": {
+   "title": "Quiz 6 · Ottone I e il Sacro Romano Impero",
+   "items": [
+    {
+     "p": "Quale dinastia segnò la svolta nel Regno di Germania?",
+     "a": "La dinastia di Sassonia",
+     "w": [
+      "La dinastia dei Capetingi",
+      "La dinastia carolingia",
+      "La dinastia normanna"
+     ],
+     "e": "Prima Enrico I l'Uccellatore e poi il figlio Ottone I."
+    },
+    {
+     "p": "Quale vittoria diede grande prestigio a Ottone I?",
+     "a": "La battaglia di Lechfeld, nel 955, contro gli Ungari",
+     "w": [
+      "La battaglia di Poitiers",
+      "La conquista della Sicilia",
+      "La presa di Parigi"
+     ],
+     "e": "Sconfisse definitivamente gli Ungari, bloccando le loro invasioni."
+    },
+    {
+     "p": "Quando e da chi fu incoronato imperatore Ottone I?",
+     "a": "Nel 962, da papa Giovanni XII",
+     "w": [
+      "Nel 877, da papa Silvestro II",
+      "Nel 987, da Ugo Capeto",
+      "Nel 1037, da Corrado II"
+     ],
+     "e": "Nacque così il Sacro Romano Impero Germanico."
+    },
+    {
+     "p": "Quale differenza c'era rispetto all'impero di Carlo Magno?",
+     "a": "Il nuovo impero escludeva la Francia",
+     "w": [
+      "Comprendeva anche l'Inghilterra",
+      "Era incentrato sulla Francia",
+      "Non includeva l'Italia"
+     ],
+     "e": "Era fortemente incentrato su Germania e Italia."
+    },
+    {
+     "p": "Che cosa stabilì il Privilegium Othonis?",
+     "a": "Che l'elezione del papa richiedeva il consenso dell'imperatore",
+     "w": [
+      "Che il papa eleggeva l'imperatore",
+      "Che i feudi diventavano ereditari",
+      "Che i vescovi potevano sposarsi"
+     ],
+     "e": "Sottometteva di fatto il pontefice al controllo imperiale."
+    }
+   ]
+  },
+  "Q7": {
+   "title": "Quiz 7 · La strategia dei vescovi-conti",
+   "items": [
+    {
+     "p": "A chi Ottone I affidò poteri pubblici e territori?",
+     "a": "Ai vescovi anziché ai nobili laici",
+     "w": [
+      "Ai soli valvassori",
+      "Ai contadini liberi",
+      "Ai mercanti"
+     ],
+     "e": "Era la strategia dei vescovi-conti."
+    },
+    {
+     "p": "Contro quale effetto era diretta questa strategia?",
+     "a": "L'ereditarietà dei feudi introdotta dal Capitolare di Quierzy",
+     "w": [
+      "Le invasioni dei Normanni",
+      "Il potere del papa",
+      "La perdita della Sicilia"
+     ],
+     "e": "Ottone voleva contrastare l'ereditarietà dei feudi."
+    },
+    {
+     "p": "Perché i vescovi non potevano avere figli legittimi?",
+     "a": "Per l'obbligo del celibato",
+     "w": [
+      "Per un divieto del re",
+      "Perché non possedevano terre",
+      "Per una legge dei Capetingi"
+     ],
+     "e": "Per il celibato non potevano avere eredi legittimi."
+    },
+    {
+     "p": "Che cosa accadeva ai feudi alla morte di un vescovo?",
+     "a": "Tornavano automaticamente al sovrano",
+     "w": [
+      "Passavano ai figli",
+      "Erano distrutti",
+      "Passavano ai contadini"
+     ],
+     "e": "Il sovrano poteva così riassegnarli."
+    },
+    {
+     "p": "Che cosa guadagnava il sovrano con questa strategia?",
+     "a": "Il controllo sulle terre, che tornavano a lui",
+     "w": [
+      "Il diritto di eleggere i duchi",
+      "Il titolo di papa",
+      "L'esenzione dalle tasse"
+     ],
+     "e": "I feudi non restavano nelle famiglie dei nobili."
+    }
+   ]
+  },
+  "Q8": {
+   "title": "Quiz 8 · Ottone III e la fine della dinastia",
+   "items": [
+    {
+     "p": "Che cosa sognò Ottone III?",
+     "a": "La renovatio imperii, la rinascita dell'antico Impero romano",
+     "w": [
+      "La conquista della Francia",
+      "L'abolizione del papato",
+      "La divisione dell'impero"
+     ],
+     "e": "Voleva far rinascere l'antico Impero romano."
+    },
+    {
+     "p": "Dove trasferì la sua corte?",
+     "a": "A Roma",
+     "w": [
+      "A Parigi",
+      "A Palermo",
+      "A Aquisgrana"
+     ],
+     "e": "Trasferì la corte a Roma."
+    },
+    {
+     "p": "Con quale papa strinse un forte legame?",
+     "a": "Silvestro II",
+     "w": [
+      "Giovanni XII",
+      "Corrado II",
+      "Ugo Capeto"
+     ],
+     "e": "Il legame fu con papa Silvestro II."
+    },
+    {
+     "p": "Perché i suoi piani fallirono?",
+     "a": "A causa delle rivolte dell'aristocrazia romana",
+     "w": [
+      "Per una sconfitta contro gli Ungari",
+      "Per l'invasione dei Saraceni",
+      "Per un decreto del papa"
+     ],
+     "e": "Le rivolte dell'aristocrazia romana bloccarono il progetto."
+    },
+    {
+     "p": "Che cosa accadde nel 1002?",
+     "a": "Ottone III morì senza eredi e si estinse la dinastia degli Ottoni",
+     "w": [
+      "Nacque il Sacro Romano Impero",
+      "Fu eletto Ugo Capeto",
+      "Fu emanata la Constitutio de feudis"
+     ],
+     "e": "La morte prematura senza eredi aprì nuove ribellioni e indebolì il potere imperiale."
+    }
+   ]
+  }
+ },
+ "t_verifica": 2989.5332,
+ "t_compiti": 3003.0332,
+ "t_compiti_intro": 2999.5332,
+ "compiti": "COMPITI_MANCANTI"
+}
