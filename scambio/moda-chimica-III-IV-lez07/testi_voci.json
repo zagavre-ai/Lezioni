@@ -1,0 +1,129 @@
+{
+ "R1": [
+  "Ripassiamo le resine sintetiche e la polimerizzazione. Guarda la mappa."
+ ],
+ "R2": [
+  "Ripassiamo le fibre poliolefiniche. Osserva la mappa."
+ ],
+ "R3": [
+  "Ripassiamo le fibre poliviniliche e fluorurate. Guarda la mappa."
+ ],
+ "R4": [
+  "Ripassiamo alcol polivinilico, polivinilacetato e polistirene. Osserva la mappa."
+ ],
+ "R5": [
+  "Ripassiamo le fibre acriliche e modacriliche. Guarda la mappa."
+ ],
+ "R6": [
+  "Ripassiamo i poliesteri e le altre resine di policondensazione. Osserva la mappa."
+ ],
+ "R7": [
+  "Ripassiamo poliammidi, poliuretani e altre resine. Guarda la mappa."
+ ],
+ "R8": [
+  "Ripassiamo il riconoscimento e l'analisi delle fibre sintetiche. Osserva la mappa prima del quiz."
+ ],
+ "M1": [
+  "Mappa concettuale: le resine sintetiche e la polimerizzazione.",
+  "Le fibre sintetiche derivano da polimeri ottenuti da composti organici del petrolio, e sono nate negli anni trenta e quaranta.",
+  "Dagli stessi polimeri si ottengono anche le materie plastiche.",
+  "Hanno basso costo e grande resistenza, ma non sono biodegradabili e sono infiammabili.",
+  "Le termoplastiche si rammolliscono più volte, le termoindurenti no.",
+  "La poliaddizione non perde atomi e procede in tre fasi: inizio, propagazione e terminazione.",
+  "La policondensazione libera sottoprodotti come acqua."
+ ],
+ "M2": [
+  "Mappa concettuale: le fibre poliolefiniche.",
+  "Le poliolefine derivano da idrocarburi con almeno un doppio legame.",
+  "Il polietilene, commercializzato come Courlene, fonde a centoventi gradi.",
+  "Il polipropilene isotattico, sintetizzato da Natta, è il più interessante per il tessile.",
+  "Il Meraklon è leggerissimo, tenace e quasi privo di igroscopicità.",
+  "Il poliisobutilene, il Vistanex, è un eccellente isolante elettrico.",
+  "Le poliolefine sono inerti verso quasi tutti i solventi."
+ ],
+ "M3": [
+  "Mappa concettuale: fibre poliviniliche e fluorurate.",
+  "Il PVC si ottiene polimerizzando il cloruro di vinile.",
+  "Il Movil è ininfiammabile ma poco resistente al calore.",
+  "Il Leavin è più tenace e più stabile al calore del Movil.",
+  "Vinyon, Saran e Vinyon N sono copolimeri vinilici.",
+  "Il Teflon si ottiene per sinterizzazione a circa trecentonovanta gradi.",
+  "Il Teflon resiste da meno settanta a più duecentottanta gradi ed è chimicamente inerte."
+ ],
+ "M4": [
+  "Mappa concettuale: alcol polivinilico, polivinilacetato e polistirene.",
+  "L'alcol polivinilico si ottiene per idrolisi del polivinilacetato.",
+  "Il Kuralon è reso insolubile con la formaldeide ed è molto tenace.",
+  "I gruppi ossidrilici gli danno una buona igroscopicità, circa il cinque per cento.",
+  "Il polivinilacetato, il Vinavil, serve come adesivo e appretto.",
+  "Il polistirene è alla base della gomma Buna S e del polistirene espanso.",
+  "Si usa anche per resine a scambio ionico e imballaggi."
+ ],
+ "M5": [
+  "Mappa concettuale: le fibre acriliche e modacriliche.",
+  "L'acrilonitrile è il componente base delle fibre acriliche.",
+  "Il poliacrilonitrile si scioglie in dimetilformammide e si fila a secco o a umido.",
+  "Sopra l'ottantacinque per cento di acrilonitrile sono acriliche, tra trentacinque e ottantacinque modacriliche.",
+  "L'Orlon fu la prima fibra acrilica; il Leacril è simile alla lana.",
+  "Verel e Dynel sono modacriliche, poco infiammabili.",
+  "Poliacrilati e polimetacrilati servono come ausiliari, il Plexiglas è una resina trasparente."
+ ],
+ "M6": [
+  "Mappa concettuale: i poliesteri e le altre resine di policondensazione.",
+  "I poliesteri derivano dall'acido tereftalico e dal glicole etilenico e danno il PET.",
+  "Si produce con chips o in continuo, a circa trecento gradi sotto vuoto.",
+  "Il poliestere è tenace, poco igroscopico e fonde a duecentosessanta gradi.",
+  "Può formare pilling; la testurizzazione aumenta il potere coibente.",
+  "Le resine fenoliche e ureiche si ottengono con la formaldeide.",
+  "Le resine melamminiche sono usate per i laminati noti come Formica."
+ ],
+ "M7": [
+  "Mappa concettuale: poliammidi, poliuretani e altre resine.",
+  "Il nylon sei virgola sei, sintetizzato da Carothers nel millenovecentotrentacinque, è la prima fibra sintetica.",
+  "Il nylon sei si ottiene dal caprolattame, per poliaddizione.",
+  "Il nylon undici, il Rilsan, viene dall'olio di ricino.",
+  "Le arammidi, Kevlar e Nomex, sono poliammidi aromatiche.",
+  "I poliuretani si formano da glicoli e diisocianati.",
+  "Le resine epossidiche sono adesivi, i policarbonati sono resistenti agli urti."
+ ],
+ "M8": [
+  "Mappa concettuale: il riconoscimento delle fibre sintetiche.",
+  "Al microscopio le sintetiche sono molto simili tra loro.",
+  "Le poliviniliche si riconoscono dal cloro, con fiamma verde-azzurra.",
+  "Le acriliche si sciolgono in dimetilformammide e danno un precipitato rosso-arancio.",
+  "Le poliammidi si sciolgono in acido formico e si distinguono dal punto di fusione.",
+  "I poliesteri resistono all'acido formico.",
+  "Il dosaggio nelle mischie usa acido solforico al settantacinque per cento, DMF o acido acetico."
+ ],
+ "MF": [
+  "Mappa finale della lezione: le fibre sintetiche.",
+  "Le poliolefine sono inerti e leggere.",
+  "Le poliviniliche e le fluorurate hanno grande resistenza chimica.",
+  "Le acriliche somigliano alla lana.",
+  "Poliesteri e poliammidi sono le fibre sintetiche più diffuse.",
+  "Il riconoscimento si basa su solubilità e saggi specifici."
+ ],
+ "GL1": [
+  "Le parole chiave della lezione.",
+  "Resine sintetiche: Fibre e materie plastiche ottenute da polimeri sintetici.",
+  "Termoplastica: Resina che si può rammollire e foggiare a caldo più volte.",
+  "Poliaddizione: Polimerizzazione senza perdita di atomi dei monomeri.",
+  "Policondensazione: Polimerizzazione con perdita di sottoprodotti come acqua.",
+  "Poliolefine: Polimeri delle olefine, come il polietilene e il polipropilene.",
+  "Politetrafluoroetilene: Il Teflon: inerte e resistente da meno 70 a più 280 gradi.",
+  "Fibre acriliche: Fibre con più dell'85% di acrilonitrile.",
+  "Poliestere: Fibra da acido tereftalico e glicole etilenico, come il PET.",
+  "Nylon: Poliammide: la prima fibra sintetica, di Carothers, 1935."
+ ],
+ "RF1": [
+  "Ricapitoliamo la lezione.",
+  "Le fibre sintetiche derivano da polimeri ottenuti dal petrolio, per poliaddizione o policondensazione.",
+  "Poliolefine, poliviniliche, fluorurate e acriliche sono polimeri di poliaddizione, con grande resistenza chimica.",
+  "Poliesteri e poliammidi sono polimeri di policondensazione: sono le fibre sintetiche più diffuse, tenaci e resistenti.",
+  "Alcol polivinilico, polistirene, poliuretani e altre resine completano il quadro dei materiali sintetici.",
+  "Il riconoscimento delle sintetiche si basa su saggi di solubilità e prove specifiche, anche per dosarle nelle mischie."
+ ],
+ "FIN1": [
+  "Fine della lezione. Hai ripassato gli otto argomenti: dalle resine sintetiche al riconoscimento delle fibre. Buono studio!"
+ ]
+}
