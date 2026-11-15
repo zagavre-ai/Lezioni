@@ -7,7 +7,12 @@
   }
  },
  "manca": "non iniziata: lezione da fare da capo; trascrizione pronta (Whisper base), manca il montaggio completo e le voci Kore",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "15/11 14:07",
+   "testo": "chat R5: voci Kore richieste per la lezione 16 (Saba) su voci-letteratura-V-lez16: 30 voci (R1-R4, S1-S4, GL, RF, FIN, AN*). Una sola richiesta, nomi nuovi."
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
@@ -18,5 +23,5 @@
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 16 · Umberto Saba",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-15 14:05:39"
+ "aggiornato": "2026-11-15 14:07:28"
 }
