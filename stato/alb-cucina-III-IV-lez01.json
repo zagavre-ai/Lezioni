@@ -630,6 +630,10 @@
   {
    "quando": "11/11 13:17",
    "testo": "FERMA: in attesa delle voci Kore (richieste l'11/11 alle 11:16 sul ramo voci-alb-cucina-III-IV-lez01, cartella vox/ ancora vuota alle 13:20). Montaggio con voci provvisorie fatto; appena arrivano: import, rimontaggio, codifica 1440p, controlli, consegna."
+  },
+  {
+   "quando": "15/11 00:34",
+   "testo": "MIGLIORAMENTO: (1) controllo_finale misura l'attacco dei sottotitoli sull'energia e dà falsi allarmi (46-67% con max 0,8 s di scarto anche quando i sottotitoli sono giusti). Uso invece la trascrizione del video finale (verifica_vtt: confronto parola per parola su tutti i blocchi, poi riallineo): scarto medio 0,03 s, max 0,12 s. Lo script sub_correggi.py è nella chat Cucina. (2) Non riesco a caricare i file sulla release: uploads.github.com rifiuta dal proxy (serve Content-Type JSON), gh release usa GraphQL (403). Consegno i file in chat a Sara."
   }
  ],
  "domande_sara": [],
@@ -665,5 +669,5 @@
  ],
  "materia": "Laboratori dei servizi enogastronomici – settore cucina",
  "lezione": "Le carni",
- "aggiornato": "2026-11-15 00:33:56"
+ "aggiornato": "2026-11-15 00:34:55"
 }
