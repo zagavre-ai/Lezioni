@@ -15,6 +15,10 @@
   {
    "quando": "16/11 00:34",
    "testo": "Lezione 7: servono nella release inglese-afm-triennio Dispensa.pdf (o Presentazione.pdf), Verifica.xlsx e Compiti.pdf."
+  },
+  {
+   "quando": "16/11 00:59",
+   "testo": "Voci Kore lez07: 55 voci (4.624 caratteri) in scambio/afm-inglese-triennio-lez07/testi_voci.json sul ramo voci-afm-inglese-triennio-lez07. Quiz (30 domande) da approvare nello stesso ramo."
   }
  ],
  "domande_sara": [],
@@ -30,6 +34,6 @@
  ],
  "materia": "Inglese AFM triennio",
  "lezione": "Lezione 7",
- "aggiornato": "2026-11-16 00:34:03",
+ "aggiornato": "2026-11-16 00:59:36",
  "docente": "Prof.ssa Maria Vittoria Fontanesi"
 }
