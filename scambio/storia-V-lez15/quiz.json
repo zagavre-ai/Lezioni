@@ -1,0 +1,552 @@
+{
+ "Q1": {
+  "title": "Quiz 1 · Le premesse",
+  "items": [
+   {
+    "p": "Che cosa segna la Seconda guerra mondiale per le potenze europee?",
+    "a": "La fine del loro primato politico ed economico",
+    "w": [
+     "L'inizio di un nuovo impero",
+     "Un aumento del loro potere",
+     "La fine della Guerra fredda"
+    ],
+    "e": "La Seconda guerra mondiale segna la fine del primato politico ed economico delle potenze europee."
+   },
+   {
+    "p": "Quale posizione prendono USA e URSS sul colonialismo tradizionale?",
+    "a": "Si dichiarano contrari, per motivi ideologici e strategici",
+    "w": [
+     "Lo sostengono apertamente",
+     "Lo ignorano",
+     "Lo difendono con le armi"
+    ],
+    "e": "Stati Uniti e Unione Sovietica si dichiarano contrari al colonialismo tradizionale per motivi ideologici e strategici."
+   },
+   {
+    "p": "Da chi sono guidati i movimenti indipendentisti?",
+    "a": "Da leader locali che hanno studiato in Europa",
+    "w": [
+     "Da funzionari coloniali europei",
+     "Da generali sovietici",
+     "Da missionari"
+    ],
+    "e": "Crescono movimenti indipendentisti guidati da leader locali che hanno studiato in Europa."
+   },
+   {
+    "p": "Dove è inserito il principio di autodeterminazione?",
+    "a": "Nella Carta delle Nazioni Unite del 1945",
+    "w": [
+     "Nel trattato di Versailles",
+     "Nella Costituzione italiana",
+     "Negli accordi di Ginevra"
+    ],
+    "e": "Il principio, inserito nella Carta dell'ONU (1945), rende il colonialismo incompatibile con la legalità internazionale."
+   },
+   {
+    "p": "Quale effetto ha il principio di autodeterminazione?",
+    "a": "Rende il colonialismo incompatibile con la legalità internazionale",
+    "w": [
+     "Lo rende obbligatorio",
+     "Non ha alcun effetto",
+     "Divide i Paesi in due blocchi"
+    ],
+    "e": "Il principio di autodeterminazione rende il colonialismo incompatibile con la legalità internazionale."
+   }
+  ]
+ },
+ "Q2": {
+  "title": "Quiz 2 · Bandung e i non allineati",
+  "items": [
+   {
+    "p": "Quanti Stati afroasiatici partecipano alla Conferenza di Bandung?",
+    "a": "29",
+    "w": [
+     "9",
+     "90",
+     "290"
+    ],
+    "e": "Alla Conferenza di Bandung (1955) si riuniscono 29 Stati afroasiatici."
+   },
+   {
+    "p": "In quale anno si tiene la Conferenza di Bandung?",
+    "a": "Il 1955",
+    "w": [
+     "Il 1945",
+     "Il 1975",
+     "Il 1939"
+    ],
+    "e": "La Conferenza di Bandung è del 1955."
+   },
+   {
+    "p": "Che cosa condannano i partecipanti di Bandung?",
+    "a": "Il colonialismo e il razzismo",
+    "w": [
+     "Il commercio",
+     "L'ONU",
+     "Le religioni"
+    ],
+    "e": "I 29 Stati si riuniscono per condannare il colonialismo e il razzismo."
+   },
+   {
+    "p": "Che cosa vogliono i non allineati?",
+    "a": "Non schierarsi con nessuno dei due blocchi",
+    "w": [
+     "Entrare nella NATO",
+     "Entrare nel Patto di Varsavia",
+     "Tornare coloni"
+    ],
+    "e": "Nasce la volontà di non schierarsi con nessuno dei due blocchi della Guerra fredda."
+   },
+   {
+    "p": "Che cosa fanno USA e URSS verso i nuovi Stati?",
+    "a": "Cercano di attirarli con aiuti finanziari e militari",
+    "w": [
+     "Li ignorano",
+     "Li invadono tutti",
+     "Li riconoscono all'unanimità"
+    ],
+    "e": "USA e URSS cercano di attirare i nuovi Stati nella propria sfera di influenza offrendo aiuti finanziari e militari."
+   }
+  ]
+ },
+ "Q3": {
+  "title": "Quiz 3 · India e Pakistan",
+  "items": [
+   {
+    "p": "Quando il Regno Unito concede l'indipendenza all'India?",
+    "a": "Nel 1947",
+    "w": [
+     "Nel 1917",
+     "Nel 1967",
+     "Nel 1957"
+    ],
+    "e": "Il Regno Unito concede l'indipendenza all'India nel 1947."
+   },
+   {
+    "p": "Da chi è guidato il movimento nazionalista indiano?",
+    "a": "Da Gandhi e Nehru",
+    "w": [
+     "Da Churchill e Attlee",
+     "Da Mao e Ho Chi Minh",
+     "Da Nasser e Nkrumah"
+    ],
+    "e": "Il movimento nazionalista è guidato da Gandhi e Nehru."
+   },
+   {
+    "p": "Quali Stati nascono dalla spartizione?",
+    "a": "L'Unione Indiana e il Pakistan",
+    "w": [
+     "L'India e il Ceylon",
+     "Il Pakistan e la Cina",
+     "L'Iran e l'Iraq"
+    ],
+    "e": "La spartizione porta alla nascita di due Stati separati: l'Unione Indiana e il Pakistan."
+   },
+   {
+    "p": "Quante persone sono costrette a spostarsi?",
+    "a": "Circa quindici milioni",
+    "w": [
+     "Circa 150 mila",
+     "Circa 150 milioni",
+     "Circa mille"
+    ],
+    "e": "La divisione causa violenze religiose e lo spostamento forzato di circa quindici milioni di persone."
+   },
+   {
+    "p": "Quale area contesa provoca un conflitto armato tra India e Pakistan?",
+    "a": "Il Kashmir",
+    "w": [
+     "Il Ceylon",
+     "Il Tibet",
+     "La Malesia"
+    ],
+    "e": "Il Kashmir genera un conflitto armato immediato tra le due nuove nazioni."
+   }
+  ]
+ },
+ "Q4": {
+  "title": "Quiz 4 · Altre indipendenze in Asia",
+  "items": [
+   {
+    "p": "Quale Paese ottiene l'indipendenza nel 1948 in modo prevalentemente pacifico?",
+    "a": "Ceylon (Sri Lanka)",
+    "w": [
+     "L'Indonesia",
+     "Il Vietnam",
+     "L'Algeria"
+    ],
+    "e": "Ceylon (Sri Lanka) nel 1948 e la Malesia nel 1957 ottengono l'indipendenza in modo prevalentemente pacifico."
+   },
+   {
+    "p": "Quale Paese europeo cerca di riprendere il controllo dell'Indonesia?",
+    "a": "L'Olanda",
+    "w": [
+     "La Francia",
+     "Il Belgio",
+     "L'Italia"
+    ],
+    "e": "L'Olanda tenta di riprendere il controllo, ma la resistenza porta alla Repubblica nel 1949."
+   },
+   {
+    "p": "Con quale movimento si scontra la Francia in Indocina?",
+    "a": "Il Vietminh comunista",
+    "w": [
+     "Il Guomintang",
+     "L'ANC",
+     "Il FLN"
+    ],
+    "e": "La dura guerra contro il movimento comunista Vietminh culmina nella sconfitta francese a Dien Bien Phu."
+   },
+   {
+    "p": "Dove si colloca la sconfitta francese del 1954?",
+    "a": "A Dien Bien Phu",
+    "w": [
+     "Ad Algeri",
+     "A Suez",
+     "A Bandung"
+    ],
+    "e": "La sconfitta francese avviene a Dien Bien Phu nel 1954."
+   },
+   {
+    "p": "Che cosa decidono gli accordi di Ginevra?",
+    "a": "La divisione temporanea del Vietnam in due Stati",
+    "w": [
+     "L'unificazione del Vietnam",
+     "La fine della guerra civile in Cina",
+     "L'indipendenza dell'India"
+    ],
+    "e": "Gli accordi di Ginevra dividono temporaneamente il Paese in due Stati, Nord comunista e Sud filoccidentale."
+   }
+  ]
+ },
+ "Q5": {
+  "title": "Quiz 5 · L'Africa del Nord",
+  "items": [
+   {
+    "p": "Quale colonia italiana dichiara l'indipendenza nel 1951?",
+    "a": "La Libia",
+    "w": [
+     "L'Algeria",
+     "L'Egitto",
+     "Il Marocco"
+    ],
+    "e": "La Libia, colonia italiana, dichiara l'indipendenza nel 1951 sotto una monarchia costituzionale."
+   },
+   {
+    "p": "Quando Marocco e Tunisia ottengono l'indipendenza dalla Francia?",
+    "a": "Nel 1956",
+    "w": [
+     "Nel 1932",
+     "Nel 1962",
+     "Nel 1975"
+    ],
+    "e": "Marocco e Tunisia ottengono l'indipendenza dalla Francia nel 1956."
+   },
+   {
+    "p": "Come considera la Francia l'Algeria?",
+    "a": "Come territorio nazionale",
+    "w": [
+     "Come un Paese alleato",
+     "Come una colonia da cedere",
+     "Come un protettorato inglese"
+    ],
+    "e": "La Francia considera l'Algeria territorio nazionale e si oppone al FLN."
+   },
+   {
+    "p": "Che cosa è il FLN?",
+    "a": "Il Fronte di Liberazione Nazionale algerino",
+    "w": [
+     "Un partito francese",
+     "Un'alleanza militare",
+     "Una moneta"
+    ],
+    "e": "Il Fronte di Liberazione Nazionale combatte per l'indipendenza algerina."
+   },
+   {
+    "p": "Quando nasce la Repubblica algerina?",
+    "a": "Nel 1962",
+    "w": [
+     "Nel 1945",
+     "Nel 1951",
+     "Nel 1975"
+    ],
+    "e": "Nel 1962 gli accordi sanciscono la nascita della Repubblica algerina."
+   }
+  ]
+ },
+ "Q6": {
+  "title": "Quiz 6 · L'Africa subsahariana",
+  "items": [
+   {
+    "p": "Quale Paese britannico è il primo a emanciparsi pacificamente, nel 1957?",
+    "a": "Il Ghana, con Nkrumah",
+    "w": [
+     "Il Kenya",
+     "La Nigeria",
+     "L'Etiopia"
+    ],
+    "e": "Il Ghana è il primo a emanciparsi pacificamente (1957) con Nkrumah."
+   },
+   {
+    "p": "Che cosa segna il processo di indipendenza in Kenya?",
+    "a": "Le violenze dei Mau Mau",
+    "w": [
+     "Un accordo pacifico",
+     "Un referendum",
+     "Il ritiro improvviso del Belgio"
+    ],
+    "e": "In Kenya il processo è segnato dalle violenze dei Mau Mau."
+   },
+   {
+    "p": "Come ottengono l'indipendenza le colonie francesi dell'Africa occidentale nel 1960?",
+    "a": "In modo pacifico e concordato",
+    "w": [
+     "Con una guerra comune",
+     "Con un colpo di Stato",
+     "Con l'aiuto dell'URSS"
+    ],
+    "e": "Nel 1960 quasi tutte le colonie francesi dell'Africa occidentale ottengono l'indipendenza in modo pacifico e concordato."
+   },
+   {
+    "p": "Che cosa accade nel Congo dopo il ritiro del Belgio?",
+    "a": "Il Paese cade nel caos, tra secessione del Katanga e guerra civile",
+    "w": [
+     "Diventa subito stabile",
+     "Entra nel Commonwealth",
+     "Viene annesso alla Francia"
+    ],
+    "e": "Il Belgio si ritira improvvisamente nel 1960, lasciando il Paese nel caos."
+   },
+   {
+    "p": "Quale Stato del Corno d'Africa diventa indipendente nel 1960?",
+    "a": "La Somalia",
+    "w": [
+     "L'Etiopia",
+     "L'Eritrea",
+     "Il Sudafrica"
+    ],
+    "e": "La Somalia diventa indipendente nel 1960."
+   }
+  ]
+ },
+ "Q7": {
+  "title": "Quiz 7 · Apartheid e Africa meridionale",
+  "items": [
+   {
+    "p": "Che cosa istituisce il Sudafrica nel 1948?",
+    "a": "L'apartheid",
+    "w": [
+     "La democrazia piena",
+     "Il federalismo",
+     "Il socialismo"
+    ],
+    "e": "Il Sudafrica instaura l'apartheid (1948), un sistema di segregazione razziale della minoranza bianca ai danni della maggioranza nera."
+   },
+   {
+    "p": "Chi è tra i leader dell'ANC arrestato nel 1962?",
+    "a": "Nelson Mandela",
+    "w": [
+     "Kwame Nkrumah",
+     "Patrice Lumumba",
+     "Gamal Abd el-Nasser"
+    ],
+    "e": "L'ANC, guidato anche da Nelson Mandela (arrestato nel 1962), combatte contro le leggi razziali."
+   },
+   {
+    "p": "Che cosa proclama la minoranza bianca in Rhodesia?",
+    "a": "Un'indipendenza unilaterale",
+    "w": [
+     "La repubblica popolare",
+     "L'unione con il Sudafrica",
+     "La resa"
+    ],
+    "e": "La minoranza bianca proclama un'indipendenza unilaterale per mantenere il potere, scatenando una lunga guerriglia."
+   },
+   {
+    "p": "Quando Angola e Mozambico ottengono l'indipendenza?",
+    "a": "Nel 1975",
+    "w": [
+     "Nel 1945",
+     "Nel 1960",
+     "Nel 1990"
+    ],
+    "e": "Angola e Mozambico ottengono l'indipendenza solo nel 1975."
+   },
+   {
+    "p": "Quale regime governa il Portogallo durante la guerra di liberazione?",
+    "a": "Un regime dittatoriale",
+    "w": [
+     "Una democrazia parlamentare",
+     "Una repubblica popolare",
+     "Una monarchia costituzionale"
+    ],
+    "e": "La guerra di liberazione è contro il regime dittatoriale di Lisbona."
+   }
+  ]
+ },
+ "Q8": {
+  "title": "Quiz 8 · Il Medio Oriente e Israele",
+  "items": [
+   {
+    "p": "Quale Stato sovrano nasce dopo la fine dei mandati?",
+    "a": "Il Libano",
+    "w": [
+     "Il Sudafrica",
+     "Il Ghana",
+     "La Libia"
+    ],
+    "e": "Nel dopoguerra nascono Stati sovrani come Libano, Siria e Transgiordania."
+   },
+   {
+    "p": "Che cosa approva l'ONU nel 1947 per la Palestina?",
+    "a": "La Risoluzione 181, che divide la regione in uno Stato ebraico e uno arabo",
+    "w": [
+     "L'annessione alla Giordania",
+     "L'indipendenza immediata",
+     "Il ritorno del mandato britannico"
+    ],
+    "e": "L'ONU approva la Risoluzione 181 (1947) per dividere la regione in uno Stato ebraico e uno arabo."
+   },
+   {
+    "p": "Chi proclama lo Stato di Israele nel 1948?",
+    "a": "David Ben Gurion",
+    "w": [
+     "Gamal Abd el-Nasser",
+     "Mustafa Kemal",
+     "Nelson Mandela"
+    ],
+    "e": "Nel 1948 David Ben Gurion proclama lo Stato ebraico, non accettato dai Paesi arabi confinanti."
+   },
+   {
+    "p": "Come si conclude la prima guerra arabo-israeliana?",
+    "a": "Con la vittoria di Israele",
+    "w": [
+     "Con la vittoria degli Stati arabi",
+     "Con un armistizio senza cambiamenti",
+     "Con l'intervento dell'URSS"
+    ],
+    "e": "Il conflitto si conclude con la vittoria di Israele, che espande i suoi confini."
+   },
+   {
+    "p": "Quale conseguenza umana ha la guerra?",
+    "a": "La fuga di centinaia di migliaia di profughi palestinesi",
+    "w": [
+     "Il ritorno dei profughi",
+     "Un grande boom economico",
+     "La fine dei confini"
+    ],
+    "e": "Si ha la fuga in massa di centinaia di migliaia di profughi palestinesi."
+   }
+  ]
+ },
+ "Q9": {
+  "title": "Quiz 9 · L'Egitto di Nasser e Suez",
+  "items": [
+   {
+    "p": "Chi prende il potere in Egitto nel 1952?",
+    "a": "L'ufficiale Gamal Abd el-Nasser",
+    "w": [
+     "Il re Faruk",
+     "Ben Gurion",
+     "Muammar Gheddafi"
+    ],
+    "e": "L'ufficiale Nasser prende il potere nel 1952, promuovendo il nazionalismo arabo e riforme sociali."
+   },
+   {
+    "p": "Che cosa nazionalizza Nasser nel 1956?",
+    "a": "Il Canale di Suez",
+    "w": [
+     "Le miniere del Congo",
+     "Il Nilo",
+     "Il petrolio iracheno"
+    ],
+    "e": "Nasser nazionalizza il Canale di Suez, fino ad allora controllato da Francia e Regno Unito."
+   },
+   {
+    "p": "Per finanziare quale opera Nasser nazionalizza il canale?",
+    "a": "La diga di Assuan",
+    "w": [
+     "Il canale di Panama",
+     "Il Cairo",
+     "Una nuova capitale"
+    ],
+    "e": "Nasser riscatta il canale per finanziare la diga di Assuan."
+   },
+   {
+    "p": "Quali Paesi attaccano l'Egitto durante la crisi di Suez?",
+    "a": "Francia, Regno Unito e Israele",
+    "w": [
+     "USA e URSS",
+     "Libia e Algeria",
+     "Italia e Spagna"
+    ],
+    "e": "Francia, Regno Unito e Israele attaccano militarmente l'Egitto."
+   },
+   {
+    "p": "Che cosa impongono USA e URSS?",
+    "a": "Il ritiro degli aggressori",
+    "w": [
+     "Una nuova guerra",
+     "La caduta di Nasser",
+     "Il ritorno del canale a Francia e Regno Unito"
+    ],
+    "e": "USA e URSS impongono il ritiro, decretando il successo politico di Nasser e la fine del vecchio imperialismo europeo."
+   }
+  ]
+ },
+ "Q10": {
+  "title": "Quiz 10 · Il neocolonialismo",
+  "items": [
+   {
+    "p": "Chi conia l'espressione «Terzo mondo»?",
+    "a": "L'economista Alfred Sauvy",
+    "w": [
+     "Il presidente Nasser",
+     "Il leader Nkrumah",
+     "Il politico Nehru"
+    ],
+    "e": "L'espressione «Terzo mondo» è coniata dall'economista Alfred Sauvy."
+   },
+   {
+    "p": "Che cosa indica «Terzo mondo»?",
+    "a": "I Paesi di nuova indipendenza, poveri e arretrati",
+    "w": [
+     "I Paesi del blocco occidentale",
+     "Le superpotenze",
+     "I Paesi dell'Europa"
+    ],
+    "e": "Indica i Paesi di nuova indipendenza, accomunati da povertà e arretratezza economica."
+   },
+   {
+    "p": "Che cosa significa neocolonialismo?",
+    "a": "Dipendenza economica dei nuovi Stati da multinazionali e mercati occidentali",
+    "w": [
+     "Il ritorno degli eserciti coloniali",
+     "La fine di ogni dipendenza",
+     "Una nuova indipendenza"
+    ],
+    "e": "Pur indipendenti politicamente, i nuovi Stati restano economicamente subordinati."
+   },
+   {
+    "p": "Quale istituzione impone misure economiche che favoriscono i Paesi industrializzati?",
+    "a": "Il Fondo Monetario Internazionale",
+    "w": [
+     "L'UNESCO",
+     "La NATO",
+     "La Lega Araba"
+    ],
+    "e": "Istituzioni come il Fondo Monetario Internazionale impongono misure che spesso favoriscono i Paesi industrializzati."
+   },
+   {
+    "p": "Che fine fa il progetto di un nuovo ordine economico internazionale?",
+    "a": "È discusso all'ONU ma ostacolato dai Paesi occidentali",
+    "w": [
+     "È approvato all'unanimità",
+     "È realizzato dalla NATO",
+     "Viene dimenticato subito dall'ONU"
+    ],
+    "e": "Il progetto, discusso all'ONU negli anni Settanta, è ostacolato dai Paesi occidentali."
+   }
+  ]
+ }
+}
