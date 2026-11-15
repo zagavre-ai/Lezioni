@@ -1,10 +1,16 @@
 # Indice · STORIA DELL'ARTE V (prof. Mazzotti) · release `mazzotti-storia-arte-V`
 
+## AGGIORNAMENTO 15/11 mattina: MATERIALE COMPLETO E PIÙ LEGGERO (usa questi)
+- **Slide di tutte le 18 lezioni**: zip piccolo `SLIDE-20261115T094620Z-1-001.zip` (29 MB), file «LEZIONE N.pdf». Ci sono anche le **lezioni 6 e 12**: non serve più ricostruirle dal video.
+- **Mappe del prof di tutte le 18 lezioni**: zip `MAPPE-20261115T094541Z-1-001.zip` (6 MB), file «MAPPE LEZIONE N.pdf».
+- **Video della lezione 8**: file singolo `LEZIONE.8.L.ESPRESSIONISMO.mp4` (1,2 GB). La lezione 8 si fa (chat A4).
+- Test finali e compiti del prof: come sotto. Per i **video** delle altre lezioni usa la tabella qui sotto (zip grandi: scarica solo quello del tuo video, estrai con `unzip -j` e cancella subito lo zip).
+
 Per ogni lezione: in quale zip della release sta ogni file (percorso esatto dentro lo zip). Gli zip pesano 0,7–2 GB: scarica solo quello che ti serve con l'API REST, estrai con `unzip -j zip "percorso"` solo il file e cancella subito lo zip.
 
 - **Test finale (verifica 80%)**: zip `STORIA.DELL.ARTE.V.-20261114T195454Z-1-001.zip`, file «DOMANDE LEZIONE N.xlsx».
 - **Compiti del prof**: zip `STORIA.DELL.ARTE.V.-20261114T223357Z-1-001.zip`, file «LEZIONE N.pdf».
-- **Mancano (15/11)**: video della lezione 8; slide delle lezioni 6 e 12 (per 6 e 12 costruisci le slide dal video: fotogrammi chiave + trascrizione).
+- (Risolto il 15/11: video 8 e slide 6 e 12 ora ci sono, vedi sopra.)
 
 ## Lezione 1
 - Video: `STORIA DELL_ARTE V --- V ANNO LICEO ARTISTICO_ III DEGLI ALTRI_ III MEDIA_ ANCHE PRESENTE IN ARTE TERRITORIO/VIDEOLEZIONI/LEZIONE 1 IL NEOCLASSICISMO.mp4` in `STORIA.DELL.ARTE.V.---.V.ANNO.LICEO.ARTISTICO.III.DEGLI.ALTRI.III.MEDIA.ANCHE.PRESENTE.IN.ARTE.TERRITORIO-20261114T195520Z-1-008.zip`
