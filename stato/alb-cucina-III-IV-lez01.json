@@ -6,11 +6,11 @@
    "stato": "PRONTA",
    "voci": "kore",
    "video": "Cucina_Lez1_Parte1_1080p.mp4",
-   "durata_s": 3128.4,
-   "durata": "52:08.4",
-   "fotogrammi": 93853,
-   "fotogrammi_attesi": 93853,
-   "peso_MB": 191.7,
+   "durata_s": 3127.1,
+   "durata": "52:07.1",
+   "fotogrammi": 93814,
+   "fotogrammi_attesi": 93814,
+   "peso_MB": 197.8,
    "timeline": [
     [
      "T1",
@@ -60,7 +60,7 @@
    "scheda": {
     "materia": "Laboratori dei servizi enogastronomici – settore cucina",
     "titolo": "Le carni · Parte 1",
-    "durata_s": 3128.43,
+    "durata_s": 3127.13,
     "argomenti": [
      {
       "n": 1,
@@ -617,7 +617,7 @@
    ]
   }
  },
- "manca": "nulla: Parte pronta, da caricare su YouTube",
+ "manca": "nulla: Parte pronta, consegnata su git",
  "serve_master": [
   {
    "quando": "10/11 20:43",
@@ -665,9 +665,13 @@
   {
    "quando": "15/11 00:33",
    "testo": "Parte pronta (1080p, voci Kore): t_verifica=3096.0 s, t_compiti=3115.6 s. Sottotitoli riallineati sulla voce del video finale (scarto medio 0,03 s, max 0,12 s su tutti i blocchi controllati)."
+  },
+  {
+   "quando": "15/11 05:37",
+   "testo": "Parte pronta e consegnata su git (ramo consegna-alb-cucina-III-IV-lez01), 1080p, voci Kore: t_verifica=3102.5 s, t_compiti=3120.8 s. Cerchio della docente pulito (anello giallo), sincronia slide/voce con tempi parola per parola (5 scarti misurati nel LEGGIMI del ramo), sottotitoli riallineati sulla voce."
   }
  ],
  "materia": "Laboratori dei servizi enogastronomici – settore cucina",
  "lezione": "Le carni",
- "aggiornato": "2026-11-15 00:34:55"
+ "aggiornato": "2026-11-15 05:37:19"
 }
