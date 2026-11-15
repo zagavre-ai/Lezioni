@@ -1,0 +1,4 @@
+Richiesta voci Kore · Chimica applicata Moda III+IV · lezione 1 «Le fibre» (Prof.ssa Piera Caputi)
+26 blocchi (142 frasi, ~12.400 caratteri), testi in testi_voci.json, un file per blocco: vox/<NOME>.wav + ESITI.txt.
+Nei blocchi AN*, S*, M*, GL1, RF1, FIN1 le frasi vanno generate in sequenza (la chat usa le pause per sincronizzare le animazioni).
+Numeri scritti in lettere di proposito. Blocco R1-R5: una sola frase breve.
