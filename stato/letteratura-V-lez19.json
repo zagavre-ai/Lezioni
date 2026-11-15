@@ -3,40 +3,40 @@
  "parti": {
   "1": {
    "titolo": "Dal secondo dopoguerra a oggi",
-   "stato": "IN_MONTAGGIO",
+   "stato": "PRONTA",
    "voci": "kore",
    "quiz_ok": "si",
    "fermi_ok": "si",
    "sub_ok": "si",
    "video": "Letteratura_Lez19_Parte1_1080p.mp4",
-   "durata_s": 2132.2,
-   "durata": "35:32.2",
-   "fotogrammi": 63967,
-   "fotogrammi_attesi": 63967,
-   "peso_MB": 153.7,
+   "durata_s": 3224.2,
+   "durata": "53:44.2",
+   "fotogrammi": 96725,
+   "fotogrammi_attesi": 96725,
+   "peso_MB": 185.3,
    "vtt": "Letteratura_Lez19_Parte1.vtt",
    "scheda": {
     "materia": "Letteratura italiana (V)",
     "titolo": "Dal secondo dopoguerra a oggi",
-    "durata_s": 2132.24,
+    "durata_s": 3224.11,
     "argomenti": [
      {
       "n": 1,
       "titolo": "L'Italia dal dopoguerra a oggi",
       "inizio_s": 172.248,
-      "quiz_s": 881.081
+      "quiz_s": 1287.882
      },
      {
       "n": 2,
       "titolo": "Il dibattito culturale e la poesia",
-      "inizio_s": 886.381,
-      "quiz_s": 1411.448
+      "inizio_s": 1293.182,
+      "quiz_s": 2143.65
      },
      {
       "n": 3,
       "titolo": "I maestri della narrativa",
-      "inizio_s": 1416.748,
-      "quiz_s": 2026.449
+      "inizio_s": 2148.95,
+      "quiz_s": 3050.485
      }
     ],
     "quiz": {
@@ -206,8 +206,8 @@
       ]
      }
     },
-    "t_verifica": 2101.616,
-    "t_compiti": 2125.936
+    "t_verifica": 3193.486,
+    "t_compiti": 3217.806
    },
    "timeline": [
     [
@@ -217,32 +217,32 @@
     ],
     [
      "Q1",
-     881.081,
+     1287.882,
      4.0
     ],
     [
      "T2",
-     886.381,
+     1293.182,
      3.6
     ],
     [
      "T3",
-     1416.748,
+     2148.95,
      3.6
     ],
     [
      "GL1",
-     2031.749,
+     3123.619,
      34.7
     ],
     [
      "RF1",
-     2068.049,
+     3159.919,
      32.3
     ],
     [
      "FIN1",
-     2107.916,
+     3199.786,
      5.233
     ]
    ],
@@ -286,10 +286,14 @@
   {
    "quando": "15/11 03:17",
    "testo": "chat R5: pronta, attende voci Kore. Con segnaposto: montaggio v2, mappe, sottotitoli, dispensa con mappe, compiti.json, tempi quiz/verifica/compiti aggiornati. Durata stimata (non misurata) vedi lista; si codifica appena arrivano le voci."
+  },
+  {
+   "quando": "15/11 12:59",
+   "testo": "chat R5 · PRONTA v2 con approfondimenti animati, consegnata sul ramo consegna-letteratura-V-lez19. Misurato: 53:44.2, 96725 fotogrammi, 185.3 MB, 1920x1080, parlato docente -15.8 LUFS, approfondimenti -16.5 LUFS, scatto quiz entro 0,04 s su 3/3, nessun fermo. 15 approfondimenti animati con voce Kore (18 min) + mappe (una per argomento + finale, anche nella dispensa). t_verifica 3193.486, t_compiti 3217.806. compiti.json del prof aggiunto. Non rifatti (restano dalla v1): scheda e intro Compiti, bande blu, sincronia slide. Sottotitoli degli approfondimenti allineati alle pause della voce, non verificati uno per uno."
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 19",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-15 03:17:25"
+ "aggiornato": "2026-11-15 12:59:24"
 }
