@@ -1,0 +1,3 @@
+Storia V · Lezione 6 · Il primo dopoguerra (1919-1925) · consegna Parte 1.
+Video a pezzi da 90 MB: riunisci con  cat Storia_Lez6_Parte1_1080p.mp4.parte_* > Storia_Lez6_Parte1_1080p.mp4  e controlla con il file .sha256.
+Test finale: Excel del docente. Compiti: PDF del docente e compiti.json. Quiz: tutti gli argomenti in Quiz_Storia_Lez6.txt.
