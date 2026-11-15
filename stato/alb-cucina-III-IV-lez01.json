@@ -319,16 +319,16 @@
    "fermi_ok": "si",
    "sub_ok": "si",
    "video": "Cucina_Lez1_Parte2_1080p.mp4",
-   "durata_s": 3121.9,
-   "durata": "52:01.9",
-   "fotogrammi": 93656,
-   "fotogrammi_attesi": 93656,
-   "peso_MB": 190.6,
+   "durata_s": 3120.6,
+   "durata": "52:00.6",
+   "fotogrammi": 93617,
+   "fotogrammi_attesi": 93617,
+   "peso_MB": 196.6,
    "vtt": "Cucina_Lez1_Parte2.vtt",
    "scheda": {
     "materia": "Laboratori dei servizi enogastronomici – settore cucina",
     "titolo": "Le carni · Parte 2",
-    "durata_s": 3121.87,
+    "durata_s": 3120.57,
     "argomenti": [
      {
       "n": 5,
@@ -669,9 +669,13 @@
   {
    "quando": "15/11 05:37",
    "testo": "Parte pronta e consegnata su git (ramo consegna-alb-cucina-III-IV-lez01), 1080p, voci Kore: t_verifica=3102.5 s, t_compiti=3120.8 s. Cerchio della docente pulito (anello giallo), sincronia slide/voce con tempi parola per parola (5 scarti misurati nel LEGGIMI del ramo), sottotitoli riallineati sulla voce."
+  },
+  {
+   "quando": "15/11 05:37",
+   "testo": "Parte pronta e consegnata su git (ramo consegna-alb-cucina-III-IV-lez01), 1080p, voci Kore: t_verifica=3096.0 s, t_compiti=3114.3 s. Cerchio della docente pulito (anello giallo), sincronia slide/voce con tempi parola per parola (5 scarti misurati nel LEGGIMI del ramo), sottotitoli riallineati sulla voce."
   }
  ],
  "materia": "Laboratori dei servizi enogastronomici – settore cucina",
  "lezione": "Le carni",
- "aggiornato": "2026-11-15 05:37:19"
+ "aggiornato": "2026-11-15 05:37:21"
 }
