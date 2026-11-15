@@ -7,3 +7,17 @@
 - **Letteratura V · compiti del prof (lezioni 1–26):** release `mazzotti-letteratura-V`, zip `LETTERATURA.ITALIANA.V.-20261114T221058Z-1-001.zip`, file «LEZIONE N.pdf». Stessa cosa: scheda «Compiti» + `compiti.json` (per le già consegnate, solo `compiti.json` sul ramo di consegna).
 - **Mappe:** strumento `kit/tools/mappa.py` su main (obbligatorio). Se nella release ci sono mappe del docente, partire da quelle.
 - **Velocità:** nessuna anteprima intera, una sola codifica finale 1080p veryfast CRF 19, lavoro a catena (mentre codifica, prepari la lezione dopo).
+
+## 15/11 notte (03:40 ora italiana) · SVEGLIA: RIPARTITE TUTTE
+- **Perché molte lezioni sono FERMA:** la quota giornaliera di Google per le voci Kore è finita su tutti i modelli. **Riparte da sola alle 09:00 italiane**; il servizio della master è acceso e riprova ogni 20 minuti. Le richieste già sui rami `voci-*` restano in coda: **non rifarle, non cambiare i nomi**.
+- **Non stare ferma ad aspettare le voci.** Fai adesso tutto il resto: approfondimenti animati e mappe (con voci SEGNAPOSTO della durata stimata), quiz, sottotitoli del docente, dispensa A4 con le mappe, compiti del prof, testo YouTube, timeline. Quando le voci arrivano in `vox/` sostituisci i segnaposto e fai l'UNICA codifica finale.
+- **Stato:** non `FERMA` per le voci: scrivi `IN_MONTAGGIO` con nota «pronta, attende voci Kore». `FERMA` solo per un problema vero, con il motivo scritto nel campo `nota`.
+- **Controllo prima di PRONTA (è quello che la circolare alle famiglie promette):**
+  1. ogni Parte **50–60 minuti** (le lezioni di Letteratura rifatte sotto i 50 minuti NON sono PRONTA);
+  2. **quiz di 5 domande** dopo ogni argomento;
+  3. **verifica finale** = test Excel del prof, scheda «Verifica finale» con `t_verifica` esatto (il video riparte solo con almeno l'80%);
+  4. **compiti del prof dentro il video** (intro + scheda «Compiti» con `t_compiti`) e `compiti.json`;
+  5. **mappe concettuali**: una per argomento + mappa finale, anche nella dispensa;
+  6. **bande blu** sopra e sotto in pausa, verifica e compiti;
+  7. **slide sincronizzate** con la voce del docente (±1,5 s) e nessun residuo grafico del video originale (logo, bordi) sotto il riquadro del docente;
+  8. mai il numero della lezione nel video; 1080p, < 400 MB, `controllo_finale.py` e `controllo_jingle.py` superati.
