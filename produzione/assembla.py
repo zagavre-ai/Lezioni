@@ -6,7 +6,7 @@ import sys, os, json, re, subprocess, importlib, argparse
 QUI = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, QUI)
 ap = argparse.ArgumentParser()
 for k in ['lez', 'parte', 'base', 'timeline', 'vtt', 'an', 'out']: ap.add_argument(k)
-ap.add_argument('--prova', action='store_true'); ap.add_argument('--solo-tempi', action='store_true'); o = ap.parse_args()
+ap.add_argument('--prova', action='store_true'); ap.add_argument('--card'); ap.add_argument('--solo-tempi', action='store_true'); o = ap.parse_args()
 sys.path.insert(0, os.path.join(QUI, o.lez))
 sp = importlib.import_module('spec_extra') if os.path.exists(os.path.join(QUI, o.lez, 'spec_extra.py')) else importlib.import_module('spec')
 P = int(o.parte); os.makedirs(o.out, exist_ok=True)
@@ -66,7 +66,7 @@ if o.solo_tempi: sys.exit()
 inp = ['-i', o.base]; fc = []; segs = []; prev = 0.0; k = 0; ai = 1
 nb = len(cuts) + 1; 
 fc.append(f'[0:v]split={nb}' + ''.join(f'[bv{i}]' for i in range(nb))); fc.append(f'[0:a]asplit={nb}' + ''.join(f'[ba{i}]' for i in range(nb)))
-bounds = [0.0] + [c for c, _ in cuts] + [dur(o.base)]
+bounds = [0.0] + [c for c, _ in cuts] + [fr(st['COMPITI']) if o.card else dur(o.base)]
 order = []
 for i in range(nb):
     a, b = bounds[i], bounds[i + 1]
@@ -76,6 +76,8 @@ for i in range(nb):
         for n, f, d, a_ in cuts[i][1]:
             inp += ['-i', f]; fc.append(f'[{ai}:v]fps=30,setsar=1[x{ai}v]'); fc.append(f'[{ai}:a]aformat=sample_rates=48000:channel_layouts=stereo[x{ai}a]')
             order.append((f'[x{ai}v]', f'[x{ai}a]')); ai += 1
+if o.card:
+    inp += ['-i', o.card]; fc.append(f'[{ai}:v]fps=30,setsar=1[x{ai}v]'); fc.append(f'[{ai}:a]aformat=sample_rates=48000:channel_layouts=stereo[x{ai}a]'); order.append((f'[x{ai}v]', f'[x{ai}a]')); ai += 1
 fc.append(''.join(v + a for v, a in order) + f'concat=n={len(order)}:v=1:a=1[vo][ao]')
 cmd = ['ffmpeg', '-y', '-v', 'error'] + inp + ['-filter_complex', ';'.join(fc), '-map', '[vo]', '-map', '[ao]', '-c:v', 'libx264', '-preset', 'veryfast', '-crf', os.environ.get('CRF', '19'), '-maxrate', '16M', '-bufsize', '32M', '-pix_fmt', 'yuv420p', '-r', '30', '-c:a', 'aac', '-b:a', '192k', '-ar', '48000', '-movflags', '+faststart']
 if o.prova: cmd += ['-ss', os.environ.get('SS', '0'), '-t', os.environ.get('T', '60')]
