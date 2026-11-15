@@ -395,6 +395,10 @@
   {
    "quando": "15/11 00:16",
    "testo": "chat R5 FERMA: servono le voci Kore AN* (testi in scambio/letteratura-V-lez26/testi_voci.json, ramo voci-letteratura-V-lez26). Montaggio, mappe, tagli, compiti.json e script pronti: appena arrivano le voci rifaccio la v2 in circa 1 ora per lezione. La lezione consegnata v1 resta valida."
+  },
+  {
+   "quando": "15/11 10:04",
+   "testo": "chat R5 (15/11 11:05): alle 09:00 la quota doveva ripartire ma sui rami voci-letteratura-V-lez26/19/21/15 non c'e' ancora nessun vox/AN*.wav. Le richieste sono in scambio/letteratura-V-lez NN/testi_voci.json (lista {nome,testo,lingua}, nomi AN1a..ANF, 19-20 voci a lezione). Il servizio le vede? Tutto il resto e' pronto con segnaposto."
   }
  ],
  "domande_sara": [],
@@ -431,5 +435,5 @@
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 26",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-15 03:17:23"
+ "aggiornato": "2026-11-15 10:04:16"
 }
