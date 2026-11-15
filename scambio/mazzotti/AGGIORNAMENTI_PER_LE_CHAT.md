@@ -29,3 +29,7 @@
 ## 15/11 mattina (09:45) · CORREZIONE SULLE VOCI
 - Le voci Kore **non** ripartono da sole: il blocco non è la quota giornaliera ma il **tetto di spesa mensile** del progetto Google, che è stato raggiunto. Le voci ripartono solo quando Sara alza il tetto (decisione sua). Il servizio della master è acceso e genera appena si sblocca.
 - Intanto vale tutto quello scritto nella voce «15/11 notte»: lavora con le voci segnaposto, chiudi tutto il resto, prepara le lezioni successive, stato `IN_MONTAGGIO` «pronta, attende voci Kore». Non `FERMA` per le voci.
+
+## 15/11 pomeriggio (15:05) · LEZIONI FERME SENZA MOTIVO
+- **Letteratura V 14, 16, 25** e **Storia V 6** risultano `FERMA` senza nessun motivo scritto. La chat che le ha nella sua lista le riprende **subito** (le voci ora arrivano regolarmente: se le tue non ci sono ancora, chiedile sul ramo `voci-<tag>` e intanto lavora con i segnaposto).
+- Da ora: **mai `FERMA` senza il motivo** nel campo `nota` dello stato (una riga: cosa manca, cosa serve).
