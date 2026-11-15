@@ -1,0 +1,82 @@
+[
+ {
+  "nome": "INTRO",
+  "testo": "Benvenuti alla lezione sull'Arte Informale e sull'Espressionismo astratto. Vedremo sei argomenti. Il Dopoguerra, da Parigi a New York. I maestri dell'architettura moderna. L'Arte Informale in Europa. L'Informale in Italia, con Fontana e Burri. L'Espressionismo astratto americano. E infine la nuova indagine sull'uomo e l'angoscia esistenziale.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R1",
+  "testo": "Ripassiamo il Dopoguerra, da Parigi a New York.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R2",
+  "testo": "Ripassiamo i maestri dell'architettura moderna.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R3",
+  "testo": "Ripassiamo l'Arte Informale in Europa.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R4",
+  "testo": "Ripassiamo l'Informale in Italia: Fontana e Burri.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R5",
+  "testo": "Ripassiamo l'Espressionismo astratto americano.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R6",
+  "testo": "Ripassiamo la nuova indagine sull'uomo e l'angoscia esistenziale.",
+  "lingua": "it"
+ },
+ {
+  "nome": "S1",
+  "testo": "Il Dopoguerra, da Parigi a New York. A causa della Seconda guerra mondiale molti maestri europei, come Mondrian, Ernst e Duchamp, fuggono a New York, che diventa la nuova capitale dell'arte. Peggy Guggenheim apre la galleria Art of This Century, punto di riferimento per le nuove avanguardie americane ed europee. In Europa, ferita dai bombardamenti, si risponde alla crisi degli alloggi con progetti pubblici, come il piano INA-Casa e il quartiere Tiburtino a Roma.",
+  "lingua": "it"
+ },
+ {
+  "nome": "S2",
+  "testo": "I maestri dell'architettura moderna. Frank Lloyd Wright progetta a New York il Guggenheim, un museo rivoluzionario basato su una rampa a spirale continua. Le Corbusier realizza l'Unité d'Habitation a Marsiglia, una città a misura d'uomo basata sul sistema del Modulor; poi rompe con il Razionalismo puro e crea le forme plastiche della Cappella di Ronchamp. Mies van der Rohe, con l'International Style, progetta strutture geometriche in acciaio e vetro, come la Farnsworth House e il Seagram Building, e influenza città nuove come Brasilia.",
+  "lingua": "it"
+ },
+ {
+  "nome": "S3",
+  "testo": "L'Arte Informale in Europa. È una tendenza del Dopoguerra che rifiuta la forma tradizionale, figurativa o geometrica, e mette al centro la materia, il segno e il gesto spontaneo. Jean Fautrier esprime l'angoscia esistenziale accumulando strati di materia pittorica. Jean Dubuffet usa l'ironia grottesca e i materiali poveri. Hans Hartung si concentra sulla forza dinamica del segno grafico.",
+  "lingua": "it"
+ },
+ {
+  "nome": "S4",
+  "testo": "L'Informale in Italia: Fontana e Burri. Lucio Fontana, con lo Spazialismo, supera la tela tradizionale per conquistare lo spazio reale: i suoi Concetti spaziali sono celebri per i buchi e per i tagli, le Attese. Alberto Burri sperimenta materiali logori: cuce vecchi sacchi di iuta, i Sacchi; brucia la plastica con la fiamma ossidrica, le Combustioni; crea superfici spaccate che ricordano la terra secca, i Cretti.",
+  "lingua": "it"
+ },
+ {
+  "nome": "S5",
+  "testo": "L'Espressionismo astratto americano. La Scuola di New York è la prima vera avanguardia nata negli Stati Uniti: rifiuta il realismo e unisce l'influenza del Surrealismo europeo all'interesse per la psicoanalisi e per le culture primitive. Si divide in Action Painting, pittura d'azione gestuale e istintiva, e Color Field Painting, basata su grandi campiture di colore. Jackson Pollock inventa il dripping; Willem de Kooning dipinge con pennellate violente la serie Woman; Mark Rothko sovrappone grandi rettangoli di colore, che invitano alla meditazione.",
+  "lingua": "it"
+ },
+ {
+  "nome": "S6",
+  "testo": "La nuova indagine sull'uomo. Francis Bacon dipinge figure isolate e deformate, simboli della sofferenza del Dopoguerra, come i ritratti urlanti ispirati al Papa Innocenzo Decimo di Velázquez. Alberto Giacometti crea sculture filiformi e scarnificate, che raccontano la solitudine dell'individuo di fronte al vuoto. Henry Moore usa forme monumentali e levigate, con grandi vuoti che fanno dialogare l'opera con lo spazio.",
+  "lingua": "it"
+ },
+ {
+  "nome": "GL",
+  "testo": "Ripassiamo le parole chiave della lezione. Informale: l'arte che rifiuta la forma e mette al centro materia, segno e gesto. Spazialismo: la conquista dello spazio reale oltre la tela, di Fontana. Cretti: le superfici spaccate di Burri, simili alla terra secca. Action Painting: la pittura d'azione, gestuale e istintiva. Dripping: il colore fatto colare sulla tela distesa a terra. Color Field Painting: la pittura di grandi campiture piatte di colore. Modulor: il sistema di misura di Le Corbusier.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RF",
+  "testo": "Prima di salutarci, ricapitoliamo i sei argomenti della lezione. Dopo la guerra la capitale dell'arte diventa New York. L'architettura moderna ha i suoi maestri in Wright, Le Corbusier e Mies. L'Informale europeo mette al centro materia e segno. In Italia Fontana e Burri superano la tela con tagli, sacchi e combustioni. L'Espressionismo astratto vive di gesto e colore, con Pollock e Rothko. Bacon, Giacometti e Moore indagano l'uomo e la sua angoscia.",
+  "lingua": "it"
+ },
+ {
+  "nome": "FIN",
+  "testo": "Fine della lezione. Grazie per l'attenzione.",
+  "lingua": "it"
+ }
+]
