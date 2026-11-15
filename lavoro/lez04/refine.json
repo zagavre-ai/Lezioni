@@ -1,0 +1,512 @@
+{
+ "A1.S0.I0": {
+  "t_old": 122.90600000000002,
+  "t_new": 123.10600000000002,
+  "heard": "The private sector"
+ },
+ "A1.S0.I1": {
+  "t_old": 136.365,
+  "t_new": 138.965,
+  "heard": "sole traders"
+ },
+ "A1.S0.I2": {
+  "t_old": 149.44,
+  "t_new": 149.24,
+  "heard": "Then we have the partnerships"
+ },
+ "A1.S0.I3": {
+  "t_old": 151.52999999999997,
+  "t_new": 151.22999999999996,
+  "heard": "Then public limited companies"
+ },
+ "A1.S0.I4": {
+  "t_old": 161.52999999999997,
+  "t_new": 160.32999999999998,
+  "heard": "and finally the concept of cooperatives"
+ },
+ "A1.S1.I0": {
+  "t_old": 194.79299999999998,
+  "t_new": 194.19299999999998,
+  "heard": "Sole traders are"
+ },
+ "A1.S1.I1": {
+  "t_old": 223.94,
+  "t_new": 223.64,
+  "heard": "Sole traders are"
+ },
+ "A1.S1.I2": {
+  "t_old": 241.48,
+  "t_new": 241.48,
+  "heard": "Some example of this kind of business"
+ },
+ "A1.S2.I0": {
+  "t_old": 358.91700000000003,
+  "t_new": 358.41700000000003,
+  "heard": "So among the advantages"
+ },
+ "A1.S2.I1": {
+  "t_old": 379.017,
+  "t_new": 379.017,
+  "heard": "he or she retains all the profit"
+ },
+ "A1.S2.I2": {
+  "t_old": 386.3500000000001,
+  "t_new": 386.25000000000006,
+  "heard": "Among the disadvantages"
+ },
+ "A1.S2.I3": {
+  "t_old": 395.85200000000003,
+  "t_new": 395.052,
+  "heard": "the fact that the entrepreneur has to manage"
+ },
+ "A1.S3.I0": {
+  "t_old": 449.56200000000007,
+  "t_new": 448.96200000000005,
+  "heard": "Partnerships are small to medium-sized businesses"
+ },
+ "A1.S3.I1": {
+  "t_old": 466.36500000000007,
+  "t_new": 465.76500000000004,
+  "heard": "and they share the responsibility"
+ },
+ "A1.S3.I2": {
+  "t_old": 481.65900000000005,
+  "t_new": 481.35900000000004,
+  "heard": "Partnerships are especially common"
+ },
+ "A1.S3.I3": {
+  "t_old": 501.53999999999996,
+  "t_new": 501.43999999999994,
+  "heard": "There are two different types of partnership"
+ },
+ "A1.S4.I0": {
+  "t_old": 648.884,
+  "t_new": 648.184,
+  "heard": "So, among the advantages"
+ },
+ "A1.S4.I1": {
+  "t_old": 665.5840000000001,
+  "t_new": 664.884,
+  "heard": "They join together different expertise"
+ },
+ "A1.S4.I2": {
+  "t_old": 689.4880000000002,
+  "t_new": 689.5880000000002,
+  "heard": "Among the disadvantages"
+ },
+ "A1.S4.I3": {
+  "t_old": 705.782,
+  "t_new": 705.4820000000001,
+  "heard": "Sometimes even a dependency"
+ },
+ "A1.S5.I0": {
+  "t_old": 733.714,
+  "t_new": 733.4140000000001,
+  "heard": "Limited companies have their own legal identity"
+ },
+ "A1.S5.I1": {
+  "t_old": 756.085,
+  "t_new": 755.7850000000001,
+  "heard": "The ownership of a limited company"
+ },
+ "A1.S5.I2": {
+  "t_old": 784.662,
+  "t_new": 784.462,
+  "heard": "We have the LTDs"
+ },
+ "A1.S5.I3": {
+  "t_old": 799.3640000000001,
+  "t_new": 799.2640000000001,
+  "heard": "And on the other hand"
+ },
+ "A1.S6.I0": {
+  "t_old": 912.5964000000001,
+  "t_new": 911.9964000000001,
+  "heard": "The advantages are"
+ },
+ "A1.S6.I1": {
+  "t_old": 923.4964000000001,
+  "t_new": 922.8964000000001,
+  "heard": "they are credible"
+ },
+ "A1.S6.I2": {
+  "t_old": 934.7236000000001,
+  "t_new": 934.2236000000001,
+  "heard": "Among the disadvantages"
+ },
+ "A1.S6.I3": {
+  "t_old": 952.4177000000002,
+  "t_new": 951.8177000000002,
+  "heard": "the lack of privacy on annual accounts"
+ },
+ "A1.S7.I0": {
+  "t_old": 973.2512000000002,
+  "t_new": 973.0512000000001,
+  "heard": "They are voluntary business organisations"
+ },
+ "A1.S7.I1": {
+  "t_old": 1000.5470000000003,
+  "t_new": 999.7470000000003,
+  "heard": "Members and employees"
+ },
+ "A1.S7.I2": {
+  "t_old": 1004.8770000000002,
+  "t_new": 1004.5770000000002,
+  "heard": "Some cooperatives can be non-profit"
+ },
+ "A1.S7.I3": {
+  "t_old": 1032.6690000000003,
+  "t_new": 1032.6690000000003,
+  "heard": "Usually they are run"
+ },
+ "A1.S8.I0": {
+  "t_old": 1110.4260000000002,
+  "t_new": 1110.526,
+  "heard": "So, the pros of the cooperatives"
+ },
+ "A1.S8.I1": {
+  "t_old": 1133.9860000000003,
+  "t_new": 1129.9860000000003,
+  "heard": "benefits are given back"
+ },
+ "A1.S8.I2": {
+  "t_old": 1152.4640000000002,
+  "t_new": 1152.3640000000003,
+  "heard": "The main disadvantages"
+ },
+ "A1.S8.I3": {
+  "t_old": 1162.4640000000002,
+  "t_new": 1162.1640000000002,
+  "heard": "even a lack of professional"
+ },
+ "A2.S0.I0": {
+  "t_old": 1204.4700000000003,
+  "t_new": 1204.5700000000002,
+  "heard": "So franchising is a business model"
+ },
+ "A2.S0.I1": {
+  "t_old": 1229.8540000000003,
+  "t_new": 1229.5540000000003,
+  "heard": "So we can say that franchising is a sort of joint venture"
+ },
+ "A2.S0.I2": {
+  "t_old": 1255.2240000000002,
+  "t_new": 1254.9240000000002,
+  "heard": "The franchisee"
+ },
+ "A2.S0.I3": {
+  "t_old": 1264.1240000000003,
+  "t_new": 1262.1740000000002,
+  "heard": "it pays the franchisor"
+ },
+ "A2.S1.I0": {
+  "t_old": 1279.942,
+  "t_new": 1279.642,
+  "heard": "Franchising is a rather"
+ },
+ "A2.S1.I1": {
+  "t_old": 1316.1220000000003,
+  "t_new": 1315.3220000000003,
+  "heard": "it allows it to"
+ },
+ "A2.S1.I2": {
+  "t_old": 1332.2920000000001,
+  "t_new": 1335.4920000000002,
+  "heard": "because it lowers the possibility"
+ },
+ "A2.S2.I0": {
+  "t_old": 1519.79,
+  "t_new": 1519.79,
+  "heard": "None"
+ },
+ "A2.S2.I1": {
+  "t_old": 1548.7169999999999,
+  "t_new": 1548.7169999999999,
+  "heard": "None"
+ },
+ "A2.S2.I2": {
+  "t_old": 1565.937,
+  "t_new": 1565.937,
+  "heard": "None"
+ },
+ "A2.S2.I3": {
+  "t_old": 1589.6910000000003,
+  "t_new": 1585.6910000000003,
+  "heard": "change completely its business model"
+ },
+ "A2.S2.I4": {
+  "t_old": 1592.091,
+  "t_new": 1588.091,
+  "heard": "I as franchisee"
+ },
+ "A2.S3.I0": {
+  "t_old": 1621.723,
+  "t_new": 1627.623,
+  "heard": "So they are businesses in the earliest stages"
+ },
+ "A2.S3.I1": {
+  "t_old": 1646.0230000000001,
+  "t_new": 1645.823,
+  "heard": "They are generally created"
+ },
+ "A2.S3.I2": {
+  "t_old": 1663.498,
+  "t_new": 1663.598,
+  "heard": "Clearly, if you want to launch a new business"
+ },
+ "A2.S3.I3": {
+  "t_old": 1685.4180000000001,
+  "t_new": 1692.718,
+  "heard": "and they adapt to market dynamics"
+ },
+ "A2.S4.I0": {
+  "t_old": 1725.6480000000001,
+  "t_new": 1721.6480000000001,
+  "heard": "context around them"
+ },
+ "A2.S4.I1": {
+  "t_old": 1743.7480000000003,
+  "t_new": 1744.4180000000003,
+  "heard": "they also thrive when"
+ },
+ "A3.S0.I0": {
+  "t_old": 2048.221,
+  "t_new": 2048.221,
+  "heard": "None"
+ },
+ "A3.S0.I1": {
+  "t_old": 2070.34,
+  "t_new": 2070.34,
+  "heard": "None"
+ },
+ "A3.S0.I2": {
+  "t_old": 1976.6519999999998,
+  "t_new": 1976.552,
+  "heard": "On the other hand, the external growth"
+ },
+ "A3.S0.I3": {
+  "t_old": 1993.855,
+  "t_new": 1993.655,
+  "heard": "It is horizontal"
+ },
+ "A3.S0.I4": {
+  "t_old": 2009.6549999999997,
+  "t_new": 2009.3549999999998,
+  "heard": "It is vertical"
+ },
+ "A3.S1.I0": {
+  "t_old": 2024.172,
+  "t_new": 2024.0720000000001,
+  "heard": "The external growth"
+ },
+ "A3.S1.I1": {
+  "t_old": 2034.621,
+  "t_new": 2034.5210000000002,
+  "heard": "We define merger when"
+ },
+ "A3.S1.I2": {
+  "t_old": 2050.84,
+  "t_new": 2050.2400000000002,
+  "heard": "On the other hand, we have"
+ },
+ "A3.S2.I0": {
+  "t_old": 2235.9480000000003,
+  "t_new": 2235.648,
+  "heard": "So multinationals"
+ },
+ "A3.S2.I1": {
+  "t_old": 2246.7760000000003,
+  "t_new": 2246.6760000000004,
+  "heard": "Their headquarters"
+ },
+ "A3.S2.I2": {
+  "t_old": 2259.1030000000005,
+  "t_new": 2263.3030000000003,
+  "heard": "and they are very important"
+ },
+ "A3.S3.I0": {
+  "t_old": 2274.8480000000004,
+  "t_new": 2274.6480000000006,
+  "heard": "In the majority of cases"
+ },
+ "A3.S3.I1": {
+  "t_old": 2285.7480000000005,
+  "t_new": 2291.6480000000006,
+  "heard": "A parent company either"
+ },
+ "A3.S4.I0": {
+  "t_old": 2383.9350000000004,
+  "t_new": 2394.2350000000006,
+  "heard": "First of all because they aim"
+ },
+ "A3.S4.I1": {
+  "t_old": 2393.335,
+  "t_new": 2402.635,
+  "heard": "They also become multinationals in order to avoid barriers t"
+ },
+ "A3.S4.I2": {
+  "t_old": 2403.7420000000006,
+  "t_new": 2413.042000000001,
+  "heard": "They become multinationals to benefit"
+ },
+ "A3.S4.I3": {
+  "t_old": 2425.828,
+  "t_new": 2425.828,
+  "heard": "They become multinationals"
+ },
+ "A3.S4.I4": {
+  "t_old": 2434.628,
+  "t_new": 2435.0280000000002,
+  "heard": "And finally to increase"
+ },
+ "A3.S5.I0": {
+  "t_old": 2559.7616199999993,
+  "t_new": 2559.7616199999993,
+  "heard": ""
+ },
+ "A3.S5.I1": {
+  "t_old": 2551.639,
+  "t_new": 2549.739,
+  "heard": "In addition, multinationals"
+ },
+ "A3.S5.I2": {
+  "t_old": 2566.2781999999997,
+  "t_new": 2566.0782,
+  "heard": "And finally there is the problem of tax avoidance"
+ },
+ "A4.S0.I0": {
+  "t_old": 2772.7309999999998,
+  "t_new": 2772.7309999999998,
+  "heard": "None"
+ },
+ "A4.S0.I1": {
+  "t_old": 2805.2019999999993,
+  "t_new": 2805.2019999999993,
+  "heard": "None"
+ },
+ "A4.S1.I0": {
+  "t_old": 2785.2019999999993,
+  "t_new": 2785.0019999999995,
+  "heard": "The structure of the departments"
+ },
+ "A4.S1.I1": {
+  "t_old": 2802.801999999999,
+  "t_new": 2802.901999999999,
+  "heard": "These graphics"
+ },
+ "A4.S2.I0": {
+  "t_old": 2815.3679999999995,
+  "t_new": 2815.6679999999997,
+  "heard": "In general at the top of the organigram"
+ },
+ "A4.S2.I1": {
+  "t_old": 2829.012999999999,
+  "t_new": 2828.712999999999,
+  "heard": "Below the board"
+ },
+ "A4.S2.I2": {
+  "t_old": 2891.698999999999,
+  "t_new": 2891.698999999999,
+  "heard": "None"
+ },
+ "A4.S3.I0": {
+  "t_old": 3018.579999999999,
+  "t_new": 3018.579999999999,
+  "heard": ""
+ },
+ "A4.S3.I1": {
+  "t_old": 3018.579999999999,
+  "t_new": 3018.579999999999,
+  "heard": ""
+ },
+ "A4.S4.I0": {
+  "t_old": 3018.579999999999,
+  "t_new": 3018.579999999999,
+  "heard": "None"
+ },
+ "A4.S4.I1": {
+  "t_old": 3018.579999999999,
+  "t_new": 3018.579999999999,
+  "heard": ""
+ },
+ "A4.S4.I2": {
+  "t_old": 3018.579999999999,
+  "t_new": 3018.579999999999,
+  "heard": "None"
+ },
+ "A4.S4.I3": {
+  "t_old": 3018.579999999999,
+  "t_new": 3018.579999999999,
+  "heard": "None"
+ },
+ "A5.S0.I0": {
+  "t_old": 3018.579999999999,
+  "t_new": 3018.579999999999,
+  "heard": "So, corporate social responsibility"
+ },
+ "A5.S0.I1": {
+  "t_old": 3032.4749999999995,
+  "t_new": 3032.4749999999995,
+  "heard": "In fact companies nowadays"
+ },
+ "A5.S0.I2": {
+  "t_old": 3050.0749999999994,
+  "t_new": 3049.9749999999995,
+  "heard": "Some companies even go beyond"
+ },
+ "A5.S1.I0": {
+  "t_old": 3067.3749999999995,
+  "t_new": 3067.3749999999995,
+  "heard": "By investing in CSR"
+ },
+ "A5.S1.I1": {
+  "t_old": 3073.8749999999995,
+  "t_new": 3073.8749999999995,
+  "heard": "And this is a win-win strategy"
+ },
+ "A5.S1.I2": {
+  "t_old": 3130.950999999999,
+  "t_new": 3131.350999999999,
+  "heard": "Questo è molto importante oggi perché"
+ },
+ "A5.S2.I0": {
+  "t_old": 3204.2779999999993,
+  "t_new": 3204.2779999999993,
+  "heard": ""
+ },
+ "A5.S2.I1": {
+  "t_old": 3209.2779999999993,
+  "t_new": 3209.2779999999993,
+  "heard": "None"
+ },
+ "A5.S2.I2": {
+  "t_old": 3214.2779999999993,
+  "t_new": 3214.2779999999993,
+  "heard": "None"
+ },
+ "A5.S2.I3": {
+  "t_old": 3216.843999999999,
+  "t_new": 3216.843999999999,
+  "heard": ""
+ },
+ "A5.S3.I0": {
+  "t_old": 3235.843999999999,
+  "t_new": 3235.843999999999,
+  "heard": "None"
+ },
+ "A5.S3.I1": {
+  "t_old": 3256.343999999999,
+  "t_new": 3252.343999999999,
+  "heard": "di migliorare la loro reputazione"
+ },
+ "A5.S3.I2": {
+  "t_old": 3265.843999999999,
+  "t_new": 3265.843999999999,
+  "heard": "None"
+ },
+ "A5.S3.I3": {
+  "t_old": 3273.1979999999994,
+  "t_new": 3273.1979999999994,
+  "heard": "None"
+ }
+}

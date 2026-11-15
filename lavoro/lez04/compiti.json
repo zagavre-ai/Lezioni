@@ -1,0 +1,21 @@
+{
+ "titolo": "Compiti · Inglese AFM · Types of business",
+ "stato": "compiti della prof.ssa Fontanesi (file ENG_Amm_Lez04_Compiti.pdf, release afm-inglese-triennio-lez04), testo invariato; il PDF contiene anche le pagine «Soluzioni»",
+ "compiti": [
+  {
+   "n": 1,
+   "tipo": "vero_falso",
+   "testo": "Circle T (true) or F (false) for each statement: 1. Sole traders have limited liability, meaning they are not personally responsible for company debts. 2. In a cooperative business, decision-making is generally democratic, following the principle of \"one member, one vote\". 3. A franchisee pays the franchisor an initial franchise fee and a management service fee based on annual turnover. 4. Horizontal integration occurs when a business merges with or acquires another company operating at a different stage of the production process. 5. A parent company owns or controls more than 50% of the voting shares in a subsidiary."
+  },
+  {
+   "n": 2,
+   "tipo": "scelta_multipla",
+   "testo": "Choose the correct answer for each question (5 multiple choice questions on partnerships, internal growth, multinationals, the organigram and Corporate Social Responsibility)."
+  },
+  {
+   "n": 3,
+   "tipo": "completamento",
+   "testo": "Complete the sentences using the appropriate terms: Chain of command – Organigram – Dividends – Start-ups – Corporate Social Responsibility."
+  }
+ ]
+}

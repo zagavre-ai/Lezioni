@@ -1,0 +1,227 @@
+[
+ {
+  "nome": "E5_INTRO1",
+  "testo": "Welcome to this lesson on marketing. Today we will look at six topics. First, the concept of marketing. Second, market research. Third, the marketing strategy, called S T P. Fourth, the marketing mix. Fifth, branding and pricing. And sixth, digital marketing. After each topic you will see a concept map and a short quiz. You need at least eighty percent to continue. Let's begin.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E5_RF1",
+  "testo": "Let's review the whole lesson. Marketing puts the customer first. Market research collects the information. The S T P process chooses segments and positions. The marketing mix has four Ps, or seven. Branding builds loyalty, and price communicates quality. And digital marketing reaches customers online. Now it is time for the final test.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E5_FIN1",
+  "testo": "It is time for the final test.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E5_CMP1",
+  "testo": "And now, your homework.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E5_GL0",
+  "testo": "Here are the key words of the lesson, in English and in Italian.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E5_GLa",
+  "testo": "target customer. needs and wants. market research. survey. focus group. quantitative data. qualitative data. segmentation. positioning. marketing mix. unique selling point. brand identity.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E5_GLb",
+  "testo": "own-brand. penetration price. psychological price. loyalty. digital channel. SEO. omnichannel. brand awareness. advertising. distribution channel. physical evidence. customer service.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E5_AN1_0",
+  "testo": "Here is the map of this topic.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E5_AN1_1",
+  "testo": "The old model was product-oriented: good products were enough.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E5_AN1_2",
+  "testo": "Today the model is market-oriented, and the customer comes first.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E5_AN1_3",
+  "testo": "Companies must know the needs and wants of their target customers.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E5_AN1_4",
+  "testo": "The marketing process has four steps: analysis, strategy, mix and control.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E5_AN2_0",
+  "testo": "Now the map of market research.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E5_AN2_1",
+  "testo": "Primary research is done directly with consumers. It is useful, but expensive.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E5_AN2_2",
+  "testo": "Secondary research uses existing sources. It is cheaper, but less precise.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E5_AN2_3",
+  "testo": "Quantitative data are numbers, collected with surveys.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E5_AN2_4",
+  "testo": "Qualitative data are opinions and beliefs, collected in focus groups.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E5_AN3_0",
+  "testo": "This is the map of the STP process.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E5_AN3_1",
+  "testo": "Segmentation divides the market into groups: demographic, geographic, psychographic and behavioural.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E5_AN3_2",
+  "testo": "Targeting means choosing the most attractive segments.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E5_AN3_3",
+  "testo": "Positioning gives the product a unique place, different from competitors.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E5_AN3_4",
+  "testo": "A market map shows positions according to price and quality.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E5_AN4_0",
+  "testo": "Here is the map of the marketing mix.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E5_AN4_1",
+  "testo": "Product: its features and appearance, and its unique selling points.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E5_AN4_2",
+  "testo": "Price: how much customers pay, set with internal and external factors.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E5_AN4_3",
+  "testo": "Promotion: how customers are informed, with advertising and public relations.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E5_AN4_4",
+  "testo": "Place: where products are made available and distributed.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E5_AN4_5",
+  "testo": "The 7Ps add physical evidence, process and people, especially for services.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E5_AN5_0",
+  "testo": "Now the map of branding and pricing.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E5_AN5_1",
+  "testo": "A good brand name is positive and easy to remember.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E5_AN5_2",
+  "testo": "A logo shows the identity and the values of a company.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E5_AN5_3",
+  "testo": "Retailers create own-brand products under their name.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E5_AN5_4",
+  "testo": "There are five types of prices: penetration, psychological, economy, luxury and promotional.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E5_AN6_0",
+  "testo": "This is the map of digital marketing.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E5_AN6_1",
+  "testo": "The main channels are websites and social media marketing.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E5_AN6_2",
+  "testo": "Content marketing and email marketing keep customers interested.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E5_AN6_3",
+  "testo": "SEO helps customers to find products in search engines.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E5_AN6_4",
+  "testo": "The challenges are privacy rules, mobile viewing and omnichannel strategies.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E5_AN7_0",
+  "testo": "And now the map of the whole lesson.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E5_AN7_1",
+  "testo": "The concept of marketing puts the customer first.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E5_AN7_2",
+  "testo": "Market research collects primary and secondary data.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E5_AN7_3",
+  "testo": "The STP process chooses the segments and the position.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E5_AN7_4",
+  "testo": "The marketing mix has four Ps, or seven.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E5_AN7_5",
+  "testo": "Branding builds loyalty, and pricing communicates quality.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E5_AN7_6",
+  "testo": "Digital marketing reaches customers on their favourite platforms.",
+  "lingua": "en"
+ }
+]
