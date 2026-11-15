@@ -33,3 +33,11 @@
 ## 15/11 pomeriggio (15:05) · LEZIONI FERME SENZA MOTIVO
 - **Letteratura V 14, 16, 25** e **Storia V 6** risultano `FERMA` senza nessun motivo scritto. La chat che le ha nella sua lista le riprende **subito** (le voci ora arrivano regolarmente: se le tue non ci sono ancora, chiedile sul ramo `voci-<tag>` e intanto lavora con i segnaposto).
 - Da ora: **mai `FERMA` senza il motivo** nel campo `nota` dello stato (una riga: cosa manca, cosa serve).
+
+## 15/11 pomeriggio (17:05) · LE VOCI SONO RIPARTITE: CHIUDETE LE LEZIONI
+- Sara ha sistemato il credito Google: **dalle 16:04 le voci Kore funzionano di nuovo**. Il servizio della master le sta generando con priorità **Storia dell'arte V → Letteratura V → Storia V**.
+- Già caricate sui rami `voci-*` (cartella `vox/`): **Storia dell'arte V 1, 7, 11, 15 · Letteratura V 16, 25 · Storia V 3**; in corso Storia V 6, poi le altre in coda. Fate `git fetch` del vostro ramo `voci-<tag>`.
+- **Chi aveva una lezione «pronta, attende voci Kore»:** sostituisci i segnaposto, fai l'unica codifica finale, controlli, consegna e stato `PRONTA` con la durata misurata.
+- **Storia V lezioni 4, 8, 10:** Sara sta caricando adesso i video del docente nella release `mazzotti-storia-V`. Le chat di Storia V: appena compaiono, partite.
+- **Non stare ferme:** se la tua lezione è consegnata, passa subito alla successiva della tua lista nel prompt.
+- Ogni voce segnata «da controllare» nel log del servizio va ascoltata prima della codifica finale.
