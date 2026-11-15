@@ -1,20 +1,10 @@
-S6 DA CONTROLLARE frasi trovate 5 / 5 parole diverse 10 (vere 6) tentativi 5
-INTRO1 OK frasi trovate 1 / 1 parole diverse 2 (vere 1) tentativi 1
-AN1 OK frasi trovate 8 / 8 parole diverse 15 (vere 8) tentativi 1
-AN2 OK frasi trovate 8 / 8 parole diverse 5 (vere 5) tentativi 1
-AN3 OK frasi trovate 8 / 8 parole diverse 6 (vere 5) tentativi 1
-AN4 OK frasi trovate 9 / 9 parole diverse 14 (vere 11) tentativi 1
-AN5 OK frasi trovate 9 / 9 parole diverse 4 (vere 5) tentativi 1
-AN6 OK frasi trovate 8 / 8 parole diverse 3 (vere 1) tentativi 1
-AN7 OK frasi trovate 9 / 9 parole diverse 2 (vere 2) tentativi 1
-AN8 OK frasi trovate 10 / 10 parole diverse 3 (vere 3) tentativi 1
-AN9 OK frasi trovate 10 / 10 parole diverse 12 (vere 11) tentativi 1
-AN10 OK frasi trovate 9 / 9 parole diverse 2 (vere 2) tentativi 1
-AN11 OK frasi trovate 9 / 9 parole diverse 13 (vere 7) tentativi 1
-AN12 OK frasi trovate 9 / 9 parole diverse 8 (vere 9) tentativi 1
-AN13 OK frasi trovate 8 / 8 parole diverse 7 (vere 7) tentativi 1
-AN14 OK frasi trovate 10 / 10 parole diverse 12 (vere 13) tentativi 1
-AN15 OK frasi trovate 9 / 9 parole diverse 10 (vere 10) tentativi 1
-AN16 OK frasi trovate 9 / 9 parole diverse 8 (vere 6) tentativi 1
-TLF OK frasi trovate 10 / 10 parole diverse 20 (vere 5) tentativi 1
-GL2 DA CONTROLLARE frasi trovate 8 / 8 parole diverse 16 (vere 13) tentativi 5
+CM1 OK frasi trovate 4 / 4 parole diverse 2 (vere 2) tentativi 1
+CM2 OK frasi trovate 5 / 5 parole diverse 6 (vere 3) tentativi 1
+CM3 OK frasi trovate 5 / 5 parole diverse 2 (vere 2) tentativi 1
+CM4 OK frasi trovate 5 / 5 parole diverse 5 (vere 5) tentativi 1
+CM5 OK frasi trovate 6 / 6 parole diverse 3 (vere 2) tentativi 1
+CM6 DA CONTROLLARE frasi trovate 6 / 6 parole diverse 7 (vere 6) tentativi 1
+CM7 DA CONTROLLARE frasi trovate 6 / 6 parole diverse 5 (vere 8) tentativi 1
+CM8 DA CONTROLLARE frasi trovate 5 / 5 parole diverse 6 (vere 5) tentativi 1
+CMF1 DA CONTROLLARE frasi trovate 5 / 5 parole diverse 8 (vere 8) tentativi 1
+CMF2 DA CONTROLLARE frasi trovate 7 / 7 parole diverse 11 (vere 12) tentativi 1
