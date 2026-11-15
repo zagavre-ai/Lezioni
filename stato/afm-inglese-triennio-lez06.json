@@ -1,0 +1,26 @@
+{
+ "tag": "afm-inglese-triennio-lez06",
+ "parti": {
+  "1": {
+   "stato": "FERMA"
+  }
+ },
+ "manca": "video, dispensa e compiti",
+ "serve_master": [
+  {
+   "quando": "16/11 00:33",
+   "testo": "Lezione 6: servono nella release inglese-afm-triennio Videolezione.mp4, Dispensa.pdf e Compiti.pdf (gli zip 001 e 002 non ci sono)."
+  }
+ ],
+ "domande_sara": [],
+ "note": [
+  {
+   "quando": "16/11 00:33",
+   "testo": "16/11: presa dalla chat della master (E1). FERMA perché nella release inglese-afm-triennio (zip 003 e 004) della lezione 6 c'è solo ENG_Amministrazione_Lez06_Verifica.xlsx: mancano ENG_Amministrazione_Lez06_Videolezione.mp4, la Dispensa e i Compiti. Passo alla 7; riprendo la 6 appena compaiono i file."
+  }
+ ],
+ "materia": "Inglese AFM",
+ "lezione": "Lezione 6",
+ "docente": "Prof.ssa Maria Vittoria Fontanesi",
+ "aggiornato": "2026-11-16 00:33:49"
+}
