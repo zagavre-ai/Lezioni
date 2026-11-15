@@ -5,14 +5,18 @@
    "stato": "IN_MONTAGGIO"
   }
  },
- "manca": "",
+ "manca": "montaggio 1080p con mappe e compiti; voci nuove M1-M6, MF, CI richieste alla master (nomi nuovi)",
  "serve_master": [],
  "domande_sara": [],
  "note": [
   {
    "quando": "15/11 10:19",
    "testo": "Storia dell'arte V · chat A1: presa in carico, rifacimento con regole 15/11 (1080p, mappe, compiti)"
+  },
+  {
+   "quando": "15/11 10:34",
+   "testo": "materiali scaricati, trascrizione fatta, mappe e quiz pronti; attende voci Kore per mappe/compiti (segnaposto intanto)"
   }
  ],
- "aggiornato": "2026-11-15 10:19:27"
+ "aggiornato": "2026-11-15 10:34:25"
 }
