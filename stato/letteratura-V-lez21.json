@@ -2,7 +2,7 @@
  "tag": "letteratura-V-lez21",
  "parti": {
   "1": {
-   "stato": "FERMA",
+   "stato": "IN_MONTAGGIO",
    "titolo": "Cesare Pavese",
    "voci": "kore",
    "quiz_ok": "si",
@@ -410,10 +410,14 @@
   {
    "quando": "14/11 22:45",
    "testo": "Letteratura V · chat R5: presa, v2 con approfondimenti animati. Testi voci AN inviati su voci-letteratura-V-lez21, in attesa delle voci Kore; montaggio pronto con segnaposto."
+  },
+  {
+   "quando": "15/11 02:33",
+   "testo": "chat R5: pronta, attende voci Kore (animazioni, mappe, compiti, sottotitoli, dispensa in lavorazione con segnaposto)"
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 21",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-15 00:16:42"
+ "aggiornato": "2026-11-15 02:33:48"
 }
