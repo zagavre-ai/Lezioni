@@ -18,6 +18,10 @@
   {
    "quando": "14/11 14:33",
    "testo": "SECONDA richiesta di voci per la lezione 13 (34 nomi nuovi, circa 22.700 caratteri, 25 min): è arrivato il quarto file del video (13-4, 30:12) con 3 argomenti nuovi; la lezione diventa di 3 Parti (docente 34 + 36 + 39 min). Le 37 voci già generate restano in uso quasi tutte; dettagli in scambio/storia-V-lez13/RICHIESTA_2.txt. Quiz definitivo 11x5 in quiz.json."
+  },
+  {
+   "quando": "14/11 16:04",
+   "testo": "Promemoria (16:05): non sono ancora arrivate le voci Kore della seconda richiesta lez13 (34 nomi, 14:33), della lez03 (53, 15:13) e della lez12 (52, 15:49). Ordine di priorità: 13 (serve mercoledì), poi 3 (giovedì), poi 12. Tutto il resto è pronto: appena arrivano, monto."
   }
  ],
  "domande_sara": [],
@@ -38,5 +42,5 @@
  "materia": "Storia V",
  "lezione": "Lezione 13 · La seconda guerra mondiale",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 14:33:11"
+ "aggiornato": "2026-11-14 16:04:51"
 }
