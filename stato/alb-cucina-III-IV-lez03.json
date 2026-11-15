@@ -379,8 +379,379 @@
   },
   "2": {
    "titolo": "Pasticceria · Parte 2",
-   "stato": "FERMA",
-   "voci": "segnaposto"
+   "stato": "PRONTA",
+   "voci": "kore",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "si",
+   "video": "Cucina_Lez3_Parte2_1080p.mp4",
+   "durata_s": 3158.9,
+   "durata": "52:38.9",
+   "fotogrammi": 94768,
+   "fotogrammi_attesi": 94768,
+   "peso_MB": 203.8,
+   "vtt": "Cucina_Lez3_Parte2.vtt",
+   "scheda": {
+    "materia": "Laboratori dei servizi enogastronomici – settore cucina",
+    "titolo": "Pasticceria · Parte 2",
+    "durata_s": 3158.93,
+    "argomenti": [
+     {
+      "n": 6,
+      "titolo": "Le conserve di frutta",
+      "inizio_s": 97.3,
+      "quiz_s": 635.632
+     },
+     {
+      "n": 7,
+      "titolo": "Il cioccolato",
+      "inizio_s": 640.932,
+      "quiz_s": 1374.998
+     },
+     {
+      "n": 8,
+      "titolo": "Il gelato",
+      "inizio_s": 1380.298,
+      "quiz_s": 1908.031
+     },
+     {
+      "n": 9,
+      "titolo": "Il pane e le farine",
+      "inizio_s": 1913.331,
+      "quiz_s": 2666.298
+     },
+     {
+      "n": 10,
+      "titolo": "Il commercio equo e solidale",
+      "inizio_s": 2671.598,
+      "quiz_s": 2948.731
+     }
+    ],
+    "quiz": {
+     "Q6": {
+      "title": "Quiz 6 · Le conserve di frutta",
+      "items": [
+       {
+        "p": "Quanta frutta deve contenere almeno una confettura extra?",
+        "a": "Più del 45%",
+        "w": [
+         "Più del 35%",
+         "Almeno il 20%",
+         "Più del 65%"
+        ],
+        "ref": "Le confetture extra richiedono un contenuto di frutta superiore al 45%; le confetture semplici superiore al 35%."
+       },
+       {
+        "p": "Con quale frutta si producono le marmellate?",
+        "a": "Esclusivamente con agrumi",
+        "w": [
+         "Con qualsiasi tipo di frutta",
+         "Solo con mele e cotogne",
+         "Solo con frutti di bosco"
+        ],
+        "ref": "Le marmellate sono prodotte esclusivamente con agrumi e devono contenere almeno il 20% di frutta."
+       },
+       {
+        "p": "Quale funzione hanno le pectine nelle conserve?",
+        "a": "Permettono la gelificazione del composto",
+        "w": [
+         "Addolciscono la frutta",
+         "Danno il colore alla conserva",
+         "Impediscono la pastorizzazione"
+        ],
+        "ref": "Gli addensanti, in particolare le pectine presenti in frutti come mele e cotogne, permettono la gelificazione del composto."
+       },
+       {
+        "p": "Quanti gradi Brix dovrebbe raggiungere una conserva ottimale?",
+        "a": "65 °Bx",
+        "w": [
+         "35 °Bx",
+         "45 °Bx",
+         "105 °Bx"
+        ],
+        "ref": "Una conserva ottimale dovrebbe raggiungere i 65 °Bx, misurati con il rifrattometro ottico."
+       },
+       {
+        "p": "Che cos'è la frutta sciroppata?",
+        "a": "Frutta cotta brevemente e conservata in uno sciroppo di zucchero",
+        "w": [
+         "Frutta essiccata al sole",
+         "Succo di frutta gelificato",
+         "Frutta con meno del 13% di zucchero"
+        ],
+        "ref": "La frutta sciroppata è frutta intera o tagliata, cotta brevemente e conservata in uno sciroppo di zucchero."
+       }
+      ]
+     },
+     "Q7": {
+      "title": "Quiz 7 · Il cioccolato",
+      "items": [
+       {
+        "p": "Quale varietà di cacao è la più diffusa al mondo, dal gusto forte e amaro?",
+        "a": "Il forastero",
+        "w": [
+         "Il criollo",
+         "Il trinitario",
+         "Il gianduia"
+        ],
+        "ref": "Il forastero è la specie più diffusa al mondo, con un gusto forte e amaro, coltivata in Africa e Brasile."
+       },
+       {
+        "p": "A quale temperatura fonde il burro di cacao?",
+        "a": "+32 °C",
+        "w": [
+         "+22 °C",
+         "+45 °C",
+         "+60 °C"
+        ],
+        "ref": "Il burro di cacao è un grasso bianco-giallastro estratto dai semi che fonde a +32 °C."
+       },
+       {
+        "p": "Perché il cioccolato bianco non è considerato un vero cioccolato?",
+        "a": "Perché non contiene pasta di cacao",
+        "w": [
+         "Perché non contiene burro di cacao",
+         "Perché contiene troppo zucchero",
+         "Perché non viene temperato"
+        ],
+        "ref": "Nel cioccolato bianco non è presente la pasta di cacao, quindi non è considerato un vero cioccolato."
+       },
+       {
+        "p": "In quali condizioni ambientali si deve eseguire il temperaggio?",
+        "a": "Locale asciutto, circa 60% di umidità e circa +22 °C",
+        "w": [
+         "Locale umido, circa 90% di umidità e +30 °C",
+         "Cella frigorifera a +4 °C",
+         "Qualsiasi ambiente, non conta"
+        ],
+        "ref": "Per il temperaggio serve un locale asciutto con circa il 60% di umidità relativa e una temperatura di circa +22 °C."
+       },
+       {
+        "p": "Quale varietà di cacao è un ibrido tra criollo e forastero?",
+        "a": "Il trinitario",
+        "w": [
+         "Il gianduia",
+         "Il bianco",
+         "Il fondente"
+        ],
+        "ref": "Il trinitario è un ibrido tra le due specie precedenti, molto comune lungo la fascia equatoriale."
+       }
+      ]
+     },
+     "Q8": {
+      "title": "Quiz 8 · Il gelato",
+      "items": [
+       {
+        "p": "Nel gelato artigianale, quanta aria si incorpora al massimo?",
+        "a": "Non più del 35%",
+        "w": [
+         "Almeno il 70%",
+         "Circa il 50%",
+         "Non si incorpora aria"
+        ],
+        "ref": "Nel gelato artigianale l'insufflazione d'aria naturale non supera il 35%; nel prodotto industriale è minimo del 70%."
+       },
+       {
+        "p": "Che cosa sono i sorbetti?",
+        "a": "Gelati senza latte, fatti con frutta, zuccheri e acqua",
+        "w": [
+         "Gelati con tuorli d'uovo, detti a base gialla",
+         "Gelati con bevande di soia o riso",
+         "Granite con più frutta che acqua"
+        ],
+        "ref": "I sorbetti o gelati all'acqua sono realizzati senza latte, utilizzando solo frutta, zuccheri e acqua."
+       },
+       {
+        "p": "A quale temperatura avviene la pastorizzazione della miscela del gelato?",
+        "a": "Tra +65 °C e +85 °C",
+        "w": [
+         "Tra +5 °C e +12 °C",
+         "Tra −12 °C e −15 °C",
+         "Oltre +120 °C"
+        ],
+        "ref": "Il ciclo produttivo prevede la pastorizzazione a temperature tra +65 °C e +85 °C e poi il raffreddamento rapido a +5 °C."
+       },
+       {
+        "p": "Quale innovazione solidifica istantaneamente la miscela davanti al cliente?",
+        "a": "L'azoto liquido",
+        "w": [
+         "Il Pacojet",
+         "La tecnica thailandese su piastra",
+         "Il rifrattometro"
+        ],
+        "ref": "L'azoto liquido, a −195,82 °C, solidifica istantaneamente la miscela trasformandola in crema davanti al cliente."
+       },
+       {
+        "p": "Quanto dura la maturazione controllata della miscela del gelato?",
+        "a": "Circa 12 ore",
+        "w": [
+         "Circa 5 minuti",
+         "Circa 3 giorni",
+         "Circa un mese"
+        ],
+        "ref": "Il ciclo produttivo prevede la maturazione controllata per circa 12 ore."
+       }
+      ]
+     },
+     "Q9": {
+      "title": "Quiz 9 · Il pane e le farine",
+      "items": [
+       {
+        "p": "Che cosa indica la forza (W) di una farina?",
+        "a": "La capacità di resistere alla lievitazione grazie al glutine",
+        "w": [
+         "La quantità di fibre presenti",
+         "Il grado di macinazione del chicco",
+         "Il contenuto di zuccheri"
+        ],
+        "ref": "La forza (W) è la capacità della farina di resistere alla lievitazione grazie al glutine."
+       },
+       {
+        "p": "Quali farine si usano per grandi lievitati come panettone e pandoro?",
+        "a": "Farine molto forti (W oltre 350)",
+        "w": [
+         "Farine deboli (W 130-170)",
+         "Farine medie (W 170-240)",
+         "Farine senza glutine"
+        ],
+        "ref": "Le farine molto forti (W >350) sono impiegate per grandi lievitati come panettone e pandoro."
+       },
+       {
+        "p": "Quale farina senza glutine è uno pseudocereale?",
+        "a": "Grano saraceno",
+        "w": [
+         "Mais",
+         "Riso",
+         "Ceci"
+        ],
+        "ref": "Le farine di pseudocereali sono grano saraceno, amaranto e quinoa."
+       },
+       {
+        "p": "Qual è il rapporto tra farina e acqua nel poolish?",
+        "a": "1:1",
+        "w": [
+         "2:1",
+         "1:2",
+         "3:1"
+        ],
+        "ref": "Per il pane comune si usa la biga (rapporto 2:1 tra farina e acqua) o il poolish (rapporto 1:1)."
+       },
+       {
+        "p": "Da quali proteine è formato il glutine?",
+        "a": "Gliadina e glutenina",
+        "w": [
+         "Collagene ed elastina",
+         "Caseina e albumina",
+         "Pectina e amido"
+        ],
+        "ref": "Il glutine è il complesso proteico formato da gliadina e glutenina."
+       }
+      ]
+     },
+     "Q10": {
+      "title": "Quiz 10 · Il commercio equo e solidale",
+      "items": [
+       {
+        "p": "Qual è lo scopo del commercio equo e solidale?",
+        "a": "Limitare gli intermediari tra chi produce e chi acquista",
+        "w": [
+         "Massimizzare il profitto dei grandi distributori",
+         "Vendere solo prodotti di lusso",
+         "Eliminare i piccoli produttori locali"
+        ],
+        "ref": "Il commercio equo e solidale nasce con lo scopo di limitare i soggetti intermediari tra chi produce e chi acquista."
+       },
+       {
+        "p": "Chi viene aiutato dal commercio equo e solidale?",
+        "a": "Piccoli produttori agricoli e artigiani di paesi in via di sviluppo",
+        "w": [
+         "Le grandi industrie alimentari",
+         "I supermercati della grande distribuzione",
+         "Solo i produttori europei"
+        ],
+        "ref": "Questa iniziativa favorisce lo sviluppo economico di piccoli produttori agricoli e artigiani di paesi in via di sviluppo."
+       },
+       {
+        "p": "Quale di queste è una regola del commercio equo e solidale?",
+        "a": "Garantire prezzi minimi d'acquisto e rapporti commerciali lunghi",
+        "w": [
+         "Cambiare fornitore a ogni stagione",
+         "Pagare il prezzo più basso possibile",
+         "Allungare la filiera con più intermediari"
+        ],
+        "ref": "Le regole includono garantire prezzi minimi d'acquisto e mantenere rapporti commerciali per periodi lunghi."
+       },
+       {
+        "p": "Quale di questi è un prodotto fair trade tra le materie prime classiche?",
+        "a": "Il cacao",
+        "w": [
+         "Il burro",
+         "Il latte fresco",
+         "La farina 00"
+        ],
+        "ref": "Tra le materie prime classiche fair trade ci sono caffè, tè, cacao, zucchero e miele."
+       },
+       {
+        "p": "Quali frutti esotici sono prodotti fair trade?",
+        "a": "Ananas, banane e cocco",
+        "w": [
+         "Mele, pere e prugne",
+         "Ciliegie e fragole",
+         "Limoni e arance di Sicilia"
+        ],
+        "ref": "I prodotti fair trade comprendono frutta esotica come ananas, banane e cocco."
+       }
+      ]
+     }
+    }
+   },
+   "timeline": [
+    [
+     "T6",
+     97.3,
+     3.6
+    ],
+    [
+     "T7",
+     640.932,
+     3.6
+    ],
+    [
+     "T8",
+     1380.298,
+     3.6
+    ],
+    [
+     "T9",
+     1913.331,
+     3.6
+    ],
+    [
+     "T10",
+     2671.598,
+     3.6
+    ],
+    [
+     "Q10",
+     2948.731,
+     4.0
+    ],
+    [
+     "GL2",
+     2954.031,
+     77.5
+    ],
+    [
+     "RF2",
+     3033.131,
+     88.9
+    ],
+    [
+     "FIN2",
+     3123.431,
+     8.0
+    ]
+   ]
   }
  },
  "manca": "nulla: Parte pronta, consegnata su git",
@@ -423,9 +794,13 @@
   {
    "quando": "15/11 08:06",
    "testo": "Parte pronta e consegnata su git (ramo consegna-alb-cucina-III-IV-lez03), 1080p, voci Kore: t_verifica=3351.0 s, t_compiti=3370.6 s. Cerchio della docente pulito (anello giallo), sincronia slide/voce con tempi parola per parola (5 scarti misurati nel LEGGIMI del ramo), sottotitoli riallineati sulla voce."
+  },
+  {
+   "quando": "15/11 08:06",
+   "testo": "Parte pronta e consegnata su git (ramo consegna-alb-cucina-III-IV-lez03), 1080p, voci Kore: t_verifica=3133.0 s, t_compiti=3152.6 s. Cerchio della docente pulito (anello giallo), sincronia slide/voce con tempi parola per parola (5 scarti misurati nel LEGGIMI del ramo), sottotitoli riallineati sulla voce."
   }
  ],
  "materia": "Laboratori dei servizi enogastronomici – settore cucina",
  "lezione": "Pasticceria",
- "aggiornato": "2026-11-15 08:06:15"
+ "aggiornato": "2026-11-15 08:06:17"
 }
