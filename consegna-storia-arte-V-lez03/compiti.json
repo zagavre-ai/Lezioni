@@ -1,0 +1,23 @@
+{
+ "materia": "Storia dell'arte",
+ "titolo": "Il Realismo",
+ "docente": "Prof. Giorgio Mazzotti",
+ "consegne": [
+  {
+   "n": 1,
+   "testo": "In quale contesto storico si afferma il Realismo tra il 1830 e il 1880, quali sono i suoi obiettivi principali rispetto all'idealizzazione romantica e quali nuovi soggetti entrano al centro della rappresentazione artistica e letteraria?"
+  },
+  {
+   "n": 2,
+   "testo": "Quali innovazioni introducono l'architettura del ferro e del vetro (come il Crystal Palace di Joseph Paxton) e l'architettura dell'Eclettismo (come il Teatro dell'Opéra di Charles Garnier), e quali trasformazioni urbanistiche e politiche caratterizzano il piano di Haussmann a Parigi e il rinnovamento delle città italiane nell'Ottocento?"
+  },
+  {
+   "n": 3,
+   "testo": "Quali sono le caratteristiche della pittura en plein air della Scuola di Barbizon e in che modo Jean-François Millet, Gustave Courbet e Honoré Daumier interpretano la realtà contadina, il lavoro e la denuncia sociale attraverso le loro opere?"
+  },
+  {
+   "n": 4,
+   "testo": "Che cosa si intende per tecnica della \"macchia\" elaborata dal gruppo dei Macchiaioli in Toscana e quali sono i temi e le opere principali dei suoi maggiori protagonisti, come Giovanni Fattori, Silvestro Lega e Telemaco Signorini?"
+  }
+ ]
+}
