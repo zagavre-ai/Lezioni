@@ -2,53 +2,53 @@
  "tag": "letteratura-V-lez12",
  "parti": {
   "1": {
-   "stato": "IN_MONTAGGIO",
+   "stato": "PRONTA",
    "voci": "kore",
    "titolo": "Narrativa e saggistica del primo Novecento",
    "quiz_ok": "si",
    "fermi_ok": "si",
    "sub_ok": "si",
    "video": "Letteratura_Lez12_Parte1_1080p.mp4",
-   "durata_s": 1701.6,
-   "durata": "28:21.6",
-   "fotogrammi": 51048,
-   "fotogrammi_attesi": 51048,
-   "peso_MB": 128.0,
+   "durata_s": 3403.5,
+   "durata": "56:43.5",
+   "fotogrammi": 102104,
+   "fotogrammi_attesi": 102104,
+   "peso_MB": 187.3,
    "vtt": "Letteratura_Lez12_Parte1.vtt",
    "scheda": {
     "materia": "Letteratura italiana (V)",
     "titolo": "Narrativa e saggistica del primo Novecento · Parte 1",
-    "durata_s": 1701.6,
+    "durata_s": 3403.47,
     "argomenti": [
      {
       "n": 1,
       "titolo": "La crisi delle certezze",
       "inizio_s": 143.233,
-      "quiz_s": 344.5
+      "quiz_s": 613.133
      },
      {
       "n": 2,
       "titolo": "Il romanzo del primo Novecento",
-      "inizio_s": 349.8,
-      "quiz_s": 549.733
+      "inizio_s": 618.433,
+      "quiz_s": 1118.266
      },
      {
       "n": 3,
       "titolo": "Marcel Proust e la memoria",
-      "inizio_s": 555.033,
-      "quiz_s": 773.2
+      "inizio_s": 1123.566,
+      "quiz_s": 1654.867
      },
      {
       "n": 4,
       "titolo": "Franz Kafka e l'assurdo",
-      "inizio_s": 778.5,
-      "quiz_s": 1161.899
+      "inizio_s": 1660.167,
+      "quiz_s": 2395.399
      },
      {
       "n": 5,
       "titolo": "Virginia Woolf",
-      "inizio_s": 1167.199,
-      "quiz_s": 1546.366
+      "inizio_s": 2400.699,
+      "quiz_s": 3175.099
      }
     ],
     "quiz": {
@@ -327,7 +327,9 @@
        }
       ]
      }
-    }
+    },
+    "t_verifica": 3378.633,
+    "t_compiti": 3396.933
    },
    "timeline": [
     [
@@ -337,42 +339,42 @@
     ],
     [
      "Q1",
-     344.5,
+     613.133,
      4.0
     ],
     [
      "T2",
-     349.8,
+     618.433,
      3.6
     ],
     [
      "T3",
-     555.033,
+     1123.566,
      3.6
     ],
     [
      "T4",
-     778.5,
+     1660.167,
      3.6
     ],
     [
      "T5",
-     1167.199,
+     2400.699,
      3.6
     ],
     [
      "GL1",
-     1551.666,
+     3180.399,
      58.367
     ],
     [
      "RF1",
-     1611.633,
+     3313.266,
      54.367
     ],
     [
      "FIN1",
-     1667.4,
+     3369.033,
      8.0
     ]
    ]
@@ -435,10 +437,14 @@
   {
    "quando": "15/11 02:36",
    "testo": "R2: pronta, attende voci Kore (quota Google fino alle 09:00 IT). Pronti: tagli video, mappe, dispensa, compiti.json; controllo vox/ ogni 30 min"
+  },
+  {
+   "quando": "15/11 12:56",
+   "testo": "R2: PRONTA v2 con approfondimenti animati: durata misurata 56:43,5, 102104 fotogrammi, 187,3 MB; scatto quiz OK (+0,02 s), fermi nessuno, -16,1 LUFS. 26 AN + mappa finale con voci Kore, tempi agganciati alle pause della voce. ATTENZIONE sottotitoli: controllo_finale ufficiale = 64% (soglia 80%) ma la misura e' fragile; verifica mia: cue del docente identici all'originale spostati esattamente (correlazione audio +0,02 s), cue delle animazioni agganciati all'attacco della voce (mediana 0,01 s). Voce AN10: Kore ha saltato 'Il professore dice che Proust incarna magistralmente' (rigenerazione richiesta alla master). compiti.json e dispensa con mappe nel ramo consegna-letteratura-V-lez12."
   }
  ],
  "materia": "Letteratura italiana · V anno",
  "lezione": "Lezione 12",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-15 11:53:01"
+ "aggiornato": "2026-11-15 12:56:07"
 }
