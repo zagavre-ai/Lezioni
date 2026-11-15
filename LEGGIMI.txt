@@ -1,0 +1,23 @@
+CONSEGNA alb-cucina-III-IV-lez02 · video 1080p, voci Kore
+
+--- Parte 1 ---
+Controllo sincronia slide/voce · Cucina_Prodotti_ittici_Parte1_VIDEO.mp4 · 58 frasi verificabili su 227
+unità 8 · riga accesa a 130.15 s · detta a 130.48 s · scarto -0.33 s · «pesci di acqua dolce;»
+unità 22 · riga accesa a 347.68 s · detta a 348.00 s · scarto -0.32 s · «I molluschi sono organismi generalmente caratterizzati dalla»
+unità 49 · riga accesa a 1031.89 s · detta a 1032.24 s · scarto -0.35 s · «Il pagello e il pagro hanno carni magre e bianche versatili »
+unità 54 · riga accesa a 1117.59 s · detta a 1117.84 s · scarto -0.25 s · «La razza è un pesce cartilagineo di cui si consumano le pinn»
+unità 91 · riga accesa a 2003.68 s · detta a 2003.92 s · scarto -0.24 s · «In commercio si trovano anche dei succedanei prodotti con uo»
+tutte le frasi: scarto medio 0.50 s, massimo 7.49 s, oltre 1,5 s: 2
+ESITO: OK
+
+--- Parte 2 ---
+Controllo sincronia slide/voce · Cucina_Prodotti_ittici_Parte2_VIDEO.mp4 · 49 frasi verificabili su 227
+unità 136 · riga accesa a 424.04 s · detta a 424.40 s · scarto -0.36 s · «odore: deve essere delicato e gradevole, di acqua di mare;»
+unità 146 · riga accesa a 481.63 s · detta a 481.52 s · scarto +0.11 s · «I molluschi gasteropodi devono essere vivi e vitali, mentre »
+unità 182 · riga accesa a 1380.44 s · detta a 1380.72 s · scarto -0.28 s · «Una volta ottenuti i filetti, si pareggiano i bordi, si aspo»
+unità 195 · riga accesa a 1638.90 s · detta a 1639.20 s · scarto -0.30 s · «Per trattare una sogliola, l'operazione ha inizio con la rim»
+unità 225 · riga accesa a 2479.66 s · detta a 2480.08 s · scarto -0.41 s · «Il pesce viene immerso in acqua naturale o aromatizzata con »
+tutte le frasi: scarto medio 0.41 s, massimo 4.71 s, oltre 1,5 s: 1
+ESITO: OK
+
+Ricomporre: cat Cucina_LezN_ParteP_1080p.mp4.parte_* > Cucina_LezN_ParteP_1080p.mp4 e verificare con sha256sum -c.
