@@ -2,7 +2,7 @@
  "tag": "letteratura-V-lez23",
  "parti": {
   "1": {
-   "stato": "FERMA",
+   "stato": "IN_MONTAGGIO",
    "voci": "kore",
    "titolo": "Primo Levi",
    "quiz_ok": "si",
@@ -344,10 +344,14 @@
   {
    "quando": "14/11 22:26",
    "testo": "R2: testi voci AN1-AN22+ANF inviati alla master (ramo voci-letteratura-V-lez23); intanto monto con segnaposto"
+  },
+  {
+   "quando": "15/11 02:36",
+   "testo": "R2: pronta, attende voci Kore (quota Google fino alle 09:00 IT). Pronti: tagli video, mappe, dispensa, compiti.json; controllo vox/ ogni 30 min"
   }
  ],
  "materia": "Letteratura italiana · V anno",
  "lezione": "Lezione 23",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 23:37:38"
+ "aggiornato": "2026-11-15 02:36:09"
 }
