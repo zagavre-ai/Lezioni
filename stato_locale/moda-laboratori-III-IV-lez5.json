@@ -1,0 +1,34 @@
+{
+ "tag": "moda-laboratori-III-IV-lez5",
+ "parti": {
+  "1": {
+   "titolo": "Industrializzazione",
+   "stato": "FERMA"
+  }
+ },
+ "manca": "COMPITI_MANCANTI",
+ "serve_master": [
+  {
+   "quando": "14/11 22:39",
+   "testo": "Voci Kore moda-laboratori-III-IV-lez5: scambio/moda-laboratori-III-IV-lez5/testi_voci.json sul ramo voci-moda-laboratori-III-IV-lez5."
+  }
+ ],
+ "domande_sara": [],
+ "note": [
+  {
+   "quando": "14/11 22:07",
+   "testo": "In coda dopo lez02"
+  },
+  {
+   "quando": "14/11 22:39",
+   "testo": "Testi voci e quiz inviati sul ramo voci-moda-laboratori-III-IV-lez5 (143 voci)."
+  },
+  {
+   "quando": "15/11 00:43",
+   "testo": "FERMA: pezzi montati con voci segnaposto (stima 73,9 min in una Parte: il docente parla 59 min). Attendo voci Kore dalla master."
+  }
+ ],
+ "materia": "Moda · Laboratori III-IV · chat LAB",
+ "lezione": "Industrializzazione",
+ "aggiornato": "2026-11-15 00:43:39"
+}
