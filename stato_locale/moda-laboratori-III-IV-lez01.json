@@ -3,7 +3,7 @@
  "parti": {
   "1": {
    "titolo": "Modellistica",
-   "stato": "FERMA"
+   "stato": "IN_MONTAGGIO"
   }
  },
  "manca": "COMPITI_MANCANTI",
@@ -15,6 +15,10 @@
   {
    "quando": "14/11 23:45",
    "testo": "URGENTE: servono le voci Kore di lez01, lez02 e lez5 (testi_voci.json nei rispettivi rami voci-<tag>). Tutto il resto è pronto e aspetta."
+  },
+  {
+   "quando": "15/11 02:35",
+   "testo": "DURATA: il docente parla 65 min (lez01), 72 (lez02), 59 (lez5): con mappe e ripassi le Parti escono 78, 44+44, 74 min, fuori da 50-60. Decidi tu: una Parte unica oltre 65 oppure due Parti sotto 50. Compiti del prof assenti dalle release delle tre lezioni."
   }
  ],
  "domande_sara": [],
@@ -30,10 +34,14 @@
   {
    "quando": "14/11 23:45",
    "testo": "FERMA: pezzi montati con voci segnaposto (durata stimata 78 min). Attendo le voci Kore dalla master (richiesta già inviata sul ramo voci-moda-laboratori-III-IV-lez01). Appena arrivano: ricostruzione dei pezzi con voce, codifica finale e controlli. Durata oltre 65 min in una sola Parte: il docente parla per 65 min, le aggiunte (mappe, approfondimenti, ripassi) valgono circa 13 min."
+  },
+  {
+   "quando": "15/11 02:35",
+   "testo": "Pronta, attende voci Kore. Montata con segnaposto. Durata stimata 78 min in una Parte (docente 65 min)."
   }
  ],
  "materia": "Moda · Laboratori III-IV · chat LAB",
  "lezione": "Modellistica",
  "docente": "Prof.ssa Piera Caputi",
- "aggiornato": "2026-11-14 23:45:03"
+ "aggiornato": "2026-11-15 02:35:02"
 }
