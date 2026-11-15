@@ -44,7 +44,7 @@ with sync_playwright() as p:
 # mappe (solo pdf)
 def mappa_pdf(key):
     tit,rami=dati.MAPPE[key];od=W+key+'/';os.makedirs(od,exist_ok=True)
-    js=dict(materia="Storia",docente="Prof. Giorgio Mazzotti",titolo=tit,rami=[dict(concetto=c,parola=p,esempio=e) for c,p,e,_ in rami])
+    js=dict(materia="Storia",docente="Prof. Giorgio Mazzotti",titolo=tit,rami=[dict(concetto=c,parola=p,esempio=e) for c,p,e,*_ in rami])
     json.dump(js,open(od+'mappa.json','w'),ensure_ascii=False)
     if not os.path.exists(od+'mappa_dispensa.pdf'):subprocess.run(['python3','/home/user/Lezioni/kit/tools/mappa.py',od+'mappa.json','--out',od,'--solo-pdf'],check=True,capture_output=True)
     return od+'mappa_dispensa.pdf'

@@ -20,7 +20,7 @@ def renderer():
     return rend
 def png(name,html_):return renderer().png(html_,PNG+name+'.png')
 # ---------- voci ----------
-def stima(name):return max(8.0,sum(len(s.split()) for s in TJ[name])*0.42)
+def stima(name):return max(8.0,sum(len(s.split()) for s in TJ[name])*0.48)
 def voce(name):
     """audio stereo 48k normalizzato (-16 LUFS), oppure silenzio segnaposto"""
     f=VOX+'/%s.wav'%name;c=AUD+name+'.f32'
@@ -60,7 +60,7 @@ def scene_frames(starts,total_f):
     for i in range(len(starts)):fr.append(max(1,pos[i+1]-pos[i]))
     fr[-1]+=total_f-sum(fr);return fr
 # ---------- pezzi ----------
-TL=[];LISTA=[]
+TL=[];LISTA=[];DOCMAP={}
 def verifica(f,n):
     c=int(sh(['ffprobe','-v','error','-count_packets','-select_streams','v:0','-show_entries','stream=nb_read_packets','-of','csv=p=0',f]).stdout)
     assert c==n,(f,c,n)
@@ -133,16 +133,10 @@ def docente(name,k,t0,t1,intro_title=False):
     """pezzo del docente tra t0 e t1 (s sorgente) con slide sincronizzate"""
     out=PC+name+'.mkv';total=nf(t1-t0)
     if k==0:
-        cards=[("Il periodo: dal 900 al 1100 circa, cioè il X e l'XI secolo","il decimo secolo sia il 900 dopo cristo e l'undicesimo il mille la lezione verterà sul periodo tra il 900 e il 1000"),
-               ("Aspetti politici, amministrativi, economici e sociali","gli aspetti fondamentali politici e amministrativi ma anche economici e sociali"),
-               ("La rinascita del Sacro Romano Impero: «romano» e «sacro»","la rinascita di un impero in Europa dopo la caduta di quello romano d'Occidente Sacro Romano Impero in onore del passato romano e sacro la presenza della Chiesa"),
-               ("Le slide sintetizzano il libro: i punti fondamentali","spiegazione dei contenuti generali ripassare i punti fondamentali il contenuto delle slide il libro trasferito e sintetizzato nelle slide")]
-        kws=["Secoli X e XI","Impero carolingio","Sacro Romano Impero"];tit="Introduzione alla lezione";img=('/home/user/lav/l01/map_p2.png',290,640)
+        D=dati.D0;cards=D['cards'];kws=D['kws'];tit=D['tit'];img=D['img'];tt=D['t_title']
     else:
-        tit,kws,cards=dati.ARG[k];img=None
-        if k==1:img=('/home/user/lav/l01/map_p2.png',290,640)
-        if k==6:img=('/home/user/lav/l01/map_p9.png',290,600)
-    srcs=[c[1] for c in cards];t_ini=t0+(15.0 if k==0 else 0)
+        tit,kws,cards=dati.ARG[k];img=dati.IMG.get(k);tt=0
+    srcs=[c[1] for c in cards];t_ini=t0+tt
     act=sync.attiva(ASR,t_ini,t1,srcs)
     kick="STORIA · "+("INTRODUZIONE" if k==0 else "ARGOMENTO %d"%k)
     if not os.path.exists(out+'.ok'):
@@ -163,32 +157,33 @@ def docente(name,k,t0,t1,intro_title=False):
         sh(['ffmpeg','-y','-v','error','-f','concat','-safe','0','-i',PC+name+'.txt','-ss',str(t0),'-t',str(total/FPS),'-i',src,'-ss',str(t0),'-t',str(total/FPS),'-i',L+'/doc48.wav',
             '-filter_complex',fc,'-map','[v]','-map','2:a']+VENC+AENC+['-frames:v',str(total),out])
         verifica(out,total);open(out+'.ok','w').write('1')
-    add(name,out,total)
+    DOCMAP[name]=[t0,t1];add(name,out,total)
 # ---------- animazione (AN) ----------
 def anim(n):
     name='AN%d'%n;tit=dati.AN_TIT[n]
     sc,x=vox_cards(name,"APPROFONDIMENTO · "+tit.upper(),tit)
     add_still(name,sc,x)
 def ripasso(n):
-    name='R%d'%n;x,ok=voce(name);fr=TJ[name];t=pulisci(fr[0]).replace('Ripassiamo: ','')
+    name='R%d'%n
+    if name not in TJ:return
+    x,ok=voce(name);fr=TJ[name];t=pulisci(fr[0]).replace('Ripassiamo: ','')
     h=page_light("RIPASSO BREVE","Ripassiamo",[t],0,wide=True)
     tot=nf(len(x)/SR+0.3);add_still(name,[(png(name,h),tot)],x)
 def mappa_piece(k,stretta=False):
     name=k;x,ok=voce(k);fr=TJ[k];ts=tempi_frasi(x,fr)
     tit,rami=dati.MAPPE[k]
-    js=dict(materia="Storia",docente="Prof. Giorgio Mazzotti",titolo=tit,rami=[dict(concetto=c,parola=p,esempio=e) for c,p,e,_ in rami])
+    js=dict(materia="Storia",docente="Prof. Giorgio Mazzotti",titolo=tit,rami=[dict(concetto=c,parola=p,esempio=e) for c,p,e,*_ in rami])
     od=PC+k+'_m/';os.makedirs(od,exist_ok=True)
     jf=od+'mappa.json';json.dump(js,open(jf,'w'),ensure_ascii=False)
-    out=PC+k+'.mkv'
-    if not os.path.exists(out+'.ok'):
+    out=PC+k+'.mkv';hold=getattr(dati,'HOLD',(25,40))[1 if k.startswith('CMF') else 0]
+    if not (os.path.exists(out+'.ok') and open(out+'.ok').read().split('|')[1]==str(int(ok))):
         wf=od+'voce.wav';audio_wav(wf,x)
         tm=','.join('%.2f'%t for t in ts[1:1+len(rami)])
         sh(['python3','/home/user/Lezioni/kit/tools/mappa.py',jf,'--out',od,'--voce',wf,'--tempi',tm])
-        # riporta il file a formato pezzo (1080p, 30 fps, audio normalizzato) con durata = voce + 0.6
-        dd=dur(od+'mappa.mp4');tot=nf(dd)
-        sh(['ffmpeg','-y','-v','error','-i',od+'mappa.mp4','-vf','fps=30,scale=1920:1080,format=yuv420p']+VENC+AENC+['-frames:v',str(tot),out]);verifica(out,tot)
-        open(out+'.ok','w').write(str(tot))
-    tot=int(open(out+'.ok').read());add(k,out,tot)
+        dd=dur(od+'mappa.mp4')+hold;tot=nf(dd)
+        sh(['ffmpeg','-y','-v','error','-i',od+'mappa.mp4','-vf','fps=30,scale=1920:1080,format=yuv420p,tpad=stop_mode=clone:stop_duration=%d'%hold,'-af','aresample=48000,apad=pad_dur=%d'%hold]+VENC+AENC+['-frames:v',str(tot),'-t',str(tot/FPS),out]);verifica(out,tot)
+        open(out+'.ok','w').write('%d|%d'%(tot,int(ok)))
+    tot=int(open(out+'.ok').read().split('|')[0]);add(k,out,tot)
 def glossario(name,kick='GLOSSARIO'):
     sc,x=vox_cards(name,kick,"Le parole chiave",prefix_drop=1)
     # la prima frase (introduzione) resta in audio: copri con la prima scena
@@ -215,39 +210,37 @@ def regia():
     Q=json.load(open(L+'/quiz_argomenti.json'));arg=dati.PARTI[PARTE]
     cut=[0.0]+[snap_t(t) for t in dati.TAGLI[1:-1]]+[round(dati.TAGLI[-1]*FPS)/FPS]
     sig_iniziale()
-    if PARTE==1:
-        x,ok=voce('INTRO1');fr=TJ['INTRO1']
-        h=page_light("BENVENUTI","Storia · Prof. Giorgio Mazzotti",[dati.TITOLO_LEZ,"In questa prima parte: frammentazione, feudo, invasioni e castelli, poteri di banno"],0,wide=True)
-        add_still('INTRO1',[(png('INTRO1',h),nf(len(x)/SR+0.4))],x)
-        docente('D0',0,cut[0],cut[1]);anim(1);anim(2)
-    else:
-        x,ok=voce('IN2')
-        h=page_light("BENVENUTI","Bentornati alla seconda parte",["Francia e Italia","Ottone I e il Sacro Romano Impero","La strategia dei vescovi-conti","La fine della dinastia degli Ottoni"],0,wide=True)
-        add_still('IN2',[(png('IN2',h),nf(len(x)/SR+0.4))],x)
-        sc,x2=vox_cards('RFP1',"RIPASSO DELLA PARTE 1","Ricapitoliamo i quattro argomenti",prefix_drop=1);add_still('RFP1',sc,x2)
+    for it in dati.START[PARTE]:
+        if it[0]=='intro':
+            _,vn,kick,tt,cards=it;x,ok=voce(vn)
+            h=page_light(kick,tt,cards,0,wide=True);add_still(vn,[(png(vn,h),nf(len(x)/SR+0.4))],x)
+        elif it[0]=='rip':
+            _,vn,kick,tt=it;sc,x2=vox_cards(vn,kick,tt,prefix_drop=1);add_still(vn,sc,x2)
+        elif it[0]=='d0':
+            docente('D0',0,cut[0],cut[1])
+        elif it[0]=='an':
+            for n in it[1]:anim(n)
     for k in arg:
         t=dati.ARG[k][0];scheda_titolo(k,t)
         docente('D%d'%k,k,cut[k],cut[k+1])
-        for n in sorted(n for n,a in dati.AN_ARG.items() if a==k):anim(n)
+        for n in [n for n,a in dati.AN_ARG.items() if a==k]:anim(n)
         sc,xs=vox_cards('S%d'%k,"ARGOMENTO %d · SCHEMA DI RIPASSO"%k,t,prefix_drop=1);add_still('S%d'%k,sc,xs)
         mappa_piece('CM%d'%k);ripasso(k);scheda_quiz(k,Q['Q%d'%k]['title'])
-    if PARTE==2:
-        sc,x=vox_cards('TLF',"LE DATE DELLA LEZIONE","Rimettiamo in fila le date",prefix_drop=1);add_still('TLF',sc,x)
-    glossario('GL%d'%PARTE)
-    mappa_piece('CMF%d'%PARTE)
-    if PARTE==1:
-        sc,x=vox_cards('RFP1',"RIPASSO FINALE","Ricapitoliamo i quattro argomenti",prefix_drop=1,voce_name='RFP1')
-        add_still('RF1',sc,x)
-        x,ok=voce('FINP1');card_text('FIN1',"FINE DELLA PARTE","Fine della prima parte",["Grazie per l'attenzione: ci vediamo nella seconda parte."],x)
-    else:
-        sc,x=vox_cards('RF1',"RIPASSO FINALE","Ricapitoliamo gli otto argomenti",prefix_drop=1);add_still('RF1',sc,x)
-        x,ok=voce('FIN1');card_text('FIN1',"FINE DELLA LEZIONE","Fine della lezione",["Grazie per l'attenzione, e buono studio."],x)
+    for it in dati.END[PARTE]:
+        if it[0]=='tlf':
+            sc,x=vox_cards(it[1],"LE DATE DELLA LEZIONE","Rimettiamo in fila le date",prefix_drop=1);add_still('TLF',sc,x)
+        elif it[0]=='gl':glossario(it[1])
+        elif it[0]=='cmf':mappa_piece(it[1])
+        elif it[0]=='rf':
+            sc,x=vox_cards(it[1],"RIPASSO FINALE",it[3],prefix_drop=1);add_still(it[2],sc,x)
+        elif it[0]=='fin':
+            x,ok=voce(it[1]);card_text('FIN1',it[2],it[3],[it[4]],x)
     schede_finali('')
     return
 if __name__=='__main__':
     regia()
     # lista concat e timeline
     open(OUT+'lista.txt','w').write(''.join("file '%s'\n"%p for p in LISTA))
-    json.dump(TL,open(OUT+'timeline.json','w'))
+    json.dump(TL,open(OUT+'timeline.json','w'));json.dump(DOCMAP,open(OUT+'docmap.json','w'))
     tot=TL[-1][1]+TL[-1][2];print('DURATA %d:%04.1f'%(tot//60,tot%60),'pezzi',len(LISTA))
     if rend:rend.close()

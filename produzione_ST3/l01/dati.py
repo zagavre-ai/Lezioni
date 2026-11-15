@@ -88,3 +88,13 @@ VOCI_CM={
 }
 DISP={1:[1],2:[2],3:[3],4:[4],5:[5],6:[6,7],7:[9],8:[9]}   # pagine PDF (0-based) del docente per argomento
 MAPPA_LEZ='CMF2'
+D0=dict(tit="Introduzione alla lezione",kws=["Secoli X e XI","Impero carolingio","Sacro Romano Impero"],img=('/home/user/lav/l01/map_p2.png',290,640),t_title=15.0,cards=[
+ ("Il periodo: dal 900 al 1100 circa, cioè il X e l'XI secolo","il decimo secolo sia il 900 dopo cristo e l'undicesimo il mille la lezione verterà sul periodo tra il 900 e il 1000"),
+ ("Aspetti politici, amministrativi, economici e sociali","gli aspetti fondamentali politici e amministrativi ma anche economici e sociali"),
+ ("La rinascita del Sacro Romano Impero: «romano» e «sacro»","la rinascita di un impero in Europa dopo la caduta di quello romano d'Occidente Sacro Romano Impero in onore del passato romano e sacro la presenza della Chiesa"),
+ ("Le slide sintetizzano il libro: i punti fondamentali","spiegazione dei contenuti generali ripassare i punti fondamentali il contenuto delle slide il libro trasferito e sintetizzato nelle slide")])
+IMG={1:('/home/user/lav/l01/map_p2.png',290,640),6:('/home/user/lav/l01/map_p9.png',290,600)}
+START={1:[('intro','INTRO1',"BENVENUTI","Storia · Prof. Giorgio Mazzotti",[TITOLO_LEZ,"In questa prima parte: frammentazione, feudo, invasioni e castelli, poteri di banno"]),('d0',),('an',[1,2])],
+ 2:[('intro','IN2',"BENVENUTI","Bentornati alla seconda parte",["Francia e Italia","Ottone I e il Sacro Romano Impero","La strategia dei vescovi-conti","La fine della dinastia degli Ottoni"]),('rip','RFP1',"RIPASSO DELLA PARTE 1","Ricapitoliamo i quattro argomenti")]}
+END={1:[('gl','GL1'),('cmf','CMF1'),('rf','RFP1','RF1',"Ricapitoliamo i quattro argomenti"),('fin','FINP1',"FINE DELLA PARTE","Fine della prima parte","Grazie per l'attenzione: ci vediamo nella seconda parte.")],
+ 2:[('tlf','TLF'),('gl','GL2'),('cmf','CMF2'),('rf','RF1','RF1',"Ricapitoliamo gli otto argomenti"),('fin','FIN1',"FINE DELLA LEZIONE","Fine della lezione","Grazie per l'attenzione, e buono studio.")]}
