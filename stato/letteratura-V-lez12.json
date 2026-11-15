@@ -387,6 +387,10 @@
   {
    "quando": "14/11 23:07",
    "testo": "R2: aspetto le voci Kore AN* (testi gia' sul ramo voci-letteratura-V-lez12, inviati ~22:25). Tagli del video pronti, monto appena arrivano."
+  },
+  {
+   "quando": "15/11 11:53",
+   "testo": "R2 lez12: nella voce AN10 (ramo voci-letteratura-V-lez12) Kore ha saltato la frase 'Il professore dice che Proust incarna magistralmente' (verificato con Whisper): resta 'La transizione verso il modernismo e' influenzato...'. Se possibile rigenera SOLO AN10 con lo stesso testo; intanto consegno con la voce attuale. AN25 verificata, e' corretta."
   }
  ],
  "domande_sara": [
@@ -436,5 +440,5 @@
  "materia": "Letteratura italiana · V anno",
  "lezione": "Lezione 12",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-15 02:36:16"
+ "aggiornato": "2026-11-15 11:53:01"
 }
