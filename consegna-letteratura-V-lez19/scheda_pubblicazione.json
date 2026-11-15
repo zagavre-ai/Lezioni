@@ -1,25 +1,25 @@
 {
  "materia": "Letteratura italiana (V)",
  "titolo": "Dal secondo dopoguerra a oggi",
- "durata_s": 2132.24,
+ "durata_s": 3224.11,
  "argomenti": [
   {
    "n": 1,
    "titolo": "L'Italia dal dopoguerra a oggi",
    "inizio_s": 172.248,
-   "quiz_s": 881.081
+   "quiz_s": 1287.882
   },
   {
    "n": 2,
    "titolo": "Il dibattito culturale e la poesia",
-   "inizio_s": 886.381,
-   "quiz_s": 1411.448
+   "inizio_s": 1293.182,
+   "quiz_s": 2143.65
   },
   {
    "n": 3,
    "titolo": "I maestri della narrativa",
-   "inizio_s": 1416.748,
-   "quiz_s": 2026.449
+   "inizio_s": 2148.95,
+   "quiz_s": 3050.485
   }
  ],
  "quiz": {
@@ -189,6 +189,6 @@
    ]
   }
  },
- "t_verifica": 2101.616,
- "t_compiti": 2125.936
+ "t_verifica": 3193.486,
+ "t_compiti": 3217.806
 }
