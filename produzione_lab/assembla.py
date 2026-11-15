@@ -37,7 +37,7 @@ def cue_da_testo(t0,t1,txt,out):
             if cur:bl.append(cur)
             cur=f
             while len(cur)>84:
-                k=cur.rfind(' ',0,84);bl.append(cur[:k]);cur=cur[k+1:]
+                k=cur.rfind(' ',0,84);k=84 if k<=0 else k;bl.append(cur[:k]);cur=cur[k+1:]
     if cur:bl.append(cur)
     tot=sum(len(b) for b in bl);t=t0
     for b in bl:
@@ -78,7 +78,7 @@ def vtt(TL,P=1):
                         if cur:bl.append(cur)
                         cur=f
                         while len(cur)>84:
-                            q=cur.rfind(' ',0,84);bl.append(cur[:q]);cur=cur[q+1:]
+                            q=cur.rfind(' ',0,84);q=84 if q<=0 else q;bl.append(cur[:q]);cur=cur[q+1:]
                 if cur:bl.append(cur)
                 tc=sum(len(x) for x in bl);acc=0
                 def reale(x):   # x = secondi di parlato -> tempo sorgente
