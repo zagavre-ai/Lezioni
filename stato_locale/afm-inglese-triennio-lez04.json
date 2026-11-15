@@ -3,7 +3,70 @@
  "parti": {
   "1": {
    "stato": "IN_MONTAGGIO",
-   "voci": "segnaposto"
+   "voci": "kore",
+   "titolo": "Types of business",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "no",
+   "video": "Inglese_Lez4_Parte1_1080p.mp4",
+   "durata_s": 3758.5,
+   "durata": "62:38.5",
+   "fotogrammi": 112755,
+   "fotogrammi_attesi": 112755,
+   "peso_MB": 243.6,
+   "vtt": "Inglese_Lez4_Parte1.vtt",
+   "timeline": [
+    [
+     "T1",
+     124.966,
+     2.6
+    ],
+    [
+     "Q1",
+     1284.865,
+     4.0
+    ],
+    [
+     "T2",
+     1290.165,
+     2.6
+    ],
+    [
+     "T3",
+     2138.432,
+     2.6
+    ],
+    [
+     "T4",
+     2972.298,
+     2.6
+    ],
+    [
+     "T5",
+     3319.731,
+     2.6
+    ],
+    [
+     "GL1",
+     3656.398,
+     24.133
+    ],
+    [
+     "GL2",
+     3682.131,
+     18.167
+    ],
+    [
+     "RF1",
+     3701.698,
+     31.8
+    ],
+    [
+     "FIN1",
+     3734.898,
+     5.0
+    ]
+   ]
   }
  },
  "manca": "voci Kore (43 file E4_*) non ancora arrivate sul ramo voci-afm-inglese-triennio-lez04",
@@ -34,10 +97,14 @@
   {
    "quando": "15/11 02:36",
    "testo": "pronta, attende voci Kore (pezzi montati con segnaposto, 62 min stimati)"
+  },
+  {
+   "quando": "15/11 10:52",
+   "testo": "controllo_finale: ESITO: DA SISTEMARE: sottotitoli"
   }
  ],
  "materia": "Inglese AFM",
  "lezione": "Lezione 4",
  "docente": "Prof.ssa Maria Vittoria Fontanesi",
- "aggiornato": "2026-11-15 02:36:26"
+ "aggiornato": "2026-11-15 10:52:30"
 }
