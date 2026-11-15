@@ -2,7 +2,7 @@
  "tag": "letteratura-V-lez14",
  "parti": {
   "1": {
-   "stato": "FERMA"
+   "stato": "IN_MONTAGGIO"
   }
  },
  "manca": "Da fare da capo (R1). Scaricati video del prof, compiti del prof e test Excel; trascrizione fatta (Gemini, tempi a frase). Non iniziato il montaggio.",
@@ -13,9 +13,14 @@
   }
  ],
  "domande_sara": [],
- "note": [],
+ "note": [
+  {
+   "quando": "15/11 14:05",
+   "testo": "R1: ripresa. Lavoro in corso con voci segnaposto; richieste voci da inviare su voci-letteratura-V-lez14"
+  }
+ ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 14",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 23:03:06"
+ "aggiornato": "2026-11-15 14:05:55"
 }
