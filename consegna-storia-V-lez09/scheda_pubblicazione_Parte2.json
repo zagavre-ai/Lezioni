@@ -1,0 +1,314 @@
+{
+ "materia": "Storia",
+ "titolo": "L'Italia del regime fascista · Parte 2",
+ "durata_s": 2704.67,
+ "argomenti": [
+  {
+   "n": 6,
+   "titolo": "Media e Patti Lateranensi",
+   "inizio_s": 46.4,
+   "quiz_s": 442.133
+  },
+  {
+   "n": 7,
+   "titolo": "Corporativismo e agricoltura",
+   "inizio_s": 446.133,
+   "quiz_s": 843.367
+  },
+  {
+   "n": 8,
+   "titolo": "Quota 90 e autarchia",
+   "inizio_s": 847.367,
+   "quiz_s": 1295.733
+  },
+  {
+   "n": 9,
+   "titolo": "La donna e la demografia",
+   "inizio_s": 1299.733,
+   "quiz_s": 1554.4
+  },
+  {
+   "n": 10,
+   "titolo": "Impero e Leggi Razziali",
+   "inizio_s": 1558.4,
+   "quiz_s": 2574.2
+  }
+ ],
+ "quiz": {
+  "Q6": {
+   "title": "Quiz 6 · Media e Patti Lateranensi",
+   "items": [
+    {
+     "p": "Che cosa sono EIAR e Istituto LUCE?",
+     "a": "Gli enti della radio e del cinema di propaganda",
+     "w": [
+      "Due partiti",
+      "Due giornali",
+      "Due sindacati"
+     ],
+     "e": "Nascono l'EIAR (radio) e l'Istituto LUCE (cinema) per trasmettere propaganda e discorsi del Duce."
+    },
+    {
+     "p": "Che cosa controlla il MinCulPop?",
+     "a": "Stampa, radio, cinema e propaganda",
+     "w": [
+      "Solo la scuola",
+      "Solo l'esercito",
+      "Solo le elezioni"
+     ],
+     "e": "Il Ministero della Cultura Popolare assume il controllo totale di stampa, radio, cinema e propaganda."
+    },
+    {
+     "p": "In che anno sono firmati i Patti Lateranensi?",
+     "a": "Nel 1929",
+     "w": [
+      "Nel 1919",
+      "Nel 1938",
+      "Nel 1946"
+     ],
+     "e": "I Patti Lateranensi (1929) chiudono la «questione romana»."
+    },
+    {
+     "p": "Che cosa riconosce il Trattato dei Patti Lateranensi?",
+     "a": "Lo Stato della Città del Vaticano e Roma capitale",
+     "w": [
+      "Il potere temporale del Papa su tutta Italia",
+      "La fine del fascismo",
+      "Il voto alle donne"
+     ],
+     "e": "Il Trattato riconosce lo Stato della Città del Vaticano e Roma come capitale."
+    },
+    {
+     "p": "Che cosa stabilisce il Concordato?",
+     "a": "Il cattolicesimo come religione ufficiale di Stato",
+     "w": [
+      "La separazione tra Stato e Chiesa",
+      "L'abolizione del matrimonio",
+      "L'insegnamento facoltativo del catechismo"
+     ],
+     "e": "Con il Concordato il cattolicesimo diventa religione ufficiale di Stato, con insegnamento religioso obbligatorio."
+    }
+   ]
+  },
+  "Q7": {
+   "title": "Quiz 7 · Corporativismo e agricoltura",
+   "items": [
+    {
+     "p": "Che cosa è il sistema corporativo?",
+     "a": "L'alternativa fascista al capitalismo e al socialismo",
+     "w": [
+      "Un sistema di sindacati liberi",
+      "Un modello comunista",
+      "Un'alleanza militare"
+     ],
+     "e": "Vengono vietati i sindacati liberi e create le Corporazioni, per eliminare gli scioperi e controllare la produzione."
+    },
+    {
+     "p": "Che cosa diventa l'INFPS?",
+     "a": "L'INPS, per pensioni e assicurazioni sanitarie",
+     "w": [
+      "L'IRI",
+      "L'EIAR",
+      "L'OVRA"
+     ],
+     "e": "Nasce l'INFPS (poi INPS) per pensioni e assicurazioni sanitarie, per ottenere consenso."
+    },
+    {
+     "p": "Che cosa sostituisce il liberismo?",
+     "a": "Forti dazi sulle importazioni",
+     "w": [
+      "Il libero scambio",
+      "L'abolizione dei dazi",
+      "L'uscita dalla lira"
+     ],
+     "e": "Si abbandona il liberismo a favore di forti dazi sulle importazioni."
+    },
+    {
+     "p": "Qual è l'obiettivo della Battaglia del Grano?",
+     "a": "L'autosufficienza alimentare dell'Italia",
+     "w": [
+      "L'esportazione di grano",
+      "La chiusura dei campi",
+      "La fine della bonifica"
+     ],
+     "e": "La Battaglia del Grano (1925) vuole raggiungere l'autosufficienza alimentare."
+    },
+    {
+     "p": "Quale città nasce dalla Bonifica Integrale?",
+     "a": "Littoria (Latina)",
+     "w": [
+      "Torino",
+      "Napoli",
+      "Trieste"
+     ],
+     "e": "La bonifica avvia il prosciugamento dell'Agro Pontino e la fondazione di nuove città come Littoria/Latina."
+    }
+   ]
+  },
+  "Q8": {
+   "title": "Quiz 8 · Quota 90 e autarchia",
+   "items": [
+    {
+     "p": "Che cosa fissa «Quota 90»?",
+     "a": "Il cambio a 90 lire per una sterlina",
+     "w": [
+      "L'età della pensione",
+      "Il numero dei deputati",
+      "Il prezzo del grano"
+     ],
+     "e": "Quota 90 (1926) rivaluta la lira fissando il cambio a 90 lire per una sterlina."
+    },
+    {
+     "p": "Quale effetto ha Quota 90?",
+     "a": "Riduce l'inflazione ma penalizza le esportazioni",
+     "w": [
+      "Aumenta l'inflazione",
+      "Favorisce le esportazioni",
+      "Non ha effetti"
+     ],
+     "e": "Riduce l'inflazione ma penalizza le esportazioni."
+    },
+    {
+     "p": "Quali enti rendono lo Stato il principale attore economico?",
+     "a": "L'IMI e l'IRI",
+     "w": [
+      "L'EIAR e il LUCE",
+      "L'ONB e l'OND",
+      "L'ENEL e l'ENI"
+     ],
+     "e": "Nascono l'IMI e l'IRI (1933) per rilevare e salvare banche e industrie in crisi."
+    },
+    {
+     "p": "Che cosa è l'autarchia?",
+     "a": "Una politica di isolamento economico: produrre tutto all'interno del Paese",
+     "w": [
+      "Un accordo di libero scambio",
+      "L'apertura ai mercati esteri",
+      "Un'alleanza militare"
+     ],
+     "e": "L'autarchia (1936) è un isolamento economico, introdotto dopo le sanzioni internazionali."
+    },
+    {
+     "p": "Dopo quale evento viene introdotta l'autarchia?",
+     "a": "Dopo le sanzioni internazionali",
+     "w": [
+      "Dopo il delitto Matteotti",
+      "Dopo i Patti Lateranensi",
+      "Dopo Quota 90"
+     ],
+     "e": "L'autarchia è introdotta dopo le sanzioni internazionali."
+    }
+   ]
+  },
+  "Q9": {
+   "title": "Quiz 9 · La donna e la demografia",
+   "items": [
+    {
+     "p": "Quale ruolo il regime assegna alla donna?",
+     "a": "Quello di «angelo del focolare», madre e moglie devota",
+     "w": [
+      "Quello di dirigente di partito",
+      "Quello di soldato",
+      "Quello di giudice"
+     ],
+     "e": "La donna è relegata al ruolo domestico."
+    },
+    {
+     "p": "Qual è lo scopo della «Battaglia demografica»?",
+     "a": "Incentivare la natalità",
+     "w": [
+      "Ridurre la popolazione",
+      "Favorire l'emigrazione",
+      "Chiudere le scuole"
+     ],
+     "e": "È una campagna per incentivare la natalità, con premi per le famiglie numerose."
+    },
+    {
+     "p": "Che cosa proibisce la legge del 1926?",
+     "a": "L'aborto e la contraccezione",
+     "w": [
+      "Il divorzio",
+      "Il lavoro femminile",
+      "Le associazioni"
+     ],
+     "e": "Nel 1926 una legge proibisce l'aborto e la contraccezione, considerati crimini contro lo Stato."
+    },
+    {
+     "p": "Che cosa è l'ONMI?",
+     "a": "L'Opera Nazionale Maternità e Infanzia",
+     "w": [
+      "L'Opera Nazionale Militare Italiana",
+      "Il sindacato dei maestri",
+      "Il ministero della cultura"
+     ],
+     "e": "L'ONMI, nata nel 1925, assiste le madri e i bambini poveri."
+    },
+    {
+     "p": "Quale discriminazione colpisce le donne sul lavoro?",
+     "a": "L'esclusione da alcune cattedre e il salario dimezzato",
+     "w": [
+      "Un salario doppio",
+      "Il diritto di voto",
+      "L'accesso a ogni carica"
+     ],
+     "e": "Le donne sono escluse dalle cattedre superiori di lettere e filosofia e il salario è dimezzato per legge."
+    }
+   ]
+  },
+  "Q10": {
+   "title": "Quiz 10 · Impero e Leggi Razziali",
+   "items": [
+    {
+     "p": "Quale Paese invade l'Italia nel 1935?",
+     "a": "L'Etiopia",
+     "w": [
+      "L'Albania",
+      "La Libia",
+      "L'Egitto"
+     ],
+     "e": "Guerra d'Etiopia (1935-1936): invasione guidata dal generale Badoglio."
+    },
+    {
+     "p": "Che cosa proclama Mussolini dopo la vittoria?",
+     "a": "L'Impero dell'Africa Orientale Italiana",
+     "w": [
+      "La Repubblica",
+      "L'unione con la Germania",
+      "La fine del regime"
+     ],
+     "e": "Mussolini proclama la nascita dell'Impero dell'Africa Orientale Italiana (AOI)."
+    },
+    {
+     "p": "Come usa il regime le sanzioni?",
+     "a": "Con la campagna «Oro alla Patria» per compattare l'opinione pubblica",
+     "w": [
+      "Ritirandosi dall'Etiopia",
+      "Sciogliendo il Parlamento",
+      "Entrando nella Società delle Nazioni"
+     ],
+     "e": "Il regime sfrutta le sanzioni con la campagna «Oro alla Patria»."
+    },
+    {
+     "p": "Quale alleanza nasce nel 1936?",
+     "a": "L'Asse Roma-Berlino",
+     "w": [
+      "La Triplice Intesa",
+      "Il Patto di Varsavia",
+      "La NATO"
+     ],
+     "e": "L'isolamento internazionale spinge l'Italia ad allearsi con la Germania nazista."
+    },
+    {
+     "p": "Che cosa sono le Leggi Razziali del 1938?",
+     "a": "Provvedimenti discriminatori contro la comunità ebraica",
+     "w": [
+      "Leggi a favore degli ebrei",
+      "Leggi sulla scuola unica",
+      "Accordi con la Chiesa"
+     ],
+     "e": "Gli ebrei vengono espulsi dalle scuole e dalle cariche pubbliche e viene vietato loro di esercitare alcune professioni."
+    }
+   ]
+  }
+ }
+}
