@@ -1,0 +1,117 @@
+{
+ "R1": [
+  "Ripassiamo la filatura e le caratteristiche dei filati. Guarda la mappa."
+ ],
+ "R2": [
+  "Ripassiamo la tessitura e gli elementi del telaio. Osserva la mappa."
+ ],
+ "R3": [
+  "Ripassiamo i finissaggi e il lavaggio. Guarda la mappa."
+ ],
+ "R4": [
+  "Ripassiamo la follatura e la garzatura. Osserva la mappa."
+ ],
+ "R5": [
+  "Ripassiamo asciugatura, cimatura, bruciapelo, pressatura e calandratura. Guarda la mappa."
+ ],
+ "R6": [
+  "Ripassiamo la fissazione: decatizzo, KD, crabbing e potting. Osserva la mappa."
+ ],
+ "R7": [
+  "Ripassiamo carbonizzo, vaporizzo e i trattamenti speciali. Guarda la mappa prima del quiz."
+ ],
+ "M1": [
+  "Mappa concettuale: la filatura e le caratteristiche dei filati.",
+  "La preparazione alla filatura comprende pulitura, apertura e battitura, che dà la falda.",
+  "Nella filatura cardata si passa dalla cardatura allo stiro, al banco a fusi e alla filatura.",
+  "La pettinatura lisci le fibre lunghe e dà un nastro pettinato, il top.",
+  "Per i fili continui basta la torsione o la ritorcitura dei filamenti.",
+  "Il titolo esprime la grossezza: tex e denaro sono sistemi diretti, Nm e Ne indiretti.",
+  "Più torsione dà più resistenza e meno elasticità e sofficità."
+ ],
+ "M2": [
+  "Mappa concettuale: la tessitura e il telaio.",
+  "Il tessuto nasce dall'intreccio di fili di ordito, in lunghezza, e di trama, perpendicolari.",
+  "La navetta alloggia la spola e la trasporta tra i fili di ordito.",
+  "I subbi sostengono l'ordito e avvolgono il tessuto prodotto.",
+  "Il pettine battente preme i fili di trama contro il tessuto.",
+  "Il liccio crea lo spazio di passaggio, la frusta lancia la navetta.",
+  "Nei telai moderni la trama passa con proiettili, pinze o getti d'aria o d'acqua."
+ ],
+ "M3": [
+  "Mappa concettuale: i finissaggi e il lavaggio.",
+  "I finissaggi migliorano aspetto, pregio e proprietà del tessuto.",
+  "La rifinitura rasata mette in risalto l'armatura dei tessuti pettinati.",
+  "La rifinitura follata copre l'armatura dei tessuti cardati.",
+  "La rifinitura garzata dà una superficie ricca di peluria.",
+  "Il lavaggio elimina bozzime, oleanti e sporco, a quaranta-sessanta gradi.",
+  "Si lava in corda, in largo e in continuo, oppure con il lavaggio veloce."
+ ],
+ "M4": [
+  "Mappa concettuale: follatura e garzatura.",
+  "La follatura dà compattezza e impermeabilità ai cardati di lana, con il rimborso.",
+  "La follatura può essere acida, basica o neutra.",
+  "Il follone a cilindri trascina e comprime il tessuto.",
+  "La garzatura dà un aspetto peloso e vellutato.",
+  "Si garza a umido, a secco o a bagno; l'umido è il più usato.",
+  "I garzi vegetali non strappano le fibre; pelo e contropelo dipendono dai sensi di rotazione."
+ ],
+ "M5": [
+  "Mappa concettuale: asciugatura, cimatura, bruciapelo e calandratura.",
+  "Si asciuga tra ottanta e centoventi gradi, con ramosa, hot-flue o essiccatoio.",
+  "La cimatura taglia i peli sporgenti: rasatura a fondo o livellatura.",
+  "Il bruciapelo elimina la peluria con una fiamma non luminosa.",
+  "La pressatura è costosa e poco produttiva: duecento-quattrocento atmosfere per ore.",
+  "La calandratura dà lucentezza per attrito e compattezza per pressione.",
+  "Un cilindro piccolo dà un tessuto compatto, uno grosso più lucente."
+ ],
+ "M6": [
+  "Mappa concettuale: la fissazione.",
+  "La fissazione dà stabilità dimensionale permanente, a differenza della stiratura.",
+  "Il decatizzo usa vapore secco seguito da un brusco raffreddamento.",
+  "Può essere in continuo o in discontinuo, con una sottopezza.",
+  "Il KD è un decatizzo in autoclave, sotto pressione.",
+  "Il crabbing elimina le tensioni latenti nelle fibre miste.",
+  "Il potting è un decatissaggio a umido, senza shock termico."
+ ],
+ "M7": [
+  "Mappa concettuale: carbonizzo, vaporizzo e trattamenti speciali.",
+  "Il carbonizzo elimina le impurità cellulosiche con acidi diluiti, senza intaccare la lana.",
+  "Il vaporizzo dà irrestringibilità al tessuto.",
+  "La mercerizzazione rende il cotone lucente e più resistente.",
+  "La sanforizzazione rende il cotone stabile ai lavaggi.",
+  "La tollatura riguarda la seta, la ratinatura i tessuti di lana a pelo lungo.",
+  "La marezzatura crea riflessi e venature simili a onde."
+ ],
+ "MF": [
+  "Mappa finale della lezione: la lavorazione.",
+  "La filatura trasforma le fibre in filato.",
+  "La tessitura intreccia ordito e trama sul telaio.",
+  "Lavaggio e follatura puliscono e compattano il tessuto.",
+  "Garzatura e cimatura sollevano o tagliano la peluria.",
+  "La fissazione stabilizza il tessuto in modo permanente."
+ ],
+ "GL1": [
+  "Le parole chiave della lezione.",
+  "Filatura: Operazioni che trasformano le fibre grezze in un filato resistente e omogeneo.",
+  "Titolo: Rapporto tra peso e lunghezza del filo; ne definisce la grossezza.",
+  "Ordito e trama: Fili in lunghezza e fili perpendicolari che formano il tessuto.",
+  "Finissaggio: Operazioni di rifinitura che migliorano aspetto, pregio e proprietà del tessuto.",
+  "Follatura: Trattamento dei cardati di lana che li rende compatti e impermeabili.",
+  "Garzatura: Trattamento meccanico che solleva una peluria sul tessuto.",
+  "Calandratura: Passaggio tra cilindro e bacinella per dare lucentezza e compattezza.",
+  "Decatizzo: Fissazione con vapore secco seguita da brusco raffreddamento.",
+  "Mercerizzazione: Bagno di soda caustica sotto trazione che rende lucente il cotone."
+ ],
+ "RF1": [
+  "Ricapitoliamo la lezione.",
+  "La filatura trasforma le fibre in filato, per fibra corta, fibra lunga o filo continuo; il titolo e la torsione ne definiscono le caratteristiche.",
+  "La tessitura intreccia fili di ordito e di trama sul telaio.",
+  "I finissaggi migliorano l'aspetto del tessuto: lavaggio, follatura e garzatura per i cardati, cimatura e bruciapelo per i pettinati.",
+  "Asciugatura, pressatura e calandratura danno al tessuto superficie liscia e lucente.",
+  "La fissazione, con decatizzo, KD, crabbing e potting, stabilizza il tessuto in modo permanente; a chiudere ci sono carbonizzo, vaporizzo e i trattamenti speciali."
+ ],
+ "FIN1": [
+  "Fine della lezione. Hai ripassato i sette argomenti: dalla filatura ai trattamenti speciali. Buono studio!"
+ ]
+}
