@@ -2,7 +2,7 @@
  "tag": "letteratura-V-lez26",
  "parti": {
   "1": {
-   "stato": "IN_MONTAGGIO",
+   "stato": "FERMA",
    "titolo": "Italo Calvino",
    "voci": "kore",
    "quiz_ok": "si",
@@ -378,7 +378,7 @@
    ]
   }
  },
- "manca": "",
+ "manca": "voci Kore AN* mai arrivate da oltre 2 ore",
  "serve_master": [
   {
    "quando": "14/11 06:54",
@@ -391,6 +391,10 @@
   {
    "quando": "14/11 22:53",
    "testo": "chat R5: voci Kore AN* richieste (una sola richiesta per lezione) in scambio/letteratura-V-lez26/testi_voci.json sul ramo voci-letteratura-V-lez26: file lista di {nome,testo,lingua}, nomi nuovi AN1a... ANF. Servono per v2 con approfondimenti. Aspetto in vox/."
+  },
+  {
+   "quando": "15/11 00:16",
+   "testo": "chat R5 FERMA: servono le voci Kore AN* (testi in scambio/letteratura-V-lez26/testi_voci.json, ramo voci-letteratura-V-lez26). Montaggio, mappe, tagli, compiti.json e script pronti: appena arrivano le voci rifaccio la v2 in circa 1 ora per lezione. La lezione consegnata v1 resta valida."
   }
  ],
  "domande_sara": [],
@@ -419,5 +423,5 @@
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 26",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 22:53:28"
+ "aggiornato": "2026-11-15 00:16:37"
 }
