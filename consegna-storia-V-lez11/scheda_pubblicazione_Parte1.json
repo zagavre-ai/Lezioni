@@ -1,0 +1,375 @@
+{
+ "materia": "Storia",
+ "titolo": "L'URSS di Stalin (1924-1939)",
+ "durata_s": 2381.9,
+ "argomenti": [
+  {
+   "n": 1,
+   "titolo": "L'ascesa di Stalin",
+   "inizio_s": 88.7,
+   "quiz_s": 517.8
+  },
+  {
+   "n": 2,
+   "titolo": "La grande svolta e i piani quinquennali",
+   "inizio_s": 521.8,
+   "quiz_s": 760.233
+  },
+  {
+   "n": 3,
+   "titolo": "La collettivizzazione e la carestia",
+   "inizio_s": 764.233,
+   "quiz_s": 1287.8
+  },
+  {
+   "n": 4,
+   "titolo": "Il totalitarismo e il Grande Terrore",
+   "inizio_s": 1291.8,
+   "quiz_s": 1543.833
+  },
+  {
+   "n": 5,
+   "titolo": "La società staliniana",
+   "inizio_s": 1547.833,
+   "quiz_s": 1798.767
+  },
+  {
+   "n": 6,
+   "titolo": "La politica estera dell'URSS",
+   "inizio_s": 1802.767,
+   "quiz_s": 2270.599
+  }
+ ],
+ "quiz": {
+  "Q1": {
+   "title": "Quiz 1 · L'ascesa di Stalin",
+   "items": [
+    {
+     "p": "Che cosa si apre dopo la morte di Lenin nel 1924?",
+     "a": "Una dura lotta per la successione alla guida del partito",
+     "w": [
+      "Una guerra contro la Germania",
+      "Un periodo di elezioni libere",
+      "La restaurazione dello zar"
+     ],
+     "e": "Dopo la morte di Lenin si apre la lotta per la guida del Partito Comunista dell'Unione Sovietica."
+    },
+    {
+     "p": "Chi guida la corrente di «sinistra» del partito?",
+     "a": "Lev Trockij",
+     "w": [
+      "Nikolaj Bucharin",
+      "Iosif Stalin",
+      "Aleksej Stachanov"
+     ],
+     "e": "Trockij, leader dell'Armata rossa, difende la rivoluzione permanente."
+    },
+    {
+     "p": "Che cosa sostiene Bucharin?",
+     "a": "La NEP e uno sviluppo economico pacifico e graduale",
+     "w": [
+      "La rivoluzione permanente",
+      "La collettivizzazione immediata",
+      "Il patto con Hitler"
+     ],
+     "e": "La destra di Bucharin è favorevole alla Nuova politica economica e alla liberalizzazione agricola."
+    },
+    {
+     "p": "Che cosa significa «socialismo in un solo paese»?",
+     "a": "Consolidare la rivoluzione in URSS prima di esportarla",
+     "w": [
+      "Esportare subito la rivoluzione in tutto il mondo",
+      "Abolire il socialismo",
+      "Unire l'URSS alla Germania"
+     ],
+     "e": "È la teoria con cui Stalin si inserisce nello scontro tra le correnti del partito."
+    },
+    {
+     "p": "Che fine fa Trockij?",
+     "a": "Viene sconfitto ed esiliato",
+     "w": [
+      "Diventa segretario del partito",
+      "Guida la grande svolta",
+      "Firma il patto con Hitler"
+     ],
+     "e": "Stalin elimina politicamente tutti gli oppositori, Trockij compreso."
+    }
+   ]
+  },
+  "Q2": {
+   "title": "Quiz 2 · La grande svolta e i piani quinquennali",
+   "items": [
+    {
+     "p": "In che anno Stalin avvia la «grande svolta»?",
+     "a": "Nel 1929",
+     "w": [
+      "Nel 1917",
+      "Nel 1924",
+      "Nel 1939"
+     ],
+     "e": "Nel 1929 inizia la trasformazione dell'URSS da paese agricolo a potenza industriale."
+    },
+    {
+     "p": "Che cosa sono i piani quinquennali?",
+     "a": "Programmi che fissano in anticipo gli obiettivi produttivi per cinque anni",
+     "w": [
+      "Elezioni ogni cinque anni",
+      "Trattati di pace quinquennali",
+      "Riforme agrarie a favore dei kulaki"
+     ],
+     "e": "I piani fissano gli obiettivi da raggiungere in cinque anni, soprattutto nell'industria pesante."
+    },
+    {
+     "p": "Su quale settore si concentrano i piani quinquennali?",
+     "a": "Industria pesante, armamenti e infrastrutture",
+     "w": [
+      "Beni di consumo e moda",
+      "Turismo",
+      "Agricoltura privata"
+     ],
+     "e": "La priorità va all'industria pesante, agli armamenti e alle infrastrutture."
+    },
+    {
+     "p": "Chi pianifica l'economia sovietica?",
+     "a": "Lo Stato",
+     "w": [
+      "Il mercato libero",
+      "Le banche private",
+      "I sindacati indipendenti"
+     ],
+     "e": "L'economia è totalmente pianificata dallo Stato."
+    },
+    {
+     "p": "Quale risultato ottiene l'industrializzazione?",
+     "a": "La produzione cresce e la disoccupazione quasi scompare",
+     "w": [
+      "La produzione crolla",
+      "I salari diventano altissimi",
+      "Le fabbriche vengono privatizzate"
+     ],
+     "e": "Nonostante i costi umani, la produzione cresce in modo straordinario."
+    }
+   ]
+  },
+  "Q3": {
+   "title": "Quiz 3 · La collettivizzazione e la carestia",
+   "items": [
+    {
+     "p": "Che cosa sono i kolchoz?",
+     "a": "Cooperative agricole",
+     "w": [
+      "Fabbriche di armi",
+      "Campi di prigionia",
+      "Organizzazioni giovanili"
+     ],
+     "e": "Le terre requisite vengono riunite in aziende pubbliche (sovchoz) o cooperative (kolchoz)."
+    },
+    {
+     "p": "Chi sono i kulaki?",
+     "a": "I contadini benestanti che si oppongono alla collettivizzazione",
+     "w": [
+      "I dirigenti del partito",
+      "I soldati dell'Armata rossa",
+      "Gli operai stachanovisti"
+     ],
+     "e": "I kulaki vengono perseguitati, deportati o eliminati: è la «dekulakizzazione»."
+    },
+    {
+     "p": "Perché lo Stato requisisce il grano con la forza?",
+     "a": "Per finanziare l'industrializzazione",
+     "w": [
+      "Per esportarlo in Germania",
+      "Per sfamare l'Ucraina",
+      "Per abbassare i prezzi"
+     ],
+     "e": "Le requisizioni servono a finanziare l'industria e provocano una catastrofica carestia."
+    },
+    {
+     "p": "Quando avviene la grande carestia?",
+     "a": "Nel 1932-1933",
+     "w": [
+      "Nel 1917-1918",
+      "Nel 1924-1925",
+      "Nel 1941-1942"
+     ],
+     "e": "La carestia del 1932-1933 causa milioni di morti."
+    },
+    {
+     "p": "Come viene chiamata la carestia in Ucraina?",
+     "a": "Holodomor",
+     "w": [
+      "Gulag",
+      "Komsomol",
+      "Kolchoz"
+     ],
+     "e": "In Ucraina la carestia è ricordata con il nome di Holodomor."
+    }
+   ]
+  },
+  "Q4": {
+   "title": "Quiz 4 · Il totalitarismo e il Grande Terrore",
+   "items": [
+    {
+     "p": "Che tipo di potere instaura Stalin?",
+     "a": "Una dittatura personale",
+     "w": [
+      "Una monarchia costituzionale",
+      "Una democrazia parlamentare",
+      "Un governo collegiale"
+     ],
+     "e": "Stalin elimina la separazione tra gli organi del partito e quelli dello Stato."
+    },
+    {
+     "p": "Quando avvengono le «grandi purghe»?",
+     "a": "Tra il 1936 e il 1938",
+     "w": [
+      "Tra il 1917 e il 1920",
+      "Tra il 1924 e il 1926",
+      "Nel 1939"
+     ],
+     "e": "Le grandi purghe eliminano ogni potenziale oppositore nel partito, nell'esercito e nella società."
+    },
+    {
+     "p": "Che cos'è il Gulag?",
+     "a": "Il sistema dei campi di lavoro forzato",
+     "w": [
+      "Il parlamento sovietico",
+      "La polizia segreta",
+      "Un piano economico"
+     ],
+     "e": "Milioni di cittadini finiscono nei Gulag come lavoratori forzati."
+    },
+    {
+     "p": "Come vengono ottenute le confessioni nei processi pubblici?",
+     "a": "Con la forza",
+     "w": [
+      "Con prove scientifiche",
+      "Con il voto popolare",
+      "Con testimoni stranieri"
+     ],
+     "e": "Molti dirigenti bolscevichi vengono condannati a morte dopo confessioni estorte con la forza."
+    },
+    {
+     "p": "Quale di questi è un pilastro del regime staliniano?",
+     "a": "La polizia segreta",
+     "w": [
+      "La libertà di stampa",
+      "Le elezioni libere",
+      "L'autonomia dei sindacati"
+     ],
+     "e": "Il controllo si basa su polizia segreta, sospetto, censura e propaganda."
+    }
+   ]
+  },
+  "Q5": {
+   "title": "Quiz 5 · La società staliniana",
+   "items": [
+    {
+     "p": "Come viene chiamato Stalin dalla propaganda?",
+     "a": "«Piccolo padre dei popoli»",
+     "w": [
+      "«Il Duce»",
+      "«Il Führer»",
+      "«Il compagno operaio»"
+     ],
+     "e": "Il culto della personalità presenta Stalin come leader infallibile."
+    },
+    {
+     "p": "Qual è l'unico stile artistico ammesso?",
+     "a": "Il realismo socialista",
+     "w": [
+      "Il futurismo",
+      "Il surrealismo",
+      "L'impressionismo"
+     ],
+     "e": "La propaganda impone il realismo socialista."
+    },
+    {
+     "p": "Che cos'è il Komsomol?",
+     "a": "L'organizzazione giovanile del partito",
+     "w": [
+      "Una fabbrica di Mosca",
+      "Un campo di lavoro",
+      "Un piano quinquennale"
+     ],
+     "e": "Il controllo dei giovani passa dalla scuola e da organizzazioni come il Komsomol."
+    },
+    {
+     "p": "Chi era Aleksej Stachanov?",
+     "a": "Un minatore diventato simbolo del lavoro",
+     "w": [
+      "Un generale dell'Armata rossa",
+      "Un oppositore di Stalin",
+      "Un ministro degli Esteri"
+     ],
+     "e": "Il suo mito spinge i lavoratori a superare i record di produzione."
+    },
+    {
+     "p": "Che cosa cambia per le donne negli anni Trenta?",
+     "a": "Si torna a modelli tradizionali e l'aborto diventa illegale",
+     "w": [
+      "Ottengono per la prima volta il voto",
+      "Viene introdotto il divorzio",
+      "Viene vietato loro il lavoro in fabbrica"
+     ],
+     "e": "Dopo le riforme degli anni Venti si torna indietro, ma le donne sono celebrate come «eroine del lavoro»."
+    }
+   ]
+  },
+  "Q6": {
+   "title": "Quiz 6 · La politica estera dell'URSS",
+   "items": [
+    {
+     "p": "In che anno l'URSS entra nella Società delle Nazioni?",
+     "a": "Nel 1934",
+     "w": [
+      "Nel 1919",
+      "Nel 1924",
+      "Nel 1939"
+     ],
+     "e": "L'Unione Sovietica esce dall'isolamento ed entra nella Società delle Nazioni nel 1934."
+    },
+    {
+     "p": "Che cosa promuove il Comintern con il «Fronte unito»?",
+     "a": "L'alleanza tra comunisti, socialisti e democratici contro il fascismo",
+     "w": [
+      "L'alleanza con Mussolini",
+      "La guerra contro la Francia",
+      "La fine del comunismo"
+     ],
+     "e": "Il Fronte unito vuole contrastare l'ascesa del fascismo e del nazismo."
+    },
+    {
+     "p": "In quale guerra si applica la strategia del Fronte unito?",
+     "a": "Nella guerra civile spagnola",
+     "w": [
+      "Nella guerra del Vietnam",
+      "Nella prima guerra mondiale",
+      "Nella guerra di Corea"
+     ],
+     "e": "Il Fronte unito sostiene la Repubblica nella guerra civile spagnola."
+    },
+    {
+     "p": "Che cosa firma l'URSS nell'agosto 1939?",
+     "a": "Un patto di non aggressione con la Germania nazista",
+     "w": [
+      "Un'alleanza con la Francia",
+      "L'ingresso nella NATO",
+      "Un trattato con gli Stati Uniti"
+     ],
+     "e": "È il patto Molotov-Ribbentrop, una svolta improvvisa."
+    },
+    {
+     "p": "Che cosa prevede l'accordo segreto del patto Molotov-Ribbentrop?",
+     "a": "La spartizione dell'Europa orientale",
+     "w": [
+      "La pace con la Gran Bretagna",
+      "La liberazione dei Gulag",
+      "La fine dei piani quinquennali"
+     ],
+     "e": "Un protocollo segreto divide l'Europa orientale tra URSS e Germania."
+    }
+   ]
+  }
+ }
+}

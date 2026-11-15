@@ -1,0 +1,5 @@
+Storia V · Lezione 11 · consegna della chat S2.
+Video a pezzi da 90 MB: riunisci con  cat NOME_1080p.mp4.parte_* > NOME_1080p.mp4  e controlla con il file .sha256.
+Test finale: PROPOSTA_DA_VALIDARE (10 domande dal materiale del docente), da sostituire con l'Excel del docente (zip 008) senza rimontare.
+Compiti: COMPITI_MANCANTI. Nel video ci sono le schede Verifica finale e Compiti (tempi nelle timeline: VER, CINTRO, COMP).
+Parte unica (39:41): video del docente di 25 minuti.
