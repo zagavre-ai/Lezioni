@@ -9,11 +9,11 @@
    "fermi_ok": "si",
    "sub_ok": "no",
    "video": "Inglese_Lez4_Parte1_1080p.mp4",
-   "durata_s": 3758.5,
-   "durata": "62:38.5",
-   "fotogrammi": 112755,
-   "fotogrammi_attesi": 112755,
-   "peso_MB": 243.6,
+   "durata_s": 3758.4,
+   "durata": "62:38.4",
+   "fotogrammi": 112753,
+   "fotogrammi_attesi": 112753,
+   "peso_MB": 243.7,
    "vtt": "Inglese_Lez4_Parte1.vtt",
    "timeline": [
     [
@@ -23,47 +23,47 @@
     ],
     [
      "Q1",
-     1284.865,
+     1284.832,
      4.0
     ],
     [
      "T2",
-     1290.165,
+     1290.132,
      2.6
     ],
     [
      "T3",
-     2138.432,
+     2138.399,
      2.6
     ],
     [
      "T4",
-     2972.298,
+     2972.232,
      2.6
     ],
     [
      "T5",
-     3319.731,
+     3319.665,
      2.6
     ],
     [
      "GL1",
-     3656.398,
+     3656.332,
      24.133
     ],
     [
      "GL2",
-     3682.131,
+     3682.065,
      18.167
     ],
     [
      "RF1",
-     3701.698,
+     3701.632,
      31.8
     ],
     [
      "FIN1",
-     3734.898,
+     3734.832,
      5.0
     ]
    ]
@@ -101,10 +101,14 @@
   {
    "quando": "15/11 10:52",
    "testo": "controllo_finale: ESITO: DA SISTEMARE: sottotitoli"
+  },
+  {
+   "quando": "15/11 11:44",
+   "testo": "controllo_finale: ESITO: DA SISTEMARE: sottotitoli"
   }
  ],
  "materia": "Inglese AFM",
  "lezione": "Lezione 4",
  "docente": "Prof.ssa Maria Vittoria Fontanesi",
- "aggiornato": "2026-11-15 10:52:30"
+ "aggiornato": "2026-11-15 11:44:25"
 }
