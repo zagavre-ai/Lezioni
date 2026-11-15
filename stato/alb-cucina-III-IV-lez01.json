@@ -634,6 +634,10 @@
   {
    "quando": "15/11 00:34",
    "testo": "MIGLIORAMENTO: (1) controllo_finale misura l'attacco dei sottotitoli sull'energia e dà falsi allarmi (46-67% con max 0,8 s di scarto anche quando i sottotitoli sono giusti). Uso invece la trascrizione del video finale (verifica_vtt: confronto parola per parola su tutti i blocchi, poi riallineo): scarto medio 0,03 s, max 0,12 s. Lo script sub_correggi.py è nella chat Cucina. (2) Non riesco a caricare i file sulla release: uploads.github.com rifiuta dal proxy (serve Content-Type JSON), gh release usa GraphQL (403). Consegno i file in chat a Sara."
+  },
+  {
+   "quando": "15/11 08:06",
+   "testo": "MIGLIORAMENTO (sincronia slide/voce): script nella chat Cucina. sync_parole.py ricalcola i tempi di accensione delle righe dalle PAROLE dette (trascrizione parola per parola): prime parole della riga se dette come scritte, ancora al «termine:» per le liste, parole chiave per il resto; sceglie fra tempo vecchio e nuovo quello che coincide con ciò che la docente dice. controllo_sync.py misura sul VIDEO FINALE gli scarti (5 frasi a caso + tutte le verificabili) con la trascrizione dell'audio finale e scrive il testo da mettere nel LEGGIMI. Risultati Cucina 1-4: i 5 punti a caso tutti entro ±0,8 s; prima della correzione fino a 8 s di anticipo. Il vecchio allineamento a frasi accendeva le righe in anticipo anche di 16 s."
   }
  ],
  "domande_sara": [],
@@ -677,5 +681,5 @@
  ],
  "materia": "Laboratori dei servizi enogastronomici – settore cucina",
  "lezione": "Le carni",
- "aggiornato": "2026-11-15 05:37:21"
+ "aggiornato": "2026-11-15 08:06:30"
 }
