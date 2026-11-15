@@ -141,3 +141,9 @@ Valgono anche per Cucina 1-5.
 - Le mappe **NON vanno nella dispensa**: la dispensa resta senza mappe, le mappe sono solo nel file a parte.
 - **Lezioni già consegnate:** se hanno le mappe nel video, aggiungete solo `Mappe_<tag>.pdf` sul ramo di consegna (nessuna ricodifica). Se NON hanno le mappe nel video, scrivetelo in PER_LA_MASTER / nello stato («senza mappe nel video») così la master fa l elenco per Sara.
 
+
+## 15/11 sera (19:50) · VOCI: LIMITE GIORNALIERO DI GOOGLE RAGGIUNTO (100 per modello)
+- Fino alle **09:00 di domani** non si generano voci nuove. Le richieste già sui rami `voci-*` restano in coda: **non rifarle, non cambiare nomi**. Alle 9 il servizio riparte da solo, con priorità alle correzioni del controllo 15/11 e alle lezioni di Storia V, Letteratura V e Storia dell arte.
+- **Non fermatevi:** fate tutto il resto con le voci SEGNAPOSTO (pezzi nuovi, mappe, compiti nel video, `compiti.json`, PDF delle mappe, sottotitoli, testi YouTube). Stato `IN_MONTAGGIO` con nota «pronta, attende voci Kore».
+- Le lezioni che hanno già tutte le voci: chiudetele e consegnatele stanotte.
+
