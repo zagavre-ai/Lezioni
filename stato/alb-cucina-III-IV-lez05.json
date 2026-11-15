@@ -14,8 +14,13 @@
    "testo": "Quiz e testi voci di Made in Italy (file Da_approvare_Made_in_Italy.txt) da approvare"
   }
  ],
- "note": [],
+ "note": [
+  {
+   "quando": "15/11 08:06",
+   "testo": "15/11: file di lavoro pronti (trascrizione, sincronia con tempi parola per parola, slide, video docente con il cerchio pulito). Aspetto l'approvazione di Sara su quiz e testi voci (Da_approvare_Made_in_Italy.txt); poi testi_voci.json sul ramo voci-alb-cucina-III-IV-lez05, voci Kore dalla master, montaggio, codifica e consegna su git."
+  }
+ ],
  "materia": "Laboratori dei servizi enogastronomici – settore cucina",
  "lezione": "Made in Italy",
- "aggiornato": "2026-11-14 22:43:23"
+ "aggiornato": "2026-11-15 08:06:32"
 }
