@@ -6,32 +6,32 @@
   {
    "n": 1,
    "titolo": "La vita e i traumi di Pavese",
-   "inizio_s": 36.267,
-   "quiz_s": 923.201
+   "inizio_s": 36.25,
+   "quiz_s": 923.184
   },
   {
    "n": 2,
    "titolo": "La storia e l'impegno politico",
-   "inizio_s": 928.201,
-   "quiz_s": 1315.402
+   "inizio_s": 928.184,
+   "quiz_s": 1315.419
   },
   {
    "n": 3,
    "titolo": "Il mito e Il mestiere di vivere",
-   "inizio_s": 1320.402,
-   "quiz_s": 2026.134
+   "inizio_s": 1320.419,
+   "quiz_s": 2026.184
   },
   {
    "n": 4,
    "titolo": "Le opere narrative",
-   "inizio_s": 2031.134,
-   "quiz_s": 2781.067
+   "inizio_s": 2031.184,
+   "quiz_s": 2781.117
   },
   {
    "n": 5,
    "titolo": "La luna e i falò",
-   "inizio_s": 2786.067,
-   "quiz_s": 3303.234
+   "inizio_s": 2786.117,
+   "quiz_s": 3303.284
   }
  ],
  "quiz": {
@@ -311,6 +311,6 @@
    ]
   }
  },
- "t_verifica": 3484.66,
- "t_compiti": 3498.16
+ "t_verifica": 3484.71,
+ "t_compiti": 3498.21
 }
