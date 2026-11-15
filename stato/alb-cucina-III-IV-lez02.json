@@ -3,14 +3,14 @@
  "parti": {
   "1": {
    "titolo": "Prodotti ittici · Parte 1",
-   "stato": "FERMA",
-   "voci": "segnaposto",
-   "video": "Cucina_Prodotti_ittici_Parte1_VIDEO.mp4",
-   "durata_s": 3026.4,
-   "durata": "50:26.4",
-   "fotogrammi": 90793,
-   "fotogrammi_attesi": 90793,
-   "peso_MB": 265.5,
+   "stato": "PRONTA",
+   "voci": "kore",
+   "video": "Cucina_Lez2_Parte1_1080p.mp4",
+   "durata_s": 3064.3,
+   "durata": "51:04.3",
+   "fotogrammi": 91929,
+   "fotogrammi_attesi": 91929,
+   "peso_MB": 183.5,
    "timeline": [
     [
      "T1",
@@ -19,40 +19,297 @@
     ],
     [
      "Q1",
-     707.833,
+     713.732,
      4.0
     ],
     [
      "T2",
-     713.133,
+     719.032,
      3.6
     ],
     [
      "T3",
-     1687.133,
+     1696.699,
      3.6
     ],
     [
      "T4",
-     2260.566,
+     2274.365,
      3.6
     ],
     [
      "GL1",
-     2871.532,
+     2889.797,
      63.467
     ],
     [
      "RF1",
-     2936.599,
+     2954.864,
      70.167
     ],
     [
      "FIN1",
-     3008.166,
+     3026.431,
      10.367
     ]
-   ]
+   ],
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "si",
+   "vtt": "Cucina_Lez2_Parte1.vtt",
+   "scheda": {
+    "materia": "Laboratori dei servizi enogastronomici – settore cucina",
+    "titolo": "Prodotti ittici · Parte 1",
+    "durata_s": 3064.3,
+    "argomenti": [
+     {
+      "n": 1,
+      "titolo": "I prodotti ittici: classificazione",
+      "inizio_s": 47.499,
+      "quiz_s": 713.732
+     },
+     {
+      "n": 2,
+      "titolo": "Pesci azzurri, bianchi e d'acqua dolce",
+      "inizio_s": 719.032,
+      "quiz_s": 1691.399
+     },
+     {
+      "n": 3,
+      "titolo": "Pesci diadromi e sottoprodotti",
+      "inizio_s": 1696.699,
+      "quiz_s": 2269.065
+     },
+     {
+      "n": 4,
+      "titolo": "Mercati e acquacoltura",
+      "inizio_s": 2274.365,
+      "quiz_s": 2884.497
+     }
+    ],
+    "quiz": {
+     "Q1": {
+      "title": "Quiz 1 · I prodotti ittici: classificazione",
+      "items": [
+       {
+        "p": "In quali tre grandi categorie si dividono i prodotti ittici in base alla specie?",
+        "a": "Pesci, molluschi e crostacei",
+        "w": [
+         "Pesci di mare, di acqua dolce e diadromi",
+         "Pesci magri, semigrassi e grassi",
+         "Bivalvi, cefalopodi e gasteropodi"
+        ],
+        "ref": "In base alla specie di appartenenza, la distinzione principale avviene tra pesci, molluschi e crostacei."
+       },
+       {
+        "p": "Quale percentuale di grassi hanno i pesci magri?",
+        "a": "Meno del 3%",
+        "w": [
+         "Tra il 3% e il 10%",
+         "Più del 10%",
+         "Circa il 20%"
+        ],
+        "ref": "I pesci magri hanno una percentuale di grassi inferiore al 3%."
+       },
+       {
+        "p": "Quale zona di pesca FAO identifica il Mar Mediterraneo?",
+        "a": "L'area 37",
+        "w": [
+         "L'area 27",
+         "L'area 47",
+         "L'area 73"
+        ],
+        "ref": "La FAO ha mappato il planisfero con zone di pesca numerate, come l'area 37 che identifica il Mediterraneo."
+       },
+       {
+        "p": "Come si chiamano i molluschi protetti da due conchiglie?",
+        "a": "Lamellibranchi o bivalvi",
+        "w": [
+         "Cefalopodi",
+         "Gasteropodi",
+         "Macruri"
+        ],
+        "ref": "I lamellibranchi o bivalvi sono protetti da due conchiglie."
+       },
+       {
+        "p": "Come si chiama la protezione esterna dei crostacei?",
+        "a": "Carapace",
+        "w": [
+         "Conchiglia",
+         "Bisso",
+         "Penna"
+        ],
+        "ref": "I crostacei sono dotati di una robusta protezione esterna denominata carapace."
+       }
+      ]
+     },
+     "Q2": {
+      "title": "Quiz 2 · Pesci azzurri, bianchi e d'acqua dolce",
+      "items": [
+       {
+        "p": "Come si riconoscono i pesci azzurri?",
+        "a": "Dorso bluastro e ventre argenteo, carni ricche di omega-3",
+        "w": [
+         "Carni bianche e magre, senza spine",
+         "Corpo piatto con entrambi gli occhi su un lato",
+         "Scheletro cartilagineo e pelle senza squame"
+        ],
+        "ref": "I pesci azzurri si caratterizzano per il dorso di colore bluastro e il ventre argenteo, con carni ricche di omega-3."
+       },
+       {
+        "p": "Dalle uova di quale pesce si ricava la bottarga, essiccata e salata?",
+        "a": "Dal cefalo o muggine",
+        "w": [
+         "Dal branzino",
+         "Dal merluzzo",
+         "Dall'orata"
+        ],
+        "ref": "Il cefalo o muggine si adatta a diverse salinità e dalle sue uova si ricava la bottarga."
+       },
+       {
+        "p": "Come si chiama il merluzzo essiccato?",
+        "a": "Stoccafisso",
+        "w": [
+         "Baccalà",
+         "Missoltino",
+         "Colatura"
+        ],
+        "ref": "Il merluzzo è utilizzato fresco, essiccato come stoccafisso o salato come baccalà."
+       },
+       {
+        "p": "Quale pesce d'acqua dolce dà il nome alla preparazione «in carpione»?",
+        "a": "La carpa",
+        "w": [
+         "La tinca",
+         "Il luccio",
+         "La trota"
+        ],
+        "ref": "Dal nome della carpa deriva la tecnica di preparazione in carpione."
+       },
+       {
+        "p": "Quale pesce è indispensabile per le zuppe di pesce per la sua testa massiccia?",
+        "a": "Lo scorfano",
+        "w": [
+         "La sogliola",
+         "Il pesce spada",
+         "Il palombo"
+        ],
+        "ref": "Lo scorfano è indispensabile per le zuppe di pesce a causa della sua testa massiccia."
+       }
+      ]
+     },
+     "Q3": {
+      "title": "Quiz 3 · Pesci diadromi e sottoprodotti",
+      "items": [
+       {
+        "p": "Che cosa sono i pesci diadromi?",
+        "a": "Pesci migratori che vivono in parte in acqua dolce e in parte in acqua salata",
+        "w": [
+         "Pesci che vivono solo sui fondali marini",
+         "Pesci d'acqua dolce allevati nei laghi",
+         "Pesci cartilaginei senza lische"
+        ],
+        "ref": "I pesci diadromi sono organismi migratori che trascorrono parte del ciclo vitale in acqua dolce e parte in acqua salata."
+       },
+       {
+        "p": "Dove nasce l'anguilla?",
+        "a": "Nel Mar dei Sargassi, nell'Oceano Atlantico",
+        "w": [
+         "Nel fiume Po",
+         "Nei mari del Nord Europa",
+         "Nel Mar Adriatico"
+        ],
+        "ref": "L'anguilla nasce nel Mar dei Sargassi, nell'Oceano Atlantico, e risale i fiumi europei."
+       },
+       {
+        "p": "Da quale pesce si ottiene il caviale?",
+        "a": "Dallo storione",
+        "w": [
+         "Dal salmone",
+         "Dall'aringa",
+         "Dal lompo"
+        ],
+        "ref": "Il caviale è costituito da uova di storione estratte manualmente e salate; uova di aringa, salmone o lompo danno solo succedanei."
+       },
+       {
+        "p": "Per quanto tempo stagiona la bottarga?",
+        "a": "Circa novanta giorni",
+        "w": [
+         "Circa dieci giorni",
+         "Circa un anno",
+         "Circa ventiquattro ore"
+        ],
+        "ref": "Le uova vengono lavate, salate, pressate e lasciate stagionare per circa novanta giorni."
+       },
+       {
+        "p": "Perché la pesca dello storione è vietata?",
+        "a": "Perché è una specie protetta",
+        "w": [
+         "Perché le sue carni sono tossiche",
+         "Perché vive solo in acque profonde",
+         "Perché si trova solo nel Mar dei Sargassi"
+        ],
+        "ref": "Lo storione è oggi una specie protetta la cui pesca è vietata; il prodotto in commercio deriva dall'allevamento."
+       }
+      ]
+     },
+     "Q4": {
+      "title": "Quiz 4 · Mercati e acquacoltura",
+      "items": [
+       {
+        "p": "Che cosa significa la sigla GDO?",
+        "a": "Grande distribuzione organizzata",
+        "w": [
+         "Gestione delle denominazioni d'origine",
+         "Grossisti del dettaglio ortofrutticolo",
+         "Garanzia di origine"
+        ],
+        "ref": "La grande distribuzione organizzata (GDO) è rappresentata dai grandi supermercati con reparti pescheria interni."
+       },
+       {
+        "p": "Nell'acquacoltura intensiva, come vengono nutriti i pesci?",
+        "a": "Con mangimi artificiali",
+        "w": [
+         "Solo con le risorse naturali dell'ambiente",
+         "In parte con mangimi e in parte con risorse naturali",
+         "Non vengono nutriti"
+        ],
+        "ref": "Nell'acquacoltura intensiva i pesci sono nutriti con mangimi artificiali."
+       },
+       {
+        "p": "Quali specie si allevano nelle gabbie in mare aperto?",
+        "a": "Branzini, orate, cefali, tonni e ricciole",
+        "w": [
+         "Trote, carpe e storioni",
+         "Solo anguille e salmoni",
+         "Cozze, ostriche e vongole"
+        ],
+        "ref": "Gli impianti in mare aperto sono gabbie galleggianti o sommergibili dove vengono allevati branzini, orate, cefali, tonni e ricciole."
+       },
+       {
+        "p": "Quale sfida ambientale solleva l'acquacoltura?",
+        "a": "L'inquinamento delle acque e la gestione del pesce usato come mangime",
+        "w": [
+         "La scomparsa delle valli da pesca",
+         "L'aumento dei costi di trasporto",
+         "Il divieto di vendita nei mercati locali"
+        ],
+        "ref": "L'acquacoltura solleva sfide ambientali come l'inquinamento delle acque e la gestione delle masse di pesce utilizzate come mangime."
+       },
+       {
+        "p": "Che cosa sono le valli da pesca?",
+        "a": "Impianti di allevamento sotto costa, vicino al litorale",
+        "w": [
+         "Gabbie galleggianti in mare aperto",
+         "Mercati all'ingrosso del pesce",
+         "Zone di pesca FAO"
+        ],
+        "ref": "Gli impianti sotto costa, come le valli da pesca, si trovano in prossimità del litorale."
+       }
+      ]
+     }
+    }
+   }
   },
   "2": {
    "titolo": "Prodotti ittici · Parte 2",
@@ -108,7 +365,7 @@
    ]
   }
  },
- "manca": "P1 e P2 montate con chiusura nuova; Quiz 7 di P2 corretto (scatto 0,0 s). Mancano: voci Kore (testi da approvare da Sara), codifica 1440p.",
+ "manca": "nulla: Parte pronta, da caricare su YouTube",
  "serve_master": [
   {
    "quando": "10/11 20:43",
@@ -140,9 +397,13 @@
   {
    "quando": "10/11 21:29",
    "testo": "P2 montata 51:47.6 con la chiusura nuova (voci provvisorie, non codificata): t_verifica=3081.7 s, t_compiti=3101.3 s; scatto Quiz 0,0 s."
+  },
+  {
+   "quando": "15/11 01:07",
+   "testo": "Parte pronta (1080p, voci Kore): t_verifica=3038.4 s, t_compiti=3058.0 s. Sottotitoli riallineati sulla voce del video finale (scarto medio 0,03 s, max 0,12 s su tutti i blocchi controllati)."
   }
  ],
  "materia": "Laboratori dei servizi enogastronomici – settore cucina",
  "lezione": "Prodotti ittici",
- "aggiornato": "2026-11-11 13:17:26"
+ "aggiornato": "2026-11-15 01:07:24"
 }
