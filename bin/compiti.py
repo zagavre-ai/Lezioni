@@ -1,5 +1,5 @@
 import sys, re, json, subprocess
-NN = sys.argv[1]; N = int(NN); D = f'/home/claude/w/l{NN}/'
+NN = sys.argv[1]; sys.path.insert(0, '/home/claude/w/bin'); from conf import CONF; N = CONF[NN]['N']; D = f'/home/claude/w/l{NN}/'
 pdf = '/tmp/claude-0/-home-user-Lezioni/aa838b16-be86-588f-84fd-78776ad6250d/scratchpad/rel/compiti/LETTERATURA ITALIANA V /LEZIONE %d.pdf' % N
 txt = subprocess.run(['pdftotext', '-layout', pdf, '-'], capture_output=True, text=True).stdout
 qs = [re.sub(r'\s+', ' ', x).strip() for x in re.split(r'\n\s*\d\)\s', '\n' + txt.split('LEZIONE %d' % N, 1)[1])[1:]]

@@ -183,17 +183,16 @@ def sequenza():
         S+=[(nm,an_clip(nm),'N') for nm in ANS.get(f'Q{i}',[])]
     S+=[('GL1',mix_clip('GL1',D+'ins/GL1.mp4','trans',0.0,VW+'GL1.wav',1.0,bed=True),'A'),
         ('RF1',mix_clip('RF1',D+'ins/RF1.mp4','trans',0.0,VW+'RF1.wav',1.0,bed=True),'A'),
-        ('FIN1',mix_clip('FIN1',D+'dk/FIN1.mp4','finale',0.4,VW+'FIN1.wav',1.0),'F'),
-        ('VER',mix_clip('VER',CD+'VER.mp4'),'V'),
-        ('SFIN',sigla('SFIN',SIG+'Sigla_finale_chiusura.mp4'),'G'),
-        ('CI1',mix_clip('CI1',CD+'CI1.mp4','quiz',0.5),'I'),
-        ('COMP',mix_clip('COMP',CD+'COMP.mp4'),'V')]
+        ('FIN1',mix_clip('FIN1',D+'dk/FIN1.mp4','finale',0.4,VW+'FIN1.wav',1.0),'F')]
+    if not C.get('senza_verifica'):S.append(('VER',mix_clip('VER',CD+'VER.mp4'),'V'))
+    S.append(('SFIN',sigla('SFIN',SIG+'Sigla_finale_chiusura.mp4'),'G'))
+    if not C.get('senza_verifica'):S+=[('CI1',mix_clip('CI1',CD+'CI1.mp4','quiz',0.5),'I'),('COMP',mix_clip('COMP',CD+'COMP.mp4'),'V')]
     return S
 def f_lista():
     parts,tl,t=join(sequenza())
     open(D+'lista.txt','w').write(''.join("file '%s'\n"%p for p in parts))
     json.dump(tl,open(D+'timeline.json','w'),indent=0)
     d={n:(a,l) for n,a,l in tl}
-    print('durata totale %.1f s = %d:%04.1f'%(t,t//60,t%60),'| docente %.1f s'%sum(l for n,a,l in tl if n.startswith('D')),'| t_verifica %.2f t_compiti %.2f'%(d['VER'][0],d['COMP'][0]))
+    print('durata totale %.1f s = %d:%04.1f'%(t,t//60,t%60),'| docente %.1f s'%sum(l for n,a,l in tl if n.startswith('D')),'| t_verifica %.2f t_compiti %.2f'%((d['VER'][0],d['COMP'][0]) if 'VER' in d else (0,0)))
 if __name__=='__main__':
     for f in sys.argv[2:]:globals()['f_'+f]()

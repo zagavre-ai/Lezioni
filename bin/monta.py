@@ -24,6 +24,8 @@ def f_unita():
         cards=[]
         for n in A['sl']:
             tit=S[n]['tx'][1][0]
+            for stp in S[n].get('strips',[]):
+                cards.append(dict(slide=n,tit=tit,lab='',txt='',full='·'*40,strip=stp))
             for t,bo in S[n]['tx'][2:]:
                 if t=='Pagina':continue
                 lab=bo.strip() if bo and t.startswith(bo.strip()[:5]) else ''
@@ -51,7 +53,7 @@ def f_unita():
         # pagine: stessa slide, al massimo 3 card
         pages=[];cur=[]
         for c in cards:
-            if cur and (len(cur)==3 or cur[-1]['slide']!=c['slide']):pages.append(cur);cur=[]
+            if cur and (len(cur)==3 or cur[-1]['slide']!=c['slide'] or c.get('strip')):pages.append(cur);cur=[]
             cur.append(c)
         if cur:pages.append(cur)
         U.append(dict(k=k+1,t=A['t'],a=round(a,2),b=round(b,2),img=A['img'],pages=pages))
@@ -92,8 +94,16 @@ def slide_html(u,page,act,pnum,cover=False):
 <div style="font-size:36px;color:#0B1530;margin-top:40px;font-weight:600">{DOC}</div></div>"""
     else:
         cx=80+(380 if img else 0);cw=1440-cx
-        cards=''
-        for i,c in enumerate(page):
+        if page[0].get('strip'):
+            stp=page[0]['strip']
+            body=f"""<div class=mono style="position:absolute;left:80px;top:54px;font-size:24px;letter-spacing:5px;color:#2060AF">ARGOMENTO {u['k']} · {E(u['t'].upper())}</div>
+<div class=brico style="position:absolute;left:80px;top:96px;width:1380px;font-size:54px;line-height:1.08;color:#0B1530">{E(page[0]['tit'])}</div>
+<div style="position:absolute;left:80px;top:178px;width:300px;height:8px;background:#FFE600;border-radius:4px"></div>
+<img src="{URI(D+'img/'+stp)}" style="position:absolute;left:80px;top:230px;width:1340px;border-radius:12px;box-shadow:0 10px 30px rgba(11,21,48,.25);background:#fff">"""
+            cards=None
+        else:
+            cards=''
+        for i,c in enumerate([] if cards is None else page):
             on=i==act;done=i<act
             st=('border:4px solid #2060AF;box-shadow:0 0 0 10px rgba(255,230,0,.60);opacity:1' if on else 'border:4px solid #C9D0DC;opacity:%s'%('.55' if done else '.40'))
             lab=f'<span style="font-weight:800;color:#2060AF">{E(c["lab"])}</span> ' if c['lab'] else ''
@@ -101,7 +111,7 @@ def slide_html(u,page,act,pnum,cover=False):
 <div style="flex:none;width:52px;height:52px;border-radius:50%;background:{'#2060AF' if on else '#C9D0DC'};color:#fff;font-weight:800;font-size:28px;display:flex;align-items:center;justify-content:center">{i+1}</div>
 <div style="font-size:{34 if len(c['full'])<150 else 31}px;line-height:1.32;color:#0B1530">{lab}{E(c['txt'])}</div></div>"""
         pic=f'<img src="{URI(D+"img/"+img)}" style="position:absolute;left:80px;top:230px;width:340px;border-radius:14px;box-shadow:0 10px 30px rgba(11,21,48,.25)">' if img else ''
-        body=f"""<div class=mono style="position:absolute;left:80px;top:54px;font-size:24px;letter-spacing:5px;color:#2060AF">ARGOMENTO {u['k']} · {E(u['t'].upper())}</div>
+        if cards is not None: body=f"""<div class=mono style="position:absolute;left:80px;top:54px;font-size:24px;letter-spacing:5px;color:#2060AF">ARGOMENTO {u['k']} · {E(u['t'].upper())}</div>
 <div class=brico style="position:absolute;left:80px;top:96px;width:1380px;font-size:{54 if len(page[0]['tit'])<46 else 46}px;line-height:1.08;color:#0B1530">{E(page[0]['tit'])}</div>
 <div style="position:absolute;left:80px;top:{178 if len(page[0]['tit'])<46 else 170}px;width:300px;height:8px;background:#FFE600;border-radius:4px"></div>
 {pic}<div style="position:absolute;left:{cx}px;top:230px;width:{cw}px;display:flex;flex-direction:column;gap:26px">{cards}</div>"""

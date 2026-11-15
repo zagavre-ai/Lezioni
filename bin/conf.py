@@ -40,3 +40,15 @@ CONF['25']=dict(N=25,titolo="Pier Paolo Pasolini",cam=(820,340,242,132),
        dict(t="Le prime fasi poetiche e i conflitti interiori",l=['Poesia e','conflitti interiori'],ex='ermetismo · Friuli · marxismo eretico',sl=[6,7],img=None,a=629.0,st={6:629.0,7:777.5}),
        dict(t="La narrativa e il cinema",l=['La narrativa','e il cinema'],ex='borgate · sottoproletariato · Accattone',sl=[8,9],img=None,a=875.0,st={8:875.0,9:1022.0}),
        dict(t="L'ultimo Pasolini",l=["L’ultimo Pasolini"],ex='Scritti corsari · consumismo · Terzo Mondo',sl=[10],img=None,a=1081.0)])
+CONF['14']=dict(N=14,senza_verifica=True,titolo="Luigi Pirandello · Parte 1",cam=(820,340,242,132),
+  arg=[dict(t="Pirandello e la crisi del primo Novecento",l=['La crisi del','primo Novecento'],ex='Girgenti · flusso · crisi dell’io · trappola',sl=[2,3],img=None,a=181.0,st={2:181.0,3:486.0}),
+       dict(t="La visione del mondo e l'umorismo",l=['La visione del mondo','e l’umorismo'],ex='avvertimento · sentimento del contrario',sl=[2],img=None,a=940.0),
+       dict(t="Il fu Mattia Pascal",l=['Il fu','Mattia Pascal'],ex='Adriano Meis · forestiere della vita',sl=[4],img=None,a=1340.0),
+       dict(t="Uno, nessuno e centomila",l=['Uno, nessuno','e centomila'],ex='Moscarda · identità · natura',sl=[6],img=None,a=1760.0)])
+CONF['14b']=dict(N=14,titolo="Luigi Pirandello · Parte 2",cam=(820,340,242,132),
+  arg=[dict(t="Il teatro grottesco e Il giuoco delle parti",l=['Il teatro grottesco','e Il giuoco delle parti'],ex='Leone Gala · maschera · tragedia',sl=[2],img=None,a=8.0),
+       dict(t="Sei personaggi in cerca d'autore",l=['Sei personaggi','in cerca d’autore'],ex='teatro nel teatro · comunicare',sl=[3],img=None,a=137.0),
+       dict(t="Enrico IV",l=['Enrico IV'],ex='follia · maschera · condanna',sl=[4],img=None,a=344.0),
+       dict(t="L'ultima produzione e le ultime novelle",l=['L’ultima produzione','e le ultime novelle'],ex='pirandellismo · Giganti · novelle',sl=[5,6],img=None,a=472.0,st={5:472.0,6:615.0}),
+       dict(t="Ciàula scopre la luna",l=['Ciàula','scopre la luna'],ex='miniera · buio · epifania',sl=[7],img=None,a=820.0),
+       dict(t="Il treno ha fischiato",l=['Il treno','ha fischiato'],ex='Belluca · trappola · umorismo',sl=[8],img=None,a=1120.0)])

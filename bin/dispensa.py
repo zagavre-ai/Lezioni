@@ -18,7 +18,13 @@ n=1
 for u in U:
     for j,pg in enumerate(u['pages']):
         n+=1;img=u['img']
-        cards=''.join(f"<div class=c>{'<b>'+E(c['lab'])+'</b> ' if c['lab'] else ''}{E(c['txt'])}</div>" for c in pg)
+        def _card(c):
+            if c.get('strip'):
+                import base64 as _bb
+                f=D+'img/'+c['strip'];m='png' if f.endswith('png') else 'jpeg'
+                return f'<img style="width:100%;border-radius:2mm;margin-bottom:3mm" src="data:image/{m};base64,'+_bb.b64encode(open(f,'rb').read()).decode()+'">'
+            return f"<div class=c>{'<b>'+E(c['lab'])+'</b> ' if c['lab'] else ''}{E(c['txt'])}</div>"
+        cards=''.join(_card(c) for c in pg)
         pic=f'<img src="{URI(D+"img/"+img)}" style="position:absolute;left:18mm;top:42mm;width:62mm;border-radius:3mm">' if img and j==0 else ''
         x=88 if pic else 18
         P.append(f"""<div class=pg><div class=k style="position:absolute;left:18mm;top:14mm">ARGOMENTO {u['k']} · {E(u['t'].upper())}</div>
