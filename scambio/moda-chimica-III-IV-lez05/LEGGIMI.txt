@@ -1,0 +1,3 @@
+Richiesta voci Kore · Chimica applicata Moda III+IV · «Fibre vegetali» (Prof.ssa Piera Caputi)
+blocchi / frasi / caratteri: 16 71 5453. Testi in testi_voci.json, un file per blocco: vox/<NOME>.wav + ESITI.txt.
+Le frasi di ogni blocco vanno generate in sequenza (la chat usa le pause per sincronizzare le animazioni). Numeri scritti in lettere di proposito.
