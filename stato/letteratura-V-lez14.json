@@ -2,7 +2,758 @@
  "tag": "letteratura-V-lez14",
  "parti": {
   "1": {
-   "stato": "IN_MONTAGGIO"
+   "stato": "PRONTA",
+   "titolo": "Pirandello · Parte 1",
+   "voci": "kore",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "si",
+   "video": "Letteratura_Lez14_Parte1_1080p.mp4",
+   "durata_s": 3007.5,
+   "durata": "50:07.5",
+   "fotogrammi": 90226,
+   "fotogrammi_attesi": 90226,
+   "peso_MB": 190.2,
+   "vtt": "Letteratura_Lez14_Parte1.vtt",
+   "scheda": {
+    "materia": "Letteratura italiana (V)",
+    "titolo": "Pirandello · Parte 1",
+    "durata_s": 3007.53,
+    "argomenti": [
+     {
+      "n": 1,
+      "titolo": "Pirandello e la crisi del primo Novecento",
+      "inizio_s": 234.567,
+      "quiz_s": 1278.933
+     },
+     {
+      "n": 2,
+      "titolo": "La visione del mondo e la trappola sociale",
+      "inizio_s": 1284.233,
+      "quiz_s": 1828.298
+     },
+     {
+      "n": 3,
+      "titolo": "I primi grandi romanzi",
+      "inizio_s": 1833.598,
+      "quiz_s": 2412.064
+     },
+     {
+      "n": 4,
+      "titolo": "Uno, nessuno e centomila",
+      "inizio_s": 2417.364,
+      "quiz_s": 2821.662
+     }
+    ],
+    "quiz": {
+     "Q1": {
+      "title": "Quiz 1 · Pirandello e la crisi del primo Novecento",
+      "items": [
+       {
+        "p": "Dove nasce Luigi Pirandello?",
+        "a": "A Girgenti, l'antica Agrigento, in Sicilia",
+        "w": [
+         "A Milano",
+         "A Roma",
+         "A Napoli"
+        ],
+        "e": "Nasce in Sicilia da una famiglia agiata di condizione borghese."
+       },
+       {
+        "p": "Che cosa provoca il dissesto economico della famiglia?",
+        "a": "La crisi delle miniere di zolfo in cui era investito il patrimonio",
+        "w": [
+         "Il fallimento di una banca",
+         "Una guerra",
+         "Un incendio"
+        ],
+        "e": "Nelle miniere erano investiti anche i soldi della dote della moglie."
+       },
+       {
+        "p": "Che cosa accade alla moglie Antonietta Portulano?",
+        "a": "Si ammala di mente",
+        "w": [
+         "Muore giovane",
+         "Diventa scrittrice",
+         "Lascia la famiglia"
+        ],
+        "e": "Ha una malattia mentale, con anche ricoveri."
+       },
+       {
+        "p": "Da quali pensatori è influenzato Pirandello?",
+        "a": "Dal vitalismo di Bergson e dalle teorie psicologiche di Binet",
+        "w": [
+         "Da Marx e Engels",
+         "Da Kant e Hegel",
+         "Da Croce e Gentile"
+        ],
+        "e": "Bergson e Binet sono alla base della sua visione della pluralità dell'io."
+       },
+       {
+        "p": "Che cosa demolisce Pirandello con la crisi dell'io?",
+        "a": "Il concetto di identità personale e di realtà oggettiva",
+        "w": [
+         "Il concetto di patria",
+         "Il concetto di scienza",
+         "Il concetto di fede"
+        ],
+        "e": "L'io non è unico: è un prisma di tante sfumature."
+       }
+      ]
+     },
+     "Q2": {
+      "title": "Quiz 2 · La visione del mondo e la trappola sociale",
+      "items": [
+       {
+        "p": "Che cos'è l'«avvertimento del contrario»?",
+        "a": "Il comico, che nasce dalla percezione di una situazione ridicola",
+        "w": [
+         "Il drammatico",
+         "Un tipo di verso",
+         "La riflessione sul destino"
+        ],
+        "e": "È la prima impressione, prima della riflessione."
+       },
+       {
+        "p": "Che cos'è il «sentimento del contrario»?",
+        "a": "Il drammatico e tragico che emerge dalla riflessione",
+        "w": [
+         "Il riso immediato",
+         "L'ironia sociale",
+         "Il distacco razionale"
+        ],
+        "e": "Dopo la riflessione si scopre qualcosa di triste dietro il ridicolo."
+       },
+       {
+        "p": "A che cosa si riduce l'identità individuale secondo la slide sulla trappola sociale?",
+        "a": "A una maschera inconsistente imposta dalle convenzioni sociali",
+        "w": [
+         "A un'idea astratta",
+         "A una tradizione familiare",
+         "A un talento personale"
+        ],
+        "e": "Ognuno recita un ruolo."
+       },
+       {
+        "p": "Quali istituzioni imprigionano l'uomo?",
+        "a": "La famiglia e il lavoro",
+        "w": [
+         "La scuola e la Chiesa",
+         "Lo Stato e l'esercito",
+         "La stampa e il teatro"
+        ],
+        "e": "Le istituzioni sociali lo costringono in una condizione infelice."
+       },
+       {
+        "p": "Quali vie di fuga individua Pirandello?",
+        "a": "La follia, l'immaginazione, il contatto con la natura",
+        "w": [
+         "La fede e la politica",
+         "La ricchezza e il potere",
+         "Il viaggio e il lavoro"
+        ],
+        "e": "Sono modi di rifiutare il sociale."
+       }
+      ]
+     },
+     "Q3": {
+      "title": "Quiz 3 · I primi grandi romanzi",
+      "items": [
+       {
+        "p": "Quale nuova identità si costruisce Mattia Pascal?",
+        "a": "Adriano Meis",
+        "w": [
+         "Vitangelo Moscarda",
+         "Serafino Gubbio",
+         "Leone Gala"
+        ],
+        "e": "Dopo essere stato creduto morto."
+       },
+       {
+        "p": "Perché fallisce la nuova identità?",
+        "a": "Per l'impossibilità di stabilire legami sociali legali",
+        "w": [
+         "Perché viene scoperto dalla polizia",
+         "Perché è troppo povero",
+         "Perché si ammala"
+        ],
+        "e": "Senza identità riconosciuta non si possono avere legami."
+       },
+       {
+        "p": "Come si definisce alla fine Mattia Pascal?",
+        "a": "Un «forestiere della vita»",
+        "w": [
+         "Un eroe",
+         "Un vincitore",
+         "Un uomo libero"
+        ],
+        "e": "Resta in una condizione sospesa, narratore inattendibile."
+       },
+       {
+        "p": "Che cosa critica il romanzo di Serafino Gubbio?",
+        "a": "La civiltà industriale e le macchine, che alienano l'uomo",
+        "w": [
+         "La politica fascista",
+         "La borghesia agraria",
+         "La scuola"
+        ],
+        "e": "Le macchine diventano i nuovi padroni."
+       },
+       {
+        "p": "Come finisce il romanzo di Serafino Gubbio?",
+        "a": "Il protagonista, dopo un delitto reale, si chiude nel mutismo",
+        "w": [
+         "Si sposa",
+         "Diventa un inventore",
+         "Parte per la guerra"
+        ],
+        "e": "Adotta un distacco filosofico totale."
+       }
+      ]
+     },
+     "Q4": {
+      "title": "Quiz 4 · Uno, nessuno e centomila",
+      "items": [
+       {
+        "p": "Chi è il protagonista di «Uno, nessuno e centomila»?",
+        "a": "Vitangelo Moscarda",
+        "w": [
+         "Mattia Pascal",
+         "Serafino Gubbio",
+         "Enrico IV"
+        ],
+        "e": "È il punto di arrivo della parabola pirandelliana."
+       },
+       {
+        "p": "Che atteggiamento ha Moscarda verso la perdita d'identità?",
+        "a": "La accetta come condizione positiva e liberatoria",
+        "w": [
+         "La vive con angoscia",
+         "La rifiuta",
+         "La nasconde"
+        ],
+        "e": "A differenza di Mattia Pascal."
+       },
+       {
+        "p": "Che cosa fa scattare la sua crisi?",
+        "a": "Un'imperfezione, il naso, vista dagli altri in modo diverso",
+        "w": [
+         "Un'eredità",
+         "Un tradimento",
+         "Una malattia"
+        ],
+        "e": "Diventa una grande paranoia."
+       },
+       {
+        "p": "Che cosa rifiuta Moscarda alla fine?",
+        "a": "Il proprio nome",
+        "w": [
+         "La famiglia",
+         "Il denaro",
+         "La città"
+        ],
+        "e": "Si immerge nel flusso della vita."
+       },
+       {
+        "p": "Con che cosa si fonde Moscarda?",
+        "a": "Con la natura, nel flusso mutevole della vita",
+        "w": [
+         "Con la folla",
+         "Con la macchina",
+         "Con il teatro"
+        ],
+        "e": "Muore e rinasce in ogni istante."
+       }
+      ]
+     }
+    }
+   },
+   "timeline": [
+    [
+     "T1",
+     234.567,
+     3.6
+    ],
+    [
+     "Q1",
+     1278.933,
+     4.0
+    ],
+    [
+     "T2",
+     1284.233,
+     3.6
+    ],
+    [
+     "T3",
+     1833.598,
+     3.6
+    ],
+    [
+     "T4",
+     2417.364,
+     3.6
+    ],
+    [
+     "GL1",
+     2890.628,
+     47.0
+    ],
+    [
+     "RF1",
+     2939.228,
+     51.0
+    ],
+    [
+     "FIN1",
+     2991.628,
+     8.0
+    ]
+   ]
+  },
+  "2": {
+   "titolo": "Pirandello · Parte 2",
+   "stato": "PRONTA",
+   "voci": "kore",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "si",
+   "video": "Letteratura_Lez14_Parte2_1080p.mp4",
+   "durata_s": 2916.4,
+   "durata": "48:36.4",
+   "fotogrammi": 87491,
+   "fotogrammi_attesi": 87491,
+   "peso_MB": 196.4,
+   "vtt": "Letteratura_Lez14_Parte2.vtt",
+   "scheda": {
+    "materia": "Letteratura italiana (V)",
+    "titolo": "Pirandello · Parte 2",
+    "durata_s": 2916.37,
+    "argomenti": [
+     {
+      "n": 1,
+      "titolo": "Il teatro grottesco e Il giuoco delle parti",
+      "inizio_s": 70.267,
+      "quiz_s": 319.5
+     },
+     {
+      "n": 2,
+      "titolo": "Sei personaggi in cerca d'autore",
+      "inizio_s": 324.8,
+      "quiz_s": 651.766
+     },
+     {
+      "n": 3,
+      "titolo": "Enrico IV",
+      "inizio_s": 657.066,
+      "quiz_s": 895.999
+     },
+     {
+      "n": 4,
+      "titolo": "L'ultima produzione e le ultime novelle",
+      "inizio_s": 901.299,
+      "quiz_s": 1388.031
+     },
+     {
+      "n": 5,
+      "titolo": "Ciàula scopre la luna",
+      "inizio_s": 1393.331,
+      "quiz_s": 1846.33
+     },
+     {
+      "n": 6,
+      "titolo": "Il treno ha fischiato",
+      "inizio_s": 1851.63,
+      "quiz_s": 2726.995
+     }
+    ],
+    "quiz": {
+     "Q1": {
+      "title": "Quiz 1 · Il teatro grottesco e Il giuoco delle parti",
+      "items": [
+       {
+        "p": "Che cosa supera il periodo grottesco?",
+        "a": "Il dramma borghese naturalistico",
+        "w": [
+         "Il teatro greco",
+         "Il melodramma",
+         "Il teatro di strada"
+        ],
+        "e": "Attraverso la deformazione e l'assurdo."
+       },
+       {
+        "p": "Chi è il protagonista de «Il giuoco delle parti»?",
+        "a": "Leone Gala",
+        "w": [
+         "Enrico IV",
+         "Belluca",
+         "Ciàula"
+        ],
+        "e": "Un «filosofo»."
+       },
+       {
+        "p": "Come guarda la vita Leone Gala?",
+        "a": "Dall'alto, cercando di dominare le passioni con l'intelletto",
+        "w": [
+         "Con entusiasmo",
+         "Con paura",
+         "Con ironia sociale"
+        ],
+        "e": "Con il puro intelletto."
+       },
+       {
+        "p": "Che cosa è il suo distacco razionale?",
+        "a": "Una maschera falsa",
+        "w": [
+         "Una vera saggezza",
+         "Una malattia",
+         "Una religione"
+        ],
+        "e": "Cade, e le passioni esplodono."
+       },
+       {
+        "p": "Come finisce l'opera?",
+        "a": "In una tragedia, per le passioni represse",
+        "w": [
+         "In una commedia",
+         "Con un matrimonio",
+         "Con una fuga"
+        ],
+        "e": "Il protagonista soccombe ai sentimenti reali."
+       }
+      ]
+     },
+     "Q2": {
+      "title": "Quiz 2 · Sei personaggi in cerca d'autore",
+      "items": [
+       {
+        "p": "Che cos'è il «teatro nel teatro»?",
+        "a": "La rottura della finzione scenica e dell'illusione realistica",
+        "w": [
+         "Un teatro all'aperto",
+         "Un teatro di marionette",
+         "Una commedia musicale"
+        ],
+        "e": "Pirandello proietta il pubblico dentro lo spettacolo."
+       },
+       {
+        "p": "Da chi sono rifiutati i sei personaggi?",
+        "a": "Dall'autore",
+        "w": [
+         "Dal pubblico",
+         "Dal capocomico",
+         "Dalla critica"
+        ],
+        "e": "Cercano un modo per far recitare la propria verità."
+       },
+       {
+        "p": "A chi chiedono di recitare la loro verità?",
+        "a": "Ad attori mediocri",
+        "w": [
+         "A grandi star",
+         "Al pubblico",
+         "A dei burattini"
+        ],
+        "e": "Che finiscono per deformarla."
+       },
+       {
+        "p": "Che cosa dimostra la vicenda?",
+        "a": "L'impossibilità di comunicare",
+        "w": [
+         "La forza dell'arte",
+         "La vittoria della verità",
+         "L'utilità della critica"
+        ],
+        "e": "La verità viene deformata."
+       },
+       {
+        "p": "Che cosa si fonde nello stile del dramma?",
+        "a": "Il comico e il tragico",
+        "w": [
+         "Il lirico e l'epico",
+         "Il vero e il falso solo",
+         "La prosa e il verso"
+        ],
+        "e": "Rispecchiano la frammentazione della psiche umana."
+       }
+      ]
+     },
+     "Q3": {
+      "title": "Quiz 3 · Enrico IV",
+      "items": [
+       {
+        "p": "Chi crede di essere il protagonista di «Enrico IV»?",
+        "a": "L'imperatore Enrico IV",
+        "w": [
+         "Un re di Francia",
+         "Un papa",
+         "Un filosofo greco"
+        ],
+        "e": "Impazzisce credendosi l'imperatore."
+       },
+       {
+        "p": "Che cosa sceglie dopo la guarigione?",
+        "a": "Di continuare a fingere la pazzia",
+        "w": [
+         "Di tornare alla vita reale",
+         "Di scrivere un libro",
+         "Di lasciare il paese"
+        ],
+        "e": "Per sfuggire alla vita reale."
+       },
+       {
+        "p": "Che cos'è la follia per lui?",
+        "a": "Uno strumento di difesa e salvezza contro le trappole della società",
+        "w": [
+         "Una colpa",
+         "Una punizione",
+         "Una moda"
+        ],
+        "e": "È la sua maschera protettiva."
+       },
+       {
+        "p": "Che cosa fa al suo antico rivale?",
+        "a": "Si vendica",
+        "w": [
+         "Lo perdona",
+         "Lo ignora",
+         "Lo premia"
+        ],
+        "e": "E dopo la vendetta..."
+       },
+       {
+        "p": "Come finisce la vicenda?",
+        "a": "Il protagonista è costretto a rifugiarsi nella pazzia per sempre",
+        "w": [
+         "Guarisce davvero",
+         "Muore subito",
+         "Diventa re"
+        ],
+        "e": "È la condanna definitiva."
+       }
+      ]
+     },
+     "Q4": {
+      "title": "Quiz 4 · L'ultima produzione e le ultime novelle",
+      "items": [
+       {
+        "p": "Che cos'è il «pirandellismo»?",
+        "a": "La ripetizione stanca degli schemi precedenti, con eccesso di cerebralismo",
+        "w": [
+         "Un nuovo teatro",
+         "Una corrente politica",
+         "Una scuola di filosofia"
+        ],
+        "e": "È una fase di forme artificiose."
+       },
+       {
+        "p": "Verso quale dimensione si orienta la poetica negli anni Trenta?",
+        "a": "Mitica, fantastica e simbolica",
+        "w": [
+         "Realistica e documentaria",
+         "Politica e civile",
+         "Comica e popolare"
+        ],
+        "e": "È un cambiamento di poetica."
+       },
+       {
+        "p": "Quale capolavoro incompiuto affronta il ruolo dell'arte nella società industriale?",
+        "a": "I giganti della montagna",
+        "w": [
+         "Enrico IV",
+         "Sei personaggi",
+         "Il fu Mattia Pascal"
+        ],
+        "e": "Riguarda arte e poesia."
+       },
+       {
+        "p": "Che cosa esplorano le ultime novelle?",
+        "a": "Gli impulsi più oscuri dell'inconscio",
+        "w": [
+         "La vita di provincia",
+         "La politica",
+         "La storia antica"
+        ],
+        "e": "In atmosfere surreali e fantastiche."
+       },
+       {
+        "p": "Quale tra questi è un esempio di ultima novella?",
+        "a": "Una giornata",
+        "w": [
+         "Il treno ha fischiato",
+         "Ciàula scopre la luna",
+         "La giara"
+        ],
+        "e": "Una giornata e Di sera, un geranio."
+       }
+      ]
+     },
+     "Q5": {
+      "title": "Quiz 5 · Ciàula scopre la luna",
+      "items": [
+       {
+        "p": "Dove è ambientata la novella?",
+        "a": "Nelle miniere di zolfo siciliane",
+        "w": [
+         "In una città",
+         "In una campagna toscana",
+         "In una nave"
+        ],
+        "e": "Un ambiente di sfruttamento."
+       },
+       {
+        "p": "Chi è Ciàula?",
+        "a": "Un caruso quasi privo di coscienza di sé",
+        "w": [
+         "Un padrone",
+         "Un ingegnere",
+         "Un contadino benestante"
+        ],
+        "e": "Vive in una condizione di semianimalità."
+       },
+       {
+        "p": "Qual è l'unica paura di Ciàula?",
+        "a": "Il buio profondo della notte",
+        "w": [
+         "Il padrone",
+         "La fame",
+         "Gli animali"
+        ],
+        "e": "Nasce dopo un'esplosione."
+       },
+       {
+        "p": "Che cosa vede uscendo dalla miniera?",
+        "a": "La luna che risplende nel cielo",
+        "w": [
+         "Il sole",
+         "Un incendio",
+         "Un villaggio"
+        ],
+        "e": "È un'apparizione inattesa."
+       },
+       {
+        "p": "Che cosa produce questa visione?",
+        "a": "Un'epifania, un risveglio alla coscienza",
+        "w": [
+         "Una paura più forte",
+         "Una fuga",
+         "Un'esplosione"
+        ],
+        "e": "Lo commuove fino alle lacrime."
+       }
+      ]
+     },
+     "Q6": {
+      "title": "Quiz 6 · Il treno ha fischiato",
+      "items": [
+       {
+        "p": "Chi è Belluca?",
+        "a": "Un modesto impiegato contabile, metodico e preciso",
+        "w": [
+         "Un minatore",
+         "Un medico",
+         "Un attore"
+        ],
+        "e": "Fa il suo lavoro con la maschera."
+       },
+       {
+        "p": "Che cosa è la sua vita domestica?",
+        "a": "Un inferno familiare",
+        "w": [
+         "Una pace serena",
+         "Una festa continua",
+         "Una vita da solo"
+        ],
+        "e": "Con una casa piena di donne e bambini."
+       },
+       {
+        "p": "Che cosa dice in ufficio dopo anni di sottomissione?",
+        "a": "Frasi senza senso sul fischio di un treno sentito di notte",
+        "w": [
+         "Un discorso politico",
+         "Una preghiera",
+         "Una poesia"
+        ],
+        "e": "Tutti lo credono pazzo."
+       },
+       {
+        "p": "Qual è la struttura della narrazione?",
+        "a": "Un'inchiesta, con il punto di vista dei colleghi e poi del narratore testimone",
+        "w": [
+         "Un diario",
+         "Un dialogo teatrale",
+         "Una lettera"
+        ],
+        "e": "Il narratore svela la prospettiva dell'umorismo."
+       },
+       {
+        "p": "Che cosa è stato il fischio del treno per Belluca?",
+        "a": "Un risveglio alla coscienza del mondo esterno",
+        "w": [
+         "Un incubo",
+         "Una minaccia",
+         "Un segnale di lavoro"
+        ],
+        "e": "Ha squarciato la sua grigia routine."
+       }
+      ]
+     }
+    },
+    "t_verifica": 2891.262,
+    "t_compiti": 2910.062
+   },
+   "timeline": [
+    [
+     "T1",
+     70.267,
+     3.6
+    ],
+    [
+     "Q1",
+     319.5,
+     4.0
+    ],
+    [
+     "T2",
+     324.8,
+     3.6
+    ],
+    [
+     "T3",
+     657.066,
+     3.6
+    ],
+    [
+     "T4",
+     901.299,
+     3.6
+    ],
+    [
+     "T5",
+     1393.331,
+     3.6
+    ],
+    [
+     "T6",
+     1851.63,
+     3.6
+    ],
+    [
+     "GL1",
+     2782.795,
+     45.9
+    ],
+    [
+     "RF1",
+     2830.295,
+     49.967
+    ],
+    [
+     "FIN1",
+     2881.662,
+     8.0
+    ]
+   ]
   }
  },
  "manca": "Da fare da capo (R1). Scaricati video del prof, compiti del prof e test Excel; trascrizione fatta (Gemini, tempi a frase). Non iniziato il montaggio.",
@@ -33,10 +784,18 @@
   {
    "quando": "15/11 16:52",
    "testo": "R1: correzione, le voci richieste sono 43 (non 47)."
+  },
+  {
+   "quando": "15/11 18:59",
+   "testo": "R1: Parte 1 consegnata su consegna-letteratura-V-lez14, 50:07 misurati"
+  },
+  {
+   "quando": "15/11 18:59",
+   "testo": "R1: Parte 2 consegnata, 48:36 misurati (solo materiale della lezione); verifica e compiti del prof solo nella Parte 2 (t_verifica 2891.26, t_compiti 2910.06)"
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 14",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-15 16:52:14"
+ "aggiornato": "2026-11-15 18:59:11"
 }
