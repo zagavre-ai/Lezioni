@@ -13,7 +13,7 @@
    "durata": "50:59.7",
    "fotogrammi": 91791,
    "fotogrammi_attesi": 91791,
-   "peso_MB": 210.0,
+   "peso_MB": 217.1,
    "vtt": "Cucina_Lez4_Parte1.vtt",
    "scheda": {
     "materia": "Laboratori dei servizi enogastronomici – settore cucina",
@@ -576,7 +576,7 @@
    ]
   }
  },
- "manca": "nulla: Parte pronta, da caricare su YouTube",
+ "manca": "nulla: Parte pronta, consegnata su git",
  "serve_master": [
   {
    "quando": "10/11 20:43",
@@ -608,9 +608,13 @@
   {
    "quando": "15/11 01:09",
    "testo": "Parte pronta (1080p, voci Kore): t_verifica=3035.1 s, t_compiti=3053.4 s. Sottotitoli riallineati sulla voce del video finale (scarto medio 0,03 s, max 0,12 s su tutti i blocchi controllati)."
+  },
+  {
+   "quando": "15/11 06:37",
+   "testo": "Parte pronta e consegnata su git (ramo consegna-alb-cucina-III-IV-lez04), 1080p, voci Kore: t_verifica=3035.1 s, t_compiti=3053.4 s. Cerchio della docente pulito (anello giallo), sincronia slide/voce con tempi parola per parola (5 scarti misurati nel LEGGIMI del ramo), sottotitoli riallineati sulla voce."
   }
  ],
  "materia": "Laboratori dei servizi enogastronomici – settore cucina",
  "lezione": "Gastronomia internazionale 1",
- "aggiornato": "2026-11-15 01:09:38"
+ "aggiornato": "2026-11-15 06:37:45"
 }
