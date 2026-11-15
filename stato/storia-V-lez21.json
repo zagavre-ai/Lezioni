@@ -3,11 +3,11 @@
  "parti": {
   "1": {
    "titolo": "Il mondo dal 2001 ad oggi",
-   "stato": "IN_MONTAGGIO",
+   "stato": "PRONTA",
    "voci": "kore",
    "quiz_ok": "si",
    "fermi_ok": "si",
-   "sub_ok": "no",
+   "sub_ok": "si",
    "video": "Storia_Lez21_Parte1_1080p.mp4",
    "durata_s": 4013.7,
    "durata": "66:53.7",
@@ -472,10 +472,14 @@
   {
    "quando": "14/11 16:32",
    "testo": "Parte 1: t_verifica=3994.965 s · t_compiti=4008.598 s (intro compiti a 4004.965 s)"
+  },
+  {
+   "quando": "14/11 16:34",
+   "testo": "PRONTA (chat S2): Parte unica 66:53,7 (docente 55:42; precedente: una Parte sola anche sopra 65), 289,1 MiB, -16,3 LUFS, Q1-Q6 a 0,000 s, nessun fermo. t_verifica=3994.965 s · t_compiti=4008.598 s (intro 4004.965). Slide ricavate dai fotogrammi del video + lettura del testo; mappe dal PDF del prof (zip 003). Sottotitoli: automatico 44% (docente parla quasi senza pause: la finestra di misura prende la frase precedente); controllo a mano su 8 blocchi: attacco entro 0,5 s."
   }
  ],
  "materia": "Storia",
  "lezione": "21",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 16:32:44"
+ "aggiornato": "2026-11-14 16:34:45"
 }
