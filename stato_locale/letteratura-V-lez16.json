@@ -3,7 +3,315 @@
  "parti": {
   "1": {
    "stato": "IN_MONTAGGIO",
-   "titolo": "Umberto Saba"
+   "titolo": "Umberto Saba",
+   "voci": "kore",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "no",
+   "video": "Letteratura_Lez16_Parte1_1080p.mp4",
+   "durata_s": 3311.7,
+   "durata": "55:11.7",
+   "fotogrammi": 99351,
+   "fotogrammi_attesi": 99351,
+   "peso_MB": 248.4,
+   "vtt": "Letteratura_Lez16_Parte1.vtt",
+   "scheda": {
+    "materia": "Letteratura italiana (V)",
+    "titolo": "Umberto Saba · Parte 1",
+    "durata_s": 3311.71,
+    "argomenti": [
+     {
+      "n": 1,
+      "titolo": "La vita e la formazione",
+      "inizio_s": 138.483,
+      "quiz_s": 958.402
+     },
+     {
+      "n": 2,
+      "titolo": "La «poesia onesta»",
+      "inizio_s": 963.385,
+      "quiz_s": 1693.669
+     },
+     {
+      "n": 3,
+      "titolo": "Il Canzoniere",
+      "inizio_s": 1698.652,
+      "quiz_s": 2823.337
+     },
+     {
+      "n": 4,
+      "titolo": "La produzione in prosa",
+      "inizio_s": 2828.32,
+      "quiz_s": 3139.772
+     }
+    ],
+    "quiz": {
+     "Q1": {
+      "title": "Quiz 1 · La vita e la formazione",
+      "items": [
+       {
+        "p": "In che città nasce Umberto Saba, nel 1883?",
+        "a": "A Trieste",
+        "w": [
+         "A Firenze",
+         "A Gorizia",
+         "A Milano"
+        ],
+        "e": "Nasce a Trieste nel 1883, in pieno impero austro-ungarico."
+       },
+       {
+        "p": "Che cosa accade al padre di Saba prima della sua nascita?",
+        "a": "Abbandona la famiglia",
+        "w": [
+         "Muore in guerra",
+         "Emigra in America",
+         "Viene arrestato"
+        ],
+        "e": "Il padre cristiano abbandona la famiglia prima della nascita del poeta."
+       },
+       {
+        "p": "A chi viene affidato Saba da bambino?",
+        "a": "Alla balia slovena Peppa Sabaz",
+        "w": [
+         "A uno zio ebreo",
+         "A un collegio religioso",
+         "Ai nonni materni"
+        ],
+        "e": "Viene affidato alla balia slovena Peppa Sabaz, un periodo felice interrotto dal ritorno dalla madre."
+       },
+       {
+        "p": "Che cosa colpisce Saba nel 1938?",
+        "a": "Le leggi razziali",
+        "w": [
+         "La condanna al confino",
+         "La chiusura della rivista",
+         "Il richiamo alle armi"
+        ],
+        "e": "Le leggi razziali lo colpiscono per le origini ebraiche: cede la libreria antiquaria e fugge."
+       },
+       {
+        "p": "Dove muore Saba, nel 1957?",
+        "a": "A Gorizia",
+        "w": [
+         "A Trieste",
+         "A Parigi",
+         "A Roma"
+        ],
+        "e": "Muore a Gorizia nel 1957."
+       }
+      ]
+     },
+     "Q2": {
+      "title": "Quiz 2 · La «poesia onesta»",
+      "items": [
+       {
+        "p": "Quale modello rifiuta Saba?",
+        "a": "Quello dannunziano",
+        "w": [
+         "Quello di Petrarca",
+         "Quello di Leopardi",
+         "Quello di Dante"
+        ],
+        "e": "Rifiuta il modello dannunziano, l'estetismo e il formalismo vuoto."
+       },
+       {
+        "p": "In che cosa consiste la «poesia onesta»?",
+        "a": "Nel desiderio di sincerità, senza finzioni",
+        "w": [
+         "Nella ricerca di rime rare",
+         "Nella celebrazione dell'eroe",
+         "Nell'uso del dialetto triestino"
+        ],
+        "e": "È il desiderio di sincerità: descrivere le cose per ciò che sono, senza abbellimenti artificiali."
+       },
+       {
+        "p": "Quali forme metriche usa Saba?",
+        "a": "Endecasillabo e settenario",
+        "w": [
+         "Solo versi liberi",
+         "Solo il sonetto",
+         "Il verso breve futurista"
+        ],
+        "e": "Usa parole quotidiane e schemi classici, come l'endecasillabo e il settenario."
+       },
+       {
+        "p": "Quale teoria lo aiuta a indagare l'animo umano?",
+        "a": "La psicanalisi di Freud",
+        "w": [
+         "Il positivismo",
+         "L'idealismo di Croce",
+         "Il marxismo"
+        ],
+        "e": "La psicanalisi di Freud lo aiuta a far emergere desideri e pulsioni dell'inconscio."
+       },
+       {
+        "p": "A che cosa serve la poesia, per Saba?",
+        "a": "A riportare alla luce le verità rimosse",
+        "w": [
+         "A divertire il lettore",
+         "A celebrare la patria",
+         "A descrivere il paesaggio"
+        ],
+        "e": "Serve a riportare alla luce le verità dolorose rimosse dalla coscienza: ha una funzione terapeutica."
+       }
+      ]
+     },
+     "Q3": {
+      "title": "Quiz 3 · Il Canzoniere",
+      "items": [
+       {
+        "p": "Che cos'è il Canzoniere?",
+        "a": "La raccolta di tutta la produzione poetica di Saba",
+        "w": [
+         "Un romanzo incompiuto",
+         "Una raccolta di saggi",
+         "Un diario"
+        ],
+        "e": "È l'autobiografia in versi che raccoglie tutta la produzione poetica di Saba."
+       },
+       {
+        "p": "A quali età corrispondono i tre volumi?",
+        "a": "Giovinezza, maturità e vecchiaia",
+        "w": [
+         "Infanzia, guerra e dopoguerra",
+         "Trieste, Firenze e Roma",
+         "Poesia, prosa e saggio"
+        ],
+        "e": "I tre volumi corrispondono alla giovinezza, alla maturità e alla vecchiaia del poeta."
+       },
+       {
+        "p": "Dove ritrova l'infinito il poeta in «Città vecchia»?",
+        "a": "Tra gli umili della città",
+        "w": [
+         "Nella natura",
+         "Nella religione ufficiale",
+         "Nel passato glorioso"
+        ],
+        "e": "Tra gli umili ritrova l'infinito e la presenza profonda della vita e del dolore."
+       },
+       {
+        "p": "Che cosa rappresenta la capra nell'omonima lirica?",
+        "a": "Il dolore universale di tutti gli esseri viventi",
+        "w": [
+         "Un ricordo dell'infanzia",
+         "Il paesaggio triestino",
+         "La gioia della campagna"
+        ],
+        "e": "Il belato della capra è simbolo del dolore universale, anche della sofferenza del popolo ebraico."
+       },
+       {
+        "p": "Che cosa rappresenta «Ulisse»?",
+        "a": "Il testamento spirituale di Saba",
+        "w": [
+         "Un racconto per bambini",
+         "Una poesia sul calcio",
+         "Un omaggio a Joyce"
+        ],
+        "e": "Conclude la sezione Mediterranee ed è il testamento spirituale: continuare a cercare la verità."
+       }
+      ]
+     },
+     "Q4": {
+      "title": "Quiz 4 · La produzione in prosa",
+      "items": [
+       {
+        "p": "Quanti testi brevi contengono le Scorciatoie?",
+        "a": "165",
+        "w": [
+         "13",
+         "36",
+         "45"
+        ],
+        "e": "Le Scorciatoie sono 165 testi brevi, composti tra il 1936 e il 1945."
+       },
+       {
+        "p": "Che cosa condannano le Scorciatoie?",
+        "a": "La barbarie nazista",
+        "w": [
+         "Il Risorgimento",
+         "La poesia ermetica",
+         "Il progresso industriale"
+        ],
+        "e": "Condannano la barbarie nazista e difendono tolleranza e solidarietà."
+       },
+       {
+        "p": "Quanti testi contengono i Raccontini?",
+        "a": "13",
+        "w": [
+         "165",
+         "36",
+         "45"
+        ],
+        "e": "I Raccontini sono 13 prose scritte nella prima metà del 1945."
+       },
+       {
+        "p": "Che cos'è «Storia e cronistoria del Canzoniere»?",
+        "a": "Il commento di Saba alle proprie poesie",
+        "w": [
+         "Un romanzo storico",
+         "Una biografia scritta da altri",
+         "Una raccolta di lettere"
+        ],
+        "e": "Saba commenta le proprie poesie parlando di sé in terza persona: è una chiave di lettura della sua opera."
+       },
+       {
+        "p": "Che cos'è «Ernesto»?",
+        "a": "Un romanzo incompiuto, pubblicato postumo",
+        "w": [
+         "Una raccolta di poesie",
+         "Un saggio politico",
+         "Un diario di guerra"
+        ],
+        "e": "Scritto nel 1953 e pubblicato postumo, riguarda l'iniziazione di un giovane nella Trieste di fine Ottocento."
+       }
+      ]
+     }
+    },
+    "t_verifica": 3293.207,
+    "t_compiti": 3306.707
+   },
+   "timeline": [
+    [
+     "T1",
+     138.5,
+     3.5
+    ],
+    [
+     "Q1",
+     958.402,
+     5.0
+    ],
+    [
+     "T2",
+     963.402,
+     3.5
+    ],
+    [
+     "T3",
+     1698.669,
+     3.5
+    ],
+    [
+     "T4",
+     2828.337,
+     3.5
+    ],
+    [
+     "GL",
+     3208.372,
+     40.534
+    ],
+    [
+     "RF",
+     3248.906,
+     38.034
+    ],
+    [
+     "FIN",
+     3286.94,
+     6.267
+    ]
+   ]
   }
  },
  "manca": "non iniziata: lezione da fare da capo; trascrizione pronta (Whisper base), manca il montaggio completo e le voci Kore",
@@ -11,6 +319,10 @@
   {
    "quando": "15/11 14:07",
    "testo": "chat R5: voci Kore richieste per la lezione 16 (Saba) su voci-letteratura-V-lez16: 30 voci (R1-R4, S1-S4, GL, RF, FIN, AN*). Una sola richiesta, nomi nuovi."
+  },
+  {
+   "quando": "15/11 16:01",
+   "testo": "lez16: sottotitoli del docente da migliorare (Whisper base con poche correzioni, 53% attacchi). Se hai una trascrizione migliore o un modo per verificarli, dimmelo; altrimenti decidi tu se la Parte puo' essere PRONTA."
   }
  ],
  "domande_sara": [],
@@ -22,10 +334,18 @@
   {
    "quando": "15/11 14:58",
    "testo": "chat R5 · pronta, attende voci Kore (30 richieste su voci-letteratura-V-lez16). Con segnaposto montata: 52:21 stimati (docente 29:10 con slide sincronizzate sulle frasi trascritte, 19 approfondimenti animati, mappe, 4 quiz da 5 domande, verifica = test Excel del prof con 11 domande, compiti del prof, dispensa A4 con mappe, sottotitoli). Quando arrivano le voci: codifica unica e consegna."
+  },
+  {
+   "quando": "15/11 15:56",
+   "testo": "chat R5 · lezione 16 nuova (Umberto Saba) consegnata sul ramo consegna-letteratura-V-lez16. Misurato: 55:11.7, 99351 fotogrammi, 248.4 MB, 1920x1080, scatto quiz entro 0,005 s su 4/4, parlato -16 LUFS. 4 argomenti, 19 approfondimenti animati con voce Kore + mappe (una per argomento + finale, anche nella dispensa A4), 4 quiz da 5 domande, verifica finale = test Excel del prof (11 domande), compiti del prof (compiti.json + scheda), t_verifica/t_compiti nella scheda. LIMITI: (1) sottotitoli del docente da Whisper base con poche correzioni di termini, NON verificati: sub_ok = no, quindi la parte non risulta PRONTA finche' non si fa la revisione; (2) sincronia card/slide con il docente stimata dalle frasi trascritte (+-3 s circa), non controllata a mano su 4 punti; (3) card Compiti e Verifica semplici, bande blu solo su quiz, verifica e compiti; (4) il docente e' ritagliato dal riquadro piccolo del video originale (1092x614), qualita' limitata."
+  },
+  {
+   "quando": "15/11 16:01",
+   "testo": "chat R5 · lezione 16: controllo_finale: durata/fotogrammi/peso OK, quiz 4/4 a 0,0 s OK, nessun fermo OK, parlato docente -15,9 LUFS OK; sottotitoli 776 blocchi senza sovrapposizioni ma attacco sulla voce solo 53% di 19 verificabili -> sub_ok = no, serve revisione dei sottotitoli (trascrizione Whisper base). Video e file gia' sul ramo consegna-letteratura-V-lez16; lo stato resta IN_MONTAGGIO solo per i sottotitoli."
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 16 · Umberto Saba",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-15 14:58:28"
+ "aggiornato": "2026-11-15 16:01:50"
 }
