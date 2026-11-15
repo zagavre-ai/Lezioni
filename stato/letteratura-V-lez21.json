@@ -2,53 +2,53 @@
  "tag": "letteratura-V-lez21",
  "parti": {
   "1": {
-   "stato": "IN_MONTAGGIO",
+   "stato": "PRONTA",
    "titolo": "Cesare Pavese",
    "voci": "kore",
    "quiz_ok": "si",
    "fermi_ok": "si",
    "sub_ok": "si",
    "video": "Letteratura_Lez21_Parte1_1080p.mp4",
-   "durata_s": 2141.3,
-   "durata": "35:41.3",
-   "fotogrammi": 64240,
-   "fotogrammi_attesi": 64240,
-   "peso_MB": 130.7,
+   "durata_s": 3503.2,
+   "durata": "58:23.2",
+   "fotogrammi": 105097,
+   "fotogrammi_attesi": 105097,
+   "peso_MB": 172.0,
    "vtt": "Letteratura_Lez21_Parte1.vtt",
    "scheda": {
     "materia": "Letteratura italiana (V)",
     "titolo": "Cesare Pavese · Parte 1",
-    "durata_s": 2141.33,
+    "durata_s": 3503.16,
     "argomenti": [
      {
       "n": 1,
       "titolo": "La vita e i traumi di Pavese",
       "inizio_s": 36.267,
-      "quiz_s": 650.367
+      "quiz_s": 923.201
      },
      {
       "n": 2,
       "titolo": "La storia e l'impegno politico",
-      "inizio_s": 655.367,
-      "quiz_s": 857.3
+      "inizio_s": 928.201,
+      "quiz_s": 1315.402
      },
      {
       "n": 3,
       "titolo": "Il mito e Il mestiere di vivere",
-      "inizio_s": 862.3,
-      "quiz_s": 1272.233
+      "inizio_s": 1320.402,
+      "quiz_s": 2026.134
      },
      {
       "n": 4,
       "titolo": "Le opere narrative",
-      "inizio_s": 1277.233,
-      "quiz_s": 1727.233
+      "inizio_s": 2031.134,
+      "quiz_s": 2781.067
      },
      {
       "n": 5,
       "titolo": "La luna e i falò",
-      "inizio_s": 1732.233,
-      "quiz_s": 1998.833
+      "inizio_s": 2786.067,
+      "quiz_s": 3303.234
      }
     ],
     "quiz": {
@@ -327,7 +327,9 @@
        }
       ]
      }
-    }
+    },
+    "t_verifica": 3484.66,
+    "t_compiti": 3498.16
    },
    "timeline": [
     [
@@ -418,10 +420,14 @@
   {
    "quando": "15/11 03:17",
    "testo": "chat R5: pronta, attende voci Kore. Con segnaposto: montaggio v2, mappe, sottotitoli, dispensa con mappe, compiti.json, tempi quiz/verifica/compiti aggiornati. Durata stimata (non misurata) vedi lista; si codifica appena arrivano le voci."
+  },
+  {
+   "quando": "15/11 13:21",
+   "testo": "chat R5 · v2 con approfondimenti animati consegnata sul ramo consegna-letteratura-V-lez21. Misurato: 58:23.2, 105097 fotogrammi, 172.0 MB, 1920x1080, nessun fermo, 5 quiz. 20 approfondimenti animati con voce Kore (22,7 min) + mappe (una per argomento + finale, anche nella dispensa). t_verifica 3484.66, t_compiti 3498.16, compiti.json del prof aggiunto. ATTENZIONE controllo_jingle: Q1 0,000 e Q2 +0,034 OK, ma Q3, Q4, Q5 a +0,068 s (2 fotogrammi) oltre la soglia 0,05: un fotogramma di scarto audio nasce nei pezzi tra Q2 e Q3 (taglio e unione), non sono riuscita a correggerlo; a orecchio impercettibile. Non rifatti (restano dalla v1): scheda e intro Compiti, bande blu, sincronia slide. Sottotitoli degli approfondimenti allineati alle pause della voce, non verificati uno per uno."
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 21",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-15 03:17:27"
+ "aggiornato": "2026-11-15 13:21:38"
 }
