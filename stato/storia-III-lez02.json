@@ -2,11 +2,691 @@
  "tag": "storia-III-lez02",
  "parti": {
   "1": {
-   "stato": "IN_MONTAGGIO",
-   "voci": "segnaposto"
+   "stato": "PRONTA",
+   "voci": "kore",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "si",
+   "video": "Storia_III_Lez2_Parte1_1080p.mp4",
+   "durata_s": 3320.0,
+   "durata": "55:20.0",
+   "fotogrammi": 99600,
+   "fotogrammi_attesi": 99600,
+   "peso_MB": 181.5,
+   "vtt": "Storia_III_Lez2_Parte1.vtt",
+   "scheda": {
+    "materia": "Storia",
+    "titolo": "Storia III · Lezione 2 · Parte 1",
+    "durata_s": 3320.0,
+    "argomenti": [
+     {
+      "n": 1,
+      "titolo": "La crisi morale e i centri di potere",
+      "inizio_s": 561.267,
+      "quiz_s": 868.4
+     },
+     {
+      "n": 2,
+      "titolo": "L'alto clero senza vocazione",
+      "inizio_s": 872.4,
+      "quiz_s": 1539.933
+     },
+     {
+      "n": 3,
+      "titolo": "Vescovi-conte e i tre mali",
+      "inizio_s": 1543.933,
+      "quiz_s": 2313.967
+     },
+     {
+      "n": 4,
+      "titolo": "I movimenti di riforma",
+      "inizio_s": 2317.967,
+      "quiz_s": 3097.767
+     }
+    ],
+    "quiz": {
+     "Q1": {
+      "title": "Quiz 1 · La crisi morale e i centri di potere",
+      "items": [
+       {
+        "p": "Quale periodo comincia con l'anno Mille?",
+        "a": "Il Basso Medioevo",
+        "w": [
+         "L'Alto Medioevo",
+         "L'età moderna",
+         "L'epoca carolingia"
+        ],
+        "e": "Con l'anno Mille comincia il Basso Medioevo."
+       },
+       {
+        "p": "Che cosa diventano monasteri, abbazie e diocesi?",
+        "a": "Ricchi centri economici e politici",
+        "w": [
+         "Scuole per i contadini",
+         "Fortezze militari",
+         "Mercati di città"
+        ],
+        "e": "Sono centri di potere ecclesiastici."
+       },
+       {
+        "p": "Da chi sono gestiti questi centri di potere?",
+        "a": "Dall'aristocrazia",
+        "w": [
+         "Dai contadini",
+         "Dai mercanti",
+         "Dagli studenti"
+        ],
+        "e": "A guidarli sono famiglie aristocratiche."
+       },
+       {
+        "p": "Che cosa vive la Chiesa nell'anno Mille?",
+        "a": "Una crisi morale",
+        "w": [
+         "Un periodo di grande rigore",
+         "Una completa indipendenza",
+         "Una rapida espansione in Asia"
+        ],
+        "e": "La Chiesa attraversa una crisi morale, oltre che politica."
+       },
+       {
+        "p": "Che cosa deve fare la Chiesa, secondo il docente?",
+        "a": "Staccarsi dall'impero ed essere ripulita",
+        "w": [
+         "Unirsi all'impero",
+         "Abbandonare le città",
+         "Eleggere un imperatore"
+        ],
+        "e": "Serve una riforma che la renda indipendente e pura."
+       }
+      ]
+     },
+     "Q2": {
+      "title": "Quiz 2 · L'alto clero senza vocazione",
+      "items": [
+       {
+        "p": "Chi eredita il feudo in una famiglia nobile?",
+        "a": "Il primogenito maschio",
+        "w": [
+         "La figlia maggiore",
+         "Tutti i figli in parti uguali",
+         "Il figlio più piccolo"
+        ],
+        "e": "Il feudo passa al primogenito maschio."
+       },
+       {
+        "p": "Dove finiscono spesso gli altri figli maschi?",
+        "a": "Nella Chiesa",
+        "w": [
+         "In esilio",
+         "Nell'esercito imperiale",
+         "Nelle città come mercanti"
+        ],
+        "e": "Diventano membri della Chiesa."
+       },
+       {
+        "p": "Che cos'è l'alto clero senza vocazione?",
+        "a": "Nobili scelti per prestigio e ricchezze",
+        "w": [
+         "Monaci poveri",
+         "Contadini istruiti",
+         "Preti di parrocchia"
+        ],
+        "e": "Guidano la Chiesa solo per ottenere prestigio e patrimoni terrieri."
+       },
+       {
+        "p": "Che cosa fa spesso il basso clero?",
+        "a": "Aiuta i poveri",
+        "w": [
+         "Governa i feudi",
+         "Nomina gli imperatori",
+         "Riscuote le tasse"
+        ],
+        "e": "Monaci e preti spesso fanno del bene per i poveri."
+       },
+       {
+        "p": "Quali figure fanno parte dell'alto clero?",
+        "a": "Vescovi e arcivescovi",
+        "w": [
+         "Monaci e parroci",
+         "Cavalieri",
+         "Notai"
+        ],
+        "e": "L'alto clero sono le alte gerarchie."
+       }
+      ]
+     },
+     "Q3": {
+      "title": "Quiz 3 · Vescovi-conte e i tre mali",
+      "items": [
+       {
+        "p": "Chi sono i vescovi-conte ottoniani?",
+        "a": "Vescovi fidati nominati dagli imperatori",
+        "w": [
+         "Conti eletti dal papa",
+         "Monaci di Cluny",
+         "Vescovi dell'Oriente"
+        ],
+        "e": "Sono personalità politiche e amministratori più che guide spirituali."
+       },
+       {
+        "p": "Che cos'è la simonia?",
+        "a": "La compravendita delle cariche ecclesiastiche",
+        "w": [
+         "Il matrimonio dei preti",
+         "Il rifiuto delle ricchezze",
+         "Il digiuno dei monaci"
+        ],
+        "e": "Si compravano cariche con denaro o beni materiali."
+       },
+       {
+        "p": "Che cos'è il concubinato?",
+        "a": "Condotta del clero che viola l'obbligo di castità",
+        "w": [
+         "Un ordine monastico",
+         "Un tributo feudale",
+         "Un tipo di investitura"
+        ],
+        "e": "Dà vita a convivenze e famiglie di fatto."
+       },
+       {
+        "p": "Che cosa indica il nicolaismo?",
+        "a": "La tendenza dei preti a sposarsi o a vivere con concubine",
+        "w": [
+         "La vendita delle cariche",
+         "La riforma di Cluny",
+         "Il potere dei cardinali"
+        ],
+        "e": "È strettamente collegato al concubinato."
+       },
+       {
+        "p": "Quanti sono i «tre mali» della Chiesa?",
+        "a": "Simonia, concubinato e nicolaismo",
+        "w": [
+         "Scisma, eresia e crociata",
+         "Povertà, guerra e peste",
+         "Simonia, pataria e Cluny"
+        ],
+        "e": "Sono i tre mali che la riforma vuole combattere."
+       }
+      ]
+     },
+     "Q4": {
+      "title": "Quiz 4 · I movimenti di riforma",
+      "items": [
+       {
+        "p": "Dove nasce l'abbazia di Cluny?",
+        "a": "In Borgogna",
+        "w": [
+         "In Normandia",
+         "A Milano",
+         "In Sicilia"
+        ],
+        "e": "Nel 910 nasce in Borgogna."
+       },
+       {
+        "p": "Da chi dipende Cluny?",
+        "a": "Direttamente dal papa",
+        "w": [
+         "Dai nobili locali",
+         "Dall'imperatore",
+         "Dal re di Francia"
+        ],
+        "e": "Così evita il controllo dei nobili."
+       },
+       {
+        "p": "Quali ordini rigorosi nascono?",
+        "a": "I cistercensi e i certosini",
+        "w": [
+         "I patarini",
+         "I cardinali",
+         "Gli altavilla"
+        ],
+        "e": "Si caratterizzano per eremitismo e ascesi."
+       },
+       {
+        "p": "Che cosa distingue il clero regolare?",
+        "a": "Segue una regola monastica in isolamento",
+        "w": [
+         "Vive nel mondo",
+         "Governa le diocesi",
+         "Non prende i voti"
+        ],
+        "e": "Il clero secolare invece vive nel mondo."
+       },
+       {
+        "p": "Chi sono i patarini di Milano?",
+        "a": "Laici che contestano i sacerdoti corrotti",
+        "w": [
+         "Cavalieri normanni",
+         "Monaci di Cluny",
+         "Cardinali riformatori"
+        ],
+        "e": "Artigiani e mercanti boicottano i preti corrotti e contestano la ricchezza del clero."
+       }
+      ]
+     }
+    },
+    "t_verifica": 3301.5002,
+    "t_compiti": 3315.0002,
+    "t_compiti_intro": 3311.5002,
+    "compiti": "COMPITI_MANCANTI"
+   },
+   "timeline": [
+    [
+     "T1",
+     561.2666,
+     3.6
+    ],
+    [
+     "Q1",
+     868.3999,
+     4.0
+    ],
+    [
+     "T2",
+     872.3999,
+     3.6
+    ],
+    [
+     "T3",
+     1543.9333,
+     3.6
+    ],
+    [
+     "T4",
+     2317.9668,
+     3.6
+    ],
+    [
+     "GL1",
+     3101.7668,
+     67.4667
+    ],
+    [
+     "RF1",
+     3234.5002,
+     62.4667
+    ],
+    [
+     "FIN1",
+     3296.9669,
+     4.5333
+    ]
+   ]
   },
   "2": {
-   "stato": "IN_MONTAGGIO"
+   "stato": "PRONTA",
+   "voci": "kore",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "si",
+   "video": "Storia_III_Lez2_Parte2_1080p.mp4",
+   "durata_s": 3275.4,
+   "durata": "54:35.4",
+   "fotogrammi": 98261,
+   "fotogrammi_attesi": 98261,
+   "peso_MB": 138.9,
+   "vtt": "Storia_III_Lez2_Parte2.vtt",
+   "scheda": {
+    "materia": "Storia",
+    "titolo": "Storia III · Lezione 2 · Parte 2",
+    "durata_s": 3275.37,
+    "argomenti": [
+     {
+      "n": 5,
+      "titolo": "I papi riformatori e lo Scisma d'Oriente",
+      "inizio_s": 64.667,
+      "quiz_s": 593.8
+     },
+     {
+      "n": 6,
+      "titolo": "Gregorio VII e il Dictatus papae",
+      "inizio_s": 597.8,
+      "quiz_s": 1191.167
+     },
+     {
+      "n": 7,
+      "titolo": "La lotta per le investiture",
+      "inizio_s": 1195.167,
+      "quiz_s": 1928.467
+     },
+     {
+      "n": 8,
+      "titolo": "L'espansione normanna in Europa",
+      "inizio_s": 1932.467,
+      "quiz_s": 2505.533
+     },
+     {
+      "n": 9,
+      "titolo": "I Normanni nel Sud e il Regno di Sicilia",
+      "inizio_s": 2509.533,
+      "quiz_s": 3035.233
+     }
+    ],
+    "quiz": {
+     "Q5": {
+      "title": "Quiz 5 · I papi riformatori e lo Scisma d'Oriente",
+      "items": [
+       {
+        "p": "Quali papi combattono la corruzione?",
+        "a": "Leone IX e Niccolò II",
+        "w": [
+         "Gregorio VII e Urbano II",
+         "Giovanni XII e Silvestro II",
+         "Leone X e Pio II"
+        ],
+        "e": "Sono i papi riformatori."
+       },
+       {
+        "p": "Che cosa stabilisce Niccolò II nel 1059?",
+        "a": "Che il papa sia eletto solo dai cardinali",
+        "w": [
+         "Che il papa sia scelto dall'imperatore",
+         "Che i preti possano sposarsi",
+         "Che il papa viva a Costantinopoli"
+        ],
+        "e": "Così finisce l'intromissione dell'imperatore."
+       },
+       {
+        "p": "Quando avviene lo Scisma d'Oriente?",
+        "a": "Nel 1054",
+        "w": [
+         "Nel 962",
+         "Nel 1075",
+         "Nel 1122"
+        ],
+        "e": "È la rottura definitiva tra Roma e Costantinopoli."
+       },
+       {
+        "p": "Quali Chiese si separano?",
+        "a": "Quella cattolica di Roma e quella ortodossa di Costantinopoli",
+        "w": [
+         "Quella cattolica e quella protestante",
+         "Quella latina e quella normanna",
+         "Quella monastica e quella secolare"
+        ],
+        "e": "Le ragioni sono teologiche e politiche."
+       },
+       {
+        "p": "Chi sono i cardinali, secondo il docente?",
+        "a": "I grandi prelati che eleggono il papa",
+        "w": [
+         "I capi dell'esercito",
+         "I feudatari minori",
+         "I monaci di Cluny"
+        ],
+        "e": "Dal 1059 l'elezione spetta a loro."
+       }
+      ]
+     },
+     "Q6": {
+      "title": "Quiz 6 · Gregorio VII e il Dictatus papae",
+      "items": [
+       {
+        "p": "Che cosa vuole Gregorio VII?",
+        "a": "Una Chiesa libera e indipendente dal potere politico",
+        "w": [
+         "Una Chiesa sottomessa all'imperatore",
+         "Una Chiesa solo monastica",
+         "La fine del papato"
+        ],
+        "e": "Per lui la Chiesa deve tornare libera, anche politicamente."
+       },
+       {
+        "p": "In che anno scrive il Dictatus papae?",
+        "a": "Nel 1075",
+        "w": [
+         "Nel 1054",
+         "Nel 1122",
+         "Nel 1066"
+        ],
+        "e": "È un insieme di precetti."
+       },
+       {
+        "p": "Che cosa afferma il Dictatus papae?",
+        "a": "Il primato del papa su tutta la cristianità",
+        "w": [
+         "L'autorità dell'imperatore sul papa",
+         "L'uguaglianza tra i vescovi",
+         "La fine dei monasteri"
+        ],
+        "e": "Il papa è al vertice della cristianità."
+       },
+       {
+        "p": "Quale potere rivendica il papa?",
+        "a": "Deporre gli imperatori",
+        "w": [
+         "Nominare i duchi",
+         "Coniare moneta",
+         "Eleggere i cardinali a vita"
+        ],
+        "e": "Può deporre gli imperatori."
+       },
+       {
+        "p": "Da quale monastero proveniva Gregorio VII?",
+        "a": "Cluny",
+        "w": [
+         "Montecassino",
+         "Citeaux",
+         "Canossa"
+        ],
+        "e": "Prima di diventare papa era un monaco di Cluny."
+       }
+      ]
+     },
+     "Q7": {
+      "title": "Quiz 7 · La lotta per le investiture",
+      "items": [
+       {
+        "p": "Con quale imperatore si scontra Gregorio VII?",
+        "a": "Enrico IV",
+        "w": [
+         "Ottone I",
+         "Corrado II",
+         "Federico I"
+        ],
+        "e": "Lo scontro riguarda la nomina dei vescovi."
+       },
+       {
+        "p": "Che cosa accade a Canossa nel 1077?",
+        "a": "Enrico IV chiede perdono al papa",
+        "w": [
+         "Il papa chiede perdono all'imperatore",
+         "Si firma il Concordato",
+         "Nasce la pataria"
+        ],
+        "e": "L'imperatore attende tre giorni nella neve."
+       },
+       {
+        "p": "Quanto attende Enrico IV nella neve?",
+        "a": "Tre giorni",
+        "w": [
+         "Un'ora",
+         "Una settimana",
+         "Un mese"
+        ],
+        "e": "Così raccontano le cronache."
+       },
+       {
+        "p": "Quando è firmato il Concordato di Worms?",
+        "a": "Nel 1122",
+        "w": [
+         "Nel 1059",
+         "Nel 1077",
+         "Nel 1130"
+        ],
+        "e": "È l'accordo finale della lotta per le investiture."
+       },
+       {
+        "p": "Che cosa separa il Concordato di Worms?",
+        "a": "L'investitura religiosa da quella temporale",
+        "w": [
+         "Roma da Costantinopoli",
+         "La Francia dall'Inghilterra",
+         "Il clero secolare dal regolare"
+        ],
+        "e": "La prima spetta al clero, la seconda al sovrano."
+       }
+      ]
+     },
+     "Q8": {
+      "title": "Quiz 8 · L'espansione normanna in Europa",
+      "items": [
+       {
+        "p": "Da dove provengono i Normanni?",
+        "a": "Dalla Scandinavia",
+        "w": [
+         "Dall'Africa del Nord",
+         "Dall'Asia",
+         "Dalla Spagna"
+        ],
+        "e": "Si stanziano nel Nord della Francia."
+       },
+       {
+        "p": "Quale ducato fondano nel Nord della Francia?",
+        "a": "Il Ducato di Normandia",
+        "w": [
+         "Il Ducato di Borgogna",
+         "Il Ducato di Aquitania",
+         "Il Ducato di Sassonia"
+        ],
+        "e": "È formalmente un feudo del re di Francia."
+       },
+       {
+        "p": "Chi sconfigge gli anglosassoni a Hastings?",
+        "a": "Guglielmo il Conquistatore",
+        "w": [
+         "Ruggero II",
+         "Roberto il Guiscardo",
+         "Enrico IV"
+        ],
+        "e": "La battaglia avviene nel 1066."
+       },
+       {
+        "p": "In che anno avviene la battaglia di Hastings?",
+        "a": "Nel 1066",
+        "w": [
+         "Nel 1054",
+         "Nel 1130",
+         "Nel 1075"
+        ],
+        "e": "Il duca di Normandia diventa re d'Inghilterra."
+       },
+       {
+        "p": "Che cosa fa Guglielmo dopo la conquista?",
+        "a": "Centralizza il potere monarchico",
+        "w": [
+         "Divide il regno in feudi autonomi",
+         "Rinuncia al titolo di duca",
+         "Si sottomette al papa"
+        ],
+        "e": "Il regno d'Inghilterra diventa fortemente centralizzato."
+       }
+      ]
+     },
+     "Q9": {
+      "title": "Quiz 9 · I Normanni nel Sud e il Regno di Sicilia",
+      "items": [
+       {
+        "p": "Quale famiglia normanna è citata nel Sud Italia?",
+        "a": "Gli Altavilla",
+        "w": [
+         "I Capetingi",
+         "Gli Ottoni",
+         "I Salii"
+        ],
+        "e": "Sono cavalieri mercenari."
+       },
+       {
+        "p": "Che cosa sfruttano i Normanni nel Sud?",
+        "a": "Le divisioni tra bizantini e longobardi",
+        "w": [
+         "L'alleanza con l'imperatore",
+         "La debolezza dei Vichinghi",
+         "Le guerre in Britannia"
+        ],
+        "e": "Così conquistano territori."
+       },
+       {
+        "p": "Chi nomina Roberto il Guiscardo suo vassallo, nel 1059?",
+        "a": "Papa Niccolò II",
+        "w": [
+         "L'imperatore Enrico IV",
+         "Guglielmo il Conquistatore",
+         "Gregorio VII"
+        ],
+        "e": "Il papa cerca protezione militare contro l'Impero."
+       },
+       {
+        "p": "Chi fonda il Regno di Sicilia nel 1130?",
+        "a": "Ruggero II",
+        "w": [
+         "Roberto il Guiscardo",
+         "Guglielmo",
+         "Ottone I"
+        ],
+        "e": "Strappa l'isola ai musulmani."
+       },
+       {
+        "p": "Come è descritto il Regno di Sicilia?",
+        "a": "Uno Stato centralizzato e multiculturale",
+        "w": [
+         "Un regno solo cattolico",
+         "Un insieme di feudi indipendenti",
+         "Un territorio senza capitale"
+        ],
+        "e": "Ha influenze cattoliche, bizantine e arabo-islamiche."
+       }
+      ]
+     }
+    },
+    "t_verifica": 3256.8667,
+    "t_compiti": 3270.3667,
+    "t_compiti_intro": 3266.8667,
+    "compiti": "COMPITI_MANCANTI"
+   },
+   "timeline": [
+    [
+     "T5",
+     64.6666,
+     3.6
+    ],
+    [
+     "T6",
+     597.7999,
+     3.6
+    ],
+    [
+     "T7",
+     1195.1665,
+     3.6
+    ],
+    [
+     "T8",
+     1932.4666,
+     3.6
+    ],
+    [
+     "T9",
+     2509.5333,
+     3.6
+    ],
+    [
+     "GL2",
+     3039.2333,
+     53.5667
+    ],
+    [
+     "RF2",
+     3179.3667,
+     73.8333
+    ],
+    [
+     "FIN1",
+     3253.2,
+     3.6667
+    ]
+   ]
   }
  },
  "manca": "COMPITI_MANCANTI",
@@ -20,10 +700,14 @@
   {
    "quando": "15/11 03:14",
    "testo": "pronta, attende voci Kore (54:17)"
+  },
+  {
+   "quando": "15/11 12:25",
+   "testo": "PRONTA 15/11. Sottotitoli Whisper base; controllo di attacco ~75% (falsi negativi su voce bassa). Compiti del prof non presenti nella release."
   }
  ],
  "materia": "Storia III",
  "lezione": "Lezione 2 · La crisi della Chiesa nell'anno Mille e i regni normanni",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-15 03:14:10"
+ "aggiornato": "2026-11-15 12:25:08"
 }
