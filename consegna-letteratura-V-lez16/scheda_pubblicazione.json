@@ -1,0 +1,255 @@
+{
+ "materia": "Letteratura italiana (V)",
+ "titolo": "Umberto Saba · Parte 1",
+ "durata_s": 3311.71,
+ "argomenti": [
+  {
+   "n": 1,
+   "titolo": "La vita e la formazione",
+   "inizio_s": 138.483,
+   "quiz_s": 958.402
+  },
+  {
+   "n": 2,
+   "titolo": "La «poesia onesta»",
+   "inizio_s": 963.385,
+   "quiz_s": 1693.669
+  },
+  {
+   "n": 3,
+   "titolo": "Il Canzoniere",
+   "inizio_s": 1698.652,
+   "quiz_s": 2823.337
+  },
+  {
+   "n": 4,
+   "titolo": "La produzione in prosa",
+   "inizio_s": 2828.32,
+   "quiz_s": 3139.772
+  }
+ ],
+ "quiz": {
+  "Q1": {
+   "title": "Quiz 1 · La vita e la formazione",
+   "items": [
+    {
+     "p": "In che città nasce Umberto Saba, nel 1883?",
+     "a": "A Trieste",
+     "w": [
+      "A Firenze",
+      "A Gorizia",
+      "A Milano"
+     ],
+     "e": "Nasce a Trieste nel 1883, in pieno impero austro-ungarico."
+    },
+    {
+     "p": "Che cosa accade al padre di Saba prima della sua nascita?",
+     "a": "Abbandona la famiglia",
+     "w": [
+      "Muore in guerra",
+      "Emigra in America",
+      "Viene arrestato"
+     ],
+     "e": "Il padre cristiano abbandona la famiglia prima della nascita del poeta."
+    },
+    {
+     "p": "A chi viene affidato Saba da bambino?",
+     "a": "Alla balia slovena Peppa Sabaz",
+     "w": [
+      "A uno zio ebreo",
+      "A un collegio religioso",
+      "Ai nonni materni"
+     ],
+     "e": "Viene affidato alla balia slovena Peppa Sabaz, un periodo felice interrotto dal ritorno dalla madre."
+    },
+    {
+     "p": "Che cosa colpisce Saba nel 1938?",
+     "a": "Le leggi razziali",
+     "w": [
+      "La condanna al confino",
+      "La chiusura della rivista",
+      "Il richiamo alle armi"
+     ],
+     "e": "Le leggi razziali lo colpiscono per le origini ebraiche: cede la libreria antiquaria e fugge."
+    },
+    {
+     "p": "Dove muore Saba, nel 1957?",
+     "a": "A Gorizia",
+     "w": [
+      "A Trieste",
+      "A Parigi",
+      "A Roma"
+     ],
+     "e": "Muore a Gorizia nel 1957."
+    }
+   ]
+  },
+  "Q2": {
+   "title": "Quiz 2 · La «poesia onesta»",
+   "items": [
+    {
+     "p": "Quale modello rifiuta Saba?",
+     "a": "Quello dannunziano",
+     "w": [
+      "Quello di Petrarca",
+      "Quello di Leopardi",
+      "Quello di Dante"
+     ],
+     "e": "Rifiuta il modello dannunziano, l'estetismo e il formalismo vuoto."
+    },
+    {
+     "p": "In che cosa consiste la «poesia onesta»?",
+     "a": "Nel desiderio di sincerità, senza finzioni",
+     "w": [
+      "Nella ricerca di rime rare",
+      "Nella celebrazione dell'eroe",
+      "Nell'uso del dialetto triestino"
+     ],
+     "e": "È il desiderio di sincerità: descrivere le cose per ciò che sono, senza abbellimenti artificiali."
+    },
+    {
+     "p": "Quali forme metriche usa Saba?",
+     "a": "Endecasillabo e settenario",
+     "w": [
+      "Solo versi liberi",
+      "Solo il sonetto",
+      "Il verso breve futurista"
+     ],
+     "e": "Usa parole quotidiane e schemi classici, come l'endecasillabo e il settenario."
+    },
+    {
+     "p": "Quale teoria lo aiuta a indagare l'animo umano?",
+     "a": "La psicanalisi di Freud",
+     "w": [
+      "Il positivismo",
+      "L'idealismo di Croce",
+      "Il marxismo"
+     ],
+     "e": "La psicanalisi di Freud lo aiuta a far emergere desideri e pulsioni dell'inconscio."
+    },
+    {
+     "p": "A che cosa serve la poesia, per Saba?",
+     "a": "A riportare alla luce le verità rimosse",
+     "w": [
+      "A divertire il lettore",
+      "A celebrare la patria",
+      "A descrivere il paesaggio"
+     ],
+     "e": "Serve a riportare alla luce le verità dolorose rimosse dalla coscienza: ha una funzione terapeutica."
+    }
+   ]
+  },
+  "Q3": {
+   "title": "Quiz 3 · Il Canzoniere",
+   "items": [
+    {
+     "p": "Che cos'è il Canzoniere?",
+     "a": "La raccolta di tutta la produzione poetica di Saba",
+     "w": [
+      "Un romanzo incompiuto",
+      "Una raccolta di saggi",
+      "Un diario"
+     ],
+     "e": "È l'autobiografia in versi che raccoglie tutta la produzione poetica di Saba."
+    },
+    {
+     "p": "A quali età corrispondono i tre volumi?",
+     "a": "Giovinezza, maturità e vecchiaia",
+     "w": [
+      "Infanzia, guerra e dopoguerra",
+      "Trieste, Firenze e Roma",
+      "Poesia, prosa e saggio"
+     ],
+     "e": "I tre volumi corrispondono alla giovinezza, alla maturità e alla vecchiaia del poeta."
+    },
+    {
+     "p": "Dove ritrova l'infinito il poeta in «Città vecchia»?",
+     "a": "Tra gli umili della città",
+     "w": [
+      "Nella natura",
+      "Nella religione ufficiale",
+      "Nel passato glorioso"
+     ],
+     "e": "Tra gli umili ritrova l'infinito e la presenza profonda della vita e del dolore."
+    },
+    {
+     "p": "Che cosa rappresenta la capra nell'omonima lirica?",
+     "a": "Il dolore universale di tutti gli esseri viventi",
+     "w": [
+      "Un ricordo dell'infanzia",
+      "Il paesaggio triestino",
+      "La gioia della campagna"
+     ],
+     "e": "Il belato della capra è simbolo del dolore universale, anche della sofferenza del popolo ebraico."
+    },
+    {
+     "p": "Che cosa rappresenta «Ulisse»?",
+     "a": "Il testamento spirituale di Saba",
+     "w": [
+      "Un racconto per bambini",
+      "Una poesia sul calcio",
+      "Un omaggio a Joyce"
+     ],
+     "e": "Conclude la sezione Mediterranee ed è il testamento spirituale: continuare a cercare la verità."
+    }
+   ]
+  },
+  "Q4": {
+   "title": "Quiz 4 · La produzione in prosa",
+   "items": [
+    {
+     "p": "Quanti testi brevi contengono le Scorciatoie?",
+     "a": "165",
+     "w": [
+      "13",
+      "36",
+      "45"
+     ],
+     "e": "Le Scorciatoie sono 165 testi brevi, composti tra il 1936 e il 1945."
+    },
+    {
+     "p": "Che cosa condannano le Scorciatoie?",
+     "a": "La barbarie nazista",
+     "w": [
+      "Il Risorgimento",
+      "La poesia ermetica",
+      "Il progresso industriale"
+     ],
+     "e": "Condannano la barbarie nazista e difendono tolleranza e solidarietà."
+    },
+    {
+     "p": "Quanti testi contengono i Raccontini?",
+     "a": "13",
+     "w": [
+      "165",
+      "36",
+      "45"
+     ],
+     "e": "I Raccontini sono 13 prose scritte nella prima metà del 1945."
+    },
+    {
+     "p": "Che cos'è «Storia e cronistoria del Canzoniere»?",
+     "a": "Il commento di Saba alle proprie poesie",
+     "w": [
+      "Un romanzo storico",
+      "Una biografia scritta da altri",
+      "Una raccolta di lettere"
+     ],
+     "e": "Saba commenta le proprie poesie parlando di sé in terza persona: è una chiave di lettura della sua opera."
+    },
+    {
+     "p": "Che cos'è «Ernesto»?",
+     "a": "Un romanzo incompiuto, pubblicato postumo",
+     "w": [
+      "Una raccolta di poesie",
+      "Un saggio politico",
+      "Un diario di guerra"
+     ],
+     "e": "Scritto nel 1953 e pubblicato postumo, riguarda l'iniziazione di un giovane nella Trieste di fine Ottocento."
+    }
+   ]
+  }
+ },
+ "t_verifica": 3293.207,
+ "t_compiti": 3306.707
+}

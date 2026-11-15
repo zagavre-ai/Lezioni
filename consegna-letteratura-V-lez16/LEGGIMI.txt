@@ -1,0 +1,3 @@
+Unire: cat Letteratura_Lez16_Parte1_1080p.mp4.parte_* > Letteratura_Lez16_Parte1_1080p.mp4 ; controllo: sha256sum -c Letteratura_Lez16_Parte1_1080p.mp4.sha256
+
+Lezione nuova. Durata misurata 55:11.7, 99351 fotogrammi, 248.4 MB, 1920x1080. Voci Kore. Mappe concettuali (una per argomento e una finale) anche nella dispensa. Verifica finale = test Excel del prof. compiti.json: compiti del prof.
