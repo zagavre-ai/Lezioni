@@ -1,0 +1,314 @@
+{
+ "materia": "Laboratori dei servizi enogastronomici – settore cucina",
+ "titolo": "Pasticceria · Parte 1",
+ "durata_s": 3376.93,
+ "argomenti": [
+  {
+   "n": 1,
+   "titolo": "La pasticceria: classificazione",
+   "inizio_s": 88.166,
+   "quiz_s": 851.899
+  },
+  {
+   "n": 2,
+   "titolo": "Impasti friabili e masse montate",
+   "inizio_s": 857.199,
+   "quiz_s": 1351.832
+  },
+  {
+   "n": 3,
+   "titolo": "Paste sfogliate e pasta choux",
+   "inizio_s": 1357.132,
+   "quiz_s": 1735.131
+  },
+  {
+   "n": 4,
+   "titolo": "Impasti lievitati e creme",
+   "inizio_s": 1740.431,
+   "quiz_s": 2197.098
+  },
+  {
+   "n": 5,
+   "titolo": "Meringhe, zuccheri e decorazioni",
+   "inizio_s": 2202.398,
+   "quiz_s": 3157.364
+  }
+ ],
+ "quiz": {
+  "Q1": {
+   "title": "Quiz 1 · La pasticceria: classificazione",
+   "items": [
+    {
+     "p": "In quali due grandi settori si dividono i prodotti dolciari di pasticceria?",
+     "a": "Prodotti salati e prodotti dolci",
+     "w": [
+      "Prodotti freschi e prodotti surgelati",
+      "Prodotti fritti e prodotti da forno",
+      "Prodotti italiani e prodotti internazionali"
+     ],
+     "ref": "I prodotti dolciari di pasticceria si dividono in due grandi settori: i prodotti salati e i prodotti dolci."
+    },
+    {
+     "p": "A quale temperatura vanno conservati i prodotti freschi come bignè e creme?",
+     "a": "Tra +3 e +12 °C",
+     "w": [
+      "Sotto lo 0 °C",
+      "A temperatura ambiente",
+      "Tra +15 e +20 °C"
+     ],
+     "ref": "I prodotti freschi, come bignè e creme, necessitano di temperature tra +3 e +12 °C."
+    },
+    {
+     "p": "Nel linguaggio tecnico della pasticceria, come si chiama un impasto crudo o una crema?",
+     "a": "Massa",
+     "w": [
+      "Base",
+      "Farcia",
+      "Pastello"
+     ],
+     "ref": "Nel linguaggio tecnico del settore, un impasto crudo o una crema vengono definiti masse."
+    },
+    {
+     "p": "Che cosa sono gli entremets?",
+     "a": "Dessert al cucchiaio o al piatto serviti a fine pasto, prima della frutta",
+     "w": [
+      "Piccoli dolci da servire con il caffè",
+      "Torte da cerimonia per matrimoni",
+      "Glasse di copertura a base di zucchero"
+     ],
+     "ref": "Gli entremets, definiti anche dessert al cucchiaio o al piatto, vengono serviti alla fine del pasto e precedono la frutta."
+    },
+    {
+     "p": "Quali dolci rientrano nella pasticceria mignon?",
+     "a": "Petit four, mignardises, cioccolatini, praline e gelatine",
+     "w": [
+      "Torte da cerimonia e cake design",
+      "Entremets caldi e freddi",
+      "Pane e focacce"
+     ],
+     "ref": "La pasticceria mignon si classifica in petit four, mignardises, cioccolatini e praline, gelatine."
+    }
+   ]
+  },
+  "Q2": {
+   "title": "Quiz 2 · Impasti friabili e masse montate",
+   "items": [
+    {
+     "p": "Come si distinguono tra loro pasta brisée, pasta sablé e pasta frolla?",
+     "a": "Per l'ordine di utilizzo degli ingredienti",
+     "w": [
+      "Per il tipo di farina usata",
+      "Per la temperatura di cottura",
+      "Per la forma dello stampo"
+     ],
+     "ref": "I tre principali impasti friabili vengono classificati in base all'ordine di utilizzo degli ingredienti."
+    },
+    {
+     "p": "Da quali ingredienti si parte per preparare la pasta frolla?",
+     "a": "Dai grassi e dallo zucchero, poi uova e infine farina",
+     "w": [
+      "Da farina e grassi, poi acqua",
+      "Da farina, grassi e zucchero insieme",
+      "Da uova e zucchero montati a caldo"
+     ],
+     "ref": "La pasta frolla si prepara iniziando dai grassi e lo zucchero, ai quali si uniscono poi le uova e infine la farina."
+    },
+    {
+     "p": "Nel metodo a caldo, fino a quale temperatura si montano uova e zucchero a bagnomaria?",
+     "a": "50-60 °C",
+     "w": [
+      "20-25 °C",
+      "80-90 °C",
+      "100-110 °C"
+     ],
+     "ref": "Nel metodo a caldo uova e zucchero vengono montati a bagnomaria fino a raggiungere i 50-60 °C."
+    },
+    {
+     "p": "Che cos'è la doppia montata?",
+     "a": "Tuorli e albumi montati separatamente con lo zucchero e poi riuniti",
+     "w": [
+      "Uova intere e zucchero montati insieme",
+      "Una massa montata due volte di seguito",
+      "Una massa montata con il doppio di burro"
+     ],
+     "ref": "Nella doppia montata i tuorli e gli albumi vengono montati separatamente con lo zucchero e poi riuniti prima di aggiungere le farine."
+    },
+    {
+     "p": "Come si prepara la pasta brisée?",
+     "a": "Con farina e grassi, a cui si aggiunge acqua o un altro liquido",
+     "w": [
+      "Partendo da grassi e zucchero",
+      "Montando uova e zucchero",
+      "Con farina e grassi insieme allo zucchero"
+     ],
+     "ref": "La pasta brisée è composta da farina e grassi a cui viene aggiunta acqua o un altro liquido."
+    }
+   ]
+  },
+  "Q3": {
+   "title": "Quiz 3 · Paste sfogliate e pasta choux",
+   "items": [
+    {
+     "p": "Come si prepara la pasta sfoglia?",
+     "a": "Si chiude un panetto di burro e farina in un pastello di acqua e farina e si lamina più volte",
+     "w": [
+      "Si montano uova e zucchero e si aggiunge la farina",
+      "Si cuoce l'impasto in casseruola e poi si aggiungono le uova",
+      "Si impastano tutti gli ingredienti insieme con il lievito"
+     ],
+     "ref": "Il panetto di burro e farina viene chiuso nel pastello di acqua e farina e quindi laminato più volte a formare degli strati."
+    },
+    {
+     "p": "Che cos'è la Tarte Tatin?",
+     "a": "Una torta di mele e caramello cotta al contrario",
+     "w": [
+      "Una torta con farcitura di mandorle tra due strati di sfoglia",
+      "Una torta veneziana con pan di Spagna e crema",
+      "Un anello di pasta choux con crema alla nocciola"
+     ],
+     "ref": "La Tarte Tatin è una torta di mele e caramello cotta al contrario, poi rovesciata dopo la cottura."
+    },
+    {
+     "p": "Perché la pasta choux richiede una doppia cottura?",
+     "a": "La prima avviene in casseruola, la seconda, dopo le uova, in forno o con bollitura o frittura",
+     "w": [
+      "Perché va cotta due volte in forno a temperature diverse",
+      "Perché si cuoce prima a vapore e poi alla griglia",
+      "Perché va prima congelata e poi cotta"
+     ],
+     "ref": "La prima cottura avviene in casseruola a calore diretto; la seconda, dopo l'incorporazione delle uova, in forno, per bollitura o frittura."
+    },
+    {
+     "p": "Con quale crema si farcisce la torta Saint Honoré?",
+     "a": "Crema Chiboust",
+     "w": [
+      "Crema alla nocciola",
+      "Crema mousseline",
+      "Crema namelaka"
+     ],
+     "ref": "La torta Saint Honoré è composta da una base di pasta choux farcita con crema Chiboust e decorata con una corona di bignè."
+    },
+    {
+     "p": "Che cos'è la torta Paris-Brest?",
+     "a": "Un anello di pasta choux farcito con crema alla nocciola",
+     "w": [
+      "Una piramide di bignè tenuti da fili di zucchero",
+      "Una torta di mele cotta al contrario",
+      "Una torta con farcitura di mandorle tra due sfoglie"
+     ],
+     "ref": "La torta Paris-Brest è un anello di pasta choux farcito con crema alla nocciola."
+    }
+   ]
+  },
+  "Q4": {
+   "title": "Quiz 4 · Impasti lievitati e creme",
+   "items": [
+    {
+     "p": "Nel metodo a impasto indiretto, che cos'è il primo impasto?",
+     "a": "Un impasto con funzione di lievito, come biga o pasta madre",
+     "w": [
+      "L'impasto finale già pronto da cuocere",
+      "Una crema da farcitura",
+      "Un impasto senza farina"
+     ],
+     "ref": "Il metodo indiretto prevede un primo impasto con funzione di lievito, chiamato anche lievitino, biga, pasta madre o pasta acida."
+    },
+    {
+     "p": "Quale temperatura al cuore indica la corretta cottura dei dolci lievitati?",
+     "a": "Circa +94 °C",
+     "w": [
+      "Circa +65 °C",
+      "Circa +120 °C",
+      "Circa +75 °C"
+     ],
+     "ref": "Per verificare la cottura dei lievitati la temperatura al cuore deve raggiungere circa i +94 °C, con variazioni tra 92 °C e 98 °C."
+    },
+    {
+     "p": "Quali sono le creme di base da cui si ottengono le creme derivate?",
+     "a": "Crema inglese e crema pasticcera",
+     "w": [
+      "Crema al burro e crema diplomatica",
+      "Panna montata e ganache",
+      "Crema Chantilly e crema frangipane"
+     ],
+     "ref": "Le creme derivate si ottengono aggiungendo ingredienti di complemento alle creme di base: la crema inglese e la crema pasticcera."
+    },
+    {
+     "p": "Come si ottiene la crema diplomatica o leggera?",
+     "a": "Crema pasticcera con panna montata e gelatina",
+     "w": [
+      "Crema pasticcera con burro montato",
+      "Crema pasticcera unita a meringa italiana",
+      "Latte, panna, cioccolato, glucosio e gelatina"
+     ],
+     "ref": "La crema diplomatica o leggera è crema pasticcera con panna montata e gelatina."
+    },
+    {
+     "p": "Come si chiamano i krapfen in Romagna?",
+     "a": "Bomboloni",
+     "w": [
+      "Graffe",
+      "Pettole",
+      "Maritozzi"
+     ],
+     "ref": "I krapfen della tradizione mitteleuropea in Romagna vengono chiamati bomboloni."
+    }
+   ]
+  },
+  "Q5": {
+   "title": "Quiz 5 · Meringhe, zuccheri e decorazioni",
+   "items": [
+    {
+     "p": "Come si prepara la meringa all'italiana?",
+     "a": "Versando uno sciroppo di zucchero a 115-121 °C sugli albumi mentre montano",
+     "w": [
+      "Scaldando albumi e zucchero a bagnomaria fino a +60 °C",
+      "Aggiungendo polvere di frutta secca agli albumi",
+      "Incorporando lo zucchero in due fasi e cuocendo tra +90 e +120 °C"
+     ],
+     "ref": "La meringa all'italiana si prepara versando uno sciroppo di zucchero a 115-121 °C sugli albumi mentre montano."
+    },
+    {
+     "p": "Con quali unità si misura la densità di uno sciroppo?",
+     "a": "Gradi Brix o gradi Baumé",
+     "w": [
+      "Gradi W",
+      "Gradi pH",
+      "Gradi Celsius soltanto"
+     ],
+     "ref": "La densità di uno sciroppo si misura in gradi Brix o in gradi Baumé."
+    },
+    {
+     "p": "Che cos'è il polsonetto?",
+     "a": "Una pentola in rame dal fondo arrotondato per cuocere gli zuccheri",
+     "w": [
+      "Uno strumento per misurare la densità",
+      "Un tipo di caramello scuro",
+      "Uno stampo per la frutta di Martorana"
+     ],
+     "ref": "Per la cottura degli zuccheri a sciroppo si utilizza un polsonetto, una pentola in rame dal fondo arrotondato con un manico."
+    },
+    {
+     "p": "Di che cosa è composto il marzapane?",
+     "a": "Polvere di mandorle e zucchero in parti uguali (Tanto per Tanto)",
+     "w": [
+      "Zucchero caramellato e frutta secca",
+      "Gomma tragacante, acqua e zucchero",
+      "Albumi e zucchero montati a neve"
+     ],
+     "ref": "Il marzapane è composto da polvere di mandorle e zucchero in parti uguali, una miscela definita TpT (Tanto per Tanto)."
+    },
+    {
+     "p": "A quale temperatura si scaldano albumi e zucchero nella meringa alla svizzera?",
+     "a": "Fino a +60 °C a bagnomaria",
+     "w": [
+      "Fino a +121 °C",
+      "Fino a +180 °C",
+      "Non si scaldano"
+     ],
+     "ref": "La meringa alla svizzera si ottiene scaldando albumi e zucchero a bagnomaria fino a +60 °C."
+    }
+   ]
+  }
+ }
+}
