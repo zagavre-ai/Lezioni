@@ -6,8 +6,13 @@
    "stato": "IN_MONTAGGIO"
   }
  },
- "manca": "Parte unica da costruire (docente 25 min, da portare a 50+). Fatti: trascrizione, testo, quiz (6) e testi voci (22), mandati a Sara per l'approvazione. Mancano: approvazione, voci Kore, sincronia slide, grafiche, montaggio, codifica.",
- "serve_master": [],
+ "manca": "Pronti: sincronia, slide, video docente. Mancano: voci Kore (richieste il 15/11), grafiche con le voci, montaggio, codifica, consegna su git.",
+ "serve_master": [
+  {
+   "quando": "15/11 20:43",
+   "testo": "servono voci: alb-cucina-III-IV-lez05 (22 testi approvati da Sara il 15/11, sul ramo voci-alb-cucina-III-IV-lez05, 1516 parole)"
+  }
+ ],
  "domande_sara": [
   {
    "quando": "14/11 22:43",
@@ -22,5 +27,5 @@
  ],
  "materia": "Laboratori dei servizi enogastronomici – settore cucina",
  "lezione": "Made in Italy",
- "aggiornato": "2026-11-15 08:06:32"
+ "aggiornato": "2026-11-15 20:43:23"
 }
