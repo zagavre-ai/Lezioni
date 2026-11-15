@@ -1,0 +1,3 @@
+Unire: cat Letteratura_Lez21_Parte1_1080p.mp4.parte_* > Letteratura_Lez21_Parte1_1080p.mp4 ; controllo: sha256sum -c Letteratura_Lez21_Parte1_1080p.mp4.sha256
+
+v2 con approfondimenti animati, durata misurata 58:23.2, 105097 fotogrammi, 172.0 MB, 1920x1080. Voci Kore. Mappe concettuali (una per argomento e una finale) anche nella dispensa. compiti.json: compiti del prof.
