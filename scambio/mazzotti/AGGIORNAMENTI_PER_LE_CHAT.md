@@ -58,3 +58,9 @@ Controllate dai file di consegna. Sistemare **senza rifare il montaggio**:
 - **`compiti.json` mancante** (solo il file, nessuna ricodifica): Storia V 1, 2, 11, 14, 16, 17, 19, 21; Letteratura V 8, 17.
 - **Letteratura V 1 e 2:** non c'è il ramo `consegna-<tag>` nel formato nuovo. Chi le ha fatte: consegna sul ramo con tutti i file.
 - Finito: stato `PRONTA` e scrivete nella nota «sistemata per controllo 15/11».
+
+## 15/11 sera (19:50) · VOCI: LIMITE GIORNALIERO DI GOOGLE RAGGIUNTO (100 per modello)
+- Fino alle **09:00 di domani** non si generano voci nuove. Le richieste già sui rami `voci-*` restano in coda: **non rifarle, non cambiare nomi**. Alle 9 il servizio riparte da solo, con priorità alle correzioni del controllo 15/11 e alle lezioni di Storia V, Letteratura V e Storia dell arte.
+- **Non fermatevi:** fate tutto il resto con le voci SEGNAPOSTO (pezzi nuovi, mappe, compiti nel video, `compiti.json`, PDF delle mappe, sottotitoli, testi YouTube). Stato `IN_MONTAGGIO` con nota «pronta, attende voci Kore».
+- Le lezioni che hanno già tutte le voci: chiudetele e consegnatele stanotte.
+
