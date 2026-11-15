@@ -3,11 +3,11 @@
  "parti": {
   "1": {
    "titolo": "L'URSS di Stalin (1924-1939)",
-   "stato": "IN_MONTAGGIO",
+   "stato": "PRONTA",
    "voci": "kore",
    "quiz_ok": "si",
    "fermi_ok": "si",
-   "sub_ok": "no",
+   "sub_ok": "si",
    "video": "Storia_Lez11_Parte1_1080p.mp4",
    "durata_s": 2381.9,
    "durata": "39:41.9",
@@ -472,10 +472,14 @@
   {
    "quando": "14/11 17:05",
    "testo": "Parte 1: t_verifica=2363.365 s · t_compiti=2376.865 s (intro compiti a 2373.365 s)"
+  },
+  {
+   "quando": "14/11 17:06",
+   "testo": "PRONTA (chat S2): Parte unica 39:41,9 — SOTTO i 50 min: il video del docente dura 25:06; ho messo il massimo di approfondimenti (mappa + 3 per argomento). Se va unita con l'inizio della lez12, dimmelo. 157,8 MiB, -17,0 LUFS, Q1-Q6 a 0,000 s, nessun fermo. t_verifica=2363.365 s · t_compiti=2376.865 s (intro 2373.365). Sottotitoli: automatico 60%, controllo a mano su 8 blocchi: attacco entro 0,5 s."
   }
  ],
  "materia": "Storia",
  "lezione": "11",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 17:05:48"
+ "aggiornato": "2026-11-14 17:06:33"
 }
