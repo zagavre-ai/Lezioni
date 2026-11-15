@@ -79,5 +79,65 @@
  ],
  "FIN1": [
   "Abbiamo finito. Ora metti alla prova quello che hai imparato con il test finale."
+ ],
+ "CM1": [
+  "Mappa dell'argomento: la rinascita demografica.",
+  "Primo ramo: l'anno Mille. Parola chiave: crescita. La popolazione aumenta.",
+  "Secondo ramo: clima e pace. Parola chiave: più cibo, e una vita più lunga.",
+  "Terzo ramo: le nuove terre. Parola chiave: bonifica, come i pòlders olandesi.",
+  "Quarto ramo: i nuovi villaggi. Parola chiave: villenuove, con contadini liberi da tasse."
+ ],
+ "CM2": [
+  "Mappa dell'argomento: le tecniche agricole.",
+  "Primo ramo: l'aratro pesante. Parola chiave: vomere in ferro, per i terreni argillosi.",
+  "Secondo ramo: gli attacchi per animali. Parola chiave: giogo e collare, che danno più forza di traino.",
+  "Terzo ramo: la rotazione triennale. Parola chiave: due raccolti, con un terzo del campo a riposo.",
+  "Quarto ramo: i mulini. Parola chiave: acqua e vento, per grano, olive e officine."
+ ],
+ "CM3": [
+  "Mappa dell'argomento: il tramonto del sistema curtense.",
+  "Primo ramo: la curtis. Parola chiave: dominica e massaricia.",
+  "Secondo ramo: la fine delle corvè. Parola chiave: affitti, in denaro o in natura.",
+  "Terzo ramo: la moneta. Parola chiave: mercati locali, e le prime zecche.",
+  "Quarto ramo: la società. Parola chiave: differenze, tra contadini ricchi e artigiani."
+ ],
+ "CM4": [
+  "Mappa dell'argomento: le città, la borghesia e le Arti.",
+  "Primo ramo: l'inurbamento. Parola chiave: libertà, dalla campagna alla città.",
+  "Secondo ramo: i borghi. Parola chiave: borghesi, fuori dalle vecchie mura.",
+  "Terzo ramo: i diritti cittadini. Parola chiave: tribunali, e meno potere ai signori.",
+  "Quarto ramo: le Arti. Parola chiave: corporazioni, che fissano prezzi e salari."
+ ],
+ "CM5": [
+  "Mappa dell'argomento: cultura e università.",
+  "Primo ramo: la cultura della Chiesa. Parola chiave: latino, un monopolio dell'Alto Medioevo.",
+  "Secondo ramo: la cultura cortese. Parola chiave: cortesia, cioè coraggio, onore e fedeltà.",
+  "Terzo ramo: la cultura cittadina. Parola chiave: saperi pratici, come calcolo, lingue e diritto.",
+  "Quarto ramo: le università. Parola chiave: Bologna, nel millezeroottantotto, e Napoli di Federico secondo.",
+  "Quinto ramo: la Scolastica. Parola chiave: lèctio e disputàtio."
+ ],
+ "CM6": [
+  "Mappa dell'argomento: la rivoluzione commerciale.",
+  "Primo ramo: i commerci a lungo raggio. Parola chiave: rivoluzione commerciale, tra Europa, Asia e Africa.",
+  "Secondo ramo: Amalfi. Parola chiave: Tavole amalfitane, il primo diritto marittimo.",
+  "Terzo ramo: Venezia. Parola chiave: privilegi, ottenuti dall'Impero Bizantino.",
+  "Quarto ramo: Genova e Pisa. Parola chiave: Melòria, con la vittoria di Genova nel milleduecentottantaquattro."
+ ],
+ "CM7": [
+  "Mappa dell'argomento: commercio e finanza.",
+  "Primo ramo: i tre poli. Parola chiave: Italia, Fiandre e Lega Anseatica.",
+  "Secondo ramo: le fiere della Sciampàgn. Parola chiave: incontro tra Nord e Sud.",
+  "Terzo ramo: le merci. Parola chiave: lusso e beni comuni, come seta, lana e vino.",
+  "Quarto ramo: le società. Parola chiave: commenda e compagnia, che dividono i rischi.",
+  "Quinto ramo: le banche. Parola chiave: cambiavalute, e lettera di cambio."
+ ],
+ "CMF1": [
+  "Mappa riassuntiva di tutta la lezione: l'Occidente in espansione.",
+  "Primo ramo: la demografia. Parola chiave: crescita, con nuove terre.",
+  "Secondo ramo: l'agricoltura. Parola chiave: aratro e rotazione, con i mulini.",
+  "Terzo ramo: la società rurale. Parola chiave: fine delle corvè, e ritorno della moneta.",
+  "Quarto ramo: le città. Parola chiave: borghesia, e le Arti.",
+  "Quinto ramo: la cultura. Parola chiave: università e Scolastica.",
+  "Sesto ramo: il commercio. Parola chiave: città marinare e banche."
  ]
 }

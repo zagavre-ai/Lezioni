@@ -1,0 +1,387 @@
+{
+ "Q1": {
+  "title": "Quiz 1 · La rinascita demografica ed economica",
+  "items": [
+   {
+    "p": "Che cosa succede alla popolazione europea dopo l'anno Mille?",
+    "a": "Torna gradualmente a crescere",
+    "w": [
+     "Continua a diminuire",
+     "Resta invariata",
+     "Scompare dalle campagne"
+    ],
+    "e": "Dopo secoli di crisi la popolazione cresce."
+   },
+   {
+    "p": "Che cosa favorisce la ripresa dell'agricoltura?",
+    "a": "Un clima più caldo e favorevole",
+    "w": [
+     "Un clima più freddo",
+     "Le invasioni",
+     "La chiusura dei mercati"
+    ],
+    "e": "Il miglioramento climatico accelera la ripresa."
+   },
+   {
+    "p": "Perché si vive più a lungo?",
+    "a": "Più cibo e meno guerre",
+    "w": [
+     "Più tasse",
+     "Più epidemie",
+     "Meno terre coltivate"
+    ],
+    "e": "Aumentano le risorse alimentari e diminuiscono le guerre."
+   },
+   {
+    "p": "Che cosa sono i polders?",
+    "a": "Terre strappate al mare con le dighe",
+    "w": [
+     "Villaggi di montagna",
+     "Mulini a vento",
+     "Tipi di aratro"
+    ],
+    "e": "Si trovano nelle Fiandre e nei Paesi Bassi."
+   },
+   {
+    "p": "Chi abita le villefranche o villenuove?",
+    "a": "Contadini liberi da tasse",
+    "w": [
+     "Cavalieri",
+     "Monaci",
+     "Mercanti di spezie"
+    ],
+    "e": "Sono nuovi villaggi fondati per volere dei signori feudali."
+   }
+  ]
+ },
+ "Q2": {
+  "title": "Quiz 2 · La rivoluzione delle tecniche agricole",
+  "items": [
+   {
+    "p": "Che cosa ha l'aratro pesante?",
+    "a": "Un vomere e un versoio in ferro",
+    "w": [
+     "Una ruota di legno",
+     "Due soli buoi",
+     "Un motore ad acqua"
+    ],
+    "e": "Rivolta in profondità i terreni argillosi."
+   },
+   {
+    "p": "A che cosa servono giogo frontale e collare rigido?",
+    "a": "A evitare il soffocamento e moltiplicare la forza di traino",
+    "w": [
+     "A seminare",
+     "A macinare il grano",
+     "A irrigare i campi"
+    ],
+    "e": "Il giogo è per i buoi, il collare per i cavalli."
+   },
+   {
+    "p": "Quanto campo resta a riposo con la rotazione triennale?",
+    "a": "Un terzo",
+    "w": [
+     "La metà",
+     "Tutto",
+     "Nulla"
+    ],
+    "e": "Prima, con la biennale, restava a riposo metà campo."
+   },
+   {
+    "p": "Quanti raccolti garantisce la rotazione triennale?",
+    "a": "Due all'anno",
+    "w": [
+     "Uno ogni due anni",
+     "Quattro all'anno",
+     "Nessuno"
+    ],
+    "e": "Cereali invernali, legumi e cereali primaverili."
+   },
+   {
+    "p": "Quali energie usano i mulini?",
+    "a": "Acqua e vento",
+    "w": [
+     "Carbone e vapore",
+     "Fuoco e legna",
+     "Elettricità"
+    ],
+    "e": "Macinano il grano, spremono olive e azionano macchinari."
+   }
+  ]
+ },
+ "Q3": {
+  "title": "Quiz 3 · Il tramonto del sistema curtense",
+  "items": [
+   {
+    "p": "Come è divisa la curtis?",
+    "a": "In parte del signore e parte dei contadini",
+    "w": [
+     "In tre parti uguali",
+     "In campi e boschi",
+     "In città e borghi"
+    ],
+    "e": "La parte del signore è la dominica, quella dei contadini la massaricia."
+   },
+   {
+    "p": "Che cosa finisce con la crisi della curtis?",
+    "a": "Le corvées",
+    "w": [
+     "I mulini",
+     "Le città",
+     "Le dighe"
+    ],
+    "e": "I contadini pagano affitti."
+   },
+   {
+    "p": "Come pagano ora i contadini?",
+    "a": "Con affitti in denaro o in natura",
+    "w": [
+     "Con lavoro gratuito",
+     "Con armi",
+     "Non pagano"
+    ],
+    "e": "Le corvées vengono sostituite dai pagamenti."
+   },
+   {
+    "p": "Che cosa riattiva la vendita delle eccedenze nei mercati?",
+    "a": "L'uso della moneta e le prime zecche",
+    "w": [
+     "Le invasioni",
+     "Il feudo",
+     "Il baratto esclusivo"
+    ],
+    "e": "Circolazione monetaria e nascita delle zecche."
+   },
+   {
+    "p": "Che cosa fanno alcuni contadini arricchiti?",
+    "a": "Comprano terre",
+    "w": [
+     "Diventano vescovi",
+     "Lasciano l'Europa",
+     "Costruiscono castelli"
+    ],
+    "e": "Altri si specializzano in mestieri artigianali."
+   }
+  ]
+ },
+ "Q4": {
+  "title": "Quiz 4 · Le città, la borghesia e le Arti",
+  "items": [
+   {
+    "p": "Che cos'è l'inurbamento?",
+    "a": "Il trasferimento dalle campagne alle città",
+    "w": [
+     "La costruzione di castelli",
+     "La bonifica delle paludi",
+     "La fondazione di monasteri"
+    ],
+    "e": "Si cerca libertà dai vincoli feudali."
+   },
+   {
+    "p": "Che cosa sono i borghi?",
+    "a": "Nuovi quartieri fuori dalle vecchie mura romane",
+    "w": [
+     "Castelli dei signori",
+     "Monasteri",
+     "Fiere"
+    ],
+    "e": "I loro abitanti sono i borghesi."
+   },
+   {
+    "p": "Che cosa ottengono i cittadini?",
+    "a": "Diritti propri e tribunali cittadini",
+    "w": [
+     "Terre dal re",
+     "Il titolo di conte",
+     "Il comando dell'esercito"
+    ],
+    "e": "Si riduce l'influenza di signori e vescovi."
+   },
+   {
+    "p": "Quale settore è il motore delle manifatture urbane?",
+    "a": "Quello tessile",
+    "w": [
+     "Quello minerario",
+     "Quello navale",
+     "Quello librario"
+    ],
+    "e": "Impiega manodopera maschile e femminile."
+   },
+   {
+    "p": "Che cosa sono le Arti?",
+    "a": "Corporazioni di artigiani e mercanti",
+    "w": [
+     "Scuole di pittura",
+     "Ordini monastici",
+     "Tribunali"
+    ],
+    "e": "Stabiliscono prezzi e salari e proteggono i membri malati."
+   }
+  ]
+ },
+ "Q5": {
+  "title": "Quiz 5 · Cultura cortese, cittadina e università",
+  "items": [
+   {
+    "p": "Chi era depositaria della cultura nell'Alto Medioevo?",
+    "a": "La Chiesa",
+    "w": [
+     "I mercanti",
+     "I contadini",
+     "Le corporazioni"
+    ],
+    "e": "Quasi solo gli ecclesiastici sapevano leggere e scrivere in latino."
+   },
+   {
+    "p": "Che cosa esalta la cultura cortese?",
+    "a": "Coraggio, onore e fedeltà",
+    "w": [
+     "Il guadagno",
+     "L'ascesi",
+     "Il lavoro manuale"
+    ],
+    "e": "Sono i valori cavallereschi riassunti nella cortesia."
+   },
+   {
+    "p": "Che cosa insegnano le scuole urbane?",
+    "a": "Saperi pratici: calcolo, lingue, diritto",
+    "w": [
+     "Solo teologia",
+     "Solo latino",
+     "Solo musica"
+    ],
+    "e": "Usano le lingue volgari."
+   },
+   {
+    "p": "In che anno è fondata l'Università di Bologna?",
+    "a": "Nel 1088",
+    "w": [
+     "Nel 962",
+     "Nel 1284",
+     "Nel 1500"
+    ],
+    "e": "Bologna e Parigi sono tra le prime università."
+   },
+   {
+    "p": "Come si svolgeva una lezione scolastica?",
+    "a": "Con la lectio e poi la disputatio",
+    "w": [
+     "Con una gita",
+     "Con un esame scritto",
+     "Con una preghiera"
+    ],
+    "e": "Si usavano ragione e logica per risolvere le quaestiones."
+   }
+  ]
+ },
+ "Q6": {
+  "title": "Quiz 6 · La rivoluzione commerciale e le città marinare",
+  "items": [
+   {
+    "p": "Che cosa innesca la rivoluzione commerciale?",
+    "a": "L'aumento demografico e agricolo",
+    "w": [
+     "Le invasioni",
+     "La peste",
+     "La chiusura dei porti"
+    ],
+    "e": "Rinascono i commerci a lungo raggio."
+   },
+   {
+    "p": "Quali sono le città marinare italiane?",
+    "a": "Venezia, Amalfi, Genova e Pisa",
+    "w": [
+     "Roma, Milano, Napoli e Torino",
+     "Firenze, Siena, Lucca e Pavia",
+     "Palermo, Bari, Ancona e Trieste"
+    ],
+    "e": "Godono di autonomia politica e basi marittime."
+   },
+   {
+    "p": "Che cosa crea Amalfi?",
+    "a": "Le Tavole amalfitane",
+    "w": [
+     "Il fiorino",
+     "La Lega Anseatica",
+     "Le fiere"
+    ],
+    "e": "È il primo codice di diritto marittimo."
+   },
+   {
+    "p": "Che cosa ottiene Venezia dall'Impero Bizantino?",
+    "a": "Enormi privilegi commerciali",
+    "w": [
+     "Un esercito",
+     "Il titolo imperiale",
+     "Nulla"
+    ],
+    "e": "Domina i mercati orientali."
+   },
+   {
+    "p": "Quando Genova vince la Meloria?",
+    "a": "Nel 1284",
+    "w": [
+     "Nel 1088",
+     "Nel 962",
+     "Nel 1130"
+    ],
+    "e": "La vittoria chiude la rivalità con Pisa."
+   }
+  ]
+ },
+ "Q7": {
+  "title": "Quiz 7 · Vie del commercio, fiere e strumenti finanziari",
+  "items": [
+   {
+    "p": "Quali sono i tre poli commerciali?",
+    "a": "Italia del Nord, Fiandre e Germania del Nord",
+    "w": [
+     "Spagna, Francia e Inghilterra",
+     "Roma, Parigi e Londra",
+     "Africa, Asia e Americhe"
+    ],
+    "e": "La Germania del Nord forma la Lega Anseatica."
+   },
+   {
+    "p": "Dove si tengono le fiere più importanti?",
+    "a": "In Champagne, nel Nord della Francia",
+    "w": [
+     "A Venezia",
+     "A Bologna",
+     "In Sicilia"
+    ],
+    "e": "Vi si incontrano mercanti del Nord e del Sud."
+   },
+   {
+    "p": "Quale è un bene di lusso?",
+    "a": "La seta",
+    "w": [
+     "Il grano",
+     "Il vino",
+     "Il legname"
+    ],
+    "e": "Anche spezie e metalli preziosi."
+   },
+   {
+    "p": "Che cos'è la commenda?",
+    "a": "Un investitore finanzia un mercante e si dividono i guadagni",
+    "w": [
+     "Un tipo di moneta",
+     "Una corporazione",
+     "Un tribunale"
+    ],
+    "e": "Si usava soprattutto per i viaggi per mare."
+   },
+   {
+    "p": "A che serve la lettera di cambio?",
+    "a": "A trasferire denaro senza portare contanti",
+    "w": [
+     "A comprare terre",
+     "A pagare le tasse al re",
+     "A fondare un'università"
+    ],
+    "e": "È l'antenata dell'assegno."
+   }
+  ]
+ }
+}
