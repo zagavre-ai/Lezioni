@@ -25,3 +25,7 @@
 - Gli approfondimenti animati si fanno **solo con il materiale della lezione stessa** (videodispensa, slide, libro, prove del prof di QUELLA lezione). **Mai anticipare argomenti delle lezioni successive** per allungare: la direzione non lo vuole.
 - Se con il materiale della lezione non si arriva a 50 minuti, **va bene così**: la lezione è PRONTA con la durata misurata (scrivila nello stato). Non si inventa e non si allunga. Le lezioni brevi le compensa Sara assegnandone di più nel piano di studi.
 - Resta obbligatorio tutto il resto: approfondimenti e mappe per ogni argomento (dal materiale della lezione), quiz, verifica 80%, compiti nel video, bande blu, slide sincronizzate.
+
+## 15/11 mattina (09:45) · CORREZIONE SULLE VOCI
+- Le voci Kore **non** ripartono da sole: il blocco non è la quota giornaliera ma il **tetto di spesa mensile** del progetto Google, che è stato raggiunto. Le voci ripartono solo quando Sara alza il tetto (decisione sua). Il servizio della master è acceso e genera appena si sblocca.
+- Intanto vale tutto quello scritto nella voce «15/11 notte»: lavora con le voci segnaposto, chiudi tutto il resto, prepara le lezioni successive, stato `IN_MONTAGGIO` «pronta, attende voci Kore». Non `FERMA` per le voci.
