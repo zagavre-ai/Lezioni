@@ -1,0 +1,82 @@
+[
+ {
+  "nome": "INTRO",
+  "testo": "Benvenuti alla lezione sull'architettura moderna. Vedremo sei argomenti. Razionalismo e Funzionalismo. Mies van der Rohe e la nuova bellezza. Le Corbusier e Villa Savoye. Frank Lloyd Wright e l'architettura organica. Fallingwater, la casa sulla cascata. E infine Alvar Aalto e il Funzionalismo finlandese.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R1",
+  "testo": "Ripassiamo il Razionalismo e il Funzionalismo.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R2",
+  "testo": "Ripassiamo Mies van der Rohe e la nuova bellezza.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R3",
+  "testo": "Ripassiamo Le Corbusier e Villa Savoye.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R4",
+  "testo": "Ripassiamo Frank Lloyd Wright e l'architettura organica.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R5",
+  "testo": "Ripassiamo Fallingwater, la casa sulla cascata.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R6",
+  "testo": "Ripassiamo Alvar Aalto e il Funzionalismo finlandese.",
+  "lingua": "it"
+ },
+ {
+  "nome": "S1",
+  "testo": "Razionalismo e Funzionalismo. All'inizio del Novecento nasce l'architettura moderna, guidata da figure come Mies van der Rohe e Le Corbusier. Risponde alle esigenze della società industriale e urbana con efficienza e razionalizzazione. Forme e volumi dipendono dalle funzioni dell'edificio, con una rigorosa logica del progetto e la standardizzazione edilizia. Riviste, saggi e i CIAM diffondono queste idee: nasce l'International Style, fondato su regolarità e geometria.",
+  "lingua": "it"
+ },
+ {
+  "nome": "S2",
+  "testo": "Mies van der Rohe e la nuova bellezza. Mies sviluppa un funzionalismo in cui la forma è legata ai compiti pratici, e progetta grattacieli di vetro con struttura a scheletro metallico. Il Padiglione tedesco di Barcellona poggia su un basamento in travertino, ed è coperto da una lastra di cemento armato; le pareti libere creano spazi aperti, dove interno ed esterno fluiscono l'uno nell'altro. Marmo verde, acciaio cromato e vetro caratterizzano l'edificio, con la celebre Poltrona Barcellona.",
+  "lingua": "it"
+ },
+ {
+  "nome": "S3",
+  "testo": "Le Corbusier e Villa Savoye. Le Corbusier concepisce la casa come una struttura industriale prodotta in serie, con prototipi economici come la Casa Dom-Ino, e immagina città utopiche con ampie aree verdi e grattacieli. Nel millenovecentoventisei fissa i cinque punti della nuova architettura: i pilotis, il tetto giardino, la pianta libera, la facciata libera e la finestra a nastro. Villa Savoye, a Poissy, li applica tutti: un parallelepipedo bianco sospeso su pilotis, con la rampa che porta al solarium.",
+  "lingua": "it"
+ },
+ {
+  "nome": "S4",
+  "testo": "Frank Lloyd Wright e l'architettura organica. A differenza del Razionalismo europeo, l'architettura americana si ispira alla natura incontaminata del Midwest. Guidato dal Trascendentalismo, Wright sostiene che l'edificio debba crescere in armonia con l'ambiente, come un organismo vivente. Le Prairie Houses, dei primi del Novecento, sono case unifamiliari con linee orizzontali che si integrano nel paesaggio, e spazi che fluiscono attorno a un camino centrale.",
+  "lingua": "it"
+ },
+ {
+  "nome": "S5",
+  "testo": "Fallingwater, la casa sulla cascata. Costruita nel millenovecentotrentasei in Pennsylvania per Edgar Kaufmann, è il simbolo dell'architettura organica di Wright. L'architetto non si limita a far guardare la cascata, ma posiziona la casa sopra di essa. Piani orizzontali in cemento armato sono sospesi sull'acqua e ancorati al terreno da una torre di pietra arenaria locale. Grandi vetrate eliminano la barriera tra interno ed esterno, e le pietre richiamano l'ambiente roccioso.",
+  "lingua": "it"
+ },
+ {
+  "nome": "S6",
+  "testo": "Alvar Aalto e il Funzionalismo finlandese. Aalto unisce le tendenze europee con la tradizione scandinava e mette al centro i bisogni psicologici ed emotivi della persona. Il Sanatorio di Paimio, per i malati di tubercolosi, orienta i padiglioni verso la luce solare e usa colori rilassanti, come il giallo nei corridoi, per favorire la guarigione. Villa Mairea, nel bosco, fonde forme moderne con legno e pietra locale, e i pilastri del soggiorno richiamano il ritmo degli alberi.",
+  "lingua": "it"
+ },
+ {
+  "nome": "GL",
+  "testo": "Ripassiamo le parole chiave della lezione. Razionalismo: la progettazione guidata dall'efficienza e dalla funzione. International Style: l'ordine razionale basato su regolarità e geometria. Pilotis: i pilastri che sollevano la casa. Pianta libera: lo spazio interno non vincolato dai muri portanti. Architettura organica: l'edificio che cresce in armonia con la natura. Prairie Houses: le case della prateria di Wright. Sbalzo: la parte dell'edificio sospesa nel vuoto.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RF",
+  "testo": "Prima di salutarci, ricapitoliamo i sei argomenti della lezione. Il Razionalismo risponde alla società industriale con efficienza e funzione. Mies van der Rohe crea una nuova bellezza di vetro, acciaio e spazi aperti. Le Corbusier fissa i cinque punti e li realizza a Villa Savoye. Wright propone l'architettura organica, in armonia con la natura. Fallingwater ne è il simbolo, sospesa sopra la cascata. Aalto mette al centro i bisogni umani con legno, pietra e luce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "FIN",
+  "testo": "Fine della lezione. Grazie per l'attenzione.",
+  "lingua": "it"
+ }
+]
