@@ -2,47 +2,47 @@
  "tag": "letteratura-V-lez15",
  "parti": {
   "1": {
-   "stato": "IN_MONTAGGIO",
+   "stato": "PRONTA",
    "titolo": "La narrativa tra le due guerre",
    "voci": "kore",
    "quiz_ok": "si",
    "fermi_ok": "si",
    "sub_ok": "si",
    "video": "Letteratura_Lez15_Parte1_1080p.mp4",
-   "durata_s": 2274.0,
-   "durata": "37:54.0",
-   "fotogrammi": 68221,
-   "fotogrammi_attesi": 68221,
-   "peso_MB": 143.8,
+   "durata_s": 3324.6,
+   "durata": "55:24.6",
+   "fotogrammi": 99737,
+   "fotogrammi_attesi": 99737,
+   "peso_MB": 170.7,
    "vtt": "Letteratura_Lez15_Parte1.vtt",
    "scheda": {
     "materia": "Letteratura italiana (V)",
     "titolo": "La narrativa tra le due guerre · Parte 1",
-    "durata_s": 2274.03,
+    "durata_s": 3324.43,
     "argomenti": [
      {
       "n": 1,
       "titolo": "Il dopoguerra e il fascismo",
       "inizio_s": 37.933,
-      "quiz_s": 591.7
+      "quiz_s": 797.666
      },
      {
       "n": 2,
       "titolo": "Il regime e la sua politica",
-      "inizio_s": 596.7,
-      "quiz_s": 765.433
+      "inizio_s": 802.666,
+      "quiz_s": 1163.919
      },
      {
       "n": 3,
       "titolo": "Ideologia e cultura",
-      "inizio_s": 770.433,
-      "quiz_s": 1318.6
+      "inizio_s": 1168.919,
+      "quiz_s": 1970.772
      },
      {
       "n": 4,
       "titolo": "La narrativa tra le due guerre",
-      "inizio_s": 1323.6,
-      "quiz_s": 2144.567
+      "inizio_s": 1975.772,
+      "quiz_s": 3140.671
      }
     ],
     "quiz": {
@@ -266,7 +266,9 @@
        }
       ]
      }
-    }
+    },
+    "t_verifica": 3305.927,
+    "t_compiti": 3319.427
    },
    "timeline": [
     [
@@ -348,10 +350,14 @@
   {
    "quando": "15/11 03:17",
    "testo": "chat R5: pronta, attende voci Kore. Con segnaposto: montaggio v2, mappe, sottotitoli, dispensa con mappe, compiti.json, tempi quiz/verifica/compiti aggiornati. Durata stimata (non misurata) vedi lista; si codifica appena arrivano le voci."
+  },
+  {
+   "quando": "15/11 12:38",
+   "testo": "chat R5 · PRONTA v2 con approfondimenti animati, consegnata sul ramo consegna-letteratura-V-lez15. Misurato: 55:24.6, 99737 fotogrammi, 170.7 MB, 1920x1080, parlato docente -15.9 LUFS, approfondimenti -16.4 LUFS, scatto quiz entro 0,04 s su 4/4, nessun fermo. 16 approfondimenti animati con voce Kore (17,5 min) + mappe (una per argomento + finale, anche nella dispensa). t_verifica 3305.927, t_compiti 3319.427. compiti.json del prof aggiunto. Non rifatti (restano dalla v1): scheda e intro Compiti nel video, bande blu, sincronia slide. Sottotitoli degli approfondimenti allineati alle pause della voce, non verificati uno per uno."
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 15",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-15 03:17:29"
+ "aggiornato": "2026-11-15 12:38:36"
 }
