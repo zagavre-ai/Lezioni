@@ -13,6 +13,11 @@ P = int(o.parte); os.makedirs(o.out, exist_ok=True)
 FPS = 30; fr = lambda t: round(t * FPS) / FPS
 def dur(p): return float(subprocess.run(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', p], capture_output=True, text=True).stdout)
 TL = json.load(open(o.timeline)); st = {n: t for n, t, l in TL}
+def prima(*nomi):
+    for n in nomi:
+        if n in st: return n
+    raise SystemExit('nella timeline manca uno di ' + str(nomi))
+NGL = next((n for n in st if n.startswith('GL')), 'SF' if 'SF' in st else None); NCP = next((n for n in ('COMPITI', 'CP') if n in st), None)
 # ordine degli AN per punto di inserimento: nell'ordine della lista, mappe per ultime nello stesso argomento
 ans = [a for a in sp.ANS if a['parte'] == P]
 ins = {}
@@ -20,7 +25,7 @@ for a in ans: ins.setdefault(a['dopo'], []).append(a)
 for k in ins: ins[k] = [a for a in ins[k] if a['tipo'] != 'mappa'] + [a for a in ins[k] if a['tipo'] == 'mappa']
 cuts = []  # (tempo_taglio_originale, [(nome_an, file, durata)])
 for k in sorted(ins):
-    t = st['GL'] if k == 99 else st['S%d' % k]
+    t = st[NGL] if k == 99 else st[prima('R%d' % k, 'S%d' % k)]
     lst = []
     for a in ins[k]:
         n = f"P{P}_{a['id']}"; f = os.path.join(o.an, n + '.mp4'); lst.append((n, f, dur(f), a))
@@ -66,7 +71,7 @@ if o.solo_tempi: sys.exit()
 inp = ['-i', o.base]; fc = []; segs = []; prev = 0.0; k = 0; ai = 1
 nb = len(cuts) + 1; 
 fc.append(f'[0:v]split={nb}' + ''.join(f'[bv{i}]' for i in range(nb))); fc.append(f'[0:a]asplit={nb}' + ''.join(f'[ba{i}]' for i in range(nb)))
-bounds = [0.0] + [c for c, _ in cuts] + [fr(st['COMPITI']) if o.card else dur(o.base)]
+bounds = [0.0] + [c for c, _ in cuts] + [fr(st[NCP]) if (o.card and NCP) else dur(o.base)]
 order = []
 for i in range(nb):
     a, b = bounds[i], bounds[i + 1]
@@ -76,7 +81,7 @@ for i in range(nb):
         for n, f, d, a_ in cuts[i][1]:
             inp += ['-i', f]; fc.append(f'[{ai}:v]fps=30,setsar=1[x{ai}v]'); fc.append(f'[{ai}:a]aformat=sample_rates=48000:channel_layouts=stereo[x{ai}a]')
             order.append((f'[x{ai}v]', f'[x{ai}a]')); ai += 1
-if o.card:
+if o.card and NCP:
     inp += ['-i', o.card]; fc.append(f'[{ai}:v]fps=30,setsar=1[x{ai}v]'); fc.append(f'[{ai}:a]aformat=sample_rates=48000:channel_layouts=stereo[x{ai}a]'); order.append((f'[x{ai}v]', f'[x{ai}a]')); ai += 1
 fc.append(''.join(v + a for v, a in order) + f'concat=n={len(order)}:v=1:a=1[vo][ao]')
 cmd = ['ffmpeg', '-y', '-v', 'error'] + inp + ['-filter_complex', ';'.join(fc), '-map', '[vo]', '-map', '[ao]', '-c:v', 'libx264', '-preset', 'veryfast', '-crf', os.environ.get('CRF', '19'), '-maxrate', '16M', '-bufsize', '32M', '-pix_fmt', 'yuv420p', '-r', '30', '-c:a', 'aac', '-b:a', '192k', '-ar', '48000', '-movflags', '+faststart']
