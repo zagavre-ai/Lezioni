@@ -1,0 +1,253 @@
+{
+ "materia": "Laboratori dei servizi enogastronomici – settore cucina",
+ "titolo": "Le carni · Parte 1",
+ "durata_s": 3127.13,
+ "argomenti": [
+  {
+   "n": 1,
+   "titolo": "Le carni: categorie e struttura",
+   "inizio_s": 78.566,
+   "quiz_s": 618.798
+  },
+  {
+   "n": 2,
+   "titolo": "Colore, lavorazione e conservazione",
+   "inizio_s": 624.098,
+   "quiz_s": 1397.596
+  },
+  {
+   "n": 3,
+   "titolo": "I tagli delle carni",
+   "inizio_s": 1402.896,
+   "quiz_s": 2207.561
+  },
+  {
+   "n": 4,
+   "titolo": "Quinto quarto e consumo sostenibile",
+   "inizio_s": 2212.861,
+   "quiz_s": 2919.527
+  }
+ ],
+ "quiz": {
+  "Q1": {
+   "title": "Quiz 1 · Le carni: categorie e struttura",
+   "items": [
+    {
+     "p": "In base all'origine, in quali tre grandi categorie si classificano le carni?",
+     "a": "Animali da macello, animali da cortile e selvaggina",
+     "w": [
+      "Carni bianche, carni rosse e carni nere",
+      "Prima, seconda e terza categoria",
+      "Carni fresche, refrigerate e surgelate"
+     ],
+     "ref": "Le carni vengono classificate in tre grandi categorie in base alla loro origine: animali da macello, animali da cortile e selvaggina."
+    },
+    {
+     "p": "Quale tessuto lega i muscoli tra loro ed è formato da collagene ed elastina?",
+     "a": "Il tessuto connettivo",
+     "w": [
+      "Il tessuto muscolare",
+      "Il tessuto adiposo",
+      "Il tessuto epiteliale"
+     ],
+     "ref": "Il tessuto connettivo ha il compito di legare i muscoli tra loro ed è composto da collagene ed elastina."
+    },
+    {
+     "p": "Quale tipo di grasso d'infiltrazione ha striature piccolissime, quasi invisibili, e dona massima morbidezza?",
+     "a": "Il grasso prezzemolato",
+     "w": [
+      "Il grasso venato o marmorizzato",
+      "Il grasso marezzato",
+      "Il grasso di copertura"
+     ],
+     "ref": "Il grasso prezzemolato ha striature piccolissime e quasi invisibili che donano massima morbidezza e lucentezza."
+    },
+    {
+     "p": "I tagli ricchi di tessuto connettivo, come pancia, biancostato e collo, quali cotture richiedono?",
+     "a": "Brasatura, stufatura o bollitura",
+     "w": [
+      "Cotture rapide alla griglia o alla piastra",
+      "Salto in padella a fuoco vivo",
+      "Frittura impanata alla milanese"
+     ],
+     "ref": "I tagli ricchi di tessuto connettivo corrispondono alla terza categoria e richiedono tecniche come la brasatura, la stufatura o la bollitura."
+    },
+    {
+     "p": "Quale tipo di grasso d'infiltrazione rende la carne più difficile da masticare?",
+     "a": "Il grasso venato o marmorizzato",
+     "w": [
+      "Il grasso marezzato",
+      "Il grasso prezzemolato",
+      "Il grasso di copertura"
+     ],
+     "ref": "Il grasso venato o marmorizzato presenta striature molto evidenti che rendono la carne più difficile da masticare."
+    }
+   ]
+  },
+  "Q2": {
+   "title": "Quiz 2 · Colore, lavorazione e conservazione",
+   "items": [
+    {
+     "p": "A quale categoria di colore appartiene la carne di manzo, cavallo e struzzo?",
+     "a": "Carni rosse",
+     "w": [
+      "Carni bianche",
+      "Carni nere",
+      "Carni rosate"
+     ],
+     "ref": "Le carni rosse comprendono animali come il manzo, il cavallo, il montone, la pecora e lo struzzo."
+    },
+    {
+     "p": "Come si chiamano le due metà simmetriche ottenute dalla divisione longitudinale della carcassa?",
+     "a": "Mezzene",
+     "w": [
+      "Quarti",
+      "Tagli commerciali",
+      "Carré"
+     ],
+     "ref": "Le mezzene sono le due metà simmetriche ottenute dalla divisione longitudinale."
+    },
+    {
+     "p": "A quale temperatura avviene la frollatura della carne?",
+     "a": "Tra 0 e 4 gradi",
+     "w": [
+      "Tra 8 e 12 gradi",
+      "A −18 gradi",
+      "Tra 15 e 20 gradi"
+     ],
+     "ref": "La frollatura è un periodo di maturazione a temperature controllate tra 0 e 4 gradi."
+    },
+    {
+     "p": "Per quanto tempo si può conservare la carne surgelata a −18 gradi?",
+     "a": "Dai 3 ai 6 mesi",
+     "w": [
+      "Dai 10 ai 15 giorni",
+      "Dalle 5 alle 8 settimane",
+      "Fino a 24 mesi"
+     ],
+     "ref": "La surgelazione permette la conservazione a −18 gradi per un periodo che può variare dai 3 ai 6 mesi."
+    },
+    {
+     "p": "Che cos'è il rigor mortis?",
+     "a": "L'irrigidimento naturale delle fibre muscolari dopo l'abbattimento",
+     "w": [
+      "La maturazione della carne a 0-4 gradi",
+      "La perdita di peso durante la frollatura a secco",
+      "L'ossidazione della carne in frigorifero"
+     ],
+     "ref": "Dopo l'abbattimento si verifica un irrigidimento naturale delle fibre muscolari dovuto alla mancanza di ossigenazione, noto come rigor mortis."
+    }
+   ]
+  },
+  "Q3": {
+   "title": "Quiz 3 · I tagli delle carni",
+   "items": [
+    {
+     "p": "Quale taglio appartiene alla prima categoria?",
+     "a": "Il filetto",
+     "w": [
+      "Il biancostato",
+      "Il geretto",
+      "La coda"
+     ],
+     "ref": "La prima categoria comprende lombata o carré, filetto, scamone, fesa, sottofesa, noce, girello o magatello e spinacino."
+    },
+    {
+     "p": "I tagli di terza categoria quali cotture richiedono?",
+     "a": "Cotture lunghe, come bollitura, stufatura lenta o brasatura",
+     "w": [
+      "Cotture espresse e brevi, come il salto e la griglia",
+      "Cotture di media intensità, come la glassatura",
+      "Solo la frittura in pastella"
+     ],
+     "ref": "I tagli di terza categoria richiedono necessariamente cotture lunghe, come la bollitura, la stufatura lenta o la brasatura."
+    },
+    {
+     "p": "Da quale parte del filetto si ricava lo chateaubriand?",
+     "a": "Dalla testa del filetto",
+     "w": [
+      "Dalla parte centrale",
+      "Dalla parte della coda",
+      "Dal controfiletto"
+     ],
+     "ref": "Il filetto viene porzionato in tre parti: lo chateaubriand dalla testa, il filetto da porzione dalla parte centrale e i filet mignon dalla coda."
+    },
+    {
+     "p": "Come si chiamano le cosce di coniglio disossate e farcite?",
+     "a": "Giambonetto",
+     "w": [
+      "Fricandeau",
+      "Nocetta",
+      "Filet mignon"
+     ],
+     "ref": "Le due cosce di coniglio, se disossate e farcite, prendono il nome gastronomico di giambonetto."
+    },
+    {
+     "p": "Entro quale età vengono macellati l'agnello da latte e il capretto?",
+     "a": "Entro i due mesi di vita",
+     "w": [
+      "Tra i due e gli otto mesi",
+      "Dopo un anno",
+      "Entro due settimane"
+     ],
+     "ref": "L'agnello da latte o abbacchio e il capretto vengono macellati entro i due mesi di vita."
+    }
+   ]
+  },
+  "Q4": {
+   "title": "Quiz 4 · Quinto quarto e consumo sostenibile",
+   "items": [
+    {
+     "p": "Che cosa si intende per quinto quarto?",
+     "a": "L'insieme delle frattaglie commestibili dell'animale",
+     "w": [
+      "Il quarto posteriore con il carré attaccato",
+      "I tagli di prima categoria",
+      "La carcassa intera dopo l'abbattimento"
+     ],
+     "ref": "Le interiora degli animali costituiscono una categoria gastronomica definita quinto quarto, che raggruppa tutte le frattaglie commestibili."
+    },
+    {
+     "p": "Quale parte dello stomaco dei ruminanti è l'ingrediente base del lampredotto?",
+     "a": "L'abomaso",
+     "w": [
+      "Il rumine",
+      "Il reticolo",
+      "L'omaso"
+     ],
+     "ref": "L'abomaso è la parte più scura e vicina all'intestino, ingrediente base del lampredotto."
+    },
+    {
+     "p": "Quale di questi è un taglio povero o minore?",
+     "a": "La bavetta",
+     "w": [
+      "Il filetto",
+      "La lombata",
+      "Lo scamone"
+     ],
+     "ref": "Tra i tagli poveri o minori si distinguono il diaframma, lo spinacino, il lombatello, la bavetta, il codone o codile e il ragno."
+    },
+    {
+     "p": "In che anno e dove è stata proclamata la Dichiarazione universale dei diritti dell'animale?",
+     "a": "Nel 1978, all'UNESCO di Parigi",
+     "w": [
+      "Nel 1948, all'ONU di New York",
+      "Nel 1992, alla FAO di Roma",
+      "Nel 1978, al Parlamento europeo di Strasburgo"
+     ],
+     "ref": "Nel 1978 è stata proclamata presso la sede dell'UNESCO a Parigi la Dichiarazione universale dei diritti dell'animale."
+    },
+    {
+     "p": "Come si chiama lo stomaco dei ruminanti?",
+     "a": "Trippa",
+     "w": [
+      "Animelle",
+      "Rognone",
+      "Cotenna"
+     ],
+     "ref": "Lo stomaco dei ruminanti, noto come trippa, si suddivide in diverse parti anatomiche."
+    }
+   ]
+  }
+ }
+}
