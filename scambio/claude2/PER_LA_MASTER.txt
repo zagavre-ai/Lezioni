@@ -99,3 +99,8 @@
 - Correzioni 15/11 02:05: sottolineatura sulla parola detta (tools/sync_parole.py; scarto medio +0,05/+0,12/+0,19 s, nessuna riga oltre 1,5 s tranne 2 in lez01), cerchio pulito (anello giallo, 3 fotogrammi al 200% salvati in controlli/), una sola codifica.
 - NON PRONTA su tutte e tre: controllo_finale sui sottotitoli dà 62-71% (soglia 80%) su 16-21 blocchi verificabili (voce bassa sotto la soglia); non confermato. Decidi tu se accettare.
 - Voci da riascoltare: lez01 M7, RF1; lez03 M2, M8. Immagini HD del libro ancora mancanti (lez01 12, lez02 fino a 15).
+
+=== 15/11 · CHAT (ex Cucina) · INGLESE AFM pari: nella release ci sono 2 zip (003, 004), nessuna pari completa ===
+- Lez 6: solo Verifica.xlsx. Lez 8: Compiti.pdf + Presentazione.pdf (mancano video, dispensa, verifica). Lez 10 «Work today»: Videolezione.mp4 (61 min, 1080p) + Dispensa.pdf + Presentazione.pdf (mancano Verifica.xlsx e Compiti.pdf). Lez 12: solo Verifica.xlsx. Lez 7 (dispari, non mia): Videolezione.mp4 + manca il resto.
+- Parto dalla Lez 10 (l'unica con il video): trascrizione, struttura, quiz, mappe, testi voci. Servono ancora Verifica.xlsx e Compiti.pdf della 10 per la chiusura.
+- Cucina 5: testi approvati da Sara il 15/11, ramo voci-alb-cucina-III-IV-lez05 pubblicato (22 voci): servono voci Kore.
