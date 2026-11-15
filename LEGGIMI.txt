@@ -1,0 +1,23 @@
+CONSEGNA alb-cucina-III-IV-lez03 · video 1080p, voci Kore
+
+--- Parte 1 ---
+Controllo sincronia slide/voce · Cucina_Pasticceria_Parte1_VIDEO.mp4 · 96 frasi verificabili su 307
+unità 10 · riga accesa a 403.80 s · detta a 404.16 s · scarto -0.36 s · «I dolci possono essere semplici, quando vengono preparati ut»
+unità 30 · riga accesa a 644.60 s · detta a 644.88 s · scarto -0.28 s · «torte moderne: che includono torte di fantasia sia di creden»
+unità 65 · riga accesa a 1226.71 s · detta a 1226.96 s · scarto -0.25 s · «Le masse o gli impasti montati al burro o pesanti si dividon»
+unità 76 · riga accesa a 1363.24 s · detta a 1363.52 s · scarto -0.28 s · «Gli impasti sfogliati sono basi a base di farine, uova e liq»
+unità 153 · riga accesa a 2616.35 s · detta a 2616.64 s · scarto -0.29 s · «gran cassé o caramella o rottura forte (+145 °C): forma una »
+tutte le frasi: scarto medio 0.53 s, massimo 7.99 s, oltre 1,5 s: 5
+ESITO: OK
+
+--- Parte 2 ---
+Controllo sincronia slide/voce · Cucina_Pasticceria_Parte2_VIDEO.mp4 · 82 frasi verificabili su 307
+unità 189 · riga accesa a 253.79 s · detta a 254.08 s · scarto -0.29 s · «Gli ingredienti caratterizzanti delle conserve sono pochi ma»
+unità 196 · riga accesa a 347.02 s · detta a 347.28 s · scarto -0.26 s · «I metodi di produzione prevedono diverse fasi lavorative, da»
+unità 214 · riga accesa a 871.26 s · detta a 871.60 s · scarto -0.34 s · «cioccolato al latte: contenente il 25% di cacao e il 15% di »
+unità 256 · riga accesa a 1525.23 s · detta a 1525.60 s · scarto -0.37 s · «granite: composte da acqua, puree o succhi di frutta e sacca»
+unità 282 · riga accesa a 2061.20 s · detta a 2061.92 s · scarto -0.72 s · «farina tipo 1: presenta il 12% di proteine e una discreta qu»
+tutte le frasi: scarto medio 0.62 s, massimo 7.18 s, oltre 1,5 s: 5
+ESITO: OK
+
+Ricomporre: cat Cucina_LezN_ParteP_1080p.mp4.parte_* > Cucina_LezN_ParteP_1080p.mp4 e verificare con sha256sum -c.
