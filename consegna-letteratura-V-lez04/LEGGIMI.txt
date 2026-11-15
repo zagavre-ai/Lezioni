@@ -1,0 +1,8 @@
+Naturalismo e Verismo · Letteratura italiana (V) · Prof. Giorgio Mazzotti
+v2 con approfondimenti animati, durata misurata 53:46 (3226,2 s), 1920x1080, 182 MB. Voci Kore.
+13 approfondimenti animati con voce Kore (solo dal materiale della lezione): 9 schede e 4 mappe per argomento, piu' la mappa finale prima del glossario.
+Quiz di 5 domande a fine argomento, verifica finale = test del prof (10 domande, 80%), compiti del prof dentro il video e in compiti.json (4 domande aperte), bande blu su Quiz, Verifica e Compiti.
+Dispensa A4 con la pagina "Mappa della lezione" e una mappa per argomento.
+Tempi: vedi timeline.json e scheda_pubblicazione.json (t_verifica 3202.9, t_compiti 3221.233).
+Per ricomporre il video: cat Letteratura_Lez4_Parte1_1080p.mp4.parte_* > Letteratura_Lez4_Parte1_1080p.mp4 e controllare lo sha256.
+Nota: tre frasi d'esempio sul discorso indiretto libero (approfondimento sul Flaubert) sono costruite per spiegare la tecnica, non vengono dal materiale del prof.

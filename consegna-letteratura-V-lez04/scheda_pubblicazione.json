@@ -1,31 +1,31 @@
 {
  "materia": "Letteratura italiana (V)",
  "titolo": "Naturalismo e Verismo · Parte 1",
- "durata_s": 2273.7,
+ "durata_s": 3226.23,
  "argomenti": [
   {
    "n": 1,
    "titolo": "Le basi del Naturalismo francese",
    "inizio_s": 50.167,
-   "quiz_s": 578.633
+   "quiz_s": 811.566
   },
   {
    "n": 2,
    "titolo": "Émile Zola e il romanzo sperimentale",
-   "inizio_s": 583.633,
-   "quiz_s": 1105.1
+   "inizio_s": 816.566,
+   "quiz_s": 1540.2
   },
   {
    "n": 3,
    "titolo": "Il Verismo in Italia",
-   "inizio_s": 1110.1,
-   "quiz_s": 1812.4
+   "inizio_s": 1545.2,
+   "quiz_s": 2551.067
   },
   {
    "n": 4,
    "titolo": "Flaubert e Madame Bovary",
-   "inizio_s": 1817.4,
-   "quiz_s": 2173.633
+   "inizio_s": 2556.067,
+   "quiz_s": 3055.233
   }
  ],
  "quiz": {
@@ -249,5 +249,74 @@
     }
    ]
   }
- }
+ },
+ "t_verifica": 3202.9,
+ "t_compiti": 3221.233,
+ "approfondimenti": [
+  {
+   "id": "AN01",
+   "titolo": "Il contesto: Positivismo e Taine",
+   "inizio_s": 543.567
+  },
+  {
+   "id": "AN02",
+   "titolo": "I precursori: Balzac e Flaubert",
+   "inizio_s": 632.867
+  },
+  {
+   "id": "AN03",
+   "titolo": "Il Naturalismo francese",
+   "inizio_s": 702.433
+  },
+  {
+   "id": "AN04",
+   "titolo": "Zola: il romanzo sperimentale",
+   "inizio_s": 1293.867
+  },
+  {
+   "id": "AN05",
+   "titolo": "Intorno a Zola",
+   "inizio_s": 1373.267
+  },
+  {
+   "id": "AN06",
+   "titolo": "Émile Zola",
+   "inizio_s": 1431.233
+  },
+  {
+   "id": "AN07",
+   "titolo": "Dalla Francia all'Italia",
+   "inizio_s": 2196.133
+  },
+  {
+   "id": "AN08",
+   "titolo": "La poetica di Capuana",
+   "inizio_s": 2291.533
+  },
+  {
+   "id": "AN09",
+   "titolo": "Capuana, Serao, Aleramo: le opere",
+   "inizio_s": 2353.333
+  },
+  {
+   "id": "AN10",
+   "titolo": "Il Verismo italiano",
+   "inizio_s": 2432.8
+  },
+  {
+   "id": "AN11",
+   "titolo": "Flaubert e Madame Bovary",
+   "inizio_s": 2876.533
+  },
+  {
+   "id": "AN12",
+   "titolo": "Flaubert e Madame Bovary",
+   "inizio_s": 2961.3
+  },
+  {
+   "id": "AN13",
+   "titolo": "Naturalismo e Verismo",
+   "inizio_s": 3060.233
+  }
+ ]
 }
