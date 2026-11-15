@@ -1,0 +1,67 @@
+[
+ {
+  "nome": "INTRO1",
+  "testo": "Benvenuti alla lezione di Scienza e cultura dell'alimentazione: sicurezza alimentare. Vedremo le buone pratiche e la filiera, le categorie di alimenti, le norme ISO e il sistema HACCP, le certificazioni, l'etichetta e le frodi, la degustazione e la Carta di Milano.",
+  "lingua": "it"
+ },
+ {
+  "nome": "M1",
+  "testo": "Mappa: Sicurezza alimentare. La food security riguarda la disponibilità di cibo per la popolazione mondiale. La food safety indica la salubrità del cibo dal punto di vista igienico-sanitario. Un alimento è salubre se non ha tossicità propria o acquisita e non contiene microrganismi patogeni. L'Unione Europea ha norme rigide, come il Pacchetto Igiene. Le norme responsabilizzano gli OSA, gli operatori del settore alimentare. In ristorazione: rispettare scadenze, stoccaggio ed etichette.",
+  "lingua": "it"
+ },
+ {
+  "nome": "M2",
+  "testo": "Mappa: Filiera e tracciabilità. La filiera agroalimentare va dalla fattoria alla forchetta. La tracciabilità segue il prodotto da monte a valle. La rintracciabilità risale la catena, con codice a barre o RFID. Vale anche per i mangimi destinati agli animali. La filiera corta, a chilometro zero, riduce trasporti e inquinamento. La filiera lunga ha numerosi passaggi intermedi.",
+  "lingua": "it"
+ },
+ {
+  "nome": "M3",
+  "testo": "Mappa: Alimenti e gruppi. Le sostanze alimentari sono naturali, senza modifiche industriali. I prodotti alimentari sono trasformati con la tecnologia. Per funzione sono energetici, plastici o regolativi protettivi. L'INRAN li ha classificati in cinque gruppi nel duemilatré. Dai cereali ai grassi da condimento, ogni gruppo ha una sua funzione.",
+  "lingua": "it"
+ },
+ {
+  "nome": "M4",
+  "testo": "Mappa: Le norme ISO. Le norme ISO sono standard internazionali volontari. La ISO novemila definisce i principi della qualità. La ISO novemilauno stabilisce i requisiti pratici. La ISO novemilaquattro dà linee guida per l'organizzazione. La ISO diciannovemilaundici guida le verifiche ispettive. La ISO quattordicimilauno riguarda la gestione ambientale.",
+  "lingua": "it"
+ },
+ {
+  "nome": "M5",
+  "testo": "Mappa: Rischi e HACCP. Il rischio fisico: vetro e metallo. Il rischio chimico: residui di pesticidi. Il rischio biologico: virus e batteri, come Salmonella e Listeria. Il sistema HACCP si basa su sette principi per controllare i punti critici. A vigilare in Italia ci sono i NAS e vari ministeri.",
+  "lingua": "it"
+ },
+ {
+  "nome": "M6",
+  "testo": "Mappa: Certificazioni di qualità. La DOP: tutto il processo produttivo in un'area specifica. La IGP: almeno una fase della produzione nell'area delimitata. La STG valorizza un metodo di produzione tradizionale. L'agricoltura biologica evita le sostanze chimiche di sintesi. Quella integrata ne riduce l'uso al minimo necessario.",
+  "lingua": "it"
+ },
+ {
+  "nome": "M7",
+  "testo": "Mappa: Etichetta e frodi. L'etichetta è la carta d'identità del prodotto. Deve riportare ingredienti, allergeni, scadenza e dichiarazione nutrizionale. Le frodi commerciali: la contraffazione. L'alterazione: un fenomeno spontaneo, come il latte inacidito. L'adulterazione: si sottrae un componente pregiato. La sofisticazione: si aggiungono sostanze estranee.",
+  "lingua": "it"
+ },
+ {
+  "nome": "M8",
+  "testo": "Mappa: Degustazione e sensi. Vista e olfatto ci preparano all'assaggio. Tatto e udito valutano la consistenza. Il gusto riconosce cinque sapori primari. Tra i sapori c'è l'umami, il gusto del glutammato. La sazietà sensoriale specifica: la voglia cala mentre mangiamo, ma un sapore diverso la riaccende.",
+  "lingua": "it"
+ },
+ {
+  "nome": "M9",
+  "testo": "Mappa: La Carta di Milano. La Carta di Milano, eredità di Expo duemilaquindici, richiama al diritto al cibo. Il primo paradosso: ottocentocinque milioni soffrono la fame, oltre due miliardi sono obesi o in sovrappeso. Il secondo: ogni anno si sprecano un virgola tre miliardi di tonnellate di cibo. Il terzo: un terzo della produzione agricola non va al consumo umano. Il Protocollo di Milano indica tre obiettivi per risolvere questi paradossi.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MF",
+  "testo": "Mappa: Sicurezza alimentare. La sicurezza alimentare unisce salubrità e disponibilità del cibo. La filiera si controlla con tracciabilità e rintracciabilità. Gli alimenti si classificano e le norme ISO garantiscono la qualità. Il sistema HACCP previene i rischi fisici, chimici e biologici. Certificazioni ed etichetta proteggono dalle frodi. La Carta di Milano chiede un sistema equo e sostenibile.",
+  "lingua": "it"
+ },
+ {
+  "nome": "GL1",
+  "testo": "Le parole chiave. Food safety: la salubrità del cibo. Tracciabilità: seguire la filiera dalle materie prime al prodotto. HACCP: il sistema dei punti critici di controllo. DOP: tutto il processo produttivo in un'area specifica. Sofisticazione: aggiungere sostanze estranee a un alimento.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RF1",
+  "testo": "Ripasso finale. La sicurezza alimentare nasce da buone pratiche e da una filiera controllata. Norme ISO e sistema HACCP garantiscono qualità e prevenzione dei rischi. Certificazioni ed etichetta proteggono il consumatore dalle frodi. La Carta di Milano chiede un sistema alimentare equo e sostenibile.",
+  "lingua": "it"
+ }
+]
