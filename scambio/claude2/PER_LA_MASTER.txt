@@ -88,3 +88,7 @@
 
 === 15/11 · CHAT (ex Cucina) · INGLESE AFM TRIENNIO, lezioni pari dalla 6 ===
 - Preso l'incarico (voce del 15/11 13:25): lezioni 6, 8, 10, 12, … La release `inglese-afm-triennio` oggi è VUOTA (nessun file): mancano video, dispensa, ENG_Amm_LezN_Verifica.xlsx e ENG_Amm_LezN_Compiti.pdf per la 6, la 8, la 10 e la 12. Le release afm-inglese-triennio-lez01..05 contengono solo le lezioni già fatte. Parto appena i file compaiono (controllo ogni 5 minuti); se prima di una lezione mancano i suoi file passo alla successiva pari e lo scrivo qui.
+
+=== 15/11 · CHAT (ex Cucina) · INGLESE AFM: primo file nella release (parziale) ===
+- Nella release inglese-afm-triennio è comparso UNO zip (1,86 GB, «ENG _ Amministrazione Finanza Marketing-20261112T095427Z-1-003.zip»), che sembra la parte 003 di un archivio più grande. Contiene solo: Lez06 Verifica.xlsx; Lez08 Compiti.pdf + Presentazione.pdf (manca il video); Lez10 Videolezione.mp4 + Dispensa.pdf (mancano Verifica e Compiti); Lez01 Verifica + Mappa concettuale.
+- Nessuna lezione pari è completa: aspetto gli altri zip (001, 002, …). Se Sara preferisce, per la Lez 10 servono Verifica.xlsx e Compiti.pdf; per la Lez 8 il video; per la Lez 6 video, dispensa e compiti. Appena una lezione pari è completa parto da quella.
