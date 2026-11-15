@@ -379,7 +379,12 @@
   }
  },
  "manca": "",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "15/11 13:16",
+   "testo": "Sigla Storia dell'arte mancante (segnaposto 15 s nel video)"
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
@@ -389,10 +394,14 @@
   {
    "quando": "15/11 13:14",
    "testo": "controllo_finale: ESITO: TUTTO OK"
+  },
+  {
+   "quando": "15/11 13:16",
+   "testo": "CONSEGNATA su consegna-storia-arte-V-lez03. Durata misurata 70:58 (una sola Parte: le voci Kore gia' fatte per una Parte; oltre i 65' ma divisa in 2 sarebbe 40+30 min). Sigla iniziale: segnaposto 15 s (manca sigla Storia dell'arte). Approfondimenti: schede opera/architettura (5) + mappa per argomento + linea del tempo, senza voce (voci gia' generate l'11/11). Sincronia slide: paragrafi allineati alla trascrizione, controllati a campione su 5 punti. Sottotitoli: Whisper base con correzioni nomi, da rivedere."
   }
  ],
  "materia": "Storia dell'Arte V",
  "lezione": "Il Realismo",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-15 13:14:47"
+ "aggiornato": "2026-11-15 13:16:10"
 }
