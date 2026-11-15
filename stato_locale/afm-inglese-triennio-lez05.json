@@ -2,7 +2,76 @@
  "tag": "afm-inglese-triennio-lez05",
  "parti": {
   "1": {
-   "stato": "IN_MONTAGGIO"
+   "stato": "IN_MONTAGGIO",
+   "titolo": "Marketing",
+   "voci": "kore",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "no",
+   "video": "Inglese_Lez5_Parte1_1080p.mp4",
+   "durata_s": 4160.0,
+   "durata": "69:20.0",
+   "fotogrammi": 124801,
+   "fotogrammi_attesi": 124801,
+   "peso_MB": 272.8,
+   "vtt": "Inglese_Lez5_Parte1.vtt",
+   "timeline": [
+    [
+     "T1",
+     156.633,
+     2.6
+    ],
+    [
+     "Q1",
+     1005.232,
+     4.0
+    ],
+    [
+     "T2",
+     1010.532,
+     2.6
+    ],
+    [
+     "T3",
+     1637.332,
+     2.6
+    ],
+    [
+     "T4",
+     2041.898,
+     2.6
+    ],
+    [
+     "T5",
+     2767.831,
+     2.6
+    ],
+    [
+     "T6",
+     3571.398,
+     2.6
+    ],
+    [
+     "GL1",
+     4060.265,
+     24.033
+    ],
+    [
+     "GL2",
+     4085.898,
+     20.067
+    ],
+    [
+     "RF1",
+     4107.365,
+     27.966
+    ],
+    [
+     "FIN1",
+     4136.731,
+     5.0
+    ]
+   ]
   }
  },
  "manca": "",
@@ -29,10 +98,14 @@
   {
    "quando": "15/11 03:06",
    "testo": "pronta, attende voci Kore. Pezzi montati con segnaposto: 66,0 min stimati (docente 60,4 min dopo i tagli)."
+  },
+  {
+   "quando": "15/11 12:22",
+   "testo": "controllo_finale: ESITO: DA SISTEMARE: sottotitoli"
   }
  ],
  "materia": "Inglese AFM",
  "lezione": "Lezione 5",
  "docente": "Prof.ssa Maria Vittoria Fontanesi",
- "aggiornato": "2026-11-15 03:06:05"
+ "aggiornato": "2026-11-15 12:22:51"
 }
