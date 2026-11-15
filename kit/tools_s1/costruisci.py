@@ -324,6 +324,8 @@ def main():
         # docente
         an_ = ANCH['arg'][str(aid)]
         scena_docente('D%d' % idx, 'D%d' % idx, an_['t0'], an_['t1'], a['pagine'][0], '%02d · %s' % (idx, a['breve'].upper()), an_['ancore'], an_.get('immagini', []))
+        for ex in an_.get('dopo', []):
+            scena_docente(ex['nome'], ex['nome'], ex['t0'], ex['t1'], None, '', [], [], intro=(ex['titolo'], ex['sottotitolo']))
         # approfondimenti
         for an in a['an']:
             scena_voce(an['nome'], an['nome'], an_builder(an, an['nome']), an['voce'], len(an['items']), extra_audio=[sfx('trans', 0.0, -12)])
