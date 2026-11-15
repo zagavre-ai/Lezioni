@@ -2,47 +2,47 @@
  "tag": "letteratura-V-lez04",
  "parti": {
   "1": {
-   "stato": "IN_MONTAGGIO",
+   "stato": "PRONTA",
    "titolo": "Naturalismo e Verismo",
    "voci": "kore",
    "quiz_ok": "si",
    "fermi_ok": "si",
    "sub_ok": "si",
    "video": "Letteratura_Lez4_Parte1_1080p.mp4",
-   "durata_s": 2273.7,
-   "durata": "37:53.7",
-   "fotogrammi": 68211,
-   "fotogrammi_attesi": 68211,
-   "peso_MB": 165.3,
+   "durata_s": 3226.2,
+   "durata": "53:46.2",
+   "fotogrammi": 96787,
+   "fotogrammi_attesi": 96787,
+   "peso_MB": 182.1,
    "vtt": "Letteratura_Lez4_Parte1.vtt",
    "scheda": {
     "materia": "Letteratura italiana (V)",
     "titolo": "Naturalismo e Verismo · Parte 1",
-    "durata_s": 2273.7,
+    "durata_s": 3226.23,
     "argomenti": [
      {
       "n": 1,
       "titolo": "Le basi del Naturalismo francese",
       "inizio_s": 50.167,
-      "quiz_s": 578.633
+      "quiz_s": 811.566
      },
      {
       "n": 2,
       "titolo": "Émile Zola e il romanzo sperimentale",
-      "inizio_s": 583.633,
-      "quiz_s": 1105.1
+      "inizio_s": 816.566,
+      "quiz_s": 1540.2
      },
      {
       "n": 3,
       "titolo": "Il Verismo in Italia",
-      "inizio_s": 1110.1,
-      "quiz_s": 1812.4
+      "inizio_s": 1545.2,
+      "quiz_s": 2551.067
      },
      {
       "n": 4,
       "titolo": "Flaubert e Madame Bovary",
-      "inizio_s": 1817.4,
-      "quiz_s": 2173.633
+      "inizio_s": 2556.067,
+      "quiz_s": 3055.233
      }
     ],
     "quiz": {
@@ -266,7 +266,76 @@
        }
       ]
      }
-    }
+    },
+    "t_verifica": 3202.9,
+    "t_compiti": 3221.233,
+    "approfondimenti": [
+     {
+      "id": "AN01",
+      "titolo": "Il contesto: Positivismo e Taine",
+      "inizio_s": 543.567
+     },
+     {
+      "id": "AN02",
+      "titolo": "I precursori: Balzac e Flaubert",
+      "inizio_s": 632.867
+     },
+     {
+      "id": "AN03",
+      "titolo": "Il Naturalismo francese",
+      "inizio_s": 702.433
+     },
+     {
+      "id": "AN04",
+      "titolo": "Zola: il romanzo sperimentale",
+      "inizio_s": 1293.867
+     },
+     {
+      "id": "AN05",
+      "titolo": "Intorno a Zola",
+      "inizio_s": 1373.267
+     },
+     {
+      "id": "AN06",
+      "titolo": "Émile Zola",
+      "inizio_s": 1431.233
+     },
+     {
+      "id": "AN07",
+      "titolo": "Dalla Francia all'Italia",
+      "inizio_s": 2196.133
+     },
+     {
+      "id": "AN08",
+      "titolo": "La poetica di Capuana",
+      "inizio_s": 2291.533
+     },
+     {
+      "id": "AN09",
+      "titolo": "Capuana, Serao, Aleramo: le opere",
+      "inizio_s": 2353.333
+     },
+     {
+      "id": "AN10",
+      "titolo": "Il Verismo italiano",
+      "inizio_s": 2432.8
+     },
+     {
+      "id": "AN11",
+      "titolo": "Flaubert e Madame Bovary",
+      "inizio_s": 2876.533
+     },
+     {
+      "id": "AN12",
+      "titolo": "Flaubert e Madame Bovary",
+      "inizio_s": 2961.3
+     },
+     {
+      "id": "AN13",
+      "titolo": "Naturalismo e Verismo",
+      "inizio_s": 3060.233
+     }
+    ]
    },
    "timeline": [
     [
@@ -276,37 +345,37 @@
     ],
     [
      "Q1",
-     578.633,
+     811.566,
      5.0
     ],
     [
      "T2",
-     583.633,
+     816.566,
      4.0
     ],
     [
      "T3",
-     1110.1,
+     1545.2,
      4.0
     ],
     [
      "T4",
-     1817.4,
+     2556.067,
      4.0
     ],
     [
      "GL",
-     2178.633,
+     3131.166,
      37.967
     ],
     [
      "RF",
-     2216.6,
+     3169.133,
      33.767
     ],
     [
      "FIN",
-     2255.367,
+     3207.9,
      4.833
     ]
    ]
@@ -361,10 +430,14 @@
   {
    "quando": "14/11 23:03",
    "testo": "R1: render AN con voci segnaposto pronti (13 AN, 14,3 min misurati); montaggio provato su campione; attendo vox/AN01-AN13.wav"
+  },
+  {
+   "quando": "15/11 11:48",
+   "testo": "R1: v2 consegnata su consegna-letteratura-V-lez04, durata misurata 53:46, 13 approfondimenti e mappe, compiti del prof"
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 4",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 23:50:36"
+ "aggiornato": "2026-11-15 11:48:35"
 }
