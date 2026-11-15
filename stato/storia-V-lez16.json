@@ -3,11 +3,11 @@
  "parti": {
   "1": {
    "titolo": "Gli anni Sessanta tra crisi e progressi",
-   "stato": "IN_MONTAGGIO",
+   "stato": "PRONTA",
    "voci": "kore",
    "quiz_ok": "si",
    "fermi_ok": "si",
-   "sub_ok": "no",
+   "sub_ok": "si",
    "video": "Storia_Lez16_Parte1_1080p.mp4",
    "durata_s": 3215.8,
    "durata": "53:35.8",
@@ -525,10 +525,14 @@
   {
    "quando": "14/11 17:39",
    "testo": "Parte 1: t_verifica=3197.100 s · t_compiti=3210.767 s (intro compiti a 3207.100 s)"
+  },
+  {
+   "quando": "14/11 17:40",
+   "testo": "PRONTA (chat S2): Parte unica 53:35,8, 234,8 MiB, -16,2 LUFS, Q1-Q7 a 0,000 s, nessun fermo. t_verifica=3197.100 s · t_compiti=3210.767 s (intro 3207.100). Sottotitoli: automatico 67%, controllo a mano a campione: attacco entro 0,5 s."
   }
  ],
  "materia": "Storia",
  "lezione": "16",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 17:39:13"
+ "aggiornato": "2026-11-14 17:40:18"
 }
