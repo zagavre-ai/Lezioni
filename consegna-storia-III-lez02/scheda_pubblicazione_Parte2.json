@@ -1,0 +1,318 @@
+{
+ "materia": "Storia",
+ "titolo": "Storia III · Lezione 2 · Parte 2",
+ "durata_s": 3275.37,
+ "argomenti": [
+  {
+   "n": 5,
+   "titolo": "I papi riformatori e lo Scisma d'Oriente",
+   "inizio_s": 64.667,
+   "quiz_s": 593.8
+  },
+  {
+   "n": 6,
+   "titolo": "Gregorio VII e il Dictatus papae",
+   "inizio_s": 597.8,
+   "quiz_s": 1191.167
+  },
+  {
+   "n": 7,
+   "titolo": "La lotta per le investiture",
+   "inizio_s": 1195.167,
+   "quiz_s": 1928.467
+  },
+  {
+   "n": 8,
+   "titolo": "L'espansione normanna in Europa",
+   "inizio_s": 1932.467,
+   "quiz_s": 2505.533
+  },
+  {
+   "n": 9,
+   "titolo": "I Normanni nel Sud e il Regno di Sicilia",
+   "inizio_s": 2509.533,
+   "quiz_s": 3035.233
+  }
+ ],
+ "quiz": {
+  "Q5": {
+   "title": "Quiz 5 · I papi riformatori e lo Scisma d'Oriente",
+   "items": [
+    {
+     "p": "Quali papi combattono la corruzione?",
+     "a": "Leone IX e Niccolò II",
+     "w": [
+      "Gregorio VII e Urbano II",
+      "Giovanni XII e Silvestro II",
+      "Leone X e Pio II"
+     ],
+     "e": "Sono i papi riformatori."
+    },
+    {
+     "p": "Che cosa stabilisce Niccolò II nel 1059?",
+     "a": "Che il papa sia eletto solo dai cardinali",
+     "w": [
+      "Che il papa sia scelto dall'imperatore",
+      "Che i preti possano sposarsi",
+      "Che il papa viva a Costantinopoli"
+     ],
+     "e": "Così finisce l'intromissione dell'imperatore."
+    },
+    {
+     "p": "Quando avviene lo Scisma d'Oriente?",
+     "a": "Nel 1054",
+     "w": [
+      "Nel 962",
+      "Nel 1075",
+      "Nel 1122"
+     ],
+     "e": "È la rottura definitiva tra Roma e Costantinopoli."
+    },
+    {
+     "p": "Quali Chiese si separano?",
+     "a": "Quella cattolica di Roma e quella ortodossa di Costantinopoli",
+     "w": [
+      "Quella cattolica e quella protestante",
+      "Quella latina e quella normanna",
+      "Quella monastica e quella secolare"
+     ],
+     "e": "Le ragioni sono teologiche e politiche."
+    },
+    {
+     "p": "Chi sono i cardinali, secondo il docente?",
+     "a": "I grandi prelati che eleggono il papa",
+     "w": [
+      "I capi dell'esercito",
+      "I feudatari minori",
+      "I monaci di Cluny"
+     ],
+     "e": "Dal 1059 l'elezione spetta a loro."
+    }
+   ]
+  },
+  "Q6": {
+   "title": "Quiz 6 · Gregorio VII e il Dictatus papae",
+   "items": [
+    {
+     "p": "Che cosa vuole Gregorio VII?",
+     "a": "Una Chiesa libera e indipendente dal potere politico",
+     "w": [
+      "Una Chiesa sottomessa all'imperatore",
+      "Una Chiesa solo monastica",
+      "La fine del papato"
+     ],
+     "e": "Per lui la Chiesa deve tornare libera, anche politicamente."
+    },
+    {
+     "p": "In che anno scrive il Dictatus papae?",
+     "a": "Nel 1075",
+     "w": [
+      "Nel 1054",
+      "Nel 1122",
+      "Nel 1066"
+     ],
+     "e": "È un insieme di precetti."
+    },
+    {
+     "p": "Che cosa afferma il Dictatus papae?",
+     "a": "Il primato del papa su tutta la cristianità",
+     "w": [
+      "L'autorità dell'imperatore sul papa",
+      "L'uguaglianza tra i vescovi",
+      "La fine dei monasteri"
+     ],
+     "e": "Il papa è al vertice della cristianità."
+    },
+    {
+     "p": "Quale potere rivendica il papa?",
+     "a": "Deporre gli imperatori",
+     "w": [
+      "Nominare i duchi",
+      "Coniare moneta",
+      "Eleggere i cardinali a vita"
+     ],
+     "e": "Può deporre gli imperatori."
+    },
+    {
+     "p": "Da quale monastero proveniva Gregorio VII?",
+     "a": "Cluny",
+     "w": [
+      "Montecassino",
+      "Citeaux",
+      "Canossa"
+     ],
+     "e": "Prima di diventare papa era un monaco di Cluny."
+    }
+   ]
+  },
+  "Q7": {
+   "title": "Quiz 7 · La lotta per le investiture",
+   "items": [
+    {
+     "p": "Con quale imperatore si scontra Gregorio VII?",
+     "a": "Enrico IV",
+     "w": [
+      "Ottone I",
+      "Corrado II",
+      "Federico I"
+     ],
+     "e": "Lo scontro riguarda la nomina dei vescovi."
+    },
+    {
+     "p": "Che cosa accade a Canossa nel 1077?",
+     "a": "Enrico IV chiede perdono al papa",
+     "w": [
+      "Il papa chiede perdono all'imperatore",
+      "Si firma il Concordato",
+      "Nasce la pataria"
+     ],
+     "e": "L'imperatore attende tre giorni nella neve."
+    },
+    {
+     "p": "Quanto attende Enrico IV nella neve?",
+     "a": "Tre giorni",
+     "w": [
+      "Un'ora",
+      "Una settimana",
+      "Un mese"
+     ],
+     "e": "Così raccontano le cronache."
+    },
+    {
+     "p": "Quando è firmato il Concordato di Worms?",
+     "a": "Nel 1122",
+     "w": [
+      "Nel 1059",
+      "Nel 1077",
+      "Nel 1130"
+     ],
+     "e": "È l'accordo finale della lotta per le investiture."
+    },
+    {
+     "p": "Che cosa separa il Concordato di Worms?",
+     "a": "L'investitura religiosa da quella temporale",
+     "w": [
+      "Roma da Costantinopoli",
+      "La Francia dall'Inghilterra",
+      "Il clero secolare dal regolare"
+     ],
+     "e": "La prima spetta al clero, la seconda al sovrano."
+    }
+   ]
+  },
+  "Q8": {
+   "title": "Quiz 8 · L'espansione normanna in Europa",
+   "items": [
+    {
+     "p": "Da dove provengono i Normanni?",
+     "a": "Dalla Scandinavia",
+     "w": [
+      "Dall'Africa del Nord",
+      "Dall'Asia",
+      "Dalla Spagna"
+     ],
+     "e": "Si stanziano nel Nord della Francia."
+    },
+    {
+     "p": "Quale ducato fondano nel Nord della Francia?",
+     "a": "Il Ducato di Normandia",
+     "w": [
+      "Il Ducato di Borgogna",
+      "Il Ducato di Aquitania",
+      "Il Ducato di Sassonia"
+     ],
+     "e": "È formalmente un feudo del re di Francia."
+    },
+    {
+     "p": "Chi sconfigge gli anglosassoni a Hastings?",
+     "a": "Guglielmo il Conquistatore",
+     "w": [
+      "Ruggero II",
+      "Roberto il Guiscardo",
+      "Enrico IV"
+     ],
+     "e": "La battaglia avviene nel 1066."
+    },
+    {
+     "p": "In che anno avviene la battaglia di Hastings?",
+     "a": "Nel 1066",
+     "w": [
+      "Nel 1054",
+      "Nel 1130",
+      "Nel 1075"
+     ],
+     "e": "Il duca di Normandia diventa re d'Inghilterra."
+    },
+    {
+     "p": "Che cosa fa Guglielmo dopo la conquista?",
+     "a": "Centralizza il potere monarchico",
+     "w": [
+      "Divide il regno in feudi autonomi",
+      "Rinuncia al titolo di duca",
+      "Si sottomette al papa"
+     ],
+     "e": "Il regno d'Inghilterra diventa fortemente centralizzato."
+    }
+   ]
+  },
+  "Q9": {
+   "title": "Quiz 9 · I Normanni nel Sud e il Regno di Sicilia",
+   "items": [
+    {
+     "p": "Quale famiglia normanna è citata nel Sud Italia?",
+     "a": "Gli Altavilla",
+     "w": [
+      "I Capetingi",
+      "Gli Ottoni",
+      "I Salii"
+     ],
+     "e": "Sono cavalieri mercenari."
+    },
+    {
+     "p": "Che cosa sfruttano i Normanni nel Sud?",
+     "a": "Le divisioni tra bizantini e longobardi",
+     "w": [
+      "L'alleanza con l'imperatore",
+      "La debolezza dei Vichinghi",
+      "Le guerre in Britannia"
+     ],
+     "e": "Così conquistano territori."
+    },
+    {
+     "p": "Chi nomina Roberto il Guiscardo suo vassallo, nel 1059?",
+     "a": "Papa Niccolò II",
+     "w": [
+      "L'imperatore Enrico IV",
+      "Guglielmo il Conquistatore",
+      "Gregorio VII"
+     ],
+     "e": "Il papa cerca protezione militare contro l'Impero."
+    },
+    {
+     "p": "Chi fonda il Regno di Sicilia nel 1130?",
+     "a": "Ruggero II",
+     "w": [
+      "Roberto il Guiscardo",
+      "Guglielmo",
+      "Ottone I"
+     ],
+     "e": "Strappa l'isola ai musulmani."
+    },
+    {
+     "p": "Come è descritto il Regno di Sicilia?",
+     "a": "Uno Stato centralizzato e multiculturale",
+     "w": [
+      "Un regno solo cattolico",
+      "Un insieme di feudi indipendenti",
+      "Un territorio senza capitale"
+     ],
+     "e": "Ha influenze cattoliche, bizantine e arabo-islamiche."
+    }
+   ]
+  }
+ },
+ "t_verifica": 3256.8667,
+ "t_compiti": 3270.3667,
+ "t_compiti_intro": 3266.8667,
+ "compiti": "COMPITI_MANCANTI"
+}

@@ -1,0 +1,257 @@
+{
+ "materia": "Storia",
+ "titolo": "Storia III · Lezione 2 · Parte 1",
+ "durata_s": 3320.0,
+ "argomenti": [
+  {
+   "n": 1,
+   "titolo": "La crisi morale e i centri di potere",
+   "inizio_s": 561.267,
+   "quiz_s": 868.4
+  },
+  {
+   "n": 2,
+   "titolo": "L'alto clero senza vocazione",
+   "inizio_s": 872.4,
+   "quiz_s": 1539.933
+  },
+  {
+   "n": 3,
+   "titolo": "Vescovi-conte e i tre mali",
+   "inizio_s": 1543.933,
+   "quiz_s": 2313.967
+  },
+  {
+   "n": 4,
+   "titolo": "I movimenti di riforma",
+   "inizio_s": 2317.967,
+   "quiz_s": 3097.767
+  }
+ ],
+ "quiz": {
+  "Q1": {
+   "title": "Quiz 1 · La crisi morale e i centri di potere",
+   "items": [
+    {
+     "p": "Quale periodo comincia con l'anno Mille?",
+     "a": "Il Basso Medioevo",
+     "w": [
+      "L'Alto Medioevo",
+      "L'età moderna",
+      "L'epoca carolingia"
+     ],
+     "e": "Con l'anno Mille comincia il Basso Medioevo."
+    },
+    {
+     "p": "Che cosa diventano monasteri, abbazie e diocesi?",
+     "a": "Ricchi centri economici e politici",
+     "w": [
+      "Scuole per i contadini",
+      "Fortezze militari",
+      "Mercati di città"
+     ],
+     "e": "Sono centri di potere ecclesiastici."
+    },
+    {
+     "p": "Da chi sono gestiti questi centri di potere?",
+     "a": "Dall'aristocrazia",
+     "w": [
+      "Dai contadini",
+      "Dai mercanti",
+      "Dagli studenti"
+     ],
+     "e": "A guidarli sono famiglie aristocratiche."
+    },
+    {
+     "p": "Che cosa vive la Chiesa nell'anno Mille?",
+     "a": "Una crisi morale",
+     "w": [
+      "Un periodo di grande rigore",
+      "Una completa indipendenza",
+      "Una rapida espansione in Asia"
+     ],
+     "e": "La Chiesa attraversa una crisi morale, oltre che politica."
+    },
+    {
+     "p": "Che cosa deve fare la Chiesa, secondo il docente?",
+     "a": "Staccarsi dall'impero ed essere ripulita",
+     "w": [
+      "Unirsi all'impero",
+      "Abbandonare le città",
+      "Eleggere un imperatore"
+     ],
+     "e": "Serve una riforma che la renda indipendente e pura."
+    }
+   ]
+  },
+  "Q2": {
+   "title": "Quiz 2 · L'alto clero senza vocazione",
+   "items": [
+    {
+     "p": "Chi eredita il feudo in una famiglia nobile?",
+     "a": "Il primogenito maschio",
+     "w": [
+      "La figlia maggiore",
+      "Tutti i figli in parti uguali",
+      "Il figlio più piccolo"
+     ],
+     "e": "Il feudo passa al primogenito maschio."
+    },
+    {
+     "p": "Dove finiscono spesso gli altri figli maschi?",
+     "a": "Nella Chiesa",
+     "w": [
+      "In esilio",
+      "Nell'esercito imperiale",
+      "Nelle città come mercanti"
+     ],
+     "e": "Diventano membri della Chiesa."
+    },
+    {
+     "p": "Che cos'è l'alto clero senza vocazione?",
+     "a": "Nobili scelti per prestigio e ricchezze",
+     "w": [
+      "Monaci poveri",
+      "Contadini istruiti",
+      "Preti di parrocchia"
+     ],
+     "e": "Guidano la Chiesa solo per ottenere prestigio e patrimoni terrieri."
+    },
+    {
+     "p": "Che cosa fa spesso il basso clero?",
+     "a": "Aiuta i poveri",
+     "w": [
+      "Governa i feudi",
+      "Nomina gli imperatori",
+      "Riscuote le tasse"
+     ],
+     "e": "Monaci e preti spesso fanno del bene per i poveri."
+    },
+    {
+     "p": "Quali figure fanno parte dell'alto clero?",
+     "a": "Vescovi e arcivescovi",
+     "w": [
+      "Monaci e parroci",
+      "Cavalieri",
+      "Notai"
+     ],
+     "e": "L'alto clero sono le alte gerarchie."
+    }
+   ]
+  },
+  "Q3": {
+   "title": "Quiz 3 · Vescovi-conte e i tre mali",
+   "items": [
+    {
+     "p": "Chi sono i vescovi-conte ottoniani?",
+     "a": "Vescovi fidati nominati dagli imperatori",
+     "w": [
+      "Conti eletti dal papa",
+      "Monaci di Cluny",
+      "Vescovi dell'Oriente"
+     ],
+     "e": "Sono personalità politiche e amministratori più che guide spirituali."
+    },
+    {
+     "p": "Che cos'è la simonia?",
+     "a": "La compravendita delle cariche ecclesiastiche",
+     "w": [
+      "Il matrimonio dei preti",
+      "Il rifiuto delle ricchezze",
+      "Il digiuno dei monaci"
+     ],
+     "e": "Si compravano cariche con denaro o beni materiali."
+    },
+    {
+     "p": "Che cos'è il concubinato?",
+     "a": "Condotta del clero che viola l'obbligo di castità",
+     "w": [
+      "Un ordine monastico",
+      "Un tributo feudale",
+      "Un tipo di investitura"
+     ],
+     "e": "Dà vita a convivenze e famiglie di fatto."
+    },
+    {
+     "p": "Che cosa indica il nicolaismo?",
+     "a": "La tendenza dei preti a sposarsi o a vivere con concubine",
+     "w": [
+      "La vendita delle cariche",
+      "La riforma di Cluny",
+      "Il potere dei cardinali"
+     ],
+     "e": "È strettamente collegato al concubinato."
+    },
+    {
+     "p": "Quanti sono i «tre mali» della Chiesa?",
+     "a": "Simonia, concubinato e nicolaismo",
+     "w": [
+      "Scisma, eresia e crociata",
+      "Povertà, guerra e peste",
+      "Simonia, pataria e Cluny"
+     ],
+     "e": "Sono i tre mali che la riforma vuole combattere."
+    }
+   ]
+  },
+  "Q4": {
+   "title": "Quiz 4 · I movimenti di riforma",
+   "items": [
+    {
+     "p": "Dove nasce l'abbazia di Cluny?",
+     "a": "In Borgogna",
+     "w": [
+      "In Normandia",
+      "A Milano",
+      "In Sicilia"
+     ],
+     "e": "Nel 910 nasce in Borgogna."
+    },
+    {
+     "p": "Da chi dipende Cluny?",
+     "a": "Direttamente dal papa",
+     "w": [
+      "Dai nobili locali",
+      "Dall'imperatore",
+      "Dal re di Francia"
+     ],
+     "e": "Così evita il controllo dei nobili."
+    },
+    {
+     "p": "Quali ordini rigorosi nascono?",
+     "a": "I cistercensi e i certosini",
+     "w": [
+      "I patarini",
+      "I cardinali",
+      "Gli altavilla"
+     ],
+     "e": "Si caratterizzano per eremitismo e ascesi."
+    },
+    {
+     "p": "Che cosa distingue il clero regolare?",
+     "a": "Segue una regola monastica in isolamento",
+     "w": [
+      "Vive nel mondo",
+      "Governa le diocesi",
+      "Non prende i voti"
+     ],
+     "e": "Il clero secolare invece vive nel mondo."
+    },
+    {
+     "p": "Chi sono i patarini di Milano?",
+     "a": "Laici che contestano i sacerdoti corrotti",
+     "w": [
+      "Cavalieri normanni",
+      "Monaci di Cluny",
+      "Cardinali riformatori"
+     ],
+     "e": "Artigiani e mercanti boicottano i preti corrotti e contestano la ricchezza del clero."
+    }
+   ]
+  }
+ },
+ "t_verifica": 3301.5002,
+ "t_compiti": 3315.0002,
+ "t_compiti_intro": 3311.5002,
+ "compiti": "COMPITI_MANCANTI"
+}
