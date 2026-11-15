@@ -31,7 +31,7 @@ TRANS = json.load(open(ANCH['trascrizione']))
 GAIN_DOC = ANCH['gain_db']
 R = Renderer()
 LEAD = 1.0   # secondi di attacco prima della voce
-TAIL = 3.4   # secondi di coda dopo la voce (la scheda completa resta visibile)
+TAIL = 3.4 + (float(A[A.index('--extra-tail') + 1]) if '--extra-tail' in A else 0.0)   # coda dopo la voce (la scheda completa resta visibile)
 N_ARG = len(S.ARG)
 ARG = {a['id']: a for a in S.ARG}
 PART = [p for p in S.PARTI if p['n'] == PARTE][0]
