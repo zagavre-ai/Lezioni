@@ -1,37 +1,37 @@
 {
  "materia": "Letteratura italiana (V)",
  "titolo": "Narrativa e saggistica del primo Novecento · Parte 1",
- "durata_s": 1701.6,
+ "durata_s": 3403.47,
  "argomenti": [
   {
    "n": 1,
    "titolo": "La crisi delle certezze",
    "inizio_s": 143.233,
-   "quiz_s": 344.5
+   "quiz_s": 613.133
   },
   {
    "n": 2,
    "titolo": "Il romanzo del primo Novecento",
-   "inizio_s": 349.8,
-   "quiz_s": 549.733
+   "inizio_s": 618.433,
+   "quiz_s": 1118.266
   },
   {
    "n": 3,
    "titolo": "Marcel Proust e la memoria",
-   "inizio_s": 555.033,
-   "quiz_s": 773.2
+   "inizio_s": 1123.566,
+   "quiz_s": 1654.867
   },
   {
    "n": 4,
    "titolo": "Franz Kafka e l'assurdo",
-   "inizio_s": 778.5,
-   "quiz_s": 1161.899
+   "inizio_s": 1660.167,
+   "quiz_s": 2395.399
   },
   {
    "n": 5,
    "titolo": "Virginia Woolf",
-   "inizio_s": 1167.199,
-   "quiz_s": 1546.366
+   "inizio_s": 2400.699,
+   "quiz_s": 3175.099
   }
  ],
  "quiz": {
@@ -310,5 +310,7 @@
     }
    ]
   }
- }
+ },
+ "t_verifica": 3378.633,
+ "t_compiti": 3396.933
 }
