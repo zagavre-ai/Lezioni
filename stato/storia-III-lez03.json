@@ -2,7 +2,7 @@
  "tag": "storia-III-lez03",
  "parti": {
   "1": {
-   "stato": "PRONTA",
+   "stato": "IN_MONTAGGIO",
    "voci": "kore",
    "quiz_ok": "si",
    "fermi_ok": "si",
@@ -518,6 +518,10 @@
   {
    "quando": "15/11 03:15",
    "testo": "Lez03: mancano voci animazioni (AN) e introduzione; montata senza AN. Durata una Parte probabile oltre 65 min: dimmi se preferisci due Parti."
+  },
+  {
+   "quando": "15/11 12:44",
+   "testo": "Lez03: decisione su durata (una Parte 69:52 o due da ~35 min) e voci AN mancanti."
   }
  ],
  "domande_sara": [],
@@ -533,10 +537,14 @@
   {
    "quando": "15/11 12:44",
    "testo": "PRONTA 15/11. Sottotitoli Whisper base; controllo di attacco ~75% (falsi negativi su voce bassa). Compiti del prof non presenti nella release."
+  },
+  {
+   "quando": "15/11 12:44",
+   "testo": "Completa e consegnata sul ramo consegna-storia-III-lez03 ma NON dichiarata PRONTA: 69:52 in una sola Parte (oltre 65 min) e senza animazioni di approfondimento (mancano voci AN). Attende decisione della master: due Parti (circa 35 min ciascuna) oppure una Parte."
   }
  ],
  "materia": "Storia III",
  "lezione": "Lezione 3 · L'Occidente in espansione",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-15 12:44:01"
+ "aggiornato": "2026-11-15 12:44:03"
 }
