@@ -31,10 +31,19 @@ vl, wl, newpos = [], [], []
 cur = 0
 for i, (tp, nome, a, b, f) in enumerate(pezzi):
     n = b - a; vf = f'{W}/p{i:02d}.mp4'; wf = f'{W}/p{i:02d}.wav'
-    okf = vf + ('.ok' if tp == 'T' else '.ok' + os.environ.get('ANV', '2') + '_' + str(n))
+    okf = vf + ('.okd' if tp == 'T' else '.ok' + os.environ.get('ANV', '2') + '_' + str(n))
     if not os.path.exists(okf):
         if tp == 'T':
-            run(['ffmpeg','-y','-v','error','-ss',f'{a/FPS:.6f}','-i',base,'-frames:v',str(n)] + VENC + ['-an', vf])
+            ov = []
+            for cn, ct, cl in TL:
+                if re.fullmatch(r'Q\d|VERIFICA|COMPITI_INTRO|COMPITI', cn):
+                    s0, e0 = max(a, round(ct*FPS)), min(b, round((ct+cl)*FPS))
+                    if e0 > s0: ov.append((cn, (s0-a)/FPS, (e0-a)/FPS))
+            ins_ = ['-ss', f'{a/FPS:.6f}', '-i', base]; fc = '[0:v]scale=1920:1080:flags=lanczos,fps=30[v0]'; last = 'v0'
+            for j, (cn, s0, e0) in enumerate(ov, 1):
+                ins_ += ['-loop', '1', '-framerate', '30', '-i', f'{os.environ["CARDS"]}/card_{cn}.png']
+                fc += f";[{j}:v]format=yuv420p[c{j}];[{last}][c{j}]overlay=enable='between(t,{s0:.4f},{e0-0.001:.4f})'[o{j}]"; last = f'o{j}'
+            run(['ffmpeg','-y','-v','error'] + ins_ + ['-filter_complex', fc, '-map', f'[{last}]', '-frames:v', str(n), '-c:v','libx264','-preset','veryfast','-crf','19','-maxrate','16M','-bufsize','32M','-pix_fmt','yuv420p','-r','30','-an', vf])
             run(['ffmpeg','-y','-v','error','-ss',f'{a/FPS:.6f}','-i',base,'-vn','-af',f'apad=whole_dur={n/FPS:.6f}','-t',f'{n/FPS:.6f}','-ac','2','-ar','48000','-c:a','pcm_s16le',wf])
         else:
             run(['ffmpeg','-y','-v','error','-i',f,'-frames:v',str(n)] + [x.replace('scale=1920','tpad=stop_mode=clone:stop_duration=3,scale=1920') for x in VENC] + ['-an', vf])
