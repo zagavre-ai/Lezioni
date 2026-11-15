@@ -1,0 +1,3 @@
+Richiesta voci Kore · Chimica applicata Moda III+IV · «Seta» (Prof.ssa Piera Caputi)
+blocchi / frasi / caratteri: 23 118 9361. Testi in testi_voci.json, un file per blocco: vox/<NOME>.wav + ESITI.txt.
+Le frasi di ogni blocco vanno generate in sequenza (la chat usa le pause per sincronizzare le animazioni). Numeri scritti in lettere di proposito.
