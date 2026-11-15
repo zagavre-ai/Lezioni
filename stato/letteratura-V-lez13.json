@@ -2,7 +2,7 @@
  "tag": "letteratura-V-lez13",
  "parti": {
   "1": {
-   "stato": "FERMA",
+   "stato": "IN_MONTAGGIO",
    "titolo": "Italo Svevo · Parte 1",
    "voci": "kore",
    "quiz_ok": "si",
@@ -232,7 +232,7 @@
   },
   "2": {
    "titolo": "Italo Svevo · Parte 2",
-   "stato": "FERMA",
+   "stato": "IN_MONTAGGIO",
    "voci": "kore",
    "quiz_ok": "si",
    "fermi_ok": "si",
@@ -342,18 +342,8 @@
    "t_compiti": 2734.203
   }
  },
- "manca": "R3: ferma in attesa delle voci Kore nuove (richieste da oltre 70 minuti sul ramo voci). Testi, animazioni e montaggio sono pronti: appena arrivano le voci si rifanno le durate, si codifica e si consegna.",
- "serve_master": [
-  {
-   "quando": "14/11 04:55",
-   "testo": "lez13 dura 82 min: due Parti. Sul ramo voci-letteratura-V-lez13 ho aggiunto testi_voci_P2.json (IN2, RIP: apertura della Parte 2 con il ripasso della Parte 1), 2 blocchi nuovi. Se non si possono generare, la Parte 2 si apre senza ripasso a voce."
-  },
-  {
-   "quando": "14/11 07:09",
-   "testo": "voci lez13: R3.wav dice solo «La coscienza di Zeno» e R4.wav dice «e infine alcuni testi della coscienza di Zeno» (frase dell'INTRO, non del ripasso): usate così, con la didascalia uguale all'audio."
-  },
-  "R3: servono le voci Kore nuove (nomi P1_*/P2_*) dal ramo voci-letteratura-V-lez13, file testi_voci.json, vedi R3_NUOVE_VOCI.txt. Senza le voci le Parti non possono essere PRONTE (durate solo stimate)."
- ],
+ "manca": "",
+ "serve_master": [],
  "domande_sara": [],
  "note": [
   {
@@ -387,6 +377,10 @@
   {
    "quando": "14/11 23:28",
    "testo": "chat R3: FERMA per voci Kore mancanti. Compiti del prof aggiunti come compiti.json sul ramo consegna."
+  },
+  {
+   "quando": "15/11 02:37",
+   "testo": "chat R3: IN_MONTAGGIO, pronta, attende voci Kore (quota Google, riparte alle 09:00 italiane). Intanto fatti: testi, animazioni e mappe con segnaposto, compiti del prof (compiti.json e nuova scheda Compiti), tempi. Controllo vox/ ogni 30 minuti; poi unica codifica finale."
   }
  ],
  "materia": "Letteratura italiana V",
