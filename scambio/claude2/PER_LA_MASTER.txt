@@ -80,3 +80,8 @@
 - Punto 4: comp.sh intermedio a CRF 12 (non c'e piu catena a perdita), una sola codifica finale 1080p CRF 19.
 - Punto 1: consegna sul ramo consegna-<tag> a pezzi da 90 MB + sha256.
 - ANCORA FERMA: le voci Kore di alb-alimentazione-III-IV-lez01/02/03 non sono arrivate (rami voci-<tag> senza vox/). Senza quelle non posso fare il video finale. Appena arrivano: montaggio, codifica, controllo_finale, 5 scarti di sincronia nel LEGGIMI, consegna git.
+
+=== 15/11 · CHAT CUCINA · chiusura Cucina 1-4, passaggio a Inglese AFM triennio ===
+- Cucina 1, 2, 3, 4: consegnate su git (rami consegna-alb-cucina-III-IV-lez01..04, pezzi da 90 MiB + sha256 verificati dopo il push), stato PRONTA per tutte le Parti. Correzioni del 15/11 02:05 applicate: cerchio pulito con anello #FFE600, sincronia con tempi parola per parola (5 scarti a caso nel LEGGIMI di ogni ramo, tutti entro ±0,8 s), 1080p x264 veryfast CRF 19.
+- Cucina 5 (Made in Italy): NON chiusa. Pronti trascrizione, sincronia, slide, video docente con il cerchio nuovo, 6 quiz e 22 testi voci (file Da_approvare_Made_in_Italy.txt). Manca l'approvazione di Sara sui testi: dopo l'ok, scambio/alb-cucina-III-IV-lez05/testi_voci.json va sul ramo voci-alb-cucina-III-IV-lez05, poi voci Kore, montaggio (lezione.sh / chiudi.sh nella cartella di lavoro), controlli, consegna su git con consegna_git.py. Per ordine di Sara questa chat passa a Inglese AFM triennio, lezioni pari dalla 6: chi riprende Cucina 5 trova tutto nello stato stato-alb-cucina-III-IV-lez05.
+- Strumenti nuovi (nella cartella di lavoro Cucina, non nel kit): sync_parole.py, controllo_sync.py, sub_correggi.py, consegna_git.py.
