@@ -1,0 +1,375 @@
+{
+ "materia": "Storia",
+ "titolo": "Le fasi conclusive della guerra fredda (1969-1991) · Parte 3",
+ "durata_s": 3084.77,
+ "argomenti": [
+  {
+   "n": 11,
+   "titolo": "Thatcher e il neoliberismo",
+   "inizio_s": 63.733,
+   "quiz_s": 438.6
+  },
+  {
+   "n": 12,
+   "titolo": "Nuove democrazie e allargamento della CEE",
+   "inizio_s": 443.9,
+   "quiz_s": 847.367
+  },
+  {
+   "n": 13,
+   "titolo": "La crisi del comunismo e Gorbačëv",
+   "inizio_s": 852.667,
+   "quiz_s": 1434.533
+  },
+  {
+   "n": 14,
+   "titolo": "Il 1989 in Europa orientale",
+   "inizio_s": 1439.833,
+   "quiz_s": 1913.233
+  },
+  {
+   "n": 15,
+   "titolo": "La fine dell'Unione Sovietica",
+   "inizio_s": 1918.533,
+   "quiz_s": 2488.567
+  },
+  {
+   "n": 16,
+   "titolo": "L'altro 1989: la Cina",
+   "inizio_s": 2493.867,
+   "quiz_s": 2938.5
+  }
+ ],
+ "quiz": {
+  "Q11": {
+   "title": "Quiz 11 · Thatcher e il neoliberismo",
+   "items": [
+    {
+     "p": "Come viene soprannominata Margaret Thatcher?",
+     "a": "La Lady di ferro",
+     "w": [
+      "La regina rossa",
+      "La signora della pace",
+      "La prima della classe"
+     ],
+     "e": "Non cede neppure allo sciopero dei minatori."
+    },
+    {
+     "p": "Che cosa prevede la politica neoliberista?",
+     "a": "Privatizzazioni e meno intervento dello Stato",
+     "w": [
+      "Nazionalizzazioni e più Stato",
+      "Economia pianificata",
+      "Chiusura delle frontiere"
+     ],
+     "e": "«Meno Stato, più mercato»."
+    },
+    {
+     "p": "Quale categoria di lavoratori sciopera a lungo contro Thatcher?",
+     "a": "I minatori",
+     "w": [
+      "I medici",
+      "I piloti",
+      "Gli insegnanti"
+     ],
+     "e": "Thatcher non cede: da qui il soprannome di Lady di ferro."
+    },
+    {
+     "p": "Quante elezioni vince Thatcher?",
+     "a": "Tre",
+     "w": [
+      "Una",
+      "Due",
+      "Cinque"
+     ],
+     "e": "Resta in carica dal 1979 al 1990."
+    },
+    {
+     "p": "Come si chiama la politica economica liberista di Reagan?",
+     "a": "Reaganomics",
+     "w": [
+      "New Deal",
+      "Perestrojka",
+      "Welfare State"
+     ],
+     "e": "Anche negli USA si punta su meno Stato e più mercato."
+    }
+   ]
+  },
+  "Q12": {
+   "title": "Quiz 12 · Nuove democrazie e allargamento della CEE",
+   "items": [
+    {
+     "p": "Quali paesi entrano nella CEE nel 1973?",
+     "a": "Regno Unito, Irlanda e Danimarca",
+     "w": [
+      "Spagna, Portogallo e Grecia",
+      "Polonia e Ungheria",
+      "Svezia e Norvegia"
+     ],
+     "e": "È il primo allargamento della Comunità."
+    },
+    {
+     "p": "Quando entrano Spagna e Portogallo nella CEE?",
+     "a": "Nel 1986",
+     "w": [
+      "Nel 1957",
+      "Nel 1973",
+      "Nel 1991"
+     ],
+     "e": "Sono paesi usciti dalle dittature."
+    },
+    {
+     "p": "Che cosa accade nel 1979 in Europa?",
+     "a": "Le prime elezioni a suffragio universale del Parlamento europeo",
+     "w": [
+      "La nascita dell'euro",
+      "La caduta del Muro di Berlino",
+      "La firma dei Trattati di Roma"
+     ],
+     "e": "I cittadini votano per la prima volta il Parlamento europeo."
+    },
+    {
+     "p": "Come si chiama la rivoluzione che rovescia la dittatura in Portogallo (1974)?",
+     "a": "La rivoluzione dei garofani",
+     "w": [
+      "La rivoluzione di velluto",
+      "La rivoluzione culturale",
+      "La rivoluzione d'ottobre"
+     ],
+     "e": "Nelle canne dei fucili spuntano dei fiori."
+    },
+    {
+     "p": "Chi vince le elezioni presidenziali francesi del 1981?",
+     "a": "Il socialista François Mitterrand",
+     "w": [
+      "Charles de Gaulle",
+      "Margaret Thatcher",
+      "Juan Carlos"
+     ],
+     "e": "È la prima vittoria esplicita della sinistra."
+    }
+   ]
+  },
+  "Q13": {
+   "title": "Quiz 13 · La crisi del comunismo e Gorbačëv",
+   "items": [
+    {
+     "p": "Come si può descrivere l'URSS di Brežnev?",
+     "a": "Stagnazione economica e ritardo tecnologico",
+     "w": [
+      "Crescita rapidissima",
+      "Democrazia parlamentare",
+      "Pace e disarmo totale"
+     ],
+     "e": "Pesano anche le spese militari e la guerra in Afghanistan."
+    },
+    {
+     "p": "Che cos'è Solidarność?",
+     "a": "Un sindacato polacco indipendente e non comunista",
+     "w": [
+      "Un partito sovietico",
+      "Un esercito ungherese",
+      "Un giornale tedesco"
+     ],
+     "e": "È guidato da Lech Wałęsa."
+    },
+    {
+     "p": "Quando Gorbačëv diventa leader sovietico?",
+     "a": "Nel 1985",
+     "w": [
+      "Nel 1953",
+      "Nel 1979",
+      "Nel 1991"
+     ],
+     "e": "Lancia subito un programma di riforme."
+    },
+    {
+     "p": "Che cosa significa «perestrojka»?",
+     "a": "Ristrutturazione",
+     "w": [
+      "Trasparenza",
+      "Rivoluzione",
+      "Pace"
+     ],
+     "e": "È la ristrutturazione economica verso il mercato."
+    },
+    {
+     "p": "Che cosa significa «glasnost»?",
+     "a": "Trasparenza",
+     "w": [
+      "Ristrutturazione",
+      "Disarmo",
+      "Unione"
+     ],
+     "e": "Porta libertà di espressione e fine della censura."
+    }
+   ]
+  },
+  "Q14": {
+   "title": "Quiz 14 · Il 1989 in Europa orientale",
+   "items": [
+    {
+     "p": "Quale scelta di Gorbačëv favorisce il 1989?",
+     "a": "Non intervenire militarmente nei paesi satelliti",
+     "w": [
+      "Invadere la Polonia",
+      "Chiudere le frontiere",
+      "Rompere con gli Stati Uniti"
+     ],
+     "e": "Senza i carri armati sovietici i regimi crollano."
+    },
+    {
+     "p": "Quando cade il Muro di Berlino?",
+     "a": "Il 9 novembre 1989",
+     "w": [
+      "Il 9 novembre 1961",
+      "Il 26 dicembre 1991",
+      "L'11 settembre 1973"
+     ],
+     "e": "Berlinesi dell'Est e dell'Ovest si ritrovano."
+    },
+    {
+     "p": "Dove passano molti tedeschi dell'Est nell'estate 1989?",
+     "a": "Dall'Ungheria all'Austria",
+     "w": [
+      "Dalla Polonia alla Russia",
+      "Dalla Romania alla Turchia",
+      "Dall'Italia alla Francia"
+     ],
+     "e": "Da lì raggiungono la Germania Ovest."
+    },
+    {
+     "p": "Quale paese ha una transizione violenta nel 1989?",
+     "a": "La Romania di Ceaușescu",
+     "w": [
+      "La Polonia",
+      "L'Ungheria",
+      "La Cecoslovacchia"
+     ],
+     "e": "Il dittatore non cede il potere e viene travolto."
+    },
+    {
+     "p": "Che cosa accade quando il regime sovietico allenta il controllo?",
+     "a": "I popoli dell'Est vogliono staccarsi",
+     "w": [
+      "Il regime diventa più forte",
+      "Gli USA invadono la Polonia",
+      "L'URSS conquista l'Austria"
+     ],
+     "e": "Un regime fondato sulla repressione non regge quando la allenta."
+    }
+   ]
+  },
+  "Q15": {
+   "title": "Quiz 15 · La fine dell'Unione Sovietica",
+   "items": [
+    {
+     "p": "Quando si riunifica la Germania?",
+     "a": "Nel 1990",
+     "w": [
+      "Nel 1949",
+      "Nel 1989",
+      "Nel 1995"
+     ],
+     "e": "La Germania Est entra nella Repubblica Federale."
+    },
+    {
+     "p": "Che cosa accade nel dicembre 1991?",
+     "a": "L'URSS si dissolve e nasce la CSI",
+     "w": [
+      "Cade il Muro di Berlino",
+      "Gorbačëv diventa leader",
+      "L'URSS invade l'Afghanistan"
+     ],
+     "e": "Gorbačëv si dimette."
+    },
+    {
+     "p": "Quali repubbliche restano fuori dalla CSI?",
+     "a": "Le repubbliche baltiche",
+     "w": [
+      "L'Ucraina e la Bielorussia",
+      "Il Kazakistan e l'Uzbekistan",
+      "La Russia e la Moldavia"
+     ],
+     "e": "Estonia, Lettonia e Lituania si staccano completamente."
+    },
+    {
+     "p": "Che cosa accade nell'agosto 1991 a Mosca?",
+     "a": "Fallisce un colpo di Stato dei comunisti conservatori",
+     "w": [
+      "Cade il Muro di Berlino",
+      "Gorbačëv diventa leader",
+      "Nasce la NATO"
+     ],
+     "e": "Dopo il golpe fallito le repubbliche dichiarano l'indipendenza."
+    },
+    {
+     "p": "Che cosa vive la Russia negli anni Novanta?",
+     "a": "Una crisi economica devastante",
+     "w": [
+      "Un boom economico",
+      "Una guerra con la Cina",
+      "Il ritorno degli zar"
+     ],
+     "e": "Il passaggio al libero mercato è difficilissimo."
+    }
+   ]
+  },
+  "Q16": {
+   "title": "Quiz 16 · L'altro 1989: la Cina",
+   "items": [
+    {
+     "p": "Chi avvia le «Quattro modernizzazioni» in Cina?",
+     "a": "Deng Xiaoping",
+     "w": [
+      "Mao Zedong",
+      "Chiang Kai-shek",
+      "Gorbačëv"
+     ],
+     "e": "Le riforme partono dalla fine degli anni Settanta."
+    },
+    {
+     "p": "A che cosa si apre la Cina di Deng?",
+     "a": "Al capitalismo e agli investimenti esteri",
+     "w": [
+      "Alla democrazia parlamentare",
+      "All'economia pianificata sovietica",
+      "Alla monarchia"
+     ],
+     "e": "L'economia cresce in modo vertiginoso."
+    },
+    {
+     "p": "Che cosa non cambia nella Cina di Deng?",
+     "a": "Il controllo assoluto del Partito Comunista",
+     "w": [
+      "La proprietà privata",
+      "Gli investimenti esteri",
+      "La crescita economica"
+     ],
+     "e": "L'apertura economica non porta riforme democratiche."
+    },
+    {
+     "p": "Che cosa chiedono gli studenti in piazza Tienanmen?",
+     "a": "Democrazia e libertà politiche",
+     "w": [
+      "Il ritorno di Mao",
+      "L'uscita dall'ONU",
+      "La guerra con Taiwan"
+     ],
+     "e": "Manifestano a Pechino nella primavera del 1989."
+    },
+    {
+     "p": "Come risponde il governo cinese alla protesta?",
+     "a": "Con l'esercito e i carri armati",
+     "w": [
+      "Con libere elezioni",
+      "Con le dimissioni del governo",
+      "Con un referendum"
+     ],
+     "e": "La protesta viene repressa nel sangue a giugno."
+    }
+   ]
+  }
+ }
+}

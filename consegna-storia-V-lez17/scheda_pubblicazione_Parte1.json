@@ -1,0 +1,253 @@
+{
+ "materia": "Storia",
+ "titolo": "Le fasi conclusive della guerra fredda (1969-1991) · Parte 1",
+ "durata_s": 3099.03,
+ "argomenti": [
+  {
+   "n": 1,
+   "titolo": "Nixon e la fine di Bretton Woods",
+   "inizio_s": 321.833,
+   "quiz_s": 1055.8
+  },
+  {
+   "n": 2,
+   "titolo": "Il Kippur e lo shock petrolifero",
+   "inizio_s": 1061.1,
+   "quiz_s": 1713.133
+  },
+  {
+   "n": 3,
+   "titolo": "Tensioni e accordi in Medio Oriente",
+   "inizio_s": 1718.433,
+   "quiz_s": 2437.933
+  },
+  {
+   "n": 4,
+   "titolo": "La rivoluzione in Iran",
+   "inizio_s": 2443.233,
+   "quiz_s": 2949.033
+  }
+ ],
+ "quiz": {
+  "Q1": {
+   "title": "Quiz 1 · Nixon e la fine di Bretton Woods",
+   "items": [
+    {
+     "p": "Chi diventa presidente degli Stati Uniti nel 1969?",
+     "a": "Richard Nixon",
+     "w": [
+      "Ronald Reagan",
+      "Jimmy Carter",
+      "Lyndon Johnson"
+     ],
+     "e": "Il repubblicano Nixon eredita la guerra in Vietnam e un forte deficit."
+    },
+    {
+     "p": "Quali sono tra le cause del deficit americano?",
+     "a": "Le spese per il Vietnam e i programmi di assistenza sociale",
+     "w": [
+      "Le spese per il piano Marshall",
+      "La guerra di Corea e la corsa allo spazio",
+      "Il crollo della Borsa del 1929"
+     ],
+     "e": "Pesano la guerra in Vietnam e il welfare avviato da Kennedy e Johnson."
+    },
+    {
+     "p": "Quali paesi fanno concorrenza economica agli Stati Uniti?",
+     "a": "Il Giappone e la Germania Ovest",
+     "w": [
+      "L'URSS e la Cina",
+      "L'India e il Brasile",
+      "Il Messico e il Canada"
+     ],
+     "e": "Giappone e Germania Ovest sono alleati, ma esportano e fanno concorrenza."
+    },
+    {
+     "p": "Che cosa decide Nixon nell'agosto 1971?",
+     "a": "Sospende la convertibilità del dollaro in oro",
+     "w": [
+      "Ritira le truppe dal Vietnam",
+      "Entra nella CEE",
+      "Firma i trattati SALT"
+     ],
+     "e": "Così finisce il sistema di Bretton Woods."
+    },
+    {
+     "p": "Qual è una conseguenza della fine di Bretton Woods?",
+     "a": "La fine dei cambi fissi e mercati instabili",
+     "w": [
+      "La nascita del dollaro",
+      "La fine della guerra fredda",
+      "La moneta unica europea"
+     ],
+     "e": "Senza cambi fissi le monete oscillano e i mercati diventano instabili."
+    }
+   ]
+  },
+  "Q2": {
+   "title": "Quiz 2 · Il Kippur e lo shock petrolifero",
+   "items": [
+    {
+     "p": "Chi attacca Israele nel 1973?",
+     "a": "L'Egitto e la Siria",
+     "w": [
+      "L'Iran e l'Iraq",
+      "Il Libano e la Giordania",
+      "L'Arabia Saudita e il Kuwait"
+     ],
+     "e": "Egitto e Siria attaccano nel giorno del Kippur."
+    },
+    {
+     "p": "Perché la guerra si chiama «del Kippur»?",
+     "a": "Perché inizia durante una festa ebraica",
+     "w": [
+      "Perché si combatte vicino a un fiume",
+      "Perché la firma un generale israeliano",
+      "Perché dura un solo giorno"
+     ],
+     "e": "Il Kippur è una festa del calendario ebraico."
+    },
+    {
+     "p": "Che cosa fanno i paesi arabi dell'OPEC?",
+     "a": "Riducono il petrolio e ne quadruplicano il prezzo",
+     "w": [
+      "Regalano petrolio all'Europa",
+      "Entrano nella NATO",
+      "Chiedono aiuti al Fondo Monetario"
+     ],
+     "e": "È una ritorsione contro l'Occidente che sostiene Israele."
+    },
+    {
+     "p": "Che cos'è la stagflazione?",
+     "a": "Stagnazione economica e inflazione insieme",
+     "w": [
+      "Una forte crescita economica",
+      "Una moneta molto stabile",
+      "Un calo dei prezzi"
+     ],
+     "e": "L'economia non cresce e i prezzi salgono."
+    },
+    {
+     "p": "Quale misura arriva in Italia durante la crisi?",
+     "a": "Le targhe alterne",
+     "w": [
+      "La moneta unica",
+      "Il servizio militare per tutti",
+      "La chiusura delle scuole"
+     ],
+     "e": "Le auto potevano circolare solo in alcuni giorni."
+    }
+   ]
+  },
+  "Q3": {
+   "title": "Quiz 3 · Tensioni e accordi in Medio Oriente",
+   "items": [
+    {
+     "p": "Che cosa stabiliscono gli accordi di Camp David (1978)?",
+     "a": "La pace tra Egitto e Israele",
+     "w": [
+      "La nascita dell'OLP",
+      "La fine della guerra Iran-Iraq",
+      "La nascita dello Stato palestinese"
+     ],
+     "e": "L'Egitto è il primo paese arabo a riconoscere Israele."
+    },
+    {
+     "p": "Che cosa accade a Sadat nel 1981?",
+     "a": "Viene assassinato",
+     "w": [
+      "Diventa re",
+      "Vince il Nobel per la letteratura",
+      "Fugge in esilio"
+     ],
+     "e": "Sadat viene isolato dal mondo arabo e assassinato da estremisti."
+    },
+    {
+     "p": "Che cos'è l'OLP?",
+     "a": "L'Organizzazione per la liberazione della Palestina",
+     "w": [
+      "Un'alleanza militare occidentale",
+      "Il partito di governo israeliano",
+      "Un sindacato egiziano"
+     ],
+     "e": "Nel 1982 Israele invade il Libano per cacciare l'OLP."
+    },
+    {
+     "p": "Dove avvengono i massacri del 1982?",
+     "a": "Nei campi profughi di Sabra e Chatila",
+     "w": [
+      "A Teheran",
+      "A Gerusalemme",
+      "Al Cairo"
+     ],
+     "e": "Sono campi profughi palestinesi in Libano."
+    },
+    {
+     "p": "Che cos'è l'Intifada (1987)?",
+     "a": "Una rivolta popolare palestinese",
+     "w": [
+      "Un trattato di pace",
+      "Una guerra tra Iran e Iraq",
+      "Un partito israeliano"
+     ],
+     "e": "Scoppia a Gaza e in Cisgiordania, nei territori occupati."
+    }
+   ]
+  },
+  "Q4": {
+   "title": "Quiz 4 · La rivoluzione in Iran",
+   "items": [
+    {
+     "p": "Chi governa l'Iran prima del 1979?",
+     "a": "Lo Shah Mohammad Reza Pahlavi",
+     "w": [
+      "L'Ayatollah Khomeini",
+      "Saddam Hussein",
+      "Il re Faruk"
+     ],
+     "e": "Un sovrano modernizzatore e vicino all'Occidente."
+    },
+    {
+     "p": "Che cosa nasce in Iran dopo la rivoluzione?",
+     "a": "Una Repubblica islamica",
+     "w": [
+      "Una monarchia costituzionale",
+      "Una repubblica comunista",
+      "Una colonia britannica"
+     ],
+     "e": "Lo Stato si fonda sulla legge islamica."
+    },
+    {
+     "p": "Che cos'è una teocrazia?",
+     "a": "Uno Stato fondato sulla legge religiosa",
+     "w": [
+      "Uno Stato senza leggi",
+      "Uno Stato governato dai militari",
+      "Uno Stato federale"
+     ],
+     "e": "In Iran la legge dello Stato è la sharia."
+    },
+    {
+     "p": "Chi assume la guida della rivoluzione iraniana?",
+     "a": "L'Ayatollah Khomeini",
+     "w": [
+      "Lo Shah",
+      "Saddam Hussein",
+      "Sadat"
+     ],
+     "e": "Khomeini torna dall'esilio ed è la guida spirituale della Repubblica islamica."
+    },
+    {
+     "p": "Che cosa accade nel novembre 1979 a Teheran?",
+     "a": "Gli studenti assaltano l'ambasciata USA e prendono ostaggi",
+     "w": [
+      "Viene firmata la pace con l'Iraq",
+      "Lo Shah torna al potere",
+      "Nasce l'OPEC"
+     ],
+     "e": "Il personale diplomatico resta in ostaggio per oltre un anno."
+    }
+   ]
+  }
+ }
+}

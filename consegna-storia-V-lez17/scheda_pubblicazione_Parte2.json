@@ -1,0 +1,375 @@
+{
+ "materia": "Storia",
+ "titolo": "Le fasi conclusive della guerra fredda (1969-1991) · Parte 2",
+ "durata_s": 3111.53,
+ "argomenti": [
+  {
+   "n": 5,
+   "titolo": "La guerra Iran-Iraq",
+   "inizio_s": 62.433,
+   "quiz_s": 528.167
+  },
+  {
+   "n": 6,
+   "titolo": "Nixon, la Cina e la distensione",
+   "inizio_s": 533.467,
+   "quiz_s": 1257.733
+  },
+  {
+   "n": 7,
+   "titolo": "Lo scandalo Watergate",
+   "inizio_s": 1263.033,
+   "quiz_s": 1604.067
+  },
+  {
+   "n": 8,
+   "titolo": "Da Carter a Reagan",
+   "inizio_s": 1609.367,
+   "quiz_s": 2138.7
+  },
+  {
+   "n": 9,
+   "titolo": "Il Cile di Allende e Pinochet",
+   "inizio_s": 2144.0,
+   "quiz_s": 2624.2
+  },
+  {
+   "n": 10,
+   "titolo": "Argentina, desaparecidos e Falkland",
+   "inizio_s": 2629.5,
+   "quiz_s": 2992.567
+  }
+ ],
+ "quiz": {
+  "Q5": {
+   "title": "Quiz 5 · La guerra Iran-Iraq",
+   "items": [
+    {
+     "p": "Chi attacca l'Iran nel 1980?",
+     "a": "L'Iraq di Saddam Hussein",
+     "w": [
+      "L'Unione Sovietica",
+      "Israele",
+      "L'Arabia Saudita"
+     ],
+     "e": "Inizia la guerra Iran-Iraq."
+    },
+    {
+     "p": "Perché Saddam teme la rivoluzione iraniana?",
+     "a": "Teme il contagio della rivoluzione islamica nel suo paese",
+     "w": [
+      "Perché è comunista",
+      "Perché vuole diventare Shah",
+      "Perché l'Iran è nella NATO"
+     ],
+     "e": "Il suo regime è laico e teme i fondamentalisti."
+    },
+    {
+     "p": "Quale risorsa è al centro del conflitto?",
+     "a": "Il petrolio",
+     "w": [
+      "L'oro",
+      "Il carbone",
+      "Il grano"
+     ],
+     "e": "Saddam vuole controllare le risorse e il golfo Persico."
+    },
+    {
+     "p": "Quanto dura la guerra Iran-Iraq?",
+     "a": "Otto anni, dal 1980 al 1988",
+     "w": [
+      "Sei giorni",
+      "Due anni",
+      "Trent'anni"
+     ],
+     "e": "Una guerra lunghissima."
+    },
+    {
+     "p": "Come si conclude la guerra?",
+     "a": "Senza vincitori, con quasi due milioni di morti",
+     "w": [
+      "Con la vittoria dell'Iraq",
+      "Con la vittoria dell'Iran",
+      "Con l'intervento della NATO"
+     ],
+     "e": "Alla fine c'è uno stallo sostanziale."
+    }
+   ]
+  },
+  "Q6": {
+   "title": "Quiz 6 · Nixon, la Cina e la distensione",
+   "items": [
+    {
+     "p": "Con quale paese Nixon apre relazioni nel 1972?",
+     "a": "La Cina di Mao",
+     "w": [
+      "Cuba",
+      "Il Vietnam del Nord",
+      "L'Iran"
+     ],
+     "e": "L'obiettivo è isolare l'URSS."
+    },
+    {
+     "p": "A che cosa servono i trattati SALT 1?",
+     "a": "A limitare gli armamenti nucleari",
+     "w": [
+      "A creare la CEE",
+      "A dividere la Germania",
+      "A fondare l'ONU"
+     ],
+     "e": "Sono firmati da USA e URSS nel 1972."
+    },
+    {
+     "p": "Che cosa stabiliscono gli accordi di Helsinki (1975)?",
+     "a": "Confini europei stabili e rispetto dei diritti umani",
+     "w": [
+      "La fine della guerra in Vietnam",
+      "La moneta unica",
+      "Il ritiro sovietico dall'Afghanistan"
+     ],
+     "e": "Impegnano i blocchi al rispetto dei diritti umani."
+    },
+    {
+     "p": "Perché New York rischia il fallimento negli anni Settanta?",
+     "a": "Perché ha più debiti che entrate e il bilancio è separato da quello federale",
+     "w": [
+      "Perché viene bombardata",
+      "Perché perde la guerra in Vietnam",
+      "Perché esce dagli Stati Uniti"
+     ],
+     "e": "Negli USA, Stato federale, ogni città deve far quadrare il proprio bilancio."
+    },
+    {
+     "p": "Perché Nixon riconosce la Cina comunista?",
+     "a": "Per isolare l'Unione Sovietica",
+     "w": [
+      "Per entrare nel Patto di Varsavia",
+      "Per aiutare Taiwan",
+      "Per finire la guerra di Corea"
+     ],
+     "e": "Mao prende le distanze da Mosca, e Nixon ne approfitta."
+    }
+   ]
+  },
+  "Q7": {
+   "title": "Quiz 7 · Lo scandalo Watergate",
+   "items": [
+    {
+     "p": "Che cosa fanno gli uomini legati a Nixon nel Watergate?",
+     "a": "Mettono microspie nella sede dei democratici",
+     "w": [
+      "Rubano i piani dello scudo spaziale",
+      "Organizzano un colpo di Stato",
+      "Vendono armi all'Iran"
+     ],
+     "e": "È uno spionaggio politico illegale."
+    },
+    {
+     "p": "Che cosa rivelano i nastri della Casa Bianca?",
+     "a": "Che Nixon voleva fermare le indagini dei giudici",
+     "w": [
+      "Che Nixon voleva invadere Cuba",
+      "Che Nixon era malato",
+      "Che Ford era una spia"
+     ],
+     "e": "Il presidente non può bloccare la magistratura."
+    },
+    {
+     "p": "Quando si dimette Nixon?",
+     "a": "Nel 1974",
+     "w": [
+      "Nel 1969",
+      "Nel 1972",
+      "Nel 1981"
+     ],
+     "e": "Annuncia le dimissioni in televisione."
+    },
+    {
+     "p": "Che cosa fa Gerald Ford per Nixon?",
+     "a": "Gli concede la grazia",
+     "w": [
+      "Lo nomina ministro",
+      "Lo fa arrestare",
+      "Lo manda in esilio"
+     ],
+     "e": "Così Nixon non va in prigione."
+    },
+    {
+     "p": "Che cosa dimostra lo scandalo Watergate?",
+     "a": "Che in democrazia la magistratura è indipendente",
+     "w": [
+      "Che il presidente può tutto",
+      "Che gli USA sono una dittatura",
+      "Che il Congresso non conta"
+     ],
+     "e": "I poteri dello Stato sono divisi."
+    }
+   ]
+  },
+  "Q8": {
+   "title": "Quiz 8 · Da Carter a Reagan",
+   "items": [
+    {
+     "p": "Quale paese invade l'URSS nel 1979?",
+     "a": "L'Afghanistan",
+     "w": [
+      "La Polonia",
+      "L'Iran",
+      "La Cina"
+     ],
+     "e": "La distensione entra in crisi."
+    },
+    {
+     "p": "Quale presidente non riesce a risolvere la crisi degli ostaggi?",
+     "a": "Jimmy Carter",
+     "w": [
+      "Richard Nixon",
+      "Ronald Reagan",
+      "Gerald Ford"
+     ],
+     "e": "La crisi pesa sulla sua sconfitta elettorale."
+    },
+    {
+     "p": "Come Reagan definisce l'URSS?",
+     "a": "«Impero del male»",
+     "w": [
+      "«Paese amico»",
+      "«Gigante buono»",
+      "«Alleato necessario»"
+     ],
+     "e": "Reagan sceglie la linea dura."
+    },
+    {
+     "p": "Che cos'è lo «scudo spaziale»?",
+     "a": "Un progetto militare di difesa anche dallo spazio",
+     "w": [
+      "Un satellite per le comunicazioni",
+      "Un trattato di disarmo",
+      "Una missione sulla Luna"
+     ],
+     "e": "Fu soprannominato «Star Wars»."
+    },
+    {
+     "p": "Quando inizia la presidenza Reagan?",
+     "a": "Nel 1981",
+     "w": [
+      "Nel 1969",
+      "Nel 1974",
+      "Nel 1991"
+     ],
+     "e": "Reagan resta presidente per due mandati."
+    }
+   ]
+  },
+  "Q9": {
+   "title": "Quiz 9 · Il Cile di Allende e Pinochet",
+   "items": [
+    {
+     "p": "Chi viene eletto in Cile nel 1970?",
+     "a": "Il socialista Salvador Allende",
+     "w": [
+      "Il generale Pinochet",
+      "Fidel Castro",
+      "Juan Carlos"
+     ],
+     "e": "Allende avvia riforme e nazionalizzazioni."
+    },
+    {
+     "p": "Chi guida il golpe del settembre 1973 in Cile?",
+     "a": "Augusto Pinochet",
+     "w": [
+      "Salvador Allende",
+      "Saddam Hussein",
+      "Francisco Franco"
+     ],
+     "e": "Pinochet impone una dittatura fino al 1988."
+    },
+    {
+     "p": "Quale paese latinoamericano è guidato da Fidel Castro?",
+     "a": "Cuba",
+     "w": [
+      "Il Cile",
+      "L'Argentina",
+      "Il Messico"
+     ],
+     "e": "Cuba è un regime marxista alleato dell'URSS."
+    },
+    {
+     "p": "Chi sono i Contras in Nicaragua?",
+     "a": "Guerriglieri sostenuti dagli USA contro il governo sandinista",
+     "w": [
+      "Soldati sovietici",
+      "Studenti cileni",
+      "Monaci buddisti"
+     ],
+     "e": "Gli Stati Uniti li sostengono negli anni di Reagan."
+    },
+    {
+     "p": "Fino a quando dura la dittatura di Pinochet?",
+     "a": "Fino al 1988",
+     "w": [
+      "Fino al 1974",
+      "Fino al 2001",
+      "Fino al 1979"
+     ],
+     "e": "Pinochet impone una dittatura feroce e repressiva."
+    }
+   ]
+  },
+  "Q10": {
+   "title": "Quiz 10 · Argentina, desaparecidos e Falkland",
+   "items": [
+    {
+     "p": "Chi sono i desaparecidos?",
+     "a": "Gli oppositori fatti sparire dalle dittature",
+     "w": [
+      "I soldati delle Falkland",
+      "I profughi palestinesi",
+      "I minatori britannici"
+     ],
+     "e": "In Argentina spariscono migliaia di oppositori."
+    },
+    {
+     "p": "Che cosa chiedono le Madri di Plaza de Mayo?",
+     "a": "La verità sui figli scomparsi",
+     "w": [
+      "La guerra al Regno Unito",
+      "Il ritorno della monarchia",
+      "L'ingresso nella CEE"
+     ],
+     "e": "Manifestano con coraggio a Buenos Aires."
+    },
+    {
+     "p": "Quale guerra accelera la fine della giunta argentina?",
+     "a": "La guerra delle Falkland (1982)",
+     "w": [
+      "La guerra del Kippur",
+      "La guerra Iran-Iraq",
+      "La guerra del Vietnam"
+     ],
+     "e": "L'Argentina viene sconfitta dal Regno Unito."
+    },
+    {
+     "p": "Chi governa il Regno Unito durante la guerra delle Falkland?",
+     "a": "Margaret Thatcher",
+     "w": [
+      "Winston Churchill",
+      "Tony Blair",
+      "Elisabetta II da sola"
+     ],
+     "e": "La premier manda la flotta e riconquista le isole."
+    },
+    {
+     "p": "Come chiamano gli argentini le isole Falkland?",
+     "a": "Malvinas",
+     "w": [
+      "Canarie",
+      "Azzorre",
+      "Galápagos"
+     ],
+     "e": "Per gli argentini sono le Malvinas."
+    }
+   ]
+  }
+ }
+}
