@@ -53,7 +53,14 @@ def slide(titolo_slide, kicker, cards, att=None, img=None, img_cap=None, keyword
                 + docente_tag(keyword) + foot())
         return page(body, 'light')
     cs = ''
+    vis = list(range(len(cards)))
+    if len(cards) > 3:
+        a0 = att[0] if att is not None else 0
+        st = min(max(a0 - 1, 0), len(cards) - 3)
+        vis = list(range(st, st + 3))
     for ci, (lead, frasi) in enumerate(cards):
+        if ci not in vis:
+            continue
         act = att is not None and att[0] == ci
         txt = ''
         for fi, f in enumerate(frasi):

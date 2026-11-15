@@ -11,6 +11,7 @@ S = importlib.util.module_from_spec(sp)
 sp.loader.exec_module(S)
 OUT = sys.argv[3]
 PDF = sys.argv[4] if len(sys.argv) > 4 else None
+VID = sys.argv[5] if len(sys.argv) > 5 else None
 
 VOC = set()
 txt = ''
@@ -101,6 +102,24 @@ for a, b, t, tipo in cues:
     if not t.strip():
         continue
     rows += blocchi(t, a, b)
+rows.sort()
+# aggancio dell'inizio dei blocchi all'attacco reale della voce (sul video finale), come nel controllo finale
+if VID:
+    import numpy as np
+    SR = 8000
+    x = np.frombuffer(subprocess.run(['ffmpeg', '-v', 'error', '-i', VID, '-vn', '-ac', '1', '-ar', str(SR), '-f', 's16le', '-'], capture_output=True).stdout, np.int16).astype(float)
+    e = np.convolve(x ** 2, np.ones(400) / 400, 'same')
+    thr = np.percentile(e, 60)
+    nr = []
+    for a, b, t in rows:
+        i0 = int(max(0, a - 0.8) * SR)
+        seg = e[i0:int((a + 0.8) * SR)]
+        if len(seg) > SR // 2 and seg[:SR // 2].mean() < thr * 0.5:
+            on = int(np.argmax(seg > thr))
+            if seg[on] > thr:
+                a = i0 / SR + on / SR
+        nr.append((a, max(b, a + 0.8), t))
+    rows = nr
 rows.sort()
 # niente sovrapposizioni
 for i in range(len(rows) - 1):
