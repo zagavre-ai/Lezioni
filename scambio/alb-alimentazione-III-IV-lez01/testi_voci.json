@@ -1,0 +1,62 @@
+[
+ {
+  "nome": "INTRO1",
+  "testo": "Benvenuti alla lezione di Scienza e cultura dell'alimentazione: scienza, storia e salute, il mondo dell'alimentazione. Vedremo alimentazione e nutrizione, i nutrienti, la storia dell'alimentazione, le classificazioni degli alimenti, il fabbisogno energetico, i LARN e le Linee guida, le diete e gli enti.",
+  "lingua": "it"
+ },
+ {
+  "nome": "M1",
+  "testo": "Mappa: Alimentazione e nutrizione. Primo, l'alimentazione: l'atto volontario e consapevole di scegliere cibi e bevande. Secondo, la nutrizione: processi involontari con cui l'organismo digerisce, assorbe e utilizza i nutrienti. Terzo: alimentazione e nutrizione non sono sinonimi, sono due processi diversi. Quarto: l'alimentazione è influenzata da fattori biologici, psicologici e socio-culturali. Quinto, Leonardo da Vinci, che consigliava di non mangiar senza voglia e cena leve.",
+  "lingua": "it"
+ },
+ {
+  "nome": "M2",
+  "testo": "Mappa: Nutrienti e metabolismo. Siamo organismi eterotrofi: ricaviamo energia consumando altri organismi. I macronutrienti energetici: glucidi e protidi danno quattro chilocalorie per grammo, i lipidi nove. I micronutrienti: vitamine e sali minerali, con funzioni bioregolatrici e protettive. L'acqua, essenziale per la vita e priva di calorie. Il metabolismo si divide in catabolismo, che libera energia, e anabolismo, che costruisce nuove molecole.",
+  "lingua": "it"
+ },
+ {
+  "nome": "M3",
+  "testo": "Mappa: La storia dell'alimentazione. Nel Neolitico nascono agricoltura e allevamento: l'uomo diventa produttore. Tra antichità e Medioevo cambiano i regimi: banchetti per i ricchi, cereali e verdure per i poveri. Con la scoperta dell'America, nel millequattrocentonovantadue, arrivano mais, pomodoro, patate, peperoni e fagioli. Con la Rivoluzione Industriale nascono la conservazione in contenitori chiusi e la pastorizzazione. Liebig formula la Legge del minimo: la crescita dipende dalla risorsa più scarsa, il fattore limitante. Poi Rubner, Funk e Ancel Keys fondano la scienza moderna della nutrizione.",
+  "lingua": "it"
+ },
+ {
+  "nome": "M4",
+  "testo": "Mappa: Classificazione degli alimenti. Un alimento deve rispondere a quattro requisiti: nutrire, essere commestibile, piacere ai sensi e non essere tossico. Per origine merceologica: minerale, vegetale, fungina o animale. Per tecnica produttiva: freschi, conservati o trasformati. Per funzione prevalente: energetici, plastici o regolativi protettivi. L'INRAN propone cinque gruppi di alimenti, con almeno uno ogni giorno. Gli alimenti accessori non sono indispensabili: spezie, sale, aceto.",
+  "lingua": "it"
+ },
+ {
+  "nome": "M5",
+  "testo": "Mappa: Fabbisogno e pasti. Il fabbisogno energetico è il prodotto tra metabolismo basale e livello di attività fisica. L'Indice di Massa Corporea è il rapporto tra peso e altezza al quadrato. Le calorie si distribuiscono così: colazione venti per cento, pranzo quaranta, cena trenta, due spuntini da cinque. Gli adolescenti: circa cinquantacinque per cento di glucidi, trenta di lipidi e quindici di protidi. Gli adulti: proteine al dodici per cento e glucidi al sessanta.",
+  "lingua": "it"
+ },
+ {
+  "nome": "M6",
+  "testo": "Mappa: LARN e Linee guida. I LARN, elaborati dalla SINU nel duemilaquattordici, sono i livelli di assunzione di riferimento. Proteine: zero virgola nove grammi per chilo di peso al giorno. Lipidi: dal venti al trenta per cento delle calorie, colesterolo sotto i trecento milligrammi. Glucidi: dal quarantacinque al sessanta per cento, con gli zuccheri semplici sotto il quindici. Acqua: due litri al giorno per le donne, due litri e mezzo per gli uomini. Le Linee guida del CREA sono tredici direttive in quattro blocchi principali.",
+  "lingua": "it"
+ },
+ {
+  "nome": "M7",
+  "testo": "Mappa: Diete e ristorazione. La Dieta Mediterranea, patrimonio dell'umanità dal duemiladieci, privilegia vegetali, cereali integrali, pesce e olio. Le diete vegetariane escludono la carne: latte-ovo, latto e ovo vegetariana. Più dure sono la vegana, la crudista e la fruttariana. Le diete ipocaloriche vanno seguite con un dietologo, con pasti regolari. Da evitare digiuno e diete drastiche, che causano l'effetto yo yo. Infine l'impronta ecologica: meglio prodotti locali e di stagione.",
+  "lingua": "it"
+ },
+ {
+  "nome": "M8",
+  "testo": "Mappa: Gli enti dell'alimentazione. In Italia studiano gli alimenti il CREA e la SINU. Competono anche i ministeri: Agricoltura, Istruzione, Università, Salute e Imprese. La Carta di Milano nasce da Expo duemilaquindici. Si aggiunge l'Agenda duemilatrenta per lo sviluppo sostenibile. In Europa c'è l'EFSA, con sede a Parma. Nel mondo operano OMS, FAO, FDA e UNICEF.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MF",
+  "testo": "Mappa: Il mondo dell'alimentazione. Le basi: alimentazione e nutrizione sono diverse, siamo eterotrofi e abbiamo bisogno di nutrienti. La storia va dal Neolitico alla Rivoluzione Industriale. Gli alimenti si classificano per origine, tecnica e funzione. Il fabbisogno energetico guida la distribuzione dei pasti. LARN e Linee guida indicano come mangiare sano. La Dieta Mediterranea e gli enti ci orientano verso scelte sane.",
+  "lingua": "it"
+ },
+ {
+  "nome": "GL1",
+  "testo": "Le parole chiave. Alimentazione: l'atto volontario di scegliere i cibi. Nutrizione: i processi involontari che utilizzano i nutrienti. Metabolismo: l'insieme delle trasformazioni chimiche cellulari. Fabbisogno energetico: metabolismo basale per livello di attività fisica. LARN: i livelli di assunzione di riferimento di nutrienti ed energia.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RF1",
+  "testo": "Ripasso finale. Alimentazione e nutrizione non sono sinonimi; siamo eterotrofi e abbiamo bisogno di nutrienti. La storia dell'alimentazione va dal Neolitico alla Rivoluzione Industriale. Gli alimenti si classificano in modi diversi; il fabbisogno guida la distribuzione dei pasti. LARN, Linee guida, Dieta Mediterranea ed enti orientano verso scelte sane.",
+  "lingua": "it"
+ }
+]
