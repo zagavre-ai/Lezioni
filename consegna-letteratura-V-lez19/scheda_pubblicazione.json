@@ -6,20 +6,20 @@
   {
    "n": 1,
    "titolo": "L'Italia dal dopoguerra a oggi",
-   "inizio_s": 172.248,
-   "quiz_s": 1287.882
+   "inizio_s": 171.898,
+   "quiz_s": 1287.865
   },
   {
    "n": 2,
    "titolo": "Il dibattito culturale e la poesia",
-   "inizio_s": 1293.182,
-   "quiz_s": 2143.65
+   "inizio_s": 1292.865,
+   "quiz_s": 2143.633
   },
   {
    "n": 3,
    "titolo": "I maestri della narrativa",
-   "inizio_s": 2148.95,
-   "quiz_s": 3050.485
+   "inizio_s": 2148.633,
+   "quiz_s": 3050.468
   }
  ],
  "quiz": {
@@ -189,6 +189,6 @@
    ]
   }
  },
- "t_verifica": 3193.486,
- "t_compiti": 3217.806
+ "t_verifica": 3193.469,
+ "t_compiti": 3217.789
 }
