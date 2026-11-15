@@ -2,15 +2,30 @@
  "tag": "letteratura-V-lez16",
  "parti": {
   "1": {
-   "stato": "FERMA"
+   "stato": "IN_MONTAGGIO",
+   "titolo": "Umberto Saba"
   }
  },
  "manca": "non iniziata: lezione da fare da capo; trascrizione pronta (Whisper base), manca il montaggio completo e le voci Kore",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "15/11 14:07",
+   "testo": "chat R5: voci Kore richieste per la lezione 16 (Saba) su voci-letteratura-V-lez16: 30 voci (R1-R4, S1-S4, GL, RF, FIN, AN*). Una sola richiesta, nomi nuovi."
+  }
+ ],
  "domande_sara": [],
- "note": [],
+ "note": [
+  {
+   "quando": "15/11 14:05",
+   "testo": "chat R5 (15/11): lezione 16 ripresa. Video 29:10 e videodispensa (20 slide) scaricati, trascrizione fatta. In corso: struttura in 4 argomenti, quiz, testi voci, approfondimenti animati; montaggio con slide sincronizzate da fare."
+  },
+  {
+   "quando": "15/11 14:58",
+   "testo": "chat R5 · pronta, attende voci Kore (30 richieste su voci-letteratura-V-lez16). Con segnaposto montata: 52:21 stimati (docente 29:10 con slide sincronizzate sulle frasi trascritte, 19 approfondimenti animati, mappe, 4 quiz da 5 domande, verifica = test Excel del prof con 11 domande, compiti del prof, dispensa A4 con mappe, sottotitoli). Quando arrivano le voci: codifica unica e consegna."
+  }
+ ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 16 · Umberto Saba",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-15 00:16:46"
+ "aggiornato": "2026-11-15 14:58:28"
 }

@@ -290,10 +290,14 @@
   {
    "quando": "15/11 12:59",
    "testo": "chat R5 · PRONTA v2 con approfondimenti animati, consegnata sul ramo consegna-letteratura-V-lez19. Misurato: 53:44.2, 96725 fotogrammi, 185.3 MB, 1920x1080, parlato docente -15.8 LUFS, approfondimenti -16.5 LUFS, scatto quiz entro 0,04 s su 3/3, nessun fermo. 15 approfondimenti animati con voce Kore (18 min) + mappe (una per argomento + finale, anche nella dispensa). t_verifica 3193.486, t_compiti 3217.806. compiti.json del prof aggiunto. Non rifatti (restano dalla v1): scheda e intro Compiti, bande blu, sincronia slide. Sottotitoli degli approfondimenti allineati alle pause della voce, non verificati uno per uno."
+  },
+  {
+   "quando": "15/11 14:58",
+   "testo": "chat R5 · aggiornati sul ramo scheda e testo YouTube con i tempi MISURATI sul video finale. controllo_jingle: Q1 +0,017, Q2 +0,019 OK; Q3 +0,052 s (soglia 0,05, marginale, scarto presente gia' nel video originale)."
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 19",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-15 12:59:24"
+ "aggiornato": "2026-11-15 14:58:26"
 }
