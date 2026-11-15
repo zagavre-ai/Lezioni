@@ -369,10 +369,14 @@
   {
    "quando": "15/11 02:36",
    "testo": "R2: pronta, attende voci Kore (quota Google fino alle 09:00 IT). Pronti: tagli video, mappe, dispensa, compiti.json; controllo vox/ ogni 30 min"
+  },
+  {
+   "quando": "15/11 11:21",
+   "testo": "R2: voci Kore arrivate (25/25). AN3, AN8, AN9 segnate DA CONTROLLARE ma trascrizione Whisper = testo (solo nomi propri/numeri). Montaggio in corso."
   }
  ],
  "materia": "Letteratura italiana · V anno",
  "lezione": "Lezione 7",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-15 02:36:14"
+ "aggiornato": "2026-11-15 11:21:30"
 }
