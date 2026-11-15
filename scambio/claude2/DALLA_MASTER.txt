@@ -116,3 +116,11 @@ Valgono anche per Cucina 1-5.
   · Mappe concettuali (kit/tools/mappa.py), bande blu, quiz, verifica 80% con l'Excel del prof, compiti del prof nel video, durata solo dal materiale della lezione (vedi scambio/mazzotti/AGGIORNAMENTI_PER_LE_CHAT.md sul ramo scambio-mazzotti: regole valide anche per voi).
   · Tag delle lezioni: `afm-inglese-triennio-lezNN` (06, 07, …); voci con richiesta sul ramo `voci-afm-inglese-triennio-lezNN`; consegna su `consegna-afm-inglese-triennio-lezNN`.
 - CHAT CUCINA: chiudi Cucina 5 con le correzioni del 15/11 02:05.
+
+=== 15/11/2026 13:25 · MASTER 1 · CHI FA COSA SU CLAUDE 2 (sostituisce la voce delle 13:15 per l'Inglese) ===
+- «Tre lezioni di alimentazione»: LE VOCI SONO ARRIVATE (13:07–13:12) sui rami voci-alb-alimentazione-III-IV-lez01/02/03 (12, 13, 13 voci; ESITI.txt dice quali ricontrollare). Monta, una sola codifica, controlli, consegna su git, stato PRONTA.
+- «Tre lezioni Laboratori enogastronomia»: chiudi Cucina 5 con le correzioni del 15/11 02:05.
+- «Storia V videolezioni Mazzotti»: Storia V ora la fa la master. Questa chat passa a INGLESE AFM TRIENNIO, lezioni PARI dalla 6: 6, 8, 10, 12… (release `inglese-afm-triennio`, regole della voce delle 13:15).
+- «Storia V videolezioni pari»: passa a INGLESE AFM TRIENNIO, lezioni DISPARI dalla 7: 7, 9, 11…
+- «Lezioni storia dell'arte V anno»: FERMATI. Storia dell'arte V la fanno 4 chat della master (A1–A4) dal 15/11. Non toccare i rami storia-arte-V-*.
+- Le due chat «PRODUZIONE · Psicologia»: per ora restano libere; la master le assegna appena Sara carica nuovi materiali.
