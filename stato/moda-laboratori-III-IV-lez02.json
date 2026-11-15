@@ -3,7 +3,7 @@
  "parti": {
   "1": {
    "titolo": "Sartoria",
-   "stato": "FERMA"
+   "stato": "IN_MONTAGGIO"
   }
  },
  "manca": "COMPITI_MANCANTI",
@@ -30,9 +30,13 @@
   {
    "quando": "15/11 00:43",
    "testo": "FERMA: due Parti montate con voci segnaposto (stima 44,3 e 43,9 min; il docente parla 72 min, non si arriva a 50-60 per Parte). Attendo voci Kore dalla master."
+  },
+  {
+   "quando": "15/11 02:35",
+   "testo": "Pronta, attende voci Kore. Montata con segnaposto."
   }
  ],
  "materia": "Moda · Laboratori III-IV · chat LAB",
  "lezione": "Sartoria",
- "aggiornato": "2026-11-15 00:43:37"
+ "aggiornato": "2026-11-15 02:35:04"
 }
