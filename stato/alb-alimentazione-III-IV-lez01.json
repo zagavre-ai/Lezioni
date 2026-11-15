@@ -1,28 +1,9 @@
 {
  "tag": "alb-alimentazione-III-IV-lez01",
- "parti": {
-  "1": {
-   "titolo": "Il mondo dell'alimentazione",
-   "stato": "IN_MONTAGGIO",
-   "voci": "segnaposto"
-  }
- },
- "manca": "In attesa delle voci Kore (12 voci richieste il 15/11 sul ramo voci-alb-alimentazione-III-IV-lez01). Pronti: mappe (9), dispensa con mappe (51 pp.), quiz, scripts di montaggio con chiusura nuova. Poi: import voci, mappe animate, montaggio, codifica 1080p CRF 19, controlli, sottotitoli. Ore stimate dopo le voci: 3",
- "serve_master": [
-  {
-   "quando": "15/11 00:55",
-   "testo": "Lezione 1: docente 58,7 min. Una Parte con mappe = circa 70 min (oltre i 65 della regola dell'8/11); due Parti = circa 35 min ciascuna (sotto i 50). Scelta di default: UNA Parte (come moda-economia lez01). Dimmi se preferisci due Parti. Nota: i ripassi con schema sono sostituiti dalle mappe concettuali (stessa funzione) per restare vicini a 60 min."
-  }
- ],
+ "parti": {},
+ "manca": "",
+ "serve_master": [],
  "domande_sara": [],
- "note": [
-  {
-   "quando": "15/11 00:55",
-   "testo": "Chiusura nuova nel montaggio: t_verifica, t_sigla_finale, t_compiti_intro, t_compiti si scrivono dopo il montaggio."
-  }
- ],
- "materia": "Scienza e cultura dell'alimentazione · Alberghiero III-IV",
- "lezione": "Lezione 1 · Il mondo dell'alimentazione",
- "docente": "Prof.ssa Piera Caputi",
- "aggiornato": "2026-11-15 00:55:31"
+ "note": [],
+ "aggiornato": "2026-11-15 13:50:11"
 }
