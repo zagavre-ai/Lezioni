@@ -10,6 +10,10 @@
   {
    "quando": "15/11 00:51",
    "testo": "storia-V-lez09: 30 testi voce in scambio/storia-V-lez09/testi_voci.json (ramo voci-storia-V-lez09), quiz 10x5 da approvare. REGOLE: docente 66,7 min => 2 Parti (a fine argomento 5), ma ogni Parte viene di circa 43-46 min (sotto 50). Dimmi se preferisci una Parte sola (circa 85 min)."
+  },
+  {
+   "quando": "15/11 14:06",
+   "testo": "storia-V-lez09: attendo le voci Kore dal ramo voci-storia-V-lez09 (richiesta gia' inviata il 14/11; resto pronto)."
   }
  ],
  "domande_sara": [],
@@ -26,5 +30,5 @@
  "materia": "Storia",
  "lezione": "Lezione 9 · L'Italia del regime fascista",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-15 02:34:25"
+ "aggiornato": "2026-11-15 14:06:01"
 }
