@@ -3,7 +3,7 @@
  "parti": {
   "1": {
    "titolo": "Dal secondo dopoguerra a oggi",
-   "stato": "FERMA",
+   "stato": "IN_MONTAGGIO",
    "voci": "kore",
    "quiz_ok": "si",
    "fermi_ok": "si",
@@ -278,10 +278,14 @@
   {
    "quando": "14/11 22:45",
    "testo": "Letteratura V · chat R5: presa, v2 con approfondimenti animati. Testi voci AN inviati su voci-letteratura-V-lez19, in attesa delle voci Kore; montaggio pronto con segnaposto."
+  },
+  {
+   "quando": "15/11 02:33",
+   "testo": "chat R5: pronta, attende voci Kore (animazioni, mappe, compiti, sottotitoli, dispensa in lavorazione con segnaposto)"
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 19",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-15 00:16:40"
+ "aggiornato": "2026-11-15 02:33:46"
 }
