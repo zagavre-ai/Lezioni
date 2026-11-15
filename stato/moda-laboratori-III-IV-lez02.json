@@ -6,7 +6,7 @@
    "stato": "IN_MONTAGGIO"
   }
  },
- "manca": "",
+ "manca": "COMPITI_MANCANTI",
  "serve_master": [
   {
    "quando": "14/11 22:39",
@@ -30,5 +30,5 @@
  ],
  "materia": "Moda · Laboratori III-IV · chat LAB",
  "lezione": "Sartoria",
- "aggiornato": "2026-11-14 23:45:05"
+ "aggiornato": "2026-11-15 00:14:11"
 }
