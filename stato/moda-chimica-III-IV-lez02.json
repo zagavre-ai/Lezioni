@@ -1,0 +1,23 @@
+{
+ "tag": "moda-chimica-III-IV-lez02",
+ "parti": {
+  "1": {
+   "titolo": "Lana",
+   "stato": "IN_MONTAGGIO",
+   "voci": "segnaposto"
+  }
+ },
+ "manca": "",
+ "serve_master": [],
+ "domande_sara": [],
+ "note": [
+  {
+   "quando": "15/11 20:46",
+   "testo": "15/11: presa in carico (chat PRODUZIONE Psicologia n. 2, lezioni pari). Materiali scaricati dalla release; video docente 44:07. 4 argomenti (uno per mappa del docente). Richiesta voci (13 file) inviata sul ramo voci-moda-chimica-III-IV-lez02. In corso: trascrizione, sincronia, slide."
+  }
+ ],
+ "materia": "Moda III+IV · Chimica applicata e nobilitazione dei materiali",
+ "lezione": "Lana",
+ "docente": "Prof.ssa Piera Caputi",
+ "aggiornato": "2026-11-15 20:46:39"
+}
