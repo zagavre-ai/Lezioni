@@ -1,9 +1,45 @@
 {
  "tag": "alb-alimentazione-III-IV-lez01",
- "parti": {},
- "manca": "",
- "serve_master": [],
+ "parti": {
+  "1": {
+   "titolo": "Il mondo dell'alimentazione",
+   "stato": "IN_MONTAGGIO",
+   "voci": "kore",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "no",
+   "video": "Scienza_alimentazione_Lez1_Parte1_1080p.mp4",
+   "durata_s": 4158.9,
+   "durata": "69:18.9",
+   "fotogrammi": 124766,
+   "fotogrammi_attesi": 124766,
+   "peso_MB": 256.3
+  }
+ },
+ "manca": "Controllo sottotitoli di controllo_finale.py: attacco entro 0,3 s su 10 dei 16 blocchi verificabili (62%, soglia 80%); gli altri 6 hanno voce sotto la soglia del controllo, non confermato.",
+ "serve_master": [
+  {
+   "quando": "15/11 00:55",
+   "testo": "Lezione 1: docente 58,7 min. Una Parte con mappe = circa 70 min (oltre i 65 della regola dell'8/11); due Parti = circa 35 min ciascuna (sotto i 50). Scelta di default: UNA Parte (come moda-economia lez01). Dimmi se preferisci due Parti. Nota: i ripassi con schema sono sostituiti dalle mappe concettuali (stessa funzione) per restare vicini a 60 min."
+  },
+  {
+   "quando": "15/11 13:50",
+   "testo": "Lezione 1 consegnata su consegna-alb-alimentazione-III-IV-lez01 (3 pezzi da 90 MiB, sha256 verificato dal ramo). Durata 69:19 in UNA Parte (regola 50-60 min): decidere una Parte da 69 min o due da ~35 min. Voci da riascoltare: M7, RF1. Immagini HD del libro (12) ancora mancanti."
+  }
+ ],
  "domande_sara": [],
- "note": [],
- "aggiornato": "2026-11-15 13:50:11"
+ "note": [
+  {
+   "quando": "15/11 00:55",
+   "testo": "Chiusura nuova nel montaggio: t_verifica, t_sigla_finale, t_compiti_intro, t_compiti si scrivono dopo il montaggio."
+  },
+  {
+   "quando": "15/11 13:50",
+   "testo": "t_verifica 4134.3 s · t_sigla_finale 4140.9 s · t_compiti_intro e t_compiti: vedi LEGGIMI sul ramo consegna. Sincronia: 42 righe verificabili su 77, scarto medio +0,05 s, 2 oltre 1,5 s (una è un falso positivo del controllo)."
+  }
+ ],
+ "materia": "Scienza e cultura dell'alimentazione · Alberghiero III-IV",
+ "lezione": "Lezione 1 · Il mondo dell'alimentazione",
+ "docente": "Prof.ssa Piera Caputi",
+ "aggiornato": "2026-11-15 13:50:19"
 }
