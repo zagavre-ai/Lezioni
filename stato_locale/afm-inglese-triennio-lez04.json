@@ -2,12 +2,12 @@
  "tag": "afm-inglese-triennio-lez04",
  "parti": {
   "1": {
-   "stato": "IN_MONTAGGIO",
+   "stato": "PRONTA",
    "voci": "kore",
    "titolo": "Types of business",
    "quiz_ok": "si",
    "fermi_ok": "si",
-   "sub_ok": "no",
+   "sub_ok": "si",
    "video": "Inglese_Lez4_Parte1_1080p.mp4",
    "durata_s": 3758.4,
    "durata": "62:38.4",
@@ -66,7 +66,326 @@
      3734.832,
      5.0
     ]
-   ]
+   ],
+   "scheda": {
+    "materia": "Inglese",
+    "titolo": "Types of business · Parte 1",
+    "durata_s": 3758.43,
+    "argomenti": [
+     {
+      "n": 1,
+      "titolo": "Business structures",
+      "inizio_s": 124.966,
+      "quiz_s": 1284.832
+     },
+     {
+      "n": 2,
+      "titolo": "Franchising and start-ups",
+      "inizio_s": 1290.132,
+      "quiz_s": 2133.099
+     },
+     {
+      "n": 3,
+      "titolo": "Business growth and multinationals",
+      "inizio_s": 2138.399,
+      "quiz_s": 2966.932
+     },
+     {
+      "n": 4,
+      "titolo": "Internal organisation of a company",
+      "inizio_s": 2972.232,
+      "quiz_s": 3314.365
+     },
+     {
+      "n": 5,
+      "titolo": "Corporate Social Responsibility",
+      "inizio_s": 3319.665,
+      "quiz_s": 3613.832
+     }
+    ],
+    "quiz": {
+     "Q1": {
+      "title": "Quiz 1 · Business structures",
+      "items": [
+       {
+        "p": "Which business structure is owned, controlled and run by one person?",
+        "a": "Sole trader",
+        "w": [
+         "Partnership",
+         "Public limited company",
+         "Cooperative"
+        ],
+        "ref": "Sole traders are small businesses owned, controlled and run by one person."
+       },
+       {
+        "p": "What does 'unlimited liability' mean for a sole trader?",
+        "a": "They are personally responsible for all the debts of the business",
+        "w": [
+         "They can never lose money",
+         "The debts belong only to the bank",
+         "The business has no legal obligations"
+        ],
+        "ref": "Sole traders have unlimited liability: they are personally responsible for all debts incurred in their business."
+       },
+       {
+        "p": "What is a 'sleeping' partner in a limited partnership?",
+        "a": "A partner who only provides capital",
+        "w": [
+         "A partner who runs the business every day",
+         "A partner without any investment",
+         "A partner who is also an employee"
+        ],
+        "ref": "In limited partnerships, 'sleeping' partners only provide capital."
+       },
+       {
+        "p": "How are profits divided between the shareholders of a limited company?",
+        "a": "According to the number of shares they hold",
+        "w": [
+         "Equally among all employees",
+         "According to their age",
+         "They are never divided"
+        ],
+        "ref": "Profits are divided between the shareholders based on the number of shares they hold (dividends)."
+       },
+       {
+        "p": "How is decision-making usually managed in a cooperative?",
+        "a": "Democratically: each member has one vote",
+        "w": [
+         "The founder with most money decides",
+         "The government decides",
+         "Votes depend on the shares owned"
+        ],
+        "ref": "Cooperatives are usually run in a democratic way: each member has one vote in decision-making."
+       }
+      ]
+     },
+     "Q2": {
+      "title": "Quiz 2 · Franchising and start-ups",
+      "items": [
+       {
+        "p": "Who is the franchisor?",
+        "a": "The company that sells the right to use its business idea",
+        "w": [
+         "The person who buys the right to copy the business",
+         "The bank that finances the business",
+         "The customer of the franchise"
+        ],
+        "ref": "The franchisor sells the right to use a business idea in a new location."
+       },
+       {
+        "p": "What does a franchisee pay to the franchisor?",
+        "a": "An initial fee and a percentage of the annual turnover",
+        "w": [
+         "Only a fixed salary",
+         "Nothing, franchising is free",
+         "Only the taxes of the franchisor"
+        ],
+        "ref": "The franchisee pays an initial sum (franchise fee) and a percentage on the annual turnover (management service fee)."
+       },
+       {
+        "p": "Why is franchising a low-risk way of starting a business?",
+        "a": "It uses an already tested and successful business model",
+        "w": [
+         "Because it needs no money at all",
+         "Because the franchisee can change the model freely",
+         "Because the government pays the costs"
+        ],
+        "ref": "Franchising uses an already tested and successful business model, which lowers the possibility of failure."
+       },
+       {
+        "p": "Which is a disadvantage of franchising?",
+        "a": "Limited flexibility and innovation",
+        "w": [
+         "A weak brand recognition",
+         "No training or support",
+         "Difficulty in raising finance from banks"
+        ],
+        "ref": "The business model cannot be changed by the franchisee, so flexibility and innovation are limited."
+       },
+       {
+        "p": "What is typical of a start-up?",
+        "a": "High costs and limited financial resources at the beginning",
+        "w": [
+         "A very old and traditional structure",
+         "Guaranteed success in the first year",
+         "No need for capital"
+        ],
+        "ref": "Start-ups begin with high costs and limited financial resources, so they look for capital from several sources."
+       }
+      ]
+     },
+     "Q3": {
+      "title": "Quiz 3 · Business growth and multinationals",
+      "items": [
+       {
+        "p": "What is internal growth?",
+        "a": "A company uses its own resources to expand",
+        "w": [
+         "A company merges with another one",
+         "A company is bought by a larger one",
+         "A company moves abroad"
+        ],
+        "ref": "In internal growth a company uses its own resources (new assets, new lines of product). It is more gradual."
+       },
+       {
+        "p": "What is vertical integration?",
+        "a": "Businesses at different stages of production join together",
+        "w": [
+         "Businesses at the same stage join together",
+         "A company opens a new shop",
+         "A company reduces its costs"
+        ],
+        "ref": "Vertical integration: businesses operating at different stages of production join together."
+       },
+       {
+        "p": "What is a takeover (or acquisition)?",
+        "a": "A business buys another one, entirely or some of its shares",
+        "w": [
+         "Two similar companies form a new one",
+         "A company closes a department",
+         "A company becomes non-profit"
+        ],
+        "ref": "In an acquisition or takeover a business buys another one, either entirely or some shares."
+       },
+       {
+        "p": "When does a parent company control a subsidiary?",
+        "a": "When it owns or controls more than 50% of the voting shares",
+        "w": [
+         "When it owns 10% of the shares",
+         "When it has the same name",
+         "When it is in the same country"
+        ],
+        "ref": "A parent company either owns or controls more than 50% of the voting share in the subsidiary."
+       },
+       {
+        "p": "Why are multinationals often the reason for debates?",
+        "a": "Dominance of the market, cheap labour exploitation and tax avoidance",
+        "w": [
+         "They never create jobs",
+         "They always sell cheaper products",
+         "They do not use technology"
+        ],
+        "ref": "Debates are about market dominance, exploitation of cheap labour in developing countries and tax avoidance."
+       }
+      ]
+     },
+     "Q4": {
+      "title": "Quiz 4 · Internal organisation of a company",
+      "items": [
+       {
+        "p": "Why does a growing company need an internal organisation?",
+        "a": "So that everybody understands their role and how to cooperate",
+        "w": [
+         "To pay fewer taxes",
+         "To avoid having customers",
+         "To reduce the number of products"
+        ],
+        "ref": "A company needs an internal organisation so that everybody knows their role and how to cooperate."
+       },
+       {
+        "p": "What does an organigram show?",
+        "a": "The structure of the departments and the chain of command",
+        "w": [
+         "The profits of the year",
+         "The list of customers",
+         "The prices of the products"
+        ],
+        "ref": "Organigrams graphically represent the structure of the departments and show the chain of command."
+       },
+       {
+        "p": "Who is at the top of an organigram?",
+        "a": "The Board of Directors and the CEO",
+        "w": [
+         "The office workers",
+         "The sales representatives",
+         "The line managers"
+        ],
+        "ref": "On the top of an organigram you find the Board of Directors and the CEO."
+       },
+       {
+        "p": "What is outsourcing?",
+        "a": "Contracting work out to external organisations",
+        "w": [
+         "Moving production back to the home country",
+         "Merging with a competitor",
+         "Hiring more employees"
+        ],
+        "ref": "Outsourcing involves contracting work out to external organisations."
+       },
+       {
+        "p": "What is reshoring?",
+        "a": "A business returns production to the country of origin",
+        "w": [
+         "A business opens a branch abroad",
+         "A business buys a competitor",
+         "A business stops production"
+        ],
+        "ref": "Reshoring is when a business returns production or operations to the country of origin; it is the reverse of offshoring."
+       }
+      ]
+     },
+     "Q5": {
+      "title": "Quiz 5 · Corporate Social Responsibility",
+      "items": [
+       {
+        "p": "What is CSR?",
+        "a": "The attempt of companies to generate a positive social impact",
+        "w": [
+         "A tax paid to the government",
+         "A type of bank loan",
+         "A department that sells products"
+        ],
+        "ref": "CSR is the attempt of companies to manage their business processes so as to generate a positive social impact."
+       },
+       {
+        "p": "Which of these are stakeholders?",
+        "a": "Customers, suppliers, employees, shareholders and communities",
+        "w": [
+         "Only the shareholders",
+         "Only the competitors",
+         "Only the managers"
+        ],
+        "ref": "Stakeholders include customers, suppliers, employees, shareholders, communities and the environment."
+       },
+       {
+        "p": "What does 'win-win' mean for CSR?",
+        "a": "Both society and the company benefit",
+        "w": [
+         "Only the company benefits",
+         "Only society benefits",
+         "Nobody benefits"
+        ],
+        "ref": "CSR is a win-win strategy: it benefits society and the business as well."
+       },
+       {
+        "p": "Which type of CSR is about donating money to worthy causes at local level?",
+        "a": "Philanthropic responsibility",
+        "w": [
+         "Economic responsibility",
+         "Environmental responsibility",
+         "Legal responsibility"
+        ],
+        "ref": "Philanthropic responsibility: improving society, for example donating money to worthy causes."
+       },
+       {
+        "p": "Which is an advantage of a CSR strategy?",
+        "a": "Increase in customers' retention and loyalty",
+        "w": [
+         "Higher taxes",
+         "Less engaged employees",
+         "A worse public image"
+        ],
+        "ref": "CSR improves public image, finances, customer loyalty and employees' engagement."
+       }
+      ]
+     }
+    },
+    "t_verifica": 3734.832,
+    "t_compiti": 3748.032,
+    "t_scheda_compiti": 3753.432,
+    "verifica": "Test_Inglese_Lez4.xlsx",
+    "compiti": "ENG_Amm_Lez04_Compiti.pdf"
+   }
   }
  },
  "manca": "voci Kore (43 file E4_*) non ancora arrivate sul ramo voci-afm-inglese-triennio-lez04",
@@ -105,10 +424,14 @@
   {
    "quando": "15/11 11:44",
    "testo": "controllo_finale: ESITO: DA SISTEMARE: sottotitoli"
+  },
+  {
+   "quando": "15/11 12:10",
+   "testo": "PRONTA. Consegna sul ramo consegna-afm-inglese-triennio-lez04. Durata misurata 62:38 (una Parte). Verifica t=3734.8 s, compiti t=3748.0 s. DA SAPERE: (1) sottotitoli e allineamento slide fatti con Whisper base + parole chiave, la sincronia e' controllata a campione (non garantita ±1,5 s ovunque); (2) la docente parla in italiano: sottotitoli in italiano; (3) voce E4_GLb (glossario seconda meta') segnata DA CONTROLLARE negli ESITI; (4) il PDF dei compiti contiene le pagine Soluzioni; (5) quiz da approvare."
   }
  ],
  "materia": "Inglese AFM",
  "lezione": "Lezione 4",
  "docente": "Prof.ssa Maria Vittoria Fontanesi",
- "aggiornato": "2026-11-15 11:44:25"
+ "aggiornato": "2026-11-15 12:10:32"
 }
