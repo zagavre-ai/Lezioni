@@ -1,0 +1,377 @@
+{
+ "materia": "Letteratura italiana (V)",
+ "titolo": "Pirandello · Parte 2",
+ "durata_s": 2916.37,
+ "argomenti": [
+  {
+   "n": 1,
+   "titolo": "Il teatro grottesco e Il giuoco delle parti",
+   "inizio_s": 70.267,
+   "quiz_s": 319.5
+  },
+  {
+   "n": 2,
+   "titolo": "Sei personaggi in cerca d'autore",
+   "inizio_s": 324.8,
+   "quiz_s": 651.766
+  },
+  {
+   "n": 3,
+   "titolo": "Enrico IV",
+   "inizio_s": 657.066,
+   "quiz_s": 895.999
+  },
+  {
+   "n": 4,
+   "titolo": "L'ultima produzione e le ultime novelle",
+   "inizio_s": 901.299,
+   "quiz_s": 1388.031
+  },
+  {
+   "n": 5,
+   "titolo": "Ciàula scopre la luna",
+   "inizio_s": 1393.331,
+   "quiz_s": 1846.33
+  },
+  {
+   "n": 6,
+   "titolo": "Il treno ha fischiato",
+   "inizio_s": 1851.63,
+   "quiz_s": 2726.995
+  }
+ ],
+ "quiz": {
+  "Q1": {
+   "title": "Quiz 1 · Il teatro grottesco e Il giuoco delle parti",
+   "items": [
+    {
+     "p": "Che cosa supera il periodo grottesco?",
+     "a": "Il dramma borghese naturalistico",
+     "w": [
+      "Il teatro greco",
+      "Il melodramma",
+      "Il teatro di strada"
+     ],
+     "e": "Attraverso la deformazione e l'assurdo."
+    },
+    {
+     "p": "Chi è il protagonista de «Il giuoco delle parti»?",
+     "a": "Leone Gala",
+     "w": [
+      "Enrico IV",
+      "Belluca",
+      "Ciàula"
+     ],
+     "e": "Un «filosofo»."
+    },
+    {
+     "p": "Come guarda la vita Leone Gala?",
+     "a": "Dall'alto, cercando di dominare le passioni con l'intelletto",
+     "w": [
+      "Con entusiasmo",
+      "Con paura",
+      "Con ironia sociale"
+     ],
+     "e": "Con il puro intelletto."
+    },
+    {
+     "p": "Che cosa è il suo distacco razionale?",
+     "a": "Una maschera falsa",
+     "w": [
+      "Una vera saggezza",
+      "Una malattia",
+      "Una religione"
+     ],
+     "e": "Cade, e le passioni esplodono."
+    },
+    {
+     "p": "Come finisce l'opera?",
+     "a": "In una tragedia, per le passioni represse",
+     "w": [
+      "In una commedia",
+      "Con un matrimonio",
+      "Con una fuga"
+     ],
+     "e": "Il protagonista soccombe ai sentimenti reali."
+    }
+   ]
+  },
+  "Q2": {
+   "title": "Quiz 2 · Sei personaggi in cerca d'autore",
+   "items": [
+    {
+     "p": "Che cos'è il «teatro nel teatro»?",
+     "a": "La rottura della finzione scenica e dell'illusione realistica",
+     "w": [
+      "Un teatro all'aperto",
+      "Un teatro di marionette",
+      "Una commedia musicale"
+     ],
+     "e": "Pirandello proietta il pubblico dentro lo spettacolo."
+    },
+    {
+     "p": "Da chi sono rifiutati i sei personaggi?",
+     "a": "Dall'autore",
+     "w": [
+      "Dal pubblico",
+      "Dal capocomico",
+      "Dalla critica"
+     ],
+     "e": "Cercano un modo per far recitare la propria verità."
+    },
+    {
+     "p": "A chi chiedono di recitare la loro verità?",
+     "a": "Ad attori mediocri",
+     "w": [
+      "A grandi star",
+      "Al pubblico",
+      "A dei burattini"
+     ],
+     "e": "Che finiscono per deformarla."
+    },
+    {
+     "p": "Che cosa dimostra la vicenda?",
+     "a": "L'impossibilità di comunicare",
+     "w": [
+      "La forza dell'arte",
+      "La vittoria della verità",
+      "L'utilità della critica"
+     ],
+     "e": "La verità viene deformata."
+    },
+    {
+     "p": "Che cosa si fonde nello stile del dramma?",
+     "a": "Il comico e il tragico",
+     "w": [
+      "Il lirico e l'epico",
+      "Il vero e il falso solo",
+      "La prosa e il verso"
+     ],
+     "e": "Rispecchiano la frammentazione della psiche umana."
+    }
+   ]
+  },
+  "Q3": {
+   "title": "Quiz 3 · Enrico IV",
+   "items": [
+    {
+     "p": "Chi crede di essere il protagonista di «Enrico IV»?",
+     "a": "L'imperatore Enrico IV",
+     "w": [
+      "Un re di Francia",
+      "Un papa",
+      "Un filosofo greco"
+     ],
+     "e": "Impazzisce credendosi l'imperatore."
+    },
+    {
+     "p": "Che cosa sceglie dopo la guarigione?",
+     "a": "Di continuare a fingere la pazzia",
+     "w": [
+      "Di tornare alla vita reale",
+      "Di scrivere un libro",
+      "Di lasciare il paese"
+     ],
+     "e": "Per sfuggire alla vita reale."
+    },
+    {
+     "p": "Che cos'è la follia per lui?",
+     "a": "Uno strumento di difesa e salvezza contro le trappole della società",
+     "w": [
+      "Una colpa",
+      "Una punizione",
+      "Una moda"
+     ],
+     "e": "È la sua maschera protettiva."
+    },
+    {
+     "p": "Che cosa fa al suo antico rivale?",
+     "a": "Si vendica",
+     "w": [
+      "Lo perdona",
+      "Lo ignora",
+      "Lo premia"
+     ],
+     "e": "E dopo la vendetta..."
+    },
+    {
+     "p": "Come finisce la vicenda?",
+     "a": "Il protagonista è costretto a rifugiarsi nella pazzia per sempre",
+     "w": [
+      "Guarisce davvero",
+      "Muore subito",
+      "Diventa re"
+     ],
+     "e": "È la condanna definitiva."
+    }
+   ]
+  },
+  "Q4": {
+   "title": "Quiz 4 · L'ultima produzione e le ultime novelle",
+   "items": [
+    {
+     "p": "Che cos'è il «pirandellismo»?",
+     "a": "La ripetizione stanca degli schemi precedenti, con eccesso di cerebralismo",
+     "w": [
+      "Un nuovo teatro",
+      "Una corrente politica",
+      "Una scuola di filosofia"
+     ],
+     "e": "È una fase di forme artificiose."
+    },
+    {
+     "p": "Verso quale dimensione si orienta la poetica negli anni Trenta?",
+     "a": "Mitica, fantastica e simbolica",
+     "w": [
+      "Realistica e documentaria",
+      "Politica e civile",
+      "Comica e popolare"
+     ],
+     "e": "È un cambiamento di poetica."
+    },
+    {
+     "p": "Quale capolavoro incompiuto affronta il ruolo dell'arte nella società industriale?",
+     "a": "I giganti della montagna",
+     "w": [
+      "Enrico IV",
+      "Sei personaggi",
+      "Il fu Mattia Pascal"
+     ],
+     "e": "Riguarda arte e poesia."
+    },
+    {
+     "p": "Che cosa esplorano le ultime novelle?",
+     "a": "Gli impulsi più oscuri dell'inconscio",
+     "w": [
+      "La vita di provincia",
+      "La politica",
+      "La storia antica"
+     ],
+     "e": "In atmosfere surreali e fantastiche."
+    },
+    {
+     "p": "Quale tra questi è un esempio di ultima novella?",
+     "a": "Una giornata",
+     "w": [
+      "Il treno ha fischiato",
+      "Ciàula scopre la luna",
+      "La giara"
+     ],
+     "e": "Una giornata e Di sera, un geranio."
+    }
+   ]
+  },
+  "Q5": {
+   "title": "Quiz 5 · Ciàula scopre la luna",
+   "items": [
+    {
+     "p": "Dove è ambientata la novella?",
+     "a": "Nelle miniere di zolfo siciliane",
+     "w": [
+      "In una città",
+      "In una campagna toscana",
+      "In una nave"
+     ],
+     "e": "Un ambiente di sfruttamento."
+    },
+    {
+     "p": "Chi è Ciàula?",
+     "a": "Un caruso quasi privo di coscienza di sé",
+     "w": [
+      "Un padrone",
+      "Un ingegnere",
+      "Un contadino benestante"
+     ],
+     "e": "Vive in una condizione di semianimalità."
+    },
+    {
+     "p": "Qual è l'unica paura di Ciàula?",
+     "a": "Il buio profondo della notte",
+     "w": [
+      "Il padrone",
+      "La fame",
+      "Gli animali"
+     ],
+     "e": "Nasce dopo un'esplosione."
+    },
+    {
+     "p": "Che cosa vede uscendo dalla miniera?",
+     "a": "La luna che risplende nel cielo",
+     "w": [
+      "Il sole",
+      "Un incendio",
+      "Un villaggio"
+     ],
+     "e": "È un'apparizione inattesa."
+    },
+    {
+     "p": "Che cosa produce questa visione?",
+     "a": "Un'epifania, un risveglio alla coscienza",
+     "w": [
+      "Una paura più forte",
+      "Una fuga",
+      "Un'esplosione"
+     ],
+     "e": "Lo commuove fino alle lacrime."
+    }
+   ]
+  },
+  "Q6": {
+   "title": "Quiz 6 · Il treno ha fischiato",
+   "items": [
+    {
+     "p": "Chi è Belluca?",
+     "a": "Un modesto impiegato contabile, metodico e preciso",
+     "w": [
+      "Un minatore",
+      "Un medico",
+      "Un attore"
+     ],
+     "e": "Fa il suo lavoro con la maschera."
+    },
+    {
+     "p": "Che cosa è la sua vita domestica?",
+     "a": "Un inferno familiare",
+     "w": [
+      "Una pace serena",
+      "Una festa continua",
+      "Una vita da solo"
+     ],
+     "e": "Con una casa piena di donne e bambini."
+    },
+    {
+     "p": "Che cosa dice in ufficio dopo anni di sottomissione?",
+     "a": "Frasi senza senso sul fischio di un treno sentito di notte",
+     "w": [
+      "Un discorso politico",
+      "Una preghiera",
+      "Una poesia"
+     ],
+     "e": "Tutti lo credono pazzo."
+    },
+    {
+     "p": "Qual è la struttura della narrazione?",
+     "a": "Un'inchiesta, con il punto di vista dei colleghi e poi del narratore testimone",
+     "w": [
+      "Un diario",
+      "Un dialogo teatrale",
+      "Una lettera"
+     ],
+     "e": "Il narratore svela la prospettiva dell'umorismo."
+    },
+    {
+     "p": "Che cosa è stato il fischio del treno per Belluca?",
+     "a": "Un risveglio alla coscienza del mondo esterno",
+     "w": [
+      "Un incubo",
+      "Una minaccia",
+      "Un segnale di lavoro"
+     ],
+     "e": "Ha squarciato la sua grigia routine."
+    }
+   ]
+  }
+ },
+ "t_verifica": 2891.262,
+ "t_compiti": 2910.062
+}

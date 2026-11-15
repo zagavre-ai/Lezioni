@@ -1,0 +1,7 @@
+durata 48:36.4 (2916.4 s) | fotogrammi 87491 (attesi 87491) OK | peso 196.4 MB (187.3 MiB) OK | 1920x1080 OK
+quiz 6 scatto 0,0 s: OK
+fermi immagine nei pezzi del docente: nessuno OK
+volume del parlato (mediana dei pezzi del docente): -16.5 LUFS OK
+sottotitoli: 438 blocchi, sovrapposti 0, oltre la fine 0, attacco sulla voce entro 0,3 s: 91% di 22 verificabili OK
+foglio di miniature: /home/claude/w/l14b/fin/Letteratura_Lez14_Parte2_1080p.mp4.miniature.jpg
+ESITO: TUTTO OK

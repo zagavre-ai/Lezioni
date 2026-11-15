@@ -1,0 +1,8 @@
+Pirandello · Letteratura italiana (V) · Prof. Giorgio Mazzotti · due Parti (lezione di 64 minuti di parlato).
+Parte 1: 50:07 (3007,5 s) · Parte 2: 48:36 (2916,4 s) · 1920x1080 · voci Kore. La Parte 2 resta sotto i 50 minuti: solo materiale della lezione (regola direzione 15/11).
+Parte 1: crisi del primo Novecento, visione del mondo e umorismo, Il fu Mattia Pascal, Uno nessuno e centomila (4 argomenti). Parte 2: teatro grottesco, Sei personaggi, Enrico IV, ultima produzione e novelle, Ciaula scopre la luna, Il treno ha fischiato (6 argomenti).
+Approfondimenti animati con voce Kore e mappe per argomento + mappa finale per ogni Parte (nel video e nella dispensa). Quiz di 5 domande per argomento, bande blu su Quiz, Verifica e Compiti.
+Verifica finale (test del prof, 10 domande, 80%) e Compiti del prof (4 domande aperte) solo nella Parte 2: il test e i compiti riguardano tutta la lezione.
+Parte 1 si chiude con glossario, ripasso e sigla; la Parte 2 si apre con il ripasso della Parte 1.
+Per ricomporre i video: cat Letteratura_Lez14_ParteN_1080p.mp4.parte_* > Letteratura_Lez14_ParteN_1080p.mp4 e controllare lo sha256.
+Note: nella lezione il parlato e le slide si seguono in modo non lineare: alcune schede hanno il tempo di comparsa stimato dalla trascrizione, da ricontrollare a campione. Per Ciaula e Belluca le slide sono pagine del libro (immagini), mostrate in sequenza.
