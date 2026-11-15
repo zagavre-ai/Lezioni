@@ -1,0 +1,25 @@
+{
+ "tag": "afm-inglese-triennio-lez07",
+ "parti": {
+  "1": {
+   "stato": "FERMA"
+  }
+ },
+ "manca": "",
+ "serve_master": [
+  {
+   "quando": "15/11 12:35",
+   "testo": "Release inglese-afm-triennio vuota: servono i file della lezione 7 (video, dispensa, Verifica.xlsx, Compiti.pdf) e delle dispari 9, 11"
+  }
+ ],
+ "domande_sara": [],
+ "note": [
+  {
+   "quando": "15/11 12:35",
+   "testo": "15/11: presa da Claude 2 (ex Storia V dispari). La release inglese-afm-triennio e' vuota (0 file): mancano video, dispensa, ENG_Amm_Lez07_Verifica.xlsx e ENG_Amm_Lez07_Compiti.pdf. Riprendo appena compaiono."
+  }
+ ],
+ "materia": "Inglese AFM triennio",
+ "lezione": "Lezione 7",
+ "aggiornato": "2026-11-15 12:35:58"
+}

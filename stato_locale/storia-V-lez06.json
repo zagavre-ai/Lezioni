@@ -3,7 +3,7 @@
  "parti": {
   "1": {
    "titolo": "Il primo dopoguerra (1919-1925)",
-   "stato": "IN_MONTAGGIO"
+   "stato": "FERMA"
   }
  },
  "manca": "",
@@ -35,10 +35,14 @@
   {
    "quando": "14/11 11:40",
    "testo": "14/11: 15 voci Kore ricevute (5 min 16 s). R2 e R4 da ascoltare (la trascrizione sbaglia i nomi stranieri). Sincronia frasi-slide rivista a mano su 8 slide; prossimo: render slide, montaggio, codifica."
+  },
+  {
+   "quando": "15/11 12:35",
+   "testo": "15/11 13:25: per ordine della master, Storia V passa alla master. Lavoro lasciato: video, slide, trascrizione, sincronia rivista a mano (8 slide), 15 voci ricevute. Non toccata oltre."
   }
  ],
  "materia": "Storia",
  "lezione": "Lezione 6 · Il primo dopoguerra (1919-1925)",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 11:40:09"
+ "aggiornato": "2026-11-15 12:35:46"
 }
