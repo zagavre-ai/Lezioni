@@ -1,0 +1,37 @@
+{
+ "materia": "Tecnologie dei materiali",
+ "docente": "Prof.ssa Piera Caputi",
+ "titolo": "Macchine e finissaggio",
+ "rami": [
+  {
+   "concetto": "Autoclavi",
+   "parola": "rocche, subbi",
+   "esempio": "bagno in circolo"
+  },
+  {
+   "concetto": "Capi",
+   "parola": "rotative",
+   "esempio": "come lavatrici"
+  },
+  {
+   "concetto": "In corda",
+   "parola": "jet, overflow",
+   "esempio": "implumatura"
+  },
+  {
+   "concetto": "In largo",
+   "parola": "jitter, foulard",
+   "esempio": "tessuto teso"
+  },
+  {
+   "concetto": "Finissaggio",
+   "parola": "vaporissaggio",
+   "esempio": "lavaggio a umido"
+  },
+  {
+   "concetto": "Arrotolatura",
+   "parola": "tubi cavi",
+   "esempio": "imballaggio"
+  }
+ ]
+}

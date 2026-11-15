@@ -1,0 +1,37 @@
+{
+ "materia": "Tecnologie dei materiali",
+ "docente": "Prof.ssa Piera Caputi",
+ "titolo": "Tecnologie di stampa",
+ "rami": [
+  {
+   "concetto": "A mano",
+   "parola": "artigianale",
+   "esempio": "tela ruggine"
+  },
+  {
+   "concetto": "Batik",
+   "parola": "cera",
+   "esempio": "Giava"
+  },
+  {
+   "concetto": "A quadro",
+   "parola": "racla",
+   "esempio": "tessuti di pregio"
+  },
+  {
+   "concetto": "A cilindro",
+   "parola": "continua",
+   "esempio": "alta velocità"
+  },
+  {
+   "concetto": "Digitale",
+   "parola": "gocce d'inchiostro",
+   "esempio": "piccoli lotti"
+  },
+  {
+   "concetto": "Incisione",
+   "parola": "CAD e laser",
+   "esempio": "costi elevati"
+  }
+ ]
+}

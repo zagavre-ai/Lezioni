@@ -1,0 +1,37 @@
+{
+ "materia": "Tecnologie dei materiali",
+ "docente": "Prof.ssa Piera Caputi",
+ "titolo": "Coloranti",
+ "rami": [
+  {
+   "concetto": "Naturali",
+   "parola": "vegetali",
+   "esempio": "robbia, curcuma"
+  },
+  {
+   "concetto": "Animali",
+   "parola": "insetti",
+   "esempio": "murice, carminio"
+  },
+  {
+   "concetto": "Biologica",
+   "parola": "biodegradabili",
+   "esempio": "ausiliari sicuri"
+  },
+  {
+   "concetto": "Sintetici",
+   "parola": "1856",
+   "esempio": "Perkin, malveina"
+  },
+  {
+   "concetto": "Vantaggi",
+   "parola": "costo minore",
+   "esempio": "durata, uniformità"
+  },
+  {
+   "concetto": "Criticità",
+   "parola": "salute",
+   "esempio": "ammine aromatiche"
+  }
+ ]
+}

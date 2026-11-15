@@ -1,0 +1,37 @@
+{
+ "materia": "Tecnologie dei materiali",
+ "docente": "Prof.ssa Piera Caputi",
+ "titolo": "Proprietà e classi",
+ "rami": [
+  {
+   "concetto": "Affinità",
+   "parola": "si fissa",
+   "esempio": "mordenzatura"
+  },
+  {
+   "concetto": "Potere coprente",
+   "parola": "dose",
+   "esempio": "intensità"
+  },
+  {
+   "concetto": "Potere migratorio",
+   "parola": "uniformità",
+   "esempio": "contrasti"
+  },
+  {
+   "concetto": "Solidità",
+   "parola": "resistenza",
+   "esempio": "lavaggi e luce"
+  },
+  {
+   "concetto": "Classi",
+   "parola": "basici, acidi",
+   "esempio": "diretti, reattivi"
+  },
+  {
+   "concetto": "Analisi",
+   "parola": "colorimetro",
+   "esempio": "spettrofotometro"
+  }
+ ]
+}

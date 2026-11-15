@@ -1,0 +1,37 @@
+{
+ "materia": "Tecnologie dei materiali",
+ "docente": "Prof.ssa Piera Caputi",
+ "titolo": "La tintura",
+ "rami": [
+  {
+   "concetto": "Bagno",
+   "parola": "immersione",
+   "esempio": "acqua e colore"
+  },
+  {
+   "concetto": "Partite",
+   "parola": "controllo",
+   "esempio": "non unire i lotti"
+  },
+  {
+   "concetto": "In fibra",
+   "parola": "prima filatura",
+   "esempio": "filati mélange"
+  },
+  {
+   "concetto": "In filato",
+   "parola": "dopo torsione",
+   "esempio": "disegni rigati"
+  },
+  {
+   "concetto": "In pezza",
+   "parola": "economica",
+   "esempio": "flessibile"
+  },
+  {
+   "concetto": "In capo",
+   "parola": "capo finito",
+   "esempio": "mercato last minute"
+  }
+ ]
+}
