@@ -6,7 +6,7 @@
    "stato": "IN_MONTAGGIO"
   }
  },
- "manca": "",
+ "manca": "COMPITI_MANCANTI",
  "serve_master": [
   {
    "quando": "14/11 22:39",
@@ -26,5 +26,5 @@
  ],
  "materia": "Moda · Laboratori III-IV · chat LAB",
  "lezione": "Industrializzazione",
- "aggiornato": "2026-11-14 22:39:38"
+ "aggiornato": "2026-11-15 00:14:14"
 }
