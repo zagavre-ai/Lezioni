@@ -68,3 +68,9 @@ Controllate dai file di consegna. Sistemare **senza rifare il montaggio**:
 ## 15/11 sera (19:52) · CORREZIONE: LE VOCI FUNZIONANO
 - Il blocco era solo sul modello «lite». Il servizio ora usa l altro modello e **le voci stanno arrivando di nuovo**. Priorità: correzioni del controllo 15/11 (Letteratura 3, 5, 8, 17, 20, 25; Storia V 1, 9), poi Storia dell arte, Storia V, Letteratura V.
 
+
+## 16/11 notte (00:30) · INGLESE AFM TRIENNIO DALLA LEZIONE 6: TORNA ALLA MASTER (decisione di Sara)
+- Claude 2 è quasi al limite settimanale: le sue chat di Inglese AFM si fermano. Le lezioni **6, 7, 8, …** le fa la **chat della master «Inglese AFM» (E1, quella delle lezioni 4–5)**, in ordine, partendo dalla 6.
+- Materiali: release unica `inglese-afm-triennio` (video, dispense, `ENG_Amm_LezN_Verifica.xlsx`, `ENG_Amm_LezN_Compiti.pdf`). Se i file di una lezione mancano, passa alla successiva e scrivilo nello stato.
+- Prima di partire controlla `PER_LA_MASTER.txt` sul ramo `scambio-claude2`: se una chat di Claude 2 ha già iniziato la 6 o la 7, riprendi da lì (stesso tag `afm-inglese-triennio-lezNN`).
+- Stesse regole delle lezioni 4–5 (narratore Kore in inglese B1, parole chiave tradotte), mappe nel video + `Mappe_<tag>.pdf` A4 orizzontale, quiz, verifica 80% con l'Excel, compiti nel video + compiti.json. Voci: dalle 9 di domattina.
