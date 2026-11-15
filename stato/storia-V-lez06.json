@@ -2,47 +2,38 @@
  "tag": "storia-V-lez06",
  "parti": {
   "1": {
-   "titolo": "Il primo dopoguerra (1919-1925)",
-   "stato": "FERMA"
+   "stato": "IN_MONTAGGIO"
   }
  },
  "manca": "",
  "serve_master": [
   {
-   "quando": "13/11 05:55",
-   "testo": "Voci Kore storia-V-lez06: testi in scambio/storia-V-lez06/testi_voci.json (17 testi), ramo voci-storia-V-lez06"
-  }
- ],
- "domande_sara": [
+   "quando": "14/11 23:47",
+   "testo": "storia-V-lez06: SECONDA RICHIESTA voci, 14 nomi nuovi (MAP1-8, MAPF1, ANB2/3/5/7/8) in scambio/storia-V-lez06/testi_voci.json, ramo voci-storia-V-lez06 (vedi RICHIESTA_2.txt). Quiz 8x5 da approvare."
+  },
   {
-   "quando": "13/11 05:43",
-   "testo": "Approvare 40 quiz e 17 testi voce lezione 6 (file nel messaggio a Sara)"
+   "quando": "15/11 14:05",
+   "testo": "storia-V-lez06: mancano 14 voci nuove (MAP1-8, MAPF1, ANB2, ANB3, ANB5, ANB7, ANB8) in scambio/storia-V-lez06/testi_voci.json sul ramo voci-storia-V-lez06. Il resto e' pronto."
   }
  ],
+ "domande_sara": [],
  "note": [
   {
-   "quando": "13/11 05:36",
-   "testo": "IN_MONTAGGIO · presa da Claude 2 (chat Storia V, seconda, pari)"
+   "quando": "14/11 23:40",
+   "testo": "Storia V · chat S1: ripresa lezione 6 dai rami voci-/stato- (15 voci Kore gia' ricevute). Video e slide scaricati; trascrizione in corso."
   },
   {
-   "quando": "13/11 05:43",
-   "testo": "13/11: video e slide scaricati (video 39,6 min, 1092x614, una sola Parte). Trascrizione Whisper base fatta (40 min in circa 4 min). Struttura in 8 argomenti, cambi slide in rilevazione. 40 quiz e 17 testi voce pronti, in attesa di approvazione di Sara. Prossimo passo: slide sincronizzate e inserti, poi voci dalla master."
+   "quando": "15/11 02:34",
+   "testo": "15/11: pronta, attende voci Kore (quota Google finita, riparte alle 09:00 italiane). Montaggio, mappe, quiz, sottotitoli, dispensa e compiti pronti con voci segnaposto; sostituisco le voci e faccio l'unica codifica finale appena arrivano in vox/."
   },
   {
-   "quando": "13/11 05:55",
-   "testo": "13/11: Sara ha approvato 40 quiz e 17 testi voce. Testi inviati alla master nel ramo voci-storia-V-lez06. Ora: slide sincronizzate e montaggio con voci segnaposto."
+   "quando": "15/11 10:18",
+   "testo": "15/11: montata con 15 voci Kore vecchie + segnaposto per le nuove, Parte unica di 57:16. Pronta, attende voci Kore."
   },
   {
-   "quando": "14/11 11:40",
-   "testo": "14/11: 15 voci Kore ricevute (5 min 16 s). R2 e R4 da ascoltare (la trascrizione sbaglia i nomi stranieri). Sincronia frasi-slide rivista a mano su 8 slide; prossimo: render slide, montaggio, codifica."
-  },
-  {
-   "quando": "15/11 12:35",
-   "testo": "15/11 13:25: per ordine della master, Storia V passa alla master. Lavoro lasciato: video, slide, trascrizione, sincronia rivista a mano (8 slide), 15 voci ricevute. Non toccata oltre."
+   "quando": "15/11 14:05",
+   "testo": "15/11 pomeriggio, chat S1: lezione 6 NON ferma e NON passata alla master. E' mia (lista S1, ordine 2). Montata in 57:16 con le 15 voci Kore gia' arrivate + segnaposto per le 14 nuove (MAP1-8, MAPF1, ANB2/3/5/7/8, richiesta sul ramo voci-storia-V-lez06). Mancano solo quelle 14 voci: appena arrivano in vox/ faccio l'unica codifica e consegno."
   }
  ],
- "materia": "Storia",
- "lezione": "Lezione 6 · Il primo dopoguerra (1919-1925)",
- "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-15 12:35:46"
+ "aggiornato": "2026-11-15 14:05:52"
 }
