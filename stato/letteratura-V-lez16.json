@@ -319,6 +319,10 @@
   {
    "quando": "15/11 14:07",
    "testo": "chat R5: voci Kore richieste per la lezione 16 (Saba) su voci-letteratura-V-lez16: 30 voci (R1-R4, S1-S4, GL, RF, FIN, AN*). Una sola richiesta, nomi nuovi."
+  },
+  {
+   "quando": "15/11 16:01",
+   "testo": "lez16: sottotitoli del docente da migliorare (Whisper base con poche correzioni, 53% attacchi). Se hai una trascrizione migliore o un modo per verificarli, dimmelo; altrimenti decidi tu se la Parte puo' essere PRONTA."
   }
  ],
  "domande_sara": [],
@@ -334,10 +338,14 @@
   {
    "quando": "15/11 15:56",
    "testo": "chat R5 · lezione 16 nuova (Umberto Saba) consegnata sul ramo consegna-letteratura-V-lez16. Misurato: 55:11.7, 99351 fotogrammi, 248.4 MB, 1920x1080, scatto quiz entro 0,005 s su 4/4, parlato -16 LUFS. 4 argomenti, 19 approfondimenti animati con voce Kore + mappe (una per argomento + finale, anche nella dispensa A4), 4 quiz da 5 domande, verifica finale = test Excel del prof (11 domande), compiti del prof (compiti.json + scheda), t_verifica/t_compiti nella scheda. LIMITI: (1) sottotitoli del docente da Whisper base con poche correzioni di termini, NON verificati: sub_ok = no, quindi la parte non risulta PRONTA finche' non si fa la revisione; (2) sincronia card/slide con il docente stimata dalle frasi trascritte (+-3 s circa), non controllata a mano su 4 punti; (3) card Compiti e Verifica semplici, bande blu solo su quiz, verifica e compiti; (4) il docente e' ritagliato dal riquadro piccolo del video originale (1092x614), qualita' limitata."
+  },
+  {
+   "quando": "15/11 16:01",
+   "testo": "chat R5 · lezione 16: controllo_finale: durata/fotogrammi/peso OK, quiz 4/4 a 0,0 s OK, nessun fermo OK, parlato docente -15,9 LUFS OK; sottotitoli 776 blocchi senza sovrapposizioni ma attacco sulla voce solo 53% di 19 verificabili -> sub_ok = no, serve revisione dei sottotitoli (trascrizione Whisper base). Video e file gia' sul ramo consegna-letteratura-V-lez16; lo stato resta IN_MONTAGGIO solo per i sottotitoli."
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 16 · Umberto Saba",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-15 15:56:55"
+ "aggiornato": "2026-11-15 16:01:50"
 }
