@@ -422,10 +422,14 @@
   {
    "quando": "15/11 02:33",
    "testo": "chat R5: pronta, attende voci Kore (animazioni, mappe, compiti, sottotitoli, dispensa in lavorazione con segnaposto)"
+  },
+  {
+   "quando": "15/11 03:17",
+   "testo": "chat R5: pronta, attende voci Kore. Con segnaposto: montaggio v2, mappe, sottotitoli, dispensa con mappe, compiti.json, tempi quiz/verifica/compiti aggiornati. Durata stimata (non misurata) vedi lista; si codifica appena arrivano le voci."
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 26",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-15 02:33:44"
+ "aggiornato": "2026-11-15 03:17:23"
 }
