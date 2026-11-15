@@ -6,26 +6,26 @@
   {
    "n": 1,
    "titolo": "Il dopoguerra e il fascismo",
-   "inizio_s": 37.933,
-   "quiz_s": 797.666
+   "inizio_s": 37.916,
+   "quiz_s": 797.649
   },
   {
    "n": 2,
    "titolo": "Il regime e la sua politica",
-   "inizio_s": 802.666,
-   "quiz_s": 1163.919
+   "inizio_s": 802.649,
+   "quiz_s": 1163.936
   },
   {
    "n": 3,
    "titolo": "Ideologia e cultura",
-   "inizio_s": 1168.919,
-   "quiz_s": 1970.772
+   "inizio_s": 1168.936,
+   "quiz_s": 1970.822
   },
   {
    "n": 4,
    "titolo": "La narrativa tra le due guerre",
-   "inizio_s": 1975.772,
-   "quiz_s": 3140.671
+   "inizio_s": 1975.822,
+   "quiz_s": 3140.754
   }
  ],
  "quiz": {
@@ -250,6 +250,6 @@
    ]
   }
  },
- "t_verifica": 3305.927,
- "t_compiti": 3319.427
+ "t_verifica": 3306.01,
+ "t_compiti": 3319.51
 }
