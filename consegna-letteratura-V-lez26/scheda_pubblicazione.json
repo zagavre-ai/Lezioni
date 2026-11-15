@@ -1,37 +1,37 @@
 {
  "materia": "Letteratura italiana (V)",
  "titolo": "Italo Calvino · Parte 1",
- "durata_s": 1980.73,
+ "durata_s": 3329.6,
  "argomenti": [
   {
    "n": 1,
    "titolo": "La vita di Calvino",
    "inizio_s": 40.567,
-   "quiz_s": 484.0
+   "quiz_s": 693.1
   },
   {
    "n": 2,
    "titolo": "Tra neorealismo e fiaba",
-   "inizio_s": 489.0,
-   "quiz_s": 792.467
+   "inizio_s": 698.1,
+   "quiz_s": 1284.767
   },
   {
    "n": 3,
    "titolo": "Il barone rampante e il filone realistico",
-   "inizio_s": 797.467,
-   "quiz_s": 1246.933
+   "inizio_s": 1289.767,
+   "quiz_s": 2027.9
   },
   {
    "n": 4,
    "titolo": "Scienza, combinatoria e città invisibili",
-   "inizio_s": 1251.933,
-   "quiz_s": 1540.933
+   "inizio_s": 2032.9,
+   "quiz_s": 2583.367
   },
   {
    "n": 5,
    "titolo": "Il meta-romanzo e le ultime opere",
-   "inizio_s": 1545.933,
-   "quiz_s": 1845.7
+   "inizio_s": 2588.367,
+   "quiz_s": 3126.101
   }
  ],
  "quiz": {
@@ -310,5 +310,7 @@
     }
    ]
   }
- }
+ },
+ "t_verifica": 3311.101,
+ "t_compiti": 3324.601
 }
