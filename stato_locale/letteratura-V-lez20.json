@@ -2,10 +2,10 @@
  "tag": "letteratura-V-lez20",
  "parti": {
   "1": {
-   "stato": "FERMA"
+   "stato": "IN_MONTAGGIO"
   }
  },
- "manca": "Da fare da capo (R1). Scaricati video del prof, compiti del prof e test Excel; trascrizione fatta (Gemini, tempi a frase). Non iniziato il montaggio.",
+ "manca": "Pronta, attende voci Kore. Montaggio con segnaposto completo: 53:03 stimati (da rimisurare con le voci), 6 argomenti, 17 approfondimenti, quiz 5x6, test 10 domande, compiti del prof 4, bande blu.",
  "serve_master": [
   {
    "quando": "14/11 23:03",
@@ -13,9 +13,14 @@
   }
  ],
  "domande_sara": [],
- "note": [],
+ "note": [
+  {
+   "quando": "15/11 03:09",
+   "testo": "R1: pronta, attende voci Kore (richiesta su voci-letteratura-V-lez20: 27 voci). Intanto montaggio con segnaposto."
+  }
+ ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 20",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 23:03:12"
+ "aggiornato": "2026-11-15 03:58:58"
 }
