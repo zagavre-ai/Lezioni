@@ -64,3 +64,7 @@ Controllate dai file di consegna. Sistemare **senza rifare il montaggio**:
 - **Non fermatevi:** fate tutto il resto con le voci SEGNAPOSTO (pezzi nuovi, mappe, compiti nel video, `compiti.json`, PDF delle mappe, sottotitoli, testi YouTube). Stato `IN_MONTAGGIO` con nota «pronta, attende voci Kore».
 - Le lezioni che hanno già tutte le voci: chiudetele e consegnatele stanotte.
 
+
+## 15/11 sera (19:52) · CORREZIONE: LE VOCI FUNZIONANO
+- Il blocco era solo sul modello «lite». Il servizio ora usa l altro modello e **le voci stanno arrivando di nuovo**. Priorità: correzioni del controllo 15/11 (Letteratura 3, 5, 8, 17, 20, 25; Storia V 1, 9), poi Storia dell arte, Storia V, Letteratura V.
+
