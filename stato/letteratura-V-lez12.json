@@ -2,7 +2,7 @@
  "tag": "letteratura-V-lez12",
  "parti": {
   "1": {
-   "stato": "FERMA",
+   "stato": "IN_MONTAGGIO",
    "voci": "kore",
    "titolo": "Narrativa e saggistica del primo Novecento",
    "quiz_ok": "si",
@@ -427,10 +427,14 @@
   {
    "quando": "14/11 22:32",
    "testo": "Letteratura V · chat R2: IN_MONTAGGIO v2 con approfondimenti animati; testi voci inviati"
+  },
+  {
+   "quando": "15/11 02:36",
+   "testo": "R2: pronta, attende voci Kore (quota Google fino alle 09:00 IT). Pronti: tagli video, mappe, dispensa, compiti.json; controllo vox/ ogni 30 min"
   }
  ],
  "materia": "Letteratura italiana · V anno",
  "lezione": "Lezione 12",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 23:37:43"
+ "aggiornato": "2026-11-15 02:36:16"
 }
