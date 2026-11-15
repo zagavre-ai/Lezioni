@@ -2,15 +2,21 @@
  "tag": "letteratura-V-lez16",
  "parti": {
   "1": {
-   "stato": "FERMA"
+   "stato": "IN_MONTAGGIO",
+   "titolo": "Umberto Saba"
   }
  },
  "manca": "non iniziata: lezione da fare da capo; trascrizione pronta (Whisper base), manca il montaggio completo e le voci Kore",
  "serve_master": [],
  "domande_sara": [],
- "note": [],
+ "note": [
+  {
+   "quando": "15/11 14:05",
+   "testo": "chat R5 (15/11): lezione 16 ripresa. Video 29:10 e videodispensa (20 slide) scaricati, trascrizione fatta. In corso: struttura in 4 argomenti, quiz, testi voci, approfondimenti animati; montaggio con slide sincronizzate da fare."
+  }
+ ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 16 · Umberto Saba",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-15 00:16:46"
+ "aggiornato": "2026-11-15 14:05:39"
 }
