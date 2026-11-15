@@ -2,7 +2,456 @@
  "tag": "afm-inglese-triennio-lez05",
  "parti": {
   "1": {
-   "stato": "IN_MONTAGGIO"
+   "stato": "PRONTA",
+   "titolo": "Marketing",
+   "voci": "kore",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "si",
+   "video": "Inglese_Lez5_Parte1_1080p.mp4",
+   "durata_s": 4160.0,
+   "durata": "69:20.0",
+   "fotogrammi": 124801,
+   "fotogrammi_attesi": 124801,
+   "peso_MB": 272.8,
+   "vtt": "Inglese_Lez5_Parte1.vtt",
+   "timeline": [
+    [
+     "T1",
+     156.633,
+     2.6
+    ],
+    [
+     "Q1",
+     1005.232,
+     4.0
+    ],
+    [
+     "T2",
+     1010.532,
+     2.6
+    ],
+    [
+     "T3",
+     1637.332,
+     2.6
+    ],
+    [
+     "T4",
+     2041.898,
+     2.6
+    ],
+    [
+     "T5",
+     2767.831,
+     2.6
+    ],
+    [
+     "T6",
+     3571.398,
+     2.6
+    ],
+    [
+     "GL1",
+     4060.265,
+     24.033
+    ],
+    [
+     "GL2",
+     4085.898,
+     20.067
+    ],
+    [
+     "RF1",
+     4107.365,
+     27.966
+    ],
+    [
+     "FIN1",
+     4136.731,
+     5.0
+    ]
+   ],
+   "scheda": {
+    "materia": "Inglese",
+    "titolo": "Marketing · Parte 1",
+    "durata_s": 4160.03,
+    "argomenti": [
+     {
+      "n": 1,
+      "titolo": "The concept of marketing",
+      "inizio_s": 156.633,
+      "quiz_s": 1005.232
+     },
+     {
+      "n": 2,
+      "titolo": "Market research",
+      "inizio_s": 1010.532,
+      "quiz_s": 1632.032
+     },
+     {
+      "n": 3,
+      "titolo": "The marketing strategy (STP)",
+      "inizio_s": 1637.332,
+      "quiz_s": 2036.598
+     },
+     {
+      "n": 4,
+      "titolo": "The marketing mix",
+      "inizio_s": 2041.898,
+      "quiz_s": 2762.531
+     },
+     {
+      "n": 5,
+      "titolo": "Branding and pricing",
+      "inizio_s": 2767.831,
+      "quiz_s": 3566.098
+     },
+     {
+      "n": 6,
+      "titolo": "Digital marketing",
+      "inizio_s": 3571.398,
+      "quiz_s": 4024.898
+     }
+    ],
+    "quiz": {
+     "Q1": {
+      "title": "Quiz 1 · The concept of marketing",
+      "items": [
+       {
+        "p": "What characterised the product-oriented model?",
+        "a": "Companies assumed that high-quality goods would bring success",
+        "w": [
+         "Companies studied the needs of every customer",
+         "Companies reduced their prices every year",
+         "Companies sold only services"
+        ],
+        "ref": "Companies took for granted that their business would be successful if they produced high-quality goods."
+       },
+       {
+        "p": "Why did the model start to change?",
+        "a": "The number of competitors grew and trade became more global",
+        "w": [
+         "Goods and services became scarce",
+         "Customers stopped buying products",
+         "Governments forbade competition"
+        ],
+        "ref": "With more competitors and an overabundance of goods, the model started to change."
+       },
+       {
+        "p": "What is the priority of the concept of marketing?",
+        "a": "Customers' satisfaction",
+        "w": [
+         "The lowest production cost",
+         "The number of employees",
+         "The size of the factory"
+        ],
+        "ref": "The concept of marketing considers customers' satisfaction the priority."
+       },
+       {
+        "p": "What is a target market?",
+        "a": "A particular group of customers",
+        "w": [
+         "The cheapest shop in town",
+         "A competitor's product",
+         "A type of price"
+        ],
+        "ref": "The target market is a particular group of customers chosen in the marketing strategy."
+       },
+       {
+        "p": "What happens in the implementation and control step?",
+        "a": "Companies monitor results and modify the marketing mix",
+        "w": [
+         "Companies stop the production",
+         "Companies identify the first opportunity",
+         "Companies choose a logo"
+        ],
+        "ref": "After the launch, companies constantly monitor results and modify the marketing mix."
+       }
+      ]
+     },
+     "Q2": {
+      "title": "Quiz 2 · Market research",
+      "items": [
+       {
+        "p": "What is market research?",
+        "a": "Collecting and analysing information about what people want, need and buy",
+        "w": [
+         "Producing goods at a lower cost",
+         "Choosing the best logo",
+         "Selling products online"
+        ],
+        "ref": "It is the process of collecting and analysing information about what people want, need and buy."
+       },
+       {
+        "p": "What is primary (field) research?",
+        "a": "Research conducted directly with consumers to collect new information",
+        "w": [
+         "Research using only government reports",
+         "Research done without customers",
+         "Research about competitors' logos"
+        ],
+        "ref": "Primary research is conducted directly with consumers and collects new information (primary data)."
+       },
+       {
+        "p": "Which is an example of field research?",
+        "a": "A focus group",
+        "w": [
+         "A government statistic",
+         "A newspaper article",
+         "A bank report"
+        ],
+        "ref": "Examples of primary research: surveys, consumer panels and focus groups."
+       },
+       {
+        "p": "What is a disadvantage of secondary (desk) research?",
+        "a": "Data are not always relevant or updated",
+        "w": [
+         "It is very expensive",
+         "It needs focus groups",
+         "It collects only new data"
+        ],
+        "ref": "Desk research is cheaper than field research, but data are not always relevant or updated."
+       },
+       {
+        "p": "What are qualitative data?",
+        "a": "Descriptive information, such as opinions and beliefs",
+        "w": [
+         "Information expressed only as numbers",
+         "Charts about population size",
+         "Test scores"
+        ],
+        "ref": "Qualitative data are descriptive information which cannot be measured numerically."
+       }
+      ]
+     },
+     "Q3": {
+      "title": "Quiz 3 · The marketing strategy (STP)",
+      "items": [
+       {
+        "p": "What does STP stand for?",
+        "a": "Segmentation, Targeting and Positioning",
+        "w": [
+         "Selling, Trading and Pricing",
+         "Strategy, Tactics and Promotion",
+         "Supply, Technology and Production"
+        ],
+        "ref": "STP is an acronym for Segmentation, Targeting and Positioning."
+       },
+       {
+        "p": "What is a segment?",
+        "a": "A smaller group of the market with similar characteristics",
+        "w": [
+         "A type of product",
+         "A competitor",
+         "A distribution channel"
+        ],
+        "ref": "In segmentation the market is divided into smaller groups with similar characteristics."
+       },
+       {
+        "p": "Which criterion answers the question 'where?'",
+        "a": "Geographic",
+        "w": [
+         "Demographic",
+         "Psychographic",
+         "Behavioural"
+        ],
+        "ref": "Geographic (where?), demographic (who?), psychographic (why?), behavioural (how?)."
+       },
+       {
+        "p": "What does targeting involve?",
+        "a": "Evaluating each segment and selecting the most attractive ones",
+        "w": [
+         "Setting the lowest price",
+         "Designing a logo",
+         "Dividing the company into departments"
+        ],
+        "ref": "Targeting is the evaluation of the commercial attractiveness of each segment and the selection of the target market."
+       },
+       {
+        "p": "What does a market map show?",
+        "a": "The positions a product can take according to price and quality",
+        "w": [
+         "The shops of a city",
+         "The employees of a company",
+         "The history of a brand"
+        ],
+        "ref": "A market map shows the positions a product can take on the market according to price and quality."
+       }
+      ]
+     },
+     "Q4": {
+      "title": "Quiz 4 · The marketing mix",
+      "items": [
+       {
+        "p": "What are the 4Ps of marketing?",
+        "a": "Product, price, promotion, place",
+        "w": [
+         "People, process, product, price",
+         "Plan, produce, pack, post",
+         "Profit, power, position, publicity"
+        ],
+        "ref": "The 4Ps are product, price, promotion and place."
+       },
+       {
+        "p": "What are Unique Selling Points (USP)?",
+        "a": "Features that make a product different, like design or colour",
+        "w": [
+         "The lowest prices on the market",
+         "The shops of a franchise",
+         "The customers of a brand"
+        ],
+        "ref": "Manufacturers differentiate products through features that become their Unique Selling Points."
+       },
+       {
+        "p": "Which two kinds of factors influence the price?",
+        "a": "Internal and external factors",
+        "w": [
+         "Local and global factors",
+         "Social and ethical factors",
+         "Digital and physical factors"
+        ],
+        "ref": "Price is set by considering internal factors (production cost) and external factors (competing prices)."
+       },
+       {
+        "p": "What does 'promotion' mean in the marketing mix?",
+        "a": "How customers are informed about products",
+        "w": [
+         "Where products are sold",
+         "How much products cost",
+         "How products are made"
+        ],
+        "ref": "Promotion is the process of making a business and its products known to potential customers."
+       },
+       {
+        "p": "Which are the three extra Ps of the 7Ps?",
+        "a": "Physical evidence, process and people",
+        "w": [
+         "Profit, plan and power",
+         "Packaging, price and position",
+         "Promotion, place and product"
+        ],
+        "ref": "The extended marketing mix adds physical evidence, process and people."
+       }
+      ]
+     },
+     "Q5": {
+      "title": "Quiz 5 · Branding and pricing",
+      "items": [
+       {
+        "p": "What is branding?",
+        "a": "A technique to differentiate products from competitors' ones",
+        "w": [
+         "A way to reduce production costs",
+         "A type of market research",
+         "A tax for companies"
+        ],
+        "ref": "Branding is a technique used by companies to differentiate their products from competitors' ones."
+       },
+       {
+        "p": "Which is an example of a brand name that is an invented word?",
+        "a": "Google",
+        "w": [
+         "McDonald's",
+         "General Motors",
+         "American Airlines"
+        ],
+        "ref": "Invented words: Google. Family names: McDonald's. Descriptive: General Motors. Geographical: American Airlines."
+       },
+       {
+        "p": "What are own-brand products?",
+        "a": "Products that supermarkets market under their own name",
+        "w": [
+         "Products without a logo",
+         "Products made by the customer",
+         "Products sold only online"
+        ],
+        "ref": "Supermarket chains buy products from manufacturers and market them under their name or a new brand name."
+       },
+       {
+        "p": "What is a penetration price?",
+        "a": "A low price to enter a new market and gain market share",
+        "w": [
+         "A very high price for exclusivity",
+         "A price just below a round number",
+         "A price reduced for one year"
+        ],
+        "ref": "Penetration price: offering a low price to enter a new market and/or gain market share."
+       },
+       {
+        "p": "What is an odd (psychological) price?",
+        "a": "A price just below a round number, like 9,99",
+        "w": [
+         "A price much higher than competitors",
+         "A temporary discount",
+         "A price fixed by the government"
+        ],
+        "ref": "Odd or psychological prices create the perception of a good deal (9,99 instead of 10)."
+       }
+      ]
+     },
+     "Q6": {
+      "title": "Quiz 6 · Digital marketing",
+      "items": [
+       {
+        "p": "Why do companies need digital marketing strategies?",
+        "a": "To reach target customers on the platforms they use most",
+        "w": [
+         "To avoid using the Internet",
+         "To reduce the number of customers",
+         "To stop advertising"
+        ],
+        "ref": "Companies need to reach their target customers on the platforms they use the most."
+       },
+       {
+        "p": "What is Content Marketing?",
+        "a": "Online material that sparks interest without directly promoting a brand",
+        "w": [
+         "Sending newsletters only",
+         "Paying for search results",
+         "Selling products in shops"
+        ],
+        "ref": "Content marketing creates online material that doesn't directly promote a brand but sparks interest in its products."
+       },
+       {
+        "p": "What does SEO stand for?",
+        "a": "Search Engine Optimisation",
+        "w": [
+         "Social Engagement Operations",
+         "Sales and Export Office",
+         "Secure Email Organisation"
+        ],
+        "ref": "Search Engine Optimisation: most customers use searches to find products and services."
+       },
+       {
+        "p": "Which is a challenge of digital marketing?",
+        "a": "Complying with privacy and data sharing regulations",
+        "w": [
+         "Having too few customers",
+         "Printing catalogues",
+         "Opening physical shops"
+        ],
+        "ref": "Companies need to comply with privacy laws, some of them transnational (GDPR)."
+       },
+       {
+        "p": "What is an omnichannel strategy?",
+        "a": "Using email, social media, website, SEO and newsletters together",
+        "w": [
+         "Using only one social network",
+         "Selling only in physical shops",
+         "Avoiding mobile devices"
+        ],
+        "ref": "Omnichannel strategies include email, social media, website, SEO and newsletters."
+       }
+      ]
+     }
+    },
+    "t_verifica": 4136.731,
+    "t_compiti": 4149.931,
+    "t_scheda_compiti": 4155.031,
+    "verifica": "Test_Inglese_Lez5.xlsx",
+    "compiti": "Compiti_Inglese_Lez5.pdf"
+   }
   }
  },
  "manca": "",
@@ -29,10 +478,18 @@
   {
    "quando": "15/11 03:06",
    "testo": "pronta, attende voci Kore. Pezzi montati con segnaposto: 66,0 min stimati (docente 60,4 min dopo i tagli)."
+  },
+  {
+   "quando": "15/11 12:22",
+   "testo": "controllo_finale: ESITO: DA SISTEMARE: sottotitoli"
+  },
+  {
+   "quando": "15/11 12:28",
+   "testo": "PRONTA, una sola Parte. Consegna sul ramo consegna-afm-inglese-triennio-lez05. Durata misurata 69:20, OLTRE il limite di circa 65: la docente da sola fa 60,4 min dopo i tagli delle pause; non si e' potuto accorciare senza togliere mappe/quiz o parole della docente. Alternativa: due Parti (richiede una voce nuova per il ripasso di apertura della Parte 2). Verifica t=4136.7 s, compiti t=4149.9 s. DA SAPERE: sincronia slide controllata a campione (in un punto la frase evidenziata sembrava una frase indietro), sottotitoli in italiano (la docente parla italiano), voce E5_AN3_3 segnata DA CONTROLLARE, il PDF dei compiti contiene le Soluzioni, quiz da approvare."
   }
  ],
  "materia": "Inglese AFM",
  "lezione": "Lezione 5",
  "docente": "Prof.ssa Maria Vittoria Fontanesi",
- "aggiornato": "2026-11-15 03:06:05"
+ "aggiornato": "2026-11-15 12:28:39"
 }
