@@ -10,6 +10,10 @@
   {
    "quando": "15/11 00:41",
    "testo": "storia-V-lez15: 25 testi voce in scambio/storia-V-lez15/testi_voci.json (ramo voci-storia-V-lez15), quiz 10x5 da approvare. Una sola Parte (42,3 min di docente, 10 argomenti: ripasso + mappa per ognuno)."
+  },
+  {
+   "quando": "15/11 14:05",
+   "testo": "storia-V-lez15: attendo le voci Kore dal ramo voci-storia-V-lez15 (richiesta gia' inviata il 14/11; resto pronto)."
   }
  ],
  "domande_sara": [],
@@ -30,5 +34,5 @@
  "materia": "Storia",
  "lezione": "Lezione 15 · La decolonizzazione (1945-1975)",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-15 10:18:33"
+ "aggiornato": "2026-11-15 14:05:57"
 }
