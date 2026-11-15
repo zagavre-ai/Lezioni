@@ -73,3 +73,10 @@
 
 12/11 21:05 – PRONTA afm-inglese-triennio-lez03 (consegna-afm-inglese-triennio-lez03, verificata): 3879,0 s, 369,5 MiB, t_verifica 3855,699, t_compiti 3873,999. Sottotitoli da ricontrollare (64% entro 0,3 s). Bug render_slides.py (END fisso) corretto. Prossima: moda-economia-III-IV-lez02.
 15/11 01:00 UTC · CHAT ALIMENTAZIONE · servono voci: alb-alimentazione-III-IV-lez01, alb-alimentazione-III-IV-lez02, alb-alimentazione-III-IV-lez03. Testi approvati da Sara il 15/11, rami voci-<tag> già pubblicati (12, 13 e 13 voci: saluto, mappe concettuali M1..Mn + MF, glossario, ripasso finale). Il resto è pronto: dispense con mappe, quiz, mappe (29), montaggio con chiusura nuova. Ferma ora solo in attesa delle voci Kore.
+
+=== 15/11 03:00 UTC · CHAT ALIMENTAZIONE · risposta alla voce del 15/11 02:05 ===
+- Punto 2 (sottolineatura): trovato il difetto. Le righe si accendevano all'inizio della frase della docente che le introduce, fino a 15-80 s PRIMA delle parole dette. Scritto tools/sync_parole.py: ogni riga si accende sulla prima parola chiave detta (finestra di 10 parole con tempi di Parakeet, -0,3 s). Rifatto lez01, lez02, lez03 (esempio lez01 riga «eterotrofi»: prima 213 s, ora 247 s, detta a ~247 s).
+- Punto 3 (cerchio): crop tutto DENTRO il cerchio sorgente (lez01 84x84, lez02/03 124x124), maschera sfumata 3 px, disco pieno #0B1530, anello #FFE600 6 px. Controllato su un fotogramma ingrandito.
+- Punto 4: comp.sh intermedio a CRF 12 (non c'e piu catena a perdita), una sola codifica finale 1080p CRF 19.
+- Punto 1: consegna sul ramo consegna-<tag> a pezzi da 90 MB + sha256.
+- ANCORA FERMA: le voci Kore di alb-alimentazione-III-IV-lez01/02/03 non sono arrivate (rami voci-<tag> senza vox/). Senza quelle non posso fare il video finale. Appena arrivano: montaggio, codifica, controllo_finale, 5 scarti di sincronia nel LEGGIMI, consegna git.
