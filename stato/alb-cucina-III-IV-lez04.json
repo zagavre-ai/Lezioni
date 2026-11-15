@@ -3,11 +3,580 @@
  "parti": {
   "1": {
    "titolo": "Gastronomia internazionale 1",
-   "stato": "FERMA",
-   "voci": "segnaposto"
+   "stato": "PRONTA",
+   "voci": "kore",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "si",
+   "video": "Cucina_Lez4_Parte1_1080p.mp4",
+   "durata_s": 3059.7,
+   "durata": "50:59.7",
+   "fotogrammi": 91791,
+   "fotogrammi_attesi": 91791,
+   "peso_MB": 210.0,
+   "vtt": "Cucina_Lez4_Parte1.vtt",
+   "scheda": {
+    "materia": "Laboratori dei servizi enogastronomici – settore cucina",
+    "titolo": "Gastronomia internazionale 1",
+    "durata_s": 3059.7,
+    "argomenti": [
+     {
+      "n": 1,
+      "titolo": "Europa: macroaree e penisola iberica",
+      "inizio_s": 33.233,
+      "quiz_s": 462.765
+     },
+     {
+      "n": 2,
+      "titolo": "Isole britanniche e Francia",
+      "inizio_s": 468.065,
+      "quiz_s": 715.164
+     },
+     {
+      "n": 3,
+      "titolo": "Mitteleuropa e Nord Europa",
+      "inizio_s": 720.464,
+      "quiz_s": 1081.097
+     },
+     {
+      "n": 4,
+      "titolo": "Cibo e religioni, cucina slava",
+      "inizio_s": 1086.397,
+      "quiz_s": 1429.163
+     },
+     {
+      "n": 5,
+      "titolo": "L'area mediterranea",
+      "inizio_s": 1434.463,
+      "quiz_s": 1781.93
+     },
+     {
+      "n": 6,
+      "titolo": "Asia: Cina, Giappone e India",
+      "inizio_s": 1787.23,
+      "quiz_s": 2250.429
+     },
+     {
+      "n": 7,
+      "titolo": "Il Nord America",
+      "inizio_s": 2255.729,
+      "quiz_s": 2527.796
+     },
+     {
+      "n": 8,
+      "titolo": "L'America Latina",
+      "inizio_s": 2533.096,
+      "quiz_s": 2796.095
+     }
+    ],
+    "quiz": {
+     "Q1": {
+      "title": "Quiz 1 · Europa: macroaree e penisola iberica",
+      "items": [
+       {
+        "p": "A quale macroarea gastronomica appartengono Portogallo, Spagna del Centro-Nord e Francia del Nord?",
+        "a": "Area Iberico-Atlantica",
+        "w": [
+         "Area Mediterranea",
+         "Area Mitteleuropea",
+         "Area Nord Europea"
+        ],
+        "ref": "L'area Iberico-Atlantica comprende Portogallo, Spagna del Centro-Nord e Francia del Nord."
+       },
+       {
+        "p": "Qual è l'ingrediente principe della cucina portoghese?",
+        "a": "Il bacalhau, cioè il baccalà",
+        "w": [
+         "Il chorizo",
+         "Il jamón ibérico",
+         "Il salpicão"
+        ],
+        "ref": "La disponibilità di prodotti ittici nell'Atlantico rende il bacalhau (baccalà) l'ingrediente principe, affiancato dalle sardine."
+       },
+       {
+        "p": "Da quale città è originaria la paella?",
+        "a": "Valencia",
+        "w": [
+         "Madrid",
+         "Siviglia",
+         "Barcellona"
+        ],
+        "ref": "La paella, originaria di Valencia, è il piatto simbolo della cucina iberica."
+       },
+       {
+        "p": "Che cosa sono le tapas e i pinchos?",
+        "a": "Piccoli assaggi consumati spesso nei bar durante il tapeo",
+        "w": [
+         "Zuppe fredde a base di pomodoro",
+         "Dolci fritti da intingere nella cioccolata",
+         "Salumi stagionati di maiale iberico"
+        ],
+        "ref": "La convivialità spagnola si esprime attraverso le tapas e i pinchos, piccoli assaggi consumati spesso nei bar durante il rito del tapeo."
+       },
+       {
+        "p": "Qual è il dolce portoghese di pasta frolla con crema citato nel PDF?",
+        "a": "I pastéis de Belém",
+        "w": [
+         "La crema catalana",
+         "I churros",
+         "La torta di Santiago"
+        ],
+        "ref": "La pasticceria portoghese è rinomata per i pastéis de Belém, dolci di pasta frolla con crema."
+       }
+      ]
+     },
+     "Q2": {
+      "title": "Quiz 2 · Isole britanniche e Francia",
+      "items": [
+       {
+        "p": "Quale di questi è un formaggio britannico?",
+        "a": "Lo stilton",
+        "w": [
+         "Il reblochon",
+         "Il manchego",
+         "Il cabrales"
+        ],
+        "ref": "Il settore caseario britannico è d'eccellenza con formaggi quali il cheddar, lo stilton, il sage derby e il gloucester."
+       },
+       {
+        "p": "Come si chiama l'arrosto della domenica, simbolo della gastronomia britannica?",
+        "a": "Sunday roast",
+        "w": [
+         "Cottage pie",
+         "Scotch egg",
+         "Welsh rarebit"
+        ],
+        "ref": "I simboli della gastronomia britannica rimangono il fish and chips e l'arrosto della domenica, noto come sunday roast."
+       },
+       {
+        "p": "Come si divide la cucina francese secondo l'identità regionale?",
+        "a": "Cucina del Sud, mediterranea con olio e verdure, e del Centro-Nord, ricca di carni, burro e formaggi",
+        "w": [
+         "Cucina di mare e cucina di montagna, senza differenze di ingredienti",
+         "Cucina di città e cucina di campagna, basate entrambe sul pesce",
+         "Cucina aristocratica e cucina popolare, come in Russia"
+        ],
+        "ref": "La cucina francese si divide tra la cucina del Sud, influenzata dal Mediterraneo, e quella del Centro-Nord, ricca di carni, burro e formaggi."
+       },
+       {
+        "p": "Qual è il pane simbolo della Francia?",
+        "a": "La baguette",
+        "w": [
+         "Il Bretzel",
+         "La pita",
+         "Il naan"
+        ],
+        "ref": "La baguette è il pane simbolo della nazione, affiancato da prodotti da forno come il pain au chocolat."
+       },
+       {
+        "p": "Quali sono i simboli della gastronomia britannica?",
+        "a": "Il fish and chips e il sunday roast",
+        "w": [
+         "La quiche Lorraine e il foie gras",
+         "Il porridge e lo scotch egg",
+         "Il boeuf bourguignon e il coq au vin"
+        ],
+        "ref": "I simboli della gastronomia britannica rimangono il fish and chips e l'arrosto della domenica, il sunday roast."
+       }
+      ]
+     },
+     "Q3": {
+      "title": "Quiz 3 · Mitteleuropa e Nord Europa",
+      "items": [
+       {
+        "p": "Che cosa condividono le tradizioni gastronomiche di Germania e Austria?",
+        "a": "Origini contadine e sapori decisi, con ampio uso di carni e grassi animali",
+        "w": [
+         "Una cucina vegetariana a base di riso",
+         "L'uso dell'olio d'oliva e delle verdure mediterranee",
+         "Il pesce crudo marinato nel lime"
+        ],
+        "ref": "Le tradizioni di Germania e Austria condividono origini contadine e sapori decisi, con un ampio uso di carni e grassi animali."
+       },
+       {
+        "p": "Quale di questi è un wurstel tedesco?",
+        "a": "La Bratwurst",
+        "w": [
+         "Il chorizo",
+         "Il pastrami",
+         "Il jambon de Bayonne"
+        ],
+        "ref": "I salumi sono fondamentali, in particolare i wurstel come la Bratwurst, la Weisswurst e i Frankfurter."
+       },
+       {
+        "p": "Che cosa sono gli smørrebrød danesi?",
+        "a": "Tartine di pane di segale con burro e guarnizioni come aringa o salmone",
+        "w": [
+         "Polpette di carne speziate cotte alla brace",
+         "Crespelle servite con panna acida e caviale",
+         "Girelle dolci alla cannella"
+        ],
+        "ref": "La portata più rappresentativa della Danimarca sono le tartine smørrebrød, fette di pane di segale spalmate con burro e guarnite."
+       },
+       {
+        "p": "Che cos'è lo skyr islandese?",
+        "a": "Un formaggio a latte fermentato",
+        "w": [
+         "Una zuppa di barbabietole",
+         "Un pesce essiccato",
+         "Un dolce di pasta sfoglia"
+        ],
+        "ref": "Prodotti tipici dell'Islanda sono lo skyr, un formaggio a latte fermentato, e le frittelle astapurpungur."
+       },
+       {
+        "p": "Che cos'è la tentazione di Jansson?",
+        "a": "Un gratin svedese di patate, cipolle, pangrattato e spratti",
+        "w": [
+         "Una tartina danese di pane di segale",
+         "Un dolce scandinavo alla cannella",
+         "Un formaggio islandese"
+        ],
+        "ref": "In Svezia un piatto simbolo è la tentazione di Jansson, gratin di patate, cipolle, pangrattato e piccoli pesci chiamati spratti."
+       }
+      ]
+     },
+     "Q4": {
+      "title": "Quiz 4 · Cibo e religioni, cucina slava",
+      "items": [
+       {
+        "p": "Perché i professionisti della ristorazione devono conoscere i precetti religiosi legati all'alimentazione?",
+        "a": "Per rispettare abitudini e divieti di ogni confessione e accogliere correttamente gli ospiti",
+        "w": [
+         "Perché sono obbligati a seguirli personalmente",
+         "Solo per preparare i menu delle feste nazionali",
+         "Perché riguardano soltanto l'industria alimentare"
+        ],
+        "ref": "Rispettare queste regole è essenziale per garantire l'interculturalità e accogliere correttamente milioni di ospiti ogni anno."
+       },
+       {
+        "p": "In quali due categorie si divide la cucina russa e dell'area slava?",
+        "a": "Gastronomia aristocratica e gastronomia popolare",
+        "w": [
+         "Cucina di mare e cucina di terra",
+         "Cucina Yin e cucina Yang",
+         "Cucina creola e cucina cajun"
+        ],
+        "ref": "La cucina russa e dell'area slava è composta da gastronomia aristocratica e gastronomia popolare."
+       },
+       {
+        "p": "Quale di questi è un prodotto caratterizzante della cucina russa?",
+        "a": "La panna acida",
+        "w": [
+         "Il ghee",
+         "Il chimichurri",
+         "Il miso"
+        ],
+        "ref": "I prodotti caratterizzanti includono la panna acida, l'aceto, il rafano, la paprika e lo zenzero."
+       },
+       {
+        "p": "Che cos'è il borscht?",
+        "a": "La zuppa simbolo russa, a base di barbabietole e carne",
+        "w": [
+         "Una crespella servita con caviale",
+         "Un fagottino di pasta lievitata ripieno",
+         "Un involtino di cavolo"
+        ],
+        "ref": "La zuppa simbolo è il borscht, a base di barbabietole e carne."
+       },
+       {
+        "p": "Che cosa sono i pierogi?",
+        "a": "Tortellini di pasta con ripieni dolci o salati",
+        "w": [
+         "Polpettine di carne speziata",
+         "Crespelle con panna acida",
+         "Involtini di cavolo"
+        ],
+        "ref": "In Polonia e in tutto l'Est sono comuni i pierogi, tortellini di pasta con ripieni dolci o salati."
+       }
+      ]
+     },
+     "Q5": {
+      "title": "Quiz 5 · L'area mediterranea",
+      "items": [
+       {
+        "p": "In quali aree si può raggruppare l'area mediterranea?",
+        "a": "Area europea, area asiatica e medio-orientale, area nordafricana",
+        "w": [
+         "Area atlantica, area baltica, area balcanica",
+         "Area del Nord, area del Centro, area del Sud",
+         "Area insulare e area continentale"
+        ],
+        "ref": "L'area mediterranea comprende un'area europea, un'area asiatica e medio-orientale e un'area nordafricana."
+       },
+       {
+        "p": "Quali influenze culturali hanno accomunato i paesi del Mediterraneo?",
+        "a": "Greca, romana, ottomana e araba",
+        "w": [
+         "Inca e azteca",
+         "Francese e inglese",
+         "Cinese e giapponese"
+        ],
+        "ref": "Queste nazioni sono state accomunate nei secoli da influenze culturali dominanti come quella greca, romana, ottomana e araba."
+       },
+       {
+        "p": "Che cosa sono i mezedes?",
+        "a": "Una varietà di antipasti, come lo tzatziki",
+        "w": [
+         "Spiedini di carne alla brace",
+         "Dolci di pasta fillo e frutta secca",
+         "Polpette di ceci fritte"
+        ],
+        "ref": "I piatti tipici iniziano spesso con i mezedes, una varietà di antipasti che includono creme spalmabili come lo tzatziki."
+       },
+       {
+        "p": "Che cos'è il bulgur?",
+        "a": "Grano duro frantumato",
+        "w": [
+         "Semola di frumento cotta a vapore",
+         "Una crema di yogurt e cetrioli",
+         "Uno stufato in terracotta"
+        ],
+        "ref": "I carboidrati principali includono il bulgur, grano duro frantumato, e il couscous, semola di frumento cotta a vapore."
+       },
+       {
+        "p": "Che cos'è il gyros o kebab?",
+        "a": "Carne cotta su uno spiedo verticale, servita nel piatto o come panino",
+        "w": [
+         "Un involtino di foglie di vite",
+         "Una crema di ceci",
+         "Uno stufato in terracotta"
+        ],
+        "ref": "Il gyros o kebab è carne cotta su uno spiedo verticale e servita nel piatto o come panino."
+       }
+      ]
+     },
+     "Q6": {
+      "title": "Quiz 6 · Asia: Cina, Giappone e India",
+      "items": [
+       {
+        "p": "Quali metodi di cottura privilegia la cucina cinese?",
+        "a": "Cotture rapide, al vapore nei cestini di bambù o saltate nel wok",
+        "w": [
+         "Lunghe cotture in umido nel tajine",
+         "Cotture alla brace nel forno tandoor",
+         "Fritture lente nello strutto"
+        ],
+        "ref": "La cucina cinese privilegia metodi di cottura rapidi come il vapore nei cestini di bambù o il salto nel wok."
+       },
+       {
+        "p": "Che cos'è lo Shojin nella cucina giapponese?",
+        "a": "La cucina salutare e vegetariana dei monaci zen",
+        "w": [
+         "La cucina dei samurai",
+         "La cucina quotidiana a base di riso e miso",
+         "Un pasto cerimoniale di molte piccole portate"
+        ],
+        "ref": "Lo Shojin è la cucina salutare e vegetariana dei monaci zen."
+       },
+       {
+        "p": "Come si chiama il forno d'argilla della cucina indiana?",
+        "a": "Tandoor",
+        "w": [
+         "Wok",
+         "Tajine",
+         "Polsonetto"
+        ],
+        "ref": "Il naan e il chapati sono cotti nel forno d'argilla chiamato tandoor."
+       },
+       {
+        "p": "Come varia la gastronomia indiana tra Nord e Sud?",
+        "a": "Al Nord più carne e meno piccante, al Sud prevalentemente vegetariana e ricca di spezie",
+        "w": [
+         "Al Nord solo pesce, al Sud solo carne",
+         "Al Nord molto piccante, al Sud senza spezie",
+         "Non ci sono differenze tra Nord e Sud"
+        ],
+        "ref": "La gastronomia indiana varia tra il Nord, dove si consuma più carne ed è meno piccante, e il Sud, prevalentemente vegetariano e ricco di spezie."
+       },
+       {
+        "p": "Che cos'è il washoku?",
+        "a": "La cucina quotidiana giapponese a base di riso, miso, zuppe e legumi",
+        "w": [
+         "La cucina dei samurai",
+         "Il pasto cerimoniale giapponese",
+         "La cucina dei monaci zen"
+        ],
+        "ref": "Il washoku è la cucina quotidiana a base di riso, miso, zuppe e legumi."
+       }
+      ]
+     },
+     "Q7": {
+      "title": "Quiz 7 · Il Nord America",
+      "items": [
+       {
+        "p": "Da dove proviene la cucina cajun?",
+        "a": "Dai francesi dell'Acadia spostati dagli inglesi in Louisiana",
+        "w": [
+         "Dai conquistatori spagnoli in Messico",
+         "Dai migranti italiani a New York",
+         "Dai nativi americani del Midwest"
+        ],
+        "ref": "La cucina cajun è stata portata dai francesi dell'Acadia spostati dagli inglesi in Louisiana."
+       },
+       {
+        "p": "Qual è il piatto simbolo della cucina tex-mex citato nel testo?",
+        "a": "Il burrito",
+        "w": [
+         "Il gumbo",
+         "Il pastrami",
+         "La feijoada"
+        ],
+        "ref": "La cucina tex-mex unisce tradizioni messicane e texane in piatti come il burrito."
+       },
+       {
+        "p": "Che cos'è il pastrami?",
+        "a": "Un manzo salmistrato e affumicato tipico di New York",
+        "w": [
+         "Una torta di zucca",
+         "Un panino con bagel e salmone",
+         "Una zuppa del Sud degli Stati Uniti"
+        ],
+        "ref": "Il pastrami è un manzo salmistrato e affumicato tipico di New York."
+       },
+       {
+        "p": "Che cos'è la pumpkin pie?",
+        "a": "Una torta di zucca",
+        "w": [
+         "Una torta di mele",
+         "Una pizza dal bordo alto",
+         "Un pane di mais"
+        ],
+        "ref": "La ricca offerta dolciaria comprende la cheesecake, la pumpkin pie (torta di zucca) e l'apple pie."
+       },
+       {
+        "p": "Che cos'è la pizza deep dish di Chicago?",
+        "a": "Una pizza dal bordo molto alto e ricca farcitura",
+        "w": [
+         "Una pizza sottile e croccante",
+         "Un panino con manzo e cipolla",
+         "Un pane di mais"
+        ],
+        "ref": "La pizza deep dish di Chicago è caratterizzata da un bordo molto alto e ricca farcitura."
+       }
+      ]
+     },
+     "Q8": {
+      "title": "Quiz 8 · L'America Latina",
+      "items": [
+       {
+        "p": "Quale eredità culturale accomuna i paesi dell'America Latina?",
+        "a": "Le antiche culture Inca e Azteca e la dominazione di Spagna e Portogallo",
+        "w": [
+         "La cultura greca e romana",
+         "La dominazione inglese e francese",
+         "Le tradizioni cinesi e giapponesi"
+        ],
+        "ref": "Questi territori sono accomunati dall'eredità delle culture Inca e Azteca e dalla dominazione coloniale di Spagna e Portogallo."
+       },
+       {
+        "p": "Quale ingrediente è definito il simbolo della cucina latino-americana?",
+        "a": "Il peperoncino",
+        "w": [
+         "Il riso",
+         "Lo zafferano",
+         "Il burro"
+        ],
+        "ref": "Il peperoncino è l'ingrediente simbolo, declinato in varietà come l'habanero e il jalapeño."
+       },
+       {
+        "p": "Che cos'è il chimichurri?",
+        "a": "Una salsa verde di prezzemolo, aglio, olio e timo",
+        "w": [
+         "Un ragù piccante di carne e fagioli",
+         "Un dolce a base di latte",
+         "Una tortilla di mais ripiena"
+        ],
+        "ref": "La grigliata è accompagnata dal chimichurri, una salsa verde a base di prezzemolo, aglio, olio e timo."
+       },
+       {
+        "p": "Qual è il piatto simbolo del Brasile?",
+        "a": "La feijoada, stufato di maiale e fagioli neri",
+        "w": [
+         "Il ceviche",
+         "Il chili con carne",
+         "L'asado a la parrilla"
+        ],
+        "ref": "In Brasile il piatto simbolo è la feijoada, uno stufato di maiale e fagioli neri."
+       },
+       {
+        "p": "Che cos'è il chili con carne?",
+        "a": "Un ragù piccante di carne e fagioli rossi",
+        "w": [
+         "Una salsa verde di prezzemolo",
+         "Pesce crudo marinato nel lime",
+         "Uno stufato di maiale e fagioli neri"
+        ],
+        "ref": "Il chili con carne è un ragù piccante di carne e fagioli rossi tipico del Texas ma legato alla cucina messicana."
+       }
+      ]
+     }
+    }
+   },
+   "timeline": [
+    [
+     "T1",
+     33.233,
+     3.6
+    ],
+    [
+     "Q1",
+     462.765,
+     4.0
+    ],
+    [
+     "T2",
+     468.065,
+     3.6
+    ],
+    [
+     "T3",
+     720.464,
+     3.6
+    ],
+    [
+     "T4",
+     1086.397,
+     3.6
+    ],
+    [
+     "T5",
+     1434.463,
+     3.6
+    ],
+    [
+     "T6",
+     1787.23,
+     3.6
+    ],
+    [
+     "T7",
+     2255.729,
+     3.6
+    ],
+    [
+     "T8",
+     2533.096,
+     3.6
+    ],
+    [
+     "GL1",
+     2801.395,
+     106.266
+    ],
+    [
+     "RF1",
+     2909.261,
+     114.833
+    ],
+    [
+     "FIN1",
+     3025.494,
+     8.0
+    ]
+   ]
   }
  },
- "manca": "Parte unica montata (50:41). Mancano: voci Kore (testi approvati, sul ramo voci-alb-cucina-III-IV-lez04), codifica 1440p. Ore: 2 dopo le voci.",
+ "manca": "nulla: Parte pronta, da caricare su YouTube",
  "serve_master": [
   {
    "quando": "10/11 20:43",
@@ -35,9 +604,13 @@
   {
    "quando": "11/11 13:16",
    "testo": "Parte unica montata 50:41 con la chiusura nuova, schede Quiz e approfondimenti (voci provvisorie, non codificata): t_verifica=3016.5 s, t_compiti=3034.8 s; scatto Quiz 0,0 s su 8 Quiz."
+  },
+  {
+   "quando": "15/11 01:09",
+   "testo": "Parte pronta (1080p, voci Kore): t_verifica=3035.1 s, t_compiti=3053.4 s. Sottotitoli riallineati sulla voce del video finale (scarto medio 0,03 s, max 0,12 s su tutti i blocchi controllati)."
   }
  ],
  "materia": "Laboratori dei servizi enogastronomici – settore cucina",
  "lezione": "Gastronomia internazionale 1",
- "aggiornato": "2026-11-11 13:17:31"
+ "aggiornato": "2026-11-15 01:09:38"
 }
