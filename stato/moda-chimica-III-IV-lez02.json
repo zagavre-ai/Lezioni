@@ -3,8 +3,8 @@
  "parti": {
   "1": {
    "titolo": "Lana",
-   "stato": "IN_MONTAGGIO",
-   "voci": "segnaposto"
+   "stato": "IN_CODIFICA",
+   "voci": "kore"
   }
  },
  "manca": "",
@@ -18,10 +18,14 @@
   {
    "quando": "15/11 21:23",
    "testo": "pronta, attende voci Kore (13 file richiesti sul ramo voci-moda-chimica-III-IV-lez02). Fatti: sincronia slide sulle parole dette, slide 58, riquadro docente con cerchio pulito, 4 argomenti con schema, mappa (da quelle del docente), quiz 4x5, glossario e ripasso (da renderizzare con le voci), chiusura con compiti del docente, Mappe_*.pdf. Resta: voci, render schemi/mappe/glossario, montaggio, codifica 1080p, controlli, consegna."
+  },
+  {
+   "quando": "15/11 22:31",
+   "testo": "voci Kore arrivate e importate (13/13); montaggio 56:44 (una Parte); t_verifica=3366.1 s, t_compiti=3384.4 s (scheda Compiti 20 s con le tre domande del docente). Codifica 1080p CRF 19 in corso, sottotitoli in parallelo."
   }
  ],
  "materia": "Moda III+IV · Chimica applicata e nobilitazione dei materiali",
  "lezione": "Lana",
  "docente": "Prof.ssa Piera Caputi",
- "aggiornato": "2026-11-15 21:23:30"
+ "aggiornato": "2026-11-15 22:31:00"
 }
