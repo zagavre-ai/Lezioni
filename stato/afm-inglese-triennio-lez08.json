@@ -1,0 +1,26 @@
+{
+ "tag": "afm-inglese-triennio-lez08",
+ "parti": {
+  "1": {
+   "stato": "FERMA"
+  }
+ },
+ "manca": "video, dispensa e verifica",
+ "serve_master": [
+  {
+   "quando": "16/11 00:34",
+   "testo": "Lezione 8: servono nella release inglese-afm-triennio Videolezione.mp4, Dispensa.pdf e Verifica.xlsx."
+  }
+ ],
+ "domande_sara": [],
+ "note": [
+  {
+   "quando": "16/11 00:34",
+   "testo": "16/11: presa dalla chat della master (E1). FERMA perché nella release inglese-afm-triennio della lezione 8 ci sono solo Compiti.pdf e Presentazione.pdf: mancano ENG_Amministrazione_Lez08_Videolezione.mp4, la Dispensa e la Verifica.xlsx. Riprendo appena compaiono."
+  }
+ ],
+ "materia": "Inglese AFM",
+ "lezione": "Lezione 8",
+ "docente": "Prof.ssa Maria Vittoria Fontanesi",
+ "aggiornato": "2026-11-16 00:34:01"
+}
