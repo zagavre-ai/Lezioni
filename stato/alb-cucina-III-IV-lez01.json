@@ -313,8 +313,308 @@
   },
   "2": {
    "titolo": "Le carni · Parte 2",
-   "stato": "FERMA",
-   "voci": "segnaposto"
+   "stato": "PRONTA",
+   "voci": "kore",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "si",
+   "video": "Cucina_Lez1_Parte2_1080p.mp4",
+   "durata_s": 3121.9,
+   "durata": "52:01.9",
+   "fotogrammi": 93656,
+   "fotogrammi_attesi": 93656,
+   "peso_MB": 190.6,
+   "vtt": "Cucina_Lez1_Parte2.vtt",
+   "scheda": {
+    "materia": "Laboratori dei servizi enogastronomici – settore cucina",
+    "titolo": "Le carni · Parte 2",
+    "durata_s": 3121.87,
+    "argomenti": [
+     {
+      "n": 5,
+      "titolo": "La selvaggina e le marinature",
+      "inizio_s": 88.733,
+      "quiz_s": 851.365
+     },
+     {
+      "n": 6,
+      "titolo": "I salumi",
+      "inizio_s": 856.665,
+      "quiz_s": 1306.864
+     },
+     {
+      "n": 7,
+      "titolo": "La lavorazione delle carni",
+      "inizio_s": 1312.164,
+      "quiz_s": 2142.362
+     },
+     {
+      "n": 8,
+      "titolo": "Le cotture delle carni",
+      "inizio_s": 2147.662,
+      "quiz_s": 2943.727
+     }
+    ],
+    "quiz": {
+     "Q5": {
+      "title": "Quiz 5 · La selvaggina e le marinature",
+      "items": [
+       {
+        "p": "Perché le carni di selvaggina si chiamano «nere»?",
+        "a": "Per il colore rosso-brunastro e l'aroma pungente e selvatico",
+        "w": [
+         "Perché vengono sempre affumicate",
+         "Perché si cuociono sempre alla griglia",
+         "Perché sono ricche di grasso d'infiltrazione"
+        ],
+        "ref": "Queste carni vengono definite nere per il loro caratteristico colore rosso-brunastro e l'aroma pungente e selvatico."
+       },
+       {
+        "p": "Che cos'è il civet?",
+        "a": "Uno stufato a base di vino, aromi e verdure, tipico per lepre o cinghiale",
+        "w": [
+         "Una frittura in pastella di selvaggina da piuma",
+         "Un salume di cinghiale stagionato",
+         "Una marinatura in acqua e acido"
+        ],
+        "ref": "Il civet è uno stufato a base di vino, aromi e verdure tipicamente utilizzato per la lepre o il cinghiale."
+       },
+       {
+        "p": "Nel liquido di marinatura, quale funzione hanno gli acidi come vino, aceto o limone?",
+        "a": "Ammorbidiscono le fibre favorendo la denaturazione delle proteine",
+        "w": [
+         "Bloccano i processi ossidativi",
+         "Estraggono l'umidità rendendo la carne compatta",
+         "Danno solo il colore alla carne"
+        ],
+        "ref": "Gli acidi, quali il vino, l'aceto o il succo di limone, favoriscono la denaturazione delle proteine ammorbidendo le fibre."
+       },
+       {
+        "p": "Quale marinatura è più indicata per la selvaggina da pelo come cinghiale, capriolo o daino?",
+        "a": "La marinatura cotta",
+        "w": [
+         "La marinatura cruda",
+         "La marinatura in acqua e acido",
+         "La marinatura con yogurt"
+        ],
+        "ref": "La marinatura cotta è il metodo più indicato per la selvaggina da pelo, come il cinghiale, il capriolo o il daino."
+       },
+       {
+        "p": "Per quanto tempo devono marinare le parti più dure della selvaggina?",
+        "a": "Almeno 24 ore",
+        "w": [
+         "Al massimo un'ora",
+         "Circa 10 minuti",
+         "Esattamente una settimana"
+        ],
+        "ref": "Le parti più dure della selvaggina richiedono un periodo di infusione di almeno 24 ore."
+       }
+      ]
+     },
+     "Q6": {
+      "title": "Quiz 6 · I salumi",
+      "items": [
+       {
+        "p": "Qual è la differenza tra salumi non insaccati e insaccati?",
+        "a": "I non insaccati sono tagli interi; gli insaccati sono carne macinata racchiusa in budelli",
+        "w": [
+         "I non insaccati sono sempre cotti; gli insaccati sono sempre crudi",
+         "I non insaccati sono di manzo; gli insaccati solo di maiale",
+         "Non c'è differenza: sono due nomi dello stesso prodotto"
+        ],
+        "ref": "I salumi non insaccati sono ricavati da tagli di carne interi; gli insaccati sono composti da carne macinata racchiusa in budelli naturali o artificiali."
+       },
+       {
+        "p": "Nello zampone, dove viene inserito il ripieno?",
+        "a": "Nella pelle della zampa anteriore del suino",
+        "w": [
+         "In un budello naturale",
+         "Nella vescica del maiale",
+         "In uno stampo di cottura"
+        ],
+        "ref": "Nello zampone il ripieno è inserito nella pelle della zampa anteriore del suino."
+       },
+       {
+        "p": "Da quale muscolo del suino si ottiene il culatello?",
+        "a": "Dal muscolo del gluteo",
+        "w": [
+         "Dai muscoli del collo e della spalla",
+         "Dal muscolo del dorso",
+         "Dalla guancia"
+        ],
+        "ref": "Il culatello è prodotto con il muscolo del gluteo del suino, insaccato nella vescica e stagionato."
+       },
+       {
+        "p": "Da quale carne si ottiene la bresaola?",
+        "a": "Da tagli pregiati di manzo",
+        "w": [
+         "Dalla coscia di maiale",
+         "Dalla guancia del maiale",
+         "Dal grasso dorsale del suino"
+        ],
+        "ref": "La bresaola è ottenuta da tagli pregiati di manzo e consumata cruda."
+       },
+       {
+        "p": "Da quale grasso si ricava il guanciale?",
+        "a": "Dal grasso della guancia del maiale",
+        "w": [
+         "Dal grasso dorsale",
+         "Dal grasso della pancia",
+         "Dal grasso della coscia"
+        ],
+        "ref": "Il guanciale deriva dal grasso della guancia del maiale."
+       }
+      ]
+     },
+     "Q7": {
+      "title": "Quiz 7 · La lavorazione delle carni",
+      "items": [
+       {
+        "p": "Quali protezioni deve indossare l'operatore quando usa coltelli e strumenti da taglio?",
+        "a": "Il guanto e il grembiule antitaglio",
+        "w": [
+         "Solo la cuffia e la mascherina",
+         "Guanti in lattice monouso",
+         "Occhiali protettivi e tappi per le orecchie"
+        ],
+        "ref": "Quando si utilizzano coltelli e strumenti da taglio è indispensabile indossare il guanto e il grembiule antitaglio."
+       },
+       {
+        "p": "Come si ottiene il taglio a tasca?",
+        "a": "Con un'incisione al centro di una fetta spessa",
+        "w": [
+         "Con un primo taglio parziale e un secondo completo",
+         "Tagliando la carne in fette, strisce e cubetti",
+         "Affettando con il coltello boucher a pressione costante"
+        ],
+        "ref": "Il taglio a tasca si ottiene praticando un'incisione al centro di una fetta spessa per creare uno spazio interno."
+       },
+       {
+        "p": "Che cos'è la bardatura?",
+        "a": "La copertura esterna della carne con fette di lardo",
+        "w": [
+         "L'inserimento di strisce di grasso dentro il muscolo",
+         "La legatura con spago dell'arrosto",
+         "L'eliminazione dei residui di piume con la fiamma"
+        ],
+        "ref": "La bardatura è la copertura esterna con fette di lardo; la lardellatura è invece l'inserimento di strisce di grasso dentro i muscoli magri."
+       },
+       {
+        "p": "Perché nelle carni bianche si mette il pezzo tra due fogli di pellicola prima di batterlo?",
+        "a": "Perché l'albumina le rende appiccicose",
+        "w": [
+         "Perché sono troppo dure",
+         "Per non farle ossidare",
+         "Per aggiungere sapore"
+        ],
+        "ref": "Nelle carni bianche, data l'abbondanza di albumina che le rende appiccicose, è preferibile inserire il pezzo tra due fogli di pellicola o carta forno."
+       },
+       {
+        "p": "Che cosa sono il fiammeggiamento e l'imbrigliatura?",
+        "a": "Operazioni preliminari sui gallinacei: eliminare i residui di piume e legare l'animale intero",
+        "w": [
+         "Due tecniche di cottura alla griglia",
+         "Due metodi di conservazione del pollame",
+         "Due modi di tagliare il filetto"
+        ],
+        "ref": "Per i gallinacei le operazioni preliminari prevedono il fiammeggiamento, l'eviscerazione e l'imbrigliatura."
+       }
+      ]
+     },
+     "Q8": {
+      "title": "Quiz 8 · Le cotture delle carni",
+      "items": [
+       {
+        "p": "Sopra quale temperatura avviene la reazione di Maillard?",
+        "a": "Sopra i 140 gradi",
+        "w": [
+         "Sopra i 65 gradi",
+         "Sopra i 100 gradi",
+         "Sopra i 250 gradi"
+        ],
+        "ref": "La reazione di Maillard avviene a temperature elevate, sopra i 140 gradi, e dà alla carne l'aspetto bruno e l'aroma dell'arrostito."
+       },
+       {
+        "p": "La cottura brasata è ideale per i tagli di quale categoria?",
+        "a": "Seconda categoria",
+        "w": [
+         "Prima categoria",
+         "Solo per le frattaglie",
+         "Solo per il pollame"
+        ],
+        "ref": "La cottura brasata è ideale per tagli di seconda categoria rosolati e poi cucinati lentamente in tegame coperto con liquidi."
+       },
+       {
+        "p": "Come si prepara la frittura impanata alla milanese?",
+        "a": "Con uova e pane grattugiato",
+        "w": [
+         "Con farina e uova",
+         "Con uova, farina e birra",
+         "Con farina di riso o di mais"
+        ],
+        "ref": "La frittura impanata può essere realizzata alla milanese con uova e pane grattugiato, oppure alla parigina con farina e uova."
+       },
+       {
+        "p": "Quale temperatura al cuore corrisponde a una carne rossa «al sangue» (saignant)?",
+        "a": "Tra +45 e +50 °C",
+        "w": [
+         "Circa +40 °C",
+         "Tra +55 e +60 °C",
+         "Circa +65 °C"
+        ],
+        "ref": "Al sangue (saignant): temperatura al cuore tra i +45 e i +50 °C."
+       },
+       {
+        "p": "Quale temperatura al cuore devono raggiungere le carni bianche?",
+        "a": "Tra +65 e +78 °C",
+        "w": [
+         "Circa +40 °C",
+         "Tra +45 e +50 °C",
+         "Oltre +100 °C"
+        ],
+        "ref": "Per le carni bianche è necessario raggiungere un valore compreso tra i +65 e i +78 °C."
+       }
+      ]
+     }
+    }
+   },
+   "timeline": [
+    [
+     "T5",
+     88.733,
+     3.6
+    ],
+    [
+     "T6",
+     856.665,
+     3.6
+    ],
+    [
+     "T7",
+     1312.164,
+     3.6
+    ],
+    [
+     "T8",
+     2147.662,
+     3.6
+    ],
+    [
+     "GL2",
+     2949.027,
+     64.167
+    ],
+    [
+     "RF2",
+     3014.794,
+     70.167
+    ],
+    [
+     "FIN2",
+     3086.361,
+     8.0
+    ]
+   ]
   }
  },
  "manca": "nulla: Parte pronta, da caricare su YouTube",
@@ -357,9 +657,13 @@
   {
    "quando": "15/11 00:05",
    "testo": "Parte pronta (1080p, voci Kore): t_verifica=3102.5 s, t_compiti=3122.1 s. Sottotitoli riallineati sulla voce del video finale (scarto medio 0,03 s, max 0,12 s su tutti i blocchi controllati)."
+  },
+  {
+   "quando": "15/11 00:33",
+   "testo": "Parte pronta (1080p, voci Kore): t_verifica=3096.0 s, t_compiti=3115.6 s. Sottotitoli riallineati sulla voce del video finale (scarto medio 0,03 s, max 0,12 s su tutti i blocchi controllati)."
   }
  ],
  "materia": "Laboratori dei servizi enogastronomici – settore cucina",
  "lezione": "Le carni",
- "aggiornato": "2026-11-15 00:05:18"
+ "aggiornato": "2026-11-15 00:33:56"
 }
