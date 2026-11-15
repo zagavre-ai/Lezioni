@@ -2,21 +2,18 @@
  "tag": "storia-arte-V-lez02",
  "parti": {
   "1": {
-   "titolo": "Il Romanticismo",
-   "stato": "FERMA"
+   "stato": "IN_MONTAGGIO",
+   "voci": "segnaposto"
   }
  },
- "manca": "VIDEO E PDF NON PIU' NELLA RELEASE (404): servono per webcam e audio. Pronti: struttura, sincronia, 14 slide, 20 pagine-opera, quiz e testi voci (in attesa OK Sara)",
+ "manca": "",
  "serve_master": [],
  "domande_sara": [],
  "note": [
   {
-   "quando": "11/11 11:16",
-   "testo": "quiz e testi voci approvati da Sara (11/11)"
+   "quando": "15/11 10:16",
+   "testo": "Storia dell'arte V · chat A2: presa in carico, pronta, attende voci Kore"
   }
  ],
- "materia": "Storia dell'Arte V",
- "lezione": "Il Romanticismo",
- "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-11 11:16:21"
+ "aggiornato": "2026-11-15 10:16:48"
 }
