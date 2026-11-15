@@ -1,0 +1,67 @@
+[
+ {
+  "nome": "INTRO1",
+  "testo": "Benvenuti alla lezione di Scienza e cultura dell'alimentazione: i cereali. Vedremo come sono fatti i cereali e la loro storia, il frumento e le farine, il pane e la pasta, il riso, il mais, gli altri cereali e i tuberi.",
+  "lingua": "it"
+ },
+ {
+  "nome": "M1",
+  "testo": "Mappa: Struttura dei cereali. Tutti i cereali producono un frutto secco, la cariosside. La crusca, scudo esterno, ricca di fibre e sali minerali. L'endosperma, riserva di energia, con i granuli di amido. Il germe, il cuore vitale, è l'unica parte con i lipidi. I cereali sono monocotiledoni oppure pseudocereali. Dal punto di vista dietetico si dividono in con e senza glutine.",
+  "lingua": "it"
+ },
+ {
+  "nome": "M2",
+  "testo": "Mappa: La storia dei cereali. Orzo e frumento nascono nel Medio Oriente, diecimila e settemila anni avanti Cristo. Il riso si diffonde in Asia. Il mais è il cereale di Maya e Inca. Il mais arriva in Europa nel millequattrocentonovantadue. Miglio e sorgo compaiono in Africa. Segale e avena entrano nell'uso comune più tardi.",
+  "lingua": "it"
+ },
+ {
+  "nome": "M3",
+  "testo": "Mappa: Frumento e valore nutritivo. Il grano tenero, farinoso, per il pane. Il grano duro, vitreo, per la pasta. I grani antichi: farro, kamut e triticale. I glucidi, dal sessanta al settanta per cento, sono soprattutto amido. I protidi, circa dodici per cento: gliadina e glutenina formano il glutine. Lipidi nel germe, sali minerali negli strati esterni.",
+  "lingua": "it"
+ },
+ {
+  "nome": "M4",
+  "testo": "Mappa: Molitura e farine. La molitura separa l'endosperma dal resto del chicco. L'abburattamento indica quanta farina si ricava da cento chili di grano. Le farine si classificano in tipo doppio zero, zero, uno, due e integrale. La semola di grano duro è per la pasta secca. La forza W si misura con l'alveografo. Le farine si conservano in ambienti asciutti, aerati e puliti.",
+  "lingua": "it"
+ },
+ {
+  "nome": "M5",
+  "testo": "Mappa: Il pane e la pasta. Il pane: impastamento, lievitazione, foggiatura e cottura. La reazione di Maillard dà alla crosta aroma e colore. L'Italia vanta oltre duecentocinquanta pani regionali. La pasta nasce in cinque momenti, dall'impastamento al confezionamento. Pasta fresca, all'uovo, speciale e ripiena. La pasta è un'ottima fonte di amido e sazia.",
+  "lingua": "it"
+ },
+ {
+  "nome": "M6",
+  "testo": "Mappa: Il riso. Il riso arriva in Europa con gli Arabi nel Medioevo. L'indica ha chicchi lunghi e vitrei. La japonica ha chicchi tondeggianti. In riseria: pulitura, sbramatura, sbiancatura e brillatura. L'Unione Europea lo classifica in tondo, medio, lungo A e lungo B. Il parboiled è trattato con vapore ad alta pressione.",
+  "lingua": "it"
+ },
+ {
+  "nome": "M7",
+  "testo": "Mappa: Il mais. Il mais è originario dell'America Centrale. La pannocchia ha i chicchi disposti sul tutolo. Le varietà si distinguono per il ciclo vegetativo. Il mais è energetico e privo di glutine. La niacina non assimilabile causava la pellagra. Dal mais: polenta, maizena, popcorn, olio e glucosio.",
+  "lingua": "it"
+ },
+ {
+  "nome": "M8",
+  "testo": "Mappa: Orzo e cereali minori. L'orzo distico serve per il malto. L'avena contiene betaglucani, fibre solubili. Il miglio è altamente digeribile e senza glutine. La segale dà un pane scuro e contiene glutine. Il grano saraceno è base di pizzoccheri e polenta taragna. Quinoa e amaranto sono pseudocereali privi di glutine.",
+  "lingua": "it"
+ },
+ {
+  "nome": "M9",
+  "testo": "Mappa: I tuberi. I tuberi sono ortaggi ricchi di amido e privi di glutine. La patata contiene circa il sedici per cento di amido. Attenzione alla solanina, nella buccia e nelle parti verdi. La manioca va sbucciata, perché la buccia contiene cianuri. Il topinambur contiene inulina, adatta ai diabetici.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MF",
+  "testo": "Mappa: I cereali. Il chicco ha crusca, endosperma e germe. Dal frumento nascono farine diverse per raffinazione e forza. Dalle farine si ottengono pane e pasta. Riso e mais sono energetici e privi di glutine. Orzo, avena e gli altri cereali completano la famiglia. I tuberi sono ortaggi ricchi di amido.",
+  "lingua": "it"
+ },
+ {
+  "nome": "GL1",
+  "testo": "Le parole chiave. Cariosside: il frutto secco dei cereali. Abburattamento: la separazione della farina dalla crusca. Forza della farina: la capacità di trattenere l'anidride carbonica. Trafilatura: la pasta che passa attraverso i fori. Pellagra: la malattia delle tre D, legata alla polenta.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RF1",
+  "testo": "Ripasso finale. I cereali hanno un chicco formato da crusca, endosperma e germe, e si dividono in base al glutine. Dal frumento si ottengono farine diverse per raffinazione e forza, e da queste il pane e la pasta. Riso e mais sono privi di glutine; orzo, avena e gli altri cereali completano la famiglia. I tuberi sono ortaggi ricchi di amido e privi di glutine.",
+  "lingua": "it"
+ }
+]
