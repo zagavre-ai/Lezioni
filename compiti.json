@@ -1,0 +1,21 @@
+{
+ "titolo": "Compiti · Inglese AFM · Marketing",
+ "stato": "compiti della prof.ssa Fontanesi (file ENG_Amm_Lez05_Compiti.pdf, release afm-inglese-triennio-lez05), testo invariato; il PDF contiene anche le pagine «Soluzioni»",
+ "compiti": [
+  {
+   "n": 1,
+   "tipo": "completamento",
+   "testo": "Complete the text on market research using the words provided: quantitative – secondary – opinions – primary – prices – expensive – numbers – trends (two words are extra)."
+  },
+  {
+   "n": 2,
+   "tipo": "vero_falso",
+   "testo": "Are the following statements true or false? Circle the correct option and provide a correction (if false): product-oriented model; Unique Selling Point; penetration pricing; SEO and Social Media Marketing."
+  },
+  {
+   "n": 3,
+   "tipo": "abbinamento",
+   "testo": "Match each marketing term (1-5) with its correct definition (A-E): Marketing mix (4Ps), Own-brand products, Extended marketing mix (7Ps), Content strategy, STP strategy."
+  }
+ ]
+}
