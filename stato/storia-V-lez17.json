@@ -3,10 +3,1225 @@
  "parti": {
   "1": {
    "titolo": "Le fasi conclusive della guerra fredda (1969-1991) · Parte 1",
-   "stato": "IN_MONTAGGIO"
+   "stato": "PRONTA",
+   "voci": "kore",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "si",
+   "video": "Storia_Lez17_Parte1_1080p.mp4",
+   "durata_s": 3099.0,
+   "durata": "51:39.0",
+   "fotogrammi": 92971,
+   "fotogrammi_attesi": 92971,
+   "peso_MB": 286.9,
+   "vtt": "Storia_Lez17_Parte1.vtt",
+   "scheda": {
+    "materia": "Storia",
+    "titolo": "Le fasi conclusive della guerra fredda (1969-1991) · Parte 1",
+    "durata_s": 3099.03,
+    "argomenti": [
+     {
+      "n": 1,
+      "titolo": "Nixon e la fine di Bretton Woods",
+      "inizio_s": 321.833,
+      "quiz_s": 1055.8
+     },
+     {
+      "n": 2,
+      "titolo": "Il Kippur e lo shock petrolifero",
+      "inizio_s": 1061.1,
+      "quiz_s": 1713.133
+     },
+     {
+      "n": 3,
+      "titolo": "Tensioni e accordi in Medio Oriente",
+      "inizio_s": 1718.433,
+      "quiz_s": 2437.933
+     },
+     {
+      "n": 4,
+      "titolo": "La rivoluzione in Iran",
+      "inizio_s": 2443.233,
+      "quiz_s": 2949.033
+     }
+    ],
+    "quiz": {
+     "Q1": {
+      "title": "Quiz 1 · Nixon e la fine di Bretton Woods",
+      "items": [
+       {
+        "p": "Chi diventa presidente degli Stati Uniti nel 1969?",
+        "a": "Richard Nixon",
+        "w": [
+         "Ronald Reagan",
+         "Jimmy Carter",
+         "Lyndon Johnson"
+        ],
+        "e": "Il repubblicano Nixon eredita la guerra in Vietnam e un forte deficit."
+       },
+       {
+        "p": "Quali sono tra le cause del deficit americano?",
+        "a": "Le spese per il Vietnam e i programmi di assistenza sociale",
+        "w": [
+         "Le spese per il piano Marshall",
+         "La guerra di Corea e la corsa allo spazio",
+         "Il crollo della Borsa del 1929"
+        ],
+        "e": "Pesano la guerra in Vietnam e il welfare avviato da Kennedy e Johnson."
+       },
+       {
+        "p": "Quali paesi fanno concorrenza economica agli Stati Uniti?",
+        "a": "Il Giappone e la Germania Ovest",
+        "w": [
+         "L'URSS e la Cina",
+         "L'India e il Brasile",
+         "Il Messico e il Canada"
+        ],
+        "e": "Giappone e Germania Ovest sono alleati, ma esportano e fanno concorrenza."
+       },
+       {
+        "p": "Che cosa decide Nixon nell'agosto 1971?",
+        "a": "Sospende la convertibilità del dollaro in oro",
+        "w": [
+         "Ritira le truppe dal Vietnam",
+         "Entra nella CEE",
+         "Firma i trattati SALT"
+        ],
+        "e": "Così finisce il sistema di Bretton Woods."
+       },
+       {
+        "p": "Qual è una conseguenza della fine di Bretton Woods?",
+        "a": "La fine dei cambi fissi e mercati instabili",
+        "w": [
+         "La nascita del dollaro",
+         "La fine della guerra fredda",
+         "La moneta unica europea"
+        ],
+        "e": "Senza cambi fissi le monete oscillano e i mercati diventano instabili."
+       }
+      ]
+     },
+     "Q2": {
+      "title": "Quiz 2 · Il Kippur e lo shock petrolifero",
+      "items": [
+       {
+        "p": "Chi attacca Israele nel 1973?",
+        "a": "L'Egitto e la Siria",
+        "w": [
+         "L'Iran e l'Iraq",
+         "Il Libano e la Giordania",
+         "L'Arabia Saudita e il Kuwait"
+        ],
+        "e": "Egitto e Siria attaccano nel giorno del Kippur."
+       },
+       {
+        "p": "Perché la guerra si chiama «del Kippur»?",
+        "a": "Perché inizia durante una festa ebraica",
+        "w": [
+         "Perché si combatte vicino a un fiume",
+         "Perché la firma un generale israeliano",
+         "Perché dura un solo giorno"
+        ],
+        "e": "Il Kippur è una festa del calendario ebraico."
+       },
+       {
+        "p": "Che cosa fanno i paesi arabi dell'OPEC?",
+        "a": "Riducono il petrolio e ne quadruplicano il prezzo",
+        "w": [
+         "Regalano petrolio all'Europa",
+         "Entrano nella NATO",
+         "Chiedono aiuti al Fondo Monetario"
+        ],
+        "e": "È una ritorsione contro l'Occidente che sostiene Israele."
+       },
+       {
+        "p": "Che cos'è la stagflazione?",
+        "a": "Stagnazione economica e inflazione insieme",
+        "w": [
+         "Una forte crescita economica",
+         "Una moneta molto stabile",
+         "Un calo dei prezzi"
+        ],
+        "e": "L'economia non cresce e i prezzi salgono."
+       },
+       {
+        "p": "Quale misura arriva in Italia durante la crisi?",
+        "a": "Le targhe alterne",
+        "w": [
+         "La moneta unica",
+         "Il servizio militare per tutti",
+         "La chiusura delle scuole"
+        ],
+        "e": "Le auto potevano circolare solo in alcuni giorni."
+       }
+      ]
+     },
+     "Q3": {
+      "title": "Quiz 3 · Tensioni e accordi in Medio Oriente",
+      "items": [
+       {
+        "p": "Che cosa stabiliscono gli accordi di Camp David (1978)?",
+        "a": "La pace tra Egitto e Israele",
+        "w": [
+         "La nascita dell'OLP",
+         "La fine della guerra Iran-Iraq",
+         "La nascita dello Stato palestinese"
+        ],
+        "e": "L'Egitto è il primo paese arabo a riconoscere Israele."
+       },
+       {
+        "p": "Che cosa accade a Sadat nel 1981?",
+        "a": "Viene assassinato",
+        "w": [
+         "Diventa re",
+         "Vince il Nobel per la letteratura",
+         "Fugge in esilio"
+        ],
+        "e": "Sadat viene isolato dal mondo arabo e assassinato da estremisti."
+       },
+       {
+        "p": "Che cos'è l'OLP?",
+        "a": "L'Organizzazione per la liberazione della Palestina",
+        "w": [
+         "Un'alleanza militare occidentale",
+         "Il partito di governo israeliano",
+         "Un sindacato egiziano"
+        ],
+        "e": "Nel 1982 Israele invade il Libano per cacciare l'OLP."
+       },
+       {
+        "p": "Dove avvengono i massacri del 1982?",
+        "a": "Nei campi profughi di Sabra e Chatila",
+        "w": [
+         "A Teheran",
+         "A Gerusalemme",
+         "Al Cairo"
+        ],
+        "e": "Sono campi profughi palestinesi in Libano."
+       },
+       {
+        "p": "Che cos'è l'Intifada (1987)?",
+        "a": "Una rivolta popolare palestinese",
+        "w": [
+         "Un trattato di pace",
+         "Una guerra tra Iran e Iraq",
+         "Un partito israeliano"
+        ],
+        "e": "Scoppia a Gaza e in Cisgiordania, nei territori occupati."
+       }
+      ]
+     },
+     "Q4": {
+      "title": "Quiz 4 · La rivoluzione in Iran",
+      "items": [
+       {
+        "p": "Chi governa l'Iran prima del 1979?",
+        "a": "Lo Shah Mohammad Reza Pahlavi",
+        "w": [
+         "L'Ayatollah Khomeini",
+         "Saddam Hussein",
+         "Il re Faruk"
+        ],
+        "e": "Un sovrano modernizzatore e vicino all'Occidente."
+       },
+       {
+        "p": "Che cosa nasce in Iran dopo la rivoluzione?",
+        "a": "Una Repubblica islamica",
+        "w": [
+         "Una monarchia costituzionale",
+         "Una repubblica comunista",
+         "Una colonia britannica"
+        ],
+        "e": "Lo Stato si fonda sulla legge islamica."
+       },
+       {
+        "p": "Che cos'è una teocrazia?",
+        "a": "Uno Stato fondato sulla legge religiosa",
+        "w": [
+         "Uno Stato senza leggi",
+         "Uno Stato governato dai militari",
+         "Uno Stato federale"
+        ],
+        "e": "In Iran la legge dello Stato è la sharia."
+       },
+       {
+        "p": "Chi assume la guida della rivoluzione iraniana?",
+        "a": "L'Ayatollah Khomeini",
+        "w": [
+         "Lo Shah",
+         "Saddam Hussein",
+         "Sadat"
+        ],
+        "e": "Khomeini torna dall'esilio ed è la guida spirituale della Repubblica islamica."
+       },
+       {
+        "p": "Che cosa accade nel novembre 1979 a Teheran?",
+        "a": "Gli studenti assaltano l'ambasciata USA e prendono ostaggi",
+        "w": [
+         "Viene firmata la pace con l'Iraq",
+         "Lo Shah torna al potere",
+         "Nasce l'OPEC"
+        ],
+        "e": "Il personale diplomatico resta in ostaggio per oltre un anno."
+       }
+      ]
+     }
+    }
+   },
+   "timeline": [
+    [
+     "T1",
+     321.833,
+     3.6
+    ],
+    [
+     "Q1",
+     1055.8,
+     4.0
+    ],
+    [
+     "T2",
+     1061.1,
+     3.6
+    ],
+    [
+     "T3",
+     1718.433,
+     3.6
+    ],
+    [
+     "T4",
+     2443.233,
+     3.6
+    ],
+    [
+     "GL1",
+     2982.667,
+     45.367
+    ],
+    [
+     "RF1",
+     3029.333,
+     36.6
+    ],
+    [
+     "FIN1",
+     3067.233,
+     12.0
+    ]
+   ]
+  },
+  "2": {
+   "titolo": "Le fasi conclusive della guerra fredda (1969-1991) · Parte 2",
+   "stato": "PRONTA",
+   "voci": "kore",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "si",
+   "video": "Storia_Lez17_Parte2_1080p.mp4",
+   "durata_s": 3111.5,
+   "durata": "51:51.5",
+   "fotogrammi": 93346,
+   "fotogrammi_attesi": 93346,
+   "peso_MB": 283.2,
+   "vtt": "Storia_Lez17_Parte2.vtt",
+   "scheda": {
+    "materia": "Storia",
+    "titolo": "Le fasi conclusive della guerra fredda (1969-1991) · Parte 2",
+    "durata_s": 3111.53,
+    "argomenti": [
+     {
+      "n": 5,
+      "titolo": "La guerra Iran-Iraq",
+      "inizio_s": 62.433,
+      "quiz_s": 528.167
+     },
+     {
+      "n": 6,
+      "titolo": "Nixon, la Cina e la distensione",
+      "inizio_s": 533.467,
+      "quiz_s": 1257.733
+     },
+     {
+      "n": 7,
+      "titolo": "Lo scandalo Watergate",
+      "inizio_s": 1263.033,
+      "quiz_s": 1604.067
+     },
+     {
+      "n": 8,
+      "titolo": "Da Carter a Reagan",
+      "inizio_s": 1609.367,
+      "quiz_s": 2138.7
+     },
+     {
+      "n": 9,
+      "titolo": "Il Cile di Allende e Pinochet",
+      "inizio_s": 2144.0,
+      "quiz_s": 2624.2
+     },
+     {
+      "n": 10,
+      "titolo": "Argentina, desaparecidos e Falkland",
+      "inizio_s": 2629.5,
+      "quiz_s": 2992.567
+     }
+    ],
+    "quiz": {
+     "Q5": {
+      "title": "Quiz 5 · La guerra Iran-Iraq",
+      "items": [
+       {
+        "p": "Chi attacca l'Iran nel 1980?",
+        "a": "L'Iraq di Saddam Hussein",
+        "w": [
+         "L'Unione Sovietica",
+         "Israele",
+         "L'Arabia Saudita"
+        ],
+        "e": "Inizia la guerra Iran-Iraq."
+       },
+       {
+        "p": "Perché Saddam teme la rivoluzione iraniana?",
+        "a": "Teme il contagio della rivoluzione islamica nel suo paese",
+        "w": [
+         "Perché è comunista",
+         "Perché vuole diventare Shah",
+         "Perché l'Iran è nella NATO"
+        ],
+        "e": "Il suo regime è laico e teme i fondamentalisti."
+       },
+       {
+        "p": "Quale risorsa è al centro del conflitto?",
+        "a": "Il petrolio",
+        "w": [
+         "L'oro",
+         "Il carbone",
+         "Il grano"
+        ],
+        "e": "Saddam vuole controllare le risorse e il golfo Persico."
+       },
+       {
+        "p": "Quanto dura la guerra Iran-Iraq?",
+        "a": "Otto anni, dal 1980 al 1988",
+        "w": [
+         "Sei giorni",
+         "Due anni",
+         "Trent'anni"
+        ],
+        "e": "Una guerra lunghissima."
+       },
+       {
+        "p": "Come si conclude la guerra?",
+        "a": "Senza vincitori, con quasi due milioni di morti",
+        "w": [
+         "Con la vittoria dell'Iraq",
+         "Con la vittoria dell'Iran",
+         "Con l'intervento della NATO"
+        ],
+        "e": "Alla fine c'è uno stallo sostanziale."
+       }
+      ]
+     },
+     "Q6": {
+      "title": "Quiz 6 · Nixon, la Cina e la distensione",
+      "items": [
+       {
+        "p": "Con quale paese Nixon apre relazioni nel 1972?",
+        "a": "La Cina di Mao",
+        "w": [
+         "Cuba",
+         "Il Vietnam del Nord",
+         "L'Iran"
+        ],
+        "e": "L'obiettivo è isolare l'URSS."
+       },
+       {
+        "p": "A che cosa servono i trattati SALT 1?",
+        "a": "A limitare gli armamenti nucleari",
+        "w": [
+         "A creare la CEE",
+         "A dividere la Germania",
+         "A fondare l'ONU"
+        ],
+        "e": "Sono firmati da USA e URSS nel 1972."
+       },
+       {
+        "p": "Che cosa stabiliscono gli accordi di Helsinki (1975)?",
+        "a": "Confini europei stabili e rispetto dei diritti umani",
+        "w": [
+         "La fine della guerra in Vietnam",
+         "La moneta unica",
+         "Il ritiro sovietico dall'Afghanistan"
+        ],
+        "e": "Impegnano i blocchi al rispetto dei diritti umani."
+       },
+       {
+        "p": "Perché New York rischia il fallimento negli anni Settanta?",
+        "a": "Perché ha più debiti che entrate e il bilancio è separato da quello federale",
+        "w": [
+         "Perché viene bombardata",
+         "Perché perde la guerra in Vietnam",
+         "Perché esce dagli Stati Uniti"
+        ],
+        "e": "Negli USA, Stato federale, ogni città deve far quadrare il proprio bilancio."
+       },
+       {
+        "p": "Perché Nixon riconosce la Cina comunista?",
+        "a": "Per isolare l'Unione Sovietica",
+        "w": [
+         "Per entrare nel Patto di Varsavia",
+         "Per aiutare Taiwan",
+         "Per finire la guerra di Corea"
+        ],
+        "e": "Mao prende le distanze da Mosca, e Nixon ne approfitta."
+       }
+      ]
+     },
+     "Q7": {
+      "title": "Quiz 7 · Lo scandalo Watergate",
+      "items": [
+       {
+        "p": "Che cosa fanno gli uomini legati a Nixon nel Watergate?",
+        "a": "Mettono microspie nella sede dei democratici",
+        "w": [
+         "Rubano i piani dello scudo spaziale",
+         "Organizzano un colpo di Stato",
+         "Vendono armi all'Iran"
+        ],
+        "e": "È uno spionaggio politico illegale."
+       },
+       {
+        "p": "Che cosa rivelano i nastri della Casa Bianca?",
+        "a": "Che Nixon voleva fermare le indagini dei giudici",
+        "w": [
+         "Che Nixon voleva invadere Cuba",
+         "Che Nixon era malato",
+         "Che Ford era una spia"
+        ],
+        "e": "Il presidente non può bloccare la magistratura."
+       },
+       {
+        "p": "Quando si dimette Nixon?",
+        "a": "Nel 1974",
+        "w": [
+         "Nel 1969",
+         "Nel 1972",
+         "Nel 1981"
+        ],
+        "e": "Annuncia le dimissioni in televisione."
+       },
+       {
+        "p": "Che cosa fa Gerald Ford per Nixon?",
+        "a": "Gli concede la grazia",
+        "w": [
+         "Lo nomina ministro",
+         "Lo fa arrestare",
+         "Lo manda in esilio"
+        ],
+        "e": "Così Nixon non va in prigione."
+       },
+       {
+        "p": "Che cosa dimostra lo scandalo Watergate?",
+        "a": "Che in democrazia la magistratura è indipendente",
+        "w": [
+         "Che il presidente può tutto",
+         "Che gli USA sono una dittatura",
+         "Che il Congresso non conta"
+        ],
+        "e": "I poteri dello Stato sono divisi."
+       }
+      ]
+     },
+     "Q8": {
+      "title": "Quiz 8 · Da Carter a Reagan",
+      "items": [
+       {
+        "p": "Quale paese invade l'URSS nel 1979?",
+        "a": "L'Afghanistan",
+        "w": [
+         "La Polonia",
+         "L'Iran",
+         "La Cina"
+        ],
+        "e": "La distensione entra in crisi."
+       },
+       {
+        "p": "Quale presidente non riesce a risolvere la crisi degli ostaggi?",
+        "a": "Jimmy Carter",
+        "w": [
+         "Richard Nixon",
+         "Ronald Reagan",
+         "Gerald Ford"
+        ],
+        "e": "La crisi pesa sulla sua sconfitta elettorale."
+       },
+       {
+        "p": "Come Reagan definisce l'URSS?",
+        "a": "«Impero del male»",
+        "w": [
+         "«Paese amico»",
+         "«Gigante buono»",
+         "«Alleato necessario»"
+        ],
+        "e": "Reagan sceglie la linea dura."
+       },
+       {
+        "p": "Che cos'è lo «scudo spaziale»?",
+        "a": "Un progetto militare di difesa anche dallo spazio",
+        "w": [
+         "Un satellite per le comunicazioni",
+         "Un trattato di disarmo",
+         "Una missione sulla Luna"
+        ],
+        "e": "Fu soprannominato «Star Wars»."
+       },
+       {
+        "p": "Quando inizia la presidenza Reagan?",
+        "a": "Nel 1981",
+        "w": [
+         "Nel 1969",
+         "Nel 1974",
+         "Nel 1991"
+        ],
+        "e": "Reagan resta presidente per due mandati."
+       }
+      ]
+     },
+     "Q9": {
+      "title": "Quiz 9 · Il Cile di Allende e Pinochet",
+      "items": [
+       {
+        "p": "Chi viene eletto in Cile nel 1970?",
+        "a": "Il socialista Salvador Allende",
+        "w": [
+         "Il generale Pinochet",
+         "Fidel Castro",
+         "Juan Carlos"
+        ],
+        "e": "Allende avvia riforme e nazionalizzazioni."
+       },
+       {
+        "p": "Chi guida il golpe del settembre 1973 in Cile?",
+        "a": "Augusto Pinochet",
+        "w": [
+         "Salvador Allende",
+         "Saddam Hussein",
+         "Francisco Franco"
+        ],
+        "e": "Pinochet impone una dittatura fino al 1988."
+       },
+       {
+        "p": "Quale paese latinoamericano è guidato da Fidel Castro?",
+        "a": "Cuba",
+        "w": [
+         "Il Cile",
+         "L'Argentina",
+         "Il Messico"
+        ],
+        "e": "Cuba è un regime marxista alleato dell'URSS."
+       },
+       {
+        "p": "Chi sono i Contras in Nicaragua?",
+        "a": "Guerriglieri sostenuti dagli USA contro il governo sandinista",
+        "w": [
+         "Soldati sovietici",
+         "Studenti cileni",
+         "Monaci buddisti"
+        ],
+        "e": "Gli Stati Uniti li sostengono negli anni di Reagan."
+       },
+       {
+        "p": "Fino a quando dura la dittatura di Pinochet?",
+        "a": "Fino al 1988",
+        "w": [
+         "Fino al 1974",
+         "Fino al 2001",
+         "Fino al 1979"
+        ],
+        "e": "Pinochet impone una dittatura feroce e repressiva."
+       }
+      ]
+     },
+     "Q10": {
+      "title": "Quiz 10 · Argentina, desaparecidos e Falkland",
+      "items": [
+       {
+        "p": "Chi sono i desaparecidos?",
+        "a": "Gli oppositori fatti sparire dalle dittature",
+        "w": [
+         "I soldati delle Falkland",
+         "I profughi palestinesi",
+         "I minatori britannici"
+        ],
+        "e": "In Argentina spariscono migliaia di oppositori."
+       },
+       {
+        "p": "Che cosa chiedono le Madri di Plaza de Mayo?",
+        "a": "La verità sui figli scomparsi",
+        "w": [
+         "La guerra al Regno Unito",
+         "Il ritorno della monarchia",
+         "L'ingresso nella CEE"
+        ],
+        "e": "Manifestano con coraggio a Buenos Aires."
+       },
+       {
+        "p": "Quale guerra accelera la fine della giunta argentina?",
+        "a": "La guerra delle Falkland (1982)",
+        "w": [
+         "La guerra del Kippur",
+         "La guerra Iran-Iraq",
+         "La guerra del Vietnam"
+        ],
+        "e": "L'Argentina viene sconfitta dal Regno Unito."
+       },
+       {
+        "p": "Chi governa il Regno Unito durante la guerra delle Falkland?",
+        "a": "Margaret Thatcher",
+        "w": [
+         "Winston Churchill",
+         "Tony Blair",
+         "Elisabetta II da sola"
+        ],
+        "e": "La premier manda la flotta e riconquista le isole."
+       },
+       {
+        "p": "Come chiamano gli argentini le isole Falkland?",
+        "a": "Malvinas",
+        "w": [
+         "Canarie",
+         "Azzorre",
+         "Galápagos"
+        ],
+        "e": "Per gli argentini sono le Malvinas."
+       }
+      ]
+     }
+    }
+   },
+   "timeline": [
+    [
+     "T5",
+     62.433,
+     3.6
+    ],
+    [
+     "T6",
+     533.467,
+     3.6
+    ],
+    [
+     "T7",
+     1263.033,
+     3.6
+    ],
+    [
+     "T8",
+     1609.367,
+     3.6
+    ],
+    [
+     "T9",
+     2144.0,
+     3.6
+    ],
+    [
+     "T10",
+     2629.5,
+     3.6
+    ],
+    [
+     "Q10",
+     2992.567,
+     4.0
+    ],
+    [
+     "GL2",
+     3014.033,
+     38.367
+    ],
+    [
+     "RF2",
+     3053.7,
+     26.667
+    ],
+    [
+     "FIN2",
+     3081.667,
+     10.067
+    ]
+   ]
+  },
+  "3": {
+   "titolo": "Le fasi conclusive della guerra fredda (1969-1991) · Parte 3",
+   "stato": "PRONTA",
+   "voci": "kore",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "si",
+   "video": "Storia_Lez17_Parte3_1080p.mp4",
+   "durata_s": 3084.8,
+   "durata": "51:24.8",
+   "fotogrammi": 92543,
+   "fotogrammi_attesi": 92543,
+   "peso_MB": 274.3,
+   "vtt": "Storia_Lez17_Parte3.vtt",
+   "scheda": {
+    "materia": "Storia",
+    "titolo": "Le fasi conclusive della guerra fredda (1969-1991) · Parte 3",
+    "durata_s": 3084.77,
+    "argomenti": [
+     {
+      "n": 11,
+      "titolo": "Thatcher e il neoliberismo",
+      "inizio_s": 63.733,
+      "quiz_s": 438.6
+     },
+     {
+      "n": 12,
+      "titolo": "Nuove democrazie e allargamento della CEE",
+      "inizio_s": 443.9,
+      "quiz_s": 847.367
+     },
+     {
+      "n": 13,
+      "titolo": "La crisi del comunismo e Gorbačëv",
+      "inizio_s": 852.667,
+      "quiz_s": 1434.533
+     },
+     {
+      "n": 14,
+      "titolo": "Il 1989 in Europa orientale",
+      "inizio_s": 1439.833,
+      "quiz_s": 1913.233
+     },
+     {
+      "n": 15,
+      "titolo": "La fine dell'Unione Sovietica",
+      "inizio_s": 1918.533,
+      "quiz_s": 2488.567
+     },
+     {
+      "n": 16,
+      "titolo": "L'altro 1989: la Cina",
+      "inizio_s": 2493.867,
+      "quiz_s": 2938.5
+     }
+    ],
+    "quiz": {
+     "Q11": {
+      "title": "Quiz 11 · Thatcher e il neoliberismo",
+      "items": [
+       {
+        "p": "Come viene soprannominata Margaret Thatcher?",
+        "a": "La Lady di ferro",
+        "w": [
+         "La regina rossa",
+         "La signora della pace",
+         "La prima della classe"
+        ],
+        "e": "Non cede neppure allo sciopero dei minatori."
+       },
+       {
+        "p": "Che cosa prevede la politica neoliberista?",
+        "a": "Privatizzazioni e meno intervento dello Stato",
+        "w": [
+         "Nazionalizzazioni e più Stato",
+         "Economia pianificata",
+         "Chiusura delle frontiere"
+        ],
+        "e": "«Meno Stato, più mercato»."
+       },
+       {
+        "p": "Quale categoria di lavoratori sciopera a lungo contro Thatcher?",
+        "a": "I minatori",
+        "w": [
+         "I medici",
+         "I piloti",
+         "Gli insegnanti"
+        ],
+        "e": "Thatcher non cede: da qui il soprannome di Lady di ferro."
+       },
+       {
+        "p": "Quante elezioni vince Thatcher?",
+        "a": "Tre",
+        "w": [
+         "Una",
+         "Due",
+         "Cinque"
+        ],
+        "e": "Resta in carica dal 1979 al 1990."
+       },
+       {
+        "p": "Come si chiama la politica economica liberista di Reagan?",
+        "a": "Reaganomics",
+        "w": [
+         "New Deal",
+         "Perestrojka",
+         "Welfare State"
+        ],
+        "e": "Anche negli USA si punta su meno Stato e più mercato."
+       }
+      ]
+     },
+     "Q12": {
+      "title": "Quiz 12 · Nuove democrazie e allargamento della CEE",
+      "items": [
+       {
+        "p": "Quali paesi entrano nella CEE nel 1973?",
+        "a": "Regno Unito, Irlanda e Danimarca",
+        "w": [
+         "Spagna, Portogallo e Grecia",
+         "Polonia e Ungheria",
+         "Svezia e Norvegia"
+        ],
+        "e": "È il primo allargamento della Comunità."
+       },
+       {
+        "p": "Quando entrano Spagna e Portogallo nella CEE?",
+        "a": "Nel 1986",
+        "w": [
+         "Nel 1957",
+         "Nel 1973",
+         "Nel 1991"
+        ],
+        "e": "Sono paesi usciti dalle dittature."
+       },
+       {
+        "p": "Che cosa accade nel 1979 in Europa?",
+        "a": "Le prime elezioni a suffragio universale del Parlamento europeo",
+        "w": [
+         "La nascita dell'euro",
+         "La caduta del Muro di Berlino",
+         "La firma dei Trattati di Roma"
+        ],
+        "e": "I cittadini votano per la prima volta il Parlamento europeo."
+       },
+       {
+        "p": "Come si chiama la rivoluzione che rovescia la dittatura in Portogallo (1974)?",
+        "a": "La rivoluzione dei garofani",
+        "w": [
+         "La rivoluzione di velluto",
+         "La rivoluzione culturale",
+         "La rivoluzione d'ottobre"
+        ],
+        "e": "Nelle canne dei fucili spuntano dei fiori."
+       },
+       {
+        "p": "Chi vince le elezioni presidenziali francesi del 1981?",
+        "a": "Il socialista François Mitterrand",
+        "w": [
+         "Charles de Gaulle",
+         "Margaret Thatcher",
+         "Juan Carlos"
+        ],
+        "e": "È la prima vittoria esplicita della sinistra."
+       }
+      ]
+     },
+     "Q13": {
+      "title": "Quiz 13 · La crisi del comunismo e Gorbačëv",
+      "items": [
+       {
+        "p": "Come si può descrivere l'URSS di Brežnev?",
+        "a": "Stagnazione economica e ritardo tecnologico",
+        "w": [
+         "Crescita rapidissima",
+         "Democrazia parlamentare",
+         "Pace e disarmo totale"
+        ],
+        "e": "Pesano anche le spese militari e la guerra in Afghanistan."
+       },
+       {
+        "p": "Che cos'è Solidarność?",
+        "a": "Un sindacato polacco indipendente e non comunista",
+        "w": [
+         "Un partito sovietico",
+         "Un esercito ungherese",
+         "Un giornale tedesco"
+        ],
+        "e": "È guidato da Lech Wałęsa."
+       },
+       {
+        "p": "Quando Gorbačëv diventa leader sovietico?",
+        "a": "Nel 1985",
+        "w": [
+         "Nel 1953",
+         "Nel 1979",
+         "Nel 1991"
+        ],
+        "e": "Lancia subito un programma di riforme."
+       },
+       {
+        "p": "Che cosa significa «perestrojka»?",
+        "a": "Ristrutturazione",
+        "w": [
+         "Trasparenza",
+         "Rivoluzione",
+         "Pace"
+        ],
+        "e": "È la ristrutturazione economica verso il mercato."
+       },
+       {
+        "p": "Che cosa significa «glasnost»?",
+        "a": "Trasparenza",
+        "w": [
+         "Ristrutturazione",
+         "Disarmo",
+         "Unione"
+        ],
+        "e": "Porta libertà di espressione e fine della censura."
+       }
+      ]
+     },
+     "Q14": {
+      "title": "Quiz 14 · Il 1989 in Europa orientale",
+      "items": [
+       {
+        "p": "Quale scelta di Gorbačëv favorisce il 1989?",
+        "a": "Non intervenire militarmente nei paesi satelliti",
+        "w": [
+         "Invadere la Polonia",
+         "Chiudere le frontiere",
+         "Rompere con gli Stati Uniti"
+        ],
+        "e": "Senza i carri armati sovietici i regimi crollano."
+       },
+       {
+        "p": "Quando cade il Muro di Berlino?",
+        "a": "Il 9 novembre 1989",
+        "w": [
+         "Il 9 novembre 1961",
+         "Il 26 dicembre 1991",
+         "L'11 settembre 1973"
+        ],
+        "e": "Berlinesi dell'Est e dell'Ovest si ritrovano."
+       },
+       {
+        "p": "Dove passano molti tedeschi dell'Est nell'estate 1989?",
+        "a": "Dall'Ungheria all'Austria",
+        "w": [
+         "Dalla Polonia alla Russia",
+         "Dalla Romania alla Turchia",
+         "Dall'Italia alla Francia"
+        ],
+        "e": "Da lì raggiungono la Germania Ovest."
+       },
+       {
+        "p": "Quale paese ha una transizione violenta nel 1989?",
+        "a": "La Romania di Ceaușescu",
+        "w": [
+         "La Polonia",
+         "L'Ungheria",
+         "La Cecoslovacchia"
+        ],
+        "e": "Il dittatore non cede il potere e viene travolto."
+       },
+       {
+        "p": "Che cosa accade quando il regime sovietico allenta il controllo?",
+        "a": "I popoli dell'Est vogliono staccarsi",
+        "w": [
+         "Il regime diventa più forte",
+         "Gli USA invadono la Polonia",
+         "L'URSS conquista l'Austria"
+        ],
+        "e": "Un regime fondato sulla repressione non regge quando la allenta."
+       }
+      ]
+     },
+     "Q15": {
+      "title": "Quiz 15 · La fine dell'Unione Sovietica",
+      "items": [
+       {
+        "p": "Quando si riunifica la Germania?",
+        "a": "Nel 1990",
+        "w": [
+         "Nel 1949",
+         "Nel 1989",
+         "Nel 1995"
+        ],
+        "e": "La Germania Est entra nella Repubblica Federale."
+       },
+       {
+        "p": "Che cosa accade nel dicembre 1991?",
+        "a": "L'URSS si dissolve e nasce la CSI",
+        "w": [
+         "Cade il Muro di Berlino",
+         "Gorbačëv diventa leader",
+         "L'URSS invade l'Afghanistan"
+        ],
+        "e": "Gorbačëv si dimette."
+       },
+       {
+        "p": "Quali repubbliche restano fuori dalla CSI?",
+        "a": "Le repubbliche baltiche",
+        "w": [
+         "L'Ucraina e la Bielorussia",
+         "Il Kazakistan e l'Uzbekistan",
+         "La Russia e la Moldavia"
+        ],
+        "e": "Estonia, Lettonia e Lituania si staccano completamente."
+       },
+       {
+        "p": "Che cosa accade nell'agosto 1991 a Mosca?",
+        "a": "Fallisce un colpo di Stato dei comunisti conservatori",
+        "w": [
+         "Cade il Muro di Berlino",
+         "Gorbačëv diventa leader",
+         "Nasce la NATO"
+        ],
+        "e": "Dopo il golpe fallito le repubbliche dichiarano l'indipendenza."
+       },
+       {
+        "p": "Che cosa vive la Russia negli anni Novanta?",
+        "a": "Una crisi economica devastante",
+        "w": [
+         "Un boom economico",
+         "Una guerra con la Cina",
+         "Il ritorno degli zar"
+        ],
+        "e": "Il passaggio al libero mercato è difficilissimo."
+       }
+      ]
+     },
+     "Q16": {
+      "title": "Quiz 16 · L'altro 1989: la Cina",
+      "items": [
+       {
+        "p": "Chi avvia le «Quattro modernizzazioni» in Cina?",
+        "a": "Deng Xiaoping",
+        "w": [
+         "Mao Zedong",
+         "Chiang Kai-shek",
+         "Gorbačëv"
+        ],
+        "e": "Le riforme partono dalla fine degli anni Settanta."
+       },
+       {
+        "p": "A che cosa si apre la Cina di Deng?",
+        "a": "Al capitalismo e agli investimenti esteri",
+        "w": [
+         "Alla democrazia parlamentare",
+         "All'economia pianificata sovietica",
+         "Alla monarchia"
+        ],
+        "e": "L'economia cresce in modo vertiginoso."
+       },
+       {
+        "p": "Che cosa non cambia nella Cina di Deng?",
+        "a": "Il controllo assoluto del Partito Comunista",
+        "w": [
+         "La proprietà privata",
+         "Gli investimenti esteri",
+         "La crescita economica"
+        ],
+        "e": "L'apertura economica non porta riforme democratiche."
+       },
+       {
+        "p": "Che cosa chiedono gli studenti in piazza Tienanmen?",
+        "a": "Democrazia e libertà politiche",
+        "w": [
+         "Il ritorno di Mao",
+         "L'uscita dall'ONU",
+         "La guerra con Taiwan"
+        ],
+        "e": "Manifestano a Pechino nella primavera del 1989."
+       },
+       {
+        "p": "Come risponde il governo cinese alla protesta?",
+        "a": "Con l'esercito e i carri armati",
+        "w": [
+         "Con libere elezioni",
+         "Con le dimissioni del governo",
+         "Con un referendum"
+        ],
+        "e": "La protesta viene repressa nel sangue a giugno."
+       }
+      ]
+     }
+    }
+   },
+   "timeline": [
+    [
+     "T11",
+     63.733,
+     3.6
+    ],
+    [
+     "Q11",
+     438.6,
+     4.0
+    ],
+    [
+     "T12",
+     443.9,
+     3.6
+    ],
+    [
+     "Q12",
+     847.367,
+     4.0
+    ],
+    [
+     "T13",
+     852.667,
+     3.6
+    ],
+    [
+     "Q13",
+     1434.533,
+     4.0
+    ],
+    [
+     "T14",
+     1439.833,
+     3.6
+    ],
+    [
+     "Q14",
+     1913.233,
+     4.0
+    ],
+    [
+     "T15",
+     1918.533,
+     3.6
+    ],
+    [
+     "Q15",
+     2488.567,
+     4.0
+    ],
+    [
+     "T16",
+     2493.867,
+     3.6
+    ],
+    [
+     "Q16",
+     2938.5,
+     4.0
+    ],
+    [
+     "GL3",
+     2970.367,
+     46.033
+    ],
+    [
+     "RF3",
+     3017.7,
+     35.633
+    ],
+    [
+     "FIN3",
+     3054.633,
+     10.333
+    ]
+   ]
   }
  },
- "manca": "test finale: Excel del docente (zip 008); COMPITI_MANCANTI",
+ "manca": "",
  "serve_master": [
   {
    "quando": "14/11 12:53",
@@ -18,10 +1233,14 @@
   {
    "quando": "14/11 12:53",
    "testo": "Storia V · chat S4. Docente 102:12 misurato: 3 Parti da circa 50-51 min (stima). Slide ricavate dal video. Testi delle voci (94, stima 42,6 min) e quiz (80) sul ramo voci-storia-V-lez17."
+  },
+  {
+   "quando": "14/11 16:21",
+   "testo": "CONSEGNATA sul ramo consegna-storia-V-lez17 (14/11, chat S4). 3 Parti: 51:39,0 · 51:51,5 · 51:24,8 (t_verifica/t_compiti nel LEGGIMI e nelle timeline). Controlli: fotogrammi, peso, quiz a 0,0 s, nessun fermo, −16 LUFS: OK. Sottotitoli: stesso falso allarme del controllo «attacco entro 0,3 s» visto sulla 14 (code della frase precedente)."
   }
  ],
  "materia": "Storia V",
  "lezione": "Lezione 17 · Le fasi conclusive della guerra fredda (1969-1991)",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 12:53:18"
+ "aggiornato": "2026-11-14 16:21:05"
 }
