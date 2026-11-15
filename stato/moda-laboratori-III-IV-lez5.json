@@ -3,7 +3,7 @@
  "parti": {
   "1": {
    "titolo": "Industrializzazione",
-   "stato": "IN_MONTAGGIO"
+   "stato": "FERMA"
   }
  },
  "manca": "COMPITI_MANCANTI",
@@ -22,9 +22,13 @@
   {
    "quando": "14/11 22:39",
    "testo": "Testi voci e quiz inviati sul ramo voci-moda-laboratori-III-IV-lez5 (143 voci)."
+  },
+  {
+   "quando": "15/11 00:43",
+   "testo": "FERMA: pezzi montati con voci segnaposto (stima 73,9 min in una Parte: il docente parla 59 min). Attendo voci Kore dalla master."
   }
  ],
  "materia": "Moda · Laboratori III-IV · chat LAB",
  "lezione": "Industrializzazione",
- "aggiornato": "2026-11-15 00:14:14"
+ "aggiornato": "2026-11-15 00:43:39"
 }
