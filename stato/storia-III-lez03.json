@@ -1,0 +1,27 @@
+{
+ "tag": "storia-III-lez03",
+ "parti": {
+  "1": {
+   "stato": "IN_MONTAGGIO",
+   "voci": "segnaposto"
+  }
+ },
+ "manca": "COMPITI_MANCANTI",
+ "serve_master": [
+  {
+   "quando": "15/11 03:15",
+   "testo": "Lez03: mancano voci animazioni (AN) e introduzione; montata senza AN. Durata una Parte probabile oltre 65 min: dimmi se preferisci due Parti."
+  }
+ ],
+ "domande_sara": [],
+ "note": [
+  {
+   "quando": "15/11 03:15",
+   "testo": "pronta, attende voci Kore: richieste CM1-CM7, CMF1 sul ramo voci. Docente 58 min + mappe: una sola Parte oltre 65 min, da valutare"
+  }
+ ],
+ "materia": "Storia III",
+ "lezione": "Lezione 3 · L'Occidente in espansione",
+ "docente": "Prof. Giorgio Mazzotti",
+ "aggiornato": "2026-11-15 03:15:34"
+}
