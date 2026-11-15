@@ -24,7 +24,11 @@
   {
    "quando": "15/11 02:35",
    "testo": "pronta, attende voci Kore (mappe MAP1-7, MAPF sul ramo voci-moda-economia-III-IV-lez02). Durata misurata del montaggio: 67,4 min (docente 50,1 min + approfondimenti, mappe, quiz). Oltre i ~65: serve decisione master se tagliare 2 min di aggiunte."
+  },
+  {
+   "quando": "15/11 08:58",
+   "testo": "Letto aggiornamento 15/11 09:45: voci bloccate dal tetto di spesa. Pronta con segnaposto per le 8 mappe; pronti quiz, test, dispensa A4 con mappe, montaggio unito (67,4 min). Manca solo: voci MAP1-7+MAPF -> dopo_voci.sh, codifica unica, sottotitoli, controlli, consegna."
   }
  ],
- "aggiornato": "2026-11-15 02:35:01"
+ "aggiornato": "2026-11-15 08:58:55"
 }
