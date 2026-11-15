@@ -21,3 +21,7 @@
   6. **bande blu** sopra e sotto in pausa, verifica e compiti;
   7. **slide sincronizzate** con la voce del docente (±1,5 s) e nessun residuo grafico del video originale (logo, bordi) sotto il riquadro del docente;
   8. mai il numero della lezione nel video; 1080p, < 400 MB, `controllo_finale.py` e `controllo_jingle.py` superati.
+## 15/11 notte (03:55) · DECISIONE DI SARA SULLA DURATA (sostituisce il punto 1 della lista di controllo)
+- Gli approfondimenti animati si fanno **solo con il materiale della lezione stessa** (videodispensa, slide, libro, prove del prof di QUELLA lezione). **Mai anticipare argomenti delle lezioni successive** per allungare: la direzione non lo vuole.
+- Se con il materiale della lezione non si arriva a 50 minuti, **va bene così**: la lezione è PRONTA con la durata misurata (scrivila nello stato). Non si inventa e non si allunga. Le lezioni brevi le compensa Sara assegnandone di più nel piano di studi.
+- Resta obbligatorio tutto il resto: approfondimenti e mappe per ogni argomento (dal materiale della lezione), quiz, verifica 80%, compiti nel video, bande blu, slide sincronizzate.
