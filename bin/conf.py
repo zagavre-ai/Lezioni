@@ -33,3 +33,10 @@ CONF['20']=dict(N=20,titolo="Carlo Emilio Gadda",cam=(820,340,242,132),
        dict(t="La cognizione del dolore",l=['La cognizione','del dolore'],ex='Maradagàl · Gonzalo · la madre',sl=[6],img=None,a=891.5),
        dict(t="L'Adalgisa ed Eros e Priapo",l=["L’Adalgisa ed",'Eros e Priapo'],ex='satira milanese · critica al fascismo',sl=[7],img=None,a=1128.0),
        dict(t="Il giallo filosofico",l=['Il giallo filosofico','Quer pasticciaccio'],ex='Ingravallo · garbuglio · babele di voci',sl=[8],img=None,a=1261.0)])
+CONF['25']=dict(N=25,titolo="Pier Paolo Pasolini",cam=(820,340,242,132),
+  arg=[dict(t="La vita e gli anni friulani",l=['La vita e gli','anni friulani'],ex='Bologna · Casarsa · PCI · scandalo 1949',sl=[2],img=None,a=17.5),
+       dict(t="Roma e il successo letterario",l=['Roma e il','successo letterario'],ex='Officina · Ragazzi di vita · marxismo',sl=[3],img=None,a=244.5),
+       dict(t="La svolta degli anni Sessanta",l=['La svolta degli','anni Sessanta'],ex='mutazione antropologica · cinema · 1975',sl=[4,5],img=None,a=367.0,st={4:367.0,5:490.0}),
+       dict(t="Le prime fasi poetiche e i conflitti interiori",l=['Poesia e','conflitti interiori'],ex='ermetismo · Friuli · marxismo eretico',sl=[6,7],img=None,a=629.0,st={6:629.0,7:777.5}),
+       dict(t="La narrativa e il cinema",l=['La narrativa','e il cinema'],ex='borgate · sottoproletariato · Accattone',sl=[8,9],img=None,a=875.0,st={8:875.0,9:1022.0}),
+       dict(t="L'ultimo Pasolini",l=["L’ultimo Pasolini"],ex='Scritti corsari · consumismo · Terzo Mondo',sl=[10],img=None,a=1081.0)])
