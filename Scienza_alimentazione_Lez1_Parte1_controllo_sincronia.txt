@@ -1,0 +1,9 @@
+Controllo sincronia slide/voce · 42 frasi verificabili su 77
+unità 4 · riga accesa a 397.85 s · detta a 398.11 s · scarto +0.26 s · «Il nostro corpo è composto per il 97%  da quattro » (parola «97%»)
+unità 6 · riga accesa a 455.55 s · detta a 455.75 s · scarto +0.20 s · «Macronutrienti energetici: glucidi e protidi (4 kc» (parola «macronutrienti?»)
+unità 26 · riga accesa a 1194.60 s · detta a 1194.77 s · scarto +0.17 s · «2000: Inizia la produzione sperimentale di organis» (parola «organismi»)
+unità 35 · riga accesa a 1463.28 s · detta a 1457.98 s · scarto -5.30 s · «Secondo l'origine merceologica distinguiamo alimen» (parola «distinte.»)
+unità 46 · riga accesa a 1649.06 s · detta a 1649.31 s · scarto +0.25 s · «plastici: sono ricchi di proteine;» (parola «plastici»)
+tutte le frasi: scarto medio +0.05 s, massimo 5.30 s, oltre 1,5 s: 2
+ESITO: DA SISTEMARE
+Note: le 2 frasi oltre 1,5 s sono l'unità 35 (la parola trovata «distinte» è una corrispondenza sbagliata del controllo: la riga si accende dove la docente dice «origine merceologica», quindi è corretta) e l'unità 97 (UNICEF: riga accesa 1,7 s prima della parola «fondo»). Il controllo usa la trascrizione dell'audio del video finale; l'istante di accensione è quello calcolato dal montaggio, non letto fotogramma per fotogramma.

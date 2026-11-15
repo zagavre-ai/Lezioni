@@ -1,0 +1,21 @@
+CONSEGNA alb-alimentazione-III-IV-lez01 · Il mondo dell'alimentazione · video 1080p, voci Kore
+
+Una sola Parte: durata misurata 69:19 (4158,9 s), peso 244,4 MiB, 1920x1080, x264 veryfast CRF 19, AAC 192k 48 kHz, volume del parlato -16,1 LUFS.
+La docente dura 58,7 min; con le 8 mappe animate, il glossario e la chiusura la Parte esce a 69 min (oltre i 60): serve la decisione della master (una Parte da 69 min oppure due da circa 35 min).
+
+Correzioni del 15/11 02:05
+1) Consegna su git a pezzi da 90 MiB + sha256 (questo ramo).
+2) Sottolineatura: ogni riga si accende sulla prima parola chiave detta dalla docente (tempi parola per parola, tools/sync_parole.py). Scarti misurati: vedi controllo_sincronia.txt (5 punti a caso + tutte le righe verificabili).
+3) Cerchio della docente: ritaglio tutto dentro il cerchio del video originale, disco pieno #0B1530, maschera sfumata 3 px, anello #FFE600 di 6 px. Controllato su 3 fotogrammi ingranditi al 200% (a 120 s, 1500 s, 3000 s).
+4) Qualità: intermedi a CRF 12, una sola codifica finale (lanczos, 1080p, CRF 19, maxrate 16M, AAC 192k).
+
+Controlli (controllo_finale.py): fotogrammi = durata x 30 OK; peso OK; 1920x1080 OK; scatto dei Quiz 0,0 s (8 su 8) OK; nessun fermo immagine nei pezzi della docente; volume OK.
+Sottotitoli: 806 blocchi, nessuno sovrapposto o oltre la fine; l'attacco sulla voce entro 0,3 s è verificato su soli 16 blocchi con 10 buoni; per gli altri la voce è sotto la soglia del controllo. NON confermato blocco per blocco.
+
+Tempi per lo stato: t_verifica 4134.3 s · t_sigla_finale 4140.9 s · t_compiti_intro 4147.5 s · t_compiti 4152.6 s.
+
+Da riascoltare (la master le segna «DA CONTROLLARE»; le differenze viste nella trascrizione sembrano errori del riconoscimento, ma io non ho ascoltato): voci M7 e RF1.
+Immagini del libro in alta risoluzione: non ancora arrivate (12 figure); le slide dove la docente commenta le figure restano solo testo.
+Dispensa A4 con le mappe: Dispensa_A4_Il_mondo_dell_alimentazione.pdf (51 pagine).
+
+Ricomporre: cat Scienza_alimentazione_Lez1_Parte1_1080p.mp4.parte_* > Scienza_alimentazione_Lez1_Parte1_1080p.mp4 e verificare con sha256sum -c Scienza_alimentazione_Lez1_Parte1_1080p.mp4.sha256.

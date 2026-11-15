@@ -1,0 +1,497 @@
+{
+ "materia": "Scienza e cultura dell'alimentazione",
+ "titolo": "Il mondo dell'alimentazione · Parte 1",
+ "durata_s": 4158.88,
+ "argomenti": [
+  {
+   "n": 1,
+   "titolo": "Alimentazione e nutrizione",
+   "inizio_s": 43.466,
+   "quiz_s": 297.332
+  },
+  {
+   "n": 2,
+   "titolo": "Nutrienti e metabolismo",
+   "inizio_s": 302.632,
+   "quiz_s": 645.798
+  },
+  {
+   "n": 3,
+   "titolo": "La storia dell'alimentazione",
+   "inizio_s": 651.098,
+   "quiz_s": 1271.331
+  },
+  {
+   "n": 4,
+   "titolo": "Gli alimenti e le loro classificazioni",
+   "inizio_s": 1276.631,
+   "quiz_s": 1993.164
+  },
+  {
+   "n": 5,
+   "titolo": "Fabbisogno energetico e distribuzione dei pasti",
+   "inizio_s": 1998.464,
+   "quiz_s": 2607.531
+  },
+  {
+   "n": 6,
+   "titolo": "LARN e Linee guida per una sana alimentazione",
+   "inizio_s": 2612.831,
+   "quiz_s": 3205.23
+  },
+  {
+   "n": 7,
+   "titolo": "La Dieta Mediterranea e le altre diete",
+   "inizio_s": 3210.53,
+   "quiz_s": 3775.029
+  },
+  {
+   "n": 8,
+   "titolo": "Gli enti dell'alimentazione",
+   "inizio_s": 3780.329,
+   "quiz_s": 4042.828
+  }
+ ],
+ "quiz": {
+  "Q1": {
+   "title": "Quiz 1 · Alimentazione e nutrizione",
+   "items": [
+    {
+     "p": "Che cos'è l'alimentazione?",
+     "a": "L'atto volontario e consapevole di scegliere e ingerire cibi e bevande.",
+     "w": [
+      "L'insieme dei processi involontari con cui l'organismo assorbe i nutrienti.",
+      "L'insieme delle trasformazioni chimiche che avvengono nelle cellule.",
+      "La digestione dei cibi che avviene nello stomaco."
+     ],
+     "ref": "L'alimentazione è l'atto volontario e consapevole che consiste nella scelta e nell'ingestione di cibi e bevande."
+    },
+    {
+     "p": "Da quali fattori è influenzata l'alimentazione?",
+     "a": "Da fattori biologici, psicologici e socio-culturali.",
+     "w": [
+      "Solo da fattori biologici.",
+      "Solo da fattori economici.",
+      "Solo dal clima e dalla posizione geografica."
+     ],
+     "ref": "L'alimentazione è influenzata da fattori biologici, psicologici e socio-culturali."
+    },
+    {
+     "p": "Attraverso la nutrizione l'organismo…",
+     "a": "digerisce, assorbe e utilizza i nutrienti necessari per le funzioni vitali.",
+     "w": [
+      "sceglie i cibi in base ai propri gusti.",
+      "acquista e prepara gli alimenti.",
+      "conserva gli alimenti più a lungo."
+     ],
+     "ref": "La nutrizione rappresenta l'insieme dei processi involontari e fisiologici attraverso i quali l'organismo digerisce, assorbe e utilizza i nutrienti necessari per le proprie funzioni vitali."
+    },
+    {
+     "p": "Quale consiglio dava Leonardo da Vinci?",
+     "a": "«Non mangiar senza voglia e cena leve».",
+     "w": [
+      "«Mangia molto la sera per dormire bene».",
+      "«Salta la colazione e abbonda a pranzo».",
+      "«Mangia sempre, anche senza appetito»."
+     ],
+     "ref": "Leonardo da Vinci, uno dei primi a studiare l'anatomia legata alla nutrizione, consigliava: «non mangiar senza voglia e cena leve»."
+    },
+    {
+     "p": "La nutrizione è un processo…",
+     "a": "involontario e fisiologico.",
+     "w": [
+      "volontario e consapevole.",
+      "solo culturale e sociale.",
+      "legato solo alla scelta dei cibi."
+     ],
+     "ref": "La nutrizione rappresenta l'insieme dei processi involontari e fisiologici attraverso i quali l'organismo digerisce, assorbe e utilizza i nutrienti."
+    }
+   ]
+  },
+  "Q2": {
+   "title": "Quiz 2 · Nutrienti e metabolismo",
+   "items": [
+    {
+     "p": "Perché l'uomo è un organismo eterotrofo?",
+     "a": "Perché deve ricavare energia consumando altri organismi.",
+     "w": [
+      "Perché produce sostanze organiche da materia inorganica.",
+      "Perché ricava energia solo dalla luce del sole.",
+      "Perché non ha bisogno di energia dall'esterno."
+     ],
+     "ref": "Noi siamo organismi eterotrofi: a differenza delle piante (autotrofi), che producono sostanze organiche da materia inorganica, dobbiamo ricavare energia consumando altri organismi."
+    },
+    {
+     "p": "Quali sono i quattro elementi che formano il 97% del nostro corpo?",
+     "a": "Ossigeno, carbonio, idrogeno e azoto.",
+     "w": [
+      "Ossigeno, calcio, ferro e sodio.",
+      "Carbonio, fosforo, zolfo e potassio.",
+      "Idrogeno, calcio, azoto e ferro."
+     ],
+     "ref": "Il nostro corpo è composto per il 97% da quattro elementi principali: ossigeno, carbonio, idrogeno e azoto."
+    },
+    {
+     "p": "Quali sono i micronutrienti non energetici?",
+     "a": "Vitamine e sali minerali.",
+     "w": [
+      "Glucidi e protidi.",
+      "Lipidi e acqua.",
+      "Proteine e grassi."
+     ],
+     "ref": "Micronutrienti non energetici: vitamine e sali minerali, con funzioni bioregolatrici e protettive."
+    },
+    {
+     "p": "Quale affermazione sull'acqua è corretta?",
+     "a": "È un elemento essenziale per la vita ed è priva di calorie.",
+     "w": [
+      "Fornisce 4 kcal per grammo.",
+      "È un macronutriente energetico.",
+      "Fornisce 9 kcal per grammo."
+     ],
+     "ref": "Acqua: elemento essenziale per la vita, privo di calorie."
+    },
+    {
+     "p": "Che cos'è il catabolismo?",
+     "a": "L'insieme dei processi di degradazione che liberano energia.",
+     "w": [
+      "L'insieme dei processi di biosintesi che costruiscono nuove molecole.",
+      "La scelta volontaria dei cibi.",
+      "L'assorbimento dell'acqua nell'intestino."
+     ],
+     "ref": "Il metabolismo si divide in catabolismo (processi di degradazione che liberano energia) e anabolismo (processi di biosintesi per costruire nuove molecole)."
+    }
+   ]
+  },
+  "Q3": {
+   "title": "Quiz 3 · La storia dell'alimentazione",
+   "items": [
+    {
+     "p": "Che cosa cambiò nel Neolitico?",
+     "a": "L'uomo passò da cacciatore-raccoglitore a produttore, grazie ad agricoltura e allevamento.",
+     "w": [
+      "Nacquero le moderne tecniche di conservazione.",
+      "Arrivarono in Europa il mais e il pomodoro.",
+      "Fu inventata la pastorizzazione."
+     ],
+     "ref": "Una svolta cruciale avvenne nel Neolitico (circa 10.000-5.000 a.C.), quando l'uomo passò da cacciatore-raccoglitore a produttore grazie alla nascita dell'agricoltura e dell'allevamento."
+    },
+    {
+     "p": "Nel Medioevo, che cosa consumavano soprattutto i poveri?",
+     "a": "Cereali e verdure.",
+     "w": [
+      "Selvaggina.",
+      "Carne e pesce dei banchetti.",
+      "Spezie e dolci."
+     ],
+     "ref": "Nel Medioevo si affermò un regime differenziato dove i poveri consumavano cereali e verdure, mentre le classi dominanti prediligevano la selvaggina."
+    },
+    {
+     "p": "Che cos'è l'appertizzazione ideata da Nicolas Appert?",
+     "a": "La chiusura ermetica degli alimenti in contenitori riscaldati.",
+     "w": [
+      "La conservazione degli alimenti con il ghiaccio.",
+      "La conservazione degli alimenti con il sale.",
+      "L'essiccazione degli alimenti al sole."
+     ],
+     "ref": "Nicolas Appert ideò l'appertizzazione (chiusura ermetica in contenitori riscaldati)."
+    },
+    {
+     "p": "Che cosa afferma la Legge del minimo di Liebig?",
+     "a": "La crescita di un organismo dipende dalla risorsa più scarsa, che fa da fattore limitante.",
+     "w": [
+      "La crescita dipende dalla quantità totale delle risorse disponibili.",
+      "Entro certi limiti i macronutrienti sono intercambiabili.",
+      "Tutti gli organismi crescono allo stesso modo."
+     ],
+     "ref": "La crescita di un organismo non è determinata dall'ammontare totale delle risorse naturali disponibili, ma dalla disponibilità della risorsa più scarsa, che agisce come fattore limitante."
+    },
+    {
+     "p": "Chi è considerato il primo nutrizionista e ha riscoperto il valore della dieta mediterranea?",
+     "a": "Ancel Keys.",
+     "w": [
+      "Louis Pasteur.",
+      "Max Rubner.",
+      "Casimir Funk."
+     ],
+     "ref": "Ancel Keys viene considerato il primo nutrizionista della storia dell'alimentazione: visse a Pioppi, nel Cilento, e riscoprì il valore della dieta mediterranea."
+    }
+   ]
+  },
+  "Q4": {
+   "title": "Quiz 4 · Gli alimenti e le loro classificazioni",
+   "items": [
+    {
+     "p": "Quale di questi è uno dei quattro requisiti di un alimento?",
+     "a": "Contenere almeno un principio nutritivo.",
+     "w": [
+      "Essere sempre consumato crudo.",
+      "Essere di origine vegetale.",
+      "Essere prodotto dall'industria alimentare."
+     ],
+     "ref": "Un alimento deve: contenere almeno un principio nutritivo; essere commestibile da crudo o cotto; presentare caratteristiche organolettiche accettabili; non contenere sostanze velenose o tossiche."
+    },
+    {
+     "p": "Secondo l'origine merceologica, funghi commestibili e tartufi sono alimenti di origine…",
+     "a": "fungina.",
+     "w": [
+      "vegetale.",
+      "minerale.",
+      "animale."
+     ],
+     "ref": "Secondo l'origine merceologica distinguiamo alimenti di origine minerale, vegetale, fungina (funghi commestibili e tartufi) e animale."
+    },
+    {
+     "p": "Salumi, yogurt, vino e formaggi sono alimenti…",
+     "a": "trasformati.",
+     "w": [
+      "freschi.",
+      "conservati.",
+      "accessori."
+     ],
+     "ref": "Alimenti trasformati: da industria alimentare, vengono modificati attraverso la tecnologia, come salumi, yogurt, vino, formaggi, birra."
+    },
+    {
+     "p": "In quanti gruppi l'INRAN ha classificato gli alimenti nel 2003?",
+     "a": "In 5 gruppi.",
+     "w": [
+      "In 3 gruppi.",
+      "In 13 gruppi.",
+      "In 21 gruppi."
+     ],
+     "ref": "Nel 2003 l'INRAN, con il MiPAAF, ha proposto una classificazione degli alimenti in 5 gruppi."
+    },
+    {
+     "p": "Che cosa sono gli alimenti accessori?",
+     "a": "Alimenti non ritenuti indispensabili per la salute, come spezie, aceto e sale.",
+     "w": [
+      "Alimenti fondamentali da consumare ogni giorno.",
+      "Alimenti ricchi di proteine.",
+      "Alimenti di origine minerale come l'acqua."
+     ],
+     "ref": "Gli alimenti accessori non sono ritenuti indispensabili per la salute dell'organismo, come: bevande alcoliche e analcoliche, prodotti nervini, erbe aromatiche, aceto, spezie, sale."
+    }
+   ]
+  },
+  "Q5": {
+   "title": "Quiz 5 · Fabbisogno energetico e distribuzione dei pasti",
+   "items": [
+    {
+     "p": "Come si calcola il Fabbisogno Energetico (FE)?",
+     "a": "Come prodotto tra Metabolismo Basale (MB) e Livello di Attività Fisica (LAF).",
+     "w": [
+      "Come somma di peso e altezza.",
+      "Come rapporto tra peso e altezza al quadrato.",
+      "Come differenza tra calorie mangiate e calorie consumate."
+     ],
+     "ref": "Il Fabbisogno Energetico (FE) è calcolato come il prodotto tra Metabolismo Basale (MB) e Livello di Attività Fisica (LAF)."
+    },
+    {
+     "p": "A che cosa serve l'Indice di Massa Corporea (IMC)?",
+     "a": "A valutare il peso corporeo.",
+     "w": [
+      "A misurare il metabolismo basale.",
+      "A calcolare il livello di attività fisica.",
+      "A misurare la quantità di acqua nel corpo."
+     ],
+     "ref": "Uno strumento comune per valutare il peso corporeo è l'Indice di Massa Corporea (IMC)."
+    },
+    {
+     "p": "Come si ottiene l'IMC?",
+     "a": "Dal rapporto tra peso (kg) e altezza al quadrato (m²).",
+     "w": [
+      "Dal prodotto tra peso e altezza.",
+      "Dal rapporto tra altezza e peso.",
+      "Dal rapporto tra peso ed età."
+     ],
+     "ref": "L'IMC si ottiene dal rapporto tra peso (kg) e altezza al quadrato (m²)."
+    },
+    {
+     "p": "Quale ripartizione dei nutrienti è consigliata agli adolescenti?",
+     "a": "55% glucidi, 30% lipidi, 15% protidi.",
+     "w": [
+      "30% glucidi, 55% lipidi, 15% protidi.",
+      "15% glucidi, 30% lipidi, 55% protidi.",
+      "40% glucidi, 40% lipidi, 20% protidi."
+     ],
+     "ref": "Gli adolescenti dovrebbero assumere circa il 55% di glucidi, 30% di lipidi e 15% di protidi."
+    },
+    {
+     "p": "Negli adulti, rispetto agli adolescenti, come cambia la ripartizione?",
+     "a": "La quota proteica scende al 12% e i glucidi salgono al 60%.",
+     "w": [
+      "La quota proteica sale al 20% e i glucidi scendono al 40%.",
+      "I lipidi salgono al 55%.",
+      "Non cambia nulla."
+     ],
+     "ref": "Negli adulti la quota proteica scende leggermente al 12%, con un incremento dei glucidi al 60%."
+    }
+   ]
+  },
+  "Q6": {
+   "title": "Quiz 6 · LARN e Linee guida per una sana alimentazione",
+   "items": [
+    {
+     "p": "Che cosa sono i LARN?",
+     "a": "I Livelli di Assunzione di Riferimento di Nutrienti ed energia.",
+     "w": [
+      "Le Linee Alimentari per la Ristorazione Nazionale.",
+      "Un elenco di alimenti vietati.",
+      "Una classificazione degli alimenti in 21 categorie."
+     ],
+     "ref": "Nel 2014 sono state elaborate le indicazioni LARN (Livelli di Assunzione di Riferimento di Nutrienti ed energia)."
+    },
+    {
+     "p": "Chi ha elaborato i LARN nel 2014?",
+     "a": "La SINU, Società Italiana di Nutrizione Umana.",
+     "w": [
+      "L'UNESCO.",
+      "La FAO.",
+      "L'EFSA."
+     ],
+     "ref": "I LARN sono stati elaborati nel 2014 da parte della SINU (Società Italiana di Nutrizione Umana)."
+    },
+    {
+     "p": "Secondo i LARN, quante proteine servono a un adulto?",
+     "a": "0,9 g per kg di peso corporeo al giorno.",
+     "w": [
+      "9 g per kg di peso corporeo al giorno.",
+      "0,9 g al giorno in tutto.",
+      "4 g per kg di peso corporeo al giorno."
+     ],
+     "ref": "Per gli adulti: proteine pari a 0,9 g per kg di peso corporeo al giorno."
+    },
+    {
+     "p": "Secondo i LARN, entro quale limite deve restare il colesterolo?",
+     "a": "Meno di 300 mg al giorno.",
+     "w": [
+      "Meno di 30 mg al giorno.",
+      "Meno di 3 g al giorno.",
+      "Non c'è nessun limite."
+     ],
+     "ref": "L'apporto del colesterolo deve essere inferiore a 300 mg al giorno."
+    },
+    {
+     "p": "Come sono organizzate le Linee Guida del CREA?",
+     "a": "In 13 direttive raccolte in 4 blocchi.",
+     "w": [
+      "In 4 direttive raccolte in 13 blocchi.",
+      "In 5 direttive raccolte in 3 blocchi.",
+      "In 21 direttive raccolte in 5 blocchi."
+     ],
+     "ref": "Le Linee Guida per una sana alimentazione del CREA sono 13 direttive organizzate in 4 blocchi principali."
+    }
+   ]
+  },
+  "Q7": {
+   "title": "Quiz 7 · La Dieta Mediterranea e le altre diete",
+   "items": [
+    {
+     "p": "Quando la Dieta Mediterranea è stata riconosciuta dall'UNESCO patrimonio immateriale dell'umanità?",
+     "a": "Nel 2010.",
+     "w": [
+      "Nel 1960.",
+      "Nel 2003.",
+      "Nel 2015."
+     ],
+     "ref": "Riconosciuta dall'UNESCO patrimonio immateriale dell'umanità nel 2010."
+    },
+    {
+     "p": "Che cosa privilegia la Dieta Mediterranea?",
+     "a": "Alimenti vegetali, cereali integrali, pesce e olio di oliva.",
+     "w": [
+      "Carni rosse e grassi animali.",
+      "Dolci e zuccheri semplici.",
+      "Solo latte e formaggi."
+     ],
+     "ref": "La Dieta Mediterranea privilegia alimenti vegetali, cereali integrali, pesce e olio di oliva, limitando le carni rosse e i grassi animali."
+    },
+    {
+     "p": "Che cosa ammette la dieta latto vegetariana?",
+     "a": "Alimenti vegetali, latte e derivati.",
+     "w": [
+      "Alimenti vegetali e uova.",
+      "Alimenti vegetali, uova, latte e derivati.",
+      "Solo frutta fresca e secca."
+     ],
+     "ref": "Latto vegetariana: ammette consumo di alimenti vegetali, latte e derivati."
+    },
+    {
+     "p": "Che cos'è la dieta fruttariana?",
+     "a": "Il consumo esclusivo di frutta fresca e secca.",
+     "w": [
+      "Il consumo di alimenti quasi esclusivamente crudi.",
+      "Una dieta vegetariana che include ogni tanto il pesce.",
+      "Una dieta che ammette vegetali, latte e uova."
+     ],
+     "ref": "Dieta fruttariana: consumo esclusivo di frutta fresca e secca."
+    },
+    {
+     "p": "Che cos'è l'effetto yo yo?",
+     "a": "La tendenza a ingrassare di nuovo dopo il dimagrimento, anche mangiando in modo normale.",
+     "w": [
+      "L'abbassamento della pressione causato dal digiuno.",
+      "Una perdita di peso lenta e costante.",
+      "L'aumento della massa muscolare con l'allenamento."
+     ],
+     "ref": "Le diete drastiche sono causa dell'effetto yo yo: dopo il dimagrimento si tende a ingrassare sempre di più anche mangiando in modo normale."
+    }
+   ]
+  },
+  "Q8": {
+   "title": "Quiz 8 · Gli enti dell'alimentazione",
+   "items": [
+    {
+     "p": "Quali enti si occupano in Italia dello studio degli alimenti e dei processi nutrizionali?",
+     "a": "Il CREA Alimenti e Nutrizione e la SINU.",
+     "w": [
+      "L'EFSA e la FAO.",
+      "La FDA e l'UNICEF.",
+      "L'OMS e la FDA."
+     ],
+     "ref": "In Italia gli enti che si occupano dello studio degli alimenti e dei processi nutrizionali sono il CREA Alimenti e Nutrizione e la SINU (Società Italiana di Nutrizione Umana)."
+    },
+    {
+     "p": "Dove ha sede l'EFSA, l'Autorità Europea per la Sicurezza Alimentare?",
+     "a": "A Parma.",
+     "w": [
+      "A Roma.",
+      "A Milano.",
+      "A Parigi."
+     ],
+     "ref": "EFSA (European Food Safety Authority), Autorità Europea per la Sicurezza Alimentare (Parma, Italia)."
+    },
+    {
+     "p": "Dove ha sede la FAO?",
+     "a": "A Roma.",
+     "w": [
+      "A Parma.",
+      "A Parigi.",
+      "A Milano."
+     ],
+     "ref": "FAO (Food and Agriculture Organization), Roma."
+    },
+    {
+     "p": "Durante quale evento è stata elaborata la Carta di Milano?",
+     "a": "L'Expo Milano 2015.",
+     "w": [
+      "La presentazione dei LARN nel 2014.",
+      "La classificazione INRAN del 2003.",
+      "Il riconoscimento UNESCO del 2010."
+     ],
+     "ref": "Devono essere considerati la Carta di Milano elaborata durante l'Expo Milano 2015 e l'Agenda 2030 per lo sviluppo sostenibile."
+    },
+    {
+     "p": "Di quale Paese è l'ente FDA (Food and Drug Administration)?",
+     "a": "Degli Stati Uniti.",
+     "w": [
+      "Dell'Italia.",
+      "Della Francia.",
+      "Del Regno Unito."
+     ],
+     "ref": "FDA (Food and Drug Administration) (USA)."
+    }
+   ]
+  }
+ }
+}
