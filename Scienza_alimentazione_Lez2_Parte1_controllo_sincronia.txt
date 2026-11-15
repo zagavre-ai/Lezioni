@@ -1,0 +1,8 @@
+Controllo sincronia slide/voce · 30 frasi verificabili su 78
+unità 2 · riga accesa a 158.25 s · detta a 158.37 s · scarto +0.12 s · «food security riguarda la disponibilità di cibo pe» (parola «disponibilità»)
+unità 3 · riga accesa a 170.97 s · detta a 171.09 s · scarto +0.12 s · «food safety indica la salubrità del cibo dal punto» (parola «salubrità»)
+unità 10 · riga accesa a 401.63 s · detta a 401.78 s · scarto +0.15 s · «porre attenzione alla freschezza merceologica dei » (parola «porre»)
+unità 13 · riga accesa a 469.12 s · detta a 469.26 s · scarto +0.14 s · «i prodotti alimentari devono essere trattati e con» (parola «alimenti»)
+unità 83 · riga accesa a 3326.74 s · detta a 3326.91 s · scarto +0.17 s · «riduzione dello spreco di cibo: dimezzare lo sprec» (parola «promuovere»)
+tutte le frasi: scarto medio +0.12 s, massimo 0.23 s, oltre 1,5 s: 0
+ESITO: OK
