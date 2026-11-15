@@ -1,7 +1,14 @@
 {
  "tag": "moda-economia-III-IV-lez02",
- "parti": {},
- "manca": "",
+ "parti": {
+  "1": {
+   "titolo": "Moda e filiera",
+   "stato": "IN_MONTAGGIO",
+   "voci": "segnaposto",
+   "quiz_ok": "si"
+  }
+ },
+ "manca": "COMPITI_MANCANTI (nessun file Compiti nella release)",
  "serve_master": [
   {
    "quando": "14/11 23:00",
@@ -13,7 +20,11 @@
   {
    "quando": "14/11 23:33",
    "testo": "Lez02: rifatto allineamento slide (trascrizione a frasi corte), rendering schede in corso; voci mappe richieste (MAP1-7, MAPF); ancora IN_MONTAGGIO"
+  },
+  {
+   "quando": "15/11 02:35",
+   "testo": "pronta, attende voci Kore (mappe MAP1-7, MAPF sul ramo voci-moda-economia-III-IV-lez02). Durata misurata del montaggio: 67,4 min (docente 50,1 min + approfondimenti, mappe, quiz). Oltre i ~65: serve decisione master se tagliare 2 min di aggiunte."
   }
  ],
- "aggiornato": "2026-11-14 23:33:11"
+ "aggiornato": "2026-11-15 02:35:01"
 }
