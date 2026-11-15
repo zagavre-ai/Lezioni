@@ -1,1 +1,19 @@
-
+MAP11 OK frasi trovate 1 / 1 parole diverse 2 (vere 0) tentativi 1
+MAPF1B OK frasi trovate 1 / 1 parole diverse 4 (vere 0) tentativi 1
+MAPF2B OK frasi trovate 1 / 1 parole diverse 2 (vere 2) tentativi 1
+MAPF3 OK frasi trovate 1 / 1 parole diverse 12 (vere 4) tentativi 1
+R9 OK frasi trovate 1 / 1 parole diverse 2 (vere 1) tentativi 1
+R10 OK frasi trovate 1 / 1 parole diverse 9 (vere 1) tentativi 1
+R11 OK frasi trovate 1 / 1 parole diverse 5 (vere 0) tentativi 1
+GL1B OK frasi trovate 1 / 1 parole diverse 10 (vere 8) tentativi 1
+GL2B OK frasi trovate 1 / 1 parole diverse 8 (vere 5) tentativi 1
+GL3 OK frasi trovate 1 / 1 parole diverse 10 (vere 6) tentativi 1
+RF1B OK frasi trovate 1 / 1 parole diverse 3 (vere 0) tentativi 1
+RF2B OK frasi trovate 1 / 1 parole diverse 11 (vere 5) tentativi 1
+RF3 OK frasi trovate 1 / 1 parole diverse 11 (vere 4) tentativi 1
+FIN1B OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
+FIN2B OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
+FIN3 OK frasi trovate 1 / 1 parole diverse 2 (vere 0) tentativi 1
+RIP2B OK frasi trovate 1 / 1 parole diverse 5 (vere 2) tentativi 1
+RIP3 OK frasi trovate 1 / 1 parole diverse 14 (vere 5) tentativi 1
+INTRO1 OK frasi trovate 1 / 1 parole diverse 4 (vere 1) tentativi 1
