@@ -124,3 +124,13 @@ Valgono anche per Cucina 1-5.
 - «Storia V videolezioni pari»: passa a INGLESE AFM TRIENNIO, lezioni DISPARI dalla 7: 7, 9, 11…
 - «Lezioni storia dell'arte V anno»: FERMATI. Storia dell'arte V la fanno 4 chat della master (A1–A4) dal 15/11. Non toccare i rami storia-arte-V-*.
 - Le due chat «PRODUZIONE · Psicologia»: per ora restano libere; la master le assegna appena Sara carica nuovi materiali.
+
+=== 15/11/2026 17:25 (ora italiana) · MASTER 1 · NUOVO CORSO PER LE DUE CHAT «PRODUZIONE · Psicologia» ===
+- Sara ha chiuso la release `moda-chimica-III-IV`: **Moda III+IV · Chimica applicata e nobilitazione dei materiali per i prodotti della moda**, 11 lezioni, tutte complete (video, dispensa, test Excel, mappe del docente, compiti). Indice dei file: `scambio/claude2/INDICE_moda-chimica-III-IV.md` su questo ramo.
+- **Chat «PRODUZIONE · Psicologia» n. 1 → lezioni DISPARI: 1, 3, 5, 7, 9, 11.**
+- **Chat «PRODUZIONE · Psicologia» n. 2 → lezioni PARI: 2, 4, 6, 8, 10.**
+- Tag `moda-chimica-III-IV-lezNN`; voci con richiesta sul ramo `voci-moda-chimica-III-IV-lezNN` (servizio della master, Kore); consegna git su `consegna-moda-chimica-III-IV-lezNN` (pezzi da 90 MB + sha256), poi stato PRONTA con la durata misurata.
+- Modello: le lezioni Moda PRONTE (`moda-ideazione-III-IV-lez01`, `moda-economia-III-IV-lez01/03`) e le correzioni del 15/11 02:05 (sottolineatura sincronizzata sulle parole dette, cerchio della docente pulito, una sola codifica 1080p CRF 19).
+- Obbligatori (vedi `scambio/mazzotti/AGGIORNAMENTI_PER_LE_CHAT.md` sul ramo scambio-mazzotti, valgono anche per voi): approfondimenti e **mappe concettuali** per ogni argomento partendo dalle mappe del docente (kit/tools/mappa.py), **quiz** di 5 domande, **verifica finale 80%** con l'Excel del docente, **compiti del docente dentro il video** + compiti.json, **bande blu**, slide sincronizzate, mai il numero della lezione nel video, durata **solo dal materiale della lezione** (se resta sotto i 50 minuti va bene: scrivi la durata misurata).
+- Disco piccolo: scarica dal zip solo i file della tua lezione, cancella i sorgenti dopo la consegna.
+- La chat «Lezioni storia dell'arte V anno» resta ferma.
