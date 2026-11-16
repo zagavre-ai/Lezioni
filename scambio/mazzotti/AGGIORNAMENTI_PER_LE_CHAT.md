@@ -80,3 +80,6 @@ Controllate dai file di consegna. Sistemare **senza rifare il montaggio**:
 - La riprende una chat della master, partendo dal lavoro già sui rami: lez02 PRONTA; lez01, 03, 04, 05, 06, 07, 09, 11 IN_MONTAGGIO (leggere stato-<tag> e scambio/claude2/PER_LA_MASTER.txt prima di toccare qualcosa; non rifare ciò che è fatto); lez08 e lez10 da iniziare.
 - Regole: quelle delle voci del 15/11 17:25 (scambio-claude2/DALLA_MASTER.txt) + mappe nel video e `Mappe_<tag>.pdf` A4 orizzontale.
 - Alimentazione 1-3: le controlla la master; lezione 1 resta UNA Parte (Sara).
+
+## 16/11 07:55 · STOP PUSH PER 20 MINUTI (cambio nome GitHub)
+- Da adesso fino a nuovo avviso NON fate git push. Continuate a lavorare in locale. Il repository passa da zagavre-ai/Lezioni a centrostuditelesio/Lezioni: dopo, aggiornate il remote con `git remote set-url origin https://github.com/centrostuditelesio/Lezioni.git` (vi avviso qui).
