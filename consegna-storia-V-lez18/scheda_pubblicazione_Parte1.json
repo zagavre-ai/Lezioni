@@ -1,0 +1,192 @@
+{
+ "materia": "Storia",
+ "titolo": "L'Italia repubblicana · Parte 1",
+ "durata_s": 2885.37,
+ "argomenti": [
+  {
+   "n": 1,
+   "titolo": "Un Paese da ricostruire",
+   "inizio_s": 225.033,
+   "quiz_s": 869.867
+  },
+  {
+   "n": 2,
+   "titolo": "La nascita della Repubblica",
+   "inizio_s": 874.067,
+   "quiz_s": 2216.4
+  },
+  {
+   "n": 3,
+   "titolo": "La Costituzione",
+   "inizio_s": 2220.6,
+   "quiz_s": 2756.333
+  }
+ ],
+ "quiz": {
+  "Q1": {
+   "title": "Quiz 1 · Un Paese da ricostruire",
+   "items": [
+    {
+     "p": "Che cosa lasciano in Italia i bombardamenti e la guerra?",
+     "a": "Fabbriche e infrastrutture devastate e produzione ferma",
+     "w": [
+      "Un forte aumento della produzione industriale",
+      "Abbondanza di beni di prima necessità",
+      "La fine del mercato nero"
+     ],
+     "e": "L'Italia esce dalla guerra con fabbriche e infrastrutture devastate, produzione ferma e carenza di beni di prima necessità."
+    },
+    {
+     "p": "Che cos'è il mercato nero?",
+     "a": "La vendita di beni a prezzi altissimi, fuori dal controllo dello Stato",
+     "w": [
+      "Un mercato organizzato dagli Alleati",
+      "Una fiera dei prodotti agricoli",
+      "Un sistema di prezzi politici garantito dal governo"
+     ],
+     "e": "Con scarsità di beni e inflazione, il mercato nero fa da padrone e propone i prodotti a prezzi altissimi."
+    },
+    {
+     "p": "Che cosa accade nel Centro-Nord nel clima di violenza del dopoguerra?",
+     "a": "Regolamenti di conti contro gli ex fascisti",
+     "w": [
+      "Occupazioni delle terre dei latifondisti",
+      "Nascita della Cassa per il Mezzogiorno",
+      "Un referendum sulla forma dello Stato"
+     ],
+     "e": "Nel Centro-Nord si verificano regolamenti di conti contro gli ex fascisti."
+    },
+    {
+     "p": "Che cosa accade nel Sud nel clima di violenza del dopoguerra?",
+     "a": "I contadini occupano le terre dei latifondisti",
+     "w": [
+      "Si costruiscono le prime grandi fabbriche",
+      "Si vota per il Patto Atlantico",
+      "Arriva il Piano Marshall"
+     ],
+     "e": "Nel Sud esplodono i disordini legati alle occupazioni delle terre dei latifondisti da parte dei contadini."
+    },
+    {
+     "p": "Che cosa sono le decimazioni delle rappresaglie tedesche?",
+     "a": "Per ogni tedesco morto, dieci italiani fucilati",
+     "w": [
+      "Per ogni italiano morto, dieci tedeschi fucilati",
+      "La deportazione di tutti i civili di un paese",
+      "La confisca dei beni dei partigiani"
+     ],
+     "e": "Le rappresaglie naziste prevedevano di fucilare dieci italiani per ogni tedesco morto."
+    }
+   ]
+  },
+  "Q2": {
+   "title": "Quiz 2 · La nascita della Repubblica",
+   "items": [
+    {
+     "p": "Chi guida la Democrazia Cristiana nel dopoguerra?",
+     "a": "Alcide De Gasperi",
+     "w": [
+      "Palmiro Togliatti",
+      "Pietro Nenni",
+      "Amintore Fanfani"
+     ],
+     "e": "La scena politica vede il protagonismo della DC guidata da Alcide De Gasperi."
+    },
+    {
+     "p": "Che cosa promuove Togliatti come ministro della Giustizia?",
+     "a": "Un'amnistia per i reati politici commessi durante la guerra",
+     "w": [
+      "Un processo ai fascisti sul modello di Norimberga",
+      "La nazionalizzazione dell'energia elettrica",
+      "L'abolizione del referendum"
+     ],
+     "e": "L'amnistia serve alla pacificazione nazionale e alla stabilità dello Stato; per questo in Italia non ci sarà un processo come quello di Norimberga."
+    },
+    {
+     "p": "Quando si svolge il referendum istituzionale?",
+     "a": "Il 2 giugno 1946",
+     "w": [
+      "Il 25 aprile 1945",
+      "Il 1° gennaio 1948",
+      "Il 18 aprile 1948"
+     ],
+     "e": "La svolta istituzionale avviene il 2 giugno 1946 con il referendum."
+    },
+    {
+     "p": "Qual è l'esito del referendum?",
+     "a": "Vince la Repubblica, con circa 12 milioni di voti contro circa 10",
+     "w": [
+      "Vince la Monarchia, con circa 12 milioni di voti contro 10",
+      "Vince la Repubblica, ma all'unanimità",
+      "Il risultato viene annullato"
+     ],
+     "e": "La Repubblica ottiene circa 12 milioni di voti contro i circa 10 milioni della Monarchia."
+    },
+    {
+     "p": "Che cosa c'è di nuovo nel voto del 2 giugno 1946?",
+     "a": "Per la prima volta votano anche le donne",
+     "w": [
+      "Votano solo i capifamiglia",
+      "Si vota soltanto nel Nord",
+      "I partiti scelgono al posto degli elettori"
+     ],
+     "e": "Per la prima volta votano anche le donne, e nasce l'Assemblea Costituente."
+    }
+   ]
+  },
+  "Q3": {
+   "title": "Quiz 3 · La Costituzione",
+   "items": [
+    {
+     "p": "Quante donne ci sono tra i membri dell'Assemblea Costituente?",
+     "a": "21",
+     "w": [
+      "2",
+      "55",
+      "556"
+     ],
+     "e": "Tra i 556 membri dell'Assemblea Costituente ci sono 21 donne, le madri costituenti."
+    },
+    {
+     "p": "Quale di queste è una madre costituente?",
+     "a": "Nilde Iotti",
+     "w": [
+      "Maria Montessori",
+      "Grazia Deledda",
+      "Rita Levi-Montalcini"
+     ],
+     "e": "Tra le madri costituenti ci sono Nilde Iotti, Lina Merlin e Teresa Mattei."
+    },
+    {
+     "p": "Quando entra in vigore la Costituzione?",
+     "a": "Il 1° gennaio 1948",
+     "w": [
+      "Il 2 giugno 1946",
+      "Il 18 aprile 1948",
+      "Il 25 aprile 1945"
+     ],
+     "e": "La Costituzione entra in vigore il 1° gennaio 1948."
+    },
+    {
+     "p": "Come definisce l'Italia la Costituzione?",
+     "a": "Una repubblica democratica fondata sul lavoro",
+     "w": [
+      "Una monarchia costituzionale fondata sul lavoro",
+      "Una repubblica presidenziale fondata sull'industria",
+      "Una repubblica federale fondata sulla religione"
+     ],
+     "e": "La Costituzione definisce l'Italia una repubblica democratica fondata sul lavoro."
+    },
+    {
+     "p": "A chi spetta il potere esecutivo?",
+     "a": "Al Governo",
+     "w": [
+      "Al Parlamento",
+      "Alla Magistratura",
+      "All'Assemblea Costituente"
+     ],
+     "e": "Il potere legislativo spetta al Parlamento, quello esecutivo al Governo, quello giudiziario alla Magistratura."
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,10 @@
+Storia V · Lezione 18 · L'Italia repubblicana · consegna della chat S7 (16/11).
+Due Parti: Parte 1 = 48:05,4 (argomenti 1-3), Parte 2 = 47:01,4 (argomenti 4-6). Misurate sul file finale.
+Entrambe sono sotto i 50 minuti: il materiale del docente e le voci Kore ricevute non permettono di arrivare di piu' senza nuovi approfondimenti (servirebbero altre voci).
+Video a pezzi da 90 MB: riunisci con  cat NOME_1080p.mp4.parte_* > NOME_1080p.mp4  e controlla con il file .sha256.
+Controllo finale 16/11: 1920x1080, fotogrammi = durata x 30, Parte 1 197,6 MB, Parte 2 200,5 MB, scatto Quiz 0,0 s OK, nessun fermo immagine nei pezzi del docente, parlato -16,0 / -16,6 LUFS.
+Test finale: Excel del docente (Storia_Lez18_test_finale_docente.xlsx). Compiti: quelli del docente (4 domande aperte): Storia_Lez18_compiti_docente.pdf/.txt e compiti.json. Nel video: schede «Verifica finale» e «Compiti».
+Mappe concettuali: nel video (una per argomento + una finale per Parte) e nella dispensa A4 (Storia_Lez18_dispensa.pdf: mappa della lezione dopo la copertina, mappa per ogni argomento).
+Tempi esatti nelle timeline: VER, CINTRO, COMP in timeline_ParteN.json.
+Sottotitoli: dal parlato del docente (riconoscimento automatico, nomi propri corretti dalle slide): da leggere a campione prima della pubblicazione.
+Quiz: 5 domande per argomento in Quiz_Storia_Lez18.txt e quiz_argomenti.json (approvazione della master).
