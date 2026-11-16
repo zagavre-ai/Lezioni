@@ -1,0 +1,222 @@
+{
+ "Q1": {
+  "title": "Quiz 1 · La vita e la carriera",
+  "items": [
+   {
+    "p": "In quale località nasce Giosuè Carducci?",
+    "a": "Valdicastello, in provincia di Lucca",
+    "w": [
+     "Pisa",
+     "Bologna",
+     "Firenze"
+    ],
+    "e": "Nasce nel 1835 a Valdicastello (Lucca) da una famiglia medio-borghese: il padre è un medico."
+   },
+   {
+    "p": "Dove trascorre l'infanzia e quale influenza ha su di lui?",
+    "a": "In Maremma: una natura aspra e selvaggia che influenza il suo carattere",
+    "w": [
+     "In una grande città del nord, tra i libri del padre",
+     "In un collegio di Pisa, lontano dalla natura",
+     "A Bologna, tra gli allievi dell'università"
+    ],
+    "e": "Cresce a contatto con una natura aspra e selvaggia, che influenza profondamente il suo carattere e lo sfondo dei suoi componimenti."
+   },
+   {
+    "p": "In che anno si laurea in Lettere alla Scuola Normale Superiore di Pisa?",
+    "a": "Nel 1856",
+    "w": [
+     "Nel 1835",
+     "Nel 1860",
+     "Nel 1868"
+    ],
+    "e": "Si laurea in Lettere nel 1856 e poi inizia a insegnare nelle scuole secondarie."
+   },
+   {
+    "p": "Per quanto tempo mantiene la cattedra di Letteratura italiana a Bologna?",
+    "a": "Per quarant'anni, dal 1860 al 1904",
+    "w": [
+     "Per vent'anni, dal 1860 al 1880",
+     "Per dieci anni, dal 1860 al 1870",
+     "Per cinquant'anni, dal 1860 al 1910"
+    ],
+    "e": "Nel 1860 ottiene la cattedra all'Università di Bologna e la mantiene per quarant'anni, fino al 1904."
+   },
+   {
+    "p": "In che anno riceve il premio Nobel per la Letteratura?",
+    "a": "Nel 1906",
+    "w": [
+     "Nel 1890",
+     "Nel 1904",
+     "Nel 1907"
+    ],
+    "e": "Riceve il premio Nobel per la Letteratura nel 1906 e muore nel 1907."
+   }
+  ]
+ },
+ "Q2": {
+  "title": "Quiz 2 · L'ideologia e la politica",
+  "items": [
+   {
+    "p": "Quali idee sostiene Carducci da giovane?",
+    "a": "Democratiche e repubblicane",
+    "w": [
+     "Monarchiche e conservatrici",
+     "Clericali e antiliberali",
+     "Moderate e filogovernative"
+    ],
+    "e": "Inizialmente sostiene le idee democratiche e repubblicane, seguendo con passione il Risorgimento e l'impresa dei Mille di Garibaldi."
+   },
+   {
+    "p": "Perché nel 1868 subisce una sospensione dall'insegnamento?",
+    "a": "Per le sue posizioni di violenta opposizione verso il nuovo governo",
+    "w": [
+     "Perché si rifiuta di insegnare a Bologna",
+     "Perché accusato di aver copiato un'opera altrui",
+     "Perché lascia l'università per fare il giornalista"
+    ],
+    "e": "Dopo l'unità assume posizioni di violenta opposizione verso il governo e critica la corruzione e la mediocrità della classe politica."
+   },
+   {
+    "p": "Quale carica ottiene Carducci nel 1890?",
+    "a": "Senatore del Regno",
+    "w": [
+     "Ministro dell'Istruzione",
+     "Deputato repubblicano",
+     "Rettore dell'Università di Bologna"
+    ],
+    "e": "Abbandona le posizioni giacobine, si avvicina alla monarchia e nel 1890 diventa senatore del Regno, poeta ufficiale dell'Italia umbertina."
+   },
+   {
+    "p": "Che cosa celebra Carducci nell'inno A Satana?",
+    "a": "La ragione, il progresso e la scienza contro le superstizioni religiose",
+    "w": [
+     "La fede e la tradizione religiosa",
+     "La vita semplice della campagna",
+     "La monarchia e la casa regnante"
+    ],
+    "e": "Il suo orientamento anticlericale e laico celebra il progresso, la ragione e la scienza contro le superstizioni religiose."
+   },
+   {
+    "p": "Verso che cosa lo spinge la delusione storica?",
+    "a": "Verso l'estetismo e il recupero della tradizione classica, come rifugio dalla mediocrità del presente",
+    "w": [
+     "Verso il romanzo storico di impegno sociale",
+     "Verso la poesia dialettale e popolare",
+     "Verso il rifiuto totale della letteratura"
+    ],
+    "e": "Il ritorno all'ordine e al classicismo è il rifugio dalla mediocrità del presente."
+   }
+  ]
+ },
+ "Q3": {
+  "title": "Quiz 3 · Le prime raccolte e Pianto antico",
+  "items": [
+   {
+    "p": "Che cosa mostrano le raccolte giovanili (Juvenilia, Levia Gravia, Giambi ed Epodi)?",
+    "a": "Un percorso di apprendistato poetico legato ai modelli classici e a forti polemiche politiche e sociali",
+    "w": [
+     "Un abbandono della poesia a favore della prosa",
+     "La sperimentazione del verso libero",
+     "La malinconia per la fine della vita"
+    ],
+    "e": "Sono le prime fasi: apprendistato poetico sui modelli classici, con forti polemiche politiche e sociali."
+   },
+   {
+    "p": "In che anno vengono pubblicate le Rime nuove?",
+    "a": "Nel 1887",
+    "w": [
+     "Nel 1871",
+     "Nel 1877",
+     "Nel 1899"
+    ],
+    "e": "Le Rime nuove (1887) uniscono liriche scritte in un ampio arco temporale e toccano temi più intimi, autobiografici e storici."
+   },
+   {
+    "p": "In memoria di chi è scritta Pianto antico?",
+    "a": "Del figlio Dante, morto da piccolo",
+    "w": [
+     "Della madre di Carducci",
+     "Di un amico caduto con Garibaldi",
+     "Del fratello maggiore"
+    ],
+    "e": "Pianto antico è scritta nel 1871, in memoria del figlio Dante."
+   },
+   {
+    "p": "Quale figura retorica è presente quando il padre è «come una pianta» e il figlio ne è il «fiore»?",
+    "a": "Una metafora",
+    "w": [
+     "Un'anafora",
+     "Un'onomatopea",
+     "Un'iperbole"
+    ],
+    "e": "Il padre è come una pianta, di cui il figlio è il fiore: la morte del bambino è stata un colpo che ha reso la pianta arida."
+   },
+   {
+    "p": "Quale contrasto è al centro di Pianto antico?",
+    "a": "Tra la solarità della vita e la cupa presenza della morte",
+    "w": [
+     "Tra città e campagna",
+     "Tra passato eroico e presente squallido",
+     "Tra fede e ragione"
+    ],
+    "e": "Il tema è il contrasto tra la luce del melograno che rinverdisce e il bambino nella terra fredda."
+   }
+  ]
+ },
+ "Q4": {
+  "title": "Quiz 4 · Le Odi barbare e le ultime opere",
+  "items": [
+   {
+    "p": "Che cosa fa Carducci con la «metrica barbara»?",
+    "a": "Cerca di riprodurre il ritmo dei metri latini e greci usando i versi della tradizione italiana",
+    "w": [
+     "Abolisce ogni regola metrica",
+     "Traduce in italiano i poeti stranieri contemporanei",
+     "Usa soltanto versi di origine francese"
+    ],
+    "e": "La sperimentazione metrica applica la metrica barbara per riprodurre i metri classici con i versi italiani."
+   },
+   {
+    "p": "Perché le odi sono definite «barbare»?",
+    "a": "Perché tali sarebbero sembrate agli occhi e all'orecchio degli antichi poeti greci e romani",
+    "w": [
+     "Perché sono scritte in una lingua straniera",
+     "Perché parlano di popoli barbari",
+     "Perché non rispettano la grammatica italiana"
+    ],
+    "e": "Sono barbare perché tali sarebbero apparse agli antichi poeti greci e romani."
+   },
+   {
+    "p": "Da quale anno viene pubblicata l'opera Odi barbare?",
+    "a": "Dal 1877",
+    "w": [
+     "Dal 1871",
+     "Dal 1887",
+     "Dal 1899"
+    ],
+    "e": "L'opera è pubblicata a partire dal 1877."
+   },
+   {
+    "p": "Qual è l'ultima raccolta in versi di Carducci?",
+    "a": "Rime e ritmi, del 1899",
+    "w": [
+     "Rime nuove, del 1887",
+     "Levia Gravia",
+     "Giambi ed Epodi"
+    ],
+    "e": "In Rime e ritmi emergono toni celebrativi della patria e una diffusa malinconia legata alla fine della vita."
+   },
+   {
+    "p": "Come è caratterizzata la prosa di Carducci?",
+    "a": "Da uno stile battagliero, energico e polemico, con metodo critico rigoroso",
+    "w": [
+     "Da uno stile leggero e dialettale",
+     "Da un linguaggio astratto e senza riferimenti storici",
+     "Da una narrazione intima e sentimentale"
+    ],
+    "e": "Applica un metodo critico fondato sulla ricostruzione precisa dei fatti storici e dei testi."
+   }
+  ]
+ }
+}
