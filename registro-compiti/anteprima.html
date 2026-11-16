@@ -474,7 +474,7 @@ function report(){
   /* 3. da recuperare: lezioni del piano della settimana non completate + segnalazioni del registro */
   const rec8=[];giorni.forEach(k=>{const r=rec(k);if(!r||!visible(k))return;const st=r['8.ex.st']||[];if(st.includes('Da recuperare')&&r['8.ex.rec'])rec8.push({g:k,t:r['8.ex.rec']})});
   const riga=(a,b,c)=>'<div class="it"><div class="st '+a+'">'+b+'</div><div>'+c+'</div></div>';
-  let h='<div class="dayh"><div><h2>Resoconto della settimana</h2><div class="sm" style="font-size:15px">'+esc(cap(fmtL(L0)))+' – '+esc(fmtL(add(L0,6)))+'</div><div class="bar"></div></div><div class="tools nop"><button class="btn" id="wp">‹ Settimana prima</button><button class="btn" id="wn"'+(ROLE==='studente'&&add(L0,7)>TODAY?' disabled':'')+'>Settimana dopo ›</button><button class="btn" id="wg">Torna al giorno</button><button class="btn" id="pr">Stampa / PDF</button></div></div>';
+  let h='<div class="dayh"><div><h2>Resoconto della settimana</h2><div class="sm" style="font-size:15px">'+esc(cap(fmtL(L0)))+' – '+esc(fmtL(add(L0,6)))+'</div><div class="bar"></div></div><div class="tools nop"><button class="btn" id="wp">‹ Settimana prima</button><button class="btn" id="wn"'+(ROLE==='studente'&&add(L0,7)>TODAY?' disabled':'')+'>Settimana dopo ›</button><button class="btn" id="wg">Torna al giorno</button><button class="btn pri" id="pdf">Scarica PDF</button><button class="btn" id="pr">Stampa</button></div></div>';
   h+='<div class="head4"><div><span class="lab">Studente</span>'+esc(nome)+'</div><div><span class="lab">Materia</span>'+esc(tutte()?'Tutte le materie':MAT)+'</div><div><span class="lab">Dati letti il</span>'+esc((ATT&&ATT.letto)||'')+'</div><div></div></div>';
   h+='<div class="sum" style="margin:6px 0 14px"><div class="n">'+[[PL.length,'lezioni nel piano'],[nF,'completate'],[nI,'iniziate, non finite'],[nN,'non svolte'],[Lv.length,'lezioni in diretta'],[Qd.length,'compiti del quaderno']].map(([v,l])=>'<div><b>'+v+'</b><span>'+l+'</span></div>').join('')+'</div></div>';
   /* piano */
@@ -505,6 +505,16 @@ function report(){
   $('#wp').onclick=()=>{SEL=add(L0,-7);VIEW=new Date(SEL.getFullYear(),SEL.getMonth(),1,12);render()};
   $('#wn').onclick=()=>{let n=add(L0,7);if(ROLE==='studente'&&n>TODAY)return;SEL=n;VIEW=new Date(SEL.getFullYear(),SEL.getMonth(),1,12);render()};
   $('#wg').onclick=()=>{REP=false;render()};
+  $('#pdf').onclick=async()=>{const b=$('#pdf');b.disabled=true;b.textContent='Preparo il PDF…';
+    try{if(!window.html2pdf)await new Promise((ok,ko)=>{const t=document.createElement('script');t.src='https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js';t.onload=ok;t.onerror=ko;document.head.appendChild(t)});
+      const c=$('#day').cloneNode(true);c.querySelectorAll('.nop,.tools').forEach(x=>x.remove());
+      c.querySelectorAll('details.fb').forEach(d=>{const div=document.createElement('div');div.className='fb';div.innerHTML='<span class="sm">Giudizio:</span> '+esc(d.lastChild.textContent);d.replaceWith(div)});
+      const w=document.createElement('div');w.style.cssText='width:760px;padding:8px;background:#fff;color:#14213d;font:13px Arial,sans-serif';
+      w.innerHTML='<div style="display:flex;justify-content:space-between;align-items:center;border-bottom:2px solid #0a1d37;padding-bottom:6px;margin-bottom:10px"><b style="letter-spacing:.08em;color:#0a1d37">CENTRO STUDI TELESIO</b><span style="font-size:11px;color:#555">Registro dei compiti · resoconto della settimana</span></div>';w.appendChild(c);
+      const f='Resoconto_'+String(nome).replace(/[^A-Za-z0-9]+/g,'_')+'_'+k0+'.pdf';
+      await html2pdf().set({margin:[10,10,12,10],filename:f,image:{type:'jpeg',quality:0.95},html2canvas:{scale:2,useCORS:true,backgroundColor:'#ffffff'},jsPDF:{unit:'mm',format:'a4',orientation:'portrait'},pagebreak:{mode:['css','legacy'],avoid:['.it','.head4','h4']}}).from(w).save();
+    }catch(e){alert('Il PDF non si è creato. Usa il pulsante «Stampa» e scegli «Salva come PDF».')}
+    b.disabled=false;b.textContent='Scarica PDF'};
   $('#pr').onclick=()=>{$('#day').querySelectorAll('details.fb').forEach(d=>d.open=true);window.print()};
 }
 /* ---------- pagina del giorno ---------- */
