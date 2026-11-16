@@ -2,11 +2,16 @@
  "tag": "letteratura-V-lez03",
  "parti": {
   "1": {
-   "stato": "IN_REVISIONE"
+   "stato": "FERMA"
   }
  },
- "manca": "",
- "serve_master": [],
+ "manca": "sorgenti di montaggio lez.3 e modello Whisper",
+ "serve_master": [
+  {
+   "quando": "16/11 18:21",
+   "testo": "Servono sorgenti di montaggio (slide/timeline) e modello Whisper small; HF bloccato"
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
@@ -17,5 +22,5 @@
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 3 · Carducci",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-16 18:11:55"
+ "aggiornato": "2026-11-16 18:21:12"
 }
