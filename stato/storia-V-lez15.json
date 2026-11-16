@@ -2,37 +2,20 @@
  "tag": "storia-V-lez15",
  "parti": {
   "1": {
-   "stato": "IN_MONTAGGIO"
+   "stato": "FERMA"
   }
  },
- "manca": "",
- "serve_master": [
-  {
-   "quando": "15/11 00:41",
-   "testo": "storia-V-lez15: 25 testi voce in scambio/storia-V-lez15/testi_voci.json (ramo voci-storia-V-lez15), quiz 10x5 da approvare. Una sola Parte (42,3 min di docente, 10 argomenti: ripasso + mappa per ognuno)."
-  },
-  {
-   "quando": "15/11 14:05",
-   "testo": "storia-V-lez15: attendo le voci Kore dal ramo voci-storia-V-lez15 (richiesta gia' inviata il 14/11; resto pronto)."
-  }
- ],
+ "manca": "Trascrizione del docente (vedi lezione 12)",
+ "serve_master": [],
  "domande_sara": [],
  "note": [
   {
-   "quando": "15/11 00:33",
-   "testo": "Storia V · chat S1: preparazione (video e slide scaricati, trascrizione in corso)."
-  },
-  {
-   "quando": "15/11 02:34",
-   "testo": "15/11: pronta, attende voci Kore (quota Google finita, riparte alle 09:00 italiane). Montaggio, mappe, quiz, sottotitoli, dispensa e compiti pronti con voci segnaposto; sostituisco le voci e faccio l'unica codifica finale appena arrivano in vox/."
-  },
-  {
-   "quando": "15/11 10:18",
-   "testo": "15/11: montata con voci segnaposto, Parte unica di 59:26. Pronta, attende voci Kore."
+   "quando": "16/11 12:26",
+   "testo": "Storia V · chat S6: stesso blocco della 12 (nessuna trascrizione). Voci Kore già presenti (25 testi) in voci-storia-V-lez15."
   }
  ],
- "materia": "Storia",
+ "materia": "Storia V",
  "lezione": "Lezione 15 · La decolonizzazione (1945-1975)",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-15 14:05:57"
+ "aggiornato": "2026-11-16 12:26:52"
 }
