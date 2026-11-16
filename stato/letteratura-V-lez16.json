@@ -2,7 +2,7 @@
  "tag": "letteratura-V-lez16",
  "parti": {
   "1": {
-   "stato": "IN_MONTAGGIO",
+   "stato": "IN_REVISIONE",
    "titolo": "Umberto Saba",
    "voci": "kore",
    "quiz_ok": "si",
@@ -342,10 +342,14 @@
   {
    "quando": "15/11 16:01",
    "testo": "chat R5 · lezione 16: controllo_finale: durata/fotogrammi/peso OK, quiz 4/4 a 0,0 s OK, nessun fermo OK, parlato docente -15,9 LUFS OK; sottotitoli 776 blocchi senza sovrapposizioni ma attacco sulla voce solo 53% di 19 verificabili -> sub_ok = no, serve revisione dei sottotitoli (trascrizione Whisper base). Video e file gia' sul ramo consegna-letteratura-V-lez16; lo stato resta IN_MONTAGGIO solo per i sottotitoli."
+  },
+  {
+   "quando": "16/11 18:16",
+   "testo": "chat revisione 16: partita, verifica in corso"
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 16 · Umberto Saba",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-15 16:01:50"
+ "aggiornato": "2026-11-16 18:16:12"
 }
