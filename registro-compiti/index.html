@@ -288,7 +288,13 @@ async function alunno(){if(ALUNNO||DEMO)return;try{const f=(await sha('alunno|'+
   ALUNNO=JSON.parse(dec.decode(await crypto.subtle.decrypt({name:'AES-GCM',iv:u.slice(0,12)},k,u.slice(12))));MATERIE=ALUNNO.materie||[];}catch(e){ALUNNO={};}
   if(!MAT)MAT=MATERIE[0]||'Tutte le materie';if(MATERIE.length&&!MATERIE.includes(MAT)&&!Q.get('m'))MAT=MATERIE[0];}
 /* attività rilevate (piattaforma, lezioni in diretta, quaderno): file cifrato con il codice dell'alunno */
-let ATT=null;const LAB=m=>(ATT&&ATT.etichette&&ATT.etichette[m])||m;
+let ATT=null;
+/* 16/11: dirette dal piano didattico e docente dalle dirette registrate (si vedono se il campo è vuoto) */
+const DIRM=x=>{const f=famiglia(MAT);if(famiglia(x[1])===f)return true;return String(x[1]+','+String(x[2]).replace(/^.*?-\s*/,'')).split(',').some(p=>p.trim()&&famiglia(p.trim())===f)};
+const prossimaDiretta=k=>{if(!ATT||!ATT.dirette||tutte())return '';const x=ATT.dirette.find(d=>d[0]>=k&&DIRM(d));return x?x[0]:''};
+const orarioDirette=()=>{if(!ATT||!ATT.dirette||tutte())return '';const l=ATT.dirette.filter(d=>d[0]>=T&&DIRM(d)).slice(0,6);return l.map(d=>fmtS(d[0])+(d[3]?' ore '+d[3]:'')).join(' · ')};
+const docenteDirette=()=>{if(!ATT||!ATT.days||tutte())return '';const f=famiglia(MAT);let doc='';Object.keys(ATT.days).sort().forEach(k=>(ATT.days[k]||[]).forEach(x=>{if(x.k==='l'&&x.doc&&famiglia(x.f)===f&&!/^Docente di/i.test(x.doc))doc=x.doc}));return doc};
+const LAB=m=>(ATT&&ATT.etichette&&ATT.etichette[m])||m;
 async function attivita(){if(ATT||DEMO)return;try{const f=(await sha('attivita|'+CODE)).slice(0,16);const r=await fetch('attivita/'+f+'.enc?t='+Date.now());if(!r.ok){ATT={days:{}};return}
   const k=await crypto.subtle.importKey('raw',await crypto.subtle.digest('SHA-256',enc.encode('telesio-attivita|'+CODE)),'AES-GCM',false,['decrypt']);const u=unb64((await r.text()).trim());
   ATT=JSON.parse(dec.decode(await crypto.subtle.decrypt({name:'AES-GCM',iv:u.slice(0,12)},k,u.slice(12))));}catch(e){ATT={days:{}}}}
@@ -565,7 +571,7 @@ function genBox(){
   const g=DB.gen||{};
   if(ROLE==='studente')return g.nfam?'<div class="gen" style="padding:10px 14px;border:1px solid #F0C36D;background:#FFF8E6;border-radius:10px;margin:10px 0"><b>Note per la famiglia</b><div style="white-space:pre-wrap;margin-top:4px">'+esc(g.nfam)+'</div></div>':'';
   const vuoto=!g.nome;
-  return '<details class="gen"'+(vuoto?' open':'')+'><summary>Dati generali'+(vuoto?' — da compilare la prima volta':'')+'</summary><div class="g2">'+GEN.map(([k,l])=>'<div>'+l+'</div><div><input type="text" data-g="'+k+'" value="'+esc(g[k]||'')+'"></div>').join('')+'</div></details>';
+  return '<details class="gen"'+(vuoto?' open':'')+'><summary>Dati generali'+(vuoto?' — da compilare la prima volta':'')+'</summary><div class="g2">'+GEN.map(([k,l])=>'<div>'+l+'</div><div><input type="text" data-g="'+k+'" value="'+esc(g[k]||({doc:docenteDirette(),ora:orarioDirette()})[k]||'')+'"></div>').join('')+'</div></details>';
 }
 function day(){
   if(REP){report();return}
@@ -576,7 +582,7 @@ function day(){
     '<p class="sm" style="color:var(--mut);font-size:12px;margin-top:10px">Qui si vedono le attività di tutte le materie: videolezioni della piattaforma, lezioni in diretta, compiti del quaderno. I compiti del registro si scrivono nella scheda della materia.</p>';
     $('#pr').onclick=()=>window.print();return}
   let h='<div class="dayh"><div><h2>'+fmtL(SEL)+'</h2><div class="bar"></div></div><div class="tools">'+(ro?'':'<span class="status" id="st"></span><button class="btn pri" id="sv">Salva</button>')+'<button class="btn" id="pr">Stampa / PDF</button></div></div>';
-  h+='<div class="head4"><div><span class="lab">Studente</span>'+esc(g.nome||'')+'</div><div><span class="lab">Materia</span>'+esc(LAB(MAT))+'</div><div><span class="lab">Docente</span>'+esc(g.doc||'')+'</div><div><span class="lab">Prossima diretta</span>'+(ro?esc(fmtS(r.dir)):'<input type="date" data-k="dir" value="'+esc(r.dir||'')+'">')+'</div></div>';
+  h+='<div class="head4"><div><span class="lab">Studente</span>'+esc(g.nome||'')+'</div><div><span class="lab">Materia</span>'+esc(LAB(MAT))+'</div><div><span class="lab">Docente</span>'+esc(g.doc||docenteDirette())+'</div><div><span class="lab">Prossima diretta</span>'+(ro?esc(fmtS(r.dir||prossimaDiretta(k))):'<input type="date" data-k="dir" value="'+esc(r.dir||prossimaDiretta(k))+'">')+'</div></div>';
   h+=genBox();
   h+=progBox(k)+attBox(k);
   if(ro&&!filled(r))h+=(attDi(k).length||programmati(k).length)?'':'<div class="empty"><b>Nessun compito per questo giorno</b>Guarda i giorni con il pallino giallo.</div>';
