@@ -12,7 +12,15 @@
   {
    "quando": "16/11 18:19",
    "testo": "chat revisione 22: verifica in corso; Whisper non scaricabile (proxy 403)"
+  },
+  {
+   "quando": "16/11 23:26",
+   "testo": "consegna prevista 02:06 (ora italiana): video rimontato nel modello, mancano assemblaggio, sottotitoli, PDF, controlli"
+  },
+  {
+   "quando": "16/11 23:40",
+   "testo": "aggiornamento 20 min: video rimontato 3064,6 s = 91938 fotogrammi (come il vecchio), PDF fatti; in corso trascrizione finale e sottotitoli. Consegna prevista 02:15 (ora italiana)"
   }
  ],
- "aggiornato": "2026-11-16 18:19:36"
+ "aggiornato": "2026-11-16 23:40:01"
 }
