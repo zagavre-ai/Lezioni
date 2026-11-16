@@ -159,3 +159,7 @@ La lezione 3 è la rifatta meglio (tutta nel modello Spagnolo in ~2 ore). Nei fi
 ## 16/11 ore 15:00 PT · FETTINE DEL LIBRO: CONTROLLO OBBLIGATORIO (Letteratura)
 Il controllo della master sulla lezione 3 ha trovato fettine **sbagliate**: righe tagliate a metà, pezzi di colonne accanto tagliati a sinistra, frammenti estranei. Da adesso (sezione 5 delle regole): per ogni fettina un fotogramma, tutti in `controllo_fettine.jpg` nel rapporto; la fettina inizia e finisce su una riga bianca e prende **solo** la colonna del brano. Con anche un solo difetto la lezione non è consegnabile. **Chat della lezione 3: rifai le fettine (tabella §4 del tuo rapporto) e riconsegna.**
 
+## 16/11 ore 15:10 PT · FONT DELLE ETICHETTE: Figtree Bold, NON DM Mono (correzione della master)
+Nelle regole c'era scritto «DM Mono» per la riga «01 · ARGOMENTO», la riga della copertina e il piè di pagina: **era sbagliato**. Nel video Spagnolo (il modello) quelle righe sono in **Figtree Bold maiuscolo spaziato**. Tutte le lezioni devono essere uguali: chi ha usato DM Mono (es. lezione 11) lo cambia. Controllo: confronta la tua slide con `kit/modello_spagnolo/slide_1080p_esempio.png`.
+**Audio:** picco massimo −1 dBTP (misuralo con `ebur128=peak=true`): la lezione 11 è a 0,0 dB, la 3 a −0,8. Correggete prima di consegnare.
+
