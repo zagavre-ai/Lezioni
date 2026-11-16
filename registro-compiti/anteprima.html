@@ -571,7 +571,7 @@ function genBox(){
   const g=DB.gen||{};
   if(ROLE==='studente')return g.nfam?'<div class="gen" style="padding:10px 14px;border:1px solid #F0C36D;background:#FFF8E6;border-radius:10px;margin:10px 0"><b>Note per la famiglia</b><div style="white-space:pre-wrap;margin-top:4px">'+esc(g.nfam)+'</div></div>':'';
   const vuoto=!g.nome;
-  return '<details class="gen"'+(vuoto?' open':'')+'><summary>Dati generali'+(vuoto?' — da compilare la prima volta':'')+'</summary><div class="g2">'+GEN.map(([k,l])=>'<div>'+l+'</div><div><input type="text" data-g="'+k+'" value="'+esc(g[k]||({doc:docenteDirette(),ora:orarioDirette()})[k]||'')+'"></div>').join('')+'</div></details>';
+  return '<details class="gen"'+(vuoto?' open':'')+'><summary>Dati generali'+(vuoto?' — da compilare la prima volta':'')+'</summary><div class="g2">'+GEN.map(([k,l])=>'<div>'+l+'</div><div><input type="text" data-g="'+k+'" value="'+esc(g[k]||({doc:docenteDirette(),ora:orarioDirette(),cla:(ATT&&ATT.classe)||''})[k]||'')+'"></div>').join('')+'</div></details>';
 }
 function day(){
   if(REP){report();return}
