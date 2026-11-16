@@ -2,18 +2,18 @@
  "tag": "letteratura-V-lez18",
  "parti": {
   "1": {
-   "stato": "IN_MONTAGGIO",
+   "stato": "PRONTA",
    "voci": "kore",
    "titolo": "Eugenio Montale",
    "quiz_ok": "si",
    "fermi_ok": "si",
    "sub_ok": "si",
    "video": "Letteratura_Lez18_Parte1_1080p.mp4",
-   "durata_s": 2294.6,
-   "durata": "38:14.6",
-   "fotogrammi": 68837,
-   "fotogrammi_attesi": 68837,
-   "peso_MB": 162.8,
+   "durata_s": 3219.5,
+   "durata": "53:39.5",
+   "fotogrammi": 96585,
+   "fotogrammi_attesi": 96585,
+   "peso_MB": 188.3,
    "vtt": "Letteratura_Lez18_Parte1.vtt",
    "scheda": {
     "materia": "Letteratura italiana (V)",
@@ -441,7 +441,9 @@
      2260.364,
      8.0
     ]
-   ]
+   ],
+   "t_verifica": 3194.897,
+   "t_compiti": 3213.197
   }
  },
  "manca": "",
@@ -480,10 +482,14 @@
   {
    "quando": "15/11 02:39",
    "testo": "pronta, attende voci Kore (v2 con approfondimenti animati, mappe, compiti del prof; montata con segnaposto)"
+  },
+  {
+   "quando": "16/11 08:00",
+   "testo": "Letteratura V · chat F: v2 PRONTA. Durata misurata 53:39, 188 MB, 1080p. 22 animazioni (16 approfondimenti con voce Kore + 6 mappe per argomento + mappa finale), quiz 5x6, verifica = test del prof (10 domande, t_verifica 2995 circa vedi scheda), compiti del prof (4) nel video e in compiti.json, bande blu su Quiz/Verifica/Compiti, Mappe_letteratura-V-lez18.pdf A4 orizzontale. Controlli: scatto quiz a 0,0 s (scarti max 0,03 s), parlato -16,6 LUFS, nessun fermo, sottotitoli OK. Sottotitoli del docente: trascrizione Whisper base con correzione dei nomi, qualità da campione. Voci Kore tutte arrivate."
   }
  ],
  "materia": "Letteratura italiana · V anno",
  "lezione": "Lezione 18",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-15 02:39:05"
+ "aggiornato": "2026-11-16 08:00:00"
 }
