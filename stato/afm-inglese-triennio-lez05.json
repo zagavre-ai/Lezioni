@@ -463,6 +463,10 @@
   {
    "quando": "15/11 03:06",
    "testo": "DURATA lez05: il docente da solo fa 60,4 min dopo i tagli delle pause (regola 1,0->0,6 s): con sigle, mappe, quiz e compiti la Parte e' 66 min (stima). Non e' possibile 50-60 senza tagliare parole della docente; dividere in due Parti darebbe ~33 min l'una. Propongo di tenere una sola Parte di 66 min (limite 'circa 65' del'8/11). Stessa cosa lez04: 62 min. Dimmi se va bene."
+  },
+  {
+   "quando": "16/11 22:07",
+   "testo": "Per rifare la lez05 col modello Spagnolo: ricaricare nella release inglese-afm-triennio lo zip con ENG_Amm_Lez05_Videolezione.mp4 (001 o 002)."
   }
  ],
  "domande_sara": [],
@@ -490,10 +494,14 @@
   {
    "quando": "16/11 01:50",
    "testo": "16/11: aggiunto Mappe_afm-inglese-triennio-lez05.pdf (A4 orizzontale, una mappa per pagina, stessa grafica del video) sul ramo consegna-afm-inglese-triennio-lez05. Le mappe sono già nel video: nessuna ricodifica."
+  },
+  {
+   "quando": "16/11 22:07",
+   "testo": "16/11 sera (chat master E1): questa lezione NON è conforme allo STOP QUALITÀ e al modello Spagnolo del 16/11 (stessi difetti della v1 di 7 e 10: pause del prof accorciate, fascia su tre righe, niente «Pagina N», fondo grigio, finale vecchio, niente PDF slide A4). Da rifare come la v2 di 7 e 10 (stesse voci Kore). Serve il video originale della prof: nella release inglese-afm-triennio ci sono solo gli zip 003 e 004, il video della lezione è nello zip 001 o 002 che non c'è più."
   }
  ],
  "materia": "Inglese AFM",
  "lezione": "Lezione 5",
  "docente": "Prof.ssa Maria Vittoria Fontanesi",
- "aggiornato": "2026-11-16 01:50:50"
+ "aggiornato": "2026-11-16 22:07:45"
 }
