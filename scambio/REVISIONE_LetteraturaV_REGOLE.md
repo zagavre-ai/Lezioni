@@ -100,6 +100,11 @@ Esempio funzionante da aprire: ramo `revisione-letteratura-V-lez03` (rapporto, P
 8. **Consegne complete, nessuna esclusa:** video + sha256, `.vtt`, `…_slide.pdf`, `…_mappe.pdf`, `verifica_finale.json` + xlsx (10 domande del prof), `compiti.json`, `scheda_pubblicazione.json` col titolo standard, `quiz_argomenti.json`.
 9. **Controllo sul video nuovo:** durata e fotogrammi = vecchio; fotogramma ogni 30 s (`controllo_minuti.jpg`) + punti a caso; nessun fermo ≥ 2 s del prof; volume −16 LUFS; picco ≤ −1 dBTP (lez. 3 è a −0,8: abbassalo).
 **Struttura del rapporto (uguale per tutte):** 1 Misure sul video nuovo · 2 Confronto col modello (11 punti, esito per ciascuno) · 3 Problemi trovati e correzioni (minuto · tipo · com'era · correzione) · 4 Pagine del libro in HD · 5 **Cosa NON ho verificato** · 6 Come ho verificato. Ogni affermazione è etichettata **misurato / stima / non verificato**: mai «fatto» o «funziona» senza una misura.
+**CONTROLLO OBBLIGATORIO DELLE FETTINE (aggiunto 16/11 notte dopo il controllo della lezione 3, che le aveva sbagliate):** per OGNI riga della tabella brano · pagina · file · minuto estrai un fotogramma a metà intervallo e guardalo. Errori trovati nella lezione 3, da non ripetere:
+- riga tagliata a metà in basso o in alto (es. «…i versi han-» a 45:50): la fettina deve finire e iniziare su una **riga bianca**;
+- pezzi di un'altra colonna o della pagina accanto ai lati (es. «rosso cupo.», «del viale della stazione», «ROLE», «ALISI DEL TESTO» tagliati a sinistra): la fettina prende **solo la colonna del brano**, tutta intera;
+- frammenti estranei in alto (es. «precedenti?»): via.
+Nel rapporto: un foglio `controllo_fettine.jpg` con tutti i fotogrammi delle fettine. Se anche una sola fettina ha questi difetti, la lezione **non è consegnabile**.
 **Cose da fare meglio della lezione 3** (lei le ha lasciate aperte; tu chiudile):
 - **Voce Kore pronunciata male** (nomi di opere, termini): non limitarti a segnalarlo. Aggiungi le frasi corrette come `R1`, `R2`… a `testi_voci.json`, fai push, e **rimonta** quando il servizio le ha generate (10–30 min).
 - **Schede di servizio «Quiz», «Verifica finale», «Compiti»** a fine video: rifalle anche loro nel modello Spagnolo (Sara vuole lezione identica in tutto).

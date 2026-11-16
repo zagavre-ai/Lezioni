@@ -156,3 +156,6 @@ La lezione 3 è la rifatta meglio (tutta nel modello Spagnolo in ~2 ore). Nei fi
 - Voci Kore sbagliate: aggiungi `R1`, `R2`… e rimonta. Schede finali «Quiz / Verifica / Compiti» nel modello. Picco audio ≤ −1 dBTP. Date che non coincidono: lista «DA CONFERMARE COL PROF».
 - Se sei già oltre questi punti, non rifare: controlla solo di non aver saltato nulla dell'elenco.
 
+## 16/11 ore 15:00 PT · FETTINE DEL LIBRO: CONTROLLO OBBLIGATORIO (Letteratura)
+Il controllo della master sulla lezione 3 ha trovato fettine **sbagliate**: righe tagliate a metà, pezzi di colonne accanto tagliati a sinistra, frammenti estranei. Da adesso (sezione 5 delle regole): per ogni fettina un fotogramma, tutti in `controllo_fettine.jpg` nel rapporto; la fettina inizia e finisce su una riga bianca e prende **solo** la colonna del brano. Con anche un solo difetto la lezione non è consegnabile. **Chat della lezione 3: rifai le fettine (tabella §4 del tuo rapporto) e riconsegna.**
+
