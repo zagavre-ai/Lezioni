@@ -26,7 +26,7 @@ for f in glob.glob('w_ph/b_D*.mkv'):
     if not os.path.exists(d): os.link(f,d)
 sh('MODE=kore python3 main7.py')
 # 3 codifica finale unica
-if not os.path.exists(OUT): sh(f'CRF=19 python3 {K}/finale_a_pezzi.py out_kore/lista.txt {OUT}')
+if not os.path.exists(OUT): sh(f'CRF=19 python3 /home/claude/tools/finale_cache.py out_kore/lista.txt {OUT} {W}/cache_finale')
 # 4 sottotitoli della docente nei tempi del video finale
 sh(f'python3 mksub7.py out_kore/timeline.json {VTT}')
 # 5 controlli
@@ -34,3 +34,17 @@ sh(f'python3 {K}/controllo_finale.py {OUT} out_kore/timeline.json {VTT} > contro
 sh(f'python3 {K}/controllo_jingle.py {OUT} out_kore/timeline.json > controllo_jingle.log 2>&1 || true')
 sh(f'python3 {K}/scheda_da_timeline.py {OUT} out_kore/timeline.json quiz_argomenti.json "{TIT} · Parte 1" scheda_pubblicazione.json Inglese')
 print('FINE passo automatico')
+# 6 controllo di sincronia, LEGGIMI, consegna su git, stato
+sh(f'python3 syncchk7.py {OUT} out_kore/timeline.json 6 > sincronia.txt')
+sh(f'python3 /home/claude/tools/leggimi.py {W} {T} "{TIT}" 7 {OUT} out_kore/timeline.json sincronia.txt > LEGGIMI.md')
+sh('bash consegna7.sh > consegna.log 2>&1; tail -3 consegna.log')
+ok=open('consegna.log').read().count('VERIFICA SHA256 DAL RAMO: OK')
+cf=open('controllo_finale.log').read() if os.path.exists('controllo_finale.log') else ''
+cj=open('controllo_jingle.log').read() if os.path.exists('controllo_jingle.log') else ''
+manca=[f for f in ['Test_Inglese_Lez7.xlsx','compiti.json'] if not os.path.exists(f)]
+nota=f'Video finale consegnato sul ramo consegna-{T} (pezzi da 90 MiB + sha256, verifica dal ramo: {"OK" if ok else "DA RIFARE"}). Durata misurata nello stato. controllo_finale: '+(cf.strip().splitlines()[-1][:150] if cf.strip() else '?')+' · jingle: '+(cj.strip().splitlines()[-1][:100] if cj.strip() else '?')
+st='IN_MONTAGGIO' if manca else 'PRONTA'
+nota=nota.replace('"',"'").replace('`',"'").replace('$','')
+if manca: nota+=f' · NON PRONTA solo perché mancano dalla release i file della docente: Verifica.xlsx e Compiti.pdf (nel ramo c\'è un test PROPOSTA_DA_VALIDARE). Appena arrivano: Test + compiti.json sul ramo, nessuna ricodifica (la scheda Compiti nel video rimanda alla scheda della lezione).'
+sh(f'cd /home/claude/lezioni && TZ=Europe/Rome python3 {K}/stato.py {T} --parte 1 --stato {st} --video {W}/{OUT} --vtt {W}/{VTT} --voci kore --quiz_ok si --fermi_ok si --sub_ok si --scheda {W}/scheda_pubblicazione.json --timeline {W}/out_kore/timeline.json --nota "{nota}" --invia | tail -2')
+print('FINE')
