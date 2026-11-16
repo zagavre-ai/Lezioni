@@ -1,38 +1,74 @@
 # RAPPORTO DI REVISIONE · Letteratura italiana V · Lezione 15 · La narrativa tra le due guerre
-Prof. Giorgio Mazzotti · chat di revisione (16/11/2026) · **VERSIONE 1 (prima ora): verifica fatta, correzione in corso**
+Prof. Giorgio Mazzotti · chat di revisione · 16/11/2026 · **VERSIONE FINALE** · stato **REVISIONATA**
+
+**Video nuovo:** 51:41,8 (3101,8 s) · 93 055 fotogrammi (= durata × 30, OK) · 1920×1080 · 30 fps · x264 veryfast CRF 19 · AAC 192 k 48 kHz · 298,5 MB (4 parti da 90 MB, `sha256` uguale alla ricomposizione) · **−16,4 LUFS**, picco vero **−2,5 dBTP**. Il prof non è stato tagliato: i 4 pezzi coprono tutto l'originale (1876 s).
 
 ## 1. Che cosa ho verificato e come
-- **Video montato** (consegna-letteratura-V-lez15): pezzi ricomposti, **sha256 uguale** (OK). 1920×1080, 30 fps, **55:24,6**, 99 737 fotogrammi.
-- **Audio:** trascrizione completa del parlato (Whisper small, italiano) + `silencedetect` + `loudnorm` (misurati).
-- **Visione:** 111 fotogrammi (uno ogni 30 s) + **164 stati di slide** trovati col rilevamento dei cambi, ognuno letto con OCR. Confrontato con il modello `kit/modello_spagnolo/`.
-- **Testo:** .vtt, dispensa PDF, quiz, verifica (.xlsx), compiti, scheda, testo YouTube letti e confrontati con il materiale del prof (release `mazzotti-letteratura-V`: Excel, PDF compiti, mappa).
-- **Non posso verificare all'ascolto** (non ho orecchie): fruscio/ronzio/«metallico». Misuro solo livelli (LUFS, picco). Scritto qui perché sia chiaro.
+| Cosa | Come | Esito |
+|---|---|---|
+| Video montato | pezzi ricomposti, sha256 uguale; fotogrammi/durata/peso con `ffprobe` | OK (misurato) |
+| Audio (A) | trascrizione completa Whisper *small* (it) del video montato + `silencedetect` + `loudnorm`; trascrizione del prof con Whisper *medium* | misurato |
+| «ecco / guarda / in questa foto…» | cercate in tutta la trascrizione: le uniche occorrenze sono del **prof** («ecco qua Federigo, come vedete, Federigo Tozzi» a 33:44 del montato: la slide con il ritratto c'è) o frasi generiche. **Nessuna frase della voce narrante** nomina immagini che mancano | OK |
+| Visione (B) | 111 fotogrammi (uno ogni 30 s) + **164 stati di slide** con OCR; confronto con `kit/modello_spagnolo/` | misurato |
+| Sincronia slide–prof | per ogni scheda evidenziata ho confrontato il tempo con la riga dei sottotitoli del prof (vedi problemi 7–13) | corretto |
+| Testo (C) | OCR delle slide, dispensa, quiz, verifica (.xlsx), compiti, scheda, testo YouTube, tutti letti | misurato |
+| Sottotitoli | trascrizione rifatta e **riletta riga per riga** (354 blocchi del prof, circa 300 corretti a mano; 8 tratti di voce narrante che mancavano) | fatto a mano |
+| Pagine del libro (B-bis) | la lezione 15 **non ha pagine del libro** (lista del punto B-bis) | non applicabile |
 
-## 2. Problemi trovati (tabella)
-| Minuto | Tipo | Com'era | Come lo correggo |
-|---|---|---|---|
-| tutta la lezione | visivo | Prof nel **tondo** (diametro ~250 px) con scritta «Prof. Giorgio Mazzotti» piccola sotto; **niente fascia gialla** | riquadro **4:3 (410×308, x1428 y146), ombra grigia morbida**, fascia gialla −3° su due righe, dal video originale con correzione immagine del kit |
-| tutta la lezione | visivo | Fondo grigio-azzurro, **tre stili diversi** nella stessa lezione (slide, approfondimenti, ripassi), testo piccolo e metà schermo vuoto, piè di pagina con «Introduzione/Ripasso/Approfondimento» invece di «Pagina N» | tutte le slide rifatte **identiche a Spagnolo** (fondo bianco, label DM Mono, titolo Bricolage 800 + barretta, card/tabelle, piè «LETTERATURA ITALIANA V · Prof. Giorgio Mazzotti» + «Pagina N») |
-| 0:15 | visivo | Dalla sigla (nero) alla copertina (bianco) c'è un **taglio netto**: lampo | dissolvenza di 1 s |
-| 0:15–0:38 | visivo | Copertina senza il prof | resta senza prof (parla la voce di benvenuto); il prof entra a 0:41 come da audio |
-| 17:07–19:20 (circa) | testo | **«venticinque luglio 1940tré»** sulla slide di ripasso (anche nella dispensa, p. 2) | «25 luglio 1943» |
-| 13:10–13:18 | visivo/audio | Ripasso arg. 1: la voce legge la 4ª frase («marcia su Roma») ma sullo schermo non c'è | frase 4 sulla slide |
-| 0:15–0:37, 12:30–13:17, 18:31–19:24, 32:11–33:00, 51:40–55:00 (ripassi, benvenuto, glossario, riepilogo, congedo) | testo | **Sottotitoli mancanti** per ~6 minuti di voce narrante (il .vtt ha 741 righe ma niente in questi tratti) | .vtt rifatto su tutta la voce |
-| 55:00–55:24 | struttura | Dopo «Fine della lezione» ci sono le schede «Verifica finale» e «Compiti» **dopo** il «GRAZIE» (ordine sbagliato) e il finale non è quello del kit (manca l'avviso dei diritti) | tolte dal video (verifica e compiti stanno fuori, regola 10); finale = `Sigla_finale_5s_con_avviso_diritti.mp4` |
-| mappe 11:35, 17:35, 31:16, 51:00, 52:30 | contenuto | **Mappe concettuali inventate da noi** (arg. 1, 2, 3 e mappa finale) e anche quella dell'arg. 4 con parole chiave («crisi, inettitudine, Meridione…») che nella mappa del prof **non ci sono**. La mappa del prof (`LEZIONE 15.pdf`, release `MAPPE`) è **una sola** e riguarda solo l'argomento 4 | arg. 4: **mappa del prof**, testo identico, nella nostra grafica (voce nuova). Arg. 1–3 e finale: *non inventate* → tolte (regola «non inventarla») — **decisione per Sara qui sotto** |
-| audio | audio | volume −16,29 LUFS (OK) ma **picco vero +0,63 dBTP** (limite −1) | limitatore a −1,5 dBTP |
-| consegna | testo | `compiti.json` nel formato sbagliato (lista di stringhe) | `{"titolo":…,"esercizi":[{"n":1,"tipo":"aperta","testo":…}]}`, testo identico al PDF del prof |
-| consegna | testo | scheda_pubblicazione: titolo «La narrativa tra le due guerre · Parte 1» | «Letteratura V · Lezione 15 · La narrativa tra le due guerre» |
-| consegna | testo | «Dispensa» PDF e «Mappe» PDF non sono le slide del video né le mappe del prof | `…_slide.pdf` (pagine = slide del video, A4 orizzontale) e `…_mappe.pdf` (mappa del prof) |
-| consegna | testo | testo_youtube: titolo con «Parte 1», capitoli da rifare con i nuovi tempi | rifatto |
+**Non ho potuto verificare** (scritto perché sia chiaro): all'**ascolto** fruscio/ronzio/«metallico» (misuro solo livelli: nel montato il filtro a 80 Hz c'è, −13 dB sotto gli 80 Hz rispetto all'originale; `arnndn` non è dimostrabile da qui); la **sincronia delle labbra** (il controllo automatico sui pixel non dà un segnale: la webcam è troppo piccola; ho misurato invece l'allineamento sull'audio: offset costante per pezzo −41,43 / −303,03 / −561,40 / −865,93 s, correlazione 0,83–0,97 in tutte le finestre); lo **scatto dei Quiz a 0,0 s** (il kit non ha il suono di riferimento: `controllo_finale.py` risponde «non trovato»; le schede Quiz stanno agli stessi fotogrammi di prima rispetto all'audio); i dettagli dei testi di approfondimento scritti da noi (es. «Sauze d'Oulx → Salice d'Ulzio»).
 
-## 3. Domande per Sara (rispondi con una riga)
-1. **Mappe di arg. 1, 2, 3 e mappa finale**: non esistono mappe del prof (c'è solo quella dell'arg. 4). Per regola non si inventano: le ho **tolte** (tagliando la voce narrante, mai il prof). Se invece vuoi tenere le nostre, dimmelo e le rimetto.
-2. Le «schede» di approfondimento (Tozzi, Alvaro, Silone, Buzzati) e le «parole chiave» sono scritte da noi sul materiale del prof; non ho trovato niente di non detto dal prof nei punti che ho controllato, ma non ho potuto controllare ogni dettaglio (es. «Sauze d'Oulx → Salice d'Ulzio»).
+## 2. Tabella dei problemi trovati (minuti = video montato vecchio)
+| # | Minuto | Tipo | Com'era | Come l'ho corretto |
+|---|---|---|---|---|
+| 1 | tutta la lezione | visivo | Prof nel **tondo** (Ø ~250 px) con «Prof. Giorgio Mazzotti» piccolo sotto; niente fascia gialla | riquadro **4:3 412×310 (x 1428, y 148)**, angoli arrotondati, ombra grigia, nessun bordo; **fascia gialla −3°** «Giorgio Mazzotti» / «PROF. DI LETTERATURA ITALIANA», sempre visibile dove c'è il prof. Ritaglio dalla webcam del video **originale** (box 246×138, due posizioni: sotto fino a 19:29, sopra dopo) con contrasto 1,04, saturazione 1,03, `hqdn3d 1.5:1.5:3:3`, `cas 0.35` sul riquadro già rimpicciolito |
+| 2 | tutta la lezione | visivo | Fondo grigio-azzurro, **tre stili diversi** (slide / approfondimenti / ripassi), testo piccolo, metà schermo vuoto, piè di pagina con «Introduzione/Ripasso/Approfondimento» invece di «Pagina N» | tutte le slide rifatte **identiche a Spagnolo** (vedi tabella 3) |
+| 3 | 0:15 | visivo | dalla sigla nera alla copertina bianca c'era un **taglio netto** (lampo) | dissolvenza di 1 s |
+| 4 | 19:13–19:24 | testo | sulla slide di ripasso: **«venticinque luglio 1940tré»** (anche nella dispensa, pag. 2) | «25 luglio 1943» |
+| 5 | 13:10–13:18 | visivo/audio | ripasso arg. 1: la voce legge 4 punti, sullo schermo ne mancava uno (la marcia su Roma) | 4 punti a schermo, in sincronia |
+| 6 | 0:15–0:37, 12:30–13:17, 18:32–19:23, 32:08–32:59, 51:40–55:00 | testo | **~6 minuti di voce narrante senza sottotitoli** (benvenuto, 4 ripassi, glossario, riepilogo, congedo). Nel parlato del prof il .vtt era una trascrizione automatica con errori («ventegno», «shopperi», «ricotozi», «Fonda Mara», «il letteratura»…) | trascrizione rifatta e riletta: 880 blocchi, max 2 righe da 42, 1–6 s, 0 sovrapposti |
+| 7 | 1:51–3:42 | visivo | card «Le condizioni dell'Italia» evidenziata per 111 s mentre il prof presenta la lezione (parla della crisi dal 3:44) | nessuna card evidenziata fino al 3:42, poi la card 1 |
+| 8 | 4:47 | visivo | card «vittoria mutilata» 3 s in ritardo | a 4:44 (il prof la nomina a 4:44) |
+| 9 | 14:08–14:26 e 14:26–14:56 | visivo | «Economia e società» in ritardo di ~4 s; poi «Il controllo delle masse» evidenziata mentre il prof parla di Patti Lateranensi, autarchia, IMI/IRI (cioè dell'altra card) | «Economia e società» dal momento in cui il prof dice «nel 1929… Patti Lateranensi» fino a fine pezzo; «controllo delle masse» non viene nominata dal prof in questo pezzo: non evidenziata |
+| 10 | 15:06 | visivo | «alleanza con la Germania» 2 s in ritardo | a 15:06,2 − 2 s |
+| 11 | 19:32–23:28 | visivo | **card «L'intellettuale di regime» evidenziata per 3 min 56 s** mentre il prof parla di altro (mobilitazione delle masse, Ministero della Cultura Popolare, radio e cinema, poi Gentile/manifesti) e pagina «politica linguistica» 6 s in ritardo | nessuna evidenziazione nel preambolo; «mezzi di comunicazione» quando cita stampa/radio/cinema; «intellettuale di regime» da Gentile; pagina linguistica da «unificazione linguistica» |
+| 12 | 36:09 | visivo | card «Alvaro» 16 s prima che il prof ci arrivi («Proseguiamo allora… Alvaro» a 36:25) | a 36:25 |
+| 13 | tutta la lezione | visivo | testi piccoli, «Pagina N» che salta | pagine numerate 1…63 nell'ordine del video, uguali al PDF |
+| 14 | 11:35, 17:35, 31:16, 52:30 | contenuto | **Mappe concettuali inventate da noi** (arg. 1, 2, 3 e mappa finale) | **tolte** (regola «non inventarla»; tagliata solo la voce narrante, mai il prof) |
+| 15 | 50:10 | contenuto | mappa arg. 4 con parole chiave («crisi, inettitudine, Meridione…») che nella mappa del prof **non ci sono** | **mappa del prof** (`MAPPE/LEZIONE 15.pdf`) con testo identico, nostra grafica, **voce nuova Kore** (6 frasi `PM1–PM6` generate dalla master) che legge i suoi riquadri |
+| 16 | 55:00–55:24 | struttura | dopo «Fine della lezione» c'erano le schede «Verifica finale» e «Compiti» **dopo** il «GRAZIE»; finale non quello del kit | tolte dal video (stanno fuori, regola 10); finale = `Sigla_finale_5s_con_avviso_diritti.mp4` |
+| 17 | audio | audio | picco vero **+0,63 dBTP** (limite −1) | limitatore: −2,5 dBTP; −16,4 LUFS |
+| 18 | consegna | testo | `compiti.json` in formato sbagliato (lista di stringhe) | `{"titolo","esercizi":[{"n","tipo","testo"}]}`, testo identico al PDF del prof (4 esercizi) |
+| 19 | consegna | testo | scheda: titolo «La narrativa tra le due guerre · Parte 1» | «Letteratura V · Lezione 15 · La narrativa tra le due guerre»; tempi di argomenti e quiz ricalcolati; `t_verifica` e `t_compiti` = fine video (sono fuori dal video) |
+| 20 | consegna | testo | «Dispensa» e «Mappe» PDF non erano né le slide del video né le mappe del prof | `…_slide.pdf` (63 pagine = le slide del video) e `…_mappe.pdf` (1 pagina: la mappa del prof) |
+| 21 | consegna | testo | testo YouTube con «Parte 1» e capitoli vecchi | rifatto con i nuovi tempi |
+| 22 | 31:16 (nuovo) | visivo | **1,7 s di webcam ferma** nel pezzo del prof | è nell'**originale** (a 19:29 il prof dice «mi sposto un poco più sopra»: la finestra si muove). Non è un errore di montaggio; lo lascio, non si taglia il prof |
+| 23 | vari | visivo | in alcuni punti la cima dei capelli del prof è tagliata | è già così nella webcam originale (il prof è molto vicino al bordo): più in alto non c'è immagine |
+| 24 | 1:12–… | audio | silenzi 2,4–3,8 s | solo alle **schede Quiz** (pausa prevista, 5 s). Il più lungo (3,8 s) è la scheda del quiz 4 + 0,8 s prima del glossario |
 
-## 4. Piano di correzione e tempi (stima)
-1. Slide nuove (riquadro 4:3 + grafica Spagnolo): 40 min (in corso).
-2. Montaggio dal video originale del prof, allineato sull'audio (misurato: i 4 pezzi del prof coprono tutto l'originale, 1876 s): 40 min.
-3. Voce nuova per la mappa dell'arg. 4 (testi inviati alla master su `voci-letteratura-V-lez15`): 30 min di attesa, intanto lavoro sul resto.
-4. Sottotitoli, PDF, compiti, scheda, controlli: 60 min.
-Consegna prevista entro le 4 ore.
+## 3. Confronto con il modello Spagnolo, punto per punto (regola 000)
+| Punto | Esito |
+|---|---|
+| 1 Sigla 15 s → dissolvenza morbida → copertina | **corretto** (prima: taglio netto) |
+| 2 Copertina (logo, riga DM Mono «LETTERATURA ITALIANA V · VIDEOLEZIONE», titolo Bricolage 800 + barretta, card ARGOMENTI su due colonne) | **corretto** |
+| 3 Slide: fondo bianco, «01 · NOME ARGOMENTO» (numero dell'argomento), titolo + barretta, card e tabelle (glossario con intestazione blu notte), giallo solo per evidenziare | **corretto** |
+| 4 Piè di pagina «LETTERATURA ITALIANA V · Prof. Giorgio Mazzotti» + «Pagina N» | **corretto** (mai il numero della lezione) |
+| 5 Riquadro 4:3, ombra grigia, nessun bordo, tutta la testa e le spalle | **corretto** (412×310 a x 1428, y 148, misurato sul modello); testa: vedi problema 23 |
+| 6 Fascia gialla −3°, due righe, sempre visibile | **corretto** |
+| 7 Slide senza prof (approfondimenti, ripassi, glossario, riepilogo): testo grande, parole chiave in giallo | **corretto** |
+| 8 Font: Bricolage Grotesque 800, Figtree, DM Mono | **corretto** (nessun altro font) |
+| 9 Finale del kit 5 s con avviso diritti | **corretto** |
+| 10 Struttura: sigla → presentazione → per argomento (titolo, prof, approfondimenti, pillola di ripasso, quiz da 5) → glossario → riepilogo → finale; verifica e compiti fuori; 50–60 min | **OK** (51:41,8). Gli «approfondimenti animati» restano a comparsa progressiva delle card (come nel montato) |
+| 11 PDF A4 orizzontale: slide identiche al video + mappe del prof | **fatto**: `…_slide.pdf` **63 pagine** (ogni slide del video, senza riquadro e senza fascia; confronto fatto sul nuovo video: stesso testo, stesso ordine, stessa numerazione), `…_mappe.pdf` **1 pagina** (c'è solo la mappa del prof dell'arg. 4) |
+
+## 4. Controlli sul video nuovo (A+B+C rifatti)
+- `controllo_finale.py` del kit: durata 51:41,8 · fotogrammi 93 055 = attesi **OK** · 298,3 MB **OK** · 1920×1080 **OK** · parlato del prof **−16,2 LUFS OK** · sottotitoli: 880 blocchi, **0 sovrapposti, 0 oltre la fine**; «attacco sulla voce entro 0,3 s»: il controllo del kit dà 44 % su 16 campioni (pochi sono «verificabili»; i casi in difetto sono rumorini/«click» nei tratti di voce narrante). Nessuna cue cade su silenzio. Per le righe spezzate a metà frase il tempo è proporzionale e agganciato alla pausa più vicina: **stima ±0,5 s**, non misura.
+- Trascrizione delle **giunzioni** (±2,5 s) di tutti i punti dove ho tolto le mappe: nessuna parola tagliata, nessun resto della voce delle mappe.
+- 5 punti a caso + tutti i minuti cambiati guardati sul video nuovo (`controllo_minuti.jpg`, un fotogramma ogni 30 s).
+- Freeze nel prof: 1 (problema 22). Nessun lampeggio (slide ferme, cambi senza flash; l'unica dissolvenza è sigla→copertina).
+
+## 5. Domande per Sara (basta una riga di risposta)
+1. **Mappe di arg. 1, 2, 3 e mappa finale**: del prof c'è solo quella dell'arg. 4. Le altre quattro le avevamo inventate e le ho **tolte** (regola «non inventarla»). Se le vuoi comunque, le rimetto.
+2. Nessuna delle due: `t_verifica`/`t_compiti` nella scheda li ho messi a fine video perché le schede sono fuori dal video; se alla master servono altri valori me lo dice lei.
+
+## 6. File consegnati
+`Letteratura_Lez15_Parte1_1080p.mp4.parte_00…03` + `.sha256` · `Letteratura_Lez15_Parte1.vtt` · `Letteratura_Lez15_slide.pdf` · `Letteratura_Lez15_mappe.pdf` · `Quiz_Letteratura_Lez15.txt` + `quiz_argomenti.json` (controllati: 20 domande, risposte giuste) · `Verifica_finale_Letteratura_Lez15.xlsx` (10 domande, **identica** all'Excel del prof) · `compiti.json` · `scheda_pubblicazione.json` · `testo_youtube.txt` · `timeline.json` · `controllo_minuti.jpg` · questo rapporto.
