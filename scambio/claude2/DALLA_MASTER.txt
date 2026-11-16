@@ -161,3 +161,6 @@ Il limite settimanale di Claude 2 non si ripristina: usiamo il poco che resta so
   · «Lezioni storia dell'arte V anno» (già ferma).
   · Le due chat di Inglese AFM triennio (ex «Storia V videolezioni Mazzotti» e «Storia V videolezioni pari»): se hai lavoro a metà, scrivi in PER_LA_MASTER.txt a che punto sei e il nome del ramo; poi fermati.
   · Le due chat «PRODUZIONE · Psicologia» (Chimica moda): se avete già iniziato una lezione, scrivete in PER_LA_MASTER.txt a che punto siete; poi fermatevi. Chimica moda la riprende la master.
+
+=== 16/11 07:55 · STOP PUSH PER 20 MINUTI (cambio nome GitHub) ===
+- Non fate git push fino a nuovo avviso. Dopo il cambio: git remote set-url origin https://github.com/centrostuditelesio/Lezioni.git
