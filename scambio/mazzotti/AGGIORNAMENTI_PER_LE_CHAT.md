@@ -126,3 +126,12 @@ Voci Kore: dalle 9 (prima usa i segnaposto e fai tutto il resto: montaggio, slid
 - **Il brief approvato è vincolante:** `scambio/BRIEF_videolezioni_APPROVATO.md`.
 - Prof nel rettangolo **stile Spagnolo** (ombra blu, bordo sottile) con **sottopancia giallo e nome ben leggibile**; **testa mai tagliata**; **audio del prof pulito** (highpass 80, arnndn, loudnorm −16, alimiter).
 - Strumenti per il rettangolo: `kit/tools/rettangolo/` su main.
+
+## 16/11 ore 10:15 · GRAFICA IDENTICA A SPAGNOLO LEZ. 1 (vale per TUTTE le chat, anche S5, S6, S8)
+Decisione di Sara: ogni videolezione deve essere **graficamente identica** alla Lezione 1 di Spagnolo consegnata con il Brief. Modello: `kit/modello_spagnolo/` su main. Regole complete: punto **000** di `scambio/REVISIONE_StoriaV_REGOLE.md` (e LetteraturaV).
+- Riquadro del prof **4:3** (circa 410×308 a 1080p, in alto a destra), ombra grigia morbida, niente bordo blu; **il rettangolo 394×218 non si usa più**; testa mai tagliata.
+- Fascia gialla col nome **su due righe** («Giorgio Mazzotti» / «PROF. DI STORIA»), sempre visibile.
+- Fondo bianco, niente bande laterali blu. Font solo Bricolage Grotesque / Figtree / DM Mono.
+- Piè di pagina «STORIA V · Prof. Giorgio Mazzotti» + «Pagina N». «01 · ARGOMENTO» = numero dell'argomento.
+- Finale: `kit/sigle/Sigla_finale_5s_con_avviso_diritti.mp4`.
+- Consegna anche **PDF slide A4 orizzontale identiche al video** e **PDF mappe del prof** A4 orizzontale.
