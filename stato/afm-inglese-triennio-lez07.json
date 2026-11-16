@@ -8,52 +8,52 @@
    "fermi_ok": "si",
    "sub_ok": "si",
    "video": "Inglese_Lez7_Parte1_1080p.mp4",
-   "durata_s": 4149.1,
-   "durata": "69:09.1",
-   "fotogrammi": 124473,
-   "fotogrammi_attesi": 124473,
-   "peso_MB": 257.8,
+   "durata_s": 4268.8,
+   "durata": "71:08.8",
+   "fotogrammi": 128065,
+   "fotogrammi_attesi": 128065,
+   "peso_MB": 262.1,
    "vtt": "Inglese_Lez7_Parte1.vtt",
    "scheda": {
     "materia": "Inglese",
     "titolo": "Trade and commerce · Parte 1",
-    "durata_s": 4149.1,
+    "durata_s": 4268.83,
     "argomenti": [
      {
       "n": 1,
       "titolo": "Trade and commerce",
-      "inizio_s": 126.799,
-      "quiz_s": 484.165
+      "inizio_s": 129.932,
+      "quiz_s": 494.698
      },
      {
       "n": 2,
       "titolo": "Home trade",
-      "inizio_s": 489.465,
-      "quiz_s": 1003.898
+      "inizio_s": 500.298,
+      "quiz_s": 1028.998
      },
      {
       "n": 3,
       "titolo": "International trade",
-      "inizio_s": 1009.198,
-      "quiz_s": 1667.764
+      "inizio_s": 1034.598,
+      "quiz_s": 1714.964
      },
      {
       "n": 4,
       "titolo": "E-commerce",
-      "inizio_s": 1673.064,
-      "quiz_s": 2692.83
+      "inizio_s": 1720.564,
+      "quiz_s": 2765.964
      },
      {
       "n": 5,
       "titolo": "Trade alliances and sanctions",
-      "inizio_s": 2698.13,
-      "quiz_s": 3381.396
+      "inizio_s": 2771.564,
+      "quiz_s": 3478.53
      },
      {
       "n": 6,
       "titolo": "Ethical trade",
-      "inizio_s": 3386.696,
-      "quiz_s": 3959.496
+      "inizio_s": 3484.13,
+      "quiz_s": 4076.363
      }
     ],
     "quiz": {
@@ -392,57 +392,57 @@
    "timeline": [
     [
      "T1",
-     126.799,
+     129.932,
      2.6
     ],
     [
      "Q1",
-     484.165,
+     494.698,
      4.0
     ],
     [
      "T2",
-     489.465,
+     500.298,
      2.6
     ],
     [
      "T3",
-     1009.198,
+     1034.598,
      2.6
     ],
     [
      "T4",
-     1673.064,
+     1720.564,
      2.6
     ],
     [
      "T5",
-     2698.13,
+     2771.564,
      2.6
     ],
     [
      "T6",
-     3386.696,
+     3484.13,
      2.6
     ],
     [
      "GL1",
-     4042.996,
+     4162.329,
      21.967
     ],
     [
      "GL2",
-     4066.563,
+     4185.896,
      18.033
     ],
     [
      "RF1",
-     4085.996,
+     4205.529,
      38.1
     ],
     [
      "FIN1",
-     4125.496,
+     4245.229,
      5.0
     ]
    ]
@@ -516,10 +516,14 @@
   {
    "quando": "16/11 20:29",
    "testo": "16/11 21:10: v2 col modello Spagnolo in montaggio (prof intero senza tagli, audio del kit con arnndn, riquadro 4:3 410×308 con correzione immagine, fascia gialla su due righe, «Pagina N», finale 5 s con avviso diritti, PDF slide A4). Stesse voci Kore. NON pubblicare la v1."
+  },
+  {
+   "quando": "16/11 22:07",
+   "testo": "16/11 sera: consegnata la v2 sullo stesso ramo consegna-afm-inglese-triennio-lez07 (sostituisce la v1): modello Spagnolo Lez. 1, prof intero senza tagli, audio e immagine del kit, finale 5 s con avviso diritti, PDF slide A4 (afm-inglese-triennio-lez07_slide.pdf), RAPPORTO_REVISIONE.md con il confronto punto per punto, verifica sha256 dal ramo OK. Controlli: fotogrammi OK, quiz scatto 0,000 s, nessun fermo, parlato -16 LUFS circa. NON PRONTA solo perché mancano dalla release Verifica.xlsx e Compiti.pdf della prof (test PROPOSTA_DA_VALIDARE nel ramo)."
   }
  ],
  "materia": "Inglese AFM triennio",
  "lezione": "Lezione 7",
- "aggiornato": "2026-11-16 20:29:03",
+ "aggiornato": "2026-11-16 22:07:10",
  "docente": "Prof.ssa Maria Vittoria Fontanesi"
 }
