@@ -1,25 +1,25 @@
 {
  "materia": "Letteratura italiana (V)",
  "titolo": "Italo Svevo · Parte 1",
- "durata_s": 2589.27,
+ "durata_s": 3143.9,
  "argomenti": [
   {
    "n": 1,
    "titolo": "L'inetto e il pensiero sveviano",
    "inizio_s": 227.848,
-   "quiz_s": 1437.548
+   "quiz_s": 1687.981
   },
   {
    "n": 2,
    "titolo": "Una vita e Senilità",
-   "inizio_s": 1442.848,
-   "quiz_s": 2108.915
+   "inizio_s": 1693.281,
+   "quiz_s": 2500.748
   },
   {
    "n": 3,
    "titolo": "La coscienza di Zeno",
-   "inizio_s": 2114.215,
-   "quiz_s": 2577.582
+   "inizio_s": 2506.048,
+   "quiz_s": 3098.249
   }
  ],
  "quiz": {
@@ -188,5 +188,67 @@
     }
    ]
   }
- }
+ },
+ "approfondimenti": [
+  {
+   "id": "AN1",
+   "titolo": "Italo Svevo: la vita in una linea del tempo",
+   "inizio_s": 1375.933
+  },
+  {
+   "id": "AN2",
+   "titolo": "Le radici del pensiero sveviano",
+   "inizio_s": 1447.533
+  },
+  {
+   "id": "AN3",
+   "titolo": "L'inetto e il pensiero sveviano",
+   "inizio_s": 1585.333
+  },
+  {
+   "id": "AN4",
+   "titolo": "Una vita e Senilità",
+   "inizio_s": 2297.533
+  },
+  {
+   "id": "AN5",
+   "titolo": "Una vita e Senilità",
+   "inizio_s": 2407.267
+  },
+  {
+   "id": "AN6",
+   "titolo": "La coscienza di Zeno: struttura e narratore",
+   "inizio_s": 2916.4
+  },
+  {
+   "id": "AN7",
+   "titolo": "La coscienza di Zeno",
+   "inizio_s": 3018.1
+  },
+  {
+   "id": "MF1",
+   "titolo": "Italo Svevo · Parte 1",
+   "inizio_s": 3103.533
+  },
+  {
+   "id": "AN1b",
+   "titolo": "Che cos'è l'inetto",
+   "inizio_s": 1492.5
+  },
+  {
+   "id": "AN1c",
+   "titolo": "Dalla vita di Svevo ai suoi romanzi",
+   "inizio_s": 1537.567
+  },
+  {
+   "id": "AN4b",
+   "titolo": "Tre temi comuni ai primi due romanzi",
+   "inizio_s": 2351.267
+  },
+  {
+   "id": "AN7b",
+   "titolo": "Zeno, il Dottor S. e la psicoanalisi",
+   "inizio_s": 2965.133
+  }
+ ]
 }

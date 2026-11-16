@@ -1,13 +1,13 @@
 {
  "materia": "Letteratura italiana (V)",
  "titolo": "Italo Svevo · Parte 2",
- "durata_s": 2740.5,
+ "durata_s": 3200.33,
  "argomenti": [
   {
    "n": 4,
    "titolo": "Testi da La coscienza di Zeno",
    "inizio_s": 17.982,
-   "quiz_s": 2635.149
+   "quiz_s": 3059.716
   }
  ],
  "quiz": {
@@ -67,6 +67,53 @@
    ]
   }
  },
- "t_verifica": 2709.916,
- "t_compiti": 2734.203
+ "t_verifica": 3169.749,
+ "t_compiti": 3194.036,
+ "approfondimenti": [
+  {
+   "id": "AN1",
+   "titolo": "Il fumo e la morte del padre",
+   "inizio_s": 2584.3
+  },
+  {
+   "id": "AN2",
+   "titolo": "Augusta, Guido e la profezia",
+   "inizio_s": 2638.667
+  },
+  {
+   "id": "AN3",
+   "titolo": "Parole chiave dei testi di Zeno",
+   "inizio_s": 2701.633
+  },
+  {
+   "id": "AN4",
+   "titolo": "Testi da La coscienza di Zeno",
+   "inizio_s": 2979.6
+  },
+  {
+   "id": "MF2",
+   "titolo": "Svevo · tutta la lezione",
+   "inizio_s": 3065.0
+  },
+  {
+   "id": "AN1b",
+   "titolo": "Il fumo: gli indizi nel testo",
+   "inizio_s": 2726.1
+  },
+  {
+   "id": "AN2b",
+   "titolo": "La morte del padre: tre momenti",
+   "inizio_s": 2779.233
+  },
+  {
+   "id": "AN3b",
+   "titolo": "Zeno e Guido: due modi di essere",
+   "inizio_s": 2852.833
+  },
+  {
+   "id": "AN4b",
+   "titolo": "La profezia finale, lettura guidata",
+   "inizio_s": 2906.033
+  }
+ ]
 }
