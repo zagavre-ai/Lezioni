@@ -80,3 +80,25 @@ Correggi tutto quello che hai trovato. Ricodifica solo i pezzi che cambi quando 
 - Bloccata > 20 min → scrivi il motivo nello stato (`FERMA`) e a Sara in una riga.
 - Disco limitato: cancella i file grandi appena non servono.
 - Ogni ora una riga a Sara: cosa hai trovato, cosa hai corretto, quanto manca (stima).
+
+## 5. METODO COLLAUDATO sulla lezione 3 (16/11) — fai così, è la lezione riuscita meglio (rifatta nel modello in circa 2 ore)
+Esempio funzionante da aprire: ramo `revisione-letteratura-V-lez03` (è di Letteratura ma il metodo è lo stesso) (rapporto, PDF, verifica, compiti). Copia **la struttura del rapporto** e **l'ordine di lavoro**:
+**Ordine di lavoro**
+1. Scarica, ricomponi i pezzi, controlla lo sha256. Lancia **subito in background** `trascrivi.py` (1 ora ≈ 10 min) e intanto estrai i fotogrammi del video vecchio (**1 al secondo**) + OCR: la trascrizione e i fotogrammi sono la base di tutto, non lavorare a occhio.
+2. **Piano di montaggio contiguo:** elenca i pezzi (slide / prof / voce / quiz) con fotogramma di inizio e fine e controlla che **la somma sia uguale ai fotogrammi totali del video vecchio**. Così i quiz, la verifica finale e i compiti restano **agli stessi secondi** su Vimeo e nella pagina. Lez. 3: 35 pezzi = 111 988 fotogrammi, identici.
+3. **Rifai tutta la lezione nel modello Spagnolo** (non rattoppare): slide dal `_videodispensa.pptx` del prof con i generatori del kit (zip nella cartella principale del repo), copertina con card ARGOMENTI, riquadro 4:3, fascia gialla, ripassi/glossario/riepilogo nel modello.
+4. **Evidenziazioni delle card dal parlato del prof** (tempi parola per parola della trascrizione), non a occhio. Cerca le card mai accese e le slide ferme > 45 s (lez. 3: card 2 mai accesa per 53 s e per 80 s).
+5. **Audio del prof** rifatto **dall'originale** con la catena del kit (`aresample 48000, highpass 80, arnndn, loudnorm −16, alimiter`), **stessi offset** del video; misura volume e picco.
+6. **Immagini, carte, fonti** che il prof mostra: se ci sono nei suoi materiali, mettile a tempo con la voce (tabella immagine · minuto nel rapporto); se non ci sono, regola «ecco la foto»: via la frase della voce narrante, transizione.
+7. **Sottotitoli:** leggi tutto il `.vtt` contro la trascrizione; lez. 3 ha corretto circa 60 errori (nomi, titoli di opere, versi, «1890nove»). Tempi invariati, max 2 righe.
+8. **Consegne complete, nessuna esclusa:** video + sha256, `.vtt`, `…_slide.pdf`, `…_mappe.pdf`, `verifica_finale.json` + xlsx (10 domande del prof), `compiti.json`, `scheda_pubblicazione.json` col titolo standard, `quiz_argomenti.json`.
+9. **Controllo sul video nuovo:** durata e fotogrammi = vecchio; fotogramma ogni 30 s (`controllo_minuti.jpg`) + punti a caso; nessun fermo ≥ 2 s del prof; volume −16 LUFS; picco ≤ −1 dBTP (lez. 3 è a −0,8: abbassalo).
+**Struttura del rapporto (uguale per tutte):** 1 Misure sul video nuovo · 2 Confronto col modello (11 punti, esito per ciascuno) · 3 Problemi trovati e correzioni (minuto · tipo · com'era · correzione) · 4 Immagini/fonti mostrate · 5 **Cosa NON ho verificato** · 6 Come ho verificato. Ogni affermazione è etichettata **misurato / stima / non verificato**: mai «fatto» o «funziona» senza una misura.
+**Cose da fare meglio della lezione 3** (lei le ha lasciate aperte; tu chiudile):
+- **Voce Kore pronunciata male** (nomi di opere, termini): non limitarti a segnalarlo. Aggiungi le frasi corrette come `R1`, `R2`… a `testi_voci.json`, fai push, e **rimonta** quando il servizio le ha generate (10–30 min).
+- **Schede di servizio «Quiz», «Verifica finale», «Compiti»** a fine video: rifalle anche loro nel modello Spagnolo (Sara vuole lezione identica in tutto).
+- Esegui `controllo_jingle.py` sui quiz (se manca il file del jingle, cercalo nel kit e scrivi cosa hai trovato).
+- **Date o dati che non coincidono** tra mappa del prof, slide e voce: non decidere tu. Lascia ciò che dice il prof nella mappa e metti la differenza in una lista **«DA CONFERMARE COL PROF»** in fondo al rapporto.
+- **Mappa del prof nel video:** se inserirla **cambia la durata**, non farlo: consegnala nel PDF e scrivilo nel rapporto (decide Sara). Se la durata resta uguale, inseriscila.
+- Se per cambiare un punto serve **cambiare la durata** (es. tagli una frase della voce narrante), tieni la durata sostituendo con una transizione della stessa lunghezza; se non è possibile, metti nel rapporto la tabella **secondo vecchio → secondo nuovo** dei quiz, verifica e compiti.
+- **Limiti noti non risolvibili** (testa che tocca il bordo già nell'originale; webcam 184×138 ingrandita 2,2× quindi morbida): scrivili nel rapporto con il minuto, non bloccarti.

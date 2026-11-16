@@ -147,3 +147,12 @@ Dai primi rapporti risultano tre blocchi. **Sono tutti risolti: non scrivere pi�
 3. **Mappe concettuali.** Le mappe sono **quelle del prof** (cartella `MAPPE/` nella release, `LEZIONE N.pdf`). Le lezioni 7 e 13 hanno trovato mappe nel video **inventate da noi**: vanno rifatte con i nodi del prof, nella nostra grafica, senza aggiungere né togliere nulla.
 - **Tempi:** Sara ha detto che si può andare oltre le 4 ore: **l'importante è finire bene**. Non accorciare la qualità; scrivi a Sara in una riga solo se prevedi di superare le 6 ore.
 - **Voci nuove (R1, R2…):** aggiungile a `testi_voci.json` e fai push: il servizio della master le genera in 10–30 minuti.
+
+## 16/11 ore 14:30 · METODO DELLA LEZIONE 3 (vale per TUTTE le chat di revisione, Letteratura e Storia)
+La lezione 3 è la rifatta meglio (tutta nel modello Spagnolo in ~2 ore). Nei file `REVISIONE_*_REGOLE.md` c'è ora la **sezione 5 «METODO COLLAUDATO»**: ordine di lavoro, struttura del rapporto, cose da chiudere meglio. Punti da non perdere:
+- **Stessa durata e stessi fotogrammi del video vecchio** (somma dei pezzi = fotogrammi totali): i quiz, la verifica e i compiti restano agli stessi secondi su Vimeo.
+- Trascrizione + fotogrammi a 1/s + OCR **prima** di toccare qualsiasi cosa; evidenziazioni dal parlato del prof, non a occhio.
+- Rapporto con sezione **«Cosa NON ho verificato»** e ogni dato etichettato misurato / stima / non verificato.
+- Voci Kore sbagliate: aggiungi `R1`, `R2`… e rimonta. Schede finali «Quiz / Verifica / Compiti» nel modello. Picco audio ≤ −1 dBTP. Date che non coincidono: lista «DA CONFERMARE COL PROF».
+- Se sei già oltre questi punti, non rifare: controlla solo di non aver saltato nulla dell'elenco.
+
