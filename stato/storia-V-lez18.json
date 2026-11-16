@@ -498,6 +498,10 @@
   {
    "quando": "15/11 14:05",
    "testo": "storia-V-lez18: attendo le voci Kore dal ramo voci-storia-V-lez18 (richiesta gia' inviata il 14/11; resto pronto)."
+  },
+  {
+   "quando": "16/11 15:05",
+   "testo": "MIGLIORAMENTO: script di montaggio Storia V (docente nel riquadro 394x218, slide sincronizzate, inserti, pezzi con audio PCM per evitare lo sfasamento) sul ramo claude/cool-carson-9aei4u, cartella kit/storia_montaggio. Parakeet (github release k2-fsa) e' raggiungibile e dà sottotitoli molto migliori di Whisper base."
   }
  ],
  "domande_sara": [],
@@ -538,5 +542,5 @@
  "materia": "Storia",
  "lezione": "Lezione 18 · L'Italia repubblicana",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-16 14:13:35"
+ "aggiornato": "2026-11-16 15:05:03"
 }
