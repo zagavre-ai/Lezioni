@@ -659,6 +659,8 @@ function avvio(){
     if(ROLE==='studente'&&iso(SEL)>T)SEL=new Date(TODAY);
     if(!(DB.gen&&DB.gen.nome)&&ALUNNO&&ALUNNO.nome){DB.gen=Object.assign({},DB.gen,{nome:ALUNNO.nome,ind:ALUNNO.indirizzo||''})}
     if(ROLE==='docente'&&!(DB.gen&&DB.gen.nome)&&Q.get('n')){DB.gen=Object.assign({},DB.gen,{nome:Q.get('n'),ind:Q.get('i')||''});GENDIRTY=true;saved()}
+    try{await attivita()}catch(e){}
+    if(ATT&&ATT.nome){if(ALUNNO)ALUNNO.nome=ATT.nome;if(DB.gen&&DB.gen.nome&&DB.gen.nome!==ATT.nome)DB.gen=Object.assign({},DB.gen,{nome:ATT.nome})} /* 16/11: nome come lo scrive la direzione (es. GHITTI) */
     CARICO=false;render();
   })().catch(()=>{CARICO=false;$('#day').innerHTML='<div class="empty"><b>Il registro non si è caricato</b>Controlla la connessione e ricarica la pagina.</div>'});
 }
