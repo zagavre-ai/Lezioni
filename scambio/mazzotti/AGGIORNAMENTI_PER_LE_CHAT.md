@@ -169,3 +169,6 @@ Nelle regole c'era scritto «DM Mono» per la riga «01 · ARGOMENTO», la riga 
 - Annullata la regola «stessa durata e stessi fotogrammi del video vecchio».
 - **Chat 20:** rifai così (le 7 mappe nostre → mappa del prof; via i 12 silenzi di 3–4 s) e riconsegna.
 
+
+## 17/11 ore 01:00 (ora italiana) · LEZIONE DI RIFERIMENTO APPROVATA DA SARA: la 11 (Futurismo)
+Sara ha guardato la lezione 11 e ha detto: «tutte così devono essere». Guardala (ramo `revisione-letteratura-V-lez11`, pagina `videolezioni/letteratura-V-lez11-p1/?rev=1`): pagine del libro intere e leggibili, una fettina per volta a tempo con la voce del prof, slide pulite nel modello. Per il font delle etichette vale l'aggiornamento delle 15:10 (Figtree Bold, non DM Mono) e per il volume il picco ≤ −1 dBTP.
