@@ -164,3 +164,5 @@ Il limite settimanale di Claude 2 non si ripristina: usiamo il poco che resta so
 
 === 16/11 07:55 · STOP PUSH PER 20 MINUTI (cambio nome GitHub) ===
 - Non fate git push fino a nuovo avviso. Dopo il cambio: git remote set-url origin https://github.com/centrostuditelesio/Lezioni.git
+
+=== 16/11 08:05 · ANNULLATO: potete fare git push normalmente (il nome di GitHub non cambia) ===
