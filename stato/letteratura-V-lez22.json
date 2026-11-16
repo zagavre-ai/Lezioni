@@ -2,7 +2,7 @@
  "tag": "letteratura-V-lez22",
  "parti": {
   "1": {
-   "stato": "IN_MONTAGGIO",
+   "stato": "PRONTA",
    "titolo": "Elsa Morante",
    "voci": "kore",
    "t_verifica": 2061.633,
@@ -12,11 +12,11 @@
    "fermi_ok": "si",
    "sub_ok": "si",
    "video": "Letteratura_Lez22_Parte1_1080p.mp4",
-   "durata_s": 2086.1,
-   "durata": "34:46.1",
-   "fotogrammi": 62584,
-   "fotogrammi_attesi": 62584,
-   "peso_MB": 135.4,
+   "durata_s": 3064.6,
+   "durata": "51:04.6",
+   "fotogrammi": 91938,
+   "fotogrammi_attesi": 91938,
+   "peso_MB": 162.7,
    "vtt": "Letteratura_Lez22_Parte1.vtt",
    "scheda": {
     "materia": "Letteratura italiana (V)",
@@ -429,10 +429,14 @@
   {
    "quando": "16/11 08:36",
    "testo": "Letteratura V · chat H: presa in carico (fermo >2h)"
+  },
+  {
+   "quando": "16/11 09:13",
+   "testo": "PRONTA v2 (chat H): 51:05, 23 approfondimenti/mappe con voce Kore, Mappe_letteratura-V-lez22.pdf, compiti del prof nel video + compiti.json, schede a bande blu, controllo_finale TUTTO OK, jingle 0,0 s"
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 22",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-16 08:36:39"
+ "aggiornato": "2026-11-16 09:13:16"
 }
