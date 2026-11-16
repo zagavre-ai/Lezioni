@@ -1,31 +1,31 @@
 {
  "materia": "Letteratura italiana (V)",
  "titolo": "Il Futurismo e le avanguardie",
- "durata_s": 2547.27,
+ "durata_s": 3263.04,
  "argomenti": [
   {
    "n": 1,
    "titolo": "Le avanguardie storiche",
    "inizio_s": 46.267,
-   "quiz_s": 884.667
+   "quiz_s": 1063.4
   },
   {
    "n": 2,
    "titolo": "Il Futurismo italiano",
-   "inizio_s": 889.967,
-   "quiz_s": 1467.6
+   "inizio_s": 1068.7,
+   "quiz_s": 1849.0
   },
   {
    "n": 3,
    "titolo": "Il Manifesto del Futurismo",
-   "inizio_s": 1472.9,
-   "quiz_s": 2004.267
+   "inizio_s": 1854.3,
+   "quiz_s": 2577.1
   },
   {
    "n": 4,
    "titolo": "James Joyce e il flusso di coscienza",
-   "inizio_s": 2009.567,
-   "quiz_s": 2441.067
+   "inizio_s": 2582.4,
+   "quiz_s": 3119.167
   }
  ],
  "quiz": {
@@ -249,5 +249,94 @@
     }
    ]
   }
- }
+ },
+ "t_verifica": 3238.534,
+ "t_compiti": 3258.034,
+ "approfondimenti": [
+  {
+   "id": "AP1a",
+   "titolo": "Che cosa sono le avanguardie storiche",
+   "inizio_s": 824.833
+  },
+  {
+   "id": "AP1b",
+   "titolo": "Espressionismo, Fauves e Cubismo",
+   "inizio_s": 873.3
+  },
+  {
+   "id": "AP1c",
+   "titolo": "Dal Futurismo russo al Surrealismo",
+   "inizio_s": 917.233
+  },
+  {
+   "id": "MP1",
+   "titolo": "Le avanguardie storiche",
+   "inizio_s": 970.367
+  },
+  {
+   "id": "AP2a",
+   "titolo": "La nascita del Futurismo",
+   "inizio_s": 1592.233
+  },
+  {
+   "id": "AP2b",
+   "titolo": "Ideologia e politica del Futurismo",
+   "inizio_s": 1633.367
+  },
+  {
+   "id": "AP2c",
+   "titolo": "Le parole in libertà",
+   "inizio_s": 1676.633
+  },
+  {
+   "id": "AP2d",
+   "titolo": "I protagonisti e Palazzeschi",
+   "inizio_s": 1716.567
+  },
+  {
+   "id": "MP2",
+   "titolo": "Il Futurismo italiano",
+   "inizio_s": 1750.733
+  },
+  {
+   "id": "AP3a",
+   "titolo": "Il Manifesto: i primi cinque punti",
+   "inizio_s": 2342.4
+  },
+  {
+   "id": "AP3b",
+   "titolo": "Il Manifesto: dal sesto al decimo punto",
+   "inizio_s": 2385.9
+  },
+  {
+   "id": "AP3c",
+   "titolo": "Il finale e il valore del Manifesto",
+   "inizio_s": 2442.767
+  },
+  {
+   "id": "MP3",
+   "titolo": "Il Manifesto del Futurismo",
+   "inizio_s": 2495.1
+  },
+  {
+   "id": "AP4a",
+   "titolo": "Joyce e il flusso di coscienza",
+   "inizio_s": 2961.667
+  },
+  {
+   "id": "AP4b",
+   "titolo": "L'Ulisse e il monologo di Molly",
+   "inizio_s": 3003.9
+  },
+  {
+   "id": "MP4",
+   "titolo": "James Joyce",
+   "inizio_s": 3034.3
+  },
+  {
+   "id": "MPF",
+   "titolo": "Futurismo e avanguardie",
+   "inizio_s": 3124.467
+  }
+ ]
 }
