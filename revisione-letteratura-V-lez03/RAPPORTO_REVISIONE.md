@@ -6,10 +6,10 @@ Regola: sotto, **misurato** = misurato con uno strumento; **stima** = dedotto; *
 | Controllo | Risultato |
 |---|---|
 | Formato | 1920×1080, 30 fps, x264 veryfast, AAC 192k (prima: 2560×1440) |
-| Durata / fotogrammi | 62:12,93 · 111 988 fotogrammi = durata × 30 · **identici al montaggio precedente**: quiz, verifica e compiti restano agli stessi secondi |
+| Durata / fotogrammi (misurato, file finale) | 62:12,93 · 111 988 fotogrammi = durata × 30 · **identici al montaggio precedente**: quiz, verifica e compiti restano agli stessi secondi |
 | Peso | 393,3 MB (375 MiB), sotto i 400 MB. Tratti col prof a CRF 22, il resto CRF 19 |
 | Volume | −16,4 LUFS integrato (LRA 7,1). Picco (true peak) **−1,3 dBTP** (misurato sul file finale; prima era −0,8): ora ≤ −1 dBTP |
-| Fermi immagine | Nessun fermo ≥ 2 s del riquadro mentre il prof parla. Unico fermo: 0:17–0:45 (voce narrante di benvenuto) con la foto-fotogramma del prof, come prima |
+| Fermi immagine | Misurato sul file finale (riquadro, 45 s–59:49): nessun fermo ≥ 2 s mentre il prof parla; i soli fermi ≥ 2 s (8) cadono su schede senza prof (ripassi 11:13, 29:19, 45:59, schede quiz). Unico fermo del prof: 0:17–0:45 (voce narrante di benvenuto, foto-fotogramma), come prima |
 | PDF | slide: 44 pagine A4 orizzontale (una per fettina e per slide); mappe: 1 pagina A4 orizzontale |
 
 ## 2. Confronto col modello Spagnolo (punto 000)
