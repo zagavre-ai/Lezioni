@@ -1,21 +1,2 @@
-P1_AN1 OK frasi trovate 20 / 20 parole diverse 8 (vere 4) tentativi 1
-P1_AN2 OK frasi trovate 10 / 10 parole diverse 2 (vere 2) tentativi 1
-P1_AN3 OK frasi trovate 14 / 14 parole diverse 5 (vere 7) tentativi 1
-P1_AN4 OK frasi trovate 12 / 12 parole diverse 1 (vere 0) tentativi 1
-P1_AN5 OK frasi trovate 12 / 12 parole diverse 4 (vere 3) tentativi 1
-P1_AN6 OK frasi trovate 13 / 13 parole diverse 4 (vere 2) tentativi 1
-P1_AN7 OK frasi trovate 12 / 12 parole diverse 5 (vere 3) tentativi 1
-P1_MF1 OK frasi trovate 12 / 12 parole diverse 1 (vere 1) tentativi 1
-P2_AN1 OK frasi trovate 14 / 14 parole diverse 3 (vere 3) tentativi 1
-P2_AN2 OK frasi trovate 15 / 15 parole diverse 7 (vere 8) tentativi 1
-P2_AN3 OK frasi trovate 9 / 9 parole diverse 0 (vere 0) tentativi 1
-P2_AN4 OK frasi trovate 13 / 13 parole diverse 0 (vere 0) tentativi 1
-P2_MF2 OK frasi trovate 14 / 14 parole diverse 1 (vere 0) tentativi 1
-P1_AN1b OK frasi trovate 12 / 12 parole diverse 2 (vere 3) tentativi 1
-P1_AN1c OK frasi trovate 10 / 10 parole diverse 3 (vere 3) tentativi 1
-P1_AN4b OK frasi trovate 12 / 12 parole diverse 4 (vere 5) tentativi 1
-P1_AN7b OK frasi trovate 14 / 14 parole diverse 6 (vere 5) tentativi 1
-P2_AN1b DA CONTROLLARE frasi trovate 16 / 16 parole diverse 8 (vere 11) tentativi 1
-P2_AN2b OK frasi trovate 21 / 21 parole diverse 3 (vere 1) tentativi 1
-P2_AN3b DA CONTROLLARE frasi trovate 15 / 15 parole diverse 9 (vere 11) tentativi 1
-P2_AN4b OK frasi trovate 21 / 21 parole diverse 7 (vere 9) tentativi 1
+IN2 OK frasi trovate 3 / 3 parole diverse 1 (vere 1) tentativi 1
+RIP OK frasi trovate 5 / 5 parole diverse 6 (vere 6) tentativi 1
