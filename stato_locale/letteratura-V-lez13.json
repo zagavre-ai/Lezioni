@@ -1,0 +1,390 @@
+{
+ "tag": "letteratura-V-lez13",
+ "parti": {
+  "1": {
+   "stato": "IN_MONTAGGIO",
+   "titolo": "Italo Svevo · Parte 1",
+   "voci": "kore",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "si",
+   "video": "Letteratura_Lez13_Parte1_1080p.mp4",
+   "durata_s": 2589.2,
+   "durata": "43:09.2",
+   "fotogrammi": 77675,
+   "fotogrammi_attesi": 77676,
+   "peso_MB": 196.1,
+   "vtt": "Letteratura_Lez13_Parte1.vtt",
+   "scheda": {
+    "materia": "Letteratura italiana (V)",
+    "titolo": "Italo Svevo · Parte 1",
+    "durata_s": 2589.27,
+    "argomenti": [
+     {
+      "n": 1,
+      "titolo": "L'inetto e il pensiero sveviano",
+      "inizio_s": 227.848,
+      "quiz_s": 1437.548
+     },
+     {
+      "n": 2,
+      "titolo": "Una vita e Senilità",
+      "inizio_s": 1442.848,
+      "quiz_s": 2108.915
+     },
+     {
+      "n": 3,
+      "titolo": "La coscienza di Zeno",
+      "inizio_s": 2114.215,
+      "quiz_s": 2577.582
+     }
+    ],
+    "quiz": {
+     "Q1": {
+      "title": "Quiz 1 · L'inetto e il pensiero sveviano",
+      "items": [
+       {
+        "p": "Chi è l'inetto nell'opera di Svevo?",
+        "a": "Un uomo incapace di adattarsi alla società borghese, paralizzato dai conflitti interiori",
+        "w": [
+         "Un eroe che domina la realtà con la forza della volontà",
+         "Un poeta che si isola nel culto della bellezza",
+         "Un contadino che lotta contro la miseria"
+        ],
+        "e": "è il nuovo modello umano introdotto da Svevo."
+       },
+       {
+        "p": "Che cosa unisce Svevo alla cultura letteraria?",
+        "a": "Una solida formazione scientifico-commerciale",
+        "w": [
+         "Una lunga carriera militare",
+         "Gli studi di teologia",
+         "L'attività di attore teatrale"
+        ],
+        "e": "per questo si distacca dalla figura del letterato tradizionale."
+       },
+       {
+        "p": "In quale città si sviluppa la fisionomia intellettuale di Svevo?",
+        "a": "Trieste, città di confine aperta alle influenze mitteleuropee",
+        "w": [
+         "Roma, capitale del nuovo Regno",
+         "Firenze, centro della tradizione letteraria",
+         "Napoli, grande porto del Sud"
+        ],
+        "e": "Trieste è il contesto culturale decisivo."
+       },
+       {
+        "p": "Che cosa prende Svevo da Schopenhauer?",
+        "a": "Il pessimismo radicale e la teoria sulle illusioni umane",
+        "w": [
+         "La lotta per la vita e le leggi naturali",
+         "La critica ai valori borghesi",
+         "Il metodo della psicoanalisi"
+        ],
+        "e": "da Nietzsche prende la critica ai valori borghesi, da Darwin la lotta per la vita."
+       },
+       {
+        "p": "Come vede Svevo la psicoanalisi di Freud?",
+        "a": "Come uno strumento di indagine conoscitiva e narrativa, più che come una terapia",
+        "w": [
+         "Come l'unica cura efficace per la nevrosi",
+         "Come una teoria da rifiutare del tutto",
+         "Come un metodo per scrivere poesie"
+        ],
+        "e": "serve a smascherare la psiche."
+       }
+      ]
+     },
+     "Q2": {
+      "title": "Quiz 2 · Una vita e Senilità",
+      "items": [
+       {
+        "p": "Chi è il protagonista di Una vita (1892)?",
+        "a": "Alfonso Nitti, un modesto impiegato di banca",
+        "w": [
+         "Emilio Brentani, un letterato fallito",
+         "Zeno Cosini, un ricco commerciante",
+         "Il banchiere Maller"
+        ],
+        "e": "è un giovane intellettuale che finisce per suicidarsi."
+       },
+       {
+        "p": "Come è vissuta l'inettitudine in Una vita?",
+        "a": "Come inferiorità sociale, di fronte alla figura forte del banchiere Maller",
+        "w": [
+         "Come un dono che rende il protagonista superiore",
+         "Come una malattia del corpo",
+         "Come una scelta religiosa"
+        ],
+        "e": "Maller è il simbolo della forza, una figura di «padre»."
+       },
+       {
+        "p": "Che cosa fa il narratore in terza persona di Una vita?",
+        "a": "Interviene spesso per giudicare e smascherare le bugie del protagonista",
+        "w": [
+         "Racconta tutto in modo impersonale, senza mai giudicare",
+         "Lascia parlare solo il protagonista in prima persona",
+         "Si identifica completamente con il protagonista"
+        ],
+        "e": "corregge le auto-giustificazioni di Alfonso."
+       },
+       {
+        "p": "Perché l'esistenza di Emilio Brentani è «senile»?",
+        "a": "Ha solo 35 anni, ma vive una vita grigia, fatta di rinunce e paura della realtà",
+        "w": [
+         "Perché è molto anziano e malato",
+         "Perché vive in una casa di riposo",
+         "Perché rimpiange la giovinezza perduta in guerra"
+        ],
+        "e": "Senilità è del 1898."
+       },
+       {
+        "p": "Che cos'è l'ironia oggettiva di Senilità?",
+        "a": "Il narratore smonta gli alibi e le maschere che Emilio si costruisce",
+        "w": [
+         "Il protagonista prende in giro gli altri personaggi",
+         "Un linguaggio comico e dialettale",
+         "Un finale lieto e sorprendente"
+        ],
+        "e": "crea un contrasto tra le bugie del personaggio e la realtà dei fatti."
+       }
+      ]
+     },
+     "Q3": {
+      "title": "Quiz 3 · La coscienza di Zeno",
+      "items": [
+       {
+        "p": "Come è costruita La coscienza di Zeno (1923)?",
+        "a": "Come l'autobiografia di Zeno Cosini, scritta su invito del suo psicoanalista",
+        "w": [
+         "Come un diario di guerra",
+         "Come una raccolta di lettere tra due amanti",
+         "Come un romanzo in terza persona sulla vita di Trieste"
+        ],
+        "e": "lo psicoanalista è il Dottor S."
+       },
+       {
+        "p": "Perché il tempo del romanzo è «misto»?",
+        "a": "Perché non è lineare e segue il flusso della memoria",
+        "w": [
+         "Perché alterna giorni e notti in modo regolare",
+         "Perché racconta solo il futuro",
+         "Perché ogni capitolo dura un'ora"
+        ],
+        "e": "è una delle grandi innovazioni del romanzo."
+       },
+       {
+        "p": "Che cosa rappresenta l'«ultima sigaretta»?",
+        "a": "Il continuo rinvio di Zeno, segno della sua nevrosi",
+        "w": [
+         "La guarigione definitiva dal vizio",
+         "Un regalo del padre",
+         "Il titolo di un altro romanzo di Svevo"
+        ],
+        "e": "il fumo è uno dei temi chiave."
+       },
+       {
+        "p": "Perché Zeno è un narratore inattendibile?",
+        "a": "Le sue memorie sono piene di bugie inconsce e autogiustificazioni",
+        "w": [
+         "Perché non ricorda nulla del suo passato",
+         "Perché racconta in una lingua straniera",
+         "Perché riporta solo i fatti degli altri"
+        ],
+        "e": "si giustifica per sentirsi innocente."
+       },
+       {
+        "p": "Come si chiude il romanzo?",
+        "a": "Con la profezia di un ordigno che distruggerà la terra, cancellando ogni malattia",
+        "w": [
+         "Con la morte di Zeno in guerra",
+         "Con il matrimonio tra Zeno e Ada",
+         "Con la guarigione grazie alla psicoanalisi"
+        ],
+        "e": "Zeno si dice guarito per i successi commerciali, ma la vita è inquinata alle radici."
+       }
+      ]
+     }
+    }
+   },
+   "timeline": [
+    [
+     "T1",
+     227.848,
+     3.6
+    ],
+    [
+     "Q1",
+     1437.548,
+     4.0
+    ],
+    [
+     "T2",
+     1442.848,
+     3.6
+    ],
+    [
+     "T3",
+     2114.215,
+     3.6
+    ]
+   ]
+  },
+  "2": {
+   "titolo": "Italo Svevo · Parte 2",
+   "stato": "IN_MONTAGGIO",
+   "voci": "kore",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "si",
+   "video": "Letteratura_Lez13_Parte2_1080p.mp4",
+   "durata_s": 2740.5,
+   "durata": "45:40.5",
+   "fotogrammi": 82215,
+   "fotogrammi_attesi": 82215,
+   "peso_MB": 225.2,
+   "vtt": "Letteratura_Lez13_Parte2.vtt",
+   "scheda": {
+    "materia": "Letteratura italiana (V)",
+    "titolo": "Italo Svevo · Parte 2",
+    "durata_s": 2740.5,
+    "argomenti": [
+     {
+      "n": 4,
+      "titolo": "Testi da La coscienza di Zeno",
+      "inizio_s": 17.982,
+      "quiz_s": 2635.149
+     }
+    ],
+    "quiz": {
+     "Q4": {
+      "title": "Quiz 4 · Testi da La coscienza di Zeno",
+      "items": [
+       {
+        "p": "Che cosa mostra il testo «Il fumo»?",
+        "a": "La malattia come alibi dell'inetto e l'origine psicologica del vizio",
+        "w": [
+         "Il successo di Zeno negli affari",
+         "Il viaggio di Zeno a Vienna",
+         "La guarigione di Zeno grazie al dottore"
+        ],
+        "e": "è all'avvio del romanzo, dopo la prefazione del dottor S."
+       },
+       {
+        "p": "Quali temi emergono nel capitolo sulla morte del padre?",
+        "a": "Il conflitto con la figura paterna, la rimozione della colpa, l'affermazione di innocenza",
+        "w": [
+         "L'amore per Augusta e la gelosia per Ada",
+         "La guerra e i commerci",
+         "Il fumo e l'ultima sigaretta"
+        ],
+        "e": "è uno dei momenti centrali del libro."
+       },
+       {
+        "p": "Come appare Augusta agli occhi di Zeno?",
+        "a": "Come il campione della «salute» e della normalità borghese",
+        "w": [
+         "Come una donna fatale e distruttiva",
+         "Come un'intellettuale tormentata",
+         "Come una sorella da curare"
+        ],
+        "e": "Zeno nota anche la somiglianza tra la moglie e il padre."
+       },
+       {
+        "p": "Da quale capitolo è tratto «Un affare commerciale disastroso»?",
+        "a": "Storia di un'associazione commerciale, sull'impresa del cognato Guido",
+        "w": [
+         "Il fumo, sull'ultima sigaretta",
+         "La morte di mio padre",
+         "Psico-analisi, la pagina finale"
+        ],
+        "e": "Zeno affianca Guido, con sentimenti ambigui verso di lui."
+       },
+       {
+        "p": "Che cosa dice Zeno della vita nella pagina conclusiva?",
+        "a": "Somiglia alla malattia, ma a differenza delle altre malattie è sempre mortale",
+        "w": [
+         "È una festa da vivere senza pensieri",
+         "È guarita grazie alla psicoanalisi",
+         "È uguale per tutti gli uomini"
+        ],
+        "e": "è la pagina della profezia di un'apocalisse cosmica."
+       }
+      ]
+     }
+    },
+    "t_verifica": 2709.916,
+    "t_compiti": 2734.203
+   },
+   "timeline": [
+    [
+     "T4",
+     17.982,
+     3.6
+    ],
+    [
+     "GL1",
+     2640.449,
+     34.7
+    ],
+    [
+     "RF1",
+     2676.749,
+     31.9
+    ],
+    [
+     "FIN1",
+     2716.216,
+     5.2
+    ]
+   ],
+   "t_verifica": 2709.916,
+   "t_compiti": 2734.203
+  }
+ },
+ "manca": "",
+ "serve_master": [],
+ "domande_sara": [],
+ "note": [
+  {
+   "quando": "14/11 01:31",
+   "testo": "Letteratura V · chat E"
+  },
+  {
+   "quando": "14/11 03:58",
+   "testo": "Letteratura V · chat E2: lezione ripresa da capo (il lavoro della chat E era rimasto sulla sua macchina)"
+  },
+  {
+   "quando": "14/11 04:36",
+   "testo": "chat E2: quiz (20 domande) e testi voci (12 blocchi) sul ramo voci-letteratura-V-lez13, approvati per delega; materiali scaricati, lavoro a catena mentre la lez08 si monta"
+  },
+  {
+   "quando": "14/11 06:49",
+   "testo": "controllo_finale: ESITO: TUTTO OK"
+  },
+  {
+   "quando": "14/11 07:06",
+   "testo": "controllo_finale: ESITO: TUTTO OK"
+  },
+  {
+   "quando": "14/11 07:09",
+   "testo": "chat E2: PRONTA in due Parti (43:09 e 45:41; il docente parla 82 min) e consegnata sul ramo consegna-letteratura-V-lez13. Parte 1: argomenti 1-3, chiude con la sigla. Parte 2: testi della Coscienza di Zeno, poi glossario, ripasso finale, Verifica (t_verifica 2709,916 s), sigla, Compiti (t_compiti 2734,203 s). La Parte 2 si apre senza ripasso a voce: IN2 e RIP non sono arrivati."
+  },
+  {
+   "quando": "14/11 22:25",
+   "testo": "Letteratura V · chat R3: IN_MONTAGGIO v2 con approfondimenti animati (P1 oggi 43:09, P2 45:41, obiettivo >=50). Voci Kore nuove richieste sul ramo voci. Durata prevista (stima, Kore 2,24 parole/s): P1 circa 53, P2 circa 54 min. Compiti del prof: file compiti non presente nella consegna."
+  },
+  {
+   "quando": "14/11 23:28",
+   "testo": "chat R3: FERMA per voci Kore mancanti. Compiti del prof aggiunti come compiti.json sul ramo consegna."
+  },
+  {
+   "quando": "15/11 02:37",
+   "testo": "chat R3: IN_MONTAGGIO, pronta, attende voci Kore (quota Google, riparte alle 09:00 italiane). Intanto fatti: testi, animazioni e mappe con segnaposto, compiti del prof (compiti.json e nuova scheda Compiti), tempi. Controllo vox/ ogni 30 minuti; poi unica codifica finale."
+  }
+ ],
+ "materia": "Letteratura italiana V",
+ "lezione": "Lezione 13",
+ "docente": "Prof. Giorgio Mazzotti",
+ "aggiornato": "2026-11-14 07:09:00"
+}
