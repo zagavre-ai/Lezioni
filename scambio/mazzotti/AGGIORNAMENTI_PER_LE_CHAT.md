@@ -148,7 +148,7 @@ Dai primi rapporti risultano tre blocchi. **Sono tutti risolti: non scrivere pi�
 - **Tempi:** Sara ha detto che si può andare oltre le 4 ore: **l'importante è finire bene**. Non accorciare la qualità; scrivi a Sara in una riga solo se prevedi di superare le 6 ore.
 - **Voci nuove (R1, R2…):** aggiungile a `testi_voci.json` e fai push: il servizio della master le genera in 10–30 minuti.
 
-## 16/11 ore 14:30 · METODO DELLA LEZIONE 3 (vale per TUTTE le chat di revisione, Letteratura e Storia)
+## 16/11 ore 14:30 · METODO DELLA LEZIONE 3 (IN PROVA sulla lezione 19 con obiettivo 2 ore; per le altre chat è una lista di controllo: i tempi restano quelli già dati, se il metodo funziona diventerà uguale per tutte)
 La lezione 3 è la rifatta meglio (tutta nel modello Spagnolo in ~2 ore). Nei file `REVISIONE_*_REGOLE.md` c'è ora la **sezione 5 «METODO COLLAUDATO»**: ordine di lavoro, struttura del rapporto, cose da chiudere meglio. Punti da non perdere:
 - **Stessa durata e stessi fotogrammi del video vecchio** (somma dei pezzi = fotogrammi totali): i quiz, la verifica e i compiti restano agli stessi secondi su Vimeo.
 - Trascrizione + fotogrammi a 1/s + OCR **prima** di toccare qualsiasi cosa; evidenziazioni dal parlato del prof, non a occhio.
