@@ -101,26 +101,32 @@
  },
  {
   "nome": "M1",
-  "testo": "Mettiamo ordine con la mappa della vita di Italo Calvino, la mappa preparata dal professore. Al centro: Italo Calvino, 1923-1985. Il ramo della vita ha sei tappe. Nel 1923 nasce a Santiago de Las Vegas, a Cuba, dove la famiglia si era trasferita per lavoro. Infanzia e adolescenza a Sanremo, in Liguria. Partecipa alla Resistenza partigiana. Nel 1947 si laurea in Lettere. Vive a Roma, a Torino e a Parigi. Nel 1985 muore a Siena, dove stava lavorando per delle conferenze."
+  "testo": "Mettiamo ordine con la mappa della vita di Italo Calvino, la mappa preparata dal professore. Al centro: Italo Calvino, 1923-1985. Il ramo della vita ha sei tappe. Nel 1923 nasce a Santiago de Las Vegas, a Cuba, dove la famiglia si era trasferita per lavoro. Infanzia e adolescenza a Sanremo, in Liguria. Partecipa alla Resistenza partigiana. Nel 1947 si laurea in Lettere. Vive a Roma, a Torino e a Parigi. Nel 1985 muore a Siena, dove stava lavorando per delle conferenze.",
+  "lingua": "it"
  },
  {
   "nome": "M2",
-  "testo": "Ora la mappa del primo Calvino, ancora dalla mappa del professore. Dal ramo delle opere partono due gruppi. Il primo è vicino al neorealismo: Il sentiero dei nidi di ragno, del 1947, e Ultimo viene il corvo, del 1949. Il secondo è quello delle fiabe e delle avventure: Il visconte dimezzato, del 1952, Il barone rampante, del 1957, e Il cavaliere inesistente, del 1959."
+  "testo": "Ora la mappa del primo Calvino, ancora dalla mappa del professore. Dal ramo delle opere partono due gruppi. Il primo è vicino al neorealismo: Il sentiero dei nidi di ragno, del 1947, e Ultimo viene il corvo, del 1949. Il secondo è quello delle fiabe e delle avventure: Il visconte dimezzato, del 1952, Il barone rampante, del 1957, e Il cavaliere inesistente, del 1959.",
+  "lingua": "it"
  },
  {
   "nome": "M3",
-  "testo": "La mappa di questo argomento. Tra le fiabe e le avventure troviamo Il barone rampante, del 1957. Poi c'è il ramo delle opere che parlano dei problemi sociali: La speculazione edilizia e Marcovaldo, ovvero Le stagioni in città. Nella mappa del professore sono segnate entrambe con l'anno 1963."
+  "testo": "La mappa di questo argomento. Tra le fiabe e le avventure troviamo Il barone rampante, del 1957. Poi c'è il ramo delle opere che parlano dei problemi sociali: La speculazione edilizia e Marcovaldo, ovvero Le stagioni in città. Nella mappa del professore sono segnate entrambe con l'anno 1963.",
+  "lingua": "it"
  },
  {
   "nome": "M4",
-  "testo": "La mappa del secondo Calvino. Il ramo della fantascienza porta a Le cosmicomiche, del 1965. Il ramo del combinatorio porta a tre opere: Le città invisibili, del 1972, Il castello dei destini incrociati, del 1973, e Se una notte d'inverno un viaggiatore, del 1979."
+  "testo": "La mappa del secondo Calvino. Il ramo della fantascienza porta a Le cosmicomiche, del 1965. Il ramo del combinatorio porta a tre opere: Le città invisibili, del 1972, Il castello dei destini incrociati, del 1973, e Se una notte d'inverno un viaggiatore, del 1979.",
+  "lingua": "it"
  },
  {
   "nome": "M5",
-  "testo": "La mappa dell'ultimo argomento. Le opere di Calvino hanno una caratteristica: la varietà di temi e di forme espressive. Nel ramo del combinatorio c'è Se una notte d'inverno un viaggiatore, del 1979. Poi il ramo del pensiero: la letteratura è una forma di conoscenza del mondo, e la fantasia può collaborare con la ragione. La nostra realtà, inoltre, è in continuo movimento. Infine, Calvino è stato anche saggista e critico letterario."
+  "testo": "La mappa dell'ultimo argomento. Le opere di Calvino hanno una caratteristica: la varietà di temi e di forme espressive. Nel ramo del combinatorio c'è Se una notte d'inverno un viaggiatore, del 1979. Poi il ramo del pensiero: la letteratura è una forma di conoscenza del mondo, e la fantasia può collaborare con la ragione. La nostra realtà, inoltre, è in continuo movimento. Infine, Calvino è stato anche saggista e critico letterario.",
+  "lingua": "it"
  },
  {
   "nome": "MF",
-  "testo": "Concludiamo con la mappa di tutta la lezione, la mappa del professore. Al centro: Italo Calvino, 1923-1985. Il primo ramo è la vita: Cuba, Sanremo, la Resistenza partigiana, la laurea in Lettere, Roma, Torino e Parigi, e la morte a Siena nel 1985. Il secondo ramo è il pensiero: la letteratura come forma di conoscenza del mondo, con la fantasia che collabora con la ragione, e la realtà in continuo movimento. Poi c'è il Calvino saggista e critico letterario. Infine le opere, con la loro varietà di temi e di forme espressive: vicine al neorealismo, sui problemi sociali, fiabe e avventure, fantascienza e combinatorio."
+  "testo": "Concludiamo con la mappa di tutta la lezione, la mappa del professore. Al centro: Italo Calvino, 1923-1985. Il primo ramo è la vita: Cuba, Sanremo, la Resistenza partigiana, la laurea in Lettere, Roma, Torino e Parigi, e la morte a Siena nel 1985. Il secondo ramo è il pensiero: la letteratura come forma di conoscenza del mondo, con la fantasia che collabora con la ragione, e la realtà in continuo movimento. Poi c'è il Calvino saggista e critico letterario. Infine le opere, con la loro varietà di temi e di forme espressive: vicine al neorealismo, sui problemi sociali, fiabe e avventure, fantascienza e combinatorio.",
+  "lingua": "it"
  }
 ]
