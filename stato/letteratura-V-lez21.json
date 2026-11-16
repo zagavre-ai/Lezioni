@@ -1,6 +1,16 @@
 {
  "tag": "letteratura-V-lez21",
- "parti": {},
+ "parti": {
+  "1": {
+   "stato": "REVISIONATA",
+   "video": "Letteratura_Lez21_Parte1_1080p.mp4",
+   "durata_s": 3443.3,
+   "durata": "57:23.3",
+   "fotogrammi": 103299,
+   "fotogrammi_attesi": 103299,
+   "peso_MB": 210.5
+  }
+ },
  "manca": "",
  "serve_master": [
   {
@@ -29,7 +39,11 @@
   {
    "quando": "16/11 19:17",
    "testo": "chat revisione 21 · IN_REVISIONE: prima versione di RAPPORTO_REVISIONE.md sul ramo revisione-letteratura-V-lez21 (verifica A+B+C+D finita; correzione in corso, consegna entro 4 ore dalla partenza). Pagine libro: lezione 21 non ne ha."
+  },
+  {
+   "quando": "16/11 20:08",
+   "testo": "chat revisione 21: REVISIONATA. 57:23,3, 103299 fotogrammi, 210,5 MB, quiz +0,000 s, parlato -15,0 LUFS. Ramo revisione-letteratura-V-lez21 con RAPPORTO_REVISIONE.md. Da riascoltare: voci mappe M1-M4 (unite/tagliate da me) e allineamento fine sottotitoli."
   }
  ],
- "aggiornato": "2026-11-16 19:17:55"
+ "aggiornato": "2026-11-16 20:08:35"
 }
