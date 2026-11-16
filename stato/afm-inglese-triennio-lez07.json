@@ -3,7 +3,449 @@
  "parti": {
   "1": {
    "stato": "IN_MONTAGGIO",
-   "voci": "segnaposto"
+   "voci": "kore",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "si",
+   "video": "Inglese_Lez7_Parte1_1080p.mp4",
+   "durata_s": 4149.1,
+   "durata": "69:09.1",
+   "fotogrammi": 124473,
+   "fotogrammi_attesi": 124473,
+   "peso_MB": 257.8,
+   "vtt": "Inglese_Lez7_Parte1.vtt",
+   "scheda": {
+    "materia": "Inglese",
+    "titolo": "Trade and commerce · Parte 1",
+    "durata_s": 4149.1,
+    "argomenti": [
+     {
+      "n": 1,
+      "titolo": "Trade and commerce",
+      "inizio_s": 126.799,
+      "quiz_s": 484.165
+     },
+     {
+      "n": 2,
+      "titolo": "Home trade",
+      "inizio_s": 489.465,
+      "quiz_s": 1003.898
+     },
+     {
+      "n": 3,
+      "titolo": "International trade",
+      "inizio_s": 1009.198,
+      "quiz_s": 1667.764
+     },
+     {
+      "n": 4,
+      "titolo": "E-commerce",
+      "inizio_s": 1673.064,
+      "quiz_s": 2692.83
+     },
+     {
+      "n": 5,
+      "titolo": "Trade alliances and sanctions",
+      "inizio_s": 2698.13,
+      "quiz_s": 3381.396
+     },
+     {
+      "n": 6,
+      "titolo": "Ethical trade",
+      "inizio_s": 3386.696,
+      "quiz_s": 3959.496
+     }
+    ],
+    "quiz": {
+     "Q1": {
+      "title": "Quiz 1 · Trade and commerce",
+      "items": [
+       {
+        "p": "What does the word 'commerce' refer to?",
+        "a": "The distribution and sale of physical goods",
+        "w": [
+         "Buying and selling services only",
+         "The production of raw materials",
+         "The transport of people"
+        ],
+        "ref": "With the word 'commerce' we define the distribution and the sale of goods: it is used to talk about physical goods."
+       },
+       {
+        "p": "What is the word 'trade' mostly used for?",
+        "a": "To talk about buying and selling services",
+        "w": [
+         "To talk about physical shops",
+         "To talk about taxes",
+         "To talk about factories"
+        ],
+        "ref": "Trade refers to buying and selling services; it is mostly used to talk about services."
+       },
+       {
+        "p": "Which factor makes trade and commerce easier?",
+        "a": "Innovation in technology, transport and communication",
+        "w": [
+         "Fewer contacts between countries",
+         "Higher border controls",
+         "The end of trade organisations"
+        ],
+        "ref": "Innovation in technology, transport and communication systems enables more contact between people and parts of the world."
+       },
+       {
+        "p": "Which of these is a service that supports trade?",
+        "a": "Insurance",
+        "w": [
+         "Raw materials",
+         "Electronics",
+         "Clothes"
+        ],
+        "ref": "Services to trade include storage, transport, distribution, insurance, banking, marketing and IT support."
+       },
+       {
+        "p": "What are the two types of trade?",
+        "a": "Home trade and international trade",
+        "w": [
+         "Visible trade and online trade",
+         "Product trade and money trade",
+         "Local trade and family trade"
+        ],
+        "ref": "Trade can be of two different types: home trade and international trade."
+       }
+      ]
+     },
+     "Q2": {
+      "title": "Quiz 2 · Home trade",
+      "items": [
+       {
+        "p": "What is home trade?",
+        "a": "The sale and distribution of products within one country",
+        "w": [
+         "The exchange of goods between countries",
+         "Selling products only online",
+         "Producing goods at home"
+        ],
+        "ref": "Home trade includes the sale and distribution of products within one country, from production to consumption."
+       },
+       {
+        "p": "Who sells goods to retailers in smaller quantities, with a markup?",
+        "a": "Wholesalers",
+        "w": [
+         "Final consumers",
+         "Farmers only",
+         "Banks"
+        ],
+        "ref": "Wholesalers sell goods to retailers in smaller quantities with a price markup."
+       },
+       {
+        "p": "At what price do final consumers buy goods?",
+        "a": "At a retail price",
+        "w": [
+         "At a wholesale price",
+         "At the production cost",
+         "For free"
+        ],
+        "ref": "Final consumers buy goods at a retail price."
+       },
+       {
+        "p": "Why are retail sales an indicator of the health of an economy?",
+        "a": "Consumers spend more in expansion and less in a recession",
+        "w": [
+         "Retailers decide the taxes",
+         "Retail sales never change",
+         "Only banks measure them"
+        ],
+        "ref": "In periods of expansion consumers tend to increase their spending; in periods of recession they spend less."
+       },
+       {
+        "p": "Which is an example of non-store retailing?",
+        "a": "Door-to-door selling",
+        "w": [
+         "A beauty salon",
+         "A supermarket",
+         "A hotel"
+        ],
+        "ref": "Non-store retailing includes businesses that do not sell from a store: door-to-door selling, distance selling and online selling."
+       }
+      ]
+     },
+     "Q3": {
+      "title": "Quiz 3 · International trade",
+      "items": [
+       {
+        "p": "What is international trade?",
+        "a": "The exchange of goods and services between different countries",
+        "w": [
+         "The sale of products within one country",
+         "Selling only services online",
+         "The production of goods for the family"
+        ],
+        "ref": "International trade is the exchange of goods and services between different countries."
+       },
+       {
+        "p": "What is invisible trade?",
+        "a": "The exchange of services between countries",
+        "w": [
+         "The exchange of illegal goods",
+         "Trade without taxes",
+         "The exchange of raw materials"
+        ],
+        "ref": "Invisible trade is the exchange of services between countries, such as tourism, insurance and education."
+       },
+       {
+        "p": "Which is a benefit of international trade for consumers?",
+        "a": "More variety and lower prices",
+        "w": [
+         "Fewer products to choose from",
+         "Higher prices",
+         "Less information"
+        ],
+        "ref": "Thanks to international trade consumers may benefit of more variety and lower prices."
+       },
+       {
+        "p": "What is the balance of trade (BOT)?",
+        "a": "The difference between total exports and total imports",
+        "w": [
+         "The money of the central bank",
+         "The number of companies in a country",
+         "The total of all taxes"
+        ],
+        "ref": "BOT is the difference between total exports and total imports over a certain period of time."
+       },
+       {
+        "p": "When does a country have a trade deficit?",
+        "a": "When exports are lower than imports",
+        "w": [
+         "When exports are higher than imports",
+         "When it has no imports",
+         "When it pays no taxes"
+        ],
+        "ref": "We talk about a trade deficit or trade gap when exports are lower than imports."
+       }
+      ]
+     },
+     "Q4": {
+      "title": "Quiz 4 · E-commerce",
+      "items": [
+       {
+        "p": "What does e-commerce refer to?",
+        "a": "All the aspects of online selling",
+        "w": [
+         "Only shops in the city centre",
+         "Only the transport of goods",
+         "Selling products door to door"
+        ],
+        "ref": "E-commerce refers to all the functional aspects of online selling: website, transactions, payments."
+       },
+       {
+        "p": "Why are consumer habits changing?",
+        "a": "Because of technology and the presence of smartphones",
+        "w": [
+         "Because shops are cheaper",
+         "Because the Internet is closing",
+         "Because people buy less"
+        ],
+        "ref": "The change is due to the use of technology in everyday life and to the ubiquitous presence of smartphones."
+       },
+       {
+        "p": "What is C2C e-commerce?",
+        "a": "Sales between consumers, for example on eBay",
+        "w": [
+         "Sales between companies",
+         "Sales from shops to consumers",
+         "Sales from consumers to banks"
+        ],
+        "ref": "C2C is the sale between consumers directly, without a physical shop or a brand."
+       },
+       {
+        "p": "What is O2O commerce?",
+        "a": "A strategy that turns online visitors into offline sales",
+        "w": [
+         "Shopping only with a smartphone",
+         "Buying on social media",
+         "Selling to other companies"
+        ],
+        "ref": "O2O (online to offline) turns e-commerce visitors into offline sales, for example with click and collect."
+       },
+       {
+        "p": "How did Amazon start in 1994?",
+        "a": "It only sold books",
+        "w": [
+         "It sold fresh food",
+         "It offered cloud computing",
+         "It opened shops with no checkout"
+        ],
+        "ref": "When Amazon started in 1994, it only sold books."
+       }
+      ]
+     },
+     "Q5": {
+      "title": "Quiz 5 · Trade alliances and sanctions",
+      "items": [
+       {
+        "p": "What is a trade alliance?",
+        "a": "Countries that create cheaper and freer trade with each other",
+        "w": [
+         "A company that sells abroad",
+         "A tax on imported goods",
+         "A ban on trade with a country"
+        ],
+        "ref": "In a trade alliance, countries of the same economic group create cheaper and freer trade with each other."
+       },
+       {
+        "p": "Which countries are part of the USMCA?",
+        "a": "USA, Mexico and Canada",
+        "w": [
+         "Brazil, Argentina and Uruguay",
+         "Italy, France and Spain",
+         "China, Japan and Korea"
+        ],
+        "ref": "The USMCA includes the USA, Mexico and Canada; it replaced NAFTA in 2020."
+       },
+       {
+        "p": "What are trade sanctions?",
+        "a": "Laws and regulations to limit or abolish trade with some countries",
+        "w": [
+         "Agreements to increase trade",
+         "Discounts on imported goods",
+         "Prizes for exporters"
+        ],
+        "ref": "Trade sanctions are laws and regulations to limit or even abolish trade with certain countries."
+       },
+       {
+        "p": "What is an embargo?",
+        "a": "A total or partial ban on trade with a country",
+        "w": [
+         "A tax on luxury goods",
+         "A limit on working hours",
+         "A trade alliance"
+        ],
+        "ref": "An embargo is a total or partial ban on trade, imposed on specific countries."
+       },
+       {
+        "p": "What does a quota limit?",
+        "a": "The quantity of a product that can be imported",
+        "w": [
+         "The price of a product",
+         "The number of shops",
+         "The salary of workers"
+        ],
+        "ref": "Quotas are legal restrictions on the quantity of a product that can be imported from abroad."
+       }
+      ]
+     },
+     "Q6": {
+      "title": "Quiz 6 · Ethical trade",
+      "items": [
+       {
+        "p": "What is ethical trade?",
+        "a": "Improving the working conditions of the people who produce goods",
+        "w": [
+         "Selling goods at the lowest price",
+         "Trading only with rich countries",
+         "Producing goods without workers"
+        ],
+        "ref": "Ethical trade: retailers, brands and suppliers improve the working conditions of the people who produce the goods."
+       },
+       {
+        "p": "Who launched the Ethical Trading Initiative?",
+        "a": "Companies, NGOs and trade unions",
+        "w": [
+         "Only the government",
+         "Only consumers",
+         "Only banks"
+        ],
+        "ref": "The ETI was launched in the UK in the late 1990s by a group of companies, NGOs and trade unions."
+       },
+       {
+        "p": "What must all ETI members adopt?",
+        "a": "The Base Code",
+        "w": [
+         "A new logo",
+         "A minimum price for bananas",
+         "A trade alliance"
+        ],
+        "ref": "All ETI members must adopt and enforce the Base Code, an international code of labour practice."
+       },
+       {
+        "p": "Which is a principle of the ETI Base Code?",
+        "a": "Child labour shall not be used",
+        "w": [
+         "Working hours are always long",
+         "Wages are as low as possible",
+         "Workers cannot join unions"
+        ],
+        "ref": "The Base Code says, for example, that child labour shall not be used and living wages are paid."
+       },
+       {
+        "p": "What does Fairtrade do for banana farmers?",
+        "a": "It gives them a minimum price and a decent pay",
+        "w": [
+         "It closes their farms",
+         "It buys bananas at the lowest price",
+         "It sells only conventional bananas"
+        ],
+        "ref": "Fairtrade works with banana farmers and workers to create more value and a decent pay; in 2023 it raised the minimum prices."
+       }
+      ]
+     }
+    }
+   },
+   "timeline": [
+    [
+     "T1",
+     126.799,
+     2.6
+    ],
+    [
+     "Q1",
+     484.165,
+     4.0
+    ],
+    [
+     "T2",
+     489.465,
+     2.6
+    ],
+    [
+     "T3",
+     1009.198,
+     2.6
+    ],
+    [
+     "T4",
+     1673.064,
+     2.6
+    ],
+    [
+     "T5",
+     2698.13,
+     2.6
+    ],
+    [
+     "T6",
+     3386.696,
+     2.6
+    ],
+    [
+     "GL1",
+     4042.996,
+     21.967
+    ],
+    [
+     "GL2",
+     4066.563,
+     18.033
+    ],
+    [
+     "RF1",
+     4085.996,
+     38.1
+    ],
+    [
+     "FIN1",
+     4125.496,
+     5.0
+    ]
+   ]
   }
  },
  "manca": "",
@@ -50,10 +492,14 @@
   {
    "quando": "16/11 10:46",
    "testo": "16/11 10:45: voci Kore arrivate (55; controllate con Whisper: testo completo, qualche confine tra frasi spostato di 1-2 s nelle mappe). Montaggio Kore e consegna in corso."
+  },
+  {
+   "quando": "16/11 11:03",
+   "testo": "Video finale consegnato sul ramo consegna-afm-inglese-triennio-lez07 (pezzi da 90 MiB + sha256, verifica dal ramo: DA RIFARE). Durata misurata nello stato. controllo_finale: ESITO: DA SISTEMARE: sottotitoli · jingle: Q6 atteso 3959.996 trovato 3959.996 scarto +0.000 OK · NON PRONTA solo perché mancano dalla release i file della docente: Verifica.xlsx e Compiti.pdf (nel ramo c'è un test PROPOSTA_DA_VALIDARE). Appena arrivano: Test + compiti.json sul ramo, nessuna ricodifica (la scheda Compiti nel video rimanda alla scheda della lezione)."
   }
  ],
  "materia": "Inglese AFM triennio",
  "lezione": "Lezione 7",
- "aggiornato": "2026-11-16 10:46:51",
+ "aggiornato": "2026-11-16 11:03:34",
  "docente": "Prof.ssa Maria Vittoria Fontanesi"
 }
