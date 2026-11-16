@@ -1,1 +1,16 @@
-
+L7_M6 OK frasi trovate 1 / 1 parole diverse 1 (vere 2) tentativi 1
+L7_R6 OK frasi trovate 1 / 1 parole diverse 3 (vere 3) tentativi 1
+L7_M7 OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
+L7_R7 OK frasi trovate 1 / 1 parole diverse 4 (vere 0) tentativi 1
+L7_M8 OK frasi trovate 1 / 1 parole diverse 3 (vere 2) tentativi 1
+L7_R8 OK frasi trovate 1 / 1 parole diverse 1 (vere 1) tentativi 1
+L7_M9 OK frasi trovate 1 / 1 parole diverse 3 (vere 3) tentativi 1
+L7_R9 OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
+L7_MF1 OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
+L7_MF2 OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
+L7_GL1 OK frasi trovate 1 / 1 parole diverse 2 (vere 2) tentativi 1
+L7_GL2 OK frasi trovate 1 / 1 parole diverse 0 (vere 1) tentativi 1
+L7_RFIN1 OK frasi trovate 1 / 1 parole diverse 0 (vere 1) tentativi 1
+L7_RFIN2 OK frasi trovate 1 / 1 parole diverse 1 (vere 1) tentativi 1
+L7_VER OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
+L7_COMP OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
