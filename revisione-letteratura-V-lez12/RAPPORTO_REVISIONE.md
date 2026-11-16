@@ -19,7 +19,7 @@
 | 0:17–2:30 | visivo/sync | Presentazione degli argomenti: sulla slide c'è solo il titolo, sullo schermo non ci sono i 5 argomenti (nella slide d'apertura si vedono 3 voci su 5) | Copertina con card «ARGOMENTI» completa (5 argomenti dal pptx) |
 | 0:45–2:30 | visivo/sync | Copertina ferma mentre il prof parla | Slide che segue il discorso |
 | AN (circa 30 min) | visivo | Schede, confronti, analisi, linee del tempo, mappe, ripassi e glossario sono su fondo blu scuro con font/griglia diversi | Rifare con grafica Spagnolo (slide senza prof: testo grande, giallo solo sulle parole in corso), voci Kore già pronte da riusare |
-| ~38:00 | visivo | Scheda «Virginia Woolf e il flusso di coscienza»: carte sovrapposte durante la transizione, testo illeggibile per alcuni fotogrammi | Rifare l'animazione senza sovrapposizione |
+| ~46:00 | visivo | Scheda «Virginia Woolf e il flusso di coscienza»: carte sovrapposte durante la transizione, testo illeggibile per alcuni fotogrammi | Rifare l'animazione senza sovrapposizione |
 | 8:24, 25:59, 38:09, 54:04 | visivo/testo | Mappe concettuali costruite da noi (5 parziali + finale), non quella del prof | Usare la mappa del prof (1 pagina, release) impaginata con matrice v3, contenuto identico |
 | fine | testo | Test con colonne di risposte vuote | Allineare al formato dell'Excel del prof (4 risposte) |
 | 0–16 s | audio | Sigla: da controllare con `kit/sigle/Sigla_Letteratura_15s.mp4` | Verificare e sostituire se diversa |
