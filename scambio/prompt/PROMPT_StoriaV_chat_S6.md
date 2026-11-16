@@ -12,7 +12,8 @@ Ciao. Sei una **chat di produzione** delle videolezioni del **Centro Studi Teles
 La direzione vuole **tutte le 21 lezioni di Storia V** del prof. Mazzotti, il prima possibile e nell'ordine in cui servono agli alunni (piani di studio 16–20/11). Dal 14/11 Storia V la fa la master 1 con 4 chat (S1–S4); Claude 2 non la fa più.
 
 ## 2. Le tue lezioni (in quest'ordine)
-- **Lezione 12** · video nello zip 006n- **Lezione 15** · video nello zip 010
+- **Lezione 12** · video nello zip 006
+- **Lezione 15** · video nello zip 010
 - Erano state prese da altre chat il 14–15/11 e lasciate a metà: **riparti da zero**, guarda solo se sui rami `voci-`/`stato-` c'è qualcosa di utile (voci già generate).
 - Prima di iniziare una lezione scrivi nel suo stato `IN_MONTAGGIO` e «Storia V · chat S6» con `kit/tools/stato.py`. Se una lezione è già `PRONTA`, non rifarla (salvo indicazione qui sopra). Se è `IN_MONTAGGIO` da un'altra chat aggiornata nelle ultime 2 ore, saltala; se lo stato è più vecchio, prendila tu e riparti da quello che trovi sui rami `stato-`, `voci-`, `consegna-`.
 
