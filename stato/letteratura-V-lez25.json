@@ -21,10 +21,14 @@
   {
    "quando": "16/11 18:24",
    "testo": "Rapporto v1 pushato su revisione-letteratura-V-lez25. Stima correzione 5-6 h (rifare tutte le slide nel modello Spagnolo)."
+  },
+  {
+   "quando": "16/11 23:01",
+   "testo": "Rifatta tutta la grafica nel modello Spagnolo; ricodifica in corso. Trovato scarto audio/video del vecchio montaggio (fino a 0,5 s): audio rifatto sui tempi veri."
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 25 · Pasolini",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-16 18:24:30"
+ "aggiornato": "2026-11-16 23:01:11"
 }
