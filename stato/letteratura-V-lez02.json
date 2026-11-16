@@ -3,7 +3,7 @@
  "parti": {
   "1": {
    "titolo": "La Scapigliatura",
-   "stato": "PRONTA",
+   "stato": "IN_MONTAGGIO",
    "voci": "kore",
    "durata_s": 3267.03,
    "fotogrammi": 98011,
@@ -30,10 +30,14 @@
   {
    "quando": "16/11 10:37",
    "testo": "Letteratura V · chat G (16/11 ~11:40): presa la lezione 2 (priorità massima). Rifacimento da capo con le regole attuali."
+  },
+  {
+   "quando": "16/11 10:37",
+   "testo": "Parte 1 del 8/11 NON più valida (video perso): rifacimento in corso, chat G."
   }
  ],
  "materia": "Letteratura italiana (V)",
  "lezione": "Lezione 2 · La Scapigliatura",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-16 10:37:28"
+ "aggiornato": "2026-11-16 10:37:37"
 }
