@@ -627,7 +627,7 @@ async function pdfResoconto(R){
     d.setFont('helvetica','bold');d.setFontSize(11);d.setTextColor(...B);d.text(t,X,y);
     if(!body.length){d.setFont('helvetica','normal');d.setFontSize(9);d.setTextColor(80);d.text(vuoto,X,y+6);d.lastAutoTable.finalY=y+7;return}
     d.autoTable({startY:y+2,margin:{left:X,right:X,top:16},theme:'grid',head:[head],body,styles:{fontSize:8.5,cellPadding:1.8,overflow:'linebreak',lineColor:[220,226,235],valign:'top'},
-      headStyles:{fillColor:B,textColor:255,fontSize:8.5},columnStyles:{0:{cellWidth:col0||34,fontStyle:'bold'}},
+      headStyles:{fillColor:B,textColor:255,fontSize:8.5},columnStyles:{0:{cellWidth:col0||34,fontStyle:'bold'},2:{cellWidth:36},3:{cellWidth:21}},
       didParseCell:h=>{if(h.section==='body'&&h.column.index===0){const v=String(h.cell.raw||'');h.cell.styles.textColor=/^Complet/.test(v)?[46,158,91]:/^(Iniziata|Da finire|Da rivedere)/.test(v)?[201,103,26]:/^In programma/.test(v)?[32,96,175]:/^(Non svolta|Da svolgere|Assente|Segnalato)/.test(v)?[179,38,30]:B}}})};
   const stato=x=>R.fatta(x)?'Completata il '+fmtS(x.cd)+(x.pun?' · test '+x.pun:''):R.inCorso(x)?'Iniziata il '+fmtS(x.pv)+', non finita':x.g>T?'In programma':'Non svolta';
   const corso=x=>pul(x.c)+(R.tutte&&x.tab?'':'');
