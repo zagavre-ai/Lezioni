@@ -2,7 +2,20 @@
  "tag": "letteratura-V-lez01",
  "parti": {
   "1": {
-   "stato": "IN_MONTAGGIO"
+   "stato": "PRONTA",
+   "t_verifica": 3808.729,
+   "t_compiti": 3827.529,
+   "voci": "kore",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "si",
+   "video": "Letteratura_Lez1_Parte1_1080p.mp4",
+   "durata_s": 3833.8,
+   "durata": "63:53.8",
+   "fotogrammi": 115015,
+   "fotogrammi_attesi": 115015,
+   "peso_MB": 263.8,
+   "vtt": "Letteratura_Lez1_Parte1.vtt"
   }
  },
  "manca": "",
@@ -17,10 +30,14 @@
   {
    "quando": "16/11 10:35",
    "testo": "Letteratura V · chat F: ripresa da capo (priorità massima 16/11 11:30). Scaricati video e pagine del libro; avvio trascrizione e analisi delle slide."
+  },
+  {
+   "quando": "16/11 12:14",
+   "testo": "Letteratura V · chat F: lezione 1 rifatta da capo, PRONTA (priorità massima), consegna su consegna-letteratura-V-lez01. Una sola Parte di 63:54 (sotto i 65 minuti della regola dell'8/11), 264 MB, 1080p. Contenuto: 6 argomenti con slide sincronizzate (attacchi delle card fissati a mano sulla trascrizione), 6 approfondimenti con voce Kore, 6 mappe per argomento + mappa finale (Mappe_letteratura-V-lez01.pdf A4 orizzontale, 7 pagine), pagine del libro ritagliate per Corrispondenze, L'albatro, Spleen e Perdita d'aureola, quiz 5 domande x6 (scritti da me dal materiale del prof, non ancora letti da Sara), verifica = test del prof (10 domande, t_verifica 3808,7 s), compiti del prof (4) nel video (t_compiti 3827,5 s) e in compiti.json, bande blu su Quiz/Verifica/Compiti. Riusate le voci Kore del 8/11 (S1-S6, GL1, RF1, FIN1); nuove 14 voci arrivate dalla master. Controlli: scatto quiz 0,0 s, parlato -16,1 LUFS, nessun fermo, sottotitoli 0 sovrapposti (attacco 89% di 18 verificabili). Sottotitoli del docente da Whisper base con nomi corretti: qualità media. Limite: trascrizione imprecisa, quindi attacchi delle card scelti leggendo il testo, non misurati sulle parole."
   }
  ],
  "materia": "Letteratura italiana · V anno",
  "lezione": "Lezione 1 · L'età del Naturalismo e del Decadentismo",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-16 10:45:50"
+ "aggiornato": "2026-11-16 12:14:55"
 }
