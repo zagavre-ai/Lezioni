@@ -9,6 +9,15 @@
    "fotogrammi": 94318,
    "fotogrammi_attesi": 94317,
    "peso_MB": 218.1
+  },
+  "2": {
+   "stato": "IN_REVISIONE",
+   "video": "P2_43.mp4",
+   "durata_s": 3200.3,
+   "durata": "53:20.3",
+   "fotogrammi": 96010,
+   "fotogrammi_attesi": 96010,
+   "peso_MB": 239.1
   }
  },
  "manca": "",
@@ -25,5 +34,5 @@
    "testo": "Consegna parziale sul ramo revisione-letteratura-V-lez13 (video P1/P2 con riquadro 4:3 372x279, sfondo bianco, piede V, PDF slide/mappe, vtt). NON REVISIONATA: restano problemi noti nel RAPPORTO (frasi ripetute, apertura Parte 2 senza ripasso, mappe inventate, ~600 parole sospette nei sottotitoli del prof, fettine libro tagliate)."
   }
  ],
- "aggiornato": "2026-11-16 23:17:44"
+ "aggiornato": "2026-11-16 23:17:48"
 }
