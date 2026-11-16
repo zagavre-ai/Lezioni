@@ -1,0 +1,18 @@
+Consegna · Economia e marketing delle aziende della moda (III + IV) · Lezione 2 · Moda e filiera · Prof.ssa Piera Caputi
+
+Video (una sola Parte, 67:00,7, 1920x1080, 30 fps, 244,4 MB): diviso in pezzi da 90 MB perché il ramo non accetta file oltre 100 MB.
+Per ricomporlo:  cat Economia_Lez2_Parte1_1080p.mp4.parte_* > Economia_Lez2_Parte1_1080p.mp4
+Controllo:       sha256sum -c Economia_Lez2_Parte1_1080p.mp4.sha256
+
+Altri file: sottotitoli .vtt, quiz (7 x 5 domande) .txt, test finale .xlsx (Excel della docente, 8 domande, tracciato piattaforma),
+dispensa A4 PDF (15 pagine, senza mappe), Mappe_moda-economia-III-IV-lez02.pdf (A4 orizzontale, 8 mappe: una per argomento + mappa finale),
+scheda_pubblicazione.json (con t_verifica e t_compiti), timeline, testo per YouTube con i capitoli.
+
+Nel video: una mappa concettuale animata per ogni argomento + mappa finale prima del glossario; bande blu in quiz, verifica e compiti.
+Voci Kore: tutte quelle richieste (18 + 8 mappe). MAP1 e MAP2 erano segnate «da controllare» nel log del servizio: confrontate con una trascrizione automatica, hanno tutte le frasi del testo; da ascoltare a mano.
+
+DA SAPERE:
+- COMPITI_MANCANTI: nella release non c'è il file «Compiti» del docente. Il video ha intro e scheda «Compiti» (t_compiti, t_scheda_compiti) ma la scheda è generica; compiti.json non c'è.
+- Durata 67 min: oltre i circa 65 della regola (docente 50 min + approfondimenti, mappe, quiz, glossario).
+- Sottotitoli: Whisper «base» con i termini corretti dal PDF; qualità del testo da rivedere; attacco sulla voce entro 0,3 s: 75% sul campione del controllo (soglia 80%).
+- Slide sincronizzate con la docente: controllate a campione in 4 punti, coerenti con il parlato (la precisione è di alcuni secondi, non ±1,5 s: trascrizione a frasi corte).
