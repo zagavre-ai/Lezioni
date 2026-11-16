@@ -317,6 +317,10 @@
   {
    "quando": "14/11 23:07",
    "testo": "R2: aspetto le voci Kore AN* (testi gia' sul ramo voci-letteratura-V-lez23, inviati ~22:25). Tagli del video pronti, monto appena arrivano."
+  },
+  {
+   "quando": "16/11 08:45",
+   "testo": "Voce AN22 (lez23, mappa 'La tregua') NON corrisponde al testo approvato: la trascrizione mostra rami 4-6 con frasi inventate (il servizio la segnava DA CONTROLLARE). Serve una nuova generazione dello stesso testo, con nome AN22b (testi_voci.json su voci-letteratura-V-lez23). Intanto la lezione esce senza AN22; se arriva prima della codifica la inserisco"
   }
  ],
  "domande_sara": [],
@@ -348,10 +352,14 @@
   {
    "quando": "15/11 02:36",
    "testo": "R2: pronta, attende voci Kore (quota Google fino alle 09:00 IT). Pronti: tagli video, mappe, dispensa, compiti.json; controllo vox/ ogni 30 min"
+  },
+  {
+   "quando": "16/11 08:45",
+   "testo": "Letteratura V · chat H: presa in carico (fermo >2h)"
   }
  ],
  "materia": "Letteratura italiana · V anno",
  "lezione": "Lezione 23",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-15 02:36:09"
+ "aggiornato": "2026-11-16 08:45:49"
 }
