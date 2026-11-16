@@ -106,3 +106,7 @@ Voci Kore: dalle 9 (prima usa i segnaposto e fai tutto il resto: montaggio, slid
 - Controllo fatto sui video consegnati (5 fotogrammi per lezione): **cerchio presente in Letteratura V lezioni 3, 5, 6, 8, 10, 11, 13, 15, 17, 19, 21, 22, 26**. Da rimontare con il rettangolo: **stesso montaggio, stesse voci, stessi tempi** (quiz, verifica e compiti devono restare agli stessi secondi, altrimenti le pagine Vimeo si sfasano). Consegna sullo stesso ramo, stato PRONTA, nota «v3 rettangolo».
 - Chi le rifà: ciascuna chat le lezioni che ha consegnato lei (vedi lo stato). Se la chat non c'è più: **F** → 3, 5, 6, 8; **G** → 10, 11, 13, 15; **H** → 17, 19, 21, 22, 26. Prima le lezioni 1 e 2 (priorità), poi queste.
 - Anche le lezioni nuove (1, 2 e le altre materie) solo con il rettangolo.
+
+## 16/11 12:45 · ANNULLATO IL RIMONTAGGIO DEL TONDO
+- Le 13 lezioni col prof nel tondo (3, 5, 6, 8, 10, 11, 13, 15, 17, 19, 21, 22, 26) le corregge **la master** direttamente sui video finiti. **Le chat NON le rifanno.** Continuate con le lezioni 1 e 2 e con il vostro elenco.
+- Regola che resta: nelle lezioni nuove il prof va **solo nel rettangolo 394×218** (come 9 e 14), mai nel tondo (il tondo è solo per la prof. Caputi).
