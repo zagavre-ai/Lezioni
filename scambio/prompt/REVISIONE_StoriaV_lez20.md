@@ -8,7 +8,7 @@ Ciao. Sei la chat di **revisione della lezione 20 di Storia V** del Centro Studi
 1. Leggi **tutto** `scambio/REVISIONE_StoriaV_REGOLE.md` sul ramo `scambio-mazzotti` e `kit/REGOLE.md` su main.
 2. La tua lezione: **`storia-V-lez20`** (ramo `consegna-storia-V-lez20`, voci su `voci-storia-V-lez20`, materiali nella release `mazzotti-storia-V`: vedi l'indice).
 3. **Già noto (ma cerca tutto il resto):** controlla sigla di Storia e introduzione (in diverse lezioni mancano), nome del prof leggibile, testa non tagliata, audio pulito.
-4. Per il **rettangolo** usa gli strumenti in `kit/tools/rettangolo/` su main (leggi `LEGGIMI.md`).
+4. **Riquadro del prof 4:3 come Spagnolo** (punto 000 delle regole, modello in `kit/modello_spagnolo/`). Gli strumenti in `kit/tools/rettangolo/` su main (leggi `LEGGIMI.md`) servono a trovare e allineare il prof nel video montato; la forma finale è **4:3 come Spagnolo**, non più il rettangolo 394×218.
 5. Stato: `kit/tools/stato.py storia-V-lez20 IN_REVISIONE "chat revisione storia 20"` subito; alla fine `REVISIONATA`.
 6. Consegna sul ramo **`revisione-storia-V-lez20`** con `RAPPORTO_REVISIONE.md`.
 

@@ -1,5 +1,7 @@
 # BRIEF APPROVATO · Videolezioni Centro Studi Telesio (31/10/2026) — VINCOLANTE
 
+> **16/11 · Sara: la grafica deve essere IDENTICA alla Lezione 1 di Spagnolo consegnata con il brief** (modello in `kit/modello_spagnolo/` su main): riquadro 4:3 con ombra grigia morbida, fascia gialla col nome su due righe sempre visibile. Dove questo file dice altro (rettangolo, ombra blu), vale il modello Spagnolo.
+>
 > Copia del brief presentato e **approvato**. Tutte le chat di produzione e di revisione lo rispettano. Dove le regole successive (REGOLE.md, regole di revisione 16/11) sono più precise, valgono quelle; per tutto il resto vale questo brief.
 
 ## 1. Produzione
@@ -27,7 +29,7 @@
 
 ## 5. Montaggio
 1. Sigla iniziale (15 s) → **transizione morbida** (dissolvenza ~1 s, la musica sfuma; nessun lampo).
-2. Lezione: slide a schermo intero con il **riquadro docente** (oggi: rettangolo 394×218 angoli arrotondati, in alto a destra).
+2. Lezione: slide a schermo intero con il **riquadro docente** (4:3 in alto a destra, come Spagnolo Lez. 1).
 3. Inserti di animazione didattica dove serve; il video del docente **non si taglia mai** (unica eccezione approvata: le Actividad di Spagnolo).
 4. Sigla finale con la stessa transizione morbida.
 - **Correzione immagine del docente (kit):** guadagno per canale, gamma, contrasto 1,04, saturazione 1,03, `hqdn3d 1,5:1,5:3:3`, `cas 0,35`, sul riquadro già rimpicciolito.

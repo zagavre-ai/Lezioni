@@ -8,7 +8,7 @@ Ciao. Sei la chat di **revisione della lezione 9 di Letteratura italiana V** del
 1. Leggi **tutto** `scambio/REVISIONE_LetteraturaV_REGOLE.md` sul ramo `scambio-mazzotti` e `kit/REGOLE.md` su main.
 2. La tua lezione: **`letteratura-V-lez09`** (ramo `consegna-letteratura-V-lez09`, voci su `voci-letteratura-V-lez09`, originale `Letteratura_Lez9.mp4` nella release `mazzotti-letteratura-V`).
 3. **Già noto (ma cerca tutto il resto):** Due parti (p1, p2): i compiti vanno solo nella parte 2. Banda blu: si tiene.
-4. Per il **rettangolo** usa gli strumenti pronti in `kit/tools/rettangolo/` su main (leggi `LEGGIMI.md`).
+4. **Riquadro del prof 4:3 come Spagnolo** (punto 000 delle regole, modello in `kit/modello_spagnolo/`). Gli strumenti in `kit/tools/rettangolo/` su main (leggi `LEGGIMI.md`) servono a trovare e allineare il prof nel video montato; la forma finale è **4:3 come Spagnolo**, non più il rettangolo 394×218.
 5. Stato: `kit/tools/stato.py letteratura-V-lez09 IN_REVISIONE "chat revisione 9"` subito; alla fine `REVISIONATA`.
 6. Consegna sul ramo **`revisione-letteratura-V-lez09`** con `RAPPORTO_REVISIONE.md`.
 

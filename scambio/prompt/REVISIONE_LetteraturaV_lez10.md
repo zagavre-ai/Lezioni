@@ -7,8 +7,8 @@ Ciao. Sei la chat di **revisione della lezione 10 di Letteratura italiana V** de
 
 1. Leggi **tutto** `scambio/REVISIONE_LetteraturaV_REGOLE.md` sul ramo `scambio-mazzotti` e `kit/REGOLE.md` su main.
 2. La tua lezione: **`letteratura-V-lez10`** (ramo `consegna-letteratura-V-lez10`, voci su `voci-letteratura-V-lez10`, originale `Letteratura_Lez10.mp4` nella release `mazzotti-letteratura-V`).
-3. **Già noto (ma cerca tutto il resto):** Evidenziazione gialla ferma sul punto 1 da 23:02 a 28:30 mentre il prof va avanti: correggere. Prof nel tondo → rettangolo.
-4. Per il **rettangolo** usa gli strumenti pronti in `kit/tools/rettangolo/` su main (leggi `LEGGIMI.md`).
+3. **Già noto (ma cerca tutto il resto):** Evidenziazione gialla ferma sul punto 1 da 23:02 a 28:30 mentre il prof va avanti: correggere. Prof nel tondo/rettangolo → riquadro 4:3 come Spagnolo.
+4. **Riquadro del prof 4:3 come Spagnolo** (punto 000 delle regole, modello in `kit/modello_spagnolo/`). Gli strumenti in `kit/tools/rettangolo/` su main (leggi `LEGGIMI.md`) servono a trovare e allineare il prof nel video montato; la forma finale è **4:3 come Spagnolo**, non più il rettangolo 394×218.
 5. Stato: `kit/tools/stato.py letteratura-V-lez10 IN_REVISIONE "chat revisione 10"` subito; alla fine `REVISIONATA`.
 6. Consegna sul ramo **`revisione-letteratura-V-lez10`** con `RAPPORTO_REVISIONE.md`.
 
