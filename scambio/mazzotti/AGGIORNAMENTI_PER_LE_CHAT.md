@@ -74,3 +74,9 @@ Controllate dai file di consegna. Sistemare **senza rifare il montaggio**:
 - Materiali: release unica `inglese-afm-triennio` (video, dispense, `ENG_Amm_LezN_Verifica.xlsx`, `ENG_Amm_LezN_Compiti.pdf`). Se i file di una lezione mancano, passa alla successiva e scrivilo nello stato.
 - Prima di partire controlla `PER_LA_MASTER.txt` sul ramo `scambio-claude2`: se una chat di Claude 2 ha già iniziato la 6 o la 7, riprendi da lì (stesso tag `afm-inglese-triennio-lezNN`).
 - Stesse regole delle lezioni 4–5 (narratore Kore in inglese B1, parole chiave tradotte), mappe nel video + `Mappe_<tag>.pdf` A4 orizzontale, quiz, verifica 80% con l'Excel, compiti nel video + compiti.json. Voci: dalle 9 di domattina.
+
+## 16/11 notte (01:00) · CHIMICA MODA PASSA ALLA MASTER (decisione di Sara)
+- Le chat di Claude 2 (limite settimanale all'87%) NON continuano Moda III+IV · Chimica applicata (`moda-chimica-III-IV-lezNN`).
+- La riprende una chat della master, partendo dal lavoro già sui rami: lez02 PRONTA; lez01, 03, 04, 05, 06, 07, 09, 11 IN_MONTAGGIO (leggere stato-<tag> e scambio/claude2/PER_LA_MASTER.txt prima di toccare qualcosa; non rifare ciò che è fatto); lez08 e lez10 da iniziare.
+- Regole: quelle delle voci del 15/11 17:25 (scambio-claude2/DALLA_MASTER.txt) + mappe nel video e `Mappe_<tag>.pdf` A4 orizzontale.
+- Alimentazione 1-3: le controlla la master; lezione 1 resta UNA Parte (Sara).
