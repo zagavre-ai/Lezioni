@@ -2,7 +2,7 @@
  "tag": "letteratura-V-lez26",
  "parti": {
   "1": {
-   "stato": "PRONTA",
+   "stato": "IN_REVISIONE",
    "titolo": "Italo Calvino",
    "voci": "kore",
    "quiz_ok": "si",
@@ -436,10 +436,14 @@
   {
    "quando": "15/11 14:56",
    "testo": "chat R5 · PRONTA v2 con approfondimenti animati, consegnata sul ramo consegna-letteratura-V-lez26. Misurato: 55:29.7, 99891 fotogrammi, 166.7 MB, 1920x1080, nessun fermo, 5 quiz, scatto quiz entro 0,02 s su 5/5 (tempi misurati sul video). 20 approfondimenti animati con voce Kore (22,5 min) + mappe (una per argomento + finale, anche nella dispensa). t_verifica 3311.184, t_compiti 3324.684, compiti.json del prof aggiunto. Segnalazione al prof: la slide dice che Calvino muore nel 1983 (e' 1985): nelle voci e nelle card non ho scritto l'anno. Non rifatti (restano dalla v1): scheda e intro Compiti, bande blu, sincronia slide. Sottotitoli degli approfondimenti allineati alle pause della voce, non verificati uno per uno."
+  },
+  {
+   "quando": "16/11 18:18",
+   "testo": "chat revisione 26 avviata"
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 26",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-15 14:56:21"
+ "aggiornato": "2026-11-16 18:18:52"
 }
