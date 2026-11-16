@@ -95,3 +95,8 @@ Molti stati `IN_MONTAGGIO` sono vecchi (chat spostate su altro il 15/11). Regola
 - **Storia V · chat S5:** 3, 7, 12, 13, poi 4, 8, 10 (appena il video è nell'indice)
 - **Storia dell'arte V · chat A5:** 1, 2, 4, 5, 7, 11, 15 (controlla prima gli stati delle chat A1–A4)
 Voci Kore: dalle 9 (prima usa i segnaposto e fai tutto il resto: montaggio, slide sincronizzate, animazioni, mappe nel video + `Mappe_<tag>.pdf`, quiz, verifica, compiti). Consegna su `consegna-<tag>` a pezzi da 90 MB + sha256, stato PRONTA. Commit senza firma.
+
+## 16/11 11:30 · LETTERATURA V LEZIONI 1 E 2: PRIORITÀ MASSIMA (servono per far partire il corso)
+- I video del prof sono nella release `mazzotti-letteratura-V`: `Letteratura_Lez1.mp4` (805 MB) e `Letteratura_Lez2.mp4` (751 MB), caricati da Sara stamattina. Pagine del libro: `Lez01_ingrandita.1.zip`, `Lez02_ingrandita.1.zip`.
+- Le versioni dell'8/11 sono andate perse (mandate solo in chat): **si rifanno da capo** con le regole di adesso (1080p, approfondimenti animati con voce Kore, mappe nel video + `Mappe_<tag>.pdf`, quiz, verifica 80% con l'Excel del prof, compiti nel video + compiti.json, dispensa A4, testo YouTube). Tag: `letteratura-V-lez01`, `letteratura-V-lez02`. Le vecchie voci su `voci-letteratura-V-lez01/02` si possono riusare se i testi coincidono.
+- **Chat F**: appena finita la lezione che ha in mano, prende la **1**. **Chat G**: prende la **2**. Se una delle due è ferma da più di 2 ore, l'altra le fa entrambe. Scrivete subito il vostro nome nello stato.
