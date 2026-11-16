@@ -22,10 +22,14 @@
   {
    "quando": "16/11 01:53",
    "testo": "16/11 01:55: presa dalla chat della master (E1). Le lezioni 6 e 8 sono FERME (mancano i video), la 7 è pronta con le voci segnaposto e attende le voci Kore. La 10 era stata iniziata da una chat di Claude 2 (ex Cucina), che si è fermata per il limite settimanale: su git non c'è niente della 10, riparto da zero. Nella release ci sono video, dispensa e presentazione; mancano Verifica.xlsx e Compiti.pdf."
+  },
+  {
+   "quando": "16/11 03:05",
+   "testo": "pronta, attende voci Kore. 5 argomenti dalla dispensa e dalla presentazione (anche i grafici su Gen Z e sulla comunicazione digitale), slide sincronizzate, 6 mappe (Mappe_afm-inglese-triennio-lez10.pdf pronto), 25 domande di quiz. Montaggio con segnaposto: 65,4 min stimati, una sola Parte (docente 59,1 min dopo i tagli). Mancano dalla release Verifica.xlsx e Compiti.pdf (preparata una PROPOSTA_DA_VALIDARE). Lavoro sul ramo lavoro-afm-inglese-triennio-lez10."
   }
  ],
  "materia": "Inglese AFM",
  "lezione": "Lezione 10",
  "docente": "Prof.ssa Maria Vittoria Fontanesi",
- "aggiornato": "2026-11-16 02:00:06"
+ "aggiornato": "2026-11-16 03:05:30"
 }
