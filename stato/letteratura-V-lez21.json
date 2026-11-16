@@ -2,7 +2,12 @@
  "tag": "letteratura-V-lez21",
  "parti": {},
  "manca": "",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "16/11 18:28",
+   "testo": "chat revisione 21: servono voci Kore M1,M2,M3,M4,M5,MF (mappa del prof letta per argomento) in scambio/letteratura-V-lez21/testi_voci.json sul ramo voci-letteratura-V-lez21; nomi nuovi, restano le altre voci."
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
@@ -10,5 +15,5 @@
    "testo": "chat revisione 21: partita. Stato IN_REVISIONE."
   }
  ],
- "aggiornato": "2026-11-16 18:16:53"
+ "aggiornato": "2026-11-16 18:28:55"
 }
