@@ -1,0 +1,111 @@
+{
+ "INTRO1": [
+  "Benvenuti a una nuova lezione di Chimica applicata e nobilitazione dei materiali, con la professoressa Piera Caputi.",
+  "Oggi parliamo degli ausiliari tessili: addensanti, bozzime e appretti, oleanti, detergenti, candeggianti, e le analisi chimiche degli ausiliari.",
+  "Ora la parola passa alla professoressa."
+ ],
+ "S1": [
+  "Schema di ripasso: gli ausiliari tessili.",
+  "Gli ausiliari sono composti chimici che facilitano la lavorazione di fibre e tessuti e il prodotto desiderato.",
+  "Gli addensanti artificiali sono eteri della cellulosa, dell'amido e delle gomme naturali: i più complessi sono appretti, i più semplici sono bozzime.",
+  "Gli addensanti sintetici sono resine termoindurenti e termoplastiche: polivinilici, poliacrilici e siliconici.",
+  "Gli emollienti ammorbidiscono il tessuto, i caricanti ne aumentano il peso e le sostanze igroscopiche lo rendono più morbido e antistatico.",
+  "Le sostanze antipiega usano resine per cotone e lino; quelle antisporco sono composti fluorurati, come il teflon.",
+  "Gli ignifughi rendono sicure le fibre infiammabili, e gli impermeabilizzanti rivestono il tessuto con cere, oli, gomme e resine."
+ ],
+ "S2": [
+  "Schema di ripasso: oleanti e imbozzimatura.",
+  "Gli oleanti sono usati insieme alle bozzime: i fili di ordito sono prima imbozzimati e poi lubrificati.",
+  "Servono a diminuire gli attriti e le rotture; nella filatura cardata cementano le fibre, nella pettinata riducono l'attrito.",
+  "Si usano bozzime naturali per le fibre naturali e artificiali, e sintetiche per le fibre sintetiche.",
+  "L'imbozzimatrice a tamburi ha un bagno al quattro-cinque per cento, cilindri spremitori e tamburi asciugatori riscaldati a vapore."
+ ],
+ "S3": [
+  "Schema di ripasso: detergenti e tensioattivi.",
+  "I detergenti facilitano la rimozione dello sporco: la molecola ha una testa idrofila e una coda lipofila, e per questo si chiamano tensioattivi.",
+  "I saponi sono sali alcalini degli acidi carbossilici grassi, con almeno sei atomi di carbonio.",
+  "I detergenti sintetici derivano dal petrolio e si classificano in anionici, cationici e non ionici.",
+  "I saponi con l'acqua dura formano sali insolubili di calcio e magnesio; i detersivi sintetici restano in soluzione e fanno molta schiuma.",
+  "Il problema ambientale è la difficile biodegradabilità, con accumulo di schiuma ed eutrofizzazione dovuta ai fosfati."
+ ],
+ "S4": [
+  "Schema di ripasso: candeggio e azzurranti ottici.",
+  "Il candeggio distrugge le sostanze colorate della fibra, per ossidazione o per riduzione.",
+  "I candeggianti ossidanti sono l'ipoclorito di sodio, il cloruro di calce, l'acqua ossigenata e il perborato di sodio.",
+  "L'acqua ossigenata libera ossigeno nascente: al venti-trenta per cento candeggia le fibre, al tre per cento disinfetta.",
+  "I candeggi riducenti usano l'anidride solforosa, i bisolfiti e l'idrosolfito di sodio, per esempio per la lana.",
+  "Gli azzurranti ottici assorbono i raggi ultravioletti ed emettono luce azzurra, che annulla l'ingiallimento."
+ ],
+ "S5": [
+  "Schema di ripasso: analisi chimica degli ausiliari.",
+  "Le bozzime si identificano al microscopio e con prove macroscopiche, usando reattivi come iodio, fucsina e rosso Sudan.",
+  "Per gli appretti si estraggono le sostanze con solventi: tetracloruro di carbonio, alcol etilico, acqua, diossano e acido cloridrico.",
+  "Nell'estratto in tetracloruro si riconoscono oli, cere e polistirene; in quello in alcol, saponi, detergenti e glicerina.",
+  "Nell'estratto in acqua si riconoscono gli amidi, con il colore blu dello iodio, le destrine, le gelatine e la caseina.",
+  "Il diossano rivela resine acriliche e fenoliche; l'acido cloridrico, i sali inorganici e le resine melamminiche."
+ ],
+ "M1": [
+  "Mappa concettuale: ausiliari tessili.",
+  "La definizione: composti chimici che facilitano l'ottenimento del prodotto nei processi tessili.",
+  "Gli addensanti: artificiali, derivati dalla cellulosa, e sintetici, come le resine.",
+  "Gli ausiliari per mano e peso: emollienti, caricanti e igroscopici.",
+  "I trattamenti ottenibili: antipiega, antisporco, ignifughi, impermeabilizzanti, antisettici e antitarme."
+ ],
+ "M2": [
+  "Mappa concettuale: oleanti e imbozzimatura.",
+  "Gli oleanti tessili: lubrificano i fili per la tessitura.",
+  "L'imbozzimatura: protegge i fili di ordito e riduce gli attriti.",
+  "Le macchine: la vasca, i cilindri spremitori e i tamburi essiccatori."
+ ],
+ "M3": [
+  "Mappa concettuale: detergenti e tensioattivi.",
+  "La struttura della molecola: testa idrofila e coda lipofila.",
+  "La classificazione: naturali, come i saponi, e sintetici, derivati dal petrolio.",
+  "I tensioattivi sintetici: anionici, cationici e non ionici.",
+  "Le problematiche ambientali: difficile biodegradabilità ed eutrofizzazione."
+ ],
+ "M4": [
+  "Mappa concettuale: candeggio e azzurranti ottici.",
+  "Il candeggio: distruzione delle sostanze colorate.",
+  "I candeggianti ossidanti: ipoclorito, acqua ossigenata e perborato.",
+  "I candeggi riducenti: anidride solforosa e idrosolfito.",
+  "Gli azzurranti ottici: compensano l'ingiallimento del tessuto."
+ ],
+ "M5": [
+  "Mappa concettuale: analisi chimica degli ausiliari.",
+  "L'identificazione delle bozzime: metodo microscopico e macroscopico con reattivi colorati.",
+  "L'analisi degli appretti: estrazione con solventi.",
+  "Il riconoscimento delle sostanze: in alcol, in acqua, in diossano e in acido cloridrico."
+ ],
+ "MF": [
+  "Mappa finale: gli ausiliari tessili.",
+  "Gli ausiliari: addensanti, emollienti, caricanti, igroscopici e trattamenti speciali.",
+  "Gli oleanti e l'imbozzimatura.",
+  "I detergenti e il candeggio.",
+  "Le analisi chimiche degli ausiliari."
+ ],
+ "GL1": [
+  "Ripassiamo le parole chiave di questa lezione. Ascolta ogni parola e la sua definizione, e prova a ripeterla.",
+  "Ausiliari tessili: composti chimici che facilitano i processi tessili e il prodotto desiderato.",
+  "Bozzima: la sostanza che protegge i fili di ordito in tessitura e si toglie con un risciacquo.",
+  "Appretto: la sostanza che resta sulla fibra e ne migliora l'aspetto e la mano.",
+  "Oleanti: sostanze lubrificanti che riducono gli attriti in filatura e in tessitura.",
+  "Tensioattivi: i detergenti, con testa idrofila e coda lipofila.",
+  "Saponi: i sali alcalini degli acidi carbossilici grassi.",
+  "Detergenti non ionici: molecole che non si dissociano in acqua, come gli esteri con un poliglicole.",
+  "Candeggio: la distruzione delle sostanze colorate della fibra, per ossidazione o riduzione.",
+  "Azzurranti ottici: sostanze che assorbono i raggi ultravioletti ed emettono luce azzurra."
+ ],
+ "RF1": [
+  "Prima di salutarci, ricapitoliamo insieme quello che hai studiato.",
+  "Gli ausiliari tessili comprendono gli addensanti, artificiali e sintetici, gli emollienti, i caricanti, le sostanze antipiega, antisporco, ignifughe e impermeabilizzanti.",
+  "Gli oleanti e le bozzime riducono gli attriti e proteggono i fili di ordito nell'imbozzimatura.",
+  "I detergenti sono tensioattivi, con testa idrofila e coda lipofila: saponi, anionici, cationici e non ionici.",
+  "Il candeggio avviene per ossidazione o riduzione, e gli azzurranti ottici compensano l'ingiallimento.",
+  "Per riconoscere bozzime e appretti si usano reattivi colorati e l'estrazione con solventi.",
+  "Ottimo lavoro. Prova a ripetere questi passaggi con parole tue."
+ ],
+ "FIN1": [
+  "Fine della lezione. Grazie per l'attenzione, e alla prossima lezione di Chimica applicata e nobilitazione dei materiali."
+ ]
+}
