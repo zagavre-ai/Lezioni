@@ -6,7 +6,12 @@
   }
  },
  "manca": "",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "16/11 18:16",
+   "testo": "Whisper non scaricabile (Hugging Face 403): serve modello locale o host abilitato"
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
@@ -14,5 +19,5 @@
    "testo": "chat revisione 5 partita"
   }
  ],
- "aggiornato": "2026-11-16 18:14:36"
+ "aggiornato": "2026-11-16 18:16:54"
 }
