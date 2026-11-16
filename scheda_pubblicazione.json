@@ -1,0 +1,314 @@
+{
+ "materia": "Inglese",
+ "titolo": "Work today · Parte 1",
+ "durata_s": 3939.13,
+ "argomenti": [
+  {
+   "n": 1,
+   "titolo": "Today's job market",
+   "inizio_s": 254.066,
+   "quiz_s": 1273.432
+  },
+  {
+   "n": 2,
+   "titolo": "Job stability",
+   "inizio_s": 1278.732,
+   "quiz_s": 2073.132
+  },
+  {
+   "n": 3,
+   "titolo": "Flexibility at work",
+   "inizio_s": 2078.432,
+   "quiz_s": 2832.932
+  },
+  {
+   "n": 4,
+   "titolo": "Digital communication",
+   "inizio_s": 2838.232,
+   "quiz_s": 3380.631
+  },
+  {
+   "n": 5,
+   "titolo": "Employability skills",
+   "inizio_s": 3385.931,
+   "quiz_s": 3761.331
+  }
+ ],
+ "quiz": {
+  "Q1": {
+   "title": "Quiz 1 · Today's job market",
+   "items": [
+    {
+     "p": "What is the job market?",
+     "a": "The market where businesses that need employees and people looking for work interact",
+     "w": [
+      "The market where companies sell their products",
+      "A place where people buy shares",
+      "A list of open schools"
+     ],
+     "ref": "Job market: the market where there is an interaction between businesses that need employees and individuals who are looking for work."
+    },
+    {
+     "p": "What is a tight job market?",
+     "a": "There are many job offers but few people looking for work",
+     "w": [
+      "There are more people looking for work than jobs",
+      "There are no job offers at all",
+      "Wages are always very low"
+     ],
+     "ref": "Tight: there are many job offers but few people looking for work."
+    },
+    {
+     "p": "What happens during recessions?",
+     "a": "Unemployment rises and wages are low",
+     "w": [
+      "Businesses compete for workers",
+      "Wages increase quickly",
+      "There are no unemployed people"
+     ],
+     "ref": "During recessions, unemployment rises and there is economic stagnation, with a low level of wages."
+    },
+    {
+     "p": "What do many employers prefer today?",
+     "a": "People with the right skills, rather than only qualifications",
+     "w": [
+      "Only people with many years of experience",
+      "Only people with a university degree",
+      "People who do not want to learn"
+     ],
+     "ref": "Many employers prefer hiring people with the necessary skills to perform current tasks and adapt rapidly to new challenges."
+    },
+    {
+     "p": "Why are there many job vacancies?",
+     "a": "Ageing population, less immigration and fewer people accepting low-wage jobs",
+     "w": [
+      "There are too many workers",
+      "Companies are closing",
+      "Wages are too high"
+     ],
+     "ref": "This situation is due to an ageing population, a decline in immigration and a change in attitude towards work."
+    }
+   ]
+  },
+  "Q2": {
+   "title": "Quiz 2 · Job stability",
+   "items": [
+    {
+     "p": "How was work in the past?",
+     "a": "People had long-term stable jobs with the same employer",
+     "w": [
+      "People changed job every month",
+      "Everybody was a freelancer",
+      "Nobody had a contract"
+     ],
+     "ref": "In the past people had long-term stable jobs with the same employer."
+    },
+    {
+     "p": "What is the gig economy?",
+     "a": "Jobs that last a specific length of time, like freelance work",
+     "w": [
+      "Jobs in the music industry only",
+      "Jobs for life in big companies",
+      "Jobs in the public sector"
+     ],
+     "ref": "The gig economy refers to jobs lasting a specific length of time: freelancers, independent contractors, temporary hires."
+    },
+    {
+     "p": "Which is an example of a gig job without specific qualifications?",
+     "a": "Food delivery",
+     "w": [
+      "Digital marketer",
+      "Freelance writer",
+      "Engineer"
+     ],
+     "ref": "It ranges from professional services to jobs that do not require specific qualifications, like food delivery services."
+    },
+    {
+     "p": "Which is an advantage of gig work?",
+     "a": "Flexibility and a better work-life balance",
+     "w": [
+      "A high minimum wage",
+      "Free health insurance",
+      "No taxes to pay"
+     ],
+     "ref": "Gig workers can choose the types of jobs they do, when and where they do them: work-life balance."
+    },
+    {
+     "p": "Which is a disadvantage of gig work?",
+     "a": "Modest pay and no benefits",
+     "w": [
+      "Too much stability",
+      "Too many holidays",
+      "A fixed salary for life"
+     ],
+     "ref": "Gig workers don't have the protection of minimum wages, health insurance and trade unions."
+    }
+   ]
+  },
+  "Q3": {
+   "title": "Quiz 3 · Flexibility at work",
+   "items": [
+    {
+     "p": "What made it possible to work anywhere and at any time?",
+     "a": "Digital devices",
+     "w": [
+      "Longer holidays",
+      "New factories",
+      "Paper documents"
+     ],
+     "ref": "Thanks to digital devices, it is possible to work anywhere and at any time."
+    },
+    {
+     "p": "What changed the vision of remote working?",
+     "a": "The Covid-19 pandemic",
+     "w": [
+      "A new law on holidays",
+      "The invention of the telephone",
+      "The end of the Internet"
+     ],
+     "ref": "The Covid-19 pandemic completely changed this vision: flexible work patterns are now the norm."
+    },
+    {
+     "p": "What is job sharing?",
+     "a": "Two people share one full-time job, each working part-time",
+     "w": [
+      "One person does two jobs",
+      "A team shares an office",
+      "Workers share their salaries"
+     ],
+     "ref": "Job sharing: when two people share one full-time job, each one working part-time."
+    },
+    {
+     "p": "What is a condensed work week?",
+     "a": "Working longer hours on fewer days",
+     "w": [
+      "Working fewer hours every day",
+      "Working only at night",
+      "Working seven days a week"
+     ],
+     "ref": "Condensed work week: for example, four days of 10 hours instead of five days of 8 hours."
+    },
+    {
+     "p": "What do almost half of Gen Z employees prefer?",
+     "a": "A hybrid model, combining remote and office work",
+     "w": [
+      "Full remote work",
+      "Only office work",
+      "Working at night"
+     ],
+     "ref": "Almost half of them prefer a hybrid model; full remote work may make them feel isolated."
+    }
+   ]
+  },
+  "Q4": {
+   "title": "Quiz 4 · Digital communication",
+   "items": [
+    {
+     "p": "Where does digital communication take place?",
+     "a": "Internally among staff and externally with customers",
+     "w": [
+      "Only inside the office",
+      "Only with suppliers",
+      "Only on paper"
+     ],
+     "ref": "It takes place both internally among staff and externally with customers."
+    },
+    {
+     "p": "Which is a main form of digital communication?",
+     "a": "Video conferencing",
+     "w": [
+      "Letters by post",
+      "Fax only",
+      "Notice boards"
+     ],
+     "ref": "Its main forms are emails, instant messaging, live chat, video conferencing and project management tools."
+    },
+    {
+     "p": "What is the main feature of digital communication?",
+     "a": "Information is transmitted instantaneously",
+     "w": [
+      "It is very expensive",
+      "It is slower than letters",
+      "It works only in one country"
+     ],
+     "ref": "The main feature of digital communication is that information is transmitted instantaneously."
+    },
+    {
+     "p": "Who invented the Zoom app in 2011?",
+     "a": "Eric Yuan",
+     "w": [
+      "Bill Gates",
+      "Steve Jobs",
+      "Jeff Bezos"
+     ],
+     "ref": "The Zoom app was invented in 2011 by Eric Yuan, a former vice president of Cisco."
+    },
+    {
+     "p": "What led to Zoom's explosive growth?",
+     "a": "The Covid-19 pandemic",
+     "w": [
+      "A new smartphone",
+      "A football championship",
+      "A drop in prices"
+     ],
+     "ref": "It was the Covid-19 pandemic that led to the company's explosive growth."
+    }
+   ]
+  },
+  "Q5": {
+   "title": "Quiz 5 · Employability skills",
+   "items": [
+    {
+     "p": "What are employability skills?",
+     "a": "Qualities that make a person attractive for employment",
+     "w": [
+      "Only university degrees",
+      "Only computer programs",
+      "Only years of experience"
+     ],
+     "ref": "Employability skills: qualities and attributes making an individual attractive for employment and successful in the workplace."
+    },
+    {
+     "p": "What is the advantage of soft skills compared to hard skills?",
+     "a": "They can be applied in real-world situations",
+     "w": [
+      "They are learnt only at school",
+      "They never change",
+      "They are only technical"
+     ],
+     "ref": "Their main advantage is that they can be applied in practical circumstances and in real-world situations."
+    },
+    {
+     "p": "Which are the three types of employability skills?",
+     "a": "How you work, how you work with others, how you think",
+     "w": [
+      "How you eat, sleep and study",
+      "How you dress, speak and walk",
+      "How you buy, sell and save"
+     ],
+     "ref": "They can be divided into three types: how you work, how you work with others, how you think."
+    },
+    {
+     "p": "What does 'working to deadlines' mean?",
+     "a": "Prioritising and planning, being reliable",
+     "w": [
+      "Working only at night",
+      "Never finishing work",
+      "Working without a plan"
+     ],
+     "ref": "Working to deadlines: prioritizing and planning, reliability."
+    },
+    {
+     "p": "What does negotiation mean?",
+     "a": "Looking for ideas that benefit everybody: give and take",
+     "w": [
+      "Winning every discussion",
+      "Never accepting other ideas",
+      "Working alone"
+     ],
+     "ref": "Negotiation: looking for ideas benefitting all, 'give and take'."
+    }
+   ]
+  }
+ }
+}
