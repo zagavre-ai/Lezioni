@@ -1,0 +1,1 @@
+Unire: cat FILE.mp4.parte_* > FILE.mp4 ; controllo: sha256sum -c FILE.mp4.sha256

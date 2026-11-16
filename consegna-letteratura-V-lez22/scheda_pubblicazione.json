@@ -1,37 +1,37 @@
 {
  "materia": "Letteratura italiana (V)",
  "titolo": "Elsa Morante",
- "durata_s": 2086.13,
+ "durata_s": 3064.6,
  "argomenti": [
   {
    "n": 1,
    "titolo": "La vita e la formazione",
    "inizio_s": 48.9,
-   "quiz_s": 480.033
+   "quiz_s": 687.5
   },
   {
    "n": 2,
    "titolo": "I primi successi e Menzogna e sortilegio",
-   "inizio_s": 485.333,
-   "quiz_s": 923.0
+   "inizio_s": 692.8,
+   "quiz_s": 1293.833
   },
   {
    "n": 3,
    "titolo": "L'isola di Arturo",
-   "inizio_s": 928.3,
-   "quiz_s": 1407.8
+   "inizio_s": 1299.133,
+   "quiz_s": 1990.0
   },
   {
    "n": 4,
    "titolo": "La storia",
-   "inizio_s": 1413.1,
-   "quiz_s": 1765.933
+   "inizio_s": 1995.3,
+   "quiz_s": 2550.233
   },
   {
    "n": 5,
    "titolo": "Aracoeli, l'ultimo romanzo",
-   "inizio_s": 1771.233,
-   "quiz_s": 1994.7
+   "inizio_s": 2555.533,
+   "quiz_s": 2921.0
   }
  ],
  "quiz": {
@@ -310,5 +310,124 @@
     }
    ]
   }
- }
+ },
+ "t_verifica": 3040.1,
+ "t_compiti": 3059.6,
+ "approfondimenti": [
+  {
+   "id": "AP1a",
+   "titolo": "La vita di Elsa Morante",
+   "inizio_s": 429.233
+  },
+  {
+   "id": "AP1b",
+   "titolo": "Parole chiave e contesto storico",
+   "inizio_s": 488.267
+  },
+  {
+   "id": "AP1c",
+   "titolo": "Saggi, racconti e poesie",
+   "inizio_s": 537.0
+  },
+  {
+   "id": "MP1",
+   "titolo": "Elsa Morante",
+   "inizio_s": 583.8
+  },
+  {
+   "id": "AP2a",
+   "titolo": "Menzogna e sortilegio: la trama",
+   "inizio_s": 1076.033
+  },
+  {
+   "id": "AP2b",
+   "titolo": "Passioni, ironia e modelli",
+   "inizio_s": 1119.233
+  },
+  {
+   "id": "AP2c",
+   "titolo": "Parole chiave di Menzogna e sortilegio",
+   "inizio_s": 1175.233
+  },
+  {
+   "id": "MP2",
+   "titolo": "Menzogna e sortilegio",
+   "inizio_s": 1196.267
+  },
+  {
+   "id": "AP3a",
+   "titolo": "L'isola di Arturo: il romanzo",
+   "inizio_s": 1729.833
+  },
+  {
+   "id": "AP3b",
+   "titolo": "Le tre fasi del romanzo",
+   "inizio_s": 1767.2
+  },
+  {
+   "id": "AP3c",
+   "titolo": "Il significato del romanzo e il Neorealismo",
+   "inizio_s": 1812.633
+  },
+  {
+   "id": "AP3d",
+   "titolo": "Parole chiave dell'Isola di Arturo",
+   "inizio_s": 1866.167
+  },
+  {
+   "id": "MP3",
+   "titolo": "L'isola di Arturo",
+   "inizio_s": 1892.633
+  },
+  {
+   "id": "AP4a",
+   "titolo": "La storia: la trama",
+   "inizio_s": 2300.067
+  },
+  {
+   "id": "AP4b",
+   "titolo": "I personaggi e la forma del romanzo",
+   "inizio_s": 2342.433
+  },
+  {
+   "id": "AP4c",
+   "titolo": "La storia e l'accoglienza della critica",
+   "inizio_s": 2377.467
+  },
+  {
+   "id": "AP4d",
+   "titolo": "Parole chiave della Storia",
+   "inizio_s": 2425.3
+  },
+  {
+   "id": "MP4",
+   "titolo": "La storia",
+   "inizio_s": 2458.967
+  },
+  {
+   "id": "AP5a",
+   "titolo": "Aracoeli: il romanzo",
+   "inizio_s": 2741.5
+  },
+  {
+   "id": "AP5b",
+   "titolo": "L'accoglienza di Aracoeli",
+   "inizio_s": 2778.367
+  },
+  {
+   "id": "AP5c",
+   "titolo": "L'isola di Arturo e Aracoeli a confronto",
+   "inizio_s": 2809.333
+  },
+  {
+   "id": "MP5",
+   "titolo": "Aracoeli",
+   "inizio_s": 2840.767
+  },
+  {
+   "id": "MPF",
+   "titolo": "Elsa Morante",
+   "inizio_s": 2926.3
+  }
+ ]
 }
