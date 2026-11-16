@@ -25,7 +25,11 @@
   {
    "quando": "16/11 18:16",
    "testo": "chat revisione 21: partita. Stato IN_REVISIONE."
+  },
+  {
+   "quando": "16/11 19:17",
+   "testo": "chat revisione 21 · IN_REVISIONE: prima versione di RAPPORTO_REVISIONE.md sul ramo revisione-letteratura-V-lez21 (verifica A+B+C+D finita; correzione in corso, consegna entro 4 ore dalla partenza). Pagine libro: lezione 21 non ne ha."
   }
  ],
- "aggiornato": "2026-11-16 18:54:43"
+ "aggiornato": "2026-11-16 19:17:55"
 }
