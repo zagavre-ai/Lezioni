@@ -2,7 +2,18 @@
  "tag": "letteratura-V-lez26",
  "parti": {
   "1": {
-   "stato": "IN_REVISIONE"
+   "stato": "REVISIONATA",
+   "voci": "kore",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "si",
+   "video": "Letteratura_Lez26_Parte1_1080p.mp4",
+   "durata_s": 3154.2,
+   "durata": "52:34.2",
+   "fotogrammi": 94626,
+   "fotogrammi_attesi": 94627,
+   "peso_MB": 190.9,
+   "vtt": "Letteratura_Lez26_Parte1.vtt"
   }
  },
  "manca": "",
@@ -12,7 +23,11 @@
   {
    "quando": "16/11 19:49",
    "testo": "lez26: verifica A+B+C+D fatta; correzione in codifica (grafica Spagnolo, riquadro 4:3, mappe del prof, vtt, PDF)"
+  },
+  {
+   "quando": "16/11 20:19",
+   "testo": "REVISIONATA: ramo revisione-letteratura-V-lez26, vedi RAPPORTO_REVISIONE.md (punti da chiarire col prof + 3 ascolti)"
   }
  ],
- "aggiornato": "2026-11-16 19:49:22"
+ "aggiornato": "2026-11-16 20:19:35"
 }
