@@ -2,21 +2,21 @@
  "tag": "letteratura-V-lez06",
  "parti": {
   "1": {
-   "stato": "IN_MONTAGGIO",
+   "stato": "PRONTA",
    "titolo": "Decadentismo e Simbolismo",
    "voci": "kore",
-   "t_verifica": 2494.533,
-   "t_compiti": 2514.4,
+   "t_verifica": 3163.066,
+   "t_compiti": 3182.933,
    "consegna": "ramo consegna-letteratura-V-lez06 (video in 2 pezzi da 90 MB + sha256, vtt, quiz, test, dispensa, scheda, testo YouTube)",
    "quiz_ok": "si",
    "fermi_ok": "si",
    "sub_ok": "si",
    "video": "Letteratura_Lez6_Parte1_1080p.mp4",
-   "durata_s": 2519.4,
-   "durata": "41:59.4",
-   "fotogrammi": 75582,
-   "fotogrammi_attesi": 75582,
-   "peso_MB": 165.2,
+   "durata_s": 3187.9,
+   "durata": "53:07.9",
+   "fotogrammi": 95638,
+   "fotogrammi_attesi": 95638,
+   "peso_MB": 182.9,
    "vtt": "Letteratura_Lez6_Parte1.vtt",
    "scheda": {
     "materia": "Letteratura italiana (V)",
@@ -433,10 +433,14 @@
   {
    "quando": "15/11 02:39",
    "testo": "pronta, attende voci Kore (v2 con approfondimenti animati, mappe, compiti del prof; montata con segnaposto)"
+  },
+  {
+   "quando": "16/11 08:37",
+   "testo": "Letteratura V · chat F: v2 PRONTA, consegna su consegna-letteratura-V-lez06. Durata misurata 53:08, 183 MB, 1080p. 16 animazioni con voce Kore: 10 approfondimenti, 5 mappe per argomento, mappa finale (inseriti dopo i vecchi approfondimenti, prima del ripasso). Quiz 5x5; verifica = test del prof (10 domande), t_verifica 3163,1 s; compiti del prof (4) nel video, t_compiti 3182,9 s, e in compiti.json; bande blu su Quiz/Verifica/Compiti; Mappe_letteratura-V-lez06.pdf A4 orizzontale (6 pagine). Controlli: scatto quiz a 0,0 s, parlato -16,0 LUFS, nessun fermo, sottotitoli 0 sovrapposti (attacco 95% di 19 verificabili). Sottotitoli del docente da Whisper base, qualità media."
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 6",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-15 02:39:07"
+ "aggiornato": "2026-11-16 08:37:31"
 }
