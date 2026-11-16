@@ -6,7 +6,12 @@
   }
  },
  "manca": "consegna prevista 06:30 (ora italiana, 17/11); verifica e rapporto entro 02:30",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "16/11 23:33",
+   "testo": "voci R1-R5 in testi_voci.json (ramo voci-letteratura-V-lez04): mappa del prof e 4 schemi al posto delle mappe inventate"
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
@@ -20,7 +25,11 @@
   {
    "quando": "16/11 23:26",
    "testo": "ricomposto video e sha256 OK; trascrizione 20/54 min; generatore slide modello Spagnolo pronto; consegna prevista 06:30 (ora italiana)"
+  },
+  {
+   "quando": "16/11 23:33",
+   "testo": "trascrizione finita; piano montaggio fatto; voci R1-R5 inviate; montaggio in corso; consegna prevista 06:30 (ora italiana)"
   }
  ],
- "aggiornato": "2026-11-16 23:26:24"
+ "aggiornato": "2026-11-16 23:33:05"
 }
