@@ -5,22 +5,14 @@
    "stato": "IN_REVISIONE"
   }
  },
- "manca": "trascrizione Whisper bloccata (huggingface.co 403)",
- "serve_master": [
-  {
-   "quando": "16/11 18:18",
-   "testo": "Sblocca huggingface.co o carica il modello faster-whisper-small / la trascrizione di Letteratura_Lez1.mp4; conferma ripartenza da timeline.json + voci Kore con grafica Spagnolo. Rapporto v1 su ramo revisione-letteratura-V-lez01"
-  }
- ],
+ "manca": "correzione in corso: consegna prevista 06:00 (ora italiana)",
+ "serve_master": [],
  "domande_sara": [],
  "note": [
   {
-   "quando": "16/11 18:18",
-   "testo": "chat revisione 1: verifica visiva e piano fatti, correzione ferma"
+   "quando": "16/11 23:22",
+   "testo": "consegna prevista 06:00 (ora italiana). Sbloccata trascrizione, riparto dal metodo lez.3. Aggiorno ogni 20 min"
   }
  ],
- "materia": "Letteratura italiana V",
- "lezione": "Lezione 1",
- "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-16 18:18:42"
+ "aggiornato": "2026-11-16 23:22:11"
 }
