@@ -16,7 +16,11 @@
   {
    "quando": "16/11 23:22",
    "testo": "consegna prevista 06:30 (ora italiana). Trascrizione in corso, poi piano di montaggio"
+  },
+  {
+   "quando": "16/11 23:26",
+   "testo": "ricomposto video e sha256 OK; trascrizione 20/54 min; generatore slide modello Spagnolo pronto; consegna prevista 06:30 (ora italiana)"
   }
  ],
- "aggiornato": "2026-11-16 23:22:26"
+ "aggiornato": "2026-11-16 23:26:24"
 }
