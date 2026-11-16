@@ -1,5 +1,8 @@
 Storia V · Lezione 7 · consegna della chat S2.
 Video a pezzi da 90 MB: riunisci con  cat NOME_1080p.mp4.parte_* > NOME_1080p.mp4  e controlla con il file .sha256.
-Test finale: PROPOSTA_DA_VALIDARE (10 domande dal materiale del docente), da sostituire con l'Excel del docente (zip 008) senza rimontare.
-Compiti: COMPITI_MANCANTI. Nel video ci sono le schede Verifica finale e Compiti (tempi nelle timeline: VER, CINTRO, COMP).
 Una Parte sola (53:23).
+Test finale: Excel del docente (10 domande, Storia_Lez7_test_finale_docente.xlsx; numeri riscritti come testo). Aggiornato il 16/11.
+Compiti: quelli del docente (4 domande aperte), Storia_Lez7_compiti_docente.pdf, .txt e compiti.json. Nel video: intro e scheda «Compiti».
+Mappe: nel video (una per argomento + finale) e in Mappe_storia-V-lez07.pdf (A4 orizzontale, 6 pagine). La dispensa non contiene mappe.
+Tempi esatti nelle timeline: VER (verifica finale) 3185.165 s, CINTRO 3195.165 s, COMP 3198.865 s.
+Controllo finale 16/11: 53:23,9 · 96116 fotogrammi · 223,9 MB · 1080p · scatto Quiz 0,0 s OK · nessun fermo immagine · parlato -16,9 LUFS.
