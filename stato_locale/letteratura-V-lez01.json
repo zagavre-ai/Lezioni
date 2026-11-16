@@ -6,7 +6,12 @@
   }
  },
  "manca": "",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "16/11 10:45",
+   "testo": "Chat F: richiesta voci NUOVE su voci-letteratura-V-lez01 (scambio/letteratura-V-lez01/testi_voci.json): 14 voci INTRO1, AP1a, MP1, AP2a, MP2, AP3a, MP3, AP4a, MP4, AP5a, MP5, AP6a, MP6, MPF. Le vecchie (S1-S6, R1-R6, GL1, RF1, FIN1) sono gia in vox/: non rigenerarle. Intanto monto con segnaposto."
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
@@ -17,5 +22,5 @@
  "materia": "Letteratura italiana · V anno",
  "lezione": "Lezione 1 · L'età del Naturalismo e del Decadentismo",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-16 10:35:06"
+ "aggiornato": "2026-11-16 10:45:50"
 }
