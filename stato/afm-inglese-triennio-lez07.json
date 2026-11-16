@@ -520,10 +520,14 @@
   {
    "quando": "16/11 22:07",
    "testo": "16/11 sera: consegnata la v2 sullo stesso ramo consegna-afm-inglese-triennio-lez07 (sostituisce la v1): modello Spagnolo Lez. 1, prof intero senza tagli, audio e immagine del kit, finale 5 s con avviso diritti, PDF slide A4 (afm-inglese-triennio-lez07_slide.pdf), RAPPORTO_REVISIONE.md con il confronto punto per punto, verifica sha256 dal ramo OK. Controlli: fotogrammi OK, quiz scatto 0,000 s, nessun fermo, parlato -16 LUFS circa. NON PRONTA solo perché mancano dalla release Verifica.xlsx e Compiti.pdf della prof (test PROPOSTA_DA_VALIDARE nel ramo)."
+  },
+  {
+   "quando": "17/11 00:11",
+   "testo": "17/11 00:10: v2 consegnata, controllata anche con le regole del 16/11 pomeriggio: picco audio −1,2 dBTP (misurato, ebur128 peak=true, limite −1), etichette in Figtree Bold maiuscolo spaziato (niente DM Mono). Attende solo Verifica.xlsx e Compiti.pdf della prof."
   }
  ],
  "materia": "Inglese AFM triennio",
  "lezione": "Lezione 7",
- "aggiornato": "2026-11-16 22:07:10",
+ "aggiornato": "2026-11-17 00:11:05",
  "docente": "Prof.ssa Maria Vittoria Fontanesi"
 }
