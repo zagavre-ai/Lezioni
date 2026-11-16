@@ -5,14 +5,18 @@
    "stato": "IN_REVISIONE"
   }
  },
- "manca": "",
+ "manca": "consegna prevista 06:30 (ora italiana, 17/11); verifica e rapporto entro 02:30",
  "serve_master": [],
  "domande_sara": [],
  "note": [
   {
    "quando": "16/11 18:11",
    "testo": "chat revisione 4"
+  },
+  {
+   "quando": "16/11 23:22",
+   "testo": "consegna prevista 06:30 (ora italiana). Trascrizione in corso, poi piano di montaggio"
   }
  ],
- "aggiornato": "2026-11-16 18:11:44"
+ "aggiornato": "2026-11-16 23:22:26"
 }
