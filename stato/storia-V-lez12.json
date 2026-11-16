@@ -2,7 +2,7 @@
  "tag": "storia-V-lez12",
  "parti": {
   "1": {
-   "stato": "FERMA"
+   "stato": "IN_MONTAGGIO"
   }
  },
  "manca": "Trascrizione del docente: in questo computer il modello Whisper non si scarica (huggingface.co bloccato dalla rete). Senza trascrizione non posso sincronizzare le slide né fare i sottotitoli.",
@@ -17,10 +17,14 @@
   {
    "quando": "16/11 12:26",
    "testo": "Storia V · chat S6: ripartita da zero. Video, test e compiti scaricati. Sono già in voci-storia-V-lez12 52 voci Kore + quiz, le riuso."
+  },
+  {
+   "quando": "16/11 18:41",
+   "testo": "Storia V · chat S6: sbloccata, uso trascrivi.py (aggiornamento 16/11). Trascrizione in corso; grafica modello Spagnolo."
   }
  ],
  "materia": "Storia V",
  "lezione": "Lezione 12 · L'Europa e il mondo negli anni Trenta",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-16 12:26:50"
+ "aggiornato": "2026-11-16 18:41:27"
 }
