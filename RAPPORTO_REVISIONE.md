@@ -8,9 +8,9 @@ Lezione rifatta nella grafica identica a Spagnolo Lez. 1 (fondo bianco, riquadro
 | Controllo | Esito |
 |---|---|
 | Formato | 1920×1080, 30 fps, x264 veryfast CRF 19, AAC 192k 48 kHz |
-| Durata / fotogrammi | 52:34,2 (3154,2 s) · 94.626 fotogrammi = durata × 30 · OK (50–60 min) |
+| Durata / fotogrammi | 52:34,2 (3154,2 s) · 94.626 fotogrammi (identici alla versione precedente) · OK (50–60 min) |
 | Peso | 190,9 MB (< 400 MB) · tre pezzi `.parte_00/01/02`, sha256 nel file `.sha256` |
-| Volume del parlato | −16,0 LUFS (picco −0,6 dBFS) · OK (prima −16,3) |
+| Volume del parlato | −16,1 LUFS · picco vero **−1,5 dBTP** (limitatore; richiesto ≤ −1) · OK (prima −16,3 e −0,6 dB) |
 | Silenzi > 2,5 s | 6, tutti nelle schede «Pausa del video / Quiz» e nei titoli (2,96–3,9 s, non parlato: sono le pause previste). Nessun silenzio nel parlato. Sparita la coda muta di 7,9 s |
 | Sincronia prof (labbra/mani) | 25 punti a caso: somiglianza vecchio tondo ↔ nuovo riquadro min 0,85, media 0,96 (soglia 0,75) → OK. Le 5 tracce del prof vengono dall'originale con offset costanti (allineamento audio su 3.041 finestre su 3.120) |
 | Sincronia slide–prof | 17 cambi di evidenziazione confrontati col parlato: tutti coerenti (±2 s). Nessuna slide ferma > 60 s mentre il prof parla d'altro |
@@ -27,7 +27,7 @@ Lezione rifatta nella grafica identica a Spagnolo Lez. 1 (fondo bianco, riquadro
 | 5 | Riquadro 4:3 | **corretto**: era un tondo con bordo. Ora 410×308, angoli arrotondati, ombra grigia, tutta testa e spalle, ritaglio dall'originale con correzione immagine del kit (contrasto 1,04, saturazione 1,03, hqdn3d 1.5:1.5:3:3, cas 0,35). **Limite**: nell'originale il prof è un riquadro di 243×135 px, quindi il 4:3 è ingrandito 2,3×: la nitidezza è quella che la sorgente permette |
 | 6 | Fascia gialla col nome, due righe, −3° | **corretto**: non c'era; ora sempre visibile quando il prof è in video |
 | 7 | Slide senza prof | **corretto** (testo grande, parole in giallo, stessi logo e piè) |
-| 8 | Font | **OK**: Bricolage Grotesque / Figtree / DM Mono |
+| 8 | Font | **corretto (16/11 15:10)**: «01 · ARGOMENTO», riga copertina e piè di pagina in **Figtree Bold maiuscolo spaziato** come nel modello (prima DM Mono); nel video e nei PDF solo Bricolage Grotesque e Figtree |
 | 9 | Finale kit con avviso diritti | **corretto**: c'era un finale nero senza avviso, poi una card «Compiti» (ordine sbagliato). Ora la sigla del kit da 5 s, in coda |
 | 10 | Struttura | **OK**; verifica finale e compiti sono fuori dal video (le card «Verifica» e «Compiti» sono state tolte) |
 | 11 | PDF A4 orizzontali | **creati**: `Letteratura_Lez26_slide.pdf` (45 pagine, senza riquadro e fascia, testo vero) e `Letteratura_Lez26_mappe.pdf` (6 pagine) |
@@ -48,6 +48,11 @@ Lezione rifatta nella grafica identica a Spagnolo Lez. 1 (fondo bianco, riquadro
 | scheda/quiz | testo | argomenti con nomi diversi da quelli del video («La vita di Calvino», «Scienza, combinatoria e città invisibili» vs «La vita», «Il secondo Calvino») | allineati a quelli del video (scheda, quiz, YouTube) |
 | `compiti.json` | testo | lista di 4 frasi, formato sbagliato | formato `{"titolo","esercizi":[{n,tipo,testo}]}`, testo identico al PDF del prof |
 | `scheda_pubblicazione.json` | testo | titolo «Italo Calvino · Parte 1», tempi del video vecchio | titolo «Letteratura V · Lezione 26 · Italo Calvino», tempi nuovi |
+
+## Correzioni dopo il controllo della master (16/11)
+1. **Slide vuote:** la scheda «Il visconte dimezzato» (e tutte le altre slide senza prof: schede opera, linee del tempo, confronti, analisi, parole chiave) restava a solo titolo fino alla prima card. Ora la prima card/punto/riga è presente dal primo fotogramma; nei ripassi, nel glossario e nel riepilogo tutte le righe sono presenti sbiadite e si accendono a tempo con la voce; le mappe partono con centro + primo ramo. Controllo: nessuna pagina ha uno stato senza contenuto (misurato su tutte le 45 pagine).
+2. **Font delle etichette:** Figtree Bold maiuscolo spaziato (anche nelle etichette gialle delle card e nei PDF; il pallino dell'elenco della copertina ora è disegnato, non un carattere).
+3. **Picco audio:** limitatore sul parlato, picco vero −1,5 dBTP, −16,1 LUFS; stesso numero di fotogrammi (94.626).
 
 ## Da chiarire con il prof / da riascoltare (non sono stati modificati o sono dubbi)
 1. **Anni:** il prof dice «Siena nel 1983» (a 42:37 nel video nuovo): la sua mappa dice 1985 (morte); la sua slide dice 1983. La speculazione edilizia è «1957» nella slide e nel quiz, «1963» nella **mappa del prof**: nelle mappe ho lasciato 1963 (contenuto identico) e la voce lo dice («segnate entrambe con l'anno 1963»). Il sottotitolo riporta ciò che il prof dice. Sara: confermare con il prof.
