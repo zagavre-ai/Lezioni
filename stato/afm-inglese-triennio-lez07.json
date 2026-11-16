@@ -19,6 +19,10 @@
   {
    "quando": "16/11 00:59",
    "testo": "Voci Kore lez07: 55 voci (4.624 caratteri) in scambio/afm-inglese-triennio-lez07/testi_voci.json sul ramo voci-afm-inglese-triennio-lez07. Quiz (30 domande) da approvare nello stesso ramo."
+  },
+  {
+   "quando": "16/11 03:18",
+   "testo": "MIGLIORAMENTO: finale_cache.py (ramo lavoro-afm-inglese-triennio-lez07, cartella lavoro/lez07): stessi parametri di finale_a_pezzi, ma ogni pezzo del docente è un gruppo a sé e resta in cache. Si codificano i pezzi del docente mentre si aspettano le voci; all'arrivo delle Kore si codificano solo i pezzi con le voci (circa 8 min di video invece di 70). Inoltre aggiungi_file_ramo.sh aggiunge file a un ramo di consegna senza scaricare i video (per Mappe_<tag>.pdf e compiti.json sulle lezioni già consegnate)."
   }
  ],
  "domande_sara": [],
@@ -42,6 +46,6 @@
  ],
  "materia": "Inglese AFM triennio",
  "lezione": "Lezione 7",
- "aggiornato": "2026-11-16 03:05:28",
+ "aggiornato": "2026-11-16 03:18:37",
  "docente": "Prof.ssa Maria Vittoria Fontanesi"
 }
