@@ -1,37 +1,37 @@
 {
  "materia": "Inglese",
  "titolo": "Work today · Parte 1",
- "durata_s": 3939.13,
+ "durata_s": 4052.07,
  "argomenti": [
   {
    "n": 1,
    "titolo": "Today's job market",
-   "inizio_s": 254.066,
-   "quiz_s": 1273.432
+   "inizio_s": 257.733,
+   "quiz_s": 1302.799
   },
   {
    "n": 2,
    "titolo": "Job stability",
-   "inizio_s": 1278.732,
-   "quiz_s": 2073.132
+   "inizio_s": 1308.399,
+   "quiz_s": 2124.865
   },
   {
    "n": 3,
    "titolo": "Flexibility at work",
-   "inizio_s": 2078.432,
-   "quiz_s": 2832.932
+   "inizio_s": 2130.465,
+   "quiz_s": 2911.165
   },
   {
    "n": 4,
    "titolo": "Digital communication",
-   "inizio_s": 2838.232,
-   "quiz_s": 3380.631
+   "inizio_s": 2916.765,
+   "quiz_s": 3478.131
   },
   {
    "n": 5,
    "titolo": "Employability skills",
-   "inizio_s": 3385.931,
-   "quiz_s": 3761.331
+   "inizio_s": 3483.731,
+   "quiz_s": 3872.398
   }
  ],
  "quiz": {
