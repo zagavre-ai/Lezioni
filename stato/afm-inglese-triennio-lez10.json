@@ -418,10 +418,14 @@
   {
    "quando": "16/11 11:18",
    "testo": "16/11 11:45: video finale con voci Kore consegnato sul ramo consegna-afm-inglese-triennio-lez10 (pezzi da 90 MiB + sha256, verifica dal ramo OK), con sottotitoli .vtt, Mappe pdf, quiz, scheda, testo YouTube, LEGGIMI con 6 controlli di sincronia. Controlli: fotogrammi OK, quiz scatto 0,000 s (tutti e 5), nessun fermo immagine, parlato -15,6 LUFS. Sottotitoli: il controllo automatico dà DA GUARDARE (attacco sulla voce 4 su 6 verificabili); testo corretto a mano. NON PRONTA solo perché mancano dalla release Verifica.xlsx e Compiti.pdf della docente (nel ramo c'è un test PROPOSTA_DA_VALIDARE): appena arrivano, Test + compiti.json sul ramo, nessuna ricodifica."
+  },
+  {
+   "quando": "16/11 15:30",
+   "testo": "16/11 15:30: chat della master E1, lezione in carico. Video con voci Kore già consegnato; attende solo Verifica.xlsx e Compiti.pdf della docente nella release (controllo ogni 2 ore)."
   }
  ],
  "materia": "Inglese AFM",
  "lezione": "Lezione 10",
  "docente": "Prof.ssa Maria Vittoria Fontanesi",
- "aggiornato": "2026-11-16 11:18:41"
+ "aggiornato": "2026-11-16 15:30:19"
 }
