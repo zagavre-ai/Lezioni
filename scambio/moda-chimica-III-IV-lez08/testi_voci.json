@@ -1,0 +1,132 @@
+{
+ "INTRO1": [
+  "Benvenuti a una nuova lezione di Chimica applicata e nobilitazione dei materiali, con la professoressa Piera Caputi.",
+  "Oggi parliamo degli elastomeri e delle gomme, delle fibre di gomma, dei filati e dei tessuti, della maglieria, dei tessili tecnici e delle microfibre, e delle analisi di filati e tessuti.",
+  "Ora la parola passa alla professoressa."
+ ],
+ "S1": [
+  "Schema di ripasso: elastomeri e gomme.",
+  "Gli elastomeri sono sostanze naturali o sintetiche che si allungano più volte la loro lunghezza e tornano alla forma originale.",
+  "Il caucciù si ricava dal lattice dell'Hevea brasiliensis: è poliisoprene in forma cis; la forma trans è la gutta-perca, che non è elastica.",
+  "Il lattice è filtrato e coagulato con acido acetico; i fogli di gomma sono masticati e impastati con zolfo, plastificanti, antiossidanti e pigmenti.",
+  "La vulcanizzazione con lo zolfo crea ponti tra le macromolecole e rende la gomma elastica e stabile.",
+  "Gli elastomeri sintetici sono la Buna S, la Buna N, il neoprene, la gomma al butile, lo Spandex e le gomme siliconiche."
+ ],
+ "S2": [
+  "Schema di ripasso: le fibre di gomma.",
+  "Le prime fibre di gomma furono prodotte a Manchester intorno al milleottocentocinquanta, tagliando fogli di caucciù vulcanizzato.",
+  "Oggi si producono anche per estrusione del lattice, con un processo simile alla filatura delle fibre artificiali.",
+  "Si distinguono l'elastodiene, di poliisoprene o dieni, e l'elastan, formato per almeno l'ottantacinque per cento da poliuretano.",
+  "La tenacità è bassa, l'allungamento a rottura arriva al settecento-ottocento per cento e il recupero elastico è del novantotto per cento.",
+  "Sono sensibili a ossidanti, cloro e luce, e si sciolgono nei solventi organici: niente lavaggio a secco e niente candeggina."
+ ],
+ "S3": [
+  "Schema di ripasso: filati e tessuti ortogonali.",
+  "Il filato è un prodotto continuo ottenuto da fibre discontinue; se le fibre sono continue si parla di filo.",
+  "I filati si classificano per uso, in ordito, trama, maglieria e cucirini, e per aspetto, in lineari e fantasia.",
+  "Le superfici tessili sono i tessuti ortogonali, i tessuti a maglia e i non tessuti, come il feltro.",
+  "Nel tessuto ortogonale l'ordito è la serie longitudinale e la trama quella trasversale; le armature base sono la tela, la saia e il raso.",
+  "Tra i tessuti speciali ci sono la garza, il double-face, la spugna, i velluti e i jacquard.",
+  "La classificazione merceologica può basarsi sul peso, sulla destinazione d'uso o sulla fibra prevalente: lana, seta, cotone, lino."
+ ],
+ "S4": [
+  "Schema di ripasso: i tessuti a maglia.",
+  "Il tessuto a maglia nasce dalla ripetizione di un solo elemento, la maglia, formata da un unico filo non teso intrecciato con gli aghi.",
+  "La maglia in trama ha l'intermaglia orizzontale: è molto elastica ed è usata per l'abbigliamento.",
+  "La maglia in catena ha l'intermaglia verticale o diagonale: è smagliabile ed è usata per tende, pizzi e tulli.",
+  "Gli intrecci fondamentali in trama sono la maglia rasata o jersey, la maglia a costa, l'interlock e la maglia links-links.",
+  "I tessuti jacquard della maglieria usano al massimo quattro colori, con filo fluttuante o con struttura pesante e leggera."
+ ],
+ "S5": [
+  "Schema di ripasso: tessili tecnici e microfibre.",
+  "I tessili tecnici sono materiali progettati per prestazioni meccaniche, termiche o fisiologiche particolari.",
+  "Tra i termoregolanti ci sono l'Outlast, il Thermolite, il Coolmax e il tessuto riscaldabile con rete di carbonio.",
+  "Gli impermeabili e traspiranti sono realizzati con il Teflon o con membrane, come il Gore-Tex, il Mecpor e lo Zerowind.",
+  "I materiali protettivi sono antistatici, anti-UV e antibatterici; quelli cosmetico-medicali rilasciano sostanze come l'aloe e la vitamina E.",
+  "Le microfibre sono filamenti continui man made fino a zero virgola uno denari: morbide, idrorepellenti e traspiranti, come l'Alcantara."
+ ],
+ "S6": [
+  "Schema di ripasso: analisi di filati e tessuti.",
+  "Sui filati si determinano il titolo, con le bilance di titolazione, e la torsione, con il torsiometro.",
+  "Il peso specifico si misura con il picnometro e il benzene; la resistenza a rottura si misura con il dinamometro.",
+  "Sui tessuti si fanno l'analisi qualitativa, il calcolo della riduzione con il lentino contafili e la verifica dell'armatura.",
+  "Le prove di resistenza sono eseguite in ambiente condizionato, a venti gradi e sessantacinque per cento di umidità.",
+  "Si valutano anche l'usura, con flessione e abrasione, il restringimento e la resistenza biologica."
+ ],
+ "M1": [
+  "Mappa concettuale: elastomeri e gomme.",
+  "Gli elastomeri: sostanze capaci di forte allungamento e di tornare alla forma originaria.",
+  "La gomma naturale, il caucciù: dal lattice di Hevea, poliisoprene cis, sensibile all'ossigeno.",
+  "La lavorazione: coagulazione, formazione dei fogli e masticazione, con additivi.",
+  "La vulcanizzazione: riscaldamento con zolfo e formazione di ponti tra le macromolecole.",
+  "Gli elastomeri sintetici: Buna S, Buna N, neoprene, Spandex e siliconi."
+ ],
+ "M2": [
+  "Mappa concettuale: fibre di gomma.",
+  "La produzione: taglio di fogli o estrusione del lattice.",
+  "Le tipologie: elastodiene ed elastan.",
+  "Le proprietà: tenacità bassa e allungamento altissimo.",
+  "Il riconoscimento: si sciolgono nei solventi organici."
+ ],
+ "M3": [
+  "Mappa concettuale: filati e tessuti ortogonali.",
+  "I filati: prodotti continui ottenuti da fibre discontinue.",
+  "I non tessuti: fibre intrecciate in modo casuale, come il feltro.",
+  "I tessuti ortogonali: ordito, trama e armature base.",
+  "I tessuti speciali: velluto, spugna e jacquard."
+ ],
+ "M4": [
+  "Mappa concettuale: tessuti a maglia.",
+  "La maglia: un solo filo, con boccola e intermaglia.",
+  "La maglia in trama: elastica, per l'abbigliamento.",
+  "La maglia in catena: smagliabile, per tende e pizzi.",
+  "Gli intrecci fondamentali e i jacquard."
+ ],
+ "M5": [
+  "Mappa concettuale: tessili tecnici e microfibre.",
+  "I tessili high tech: progettati per protezione, comfort e prestazioni avanzate.",
+  "I termoregolanti: Outlast, Thermolite e Coolmax.",
+  "I protettivi: antistatici, anti-UV e antibatterici.",
+  "I cosmetico-medicali: aloe e vitamina E.",
+  "Le microfibre: filamenti ultrafini, morbidi e traspiranti."
+ ],
+ "M6": [
+  "Mappa concettuale: analisi di filati e tessuti.",
+  "Sui filati: titolo e torsione.",
+  "Resistenza e peso specifico: dinamometro e picnometro.",
+  "Sui tessuti: analisi qualitativa, riduzione e armatura.",
+  "Le prove di resistenza e di stabilità: usura, restringimento e resistenza biologica."
+ ],
+ "MF": [
+  "Mappa finale: elastomeri e materiali.",
+  "Prima gli elastomeri e le fibre di gomma.",
+  "Poi i filati e i tessuti ortogonali.",
+  "I tessuti a maglia.",
+  "I tessili tecnici e le microfibre.",
+  "Infine le analisi di filati e tessuti."
+ ],
+ "GL1": [
+  "Ripassiamo le parole chiave di questa lezione. Ascolta ogni parola e la sua definizione, e prova a ripeterla.",
+  "Elastomero: una sostanza che si allunga molte volte e riprende la forma originale.",
+  "Gutta-perca: il transpoliisoprene, che non ha proprietà elastiche.",
+  "Vulcanizzazione: il trattamento con zolfo che crea ponti tra le macromolecole della gomma.",
+  "Elastan: una fibra formata per almeno l'ottantacinque per cento da poliuretano.",
+  "Ordito e trama: le due serie di fili del tessuto, longitudinale e trasversale.",
+  "Armatura: il sistema di intreccio che determina le proprietà del tessuto.",
+  "Maglia in trama: tessuto con intermaglia orizzontale, molto elastico.",
+  "Microfibre: filamenti continui man made con titoli fino a zero virgola uno denari.",
+  "Titolo: la misura che mette in rapporto il peso e la lunghezza di un filato."
+ ],
+ "RF1": [
+  "Prima di salutarci, ricapitoliamo insieme quello che hai studiato.",
+  "Gli elastomeri, naturali e sintetici, si allungano molte volte; il caucciù è poliisoprene cis e si vulcanizza con lo zolfo; le fibre di gomma sono elastodiene o elastan.",
+  "I filati sono prodotti continui da fibre discontinue; il tessuto ortogonale ha ordito e trama, con le armature tela, saia e raso.",
+  "I tessuti a maglia sono in trama, elastici, o in catena, smagliabili; i jacquard usano al massimo quattro colori.",
+  "I tessili tecnici offrono protezione e comfort; le microfibre sono filamenti ultrafini, come l'Alcantara.",
+  "Le analisi dei filati misurano titolo, torsione, peso specifico e resistenza; quelle dei tessuti, composizione, riduzione, armatura e prove di usura.",
+  "Ottimo lavoro. Prova a ripetere questi passaggi con parole tue."
+ ],
+ "FIN1": [
+  "Fine della lezione. Grazie per l'attenzione, e alla prossima lezione di Chimica applicata e nobilitazione dei materiali."
+ ]
+}
