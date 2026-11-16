@@ -114,3 +114,8 @@ Voci Kore: dalle 9 (prima usa i segnaposto e fai tutto il resto: montaggio, slid
 ## 16/11 13:10 · STORIA V: LEZIONI 12, 15, 18, 20 A DUE CHAT NUOVE
 - Le lezioni 12, 15, 18, 20 erano IN_MONTAGGIO dal 14–15/11 e abbandonate. Le fanno due chat nuove: **S6 → 12, 15**; **S7 → 18, 20** (prompt in `scambio/prompt/`). Le altre chat non le toccano.
 - Lezioni 3, 4, 8, 10, 13: Sara sta caricando i video del prof. La 3 resta alla chat S5; la 4, 8, 10, 13 alla S5 appena arrivano i video.
+
+## 16/11 13:15 · STORIA V: VIDEO DELLE LEZIONI 3, 8, 10, 13 PRESENTI · SIGLA E INTRODUZIONE OBBLIGATORIE
+- L'indice è vecchio: nella release `mazzotti-storia-V` ci sono come file singoli i video delle lezioni **3** (`LEZIONE.3.L.ITALIA.DI.GIOLITTI.mp4`), **8**, **10** e **13** (in 4 file `Storia.V.Lez.13-1…4.mp4`, da unire in ordine). Manca ancora solo la **4**.
+- Chi le fa: **S5 → 3, 13** · **S6 → 12, 15** · **S7 → 18, 20** · **S8 (nuova) → 8, 10**.
+- **Ogni lezione di Storia ha la SIGLA di Storia (15 s) e l'INTRODUZIONE** (cartello «Benvenuta e benvenuto» + argomenti, voce Kore, come la lezione 7). La sigla `kit/sigle/Sigla_Storia_15s.mp4` la prepara la master oggi: fino ad allora 15 s di segnaposto.
