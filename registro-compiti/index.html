@@ -51,7 +51,7 @@ select.stud{border:1px solid var(--line);border-radius:6px;padding:6px 8px;backg
 .leg{display:flex;flex-wrap:wrap;gap:10px;font-size:11px;color:var(--mut);margin-top:8px}.leg i{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:4px;vertical-align:middle}
 .att{border:1px solid #d9dee8;border-radius:10px;padding:12px 14px;margin:12px 0;background:#f7f9fc}
 .att h4{margin:0 0 8px;font-size:14px;color:var(--navy)}.att .it{display:grid;grid-template-columns:150px 1fr;gap:4px 12px;padding:7px 0;border-top:1px solid #e6eaf1;font-size:13px}
-.att .it:first-of-type{border-top:0}.att .st{font-weight:bold}.att .st.C{color:#2e9e5b}.att .st.I{color:#c9671a}.att .st.A{color:#8a6d1a}.att .st.R{color:#2e9e5b}.att .st.L{color:#3b6fd8}.att .st.Q{color:var(--navy)}.att .st.N{color:#b3261e}
+.att .it:first-of-type{border-top:0}.att .st{font-weight:bold}.att .st.C{color:#2e9e5b}.att .st.I{color:#c9671a}.att .st.A{color:#8a6d1a}.att .st.R{color:#2e9e5b}.att .st.L{color:#3b6fd8}.att .st.Q{color:var(--navy)}.att .st.N{color:#b3261e}.st.P{color:#2060AF}
 .att .sm{color:var(--mut);font-size:12px}.att .fb{white-space:pre-wrap}
 @media(max-width:640px){.att .it{grid-template-columns:1fr}}
 .d.sel{background:var(--navy);color:#fff}
@@ -473,7 +473,7 @@ function report(){
   const P=[];giorni.forEach(k=>{if(!visible(k))return;s1Di(k).forEach(x=>P.push({...x,g:k}))});
   const RV=P.filter(x=>x.fonte==='rivedere');const uniq=new Map();P.filter(x=>x.fonte!=='rivedere').forEach(x=>{const key=(x.tab||'')+'|'+x.c+'|'+x.n;if(!uniq.has(key))uniq.set(key,x)});const PL=[...uniq.values()];
   const fatta=x=>x.ok&&x.cd&&x.cd<=fino, inCorso=x=>!fatta(x)&&x.pv&&x.pv<=fino;
-  const nF=PL.filter(fatta).length,nI=PL.filter(inCorso).length,nN=PL.length-nF-nI;
+  const nF=PL.filter(fatta).length,nI=PL.filter(inCorso).length,nP=PL.filter(x=>!fatta(x)&&!inCorso(x)&&x.g>T).length,nN=PL.length-nF-nI-nP;
   /* 2. attività della settimana */
   const A=[];giorni.forEach(k=>{if(!visible(k))return;attDi(k).forEach(x=>A.push({...x,g:k}))});
   const V=A.filter(x=>x.k==='v'&&x.s==='C'),Lv=A.filter(x=>x.k==='l'),Qd=A.filter(x=>x.k==='q');
@@ -483,11 +483,11 @@ function report(){
   const riga=(a,b,c)=>'<div class="it"><div class="st '+a+'">'+b+'</div><div>'+c+'</div></div>';
   let h='<div class="dayh"><div><h2>Resoconto della settimana</h2><div class="sm" style="font-size:15px">'+esc(cap(fmtL(L0)))+' – '+esc(fmtL(add(L0,6)))+'</div><div class="bar"></div></div><div class="tools nop"><button class="btn" id="wp">‹ Settimana prima</button><button class="btn" id="wn"'+(ROLE==='studente'&&add(L0,7)>TODAY?' disabled':'')+'>Settimana dopo ›</button><button class="btn" id="wg">Torna al giorno</button><button class="btn pri" id="pdf">Scarica PDF</button><button class="btn" id="pr">Stampa</button></div></div>';
   h+='<div class="head4"><div><span class="lab">Studente</span>'+esc(nome)+'</div><div><span class="lab">Materia</span>'+esc(tutte()?'Tutte le materie':LAB(MAT))+'</div><div></div><div></div></div>';
-  h+='<div class="sum" style="margin:6px 0 14px"><div class="n">'+[[PL.length,'lezioni nel piano'],[nF,'completate'],[nI,'iniziate, non finite'],[nN,'non svolte'],[Lv.length,'lezioni in diretta'],[Qd.length,'compiti del quaderno']].concat(RV.length?[[RV.length,'da rivedere']]:[]).map(([v,l])=>'<div><b>'+v+'</b><span>'+l+'</span></div>').join('')+'</div></div>';
+  h+='<div class="sum" style="margin:6px 0 14px"><div class="n">'+[[PL.length,'lezioni nel piano'],[nF,'completate'],[nI,'iniziate, non finite'],[nN,'non svolte']].concat(nP?[[nP,'in programma']]:[]).concat([[Lv.length,'lezioni in diretta'],[Qd.length,'compiti del quaderno']].concat(RV.length?[[RV.length,'da rivedere']]:[])).map(([v,l])=>'<div><b>'+v+'</b><span>'+l+'</span></div>').join('')+'</div></div>';
   /* piano */
   h+='<div class="att"><h4>1. Videolezioni assegnate nel piano didattico</h4>';
   if(!PL.length)h+='<div class="it"><div>Per questa settimana il piano didattico non riporta videolezioni'+(tutte()?'':' di questa materia')+'.</div></div>';
-  PL.sort((a,b)=>a.g<b.g?-1:a.g>b.g?1:0).forEach(x=>{const st=fatta(x)?['C','✓ Completata il '+fmtS(x.cd)+(x.pun?'<br>Test '+esc(x.pun):'')]:inCorso(x)?['I','Iniziata il '+fmtS(x.pv)+', non finita']:['N','Non svolta'];
+  PL.sort((a,b)=>a.g<b.g?-1:a.g>b.g?1:0).forEach(x=>{const st=fatta(x)?['C','✓ Completata il '+fmtS(x.cd)+(x.pun?'<br>Test '+esc(x.pun):'')]:inCorso(x)?['I','Iniziata il '+fmtS(x.pv)+', non finita']:x.g>T?['P','In programma']:['N','Non svolta'];
     h+=riga(st[0],st[1],'<b>'+esc(tit(x))+'</b>'+(tutte()?' <span class="sm">· '+esc(LAB(x.tab))+'</span>':'')+'<div class="sm">Nel piano: '+esc(fmtS(x.g))+' · '+esc(x.c)+'</div>')});
   if(RV.length){h+='<div class="it"><div class="sm" style="padding-top:4px"><b>Lezioni già completate, assegnate di nuovo da rivedere:</b></div></div>';RV.sort((a,b)=>a.g<b.g?-1:1).forEach(x=>{h+=riga('I','Da rivedere<br><span class="sm">già completata il '+fmtS(x.cd)+'</span>','<b>'+esc(tit(x))+'</b>'+(tutte()?' <span class="sm">· '+esc(LAB(x.tab))+'</span>':'')+'<div class="sm">Nel piano: '+esc(fmtS(x.g))+(x.nota?' · '+esc(x.nota.replace(/^Corso n\. \d+( · )?/,'')):'')+'</div>')})}
   if(extra.length){h+='<div class="it"><div class="sm" style="padding-top:4px"><b>Completate in questa settimana ma assegnate in altri giorni:</b></div></div>';extra.forEach(x=>{h+=riga('C','✓ Completata il '+fmtS(x.g)+(x.p?'<br>Test '+esc(x.p):''),'<b>'+esc(x.n?tit(x):x.t)+'</b><div class="sm">'+esc(x.c)+'</div>')})}
@@ -503,7 +503,7 @@ function report(){
   Qd.forEach(x=>{h+=riga('Q','Compito '+esc(x.e)+(x.v?'<br>Voto '+esc(x.v):''),'<b>'+esc(x.t)+'</b> <span class="sm">· '+esc(fmtS(x.g))+'</span>'+(x.sc?'<div class="sm">Scadenza '+esc(fmtS(x.sc))+'</div>':'')+'<div class="sm">'+esc(x.doc||'')+'</div>')});
   h+='</div>';
   /* da recuperare */
-  const daRec=PL.filter(x=>!fatta(x));
+  const daRec=PL.filter(x=>!fatta(x)&&x.g<=T);
   h+='<div class="att"><h4>4. Da recuperare</h4>';
   if(!daRec.length&&!rec8.length)h+='<div class="it"><div>Niente da recuperare per questa settimana.</div></div>';
   daRec.forEach(x=>{h+=riga(inCorso(x)?'I':'N',inCorso(x)?'Da finire':'Da svolgere','<b>'+esc(tit(x))+'</b>'+(tutte()?' <span class="sm">· '+esc(LAB(x.tab))+'</span>':'')+'<div class="sm">Era nel piano di '+esc(fmtS(x.g))+'</div>')});
@@ -517,10 +517,10 @@ function report(){
     try{if(!window.html2pdf)await new Promise((ok,ko)=>{const t=document.createElement('script');t.src='https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js';t.onload=ok;t.onerror=ko;document.head.appendChild(t)});
       const c=$('#day').cloneNode(true);c.querySelectorAll('.nop,.tools').forEach(x=>x.remove());
       c.querySelectorAll('details.fb').forEach(d=>{const div=document.createElement('div');div.className='fb';div.innerHTML='<span class="sm">Giudizio:</span> '+esc(d.lastChild.textContent);d.replaceWith(div)});
-      const w=document.createElement('div');w.style.cssText='width:760px;padding:8px;background:#fff;color:#14213d;font:13px Arial,sans-serif';
-      w.innerHTML='<div style="display:flex;justify-content:space-between;align-items:center;border-bottom:2px solid #0a1d37;padding-bottom:6px;margin-bottom:10px"><b style="letter-spacing:.08em;color:#0a1d37">CENTRO STUDI TELESIO</b><span style="font-size:11px;color:#555">Registro dei compiti · resoconto della settimana</span></div>';w.appendChild(c);
+      const w=document.createElement('div');w.id='pdfw';w.style.cssText='width:720px;padding:0;background:#fff;color:#14213d;font:12px Arial,sans-serif';
+      w.innerHTML='<div style="display:flex;justify-content:space-between;align-items:center;border-bottom:2px solid #0a1d37;padding-bottom:6px;margin-bottom:10px"><b style="letter-spacing:.08em;color:#0a1d37">CENTRO STUDI TELESIO</b><span style="font-size:11px;color:#555">Registro dei compiti · resoconto della settimana</span></div>';w.appendChild(c);const st=document.createElement('style');st.textContent='#pdfw,#pdfw *{box-sizing:border-box;max-width:100%}#pdfw #day,#pdfw>div{width:100%!important;margin:0!important;padding:0!important;border:0!important;box-shadow:none!important}#pdfw .it{display:grid!important;grid-template-columns:110px minmax(0,1fr)!important;gap:8px;page-break-inside:avoid}#pdfw .it>div{min-width:0;overflow-wrap:anywhere}#pdfw .sum .n{display:grid!important;grid-template-columns:repeat(3,1fr)!important}#pdfw .dayh{display:block!important}';w.prepend(st);
       const f='Resoconto_'+String(nome).replace(/[^A-Za-z0-9]+/g,'_')+'_'+k0+'.pdf';
-      await html2pdf().set({margin:[10,10,12,10],filename:f,image:{type:'jpeg',quality:0.95},html2canvas:{scale:2,useCORS:true,backgroundColor:'#ffffff'},jsPDF:{unit:'mm',format:'a4',orientation:'portrait'},pagebreak:{mode:['css','legacy'],avoid:['.it','.head4','h4']}}).from(w).save();
+      await html2pdf().set({margin:[10,10,12,10],filename:f,image:{type:'jpeg',quality:0.95},html2canvas:{scale:2,useCORS:true,backgroundColor:'#ffffff',scrollX:0,scrollY:0,windowWidth:760},jsPDF:{unit:'mm',format:'a4',orientation:'portrait'},pagebreak:{mode:['css','legacy'],avoid:['.it','.head4','h4']}}).from(w).save();
     }catch(e){alert('Il PDF non si è creato. Usa il pulsante «Stampa» e scegli «Salva come PDF».')}
     b.disabled=false;b.textContent='Scarica PDF'};
   $('#pr').onclick=()=>{$('#day').querySelectorAll('details.fb').forEach(d=>d.open=true);window.print()};
