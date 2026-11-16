@@ -490,7 +490,7 @@ async function vistaMappe(dove,alunno,modifica){
       $('#mbody').innerHTML=`<h2 style="margin-top:0">${esc(m.titolo)}</h2><p class="note">${esc(m.materia)}</p><div class="mp-svg">${svgMappa(m.dati,1)}</div>`;$('#modal').style.display='block'});return}
   const AL=modifica?ALUNNI.find(x=>x.id===alunno):null;
   const mat=(AL?(STAFF()||IO.materie.includes('Tutte le materie')?AL.materie:IO.materie):(IO.materie||[])).filter(x=>x!=='Tutte le materie');
-  $(dove).innerHTML=`<div class="card"><p class="note" style="margin-top:0">${AL?`Mappe di <b>${esc(AL.nome)}</b>: le costruite insieme. Le modifiche di ognuno compaiono all'altro dopo pochi secondi, e si salva tutto da solo.`:`Durante la lezione costruisci la tua mappa: al centro l'argomento, intorno i rami con i concetti. Si salva da sola. Il tuo docente può aprirla e completarla insieme a te.`}</p>
+  $(dove).innerHTML=`<div class="card"><p class="note" style="margin-top:0">${AL?`Mappe di <b>${esc(AL.nome)}</b>: docente e alunno le costruiscono insieme. Le modifiche di ognuno compaiono all'altro dopo pochi secondi e si salva tutto da solo.`:`Durante la lezione costruisci la tua mappa: al centro l'argomento, intorno i rami con i concetti. Si salva da sola. Il tuo docente può aprirla e completarla insieme a te.`}</p>
    <div class="row"><div><label class="f">Materia</label><select class="t" id="nmm">${(mat.length?mat:['Generale']).map(m=>`<option>${esc(m)}</option>`).join('')}</select></div>
    <div><label class="f">Argomento della mappa</label><input class="t" id="nmt" placeholder="es. Il Neoclassicismo"></div></div>
    <button class="btn big" id="nmgo" style="margin-top:10px">+ Nuova mappa</button></div><div id="mpl"></div>`;
