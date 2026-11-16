@@ -1,31 +1,31 @@
 {
  "materia": "Letteratura italiana (V)",
  "titolo": "Il primo Novecento e la lirica italiana · Parte 1",
- "durata_s": 2556.2,
+ "durata_s": 3200.17,
  "argomenti": [
   {
    "n": 1,
    "titolo": "L'Età giolittiana e la Grande Guerra",
    "inizio_s": 257.9,
-   "quiz_s": 1024.133
+   "quiz_s": 1198.033
   },
   {
    "n": 2,
    "titolo": "Trasformazioni sociali e culturali",
-   "inizio_s": 1029.133,
-   "quiz_s": 1774.633
+   "inizio_s": 1203.033,
+   "quiz_s": 2142.933
   },
   {
    "n": 3,
    "titolo": "I crepuscolari",
-   "inizio_s": 1779.633,
-   "quiz_s": 2119.133
+   "inizio_s": 2147.933,
+   "quiz_s": 2604.833
   },
   {
    "n": 4,
    "titolo": "I vociani e Clemente Rebora",
-   "inizio_s": 2124.133,
-   "quiz_s": 2419.967
+   "inizio_s": 2609.833,
+   "quiz_s": 3025.334
   }
  ],
  "quiz": {
@@ -249,5 +249,7 @@
     }
    ]
   }
- }
+ },
+ "t_verifica": 3181.5,
+ "t_compiti": 3195.1
 }

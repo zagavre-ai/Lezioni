@@ -1,0 +1,6 @@
+Lezione 10 · Il primo Novecento e la lirica italiana · v2 del 16/11 (Letteratura V · chat G)
+Unire: cat Letteratura_Lez10_Parte1_1080p.mp4.parte_* > Letteratura_Lez10_Parte1_1080p.mp4 ; controllo: sha256sum -c Letteratura_Lez10_Parte1_1080p.mp4.sha256
+Contenuto: montaggio del 14/11 + approfondimenti animati (voci Kore) + mappe concettuali (una per argomento e una finale, nel video) + nuova chiusura (Verifica finale e Compiti con bande blu).
+Mappe_letteratura-V-lez10.pdf: 5 mappe A4 orizzontale. compiti.json: compiti del prof (LEZIONE 10.pdf); la scheda Compiti nel video è generica.
+Misurato (controllo_finale.py): 53:20,2 / 172,9 MB; 1920x1080; fotogrammi = durata x 30; quiz a 0,0 s (4/4); nessun fermo; parlato -16,1 LUFS.
+Sottotitoli: il controllo segna 61% (soglia 80%); campioni ispezionati a mano: i blocchi partono 0,1-0,5 s prima dell'attacco, o seguono un parlato entro 0,8 s (artefatto della misura). Nomi corretti con un elenco.
