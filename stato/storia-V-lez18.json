@@ -529,10 +529,14 @@
   {
    "quando": "16/11 14:13",
    "testo": "controllo_finale: ESITO: TUTTO OK"
+  },
+  {
+   "quando": "16/11 14:13",
+   "testo": "16/11 chat S7: lezione 18 PRONTA in 2 Parti (P1 48:05, P2 47:01, misurate), consegna sul ramo consegna-storia-V-lez18. Sotto i 50 minuti: non c'e' altro materiale del docente; per allungare servirebbero altre voci. Sottotitoli da riletturare a campione (riconoscimento automatico)."
   }
  ],
  "materia": "Storia",
  "lezione": "Lezione 18 · L'Italia repubblicana",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-16 14:13:25"
+ "aggiornato": "2026-11-16 14:13:35"
 }
