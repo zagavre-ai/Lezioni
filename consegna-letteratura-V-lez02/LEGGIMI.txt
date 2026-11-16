@@ -1,0 +1,7 @@
+Lezione 2 · La Scapigliatura · rifatta da capo il 16/11 (Letteratura V · chat G)
+Unire: cat Letteratura_Lez2_Parte1_1080p.mp4.parte_* > Letteratura_Lez2_Parte1_1080p.mp4 ; controllo: sha256sum -c Letteratura_Lez2_Parte1_1080p.mp4.sha256
+Contenuto: docente con slide sincronizzate (schede dalle slide del prof), pagine del libro ad alta risoluzione, 7 argomenti con quiz da 5 domande, ripasso con voce, mappe concettuali (una per argomento + finale, nel video), approfondimenti animati sulle parole difficili di Preludio e Dualismo, glossario, ripasso finale, Verifica finale (Excel del prof, 10 domande) e Compiti (compiti.json: compiti del prof, LEZIONE 2.pdf).
+Mappe_letteratura-V-lez02.pdf: 8 mappe A4 orizzontale. La dispensa non contiene mappe.
+Misurato (controllo_finale.py): 59:17,1 / 222,6 MB; 1920x1080; fotogrammi = durata x 30; quiz a 0,0 s (7/7); nessun fermo; parlato -16,2 LUFS.
+Sottotitoli: controllo_finale segna 64% (soglia 80%). Le frasi del docente vengono da una trascrizione automatica (Whisper base) con errori residui sui termini, corretti con un elenco per nomi e opere; i campioni segnalati sono blocchi che seguono un parlato entro 0,8 s. Da ricontrollare a campione.
+Quiz: nuovi, scritti sul materiale del docente (slide e lezione).
