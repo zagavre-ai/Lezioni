@@ -508,10 +508,14 @@
   {
    "quando": "16/11 17:31",
    "testo": "16/11 17:30: chat della master E1, lezione in carico. Video con voci Kore già consegnato; attende solo Verifica.xlsx e Compiti.pdf della docente nella release (controllo ogni 2 ore)."
+  },
+  {
+   "quando": "16/11 19:35",
+   "testo": "16/11 19:50: letto lo STOP QUALITÀ (17:45) e la GRAFICA IDENTICA A SPAGNOLO LEZ. 1: il video consegnato oggi (v1) NON è conforme (fascia col nome su tre righe, niente «Pagina N», fondo grigio chiaro, finale vecchio, pause del prof accorciate, audio senza arnndn, manca il PDF slide A4). NON PUBBLICARE la v1. Rifaccio la v2 con il modello Spagnolo: stesse voci Kore, prof mai tagliato, audio e immagine del kit, PDF slide A4 identiche al video, RAPPORTO_REVISIONE.md. Consegna v2 sullo stesso ramo."
   }
  ],
  "materia": "Inglese AFM triennio",
  "lezione": "Lezione 7",
- "aggiornato": "2026-11-16 17:31:54",
+ "aggiornato": "2026-11-16 19:35:43",
  "docente": "Prof.ssa Maria Vittoria Fontanesi"
 }
