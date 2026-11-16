@@ -512,10 +512,14 @@
   {
    "quando": "16/11 19:35",
    "testo": "16/11 19:50: letto lo STOP QUALITÀ (17:45) e la GRAFICA IDENTICA A SPAGNOLO LEZ. 1: il video consegnato oggi (v1) NON è conforme (fascia col nome su tre righe, niente «Pagina N», fondo grigio chiaro, finale vecchio, pause del prof accorciate, audio senza arnndn, manca il PDF slide A4). NON PUBBLICARE la v1. Rifaccio la v2 con il modello Spagnolo: stesse voci Kore, prof mai tagliato, audio e immagine del kit, PDF slide A4 identiche al video, RAPPORTO_REVISIONE.md. Consegna v2 sullo stesso ramo."
+  },
+  {
+   "quando": "16/11 20:29",
+   "testo": "16/11 21:10: v2 col modello Spagnolo in montaggio (prof intero senza tagli, audio del kit con arnndn, riquadro 4:3 410×308 con correzione immagine, fascia gialla su due righe, «Pagina N», finale 5 s con avviso diritti, PDF slide A4). Stesse voci Kore. NON pubblicare la v1."
   }
  ],
  "materia": "Inglese AFM triennio",
  "lezione": "Lezione 7",
- "aggiornato": "2026-11-16 19:35:43",
+ "aggiornato": "2026-11-16 20:29:03",
  "docente": "Prof.ssa Maria Vittoria Fontanesi"
 }
