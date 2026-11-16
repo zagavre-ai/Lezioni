@@ -2,17 +2,28 @@
  "tag": "letteratura-V-lez13",
  "parti": {
   "1": {
-   "stato": "IN_REVISIONE"
+   "stato": "IN_REVISIONE",
+   "video": "P1_43.mp4",
+   "durata_s": 3143.9,
+   "durata": "52:23.9",
+   "fotogrammi": 94318,
+   "fotogrammi_attesi": 94317,
+   "peso_MB": 218.1
   }
  },
  "manca": "",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "16/11 23:17",
+   "testo": "Voci IN2 e RIP aggiunte a testi_voci.json (ramo voci-letteratura-V-lez13). Decisione di Sara sulle mappe nel video"
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
-   "quando": "16/11 19:29",
-   "testo": "chat revisione 13: prima versione del rapporto su ramo revisione-letteratura-V-lez13; serve decisione su mappe nel video"
+   "quando": "16/11 23:17",
+   "testo": "Consegna parziale sul ramo revisione-letteratura-V-lez13 (video P1/P2 con riquadro 4:3 372x279, sfondo bianco, piede V, PDF slide/mappe, vtt). NON REVISIONATA: restano problemi noti nel RAPPORTO (frasi ripetute, apertura Parte 2 senza ripasso, mappe inventate, ~600 parole sospette nei sottotitoli del prof, fettine libro tagliate)."
   }
  ],
- "aggiornato": "2026-11-16 19:29:17"
+ "aggiornato": "2026-11-16 23:17:44"
 }
