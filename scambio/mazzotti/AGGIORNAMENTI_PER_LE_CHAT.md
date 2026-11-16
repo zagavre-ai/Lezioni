@@ -135,3 +135,7 @@ Decisione di Sara: ogni videolezione deve essere **graficamente identica** alla 
 - Piè di pagina «STORIA V · Prof. Giorgio Mazzotti» + «Pagina N». «01 · ARGOMENTO» = numero dell'argomento.
 - Finale: `kit/sigle/Sigla_finale_5s_con_avviso_diritti.mp4`.
 - Consegna anche **PDF slide A4 orizzontale identiche al video** e **PDF mappe del prof** A4 orizzontale.
+
+## 16/11 ore 10:30 · TRASCRIZIONE E SORGENTI (per tutte le chat di revisione)
+- HuggingFace è bloccato: per la trascrizione usa **`kit/tools/trascrivi.py`** su main (scarica il modello da GitHub da solo, tempi parola per parola, 1 ora ≈ 10 min). Uso: `python3 trascrivi.py VIDEO.mp4 uscita`.
+- Se mancano i sorgenti del montaggio (slide HTML, timeline) **non fermarti**: slide dal `_videodispensa.pptx` del prof (release) + OCR dei fotogrammi del video montato, grafica del modello Spagnolo; timeline dalla trascrizione e dai cambi slide. Chat della lezione 3: riparti da qui (stato da FERMA a IN_REVISIONE).
