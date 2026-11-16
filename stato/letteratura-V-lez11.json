@@ -444,10 +444,14 @@
   {
    "quando": "16/11 08:00",
    "testo": "controllo_finale: ESITO: TUTTO OK"
+  },
+  {
+   "quando": "16/11 08:01",
+   "testo": "PRONTA v2 (chat H): 54:23, 17 approfondimenti con voce Kore, mappe nel video + Mappe_letteratura-V-lez11.pdf, compiti del prof (4 domande) nel video + compiti.json, schede Quiz/Verifica/Compiti a bande blu, verifica 10 domande del prof, controllo_finale e controllo_jingle OK. Sottotitoli docente: nomi/termini corretti solo dove l'errore era certo"
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 11",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-16 08:00:44"
+ "aggiornato": "2026-11-16 08:01:34"
 }
