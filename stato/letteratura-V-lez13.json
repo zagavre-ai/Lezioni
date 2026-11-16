@@ -381,10 +381,14 @@
   {
    "quando": "15/11 02:37",
    "testo": "chat R3: IN_MONTAGGIO, pronta, attende voci Kore (quota Google, riparte alle 09:00 italiane). Intanto fatti: testi, animazioni e mappe con segnaposto, compiti del prof (compiti.json e nuova scheda Compiti), tempi. Controllo vox/ ogni 30 minuti; poi unica codifica finale."
+  },
+  {
+   "quando": "16/11 07:57",
+   "testo": "Letteratura V · chat H: presa in carico (stato fermo da >2h). v1 + approfondimenti con voci Kore vere, in montaggio"
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 13",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 07:09:00"
+ "aggiornato": "2026-11-16 07:57:32"
 }
