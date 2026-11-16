@@ -1,6 +1,6 @@
 # RAPPORTO DI REVISIONE · Letteratura italiana V · Lezione 21 · Cesare Pavese · Prof. Giorgio Mazzotti
 
-Chat di revisione 21 · partita il 16/11/2026 · stato: **PRIMA VERSIONE (verifica finita, correzione in corso)**
+Chat di revisione 21 · partita il 16/11/2026 · stato: **REVISIONATA — versione finale**
 
 > Per Sara. Scrivo che cosa ho **misurato** (numeri veri letti dai file) e che cosa è una **stima** o una **lettura a occhio dai fotogrammi**. Non ho potuto **ascoltare**: dove scrivo «non verificato all'ascolto» è perché lo strumento qui è solo automatico.
 
@@ -45,7 +45,7 @@ La lezione consegnata (58:23, v2 del 15/11) **non è conforme al modello Spagnol
 | 15 | ≈11:30, ≈31:00, ≈53:00 | visivo | schede degli approfondimenti **tagliate dal piè di pagina** (AN1b, AN3c, AN5c) | tabelle in stile Spagnolo, mai spezzate, nessuna sbordata (verificato: bordo ≤ 968 px su 1080) |
 | 16 | 13:36, 20:27, 31:51… | visivo | mappa ferma per 2–6 s con solo il nodo centrale | nodi che entrano a tempo con la voce |
 | 17 | 0:34–0:40 | audio | titolo argomento 1 sopra le prime parole del prof | titolo con suono prima del prof |
-| 18 | tutto il video | testo | sottotitoli fatti con Whisper *base*: es. «lezione succesare Pavese», «Una autore», «notici pari troppo», «disame», «ricorda a Pavesi» | **tutti i sottotitoli del prof riletti e corretti a mano** (357 cue); voci da copione |
+| 18 | tutto il video | testo | sottotitoli fatti con Whisper *base*: es. «lezione succesare Pavese», «Una autore», «notici pari troppo», «sede disame» | **tutti i sottotitoli del prof riletti e corretti a mano** (357 cue); voci da copione |
 | 19 | file | dati | `compiti.json` non nel formato richiesto | `{titolo, esercizi:[{n,tipo,testo}]}`, testo identico al PDF del prof |
 | 20 | file | dati | scheda: titolo «Cesare Pavese · Parte 1» | «Letteratura V · Lezione 21 · Cesare Pavese» |
 | 21 | file | dati | dispensa unica con mappe inventate | due PDF A4 orizzontali: `…_slide.pdf` (33 pagine = le slide del video, senza riquadro e senza nome) e `…_mappe.pdf` (6 pagine, mappa del prof) |
@@ -56,13 +56,43 @@ La lezione consegnata (58:23, v2 del 15/11) **non è conforme al modello Spagnol
 3. **La webcam del prof è piccola (245×139 px nell'originale) e lui siede alto**: nell'originale i capelli/fronte sono **già tagliati** in vari tratti (visto a 2:30, 7:00, 13:20, 20:00, 26:40 dell'originale). Non correggibile. Nel riquadro 4:3 l'immagine è ingrandita ×2,2: è un po' morbida.
 4. Whisper è stato scaricato da un pacchetto pubblico npm (modello *small* convertito) perché huggingface è bloccato; checksum interno OK, **non confrontabile con l'originale OpenAI**. Serve solo a trascrivere, non entra nel prodotto.
 
-## 5. Piano di correzione (stima)
-| Fase | Stima |
+## 5. Esito sul video nuovo (misurato sul file finale)
+| Misura | Valore |
 |---|---|
-| Voci mappe (le ha fatte la master; M1, M3, M4 uniti/riparati da me con taglio a parola) | fatta |
-| Codifica 53 pezzi (prof con riquadro 4:3, audio con catena del kit) | in corso, ~40 min |
-| Unione, controllo_finale, controllo_jingle, sottotitoli sul file finale | ~40 min |
-| Rifacimento verifica A+B+C su minuti cambiati + 5 punti a caso, PDF, rapporto finale | ~30 min |
-| **Consegna** | **entro 4 ore dalla partenza (stato REVISIONATA)** |
+| Durata | **57:23,3** (3443,3 s) — tra 50 e 60 min |
+| Fotogrammi | 103299 = durata × 30 (**OK**) |
+| Peso | 210,5 MB (200,7 MiB), 1920×1080, x264 veryfast CRF 19, AAC 192k |
+| Scatto quiz (controllo_jingle) | Q1–Q5 **+0,000 s** (OK) |
+| Fermi immagine nei pezzi del prof | nessuno |
+| Parlato del prof | mediana **−15,0 LUFS** (OK, ±2); catena del kit: 48 kHz, passa-alto 80, arnndn, loudnorm −16 a due passaggi, alimiter |
+| Sincronia audio prof | correlazione pezzo↔originale: scarto 15 ms (misurato su D2) |
+| Slide nel video = slide progettate | 67 confronti fotogramma↔slide, differenza media peggiore **3,55 su 255** (solo compressione) |
+| PDF slide | **33 pagine** A4 orizzontale, stesse pagine e stesso ordine delle slide del video, senza riquadro e senza nome; numerazione «Pagina N» uguale al video (**confronto fatto**; le schede senza contenuto — titoli argomento, quiz, verifica, compiti, sigle — non hanno numero né pagina) |
+| PDF mappe | 6 pagine A4 orizzontale (una per argomento + finale), mappa del prof con la nostra grafica |
+| Sottotitoli | 812 blocchi, 0 sovrapposti, 0 oltre la fine, max 2 righe; **357 cue del prof riletti e corretti a mano**, voci da copione. Verifica sulla trascrizione automatica del video finale: **94,6 %** dei blocchi ritrovati nella finestra ±0,8 s (misura grossolana, per segmento); il controllo del kit sull'attacco entro 0,3 s dà **50 % su 16 punti verificabili → non raggiunge la soglia**, quindi **lo segnalo: l'allineamento fine ±0,3 s non è dimostrato**. Non ho potuto riascoltare |
+| Mai il numero della lezione nel video | OK (a vista sul foglio minuti) |
 
-*(Questa è la prima versione del rapporto. La versione finale avrà durata, fotogrammi, peso e tutte le misure sul file nuovo, la tabella di confronto con il modello punto per punto e `controllo_minuti.jpg`.)*
+## 6. Tabella di confronto col modello Spagnolo (punto 000)
+| # | Punto | Esito |
+|---|---|---|
+| 1 | Sigla 15 s → dissolvenza morbida → copertina | **corretto**: sigla del kit, poi dissolvenza da nero di 2 s (nessun lampo) |
+| 2 | Copertina | **corretto**: logo, «LETTERATURA ITALIANA V · VIDEOLEZIONE», titolo grande, barretta, card ARGOMENTI su 2 colonne |
+| 3 | Slide: fondo bianco, «01 · ARGOMENTO», titolo+barretta, tabelle | **corretto** (numero = argomento, mai la lezione) |
+| 4 | Piè di pagina | **corretto**: «LETTERATURA ITALIANA V · Prof. Giorgio Mazzotti» + «Pagina N» |
+| 5 | Riquadro 4:3 410×308 (412×310), x 1428 y 148, angoli 18, ombra grigia, testa | **corretto** (testa tagliata dall'originale in vari tratti: §4) |
+| 6 | Fascia gialla −3° su due righe, sempre visibile | **corretto** |
+| 7 | Slide senza prof | **corretto**: Fine lezione, Verifica finale, Compiti in stile «Ora tocca a te» |
+| 8 | Font | **OK**: solo Bricolage 800, Figtree, DM Mono |
+| 9 | Finale | **corretto**: `Sigla_finale_5s_con_avviso_diritti.mp4` del kit |
+| 10 | Struttura | **OK**: sigla → presentazione → 5×(titolo, prof, 3–4 approfondimenti animati, mappa del prof, ripasso, quiz) → mappa finale → glossario → riepilogo → fine → verifica → compiti → finale |
+| 11 | PDF A4 slide + mappe | **fatto** (§5) |
+
+## 7. Non verificato / limiti
+- **Ascolto**: nessun ascolto umano. Rumore/«metallico», qualità delle voci Kore e sincronia labbra non verificati all'ascolto (solo misure).
+- Sottotitoli: allineamento fine ±0,3 s non dimostrato (§5). Poche parole del prof restano incerte senza ascolto (es. attorno a 1660 s dell'originale, «il fronte dei…»).
+- Le voci delle mappe M1–M4 sono state unite/tagliate da me a livello di parola (M2 conteneva istruzioni lette a voce, tagliate): **vanno riascoltate dalla master**.
+- Mappa e slide del prof non coincidono su alcune date (§4).
+- Webcam del prof a bassa risoluzione ingrandita ×2,2.
+
+## 8. Consegna
+Ramo `revisione-letteratura-V-lez21`: video a pezzi + sha256, `.vtt`, PDF slide, PDF mappe, quiz, verifica, compiti, scheda, testo YouTube, `controllo_minuti.jpg`, `timeline.json`. Durata misurata 57:23,3 → stato `REVISIONATA`. La master riguarda e sostituisce su Vimeo.
