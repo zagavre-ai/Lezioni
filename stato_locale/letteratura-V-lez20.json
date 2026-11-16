@@ -1,0 +1,474 @@
+{
+ "tag": "letteratura-V-lez20",
+ "parti": {
+  "1": {
+   "stato": "PRONTA",
+   "voci": "kore",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "si",
+   "video": "Letteratura_Lez20_Parte1_1080p.mp4",
+   "durata_s": 3290.4,
+   "durata": "54:50.4",
+   "fotogrammi": 98711,
+   "fotogrammi_attesi": 98711,
+   "peso_MB": 183.5,
+   "vtt": "Letteratura_Lez20_Parte1.vtt",
+   "scheda": {
+    "materia": "Letteratura italiana (V)",
+    "titolo": "Carlo Emilio Gadda · Parte 1",
+    "durata_s": 3290.37,
+    "argomenti": [
+     {
+      "n": 1,
+      "titolo": "La vita",
+      "inizio_s": 112.4,
+      "quiz_s": 688.599
+     },
+     {
+      "n": 2,
+      "titolo": "Il linguaggio e la visione del mondo",
+      "inizio_s": 693.899,
+      "quiz_s": 1350.299
+     },
+     {
+      "n": 3,
+      "titolo": "Le prime opere e i frammenti",
+      "inizio_s": 1355.599,
+      "quiz_s": 1708.131
+     },
+     {
+      "n": 4,
+      "titolo": "La cognizione del dolore",
+      "inizio_s": 1713.431,
+      "quiz_s": 2143.164
+     },
+     {
+      "n": 5,
+      "titolo": "L'Adalgisa ed Eros e Priapo",
+      "inizio_s": 2148.464,
+      "quiz_s": 2450.397
+     },
+     {
+      "n": 6,
+      "titolo": "Il giallo filosofico",
+      "inizio_s": 2455.697,
+      "quiz_s": 3048.395
+     }
+    ],
+    "quiz": {
+     "Q1": {
+      "title": "Quiz 1 · La vita",
+      "items": [
+       {
+        "p": "Dove e quando nasce Carlo Emilio Gadda?",
+        "a": "A Milano, nel 1893",
+        "w": [
+         "A Roma, nel 1893",
+         "A Firenze, nel 1903",
+         "A Milano, nel 1913"
+        ],
+        "e": "Gadda nasce a Milano nel 1893, in una famiglia borghese."
+       },
+       {
+        "p": "Quali studi gli impone il padre, nonostante la sua vocazione letteraria?",
+        "a": "Ingegneria",
+        "w": [
+         "Lettere",
+         "Giurisprudenza",
+         "Medicina"
+        ],
+        "e": "Per volere del padre compie studi di ingegneria al Politecnico di Milano."
+       },
+       {
+        "p": "Come partecipa Gadda alla prima guerra mondiale?",
+        "a": "Come volontario, e poi viene fatto prigioniero",
+        "w": [
+         "Come obiettore di coscienza",
+         "Come giornalista al seguito dell'esercito",
+         "Come ufficiale medico, senza combattere"
+        ],
+        "e": "Si arruola volontario e viene fatto prigioniero."
+       },
+       {
+        "p": "Quale lutto subisce Gadda nel dopoguerra?",
+        "a": "La morte del fratello Enrico",
+        "w": [
+         "La morte della madre",
+         "La morte del padre",
+         "La morte di un amico poeta"
+        ],
+        "e": "Al ritorno scopre che il fratello Enrico è morto al fronte."
+       },
+       {
+        "p": "Dove muore Gadda e in quale anno?",
+        "a": "A Roma, nel 1973",
+        "w": [
+         "A Milano, nel 1973",
+         "A Roma, nel 1953",
+         "A Firenze, nel 1983"
+        ],
+        "e": "Muore a Roma nel 1973, dopo aver lavorato anche presso la RAI."
+       }
+      ]
+     },
+     "Q2": {
+      "title": "Quiz 2 · Il linguaggio e la visione del mondo",
+      "items": [
+       {
+        "p": "Che cosa si intende per «pasticcio linguistico» in Gadda?",
+        "a": "Il plurilinguismo: un impasto di dialetti, termini tecnici e parole dotte",
+        "w": [
+         "L'uso esclusivo del dialetto milanese",
+         "Una scrittura molto semplice, vicina al parlato",
+         "L'imitazione dello stile di Manzoni"
+        ],
+        "e": "Il pasticcio è un impasto di termini scientifici, vocaboli dotti, parole straniere, espressioni gergali e dialetti."
+       },
+       {
+        "p": "Perché Gadda rifiuta la lingua standard?",
+        "a": "Perché è la lingua della comunicazione borghese e non rende la complessità della realtà",
+        "w": [
+         "Perché non la conosceva bene",
+         "Perché voleva scrivere solo in dialetto",
+         "Perché i lettori la trovavano difficile"
+        ],
+        "e": "La lingua standard viene scardinata per rappresentare la complessità della realtà."
+       },
+       {
+        "p": "Che tono hanno spesso i procedimenti stilistici di Gadda?",
+        "a": "Ironico e satirico",
+        "w": [
+         "Solenne e celebrativo",
+         "Neutro e impersonale",
+         "Sentimentale e malinconico"
+        ],
+        "e": "Lo scrittore adotta procedimenti dall'andamento ironico e satirico."
+       },
+       {
+        "p": "Come appare la realtà a Gadda?",
+        "a": "Come un groviglio informe, un «pasticcio» privo di ordine logico",
+        "w": [
+         "Come un sistema ordinato e razionale",
+         "Come il frutto di una sola causa",
+         "Come un sogno armonioso"
+        ],
+        "e": "Per lui non esiste una causa unica, ma una concausa di fattori."
+       },
+       {
+        "p": "Verso chi esprime Gadda una violenta critica sociale?",
+        "a": "Verso la borghesia, accusata di stupidità, ipocrisia e ostentazione",
+        "w": [
+         "Verso gli operai",
+         "Verso la Chiesa soltanto",
+         "Verso gli intellettuali stranieri"
+        ],
+        "e": "Denuncia la stupidità, l'egoismo e l'assenza di senso morale della borghesia."
+       }
+      ]
+     },
+     "Q3": {
+      "title": "Quiz 3 · Le prime opere e i frammenti",
+      "items": [
+       {
+        "p": "Che cosa esprime il «Giornale di guerra e di prigionia»?",
+        "a": "La sofferenza del fronte e il disincanto sull'illusione eroica",
+        "w": [
+         "L'entusiasmo patriottico per la guerra",
+         "Un elogio dei comandi dell'esercito",
+         "Un racconto fantastico"
+        ],
+        "e": "È un diario scritto durante il conflitto e pubblicato nel 1955."
+       },
+       {
+        "p": "Quale opera rievoca il tema bellico con una nostalgia esaltante?",
+        "a": "Il castello di Udine",
+        "w": [
+         "La meccanica",
+         "Quer pasticciaccio brutto de via Merulana",
+         "Eros e Priapo"
+        ],
+        "e": "Il castello di Udine rievoca lo stesso tema del Giornale con nostalgia esaltante."
+       },
+       {
+        "p": "Quale opera esplora per la prima volta il caos della realtà?",
+        "a": "La Madonna dei filosofi",
+        "w": [
+         "La cognizione del dolore",
+         "L'Adalgisa",
+         "La meccanica"
+        ],
+        "e": "La Madonna dei filosofi (1931) esplora per la prima volta il caos del mondo."
+       },
+       {
+        "p": "Che cos'è «La meccanica»?",
+        "a": "Un ampio frammento romanzesco che affronta la guerra e i contrasti di classe",
+        "w": [
+         "Una raccolta di poesie",
+         "Un saggio di ingegneria",
+         "Un diario di prigionia"
+        ],
+        "e": "È un frammento romanzesco, in cui compare anche l'amore tra uno studente e una popolana."
+       },
+       {
+        "p": "Che cosa rappresentano i molti testi incompiuti di Gadda?",
+        "a": "L'impossibilità di dare una struttura chiara al mondo",
+        "w": [
+         "La mancanza di tempo dell'autore",
+         "Il disinteresse per la scrittura",
+         "Un semplice vezzo editoriale"
+        ],
+        "e": "I frammenti sono lo specchio di un mondo che non ha una struttura chiara."
+       }
+      ]
+     },
+     "Q4": {
+      "title": "Quiz 4 · La cognizione del dolore",
+      "items": [
+       {
+        "p": "Dove è ambientata «La cognizione del dolore»?",
+        "a": "Nel Maradagàl, un paese sudamericano immaginario",
+        "w": [
+         "A Roma, durante il fascismo",
+         "In Brianza, con il suo nome reale",
+         "In Argentina, in un villaggio reale"
+        ],
+        "e": "Il Maradagàl nasconde in modo trasparente la Brianza italiana."
+       },
+       {
+        "p": "Chi è il protagonista del romanzo?",
+        "a": "Don Gonzalo Pirobutirro, ingegnere quarantenne tormentato da fobie",
+        "w": [
+         "Il commissario Ingravallo",
+         "Un giovane studente",
+         "Un avvocato milanese"
+        ],
+        "e": "Gonzalo ha tratti autobiografici ed è tormentato da nevrosi e fobie."
+       },
+       {
+        "p": "Com'è il rapporto di Gonzalo con la madre?",
+        "a": "Fortemente ambivalente: amore sconfinato e profondo rancore",
+        "w": [
+         "Solo di odio",
+         "Di totale indifferenza",
+         "Sereno e privo di conflitti"
+        ],
+        "e": "Il rancore nasce dalle privazioni dell'infanzia e dall'educazione rigida."
+       },
+       {
+        "p": "Come si interrompe il romanzo?",
+        "a": "Dopo l'assassinio misterioso della madre",
+        "w": [
+         "Con il matrimonio di Gonzalo",
+         "Con la fuga all'estero del protagonista",
+         "Con la scoperta di un tesoro"
+        ],
+        "e": "Resta il sospetto che l'artefice del delitto possa essere Gonzalo stesso."
+       },
+       {
+        "p": "Che cosa si mescola nel registro del romanzo?",
+        "a": "Il tragico del dolore interiore e il comico della mediocrità del mondo",
+        "w": [
+         "Il lirico e l'epico",
+         "Il realismo e il fantastico puro",
+         "Il giornalistico e il didascalico"
+        ],
+        "e": "È un impasto di straordinaria forza."
+       }
+      ]
+     },
+     "Q5": {
+      "title": "Quiz 5 · L'Adalgisa ed Eros e Priapo",
+      "items": [
+       {
+        "p": "In che anno compare «L'Adalgisa»?",
+        "a": "Nel 1944",
+        "w": [
+         "Nel 1957",
+         "Nel 1967",
+         "Nel 1924"
+        ],
+        "e": "L'Adalgisa, disegni milanesi, esce nel 1944."
+       },
+       {
+        "p": "Di che cosa è una satira «L'Adalgisa»?",
+        "a": "Della borghesia milanese e dei suoi modi di pensare",
+        "w": [
+         "Del mondo contadino",
+         "Della burocrazia romana",
+         "Dell'esercito"
+        ],
+        "e": "È una serie di quadri satirici sulle ipocrisie della borghesia di Milano."
+       },
+       {
+        "p": "Contro chi è diretta la violenta satira di «Eros e Priapo»?",
+        "a": "Contro Mussolini",
+        "w": [
+         "Contro Manzoni",
+         "Contro la Chiesa cattolica",
+         "Contro i critici letterari"
+        ],
+        "e": "Il libro analizza il culto del duce da parte degli italiani."
+       },
+       {
+        "p": "Quali strumenti usa «Eros e Priapo» per studiare il fascismo?",
+        "a": "La psicoanalisi e la psicologia di massa",
+        "w": [
+         "La statistica",
+         "La storia dell'arte",
+         "L'economia politica"
+        ],
+        "e": "Nasce come saggio scientifico basato su psicologia di massa e psicoanalisi."
+       },
+       {
+        "p": "Che prosa hanno i racconti di «Accoppiamenti giudiziosi»?",
+        "a": "Più scorrevole e meno incline alle deformazioni linguistiche",
+        "w": [
+         "Ancora più oscura delle opere precedenti",
+         "Solo in dialetto",
+         "Solo in versi"
+        ],
+        "e": "Sono racconti con una prosa più fluida, ma sempre molto originale."
+       }
+      ]
+     },
+     "Q6": {
+      "title": "Quiz 6 · Il giallo filosofico",
+      "items": [
+       {
+        "p": "In che anno esce in volume «Quer pasticciaccio brutto de via Merulana»?",
+        "a": "Nel 1957",
+        "w": [
+         "Nel 1938",
+         "Nel 1944",
+         "Nel 1973"
+        ],
+        "e": "È il secondo capolavoro della maturità gaddiana."
+       },
+       {
+        "p": "Chi conduce le indagini nel romanzo?",
+        "a": "Il commissario Francesco Ingravallo",
+        "w": [
+         "Don Gonzalo Pirobutirro",
+         "Il fratello Enrico",
+         "Un giornalista milanese"
+        ],
+        "e": "Ingravallo è un poliziotto filosofo che proietta nel testo le concezioni di Gadda."
+       },
+       {
+        "p": "Dove e quando è ambientata la vicenda?",
+        "a": "A Roma, nei primi anni del fascismo",
+        "w": [
+         "A Milano, dopo la guerra",
+         "In Argentina, nell'Ottocento",
+         "A Napoli, nel Seicento"
+        ],
+        "e": "Ruota attorno a un furto di gioielli e all'omicidio di una signora borghese."
+       },
+       {
+        "p": "Che cosa succede alla struttura del giallo?",
+        "a": "Si disgrega, e l'assassino non viene scoperto",
+        "w": [
+         "Viene rispettata fino alla fine",
+         "Si conclude con la cattura del colpevole",
+         "Si trasforma in una commedia"
+        ],
+        "e": "Il romanzo resta volutamente incompiuto: l'ordine non si ristabilisce."
+       },
+       {
+        "p": "Che cosa si intreccia nella lingua del romanzo?",
+        "a": "Molti dialetti, soprattutto il romanesco, anche nella voce narrante",
+        "w": [
+         "Solo italiano standard",
+         "Latino e greco",
+         "Solo il milanese"
+        ],
+        "e": "Il testo diventa una babele di voci."
+       }
+      ]
+     }
+    }
+   },
+   "timeline": [
+    [
+     "T1",
+     112.4,
+     3.6
+    ],
+    [
+     "Q1",
+     688.599,
+     4.0
+    ],
+    [
+     "T2",
+     693.899,
+     3.6
+    ],
+    [
+     "T3",
+     1355.599,
+     3.6
+    ],
+    [
+     "T4",
+     1713.431,
+     3.6
+    ],
+    [
+     "T5",
+     2148.464,
+     3.6
+    ],
+    [
+     "T6",
+     2455.697,
+     3.6
+    ],
+    [
+     "GL1",
+     3132.595,
+     56.267
+    ],
+    [
+     "RF1",
+     3190.462,
+     63.8
+    ],
+    [
+     "FIN1",
+     3255.662,
+     8.0
+    ]
+   ],
+   "t_verifica": 3265.262,
+   "t_compiti": 3284.062
+  }
+ },
+ "manca": "Pronta, attende voci Kore. Montaggio con segnaposto completo: 53:03 stimati (da rimisurare con le voci), 6 argomenti, 17 approfondimenti, quiz 5x6, test 10 domande, compiti del prof 4, bande blu.",
+ "serve_master": [
+  {
+   "quando": "14/11 23:03",
+   "testo": "R1: per partire con la lezione 20 servono (a) trascrizione con tempi per parola (faster-whisper: il download del modello da HuggingFace e' bloccato dal proxy, 403) oppure accetto tempi a frase; (b) conferma che posso usare gli script di montaggio del ramo lavoro-letteratura-V-chatD2 (bin/monta.py ecc.); (c) 2 richieste voci per la lezione (standard + AN). Intanto finisco la lezione 4."
+  }
+ ],
+ "domande_sara": [],
+ "note": [
+  {
+   "quando": "15/11 03:09",
+   "testo": "R1: pronta, attende voci Kore (richiesta su voci-letteratura-V-lez20: 27 voci). Intanto montaggio con segnaposto."
+  },
+  {
+   "quando": "15/11 14:52",
+   "testo": "R1: consegnata su consegna-letteratura-V-lez20, durata misurata 54:50, 17 approfondimenti e mappe, compiti del prof. Da ricontrollare a campione la sincronia di alcune schede (tempo stimato)."
+  },
+  {
+   "quando": "16/11 08:04",
+   "testo": "Letteratura V · chat F: sistemata per controllo 15/11. Video invariato (54:50, 183 MB, 1080p: controlli rifatti, scatto quiz 0,0 s, parlato -16,4 LUFS, nessun fermo). La verifica e i compiti del prof erano già nel video (bande blu): mancavano solo t_verifica 3265,3 s e t_compiti 3284,1 s nella scheda, ora scritti. Aggiunto Mappe_letteratura-V-lez20.pdf (A4 orizzontale, 7 pagine); la dispensa ora è senza mappe (11 pagine), come da decisione del 15/11. Sincronia schede: controllo a campione su 8 punti, 6 coerenti; nel primo argomento la prima card resta accesa dall'inizio del pezzo prima che il docente ne parli (non corretto, richiederebbe ricodifica)."
+  }
+ ],
+ "materia": "Letteratura italiana V",
+ "lezione": "Lezione 20",
+ "docente": "Prof. Giorgio Mazzotti",
+ "aggiornato": "2026-11-16 08:04:03"
+}
