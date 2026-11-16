@@ -244,6 +244,245 @@
      9.767
     ]
    ]
+  },
+  "2": {
+   "titolo": "L'Italia repubblicana · Parte 2",
+   "stato": "PRONTA",
+   "voci": "kore",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "si",
+   "video": "Storia_Lez18_Parte2_1080p.mp4",
+   "durata_s": 2821.4,
+   "durata": "47:01.4",
+   "fotogrammi": 84643,
+   "fotogrammi_attesi": 84643,
+   "peso_MB": 200.5,
+   "vtt": "Storia_Lez18_Parte2.vtt",
+   "scheda": {
+    "materia": "Storia",
+    "titolo": "L'Italia repubblicana · Parte 2",
+    "durata_s": 2821.43,
+    "argomenti": [
+     {
+      "n": 4,
+      "titolo": "Il Centrismo (1948-1953)",
+      "inizio_s": 46.467,
+      "quiz_s": 1230.6
+     },
+     {
+      "n": 5,
+      "titolo": "Il miracolo economico",
+      "inizio_s": 1234.8,
+      "quiz_s": 1725.267
+     },
+     {
+      "n": 6,
+      "titolo": "Il Centrosinistra (1953-1963)",
+      "inizio_s": 1729.467,
+      "quiz_s": 2682.533
+     }
+    ],
+    "quiz": {
+     "Q4": {
+      "title": "Quiz 4 · Il Centrismo (1948-1953)",
+      "items": [
+       {
+        "p": "Che cosa perde l'Italia con la pace di Parigi?",
+        "a": "Le colonie, tra cui Libia, Etiopia e Somalia, e altri territori",
+        "w": [
+         "La Sicilia e la Sardegna",
+         "Il Trentino e il Veneto",
+         "Soltanto la flotta"
+        ],
+        "e": "L'Italia perde le colonie e altri territori; a differenza della Germania, però, non viene divisa."
+       },
+       {
+        "p": "Come viene divisa la città di Trieste?",
+        "a": "In una zona A angloamericana e una zona B jugoslava",
+        "w": [
+         "In una zona italiana e una francese",
+         "In una zona sovietica e una americana",
+         "Non viene divisa"
+        ],
+        "e": "Trieste viene divisa in una zona A, angloamericana, che passerà all'Italia, e una zona B, jugoslava."
+       },
+       {
+        "p": "Quale percentuale di voti ottiene la DC nel 1948?",
+        "a": "Circa il 48%",
+        "w": [
+         "Circa il 12%",
+         "Circa il 25%",
+         "Circa il 70%"
+        ],
+        "e": "La DC ottiene circa il 48% dei voti, quasi la maggioranza assoluta."
+       },
+       {
+        "p": "In che cosa consiste la riforma agraria?",
+        "a": "Nella ridistribuzione delle terre ai contadini",
+        "w": [
+         "Nella nazionalizzazione delle fabbriche",
+         "Nell'introduzione della scuola media unica",
+         "Nell'estensione del voto alle donne"
+        ],
+        "e": "La riforma agraria ridistribuisce le terre; nasce anche la Cassa per il Mezzogiorno."
+       },
+       {
+        "p": "Quale scelta di politica estera compie l'Italia?",
+        "a": "L'integrazione nel blocco occidentale: Piano Marshall, Patto Atlantico e CECA",
+        "w": [
+         "L'alleanza con l'Unione Sovietica",
+         "La neutralità assoluta",
+         "L'adesione al blocco orientale"
+        ],
+        "e": "L'Italia sceglie il blocco occidentale, aderendo al Piano Marshall e al Patto Atlantico e partecipando alla nascita della CECA."
+       }
+      ]
+     },
+     "Q5": {
+      "title": "Quiz 5 · Il miracolo economico",
+      "items": [
+       {
+        "p": "Quando si colloca il boom economico italiano?",
+        "a": "Tra gli anni Cinquanta e Sessanta, soprattutto nel quinquennio 1958-1963",
+        "w": [
+         "Tra il 1919 e il 1925",
+         "Tra il 1939 e il 1945",
+         "Dopo il 1989"
+        ],
+        "e": "Tra gli anni '50 e '60 l'Italia vive una crescita industriale eccezionale; il boom vero e proprio è il quinquennio 1958-1963."
+       },
+       {
+        "p": "Quale automobile è il simbolo del boom economico?",
+        "a": "La Fiat 500",
+        "w": [
+         "L'Alfa Romeo Giulia",
+         "La Lancia Aurelia",
+         "La Vespa"
+        ],
+        "e": "La crescita è trainata dall'automobilistico, simboleggiato dalla Fiat 500."
+       },
+       {
+        "p": "Quali settori trainano la crescita industriale?",
+        "a": "Automobilistico, siderurgia e chimica",
+        "w": [
+         "Pesca, artigianato e agricoltura",
+         "Solo il turismo",
+         "Solo l'edilizia"
+        ],
+        "e": "La crescita è trainata dai settori automobilistico, siderurgico e chimico."
+       },
+       {
+        "p": "Quale criticità accentua il boom?",
+        "a": "Il divario economico tra Nord industrializzato e Sud agricolo",
+        "w": [
+         "La riduzione dei consumi",
+         "La chiusura delle fabbriche del Nord",
+         "Il ritorno alla vita rurale"
+        ],
+        "e": "Si accentua il divario tra Nord e Sud e parte una massiccia migrazione interna."
+       },
+       {
+        "p": "Che cosa causa la crescita caotica delle grandi città del Nord?",
+        "a": "Problemi di integrazione, povertà suburbana e speculazione edilizia",
+        "w": [
+         "Il blocco delle nuove costruzioni",
+         "Un calo della popolazione",
+         "La chiusura delle periferie"
+        ],
+        "e": "Le città crescono in modo caotico: integrazione difficile, povertà suburbana e speculazione edilizia (cementificazione)."
+       }
+      ]
+     },
+     "Q6": {
+      "title": "Quiz 6 · Il Centrosinistra (1953-1963)",
+      "items": [
+       {
+        "p": "Chi guida i governi di centrosinistra?",
+        "a": "Amintore Fanfani e Aldo Moro",
+        "w": [
+         "Alcide De Gasperi e Luigi Einaudi",
+         "Palmiro Togliatti e Pietro Nenni",
+         "Ferruccio Parri e Giovanni Giolitti"
+        ],
+        "e": "I governi di centrosinistra sono guidati da Amintore Fanfani e Aldo Moro."
+       },
+       {
+        "p": "Verso quale partito si apre la DC nel centrosinistra?",
+        "a": "Verso il Partito socialista (PSI)",
+        "w": [
+         "Verso il Partito comunista (PCI)",
+         "Verso il Partito monarchico",
+         "Verso il Partito liberale"
+        ],
+        "e": "La DC avvia un'apertura verso i socialisti per allargare la base democratica."
+       },
+       {
+        "p": "Che cosa porta alla nascita dell'ENEL?",
+        "a": "La nazionalizzazione dell'energia elettrica",
+        "w": [
+         "La riforma agraria",
+         "La Cassa per il Mezzogiorno",
+         "La scuola media unica"
+        ],
+        "e": "La nazionalizzazione dell'energia elettrica dà vita all'ENEL."
+       },
+       {
+        "p": "Fino a quale età è obbligatoria la scuola dopo la riforma?",
+        "a": "Fino a 14 anni",
+        "w": [
+         "Fino a 10 anni",
+         "Fino a 16 anni",
+         "Fino a 18 anni"
+        ],
+        "e": "Si introduce la scuola media unica e obbligatoria fino a 14 anni."
+       },
+       {
+        "p": "Che cosa avvia il PCI dopo i fatti d'Ungheria e la morte di Togliatti?",
+        "a": "Un percorso di autonomia dall'Unione Sovietica",
+        "w": [
+         "Lo scioglimento del partito",
+         "L'ingresso nella NATO",
+         "L'alleanza con il MSI"
+        ],
+        "e": "Il PCI cerca una via democratica e costituzionale al comunismo, in autonomia dall'URSS."
+       }
+      ]
+     }
+    }
+   },
+   "timeline": [
+    [
+     "T4",
+     46.467,
+     5.0
+    ],
+    [
+     "T5",
+     1234.8,
+     5.0
+    ],
+    [
+     "T6",
+     1729.467,
+     5.0
+    ],
+    [
+     "GL2",
+     2728.0,
+     32.5
+    ],
+    [
+     "RF2",
+     2760.5,
+     29.533
+    ],
+    [
+     "FIN2",
+     2790.033,
+     12.7
+    ]
+   ]
   }
  },
  "manca": "",
@@ -286,10 +525,14 @@
   {
    "quando": "16/11 14:09",
    "testo": "controllo_finale: ESITO: TUTTO OK"
+  },
+  {
+   "quando": "16/11 14:13",
+   "testo": "controllo_finale: ESITO: TUTTO OK"
   }
  ],
  "materia": "Storia",
  "lezione": "Lezione 18 · L'Italia repubblicana",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-16 14:09:35"
+ "aggiornato": "2026-11-16 14:13:25"
 }
