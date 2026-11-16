@@ -3,8 +3,8 @@
  "parti": {
   "1": {
    "titolo": "Elastomeri e materiali",
-   "stato": "IN_MONTAGGIO",
-   "voci": "segnaposto"
+   "stato": "IN_CODIFICA",
+   "voci": "kore"
   }
  },
  "manca": "",
@@ -14,10 +14,14 @@
   {
    "quando": "16/11 00:21",
    "testo": "15/11: presa in carico (lezioni pari). Video docente 59:09, 6 argomenti; con inserti ~71 min in UNA Parte (la master puo' decidere se dividerla). Richiesta voci (17 file) inviata sul ramo voci-moda-chimica-III-IV-lez08. Sincronia fatta."
+  },
+  {
+   "quando": "16/11 02:59",
+   "testo": "voci Kore arrivate e importate (17/17); montaggio 71:53 in UNA Parte (il video del docente dura gia' 59:09; la master puo' decidere se dividerla); t_verifica=4274.9 s, t_compiti=4293.2 s. Codifica 1080p CRF 19 in corso."
   }
  ],
  "materia": "Moda III+IV · Chimica applicata e nobilitazione dei materiali",
  "lezione": "Elastomeri e materiali",
  "docente": "Prof.ssa Piera Caputi",
- "aggiornato": "2026-11-16 00:21:24"
+ "aggiornato": "2026-11-16 02:59:36"
 }
