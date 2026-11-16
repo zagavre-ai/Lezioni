@@ -175,7 +175,7 @@ function vistaAlunno(msg,V){if(!V&&ALTAB==='mappe'){$('#app').innerHTML=`<h1>Map
   <h2 style="font-size:17px;margin:20px 0 4px">Da consegnare (${daFare.length})</h2>`;
   if(!daFare.length)h+='<div class="vuoto">Non hai compiti da consegnare. 👍</div>';
   daFare.forEach(c=>{const rif=c.stato==='da_rifare';const ult=[...c.eventi].reverse().find(e=>e.tipo==='da_rifare');
-    h+=`<div class="card comp" data-id="${c.id}"><div class="mat">${esc(c.materia)}${c.lezione?' · '+esc(c.lezione):''}</div>
+    h+=`<div class="card comp" data-id="${c.id}"><div class="mat">${esc(c.corso||c.materia)}${c.lezione?' · '+esc(c.lezione):''}</div>
     <h3>${esc(c.titolo)}</h3>${c.testo?`<p style="white-space:pre-wrap;margin:4px 0">${esc(c.testo)}</p>`:''}
     ${c.allegato?`<button class="btn sec" data-vedi="${esc(c.allegato)}">Apri il compito (file del docente)</button>`:''}
     <p class="${c.ritardo?'rit':'note'}">${c.scadenza?'Da consegnare entro '+dd(c.scadenza)+(c.ritardo?' · IN RITARDO':''):'Nessuna scadenza indicata'}</p>
@@ -188,9 +188,9 @@ function vistaAlunno(msg,V){if(!V&&ALTAB==='mappe'){$('#app').innerHTML=`<h1>Map
     <label class="f">Una nota per il docente (se vuoi)</label><textarea class="t" id="nt_${c.id}" style="min-height:44px"></textarea>
     <button class="btn big verde" data-consegna="${c.id}" style="margin-top:10px" disabled>Consegna</button><div id="es_${c.id}"></div>`}</div>`});
   if(attesa.length){h+=`<h2 style="font-size:17px;margin:20px 0 4px">Consegnati, in attesa di correzione (${attesa.length})</h2>`;
-    attesa.forEach(c=>{const e=[...c.eventi].reverse().find(x=>x.tipo==='consegna');h+=`<div class="card"><div class="mat">${esc(c.materia)}</div><b>${esc(c.titolo)}</b><p class="note">Consegnato ${dlo(e?.il)}${c.consegna_in_ritardo?' · <span class="rit">in ritardo</span>':''}</p>${e?.foto?.length?`<button class="btn sec" data-fotocons="${c.id}">Vedi le pagine consegnate</button>`:''}</div>`})}
+    attesa.forEach(c=>{const e=[...c.eventi].reverse().find(x=>x.tipo==='consegna');h+=`<div class="card"><div class="mat">${esc(c.corso||c.materia)}</div><b>${esc(c.titolo)}</b><p class="note">Consegnato ${dlo(e?.il)}${c.consegna_in_ritardo?' · <span class="rit">in ritardo</span>':''}</p>${e?.foto?.length?`<button class="btn sec" data-fotocons="${c.id}">Vedi le pagine consegnate</button>`:''}</div>`})}
   if(fatti.length){h+=`<h2 style="font-size:17px;margin:20px 0 4px">Corretti (${fatti.length})</h2>`;
-    fatti.forEach(c=>{const e=[...c.eventi].reverse().find(x=>x.tipo==='correzione');h+=`<div class="card"><div class="mat">${esc(c.materia)}</div><b>${esc(c.titolo)}</b>
+    fatti.forEach(c=>{const e=[...c.eventi].reverse().find(x=>x.tipo==='correzione');h+=`<div class="card"><div class="mat">${esc(c.corso||c.materia)}</div><b>${esc(c.titolo)}</b>
     <p style="margin:6px 0"><span class="st corretto">${c.voto?'Voto: '+esc(c.voto):'Corretto (senza voto)'}</span> <span class="note">corretto ${dl(e?.il)}</span></p>${e?.testo?`<p style="margin:4px 0">${esc(e.testo)}</p>`:''}
     <p class="note" style="margin:4px 0">Consegnato ${dlo((([...c.eventi].reverse().find(x=>x.tipo==='consegna'))||{}).il)}${c.consegna_in_ritardo?' · <span class="rit">in ritardo</span>':''}</p>
     <div style="display:flex;flex-wrap:wrap;gap:8px">${c.eventi.some(x=>x.tipo==='consegna'&&x.foto.length)?`<button class="btn sec" data-fotocons="${c.id}">Vedi le pagine consegnate</button>`:''}${e?.foto?.length?`<button class="btn sec" data-fotoev="${c.id}">Vedi la correzione</button>`:''}</div></div>`})}
@@ -216,7 +216,7 @@ async function consegna(id,btn){const l=SCELTE[id]||[];if(!l.length)return;btn.d
 
 /* ---------------- vista scuola (docenti, coordinamento, direzione) ---------------- */
 const STAFF=()=>IO.tipo==='staff';
-function filtra(){return COMPITI.filter(c=>(!F.alunno||c.alunno_id===F.alunno)&&(!F.materia||c.materia===F.materia)&&(!F.stato||c.stato===F.stato||(F.stato==='ritardo'&&c.ritardo))
+function filtra(){return COMPITI.filter(c=>(!F.alunno||c.alunno_id===F.alunno)&&(!F.materia||(c.corso||c.materia)===F.materia)&&(!F.stato||c.stato===F.stato||(F.stato==='ritardo'&&c.ritardo))
   &&(!F.cerca||(c.titolo+' '+(c.lezione||'')+' '+(c.alunni?.nome||'')).toLowerCase().includes(F.cerca.toLowerCase())))}
 function vistaScuola(msg){
   const dc=COMPITI.filter(c=>c.stato==='consegnato'),dv=COMPITI.filter(c=>c.stato==='corretto');
@@ -234,12 +234,12 @@ function tabella(l,vuoto,dove='#tab'){
   if(!l.length){$(dove).innerHTML=`<div class="vuoto">${vuoto}</div>`;return}
   $(dove).innerHTML=`<div class="tw"><table class="l"><thead><tr><th>Alunno</th><th>Materia</th><th>Compito</th><th class="mob-no">Scadenza</th><th>Stato</th><th class="mob-no">Voto</th></tr></thead><tbody>${l.map(c=>{
     const nota=c.stato==='consegnato'?(c.ritardo?'<br><span class="rit">correzione in ritardo</span>':'<br><span class="note">correggere entro '+dl(c.scadenza_correzione)+'</span>'):(c.stato==='assegnato'&&c.ritardo?'<br><span class="rit">consegna in ritardo</span>':'');
-    return `<tr class="cl" data-apri="${c.id}"><td><b>${esc(c.alunni?.nome)}</b></td><td>${esc(c.materia)}</td><td>${esc(c.titolo)}${c.lezione?'<br><span class="note">'+esc(c.lezione)+'</span>':''}</td>
+    return `<tr class="cl" data-apri="${c.id}"><td><b>${esc(c.alunni?.nome)}</b></td><td>${esc(c.corso||c.materia)}</td><td>${esc(c.titolo)}${c.lezione?'<br><span class="note">'+esc(c.lezione)+'</span>':''}</td>
     <td class="mob-no ${c.consegna_in_ritardo?'rit':''}">${dd(c.scadenza)}</td><td><span class="st ${c.stato}">${STATI[c.stato]}</span>${nota}</td><td class="mob-no">${esc(c.voto||'')}</td></tr>`}).join('')}</tbody></table></div>`;
   document.querySelectorAll('[data-apri]').forEach(r=>r.onclick=()=>apri(r.dataset.apri));
 }
 function tabTutti(){
-  const mat=[...new Set(COMPITI.map(c=>c.materia))].sort();
+  const mat=[...new Set(COMPITI.map(c=>c.corso||c.materia))].sort();
   $('#tab').innerHTML=`<div class="filtri"><select id="fa"><option value="">Tutti gli alunni</option>${ALUNNI.map(a=>`<option value="${a.id}" ${F.alunno===a.id?'selected':''}>${esc(a.nome)}</option>`).join('')}</select>
   <select id="fm"><option value="">Tutte le materie</option>${mat.map(m=>`<option ${F.materia===m?'selected':''}>${esc(m)}</option>`).join('')}</select>
   <select id="fs"><option value="">Tutti gli stati</option>${Object.entries(STATI).map(([k,v])=>`<option value="${k}" ${F.stato===k?'selected':''}>${v}</option>`).join('')}<option value="ritardo" ${F.stato==='ritardo'?'selected':''}>Solo in ritardo</option></select>
@@ -341,7 +341,7 @@ function tabEsporta(){
     const l=COMPITI.filter(c=>{const ev=c.eventi.map(e=>e.il);const t=[c.assegnato_il,...ev];return t.some(x=>x>=da&&x<=a)});
     const righe=[['Alunno','Indirizzo','Materia','Lezione','Compito','Assegnato da','Assegnato il','Scadenza','Consegnato il','Consegna in ritardo','Corretto il','Voto','Commento del docente','Stato','Correzione in ritardo','Verificato da','Nota di verifica']];
     l.forEach(c=>{const cons=[...c.eventi].reverse().find(e=>e.tipo==='consegna'),cor=[...c.eventi].reverse().find(e=>e.tipo==='correzione'||e.tipo==='da_rifare'),ver=[...c.eventi].reverse().find(e=>e.tipo==='verifica'||e.tipo==='segnalazione');
-      righe.push([c.alunni?.nome,c.alunni?.indirizzo,c.materia,c.lezione,c.titolo,c.persone?.nome,dlo(c.assegnato_il),dd(c.scadenza),dlo(cons?.il),c.consegna_in_ritardo?'sì':'',dlo(cor?.il),c.voto,cor?.testo,STATI[c.stato],c.ritardo&&c.stato==='consegnato'?'sì':'',ver?NOMI[ver.autore_id]:'',ver?.testo])});
+      righe.push([c.alunni?.nome,c.alunni?.indirizzo,c.corso||c.materia,c.lezione,c.titolo,c.persone?.nome,dlo(c.assegnato_il),dd(c.scadenza),dlo(cons?.il),c.consegna_in_ritardo?'sì':'',dlo(cor?.il),c.voto,cor?.testo,STATI[c.stato],c.ritardo&&c.stato==='consegnato'?'sì':'',ver?NOMI[ver.autore_id]:'',ver?.testo])});
     const csv='﻿'+righe.map(r=>r.map(x=>'"'+String(x??'').replace(/"/g,'""')+'"').join(';')).join('\r\n');
     const u=URL.createObjectURL(new Blob([csv],{type:'text/csv'}));const el=document.createElement('a');el.href=u;el.download='quaderno_compiti_'+$('#ed').value+'_'+$('#ea').value+'.csv';el.click();setTimeout(()=>URL.revokeObjectURL(u),5000)};
 }
@@ -355,7 +355,7 @@ async function apri(id){
   const c=COMPITI.find(x=>x.id===id);if(!c)return;
   const puoCorreggere=c.stato==='consegnato';const puoVerificare=STAFF()&&['corretto','verificato','segnalato'].includes(c.stato);
   const cons=[...c.eventi].reverse().find(e=>e.tipo==='consegna');
-  $('#mbody').innerHTML=`<div class="mat">${esc(c.materia)}${c.lezione?' · '+esc(c.lezione):''}</div><h2 style="margin:4px 0">${esc(c.titolo)}</h2>
+  $('#mbody').innerHTML=`<div class="mat">${esc(c.corso||c.materia)}${c.lezione?' · '+esc(c.lezione):''}</div><h2 style="margin:4px 0">${esc(c.titolo)}</h2>
   <p class="who" style="margin:0"><b>${esc(c.alunni?.nome)}</b> · ${esc(c.alunni?.indirizzo||'')}</p>
   <p><span class="st ${c.stato}">${STATI[c.stato]}</span> ${c.voto?'<b>Voto: '+esc(c.voto)+'</b>':''} ${c.stato==='consegnato'?(c.ritardo?'<span class="rit">Correzione in ritardo (andava fatta entro '+dl(c.scadenza_correzione)+')</span>':'<span class="note">Da correggere entro '+dl(c.scadenza_correzione)+'</span>'):''}</p>
   ${c.testo?`<p style="white-space:pre-wrap">${esc(c.testo)}</p>`:''}${c.allegato?`<button class="btn sec" data-vedi="${esc(c.allegato)}">Apri il file del compito</button>`:''}
