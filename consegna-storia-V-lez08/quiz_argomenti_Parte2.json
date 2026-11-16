@@ -1,0 +1,222 @@
+{
+ "Q4": {
+  "title": "Quiz 4 · Giolitti, Rapallo e la nascita del PNF",
+  "items": [
+   {
+    "p": "Che cosa stabilisce il trattato di Rapallo (novembre 1920)?",
+    "a": "Fiume è una città libera, né italiana né jugoslava",
+    "w": [
+     "Fiume è annessa all'Italia",
+     "La Dalmazia passa all'Italia",
+     "D'Annunzio diventa capo del governo"
+    ],
+    "e": "Giolitti risolve la crisi di Fiume; in dicembre l'esercito sgombera i legionari."
+   },
+   {
+    "p": "Perché Giolitti inserisce i fascisti nei Blocchi nazionali?",
+    "a": "Per usarli contro i socialisti e costituzionalizzarli",
+    "w": [
+     "Per sciogliere il Parlamento",
+     "Per fare un governo socialista",
+     "Per abolire la monarchia"
+    ],
+    "e": "Giolitti pensa di poter assorbire il fascismo nella legalità liberale, ma il calcolo fallisce."
+   },
+   {
+    "p": "Quale scissione avviene a Livorno nel gennaio 1921?",
+    "a": "Nasce il Partito Comunista d'Italia",
+    "w": [
+     "Nasce il Partito Popolare",
+     "Nasce il PNF",
+     "Nasce il Partito Socialista Unitario"
+    ],
+    "e": "Bordiga, Gramsci e Togliatti escono dal PSI e fondano il PCd'I."
+   },
+   {
+    "p": "Quanti deputati fascisti entrano alla Camera nel 1921?",
+    "a": "35, tra cui Mussolini",
+    "w": [
+     "3, senza Mussolini",
+     "350",
+     "Nessuno"
+    ],
+    "e": "I Blocchi nazionali conquistano 105 seggi, di cui 35 fascisti."
+   },
+   {
+    "p": "Che cosa è il patto di pacificazione dell'agosto 1921?",
+    "a": "Un accordo tra socialisti e fascisti per fermare le violenze, rifiutato dai ras",
+    "w": [
+     "Un accordo tra Italia e Jugoslavia",
+     "Un trattato con il Papa",
+     "Un patto tra il re e Giolitti"
+    ],
+    "e": "I ras Balbo e Grandi lo rifiutano; Mussolini accetta un compromesso e il patto è rinnegato."
+   }
+  ]
+ },
+ "Q5": {
+  "title": "Quiz 5 · La Marcia su Roma",
+  "items": [
+   {
+    "p": "Chi forma il quadrumvirato della Marcia su Roma?",
+    "a": "Balbo, De Vecchi, Bianchi e De Bono",
+    "w": [
+     "Mussolini, Giolitti, Facta e Diaz",
+     "Matteotti, Turati, Sturzo e Gramsci",
+     "D'Annunzio, Marinetti, Balbo e Grandi"
+    ],
+    "e": "La direzione militare è affidata a quattro uomini; Mussolini ne resta distante."
+   },
+   {
+    "p": "Quando avviene la Marcia su Roma?",
+    "a": "Tra il 27 e il 28 ottobre 1922",
+    "w": [
+     "Il 23 marzo 1919",
+     "Il 6 aprile 1924",
+     "Il 3 gennaio 1925"
+    ],
+    "e": "Circa 25.000 squadristi convergono sulla capitale."
+   },
+   {
+    "p": "Che cosa propone il presidente del Consiglio Facta?",
+    "a": "Di proclamare lo stato d'assedio",
+    "w": [
+     "Di arrendersi a Mussolini",
+     "Di sciogliere l'esercito",
+     "Di dimettersi senza consultare nessuno"
+    ],
+    "e": "Lo stato d'assedio avrebbe dato i poteri ai militari, ma serviva la firma del re."
+   },
+   {
+    "p": "Perché il re non firma lo stato d'assedio?",
+    "a": "Teme una guerra civile, dubita dell'esercito e del duca d'Aosta",
+    "w": [
+     "È un fascista dichiarato",
+     "Non conosce Mussolini",
+     "È malato"
+    ],
+    "e": "Il duca d'Aosta, suo cugino, simpatizzava apertamente per il fascismo."
+   },
+   {
+    "p": "Che cosa avviene il 30 ottobre 1922?",
+    "a": "Mussolini riceve l'incarico di formare un governo di coalizione",
+    "w": [
+     "Mussolini è arrestato",
+     "Il re abdica",
+     "Facta vince le elezioni"
+    ],
+    "e": "Nel governo ci sono fascisti, liberali, popolari e nazionalisti; Diaz è ministro della Guerra."
+   }
+  ]
+ },
+ "Q6": {
+  "title": "Quiz 6 · Il primo governo Mussolini",
+  "items": [
+   {
+    "p": "Quali ministeri tiene per sé Mussolini?",
+    "a": "Interni ed Esteri",
+    "w": [
+     "Guerra e Marina",
+     "Istruzione e Finanze",
+     "Giustizia e Lavori pubblici"
+    ],
+    "e": "Guerra e Marina vanno a Diaz e a Thaon di Revel."
+   },
+   {
+    "p": "Che cos'è il «discorso del bivacco»?",
+    "a": "Il primo discorso di Mussolini alla Camera, il 6 novembre 1922",
+    "w": [
+     "Il discorso di Matteotti",
+     "Il discorso dei ras a Bologna",
+     "Il discorso del re"
+    ],
+    "e": "Mussolini minaccia di trasformare l'aula in un bivacco di manipoli."
+   },
+   {
+    "p": "Che cos'è il Gran Consiglio del fascismo?",
+    "a": "Un organo di partito non previsto dalla Costituzione",
+    "w": [
+     "Un ministero del Regno",
+     "Un tribunale militare",
+     "Un consiglio comunale"
+    ],
+    "e": "Affianca lo Stato e unisce i vertici del partito."
+   },
+   {
+    "p": "Che cosa fa la MVSN?",
+    "a": "Legalizza le squadre d'azione come corpo agli ordini di Mussolini",
+    "w": [
+     "Difende il Parlamento",
+     "Sostituisce i carabinieri",
+     "Controlla i confini"
+    ],
+    "e": "La Milizia è fedele a un leader e a un partito, non allo Stato."
+   },
+   {
+    "p": "Che periodo gli storici chiamano «triennio di consolidamento»?",
+    "a": "Gli anni 1922-1925",
+    "w": [
+     "Gli anni 1919-1922",
+     "Gli anni 1925-1928",
+     "Gli anni 1914-1917"
+    ],
+    "e": "In questa fase il Parlamento è ancora elettivo e pluripartitico, ma si costruisce il regime."
+   }
+  ]
+ },
+ "Q7": {
+  "title": "Quiz 7 · Legge Acerbo, delitto Matteotti e dittatura",
+  "items": [
+   {
+    "p": "Che cosa prevede la legge Acerbo?",
+    "a": "Due terzi dei seggi alla lista che ottiene almeno il 25% dei voti",
+    "w": [
+     "Il voto alle donne",
+     "Il ritorno al maggioritario uninominale",
+     "La fine del Parlamento"
+    ],
+    "e": "È una riforma fortemente maggioritaria, approvata nel novembre 1923."
+   },
+   {
+    "p": "Quanto ottiene il Listone alle elezioni del 6 aprile 1924?",
+    "a": "Il 65% dei voti",
+    "w": [
+     "Il 15% dei voti",
+     "Il 25% dei voti",
+     "Il 100% dei voti"
+    ],
+    "e": "Il risultato è favorito da violenze, intimidazioni e brogli."
+   },
+   {
+    "p": "Che cosa denuncia Matteotti il 30 maggio 1924?",
+    "a": "Violenze e brogli elettorali, chiedendo l'annullamento del voto",
+    "w": [
+     "La Marcia su Roma",
+     "La legge Aventino",
+     "Il trattato di Rapallo"
+    ],
+    "e": "Il 10 giugno viene rapito e assassinato da squadristi guidati da Dumini."
+   },
+   {
+    "p": "Che cos'è la secessione dell'Aventino?",
+    "a": "L'uscita dei deputati d'opposizione dal Parlamento",
+    "w": [
+     "Una rivolta militare",
+     "Un colpo di Stato del re",
+     "Un patto con Mussolini"
+    ],
+    "e": "La linea si rivelò inefficace perché il re non intervenne."
+   },
+   {
+    "p": "Che cosa fa Mussolini il 3 gennaio 1925?",
+    "a": "Si assume la responsabilità di quanto avvenuto e annuncia la svolta autoritaria",
+    "w": [
+     "Si dimette",
+     "Chiede scusa alla Camera",
+     "Scioglie i fasci"
+    ],
+    "e": "Seguono le leggi fascistissime, 1925-1927, che trasformano l'Italia in una dittatura."
+   }
+  ]
+ }
+}

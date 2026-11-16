@@ -1,0 +1,192 @@
+{
+ "materia": "Storia V",
+ "titolo": "Storia V · Lezione 8 · Il dopoguerra italiano e il fascismo (1919-1925) · Parte 1",
+ "durata_s": 3008.3,
+ "argomenti": [
+  {
+   "n": 1,
+   "titolo": "Il Biennio rosso e la crisi del dopoguerra",
+   "inizio_s": 243.533,
+   "quiz_s": 1112.433
+  },
+  {
+   "n": 2,
+   "titolo": "Vittoria mutilata, Fiume e le elezioni del 1919",
+   "inizio_s": 1116.433,
+   "quiz_s": 1981.333
+  },
+  {
+   "n": 3,
+   "titolo": "La nascita del fascismo e lo squadrismo",
+   "inizio_s": 1985.333,
+   "quiz_s": 2929.0
+  }
+ ],
+ "quiz": {
+  "Q1": {
+   "title": "Quiz 1 · Il Biennio rosso e la crisi del dopoguerra",
+   "items": [
+    {
+     "p": "Perché il periodo 1919-1920 è chiamato «Biennio rosso»?",
+     "a": "Perché in due anni si ebbero tumulti, scioperi e occupazioni nelle campagne e nelle città",
+     "w": [
+      "Perché il Partito Comunista vinse due volte le elezioni",
+      "Perché la guerra civile durò due anni",
+      "Perché il governo fu guidato per due anni dai socialisti"
+     ],
+     "e": "Il Biennio rosso dura due anni, 1919 e 1920, ed è segnato da violente proteste di contadini e operai."
+    },
+    {
+     "p": "Quale promessa fu fatta ai soldati contadini durante la guerra?",
+     "a": "Una futura redistribuzione delle terre",
+     "w": [
+      "Un aumento delle pensioni",
+      "La cittadinanza onoraria",
+      "L'esenzione dalle tasse per dieci anni"
+     ],
+     "e": "La propaganda bellica promise la terra ai contadini, ma la promessa non fu mantenuta."
+    },
+    {
+     "p": "Quanti disoccupati si contavano circa nell'Italia del dopoguerra?",
+     "a": "Circa due milioni",
+     "w": [
+      "Circa duemila",
+      "Circa venti milioni",
+      "Circa duecentomila"
+     ],
+     "e": "La fine delle commesse belliche provocò una disoccupazione di circa due milioni di persone."
+    },
+    {
+     "p": "Che cosa accade nel settembre 1920 nei centri industriali del Nord?",
+     "a": "Gli operai occupano le fabbriche e creano consigli di fabbrica",
+     "w": [
+      "Gli industriali licenziano tutti gli operai",
+      "Il re scioglie le fabbriche",
+      "I contadini invadono le città"
+     ],
+     "e": "Centinaia di migliaia di operai metallurgici occupano gli stabilimenti."
+    },
+    {
+     "p": "Quale esempio politico ispira l'ala massimalista del PSI?",
+     "a": "La Rivoluzione russa bolscevica",
+     "w": [
+      "La Rivoluzione francese",
+      "L'impero tedesco",
+      "Il Risorgimento"
+     ],
+     "e": "I massimalisti vogliono «fare come in Russia» e abbattere lo Stato borghese."
+    }
+   ]
+  },
+  "Q2": {
+   "title": "Quiz 2 · Vittoria mutilata, Fiume e le elezioni del 1919",
+   "items": [
+    {
+     "p": "Che cosa non ottiene l'Italia dai trattati di pace?",
+     "a": "La Dalmazia, la città di Fiume e le colonie tedesche",
+     "w": [
+      "Trento e Trieste",
+      "L'Alto Adige",
+      "L'Istria"
+     ],
+     "e": "Trento, Trieste, l'Istria e l'Alto Adige sono assegnati all'Italia; non la Dalmazia, Fiume e le colonie tedesche."
+    },
+    {
+     "p": "Che cosa si intende con «vittoria mutilata»?",
+     "a": "L'idea che la pace avesse tradito le aspettative dell'Italia vincitrice",
+     "w": [
+      "La vittoria di Vittorio Veneto",
+      "La perdita di molti soldati",
+      "La sconfitta militare di Caporetto"
+     ],
+     "e": "Il mito fu pronunciato da D'Annunzio e rilanciato da «Il Popolo d'Italia» di Mussolini."
+    },
+    {
+     "p": "Che cosa fa Gabriele D'Annunzio il 12 settembre 1919?",
+     "a": "Guida i legionari e occupa Fiume",
+     "w": [
+      "Fonda i Fasci di combattimento",
+      "Firma il trattato di Rapallo",
+      "Marcia su Roma"
+     ],
+     "e": "L'impresa di Fiume dura circa un anno e mette in crisi la credibilità dello Stato liberale."
+    },
+    {
+     "p": "Quali novità introduce la legge elettorale del 1919?",
+     "a": "Voto maschile dai 21 anni e sistema proporzionale",
+     "w": [
+      "Voto alle donne e premio di maggioranza",
+      "Voto obbligatorio e collegio unico",
+      "Ritorno al maggioritario uninominale"
+     ],
+     "e": "Il suffragio maschile è esteso ai ventunenni e il proporzionale sostituisce il maggioritario."
+    },
+    {
+     "p": "Chi fonda il Partito Popolare Italiano il 18 gennaio 1919?",
+     "a": "Don Luigi Sturzo",
+     "w": [
+      "Filippo Turati",
+      "Giovanni Giolitti",
+      "Benito Mussolini"
+     ],
+     "e": "Il PPI, basato sulla solidarietà cristiana, nasce dal sacerdote Luigi Sturzo."
+    }
+   ]
+  },
+  "Q3": {
+   "title": "Quiz 3 · La nascita del fascismo e lo squadrismo",
+   "items": [
+    {
+     "p": "Dove e quando Mussolini fonda i Fasci italiani di combattimento?",
+     "a": "A Milano, il 23 marzo 1919",
+     "w": [
+      "A Roma, il 28 ottobre 1922",
+      "A Bologna, il 21 novembre 1920",
+      "A Trieste, nel luglio 1920"
+     ],
+     "e": "L'atto notarile fu firmato in piazza San Sepolcro, da cui il «Manifesto di San Sepolcro»."
+    },
+    {
+     "p": "Che cosa caratterizza il programma di San Sepolcro?",
+     "a": "Posizioni contraddittorie, tra istanze sindacali, anticlericali e nazionaliste",
+     "w": [
+      "Un programma solo monarchico",
+      "Un programma interamente liberale",
+      "L'adesione al comunismo sovietico"
+     ],
+     "e": "Il manifesto mescola giornata di otto ore, cogestione, abolizione del Senato e retorica nazionale."
+    },
+    {
+     "p": "Quanti voti ottengono i fasci alle elezioni del 1919?",
+     "a": "Circa 5.000, senza alcun eletto",
+     "w": [
+      "Circa 500.000",
+      "Circa 5 milioni",
+      "Circa 50.000, con dieci eletti"
+     ],
+     "e": "Il risultato fu fallimentare; la vera forza arriverà con lo squadrismo."
+    },
+    {
+     "p": "Che cosa accade a Bologna il 21 novembre 1920?",
+     "a": "Gli scontri a Palazzo d'Accursio per la nuova giunta socialista",
+     "w": [
+      "L'incendio del Narodni Dom",
+      "La firma del trattato di Rapallo",
+      "La fondazione del PNF"
+     ],
+     "e": "Gli scontri causarono vittime e segnarono l'inizio della violenza squadrista sistematica."
+    },
+    {
+     "p": "Perché lo squadrismo ha successo nelle campagne?",
+     "a": "Ha l'appoggio dei grandi proprietari e l'impunità garantita da parte dello Stato",
+     "w": [
+      "Perché i contadini lo votano in massa",
+      "Perché è armato dall'esercito francese",
+      "Perché il Papa lo sostiene"
+     ],
+     "e": "Gli agrari finanziano i fasci e funzionari, militari e magistrati tollerano le violenze."
+    }
+   ]
+  }
+ }
+}
