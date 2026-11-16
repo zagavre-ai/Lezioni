@@ -2,7 +2,7 @@
  "tag": "letteratura-V-lez03",
  "parti": {
   "1": {
-   "stato": "FERMA"
+   "stato": "IN_REVISIONE"
   }
  },
  "manca": "sorgenti di montaggio lez.3 e modello Whisper",
@@ -17,10 +17,14 @@
   {
    "quando": "16/11 18:11",
    "testo": "chat revisione 3: partita"
+  },
+  {
+   "quando": "16/11 18:29",
+   "testo": "ripartita: trascrizione con trascrivi.py"
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 3 · Carducci",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-16 18:21:12"
+ "aggiornato": "2026-11-16 18:29:22"
 }
