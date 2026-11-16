@@ -1,105 +1,72 @@
-{
- "R1": [
-  "Ripassiamo il primo argomento: il Regno d'Italia, dalla nascita nel milleottocentosessantuno alla crisi di fine secolo."
- ],
- "R2": [
-  "Ripassiamo il secondo argomento: l'economia, il divario tra Nord e Sud e le nuove classi sociali."
- ],
- "R3": [
-  "Ripassiamo il terzo argomento: la scuola, l'editoria e il nuovo ruolo degli intellettuali."
- ],
- "R4": [
-  "Ripassiamo il quarto argomento: come l'Italia unita arriva ad avere una lingua comune."
- ],
- "R5": [
-  "Ripassiamo il quinto argomento: Charles Bodlèr, il poeta maledetto, e i Fiori del male."
- ],
- "R6": [
-  "Ripassiamo il sesto argomento: le innovazioni poetiche di Bodlèr, attraverso i suoi testi chiave."
- ],
- "S1": [
-  "Il Regno d'Italia e il panorama politico. Ecco i punti da ricordare.",
-  "La nascita del Regno: l'Italia nasce il diciassette marzo milleottocentosessantuno, sotto Vittorio Emanuele secondo. Roma diventa capitale definitivamente nel milleottocentosettantuno.",
-  "La Destra storica governa per i primi quindici anni: è formata da moderati e grandi proprietari.",
-  "Nel milleottocentosettantasei arriva la Sinistra storica di Depretis, che introduce il trasformismo: accordi di compromesso in Parlamento che annullano le distinzioni tra i due schieramenti.",
-  "Politica estera: nel milleottocentoottantadue l'Italia stringe la Triplice Alleanza con Austria e Germania, e avvia le prime sfortunate spedizioni coloniali nel Corno d'Africa.",
-  "La fine del secolo: sotto Umberto primo c'è una svolta autoritaria. Nel milleottocentonovantotto i moti di Milano sono repressi dal generale Bava Beccaris, e nel millenovecento il re viene ucciso."
- ],
- "S2": [
-  "Sviluppo economico, sociale e culturale. Ecco i punti da ricordare.",
-  "La Destra storica applica una politica liberista e investe nelle infrastrutture, ma molte industrie del Sud falliscono.",
-  "La svolta protezionistica, con alti dazi doganali, favorisce le industrie del Nord e danneggia l'agricoltura del Sud.",
-  "Si accentua così la questione meridionale, il divario tra Nord e Sud, con il drammatico fenomeno dell'emigrazione di massa verso le Americhe.",
-  "Le classi sociali cambiano: nasce una moderna borghesia industriale, cresce il ceto medio di impiegati e professionisti, e peggiorano le condizioni di contadini e operai.",
-  "Lotte e ideologie: nascono le prime organizzazioni operaie, e nel milleottocentonovantadue viene fondato il Partito Socialista Italiano. Il mondo cattolico resta intransigente verso lo Stato, e gli anarchici promuovono insurrezioni popolari."
- ],
- "S3": [
-  "Istituzioni culturali e ruolo degli intellettuali. Ecco i punti da ricordare.",
-  "La scuola: la legge Casati del milleottocentocinquantanove e la legge Coppino del milleottocentosettantasette introducono l'obbligo scolastico per combattere l'analfabetismo.",
-  "L'editoria diventa una vera e propria industria, trainata dai grandi giornali nazionali e dai supplementi culturali.",
-  "Gli intellettuali: con la fine del mecenatismo gli scrittori perdono il ruolo di guida, e devono impiegarsi o scrivere per il mercato editoriale.",
-  "Le reazioni alla modernità sono tre: l'entusiasmo per il progresso di Carducci; il rifiuto estetizzante del Decadentismo e di D'Annunzio; l'osservazione distaccata della realtà di Verga e del Verismo."
- ],
- "S4": [
-  "La storia della lingua italiana. Ecco i punti da ricordare.",
-  "Il problema: nel milleottocentosessantuno l'analfabetismo supera il settantotto per cento, e quasi tutti parlano solo in dialetto.",
-  "Per questo l'italiano è una lingua quasi unicamente letteraria.",
-  "I fattori di coesione sono quattro: la scuola elementare obbligatoria, la leva militare nazionale, le migrazioni interne verso le città del Nord e la diffusione dei giornali.",
-  "La prosa abbandona la sintassi classica per modelli più agili e vicini al parlato, influenzati dal giornalismo.",
-  "La poesia oscilla tra uno stile elevato, con Carducci e D'Annunzio, e linguaggi più semplici o compositi, con Pascoli e gli Scapigliati."
- ],
- "S5": [
-  "Charles Bodlèr e il nuovo modello di artista. Ecco i punti da ricordare.",
-  "Bodlèr nasce a Parigi nel milleottocentoventuno, ed è un precursore del Decadentismo.",
-  "Incarna la figura del dèndi e del boemièn: una vita irregolare, segnata dall'oppio, dai debiti e dai conflitti con la famiglia.",
-  "La sua opera principale, I fiori del male, del milleottocentocinquantasette, fa scandalo e subisce un processo per immoralità. È divisa in sezioni, come Splin e ideale e I quadri parigini.",
-  "I temi chiave sono il conflitto tra il bene e il male, l'orrore per la mediocrità borghese e l'allegoria della vita cittadina moderna.",
-  "Lo splin è un mix di depressione cupa, noia e disgusto per la vita."
- ],
- "S6": [
-  "Le innovazioni poetiche di Bodlèr. Ecco i punti da ricordare.",
-  "Corrispondenze: la natura è una foresta di simboli, legati da legami segreti, che solo la sensibilità del poeta sa cogliere.",
-  "L'albatro: il poeta è maestoso nel mondo dell'arte, ma goffo, deriso e isolato tra gli uomini comuni.",
-  "Splin: uno stato di profonda depressione e claustrofobia, con immagini cupe della città e del cielo.",
-  "Perdita d'aureola: il poeta perde l'aureola nel fango della strada, cioè perde il prestigio sociale dell'intellettuale.",
-  "I poemi in prosa, come Lo splin di Parigi, non hanno ritmo regolare né rima, ma una forte musicalità interna."
- ],
- "GL1": [
-  "Ripassiamo le parole chiave di questa lezione. Ascolta ogni parola e la sua definizione, e prova a ripeterla.",
-  "Trasformismo: accordi di compromesso in Parlamento che annullano le distinzioni tra Destra e Sinistra.",
-  "Protezionismo: alti dazi doganali per tutelare il mercato italiano.",
-  "Questione meridionale: il divario economico e sociale tra Nord e Sud.",
-  "Positivismo: fiducia assoluta nella scienza e nel progresso tecnologico.",
-  "Mecenatismo: protezione degli artisti da parte di signori e sovrani.",
-  "Dèndi: artista dall'eleganza raffinata, che disprezza la mediocrità borghese.",
-  "Splin: stato di depressione cupa, noia e disgusto per la vita.",
-  "Sinestesia: figura retorica che fonde sensazioni visive, uditive e olfattive.",
-  "Aureola: simbolo della dignità quasi sacra del poeta.",
-  "Ricorda: queste parole le trovi anche nella dispensa."
- ],
- "RF1": [
-  "Prima di salutarci, ricapitoliamo insieme i sei argomenti di questa lezione. Alla fine, prova a ripeterli con parole tue.",
-  "Primo argomento: il Regno d'Italia nasce il diciassette marzo milleottocentosessantuno.",
-  "Alla Destra storica segue, nel milleottocentosettantasei, la Sinistra storica, con il trasformismo.",
-  "La fine del secolo è segnata dai moti di Milano del milleottocentonovantotto e dal regicidio del millenovecento.",
-  "Secondo argomento: la Destra è liberista, poi arriva la svolta protezionistica.",
-  "Cresce il divario tra Nord e Sud, la questione meridionale, e molti emigrano.",
-  "Nascono la borghesia industriale e il ceto medio, e nel milleottocentonovantadue il Partito Socialista Italiano.",
-  "Terzo argomento: le leggi Casati e Coppino introducono l'obbligo scolastico.",
-  "L'editoria diventa un'industria, e con la fine del mecenatismo gli scrittori devono fare i conti con il mercato.",
-  "Le reazioni alla modernità sono tre: l'entusiasmo di Carducci, il rifiuto estetizzante di D'Annunzio, il distacco di Verga.",
-  "Quarto argomento: nel milleottocentosessantuno l'analfabetismo supera il settantotto per cento, e si parla soprattutto in dialetto.",
-  "La lingua comune arriva con la scuola, la leva militare, le migrazioni interne e i giornali.",
-  "La prosa diventa più agile; la poesia oscilla tra uno stile elevato e linguaggi più semplici.",
-  "Quinto argomento: Charles Bodlèr nasce a Parigi nel milleottocentoventuno, ed è dèndi e boemièn.",
-  "La sua opera principale è I fiori del male, del milleottocentocinquantasette.",
-  "I suoi temi sono il bene e il male, lo splin e la città moderna.",
-  "Sesto argomento: in Corrispondenze la natura è una foresta di simboli; nell'Albatro il poeta è deriso tra gli uomini.",
-  "In Splin domina l'angoscia; in Perdita d'aureola il poeta perde il suo prestigio sociale.",
-  "Infine, i poemi in prosa: senza ritmo regolare né rima, ma con una forte musicalità interna.",
-  "Ottimo lavoro. Nella prossima lezione parleremo della Scapigliatura."
- ],
- "FIN1": [
-  "Fine della lezione. Grazie per l'attenzione, e ci vediamo alla prossima lezione."
- ]
-}
+[
+ {
+  "nome": "INTRO1",
+  "testo": "Benvenuti alla lezione di Letteratura italiana. Oggi parliamo dell'età del Naturalismo e del Decadentismo. Il professor Giorgio Mazzotti ci guida attraverso sei argomenti: il Regno d'Italia e il panorama politico; lo sviluppo economico, sociale e culturale; le istituzioni culturali e il ruolo degli intellettuali; la storia della lingua italiana; Charles Bodlèr e il nuovo modello di artista; e infine le innovazioni poetiche di Bodlèr. Alla fine di ogni argomento troverai un breve ripasso e un quiz di cinque domande. Buon ascolto.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AP1a",
+  "testo": "Mettiamo in fila le tappe del Regno d'Italia, una dopo l'altra. Il diciassette marzo milleottocentosessantuno nasce il Regno d'Italia, sotto Vittorio Emanuele secondo. Nel milleottocentosettantuno la capitale si sposta definitivamente a Roma, e si chiude la questione romana. Nel milleottocentosettantasei la Sinistra storica di Depretis prende il posto della Destra, e introduce il trasformismo. Nel milleottocentoottantadue l'Italia stringe la Triplice Alleanza con Austria e Germania, e avvia le prime spedizioni coloniali nel Corno d'Africa. Nel milleottocentonovantotto i moti di Milano vengono repressi dal generale Bava Beccaris. Nel millenovecento il re Umberto primo viene ucciso: è il regicidio, che chiude un secolo di forti tensioni sociali.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP1",
+  "testo": "Ecco la mappa dei primi decenni del Regno d'Italia. Primo ramo, la nascita: il diciassette marzo milleottocentosessantuno, con Vittorio Emanuele secondo. Secondo ramo, Roma: la questione romana si chiude nel milleottocentosettantuno. Terzo ramo, la Destra storica: moderati e grandi proprietari, al potere per quindici anni. Quarto ramo, la Sinistra storica di Depretis: nel milleottocentosettantasei introduce il trasformismo. Quinto ramo, la politica estera: la Triplice Alleanza e le prime spedizioni coloniali. Ultimo ramo, la fine del secolo: svolta autoritaria, moti di Milano e regicidio.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AP2a",
+  "testo": "Vediamo come cambia l'economia italiana, e che effetto ha sul Nord e sul Sud. La Destra storica applica una politica liberista e investe nelle infrastrutture. Il risultato è il fallimento di molte industrie meridionali. Poi arriva la svolta protezionistica, con alti dazi doganali. Favorisce le industrie del Nord, ma danneggia l'agricoltura del Sud. Si accentua così la questione meridionale: il divario economico e sociale tra Nord e Sud. Anche la società cambia. Nasce una moderna borghesia industriale, cresce il ceto medio di impiegati e professionisti, e peggiorano le condizioni di contadini e operai. Nascono le prime organizzazioni operaie, e nel milleottocentonovantadue viene fondato il Partito Socialista Italiano. Il mondo cattolico resta intransigente verso lo Stato, e quello anarchico promuove insurrezioni popolari.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP2",
+  "testo": "Ecco la mappa dello sviluppo economico e sociale. Primo ramo, la Destra storica: politica liberista e investimenti nelle infrastrutture. Secondo ramo, la svolta protezionistica: alti dazi, a favore delle industrie del Nord. Terzo ramo, la questione meridionale: il divario tra Nord e Sud. Quarto ramo, le classi sociali: borghesia industriale e ceto medio in crescita, condizioni peggiori per contadini e operai. Quinto ramo, il movimento operaio: nel milleottocentonovantadue nasce il Partito Socialista Italiano. Ultimo ramo, le altre ideologie: i cattolici intransigenti e gli anarchici insurrezionali.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AP3a",
+  "testo": "Guardiamo da vicino le istituzioni culturali. La scuola: la legge Casati del milleottocentocinquantanove e la legge Coppino del milleottocentosettantasette introducono l'obbligo scolastico, per combattere l'analfabetismo. L'editoria diventa una vera industria, trainata dai grandi giornali nazionali e dai supplementi culturali. Con la fine del mecenatismo, gli scrittori perdono il loro ruolo di guida, e devono impiegarsi o scrivere per il mercato editoriale. Davanti alla modernità nascono tre atteggiamenti. Il primo è l'entusiasmo per il progresso, che troviamo in Carducci. Il secondo è il rifiuto estetizzante, del Decadentismo e di D'Annunzio. Il terzo è un'osservazione intermedia e distaccata della realtà: quella di Verga e del Verismo.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP3",
+  "testo": "Ecco la mappa delle istituzioni culturali e degli intellettuali. Primo ramo, la scuola: le leggi Casati e Coppino introducono l'obbligo scolastico. Secondo ramo, l'editoria: diventa un'industria, con giornali e supplementi culturali. Terzo ramo, il mecenatismo: finisce, e gli scrittori perdono il ruolo di guida. Quarto ramo, Carducci: entusiasmo per il progresso. Quinto ramo, D'Annunzio e il Decadentismo: rifiuto estetizzante. Ultimo ramo, Verga e il Verismo: osservazione distaccata della realtà.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AP4a",
+  "testo": "Come arriva l'Italia a una lingua comune? Nel milleottocentosessantuno l'analfabetismo supera il settantotto per cento. La stragrande maggioranza della popolazione comunica solo in dialetto, e l'italiano resta una lingua quasi unicamente letteraria. L'unificazione linguistica è accelerata da quattro fattori: la scuola elementare obbligatoria, la leva militare nazionale, le migrazioni interne verso le città del Nord e la diffusione dei giornali. Pensa alla leva: giovani di regioni diverse dovevano capirsi nella stessa lingua. La prosa abbandona la complessa sintassi classica, per modelli più agili e vicini al parlato, influenzati dal giornalismo. La poesia oscilla tra il recupero di uno stile elevato, con Carducci e D'Annunzio, e la sperimentazione di linguaggi più semplici o compositi, con Pascoli e gli Scapigliati.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP4",
+  "testo": "Ecco la mappa della storia della lingua italiana. Primo ramo, il problema: nel milleottocentosessantuno l'analfabetismo supera il settantotto per cento. Secondo ramo, i dialetti: la maggioranza comunica solo in dialetto. Terzo ramo, la scuola e la leva: due fattori di coesione. Quarto ramo, le migrazioni e i giornali: gli altri due fattori. Quinto ramo, la prosa: più agile e vicina al parlato. Ultimo ramo, la poesia: tra stile elevato e linguaggi più semplici.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AP5a",
+  "testo": "Entriamo nella vita e nell'opera di Charles Bodlèr. Nasce a Parigi nel milleottocentoventuno, ed è un precursore del Decadentismo. Incarna la figura del dèndi e del boemièn: un'esistenza irregolare, segnata dall'oppio, dai debiti e dai conflitti con la famiglia. La sua opera principale, I fiori del male, esce nel milleottocentocinquantasette. Fa scandalo, e subisce un processo per immoralità. Ha una struttura rigorosa, divisa in sezioni, come Splin e ideale e I quadri parigini. Al centro c'è un conflitto: l'aspirazione al bene da una parte, l'attrazione per il male dall'altra. Poi c'è l'orrore per la mediocrità borghese, e l'uso dell'allegoria per descrivere la degradazione della vita cittadina moderna.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP5",
+  "testo": "Ecco la mappa di Charles Bodlèr. Primo ramo, la vita: nasce a Parigi nel milleottocentoventuno. Secondo ramo, la figura: dèndi e boemièn, tra oppio, debiti e conflitti familiari. Terzo ramo, I fiori del male: del milleottocentocinquantasette, scandalo e processo. Quarto ramo, la struttura: Splin e ideale, e I quadri parigini. Quinto ramo, il conflitto: il bene e il male. Ultimo ramo, la città: mediocrità borghese e allegoria della vita moderna.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AP6a",
+  "testo": "Vediamo da vicino le innovazioni poetiche di Bodlèr. In Corrispondenze la natura è una foresta di simboli. Tutti gli elementi sono legati da legami segreti, che solo la sensibilità del poeta riesce a cogliere. Nell'Albatro, il poeta è maestoso e superiore nel mondo dell'arte. Ma è goffo, deriso e isolato, quando entra in contatto con la società comune. Lo splin descrive una profonda depressione e una claustrofobia mentale, con immagini cupe e opprimenti della città e del cielo. Nei poemi in prosa, come Lo splin di Parigi, Bodlèr scrive senza ritmo regolare e senza rima, ma con una forte musicalità interna. In Perdita d'aureola, il poeta perde l'aureola nel fango della strada, mentre attraversa il traffico caotico della città moderna. È la perdita del prestigio sociale dell'intellettuale: ma il poeta non la recupera, e rifiuta la dignità sacrale che il pubblico borghese vorrebbe imporgli.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP6",
+  "testo": "Ecco la mappa delle innovazioni poetiche. Primo ramo, Corrispondenze: la natura come foresta di simboli. Secondo ramo, L'albatro: il poeta maestoso nell'arte e goffo tra gli uomini. Terzo ramo, lo splin: depressione e claustrofobia mentale. Quarto ramo, Perdita d'aureola: il poeta perde il prestigio sociale. Quinto ramo, i poemi in prosa: nessuna rima, forte musicalità interna. Ultimo ramo, l'eredità: Bodlèr iniziatore di molti filoni poetici, dall'estetismo alla malinconia del Decadentismo.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MPF",
+  "testo": "Per finire, la mappa di tutta la lezione, con l'età del Naturalismo e del Decadentismo al centro. Primo ramo, il Regno d'Italia: dalla nascita nel milleottocentosessantuno alla crisi di fine secolo. Secondo ramo, l'economia e la società: il divario tra Nord e Sud, la borghesia industriale, il Partito Socialista. Terzo ramo, la cultura: scuola, editoria e il nuovo ruolo degli intellettuali. Quarto ramo, la lingua: dal dialetto all'italiano comune. Quinto ramo, Charles Bodlèr: il poeta maledetto e I fiori del male. Ultimo ramo, le innovazioni poetiche: corrispondenze, albatro, splin e poemi in prosa.",
+  "lingua": "it"
+ }
+]
