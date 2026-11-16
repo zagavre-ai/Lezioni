@@ -1,0 +1,147 @@
+[
+ {
+  "nome": "BENV",
+  "testo": "Benvenuta e benvenuto alla lezione di Storia. Oggi parliamo del dopoguerra italiano e della nascita del fascismo, dal 1919 al 1925. Vedremo la crisi del Biennio rosso, il mito della vittoria mutilata e l'impresa di Fiume. Poi la nascita dei Fasci di combattimento e lo squadrismo. Nella seconda parte: le elezioni del 1921, la Marcia su Roma, il primo governo Mussolini, il delitto Matteotti e il discorso del 3 gennaio 1925.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN1",
+  "testo": "La linea del tempo del Biennio rosso. Il 4 novembre 1918 l'Italia firma l'armistizio di Villa Giusti. Tra il 1919 e il 1920 scoppiano tumulti nelle campagne e nelle città. Nel settembre del 1920 gli operai del Nord occupano le fabbriche. Nello stesso anno Giolitti torna al governo e media un accordo tra lavoratori e proprietari.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN2",
+  "testo": "Perché esplode la protesta? Prima causa: ai soldati contadini era stata promessa la terra, ma la promessa non fu mantenuta. Conseguenza: scioperi e occupazioni dei terreni incolti. Seconda causa: caro vita, deficit pubblico e disoccupazione. Conseguenza: le rivolte arrivano anche nelle città e nelle fabbriche.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R1",
+  "testo": "Ripassiamo. Dopo la guerra l'Italia è impoverita, con un forte deficit pubblico e due milioni di disoccupati. I contadini attendono la terra promessa, gli operai occupano le fabbriche nel settembre del 1920. Molti guardano alla Russia bolscevica. È il Biennio rosso.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN3",
+  "testo": "Che cosa ottiene l'Italia dai trattati di pace? Trento e Trieste, il Friuli, la Venezia Giulia, l'Istria e l'Alto Adige. Che cosa non ottiene? La Dalmazia, la città di Fiume e le colonie tedesche. Da qui nasce il mito della vittoria mutilata.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN4",
+  "testo": "Fiume, una vicenda in tre tappe. Il 12 settembre 1919 Gabriele D'Annunzio guida i legionari e occupa la città. Per circa un anno governa una piccola repubblica nel Carnaro. Alla fine l'esercito italiano interviene e Fiume non viene annessa. Intanto, a novembre, si vota con le nuove regole.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R2",
+  "testo": "Ripassiamo. La vittoria mutilata è il mito di chi ritiene che la pace abbia tradito l'Italia. D'Annunzio occupa Fiume nel settembre 1919 e mette in crisi lo Stato liberale. Alle elezioni del 1919 vale il suffragio maschile dai ventuno anni e il sistema proporzionale. I socialisti diventano il primo partito. Nasce il Partito Popolare di don Sturzo.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN5",
+  "testo": "Chi aderisce ai Fasci di combattimento? Reduci nazionalisti delusi dalla politica liberale, intellettuali futuristi come Marinetti, giovani della borghesia. Li unisce l'esaltazione della violenza, l'amore per il pericolo e un forte sentimento antisocialista.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN6",
+  "testo": "Come agisce lo squadrismo? Gruppi armati si muovono sui camion nelle campagne padane. Assaltano e incendiano le sedi dei sindacati socialisti. Picchiano e umiliano i capi delle leghe rosse. I grandi proprietari terrieri finanziano i fasci. E gran parte di funzionari, militari e magistrati lascia fare.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R3",
+  "testo": "Ripassiamo. Il 23 marzo 1919 Mussolini fonda a Milano i Fasci italiani di combattimento. Il programma di San Sepolcro è contraddittorio. Alle elezioni del 1919 prendono circa cinquemila voti. Poi nascono le camicie nere, le spedizioni punitive e l'assalto a Palazzo d'Accursio a Bologna. Alla fine del 1920 i fasci contano circa ventimila iscritti.",
+  "lingua": "it"
+ },
+ {
+  "nome": "GL1",
+  "testo": "Parole chiave della prima parte. Biennio rosso: gli anni 1919 e 1920, con scioperi e occupazioni. Vittoria mutilata: il mito di una pace che ha tradito l'Italia. Suffragio universale maschile: il voto a tutti i maschi di ventuno anni. Sistema proporzionale: i seggi seguono i voti ottenuti. Squadrismo: la violenza organizzata delle camicie nere. Manifesto di San Sepolcro: il programma dei Fasci, del 1919.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RF1",
+  "testo": "Ricapitoliamo la prima parte. Primo: il Biennio rosso e la crisi economica e sociale del dopoguerra. Secondo: la vittoria mutilata, l'impresa di Fiume e le elezioni del 1919. Terzo: la nascita del fascismo e lo squadrismo agrario. Nella seconda parte vedremo come questo movimento arriva al potere.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RP1",
+  "testo": "Prima di continuare, un breve ripasso della prima parte. Dopo la guerra l'Italia è in crisi: è il Biennio rosso. Il mito della vittoria mutilata e l'impresa di Fiume indeboliscono lo Stato liberale. Nel 1919 Mussolini fonda i Fasci di combattimento, e le camicie nere diffondono la violenza squadrista. Ora vediamo come il fascismo conquista il potere.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN7",
+  "testo": "Dal trattato di Rapallo al partito fascista. Novembre 1920: il trattato di Rapallo fa di Fiume una città libera. Dicembre 1920: il Natale di sangue. Gennaio 1921: la scissione di Livorno e la nascita del Partito Comunista d'Italia. Maggio 1921: le elezioni con i Blocchi nazionali. Novembre 1921: nasce il Partito nazionale fascista.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN8",
+  "testo": "I numeri delle elezioni del 1921. Il Partito socialista ottiene 123 seggi. I popolari ne ottengono 108. I Blocchi nazionali conquistano 105 seggi, e tra questi 35 sono fascisti, compreso Mussolini.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R4",
+  "testo": "Ripassiamo. Giolitti risolve la crisi di Fiume con il trattato di Rapallo. Poi tenta di usare i fascisti contro i socialisti, inserendoli nei Blocchi nazionali. Le elezioni del 1921 portano in Parlamento trentacinque deputati fascisti. A novembre nasce il Partito nazionale fascista, con oltre trecentomila iscritti. Il patto di pacificazione divide Mussolini e i ras.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN9",
+  "testo": "La Marcia su Roma, in tre date. Il 16 ottobre 1922, a Milano, una riunione segreta la pianifica. Il 27 e il 28 ottobre circa venticinquemila camicie nere convergono sulla capitale. Il 30 ottobre Mussolini riceve l'incarico di formare il governo.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN10",
+  "testo": "Perché il re non firma lo stato d'assedio? Primo: teme una guerra civile. Secondo: non è sicuro della fedeltà dell'esercito. Terzo: teme che il duca d'Aosta, simpatizzante fascista, prenda il suo posto. Così non firma, e le camicie nere possono arrivare a Roma.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R5",
+  "testo": "Ripassiamo. Nel 1922 lo squadrismo occupa intere città. Il governo Facta è debolissimo. Il quadrumvirato guida la Marcia su Roma. Il re non firma lo stato d'assedio e il 30 ottobre incarica Mussolini di formare un governo di coalizione.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN11",
+  "testo": "Due nuove istituzioni. Il Gran Consiglio del fascismo è un organo di partito, non previsto dalla Costituzione, che affianca lo Stato. La Milizia volontaria per la sicurezza nazionale legalizza le squadre d'azione, ed è fedele a un capo e a un partito, non allo Stato.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN12",
+  "testo": "Il triennio di consolidamento. 30 ottobre 1922: Mussolini guida il governo di coalizione. 6 novembre 1922: il discorso del bivacco alla Camera. Fine 1922 e inizio 1923: nascono il Gran Consiglio e la Milizia. Novembre 1923: la legge Acerbo.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R6",
+  "testo": "Ripassiamo. Mussolini mantiene un formale rispetto delle istituzioni, ma occupa i ministeri chiave. Con il discorso del bivacco intimidisce la Camera, che vota comunque la fiducia. Gran Consiglio e Milizia svuotano lo Stato liberale.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN13",
+  "testo": "I numeri della legge Acerbo. Basta ottenere il 25 per cento dei voti per avere i due terzi dei seggi. Alle elezioni del 6 aprile 1924 il Listone fascista conquista il 65 per cento.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN14",
+  "testo": "Da Matteotti alla dittatura. 30 maggio 1924: il discorso di Matteotti alla Camera. 10 giugno 1924: il suo assassinio. Poi la secessione dell'Aventino. 3 gennaio 1925: il discorso di Mussolini. Dal 1925 al 1927: le leggi fascistissime.",
+  "lingua": "it"
+ },
+ {
+  "nome": "R7",
+  "testo": "Ripassiamo. La legge Acerbo e le violenze elettorali portano il Listone al sessantacinque per cento. Matteotti denuncia i brogli e viene assassinato. L'Aventino si rivela inefficace. Il 3 gennaio 1925 Mussolini si assume ogni responsabilità e comincia la trasformazione in dittatura.",
+  "lingua": "it"
+ },
+ {
+  "nome": "GL2",
+  "testo": "Parole chiave della seconda parte. Marcia su Roma: la mobilitazione delle camicie nere nell'ottobre del 1922. Stato d'assedio: il passaggio dei poteri ai militari, che il re rifiuta. Gran Consiglio del fascismo: organo di partito accanto allo Stato. Milizia volontaria: le squadre d'azione legalizzate. Legge Acerbo: premio di maggioranza ai due terzi. Aventino: la protesta delle opposizioni. Leggi fascistissime: le norme che costruiscono la dittatura.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RF2",
+  "testo": "Ricapitoliamo la seconda parte. Giolitti e i Blocchi nazionali portano i fascisti in Parlamento, e nasce il Partito nazionale fascista. Con la Marcia su Roma Mussolini ottiene il governo. Poi la Milizia, il Gran Consiglio e la legge Acerbo. Il delitto Matteotti apre la crisi, e il 3 gennaio 1925 comincia la dittatura.",
+  "lingua": "it"
+ },
+ {
+  "nome": "FIN2",
+  "testo": "Questa lezione è finita. Prima di passare alla verifica finale, ripassa con calma gli argomenti e le mappe. Buono studio.",
+  "lingua": "it"
+ },
+ {
+  "nome": "CINTRO",
+  "testo": "Ora passiamo ai compiti. Rispondi alle domande del professore con parole tue.",
+  "lingua": "it"
+ }
+]
