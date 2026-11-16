@@ -2,18 +2,18 @@
  "tag": "letteratura-V-lez13",
  "parti": {
   "1": {
-   "stato": "IN_MONTAGGIO",
+   "stato": "PRONTA",
    "titolo": "Italo Svevo · Parte 1",
    "voci": "kore",
    "quiz_ok": "si",
    "fermi_ok": "si",
    "sub_ok": "si",
    "video": "Letteratura_Lez13_Parte1_1080p.mp4",
-   "durata_s": 2589.2,
-   "durata": "43:09.2",
-   "fotogrammi": 77675,
-   "fotogrammi_attesi": 77676,
-   "peso_MB": 196.1,
+   "durata_s": 3143.9,
+   "durata": "52:23.9",
+   "fotogrammi": 94317,
+   "fotogrammi_attesi": 94317,
+   "peso_MB": 197.8,
    "vtt": "Letteratura_Lez13_Parte1.vtt",
    "scheda": {
     "materia": "Letteratura italiana (V)",
@@ -232,17 +232,17 @@
   },
   "2": {
    "titolo": "Italo Svevo · Parte 2",
-   "stato": "IN_MONTAGGIO",
+   "stato": "PRONTA",
    "voci": "kore",
    "quiz_ok": "si",
    "fermi_ok": "si",
    "sub_ok": "si",
    "video": "Letteratura_Lez13_Parte2_1080p.mp4",
-   "durata_s": 2740.5,
-   "durata": "45:40.5",
-   "fotogrammi": 82215,
-   "fotogrammi_attesi": 82215,
-   "peso_MB": 225.2,
+   "durata_s": 3200.3,
+   "durata": "53:20.3",
+   "fotogrammi": 96010,
+   "fotogrammi_attesi": 96010,
+   "peso_MB": 220.1,
    "vtt": "Letteratura_Lez13_Parte2.vtt",
    "scheda": {
     "materia": "Letteratura italiana (V)",
@@ -385,10 +385,14 @@
   {
    "quando": "16/11 07:57",
    "testo": "Letteratura V · chat H: presa in carico (stato fermo da >2h). v1 + approfondimenti con voci Kore vere, in montaggio"
+  },
+  {
+   "quando": "16/11 08:36",
+   "testo": "PRONTA v2 (chat H): Parte 1 52:24, Parte 2 53:20; approfondimenti e mappe con voce Kore, Mappe_letteratura-V-lez13.pdf, compiti del prof nel video (Parte 2) + compiti.json, schede a bande blu, jingle 0,0 s, volume e fermi OK. Sottotitoli: controllo automatico 65-73% sul campione (falsi positivi sul fine-parlato, verificato sul profilo audio), nomi corretti dove certo"
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 13",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-16 07:57:32"
+ "aggiornato": "2026-11-16 08:36:36"
 }
