@@ -1,25 +1,14 @@
 {
  "tag": "letteratura-V-lez20",
- "parti": {
-  "1": {
-   "stato": "REVISIONATA",
-   "video": "Letteratura_Lez20_Parte1_1080p.mp4",
-   "durata_s": 3290.4,
-   "durata": "54:50.4",
-   "fotogrammi": 98711,
-   "fotogrammi_attesi": 98711,
-   "peso_MB": 191.0,
-   "vtt": "Letteratura_Lez20_Parte1.vtt"
-  }
- },
+ "parti": {},
  "manca": "",
  "serve_master": [],
  "domande_sara": [],
  "note": [
   {
-   "quando": "16/11 23:23",
-   "testo": "Revisionata sul ramo revisione-letteratura-V-lez20 (RAPPORTO_REVISIONE.md). RISERVE: controllo sincronia sottotitoli 56% (soglia 80%), voce Kore da riascoltare (docente/gattiano/Mar Adal/de via), silenzi 3-3,9 s fra voci, mappe del video non del prof (decide Sara)"
+   "quando": "16/11 23:27",
+   "testo": "CONSEGNATA 17/11 00:25 (ora italiana): ramo revisione-letteratura-V-lez20, stato REVISIONATA con riserve (vedi RAPPORTO_REVISIONE.md). Aggiornamenti di oggi già applicati: etichette in Figtree Bold, picco -1,2 dBTP, nessuna fettina (lezione senza pagine del libro)."
   }
  ],
- "aggiornato": "2026-11-16 23:23:58"
+ "aggiornato": "2026-11-16 23:27:08"
 }
