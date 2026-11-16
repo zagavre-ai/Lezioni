@@ -1,0 +1,28 @@
+{
+ "tag": "letteratura-V-lez11",
+ "parti": {
+  "1": {
+   "stato": "REVISIONATA",
+   "video": "Letteratura_Lez11_Parte1_1080p.mp4",
+   "durata_s": 3100.4,
+   "durata": "51:40.4",
+   "fotogrammi": 93010,
+   "fotogrammi_attesi": 93011,
+   "peso_MB": 240.0
+  }
+ },
+ "manca": "",
+ "serve_master": [],
+ "domande_sara": [],
+ "note": [
+  {
+   "quando": "16/11 18:27",
+   "testo": "IN_REVISIONE: chat revisione 11 avviata"
+  },
+  {
+   "quando": "16/11 19:53",
+   "testo": "REVISIONATA: ramo revisione-letteratura-V-lez11, vedi RAPPORTO_REVISIONE.md"
+  }
+ ],
+ "aggiornato": "2026-11-16 19:53:11"
+}
