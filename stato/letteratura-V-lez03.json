@@ -2,7 +2,14 @@
  "tag": "letteratura-V-lez03",
  "parti": {
   "1": {
-   "stato": "IN_REVISIONE"
+   "stato": "REVISIONATA",
+   "video": "Letteratura_Lez3_Parte1_1080p.mp4",
+   "durata_s": 3732.9,
+   "durata": "62:12.9",
+   "fotogrammi": 111988,
+   "fotogrammi_attesi": 111988,
+   "peso_MB": 414.4,
+   "vtt": "Letteratura_Lez3_Parte1.vtt"
   }
  },
  "manca": "sorgenti di montaggio lez.3 e modello Whisper",
@@ -21,10 +28,14 @@
   {
    "quando": "16/11 18:29",
    "testo": "ripartita: trascrizione con trascrivi.py"
+  },
+  {
+   "quando": "16/11 20:01",
+   "testo": "REVISIONATA: ramo revisione-letteratura-V-lez03. Da rigenerare 3 voci Kore (Levia Gravia, Giambi ed Epodi, Le Odi barbare). Date mappa/slide da confermare col prof."
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 3 · Carducci",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-16 18:29:22"
+ "aggiornato": "2026-11-16 20:01:43"
 }
