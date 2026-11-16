@@ -343,10 +343,14 @@
   {
    "quando": "15/11 02:37",
    "testo": "chat R3: IN_MONTAGGIO, pronta, attende voci Kore (quota Google, riparte alle 09:00 italiane). Intanto fatti: testi, animazioni e mappe con segnaposto, compiti del prof (compiti.json e nuova scheda Compiti), tempi. Controllo vox/ ogni 30 minuti; poi unica codifica finale."
+  },
+  {
+   "quando": "16/11 07:31",
+   "testo": "Letteratura V · chat G (16/11 07:35): presa. IN_MONTAGGIO v2 su base della consegna del 14/11: approfondimenti animati con voci Kore già sul ramo voci, mappe nel video + Mappe PDF, verifica/compiti nel nuovo formato (bande blu)."
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 10",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 06:23:15"
+ "aggiornato": "2026-11-16 07:31:30"
 }
