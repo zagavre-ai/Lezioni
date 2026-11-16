@@ -1,31 +1,31 @@
 {
  "materia": "Letteratura italiana (V)",
  "titolo": "Primo Levi · Parte 1",
- "durata_s": 1443.53,
+ "durata_s": 3192.53,
  "argomenti": [
   {
    "n": 1,
    "titolo": "La vita e la formazione",
    "inizio_s": 198.467,
-   "quiz_s": 418.2
+   "quiz_s": 765.533
   },
   {
    "n": 2,
    "titolo": "La sopravvivenza nel Lager",
-   "inizio_s": 423.5,
-   "quiz_s": 709.633
+   "inizio_s": 770.833,
+   "quiz_s": 1452.2
   },
   {
    "n": 3,
    "titolo": "Se questo è un uomo",
-   "inizio_s": 714.933,
-   "quiz_s": 1030.266
+   "inizio_s": 1457.5,
+   "quiz_s": 2194.399
   },
   {
    "n": 4,
    "titolo": "La tregua",
-   "inizio_s": 1035.566,
-   "quiz_s": 1311.632
+   "inizio_s": 2199.699,
+   "quiz_s": 2980.732
   }
  ],
  "quiz": {
@@ -249,5 +249,119 @@
     }
    ]
   }
- }
+ },
+ "t_verifica": 3167.932,
+ "t_compiti": 3186.232,
+ "approfondimenti": [
+  {
+   "id": "AN1",
+   "titolo": "La vita di Primo Levi",
+   "inizio_s": 380.267
+  },
+  {
+   "id": "AN2",
+   "titolo": "Il contesto storico di Levi",
+   "inizio_s": 487.233
+  },
+  {
+   "id": "AN3",
+   "titolo": "Parole chiave del primo argomento",
+   "inizio_s": 565.433
+  },
+  {
+   "id": "AN4",
+   "titolo": "Primo Levi",
+   "inizio_s": 648.0
+  },
+  {
+   "id": "AN5",
+   "titolo": "Come sopravvive Levi",
+   "inizio_s": 1024.233
+  },
+  {
+   "id": "AN6",
+   "titolo": "Dalla liberazione al ritorno",
+   "inizio_s": 1111.433
+  },
+  {
+   "id": "AN7",
+   "titolo": "Il tormento di non essere creduto",
+   "inizio_s": 1177.1
+  },
+  {
+   "id": "AN8",
+   "titolo": "Due vite: il chimico e lo scrittore",
+   "inizio_s": 1243.367
+  },
+  {
+   "id": "AN9",
+   "titolo": "La sopravvivenza",
+   "inizio_s": 1331.933
+  },
+  {
+   "id": "AN10",
+   "titolo": "Se questo è un uomo: la scheda",
+   "inizio_s": 1719.4
+  },
+  {
+   "id": "AN11",
+   "titolo": "La macchina del Lager",
+   "inizio_s": 1787.5
+  },
+  {
+   "id": "AN12",
+   "titolo": "I salvati e i sommersi",
+   "inizio_s": 1849.4
+  },
+  {
+   "id": "AN13",
+   "titolo": "Lo stile di Se questo è un uomo",
+   "inizio_s": 1904.133
+  },
+  {
+   "id": "AN14",
+   "titolo": "Parole chiave del terzo argomento",
+   "inizio_s": 1989.6
+  },
+  {
+   "id": "AN15",
+   "titolo": "Se questo è un uomo",
+   "inizio_s": 2065.6
+  },
+  {
+   "id": "AN16",
+   "titolo": "La tregua: la scheda",
+   "inizio_s": 2439.033
+  },
+  {
+   "id": "AN17",
+   "titolo": "Le due opere fondamentali a confronto",
+   "inizio_s": 2512.167
+  },
+  {
+   "id": "AN18",
+   "titolo": "Dalla fantascienza alla chimica",
+   "inizio_s": 2574.867
+  },
+  {
+   "id": "AN19",
+   "titolo": "Dalla Chiave a stella ai Sommersi e i salvati",
+   "inizio_s": 2664.867
+  },
+  {
+   "id": "AN20",
+   "titolo": "Il sistema periodico: lettura guidata",
+   "inizio_s": 2781.667
+  },
+  {
+   "id": "AN21",
+   "titolo": "Parole chiave dell'ultimo argomento",
+   "inizio_s": 2864.233
+  },
+  {
+   "id": "ANF",
+   "titolo": "Primo Levi",
+   "inizio_s": 2986.033
+  }
+ ]
 }
