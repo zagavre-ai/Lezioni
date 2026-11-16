@@ -470,7 +470,7 @@ async function vistaDispense(dove){
   try{DISPENSE=(await api('dispense')).dispense}catch(e){$('#dlista').innerHTML=`<div class="msg no">${esc(e.message)}</div>`;return}
   const per={};DISPENSE.forEach(d=>(per[d.materia]||=[]).push(d));
   const ord=Object.keys(per).sort();
-  $('#dlista').innerHTML=ord.length?ord.map(m=>`<h2 class="disp-m">${esc(m)} (${per[m].length})</h2>`+per[m].map(d=>`<div class="card disp"><div><b>${esc(d.titolo)}</b><br><span class="note">${dd(d.data)}${d.lezione?' · '+esc(d.lezione):''}${puo&&d.persone?.nome?' · caricata da '+esc(d.persone.nome):''}${puo&&d.alunni?.length?' · solo per '+d.alunni.length+(d.alunni.length>1?' alunni':' alunno'):''}</span></div>
+  $('#dlista').innerHTML=ord.length?ord.map(m=>`<h2 class="disp-m">${esc(m)} (${per[m].length})</h2>`+per[m].map(d=>`<div class="card disp"><div><b>${esc(d.titolo)}</b><br><span class="note">${dd(d.data)}${d.lezione?' · '+esc(d.lezione):''}${puo&&d.alunni?.length?' · solo per '+d.alunni.length+(d.alunni.length>1?' alunni':' alunno'):''}</span></div>
     <div style="display:flex;gap:8px"><button class="btn sec" data-vedi="${esc(d.file)}">Apri</button>${d.puo_togliere?`<button class="esci" data-togli="${d.id}">togli</button>`:''}</div></div>`).join('')).join('')
     :`<div class="vuoto">${puo?'Nessuna dispensa caricata.':'Non ci sono ancora dispense per le tue materie.'}</div>`;
   collegaVedi('#dlista');
