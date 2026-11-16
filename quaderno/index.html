@@ -80,6 +80,8 @@ input[type=file].nasc{display:none}
 .vuoto{color:var(--mut);padding:18px;text-align:center;background:#fff;border:1px dashed var(--line);border-radius:8px}
 .codice{font:bold 20px/1.2 ui-monospace,Menlo,monospace;letter-spacing:.08em;background:var(--soft2);padding:8px 12px;border-radius:6px;display:inline-block}
 @media (max-width:640px){h1{font-size:21px}table.l .mob-no{display:none}}
+#aiuto{position:fixed;right:max(16px,env(safe-area-inset-right,0px));bottom:max(16px,env(safe-area-inset-bottom,0px));z-index:9;background:#FFE600;color:#0a1d37;border:2px solid #0a1d37;border-radius:999px;padding:10px 16px;font-weight:700;font-size:15px;cursor:pointer;box-shadow:0 3px 10px rgba(0,0,0,.2)}
+.aiu{border-left:4px solid #C2410C}.aiu.ok{border-left-color:#15803D}.mp-sync{font-size:13px;color:#555}
 </style>
 <meta name="versione" content="2026-11-12c">
 <script>/* se GitHub ha una versione più nuova di questa pagina, la carica subito (niente più «non vedo le novità») */
@@ -90,6 +92,7 @@ if(m&&m[1]!==mia){var k='aggiornata_'+m[1];try{if(sessionStorage.getItem(k))retu
 <body>
 <header class="top"><div class="wrap"><span class="eyebrow">Centro Studi Telesio · Quaderno dei compiti</span><button class="esci" id="esci" hidden>Esci</button></div></header>
 <main class="wrap" id="app"></main>
+<button id="aiuto" hidden>? Chiedi aiuto</button>
 <div id="modal"><div class="box"><button class="btn sec chiudi" id="mchiudi">Chiudi</button><div id="mbody"></div></div></div>
 <script>
 const API='https://tsguzxawpywxrydazhrc.supabase.co/functions/v1/quaderno';
@@ -148,13 +151,14 @@ async function entra(c,salva){
   try{IO=await api('accesso')}catch(e){CODICE='';ricorda('');return schermataAccesso(e.message==='Codice non valido'?'Codice non valido. Controlla di averlo scritto bene.':'Non riesco a collegarmi: '+e.message)}
   if(!(IO.tipo==='staff'&&/zagarese/i.test(IO.nome||''))){CODICE='';IO=null;ricorda('');$('#app').innerHTML='<div style="max-width:520px;margin:60px auto;padding:24px;font-family:Arial,sans-serif;text-align:center"><h2 style="color:#0a1d37">In manutenzione</h2><p>Stiamo aggiornando questa pagina. Tornerà disponibile a breve.</p><p style="font-size:13px;color:#666">Centro Studi Telesio</p></div>';return}/* MANUTENZIONE 14/11 */
   if(salva)ricorda(c);
-  $('#esci').hidden=false;
+  $('#esci').hidden=false;$('#aiuto').hidden=IO.tipo==='staff';
   if(IO.tipo==='alunno'){await caricaCompiti();return vistaAlunno()}
   TAB='correggere';
   await Promise.all([caricaCompiti(),api('alunni').then(r=>ALUNNI=r.alunni),api('nomi').then(r=>r.persone.forEach(p=>NOMI[p.id]=p.nome))]);
+  if(STAFF())try{AIUTI_APERTE=(await api('aiuti')).aiuti.filter(x=>x.stato==='aperta').length}catch(e){}
   vistaScuola();
 }
-$('#esci').onclick=()=>{ricorda('');CODICE='';IO=null;COMPITI=[];schermataAccesso()};
+$('#esci').onclick=()=>{ricorda('');CODICE='';IO=null;COMPITI=[];$('#aiuto').hidden=true;clearInterval(MSYNC);schermataAccesso()};
 async function caricaCompiti(){COMPITI=(await api('lista')).compiti}
 
 /* ---------------- vista alunno (telefono) ---------------- */
@@ -217,13 +221,13 @@ function filtra(){return COMPITI.filter(c=>(!F.alunno||c.alunno_id===F.alunno)&&
 function vistaScuola(msg){
   const dc=COMPITI.filter(c=>c.stato==='consegnato'),dv=COMPITI.filter(c=>c.stato==='corretto');
   const tabs=[['correggere','Da correggere',dc.length]];if(STAFF())tabs.push(['verificare','Da verificare',dv.length]);
-  tabs.push(['tutti','Tutti i compiti',0],['assegna','Assegna un compito',0],['dispense','Dispense di studio',0]);if(STAFF())tabs.push(['vistaalunno','Vista alunno',0],['docenti','Docenti',0]);tabs.push(['esporta','Esporta',0]);
+  tabs.push(['tutti','Tutti i compiti',0],['assegna','Assegna un compito',0],['dispense','Dispense di studio',0],['mappe','Mappe degli alunni',0]);if(STAFF())tabs.push(['vistaalunno','Vista alunno',0],['docenti','Docenti',0],['aiuti','Richieste di aiuto',AIUTI_APERTE]);tabs.push(['esporta','Esporta',0]);
   let h=`<h1>Quaderno dei compiti</h1><div class="bar"></div><div class="who"><b>${esc(IO.nome)}</b> · ${STAFF()?'coordinamento e direzione':'docente di '+esc(IO.materie.join(', '))}</div>${msg||''}
   <div class="tabs">${tabs.map(t=>`<button data-tab="${t[0]}" class="${TAB===t[0]?'on':''}">${t[1]}${t[2]?`<span class="n">${t[2]}</span>`:''}</button>`).join('')}</div><div id="tab"></div>`;
   $('#app').innerHTML=h;document.querySelectorAll('[data-tab]').forEach(b=>b.onclick=()=>{TAB=b.dataset.tab;vistaScuola()});
   ({correggere:()=>tabella(dc.sort((a,b)=>ultimo(a,'consegna').localeCompare(ultimo(b,'consegna'))),'Nessun compito da correggere.'),
     verificare:()=>tabella(dv,'Nessun compito corretto da verificare.'),
-    tutti:tabTutti,dispense:()=>vistaDispense('#tab'),vistaalunno:tabVistaAlunno,assegna:tabAssegna,docenti:tabDocenti,esporta:tabEsporta})[TAB]();
+    tutti:tabTutti,dispense:()=>vistaDispense('#tab'),mappe:tabMappeAlunni,aiuti:tabAiuti,vistaalunno:tabVistaAlunno,assegna:tabAssegna,docenti:tabDocenti,esporta:tabEsporta})[TAB]();
 }
 const ultimo=(c,t)=>([...c.eventi].reverse().find(e=>e.tipo===t)||{}).il||'';
 function tabella(l,vuoto,dove='#tab'){
@@ -254,6 +258,37 @@ function tabVistaAlunno(){
     vistaAlunno('',{lista:COMPITI.filter(c=>c.alunno_id===VA),nome:a.nome,ro:true,dove:'#va'});
     const m=document.createElement('div');m.id='vam';$('#va').appendChild(m);vistaMappe('#vam',VA)};
   $('#va1').onchange=e=>{VA=e.target.value;mostra()};$('#va2').onclick=async()=>{await caricaCompiti();mostra()};mostra();
+}
+let MA='';
+function tabMappeAlunni(){
+  $('#tab').innerHTML=`<div class="filtri"><select id="ma1"><option value="">Scegli l'alunno…</option>${ALUNNI.map(a=>`<option value="${a.id}" ${MA===a.id?'selected':''}>${esc(a.nome)}</option>`).join('')}</select></div><div id="ma"></div>`;
+  const mostra=()=>{if(!MA){$('#ma').innerHTML='<div class="vuoto">Scegli un alunno: vedi le sue mappe, le puoi completare con lui o crearne una nuova per lui.</div>';return}vistaMappe('#ma',MA,true)};
+  $('#ma1').onchange=e=>{MA=e.target.value;mostra()};mostra();
+}
+/* ---------------- 16/11: «Chiedi aiuto» ---------------- */
+function doveSono(){const h=$('#app h1');const t=document.querySelector('.tabs .on');return [(h&&h.textContent)||'',(t&&t.textContent)||''].filter(Boolean).join(' · ')}
+$('#aiuto').onclick=async()=>{const ctx=doveSono();
+  $('#mbody').innerHTML=`<h2 style="margin-top:0">Chiedi aiuto</h2><p class="note">Scrivi in due righe che cosa non funziona o che cosa ti serve. Arriva alla coordinatrice, che ti risponde qui.</p>
+   <textarea class="t" id="aiut" rows="4" style="width:100%" placeholder="es. Non riesco a caricare la foto del compito di Matematica"></textarea>
+   <button class="btn big" id="aiugo" style="margin-top:10px">Invia</button><div id="aiues"></div><div id="aiumie"></div>`;
+  $('#modal').style.display='block';$('#aiut').focus();
+  const mie=async()=>{try{const l=(await api('aiuti')).aiuti;$('#aiumie').innerHTML=l.length?'<h3 style="font-size:16px;margin:20px 0 4px">Le tue richieste</h3>'+l.map(x=>`<div class="card aiu ${x.stato==='risolta'?'ok':''}"><div class="note">${dlo(x.creata)} · ${x.stato==='risolta'?'risolta':'in attesa'}</div><div style="white-space:pre-wrap">${esc(x.testo)}</div>${x.risposta?`<div style="margin-top:6px"><b>Risposta:</b> <span style="white-space:pre-wrap">${esc(x.risposta)}</span></div>`:''}</div>`).join(''):''}catch(e){}};
+  mie();
+  $('#aiugo').onclick=async()=>{const t=$('#aiut').value.trim();if(!t){$('#aiues').innerHTML='<div class="msg no">Scrivi prima la tua richiesta.</div>';return}
+    $('#aiugo').disabled=true;try{await api('aiuto',{testo:t,contesto:ctx});$('#aiut').value='';$('#aiues').innerHTML='<div class="msg ok">Richiesta inviata. Ti rispondiamo qui il prima possibile.</div>';mie()}catch(e){$('#aiues').innerHTML=`<div class="msg no">Non inviata: ${esc(e.message)}</div>`}$('#aiugo').disabled=false}};
+async function tabAiuti(){
+  $('#tab').innerHTML='<div class="vuoto">Caricamento…</div>';let l=[];try{l=(await api('aiuti')).aiuti}catch(e){$('#tab').innerHTML=`<div class="msg no">${esc(e.message)}</div>`;return}
+  AIUTI_APERTE=l.filter(x=>x.stato==='aperta').length;
+  const card=x=>`<div class="card aiu ${x.stato==='risolta'?'ok':''}"><div class="note">${dlo(x.creata)} · <b>${esc(x.autore_nome||'')}</b> (${x.autore_tipo==='alunno'?'alunno':'docente'})${x.contesto?' · '+esc(x.contesto):''}</div>
+    <div style="white-space:pre-wrap;margin:4px 0">${esc(x.testo)}</div>
+    <textarea class="t" data-ar="${x.id}" rows="2" style="width:100%" placeholder="Risposta (la legge chi ha scritto)">${esc(x.risposta||'')}</textarea>
+    <div style="display:flex;gap:8px;margin-top:6px"><button class="btn sec" data-as="${x.id}">Invia risposta</button>${x.stato==='aperta'?`<button class="btn" data-ok="${x.id}">Risolta</button>`:`<button class="btn sec" data-ri="${x.id}">Riapri</button>`}</div>${x.risposta_da?`<div class="note">Risposta di ${esc(x.risposta_da)} · ${dlo(x.risposta_il)}</div>`:''}</div>`;
+  const ap=l.filter(x=>x.stato==='aperta'),ch=l.filter(x=>x.stato!=='aperta');
+  $('#tab').innerHTML=`<h2 style="font-size:17px;margin:12px 0 4px">Da risolvere (${ap.length})</h2>${ap.length?ap.map(card).join(''):'<div class="vuoto">Nessuna richiesta in attesa. 👍</div>'}${ch.length?`<h2 style="font-size:17px;margin:20px 0 4px">Risolte (${ch.length})</h2>`+ch.map(card).join(''):''}`;
+  const manda=async(id,ris)=>{try{await api('aiuto_rispondi',{id,risposta:document.querySelector(`[data-ar="${id}"]`).value,risolta:ris});await tabAiuti();const b=document.querySelector('[data-tab="aiuti"] .n');if(b)b.textContent=AIUTI_APERTE}catch(e){alert(e.message)}};
+  document.querySelectorAll('[data-as]').forEach(b=>b.onclick=()=>manda(b.dataset.as,undefined));
+  document.querySelectorAll('[data-ok]').forEach(b=>b.onclick=()=>manda(b.dataset.ok,true));
+  document.querySelectorAll('[data-ri]').forEach(b=>b.onclick=()=>manda(b.dataset.ri,false));
 }
 let ALLEGATO=null;
 function tabAssegna(){
@@ -446,22 +481,23 @@ async function vistaDispense(dove){
 /* ---------------- mappe concettuali (BES, per tutti) ---------------- */
 const MCOL=['#2060AF','#C2410C','#15803D','#7E22CE','#B91C1C','#0E7490','#A16207','#0B1530'];
 const MODELLO=()=>({centro:'',rami:[{t:'Concetti chiave',k:'',e:'',c:0,f:[]},{t:'Parole importanti',k:'',e:'',c:1,f:[]},{t:'Esempi',k:'',e:'',c:2,f:[]},{t:'Domande e dubbi',k:'',e:'',c:3,f:[]}]});
-let MAPPA=null,MZOOM=1,MTIMER=null;
-async function vistaMappe(dove,alunno){
-  const ro=IO.tipo!=='alunno';
+let MAPPA=null,MZOOM=1,MTIMER=null,MSYNC=null,MTOCCO=0,AIUTI_APERTE=0;
+async function vistaMappe(dove,alunno,modifica){
+  const ro=IO.tipo!=='alunno'&&!modifica;clearInterval(MSYNC);
   let l=[];try{l=(await api('mappe',ro?{alunno_id:alunno}:{})).mappe}catch(e){$(dove).innerHTML=`<div class="msg no">${esc(e.message)}</div>`;return}
   if(ro){$(dove).innerHTML=`<h2 style="font-size:17px;margin:24px 0 4px">Mappe dell'alunno (${l.length})</h2>`+(l.length?l.map(m=>`<div class="card disp"><div><b>${esc(m.titolo)}</b><br><span class="note">${esc(m.materia)} · aggiornata ${dlo(m.aggiornata)}</span></div><button class="btn sec" data-mapro="${m.id}">Apri</button></div>`).join(''):'<div class="vuoto">Nessuna mappa.</div>');
     document.querySelectorAll(dove+' [data-mapro]').forEach(b=>b.onclick=async()=>{const m=(await api('mappe',{alunno_id:alunno,id:b.dataset.mapro,con_dati:true})).mappe[0];if(!m)return;
       $('#mbody').innerHTML=`<h2 style="margin-top:0">${esc(m.titolo)}</h2><p class="note">${esc(m.materia)}</p><div class="mp-svg">${svgMappa(m.dati,1)}</div>`;$('#modal').style.display='block'});return}
-  const mat=(IO.materie||[]).filter(x=>x!=='Tutte le materie');
-  $(dove).innerHTML=`<div class="card"><p class="note" style="margin-top:0">Durante la lezione costruisci la tua mappa: al centro l'argomento, intorno i rami con i concetti. Si salva da sola.</p>
+  const AL=modifica?ALUNNI.find(x=>x.id===alunno):null;
+  const mat=(AL?(STAFF()||IO.materie.includes('Tutte le materie')?AL.materie:IO.materie):(IO.materie||[])).filter(x=>x!=='Tutte le materie');
+  $(dove).innerHTML=`<div class="card"><p class="note" style="margin-top:0">${AL?`Mappe di <b>${esc(AL.nome)}</b>: le costruite insieme. Le modifiche di ognuno compaiono all'altro dopo pochi secondi, e si salva tutto da solo.`:`Durante la lezione costruisci la tua mappa: al centro l'argomento, intorno i rami con i concetti. Si salva da sola. Il tuo docente può aprirla e completarla insieme a te.`}</p>
    <div class="row"><div><label class="f">Materia</label><select class="t" id="nmm">${(mat.length?mat:['Generale']).map(m=>`<option>${esc(m)}</option>`).join('')}</select></div>
    <div><label class="f">Argomento della mappa</label><input class="t" id="nmt" placeholder="es. Il Neoclassicismo"></div></div>
    <button class="btn big" id="nmgo" style="margin-top:10px">+ Nuova mappa</button></div><div id="mpl"></div>`;
-  $('#mpl').innerHTML=l.length?l.map(m=>`<div class="card disp"><div><b>${esc(m.titolo)}</b><br><span class="note">${esc(m.materia)} · ${dlo(m.aggiornata)}</span></div><div style="display:flex;gap:8px"><button class="btn sec" data-mpa="${m.id}">Apri</button><button class="esci" data-mpt="${m.id}">togli</button></div></div>`).join(''):'<div class="vuoto">Non hai ancora mappe.</div>';
-  $('#nmgo').onclick=async()=>{const t=$('#nmt').value.trim()||'Nuova mappa';const d=MODELLO();d.centro=t;const r=await api('mappa_salva',{materia:$('#nmm').value,titolo:t,dati:d});editorMappa({id:r.id,materia:$('#nmm').value,titolo:t,dati:d},dove)};
-  document.querySelectorAll('[data-mpa]').forEach(b=>b.onclick=async()=>{const m=(await api('mappe',{id:b.dataset.mpa,con_dati:true})).mappe[0];if(m)editorMappa(m,dove)});
-  document.querySelectorAll('[data-mpt]').forEach(b=>b.onclick=async()=>{if(!confirm('Togliere questa mappa?'))return;await api('mappa_togli',{id:b.dataset.mpt});vistaMappe(dove)});
+  $('#mpl').innerHTML=l.length?l.map(m=>`<div class="card disp"><div><b>${esc(m.titolo)}</b><br><span class="note">${esc(m.materia)} · ${dlo(m.aggiornata)}${m.modificata_da?' · '+esc(m.modificata_da):''}</span></div><div style="display:flex;gap:8px"><button class="btn sec" data-mpa="${m.id}">Apri</button>${IO.tipo==='docente'?'':`<button class="esci" data-mpt="${m.id}">togli</button>`}</div></div>`).join(''):'<div class="vuoto">Non hai ancora mappe.</div>';
+  $('#nmgo').onclick=async()=>{const t=$('#nmt').value.trim()||'Nuova mappa';const d=MODELLO();d.centro=t;const r=await api('mappa_salva',{materia:$('#nmm').value,titolo:t,dati:d,alunno_id:AL?alunno:undefined});editorMappa({id:r.id,materia:$('#nmm').value,titolo:t,dati:d,aggiornata:r.aggiornata},dove,AL?alunno:'')};
+  document.querySelectorAll('[data-mpa]').forEach(b=>b.onclick=async()=>{const m=(await api('mappe',{id:b.dataset.mpa,con_dati:true,alunno_id:AL?alunno:undefined})).mappe[0];if(m)editorMappa(m,dove,AL?alunno:'')});
+  document.querySelectorAll('[data-mpt]').forEach(b=>b.onclick=async()=>{if(!confirm('Togliere questa mappa?'))return;await api('mappa_togli',{id:b.dataset.mpt});vistaMappe(dove,alunno,modifica)});
 }
 function svgMappa(d,z){
   const R=d.rami||[],n=Math.max(R.length,1),W=860,H=600,cx=W/2,cy=H/2,rr=215;const wrap=(t,m)=>{const w=String(t||'').split(/\s+/);const o=[];let c='';w.forEach(x=>{if((c+' '+x).trim().length>m){if(c)o.push(c);c=x}else c=(c+' '+x).trim()});if(c)o.push(c);return o.slice(0,4)};
@@ -473,7 +509,7 @@ function svgMappa(d,z){
   g+=`<ellipse cx="${cx}" cy="${cy}" rx="130" ry="62" fill="#FFE600" stroke="#0B1530" stroke-width="4"/>`+txt(cx,cy,d.centro||'Argomento',16,28,'#0B1530',1);
   return `<svg viewBox="0 0 ${W} ${H}" width="${Math.round(100*z)}%" style="min-width:${Math.round(520*z)}px" role="img" aria-label="Mappa: ${esc(d.centro||'')}">${g}</svg>`;
 }
-function editorMappa(m,dove){MAPPA=m;MZOOM=1;
+function editorMappa(m,dove,alunno){MAPPA=m;MZOOM=1;clearInterval(MSYNC);
   const form=()=>{const d=MAPPA.dati;return `<div class="mp-form"><label class="f">Argomento (al centro)</label><input class="t" data-k="centro" value="${esc(d.centro)}">
    ${d.rami.map((r,i)=>`<div class="mp-r" style="--c:${MCOL[r.c%MCOL.length]}"><button class="esci x" data-rx="${i}">togli</button>
     <label class="f">Ramo ${i+1}</label><input class="t" data-r="${i}" data-k="t" value="${esc(r.t)}" placeholder="Concetto">
@@ -482,10 +518,17 @@ function editorMappa(m,dove){MAPPA=m;MZOOM=1;
     <button class="esci" data-sa="${i}">+ sotto-ramo</button> <button class="esci" data-col="${i}">cambia colore</button></div></div>`).join('')}
    <button class="btn sec" id="mpra">+ ramo</button></div>`};
   const disegna=()=>{$('#mpv').innerHTML=svgMappa(MAPPA.dati,MZOOM)};
-  const salva=()=>{clearTimeout(MTIMER);$('#mps').textContent='Salvataggio…';MTIMER=setTimeout(async()=>{try{await api('mappa_salva',{id:MAPPA.id,materia:MAPPA.materia,titolo:MAPPA.dati.centro||MAPPA.titolo,dati:MAPPA.dati});$('#mps').textContent='Salvata ✓'}catch(e){$('#mps').textContent='Non salvata: '+e.message}},1200)};
+  const salva=()=>{MTOCCO=Date.now();clearTimeout(MTIMER);$('#mps').textContent='Salvataggio…';MTIMER=setTimeout(async()=>{MTIMER=null;try{const r=await api('mappa_salva',{id:MAPPA.id,materia:MAPPA.materia,titolo:MAPPA.dati.centro||MAPPA.titolo,dati:MAPPA.dati});MAPPA.aggiornata=r.aggiornata||MAPPA.aggiornata;$('#mps').textContent='Salvata ✓'}catch(e){$('#mps').textContent='Non salvata: '+e.message}},1200)};
+  /* 16/11: insieme. Ogni 4 secondi, se in questo momento non stai scrivendo, prende la versione salvata dall'altro */
+  const sincronizza=async()=>{if(!document.getElementById('mpv')){clearInterval(MSYNC);return}
+    if(MTIMER||Date.now()-MTOCCO<4000)return;
+    try{const x=(await api('mappe',{id:MAPPA.id,con_dati:true,alunno_id:alunno||undefined})).mappe[0];if(!x||!x.aggiornata||x.aggiornata<=(MAPPA.aggiornata||''))return;
+      if(MTIMER||Date.now()-MTOCCO<4000)return;MAPPA.dati=x.dati;MAPPA.aggiornata=x.aggiornata;tutto();
+      $('#mps').textContent='Aggiornata da '+(x.modificata_da||'')+' alle '+new Date(x.aggiornata).toLocaleTimeString('it-IT',{hour:'2-digit',minute:'2-digit'})}catch(e){}};
+  MSYNC=setInterval(sincronizza,4000);
   const tutto=()=>{$(dove).innerHTML=`<div class="mp-bar"><button class="btn sec" id="mpb">← Mappe</button><button class="btn sec" id="mpz1">A−</button><button class="btn sec" id="mpz2">A+</button><button class="btn sec" onclick="print()">Stampa / PDF</button><span class="note" id="mps"></span></div>
     <div class="mp-ed"><div>${form()}</div><div class="mp-svg" id="mpv"></div></div>`;disegna();
-    $('#mpb').onclick=()=>vistaMappe(dove);$('#mpz1').onclick=()=>{MZOOM=Math.max(.4,MZOOM-.15);disegna()};$('#mpz2').onclick=()=>{MZOOM=Math.min(2.5,MZOOM+.15);disegna()};
+    $('#mpb').onclick=()=>vistaMappe(dove,alunno,!!alunno);$('#mpz1').onclick=()=>{MZOOM=Math.max(.4,MZOOM-.15);disegna()};$('#mpz2').onclick=()=>{MZOOM=Math.min(2.5,MZOOM+.15);disegna()};
     const d=MAPPA.dati;
     document.querySelectorAll('.mp-form input').forEach(inp=>inp.oninput=()=>{const r=inp.dataset.r,k=inp.dataset.k,sj=inp.dataset.s;
       if(r===undefined)d.centro=inp.value;else if(sj!==undefined)d.rami[r].f[sj].t=inp.value;else d.rami[r][k]=inp.value;disegna();salva()});
