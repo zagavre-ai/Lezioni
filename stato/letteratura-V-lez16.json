@@ -358,10 +358,14 @@
   {
    "quando": "16/11 23:37",
    "testo": "00:40 it. consegna prevista 06:30 (ora italiana). Fatto: trascrizione originale (353 segmenti), allineamento audio montato/originale (5 blocchi prof), generatore slide modello Spagnolo (test ok), crop 4:3 del prof. In corso: trascrizione del montato, poi piano pezzi e montaggio."
+  },
+  {
+   "quando": "16/11 23:52",
+   "testo": "00:52 it. consegna prevista 06:30 (ora italiana). Fatto: 257 slide nel modello Spagnolo generate (prof 4:3 + fascia gialla), piano pezzi con somma fotogrammi = 99351, audio prof rifatto dall'originale (-15.9 LUFS, picco -1.5), montaggio pezzi in corso. Trovato: frase ripetuta in AN2d (1572-1581 s), mappe del video inventate (rifatte con la mappa del prof: voci MAP1-4/MAPF richieste alla master)."
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 16 · Umberto Saba",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-16 23:37:43"
+ "aggiornato": "2026-11-16 23:52:04"
 }
