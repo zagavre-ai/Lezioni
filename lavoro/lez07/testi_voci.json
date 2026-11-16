@@ -1,0 +1,277 @@
+[
+ {
+  "nome": "E7_INTRO1",
+  "testo": "Welcome to this lesson on trade and commerce. Today we will look at six topics. First, the difference between trade and commerce. Second, home trade. Third, international trade. Fourth, e-commerce. Fifth, trade alliances and trade sanctions. And sixth, ethical trade. After each topic you will see a concept map and a short quiz. You need at least eighty percent to continue. Let's begin.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E7_RF1",
+  "testo": "Let's review the whole lesson. Commerce is about physical goods, and trade is mostly about services. Home trade goes from producers to wholesalers, retailers and final consumers. International trade can be visible or invisible, and we measure it with the balance of trade and the balance of payments. E-commerce has many types, like B to C, mobile commerce and social commerce. Trade alliances make trade easier, while sanctions limit it. And ethical trade protects the people who produce our goods. Now it is time for the final test.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E7_FIN1",
+  "testo": "It is time for the final test.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E7_CMP1",
+  "testo": "And now, your homework.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E7_GL0",
+  "testo": "Here are the key words of the lesson, in English and in Italian.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E7_GLa",
+  "testo": "commerce. trade. home trade. producer. wholesaler. retailer. final consumer. markup. retail price. international trade. importer. exporter.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E7_GLb",
+  "testo": "visible trade. invisible trade. balance of trade. balance of payments. e-commerce. digital wallet. trade alliance. trade sanction. embargo. tariff. quota. ethical trade.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E7_AN1_0",
+  "testo": "Here is the map of this topic.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E7_AN1_1",
+  "testo": "Commerce is the distribution and sale of physical goods.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E7_AN1_2",
+  "testo": "Trade is mostly used for buying and selling services.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E7_AN1_3",
+  "testo": "Innovation in technology, transport and communication helps trade to grow.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E7_AN1_4",
+  "testo": "Trade organisations regulate the exchanges between countries.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E7_AN1_5",
+  "testo": "Globalisation creates closer links between countries, even very far away.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E7_AN1_6",
+  "testo": "Many services support trade: transport, storage, insurance, banking, marketing and I T.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E7_AN2_0",
+  "testo": "Now the map of home trade.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E7_AN2_1",
+  "testo": "Producers sell large quantities of goods to wholesalers.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E7_AN2_2",
+  "testo": "Wholesalers sell smaller quantities to retailers, with a markup.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E7_AN2_3",
+  "testo": "Retailers sell single items, or small quantities, to final consumers.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E7_AN2_4",
+  "testo": "Final consumers pay the retail price, or they can buy directly from producers.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E7_AN2_5",
+  "testo": "The retail industry has three categories: product retailing, service retailing and non-store retailing.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E7_AN3_0",
+  "testo": "This is the map of international trade.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E7_AN3_1",
+  "testo": "International trade is the exchange of goods and services between countries: one country imports, the other exports.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E7_AN3_2",
+  "testo": "Visible trade is the exchange of physical goods.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E7_AN3_3",
+  "testo": "Invisible trade is the exchange of services, like tourism, insurance and education.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E7_AN3_4",
+  "testo": "International trade brings bigger markets, more variety, lower prices and new ideas.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E7_AN3_5",
+  "testo": "The balance of trade is the difference between exports and imports.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E7_AN3_6",
+  "testo": "The balance of payments is the difference between the money that enters and leaves a country.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E7_AN4_0",
+  "testo": "Here is the map of e-commerce.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E7_AN4_1",
+  "testo": "E-commerce refers to all the aspects of online selling, from the website to the payments.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E7_AN4_2",
+  "testo": "In B to B, businesses sell to businesses. In B to C, they sell directly to consumers.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E7_AN4_3",
+  "testo": "In C to C, consumers sell to consumers. In C to B, individuals sell to companies.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E7_AN4_4",
+  "testo": "Mobile commerce means shopping with a smartphone, an app or a digital wallet.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E7_AN4_5",
+  "testo": "Social commerce means buying products directly on social media.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E7_AN4_6",
+  "testo": "O to O commerce brings online customers to a physical shop, for example with click and collect.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E7_AN5_0",
+  "testo": "Now the map of trade alliances and sanctions.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E7_AN5_1",
+  "testo": "In a trade alliance, countries create a free trade area, without border controls.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E7_AN5_2",
+  "testo": "Examples are the European Union, the U S M C A, APEC and Mercosur.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E7_AN5_3",
+  "testo": "Trade sanctions are laws that limit or stop trade with a country. They can be unilateral or multilateral.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E7_AN5_4",
+  "testo": "An embargo is a total or partial ban on trade with a country.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E7_AN5_5",
+  "testo": "A tariff is a higher tax on goods imported from a country.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E7_AN5_6",
+  "testo": "A quota limits the quantity of a product that can be imported.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E7_AN6_0",
+  "testo": "This is the map of ethical trade.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E7_AN6_1",
+  "testo": "Ethical trade means improving the working conditions of the people who produce the goods.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E7_AN6_2",
+  "testo": "The Ethical Trading Initiative unites companies, N G Os and trade unions.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E7_AN6_3",
+  "testo": "Its members adopt the Base Code, with nine principles on workers' rights.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E7_AN6_4",
+  "testo": "Millions of people are forced to work, and millions of children work instead of going to school.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E7_AN6_5",
+  "testo": "The true cost of a banana: many farmers and workers live in poverty.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E7_AN6_6",
+  "testo": "Fairtrade works with banana farmers and workers and gives them a minimum price.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E7_AN7_0",
+  "testo": "And now the map of the whole lesson.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E7_AN7_1",
+  "testo": "Commerce is about goods, and trade is mostly about services.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E7_AN7_2",
+  "testo": "Home trade follows the distribution chain, from producers to final consumers.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E7_AN7_3",
+  "testo": "International trade is the exchange of goods and services between countries.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E7_AN7_4",
+  "testo": "E-commerce is online selling, with many different types.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E7_AN7_5",
+  "testo": "Trade alliances make trade free, while sanctions limit it.",
+  "lingua": "en"
+ },
+ {
+  "nome": "E7_AN7_6",
+  "testo": "Ethical trade protects the rights of workers.",
+  "lingua": "en"
+ }
+]

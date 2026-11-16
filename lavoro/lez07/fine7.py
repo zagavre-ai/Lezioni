@@ -1,0 +1,36 @@
+#!/usr/bin/env python3
+# Chiusura della lezione 7 quando le voci Kore sono arrivate. uso: python3 fine7.py
+import os,subprocess,json,glob,sys
+W='/home/claude/w7';T='afm-inglese-triennio-lez07';R='/home/claude/lezioni';K='/home/claude/main/kit/tools'
+TIT='Trade and commerce';OUT='Inglese_Lez7_Parte1_1080p.mp4';VTT='Inglese_Lez7_Parte1.vtt'
+def sh(c):
+    print('>>',c,flush=True);r=subprocess.run(c,shell=True)
+    if r.returncode: raise SystemExit(f'ERRORE: {c}')
+os.chdir(W)
+# 1 voci
+os.makedirs('voci/wav',exist_ok=True)
+sh(f'git -C {R} fetch -q --depth 1 origin voci-{T}:refs/remotes/origin/voci-{T}')
+files=subprocess.check_output(f'git -C {R} ls-tree -r origin/voci-{T} --name-only',shell=True,text=True).split()
+for f in files:
+    if '/vox/' not in f: continue
+    dst='voci/wav/'+os.path.basename(f) if f.endswith('.wav') else 'voci/'+os.path.basename(f)
+    open(dst,'wb').write(subprocess.check_output(f'git -C {R} show origin/voci-{T}:{f}',shell=True))
+need=[v['nome'] for v in json.load(open('testi_voci.json'))]
+miss=[n for n in need if not os.path.exists(f'voci/wav/{n}.wav')]
+print('voci scaricate',len(glob.glob('voci/wav/*.wav')),'mancano',miss)
+if miss: raise SystemExit('mancano voci Kore')
+# 2 i pezzi del docente non dipendono dalle voci: si riusano
+os.makedirs('w_kore',exist_ok=True)
+for f in glob.glob('w_ph/b_D*.mkv'):
+    d='w_kore/'+os.path.basename(f)
+    if not os.path.exists(d): os.link(f,d)
+sh('MODE=kore python3 main7.py')
+# 3 codifica finale unica
+if not os.path.exists(OUT): sh(f'CRF=19 python3 {K}/finale_a_pezzi.py out_kore/lista.txt {OUT}')
+# 4 sottotitoli della docente nei tempi del video finale
+sh(f'python3 mksub7.py out_kore/timeline.json {VTT}')
+# 5 controlli
+sh(f'python3 {K}/controllo_finale.py {OUT} out_kore/timeline.json {VTT} > controllo_finale.log 2>&1 || true')
+sh(f'python3 {K}/controllo_jingle.py {OUT} out_kore/timeline.json > controllo_jingle.log 2>&1 || true')
+sh(f'python3 {K}/scheda_da_timeline.py {OUT} out_kore/timeline.json quiz_argomenti.json "{TIT} · Parte 1" scheda_pubblicazione.json Inglese')
+print('FINE passo automatico')
