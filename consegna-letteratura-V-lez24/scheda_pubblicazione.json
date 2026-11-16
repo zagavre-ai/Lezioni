@@ -1,25 +1,25 @@
 {
  "materia": "Letteratura italiana (V)",
  "titolo": "Leonardo Sciascia",
- "durata_s": 1432.7,
+ "durata_s": 3338.43,
  "argomenti": [
   {
    "n": 1,
    "titolo": "La vita e l'impegno civile",
    "inizio_s": 91.314,
-   "quiz_s": 712.414
+   "quiz_s": 1294.947
   },
   {
    "n": 2,
    "titolo": "Il consiglio d'Egitto e Il contesto",
-   "inizio_s": 717.714,
-   "quiz_s": 990.048
+   "inizio_s": 1300.247,
+   "quiz_s": 2191.148
   },
   {
    "n": 3,
    "titolo": "Todo modo e le ultime opere",
-   "inizio_s": 995.348,
-   "quiz_s": 1336.215
+   "inizio_s": 2196.448,
+   "quiz_s": 3176.615
   }
  ],
  "quiz": {
@@ -189,6 +189,143 @@
    ]
   }
  },
- "t_verifica": 1402.215,
- "t_compiti": 1426.402
+ "t_verifica": 3307.948,
+ "t_compiti": 3332.135,
+ "approfondimenti": [
+  {
+   "id": "AN1",
+   "titolo": "La vita di Leonardo Sciascia",
+   "inizio_s": 653.1
+  },
+  {
+   "id": "AN2",
+   "titolo": "Il campo letterario di Sciascia",
+   "inizio_s": 756.067
+  },
+  {
+   "id": "AN3",
+   "titolo": "Il giorno della civetta: la scheda",
+   "inizio_s": 827.833
+  },
+  {
+   "id": "AN4",
+   "titolo": "Come si trattava la mafia",
+   "inizio_s": 891.2
+  },
+  {
+   "id": "AN5",
+   "titolo": "Le due esperienze politiche",
+   "inizio_s": 967.933
+  },
+  {
+   "id": "AN6",
+   "titolo": "Gli anni di piombo e il garantismo",
+   "inizio_s": 1031.3
+  },
+  {
+   "id": "AN7",
+   "titolo": "Parole chiave del primo argomento",
+   "inizio_s": 1092.0
+  },
+  {
+   "id": "AN8",
+   "titolo": "Leonardo Sciascia",
+   "inizio_s": 1159.533
+  },
+  {
+   "id": "AN9",
+   "titolo": "Il consiglio d'Egitto: la scheda",
+   "inizio_s": 1520.233
+  },
+  {
+   "id": "AN10",
+   "titolo": "Vella e Di Blasi a confronto",
+   "inizio_s": 1589.2
+  },
+  {
+   "id": "AN11",
+   "titolo": "Il consiglio d'Egitto e Il contesto",
+   "inizio_s": 1642.967
+  },
+  {
+   "id": "AN12",
+   "titolo": "Come Sciascia usa il passato",
+   "inizio_s": 1717.333
+  },
+  {
+   "id": "AN13",
+   "titolo": "Il contesto: la scheda",
+   "inizio_s": 1784.3
+  },
+  {
+   "id": "AN14",
+   "titolo": "Gli anni del Contesto",
+   "inizio_s": 1853.267
+  },
+  {
+   "id": "AN15",
+   "titolo": "Parole chiave del secondo argomento",
+   "inizio_s": 1920.267
+  },
+  {
+   "id": "AN17",
+   "titolo": "Le opere principali in ordine cronologico",
+   "inizio_s": 1995.633
+  },
+  {
+   "id": "AN16",
+   "titolo": "Sciascia illuminista",
+   "inizio_s": 2068.4
+  },
+  {
+   "id": "AN18",
+   "titolo": "Todo modo: la scheda",
+   "inizio_s": 2488.5
+  },
+  {
+   "id": "AN19",
+   "titolo": "Il finale mancato di Todo modo",
+   "inizio_s": 2557.6
+  },
+  {
+   "id": "AN20",
+   "titolo": "Todo modo e Mani pulite",
+   "inizio_s": 2638.0
+  },
+  {
+   "id": "AN21",
+   "titolo": "I tre gialli a confronto",
+   "inizio_s": 2701.667
+  },
+  {
+   "id": "AN22",
+   "titolo": "Candido: la scheda",
+   "inizio_s": 2779.967
+  },
+  {
+   "id": "AN23",
+   "titolo": "Le ultime opere e la saggistica",
+   "inizio_s": 2837.733
+  },
+  {
+   "id": "AN24",
+   "titolo": "L'eredità e lo stile di Sciascia",
+   "inizio_s": 2918.467
+  },
+  {
+   "id": "AN25",
+   "titolo": "Parole chiave del terzo argomento",
+   "inizio_s": 2993.433
+  },
+  {
+   "id": "AN26",
+   "titolo": "Todo modo",
+   "inizio_s": 3055.2
+  },
+  {
+   "id": "ANF",
+   "titolo": "Leonardo Sciascia",
+   "inizio_s": 3181.9
+  }
+ ]
 }
