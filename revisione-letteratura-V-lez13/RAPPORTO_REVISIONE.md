@@ -54,6 +54,7 @@ c) **Sottotitoli del prof:** servono un riascolto o la trascrizione fatta dal pr
 | Durata (misurata) | 3143,9 s = 52:23,9 | 3200,3 s = 53:20,3 |
 | Fotogrammi (misurati) | 94 318 (attesi 94 317: **+1 fotogramma**, 33 ms, invariato nell'ultimo secondo) | 96 010 (attesi 96 010) |
 | Peso | 218,1 MB (<400) | 239,1 MB (<400) |
+| Volume (loudnorm in misura, intero file) | −16,3 e −15,9 LUFS sui due file (entro ±2 dal −16; non ho annotato quale sia P1/P2), picchi −0,5 e −0,3 dBTP | |
 | sha256 dei pezzi | ricomposti e verificati (P1; P2 calcolato alla creazione) | |
 | Fotogrammi guardati a vista | cover 100 s, slide 400 s, animazione blu 1400 s | slide libro 900 s, 2000 s |
 
@@ -62,4 +63,4 @@ c) **Sottotitoli del prof:** servono un riascolto o la trascrizione fatta dal pr
 Piccolo difetto residuo: sotto la fettina del libro a x≈1470–1476, y≈575 resta un minuscolo gradino bianco dove finisce la copertura del vecchio riquadro.
 
 ## 5. Consegna
-`Letteratura_Lez13_Parte{1,2}_1080p.mp4.parte_00…` + `.sha256` (unire con `cat … > file.mp4`), `.vtt`, `Letteratura_Lez13_slide.pdf`, `Letteratura_Lez13_mappe.pdf`, quiz, test, compiti, schede, testo YouTube, timeline, `sottotitoli_da_riascoltare.txt`. Il `controllo_minuti.jpg` (1 fotogramma ogni 30 s) è incluso se la generazione è finita prima del push.
+`Letteratura_Lez13_Parte{1,2}_1080p.mp4.parte_00…` + `.sha256` (unire con `cat … > file.mp4`), `.vtt`, `Letteratura_Lez13_slide.pdf`, `Letteratura_Lez13_mappe.pdf`, quiz, test, compiti, schede, testo YouTube, timeline, `sottotitoli_da_riascoltare.txt`. `controllo_minuti.jpg` (1 fotogramma ogni 30 s: Parte 1 a sinistra, Parte 2 a destra) incluso.
