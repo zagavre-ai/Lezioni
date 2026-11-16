@@ -2,7 +2,7 @@
  "tag": "letteratura-V-lez11",
  "parti": {
   "1": {
-   "stato": "FERMA"
+   "stato": "IN_REVISIONE"
   }
  },
  "manca": "",
@@ -14,5 +14,5 @@
    "testo": "IN_REVISIONE: chat revisione 11 avviata"
   }
  ],
- "aggiornato": "2026-11-16 18:27:50"
+ "aggiornato": "2026-11-16 18:27:59"
 }
