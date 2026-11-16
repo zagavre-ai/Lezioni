@@ -36,7 +36,9 @@ Nel rapporto: tabella di confronto con il modello, punto per punto (1–11): OK 
 ## 1. VERIFICA (la fai tutta, poi scrivi il rapporto)
 Scarica il video montato, ricomponi i pezzi, controlla lo sha256.
 
-**A · Ascolto (testuale-uditivo)** — trascrivi TUTTO l'audio (Whisper `small`, lingua it) con i tempi.
+**A · Ascolto (testuale-uditivo)** — trascrivi TUTTO l'audio con i tempi usando **`kit/tools/trascrivi.py`** su main (HuggingFace è bloccato: questo strumento scarica il modello da GitHub da solo; tempi parola per parola; 1 ora di audio ≈ 10 minuti). Non perdere tempo a cercare Whisper.
+
+**Se mancano i sorgenti del montaggio** (slide HTML, timeline): non fermarti. Le slide si rifanno dal `_videodispensa.pptx` del prof (release) + OCR dei fotogrammi del video montato, con la grafica del modello Spagnolo (punto 000); la timeline si ricostruisce dalla trascrizione e dai cambi slide del video. Scrivilo nel rapporto.
 1. Ogni frase della **voce narrante** corrisponde a quello che si vede in quel momento. Cerca in particolare: «ecco», «guarda/guardate», «in questa foto/immagine/ritratto/mappa/carta/schema/tabella», «come vedete»: in quel momento **l'immagine nominata deve essere sullo schermo** (±3 s). Se l'immagine c'è nei materiali del prof (slide, dispensa, screen HD) la metti; **se non c'è, tagli quella frase della voce narrante e metti una transizione morbida** (decisione di Sara 16/11). Si taglia solo la voce narrante, **mai il prof**.
 2. Nessuna parola tagliata, nessuna frase ripetuta, nessun silenzio > 3 s, nessun salto di audio, volume del parlato -16 LUFS ±2.
 3. Nei pezzi del **prof**: niente tagli dentro le frasi.
