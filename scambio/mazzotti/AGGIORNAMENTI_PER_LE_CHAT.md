@@ -110,3 +110,7 @@ Voci Kore: dalle 9 (prima usa i segnaposto e fai tutto il resto: montaggio, slid
 ## 16/11 12:45 · ANNULLATO IL RIMONTAGGIO DEL TONDO
 - Le 13 lezioni col prof nel tondo (3, 5, 6, 8, 10, 11, 13, 15, 17, 19, 21, 22, 26) le corregge **la master** direttamente sui video finiti. **Le chat NON le rifanno.** Continuate con le lezioni 1 e 2 e con il vostro elenco.
 - Regola che resta: nelle lezioni nuove il prof va **solo nel rettangolo 394×218** (come 9 e 14), mai nel tondo (il tondo è solo per la prof. Caputi).
+
+## 16/11 13:10 · STORIA V: LEZIONI 12, 15, 18, 20 A DUE CHAT NUOVE
+- Le lezioni 12, 15, 18, 20 erano IN_MONTAGGIO dal 14–15/11 e abbandonate. Le fanno due chat nuove: **S6 → 12, 15**; **S7 → 18, 20** (prompt in `scambio/prompt/`). Le altre chat non le toccano.
+- Lezioni 3, 4, 8, 10, 13: Sara sta caricando i video del prof. La 3 resta alla chat S5; la 4, 8, 10, 13 alla S5 appena arrivano i video.
