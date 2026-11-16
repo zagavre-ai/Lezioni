@@ -7,10 +7,10 @@ Regola: sotto, **misurato** = misurato con uno strumento; **stima** = dedotto; *
 |---|---|
 | Formato | 1920×1080, 30 fps, x264 veryfast, AAC 192k (prima: 2560×1440) |
 | Durata / fotogrammi | 62:12,93 · 111 988 fotogrammi = durata × 30 · **identici al montaggio precedente**: quiz, verifica e compiti restano agli stessi secondi |
-| Peso | 414,4 MB (395 MiB). Tratti col prof a CRF 22, il resto CRF 19 |
-| Volume | −16,1 LUFS integrato (LRA 7,1). Picco (true peak) −0,8 dBTP: 0,2 dB sopra il −1 dBTP chiesto per le sigle; non l'ho abbassato |
+| Peso | 393,3 MB (375 MiB), sotto i 400 MB. Tratti col prof a CRF 22, il resto CRF 19 |
+| Volume | −16,4 LUFS integrato (LRA 7,1). Picco (true peak) **−1,3 dBTP** (misurato sul file finale; prima era −0,8): ora ≤ −1 dBTP |
 | Fermi immagine | Nessun fermo ≥ 2 s del riquadro mentre il prof parla. Unico fermo: 0:17–0:45 (voce narrante di benvenuto) con la foto-fotogramma del prof, come prima |
-| PDF | slide: 34 pagine A4 orizzontale; mappe: 1 pagina A4 orizzontale |
+| PDF | slide: 44 pagine A4 orizzontale (una per fettina e per slide); mappe: 1 pagina A4 orizzontale |
 
 ## 2. Confronto col modello Spagnolo (punto 000)
 | # | Punto | Esito |
@@ -39,59 +39,62 @@ Regola: sotto, **misurato** = misurato con uno strumento; **stima** = dedotto; *
 | 59:52–60:30 (ripasso 4) | testo | scheda 5: «Rime e ritmi, è del **1890nove**» | «è del 1899» |
 | 61:13–61:50 (riepilogo) | testo | schede 3 e 4 senza titolo, testo in grassetto con «Tre,» e «Quattro,» | titoli come le schede 1 e 2, testo corretto |
 | ripassi, glossario | grafica | piè «Ripasso», senza numero di pagina; sfondo azzurrino | modello Spagnolo, onda animata sulla voce |
-| 10:30–15:00 · 36:00–46:00 | pagina | pagine del libro prese dal video, piccole e illeggibili | fettine dagli screen HD (tabella §4), rigo ≈ 27 px |
+| 37:37–45:52 · 47:51–57:47 | pagina | **16/11 (controllo master): fettine sbagliate.** Righe tagliate a metà in basso («…i versi han-» a 45:50), pezzi della colonna accanto tagliati a sinistra («del viale della stazione», «ROLE», «rosso cupo.»), «ALISI DEL TESTO» tagliato, «precedenti?» in alto. Causa: tagli su tutta la larghezza della pagina, con ripiego a 900 px quando non c'era una riga bianca | **rifatte tutte**: una colonna per volta, tagli solo su righe bianche, bordi su colonne bianche, controllo automatico dei 4 bordi (nessuna riga né colonna tagliata) e foglio `controllo_fettine.jpg` con un fotogramma per fettina (38) |
 | vtt | testo | circa 60 errori: «Giosuèè», «Giambie ed epoti», «Giambi e ipodi», «le ho di barbare», «Leodi Barbare», «Gibaldina», «Giacomino», «rocci», «Cartucci», «Plumbeo» → «l'umbe», versi di Pianto antico, San Petronio, Alla stazione | corretti (800 cue, max 2 righe). Tempi invariati |
-| audio | audio | parlato del prof non pulito con la catena del kit (non dimostrabile dall'ascolto) | rifatto dall'originale con `aresample 48000, highpass 80, arnndn (sh.rnnn), loudnorm −16, alimiter`, −1 dB di margine; stessi offset del video |
+| audio | audio | parlato del prof non pulito con la catena del kit (non dimostrabile dall'ascolto) | rifatto dall'originale con `aresample 48000, highpass 80, arnndn (sh.rnnn), loudnorm −16, alimiter`, poi −0,3 dB: picco −1,3 dBTP, −16,4 LUFS; stessi offset del video |
 | fine | consegna | mancavano verifica finale, compiti, PDF slide, PDF mappe | prodotti: `verifica_finale.json` + xlsx del prof (10 domande), `compiti.json` (4 esercizi), `…_slide.pdf`, `…_mappe.pdf` |
 | scheda | testo | titolo «Giosuè Carducci · Parte 1» | «Letteratura V · Lezione 3 · Giosuè Carducci» |
 
-## 4. Pagine del libro in alta risoluzione (B-bis)
-Zip `Lez03_ingrandita.1.zip`: pagine 50, 51, 53, 54, 56, 57, 58. Taglio solo sulle righe bianche, senza intestazioni, numeri di pagina, QR, margini. Fettina in corso con bordo giallo. **L'abbinamento fettina → voce è automatico (stima, ±8 s)**: va riguardato all'ascolto.
-| Brano | Pagina | File HD | Minuto |
-|---|---|---|---|
-| Pianto antico (Rime nuove) | 50 | Lez03_p050.png · fettina 4 | 37:37–37:47 |
-| Pianto antico (Rime nuove) | 50 | Lez03_p050.png · fettina 3 | 37:47–38:07 |
-| Pianto antico (Rime nuove) | 50 | Lez03_p050.png · fettina 4 | 38:07–38:23 |
-| Pianto antico (Rime nuove) | 51 | Lez03_p051.png · fettina 1 | 38:23–38:45 |
-| Pianto antico (Rime nuove) | 50 | Lez03_p050.png · fettina 1 | 38:45–39:01 |
-| Pianto antico (Rime nuove) | 50 | Lez03_p050.png · fettina 3 | 39:01–39:25 |
-| Pianto antico (Rime nuove) | 50 | Lez03_p050.png · fettina 1 | 39:25–40:23 |
-| Pianto antico (Rime nuove) | 51 | Lez03_p051.png · fettina 3 | 40:23–40:35 |
-| Pianto antico (Rime nuove) | 50 | Lez03_p050.png · fettina 4 | 40:35–43:19 |
-| Pianto antico (Rime nuove) | 51 | Lez03_p051.png · fettina 1 | 43:19–43:59 |
-| Pianto antico (Rime nuove) | 51 | Lez03_p051.png · fettina 3 | 43:59–44:19 |
-| Pianto antico (Rime nuove) | 51 | Lez03_p051.png · fettina 1 | 44:19–44:47 |
-| Pianto antico (Rime nuove) | 50 | Lez03_p050.png · fettina 4 | 44:47–45:05 |
-| Pianto antico (Rime nuove) | 51 | Lez03_p051.png · fettina 1 | 45:05–45:21 |
-| Pianto antico (Rime nuove) | 51 | Lez03_p051.png · fettina 3 | 45:21–45:52 |
-| Nella piazza di San Petronio | 53 | Lez03_p053.png · fettina 1 | 47:51–48:17 |
-| Nella piazza di San Petronio | 53 | Lez03_p053.png · fettina 2 | 48:17–49:09 |
-| Nella piazza di San Petronio | 53 | Lez03_p053.png · fettina 3 | 49:09–49:51 |
-| Nella piazza di San Petronio | 54 | Lez03_p054.png · fettina 1 | 49:51–50:09 |
-| Nella piazza di San Petronio | 54 | Lez03_p054.png · fettina 2 | 50:09–50:41 |
-| Nella piazza di San Petronio | 54 | Lez03_p054.png · fettina 4 | 50:41–51:03 |
-| Nella piazza di San Petronio | 54 | Lez03_p054.png · fettina 3 | 51:03–51:19 |
-| Nella piazza di San Petronio | 54 | Lez03_p054.png · fettina 2 | 51:19–51:37 |
-| Nella piazza di San Petronio | 53 | Lez03_p053.png · fettina 1 | 51:37–51:51 |
-| Nella piazza di San Petronio | 53 | Lez03_p053.png · fettina 2 | 51:51–52:03 |
-| Alla stazione in una mattina d'autunno | 56 | Lez03_p056.png · fettina 1 | 52:03–52:25 |
-| Alla stazione in una mattina d'autunno | 56 | Lez03_p056.png · fettina 2 | 52:25–53:05 |
-| Alla stazione in una mattina d'autunno | 56 | Lez03_p056.png · fettina 3 | 53:05–53:25 |
-| Alla stazione in una mattina d'autunno | 57 | Lez03_p057.png · fettina 1 | 53:25–54:13 |
-| Alla stazione in una mattina d'autunno | 57 | Lez03_p057.png · fettina 2 | 54:13–54:45 |
-| Alla stazione in una mattina d'autunno | 58 | Lez03_p058.png · fettina 1 | 54:45–55:25 |
-| Alla stazione in una mattina d'autunno | 58 | Lez03_p058.png · fettina 2 | 55:25–55:49 |
-| Alla stazione in una mattina d'autunno | 57 | Lez03_p057.png · fettina 2 | 55:49–56:01 |
-| Alla stazione in una mattina d'autunno | 56 | Lez03_p056.png · fettina 3 | 56:01–56:15 |
-| Alla stazione in una mattina d'autunno | 56 | Lez03_p056.png · fettina 1 | 56:15–56:53 |
-| Alla stazione in una mattina d'autunno | 56 | Lez03_p056.png · fettina 3 | 56:53–57:21 |
-| Alla stazione in una mattina d'autunno | 58 | Lez03_p058.png · fettina 3 | 57:21–57:35 |
-| Alla stazione in una mattina d'autunno | 56 | Lez03_p056.png · fettina 3 | 57:35–57:47 |
+## 4. Pagine del libro in alta risoluzione (B-bis) — fettine rifatte il 16/11
+Zip `Lez03_ingrandita.1.zip`: pagine 50, 51, 53, 54, 56, 57, 58. **Regole applicate (misurato con un controllo automatico su ogni fettina):** una sola colonna per fettina (versi, note a sinistra/al centro/a destra, testata, «Temi principali», «Analisi del testo»); inizio e fine su una riga bianca; i quattro bordi senza inchiostro di testo; niente intestazioni, numeri di pagina, QR, etichette laterali, esercizi di comprensione né il quadro a p. 58. Le tabelle non si spezzano. Le fettine larghe («Analisi del testo») hanno il titoletto sempre unito al suo paragrafo. Fettina in corso con bordo giallo, dentro un riquadro con margine bianco (nulla è tagliato dalla cornice). Fotogrammi di controllo di tutte le 38 righe in `controllo_fettine.jpg` (fotogramma preso a metà intervallo dal video finale).
+**Abbinamento fettina → voce: fatto a mano leggendo la trascrizione (parola per parola), non in automatico.** È comunque una **stima di ±3 s** (misurato: nessuna verifica all'ascolto).
+| # | Brano | Pagina | Parte | File HD e ritaglio (px) | Minuto |
+|---|---|---|---|---|---|
+| 1 | Pianto antico (Rime nuove) | 50 | testata del brano | `Lez03_p050.png` x 330–1650, y 1927–2385 | 37:37–38:06 |
+| 2 | Pianto antico (Rime nuove) | 50 | versi | `Lez03_p050.png` x 444–969, y 2463–2965 | 38:06–38:24 |
+| 3 | Pianto antico (Rime nuove) | 51 | versi | `Lez03_p051.png` x 427–966, y 237–750 | 38:24–38:42 |
+| 4 | Pianto antico (Rime nuove) | 50 | testata del brano | `Lez03_p050.png` x 330–1650, y 1927–2385 | 38:42–39:59 |
+| 5 | Pianto antico (Rime nuove) | 50 | riquadro «Temi principali» | `Lez03_p050.png` x 1680–2197, y 1930–2165 | 39:59–40:34 |
+| 6 | Pianto antico (Rime nuove) | 50 | versi | `Lez03_p050.png` x 444–969, y 2463–2965 | 40:34–40:50 |
+| 7 | Pianto antico (Rime nuove) | 50 | note | `Lez03_p050.png` x 1385–2195, y 2472–2969 | 40:50–42:31 |
+| 8 | Pianto antico (Rime nuove) | 51 | note, colonna sinistra | `Lez03_p051.png` x 170–830, y 819–944 | 42:31–43:19 |
+| 9 | Pianto antico (Rime nuove) | 51 | versi | `Lez03_p051.png` x 427–966, y 237–750 | 43:19–43:40 |
+| 10 | Pianto antico (Rime nuove) | 51 | note, colonna centrale | `Lez03_p051.png` x 850–1511, y 816–947 | 43:40–44:12 |
+| 11 | Pianto antico (Rime nuove) | 51 | note, colonna destra | `Lez03_p051.png` x 1532–2192, y 496–951 | 44:12–44:44 |
+| 12 | Pianto antico (Rime nuove) | 51 | versi | `Lez03_p051.png` x 427–966, y 237–750 | 44:44–45:18 |
+| 13 | Pianto antico (Rime nuove) | 51 | «Analisi del testo» | `Lez03_p051.png` x 507–2192, y 1315–2134 | 45:18–45:52 |
+| 14 | Nella piazza di San Petronio | 53 | testata del brano | `Lez03_p053.png` x 330–1630, y 1238–1593 | 47:51–48:22 |
+| 15 | Nella piazza di San Petronio | 53 | riquadro «Temi principali» | `Lez03_p053.png` x 1640–2193, y 1240–1519 | 48:22–48:31 |
+| 16 | Nella piazza di San Petronio | 53 | testata del brano | `Lez03_p053.png` x 330–1630, y 1238–1593 | 48:31–48:57 |
+| 17 | Nella piazza di San Petronio | 53 | metro | `Lez03_p053.png` x 506–2191, y 1612–1797 | 48:57–49:13 |
+| 18 | Nella piazza di San Petronio | 53 | versi | `Lez03_p053.png` x 427–1474, y 1866–2312 | 49:13–49:36 |
+| 19 | Nella piazza di San Petronio | 53 | versi | `Lez03_p053.png` x 427–1474, y 2312–2607 | 49:36–49:54 |
+| 20 | Nella piazza di San Petronio | 54 | versi | `Lez03_p054.png` x 425–1454, y 241–690 | 49:54–50:13 |
+| 21 | Nella piazza di San Petronio | 54 | versi | `Lez03_p054.png` x 425–1454, y 690–1056 | 50:13–50:33 |
+| 22 | Nella piazza di San Petronio | 54 | «Analisi del testo» | `Lez03_p054.png` x 505–2192, y 1579–1961 | 50:33–51:13 |
+| 23 | Nella piazza di San Petronio | 54 | «Analisi del testo» | `Lez03_p054.png` x 505–2192, y 2664–2965 | 51:13–52:03 |
+| 24 | Alla stazione in una mattina d'autunno | 56 | testata del brano | `Lez03_p056.png` x 260–1720, y 240–512 | 52:03–52:06 |
+| 25 | Alla stazione in una mattina d'autunno | 56 | introduzione | `Lez03_p056.png` x 507–1659, y 538–684 | 52:06–52:19 |
+| 26 | Alla stazione in una mattina d'autunno | 56 | metro | `Lez03_p056.png` x 507–1656, y 703–802 | 52:19–52:31 |
+| 27 | Alla stazione in una mattina d'autunno | 56 | versi | `Lez03_p056.png` x 428–1397, y 902–1440 | 52:31–52:55 |
+| 28 | Alla stazione in una mattina d'autunno | 56 | versi | `Lez03_p056.png` x 428–1397, y 1440–1979 | 52:55–53:25 |
+| 29 | Alla stazione in una mattina d'autunno | 57 | versi | `Lez03_p057.png` x 421–1365, y 241–771 | 53:25–53:45 |
+| 30 | Alla stazione in una mattina d'autunno | 57 | versi | `Lez03_p057.png` x 421–1365, y 771–1324 | 53:45–54:25 |
+| 31 | Alla stazione in una mattina d'autunno | 57 | versi | `Lez03_p057.png` x 421–1365, y 1324–1854 | 54:25–54:48 |
+| 32 | Alla stazione in una mattina d'autunno | 58 | versi | `Lez03_p058.png` x 424–1349, y 238–769 | 54:48–55:11 |
+| 33 | Alla stazione in una mattina d'autunno | 58 | versi | `Lez03_p058.png` x 424–1349, y 769–1321 | 55:11–55:36 |
+| 34 | Alla stazione in una mattina d'autunno | 58 | versi | `Lez03_p058.png` x 424–1349, y 1321–1650 | 55:36–55:54 |
+| 35 | Alla stazione in una mattina d'autunno | 56 | testata del brano | `Lez03_p056.png` x 260–1720, y 240–512 | 55:54–56:20 |
+| 36 | Alla stazione in una mattina d'autunno | 56 | metro | `Lez03_p056.png` x 507–1656, y 703–802 | 56:20–56:37 |
+| 37 | Alla stazione in una mattina d'autunno | 56 | riquadro «Temi principali» | `Lez03_p056.png` x 1740–2194, y 242–513 | 56:37–57:38 |
+| 38 | Alla stazione in una mattina d'autunno | 56 | testata del brano | `Lez03_p056.png` x 260–1720, y 240–512 | 57:38–57:47 |
 
 ## 5. Cosa NON ho verificato / limiti
 - **Sincronia labbra:** il montaggio usa lo stesso offset per audio e video (misurato per correlazione audio, punteggio ≥ 0,55). Una verifica indipendente sul movimento della bocca non è conclusiva (webcam troppo piccola). **Non verificato.**
 - **Ascolto umano:** non ho ascoltato fruscio/ronzio/metallico dopo la pulizia. Non verificato.
-- **Evidenziazioni e fettine:** calcolate con la trascrizione automatica (Parakeet, ±8 s); da controllare in almeno 4 punti da chi guarda.
+- **Evidenziazioni delle card:** calcolate con la trascrizione automatica (Parakeet, ±8 s); da controllare in almeno 4 punti da chi guarda. **Fettine:** abbinamento scritto a mano dalla trascrizione (±3 s, stima); ritagli verificati col controllo automatico dei bordi e a vista sul foglio `controllo_fettine.jpg`. In diversi punti (es. «Analisi del testo» a 45:18, 50:33, «Pesare le parole») il prof non legge la fettina: l'abbinamento è per argomento. **Non verificato all'ascolto.**
+- **Testo piccolo:** le fettine larghe («Analisi del testo», «Metro») sono scalate a ≈ 0,8×: righe a ≈ 31–42 px a 1080p. Le fettine strette sono ingrandite fino a 1,5×.
+- **Cose non fatte in questa riconsegna:** voci Kore da rigenerare (`R…` in `testi_voci.json`), schede finali «Quiz / Verifica / Compiti» nel modello, `controllo_jingle.py`: restano come nel rapporto precedente.
 - **Voce narrante Kore:** nei ripassi pronuncia male «Levia Gravia» (45:56), «Giambi ed Epodi» e, nel riepilogo, «Le Odi barbare» (61:37, «Leo di barbare»). Non posso rigenerarla: serve il servizio della master (testi `R1…` da aggiungere a `testi_voci.json`). **Non corretto.**
 - **Sottotitoli — da riascoltare:** 18:18 «alla Cereberi ma regina» e 22:31 «cantore italilo»: parola non decifrabile, lasciata com'è. Il resto del testo è stato riletto solo per le parole sospette (confronto con la trascrizione automatica), non cue per cue.
 - **Mappa del prof:** impaginata in 1 pagina A4 con la nostra grafica, contenuto identico; tolti il logo di terzi (mappe-scuola.com) e le immagini (ritratto e frontespizio). **Non inserita nel video**: cambierebbe i tempi e i quiz si sfaserebbero su Vimeo. Decisione a Sara/master.
