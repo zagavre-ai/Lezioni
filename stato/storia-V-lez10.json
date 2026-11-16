@@ -2,11 +2,17 @@
  "tag": "storia-V-lez10",
  "parti": {
   "1": {
-   "stato": "IN_MONTAGGIO"
+   "stato": "IN_MONTAGGIO",
+   "voci": "segnaposto"
   }
  },
  "manca": "",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "16/11 21:52",
+   "testo": "Testi voci (28) e quiz (40 domande) sul ramo voci-storia-V-lez10, una sola richiesta per le 2 Parti. Mappe del prof per la 10 NON presenti: non le invento."
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
@@ -17,5 +23,5 @@
  "materia": "Storia V",
  "lezione": "Lezione 10",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-16 12:24:03"
+ "aggiornato": "2026-11-16 21:52:54"
 }
