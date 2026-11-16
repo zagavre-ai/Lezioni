@@ -17,7 +17,7 @@ Stato: **IN REVISIONE** — verifica parziale, correzione NON ancora fatta.
 
 ## NON verificato (motivo)
 - **Trascrizione Whisper dell'audio: NON fatta.** Il download del modello (`huggingface.co`) è bloccato dalla rete di questa sessione (403). Ho usato solo il `.vtt` esistente e i testi delle voci: non è un ascolto indipendente.
-- Volume/rumore (−16 LUFS, arnndn), silenzi > 3 s: analisi lanciata, risultato non ancora letto.
+- Volume misurato: **−16,7 LUFS** (OK, ±2). Un silenzio > 3 s solo alla fine (5,3 s, coda del finale: da verificare se voluto). Rumore (arnndn) non verificato all’ascolto.
 - Sincronia labbra, OCR di tutte le slide, quiz, mappe, PDF A4: non ancora.
 
 ## Cosa serve per correggere
