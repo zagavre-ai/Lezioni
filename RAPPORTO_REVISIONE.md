@@ -25,16 +25,16 @@ Prof. Giorgio Mazzotti · chat di revisione · 16/11/2026 · **VERSIONE FINALE**
 | 3 | 0:15 | visivo | dalla sigla nera alla copertina bianca c'era un **taglio netto** (lampo) | dissolvenza di 1 s |
 | 4 | 19:13–19:24 | testo | sulla slide di ripasso: **«venticinque luglio 1940tré»** (anche nella dispensa, pag. 2) | «25 luglio 1943» |
 | 5 | 13:10–13:18 | visivo/audio | ripasso arg. 1: la voce legge 4 punti, sullo schermo ne mancava uno (la marcia su Roma) | 4 punti a schermo, in sincronia |
-| 6 | 0:15–0:37, 12:30–13:17, 18:32–19:23, 32:08–32:59, 51:40–55:00 | testo | **~6 minuti di voce narrante senza sottotitoli** (benvenuto, 4 ripassi, glossario, riepilogo, congedo). Nel parlato del prof il .vtt era una trascrizione automatica con errori («ventegno», «shopperi», «ricotozi», «Fonda Mara», «il letteratura»…) | trascrizione rifatta e riletta: 880 blocchi, max 2 righe da 42, 1–6 s, 0 sovrapposti |
+| 6 | 0:15–0:37, 12:30–13:17, 18:31–19:23, 32:08–32:59, 51:31–52:20, 53:20–55:00 | testo | **~6 minuti di voce narrante senza sottotitoli** (benvenuto, 4 ripassi, glossario, riepilogo, congedo). Nel parlato del prof il .vtt era una trascrizione automatica con errori («ventegno», «shopperi», «ricotozi», «Fonda Mara», «il letteratura»…) | trascrizione rifatta e riletta: 880 blocchi, max 2 righe da 42, 1–6 s, 0 sovrapposti |
 | 7 | 1:51–3:42 | visivo | card «Le condizioni dell'Italia» evidenziata per 111 s mentre il prof presenta la lezione (parla della crisi dal 3:44) | nessuna card evidenziata fino al 3:42, poi la card 1 |
 | 8 | 4:47 | visivo | card «vittoria mutilata» 3 s in ritardo | a 4:44 (il prof la nomina a 4:44) |
-| 9 | 14:08–14:26 e 14:26–14:56 | visivo | «Economia e società» in ritardo di ~4 s; poi «Il controllo delle masse» evidenziata mentre il prof parla di Patti Lateranensi, autarchia, IMI/IRI (cioè dell'altra card) | «Economia e società» dal momento in cui il prof dice «nel 1929… Patti Lateranensi» fino a fine pezzo; «controllo delle masse» non viene nominata dal prof in questo pezzo: non evidenziata |
-| 10 | 15:06 | visivo | «alleanza con la Germania» 2 s in ritardo | a 15:06,2 − 2 s |
+| 9 | 14:26–14:56 | visivo | «Economia e società» in ritardo di ~4 s; poi «Il controllo delle masse» evidenziata mentre il prof parla di Patti Lateranensi, autarchia, IMI/IRI (cioè dell'altra card) | «Economia e società» dal momento in cui il prof dice «nel 1929… Patti Lateranensi» fino a fine pezzo; «controllo delle masse» non viene nominata dal prof in questo pezzo: non evidenziata |
+| 10 | 15:08 | visivo | «alleanza con la Germania» 2 s in ritardo | anticipata di 2 s (15:06), quando il prof la nomina |
 | 11 | 19:32–23:28 | visivo | **card «L'intellettuale di regime» evidenziata per 3 min 56 s** mentre il prof parla di altro (mobilitazione delle masse, Ministero della Cultura Popolare, radio e cinema, poi Gentile/manifesti) e pagina «politica linguistica» 6 s in ritardo | nessuna evidenziazione nel preambolo; «mezzi di comunicazione» quando cita stampa/radio/cinema; «intellettuale di regime» da Gentile; pagina linguistica da «unificazione linguistica» |
 | 12 | 36:09 | visivo | card «Alvaro» 16 s prima che il prof ci arrivi («Proseguiamo allora… Alvaro» a 36:25) | a 36:25 |
 | 13 | tutta la lezione | visivo | testi piccoli, «Pagina N» che salta | pagine numerate 1…63 nell'ordine del video, uguali al PDF |
 | 14 | 11:35, 17:35, 31:16, 52:30 | contenuto | **Mappe concettuali inventate da noi** (arg. 1, 2, 3 e mappa finale) | **tolte** (regola «non inventarla»; tagliata solo la voce narrante, mai il prof) |
-| 15 | 50:10 | contenuto | mappa arg. 4 con parole chiave («crisi, inettitudine, Meridione…») che nella mappa del prof **non ci sono** | **mappa del prof** (`MAPPE/LEZIONE 15.pdf`) con testo identico, nostra grafica, **voce nuova Kore** (6 frasi `PM1–PM6` generate dalla master) che legge i suoi riquadri |
+| 15 | 50:33–51:26 | contenuto | mappa arg. 4 con parole chiave («crisi, inettitudine, Meridione…») che nella mappa del prof **non ci sono** | **mappa del prof** (`MAPPE/LEZIONE 15.pdf`) con testo identico, nostra grafica, **voce nuova Kore** (6 frasi `PM1–PM6` generate dalla master) che legge i suoi riquadri |
 | 16 | 55:00–55:24 | struttura | dopo «Fine della lezione» c'erano le schede «Verifica finale» e «Compiti» **dopo** il «GRAZIE»; finale non quello del kit | tolte dal video (stanno fuori, regola 10); finale = `Sigla_finale_5s_con_avviso_diritti.mp4` |
 | 17 | audio | audio | picco vero **+0,63 dBTP** (limite −1) | limitatore: −2,5 dBTP; −16,4 LUFS |
 | 18 | consegna | testo | `compiti.json` in formato sbagliato (lista di stringhe) | `{"titolo","esercizi":[{"n","tipo","testo"}]}`, testo identico al PDF del prof (4 esercizi) |
@@ -43,7 +43,7 @@ Prof. Giorgio Mazzotti · chat di revisione · 16/11/2026 · **VERSIONE FINALE**
 | 21 | consegna | testo | testo YouTube con «Parte 1» e capitoli vecchi | rifatto con i nuovi tempi |
 | 22 | 31:16 (nuovo) | visivo | **1,7 s di webcam ferma** nel pezzo del prof | è nell'**originale** (a 19:29 il prof dice «mi sposto un poco più sopra»: la finestra si muove). Non è un errore di montaggio; lo lascio, non si taglia il prof |
 | 23 | vari | visivo | in alcuni punti la cima dei capelli del prof è tagliata | è già così nella webcam originale (il prof è molto vicino al bordo): più in alto non c'è immagine |
-| 24 | 1:12–… | audio | silenzi 2,4–3,8 s | solo alle **schede Quiz** (pausa prevista, 5 s). Il più lungo (3,8 s) è la scheda del quiz 4 + 0,8 s prima del glossario |
+| 24 | es. 12:22 (nuovo) | audio | silenzi 2,4–3,8 s | solo alle **schede Quiz** (pausa prevista, 5 s). Il più lungo (3,8 s) è la scheda del quiz 4 + 0,8 s prima del glossario |
 
 ## 3. Confronto con il modello Spagnolo, punto per punto (regola 000)
 | Punto | Esito |
@@ -68,7 +68,7 @@ Prof. Giorgio Mazzotti · chat di revisione · 16/11/2026 · **VERSIONE FINALE**
 
 ## 5. Domande per Sara (basta una riga di risposta)
 1. **Mappe di arg. 1, 2, 3 e mappa finale**: del prof c'è solo quella dell'arg. 4. Le altre quattro le avevamo inventate e le ho **tolte** (regola «non inventarla»). Se le vuoi comunque, le rimetto.
-2. Nessuna delle due: `t_verifica`/`t_compiti` nella scheda li ho messi a fine video perché le schede sono fuori dal video; se alla master servono altri valori me lo dice lei.
+2. Per la master: `t_verifica`/`t_compiti` nella scheda li ho messi a fine video perché le schede sono fuori dal video; se alla master servono altri valori me lo dice lei.
 
 ## 6. File consegnati
 `Letteratura_Lez15_Parte1_1080p.mp4.parte_00…03` + `.sha256` · `Letteratura_Lez15_Parte1.vtt` · `Letteratura_Lez15_slide.pdf` · `Letteratura_Lez15_mappe.pdf` · `Quiz_Letteratura_Lez15.txt` + `quiz_argomenti.json` (controllati: 20 domande, risposte giuste) · `Verifica_finale_Letteratura_Lez15.xlsx` (10 domande, **identica** all'Excel del prof) · `compiti.json` · `scheda_pubblicazione.json` · `testo_youtube.txt` · `timeline.json` · `controllo_minuti.jpg` · questo rapporto.
