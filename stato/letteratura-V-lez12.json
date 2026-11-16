@@ -2,7 +2,7 @@
  "tag": "letteratura-V-lez12",
  "parti": {
   "1": {
-   "stato": "IN_MONTAGGIO"
+   "stato": "IN_REVISIONE"
   }
  },
  "manca": "",
@@ -10,16 +10,13 @@
  "domande_sara": [],
  "note": [
   {
-   "quando": "16/11 23:24",
-   "testo": "IN_REVISIONE chat revisione 12. Consegna prevista 06:30 (ora italiana), aggiorno ogni 20 minuti. Partenza 00:25."
+   "quando": "16/11 23:25",
+   "testo": "prima versione rapporto pushata; serve decisione: rifare tutta la grafica (modello Spagnolo) o solo correzioni"
   },
   {
-   "quando": "16/11 23:30",
-   "testo": "Avanzamento: scaricato tutto, trascrizione in corso, motore slide modello Spagnolo pronto (primo test ok). Consegna prevista 06:30 IT."
+   "quando": "16/11 23:33",
+   "testo": "Decisione Sara: rifare tutta la grafica nel modello Spagnolo, stessa durata e stessi fotogrammi. Consegna prevista: entro 5 ore da ora (17/11 ~04:30 UTC); prima verifica completa nel rapporto entro 2 ore"
   }
  ],
- "materia": "Letteratura Italiana V",
- "lezione": "Lezione 12",
- "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-16 23:30:59"
+ "aggiornato": "2026-11-16 23:33:27"
 }
