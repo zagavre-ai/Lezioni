@@ -1,14 +1,27 @@
 {
  "tag": "letteratura-V-lez02",
- "parti": {},
+ "parti": {
+  "1": {
+   "stato": "IN_REVISIONE"
+  }
+ },
  "manca": "",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "16/11 18:19",
+   "testo": "Serve huggingface.co sbloccato (o modello Whisper small) per la trascrizione della revisione lez. 2"
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
    "quando": "16/11 18:12",
    "testo": "chat revisione 2"
+  },
+  {
+   "quando": "16/11 18:19",
+   "testo": "rapporto v1 su revisione-letteratura-V-lez02"
   }
  ],
- "aggiornato": "2026-11-16 18:12:32"
+ "aggiornato": "2026-11-16 18:19:49"
 }
