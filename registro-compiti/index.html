@@ -288,7 +288,7 @@ async function alunno(){if(ALUNNO||DEMO)return;try{const f=(await sha('alunno|'+
   ALUNNO=JSON.parse(dec.decode(await crypto.subtle.decrypt({name:'AES-GCM',iv:u.slice(0,12)},k,u.slice(12))));MATERIE=ALUNNO.materie||[];}catch(e){ALUNNO={};}
   if(!MAT)MAT=MATERIE[0]||'Tutte le materie';if(MATERIE.length&&!MATERIE.includes(MAT)&&!Q.get('m'))MAT=MATERIE[0];}
 /* attività rilevate (piattaforma, lezioni in diretta, quaderno): file cifrato con il codice dell'alunno */
-let ATT=null;
+let ATT=null;const LAB=m=>(ATT&&ATT.etichette&&ATT.etichette[m])||m;
 async function attivita(){if(ATT||DEMO)return;try{const f=(await sha('attivita|'+CODE)).slice(0,16);const r=await fetch('attivita/'+f+'.enc?t='+Date.now());if(!r.ok){ATT={days:{}};return}
   const k=await crypto.subtle.importKey('raw',await crypto.subtle.digest('SHA-256',enc.encode('telesio-attivita|'+CODE)),'AES-GCM',false,['decrypt']);const u=unb64((await r.text()).trim());
   ATT=JSON.parse(dec.decode(await crypto.subtle.decrypt({name:'AES-GCM',iv:u.slice(0,12)},k,u.slice(12))));}catch(e){ATT={days:{}}}}
@@ -301,7 +301,7 @@ const attDi=k=>((ATT&&ATT.days&&ATT.days[k])||[]).filter(x=>tutte()||(x.tab?x.ta
 const s1Di=k=>{const S=(ATT&&ATT.sez1)||{};if(tutte())return Object.entries(S).flatMap(([t,G])=>(G[k]||[]).map(x=>({...x,tab:t})));return (S[MAT]&&S[MAT][k])||[]};
 function s1Box(k){const L=s1Di(k);if(!L.length)return '';const fmt=d=>d?fmtS(d):'';
   return '<div class="s1auto" style="margin:4px 0 10px;border:1px solid #cfd6e4;border-radius:10px;background:#F7F9FC;padding:8px 12px"><div class="sm" style="margin-bottom:4px">Dal piano didattico e dalle attività della piattaforma'+(ATT.letto?' · dati letti il '+esc(ATT.letto):'')+'</div>'+
-  L.map(x=>'<div class="it" style="padding:6px 0;border-top:1px solid #e3e8f0"><div><b>LEZIONE '+x.n+': '+esc(x.t)+' (n. '+x.n+' del corso)</b>'+(tutte()?' <span class="sm">· '+esc(x.tab)+'</span>':'')+'</div><div class="sm">'+esc(x.c)+'</div>'+(x.d?'<div><span class="sm">Argomenti:</span> '+esc(x.d)+'</div>':'')+
+  L.map(x=>'<div class="it" style="padding:6px 0;border-top:1px solid #e3e8f0"><div><b>LEZIONE '+x.n+': '+esc(x.t)+' (n. '+x.n+' del corso)</b>'+(tutte()?' <span class="sm">· '+esc(LAB(x.tab))+'</span>':'')+'</div><div class="sm">'+esc(x.c)+'</div>'+(x.d?'<div><span class="sm">Argomenti:</span> '+esc(x.d)+'</div>':'')+
   '<div class="sm" style="margin-top:2px">'+(x.fonte==='inizio'?'Lezione svolta non presente nel piano didattico: segnata nel giorno in cui è stata iniziata. ':'Assegnata nel piano didattico. ')+(x.ok?'<b style="color:#1d7a3a">✓ Completata il '+esc(fmt(x.cd))+'</b>'+(x.pun?' · test '+esc(x.pun):''):(x.pv?'<b style="color:#b26b00">Iniziata il '+esc(fmt(x.pv))+', non ancora completata</b>':'<b style="color:#b3261e">Non ancora svolta</b>'))+'</div></div>').join('')+'</div>'}
 
 /* attività del giorno: il docente o lo staff possono correggerle; la correzione resta nel nostro registro (la piattaforma non si tocca) */
@@ -392,7 +392,7 @@ function head(){
   $('#demo').style.display=DEMO?'':'none';
   document.querySelectorAll('.seg button').forEach(b=>b.classList.toggle('on',b.dataset.r===ROLE));
   $('#eyebrow').textContent='Registro compiti · '+VIEW.toLocaleDateString('it-IT',{month:'long',year:'numeric'});
-  $('#mat').innerHTML=MATERIE.length>=1?'<span class="tabs">'+[...MATERIE,'Tutte le materie'].map(m=>'<button class="tab'+(m===MAT?' on':'')+'" data-m="'+esc(m)+'">'+esc(m)+'</button>').join('')+'</span>':esc(MAT);
+  $('#mat').innerHTML=MATERIE.length>=1?'<span class="tabs">'+[...[...MATERIE].sort((x,y)=>LAB(x).localeCompare(LAB(y),'it')),'Tutte le materie'].map(m=>'<button class="tab'+(m===MAT?' on':'')+'" data-m="'+esc(m)+'">'+esc(LAB(m))+'</button>').join('')+'</span>':esc(LAB(MAT));
   document.querySelectorAll('#mat .tab').forEach(b=>b.onclick=()=>{if(b.dataset.m===MAT)return;MAT=b.dataset.m;avvio()});
   const g=DB.gen||{};
   $('#who').innerHTML=(ROLE==='docente'?'<span class="pill doc">VISTA DOCENTE</span>':'<span class="pill stu">VISTA STUDENTE · sola lettura</span>')+
@@ -475,13 +475,13 @@ function report(){
   const rec8=[];giorni.forEach(k=>{const r=rec(k);if(!r||!visible(k))return;const st=r['8.ex.st']||[];if(st.includes('Da recuperare')&&r['8.ex.rec'])rec8.push({g:k,t:r['8.ex.rec']})});
   const riga=(a,b,c)=>'<div class="it"><div class="st '+a+'">'+b+'</div><div>'+c+'</div></div>';
   let h='<div class="dayh"><div><h2>Resoconto della settimana</h2><div class="sm" style="font-size:15px">'+esc(cap(fmtL(L0)))+' – '+esc(fmtL(add(L0,6)))+'</div><div class="bar"></div></div><div class="tools nop"><button class="btn" id="wp">‹ Settimana prima</button><button class="btn" id="wn"'+(ROLE==='studente'&&add(L0,7)>TODAY?' disabled':'')+'>Settimana dopo ›</button><button class="btn" id="wg">Torna al giorno</button><button class="btn pri" id="pdf">Scarica PDF</button><button class="btn" id="pr">Stampa</button></div></div>';
-  h+='<div class="head4"><div><span class="lab">Studente</span>'+esc(nome)+'</div><div><span class="lab">Materia</span>'+esc(tutte()?'Tutte le materie':MAT)+'</div><div><span class="lab">Dati letti il</span>'+esc((ATT&&ATT.letto)||'')+'</div><div></div></div>';
+  h+='<div class="head4"><div><span class="lab">Studente</span>'+esc(nome)+'</div><div><span class="lab">Materia</span>'+esc(tutte()?'Tutte le materie':LAB(MAT))+'</div><div><span class="lab">Dati letti il</span>'+esc((ATT&&ATT.letto)||'')+'</div><div></div></div>';
   h+='<div class="sum" style="margin:6px 0 14px"><div class="n">'+[[PL.length,'lezioni nel piano'],[nF,'completate'],[nI,'iniziate, non finite'],[nN,'non svolte'],[Lv.length,'lezioni in diretta'],[Qd.length,'compiti del quaderno']].map(([v,l])=>'<div><b>'+v+'</b><span>'+l+'</span></div>').join('')+'</div></div>';
   /* piano */
   h+='<div class="att"><h4>1. Videolezioni assegnate nel piano didattico</h4>';
   if(!PL.length)h+='<div class="it"><div>Per questa settimana il piano didattico non riporta videolezioni'+(tutte()?'':' di questa materia')+'.</div></div>';
   PL.sort((a,b)=>a.g<b.g?-1:a.g>b.g?1:0).forEach(x=>{const st=fatta(x)?['C','✓ Completata il '+fmtS(x.cd)+(x.pun?'<br>Test '+esc(x.pun):'')]:inCorso(x)?['I','Iniziata il '+fmtS(x.pv)+', non finita']:['N','Non svolta'];
-    h+=riga(st[0],st[1],'<b>'+esc(tit(x))+'</b>'+(tutte()?' <span class="sm">· '+esc(x.tab)+'</span>':'')+'<div class="sm">Nel piano: '+esc(fmtS(x.g))+' · '+esc(x.c)+'</div>')});
+    h+=riga(st[0],st[1],'<b>'+esc(tit(x))+'</b>'+(tutte()?' <span class="sm">· '+esc(LAB(x.tab))+'</span>':'')+'<div class="sm">Nel piano: '+esc(fmtS(x.g))+' · '+esc(x.c)+'</div>')});
   if(extra.length){h+='<div class="it"><div class="sm" style="padding-top:4px"><b>Completate in questa settimana ma assegnate in altri giorni:</b></div></div>';extra.forEach(x=>{h+=riga('C','✓ Completata il '+fmtS(x.g)+(x.p?'<br>Test '+esc(x.p):''),'<b>'+esc(x.n?tit(x):x.t)+'</b><div class="sm">'+esc(x.c)+'</div>')})}
   h+='</div>';
   /* dirette */
@@ -498,7 +498,7 @@ function report(){
   const daRec=PL.filter(x=>!fatta(x));
   h+='<div class="att"><h4>4. Da recuperare</h4>';
   if(!daRec.length&&!rec8.length)h+='<div class="it"><div>Niente da recuperare per questa settimana.</div></div>';
-  daRec.forEach(x=>{h+=riga(inCorso(x)?'I':'N',inCorso(x)?'Da finire':'Da svolgere','<b>'+esc(tit(x))+'</b>'+(tutte()?' <span class="sm">· '+esc(x.tab)+'</span>':'')+'<div class="sm">Era nel piano di '+esc(fmtS(x.g))+'</div>')});
+  daRec.forEach(x=>{h+=riga(inCorso(x)?'I':'N',inCorso(x)?'Da finire':'Da svolgere','<b>'+esc(tit(x))+'</b>'+(tutte()?' <span class="sm">· '+esc(LAB(x.tab))+'</span>':'')+'<div class="sm">Era nel piano di '+esc(fmtS(x.g))+'</div>')});
   rec8.forEach(x=>{h+=riga('N','Segnalato dal docente','<b>'+esc(x.t)+'</b> <span class="sm">· '+esc(fmtS(x.g))+'</span>')});
   h+='</div><p class="sm" style="color:var(--mut);font-size:12px;margin-top:10px">Il resoconto si calcola da solo dal piano didattico della piattaforma, dalle videolezioni svolte, dal registro delle lezioni in diretta e dal quaderno dei compiti.'+(ROLE==='studente'&&k6>T?' La settimana è in corso: conta solo fino a oggi.':'')+'</p>';
   $('#day').innerHTML=h;
@@ -575,7 +575,7 @@ function day(){
     '<p class="sm" style="color:var(--mut);font-size:12px;margin-top:10px">Qui si vedono le attività di tutte le materie: videolezioni della piattaforma, lezioni in diretta, compiti del quaderno. I compiti del registro si scrivono nella scheda della materia.</p>';
     $('#pr').onclick=()=>window.print();return}
   let h='<div class="dayh"><div><h2>'+fmtL(SEL)+'</h2><div class="bar"></div></div><div class="tools">'+(ro?'':'<span class="status" id="st"></span><button class="btn pri" id="sv">Salva</button>')+'<button class="btn" id="pr">Stampa / PDF</button></div></div>';
-  h+='<div class="head4"><div><span class="lab">Studente</span>'+esc(g.nome||'')+'</div><div><span class="lab">Materia</span>'+esc(MAT)+'</div><div><span class="lab">Docente</span>'+esc(g.doc||'')+'</div><div><span class="lab">Prossima diretta</span>'+(ro?esc(fmtS(r.dir)):'<input type="date" data-k="dir" value="'+esc(r.dir||'')+'">')+'</div></div>';
+  h+='<div class="head4"><div><span class="lab">Studente</span>'+esc(g.nome||'')+'</div><div><span class="lab">Materia</span>'+esc(LAB(MAT))+'</div><div><span class="lab">Docente</span>'+esc(g.doc||'')+'</div><div><span class="lab">Prossima diretta</span>'+(ro?esc(fmtS(r.dir)):'<input type="date" data-k="dir" value="'+esc(r.dir||'')+'">')+'</div></div>';
   h+=genBox();
   h+=progBox(k)+attBox(k);
   if(ro&&!filled(r))h+=(attDi(k).length||programmati(k).length)?'':'<div class="empty"><b>Nessun compito per questo giorno</b>Guarda i giorni con il pallino giallo.</div>';
