@@ -11,6 +11,10 @@
   {
    "quando": "16/11 01:53",
    "testo": "Lezione 10: servono nella release inglese-afm-triennio ENG_Amministrazione_Lez10_Verifica.xlsx e ENG_Amministrazione_Lez10_Compiti.pdf."
+  },
+  {
+   "quando": "16/11 02:00",
+   "testo": "Voci Kore lez10: 41 voci, 3287 caratteri in scambio/afm-inglese-triennio-lez10/testi_voci.json sul ramo voci-afm-inglese-triennio-lez10. Quiz (25 domande) da approvare nello stesso ramo."
   }
  ],
  "domande_sara": [],
@@ -23,5 +27,5 @@
  "materia": "Inglese AFM",
  "lezione": "Lezione 10",
  "docente": "Prof.ssa Maria Vittoria Fontanesi",
- "aggiornato": "2026-11-16 01:53:00"
+ "aggiornato": "2026-11-16 02:00:06"
 }
