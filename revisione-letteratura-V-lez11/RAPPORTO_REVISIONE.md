@@ -8,9 +8,9 @@ Versione finale · 16/11/2026 · stato: REVISIONATA (da riguardare dalla master)
 |---|---|---|
 | Durata | 54:23 (3263,0 s) | **51:40 (3100,36 s)** |
 | Fotogrammi | – | **93.010 = durata × 30** (controllato) |
-| Peso | 192,5 MB | **240,0 MB** (< 400) |
+| Peso | 192,5 MB | **240,5 MB** (< 400) |
 | Formato | 1920×1080, 30 fps, x264 veryfast CRF 19, AAC 192k 48 kHz | uguale |
-| Volume totale | – | **−15,6 LUFS** integrati (parlato del prof normalizzato a −16 LUFS ±2) |
+| Volume totale | – | **−15,8 LUFS** integrati; **picco vero −1,3 dBTP** (misurato con `ebur128=peak=true`; prima 0,0). Parlato del prof normalizzato a −16 LUFS |
 | Silenzi > 3 s | 8 (schede titolo e quiz) | **0** (4 silenzi tra 2,5 e 3 s) |
 | Scatto quiz (4 quiz) | – | **scarti +0,019 / +0,019 / +0,019 / +0,018 s** (limite 0,05) |
 | Sha256 | ricomposto, uguale al file | `…parte_00/01/02` + `.sha256` (controllato) |
@@ -21,11 +21,11 @@ Versione finale · 16/11/2026 · stato: REVISIONATA (da riguardare dalla master)
 | 1 | Sigla 15 s → dissolvenza → copertina | **corretto**: sigla Letteratura del kit, dissolvenza di 0,7 s verso la copertina |
 | 2 | Copertina | **corretto**: riga DM Mono blu «LETTERATURA ITALIANA V · VIDEOLEZIONE», titolo Bricolage 800 con barretta, card «ARGOMENTI» (4 argomenti) |
 | 3 | Slide fondo bianco, «01 · ARGOMENTO», titolo+barretta, card | **corretto**: tutte le slide rifatte su fondo bianco (prima: approfondimenti, schede, ripassi, quiz, glossario su fondo blu scuro) |
-| 4 | Piè di pagina | **corretto**: «LETTERATURA ITALIANA V · Prof. Giorgio Mazzotti» + «Pagina N» (64 pagine, mai il numero della lezione) |
+| 4 | Piè di pagina | **corretto**: «LETTERATURA ITALIANA V · Prof. Giorgio Mazzotti» + «Pagina N» in **Figtree Bold** spaziato (64 pagine, mai il numero della lezione) |
 | 5 | Riquadro prof 4:3 ~410×308, ombra morbida, niente bordo | **corretto**: 412×310 px a x=1428, y=148, angoli arrotondati, ombra grigia. Ritaglio 4:3 dall'**originale del prof** (release) con correzione immagine del kit (contrasto 1,04, saturazione 1,03, hqdn3d 1.5:1.5:3:3, cas 0,35). Il tondo non c'è più |
 | 6 | Fascia gialla col nome | **corretto**: due righe, −3°, «Giorgio Mazzotti» / «PROF. DI LETTERATURA ITALIANA», sempre visibile dove c'è il prof |
 | 7 | Slide senza prof | **corretto**: testo grande (29–36 px), parole chiave evidenziate in giallo, stesso logo e piè di pagina |
-| 8 | Font | **corretto**: solo Bricolage Grotesque 800, Figtree, DM Mono (DM Mono scaricato da Google Fonts: non era nel kit) |
+| 8 | Font | **corretto dopo il controllo master (15:10)**: Bricolage Grotesque 800 (titoli) e Figtree; la riga «01 · ARGOMENTO», la riga della copertina, il piè di pagina e le etichette sono in **Figtree Bold maiuscolo spaziato**, come `slide_1080p_esempio.png`. DM Mono non è più usato (video, PDF slide, PDF mappe) |
 | 9 | Finale | **corretto**: `Sigla_finale_5s_con_avviso_diritti.mp4` del kit. Tolte la slide «Fine», la scheda «Verifica finale» e le due schede «Compiti» che stavano dentro il video |
 | 10 | Struttura | **OK**: sigla → presentazione → per argomento: titolo, prof, approfondimenti, ripasso (voce + schema), quiz → glossario → riepilogo → finale. Verifica finale (10 domande) e compiti restano fuori dal video |
 | 11 | PDF A4 | **fatti**: `…_slide.pdf` (64 pagine) e `…_mappe.pdf` (1 pagina) |
@@ -75,5 +75,14 @@ La pagina 379 e le pagine 401–402 non sono lette dal prof: non inserite.
 5. **Picco:** il picco campione arriva a 0 dBFS dopo la codifica AAC (parlato a −16 LUFS): da guardare se la master vuole più margine.
 6. Strumenti: `finale_a_pezzi.py` e `controllo_finale.py` usano percorsi della macchina della master (`/home/claude/…`) e non girano qui: ho fatto una sola codifica x264 per gruppo (veryfast CRF 19) e un solo AAC 192k, poi unione senza ricomprimere; i controlli equivalenti (fotogrammi, silenzi, LUFS, scatto quiz con riferimento ricavato dal vecchio video, PDF/fotogrammi) sono nelle tabelle sopra.
 
+## 6-bis. Correzioni dopo il controllo della master
+1. Font delle etichette: DM Mono → Figtree Bold in tutte le slide del video, nel PDF slide (64 pp.) e nel PDF mappe. Video rimontato: stessi tempi, stessi fotogrammi.
+2. Picco audio: limitatore sull'audio finale, picco vero **−1,3 dBTP** (era 0,0). Durata 3100,363 s e **93.010 fotogrammi** identici; scatto dei quiz entro +0,02 s; nessun silenzio > 3 s.
+3. Fettina di Molly (p. 400): mancava la prima riga («e per l'anima sua spilorcia…»); ora c'è.
+4. Aggiunto `controllo_fettine.jpg` (un fotogramma per ognuna delle 9 fettine).
+
+## Cosa NON ho verificato
+Ascolto a orecchio (rumore, metallico, sincronia labiale); correttezza di ogni frase dei sottotitoli; i tempi delle evidenziazioni su ogni cambio (±1,5 s solo a campione).
+
 ## 7. File consegnati (cartella `revisione-letteratura-V-lez11/`)
-`Letteratura_Lez11_Parte1_1080p.mp4.parte_00/01/02` + `.sha256`, `Letteratura_Lez11_Parte1.vtt`, `Letteratura_Lez11_slide.pdf` (A4 orizz., 64 pp.), `Letteratura_Lez11_mappe.pdf` (A4 orizz.), `quiz_argomenti.json`, `Quiz_Letteratura_Lez11.txt`, `Test_Letteratura_Lez11.xlsx`, `compiti.json`, `scheda_pubblicazione.json`, `testo_youtube.txt`, `timeline.json`, `controllo_minuti.jpg`, questo rapporto. Voce nuova: `scambio/letteratura-V-lez11/` sul ramo `voci-letteratura-V-lez11` (MPD1).
+`Letteratura_Lez11_Parte1_1080p.mp4.parte_00/01/02` + `.sha256`, `Letteratura_Lez11_Parte1.vtt`, `Letteratura_Lez11_slide.pdf` (A4 orizz., 64 pp.), `Letteratura_Lez11_mappe.pdf` (A4 orizz.), `quiz_argomenti.json`, `Quiz_Letteratura_Lez11.txt`, `Test_Letteratura_Lez11.xlsx`, `compiti.json`, `scheda_pubblicazione.json`, `testo_youtube.txt`, `timeline.json`, `controllo_minuti.jpg`, `controllo_fettine.jpg`, questo rapporto. Voce nuova: `scambio/letteratura-V-lez11/` sul ramo `voci-letteratura-V-lez11` (MPD1).
