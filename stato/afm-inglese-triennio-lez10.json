@@ -414,10 +414,14 @@
   {
    "quando": "16/11 11:18",
    "testo": "Video finale consegnato sul ramo consegna-afm-inglese-triennio-lez10 (pezzi da 90 MiB + sha256, verifica dal ramo: OK). Durata misurata nello stato. controllo_finale: ESITO: DA SISTEMARE: sottotitoli · jingle: Q5 atteso 3761.831 trovato 3761.831 scarto +0.000 OK · NON PRONTA solo perché mancano dalla release i file della docente: Verifica.xlsx e Compiti.pdf (nel ramo c'è un test PROPOSTA_DA_VALIDARE). Appena arrivano: Test + compiti.json sul ramo, nessuna ricodifica (la scheda Compiti nel video rimanda alla scheda della lezione)."
+  },
+  {
+   "quando": "16/11 11:18",
+   "testo": "16/11 11:45: video finale con voci Kore consegnato sul ramo consegna-afm-inglese-triennio-lez10 (pezzi da 90 MiB + sha256, verifica dal ramo OK), con sottotitoli .vtt, Mappe pdf, quiz, scheda, testo YouTube, LEGGIMI con 6 controlli di sincronia. Controlli: fotogrammi OK, quiz scatto 0,000 s (tutti e 5), nessun fermo immagine, parlato -15,6 LUFS. Sottotitoli: il controllo automatico dà DA GUARDARE (attacco sulla voce 4 su 6 verificabili); testo corretto a mano. NON PRONTA solo perché mancano dalla release Verifica.xlsx e Compiti.pdf della docente (nel ramo c'è un test PROPOSTA_DA_VALIDARE): appena arrivano, Test + compiti.json sul ramo, nessuna ricodifica."
   }
  ],
  "materia": "Inglese AFM",
  "lezione": "Lezione 10",
  "docente": "Prof.ssa Maria Vittoria Fontanesi",
- "aggiornato": "2026-11-16 11:18:32"
+ "aggiornato": "2026-11-16 11:18:41"
 }
