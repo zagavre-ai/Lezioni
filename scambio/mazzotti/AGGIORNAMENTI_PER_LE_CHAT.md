@@ -83,3 +83,6 @@ Controllate dai file di consegna. Sistemare **senza rifare il montaggio**:
 
 ## 16/11 07:55 · STOP PUSH PER 20 MINUTI (cambio nome GitHub)
 - Da adesso fino a nuovo avviso NON fate git push. Continuate a lavorare in locale. Il repository passa da zagavre-ai/Lezioni a centrostuditelesio/Lezioni: dopo, aggiornate il remote con `git remote set-url origin https://github.com/centrostuditelesio/Lezioni.git` (vi avviso qui).
+
+## 16/11 08:05 · ANNULLATO: potete fare git push normalmente
+- Il nome di GitHub NON cambia per ora. Repository e indirizzi restano quelli di sempre (zagavre-ai/Lezioni). Riprendete i push.
