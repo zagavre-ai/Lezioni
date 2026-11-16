@@ -2,18 +2,18 @@
  "tag": "letteratura-V-lez23",
  "parti": {
   "1": {
-   "stato": "IN_MONTAGGIO",
+   "stato": "PRONTA",
    "voci": "kore",
    "titolo": "Primo Levi",
    "quiz_ok": "si",
    "fermi_ok": "si",
    "sub_ok": "si",
    "video": "Letteratura_Lez23_Parte1_1080p.mp4",
-   "durata_s": 1443.5,
-   "durata": "24:03.5",
-   "fotogrammi": 43306,
-   "fotogrammi_attesi": 43306,
-   "peso_MB": 107.4,
+   "durata_s": 3192.5,
+   "durata": "53:12.5",
+   "fotogrammi": 95776,
+   "fotogrammi_attesi": 95776,
+   "peso_MB": 159.8,
    "vtt": "Letteratura_Lez23_Parte1.vtt",
    "scheda": {
     "materia": "Letteratura italiana (V)",
@@ -356,10 +356,14 @@
   {
    "quando": "16/11 08:45",
    "testo": "Letteratura V · chat H: presa in carico (fermo >2h)"
+  },
+  {
+   "quando": "16/11 09:45",
+   "testo": "PRONTA v2 (chat H): 53:12, 22 approfondimenti/mappe con voce Kore (manca solo la mappa 'La tregua' AN22: voce errata, richiesta AN22b alla master; la mappa finale e le altre ci sono), Mappe_letteratura-V-lez23.pdf (4 mappe), compiti del prof nel video + compiti.json, schede a bande blu, jingle 0,0 s. Sottotitoli: controllo automatico 69% sul campione (falsi positivi sul fine-parlato, profilo audio verificato)"
   }
  ],
  "materia": "Letteratura italiana · V anno",
  "lezione": "Lezione 23",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-16 08:45:49"
+ "aggiornato": "2026-11-16 09:45:13"
 }
