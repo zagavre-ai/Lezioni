@@ -3,12 +3,12 @@
  "parti": {
   "1": {
    "titolo": "Gli Stati Uniti dal boom economico al New Deal",
-   "stato": "IN_MONTAGGIO",
+   "stato": "PRONTA",
    "voci": "kore",
    "quiz_ok": "si",
    "fermi_ok": "si",
    "sub_ok": "si",
-   "video": "Storia_Lez7_Parte1_1080p.mp4",
+   "video": "p1.mp4",
    "durata_s": 3203.9,
    "durata": "53:23.9",
    "fotogrammi": 96116,
@@ -409,10 +409,14 @@
   {
    "quando": "14/11 16:10",
    "testo": "Correzione in corso: nella lezione a Parte unica le schede benvenuto/ripasso finale/fine dicevano «Prima parte/Parte 1». Ricodifico; il video consegnato resta valido nel contenuto."
+  },
+  {
+   "quando": "16/11 07:26",
+   "testo": "Storia V · chat S5: sistemata per controllo 16/11 (test e compiti del docente, Mappe PDF). Durata misurata 53:23. Video non ricodificato. Sottotitoli: Whisper base, alcuni termini da rivedere."
   }
  ],
  "materia": "Storia",
  "lezione": "7",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 16:10:34"
+ "aggiornato": "2026-11-16 07:26:06"
 }
