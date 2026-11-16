@@ -1,0 +1,120 @@
+{
+ "materia": "Letteratura italiana (V)",
+ "titolo": "Letteratura V · Lezione 13 · Italo Svevo · Parte 2",
+ "durata_s": 3200.33,
+ "argomenti": [
+  {
+   "n": 4,
+   "titolo": "Testi da La coscienza di Zeno",
+   "inizio_s": 17.982,
+   "quiz_s": 3059.716
+  }
+ ],
+ "quiz": {
+  "Q4": {
+   "title": "Quiz 4 · Testi da La coscienza di Zeno",
+   "items": [
+    {
+     "p": "Che cosa mostra il testo «Il fumo»?",
+     "a": "La malattia come alibi dell'inetto e l'origine psicologica del vizio",
+     "w": [
+      "Il successo di Zeno negli affari",
+      "Il viaggio di Zeno a Vienna",
+      "La guarigione di Zeno grazie al dottore"
+     ],
+     "e": "è all'avvio del romanzo, dopo la prefazione del dottor S."
+    },
+    {
+     "p": "Quali temi emergono nel capitolo sulla morte del padre?",
+     "a": "Il conflitto con la figura paterna, la rimozione della colpa, l'affermazione di innocenza",
+     "w": [
+      "L'amore per Augusta e la gelosia per Ada",
+      "La guerra e i commerci",
+      "Il fumo e l'ultima sigaretta"
+     ],
+     "e": "è uno dei momenti centrali del libro."
+    },
+    {
+     "p": "Come appare Augusta agli occhi di Zeno?",
+     "a": "Come il campione della «salute» e della normalità borghese",
+     "w": [
+      "Come una donna fatale e distruttiva",
+      "Come un'intellettuale tormentata",
+      "Come una sorella da curare"
+     ],
+     "e": "Zeno nota anche la somiglianza tra la moglie e il padre."
+    },
+    {
+     "p": "Da quale capitolo è tratto «Un affare commerciale disastroso»?",
+     "a": "Storia di un'associazione commerciale, sull'impresa del cognato Guido",
+     "w": [
+      "Il fumo, sull'ultima sigaretta",
+      "La morte di mio padre",
+      "Psico-analisi, la pagina finale"
+     ],
+     "e": "Zeno affianca Guido, con sentimenti ambigui verso di lui."
+    },
+    {
+     "p": "Che cosa dice Zeno della vita nella pagina conclusiva?",
+     "a": "Somiglia alla malattia, ma a differenza delle altre malattie è sempre mortale",
+     "w": [
+      "È una festa da vivere senza pensieri",
+      "È guarita grazie alla psicoanalisi",
+      "È uguale per tutti gli uomini"
+     ],
+     "e": "è la pagina della profezia di un'apocalisse cosmica."
+    }
+   ]
+  }
+ },
+ "t_verifica": 3169.749,
+ "t_compiti": 3194.036,
+ "approfondimenti": [
+  {
+   "id": "AN1",
+   "titolo": "Il fumo e la morte del padre",
+   "inizio_s": 2584.3
+  },
+  {
+   "id": "AN2",
+   "titolo": "Augusta, Guido e la profezia",
+   "inizio_s": 2638.667
+  },
+  {
+   "id": "AN3",
+   "titolo": "Parole chiave dei testi di Zeno",
+   "inizio_s": 2701.633
+  },
+  {
+   "id": "AN4",
+   "titolo": "Testi da La coscienza di Zeno",
+   "inizio_s": 2979.6
+  },
+  {
+   "id": "MF2",
+   "titolo": "Svevo · tutta la lezione",
+   "inizio_s": 3065.0
+  },
+  {
+   "id": "AN1b",
+   "titolo": "Il fumo: gli indizi nel testo",
+   "inizio_s": 2726.1
+  },
+  {
+   "id": "AN2b",
+   "titolo": "La morte del padre: tre momenti",
+   "inizio_s": 2779.233
+  },
+  {
+   "id": "AN3b",
+   "titolo": "Zeno e Guido: due modi di essere",
+   "inizio_s": 2852.833
+  },
+  {
+   "id": "AN4b",
+   "titolo": "La profezia finale, lettura guidata",
+   "inizio_s": 2906.033
+  }
+ ],
+ "descrizione": "Lezione di Letteratura italiana V del prof. Giorgio Mazzotti su Italo Svevo, seconda parte: lettura e commento di testi da La coscienza di Zeno (Il fumo, La morte del padre, La salute «malata» di Augusta, Un affare commerciale disastroso, La profezia di un'apocalisse cosmica)."
+}

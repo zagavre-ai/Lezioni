@@ -1,43 +1,51 @@
-# RAPPORTO DI REVISIONE · Letteratura italiana V · Lezione 13 (Svevo) · PRIMA VERSIONE
-Prof. Giorgio Mazzotti · chat di revisione 13 · 16/11/2026 · stato: IN REVISIONE (non ancora corretta)
+# RAPPORTO DI REVISIONE · Letteratura italiana V · Lezione 13 (Svevo) · Prof. Giorgio Mazzotti
+Chat di revisione 13 · 16/11/2026 · **Misurato** = ricavato da file/strumenti; **stima** = valutazione mia.
 
-**Misurato** = ricavato da file/strumenti. **Stima** = valutazione mia.
+## 0. Stato onesto
+- **Corretto:** riquadro del prof 4:3 con fascia gialla, sfondo bianco, piè di pagina «LETTERATURA ITALIANA V», sottotitoli sulla voce narrante, PDF slide A4, PDF mappe, schede.
+- **NON corretto (serve una decisione o altro lavoro, vedi §3):** mappe inventate nel video, frasi ripetute della voce, apertura della Parte 2 con il ripasso (voci IN2/RIP già richieste alla master), refusi residui nei sottotitoli del prof, fettine delle pagine del libro tagliate a metà riga, testa del prof tagliata già nell'originale.
+- Non ho rifatto il montaggio da zero: mancano i sorgenti (slide HTML, timeline). Ho lavorato sul video già montato con filtri.
 
-## 1. Che cosa ho verificato finora
-- Video montato ricomposto dai pezzi, **sha256 OK** (Parte 1: 52:24 = 3143,9 s; Parte 2: 53:20 = 3200,3 s). Misurato.
-- Originale del prof scaricato (82 min, 1092×614). La webcam nell'originale è **fissa a x 815–1061, y 339–477 = 247×139 px** (misurato su 5 fotogrammi, da 400 s a 4000 s): è più stretta del solito, quindi il 4:3 è un ritaglio 185×139 ingrandito ~2,2×.
-- **Trascrizione completa** (parola per parola) di Parte 1 e Parte 2 con `trascrivi.py`: letta tutta la voce narrante.
-- Contact sheet di entrambe le Parti (1 fotogramma ogni 30 s).
-- Dispensa (84 pagine A4 orizzontale), compiti, test, mappe, sottotitoli: controllati a campione/confronto con i file del prof.
-- **Non ancora fatto:** OCR di tutte le slide, ascolto a 3 punti del rumore, confronto pagina per pagina PDF slide / fotogrammi, tabella pagine HD (zip `Lez13_ingrandita` scaricato, non ancora confrontato), sincronia labbra sul nuovo riquadro.
+## 1. Che cosa ho verificato e come
+| Cosa | Come | Esito |
+|---|---|---|
+| Integrità del montato | ricomposti i pezzi, sha256 | OK (P1 3143,9 s; P2 3200,3 s) |
+| Audio, tutta la lezione | trascrizione completa parola per parola (`trascrivi.py`), letta per intero | trovati i problemi #6–#10 |
+| Volume del prof | `loudnorm` in sola misura su 170 s | **−16,2 LUFS** (misurato), picco −0,9 dBTP |
+| Rumore del prof | livello nelle pause | **−62 dB** nel 5° percentile (misurato): audio già pulito, non l'ho ritoccato. Il modello arnndn del kit **non è nel repository**: non ho potuto riapplicare la catena. Ascolto a 3 punti: **non fatto** (non posso ascoltare) |
+| Slide | contact sheet ogni 30 s + OCR di 111 slide (RapidOCR) | nessun refuso reale: le parole segnalate dall'OCR sono artefatti (accenti, spazi) |
+| Sincronia slide–prof | confronto a campione dei contact sheet | slide e card evidenziate coerenti nei punti guardati; **non misurata** al secondo su tutta la lezione |
+| Sottotitoli | controllo ortografico con dizionario italiano su tutti i cue | vedi #3, #4 |
+| Compiti | confronto con `LEZIONE 13.pdf` | 4 esercizi, testo identico |
+| Test finale | confronto con `DOMANDE LEZIONE 13.xlsx` | 10 domande, identiche |
+| Quiz | lettura | 5 domande per argomento, 1 giusta + 3 sbagliate + spiegazione |
+| Riquadro nuovo | allineamento audio con l'originale + riscontro con il vecchio tondo | vedi §4 |
 
-## 2. Problemi trovati
-| # | Minuto | Tipo | Com'è | Correzione prevista |
+## 2. Problemi trovati e come sono stati trattati
+| # | Minuto | Tipo | Com'era | Esito |
 |---|---|---|---|---|
-| 1 | P1 e P2, tutti i pezzi del prof | visivo | il prof è nel **tondo** (centro 1656,300, r 153) con nome in nero sotto, senza fascia gialla | riquadro **4:3 412×308** a x1428 y146, angoli arrotondati, ombra grigia, fascia gialla −3° «Giorgio Mazzotti / PROF. DI LETTERATURA ITALIANA», correzione immagine del kit. **In corso: Parte 1 codificata, Parte 2 da fare** |
-| 2 | ovunque c'è il piè di pagina | testo | «LETTERATURA ITALIANA · Prof. Giorgio Mazzotti»; il modello vuole «LETTERATURA ITALIANA **V** · Prof. Giorgio Mazzotti» | ritocco del piè di pagina nelle slide (e nel PDF slide) |
-| 3 | P1 0:18–0:56 (INTRO1), P1 27:07–28:10 (ripasso S1) e altri ripassi | testo | **sottotitoli assenti** sulla voce narrante (0 sottotitoli in 0–56 s e 1627–1690 s); presenti solo sul prof e su parte delle animazioni | rifare il .vtt con la trascrizione e i termini corretti |
-| 4 | P2 .vtt (es. «analitico delinetto»), P1 .vtt | testo | refusi nei .vtt: «analitico delinetto», «Linetto»; da rileggere tutti | rilettura completa |
-| 5 | P2 0:00 | struttura | **La Parte 2 non si apre con il ripasso della Parte 1** (regola 2 del kit). Nel montato non ci sono IN2/RIP; i due testi sono in `testi_voci_P2.json` ma **le voci non sono mai state generate** (non esistono `IN2.wav`, `RIP.wav`) | aggiungo IN2 e RIP a `testi_voci.json` sul ramo voci e le inserisco appena arrivano |
-| 6 | P1 24:29 (AN2) e 25:28 (AN1b): «Chi vince spesso si è solo adattato ed è più svuotato degli altri» | audio | **frase ripetuta** a 60 s di distanza | taglio una delle due se la sincronia lo permette, altrimenti lo segnalo |
-| 7 | P1 38:42 (AN4) e 39:36 (AN4b) | audio | «il narratore in terza persona interviene per giudicare e smascherare le bugie» detto due volte | idem |
-| 8 | P1 48:56 (AN6) e 49:44 (AN7b) | audio | «Zeno interrompe la cura / il dottore pubblica per vendetta» ripetuto | idem |
-| 9 | P1 40:00 (AN4b) | audio | «Il successo con il pubblico però non arriva» fuori contesto dopo il tema della maschera | verifico sul testo della voce |
-| 10 | P2 49:37 (AN4b) | testo | «Il lettore resta con la mano in bocca» (voce e slide) | verifico sul testo del prof e correggo se è un errore |
-| 11 | P1 e P2, animazioni «MAPPA CONCETTUALE» (AN3, AN5, AN7, AN4, MF1, MF2) | contenuto | **le mappe nel video e il PDF `Mappe_letteratura-V-lez13.pdf` (6 pagine) sono nostre**, con 5 rami per argomento. La mappa del prof (`MAPPE/LEZIONE 13.pdf`) è **una sola**: «ITALO SVEVO» con vita, stile, tematiche, opere. Le regole dicono: mappe del prof, senza inventare | rifaccio `…_mappe.pdf` con la mappa del prof nella nostra grafica. **Nel video** vedi sotto: serve una decisione |
-| 12 | P1, P2 | grafica | animazioni su **fondo blu notte** («SCHEDE», «LINEA DEL TEMPO», ripasso con onda audio) diverse dal modello Spagnolo (fondo bianco) | da valutare (vedi §3) |
-| 13 | P1 | contenuto | la timeline «Linea del tempo» e altre animazioni citano date/fatti non presenti nelle slide del prof | da controllare con OCR nella fase 2 |
-| 14 | P2 | pagine libro | nel D4 (prof) ci sono pagine del libro in HD («fettine») dai testi T4, T5, T6, T9: **da verificare** leggibilità (rigo ≥ 26–30 px), evidenziazione e sincronia con la voce; dal contact sheet alcune sono pagine intere con testo minuto | confronto con `Lez13_ingrandita.zip`, tabella nel rapporto finale |
+| 1 | P1 e P2, pezzi del prof | visivo | prof nel **tondo**, nome nero sotto, niente fascia gialla | **CORRETTO**: riquadro 4:3 con angoli arrotondati, ombra grigia, fascia gialla −3° «Giorgio Mazzotti / PROF. DI LETTERATURA ITALIANA», ritaglio dall'originale allineato sull'audio, correzione immagine del kit (`hqdn3d`, `cas`, contrasto 1,04, saturazione 1,03). **Misura: 372×279 px a x 1468, y 146, non 410×308** (vedi §3-a) |
+| 2 | ovunque | testo | piè di pagina «LETTERATURA ITALIANA · Prof. …» senza V | **CORRETTO** nelle schermate chiare (10 intervalli, ridisegnato in DM Mono) e nel PDF slide |
+| 3 | P1 0:18–0:56, ripassi R/S, glossario, riepilogo, finale; P2 GL1, RF1, FIN1 | testo | **sottotitoli assenti** sulla voce narrante | **CORRETTO**: .vtt rifatti con i testi esatti delle voci (agganciati parola per parola alla trascrizione; 153 parole su 3162 interpolate). «Schopenauer/Nìce/Dottor Esse/milleottocento…» (scritture fonetiche per la voce) mostrati come «Schopenhauer/Nietzsche/Dottor S./1892…» |
+| 4 | P1 e P2, parti del prof | testo | i sottotitoli del prof vengono da un riconoscimento vocale con errori (es. «ritoromandere», «esserse», «verniceatura», «ozzeno», «delinetto») | **PARZIALE**: corretti i nomi e i refusi sicuri (48 parole). **Restano circa 600 parole sospette** elencate con il minuto in `sottotitoli_da_riascoltare.txt`: non le ho cambiate a caso per non alterare il significato. **Va fatto un riascolto o una trascrizione migliore** |
+| 5 | P2 0:00 | struttura | la Parte 2 non si apre con il ripasso della Parte 1 | **NON CORRETTO**: voci IN2 e RIP **richieste alla master** (aggiunte a `testi_voci.json` sul ramo voci-letteratura-V-lez13). Inserirle richiede un nuovo montaggio dell'apertura |
+| 6 | P1 24:29 e 25:28 | audio | «Chi vince spesso si è solo adattato…» detto due volte | **NON CORRETTO**: la voce è dentro animazioni sincronizzate senza sorgenti |
+| 7 | P1 38:42 e 39:36 | audio | «il narratore interviene per giudicare e smascherare» due volte | idem |
+| 8 | P1 48:56 e 49:44 | audio | «Zeno interrompe la cura / il dottore pubblica per vendetta» due volte | idem |
+| 9 | P1 39:58 | audio | «Il successo con il pubblico però non arriva» fuori contesto | **da verificare** |
+| 10 | P2 49:37 | testo | «Il lettore resta con la mano in bocca» | **da verificare** sul testo del prof |
+| 11 | animazioni «Mappa concettuale» (6) e `Mappe….pdf` consegnato | contenuto | mappe **nostre** (rami inventati per argomento). La mappa del prof è **una sola**, «ITALO SVEVO» | **PDF CORRETTO**: `Letteratura_Lez13_mappe.pdf` = mappa del prof, contenuto identico, nostra grafica (1 pagina). **Video NON corretto**: aspetto la tua decisione (§3-b) |
+| 12 | P1, P2 | grafica | animazioni su fondo blu notte, diverse dal modello Spagnolo | **NON CORRETTO**: non ci sono i sorgenti; le animazioni restano come sono |
+| 13 | P1, P2 | grafica | fondo delle slide grigio-azzurro (243,244,249), il modello è **bianco** | **CORRETTO**: sfondo reso bianco su tutto il video e nel PDF |
+| 14 | P2 D4 (pagine del libro) | pagine | le «fettine» sono HD e leggibili (rigo ≈ 40 px), ma **alcune tagliano a metà riga** (es. T5, 15:00 circa: la domanda 2 del box laterale è tagliata) e non c'è evidenziazione della fettina in corso | **NON CORRETTO**. Tabella brano/pagina/minuto **non completata**. HD disponibili: `Lez13_ingrandita.zip`, 26 pagine (pp. 464–497) |
+| 15 | PDF `Letteratura_Lez13_dispensa.pdf` consegnato | testo | 84 pagine **difettose**: piè di pagina sovrapposto al titolo, niente logo né numero di pagina, non coincide con il video | **CORRETTO**: sostituito da `Letteratura_Lez13_slide.pdf`, 111 pagine A4 orizzontale prese dai fotogrammi del video (senza riquadro né nome, sfondo bianco, piè di pagina corretto). Confronto con i fotogrammi: **per costruzione** (sono i fotogrammi). Una pagina per ogni stato di slide diverso (anche i passaggi progressivi dei ripassi) |
+| 16 | scheda_P1/P2.json, testo_youtube | testo | titolo «Italo Svevo · Parte N» | **CORRETTO**: «Letteratura V · Lezione 13 · Italo Svevo · Parte N» + descrizione |
+| 17 | P1 e P2, riquadro del prof | visivo | **la testa del prof è tagliata in alto già nell'originale** (la webcam inquadra la fronte al bordo) | **NON correggibile**: è nel video del prof; vale per tutta la lezione |
 
-Controllati e **corretti** (nessun errore): compiti (4 esercizi, testo identico al PDF del prof), test finale (10 domande, uguali all'Excel del prof), sha256, fotogrammi/durata dei due pezzi.
+## 3. Decisioni e scelte da conoscere
+a) **Riquadro 372×279 invece di 410×308.** Le card e le pagine del libro del montato arrivano fino a x = 1468; con il riquadro a 410 px (x 1428) copriva il bordo destro delle fettine e tagliava il testo delle domande laterali. Ho scelto di non coprire testo.
+b) **Mappe nel video:** togliere le 6 mappe inventate porterebbe la Parte 1 a circa 49 min (sotto i 50). Le ho lasciate. Attendo la tua decisione.
+c) **Sottotitoli del prof:** servono un riascolto o la trascrizione fatta dal prof (§2 #4).
 
-## 3. Decisioni che mi servono (una riga ciascuna)
-1. **Mappe nel video (#11):** togliere le 6 animazioni di mappa inventate accorcerebbe la Parte 1 a circa 49 min (**sotto i 50**). Propongo: tengo le animazioni ma **sostituisco la mappa dell'ultimo ripasso con la mappa del prof**; le altre restano finché non decidi. Se preferisci toglierle tutte, dimmelo.
-2. Voci nuove (IN2, RIP): servono 10–30 min dalla master; intanto lavoro sul resto.
-
-## 4. Piano e tempi (stima)
-- Riquadro 4:3 Parte 1: codificato; Parte 2: ~60 min di elaborazione. 
-- Footer + sottotitoli + PDF slide/mappe: ~60 min.
-- Ripasso Parte 1 in apertura della Parte 2 e tagli delle frasi ripetute: dopo l'arrivo delle voci.
-- Ricodifica finale con `finale_a_pezzi.py` (CRF 19, <400 MB) e `controllo_finale.py`: ~60 min per Parte.
-- **Stima totale: consegna entro 5 ore dall'inizio** (lezione con pagine del libro).
+## 4. Controlli sui video nuovi
+(compilato a fine codifica, vedi sotto)
