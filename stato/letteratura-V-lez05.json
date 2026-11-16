@@ -5,7 +5,7 @@
    "stato": "IN_REVISIONE"
   }
  },
- "manca": "",
+ "manca": "rifacimento video (slide modello, riquadro 4:3 dall'originale, fettine HD), vtt, PDF, compiti, verifica",
  "serve_master": [
   {
    "quando": "16/11 18:16",
@@ -25,7 +25,11 @@
   {
    "quando": "16/11 23:35",
    "testo": "aggiornamento: trascrizione originale e montato in corso; slide del prof (134, dal pptx) e kit generatore trovati; consegna prevista resta 05:30"
+  },
+  {
+   "quando": "16/11 23:40",
+   "testo": "ore 01:00 IT: trascrizioni fatte, rapporto v2 pushato; consegna 05:30 NON garantita, la ricostruzione completa non e' iniziata"
   }
  ],
- "aggiornato": "2026-11-16 23:35:56"
+ "aggiornato": "2026-11-16 23:40:48"
 }
