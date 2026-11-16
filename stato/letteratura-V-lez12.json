@@ -2,7 +2,7 @@
  "tag": "letteratura-V-lez12",
  "parti": {
   "1": {
-   "stato": "IN_MONTAGGIO"
+   "stato": "IN_REVISIONE"
   }
  },
  "manca": "",
@@ -10,12 +10,9 @@
  "domande_sara": [],
  "note": [
   {
-   "quando": "16/11 23:24",
-   "testo": "IN_REVISIONE chat revisione 12. Consegna prevista 06:30 (ora italiana), aggiorno ogni 20 minuti. Partenza 00:25."
+   "quando": "16/11 23:25",
+   "testo": "prima versione rapporto pushata; serve decisione: rifare tutta la grafica (modello Spagnolo) o solo correzioni"
   }
  ],
- "materia": "Letteratura Italiana V",
- "lezione": "Lezione 12",
- "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-16 23:24:57"
+ "aggiornato": "2026-11-16 23:25:17"
 }
