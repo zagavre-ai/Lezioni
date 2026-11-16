@@ -119,3 +119,10 @@ Voci Kore: dalle 9 (prima usa i segnaposto e fai tutto il resto: montaggio, slid
 - L'indice è vecchio: nella release `mazzotti-storia-V` ci sono come file singoli i video delle lezioni **3** (`LEZIONE.3.L.ITALIA.DI.GIOLITTI.mp4`), **8**, **10** e **13** (in 4 file `Storia.V.Lez.13-1…4.mp4`, da unire in ordine). Manca ancora solo la **4**.
 - Chi le fa: **S5 → 3, 13** · **S6 → 12, 15** · **S7 → 18, 20** · **S8 (nuova) → 8, 10**.
 - **Ogni lezione di Storia ha la SIGLA di Storia (15 s) e l'INTRODUZIONE** (cartello «Benvenuta e benvenuto» + argomenti, voce Kore, come la lezione 7). La sigla `kit/sigle/Sigla_Storia_15s.mp4` la prepara la master oggi: fino ad allora 15 s di segnaposto.
+
+
+## 16/11 · 17:45 · STOP QUALITÀ (Sara) — vale per TUTTE le chat, anche S5, S6, S7, S8
+- **Escono solo prodotti perfetti.** Prima di consegnare, ogni lezione passa la verifica di `scambio/REVISIONE_StoriaV_REGOLE.md` (Storia) / `scambio/REVISIONE_LetteraturaV_REGOLE.md` (Letteratura): ascolto, visione, testo, pagina — con `RAPPORTO_REVISIONE.md`.
+- **Il brief approvato è vincolante:** `scambio/BRIEF_videolezioni_APPROVATO.md`.
+- Prof nel rettangolo **stile Spagnolo** (ombra blu, bordo sottile) con **sottopancia giallo e nome ben leggibile**; **testa mai tagliata**; **audio del prof pulito** (highpass 80, arnndn, loudnorm −16, alimiter).
+- Strumenti per il rettangolo: `kit/tools/rettangolo/` su main.
