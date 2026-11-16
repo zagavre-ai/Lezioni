@@ -34,10 +34,14 @@
   {
    "quando": "16/11 01:17",
    "testo": "Trascrizione, 6 argomenti, slide sincronizzate (anche nei ripassi in italiano della docente), 7 mappe (Mappe_afm-inglese-triennio-lez07.pdf pronto), 30 domande di quiz, testi voci (55) fatti. Montaggio con voci SEGNAPOSTO in corso. Docente 60,9 min dopo i tagli delle pause: una sola Parte di circa 70 min come la lez05. Mancano dalla release: Verifica.xlsx (preparata una PROPOSTA_DA_VALIDARE), Compiti.pdf (per compiti.json) e Dispensa."
+  },
+  {
+   "quando": "16/11 03:05",
+   "testo": "pronta, attende voci Kore. Montaggio con segnaposto finito: 69,1 min stimati, una sola Parte (docente 60,9 min dopo i tagli). Pezzi del docente già codificati in 1080p CRF 19: all'arrivo delle voci servono circa 30 minuti per codifica, controlli e consegna. Sottotitoli corretti a mano (364 pezzi su 611). Lavoro salvato sul ramo lavoro-afm-inglese-triennio-lez07."
   }
  ],
  "materia": "Inglese AFM triennio",
  "lezione": "Lezione 7",
- "aggiornato": "2026-11-16 01:17:14",
+ "aggiornato": "2026-11-16 03:05:28",
  "docente": "Prof.ssa Maria Vittoria Fontanesi"
 }
