@@ -46,10 +46,14 @@
   {
    "quando": "16/11 09:16",
    "testo": "16/11 09:20: chat della master E1, lezione in carico. Pronta con le voci segnaposto, pezzi del docente già codificati; le voci Kore non sono ancora sul ramo voci-afm-inglese-triennio-lez07: ricontrollo ogni 20 minuti e chiudo appena arrivano."
+  },
+  {
+   "quando": "16/11 10:46",
+   "testo": "16/11 10:45: voci Kore arrivate (55; controllate con Whisper: testo completo, qualche confine tra frasi spostato di 1-2 s nelle mappe). Montaggio Kore e consegna in corso."
   }
  ],
  "materia": "Inglese AFM triennio",
  "lezione": "Lezione 7",
- "aggiornato": "2026-11-16 09:16:44",
+ "aggiornato": "2026-11-16 10:46:51",
  "docente": "Prof.ssa Maria Vittoria Fontanesi"
 }
