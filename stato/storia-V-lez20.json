@@ -2,7 +2,7 @@
  "tag": "storia-V-lez20",
  "parti": {
   "1": {
-   "stato": "IN_MONTAGGIO"
+   "stato": "IN_CODIFICA"
   }
  },
  "manca": "",
@@ -14,6 +14,10 @@
   {
    "quando": "15/11 14:05",
    "testo": "storia-V-lez20: attendo le voci Kore dal ramo voci-storia-V-lez20 (richiesta gia' inviata il 14/11; resto pronto)."
+  },
+  {
+   "quando": "16/11 14:31",
+   "testo": "storia-V-lez20: decisione sulle Parti. Ora una Parte da 69:44 (oltre il limite di circa 65 minuti). Se preferisci 2 Parti, genera INTRO2, MAPF2, GL2, RF2, FIN2 (testi da scrivere: li preparo io su richiesta in DALLA_MASTER.txt). Intanto consegno la versione in una Parte."
   }
  ],
  "domande_sara": [],
@@ -33,10 +37,14 @@
   {
    "quando": "16/11 12:27",
    "testo": "16/11 Storia V · chat S7: in coda dopo la 18 (voci Kore gia' in vox/)."
+  },
+  {
+   "quando": "16/11 14:31",
+   "testo": "16/11 chat S7: montaggio finito, codifica finale in corso. Durata prevista 69:44 in UNA Parte (docente 56,5 min + inserti). Oltre i 65 minuti: se la master vuole 2 Parti servono 5 voci nuove (INTRO2, MAPF2, GL2, RF2, FIN2) e il taglio e' a fine argomento 4 senza rifare altro; altrimenti resta una Parte."
   }
  ],
  "materia": "Storia",
  "lezione": "Lezione 20 · Gli anni Novanta, il mondo post-bipolare",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-16 12:27:09"
+ "aggiornato": "2026-11-16 14:31:32"
 }
