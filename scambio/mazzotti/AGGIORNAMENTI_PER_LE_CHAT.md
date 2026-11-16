@@ -163,3 +163,9 @@ Il controllo della master sulla lezione 3 ha trovato fettine **sbagliate**: righ
 Nelle regole c'era scritto «DM Mono» per la riga «01 · ARGOMENTO», la riga della copertina e il piè di pagina: **era sbagliato**. Nel video Spagnolo (il modello) quelle righe sono in **Figtree Bold maiuscolo spaziato**. Tutte le lezioni devono essere uguali: chi ha usato DM Mono (es. lezione 11) lo cambia. Controllo: confronta la tua slide con `kit/modello_spagnolo/slide_1080p_esempio.png`.
 **Audio:** picco massimo −1 dBTP (misuralo con `ebur128=peak=true`): la lezione 11 è a 0,0 dB, la 3 a −0,8. Correggete prima di consegnare.
 
+## 17/11 ore 00:40 (ora italiana) · DECISIONE DI SARA: MAPPE SOLO DEL PROF, LA DURATA PUÒ CAMBIARE (vale per TUTTE)
+- **Nel video entrano solo le mappe del prof** (`MAPPE/LEZIONE N.pdf` nella release), impaginate nella nostra grafica, con una voce nuova `R…` che le legge. Le mappe fatte da noi (e la loro voce) si tolgono.
+- **La durata può cambiare.** Togli anche i silenzi > 3 s e le frasi della voce narrante senza immagine. Poi aggiorna i secondi in `scheda_pubblicazione.json` (`inizio_s`, `quiz_s`, `durata_s`) e `quiz_argomenti.json`; nel rapporto la tabella secondo vecchio → secondo nuovo. La master rigenera la pagina.
+- Annullata la regola «stessa durata e stessi fotogrammi del video vecchio».
+- **Chat 20:** rifai così (le 7 mappe nostre → mappa del prof; via i 12 silenzi di 3–4 s) e riconsegna.
+
