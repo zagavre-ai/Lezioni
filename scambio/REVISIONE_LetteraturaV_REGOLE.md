@@ -17,7 +17,7 @@ Leggi `scambio/BRIEF_videolezioni_APPROVATO.md` (approvato dalla direzione): sig
 Scarica il video montato, ricomponi i pezzi, controlla lo sha256.
 
 **A · Ascolto (testuale-uditivo)** — trascrivi TUTTO l'audio (Whisper `small`, lingua it) con i tempi.
-1. Ogni frase della **voce narrante** corrisponde a quello che si vede in quel momento. Cerca in particolare: «ecco», «guarda/guardate», «in questa foto/immagine/ritratto/mappa/carta/schema/tabella», «come vedete»: in quel momento **l'immagine nominata deve essere sullo schermo** (±3 s). Se non c'è → la metti (dalle slide del prof, dalla dispensa o da un'immagine libera da diritti; mai foto di persone viventi) oppure togli la frase.
+1. Ogni frase della **voce narrante** corrisponde a quello che si vede in quel momento. Cerca in particolare: «ecco», «guarda/guardate», «in questa foto/immagine/ritratto/mappa/carta/schema/tabella», «come vedete»: in quel momento **l'immagine nominata deve essere sullo schermo** (±3 s). Se l'immagine c'è nei materiali del prof (slide, dispensa, screen HD) la metti; **se non c'è, tagli quella frase della voce narrante e metti una transizione morbida** (decisione di Sara 16/11). Si taglia solo la voce narrante, **mai il prof**.
 2. Nessuna parola tagliata, nessuna frase ripetuta, nessun silenzio > 3 s, nessun salto di audio, volume del parlato -16 LUFS ±2.
 3. Nei pezzi del **prof**: niente tagli dentro le frasi.
 4. **Rumore (decisione di Sara 16/11):** l'audio del prof va **pulito** come nel kit: `aresample=48000, highpass=f=80, arnndn` (modello del kit) `, loudnorm=I=-16, alimiter`. Controlla all'ascolto 3 punti: niente fruscio, niente ronzio, niente «metallico». Se il video montato non l'ha, rifai l'audio dei pezzi del prof dall'originale con questa catena.
@@ -31,6 +31,11 @@ Scarica il video montato, ricomponi i pezzi, controlla lo sha256.
 3. Grafica Telesio, niente testo tagliato o sovrapposto, nessuna slide vuota, nessun segnaposto, **mai il numero della lezione** nel video.
 4. Mappe concettuali presenti (una per argomento + mappa finale) — se mancano le aggiungi con `kit/tools/mappa.py`.
 
+**B-bis · Pagine del libro in alta risoluzione (Letteratura)** — regola del montatore (5/11):
+1. Ogni volta che il prof **mostra o legge una pagina del libro** (poesia, brano, analisi), nel video deve esserci la **«fettina» dallo screen HD**, leggibile (rigo ≥ 26–30 px a 1080p), a tempo con la sua voce, con la fettina in corso evidenziata; via intestazioni, numeri di pagina, QR e loghi dell'editore; tagli solo sulle righe bianche; mai deformare.
+2. Gli screen HD sono nella release: `Lez01_ingrandita.1.zip`, `Lez02_ingrandita.1.zip`, `Lez03_ingrandita.1.zip`, `Lez04_ingrandita.1.zip` (solo `Lez04_docente.pdf`), `Lez05_ingrandita.zip`. **Per le lezioni 6–26 non ci sono:** nella **prima ora** fai l'inventario (minuto, pagina, titolo del brano) e scrivilo a Sara in **una** lista, così li carica lei; intanto lavori sul resto. Mai usare la versione a bassa risoluzione presa dal video.
+3. Nel rapporto: tabella brano · pagina · file HD · minuto.
+
 **C · Testo (testuale)**
 1. OCR di tutte le slide: refusi, accenti, nomi, date, titoli di opere → corretti.
 2. **Sottotitoli `.vtt`:** riletti tutti e corretti (nomi propri, «letteratura» non «lettatura», niente frasi senza senso), allineati alla voce (±0,3 s), max 2 righe.
@@ -38,8 +43,8 @@ Scarica il video montato, ricomponi i pezzi, controlla lo sha256.
 
 **D · Pagina interattiva** (la genera la master; tu prepari i file giusti)
 1. Quiz: 5 domande per argomento, solo dal materiale del prof, risposte giuste davvero giuste.
-2. **Verifica finale: 10 domande** dall'Excel del prof («DOMANDE LEZIONE N.xlsx») — obbligatoria.
-3. **Compiti: quelli del prof** dal PDF «LEZIONE N.pdf» (testo identico) in `compiti.json` formato `{"titolo":…, "esercizi":[{"n":1,"tipo":"aperta","testo":…}]}`. Se il PDF non c'è nella release, scrivi `COMPITI_MANCANTI` nel rapporto.
+2. **Verifica finale: 10 domande** dall'Excel del prof («DOMANDE LEZIONE N.xlsx», tutti e 26 nello zip `Excel.prova.finale.LETTERATURA.ITALIANA.V.zip`) — obbligatoria.
+3. **Compiti: quelli del prof** dal PDF «LEZIONE N.pdf» (sono **tutti e 26** nello zip `LETTERATURA.ITALIANA.V.-20261114T221058Z-1-001.zip` della release; testo identico) in `compiti.json` formato `{"titolo":…, "esercizi":[{"n":1,"tipo":"aperta","testo":…}]}`. Se il PDF non c'è nella release, scrivi `COMPITI_MANCANTI` nel rapporto.
 4. `scheda_pubblicazione.json`: titolo **«Letteratura V · Lezione N · Titolo»** (uguale per tutte), descrizione corretta.
 
 ## 2. CORREZIONE

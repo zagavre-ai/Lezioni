@@ -22,7 +22,7 @@ Leggi `scambio/BRIEF_videolezioni_APPROVATO.md` (approvato dalla direzione): sig
 Scarica il video montato, ricomponi i pezzi, controlla lo sha256.
 
 **A · Ascolto (testuale-uditivo)** — trascrivi TUTTO l'audio (Whisper `small`, lingua it) con i tempi.
-1. Ogni frase della **voce narrante** corrisponde a quello che si vede in quel momento. Cerca in particolare: «ecco», «guarda/guardate», «in questa foto/immagine/ritratto/mappa/carta/schema/tabella», «come vedete»: in quel momento **l'immagine nominata deve essere sullo schermo** (±3 s). Se non c'è → la metti (dalle slide del prof, dalla dispensa o da un'immagine libera da diritti; mai foto di persone viventi) oppure togli la frase.
+1. Ogni frase della **voce narrante** corrisponde a quello che si vede in quel momento. Cerca in particolare: «ecco», «guarda/guardate», «in questa foto/immagine/ritratto/mappa/carta/schema/tabella», «come vedete»: in quel momento **l'immagine nominata deve essere sullo schermo** (±3 s). Se l'immagine c'è nei materiali del prof (slide, dispensa, screen HD) la metti; **se non c'è, tagli quella frase della voce narrante e metti una transizione morbida** (decisione di Sara 16/11). Si taglia solo la voce narrante, **mai il prof**.
 2. Nessuna parola tagliata, nessuna frase ripetuta, nessun silenzio > 3 s, nessun salto di audio, volume del parlato -16 LUFS ±2.
 3. Nei pezzi del **prof**: niente tagli dentro le frasi.
 4. **Rumore (decisione di Sara 16/11):** l'audio del prof va **pulito** come nel kit: `aresample=48000, highpass=f=80, arnndn` (modello del kit) `, loudnorm=I=-16, alimiter`. Controlla all'ascolto 3 punti: niente fruscio, niente ronzio, niente «metallico». Se il video montato non l'ha, rifai l'audio dei pezzi del prof dall'originale con questa catena.
