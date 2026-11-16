@@ -6,14 +6,23 @@
   }
  },
  "manca": "",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "16/11 18:24",
+   "testo": "Revisione lez.20: non riesco a scaricare Whisper (huggingface.co bloccato). Servono trascrizione/modello per rifare i .vtt e controllare voce↔immagine. Mancano anche le slide del prof (pptx) per la lez.20 nella release."
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
    "quando": "16/11 18:15",
    "testo": "chat revisione 20"
+  },
+  {
+   "quando": "16/11 18:24",
+   "testo": "prima versione RAPPORTO su ramo revisione-letteratura-V-lez20; grafica da rifare al modello Spagnolo"
   }
  ],
  "materia": "Letteratura italiana V",
- "aggiornato": "2026-11-16 18:15:54"
+ "aggiornato": "2026-11-16 18:24:27"
 }
