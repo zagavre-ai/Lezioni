@@ -48,4 +48,18 @@ b) **Mappe nel video:** togliere le 6 mappe inventate porterebbe la Parte 1 a ci
 c) **Sottotitoli del prof:** servono un riascolto o la trascrizione fatta dal prof (§2 #4).
 
 ## 4. Controlli sui video nuovi
-(compilato a fine codifica, vedi sotto)
+| Controllo | P1 | P2 |
+|---|---|---|
+| Risoluzione / codec | 1920×1080, x264 veryfast CRF 19, AAC 48 kHz ≈189 kb/s (audio copiato senza ricodifica) | idem |
+| Durata (misurata) | 3143,9 s = 52:23,9 | 3200,3 s = 53:20,3 |
+| Fotogrammi (misurati) | 94 318 (attesi 94 317: **+1 fotogramma**, 33 ms, invariato nell'ultimo secondo) | 96 010 (attesi 96 010) |
+| Peso | 218,1 MB (<400) | 239,1 MB (<400) |
+| sha256 dei pezzi | ricomposti e verificati (P1; P2 calcolato alla creazione) | |
+| Fotogrammi guardati a vista | cover 100 s, slide 400 s, animazione blu 1400 s | slide libro 900 s, 2000 s |
+
+**Non eseguiti (dichiaro):** `controllo_finale.py` e `controllo_jingle.py` (scatto dei Quiz a 0,0 s); ascolto a 3 punti; misura della sincronia labbra sul nuovo riquadro (il ritaglio è allineato all'audio con gli stessi offset del kit, ma non ho rifatto `verifica_sync`); confronto fotogramma per fotogramma con il modello Spagnolo sui punti 1–11. Stato dei punti (a vista): 
+1 sigla → invariata · 2 copertina → **diversa dal modello** (riga «LETTERATURA ITALIANA · QUINTO ANNO», lista a card; non rifatta) · 3 slide → sfondo bianco corretto · 4 piè di pagina → corretto · 5 riquadro 4:3 → **corretto, 372×279** · 6 fascia gialla → corretta (su tutte le schermate col prof) · 7 slide senza prof → invariate · 8 font → invariati, non ricontrollati · 9 finale → invariato, non ricontrollato · 10 struttura → **manca l'apertura Parte 2** · 11 PDF → rifatti.
+Piccolo difetto residuo: sotto la fettina del libro a x≈1470–1476, y≈575 resta un minuscolo gradino bianco dove finisce la copertura del vecchio riquadro.
+
+## 5. Consegna
+`Letteratura_Lez13_Parte{1,2}_1080p.mp4.parte_00…` + `.sha256` (unire con `cat … > file.mp4`), `.vtt`, `Letteratura_Lez13_slide.pdf`, `Letteratura_Lez13_mappe.pdf`, quiz, test, compiti, schede, testo YouTube, timeline, `sottotitoli_da_riascoltare.txt`. Il `controllo_minuti.jpg` (1 fotogramma ogni 30 s) è incluso se la generazione è finita prima del push.
