@@ -504,6 +504,7 @@ function report(){
   h+='</div>';
   /* da recuperare */
   const daRec=PL.filter(x=>!fatta(x)&&x.g<=T);
+  window.__REP={periodo:cap(fmtL(L0))+' – '+fmtL(add(L0,6)),k0,nome,mat:tutte()?'Tutte le materie':LAB(MAT),tutte:tutte(),PL,RV,extra,Lv,Qd,daRec,rec8,fatta,inCorso,tit,cnt:[[PL.length,'lezioni nel piano'],[nF,'completate'],[nI,'iniziate, non finite'],[nN,'non svolte']].concat(nP?[[nP,'in programma']]:[]).concat([[Lv.length,'lezioni in diretta'],[Qd.length,'compiti del quaderno']]).concat(RV.length?[[RV.length,'da rivedere']]:[])};
   h+='<div class="att"><h4>4. Da recuperare</h4>';
   if(!daRec.length&&!rec8.length)h+='<div class="it"><div>Niente da recuperare per questa settimana.</div></div>';
   daRec.forEach(x=>{h+=riga(inCorso(x)?'I':'N',inCorso(x)?'Da finire':'Da svolgere','<b>'+esc(tit(x))+'</b>'+(tutte()?' <span class="sm">· '+esc(LAB(x.tab))+'</span>':'')+'<div class="sm">Era nel piano di '+esc(fmtS(x.g))+'</div>')});
@@ -514,14 +515,7 @@ function report(){
   $('#wn').onclick=()=>{let n=add(L0,7);if(ROLE==='studente'&&n>TODAY)return;SEL=n;VIEW=new Date(SEL.getFullYear(),SEL.getMonth(),1,12);render()};
   $('#wg').onclick=()=>{REP=false;render()};
   $('#pdf').onclick=async()=>{const b=$('#pdf');b.disabled=true;b.textContent='Preparo il PDF…';
-    try{if(!window.html2pdf)await new Promise((ok,ko)=>{const t=document.createElement('script');t.src='https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js';t.onload=ok;t.onerror=ko;document.head.appendChild(t)});
-      const c=$('#day').cloneNode(true);c.querySelectorAll('.nop,.tools').forEach(x=>x.remove());
-      c.querySelectorAll('details.fb').forEach(d=>{const div=document.createElement('div');div.className='fb';div.innerHTML='<span class="sm">Giudizio:</span> '+esc(d.lastChild.textContent);d.replaceWith(div)});
-      const w=document.createElement('div');w.id='pdfw';w.style.cssText='width:720px;padding:0;background:#fff;color:#14213d;font:12px Arial,sans-serif';
-      w.innerHTML='<div style="display:flex;justify-content:space-between;align-items:center;border-bottom:2px solid #0a1d37;padding-bottom:6px;margin-bottom:10px"><b style="letter-spacing:.08em;color:#0a1d37">CENTRO STUDI TELESIO</b><span style="font-size:11px;color:#555">Registro dei compiti · resoconto della settimana</span></div>';w.appendChild(c);const st=document.createElement('style');st.textContent='#pdfw,#pdfw *{box-sizing:border-box;max-width:100%}#pdfw #day,#pdfw>div{width:100%!important;margin:0!important;padding:0!important;border:0!important;box-shadow:none!important}#pdfw .it{display:grid!important;grid-template-columns:110px minmax(0,1fr)!important;gap:8px;page-break-inside:avoid}#pdfw .it>div{min-width:0;overflow-wrap:anywhere}#pdfw .sum .n{display:grid!important;grid-template-columns:repeat(3,1fr)!important}#pdfw .dayh{display:block!important}';w.prepend(st);
-      const f='Resoconto_'+String(nome).replace(/[^A-Za-z0-9]+/g,'_')+'_'+k0+'.pdf';
-      await html2pdf().set({margin:[10,10,12,10],filename:f,image:{type:'jpeg',quality:0.95},html2canvas:{scale:2,useCORS:true,backgroundColor:'#ffffff',scrollX:0,scrollY:0,windowWidth:760},jsPDF:{unit:'mm',format:'a4',orientation:'portrait'},pagebreak:{mode:['css','legacy'],avoid:['.it','.head4','h4']}}).from(w).save();
-    }catch(e){alert('Il PDF non si è creato. Usa il pulsante «Stampa» e scegli «Salva come PDF».')}
+    try{await pdfResoconto(window.__REP)}catch(e){alert('Il PDF non si è creato. Usa il pulsante «Stampa» e scegli «Salva come PDF».')}
     b.disabled=false;b.textContent='Scarica PDF'};
   $('#pr').onclick=()=>{$('#day').querySelectorAll('details.fb').forEach(d=>d.open=true);window.print()};
 }
@@ -614,6 +608,40 @@ const goDay=d=>{SEL=d;VIEW=new Date(d.getFullYear(),d.getMonth(),1,12);render()}
 $('#oggi').onclick=()=>goDay(new Date(TODAY));$('#ieri').onclick=()=>goDay(add(TODAY,-1));
 document.querySelectorAll('.seg button').forEach(b=>b.onclick=()=>{ROLE=b.dataset.r;if(ROLE==='studente'&&iso(SEL)>T)goDay(new Date(TODAY));else render()});
 $('#reset').onclick=()=>{DB=seed();store();goDay(new Date(TODAY))};
+/* 16/11: PDF del resoconto impaginato in A4 con testo vero (non una fotografia della pagina) */
+async function pdfResoconto(R){
+  const load=u=>new Promise((ok,ko)=>{const t=document.createElement('script');t.src=u;t.onload=ok;t.onerror=ko;document.head.appendChild(t)});
+  if(!window.jspdf)await load('https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js');
+  if(!window.jspdf.jsPDF.API.autoTable)await load('https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.8.2/jspdf.plugin.autotable.min.js');
+  const {jsPDF}=window.jspdf,d=new jsPDF({unit:'mm',format:'a4'}),B=[10,29,55],G=[95,105,120],X=14,W=182;
+  const pul=t=>String(t||'').replace(/[✓→]/g,'').replace(/\s+/g,' ').trim();
+  d.setFont('helvetica','bold');d.setFontSize(10);d.setTextColor(...B);d.text('CENTRO STUDI TELESIO',X,13);
+  d.setFont('helvetica','normal');d.setFontSize(8);d.setTextColor(...G);d.text('Registro dei compiti · resoconto della settimana',X+W,13,{align:'right'});
+  d.setDrawColor(...B);d.setLineWidth(0.6);d.line(X,15.5,X+W,15.5);
+  d.setFont('helvetica','bold');d.setFontSize(17);d.setTextColor(...B);d.text('Resoconto della settimana',X,25);
+  d.setFont('helvetica','normal');d.setFontSize(10);d.setTextColor(40);d.text(pul(R.periodo),X,31);
+  d.autoTable({startY:35,margin:{left:X,right:X},theme:'plain',styles:{fontSize:9.5,cellPadding:1.5},body:[[{content:'Studente',styles:{textColor:G,fontSize:8}},{content:'Materia',styles:{textColor:G,fontSize:8}}],[{content:R.nome,styles:{fontStyle:'bold'}},{content:R.mat,styles:{fontStyle:'bold'}}]]});
+  d.autoTable({startY:d.lastAutoTable.finalY+2,margin:{left:X,right:X},theme:'grid',styles:{fontSize:8.5,halign:'center',cellPadding:2,lineColor:[220,226,235]},
+    head:[R.cnt.map(c=>c[1])],body:[R.cnt.map(c=>String(c[0]))],headStyles:{fillColor:[238,242,248],textColor:G,fontStyle:'normal',fontSize:7.5},bodyStyles:{fontStyle:'bold',fontSize:12,textColor:B}});
+  const sez=(t,head,body,vuoto,col0)=>{let y=d.lastAutoTable.finalY+8;if(y>270){d.addPage();y=18}
+    d.setFont('helvetica','bold');d.setFontSize(11);d.setTextColor(...B);d.text(t,X,y);
+    if(!body.length){d.setFont('helvetica','normal');d.setFontSize(9);d.setTextColor(80);d.text(vuoto,X,y+6);d.lastAutoTable.finalY=y+7;return}
+    d.autoTable({startY:y+2,margin:{left:X,right:X,top:16},theme:'grid',head:[head],body,styles:{fontSize:8.5,cellPadding:1.8,overflow:'linebreak',lineColor:[220,226,235],valign:'top'},
+      headStyles:{fillColor:B,textColor:255,fontSize:8.5},columnStyles:{0:{cellWidth:col0||34,fontStyle:'bold'}},
+      didParseCell:h=>{if(h.section==='body'&&h.column.index===0){const v=String(h.cell.raw||'');h.cell.styles.textColor=/^Complet/.test(v)?[46,158,91]:/^(Iniziata|Da finire|Da rivedere)/.test(v)?[201,103,26]:/^In programma/.test(v)?[32,96,175]:/^(Non svolta|Da svolgere|Assente|Segnalato)/.test(v)?[179,38,30]:B}}})};
+  const stato=x=>R.fatta(x)?'Completata il '+fmtS(x.cd)+(x.pun?' · test '+x.pun:''):R.inCorso(x)?'Iniziata il '+fmtS(x.pv)+', non finita':x.g>T?'In programma':'Non svolta';
+  const corso=x=>pul(x.c)+(R.tutte&&x.tab?'':'');
+  const righe=R.PL.slice().sort((a,b)=>a.g<b.g?-1:a.g>b.g?1:0).map(x=>[stato(x),pul(R.tit(x)),corso(x),fmtS(x.g)]);
+  R.extra.forEach(x=>righe.push(['Completata il '+fmtS(x.g)+(x.p?' · test '+x.p:''),pul(x.n?R.tit(x):x.t),pul(x.c),'fuori piano']));
+  R.RV.slice().sort((a,b)=>a.g<b.g?-1:1).forEach(x=>righe.push(['Da rivedere (già completata il '+fmtS(x.cd)+')',pul(R.tit(x))+(x.nota?' — '+pul(String(x.nota).replace(/^Corso n\. \d+( · )?/,'')):''),pul(x.c),fmtS(x.g)]));
+  sez('1. Videolezioni assegnate nel piano didattico',['Stato','Lezione','Corso','Nel piano'],righe,'Per questa settimana il piano didattico non riporta videolezioni.',36);
+  sez('2. Lezioni in diretta',['Presenza','Lezione','Docente','Giorno'],R.Lv.map(x=>[(x.ass?'Assente':'Presente')+(x.voto?' · voto '+x.voto:''),pul(x.t)+(x.fb?'\nGiudizio: '+pul(x.fb):''),pul(x.doc),fmtS(x.g)]),'Nessuna lezione in diretta registrata in questa settimana.',30);
+  sez('3. Compiti del quaderno',['Stato','Compito','Docente','Giorno'],R.Qd.map(x=>['Compito '+pul(x.e)+(x.v?' · voto '+x.v:''),pul(x.t)+(x.sc?'\nScadenza '+fmtS(x.sc):''),pul(x.doc),fmtS(x.g)]),'Nessun compito del quaderno in questa settimana.',30);
+  sez('4. Da recuperare',['Stato','Lezione','Corso','Era nel piano'],R.daRec.map(x=>[R.inCorso(x)?'Da finire':'Da svolgere',pul(R.tit(x)),pul(x.c),fmtS(x.g)]).concat(R.rec8.map(x=>['Segnalato dal docente',pul(x.t),'',fmtS(x.g)])),'Niente da recuperare per questa settimana.',30);
+  const n=d.internal.getNumberOfPages();for(let i=1;i<=n;i++){d.setPage(i);d.setFont('helvetica','normal');d.setFontSize(7.5);d.setTextColor(...G);
+    d.text('Centro Studi Telesio · Via Monte Napoleone, 8 – 20121 Milano · il resoconto si calcola dal piano didattico, dalle videolezioni, dalle dirette e dal quaderno',X,289);d.text('Pagina '+i+' di '+n,X+W,289,{align:'right'})}
+  d.save('Resoconto_'+String(R.nome).replace(/[^A-Za-z0-9]+/g,'_')+'_'+R.k0+'.pdf');
+}
 let CARICO=false;
 function avvio(){
   if(!LIVE){render();return}
