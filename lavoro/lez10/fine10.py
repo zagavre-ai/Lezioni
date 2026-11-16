@@ -9,7 +9,7 @@ def sh(c):
 os.chdir(W)
 # 1 voci
 os.makedirs('voci/wav',exist_ok=True)
-sh(f'git -C {R} fetch -q --depth 1 origin voci-{T}:refs/remotes/origin/voci-{T}')
+sh(f'git -C {R} fetch -q --depth 1 origin +voci-{T}:refs/remotes/origin/voci-{T}')
 files=subprocess.check_output(f'git -C {R} ls-tree -r origin/voci-{T} --name-only',shell=True,text=True).split()
 for f in files:
     if '/vox/' not in f: continue
