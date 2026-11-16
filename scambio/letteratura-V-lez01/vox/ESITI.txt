@@ -1,14 +1,1 @@
-INTRO1 OK frasi trovate 1 / 1 parole diverse 4 (vere 3) tentativi 1
-AP1a OK frasi trovate 1 / 1 parole diverse 12 (vere 5) tentativi 1
-MP1 DA CONTROLLARE frasi trovate 1 / 1 parole diverse 11 (vere 7) tentativi 1
-AP2a OK frasi trovate 1 / 1 parole diverse 2 (vere 2) tentativi 1
-MP2 OK frasi trovate 1 / 1 parole diverse 3 (vere 2) tentativi 1
-AP3a OK frasi trovate 1 / 1 parole diverse 3 (vere 1) tentativi 1
-MP3 OK frasi trovate 1 / 1 parole diverse 4 (vere 4) tentativi 1
-AP4a OK frasi trovate 1 / 1 parole diverse 6 (vere 3) tentativi 1
-MP4 OK frasi trovate 1 / 1 parole diverse 4 (vere 0) tentativi 1
-AP5a OK frasi trovate 1 / 1 parole diverse 8 (vere 7) tentativi 1
-MP5 OK frasi trovate 1 / 1 parole diverse 7 (vere 3) tentativi 1
-AP6a OK frasi trovate 1 / 1 parole diverse 7 (vere 7) tentativi 1
-MP6 OK frasi trovate 1 / 1 parole diverse 3 (vere 4) tentativi 1
-MPF OK frasi trovate 1 / 1 parole diverse 17 (vere 3) tentativi 1
+R7 OK frasi trovate 1 / 1 parole diverse 5 (vere 2) tentativi 1
