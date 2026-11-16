@@ -1,0 +1,10 @@
+Storia V · Lezione 20 · Gli anni Novanta, il mondo post-bipolare · consegna della chat S7 (16/11).
+Una Parte sola: 69:44,4 (misurata sul file finale). Il docente parla 56,5 minuti; con ripasso e mappa per 8 argomenti si arriva a circa 70 minuti, oltre il limite di circa 65.
+Se la master preferisce 2 Parti: il taglio sta a fine argomento 4 e servono 5 voci nuove (INTRO2, MAPF2, GL2, RF2, FIN2). Richiesta scritta nello stato.
+Video a pezzi da 90 MB: riunisci con  cat NOME_1080p.mp4.parte_* > NOME_1080p.mp4  e controlla con il file .sha256.
+Controllo finale 16/11: 1920x1080, fotogrammi = durata x 30 (125531), 282,6 MB, scatto Quiz 0,0 s OK (8 schede), nessun fermo immagine nei pezzi del docente.
+Test finale: Excel del docente. Compiti: quelli del docente (4 domande aperte): Storia_Lez20_compiti_docente.pdf/.txt e compiti.json. Nel video: schede «Verifica finale» e «Compiti».
+Mappe concettuali: nel video (una per argomento + finale) e nella dispensa A4 (mappa della lezione dopo la copertina, mappa per ogni argomento).
+Approfondimenti animati: solo 2 (crollo dell'URSS e carta dell'ex Iugoslavia), perche' le voci ricevute sono 23.
+Sottotitoli: dal parlato del docente (riconoscimento automatico, nomi propri corretti dalle slide): da leggere a campione prima della pubblicazione.
+Quiz: 5 domande per argomento (8 argomenti), Quiz_Storia_Lez20.txt e quiz_argomenti.json, in attesa di approvazione della master.
