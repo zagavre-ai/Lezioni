@@ -20,7 +20,7 @@ async function pdfResoconto(R,soloDoc){
   d.setFontSize(12);d.setTextColor(...BLU);d.text(pul(R.nome)+' · '+pul(R.mat),M,252,{maxWidth:W});
   d.setFont('LS','normal');d.setFontSize(10.5);d.setTextColor(...TX);d.text(pul(R.periodo),M,268);
   d.setFontSize(8.5);d.setTextColor(95,105,120);d.text('Il resoconto si calcola dal piano didattico, dalle videolezioni, dalle lezioni in diretta e dal quaderno dei compiti.',M,282,{maxWidth:W});
-  const tab={theme:'plain',margin:{left:M,right:M,top:110,bottom:92},styles:{font:'LS',fontSize:9.5,cellPadding:{top:4,bottom:4,left:4,right:4},textColor:TX,overflow:'linebreak',valign:'top'},
+  const tab={theme:'plain',rowPageBreak:'avoid',margin:{left:M,right:M,top:110,bottom:92},styles:{font:'LS',fontSize:9.5,cellPadding:{top:4,bottom:4,left:4,right:4},textColor:TX,overflow:'linebreak',valign:'top'},
     headStyles:{font:'LS',fontStyle:'bold',fillColor:FONDO,textColor:NOTTE,fontSize:9},
     didDrawCell:h=>{d.setDrawColor(...FIL);d.setLineWidth(0.5);d.line(h.cell.x,h.cell.y+h.cell.height,h.cell.x+h.cell.width,h.cell.y+h.cell.height)}};
   d.autoTable(Object.assign({},tab,{startY:298,head:[R.cnt.map(c=>c[1])],body:[R.cnt.map(c=>String(c[0]))],styles:Object.assign({},tab.styles,{halign:'center'}),
