@@ -98,5 +98,35 @@
   "nome": "ANF",
   "testo": "Chiudiamo con la mappa di tutta la lezione su Cesare Pavese. Al centro: Cesare Pavese.\nPrimo ramo: la vita e i traumi. Langhe, lutto del padre, confino e Tina. La parola chiave è tormento.\nSecondo ramo: la storia e l'impegno politico. Il senso di colpa e il Partito Comunista. La parola chiave è colpa.\nTerzo ramo: il mito. L'infanzia come contatto originario con il mondo. La parola chiave è infanzia.\nQuarto ramo: Il mestiere di vivere. Il diario intimo, dal 1935. La parola chiave è autoanalisi.\nQuinto ramo: le opere narrative. Dal Compagno alla Casa in collina. La parola chiave è disimpegno.\nSesto ramo: La luna e i falò. Il mito prevale sulla storia. La parola chiave è ritorno.\nUn autore che sembra semplice, e che il professore indica come possibile argomento d'esame.",
   "lingua": "it"
+ },
+ {
+  "nome": "M1",
+  "testo": "La mappa concettuale del professore, per il primo argomento: la vita e i traumi. Al centro: Cesare Pavese, 1908-1950. Scrittore, poeta, critico letterario, traduttore, insegnante. Il ramo della vita, in ordine. 1908: nasce a Santo Stefano Belbo, nelle Langhe, in Piemonte. A cinque anni rimane orfano di padre. Si trasferisce a Torino con la famiglia. 1930: si laurea in Lettere e Filosofia. Attività antifascista attiva. 1935: arrestato e confinato in Calabria. 1936: torna a lavorare come redattore per Einaudi. Dopo l'8 settembre 1943 vive nascosto dalla sorella nel Monferrato. Dopo la fine della guerra, collabora con L'Unità. 1950: muore suicida.",
+  "lingua": "it"
+ },
+ {
+  "nome": "M2",
+  "testo": "La mappa concettuale del professore, per il secondo argomento: la storia e l'impegno politico. Nel ramo della vita: attività antifascista attiva. 1935: arrestato e confinato in Calabria. Dopo l'8 settembre 1943 vive nascosto dalla sorella nel Monferrato. Dopo la fine della guerra, collabora con L'Unità. Tra le tematiche: la Resistenza partigiana.",
+  "lingua": "it"
+ },
+ {
+  "nome": "M3",
+  "testo": "La mappa concettuale del professore, per il terzo argomento: il mito e Il mestiere di vivere. Tra le tematiche: il ricordo dell'infanzia e del mondo contadino nelle Langhe; alienazione, solitudine e malinconia. Il linguaggio: semplice ed essenziale, con elementi dialettali. Nel ramo delle opere, le poesie: Lavorare stanca, 1936; Verrà la morte e avrà i tuoi occhi, 1951. E il diario: Il mestiere di vivere, 1935-50.",
+  "lingua": "it"
+ },
+ {
+  "nome": "M4",
+  "testo": "La mappa concettuale del professore, per il quarto argomento: le opere narrative. Il ramo dei romanzi, in ordine. Paesi tuoi, 1941. La spiaggia, 1942. Dialoghi con Leucò, 1947. Il compagno, 1947. La casa in collina, 1948. Il carcere, 1948. La bella estate, 1949. La luna e i falò, 1950.",
+  "lingua": "it"
+ },
+ {
+  "nome": "M5",
+  "testo": "La mappa concettuale del professore, per il quinto argomento: La luna e i falò. Nel ramo dei romanzi: La luna e i falò, 1950. Tra le tematiche: il ricordo dell'infanzia e del mondo contadino nelle Langhe; la Resistenza partigiana; alienazione, solitudine e malinconia.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MF",
+  "testo": "La mappa concettuale di tutta la lezione. Al centro: Cesare Pavese, 1908-1950. Quattro rami. La vita, dal 1908 al 1950. Il linguaggio: semplice ed essenziale, con elementi dialettali. Le tematiche: il ricordo dell'infanzia e del mondo contadino nelle Langhe, la Resistenza partigiana, alienazione, solitudine e malinconia. E le opere: due raccolte di poesie, otto romanzi e un diario.",
+  "lingua": "it"
  }
 ]
