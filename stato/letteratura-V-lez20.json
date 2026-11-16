@@ -440,7 +440,9 @@
      3255.662,
      8.0
     ]
-   ]
+   ],
+   "t_verifica": 3265.262,
+   "t_compiti": 3284.062
   }
  },
  "manca": "Pronta, attende voci Kore. Montaggio con segnaposto completo: 53:03 stimati (da rimisurare con le voci), 6 argomenti, 17 approfondimenti, quiz 5x6, test 10 domande, compiti del prof 4, bande blu.",
@@ -459,10 +461,14 @@
   {
    "quando": "15/11 14:52",
    "testo": "R1: consegnata su consegna-letteratura-V-lez20, durata misurata 54:50, 17 approfondimenti e mappe, compiti del prof. Da ricontrollare a campione la sincronia di alcune schede (tempo stimato)."
+  },
+  {
+   "quando": "16/11 08:04",
+   "testo": "Letteratura V · chat F: sistemata per controllo 15/11. Video invariato (54:50, 183 MB, 1080p: controlli rifatti, scatto quiz 0,0 s, parlato -16,4 LUFS, nessun fermo). La verifica e i compiti del prof erano già nel video (bande blu): mancavano solo t_verifica 3265,3 s e t_compiti 3284,1 s nella scheda, ora scritti. Aggiunto Mappe_letteratura-V-lez20.pdf (A4 orizzontale, 7 pagine); la dispensa ora è senza mappe (11 pagine), come da decisione del 15/11. Sincronia schede: controllo a campione su 8 punti, 6 coerenti; nel primo argomento la prima card resta accesa dall'inizio del pezzo prima che il docente ne parli (non corretto, richiederebbe ricodifica)."
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 20",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-15 14:52:58"
+ "aggiornato": "2026-11-16 08:04:03"
 }
