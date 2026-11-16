@@ -3,8 +3,445 @@
  "parti": {
   "1": {
    "titolo": "Elastomeri e materiali",
-   "stato": "IN_CODIFICA",
-   "voci": "kore"
+   "stato": "PRONTA",
+   "voci": "kore",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "si",
+   "video": "Chimica_Lez8_Parte1_1080p.mp4",
+   "durata_s": 4313.3,
+   "durata": "71:53.3",
+   "fotogrammi": 129395,
+   "fotogrammi_attesi": 129398,
+   "peso_MB": 236.1,
+   "vtt": "Chimica_Lez8_Parte1.vtt",
+   "scheda": {
+    "materia": "Chimica applicata e nobilitazione dei materiali",
+    "titolo": "Elastomeri e materiali · Parte 1",
+    "durata_s": 4313.27,
+    "argomenti": [
+     {
+      "n": 1,
+      "titolo": "Elastomeri e gomme",
+      "inizio_s": 57.766,
+      "quiz_s": 1597.799
+     },
+     {
+      "n": 2,
+      "titolo": "Fibre di gomma",
+      "inizio_s": 1603.099,
+      "quiz_s": 2118.499
+     },
+     {
+      "n": 3,
+      "titolo": "Filati e tessuti ortogonali",
+      "inizio_s": 2123.799,
+      "quiz_s": 2943.799
+     },
+     {
+      "n": 4,
+      "titolo": "Tessuti a maglia",
+      "inizio_s": 2949.099,
+      "quiz_s": 3237.332
+     },
+     {
+      "n": 5,
+      "titolo": "Tessili tecnici e microfibre",
+      "inizio_s": 3242.632,
+      "quiz_s": 3736.299
+     },
+     {
+      "n": 6,
+      "titolo": "Analisi di filati e tessuti",
+      "inizio_s": 3741.599,
+      "quiz_s": 4113.331
+     }
+    ],
+    "quiz": {
+     "Q1": {
+      "title": "Quiz 1 · Elastomeri e gomme",
+      "items": [
+       {
+        "p": "Che cos'è un elastomero?",
+        "a": "Una sostanza che si allunga molte volte la sua lunghezza e riprende la forma originale",
+        "w": [
+         "Una fibra che si scioglie in acqua",
+         "Una resina termoindurente rigida",
+         "Un tessuto a maglia"
+        ],
+        "ref": "Gli elastomeri subiscono un forte allungamento senza rompersi e riassumono le dimensioni originarie quando cessa la forza."
+       },
+       {
+        "p": "Quale configurazione ha il poliisoprene del caucciù?",
+        "a": "Cis",
+        "w": [
+         "Trans",
+         "Atattica",
+         "Reticolata"
+        ],
+        "ref": "La forma trans è la gutta-perca, che non possiede proprietà elastiche."
+       },
+       {
+        "p": "Con quale sostanza si coagula il lattice?",
+        "a": "Con acido acetico",
+        "w": [
+         "Con soda caustica",
+         "Con benzene",
+         "Con acqua ossigenata"
+        ],
+        "ref": "Il lattice è filtrato e coagulato con acido acetico; il coagulo è spremuto in fogli (Crèpe Sheet)."
+       },
+       {
+        "p": "In che cosa consiste la vulcanizzazione?",
+        "a": "Nel riscaldare la gomma con zolfo, formando ponti chimici tra le macromolecole",
+        "w": [
+         "Nell'immergere la gomma in acqua calda",
+         "Nel masticare i fogli di gomma",
+         "Nell'aggiungere nero fumo"
+        ],
+        "ref": "Lo zolfo (0,4–3%) tra 60 e 140 °C crea un reticolo tridimensionale; con il 20–30% si ottiene l'ebanite."
+       },
+       {
+        "p": "Che cosa è la Buna S?",
+        "a": "Un copolimero di butadiene e stirene",
+        "w": [
+         "Un polimero di cloroprene",
+         "Un copolimero di etilene e propilene",
+         "Un silicone"
+        ],
+        "ref": "Contiene circa il 77% di butadiene e il 23% di stirene; è meno elastica ma più economica del caucciù."
+       }
+      ]
+     },
+     "Q2": {
+      "title": "Quiz 2 · Fibre di gomma",
+      "items": [
+       {
+        "p": "Dove furono prodotte le prime fibre di gomma?",
+        "a": "A Manchester, intorno al 1850",
+        "w": [
+         "A Murano",
+         "In Giappone nel 1960",
+         "In Brasile nel 1900"
+        ],
+        "ref": "Erano filamenti a sezione quadra ottenuti tagliando fogli sottili di caucciù vulcanizzato."
+       },
+       {
+        "p": "Di che cosa è fatto l'elastan?",
+        "a": "Per almeno l'85% di poliuretano",
+        "w": [
+         "Di poliisoprene naturale",
+         "Di poliestere",
+         "Di cellulosa rigenerata"
+        ],
+        "ref": "L'elastodiene è invece poliisoprene o polimeri di dieni."
+       },
+       {
+        "p": "Quanto vale circa l'allungamento a rottura delle fibre di gomma?",
+        "a": "700–800%",
+        "w": [
+         "10–20%",
+         "100%",
+         "2–3%"
+        ],
+        "ref": "La tenacità è bassa (0,4–0,5 g/den) ma il recupero elastico è del 98% dopo un allungamento del 100%."
+       },
+       {
+        "p": "Perché non si consiglia il lavaggio a secco delle fibre di gomma?",
+        "a": "Perché i solventi organici le fanno rigonfiare e le sciolgono",
+        "w": [
+         "Perché sono idrosolubili",
+         "Perché perdono colore",
+         "Perché si carbonizzano"
+        ],
+        "ref": "Si raccomanda il lavaggio in acqua fredda o tiepida, senza ipocloriti né esposizione prolungata al sole."
+       },
+       {
+        "p": "Quali solventi sciolgono selettivamente gli elastomeri?",
+        "a": "Solfuro di carbonio, cloroformio e toluene",
+        "w": [
+         "Acqua e alcol",
+         "Acido solforico concentrato",
+         "Acetone"
+        ],
+        "ref": "È il criterio per l'identificazione qualitativa e il dosaggio quantitativo."
+       }
+      ]
+     },
+     "Q3": {
+      "title": "Quiz 3 · Filati e tessuti ortogonali",
+      "items": [
+       {
+        "p": "Come si chiama il prodotto continuo ottenuto da fibre discontinue?",
+        "a": "Filato",
+        "w": [
+         "Tessuto non tessuto",
+         "Armatura",
+         "Ritorto di seta"
+        ],
+        "ref": "Se deriva da fibre di lunghezza indefinita, come seta o fibre man made, si parla di filo."
+       },
+       {
+        "p": "Che cosa sono ordito e trama?",
+        "a": "Le serie di fili longitudinali (ordito) e trasversali (trama) del tessuto",
+        "w": [
+         "Due tipi di maglia",
+         "Due armature speciali",
+         "Due fibre sintetiche"
+        ],
+        "ref": "Il tessuto ortogonale nasce dall'intreccio di ordito e trama."
+       },
+       {
+        "p": "Quale armatura ha il massimo numero di intersezioni tra ordito e trama?",
+        "a": "L'armatura piana o tela",
+        "w": [
+         "Il raso",
+         "La saia",
+         "La garza"
+        ],
+        "ref": "La tela è la più semplice ed è identica sulle due facce."
+       },
+       {
+        "p": "Quale armatura ha il diritto lucido e il rovescio opaco?",
+        "a": "Il raso o satin",
+        "w": [
+         "La tela",
+         "La saia",
+         "Il velluto"
+        ],
+        "ref": "I punti di legatura sono distanziati, con poche intersezioni."
+       },
+       {
+        "p": "Quale tessuto non tessuto classico si ottiene da fibre di lana o peli animali?",
+        "a": "Il feltro",
+        "w": [
+         "Il denim",
+         "Il chiffon",
+         "Il tweed"
+        ],
+        "ref": "Sfrutta la tendenza delle scaglie superficiali ad alzarsi e ad agganciarsi."
+       }
+      ]
+     },
+     "Q4": {
+      "title": "Quiz 4 · Tessuti a maglia",
+      "items": [
+       {
+        "p": "Da quale elemento è ottenuto il tessuto a maglia?",
+        "a": "Dalla ripetizione di un solo elemento, la maglia",
+        "w": [
+         "Dall'intreccio di ordito e trama",
+         "Dalla saldatura di fibre",
+         "Dalla coagulazione di una resina"
+        ],
+        "ref": "Un unico filo non teso viene intrecciato su se stesso con speciali aghi."
+       },
+       {
+        "p": "Come è l'intermaglia nella maglia in trama?",
+        "a": "Orizzontale",
+        "w": [
+         "Verticale",
+         "Diagonale",
+         "Assente"
+        ],
+        "ref": "Rende il tessuto molto elastico: è ideale per l'abbigliamento."
+       },
+       {
+        "p": "Per quali articoli si usa la maglia in catena?",
+        "a": "Per tende, pizzi e tulli",
+        "w": [
+         "Per magliette",
+         "Per calze",
+         "Per jeans"
+        ],
+        "ref": "Ha intermaglia verticale o diagonale ed è smagliabile."
+       },
+       {
+        "p": "Quale intreccio ha diritto e rovescio uguali, con due serie di aghi contrapposti e sfalsati?",
+        "a": "La maglia a costa",
+        "w": [
+         "La maglia rasata",
+         "La links-links",
+         "Il jersey"
+        ],
+        "ref": "Il jersey, con una sola serie di aghi, ha diritto e rovescio diversi."
+       },
+       {
+        "p": "Quanti colori al massimo permette il jacquard a maglia?",
+        "a": "Quattro",
+        "w": [
+         "Due",
+         "Sei",
+         "Dodici"
+        ],
+        "ref": "Per la struttura stessa del tessuto a maglia, i colori sono limitati a quattro."
+       }
+      ]
+     },
+     "Q5": {
+      "title": "Quiz 5 · Tessili tecnici e microfibre",
+      "items": [
+       {
+        "p": "Quale materiale termoregolante usa microcapsule a cambiamento di fase?",
+        "a": "L'Outlast",
+        "w": [
+         "Il Coolmax",
+         "Il Thermolite",
+         "Il Gore-Tex"
+        ],
+        "ref": "Le microcapsule assorbono o rilasciano calore corporeo."
+       },
+       {
+        "p": "Da quale membrana è formato il Gore-Tex?",
+        "a": "Da politetrafluoroetilene microporoso",
+        "w": [
+         "Da poliuretano espanso",
+         "Da seta",
+         "Da viscosa"
+        ],
+        "ref": "I pori sono 20.000 volte più piccoli di una goccia d'acqua ma molto più grandi del vapore."
+       },
+       {
+        "p": "Come sono i titoli delle microfibre?",
+        "a": "Ultrafini, fino a 0,1 denari",
+        "w": [
+         "Intorno a 10 denari",
+         "Superiori a 100 denari",
+         "Uguali a 1–2 denari"
+        ],
+        "ref": "Storicamente i fili avevano titoli di 1–2 denari."
+       },
+       {
+        "p": "Di che cosa è fatto l'Alcantara?",
+        "a": "Per il 60% di microfibra di poliestere e per il 40% di poliuretano",
+        "w": [
+         "Di cotone e lana",
+         "Di viscosa e acetato",
+         "Di carbonio"
+        ],
+        "ref": "È un tessuto non tessuto con effetto vellutato, prodotto per la prima volta nel 1982."
+       },
+       {
+        "p": "Che cosa è il Crabyon?",
+        "a": "Un materiale antibatterico di viscosa e chitosano",
+        "w": [
+         "Una fibra termoregolante",
+         "Una membrana impermeabile",
+         "Un tessuto riscaldabile"
+        ],
+        "ref": "Appartiene ai materiali antibatterici e antiodore, come il Nanofeel."
+       }
+      ]
+     },
+     "Q6": {
+      "title": "Quiz 6 · Analisi di filati e tessuti",
+      "items": [
+       {
+        "p": "Quale strumento misura la torsione di un filato?",
+        "a": "Il torsiometro",
+        "w": [
+         "Il picnometro",
+         "Il dinamometro",
+         "Il lentino contafili"
+        ],
+        "ref": "Misura l'intensità e il grado della torsione impartita."
+       },
+       {
+        "p": "Quale liquido si usa di solito nel picnometro per il peso specifico?",
+        "a": "Il benzene",
+        "w": [
+         "L'acqua",
+         "L'alcol",
+         "L'acido solforico"
+        ],
+        "ref": "Non fa rigonfiare le fibre e permette di eliminare facilmente l'aria."
+       },
+       {
+        "p": "Che cosa misura il dinamometro?",
+        "a": "La resistenza a rottura e l'allungamento",
+        "w": [
+         "Il titolo",
+         "La torsione",
+         "Il restringimento"
+        ],
+        "ref": "Il dinamometro serve per le prove su filati e su strisce di tessuto."
+       },
+       {
+        "p": "Che cosa indica la riduzione di un tessuto?",
+        "a": "Il numero di fili di ordito e di trama in un centimetro quadrato",
+        "w": [
+         "Il peso al metro",
+         "La resistenza all'usura",
+         "Il titolo del filato"
+        ],
+        "ref": "Si misura con il lentino contafili."
+       },
+       {
+        "p": "A quali condizioni si eseguono le prove di resistenza dei tessuti?",
+        "a": "In ambiente condizionato: 20 °C e 65% di umidità",
+        "w": [
+         "A 100 °C",
+         "A secco assoluto",
+         "In acqua calda"
+        ],
+        "ref": "Le prove di usura comprendono flessione e abrasione."
+       }
+      ]
+     }
+    }
+   },
+   "timeline": [
+    [
+     "T1",
+     57.766,
+     3.6
+    ],
+    [
+     "Q1",
+     1597.799,
+     4.0
+    ],
+    [
+     "T2",
+     1603.099,
+     3.6
+    ],
+    [
+     "T3",
+     2123.799,
+     3.6
+    ],
+    [
+     "T4",
+     2949.099,
+     3.6
+    ],
+    [
+     "T5",
+     3242.632,
+     3.6
+    ],
+    [
+     "T6",
+     3741.599,
+     3.6
+    ],
+    [
+     "GL1",
+     4118.631,
+     62.867
+    ],
+    [
+     "RF1",
+     4183.098,
+     60.1
+    ],
+    [
+     "FIN1",
+     4263.931,
+     9.333
+    ]
+   ]
   }
  },
  "manca": "",
@@ -18,10 +455,14 @@
   {
    "quando": "16/11 02:59",
    "testo": "voci Kore arrivate e importate (17/17); montaggio 71:53 in UNA Parte (il video del docente dura gia' 59:09; la master puo' decidere se dividerla); t_verifica=4274.9 s, t_compiti=4293.2 s. Codifica 1080p CRF 19 in corso."
+  },
+  {
+   "quando": "16/11 03:35",
+   "testo": "PRONTA 16/11. Durata 71:53,3 in UNA Parte (il video del docente dura gia' 59:09; la master puo' decidere se dividerla), 129395 fotogrammi (somma dei pezzi), 236,1 MB, 1080p CRF 19, -16 LUFS. t_verifica=4274.9 s, t_compiti=4293.2 s. Consegna: ramo consegna-moda-chimica-III-IV-lez08 (3 pezzi da 90 MiB + sha256, vtt, scheda, testo YouTube, quiz 30 domande, test del docente, compiti.json, Mappe PDF, dispensa, LEGGIMI). Sincronia: 10 punti a caso, 9 entro 0,3-1,3 s e UNO a 1,84 s (fuori tolleranza 1,5 s). Fermi: nessuno. Sottotitoli: controllo automatico 53% su 17 punti (euristica); indipendente su 28 blocchi mediana 0,16 s, max 0,32 s. Voci da riascoltare a campione (S2, S5, GL1)."
   }
  ],
  "materia": "Moda III+IV · Chimica applicata e nobilitazione dei materiali",
  "lezione": "Elastomeri e materiali",
  "docente": "Prof.ssa Piera Caputi",
- "aggiornato": "2026-11-16 02:59:36"
+ "aggiornato": "2026-11-16 03:35:22"
 }
