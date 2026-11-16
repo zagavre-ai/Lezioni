@@ -6,16 +6,25 @@
   }
  },
  "manca": "",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "16/11 18:24",
+   "testo": "Durata 45:19: l'originale del prof dura 20 min, non si arriva a 50 senza riempitivi. Confermi di consegnare cosi'?"
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
    "quando": "16/11 18:21",
    "testo": "chat revisione 25"
+  },
+  {
+   "quando": "16/11 18:24",
+   "testo": "Rapporto v1 pushato su revisione-letteratura-V-lez25. Stima correzione 5-6 h (rifare tutte le slide nel modello Spagnolo)."
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 25 · Pasolini",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-16 18:21:17"
+ "aggiornato": "2026-11-16 18:24:30"
 }
