@@ -1,50 +1,70 @@
 # RAPPORTO DI REVISIONE · Letteratura italiana V · Lezione 26 · Italo Calvino (Prof. Giorgio Mazzotti)
-**Versione 1 (16/11/2026, entro le 2 ore) · stato: IN_REVISIONE** — verifica fatta, correzione in corso.
+**Versione finale (16/11/2026) · stato: REVISIONATA** · ramo `revisione-letteratura-V-lez26`
 
-## Come ho verificato (misurato / stimato)
-- Video montato: pezzi ricomposti, sha256 **OK** (364e9af1…). Misurato: 1920×1080, 30 fps, 55:29,7, 99.891 fotogrammi, 166,7 MB.
-- Visione: fotogrammi ogni 2 s (1.665) e contact sheet ogni 30 s (`cs0–cs3.jpg`); confronto con `kit/modello_spagnolo/`. Fotogrammi puntuali guardati a vista nei punti critici.
-- Audio **misurato**: parlato −16,3 LUFS (target −16 ±2: OK), picco −0,7 dBFS, nessun silenzio > 3 s tranne gli ultimi 7,9 s (coda del finale).
-- Testo: `.vtt` (722 cue, tutte ≤ 2 righe) riletto con elenco delle parole sospette; quiz, Excel, compiti, mappa del prof confrontati con i file della release.
-- **NON ho potuto verificare:** la trascrizione indipendente con Whisper. Dall'ambiente della chat il download del modello è bloccato dalla rete (HuggingFace e simili: 403/non raggiungibili). Per l'ascolto uso il `.vtt` esistente (fatto da Whisper sul video finale) + testi delle voci Kore (`testi_voci.json`) + misure con ffmpeg. Le sincronie «ecco/guarda/in questa foto» le controllo quindi sui testi, non su una nuova trascrizione. Né l'OCR delle slide né il confronto visivo sono stati bloccati (tesseract installato).
+## Risultato in una riga
+Lezione rifatta nella grafica identica a Spagnolo Lez. 1 (fondo bianco, riquadro 4:3, fascia gialla col nome), con mappe del prof, voci e schermo allineati, sottotitoli corretti, finale con avviso diritti e i due PDF A4. Il montaggio dei contenuti, le voci e le slide del prof sono rimasti quelli già approvati.
 
-## Confronto con il modello Spagnolo (punti 1–11 del punto 000)
-| # | Punto | Esito | Nota |
+## Misure sul video nuovo (misurato)
+| Controllo | Esito |
+|---|---|
+| Formato | 1920×1080, 30 fps, x264 veryfast CRF 19, AAC 192k 48 kHz |
+| Durata / fotogrammi | 52:34,2 (3154,2 s) · 94.626 fotogrammi = durata × 30 · OK (50–60 min) |
+| Peso | 190,9 MB (< 400 MB) · tre pezzi `.parte_00/01/02`, sha256 nel file `.sha256` |
+| Volume del parlato | −16,0 LUFS (picco −0,6 dBFS) · OK (prima −16,3) |
+| Silenzi > 2,5 s | 6, tutti nelle schede «Pausa del video / Quiz» e nei titoli (2,96–3,9 s, non parlato: sono le pause previste). Nessun silenzio nel parlato. Sparita la coda muta di 7,9 s |
+| Sincronia prof (labbra/mani) | 25 punti a caso: somiglianza vecchio tondo ↔ nuovo riquadro min 0,85, media 0,96 (soglia 0,75) → OK. Le 5 tracce del prof vengono dall'originale con offset costanti (allineamento audio su 3.041 finestre su 3.120) |
+| Sincronia slide–prof | 17 cambi di evidenziazione confrontati col parlato: tutti coerenti (±2 s). Nessuna slide ferma > 60 s mentre il prof parla d'altro |
+| PDF slide ↔ video | 45 pagine; confronto automatico pagina per pagina con il fotogramma finale della slide nel video: differenza media 5,8/255, massima 9,1 (dovuta a evidenziazione e compressione) → coincidono |
+| Quiz | 5 domande per argomento, risposte giuste controllate (una per una); verifica finale: 10 domande **identiche** all'Excel del prof (riga per riga); compiti identici al PDF del prof |
+
+## Confronto con il modello Spagnolo (punto 000)
+| # | Punto | Esito |
+|---|---|---|
+| 1 | Sigla → dissolvenza → copertina | **corretto**: c'era uno stacco secco a 0:15, ora dissolvenza morbida |
+| 2 | Copertina (card ARGOMENTI, riga blu, titolo + barretta) | **corretto**: la card «ARGOMENTI» mancava |
+| 3 | Slide: fondo bianco, «01 · ARGOMENTO», titolo + barretta | **corretto**: era grigio-azzurro, testo minuscolo |
+| 4 | Piè di pagina + «Pagina N» | **corretto**: c'erano «Introduzione / Approfondimento / Ripasso» e numeri ripetuti; ora «Pagina N» progressiva (1–45) |
+| 5 | Riquadro 4:3 | **corretto**: era un tondo con bordo. Ora 410×308, angoli arrotondati, ombra grigia, tutta testa e spalle, ritaglio dall'originale con correzione immagine del kit (contrasto 1,04, saturazione 1,03, hqdn3d 1.5:1.5:3:3, cas 0,35). **Limite**: nell'originale il prof è un riquadro di 243×135 px, quindi il 4:3 è ingrandito 2,3×: la nitidezza è quella che la sorgente permette |
+| 6 | Fascia gialla col nome, due righe, −3° | **corretto**: non c'era; ora sempre visibile quando il prof è in video |
+| 7 | Slide senza prof | **corretto** (testo grande, parole in giallo, stessi logo e piè) |
+| 8 | Font | **OK**: Bricolage Grotesque / Figtree / DM Mono |
+| 9 | Finale kit con avviso diritti | **corretto**: c'era un finale nero senza avviso, poi una card «Compiti» (ordine sbagliato). Ora la sigla del kit da 5 s, in coda |
+| 10 | Struttura | **OK**; verifica finale e compiti sono fuori dal video (le card «Verifica» e «Compiti» sono state tolte) |
+| 11 | PDF A4 orizzontali | **creati**: `Letteratura_Lez26_slide.pdf` (45 pagine, senza riquadro e fascia, testo vero) e `Letteratura_Lez26_mappe.pdf` (6 pagine) |
+
+## Problemi trovati e corretti (minuti riferiti al video PRIMA della correzione)
+| Minuto | Tipo | Com'era | Come l'ho corretto |
 |---|---|---|---|
-| 1 | Sigla → dissolvenza → copertina | da ricontrollare | sigla ok per durata; la transizione verso la copertina va guardata fotogramma per fotogramma (0:15–0:17) |
-| 2 | Copertina (card ARGOMENTI, titolo, riga blu, logo) | **DA CORREGGERE** | niente card «ARGOMENTI» come Spagnolo; l'elenco dice «Il secondo Calvino» per l'argomento 4, che nel video si chiama «Scienza, combinatoria e città invisibili» |
-| 3 | Slide: fondo bianco, riga «01 · ARGOMENTO», titolo Bricolage + barretta | **DA CORREGGERE** | fondo grigio-azzurro (non bianco); testo delle card minuscolo; titolo senza barretta blu sulle slide «approfondimento» |
-| 4 | Piè di pagina «LETTERATURA ITALIANA V · Prof. Giorgio Mazzotti» + «Pagina N» | **DA CORREGGERE** | a destra compaiono «Introduzione», «Approfondimento», «Ripasso», «Glossario» e numeri di pagina ripetuti/non progressivi invece di «Pagina N» |
-| 5 | Riquadro 4:3 (410×308), ombra grigia, nessun bordo | **DA CORREGGERE** | oggi è un **tondo** con bordo; da rifare 4:3 dall'originale (che è 1092×614: il prof sta in un riquadro piccolo in basso a destra, quindi il ritaglio è ingrandito: qualità limitata, lo scrivo in chiaro) |
-| 6 | Fascia gialla col nome su due righe | **DA CORREGGERE** | oggi c'è solo un testo piccolo sotto il tondo, senza fascia gialla |
-| 7 | Slide senza prof | da correggere | stessa grafica da portare a fondo bianco, testo grande |
-| 8 | Font (Bricolage / Figtree / DM Mono) | da ricontrollare con OCR | etichette in mono ok |
-| 9 | Finale `Sigla_finale_5s_con_avviso_diritti` | **DA CORREGGERE** | c'è un finale nero «GRAZIE PER L'ATTENZIONE» senza avviso dei diritti, e dopo di esso una card «Compiti» (ordine sbagliato) |
-| 10 | Struttura obbligatoria | in gran parte ok | presentazione, 5 argomenti con ripasso e quiz, glossario, riepilogo ci sono. Il glossario ha solo 3 voci |
-| 11 | PDF A4 orizzontale slide + mappe | **MANCANTI** | in consegna c'è solo una dispensa; non i due PDF richiesti |
+| tutta | visivo | prof nel tondo, nome senza fascia, fondo grigio, testo minuscolo | grafica Spagnolo (punti 1–7 sopra) |
+| 0:15 | visivo | stacco secco sigla → copertina | dissolvenza di 0,6 s |
+| 1:08 | audio/visivo | il prof dice «ecco appunto una sua fotografia» e sullo schermo non c'è la foto | inserita la foto presa dalla **slide 2 del prof** (immagine `p2`) da 1:07 a 1:14 nella copertina. *Da confermare da Sara: è un'immagine editoriale dentro le slide del prof* |
+| 8:45–10:00 e 17:10–18:15 | visivo | confronti «Calvino e Pavese» e «Lo sguardo di un bambino»: terza card tagliata e sovrapposta al piè | slide rifatte, tutte le card dentro la pagina |
+| 10:00–11:00, 19:40–20:40, 30:30–32:00, 41:10–42:00, 50:20–51:30, 52:10–53:20 | visivo/audio | 5 mappe + mappa finale **inventate** («Barone rampante e realismo»…), con voce che le descriveva | mappe del prof (`LEZIONE 26.pdf`, «Italo Calvino 1923-1985») impaginate con la nostra grafica, **contenuto identico**: vita, pensiero, saggista, opere (neorealismo, problemi sociali, fiabe/avventure, fantascienza, combinatorio). Tolti il logo «Mappe per la scuola» e la foto del personaggio. Una mappa per argomento (parti della mappa del prof) + mappa finale intera. **Voci nuove** M1–M5 e MF (Kore, dalla master) |
+| 11:00–11:45, 20:40–21:25, 33:00–33:45, 41:20–42:00, 51:20–52:10 | audio/visivo | **pillole di ripasso**: la voce legge frasi che non erano sullo schermo (pillola 2: «Il realismo della guerra si unisce…»; pillola 4: frase sulle Città invisibili; pillola 5: «La letteratura non può contenere tutta la realtà…»); pillola 1 chiudeva con la sola riga «Muore a Siena.» per 1 s | schermo = testo letto dalla voce; ogni riga compare quando la voce la dice |
+| 53:19–54:20 | audio/visivo | **glossario**: la voce legge 8 termini, sullo schermo ne comparivano 6 (mancavano «Dimezzato» e «Speculazione edilizia») | 8 termini, a tempo con la voce |
+| 55:05–55:29 | audio/visivo | finale senza avviso diritti; card «Verifica finale» (5 s muta) e «Compiti» (8 s muta) dentro il video | finale kit 5 s con avviso; verifica e compiti restano fuori dal video |
+| 55:29 | audio | coda muta 7,9 s | tolta |
+| `.vtt` | testo | 722 sottotitoli con errori di trascrizione («Nacordo», «Itholo», «Santiago della Svegas», «polliedri», «Inetiamo», «viragno», «Napolone», «spicolazione», «slaque», «tricene»…); **nessun sottotitolo** per benvenuto, ripassi, glossario, riepilogo e finale (buchi di 45–60 s) | riletti i 325 sottotitoli del prof e corretti; aggiunti quelli mancanti (testi delle voci Kore); 769 cue, ≤ 2 righe, nessuna sovrapposizione, tempi sul video nuovo |
+| scheda/quiz | testo | argomenti con nomi diversi da quelli del video («La vita di Calvino», «Scienza, combinatoria e città invisibili» vs «La vita», «Il secondo Calvino») | allineati a quelli del video (scheda, quiz, YouTube) |
+| `compiti.json` | testo | lista di 4 frasi, formato sbagliato | formato `{"titolo","esercizi":[{n,tipo,testo}]}`, testo identico al PDF del prof |
+| `scheda_pubblicazione.json` | testo | titolo «Italo Calvino · Parte 1», tempi del video vecchio | titolo «Letteratura V · Lezione 26 · Italo Calvino», tempi nuovi |
 
-## Problemi trovati (prima tabella)
-| Minuto | Tipo | Com'era | Correzione prevista |
-|---|---|---|---|
-| tutta la lezione | visivo | prof nel tondo con bordo, nome senza fascia gialla | riquadro 4:3 + fascia gialla come Spagnolo, ritaglio dall'originale con correzione immagine del kit |
-| tutta la lezione | visivo | fondo grigio-azzurro, testo piccolo | fondo bianco, testo grande, modello Spagnolo |
-| 0:15–1:00 | visivo | copertina senza card ARGOMENTI; argomento 4 con nome diverso | card ARGOMENTI su due colonne, titoli identici a quelli del video |
-| 1:08 | audio/visivo | il prof dice «ecco appunto una sua fotografia» ma sullo schermo non c'è alcuna foto | la slide 2 del prof contiene la foto (`Immagine p2`): la metto a tempo |
-| ~12:00 | visivo | confronto «Calvino e Pavese»: terza card tagliata e sovrapposta al piè di pagina | slide rifatta con card che stanno nella pagina |
-| ~22:00 | visivo | confronto «Lo sguardo di un bambino»: terza card tagliata sul piè di pagina | idem |
-| 5 punti | visivo | 5 mappe + 1 finale **inventate da noi** (es. «Barone rampante e realismo»), non quelle del prof | mappa del prof (file `LEZIONE 26.pdf` nel pacchetto MAPPE della release) impaginata con la matrice v3; contenuto identico: **vita / pensiero / opere** con le 5 famiglie di opere e gli anni; tolgo il logo «mappe per la scuola» e la foto del personaggio pubblico; nessuna mappa inventata |
-| 55:20–55:29 | audio | 7,9 s di silenzio in coda; finale nero senza avviso | finale kit da 5 s con avviso diritti; card «Compiti» fuori dal video |
-| `.vtt` | testo | **molti errori di trascrizione** (es. «Nacordo», «Itholo Calvino», «Santiago della Svegas», «polliedri», «Inetiamo», «viragno», «Napolone», «spicolazione», «slaque», «tricene»…) | riletto tutto e corretto; riallineo ai tempi del video nuovo (±0,3 s) |
-| compiti | testo | `compiti.json` è una lista di 4 frasi, non nel formato `{"titolo","esercizi":[{n,tipo,testo}]}`; «meta- romanzo» spezzato | riscritto nel formato richiesto, testo identico al PDF del prof |
-| quiz/verifica | testo | Verifica finale: **10 domande identiche all'Excel del prof: OK (confrontate riga per riga)** | nessuna modifica |
-| consegna | file | mancano i due PDF A4 orizzontali (slide identiche al video; mappe) | prodotti dopo il video nuovo |
-| pagine del libro | — | la lezione 26 non ha pagine del libro (regola B-bis: salta) | — |
+## Da chiarire con il prof / da riascoltare (non sono stati modificati o sono dubbi)
+1. **Anni:** il prof dice «Siena nel 1983» (a 38:50 nel video nuovo, riga 595 del `.vtt`): la sua mappa dice 1985 (morte); la sua slide dice 1983. La speculazione edilizia è «1957» nella slide e nel quiz, «1963» nella **mappa del prof**: nelle mappe ho lasciato 1963 (contenuto identico) e la voce lo dice («segnate entrambe con l'anno 1963»). Il sottotitolo riporta ciò che il prof dice. Sara: confermare con il prof.
+2. **Ordine in apertura:** la card «ARGOMENTO 01» (0:40–0:44) compare prima del benvenuto del prof. Non l'ho spostata per non rompere le sigle audio.
+3. **Frase del narratore** AN4c (≈ 38:23 nel video nuovo): «Le città invisibili, con una mappa e una piccola analisi guidata»: a schermo non c'è una mappa. Frase di 3 s da tagliare dalla voce o riscrivere (serve la master).
+4. **Testa nell'originale:** in alcuni momenti il capo tocca il bordo alto della webcam dell'originale (es. originale 5:00, nel video nuovo 5:44): non è recuperabile.
+5. **Voci M2 e M3**: il servizio le ha segnate «DA CONTROLLARE» (parole diverse 4/6 e 5/5); velocità di lettura normale (2,0–2,3 parole/s). Non le ho ascoltate.
 
-## Piano di correzione (stima) e rischi
-1. Rifare le slide in grafica Spagnolo (fondo bianco, testo grande, mappe del prof) — **~1,5 h**.
-2. Rifare il riquadro 4:3 e la fascia gialla sul video del prof dall'originale; audio del prof con la catena del kit — **~1 h** (la sorgente è piccola: qualità limitata dall'originale).
-3. Riusare le voci Kore già fatte; per le mappe nuove servono **frasi nuove** (R1…): la master le genera in 10–30 min.
-4. Codifica con `finale_a_pezzi.py`, controlli, `.vtt` corretto, PDF A4, rapporto finale — **~1 h**.
-**Rischio dichiarato:** il kit non contiene il modello `arnndn` citato nelle regole e non c'è il file `timeline.json` della lezione: dovrò ricostruire i tempi dal video montato. Se a metà tempo non ci sto lo scrivo subito.
+## Cosa NON ho potuto verificare
+- **Ascolto vero e proprio.** Whisper non è scaricabile dalla rete della chat (modello bloccato) e io non posso ascoltare l'audio. Ho quindi usato: il `.vtt` esistente (fatto da Whisper sul video finale), i testi delle voci Kore, misure ffmpeg (volume, silenzi, offset) e l'allineamento audio. I sottotitoli del prof sono corretti **per contesto** (slide del prof, testi, nomi); i passaggi dubbi sono nell'elenco sopra. La master deve riascoltare 3 punti: 0:50, 25:00, 45:00.
+- **Rumore del prof:** il parlato ha già il passa-alto a 80 Hz (energia < 60 Hz −9,6 dB rispetto all'originale), ma il modello `arnndn` citato nelle regole non è nel kit e non ho potuto fare un ascolto: non ho rifatto l'audio del prof.
+- **Tempi dei sottotitoli di voci Kore** (benvenuto, ripassi, glossario, mappe): calcolati sul parlato reale (pause misurate) ma non con allineamento forzato: stima ±0,3–0,5 s.
+- **Tempi di apparizione** delle card negli approfondimenti: presi dal video vecchio (eventi di cambio immagine), stima ±1 s.
+- Pagine del libro: **la lezione 26 non ne ha** (B-bis non si applica).
 
-*(Versione 1 — in corso)*
+## Come è stato rifatto (breve)
+Audio: lo stesso del video approvato (voci Kore e prof già a −16 LUFS), con le 6 voci nuove delle mappe (normalizzate a −16 LUFS) e il finale del kit. Video: 45 pagine nuove generate in grafica Spagnolo, sincronizzate agli stessi istanti (scene vecchie solo per sigla e schede quiz/titolo, con dissolvenze); prof dall'originale (`Letteratura_Lez26.mp4`, release `mazzotti-letteratura-V`), 5 pezzi continui allineati sull'audio.
+
+## File consegnati
+`Letteratura_Lez26_Parte1_1080p.mp4.parte_00..02` + `.sha256` · `Letteratura_Lez26_Parte1.vtt` · `Letteratura_Lez26_slide.pdf` · `Letteratura_Lez26_mappe.pdf` · `Quiz_Letteratura_Lez26.txt` · `quiz_argomenti.json` · `Verifica_finale_Letteratura_Lez26.xlsx` · `compiti.json` · `scheda_pubblicazione.json` · `testo_youtube.txt` · `controllo_minuti.jpg` (1 fotogramma ogni 30 s). Ricomporre: `cat Letteratura_Lez26_Parte1_1080p.mp4.parte_* > Letteratura_Lez26_Parte1_1080p.mp4 && sha256sum -c Letteratura_Lez26_Parte1_1080p.mp4.sha256`.
