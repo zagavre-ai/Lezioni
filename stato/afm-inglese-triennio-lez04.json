@@ -428,10 +428,14 @@
   {
    "quando": "15/11 12:10",
    "testo": "PRONTA. Consegna sul ramo consegna-afm-inglese-triennio-lez04. Durata misurata 62:38 (una Parte). Verifica t=3734.8 s, compiti t=3748.0 s. DA SAPERE: (1) sottotitoli e allineamento slide fatti con Whisper base + parole chiave, la sincronia e' controllata a campione (non garantita ±1,5 s ovunque); (2) la docente parla in italiano: sottotitoli in italiano; (3) voce E4_GLb (glossario seconda meta') segnata DA CONTROLLARE negli ESITI; (4) il PDF dei compiti contiene le pagine Soluzioni; (5) quiz da approvare."
+  },
+  {
+   "quando": "16/11 01:50",
+   "testo": "16/11: aggiunto Mappe_afm-inglese-triennio-lez04.pdf (A4 orizzontale, una mappa per pagina, stessa grafica del video) sul ramo consegna-afm-inglese-triennio-lez04. Le mappe sono già nel video: nessuna ricodifica."
   }
  ],
  "materia": "Inglese AFM",
  "lezione": "Lezione 4",
  "docente": "Prof.ssa Maria Vittoria Fontanesi",
- "aggiornato": "2026-11-15 12:10:32"
+ "aggiornato": "2026-11-16 01:50:48"
 }
