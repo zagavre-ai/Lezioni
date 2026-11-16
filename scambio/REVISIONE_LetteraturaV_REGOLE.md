@@ -73,6 +73,12 @@ Correggi tutto quello che hai trovato. Ricodifica solo i pezzi che cambi quando 
 - Stato con `kit/tools/stato.py`: `REVISIONATA` + durata misurata. Una riga in `AGGIORNAMENTI_PER_LE_CHAT.md` non serve: la master legge gli stati.
 - **La master** riguarda la lezione e la sostituisce su Vimeo **sullo stesso link**. Tu non carichi niente su Vimeo.
 
+## 3-bis. TEMPI (decisi da Sara 16/11, si contano da quando la chat parte)
+- **Entro 2 ore:** verifica A+B+C+D finita e pushata sul ramo `revisione-letteratura-V-lezNN` una **prima versione di `RAPPORTO_REVISIONE.md`** (tabella dei problemi trovati + piano di correzione con il tempo stimato). Stato `IN REVISIONE`.
+- **Entro 4 ore:** lezione corretta e consegnata (stato `REVISIONATA`).
+- **Entro 5 ore** solo per le lezioni lunghe o con pagine del libro da inserire: 3, 5, 8, 9, 13, 14 (e quelle in due parti).
+- Se a metà tempo vedi che non ci stai: scrivilo **subito** a Sara (una riga: cosa manca e quanto serve). Non si consegna in ritardo senza averlo detto, e **non si accorcia la qualità per stare nei tempi**.
+
 ## 4. Regole di comportamento
 - Una sola lezione; non toccare rami di altre lezioni. Commit senza firma (utente «Sara Zagarese», responsabiletecnicaegraficacst@gmail.com, nessun Co-Authored-By).
 - Bloccata > 20 min → scrivi il motivo nello stato (`FERMA`) e a Sara in una riga.
