@@ -2,29 +2,25 @@
  "tag": "storia-V-lez12",
  "parti": {
   "1": {
-   "stato": "IN_MONTAGGIO"
+   "stato": "FERMA"
   }
  },
- "manca": "",
+ "manca": "Trascrizione del docente: in questo computer il modello Whisper non si scarica (huggingface.co bloccato dalla rete). Senza trascrizione non posso sincronizzare le slide né fare i sottotitoli.",
  "serve_master": [
   {
-   "quando": "14/11 15:49",
-   "testo": "Voci Kore lezione 12: una sola richiesta, 52 testi (circa 41.000 caratteri, stima 46 min) in voci-storia-V-lez12/scambio/storia-V-lez12/testi_voci.json. Quiz 9x5 in quiz.json da approvare."
+   "quando": "16/11 12:26",
+   "testo": "Serve uno di questi: (a) sbloccare la rete per huggingface.co (modello Systran/faster-whisper-base) oppure (b) mettere nel ramo scambio-mazzotti la trascrizione con tempi (.srt/.json) delle lezioni 12 e 15, oppure (c) un file del modello Whisper base in una release. Le trascrizioni fatte dalle chat S3 e S1 il 14-15/11 non sono su nessun ramo."
   }
  ],
  "domande_sara": [],
  "note": [
   {
-   "quando": "14/11 15:13",
-   "testo": "Storia V · chat S3 (preparazione: trascrizione)"
-  },
-  {
-   "quando": "14/11 15:49",
-   "testo": "Analisi fatta: video 54:01 (1092x614), 9 argomenti, slide ricostruite dal video; 2 Parti (P1 arg 1-5, P2 arg 6-9), stima 52 + 52 min. Mappe del prof (3 pagine) usate per MAP3, MAP5, MAP6, MAP8."
+   "quando": "16/11 12:26",
+   "testo": "Storia V · chat S6: ripartita da zero. Video, test e compiti scaricati. Sono già in voci-storia-V-lez12 52 voci Kore + quiz, le riuso."
   }
  ],
  "materia": "Storia V",
  "lezione": "Lezione 12 · L'Europa e il mondo negli anni Trenta",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 15:49:49"
+ "aggiornato": "2026-11-16 12:26:50"
 }
