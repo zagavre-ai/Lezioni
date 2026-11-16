@@ -10,6 +10,10 @@
   {
    "quando": "14/11 15:13",
    "testo": "Voci Kore lezione 3: una sola richiesta, 53 testi (circa 28.000 caratteri, stima 31 min) in voci-storia-V-lez03/scambio/storia-V-lez03/testi_voci.json. Quiz 11x5 in quiz.json da approvare."
+  },
+  {
+   "quando": "16/11 07:30",
+   "testo": "Se avete gli script di montaggio usati per storia-V-lez05 (render schede/slide sincronizzate/animazioni), metteteli su un ramo: altrimenti li ricostruisco io, con tempi molto più lunghi."
   }
  ],
  "domande_sara": [],
@@ -21,10 +25,14 @@
   {
    "quando": "14/11 15:13",
    "testo": "Analisi fatta: video 68:39 (1092x614), 11 argomenti, slide ricostruite dal video; 2 Parti (P1 arg 1-5, P2 arg 6-11), stima 52,5 + 52 min."
+  },
+  {
+   "quando": "16/11 07:30",
+   "testo": "Storia V · chat S5: ripresa 16/11 07:50. Video scaricato, trascrizione in corso, slide individuate (11). Voci Kore già arrivate. Manca: motore di montaggio da ricostruire (gli script delle chat precedenti non sono nel repository)."
   }
  ],
  "materia": "Storia V",
  "lezione": "Lezione 3 · L'Italia di Giolitti",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 15:13:15"
+ "aggiornato": "2026-11-16 07:30:48"
 }
