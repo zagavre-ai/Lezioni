@@ -33,7 +33,7 @@ Scarica il video montato, ricomponi i pezzi, controlla lo sha256.
 
 **B-bis · Pagine del libro in alta risoluzione (Letteratura)** — regola del montatore (5/11):
 1. Ogni volta che il prof **mostra o legge una pagina del libro** (poesia, brano, analisi), nel video deve esserci la **«fettina» dallo screen HD**, leggibile (rigo ≥ 26–30 px a 1080p), a tempo con la sua voce, con la fettina in corso evidenziata; via intestazioni, numeri di pagina, QR e loghi dell'editore; tagli solo sulle righe bianche; mai deformare.
-2. Gli screen HD sono nella release: `Lez01_ingrandita.1.zip`, `Lez02_ingrandita.1.zip`, `Lez03_ingrandita.1.zip`, `Lez04_ingrandita.1.zip` (solo `Lez04_docente.pdf`), `Lez05_ingrandita.zip`. **Per le lezioni 6–26 non ci sono:** nella **prima ora** fai l'inventario (minuto, pagina, titolo del brano) e scrivilo a Sara in **una** lista, così li carica lei; intanto lavori sul resto. Mai usare la versione a bassa risoluzione presa dal video.
+2. Gli screen HD sono negli **zip della release** `mazzotti-letteratura-V` (nomi tipo `LezNN_ingrandita*.zip`; Sara li carica il 16/11 sera per tutte le lezioni). Elenca gli asset della release e prendi lo zip della tua lezione. Se per la tua lezione **non c'è**, nella **prima ora** fai l'inventario (minuto, pagina, titolo del brano) e mandalo a Sara in **una** lista; intanto lavori sul resto. Mai usare la versione a bassa risoluzione presa dal video.
 3. Nel rapporto: tabella brano · pagina · file HD · minuto.
 
 **C · Testo (testuale)**
