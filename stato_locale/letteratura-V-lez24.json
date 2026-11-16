@@ -3,17 +3,17 @@
  "parti": {
   "1": {
    "titolo": "Leonardo Sciascia",
-   "stato": "IN_MONTAGGIO",
+   "stato": "PRONTA",
    "voci": "kore",
    "quiz_ok": "si",
    "fermi_ok": "si",
    "sub_ok": "si",
    "video": "Letteratura_Lez24_Parte1_1080p.mp4",
-   "durata_s": 1432.7,
-   "durata": "23:52.7",
-   "fotogrammi": 42981,
-   "fotogrammi_attesi": 42981,
-   "peso_MB": 106.9,
+   "durata_s": 3338.4,
+   "durata": "55:38.4",
+   "fotogrammi": 100153,
+   "fotogrammi_attesi": 100153,
+   "peso_MB": 163.5,
    "vtt": "Letteratura_Lez24_Parte1.vtt",
    "scheda": {
     "materia": "Letteratura italiana (V)",
@@ -298,10 +298,14 @@
   {
    "quando": "16/11 09:13",
    "testo": "Letteratura V · chat H: presa in carico (fermo >2h)"
+  },
+  {
+   "quando": "16/11 10:02",
+   "testo": "PRONTA v2 (chat H): 55:38, 27 approfondimenti/mappe con voce Kore, Mappe_letteratura-V-lez24.pdf, compiti del prof nel video + compiti.json, schede a bande blu, controllo_finale TUTTO OK, jingle 0,0 s"
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 24",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-16 09:13:18"
+ "aggiornato": "2026-11-16 10:02:15"
 }
