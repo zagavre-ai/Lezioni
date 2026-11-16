@@ -3,8 +3,8 @@
  "parti": {
   "1": {
    "titolo": "Fibre artificiali",
-   "stato": "IN_MONTAGGIO",
-   "voci": "segnaposto"
+   "stato": "IN_CODIFICA",
+   "voci": "kore"
   }
  },
  "manca": "",
@@ -14,10 +14,14 @@
   {
    "quando": "15/11 23:19",
    "testo": "15/11: presa in carico (lezioni pari). Video docente 64:15 (lungo): con inserti ~77 min in UNA Parte (la master puo' decidere se dividerla). 6 argomenti. Richiesta voci (17 file) inviata sul ramo voci-moda-chimica-III-IV-lez06. Sincronia fatta."
+  },
+  {
+   "quando": "16/11 00:53",
+   "testo": "voci Kore arrivate e importate (17/17); montaggio 76:47 in UNA Parte (il video del docente dura gia' 64:15: la master puo' decidere se dividerla in due Parti); t_verifica=4568.4 s, t_compiti=4586.7 s. Codifica 1080p CRF 19 in corso."
   }
  ],
  "materia": "Moda III+IV · Chimica applicata e nobilitazione dei materiali",
  "lezione": "Fibre artificiali",
  "docente": "Prof.ssa Piera Caputi",
- "aggiornato": "2026-11-15 23:19:07"
+ "aggiornato": "2026-11-16 00:53:07"
 }
