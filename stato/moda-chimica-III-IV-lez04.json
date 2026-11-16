@@ -3,8 +3,379 @@
  "parti": {
   "1": {
    "titolo": "Cellulosa e fibre vegetali",
-   "stato": "IN_CODIFICA",
-   "voci": "kore"
+   "stato": "PRONTA",
+   "voci": "kore",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "si",
+   "video": "Chimica_Lez4_Parte1_1080p.mp4",
+   "durata_s": 4038.3,
+   "durata": "67:18.3",
+   "fotogrammi": 121148,
+   "fotogrammi_attesi": 121149,
+   "peso_MB": 217.4,
+   "vtt": "Chimica_Lez4_Parte1.vtt",
+   "scheda": {
+    "materia": "Chimica applicata e nobilitazione dei materiali",
+    "titolo": "Cellulosa e fibre vegetali · Parte 1",
+    "durata_s": 4038.31,
+    "argomenti": [
+     {
+      "n": 1,
+      "titolo": "Cellulosa: struttura e composizione",
+      "inizio_s": 75.332,
+      "quiz_s": 781.132
+     },
+     {
+      "n": 2,
+      "titolo": "Proprietà e chimica della cellulosa",
+      "inizio_s": 786.432,
+      "quiz_s": 1460.132
+     },
+     {
+      "n": 3,
+      "titolo": "Fibre vegetali e cotone",
+      "inizio_s": 1465.432,
+      "quiz_s": 2026.832
+     },
+     {
+      "n": 4,
+      "titolo": "Struttura e proprietà del cotone",
+      "inizio_s": 2032.132,
+      "quiz_s": 2587.632
+     },
+     {
+      "n": 5,
+      "titolo": "Classificazione, finissaggi e analisi del cotone",
+      "inizio_s": 2592.932,
+      "quiz_s": 3821.965
+     }
+    ],
+    "quiz": {
+     "Q1": {
+      "title": "Quiz 1 · Cellulosa: struttura e composizione",
+      "items": [
+       {
+        "p": "Che cos'è la cellulosa dal punto di vista chimico?",
+        "a": "Un polisaccaride superiore, che con l'idrolisi completa dà glucosio",
+        "w": [
+         "Una proteina complessa",
+         "Un lipide a lunga catena",
+         "Un polimero aromatico a struttura fenolica"
+        ],
+        "ref": "La cellulosa è un polisaccaride superiore di formula bruta (C6H10O5)n: per idrolisi completa si trasforma in glucosio."
+       },
+       {
+        "p": "Quale legame unisce le unità di glucosio nella catena di cellulosa?",
+        "a": "Il legame glicosidico (ponte di ossigeno trasverso)",
+        "w": [
+         "Il ponte disolfuro",
+         "Il ponte salino",
+         "Il legame peptidico"
+        ],
+        "ref": "Le unità sono unite da legami glicosidici, tra l'ossidrile in posizione 1 di un glucosio e quello in posizione 4 del successivo."
+       },
+       {
+        "p": "Qual è il grado di polimerizzazione della cellulosa nelle fibre naturali?",
+        "a": "Tra 600 e 3000",
+        "w": [
+         "Tra 200 e 600",
+         "Tra 5 e 20",
+         "Tra 10000 e 50000"
+        ],
+        "ref": "Nelle fibre naturali il grado di polimerizzazione oscilla tra 600 e 3000; nelle artificiali è più basso, tra 200 e 600."
+       },
+       {
+        "p": "Come viene definita l'alfa-cellulosa?",
+        "a": "La parte nobile che non si scioglie nella soluzione di soda",
+        "w": [
+         "La parte che precipita con acido acetico",
+         "La parte che resta in soluzione dopo la neutralizzazione",
+         "La parte che contiene lignina"
+        ],
+        "ref": "L'alfa-cellulosa è insolubile nella soluzione di NaOH al 17,5% ed è usata per le fibre artificiali."
+       },
+       {
+        "p": "Quale tra queste è una sostanza incrostante che accompagna la cellulosa?",
+        "a": "La lignina",
+        "w": [
+         "Il glucosio",
+         "Il cellobioso",
+         "La soda-cellulosa"
+        ],
+        "ref": "Le sostanze incrostanti sono la lignina, le sostanze pectiche, la cutina e le resine."
+       }
+      ]
+     },
+     "Q2": {
+      "title": "Quiz 2 · Proprietà e chimica della cellulosa",
+      "items": [
+       {
+        "p": "Fino a quale percentuale di umidità può assorbire la cellulosa in condizioni normali?",
+        "a": "Fino al 12%",
+        "w": [
+         "Fino al 2%",
+         "Fino al 50%",
+         "Fino al 200%"
+        ],
+        "ref": "In condizioni normali assorbe fino al 12% di umidità; fino al 200% se immersa in acqua, con rigonfiamento intercristallino."
+       },
+       {
+        "p": "Che cosa si forma trattando la cellulosa con idrossido di sodio?",
+        "a": "La soda-cellulosa, intermedio per la viscosa",
+        "w": [
+         "La nitrocellulosa",
+         "L'acetato di cellulosa",
+         "La carbossimetilcellulosa"
+        ],
+        "ref": "La salificazione con alcali forma la soda-cellulosa, un intermedio utile nella produzione della viscosa."
+       },
+       {
+        "p": "Quale tra questi è un estere inorganico della cellulosa?",
+        "a": "La nitrocellulosa",
+        "w": [
+         "L'etilcellulosa",
+         "La metilcellulosa",
+         "La carbossimetilcellulosa"
+        ],
+        "ref": "La nitrocellulosa si ottiene con una miscela di acido nitrico e solforico; etil e metilcellulosa sono eteri."
+       },
+       {
+        "p": "Quali organismi attaccano la cellulosa producendo enzimi cellulolitici?",
+        "a": "Batteri e funghi",
+        "w": [
+         "Solo gli animali superiori",
+         "Virus",
+         "Alghe verdi"
+        ],
+        "ref": "Batteri e funghi producono enzimi cellulolitici capaci di degradare la molecola; la maggior parte degli animali superiori non digerisce la cellulosa."
+       },
+       {
+        "p": "Quale processo chimico di estrazione della cellulosa usa il bisolfito di calcio o magnesio?",
+        "a": "Il processo al solfito",
+        "w": [
+         "Il processo alla soda",
+         "Il processo al solfato",
+         "Il processo meccanico"
+        ],
+        "ref": "Il processo al solfito sfrutta bisolfito di calcio o magnesio con anidride solforosa a 120 °C sotto pressione."
+       }
+      ]
+     },
+     "Q3": {
+      "title": "Quiz 3 · Fibre vegetali e cotone",
+      "items": [
+       {
+        "p": "Quale tra queste è una fibra da seme?",
+        "a": "Il cotone",
+        "w": [
+         "Il lino",
+         "Il sisal",
+         "Il cocco"
+        ],
+        "ref": "Da seme: cotone e kapok. Il lino è da libro, il sisal da foglia, il cocco da frutto."
+       },
+       {
+        "p": "A quale genere botanico appartiene il cotone?",
+        "a": "Gossypium",
+        "w": [
+         "Bombax",
+         "Ceiba",
+         "Linum"
+        ],
+        "ref": "Il cotone è ricavato dalla peluria dei semi di piante della famiglia delle Malvacee, genere Gossypium."
+       },
+       {
+        "p": "Quale specie fornisce una fibra estremamente pregiata e lunga, originaria delle isole Barbados?",
+        "a": "Gossypium barbadense",
+        "w": [
+         "Gossypium herbaceum",
+         "Gossypium arboreum",
+         "Gossypium hirsutum"
+        ],
+        "ref": "Il barbadense fornisce una fibra pregiata e lunga; l'herbaceum una fibra corta e giallastra."
+       },
+       {
+        "p": "In quale fascia si produce il cotone?",
+        "a": "Tra 40° di latitudine Nord e 30° di latitudine Sud",
+        "w": [
+         "Solo oltre i 60° Nord",
+         "Solo all'equatore",
+         "Tra 60° Nord e 60° Sud"
+        ],
+        "ref": "La produzione avviene in una fascia tra i 40° Nord e i 30° Sud, in terreni ben concimati."
+       },
+       {
+        "p": "Come si chiama la peluria più corta aderente al seme, fonte di cellulosa purissima?",
+        "a": "Linter",
+        "w": [
+         "Lint",
+         "Bambagia",
+         "Lume"
+        ],
+        "ref": "I linters sono la peluria più corta, 3 mm circa; il lint è la peluria più lunga usata per il filato."
+       }
+      ]
+     },
+     "Q4": {
+      "title": "Quiz 4 · Struttura e proprietà del cotone",
+      "items": [
+       {
+        "p": "Quale caratteristica ha il cotone al microscopio?",
+        "a": "Una fibra a nastro ellittico con convoluzioni",
+        "w": [
+         "Una fibra cilindrica liscia senza lume",
+         "Una fibra a scaglie sovrapposte",
+         "Una fibra con nodi e striature trasversali"
+        ],
+        "ref": "Il cotone è monocellulare, a nastro ellittico con convoluzioni (torsioni) e due terminazioni: una a spatola e l'altra sfibrata."
+       },
+       {
+        "p": "Quale percentuale di cellulosa contiene il cotone?",
+        "a": "Circa l'85%",
+        "w": [
+         "Circa il 45%",
+         "Circa il 70%",
+         "Circa il 100%"
+        ],
+        "ref": "Il cotone è la fibra tessile con la più alta percentuale di cellulosa, circa l'85%."
+       },
+       {
+        "p": "Come cambia la tenacità del cotone quando è umido?",
+        "a": "Aumenta",
+        "w": [
+         "Diminuisce",
+         "Resta uguale",
+         "Si annulla"
+        ],
+        "ref": "La tenacità del cotone aumenta allo stato umido; l'elasticità è modesta, con allungamento del 2–3%."
+       },
+       {
+        "p": "Fino a quale temperatura il cotone resta stabile al calore?",
+        "a": "Fino a 120 °C",
+        "w": [
+         "Fino a 50 °C",
+         "Fino a 150 °C",
+         "Fino a 200 °C"
+        ],
+        "ref": "Il cotone è stabile fino a 120 °C, a 150 °C ingiallisce e a 200 °C si decompone."
+       },
+       {
+        "p": "Come si comporta il cotone con gli alcali diluiti?",
+        "a": "Resiste bene",
+        "w": [
+         "Si scioglie subito",
+         "Si carbonizza",
+         "Ingiallisce"
+        ],
+        "ref": "Il cotone resiste bene agli alcali diluiti; con alcali concentrati rigonfia formando la soda-cellulosa."
+       }
+      ]
+     },
+     "Q5": {
+      "title": "Quiz 5 · Classificazione, finissaggi e analisi del cotone",
+      "items": [
+       {
+        "p": "Quali parametri usa la classificazione americana del cotone?",
+        "a": "Tiglio, grado e carattere",
+        "w": [
+         "Specie, tipo e origine",
+         "Solo la lunghezza",
+         "Colore e profumo"
+        ],
+        "ref": "Il metodo americano valuta il tiglio (lunghezza), il grado (colore e omogeneità) e il carattere."
+       },
+       {
+        "p": "Quale grado è usato come base per le quotazioni di mercato?",
+        "a": "Middling",
+        "w": [
+         "Good ordinary",
+         "Strict low middling",
+         "Middling fair"
+        ],
+        "ref": "Middling è il grado medio utilizzato come base per le quotazioni di mercato."
+       },
+       {
+        "p": "In che cosa consiste la mercerizzazione?",
+        "a": "Nel trattare il cotone sotto tensione con soda caustica concentrata",
+        "w": [
+         "Nell'eliminare i grassi con soda al 2% a 150 °C",
+         "Nel candeggiare con ipoclorito",
+         "Nel rendere il cotone ignifugo"
+        ],
+        "ref": "La mercerizzazione trasforma la cellulosa I in cellulosa II, aumentando lucentezza, resistenza e affinità per i coloranti."
+       },
+       {
+        "p": "Quale reagente permette di separare il cotone dalla canapa o dalle fibre artificiali nell'analisi quantitativa?",
+        "a": "Il reattivo cuproammoniacale",
+        "w": [
+         "L'acido nitrico concentrato",
+         "L'ossichinolina",
+         "Il cloruro di zinco"
+        ],
+        "ref": "Il reattivo cuproammoniacale scioglie canapa e fibre artificiali, lasciando il cotone inalterato."
+       },
+       {
+        "p": "Quale sottoprodotto del cotone si ottiene dalla spremitura dei semi?",
+        "a": "L'olio di cotone",
+        "w": [
+         "Il cotone idrofilo",
+         "I linters",
+         "Il kapok"
+        ],
+        "ref": "L'olio di cotone si ottiene spremendo i semi puliti e liberati dai linters e dalla buccia."
+       }
+      ]
+     }
+    }
+   },
+   "timeline": [
+    [
+     "T1",
+     75.332,
+     3.6
+    ],
+    [
+     "Q1",
+     781.132,
+     4.0
+    ],
+    [
+     "T2",
+     786.432,
+     3.6
+    ],
+    [
+     "T3",
+     1465.432,
+     3.6
+    ],
+    [
+     "T4",
+     2032.132,
+     3.6
+    ],
+    [
+     "T5",
+     2592.932,
+     3.6
+    ],
+    [
+     "GL1",
+     3827.265,
+     63.667
+    ],
+    [
+     "RF1",
+     3892.532,
+     56.267
+    ],
+    [
+     "FIN1",
+     3989.132,
+     9.233
+    ]
+   ]
   }
  },
  "manca": "",
@@ -18,10 +389,14 @@
   {
    "quando": "16/11 00:02",
    "testo": "voci Kore arrivate e importate (15/15); montaggio 67:18 (una Parte, oltre i 65 min: il video del docente dura gia' 54 min; la master puo' decidere se dividerla); t_verifica=3999.97 s, t_compiti=4018.27 s. Codifica 1080p CRF 19 in corso."
+  },
+  {
+   "quando": "16/11 00:46",
+   "testo": "PRONTA 16/11. Durata 67:18,3 (una Parte; oltre i 65 min: il video del docente dura gia' 54:07, la master puo' decidere se dividerla), 121148 fotogrammi, 217,4 MB, 1080p CRF 19, -16 LUFS. t_verifica=3999.97 s, t_compiti=4018.27 s. Consegna: ramo consegna-moda-chimica-III-IV-lez04 (3 pezzi da 90 MiB + sha256, vtt, scheda, testo YouTube, quiz 25 domande, test del docente, compiti.json, Mappe PDF, dispensa, LEGGIMI). Sincronia (parola per parola): 10 punti a caso, 9 entro 0,16 s e uno a 1,73 s. Fermi: nessuno. Sottotitoli: controllo automatico 71% su 17 punti; controllo indipendente su 30 blocchi mediana 0,16 s, max 0,32 s. Voci da riascoltare a campione (S4, S5, GL1: trascrizione automatica incerta su alcuni termini)."
   }
  ],
  "materia": "Moda III+IV · Chimica applicata e nobilitazione dei materiali",
  "lezione": "Cellulosa e fibre vegetali",
  "docente": "Prof.ssa Piera Caputi",
- "aggiornato": "2026-11-16 00:02:32"
+ "aggiornato": "2026-11-16 00:46:32"
 }
