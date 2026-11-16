@@ -504,10 +504,14 @@
   {
    "quando": "16/11 15:30",
    "testo": "16/11 15:30: chat della master E1, lezione in carico. Video con voci Kore già consegnato; attende solo Verifica.xlsx e Compiti.pdf della docente nella release (controllo ogni 2 ore)."
+  },
+  {
+   "quando": "16/11 17:31",
+   "testo": "16/11 17:30: chat della master E1, lezione in carico. Video con voci Kore già consegnato; attende solo Verifica.xlsx e Compiti.pdf della docente nella release (controllo ogni 2 ore)."
   }
  ],
  "materia": "Inglese AFM triennio",
  "lezione": "Lezione 7",
- "aggiornato": "2026-11-16 15:30:14",
+ "aggiornato": "2026-11-16 17:31:54",
  "docente": "Prof.ssa Maria Vittoria Fontanesi"
 }
