@@ -34,12 +34,15 @@ Scarica il video montato, ricomponi i pezzi, controlla lo sha256.
    - **Correzione immagine del prof** (kit): contrasto 1,04, saturazione 1,03, `hqdn3d=1.5:1.5:3:3`, `cas=0.35` sul riquadro già rimpicciolito.
    - Le lezioni con la **banda laterale blu** restano con la banda blu, ma riquadro e nome vanno come sopra.
 3. Grafica Telesio, niente testo tagliato o sovrapposto, nessuna slide vuota, nessun segnaposto, **mai il numero della lezione** nel video.
-4. Mappe concettuali presenti (una per argomento + mappa finale) — se mancano le aggiungi con `kit/tools/mappa.py`.
+4. **Mappe concettuali: sono quelle del prof** (decisione di Sara 16/11: i docenti le hanno già mandate). Si prendono dalla release della materia (Sara le carica; cerca negli asset un file con «mappa/mappe» e il numero della lezione) e si **impaginano con la nostra grafica** (matrice v3), contenuto identico, senza inventare né togliere nulla. Nel video: una per argomento + mappa finale. Se per la tua lezione la mappa del prof non c'è ancora, scrivilo a Sara in una riga e intanto lavori sul resto (non inventarla).
 
 **C · Testo (testuale)**
 1. OCR di tutte le slide: refusi, accenti, nomi, date, titoli di opere → corretti.
 2. **Sottotitoli `.vtt`:** riletti tutti e corretti (nomi propri, «letteratura» non «lettatura», niente frasi senza senso), allineati alla voce (±0,3 s), max 2 righe.
-3. Dispensa A4: stessi contenuti delle slide, mappe dentro, nessun refuso.
+3. **Due PDF A4 ORIZZONTALE da consegnare insieme al video** (decisione di Sara 16/11):
+   - `…_slide.pdf`: **le slide IDENTICHE a quelle che girano nel video** (stesse pagine, stesso ordine, stesso testo e grafica), una slide per pagina, **senza riquadro del prof e senza sottopancia**; nessun refuso;
+   - `…_mappe.pdf`: le mappe concettuali del prof impaginate con la nostra grafica (una per argomento + mappa finale).
+   Controllo obbligatorio: confronta ogni pagina del PDF slide con il fotogramma corrispondente del video (devono coincidere); scrivi nel rapporto il numero di pagine e che il confronto è fatto.
 
 **D · Pagina interattiva** (la genera la master; tu prepari i file giusti)
 1. Quiz: 5 domande per argomento, solo dal materiale del prof, risposte giuste davvero giuste.
@@ -51,7 +54,7 @@ Scarica il video montato, ricomponi i pezzi, controlla lo sha256.
 Correggi tutto quello che hai trovato. Ricodifica solo i pezzi che cambi quando possibile; video finale 1080p, x264 veryfast CRF 19, AAC 192k, sotto i 400 MB, con `finale_a_pezzi.py`; poi `controllo_finale.py` e `controllo_jingle.py`. **Rifai la verifica A+B+C sul video nuovo** (almeno sui minuti cambiati + 5 punti a caso).
 
 ## 3. CONSEGNA
-- Ramo nuovo **`revisione-storia-V-lezNN`** (non toccare `consegna-…`): video a pezzi + sha256, `.vtt`, dispensa, quiz, test/verifica, compiti, scheda, timeline, e **`RAPPORTO_REVISIONE.md`** con:
+- Ramo nuovo **`revisione-storia-V-lezNN`** (non toccare `consegna-…`): video a pezzi + sha256, `.vtt`, **PDF slide A4 orizzontale, PDF mappe A4 orizzontale**, quiz, test/verifica, compiti, scheda, timeline, e **`RAPPORTO_REVISIONE.md`** con:
   - tabella di **tutti** i problemi trovati: minuto · tipo (audio/visivo/testo/pagina) · com'era · come l'hai corretto;
   - cosa hai verificato e come (trascrizione, OCR, fotogrammi), cosa **non** hai potuto verificare;
   - contact sheet `controllo_minuti.jpg` (1 fotogramma ogni 30 s).
