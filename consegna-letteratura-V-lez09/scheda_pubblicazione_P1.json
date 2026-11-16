@@ -1,31 +1,31 @@
 {
  "materia": "Letteratura italiana (V)",
  "titolo": "Giovanni Pascoli · Parte 1",
- "durata_s": 2256.27,
+ "durata_s": 3318.47,
  "argomenti": [
   {
    "n": 1,
    "titolo": "La vita di Giovanni Pascoli",
    "inizio_s": 43.7,
-   "quiz_s": 783.933
+   "quiz_s": 1114.366
   },
   {
    "n": 2,
    "titolo": "La teoria del nido",
-   "inizio_s": 788.933,
-   "quiz_s": 1021.867
+   "inizio_s": 1119.366,
+   "quiz_s": 1467.534
   },
   {
    "n": 3,
    "titolo": "La poetica del fanciullino",
-   "inizio_s": 1026.867,
-   "quiz_s": 1892.067
+   "inizio_s": 1472.534,
+   "quiz_s": 2706.767
   },
   {
    "n": 4,
    "titolo": "Myricae e i Canti di Castelvecchio",
-   "inizio_s": 1897.067,
-   "quiz_s": 2164.933
+   "inizio_s": 2711.767,
+   "quiz_s": 3179.433
   }
  ],
  "quiz": {
@@ -249,5 +249,7 @@
     }
    ]
   }
- }
+ },
+ "t_verifica": 3299.8,
+ "t_compiti": 3313.4
 }

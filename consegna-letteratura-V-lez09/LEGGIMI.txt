@@ -1,0 +1,10 @@
+Lezione 9 · Giovanni Pascoli · v2 del 16/11 (Letteratura V · chat G)
+Unire: cat Letteratura_Lez9_Parte1_1080p.mp4.parte_* > Letteratura_Lez9_Parte1_1080p.mp4 ; controllo: sha256sum -c Letteratura_Lez9_Parte1_1080p.mp4.sha256 (idem Parte2)
+Contenuto: montaggio del 14/11 + approfondimenti animati (voci Kore) + mappe concettuali (una per argomento e una finale, nel video) + nuova chiusura (Verifica finale e Compiti con bande blu).
+Mappe_letteratura-V-lez09.pdf: 10 mappe A4 orizzontale (5 Parte 1, 5 Parte 2). La dispensa non contiene mappe.
+compiti.json: compiti del prof (LEZIONE 9.pdf). La scheda Compiti nel video è generica, come nella lezione 15.
+Verifica finale: domande 1-5 dell'Excel del prof nella Parte 1, 6-10 nella Parte 2 (verifica_finale_Lez9.json, Test_Letteratura_Lez9.xlsx).
+Misurato (controllo_finale.py): P1 55:18,5 / 185,8 MB; P2 55:09,7 / 219,8 MB; 1920x1080; fotogrammi = durata x 30; quiz a 0,0 s (8/8); nessun fermo; parlato -16,1 LUFS.
+Sottotitoli: P1 83% (OK); P2 74% (soglia 80%): i campioni segnalati sono blocchi che seguono un parlato entro 0,8 s (artefatto della misura), controllati a mano. Nomi e opere corretti con un elenco di correzioni (Pascoli, D'Annunzio, Carducci, Myricae...).
+Nota: nel brano del Fanciullino resta visibile un piccolo codice QR del libro (circa 80 s), già presente nella consegna del 14/11.
+Tolti: Compiti_Letteratura_Lez9.txt e compiti_Letteratura_Lez9.json (compiti inventati, sostituiti da quelli del prof).
