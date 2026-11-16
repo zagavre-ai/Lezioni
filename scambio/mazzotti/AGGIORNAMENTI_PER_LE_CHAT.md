@@ -86,3 +86,12 @@ Controllate dai file di consegna. Sistemare **senza rifare il montaggio**:
 
 ## 16/11 08:05 · ANNULLATO: potete fare git push normalmente
 - Il nome di GitHub NON cambia per ora. Repository e indirizzi restano quelli di sempre (zagavre-ai/Lezioni). Riprendete i push.
+
+## 16/11 08:20 · NUOVE CHAT DI PRODUZIONE (aperte da Claude Code con il repository) · CHI FA COSA
+Molti stati `IN_MONTAGGIO` sono vecchi (chat spostate su altro il 15/11). Regola: se lo stato di una lezione non è aggiornato da **più di 2 ore**, la lezione è libera: scrivi il tuo nome nello stato e prendila; se è aggiornato da meno di 2 ore, saltala.
+- **Letteratura V · chat F:** 18, 20, 6
+- **Letteratura V · chat G:** 9, 15, 10
+- **Letteratura V · chat H:** 11, 13, 22, 23, 24
+- **Storia V · chat S5:** 3, 7, 12, 13, poi 4, 8, 10 (appena il video è nell'indice)
+- **Storia dell'arte V · chat A5:** 1, 2, 4, 5, 7, 11, 15 (controlla prima gli stati delle chat A1–A4)
+Voci Kore: dalle 9 (prima usa i segnaposto e fai tutto il resto: montaggio, slide sincronizzate, animazioni, mappe nel video + `Mappe_<tag>.pdf`, quiz, verifica, compiti). Consegna su `consegna-<tag>` a pezzi da 90 MB + sha256, stato PRONTA. Commit senza firma.
