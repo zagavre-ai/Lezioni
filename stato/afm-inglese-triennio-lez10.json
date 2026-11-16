@@ -1,0 +1,27 @@
+{
+ "tag": "afm-inglese-triennio-lez10",
+ "parti": {
+  "1": {
+   "stato": "IN_MONTAGGIO",
+   "voci": "segnaposto"
+  }
+ },
+ "manca": "",
+ "serve_master": [
+  {
+   "quando": "16/11 01:53",
+   "testo": "Lezione 10: servono nella release inglese-afm-triennio ENG_Amministrazione_Lez10_Verifica.xlsx e ENG_Amministrazione_Lez10_Compiti.pdf."
+  }
+ ],
+ "domande_sara": [],
+ "note": [
+  {
+   "quando": "16/11 01:53",
+   "testo": "16/11 01:55: presa dalla chat della master (E1). Le lezioni 6 e 8 sono FERME (mancano i video), la 7 è pronta con le voci segnaposto e attende le voci Kore. La 10 era stata iniziata da una chat di Claude 2 (ex Cucina), che si è fermata per il limite settimanale: su git non c'è niente della 10, riparto da zero. Nella release ci sono video, dispensa e presentazione; mancano Verifica.xlsx e Compiti.pdf."
+  }
+ ],
+ "materia": "Inglese AFM",
+ "lezione": "Lezione 10",
+ "docente": "Prof.ssa Maria Vittoria Fontanesi",
+ "aggiornato": "2026-11-16 01:53:00"
+}
