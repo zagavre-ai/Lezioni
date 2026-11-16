@@ -486,10 +486,14 @@
   {
    "quando": "16/11 08:00",
    "testo": "Letteratura V · chat F: v2 PRONTA. Durata misurata 53:39, 188 MB, 1080p. 22 animazioni (16 approfondimenti con voce Kore + 6 mappe per argomento + mappa finale), quiz 5x6, verifica = test del prof (10 domande, t_verifica 2995 circa vedi scheda), compiti del prof (4) nel video e in compiti.json, bande blu su Quiz/Verifica/Compiti, Mappe_letteratura-V-lez18.pdf A4 orizzontale. Controlli: scatto quiz a 0,0 s (scarti max 0,03 s), parlato -16,6 LUFS, nessun fermo, sottotitoli OK. Sottotitoli del docente: trascrizione Whisper base con correzione dei nomi, qualità da campione. Voci Kore tutte arrivate."
+  },
+  {
+   "quando": "16/11 08:00",
+   "testo": "Letteratura V · chat F: v2 PRONTA, consegna su consegna-letteratura-V-lez18. Durata misurata 53:39, 188 MB, 1080p. 22 animazioni con voce Kore: 15 approfondimenti, 6 mappe per argomento, mappa finale. Quiz 5x6; verifica = test del prof (10 domande), t_verifica 3194,9 s; compiti del prof (4) nel video, t_compiti 3213,2 s, e in compiti.json; bande blu su Quiz/Verifica/Compiti; Mappe_letteratura-V-lez18.pdf A4 orizzontale (7 pagine). Controlli: scatto quiz a 0,0 s (scarto max 0,03 s), parlato -16,6 LUFS, nessun fermo, sottotitoli OK. Sottotitoli del docente da Whisper base con nomi corretti: qualità media, ricontrollati solo a campione."
   }
  ],
  "materia": "Letteratura italiana · V anno",
  "lezione": "Lezione 18",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-16 08:00:00"
+ "aggiornato": "2026-11-16 08:00:11"
 }
