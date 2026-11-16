@@ -2,13 +2,22 @@
  "tag": "letteratura-V-lez24",
  "parti": {},
  "manca": "",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "16/11 18:20",
+   "testo": "installare faster-whisper e rapidocr (pip negato)"
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
    "quando": "16/11 18:18",
    "testo": "chat revisione 24"
+  },
+  {
+   "quando": "16/11 18:20",
+   "testo": "ripartenza: grafica non conforme a Spagnolo (tondo, slide grigie); servono Whisper/OCR"
   }
  ],
- "aggiornato": "2026-11-16 18:18:30"
+ "aggiornato": "2026-11-16 18:20:26"
 }
