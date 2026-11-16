@@ -354,10 +354,14 @@
   {
    "quando": "16/11 23:27",
    "testo": "00:50 it. consegna prevista 06:30. Fatto: download, sha ok, kit/generatore trovati, font installati; trascrizione orig in corso (misura). Prossimo: piano pezzi, slide modello Spagnolo."
+  },
+  {
+   "quando": "16/11 23:37",
+   "testo": "00:40 it. consegna prevista 06:30 (ora italiana). Fatto: trascrizione originale (353 segmenti), allineamento audio montato/originale (5 blocchi prof), generatore slide modello Spagnolo (test ok), crop 4:3 del prof. In corso: trascrizione del montato, poi piano pezzi e montaggio."
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 16 · Umberto Saba",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-16 23:27:54"
+ "aggiornato": "2026-11-16 23:37:43"
 }
