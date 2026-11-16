@@ -1,43 +1,43 @@
 {
  "materia": "Inglese",
  "titolo": "Trade and commerce · Parte 1",
- "durata_s": 4149.1,
+ "durata_s": 4268.83,
  "argomenti": [
   {
    "n": 1,
    "titolo": "Trade and commerce",
-   "inizio_s": 126.799,
-   "quiz_s": 484.165
+   "inizio_s": 129.932,
+   "quiz_s": 494.698
   },
   {
    "n": 2,
    "titolo": "Home trade",
-   "inizio_s": 489.465,
-   "quiz_s": 1003.898
+   "inizio_s": 500.298,
+   "quiz_s": 1028.998
   },
   {
    "n": 3,
    "titolo": "International trade",
-   "inizio_s": 1009.198,
-   "quiz_s": 1667.764
+   "inizio_s": 1034.598,
+   "quiz_s": 1714.964
   },
   {
    "n": 4,
    "titolo": "E-commerce",
-   "inizio_s": 1673.064,
-   "quiz_s": 2692.83
+   "inizio_s": 1720.564,
+   "quiz_s": 2765.964
   },
   {
    "n": 5,
    "titolo": "Trade alliances and sanctions",
-   "inizio_s": 2698.13,
-   "quiz_s": 3381.396
+   "inizio_s": 2771.564,
+   "quiz_s": 3478.53
   },
   {
    "n": 6,
    "titolo": "Ethical trade",
-   "inizio_s": 3386.696,
-   "quiz_s": 3959.496
+   "inizio_s": 3484.13,
+   "quiz_s": 4076.363
   }
  ],
  "quiz": {
