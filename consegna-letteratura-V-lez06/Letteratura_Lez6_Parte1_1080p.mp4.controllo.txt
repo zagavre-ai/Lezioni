@@ -1,0 +1,7 @@
+durata 53:07.9 (3187.9 s) | fotogrammi 95638 (attesi 95638) OK | peso 182.9 MB (174.4 MiB) OK | 1920x1080 OK
+quiz 5 scatto 0,0 s: OK
+fermi immagine nei pezzi del docente: nessuno OK
+volume del parlato (mediana dei pezzi del docente): -16.0 LUFS OK
+sottotitoli: 667 blocchi, sovrapposti 0, oltre la fine 0, attacco sulla voce entro 0,3 s: 95% di 19 verificabili OK
+foglio di miniature: Letteratura_Lez6_Parte1_1080p.mp4.miniature.jpg
+ESITO: TUTTO OK
