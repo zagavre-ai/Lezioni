@@ -2,37 +2,22 @@
  "tag": "letteratura-V-lez13",
  "parti": {
   "1": {
-   "stato": "IN_REVISIONE",
-   "video": "P1_43.mp4",
-   "durata_s": 3143.9,
-   "durata": "52:23.9",
-   "fotogrammi": 94318,
-   "fotogrammi_attesi": 94317,
-   "peso_MB": 218.1
-  },
-  "2": {
-   "stato": "IN_REVISIONE",
-   "video": "P2_43.mp4",
-   "durata_s": 3200.3,
-   "durata": "53:20.3",
-   "fotogrammi": 96010,
-   "fotogrammi_attesi": 96010,
-   "peso_MB": 239.1
+   "stato": "IN_REVISIONE"
   }
  },
  "manca": "",
  "serve_master": [
   {
-   "quando": "16/11 23:17",
-   "testo": "Voci IN2 e RIP aggiunte a testi_voci.json (ramo voci-letteratura-V-lez13). Decisione di Sara sulle mappe nel video"
+   "quando": "16/11 23:34",
+   "testo": "Voci nuove richieste su voci-letteratura-V-lez13/testi_voci.json: IN2, RIP (apertura Parte 2) e MP (mappa del prof). Servono entro 1 ora."
   }
  ],
  "domande_sara": [],
  "note": [
   {
-   "quando": "16/11 23:17",
-   "testo": "Consegna parziale sul ramo revisione-letteratura-V-lez13 (video P1/P2 con riquadro 4:3 372x279, sfondo bianco, piede V, PDF slide/mappe, vtt). NON REVISIONATA: restano problemi noti nel RAPPORTO (frasi ripetute, apertura Parte 2 senza ripasso, mappe inventate, ~600 parole sospette nei sottotitoli del prof, fettine libro tagliate)."
+   "quando": "16/11 23:34",
+   "testo": "RIPRESA 16/11 23:30: correggo tutto il rapporto. Piano: (1) solo mappa del prof nel video (via le 6 inventate, mappa del prof in 4 zoom con voce nuova MP); (2) taglio le 4 frasi ripetute; (3) apertura Parte 2 con IN2+RIP (voci richieste alla master); (4) sottotitoli del prof riletti uno a uno; (5) fettine del libro rifatte solo a righe intere; (6) ricodifica P1+P2, controlli, push. CONSEGNA PREVISTA: 17/11 entro le 05:30 (stima ~6 h: 2 codifiche da circa 1 ora ciascuna + montaggio). Aggiorno ogni ora."
   }
  ],
- "aggiornato": "2026-11-16 23:17:48"
+ "aggiornato": "2026-11-16 23:34:17"
 }
