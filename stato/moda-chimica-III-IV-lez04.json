@@ -3,8 +3,8 @@
  "parti": {
   "1": {
    "titolo": "Cellulosa e fibre vegetali",
-   "stato": "IN_MONTAGGIO",
-   "voci": "segnaposto"
+   "stato": "IN_CODIFICA",
+   "voci": "kore"
   }
  },
  "manca": "",
@@ -14,10 +14,14 @@
   {
    "quando": "15/11 21:35",
    "testo": "15/11: presa in carico (lezioni pari). Video docente 54:07, 5 argomenti (uno per mappa del docente). Richiesta voci (15 file) inviata sul ramo voci-moda-chimica-III-IV-lez04. Sincronia fatta; seguono slide, schemi, mappe, quiz."
+  },
+  {
+   "quando": "16/11 00:02",
+   "testo": "voci Kore arrivate e importate (15/15); montaggio 67:18 (una Parte, oltre i 65 min: il video del docente dura gia' 54 min; la master puo' decidere se dividerla); t_verifica=3999.97 s, t_compiti=4018.27 s. Codifica 1080p CRF 19 in corso."
   }
  ],
  "materia": "Moda III+IV · Chimica applicata e nobilitazione dei materiali",
  "lezione": "Cellulosa e fibre vegetali",
  "docente": "Prof.ssa Piera Caputi",
- "aggiornato": "2026-11-15 21:35:47"
+ "aggiornato": "2026-11-16 00:02:32"
 }
