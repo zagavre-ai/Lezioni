@@ -6,7 +6,6 @@ V=Inglese_Lez7_Parte1_1080p.mp4; BR=consegna-afm-inglese-triennio-lez07
 python3 /home/claude/main/kit/tools/testo_youtube.py scheda_pubblicazione.json "Inglese · Triennio Amministrazione, Finanza e Marketing|Inglese AFM" "Prof.ssa Maria Vittoria Fontanesi" "Trade and commerce" 1 out_kore/timeline.json > testo_youtube.txt
 rm -rf consegna && mkdir consegna
 split -b 94371840 -d -a 2 $V consegna/$V.parte_
-for f in consegna/$V.parte_*; do mv "$f" "consegna/$V.parte_$(basename $f | sed 's/.*parte_//')"; done
 sha256sum $V > consegna/$V.sha256
 cp Inglese_Lez7_Parte1.vtt Quiz_Inglese_Lez7.txt quiz_argomenti.json scheda_pubblicazione.json testo_youtube.txt Mappe_afm-inglese-triennio-lez07.pdf LEGGIMI.md consegna/
 for f in Test_Inglese_Lez7.xlsx Test_Inglese_Lez7_PROPOSTA_DA_VALIDARE.xlsx compiti.json Compiti_Inglese_Lez7.pdf Dispensa_Inglese_Lez7.pdf; do [ -f $f ] && cp $f consegna/ || true; done

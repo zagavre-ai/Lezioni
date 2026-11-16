@@ -18,5 +18,5 @@ for n,si,ii,txt,t in random.sample(items,N):
     x=np.frombuffer(subprocess.run(['ffmpeg','-v','error','-ss','%.2f'%(tf-1),'-t','8','-i',v,'-ac','1','-ar','16000','-f','f32le','-'],capture_output=True).stdout,np.float32)
     st=rec.create_stream();st.accept_waveform(16000,x);rec.decode_stream(st)
     m='%d:%05.2f'%(tf//60,tf%60)
-    out.append(f'- {m} · argomento {n}, slide {si+1}, riga {ii+1}: «{re.sub(chr(42)*2,"",txt)[:90]}» · si sente (da 1 s prima): «{st.result.text.strip()[:110]}»')
+    out.append(f'- {m} · argomento {n}, slide {si+1}, riga {ii+1}: «{txt.replace("**","")[:90]}» · si sente (da 1 s prima): «{st.result.text.strip()[:110]}»')
 print('\n'.join(out))
