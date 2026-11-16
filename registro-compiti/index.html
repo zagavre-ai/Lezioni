@@ -51,7 +51,7 @@ select.stud{border:1px solid var(--line);border-radius:6px;padding:6px 8px;backg
 .leg{display:flex;flex-wrap:wrap;gap:10px;font-size:11px;color:var(--mut);margin-top:8px}.leg i{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:4px;vertical-align:middle}
 .att{border:1px solid #d9dee8;border-radius:10px;padding:12px 14px;margin:12px 0;background:#f7f9fc}
 .att h4{margin:0 0 8px;font-size:14px;color:var(--navy)}.att .it{display:grid;grid-template-columns:150px 1fr;gap:4px 12px;padding:7px 0;border-top:1px solid #e6eaf1;font-size:13px}
-.att .it:first-of-type{border-top:0}.att .st{font-weight:bold}.att .st.C{color:#2e9e5b}.att .st.I{color:#c9671a}.att .st.A{color:#8a6d1a}.att .st.R{color:#2e9e5b}.att .st.L{color:#3b6fd8}.att .st.Q{color:var(--navy)}
+.att .it:first-of-type{border-top:0}.att .st{font-weight:bold}.att .st.C{color:#2e9e5b}.att .st.I{color:#c9671a}.att .st.A{color:#8a6d1a}.att .st.R{color:#2e9e5b}.att .st.L{color:#3b6fd8}.att .st.Q{color:var(--navy)}.att .st.N{color:#b3261e}
 .att .sm{color:var(--mut);font-size:12px}.att .fb{white-space:pre-wrap}
 @media(max-width:640px){.att .it{grid-template-columns:1fr}}
 .d.sel{background:var(--navy);color:#fff}
@@ -143,7 +143,7 @@ footer b{color:var(--ink)}
 }
 .tabs{display:flex;flex-wrap:wrap;gap:6px}.tab{border:1px solid #c9d2e3;background:#fff;color:#0B1530;border-radius:999px;padding:6px 12px;font-weight:600;font-size:14px;font-family:inherit;line-height:1.2;cursor:pointer}.tab.on{background:#0B1530;color:#fff;border-color:#0B1530}
 </style>
-<meta name="versione" content="2026-11-13d">
+<meta name="versione" content="2026-11-15a">
 <script>/* se GitHub ha una versione più nuova di questa pagina, la carica subito (niente più «non vedo le novità») */
 (function(){try{var mia=document.querySelector('meta[name=versione]').content;
 fetch(location.pathname,{cache:'reload'}).then(function(r){return r.text()}).then(function(t){var m=t.match(/name="versione" content="([^"]+)"/);
@@ -180,7 +180,7 @@ details.sec>summary small{text-transform:none;font-weight:normal;opacity:.85}
   <div class="eyebrow" id="eyebrow">Registro compiti</div>
 </div></header>
 <main class="wrap">
-  <h1>Registro dei compiti <small style="font-size:12px;font-weight:600;opacity:.75;vertical-align:middle">versione 1.4 · 13/11/2026</small></h1>
+  <h1>Registro dei compiti <small style="font-size:12px;font-weight:600;opacity:.75;vertical-align:middle">versione 1.6 · 16/11/2026</small></h1>
   <div class="bar"></div>
   <p class="mat" id="mat"></p>
   <div class="who" id="who"></div>
@@ -296,7 +296,13 @@ const LINGUE=[[/INGLES/,'Inglese'],[/FRANCES/,'Francese'],[/SPAGNOL/,'Spagnolo']
 const FAMS=[[/STORIA DELL.ARTE|ARTE E IMMAGINE|ARTE E TERRITORIO/,"Storia dell'arte"],[/ITALIAN|LETTERATURA/,'Italiano'],[/INGLES/,'Inglese'],[/FRANCES/,'Francese'],[/SPAGNOL/,'Spagnolo'],[/TEDESC/,'Tedesco'],[/LATIN/,'Latino'],[/^STORIA|STORIA /,'Storia'],[/DIRITTO/,'Diritto ed economia'],[/SCIENZE UMANE|PSICOLOG/,'Scienze umane'],[/MATEMATICA/,'Matematica'],[/GEOGRAF/,'Geografia'],[/FILOSOF/,'Filosofia'],[/FISICA/,'Fisica'],[/CHIMIC/,'Chimica'],[/INFORMATIC/,'Informatica'],[/ECONOMIA AZIENDALE/,'Economia aziendale'],[/SCIENZE/,'Scienze']];
 function famiglia(nome){const n=String(nome||'').toUpperCase();for(const [r,f] of LINGUE)if(r.test(n))return f;let best=null;FAMS.forEach(([r,f],i)=>{const m=n.match(r);if(m&&(!best||m.index<best[0]||(m.index===best[0]&&i<best[1])))best=[m.index,i,f]});return best?best[2]:String(nome||'').trim()}
 const tutte=()=>!MAT||/^tutte/i.test(MAT);
-const attDi=k=>((ATT&&ATT.days&&ATT.days[k])||[]).filter(x=>tutte()||x.f===famiglia(MAT)||famiglia(x.f)===famiglia(MAT));
+const attDi=k=>((ATT&&ATT.days&&ATT.days[k])||[]).filter(x=>tutte()||(x.tab?x.tab===MAT:(x.f===famiglia(MAT)||famiglia(x.f)===famiglia(MAT))));
+/* v1.5: sezione 1 dal piano didattico e dalle attività della piattaforma (nome esatto del corso e descrizione della videolezione) */
+const s1Di=k=>{const S=(ATT&&ATT.sez1)||{};if(tutte())return Object.entries(S).flatMap(([t,G])=>(G[k]||[]).map(x=>({...x,tab:t})));return (S[MAT]&&S[MAT][k])||[]};
+function s1Box(k){const L=s1Di(k);if(!L.length)return '';const fmt=d=>d?fmtS(d):'';
+  return '<div class="s1auto" style="margin:4px 0 10px;border:1px solid #cfd6e4;border-radius:10px;background:#F7F9FC;padding:8px 12px"><div class="sm" style="margin-bottom:4px">Dal piano didattico e dalle attività della piattaforma'+(ATT.letto?' · dati letti il '+esc(ATT.letto):'')+'</div>'+
+  L.map(x=>'<div class="it" style="padding:6px 0;border-top:1px solid #e3e8f0"><div><b>LEZIONE '+x.n+': '+esc(x.t)+' (n. '+x.n+' del corso)</b>'+(tutte()?' <span class="sm">· '+esc(x.tab)+'</span>':'')+'</div><div class="sm">'+esc(x.c)+'</div>'+(x.d?'<div><span class="sm">Argomenti:</span> '+esc(x.d)+'</div>':'')+
+  '<div class="sm" style="margin-top:2px">'+(x.fonte==='inizio'?'Lezione svolta non presente nel piano didattico: segnata nel giorno in cui è stata iniziata. ':'Assegnata nel piano didattico. ')+(x.ok?'<b style="color:#1d7a3a">✓ Completata il '+esc(fmt(x.cd))+'</b>'+(x.pun?' · test '+esc(x.pun):''):(x.pv?'<b style="color:#b26b00">Iniziata il '+esc(fmt(x.pv))+', non ancora completata</b>':'<b style="color:#b3261e">Non ancora svolta</b>'))+'</div></div>').join('')+'</div>'}
 
 /* attività del giorno: il docente o lo staff possono correggerle; la correzione resta nel nostro registro (la piattaforma non si tocca) */
 function attBox(k){const auto=attAuto(k);if(tutte())return auto;const r=rec(k)||{},m=r['att.txt'],doc=ROLE==='docente';
@@ -422,7 +428,7 @@ function calendar(){
   for(let g=1;g<=n;g++){const d=new Date(VIEW.getFullYear(),VIEW.getMonth(),g,12),k=iso(d),ok=visible(k);
     h+='<button class="d'+(k===T?' today':'')+(k===iso(SEL)?' sel':'')+(ok&&conCompiti(rec(k))?' has':'')+'" data-k="'+k+'"'+(ok?'':' disabled')+' aria-label="'+fmtL(d)+'">'+g+(ok?pallini(k):'')+'</button>'}
   $('#days').innerHTML=h+'<div class="leg" style="grid-column:1/-1"><span><i style="background:#d64545"></i>verifica o scadenza</span><span><i style="background:#2e9e5b"></i>videolezione completata</span><span><i style="background:#e8832a"></i>videolezione iniziata, non terminata</span><span><i style="background:#3b6fd8"></i>lezione in diretta</span><span><i style="background:#FFC21A"></i>compiti assegnati</span></div>';
-  $('#days').querySelectorAll('.d[data-k]').forEach(b=>b.onclick=()=>{SEL=new Date(b.dataset.k+'T12:00');render()});
+  $('#days').querySelectorAll('.d[data-k]').forEach(b=>b.onclick=()=>{SEL=new Date(b.dataset.k+'T12:00');REP=false;render()});
   $('#nm').disabled=ROLE==='studente'&&new Date(VIEW.getFullYear(),VIEW.getMonth()+1,1,12)>TODAY;
 }
 
@@ -443,11 +449,64 @@ function summary(){
     attDi(k).forEach(x=>{if(x.k==='v'){if(x.s==='C')vc++;else if(x.s==='I'&&!vis.has(x.c+x.t)&&!Object.values(ATT.days).some(L=>L.some(y=>y.c===x.c&&y.t===x.t&&y.s==='C'))){vis.add(x.c+x.t);vi++}}if(x.k==='l')lv++})});
   sc.sort((a,b)=>a[0]<b[0]?-1:1);
   const uniq=[...new Map(sc.map(x=>[x.join('|'),x])).values()].slice(0,5);
-  $('#sum').innerHTML='<h3>Riepilogo del mese</h3><div class="n">'+
+  $('#sum').innerHTML='<button class="btn pri" id="wk" style="width:100%;margin-bottom:12px">Resoconto della settimana</button><h3>Riepilogo del mese</h3><div class="n">'+
     [[giorni,'giorni con compiti'],[ass,'attività assegnate'],[comp,'completate'],[recu,'giorni da recuperare'],[vc,'videolezioni completate'],[vi,'videolezioni non terminate'],[lv,'lezioni in diretta']].map(([v,l])=>'<div><b>'+v+'</b><span>'+l+'</span></div>').join('')+
     '</div><div class="scad"><h3>Prossime scadenze</h3>'+(uniq.length?'<ul>'+uniq.map(([d,t])=>'<li><b>'+esc(fmtS(d))+'</b><span>'+esc(t)+'</span></li>').join('')+'</ul>':'<div class="none">Nessuna scadenza in arrivo.</div>')+'</div>';
+  $('#wk').onclick=()=>{REP=true;day()};
 }
 
+/* ---------- v1.6: resoconto della settimana (calcolato dal piano didattico e dalle attività rilevate) ---------- */
+let REP=false;
+const lun=d=>{const x=new Date(d);x.setHours(12,0,0,0);x.setDate(x.getDate()-((x.getDay()+6)%7));return x};
+function report(){
+  const L0=lun(SEL),giorni=[...Array(7)].map((_,i)=>iso(add(L0,i))),k0=giorni[0],k6=giorni[6],dentro=k=>k>=k0&&k<=k6;
+  const fino=ROLE==='studente'&&k6>T?T:k6, g=DB.gen||{}, nome=g.nome||(ALUNNO&&ALUNNO.nome)||'';
+  const tit=x=>'LEZIONE '+x.n+': '+x.t+' (n. '+x.n+' del corso)';
+  /* 1. assegnato nel piano */
+  const P=[];giorni.forEach(k=>{if(!visible(k))return;s1Di(k).forEach(x=>P.push({...x,g:k}))});
+  const uniq=new Map();P.forEach(x=>{const key=(x.tab||'')+'|'+x.c+'|'+x.n;if(!uniq.has(key))uniq.set(key,x)});const PL=[...uniq.values()];
+  const fatta=x=>x.ok&&x.cd&&x.cd<=fino, inCorso=x=>!fatta(x)&&x.pv&&x.pv<=fino;
+  const nF=PL.filter(fatta).length,nI=PL.filter(inCorso).length,nN=PL.length-nF-nI;
+  /* 2. attività della settimana */
+  const A=[];giorni.forEach(k=>{if(!visible(k))return;attDi(k).forEach(x=>A.push({...x,g:k}))});
+  const V=A.filter(x=>x.k==='v'&&x.s==='C'),Lv=A.filter(x=>x.k==='l'),Qd=A.filter(x=>x.k==='q');
+  const nelPiano=x=>PL.some(p=>p.c===x.c&&String(p.n)===String(x.n));const extra=V.filter(x=>!nelPiano(x));
+  /* 3. da recuperare: lezioni del piano della settimana non completate + segnalazioni del registro */
+  const rec8=[];giorni.forEach(k=>{const r=rec(k);if(!r||!visible(k))return;const st=r['8.ex.st']||[];if(st.includes('Da recuperare')&&r['8.ex.rec'])rec8.push({g:k,t:r['8.ex.rec']})});
+  const riga=(a,b,c)=>'<div class="it"><div class="st '+a+'">'+b+'</div><div>'+c+'</div></div>';
+  let h='<div class="dayh"><div><h2>Resoconto della settimana</h2><div class="sm" style="font-size:15px">'+esc(cap(fmtL(L0)))+' – '+esc(fmtL(add(L0,6)))+'</div><div class="bar"></div></div><div class="tools nop"><button class="btn" id="wp">‹ Settimana prima</button><button class="btn" id="wn"'+(ROLE==='studente'&&add(L0,7)>TODAY?' disabled':'')+'>Settimana dopo ›</button><button class="btn" id="wg">Torna al giorno</button><button class="btn" id="pr">Stampa / PDF</button></div></div>';
+  h+='<div class="head4"><div><span class="lab">Studente</span>'+esc(nome)+'</div><div><span class="lab">Materia</span>'+esc(tutte()?'Tutte le materie':MAT)+'</div><div><span class="lab">Dati letti il</span>'+esc((ATT&&ATT.letto)||'')+'</div><div></div></div>';
+  h+='<div class="sum" style="margin:6px 0 14px"><div class="n">'+[[PL.length,'lezioni nel piano'],[nF,'completate'],[nI,'iniziate, non finite'],[nN,'non svolte'],[Lv.length,'lezioni in diretta'],[Qd.length,'compiti del quaderno']].map(([v,l])=>'<div><b>'+v+'</b><span>'+l+'</span></div>').join('')+'</div></div>';
+  /* piano */
+  h+='<div class="att"><h4>1. Videolezioni assegnate nel piano didattico</h4>';
+  if(!PL.length)h+='<div class="it"><div>Per questa settimana il piano didattico non riporta videolezioni'+(tutte()?'':' di questa materia')+'.</div></div>';
+  PL.sort((a,b)=>a.g<b.g?-1:a.g>b.g?1:0).forEach(x=>{const st=fatta(x)?['C','✓ Completata il '+fmtS(x.cd)+(x.pun?'<br>Test '+esc(x.pun):'')]:inCorso(x)?['I','Iniziata il '+fmtS(x.pv)+', non finita']:['N','Non svolta'];
+    h+=riga(st[0],st[1],'<b>'+esc(tit(x))+'</b>'+(tutte()?' <span class="sm">· '+esc(x.tab)+'</span>':'')+'<div class="sm">Nel piano: '+esc(fmtS(x.g))+' · '+esc(x.c)+'</div>')});
+  if(extra.length){h+='<div class="it"><div class="sm" style="padding-top:4px"><b>Completate in questa settimana ma assegnate in altri giorni:</b></div></div>';extra.forEach(x=>{h+=riga('C','✓ Completata il '+fmtS(x.g)+(x.p?'<br>Test '+esc(x.p):''),'<b>'+esc(x.n?tit(x):x.t)+'</b><div class="sm">'+esc(x.c)+'</div>')})}
+  h+='</div>';
+  /* dirette */
+  h+='<div class="att"><h4>2. Lezioni in diretta</h4>';
+  if(!Lv.length)h+='<div class="it"><div>Nessuna lezione in diretta registrata in questa settimana.</div></div>';
+  Lv.forEach(x=>{h+=riga('L',(x.ass?'Assente':'Presente')+(x.voto?'<br>Voto '+esc(x.voto):''),'<b>'+esc(x.t)+'</b> <span class="sm">· '+esc(fmtS(x.g))+'</span><div class="sm">'+esc(x.doc||'')+'</div>'+(x.fb&&!x.ass?(x.fb.length>320?'<details class="fb"><summary><span class="sm">Giudizio:</span> '+esc(x.fb.slice(0,300).replace(/\s+\S*$/,''))+'… <span class="sm" style="text-decoration:underline">leggi tutto</span></summary>'+esc(x.fb)+'</details>':'<div class="fb"><span class="sm">Giudizio:</span> '+esc(x.fb)+'</div>'):'')+(x.ass&&x.fb?'<div class="sm">'+esc(x.fb)+'</div>':''))});
+  h+='</div>';
+  /* quaderno */
+  h+='<div class="att"><h4>3. Compiti del quaderno</h4>';
+  if(!Qd.length)h+='<div class="it"><div>Nessun compito del quaderno in questa settimana.</div></div>';
+  Qd.forEach(x=>{h+=riga('Q','Compito '+esc(x.e)+(x.v?'<br>Voto '+esc(x.v):''),'<b>'+esc(x.t)+'</b> <span class="sm">· '+esc(fmtS(x.g))+'</span>'+(x.sc?'<div class="sm">Scadenza '+esc(fmtS(x.sc))+'</div>':'')+'<div class="sm">'+esc(x.doc||'')+'</div>')});
+  h+='</div>';
+  /* da recuperare */
+  const daRec=PL.filter(x=>!fatta(x));
+  h+='<div class="att"><h4>4. Da recuperare</h4>';
+  if(!daRec.length&&!rec8.length)h+='<div class="it"><div>Niente da recuperare per questa settimana.</div></div>';
+  daRec.forEach(x=>{h+=riga(inCorso(x)?'I':'N',inCorso(x)?'Da finire':'Da svolgere','<b>'+esc(tit(x))+'</b>'+(tutte()?' <span class="sm">· '+esc(x.tab)+'</span>':'')+'<div class="sm">Era nel piano di '+esc(fmtS(x.g))+'</div>')});
+  rec8.forEach(x=>{h+=riga('N','Segnalato dal docente','<b>'+esc(x.t)+'</b> <span class="sm">· '+esc(fmtS(x.g))+'</span>')});
+  h+='</div><p class="sm" style="color:var(--mut);font-size:12px;margin-top:10px">Il resoconto si calcola da solo dal piano didattico della piattaforma, dalle videolezioni svolte, dal registro delle lezioni in diretta e dal quaderno dei compiti.'+(ROLE==='studente'&&k6>T?' La settimana è in corso: conta solo fino a oggi.':'')+'</p>';
+  $('#day').innerHTML=h;
+  $('#wp').onclick=()=>{SEL=add(L0,-7);VIEW=new Date(SEL.getFullYear(),SEL.getMonth(),1,12);render()};
+  $('#wn').onclick=()=>{let n=add(L0,7);if(ROLE==='studente'&&n>TODAY)return;SEL=n;VIEW=new Date(SEL.getFullYear(),SEL.getMonth(),1,12);render()};
+  $('#wg').onclick=()=>{REP=false;render()};
+  $('#pr').onclick=()=>{$('#day').querySelectorAll('details.fb').forEach(d=>d.open=true);window.print()};
+}
 /* ---------- pagina del giorno ---------- */
 function ctrl(key,f,r){
   const v=r[key];
@@ -473,10 +532,11 @@ function sections(r){
     const M=s.max||s.rows||0,tutte=[...Array(M).keys()],ult=tutte.filter(i=>rowHas(s,i,r)).pop();
     const vis=Math.min(M,Math.max(s.rows||0,ult===undefined?0:ult+1)+(EXTRA[iso(SEL)+'|'+s.n]||0));
     const rows=ro?tutte.filter(i=>rowHas(s,i,r)):[...Array(vis).keys()];
-    const piena=tutte.some(i=>rowHas(s,i,r))||exHas(s,r);
+    const piena=tutte.some(i=>rowHas(s,i,r))||exHas(s,r)||(s.n===1&&s1Di(iso(SEL)).length>0);
     if(ro&&!piena)return;
     const tit=s.n+'. '+esc(s.t)+(s.opt?' <small>'+s.opt+'</small>':'');
     h+=ro?'<div class="sec"><h4>'+tit+'</h4>':'<details class="sec'+(piena?'':' vuota')+'"'+(piena?' open':'')+'><summary><span>'+tit+'</span></summary>';
+    if(s.n===1)h+=s1Box(iso(SEL));
     if(s.rows){
       h+='<div class="rows" style="--cols:'+s.cols+'"><div class="hd">'+(s.nonum?'':'<div>N.</div>')+s.f.map(f=>'<div>'+esc(f.l)+'</div>').join('')+'</div>';
       rows.forEach(i=>{h+='<div class="r">'+(s.nonum?'':'<div class="num">'+(i+1)+'</div>')+s.f.map(f=>'<div><span class="lab">'+esc(f.l)+'</span>'+ctrl(s.n+'.'+i+'.'+f.k,f,r)+'</div>').join('')+'</div>'});
@@ -497,6 +557,7 @@ function genBox(){
   return '<details class="gen"'+(vuoto?' open':'')+'><summary>Dati generali'+(vuoto?' — da compilare la prima volta':'')+'</summary><div class="g2">'+GEN.map(([k,l])=>'<div>'+l+'</div><div><input type="text" data-g="'+k+'" value="'+esc(g[k]||'')+'"></div>').join('')+'</div></details>';
 }
 function day(){
+  if(REP){report();return}
   const k=iso(SEL),ro=ROLE==='studente',r=rec(k)||{},g=DB.gen||{};
   if(tutte()&&MATERIE.length){const a=attBox(k);$('#day').innerHTML='<div class="dayh"><div><h2>'+fmtL(SEL)+'</h2><div class="bar"></div></div><div class="tools"><button class="btn" id="pr">Stampa / PDF</button></div></div>'+
     '<div class="head4"><div><span class="lab">Studente</span>'+esc(g.nome||(ALUNNO&&ALUNNO.nome)||'')+'</div><div><span class="lab">Materia</span>Tutte le materie</div><div></div><div></div></div>'+
