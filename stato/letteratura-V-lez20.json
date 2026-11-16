@@ -2,27 +2,24 @@
  "tag": "letteratura-V-lez20",
  "parti": {
   "1": {
-   "stato": "IN_REVISIONE"
+   "stato": "REVISIONATA",
+   "video": "Letteratura_Lez20_Parte1_1080p.mp4",
+   "durata_s": 3290.4,
+   "durata": "54:50.4",
+   "fotogrammi": 98711,
+   "fotogrammi_attesi": 98711,
+   "peso_MB": 191.0,
+   "vtt": "Letteratura_Lez20_Parte1.vtt"
   }
  },
  "manca": "",
- "serve_master": [
-  {
-   "quando": "16/11 18:24",
-   "testo": "Revisione lez.20: non riesco a scaricare Whisper (huggingface.co bloccato). Servono trascrizione/modello per rifare i .vtt e controllare voce↔immagine. Mancano anche le slide del prof (pptx) per la lez.20 nella release."
-  }
- ],
+ "serve_master": [],
  "domande_sara": [],
  "note": [
   {
-   "quando": "16/11 18:15",
-   "testo": "chat revisione 20"
-  },
-  {
-   "quando": "16/11 18:24",
-   "testo": "prima versione RAPPORTO su ramo revisione-letteratura-V-lez20; grafica da rifare al modello Spagnolo"
+   "quando": "16/11 23:23",
+   "testo": "Revisionata sul ramo revisione-letteratura-V-lez20 (RAPPORTO_REVISIONE.md). RISERVE: controllo sincronia sottotitoli 56% (soglia 80%), voce Kore da riascoltare (docente/gattiano/Mar Adal/de via), silenzi 3-3,9 s fra voci, mappe del video non del prof (decide Sara)"
   }
  ],
- "materia": "Letteratura italiana V",
- "aggiornato": "2026-11-16 18:24:27"
+ "aggiornato": "2026-11-16 23:23:58"
 }
