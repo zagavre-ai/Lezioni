@@ -582,7 +582,7 @@ function day(){
   h+='<div class="head4"><div><span class="lab">Studente</span>'+esc(g.nome||'')+'</div><div><span class="lab">Materia</span>'+esc(LAB(MAT))+'</div><div><span class="lab">Docente</span>'+esc(g.doc||docenteDirette())+'</div><div><span class="lab">Prossima diretta</span>'+(ro?esc(fmtS(r.dir||prossimaDiretta(k))):'<input type="date" data-k="dir" value="'+esc(r.dir||prossimaDiretta(k))+'">')+'</div></div>';
   h+=genBox();
   h+=progBox(k)+attBox(k);
-  if(ro&&!filled(r))h+=(attDi(k).length||programmati(k).length)?'':'<div class="empty"><b>Nessun compito per questo giorno</b>Guarda i giorni con il pallino giallo.</div>';
+  if(ro&&!filled(r)&&!s1Di(k).length)h+=(attDi(k).length||programmati(k).length)?'':'<div class="empty"><b>Nessun compito per questo giorno</b>Guarda i giorni con il pallino giallo.</div>';
   else h+=sections(r);
   $('#day').innerHTML=h;
   $('#pr').onclick=()=>{document.querySelectorAll('details.sec:not(.vuota)').forEach(d=>d.open=true);window.print()};
