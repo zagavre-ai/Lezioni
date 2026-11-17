@@ -172,3 +172,9 @@ Nelle regole c'era scritto «DM Mono» per la riga «01 · ARGOMENTO», la riga 
 
 ## 17/11 ore 01:00 (ora italiana) · LEZIONE DI RIFERIMENTO APPROVATA DA SARA: la 11 (Futurismo)
 Sara ha guardato la lezione 11 e ha detto: «tutte così devono essere». Guardala (ramo `revisione-letteratura-V-lez11`, pagina `videolezioni/letteratura-V-lez11-p1/?rev=1`): pagine del libro intere e leggibili, una fettina per volta a tempo con la voce del prof, slide pulite nel modello. Per il font delle etichette vale l'aggiornamento delle 15:10 (Figtree Bold, non DM Mono) e per il volume il picco ≤ −1 dBTP.
+
+## 17/11 ore 01:20 (ora italiana) · JINGLE OBBLIGATORI COME SPAGNOLO (Sara: «la 15 non ha i jingle»)
+La master ha misurato il jingle del Quiz nelle lezioni consegnate: c'è in tutte le schede Quiz solo nella **21**; nella 22 in 3 su 5; nella 20 in 1 su 6; **manca** in 3, 11, 15, 26.
+- I jingle sono nel kit: `Telesio_kit_produzione_v1.zip` (cartella principale del repo) → `home/claude/v5/snd/`: `quiz.wav` (scheda Quiz), `titolo.wav` (titolo dell'argomento), `repaso.wav` (pillola di ripasso), `trans.wav` (transizioni), `finale.wav`. Sono quelli del video Spagnolo Lez. 1: usali negli stessi punti.
+- **Scheda Quiz:** lo scatto di `quiz.wav` deve cadere a 0,0 s (inizio scheda + 0,5 s): controlla con `kit/tools/controllo_jingle.py` (copia `quiz.wav` in `/home/claude/v5/snd/` se lo strumento non lo trova) e metti l'esito nel rapporto.
+- Nessuna scheda Quiz o di passaggio in silenzio.
