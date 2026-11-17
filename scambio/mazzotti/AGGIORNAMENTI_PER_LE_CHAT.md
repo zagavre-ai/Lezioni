@@ -254,3 +254,7 @@ Il modello è il video di **Spagnolo Lezione 1** (più le aggiunte promosse nel 
 - **riepilogo finale**: blu scuro, elenco degli argomenti numerati;
 - **slide di contenuto, copertina, glossario a tabella**: fondo bianco, riquadro del prof 4:3 con fascia gialla.
 Chi ha già cambiato schede blu in bianche: **rimettile blu come Spagnolo**. Resta valido: niente DM Mono nelle etichette (Figtree Bold), suoni (titolo, repaso, quiz, trans, finale), prof mai fermo.
+
+
+## 18/11 00:05 — Pannello «PAROLE CHIAVE» sotto il prof: SI TIENE
+È un'aggiunta approvata da Sara (fa parte delle «aggiunte promosse» al modello Spagnolo). Non toglierlo.

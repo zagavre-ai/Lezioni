@@ -5,7 +5,7 @@ Bozza in revisione da Sara. Valgono **sopra** tutte le altre regole e aggiorname
 - Il modello è **solo la Lezione 1 di Spagnolo** (consegnata con il Brief) **più le aggiunte promosse nel tempo** (mappe del prof, fettine HD del libro, pronuncia dei nomi, prof mai fermo e mai tagliato a metà frase). Ogni lezione è **identica** a Spagnolo: grafica, schede, suoni, ordine dei pezzi. **La lezione 11 di Letteratura NON è il modello.**
 - Riferimento: `scambio/mazzotti/MODELLO_Spagnolo_schede.jpg` + `kit/modello_spagnolo/`. Prima di consegnare metti ogni tipo di scheda accanto a quella di Spagnolo.
 - **Schede blu scure animate** (come Spagnolo): titolo dell'argomento, pillola di ripasso, scheda Quiz, riepilogo finale. **Fondo bianco**: copertina, slide di contenuto col prof, glossario, tabelle.
-- Font: solo **Bricolage Grotesque 800** e **Figtree** (Figtree Bold per etichette e piè). **Niente DM Mono.** Niente pannello «parole chiave» sotto il prof (Spagnolo non l'ha).
+- Font: solo **Bricolage Grotesque 800** e **Figtree** (Figtree Bold per etichette e piè). **Niente DM Mono.** Il pannello **«PAROLE CHIAVE»** sotto il riquadro del prof è un'aggiunta approvata da Sara: **si tiene** (dove la lezione ce l'ha).
 
 ## 2. Struttura (come Spagnolo)
 1. Sigla della materia (15 s), dissolvenza morbida.
