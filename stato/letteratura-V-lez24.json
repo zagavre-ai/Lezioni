@@ -1,18 +1,31 @@
 {
  "tag": "letteratura-V-lez24",
- "parti": {
-  "1": {
-   "stato": "IN_REVISIONE"
-  }
- },
+ "parti": {},
  "manca": "",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "16/11 18:20",
+   "testo": "installare faster-whisper e rapidocr (pip negato)"
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
-   "quando": "16/11 23:19",
-   "testo": "agente; consegna prevista 10:15 (ora italiana)"
+   "quando": "16/11 18:18",
+   "testo": "chat revisione 24"
+  },
+  {
+   "quando": "16/11 18:20",
+   "testo": "ripartenza: grafica non conforme a Spagnolo (tondo, slide grigie); servono Whisper/OCR"
+  },
+  {
+   "quando": "16/11 22:04",
+   "testo": "30min: misurati offset prof/originale e 7 tagli; webcam 184x138 x849 y342; trascrizione in corso; ora scrivo generatore slide modello Spagnolo"
+  },
+  {
+   "quando": "17/11 17:26",
+   "testo": "17/11 18:25 it: rifacimento in corso con regole fino alle 08:45: mappa solo prof (voci RM1c/RM2c/RM3d/RMFd arrivate), D2/D3 ridefiniti per non tagliare la frase, card gialle, jingle VF+transizioni; durata cambia (+17 s circa), poi aggiorno scheda"
   }
  ],
- "aggiornato": "2026-11-16 23:19:57"
+ "aggiornato": "2026-11-17 17:26:32"
 }
