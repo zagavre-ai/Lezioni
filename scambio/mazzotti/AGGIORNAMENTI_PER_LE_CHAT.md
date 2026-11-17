@@ -195,3 +195,6 @@ La 22 è stata respinta: riquadro del prof con **immagine ferma** nella presenta
 2. **Jingle** come Spagnolo (aggiornamento 01:20) e **transizioni** tra un pezzo e l'altro (`trans.wav` + dissolvenza breve), mai taglio secco.
 3. **Sincronia labbra/voce**: per ogni pezzo del prof misura lo scarto audio/video sull'originale (es. correlazione dell'audio col file originale) e scrivilo; scarto massimo 0,04 s.
 4. Font Figtree (15:10), ombre grigie morbide e card in corso gialla (01:30), mappe del prof (00:40), fettine intere (15:00), prof mai tagliato a metà frase (01:25).
+
+## 17/11 ore 08:45 (ora italiana) · PRONUNCIA: «Aracoeli» si legge «Aracèli» (Sara)
+È latino: «Aracoeli» (romanzo di Elsa Morante) si pronuncia **«Aracèli»**. Nei testi per la voce Kore (`testi_voci.json`) scrivi **«Aracèli»** così Kore lo dice giusto; sullo schermo e nei sottotitoli resta scritto **«Aracoeli»**. Stessa regola per ogni nome latino o straniero: nel testo della voce si scrive come si pronuncia, a schermo come si scrive. Ascolta ogni voce nuova che contiene nomi propri e rigenerala (R…) se è sbagliata.
