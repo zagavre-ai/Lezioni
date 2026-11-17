@@ -2,7 +2,7 @@
  "tag": "letteratura-V-lez07",
  "parti": {
   "1": {
-   "stato": "REVISIONATA",
+   "stato": "IN_REVISIONE",
    "voci": "kore",
    "quiz_ok": "si",
    "fermi_ok": "si",
@@ -55,10 +55,14 @@
   {
    "quando": "17/11 08:33",
    "testo": "09:33 IT: REVISIONATA su revisione-letteratura-V-lez07. Restano 5 silenzi >3 s (vedi rapporto §5); sottotitoli non riascoltati"
+  },
+  {
+   "quando": "17/11 17:18",
+   "testo": "18:18 IT: correggo titolo slide pag. 19 (a capo, a sinistra del riquadro); ricodifica pezzo D3; consegna prevista entro 19:00 (ora italiana)"
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 7",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-17 08:33:11"
+ "aggiornato": "2026-11-17 17:18:28"
 }
