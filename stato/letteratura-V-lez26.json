@@ -2,16 +2,16 @@
  "tag": "letteratura-V-lez26",
  "parti": {
   "1": {
-   "stato": "IN_REVISIONE",
+   "stato": "REVISIONATA",
    "voci": "kore",
    "quiz_ok": "si",
    "fermi_ok": "si",
    "sub_ok": "si",
-   "video": "final.mp4",
-   "durata_s": 3153.1,
-   "durata": "52:33.1",
-   "fotogrammi": 94591,
-   "fotogrammi_attesi": 94592,
+   "video": "Letteratura_Lez26_Parte1_1080p.mp4",
+   "durata_s": 3151.7,
+   "durata": "52:31.7",
+   "fotogrammi": 94552,
+   "fotogrammi_attesi": 94552,
    "peso_MB": 192.3,
    "vtt": "Letteratura_Lez26_Parte1.vtt"
   }
@@ -51,7 +51,11 @@
   {
    "quando": "17/11 17:30",
    "testo": "17:30 UTC +10 min: codifica in corso (taglio 2 silenzi >3 s); consegna prevista tra ~20 min"
+  },
+  {
+   "quando": "17/11 17:51",
+   "testo": "17:51 UTC riconsegna: silenzi >3 s tolti, scheda aggiornata (durata 3151,7 s, 94552 fotogrammi)"
   }
  ],
- "aggiornato": "2026-11-17 17:30:10"
+ "aggiornato": "2026-11-17 17:51:27"
 }
