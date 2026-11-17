@@ -40,9 +40,13 @@
   {
    "quando": "17/11 17:54",
    "testo": "REVISIONATA v2: 95955 fotogrammi, 3198,5 s, 394 MB, -16,8 LUFS, picco -2,3 dBFS, jingle Quiz OK, sync max 0,018 s, nessun fermo del prof. Secondi nuovi in scheda_pubblicazione.json. Rapporto sul ramo revisione-letteratura-V-lez17."
+  },
+  {
+   "quando": "17/11 17:54",
+   "testo": "REVISIONATA v2: 95955 fotogrammi, 3198,5 s, 394 MB, -16,8 LUFS, picco -2,3 dBFS, jingle Quiz OK, sync max 0,018 s, nessun fermo del prof. Secondi nuovi in scheda_pubblicazione.json. Rapporto: ramo revisione-letteratura-V-lez17"
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "17",
- "aggiornato": "2026-11-17 17:54:16"
+ "aggiornato": "2026-11-17 17:54:22"
 }
