@@ -16,7 +16,19 @@
   {
    "quando": "16/11 23:33",
    "testo": "Decisione Sara: rifare tutta la grafica nel modello Spagnolo, stessa durata e stessi fotogrammi. Consegna prevista: entro 5 ore da ora (17/11 ~04:30 UTC); prima verifica completa nel rapporto entro 2 ore"
+  },
+  {
+   "quando": "17/11 07:28",
+   "testo": "Consegna prevista entro 1 ora (08:28 UTC): video nuovo montato (graf. Spagnolo), mancano controlli finali, sottotitoli e push. Aggiorno ogni 20 min"
+  },
+  {
+   "quando": "17/11 07:31",
+   "testo": "07:31: codifica video in corso (3 processi), audio con jingle/transizioni pronto; consegna prevista entro 08:21 UTC"
+  },
+  {
+   "quando": "17/11 07:34",
+   "testo": "07:34: 19/58 blocchi video codificati; audio e sottotitoli pronti. Consegna prevista tra 40 min circa"
   }
  ],
- "aggiornato": "2026-11-16 23:33:27"
+ "aggiornato": "2026-11-17 07:34:27"
 }
