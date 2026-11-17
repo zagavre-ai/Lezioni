@@ -1,0 +1,2 @@
+Revisione lez09 (chat revisione 9), 16-17/11: richiesta di 14 voci nuove, nomi R1..R14.
+R1-R4 = INTRO1, S4, RF1, INTRO2 con «Mirìce» -> «Mìrike» (pronuncia). R5-R14 = narrazione delle mappe del prof (10 mappe). Durate massime in secondi: R5 54, R6 34, R7 45, R8 41, R9 47, R10 40, R11 40, R12 41, R13 42, R14 57. Generare SOLO R1..R14.
