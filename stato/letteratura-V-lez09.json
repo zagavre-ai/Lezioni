@@ -2,7 +2,13 @@
  "tag": "letteratura-V-lez09",
  "parti": {
   "1": {
-   "stato": "IN_REVISIONE"
+   "stato": "IN_MONTAGGIO",
+   "video": "Letteratura_Lez9_Parte1_1080p.mp4",
+   "durata_s": 3230.6,
+   "durata": "53:50.6",
+   "fotogrammi": 96918,
+   "fotogrammi_attesi": 96918,
+   "peso_MB": 220.8
   }
  },
  "manca": "",
@@ -40,7 +46,11 @@
   {
    "quando": "17/11 08:31",
    "testo": "09:35 It: Parte 1 montata (96918 fotogrammi, 53:50, voci R1-R14 inserite, mappe del prof), controlli in corso. Parte 2 in codifica. Consegna prevista 10:00 It"
+  },
+  {
+   "quando": "17/11 17:39",
+   "testo": "REVISIONATA con limiti (vedi RAPPORTO §5): P1 53:50,6 / P2 53:36,2; sottotitoli del prof non riletti; transizioni solo dissolvenza da bianco; voci R non ascoltate"
   }
  ],
- "aggiornato": "2026-11-17 08:31:54"
+ "aggiornato": "2026-11-17 17:39:30"
 }
