@@ -6,21 +6,21 @@ Ogni zip è indipendente: scarica SOLO gli zip che contengono la tua lezione (`g
 |---|---|---|---|
 | 1 | release `storia-V-lez01` · LEZIONE.1.IL.NOVECENTO.IL.SECOLO.DELLE.MASSE.mp4 · 1615 | 002 | 002 |
 | 2 | release `storia-V-lez02` · LEZIONE.2.IL.MONDO.AGLI.INIZI.DEL.XX.SECOLE.E.L.IMPERIALISMO.mp4 · 1335 | 007 | 007 |
-| 3 | **manca** | **manca** | 004 |
-| 4 | **manca** | 011 | **manca** |
+| 3 | file singolo `LEZIONE.3.L.ITALIA.DI.GIOLITTI.mp4` · 1311 | **manca** | 004 |
+| 4 | file singolo `LEZIONE.4.LA.PRIMA.GUERRA.MONDIALE.mp4` · 1990 | 011 | **manca** |
 | 5 | 007 · LEZIONE 5 LA RIVOLUZIONE RUSSA.mp4 · 1090 | **manca** | 003 |
 | 6 | 001 · LEZIONE 6 IL PRIMO DOPOGUERRA (1919-1925).mp4 · 757 | 006 | **manca** |
 | 7 | 003 · LEZIONE 7 GLI STATI UNITI DAL BOOM ECONOMICO AL NEW DEAL.mp4 · 694 | 002 | **manca** |
-| 8 | **manca** | **manca** | **manca** |
+| 8 | file singolo `LEZIONE.8.IL.DOPOGUERRA.ITALIANO.E.IL.FASCISMO.1919-1925.mp4` · 1707 | **manca** | **manca** |
 | 9 | 003 · LEZIONE 9 L_ITALIA DEL REGIME FASCISTA.mp4 · 1276 | 010 | **manca** |
-| 10 | **manca** | 007 | **manca** |
+| 10 | file singolo `LEZIONE.10.LA.GERMANIA.DA.WEIMAR.AL.NAZISMO.mp4` · 1843 | 007 | **manca** |
 | 11 | 002 · LEZIONE 11 L_URSS DI STALIN (1924-1939).mp4 · 480 | 011 | 004 |
 | 12 | 006 · LEZIONE 12 L_EUROPA E IL MONDO NEGLI ANNI TRENTA.mp4 · 1032 | **manca** | 010 |
-| 13 | **manca** | **manca** | 006 |
+| 13 | 4 file singoli `Storia.V.Lez.13-1…-4.mp4` · 962+968+933+1044 | **manca** | 006 |
 | 14 | 009 · LEZIONE 14 LA GUERRA FREDDA (1945-1961).mp4 · 1373 | 007 | 004 |
 | 15 | 010 · LEZIONE 15 LA DECOLONIZZAZIONE (1945-1975).mp4 · 809 | 003 | **manca** |
 | 16 | 002 · LEZIONE 16 GLI ANNI SESSANTA TRA CRISI E PROGRESSI.mp4 · 774 | 004 | 006 |
-| 17 | **manca** | **manca** | 006 |
+| 17 | file singolo `LEZIONE.17.LE.FASI.CONCLUSIVE.DELLA.GUERRA.FREDDA.1969-1991.mp4` · 1953 | **manca** | 006 |
 | 18 | 011 · LEZIONE 18 L_ITALIA REPUBBLICANA.mp4 · 1362 | 011 | 011 |
 | 19 | 005 · LEZIONE 19 L_ITALIA DAL _68 ALLA CRISI DELLA PRIMA REPUBBLICA.mp4 · 1528 | 003 | **manca** |
 | 20 | 004 · LEZIONE 20 GLI ANNI NOVANTA IL MONDO POST-BIPOLARE.mp4 · 1079 | 010 | 010 |
@@ -34,3 +34,10 @@ Ogni zip è indipendente: scarica SOLO gli zip che contengono la tua lezione (`g
 Il numero dello zip è l'ultima parte del nome: `…-1-001.zip` = 001. Lo zip 008 contiene gli Excel delle verifiche del prof (test finale di ogni lezione): SERVONO, da caricare. Video ancora mancanti: lezioni 3, 4, 8, 10, 13, 17.
 Le lezioni 1 e 2 sono già avviate con le release `storia-V-lez01` e `storia-V-lez02`.
 Test finali e compiti: arrivano dalla direzione il 13/11; nel video restano le schede «Verifica finale» e «Compiti».
+
+## Controllo del 17/11 sera (master, lettura remota di tutti gli zip)
+- **Video: ci sono tutti e 21.** La 13 è in 4 file (13-1 … 13-4), non 3.
+- **Test finali (DOMANDE LEZIONE 1–21.xlsx) e compiti (LEZIONE 1–21.pdf): completi.**
+- **Slide del prof mancanti:** lezioni 3, 5, 8, 12, 13, 17, 21 → senza PDF le slide si ricostruiscono dai fotogrammi del video (come la 17).
+- **Mappe del prof mancanti:** lezioni 4, 6, 7, 8, 9, 10, 15, 19.
+- Lo zip **008** dell'esportazione del 11/11 non è mai stato caricato: probabilmente contiene proprio queste slide e mappe.
