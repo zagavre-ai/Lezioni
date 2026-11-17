@@ -1,6 +1,4 @@
-R7 OK frasi trovate 1 / 1 parole diverse 0 (vere 1) tentativi 1
-R8 OK frasi trovate 1 / 1 parole diverse 2 (vere 2) tentativi 1
-R9 OK frasi trovate 1 / 1 parole diverse 5 (vere 6) tentativi 1
-R10 OK frasi trovate 1 / 1 parole diverse 3 (vere 3) tentativi 1
-R11 OK frasi trovate 1 / 1 parole diverse 6 (vere 4) tentativi 1
-R12 OK frasi trovate 1 / 1 parole diverse 9 (vere 10) tentativi 1
+R13 OK frasi trovate 1 / 1 parole diverse 2 (vere 2) tentativi 1
+R14 OK frasi trovate 1 / 1 parole diverse 2 (vere 3) tentativi 1
+R15 OK frasi trovate 1 / 1 parole diverse 7 (vere 6) tentativi 1
+R16 OK frasi trovate 1 / 1 parole diverse 11 (vere 12) tentativi 1
