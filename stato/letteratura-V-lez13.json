@@ -1,7 +1,7 @@
 {
  "tag": "letteratura-V-lez13",
  "parti": {
-  "1": {
+  "2": {
    "stato": "IN_REVISIONE"
   }
  },
@@ -10,9 +10,9 @@
  "domande_sara": [],
  "note": [
   {
-   "quando": "17/11 07:54",
-   "testo": "07:50 aggiornamento: PARTE 1 rifatta (51:48; -16,4 LUFS; picco -1,4; jingle del kit; frasi complete D1/D3; sincronia max 0,037 s). PARTE 2 in codifica (circa 40%). CONSEGNA PREVISTA INVARIATA: 17/11 ore 09:15."
+   "quando": "17/11 08:02",
+   "testo": "08:10 aggiornamento: Parte 1 consegnabile (verificata); Parte 2 in codifica al 60% circa. CONSEGNA PREVISTA: 17/11 ore 08:55 (assemblaggio, sottotitoli, PDF, controlli, push)."
   }
  ],
- "aggiornato": "2026-11-17 07:54:32"
+ "aggiornato": "2026-11-17 08:02:04"
 }
