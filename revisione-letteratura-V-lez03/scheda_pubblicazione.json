@@ -1,7 +1,7 @@
 {
  "materia": "Letteratura italiana (V)",
  "titolo": "Letteratura V · Lezione 3 · Giosuè Carducci",
- "durata_s": 3732.93,
+ "durata_s": 3812.9,
  "argomenti": [
   {
    "n": 1,
@@ -19,13 +19,13 @@
    "n": 3,
    "titolo": "Le prime raccolte e Pianto antico",
    "inizio_s": 1781.066,
-   "quiz_s": 2793.133
+   "quiz_s": 2788.133
   },
   {
    "n": 4,
    "titolo": "Le Odi barbare e le ultime opere",
-   "inizio_s": 2798.433,
-   "quiz_s": 3627.632
+   "inizio_s": 2793.433,
+   "quiz_s": 3622.632
   }
  ],
  "quiz": {
@@ -249,5 +249,8 @@
     }
    ]
   }
- }
+ },
+ "mappa_s": 3627.3,
+ "glossario_s": 3731.8,
+ "riepilogo_s": 3771.9
 }

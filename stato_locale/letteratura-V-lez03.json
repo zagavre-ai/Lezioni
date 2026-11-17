@@ -52,10 +52,14 @@
   {
    "quando": "17/11 17:45",
    "testo": "voci nuove ricevute e montate (S3B, RF2, MAPPA1); audio con jingle e coda nuova pronto; codifica pezzi in corso"
+  },
+  {
+   "quando": "17/11 18:01",
+   "testo": "video v4 assemblato (63:33, 114387 fotogrammi); controlli finali in corso (sync, fermi, silenzi, volume)"
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 3 · Carducci",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-17 17:45:03"
+ "aggiornato": "2026-11-17 18:01:32"
 }
