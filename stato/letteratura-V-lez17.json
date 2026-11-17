@@ -32,9 +32,13 @@
   {
    "quando": "17/11 17:38",
    "testo": "60min: video v2 montato (95955 fotogrammi, 3198,5 s, 394 MB, -16,8 LUFS, picco -2,3). Jingle Quiz OK (+-0,002 s), sync prof max 0,018 s. Mappa del prof inserita. Manca solo controllo fermi immagine, rapporto e push: consegna entro ~15 min"
+  },
+  {
+   "quando": "17/11 17:41",
+   "testo": "80min: controllo fettine ha trovato righe tagliate/residui: corretti, rifaccio D2-D4-D6 (6 min), poi rimontaggio e push. Consegna entro ~15 min"
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "17",
- "aggiornato": "2026-11-17 17:38:12"
+ "aggiornato": "2026-11-17 17:41:55"
 }
