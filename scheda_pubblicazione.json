@@ -1,7 +1,7 @@
 {
  "materia": "Letteratura italiana (V)",
  "titolo": "Letteratura V · Lezione 26 · Italo Calvino",
- "durata_s": 3153.1,
+ "durata_s": 3151.7,
  "argomenti": [
   {
    "n": 1,
@@ -19,19 +19,19 @@
    "n": 3,
    "titolo": "Il barone rampante e il filone realistico",
    "inizio_s": 1244.87,
-   "quiz_s": 1943.76
+   "quiz_s": 1943.16
   },
   {
    "n": 4,
    "titolo": "Il secondo Calvino",
-   "inizio_s": 1949.0,
-   "quiz_s": 2461.32
+   "inizio_s": 1948.4,
+   "quiz_s": 2460.72
   },
   {
    "n": 5,
    "titolo": "Il meta-romanzo e le ultime opere",
-   "inizio_s": 2466.83,
-   "quiz_s": 2978.73
+   "inizio_s": 2466.23,
+   "quiz_s": 2978.13
   }
  ],
  "quiz": {
@@ -311,6 +311,6 @@
    ]
   }
  },
- "t_verifica": 3148.3,
- "t_compiti": 3148.3
+ "t_verifica": 3146.7,
+ "t_compiti": 3146.7
 }

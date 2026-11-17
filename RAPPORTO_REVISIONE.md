@@ -8,10 +8,10 @@ Lezione rifatta nella grafica identica a Spagnolo Lez. 1 (fondo bianco, riquadro
 | Controllo | Esito |
 |---|---|
 | Formato | 1920×1080, 30 fps, x264 veryfast CRF 19, AAC 192k 48 kHz |
-| Durata / fotogrammi | 52:33,1 (3153,1 s) · 94.591 fotogrammi (35 in meno della versione precedente: tolto 1,15 s di inizio mozzato del pezzo 4, vedi sotto) · OK (50–60 min) |
+| Durata / fotogrammi | 52:31,7 (3151,7 s) · 94.552 fotogrammi (la durata può cambiare: regola 00:40) · OK (50–60 min) |
 | Peso | 190,9 MB (< 400 MB) · tre pezzi `.parte_00/01/02`, sha256 nel file `.sha256` |
 | Volume del parlato | −16,1 LUFS · picco vero **−1,5 dBTP** (limitatore; richiesto ≤ −1) · OK (prima −16,3 e −0,6 dB) |
-| Silenzi > 2,5 s | 6, tutti nelle schede «Pausa del video / Quiz» e nei titoli (2,96–3,9 s, non parlato: sono le pause previste). Nessun silenzio nel parlato. Sparita la coda muta di 7,9 s |
+| Silenzi > 2,5 s | **nessuno > 3 s** (massimo 2,96 s; i due da 3,5 e 3,9 s sono stati accorciati: 0,6 s di respiro prima del pezzo 3 e 1,0 s di scheda quiz 5). Restano 6 pause da 2,96 s, tutte nelle schede «Pausa del video / Quiz» e nei titoli (2,96–3,9 s, non parlato: sono le pause previste). Nessun silenzio nel parlato. Sparita la coda muta di 7,9 s |
 | Sincronia prof (labbra/mani) | 25 punti a caso: somiglianza vecchio tondo ↔ nuovo riquadro min 0,85, media 0,96 (soglia 0,75) → OK. Le 5 tracce del prof vengono dall'originale con offset costanti (allineamento audio su 3.041 finestre su 3.120) |
 | Sincronia slide–prof | 17 cambi di evidenziazione confrontati col parlato: tutti coerenti (±2 s). Nessuna slide ferma > 60 s mentre il prof parla d'altro |
 | PDF slide ↔ video | 45 pagine; confronto automatico pagina per pagina con il fotogramma finale della slide nel video: differenza media 5,8/255, massima 9,1 (dovuta a evidenziazione e compressione) → coincidono |
@@ -66,6 +66,17 @@ Lezione rifatta nella grafica identica a Spagnolo Lez. 1 (fondo bianco, riquadro
 **Picco audio:** −1,5 dBTP, −16,1 LUFS (limitatore dopo l'inserimento dei jingle).
 **Correzione di bug:** nel video precedente l'ultima parte della clip del prof 4 restava agganciata alla scheda successiva (la finestra finiva 25 s dopo); ora termina con il pezzo.
 **Non verificato:** ascolto dei jingle e delle transizioni a orecchio.
+
+## Aggiornamento 17/11 (mattina): silenzi > 3 s tolti e secondi della scheda
+Letti di nuovo gli aggiornamenti della master: la lezione contiene solo mappe del prof (con voci nuove), nessuna voce con «Aracoeli»/nomi latini da correggere. Tolti i due silenzi > 3 s. Secondi aggiornati in `scheda_pubblicazione.json` e `testo_youtube.txt`; jingle dei quiz ricontrollato (scarto ≤ 0,004 s, `controllo_jingle.txt`). 0 fermi immagine del prof, picco −1,5 dBTP, −16,1 LUFS.
+| Argomento | inizio_s (v1 → ora) | quiz_s (v1 → ora) |
+|---|---|---|
+| 1 | 40.55 → 40.7 | 693.08 → 672.5 |
+| 2 | 698.08 → 677.77 | 1284.78 → 1239.36 |
+| 3 | 1289.78 → 1244.87 | 2027.95 → 1943.16 |
+| 4 | 2032.95 → 1948.4 | 2583.42 → 2460.72 |
+| 5 | 2588.42 → 2466.23 | 3126.18 → 2978.13 |
+`durata_s`: 3329,7 → 3151,7.
 
 ## Correzioni dopo il controllo della master (16/11)
 1. **Slide vuote:** la scheda «Il visconte dimezzato» (e tutte le altre slide senza prof: schede opera, linee del tempo, confronti, analisi, parole chiave) restava a solo titolo fino alla prima card. Ora la prima card/punto/riga è presente dal primo fotogramma; nei ripassi, nel glossario e nel riepilogo tutte le righe sono presenti sbiadite e si accendono a tempo con la voce; le mappe partono con centro + primo ramo. Controllo: nessuna pagina ha uno stato senza contenuto (misurato su tutte le 45 pagine).
