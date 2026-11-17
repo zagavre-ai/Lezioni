@@ -65,6 +65,25 @@ Card «in corso» come da aggiornamento 01:30: bordo giallo sottile, numero su p
 
 I pezzi D1–D2, D3–D4, D4–D5 sono tagliati in pause tra una frase e l'altra: i tagli erano a metà frase nel video vecchio (D1/D2 a «Direi che possiamo…», D3/D4 a «…umana del dolore.», D4/D5 a «ultimi testi di cui…»). D2–D3 era già in una pausa. D1 inizia a «Buongiorno…» e D5 finisce con «Visto.», entrambi estremi dell originale.
 
+## 3-ter. Secondi vecchi → nuovi (quiz, verifica, compiti)
+La durata totale resta 3311,7 s (99 351 fotogrammi). Cambiano solo i secondi di due argomenti, perché tre pezzi del prof sono stati tagliati a fine frase. Valori già aggiornati in `scheda_pubblicazione.json` (`inizio_s`, `quiz_s`, `t_verifica`, `t_compiti`, `durata_s`) e in `timeline_P1.json`; `quiz_argomenti.json` non contiene secondi (domande e risposte invariate).
+| Evento | Vecchio (s) | Nuovo (s) |
+|---|---|---|
+| Titolo argomento 1 (`inizio_s`) | 138,50 | **139,63** |
+| Quiz 1 (`quiz_s`) | 958,40 | 958,40 |
+| Titolo argomento 2 | 963,40 | 963,40 |
+| Quiz 2 | 1693,67 | **1694,97** |
+| Titolo argomento 3 | 1698,67 | **1699,97** |
+| Quiz 3 | 2823,33 | **2821,03** |
+| Titolo argomento 4 | 2828,33 | **2826,03** |
+| Quiz 4 | 3139,77 | 3139,77 |
+| Glossario | 3208,37 | 3208,37 |
+| Riepilogo | 3248,91 | 3248,91 |
+| Finale | 3286,94 | 3286,94 |
+| Verifica finale (`t_verifica`) | 3293,21 | 3293,21 |
+| Compiti (`t_compiti`) | 3306,71 | 3306,71 |
+| Durata (`durata_s`) | 3311,71 | 3311,70 |
+
 ## 4. Pagine del libro in alta risoluzione (B-bis)
 Zip `Lez16_ingrandita.zip`: pagine 679 e 680 (T6 «Città vecchia», Saba). Nel video vecchio **non c'era nessuna pagina del libro** mentre il prof leggeva la poesia: aggiunte 5 fettine dagli screen HD. Ogni fettina è una sola colonna, inizia e finisce su una riga bianca (controllato a vista su `controllo_fettine.jpg`); via intestazione del capitolo, numero di pagina, QR e box «Analisi interattiva».
 | # | Brano | Pagina | Parte | File HD e ritaglio (px) | Minuto |
@@ -77,6 +96,7 @@ Zip `Lez16_ingrandita.zip`: pagine 679 e 680 (T6 «Città vecchia», Saba). Nel 
 Abbinamento fettina → voce: fatto a mano leggendo la trascrizione parola per parola; è una **stima di ±1 s** (nessuna verifica all'ascolto).
 
 ## 5. Cosa NON ho verificato
+- **Pronuncia delle 5 voci nuove delle mappe** (aggiornamento 08:45: nomi come Poli, Sabaz, Carolina Wolfer, Svevo): nessun nome latino o straniero difficile; trascritte automaticamente e coerenti col testo, ma **non ascoltate**. Se una è sbagliata va rigenerata con una `R…`.
 - **Nessun ascolto umano.** Tutto è automatico: trascrizione (Parakeet), correlazioni, misure. Pronuncia delle voci Kore **non verificata** (in particolare nomi: Sabaz, Poli, Svevo).
 - **Sottotitoli del prof:** corretti da una trascrizione automatica; ~150 blocchi riscritti a mano **senza riascoltare**. Ricostruiti «a senso» (da riascoltare): «Edoardo Weiss» (6:15 orig.), «La rima è ABBA… casa, vecchia, specchia, strada» (19:14 orig.), «celebratrice» (15:31 orig.), «dell'estetismo dannunziano» (12:25 orig.), «Un viaggio di vita» (27:05 orig.), alcune frasi spezzate dal prof.
 - **Testi che il prof legge a voce** non confrontati riga per riga con le fonti, salvo la poesia (fettine).
