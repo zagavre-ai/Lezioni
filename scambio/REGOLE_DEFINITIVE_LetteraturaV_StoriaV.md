@@ -21,6 +21,8 @@ Fuori dal video: verifica finale (10 domande dall'Excel del prof) e compiti del 
 - **Riepilogo finale:** blu scuro, titolo grande, argomenti numerati.
 - **Slide, copertina, glossario, tabelle:** fondo bianco, «01 · NOME ARGOMENTO», piè «MATERIA · Prof. …» e «Pagina N». Mai il numero della lezione nel video.
 
+**Le schede blu si fanno SOLO con `scambio/strumenti/schede_spagnolo.py`** (è il programma originale di Spagnolo): così sono identiche in tutte le lezioni. Non disegnarle a mano.
+
 ## 4. Suoni (kit `home/claude/v5/snd/` in `Telesio_kit_produzione_v1.zip`)
 `titolo.wav` su ogni titolo · `repaso.wav` su ogni pillola · `quiz.wav` su ogni Quiz · `trans.wav` + dissolvenza breve a **ogni** passaggio tra pezzi (mai tagli secchi) · `finale.wav` su «Fine». Parlato −16 LUFS ±2, picco < −1 dBTP, nessun silenzio > 3 s.
 
