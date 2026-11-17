@@ -44,7 +44,11 @@
   {
    "quando": "17/11 07:27",
    "testo": "08:27 ITA ripreso: consegna prevista 09:25 (ora italiana). Applico aggiornamenti 01:20-08:15 (card gialla sottile, transizioni+jingle, controlli)."
+  },
+  {
+   "quando": "17/11 07:31",
+   "testo": "08:31 ITA: rifatti con regole 01:20-08:15 (card gialla, jingle, transizioni, seme D0/D1 a fine frase); in codifica. consegna prevista 09:25"
   }
  ],
- "aggiornato": "2026-11-17 07:27:18"
+ "aggiornato": "2026-11-17 07:31:43"
 }
