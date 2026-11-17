@@ -7,7 +7,7 @@ La lezione è stata **rifatta nel modello Spagnolo** (slide dal materiale del pr
 | Controllo | Risultato |
 |---|---|
 | Formato | 1920×1080, 30 fps, x264 veryfast CRF 19, AAC 192 k, 48 kHz |
-| Durata / fotogrammi | **3198,5 s = 53:18 · 95 955 fotogrammi = durata × 30** (prima 3096,97 s: +119 s di mappa, −17 s di silenzi e code); ogni pezzo ha i fotogrammi del piano (46/46) |
+| Durata / fotogrammi | **3198,5 s = 53:18 · 95 955 fotogrammi = durata × 30** (prima 3096,97 s: +119 s di mappa, −17 s di silenzi e code); ogni pezzo ha i fotogrammi del piano (46/46, controllati uno per uno) |
 | Peso | 394,0 MB (< 400 MB) |
 | Volume | −16,8 LUFS integrato, LRA 6,8 LU |
 | Picco | **−2,3 dBFS** (≤ −1 dBTP chiesto). Nella prima codifica un punto (4:14) superava 0 dBFS dopo l'AAC: aggiunto limitatore e −1 dB |
@@ -76,9 +76,10 @@ Zip `Lez17_ingrandita.zip`: pagine 703, 704, 707, 715, 719, 720, 729, 735. Tagli
 | Fratelli | 729 | Lez17_p729.png · fettine 1-2 | 32:11 / 32:25 | 1,45 / 1,37 |
 | Ed è subito sera | 735 | Lez17_p735.png | 46:17 e 46:49 | 1,45 |
 Limite: **In memoria (p703) è a scala 0,89–1,06**: il testo del libro in quella pagina è piccolo; interlinea sullo schermo ≈ 50–58 px (stima), altezza dei caratteri ≈ 30 px, al limite del chiesto (≥ 26–30 px). **Controllare a vista.**
+**Controllo fettine (regola 15:00):** `controllo_fettine.jpg` = un fotogramma per ognuna delle 16 fettine nel video finale. Nel primo controllo avevo trovato 5 difetti (riga «digrignata» tagliata in Veglia 1; «albergo» tagliato in In memoria 3; residui della citazione sotto San Martino 3, Soldati e Fratelli 2): **corretti** e ricontrollati, ora tutte le righe sono intere, solo la colonna del brano, tagli su righe bianche.
 
 ## 6. Sottotitoli, PDF, mappe, file
-- **Sottotitoli** `Letteratura_Lez17_Parte1.vtt`: 808 cue, max 2 righe, max 49 caratteri a riga (**misurato**). Rifatti dalla trascrizione (Parakeet, parola per parola), con dizionario di correzioni (Ungaretti, Moammed Sceab, Apollinaire, Ermetismo, antifrastico, veggente, Quasimodo, Luzi, Ivry, Cima Quattro, scarnificazione…) e le poesie lette riscritte col **testo esatto del libro**. Le voci narranti usano il testo esatto delle voci. Eliminati gli intercalari («um», «mm»). Tempi dalla trascrizione, allineati ±0,3 s (**stima**, non misurata sull'audio); i tempi del parlato del prof non sono cambiati rispetto al video vecchio.
+- **Sottotitoli** `Letteratura_Lez17_Parte1.vtt`: 836 cue (compresa la voce della mappa), max 2 righe, max 49 caratteri a riga (**misurato**). Rifatti dalla trascrizione (Parakeet, parola per parola), con dizionario di correzioni (Ungaretti, Moammed Sceab, Apollinaire, Ermetismo, antifrastico, veggente, Quasimodo, Luzi, Ivry, Cima Quattro, scarnificazione…) e le poesie lette riscritte col **testo esatto del libro**. Le voci narranti usano il testo esatto delle voci. Eliminati gli intercalari («um», «mm»). Tempi dalla trascrizione, allineati ±0,3 s (**stima**, non misurata sull'audio); i tempi del parlato del prof non sono cambiati rispetto al video vecchio.
 - **PDF slide** `Letteratura_Lez17_slide.pdf`: 69 pagine A4 orizzontale, senza riquadro e senza fascia; una pagina per slide (le slide con più fettine del libro hanno una pagina per fettina; i passaggi di evidenziazione sono la stessa pagina senza evidenziazione).
 - **PDF mappe** `Letteratura_Lez17_mappe.pdf`: 1 pagina A4 orizzontale, **mappa del prof** (PDF «LEZIONE 17») impaginata nel modello `Modello_mappe_BES` (livelli 0–3), contenuto identico; tolti logo e QR di mappe-scuola.com, il ritratto, la copertina dei libri e il facsimile. **Nel video** (49:52, 119 s) con la voce `MAP1` (testo derivato dalla mappa, nessuna aggiunta; trascrizione della voce: somiglianza 0,94 col testo; **pronuncia non ascoltata**).
 - **Quiz** `quiz_argomenti.json` / `Quiz_Letteratura_Lez17.txt`: 6 quiz × 5 domande, riletti contro le slide e il parlato del prof: coerenti e con una sola risposta giusta. Invariati.
@@ -94,7 +95,7 @@ Nella mappa ho lasciato i dati del prof.
 ## 8. Cosa NON ho verificato / limiti
 - **Ascolto umano:** non ho ascoltato fruscio, ronzio, «metallico» dopo la pulizia, né la pronuncia delle voci Kore (nomi: Moammed Sceab, Apollinaire, Isonzo…). **Non verificato.**
 - **Sincronia labbra:** audio e video dell'originale usano lo stesso offset, ritagliati con lo stesso `-ss` (stessa sorgente). Verifica indipendente sul movimento della bocca: **non fatta**.
-- **Sottotitoli:** il testo è stato corretto con dizionario e per le poesie, **non riletto cue per cue** (808 cue). Restano probabili errori nel parlato a braccio; passaggi poco comprensibili nella trascrizione sono stati lasciati o ridotti (es. circa 3:25 «che cosa succedeva?», circa 4:10 «Nella less… quartiere italiano»). **Da rileggere.**
+- **Sottotitoli:** il testo è stato corretto con dizionario e per le poesie, **non riletto cue per cue** (836 cue (compresa la voce della mappa)). Restano probabili errori nel parlato a braccio; passaggi poco comprensibili nella trascrizione sono stati lasciati o ridotti (es. circa 3:25 «che cosa succedeva?», circa 4:10 «Nella less… quartiere italiano»). **Da rileggere.**
 - **Stato:** inviato con `stato.py` (symlink `/home/claude/lezioni`); stato finale `REVISIONATA` alla consegna.
 - **Pagina della lezione:** `quiz_argomenti.json` non contiene secondi; i secondi nuovi sono in `scheda_pubblicazione.json` e `timeline.json`.
 - **Evidenziazioni e fettine:** calcolate dalla trascrizione, ±2 s (**stima**): da controllare in almeno 4 punti da chi guarda.
