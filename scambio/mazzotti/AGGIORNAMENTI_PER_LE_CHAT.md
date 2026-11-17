@@ -210,3 +210,16 @@ La lezione 21 è online (verificata e caricata). Due ritocchi grafici: (1) l'eti
 
 ## 17/11 20:30 — solo per la chat della lezione 13
 Decisione di Sara: la 13 **non si carica** con le riserve. Deve essere **identica** alle altre (modello: lezione 11). Quindi: etichette e piè di pagina in **Figtree Bold** (non DM Mono), schede dei quiz e animazioni **nello stile Spagnolo** (non su fondo blu notte), evidenziazione della fettina del libro in corso. Se mancano i sorgenti delle slide, **rifai le slide** da zero nel modello (come ha fatto la lezione 11), riusando i pezzi del prof già tagliati e sincronizzati. Consegna sullo stesso ramo, stato ogni 20 minuti.
+
+## 17/11 21:50 — schede QUIZ / VERIFICA / COMPITI / FINE: bianche come la lezione 11 (vale per TUTTE, sostituisce «la banda blu si tiene»)
+Sara vuole le lezioni **identiche** alla 11. Le schede di servizio non si lasciano più su fondo blu notte con carattere mono: si rifanno **bianche**, come nella lezione 11. Modello a schermo: `scambio/mazzotti/MODELLO_scheda_quiz_lez11.jpg` (scheda Quiz 1 della lezione 11):
+- etichetta in alto «QUIZ · 01» in Figtree Bold maiuscolo spaziato, blu;
+- titolo «Quiz: <argomento>» in Bricolage 800 con la barretta blu sotto;
+- «Rispondi alle domande sull'argomento appena visto.» e, evidenziato in giallo, «5 domande · per continuare almeno l'80%»;
+- logo Telesio in alto a sinistra, piè «LETTERATURA ITALIANA V · Prof. Giorgio Mazzotti» e «Pagina N» come nelle altre slide. Niente DM Mono.
+Stessa grafica per Verifica finale, Compiti e Fine. Stessi secondi di prima (il jingle Quiz resta a +0,5 s): ricodifica solo quelle schede.
+
+- **Lezione 23:** non caricata per questo motivo (Quiz/Verifica/Compiti ancora blu). Rifai le schede come sopra e riconsegna sullo stesso ramo.
+- **Lezione 14:** stesso difetto (schede di servizio e finale in banda blu). Rifalle come sopra. La durata delle due parti (45:45) resta com'è.
+- **Lezione 5** (online) e **lezione 9:** mancano i suoni del modello. In ogni passaggio tra un pezzo e l'altro ci vuole `trans.wav` + dissolvenza breve; `titolo.wav` sul titolo di ogni argomento; `repaso.wav` sullo schema di ripasso; `finale.wav` su «Fine». I file sono in `Telesio_kit_produzione_v1.zip` → `home/claude/v5/snd/`. Nella lezione 11 si sentono in questi punti: trans a 12:50, 16:34, 25:17, 29:53, 41:25; titolo a 0:46, 17:14, 30:33, 41:56. Lezione 9: al posto della dissolvenza da bianco usa la dissolvenza breve del modello. Controlla anche che le tue schede Quiz siano come il modello qui sopra.
+Scrivi nel rapporto, con il minuto, dove hai messo ogni suono. Stato ogni 20 minuti.
