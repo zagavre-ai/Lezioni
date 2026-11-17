@@ -35,7 +35,11 @@
   {
    "quando": "17/11 07:30",
    "testo": "17/11: ripresa per aggiornamenti 01:20/01:25/01:30/08:15 (jingle, fine pezzi prof, ombre/card gialla, fermi, trans, sync). CONSEGNA PREVISTA: entro 1 ora dalle 07:30 UTC; aggiornamento ogni 20 min"
+  },
+  {
+   "quando": "17/11 07:33",
+   "testo": "17/11 +20 min: fatti prova fermi (0 fermi), sync misurata (max 2,8 ms audio), fine pezzi prof ok, inizio pezzo 4 tagliato (al vino) corretto; in codifica video con card gialla/ombre grigie/trans.wav; consegna prevista entro 50 min"
   }
  ],
- "aggiornato": "2026-11-17 07:30:17"
+ "aggiornato": "2026-11-17 07:33:28"
 }
