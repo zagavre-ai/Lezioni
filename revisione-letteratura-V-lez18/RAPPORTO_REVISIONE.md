@@ -11,7 +11,7 @@ Etichette: **misurato** = misurato con uno strumento; **stima** = dedotto; **non
 | Volume | −16,4 LUFS integrato, LRA 6,5 LU; picco campioni −2,2 dBFS (**misurato**). Il true peak non l'ho letto separatamente (**non verificato**; con il picco a −2,2 dBFS è molto probabilmente ≤ −1 dBTP). Prima della correzione era −15,0 LUFS e −0,9 dBFS: abbassato di 1,4 dB |
 | Jingle dei quiz (`controllo_jingle.py`) | Q1…Q6: scarto **0,000 s** (OK, **misurato**); prima della correzione −0,16…−0,21 s (spostato) |
 | Sincronia labbra/voce | audio del video contro originale, 5 punti per pezzo del prof, D0…D6: scarto **−0,015 s** in tutti (≤ 0,04, **misurato**; video e audio vengono dallo stesso file originale) |
-| Fermi immagine del prof | misura `freezedetect` sul riquadro: vedi sotto (**in corso al momento della consegna del rapporto: non verificato**); il riquadro è sempre video vivo (mai fermo immagine, copertina compresa) per costruzione |
+| Fermi immagine del prof | `freezedetect` (n=−55 dB, d=1 s) sul riquadro, tutto il video: 79 tratti fermi, **nessuno dentro un pezzo del prof** (gli unici due che sfiorano D0 e D2 sono i cartelli senza prof, a 15:00–45:00 s e 478–483 s: sovrapposizione 0,0 s). Il riquadro compare solo con video vivo: la copertina durante la voce di benvenuto non ha riquadro (**misurato**) |
 | PDF | slide: **74 pagine** A4 orizzontale (una per slide del video; numerazione = «Pagina N» del video); mappe: 1 pagina |
 | Confronto PDF/video | pagine = slide del video senza riquadro e fascia (stessi file HTML): confronto fatto su 12 pagine a vista; non su tutte (**non verificato**) |
 
@@ -104,7 +104,6 @@ Aggiornati `scheda_pubblicazione.json`, `timeline.json`, `testo_youtube.txt`. **
 - **Ascolto umano** (fruscio/ronzio/metallico dopo la pulizia): non ascoltato. **Non verificato.**
 - **Pronuncia della voce Kore** nelle voci nuove (R1…R6, RF): controllata solo con la trascrizione automatica, che segna «Contarla» (R3, prima versione), «Rusilla» (R6b, per «Drusilla»), «Primerla» (R3b) e «VAR» (R4): sono molto probabilmente errori del riconoscimento, ma **da riascoltare**: R3b a 30:07, R6b a 48:22, R4b a 35:57. Nelle vecchie voci S1/S6 «Viessò» (Vieusseux) da riascoltare.
 - **Sottotitoli:** riscritti dalla trascrizione (prof) e dai testi veri (voce Kore), poesie dal libro; tempi proporzionali alle strofe (**stima**, ±1–2 s nelle poesie). Parole non decifrabili lasciate come sono: «anche Insha» (≈ 38:03), «Allora i» (≈ 38:14), «Il poeta si rivendica» (≈ 38:23), passaggio sulle rime di *Meriggiare* (≈ 17:30). **Non riletti cue per cue.**
-- **Fermi immagine** del riquadro: vedi §1 (non verificato in questa versione).
 - **Testa tagliata:** nell'originale la webcam è 243×139 px e i capelli toccano il bordo alto in molti punti (es. 1:30, 3:20, 14:10 dell'originale): non risolvibile. Webcam ingrandita 2,2× (immagine morbida).
 - **Foto di Montale** (1:14 orig.): vedi §8.
 - **Didascalia «DAL LIBRO…»** nelle fettine alte (strofa 4 di *I limoni*, 16:53) tocca il bordo basso del riquadro giallo: difetto minore **non corretto**.
