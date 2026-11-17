@@ -47,7 +47,11 @@
   {
    "quando": "17/11 17:22",
    "testo": "aggiornamento 20 min: rifatti D1-D4 con taglio esatto al fotogramma, manca D5, poi assemblaggio, misure e consegna. Consegna prevista 11:05"
+  },
+  {
+   "quando": "17/11 17:43",
+   "testo": "aggiornamento 20 min: video definitivo 51:38 con jingle, transizioni, silenzi >3 s tolti, sync prof misurata (audio 0,0001 s, video 0 fotogrammi). In corso: sottotitoli finali, controlli, rapporto, push. Consegna prevista 11:05"
   }
  ],
- "aggiornato": "2026-11-17 17:22:25"
+ "aggiornato": "2026-11-17 17:43:30"
 }
