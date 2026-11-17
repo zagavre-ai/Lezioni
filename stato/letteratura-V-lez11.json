@@ -2,7 +2,7 @@
  "tag": "letteratura-V-lez11",
  "parti": {
   "1": {
-   "stato": "REVISIONATA",
+   "stato": "IN_REVISIONE",
    "video": "Letteratura_Lez11_Parte1_1080p.mp4",
    "durata_s": 3100.4,
    "durata": "51:40.4",
@@ -22,7 +22,11 @@
   {
    "quando": "16/11 19:53",
    "testo": "REVISIONATA: ramo revisione-letteratura-V-lez11, vedi RAPPORTO_REVISIONE.md"
+  },
+  {
+   "quando": "17/11 07:29",
+   "testo": "Consegna prevista: entro 60 min (17/11). In corso: jingle, transizioni, card in corso gialla, prof mai tagliato a meta' frase, sync. Aggiorno ogni 20 min."
   }
  ],
- "aggiornato": "2026-11-16 19:53:11"
+ "aggiornato": "2026-11-17 07:29:45"
 }
