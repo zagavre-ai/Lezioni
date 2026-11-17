@@ -9,6 +9,15 @@
    "fotogrammi": 96918,
    "fotogrammi_attesi": 96918,
    "peso_MB": 220.8
+  },
+  "2": {
+   "stato": "IN_REVISIONE",
+   "video": "Letteratura_Lez9_Parte2_1080p.mp4",
+   "durata_s": 3216.2,
+   "durata": "53:36.2",
+   "fotogrammi": 96485,
+   "fotogrammi_attesi": 96485,
+   "peso_MB": 262.4
   }
  },
  "manca": "",
@@ -50,7 +59,11 @@
   {
    "quando": "17/11 17:39",
    "testo": "REVISIONATA con limiti (vedi RAPPORTO §5): P1 53:50,6 / P2 53:36,2; sottotitoli del prof non riletti; transizioni solo dissolvenza da bianco; voci R non ascoltate"
+  },
+  {
+   "quando": "17/11 17:39",
+   "testo": "consegnata sul ramo revisione-letteratura-V-lez09 (rapporto v2)"
   }
  ],
- "aggiornato": "2026-11-17 17:39:30"
+ "aggiornato": "2026-11-17 17:39:33"
 }
