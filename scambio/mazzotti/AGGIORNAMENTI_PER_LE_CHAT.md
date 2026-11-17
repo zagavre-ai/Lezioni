@@ -198,3 +198,6 @@ La 22 è stata respinta: riquadro del prof con **immagine ferma** nella presenta
 
 ## 17/11 ore 08:45 (ora italiana) · PRONUNCIA: «Aracoeli» si legge «Aracèli» (Sara)
 È latino: «Aracoeli» (romanzo di Elsa Morante) si pronuncia **«Aracèli»**. Nei testi per la voce Kore (`testi_voci.json`) scrivi **«Aracèli»** così Kore lo dice giusto; sullo schermo e nei sottotitoli resta scritto **«Aracoeli»**. Stessa regola per ogni nome latino o straniero: nel testo della voce si scrive come si pronuncia, a schermo come si scrive. Ascolta ogni voce nuova che contiene nomi propri e rigenerala (R…) se è sbagliata.
+
+## 17/11 09:27 — solo per la chat della lezione 15
+La lezione 15 è online (verificata e caricata alle 09:10). Resta un difetto: la **copertina iniziale** (fotogramma a 25 s) ha ancora etichetta e piè di pagina in DM Mono. Rifai solo la copertina in Figtree Bold come nel resto della lezione, ricodifica il pezzo, ricontrolla sha e sync, e consegna sullo stesso ramo `revisione-letteratura-V-lez15`. Nient'altro da cambiare.
