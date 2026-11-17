@@ -1,6 +1,18 @@
 {
  "tag": "letteratura-V-lez14",
- "parti": {},
+ "parti": {
+  "1": {
+   "titolo": "Pirandello · Parte 1",
+   "stato": "IN_MONTAGGIO",
+   "video": "finale.mp4",
+   "durata_s": 2745.4,
+   "durata": "45:45.4",
+   "fotogrammi": 82363,
+   "fotogrammi_attesi": 82363,
+   "peso_MB": 327.3,
+   "vtt": "Letteratura_Lez14_Parte1.vtt"
+  }
+ },
  "manca": "controlli finali, rapporto, push",
  "serve_master": [
   {
@@ -21,7 +33,11 @@
   {
    "quando": "17/11 08:06",
    "testo": "17/11 08:10: video nuovi assemblati (P1 45:45, P2 45:46, sotto i 50 min: da decidere). Jingle quiz a 0,0 s OK, titolo/ripasso/trans presenti, sync audio 0,5 ms. Confini prof su fine frase. Mappa del prof + R1 nella Parte 2. NON rifatti: approfondimenti/pillole/glossario/riepilogo (vecchia grafica). Consegna sul ramo tra ~15 min."
+  },
+  {
+   "quando": "17/11 08:16",
+   "testo": "17/11 08:25 REVISIONATA CON RISERVE: consegnato sul ramo revisione-letteratura-V-lez14. Durate P1 45:45 / P2 45:46 (sotto 50 min). Restano nella vecchia grafica approfondimenti/pillole/glossario/riepilogo. Vedi RAPPORTO_REVISIONE.md sez. 5."
   }
  ],
- "aggiornato": "2026-11-17 08:06:44"
+ "aggiornato": "2026-11-17 08:16:02"
 }
