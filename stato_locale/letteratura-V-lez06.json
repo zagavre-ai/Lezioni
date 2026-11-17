@@ -1,0 +1,46 @@
+{
+ "tag": "letteratura-V-lez06",
+ "parti": {
+  "1": {
+   "stato": "IN_REVISIONE"
+  }
+ },
+ "manca": "",
+ "serve_master": [],
+ "domande_sara": [],
+ "note": [
+  {
+   "quando": "16/11 18:12",
+   "testo": "chat revisione 6"
+  },
+  {
+   "quando": "16/11 23:24",
+   "testo": "consegna prevista 04:30 (ora italiana, 17/11); aggiorno ogni 20 min"
+  },
+  {
+   "quando": "16/11 23:25",
+   "testo": "20min: scaricato tutto, sha ok, trascrizione in corso, piano: rifaccio tutto nel modello Spagnolo a stessa durata. consegna prevista 04:30"
+  },
+  {
+   "quando": "16/11 23:34",
+   "testo": "ora circa 00:55 IT: modello grafico pronto (slide, riquadro 4:3, fascia). offset prof/originale misurati. richieste voci R6-R11 (mappa del prof) pushate. attendo trascrizione. consegna prevista 04:30"
+  },
+  {
+   "quando": "16/11 23:48",
+   "testo": "trascrizione fatta (originale + video vecchio, voci Kore lette bene: 0,76-1,00 di corrispondenza col testo). rifacimento: modello Spagnolo pronto, riquadro 4:3 e pezzi del prof in codifica, ora i pezzi con la voce. consegna prevista 04:30"
+  },
+  {
+   "quando": "16/11 23:52",
+   "testo": "voci nuove R6-R11 (mappa del prof) ricevute e misurate: entrano negli slot. pezzi nuovi in codifica (prof 4:3, voce, mappe, quiz). poi montaggio, sottotitoli, PDF, rapporto. consegna prevista 04:30"
+  },
+  {
+   "quando": "17/11 00:00",
+   "testo": "pezzi narrati, schede, mappe, sigle pronti; pezzi del prof D2 e D3 pronti, D1 D4 D5 in codifica. poi: montaggio finale, volume/picco, PDF, vtt (corretto a mano), rapporto. consegna prevista 04:30"
+  },
+  {
+   "quando": "17/11 00:06",
+   "testo": "pezzi del prof D3 pronto, D1 D2 D4 D5 e schede ricodificati dopo ultime correzioni (numerazione pagine, fettina francese). PDF mappe pronto, vtt rifatto (794 cue, riletto). consegna prevista 04:30"
+  }
+ ],
+ "aggiornato": "2026-11-17 00:06:26"
+}
