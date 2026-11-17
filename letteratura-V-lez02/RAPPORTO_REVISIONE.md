@@ -1,5 +1,5 @@
 # RAPPORTO DI REVISIONE · Letteratura italiana V · Lezione 2 · La Scapigliatura
-**Consegna 17/11/2026 · stato: REVISIONATA (con i limiti scritti in §5)** · ogni dato è etichettato *misurato* / *stima* / *non verificato*.
+**Consegna 17/11/2026 (seconda versione, 17:45) · stato: REVISIONATA (con i limiti scritti in §5)** · ogni dato è etichettato *misurato* / *stima* / *non verificato*.
 
 ## 1. Misure sul video nuovo (`Letteratura_Lez2_Parte1_1080p.mp4`)
 | Voce | Valore | Tipo |
@@ -8,10 +8,11 @@
 | Vecchio video | 59:17,1 · 106 712 fotogrammi (la durata è cambiata: vedi §3, tabella secondi) | misurato |
 | Volume | integrato −15,2 LUFS (include sigle e jingle); parlato del prof −16,0 LUFS sul file pulito (catena kit: aresample 48000, highpass 80, arnndn `sh.rnnn`, loudnorm −16); voci Kore portate a −16 LUFS | misurato |
 | Picco reale | **−1,2 dBTP** (limite −1) | misurato |
-| Jingle Quiz (`controllo_jingle.py`, `quiz.wav`) | 7/7 a +0,005 s dall'inizio scheda + 0,5 s: OK | misurato |
+| Jingle Quiz (`controllo_jingle.py`, `quiz.wav`) | 7/7 a +0,005 s (rifatto sul file finale) dall'inizio scheda + 0,5 s: OK | misurato |
 | Altri jingle del kit | `titolo.wav` su ogni titolo di argomento (già presente), `repaso.wav` su ogni ripasso (**aggiunto**, mancava), `finale.wav` su «Fine della lezione» (**aggiunto**), schede Verifica/Compiti con jingle (**aggiunto**) | misurato (correlazione) |
-| Silenzi > 3 s | **2 residui**: ≈ 3009–3012 s (fine Quiz 7 → glossario) e ≈ 3310 s (fine lezione); gli altri silenzi sono < 3 s | misurato · NON corretti |
-| Fermo immagine del riquadro del prof ≥ 1 s (`freezedetect` sul riquadro) | **nessuno** dentro i pezzi del prof | misurato |
+| Silenzi > 3 s | **nessuno** (`silencedetect` −45 dB, 3 s); i più lunghi sono ≈ 2,9 s dopo il jingle di titoli e Quiz | misurato |
+| Fermo immagine del riquadro del prof ≥ 1 s (`freezedetect` sul riquadro) | **nessuno** dentro i pezzi del prof (rifatto anche dopo la seconda passata su D3, D4, D5) | misurato |
+| **Sincronia audio/video dei pezzi del prof** (correlazione audio del file finale con l'originale; scarto dei fotogrammi del riquadro con la webcam originale; 5 punti per pezzo) | audio **−20 ms** costanti (ritardo di codifica AAC), video **0 ms** su D1–D7: massimo 20 ms (limite 40 ms) | misurato |
 | Sottotitoli | 934 blocchi, nessuna sovrapposizione, tempi dalla trascrizione Parakeet; testo del docente da trascrizione automatica con correzioni di nomi | misurato / **non riletti per intero** |
 
 ## 2. Confronto col modello Spagnolo (punto 000)
@@ -37,7 +38,7 @@
 | tutte le slide | visivo | modello diverso da Spagnolo (fondo grigio, barretta gialla, etichetta senza «0N ·») | rifatte nel modello |
 | fine D5 (orig. 1324 s) | audio | pezzo del prof tagliato a metà frase («…preludio di Emilio» / «Prague») | fine spostata dopo la frase |
 | fine D6 (orig. 1816 s) | audio | tagliato a metà frase («…la noia e»…) | fine spostata a 1820,74 s dell'originale |
-| fine D4 (orig. 1223 s) | audio | fine di «…a leggere» sul bordo | spostata in una pausa (1223,41 s) |
+| fine D4 (orig. 1223 s) | audio | fine di «…a leggere» sul bordo | spostata dopo «…almeno alcune di queste.» (1226,58 s) |
 | 58:51–59:17 | visivo+audio | finale con «GRAZIE PER L'ATTENZI» tagliato, senza logo, 8 s di silenzio | sigla finale del kit |
 | 3300 s e dintorni | audio | schede Verifica/Compiti e ripasso senza jingle | jingle aggiunti |
 | Preludio/Dualismo | pagina | pagina intera rimpicciolita, riga tagliata in fondo | 26 fettine dagli screen HD (vedi §4) |
@@ -50,8 +51,8 @@
 |---|---|---|
 | Q1 | 529.1 | 491.0 |
 | Q2 | 740.5 | 668.5 |
-| Q3 | 1133.9 | 1013.1 |
-| Q4 | 1710.2 | 1541.9 |
+| Q3 | 1133.9 | 1028.9 |
+| Q4 | 1710.2 | 1545.1 |
 | Q5 | 1896.4 | 1696.8 |
 | Q6 | 2570.7 | 2332.6 |
 | Q7 | 3295.6 | 3006.8 |
@@ -63,13 +64,13 @@
 |---|---|---|---|---|---|
 | D1 | 0:50.8 | Buongiorno e benvenuti alla lezione sulla | 7:10.3 | organizzato. con manifestazioni teoriche o manifesti codificati. | sì |
 | D2 | 8:20.0 | Tra un bel po' di lezioni, | 10:19.3 | tra gli autori, i bersagli della polemica. | sì |
-| D3 | 11:17.5 | Ecco, proviamo a parlare di questo | 15:59.6 | solo. Per soffertire la forma... poetica tradizionale. | sì |
-| D4 | 17:02.1 | e colpire i lettori borghesi che | 24:24.6 | opere, e ovviamente le andiamo a leggere. | sì |
-| D5 | 25:50.9 | almeno alcune di queste. Allora, parliamo | 27:32.3 | mistero. Vediamo quindi preludio di Emilio Prague. | sì |
+| D3 | 11:17.5 | Ecco, proviamo a parlare di questo | 16:15.3 | sempre uguali, a leggere cose sempre tranquille. | sì |
+| D4 | 17:17.9 | Noi vogliom la barriera, ecco, capite | 24:27.8 | andiamo a leggere. almeno alcune di queste. | sì |
+| D5 | 25:54.1 | Allora, parliamo di Emilio Praga, come | 27:32.3 | mistero. Vediamo quindi preludio di Emilio Prague. | sì |
 | D6 | 28:25.8 | Allora, questa è, come potete vedere, | 36:41.8 | disperazione, e torna ovviamente su questo Podler. | sì |
 | D7 | 39:01.6 | Arrigo Boito, dualismo. Come vedete, 1863, | 47:59.8 | e lo capite anche voi. a risolversi. | sì |
 
-**Attenzione (difetto residuo):** in due punti il taglio cade su un punto fermo ma la frase del prof continua nel pezzo dopo: fine D3 («…poetica tradizionale.» → D4 «e colpire i lettori borghesi…») e fine D4 («…le andiamo a leggere.» → D5 «almeno alcune di queste…»). Parole non mozzate, ma la frase è spezzata su due pezzi. Da sistemare spostando i tagli di 4–6 s.
+**Tagli corretti:** tutti i pezzi del prof finiscono e iniziano a frase finita. In una seconda passata ho spostato i tagli D3/D4 (796,66 s dell'originale, dopo «…cose sempre tranquille.») e D4/D5 (1226,58 s, dopo «…almeno alcune di queste.»); i tagli D1/D2, D2/D3, D5/D6 (dopo «Emilio Prague.») e D6/D7 (dopo «…questo Podler.») cadono già in una pausa (energia minima). Nei primi secondi di D3 e D4 le slide mostrano ancora quella del tema precedente finché il prof non passa al nuovo.
 
 ## 4. Pagine del libro in HD (fettine)
 Sorgente: `Lez02_ingrandita.1.zip` → `Lez02/screen/Lez02_p038, 039, 041, 042, 043, 044.png`. Ogni fettina inizia e finisce su una riga bianca, prende solo la colonna del brano, senza intestazioni, numeri di pagina o riquadri; il rigo è ≈ 26 px o più a 1080p (scala ≥ 1,16 sulla sorgente HD). Le note a piè di pagina non sono state mostrate (spiegate dagli approfondimenti con voce). Foglio dei fotogrammi: `controllo_fettine.jpg` (un fotogramma a metà intervallo per ogni fettina, controllati a vista: nessuna riga tagliata).
@@ -114,13 +115,12 @@ Sorgente: `Lez02_ingrandita.1.zip` → `Lez02/screen/Lez02_p038, 039, 041, 042, 
 ## 5. Cosa NON ho verificato / limiti noti
 - **Ascolto**: nessun ascolto umano. Pronuncia delle voci Kore controllata solo confrontando la trascrizione automatica col testo: da ascoltare «Manzonismo» (resa «mansonismo» in S3 e glossario), «Igino Ugo» (resa «Gino Ugo» in R5/S5/riepilogo), «svolazziam» (approfondimento Preludio). Non ho rigenerato voci.
 - **Rumore** del prof (fruscio/ronzio/metallico): applicata la catena del kit ma non ascoltata.
-- **Sincronia labbra/voce**: video e audio del prof sono presi dallo stesso istante dell'originale (stesso offset): costruzione, non misura sul file finale. Scarto non misurato con correlazione sul video finale.
+- **Sincronia labbra/voce**: misurata con la correlazione (audio −20 ms, video 0 ms); non ho guardato le labbra a occhio.
 - **Evidenziazioni** (card in corso): tempi dalla trascrizione ma con sovrapposizioni stimate: *stima* ±1,5 s; per ripassi/schemi/glossario/riepilogo i tempi sono corretti sullo scarto medio (*stima*).
 - **Testo delle slide**: preso dal pptx del prof (nessun OCR del video finale). Sottotitoli non riletti per intero; possibili errori residui di nomi.
 - **Webcam**: 244×138 px nell'originale, ingrandita ×2,24: morbida; in alcuni punti la testa tocca il bordo alto già nell'originale (es. orig. 100 s, 1700 s).
 - **Mappa del prof nel video**: schermata fissa di 108 s con voce RM1 (nessuna comparsa progressiva dei nodi). Una sola mappa per lezione (il prof non ne ha mandata una per argomento).
 - **Dissolvenze**: 0,2 s verso il bianco su ogni giunzione; `trans.wav` usato solo sulla scheda Compiti. Non c'è un effetto sonoro di transizione tra tutti i pezzi.
-- Silenzi > 3 s residui (§1) e frasi del prof spezzate tra D3/D4 e D4/D5 (§3).
 - Slide extra «Avanguardia e ritardo italiano» (D4, 1077–1223 s dell'originale): il prof parla di cose che non sono sulle sue slide; schede scritte con le sue parole.
 
 ## DA CONFERMARE COL PROF
