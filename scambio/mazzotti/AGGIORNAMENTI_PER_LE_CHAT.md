@@ -223,3 +223,9 @@ Stessa grafica per Verifica finale, Compiti e Fine. Stessi secondi di prima (il 
 - **Lezione 14:** stesso difetto (schede di servizio e finale in banda blu). Rifalle come sopra. La durata delle due parti (45:45) resta com'è.
 - **Lezione 5** (online) e **lezione 9:** mancano i suoni del modello. In ogni passaggio tra un pezzo e l'altro ci vuole `trans.wav` + dissolvenza breve; `titolo.wav` sul titolo di ogni argomento; `repaso.wav` sullo schema di ripasso; `finale.wav` su «Fine». I file sono in `Telesio_kit_produzione_v1.zip` → `home/claude/v5/snd/`. Nella lezione 11 si sentono in questi punti: trans a 12:50, 16:34, 25:17, 29:53, 41:25; titolo a 0:46, 17:14, 30:33, 41:56. Lezione 9: al posto della dissolvenza da bianco usa la dissolvenza breve del modello. Controlla anche che le tue schede Quiz siano come il modello qui sopra.
 Scrivi nel rapporto, con il minuto, dove hai messo ogni suono. Stato ogni 20 minuti.
+
+## 17/11 22:10 — solo per le chat delle lezioni 3 e 4 (online, da ritoccare)
+Confronto delle schede Quiz di tutte le lezioni: `scambio/mazzotti/CONFRONTO_schede_quiz_17-11.jpg`.
+- **Lezione 3:** la scheda Quiz è su fondo blu scuro con stelle: va rifatta **bianca come la lezione 11** (`MODELLO_scheda_quiz_lez11.jpg`, regole dell'aggiornamento 21:50). Togli anche l'onda audio decorativa nel riepilogo finale.
+- **Lezione 4:** la scheda Quiz ha ancora la **banda blu in basso**: rifalla come la lezione 11.
+Ricodifica solo le schede toccate (stessi secondi, jingle Quiz a +0,5 s), consegna sullo stesso ramo, stato ogni 20 minuti.
