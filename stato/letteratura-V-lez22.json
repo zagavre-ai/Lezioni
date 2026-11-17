@@ -39,7 +39,11 @@
   {
    "quando": "17/11 07:50",
    "testo": "aggiornamento: rimonto con jingle, transizioni a 0,8 s con trans.wav, intro senza riquadro, sincronia prof misurata (audio +20 ms filtro, video -1 fotogramma su D2/D5: correggo), Aracèli: voci RA01-RA09 richieste alla master. Consegna prevista 11:05 (ora italiana)"
+  },
+  {
+   "quando": "17/11 08:29",
+   "testo": "aggiornamento: audio prof misurato 0,0001 s dall'originale; video in anticipo di 1-2 fotogrammi (0,03-0,07 s): rifaccio i 5 pezzi con taglio esatto al fotogramma. Voci Aracèli arrivate e montate. Consegna prevista 11:05"
   }
  ],
- "aggiornato": "2026-11-17 07:50:47"
+ "aggiornato": "2026-11-17 08:29:52"
 }
