@@ -64,13 +64,30 @@ La lezione consegnata (58:23, v2 del 15/11) **non è conforme al modello Spagnol
 | Peso | 210,5 MB (200,7 MiB), 1920×1080, x264 veryfast CRF 19, AAC 192k |
 | Scatto quiz (controllo_jingle) | Q1–Q5 **+0,000 s** (OK) |
 | Fermi immagine nei pezzi del prof | nessuno |
-| Parlato del prof | mediana **−15,0 LUFS** (OK, ±2); catena del kit: 48 kHz, passa-alto 80, arnndn, loudnorm −16 a due passaggi, alimiter |
-| Sincronia audio prof | correlazione pezzo↔originale: scarto 15 ms (misurato su D2) |
-| Slide nel video = slide progettate | 67 confronti fotogramma↔slide, differenza media peggiore **3,55 su 255** (solo compressione) |
+| Parlato del prof | mediana **−16,1 LUFS** (OK, ±2); catena del kit: 48 kHz, passa-alto 80, arnndn, loudnorm −16 a due passaggi, alimiter |
+| **Picco audio (ebur128 peak, tutto il file)** | **−2,0 dBTP** (≤ −1, OK; prima −0,1) |
+| Sincronia audio prof (correlazione col file originale, 3 punti per pezzo) | D1–D5 **0,015 s** (D5 fino a 0,016) → **≤ 0,04 OK** |
+| Slide nel video = slide progettate | 67 confronti fotogramma↔slide, differenza media ≤ **3,7 su 255** (solo compressione; eccezione: la dissolvenza a nero del cartello Compiti) |
 | PDF slide | **33 pagine** A4 orizzontale, stesse pagine e stesso ordine delle slide del video, senza riquadro e senza nome; numerazione «Pagina N» uguale al video (**confronto fatto**; le schede senza contenuto — titoli argomento, quiz, verifica, compiti, sigle — non hanno numero né pagina) |
 | PDF mappe | 6 pagine A4 orizzontale (una per argomento + finale), mappa del prof con la nostra grafica |
 | Sottotitoli | 812 blocchi, 0 sovrapposti, 0 oltre la fine, max 2 righe; **357 cue del prof riletti e corretti a mano**, voci da copione. Verifica sulla trascrizione automatica del video finale: **94,6 %** dei blocchi ritrovati nella finestra ±0,8 s (misura grossolana, per segmento); il controllo del kit sull'attacco entro 0,3 s dà **50 % su 16 punti verificabili → non raggiunge la soglia**, quindi **lo segnalo: l'allineamento fine ±0,3 s non è dimostrato**. Non ho potuto riascoltare |
+| Font etichette (richiesta master 17/11) | «01 · ARGOMENTO», riga copertina e piè di pagina in **Figtree Bold maiuscolo spaziato** come `slide_1080p_esempio.png`, anche nel PDF slide (rifatto) |
+| Titolo copertina | «Cesare Pavese» (non più tutto maiuscolo) |
+| Card in corso | bordo giallo sottile, pallino numerato giallo, altre card con bordo grigio; ombre sempre grigie e morbide, anche nel PDF |
+| Jingle | `titolo.wav` sui titoli argomento, `repaso.wav` sui ripassi, `trans.wav` sugli approfondimenti, `quiz.wav` su Quiz 1–5 (scatto +0,000 s) e su Verifica; `titolo.wav` su Compiti: nessuna scheda in silenzio |
+| Transizioni | dissolvenza tra tutti i pezzi (bianco 0,35 s; da/verso nero 2 s per sigle) |
+| Prof mai fermo | `freezedetect` sui pezzi del prof: nessun fermo; il riquadro c'è solo dove il prof parla davvero (copertina con prof = video vivo; copertina con voce di benvenuto senza riquadro) |
 | Mai il numero della lezione nel video | OK (a vista sul foglio minuti) |
+
+### Inizio e fine di ogni pezzo del prof (aggiornamento 01:25)
+| Pezzo | Inizio | Fine: ultime parole | Frase finita |
+|---|---|---|---|
+| D1 | «Buongiorno e benvenuti alla lezione su…» | «…rapporto permanentemente difficile e tormentato con le figure femminili.» | **sì** |
+| D2 | «Dopo l'armistizio dell'8 settembre…» | «…con gli autori che abbiamo nel frattempo già visto, d'accordo?» | **sì** |
+| D3 | «Allora, addentrandoci nella sua poetica…» | «…metafore e da una profonda e dolorosa solitudine.» | **sì** |
+| D4 | «Ecco, vediamo invece di delineare i romanzi.» | «…l'ideale pavesiano di un sano equilibrio interiore e sociale.» | **sì** |
+| D5 | «Ma soprattutto, come dicevo, il capolavoro…» | «…fine della sua vita tramite appunto il suicidio.» | **sì** |
+(Parole dalla trascrizione con tempi di parola dell'originale; tagli nelle pause tra frasi, nessuna parola mozzata in partenza.)
 
 ## 6. Tabella di confronto col modello Spagnolo (punto 000)
 | # | Punto | Esito |
@@ -95,4 +112,4 @@ La lezione consegnata (58:23, v2 del 15/11) **non è conforme al modello Spagnol
 - Webcam del prof a bassa risoluzione ingrandita ×2,2.
 
 ## 8. Consegna
-Ramo `revisione-letteratura-V-lez21`: video a pezzi + sha256, `.vtt`, PDF slide, PDF mappe, quiz, verifica, compiti, scheda, testo YouTube, `controllo_minuti.jpg`, `timeline.json`. Durata misurata 57:23,3 → stato `REVISIONATA`. La master riguarda e sostituisce su Vimeo.
+Ramo `revisione-letteratura-V-lez21`: video a pezzi + sha256, `.vtt`, PDF slide, PDF mappe, quiz, verifica, compiti, scheda, testo YouTube, `controllo_minuti.jpg`, `timeline.json`. Durata misurata 57:23,3 (invariata), 103299 fotogrammi → stato `REVISIONATA`. La master riguarda e sostituisce su Vimeo.
