@@ -1,18 +1,14 @@
 {
  "tag": "letteratura-V-lez20",
- "parti": {
-  "1": {
-   "stato": "IN_REVISIONE"
-  }
- },
+ "parti": {},
  "manca": "",
  "serve_master": [],
  "domande_sara": [],
  "note": [
   {
-   "quando": "17/11 07:58",
-   "testo": "17/11 08:58: ripresa. Consegna prevista 09:55 (ora italiana): mappa del prof con voce R1, via silenzi>3s, jingle/transizioni, card gialle, tabelle fine/inizio pezzi del prof."
+   "quando": "17/11 08:02",
+   "testo": "17/11 09:20: R1 (voce mappa del prof) pushato su voci-letteratura-V-lez20: serve la voce dalla master. Build pezzi in corso. Consegna prevista 09:55."
   }
  ],
- "aggiornato": "2026-11-17 07:58:43"
+ "aggiornato": "2026-11-17 08:02:35"
 }
