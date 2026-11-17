@@ -53,7 +53,7 @@ for k,(n,f0,f1,f0old) in enumerate(pcs):
 open(f'{W}/list.txt','w').write(''.join(f"file '{s}'\n" for s in seq))
 sh(['ffmpeg','-v','error','-y','-f','concat','-safe','0','-i',f'{W}/list.txt','-c','copy',f'{W}/video.mp4'])
 # audio
-sh(['ffmpeg','-v','error','-y','-i',OLD,'-vn','-af','aresample=async=1:first_pts=0','-ac','2','-ar','48000','-c:a','pcm_s16le',f'{W}/old.wav'])
+sh(['ffmpeg','-v','error','-y','-i',OLD,'-vn','-af','aresample=async=1:min_hard_comp=0.005:first_pts=0','-ac','2','-ar','48000','-c:a','pcm_s16le',f'{W}/old.wav'])
 import wave
 w=wave.open(f'{W}/old.wav');N=w.getnframes();A=np.frombuffer(w.readframes(N),np.int16).reshape(-1,2).copy();w.close()
 w=wave.open('/tmp/w14/orig_clean.wav');C=np.frombuffer(w.readframes(w.getnframes()),np.int16);w.close()
