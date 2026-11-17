@@ -2,7 +2,14 @@
  "tag": "letteratura-V-lez10",
  "parti": {
   "1": {
-   "stato": "IN_REVISIONE"
+   "stato": "REVISIONATA",
+   "video": "Letteratura_Lez10_Parte1_1080p.mp4",
+   "durata_s": 3008.6,
+   "durata": "50:08.6",
+   "fotogrammi": 90257,
+   "fotogrammi_attesi": 90257,
+   "peso_MB": 342.0,
+   "vtt": "Letteratura_Lez10_Parte1.vtt"
   }
  },
  "manca": "",
@@ -20,10 +27,14 @@
   {
    "quando": "17/11 20:45",
    "testo": "20:46 slide, sottotitoli, quiz, PDF pronti; montaggio video in codifica (perso 30 min per problema memoria, risolto); consegna prevista entro 21:30"
+  },
+  {
+   "quando": "17/11 21:17",
+   "testo": "REVISIONATA 21:18 · 50:08,6 · 90257 fotogrammi · -16,0 LUFS · picco -2,0 dBTP · quiz +0,003 s · sync <=0,016 s · da riascoltare: pronuncia voci (Rebora, Lacerba) e ~12 frasi dei sottotitoli · rapporto su revisione-letteratura-V-lez10"
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 10 · Il primo Novecento e la lirica italiana",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-17 20:45:02"
+ "aggiornato": "2026-11-17 21:17:56"
 }
