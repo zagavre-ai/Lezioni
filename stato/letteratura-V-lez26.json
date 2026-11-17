@@ -47,7 +47,11 @@
   {
    "quando": "17/11 17:20",
    "testo": "17:20 UTC: letti aggiornamenti; Aracoeli non presente in lez26. Resta: togliere 2 silenzi >3 s (3,5 e 3,9 s, regola 00:40) e riconsegnare. CONSEGNA PREVISTA entro 45 min; aggiorno ogni 20 min"
+  },
+  {
+   "quando": "17/11 17:30",
+   "testo": "17:30 UTC +10 min: codifica in corso (taglio 2 silenzi >3 s); consegna prevista tra ~20 min"
   }
  ],
- "aggiornato": "2026-11-17 17:20:12"
+ "aggiornato": "2026-11-17 17:30:10"
 }
