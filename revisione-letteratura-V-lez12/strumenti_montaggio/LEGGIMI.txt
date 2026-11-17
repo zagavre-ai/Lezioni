@@ -1,0 +1,3 @@
+Strumenti usati per rifare la lezione 12 (revisione 16-17/11/2026).
+Pipeline: gen.py (slide HTML dai contenuti in data.py e dalle slide del prof) -> render.js (PNG 1080p) -> seq.py (blocchi video, riquadro del prof 4:3 dall'originale, dissolvenze) -> audio.py (prof pulito dall'originale con arnndn+loudnorm, voci Kore, R1-R6, jingle del kit) -> final.py (unione) -> checks.py (misure).
+Percorsi di lavoro: /home/user/w (non nel repository).

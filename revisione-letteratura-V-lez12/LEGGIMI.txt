@@ -1,0 +1,1 @@
+Unire: cat Letteratura_Lez12_Parte1_1080p.mp4.parte_* > Letteratura_Lez12_Parte1_1080p.mp4 ; controllo: sha256sum -c Letteratura_Lez12_Parte1_1080p.mp4.sha256
