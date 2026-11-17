@@ -244,3 +244,13 @@ Vale per **tutte** le lezioni tranne la 11: rifai solo le schede Quiz, stessi se
 ## 17/11 23:00 — RITIRATO l'aggiornamento 22:20 (e la parte «scheda Quiz» del 22:10)
 Le schede Quiz le sistema **la master**, direttamente sul video online (immagine identica alla lezione 11 sovrapposta solo su quei secondi). **Le chat NON rifanno le schede Quiz.**
 Restano valide solo: lezioni **5 e 9** suoni (21:50); lezioni **13, 14, 23** schede di servizio/grafica come la 11 (20:30 e 21:50).
+
+## 17/11 23:35 — CORREZIONE IMPORTANTE (Sara): il modello è SOLO la lezione 1 di SPAGNOLO
+**Ritirati** gli aggiornamenti delle **21:50** (schede Quiz/Verifica/Compiti «bianche come la 11»), **22:10** (scheda Quiz della 3 e onda audio) e **22:20/23:00**, e nella **20:30** la frase sui quiz «non su fondo blu notte». Erano sbagliati: **la lezione 11 non è il modello.**
+Il modello è il video di **Spagnolo Lezione 1** (più le aggiunte promosse nel tempo). Fotogrammi di riferimento: `scambio/mazzotti/MODELLO_Spagnolo_schede.jpg`:
+- **titolo dell'argomento**: scheda blu scura animata «ARGOMENTO 0N»;
+- **pillola di ripasso**: scheda blu scura «PILLOLA DI … · REPASSO/RIPASSO» con titolo grande, sottotitolo azzurro, **onda audio** e riga di testo della voce; jingle `repaso.wav`;
+- **scheda Quiz**: blu scura animata, «PAUSA DEL VIDEO · QUIZ», titolo grande, argomento in giallo, riquadro «5 domande · per continuare almeno l'80%», «Rispondi · premi Check · poi Continua», **pulsante play**; jingle `quiz.wav`;
+- **riepilogo finale**: blu scuro, elenco degli argomenti numerati;
+- **slide di contenuto, copertina, glossario a tabella**: fondo bianco, riquadro del prof 4:3 con fascia gialla.
+Chi ha già cambiato schede blu in bianche: **rimettile blu come Spagnolo**. Resta valido: niente DM Mono nelle etichette (Figtree Bold), suoni (titolo, repaso, quiz, trans, finale), prof mai fermo.
