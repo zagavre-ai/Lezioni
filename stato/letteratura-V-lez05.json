@@ -45,7 +45,11 @@
   {
    "quando": "17/11 18:00",
    "testo": "19:00 IT: rifacimento video in corso (slide modello renderizzate, sfondo in codifica, poi riquadro 4:3 e audio). Consegna prevista entro le 08:45"
+  },
+  {
+   "quando": "17/11 18:14",
+   "testo": "19:20 IT: segmenti video in codifica (riquadro 4:3 dall'originale), poi concat+audio+controlli"
   }
  ],
- "aggiornato": "2026-11-17 18:00:22"
+ "aggiornato": "2026-11-17 18:14:47"
 }
