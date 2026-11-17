@@ -1,43 +1,43 @@
 {
  "materia": "Letteratura italiana (V)",
- "titolo": "Pier Paolo Pasolini · Parte 1",
- "durata_s": 2718.93,
+ "titolo": "Letteratura V · Lezione 25 · Pier Paolo Pasolini",
+ "durata_s": 2318.23,
  "argomenti": [
   {
    "n": 1,
    "titolo": "La vita e gli anni friulani",
-   "inizio_s": 72.1,
-   "quiz_s": 481.666
+   "inizio_s": 70.367,
+   "quiz_s": 411.167
   },
   {
    "n": 2,
    "titolo": "Roma e il successo letterario",
-   "inizio_s": 486.966,
-   "quiz_s": 779.031
+   "inizio_s": 414.767,
+   "quiz_s": 638.133
   },
   {
    "n": 3,
    "titolo": "La svolta degli anni Sessanta",
-   "inizio_s": 784.331,
-   "quiz_s": 1239.396
+   "inizio_s": 641.733,
+   "quiz_s": 1032.233
   },
   {
    "n": 4,
    "titolo": "Le prime fasi poetiche e i conflitti interiori",
-   "inizio_s": 1244.696,
-   "quiz_s": 1746.194
+   "inizio_s": 1035.833,
+   "quiz_s": 1457.8
   },
   {
    "n": 5,
    "titolo": "La narrativa e il cinema",
-   "inizio_s": 1751.494,
-   "quiz_s": 2190.559
+   "inizio_s": 1461.4,
+   "quiz_s": 1830.9
   },
   {
    "n": 6,
    "titolo": "L'ultimo Pasolini",
-   "inizio_s": 2195.859,
-   "quiz_s": 2490.359
+   "inizio_s": 1834.5,
+   "quiz_s": 2067.433
   }
  ],
  "quiz": {
@@ -175,7 +175,7 @@
      "e": "Per questo si rivolge ad altri mezzi espressivi."
     },
     {
-     "p": "Quale è il primo film di Pasolini?",
+     "p": "Qual è il primo film di Pasolini?",
      "a": "Accattone, del 1961",
      "w": [
       "Mamma Roma, del 1962",
