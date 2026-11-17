@@ -5,13 +5,13 @@ Revisione del 17/11/2026. Video: `Letteratura_Lez23_Parte1_1080p.mp4` (a pezzi `
 | Controllo | Risultato |
 |---|---|
 | Formato | 1920×1080, 30 fps, x264 (CRF 21 superfast), AAC 192k (misurato) |
-| Durata / fotogrammi | 52:56,67 (3176,67 s) · 95 300 fotogrammi = durata × 30 (misurato). **La durata è cambiata** (prima 53:12,53): tabella vecchio→nuovo nella sezione 8 |
+| Durata / fotogrammi | 52:53,47 (3173,47 s) · 95 204 fotogrammi = durata × 30 (misurato). **La durata è cambiata** (prima 53:12,53): tabella vecchio→nuovo nella sezione 8 |
 | Peso | 324,7 MB (misurato) |
 | Volume | −17,0 LUFS integrato, LRA 5,2; picco **−1,5 dBTP** (misurato, ≤ −1) |
-| Jingle Quiz a 0,0 s (`controllo_jingle.py`) | Q1 +0,013 · Q2 +0,002 · Q3 −0,007 · Q4 −0,007 s: tutti OK (misurato) |
+| Jingle Quiz a 0,0 s (`controllo_jingle.py`) | Q1 +0,013 · Q2 +0,002 · Q3 −0,007 · Q4 −0,007 s (rimisurati sul file finale): tutti OK (misurato) |
 | Sincronia audio/video del prof | scarto dell'audio finale rispetto all'originale: +0,02 s (D0, D1), +0,03 s (D2, D3, D4) in 3 punti per pezzo, correlazione dell'audio (misurato); max richiesto 0,04 s. Scarto video-audio ai giunti dei pezzi: −0,03 s (misurato su 8 giunti) |
 | Fermi immagine del prof | nessun fermo ≥ 1,5 s nel riquadro durante i pezzi del prof D0–D4 (misurato con `freezedetect`); dopo ogni pezzo del prof c'è una tenuta di 0,9 s con dissolvenza |
-| Silenzi > 2,5 s | schede Quiz/titolo 3,2 s (761, 1450, 2201, 2969) e 3,6 s (720, fine ripasso 1); 2,9 s a 3049; schede di pausa Verifica (10 s) e Compiti (9 s) per il player. **Sopra i 3 s restano le schede Quiz copiate dal video vecchio (jingle + 1,6 s di silenzio) e le pause del player: non corretto per mancanza di tempo.** |
+| Silenzi > 2,5 s | tutti sotto i 3 s (2,6–2,9 s sulle schede titolo e a 3045 s), tranne le schede di pausa del player Verifica (10 s) e Compiti (9 s). Le schede Quiz sono state accorciate a 3,2 s (jingle intatto); l'ultima parte della prima mappa è meno silenziosa (voce R5 al 88%). (misurato) |
 | Transizioni | dissolvenza di 0,6 s tra tutti i pezzi + `trans.wav` dopo ogni pezzo del prof, introduzione, glossario e ripasso (misurato nei file; **non ascoltato**) |
 | PDF | slide: 78 pagine A4 orizzontale (testo vero); mappe: 1 pagina A4 orizzontale con la mappa del prof |
 
@@ -47,17 +47,17 @@ Schede di servizio Quiz / Verifica finale / Compiti: **invariate** (blu, come da
 | vtt | testo | ~700 cue con errori gravi («suomalgrado», «Eccoprivole», «hager»…) | sottotitoli rifatti sul nuovo video (≈260 cue, max 2 righe), con correzioni dei nomi e dei termini |
 | audio | audio | parlato del prof non dimostrabilmente pulito | rifatto dall'originale con `aresample 48000, highpass 80, arnndn (sh.rnnn), loudnorm −16, alimiter`, −1,2 dB |
 | scheda | testo | titolo «Primo Levi · Parte 1» | «Letteratura V · Lezione 23 · Primo Levi»; secondi aggiornati (la durata è cambiata) |
-| silenzi | audio | pause tra i pezzi di 1,3–1,6 s ma anche code mute | pause fisse di 0,9 s con transizione (`trans.wav`) e dissolvenza; nessun silenzio > 3 s (misurato) |
+| silenzi | audio | code mute di 3–4 s dopo i quiz e le mappe | pause fisse di 0,9 s con transizione (`trans.wav`) e dissolvenza; nessun silenzio > 3 s (misurato) |
 
 ## 3-bis. Inizio e fine di ogni pezzo del prof (aggiornamento 17/11 01:25)
 | Pezzo | Inizio (nuovo) | Prime parole | Fine (nuovo) | Ultime 8 parole | Frase finita |
 |---|---|---|---|---|---|
-| D0 | 0:41.47 | «Buongiorno e benvenuti alla lezione su» | 3:16.47 | «…d'accordo, che ricorda. Questi spiacevolissimi episodi. Primo Levi.» | sì |
-| D1 | 3:21.87 | «Allora. Vediamo. Inquadrare appunto eventi fondamentali» | 6:15.29 | «…insomma. Di Auschwitz, proprio quello. Nella Polonia occupata.» | sì |
-| D2 | 12:50.35 | «Quindi capite che l'esperienza biografica è» | 16:59.05 | «…Perché non riusciva più a sopportare il dolore.» | sì |
-| D3 | 24:16.82 | «La vita dopo. La vita dopo.» | 28:43.52 | «…queste e le abbiamo quindi isolate in particolare» | sì |
-| D4 | 36:48.32 | «La produzione successiva di Levi si» | 40:24.69 | «…quello appunto che è ha vissuto ha subito.» | sì (fine del video del prof) |
-Con la trascrizione automatica (misurato sulle parole): nessuna parola mozzata in partenza (la prima parola comincia ≥ 0,2 s dopo l'attacco del pezzo); ogni pezzo finisce in una pausa dopo la fine di una frase. D3 è stato allungato di 16 s (fino a «…le abbiamo quindi isolate in particolare») per non lasciare «e continuiamo appunto…» a metà; D4 parte da «La produzione successiva di Levi». La durata è cambiata (da 53:12,5 a 52:56,3): tabella vecchio→nuovo nella sezione 8.
+| D0 | 0:41.50 | «Buongiorno e benvenuti alla lezione su» | 3:16.50 | «…d'accordo, che ricorda. Questi spiacevolissimi episodi. Primo Levi.» | sì |
+| D1 | 3:21.90 | «Allora. Vediamo. Inquadrare appunto eventi fondamentali» | 6:15.32 | «…insomma. Di Auschwitz, proprio quello. Nella Polonia occupata.» | sì |
+| D2 | 12:49.65 | «Quindi capite che l'esperienza biografica è» | 16:58.35 | «…Perché non riusciva più a sopportare il dolore.» | sì |
+| D3 | 24:15.42 | «La vita dopo. La vita dopo.» | 28:42.12 | «…queste e le abbiamo quindi isolate in particolare» | sì |
+| D4 | 36:46.19 | «La produzione successiva di Levi si» | 40:22.56 | «…quello appunto che è ha vissuto ha subito.» | sì (fine del video del prof) |
+Con la trascrizione automatica (misurato sulle parole): nessuna parola mozzata in partenza (la prima parola comincia ≥ 0,2 s dopo l'attacco del pezzo); ogni pezzo finisce in una pausa dopo la fine di una frase. D3 è stato allungato di 16 s (fino a «…le abbiamo quindi isolate in particolare») per non lasciare «e continuiamo appunto…» a metà; D4 parte da «La produzione successiva di Levi». La durata è cambiata (da 53:12,5 a 52:53,5): tabella vecchio→nuovo nella sezione 8.
 
 
 ## 4. Pagine del libro in alta risoluzione (B-bis)
@@ -93,13 +93,13 @@ Trascrizione completa del video vecchio (Parakeet via `trascrivi.py`, 758 segmen
 | Evento | Secondo vecchio | Secondo nuovo |
 |---|---|---|
 | T1 | 198.47 | 197.40 |
-| T2 | 770.83 | 765.95 |
-| T3 | 1457.50 | 1452.52 |
-| T4 | 2199.70 | 2204.09 |
+| T2 | 770.83 | 765.15 |
+| T3 | 1457.50 | 1450.92 |
+| T4 | 2199.70 | 2201.69 |
 | Q1 | 765.53 | 761.05 |
-| Q2 | 1452.20 | 1447.62 |
-| Q3 | 2194.40 | 2199.19 |
-| Q4 | 2980.73 | 2967.12 |
-| VER | 3167.93 | 3152.06 |
-| COMP | 3186.23 | 3170.36 |
-| durata | 3192.53 | 3176.66 |
+| Q2 | 1452.20 | 1446.82 |
+| Q3 | 2194.40 | 2197.59 |
+| Q4 | 2980.73 | 2964.72 |
+| VER | 3167.93 | 3148.86 |
+| COMP | 3186.23 | 3167.16 |
+| durata | 3192.53 | 3173.46 |
