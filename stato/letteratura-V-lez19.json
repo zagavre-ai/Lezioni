@@ -5,25 +5,25 @@
    "stato": "IN_REVISIONE"
   }
  },
- "manca": "Rifacimento completo grafica Spagnolo (riquadro 4:3, fascia gialla, ombre grigie, jingle, transizioni, mappa del prof). Verifica A+B+C in corso; trascrizione finita al 70%.",
+ "manca": "",
  "serve_master": [],
  "domande_sara": [],
  "note": [
   {
-   "quando": "16/11 18:16",
-   "testo": "chat revisione 19"
+   "quando": "16/11 21:51",
+   "testo": "prova metodo 2 ore: revisione iniziata 16/11 21:47 UTC"
   },
   {
    "quando": "17/11 07:58",
-   "testo": "Consegna prevista entro 08:58 (ora del server, +60 min dalla ripartenza). Aggiorno ogni 20 min. Ora: trascrizione con trascrivi.py."
+   "testo": "17/11 08:00 UTC: consegna prevista entro le 09:00; correzioni: jingle, transizioni, ombre/card gialla, prof non tagliato a meta' frase, mai fermo immagine, sync. Aggiorno ogni 20 min"
   },
   {
-   "quando": "17/11 08:04",
-   "testo": "AGGIORNAMENTO 20 min: NON riesco a consegnare entro 1 ora. Il video attuale ha il prof nel tondo, 13 schede animate su fondo grigio, 3 mappe inventate da noi (19:15, 20:00, 33:45), nessuna fascia gialla: va rifatto quasi tutto. Stima onesta: prima versione RAPPORTO entro ~1 h, consegna REVISIONATA entro ~4 h da ora. Misurato: picco -0,4 dBFS (limite -1 dBTP: da correggere), 1 silenzio >2,5 s a fine video (8,9 s fino a 3224 s = coda). Mappa del prof: 1 sola mappa, trovata."
+   "quando": "17/11 08:11",
+   "testo": "17/11 08:12 UTC: rifatta con le regole 00:40-08:15 (mappa solo del prof, durata nuova ~50:25, card gialle, jingle+transizioni, prof non tagliato). Codifica in corso, consegna prevista 08:50. Prossimo aggiornamento 08:32"
   }
  ],
  "materia": "Letteratura italiana V",
- "lezione": "Lezione 19 (revisione)",
+ "lezione": "Lezione 19 · Dal secondo dopoguerra a oggi",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-17 08:04:50"
+ "aggiornato": "2026-11-17 08:11:27"
 }
