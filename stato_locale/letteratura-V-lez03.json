@@ -2,13 +2,13 @@
  "tag": "letteratura-V-lez03",
  "parti": {
   "1": {
-   "stato": "IN_REVISIONE",
+   "stato": "REVISIONATA",
    "video": "Letteratura_Lez3_Parte1_1080p.mp4",
-   "durata_s": 3732.9,
-   "durata": "62:12.9",
-   "fotogrammi": 111988,
-   "fotogrammi_attesi": 111988,
-   "peso_MB": 393.3,
+   "durata_s": 3812.9,
+   "durata": "63:32.9",
+   "fotogrammi": 114387,
+   "fotogrammi_attesi": 114387,
+   "peso_MB": 398.2,
    "vtt": "Letteratura_Lez3_Parte1.vtt"
   }
  },
@@ -56,10 +56,14 @@
   {
    "quando": "17/11 18:01",
    "testo": "video v4 assemblato (63:33, 114387 fotogrammi); controlli finali in corso (sync, fermi, silenzi, volume)"
+  },
+  {
+   "quando": "17/11 18:07",
+   "testo": "17/11 riconsegna: mappa del prof nel video, jingle e transizioni, ombre grigie, copertina senza prof, picco -1,5 dBTP, durata 3812,9 s (secondi nuovi nella scheda). Da ascoltare: voci S3B/RF2/MAPPA1"
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 3 · Carducci",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-17 18:01:32"
+ "aggiornato": "2026-11-17 18:07:18"
 }
