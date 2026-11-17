@@ -2,7 +2,7 @@
  "tag": "letteratura-V-lez02",
  "parti": {
   "1": {
-   "stato": "REVISIONATA",
+   "stato": "IN_REVISIONE",
    "voci": "kore",
    "video": "Letteratura_Lez2_Parte1_1080p.mp4",
    "durata_s": 3326.8,
@@ -65,7 +65,11 @@
   {
    "quando": "17/11 08:29",
    "testo": "09:29: REVISIONATA con limiti nel rapporto (silenzi>3s residui 2; frasi del prof spezzate fra D3/D4 e D4/D5; nessun ascolto). Ramo revisione-letteratura-V-lez02. Durata 55:26,8: secondi aggiornati in scheda_pubblicazione.json"
+  },
+  {
+   "quando": "17/11 17:21",
+   "testo": "18:21: ripresa dopo aggiornamenti; correggo le frasi del prof spezzate fra D3/D4 e D4/D5 (tagli a 796,66 e 1226,58 s dell'originale), poi silenzi >3 s e misura sincronia. Consegna prevista tra circa 40 min"
   }
  ],
- "aggiornato": "2026-11-17 08:29:25"
+ "aggiornato": "2026-11-17 17:21:19"
 }
