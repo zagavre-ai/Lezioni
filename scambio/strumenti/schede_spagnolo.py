@@ -4,7 +4,7 @@
 # Uso: python3 schede_spagnolo.py '<spec json>' uscita 1.0   (scala 1.0 = 1080p)
 # spec: {"type":"title","num":"01","total":4,"lines":["Le avanguardie","storiche"],"ex":"Espressionismo · Dadaismo","fs":128,"lineY":720,"dur":2.9}
 #       {"type":"repaso","kicker":"Pillola di storia","big":"RIPASSO","topic":"…","caps":[[0.9,4.1,"frase"],…],"dur":20}
-#       {"type":"quiz","act":"Quiz 1","topic":"…","pts":"5 domande · per continuare almeno l'80%","dur":4.9}
+#       {"type":"quiz","act":"Quiz 1","tfs":84 (più piccolo se l'argomento è lungo, es. 64),"topic":"…","pts":"5 domande · per continuare almeno l'80%","dur":4.9}
 #       {"type":"final","kicker":"Storia V · <titolo>","l1":"RIEPILOGO","l2":"FINALE","items":[["argomento",""],…],"sub":"Ripassiamo insieme ciò che abbiamo imparato.","dur":30}
 import sys,os,json,shutil,subprocess,base64
 from playwright.sync_api import sync_playwright
@@ -62,7 +62,7 @@ window.init=function(sp){SP=sp;
  if(sp.type=='quiz'){
   mk(`<div class="abs ghost" id=gh style="left:900px;top:130px;font-size:620px;-webkit-text-stroke-color:rgba(91,214,240,.22)">?</div>
   <div class="abs kick" id=kk style="left:160px;top:300px;color:#5BD6F0">${[...'Pausa del video · Quiz'].map(c=>`<span>${c==' '?'&nbsp;':c}</span>`).join('')}</div>
-  <div class=abs id=tt style="left:160px;top:370px"><div class=mask><div class="ttl ln" data-i=0 style="font-size:150px">${sp.act}</div></div><div class=mask><div class="ttl ln" data-i=1 style="font-size:84px;color:#E3A95C;margin-top:10px">${sp.topic}</div></div></div>
+  <div class=abs id=tt style="left:160px;top:370px"><div class=mask><div class="ttl ln" data-i=0 style="font-size:150px">${sp.act}</div></div><div class=mask><div class="ttl ln" data-i=1 style="font-size:${sp.tfs||84}px;color:#E3A95C;margin-top:10px">${sp.topic}</div></div></div>
   <div class="abs glass" id=ch style="left:160px;top:760px;padding:26px 44px;font-weight:700;font-size:40px">${sp.pts}</div>
   <div class="abs" id=hint style="left:160px;top:900px;font-weight:500;font-size:34px;color:rgba(243,245,250,.8)">Rispondi · premi <b class=cy>Check</b> · poi <b class=cy>Continua</b></div>
   <div class=abs id=ring style="left:1380px;top:420px;width:240px;height:240px"></div><div id=dots></div>`);
