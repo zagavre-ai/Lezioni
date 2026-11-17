@@ -2,7 +2,7 @@
  "tag": "letteratura-V-lez26",
  "parti": {
   "1": {
-   "stato": "REVISIONATA",
+   "stato": "IN_REVISIONE",
    "voci": "kore",
    "quiz_ok": "si",
    "fermi_ok": "si",
@@ -43,7 +43,11 @@
   {
    "quando": "17/11 08:03",
    "testo": "17/11 riconsegna: jingle quiz ok (scarto <=0,004), trans.wav, card gialla/ombre grigie, 0 fermi prof, sync max 3 ms, picco -1,5 dBTP; 94591 fotogrammi"
+  },
+  {
+   "quando": "17/11 17:20",
+   "testo": "17:20 UTC: letti aggiornamenti; Aracoeli non presente in lez26. Resta: togliere 2 silenzi >3 s (3,5 e 3,9 s, regola 00:40) e riconsegnare. CONSEGNA PREVISTA entro 45 min; aggiorno ogni 20 min"
   }
  ],
- "aggiornato": "2026-11-17 08:03:12"
+ "aggiornato": "2026-11-17 17:20:12"
 }
