@@ -97,3 +97,7 @@ Stessa durata (3101,8 s) e stessi fotogrammi (93 055) del giro precedente. Le sl
 Nessuna parola mozzata in partenza (inizi su pausa).
 
 Il punto 2 e 3 del secondo messaggio della master («Cesare Pavese», picco −0,1 dB) riguardano un'altra lezione: qui il titolo è già «La narrativa tra le due guerre» e il picco è −2,3 dBTP.
+
+## 8. Correzione del 17/11 (messaggio master 09:27, copertina)
+Il fotogramma a 25 s (copertina) aveva ancora etichetta e piè di pagina in DM Mono: il pezzo sigla+copertina era rimasto in cache e non era stato ricodificato con le slide nuove. Ricodificato: ora «LETTERATURA ITALIANA V · VIDEOLEZIONE» e il piè di pagina sono in Figtree Bold, come nel resto della lezione (guardato il fotogramma a 25 s). Nient'altro cambiato.
+Controlli sul video riconsegnato: 93 055 fotogrammi, 3101,8 s (invariati), **sha256 delle parti = sha256 del file** (`8a8cc8cf…`), −16,5 LUFS, picco −2,3 dBTP. Audio e sincronia non toccati: sono gli stessi dati del giro precedente (jingle Quiz +0,004 s, scarto sync prof ≤ 0,0056 s).
