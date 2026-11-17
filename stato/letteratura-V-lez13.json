@@ -10,9 +10,9 @@
  "domande_sara": [],
  "note": [
   {
-   "quando": "17/11 07:28",
-   "testo": "17/11 07:30 RIPRESA dopo gli aggiornamenti 01:20/01:25/01:30/08:15. Fatto: mappa del prof (voci MP1-3), apertura Parte 2 (IN2+RIP), frasi ripetute tagliate, sottotitoli riletti, fettine intere, riquadro 4:3. Ora: jingle UFFICIALI del kit (titolo/repaso/trans/quiz/finale), transizioni con dissolvenza, font Figtree Bold per etichette e piede, controllo fine/inizio pezzi del prof, sincronia labbra, freezedetect, picco <= -1 dBTP. CONSEGNA PREVISTA: 17/11 ore 09:15 (re-render di entrambe le Parti ~50 min + controlli). Aggiorno ogni 20 minuti."
+   "quando": "17/11 07:54",
+   "testo": "07:50 aggiornamento: PARTE 1 rifatta (51:48; -16,4 LUFS; picco -1,4; jingle del kit; frasi complete D1/D3; sincronia max 0,037 s). PARTE 2 in codifica (circa 40%). CONSEGNA PREVISTA INVARIATA: 17/11 ore 09:15."
   }
  ],
- "aggiornato": "2026-11-17 07:28:05"
+ "aggiornato": "2026-11-17 07:54:32"
 }
