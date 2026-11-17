@@ -2,7 +2,7 @@
  "tag": "letteratura-V-lez26",
  "parti": {
   "1": {
-   "stato": "REVISIONATA",
+   "stato": "IN_REVISIONE",
    "voci": "kore",
    "quiz_ok": "si",
    "fermi_ok": "si",
@@ -31,7 +31,11 @@
   {
    "quando": "16/11 23:38",
    "testo": "riconsegna 16/11: slide non vuote, Figtree Bold, picco -1,5 dBTP"
+  },
+  {
+   "quando": "17/11 07:30",
+   "testo": "17/11: ripresa per aggiornamenti 01:20/01:25/01:30/08:15 (jingle, fine pezzi prof, ombre/card gialla, fermi, trans, sync). CONSEGNA PREVISTA: entro 1 ora dalle 07:30 UTC; aggiornamento ogni 20 min"
   }
  ],
- "aggiornato": "2026-11-16 23:38:34"
+ "aggiornato": "2026-11-17 07:30:17"
 }
