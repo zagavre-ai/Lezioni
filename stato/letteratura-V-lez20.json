@@ -1,14 +1,18 @@
 {
  "tag": "letteratura-V-lez20",
- "parti": {},
+ "parti": {
+  "1": {
+   "stato": "IN_REVISIONE"
+  }
+ },
  "manca": "",
  "serve_master": [],
  "domande_sara": [],
  "note": [
   {
-   "quando": "16/11 23:27",
-   "testo": "CONSEGNATA 17/11 00:25 (ora italiana): ramo revisione-letteratura-V-lez20, stato REVISIONATA con riserve (vedi RAPPORTO_REVISIONE.md). Aggiornamenti di oggi già applicati: etichette in Figtree Bold, picco -1,2 dBTP, nessuna fettina (lezione senza pagine del libro)."
+   "quando": "16/11 23:19",
+   "testo": "agente di revisione (rifacimento dopo respinta master: 7 mappe nostre -> mappa del prof, via 12 silenzi); avvio 08:18, consegna prevista 10:45 (ora italiana = UTC+1)"
   }
  ],
- "aggiornato": "2026-11-16 23:27:08"
+ "aggiornato": "2026-11-16 23:19:39"
 }
