@@ -36,9 +36,13 @@
   {
    "quando": "17/11 17:41",
    "testo": "80min: controllo fettine ha trovato righe tagliate/residui: corretti, rifaccio D2-D4-D6 (6 min), poi rimontaggio e push. Consegna entro ~15 min"
+  },
+  {
+   "quando": "17/11 17:54",
+   "testo": "REVISIONATA v2: 95955 fotogrammi, 3198,5 s, 394 MB, -16,8 LUFS, picco -2,3 dBFS, jingle Quiz OK, sync max 0,018 s, nessun fermo del prof. Secondi nuovi in scheda_pubblicazione.json. Rapporto sul ramo revisione-letteratura-V-lez17."
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "17",
- "aggiornato": "2026-11-17 17:41:55"
+ "aggiornato": "2026-11-17 17:54:16"
 }
