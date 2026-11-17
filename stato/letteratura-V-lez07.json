@@ -2,7 +2,18 @@
  "tag": "letteratura-V-lez07",
  "parti": {
   "1": {
-   "stato": "IN_REVISIONE"
+   "stato": "REVISIONATA",
+   "voci": "kore",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "no",
+   "video": "Letteratura_Lez7_Parte1_1080p.mp4",
+   "durata_s": 3350.6,
+   "durata": "55:50.6",
+   "fotogrammi": 100518,
+   "fotogrammi_attesi": 100518,
+   "peso_MB": 207.6,
+   "vtt": "Letteratura_Lez7_Parte1.vtt"
   }
  },
  "manca": "",
@@ -40,10 +51,14 @@
   {
    "quando": "17/11 07:29",
    "testo": "08:29 IT: consegna prevista 09:30 (ora italiana). Applico regole 00:40-08:15: pezzi del prof a fine frase, card gialla, ombre grigie, niente fermo immagine, jingle, sincronia"
+  },
+  {
+   "quando": "17/11 08:33",
+   "testo": "09:33 IT: REVISIONATA su revisione-letteratura-V-lez07. Restano 5 silenzi >3 s (vedi rapporto §5); sottotitoli non riascoltati"
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 7",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-17 07:29:36"
+ "aggiornato": "2026-11-17 08:33:11"
 }
