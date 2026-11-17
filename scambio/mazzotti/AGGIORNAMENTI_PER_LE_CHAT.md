@@ -181,3 +181,10 @@ La master ha misurato il jingle del Quiz nelle lezioni consegnate: c'è in tutte
 
 ## 17/11 ore 01:25 (ora italiana) · MAI IL PROF TAGLIATO A METÀ FRASE (trovato da Sara nella 15 a 14:18)
 Nella lezione 15 il pezzo del prof finisce a metà frase («…con la guerra, il regime non sarebbe…») e parte la voce narrante. **Controllo obbligatorio per tutte:** nel rapporto una tabella con la **fine di ogni pezzo del prof**: minuto · ultime 6–8 parole dette · frase finita sì/no. Ogni pezzo deve finire alla fine di una frase del prof (si allunga il pezzo; la durata può cambiare, poi si aggiornano i secondi nella scheda). Stesso controllo per l'**inizio** di ogni pezzo: niente parole mozzate in partenza.
+
+## 17/11 ore 01:30 (ora italiana) · OMBRE E CARD «IN CORSO» COME SPAGNOLO (Sara, lezione 15 a 34:17)
+Nella 15 la card in corso ha **bordo nero spesso e ombra nera netta spostata in basso a destra**: Sara dice «le ombre sono nere», non va. Come Spagnolo (e come la lezione 3):
+- **ombre sempre grigie e morbide** (sfocate, poco scure), mai nere e mai «a blocco» spostate;
+- **card in corso:** bordo **giallo** sottile + numero su pallino giallo, fondo bianco; le altre card con bordo grigio chiaro;
+- riquadro del prof e foto: ombra grigia morbida, niente bordi neri.
+Controlla tutte le slide (anche ripassi, schede opera, linee del tempo) e il PDF slide.
