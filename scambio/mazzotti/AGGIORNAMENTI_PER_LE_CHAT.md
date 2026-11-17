@@ -239,3 +239,8 @@ Il confronto (`CONFRONTO_schede_quiz_17-11.jpg`) mostra che ogni lezione ha una 
 - niente pulsante play, niente «Pausa del video», niente «premi Check, poi Continua», niente fondi colorati;
 - piè di pagina come le altre slide («LETTERATURA ITALIANA V · Prof. Giorgio Mazzotti» e «Pagina N»).
 Vale per **tutte** le lezioni tranne la 11: rifai solo le schede Quiz, stessi secondi e stesso jingle (+0,5 s), ricodifica solo quei pezzi, ricontrolla sha, durata e jingle, consegna sullo stesso ramo `revisione-letteratura-V-lezNN` e scrivi lo stato. Nient'altro da cambiare (le lezioni 3, 4, 5, 9, 13, 14, 23 fanno in più quello che c'è scritto negli aggiornamenti 21:50 e 22:10).
+
+
+## 17/11 23:00 — RITIRATO l'aggiornamento 22:20 (e la parte «scheda Quiz» del 22:10)
+Le schede Quiz le sistema **la master**, direttamente sul video online (immagine identica alla lezione 11 sovrapposta solo su quei secondi). **Le chat NON rifanno le schede Quiz.**
+Restano valide solo: lezioni **5 e 9** suoni (21:50); lezioni **13, 14, 23** schede di servizio/grafica come la 11 (20:30 e 21:50).
