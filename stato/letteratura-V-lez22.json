@@ -2,7 +2,7 @@
  "tag": "letteratura-V-lez22",
  "parti": {
   "1": {
-   "stato": "REVISIONATA",
+   "stato": "IN_REVISIONE",
    "video": "Letteratura_Lez22_Parte1_1080p.mp4",
    "durata_s": 3064.6,
    "durata": "51:04.6",
@@ -31,7 +31,11 @@
   {
    "quando": "16/11 23:50",
    "testo": "REVISIONATA: durata 51:04,6, 91938 fotogrammi (uguali al vecchio), 280 MB, -16,3 LUFS, picco -1,2 dBTP. Ramo revisione-letteratura-V-lez22. Non ascoltato: vedi sez. 5 del rapporto. Voci MM1-MM5/MMF usate."
+  },
+  {
+   "quando": "17/11 08:18",
+   "testo": "rifacimento dopo rifiuto di Sara; consegna prevista 13:30 (ora italiana = UTC+1)"
   }
  ],
- "aggiornato": "2026-11-16 23:50:15"
+ "aggiornato": "2026-11-17 08:18:14"
 }
