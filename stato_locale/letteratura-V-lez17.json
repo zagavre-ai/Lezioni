@@ -24,9 +24,13 @@
   {
    "quando": "17/11 17:17",
    "testo": "20min: trovato clip troncato (D1 corto), rifaccio D1 e D6; poi rimontaggio, audio con jingle/transizioni, controlli. Mappa del prof: voce MAP1 non ancora generata dal servizio."
+  },
+  {
+   "quando": "17/11 17:29",
+   "testo": "40min: voce MAP1 arrivata, mappa del prof nel video (+~2 min). Tutti i pezzi pronti tranne D6 in ricodifica; poi mux, misure (picco, sync, fermi, jingle), PDF/vtt/scheda nuovi e push. Consegna prevista entro 20 min"
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "17",
- "aggiornato": "2026-11-17 17:17:49"
+ "aggiornato": "2026-11-17 17:29:36"
 }
