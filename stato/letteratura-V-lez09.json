@@ -10,9 +10,29 @@
  "domande_sara": [],
  "note": [
   {
-   "quando": "16/11 23:19",
-   "testo": "agente revisione lez09 (ripresa, rifacimento nel modello Spagnolo P1+P2); consegna prevista 10:30 (ora italiana = UTC+1)"
+   "quando": "16/11 18:15",
+   "testo": "chat revisione 9"
+  },
+  {
+   "quando": "16/11 23:24",
+   "testo": "consegna prevista 06:24 (ora italiana). Whisper via trascrivi.py in corso, poi verifica A+B+C+D"
+  },
+  {
+   "quando": "16/11 23:37",
+   "testo": "avanzamento: trascrizione P1 a 40/55 min; trovato: originale 69 min = D contigui, offset allineati; pptx prof con fettine HD; mappa prof da rifare (le nostre erano inventate/vuote); template Spagnolo pronti. Consegna prevista invariata"
+  },
+  {
+   "quando": "16/11 23:53",
+   "testo": "rapporto v1 pushato su revisione-letteratura-V-lez09 (2h). Ora: rimontaggio nel modello, stessi fotogrammi"
+  },
+  {
+   "quando": "17/11 00:15",
+   "testo": "20min: piano di rimontaggio pronto (stessi fotogrammi P1 99554 / P2 99290), voci R1-R14 richieste, slide P1 renderizzate, montaggio P1 in corso"
+  },
+  {
+   "quando": "16/11 23:20",
+   "testo": "agente revisione lez09 (ripresa da 08:20 IT, rifacimento nel modello Spagnolo P1+P2); consegna prevista 10:30 (ora italiana = UTC+1)"
   }
  ],
- "aggiornato": "2026-11-16 23:19:51"
+ "aggiornato": "2026-11-16 23:20:09"
 }
