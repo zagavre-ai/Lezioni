@@ -1,6 +1,17 @@
 {
  "tag": "letteratura-V-lez24",
- "parti": {},
+ "parti": {
+  "1": {
+   "stato": "REVISIONATA",
+   "video": "Letteratura_Lez24_Parte1_1080p.mp4",
+   "durata_s": 3355.9,
+   "durata": "55:55.9",
+   "fotogrammi": 100676,
+   "fotogrammi_attesi": 100676,
+   "peso_MB": 177.4,
+   "vtt": "Letteratura_Lez24_Parte1.vtt"
+  }
+ },
  "manca": "",
  "serve_master": [
   {
@@ -33,7 +44,11 @@
   {
    "quando": "17/11 18:14",
    "testo": "19:25 it: video assemblato 55:56 (100676 fotogrammi); correggo 2 titoli sotto il riquadro e il picco audio; poi controlli e consegna"
+  },
+  {
+   "quando": "17/11 18:27",
+   "testo": "consegnata su revisione-letteratura-V-lez24: 55:55.9, 100676 fotogrammi, -16.7 LUFS, -2.1 dBTP. NON corretta: pronuncia 'L'affaire Moro' (RM3d, S3, RF1) da ascoltare. Date da confermare col prof nel rapporto."
   }
  ],
- "aggiornato": "2026-11-17 18:14:40"
+ "aggiornato": "2026-11-17 18:27:55"
 }
