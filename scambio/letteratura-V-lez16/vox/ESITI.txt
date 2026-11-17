@@ -1,5 +1,4 @@
-MAP1 OK frasi trovate 1 / 1 parole diverse 1 (vere 1) tentativi 1
-MAP2 OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
-MAP3 OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
-MAP4 OK frasi trovate 1 / 1 parole diverse 2 (vere 2) tentativi 1
-MAPF OK frasi trovate 1 / 1 parole diverse 2 (vere 2) tentativi 1
+MAP2b OK frasi trovate 1 / 1 parole diverse 2 (vere 3) tentativi 1
+MAP3b OK frasi trovate 1 / 1 parole diverse 1 (vere 1) tentativi 1
+MAP4b OK frasi trovate 1 / 1 parole diverse 4 (vere 4) tentativi 1
+MAPFb OK frasi trovate 1 / 1 parole diverse 2 (vere 2) tentativi 1
