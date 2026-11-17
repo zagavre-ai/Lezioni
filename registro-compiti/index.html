@@ -283,7 +283,13 @@ async function docenti(){try{DOCENTI=await (await fetch('docenti.json?t='+Date.n
 const DNOME=h=>{const v=DOCENTI[h];return !v?'':typeof v==='string'?v:v.n};
 const norm=t=>String(t||'').toLowerCase().replace(/\(.*?\)/g,'').replace(/[^a-zàèéìòù]+/g,' ').trim();
 const PUO=h=>{const v=DOCENTI[h];if(!v)return false;if(typeof v==='string'||!v.m||v.m.includes('*'))return true;return v.m.some(x=>norm(MAT).startsWith(norm(x))||norm(x).startsWith(norm(MAT)))};
-async function alunno(){if(ALUNNO||DEMO)return;try{const f=(await sha('alunno|'+CODE)).slice(0,16);const t=await (await fetch('alunni/'+f+'.enc?t='+Date.now())).text();
+/* 17/11: codici del PDF «Codici di accesso degli alunni» (14/11) → codice del registro (file alias cifrati con il codice del PDF) */
+async function alias(c){try{const r=await fetch('alias/'+(await sha('alias|'+c)).slice(0,16)+'.enc?t='+Date.now());if(!r.ok)return null;
+  const k=await crypto.subtle.importKey('raw',await crypto.subtle.digest('SHA-256',enc.encode('telesio-alias|'+c)),'AES-GCM',false,['decrypt']);const u=unb64((await r.text()).trim());
+  return JSON.parse(dec.decode(await crypto.subtle.decrypt({name:'AES-GCM',iv:u.slice(0,12)},k,u.slice(12)))).c||null}catch(e){return null}}
+async function alunno(){if(ALUNNO||DEMO)return;try{const f=(await sha('alunno|'+CODE)).slice(0,16);const rr=await fetch('alunni/'+f+'.enc?t='+Date.now());
+  if(!rr.ok){const n=await alias(CODE);if(n){location.replace(location.pathname+'?c='+encodeURIComponent(n)+(Q.get('m')?'&m='+encodeURIComponent(Q.get('m')):''));await new Promise(()=>{})}}
+  const t=await rr.text();
   const k=await crypto.subtle.importKey('raw',await crypto.subtle.digest('SHA-256',enc.encode('telesio-alunno|'+CODE)),'AES-GCM',false,['decrypt']);const u=unb64(t.trim());
   ALUNNO=JSON.parse(dec.decode(await crypto.subtle.decrypt({name:'AES-GCM',iv:u.slice(0,12)},k,u.slice(12))));MATERIE=ALUNNO.materie||[];}catch(e){ALUNNO={};}
   if(!MAT)MAT=MATERIE[0]||'Tutte le materie';if(MATERIE.length&&!MATERIE.includes(MAT)&&!Q.get('m'))MAT=MATERIE[0];}
@@ -422,7 +428,8 @@ function accesso(){
   const go=()=>{const p=inp.value.trim().toUpperCase();if(!p)return;box.querySelector('#pine').textContent='Controllo…';
     docenti().then(()=>pinhash(p)).then(h=>{
       if(!DOCENTI[h]){/* 17/11: codice dell'alunno → apre il suo registro */const c=p.replace(/\s+/g,'');
-        return sha('alunno|'+c).then(x=>fetch('alunni/'+x.slice(0,16)+'.enc?t='+Date.now())).then(r=>{if(r.ok){location.href=location.pathname+'?c='+encodeURIComponent(c);return}
+        return sha('alunno|'+c).then(x=>fetch('alunni/'+x.slice(0,16)+'.enc?t='+Date.now())).then(async r=>{if(r.ok){location.href=location.pathname+'?c='+encodeURIComponent(c);return}
+          const n=await alias(c);if(n){location.href=location.pathname+'?c='+encodeURIComponent(n);return}
           box.querySelector('#pine').textContent='Codice non valido. Controlla di averlo scritto bene.'})}
       PIN=p;try{localStorage.setItem('telesio_pin',p)}catch(e){}box.remove();avvio()}).catch(()=>box.querySelector('#pine').textContent='Nessuna connessione, riprova.')};
   box.querySelector('#pino').onclick=go;inp.onkeydown=e=>{if(e.key==='Enter')go()};
