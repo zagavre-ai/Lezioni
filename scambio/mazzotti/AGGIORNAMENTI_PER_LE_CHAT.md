@@ -178,3 +178,6 @@ La master ha misurato il jingle del Quiz nelle lezioni consegnate: c'è in tutte
 - I jingle sono nel kit: `Telesio_kit_produzione_v1.zip` (cartella principale del repo) → `home/claude/v5/snd/`: `quiz.wav` (scheda Quiz), `titolo.wav` (titolo dell'argomento), `repaso.wav` (pillola di ripasso), `trans.wav` (transizioni), `finale.wav`. Sono quelli del video Spagnolo Lez. 1: usali negli stessi punti.
 - **Scheda Quiz:** lo scatto di `quiz.wav` deve cadere a 0,0 s (inizio scheda + 0,5 s): controlla con `kit/tools/controllo_jingle.py` (copia `quiz.wav` in `/home/claude/v5/snd/` se lo strumento non lo trova) e metti l'esito nel rapporto.
 - Nessuna scheda Quiz o di passaggio in silenzio.
+
+## 17/11 ore 01:25 (ora italiana) · MAI IL PROF TAGLIATO A METÀ FRASE (trovato da Sara nella 15 a 14:18)
+Nella lezione 15 il pezzo del prof finisce a metà frase («…con la guerra, il regime non sarebbe…») e parte la voce narrante. **Controllo obbligatorio per tutte:** nel rapporto una tabella con la **fine di ogni pezzo del prof**: minuto · ultime 6–8 parole dette · frase finita sì/no. Ogni pezzo deve finire alla fine di una frase del prof (si allunga il pezzo; la durata può cambiare, poi si aggiornano i secondi nella scheda). Stesso controllo per l'**inizio** di ogni pezzo: niente parole mozzate in partenza.
