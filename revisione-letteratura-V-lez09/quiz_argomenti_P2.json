@@ -1,0 +1,222 @@
+{
+ "Q1": {
+  "title": "Quiz 1 · X Agosto",
+  "items": [
+   {
+    "p": "Quale evento ricorda X Agosto?",
+    "a": "L'uccisione del padre, il 10 agosto 1867",
+    "w": [
+     "La nascita della sorella Mariù",
+     "La laurea a Bologna",
+     "Il trasferimento a Castelvecchio"
+    ],
+    "e": "La poesia rievoca la tragedia familiare della notte di San Lorenzo."
+   },
+   {
+    "p": "Che cosa porta nel becco la rondine uccisa?",
+    "a": "Un insetto, la cena per i suoi rondinini",
+    "w": [
+     "Un ramo per il nido",
+     "Un filo d'erba",
+     "Un seme di grano"
+    ],
+    "e": "La rondine torna al nido con la cena per i piccoli."
+   },
+   {
+    "p": "Che cosa dice l'uomo ucciso mentre torna a casa?",
+    "a": "«Perdono»",
+    "w": [
+     "«Aiuto»",
+     "«Vendetta»",
+     "«Addio»"
+    ],
+    "e": "L'uomo dice «Perdono» e resta con gli occhi aperti in un grido."
+   },
+   {
+    "p": "Che cosa sono le stelle cadenti nella poesia?",
+    "a": "Il pianto del cielo sulla Terra",
+    "w": [
+     "Un segno di festa",
+     "Un augurio di fortuna",
+     "Fuochi d'artificio per San Lorenzo"
+    ],
+    "e": "Il cielo inonda di pianto la Terra."
+   },
+   {
+    "p": "Come viene chiamata la Terra alla fine di X Agosto?",
+    "a": "Un atomo opaco del Male",
+    "w": [
+     "Un giardino fiorito",
+     "Un nido sicuro",
+     "Una stella lontana"
+    ],
+    "e": "La Terra è un atomo opaco del Male, dove vive l'ingiustizia."
+   }
+  ]
+ },
+ "Q2": {
+  "title": "Quiz 2 · L'assiuolo e Temporale",
+  "items": [
+   {
+    "p": "Che cos'è l'assiuolo?",
+    "a": "Un piccolo rapace notturno, simile al gufo",
+    "w": [
+     "Un fiore di campo",
+     "Un albero da frutto",
+     "Un uccello marino"
+    ],
+    "e": "L'assiuolo emette un verso monotono e malinconico."
+   },
+   {
+    "p": "Che valore ha il verso «chiù» alla fine di ogni strofa?",
+    "a": "È un presagio di morte, che diventa fonosimbolismo",
+    "w": [
+     "È un canto allegro di primavera",
+     "È un richiamo dei contadini",
+     "È il suono delle campane"
+    ],
+    "e": "Il suono «chiù» si trasforma in un grido di dolore e in un presagio di sventura."
+   },
+   {
+    "p": "Com'è l'atmosfera dell'assiuolo?",
+    "a": "Una notte serena solo in apparenza, carica di inquietudine",
+    "w": [
+     "Una giornata di festa in città",
+     "Un mattino di lavoro nei campi",
+     "Una tempesta sul mare"
+    ],
+    "e": "Il paesaggio notturno è sereno in apparenza, ma diventa sempre più inquieto."
+   },
+   {
+    "p": "Come si può definire lo stile di Temporale?",
+    "a": "Impressionistico: un'immagine rapida, quasi un'istantanea",
+    "w": [
+     "Narrativo, con molti personaggi",
+     "Epico, con battaglie e eroi",
+     "Argomentativo, come un saggio"
+    ],
+    "e": "Temporale è una ballata minima con immagini veloci di colori e sensazioni."
+   },
+   {
+    "p": "A che cosa è paragonato il casolare bianco in Temporale?",
+    "a": "A un'ala di gabbiano",
+    "w": [
+     "A una vela sul mare",
+     "A una nuvola di fumo",
+     "A un fiore di gelsomino"
+    ],
+    "e": "Nel cielo nero spicca un casolare: un'ala di gabbiano."
+   }
+  ]
+ },
+ "Q3": {
+  "title": "Quiz 3 · Novembre, Il lampo e Il gelsomino notturno",
+  "items": [
+   {
+    "p": "Con quale illusione si apre Novembre?",
+    "a": "Un'illusione di primavera: aria limpida e albicocchi in fiore",
+    "w": [
+     "Un'illusione di neve e di inverno",
+     "Il ricordo di un viaggio al mare",
+     "Un sogno di guerra"
+    ],
+    "e": "La luce fa pensare alla primavera, ma è solo un'illusione."
+   },
+   {
+    "p": "Come viene chiamato il periodo descritto in Novembre?",
+    "a": "L'estate fredda dei morti",
+    "w": [
+     "La primavera dei vivi",
+     "L'inverno del cuore",
+     "L'autunno della festa"
+    ],
+    "e": "La breve tregua climatica è l'estate fredda dei morti."
+   },
+   {
+    "p": "Che cosa appare e scompare nel Lampo?",
+    "a": "Una casa bianca, come un occhio che si apre e si chiude",
+    "w": [
+     "Una nave sul mare",
+     "Un uccello in volo",
+     "Un volto di donna"
+    ],
+    "e": "Nel lampo la casa appare e sparisce nella notte nera."
+   },
+   {
+    "p": "Per quale occasione è scritto Il gelsomino notturno?",
+    "a": "Per le nozze di un amico",
+    "w": [
+     "Per la morte della madre",
+     "Per la nascita di un nipote",
+     "Per la laurea della sorella"
+    ],
+    "e": "La poesia fu composta per le nozze dell'amico Gabriele Briganti."
+   },
+   {
+    "p": "Quale contrasto c'è nel Gelsomino notturno?",
+    "a": "La vita e l'amore nella casa, e l'erba che nasce sopra le tombe",
+    "w": [
+     "La città e la campagna",
+     "Il giorno e la scuola",
+     "La guerra e la pace"
+    ],
+    "e": "Mentre nella casa si celebra l'amore, fuori l'erba cresce sulle fosse: il poeta resta escluso."
+   }
+  ]
+ },
+ "Q4": {
+  "title": "Quiz 4 · I Poemetti e le ultime raccolte",
+  "items": [
+   {
+    "p": "Come sono i Primi poemetti e i Nuovi poemetti?",
+    "a": "Hanno un taglio più narrativo e ampio",
+    "w": [
+     "Sono brevissime poesie di una riga",
+     "Sono scritti in francese",
+     "Sono testi teatrali"
+    ],
+    "e": "I Poemetti presentano un taglio più narrativo e ampio."
+   },
+   {
+    "p": "Come appare il mondo contadino nei Poemetti?",
+    "a": "Come depositario di affetti, tradizioni e valori fondamentali",
+    "w": [
+     "Come un mondo da abbandonare",
+     "Come un luogo di violenza",
+     "Come un mondo che non interessa"
+    ],
+    "e": "La campagna è celebrata come luogo di affetti e valori."
+   },
+   {
+    "p": "Di che cosa parla la lirica Italy?",
+    "a": "Dell'emigrazione degli italiani in America",
+    "w": [
+     "Della guerra di Libia",
+     "Del Risorgimento",
+     "Della vita a Bologna"
+    ],
+    "e": "Italy affronta il dramma dell'emigrazione."
+   },
+   {
+    "p": "Che cos'è il socialismo umanitario di Pascoli?",
+    "a": "Una fede nella fratellanza universale, senza lotta di classe",
+    "w": [
+     "La lotta di classe rivoluzionaria",
+     "Il rifiuto di ogni idea politica",
+     "Il sostegno alla monarchia assoluta"
+    ],
+    "e": "Pascoli rifiuta la lotta di classe e crede nella fratellanza universale."
+   },
+   {
+    "p": "A chi sono dedicati molti saggi critici di Pascoli?",
+    "a": "All'opera di Dante",
+    "w": [
+     "All'opera di Zola",
+     "Alla poesia di Baudelaire",
+     "Ai romanzi di Verga"
+    ],
+    "e": "Pascoli fu studioso e commentatore, soprattutto di Dante."
+   }
+  ]
+ }
+}
