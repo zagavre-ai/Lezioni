@@ -1,0 +1,33 @@
+{
+ "tag": "letteratura-V-lez19",
+ "parti": {
+  "1": {
+   "stato": "IN_REVISIONE"
+  }
+ },
+ "manca": "",
+ "serve_master": [],
+ "domande_sara": [],
+ "note": [
+  {
+   "quando": "16/11 21:51",
+   "testo": "prova metodo 2 ore: revisione iniziata 16/11 21:47 UTC"
+  },
+  {
+   "quando": "17/11 07:58",
+   "testo": "17/11 08:00 UTC: consegna prevista entro le 09:00; correzioni: jingle, transizioni, ombre/card gialla, prof non tagliato a meta' frase, mai fermo immagine, sync. Aggiorno ogni 20 min"
+  },
+  {
+   "quando": "17/11 08:11",
+   "testo": "17/11 08:12 UTC: rifatta con le regole 00:40-08:15 (mappa solo del prof, durata nuova ~50:25, card gialle, jingle+transizioni, prof non tagliato). Codifica in corso, consegna prevista 08:50. Prossimo aggiornamento 08:32"
+  },
+  {
+   "quando": "17/11 08:29",
+   "testo": "17/11 ~08:27: video nuovo assemblato (50:25), in corso misure (sync, fermi, silenzi, jingle). Consegna prevista 08:50. Prossimo aggiornamento 08:47"
+  }
+ ],
+ "materia": "Letteratura italiana V",
+ "lezione": "Lezione 19 · Dal secondo dopoguerra a oggi",
+ "docente": "Prof. Giorgio Mazzotti",
+ "aggiornato": "2026-11-17 08:29:06"
+}
