@@ -1,0 +1,107 @@
+{
+ "titolo": "Verifica finale · Letteratura V · Lezione 16 · Umberto Saba",
+ "fonte": "DOMANDE LEZIONE 16.xlsx del prof. Giorgio Mazzotti",
+ "soglia": 0.8,
+ "domande": [
+  {
+   "n": 1,
+   "p": "In quale sezione del Canzoniere sono contenuti i componimenti \"A mia moglie\" e \"La capra\"?",
+   "a": "Casa e campagna",
+   "w": [
+    "Trieste e una donna",
+    "Mediterranee",
+    "Parole"
+   ]
+  },
+  {
+   "n": 2,
+   "p": "Quale funzione fondamentale attribuisce Saba alla poesia?",
+   "a": "Una funzione terapeutica di indagine della verità che giace nel fondo dell'inconscio",
+   "w": [
+    "Una funzione puramente estetica e di evasione dalla realtà quotidiana",
+    "Una funzione di celebrazione patriottica e politica delle avanguardie",
+    "Una funzione di fuga simbolica verso un mondo ideale e privo di dolore"
+   ]
+  },
+  {
+   "n": 3,
+   "p": "Quale città fa da sfondo e ispira la lirica \"Città vecchia\"?",
+   "a": "Trieste",
+   "w": [
+    "Firenze",
+    "Milano",
+    "Roma"
+   ]
+  },
+  {
+   "n": 4,
+   "p": "La serie di testi intitolata \"Cinque poesie per il gioco del calcio\" fa parte di quale sezione?",
+   "a": "Parole",
+   "w": [
+    "Mediterranee",
+    "Trieste e una donna",
+    "Cuore"
+   ]
+  },
+  {
+   "n": 5,
+   "p": "Quale drammatica situazione familiare segnò profondamente l'infanzia di Umberto Saba e la scelta del suo pseudonimo?",
+   "a": "Il padre abbandonò la famiglia prima della sua nascita e il poeta scelse \"Saba\" in omaggio alla nutrice Peppa Sabaz, che gli fece da madre",
+   "w": [
+    "La morte prematura della madre lo costrinse a vivere in un orfanotrofio, dove decise di adottare il cognome di un compagno di studi",
+    "L'esilio forzato da Trieste a causa delle leggi razziali lo spinse a cambiare identità per sfuggire alle persecuzioni",
+    "La rigida educazione militare imposta dallo zio lo portò a rifiutare il cognome paterno per assumerne uno di fantasia"
+   ]
+  },
+  {
+   "n": 6,
+   "p": "Da un punto di vista formale e stilistico, per quale particolare accostamento si caratterizza la scrittura del Canzoniere di Saba?",
+   "a": "L'uso di un lessico dimesso e quotidiano unito a una sintassi di ascendenza letteraria e a schemi metrici tradizionali",
+   "w": [
+    "Il rifiuto totale della metrica classica a favore del verso libero e di un linguaggio esclusivamente gergale",
+    "L'adozione dello stile provocatorio e distruttivo tipico delle avanguardie del Novecento",
+    "L'impiego costante di una complessa trama di simboli astratti per nascondere completamente la realtà concreta"
+   ]
+  },
+  {
+   "n": 7,
+   "p": "Che cos'è Ernesto, all'interno della produzione letteraria di Umberto Saba?",
+   "a": "Il suo romanzo incompiuto e postumo, di forte impronta autobiografica, che affronta il tema dell'iniziazione sessuale e della scoperta di sé",
+   "w": [
+    "La sua prima raccolta poetica giovanile, scritta interamente in versi liberi e pubblicata a proprie spese a Trieste",
+    "Un dramma teatrale in tre atti incentrato sulle persecuzioni subite a causa delle leggi razziali del 1938",
+    "Una raccolta di racconti brevi e saggi critici dedicati alla psicanalisi di Sigmund Freud e Friedrich Nietzsche"
+   ]
+  },
+  {
+   "n": 8,
+   "p": "In che modo l'immagine femminile delineata da Saba in \"A mia moglie\" si differenzia dalla tradizione poetica italiana?",
+   "a": "Risulta del tutto insolita e originale perché la donna viene descritta attraverso una serie di paragoni con gli animali della campagna, anziché attraverso immagini idealizzate e stereotipate",
+   "w": [
+    "Viene presentata come una figura angelica e astratta, priva di qualsiasi legame con il mondo naturale o la realtà quotidiana",
+    "Si caratterizza per l'uso esclusivo di metafore complesse e simboliste che nascondono i comportamenti e i gesti concreti della donna",
+    "Viene ritratta attraverso una prospettiva conformistica tipica dell'uomo adulto, rifiutando lo sguardo spontaneo del fanciullo"
+   ]
+  },
+  {
+   "n": 9,
+   "p": "Che cos'è la \"Storia e cronistoria del Canzoniere\" nella produzione di Umberto Saba?",
+   "a": "Un'opera in prosa scritta in terza persona in cui il poeta stesso commenta i propri testi, offrendo ai lettori una guida critica e un'autobiografia intellettuale",
+   "w": [
+    "Una raccolta di saggi storici dedicati esclusivamente alle vicende politiche di Trieste durante la Prima guerra mondiale",
+    "Un saggio accademico scritto da critici contemporanei per analizzare le varianti metriche apportate da Saba alle sue poesie",
+    "Il diario privato e segreto del poeta in cui sono annotate le sedute terapeutiche tenute con i medici triestini"
+   ]
+  },
+  {
+   "n": 10,
+   "p": "Nell'analisi del testo della poesia \"Ulisse\", quale significato simbolico assumono rispettivamente la \"navigazione in mare aperto\" e il \"porto\"?",
+   "a": "La navigazione in mare aperto simboleggia le scelte coraggiose e avventurose della vita, mentre il porto indica la comodità pigra di chi si chiude nelle proprie abitudini",
+   "w": [
+    "La navigazione in mare aperto rappresenta la fuga dolorosa dalle persecuzioni razziali, mentre il porto indica la salvezza definitiva trovata a Trieste",
+    "La navigazione in mare aperto richiama i viaggi commerciali compiuti da Saba in gioventù, mentre il porto rappresenta il suo lavoro nella libreria antiquaria",
+    "La navigazione in mare aperto descrive la fine della vita e della ricerca della verità, mentre il porto simboleggia l'inizio della giovinezza e delle sue speranze"
+   ]
+  }
+ ]
+}
