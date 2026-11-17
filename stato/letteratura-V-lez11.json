@@ -2,13 +2,13 @@
  "tag": "letteratura-V-lez11",
  "parti": {
   "1": {
-   "stato": "IN_REVISIONE",
+   "stato": "REVISIONATA",
    "video": "Letteratura_Lez11_Parte1_1080p.mp4",
-   "durata_s": 3100.4,
-   "durata": "51:40.4",
-   "fotogrammi": 93010,
-   "fotogrammi_attesi": 93011,
-   "peso_MB": 240.0
+   "durata_s": 3104.0,
+   "durata": "51:44.0",
+   "fotogrammi": 93120,
+   "fotogrammi_attesi": 93120,
+   "peso_MB": 240.1
   }
  },
  "manca": "",
@@ -30,7 +30,11 @@
   {
    "quando": "17/11 07:32",
    "testo": "Aggiornamento 20 min: nuovi confini del prof a fine frase (D2, D3 allungati), card in corso gialla, jingle titolo/ripasso/trans, in ricodifica. Consegna prevista: entro 40 min."
+  },
+  {
+   "quando": "17/11 08:02",
+   "testo": "REVISIONATA 17/11: jingle, card gialla, prof a fine frase, secondi aggiornati (vedi RAPPORTO §6-ter)"
   }
  ],
- "aggiornato": "2026-11-17 07:32:00"
+ "aggiornato": "2026-11-17 08:02:13"
 }
