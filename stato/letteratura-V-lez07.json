@@ -2,7 +2,7 @@
  "tag": "letteratura-V-lez07",
  "parti": {
   "1": {
-   "stato": "IN_REVISIONE",
+   "stato": "REVISIONATA",
    "voci": "kore",
    "quiz_ok": "si",
    "fermi_ok": "si",
@@ -12,7 +12,7 @@
    "durata": "55:50.6",
    "fotogrammi": 100518,
    "fotogrammi_attesi": 100518,
-   "peso_MB": 207.6,
+   "peso_MB": 207.7,
    "vtt": "Letteratura_Lez7_Parte1.vtt"
   }
  },
@@ -59,10 +59,14 @@
   {
    "quando": "17/11 17:18",
    "testo": "18:18 IT: correggo titolo slide pag. 19 (a capo, a sinistra del riquadro); ricodifica pezzo D3; consegna prevista entro 19:00 (ora italiana)"
+  },
+  {
+   "quando": "17/11 17:34",
+   "testo": "18:34 IT: titolo pag. 19 corretto e riconsegnato su revisione-letteratura-V-lez07"
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 7",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-17 17:18:28"
+ "aggiornato": "2026-11-17 17:34:23"
 }
