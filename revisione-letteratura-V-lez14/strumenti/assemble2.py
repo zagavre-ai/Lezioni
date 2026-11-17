@@ -24,6 +24,20 @@ def edge(f,which):
     if which=='first': sh(['ffmpeg','-v','error','-y','-i',f,'-frames:v','1',png])
     else: sh(['ffmpeg','-v','error','-y','-sseof','-0.2','-i',f,'-update','1','-q:v','2',png])
     return png
+import wave as _w
+def _rd(f):
+    w=_w.open(f);a=np.frombuffer(w.readframes(w.getnframes()),np.int16);ch=w.getnchannels();w.close()
+    return a.reshape(-1,ch)
+def _w48(src,dst):
+    subprocess.run(['ffmpeg','-v','error','-y','-i',src,'-ar','48000','-ac','2','-c:a','pcm_s16le',dst],check=True)
+for nm in ('trans','repaso'):
+    _w48(f'/tmp/w14/kitprod/v1/home/claude/v5/snd/{nm}.wav',f'/tmp/w14/snd_{nm}.wav')
+TRANS=_rd('/tmp/w14/snd_trans.wav').astype(float);REP=_rd('/tmp/w14/snd_repaso.wav').astype(float)
+def mixjingle(g,kind,gapf):
+    n=gapf*1600;j=(REP if kind=='S' else TRANS)[:n].copy()*(0.4 if kind=='S' else 2.0)
+    f=min(len(j),int(0.25*48000));j[-f:]*=np.linspace(1,0,f)[:,None]
+    out=g.astype(float).copy();out[:len(j)]+=j
+    return np.clip(out,-32768,32767).astype(np.int16)
 def addpiece(name,vfile,nfr,audio,gapf,gapaud,oldname,oldstart):
     global cur,prevf
     if prevf is not None and gapf>0:
@@ -31,7 +45,9 @@ def addpiece(name,vfile,nfr,audio,gapf,gapaud,oldname,oldstart):
         sh(['ffmpeg','-v','error','-y','-loop','1','-framerate','30','-t',f'{D+0.1:.3f}','-i',a,'-loop','1','-framerate','30','-t',f'{D+0.1:.3f}','-i',b,'-filter_complex',f'[0][1]xfade=transition=fade:duration={D:.4f}:offset=0,format=yuv420p','-frames:v',str(gapf),*ENC,o])
         seq.append(o);cur+=gapf
         g=gapaud[:gapf*1600]
+        kind='S' if (oldname[0]=='S' and oldname[1:].isdigit()) else ('Q' if (oldname[0]=='Q' and oldname[1:].isdigit()) else 'T')
         if len(g)<gapf*1600: g=np.pad(g,((0,gapf*1600-len(g)),(0,0)))
+        if kind!='Q': g=mixjingle(g,kind,gapf)
         aud.append(g)
     newtl.append([oldname,round(cur/30,3),round(nfr/30,3),oldstart])
     seq.append(vfile);aud.append(audio[:nfr*1600] if len(audio)>=nfr*1600 else np.pad(audio,((0,nfr*1600-len(audio)),(0,0))));cur+=nfr;prevf=vfile
