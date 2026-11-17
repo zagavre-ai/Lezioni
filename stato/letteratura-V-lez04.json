@@ -2,7 +2,7 @@
  "tag": "letteratura-V-lez04",
  "parti": {
   "1": {
-   "stato": "REVISIONATA",
+   "stato": "IN_REVISIONE",
    "titolo": "Naturalismo e Verismo",
    "voci": "kore",
    "quiz_ok": "si",
@@ -17,7 +17,7 @@
    "vtt": "Letteratura_Lez4_Parte1.vtt"
   }
  },
- "manca": "consegna prevista 09:30 (ora italiana)",
+ "manca": "ripresa: controllo finale sottotitoli e ritocchi; consegna prevista entro 60 minuti",
  "serve_master": [
   {
    "quando": "16/11 23:33",
@@ -73,7 +73,11 @@
   {
    "quando": "17/11 08:32",
    "testo": "REVISIONATA v2 sul ramo revisione-letteratura-V-lez04: 49:08,8, 88463 fotogrammi, -16,6 LUFS, picco -1,9 dBTP, jingle quiz OK, sync -0,02 s. Durata sotto 50 min e secondi quiz/verifica/compiti cambiati: scheda e timeline aggiornate. Sottotitoli da guardare (attacco 70%). Vedi RAPPORTO_REVISIONE.md"
+  },
+  {
+   "quando": "17/11 17:18",
+   "testo": "ripresa lavoro: letti aggiornamenti fino alle 10:19; unico punto aperto: sync sottotitoli 70% e etichetta mappa a sinistra"
   }
  ],
- "aggiornato": "2026-11-17 08:32:59"
+ "aggiornato": "2026-11-17 17:18:29"
 }
