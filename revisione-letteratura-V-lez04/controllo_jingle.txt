@@ -1,0 +1,4 @@
+Q1 atteso 738.000 trovato 738.004 scarto +0.004 OK
+Q2 atteso 1400.333 trovato 1400.338 scarto +0.005 OK
+Q3 atteso 2409.700 trovato 2409.704 scarto +0.005 OK
+Q4 atteso 2854.200 trovato 2854.203 scarto +0.003 OK
