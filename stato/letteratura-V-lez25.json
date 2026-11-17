@@ -25,10 +25,14 @@
   {
    "quando": "16/11 23:01",
    "testo": "Rifatta tutta la grafica nel modello Spagnolo; ricodifica in corso. Trovato scarto audio/video del vecchio montaggio (fino a 0,5 s): audio rifatto sui tempi veri."
+  },
+  {
+   "quando": "17/11 07:28",
+   "testo": "07:30 UTC: consegna prevista 08:30 UTC (1 h). In corso: mappa del prof al posto delle 7 nostre (voce nuova R2), prof tagliato solo a fine frase, silenzi >3 s tolti, jingle/transizioni, card gialla e ombre grigie. Aggiorno ogni 20 min."
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 25 · Pasolini",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-16 23:01:11"
+ "aggiornato": "2026-11-17 07:28:54"
 }
