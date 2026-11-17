@@ -49,7 +49,11 @@
   {
    "quando": "17/11 18:14",
    "testo": "19:20 IT: segmenti video in codifica (riquadro 4:3 dall'originale), poi concat+audio+controlli"
+  },
+  {
+   "quando": "17/11 18:34",
+   "testo": "19:50 IT: video rifatto nel modello in codifica finale; corretto taglio a meta' frase al fine pezzo 4 (spostato di 1,03 s: aggiornati quiz4/arg5 nella scheda); poi controlli e consegna"
   }
  ],
- "aggiornato": "2026-11-17 18:14:47"
+ "aggiornato": "2026-11-17 18:34:11"
 }
