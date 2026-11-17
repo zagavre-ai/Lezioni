@@ -1,0 +1,253 @@
+{
+ "materia": "Letteratura italiana (V)",
+ "titolo": "Letteratura V · Lezione 14 · Pirandello · Parte 1",
+ "durata_s": 2745.43,
+ "argomenti": [
+  {
+   "n": 1,
+   "titolo": "Pirandello e la crisi del primo Novecento",
+   "inizio_s": 236.367,
+   "quiz_s": 1230.1
+  },
+  {
+   "n": 2,
+   "titolo": "La visione del mondo e l'umorismo",
+   "inizio_s": 1235.4,
+   "quiz_s": 1738.333
+  },
+  {
+   "n": 3,
+   "titolo": "Il fu Mattia Pascal",
+   "inizio_s": 1743.633,
+   "quiz_s": 2264.167
+  },
+  {
+   "n": 4,
+   "titolo": "Uno, nessuno e centomila",
+   "inizio_s": 2269.467,
+   "quiz_s": 2622.933
+  }
+ ],
+ "quiz": {
+  "Q1": {
+   "title": "Quiz 1 · Pirandello e la crisi del primo Novecento",
+   "items": [
+    {
+     "p": "Dove nasce Luigi Pirandello?",
+     "a": "A Girgenti, l'antica Agrigento, in Sicilia",
+     "w": [
+      "A Milano",
+      "A Roma",
+      "A Napoli"
+     ],
+     "e": "Nasce in Sicilia da una famiglia agiata di condizione borghese."
+    },
+    {
+     "p": "Che cosa provoca il dissesto economico della famiglia?",
+     "a": "La crisi delle miniere di zolfo in cui era investito il patrimonio",
+     "w": [
+      "Il fallimento di una banca",
+      "Una guerra",
+      "Un incendio"
+     ],
+     "e": "Nelle miniere erano investiti anche i soldi della dote della moglie."
+    },
+    {
+     "p": "Che cosa accade alla moglie Antonietta Portulano?",
+     "a": "Si ammala di mente",
+     "w": [
+      "Muore giovane",
+      "Diventa scrittrice",
+      "Lascia la famiglia"
+     ],
+     "e": "Ha una malattia mentale, con anche ricoveri."
+    },
+    {
+     "p": "Da quali pensatori è influenzato Pirandello?",
+     "a": "Dal vitalismo di Bergson e dalle teorie psicologiche di Binet",
+     "w": [
+      "Da Marx e Engels",
+      "Da Kant e Hegel",
+      "Da Croce e Gentile"
+     ],
+     "e": "Bergson e Binet sono alla base della sua visione della pluralità dell'io."
+    },
+    {
+     "p": "Che cosa demolisce Pirandello con la crisi dell'io?",
+     "a": "Il concetto di identità personale e di realtà oggettiva",
+     "w": [
+      "Il concetto di patria",
+      "Il concetto di scienza",
+      "Il concetto di fede"
+     ],
+     "e": "L'io non è unico: è un prisma di tante sfumature."
+    }
+   ]
+  },
+  "Q2": {
+   "title": "Quiz 2 · La visione del mondo e l'umorismo",
+   "items": [
+    {
+     "p": "Che cos'è l'«avvertimento del contrario»?",
+     "a": "Il comico, che nasce dalla percezione di una situazione ridicola",
+     "w": [
+      "Il drammatico",
+      "Un tipo di verso",
+      "La riflessione sul destino"
+     ],
+     "e": "È la prima impressione, prima della riflessione."
+    },
+    {
+     "p": "Che cos'è il «sentimento del contrario»?",
+     "a": "Il drammatico e tragico che emerge dalla riflessione",
+     "w": [
+      "Il riso immediato",
+      "L'ironia sociale",
+      "Il distacco razionale"
+     ],
+     "e": "Dopo la riflessione si scopre qualcosa di triste dietro il ridicolo."
+    },
+    {
+     "p": "A che cosa si riduce l'identità individuale secondo la slide sulla trappola sociale?",
+     "a": "A una maschera inconsistente imposta dalle convenzioni sociali",
+     "w": [
+      "A un'idea astratta",
+      "A una tradizione familiare",
+      "A un talento personale"
+     ],
+     "e": "Ognuno recita un ruolo."
+    },
+    {
+     "p": "Quali istituzioni imprigionano l'uomo?",
+     "a": "La famiglia e il lavoro",
+     "w": [
+      "La scuola e la Chiesa",
+      "Lo Stato e l'esercito",
+      "La stampa e il teatro"
+     ],
+     "e": "Le istituzioni sociali lo costringono in una condizione infelice."
+    },
+    {
+     "p": "Quali vie di fuga individua Pirandello?",
+     "a": "La follia, l'immaginazione, il contatto con la natura",
+     "w": [
+      "La fede e la politica",
+      "La ricchezza e il potere",
+      "Il viaggio e il lavoro"
+     ],
+     "e": "Sono modi di rifiutare il sociale."
+    }
+   ]
+  },
+  "Q3": {
+   "title": "Quiz 3 · Il fu Mattia Pascal",
+   "items": [
+    {
+     "p": "Quale nuova identità si costruisce Mattia Pascal?",
+     "a": "Adriano Meis",
+     "w": [
+      "Vitangelo Moscarda",
+      "Serafino Gubbio",
+      "Leone Gala"
+     ],
+     "e": "Dopo essere stato creduto morto."
+    },
+    {
+     "p": "Perché fallisce la nuova identità?",
+     "a": "Per l'impossibilità di stabilire legami sociali legali",
+     "w": [
+      "Perché viene scoperto dalla polizia",
+      "Perché è troppo povero",
+      "Perché si ammala"
+     ],
+     "e": "Senza identità riconosciuta non si possono avere legami."
+    },
+    {
+     "p": "Come si definisce alla fine Mattia Pascal?",
+     "a": "Un «forestiere della vita»",
+     "w": [
+      "Un eroe",
+      "Un vincitore",
+      "Un uomo libero"
+     ],
+     "e": "Resta in una condizione sospesa, narratore inattendibile."
+    },
+    {
+     "p": "Che cosa critica il romanzo di Serafino Gubbio?",
+     "a": "La civiltà industriale e le macchine, che alienano l'uomo",
+     "w": [
+      "La politica fascista",
+      "La borghesia agraria",
+      "La scuola"
+     ],
+     "e": "Le macchine diventano i nuovi padroni."
+    },
+    {
+     "p": "Come finisce il romanzo di Serafino Gubbio?",
+     "a": "Il protagonista, dopo un delitto reale, si chiude nel mutismo",
+     "w": [
+      "Si sposa",
+      "Diventa un inventore",
+      "Parte per la guerra"
+     ],
+     "e": "Adotta un distacco filosofico totale."
+    }
+   ]
+  },
+  "Q4": {
+   "title": "Quiz 4 · Uno, nessuno e centomila",
+   "items": [
+    {
+     "p": "Chi è il protagonista di «Uno, nessuno e centomila»?",
+     "a": "Vitangelo Moscarda",
+     "w": [
+      "Mattia Pascal",
+      "Serafino Gubbio",
+      "Enrico IV"
+     ],
+     "e": "È il punto di arrivo della parabola pirandelliana."
+    },
+    {
+     "p": "Che atteggiamento ha Moscarda verso la perdita d'identità?",
+     "a": "La accetta come condizione positiva e liberatoria",
+     "w": [
+      "La vive con angoscia",
+      "La rifiuta",
+      "La nasconde"
+     ],
+     "e": "A differenza di Mattia Pascal."
+    },
+    {
+     "p": "Che cosa fa scattare la sua crisi?",
+     "a": "Un'imperfezione, il naso, vista dagli altri in modo diverso",
+     "w": [
+      "Un'eredità",
+      "Un tradimento",
+      "Una malattia"
+     ],
+     "e": "Diventa una grande paranoia."
+    },
+    {
+     "p": "Che cosa rifiuta Moscarda alla fine?",
+     "a": "Il proprio nome",
+     "w": [
+      "La famiglia",
+      "Il denaro",
+      "La città"
+     ],
+     "e": "Si immerge nel flusso della vita."
+    },
+    {
+     "p": "Con che cosa si fonde Moscarda?",
+     "a": "Con la natura, nel flusso mutevole della vita",
+     "w": [
+      "Con la folla",
+      "Con la macchina",
+      "Con il teatro"
+     ],
+     "e": "Muore e rinasce in ogni istante."
+    }
+   ]
+  }
+ }
+}
