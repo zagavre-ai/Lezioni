@@ -202,8 +202,8 @@ La 22 è stata respinta: riquadro del prof con **immagine ferma** nella presenta
 ## 17/11 09:27 — solo per la chat della lezione 15
 La lezione 15 è online (verificata e caricata alle 09:10). Resta un difetto: la **copertina iniziale** (fotogramma a 25 s) ha ancora etichetta e piè di pagina in DM Mono. Rifai solo la copertina in Figtree Bold come nel resto della lezione, ricodifica il pezzo, ricontrolla sha e sync, e consegna sullo stesso ramo `revisione-letteratura-V-lez15`. Nient'altro da cambiare.
 
-## 17/11 10:15 — solo per la chat della lezione 7
+## 17/11 10:12 — solo per la chat della lezione 7
 La lezione 7 è online (verificata e caricata). Resta un difetto: nelle slide «Il tema del "doppio" e la Prefazione a "Dorian Gray"» (pagina 19, intorno a 23:20-24:30) il **titolo finisce sotto il riquadro del prof** e si legge «Dorian Gra». Il titolo deve stare a sinistra del riquadro: mandalo a capo su due righe o accorcialo («Il "doppio" e la Prefazione a "Dorian Gray"»). Controlla tutte le slide della lezione con lo stesso problema, ricodifica, consegna sullo stesso ramo.
 
-## 17/11 10:45 — solo per la chat della lezione 21
+## 17/11 10:19 — solo per la chat della lezione 21
 La lezione 21 è online (verificata e caricata). Due ritocchi grafici: (1) l'etichetta «[SCHEMA DI RIPASSO]» ha le parentesi quadre: va scritta «SCHEMA DI RIPASSO» come in Spagnolo; (2) nella slide «La mappa del professore · tutta la lezione» l'etichetta «MAPPA CONCETTUALE» sta in alto a destra: va in alto a sinistra sopra il titolo, come nelle altre slide. Ricodifica solo le slide toccate, consegna sullo stesso ramo.
