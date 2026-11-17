@@ -2,7 +2,18 @@
  "tag": "letteratura-V-lez12",
  "parti": {
   "1": {
-   "stato": "IN_REVISIONE"
+   "stato": "REVISIONATA",
+   "voci": "kore",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "si",
+   "video": "Letteratura_Lez12_Parte1_1080p.mp4",
+   "durata_s": 3328.2,
+   "durata": "55:28.2",
+   "fotogrammi": 99845,
+   "fotogrammi_attesi": 99845,
+   "peso_MB": 317.8,
+   "vtt": "Letteratura_Lez12.vtt"
   }
  },
  "manca": "",
@@ -32,7 +43,11 @@
   {
    "quando": "17/11 08:13",
    "testo": "08:13: trovato e corretto un difetto (riquadro del prof fermo nel montaggio); ricodifico i 6 pezzi del prof (circa 10 min), poi controlli finali e push. Consegna prevista entro 08:43 UTC"
+  },
+  {
+   "quando": "17/11 08:32",
+   "testo": "REVISIONATA 08:32: ramo revisione-letteratura-V-lez12, video 55:28 (3328,2 s), 99845 fotogrammi, 318 MB; vedi RAPPORTO_REVISIONE.md"
   }
  ],
- "aggiornato": "2026-11-17 08:13:19"
+ "aggiornato": "2026-11-17 08:32:38"
 }
