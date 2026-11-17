@@ -10,6 +10,10 @@
   {
    "quando": "16/11 18:16",
    "testo": "Whisper non scaricabile (Hugging Face 403): serve modello locale o host abilitato"
+  },
+  {
+   "quando": "17/11 07:37",
+   "testo": "Lezione 5 non consegnabile in 1 ora: rifacimento grafico completo da pianificare"
   }
  ],
  "domande_sara": [],
@@ -33,7 +37,11 @@
   {
    "quando": "17/11 07:30",
    "testo": "08:30 IT: consegna prevista 09:30 SOLO per i file di contorno (compiti, verifica, vtt corretto, mappe, tabelle di controllo). Il video rifatto nel modello NON entra in 1 ora: scrivo il motivo nel rapporto"
+  },
+  {
+   "quando": "17/11 07:37",
+   "testo": "09:00 IT: consegnati contorno (vtt, mappe, verifica, compiti, audio -0,8dB). Video NON rifatto nel modello: serve 4-5 ore. Vedi RAPPORTO_REVISIONE.md"
   }
  ],
- "aggiornato": "2026-11-17 07:30:27"
+ "aggiornato": "2026-11-17 07:37:15"
 }
