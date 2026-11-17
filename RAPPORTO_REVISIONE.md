@@ -9,6 +9,7 @@ Etichette: **[misurato]**, **[stima]**, **[non verificato]**.
 - **Jingle Quiz** (`controllo_jingle.py`): Q1–Q4 scatto a +0,005 s dall'attacco atteso, OK [misurato]. Aggiunti anche `titolo.wav` sui 4 titoli, `repaso.wav` sui 4 ripassi, `trans.wav` in 22 transizioni, `finale.wav` sul finale, quiz.wav su Verifica e Compiti [misurato per Q e T; gli altri inseriti, non misurati].
 - **Fermi immagine**: nessun fermo ≥ 1,5 s nei 5 pezzi del prof [misurato, `freezedetect`]. Nelle dissolvenze (1,3–1,6 s) tra un pezzo e l'altro l'ultimo fotogramma del pezzo precedente resta fermo mentre sfuma (transizione, non fermo).
 - Il riquadro del prof compare **solo con il prof vivo** (D0, D1–D4); presentazione con voce narrante senza riquadro [misurato].
+- Correzione 18:30 (richiesta 10:12): titolo della slide pagina 19 (23:20–24:30 circa, nel video 22:50–24:30) mandato a capo su due righe a sinistra del riquadro; verificato a fotogramma (min. 23:40) e controllate le altre slide col riquadro (titoli più corti, nessuna sovrapposizione) [misurato a vista]. Ricodificato D3 e rifatto il PDF slide; sha256 e parti rifatti.
 - Contatto: `controllo_minuti.jpg` (1 fotogramma ogni 30 s, 112 fotogrammi) [misurato].
 
 ### Fine e inizio di ogni pezzo del prof (regola 01:25)
