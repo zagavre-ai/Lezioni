@@ -2,7 +2,7 @@
  "tag": "letteratura-V-lez12",
  "parti": {
   "1": {
-   "stato": "IN_MONTAGGIO"
+   "stato": "IN_REVISIONE"
   }
  },
  "manca": "",
@@ -24,10 +24,14 @@
   {
    "quando": "17/11 00:04",
    "testo": "Avanzamento 01:04: compositing video in corso, sottotitoli e PDF pronti, nuove voci R7-R12 in attesa. Consegna prevista 06:30 IT."
+  },
+  {
+   "quando": "16/11 23:21",
+   "testo": "agente; consegna prevista 10:30 (ora italiana = UTC+1). Partenza 08:18: rifaccio tutta la lezione nel modello Spagnolo (riquadro 4:3, fascia gialla, Figtree, jingle, transizioni, mappa del prof)."
   }
  ],
  "materia": "Letteratura Italiana V",
  "lezione": "Lezione 12",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-17 00:04:02"
+ "aggiornato": "2026-11-16 23:21:52"
 }
