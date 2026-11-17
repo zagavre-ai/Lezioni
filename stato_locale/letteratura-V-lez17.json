@@ -28,9 +28,13 @@
   {
    "quando": "17/11 17:29",
    "testo": "40min: voce MAP1 arrivata, mappa del prof nel video (+~2 min). Tutti i pezzi pronti tranne D6 in ricodifica; poi mux, misure (picco, sync, fermi, jingle), PDF/vtt/scheda nuovi e push. Consegna prevista entro 20 min"
+  },
+  {
+   "quando": "17/11 17:38",
+   "testo": "60min: video v2 montato (95955 fotogrammi, 3198,5 s, 394 MB, -16,8 LUFS, picco -2,3). Jingle Quiz OK (+-0,002 s), sync prof max 0,018 s. Mappa del prof inserita. Manca solo controllo fermi immagine, rapporto e push: consegna entro ~15 min"
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "17",
- "aggiornato": "2026-11-17 17:29:36"
+ "aggiornato": "2026-11-17 17:38:12"
 }

@@ -1,7 +1,7 @@
 {
  "materia": "Letteratura italiana (V)",
  "titolo": "Letteratura V · Lezione 17 · Giuseppe Ungaretti e l'Ermetismo",
- "durata_s": 3096.97,
+ "durata_s": 3198.5,
  "argomenti": [
   {
    "n": 1,
@@ -13,31 +13,31 @@
    "n": 2,
    "titolo": "In memoria e l'Ermetismo",
    "inizio_s": 744.967,
-   "quiz_s": 1297.833
+   "quiz_s": 1293.633
   },
   {
    "n": 3,
    "titolo": "Veglia e San Martino del Carso",
-   "inizio_s": 1303.133,
-   "quiz_s": 1677.933
+   "inizio_s": 1298.933,
+   "quiz_s": 1670.733
   },
   {
    "n": 4,
    "titolo": "Mattina, Soldati e Fratelli",
-   "inizio_s": 1683.233,
-   "quiz_s": 2121.5
+   "inizio_s": 1676.033,
+   "quiz_s": 2106.0
   },
   {
    "n": 5,
    "titolo": "Sentimento del tempo",
-   "inizio_s": 2126.8,
-   "quiz_s": 2662.367
+   "inizio_s": 2111.3,
+   "quiz_s": 2644.267
   },
   {
    "n": 6,
    "titolo": "L'Ermetismo: Quasimodo e Luzi",
-   "inizio_s": 2667.667,
-   "quiz_s": 3005.0
+   "inizio_s": 2649.567,
+   "quiz_s": 2987.067
   }
  ],
  "quiz": {
