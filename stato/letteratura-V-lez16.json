@@ -2,7 +2,7 @@
  "tag": "letteratura-V-lez16",
  "parti": {
   "1": {
-   "stato": "IN_REVISIONE",
+   "stato": "REVISIONATA",
    "titolo": "Umberto Saba",
    "voci": "kore",
    "quiz_ok": "si",
@@ -13,7 +13,7 @@
    "durata": "55:11.7",
    "fotogrammi": 99351,
    "fotogrammi_attesi": 99351,
-   "peso_MB": 248.4,
+   "peso_MB": 205.9,
    "vtt": "Letteratura_Lez16_Parte1.vtt",
    "scheda": {
     "materia": "Letteratura italiana (V)",
@@ -378,10 +378,14 @@
   {
    "quando": "17/11 08:19",
    "testo": "09:20 it. consegna prevista 09:45. Video finale codificato (196 MB, 99351 fotogrammi); ricodifico un gruppo dopo la correzione di un silenzio di 6 s; poi rapporto e push."
+  },
+  {
+   "quando": "17/11 08:28",
+   "testo": "09:30 it. REVISIONATA. Ramo revisione-letteratura-V-lez16 (RAPPORTO_REVISIONE.md). Durata 55:11,7, 99351 fotogrammi, 205,9 MB. Quiz Q2 e Q3 cambiano secondo (1694,97 e 2821,03): sono già in scheda_pubblicazione.json e timeline_P1.json. Non verificato all'ascolto; da confermare col prof le differenze elencate nel rapporto."
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 16 · Umberto Saba",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-17 08:19:17"
+ "aggiornato": "2026-11-17 08:28:31"
 }
