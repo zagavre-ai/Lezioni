@@ -416,12 +416,14 @@ function head(){
 }
 function accesso(){
   const box=document.createElement('div');
-  box.innerHTML='<div style="position:fixed;inset:0;background:rgba(10,29,55,.55);display:flex;align-items:center;justify-content:center;padding:16px;z-index:9"><div class="card" style="padding:20px;max-width:360px;width:100%"><h3 style="margin:0 0 8px;color:var(--navy)">Accesso docente</h3><p style="margin:0 0 12px;font-size:14px;color:var(--mut)">Scrivi il tuo codice docente. Questo computer lo ricorderà.</p><input type="text" id="pinx" autocomplete="off" style="width:100%;font-size:18px;letter-spacing:.15em;text-transform:uppercase;border:1px solid var(--line);border-radius:6px;padding:8px"><p id="pine" style="color:#b3261e;font-size:13px;min-height:18px;margin:6px 0"></p><div style="display:flex;gap:8px;justify-content:flex-end"><button class="btn" id="pinc">Annulla</button><button class="btn pri" id="pino">Entra</button></div></div></div>';
+  box.innerHTML='<div style="position:fixed;inset:0;background:rgba(10,29,55,.55);display:flex;align-items:center;justify-content:center;padding:16px;z-index:9"><div class="card" style="padding:20px;max-width:360px;width:100%"><h3 style="margin:0 0 8px;color:var(--navy)">Entra con il codice</h3><p style="margin:0 0 12px;font-size:14px;color:var(--mut)">Docenti: il codice personale. Famiglie e alunni: il codice dell’alunno ricevuto dalla scuola.</p><input type="text" id="pinx" autocomplete="off" style="width:100%;font-size:18px;letter-spacing:.15em;text-transform:uppercase;border:1px solid var(--line);border-radius:6px;padding:8px"><p id="pine" style="color:#b3261e;font-size:13px;min-height:18px;margin:6px 0"></p><div style="display:flex;gap:8px;justify-content:flex-end"><button class="btn" id="pinc">Annulla</button><button class="btn pri" id="pino">Entra</button></div></div></div>';
   document.body.appendChild(box);const inp=box.querySelector('#pinx');inp.focus();
   box.querySelector('#pinc').onclick=()=>box.remove();
   const go=()=>{const p=inp.value.trim().toUpperCase();if(!p)return;box.querySelector('#pine').textContent='Controllo…';
     docenti().then(()=>pinhash(p)).then(h=>{
-      if(!DOCENTI[h]){box.querySelector('#pine').textContent='Codice non valido.';return}
+      if(!DOCENTI[h]){/* 17/11: codice dell'alunno → apre il suo registro */const c=p.replace(/\s+/g,'');
+        return sha('alunno|'+c).then(x=>fetch('alunni/'+x.slice(0,16)+'.enc?t='+Date.now())).then(r=>{if(r.ok){location.href=location.pathname+'?c='+encodeURIComponent(c);return}
+          box.querySelector('#pine').textContent='Codice non valido. Controlla di averlo scritto bene.'})}
       PIN=p;try{localStorage.setItem('telesio_pin',p)}catch(e){}box.remove();avvio()}).catch(()=>box.querySelector('#pine').textContent='Nessuna connessione, riprova.')};
   box.querySelector('#pino').onclick=go;inp.onkeydown=e=>{if(e.key==='Enter')go()};
 }
@@ -682,6 +684,7 @@ function quaderno(){const q=$('#qq');if(!q)return;if(LIVE&&ROLE==='docente'){q.s
   QRLIB=QRLIB||new Promise((ok,no)=>{const s=document.createElement('script');s.src='https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js';s.onload=ok;s.onerror=no;document.head.appendChild(s)});
   QRLIB.then(()=>{const b=$('#qrc');if(b){b.innerHTML='';new QRCode(b,{text:u,width:140,height:140,correctLevel:QRCode.CorrectLevel.M})}}).catch(()=>{const b=$('#qrc');if(b)b.textContent='(il codice QR non si è caricato: usa il link qui sotto)'})}
 avvio();
+if(!Q.get('c'))setTimeout(accesso,400); /* 17/11: chi apre il registro senza link personale scrive il codice */
 </script>
 </body>
 </html>
