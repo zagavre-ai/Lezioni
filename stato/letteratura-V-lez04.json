@@ -2,7 +2,19 @@
  "tag": "letteratura-V-lez04",
  "parti": {
   "1": {
-   "stato": "IN_REVISIONE"
+   "stato": "REVISIONATA",
+   "titolo": "Naturalismo e Verismo",
+   "voci": "kore",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "no",
+   "video": "Letteratura_Lez4_Parte1_1080p.mp4",
+   "durata_s": 2948.8,
+   "durata": "49:08.8",
+   "fotogrammi": 88463,
+   "fotogrammi_attesi": 88463,
+   "peso_MB": 198.4,
+   "vtt": "Letteratura_Lez4_Parte1.vtt"
   }
  },
  "manca": "consegna prevista 09:30 (ora italiana)",
@@ -10,6 +22,10 @@
   {
    "quando": "16/11 23:33",
    "testo": "voci R1-R5 in testi_voci.json (ramo voci-letteratura-V-lez04): mappa del prof e 4 schemi al posto delle mappe inventate"
+  },
+  {
+   "quando": "17/11 08:32",
+   "testo": "rigenerare pagina interattiva con i nuovi secondi (timeline.json / scheda_pubblicazione.json); sostituire su Vimeo sullo stesso link"
   }
  ],
  "domande_sara": [],
@@ -53,7 +69,11 @@
   {
    "quando": "17/11 08:07",
    "testo": "v2: 34 pezzi montati (tutti i frame ok), codifica finale in corso; poi controlli e push"
+  },
+  {
+   "quando": "17/11 08:32",
+   "testo": "REVISIONATA v2 sul ramo revisione-letteratura-V-lez04: 49:08,8, 88463 fotogrammi, -16,6 LUFS, picco -1,9 dBTP, jingle quiz OK, sync -0,02 s. Durata sotto 50 min e secondi quiz/verifica/compiti cambiati: scheda e timeline aggiornate. Sottotitoli da guardare (attacco 70%). Vedi RAPPORTO_REVISIONE.md"
   }
  ],
- "aggiornato": "2026-11-17 08:07:34"
+ "aggiornato": "2026-11-17 08:32:59"
 }
