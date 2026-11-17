@@ -24,7 +24,11 @@
   {
    "quando": "17/11 07:31",
    "testo": "07:31: codifica video in corso (3 processi), audio con jingle/transizioni pronto; consegna prevista entro 08:21 UTC"
+  },
+  {
+   "quando": "17/11 07:34",
+   "testo": "07:34: 19/58 blocchi video codificati; audio e sottotitoli pronti. Consegna prevista tra 40 min circa"
   }
  ],
- "aggiornato": "2026-11-17 07:31:39"
+ "aggiornato": "2026-11-17 07:34:27"
 }
