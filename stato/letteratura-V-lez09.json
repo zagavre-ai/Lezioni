@@ -3,9 +3,6 @@
  "parti": {
   "1": {
    "stato": "IN_REVISIONE"
-  },
-  "2": {
-   "stato": "IN_REVISIONE"
   }
  },
  "manca": "",
@@ -33,9 +30,9 @@
    "testo": "20min: piano di rimontaggio pronto (stessi fotogrammi P1 99554 / P2 99290), voci R1-R14 richieste, slide P1 renderizzate, montaggio P1 in corso"
   },
   {
-   "quando": "16/11 23:20",
-   "testo": "agente revisione lez09 (ripresa da 08:20 IT, rifacimento nel modello Spagnolo P1+P2); consegna prevista 10:30 (ora italiana = UTC+1)"
+   "quando": "17/11 07:29",
+   "testo": "consegna prevista 09:39 (ora italiana). Letti aggiornamenti 01:20/01:25/01:30/08:15."
   }
  ],
- "aggiornato": "2026-11-16 23:20:24"
+ "aggiornato": "2026-11-17 07:29:21"
 }
