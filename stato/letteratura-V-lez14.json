@@ -1,7 +1,7 @@
 {
  "tag": "letteratura-V-lez14",
  "parti": {},
- "manca": "ricodifica pezzi del prof, mappa del prof + voce R1 (generata dalla master), riassemblaggio, controlli, rapporto",
+ "manca": "controlli finali, rapporto, push",
  "serve_master": [
   {
    "quando": "17/11 07:29",
@@ -17,7 +17,11 @@
   {
    "quando": "17/11 07:29",
    "testo": "17/11: ripresa revisione. Consegna prevista entro 1 ora da ora (ramo revisione-letteratura-V-lez14). In corso: confini del prof su fine frase, card in corso gialla numerata, mappa del prof con voce R1, jingle/transizioni, riquadro solo con prof vivo. Aggiorno ogni 20 minuti."
+  },
+  {
+   "quando": "17/11 08:06",
+   "testo": "17/11 08:10: video nuovi assemblati (P1 45:45, P2 45:46, sotto i 50 min: da decidere). Jingle quiz a 0,0 s OK, titolo/ripasso/trans presenti, sync audio 0,5 ms. Confini prof su fine frase. Mappa del prof + R1 nella Parte 2. NON rifatti: approfondimenti/pillole/glossario/riepilogo (vecchia grafica). Consegna sul ramo tra ~15 min."
   }
  ],
- "aggiornato": "2026-11-17 07:29:33"
+ "aggiornato": "2026-11-17 08:06:44"
 }
