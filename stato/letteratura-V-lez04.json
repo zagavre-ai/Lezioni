@@ -5,7 +5,7 @@
    "stato": "IN_REVISIONE"
   }
  },
- "manca": "consegna prevista 06:30 (ora italiana, 17/11); verifica e rapporto entro 02:30",
+ "manca": "consegna prevista 13:30 (ora italiana, 17/11)",
  "serve_master": [
   {
    "quando": "16/11 23:33",
@@ -41,7 +41,11 @@
   {
    "quando": "17/11 00:22",
    "testo": "video nuovo codificato (96787 fotogrammi, 195 MB, -16,6 LUFS, picco -1,1 dBTP); corretto scarto audio 0,06 s sui quiz; poi rapporto e consegna; consegna prevista 06:30 (ora italiana)"
+  },
+  {
+   "quando": "16/11 23:19",
+   "testo": "agente; consegna prevista 13:30 (ora italiana = UTC+1). Ripresa del lavoro della chat precedente (ferma dalle 01:22): rifaccio la lezione nel modello Spagnolo"
   }
  ],
- "aggiornato": "2026-11-17 00:22:47"
+ "aggiornato": "2026-11-16 23:19:31"
 }
