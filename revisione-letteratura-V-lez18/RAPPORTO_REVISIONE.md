@@ -102,7 +102,8 @@ Aggiornati `scheda_pubblicazione.json`, `timeline.json`, `testo_youtube.txt`. **
 
 ## 7. Cosa NON ho verificato / limiti
 - **Ascolto umano** (fruscio/ronzio/metallico dopo la pulizia): non ascoltato. **Non verificato.**
-- **Pronuncia della voce Kore** nelle voci nuove (R1…R6, RF): controllata solo con la trascrizione automatica, che segna «Contarla» (R3, prima versione), «Rusilla» (R6b, per «Drusilla»), «Primerla» (R3b) e «VAR» (R4): sono molto probabilmente errori del riconoscimento, ma **da riascoltare**: R3b a 30:07, R6b a 48:22, R4b a 35:57. Nelle vecchie voci S1/S6 «Viessò» (Vieusseux) da riascoltare.
+- **Voce R6 (mappa 6):** rigenerata come R6c con «Ksènia» e «Drusilla» scritti come si pronunciano (regola 08:45); la trascrizione automatica dà «Xenia» e «Drusilla Tanzi» corretti. Ascolto umano non fatto.
+- **Pronuncia della voce Kore** nelle voci nuove (R1…R6, RF): controllata solo con la trascrizione automatica, che segna «Contarla» (R3, prima versione), «Primerla» (R3b) e «VAR» (R4): sono molto probabilmente errori del riconoscimento, ma **da riascoltare**: R3b a 30:07, R4b a 35:57. Nelle vecchie voci S1/S6 «Viessò» (Vieusseux) da riascoltare.
 - **Sottotitoli:** riscritti dalla trascrizione (prof) e dai testi veri (voce Kore), poesie dal libro; tempi proporzionali alle strofe (**stima**, ±1–2 s nelle poesie). Parole non decifrabili lasciate come sono: «anche Insha» (≈ 38:03), «Allora i» (≈ 38:14), «Il poeta si rivendica» (≈ 38:23), passaggio sulle rime di *Meriggiare* (≈ 17:30). **Non riletti cue per cue.**
 - **Testa tagliata:** nell'originale la webcam è 243×139 px e i capelli toccano il bordo alto in molti punti (es. 1:30, 3:20, 14:10 dell'originale): non risolvibile. Webcam ingrandita 2,2× (immagine morbida).
 - **Foto di Montale** (1:14 orig.): vedi §8.
