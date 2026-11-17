@@ -95,4 +95,4 @@ Foglio `controllo_fettine.jpg`: un fotogramma a metà intervallo per ognuna dell
 - **Verifica finale e compiti** (schede di servizio a fine video): rifatte nel modello, voce e secondi invariati.
 
 ## 6. Come ho verificato
-Trascrizione completa con `trascrivi.py` (Parakeet): video vecchio 692 segmenti, originale del prof 362, **video nuovo** (692→ controllo di sincronia dei sottotitoli e `silencedetect`: nessun silenzio ≥ 3 s a −50 dB, **misurato**); OCR a vista dei fotogrammi; 3 188 fotogrammi a 1/s sul video vecchio (differenza tra fotogrammi per i fermi); 107 fotogrammi a 1/30 s sul nuovo (`controllo_minuti.jpg`); controllo del piano (55 pezzi = 95 638 fotogrammi, identici al vecchio).
+Trascrizione completa con `trascrivi.py` (Parakeet): video vecchio 692 segmenti, originale del prof 362, **video nuovo** (controllo di sincronia dei sottotitoli e `silencedetect`: nessun silenzio ≥ 3 s a −50 dB, **misurato**); OCR a vista dei fotogrammi; 3 188 fotogrammi a 1/s sul video vecchio (differenza tra fotogrammi per i fermi); 107 fotogrammi a 1/30 s sul nuovo (`controllo_minuti.jpg`); controllo del piano (55 pezzi = 95 638 fotogrammi, identici al vecchio).
