@@ -2,7 +2,18 @@
  "tag": "letteratura-V-lez06",
  "parti": {
   "1": {
-   "stato": "IN_REVISIONE"
+   "stato": "REVISIONATA",
+   "voci": "kore",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "si",
+   "video": "Letteratura_Lez6_Parte1_1080p.mp4",
+   "durata_s": 3187.9,
+   "durata": "53:07.9",
+   "fotogrammi": 95638,
+   "fotogrammi_attesi": 95638,
+   "peso_MB": 210.2,
+   "vtt": "Letteratura_Lez6_Parte1.vtt"
   }
  },
  "manca": "",
@@ -48,7 +59,11 @@
   {
    "quando": "17/11 07:51",
    "testo": "08:55 IT: video finale con dissolvenze e jingle ripasso/transizioni montato; sistemo sincronia dei jingle (scarti ≤0,1 s tra pezzi, ora pareggiati per pezzo). poi trascrizione di controllo, vtt, rapporto. consegna prevista 09:30"
+  },
+  {
+   "quando": "17/11 08:04",
+   "testo": "REVISIONATA 17/11: ramo revisione-letteratura-V-lez06 (video 53:07,9 a 3 pezzi, vtt, PDF slide+mappe, verifica, compiti, scheda, rapporto). Durata e secondi invariati."
   }
  ],
- "aggiornato": "2026-11-17 07:51:19"
+ "aggiornato": "2026-11-17 08:04:32"
 }
