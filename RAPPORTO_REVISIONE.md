@@ -1,7 +1,7 @@
 # RAPPORTO DI REVISIONE · Letteratura italiana V · Lezione 15 · La narrativa tra le due guerre
-Prof. Giorgio Mazzotti · chat di revisione · 16/11/2026 · **VERSIONE FINALE** · stato **REVISIONATA**
+Prof. Giorgio Mazzotti · chat di revisione · 16/11/2026 · **VERSIONE FINALE (aggiornata 17/11 con le correzioni della master)** · stato **REVISIONATA**
 
-**Video nuovo:** 51:41,8 (3101,8 s) · 93 055 fotogrammi (= durata × 30, OK) · 1920×1080 · 30 fps · x264 veryfast CRF 19 · AAC 192 k 48 kHz · 298,5 MB (4 parti da 90 MB, `sha256` uguale alla ricomposizione) · **−16,4 LUFS**, picco vero **−2,5 dBTP**. Il prof non è stato tagliato: i 4 pezzi coprono tutto l'originale (1876 s).
+**Video nuovo:** 51:41,8 (3101,8 s) · 93 055 fotogrammi (= durata × 30, OK) · 1920×1080 · 30 fps · x264 veryfast CRF 19 · AAC 192 k 48 kHz · 300,0 MB (4 parti da 90 MB, `sha256` uguale alla ricomposizione) · **−16,5 LUFS**, picco vero **−2,3 dBTP**. Il prof non è stato tagliato: i 4 pezzi coprono tutto l'originale (1876 s).
 
 ## 1. Che cosa ho verificato e come
 | Cosa | Come | Esito |
@@ -72,3 +72,28 @@ Prof. Giorgio Mazzotti · chat di revisione · 16/11/2026 · **VERSIONE FINALE**
 
 ## 6. File consegnati
 `Letteratura_Lez15_Parte1_1080p.mp4.parte_00…03` + `.sha256` · `Letteratura_Lez15_Parte1.vtt` · `Letteratura_Lez15_slide.pdf` · `Letteratura_Lez15_mappe.pdf` · `Quiz_Letteratura_Lez15.txt` + `quiz_argomenti.json` (controllati: 20 domande, risposte giuste) · `Verifica_finale_Letteratura_Lez15.xlsx` (10 domande, **identica** all'Excel del prof) · `compiti.json` · `scheda_pubblicazione.json` · `testo_youtube.txt` · `timeline.json` · `controllo_minuti.jpg` · questo rapporto.
+
+## 7. Correzioni del 17/11 (aggiornamenti master 15:10, 01:20, 01:25, 01:30, 08:15)
+Stessa durata (3101,8 s) e stessi fotogrammi (93 055) del giro precedente. Le slide sono state ridisegnate e il PDF slide (63 pagine) rifatto dalle stesse immagini.
+
+| Richiesta | Esito |
+|---|---|
+| Font 15:10: «01 · ARGOMENTO», riga copertina, piè di pagina in **Figtree Bold maiuscolo spaziato** (non DM Mono) | **fatto** su tutte le slide e nel PDF; nessun carattere DM Mono rimasto (anche etichette di card, chip e numeri) |
+| Ombre 01:30: sempre grigie e morbide, mai nere o «a blocco» | **fatto**: tolte tutte le ombre nette (card, schede, mappe, tabelle); riquadro prof e foto con ombra grigia sfocata |
+| Card in corso: bordo giallo sottile, numero su pallino giallo, fondo bianco | **fatto** (lezione, ripassi, linee del tempo, schede opera, mappe); le altre card hanno bordo grigio chiaro |
+| Jingle Quiz (01:20) | i suoni sono quelli del kit (`quiz.wav`, `titolo.wav`, `repaso.wav`, `trans.wav`). **Quiz: scatto a inizio scheda + 0,5 s, scarto misurato +0,004 / +0,003 / +0,005 / +0,004 s** (Q1–Q4, tolleranza 0,05): per Q3 e Q4 prima era −0,08/−0,12 e ho spostato l'inizio della scheda di 2 e 5 fotogrammi. `titolo.wav` già presente su tutti e 4 i titoli degli argomenti (corr. 0,96). **Aggiunti** `repaso.wav` sulle 4 schede «Ripasso» (mancava) e `trans.wav` (volume basso) sui passaggi alle schede Approfondimento, Glossario, Riepilogo, Fine |
+| Transizioni (08:15) | dissolvenza da bianco di 0,33 s a ogni cambio di slide (non tra due pezzi del prof) + `trans.wav` come sopra. Niente taglio secco |
+| Prof mai tagliato a metà frase (01:25) | **trovato e corretto**: il pezzo 2 finiva a 14:18 su «…il regime non sarebbe» (la parola «crollato.» stava nel pezzo 3). Ora il pezzo 2 finisce a «…il regime non sarebbe crollato.» (+1,3 s di prof, tolti dall'inizio del pezzo 3: durata invariata) |
+| Mai immagine ferma del prof (08:15) | copertina/presentazione: il riquadro c'è solo con il prof che parla, in video vivo (copertina 0:15–0:41 senza riquadro). `freezedetect`: un solo fermo di 1,7 s a 31:16 (nell'**originale**: la finestra della webcam si sposta, il prof dice «mi sposto un poco più sopra») |
+| Sincronia labbra/voce (08:15), max 0,04 s | misurata sull'audio originale in 3743 finestre da 2 s: scarto massimo dall'offset del pezzo **0,0004 / 0,0005 / 0,0004 / 0,0056 s** (pezzi 1–4), tutti < 0,04 s; i fotogrammi sono scelti con quegli offset (risoluzione 1/30 s = 0,033 s) |
+
+**Fine e inizio di ogni pezzo del prof (01:25)** — minuti del video nuovo:
+| Pezzo | Inizio | Prime parole | Fine | Ultime parole | Frase finita |
+|---|---|---|---|---|---|
+| D1 | 0:41,4 | «Buongiorno e benvenuti alla lezione che vedete dal titolo…» | 9:04,5 | «…E questo è il contesto storico. D'accordo, il contesto storico.» | **sì** |
+| D2 | 12:30,4 | «Ora, giusto per ripassare, questo l'abbiamo comunque fatto anche in Storia…» | 14:19,5 | «…finché poi, con la guerra, il regime non sarebbe crollato.» | **sì** (prima: no) |
+| D3 | 17:47,1 | «Ora, tutto questo giusto per farvi capire…» | 26:08,2 | «…non si può neanche, come dire, sospettare che tu lo pensi: devi stare attento.» | **sì** |
+| D4 | 30:20,8 | «Il panorama letterario ne è travolto.» | 43:03,7 | «…per riflettere sulla società italiana dell'epoca, soprattutto durante la dittatura.» | **sì** |
+Nessuna parola mozzata in partenza (inizi su pausa).
+
+Il punto 2 e 3 del secondo messaggio della master («Cesare Pavese», picco −0,1 dB) riguardano un'altra lezione: qui il titolo è già «La narrativa tra le due guerre» e il picco è −2,3 dBTP.
