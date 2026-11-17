@@ -2,40 +2,246 @@
  "tag": "letteratura-V-lez19",
  "parti": {
   "1": {
-   "stato": "IN_REVISIONE"
+   "stato": "REVISIONATA",
+   "titolo": "Dal secondo dopoguerra a oggi",
+   "voci": "kore",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "si",
+   "video": "Letteratura_Lez19_Parte1_1080p.mp4",
+   "durata_s": 3025.2,
+   "durata": "50:25.2",
+   "fotogrammi": 90757,
+   "fotogrammi_attesi": 90757,
+   "peso_MB": 170.1,
+   "vtt": "Letteratura_Lez19_Parte1.vtt",
+   "scheda": {
+    "materia": "Letteratura italiana (V)",
+    "titolo": "Letteratura V · Lezione 19 · Dal secondo dopoguerra a oggi",
+    "durata_s": 3025.23,
+    "argomenti": [
+     {
+      "n": 1,
+      "titolo": "L'Italia dal dopoguerra a oggi",
+      "inizio_s": 171.27,
+      "quiz_s": 1219.7
+     },
+     {
+      "n": 2,
+      "titolo": "Il dibattito culturale e la poesia",
+      "inizio_s": 1224.67,
+      "quiz_s": 2021.833
+     },
+     {
+      "n": 3,
+      "titolo": "I maestri della narrativa",
+      "inizio_s": 2026.837,
+      "quiz_s": 2866.4
+     }
+    ],
+    "quiz": {
+     "Q1": {
+      "title": "Quiz 1 · L'Italia dal dopoguerra a oggi",
+      "items": [
+       {
+        "p": "Che cosa sancisce il referendum del 2 giugno 1946?",
+        "a": "La fine della monarchia e l'inizio della democrazia parlamentare",
+        "w": [
+         "L'entrata in vigore della Costituzione",
+         "La nascita della Seconda Repubblica",
+         "L'ingresso dell'Italia nell'integrazione europea"
+        ],
+        "e": "la Costituzione entra in vigore poi nel 1948."
+       },
+       {
+        "p": "Su che cosa si basa la Costituzione del 1948?",
+        "a": "Sulla separazione dei poteri legislativo, esecutivo e giudiziario",
+        "w": [
+         "Sul potere assoluto del presidente del Consiglio",
+         "Sul ritorno della monarchia",
+         "Sull'abolizione dei partiti"
+        ],
+        "e": "è la base della democrazia parlamentare."
+       },
+       {
+        "p": "Che cosa provoca l'inchiesta «Mani pulite» del 1992?",
+        "a": "Il crollo dei partiti tradizionali",
+        "w": [
+         "La nascita della Repubblica",
+         "Il boom economico",
+         "La nascita della scuola media unica"
+        ],
+        "e": "svela una rete di corruzione e di finanziamenti illeciti."
+       },
+       {
+        "p": "Che cosa caratterizza il boom economico del secondo dopoguerra?",
+        "a": "Ricostruzione, crescita industriale e consumismo",
+        "w": [
+         "La crisi del petrolio e le tensioni sociali",
+         "Il debito pubblico e la precarietà del lavoro",
+         "Il ritorno all'agricoltura"
+        ],
+        "e": "con il boom ci sono grandi migrazioni dal Sud verso il Nord."
+       },
+       {
+        "p": "Che cosa nasce nel 1962?",
+        "a": "La scuola media unica",
+        "w": [
+         "La televisione privata",
+         "Il Partito Socialista Italiano",
+         "Internet"
+        ],
+        "e": "poi aumentano gli studenti universitari."
+       }
+      ]
+     },
+     "Q2": {
+      "title": "Quiz 2 · Il dibattito culturale e la poesia",
+      "items": [
+       {
+        "p": "Quali culture si confrontano in Italia nel dopoguerra?",
+        "a": "Marxismo, idealismo e cultura cattolica",
+        "w": [
+         "Solo il pensiero liberale",
+         "Futurismo e Dadaismo",
+         "Romanticismo e Illuminismo"
+        ],
+        "e": "in seguito emergono lo strutturalismo e il postmoderno."
+       },
+       {
+        "p": "Come si diffonde l'italiano standard?",
+        "a": "Soprattutto grazie alla televisione e ai giornali",
+        "w": [
+         "Grazie al ritorno dei dialetti",
+         "Solo grazie ai romanzi storici",
+         "Grazie alle lingue straniere"
+        ],
+        "e": "i dialetti perdono terreno."
+       },
+       {
+        "p": "Che cos'è il Gruppo 63?",
+        "a": "La Neoavanguardia, che rifiuta le forme tradizionali",
+        "w": [
+         "Un partito politico del dopoguerra",
+         "Una casa editrice di Milano",
+         "Una corrente di poesia ermetica"
+        ],
+        "e": "è un movimento di rottura."
+       },
+       {
+        "p": "Su quali temi si concentra Giorgio Caproni nella produzione matura?",
+        "a": "Il viaggio, la morte e il vuoto esistenziale, con forme aspre",
+        "w": [
+         "Le lotte operaie e il sindacato",
+         "La vita dei salotti borghesi",
+         "La natura e il panismo"
+        ],
+        "e": "il suo stile passa da lineare a complesso e aspro."
+       },
+       {
+        "p": "Quale esperienza racconta in versi Alda Merini?",
+        "a": "L'esperienza dolorosa del manicomio",
+        "w": [
+         "La guerra partigiana",
+         "L'emigrazione in America",
+         "La vita in fabbrica"
+        ],
+        "e": "con uno stile limpido, tra misticismo ed erotismo."
+       }
+      ]
+     },
+     "Q3": {
+      "title": "Quiz 3 · I maestri della narrativa",
+      "items": [
+       {
+        "p": "Che cosa indaga Alberto Moravia negli Indifferenti?",
+        "a": "La crisi della borghesia e l'alienazione",
+        "w": [
+         "La vita dei contadini siciliani",
+         "La Resistenza partigiana",
+         "Il mondo dell'aristocrazia"
+        ],
+        "e": "racconta anche l'ingresso nel mondo adulto."
+       },
+       {
+        "p": "Di quale tema parla Elio Vittorini in Conversazione in Sicilia?",
+        "a": "Il «mondo offeso» e la dignità umana",
+        "w": [
+         "Il tramonto dell'aristocrazia siciliana",
+         "La memoria familiare",
+         "La semiologia"
+        ],
+        "e": "Vittorini è una figura centrale dell'impegno culturale."
+       },
+       {
+        "p": "Come racconta la Resistenza Beppe Fenoglio?",
+        "a": "In una dimensione epica ed esistenziale, con una lingua che unisce italiano e inglese",
+        "w": [
+         "Con un tono comico e leggero",
+         "Attraverso le lettere dei soldati",
+         "Con un romanzo storico ambientato nel Medioevo"
+        ],
+        "e": "lo fa nel Partigiano Johnny."
+       },
+       {
+        "p": "Che cosa rappresenta Il Gattopardo di Tomasi di Lampedusa?",
+        "a": "Il tramonto dell'aristocrazia siciliana, con una visione nichilista della storia",
+        "w": [
+         "La nascita della classe operaia",
+         "Il boom economico",
+         "La condizione della donna moderna"
+        ],
+        "e": "è un «caso letterario»."
+       },
+       {
+        "p": "Che cosa unisce Dacia Maraini?",
+        "a": "La ricerca femminista e la denuncia della violenza al romanzo storico",
+        "w": [
+         "La semiologia e la comunicazione di massa",
+         "La poesia ermetica e il teatro",
+         "Il dialetto e la cronaca nera"
+        ],
+        "e": "ne è un esempio La lunga vita di Marianna Ucrìa."
+       }
+      ]
+     }
+    },
+    "t_verifica": 2994.6,
+    "t_compiti": 3014.133
+   }
   }
  },
- "manca": "Rifacimento completo grafica Spagnolo (riquadro 4:3, fascia gialla, ombre grigie, jingle, transizioni, mappa del prof). Verifica A+B+C in corso; trascrizione finita al 70%.",
+ "manca": "",
  "serve_master": [],
  "domande_sara": [],
  "note": [
   {
-   "quando": "16/11 18:16",
-   "testo": "chat revisione 19"
+   "quando": "16/11 21:51",
+   "testo": "prova metodo 2 ore: revisione iniziata 16/11 21:47 UTC"
   },
   {
    "quando": "17/11 07:58",
-   "testo": "Consegna prevista entro 08:58 (ora del server, +60 min dalla ripartenza). Aggiorno ogni 20 min. Ora: trascrizione con trascrivi.py."
+   "testo": "17/11 08:00 UTC: consegna prevista entro le 09:00; correzioni: jingle, transizioni, ombre/card gialla, prof non tagliato a meta' frase, mai fermo immagine, sync. Aggiorno ogni 20 min"
   },
   {
-   "quando": "17/11 08:04",
-   "testo": "AGGIORNAMENTO 20 min: NON riesco a consegnare entro 1 ora. Il video attuale ha il prof nel tondo, 13 schede animate su fondo grigio, 3 mappe inventate da noi (19:15, 20:00, 33:45), nessuna fascia gialla: va rifatto quasi tutto. Stima onesta: prima versione RAPPORTO entro ~1 h, consegna REVISIONATA entro ~4 h da ora. Misurato: picco -0,4 dBFS (limite -1 dBTP: da correggere), 1 silenzio >2,5 s a fine video (8,9 s fino a 3224 s = coda). Mappa del prof: 1 sola mappa, trovata."
+   "quando": "17/11 08:11",
+   "testo": "17/11 08:12 UTC: rifatta con le regole 00:40-08:15 (mappa solo del prof, durata nuova ~50:25, card gialle, jingle+transizioni, prof non tagliato). Codifica in corso, consegna prevista 08:50. Prossimo aggiornamento 08:32"
   },
   {
-   "quando": "17/11 17:27",
-   "testo": "AGGIORNAMENTO (20 min): trascrizione fatta; ho trovato 2 TAGLI A META FRASE del prof nel video vecchio (a 13:35 fine 'la ricchezza' / inizio 'l'incredibile vastità'; a 35:46 'Caproni' / 'Patrizia Cavalli') e un pezzo di D2 ripreso in mezzo a frase. Rifaccio i pezzi del prof dall'originale intero con confini a fine frase. Ho già voci Kore RV1-RV5 nel ramo voci (mappa del prof = RV5), non servono voci nuove. Ora: costruisco le slide nel modello Spagnolo + montaggio. Consegna stimata: ~3 h da ora."
+   "quando": "17/11 08:29",
+   "testo": "17/11 ~08:27: video nuovo assemblato (50:25), in corso misure (sync, fermi, silenzi, jingle). Consegna prevista 08:50. Prossimo aggiornamento 08:47"
   },
   {
-   "quando": "17/11 17:41",
-   "testo": "AGGIORNAMENTO (20 min): slide nuove nel modello Spagnolo pronte (riquadro 4:3, fascia gialla, ombre grigie, card gialla in corso, Figtree). Pezzi del prof rifatti dall'originale con confini a fine frase; voci Kore RV1c (RV1 tagliata: leggeva per errore le istruzioni di regia nei primi 16 s), RV2-RV5 corrette; mappa del prof (RV5) al posto delle 4 mappe nostre. Codifica dei 33 segmenti in corso. Poi: unione, controlli A/B/C, sottotitoli, PDF, rapporto. Consegna prevista tra ~2 h."
+   "quando": "17/11 08:35",
+   "testo": "17/11 ~08:40 UTC: REVISIONATA, ramo revisione-letteratura-V-lez19. Durata misurata 50:25,23 (90757 fotogrammi), 170 MB. Secondi cambiati: vedi tabella nel rapporto/scheda. Da ascoltare: nomi nelle voci Kore, jingle titolo/trans nuovi. CRONOMETRO.md sul ramo"
   },
   {
-   "quando": "17/11 17:46",
-   "testo": "AGGIORNAMENTO (20 min): 29 segmenti su 33 codificati (slide, voci, jingle). In corso i 3 pezzi lunghi del prof (D1, D2, D3) con riquadro 4:3. Poi unione, audio con picco <= -1 dBTP, controlli, sottotitoli (455 cue pronti), PDF slide (37 pagine) e mappa del prof già fatti. Consegna prevista entro ~1 h."
+   "quando": "17/11 18:27",
+   "testo": "17/11: ripristinato lo stato REVISIONATA della prima revisione (ramo revisione-letteratura-V-lez19, 50:25, consegnata 08:35 UTC): durante questa sessione l'avevo sovrascritto per errore con IN_REVISIONE. In più esiste una revisione ALTERNATIVA v2 (50:09) sul ramo claude/admiring-cerf-9zh5f6, cartella revisione-letteratura-V-lez19-v2/, che non ha sostituito la prima: scegliere quale caricare."
   }
  ],
  "materia": "Letteratura italiana V",
- "lezione": "Lezione 19 (revisione)",
+ "lezione": "Lezione 19 · Dal secondo dopoguerra a oggi",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-17 17:46:28"
+ "aggiornato": "2026-11-17 18:27:03"
 }
