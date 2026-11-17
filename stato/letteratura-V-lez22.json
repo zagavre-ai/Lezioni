@@ -35,7 +35,11 @@
   {
    "quando": "17/11 07:35",
    "testo": "RESPINTA da Sara: rifaccio jingle (quiz/titolo/repaso/trans/finale), transizioni con suono, intro senza riquadro fermo, sincronia misurata per ogni pezzo del prof, silenzi >3 s tolti, taglio a fine frase. Consegna prevista 11:05 (ora italiana)"
+  },
+  {
+   "quando": "17/11 07:50",
+   "testo": "aggiornamento: rimonto con jingle, transizioni a 0,8 s con trans.wav, intro senza riquadro, sincronia prof misurata (audio +20 ms filtro, video -1 fotogramma su D2/D5: correggo), Aracèli: voci RA01-RA09 richieste alla master. Consegna prevista 11:05 (ora italiana)"
   }
  ],
- "aggiornato": "2026-11-17 07:35:54"
+ "aggiornato": "2026-11-17 07:50:47"
 }
