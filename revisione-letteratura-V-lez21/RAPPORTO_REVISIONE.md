@@ -89,6 +89,11 @@ La lezione consegnata (58:23, v2 del 15/11) **non è conforme al modello Spagnol
 | D5 | «Ma soprattutto, come dicevo, il capolavoro…» | «…fine della sua vita tramite appunto il suicidio.» | **sì** |
 (Parole dalla trascrizione con tempi di parola dell'originale; tagli nelle pause tra frasi, nessuna parola mozzata in partenza.)
 
+### Ritocchi del 17/11 ore 10:19 (aggiornamento per la lezione 21)
+- «SCHEMA DI RIPASSO» senza parentesi quadre (5 slide, video e PDF slide).
+- «MAPPA CONCETTUALE» in alto a sinistra sopra il titolo, in tutte le 6 slide-mappa (video, PDF slide e PDF mappe).
+- Ricodificati solo i pezzi toccati (S1–S5, M1–M5, MF) e rifatto il video finale: **durata 57:23,3, 103299 fotogrammi, timeline identica** (secondi di scheda invariati); picco −2,0 dBTP, quiz +0,000 s. Verificato a vista sul video finale (ripasso 1 a 14:05; mappa finale a 54:52).
+
 ## 6. Tabella di confronto col modello Spagnolo (punto 000)
 | # | Punto | Esito |
 |---|---|---|
