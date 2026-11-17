@@ -1,31 +1,31 @@
 {
  "materia": "Letteratura italiana (V)",
  "titolo": "Letteratura V · Lezione 11 · Il Futurismo e le avanguardie",
- "durata_s": 3100.33,
+ "durata_s": 3104.0,
  "argomenti": [
   {
    "n": 1,
    "titolo": "Le avanguardie storiche",
    "inizio_s": 46.267,
-   "quiz_s": 1028.1
+   "quiz_s": 1029.4
   },
   {
    "n": 2,
    "titolo": "Il Futurismo italiano",
-   "inizio_s": 1033.0,
-   "quiz_s": 1824.754
+   "inizio_s": 1034.3,
+   "quiz_s": 1828.787
   },
   {
    "n": 3,
    "titolo": "Il Manifesto del Futurismo",
-   "inizio_s": 1829.654,
-   "quiz_s": 2507.097
+   "inizio_s": 1833.687,
+   "quiz_s": 2511.913
   },
   {
    "n": 4,
    "titolo": "James Joyce e il flusso di coscienza",
-   "inizio_s": 2511.997,
-   "quiz_s": 3014.031
+   "inizio_s": 2516.813,
+   "quiz_s": 3017.697
   }
  ],
  "quiz": {

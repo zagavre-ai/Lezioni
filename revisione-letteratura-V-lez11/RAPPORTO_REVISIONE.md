@@ -7,12 +7,12 @@ Versione finale · 16/11/2026 · stato: REVISIONATA (da riguardare dalla master)
 | | Prima (consegna) | Dopo (revisione) |
 |---|---|---|
 | Durata | 54:23 (3263,0 s) | **51:40 (3100,36 s)** |
-| Fotogrammi | – | **93.010 = durata × 30** (controllato) |
-| Peso | 192,5 MB | **240,5 MB** (< 400) |
+| Fotogrammi | – | **93.120 = durata × 30** (controllato) |
+| Peso | 192,5 MB | **240,1 MB** (< 400) |
 | Formato | 1920×1080, 30 fps, x264 veryfast CRF 19, AAC 192k 48 kHz | uguale |
-| Volume totale | – | **−15,8 LUFS** integrati; **picco vero −1,3 dBTP** (misurato con `ebur128=peak=true`; prima 0,0). Parlato del prof normalizzato a −16 LUFS |
+| Volume totale | – | **−15,8 LUFS** integrati; **picco vero −1,5 dBTP** (misurato con `ebur128=peak=true`; prima 0,0). Parlato del prof normalizzato a −16 LUFS |
 | Silenzi > 3 s | 8 (schede titolo e quiz) | **0** (4 silenzi tra 2,5 e 3 s) |
-| Scatto quiz (4 quiz) | – | **scarti +0,019 / +0,019 / +0,019 / +0,018 s** (limite 0,05) |
+| Scatto quiz (4 quiz) | – | **scarti −0,009 / −0,009 / −0,009 / −0,010 s** (limite 0,05) |
 | Sha256 | ricomposto, uguale al file | `…parte_00/01/02` + `.sha256` (controllato) |
 
 ## 2. Confronto con il modello Spagnolo (punto 000), punto per punto
@@ -80,6 +80,46 @@ La pagina 379 e le pagine 401–402 non sono lette dal prof: non inserite.
 2. Picco audio: limitatore sull'audio finale, picco vero **−1,3 dBTP** (era 0,0). Durata 3100,363 s e **93.010 fotogrammi** identici; scatto dei quiz entro +0,02 s; nessun silenzio > 3 s.
 3. Fettina di Molly (p. 400): mancava la prima riga («e per l'anima sua spilorcia…»); ora c'è.
 4. Aggiunto `controllo_fettine.jpg` (un fotogramma per ognuna delle 9 fettine).
+
+## 6-ter. Aggiornamenti 17/11 (01:20, 01:25, 01:30, 08:15)
+**Tempi nuovi (la durata è cambiata: 3263,0 → 3104,0 s).** Secondi già aggiornati in `scheda_pubblicazione.json` e `timeline.json`:
+| Elemento | secondo vecchio | secondo nuovo |
+|---|---|---|
+| T1 | 46.3 (0:46) | 46.3 (0:46) |
+| D1 | 51.3 (0:51) | 49.2 (0:49) |
+| Q1 | 1063.4 (17:43) | 1029.4 (17:09) |
+| T2 | 1068.7 (17:48) | 1034.3 (17:14) |
+| D2 | 1073.7 (17:53) | 1037.2 (17:17) |
+| Q2 | 1849.0 (30:49) | 1828.8 (30:28) |
+| T3 | 1854.3 (30:54) | 1833.7 (30:33) |
+| D3 | 1859.3 (30:59) | 1836.6 (30:36) |
+| Q3 | 2577.1 (42:57) | 2511.9 (41:51) |
+| T4 | 2582.4 (43:02) | 2516.8 (41:56) |
+| D4 | 2587.4 (43:07) | 2519.7 (41:59) |
+| Q4 | 3119.2 (51:59) | 3017.7 (50:17) |
+| GL1 | 3162.1 (52:42) | 3022.6 (50:22) |
+| RF1 | 3203.9 (53:23) | 3064.4 (51:04) |
+| Durata totale | 3263,0 | 3104.0 |
+
+**Prof mai tagliato a metà frase (01:25).** Misurato sulla trascrizione dell'originale pulito (tempi dell'originale):
+| Pezzo | Fine (orig.) | Ultime parole dette | Frase finita |
+|---|---|---|---|
+| D1 | 721,9 | «…chiedono il Futurismo italiano, d'accordo?» | sì |
+| D2 | 1201,9 | «…agli occhi della società borghese, quella che produce.» | **sì** (prima finiva a «…borghese, quella»: allungato di 1,6 s) |
+| D3 | 1648,15 | «…ecco questo a seconda del programma, va bene.» | **sì** (prima finiva a «…la pagina scritta»: allungato di 2,3 s) |
+| D4 | 1984,0 | «…segnerà l'inizio della letteratura.» | sì (fine dell'originale) |
+
+| Pezzo | Inizio (orig.) | Prime parole dette | Parola mozzata |
+|---|---|---|---|
+| D1 | 0,0 | «Buongiorno e benvenuti alla lezione sul Futurismo» | no |
+| D2 | 721,9 | «il Futurismo di Marinetti. Noi dobbiamo affrontare…» | no |
+| D3 | 1203,0 | «però sempre più… In Marinetti, questo è Palazzeschi…» | no |
+| D4 | 1648,15 | «chiudiamo con altre esperienze sempre d'avanguardia…» | no |
+
+**Jingle come Spagnolo (01:20):** quiz (scatto a 0,0 s, tabella §1), **titolo** a ogni scheda argomento, **ripasso** all'inizio di ogni pillola di ripasso (voce spostata di 1,2 s), **transizione** (`trans.wav`) in uscita da ogni pezzo del prof, tutti dal kit (`Telesio_kit_produzione_v1.zip`). Finale: jingle già nel finale del kit. In più dissolvenze di 5 fotogrammi tra le slide e dissolvenza sigla→copertina: nessun taglio secco.
+**Card «in corso» e ombre (01:30):** ogni card ha bordo grigio chiaro; quella in corso ha bordo **giallo** sottile e numero su **pallino giallo**; ombre grigie morbide (riquadro prof, fascia, card), anche nel PDF slide.
+**Mai immagine ferma del prof (08:15):** il riquadro del prof c'è solo nei pezzi del prof (video vivo; la copertina senza prof non ha riquadro). `freezedetect` (n −60 dB, d ≥ 1 s) sul riquadro nei pezzi del prof: **0 fermi**.
+**Sincronia audio/video (08:15):** audio ricostruito dall'originale allo stesso istante del video; scarto audio finale ↔ originale misurato con correlazione su 3 punti per pezzo (inizio, metà, fine): **−0,01 s** in tutti i 12 punti (limite 0,04; correlazione 0,85–0,94). Il labiale non l'ho potuto guardare: scarto dedotto dall'audio.
 
 ## Cosa NON ho verificato
 Ascolto a orecchio (rumore, metallico, sincronia labiale); correttezza di ogni frase dei sottotitoli; i tempi delle evidenziazioni su ogni cambio (±1,5 s solo a campione).
