@@ -2,7 +2,7 @@
  "tag": "letteratura-V-lez22",
  "parti": {
   "1": {
-   "stato": "REVISIONATA",
+   "stato": "IN_REVISIONE",
    "video": "Letteratura_Lez22_Parte1_1080p.mp4",
    "durata_s": 3064.6,
    "durata": "51:04.6",
@@ -31,7 +31,27 @@
   {
    "quando": "16/11 23:50",
    "testo": "REVISIONATA: durata 51:04,6, 91938 fotogrammi (uguali al vecchio), 280 MB, -16,3 LUFS, picco -1,2 dBTP. Ramo revisione-letteratura-V-lez22. Non ascoltato: vedi sez. 5 del rapporto. Voci MM1-MM5/MMF usate."
+  },
+  {
+   "quando": "17/11 07:35",
+   "testo": "RESPINTA da Sara: rifaccio jingle (quiz/titolo/repaso/trans/finale), transizioni con suono, intro senza riquadro fermo, sincronia misurata per ogni pezzo del prof, silenzi >3 s tolti, taglio a fine frase. Consegna prevista 11:05 (ora italiana)"
+  },
+  {
+   "quando": "17/11 07:50",
+   "testo": "aggiornamento: rimonto con jingle, transizioni a 0,8 s con trans.wav, intro senza riquadro, sincronia prof misurata (audio +20 ms filtro, video -1 fotogramma su D2/D5: correggo), Aracèli: voci RA01-RA09 richieste alla master. Consegna prevista 11:05 (ora italiana)"
+  },
+  {
+   "quando": "17/11 08:29",
+   "testo": "aggiornamento: audio prof misurato 0,0001 s dall'originale; video in anticipo di 1-2 fotogrammi (0,03-0,07 s): rifaccio i 5 pezzi con taglio esatto al fotogramma. Voci Aracèli arrivate e montate. Consegna prevista 11:05"
+  },
+  {
+   "quando": "17/11 17:22",
+   "testo": "aggiornamento 20 min: rifatti D1-D4 con taglio esatto al fotogramma, manca D5, poi assemblaggio, misure e consegna. Consegna prevista 11:05"
+  },
+  {
+   "quando": "17/11 17:43",
+   "testo": "aggiornamento 20 min: video definitivo 51:38 con jingle, transizioni, silenzi >3 s tolti, sync prof misurata (audio 0,0001 s, video 0 fotogrammi). In corso: sottotitoli finali, controlli, rapporto, push. Consegna prevista 11:05"
   }
  ],
- "aggiornato": "2026-11-16 23:50:15"
+ "aggiornato": "2026-11-17 17:43:30"
 }
