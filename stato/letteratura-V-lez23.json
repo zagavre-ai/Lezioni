@@ -2,7 +2,7 @@
  "tag": "letteratura-V-lez23",
  "parti": {
   "1": {
-   "stato": "IN_REVISIONE"
+   "stato": "IN_MONTAGGIO"
   }
  },
  "manca": "",
@@ -44,7 +44,11 @@
   {
    "quando": "17/11 08:02",
    "testo": "09:05 it: tutti i pezzi pronti, codifica finale in corso, poi controlli e push. Consegna prevista 09:30"
+  },
+  {
+   "quando": "17/11 08:26",
+   "testo": "REVISIONATA 09:30: video 52:56,7 (324,7 MB) rifatto nel modello; ramo revisione-letteratura-V-lez23 con RAPPORTO_REVISIONE.md; restano silenzi >3 s sulle schede Quiz (vedi rapporto) e voci mappe non riascoltate"
   }
  ],
- "aggiornato": "2026-11-17 08:02:59"
+ "aggiornato": "2026-11-17 08:26:48"
 }
