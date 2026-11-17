@@ -204,3 +204,6 @@ La lezione 15 è online (verificata e caricata alle 09:10). Resta un difetto: la
 
 ## 17/11 10:15 — solo per la chat della lezione 7
 La lezione 7 è online (verificata e caricata). Resta un difetto: nelle slide «Il tema del "doppio" e la Prefazione a "Dorian Gray"» (pagina 19, intorno a 23:20-24:30) il **titolo finisce sotto il riquadro del prof** e si legge «Dorian Gra». Il titolo deve stare a sinistra del riquadro: mandalo a capo su due righe o accorcialo («Il "doppio" e la Prefazione a "Dorian Gray"»). Controlla tutte le slide della lezione con lo stesso problema, ricodifica, consegna sullo stesso ramo.
+
+## 17/11 10:45 — solo per la chat della lezione 21
+La lezione 21 è online (verificata e caricata). Due ritocchi grafici: (1) l'etichetta «[SCHEMA DI RIPASSO]» ha le parentesi quadre: va scritta «SCHEMA DI RIPASSO» come in Spagnolo; (2) nella slide «La mappa del professore · tutta la lezione» l'etichetta «MAPPA CONCETTUALE» sta in alto a destra: va in alto a sinistra sopra il titolo, come nelle altre slide. Ricodifica solo le slide toccate, consegna sullo stesso ramo.
