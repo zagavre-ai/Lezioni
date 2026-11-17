@@ -1,0 +1,387 @@
+{
+ "Q1": {
+  "title": "Quiz 1 · L'origine del termine",
+  "items": [
+   {
+    "p": "In quali anni si sviluppa la Scapigliatura?",
+    "a": "Negli anni Sessanta e Settanta dell'Ottocento",
+    "w": [
+     "Negli anni Venti e Trenta dell'Ottocento",
+     "Negli anni Dieci del Novecento",
+     "Alla fine del Settecento"
+    ],
+    "e": "Il fenomeno si sviluppa in Italia negli anni Sessanta-Settanta dell'Ottocento."
+   },
+   {
+    "p": "Qual è il centro principale del movimento?",
+    "a": "Milano",
+    "w": [
+     "Roma",
+     "Napoli",
+     "Firenze"
+    ],
+    "e": "Il centro principale è Milano, con manifestazioni analoghe a Torino e a Genova."
+   },
+   {
+    "p": "Chi conia il termine «scapigliatura», e quando?",
+    "a": "Cletto Arrighi, nel 1862",
+    "w": [
+     "Emilio Praga, nel 1864",
+     "Arrigo Boito, nel 1863",
+     "Charles Baudelaire, nel 1857"
+    ],
+    "e": "Il termine è coniato nel 1862 da Cletto Arrighi nel romanzo La Scapigliatura e il 6 febbraio."
+   },
+   {
+    "p": "Che cosa significa letteralmente «scapigliato»?",
+    "a": "Dai capelli scompigliati",
+    "w": [
+     "Dalla vita solitaria",
+     "Dal cuore romantico",
+     "Dall'animo religioso"
+    ],
+    "e": "Letteralmente «dai capelli scompigliati»; in senso figurato «sfrenato, dissoluto»."
+   },
+   {
+    "p": "Con quale termine francese si può confrontare «scapigliato»?",
+    "a": "Bohémien",
+    "w": [
+     "Dandy",
+     "Flâneur",
+     "Symboliste"
+    ],
+    "e": "Nasce come equivalente italiano del francese bohémien, per artisti anticonformisti e ribelli."
+   }
+  ]
+ },
+ "Q2": {
+  "title": "Quiz 2 · Un movimento senza scuola",
+  "items": [
+   {
+    "p": "Che cosa manca alla Scapigliatura rispetto a un movimento organizzato?",
+    "a": "Un manifesto e una poetica comune codificata",
+    "w": [
+     "Una città di riferimento",
+     "Un nome",
+     "Dei poeti"
+    ],
+    "e": "Non è una scuola con una poetica comune codificata o scritti teorici precisi."
+   },
+   {
+    "p": "Che cosa unisce gli autori scapigliati?",
+    "a": "Un comune impulso di rifiuto e di rivolta",
+    "w": [
+     "Una fede religiosa condivisa",
+     "Una rivista comune",
+     "Un maestro comune"
+    ],
+    "e": "Li unisce un impulso di rifiuto e di rivolta, nell'arte e nella vita quotidiana."
+   },
+   {
+    "p": "Dove si manifesta la rivolta degli scapigliati?",
+    "a": "Sia nell'arte sia nella vita quotidiana",
+    "w": [
+     "Solo nell'arte",
+     "Solo nella politica",
+     "Solo nella scuola"
+    ],
+    "e": "La rivolta riguarda sia l'arte sia la vita di ogni giorno."
+   },
+   {
+    "p": "Contro che cosa si rivolge la polemica?",
+    "a": "I costumi della società borghese e le convenzioni letterarie",
+    "w": [
+     "L'aristocrazia e la monarchia",
+     "La Chiesa e il papato",
+     "L'esercito e la guerra"
+    ],
+    "e": "La contestazione è contro principi e costumi della società borghese e le convenzioni della letteratura contemporanea."
+   },
+   {
+    "p": "Da quale ambiente sociale proviene la maggior parte degli scapigliati?",
+    "a": "Dalla media e piccola borghesia",
+    "w": [
+     "Dal mondo contadino",
+     "Dalla classe operaia",
+     "Dalla nobiltà di corte"
+    ],
+    "e": "Il docente ricorda che questi giovani vengono dalla borghesia, che poi criticano."
+   }
+  ]
+ },
+ "Q3": {
+  "title": "Quiz 3 · Il rifiuto della tradizione e il culto del vero",
+  "items": [
+   {
+    "p": "Che cosa rifiutano gli scapigliati del Romanticismo?",
+    "a": "L'impegno civile, politico e patriottico",
+    "w": [
+     "Il gusto per la natura",
+     "L'amore per la poesia",
+     "L'uso del verso"
+    ],
+    "e": "Rifiutano l'impegno civile, politico e patriottico tipico del primo Ottocento."
+   },
+   {
+    "p": "Quale visione della vita respingono con il manzonismo?",
+    "a": "La visione cristiana",
+    "w": [
+     "La visione scientifica",
+     "La visione materialista",
+     "La visione politica"
+    ],
+    "e": "Viene respinta la visione cristiana propria del manzonismo, insieme al sentimentalismo."
+   },
+   {
+    "p": "Dove si rifugiano gli scapigliati, ripudiando ogni fede religiosa?",
+    "a": "Nella sfera personale",
+    "w": [
+     "Nella vita di campagna",
+     "Nella vita politica",
+     "Nella tradizione classica"
+    ],
+    "e": "Si chiudono nel soggettivo, nella sfera personale."
+   },
+   {
+    "p": "Che cosa intendono per «vero»?",
+    "a": "Gli aspetti più materiali, crudi e impoetici dell'esistenza",
+    "w": [
+     "Gli ideali più alti dell'uomo",
+     "La fede religiosa",
+     "La natura incontaminata"
+    ],
+    "e": "Perseguono la rappresentazione del «vero» negli aspetti più materiali, crudi e impoetici."
+   },
+   {
+    "p": "Quale modello letterario francese influenza gli scapigliati?",
+    "a": "I Fiori del male di Baudelaire",
+    "w": [
+     "I Miserabili di Hugo",
+     "Il rosso e il nero di Stendhal",
+     "Madame Bovary di Flaubert"
+    ],
+    "e": "La loro visione risente fortemente del modello dei Fiori del male di Baudelaire."
+   }
+  ]
+ },
+ "Q4": {
+  "title": "Quiz 4 · Modernità e stile",
+  "items": [
+   {
+    "p": "Che effetto ha la società industriale sull'artista?",
+    "a": "Lo declassa, generando disagio ed emarginazione",
+    "w": [
+     "Lo rende ricco e celebre",
+     "Lo avvicina allo Stato",
+     "Lo spinge verso la vita politica"
+    ],
+    "e": "Società industriale e mercato declassano l'artista: disagio, emarginazione, frustrazione."
+   },
+   {
+    "p": "Come si pongono gli scrittori verso il progresso?",
+    "a": "Provano repulsione e insieme attrazione",
+    "w": [
+     "Lo accolgono con entusiasmo",
+     "Lo ignorano completamente",
+     "Lo rifiutano senza esitazioni"
+    ],
+    "e": "L'atteggiamento è ambivalente: repulsione e attrazione insieme."
+   },
+   {
+    "p": "Quale contrasto esprime la loro opera?",
+    "a": "Quello tra bene e male, virtù e vizio, bellezza e orrido",
+    "w": [
+     "Quello tra città e campagna",
+     "Quello tra giovani e anziani",
+     "Quello tra Nord e Sud"
+    ],
+    "e": "È il dualismo interiore: contrasto insanabile tra bene e male."
+   },
+   {
+    "p": "Che cosa abbandonano nella forma?",
+    "a": "Il linguaggio elevato e nobile della tradizione",
+    "w": [
+     "L'uso del verso",
+     "La rima",
+     "Il racconto in prosa"
+    ],
+    "e": "Viene abbandonato il linguaggio elevato e nobile della tradizione poetica italiana."
+   },
+   {
+    "p": "Quali autori stranieri sono maestri del fantastico e del macabro?",
+    "a": "Hoffmann e Poe",
+    "w": [
+     "Goethe e Schiller",
+     "Hugo e Dumas",
+     "Dickens e Wilde"
+    ],
+    "e": "Il Romanticismo straniero: E.T.A. Hoffmann e Edgar Allan Poe."
+   }
+  ]
+ },
+ "Q5": {
+  "title": "Quiz 5 · I protagonisti e le opere",
+  "items": [
+   {
+    "p": "Chi è l'autore di Preludio?",
+    "a": "Emilio Praga",
+    "w": [
+     "Arrigo Boito",
+     "Igino Ugo Tarchetti",
+     "Cletto Arrighi"
+    ],
+    "e": "Preludio è di Emilio Praga."
+   },
+   {
+    "p": "Chi è l'autore di Dualismo?",
+    "a": "Arrigo Boito",
+    "w": [
+     "Emilio Praga",
+     "Igino Ugo Tarchetti",
+     "Giovanni Verga"
+    ],
+    "e": "Dualismo è di Arrigo Boito."
+   },
+   {
+    "p": "Che cosa descrive Praga in Preludio?",
+    "a": "La crisi spirituale della sua generazione e la perdita della fede",
+    "w": [
+     "Il ritorno alla religione",
+     "La vita serena in campagna",
+     "La gloria del Risorgimento"
+    ],
+    "e": "Descrive la crisi spirituale della sua generazione, la perdita della fede e l'esplorazione del male."
+   },
+   {
+    "p": "Perché Dualismo è detta un'opera manifesto?",
+    "a": "Incarna la tensione dell'artista tra ideale luminoso e cruda realtà",
+    "w": [
+     "Contiene il programma politico del movimento",
+     "È il primo testo del movimento",
+     "Ha un metro nuovo e semplice"
+    ],
+    "e": "Incarna la perenne tensione dell'artista diviso tra l'ideale luminoso e la cruda realtà."
+   },
+   {
+    "p": "Chi è Igino Ugo Tarchetti?",
+    "a": "Un esponente della prosa scapigliata",
+    "w": [
+     "Un poeta del Risorgimento",
+     "Un critico d'arte",
+     "Un musicista"
+    ],
+    "e": "Esponente della prosa scapigliata, legato ai temi dell'attrazione per la morte e del mistero."
+   }
+  ]
+ },
+ "Q6": {
+  "title": "Quiz 6 · Preludio di Emilio Praga",
+  "items": [
+   {
+    "p": "Da quale raccolta è tratto Preludio?",
+    "a": "Penombre",
+    "w": [
+     "Il libro dei versi",
+     "I Fiori del male",
+     "Myricae"
+    ],
+    "e": "Preludio fa parte della raccolta Penombre."
+   },
+   {
+    "p": "In quale anno risale Preludio?",
+    "a": "1864",
+    "w": [
+     "1862",
+     "1863",
+     "1870"
+    ],
+    "e": "La poesia risale al 1864."
+   },
+   {
+    "p": "Chi è il «casto poeta» di Preludio?",
+    "a": "Manzoni",
+    "w": [
+     "Leopardi",
+     "Carducci",
+     "Dante"
+    ],
+    "e": "Il casto poeta è Manzoni, vegliardo perché aveva settantanove anni."
+   },
+   {
+    "p": "Che cosa dice il poeta del proprio canto?",
+    "a": "Che è una misera canzone, ma canta il vero",
+    "w": [
+     "Che è un canto di gloria",
+     "Che è un inno alla religione",
+     "Che è un canto alla patria"
+    ],
+    "e": "«Canto una misera canzone, ma canto il vero»."
+   },
+   {
+    "p": "Come sono costruite le strofe di Preludio?",
+    "a": "Quartine: tre endecasillabi e un settenario o quinario",
+    "w": [
+     "Terzine di endecasillabi",
+     "Distici di settenari",
+     "Strofe di sette settenari"
+    ],
+    "e": "Strofe di quattro versi: i primi tre endecasillabi, l'ultimo settenario o quinario."
+   }
+  ]
+ },
+ "Q7": {
+  "title": "Quiz 7 · Dualismo di Arrigo Boito",
+  "items": [
+   {
+    "p": "In quale anno risale Dualismo?",
+    "a": "1863",
+    "w": [
+     "1864",
+     "1862",
+     "1880"
+    ],
+    "e": "La poesia è del 1863."
+   },
+   {
+    "p": "Da quale opera è tratto Dualismo?",
+    "a": "Il libro dei versi",
+    "w": [
+     "Penombre",
+     "Fiori del male",
+     "La Scapigliatura e il 6 febbraio"
+    ],
+    "e": "Dualismo è tratto da Il libro dei versi."
+   },
+   {
+    "p": "Come si descrive il poeta in Dualismo?",
+    "a": "Luce e ombra, cherubino caduto o demone che sale",
+    "w": [
+     "Un eroe patriottico",
+     "Un fanciullo innocente",
+     "Un profeta religioso"
+    ],
+    "e": "È luce e ombra, un angelo caduto o un demone che sale verso il cielo."
+   },
+   {
+    "p": "Quali sono i due poli della poesia?",
+    "a": "L'ideale e il bene da una parte, il vero materiale e l'orrido dall'altra",
+    "w": [
+     "La città e la campagna",
+     "La vita e la politica",
+     "L'infanzia e la vecchiaia"
+    ],
+    "e": "Da una parte l'ideale e il bene, dall'altra il vero materiale, il male e l'orrido."
+   },
+   {
+    "p": "Qual è il metro della poesia?",
+    "a": "Strofe di sette settenari, con l'ultimo verso tronco",
+    "w": [
+     "Quartine di endecasillabi",
+     "Terzine dantesche",
+     "Strofe di sei novenari"
+    ],
+    "e": "Strofe di sette settenari: l'ultimo verso è tronco e rima con l'ultimo della strofa successiva."
+   }
+  ]
+ }
+}

@@ -1,58 +1,132 @@
 # RAPPORTO DI REVISIONE · Letteratura italiana V · Lezione 2 · La Scapigliatura
-**Versione 1 (prima versione, 16/11/2026) · stato: IN REVISIONE**
-Video controllato: `Letteratura_Lez2_Parte1_1080p.mp4` del ramo `consegna-letteratura-V-lez02` (sha256 ricomposto = file `.sha256`: OK).
+**Consegna 17/11/2026 · stato: REVISIONATA (con i limiti scritti in §5)** · ogni dato è etichettato *misurato* / *stima* / *non verificato*.
 
-## 1. Che cosa ho MISURATO (strumenti) e che cosa è una STIMA
-| Controllo | Risultato | Tipo |
+## 1. Misure sul video nuovo (`Letteratura_Lez2_Parte1_1080p.mp4`)
+| Voce | Valore | Tipo |
 |---|---|---|
-| Durata / formato | 59:17,1 · 1920×1080 · 30 fps · 222,6 MB | misurato |
-| Volume parlato | −16,2 LUFS integrato (ebur128) | misurato |
-| Silenzi > 2 s | 24, tutti sulle schede Quiz/titolo (5 s di scheda muta) **tranne** 3531–3539 s e 3549–3557 s (vedi problema 4) | misurato |
-| Sottotitoli `.vtt` | 739 blocchi; «Scapigliatura» scritta bene 24 volte, nessun «lettatura» | misurato (solo ricerca di termini) |
-| Fotogrammi ogni 60 s e ogni 30 s (`controllo_minuti.jpg`) | guardati a vista | misurato |
-| Video originale del prof (release) | 1092×614, 39:19; il montato dura 59:17 (con schede, ripassi, mappe, glossario) | misurato |
+| Durata / fotogrammi | 55:26,8 · 99 803 (attesi 99 803) · 1920×1080 · 30 fps · 266,1 MB | misurato |
+| Vecchio video | 59:17,1 · 106 712 fotogrammi (la durata è cambiata: vedi §3, tabella secondi) | misurato |
+| Volume | integrato −15,2 LUFS (include sigle e jingle); parlato del prof −16,0 LUFS sul file pulito (catena kit: aresample 48000, highpass 80, arnndn `sh.rnnn`, loudnorm −16); voci Kore portate a −16 LUFS | misurato |
+| Picco reale | **−1,2 dBTP** (limite −1) | misurato |
+| Jingle Quiz (`controllo_jingle.py`, `quiz.wav`) | 7/7 a +0,005 s dall'inizio scheda + 0,5 s: OK | misurato |
+| Altri jingle del kit | `titolo.wav` su ogni titolo di argomento (già presente), `repaso.wav` su ogni ripasso (**aggiunto**, mancava), `finale.wav` su «Fine della lezione» (**aggiunto**), schede Verifica/Compiti con jingle (**aggiunto**) | misurato (correlazione) |
+| Silenzi > 3 s | **2 residui**: ≈ 3009–3012 s (fine Quiz 7 → glossario) e ≈ 3310 s (fine lezione); gli altri silenzi sono < 3 s | misurato · NON corretti |
+| Fermo immagine del riquadro del prof ≥ 1 s (`freezedetect` sul riquadro) | **nessuno** dentro i pezzi del prof | misurato |
+| Sottotitoli | 934 blocchi, nessuna sovrapposizione, tempi dalla trascrizione Parakeet; testo del docente da trascrizione automatica con correzioni di nomi | misurato / **non riletti per intero** |
 
-**NON ho potuto verificare (blocco tecnico):**
-- **Trascrizione audio completa (Whisper): non eseguibile.** Il modello va scaricato da `huggingface.co`, che da questa macchina è bloccato dalla rete (403 del proxy). Quindi punti A1–A3 della verifica (frase per frase, «ecco/guarda…», tagli dentro le frasi, sincronia labbra) **non sono ancora fatti**. Serve: sbloccare `huggingface.co` (o un file modello Whisper `small` in una release), oppure la trascrizione dalla master.
-- OCR automatico delle slide (nessun OCR installato): il testo delle slide l'ho letto a vista solo su un campione; refusi non ancora esclusi.
-- Ascolto dei 3 punti per fruscio/ronzio/metallico: non possibile qui (nessun ascolto); misuro solo il volume.
-
-## 2. Problemi trovati finora
-| # | Minuto | Tipo | Com'è | Correzione prevista |
-|---|---|---|---|---|
-| 1 | tutte le slide con il prof (dal minuto 0:46 alla fine del ripasso finale) | visivo | Prof nel **TONDO** (≈300 px, x≈1700 y≈400), nome su una riga sotto il tondo («Prof. Giorgio Mazzotti» + «LETTERATURA ITALIANA»), niente fascia gialla | Riquadro **4:3 410×308 a x≈1428 y≈146**, angoli arrotondati, ombra grigia, ritaglio dall'originale con testa e spalle intere, correzione immagine kit; fascia gialla −3° su due righe «Giorgio Mazzotti» / «PROF. DI LETTERATURA ITALIANA» |
-| 2 | tutto | visivo | **Modello grafico diverso da Spagnolo (punto 000)**: fondo grigio-azzurro invece di bianco; barretta **gialla** invece di blu; etichetta in alto «LETTERATURA ITALIANA» invece di «01 · NOME ARGOMENTO»; nessun filetto sotto il logo; piè di pagina con numeri/etichette diverse («Introduzione», «Ripasso», «Testo dal libro · Pagina 41»); il nome del piè di pagina cambia da slide a slide (a vista: «PROF. GIORGIO MAZZOTTI» in maiuscolo nei ripassi, «Prof. Giorgio Mazzotti» altrove); card con bordo giallo su fondo grigio | Rifare tutte le slide con il modello `kit/modello_spagnolo/` (fondo bianco, barretta blu, «0N · ARGOMENTO», piè di pagina «LETTERATURA ITALIANA · Prof. Giorgio Mazzotti» + «Pagina N», tabelle/card come Spagnolo) |
-| 3 | 0:15–0:46 | visivo | Copertina: la lista dei 7 argomenti è su una sola colonna e **l'ultima voce («Dualismo di Arrigo Boito») tocca il filetto del piè di pagina**; manca il titolo grande con barretta come Spagnolo e la riga «LETTERATURA ITALIANA V · VIDEOLEZIONE» | Copertina del modello, card «ARGOMENTI» su due colonne |
-| 4 | 58:51–59:17 | visivo + audio | **Finale rotto:** «GRAZIE PER L'ATTENZI» **tagliato** e fuori centro (testo a metà schermo), senza logo e senza avviso dei diritti; **8 s di silenzio totale** (3549–3557 s) e altri 7 s muti (3531–3539 s). Non è la sigla del kit | Sostituire con `kit/sigle/Sigla_finale_5s_con_avviso_diritti.mp4` (5 s) |
-| 5 | glossario (≈ 3300 s) | visivo/testo | Nel fotogramma campione il glossario mostra una sola parola («Bohémien») in evidenza; non ho verificato le altre schede | Verificare e completare |
-| 6 | slide «Testo dal libro» (Preludio e Dualismo, 2ª metà della lezione; minuti esatti da fissare con la trascrizione) | pagina | Le pagine del libro (Preludio p. 38–39, Dualismo p. 41–44) compaiono come **pagina intera rimpicciolita** dentro una card, con righe poco leggibili; la regola B-bis chiede le **«fettine» dallo screen HD**, rigo ≥ 26–30 px, evidenziate a tempo | Rifare dalle 6 immagini HD della release (`Lez02_p038/039/041/042/043/044.png`), ritagli sulle righe bianche, senza intestazioni/numeri pagina/QR |
-| 7 | slide «Dualismo di Arrigo Boito» (nota a destra) | pagina/visivo | La nota a destra («2. cherubo: …») risulta **tagliata** in fondo («…vagare per il mondo.» a metà) | Con le fettine HD |
-| 8 | mappe | visivo | Le mappe (una per argomento + finale) sono su fondo grigio con grafica non del modello; devono essere **quelle del prof** (release `MAPPE.zip` → `LEZIONE 2.pdf`) in matrice v3 | Confronto contenuto con `LEZIONE 2.pdf` e reimpaginazione; PDF mappe A4 |
-| 9 | PDF | testo | Mancano i due PDF A4 orizzontali nuovi: `…_slide.pdf` (slide identiche al video, senza riquadro) e `…_mappe.pdf`. Nel ramo consegna c'è «Dispensa» e «Mappe» vecchie | Da generare dopo il rifacimento |
-| 10 | .vtt | testo | `controllo_finale.py` della consegna segnava **sottotitoli 64% < 80%** («DA SISTEMARE»); consegnata comunque | Rigenerare con `sub_finale.py` sul video nuovo |
-| 11 | compiti / verifica | testo | **Excel della verifica: identico byte per byte** a quello del prof (OK). **Compiti:** testo identico ai primi esercizi di `LEZIONE 2.pdf` (confronto completo da finire), ma `compiti.json` ha chiavi `compiti`/`risposta_aperta`/`stato` invece del formato richiesto `{"titolo","esercizi":[{"n","tipo":"aperta","testo"}]}` | Riscrivere nel formato richiesto |
-
-## 3. Piano di correzione e tempi (stima)
-1. Sblocco trascrizione (vedi §1) — **serve da Sara/master**; senza, A1–A3 restano non verificati.
-2. Ricostruzione di tutte le slide in grafica Spagnolo (HTML → PNG 1080p) a partire dai testi già nel video e dalle slide del prof (`Letteratura_Lez2_videodispensa.pptx`): ~1,5 h.
-3. Riquadro 4:3 + fascia gialla: ritaglio dall'originale 1092×614 (la qualità è limitata dalla sorgente: 410×308 è reso in 1:1, nessun ingrandimento oltre il 100%), allineamento con `kit/tools/rettangolo/`: ~1 h.
-4. Pagine del libro dalle immagini HD: ~1 h.
-5. Ricodifica, finale kit, `.vtt`, PDF A4 (slide e mappe), controlli, rapporto finale: ~1 h.
-Totale stimato: **~4,5 h dalla partenza** (entro 5 h), a condizione che la trascrizione si sblocchi nella prima ora.
-
-## 4. Tabella di confronto con il modello (punto 000) — stato attuale
-| Punto | Esito |
+## 2. Confronto col modello Spagnolo (punto 000)
+| # | Esito |
 |---|---|
-| 1 Sigla → dissolvenza → copertina | sigla ok (15 s Letteratura); da guardare la dissolvenza |
-| 2 Copertina | **da correggere** (problema 3) |
-| 3 Slide (fondo bianco, «0N · ARGOMENTO», barretta blu) | **da correggere** (problema 2) |
-| 4 Piè di pagina | **da correggere** (problema 2) |
-| 5 Riquadro 4:3 | **da correggere** (problema 1) |
-| 6 Fascia gialla | **da correggere** (problema 1) |
-| 7 Slide senza prof | **da correggere** (grafica, problema 2) |
-| 8 Font | Bricolage/Figtree/DM Mono presenti: ok a vista |
-| 9 Finale kit | **da correggere** (problema 4) |
-| 10 Struttura (presentazione, 7 argomenti con ripasso e quiz, glossario, riepilogo) | presente (timeline: 7 quiz, 7 ripassi, 7 mappe, 2 approfondimenti, GL, RF, mappa finale) |
-| 11 PDF A4 | **mancano** (problema 9) |
+| 1 Sigla → dissolvenza → copertina | OK (sigla 15 s del kit; dissolvenza di 0,2 s su ogni giunzione tra pezzi, tranne sigle) |
+| 2 Copertina | **corretto**: titolo, card ARGOMENTI su 2 colonne, riga «LETTERATURA ITALIANA V · VIDEOLEZIONE» |
+| 3 Slide (fondo bianco, «0N · ARGOMENTO», barretta blu, tabelle intestazione blu notte) | **corretto** (tutte rifatte da testo del pptx del prof) |
+| 4 Piè di pagina «LETTERATURA ITALIANA V · Prof. Giorgio Mazzotti» + «Pagina N» | **corretto** (Figtree Bold) |
+| 5 Riquadro 4:3 (412×310, x 1428 y 148, ombra grigia morbida, niente bordo) | **corretto**; ritaglio dalla webcam dell'originale 184×138 ingrandito 2,24× con correzione kit (hqdn3d, cas, contrasto 1,04, sat. 1,03): **morbido**, limite della sorgente |
+| 6 Fascia gialla −3°, due righe, sempre visibile | **corretto** |
+| 7 Slide senza prof | OK (ripassi, schemi, parole difficili, glossario, riepilogo) |
+| 8 Font | solo Bricolage 800 / Figtree / (DM Mono non usato) |
+| 9 Finale kit `Sigla_finale_5s_con_avviso_diritti.mp4` | **corretto** (prima: testo tagliato e 8 s di silenzio) |
+| 10 Struttura | presente: sigla, presentazione, 7 argomenti (prof, ripasso con voce, schema, quiz 5 domande), approfondimenti, glossario, riepilogo, mappa del prof, finale |
+| 11 PDF A4 orizzontale | `Letteratura_Lez2_slide.pdf` (62 pagine = slide del video senza riquadro e fascia; vettoriale) e `Letteratura_Lez2_mappe.pdf` (mappa del prof). **Confronto pagina per pagina con i fotogrammi: NON fatto** (stesso generatore per video e PDF) |
 
-Allegato: `controllo_minuti.jpg` (1 fotogramma ogni 30 s del video attuale).
+## 3. Problemi trovati e correzioni
+| Minuto (vecchio video) | Tipo | Com'era | Correzione |
+|---|---|---|---|
+| tutta la lezione | audio/visivo | **Audio in anticipo sul video in modo progressivo**: scarto 0,03 s sul primo argomento fino a ≈ 1 s sul settimo (offset del prof rispetto all'originale: D1 0,03 · D3 0,25 · D5 0,57 · D7 0,97 s; jingle Quiz 7 a −1,24 s dall'attesa; voci Kore che partono fino a 0,6 s prima della scheda) | audio rifatto da zero con i file originali (prof dall'originale pulito, voci Kore dai `.wav`, jingle del kit) agganciato ai fotogrammi |
+| tutti i pezzi del prof | visivo | prof nel tondo, nome su una riga | riquadro 4:3 + fascia gialla |
+| tutte le slide | visivo | modello diverso da Spagnolo (fondo grigio, barretta gialla, etichetta senza «0N ·») | rifatte nel modello |
+| fine D5 (orig. 1324 s) | audio | pezzo del prof tagliato a metà frase («…preludio di Emilio» / «Prague») | fine spostata dopo la frase |
+| fine D6 (orig. 1816 s) | audio | tagliato a metà frase («…la noia e»…) | fine spostata a 1820,74 s dell'originale |
+| fine D4 (orig. 1223 s) | audio | fine di «…a leggere» sul bordo | spostata in una pausa (1223,41 s) |
+| 58:51–59:17 | visivo+audio | finale con «GRAZIE PER L'ATTENZI» tagliato, senza logo, 8 s di silenzio | sigla finale del kit |
+| 3300 s e dintorni | audio | schede Verifica/Compiti e ripasso senza jingle | jingle aggiunti |
+| Preludio/Dualismo | pagina | pagina intera rimpicciolita, riga tagliata in fondo | 26 fettine dagli screen HD (vedi §4) |
+| card 3 («significato letterale»), 309 s | visivo | evidenziata 12 s prima della frase del prof (321,6 s) | evidenziazione dai tempi parola per parola |
+| mappe | contenuto | 7 mappe + 1 finale **fatte da noi**, non del prof (il prof ne ha una sola) | tolte; nel video la **mappa del prof** (voce nuova `RM1`, 108 s); mappa nel PDF |
+| ripassi/schemi | visivo/testo | voci scritte alla pronuncia («Bodlèr», «Òffman», «boemièn», «Gòete», «Anjambmàn») anche sullo schermo | sullo schermo ortografia corretta (Baudelaire, Hoffmann, bohémien, Goethe, enjambement) |
+
+### Tabella secondo vecchio → nuovo (la durata è cambiata: scheda_pubblicazione.json e timeline.json già aggiornati)
+| Pezzo | vecchio (s) | nuovo (s) |
+|---|---|---|
+| Q1 | 529.1 | 491.0 |
+| Q2 | 740.5 | 668.5 |
+| Q3 | 1133.9 | 1013.1 |
+| Q4 | 1710.2 | 1541.9 |
+| Q5 | 1896.4 | 1696.8 |
+| Q6 | 2570.7 | 2332.6 |
+| Q7 | 3295.6 | 3006.8 |
+| VERIFICA | 3538.4 | 3308.1 |
+| COMPITI | 3552.0 | 3321.7 |
+
+### Inizio e fine di ogni pezzo del prof (ultime parole dalla trascrizione, *stima*)
+| pezzo | inizio | prime parole | fine | ultime parole | frase finita |
+|---|---|---|---|---|---|
+| D1 | 0:50.8 | Buongiorno e benvenuti alla lezione sulla | 7:10.3 | organizzato. con manifestazioni teoriche o manifesti codificati. | sì |
+| D2 | 8:20.0 | Tra un bel po' di lezioni, | 10:19.3 | tra gli autori, i bersagli della polemica. | sì |
+| D3 | 11:17.5 | Ecco, proviamo a parlare di questo | 15:59.6 | solo. Per soffertire la forma... poetica tradizionale. | sì |
+| D4 | 17:02.1 | e colpire i lettori borghesi che | 24:24.6 | opere, e ovviamente le andiamo a leggere. | sì |
+| D5 | 25:50.9 | almeno alcune di queste. Allora, parliamo | 27:32.3 | mistero. Vediamo quindi preludio di Emilio Prague. | sì |
+| D6 | 28:25.8 | Allora, questa è, come potete vedere, | 36:41.8 | disperazione, e torna ovviamente su questo Podler. | sì |
+| D7 | 39:01.6 | Arrigo Boito, dualismo. Come vedete, 1863, | 47:59.8 | e lo capite anche voi. a risolversi. | sì |
+
+**Attenzione (difetto residuo):** in due punti il taglio cade su un punto fermo ma la frase del prof continua nel pezzo dopo: fine D3 («…poetica tradizionale.» → D4 «e colpire i lettori borghesi…») e fine D4 («…le andiamo a leggere.» → D5 «almeno alcune di queste…»). Parole non mozzate, ma la frase è spezzata su due pezzi. Da sistemare spostando i tagli di 4–6 s.
+
+## 4. Pagine del libro in HD (fettine)
+Sorgente: `Lez02_ingrandita.1.zip` → `Lez02/screen/Lez02_p038, 039, 041, 042, 043, 044.png`. Ogni fettina inizia e finisce su una riga bianca, prende solo la colonna del brano, senza intestazioni, numeri di pagina o riquadri; il rigo è ≈ 26 px o più a 1080p (scala ≥ 1,16 sulla sorgente HD). Le note a piè di pagina non sono state mostrate (spiegate dagli approfondimenti con voce). Foglio dei fotogrammi: `controllo_fettine.jpg` (un fotogramma a metà intervallo per ogni fettina, controllati a vista: nessuna riga tagliata).
+| Fettina | Pagina | File (rettangolo in pixel) | Minuto video |
+|---|---|---|---|
+| A1 | p. 38 | Lez02/screen/Lez02_p038.png (334,235)-(875,507) | 28:41.6 |
+| A2 | p. 38 | Lez02/screen/Lez02_p038.png (503,512)-(1593,731) | 29:41.3 |
+| D | p. 38 | Lez02/screen/Lez02_p038.png (845,940)-(1602,1184) | 30:32.6 |
+| E | p. 38 | Lez02/screen/Lez02_p038.png (839,1221)-(1573,1462) | 30:47.6 |
+| F | p. 38 | Lez02/screen/Lez02_p038.png (761,1502)-(1592,1746) | 31:02.6 |
+| G | p. 38 | Lez02/screen/Lez02_p038.png (760,1785)-(1694,2024) | 31:18.6 |
+| H | p. 39 | Lez02/screen/Lez02_p039.png (740,232)-(1586,475) | 31:36.1 |
+| I | p. 39 | Lez02/screen/Lez02_p039.png (830,511)-(1695,759) | 31:50.6 |
+| J | p. 39 | Lez02/screen/Lez02_p039.png (740,794)-(1627,1046) | 32:01.1 |
+| K | p. 39 | Lez02/screen/Lez02_p039.png (740,1078)-(1671,1317) | 32:40.6 |
+| A2 | p. 38 | Lez02/screen/Lez02_p038.png (503,512)-(1593,731) | 33:33.1 |
+| D | p. 38 | Lez02/screen/Lez02_p038.png (845,940)-(1602,1184) | 33:59.6 |
+| G | p. 38 | Lez02/screen/Lez02_p038.png (760,1785)-(1694,2024) | 34:47.1 |
+| H | p. 39 | Lez02/screen/Lez02_p039.png (740,232)-(1586,475) | 35:33.6 |
+| K | p. 39 | Lez02/screen/Lez02_p039.png (740,1078)-(1671,1317) | 36:11.4 |
+| S1 | p. 41 | Lez02/screen/Lez02_p041.png (272,1762)-(880,2109) | 39:13.7 |
+| S2 | p. 41 | Lez02/screen/Lez02_p041.png (438,2356)-(1113,2765) | 39:43.3 |
+| S3 | p. 42 | Lez02/screen/Lez02_p042.png (424,230)-(1047,642) | 40:08.3 |
+| S4 | p. 42 | Lez02/screen/Lez02_p042.png (419,680)-(1047,1096) | 40:24.8 |
+| S5 | p. 42 | Lez02/screen/Lez02_p042.png (417,1133)-(1011,1543) | 40:41.3 |
+| S6 | p. 42 | Lez02/screen/Lez02_p042.png (419,1580)-(1098,1994) | 40:59.8 |
+| S7 | p. 42 | Lez02/screen/Lez02_p042.png (418,2034)-(1066,2448) | 41:31.3 |
+| S8 | p. 43 | Lez02/screen/Lez02_p043.png (414,232)-(1003,644) | 41:57.3 |
+| S9 | p. 43 | Lez02/screen/Lez02_p043.png (414,685)-(1046,1106) | 42:11.3 |
+| S10 | p. 43 | Lez02/screen/Lez02_p043.png (417,1143)-(1003,1555) | 42:26.3 |
+| S11 | p. 43 | Lez02/screen/Lez02_p043.png (416,1601)-(1073,2013) | 42:39.3 |
+| S12 | p. 43 | Lez02/screen/Lez02_p043.png (415,2051)-(1072,2473) | 42:57.8 |
+| S13 | p. 43 | Lez02/screen/Lez02_p043.png (417,2507)-(1146,2927) | 43:16.3 |
+| S14 | p. 44 | Lez02/screen/Lez02_p044.png (419,218)-(1060,629) | 43:28.8 |
+| S15 | p. 44 | Lez02/screen/Lez02_p044.png (421,670)-(1085,1081) | 43:42.3 |
+| S16 | p. 44 | Lez02/screen/Lez02_p044.png (402,1122)-(1058,1536) | 43:56.8 |
+| S17 | p. 44 | Lez02/screen/Lez02_p044.png (408,1568)-(1074,1982) | 44:12.8 |
+| S2 | p. 41 | Lez02/screen/Lez02_p041.png (438,2356)-(1113,2765) | 45:27.8 |
+| S6 | p. 42 | Lez02/screen/Lez02_p042.png (419,1580)-(1098,1994) | 47:05.3 |
+| S17 | p. 44 | Lez02/screen/Lez02_p044.png (408,1568)-(1074,1982) | 47:48.3 |
+
+## 5. Cosa NON ho verificato / limiti noti
+- **Ascolto**: nessun ascolto umano. Pronuncia delle voci Kore controllata solo confrontando la trascrizione automatica col testo: da ascoltare «Manzonismo» (resa «mansonismo» in S3 e glossario), «Igino Ugo» (resa «Gino Ugo» in R5/S5/riepilogo), «svolazziam» (approfondimento Preludio). Non ho rigenerato voci.
+- **Rumore** del prof (fruscio/ronzio/metallico): applicata la catena del kit ma non ascoltata.
+- **Sincronia labbra/voce**: video e audio del prof sono presi dallo stesso istante dell'originale (stesso offset): costruzione, non misura sul file finale. Scarto non misurato con correlazione sul video finale.
+- **Evidenziazioni** (card in corso): tempi dalla trascrizione ma con sovrapposizioni stimate: *stima* ±1,5 s; per ripassi/schemi/glossario/riepilogo i tempi sono corretti sullo scarto medio (*stima*).
+- **Testo delle slide**: preso dal pptx del prof (nessun OCR del video finale). Sottotitoli non riletti per intero; possibili errori residui di nomi.
+- **Webcam**: 244×138 px nell'originale, ingrandita ×2,24: morbida; in alcuni punti la testa tocca il bordo alto già nell'originale (es. orig. 100 s, 1700 s).
+- **Mappa del prof nel video**: schermata fissa di 108 s con voce RM1 (nessuna comparsa progressiva dei nodi). Una sola mappa per lezione (il prof non ne ha mandata una per argomento).
+- **Dissolvenze**: 0,2 s verso il bianco su ogni giunzione; `trans.wav` usato solo sulla scheda Compiti. Non c'è un effetto sonoro di transizione tra tutti i pezzi.
+- Silenzi > 3 s residui (§1) e frasi del prof spezzate tra D3/D4 e D4/D5 (§3).
+- Slide extra «Avanguardia e ritardo italiano» (D4, 1077–1223 s dell'originale): il prof parla di cose che non sono sulle sue slide; schede scritte con le sue parole.
+
+## DA CONFERMARE COL PROF
+- Slide extra «Avanguardia e ritardo italiano» (frasi: «Manzoni è ancora vivo: morirà nel 1873», «anticipa i temi della letteratura decadente: mistero, crudeltà, bellezza malata»).
+- Nome «Igino Ugo Tarchetti» (slide) pronunciato «Gino Ugo» dal prof.
+- Data «il 6 febbraio» (pptx e Excel concordano; il prof dice «nel 1862»).
+
+## 6. Come ho verificato
+Ricomposizione e sha256 del video vecchio; trascrizione `trascrivi.py` (Parakeet) di video vecchio e originale; fotogrammi ogni 60/30 s; allineamento audio-originale (correlazione) dei pezzi del prof; slide dal pptx del prof; fettine dalle 6 pagine HD con coordinate OCR (rapidocr); `controllo_jingle.py`; `ebur128`, `silencedetect`, `freezedetect` (ffmpeg); confronto compiti (identici al PDF del prof) ed Excel (identico byte per byte). Video: piano di montaggio per pezzi (47 pezzi), una codifica x264 veryfast CRF 19, AAC 192k.
