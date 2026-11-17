@@ -2,7 +2,7 @@
  "tag": "letteratura-V-lez12",
  "parti": {
   "1": {
-   "stato": "IN_REVISIONE"
+   "stato": "IN_MONTAGGIO"
   }
  },
  "manca": "",
@@ -10,25 +10,32 @@
  "domande_sara": [],
  "note": [
   {
-   "quando": "16/11 23:25",
-   "testo": "prima versione rapporto pushata; serve decisione: rifare tutta la grafica (modello Spagnolo) o solo correzioni"
+   "quando": "16/11 23:24",
+   "testo": "IN_REVISIONE chat revisione 12. Consegna prevista 06:30 (ora italiana), aggiorno ogni 20 minuti. Partenza 00:25."
   },
   {
-   "quando": "16/11 23:33",
-   "testo": "Decisione Sara: rifare tutta la grafica nel modello Spagnolo, stessa durata e stessi fotogrammi. Consegna prevista: entro 5 ore da ora (17/11 ~04:30 UTC); prima verifica completa nel rapporto entro 2 ore"
+   "quando": "16/11 23:30",
+   "testo": "Avanzamento: scaricato tutto, trascrizione in corso, motore slide modello Spagnolo pronto (primo test ok). Consegna prevista 06:30 IT."
   },
   {
-   "quando": "17/11 07:28",
-   "testo": "Consegna prevista entro 1 ora (08:28 UTC): video nuovo montato (graf. Spagnolo), mancano controlli finali, sottotitoli e push. Aggiorno ogni 20 min"
+   "quando": "16/11 23:54",
+   "testo": "Avanzamento: slide del modello Spagnolo generate (59 pagine), piano di montaggio contiguo ok (stessi 102104 fotogrammi). Nuove voci R1-R6 mandate (mappa del prof). Prossimo: composizione video+audio. Consegna prevista 06:30 IT."
   },
   {
-   "quando": "17/11 07:31",
-   "testo": "07:31: codifica video in corso (3 processi), audio con jingle/transizioni pronto; consegna prevista entro 08:21 UTC"
+   "quando": "17/11 00:04",
+   "testo": "Avanzamento 01:04: compositing video in corso, sottotitoli e PDF pronti, nuove voci R7-R12 in attesa. Consegna prevista 06:30 IT."
   },
   {
-   "quando": "17/11 07:34",
-   "testo": "07:34: 19/58 blocchi video codificati; audio e sottotitoli pronti. Consegna prevista tra 40 min circa"
+   "quando": "17/11 07:29",
+   "testo": "08:29 letto aggiornamenti 01:20-08:15. Ricalcolo il tempo con tagli del prof a fine frase, jingle, transizioni, mappe del prof. Consegna prevista 09:30 (ora italiana); aggiorno ogni 20 minuti."
+  },
+  {
+   "quando": "17/11 07:36",
+   "testo": "08:36 timeline nuova (56:18): montaggio e audio in corso, poi codifica, controlli, consegna. Consegna prevista 09:30."
   }
  ],
- "aggiornato": "2026-11-17 07:34:27"
+ "materia": "Letteratura Italiana V",
+ "lezione": "Lezione 12",
+ "docente": "Prof. Giorgio Mazzotti",
+ "aggiornato": "2026-11-17 07:36:42"
 }
