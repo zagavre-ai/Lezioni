@@ -5,7 +5,7 @@
    "stato": "IN_REVISIONE"
   }
  },
- "manca": "",
+ "manca": "Rifacimento completo grafica Spagnolo (riquadro 4:3, fascia gialla, ombre grigie, jingle, transizioni, mappa del prof). Verifica A+B+C in corso; trascrizione finita al 70%.",
  "serve_master": [],
  "domande_sara": [],
  "note": [
@@ -16,10 +16,14 @@
   {
    "quando": "17/11 07:58",
    "testo": "Consegna prevista entro 08:58 (ora del server, +60 min dalla ripartenza). Aggiorno ogni 20 min. Ora: trascrizione con trascrivi.py."
+  },
+  {
+   "quando": "17/11 08:04",
+   "testo": "AGGIORNAMENTO 20 min: NON riesco a consegnare entro 1 ora. Il video attuale ha il prof nel tondo, 13 schede animate su fondo grigio, 3 mappe inventate da noi (19:15, 20:00, 33:45), nessuna fascia gialla: va rifatto quasi tutto. Stima onesta: prima versione RAPPORTO entro ~1 h, consegna REVISIONATA entro ~4 h da ora. Misurato: picco -0,4 dBFS (limite -1 dBTP: da correggere), 1 silenzio >2,5 s a fine video (8,9 s fino a 3224 s = coda). Mappa del prof: 1 sola mappa, trovata."
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 19 (revisione)",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-17 07:58:25"
+ "aggiornato": "2026-11-17 08:04:50"
 }
