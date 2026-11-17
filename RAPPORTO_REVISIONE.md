@@ -8,7 +8,7 @@ Lezione rifatta nella grafica identica a Spagnolo Lez. 1 (fondo bianco, riquadro
 | Controllo | Esito |
 |---|---|
 | Formato | 1920×1080, 30 fps, x264 veryfast CRF 19, AAC 192k 48 kHz |
-| Durata / fotogrammi | 52:34,2 (3154,2 s) · 94.626 fotogrammi (identici alla versione precedente) · OK (50–60 min) |
+| Durata / fotogrammi | 52:33,1 (3153,1 s) · 94.591 fotogrammi (35 in meno della versione precedente: tolto 1,15 s di inizio mozzato del pezzo 4, vedi sotto) · OK (50–60 min) |
 | Peso | 190,9 MB (< 400 MB) · tre pezzi `.parte_00/01/02`, sha256 nel file `.sha256` |
 | Volume del parlato | −16,1 LUFS · picco vero **−1,5 dBTP** (limitatore; richiesto ≤ −1) · OK (prima −16,3 e −0,6 dB) |
 | Silenzi > 2,5 s | 6, tutti nelle schede «Pausa del video / Quiz» e nei titoli (2,96–3,9 s, non parlato: sono le pause previste). Nessun silenzio nel parlato. Sparita la coda muta di 7,9 s |
@@ -48,6 +48,24 @@ Lezione rifatta nella grafica identica a Spagnolo Lez. 1 (fondo bianco, riquadro
 | scheda/quiz | testo | argomenti con nomi diversi da quelli del video («La vita di Calvino», «Scienza, combinatoria e città invisibili» vs «La vita», «Il secondo Calvino») | allineati a quelli del video (scheda, quiz, YouTube) |
 | `compiti.json` | testo | lista di 4 frasi, formato sbagliato | formato `{"titolo","esercizi":[{n,tipo,testo}]}`, testo identico al PDF del prof |
 | `scheda_pubblicazione.json` | testo | titolo «Italo Calvino · Parte 1», tempi del video vecchio | titolo «Letteratura V · Lezione 26 · Italo Calvino», tempi nuovi |
+
+## Aggiornamenti 17/11 (01:20, 01:25, 01:30, 08:15)
+**Pezzi del prof: fine e inizio** (trascrizione corretta; non ascoltato) — tutti finiscono a fine frase.
+| Pezzo | Fine (minuto video) | Ultime parole | Frase finita | Inizio | Primo parole | Inizio pulito |
+|---|---|---|---|---|---|---|
+| 1 | 7:29 | «…ma ci atteniamo all'autore.» | sì | 0:44 | «Buongiorno e benvenuti…» | sì |
+| 2 | 15:34 | «…diviso e incompleto.» | sì | 11:21 | «Allora, io proseguirei…» | sì |
+| 3 | 27:25 | «…la definitiva chiusura della fase realistica.» | sì | 20:48 | «Continua, visto che c'è una teleologia…» | sì |
+| 4 | 36:23 | «…ciò che inferno non è, per farlo durare. La buona strada.» | sì | 32:32 | «E poi il secondo Calvino…» | **corretto**: prima iniziava con «…al vino.» (coda di «Calvino», mozzata); tolto 1,15 s, il pezzo parte dopo la pausa |
+| 5 | 45:15 | «…trattandolo però in modo piuttosto diverso da come lo trattano altri.» | sì | 41:10 | «Parliamo anche del meta-romanzo…» | sì |
+**Jingle (01:20):** `quiz.wav` del kit presente sulle 5 schede Quiz (con `controllo_jingle.py`, file `controllo_jingle.txt`): scarto 0,000–0,004 s, OK. Le schede titolo/ripasso/finale hanno già i loro jingle (`titolo`, `repaso`, `finale`). Il jingle nel video cadeva 0,07–0,2 s prima dell'atteso: ho aggiornato `quiz_s` nella scheda (inizio scheda − 0,07…0,2 s) invece di spostare l'audio. Nessuna scheda in silenzio nel parlato.
+**Transizioni (08:15):** `trans.wav` del kit su 18 passaggi (inizio e fine di ogni pezzo del prof, mappe, glossario, riepilogo), più dissolvenza di 0,6 s tra slide e schede; nessun taglio secco.
+**Mai immagine ferma del prof (08:15):** la copertina mostra il prof solo da 0:44, quando parla davvero (prima c'è solo la copertina, senza riquadro). `freezedetect` (≥1 s) sul video finale: **0 fermi** dentro le finestre del prof.
+**Sincronia (08:15, misurato):** scarto audio ↔ originale per ognuno dei 5 pezzi (5 punti ciascuno, correlazione a 16 kHz): massimo **0,003 s**; il video viene dallo stesso istante dell'originale (arrotondamento al fotogramma ≤ 0,017 s). Limite 0,04 s: OK.
+**Ombre e card in corso (01:30):** ombre grigie e morbide (nessuna nera né spostata a blocco, nel video e nei PDF); card in corso con bordo **giallo sottile** e numero su pallino giallo, fondo bianco; le altre con bordo grigio chiaro.
+**Picco audio:** −1,5 dBTP, −16,1 LUFS (limitatore dopo l'inserimento dei jingle).
+**Correzione di bug:** nel video precedente l'ultima parte della clip del prof 4 restava agganciata alla scheda successiva (la finestra finiva 25 s dopo); ora termina con il pezzo.
+**Non verificato:** ascolto dei jingle e delle transizioni a orecchio.
 
 ## Correzioni dopo il controllo della master (16/11)
 1. **Slide vuote:** la scheda «Il visconte dimezzato» (e tutte le altre slide senza prof: schede opera, linee del tempo, confronti, analisi, parole chiave) restava a solo titolo fino alla prima card. Ora la prima card/punto/riga è presente dal primo fotogramma; nei ripassi, nel glossario e nel riepilogo tutte le righe sono presenti sbiadite e si accendono a tempo con la voce; le mappe partono con centro + primo ramo. Controllo: nessuna pagina ha uno stato senza contenuto (misurato su tutte le 45 pagine).
