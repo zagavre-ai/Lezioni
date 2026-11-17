@@ -499,13 +499,14 @@ async function vistaMappe(dove,alunno,modifica){
   document.querySelectorAll('[data-mpt]').forEach(b=>b.onclick=async()=>{if(!confirm('Togliere questa mappa?'))return;await api('mappa_togli',{id:b.dataset.mpt});vistaMappe(dove,alunno,modifica)});
 }
 function svgMappa(d,z){
-  const R=d.rami||[],n=Math.max(R.length,1),W=860,H=600,cx=W/2,cy=H/2,rr=215;const wrap=(t,m)=>{const w=String(t||'').split(/\s+/);const o=[];let c='';w.forEach(x=>{if((c+' '+x).trim().length>m){if(c)o.push(c);c=x}else c=(c+' '+x).trim()});if(c)o.push(c);return o.slice(0,4)};
-  const txt=(x,y,t,m,sz,col,b)=>wrap(t,m).map((r,i,a)=>`<text x="${x}" y="${y+(i-(a.length-1)/2)*sz*1.2}" text-anchor="middle" dominant-baseline="middle" font-size="${sz}" font-family="Verdana,Arial" ${b?'font-weight="bold"':''} fill="${col}">${esc(r)}</text>`).join('');
+  const R=d.rami||[],n=Math.max(R.length,1),W=860,H=600,cx=W/2,cy=H/2,rr=215;const wrap=(t,m)=>{const w=String(t||'').split(/\s+/);const o=[];let c='';w.forEach(x=>{while(x.length>m){if(c){o.push(c);c=''}o.push(x.slice(0,m));x=x.slice(m)}if((c+' '+x).trim().length>m){if(c)o.push(c);c=x}else c=(c+' '+x).trim()});if(c)o.push(c);return o};
+  /* 17/11: il testo si adatta al riquadro (bw×bh): più righe e carattere più piccolo, mai tagliato */
+  const txt=(x,y,t,bw,bh,sz,col,b)=>{let L=[t],s2=sz;for(;s2>=8;s2--){L=wrap(t,Math.max(4,Math.floor(bw/(s2*0.62))));if(L.length*s2*1.2<=bh)break}sz=Math.max(s2,8);return L.map((r,i,a)=>`<text x="${x}" y="${y+(i-(a.length-1)/2)*sz*1.2}" text-anchor="middle" dominant-baseline="middle" font-size="${sz}" font-family="Verdana,Arial" ${b?'font-weight="bold"':''} fill="${col}">${esc(r)}</text>`).join('')};
   let g='';R.forEach((r,i)=>{const a=-Math.PI/2+i*2*Math.PI/n,x=cx+rr*Math.cos(a),y=cy+rr*0.8*Math.sin(a),c=MCOL[r.c%MCOL.length];
     g+=`<line x1="${cx}" y1="${cy}" x2="${x}" y2="${y}" stroke="${c}" stroke-width="6"/>`;
-    (r.f||[]).forEach((s,j,A)=>{const b=a+(j-(A.length-1)/2)*0.32,sx=x+150*Math.cos(b),sy=y+120*Math.sin(b);g+=`<line x1="${x}" y1="${y}" x2="${sx}" y2="${sy}" stroke="${c}" stroke-width="3"/><rect x="${sx-75}" y="${sy-26}" width="150" height="52" rx="10" fill="#fff" stroke="${c}" stroke-width="2"/>`+txt(sx,sy,s.t,15,17,'#0B1530')});
-    g+=`<rect x="${x-95}" y="${y-48}" width="190" height="96" rx="14" fill="${c}"/>`+txt(x,y-(r.k||r.e?16:0),r.t,16,22,'#fff',1)+(r.k?txt(x,y+16,'🔑 '+r.k,22,14,'#fff'):'')+(r.e?txt(x,y+34,'es. '+r.e,24,13,'#fff'):'')});
-  g+=`<ellipse cx="${cx}" cy="${cy}" rx="130" ry="62" fill="#FFE600" stroke="#0B1530" stroke-width="4"/>`+txt(cx,cy,d.centro||'Argomento',16,28,'#0B1530',1);
+    (r.f||[]).forEach((s,j,A)=>{const b=a+(j-(A.length-1)/2)*0.32,sx=x+150*Math.cos(b),sy=y+120*Math.sin(b);g+=`<line x1="${x}" y1="${y}" x2="${sx}" y2="${sy}" stroke="${c}" stroke-width="3"/><rect x="${sx-75}" y="${sy-26}" width="150" height="52" rx="10" fill="#fff" stroke="${c}" stroke-width="2"/>`+txt(sx,sy,s.t,140,48,17,'#0B1530')});
+    g+=`<rect x="${x-95}" y="${y-48}" width="190" height="96" rx="14" fill="${c}"/>`+txt(x,y-(r.k||r.e?16:0),r.t,178,(r.k||r.e)?54:88,22,'#fff',1)+(r.k?txt(x,y+16,'🔑 '+r.k,178,16,14,'#fff'):'')+(r.e?txt(x,y+34,'es. '+r.e,178,15,13,'#fff'):'')});
+  g+=`<ellipse cx="${cx}" cy="${cy}" rx="130" ry="62" fill="#FFE600" stroke="#0B1530" stroke-width="4"/>`+txt(cx,cy,d.centro||'Argomento',205,96,28,'#0B1530',1);
   return `<svg viewBox="0 0 ${W} ${H}" width="${Math.round(100*z)}%" style="min-width:${Math.round(520*z)}px" role="img" aria-label="Mappa: ${esc(d.centro||'')}">${g}</svg>`;
 }
 function editorMappa(m,dove,alunno){MAPPA=m;MZOOM=1;clearInterval(MSYNC);
@@ -522,7 +523,7 @@ function editorMappa(m,dove,alunno){MAPPA=m;MZOOM=1;clearInterval(MSYNC);
   const sincronizza=async()=>{if(!document.getElementById('mpv')){clearInterval(MSYNC);return}
     if(MTIMER||Date.now()-MTOCCO<4000)return;
     try{const x=(await api('mappe',{id:MAPPA.id,con_dati:true,alunno_id:alunno||undefined})).mappe[0];if(!x||!x.aggiornata||x.aggiornata<=(MAPPA.aggiornata||''))return;
-      if(MTIMER||Date.now()-MTOCCO<4000)return;MAPPA.dati=x.dati;MAPPA.aggiornata=x.aggiornata;tutto();
+      if(MTIMER||Date.now()-MTOCCO<4000)return;if(JSON.stringify(x.dati)===JSON.stringify(MAPPA.dati)){MAPPA.aggiornata=x.aggiornata;return}const fo=document.activeElement;if(fo&&fo.closest&&fo.closest('.mp-form'))return;/* 17/11: mai mentre si scrive */MAPPA.dati=x.dati;MAPPA.aggiornata=x.aggiornata;tutto();
       $('#mps').textContent='Aggiornata da '+(x.modificata_da||'')+' alle '+new Date(x.aggiornata).toLocaleTimeString('it-IT',{hour:'2-digit',minute:'2-digit'})}catch(e){}};
   MSYNC=setInterval(sincronizza,4000);
   const tutto=()=>{$(dove).innerHTML=`<div class="mp-bar"><button class="btn sec" id="mpb">← Mappe</button><button class="btn sec" id="mpz1">A−</button><button class="btn sec" id="mpz2">A+</button><button class="btn sec" onclick="print()">Stampa / PDF</button><span class="note" id="mps"></span></div>
