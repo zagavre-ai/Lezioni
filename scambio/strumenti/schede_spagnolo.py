@@ -1,6 +1,6 @@
 # schede_spagnolo.py — il programma ORIGINALE delle schede blu di Spagnolo Lez. 1 (kit: home/claude/v5/dark.py),
 # con 3 parametri in più per l'italiano: "big" (pillola: es. "RIPASSO"), "kicker", "l1"/"l2" (riepilogo).
-# Fonti: FZ = cartella dei font Bricolage/Figtree (zip font del kit); logo bianco: Telesio_logo_bianco.svg (kit). Correggi i due percorsi qui sotto.
+# Font e logo sono in questa cartella (font/, Telesio_logo_bianco.svg): non serve cambiare niente.
 # Uso: python3 schede_spagnolo.py '<spec json>' uscita 1.0   (scala 1.0 = 1080p)
 # spec: {"type":"title","num":"01","total":4,"lines":["Le avanguardie","storiche"],"ex":"Espressionismo · Dadaismo","fs":128,"lineY":720,"dur":2.9}
 #       {"type":"repaso","kicker":"Pillola di storia","big":"RIPASSO","topic":"…","caps":[[0.9,4.1,"frase"],…],"dur":20}
@@ -8,15 +8,15 @@
 #       {"type":"final","kicker":"Storia V · <titolo>","l1":"RIEPILOGO","l2":"FINALE","items":[["argomento",""],…],"sub":"Ripassiamo insieme ciò che abbiamo imparato.","dur":30}
 import sys,os,json,shutil,subprocess,base64
 from playwright.sync_api import sync_playwright
-FZ='/home/claude/l1/fz/33157a64-Bricolage_GrotesqueDM_MonoFigtree'
+QUI=os.path.dirname(os.path.abspath(__file__))
 import base64
-LGW=base64.b64encode(open('/home/claude/logo/out/Telesio_logo_bianco.svg','rb').read()).decode()
+LGW=base64.b64encode(open(QUI+'/Telesio_logo_bianco.svg','rb').read()).decode()
 FONTS="""
-@font-face{font-family:'BG';font-weight:800;src:url('file://%(z)s/Bricolage_Grotesque/static/BricolageGrotesque-ExtraBold.ttf')}
-@font-face{font-family:'FG';font-weight:500;src:url('file://%(z)s/Figtree/static/Figtree-Medium.ttf')}
-@font-face{font-family:'FG';font-weight:700;src:url('file://%(z)s/Figtree/static/Figtree-Bold.ttf')}
-@font-face{font-family:'FG';font-weight:800;src:url('file://%(z)s/Figtree/static/Figtree-ExtraBold.ttf')}
-"""%{'z':FZ}
+@font-face{font-family:'BG';font-weight:800;src:url('file://%(z)s/font/BricolageGrotesque-ExtraBold.ttf')}
+@font-face{font-family:'FG';font-weight:500;src:url('file://%(z)s/font/Figtree-Medium.ttf')}
+@font-face{font-family:'FG';font-weight:700;src:url('file://%(z)s/font/Figtree-Bold.ttf')}
+@font-face{font-family:'FG';font-weight:800;src:url('file://%(z)s/font/Figtree-ExtraBold.ttf')}
+"""%{'z':QUI}
 CSS=FONTS+"""
 *{box-sizing:border-box;margin:0;padding:0}
 body{background:#070C1F;width:1920px;height:1080px;overflow:hidden;font-family:'FG';color:#F3F5FA}
