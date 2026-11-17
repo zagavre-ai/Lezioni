@@ -3,28 +3,16 @@
  "parti": {
   "1": {
    "stato": "IN_REVISIONE"
-  },
-  "2": {
-   "stato": "IN_REVISIONE"
   }
  },
  "manca": "",
- "serve_master": [
-  {
-   "quando": "16/11 23:34",
-   "testo": "Voci nuove richieste su voci-letteratura-V-lez13/testi_voci.json: IN2, RIP (apertura Parte 2) e MP (mappa del prof). Servono entro 1 ora."
-  }
- ],
+ "serve_master": [],
  "domande_sara": [],
  "note": [
   {
-   "quando": "16/11 23:34",
-   "testo": "RIPRESA 16/11 23:30: correggo tutto il rapporto. Piano: (1) solo mappa del prof nel video (via le 6 inventate, mappa del prof in 4 zoom con voce nuova MP); (2) taglio le 4 frasi ripetute; (3) apertura Parte 2 con IN2+RIP (voci richieste alla master); (4) sottotitoli del prof riletti uno a uno; (5) fettine del libro rifatte solo a righe intere; (6) ricodifica P1+P2, controlli, push. CONSEGNA PREVISTA: 17/11 entro le 05:30 (stima ~6 h: 2 codifiche da circa 1 ora ciascuna + montaggio). Aggiorno ogni ora."
-  },
-  {
-   "quando": "16/11 23:21",
-   "testo": "agente; consegna prevista 10:30 (ora italiana = UTC+1). Ripresa 17/11 08:21: chiudo i problemi aperti del rapporto parziale (frasi ripetute, apertura P2, mappe, sottotitoli, fettine) + jingle, transizioni, sincronia."
+   "quando": "17/11 07:28",
+   "testo": "17/11 07:30 RIPRESA dopo gli aggiornamenti 01:20/01:25/01:30/08:15. Fatto: mappa del prof (voci MP1-3), apertura Parte 2 (IN2+RIP), frasi ripetute tagliate, sottotitoli riletti, fettine intere, riquadro 4:3. Ora: jingle UFFICIALI del kit (titolo/repaso/trans/quiz/finale), transizioni con dissolvenza, font Figtree Bold per etichette e piede, controllo fine/inizio pezzi del prof, sincronia labbra, freezedetect, picco <= -1 dBTP. CONSEGNA PREVISTA: 17/11 ore 09:15 (re-render di entrambe le Parti ~50 min + controlli). Aggiorno ogni 20 minuti."
   }
  ],
- "aggiornato": "2026-11-16 23:21:18"
+ "aggiornato": "2026-11-17 07:28:05"
 }
