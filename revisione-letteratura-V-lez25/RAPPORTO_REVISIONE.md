@@ -92,5 +92,7 @@ Prima i raccordi D1/D2 («…tentò di | costruirsi…»), D2/D3 («…il suo | 
 - Sincronia card/parlato: misurata con i tempi parola per parola (stima ±1 s), non con riascolto.
 - Pagine del libro: la lezione non ne ha (B-bis non applicabile).
 
+- **Regola pronuncia (aggiornamento 08:45):** nella lezione non ci sono nomi latini come «Aracoeli». Le voci nuove R1 e R2 contengono nomi propri (Pasolini, Casarsa, Accattone, La Ricotta, Alì dagli occhi azzurri, Corriere della Sera, Canterbury nelle voci vecchie); ne ho confrontato la trascrizione automatica col testo e le differenze sono solo «Pierpaolo», «Poesia/Poesie a Casarsa» e «Ali/Alì», che non provano un errore di Kore. **Non ho potuto ascoltarle**: da ascoltare e, se sbagliate, rigenerare con R3… scrivendo il nome come si pronuncia.
+
 ## 8. Come ho verificato
 Trascrizione parola per parola (`trascrivi.py`), OCR dei fotogrammi del video vecchio, correlazione audio per allineare il prof all'originale, `freezedetect`, `silencedetect`, `ebur128`, `controllo_jingle.py`, confronto pixel di ogni pagina PDF col fotogramma, contact sheet `controllo_minuti.jpg` (1 fotogramma ogni 30 s).
