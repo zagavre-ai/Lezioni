@@ -32,7 +32,11 @@
   {
    "quando": "17/11 00:02",
    "testo": "00:02UTC: video: D1/AP1 ok, restanti segmenti in codifica (~30 min); pronti vtt, PDF slide+mappe, verifica, compiti, scheda. attendo R8 (voce mappa finale). consegna prevista 06:00 (ora italiana)"
+  },
+  {
+   "quando": "17/11 00:15",
+   "testo": "00:15UTC: codifica video a metà (D0-D3 fatti, D4 e D6 in parallelo), voce R8 ricevuta (contiene istruzioni lette ad alta voce: la uso tagliando i primi 17,6 s). consegna prevista 06:00 (ora italiana)"
   }
  ],
- "aggiornato": "2026-11-17 00:02:00"
+ "aggiornato": "2026-11-17 00:15:04"
 }
