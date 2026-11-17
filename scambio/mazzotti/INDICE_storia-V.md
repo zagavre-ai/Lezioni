@@ -41,3 +41,8 @@ Test finali e compiti: arrivano dalla direzione il 13/11; nel video restano le s
 - **Slide del prof mancanti:** lezioni 3, 5, 8, 12, 13, 17, 21 → senza PDF le slide si ricostruiscono dai fotogrammi del video (come la 17).
 - **Mappe del prof mancanti:** lezioni 4, 6, 7, 8, 9, 10, 15, 19.
 - Lo zip **008** dell'esportazione del 11/11 non è mai stato caricato: probabilmente contiene proprio queste slide e mappe.
+
+## Aggiornamento 17/11 21:35 (Sara): slide e mappe complete
+- `SLIDE-20261117T202354Z-1-001.zip`: **slide del prof di TUTTE le lezioni 1–21** («LEZIONE N.pdf», 8–28 pagine). Usare queste (sostituiscono la tabella sopra: le slide non mancano più per nessuna lezione).
+- `MAPPE-20261117T202853Z-1-001.zip`: **mappe del prof 1–21 tranne la 15** («MAPPE LEZIONE N.pdf», 3–6 pagine).
+- Ancora mancante: **solo la mappa della lezione 15.**
