@@ -1,16 +1,33 @@
 {
  "tag": "letteratura-V-lez19",
  "parti": {
-  "1": {}
+  "1": {
+   "stato": "IN_REVISIONE"
+  }
  },
- "manca": "",
+ "manca": "Rifacimento completo grafica Spagnolo (riquadro 4:3, fascia gialla, ombre grigie, jingle, transizioni, mappa del prof). Verifica A+B+C in corso; trascrizione finita al 70%.",
  "serve_master": [],
  "domande_sara": [],
  "note": [
   {
-   "quando": "17/11 17:17",
-   "testo": "17/11 17:18 UTC: riletti gli aggiornamenti fino alle 08:45 (e successivi): nessuna regola nuova da applicare; consegna invariata e completa sul ramo revisione-letteratura-V-lez19, REVISIONATA 50:25,23"
+   "quando": "16/11 18:16",
+   "testo": "chat revisione 19"
+  },
+  {
+   "quando": "17/11 07:58",
+   "testo": "Consegna prevista entro 08:58 (ora del server, +60 min dalla ripartenza). Aggiorno ogni 20 min. Ora: trascrizione con trascrivi.py."
+  },
+  {
+   "quando": "17/11 08:04",
+   "testo": "AGGIORNAMENTO 20 min: NON riesco a consegnare entro 1 ora. Il video attuale ha il prof nel tondo, 13 schede animate su fondo grigio, 3 mappe inventate da noi (19:15, 20:00, 33:45), nessuna fascia gialla: va rifatto quasi tutto. Stima onesta: prima versione RAPPORTO entro ~1 h, consegna REVISIONATA entro ~4 h da ora. Misurato: picco -0,4 dBFS (limite -1 dBTP: da correggere), 1 silenzio >2,5 s a fine video (8,9 s fino a 3224 s = coda). Mappa del prof: 1 sola mappa, trovata."
+  },
+  {
+   "quando": "17/11 17:27",
+   "testo": "AGGIORNAMENTO (20 min): trascrizione fatta; ho trovato 2 TAGLI A META FRASE del prof nel video vecchio (a 13:35 fine 'la ricchezza' / inizio 'l'incredibile vastità'; a 35:46 'Caproni' / 'Patrizia Cavalli') e un pezzo di D2 ripreso in mezzo a frase. Rifaccio i pezzi del prof dall'originale intero con confini a fine frase. Ho già voci Kore RV1-RV5 nel ramo voci (mappa del prof = RV5), non servono voci nuove. Ora: costruisco le slide nel modello Spagnolo + montaggio. Consegna stimata: ~3 h da ora."
   }
  ],
- "aggiornato": "2026-11-17 17:17:57"
+ "materia": "Letteratura italiana V",
+ "lezione": "Lezione 19 (revisione)",
+ "docente": "Prof. Giorgio Mazzotti",
+ "aggiornato": "2026-11-17 17:27:03"
 }
