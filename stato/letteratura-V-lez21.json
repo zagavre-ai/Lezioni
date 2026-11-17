@@ -8,7 +8,7 @@
    "durata": "57:23.3",
    "fotogrammi": 103299,
    "fotogrammi_attesi": 103299,
-   "peso_MB": 210.5
+   "peso_MB": 210.4
   }
  },
  "manca": "",
@@ -67,7 +67,11 @@
   {
    "quando": "17/11 17:20",
    "testo": "chat revisione 21 (17/11 ~17:20): applico i 2 ritocchi del 10:19 (SCHEMA DI RIPASSO senza parentesi; etichetta MAPPA CONCETTUALE in alto a sinistra). Ricodifico solo S1-S5 e le mappe, poi video finale (stessa durata). Consegna prevista entro ~40 minuti, aggiorno ogni 20."
+  },
+  {
+   "quando": "17/11 17:33",
+   "testo": "chat revisione 21 (17/11): ritocchi 10:19 fatti e riconsegnati sul ramo revisione-letteratura-V-lez21. Durata 57:23,3, 103299 fotogrammi, timeline identica; picco -2,0 dBTP; quiz +0,000 s."
   }
  ],
- "aggiornato": "2026-11-17 17:20:05"
+ "aggiornato": "2026-11-17 17:33:23"
 }
