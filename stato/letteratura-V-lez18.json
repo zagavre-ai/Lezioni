@@ -2,7 +2,7 @@
  "tag": "letteratura-V-lez18",
  "parti": {
   "1": {
-   "stato": "IN_REVISIONE"
+   "stato": "IN_MONTAGGIO"
   }
  },
  "manca": "",
@@ -48,7 +48,11 @@
   {
    "quando": "17/11 07:31",
    "testo": "08:31 ITA: rifatti con regole 01:20-08:15 (card gialla, jingle, transizioni, seme D0/D1 a fine frase); in codifica. consegna prevista 09:25"
+  },
+  {
+   "quando": "17/11 08:11",
+   "testo": "09:11 ITA: REVISIONATA, consegnata sul ramo revisione-letteratura-V-lez18 (durata 53:39,5 = 96585 fotogrammi; quiz 3,4,5 cambiano secondo, vedi rapporto §6). Punti non verificati: ascolto umano, true peak, voci R da riascoltare."
   }
  ],
- "aggiornato": "2026-11-17 07:31:43"
+ "aggiornato": "2026-11-17 08:11:30"
 }
