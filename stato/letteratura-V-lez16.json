@@ -374,10 +374,14 @@
   {
    "quando": "17/11 07:56",
    "testo": "08:57 it. consegna prevista 09:45 (ora italiana). Codifica finale in corso (pezzi tutti pronti, 99351 fotogrammi). Poi controlli (jingle, sincronia, fermi, volume), rapporto e push."
+  },
+  {
+   "quando": "17/11 08:19",
+   "testo": "09:20 it. consegna prevista 09:45. Video finale codificato (196 MB, 99351 fotogrammi); ricodifico un gruppo dopo la correzione di un silenzio di 6 s; poi rapporto e push."
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 16 · Umberto Saba",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-17 07:56:45"
+ "aggiornato": "2026-11-17 08:19:17"
 }
