@@ -188,3 +188,10 @@ Nella 15 la card in corso ha **bordo nero spesso e ombra nera netta spostata in 
 - **card in corso:** bordo **giallo** sottile + numero su pallino giallo, fondo bianco; le altre card con bordo grigio chiaro;
 - riquadro del prof e foto: ombra grigia morbida, niente bordi neri.
 Controlla tutte le slide (anche ripassi, schede opera, linee del tempo) e il PDF slide.
+
+## 17/11 ore 08:15 (ora italiana) · DIFETTI GRAVI: LA LEZIONE NON SI CONSEGNA (lezione 22 respinta da Sara)
+La 22 è stata respinta: riquadro del prof con **immagine ferma** nella presentazione, **niente jingle**, **niente transizioni**, **audio/video sfasati**. Prima di consegnare controlla e scrivi nel rapporto, con il minuto:
+1. **Mai immagine ferma del prof**: in copertina/presentazione il riquadro del prof c'è solo se il prof parla davvero in quel momento (video vivo); altrimenti niente riquadro. Nessun fermo immagine ≥ 1 s nei pezzi del prof (`freezedetect`).
+2. **Jingle** come Spagnolo (aggiornamento 01:20) e **transizioni** tra un pezzo e l'altro (`trans.wav` + dissolvenza breve), mai taglio secco.
+3. **Sincronia labbra/voce**: per ogni pezzo del prof misura lo scarto audio/video sull'originale (es. correlazione dell'audio col file originale) e scrivilo; scarto massimo 0,04 s.
+4. Font Figtree (15:10), ombre grigie morbide e card in corso gialla (01:30), mappe del prof (00:40), fettine intere (15:00), prof mai tagliato a metà frase (01:25).
