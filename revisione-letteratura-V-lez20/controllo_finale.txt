@@ -1,7 +1,7 @@
-durata 54:50.4 (3290.4 s) | fotogrammi 98711 (attesi 98711) OK | peso 191.0 MB (182.2 MiB) OK | 1920x1080 OK
+durata 47:43.6 (2863.6 s) | fotogrammi 85909 (attesi 85909) OK | peso 175.5 MB (167.4 MiB) OK | 1920x1080 OK
 quiz 6 scatto 0,0 s: OK
 fermi immagine nei pezzi del docente: nessuno OK
-volume del parlato (mediana dei pezzi del docente): -17.3 LUFS OK
-sottotitoli: 812 blocchi, sovrapposti 0, oltre la fine 0, attacco sulla voce entro 0,3 s: 56% di 18 verificabili DA GUARDARE
-foglio di miniature: out/Letteratura_Lez20_Parte1_1080p.mp4.miniature.jpg
+volume del parlato (mediana dei pezzi del docente): -16.6 LUFS OK
+sottotitoli: 686 blocchi, sovrapposti 0, oltre la fine 0, attacco sulla voce entro 0,3 s: 70% di 23 verificabili DA GUARDARE
+foglio di miniature: out2/Letteratura_Lez20_Parte1_1080p.mp4.miniature.jpg
 ESITO: DA SISTEMARE: sottotitoli
