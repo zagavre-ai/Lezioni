@@ -1,8 +1,3 @@
-S1 OK frasi trovate 6 / 6 parole diverse 6 (vere 3) tentativi 1
-S2 OK frasi trovate 7 / 7 parole diverse 5 (vere 3) tentativi 1
-S3 OK frasi trovate 6 / 6 parole diverse 4 (vere 3) tentativi 1
-S4 OK frasi trovate 6 / 6 parole diverse 2 (vere 1) tentativi 1
-GL1 OK frasi trovate 7 / 7 parole diverse 6 (vere 5) tentativi 2
-RF1 OK frasi trovate 5 / 5 parole diverse 9 (vere 1) tentativi 1
-FIN1 OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
-INTRO1 OK frasi trovate 5 / 5 parole diverse 3 (vere 3) tentativi 1
+S3B DA CONTROLLARE frasi trovate 6 / 6 parole diverse 10 (vere 8) tentativi 1
+RF2 OK frasi trovate 5 / 5 parole diverse 10 (vere 4) tentativi 1
+MAPPA1 OK frasi trovate 6 / 6 parole diverse 22 (vere 6) tentativi 1
