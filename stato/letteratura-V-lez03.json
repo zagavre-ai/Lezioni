@@ -2,7 +2,7 @@
  "tag": "letteratura-V-lez03",
  "parti": {
   "1": {
-   "stato": "REVISIONATA",
+   "stato": "IN_REVISIONE",
    "video": "Letteratura_Lez3_Parte1_1080p.mp4",
    "durata_s": 3732.9,
    "durata": "62:12.9",
@@ -36,10 +36,14 @@
   {
    "quando": "16/11 23:27",
    "testo": "Riconsegna 16/11: fettine rifatte, picco -1,3 dBTP, controllo_fettine.jpg"
+  },
+  {
+   "quando": "17/11 17:21",
+   "testo": "17/11 17:20 ripresa: regole fino alle 08:45 (mappa del prof nel video, jingle/transizioni, fine pezzi prof, ombre grigie, sync)"
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 3 · Carducci",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-16 23:27:32"
+ "aggiornato": "2026-11-17 17:21:20"
 }
