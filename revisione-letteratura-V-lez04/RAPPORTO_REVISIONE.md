@@ -11,7 +11,7 @@ Chat di revisione 4 · 17/11/2026 · ramo `revisione-letteratura-V-lez04`. Ogni 
 | Scatto jingle Quiz | +0,004 / +0,005 / +0,005 / +0,003 s (limite 0,05): OK | misurato |
 | Silenzi > 3 s (−45 dB) | 0 | misurato |
 | Fermi immagine nei pezzi del prof | nessuno (`controllo_finale.py` e `freezedetect` sul riquadro) | misurato |
-| Sottotitoli | 660 blocchi, 0 sovrapposti, 0 oltre la fine, max 2 righe; attacco sulla voce entro 0,3 s: 70% di 20 punti verificabili (il controllo automatico è disturbato dai jingle: **da guardare**) | misurato / da guardare |
+| Sottotitoli | 660 blocchi, 0 sovrapposti, 0 oltre la fine, max 2 righe. Attacchi riallineati sulle parole della trascrizione (510 blocchi). Su tutti i 277 blocchi che iniziano dopo una pausa l'attacco sulla voce ha errore **mediano +0,04 s**; 69% entro 0,3 s, 76% entro 0,5 s. Il resto sono picchi di rumore del rilevatore (valori −0,8 s = soglia raggiunta a inizio finestra), non verificato all'orecchio | misurato / **da guardare** |
 | Sincronia audio/video del prof | scarto audio finale vs originale −0,02 s su 12 punti (3 per pezzo, 4 pezzi): ≤ 0,04 s | misurato |
 
 ## 2. Confronto con il modello Spagnolo Lez. 1 (punto 000, 11 voci)
@@ -27,7 +27,7 @@ Chat di revisione 4 · 17/11/2026 · ramo `revisione-letteratura-V-lez04`. Ogni 
 | 8 | Solo Bricolage Grotesque / Figtree (etichette in Figtree Bold, aggiornamento 15:10) | **corretto** (prima: DM Mono) |
 | 9 | Finale `Sigla_finale_5s_con_avviso_diritti.mp4` | **OK** |
 | 10 | Struttura: sigla → presentazione → per argomento (titolo, prof, approfondimenti, ripasso, quiz) → glossario → riepilogo → finale | **OK**; la mappa del prof è nell'argomento 3 |
-| 11 | PDF A4 orizzontale: slide identiche al video + mappe del prof | **OK**: `Letteratura_Lez4_slide.pdf` (49 pagine, A4 orizzontale, una slide per pagina nello stato finale, senza riquadro e senza fascia), `Letteratura_Lez4_mappe.pdf` (1 pagina, vettoriale) |
+| 11 | PDF A4 orizzontale: slide identiche al video + mappe del prof | **OK**: `Letteratura_Lez4_slide.pdf` (49 pagine, A4 orizzontale, una slide per pagina nello stato finale, senza riquadro e senza fascia), `Letteratura_Lez4_mappe.pdf` (1 pagina, vettoriale, etichetta «MAPPA CONCETTUALE» in alto a sinistra) |
 
 ## 3. Problemi trovati e correzioni
 Tempi **vecchi** = video consegnato (`consegna-…`, 53:46,2); tempi **nuovi** vedi §7.

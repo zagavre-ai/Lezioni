@@ -2,6 +2,6 @@ durata 49:08.8 (2948.8 s) | fotogrammi 88463 (attesi 88463) OK | peso 198.4 MB (
 quiz 4 scatto 0,0 s: OK
 fermi immagine nei pezzi del docente: nessuno OK
 volume del parlato (mediana dei pezzi del docente): -16.7 LUFS OK
-sottotitoli: 660 blocchi, sovrapposti 0, oltre la fine 0, attacco sulla voce entro 0,3 s: 70% di 20 verificabili DA GUARDARE
-foglio di miniature: Letteratura_Lez4_Parte1_1080p.mp4.miniature.jpg
+sottotitoli: 660 blocchi, sovrapposti 0, oltre la fine 0, attacco sulla voce entro 0,3 s: 69% di 16 verificabili DA GUARDARE
+foglio di miniature: /home/user/work/final/Letteratura_Lez4_Parte1_1080p.mp4.miniature.jpg
 ESITO: DA SISTEMARE: sottotitoli
