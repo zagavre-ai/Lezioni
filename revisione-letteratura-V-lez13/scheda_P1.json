@@ -1,25 +1,31 @@
 {
  "materia": "Letteratura italiana (V)",
  "titolo": "Letteratura V · Lezione 13 · Italo Svevo · Parte 1",
- "durata_s": 3143.9,
+ "durata_s": 3108.0,
  "argomenti": [
   {
    "n": 1,
    "titolo": "L'inetto e il pensiero sveviano",
-   "inizio_s": 227.848,
-   "quiz_s": 1687.981
+   "inizio_s": 227.833,
+   "quiz_s": 1645.4,
+   "inizio_s_vecchio": 227.848,
+   "quiz_s_vecchio": 1687.981
   },
   {
    "n": 2,
    "titolo": "Una vita e Senilità",
-   "inizio_s": 1693.281,
-   "quiz_s": 2500.748
+   "inizio_s": 1650.7,
+   "quiz_s": 2417.9,
+   "inizio_s_vecchio": 1693.281,
+   "quiz_s_vecchio": 2500.748
   },
   {
    "n": 3,
    "titolo": "La coscienza di Zeno",
-   "inizio_s": 2506.048,
-   "quiz_s": 3098.249
+   "inizio_s": 2423.2,
+   "quiz_s": 2983.8,
+   "inizio_s_vecchio": 2506.048,
+   "quiz_s_vecchio": 3098.249
   }
  ],
  "quiz": {
