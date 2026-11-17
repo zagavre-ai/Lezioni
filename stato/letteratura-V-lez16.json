@@ -382,10 +382,14 @@
   {
    "quando": "17/11 08:28",
    "testo": "09:30 it. REVISIONATA. Ramo revisione-letteratura-V-lez16 (RAPPORTO_REVISIONE.md). Durata 55:11,7, 99351 fotogrammi, 205,9 MB. Quiz Q2 e Q3 cambiano secondo (1694,97 e 2821,03): sono già in scheda_pubblicazione.json e timeline_P1.json. Non verificato all'ascolto; da confermare col prof le differenze elencate nel rapporto."
+  },
+  {
+   "quando": "17/11 17:19",
+   "testo": "rapporto aggiornato: tabella secondi vecchi→nuovi (Q2 1694,97, Q3 2821,03) e nota pronuncia. Regole fino alle 08:45 applicate; resta non ascoltato."
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 16 · Umberto Saba",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-17 08:28:31"
+ "aggiornato": "2026-11-17 17:19:14"
 }
