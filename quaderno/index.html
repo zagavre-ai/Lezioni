@@ -51,8 +51,8 @@ table.l tr.cl{cursor:pointer}table.l tr.cl:hover td{background:var(--soft)}
 .mp-ed{display:grid;grid-template-columns:minmax(260px,380px) 1fr;gap:14px;align-items:start}@media (max-width:760px){.mp-ed{grid-template-columns:1fr}.mp-svg{position:static;order:-1;max-height:55vh}}
 .mp-svg{position:sticky;top:8px;background:#fff;border:1px solid var(--line);border-radius:8px;overflow:auto;max-height:78vh}.mp-svg svg{display:block}
 .mp-r{border:1px solid var(--line);border-left:6px solid var(--c);border-radius:6px;padding:8px;margin:8px 0;background:#fff}.mp-r input{margin:3px 0}
-.mp-r .x{float:right}.mp-sub{margin-left:14px}.mp-bar{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0}
-@media print{header.top,.tabs,.mp-form,.mp-bar,.who,#esci{display:none!important}.mp-ed{display:block}.mp-svg{border:0;max-height:none}}
+.mp-r .x{float:right}.mp-sub{margin-left:14px}.mp-form textarea.mpt{font-size:17px;line-height:1.4;resize:none;overflow:hidden;width:100%;min-height:40px;font-family:inherit}.mp-bar{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0}
+@media print{header.top,.tabs,.mp-form,.mp-bar,.who,#esci{display:none!important}.mp-ed{display:block}.mp-svg{border:0;max-height:none}.mp-svg svg{width:100%!important;height:auto!important}}
 .disp-m{margin:18px 0 6px;font-size:16px;color:var(--navy)}.disp{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
 .rit{color:var(--red);font-weight:bold}
 .mat{font-size:12px;font-weight:bold;letter-spacing:.1em;color:var(--navy);text-transform:uppercase}
@@ -499,22 +499,38 @@ async function vistaMappe(dove,alunno,modifica){
   document.querySelectorAll('[data-mpt]').forEach(b=>b.onclick=async()=>{if(!confirm('Togliere questa mappa?'))return;await api('mappa_togli',{id:b.dataset.mpt});vistaMappe(dove,alunno,modifica)});
 }
 function svgMappa(d,z){
-  const R=d.rami||[],n=Math.max(R.length,1),W=860,H=600,cx=W/2,cy=H/2,rr=215;const wrap=(t,m)=>{const w=String(t||'').split(/\s+/);const o=[];let c='';w.forEach(x=>{while(x.length>m){if(c){o.push(c);c=''}o.push(x.slice(0,m));x=x.slice(m)}if((c+' '+x).trim().length>m){if(c)o.push(c);c=x}else c=(c+' '+x).trim()});if(c)o.push(c);return o};
-  /* 17/11: il testo si adatta al riquadro (bw×bh): più righe e carattere più piccolo, mai tagliato */
-  const txt=(x,y,t,bw,bh,sz,col,b)=>{let L=[t],s2=sz;for(;s2>=8;s2--){L=wrap(t,Math.max(4,Math.floor(bw/(s2*0.62))));if(L.length*s2*1.2<=bh)break}sz=Math.max(s2,8);return L.map((r,i,a)=>`<text x="${x}" y="${y+(i-(a.length-1)/2)*sz*1.2}" text-anchor="middle" dominant-baseline="middle" font-size="${sz}" font-family="Verdana,Arial" ${b?'font-weight="bold"':''} fill="${col}">${esc(r)}</text>`).join('')};
-  let g='';R.forEach((r,i)=>{const a=-Math.PI/2+i*2*Math.PI/n,x=cx+rr*Math.cos(a),y=cy+rr*0.8*Math.sin(a),c=MCOL[r.c%MCOL.length];
-    g+=`<line x1="${cx}" y1="${cy}" x2="${x}" y2="${y}" stroke="${c}" stroke-width="6"/>`;
-    (r.f||[]).forEach((s,j,A)=>{const b=a+(j-(A.length-1)/2)*0.32,sx=x+150*Math.cos(b),sy=y+120*Math.sin(b);g+=`<line x1="${x}" y1="${y}" x2="${sx}" y2="${sy}" stroke="${c}" stroke-width="3"/><rect x="${sx-75}" y="${sy-26}" width="150" height="52" rx="10" fill="#fff" stroke="${c}" stroke-width="2"/>`+txt(sx,sy,s.t,140,48,17,'#0B1530')});
-    g+=`<rect x="${x-95}" y="${y-48}" width="190" height="96" rx="14" fill="${c}"/>`+txt(x,y-(r.k||r.e?16:0),r.t,178,(r.k||r.e)?54:88,22,'#fff',1)+(r.k?txt(x,y+16,'🔑 '+r.k,178,16,14,'#fff'):'')+(r.e?txt(x,y+34,'es. '+r.e,178,15,13,'#fff'):'')});
-  g+=`<ellipse cx="${cx}" cy="${cy}" rx="130" ry="62" fill="#FFE600" stroke="#0B1530" stroke-width="4"/>`+txt(cx,cy,d.centro||'Argomento',205,96,28,'#0B1530',1);
-  return `<svg viewBox="0 0 ${W} ${H}" width="${Math.round(100*z)}%" style="min-width:${Math.round(520*z)}px" role="img" aria-label="Mappa: ${esc(d.centro||'')}">${g}</svg>`;
+  /* 17/11 sera (alunni BES): carattere grande e fisso, i riquadri crescono con il testo, nessuna sovrapposizione, la mappa si allarga da sola */
+  const R=d.rami||[],n=Math.max(R.length,1);
+  const wrap=(t,m)=>{const w=String(t||'').split(/\s+/).filter(Boolean);const o=[];let c='';w.forEach(x=>{while(x.length>m){if(c){o.push(c);c=''}o.push(x.slice(0,m));x=x.slice(m)}if((c+' '+x).trim().length>m){if(c)o.push(c);c=x}else c=(c+' '+x).trim()});if(c)o.push(c);return o.length?o:['']};
+  const linee=(t,bw,sz)=>wrap(t,Math.max(6,Math.floor(bw/(sz*0.6))));
+  const txt=(x,y,L,sz,col,b)=>L.map((r,i,a)=>`<text x="${x}" y="${y+(i-(a.length-1)/2)*sz*1.25}" text-anchor="middle" dominant-baseline="middle" font-size="${sz}" font-family="Verdana,Arial" ${b?'font-weight="bold"':''} fill="${col}">${esc(r)}</text>`).join('');
+  const SW=210,SF=17,BW=250,BT=21,BK=16,BE=15,CW=250,CF=25,GAP=14;
+  const Lc=linee(d.centro||'Argomento',CW,CF),ry=Math.max(62,Lc.length*CF*1.25/2+30),rx=Math.max(150,CW/2+40);
+  const urta=(A,B)=>A[0]<B[2]&&B[0]<A[2]&&A[1]<B[3]&&B[1]<A[3];
+  const fatti=[[-rx-20,-ry-20,rx+20,ry+20]];let g='',sotto='';
+  R.forEach((r,i)=>{const a=-Math.PI/2+i*2*Math.PI/n,c=MCOL[r.c%MCOL.length];
+    const Lt=linee(r.t||'',BW-24,BT),Lk=r.k?linee('🔑 '+r.k,BW-24,BK):[],Le=r.e?linee('es. '+r.e,BW-24,BE):[];
+    const hT=Lt.length*BT*1.25,hK=Lk.length*BK*1.25,hE=Le.length*BE*1.25,bh=hT+hK+hE+28+(Lk.length?6:0)+(Le.length?6:0);
+    const lato=Math.cos(a)>=-0.2?1:-1,F=(r.f||[]).map(s=>{const L=linee(s.t||'',SW-20,SF);return {L,h:L.length*SF*1.25+20}});
+    const Hs=F.reduce((t,x)=>t+x.h,0)+GAP*Math.max(0,F.length-1);let yc=-Hs/2;F.forEach(x=>{x.dx=lato*(BW/2+50+SW/2);x.dy=yc+x.h/2;yc+=x.h+GAP});
+    const rel=[[-BW/2,-bh/2,BW/2,bh/2]].concat(F.map(x=>[x.dx-SW/2,x.dy-x.h/2,x.dx+SW/2,x.dy+x.h/2]));
+    const gb=[Math.min(...rel.map(q=>q[0])),Math.min(...rel.map(q=>q[1])),Math.max(...rel.map(q=>q[2])),Math.max(...rel.map(q=>q[3]))];
+    let rad=200,x=0,y=0;for(let k=0;k<200;k++){x=rad*Math.cos(a);y=rad*0.82*Math.sin(a);const B=[gb[0]+x-12,gb[1]+y-12,gb[2]+x+12,gb[3]+y+12];if(!fatti.some(A=>urta(A,B))){fatti.push(B);break}rad+=15}
+    g+=`<line x1="0" y1="0" x2="${x}" y2="${y}" stroke="${c}" stroke-width="6"/>`;
+    F.forEach(s=>{const sx=x+s.dx,sy=y+s.dy;g+=`<line x1="${x}" y1="${y}" x2="${sx}" y2="${sy}" stroke="${c}" stroke-width="3"/>`;
+      sotto+=`<rect x="${sx-SW/2}" y="${sy-s.h/2}" width="${SW}" height="${s.h}" rx="10" fill="#fff" stroke="${c}" stroke-width="2"/>`+txt(sx,sy,s.L,SF,'#0B1530')});
+    let yy=y-bh/2+14;sotto+=`<rect x="${x-BW/2}" y="${y-bh/2}" width="${BW}" height="${bh}" rx="14" fill="${c}"/>`;
+    sotto+=txt(x,yy+hT/2,Lt,BT,'#fff',1);yy+=hT+6;if(Lk.length){sotto+=txt(x,yy+hK/2,Lk,BK,'#fff');yy+=hK+6}if(Le.length)sotto+=txt(x,yy+hE/2,Le,BE,'#fff')});
+  g+=sotto+`<ellipse cx="0" cy="0" rx="${rx}" ry="${ry}" fill="#FFE600" stroke="#0B1530" stroke-width="4"/>`+txt(0,0,Lc,CF,'#0B1530',1);
+  const x0=Math.min(...fatti.map(q=>q[0]))-20,y0=Math.min(...fatti.map(q=>q[1]))-20,W=Math.max(...fatti.map(q=>q[2]))+20-x0,H=Math.max(...fatti.map(q=>q[3]))+20-y0;
+  return `<svg viewBox="${x0} ${y0} ${W} ${H}" width="${Math.round(W*z)}" height="${Math.round(H*z)}" style="max-width:none" role="img" aria-label="Mappa: ${esc(d.centro||'')}">${g}</svg>`;
 }
 function editorMappa(m,dove,alunno){MAPPA=m;MZOOM=1;clearInterval(MSYNC);
-  const form=()=>{const d=MAPPA.dati;return `<div class="mp-form"><label class="f">Argomento (al centro)</label><input class="t" data-k="centro" value="${esc(d.centro)}">
+  const form=()=>{const d=MAPPA.dati;return `<div class="mp-form"><label class="f">Argomento (al centro)</label><textarea class="t mpt" rows="1" data-k="centro">${esc(d.centro)}</textarea>
    ${d.rami.map((r,i)=>`<div class="mp-r" style="--c:${MCOL[r.c%MCOL.length]}"><button class="esci x" data-rx="${i}">togli</button>
-    <label class="f">Ramo ${i+1}</label><input class="t" data-r="${i}" data-k="t" value="${esc(r.t)}" placeholder="Concetto">
-    <input class="t" data-r="${i}" data-k="k" value="${esc(r.k)}" placeholder="Parola chiave"><input class="t" data-r="${i}" data-k="e" value="${esc(r.e)}" placeholder="Esempio">
-    <div class="mp-sub">${(r.f||[]).map((s,j)=>`<div style="display:flex;gap:4px"><input class="t" data-r="${i}" data-s="${j}" value="${esc(s.t)}" placeholder="Dettaglio"><button class="esci" data-sx="${i}.${j}">×</button></div>`).join('')}
+    <label class="f">Ramo ${i+1}</label><textarea class="t mpt" rows="1" data-r="${i}" data-k="t" placeholder="Concetto">${esc(r.t)}</textarea>
+    <textarea class="t mpt" rows="1" data-r="${i}" data-k="k" placeholder="Parola chiave">${esc(r.k)}</textarea><textarea class="t mpt" rows="1" data-r="${i}" data-k="e" placeholder="Esempio">${esc(r.e)}</textarea>
+    <div class="mp-sub">${(r.f||[]).map((s,j)=>`<div style="display:flex;gap:4px"><textarea class="t mpt" rows="1" data-r="${i}" data-s="${j}" placeholder="Dettaglio">${esc(s.t)}</textarea><button class="esci" data-sx="${i}.${j}">×</button></div>`).join('')}
     <button class="esci" data-sa="${i}">+ sotto-ramo</button> <button class="esci" data-col="${i}">cambia colore</button></div></div>`).join('')}
    <button class="btn sec" id="mpra">+ ramo</button></div>`};
   const disegna=()=>{$('#mpv').innerHTML=svgMappa(MAPPA.dati,MZOOM)};
@@ -530,7 +546,8 @@ function editorMappa(m,dove,alunno){MAPPA=m;MZOOM=1;clearInterval(MSYNC);
     <div class="mp-ed"><div>${form()}</div><div class="mp-svg" id="mpv"></div></div>`;disegna();
     $('#mpb').onclick=()=>vistaMappe(dove,alunno,!!alunno);$('#mpz1').onclick=()=>{MZOOM=Math.max(.4,MZOOM-.15);disegna()};$('#mpz2').onclick=()=>{MZOOM=Math.min(2.5,MZOOM+.15);disegna()};
     const d=MAPPA.dati;
-    document.querySelectorAll('.mp-form input').forEach(inp=>inp.oninput=()=>{const r=inp.dataset.r,k=inp.dataset.k,sj=inp.dataset.s;
+    const cresci=e=>{e.style.height='auto';e.style.height=(e.scrollHeight+2)+'px'};document.querySelectorAll('.mp-form textarea').forEach(cresci);
+    document.querySelectorAll('.mp-form input,.mp-form textarea').forEach(inp=>inp.oninput=()=>{if(inp.tagName==='TEXTAREA')cresci(inp);const r=inp.dataset.r,k=inp.dataset.k,sj=inp.dataset.s;
       if(r===undefined)d.centro=inp.value;else if(sj!==undefined)d.rami[r].f[sj].t=inp.value;else d.rami[r][k]=inp.value;disegna();salva()});
     $('#mpra').onclick=()=>{d.rami.push({t:'',k:'',e:'',c:d.rami.length,f:[]});tutto();salva()};
     document.querySelectorAll('[data-rx]').forEach(b=>b.onclick=()=>{d.rami.splice(+b.dataset.rx,1);tutto();salva()});
