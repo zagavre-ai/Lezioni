@@ -2,7 +2,15 @@
  "tag": "letteratura-V-lez02",
  "parti": {
   "1": {
-   "stato": "IN_REVISIONE"
+   "stato": "REVISIONATA",
+   "voci": "kore",
+   "video": "Letteratura_Lez2_Parte1_1080p.mp4",
+   "durata_s": 3326.8,
+   "durata": "55:26.8",
+   "fotogrammi": 99803,
+   "fotogrammi_attesi": 99803,
+   "peso_MB": 266.1,
+   "vtt": "Letteratura_Lez2_Parte1.vtt"
   }
  },
  "manca": "",
@@ -53,7 +61,11 @@
   {
    "quando": "17/11 08:17",
    "testo": "09:17: trovato nel video vecchio uno sfasamento audio/video progressivo (fino a 1,2 s: jingle Quiz 7 e voci Kore) e corretto rifacendo l'audio dai file originali; ricodifica schede in corso, poi controlli e consegna. Consegna prevista 09:50"
+  },
+  {
+   "quando": "17/11 08:29",
+   "testo": "09:29: REVISIONATA con limiti nel rapporto (silenzi>3s residui 2; frasi del prof spezzate fra D3/D4 e D4/D5; nessun ascolto). Ramo revisione-letteratura-V-lez02. Durata 55:26,8: secondi aggiornati in scheda_pubblicazione.json"
   }
  ],
- "aggiornato": "2026-11-17 08:17:47"
+ "aggiornato": "2026-11-17 08:29:25"
 }
