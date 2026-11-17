@@ -1,0 +1,54 @@
+{
+ "tag": "letteratura-V-lez23",
+ "parti": {
+  "1": {
+   "stato": "IN_MONTAGGIO"
+  }
+ },
+ "manca": "",
+ "serve_master": [],
+ "domande_sara": [],
+ "note": [
+  {
+   "quando": "16/11 18:17",
+   "testo": "IN_REVISIONE chat revisione 23: partita 16/11"
+  },
+  {
+   "quando": "16/11 23:26",
+   "testo": "consegna prevista 05:30 (ora italiana, 17/11); aggiorno ogni 20 min"
+  },
+  {
+   "quando": "16/11 23:32",
+   "testo": "00:55 it: trascrizione in corso, OCR 50 pezzi fatto, prossimo: allineo audio prof e costruisco slide nel modello; consegna prevista 05:30"
+  },
+  {
+   "quando": "16/11 23:54",
+   "testo": "01:35 it: ricostruzione grafica in corso (modello Spagnolo): slide, mappe del prof, pezzi del prof da riallineare. Trovato: 3 ripetizioni di parlato del prof ai giunti D1/D2, D2/D3, D3/D4 (2,1 s, 1,1 s, 1,0 s); D4 con slide ferma 233 s mentre il prof parla di altre opere. Consegna prevista 05:30"
+  },
+  {
+   "quando": "17/11 00:08",
+   "testo": "ricostruzione video in corso: 17 pezzi su 50 renderizzati; PDF slide (78 pag) fatto; voci mappe del prof richieste (R5-R8); sottotitoli in correzione. consegna prevista 05:30"
+  },
+  {
+   "quando": "17/11 00:26",
+   "testo": "pezzi video 43/50 pronti; voci nuove mappe del prof arrivate (R5-R10); restano pezzi del prof D2/D4 e mappe, poi audio, codifica, sottotitoli, controlli. consegna prevista 05:30"
+  },
+  {
+   "quando": "17/11 07:28",
+   "testo": "08:30 it: ripresa. Consegna prevista 09:30 (ora italiana). Applico: durata libera, silenzi <3 s, card in corso gialla, jingle/transizioni, controlli prof (fine frasi, sincronia, fermi). Aggiorno ogni 20 minuti"
+  },
+  {
+   "quando": "17/11 07:47",
+   "testo": "ore 08:50 circa: 46 pezzi su 50 renderizzati nel nuovo modello (card gialle, gap brevi); restano i 4 pezzi del prof, poi audio+jingle+transizioni, codifica, controlli. Consegna prevista 09:30"
+  },
+  {
+   "quando": "17/11 08:02",
+   "testo": "09:05 it: tutti i pezzi pronti, codifica finale in corso, poi controlli e push. Consegna prevista 09:30"
+  },
+  {
+   "quando": "17/11 08:26",
+   "testo": "REVISIONATA 09:30: video 52:56,7 (324,7 MB) rifatto nel modello; ramo revisione-letteratura-V-lez23 con RAPPORTO_REVISIONE.md; restano silenzi >3 s sulle schede Quiz (vedi rapporto) e voci mappe non riascoltate"
+  }
+ ],
+ "aggiornato": "2026-11-17 08:26:48"
+}
