@@ -229,3 +229,13 @@ Confronto delle schede Quiz di tutte le lezioni: `scambio/mazzotti/CONFRONTO_sch
 - **Lezione 3:** la scheda Quiz è su fondo blu scuro con stelle: va rifatta **bianca come la lezione 11** (`MODELLO_scheda_quiz_lez11.jpg`, regole dell'aggiornamento 21:50). Togli anche l'onda audio decorativa nel riepilogo finale.
 - **Lezione 4:** la scheda Quiz ha ancora la **banda blu in basso**: rifalla come la lezione 11.
 Ricodifica solo le schede toccate (stessi secondi, jingle Quiz a +0,5 s), consegna sullo stesso ramo, stato ogni 20 minuti.
+
+## 17/11 22:20 — TUTTE le lezioni: schede Quiz IDENTICHE alla lezione 11 (decisione di Sara)
+Il confronto (`CONFRONTO_schede_quiz_17-11.jpg`) mostra che ogni lezione ha una scheda Quiz diversa: pulsante play, «Quiz 1» grande, «Quiz di fine argomento», etichette in pillola, fondo scuro… Sara vuole **tutte identiche alla 11** (`MODELLO_scheda_quiz_lez11.jpg`):
+- in alto a sinistra logo Telesio e riga sottile; etichetta «QUIZ · 01» (numero dell'argomento a due cifre) in Figtree Bold maiuscolo spaziato, blu, **senza pillola**;
+- titolo «Quiz: <titolo dell'argomento>» in Bricolage 800, con la barretta blu sotto;
+- «Rispondi alle domande sull'argomento appena visto.» in Figtree;
+- «5 domande · per continuare almeno l'80%» in grassetto, **evidenziato in giallo** come nel modello;
+- niente pulsante play, niente «Pausa del video», niente «premi Check, poi Continua», niente fondi colorati;
+- piè di pagina come le altre slide («LETTERATURA ITALIANA V · Prof. Giorgio Mazzotti» e «Pagina N»).
+Vale per **tutte** le lezioni tranne la 11: rifai solo le schede Quiz, stessi secondi e stesso jingle (+0,5 s), ricodifica solo quei pezzi, ricontrolla sha, durata e jingle, consegna sullo stesso ramo `revisione-letteratura-V-lezNN` e scrivi lo stato. Nient'altro da cambiare (le lezioni 3, 4, 5, 9, 13, 14, 23 fanno in più quello che c'è scritto negli aggiornamenti 21:50 e 22:10).
