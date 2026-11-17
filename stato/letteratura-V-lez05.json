@@ -2,7 +2,14 @@
  "tag": "letteratura-V-lez05",
  "parti": {
   "1": {
-   "stato": "IN_REVISIONE"
+   "stato": "REVISIONATA",
+   "video": "final.mp4",
+   "durata_s": 3417.7,
+   "durata": "56:57.7",
+   "fotogrammi": 102532,
+   "fotogrammi_attesi": 102532,
+   "peso_MB": 391.0,
+   "vtt": "Letteratura_Lez5_Parte1.vtt"
   }
  },
  "manca": "rifacimento video (slide modello, riquadro 4:3 dall'originale, fettine HD), vtt, PDF, compiti, verifica",
@@ -14,6 +21,10 @@
   {
    "quando": "17/11 07:37",
    "testo": "Lezione 5 non consegnabile in 1 ora: rifacimento grafico completo da pianificare"
+  },
+  {
+   "quando": "17/11 19:36",
+   "testo": "Rivedere riserve §5; aggiornare i secondi quiz4/arg5 su Vimeo (+1,03 s); decide Sara su diritti mappa"
   }
  ],
  "domande_sara": [],
@@ -61,7 +72,11 @@
   {
    "quando": "17/11 19:28",
    "testo": "20:30 IT: codifica segmenti in corso (2 su 11 fatti nell'ultimo controllo), consegna prevista 21:30 IT"
+  },
+  {
+   "quando": "17/11 19:36",
+   "testo": "21:15 IT: lezione rifatta nel modello e consegnata sul ramo revisione-letteratura-V-lez05. RISERVE (vedi §5 rapporto): vtt non riletto da persona; audio prof non ripulito di nuovo con arnndn; suoni transizione/jingle titolo non aggiunti; rigo di alcune fettine <26 px; sincronia fettine=stima; quiz4 e arg5 spostati di +1,03 s (scheda aggiornata)"
   }
  ],
- "aggiornato": "2026-11-17 19:28:42"
+ "aggiornato": "2026-11-17 19:36:51"
 }
