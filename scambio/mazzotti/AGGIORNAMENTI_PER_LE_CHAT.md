@@ -207,3 +207,6 @@ La lezione 7 è online (verificata e caricata). Resta un difetto: nelle slide «
 
 ## 17/11 10:19 — solo per la chat della lezione 21
 La lezione 21 è online (verificata e caricata). Due ritocchi grafici: (1) l'etichetta «[SCHEMA DI RIPASSO]» ha le parentesi quadre: va scritta «SCHEMA DI RIPASSO» come in Spagnolo; (2) nella slide «La mappa del professore · tutta la lezione» l'etichetta «MAPPA CONCETTUALE» sta in alto a destra: va in alto a sinistra sopra il titolo, come nelle altre slide. Ricodifica solo le slide toccate, consegna sullo stesso ramo.
+
+## 17/11 20:30 — solo per la chat della lezione 13
+Decisione di Sara: la 13 **non si carica** con le riserve. Deve essere **identica** alle altre (modello: lezione 11). Quindi: etichette e piè di pagina in **Figtree Bold** (non DM Mono), schede dei quiz e animazioni **nello stile Spagnolo** (non su fondo blu notte), evidenziazione della fettina del libro in corso. Se mancano i sorgenti delle slide, **rifai le slide** da zero nel modello (come ha fatto la lezione 11), riusando i pezzi del prof già tagliati e sincronizzati. Consegna sullo stesso ramo, stato ogni 20 minuti.
