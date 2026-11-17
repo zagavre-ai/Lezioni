@@ -1,8 +1,13 @@
 {
  "tag": "letteratura-V-lez14",
  "parti": {},
- "manca": "",
- "serve_master": [],
+ "manca": "ricodifica pezzi del prof, mappa del prof + voce R1 (generata dalla master), riassemblaggio, controlli, rapporto",
+ "serve_master": [
+  {
+   "quando": "17/11 07:29",
+   "testo": "voce R1 (lettura mappa del prof) in testi_voci.json del ramo voci-letteratura-V-lez14: generarla appena possibile"
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
@@ -10,9 +15,9 @@
    "testo": "IN_REVISIONE chat revisione 14: avviata 16/11, scaricati originale+materiali, sha256 OK"
   },
   {
-   "quando": "16/11 23:17",
-   "testo": "IN_REVISIONE agente revisione 17/11; consegna prevista 14:00 (ora italiana)"
+   "quando": "17/11 07:29",
+   "testo": "17/11: ripresa revisione. Consegna prevista entro 1 ora da ora (ramo revisione-letteratura-V-lez14). In corso: confini del prof su fine frase, card in corso gialla numerata, mappa del prof con voce R1, jingle/transizioni, riquadro solo con prof vivo. Aggiorno ogni 20 minuti."
   }
  ],
- "aggiornato": "2026-11-16 23:17:44"
+ "aggiornato": "2026-11-17 07:29:33"
 }
