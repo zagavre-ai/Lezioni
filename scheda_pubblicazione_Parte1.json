@@ -1,0 +1,499 @@
+{
+ "materia": "Storia",
+ "titolo": "Storia V · Lezione 6 · Il primo dopoguerra (1919-1925)",
+ "durata_s": 3307.53,
+ "argomenti": [
+  {
+   "n": 1,
+   "titolo": "L'Europa centro-orientale",
+   "inizio_s": 127.467,
+   "quiz_s": 852.3
+  },
+  {
+   "n": 2,
+   "titolo": "Regimi autoritari dell'Est",
+   "inizio_s": 856.9,
+   "quiz_s": 1317.033
+  },
+  {
+   "n": 3,
+   "titolo": "La Repubblica di Weimar",
+   "inizio_s": 1321.633,
+   "quiz_s": 1779.2
+  },
+  {
+   "n": 4,
+   "titolo": "La crisi della Germania",
+   "inizio_s": 1783.8,
+   "quiz_s": 2022.933
+  },
+  {
+   "n": 5,
+   "titolo": "Francia e Regno Unito",
+   "inizio_s": 2027.533,
+   "quiz_s": 2303.267
+  },
+  {
+   "n": 6,
+   "titolo": "Il Medio Oriente e la Turchia",
+   "inizio_s": 2307.867,
+   "quiz_s": 2668.833
+  },
+  {
+   "n": 7,
+   "titolo": "I movimenti anticoloniali",
+   "inizio_s": 2673.433,
+   "quiz_s": 2862.967
+  },
+  {
+   "n": 8,
+   "titolo": "Nazionalismi in Estremo Oriente",
+   "inizio_s": 2867.567,
+   "quiz_s": 3184.8
+  }
+ ],
+ "quiz": {
+  "Q1": {
+   "title": "Quiz 1 · L'Europa centro-orientale",
+   "items": [
+    {
+     "p": "Quali imperi crollano con la fine della Prima guerra mondiale e stravolgono la mappa europea?",
+     "a": "L'Impero zarista e quello austro-ungarico",
+     "w": [
+      "L'Impero britannico e quello francese",
+      "L'Impero tedesco e quello ottomano",
+      "L'Impero spagnolo e quello portoghese"
+     ],
+     "e": "Il crollo degli imperi ridisegna l'Europa centro-orientale."
+    },
+    {
+     "p": "Quali Stati nazionali nascono nell'Europa centro-orientale?",
+     "a": "Cecoslovacchia, Polonia e Regno dei Serbi, Croati e Sloveni",
+     "w": [
+      "Austria, Ungheria e Romania",
+      "Finlandia, Estonia e Lituania",
+      "Belgio, Olanda e Lussemburgo"
+     ],
+     "e": "Sono i nuovi Stati nazionali."
+    },
+    {
+     "p": "Perché le potenze vincitrici creano vasti «Stati cuscinetto»?",
+     "a": "Per arginare la Russia bolscevica e contenere la Germania",
+     "w": [
+      "Per ricompensare gli alleati",
+      "Per favorire il commercio",
+      "Per difendere l'Impero britannico"
+     ],
+     "e": "È la strategia geopolitica dei vincitori."
+    },
+    {
+     "p": "Quale Stato dell'ex Impero zarista mantiene l'indipendenza?",
+     "a": "La Finlandia",
+     "w": [
+      "L'Ucraina",
+      "La Georgia",
+      "La Bielorussia"
+     ],
+     "e": "Gli altri tre sono rioccupati dai bolscevichi."
+    },
+    {
+     "p": "Entro quando Ucraina, Georgia e Bielorussia sono rioccupate dai bolscevichi?",
+     "a": "Entro il 1922",
+     "w": [
+      "Entro il 1919",
+      "Entro il 1930",
+      "Entro il 1939"
+     ],
+     "e": "Le truppe bolsceviche li riconquistano."
+    }
+   ]
+  },
+  "Q2": {
+   "title": "Quiz 2 · Regimi autoritari dell'Est",
+   "items": [
+    {
+     "p": "Che cosa prevale nel Regno dei Serbi, Croati e Sloveni?",
+     "a": "Il centralismo serbo",
+     "w": [
+      "Il federalismo",
+      "La repubblica socialista",
+      "Il governo degli sloveni"
+     ],
+     "e": "Le tensioni etniche portano alla dittatura del re nel 1929."
+    },
+    {
+     "p": "Quando il re instaura la dittatura in Jugoslavia?",
+     "a": "Nel 1929",
+     "w": [
+      "Nel 1921",
+      "Nel 1933",
+      "Nel 1939"
+     ],
+     "e": "Dopo forti tensioni etniche."
+    },
+    {
+     "p": "Chi instaura una dittatura in Polonia nel 1930?",
+     "a": "Il maresciallo Piłsudski",
+     "w": [
+      "Béla Kun",
+      "Miklós Horthy",
+      "Gandhi"
+     ],
+     "e": "Dopo la guerra contro la Russia e la pace di Riga (1921)."
+    },
+    {
+     "p": "Che cosa fa Horthy in Ungheria dopo la Repubblica sovietica di Béla Kun?",
+     "a": "Restaura la monarchia e governa da reggente con poteri dittatoriali",
+     "w": [
+      "Proclama la repubblica",
+      "Annette l'Austria",
+      "Entra in guerra con la Polonia"
+     ],
+     "e": "Horthy era ammiraglio."
+    },
+    {
+     "p": "Come si trova l'Austria dopo la guerra?",
+     "a": "Piccola repubblica in grave crisi economica",
+     "w": [
+      "Grande potenza imperiale",
+      "Colonia francese",
+      "Alleata della Germania"
+     ],
+     "e": "Ci sono scontri tra socialdemocratici e conservatori."
+    }
+   ]
+  },
+  "Q3": {
+   "title": "Quiz 3 · La Repubblica di Weimar",
+   "items": [
+    {
+     "p": "Che cosa nasce dopo l'abdicazione del Kaiser nel 1918?",
+     "a": "Una repubblica democratica e parlamentare guidata dai socialdemocratici",
+     "w": [
+      "Una monarchia costituzionale",
+      "Una dittatura militare",
+      "Una repubblica sovietica"
+     ],
+     "e": "È la Repubblica di Weimar."
+    },
+    {
+     "p": "Chi guida la rivolta comunista spartachista del 1919?",
+     "a": "Karl Liebknecht e Rosa Luxemburg",
+     "w": [
+      "Hitler e Ludendorff",
+      "Kapp e Stresemann",
+      "Lenin e Trockij"
+     ],
+     "e": "Il governo la reprime nel sangue."
+    },
+    {
+     "p": "Che cosa introduce la Costituzione di Weimar (1919)?",
+     "a": "Il suffragio universale maschile e femminile",
+     "w": [
+      "Il solo voto maschile",
+      "La monarchia ereditaria",
+      "Il partito unico"
+     ],
+     "e": "Concede anche ampi poteri di emergenza al presidente."
+    },
+    {
+     "p": "Come viene vissuto il trattato di Versailles in Germania?",
+     "a": "Come un'imposizione punitiva (diktat)",
+     "w": [
+      "Come una vittoria",
+      "Come un accordo equo",
+      "Come un'alleanza con la Francia"
+     ],
+     "e": "Alimenta l'odio dell'estrema destra."
+    },
+    {
+     "p": "Che cosa concede la Costituzione al presidente?",
+     "a": "Ampi poteri di emergenza",
+     "w": [
+      "Il comando dei sindacati",
+      "Il potere di sciogliere la Chiesa",
+      "Nessun potere"
+     ],
+     "e": "Fu un punto debole della Repubblica."
+    }
+   ]
+  },
+  "Q4": {
+   "title": "Quiz 4 · La crisi della Germania",
+   "items": [
+    {
+     "p": "Quanto valgono le riparazioni di guerra imposte alla Germania?",
+     "a": "132 miliardi di marchi-oro",
+     "w": [
+      "13 miliardi",
+      "1.320 miliardi",
+      "132 milioni"
+     ],
+     "e": "Fanno collassare il sistema monetario."
+    },
+    {
+     "p": "Che cosa provoca l'iperinflazione?",
+     "a": "Azzera i risparmi della classe media",
+     "w": [
+      "Arricchisce la classe media",
+      "Riduce i prezzi",
+      "Cancella il debito estero"
+     ],
+     "e": "Il sistema monetario collassa."
+    },
+    {
+     "p": "Che cosa è il putsch di Kapp (1920)?",
+     "a": "Un tentativo di colpo di Stato fallito per uno sciopero generale",
+     "w": [
+      "Un colpo di Stato riuscito",
+      "Un'invasione francese",
+      "Una rivolta comunista"
+     ],
+     "e": "Nel 1923 fallisce anche il putsch di Monaco di Hitler."
+    },
+    {
+     "p": "Chi occupa la Ruhr nel 1923?",
+     "a": "Truppe francesi e belghe",
+     "w": [
+      "Truppe britanniche",
+      "Truppe americane",
+      "Truppe sovietiche"
+     ],
+     "e": "Come ritorsione per i mancati pagamenti."
+    },
+    {
+     "p": "Che cosa permette la stabilizzazione del 1924?",
+     "a": "Il governo Stresemann e il Piano Dawes con prestiti americani",
+     "w": [
+      "La vittoria su Francia e Belgio",
+      "La fine delle riparazioni",
+      "Un'alleanza con l'URSS"
+     ],
+     "e": "Avvia una temporanea ripresa."
+    }
+   ]
+  },
+  "Q5": {
+   "title": "Quiz 5 · Francia e Regno Unito",
+   "items": [
+    {
+     "p": "Quali due schieramenti si alternano al governo in Francia?",
+     "a": "Blocco nazionale (1919) e Cartello delle sinistre (1924)",
+     "w": [
+      "Fronte popolare e Gollisti",
+      "Liberali e Conservatori",
+      "Radicali e Fascisti"
+     ],
+     "e": "La Francia affronta inflazione e ricostruzione."
+    },
+    {
+     "p": "Quale riforma introduce Lloyd George nel 1918?",
+     "a": "Il voto alle donne sopra i 30 anni",
+     "w": [
+      "Il voto a tutte le donne",
+      "La repubblica",
+      "L'abolizione della monarchia"
+     ],
+     "e": "Introduce anche sussidi per i disoccupati."
+    },
+    {
+     "p": "Quale evento culmina il malcontento sociale inglese?",
+     "a": "I grandi scioperi dei minatori del 1926",
+     "w": [
+      "La guerra d'Irlanda",
+      "Il crollo della sterlina nel 1919",
+      "La marcia su Londra"
+     ],
+     "e": "Non si riescono a finanziare le riforme."
+    },
+    {
+     "p": "Che cosa nasce in Irlanda nel 1921?",
+     "a": "Lo Stato Libero d'Irlanda, autonomo",
+     "w": [
+      "La Repubblica indipendente completa",
+      "L'Irlanda unita",
+      "Una colonia francese"
+     ],
+     "e": "Esclude l'Irlanda del Nord."
+    },
+    {
+     "p": "Che cosa scatena la nascita dello Stato Libero d'Irlanda?",
+     "a": "Una sanguinosa guerra civile interna",
+     "w": [
+      "Un trattato con la Francia",
+      "Una guerra contro la Germania",
+      "Una rivoluzione comunista"
+     ],
+     "e": "Dopo la guerriglia dell'IRA."
+    }
+   ]
+  },
+  "Q6": {
+   "title": "Quiz 6 · Il Medio Oriente e la Turchia",
+   "items": [
+    {
+     "p": "Che cosa prevede il trattato di Sèvres (1920)?",
+     "a": "La spartizione dell'Impero ottomano tra le potenze europee",
+     "w": [
+      "La nascita della Repubblica turca",
+      "L'unione con la Grecia",
+      "La pace con l'Arabia"
+     ],
+     "e": "Viene poi rivisto."
+    },
+    {
+     "p": "Chi guida la riscossa turca contro i greci (1919-1922)?",
+     "a": "Mustafa Kemal (Atatürk)",
+     "w": [
+      "Il sultano Maometto VI",
+      "Lawrence d'Arabia",
+      "Re Faysal"
+     ],
+     "e": "Ottiene la revisione dei confini."
+    },
+    {
+     "p": "Quale trattato rivede i confini turchi nel 1923?",
+     "a": "Il trattato di Losanna",
+     "w": [
+      "Il trattato di Sèvres",
+      "Il trattato di Riga",
+      "Il trattato di Versailles"
+     ],
+     "e": "Dopo la guerra vittoriosa contro i greci."
+    },
+    {
+     "p": "Quale riforma introduce Atatürk?",
+     "a": "L'alfabeto latino, con Stato del tutto laico",
+     "w": [
+      "La sharia come legge",
+      "Il califfato universale",
+      "Il ritorno del sultano"
+     ],
+     "e": "Sposta la capitale ad Ankara, abolisce la poligamia."
+    },
+    {
+     "p": "Che cosa stabilisce l'accordo segreto Sykes-Picot (1916)?",
+     "a": "La spartizione del Medio Oriente tra Regno Unito e Francia",
+     "w": [
+      "L'indipendenza degli arabi",
+      "La nascita di Israele",
+      "L'unità della Turchia"
+     ],
+     "e": "Tradisce le promesse agli arabi."
+    }
+   ]
+  },
+  "Q7": {
+   "title": "Quiz 7 · I movimenti anticoloniali",
+   "items": [
+    {
+     "p": "Quando l'Egitto ottiene l'indipendenza formale dal Regno Unito?",
+     "a": "Nel 1922",
+     "w": [
+      "Nel 1914",
+      "Nel 1930",
+      "Nel 1947"
+     ],
+     "e": "Ma gli inglesi mantengono il controllo militare."
+    },
+    {
+     "p": "Che cosa spinge Gandhi alla protesta non violenta?",
+     "a": "La repressione inglese e il massacro di Amritsar (1919)",
+     "w": [
+      "La guerra con il Pakistan",
+      "La crisi del 1929",
+      "La morte di Nehru"
+     ],
+     "e": "Usa disobbedienza civile e boicottaggio."
+    },
+    {
+     "p": "Che cosa è la marcia del sale (1930)?",
+     "a": "Una protesta non violenta guidata da Gandhi",
+     "w": [
+      "Una rivolta armata",
+      "Un'invasione inglese",
+      "Un trattato commerciale"
+     ],
+     "e": "È un esempio di disobbedienza civile."
+    },
+    {
+     "p": "Dove l'Impero francese affronta rivolte armate?",
+     "a": "In Marocco (1924-1925) e in Indocina",
+     "w": [
+      "In Algeria e Tunisia",
+      "In Siria e Libano",
+      "In Egitto e Sudan"
+     ],
+     "e": "In Indocina si organizza il movimento vietnamita."
+    },
+    {
+     "p": "Chi guida il movimento nazionalista vietnamita?",
+     "a": "Ho Chi Minh",
+     "w": [
+      "Sun Yat-sen",
+      "Chiang Kai-shek",
+      "Gandhi"
+     ],
+     "e": "Opera nell'Indocina francese."
+    }
+   ]
+  },
+  "Q8": {
+   "title": "Quiz 8 · Nazionalismi in Estremo Oriente",
+   "items": [
+    {
+     "p": "Che cosa ottiene il Giappone dopo la guerra?",
+     "a": "Le ex colonie tedesche nel Pacifico",
+     "w": [
+      "La Manciuria",
+      "L'Indocina",
+      "Le Filippine"
+     ],
+     "e": "Ma matura risentimento contro le potenze occidentali a Versailles."
+    },
+    {
+     "p": "Che cosa accade in Cina dopo la morte di Yuan Shikai (1916)?",
+     "a": "Il Paese cade nel caos dei signori della guerra",
+     "w": [
+      "Nasce la Repubblica popolare",
+      "Il Giappone la annette",
+      "Torna l'imperatore"
+     ],
+     "e": "I signori della guerra controllano il territorio."
+    },
+    {
+     "p": "Chi guida il Guomintang all'inizio?",
+     "a": "Sun Yat-sen",
+     "w": [
+      "Chiang Kai-shek",
+      "Mao Zedong",
+      "Yuan Shikai"
+     ],
+     "e": "È il partito nazionalista cinese."
+    },
+    {
+     "p": "Con chi si allea inizialmente il Guomintang?",
+     "a": "Con i comunisti, per unificare il Paese",
+     "w": [
+      "Con il Giappone",
+      "Con i signori della guerra",
+      "Con l'Impero britannico"
+     ],
+     "e": "L'alleanza durerà fino al 1926."
+    },
+    {
+     "p": "Che cosa fa Chiang Kai-shek nel 1926?",
+     "a": "Rompe l'alleanza e reprime i comunisti, ponendo le basi della guerra civile",
+     "w": [
+      "Si allea con il Giappone",
+      "Proclama l'impero",
+      "Cede il potere ai comunisti"
+     ],
+     "e": "Assume la guida del Guomintang."
+    }
+   ]
+  }
+ },
+ "t_verifica": 3302.53,
+ "t_compiti": 3302.53
+}

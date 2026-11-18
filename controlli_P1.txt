@@ -1,0 +1,72 @@
+[misurato] durata 55:07.5 (3307.5 s) | fotogrammi 99226 (attesi 99226) | peso 349.4 MB | 1920x1080 30/1
+[misurato] audio aac 48000 Hz, durata audio 3307.53 s (video 3307.53 s)
+[misurato] sha256 43cdf25a034faf5f9e58db0d2f39661de77c3503836b753d7e97e9691415bc0b
+[misurato] LUFS integrato -16.0 | picco vero -1.4 dBTP
+[misurato] LUFS parlato del prof, campione su 4 pezzi: [-16.1, -15.6, -15.3, -15.2]
+[misurato] silenzi > 3 s (-55 dB): 0 []
+[misurato] fermi del riquadro del prof >= 1 s dentro i pezzi del prof: 0 []
+[misurato] jingle quiz 1: atteso 852.800 trovato 852.800 scarto +0.000 OK
+[misurato] jingle quiz 2: atteso 1317.533 trovato 1317.533 scarto +0.000 OK
+[misurato] jingle quiz 3: atteso 1779.700 trovato 1779.700 scarto +0.000 OK
+[misurato] jingle quiz 4: atteso 2023.433 trovato 2023.433 scarto +0.000 OK
+[misurato] jingle quiz 5: atteso 2303.767 trovato 2303.767 scarto -0.000 OK
+[misurato] jingle quiz 6: atteso 2669.333 trovato 2669.333 scarto +0.000 OK
+[misurato] jingle quiz 7: atteso 2863.467 trovato 2863.467 scarto -0.000 OK
+[misurato] jingle quiz 8: atteso 3185.300 trovato 3185.300 scarto +0.000 OK
+
+| pezzo | presente | minuto di inizio | durata misurata (s) |
+|---|---|---|---|
+| sigla | sì | 0:00.0 | 15.0 |
+| cover | sì | 0:14.6 | 26.3 |
+| intro | sì | 0:40.5 | 87.4 |
+| titolo1 | sì | 2:07.5 | 4.0 |
+| prof1 | sì | 2:11.1 | 585.7 |
+| mappa1 | sì | 11:56.4 | 85.5 |
+| pillola1 | sì | 13:21.4 | 11.7 |
+| schema1 | sì | 13:32.7 | 40.0 |
+| quiz1 | sì | 14:12.3 | 5.0 |
+| titolo2 | sì | 14:16.9 | 4.0 |
+| prof2 | sì | 14:20.5 | 369.5 |
+| mappa2 | sì | 20:29.6 | 39.3 |
+| pillola2 | sì | 21:08.5 | 11.5 |
+| schema2 | sì | 21:19.6 | 37.9 |
+| quiz2 | sì | 21:57.0 | 5.0 |
+| titolo3 | sì | 22:01.6 | 4.0 |
+| prof3 | sì | 22:05.2 | 368.9 |
+| mappa3 | sì | 28:13.7 | 41.1 |
+| pillola3 | sì | 28:54.4 | 10.7 |
+| schema3 | sì | 29:04.7 | 34.9 |
+| quiz3 | sì | 29:39.2 | 5.0 |
+| titolo4 | sì | 29:43.8 | 4.0 |
+| prof4 | sì | 29:47.4 | 153.2 |
+| mappa4 | sì | 32:20.2 | 38.4 |
+| pillola4 | sì | 32:58.2 | 10.6 |
+| schema4 | sì | 33:08.3 | 35.0 |
+| quiz4 | sì | 33:42.9 | 5.0 |
+| titolo5 | sì | 33:47.5 | 4.0 |
+| prof5 | sì | 33:51.1 | 189.7 |
+| mappa5 | sì | 37:00.5 | 38.6 |
+| pillola5 | sì | 37:38.7 | 10.7 |
+| schema5 | sì | 37:49.0 | 34.7 |
+| quiz5 | sì | 38:23.3 | 5.0 |
+| titolo6 | sì | 38:27.9 | 4.0 |
+| prof6 | sì | 38:31.5 | 274.1 |
+| mappa6 | sì | 43:05.1 | 40.6 |
+| pillola6 | sì | 43:45.3 | 11.8 |
+| schema6 | sì | 43:56.7 | 32.5 |
+| quiz6 | sì | 44:28.8 | 5.0 |
+| titolo7 | sì | 44:33.4 | 4.0 |
+| prof7 | sì | 44:37.0 | 120.8 |
+| mappa7 | sì | 46:37.4 | 30.3 |
+| pillola7 | sì | 47:07.3 | 10.5 |
+| schema7 | sì | 47:17.4 | 26.0 |
+| quiz7 | sì | 47:43.0 | 5.0 |
+| titolo8 | sì | 47:47.6 | 4.0 |
+| prof8 | sì | 47:51.2 | 227.1 |
+| mappa8 | sì | 51:37.8 | 40.5 |
+| pillola8 | sì | 52:18.0 | 11.0 |
+| schema8 | sì | 52:28.5 | 36.7 |
+| quiz8 | sì | 53:04.8 | 5.0 |
+| glossario | sì | 53:09.4 | 91.4 |
+| riepilogo | sì | 54:40.4 | 22.5 |
+| finale | sì | 55:02.5 | 5.0 |
