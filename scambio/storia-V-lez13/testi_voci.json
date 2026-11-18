@@ -168,5 +168,90 @@
   "nome": "INTRO1",
   "testo": "Benvenuto alla lezione sulla seconda guerra mondiale, dal millenovecentotrentanove al millenovecentoquarantacinque. È una lezione lunga, divisa in tre parti. Nella prima parte vedremo l'inizio della guerra, l'espansione tedesca e la caduta della Francia, e la Battaglia d'Inghilterra. Nella seconda la guerra parallela italiana, l'invasione dell'Unione Sovietica, la Shoah e la svolta del conflitto. Nella terza il crollo del fascismo, la Resistenza e la fine della guerra, in Europa e nel Pacifico. Al termine di ogni argomento troverai un quiz di cinque domande. Buon lavoro.",
   "lingua": "it"
+ },
+ {
+  "nome": "RI1",
+  "testo": "Facciamo un riepilogo di quello che hai appena visto: l'assalto all'Europa e l'inizio della guerra. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RI2",
+  "testo": "Facciamo un riepilogo di quello che hai appena visto: l'espansione a Nord e la caduta della Francia. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RI3",
+  "testo": "Facciamo un riepilogo di quello che hai appena visto: la Battaglia d'Inghilterra. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RI4",
+  "testo": "Facciamo un riepilogo di quello che hai appena visto: la guerra parallela italiana e i Balcani. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RI5",
+  "testo": "Facciamo un riepilogo di quello che hai appena visto: l'Operazione Barbarossa, l'invasione dell'Unione Sovietica. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RI6",
+  "testo": "Facciamo un riepilogo di quello che hai appena visto: lo sterminio degli ebrei d'Europa, la Shoah. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RI7",
+  "testo": "Facciamo un riepilogo di quello che hai appena visto: la svolta del conflitto e l'ingresso degli Stati Uniti. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RI8",
+  "testo": "Facciamo un riepilogo di quello che hai appena visto: il crollo del fascismo e l'Italia divisa. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RI9",
+  "testo": "Facciamo un riepilogo di quello che hai appena visto: i movimenti di Resistenza in Europa e in Italia. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RI10",
+  "testo": "Facciamo un riepilogo di quello che hai appena visto: il declino dell'Asse e la vittoria alleata in Europa. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RI11",
+  "testo": "Facciamo un riepilogo di quello che hai appena visto: la fine della guerra nel Pacifico e la bomba atomica. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP1",
+  "testo": "Ecco la mappa: come si svolgono le prime fasi della guerra? Nel 1939-1940 la Germania invade la Polonia con la strategia della guerra lampo, occupa la Francia, dove nasce la Repubblica di Vichy, e attacca il Regno Unito con massicci bombardamenti aerei.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP2",
+  "testo": "Ecco la mappa: come si giunge all'intervento dell'Italia e dell'Unione Sovietica? Nel 1940-1941 l'Italia interviene in Africa e nei Balcani, ma subisce sconfitte. La Germania attacca l'Unione Sovietica, ma non riesce a piegarne la resistenza.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP3",
+  "testo": "Ecco la mappa: come si svolge la Shoah? I nazisti creano ghetti per gli ebrei in Polonia, effettuano fucilazioni di massa nell'Unione Sovietica e adottano la soluzione finale, creando i campi di sterminio.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP4",
+  "testo": "Ecco la mappa: come si giunge a una svolta nel conflitto? Nel 1941-1942 il Giappone attacca la base di Pearl Harbor, e questo causa l'intervento degli Stati Uniti. Le forze dell'Asse sono sconfitte a El Alamein, alle Midway e a Stalingrado.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP5",
+  "testo": "Ecco la mappa: cosa accade in Italia dopo la caduta del fascismo? Lo sbarco alleato in Sicilia provoca la caduta di Mussolini, il 25 luglio 1943, cui segue l'armistizio dell'8 settembre 1943 e la divisione in Repubblica sociale italiana e Regno del Sud.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP6",
+  "testo": "Ecco la mappa: come si giunge alla fine della guerra? Nel 1944-1945 gli Alleati effettuano lo sbarco in Normandia e aprono un secondo fronte contro la Germania. Gli Stati Uniti usano la bomba atomica e ottengono la resa del Giappone.",
+  "lingua": "it"
  }
 ]
