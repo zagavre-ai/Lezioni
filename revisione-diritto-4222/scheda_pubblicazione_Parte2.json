@@ -1,0 +1,132 @@
+{
+ "materia": "Diritto ed economia",
+ "titolo": "Le organizzazioni collettive e l'impresa · Parte 2",
+ "docente": "Prof.ssa J. Didone",
+ "durata_s": 1386.71,
+ "argomenti": [
+  {
+   "n": 5,
+   "titolo": "Soggetti, patrimonio e avviamento",
+   "inizio_s": 26.1,
+   "quiz_s": 551.648
+  },
+  {
+   "n": 6,
+   "titolo": "La gestione aziendale",
+   "inizio_s": 557.448,
+   "quiz_s": 1173.498
+  }
+ ],
+ "quiz": {
+  "Q5": {
+   "title": "Quiz 5 · Soggetti, patrimonio e avviamento",
+   "items": [
+    {
+     "p": "Chi è il soggetto economico di un'azienda?",
+     "a": "La persona o il gruppo di persone che detiene il controllo dell'azienda e decide le scelte fondamentali della gestione",
+     "w": [
+      "Il titolare dei soli obblighi fiscali",
+      "Il fornitore principale",
+      "Il consulente esterno"
+     ],
+     "ref": "Il soggetto giuridico è invece il titolare dei diritti e degli obblighi che derivano dall'attività aziendale."
+    },
+    {
+     "p": "Come si ottiene il patrimonio netto?",
+     "a": "Dalla differenza tra attivo e passivo patrimoniale",
+     "w": [
+      "Dalla somma di debiti e crediti",
+      "Dai soli beni immobili",
+      "Dal totale dei ricavi dell'anno"
+     ],
+     "ref": "La differenza tra attivo e passivo dà il patrimonio netto, cioè la ricchezza effettiva."
+    },
+    {
+     "p": "Quale elemento rientra nell'attivo patrimoniale?",
+     "a": "I beni immobili, come case, terreni ed edifici",
+     "w": [
+      "I mutui",
+      "I prestiti bancari",
+      "I fornitori da pagare"
+     ],
+     "ref": "Debiti bancari, mutui, prestiti e fornitori da pagare sono passivo patrimoniale: ciò che si deve."
+    },
+    {
+     "p": "Che cos'è l'avviamento?",
+     "a": "Un valore immateriale che l'azienda acquisisce nel tempo: reputazione, clientela fidelizzata, know-how",
+     "w": [
+      "Un bene fisico, come un macchinario",
+      "Il capitale versato dai soci",
+      "Un debito verso i fornitori"
+     ],
+     "ref": "L'avviamento fa emergere la capacità dell'azienda di generare utili anche in futuro."
+    },
+    {
+     "p": "Perché il valore dell'azienda è maggiore della somma dei valori dei singoli beni?",
+     "a": "Perché dalla sinergia e dall'organizzazione tra gli elementi nasce l'avviamento",
+     "w": [
+      "Perché i beni si rivalutano da soli",
+      "Perché l'azienda non paga imposte",
+      "Perché i macchinari producono anche senza persone"
+     ],
+     "ref": "Un macchinario da solo non produce nulla: il valore nasce dall'organizzazione e dall'interazione tra persone, strumenti e metodi."
+    }
+   ]
+  },
+  "Q6": {
+   "title": "Quiz 6 · La gestione aziendale",
+   "items": [
+    {
+     "p": "Che cos'è l'esercizio?",
+     "a": "L'insieme delle operazioni di gestione compiute in un periodo amministrativo",
+     "w": [
+      "Un singolo contratto di lavoro",
+      "Il documento che elenca i beni aziendali",
+      "Il capitale versato dai soci"
+     ],
+     "ref": "Il periodo amministrativo è normalmente l'anno, cioè dodici mesi."
+    },
+    {
+     "p": "Che cos'è il reddito, o risultato economico?",
+     "a": "L'incremento o il decremento che il capitale subisce in un periodo per effetto dell'intera gestione",
+     "w": [
+      "Il totale dei debiti dell'azienda",
+      "Il valore dei soli beni immobili",
+      "Il numero dei dipendenti"
+     ],
+     "ref": "L'incremento è denominato utile, il decremento perdita."
+    },
+    {
+     "p": "Quali sono le tre tipologie di aree funzionali?",
+     "a": "Strategiche, caratteristiche, integrative e di supporto",
+     "w": [
+      "Primaria, secondaria, terziaria",
+      "Locali, regionali, nazionali",
+      "Corrente, strategica, straordinaria"
+     ],
+     "ref": "Le aree strategiche comprendono il vertice; le caratteristiche costituiscono l'oggetto tipico dell'attività; le integrative e di supporto aiutano le altre aree."
+    },
+    {
+     "p": "Che cos'è il disinvestimento?",
+     "a": "La fase di cessione dei beni o prestazione dei servizi, che consente di recuperare i mezzi monetari investiti",
+     "w": [
+      "L'acquisto dei fattori produttivi",
+      "La raccolta dei mezzi monetari di debito",
+      "La chiusura definitiva dell'azienda"
+     ],
+     "ref": "Finanziamento e investimento vengono prima: si raccolgono i mezzi monetari e si acquistano i fattori produttivi."
+    },
+    {
+     "p": "Quando c'è equilibrio finanziario?",
+     "a": "Quando disponibilità liquide più entrate monetarie sono maggiori o uguali alle uscite monetarie",
+     "w": [
+      "Quando la somma dei ricavi supera i debiti",
+      "Quando i dipendenti sono più di cinquanta",
+      "Quando l'azienda non ha concorrenti"
+     ],
+     "ref": "L'equilibrio economico è invece: somma dei ricavi uguale somma dei costi effettivi più gli oneri figurativi."
+    }
+   ]
+  }
+ }
+}
