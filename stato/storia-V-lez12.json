@@ -8,9 +8,17 @@
    "fermi_ok": "si",
    "sub_ok": "si",
    "vtt": "si"
+  },
+  "2": {
+   "stato": "REVISIONATA",
+   "voci": "kore",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "si",
+   "vtt": "si"
   }
  },
- "manca": "",
+ "manca": "da confermare col prof: Sudeti 1938/1939 (mappa vs slide); 1 aprile 1936 detto dal prof",
  "serve_master": [
   {
    "quando": "18/11 15:23",
@@ -30,9 +38,13 @@
   {
    "quando": "18/11 17:26",
    "testo": "Parte 1: 28:58,9 · LUFS -16,7 · quiz a +0,005 s · ramo revisione-storia-V-lez12"
+  },
+  {
+   "quando": "18/11 17:27",
+   "testo": "Parte 2: 38:38,4 · LUFS -16,8 · quiz a +0,005 s · ramo revisione-storia-V-lez12"
   }
  ],
  "materia": "storia-V",
  "lezione": "12",
- "aggiornato": "2026-11-18 17:26:59"
+ "aggiornato": "2026-11-18 17:27:03"
 }
