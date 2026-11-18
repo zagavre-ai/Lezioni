@@ -1,0 +1,340 @@
+{
+ "materia": "Storia V",
+ "titolo": "Storia V · Lezione 3 · L'Italia di Giolitti · Parte 1",
+ "descrizione": "Videolezione del prof. Giorgio Mazzotti sull'Italia di Giolitti: dalla crisi di fine secolo alle riforme sociali e scolastiche.",
+ "durata_s": 3169.333,
+ "argomenti": [
+  {
+   "n": 1,
+   "titolo": "La crisi di fine secolo e la svolta liberale",
+   "inizio_s": 179.8,
+   "quiz_s": 1359.83
+  },
+  {
+   "n": 2,
+   "titolo": "La nuova linea politica di Giolitti",
+   "inizio_s": 1365.63,
+   "quiz_s": 1856.93
+  },
+  {
+   "n": 3,
+   "titolo": "I rapporti con i socialisti e lo Sciopero del 1904",
+   "inizio_s": 1862.73,
+   "quiz_s": 2174.37
+  },
+  {
+   "n": 4,
+   "titolo": "Il rapporto con i cattolici e il trasformismo",
+   "inizio_s": 2180.17,
+   "quiz_s": 2516.6
+  },
+  {
+   "n": 5,
+   "titolo": "Le riforme sociali e scolastiche",
+   "inizio_s": 2522.4,
+   "quiz_s": 3057.77
+  }
+ ],
+ "quiz": {
+  "Q1": {
+   "title": "Quiz 1 · Crisi di fine secolo e svolta liberale",
+   "items": [
+    {
+     "p": "Quale sconfitta segna nel 1896 la fine delle ambizioni africane di Crispi?",
+     "a": "Adua",
+     "w": [
+      "Dogali",
+      "Caporetto",
+      "Tripoli"
+     ],
+     "e": "La disfatta di Adua provoca anche la caduta del governo Crispi.",
+     "ref": "La disfatta di Adua provoca anche la caduta del governo Crispi."
+    },
+    {
+     "p": "Che cosa provoca la crisi del pane?",
+     "a": "Un'ondata di proteste popolari in tutta la penisola",
+     "w": [
+      "Un aumento dei salari",
+      "La fine dell'emigrazione",
+      "La guerra di Libia"
+     ],
+     "e": "I cattivi raccolti fanno salire i prezzi dei beni alimentari.",
+     "ref": "I cattivi raccolti fanno salire i prezzi dei beni alimentari."
+    },
+    {
+     "p": "Chi fa sparare sulla folla a Milano nel 1898?",
+     "a": "Il generale Bava Beccaris",
+     "w": [
+      "Giovanni Giolitti",
+      "Gaetano Bresci",
+      "Giuseppe Zanardelli"
+     ],
+     "e": "Con i cannoni sulla folla provoca oltre ottanta morti.",
+     "ref": "Con i cannoni sulla folla provoca oltre ottanta morti."
+    },
+    {
+     "p": "Chi uccide il re Umberto I nel 1900?",
+     "a": "L'anarchico Gaetano Bresci",
+     "w": [
+      "Il generale Bava Beccaris",
+      "Un soldato austriaco",
+      "Benito Mussolini"
+     ],
+     "e": "Bresci torna dagli Stati Uniti per vendicare i morti di Milano.",
+     "ref": "Bresci torna dagli Stati Uniti per vendicare i morti di Milano."
+    },
+    {
+     "p": "Quale scelta fa Vittorio Emanuele III?",
+     "a": "Abbandona la linea repressiva e affida il governo a Zanardelli e Giolitti",
+     "w": [
+      "Continua la repressione del padre",
+      "Scioglie per sempre il Parlamento",
+      "Dichiara guerra all'Etiopia"
+     ],
+     "e": "È la svolta liberale.",
+     "ref": "È la svolta liberale."
+    }
+   ]
+  },
+  "Q2": {
+   "title": "Quiz 2 · La nuova linea politica di Giolitti",
+   "items": [
+    {
+     "p": "Quando Giolitti diventa presidente del Consiglio?",
+     "a": "Nel 1903",
+     "w": [
+      "Nel 1896",
+      "Nel 1914",
+      "Nel 1861"
+     ],
+     "e": "Inizia così l'età giolittiana.",
+     "ref": "Inizia così l'età giolittiana."
+    },
+    {
+     "p": "Su che cosa si basa la strategia di Giolitti nei conflitti sociali?",
+     "a": "Sulla neutralità dello Stato",
+     "w": [
+      "Sulla repressione con l'esercito",
+      "Sul sostegno ai soli padroni",
+      "Sulla chiusura dei sindacati"
+     ],
+     "e": "Lo Stato fa da mediatore e la polizia sorveglia senza reprimere.",
+     "ref": "Lo Stato fa da mediatore e la polizia sorveglia senza reprimere."
+    },
+    {
+     "p": "Perché Giolitti rifiuta di usare la forza contro gli scioperi?",
+     "a": "Pensa che la repressione inasprisca i conflitti",
+     "w": [
+      "Perché non ha una polizia",
+      "Perché è un rivoluzionario",
+      "Perché glielo vieta il papa"
+     ],
+     "e": "Secondo Giolitti le riforme attenuano i conflitti.",
+     "ref": "Secondo Giolitti le riforme attenuano i conflitti."
+    },
+    {
+     "p": "Quale organizzazione nazionale dei lavoratori nasce nel 1906?",
+     "a": "La Confederazione generale del lavoro",
+     "w": [
+      "Il Partito popolare",
+      "L'Unione elettorale cattolica",
+      "La Federterra"
+     ],
+     "e": "Prima erano nate le Camere del lavoro locali e la Federterra.",
+     "ref": "Prima erano nate le Camere del lavoro locali e la Federterra."
+    },
+    {
+     "p": "Qual è l'obiettivo strategico di Giolitti?",
+     "a": "Modernizzare il Paese ascoltando le masse popolari",
+     "w": [
+      "Riportare l'Italia alla monarchia assoluta",
+      "Conquistare l'Etiopia",
+      "Abolire i partiti"
+     ],
+     "e": "Il ministero vuole assecondare le richieste economiche delle masse.",
+     "ref": "Il ministero vuole assecondare le richieste economiche delle masse."
+    }
+   ]
+  },
+  "Q3": {
+   "title": "Quiz 3 · I socialisti e lo sciopero del 1904",
+   "items": [
+    {
+     "p": "Chi guida i socialisti riformisti?",
+     "a": "Filippo Turati",
+     "w": [
+      "Benito Mussolini",
+      "Romolo Murri",
+      "Francesco Crispi"
+     ],
+     "e": "I riformisti vogliono riforme graduali.",
+     "ref": "I riformisti vogliono riforme graduali."
+    },
+    {
+     "p": "Che cosa vogliono i massimalisti?",
+     "a": "Una rivoluzione proletaria immediata",
+     "w": [
+      "Riforme graduali",
+      "Un accordo con i cattolici",
+      "Il ritorno di Crispi"
+     ],
+     "e": "Rifiutano ogni compromesso con lo Stato borghese.",
+     "ref": "Rifiutano ogni compromesso con lo Stato borghese."
+    },
+    {
+     "p": "Con quale corrente socialista dialoga Giolitti?",
+     "a": "Con i riformisti",
+     "w": [
+      "Con i massimalisti",
+      "Con gli anarchici",
+      "Con nessuna"
+     ],
+     "e": "Cerca un accordo per garantire la pace sociale.",
+     "ref": "Cerca un accordo per garantire la pace sociale."
+    },
+    {
+     "p": "Che cosa accade nel settembre 1904?",
+     "a": "Il primo sciopero generale nazionale",
+     "w": [
+      "La guerra di Libia",
+      "Il regicidio di Monza",
+      "Il Patto Gentiloni"
+     ],
+     "e": "Lo sciopero segue l'uccisione di alcuni lavoratori negli scontri.",
+     "ref": "Lo sciopero segue l'uccisione di alcuni lavoratori negli scontri."
+    },
+    {
+     "p": "Come reagisce Giolitti allo sciopero del 1904?",
+     "a": "Non interviene con la forza e lo lascia esaurire",
+     "w": [
+      "Fa intervenire l'esercito",
+      "Fa arrestare tutti i socialisti",
+      "Si dimette subito"
+     ],
+     "e": "Il codice Zanardelli riconosce lo sciopero senza violenza.",
+     "ref": "Il codice Zanardelli riconosce lo sciopero senza violenza."
+    }
+   ]
+  },
+  "Q4": {
+   "title": "Quiz 4 · I cattolici e il trasformismo",
+   "items": [
+    {
+     "p": "Che cos'era il Non expedit?",
+     "a": "Il divieto della Chiesa ai cattolici di partecipare alla vita politica",
+     "w": [
+      "Una legge sulla scuola",
+      "Un accordo con i socialisti",
+      "Una tassa sul pane"
+     ],
+     "e": "Fu stabilito da papa Pio IX dopo l'Unità.",
+     "ref": "Fu stabilito da papa Pio IX dopo l'Unità."
+    },
+    {
+     "p": "Perché la Chiesa si riavvicina allo Stato liberale?",
+     "a": "Per arginare la crescita dei socialisti",
+     "w": [
+      "Per fare la guerra in Libia",
+      "Per abolire la monarchia",
+      "Per sostenere i massimalisti"
+     ],
+     "e": "Cattolici e liberali si avvicinano contro la sinistra.",
+     "ref": "Cattolici e liberali si avvicinano contro la sinistra."
+    },
+    {
+     "p": "Che cosa permette Pio X nel 1904?",
+     "a": "Ai cattolici di votare dove rischia di vincere la sinistra",
+     "w": [
+      "Il divorzio",
+      "Il voto alle donne",
+      "La nascita del Partito popolare"
+     ],
+     "e": "Entrano alla Camera i primi deputati cattolici.",
+     "ref": "Entrano alla Camera i primi deputati cattolici."
+    },
+    {
+     "p": "Che cos'è il trasformismo?",
+     "a": "Governare con alleanze flessibili a destra e a sinistra",
+     "w": [
+      "Trasformare le fabbriche in scuole",
+      "Cambiare la Costituzione",
+      "Una riforma agraria"
+     ],
+     "e": "Serve a Giolitti per mantenere stabilità e potere.",
+     "ref": "Serve a Giolitti per mantenere stabilità e potere."
+    },
+    {
+     "p": "Dove porterà l'avvicinamento tra cattolici e liberali?",
+     "a": "Al Patto Gentiloni",
+     "w": [
+      "Alla settimana rossa",
+      "Alla legge Orlando",
+      "Al congresso di Reggio Emilia"
+     ],
+     "e": "Il patto sarà stretto nel 1913.",
+     "ref": "Il patto sarà stretto nel 1913."
+    }
+   ]
+  },
+  "Q5": {
+   "title": "Quiz 5 · Le riforme sociali e scolastiche",
+   "items": [
+    {
+     "p": "Quale lavoro viene vietato dalle riforme giolittiane?",
+     "a": "Il lavoro dei minori di 12 anni",
+     "w": [
+      "Il lavoro delle donne",
+      "Il lavoro notturno degli uomini",
+      "Il lavoro nei campi"
+     ],
+     "e": "Si stabiliscono anche orari più sostenibili per le donne.",
+     "ref": "Si stabiliscono anche orari più sostenibili per le donne."
+    },
+    {
+     "p": "Quale diritto viene introdotto per tutti i lavoratori?",
+     "a": "Il riposo settimanale",
+     "w": [
+      "Le ferie di un mese",
+      "Il voto a 18 anni",
+      "Lo stipendio minimo"
+     ],
+     "e": "Prima in fabbrica si lavorava anche la domenica.",
+     "ref": "Prima in fabbrica si lavorava anche la domenica."
+    },
+    {
+     "p": "Che cos'è l'INA, nata nel 1912?",
+     "a": "L'Istituto nazionale delle assicurazioni",
+     "w": [
+      "Un partito cattolico",
+      "Un sindacato",
+      "Una banca mista"
+     ],
+     "e": "Finanzia le pensioni di invalidità.",
+     "ref": "Finanzia le pensioni di invalidità."
+    },
+    {
+     "p": "Che cosa stabilisce la legge Orlando?",
+     "a": "L'obbligo scolastico fino a 12 anni e i corsi serali",
+     "w": [
+      "La scuola solo per i ricchi",
+      "La chiusura delle scuole dei comuni",
+      "Il voto alle donne"
+     ],
+     "e": "Serve a combattere l'analfabetismo.",
+     "ref": "Serve a combattere l'analfabetismo."
+    },
+    {
+     "p": "Che cosa cambia con la legge Daneo-Credaro del 1911?",
+     "a": "Le scuole elementari passano dai comuni allo Stato",
+     "w": [
+      "Le scuole diventano private",
+      "Si abolisce l'obbligo scolastico",
+      "I maestri non vengono più pagati"
+     ],
+     "e": "Così gli stipendi dei maestri arrivano regolarmente.",
+     "ref": "Così gli stipendi dei maestri arrivano regolarmente."
+    }
+   ]
+  }
+ }
+}

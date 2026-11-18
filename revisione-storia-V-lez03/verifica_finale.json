@@ -1,0 +1,105 @@
+{
+ "titolo": "Verifica finale · Storia V · L'Italia di Giolitti",
+ "domande": [
+  {
+   "n": 1,
+   "p": "Quale grave sconfitta militare subita dall'esercito italiano nel 1896 in Africa segnò il fallimento dell'impresa coloniale e la caduta del governo della Sinistra storica guidata da Francesco Crispi?",
+   "a": "La sconfitta di Adua, in Abissinia",
+   "w": [
+    "La battaglia di Dogali",
+    "La sconfitta di Tripoli",
+    "La battaglia di El Alamein"
+   ]
+  },
+  {
+   "n": 2,
+   "p": "Chi fu l'anarchico che il 29 luglio 1900 assassinò il re Umberto I a Monza per vendicare le vittime della sanguinosa repressione dei moti di Milano del 1898?",
+   "a": "Gaetano Bresci",
+   "w": [
+    "Fiorenzo Bava Beccaris",
+    "Luigi Pelloux",
+    "Antonio di Rudinì"
+   ]
+  },
+  {
+   "n": 3,
+   "p": "Quale importante sindacato nazionale venne fondato in Italia nel 1906 con l'obiettivo di coordinare i diversi gruppi e categorie di lavoratori sull'intero territorio?",
+   "a": "La Confederazione generale del lavoro (CGdL)",
+   "w": [
+    "La Federterra",
+    "La Camera del lavoro",
+    "L'Unione sindacale italiana"
+   ]
+  },
+  {
+   "n": 4,
+   "p": "All'inizio del Novecento, quale figura guidava la corrente dei \"moderati\" (o riformisti) all'interno del Partito Socialista Italiano, favorevole a riforme graduali e al dialogo con il governo Giolitti?",
+   "a": "Filippo Turati",
+   "w": [
+    "Benito Mussolini",
+    "Romolo Murri",
+    "Luigi Sturza"
+   ]
+  },
+  {
+   "n": 5,
+   "p": "Quale ente statale venne istituito nel 1912 per gestire il monopolio pubblico delle assicurazioni sulla vita e utilizzare gli utili per finanziare le pensioni di invalidità e vecchiaia?",
+   "a": "L'Istituto nazionale delle Assicurazioni (INA)",
+   "w": [
+    "L'Ispettorato del lavoro",
+    "La Cassa nazionale di previdenza",
+    "La Banca Commerciale Italiana"
+   ]
+  },
+  {
+   "n": 6,
+   "p": "Attraverso quale legge, approvata nel 1911, la gestione delle scuole elementari passò dai Comuni allo Stato, garantendo un forte impulso alla lotta contro l'analfabetismo?",
+   "a": "La legge Daneo-Credaro",
+   "w": [
+    "La legge Orlando",
+    "La legge Coppino",
+    "La legge Zanardelli"
+   ]
+  },
+  {
+   "n": 7,
+   "p": "Cosa prevedeva l'accordo segreto siglato nel 1913 noto come \"Patto Gentiloni\"?",
+   "a": "L'impegno dei cattolici a votare per i deputati liberali in cambio dell'abbandono di leggi contrarie alla Chiesa, come il divorzio",
+   "w": [
+    "L'ingresso formale dei socialisti riformisti nel governo guidato da Giovanni Giolitti",
+    "La concessione immediata del diritto di voto politico alle donne su base censitaria",
+    "La spartizione equa delle terre incolte del Mezzogiorno tra i latifondisti e i braccianti agricoli"
+   ]
+  },
+  {
+   "n": 8,
+   "p": "Quale celebre intellettuale meridionalista criticò severamente i metodi politici di Giolitti nel Sud Italia, accusandolo di clientelismo e definendolo nel 1910 \"il ministro della malavita\"?",
+   "a": "Gaetano Salvemini",
+   "w": [
+    "Luigi Sturza",
+    "Enrico Corradini",
+    "Giovanni Pascoli"
+   ]
+  },
+  {
+   "n": 9,
+   "p": "Con quale titolo è passato alla storia il celebre discorso pronunciato nel 1911 dal poeta Giovanni Pascoli per celebrare e giustificare l'intervento coloniale italiano in Libia?",
+   "a": "\"La grande Proletaria si è mossa\"",
+   "w": [
+    "\"La terra promessa d'oltremare\"",
+    "\"Un posto al sole per l'Italia\"",
+    "\"Il riscatto della nazione italiana\""
+   ]
+  },
+  {
+   "n": 10,
+   "p": "Quale nome prese l'ondata di violente manifestazioni e scioperi popolari che nel giugno 1914, a seguito dell'uccisione di alcuni dimostranti ad Ancona, paralizzò l'Italia poco prima della Grande Guerra?",
+   "a": "La \"settimana rossa\"",
+   "w": [
+    "La \"crisi di fine secolo\"",
+    "Lo sciopero generale del 1904",
+    "I moti di Milano"
+   ]
+  }
+ ]
+}

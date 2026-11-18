@@ -1,0 +1,406 @@
+{
+ "materia": "Storia V",
+ "titolo": "Storia V · Lezione 3 · L'Italia di Giolitti · Parte 2",
+ "descrizione": "Videolezione del prof. Giorgio Mazzotti sull'Italia di Giolitti: dal suffragio universale maschile alla caduta di Giolitti e alla settimana rossa.",
+ "durata_s": 3081.367,
+ "argomenti": [
+  {
+   "n": 6,
+   "titolo": "Il suffragio universale maschile e il Patto Gentiloni",
+   "inizio_s": 65.67,
+   "quiz_s": 654.37
+  },
+  {
+   "n": 7,
+   "titolo": "Le riforme mancate: le donne in lotta",
+   "inizio_s": 660.17,
+   "quiz_s": 920.77
+  },
+  {
+   "n": 8,
+   "titolo": "Il decollo industriale italiano",
+   "inizio_s": 926.57,
+   "quiz_s": 1469.4
+  },
+  {
+   "n": 9,
+   "titolo": "Il divario Nord-Sud e l'emigrazione",
+   "inizio_s": 1475.2,
+   "quiz_s": 1976.87
+  },
+  {
+   "n": 10,
+   "titolo": "La politica coloniale e la guerra in Libia",
+   "inizio_s": 1982.67,
+   "quiz_s": 2468.2
+  },
+  {
+   "n": 11,
+   "titolo": "La caduta di Giolitti e la «settimana rossa»",
+   "inizio_s": 2474.0,
+   "quiz_s": 2970.2
+  }
+ ],
+ "quiz": {
+  "Q6": {
+   "title": "Quiz 6 · Suffragio universale e Patto Gentiloni",
+   "items": [
+    {
+     "p": "Chi può votare con la riforma del 1912?",
+     "a": "Tutti i maschi oltre i 30 anni, o di 21 se alfabetizzati o ex militari",
+     "w": [
+      "Tutti i cittadini, uomini e donne",
+      "Solo i proprietari",
+      "Solo i laureati"
+     ],
+     "e": "È il suffragio universale maschile.",
+     "ref": "È il suffragio universale maschile."
+    },
+    {
+     "p": "Quanti diventano gli elettori dopo la riforma?",
+     "a": "Circa 8 milioni",
+     "w": [
+      "Circa 3 milioni",
+      "Circa 20 milioni",
+      "Circa mezzo milione"
+     ],
+     "e": "Prima erano circa tre milioni.",
+     "ref": "Prima erano circa tre milioni."
+    },
+    {
+     "p": "Che cos'è l'indennità parlamentare?",
+     "a": "Una retribuzione per i deputati",
+     "w": [
+      "Una tassa sui deputati",
+      "Una pensione per i soldati",
+      "Un premio per i sindaci"
+     ],
+     "e": "Permette anche ai non abbienti di fare politica.",
+     "ref": "Permette anche ai non abbienti di fare politica."
+    },
+    {
+     "p": "Con chi stringe Giolitti il Patto Gentiloni?",
+     "a": "Con l'Unione elettorale cattolica",
+     "w": [
+      "Con i socialisti massimalisti",
+      "Con i repubblicani",
+      "Con l'Impero ottomano"
+     ],
+     "e": "Il patto è del 1913.",
+     "ref": "Il patto è del 1913."
+    },
+    {
+     "p": "Che cosa promettono i liberali in cambio dei voti cattolici?",
+     "a": "Di non approvare il divorzio e di difendere le scuole religiose",
+     "w": [
+      "Di abolire la monarchia",
+      "Di fare la guerra alla Francia",
+      "Di dare il voto alle donne"
+     ],
+     "e": "È lo scambio politico del Patto Gentiloni.",
+     "ref": "È lo scambio politico del Patto Gentiloni."
+    }
+   ]
+  },
+  "Q7": {
+   "title": "Quiz 7 · Le riforme mancate: le donne in lotta",
+   "items": [
+    {
+     "p": "Le donne possono votare dopo la riforma del 1912?",
+     "a": "No, restano escluse",
+     "w": [
+      "Sì, tutte",
+      "Solo quelle sposate",
+      "Solo quelle laureate"
+     ],
+     "e": "Le donne restano escluse dai diritti politici nazionali.",
+     "ref": "Le donne restano escluse dai diritti politici nazionali."
+    },
+    {
+     "p": "Chi è Anna Kuliscioff?",
+     "a": "Una figura vicina al PSI che si batte per i diritti delle donne",
+     "w": [
+      "Una regina",
+      "Un'imprenditrice della Fiat",
+      "Una deputata cattolica"
+     ],
+     "e": "Chiede il voto alle donne.",
+     "ref": "Chiede il voto alle donne."
+    },
+    {
+     "p": "Come si chiama una rivista che chiede parità e uguaglianza?",
+     "a": "«Lucciola»",
+     "w": [
+      "«Avanti!»",
+      "«La Stampa»",
+      "«Il Popolo»"
+     ],
+     "e": "Le testate animano il dibattito.",
+     "ref": "Le testate animano il dibattito."
+    },
+    {
+     "p": "Che cosa subiscono spesso le attiviste?",
+     "a": "Il ricovero forzato negli ospedali psichiatrici",
+     "w": [
+      "Il carcere a vita",
+      "L'esilio in Libia",
+      "La perdita della cittadinanza"
+     ],
+     "e": "Lo Stato vuole frenare il loro comportamento ritenuto scandaloso.",
+     "ref": "Lo Stato vuole frenare il loro comportamento ritenuto scandaloso."
+    },
+    {
+     "p": "Quale pratica la legge dell'epoca tutelava?",
+     "a": "Il delitto d'onore",
+     "w": [
+      "Il divorzio",
+      "Il voto femminile",
+      "La parità salariale"
+     ],
+     "e": "La società relega la donna al ruolo di moglie e madre.",
+     "ref": "La società relega la donna al ruolo di moglie e madre."
+    }
+   ]
+  },
+  "Q8": {
+   "title": "Quiz 8 · Il decollo industriale italiano",
+   "items": [
+    {
+     "p": "Che cosa sono le alte tariffe doganali?",
+     "a": "Protezionismo per difendere i prodotti nazionali",
+     "w": [
+      "Aiuti agli emigranti",
+      "Tasse sul pane",
+      "Premi alle esportazioni agricole"
+     ],
+     "e": "Proteggono l'industria italiana dalla concorrenza straniera.",
+     "ref": "Proteggono l'industria italiana dalla concorrenza straniera."
+    },
+    {
+     "p": "Come aiuta lo Stato lo sviluppo industriale?",
+     "a": "Con commesse pubbliche per ferrovie e flotta",
+     "w": [
+      "Chiudendo le fabbriche",
+      "Abolendo le banche",
+      "Vietando il commercio estero"
+     ],
+     "e": "Le commesse danno lavoro alle imprese.",
+     "ref": "Le commesse danno lavoro alle imprese."
+    },
+    {
+     "p": "Che cosa fanno le banche miste?",
+     "a": "Prestano a lungo termine alla grande industria",
+     "w": [
+      "Prestano solo ai contadini",
+      "Raccolgono le tasse",
+      "Stampano la moneta"
+     ],
+     "e": "Usano i depositi dei risparmiatori.",
+     "ref": "Usano i depositi dei risparmiatori."
+    },
+    {
+     "p": "Dove nasce la Fiat nel 1899?",
+     "a": "A Torino",
+     "w": [
+      "A Milano",
+      "A Genova",
+      "A Terni"
+     ],
+     "e": "In quindici anni controlla il settore automobilistico.",
+     "ref": "In quindici anni controlla il settore automobilistico."
+    },
+    {
+     "p": "Quali servizi statalizza lo Stato?",
+     "a": "Telefoni e ferrovie",
+     "w": [
+      "Scuole private e ospedali",
+      "Banche e fabbriche",
+      "Giornali e teatri"
+     ],
+     "e": "Lo Stato ne assume la proprietà diretta.",
+     "ref": "Lo Stato ne assume la proprietà diretta."
+    }
+   ]
+  },
+  "Q9": {
+   "title": "Quiz 9 · Il divario Nord-Sud e l'emigrazione",
+   "items": [
+    {
+     "p": "Quali città formano il triangolo industriale?",
+     "a": "Torino, Milano e Genova",
+     "w": [
+      "Roma, Napoli e Bari",
+      "Firenze, Bologna e Venezia",
+      "Palermo, Catania e Messina"
+     ],
+     "e": "Lo sviluppo si concentra nel Nord-Ovest.",
+     "ref": "Lo sviluppo si concentra nel Nord-Ovest."
+    },
+    {
+     "p": "Com'è l'economia del Mezzogiorno?",
+     "a": "Prevalentemente agricola, dominata dal latifondo",
+     "w": [
+      "Molto industrializzata",
+      "Basata sul turismo",
+      "Basata sulle banche"
+     ],
+     "e": "Mancano quasi del tutto le infrastrutture.",
+     "ref": "Mancano quasi del tutto le infrastrutture."
+    },
+    {
+     "p": "Chi accusa Giolitti di corruzione e clientelismo?",
+     "a": "Gaetano Salvemini",
+     "w": [
+      "Filippo Turati",
+      "Giovanni Pascoli",
+      "Antonio Salandra"
+     ],
+     "e": "Lo chiama «ministro della malavita».",
+     "ref": "Lo chiama «ministro della malavita»."
+    },
+    {
+     "p": "Quanti italiani emigrano tra il 1901 e il 1915?",
+     "a": "Circa 9 milioni",
+     "w": [
+      "Circa 1 milione",
+      "Circa 30 milioni",
+      "Circa 100 mila"
+     ],
+     "e": "Vanno in Europa e nelle Americhe.",
+     "ref": "Vanno in Europa e nelle Americhe."
+    },
+    {
+     "p": "Perché si parla di politica ambigua al Sud?",
+     "a": "Il governo reprime nel sangue le proteste delle leghe contadine",
+     "w": [
+      "Il governo dà tutto il potere ai contadini",
+      "Il governo chiude le scuole",
+      "Il governo abolisce le tasse"
+     ],
+     "e": "Al Nord dialoga con i sindacati, al Sud reprime.",
+     "ref": "Al Nord dialoga con i sindacati, al Sud reprime."
+    }
+   ]
+  },
+  "Q10": {
+   "title": "Quiz 10 · Politica coloniale e guerra in Libia",
+   "items": [
+    {
+     "p": "Chi spinge Giolitti verso un'impresa coloniale?",
+     "a": "Industriali e nazionalisti",
+     "w": [
+      "I socialisti massimalisti",
+      "Il papa",
+      "I sindacati"
+     ],
+     "e": "Vogliono commesse e prestigio internazionale.",
+     "ref": "Vogliono commesse e prestigio internazionale."
+    },
+    {
+     "p": "A chi appartiene la Libia prima della guerra?",
+     "a": "All'Impero ottomano",
+     "w": [
+      "Alla Francia",
+      "Al Regno Unito",
+      "All'Egitto"
+     ],
+     "e": "Non appartiene a nessuna potenza europea.",
+     "ref": "Non appartiene a nessuna potenza europea."
+    },
+    {
+     "p": "Quando l'Italia dichiara guerra all'Impero ottomano?",
+     "a": "Nel settembre 1911",
+     "w": [
+      "Nel 1896",
+      "Nel 1914",
+      "Nel 1904"
+     ],
+     "e": "Attacca le coste della Tripolitania e della Cirenaica.",
+     "ref": "Attacca le coste della Tripolitania e della Cirenaica."
+    },
+    {
+     "p": "Come presenta la Libia la propaganda di Pascoli?",
+     "a": "Come una terra promessa per i migranti italiani",
+     "w": [
+      "Come un deserto inutile",
+      "Come una colonia francese",
+      "Come una minaccia"
+     ],
+     "e": "È la retorica della «grande proletaria».",
+     "ref": "È la retorica della «grande proletaria»."
+    },
+    {
+     "p": "Che cosa ottiene l'Italia con il trattato di Losanna del 1912?",
+     "a": "La Libia e il Dodecaneso",
+     "w": [
+      "La Tunisia e l'Egitto",
+      "L'Etiopia",
+      "La Dalmazia"
+     ],
+     "e": "Ma l'impresa dà scarsi risultati economici.",
+     "ref": "Ma l'impresa dà scarsi risultati economici."
+    }
+   ]
+  },
+  "Q11": {
+   "title": "Quiz 11 · Caduta di Giolitti e settimana rossa",
+   "items": [
+    {
+     "p": "Che effetto ha la guerra di Libia sul PSI?",
+     "a": "Lo spacca: i riformisti vengono espulsi",
+     "w": [
+      "Lo unisce attorno a Giolitti",
+      "Lo fa sciogliere",
+      "Lo fa allearsi con i cattolici"
+     ],
+     "e": "Al congresso di Reggio Emilia del 1912.",
+     "ref": "Al congresso di Reggio Emilia del 1912."
+    },
+    {
+     "p": "Chi sale alla guida dell'ala rivoluzionaria del PSI?",
+     "a": "Il giovane Benito Mussolini",
+     "w": [
+      "Filippo Turati",
+      "Antonio Salandra",
+      "Giovanni Giolitti"
+     ],
+     "e": "Mussolini era allora un socialista rivoluzionario.",
+     "ref": "Mussolini era allora un socialista rivoluzionario."
+    },
+    {
+     "p": "Perché il Patto Gentiloni indebolisce la maggioranza liberale?",
+     "a": "Per le proteste dei laici",
+     "w": [
+      "Perché i cattolici non votano",
+      "Perché vince la sinistra",
+      "Perché il re lo vieta"
+     ],
+     "e": "Nonostante la vittoria elettorale del 1913.",
+     "ref": "Nonostante la vittoria elettorale del 1913."
+    },
+    {
+     "p": "Chi guida il governo dopo le dimissioni di Giolitti nel 1914?",
+     "a": "Il conservatore Antonio Salandra",
+     "w": [
+      "Francesco Crispi",
+      "Giuseppe Zanardelli",
+      "Benito Mussolini"
+     ],
+     "e": "Giolitti pensava di tornare presto.",
+     "ref": "Giolitti pensava di tornare presto."
+    },
+    {
+     "p": "Che cos'è la settimana rossa?",
+     "a": "Una settimana di scioperi e scontri nel giugno 1914",
+     "w": [
+      "Una festa socialista",
+      "Una battaglia in Libia",
+      "Una crisi di governo nel 1900"
+     ],
+     "e": "Scoppia dopo l'uccisione di tre dimostranti ad Ancona.",
+     "ref": "Scoppia dopo l'uccisione di tre dimostranti ad Ancona."
+    }
+   ]
+  }
+ }
+}
