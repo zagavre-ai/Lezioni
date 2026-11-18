@@ -2,7 +2,420 @@
  "tag": "diritto-4222",
  "parti": {
   "1": {
-   "stato": "IN_REVISIONE"
+   "stato": "PRONTA",
+   "titolo": "Le organizzazioni collettive e l'impresa · Parte 1",
+   "voci": "kore",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "si",
+   "video": "Diritto_4222_Parte1_1080p.mp4",
+   "durata_s": 2686.8,
+   "durata": "44:46.8",
+   "fotogrammi": 80604,
+   "fotogrammi_attesi": 80605,
+   "peso_MB": 302.1,
+   "vtt": "Diritto_4222_Parte1.vtt",
+   "scheda": {
+    "materia": "Diritto ed economia",
+    "titolo": "Le organizzazioni collettive e l'impresa · Parte 1",
+    "docente": "Prof.ssa J. Didone",
+    "durata_s": 2686.82,
+    "argomenti": [
+     {
+      "n": 1,
+      "titolo": "Le persone giuridiche",
+      "inizio_s": 23.766,
+      "quiz_s": 501.413
+     },
+     {
+      "n": 2,
+      "titolo": "L'azienda e la classificazione delle imprese",
+      "inizio_s": 507.213,
+      "quiz_s": 1724.464
+     },
+     {
+      "n": 3,
+      "titolo": "Il rischio d'impresa",
+      "inizio_s": 1730.264,
+      "quiz_s": 1963.345
+     },
+     {
+      "n": 4,
+      "titolo": "Stakeholder e responsabilità sociale",
+      "inizio_s": 1969.145,
+      "quiz_s": 2676.01
+     }
+    ],
+    "quiz": {
+     "Q1": {
+      "title": "Quiz 1 · Le persone giuridiche",
+      "items": [
+       {
+        "p": "Che cos'è una persona giuridica?",
+        "a": "Un'entità astratta, formata da persone o beni, a cui l'ordinamento riconosce la capacità giuridica",
+        "w": [
+         "Un essere umano maggiorenne con piena capacità d'agire",
+         "Un insieme di beni senza alcun riconoscimento da parte dell'ordinamento",
+         "Un contratto firmato da più persone fisiche"
+        ],
+        "ref": "La persona giuridica è un'entità astratta, costituita da un insieme di persone o di beni a cui l'ordinamento riconosce la capacità giuridica."
+       },
+       {
+        "p": "Quando una persona giuridica acquista la capacità giuridica?",
+        "a": "Al momento della sua costituzione",
+        "w": [
+         "Alla nascita dei suoi soci",
+         "Al compimento dei diciotto anni",
+         "Solo dopo l'approvazione del primo bilancio"
+        ],
+        "ref": "Mentre noi abbiamo la capacità giuridica dalla nascita, la persona giuridica la acquista al momento della sua costituzione."
+       },
+       {
+        "p": "Quale di queste è una persona giuridica di diritto pubblico?",
+        "a": "Un comune",
+        "w": [
+         "Una società per azioni",
+         "Una piccola agenzia costituita come S.r.l.",
+         "Un'associazione sportiva dilettantistica registrata"
+        ],
+        "ref": "Le persone giuridiche di diritto pubblico nascono per legge e perseguono finalità pubbliche: Stato, Regioni, Province, Comuni, università pubbliche, ASL."
+       },
+       {
+        "p": "Che cosa significa «autonomia patrimoniale»?",
+        "a": "I beni della persona giuridica sono separati da quelli delle persone fisiche che la compongono",
+        "w": [
+         "I soci rispondono sempre con i propri beni personali dei debiti",
+         "La persona giuridica non può possedere beni",
+         "Il patrimonio appartiene sempre allo Stato"
+        ],
+        "ref": "Se la società va male, i debiti restano a carico della società e non dei singoli soci: questo protegge dal rischio personale."
+       },
+       {
+        "p": "Per quale motivo può sciogliersi una persona giuridica?",
+        "a": "Per decisione interna, fallimento, fusione o provvedimento dell'autorità pubblica",
+        "w": [
+         "Solo per la morte del fondatore",
+         "Solo dopo un numero fisso di anni",
+         "Una persona giuridica non può mai sciogliersi"
+        ],
+        "ref": "Anche le persone giuridiche possono cessare di esistere: i motivi sono la decisione interna, il fallimento, la fusione o la decisione dell'autorità pubblica."
+       }
+      ]
+     },
+     "Q2": {
+      "title": "Quiz 2 · L'azienda e la classificazione delle imprese",
+      "items": [
+       {
+        "p": "Come è definita l'azienda nella slide «Focus: la nozione di azienda»?",
+        "a": "Un'organizzazione stabile di persone e beni che attua processi di produzione di ricchezza",
+        "w": [
+         "Un insieme occasionale di beni senza organizzazione",
+         "Il solo edificio in cui si lavora",
+         "Un ente privo di qualsiasi obiettivo economico"
+        ],
+        "ref": "L'azienda è un'organizzazione stabile, di persone e beni, che attua processi di produzione di ricchezza in condizioni di equilibrio economico durevole."
+       },
+       {
+        "p": "Quale tra questi è un carattere distintivo dell'azienda?",
+        "a": "L'economicità",
+        "w": [
+         "L'occasionalità",
+         "L'anonimato",
+         "La proprietà esclusivamente pubblica"
+        ],
+        "ref": "I caratteri distintivi sono la coordinazione sistemica, l'economicità e l'autonomia: servono a individuare l'azienda come unica sul mercato."
+       },
+       {
+        "p": "Quali sono le tre fasi della vita aziendale?",
+        "a": "Istituzionale, funzionamento, terminale",
+        "w": [
+         "Decisione, esecuzione, controllo",
+         "Ricerca, sviluppo, produzione",
+         "Costituzione, fusione, scissione"
+        ],
+        "ref": "Decisione, esecuzione e controllo sono invece i processi del comportamento aziendale."
+       },
+       {
+        "p": "Quali settori distingue la classificazione per settore di attività?",
+        "a": "Primario, secondario, terziario e terziario avanzato",
+        "w": [
+         "Locale, regionale, nazionale e globale",
+         "Piccolo, medio e grande",
+         "Profit, non profit e pubblico"
+        ],
+        "ref": "Il settore primario comprende agricoltura, allevamento, pesca; il secondario le imprese industriali; il terziario commercio e servizi; il terziario avanzato chi sfrutta la tecnologia."
+       },
+       {
+        "p": "Che cosa persegue un'impresa con scopo mutualistico, come una cooperativa?",
+        "a": "Il benessere dei soci, con beni, servizi o condizioni di lavoro più vantaggiose rispetto al mercato",
+        "w": [
+         "La massimizzazione del profitto puro",
+         "La quotazione in borsa",
+         "L'eliminazione dei concorrenti"
+        ],
+        "ref": "Le imprese con scopo mutualistico non hanno come obiettivo principale massimizzare il profitto, ma creare valore per i propri soci."
+       }
+      ]
+     },
+     "Q3": {
+      "title": "Quiz 3 · Il rischio d'impresa",
+      "items": [
+       {
+        "p": "Come può essere definito il rischio generale?",
+        "a": "La possibilità che si verifichino eventi futuri incerti che influenzano negativamente il raggiungimento degli obiettivi",
+        "w": [
+         "La certezza di realizzare un profitto",
+         "Un evento passato già registrato in bilancio",
+         "Un obbligo stabilito dalla legge"
+        ],
+        "ref": "Il rischio generale è la possibilità che eventi futuri incerti possano influenzare in modo negativo il raggiungimento degli obiettivi di un'azienda."
+       },
+       {
+        "p": "Che cosa sono i rischi particolari?",
+        "a": "Manifestazioni del rischio economico che non hanno significato autonomo",
+        "w": [
+         "Rischi che riguardano solo le imprese pubbliche",
+         "Rischi sempre coperti da un'assicurazione",
+         "Rischi che non possono mai verificarsi"
+        ],
+        "ref": "Il loro isolamento è solo un'astrazione che serve a esemplificare la complessa realtà osservata."
+       },
+       {
+        "p": "Che cosa significa ERM?",
+        "a": "Enterprise Risk Management, un sistema di gestione dei rischi aziendali",
+        "w": [
+         "Economic Resource Management, la gestione delle risorse economiche",
+         "Employee Relations Meeting, l'incontro con i dipendenti",
+         "European Rules for Markets, le regole europee dei mercati"
+        ],
+        "ref": "L'ERM salvaguarda l'azienda analizzando i fattori di rischio e valutando il loro impatto sulla performance."
+       },
+       {
+        "p": "Quale norma regola la gestione del rischio d'impresa?",
+        "a": "La norma UNI ISO 31000",
+        "w": [
+         "La Comunicazione UE n. 681 del 2011",
+         "La direttiva CSRD",
+         "Il regolamento europeo sulle PMI"
+        ],
+        "ref": "La norma UNI ISO 31000, Gestione del rischio, Linee guida, può essere applicata durante tutta la vita dell'organizzazione."
+       },
+       {
+        "p": "Quali sono i due tipi di risorse che distinguono gli elementi aziendali?",
+        "a": "Risorse economiche e risorse umane",
+        "w": [
+         "Risorse pubbliche e risorse private",
+         "Risorse locali e risorse globali",
+         "Risorse fisse e risorse occasionali"
+        ],
+        "ref": "Le risorse economiche sono il capitale, gli immobili, le attrezzature, i brevetti; le risorse umane sono le persone preposte all'organizzazione aziendale."
+       }
+      ]
+     },
+     "Q4": {
+      "title": "Quiz 4 · Stakeholder e responsabilità sociale",
+      "items": [
+       {
+        "p": "Che cos'è uno stakeholder?",
+        "a": "Un individuo, un gruppo o un'organizzazione con un interesse verso gli obiettivi di business dell'azienda",
+        "w": [
+         "Solo il proprietario dell'azienda",
+         "Esclusivamente un cliente che acquista",
+         "Un ente che controlla i bilanci per conto dello Stato"
+        ],
+        "ref": "Stakeholder significa portatore di interessi, dai termini inglesi stake e holder."
+       },
+       {
+        "p": "Quale di questi è uno stakeholder interno?",
+        "a": "Un dipendente",
+        "w": [
+         "Un investitore",
+         "Un fornitore",
+         "Un cliente"
+        ],
+        "ref": "Gli interni fanno parte dell'ingranaggio aziendale: board, dipendenti, manager, proprietari. Investitori, fornitori e clienti sono esterni."
+       },
+       {
+        "p": "Che cosa indicano le sigle RSI e CSR?",
+        "a": "La responsabilità sociale d'impresa (Corporate Social Responsibility)",
+        "w": [
+         "La rendicontazione statale degli investimenti",
+         "Il rischio sociale dell'impresa",
+         "Un regolamento sulle società di capitali"
+        ],
+        "ref": "Secondo la Comunicazione UE n. 681 del 2011, la RSI è la responsabilità delle imprese per gli impatti che hanno sulla società."
+       },
+       {
+        "p": "Che cosa prevede la CSRD?",
+        "a": "Che le imprese rendicontino in modo trasparente i propri impatti ambientali, sociali e di governance",
+        "w": [
+         "Che le imprese pubblichino solo il bilancio economico",
+         "Che le imprese riducano il numero dei dipendenti",
+         "Che tutte le imprese si quotino in borsa"
+        ],
+        "ref": "La CSRD, Corporate Sustainability Reporting Directive, rende obbligatorio il bilancio di sostenibilità per le grandi imprese e, in alcuni casi, per le medie."
+       },
+       {
+        "p": "Che cosa significa «doppia materialità»?",
+        "a": "Rendere conto sia di come l'azienda impatta su ambiente e società, sia di come i temi di sostenibilità influiscono sui suoi risultati finanziari",
+        "w": [
+         "Pubblicare due bilanci in due anni diversi",
+         "Avere due soci di maggioranza",
+         "Rendicontare solo i costi materiali"
+        ],
+        "ref": "È il primo dei due principi della CSRD; il secondo è l'uso di formati standardizzati."
+       }
+      ]
+     }
+    }
+   }
+  },
+  "2": {
+   "titolo": "Le organizzazioni collettive e l'impresa · Parte 2",
+   "stato": "PRONTA",
+   "voci": "kore",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "si",
+   "video": "Diritto_4222_Parte2_1080p.mp4",
+   "durata_s": 1386.7,
+   "durata": "23:06.7",
+   "fotogrammi": 41601,
+   "fotogrammi_attesi": 41601,
+   "peso_MB": 153.7,
+   "vtt": "Diritto_4222_Parte2.vtt",
+   "scheda": {
+    "materia": "Diritto ed economia",
+    "titolo": "Le organizzazioni collettive e l'impresa · Parte 2",
+    "docente": "Prof.ssa J. Didone",
+    "durata_s": 1386.71,
+    "argomenti": [
+     {
+      "n": 5,
+      "titolo": "Soggetti, patrimonio e avviamento",
+      "inizio_s": 26.1,
+      "quiz_s": 551.648
+     },
+     {
+      "n": 6,
+      "titolo": "La gestione aziendale",
+      "inizio_s": 557.448,
+      "quiz_s": 1173.498
+     }
+    ],
+    "quiz": {
+     "Q5": {
+      "title": "Quiz 5 · Soggetti, patrimonio e avviamento",
+      "items": [
+       {
+        "p": "Chi è il soggetto economico di un'azienda?",
+        "a": "La persona o il gruppo di persone che detiene il controllo dell'azienda e decide le scelte fondamentali della gestione",
+        "w": [
+         "Il titolare dei soli obblighi fiscali",
+         "Il fornitore principale",
+         "Il consulente esterno"
+        ],
+        "ref": "Il soggetto giuridico è invece il titolare dei diritti e degli obblighi che derivano dall'attività aziendale."
+       },
+       {
+        "p": "Come si ottiene il patrimonio netto?",
+        "a": "Dalla differenza tra attivo e passivo patrimoniale",
+        "w": [
+         "Dalla somma di debiti e crediti",
+         "Dai soli beni immobili",
+         "Dal totale dei ricavi dell'anno"
+        ],
+        "ref": "La differenza tra attivo e passivo dà il patrimonio netto, cioè la ricchezza effettiva."
+       },
+       {
+        "p": "Quale elemento rientra nell'attivo patrimoniale?",
+        "a": "I beni immobili, come case, terreni ed edifici",
+        "w": [
+         "I mutui",
+         "I prestiti bancari",
+         "I fornitori da pagare"
+        ],
+        "ref": "Debiti bancari, mutui, prestiti e fornitori da pagare sono passivo patrimoniale: ciò che si deve."
+       },
+       {
+        "p": "Che cos'è l'avviamento?",
+        "a": "Un valore immateriale che l'azienda acquisisce nel tempo: reputazione, clientela fidelizzata, know-how",
+        "w": [
+         "Un bene fisico, come un macchinario",
+         "Il capitale versato dai soci",
+         "Un debito verso i fornitori"
+        ],
+        "ref": "L'avviamento fa emergere la capacità dell'azienda di generare utili anche in futuro."
+       },
+       {
+        "p": "Perché il valore dell'azienda è maggiore della somma dei valori dei singoli beni?",
+        "a": "Perché dalla sinergia e dall'organizzazione tra gli elementi nasce l'avviamento",
+        "w": [
+         "Perché i beni si rivalutano da soli",
+         "Perché l'azienda non paga imposte",
+         "Perché i macchinari producono anche senza persone"
+        ],
+        "ref": "Un macchinario da solo non produce nulla: il valore nasce dall'organizzazione e dall'interazione tra persone, strumenti e metodi."
+       }
+      ]
+     },
+     "Q6": {
+      "title": "Quiz 6 · La gestione aziendale",
+      "items": [
+       {
+        "p": "Che cos'è l'esercizio?",
+        "a": "L'insieme delle operazioni di gestione compiute in un periodo amministrativo",
+        "w": [
+         "Un singolo contratto di lavoro",
+         "Il documento che elenca i beni aziendali",
+         "Il capitale versato dai soci"
+        ],
+        "ref": "Il periodo amministrativo è normalmente l'anno, cioè dodici mesi."
+       },
+       {
+        "p": "Che cos'è il reddito, o risultato economico?",
+        "a": "L'incremento o il decremento che il capitale subisce in un periodo per effetto dell'intera gestione",
+        "w": [
+         "Il totale dei debiti dell'azienda",
+         "Il valore dei soli beni immobili",
+         "Il numero dei dipendenti"
+        ],
+        "ref": "L'incremento è denominato utile, il decremento perdita."
+       },
+       {
+        "p": "Quali sono le tre tipologie di aree funzionali?",
+        "a": "Strategiche, caratteristiche, integrative e di supporto",
+        "w": [
+         "Primaria, secondaria, terziaria",
+         "Locali, regionali, nazionali",
+         "Corrente, strategica, straordinaria"
+        ],
+        "ref": "Le aree strategiche comprendono il vertice; le caratteristiche costituiscono l'oggetto tipico dell'attività; le integrative e di supporto aiutano le altre aree."
+       },
+       {
+        "p": "Che cos'è il disinvestimento?",
+        "a": "La fase di cessione dei beni o prestazione dei servizi, che consente di recuperare i mezzi monetari investiti",
+        "w": [
+         "L'acquisto dei fattori produttivi",
+         "La raccolta dei mezzi monetari di debito",
+         "La chiusura definitiva dell'azienda"
+        ],
+        "ref": "Finanziamento e investimento vengono prima: si raccolgono i mezzi monetari e si acquistano i fattori produttivi."
+       },
+       {
+        "p": "Quando c'è equilibrio finanziario?",
+        "a": "Quando disponibilità liquide più entrate monetarie sono maggiori o uguali alle uscite monetarie",
+        "w": [
+         "Quando la somma dei ricavi supera i debiti",
+         "Quando i dipendenti sono più di cinquanta",
+         "Quando l'azienda non ha concorrenti"
+        ],
+        "ref": "L'equilibrio economico è invece: somma dei ricavi uguale somma dei costi effettivi più gli oneri figurativi."
+       }
+      ]
+     }
+    }
+   }
   }
  },
  "manca": "",
@@ -37,10 +450,14 @@
   {
    "quando": "18/11 17:03",
    "testo": "17:10 voci Kore 184/184 arrivate (3 da controllare: N4b_s1_i1, S4_4, F_3). Montaggio dei pezzi in corso."
+  },
+  {
+   "quando": "18/11 19:47",
+   "testo": "Consegna su ramo revisione-diritto-4222. Manca sigla Diritto; DA CONFERMARE: parola 'obiettivo' slide fattori; fermo 1,2 s a 39:58 P1 (falso allarme probabile)."
   }
  ],
  "materia": "Diritto ed economia (I+II)",
  "lezione": "ID 4222 · Le organizzazioni collettive e l'impresa",
  "docente": "Prof.ssa J. Didone",
- "aggiornato": "2026-11-18 17:03:25"
+ "aggiornato": "2026-11-18 19:47:58"
 }
