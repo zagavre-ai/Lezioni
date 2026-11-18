@@ -158,5 +158,160 @@
   "nome": "COMPI",
   "testo": "Ora tocca a te: ecco i compiti.",
   "lingua": "it"
+ },
+ {
+  "nome": "MD1",
+  "testo": "Ecco la mappa del professor Mazzotti. Qual è la situazione economica e sociale degli Stati Uniti dopo la guerra? I ruggenti anni Venti vedono una crescita economica, cambiamenti nel costume e fenomeni negativi. La crescita economica porta all'aumento dei consumi. I cambiamenti nel costume sono la diffusione della musica jazz e del cinema di Hollywood. I fenomeni negativi sono la diffidenza verso gli immigrati e la paura dei comunisti.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MD2",
+  "testo": "Ecco la mappa del professor Mazzotti. Quali sono le cause e gli effetti della Grande depressione? La Borsa statunitense vede formarsi una bolla speculativa, che porta al crollo del valore delle azioni. Questo provoca l'impoverimento degli investitori, il fallimento delle banche, il fallimento delle aziende e la disoccupazione.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MD3",
+  "testo": "Ecco la mappa del professor Mazzotti, dedicata al New Deal. Il New Deal prevede l'intervento dello Stato nell'economia: con il sostegno dello Stato a consumatori e imprenditori, con la realizzazione di grandi opere che creano lavoro, e con provvedimenti sociali come le pensioni di anzianità.",
+  "lingua": "it"
+ },
+ {
+  "nome": "P1",
+  "testo": "Ripassiamo insieme i ruggenti anni Venti. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC1_1",
+  "testo": "Boom economico: gli Stati Uniti sono la prima potenza mondiale.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC1_2",
+  "testo": "Fordismo e vendite a rate: auto ed elettrodomestici per tutti.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC1_3",
+  "testo": "Grandi città: New York, Chicago, Detroit e i primi grattacieli.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC1_4",
+  "testo": "Cultura di massa: jazz, radio e cinema, e il mito del sogno americano.",
+  "lingua": "it"
+ },
+ {
+  "nome": "P2",
+  "testo": "Ripassiamo insieme le donne e le flappers. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC2_1",
+  "testo": "Millenovecentoventi: le donne ottengono il suffragio universale.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC2_2",
+  "testo": "Le flappers: ragazze indipendenti, audaci e anticonformiste.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC2_3",
+  "testo": "Una rivoluzione della moda: capelli corti, trucco marcato, gonne sopra il ginocchio.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC2_4",
+  "testo": "Nuovi comportamenti: fumare, bere, guidare e ballare il charleston.",
+  "lingua": "it"
+ },
+ {
+  "nome": "P3",
+  "testo": "Ripassiamo insieme isolazionismo, razzismo e proibizionismo. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC3_1",
+  "testo": "Isolazionismo: i presidenti Harding e Coolidge applicano dazi protezionistici.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC3_2",
+  "testo": "Xenofobia: leggi contro l'immigrazione.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC3_3",
+  "testo": "Ku Klux Klan e paura rossa.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC3_4",
+  "testo": "Sacco e Vanzetti: condannati a morte nel millenovecentoventisette.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC3_5",
+  "testo": "Proibizionismo: dal millenovecentodiciannove vietato l'alcol, e prospera il mercato nero.",
+  "lingua": "it"
+ },
+ {
+  "nome": "P4",
+  "testo": "Ripassiamo insieme il crollo del millenovecentoventinove e la Grande Depressione. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC4_1",
+  "testo": "Le fragilità del boom: salari bassi e crisi agricola.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC4_2",
+  "testo": "Sovrapproduzione: l'offerta supera la domanda.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC4_3",
+  "testo": "Bolla speculativa: azioni comprate a credito.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC4_4",
+  "testo": "Ottobre millenovecentoventinove: Giovedì e Martedì nero.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC4_5",
+  "testo": "Grande Depressione: quattordici milioni di disoccupati, e la crisi arriva in Europa.",
+  "lingua": "it"
+ },
+ {
+  "nome": "P5",
+  "testo": "Ripassiamo insieme il New Deal di Roosevelt. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC5_1",
+  "testo": "Roosevelt, eletto nel millenovecentotrentadue, applica le idee di Keynes.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC5_2",
+  "testo": "Grandi lavori pubblici, e dollaro svalutato del quaranta per cento.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC5_3",
+  "testo": "AAA e NIRA: sussidi ai contadini, salari minimi e orari regolati.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC5_4",
+  "testo": "Social Security Act, millenovecentotrentacinque: nasce il welfare.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC5_5",
+  "testo": "Le fireside chats: Roosevelt parla ai cittadini alla radio.",
+  "lingua": "it"
  }
 ]
