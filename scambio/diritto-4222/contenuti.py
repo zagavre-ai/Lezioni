@@ -1,0 +1,497 @@
+# -*- coding: utf-8 -*-
+# Contenuti della lezione 4222 «Le organizzazioni collettive e l'impresa» (Diritto ed economia, Prof.ssa J. Didone).
+# Tutto preso dalle SLIDE della prof (frammenti/) e dal suo parlato (analisi_tagli.json). Niente di aggiunto.
+# Da qui si generano: testi_voci.json, quiz, mappe, schemi di ripasso, timeline.
+MATERIA = "Diritto ed economia"
+TITOLO = "Le organizzazioni collettive e l'impresa"
+DOCENTE = "Prof.ssa J. Didone"
+
+ARGOMENTI = [
+    ("Le persone giuridiche", ["Le persone", "giuridiche"], "persone giuridiche · autonomia patrimoniale"),
+    ("L'azienda e la classificazione delle imprese", ["L'azienda e le", "imprese"], "azienda · ambiente · settori"),
+    ("Il rischio d'impresa", ["Il rischio", "d'impresa"], "rischio generale · ERM"),
+    ("Stakeholder e responsabilità sociale", ["Stakeholder e", "responsabilità sociale"], "stakeholder · CSR · CSRD"),
+    ("Soggetti, patrimonio e avviamento", ["Soggetti, patrimonio", "e avviamento"], "patrimonio · avviamento"),
+    ("La gestione aziendale", ["La gestione", "aziendale"], "gestione · funzioni · equilibrio"),
+]
+
+# ---------------------------------------------------------------- Animazioni (al posto dei pezzi da 5 s)
+# slides: titolo, sottotitolo, items: h (etichetta), lines (testo a schermo, dalla slide), say (voce Kore, dalla slide)
+def it(h, lines, say): return {"h": h, "lines": lines if isinstance(lines, list) else [lines], "say": say}
+ANIM = {
+ "N2a": {"arg": 2, "pezzi": "08:28–08:38 (s02, s03)", "slides": [
+   {"t": "Focus: la nozione di azienda", "items": [
+     it("", "Il principale strumento per svolgere l'attività economica", "L'azienda è il principale strumento per svolgere l'attività economica."),
+     it("", "Organizzazione stabile di persone e beni: processi di produzione di ricchezza in condizioni di equilibrio economico durevole",
+        "È un'organizzazione stabile, di persone e beni, che attua processi di produzione di ricchezza in condizioni di equilibrio economico durevole."),
+     it("", "Scopo: soddisfare, direttamente o indirettamente, i bisogni umani", "Il suo scopo è soddisfare, direttamente o indirettamente, i bisogni umani."),
+     it("Elementi costitutivi", ["beni economici · organizzazione stabile", "persone · operazioni", "oggetto (tipo di attività) · vision · missione"],
+        "Gli elementi costitutivi sono: un insieme di beni economici, un'organizzazione stabile, un insieme di persone e di operazioni, l'oggetto, cioè il tipo di attività svolta, la vision e la missione aziendale."),
+   ]},
+   {"t": "La relazione tra ambiente e azienda", "items": [
+     it("Teoria sistemica", "L'azienda è un sistema: un complesso di elementi che interagiscono sulla base di relazioni interne ed esterne",
+        "Secondo la teoria sistemica, l'azienda è un sistema, ossia un complesso di elementi che interagiscono tra loro sulla base di relazioni interne ed esterne."),
+     it("Ambiente generale", "Le variabili del contesto in cui l'azienda opera, comuni a tutte le aziende di quel contesto",
+        "L'ambiente generale è costituito da tutte le variabili presenti nel contesto in cui l'azienda svolge la propria attività, ed è comune a tutte le aziende che operano in quel contesto."),
+     it("Ambiente specifico", "Il settore di attività economica in cui opera l'azienda e i mercati con cui interagisce direttamente",
+        "L'ambiente specifico è costituito dal settore di attività economica in cui l'azienda opera e dai mercati con cui interagisce direttamente."),
+     it("L'azienda è un sistema", "aperto · dinamico · probabilistico · olistico", "L'azienda è considerata un sistema aperto, dinamico, probabilistico e olistico."),
+   ]}]},
+ "N2b": {"arg": 2, "pezzi": "08:38–08:53 (s04, s05, s06)", "slides": [
+   {"t": "I caratteri distintivi dell'azienda", "sub": "Servono a individuarla come unica sul mercato", "items": [
+     it("Coordinazione sistemica", "L'azienda è un sistema finalizzato, aperto, complesso, dotato di meccanismi di correzione e dinamico",
+        "La coordinazione sistemica: l'azienda deve essere considerata alla stregua di un sistema finalizzato, aperto, complesso, dotato di meccanismi di correzione e dinamico."),
+     it("Economicità", "Regola di condotta che consente di funzionare e conseguire le proprie finalità: «stare nel mercato» con le proprie forze",
+        "L'economicità è una regola di condotta che consente alle aziende di funzionare e conseguire le proprie finalità. Rappresenta la capacità di stare nel mercato con le proprie forze."),
+     it("Autonomia", "Capacità di autosufficienza economico-patrimoniale: comportamenti propri, diversi da quelli degli individui che la costituiscono",
+        "L'autonomia rappresenta la capacità di autosufficienza economico-patrimoniale: l'azienda deve possedere comportamenti propri, diversi da quelli degli individui che l'hanno costituita e che vi operano."),
+   ]},
+   {"t": "Le fasi della vita aziendale", "items": [
+     it("Istituzionale", "Operazioni economico-finanziarie per l'avvio della fase di funzionamento; vision, mission e strategie non ancora definite",
+        "La fase istituzionale è il complesso coordinato di operazioni economico-finanziarie necessarie per l'avvio della fase di funzionamento. Di solito, in questa fase non sono ancora definite la vision, la mission e le strategie aziendali."),
+     it("Funzionamento", "L'azienda è organizzata per funzioni; sono individuabili i responsabili, con obiettivi da perseguire",
+        "Nella fase di funzionamento l'azienda è organizzata per funzioni aziendali, e sono individuabili i responsabili delle varie funzioni, a cui sono affidati degli obiettivi da perseguire."),
+     it("Terminale", "Le aziende possono chiudere per svariati motivi: alcuni volontari, altri coercitivi",
+        "Nella fase terminale le aziende possono chiudere per svariati motivi: alcuni sono definibili volontari, altri coercitivi."),
+   ]},
+   {"t": "Le fasi del comportamento aziendale", "items": [
+     it("Modello circolare", "Tre fasi, più una fase eventuale correttiva",
+        "Il comportamento aziendale si articola in un modello circolare. Può essere suddiviso in tre fasi, a cui si aggiunge una fase eventuale correttiva."),
+     it("I processi fondamentali", "1 decisione · 2 esecuzione · 3 controllo · 4 meccanismi di correzione (feedback)",
+        "I processi fondamentali sono: uno, decisione; due, esecuzione; tre, controllo; quattro, meccanismi di correzione, cioè il feedback."),
+     it("Focus sul feedback", "Permette nuove decisioni per eliminare lo scostamento tra risultati preventivati e risultati ottenuti",
+        "Il feedback consente di assumere nuove decisioni per eliminare lo scostamento riscontrato tra risultati preventivati e risultati ottenuti."),
+   ]}]},
+ "N2c": {"arg": 2, "pezzi": "08:53–09:03 (s07, s08)", "slides": [
+   {"t": "I fattori aziendali: le risorse umane ed economiche", "items": [
+     it("Output e input", "Gli obiettivi pianificati (output) si raggiungono con la combinazione ottimale di risorse o fattori produttivi (input)",
+        "Il raggiungimento degli obiettivi pianificati, cioè l'output, è reso possibile dalla combinazione ottimale di una serie di risorse o fattori produttivi, cioè l'input."),
+     it("Un fattore deve", ["1 influire sul processo economico", "2 far parte della combinazione produttiva con una sua utilità", "3 consentire, in un arco di tempo prestabilito, la remunerazione degli oneri sostenuti per acquisirlo"],
+        "Affinché un fattore possa essere considerato tale, deve: uno, influire sul processo economico; due, entrare a far parte della combinazione produttiva con una sua utilità; tre, consentire, entro un arco di tempo prestabilito, la remunerazione degli oneri sostenuti per la sua acquisizione."),
+   ]},
+   {"t": "Le diverse tipologie di imprese", "items": [
+     it("1 · Produzione diretta di beni", "Produzione mediante processi di trasformazione materiale",
+        "Le aziende di produzione diretta di beni sono quelle la cui produzione si esegue mediante processi di trasformazione materiale."),
+     it("2 · Produzione indiretta", "I beni non subiscono trasformazione materiale, ma una trasformazione economica nel tempo e nello spazio",
+        "Nelle aziende di produzione indiretta i beni non subiscono alcuna trasformazione materiale, ma viene effettuata una trasformazione economica nel tempo e nello spazio."),
+     it("3 · Aziende di servizi", "Attività di carattere immateriale che facilitano lo svolgimento di altre attività",
+        "Le aziende di servizi svolgono attività che hanno carattere immateriale, ma che facilitano lo svolgimento di altre attività."),
+     it("Tre categorie", "aziende profit oriented · aziende non profit · aziende della Pubblica Amministrazione",
+        "Le tipologie di aziende rientrano in tre categorie: aziende profit oriented, aziende non profit e aziende della Pubblica Amministrazione."),
+   ]}]},
+ "N3a": {"arg": 3, "pezzi": "23:20–23:30 (s10, s11)", "slides": [
+   {"t": "Rischio generale e rischio particolare", "items": [
+     it("Rischio generale", "La possibilità che si verifichino eventi futuri incerti che influenzano in modo negativo il raggiungimento degli obiettivi",
+        "Il rischio generale può essere definito come la possibilità che si verifichino eventi futuri incerti che possono influenzare in modo negativo il raggiungimento degli obiettivi di un'azienda."),
+     it("Rischio particolare", "Manifestazioni del rischio economico che non hanno significato autonomo; isolarle è solo un'astrazione",
+        "Il rischio particolare riguarda particolari manifestazioni del rischio economico che non hanno significato autonomo. Il loro isolamento costituisce solo un'astrazione, necessaria per esemplificare la complessa realtà oggetto di osservazione."),
+   ]},
+   {"t": "Modalità di gestione del rischio", "items": [
+     it("ERM", "Enterprise Risk Management: sistema che salvaguarda l'azienda analizzando i fattori di rischio e valutandone l'impatto sulla performance",
+        "L'Enterprise Risk Management, o ERM, è un sistema di gestione dei rischi aziendali che vuole salvaguardare l'azienda attraverso l'analisi dei fattori di rischio e la valutazione del loro impatto sulla performance."),
+     it("Norma UNI ISO 31000", "Gestione del rischio – Linee guida: per chi crea e protegge valore, gestisce rischi, decide e migliora le prestazioni",
+        "La norma UNI ISO trentunomila, Gestione del rischio, Linee guida, regola la gestione del rischio d'impresa. È destinata a chi crea e protegge valore, avendo cura di gestire rischi, prendere decisioni, fissare e conseguire obiettivi e migliorare le prestazioni."),
+     it("Quando si applica", "Durante tutta la vita dell'organizzazione, a qualsiasi attività, anche al processo decisionale a tutti i livelli",
+        "La norma può essere utilizzata durante tutta la vita dell'organizzazione e applicata a qualsiasi attività, compreso il processo decisionale a tutti i livelli."),
+   ]}]},
+ "N4a": {"arg": 4, "pezzi": "24:29–24:34 (s13)", "slides": [
+   {"t": "Il legame tra imprese e stakeholders", "items": [
+     it("Identificare gli stakeholder", "Fa parte delle capacità dell'azienda: coglierne le opportunità e comprenderne i contributi, quantificando la loro influenza",
+        "L'identificazione degli stakeholder rientra tra le capacità dell'azienda, che deve coglierne le opportunità e comprenderne i contributi, quantificando l'influenza che essi esercitano sulla vita aziendale."),
+     it("Interni ed esterni", "Si distingue tra stakeholder interni e stakeholder esterni", "Si distingue tra stakeholder interni e stakeholder esterni."),
+     it("I lavoratori subordinati", "Legati all'imprenditore da un vincolo di dipendenza; ricevono una retribuzione prestabilita",
+        "I lavoratori subordinati sono legati all'imprenditore o al datore di lavoro da un vincolo di dipendenza: operano nell'azienda e percepiscono in cambio una retribuzione prestabilita."),
+     it("Chi ne fa parte", "dirigenti · quadri intermedi · impiegati · operai · apprendisti · lavoratori a domicilio",
+        "Vi rientrano i dirigenti, i quadri intermedi, gli impiegati, gli operai, gli apprendisti e i lavoratori a domicilio. I criteri per stabilire l'appartenenza a queste categorie sono stabiliti da leggi speciali e da contratti collettivi."),
+   ]}]},
+ "N4b": {"arg": 4, "pezzi": "27:33–27:38 (s15)", "slides": [
+   {"t": "La responsabilità sociale", "items": [
+     it("Non c'è una definizione unica", "Responsabilità Sociale d'Impresa (RSI) o Corporate Social Responsibility (CSR)",
+        "Non esiste una definizione univoca e condivisa di responsabilità sociale delle aziende, nota come Responsabilità Sociale d'Impresa, RSI, o Corporate Social Responsibility, CSR."),
+     it("In generale", "Una forma di responsabilità volontaria, assunta verso i principali stakeholder",
+        "In generale, si tratta di una forma di responsabilità volontaria che le imprese tendono ad assumere nei confronti dei loro principali stakeholder."),
+     it("Comunicazione UE n. 681 del 2011", "La RSI è «la responsabilità delle imprese per gli impatti che hanno sulla società»",
+        "Secondo la Comunicazione UE numero seicentottantuno del duemilaundici, la RSI è la responsabilità delle imprese per gli impatti che hanno sulla società."),
+   ]}]},
+ "N5a": {"arg": 5, "pezzi": "33:21–33:26 (s17)", "slides": [
+   {"t": "Soggetto giuridico e soggetto economico", "items": [
+     it("Soggetto giuridico", "Coincide con la persona fisica o giuridica, titolare dei diritti e degli obblighi che derivano dallo svolgimento dell'attività aziendale",
+        "Il soggetto giuridico di un'azienda coincide con la persona fisica o con la persona giuridica, titolare dei diritti e degli obblighi che, in base alle norme vigenti, scaturiscono dallo svolgimento dell'attività aziendale."),
+     it("Soggetto economico", "La persona o il gruppo di persone che detiene il controllo dell'azienda e decide le scelte fondamentali della gestione",
+        "Il soggetto economico di un'azienda è la persona, o il gruppo di persone, che di fatto detiene il controllo dell'azienda e, quindi, ha il potere di determinare le scelte fondamentali della gestione aziendale."),
+   ]}]},
+ "N5b": {"arg": 5, "pezzi": "33:26–33:31 (s18)", "slides": [
+   {"t": "Il patrimonio", "items": [
+     it("Il capitale di funzionamento", "Insieme coordinato di beni economici (materiali, immateriali…) a disposizione dell'azienda per la sua attività, e delle obbligazioni verso terzi da estinguere",
+        "Sotto il profilo qualitativo, il capitale di funzionamento aziendale è l'insieme coordinato e organizzato di beni economici, materiali e immateriali, nella disponibilità dell'azienda per lo svolgimento della propria attività, e delle connesse obbligazioni verso terzi da estinguere, osservato in un determinato momento."),
+     it("Classificazione", "Sono molteplici i criteri di classificazione degli elementi del capitale di funzionamento",
+        "Sono molteplici i criteri di classificazione degli elementi facenti parte del capitale di funzionamento."),
+   ]}]},
+ "N6a": {"arg": 6, "pezzi": "39:47–39:57 (s21, s22)", "slides": [
+   {"t": "L'inventario", "items": [
+     it("Due significati", "Le operazioni che determinano il patrimonio in un certo istante, e il documento contabile che elenca tutti i suoi elementi",
+        "Il termine inventario indica sia il complesso delle operazioni con cui si determina il patrimonio aziendale in un certo istante, sia il documento contabile che indica tutti gli elementi del patrimonio aziendale in un determinato momento."),
+     it("Come si classificano", "secondo l'oggetto · i dati contenuti · la periodicità · il fine",
+        "Gli inventari possono essere classificati secondo l'oggetto, i dati in esso contenuti, la periodicità e il fine."),
+   ]},
+   {"t": "Il reddito", "items": [
+     it("Reddito o risultato economico", "L'incremento o il decremento che il capitale subisce in un periodo per effetto dell'intera gestione aziendale",
+        "Il reddito, o risultato economico, è l'incremento o il decremento che, in un determinato periodo di tempo, subisce il capitale per effetto dell'intera gestione aziendale."),
+     it("Utile e perdita", "Incremento (variazione positiva) = utile · decremento (variazione negativa) = perdita",
+        "L'incremento, o variazione positiva, è denominato utile. Il decremento, o variazione negativa, è denominato perdita."),
+   ]}]},
+ "N6b": {"arg": 6, "pezzi": "39:57–40:12 (s23, s24)", "slides": [
+   {"t": "La nozione di gestione", "items": [
+     it("Gestione aziendale", "Il sistema di operazioni aziendali per raggiungere gli obiettivi per cui l'azienda è stata creata",
+        "La gestione aziendale è il sistema di operazioni aziendali per raggiungere gli obiettivi per i quali l'azienda è stata creata."),
+     it("Periodi amministrativi", "L'intervallo di tempo a cui si riferisce la gestione osservata e rappresentata tramite la rilevazione: normalmente l'anno, cioè 12 mesi",
+        "La gestione è osservata temporalmente, attraverso i periodi amministrativi. Il periodo amministrativo è l'intervallo di tempo a cui si riferisce la gestione osservata e rappresentata tramite la rilevazione. Normalmente è l'anno, cioè dodici mesi."),
+     it("Esercizio", "L'insieme delle operazioni di gestione compiute in un periodo amministrativo",
+        "L'insieme delle operazioni di gestione compiute in un periodo amministrativo è denominato esercizio."),
+   ]},
+   {"t": "Le operazioni tipiche di gestione", "items": [
+     it("Gestione corrente", "Le operazioni che l'azienda svolge nel quotidiano", "Esistono due tipologie di gestione. La gestione corrente è l'insieme delle operazioni che l'azienda svolge nel quotidiano."),
+     it("Gestione strategica", "Decisioni con impatto strutturale, effetti di medio-lungo periodo, non reversibili nel breve senza costi significativi",
+        "La gestione strategica è il complesso delle decisioni aziendali che hanno un impatto strutturale sul business, producendo effetti di medio-lungo periodo e non reversibili nel breve periodo senza sopportare costi significativi."),
+     it("Interna ed esterna", "Fatti di gestione interna: non coinvolgono soggetti esterni · Fatti di gestione esterna: finanziamento, investimento, disinvestimento",
+        "I fatti di gestione interna non coinvolgono soggetti esterni all'azienda. I fatti di gestione esterna sono poste in essere nelle fasi di finanziamento, investimento e disinvestimento, e mettono l'azienda in contatto con soggetti terzi."),
+   ]}]},
+ "N6c": {"arg": 6, "pezzi": "40:12–40:42 (s25, s26, s27)", "slides": [
+   {"t": "Finanziamento e investimento", "items": [
+     it("Finanziamento", "Prima tipologia di operazioni: dotazione di mezzi monetari, di debito o di proprietà, da impiegare nell'attività aziendale",
+        "Il finanziamento è la prima tipologia di operazioni della gestione. È finalizzato alla dotazione dei mezzi monetari, di debito o di proprietà, da impiegare nell'attività aziendale."),
+     it("Investimento", "Seconda tipologia: acquisto dei fattori produttivi con le risorse finanziarie raccolte",
+        "L'investimento è la seconda tipologia. È finalizzato all'acquisto dei fattori produttivi necessari per lo svolgimento dell'attività aziendale, mediante l'impiego delle risorse finanziarie raccolte."),
+   ]},
+   {"t": "Il disinvestimento", "items": [
+     it("Fase di cessione", "Cessione dei beni o prestazione dei servizi che sono l'oggetto dell'attività aziendale; venduti sul mercato, recuperano i mezzi monetari investiti",
+        "Il disinvestimento è la fase di cessione dei beni o prestazione dei servizi che rappresentano l'oggetto dell'attività aziendale. Venduti sul mercato, consentono all'azienda di recuperare i mezzi monetari investiti."),
+     it("Doppio processo di conversione", "1 da mezzi monetari a fattori produttivi · 2 da prodotti finiti a mezzi monetari",
+        "Nel doppio processo di conversione, prima si passa dai mezzi monetari ai fattori produttivi, poi dai prodotti finiti ai mezzi monetari. I mezzi recuperati servono per il finanziamento del ciclo successivo."),
+   ]},
+   {"t": "I circuiti aziendali", "sub": "Produzione · finanziamenti attinti · finanziamenti concessi", "items": [
+     it("Il circuito finanziario", "Inizia quando l'azienda si rivolge al mercato finanziario per reperire le risorse; si chiude con la loro restituzione",
+        "Il circuito finanziario inizia quando l'azienda si mette in relazione con il mercato finanziario per reperire le risorse necessarie. Tali risorse vengono poi restituite, chiudendo il circuito."),
+     it("Il circuito monetario", "Parte dall'acquisizione dei fattori produttivi, si conclude con i prodotti venduti nei mercati di vendita",
+        "Il circuito monetario ha inizio con l'acquisizione dei fattori produttivi nei mercati di acquisto, e si conclude con l'ottenimento dei prodotti che verranno poi venduti nei mercati di vendita."),
+   ]}]},
+ "N6d": {"arg": 6, "pezzi": "40:42–41:02 (s28, s29, s30, s31)", "slides": [
+   {"t": "Le funzioni aziendali", "items": [
+     it("Aree strategiche", "Comprendono il vertice strategico dell'azienda", "Le funzioni aziendali si raggruppano in tre tipologie di aree. Le aree strategiche comprendono il vertice strategico dell'azienda."),
+     it("Aree caratteristiche", "Funzioni che costituiscono l'oggetto tipico dell'attività dell'impresa", "Le aree caratteristiche comprendono le funzioni che costituiscono l'oggetto tipico dell'attività dell'impresa."),
+     it("Aree integrative e di supporto", "Funzioni di supporto alle aree caratteristiche, per gestire risorse o risolvere problemi delle altre aree",
+        "Le aree integrative e di supporto comprendono funzioni di supporto alle aree caratteristiche, volte alla gestione di risorse o alla risoluzione di problemi delle altre aree."),
+   ]},
+   {"t": "Approvvigionamenti", "items": [
+     it("Collegamento con i mercati di acquisizione", "Mettere a disposizione un prodotto acquistato all'esterno, nelle quantità e nei momenti previsti, minimizzando rischi e costi di fornitura",
+        "La funzione approvvigionamenti è il collegamento tra azienda e mercati di acquisizione. Il suo scopo è mettere a disposizione un prodotto acquistato all'esterno, nelle quantità necessarie e per ciascun momento di utilizzo previsto, minimizzando rischi e costi di fornitura."),
+     it("Termini", "purchasing · procurement · supply · buying (il responsabile è il buyer)",
+        "I termini usati sono purchasing, procurement, supply e buying. Buying è usato soprattutto nelle imprese commerciali o della grande distribuzione, dove l'acquirente è definito buyer."),
+   ]},
+   {"t": "Produzione", "items": [
+     it("Dipende dall'azienda", "Industriali: trasformazione fisica di materie prime in prodotti finiti · Commerciali: distribuzione di merci · Servizi: erogazione dei servizi",
+        "Il concetto di produzione è diverso a seconda della tipologia di azienda. Nelle aziende industriali è la trasformazione fisica di materie prime in prodotti finiti, nelle commerciali la distribuzione di merci, nelle aziende di servizi l'erogazione dei servizi."),
+     it("Sprechi da evitare", "parti non necessarie · movimentazione su elevate distanze · parti non conformi · beni o servizi non richiesti dal mercato",
+        "Gli sprechi da evitare sono: la produzione di parti non necessarie, la movimentazione di parti su elevate distanze, la lavorazione di parti non conformi e la produzione di beni o servizi non richiesti dal mercato."),
+   ]},
+   {"t": "Marketing", "sub": "Obiettivo della funzione marketing è la creazione di valore per i clienti", "items": [
+     it("Customer oriented", "Le aziende sono customer oriented o market oriented: puntano alla soddisfazione dei bisogni dei consumatori",
+        "L'obiettivo della funzione marketing è la creazione di valore per i clienti. Le aziende sono customer oriented o market oriented: hanno come obiettivo la soddisfazione dei bisogni dei consumatori."),
+     it("Quali decisioni?", ["scambio con i mercati di sbocco · tipologie di prodotto", "prezzi · modalità di distribuzione", "ricerche di mercato · pubblicità"],
+        "Le decisioni riguardano i rapporti di scambio con i mercati di sbocco, le tipologie di prodotto da offrire, i prezzi da praticare, le modalità di distribuzione, le ricerche di mercato e la pubblicità, per diffondere la notorietà dell'azienda."),
+   ]}]},
+ "N6e": {"arg": 6, "pezzi": "41:02–41:22 (s32, s33, s34, s35)", "slides": [
+   {"t": "HR: gestione e organizzazione", "items": [
+     it("Le risorse umane", "Progettano la struttura organizzativa e cercano l'innovazione continua con processi efficienti",
+        "Le risorse umane progettano la struttura organizzativa e sono alla ricerca dell'innovazione continua, mediante l'implementazione di processi efficienti."),
+     it("Tipi di decisioni HR", ["definiscono i meccanismi operativi", "decidono lo stile direzionale: autoritario, democratico, permissivo", "decidono sul rapporto di lavoro e sulle relazioni industriali"],
+        "Le decisioni HR: definiscono i meccanismi operativi, decidono lo stile direzionale, autoritario, democratico o permissivo, e decidono sul rapporto di lavoro e sulle relazioni industriali. Il tutto con compiti operativi e di supporto."),
+   ]},
+   {"t": "Logistica", "items": [
+     it("Compito principale", "Organizzare e gestire i beni in magazzino, analizzando strutture e procedure operative",
+        "Il compito principale della logistica è organizzare e gestire i beni in magazzino, tramite l'analisi delle strutture e delle procedure operative."),
+     it("Il suo operato", ["controllo e magazzinaggio dei beni ricevuti dai fornitori", "spazi per collocare i beni · prelievo e trasferimento alle unità produttive", "imballaggio dei prodotti · spedizioni alla clientela"],
+        "Il suo operato riguarda: il controllo e il magazzinaggio dei beni ricevuti dai fornitori, la definizione degli spazi in cui collocarli, il prelievo e il trasferimento alle unità produttive, l'imballaggio dei prodotti e la gestione delle spedizioni alla clientela."),
+   ]},
+   {"t": "Ricerca e sviluppo", "items": [
+     it("Ricerca", "Indagine originale e pianificata, per conseguire nuove conoscenze e scoperte, di utilità generica alla società",
+        "La ricerca è un'indagine originale e pianificata, condotta con la prospettiva di conseguire nuove conoscenze e scoperte, che si considera di utilità generica alla società."),
+     it("Sviluppo", "Applicazione dei risultati della ricerca in un piano o progetto per produrre materiali, dispositivi, processi, sistemi o servizi, prima della produzione commerciale",
+        "Lo sviluppo è l'applicazione dei risultati della ricerca di base, o di altre conoscenze, in un piano o in un progetto per la produzione di materiali, dispositivi, processi, sistemi o servizi, prima dell'inizio della produzione commerciale."),
+   ]},
+   {"t": "Contabilità e bilancio", "items": [
+     it("La funzione", "Redige le scritture contabili generali dell'azienda per il bilancio d'esercizio",
+        "La funzione contabilità e bilancio redige le scritture contabili generali dell'azienda per la redazione del bilancio d'esercizio."),
+     it("Di che cosa si occupa", ["contabilità generale (Co.Ge) e adempimenti fiscali", "contabilità clienti e fornitori", "contabilità banche"],
+        "Si occupa in particolare di contabilità generale e adempimenti fiscali, di contabilità clienti e fornitori e di contabilità banche."),
+   ]}]},
+ "N6f": {"arg": 6, "pezzi": "41:22–41:22 (s36, s37, s38, s39)", "slides": [
+   {"t": "La gestione esterna come sistema di valori", "items": [
+     it("Valori finanziari", "Già espressi in moneta (valori originari): certi · assimilati · presunti",
+        "Le operazioni possono originare valori finanziari, che per la loro natura sono già espressi in moneta, e comprendono i valori certi, assimilati e presunti."),
+     it("Valori economici", "Senza espressione monetaria originaria (valori derivati): valori numerici di reddito · valori numerici di capitale",
+        "Possono originare anche valori economici, che non hanno un'originaria espressione monetaria, e comprendono i valori numerici di reddito e di capitale."),
+   ]},
+   {"t": "Aspetti della gestione esterna", "items": [
+     it("Aspetto finanziario", "Le variazioni che le operazioni producono nel sistema dei valori finanziari",
+        "L'aspetto finanziario riguarda le variazioni che tali operazioni producono nel sistema dei valori finanziari."),
+     it("Aspetto economico", "Le variazioni nei valori economici di reddito (costi e ricavi) e/o di capitale",
+        "L'aspetto economico riguarda le variazioni che tali operazioni producono nel sistema dei valori economici di reddito, cioè costi e ricavi, e nei valori economici di capitale."),
+   ]},
+   {"t": "Aree della gestione", "items": [
+     it("Le cinque aree", ["1 gestione caratteristica · 2 gestione accessoria", "3 gestione finanziaria · 4 gestione straordinaria", "5 gestione tributaria"],
+        "Le aree della gestione sono cinque: la gestione caratteristica, la gestione accessoria, la gestione finanziaria, la gestione straordinaria e la gestione tributaria."),
+   ]},
+   {"t": "Le condizioni dell'equilibrio aziendale", "items": [
+     it("Equilibrio generale", "L'impresa deve tendere a raggiungere, mantenere e migliorare l'equilibrio economico e finanziario",
+        "L'impresa deve tendere al raggiungimento, al mantenimento e al miglioramento delle condizioni di equilibrio generale, che si traduce nell'equilibrio economico e finanziario."),
+     it("Equilibrio economico", "Σ ricavi = Σ costi effettivi + Σ oneri figurativi", "Equilibrio economico: la somma dei ricavi è uguale alla somma dei costi effettivi più la somma degli oneri figurativi."),
+     it("Equilibrio finanziario", "(disponibilità liquide + entrate monetarie) ≥ uscite monetarie",
+        "Equilibrio finanziario: le disponibilità liquide più le entrate monetarie sono maggiori o uguali alle uscite monetarie."),
+   ]}]},
+}
+# ordine di comparsa nell'argomento (le animazioni vanno al posto dei pezzi da 5 s)
+# ---------------------------------------------------------------- Mappe (dalle slide)
+MAPPE = {
+ 1: {"titolo": "Le persone giuridiche", "intro": "Ecco la mappa delle persone giuridiche.", "rami": [
+    ("Definizione", "soggetto di diritto", "entità astratta di persone o beni", "Il primo ramo è la definizione: entità astratta di persone o beni, a cui l'ordinamento riconosce diritti e doveri."),
+    ("Diritto privato", "scopo di lucro o no", "S.p.A., S.r.l., associazioni, fondazioni", "Poi le persone giuridiche di diritto privato, con o senza scopo di lucro: società, associazioni e fondazioni."),
+    ("Diritto pubblico", "nascono per legge", "Stato, Regioni, Comuni, ASL", "Poi quelle di diritto pubblico, che nascono per legge: lo Stato, le Regioni, i Comuni e le ASL."),
+    ("Capacità", "giuridica e d'agire", "dalla costituzione", "La capacità giuridica e di agire, che la persona giuridica acquista al momento della costituzione."),
+    ("Autonomia patrimoniale", "beni separati", "i debiti restano alla società", "L'autonomia patrimoniale: i beni sono separati da quelli dei membri, e i debiti restano alla società."),
+    ("Estinzione", "fine dell'ente", "fallimento, fusione", "Infine l'estinzione: per decisione interna, fallimento, fusione o provvedimento dell'autorità."),
+ ]},
+ 2: {"titolo": "L'azienda e le imprese", "intro": "Ecco la mappa dell'azienda e delle imprese.", "rami": [
+    ("Nozione di azienda", "organizzazione stabile", "persone e beni", "Il primo ramo è la nozione di azienda: un'organizzazione stabile di persone e beni."),
+    ("Ambiente", "generale e specifico", "azienda come sistema", "Poi l'ambiente, generale e specifico, in cui l'azienda opera come sistema."),
+    ("Caratteri distintivi", "economicità, autonomia", "coordinazione sistemica", "I caratteri distintivi: coordinazione sistemica, economicità e autonomia."),
+    ("Fasi della vita", "istituzionale, funzionamento", "terminale", "Le fasi della vita aziendale: istituzionale, di funzionamento e terminale."),
+    ("Settori di attività", "primario, secondario, terziario", "terziario avanzato", "I settori di attività: primario, secondario, terziario e terziario avanzato."),
+    ("Dimensioni", "piccole, medie, grandi", "le PMI sono la maggioranza", "Infine le dimensioni: piccole, medie e grandi imprese. Le PMI sono la maggioranza del nostro tessuto economico."),
+ ]},
+ 3: {"titolo": "Il rischio d'impresa", "intro": "Ecco la mappa del rischio d'impresa.", "rami": [
+    ("Rischio generale", "eventi futuri incerti", "effetto negativo sugli obiettivi", "Il rischio generale: eventi futuri incerti che possono influenzare negativamente gli obiettivi."),
+    ("Rischio particolare", "manifestazioni specifiche", "senza significato autonomo", "Il rischio particolare: manifestazioni del rischio economico senza significato autonomo."),
+    ("Gestione: ERM", "Enterprise Risk Management", "salvaguarda l'azienda", "La gestione del rischio, con l'Enterprise Risk Management, che salvaguarda l'azienda."),
+    ("Norma UNI ISO 31000", "linee guida", "per tutta la vita dell'azienda", "La norma UNI ISO trentunomila, che regola la gestione del rischio d'impresa."),
+    ("Risorse economiche", "capitale, immobili", "attrezzature, brevetti", "Tra gli elementi aziendali, le risorse economiche: capitale, immobili, attrezzature e brevetti."),
+    ("Risorse umane", "le persone", "organizzazione aziendale", "E le risorse umane: le persone preposte all'organizzazione aziendale."),
+ ]},
+ 4: {"titolo": "Stakeholder e responsabilità sociale", "intro": "Ecco la mappa di stakeholder e responsabilità sociale.", "rami": [
+    ("Stakeholder", "portatori di interessi", "individui, gruppi, organizzazioni", "Gli stakeholder sono i portatori di interessi: individui, gruppi o organizzazioni."),
+    ("Stakeholder interni", "fanno parte dell'azienda", "dipendenti, manager, proprietari", "Gli stakeholder interni fanno parte dell'azienda: dipendenti, manager e proprietari."),
+    ("Stakeholder esterni", "hanno un interesse", "investitori, fornitori, clienti", "Gli stakeholder esterni hanno un interesse: investitori, fornitori e clienti."),
+    ("RSI e CSR", "responsabilità volontaria", "impatto sulla società", "La responsabilità sociale d'impresa, o CSR, è una responsabilità volontaria verso gli stakeholder."),
+    ("CSRD", "direttiva europea", "bilancio di sostenibilità", "La CSRD è la direttiva europea che rende obbligatorio il bilancio di sostenibilità."),
+    ("Doppia materialità", "impatto e risultati", "formati standardizzati", "Il principio di doppia materialità, e i formati standardizzati dei dati."),
+ ]},
+ 5: {"titolo": "Soggetti, patrimonio e avviamento", "intro": "Ecco la mappa di soggetti, patrimonio e avviamento.", "rami": [
+    ("Soggetto giuridico", "titolare di diritti", "e di obblighi", "Il soggetto giuridico è titolare dei diritti e degli obblighi dell'azienda."),
+    ("Soggetto economico", "detiene il controllo", "decide la gestione", "Il soggetto economico detiene il controllo e decide le scelte della gestione."),
+    ("Attivo patrimoniale", "ciò che si possiede", "beni, strumenti finanziari, crediti", "L'attivo patrimoniale è ciò che si possiede: beni, strumenti finanziari e crediti."),
+    ("Passivo patrimoniale", "ciò che si deve", "debiti, obbligazioni", "Il passivo patrimoniale è ciò che si deve: debiti e obbligazioni verso terzi."),
+    ("Patrimonio netto", "attivo meno passivo", "la ricchezza effettiva", "Il patrimonio netto è la differenza tra attivo e passivo: la ricchezza effettiva."),
+    ("Avviamento", "valore immateriale", "reputazione, clientela, know-how", "L'avviamento è un valore immateriale: reputazione, clientela fidelizzata e know-how."),
+ ]},
+ 6: {"titolo": "La gestione aziendale", "intro": "Ecco la mappa della gestione aziendale.", "rami": [
+    ("Gestione ed esercizio", "periodo amministrativo", "di solito 12 mesi", "La gestione si osserva per periodi amministrativi, di solito di dodici mesi: l'insieme delle operazioni è l'esercizio."),
+    ("Reddito", "utile o perdita", "causa-effetto con la gestione", "Il reddito è l'incremento o il decremento del capitale: utile o perdita."),
+    ("Operazioni", "finanziamento, investimento", "disinvestimento", "Le operazioni: finanziamento, investimento e disinvestimento."),
+    ("Funzioni aziendali", "strategiche, caratteristiche", "integrative e di supporto", "Le funzioni aziendali: aree strategiche, caratteristiche, integrative e di supporto."),
+    ("Aree della gestione", "cinque aree", "caratteristica, accessoria…", "Le cinque aree della gestione: caratteristica, accessoria, finanziaria, straordinaria e tributaria."),
+    ("Equilibrio", "economico e finanziario", "ricavi, costi, liquidità", "Infine l'equilibrio aziendale, economico e finanziario."),
+ ]},
+}
+MAPPA_FINALE = {"titolo": "Impresa e azienda", "intro": "Ecco la mappa finale di tutta la lezione.", "rami": [
+    ("Persone giuridiche", "soggetti di diritto", "autonomia patrimoniale", "Primo ramo: le persone giuridiche, soggetti di diritto con autonomia patrimoniale."),
+    ("Azienda e imprese", "ambiente e classificazione", "settori, forme, dimensioni", "Secondo ramo: l'azienda, il suo ambiente e la classificazione delle imprese."),
+    ("Rischio d'impresa", "generale e particolare", "ERM, UNI ISO 31000", "Terzo ramo: il rischio d'impresa, generale e particolare, e la sua gestione."),
+    ("Stakeholder e CSR", "interni ed esterni", "CSRD", "Quarto ramo: gli stakeholder, la responsabilità sociale e la CSRD."),
+    ("Patrimonio e avviamento", "attivo, passivo, netto", "valore immateriale", "Quinto ramo: soggetti, patrimonio e avviamento."),
+    ("Gestione aziendale", "operazioni e funzioni", "equilibrio", "Sesto ramo: la gestione aziendale, le sue operazioni, le sue funzioni e il suo equilibrio."),
+]}
+
+# ---------------------------------------------------------------- Pillola: schema guidato (parola chiave · definizione)
+SCHEMI = {
+ 1: [("Persona giuridica", "Entità astratta di persone o beni, a cui l'ordinamento riconosce diritti e doveri"),
+     ("Diritto privato", "Creata da privati, con scopo di lucro o senza: società, associazioni, fondazioni"),
+     ("Diritto pubblico", "Nasce per legge: Stato, Regioni, Comuni, università pubbliche, ASL"),
+     ("Capacità", "Giuridica e d'agire: la acquista alla costituzione"),
+     ("Autonomia patrimoniale", "I beni sono separati da quelli dei membri"),
+     ("Estinzione", "Decisione interna, fallimento, fusione o provvedimento dell'autorità")],
+ 2: [("Azienda", "Organizzazione stabile di persone e beni per l'attività economica"),
+     ("Ambiente", "Generale e specifico: l'azienda è un sistema aperto"),
+     ("Caratteri distintivi", "Coordinazione sistemica, economicità, autonomia"),
+     ("Fasi della vita", "Istituzionale, funzionamento, terminale"),
+     ("Settori di attività", "Primario, secondario, terziario, terziario avanzato"),
+     ("Dimensioni", "Piccole, medie e grandi imprese")],
+ 3: [("Rischio generale", "Eventi futuri incerti che influenzano negativamente gli obiettivi"),
+     ("Rischio particolare", "Manifestazioni del rischio economico senza significato autonomo"),
+     ("ERM", "Enterprise Risk Management: gestione dei rischi aziendali"),
+     ("UNI ISO 31000", "Linee guida per la gestione del rischio d'impresa"),
+     ("Risorse economiche", "Capitale, immobili, attrezzature, brevetti"),
+     ("Risorse umane", "Le persone preposte all'organizzazione aziendale")],
+ 4: [("Stakeholder", "Chi ha un interesse verso gli obiettivi dell'azienda"),
+     ("Interni", "Dipendenti, manager, proprietari, board"),
+     ("Esterni", "Investitori, fornitori, clienti, community dei consumatori"),
+     ("RSI o CSR", "Responsabilità volontaria verso gli stakeholder"),
+     ("CSRD", "Direttiva europea sulla rendicontazione di sostenibilità"),
+     ("Doppia materialità", "Impatto dell'azienda sui temi e dei temi sui risultati")],
+ 5: [("Soggetto giuridico", "Titolare di diritti e obblighi dell'azienda"),
+     ("Soggetto economico", "Chi detiene il controllo e decide la gestione"),
+     ("Attivo patrimoniale", "Ciò che si possiede: beni, strumenti finanziari, crediti"),
+     ("Passivo patrimoniale", "Ciò che si deve: debiti e obbligazioni verso terzi"),
+     ("Patrimonio netto", "Differenza tra attivo e passivo"),
+     ("Avviamento", "Valore immateriale: reputazione, clientela, know-how")],
+ 6: [("Esercizio", "Operazioni di gestione di un periodo amministrativo, di solito 12 mesi"),
+     ("Reddito", "Incremento (utile) o decremento (perdita) del capitale"),
+     ("Operazioni", "Finanziamento, investimento, disinvestimento"),
+     ("Funzioni aziendali", "Aree strategiche, caratteristiche, integrative e di supporto"),
+     ("Aree della gestione", "Caratteristica, accessoria, finanziaria, straordinaria, tributaria"),
+     ("Equilibrio", "Economico e finanziario")],
+}
+# voce: frase detta per ogni riga (parola chiave + definizione breve) e annuncio della pillola
+SCHEMI_VOCE = {
+ 1: ["Persona giuridica: entità astratta con diritti e doveri.", "Diritto privato: società, associazioni, fondazioni.", "Diritto pubblico: nasce per legge.",
+     "Capacità: giuridica e d'agire.", "Autonomia patrimoniale: beni separati.", "Estinzione: decisione interna, fallimento, fusione."],
+ 2: ["Azienda: organizzazione stabile di persone e beni.", "Ambiente: generale e specifico.", "Caratteri distintivi: coordinazione sistemica, economicità, autonomia.",
+     "Fasi della vita: istituzionale, funzionamento, terminale.", "Settori: primario, secondario, terziario, terziario avanzato.", "Dimensioni: piccole, medie, grandi."],
+ 3: ["Rischio generale: eventi futuri incerti.", "Rischio particolare: senza significato autonomo.", "ERM: gestione dei rischi aziendali.",
+     "UNI ISO trentunomila: linee guida.", "Risorse economiche: capitale, immobili, attrezzature, brevetti.", "Risorse umane: le persone."],
+ 4: ["Stakeholder: chi ha un interesse verso l'azienda.", "Interni: dipendenti, manager, proprietari.", "Esterni: investitori, fornitori, clienti.",
+     "RSI o CSR: responsabilità volontaria.", "CSRD: direttiva europea sulla sostenibilità.", "Doppia materialità: impatto e risultati."],
+ 5: ["Soggetto giuridico: titolare di diritti e obblighi.", "Soggetto economico: detiene il controllo.", "Attivo patrimoniale: ciò che si possiede.",
+     "Passivo patrimoniale: ciò che si deve.", "Patrimonio netto: attivo meno passivo.", "Avviamento: valore immateriale."],
+ 6: ["Esercizio: le operazioni di un periodo amministrativo.", "Reddito: utile o perdita.", "Operazioni: finanziamento, investimento, disinvestimento.",
+     "Funzioni aziendali: strategiche, caratteristiche, di supporto.", "Aree della gestione: cinque aree.", "Equilibrio: economico e finanziario."],
+}
+PILLOLA_ANNUNCIO = {
+ 1: "Facciamo un riepilogo di quello che hai appena visto: le persone giuridiche, i loro tipi e la loro autonomia patrimoniale. Guarda lo schema e ripeti ad alta voce.",
+ 2: "Ripassiamo insieme l'azienda, il suo ambiente e i criteri per classificare le imprese. Guarda lo schema e ripeti ad alta voce.",
+ 3: "Ripassiamo insieme il rischio d'impresa e il modo in cui si gestisce. Guarda lo schema e ripeti ad alta voce.",
+ 4: "Ripassiamo insieme gli stakeholder, la responsabilità sociale e la direttiva sulla sostenibilità. Guarda lo schema e ripeti ad alta voce.",
+ 5: "Ripassiamo insieme i soggetti dell'azienda, il patrimonio e l'avviamento. Guarda lo schema e ripeti ad alta voce.",
+ 6: "Ripassiamo insieme la gestione aziendale: operazioni, funzioni ed equilibrio. Guarda lo schema e ripeti ad alta voce.",
+}
+BENVENUTO = "Benvenuti alla lezione di Diritto ed economia. Oggi parliamo di organizzazioni collettive e di impresa. La professoressa Didone ci guida attraverso sei argomenti."
+RIEPILOGO_VOCE = [
+ "Ripassiamo insieme ciò che abbiamo imparato.",
+ "Primo: le persone giuridiche, soggetti di diritto con autonomia patrimoniale.",
+ "Secondo: l'azienda, il suo ambiente e la classificazione delle imprese.",
+ "Terzo: il rischio d'impresa, generale e particolare, e come si gestisce.",
+ "Quarto: gli stakeholder, la responsabilità sociale e la direttiva sulla sostenibilità.",
+ "Quinto: i soggetti dell'azienda, il patrimonio e l'avviamento.",
+ "Sesto: la gestione aziendale, con le sue operazioni, le sue funzioni e il suo equilibrio.",
+]
+RIPASSO_P1 = ["Prima di continuare, ripassiamo la prima parte della lezione.",
+ "Abbiamo visto le persone giuridiche e la loro autonomia patrimoniale.",
+ "Poi l'azienda, il suo ambiente e la classificazione delle imprese.",
+ "Quindi il rischio d'impresa e la sua gestione.",
+ "Infine gli stakeholder, la responsabilità sociale e la direttiva sulla sostenibilità."]
+
+# ---------------------------------------------------------------- Quiz (5 domande per argomento, 1 giusta + 3 sbagliate + spiegazione)
+def q(p, a, w, ref): return {"p": p, "a": a, "w": w, "ref": ref}
+QUIZ = {
+ "Q1": {"title": "Quiz 1 · Le persone giuridiche", "items": [
+  q("Che cos'è una persona giuridica?", "Un'entità astratta, formata da persone o beni, a cui l'ordinamento riconosce la capacità giuridica",
+    ["Un essere umano maggiorenne con piena capacità d'agire", "Un insieme di beni senza alcun riconoscimento da parte dell'ordinamento", "Un contratto firmato da più persone fisiche"],
+    "La persona giuridica è un'entità astratta, costituita da un insieme di persone o di beni a cui l'ordinamento riconosce la capacità giuridica."),
+  q("Quando una persona giuridica acquista la capacità giuridica?", "Al momento della sua costituzione",
+    ["Alla nascita dei suoi soci", "Al compimento dei diciotto anni", "Solo dopo l'approvazione del primo bilancio"],
+    "Mentre noi abbiamo la capacità giuridica dalla nascita, la persona giuridica la acquista al momento della sua costituzione."),
+  q("Quale di queste è una persona giuridica di diritto pubblico?", "Un comune",
+    ["Una società per azioni", "Una piccola agenzia costituita come S.r.l.", "Un'associazione sportiva dilettantistica registrata"],
+    "Le persone giuridiche di diritto pubblico nascono per legge e perseguono finalità pubbliche: Stato, Regioni, Province, Comuni, università pubbliche, ASL."),
+  q("Che cosa significa «autonomia patrimoniale»?", "I beni della persona giuridica sono separati da quelli delle persone fisiche che la compongono",
+    ["I soci rispondono sempre con i propri beni personali dei debiti", "La persona giuridica non può possedere beni", "Il patrimonio appartiene sempre allo Stato"],
+    "Se la società va male, i debiti restano a carico della società e non dei singoli soci: questo protegge dal rischio personale."),
+  q("Per quale motivo può sciogliersi una persona giuridica?", "Per decisione interna, fallimento, fusione o provvedimento dell'autorità pubblica",
+    ["Solo per la morte del fondatore", "Solo dopo un numero fisso di anni", "Una persona giuridica non può mai sciogliersi"],
+    "Anche le persone giuridiche possono cessare di esistere: i motivi sono la decisione interna, il fallimento, la fusione o la decisione dell'autorità pubblica."),
+ ]},
+ "Q2": {"title": "Quiz 2 · L'azienda e la classificazione delle imprese", "items": [
+  q("Come è definita l'azienda nella slide «Focus: la nozione di azienda»?", "Un'organizzazione stabile di persone e beni che attua processi di produzione di ricchezza",
+    ["Un insieme occasionale di beni senza organizzazione", "Il solo edificio in cui si lavora", "Un ente privo di qualsiasi obiettivo economico"],
+    "L'azienda è un'organizzazione stabile, di persone e beni, che attua processi di produzione di ricchezza in condizioni di equilibrio economico durevole."),
+  q("Quale tra questi è un carattere distintivo dell'azienda?", "L'economicità",
+    ["L'occasionalità", "L'anonimato", "La proprietà esclusivamente pubblica"],
+    "I caratteri distintivi sono la coordinazione sistemica, l'economicità e l'autonomia: servono a individuare l'azienda come unica sul mercato."),
+  q("Quali sono le tre fasi della vita aziendale?", "Istituzionale, funzionamento, terminale",
+    ["Decisione, esecuzione, controllo", "Ricerca, sviluppo, produzione", "Costituzione, fusione, scissione"],
+    "Decisione, esecuzione e controllo sono invece i processi del comportamento aziendale."),
+  q("Quali settori distingue la classificazione per settore di attività?", "Primario, secondario, terziario e terziario avanzato",
+    ["Locale, regionale, nazionale e globale", "Piccolo, medio e grande", "Profit, non profit e pubblico"],
+    "Il settore primario comprende agricoltura, allevamento, pesca; il secondario le imprese industriali; il terziario commercio e servizi; il terziario avanzato chi sfrutta la tecnologia."),
+  q("Che cosa persegue un'impresa con scopo mutualistico, come una cooperativa?", "Il benessere dei soci, con beni, servizi o condizioni di lavoro più vantaggiose rispetto al mercato",
+    ["La massimizzazione del profitto puro", "La quotazione in borsa", "L'eliminazione dei concorrenti"],
+    "Le imprese con scopo mutualistico non hanno come obiettivo principale massimizzare il profitto, ma creare valore per i propri soci."),
+ ]},
+ "Q3": {"title": "Quiz 3 · Il rischio d'impresa", "items": [
+  q("Come può essere definito il rischio generale?", "La possibilità che si verifichino eventi futuri incerti che influenzano negativamente il raggiungimento degli obiettivi",
+    ["La certezza di realizzare un profitto", "Un evento passato già registrato in bilancio", "Un obbligo stabilito dalla legge"],
+    "Il rischio generale è la possibilità che eventi futuri incerti possano influenzare in modo negativo il raggiungimento degli obiettivi di un'azienda."),
+  q("Che cosa sono i rischi particolari?", "Manifestazioni del rischio economico che non hanno significato autonomo",
+    ["Rischi che riguardano solo le imprese pubbliche", "Rischi sempre coperti da un'assicurazione", "Rischi che non possono mai verificarsi"],
+    "Il loro isolamento è solo un'astrazione che serve a esemplificare la complessa realtà osservata."),
+  q("Che cosa significa ERM?", "Enterprise Risk Management, un sistema di gestione dei rischi aziendali",
+    ["Economic Resource Management, la gestione delle risorse economiche", "Employee Relations Meeting, l'incontro con i dipendenti", "European Rules for Markets, le regole europee dei mercati"],
+    "L'ERM salvaguarda l'azienda analizzando i fattori di rischio e valutando il loro impatto sulla performance."),
+  q("Quale norma regola la gestione del rischio d'impresa?", "La norma UNI ISO 31000",
+    ["La Comunicazione UE n. 681 del 2011", "La direttiva CSRD", "Il regolamento europeo sulle PMI"],
+    "La norma UNI ISO 31000, Gestione del rischio, Linee guida, può essere applicata durante tutta la vita dell'organizzazione."),
+  q("Quali sono i due tipi di risorse che distinguono gli elementi aziendali?", "Risorse economiche e risorse umane",
+    ["Risorse pubbliche e risorse private", "Risorse locali e risorse globali", "Risorse fisse e risorse occasionali"],
+    "Le risorse economiche sono il capitale, gli immobili, le attrezzature, i brevetti; le risorse umane sono le persone preposte all'organizzazione aziendale."),
+ ]},
+ "Q4": {"title": "Quiz 4 · Stakeholder e responsabilità sociale", "items": [
+  q("Che cos'è uno stakeholder?", "Un individuo, un gruppo o un'organizzazione con un interesse verso gli obiettivi di business dell'azienda",
+    ["Solo il proprietario dell'azienda", "Esclusivamente un cliente che acquista", "Un ente che controlla i bilanci per conto dello Stato"],
+    "Stakeholder significa portatore di interessi, dai termini inglesi stake e holder."),
+  q("Quale di questi è uno stakeholder interno?", "Un dipendente",
+    ["Un investitore", "Un fornitore", "Un cliente"],
+    "Gli interni fanno parte dell'ingranaggio aziendale: board, dipendenti, manager, proprietari. Investitori, fornitori e clienti sono esterni."),
+  q("Che cosa indicano le sigle RSI e CSR?", "La responsabilità sociale d'impresa (Corporate Social Responsibility)",
+    ["La rendicontazione statale degli investimenti", "Il rischio sociale dell'impresa", "Un regolamento sulle società di capitali"],
+    "Secondo la Comunicazione UE n. 681 del 2011, la RSI è la responsabilità delle imprese per gli impatti che hanno sulla società."),
+  q("Che cosa prevede la CSRD?", "Che le imprese rendicontino in modo trasparente i propri impatti ambientali, sociali e di governance",
+    ["Che le imprese pubblichino solo il bilancio economico", "Che le imprese riducano il numero dei dipendenti", "Che tutte le imprese si quotino in borsa"],
+    "La CSRD, Corporate Sustainability Reporting Directive, rende obbligatorio il bilancio di sostenibilità per le grandi imprese e, in alcuni casi, per le medie."),
+  q("Che cosa significa «doppia materialità»?", "Rendere conto sia di come l'azienda impatta su ambiente e società, sia di come i temi di sostenibilità influiscono sui suoi risultati finanziari",
+    ["Pubblicare due bilanci in due anni diversi", "Avere due soci di maggioranza", "Rendicontare solo i costi materiali"],
+    "È il primo dei due principi della CSRD; il secondo è l'uso di formati standardizzati."),
+ ]},
+ "Q5": {"title": "Quiz 5 · Soggetti, patrimonio e avviamento", "items": [
+  q("Chi è il soggetto economico di un'azienda?", "La persona o il gruppo di persone che detiene il controllo dell'azienda e decide le scelte fondamentali della gestione",
+    ["Il titolare dei soli obblighi fiscali", "Il fornitore principale", "Il consulente esterno"],
+    "Il soggetto giuridico è invece il titolare dei diritti e degli obblighi che derivano dall'attività aziendale."),
+  q("Come si ottiene il patrimonio netto?", "Dalla differenza tra attivo e passivo patrimoniale",
+    ["Dalla somma di debiti e crediti", "Dai soli beni immobili", "Dal totale dei ricavi dell'anno"],
+    "La differenza tra attivo e passivo dà il patrimonio netto, cioè la ricchezza effettiva."),
+  q("Quale elemento rientra nell'attivo patrimoniale?", "I beni immobili, come case, terreni ed edifici",
+    ["I mutui", "I prestiti bancari", "I fornitori da pagare"],
+    "Debiti bancari, mutui, prestiti e fornitori da pagare sono passivo patrimoniale: ciò che si deve."),
+  q("Che cos'è l'avviamento?", "Un valore immateriale che l'azienda acquisisce nel tempo: reputazione, clientela fidelizzata, know-how",
+    ["Un bene fisico, come un macchinario", "Il capitale versato dai soci", "Un debito verso i fornitori"],
+    "L'avviamento fa emergere la capacità dell'azienda di generare utili anche in futuro."),
+  q("Perché il valore dell'azienda è maggiore della somma dei valori dei singoli beni?", "Perché dalla sinergia e dall'organizzazione tra gli elementi nasce l'avviamento",
+    ["Perché i beni si rivalutano da soli", "Perché l'azienda non paga imposte", "Perché i macchinari producono anche senza persone"],
+    "Un macchinario da solo non produce nulla: il valore nasce dall'organizzazione e dall'interazione tra persone, strumenti e metodi."),
+ ]},
+ "Q6": {"title": "Quiz 6 · La gestione aziendale", "items": [
+  q("Che cos'è l'esercizio?", "L'insieme delle operazioni di gestione compiute in un periodo amministrativo",
+    ["Un singolo contratto di lavoro", "Il documento che elenca i beni aziendali", "Il capitale versato dai soci"],
+    "Il periodo amministrativo è normalmente l'anno, cioè dodici mesi."),
+  q("Che cos'è il reddito, o risultato economico?", "L'incremento o il decremento che il capitale subisce in un periodo per effetto dell'intera gestione",
+    ["Il totale dei debiti dell'azienda", "Il valore dei soli beni immobili", "Il numero dei dipendenti"],
+    "L'incremento è denominato utile, il decremento perdita."),
+  q("Quali sono le tre tipologie di aree funzionali?", "Strategiche, caratteristiche, integrative e di supporto",
+    ["Primaria, secondaria, terziaria", "Locali, regionali, nazionali", "Corrente, strategica, straordinaria"],
+    "Le aree strategiche comprendono il vertice; le caratteristiche costituiscono l'oggetto tipico dell'attività; le integrative e di supporto aiutano le altre aree."),
+  q("Che cos'è il disinvestimento?", "La fase di cessione dei beni o prestazione dei servizi, che consente di recuperare i mezzi monetari investiti",
+    ["L'acquisto dei fattori produttivi", "La raccolta dei mezzi monetari di debito", "La chiusura definitiva dell'azienda"],
+    "Finanziamento e investimento vengono prima: si raccolgono i mezzi monetari e si acquistano i fattori produttivi."),
+  q("Quando c'è equilibrio finanziario?", "Quando disponibilità liquide più entrate monetarie sono maggiori o uguali alle uscite monetarie",
+    ["Quando la somma dei ricavi supera i debiti", "Quando i dipendenti sono più di cinquanta", "Quando l'azienda non ha concorrenti"],
+    "L'equilibrio economico è invece: somma dei ricavi uguale somma dei costi effettivi più gli oneri figurativi."),
+ ]},
+}
