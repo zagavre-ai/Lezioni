@@ -271,6 +271,7 @@ Chi ha già cambiato schede blu in bianche: **rimettile blu come Spagnolo**. Res
 - La **13** era stata iniziata dal ramo `claude/youthful-euler-3ff21r` (fermo dalle 20:53): trascrizione e note sono su quel ramo, riusale.
 
 ## 19/11 notte (00:20) · PROF.SSA CAPUTI (CHIMICA E MODA LABORATORI) · REGOLE FERREE
+- ⚠️ **ALLARME · Prof.ssa Piera Caputi (è una donna: sempre «la prof.ssa», «la docente», «Prof.ssa Piera Caputi»).** È una docente molto esigente che controlla tutto e ha già criticato il nostro lavoro. **Su ogni sua lezione controllo doppio prima di consegnare:** nomi, misure, numeri, scritte dei cartamodelli, immagini nel momento esatto in cui ne parla, nome della materia esatto, nessun refuso. Nel dubbio non si inventa: si chiede alla master.
 - **Webcam:** tondo (vedi sopra). Non ingrandire nel riquadro 4:3.
 - **Cartamodelli** (Laboratori, lezioni 3 Gonna, 4 Pantalone, 10 Corpini, 11 Giacche, 12 Cappotti, 13 Tessuto tecnico, e ogni altra lezione con cartamodelli): si **ridisegnano in vettoriale** (SVG), forme a tinta piatta azzurro/rosa con linee nette, **etichette riscritte come testo vero** (CT1, v.v. +2°, lettere dei punti, didascalie: testo ESATTO della prof, leggibile, mai sopra le linee). Mai l'immagine sgranata della prof ingrandita.
 - **Controllo ferreo:** originale e ridisegno affiancati a 4×, su tutta la figura: rette entro 1,5 px, curve entro 2 px, spigoli nello stesso punto, tutte le scritte presenti e identiche. Nel rapporto: difetti trovati, corretti, residui.

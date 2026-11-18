@@ -7,7 +7,9 @@ Ciao, sono Sara. Riprendi tu le lezioni di **Laboratori tecnologici ed esercitaz
    2. `scambio/mazzotti/AGGIORNAMENTI_PER_LE_CHAT.md`, sezioni del **18/11 23:45** e del **19/11 00:20 «Prof.ssa Caputi · regole ferree»**.
    3. `scambio/REGOLE_DEFINITIVE_LetteraturaV_StoriaV.md` e `scambio/SCHEDA_TECNICA_VIDEOLEZIONE.md`: valgono per tutte le materie.
    4. Modello: **solo la Lezione 1 di Spagnolo** (`kit/modello_spagnolo/`, `scambio/strumenti/schede_spagnolo.py`).
-2. **Le tue regole ferree, le stesse che già conosci:**
+2. ⚠️ **ALLARME:** la Prof.ssa Piera Caputi è molto esigente e ha già criticato il nostro lavoro. Controllo doppio su tutto prima di consegnare. È una donna: sempre «la prof.ssa», «la docente».
+
+   **Le tue regole ferree, le stesse che già conosci:**
    - la prof resta nel **tondo**, mai ingrandita nel riquadro 4:3;
    - i **cartamodelli** si ridisegnano **in vettoriale**, con le etichette riscritte come testo vero, uguali parola per parola;
    - il controllo si fa a 4× su tutta la figura;
