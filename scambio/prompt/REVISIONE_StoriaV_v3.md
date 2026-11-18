@@ -1,0 +1,33 @@
+# REVISIONE · STORIA V · prompt unico v3 (17/11 notte) — sostituisci NN con il numero della lezione
+**Da incollare in una chat nuova** (claude.ai/code → «Nuovo» → repository **zagavre-ai/Lezioni**).
+
+---
+
+Ciao. Sei la chat di **rifacimento della lezione NN di Storia V** (prof. Giorgio Mazzotti) del Centro Studi Telesio. Coordina Sara Zagarese (italiano, del tu, frasi brevi; vuole prodotti perfetti: mai «fatto» senza una misura). La master controlla e carica su Vimeo.
+
+**OBIETTIVO: lezione consegnata entro 3 ORE da quando parti.** Se a metà tempo non ci stai, scrivilo subito a Sara (cosa manca e quanto serve).
+
+1. Leggi **per prima** la **`scambio/SCHEDA_TECNICA_VIDEOLEZIONE.md`** (ramo `scambio-mazzotti`): tutti i pezzi della videolezione, in ordine, con durate, grafica e audio. La tua lezione li deve avere **tutti**. Poi le regole congelate `scambio/REGOLE_DEFINITIVE_LetteraturaV_StoriaV.md`: valgono sopra tutto il resto. Poi `scambio/REVISIONE_StoriaV_REGOLE.md` (metodo, sezione 5 «METODO COLLAUDATO») e `kit/REGOLE.md` su main.
+2. **Modello da copiare: SOLO la Lezione 1 di Spagnolo** (fotogrammi in `scambio/mazzotti/MODELLO_Spagnolo_schede.jpg` e `kit/modello_spagnolo/`): schede blu scure animate per titoli, pillole di ripasso, quiz e riepilogo; slide bianche col prof 4:3 e fascia gialla. Confronta la consegna precedente di Storia con Spagnolo e **rifai tutto quello che è diverso** (es. copertine scure, etichette in carattere mono, pillole mancanti). Il pannello **«PAROLE CHIAVE» sotto il prof è un'aggiunta approvata: si tiene**; riusa trascrizione, tagli del prof, sincronia e voci già fatte.
+3. Materiali: release `mazzotti-storia-V` (indice: `scambio/mazzotti/INDICE_storia-V.md`). Slide del prof: zip `SLIDE-20261117…zip` («LEZIONE NN.pdf»); mappe: zip `MAPPE-20261117…zip` («MAPPE LEZIONE NN.pdf»; la 15 non ha mappa: falla dalle slide del prof); test: `STORIA.V-20261114T194325Z…zip`; compiti: `STORIA.V.-20261114T220649Z…zip`. Consegna precedente: ramo `consegna-storia-V-lezNN` (se c'è); voci: `voci-storia-V-lezNN`.
+3-bis. **Schede blu** (titoli, pillole, quiz, riepilogo): SOLO con `scambio/strumenti/schede_spagnolo.py` a scala 1.0 (font e logo sono nella stessa cartella). Pillola: `"kicker":"Pillola di storia","big":"RIPASSO"`; riepilogo: `"kicker":"Storia V","l1":"RIEPILOGO","l2":"FINALE"`. Se l'argomento del quiz è lungo usa `"tfs"` più piccolo (il testo non deve toccare il pulsante play).
+4. Stato: `kit/tools/stato.py storia-V-lezNN IN_REVISIONE "chat v3"` subito e ogni 20 minuti; alla fine `REVISIONATA` con la durata misurata di ogni Parte.
+5. Consegna sul ramo **`revisione-storia-V-lezNN`** come al punto 8 delle regole congelate, con `RAPPORTO_REVISIONE.md` che contiene la tabella della sezione C della scheda tecnica (ogni pezzo: presente, minuto, durata misurata) e il confronto con Spagnolo.
+
+6. **Controlli obbligatori prima della consegna (errori trovati in Letteratura V il 17-18/11: non devono ripetersi).**
+   - **Chip sotto il titolo blu**: 2–3 parole chiave vere dell'argomento, prese dallo schema di ripasso (persone, luoghi, date, opere). **Mai** il titolo ripetuto, mai parole a caso («Sono», «Temi», «Nasce»), mai un nome spezzato («Santa Maria · La Longa»).
+   - **Didascalia della pillola**: il testo della voce Kore **parola per parola**. Se lo prendi dall'OCR, rileggilo: errori visti «Son» per «Con», «Jngaretti», «Il'amico», parole attaccate («Lanascita»).
+   - **Nomi e titoli**: maiuscole e grafia giuste (es. «Il Consiglio d'Egitto», non «consiglio»), uguali in schede, quiz, compiti e verifica.
+   - **Argomento lungo** nella pillola o nel quiz: `"tfs"` più piccolo, una riga sola, non tocca l'onda né il pulsante play.
+   - **Riepilogo finale**: ci sono **tutti** gli argomenti (le card entrano una alla volta: controlla l'ultimo fotogramma).
+   - **Foglio di controllo**: un'immagine `foglio.png` con un fotogramma di ogni scheda blu (titoli, pillole, quiz, riepilogo) e uno della didascalia di ogni pillola; mettila nel rapporto. La master la guarda prima di caricare.
+   - **Tempi**: dopo ogni modifica, i fotogrammi delle schede Quiz devono cadere esattamente ai `quiz_s` della scheda di pubblicazione; durata video = durata audio.
+
+Scrivi a Sara una riga quando parti e una ogni 30 minuti.
+
+7. **Lezione successiva: vai avanti da sola, senza aspettare Sara** (aggiunto il 18/11).
+   Quando hai consegnato e messo `REVISIONATA`, scrivi a Sara una riga («Lezione NN consegnata, passo alla MM») e prendi la prossima lezione libera **in questo ordine**: 13, 15, 1, 2, 5, 6, 7, 8, 9, 11, 14, 16, 17, 18, 19, 20, 21.
+   - **Libera** = nel ramo `stato-storia-V-lezMM` non c'è nessuna nota con «chat v3». Le lezioni 3, 4, 10 e 12 sono già prese.
+   - **Prenotala subito** con `kit/tools/stato.py storia-V-lezMM IN_REVISIONE "chat v3: presa da <nome del tuo ramo di lavoro>"`. Poi rileggi il ramo: se c'è la nota di un'altra chat arrivata prima, lasciala e prendi la successiva.
+   - Poi rifai tutto da capo per la lezione MM (punti 1–6), sempre in questa chat.
+   - Se le lezioni sono finite, scrivi a Sara: «Storia V: nessuna lezione libera, ho finito».
