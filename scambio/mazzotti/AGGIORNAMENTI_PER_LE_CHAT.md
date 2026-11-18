@@ -263,3 +263,18 @@ Chi ha già cambiato schede blu in bianche: **rimettile blu come Spagnolo**. Res
 - **Prof. Mazzotti (Storia dell'arte V, come Storia V e Letteratura V): si mette il RIQUADRO 4:3**, come nelle lezioni già revisionate: 412×309 px a x=1428, y=148, angoli arrotondati, ombra grigia, niente bordo; ritaglio 4:3 dalla webcam dell'originale ingrandita (circa 2–2,7×), con hqdn3d 1.5:1.5:3:3 e cas 0,35 (vedi `RAPPORTO_REVISIONE.md` di `revisione-storia-V-lez10`). L'immagine morbida è il limite della sorgente: **va bene così, non ci si ferma**.
 - **Solo Prof.ssa Caputi (Chimica moda): si tiene il TONDO**, come nelle lezioni pari già PRONTE («riquadro docente con cerchio pulito»), nella colonna destra, al massimo circa 2 volte il tondino originale, bordo pulito, fascia gialla con nome e materia. La webcam è quella che è: non è un errore nostro, non si chiede un file migliore e non ci si ferma.
 - In entrambi i casi scrivilo in una riga nel `RAPPORTO_REVISIONE.md`.
+
+## 19/11 notte (00:20) · STORIA V: COSA PRENDERE DOPO · DECISIONE DI SARA
+- La **lezione 8** la fa la chat che l'ha presa per prima (ramo `claude/clever-davinci-puwpry`). Chi l'ha presa dopo (ramo `claude/optimistic-keller-9p9kwb`) la lascia e passa alla **16**.
+- Le lezioni **16, 17, 18, 19, 20, 21** erano PRONTE con le regole vecchie: **vanno rifatte tutte** nel modello nuovo (Spagnolo, riquadro 4:3, pillole, mappe, quiz 5 domande, Parti 50–60 min).
+- **Ordine per tutte le chat di Storia V:** quando consegni, prendi la prima libera di questa lista: **16, 17, 18, 19, 20, 21, 13**. Prima di prenderla rileggi `stato-storia-V-lezNN`: se un'altra chat l'ha prenotata dopo le 18:00 del 18/11, passa alla successiva. Mai due chat sulla stessa lezione.
+- La **13** era stata iniziata dal ramo `claude/youthful-euler-3ff21r` (fermo dalle 20:53): trascrizione e note sono su quel ramo, riusale.
+
+## 19/11 notte (00:20) · PROF.SSA CAPUTI (CHIMICA E MODA LABORATORI) · REGOLE FERREE
+- **Webcam:** tondo (vedi sopra). Non ingrandire nel riquadro 4:3.
+- **Cartamodelli** (Laboratori, lezioni 3 Gonna, 4 Pantalone, 10 Corpini, 11 Giacche, 12 Cappotti, 13 Tessuto tecnico, e ogni altra lezione con cartamodelli): si **ridisegnano in vettoriale** (SVG), forme a tinta piatta azzurro/rosa con linee nette, **etichette riscritte come testo vero** (CT1, v.v. +2°, lettere dei punti, didascalie: testo ESATTO della prof, leggibile, mai sopra le linee). Mai l'immagine sgranata della prof ingrandita.
+- **Controllo ferreo:** originale e ridisegno affiancati a 4×, su tutta la figura: rette entro 1,5 px, curve entro 2 px, spigoli nello stesso punto, tutte le scritte presenti e identiche. Nel rapporto: difetti trovati, corretti, residui.
+- **Figurini e disegni a mano** della prof: stile approvato da Sara l'8/11 («migliorata + stile»: ingrandimento 4×, meno rumore, scheda bianca arrotondata con ombra).
+- **Le immagini devono corrispondere ESATTAMENTE a quello che dice la prof in quel momento.** Se parla di un cartamodello, il cartamodello è sullo schermo mentre lo spiega, accanto al testo. Niente immagini «di repertorio» o di un altro capo.
+- **Parole esatte della prof:** numeri e misure come li dice lei (esempio Capri: le due indicazioni, 68 cm e 63 cm, entrambe con la fonte). Nessun calcolo aggiunto.
+- Gonna (3) e Pantalone (4) sono già state rifatte in vettoriale l'8–9/11 (54 e 29 cartamodelli): se le riprendi, riusa quei disegni.
