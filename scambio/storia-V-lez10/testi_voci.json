@@ -138,5 +138,60 @@
   "nome": "CINTRO",
   "testo": "Ora passiamo ai compiti.",
   "lingua": "it"
+ },
+ {
+  "nome": "RI1",
+  "testo": "Facciamo un riepilogo di quello che hai appena visto: la Repubblica di Weimar e gli anni Venti. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RI2",
+  "testo": "Facciamo un riepilogo di quello che hai appena visto: la crisi del 1929 e il collasso della Germania. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RI3",
+  "testo": "Facciamo un riepilogo di quello che hai appena visto: il partito nazista e la sua ideologia. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RI4",
+  "testo": "Facciamo un riepilogo di quello che hai appena visto: Hitler, le SA e il putsch di Monaco. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RI5",
+  "testo": "Facciamo un riepilogo di quello che hai appena visto: dalle elezioni alla nomina di Hitler. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RI6",
+  "testo": "Facciamo un riepilogo di quello che hai appena visto: la costruzione dello Stato totalitario. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RI7",
+  "testo": "Facciamo un riepilogo di quello che hai appena visto: il controllo della società e l'economia del regime. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RI8",
+  "testo": "Facciamo un riepilogo di quello che hai appena visto: la politica razzista e antisemita. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "M1",
+  "testo": "Ecco la mappa del partito nazista. Il partito sostiene un'ideologia basata sull'idea di popolo, sul nazionalismo, sull'antisemitismo e sull'antibolscevismo. Si dota di squadre armate: le squadre d'assalto, le SA, e le squadre di protezione, le SS. Infine ha un capo, Hitler: oratore trascinante e leader indiscusso.",
+  "lingua": "it"
+ },
+ {
+  "nome": "M2",
+  "testo": "Ecco la mappa: come giunge al potere Hitler? La crisi del 1929 favorisce il successo elettorale dei nazisti. Questo porta alla nomina di Hitler cancelliere, il 30 gennaio 1933. Hitler decreta l'emergenza e chiede e ottiene i pieni poteri.",
+  "lingua": "it"
+ },
+ {
+  "nome": "M3",
+  "testo": "Ecco la mappa del regime nazista. Il regime si dota di strumenti di repressione: la Gestapo, il Tribunale del popolo e i campi di concentramento. Cerca il consenso con Forza attraverso la gioia, la Gioventù hitleriana e gli spettacoli di massa. In economia pratica un massiccio intervento dello Stato, con lo scopo di potenziare l'esercito.",
+  "lingua": "it"
  }
 ]
