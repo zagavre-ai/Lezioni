@@ -1,30 +1,16 @@
 {
  "tag": "storia-V-lez12",
- "parti": {
-  "1": {
-   "stato": "IN_MONTAGGIO"
-  }
- },
- "manca": "Trascrizione del docente: in questo computer il modello Whisper non si scarica (huggingface.co bloccato dalla rete). Senza trascrizione non posso sincronizzare le slide né fare i sottotitoli.",
- "serve_master": [
-  {
-   "quando": "16/11 12:26",
-   "testo": "Serve uno di questi: (a) sbloccare la rete per huggingface.co (modello Systran/faster-whisper-base) oppure (b) mettere nel ramo scambio-mazzotti la trascrizione con tempi (.srt/.json) delle lezioni 12 e 15, oppure (c) un file del modello Whisper base in una release. Le trascrizioni fatte dalle chat S3 e S1 il 14-15/11 non sono su nessun ramo."
-  }
- ],
+ "parti": {},
+ "manca": "",
+ "serve_master": [],
  "domande_sara": [],
  "note": [
   {
-   "quando": "16/11 12:26",
-   "testo": "Storia V · chat S6: ripartita da zero. Video, test e compiti scaricati. Sono già in voci-storia-V-lez12 52 voci Kore + quiz, le riuso."
-  },
-  {
-   "quando": "16/11 18:41",
-   "testo": "Storia V · chat S6: sbloccata, uso trascrivi.py (aggiornamento 16/11). Trascrizione in corso; grafica modello Spagnolo."
+   "quando": "18/11 14:52",
+   "testo": "chat v3: parto; voci Kore gia presenti (52), nessuna consegna precedente"
   }
  ],
- "materia": "Storia V",
- "lezione": "Lezione 12 · L'Europa e il mondo negli anni Trenta",
- "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-16 18:41:27"
+ "materia": "storia-V",
+ "lezione": "12",
+ "aggiornato": "2026-11-18 14:52:37"
 }
