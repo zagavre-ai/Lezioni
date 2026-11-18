@@ -1,0 +1,40 @@
+{
+ "tag": "storia-V-lez04",
+ "parti": {
+  "1": {
+   "stato": "IN_MONTAGGIO",
+   "voci": "segnaposto"
+  }
+ },
+ "manca": "voci Kore (87)",
+ "serve_master": [
+  {
+   "quando": "18/11 12:50",
+   "testo": "storia-V-lez04: attendo le voci Kore (87 voci in scambio/storia-V-lez04/testi_voci.json, ramo voci-storia-V-lez04, push alle 12:22 e 12:30). Sono necessarie per cover, mappe, pillole, schemi, glossario, riepilogo. Il resto (prof, titoli, quiz) è in lavorazione."
+  },
+  {
+   "quando": "18/11 13:29",
+   "testo": "storia-V-lez04: genera le 87 voci di scambio/storia-V-lez04/testi_voci.json (ramo voci-storia-V-lez04), poi io monto."
+  }
+ ],
+ "domande_sara": [
+  {
+   "quando": "18/11 13:29",
+   "testo": "Servono le voci Kore di storia-V-lez04: sono nel ramo voci-storia-V-lez04 (87 testi, push 12:22/12:31). L'ultima voce generata dalla master su un ramo voci-* risale al 16/11: puoi chiedere alla master di generarle? Senza voci non posso chiudere cover, mappe, pillole, schemi, glossario, riepilogo."
+  }
+ ],
+ "note": [
+  {
+   "quando": "18/11 12:23",
+   "testo": "chat v3 revisione: voci inviate (85) nel ramo voci-storia-V-lez04; trascrizione in corso; 2 Parti previste"
+  },
+  {
+   "quando": "18/11 14:34",
+   "testo": "14:35 anteprima Parte 1 (53:46) e Parte 2 (67:25) montate con voci a silenzio, pushate su revisione-storia-V-lez04 (cartella revisione-storia-V-lez04/). Mancano SOLO le voci Kore: rimontaggio ~40 min appena arrivano (lavoro/RIPRESA.md). LUFS -16,0, picco -1,8/-1,9 dBTP, nessun fermo del prof, quiz jingle a 0,000 s."
+  }
+ ],
+ "materia": "Storia V",
+ "lezione": "Lezione 4 · La Prima guerra mondiale",
+ "docente": "Prof. Giorgio Mazzotti",
+ "aggiornato": "2026-11-18 14:34:20"
+}
