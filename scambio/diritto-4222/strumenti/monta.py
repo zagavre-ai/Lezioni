@@ -150,6 +150,34 @@ def sequenza():
     S+=[T(5),A('N5a'),A('N5b'),TR('T6')]+ch(5)
     S+=[T(6)]+[A(n) for n in ['N6a','N6b','N6c','N6d','N6e','N6f']]+ch(6)+[TR('T7'),('MF',lambda:p_mappa(0)),('FIN',p_final),('FINE',p_finale5)]
     return S
+JD=0.8
+def join(a,b,o):
+    if ok(o):return o
+    sh(['ffmpeg','-y','-v','error','-sseof','-0.15','-i',a,'-frames:v','1','-update','1',o+'.a.png'])
+    sh(['ffmpeg','-y','-v','error','-i',b,'-frames:v','1','-update','1',o+'.b.png'])
+    sh(['ffmpeg','-y','-v','error','-loop','1','-t',str(JD),'-framerate','30','-i',o+'.a.png','-loop','1','-t',str(JD),'-framerate','30','-i',o+'.b.png','-i',SND+'/trans.wav',
+        '-filter_complex',f'[0][1]xfade=transition=fade:duration={JD}:offset=0,format=yuv420p[v];[2:a]atrim=0:{JD},afade=t=out:st={JD-0.3}:d=0.3,volume=0.55,aresample=48000,aformat=channel_layouts=stereo[a]',
+        '-map','[v]','-map','[a]','-c:v','libx264','-preset','veryfast','-crf','17','-c:a','pcm_s16le','-t',str(JD),o]);done(o);return o
+def parte(n,nomi,out,sigla=None):
+    """nomi = lista di (nome,file); concatena con dissolvenza + trans.wav a ogni cambio, una sola codifica finale"""
+    L=[];tl=[];t=0.0;prev=None
+    for nome,f in nomi:
+        if prev:
+            j=join(prev,f,f'{W}/tmp/J_{n}_{len(L)}.mkv');L.append(j);t+=JD
+        tl.append([nome,round(t,3),round(dur(f),3)]);L.append(f);t+=dur(f);prev=f
+    open(f'{W}/tmp/parte{n}.txt','w').write(''.join(f"file '{x}'\n" for x in L))
+    sh(['ffmpeg','-y','-v','error','-f','concat','-safe','0','-i',f'{W}/tmp/parte{n}.txt','-c:v','libx264','-preset','veryfast','-crf','19','-maxrate','12M','-bufsize','24M','-pix_fmt','yuv420p','-r','30','-g','60','-c:a','aac','-b:a','192k','-ar','48000','-movflags','+faststart',out])
+    json.dump(tl,open(out.replace('.mp4','_timeline.json'),'w'),ensure_ascii=False,indent=1);return tl
+if __name__=='__main__' and FASE=='parti':
+    S=sequenza();nomi=[]
+    for n,f in S:
+        p=f();nomi.append((n,p))
+    i=[n for n,_ in nomi].index('Q4')+1
+    P1=nomi[:i]+[nomi[-1]];P2=[('RP',p_ripasso_p1())]+nomi[i:]
+    os.makedirs(W+'/out',exist_ok=True)
+    for n,P in [(1,P1),(2,P2)]:
+        tl=parte(n,P,f'{W}/out/Diritto_4222_Parte{n}_1080p.mp4');print('PARTE',n,tl[-1][1]+tl[-1][2])
+    sys.exit()
 if __name__=='__main__':
     S=sequenza();R={}
     for n,f in S:
