@@ -259,8 +259,7 @@ Chi ha già cambiato schede blu in bianche: **rimettile blu come Spagnolo**. Res
 ## 18/11 00:05 — Pannello «PAROLE CHIAVE» sotto il prof: SI TIENE
 È un'aggiunta approvata da Sara (fa parte delle «aggiunte promosse» al modello Spagnolo). Non toglierlo.
 
-## 18/11 notte (23:45) · WEBCAM DEL DOCENTE PICCOLA O SFOCATA · DECISIONE DI SARA
-- Vale per **Chimica (Prof.ssa Caputi), Storia dell'arte V, Moda Laboratori** e per ogni video in cui il docente è in un tondino piccolo.
-- **Si tiene il TONDO**, come nelle lezioni pari di Chimica già PRONTE («riquadro docente con cerchio pulito»). **Non** si ingrandisce il docente nel riquadro 4:3: verrebbe sfocato.
-- Il cerchio va nella colonna destra, a una grandezza che resta nitida (al massimo circa 2 volte il tondino originale), con il bordo pulito e la fascia gialla con nome e materia sotto.
-- La qualità della webcam è quella che è: **non è un errore nostro**, non si chiede un file migliore e non ci si ferma. Scrivilo in una riga nel `RAPPORTO_REVISIONE.md`.
+## 18/11 notte (23:45, corretto alle 23:50) · WEBCAM DEL DOCENTE · DECISIONE DI SARA
+- **Prof. Mazzotti (Storia dell'arte V, come Storia V e Letteratura V): si mette il RIQUADRO 4:3**, come nelle lezioni già revisionate: 412×309 px a x=1428, y=148, angoli arrotondati, ombra grigia, niente bordo; ritaglio 4:3 dalla webcam dell'originale ingrandita (circa 2–2,7×), con hqdn3d 1.5:1.5:3:3 e cas 0,35 (vedi `RAPPORTO_REVISIONE.md` di `revisione-storia-V-lez10`). L'immagine morbida è il limite della sorgente: **va bene così, non ci si ferma**.
+- **Solo Prof.ssa Caputi (Chimica moda): si tiene il TONDO**, come nelle lezioni pari già PRONTE («riquadro docente con cerchio pulito»), nella colonna destra, al massimo circa 2 volte il tondino originale, bordo pulito, fascia gialla con nome e materia. La webcam è quella che è: non è un errore nostro, non si chiede un file migliore e non ci si ferma.
+- In entrambi i casi scrivilo in una riga nel `RAPPORTO_REVISIONE.md`.
