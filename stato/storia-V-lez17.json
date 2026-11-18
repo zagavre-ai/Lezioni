@@ -6,6 +6,9 @@
   },
   "2": {
    "stato": "IN_REVISIONE"
+  },
+  "3": {
+   "stato": "IN_REVISIONE"
   }
  },
  "manca": "",
@@ -19,7 +22,11 @@
   {
    "quando": "18/11 23:16",
    "testo": "prenotata con la Parte 1"
+  },
+  {
+   "quando": "18/11 23:16",
+   "testo": "prenotata con la Parte 1"
   }
  ],
- "aggiornato": "2026-11-18 23:16:02"
+ "aggiornato": "2026-11-18 23:16:04"
 }
