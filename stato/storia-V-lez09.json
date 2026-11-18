@@ -798,10 +798,14 @@
   {
    "quando": "18/11 23:07",
    "testo": "IN_REVISIONE chat v3: voci e schede pronte; codifica pezzi del prof ripartita dopo un problema di memoria (risolto)"
+  },
+  {
+   "quando": "18/11 23:38",
+   "testo": "IN_REVISIONE chat v3: Parte 1 montata (39:40, 223 MB), Parte 2 in codifica; corretti quiz/pillole con titoli lunghi"
   }
  ],
  "materia": "Storia",
  "lezione": "Lezione 9 · L'Italia del regime fascista",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-18 23:07:00"
+ "aggiornato": "2026-11-18 23:38:07"
 }
