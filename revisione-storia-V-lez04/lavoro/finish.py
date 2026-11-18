@@ -12,8 +12,8 @@ from plan_prof import plan
 P = int(sys.argv[1]); FASE = sys.argv[2]
 order = PARTI[P]; off = POFF[P]
 os.makedirs(VOX48, exist_ok=True); os.makedirs(W + '/out', exist_ok=True)
-NAMES = (sorted({f'PI{n}' for n in order}) + [f'SC{n}_{k}' for n in order for k in range(1, 6)] + [f'BEN{P}', f'FIN{P}', 'GL0']
-         + [f'GL{i}' for i in range(1, 11) if (i <= 5) == (P == 1)] + [f'MAP{k}' for k, m in enumerate(MAPPE, 1) if m['dopo'] in order])
+NAMES = (sorted({f'PI{n}' for n in order}) + [f'SC{n}_{k}' for n in order for k in range(1, 6)] + [BEN[P], FIN[P], 'GL0']
+         + [f'GL{i + 1}' for i in GLP[P]] + [mapvoice(n) for n in order])
 
 def fase_voci():
     for nm in NAMES:
@@ -35,7 +35,7 @@ def fase_schede():
             for x in (f'{W}/sch/{name}.mp4', f'{W}/pieces/P{P}_rep{pos}.mp4'):
                 if os.path.exists(x): os.remove(x)
             rer.append(name)
-    d = vdur(f'FIN{P}'); name = f'P{P}F'; job = json.load(open(f'{W}/jobs/{name}.json'))
+    d = vdur(FIN[P]); name = f'P{P}F'; job = json.load(open(f'{W}/jobs/{name}.json'))
     print(name, 'voce %.2f s | servono %.2f s, disegnata %.1f s' % (d, d + 1.7, job['dur']))
     if d + 1.7 > job['dur']:
         job['dur'] = round(d + 2.2, 1); json.dump(job, open(f'{W}/jobs/{name}.json', 'w'), ensure_ascii=False)
@@ -51,7 +51,7 @@ def norm_sch(name, out, limit=None):
 
 def fase_pezzi():
     """schema, mappe, glossario, cover con voce"""
-    SL.POS.clear(); SL.POS.update({n: i + 1 + off for i, n in enumerate(order)})
+    pass
     pages = {eval(k): v for k, v in json.load(open(f'{W}/pieces/pages_P{P}.json')).items()}
     info = {}
     # schemi
@@ -60,24 +60,23 @@ def fase_pezzi():
         out = f'{W}/pieces/P{P}_S{pos}.mp4'
         if not os.path.exists(out): static_piece(st, out)
         info[f'S{pos}'] = dict(n=N, audio=audio)
-    # mappe
-    for k, m in enumerate(MAPPE, 1):
-        if m['dopo'] not in order: continue
-        d = vdur(f'MAP{k}'); N = fr(d + 1.8)
-        items = [(f'P{P}_map{k}_{j}', SL.html_map(k, f, 1)) for j, f in enumerate([0.14, 0.28, 0.42, 0.56, 0.7, 0.84, 1.0])]
-        SL.render(items, W + '/slpng')
-        t0 = 0.5; t1 = d * 0.9 + 0.5; st = []; prev = 0
-        for j in range(7):
-            end = fr(t0 + (t1 - t0) * (j + 1) / 7) if j < 6 else N
-            if j == 0: end = fr(t0 + (t1 - t0) / 7)
-            st.append((f'{W}/slpng/P{P}_map{k}_{j}.png', end - prev)); prev = end
-        st[-1] = (st[-1][0], N - sum(f for _, f in st[:-1]))
-        out = f'{W}/pieces/P{P}_M{k}.mp4'
+    # mappe (una per argomento: del prof oppure costruita dalle sue slide)
+    for n in order:
+        kind, idx = mappa_di(n); vn = mapvoice(n)
+        d = vdur(vn); N = fr(d + 1.8); t0 = 0.5; t1 = d * 0.9 + 0.5
+        if kind == 'prof':
+            items = [(f'P{P}_map{n}_{j}', SL.html_map(idx, f, 1)) for j, f in enumerate([0.14, 0.28, 0.42, 0.56, 0.7, 0.84, 1.0])]; S_ = 7
+        else:
+            items = [(f'P{P}_map{n}_{j}', SL.html_newmap(n, j, 1)) for j in range(6)]; S_ = 6
+        SL.render(items, W + '/slpng'); st = []; prev = 0
+        for j in range(S_):
+            end = fr(t0 + (t1 - t0) * (j + 1) / S_) if j < S_ - 1 else N
+            st.append((f'{W}/slpng/P{P}_map{n}_{j}.png', end - prev)); prev = end
+        out = f'{W}/pieces/P{P}_M{n}.mp4'
         if not os.path.exists(out): static_piece(st, out)
-        info[f'M{k}'] = dict(n=N, audio=[(0.5, 'wav', f'{VOX48}/MAP{k}.wav')])
+        info[f'M{n}'] = dict(n=N, audio=[(0.5, 'wav', f'{VOX48}/{vn}.wav')])
     # glossario
-    terms = GLOSS[:5] if P == 1 else GLOSS[5:]
-    gi = [0, 1, 2, 3, 4] if P == 1 else [5, 6, 7, 8, 9]
+    gi = GLP[P]; terms = [GLOSS[i] for i in gi]
     items = [(f'P{P}_gl_{j}', SL.html_gloss(j, pages[('gloss',)], terms)) for j in range(len(terms))] + [(f'P{P}_gl_e', SL.html_gloss(-1, pages[('gloss',)], terms))]
     SL.render(items, W + '/slpng')
     t = 0.6; audio = [(t, 'wav', f'{VOX48}/GL0.wav')]; t += vdur('GL0') + 1.0; starts = []
@@ -92,11 +91,14 @@ def fase_pezzi():
     if not os.path.exists(out): static_piece(st, out)
     info['GL'] = dict(n=N, audio=audio)
     # cover con voce
-    d = vdur(f'BEN{P}'); N = fr(d + 1.2)
+    SL.render([(f'cover_np_P{P}', SL.html_cover(1, False, order, P if P > 1 else None))], W + '/slpng')
+    from PIL import Image
+    bg = Image.open(f'{W}/slpng/cover_np_P{P}.png').convert('RGBA'); bg.alpha_composite(Image.open(f'{W}/slpng/notice.png').convert('RGBA')); bg.convert('RGB').save(f'{W}/slpng/cover_np_notice_P{P}.png')
+    d = vdur(BEN[P]); N = fr(d + 1.2)
     out = f'{W}/pieces/P{P}_cover.mp4'
     st = [(f'{W}/slpng/cover_np_notice_P{P}.png', fr(3.0)), (f'{W}/slpng/cover_np_P{P}.png', N - fr(3.0))]
     if not os.path.exists(out): static_piece(st, out)
-    info['cover'] = dict(n=N, audio=[(0.5, 'wav', f'{VOX48}/BEN{P}.wav')])
+    info['cover'] = dict(n=N, audio=[(0.5, 'wav', f'{VOX48}/{BEN[P]}.wav')])
     json.dump(info, open(f'{W}/pieces/info_P{P}.json', 'w'), default=str)
     print('pezzi pronti')
 
@@ -114,15 +116,13 @@ def fase_monta():
         T.add(f'titolo{g}', norm_sch(f'P{P}T{pos}', f'{W}/pieces/P{P}_title{pos}.mp4'), [(0, 'wav', S('titolo.wav'))], f'titolo{g}')
         j = json.load(open(f'{W}/pieces/P{P}_T{n}.mp4.json'))
         T.add(f'prof{g}', f'{W}/pieces/P{P}_T{n}.mp4', [(0, 'prof', [tuple(s) for s in j['subs']])], 'prof')
-        for k, m in enumerate(MAPPE, 1):
-            if m['dopo'] == n and n in order:
-                T.add(f'mappa{k}', f'{W}/pieces/P{P}_M{k}.mp4', [tuple(a) for a in info[f'M{k}']['audio']], f'mappa{k}')
+        T.add(f'mappa{n}', f'{W}/pieces/P{P}_M{n}.mp4', [tuple(x) for x in info[f'M{n}']['audio']], f'mappa{n}')
         d = vdur(f'PI{n}')
         T.add(f'pillola{g}', norm_sch(f'P{P}R{pos}', f'{W}/pieces/P{P}_rep{pos}.mp4', split_caps(voice_texts()[f'PI{n}'], d)[-1][1] + 1.2), [(0, 'wav', S('repaso.wav')), (0.9, 'wav', f'{VOX48}/PI{n}.wav')], f'pillola{g}')
         T.add(f'schema{g}', f'{W}/pieces/P{P}_S{pos}.mp4', [tuple(a) for a in info[f'S{pos}']['audio']], f'schema{g}')
         T.add(f'quiz{g}', norm_sch(f'P{P}Q{pos}', f'{W}/pieces/P{P}_quiz{pos}.mp4'), [(0.5, 'wav', S('quiz.wav'))], f'quiz{g}')
     T.add('glossario', f'{W}/pieces/P{P}_GL.mp4', [tuple(a) for a in info['GL']['audio']], 'glossario')
-    T.add('riepilogo', norm_sch(f'P{P}F', f'{W}/pieces/P{P}_fin.mp4', vdur(f'FIN{P}') + 1.7), [(0.8, 'wav', f'{VOX48}/FIN{P}.wav')], 'riepilogo')
+    T.add('riepilogo', norm_sch(f'P{P}F', f'{W}/pieces/P{P}_fin.mp4', vdur(FIN[P]) + 1.7), [(0.8, 'wav', f'{VOX48}/{FIN[P]}.wav')], 'riepilogo')
     T.add('finale', W + '/pieces/finale.mp4', [(0, 'wav', W + '/aud/finale.wav')], 'finale')
     # trans.wav a ogni cambio
     for i in range(1, len(T.pieces)): T.pieces[i]['audio'].append((0, 'wav', S('trans.wav')))

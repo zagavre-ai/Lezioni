@@ -27,12 +27,12 @@ def to_pdf(htmls, out):
 def slide_pdf(P, out):
     from build_prof import IMGFILE
     from plan_prof import IMGPAGES
-    order = PARTI[P]; SL.POS.clear(); SL.POS.update({n: i + 1 + POFF[P] for i, n in enumerate(order)})
+    order = PARTI[P]; pass
     cp = SL.cards_from_pdf(); pages = {eval(k): v for k, v in json.load(open(f'{W}/pieces/pages_P{P}.json')).items()}
     htmls = []; seen = set()
     # ordine per numero di pagina
     for key, pg in sorted(pages.items(), key=lambda kv: kv[1]):
-        if key == ('cover',): htmls.append(SL.html_cover(pg, False, order, P if P == 2 else None))
+        if key == ('cover',): htmls.append(SL.html_cover(pg, False, order, P if P > 1 else None))
         elif key[0] == 'txt': htmls.append(SL.html_txt(key[1], -1, cp, pg, prof=False))
         elif key[0] == 'img':
             # argomento in cui compare (dai json dei pezzi)
@@ -48,6 +48,10 @@ def slide_pdf(P, out):
     to_pdf(htmls, out)
 
 def mappe_pdf(P, out):
-    ms = [(k, m) for k, m in enumerate(MAPPE, 1) if (m['dopo'] in PARTI[P])]
-    SL.POS.clear(); SL.POS.update({n: i + 1 + POFF[P] for i, n in enumerate(PARTI[P])})
-    to_pdf([SL.html_map(k, 1.0, i + 1) for i, (k, m) in enumerate(ms)], out)
+    from dati import mappa_di
+    pass
+    hs = []
+    for i, n in enumerate(PARTI[P]):
+        kind, idx = mappa_di(n)
+        hs.append(SL.html_map(idx, 1.0, i + 1) if kind == 'prof' else SL.html_newmap(n, 5, i + 1))
+    to_pdf(hs, out)

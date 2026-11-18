@@ -1,31 +1,25 @@
 {
  "materia": "Storia",
  "titolo": "Storia V · Lezione 4 · La Prima guerra mondiale · Parte 1",
- "durata_s": 3225.33,
+ "durata_s": 2628.07,
  "argomenti": [
   {
    "n": 1,
    "titolo": "L'Europa all'inizio del Novecento",
-   "inizio_s": 253.767,
-   "quiz_s": 815.467
+   "inizio_s": 249.667,
+   "quiz_s": 833.467
   },
   {
    "n": 2,
    "titolo": "Le crisi coloniali e i Balcani",
-   "inizio_s": 820.067,
-   "quiz_s": 1486.967
+   "inizio_s": 838.067,
+   "quiz_s": 1503.867
   },
   {
    "n": 3,
    "titolo": "1914: il casus belli",
-   "inizio_s": 1491.567,
-   "quiz_s": 2553.067
-  },
-  {
-   "n": 4,
-   "titolo": "I fronti di guerra e la trincea",
-   "inizio_s": 2557.667,
-   "quiz_s": 3158.167
+   "inizio_s": 1508.467,
+   "quiz_s": 2564.467
   }
  ],
  "quiz": {
@@ -191,61 +185,6 @@
       "Con indifferenza"
      ],
      "e": "Un'ondata di nazionalismo travolse soprattutto i giovani."
-    }
-   ]
-  },
-  "Q4": {
-   "title": "Quiz 4 · I fronti di guerra e la trincea",
-   "items": [
-    {
-     "p": "Che cos'era il piano Schlieffen?",
-     "a": "Il piano tedesco per sconfiggere rapidamente la Francia",
-     "w": [
-      "Il piano italiano sull'Isonzo",
-      "Il piano britannico per il blocco navale",
-      "Il piano russo per l'attacco alla Germania"
-     ],
-     "e": "Fallì perché l'esercito francese fermò i tedeschi sulla Marna."
-    },
-    {
-     "p": "Su quale fiume i francesi bloccarono l'avanzata tedesca?",
-     "a": "La Marna",
-     "w": [
-      "La Somme",
-      "Il Piave",
-      "L'Isonzo"
-     ],
-     "e": "Il fronte si stabilizzò."
-    },
-    {
-     "p": "Quanto era lunga la linea di trincee sul fronte occidentale?",
-     "a": "Circa 800 chilometri",
-     "w": [
-      "Circa 80 chilometri",
-      "Circa 8000 chilometri",
-      "Circa 300 chilometri"
-     ],
-     "e": "Il conflitto si trasformò in guerra di posizione, di logoramento e logistica."
-    },
-    {
-     "p": "Quali battaglie persero i russi sul fronte orientale?",
-     "a": "Tannenberg e i laghi Masuri",
-     "w": [
-      "Verdun e la Somme",
-      "Caporetto e il Piave",
-      "Amiens e la Marna"
-     ],
-     "e": "A est gli spazi enormi permisero combattimenti più dinamici."
-    },
-    {
-     "p": "Perché gli assalti frontali diventarono carneficine?",
-     "a": "Per mitragliatrici, artiglieria pesante, filo spinato e armi chimiche",
-     "w": [
-      "Per la mancanza di soldati",
-      "Per il freddo dell'inverno",
-      "Per l'assenza di generali"
-     ],
-     "e": "Le nuove tecnologie azzerarono i vantaggi degli attaccanti."
     }
    ]
   }

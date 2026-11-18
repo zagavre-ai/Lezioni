@@ -1,0 +1,316 @@
+{
+ "materia": "Storia",
+ "titolo": "Storia V · Lezione 4 · La Prima guerra mondiale · Parte 3",
+ "durata_s": 2659.87,
+ "argomenti": [
+  {
+   "n": 7,
+   "titolo": "Le battaglie di logoramento",
+   "inizio_s": 39.8,
+   "quiz_s": 874.733
+  },
+  {
+   "n": 8,
+   "titolo": "1917: crisi e svolta",
+   "inizio_s": 879.333,
+   "quiz_s": 1534.733
+  },
+  {
+   "n": 9,
+   "titolo": "1918: la fine degli imperi",
+   "inizio_s": 1539.333,
+   "quiz_s": 2011.5
+  },
+  {
+   "n": 10,
+   "titolo": "Il bilancio del conflitto",
+   "inizio_s": 2016.1,
+   "quiz_s": 2194.667
+  },
+  {
+   "n": 11,
+   "titolo": "I trattati di pace",
+   "inizio_s": 2199.267,
+   "quiz_s": 2597.767
+  }
+ ],
+ "quiz": {
+  "Q7": {
+   "title": "Quiz 7 · Le battaglie di logoramento",
+   "items": [
+    {
+     "p": "Quante offensive frontali lanciò Cadorna sull'Isonzo?",
+     "a": "Undici",
+     "w": [
+      "Tre",
+      "Cinque",
+      "Venti"
+     ],
+     "e": "Ottenne scarsissimi risultati a prezzo di enormi perdite."
+    },
+    {
+     "p": "Che cos'è stata la Strafexpedition?",
+     "a": "Una spedizione punitiva austriaca in Trentino nel 1916",
+     "w": [
+      "Una battaglia sulla Somme",
+      "Una rivolta in Russia",
+      "Un piano tedesco su Parigi"
+     ],
+     "e": "Provocò la caduta del governo Salandra."
+    },
+    {
+     "p": "Quante vittime ebbe circa la battaglia di Verdun?",
+     "a": "Circa 800.000",
+     "w": [
+      "Circa 8.000",
+      "Circa 80.000",
+      "Circa 8 milioni"
+     ],
+     "e": "Fu un'immensa carneficina durata mesi."
+    },
+    {
+     "p": "Perché gli anglo-francesi attaccarono sulla Somme?",
+     "a": "Per alleggerire la pressione su Verdun",
+     "w": [
+      "Per riprendere Trento",
+      "Per invadere la Germania",
+      "Per difendere il Belgio"
+     ],
+     "e": "Il bilancio dei caduti fu altrettanto devastante."
+    },
+    {
+     "p": "Che cos'era la decimazione?",
+     "a": "Una punizione che colpiva a sorte un soldato ogni dieci",
+     "w": [
+      "Una riforma dell'esercito",
+      "Una tassa di guerra",
+      "Una tattica di attacco"
+     ],
+     "e": "I vertici militari applicarono una giustizia inflessibile, con fucilazioni."
+    }
+   ]
+  },
+  "Q8": {
+   "title": "Quiz 8 · 1917: crisi e svolta",
+   "items": [
+    {
+     "p": "Che cosa decise il governo bolscevico guidato da Lenin?",
+     "a": "L'uscita dal conflitto con la pace di Brest-Litovsk",
+     "w": [
+      "L'alleanza con la Germania",
+      "L'invasione dell'Austria",
+      "L'ingresso nella Società delle Nazioni"
+     ],
+     "e": "Il crollo dello zar aveva portato la Russia all'esaurimento."
+    },
+    {
+     "p": "Perché gli Stati Uniti entrarono in guerra nell'aprile 1917?",
+     "a": "Per la ripresa della guerra sottomarina tedesca e i prestiti all'Intesa",
+     "w": [
+      "Per riprendere i Balcani",
+      "Per sostenere la Germania",
+      "Per difendere l'Italia"
+     ],
+     "e": "Minacciava i loro commerci e i prestiti concessi a Francia e Regno Unito."
+    },
+    {
+     "p": "Che cosa avvenne a Caporetto?",
+     "a": "Lo sfondamento austro-tedesco delle linee italiane",
+     "w": [
+      "Una vittoria italiana",
+      "Una battaglia navale",
+      "La firma di un armistizio"
+     ],
+     "e": "L'esercito si disgregò, con migliaia di prigionieri."
+    },
+    {
+     "p": "Dove si attestò la resistenza italiana dopo Caporetto?",
+     "a": "Sul Piave e sul monte Grappa",
+     "w": [
+      "Sull'Isonzo",
+      "Sulla Marna",
+      "Sul Carso"
+     ],
+     "e": "Si bloccò l'invasione del Nord Italia."
+    },
+    {
+     "p": "Chi sostituì Cadorna al comando?",
+     "a": "Armando Diaz",
+     "w": [
+      "Pietro Badoglio",
+      "Luigi Albertini",
+      "Antonio Salandra"
+     ],
+     "e": "Diaz migliorò rancio e licenze e risollevò il morale."
+    }
+   ]
+  },
+  "Q9": {
+   "title": "Quiz 9 · 1918: la fine degli imperi",
+   "items": [
+    {
+     "p": "Perché la Germania lanciò un'ultima offensiva nel 1918?",
+     "a": "Per piegare la Francia prima dell'arrivo degli americani",
+     "w": [
+      "Per invadere la Svizzera",
+      "Per difendere Vienna",
+      "Per recuperare le colonie"
+     ],
+     "e": "Sfruttava la fine del fronte russo."
+    },
+    {
+     "p": "Dove l'Intesa sfondò il fronte tedesco?",
+     "a": "Ad Amiens",
+     "w": [
+      "A Verdun",
+      "A Caporetto",
+      "Sulla Marna"
+     ],
+     "e": "Aiutata da mezzo milione di soldati americani e dai carri armati."
+    },
+    {
+     "p": "Quando l'Italia lanciò la controffensiva di Vittorio Veneto?",
+     "a": "Il 24 ottobre 1918",
+     "w": [
+      "Il 24 maggio 1915",
+      "Il 4 novembre 1917",
+      "L'11 giugno 1918"
+     ],
+     "e": "Costrinse l'Austria a chiedere la resa."
+    },
+    {
+     "p": "Quali armistizi vengono firmati?",
+     "a": "Villa Giusti (Italia-Austria) e Compiègne (Germania)",
+     "w": [
+      "Brest-Litovsk e Versailles",
+      "Londra e Parigi",
+      "Sarajevo e Vienna"
+     ],
+     "e": "Guglielmo II e Carlo d'Asburgo abdicarono."
+    },
+    {
+     "p": "Quali imperi crollarono con la guerra?",
+     "a": "Tedesco, austro-ungarico, russo e ottomano",
+     "w": [
+      "Britannico, francese, italiano e russo",
+      "Tedesco, francese, giapponese e russo",
+      "Ottomano, britannico, cinese e austriaco"
+     ],
+     "e": "Fu la fine dell'epoca dei grandi imperi."
+    }
+   ]
+  },
+  "Q10": {
+   "title": "Quiz 10 · Il bilancio del conflitto",
+   "items": [
+    {
+     "p": "Quanti morti provocò circa la Prima guerra mondiale?",
+     "a": "Circa 17 milioni",
+     "w": [
+      "Circa 1 milione",
+      "Circa 170 milioni",
+      "Circa 5 milioni"
+     ],
+     "e": "Fu falciata un'intera generazione di giovani."
+    },
+    {
+     "p": "Quante persone uccise l'influenza spagnola?",
+     "a": "Oltre 40 milioni",
+     "w": [
+      "Circa 1 milione",
+      "Circa 4 milioni",
+      "Circa 17 milioni"
+     ],
+     "e": "Si diffuse nel 1918-1919 per le pessime condizioni igieniche e gli spostamenti delle truppe."
+    },
+    {
+     "p": "Perché i mutilati divennero un simbolo della guerra?",
+     "a": "Erano la testimonianza visibile della violenza delle nuove armi",
+     "w": [
+      "Erano pochissimi",
+      "Erano tutti ufficiali",
+      "Erano stati curati subito"
+     ],
+     "e": "Milioni di soldati subirono invalidità permanenti."
+    },
+    {
+     "p": "Quale difficoltà trovarono i reduci tornando a casa?",
+     "a": "Gli Stati impoveriti non garantivano lavoro o pensioni dignitose",
+     "w": [
+      "Troppe offerte di lavoro",
+      "L'obbligo di restare in servizio",
+      "Nessuna difficoltà"
+     ],
+     "e": "La smobilitazione fu drammatica."
+    },
+    {
+     "p": "Che cos'era la «nostalgia delle trincee»?",
+     "a": "Il cameratismo e i traumi che rendevano difficile il ritorno alla vita civile",
+     "w": [
+      "La voglia di tornare a combattere per denaro",
+      "Una malattia infettiva",
+      "Una canzone popolare"
+     ],
+     "e": "Molti soffrivano di nevrosi di guerra."
+    }
+   ]
+  },
+  "Q11": {
+   "title": "Quiz 11 · I trattati di pace",
+   "items": [
+    {
+     "p": "Che cosa proponevano i Quattordici punti di Wilson?",
+     "a": "Un nuovo ordine basato su trasparenza, libertà dei commerci e principio di nazionalità",
+     "w": [
+      "Una pace punitiva per la Germania",
+      "Il ritorno alla Santa Alleanza",
+      "La spartizione dei Balcani"
+     ],
+     "e": "Wilson era il presidente americano."
+    },
+    {
+     "p": "Perché la Società delle Nazioni fu debole?",
+     "a": "Per l'esclusione di Russia e Germania e il ritiro degli USA",
+     "w": [
+      "Per mancanza di fondi",
+      "Per l'ostilità dell'Italia",
+      "Per la guerra in Africa"
+     ],
+     "e": "Doveva risolvere pacificamente le controversie tra Stati."
+    },
+    {
+     "p": "Quali condizioni impose Versailles alla Germania?",
+     "a": "Restituzione di Alsazia e Lorena, perdita delle colonie, smilitarizzazione e riparazioni",
+     "w": [
+      "Nessuna condizione",
+      "L'annessione dell'Austria",
+      "La cessione del Belgio"
+     ],
+     "e": "Fu una pace punitiva e umiliante."
+    },
+    {
+     "p": "Quale Stato nacque sulle ceneri dei vecchi imperi?",
+     "a": "La Cecoslovacchia",
+     "w": [
+      "La Svizzera",
+      "Il Belgio",
+      "La Spagna"
+     ],
+     "e": "Nacquero anche Polonia, Regno dei Serbi, Croati e Sloveni e repubbliche baltiche."
+    },
+    {
+     "p": "Che cosa fu la «vittoria mutilata»?",
+     "a": "Il mito dei territori promessi (Dalmazia e Fiume) non ottenuti dall'Italia",
+     "w": [
+      "La sconfitta di Caporetto",
+      "Il trattato di Brest-Litovsk",
+      "L'armistizio di Villa Giusti"
+     ],
+     "e": "Alimentò un forte scontento nazionalista."
+    }
+   ]
+  }
+ },
+ "t_verifica": 2654.87,
+ "t_compiti": 2654.87
+}

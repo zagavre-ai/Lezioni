@@ -60,24 +60,24 @@ def make_jobs(P):
         topic = a['nome']; tfs = 84 if len(topic) <= 30 else max(52, int(84 * 30 / len(topic)))
         dur = round(caps[-1][1] + 1.2, 1)
         json.dump({"type": "repaso", "kicker": "Pillola di storia", "big": "RIPASSO", "topic": topic, "tfs": tfs, "caps": caps, "dur": dur}, open(f'{W}/jobs/P{P}R{pos}.json', 'w'), ensure_ascii=False)
-    d = vdur(f'FIN{P}')
+    d = vdur(FIN[P])
     json.dump({"type": "final", "kicker": "Storia V", "l1": "RIEPILOGO", "l2": "FINALE", "items": [[ARG[n - 1]['nome'], ""] for n in order], "sub": "Ripassiamo insieme ciò che abbiamo imparato.", "dur": round(d + 1.7, 1)}, open(f'{W}/jobs/P{P}F.json', 'w'), ensure_ascii=False)
 
 def schema_piece(P, n, pos, page):
     """schema guidato: righe una alla volta a tempo con la voce. ritorna (stati, N, eventi audio, durata)"""
-    SL.POS.clear(); SL.POS.update({m: i + 1 + POFF[P] for i, m in enumerate(PARTI[P])})
+    pass
     items = [(f'P{P}_sch{n}_{k}', SL.html_schema(n, k, page)) for k in range(5)]
     items.append((f'P{P}_sch{n}_x', SL.html_schema(n, 5, page)))     # tutte le righe, nessuna accesa
     items.append((f'P{P}_sch{n}_e', SL.html_schema(n, -1, page)))    # vuota
     SL.render(items, W + '/slpng')
     audio = []; t = 0.8; starts = []
     for k in range(5):
-        d = vdur(f'SC{n}_{k + 1}'); audio.append((t, 'wav', f'{VOX48}/SC{n}_{k + 1}.wav')); starts.append(t); t += d + 2.5
-    tot = t + 3.0 - 2.5 + 2.5   # ultima voce + 2,5 s di pausa + 3 s di schema fermo
+        d = vdur(f'SC{n}_{k + 1}'); audio.append((t, 'wav', f'{VOX48}/SC{n}_{k + 1}.wav')); starts.append(t); t += d + 1.8
+    tot = t - 1.8 + 2.7   # fine ultima voce + 3 s di schema fermo (nessun silenzio oltre 3 s)
     N = fr(tot)
     st = [(f'{W}/slpng/P{P}_sch{n}_e.png', fr(starts[0] - 0.15))]
     for k in range(5):
-        end = fr(starts[k + 1] - 0.15) if k < 4 else N - fr(3.0)
+        end = fr(starts[k + 1] - 0.15) if k < 4 else N - fr(2.7)
         st.append((f'{W}/slpng/P{P}_sch{n}_{k}.png', end - sum(f for _, f in st)))
     st.append((f'{W}/slpng/P{P}_sch{n}_x.png', N - sum(f for _, f in st)))
     return st, N, audio, N / 30.0

@@ -5,7 +5,7 @@ from quiz import Q
 W='/tmp/claude-0/w';OUT=W+'/out'
 allq={};txt=["QUIZ DI FINE ARGOMENTO · STORIA V · La Prima guerra mondiale (Prof. Giorgio Mazzotti)","Domande scritte solo dal materiale del docente. La risposta giusta è segnata con ✓.",""]
 g=0
-for P in (1,2):
+for P in (1,2,3):
     for n in PARTI[P]:
         g+=1;a=ARG[n-1]
         items=[{"p":p,"a":ai,"w":w,"e":e} for p,ai,w,e in Q[n]]

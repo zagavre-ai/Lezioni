@@ -94,13 +94,13 @@ ARG = [
 ]
 # mappe del prof (pagina del PDF «MAPPE LEZIONE 4», dopo quale argomento, titolo, testo letto dalla voce)
 MAPPE = [
- dict(p=1, dopo=2, titolo="Quali sono le premesse della Prima guerra mondiale?",
+ dict(p=1, dopo=1, titolo="Quali sono le premesse della Prima guerra mondiale?",
       voce="Ecco la mappa delle premesse della Prima guerra mondiale. Al centro, l'Europa dell'inizio del Novecento. Si divide in alleanze contrapposte: la Triplice Alleanza e la Triplice Intesa. È destabilizzata da Guglielmo secondo di Germania, che adotta una politica estera e coloniale aggressiva. E dalla crisi dell'Impero ottomano, che causa la concorrenza tra Austria-Ungheria e Russia."),
  dict(p=2, dopo=3, titolo="Come ha inizio la Prima guerra mondiale?",
       voce="Ecco la mappa dell'inizio della guerra. L'attentato di Sarajevo fa scattare le alleanze contrapposte. Seguono l'attacco tedesco alla Francia e le battaglie di Tannenberg e dei laghi Masuri. Poi la guerra di posizione nelle trincee."),
  dict(p=3, dopo=5, titolo="Come si giunge all'intervento dell'Italia?",
       voce="Ecco la mappa dell'intervento dell'Italia. L'Italia è divisa tra interventisti e neutralisti. Gli interventisti sono liberali conservatori, che firmano il Patto di Londra, e nazionalisti, che organizzano manifestazioni per l'intervento. I neutralisti sono liberali progressisti e socialisti."),
- dict(p=4, dopo=8, titolo="Come si svolge la guerra tra il 1916 e il 1917?",
+ dict(p=4, dopo=6, titolo="Come si svolge la guerra tra il 1916 e il 1917?",
       voce="Ecco la mappa della guerra tra il millenovecentosedici e il millenovecentodiciassette. La Prima guerra mondiale è una guerra globale e totale. Nel millenovecentosedici vede gigantesche e inutili battaglie. Nel millenovecentodiciassette vede il ritiro della Russia, l'intervento degli Stati Uniti e la sconfitta italiana a Caporetto."),
  dict(p=5, dopo=9, titolo="Come si giunge alla vittoria dell'Intesa?",
       voce="Ecco la mappa della vittoria dell'Intesa. L'anno millenovecentodiciotto inizia con una grande offensiva tedesca, a cui l'Intesa risponde con la battaglia di Amiens. Vede la sconfitta austriaca sul fronte italiano, a cui segue l'armistizio del quattro novembre. E la rivoluzione in Germania, che porta all'armistizio dell'undici novembre."),
@@ -124,9 +124,55 @@ BENVENUTO = ("Benvenuti alla lezione di Storia. Oggi parliamo della Prima guerra
              "Il professor Giorgio Mazzotti ci guida attraverso undici argomenti.")
 
 # Parti: ordine degli argomenti NEL VIDEO (segue il parlato del prof: guerra totale prima delle battaglie, bilancio prima dei trattati)
-PARTI = {1: [1, 2, 3, 4], 2: [5, 7, 6, 8, 9, 11, 10]}
+PARTI = {1: [1, 2, 3], 2: [4, 5, 7], 3: [6, 8, 9, 11, 10]}
 RIGHE = {1:["L'Europa all'inizio","del Novecento"],2:["Le crisi coloniali","e i Balcani"],3:["1914: il casus belli","e la reazione a catena"],4:["I fronti di guerra","e la trincea"],
  5:["1915: l'Italia dalla","neutralità all'intervento"],6:["Le battaglie di","logoramento 1915-1916"],7:["La guerra totale","e la società"],8:["1917: l'anno della","crisi e della svolta"],
  9:["1918: le offensive finali","e la fine degli imperi"],10:["I trattati di pace e il","nuovo assetto geopolitico"],11:["Il bilancio umano","e sociale del conflitto"]}
 
-POFF = {1: 0, 2: 4}   # numero globale dell'argomento = posizione nella Parte + POFF
+POFF = {1: 0, 2: 3, 3: 6}   # numero globale dell'argomento = posizione nella Parte + POFF
+
+BEN = {1: "B3_1", 2: "B3_2", 3: "B3_3"}
+FIN = {1: "F3_1", 2: "F3_2", 3: "F3_3"}
+GLP = {1: [0, 1, 2, 3], 2: [4, 5], 3: [6, 7, 8, 9]}      # indici di GLOSS per Parte
+# mappe nuove (dalle slide del prof, senza aggiunte): n argomento -> (domanda, centro, [(ramo, dettaglio)])
+NEWMAPS = {
+ 2: ("Quali crisi precedono la guerra?", "LE CRISI COLONIALI E I BALCANI", [
+     ("crisi marocchine (1905 e 1911)", "Francia e Germania sfiorano il conflitto; isolamento tedesco"),
+     ("Giovani Turchi (1908)", "indebolimento dell'Impero ottomano"),
+     ("crisi bosniaca (1908)", "annessione della Bosnia-Erzegovina; reazione di Serbia e Russia"),
+     ("guerre balcaniche (1912-1913)", "gli Stati balcanici sconfiggono l'Impero ottomano"),
+     ("«polveriera d'Europa»", "scontro tra Austria e Russia nei Balcani")]),
+ 4: ("Come si combatte sui fronti?", "I FRONTI DI GUERRA E LA TRINCEA", [
+     ("guerra di movimento fallita", "piano Schlieffen fermato sulla Marna"),
+     ("guerra di posizione", "800 chilometri di trincee"),
+     ("fronte orientale", "russi sconfitti a Tannenberg e ai laghi Masuri"),
+     ("nuove tecnologie", "mitragliatrici, artiglieria, filo spinato, armi chimiche"),
+     ("inferno delle trincee", "fango, malattie, traumi psicologici")]),
+ 7: ("Che cosa significa guerra totale?", "LA GUERRA TOTALE", [
+     ("mobilitazione economica", "controllo della produzione e razionamento"),
+     ("fronte interno", "privazioni e mercato nero"),
+     ("ruolo delle donne", "fabbriche ed emancipazione femminile"),
+     ("guerra sui mari", "blocco navale, sottomarini, Lusitania"),
+     ("genocidio degli armeni (1915)", "deportazione e sterminio di oltre un milione")]),
+ 8: ("Perché il 1917 è l'anno della svolta?", "IL 1917", [
+     ("rivoluzione in Russia", "pace di Brest-Litovsk"),
+     ("intervento degli Stati Uniti", "entrano in guerra ad aprile"),
+     ("disfatta di Caporetto", "sfondamento austro-tedesco, ottobre 1917"),
+     ("resistenza sul Piave", "linea difensiva sul Piave e sul Grappa"),
+     ("svolta di Diaz", "sostituisce Cadorna e migliora le condizioni dei soldati")]),
+ 11: ("Quale fu il bilancio della guerra?", "IL BILANCIO UMANO E SOCIALE", [
+     ("le cifre", "circa 17 milioni di morti"),
+     ("influenza spagnola", "oltre 40 milioni di vittime"),
+     ("mutilati", "oltre 40 milioni di feriti, simbolo della guerra industriale"),
+     ("smobilitazione", "Stati impoveriti, poco lavoro per i reduci"),
+     ("nostalgia delle trincee", "nevrosi di guerra e cameratismo")]),
+}
+def mappa_di(n):
+    """(tipo, id) della mappa dell'argomento n: ('prof', k) oppure ('new', n)"""
+    for k, m in enumerate(MAPPE, 1):
+        if m['dopo'] == n: return ('prof', k)
+    return ('new', n)
+
+def mapvoice(n):
+    t, i = mappa_di(n)
+    return f"MAP{i}" if t == 'prof' else f"MAPN{n}"

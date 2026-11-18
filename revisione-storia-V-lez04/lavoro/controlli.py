@@ -40,7 +40,7 @@ say('[misurato] silenzi > 3 s (-55 dB):', len(sil), [(round(float(a_)), round(fl
 fz = sh(['ffmpeg', '-nostats', '-i', V, '-vf', 'crop=412:310:1428:148,freezedetect=n=0.003:d=1.0', '-an', '-f', 'null', '-']).stderr
 fs = [float(x) for x in re.findall(r'freeze_start: ([\d\.]+)', fz)]; fd = [float(x) for x in re.findall(r'freeze_duration: ([\d\.]+)', fz)]
 profrange = [(s, s + d) for n, (s, d) in ST.items() if n.startswith('prof') or n == 'intro']
-bad = [(round(a_, 1), round(b_, 1)) for a_, b_ in zip(fs, fd) if any(s <= a_ < e for s, e in profrange)]
+bad = [(round(a_, 1), round(b_, 1)) for a_, b_ in zip(fs, fd) if any(s <= a_ < e - 0.5 for s, e in profrange)]
 say('[misurato] fermi del riquadro del prof >= 1 s dentro i pezzi del prof:', len(bad), bad[:10])
 # 5. scatto dei quiz
 SR = 8000

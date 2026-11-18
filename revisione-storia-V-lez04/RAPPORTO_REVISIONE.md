@@ -1,48 +1,59 @@
 # RAPPORTO DI REVISIONE · Storia V · Lezione 4 · La Prima guerra mondiale (prof. Giorgio Mazzotti)
 Chat «revisione v3» (18/11/2026). Etichette: **misurato** = misura fatta sul file finale; **stima** = calcolo non verificato sul file; **non verificato** = non controllato.
 
-## STATO: NON CONSEGNABILE ANCORA — mancano le voci Kore (87 testi inviati, nessuna voce ricevuta)
-- I testi di tutte le voci (benvenuto, mappe, pillole, schemi di ripasso, glossario, riepilogo: **87 voci**) sono nel ramo `voci-storia-V-lez04` (`scambio/storia-V-lez04/testi_voci.json`, push 12:22 e 12:31). **Alle 14:20 il ramo non contiene nessun file `vox/*.wav`**: la master non le ha ancora generate (l'ultima voce generata su un ramo `voci-*` risale al 16/11). Ho chiesto la generazione con `stato.py --serve_master` e a Sara.
-- Per non perdere il lavoro ho montato **entrambe le Parti con le voci sostituite da silenzio** della durata stimata (14,7 caratteri/s, misurata su voci Kore della lezione 5). Questi file si chiamano `…_ANTEPRIMA_senza_voci_…` e **non vanno caricati**: servono a controllare grafica, sincronia delle card, schede blu, transizioni, misure di livello e di fermi. Le misure di silenzio (> 3 s) comprendono quindi i tratti in cui la voce Kore dovrà parlare.
-- **Quando arrivano le voci** basta rieseguire il montaggio (`lavoro/RIPRESA.md`, circa 40 minuti, tutto già provato): le pillole e il riepilogo sono già disegnati con durate stimate e vengono ridisegnati solo se la voce vera li smentisce (> 1 s); schemi, mappe e glossario si rifanno sui tempi veri.
-- **Durata delle Parti:** Parte 1 = 53:46; Parte 2 = 67:24 (stima con voci a 14,7 car/s). **La Parte 2 supera i 60 minuti (di 7)**: la lezione dura 104 min di parlato (+ ~20 min di pezzi di ripasso) e non è divisibile in due Parti da 50–60 min alla fine di un argomento. Alternative: dividere l’argomento 5 (Italia 1915, 13 min) in due argomenti (Parte 1 ≈ 59 min, Parte 2 ≈ 62 min; servirebbero 12 voci nuove), oppure accettare 67 min. **Decide la master/Sara.**
-- Peso: Parte 1 ≈ 387 MB, Parte 2 ≈ 506 MB (CRF 23 sui pezzi del prof; 192 kbit/s audio). La Parte 2 supera i 400 MB della regola dell’8/11.
+## STATO: montaggio completo con voci Kore (98 voci ricevute dalla master) · 3 Parti
+- **Durate misurate:** Parte 1 = 43:48 · Parte 2 = 35:46 · Parte 3 = 44:20. La Parte 2 è più corta (36 min) perché si divide solo a fine argomento e gli argomenti 4–5–7 sono gli unici che stanno nella fascia; spostare «Le battaglie» (argomento 6) in Parte 2 la porterebbe a ~50 min e la Parte 3 a ~31. Decide Sara.
+- **Mappe:** una per argomento. Sei sono del prof (premesse; inizio della guerra; intervento dell'Italia; 1916–1917; vittoria dell'Intesa; condizioni di pace); **cinque costruite dalle sue slide** (crisi coloniali e Balcani; fronti e trincea; guerra totale; 1917; bilancio), con le intestazioni delle sue card, senza aggiunte. La mappa «1916–1917» è dopo l'argomento «battaglie».
+- **Voce PI10** (pillola «I trattati di pace»): l'importazione della master la segna «DA CONTROLLARE» (8 parole diverse dal testo): da riascoltare.
+- Pillole e riepilogo erano disegnati su durate stimate e sono stati ridisegnati solo dove la voce vera li smentiva (pillola 5 della Parte 3).
+- **Controlli sul file finale (misurati):** LUFS integrato −16,0 in tutte le Parti; picco vero −1,3 / −1,7 / −1,6 dBTP; 0 silenzi > 3 s; 0 fermi del riquadro del prof ≥ 1 s; jingle di tutti gli 11 Quiz a scarto 0,000 s; fotogrammi = durata × 30; durata audio = durata video.
+- **Difetti trovati e corretti durante la verifica:** (1) silenzi di 3,1–5,4 s nello schema di ripasso → pause ridotte a 1,8 s e fermo finale a 2,7 s; (2) scheda Quiz 11 troncata a 1 s per un file danneggiato → ripresa e ricontrollata.
+- **Pesi:** 322 / 266 / 333 MB (sotto i 400).
 
 
 ## 0. Punto di partenza
 - Per questa lezione **non esisteva nessuna consegna precedente** (nessun ramo `consegna-storia-V-lez04`) **e nessuna voce** (nessun ramo `voci-storia-V-lez04`). Ho quindi costruito la lezione **da zero** nel modello Spagnolo, partendo dal video originale del prof (release `mazzotti-storia-V`, `LEZIONE.4.LA.PRIMA.GUERRA.MONDIALE.mp4`, 1092×614, 104 min 07 s), dalle slide del prof (`LEZIONE 4.pdf`, 24 pagine), dalle sue mappe (`MAPPE LEZIONE 4.pdf`, 6 mappe), dal test (`DOMANDE LEZIONE 4.xlsx`) e dai compiti (`LEZIONE 4.pdf`).
-- La lezione dura 104 minuti di parlato: **esce in 2 Parti**. Ho diviso alla fine di un argomento. Parte 1 = presentazione del prof + argomenti 1–4; Parte 2 = argomenti 5–11.
+- La lezione dura 104 minuti di parlato: **esce in 3 Parti** (decisione di Sara), divise alla fine di un argomento: Parte 1 = presentazione + argomenti 1–3 · Parte 2 = argomenti 4, 5, 7(guerra totale) · Parte 3 = argomenti 6, 8, 9, 11, 10 (numeri = slide del prof). 
 - **Ordine degli argomenti = ordine del parlato.** Il prof parla della «guerra totale» (3619–4093 s) *prima* delle «grandi battaglie» (4094–4849 s) e del «bilancio umano» (5831–5924 s) *prima* dei «trattati di pace» (5925–6246 s), cioè in ordine diverso dalle slide. Il video segue ciò che dice. Gli 11 argomenti sono scelti sui titoli delle slide del prof.
 
 ## 1. Misure sul video nuovo
 ### Parte 1
-[misurato] durata 53:46.3 (3226.3 s) | fotogrammi 96760 (attesi 96790) | peso 386.7 MB | 1920x1080 30/1
-[misurato] audio aac 48000 Hz, durata audio 3226.33 s (video 3226.33 s)
-[misurato] sha256 e665cc72621dcb4019a648d0a2abfe1ede2143c5a066d7d8ca19cf3a1d527ac5
-[misurato] LUFS integrato -16.0 | picco vero -1.8 dBTP
-[misurato] LUFS parlato del prof, campione su 4 pezzi: [-16.4, -16.9, -15.8, -16.9]
-[misurato] silenzi > 3 s (-55 dB): 13 [(15, 22.9), (762, 9.2), (772, 43.7), (1402, 26.7), (1431, 9.0), (1441, 46.2), (2480, 16.5), (2498, 8.3), (2507, 45.7), (3102, 9.1), (3112, 46.6), (3163, 37.9), (3202, 18.4)]
-[misurato] fermi del riquadro del prof >= 1 s dentro i pezzi del prof: 0 (un falso allarme di 16,8 s a 2479,7 s: è la mappa 2, senza prof, subito dopo il pezzo del prof)
-[misurato] jingle quiz 1: atteso 815.967 trovato 815.967 scarto -0.000 OK
-[misurato] jingle quiz 2: atteso 1487.467 trovato 1487.467 scarto -0.000 OK
-[misurato] jingle quiz 3: atteso 2553.567 trovato 2553.567 scarto -0.000 OK
-[misurato] jingle quiz 4: atteso 3158.667 trovato 3158.667 scarto -0.000 OK
+[misurato] durata 43:48.1 (2628.1 s) | fotogrammi 78842 (attesi 78842) | peso 322.5 MB | 1920x1080 30/1
+[misurato] audio aac 48000 Hz, durata audio 2628.07 s (video 2628.07 s)
+[misurato] sha256 37198fb96b84f1dd53e1b37945110ca6e0a036c4d218e435365ac46fd8349a5b
+[misurato] LUFS integrato -16.0 | picco vero -1.3 dBTP
+[misurato] LUFS parlato del prof, campione su 4 pezzi: [-16.1, -16.6, -15.5, -16.6]
+[misurato] silenzi > 3 s (-55 dB): 0 []
+[misurato] fermi del riquadro del prof >= 1 s dentro i pezzi del prof: 0 []
+[misurato] jingle quiz 1: atteso 833.967 trovato 833.967 scarto -0.000 OK
+[misurato] jingle quiz 2: atteso 1504.367 trovato 1504.367 scarto -0.000 OK
+[misurato] jingle quiz 3: atteso 2564.967 trovato 2564.967 scarto -0.000 OK
 
 ### Parte 2
-[misurato] durata 67:25.3 (4045.3 s) | fotogrammi 121329 (attesi 121359) | peso 505.9 MB | 1920x1080 30/1
-[misurato] audio aac 48000 Hz, durata audio 4045.30 s (video 4045.30 s)
-[misurato] sha256 29d60f505dfde96df8dd54cda0a1b03b55da39bd8a6ffd6127c7b292bf1ecc65
-[misurato] LUFS integrato -16.0 | picco vero -1.9 dBTP
-[misurato] LUFS parlato del prof, campione su 4 pezzi: [-14.5, -16.4, -15.5, -16.0]
-[misurato] silenzi > 3 s (-55 dB): 21 [(15, 24.4), (832, 20.6), (854, 8.6), (864, 47.2), (1395, 8.1), (1404, 44.0), (2214, 8.8), (2223, 44.1), (2857, 23.4), (2883, 8.3), (2892, 39.0), (3338, 23.7), (3364, 8.7), (3373, 41.5), (3519, 8.7), (3528, 47.4), (3903, 21.0), (3926, 8.2), (3935, 44.4), (3982, 36.4), (4019, 20.4)]
-[misurato] fermi del riquadro del prof >= 1 s dentro i pezzi del prof: 0 (due falsi allarmi: a 2857,1 s e 3903,2 s iniziano le mappe 4 e 6, senza prof, subito dopo il pezzo del prof)
-[misurato] jingle quiz 5: atteso 911.300 trovato 911.300 scarto +0.000 OK
-[misurato] jingle quiz 6: atteso 1448.433 trovato 1448.433 scarto +0.000 OK
-[misurato] jingle quiz 7: atteso 2267.700 trovato 2267.700 scarto +0.000 OK
-[misurato] jingle quiz 8: atteso 2931.167 trovato 2931.167 scarto -0.000 OK
-[misurato] jingle quiz 9: atteso 3415.200 trovato 3415.200 scarto +0.000 OK
-[misurato] jingle quiz 10: atteso 3576.167 trovato 3576.167 scarto -0.000 OK
-[misurato] jingle quiz 11: atteso 3980.100 trovato 3980.100 scarto +0.000 OK
+[misurato] durata 35:46.3 (2146.3 s) | fotogrammi 64390 (attesi 64390) | peso 265.8 MB | 1920x1080 30/1
+[misurato] audio aac 48000 Hz, durata audio 2146.33 s (video 2146.33 s)
+[misurato] sha256 597e8af83fe8d67be1a0283e4bc931261148703ce6c1efdffaf8d545db112e07
+[misurato] LUFS integrato -16.0 | picco vero -1.7 dBTP
+[misurato] LUFS parlato del prof, campione su 3 pezzi: [-16.0, -14.3, -16.2]
+[misurato] silenzi > 3 s (-55 dB): 0 []
+[misurato] fermi del riquadro del prof >= 1 s dentro i pezzi del prof: 0 []
+[misurato] jingle quiz 4: atteso 665.433 trovato 665.433 scarto +0.000 OK
+[misurato] jingle quiz 5: atteso 1539.967 trovato 1539.967 scarto -0.000 OK
+[misurato] jingle quiz 6: atteso 2100.133 trovato 2100.133 scarto +0.000 OK
+
+### Parte 3
+[misurato] durata 44:19.9 (2659.9 s) | fotogrammi 79796 (attesi 79796) | peso 333.2 MB | 1920x1080 30/1
+[misurato] audio aac 48000 Hz, durata audio 2659.87 s (video 2659.87 s)
+[misurato] sha256 a02cc1e284f3a4bb1d6010cd47c679893c7789dbe6ef64fc88b0ee550d8aceea
+[misurato] LUFS integrato -16.0 | picco vero -1.6 dBTP
+[misurato] LUFS parlato del prof, campione su 4 pezzi: [-15.2, -15.7, -15.4, -16.0]
+[misurato] silenzi > 3 s (-55 dB): 0 []
+[misurato] fermi del riquadro del prof >= 1 s dentro i pezzi del prof: 0 []
+[misurato] jingle quiz 7: atteso 875.233 trovato 875.233 scarto +0.000 OK
+[misurato] jingle quiz 8: atteso 1535.233 trovato 1535.233 scarto +0.000 OK
+[misurato] jingle quiz 9: atteso 2012.000 trovato 2012.000 scarto +0.000 OK
+[misurato] jingle quiz 10: atteso 2195.167 trovato 2195.167 scarto -0.000 OK
+[misurato] jingle quiz 11: atteso 2598.267 trovato 2598.267 scarto -0.000 OK
 
 ## 2. Confronto con Spagnolo Lez. 1 (punti 1–11 del modello + schede blu)
 Confronto punto per punto con `scambio/mazzotti/MODELLO_Spagnolo_*` e con la scheda tecnica (esito: OK / corretto / diverso, con il perché). Controllo a vista sui fotogrammi del video nuovo.
@@ -58,8 +69,8 @@ Confronto punto per punto con `scambio/mazzotti/MODELLO_Spagnolo_*` e con la sch
 | 7 | Slide senza prof: schema di ripasso, glossario, mappe | OK, fondo bianco, piè con la sola materia |
 | 8 | Font Bricolage 800 + Figtree (Bold per etichette), niente DM Mono | OK (nelle slide). La sigla del kit usa un carattere monospazio: è il file del kit, non modificato |
 | 9 | Finale 5 s del kit | OK |
-| 10 | Struttura: sigla → copertina → per argomento (titolo, prof, mappa del prof, pillola blu, schema guidato, scheda Quiz) → glossario → riepilogo → finale | OK (6 mappe del prof, nessuna per gli altri argomenti: il prof non le ha mandate). Approfondimenti animati: **non presenti** (non ci sono immagini aggiuntive nei materiali del prof) |
-| 11 | PDF A4 orizzontale delle slide (identiche al video, senza riquadro) e delle mappe del prof | OK, uno per Parte |
+| 10 | Struttura: sigla → copertina → per argomento (titolo, prof, mappa del prof, pillola blu, schema guidato, scheda Quiz) → glossario → riepilogo → finale | OK (6 mappe: 6 del prof + 5 costruite dalle sue slide). Approfondimenti animati: **non presenti** (non ci sono immagini aggiuntive nei materiali del prof) |
+| 11 | PDF A4 orizzontale delle slide (identiche al video, senza riquadro) e delle mappe del prof | OK, uno per Parte (3 Parti) |
 | – | Schede blu (titolo, pillola, Quiz, riepilogo) fatte con `schede_spagnolo.py` a scala 1.0 | OK (copia con fotogrammi JPEG per velocità e `--no-sandbox`; stesso disegno) |
 
 ## 3. Tabella dei pezzi (sezione C della scheda tecnica): presente · minuto · durata misurata
@@ -67,98 +78,112 @@ Confronto punto per punto con `scambio/mazzotti/MODELLO_Spagnolo_*` e con la sch
 | pezzo |presente | minuto di inizio | durata misurata (s) |
 |---|---|---|---|
 | sigla | sì | 0:00.0 | 15.0 |
-| cover | sì | 0:14.6 | 23.9 |
-| intro | sì | 0:38.1 | 216.0 |
-| titolo1 | sì | 4:13.8 | 4.0 |
-| prof1 | sì | 4:17.4 | 503.0 |
-| pillola1 | sì | 12:39.9 | 11.6 |
-| schema1 | sì | 12:51.1 | 44.7 |
-| quiz1 | sì | 13:35.5 | 5.0 |
-| titolo2 | sì | 13:40.1 | 4.0 |
-| prof2 | sì | 13:43.7 | 578.5 |
-| mappa1 | sì | 23:21.8 | 27.7 |
-| pillola2 | sì | 23:49.1 | 11.4 |
-| schema2 | sì | 24:00.1 | 47.3 |
-| quiz2 | sì | 24:47.0 | 5.0 |
-| titolo3 | sì | 24:51.6 | 4.0 |
-| prof3 | sì | 24:55.2 | 984.6 |
-| mappa2 | sì | 41:19.3 | 17.5 |
-| pillola3 | sì | 41:36.4 | 10.7 |
-| schema3 | sì | 41:46.8 | 46.7 |
-| quiz3 | sì | 42:33.1 | 5.0 |
-| titolo4 | sì | 42:37.7 | 4.0 |
-| prof4 | sì | 42:41.3 | 539.0 |
-| pillola4 | sì | 51:39.8 | 11.5 |
-| schema4 | sì | 51:50.9 | 47.7 |
-| quiz4 | sì | 52:38.2 | 5.0 |
-| glossario | sì | 52:42.8 | 39.0 |
-| riepilogo | sì | 53:21.3 | 19.4 |
-| finale | sì | 53:40.3 | 5.0 |
+| cover | sì | 0:14.6 | 19.8 |
+| intro | sì | 0:34.0 | 216.0 |
+| titolo1 | sì | 4:09.7 | 4.0 |
+| prof1 | sì | 4:13.3 | 503.0 |
+| mappa1 | sì | 12:35.8 | 28.8 |
+| pillola1 | sì | 13:04.3 | 10.3 |
+| schema1 | sì | 13:14.2 | 39.7 |
+| quiz1 | sì | 13:53.5 | 5.0 |
+| titolo2 | sì | 13:58.1 | 4.0 |
+| prof2 | sì | 14:01.7 | 578.5 |
+| mappa2 | sì | 23:39.8 | 35.2 |
+| pillola2 | sì | 24:14.6 | 10.3 |
+| schema2 | sì | 24:24.5 | 39.7 |
+| quiz2 | sì | 25:03.9 | 5.0 |
+| titolo3 | sì | 25:08.5 | 4.0 |
+| prof3 | sì | 25:12.1 | 984.6 |
+| mappa3 | sì | 41:36.2 | 18.4 |
+| pillola3 | sì | 41:54.3 | 11.0 |
+| schema3 | sì | 42:04.8 | 40.0 |
+| quiz3 | sì | 42:44.5 | 5.0 |
+| glossario | sì | 42:49.1 | 38.5 |
+| riepilogo | sì | 43:27.1 | 16.3 |
+| finale | sì | 43:43.1 | 5.0 |
 
 ### Parte 2
 | pezzo |presente | minuto di inizio | durata misurata (s) |
 |---|---|---|---|
 | sigla | sì | 0:00.0 | 15.0 |
-| cover | sì | 0:14.6 | 25.4 |
-| titolo5 | sì | 0:39.6 | 4.0 |
-| prof5 | sì | 0:43.2 | 788.3 |
-| mappa3 | sì | 13:51.1 | 21.6 |
-| pillola5 | sì | 14:12.3 | 11.0 |
-| schema5 | sì | 14:22.9 | 48.3 |
-| quiz5 | sì | 15:10.8 | 5.0 |
-| titolo6 | sì | 15:15.4 | 4.0 |
-| prof6 | sì | 15:19.0 | 474.7 |
-| pillola6 | sì | 23:13.3 | 10.5 |
-| schema6 | sì | 23:23.3 | 45.0 |
-| quiz6 | sì | 24:07.9 | 5.0 |
-| titolo7 | sì | 24:12.5 | 4.0 |
-| prof7 | sì | 24:16.1 | 755.9 |
-| pillola7 | sì | 36:51.7 | 11.2 |
-| schema7 | sì | 37:02.5 | 45.1 |
-| quiz7 | sì | 37:47.2 | 5.0 |
-| titolo8 | sì | 37:51.8 | 4.0 |
-| prof8 | sì | 37:55.4 | 581.7 |
-| mappa4 | sì | 47:36.7 | 24.4 |
-| pillola8 | sì | 48:00.7 | 10.7 |
-| schema8 | sì | 48:11.0 | 40.0 |
-| quiz8 | sì | 48:50.7 | 5.0 |
-| titolo9 | sì | 48:55.3 | 4.0 |
-| prof9 | sì | 48:58.9 | 399.0 |
-| mappa5 | sì | 55:37.5 | 24.7 |
-| pillola9 | sì | 56:01.8 | 11.1 |
-| schema9 | sì | 56:12.5 | 42.6 |
-| quiz9 | sì | 56:54.7 | 5.0 |
-| titolo10 | sì | 56:59.3 | 4.0 |
-| prof10 | sì | 57:02.9 | 94.5 |
-| pillola10 | sì | 58:37.0 | 11.1 |
-| schema10 | sì | 58:47.7 | 48.4 |
-| quiz10 | sì | 59:35.7 | 5.0 |
-| titolo11 | sì | 59:40.3 | 4.0 |
-| prof11 | sì | 59:43.9 | 319.3 |
-| mappa6 | sì | 65:02.8 | 22.0 |
-| pillola11 | sì | 65:24.4 | 10.6 |
-| schema11 | sì | 65:34.6 | 45.4 |
-| quiz11 | sì | 66:19.6 | 1.0 |
-| glossario | sì | 66:20.2 | 38.4 |
-| riepilogo | sì | 66:58.3 | 21.4 |
-| finale | sì | 67:19.3 | 5.0 |
+| cover | sì | 0:14.6 | 19.3 |
+| titolo4 | sì | 0:33.5 | 4.0 |
+| prof4 | sì | 0:37.1 | 539.0 |
+| mappa4 | sì | 9:35.7 | 32.4 |
+| pillola4 | sì | 10:07.7 | 11.6 |
+| schema4 | sì | 10:19.0 | 46.4 |
+| quiz4 | sì | 11:04.9 | 5.0 |
+| titolo5 | sì | 11:09.5 | 4.0 |
+| prof5 | sì | 11:13.1 | 788.3 |
+| mappa5 | sì | 24:21.0 | 23.6 |
+| pillola5 | sì | 24:44.2 | 11.9 |
+| schema5 | sì | 24:55.7 | 44.1 |
+| quiz5 | sì | 25:39.5 | 5.0 |
+| titolo6 | sì | 25:44.1 | 4.0 |
+| prof6 | sì | 25:47.7 | 474.7 |
+| mappa7 | sì | 33:41.9 | 30.0 |
+| pillola6 | sì | 34:11.6 | 10.6 |
+| schema6 | sì | 34:21.7 | 38.3 |
+| quiz6 | sì | 34:59.6 | 5.0 |
+| glossario | sì | 35:04.2 | 23.6 |
+| riepilogo | sì | 35:27.4 | 14.3 |
+| finale | sì | 35:41.3 | 5.0 |
+
+### Parte 3
+| pezzo |presente | minuto di inizio | durata misurata (s) |
+|---|---|---|---|
+| sigla | sì | 0:00.0 | 15.0 |
+| cover | sì | 0:14.6 | 25.6 |
+| titolo7 | sì | 0:39.8 | 4.0 |
+| prof7 | sì | 0:43.4 | 755.9 |
+| mappa6 | sì | 13:18.9 | 24.2 |
+| pillola7 | sì | 13:42.7 | 11.1 |
+| schema7 | sì | 13:53.4 | 41.7 |
+| quiz7 | sì | 14:34.7 | 5.0 |
+| titolo8 | sì | 14:39.3 | 4.0 |
+| prof8 | sì | 14:42.9 | 581.7 |
+| mappa8 | sì | 24:24.2 | 26.2 |
+| pillola8 | sì | 24:50.0 | 11.8 |
+| schema8 | sì | 25:01.4 | 33.7 |
+| quiz8 | sì | 25:34.7 | 5.0 |
+| titolo9 | sì | 25:39.3 | 4.0 |
+| prof9 | sì | 25:42.9 | 399.0 |
+| mappa9 | sì | 32:21.5 | 23.7 |
+| pillola9 | sì | 32:44.9 | 11.5 |
+| schema9 | sì | 32:56.0 | 35.9 |
+| quiz9 | sì | 33:31.5 | 5.0 |
+| titolo10 | sì | 33:36.1 | 4.0 |
+| prof10 | sì | 33:39.7 | 94.5 |
+| mappa11 | sì | 35:13.8 | 25.3 |
+| pillola10 | sì | 35:38.7 | 12.3 |
+| schema10 | sì | 35:50.6 | 44.5 |
+| quiz10 | sì | 36:34.7 | 5.0 |
+| titolo11 | sì | 36:39.3 | 4.0 |
+| prof11 | sì | 36:42.9 | 319.3 |
+| mappa10 | sì | 42:01.8 | 19.7 |
+| pillola11 | sì | 42:21.1 | 13.7 |
+| schema11 | sì | 42:34.4 | 43.7 |
+| quiz11 | sì | 43:17.8 | 5.0 |
+| glossario | sì | 43:22.4 | 33.8 |
+| riepilogo | sì | 43:55.8 | 19.5 |
+| finale | sì | 44:14.9 | 5.0 |
 
 ## 4. Immagini e carte del prof mostrate (tabella immagine · Parte · minuto nel video)
 Le immagini sono quelle delle slide del prof (`LEZIONE 4.pdf`); compaiono quando il prof le mostra nel suo video (riconosciute confrontando i fotogrammi con le pagine del PDF) e restano finché le commenta. Risoluzione nativa del PDF (circa 800 px di larghezza): **ingrandite, quindi morbide** (limite del materiale).
 | immagine | Parte | argomento | da (min:s) | a (min:s) |
 |---|---|---|---|---|
-| Carta: i Balcani 1911–1913 (p. 4 del PDF) | 1 | 2. Le crisi coloniali e i Balcani | 20:31 | 22:23 |
-| Carta: i Balcani 1911–1913 (p. 4 del PDF) | 1 | 2. Le crisi coloniali e i Balcani | 22:48 | 23:15 |
-| Carta: fronte occidentale 1914–1916 (p. 8 del PDF) | 1 | 3. 1914: il casus belli | 34:00 | 36:32 |
-| Carta: fronte occidentale 1914–1916 (p. 8 del PDF) | 1 | 4. I fronti di guerra e la trincea | 46:24 | 48:07 |
-| Carta: fronte orientale e balcanico 1914 (p. 9 del PDF) | 1 | 4. I fronti di guerra e la trincea | 48:07 | 51:40 |
-| Vignetta «Sport… bellico 1914» (l’Italia contesa) (p. 11 del PDF) | 2 | 5. 1915: l'Italia in guerra | 12:59 | 13:51 |
-| Carta: fronte italiano 1915–1916 (p. 13 del PDF) | 2 | 7. Le battaglie di logoramento | 35:41 | 36:14 |
-| Carta: fronte occidentale/orientale 1916 (p. 14 del PDF) | 2 | 7. Le battaglie di logoramento | 36:14 | 36:31 |
-| Carta: fronte mediorientale 1915–1916 (p. 16 del PDF) | 2 | 7. Le battaglie di logoramento | 36:34 | 36:52 |
-| Carta: fronte italiano 1917 (Caporetto) (p. 18 del PDF) | 2 | 8. 1917: crisi e svolta | 45:05 | 47:37 |
-| Grafico: perdite militari per Paese (p. 24 del PDF) | 2 | 10. Il bilancio del conflitto | 57:17 | 58:37 |
-| Carta: l’Europa dopo la guerra (1920) (p. 21 del PDF) | 2 | 11. I trattati di pace | 63:13 | 65:03 |
+| Carta: i Balcani 1911–1913 (p. 4 del PDF) | 1 | 2. Le crisi coloniali e i Balcani | 20:49 | 22:41 |
+| Carta: i Balcani 1911–1913 (p. 4 del PDF) | 1 | 2. Le crisi coloniali e i Balcani | 23:06 | 23:33 |
+| Carta: fronte occidentale 1914–1916 (p. 8 del PDF) | 1 | 3. 1914: il casus belli | 34:16 | 36:48 |
+| Carta: fronte occidentale 1914–1916 (p. 8 del PDF) | 2 | 4. I fronti di guerra e la trincea | 4:20 | 6:03 |
+| Carta: fronte orientale e balcanico 1914 (p. 9 del PDF) | 2 | 4. I fronti di guerra e la trincea | 6:03 | 9:36 |
+| Vignetta «Sport… bellico 1914» (l’Italia contesa) (p. 11 del PDF) | 2 | 5. 1915: l'Italia in guerra | 23:29 | 24:21 |
+| Carta: fronte italiano 1915–1916 (p. 13 del PDF) | 3 | 7. Le battaglie di logoramento | 12:09 | 12:42 |
+| Carta: fronte occidentale/orientale 1916 (p. 14 del PDF) | 3 | 7. Le battaglie di logoramento | 12:42 | 12:59 |
+| Carta: fronte mediorientale 1915–1916 (p. 16 del PDF) | 3 | 7. Le battaglie di logoramento | 13:02 | 13:19 |
+| Carta: fronte italiano 1917 (Caporetto) (p. 18 del PDF) | 3 | 8. 1917: crisi e svolta | 21:53 | 24:24 |
+| Grafico: perdite militari per Paese (p. 24 del PDF) | 3 | 10. Il bilancio del conflitto | 33:54 | 35:14 |
+| Carta: l’Europa dopo la guerra (1920) (p. 21 del PDF) | 3 | 11. I trattati di pace | 40:12 | 42:02 |
 
 Le pagine 6 (foto dell’attentato) e 22–23 del PDF non vengono mostrate dal prof nel suo video: nel video nuovo non compaiono.
 
@@ -181,6 +206,7 @@ Le pagine 6 (foto dell’attentato) e 22–23 del PDF non vengono mostrate dal p
 - 1:15:43 circa, Lusitania: il prof dice «oltre 100 cittadini statunitensi», la cifra storica è 128: lasciato come detto.
 
 ## 7. Cosa NON ho verificato
+- Il ripasso della Parte precedente all’inizio delle Parti 2 e 3 (kit/REGOLE 8/11) non c’è: apertura con sigla e benvenuto Kore; il riepilogo finale di ogni Parte c’è.
 - **Ascolto umano:** nessun passaggio è stato riascoltato da una persona; le misure di tempi e livelli sono automatiche.
 - **Sincronia delle card:** la card in corso è scelta da parole-guida nel parlato; controllata a campione su 6 punti, non su tutta la lezione. Dove il prof parla di argomenti non presenti sulla slide la card resta quella dell’ultimo punto trattato.
 - **Voci Kore:** pronuncia di nomi e termini (Tirpitz, Schlieffen, Sarajevo, Versailles…) da ascoltare.

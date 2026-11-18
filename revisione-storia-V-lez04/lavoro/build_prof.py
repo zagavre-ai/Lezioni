@@ -64,7 +64,7 @@ def main():
     segs, topics, intro, pageidx, dmin, isimg, cp = plan()
     for P in which:
         P = int(P); order = PARTI[P]
-        SL.POS.clear(); SL.POS.update({n: i + 1 + POFF[P] for i, n in enumerate(order)})
+        pass
         TT = {T['n']: T for T in topics}
         # numerazione pagine slide (come PDF): cover=1, poi per argomento testo, immagini, schema; glossario in fondo
         page = {('cover',): 1}; cur = 2; plan_p = []
@@ -92,6 +92,10 @@ def main():
             for k, _ in runs:
                 if k[0] == 'img' and ('img', k[1]) not in page: page[('img', k[1])] = cur; cur += 1
             page[('schema', n)] = cur; cur += 1
+        for kind, a, b_, T, subs, runs in data:
+            if kind != 'topic': continue
+            for k, _ in runs:
+                if k[0] == 'txt' and ('txt', k[1]) not in page: page[('txt', k[1])] = cur; cur += 1
         page[('gloss',)] = cur
         json.dump({str(k): v for k, v in page.items()}, open(f'{W}/pieces/pages_P{P}.json', 'w'), indent=1)
         # render slide PNG necessari

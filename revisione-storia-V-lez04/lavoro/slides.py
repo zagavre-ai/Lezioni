@@ -56,7 +56,7 @@ body{width:1920px;height:1080px;background:#fff;font-family:'FG';color:#0B1530;p
 .gr.on{background:#FFE600;border-color:#FFE600}.gr.on b{color:#0B1530}
 """.replace("%(f)s",FD)
 
-POS = {}
+POS = {n: i + 1 for i, n in enumerate([1, 2, 3, 4, 5, 7, 6, 8, 9, 11, 10])}
 def esc(s): return html.escape(s)
 def P2(n): return POS.get(n, n)
 
@@ -137,6 +137,25 @@ def html_map(k, frac, page):
     clip = f"clip-path:inset(0 0 {max(0,100-frac*100):.1f}% 0)" if frac < 1 else ''
     body = f"<div class=imgbox style='left:80px;top:268px;width:1760px;height:690px'><img style='width:1720px;height:660px;object-fit:contain;{clip}' src='file:///tmp/claude-0/w/img/mapc-{m['p']}.png'></div>"
     return frame(f"MAPPA CONCETTUALE · {P2(m['dopo']):02d} · {ARG[m['dopo']-1]['nome']}", esc(m['titolo']), page, body, prof=False, titlesize=50)
+
+def html_newmap(n, stage, page):
+    q, centro, rami = NEWMAPS[n]
+    css = """<style>
+.nm{position:absolute;border-radius:16px;text-align:center;font-weight:700;display:flex;align-items:center;justify-content:center;padding:10px 14px;line-height:1.2}
+.c0{left:630px;top:330px;width:640px;height:90px;border:4px solid #E8472E;font-size:34px;font-weight:800;letter-spacing:.06em;background:#fff}
+.b1{width:326px;height:130px;top:560px;border:3.5px solid #0E6B7A;font-size:27px;background:#fff;font-weight:800}
+.l1{width:326px;height:170px;top:760px;border:3.5px solid #F2A31B;font-size:26px;font-weight:500;background:#fff}
+.ln{position:absolute;background:#444;width:3px}.hz{position:absolute;background:#444;height:3px}
+</style>"""
+    body = css + f"<div class='nm c0'>{esc(centro)}</div>"
+    xs = [80 + i * 354 for i in range(5)]
+    body += "<div class=ln style='left:950px;top:420px;height:70px'></div><div class=hz style='left:243px;width:1417px;top:490px'></div>"
+    for i, (h, d) in enumerate(rami):
+        op = 1 if i < stage else 0
+        cx = xs[i] + 163
+        body += f"<div style='opacity:{op}'><div class=ln style='left:{cx}px;top:490px;height:70px'></div><div class='nm b1' style='left:{xs[i]}px'>{esc(h[0].upper()+h[1:])}</div><div class=ln style='left:{cx}px;top:690px;height:70px'></div><div class='nm l1' style='left:{xs[i]}px'>{esc(d[0].upper()+d[1:])}</div></div>"
+    ttl = f"MAPPA CONCETTUALE · {P2(n):02d} · {ARG[n-1]['nome']}"
+    return frame(ttl, esc(q), page, body, prof=False, titlesize=50)
 
 def _test():
     cp = cards_from_pdf()

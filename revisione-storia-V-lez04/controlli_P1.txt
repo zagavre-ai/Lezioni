@@ -1,42 +1,37 @@
-[misurato] durata 53:46.3 (3226.3 s) | fotogrammi 96760 (attesi 96790) | peso 386.7 MB | 1920x1080 30/1
-[misurato] audio aac 48000 Hz, durata audio 3226.33 s (video 3226.33 s)
-[misurato] sha256 e665cc72621dcb4019a648d0a2abfe1ede2143c5a066d7d8ca19cf3a1d527ac5
-[misurato] LUFS integrato -16.0 | picco vero -1.8 dBTP
-[misurato] LUFS parlato del prof, campione su 4 pezzi: [-16.4, -16.9, -15.8, -16.9]
-[misurato] silenzi > 3 s (-55 dB): 13 [(15, 22.9), (762, 9.2), (772, 43.7), (1402, 26.7), (1431, 9.0), (1441, 46.2), (2480, 16.5), (2498, 8.3), (2507, 45.7), (3102, 9.1), (3112, 46.6), (3163, 37.9), (3202, 18.4)]
-[misurato] fermi del riquadro del prof >= 1 s dentro i pezzi del prof: 0 (un falso allarme di 16,8 s a 2479,7 s: è la mappa 2, senza prof, subito dopo il pezzo del prof)
-[misurato] jingle quiz 1: atteso 815.967 trovato 815.967 scarto -0.000 OK
-[misurato] jingle quiz 2: atteso 1487.467 trovato 1487.467 scarto -0.000 OK
-[misurato] jingle quiz 3: atteso 2553.567 trovato 2553.567 scarto -0.000 OK
-[misurato] jingle quiz 4: atteso 3158.667 trovato 3158.667 scarto -0.000 OK
+[misurato] durata 43:48.1 (2628.1 s) | fotogrammi 78842 (attesi 78842) | peso 322.5 MB | 1920x1080 30/1
+[misurato] audio aac 48000 Hz, durata audio 2628.07 s (video 2628.07 s)
+[misurato] sha256 37198fb96b84f1dd53e1b37945110ca6e0a036c4d218e435365ac46fd8349a5b
+[misurato] LUFS integrato -16.0 | picco vero -1.3 dBTP
+[misurato] LUFS parlato del prof, campione su 4 pezzi: [-16.1, -16.6, -15.5, -16.6]
+[misurato] silenzi > 3 s (-55 dB): 0 []
+[misurato] fermi del riquadro del prof >= 1 s dentro i pezzi del prof: 0 []
+[misurato] jingle quiz 1: atteso 833.967 trovato 833.967 scarto -0.000 OK
+[misurato] jingle quiz 2: atteso 1504.367 trovato 1504.367 scarto -0.000 OK
+[misurato] jingle quiz 3: atteso 2564.967 trovato 2564.967 scarto -0.000 OK
 
 | pezzo | presente | minuto di inizio | durata misurata (s) |
 |---|---|---|---|
 | sigla | sì | 0:00.0 | 15.0 |
-| cover | sì | 0:14.6 | 23.9 |
-| intro | sì | 0:38.1 | 216.0 |
-| titolo1 | sì | 4:13.8 | 4.0 |
-| prof1 | sì | 4:17.4 | 503.0 |
-| pillola1 | sì | 12:39.9 | 11.6 |
-| schema1 | sì | 12:51.1 | 44.7 |
-| quiz1 | sì | 13:35.5 | 5.0 |
-| titolo2 | sì | 13:40.1 | 4.0 |
-| prof2 | sì | 13:43.7 | 578.5 |
-| mappa1 | sì | 23:21.8 | 27.7 |
-| pillola2 | sì | 23:49.1 | 11.4 |
-| schema2 | sì | 24:00.1 | 47.3 |
-| quiz2 | sì | 24:47.0 | 5.0 |
-| titolo3 | sì | 24:51.6 | 4.0 |
-| prof3 | sì | 24:55.2 | 984.6 |
-| mappa2 | sì | 41:19.3 | 17.5 |
-| pillola3 | sì | 41:36.4 | 10.7 |
-| schema3 | sì | 41:46.8 | 46.7 |
-| quiz3 | sì | 42:33.1 | 5.0 |
-| titolo4 | sì | 42:37.7 | 4.0 |
-| prof4 | sì | 42:41.3 | 539.0 |
-| pillola4 | sì | 51:39.8 | 11.5 |
-| schema4 | sì | 51:50.9 | 47.7 |
-| quiz4 | sì | 52:38.2 | 5.0 |
-| glossario | sì | 52:42.8 | 39.0 |
-| riepilogo | sì | 53:21.3 | 19.4 |
-| finale | sì | 53:40.3 | 5.0 |
+| cover | sì | 0:14.6 | 19.8 |
+| intro | sì | 0:34.0 | 216.0 |
+| titolo1 | sì | 4:09.7 | 4.0 |
+| prof1 | sì | 4:13.3 | 503.0 |
+| mappa1 | sì | 12:35.8 | 28.8 |
+| pillola1 | sì | 13:04.3 | 10.3 |
+| schema1 | sì | 13:14.2 | 39.7 |
+| quiz1 | sì | 13:53.5 | 5.0 |
+| titolo2 | sì | 13:58.1 | 4.0 |
+| prof2 | sì | 14:01.7 | 578.5 |
+| mappa2 | sì | 23:39.8 | 35.2 |
+| pillola2 | sì | 24:14.6 | 10.3 |
+| schema2 | sì | 24:24.5 | 39.7 |
+| quiz2 | sì | 25:03.9 | 5.0 |
+| titolo3 | sì | 25:08.5 | 4.0 |
+| prof3 | sì | 25:12.1 | 984.6 |
+| mappa3 | sì | 41:36.2 | 18.4 |
+| pillola3 | sì | 41:54.3 | 11.0 |
+| schema3 | sì | 42:04.8 | 40.0 |
+| quiz3 | sì | 42:44.5 | 5.0 |
+| glossario | sì | 42:49.1 | 38.5 |
+| riepilogo | sì | 43:27.1 | 16.3 |
+| finale | sì | 43:43.1 | 5.0 |

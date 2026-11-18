@@ -12,7 +12,7 @@ TITLE = {4: 'Carta: i Balcani 1911–1913', 6: 'Foto: l’attentato di Sarajevo'
 A('## 4. Immagini e carte del prof mostrate (tabella immagine · Parte · minuto nel video)')
 A('Le immagini sono quelle delle slide del prof (`LEZIONE 4.pdf`); compaiono quando il prof le mostra nel suo video (riconosciute confrontando i fotogrammi con le pagine del PDF) e restano finché le commenta. Risoluzione nativa del PDF (circa 800 px di larghezza): **ingrandite, quindi morbide** (limite del materiale).')
 A('| immagine | Parte | argomento | da (min:s) | a (min:s) |\n|---|---|---|---|---|')
-for P in (1, 2):
+for P in (1, 2, 3):
     tl = {n: (s, f / 30) for n, s, f in json.load(open(f'{OUT}/tl_P{P}.json'))['timeline']}
     for pos, n in enumerate(PARTI[P], 1):
         j = json.load(open(f'{W}/pieces/P{P}_T{n}.mp4.json')); base = tl[f'prof{pos + POFF[P]}'][0]; acc = 0
@@ -40,6 +40,7 @@ A('- 0:59:41 circa: «Vittorio Emanuele **II**» detto/trascritto per il sovrano
 A('- 1:35:37 circa: le slide e la mappa danno «armistizio (4 novembre 1918)»; il prof dice «firmato il 3 novembre, in vigore il 4»: coerente, nessuna correzione.')
 A('- 1:15:43 circa, Lusitania: il prof dice «oltre 100 cittadini statunitensi», la cifra storica è 128: lasciato come detto.\n')
 A('## 7. Cosa NON ho verificato')
+A('- Il ripasso della Parte precedente all’inizio delle Parti 2 e 3 (kit/REGOLE 8/11) non c’è: apertura con sigla e benvenuto Kore; il riepilogo finale di ogni Parte c’è.')
 A('- **Ascolto umano:** nessun passaggio è stato riascoltato da una persona; le misure di tempi e livelli sono automatiche.')
 A('- **Sincronia delle card:** la card in corso è scelta da parole-guida nel parlato; controllata a campione su 6 punti, non su tutta la lezione. Dove il prof parla di argomenti non presenti sulla slide la card resta quella dell’ultimo punto trattato.')
 A('- **Voci Kore:** pronuncia di nomi e termini (Tirpitz, Schlieffen, Sarajevo, Versailles…) da ascoltare.')

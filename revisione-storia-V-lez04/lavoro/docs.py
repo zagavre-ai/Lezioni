@@ -44,20 +44,19 @@ def vtt_cues():
         tot = sum(len(c) for c in chunks); t = START[piece] + off_s
         for c in chunks:
             dd = d * len(c) / tot; cues.append((t, t + dd - 0.05, c)); t += dd
-    voice('cover', 'cover', 0.5, f'BEN{P}')
+    voice('cover', 'cover', 0.5, BEN[P])
     for pos, n in enumerate(order, 1):
         g = pos + off
         voice('pillola', f'pillola{g}', 0.9, f'PI{n}')
         t = 0.8
         for k in range(1, 6):
             nm = f'SC{n}_{k}'; d = vdur(nm)
-            cues.append((START[f'schema{g}'] + t, START[f'schema{g}'] + t + d, DISP(T[nm]))); t += d + 2.5
-    for k, m in enumerate(MAPPE, 1):
-        if f'mappa{k}' in START: voice('mappa', f'mappa{k}', 0.5, f'MAP{k}')
+            cues.append((START[f'schema{g}'] + t, START[f'schema{g}'] + t + d, DISP(T[nm]))); t += d + 1.8
+    for n in order: voice('mappa', f'mappa{n}', 0.5, mapvoice(n))
     t = START['glossario'] + 0.6; cues.append((t, t + vdur('GL0'), T['GL0'])); t += vdur('GL0') + 1.0
-    for gi in ([1, 2, 3, 4, 5] if P == 1 else [6, 7, 8, 9, 10]):
+    for gi in [i + 1 for i in GLP[P]]:
         d = vdur(f'GL{gi}'); cues.append((t, t + d, DISP(T[f'GL{gi}']))); t += d + 1.2
-    voice('riepilogo', 'riepilogo', 0.8, f'FIN{P}')
+    voice('riepilogo', 'riepilogo', 0.8, FIN[P])
     cues.sort()
     res = []
     for i, (a, b, tx) in enumerate(cues):
@@ -82,7 +81,7 @@ def write_scheda():
         args.append({"n": g, "titolo": ARG[n - 1]['nome'], "inizio_s": round(START[f'titolo{g}'], 3), "quiz_s": round(START[f'quiz{g}'], 3)})
         quiz[f'Q{g}'] = {"title": f"Quiz {g} · {ARG[n - 1]['nome']}", "items": quiz_items(n)}
     d = {"materia": "Storia", "titolo": f"Storia V · Lezione 4 · La Prima guerra mondiale · Parte {P}", "durata_s": round(total, 2), "argomenti": args, "quiz": quiz}
-    if P == 2: d['t_verifica'] = round(START['finale'], 2); d['t_compiti'] = round(START['finale'], 2)
+    if P == 3: d['t_verifica'] = round(START['finale'], 2); d['t_compiti'] = round(START['finale'], 2)
     json.dump(d, open(f'{OUT}/scheda_pubblicazione_Parte{P}.json', 'w'), ensure_ascii=False, indent=1)
     # youtube
     def mmss(t): return '%d:%02d' % (t // 60, t % 60)
