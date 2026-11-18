@@ -1,72 +1,292 @@
 [
  {
-  "nome": "MAP1",
-  "testo": "Ecco la mappa dell'Europa centro-orientale. Primo ramo: il crollo degli imperi, quello zarista e quello austro-ungarico, che stravolge la mappa europea. Secondo ramo: i nuovi Stati nazionali, come la Polonia e la Cecoslovacchia. Terzo ramo: gli Stati cuscinetto, creati dalle potenze vincitrici contro la Russia e la Germania. Quarto ramo: i territori zaristi. La Finlandia mantiene l'indipendenza, mentre Ucraina, Georgia e Bielorussia vengono rioccupate dalle truppe bolsceviche entro il millenovecentoventidue.",
+  "nome": "BEN",
+  "testo": "Benvenuti alla lezione di Storia. Oggi parliamo del primo dopoguerra, dal millenovecentodiciannove al millenovecentoventicinque. Il professor Giorgio Mazzotti ci guida attraverso otto argomenti: l'Europa centro-orientale, la Germania di Weimar, Francia e Regno Unito, il Medio Oriente e la Turchia, e i movimenti anticoloniali e nazionalisti in Africa e Asia.",
   "lingua": "it"
  },
  {
-  "nome": "ANB2",
-  "testo": "Vediamo come si perde la stabilità. In Jugoslavia prevale il centralismo serbo, le tensioni etniche crescono e nel millenovecentoventinove il re instaura la dittatura. In Polonia, dopo la guerra contro la Russia e la pace di Riga, il maresciallo Piłsudski instaura un regime dittatoriale nel millenovecentotrenta. In Ungheria, dopo la breve Repubblica sovietica di Béla Kun, l'ammiraglio Horthy restaura formalmente la monarchia e governa come reggente. L'Austria, ridotta a una piccola repubblica, subisce una gravissima crisi economica e scontri tra socialdemocratici e conservatori.",
+  "nome": "PI1",
+  "testo": "Facciamo un riepilogo di quello che hai appena visto: L'Europa centro-orientale. Guarda lo schema e ripeti ad alta voce.",
   "lingua": "it"
  },
  {
-  "nome": "MAP2",
-  "testo": "Ecco la mappa dell'instabilità nell'Europa dell'Est. Primo ramo: la Jugoslavia, con il centralismo serbo e la dittatura del re nel millenovecentoventinove. Secondo ramo: la Polonia di Piłsudski, che instaura un regime nel millenovecentotrenta. Terzo ramo: l'Ungheria di Horthy, dopo la Repubblica sovietica di Béla Kun. Quarto ramo: l'Austria, colpita da una gravissima crisi economica e da scontri politici.",
+  "nome": "SC1_1",
+  "testo": "Primo: la fine dell'Impero zarista e di quello austro-ungarico stravolge la mappa europea.",
   "lingua": "it"
  },
  {
-  "nome": "ANB3",
-  "testo": "La Repubblica di Weimar nasce già sotto attacco. Dopo l'abdicazione del Kaiser nel millenovecentodiciotto nasce una repubblica democratica e parlamentare, guidata dai socialdemocratici. All'inizio del millenovecentodiciannove il governo reprime nel sangue la rivolta comunista spartachista, guidata da Karl Liebknecht e Rosa Luxemburg. La Costituzione, approvata a Weimar, introduce il suffragio universale maschile e femminile, ma concede ampi poteri di emergenza al presidente. Il trattato di Versailles, vissuto come un diktat, alimenta intanto l'odio delle forze di estrema destra.",
+  "nome": "SC1_2",
+  "testo": "Secondo: nascono Cecoslovacchia, Polonia e il Regno dei Serbi, Croati e Sloveni.",
   "lingua": "it"
  },
  {
-  "nome": "MAP3",
-  "testo": "Ecco la mappa della Repubblica di Weimar. Primo ramo: la nascita della repubblica democratica, dopo l'abdicazione del Kaiser. Secondo ramo: la minaccia comunista, con la rivolta spartachista di Liebknecht e Luxemburg. Terzo ramo: la Costituzione, con il suffragio universale e i poteri di emergenza al presidente. Quarto ramo: Versailles, vissuto come un diktat che alimenta l'odio dell'estrema destra.",
+  "nome": "SC1_3",
+  "testo": "Terzo: i vincitori creano Stati cuscinetto per arginare la Russia bolscevica e contenere la Germania.",
   "lingua": "it"
  },
  {
-  "nome": "MAP4",
-  "testo": "Ecco la mappa della crisi in Germania. Primo ramo: le riparazioni di guerra, centotrentadue miliardi di marchi-oro. Secondo ramo: l'iperinflazione, che azzera i risparmi della classe media. Terzo ramo: i colpi di Stato, il putsch di Kapp del millenovecentoventi e quello di Monaco del millenovecentoventitré. Quarto ramo: l'occupazione della Ruhr, da parte di truppe francesi e belghe, nel millenovecentoventitré. Quinto ramo: la stabilizzazione, con il Piano Dawes e il governo Stresemann nel millenovecentoventiquattro.",
+  "nome": "SC1_4",
+  "testo": "Quarto: la Finlandia resta indipendente, mentre Ucraina, Georgia e Bielorussia sono rioccupate dai bolscevichi entro il millenovecentoventidue.",
   "lingua": "it"
  },
  {
-  "nome": "ANB5",
-  "testo": "Anche i Paesi vincitori affrontano grandi difficoltà. La Francia sostiene enormi costi di ricostruzione e una forte inflazione, e al governo si alternano il Blocco nazionale di centro-destra e il Cartello delle sinistre. Nel Regno Unito il governo di Lloyd George introduce riforme sociali, tra cui il voto alle donne sopra i trent'anni e sussidi per i disoccupati. Nel millenovecentoventuno, dopo la guerriglia dell'IRA, nasce lo Stato Libero d'Irlanda, che esclude il Nord, e scoppia una sanguinosa guerra civile. Nel Regno Unito il malcontento culmina nei grandi scioperi dei minatori del millenovecentoventisei.",
+  "nome": "MAPN1",
+  "testo": "Ecco la mappa di questo argomento: L'Europa centro-orientale. Primo ramo, crollo degli imperi: la fine dell'Impero zarista e di quello austro-ungarico stravolge la mappa europea. Secondo ramo, nuovi Stati nazionali: nascono Cecoslovacchia, Polonia e il Regno dei Serbi, Croati e Sloveni. Terzo ramo, stati cuscinetto: i vincitori creano Stati cuscinetto per arginare la Russia bolscevica e contenere la Germania. Quarto ramo, territori zaristi: la Finlandia resta indipendente, mentre Ucraina, Georgia e Bielorussia sono rioccupate dai bolscevichi entro il millenovecentoventidue.",
   "lingua": "it"
  },
  {
-  "nome": "MAP5",
-  "testo": "Ecco la mappa di Francia e Regno Unito. Primo ramo: la Francia, tra costi di ricostruzione, inflazione e l'alternanza tra Blocco nazionale e Cartello delle sinistre. Secondo ramo: il Regno Unito, con le riforme sociali di Lloyd George e il voto alle donne. Terzo ramo: le tensioni sociali, che culminano negli scioperi dei minatori del millenovecentoventisei. Quarto ramo: l'Irlanda, con la nascita dello Stato Libero nel millenovecentoventuno.",
+  "nome": "PI2",
+  "testo": "Facciamo un riepilogo di quello che hai appena visto: Regimi autoritari dell'Est. Guarda lo schema e ripeti ad alta voce.",
   "lingua": "it"
  },
  {
-  "nome": "MAP6",
-  "testo": "Ecco la mappa del Medio Oriente e della Turchia. Primo ramo: il trattato di Sèvres del millenovecentoventi, che prevede la spartizione dell'Impero ottomano. Secondo ramo: la riscossa turca di Mustafa Kemal, che ottiene il trattato di Losanna nel millenovecentoventitré. Terzo ramo: la modernizzazione di Atatürk, con la capitale ad Ankara e uno Stato laico. Quarto ramo: i mandati della Società delle Nazioni, a Regno Unito e Francia. Quinto ramo: le promesse tradite agli arabi, dopo l'accordo segreto Sykes-Picot.",
+  "nome": "SC2_1",
+  "testo": "Primo: prevale il centralismo serbo e il re instaura la dittatura nel millenovecentoventinove.",
   "lingua": "it"
  },
  {
-  "nome": "ANB7",
-  "testo": "Vediamo come cresce la protesta contro le potenze coloniali. L'Egitto ottiene una formale indipendenza dal Regno Unito nel millenovecentoventidue, ma gli inglesi mantengono il controllo militare del territorio. In India, dopo il massacro di Amritsar del millenovecentodiciannove, Gandhi guida la protesta con la disobbedienza civile e il boicottaggio, fino alla marcia del sale del millenovecentotrenta. L'impero coloniale francese affronta rivolte armate in Marocco e in Indocina, dove comincia a organizzarsi il movimento nazionalista vietnamita guidato da Ho Chi Minh.",
+  "nome": "SC2_2",
+  "testo": "Secondo: dopo la pace di Riga del millenovecentoventuno, Piłsudski instaura una dittatura nel millenovecentotrenta.",
   "lingua": "it"
  },
  {
-  "nome": "MAP7",
-  "testo": "Ecco la mappa dei movimenti anticoloniali. Primo ramo: l'Egitto, con una indipendenza solo formale nel millenovecentoventidue. Secondo ramo: l'India, con la non violenza di Gandhi e la marcia del sale. Terzo ramo: il massacro di Amritsar del millenovecentodiciannove, che spinge alla protesta. Quarto ramo: la rivolta armata in Marocco contro i francesi. Quinto ramo: l'Indocina, dove nasce il movimento nazionalista di Ho Chi Minh.",
+  "nome": "SC2_3",
+  "testo": "Terzo: dopo la Repubblica sovietica di Béla Kun, Horthy restaura la monarchia e governa da reggente.",
   "lingua": "it"
  },
  {
-  "nome": "ANB8",
-  "testo": "Guardiamo all'Estremo Oriente. Il Giappone si afferma come grande potenza imperialista e ottiene le ex colonie tedesche nel Pacifico, ma a Versailles matura un forte risentimento e un nazionalismo contro le potenze occidentali. Dopo la morte di Yuan Shikai, nel millenovecentosedici, la Cina cade nel caos, controllata dai signori della guerra locali. Il Guomintang, guidato da Sun Yat-sen, si allea con i comunisti per unificare il Paese. Ma nel millenovecentoventisei Chiang Kai-shek assume la guida del partito, rompe l'alleanza e avvia una violenta repressione contro i comunisti: sono le basi della guerra civile.",
+  "nome": "SC2_4",
+  "testo": "Quarto: piccola repubblica in grave crisi economica, con scontri tra socialdemocratici e conservatori.",
   "lingua": "it"
  },
  {
-  "nome": "MAP8",
-  "testo": "Ecco la mappa dell'Estremo Oriente. Primo ramo: il Giappone, grande potenza imperialista che ottiene le ex colonie tedesche nel Pacifico. Secondo ramo: il nazionalismo, nato dal risentimento contro le potenze occidentali a Versailles. Terzo ramo: la Cina nel caos dei signori della guerra, dopo la morte di Yuan Shikai. Quarto ramo: il Guomintang di Sun Yat-sen, alleato dei comunisti. Quinto ramo: la rottura con i comunisti da parte di Chiang Kai-shek, nel millenovecentoventisei, che prepara la guerra civile.",
+  "nome": "MAPN2",
+  "testo": "Ecco la mappa di questo argomento: Regimi autoritari dell'Est. Primo ramo, jugoslavia: prevale il centralismo serbo e il re instaura la dittatura nel millenovecentoventinove. Secondo ramo, polonia: dopo la pace di Riga del millenovecentoventuno, Piłsudski instaura una dittatura nel millenovecentotrenta. Terzo ramo, ungheria: dopo la Repubblica sovietica di Béla Kun, Horthy restaura la monarchia e governa da reggente. Quarto ramo, austria: piccola repubblica in grave crisi economica, con scontri tra socialdemocratici e conservatori.",
   "lingua": "it"
  },
  {
-  "nome": "MAPF1",
-  "testo": "Ecco la mappa di tutto il primo dopoguerra. Dai crolli degli imperi nascono nuovi Stati nell'Europa dell'Est, presto segnati da regimi autoritari. In Germania la Repubblica di Weimar attraversa crisi e ripresa. Anche i vincitori, come Francia e Regno Unito, affrontano grandi difficoltà. Nel Medio Oriente i mandati segnano il destino degli arabi, mentre nasce la Turchia di Atatürk. In Africa e in Asia crescono i movimenti per l'indipendenza, da Gandhi a Ho Chi Minh. E in Estremo Oriente si affermano i nazionalismi di Giappone e Cina.",
+  "nome": "PI3",
+  "testo": "Facciamo un riepilogo di quello che hai appena visto: La Repubblica di Weimar. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC3_1",
+  "testo": "Primo: dopo l'abdicazione del Kaiser nel millenovecentodiciotto nasce una repubblica democratica guidata dai socialdemocratici.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC3_2",
+  "testo": "Secondo: nel millenovecentodiciannove il governo reprime la rivolta spartachista di Liebknecht e Rosa Luxemburg.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC3_3",
+  "testo": "Terzo: introduce il suffragio universale ma dà ampi poteri di emergenza al presidente.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC3_4",
+  "testo": "Quarto: la pace è vissuta come un diktat e alimenta l'odio dell'estrema destra.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MAPN3",
+  "testo": "Ecco la mappa di questo argomento: La Repubblica di Weimar. Primo ramo, nascita della Repubblica: dopo l'abdicazione del Kaiser nel millenovecentodiciotto nasce una repubblica democratica guidata dai socialdemocratici. Secondo ramo, minacce rivoluzionarie: nel millenovecentodiciannove il governo reprime la rivolta spartachista di Liebknecht e Rosa Luxemburg. Terzo ramo, costituzione di Weimar: introduce il suffragio universale ma dà ampi poteri di emergenza al presidente. Quarto ramo, umiliazione di Versailles: la pace è vissuta come un diktat e alimenta l'odio dell'estrema destra.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PI4",
+  "testo": "Facciamo un riepilogo di quello che hai appena visto: La crisi della Germania. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC4_1",
+  "testo": "Primo: le riparazioni, centotrentadue miliardi di marchi oro, fanno collassare la moneta e azzerano i risparmi.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC4_2",
+  "testo": "Secondo: fallisce il putsch di Kapp nel millenovecentoventi e quello di Monaco di Hitler nel millenovecentoventitré.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC4_3",
+  "testo": "Terzo: nel millenovecentoventitré truppe francesi e belghe occupano la Ruhr.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC4_4",
+  "testo": "Quarto: Stresemann e il Piano Dawes del millenovecentoventiquattro portano prestiti americani e una ripresa.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MAPN4",
+  "testo": "Ecco la mappa di questo argomento: La crisi della Germania. Primo ramo, iperinflazione: le riparazioni, centotrentadue miliardi di marchi oro, fanno collassare la moneta e azzerano i risparmi. Secondo ramo, colpi di Stato: fallisce il putsch di Kapp nel millenovecentoventi e quello di Monaco di Hitler nel millenovecentoventitré. Terzo ramo, occupazione della Ruhr: nel millenovecentoventitré truppe francesi e belghe occupano la Ruhr. Quarto ramo, stabilizzazione: stresemann e il Piano Dawes del millenovecentoventiquattro portano prestiti americani e una ripresa.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PI5",
+  "testo": "Facciamo un riepilogo di quello che hai appena visto: Francia e Regno Unito. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC5_1",
+  "testo": "Primo: ricostruzione costosa e inflazione, con l'alternanza tra Blocco nazionale e Cartello delle sinistre.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC5_2",
+  "testo": "Secondo: Lloyd George introduce riforme sociali, tra cui il voto alle donne sopra i trent'anni.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC5_3",
+  "testo": "Terzo: il malcontento culmina nei grandi scioperi dei minatori del millenovecentoventisei.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC5_4",
+  "testo": "Quarto: nel millenovecentoventuno nasce lo Stato Libero d'Irlanda, e scoppia una guerra civile.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MAPN5",
+  "testo": "Ecco la mappa di questo argomento: Francia e Regno Unito. Primo ramo, francia: ricostruzione costosa e inflazione, con l'alternanza tra Blocco nazionale e Cartello delle sinistre. Secondo ramo, regno Unito: lloyd George introduce riforme sociali, tra cui il voto alle donne sopra i trent'anni. Terzo ramo, tensioni sociali: il malcontento culmina nei grandi scioperi dei minatori del millenovecentoventisei. Quarto ramo, questione irlandese: nel millenovecentoventuno nasce lo Stato Libero d'Irlanda, e scoppia una guerra civile.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PI6",
+  "testo": "Facciamo un riepilogo di quello che hai appena visto: Il Medio Oriente e la Turchia. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC6_1",
+  "testo": "Primo: il trattato di Sèvres del millenovecentoventi prevede la spartizione dell'Impero ottomano.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC6_2",
+  "testo": "Secondo: Mustafa Kemal vince la guerra contro i greci e ottiene Losanna nel millenovecentoventitré.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC6_3",
+  "testo": "Terzo: Repubblica, capitale ad Ankara, alfabeto latino, fine della poligamia e Stato laico.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC6_4",
+  "testo": "Quarto: l'accordo Sykes-Picot e i mandati affidano il Medio Oriente a Regno Unito e Francia.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MAPN6",
+  "testo": "Ecco la mappa di questo argomento: Il Medio Oriente e la Turchia. Primo ramo, crollo ottomano: il trattato di Sèvres del millenovecentoventi prevede la spartizione dell'Impero ottomano. Secondo ramo, riscossa turca: mustafa Kemal vince la guerra contro i greci e ottiene Losanna nel millenovecentoventitré. Terzo ramo, modernizzazione di Atatürk: repubblica, capitale ad Ankara, alfabeto latino, fine della poligamia e Stato laico. Quarto ramo, promesse tradite agli arabi: l'accordo Sykes-Picot e i mandati affidano il Medio Oriente a Regno Unito e Francia.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PI7",
+  "testo": "Facciamo un riepilogo di quello che hai appena visto: I movimenti anticoloniali. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC7_1",
+  "testo": "Primo: formale indipendenza dal Regno Unito nel millenovecentoventidue, ma controllo militare britannico.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC7_2",
+  "testo": "Secondo: dopo Amritsar, Gandhi guida disobbedienza civile, boicottaggio e marcia del sale.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC7_3",
+  "testo": "Terzo: rivolte in Marocco e in Indocina, dove si organizza il movimento di Ho Chi Minh.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MAPN7",
+  "testo": "Ecco la mappa di questo argomento: I movimenti anticoloniali. Primo ramo, egitto: formale indipendenza dal Regno Unito nel millenovecentoventidue, ma controllo militare britannico. Secondo ramo, india e non-violenza: dopo Amritsar, Gandhi guida disobbedienza civile, boicottaggio e marcia del sale. Terzo ramo, impero francese: rivolte in Marocco e in Indocina, dove si organizza il movimento di Ho Chi Minh.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PI8",
+  "testo": "Facciamo un riepilogo di quello che hai appena visto: Nazionalismi in Estremo Oriente. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC8_1",
+  "testo": "Primo: grande potenza imperialista, ottiene le ex colonie tedesche ma matura risentimento verso l'Occidente.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC8_2",
+  "testo": "Secondo: dopo la morte di Yuan Shikai nel millenovecentosedici governano i signori della guerra.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC8_3",
+  "testo": "Terzo: il Guomintang di Sun Yat-sen si allea con i comunisti per unificare il Paese.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC8_4",
+  "testo": "Quarto: nel millenovecentoventisei Chiang Kai-shek rompe l'alleanza e reprime i comunisti.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MAPN8",
+  "testo": "Ecco la mappa di questo argomento: Nazionalismi in Estremo Oriente. Primo ramo, giappone: grande potenza imperialista, ottiene le ex colonie tedesche ma matura risentimento verso l'Occidente. Secondo ramo, cina nel caos: dopo la morte di Yuan Shikai nel millenovecentosedici governano i signori della guerra. Terzo ramo, svolta nazionalista: il Guomintang di Sun Yat-sen si allea con i comunisti per unificare il Paese. Quarto ramo, rottura e guerra civile: nel millenovecentoventisei Chiang Kai-shek rompe l'alleanza e reprime i comunisti.",
+  "lingua": "it"
+ },
+ {
+  "nome": "GL0",
+  "testo": "Ripassiamo le parole chiave della lezione.",
+  "lingua": "it"
+ },
+ {
+  "nome": "GL1",
+  "testo": "Stati cuscinetto: gli Stati creati per separare e contenere Russia bolscevica e Germania.",
+  "lingua": "it"
+ },
+ {
+  "nome": "GL2",
+  "testo": "Spartachisti: i comunisti tedeschi guidati da Liebknecht e Rosa Luxemburg, repressi nel 1919.",
+  "lingua": "it"
+ },
+ {
+  "nome": "GL3",
+  "testo": "Diktat: la pace imposta alla Germania a Versailles, vissuta come umiliazione.",
+  "lingua": "it"
+ },
+ {
+  "nome": "GL4",
+  "testo": "Iperinflazione: la perdita di valore della moneta che azzera i risparmi.",
+  "lingua": "it"
+ },
+ {
+  "nome": "GL5",
+  "testo": "Mandato: l'amministrazione di un territorio affidata a una potenza dalla Società delle Nazioni.",
+  "lingua": "it"
+ },
+ {
+  "nome": "GL6",
+  "testo": "Stato laico: lo Stato separato dalla religione, come la Turchia di Atatürk.",
+  "lingua": "it"
+ },
+ {
+  "nome": "GL7",
+  "testo": "Disobbedienza civile: la protesta non violenta di Gandhi contro le leggi inglesi.",
+  "lingua": "it"
+ },
+ {
+  "nome": "GL8",
+  "testo": "Guomintang: il partito nazionalista cinese di Sun Yat-sen e poi di Chiang Kai-shek.",
+  "lingua": "it"
+ },
+ {
+  "nome": "FIN",
+  "testo": "Ricapitoliamo la lezione. La riorganizzazione dell'Europa centro-orientale e i regimi autoritari dell'Est. La Germania di Weimar e la sua crisi. Francia e Regno Unito, il Medio Oriente e la nascita della Turchia moderna, i movimenti anticoloniali in Africa e Asia, e i nazionalismi in Estremo Oriente.",
   "lingua": "it"
  }
 ]
