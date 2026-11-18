@@ -2,26 +2,25 @@
  "tag": "storia-V-lez10",
  "parti": {
   "1": {
-   "stato": "IN_MONTAGGIO",
-   "voci": "segnaposto"
+   "stato": "IN_REVISIONE"
   }
  },
  "manca": "",
  "serve_master": [
   {
-   "quando": "16/11 21:52",
-   "testo": "Testi voci (28) e quiz (40 domande) sul ramo voci-storia-V-lez10, una sola richiesta per le 2 Parti. Mappe del prof per la 10 NON presenti: non le invento."
+   "quando": "18/11 13:28",
+   "testo": "Voci nuove da generare (11) in scambio/storia-V-lez10/testi_voci.json sul ramo voci-storia-V-lez10: RI1-RI8 (introduzione blu del ripasso) e M1-M3 (lettura mappe del prof). Bloccano la chiusura delle Parti 1 e 2."
   }
  ],
  "domande_sara": [],
  "note": [
   {
-   "quando": "16/11 12:24",
-   "testo": "Storia V · chat S8"
+   "quando": "18/11 13:28",
+   "testo": "chat v3 · rifacimento da zero · montaggio in corso"
   }
  ],
  "materia": "Storia V",
  "lezione": "Lezione 10",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-16 21:52:54"
+ "aggiornato": "2026-11-18 13:28:51"
 }
