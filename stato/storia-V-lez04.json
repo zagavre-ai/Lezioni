@@ -1,25 +1,27 @@
 {
  "tag": "storia-V-lez04",
- "parti": {},
- "manca": "montaggio completo da zero (nessuna consegna ne voci precedenti); 3 Parti servono; mappe prof solo 6",
- "serve_master": [],
- "domande_sara": [
+ "parti": {
+  "1": {
+   "stato": "IN_MONTAGGIO",
+   "voci": "segnaposto"
+  }
+ },
+ "manca": "",
+ "serve_master": [
   {
-   "quando": "18/11 12:30",
-   "testo": "Lez 4 dura 104 min: la dividiamo in 3 Parti (~43 min) invece di 2? Mappe del prof solo 6 su ~11 argomenti: ok senza mappa per gli altri?"
+   "quando": "18/11 12:50",
+   "testo": "storia-V-lez04: attendo le voci Kore (87 voci in scambio/storia-V-lez04/testi_voci.json, ramo voci-storia-V-lez04, push alle 12:22 e 12:30). Sono necessarie per cover, mappe, pillole, schemi, glossario, riepilogo. Il resto (prof, titoli, quiz) è in lavorazione."
   }
  ],
+ "domande_sara": [],
  "note": [
   {
-   "quando": "18/11 12:08",
-   "testo": "chat v3: parto da zero, non c'e consegna ne voci per la lez 4"
-  },
-  {
-   "quando": "18/11 12:30",
-   "testo": "analisi su ramo revisione-storia-V-lez04"
+   "quando": "18/11 12:23",
+   "testo": "chat v3 revisione: voci inviate (85) nel ramo voci-storia-V-lez04; trascrizione in corso; 2 Parti previste"
   }
  ],
- "materia": "storia-V",
- "lezione": "4",
- "aggiornato": "2026-11-18 12:30:27"
+ "materia": "Storia V",
+ "lezione": "Lezione 4 · La Prima guerra mondiale",
+ "docente": "Prof. Giorgio Mazzotti",
+ "aggiornato": "2026-11-18 12:50:49"
 }
