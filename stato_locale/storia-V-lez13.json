@@ -1,0 +1,30 @@
+{
+ "tag": "storia-V-lez13",
+ "parti": {
+  "1": {
+   "stato": "IN_REVISIONE"
+  }
+ },
+ "manca": "",
+ "serve_master": [
+  {
+   "quando": "18/11 19:36",
+   "testo": "Voci nuove (17) da generare in scambio/storia-V-lez13/testi_voci.json, ramo voci-storia-V-lez13: RI1-RI11 e MP1-MP6. Le altre voci già presenti le controllo io."
+  }
+ ],
+ "domande_sara": [],
+ "note": [
+  {
+   "quando": "18/11 19:33",
+   "testo": "PRENOTATA 18/11 17:30 · chat v3 rifacimento da zero"
+  },
+  {
+   "quando": "18/11 19:52",
+   "testo": "18/11 19:50 avvio fatto (trascrizione, cambi slide, voci RI/MP richieste); NON consegnabile in 3 h: stima 4-5 h. Note e trascrizioni nel ramo claude/youthful-euler-3ff21r, scambio/prompt/note_lez13"
+  }
+ ],
+ "materia": "Storia V",
+ "lezione": "Lezione 13",
+ "docente": "Prof. Giorgio Mazzotti",
+ "aggiornato": "2026-11-18 19:52:53"
+}
