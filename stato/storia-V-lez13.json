@@ -6,7 +6,12 @@
   }
  },
  "manca": "",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "18/11 19:36",
+   "testo": "Voci nuove (17) da generare in scambio/storia-V-lez13/testi_voci.json, ramo voci-storia-V-lez13: RI1-RI11 e MP1-MP6. Le altre voci già presenti le controllo io."
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
@@ -17,5 +22,5 @@
  "materia": "Storia V",
  "lezione": "Lezione 13",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-18 19:33:57"
+ "aggiornato": "2026-11-18 19:36:10"
 }
