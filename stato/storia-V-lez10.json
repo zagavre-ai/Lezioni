@@ -2,7 +2,7 @@
  "tag": "storia-V-lez10",
  "parti": {
   "1": {
-   "stato": "IN_REVISIONE"
+   "stato": "REVISIONATA"
   }
  },
  "manca": "",
@@ -17,10 +17,14 @@
   {
    "quando": "18/11 13:28",
    "testo": "chat v3 · rifacimento da zero · montaggio in corso"
+  },
+  {
+   "quando": "18/11 17:11",
+   "testo": "REVISIONATA (rifatta da zero) · Parte 1 59:47,9 · Parte 2 52:21,5 · ramo revisione-storia-V-lez10 · DEVIAZIONI NOTE nel rapporto §8 (silenzi >3 s su pillole blu, -17 LUFS, sottotitoli non riletti)"
   }
  ],
  "materia": "Storia V",
  "lezione": "Lezione 10",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-18 13:28:51"
+ "aggiornato": "2026-11-18 17:11:42"
 }
