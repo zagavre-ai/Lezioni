@@ -1,31 +1,31 @@
 {
  "materia": "Letteratura italiana (V)",
  "titolo": "Letteratura V · Lezione 9 · Giovanni Pascoli · Parte 1",
- "durata_s": 3230.6,
+ "durata_s": 3286.613,
  "argomenti": [
   {
    "n": 1,
    "titolo": "La vita di Giovanni Pascoli",
    "inizio_s": 43.7,
-   "quiz_s": 1090.367
+   "quiz_s": 1104.367
   },
   {
    "n": 2,
    "titolo": "La teoria del nido",
-   "inizio_s": 1095.367,
-   "quiz_s": 1427.5
+   "inizio_s": 1109.367,
+   "quiz_s": 1455.5
   },
   {
    "n": 3,
    "titolo": "La poetica del fanciullino",
-   "inizio_s": 1432.5,
-   "quiz_s": 2648.6
+   "inizio_s": 1460.5,
+   "quiz_s": 2690.6
   },
   {
    "n": 4,
    "titolo": "Myricae e i Canti di Castelvecchio",
-   "inizio_s": 2653.6,
-   "quiz_s": 3109.733
+   "inizio_s": 2695.6,
+   "quiz_s": 3165.733
   }
  ],
  "quiz": {
@@ -250,5 +250,5 @@
    ]
   }
  },
- "t_verifica": 3220.533
+ "t_verifica": 3276.533
 }
