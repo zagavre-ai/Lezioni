@@ -1,43 +1,43 @@
 {
  "materia": "Letteratura italiana (V)",
  "titolo": "Letteratura V · Lezione 1 · L'età del Naturalismo e del Decadentismo",
- "durata_s": 3578.067,
+ "durata_s": 3662.069,
  "argomenti": [
   {
    "n": 1,
    "titolo": "Il Regno d'Italia e il panorama politico",
    "inizio_s": 184.9,
-   "quiz_s": 585.267
+   "quiz_s": 599.267
   },
   {
    "n": 2,
    "titolo": "Sviluppo economico, sociale e culturale",
-   "inizio_s": 590.567,
-   "quiz_s": 1048.267
+   "inizio_s": 604.567,
+   "quiz_s": 1076.267
   },
   {
    "n": 3,
    "titolo": "Istituzioni culturali e il ruolo degli intellettuali",
-   "inizio_s": 1053.567,
-   "quiz_s": 1564.767
+   "inizio_s": 1081.567,
+   "quiz_s": 1606.767
   },
   {
    "n": 4,
    "titolo": "La storia della lingua italiana",
-   "inizio_s": 1570.067,
-   "quiz_s": 2017.5
+   "inizio_s": 1612.067,
+   "quiz_s": 2073.5
   },
   {
    "n": 5,
    "titolo": "Charles Baudelaire e il nuovo modello di artista",
-   "inizio_s": 2022.8,
-   "quiz_s": 2628.9
+   "inizio_s": 2078.8,
+   "quiz_s": 2698.9
   },
   {
    "n": 6,
    "titolo": "Le innovazioni poetiche di Baudelaire",
-   "inizio_s": 2634.2,
-   "quiz_s": 3330.633
+   "inizio_s": 2704.2,
+   "quiz_s": 3414.633
   }
  ],
  "quiz": {
@@ -372,8 +372,8 @@
    ]
   }
  },
- "t_verifica": 3808.729,
- "t_compiti": 3827.529,
+ "t_verifica": 3892.729,
+ "t_compiti": 3911.529,
  "approfondimenti": [
   {
    "id": "AP1a",
@@ -383,62 +383,62 @@
   {
    "id": "MP1",
    "titolo": "Il Regno d’Italia",
-   "inizio_s": 529.133
+   "inizio_s": 543.133
   },
   {
    "id": "AP2a",
    "titolo": "Economia e società",
-   "inizio_s": 981.866
+   "inizio_s": 995.866
   },
   {
    "id": "MP2",
    "titolo": "Sviluppo economico e sociale",
-   "inizio_s": 1037.432
+   "inizio_s": 1065.432
   },
   {
    "id": "AP3a",
    "titolo": "Scuola, editoria, intellettuali",
-   "inizio_s": 1561.598
+   "inizio_s": 1603.598
   },
   {
    "id": "MP3",
    "titolo": "Istituzioni e intellettuali",
-   "inizio_s": 1614.198
+   "inizio_s": 1656.198
   },
   {
    "id": "AP4a",
    "titolo": "Dal dialetto all’italiano",
-   "inizio_s": 2051.931
+   "inizio_s": 2107.931
   },
   {
    "id": "MP4",
    "titolo": "La lingua italiana",
-   "inizio_s": 2107.331
+   "inizio_s": 2163.331
   },
   {
    "id": "AP5a",
    "titolo": "Baudelaire: vita e opera",
-   "inizio_s": 2658.864
+   "inizio_s": 2728.864
   },
   {
    "id": "MP5",
    "titolo": "Charles Baudelaire",
-   "inizio_s": 2705.764
+   "inizio_s": 2775.764
   },
   {
    "id": "AP6a",
    "titolo": "Le innovazioni di Baudelaire",
-   "inizio_s": 3389.964
+   "inizio_s": 3473.964
   },
   {
    "id": "MP6",
    "titolo": "Le innovazioni poetiche",
-   "inizio_s": 3456.497
+   "inizio_s": 3540.497
   },
   {
    "id": "MPF",
    "titolo": "Naturalismo e Decadentismo",
-   "inizio_s": 3555.73
+   "inizio_s": 3639.73
   }
  ]
 }
