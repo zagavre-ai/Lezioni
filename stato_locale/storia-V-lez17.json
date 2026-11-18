@@ -12,7 +12,12 @@
   }
  },
  "manca": "",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "18/11 23:23",
+   "testo": "Voci Kore nuove lez 17 (v3 da zero, 3 Parti): 60 testi in testi_voci.json, ramo voci-storia-V-lez17. Nomi nuovi: BEN1-3, PI*, SC*_*, MAPN*, MPR1-3, LG0-8, FZ1-3"
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
@@ -28,5 +33,5 @@
    "testo": "prenotata con la Parte 1"
   }
  ],
- "aggiornato": "2026-11-18 23:16:04"
+ "aggiornato": "2026-11-18 23:23:26"
 }
