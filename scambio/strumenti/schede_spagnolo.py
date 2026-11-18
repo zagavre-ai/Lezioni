@@ -4,6 +4,7 @@
 # Uso: python3 schede_spagnolo.py '<spec json>' uscita 1.0   (scala 1.0 = 1080p)
 # spec: {"type":"title","num":"01","total":4,"lines":["Le avanguardie","storiche"],"ex":"Espressionismo · Dadaismo","fs":128,"lineY":720,"dur":2.9}
 #       {"type":"repaso","kicker":"Pillola di storia","big":"RIPASSO","topic":"…","caps":[[0.9,4.1,"frase"],…],"dur":20}
+#       pillola/repaso: "tfs" come nel quiz (84 se l'argomento ha fino a 30 caratteri, altrimenti 84*30/lunghezza, minimo 52): una riga sola, non tocca l'onda
 #       {"type":"quiz","act":"Quiz 1","tfs":84 (più piccolo se l'argomento è lungo, es. 64),"topic":"…","pts":"5 domande · per continuare almeno l'80%","dur":4.9}
 #       {"type":"final","kicker":"Storia V · <titolo>","l1":"RIEPILOGO","l2":"FINALE","items":[["argomento",""],…],"sub":"Ripassiamo insieme ciò che abbiamo imparato.","dur":30}
 import sys,os,json,shutil,subprocess,base64
@@ -71,7 +72,7 @@ window.init=function(sp){SP=sp;
  }
  if(sp.type=='repaso'){
   mk(`<div class="abs kick" id=kk style="left:160px;top:250px">${[...(sp.kicker||'Mini ripasso con voce')].map(c=>`<span>${c==' '?'&nbsp;':c}</span>`).join('')}</div>
-  <div class=abs id=tt style="left:160px;top:320px"><div class=mask><div class="ttl ln" data-i=0 style="font-size:250px">${sp.big||'REPASO'}</div></div><div class=mask><div class="ttl ln" data-i=1 style="font-size:84px;color:#5BD6F0;margin-top:6px">${sp.topic}</div></div></div>
+  <div class=abs id=tt style="left:160px;top:320px"><div class=mask><div class="ttl ln" data-i=0 style="font-size:250px">${sp.big||'REPASO'}</div></div><div class=mask><div class="ttl ln" data-i=1 style="font-size:${sp.tfs||84}px;color:#5BD6F0;margin-top:6px;white-space:nowrap">${sp.topic}</div></div></div>
   <div class="abs" id=eq style="left:160px;top:790px;display:flex;gap:9px;align-items:flex-end;height:90px">${Array.from({length:34},(_,i)=>`<i data-e=${i} style="width:12px;border-radius:6px;background:linear-gradient(#5BD6F0,#2060AF);height:10px;display:block"></i>`).join('')}</div>
   <div class="abs glass" id=cap style="left:160px;top:900px;width:1600px;padding:18px 40px;font-weight:500;font-size:38px;min-height:96px;line-height:1.25"></div>`);
  }

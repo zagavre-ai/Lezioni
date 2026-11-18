@@ -14,4 +14,13 @@ Ciao. Sei la chat di **rifacimento della lezione NN di Storia V** (prof. Giorgio
 4. Stato: `kit/tools/stato.py storia-V-lezNN IN_REVISIONE "chat v3"` subito e ogni 20 minuti; alla fine `REVISIONATA` con la durata misurata di ogni Parte.
 5. Consegna sul ramo **`revisione-storia-V-lezNN`** come al punto 8 delle regole congelate, con `RAPPORTO_REVISIONE.md` che contiene la tabella della sezione C della scheda tecnica (ogni pezzo: presente, minuto, durata misurata) e il confronto con Spagnolo.
 
+6. **Controlli obbligatori prima della consegna (errori trovati in Letteratura V il 17-18/11: non devono ripetersi).**
+   - **Chip sotto il titolo blu**: 2–3 parole chiave vere dell'argomento, prese dallo schema di ripasso (persone, luoghi, date, opere). **Mai** il titolo ripetuto, mai parole a caso («Sono», «Temi», «Nasce»), mai un nome spezzato («Santa Maria · La Longa»).
+   - **Didascalia della pillola**: il testo della voce Kore **parola per parola**. Se lo prendi dall'OCR, rileggilo: errori visti «Son» per «Con», «Jngaretti», «Il'amico», parole attaccate («Lanascita»).
+   - **Nomi e titoli**: maiuscole e grafia giuste (es. «Il Consiglio d'Egitto», non «consiglio»), uguali in schede, quiz, compiti e verifica.
+   - **Argomento lungo** nella pillola o nel quiz: `"tfs"` più piccolo, una riga sola, non tocca l'onda né il pulsante play.
+   - **Riepilogo finale**: ci sono **tutti** gli argomenti (le card entrano una alla volta: controlla l'ultimo fotogramma).
+   - **Foglio di controllo**: un'immagine `foglio.png` con un fotogramma di ogni scheda blu (titoli, pillole, quiz, riepilogo) e uno della didascalia di ogni pillola; mettila nel rapporto. La master la guarda prima di caricare.
+   - **Tempi**: dopo ogni modifica, i fotogrammi delle schede Quiz devono cadere esattamente ai `quiz_s` della scheda di pubblicazione; durata video = durata audio.
+
 Scrivi a Sara una riga quando parti e una ogni 30 minuti.
