@@ -143,7 +143,7 @@ footer b{color:var(--ink)}
 }
 .tabs{display:flex;flex-wrap:wrap;gap:6px}.tab{border:1px solid #c9d2e3;background:#fff;color:#0B1530;border-radius:999px;padding:6px 12px;font-weight:600;font-size:14px;font-family:inherit;line-height:1.2;cursor:pointer}.tab.on{background:#0B1530;color:#fff;border-color:#0B1530}
 </style>
-<meta name="versione" content="2026-11-15a">
+<meta name="versione" content="2026-11-18a">
 <script>/* se GitHub ha una versione più nuova di questa pagina, la carica subito (niente più «non vedo le novità») */
 (function(){try{var mia=document.querySelector('meta[name=versione]').content;
 fetch(location.pathname,{cache:'reload'}).then(function(r){return r.text()}).then(function(t){var m=t.match(/name="versione" content="([^"]+)"/);
@@ -282,7 +282,7 @@ function csv(t){const R=[];let r=[],f='',q=false;for(let i=0;i<t.length;i++){con
 async function docenti(){try{DOCENTI=await (await fetch('docenti.json?t='+Date.now())).json()}catch(e){DOCENTI={}}}
 const DNOME=h=>{const v=DOCENTI[h];return !v?'':typeof v==='string'?v:v.n};
 const norm=t=>String(t||'').toLowerCase().replace(/\(.*?\)/g,'').replace(/[^a-zàèéìòù]+/g,' ').trim();
-const PUO=h=>{const v=DOCENTI[h];if(!v)return false;if(typeof v==='string'||!v.m||v.m.includes('*'))return true;return v.m.some(x=>norm(MAT).startsWith(norm(x))||norm(x).startsWith(norm(MAT)))};
+const PUO=h=>{const v=DOCENTI[h];if(!v)return false;if(typeof v==='string'||!v.m||v.m.includes('*'))return true;return v.m.some(x=>norm(MAT)===norm(x))};
 /* 17/11: codici del PDF «Codici di accesso degli alunni» (14/11) → codice del registro (file alias cifrati con il codice del PDF) */
 async function alias(c){try{const r=await fetch('alias/'+(await sha('alias|'+c)).slice(0,16)+'.enc?t='+Date.now());if(!r.ok)return null;
   const k=await crypto.subtle.importKey('raw',await crypto.subtle.digest('SHA-256',enc.encode('telesio-alias|'+c)),'AES-GCM',false,['decrypt']);const u=unb64((await r.text()).trim());
