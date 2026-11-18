@@ -8,9 +8,9 @@ Chat «revisione v3» (18/11/2026). Etichette: **misurato** = misura sul file fi
 - Ordine degli argomenti = ordine del parlato; «Le premesse» ecc. seguono le slide. Durante «L’Africa subsahariana» il prof torna alle colonie portoghesi (card di «Apartheid», mostrata) e alla carta del Nord Africa (mostrata con l’etichetta dell’argomento 5).
 
 ## 1. Misure sul video nuovo
-[misurato] durata 60:04.4 (3604.4 s) | fotogrammi 108131 (attesi 108131) | peso 380.2 MB | 1920x1080 30/1
+[misurato] durata 60:04.4 (3604.4 s) | fotogrammi 108131 (attesi 108131) | peso 380.0 MB | 1920x1080 30/1
 [misurato] audio aac 48000 Hz, durata audio 3604.37 s (video 3604.37 s)
-[misurato] sha256 e7a1e7bd456ae68b78349af374c51ecf190a54834bcb6a703cfd6f35bfdb7052
+[misurato] sha256 d2e50db53f3ad0d0aca4ee5eff0bf993b70a33aa533fea09c0c6a95a6236dbc6
 [misurato] LUFS integrato -16.0 | picco vero -1.2 dBTP
 [misurato] LUFS parlato del prof, campione su 4 pezzi: [-15.9, -14.8, -15.1, -14.9]
 [misurato] silenzi > 3 s (-55 dB): 0 []
