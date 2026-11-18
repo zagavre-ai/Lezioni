@@ -2,7 +2,18 @@
  "tag": "storia-V-lez15",
  "parti": {
   "1": {
-   "stato": "IN_REVISIONE"
+   "stato": "REVISIONATA",
+   "voci": "kore",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "no",
+   "video": "Storia_Lez15_Parte1_1080p.mp4",
+   "durata_s": 3604.4,
+   "durata": "60:04.4",
+   "fotogrammi": 108131,
+   "fotogrammi_attesi": 108131,
+   "peso_MB": 380.0,
+   "vtt": "Storia_Lez15_Parte1.vtt"
   }
  },
  "manca": "",
@@ -20,7 +31,11 @@
   {
    "quando": "18/11 20:47",
    "testo": "20:50 montata Parte 1 (60:10), ultime misure in corso"
+  },
+  {
+   "quando": "18/11 21:26",
+   "testo": "REVISIONATA 18/11 21:50: Parte 1 60:04, -16,0 LUFS, 10 mappe dalle slide (nessuna del prof), voci Kore ricevute (MAPN4 da controllare). Consegna su revisione-storia-V-lez15."
   }
  ],
- "aggiornato": "2026-11-18 20:47:27"
+ "aggiornato": "2026-11-18 21:26:28"
 }
