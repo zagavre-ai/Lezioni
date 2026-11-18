@@ -8,6 +8,7 @@ from testo_scheda import testo as ocr_testo, ocr as ocr_grezzo, allinea
 NN,V,TL,TV,SC,OUT=sys.argv[1:7]; SOLO=sys.argv[7].split(',') if len(sys.argv)>7 else None
 os.makedirs(OUT,exist_ok=True)
 tl=json.load(open(TL)); tv=json.load(open(TV)) if os.path.exists(TV) else {}; sc=json.load(open(SC))
+if isinstance(tv,list): tv={x.get('nome'):x.get('testo') for x in tv if isinstance(x,dict)}
 if isinstance(tl,dict): tl=tl.get('pezzi') or tl.get('timeline') or [[k,v[0],v[1]] for k,v in tl.items()]
 tl=[[str(x[0]),float(x[1]),float(x[2])] if isinstance(x,(list,tuple)) else [str(x.get('nome',x.get('id'))),float(x.get('inizio',x.get('start'))),float(x.get('durata',x.get('dur')))] for x in tl]
 tl=[[re.sub(r'^RIP(\d+)$',r'R\1',k),a,d] for k,a,d in tl]
@@ -21,7 +22,11 @@ for k,a,d in tl:
     tl2.append([k,a,d])
 tl=tl2
 def testo(k):
-    v=tv.get(k); 
+    v=tv.get(k)
+    if v is None:
+        m=re.match(r'^R(\d+)$',k)
+        if m: v=tv.get('RIP'+m.group(1)) or tv.get('RP'+m.group(1)) or tv.get('PR'+m.group(1))
+    
     if v is None: return ''
     return ' '.join(v) if isinstance(v,list) else (v.get('testo','') if isinstance(v,dict) else str(v))
 args=[a.get('titolo') or a.get('title') for a in sc['argomenti']]; NA=len(args)
