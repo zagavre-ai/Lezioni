@@ -1,0 +1,254 @@
+{
+ "materia": "Storia",
+ "titolo": "Storia V · Lezione 12 · L'Europa e il mondo negli anni Trenta",
+ "parte": 2,
+ "durata_s": 2318.367,
+ "argomenti": [
+  {
+   "n": 6,
+   "titolo": "La guerra civile spagnola",
+   "inizio_s": 61.7,
+   "quiz_s": 786.133
+  },
+  {
+   "n": 7,
+   "titolo": "L'aggressività nazista e l'appeasement",
+   "inizio_s": 790.733,
+   "quiz_s": 1167.933
+  },
+  {
+   "n": 8,
+   "titolo": "L'Anschluss e la conferenza di Monaco",
+   "inizio_s": 1172.533,
+   "quiz_s": 1663.467
+  },
+  {
+   "n": 9,
+   "titolo": "Verso la Seconda guerra mondiale",
+   "inizio_s": 1668.067,
+   "quiz_s": 2220.333
+  }
+ ],
+ "quiz": {
+  "Q6": {
+   "title": "Quiz 6 · La guerra civile spagnola",
+   "items": [
+    {
+     "p": "Chi vince le elezioni spagnole del 1936?",
+     "a": "Il Fronte popolare",
+     "w": [
+      "La Falange",
+      "I monarchici",
+      "I conservatori cattolici"
+     ],
+     "e": "La destra si oppone al risultato."
+    },
+    {
+     "p": "Chi guida la sollevazione militare del luglio 1936?",
+     "a": "Il generale Francisco Franco",
+     "w": [
+      "Il re Alfonso XIII",
+      "Miguel Primo de Rivera",
+      "Juan Carlos di Borbone"
+     ],
+     "e": "È l'alzamiento contro la Repubblica."
+    },
+    {
+     "p": "Chi sostiene Franco con uomini e armi?",
+     "a": "L'Italia fascista e la Germania nazista",
+     "w": [
+      "L'Unione Sovietica",
+      "La Francia e la Gran Bretagna",
+      "Gli Stati Uniti"
+     ],
+     "e": "I tedeschi bombardano Guernica."
+    },
+    {
+     "p": "Che cosa fanno Francia e Gran Bretagna durante la guerra di Spagna?",
+     "a": "Scelgono di non intervenire",
+     "w": [
+      "Aiutano Franco",
+      "Mandano l'esercito alla Repubblica",
+      "Dichiarano guerra all'Italia"
+     ],
+     "e": "Temono che il conflitto si allarghi."
+    },
+    {
+     "p": "Come finisce la guerra civile spagnola nel 1939?",
+     "a": "Con la vittoria di Franco e la sua dittatura",
+     "w": [
+      "Con la vittoria della Repubblica",
+      "Con il ritorno immediato del re",
+      "Con la divisione della Spagna in due Stati"
+     ],
+     "e": "Cadono Barcellona e Madrid."
+    }
+   ]
+  },
+  "Q7": {
+   "title": "Quiz 7 · L'aggressività nazista e l'appeasement",
+   "items": [
+    {
+     "p": "Quale trattato del 1925 aveva fatto entrare la Germania nella Società delle Nazioni?",
+     "a": "Il trattato di Locarno",
+     "w": [
+      "Il trattato di Versailles",
+      "Il Patto d'acciaio",
+      "Lo Statuto di Westminster"
+     ],
+     "e": "La sua stabilità crolla negli anni Trenta."
+    },
+    {
+     "p": "Che cosa fa la Germania nel 1935?",
+     "a": "Reintroduce la coscrizione obbligatoria",
+     "w": [
+      "Annette l'Austria",
+      "Occupa la Polonia",
+      "Firma il patto con l'URSS"
+     ],
+     "e": "Nel 1936 militarizza anche la Renania."
+    },
+    {
+     "p": "Che cos'è l'appeasement?",
+     "a": "La politica di concessioni a Hitler per evitare la guerra",
+     "w": [
+      "L'alleanza tra Italia e Germania",
+      "Il riarmo francese",
+      "Un patto tra Germania e URSS"
+     ],
+     "e": "La scelgono Francia e Gran Bretagna."
+    },
+    {
+     "p": "Chi guida il governo britannico che sceglie l'appeasement?",
+     "a": "Neville Chamberlain",
+     "w": [
+      "Ramsay MacDonald",
+      "Winston Churchill",
+      "Oswald Mosley"
+     ],
+     "e": "Chamberlain vuole evitare un'altra guerra mondiale."
+    },
+    {
+     "p": "Che cosa sottovalutano Francia e Gran Bretagna?",
+     "a": "Il Lebensraum, lo spazio vitale di Hitler",
+     "w": [
+      "La forza dell'Italia in Etiopia",
+      "La crisi del 1929",
+      "La guerra civile cinese"
+     ],
+     "e": "Hitler vuole espandersi."
+    }
+   ]
+  },
+  "Q8": {
+   "title": "Quiz 8 · L'Anschluss e la conferenza di Monaco",
+   "items": [
+    {
+     "p": "Che cos'è l'Anschluss del marzo 1938?",
+     "a": "L'annessione dell'Austria alla Germania",
+     "w": [
+      "La conquista dell'Albania",
+      "Il patto tra Germania e URSS",
+      "L'occupazione della Renania"
+     ],
+     "e": "Un plebiscito la approva."
+    },
+    {
+     "p": "Quale regione della Cecoslovacchia rivendica Hitler?",
+     "a": "I Sudeti",
+     "w": [
+      "La Renania",
+      "La Manciuria",
+      "La Catalogna"
+     ],
+     "e": "È abitata da popolazioni tedesche."
+    },
+    {
+     "p": "Chi fa da mediatore per la conferenza di Monaco?",
+     "a": "Mussolini",
+     "w": [
+      "Stalin",
+      "Franco",
+      "Roosevelt"
+     ],
+     "e": "Vuole riavvicinarsi a Londra e Parigi."
+    },
+    {
+     "p": "Quale Paese non è invitato alla conferenza di Monaco?",
+     "a": "La Cecoslovacchia",
+     "w": [
+      "La Germania",
+      "L'Italia",
+      "La Francia"
+     ],
+     "e": "Subisce l'amputazione senza poter parlare."
+    },
+    {
+     "p": "Che cosa fa Hitler nel marzo 1939?",
+     "a": "Viola i patti e occupa tutta la Cecoslovacchia",
+     "w": [
+      "Restituisce i Sudeti",
+      "Attacca la Francia",
+      "Firma la pace con la Polonia"
+     ],
+     "e": "L'appeasement è fallito."
+    }
+   ]
+  },
+  "Q9": {
+   "title": "Quiz 9 · Verso la Seconda guerra mondiale",
+   "items": [
+    {
+     "p": "Quale Paese occupa l'Italia nell'aprile 1939?",
+     "a": "L'Albania",
+     "w": [
+      "La Grecia",
+      "L'Etiopia",
+      "La Jugoslavia"
+     ],
+     "e": "Il re d'Italia diventa anche re d'Albania."
+    },
+    {
+     "p": "Che cos'è il Patto d'acciaio?",
+     "a": "L'alleanza militare tra Italia e Germania del maggio 1939",
+     "w": [
+      "Il patto tra Germania e URSS",
+      "L'accordo di Monaco",
+      "L'alleanza tra Francia e Gran Bretagna"
+     ],
+     "e": "È un patto di difesa e di aggressione reciproca."
+    },
+    {
+     "p": "Quale città pretende Hitler dalla Polonia?",
+     "a": "Danzica",
+     "w": [
+      "Praga",
+      "Vienna",
+      "Varsavia"
+     ],
+     "e": "Vuole anche il corridoio polacco."
+    },
+    {
+     "p": "Che cosa prevedono le clausole segrete del patto Molotov-Ribbentrop?",
+     "a": "La spartizione della Polonia",
+     "w": [
+      "L'invasione della Francia",
+      "La pace con la Gran Bretagna",
+      "La restituzione dell'Austria"
+     ],
+     "e": "Dividono anche le sfere di influenza nel Baltico."
+    },
+    {
+     "p": "Su che cosa sbaglia la scommessa di Hitler?",
+     "a": "Sulla reazione di Francia e Gran Bretagna",
+     "w": [
+      "Sulla debolezza della Polonia",
+      "Sull'aiuto sovietico",
+      "Sull'alleanza con l'Italia"
+     ],
+     "e": "Questa volta Francia e Gran Bretagna dichiareranno guerra."
+    }
+   ]
+  }
+ }
+}
