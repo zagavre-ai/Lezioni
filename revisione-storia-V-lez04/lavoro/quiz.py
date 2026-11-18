@@ -1,0 +1,81 @@
+# -*- coding: utf-8 -*-
+# Quiz: 5 domande per argomento, solo dal materiale del prof (slide «LEZIONE 4.pdf»).  (p, giusta, [3 sbagliate], spiegazione)
+Q = {
+1: [
+ ("Quali sono le due grandi alleanze militari che si formano nell'Europa del primo Novecento?","Triplice Alleanza e Triplice Intesa",["Santa Alleanza e Triplice Intesa","Triplice Alleanza e Società delle Nazioni","Patto di Londra e Triplice Alleanza"],"La Triplice Alleanza univa Germania, Austria-Ungheria e Italia; la Triplice Intesa Francia, Russia e Regno Unito."),
+ ("Quali Stati facevano parte della Triplice Intesa?","Francia, Russia e Regno Unito",["Germania, Austria-Ungheria e Italia","Francia, Italia e Stati Uniti","Russia, Germania e Giappone"],"La Triplice Intesa contrapponeva Francia, Russia e Regno Unito agli imperi centrali."),
+ ("Che cos'era il piano Tirpitz?","Il programma di potenziamento della flotta da guerra tedesca",["Il piano per invadere la Francia attraverso il Belgio","L'accordo segreto tra Italia e Intesa","Il piano per dividere i Balcani"],"Il Regno Unito vedeva nel piano Tirpitz una minaccia al suo predominio sui mari."),
+ ("Che cosa si intende per revanchismo francese?","Il desiderio di rivalsa contro la Germania dopo la sconfitta del 1870",["La politica coloniale francese in Marocco","L'alleanza della Francia con la Russia","Il rifiuto francese di armarsi"],"La Francia voleva riscattare la sconfitta del 1870 e recuperare Alsazia e Lorena."),
+ ("Quale sovrano guidava la Germania con una politica estera aggressiva?","Guglielmo II",["Francesco Giuseppe","Vittorio Emanuele III","Nicola II"],"La Germania di Guglielmo II si armava e perseguiva una politica estera aggressiva."),
+],
+2: [
+ ("Quando si verificarono le crisi marocchine?","Nel 1905 e nel 1911",["Nel 1870 e nel 1880","Nel 1908 e nel 1912","Nel 1914 e nel 1915"],"Francia e Germania sfiorarono lo scontro per il controllo del Marocco; le crisi si risolsero per via diplomatica."),
+ ("Che cosa causò la rivoluzione dei Giovani Turchi del 1908?","L'indebolimento dell'Impero ottomano",["La fine dell'Impero russo","La nascita della Jugoslavia","La vittoria della Serbia sull'Austria"],"La rivoluzione nazionalista destabilizzò l'Impero ottomano e accese le ambizioni europee sui Balcani."),
+ ("Quale territorio annette l'Austria-Ungheria nel 1908?","La Bosnia-Erzegovina",["La Serbia","L'Albania","La Macedonia"],"L'annessione scatenò la reazione di Serbia e Russia."),
+ ("Che cosa accadde con le guerre balcaniche (1912-1913)?","Una coalizione di Stati balcanici sconfisse l'Impero ottomano",["L'Austria-Ungheria sconfisse la Serbia","La Russia occupò gli stretti","La Germania invase il Belgio"],"I successivi contrasti sulla spartizione dei territori lasciarono la regione instabile."),
+ ("Perché i Balcani furono detti «polveriera d'Europa»?","Per lo scontro tra l'espansionismo austriaco e le mire russe",["Per le miniere di zolfo","Per la presenza di grandi fabbriche di armi","Per la rivalità tra Francia e Germania"],"I Balcani erano l'area più pericolosa del continente."),
+],
+3: [
+ ("Chi uccise l'arciduca Francesco Ferdinando a Sarajevo?","Gavrilo Princip",["Guglielmo II","Enrico Corradini","Nikola Pašić"],"Princip era uno studente serbo-bosniaco legato all'organizzazione «Mano nera»."),
+ ("In che data avvenne l'attentato di Sarajevo?","Il 28 giugno 1914",["Il 28 luglio 1914","Il 24 maggio 1915","L'11 novembre 1918"],"L'attentato fu il casus belli della guerra."),
+ ("Che cosa fece l'Austria-Ungheria dopo l'attentato?","Impose alla Serbia un ultimatum durissimo",["Chiese l'aiuto dell'Italia","Firmò un armistizio","Dichiarò guerra alla Russia"],"Il rifiuto serbo di far partecipare la polizia austriaca alle indagini fece scattare la guerra il 28 luglio."),
+ ("Quale evento provocò l'intervento del Regno Unito?","L'invasione tedesca del Belgio neutrale",["L'attentato di Sarajevo","La mobilitazione russa","L'ultimatum alla Serbia"],"Fu il meccanismo delle alleanze a estendere il conflitto."),
+ ("Come fu accolto lo scoppio della guerra da gran parte della popolazione?","Con entusiasmo, nella convinzione di un conflitto rapidissimo",["Con scioperi generali","Con proteste contro i governi","Con indifferenza"],"Un'ondata di nazionalismo travolse soprattutto i giovani."),
+],
+4: [
+ ("Che cos'era il piano Schlieffen?","Il piano tedesco per sconfiggere rapidamente la Francia",["Il piano italiano sull'Isonzo","Il piano britannico per il blocco navale","Il piano russo per l'attacco alla Germania"],"Fallì perché l'esercito francese fermò i tedeschi sulla Marna."),
+ ("Su quale fiume i francesi bloccarono l'avanzata tedesca?","La Marna",["La Somme","Il Piave","L'Isonzo"],"Il fronte si stabilizzò."),
+ ("Quanto era lunga la linea di trincee sul fronte occidentale?","Circa 800 chilometri",["Circa 80 chilometri","Circa 8000 chilometri","Circa 300 chilometri"],"Il conflitto si trasformò in guerra di posizione, di logoramento e logistica."),
+ ("Quali battaglie persero i russi sul fronte orientale?","Tannenberg e i laghi Masuri",["Verdun e la Somme","Caporetto e il Piave","Amiens e la Marna"],"A est gli spazi enormi permisero combattimenti più dinamici."),
+ ("Perché gli assalti frontali diventarono carneficine?","Per mitragliatrici, artiglieria pesante, filo spinato e armi chimiche",["Per la mancanza di soldati","Per il freddo dell'inverno","Per l'assenza di generali"],"Le nuove tecnologie azzerarono i vantaggi degli attaccanti."),
+],
+5: [
+ ("Quale governo dichiarò la neutralità italiana nell'agosto 1914?","Il governo Salandra",["Il governo Giolitti","Il governo Mussolini","Il governo Diaz"],"La Triplice Alleanza aveva carattere difensivo e non obbligava l'Italia a intervenire."),
+ ("Chi erano i neutralisti?","Giolittiani, cattolici e socialisti",["Nazionalisti e intellettuali","Solo i militari","Solo i repubblicani"],"I neutralisti erano la maggioranza in Parlamento."),
+ ("Che cosa volevano gli interventisti?","Completare l'unificazione prendendo Trento e Trieste",["Restare alleati della Germania","Evitare ogni guerra","Rinunciare alle colonie"],"Vedevano nella guerra anche l'occasione di un rinnovamento politico ed economico."),
+ ("Che cos'era il Patto di Londra?","Un accordo segreto con l'Intesa che prometteva compensi territoriali",["Un trattato di pace con l'Austria","Un'alleanza con la Germania","Una legge sulla leva obbligatoria"],"Fu stipulato nell'aprile 1915 all'insaputa del Parlamento."),
+ ("Quando l'Italia dichiarò guerra all'Austria-Ungheria?","Il 24 maggio 1915",["Il 28 giugno 1914","Il 4 novembre 1918","Il 24 ottobre 1917"],"Le manifestazioni delle «radiose giornate di maggio» e l'appoggio del re piegarono il Parlamento."),
+],
+6: [
+ ("Quante offensive frontali lanciò Cadorna sull'Isonzo?","Undici",["Tre","Cinque","Venti"],"Ottenne scarsissimi risultati a prezzo di enormi perdite."),
+ ("Che cos'è stata la Strafexpedition?","Una spedizione punitiva austriaca in Trentino nel 1916",["Una battaglia sulla Somme","Una rivolta in Russia","Un piano tedesco su Parigi"],"Provocò la caduta del governo Salandra."),
+ ("Quante vittime ebbe circa la battaglia di Verdun?","Circa 800.000",["Circa 8.000","Circa 80.000","Circa 8 milioni"],"Fu un'immensa carneficina durata mesi."),
+ ("Perché gli anglo-francesi attaccarono sulla Somme?","Per alleggerire la pressione su Verdun",["Per riprendere Trento","Per invadere la Germania","Per difendere il Belgio"],"Il bilancio dei caduti fu altrettanto devastante."),
+ ("Che cos'era la decimazione?","Una punizione che colpiva a sorte un soldato ogni dieci",["Una riforma dell'esercito","Una tassa di guerra","Una tattica di attacco"],"I vertici militari applicarono una giustizia inflessibile, con fucilazioni."),
+],
+7: [
+ ("Che cosa fecero i governi con l'economia durante la guerra?","Assunsero il controllo della produzione e razionarono i beni",["Abolirono le fabbriche","Liberalizzarono i prezzi","Vietarono ogni commercio"],"Le fabbriche furono riconvertite per il materiale bellico."),
+ ("Che cosa si intende per «fronte interno»?","La popolazione civile coinvolta nello sforzo bellico",["La linea delle trincee","Il fronte orientale","Il fronte navale"],"I civili subirono privazioni, denutrizione e mercato nero."),
+ ("Quale cambiamento sociale accelerò la guerra?","L'emancipazione femminile",["La fine della borghesia","La scomparsa dei sindacati","L'abolizione della scuola"],"Milioni di donne lavorarono in fabbriche, tram e uffici."),
+ ("Che cos'era la guerra sottomarina indiscriminata?","L'affondamento anche di navi mercantili e passeggeri",["Un blocco navale britannico","Una battaglia sul Mar Nero","Un piano italiano"],"La Germania rispose così al blocco navale britannico, affondando anche il Lusitania."),
+ ("Chi furono le vittime del genocidio del 1915?","Gli armeni dell'Impero ottomano",["Gli ebrei russi","I serbi","I greci di Creta"],"Oltre un milione di persone fu sterminato."),
+],
+8: [
+ ("Che cosa decise il governo bolscevico guidato da Lenin?","L'uscita dal conflitto con la pace di Brest-Litovsk",["L'alleanza con la Germania","L'invasione dell'Austria","L'ingresso nella Società delle Nazioni"],"Il crollo dello zar aveva portato la Russia all'esaurimento."),
+ ("Perché gli Stati Uniti entrarono in guerra nell'aprile 1917?","Per la ripresa della guerra sottomarina tedesca e i prestiti all'Intesa",["Per riprendere i Balcani","Per sostenere la Germania","Per difendere l'Italia"],"Minacciava i loro commerci e i prestiti concessi a Francia e Regno Unito."),
+ ("Che cosa avvenne a Caporetto?","Lo sfondamento austro-tedesco delle linee italiane",["Una vittoria italiana","Una battaglia navale","La firma di un armistizio"],"L'esercito si disgregò, con migliaia di prigionieri."),
+ ("Dove si attestò la resistenza italiana dopo Caporetto?","Sul Piave e sul monte Grappa",["Sull'Isonzo","Sulla Marna","Sul Carso"],"Si bloccò l'invasione del Nord Italia."),
+ ("Chi sostituì Cadorna al comando?","Armando Diaz",["Pietro Badoglio","Luigi Albertini","Antonio Salandra"],"Diaz migliorò rancio e licenze e risollevò il morale."),
+],
+9: [
+ ("Perché la Germania lanciò un'ultima offensiva nel 1918?","Per piegare la Francia prima dell'arrivo degli americani",["Per invadere la Svizzera","Per difendere Vienna","Per recuperare le colonie"],"Sfruttava la fine del fronte russo."),
+ ("Dove l'Intesa sfondò il fronte tedesco?","Ad Amiens",["A Verdun","A Caporetto","Sulla Marna"],"Aiutata da mezzo milione di soldati americani e dai carri armati."),
+ ("Quando l'Italia lanciò la controffensiva di Vittorio Veneto?","Il 24 ottobre 1918",["Il 24 maggio 1915","Il 4 novembre 1917","L'11 giugno 1918"],"Costrinse l'Austria a chiedere la resa."),
+ ("Quali armistizi vengono firmati?","Villa Giusti (Italia-Austria) e Compiègne (Germania)",["Brest-Litovsk e Versailles","Londra e Parigi","Sarajevo e Vienna"],"Guglielmo II e Carlo d'Asburgo abdicarono."),
+ ("Quali imperi crollarono con la guerra?","Tedesco, austro-ungarico, russo e ottomano",["Britannico, francese, italiano e russo","Tedesco, francese, giapponese e russo","Ottomano, britannico, cinese e austriaco"],"Fu la fine dell'epoca dei grandi imperi."),
+],
+10: [
+ ("Che cosa proponevano i Quattordici punti di Wilson?","Un nuovo ordine basato su trasparenza, libertà dei commerci e principio di nazionalità",["Una pace punitiva per la Germania","Il ritorno alla Santa Alleanza","La spartizione dei Balcani"],"Wilson era il presidente americano."),
+ ("Perché la Società delle Nazioni fu debole?","Per l'esclusione di Russia e Germania e il ritiro degli USA",["Per mancanza di fondi","Per l'ostilità dell'Italia","Per la guerra in Africa"],"Doveva risolvere pacificamente le controversie tra Stati."),
+ ("Quali condizioni impose Versailles alla Germania?","Restituzione di Alsazia e Lorena, perdita delle colonie, smilitarizzazione e riparazioni",["Nessuna condizione","L'annessione dell'Austria","La cessione del Belgio"],"Fu una pace punitiva e umiliante."),
+ ("Quale Stato nacque sulle ceneri dei vecchi imperi?","La Cecoslovacchia",["La Svizzera","Il Belgio","La Spagna"],"Nacquero anche Polonia, Regno dei Serbi, Croati e Sloveni e repubbliche baltiche."),
+ ("Che cosa fu la «vittoria mutilata»?","Il mito dei territori promessi (Dalmazia e Fiume) non ottenuti dall'Italia",["La sconfitta di Caporetto","Il trattato di Brest-Litovsk","L'armistizio di Villa Giusti"],"Alimentò un forte scontento nazionalista."),
+],
+11: [
+ ("Quanti morti provocò circa la Prima guerra mondiale?","Circa 17 milioni",["Circa 1 milione","Circa 170 milioni","Circa 5 milioni"],"Fu falciata un'intera generazione di giovani."),
+ ("Quante persone uccise l'influenza spagnola?","Oltre 40 milioni",["Circa 1 milione","Circa 4 milioni","Circa 17 milioni"],"Si diffuse nel 1918-1919 per le pessime condizioni igieniche e gli spostamenti delle truppe."),
+ ("Perché i mutilati divennero un simbolo della guerra?","Erano la testimonianza visibile della violenza delle nuove armi",["Erano pochissimi","Erano tutti ufficiali","Erano stati curati subito"],"Milioni di soldati subirono invalidità permanenti."),
+ ("Quale difficoltà trovarono i reduci tornando a casa?","Gli Stati impoveriti non garantivano lavoro o pensioni dignitose",["Troppe offerte di lavoro","L'obbligo di restare in servizio","Nessuna difficoltà"],"La smobilitazione fu drammatica."),
+ ("Che cos'era la «nostalgia delle trincee»?","Il cameratismo e i traumi che rendevano difficile il ritorno alla vita civile",["La voglia di tornare a combattere per denaro","Una malattia infettiva","Una canzone popolare"],"Molti soffrivano di nevrosi di guerra."),
+],
+}

@@ -1,0 +1,253 @@
+{
+ "materia": "Storia",
+ "titolo": "Storia V · Lezione 4 · La Prima guerra mondiale · Parte 1",
+ "durata_s": 3225.33,
+ "argomenti": [
+  {
+   "n": 1,
+   "titolo": "L'Europa all'inizio del Novecento",
+   "inizio_s": 253.767,
+   "quiz_s": 815.467
+  },
+  {
+   "n": 2,
+   "titolo": "Le crisi coloniali e i Balcani",
+   "inizio_s": 820.067,
+   "quiz_s": 1486.967
+  },
+  {
+   "n": 3,
+   "titolo": "1914: il casus belli",
+   "inizio_s": 1491.567,
+   "quiz_s": 2553.067
+  },
+  {
+   "n": 4,
+   "titolo": "I fronti di guerra e la trincea",
+   "inizio_s": 2557.667,
+   "quiz_s": 3158.167
+  }
+ ],
+ "quiz": {
+  "Q1": {
+   "title": "Quiz 1 · L'Europa all'inizio del Novecento",
+   "items": [
+    {
+     "p": "Quali sono le due grandi alleanze militari che si formano nell'Europa del primo Novecento?",
+     "a": "Triplice Alleanza e Triplice Intesa",
+     "w": [
+      "Santa Alleanza e Triplice Intesa",
+      "Triplice Alleanza e Società delle Nazioni",
+      "Patto di Londra e Triplice Alleanza"
+     ],
+     "e": "La Triplice Alleanza univa Germania, Austria-Ungheria e Italia; la Triplice Intesa Francia, Russia e Regno Unito."
+    },
+    {
+     "p": "Quali Stati facevano parte della Triplice Intesa?",
+     "a": "Francia, Russia e Regno Unito",
+     "w": [
+      "Germania, Austria-Ungheria e Italia",
+      "Francia, Italia e Stati Uniti",
+      "Russia, Germania e Giappone"
+     ],
+     "e": "La Triplice Intesa contrapponeva Francia, Russia e Regno Unito agli imperi centrali."
+    },
+    {
+     "p": "Che cos'era il piano Tirpitz?",
+     "a": "Il programma di potenziamento della flotta da guerra tedesca",
+     "w": [
+      "Il piano per invadere la Francia attraverso il Belgio",
+      "L'accordo segreto tra Italia e Intesa",
+      "Il piano per dividere i Balcani"
+     ],
+     "e": "Il Regno Unito vedeva nel piano Tirpitz una minaccia al suo predominio sui mari."
+    },
+    {
+     "p": "Che cosa si intende per revanchismo francese?",
+     "a": "Il desiderio di rivalsa contro la Germania dopo la sconfitta del 1870",
+     "w": [
+      "La politica coloniale francese in Marocco",
+      "L'alleanza della Francia con la Russia",
+      "Il rifiuto francese di armarsi"
+     ],
+     "e": "La Francia voleva riscattare la sconfitta del 1870 e recuperare Alsazia e Lorena."
+    },
+    {
+     "p": "Quale sovrano guidava la Germania con una politica estera aggressiva?",
+     "a": "Guglielmo II",
+     "w": [
+      "Francesco Giuseppe",
+      "Vittorio Emanuele III",
+      "Nicola II"
+     ],
+     "e": "La Germania di Guglielmo II si armava e perseguiva una politica estera aggressiva."
+    }
+   ]
+  },
+  "Q2": {
+   "title": "Quiz 2 · Le crisi coloniali e i Balcani",
+   "items": [
+    {
+     "p": "Quando si verificarono le crisi marocchine?",
+     "a": "Nel 1905 e nel 1911",
+     "w": [
+      "Nel 1870 e nel 1880",
+      "Nel 1908 e nel 1912",
+      "Nel 1914 e nel 1915"
+     ],
+     "e": "Francia e Germania sfiorarono lo scontro per il controllo del Marocco; le crisi si risolsero per via diplomatica."
+    },
+    {
+     "p": "Che cosa causò la rivoluzione dei Giovani Turchi del 1908?",
+     "a": "L'indebolimento dell'Impero ottomano",
+     "w": [
+      "La fine dell'Impero russo",
+      "La nascita della Jugoslavia",
+      "La vittoria della Serbia sull'Austria"
+     ],
+     "e": "La rivoluzione nazionalista destabilizzò l'Impero ottomano e accese le ambizioni europee sui Balcani."
+    },
+    {
+     "p": "Quale territorio annette l'Austria-Ungheria nel 1908?",
+     "a": "La Bosnia-Erzegovina",
+     "w": [
+      "La Serbia",
+      "L'Albania",
+      "La Macedonia"
+     ],
+     "e": "L'annessione scatenò la reazione di Serbia e Russia."
+    },
+    {
+     "p": "Che cosa accadde con le guerre balcaniche (1912-1913)?",
+     "a": "Una coalizione di Stati balcanici sconfisse l'Impero ottomano",
+     "w": [
+      "L'Austria-Ungheria sconfisse la Serbia",
+      "La Russia occupò gli stretti",
+      "La Germania invase il Belgio"
+     ],
+     "e": "I successivi contrasti sulla spartizione dei territori lasciarono la regione instabile."
+    },
+    {
+     "p": "Perché i Balcani furono detti «polveriera d'Europa»?",
+     "a": "Per lo scontro tra l'espansionismo austriaco e le mire russe",
+     "w": [
+      "Per le miniere di zolfo",
+      "Per la presenza di grandi fabbriche di armi",
+      "Per la rivalità tra Francia e Germania"
+     ],
+     "e": "I Balcani erano l'area più pericolosa del continente."
+    }
+   ]
+  },
+  "Q3": {
+   "title": "Quiz 3 · 1914: il casus belli",
+   "items": [
+    {
+     "p": "Chi uccise l'arciduca Francesco Ferdinando a Sarajevo?",
+     "a": "Gavrilo Princip",
+     "w": [
+      "Guglielmo II",
+      "Enrico Corradini",
+      "Nikola Pašić"
+     ],
+     "e": "Princip era uno studente serbo-bosniaco legato all'organizzazione «Mano nera»."
+    },
+    {
+     "p": "In che data avvenne l'attentato di Sarajevo?",
+     "a": "Il 28 giugno 1914",
+     "w": [
+      "Il 28 luglio 1914",
+      "Il 24 maggio 1915",
+      "L'11 novembre 1918"
+     ],
+     "e": "L'attentato fu il casus belli della guerra."
+    },
+    {
+     "p": "Che cosa fece l'Austria-Ungheria dopo l'attentato?",
+     "a": "Impose alla Serbia un ultimatum durissimo",
+     "w": [
+      "Chiese l'aiuto dell'Italia",
+      "Firmò un armistizio",
+      "Dichiarò guerra alla Russia"
+     ],
+     "e": "Il rifiuto serbo di far partecipare la polizia austriaca alle indagini fece scattare la guerra il 28 luglio."
+    },
+    {
+     "p": "Quale evento provocò l'intervento del Regno Unito?",
+     "a": "L'invasione tedesca del Belgio neutrale",
+     "w": [
+      "L'attentato di Sarajevo",
+      "La mobilitazione russa",
+      "L'ultimatum alla Serbia"
+     ],
+     "e": "Fu il meccanismo delle alleanze a estendere il conflitto."
+    },
+    {
+     "p": "Come fu accolto lo scoppio della guerra da gran parte della popolazione?",
+     "a": "Con entusiasmo, nella convinzione di un conflitto rapidissimo",
+     "w": [
+      "Con scioperi generali",
+      "Con proteste contro i governi",
+      "Con indifferenza"
+     ],
+     "e": "Un'ondata di nazionalismo travolse soprattutto i giovani."
+    }
+   ]
+  },
+  "Q4": {
+   "title": "Quiz 4 · I fronti di guerra e la trincea",
+   "items": [
+    {
+     "p": "Che cos'era il piano Schlieffen?",
+     "a": "Il piano tedesco per sconfiggere rapidamente la Francia",
+     "w": [
+      "Il piano italiano sull'Isonzo",
+      "Il piano britannico per il blocco navale",
+      "Il piano russo per l'attacco alla Germania"
+     ],
+     "e": "Fallì perché l'esercito francese fermò i tedeschi sulla Marna."
+    },
+    {
+     "p": "Su quale fiume i francesi bloccarono l'avanzata tedesca?",
+     "a": "La Marna",
+     "w": [
+      "La Somme",
+      "Il Piave",
+      "L'Isonzo"
+     ],
+     "e": "Il fronte si stabilizzò."
+    },
+    {
+     "p": "Quanto era lunga la linea di trincee sul fronte occidentale?",
+     "a": "Circa 800 chilometri",
+     "w": [
+      "Circa 80 chilometri",
+      "Circa 8000 chilometri",
+      "Circa 300 chilometri"
+     ],
+     "e": "Il conflitto si trasformò in guerra di posizione, di logoramento e logistica."
+    },
+    {
+     "p": "Quali battaglie persero i russi sul fronte orientale?",
+     "a": "Tannenberg e i laghi Masuri",
+     "w": [
+      "Verdun e la Somme",
+      "Caporetto e il Piave",
+      "Amiens e la Marna"
+     ],
+     "e": "A est gli spazi enormi permisero combattimenti più dinamici."
+    },
+    {
+     "p": "Perché gli assalti frontali diventarono carneficine?",
+     "a": "Per mitragliatrici, artiglieria pesante, filo spinato e armi chimiche",
+     "w": [
+      "Per la mancanza di soldati",
+      "Per il freddo dell'inverno",
+      "Per l'assenza di generali"
+     ],
+     "e": "Le nuove tecnologie azzerarono i vantaggi degli attaccanti."
+    }
+   ]
+  }
+ }
+}
