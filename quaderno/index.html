@@ -145,10 +145,17 @@ function schermataAccesso(err){
   const go=()=>entra($('#cod').value.trim(),$('#ric').checked);
   $('#entra').onclick=go;$('#cod').onkeydown=e=>{if(e.key==='Enter')go()};$('#cod').focus();
 }
+/* 18/11: codici del PDF «Codici di accesso degli alunni» (14/11) → codice vero (stessi file alias del registro) */
+async function codiceDalPdf(c){try{const E=new TextEncoder(),C=String(c||'').trim().toUpperCase().replace(/\s+/g,'');
+  const h=[...new Uint8Array(await crypto.subtle.digest('SHA-256',E.encode('alias|'+C)))].map(b=>b.toString(16).padStart(2,'0')).join('');
+  const r=await fetch('../registro-compiti/alias/'+h.slice(0,16)+'.enc?t='+Date.now());if(!r.ok)return null;
+  const k=await crypto.subtle.importKey('raw',await crypto.subtle.digest('SHA-256',E.encode('telesio-alias|'+C)),'AES-GCM',false,['decrypt']);
+  const u=Uint8Array.from(atob((await r.text()).trim()),x=>x.charCodeAt(0));
+  return JSON.parse(new TextDecoder().decode(await crypto.subtle.decrypt({name:'AES-GCM',iv:u.slice(0,12)},k,u.slice(12)))).c||null}catch(e){return null}}
 async function entra(c,salva){
   if(!c)return;CODICE=c;
   $('#app').innerHTML='<div class="vuoto" style="margin-top:30px">Accesso in corso…</div>';
-  try{IO=await api('accesso')}catch(e){CODICE='';ricorda('');return schermataAccesso(e.message==='Codice non valido'?'Codice non valido. Controlla di averlo scritto bene.':'Non riesco a collegarmi: '+e.message)}
+  try{IO=await api('accesso')}catch(e){CODICE='';ricorda('');if(e.message==='Codice non valido'){const v=await codiceDalPdf(c);if(v&&v!==c)return entra(v,salva)}return schermataAccesso(e.message==='Codice non valido'?'Codice non valido. Controlla di averlo scritto bene.':'Non riesco a collegarmi: '+e.message)}
   if(salva)ricorda(c);
   $('#esci').hidden=false;$('#aiuto').hidden=IO.tipo==='staff';
   if(IO.tipo==='alunno'){await caricaCompiti();return vistaAlunno()}
