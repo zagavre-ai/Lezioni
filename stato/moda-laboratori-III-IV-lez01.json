@@ -2,46 +2,17 @@
  "tag": "moda-laboratori-III-IV-lez01",
  "parti": {
   "1": {
-   "titolo": "Modellistica",
-   "stato": "IN_MONTAGGIO"
+   "stato": "IN_REVISIONE"
   }
  },
- "manca": "COMPITI_MANCANTI",
- "serve_master": [
-  {
-   "quando": "14/11 22:18",
-   "testo": "Voci Kore lez01: scambio/moda-laboratori-III-IV-lez01/testi_voci.json sul ramo voci-moda-laboratori-III-IV-lez01. Sigla: uso Sigla_Ideazione_progettazione_moda_15s come segnaposto per Laboratori (manca una sigla dedicata)."
-  },
-  {
-   "quando": "14/11 23:45",
-   "testo": "URGENTE: servono le voci Kore di lez01, lez02 e lez5 (testi_voci.json nei rispettivi rami voci-<tag>). Tutto il resto è pronto e aspetta."
-  },
-  {
-   "quando": "15/11 02:35",
-   "testo": "DURATA: il docente parla 65 min (lez01), 72 (lez02), 59 (lez5): con mappe e ripassi le Parti escono 78, 44+44, 74 min, fuori da 50-60. Decidi tu: una Parte unica oltre 65 oppure due Parti sotto 50. Compiti del prof assenti dalle release delle tre lezioni."
-  }
- ],
+ "manca": "",
+ "serve_master": [],
  "domande_sara": [],
  "note": [
   {
-   "quando": "14/11 22:07",
-   "testo": "Materiali scaricati; trascrizione in corso; compiti: file non presente"
-  },
-  {
-   "quando": "14/11 22:18",
-   "testo": "Testi voci e quiz inviati sul ramo voci-moda-laboratori-III-IV-lez01 (127 voci). Monto con segnaposto."
-  },
-  {
-   "quando": "14/11 23:45",
-   "testo": "FERMA: pezzi montati con voci segnaposto (durata stimata 78 min). Attendo le voci Kore dalla master (richiesta già inviata sul ramo voci-moda-laboratori-III-IV-lez01). Appena arrivano: ricostruzione dei pezzi con voce, codifica finale e controlli. Durata oltre 65 min in una sola Parte: il docente parla per 65 min, le aggiunte (mappe, approfondimenti, ripassi) valgono circa 13 min."
-  },
-  {
-   "quando": "15/11 02:35",
-   "testo": "Pronta, attende voci Kore. Montata con segnaposto. Durata stimata 78 min in una Parte (docente 65 min)."
+   "quando": "18/11 22:11",
+   "testo": "ripresa 18/11: presa da claude/relaxed-newton-yl5foc"
   }
  ],
- "materia": "Moda · Laboratori III-IV · chat LAB",
- "lezione": "Modellistica",
- "docente": "Prof.ssa Piera Caputi",
- "aggiornato": "2026-11-15 02:35:02"
+ "aggiornato": "2026-11-18 22:11:39"
 }
