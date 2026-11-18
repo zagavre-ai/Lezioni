@@ -21,7 +21,7 @@ Ciao, sono Sara. Riprendi tu le lezioni di **Laboratori tecnologici ed esercitaz
    4. **lez03 Gonna e lez04 Pantalone**: rifalle nel modello nuovo riusando i tuoi cartamodelli vettoriali e i figurini dell'8–9/11. Se non li hai più, ridisegnali;
    5. **lez10 Corpini, lez11 Giacche, lez12 Cappotti, lez13 Tessuto tecnico**: appena carico i materiali nella release.
    I materiali sono nelle release `moda-laboratori-III-IV-lezNN` (video, PDF, xlsx); le voci Kore sono sui rami `voci-<tag>`.
-4. **Sigla:** la sigla «Laboratori tecnologici ed esercitazione» non c'è ancora. Lascia 15 s di segnaposto: la fa la master.
+4. **Sigla:** usa `kit/sigle/Sigla_Laboratori_moda_15s.mp4` (su main, fatta dalla master il 19/11).
 5. **Durata:** ogni Parte deve durare 50–60 minuti; sopra i 60 dividi in 2 Parti, alla fine di un argomento. Obiettivo: 3 ore per lezione.
 6. **Prima di consegnare** fai il foglio di controllo `foglio.png` e il confronto dei cartamodelli (originale e vettoriale affiancati). Poi consegna sul ramo `revisione-<tag>` e scrivi `stato.py <tag> REVISIONATA` con le durate misurate.
 7. Scrivimi una riga quando parti e poi ogni 30 minuti, in italiano. Quando consegni una lezione passa subito alla successiva.
