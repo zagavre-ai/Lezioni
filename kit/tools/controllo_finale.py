@@ -14,7 +14,7 @@ def say(*x):s=' '.join(str(i) for i in x);print(s,flush=True);R.append(s)
 # 1. durata, fotogrammi, peso
 j=json.loads(sh(['ffprobe','-v','error','-count_packets','-select_streams','v:0','-show_entries','stream=nb_read_packets,width,height:format=duration,size','-of','json',V]).stdout)
 dur=float(j['format']['duration']);fr=int(j['streams'][0]['nb_read_packets']);mb=int(j['format']['size'])/1e6;w,h=j['streams'][0]['width'],j['streams'][0]['height']
-OK['fotogrammi']=abs(fr-dur*30)<=3;OK['peso']=mb<=419.4;OK['risoluzione']=(w,h)==(2560,1440)
+OK['fotogrammi']=abs(fr-dur*30)<=3;OK['peso']=mb<=419.4;OK['risoluzione']=(w,h)==((2560,1440) if os.environ.get('RIS')=='1440' else (1920,1080))
 say('durata %d:%04.1f (%.1f s) | fotogrammi %d (attesi %d) %s | peso %.1f MB (%.1f MiB) %s | %dx%d %s'%(dur//60,dur%60,dur,fr,round(dur*30),'OK' if OK['fotogrammi'] else 'NO',mb,mb/1.048576,'OK' if OK['peso'] else 'NO',w,h,'OK' if OK['risoluzione'] else 'NO'))
 # 2. scatto dei Quiz (correlazione con il jingle)
 SR=8000

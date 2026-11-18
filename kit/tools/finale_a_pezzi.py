@@ -1,7 +1,7 @@
 # Codifica finale del montaggio a gruppi di pezzi (riprende da dove si è fermata).
 # uso: python3 finale_a_pezzi.py lista.txt uscita.mp4
 # lista.txt = la lista concat scritta da asm_moda2.py (SOLOLISTA=1).
-# - video: gruppi di pezzi consecutivi (circa 8 minuti), scalati a 1440p, x264 fast CRF 20 (CRF=…): esce direttamente il video da caricare, sotto i 400 MB
+# - video: gruppi di pezzi consecutivi (circa 8 minuti), scalati a 1080p (RIS=1440 per il vecchio formato), x264 veryfast CRF 19 (CRF=…): esce direttamente il video da caricare, sotto i 400 MB
 # - audio: tutto in una volta dalla lista completa (AAC 192k), così non ci sono scarti tra i gruppi
 # - unione senza ricomprimere; controllo: fotogrammi uguali alla somma dei pezzi
 import sys,os,subprocess,re
@@ -18,8 +18,8 @@ for k,g in enumerate(G):
     f=W+'g%03d.mp4'%k
     if os.path.exists(f+'.ok'):continue
     open(W+'g%03d.txt'%k,'w').write(''.join("file '%s'\n"%p for p in g))
-    subprocess.run(['nice','-n','5','ffmpeg','-y','-v','error','-f','concat','-safe','0','-i',W+'g%03d.txt'%k,'-map','0:v','-vf','scale=2560:1440:flags=lanczos',
-        '-c:v','libx264','-preset','fast','-crf',os.environ.get('CRF','20'),'-maxrate','16M','-bufsize','32M','-pix_fmt','yuv420p','-r','30','-an',f],check=True)
+    subprocess.run(['nice','-n','5','ffmpeg','-y','-v','error','-f','concat','-safe','0','-i',W+'g%03d.txt'%k,'-map','0:v','-vf','scale='+('2560:1440' if os.environ.get('RIS')=='1440' else '1920:1080')+':flags=lanczos',
+        '-c:v','libx264','-preset',os.environ.get('PRESET','veryfast'),'-crf',os.environ.get('CRF','19'),'-maxrate','16M','-bufsize','32M','-pix_fmt','yuv420p','-r','30','-an',f],check=True)
     open(f+'.ok','w').write('1');print('gruppo',k+1,'di',len(G),flush=True)
 if not os.path.exists(W+'a.m4a.ok'):
     subprocess.run(['ffmpeg','-y','-v','error','-f','concat','-safe','0','-i',L,'-map','0:a','-c:a','aac','-b:a','192k','-ar','48000',W+'a.m4a'],check=True);open(W+'a.m4a.ok','w').write('1')

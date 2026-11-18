@@ -31,11 +31,11 @@ Valgono per tutte le chat e tutte le lezioni. Se una regola manca o non è chiar
 
 ## 5. File finali
 - Video:
-  - nome Materia_LezN_ParteN_1440p.mp4;
-  - 2560×1440, 30 fotogrammi al secondo;
-  - x264 fast, CRF 20, audio AAC 192k a 48 kHz;
+  - nome Materia_LezN_ParteN_1080p.mp4;
+  - 1920×1080 (deciso da Sara il 13/11: metà del tempo di codifica), 30 fotogrammi al secondo;
+  - x264 veryfast, CRF 19, audio AAC 192k a 48 kHz;
   - una sola codifica, con tools/finale_a_pezzi.py;
-  - sotto i 400 MB: se li supera, CRF 21 o 22.
+  - sotto i 400 MB: se li supera, CRF 20 o 21.
 - Sottotitoli: Materia_LezN_ParteN.vtt, fatti con tools/sub_finale.py sul video FINALE, con i termini corretti dal PDF.
 - Altri file: dispensa A4 in PDF, quiz in .txt, test in .xlsx, scheda_pubblicazione.json (tools/scheda_da_timeline.py).
 
