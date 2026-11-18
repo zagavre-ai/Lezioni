@@ -1,0 +1,554 @@
+{
+ "W01": [
+  "Benvenuti alla lezione di Diritto ed economia. Oggi parliamo di organizzazioni collettive e di impresa. La professoressa Didone ci guida attraverso sei argomenti."
+ ],
+ "N2a_s1_i1": [
+  "L'azienda è il principale strumento per svolgere l'attività economica."
+ ],
+ "N2a_s1_i2": [
+  "È un'organizzazione stabile, di persone e beni, che attua processi di produzione di ricchezza in condizioni di equilibrio economico durevole."
+ ],
+ "N2a_s1_i3": [
+  "Il suo scopo è soddisfare, direttamente o indirettamente, i bisogni umani."
+ ],
+ "N2a_s1_i4": [
+  "Gli elementi costitutivi sono: un insieme di beni economici, un'organizzazione stabile, un insieme di persone e di operazioni, l'oggetto, cioè il tipo di attività svolta, la vision e la missione aziendale."
+ ],
+ "N2a_s2_i1": [
+  "Secondo la teoria sistemica, l'azienda è un sistema, ossia un complesso di elementi che interagiscono tra loro sulla base di relazioni interne ed esterne."
+ ],
+ "N2a_s2_i2": [
+  "L'ambiente generale è costituito da tutte le variabili presenti nel contesto in cui l'azienda svolge la propria attività, ed è comune a tutte le aziende che operano in quel contesto."
+ ],
+ "N2a_s2_i3": [
+  "L'ambiente specifico è costituito dal settore di attività economica in cui l'azienda opera e dai mercati con cui interagisce direttamente."
+ ],
+ "N2a_s2_i4": [
+  "L'azienda è considerata un sistema aperto, dinamico, probabilistico e olistico."
+ ],
+ "N2b_s1_i1": [
+  "La coordinazione sistemica: l'azienda deve essere considerata alla stregua di un sistema finalizzato, aperto, complesso, dotato di meccanismi di correzione e dinamico."
+ ],
+ "N2b_s1_i2": [
+  "L'economicità è una regola di condotta che consente alle aziende di funzionare e conseguire le proprie finalità. Rappresenta la capacità di stare nel mercato con le proprie forze."
+ ],
+ "N2b_s1_i3": [
+  "L'autonomia rappresenta la capacità di autosufficienza economico-patrimoniale: l'azienda deve possedere comportamenti propri, diversi da quelli degli individui che l'hanno costituita e che vi operano."
+ ],
+ "N2b_s2_i1": [
+  "La fase istituzionale è il complesso coordinato di operazioni economico-finanziarie necessarie per l'avvio della fase di funzionamento. Di solito, in questa fase non sono ancora definite la vision, la mission e le strategie aziendali."
+ ],
+ "N2b_s2_i2": [
+  "Nella fase di funzionamento l'azienda è organizzata per funzioni aziendali, e sono individuabili i responsabili delle varie funzioni, a cui sono affidati degli obiettivi da perseguire."
+ ],
+ "N2b_s2_i3": [
+  "Nella fase terminale le aziende possono chiudere per svariati motivi: alcuni sono definibili volontari, altri coercitivi."
+ ],
+ "N2b_s3_i1": [
+  "Il comportamento aziendale si articola in un modello circolare. Può essere suddiviso in tre fasi, a cui si aggiunge una fase eventuale correttiva."
+ ],
+ "N2b_s3_i2": [
+  "I processi fondamentali sono: uno, decisione; due, esecuzione; tre, controllo; quattro, meccanismi di correzione, cioè il feedback."
+ ],
+ "N2b_s3_i3": [
+  "Il feedback consente di assumere nuove decisioni per eliminare lo scostamento riscontrato tra risultati preventivati e risultati ottenuti."
+ ],
+ "N2c_s1_i1": [
+  "Il raggiungimento degli obiettivi pianificati, cioè l'output, è reso possibile dalla combinazione ottimale di una serie di risorse o fattori produttivi, cioè l'input."
+ ],
+ "N2c_s1_i2": [
+  "Affinché un fattore possa essere considerato tale, deve: uno, influire sul processo economico; due, entrare a far parte della combinazione produttiva con una sua utilità; tre, consentire, entro un arco di tempo prestabilito, la remunerazione degli oneri sostenuti per la sua acquisizione."
+ ],
+ "N2c_s2_i1": [
+  "Le aziende di produzione diretta di beni sono quelle la cui produzione si esegue mediante processi di trasformazione materiale."
+ ],
+ "N2c_s2_i2": [
+  "Nelle aziende di produzione indiretta i beni non subiscono alcuna trasformazione materiale, ma viene effettuata una trasformazione economica nel tempo e nello spazio."
+ ],
+ "N2c_s2_i3": [
+  "Le aziende di servizi svolgono attività che hanno carattere immateriale, ma che facilitano lo svolgimento di altre attività."
+ ],
+ "N2c_s2_i4": [
+  "Le tipologie di aziende rientrano in tre categorie: aziende profit oriented, aziende non profit e aziende della Pubblica Amministrazione."
+ ],
+ "N3a_s1_i1": [
+  "Il rischio generale può essere definito come la possibilità che si verifichino eventi futuri incerti che possono influenzare in modo negativo il raggiungimento degli obiettivi di un'azienda."
+ ],
+ "N3a_s1_i2": [
+  "Il rischio particolare riguarda particolari manifestazioni del rischio economico che non hanno significato autonomo. Il loro isolamento costituisce solo un'astrazione, necessaria per esemplificare la complessa realtà oggetto di osservazione."
+ ],
+ "N3a_s2_i1": [
+  "L'Enterprise Risk Management, o e erre emme, è un sistema di gestione dei rischi aziendali che vuole salvaguardare l'azienda attraverso l'analisi dei fattori di rischio e la valutazione del loro impatto sulla performance."
+ ],
+ "N3a_s2_i2": [
+  "La norma uni iso trentunomila, Gestione del rischio, Linee guida, regola la gestione del rischio d'impresa. È destinata a chi crea e protegge valore, avendo cura di gestire rischi, prendere decisioni, fissare e conseguire obiettivi e migliorare le prestazioni."
+ ],
+ "N3a_s2_i3": [
+  "La norma può essere utilizzata durante tutta la vita dell'organizzazione e applicata a qualsiasi attività, compreso il processo decisionale a tutti i livelli."
+ ],
+ "N4a_s1_i1": [
+  "L'identificazione degli stakeholder rientra tra le capacità dell'azienda, che deve coglierne le opportunità e comprenderne i contributi, quantificando l'influenza che essi esercitano sulla vita aziendale."
+ ],
+ "N4a_s1_i2": [
+  "Si distingue tra stakeholder interni e stakeholder esterni."
+ ],
+ "N4a_s1_i3": [
+  "I lavoratori subordinati sono legati all'imprenditore o al datore di lavoro da un vincolo di dipendenza: operano nell'azienda e percepiscono in cambio una retribuzione prestabilita."
+ ],
+ "N4a_s1_i4": [
+  "Vi rientrano i dirigenti, i quadri intermedi, gli impiegati, gli operai, gli apprendisti e i lavoratori a domicilio. I criteri per stabilire l'appartenenza a queste categorie sono stabiliti da leggi speciali e da contratti collettivi."
+ ],
+ "N4b_s1_i1": [
+  "Non esiste una definizione univoca e condivisa di responsabilità sociale delle aziende, nota come Responsabilità Sociale d'Impresa, erre esse i, o Corporate Social Responsibility, ci esse erre."
+ ],
+ "N4b_s1_i2": [
+  "In generale, si tratta di una forma di responsabilità volontaria che le imprese tendono ad assumere nei confronti dei loro principali stakeholder."
+ ],
+ "N4b_s1_i3": [
+  "Secondo la Comunicazione Unione Europea numero seicentottantuno del duemilaundici, la erre esse i è la responsabilità delle imprese per gli impatti che hanno sulla società."
+ ],
+ "N5a_s1_i1": [
+  "Il soggetto giuridico di un'azienda coincide con la persona fisica o con la persona giuridica, titolare dei diritti e degli obblighi che, in base alle norme vigenti, scaturiscono dallo svolgimento dell'attività aziendale."
+ ],
+ "N5a_s1_i2": [
+  "Il soggetto economico di un'azienda è la persona, o il gruppo di persone, che di fatto detiene il controllo dell'azienda e, quindi, ha il potere di determinare le scelte fondamentali della gestione aziendale."
+ ],
+ "N5b_s1_i1": [
+  "Sotto il profilo qualitativo, il capitale di funzionamento aziendale è l'insieme coordinato e organizzato di beni economici, materiali e immateriali, nella disponibilità dell'azienda per lo svolgimento della propria attività, e delle connesse obbligazioni verso terzi da estinguere, osservato in un determinato momento."
+ ],
+ "N5b_s1_i2": [
+  "Sono molteplici i criteri di classificazione degli elementi facenti parte del capitale di funzionamento."
+ ],
+ "N6a_s1_i1": [
+  "Il termine inventario indica sia il complesso delle operazioni con cui si determina il patrimonio aziendale in un certo istante, sia il documento contabile che indica tutti gli elementi del patrimonio aziendale in un determinato momento."
+ ],
+ "N6a_s1_i2": [
+  "Gli inventari possono essere classificati secondo l'oggetto, i dati in esso contenuti, la periodicità e il fine."
+ ],
+ "N6a_s2_i1": [
+  "Il reddito, o risultato economico, è l'incremento o il decremento che, in un determinato periodo di tempo, subisce il capitale per effetto dell'intera gestione aziendale."
+ ],
+ "N6a_s2_i2": [
+  "L'incremento, o variazione positiva, è denominato utile. Il decremento, o variazione negativa, è denominato perdita."
+ ],
+ "N6b_s1_i1": [
+  "La gestione aziendale è il sistema di operazioni aziendali per raggiungere gli obiettivi per i quali l'azienda è stata creata."
+ ],
+ "N6b_s1_i2": [
+  "La gestione è osservata temporalmente, attraverso i periodi amministrativi. Il periodo amministrativo è l'intervallo di tempo a cui si riferisce la gestione osservata e rappresentata tramite la rilevazione. Normalmente è l'anno, cioè dodici mesi."
+ ],
+ "N6b_s1_i3": [
+  "L'insieme delle operazioni di gestione compiute in un periodo amministrativo è denominato esercizio."
+ ],
+ "N6b_s2_i1": [
+  "Esistono due tipologie di gestione. La gestione corrente è l'insieme delle operazioni che l'azienda svolge nel quotidiano."
+ ],
+ "N6b_s2_i2": [
+  "La gestione strategica è il complesso delle decisioni aziendali che hanno un impatto strutturale sul business, producendo effetti di medio-lungo periodo e non reversibili nel breve periodo senza sopportare costi significativi."
+ ],
+ "N6b_s2_i3": [
+  "I fatti di gestione interna non coinvolgono soggetti esterni all'azienda. I fatti di gestione esterna sono poste in essere nelle fasi di finanziamento, investimento e disinvestimento, e mettono l'azienda in contatto con soggetti terzi."
+ ],
+ "N6c_s1_i1": [
+  "Il finanziamento è la prima tipologia di operazioni della gestione. È finalizzato alla dotazione dei mezzi monetari, di debito o di proprietà, da impiegare nell'attività aziendale."
+ ],
+ "N6c_s1_i2": [
+  "L'investimento è la seconda tipologia. È finalizzato all'acquisto dei fattori produttivi necessari per lo svolgimento dell'attività aziendale, mediante l'impiego delle risorse finanziarie raccolte."
+ ],
+ "N6c_s2_i1": [
+  "Il disinvestimento è la fase di cessione dei beni o prestazione dei servizi che rappresentano l'oggetto dell'attività aziendale. Venduti sul mercato, consentono all'azienda di recuperare i mezzi monetari investiti."
+ ],
+ "N6c_s2_i2": [
+  "Nel doppio processo di conversione, prima si passa dai mezzi monetari ai fattori produttivi, poi dai prodotti finiti ai mezzi monetari. I mezzi recuperati servono per il finanziamento del ciclo successivo."
+ ],
+ "N6c_s3_i1": [
+  "Il circuito finanziario inizia quando l'azienda si mette in relazione con il mercato finanziario per reperire le risorse necessarie. Tali risorse vengono poi restituite, chiudendo il circuito."
+ ],
+ "N6c_s3_i2": [
+  "Il circuito monetario ha inizio con l'acquisizione dei fattori produttivi nei mercati di acquisto, e si conclude con l'ottenimento dei prodotti che verranno poi venduti nei mercati di vendita."
+ ],
+ "N6d_s1_i1": [
+  "Le funzioni aziendali si raggruppano in tre tipologie di aree. Le aree strategiche comprendono il vertice strategico dell'azienda."
+ ],
+ "N6d_s1_i2": [
+  "Le aree caratteristiche comprendono le funzioni che costituiscono l'oggetto tipico dell'attività dell'impresa."
+ ],
+ "N6d_s1_i3": [
+  "Le aree integrative e di supporto comprendono funzioni di supporto alle aree caratteristiche, volte alla gestione di risorse o alla risoluzione di problemi delle altre aree."
+ ],
+ "N6d_s2_i1": [
+  "La funzione approvvigionamenti è il collegamento tra azienda e mercati di acquisizione. Il suo scopo è mettere a disposizione un prodotto acquistato all'esterno, nelle quantità necessarie e per ciascun momento di utilizzo previsto, minimizzando rischi e costi di fornitura."
+ ],
+ "N6d_s2_i2": [
+  "I termini usati sono purchasing, procurement, supply e buying. Buying è usato soprattutto nelle imprese commerciali o della grande distribuzione, dove l'acquirente è definito buyer."
+ ],
+ "N6d_s3_i1": [
+  "Il concetto di produzione è diverso a seconda della tipologia di azienda. Nelle aziende industriali è la trasformazione fisica di materie prime in prodotti finiti, nelle commerciali la distribuzione di merci, nelle aziende di servizi l'erogazione dei servizi."
+ ],
+ "N6d_s3_i2": [
+  "Gli sprechi da evitare sono: la produzione di parti non necessarie, la movimentazione di parti su elevate distanze, la lavorazione di parti non conformi e la produzione di beni o servizi non richiesti dal mercato."
+ ],
+ "N6d_s4_i1": [
+  "L'obiettivo della funzione marketing è la creazione di valore per i clienti. Le aziende sono customer oriented o market oriented: hanno come obiettivo la soddisfazione dei bisogni dei consumatori."
+ ],
+ "N6d_s4_i2": [
+  "Le decisioni riguardano i rapporti di scambio con i mercati di sbocco, le tipologie di prodotto da offrire, i prezzi da praticare, le modalità di distribuzione, le ricerche di mercato e la pubblicità, per diffondere la notorietà dell'azienda."
+ ],
+ "N6e_s1_i1": [
+  "Le risorse umane progettano la struttura organizzativa e sono alla ricerca dell'innovazione continua, mediante l'implementazione di processi efficienti."
+ ],
+ "N6e_s1_i2": [
+  "Le decisioni acca erre: definiscono i meccanismi operativi, decidono lo stile direzionale, autoritario, democratico o permissivo, e decidono sul rapporto di lavoro e sulle relazioni industriali. Il tutto con compiti operativi e di supporto."
+ ],
+ "N6e_s2_i1": [
+  "Il compito principale della logistica è organizzare e gestire i beni in magazzino, tramite l'analisi delle strutture e delle procedure operative."
+ ],
+ "N6e_s2_i2": [
+  "Il suo operato riguarda: il controllo e il magazzinaggio dei beni ricevuti dai fornitori, la definizione degli spazi in cui collocarli, il prelievo e il trasferimento alle unità produttive, l'imballaggio dei prodotti e la gestione delle spedizioni alla clientela."
+ ],
+ "N6e_s3_i1": [
+  "La ricerca è un'indagine originale e pianificata, condotta con la prospettiva di conseguire nuove conoscenze e scoperte, che si considera di utilità generica alla società."
+ ],
+ "N6e_s3_i2": [
+  "Lo sviluppo è l'applicazione dei risultati della ricerca di base, o di altre conoscenze, in un piano o in un progetto per la produzione di materiali, dispositivi, processi, sistemi o servizi, prima dell'inizio della produzione commerciale."
+ ],
+ "N6e_s4_i1": [
+  "La funzione contabilità e bilancio redige le scritture contabili generali dell'azienda per la redazione del bilancio d'esercizio."
+ ],
+ "N6e_s4_i2": [
+  "Si occupa in particolare di contabilità generale e adempimenti fiscali, di contabilità clienti e fornitori e di contabilità banche."
+ ],
+ "N6f_s1_i1": [
+  "Le operazioni possono originare valori finanziari, che per la loro natura sono già espressi in moneta, e comprendono i valori certi, assimilati e presunti."
+ ],
+ "N6f_s1_i2": [
+  "Possono originare anche valori economici, che non hanno un'originaria espressione monetaria, e comprendono i valori numerici di reddito e di capitale."
+ ],
+ "N6f_s2_i1": [
+  "L'aspetto finanziario riguarda le variazioni che tali operazioni producono nel sistema dei valori finanziari."
+ ],
+ "N6f_s2_i2": [
+  "L'aspetto economico riguarda le variazioni che tali operazioni producono nel sistema dei valori economici di reddito, cioè costi e ricavi, e nei valori economici di capitale."
+ ],
+ "N6f_s3_i1": [
+  "Le aree della gestione sono cinque: la gestione caratteristica, la gestione accessoria, la gestione finanziaria, la gestione straordinaria e la gestione tributaria."
+ ],
+ "N6f_s4_i1": [
+  "L'impresa deve tendere al raggiungimento, al mantenimento e al miglioramento delle condizioni di equilibrio generale, che si traduce nell'equilibrio economico e finanziario."
+ ],
+ "N6f_s4_i2": [
+  "Equilibrio economico: la somma dei ricavi è uguale alla somma dei costi effettivi più la somma degli oneri figurativi."
+ ],
+ "N6f_s4_i3": [
+  "Equilibrio finanziario: le disponibilità liquide più le entrate monetarie sono maggiori o uguali alle uscite monetarie."
+ ],
+ "R1": [
+  "Facciamo un riepilogo di quello che hai appena visto: le persone giuridiche, i loro tipi e la loro autonomia patrimoniale. Guarda lo schema e ripeti ad alta voce."
+ ],
+ "R2": [
+  "Ripassiamo insieme l'azienda, il suo ambiente e i criteri per classificare le imprese. Guarda lo schema e ripeti ad alta voce."
+ ],
+ "R3": [
+  "Ripassiamo insieme il rischio d'impresa e il modo in cui si gestisce. Guarda lo schema e ripeti ad alta voce."
+ ],
+ "R4": [
+  "Ripassiamo insieme gli stakeholder, la responsabilità sociale e la direttiva sulla sostenibilità. Guarda lo schema e ripeti ad alta voce."
+ ],
+ "R5": [
+  "Ripassiamo insieme i soggetti dell'azienda, il patrimonio e l'avviamento. Guarda lo schema e ripeti ad alta voce."
+ ],
+ "R6": [
+  "Ripassiamo insieme la gestione aziendale: operazioni, funzioni ed equilibrio. Guarda lo schema e ripeti ad alta voce."
+ ],
+ "S1_1": [
+  "Persona giuridica: entità astratta con diritti e doveri."
+ ],
+ "S1_2": [
+  "Diritto privato: società, associazioni, fondazioni."
+ ],
+ "S1_3": [
+  "Diritto pubblico: nasce per legge."
+ ],
+ "S1_4": [
+  "Capacità: giuridica e d'agire."
+ ],
+ "S1_5": [
+  "Autonomia patrimoniale: beni separati."
+ ],
+ "S1_6": [
+  "Estinzione: decisione interna, fallimento, fusione."
+ ],
+ "S2_1": [
+  "Azienda: organizzazione stabile di persone e beni."
+ ],
+ "S2_2": [
+  "Ambiente: generale e specifico."
+ ],
+ "S2_3": [
+  "Caratteri distintivi: coordinazione sistemica, economicità, autonomia."
+ ],
+ "S2_4": [
+  "Fasi della vita: istituzionale, funzionamento, terminale."
+ ],
+ "S2_5": [
+  "Settori: primario, secondario, terziario, terziario avanzato."
+ ],
+ "S2_6": [
+  "Dimensioni: piccole, medie, grandi."
+ ],
+ "S3_1": [
+  "Rischio generale: eventi futuri incerti."
+ ],
+ "S3_2": [
+  "Rischio particolare: senza significato autonomo."
+ ],
+ "S3_3": [
+  "e erre emme: gestione dei rischi aziendali."
+ ],
+ "S3_4": [
+  "uni iso trentunomila: linee guida."
+ ],
+ "S3_5": [
+  "Risorse economiche: capitale, immobili, attrezzature, brevetti."
+ ],
+ "S3_6": [
+  "Risorse umane: le persone."
+ ],
+ "S4_1": [
+  "Stakeholder: chi ha un interesse verso l'azienda."
+ ],
+ "S4_2": [
+  "Interni: dipendenti, manager, proprietari."
+ ],
+ "S4_3": [
+  "Esterni: investitori, fornitori, clienti."
+ ],
+ "S4_4": [
+  "erre esse i o ci esse erre: responsabilità volontaria."
+ ],
+ "S4_5": [
+  "ci esse erre di: direttiva europea sulla sostenibilità."
+ ],
+ "S4_6": [
+  "Doppia materialità: impatto e risultati."
+ ],
+ "S5_1": [
+  "Soggetto giuridico: titolare di diritti e obblighi."
+ ],
+ "S5_2": [
+  "Soggetto economico: detiene il controllo."
+ ],
+ "S5_3": [
+  "Attivo patrimoniale: ciò che si possiede."
+ ],
+ "S5_4": [
+  "Passivo patrimoniale: ciò che si deve."
+ ],
+ "S5_5": [
+  "Patrimonio netto: attivo meno passivo."
+ ],
+ "S5_6": [
+  "Avviamento: valore immateriale."
+ ],
+ "S6_1": [
+  "Esercizio: le operazioni di un periodo amministrativo."
+ ],
+ "S6_2": [
+  "Reddito: utile o perdita."
+ ],
+ "S6_3": [
+  "Operazioni: finanziamento, investimento, disinvestimento."
+ ],
+ "S6_4": [
+  "Funzioni aziendali: strategiche, caratteristiche, di supporto."
+ ],
+ "S6_5": [
+  "Aree della gestione: cinque aree."
+ ],
+ "S6_6": [
+  "Equilibrio: economico e finanziario."
+ ],
+ "M1_0": [
+  "Ecco la mappa delle persone giuridiche."
+ ],
+ "M1_1": [
+  "Il primo ramo è la definizione: entità astratta di persone o beni, a cui l'ordinamento riconosce diritti e doveri."
+ ],
+ "M1_2": [
+  "Poi le persone giuridiche di diritto privato, con o senza scopo di lucro: società, associazioni e fondazioni."
+ ],
+ "M1_3": [
+  "Poi quelle di diritto pubblico, che nascono per legge: lo Stato, le Regioni, i Comuni e le a esse elle."
+ ],
+ "M1_4": [
+  "La capacità giuridica e di agire, che la persona giuridica acquista al momento della costituzione."
+ ],
+ "M1_5": [
+  "L'autonomia patrimoniale: i beni sono separati da quelli dei membri, e i debiti restano alla società."
+ ],
+ "M1_6": [
+  "Infine l'estinzione: per decisione interna, fallimento, fusione o provvedimento dell'autorità."
+ ],
+ "M2_0": [
+  "Ecco la mappa dell'azienda e delle imprese."
+ ],
+ "M2_1": [
+  "Il primo ramo è la nozione di azienda: un'organizzazione stabile di persone e beni."
+ ],
+ "M2_2": [
+  "Poi l'ambiente, generale e specifico, in cui l'azienda opera come sistema."
+ ],
+ "M2_3": [
+  "I caratteri distintivi: coordinazione sistemica, economicità e autonomia."
+ ],
+ "M2_4": [
+  "Le fasi della vita aziendale: istituzionale, di funzionamento e terminale."
+ ],
+ "M2_5": [
+  "I settori di attività: primario, secondario, terziario e terziario avanzato."
+ ],
+ "M2_6": [
+  "Infine le dimensioni: piccole, medie e grandi imprese. Le pi emme i sono la maggioranza del nostro tessuto economico."
+ ],
+ "M3_0": [
+  "Ecco la mappa del rischio d'impresa."
+ ],
+ "M3_1": [
+  "Il rischio generale: eventi futuri incerti che possono influenzare negativamente gli obiettivi."
+ ],
+ "M3_2": [
+  "Il rischio particolare: manifestazioni del rischio economico senza significato autonomo."
+ ],
+ "M3_3": [
+  "La gestione del rischio, con l'Enterprise Risk Management, che salvaguarda l'azienda."
+ ],
+ "M3_4": [
+  "La norma uni iso trentunomila, che regola la gestione del rischio d'impresa."
+ ],
+ "M3_5": [
+  "Tra gli elementi aziendali, le risorse economiche: capitale, immobili, attrezzature e brevetti."
+ ],
+ "M3_6": [
+  "E le risorse umane: le persone preposte all'organizzazione aziendale."
+ ],
+ "M4_0": [
+  "Ecco la mappa di stakeholder e responsabilità sociale."
+ ],
+ "M4_1": [
+  "Gli stakeholder sono i portatori di interessi: individui, gruppi o organizzazioni."
+ ],
+ "M4_2": [
+  "Gli stakeholder interni fanno parte dell'azienda: dipendenti, manager e proprietari."
+ ],
+ "M4_3": [
+  "Gli stakeholder esterni hanno un interesse: investitori, fornitori e clienti."
+ ],
+ "M4_4": [
+  "La responsabilità sociale d'impresa, o ci esse erre, è una responsabilità volontaria verso gli stakeholder."
+ ],
+ "M4_5": [
+  "La ci esse erre di è la direttiva europea che rende obbligatorio il bilancio di sostenibilità."
+ ],
+ "M4_6": [
+  "Il principio di doppia materialità, e i formati standardizzati dei dati."
+ ],
+ "M5_0": [
+  "Ecco la mappa di soggetti, patrimonio e avviamento."
+ ],
+ "M5_1": [
+  "Il soggetto giuridico è titolare dei diritti e degli obblighi dell'azienda."
+ ],
+ "M5_2": [
+  "Il soggetto economico detiene il controllo e decide le scelte della gestione."
+ ],
+ "M5_3": [
+  "L'attivo patrimoniale è ciò che si possiede: beni, strumenti finanziari e crediti."
+ ],
+ "M5_4": [
+  "Il passivo patrimoniale è ciò che si deve: debiti e obbligazioni verso terzi."
+ ],
+ "M5_5": [
+  "Il patrimonio netto è la differenza tra attivo e passivo: la ricchezza effettiva."
+ ],
+ "M5_6": [
+  "L'avviamento è un valore immateriale: reputazione, clientela fidelizzata e know how."
+ ],
+ "M6_0": [
+  "Ecco la mappa della gestione aziendale."
+ ],
+ "M6_1": [
+  "La gestione si osserva per periodi amministrativi, di solito di dodici mesi: l'insieme delle operazioni è l'esercizio."
+ ],
+ "M6_2": [
+  "Il reddito è l'incremento o il decremento del capitale: utile o perdita."
+ ],
+ "M6_3": [
+  "Le operazioni: finanziamento, investimento e disinvestimento."
+ ],
+ "M6_4": [
+  "Le funzioni aziendali: aree strategiche, caratteristiche, integrative e di supporto."
+ ],
+ "M6_5": [
+  "Le cinque aree della gestione: caratteristica, accessoria, finanziaria, straordinaria e tributaria."
+ ],
+ "M6_6": [
+  "Infine l'equilibrio aziendale, economico e finanziario."
+ ],
+ "MF_0": [
+  "Ecco la mappa finale di tutta la lezione."
+ ],
+ "MF_1": [
+  "Primo ramo: le persone giuridiche, soggetti di diritto con autonomia patrimoniale."
+ ],
+ "MF_2": [
+  "Secondo ramo: l'azienda, il suo ambiente e la classificazione delle imprese."
+ ],
+ "MF_3": [
+  "Terzo ramo: il rischio d'impresa, generale e particolare, e la sua gestione."
+ ],
+ "MF_4": [
+  "Quarto ramo: gli stakeholder, la responsabilità sociale e la ci esse erre di."
+ ],
+ "MF_5": [
+  "Quinto ramo: soggetti, patrimonio e avviamento."
+ ],
+ "MF_6": [
+  "Sesto ramo: la gestione aziendale, le sue operazioni, le sue funzioni e il suo equilibrio."
+ ],
+ "F_0": [
+  "Ripassiamo insieme ciò che abbiamo imparato."
+ ],
+ "F_1": [
+  "Primo: le persone giuridiche, soggetti di diritto con autonomia patrimoniale."
+ ],
+ "F_2": [
+  "Secondo: l'azienda, il suo ambiente e la classificazione delle imprese."
+ ],
+ "F_3": [
+  "Terzo: il rischio d'impresa, generale e particolare, e come si gestisce."
+ ],
+ "F_4": [
+  "Quarto: gli stakeholder, la responsabilità sociale e la direttiva sulla sostenibilità."
+ ],
+ "F_5": [
+  "Quinto: i soggetti dell'azienda, il patrimonio e l'avviamento."
+ ],
+ "F_6": [
+  "Sesto: la gestione aziendale, con le sue operazioni, le sue funzioni e il suo equilibrio."
+ ],
+ "RP_0": [
+  "Prima di continuare, ripassiamo la prima parte della lezione."
+ ],
+ "RP_1": [
+  "Abbiamo visto le persone giuridiche e la loro autonomia patrimoniale."
+ ],
+ "RP_2": [
+  "Poi l'azienda, il suo ambiente e la classificazione delle imprese."
+ ],
+ "RP_3": [
+  "Quindi il rischio d'impresa e la sua gestione."
+ ],
+ "RP_4": [
+  "Infine gli stakeholder, la responsabilità sociale e la direttiva sulla sostenibilità."
+ ]
+}
