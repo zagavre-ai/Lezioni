@@ -6,7 +6,7 @@ AF="aresample=48000,highpass=f=80,arnndn=m=$Q/sh.rnnn,loudnorm=I=-16:TP=-1.5:LRA
 cut(){ # nome inizio fine [filtro extra video]
   [ -f $O/$1.ok ] && return
   ffmpeg -y -v error -ss $2 -to $3 -i $V -vf "${4:+$4,}$VF" -af "$AF" -c:v libx264 -preset veryfast -crf 14 -c:a pcm_s16le $O/$1.mkv && touch $O/$1.ok; echo "$1 fatto"; }
-cut C0 0 9.8
+cut C0 0 9.6
 cut T1 139 508
 cut T2 543 1400
 cut T3 1410 1469
