@@ -268,5 +268,265 @@
   "nome": "FIN2",
   "testo": "Abbiamo concluso la lezione sulla Rivoluzione russa e sulla nascita dell'Unione Sovietica. Adesso mettiti alla prova con la verifica finale. Buon lavoro.",
   "lingua": "it"
+ },
+ {
+  "nome": "B0",
+  "testo": "Benvenuti alla lezione di Storia. Oggi parliamo della Rivoluzione russa e della nascita dell'Unione Sovietica. Il professor Giorgio Mazzotti ci guida attraverso nove argomenti.",
+  "lingua": "it"
+ },
+ {
+  "nome": "B2",
+  "testo": "Benvenuti alla seconda parte della lezione di Storia. Il professor Giorgio Mazzotti ci guida attraverso gli ultimi cinque argomenti.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MDF",
+  "testo": "Ecco la mappa del professor Mazzotti. Come avviene la Rivoluzione di febbraio? Le difficoltà della guerra causano una rivoluzione, nel marzo millenovecentodiciassette. Da essa nascono il governo provvisorio, i soviet e il rientro di Lenin. Il governo provvisorio vuole proseguire la guerra, i soviet una pace immediata, e Lenin sostiene la possibilità di una rivoluzione socialista.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MDO",
+  "testo": "Ecco la mappa del professor Mazzotti. Come si svolge la Rivoluzione di ottobre? La Rivoluzione di ottobre porta a un governo bolscevico. Questo decide la pace immediata e la distribuzione della terra ai contadini, e assume caratteri autoritari.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MDG",
+  "testo": "Ecco la mappa del professor Mazzotti. Come si svolge la guerra civile russa? La guerra civile, dal millenovecentodiciotto al millenovecentoventi, vede scontrarsi le armate bianche e l'Armata rossa, e viene affrontata con il comunismo di guerra. Le armate bianche sono guidate da generali zaristi, l'Armata rossa da Trockij, e il comunismo di guerra porta a risultati economici disastrosi.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MDN",
+  "testo": "Ecco la mappa del professor Mazzotti. Qual è la politica di Lenin dopo la fine della guerra civile? Il fallimento del comunismo di guerra viene affrontato con la Nuova politica economica. Questa consente ai contadini di vendere parte del prodotto, autorizza imprese private di piccole dimensioni e raggiunge risultati positivi.",
+  "lingua": "it"
+ },
+ {
+  "nome": "P1",
+  "testo": "Ripassiamo insieme la crisi della Russia zarista. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC1_1",
+  "testo": "La Grande Guerra aggrava le difficoltà dell'Impero.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC1_2",
+  "testo": "Nicola Secondo difende il potere assoluto e svuota la Duma.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC1_3",
+  "testo": "Al fronte mancano i rifornimenti; nelle città, caro vita e fame.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC1_4",
+  "testo": "Rasputin: la corte è screditata e isolata.",
+  "lingua": "it"
+ },
+ {
+  "nome": "P2",
+  "testo": "Ripassiamo insieme la Rivoluzione di Febbraio. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC2_1",
+  "testo": "Dal ventitré al ventisette febbraio, proteste a Pietrogrado.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC2_2",
+  "testo": "I soldati solidarizzano con i manifestanti.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC2_3",
+  "testo": "Marzo millenovecentodiciassette: lo zar abdica.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC2_4",
+  "testo": "Nasce il governo provvisorio del principe Lvov.",
+  "lingua": "it"
+ },
+ {
+  "nome": "P3",
+  "testo": "Ripassiamo insieme il dualismo di potere e il ritorno di Lenin. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC3_1",
+  "testo": "Dualismo di potere: governo provvisorio e Soviet.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC3_2",
+  "testo": "Sulla guerra: il governo vuole continuare, i Soviet sono incerti.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC3_3",
+  "testo": "Aprile millenovecentodiciassette: Lenin rientra in Russia.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC3_4",
+  "testo": "Le Tesi di aprile: tutto il potere ai Soviet.",
+  "lingua": "it"
+ },
+ {
+  "nome": "P4",
+  "testo": "Ripassiamo insieme il percorso dalle giornate di luglio alla Rivoluzione di Ottobre. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC4_1",
+  "testo": "Le giornate di luglio: Lenin fugge in Finlandia.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC4_2",
+  "testo": "Kerenskij guida il governo.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC4_3",
+  "testo": "Il golpe di Kornilov è sventato dai bolscevichi.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC4_4",
+  "testo": "Venticinque ottobre: le Guardie rosse assaltano il Palazzo d'Inverno.",
+  "lingua": "it"
+ },
+ {
+  "nome": "P5",
+  "testo": "Ripassiamo insieme i primi provvedimenti bolscevichi. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC5_1",
+  "testo": "Decreti sulla pace e sulla terra.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC5_2",
+  "testo": "Si nazionalizzano banche e grandi industrie.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC5_3",
+  "testo": "I bolscevichi hanno il ventuno virgola sette per cento: sciolgono la Costituente.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC5_4",
+  "testo": "Ceka, Politburo e capitale a Mosca: la dittatura del partito.",
+  "lingua": "it"
+ },
+ {
+  "nome": "P6",
+  "testo": "Ripassiamo insieme il trattato di Brest-Litovsk e la guerra civile. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC6_1",
+  "testo": "Costituzione del millenovecentodiciotto: parità tra i sessi.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC6_2",
+  "testo": "Brest-Litovsk: la Russia perde vasti territori.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC6_3",
+  "testo": "Guerra civile: Armata rossa contro Armate bianche.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC6_4",
+  "testo": "Luglio millenovecentodiciotto: uccisa la famiglia reale.",
+  "lingua": "it"
+ },
+ {
+  "nome": "P7",
+  "testo": "Ripassiamo insieme il comunismo di guerra. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC7_1",
+  "testo": "Economia statalizzata, senza proprietà privata.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC7_2",
+  "testo": "Requisizioni forzate del grano.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC7_3",
+  "testo": "Lavoro obbligatorio e nazionalizzazioni.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC7_4",
+  "testo": "I contadini resistono: mercato nero.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC7_5",
+  "testo": "Millenovecentoventuno: vince l'Armata rossa.",
+  "lingua": "it"
+ },
+ {
+  "nome": "P8",
+  "testo": "Ripassiamo insieme la Nuova Politica Economica. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC8_1",
+  "testo": "Milioni di morti e crollo della produzione.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC8_2",
+  "testo": "Kronstadt: la rivolta dei marinai è repressa.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC8_3",
+  "testo": "Lenin chiude il comunismo di guerra e vara la Nep.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC8_4",
+  "testo": "Nep: imposta in natura e libero mercato.",
+  "lingua": "it"
+ },
+ {
+  "nome": "P9",
+  "testo": "Ripassiamo insieme la nascita dell'URSS e la successione a Lenin. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC9_1",
+  "testo": "Venti dicembre millenovecentoventidue: nasce l'Urss.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC9_2",
+  "testo": "Federale solo in apparenza: il potere è del Partito.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC9_3",
+  "testo": "Gennaio millenovecentoventiquattro: muore Lenin.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC9_4",
+  "testo": "La lotta per la successione: Trockij e Stalin.",
+  "lingua": "it"
  }
 ]
