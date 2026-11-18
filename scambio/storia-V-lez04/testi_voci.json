@@ -1,10 +1,5 @@
 [
  {
-  "nome": "BEN",
-  "testo": "Benvenuti alla lezione di Storia. Oggi parliamo della Prima guerra mondiale: dall'equilibrio instabile dell'Europa all'inizio del Novecento fino ai trattati di pace e al bilancio umano del conflitto. Il professor Giorgio Mazzotti ci guida attraverso undici argomenti.",
-  "lingua": "it"
- },
- {
   "nome": "MAP1",
   "testo": "Ecco la mappa delle premesse della Prima guerra mondiale. Al centro, l'Europa dell'inizio del Novecento. Si divide in alleanze contrapposte: la Triplice Alleanza e la Triplice Intesa. È destabilizzata da Guglielmo secondo di Germania, che adotta una politica estera e coloniale aggressiva. E dalla crisi dell'Impero ottomano, che causa la concorrenza tra Austria-Ungheria e Russia.",
   "lingua": "it"
@@ -420,8 +415,23 @@
   "lingua": "it"
  },
  {
-  "nome": "FIN",
-  "testo": "Ricapitoliamo la lezione. Abbiamo visto l'equilibrio instabile dell'Europa, le crisi coloniali e i Balcani, l'attentato di Sarajevo, i fronti e la trincea. Poi l'Italia dalla neutralità all'intervento, le battaglie di logoramento e la guerra totale. Infine il millenovecentodiciassette, il millenovecentodiciotto con la fine degli imperi, i trattati di pace e il bilancio umano della guerra.",
+  "nome": "BEN1",
+  "testo": "Benvenuti alla lezione di Storia. Oggi parliamo della Prima guerra mondiale. In questa prima parte il professor Giorgio Mazzotti ci guida attraverso quattro argomenti: l'Europa all'inizio del Novecento, le crisi coloniali e i Balcani, l'attentato di Sarajevo del millenovecentoquattordici, e i fronti di guerra con la vita in trincea.",
+  "lingua": "it"
+ },
+ {
+  "nome": "BEN2",
+  "testo": "Benvenuti alla seconda parte della lezione sulla Prima guerra mondiale. Il professor Giorgio Mazzotti ci guida attraverso sette argomenti: l'intervento dell'Italia nel millenovecentoquindici, la guerra totale, le grandi battaglie di logoramento, il millenovecentodiciassette, il millenovecentodiciotto, il bilancio umano del conflitto e i trattati di pace.",
+  "lingua": "it"
+ },
+ {
+  "nome": "FIN1",
+  "testo": "Ricapitoliamo questa prima parte. Abbiamo visto l'equilibrio instabile dell'Europa all'inizio del Novecento, le crisi coloniali e i Balcani, l'attentato di Sarajevo con la reazione a catena delle alleanze, e infine i fronti di guerra e il dramma della trincea.",
+  "lingua": "it"
+ },
+ {
+  "nome": "FIN2",
+  "testo": "Ricapitoliamo questa seconda parte. L'Italia dalla neutralità all'intervento, la guerra totale, le battaglie di logoramento, il millenovecentodiciassette, anno della svolta, il millenovecentodiciotto con la fine degli imperi, il bilancio umano e sociale del conflitto, e i trattati di pace.",
   "lingua": "it"
  }
 ]
