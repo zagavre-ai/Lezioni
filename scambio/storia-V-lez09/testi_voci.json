@@ -148,5 +148,345 @@
   "nome": "FIN2",
   "testo": "Per oggi è tutto. Ripassa gli argomenti, rifai i quiz e metti alla prova quello che hai imparato con la verifica finale.",
   "lingua": "it"
+ },
+ {
+  "nome": "PI1",
+  "testo": "Facciamo un riepilogo di quello che hai appena visto: la svolta autoritaria. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS1_1",
+  "testo": "Il tre gennaio del millenovecentoventicinque Mussolini si assume la responsabilità del delitto Matteotti. Finisce lo Stato liberale.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS1_2",
+  "testo": "Repressione del dissenso: chiudono i circoli di opposizione e ci sono arresti di massa, tra cui Amendola e Gobetti.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS1_3",
+  "testo": "Le Leggi Fascistissime, del millenovecentoventicinque e del millenovecentoventisei, ideate dal ministro Alfredo Rocco.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS1_4",
+  "testo": "Mussolini diventa Capo del Governo: risponde solo al Re, non più al Parlamento.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PI2",
+  "testo": "Ripassiamo insieme lo Stato fascistizzato. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS2_1",
+  "testo": "Al posto dei sindaci arrivano i podestà, di nomina governativa.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS2_2",
+  "testo": "Abolizione dei diritti civili: vietate le associazioni, come la massoneria.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS2_3",
+  "testo": "Soppressa la libertà di stampa: chiudono i giornali d'opposizione e le grandi testate sono fascistizzate.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS2_4",
+  "testo": "Per la difesa dello Stato: la pena di morte, il Tribunale speciale e l'OVRA, la polizia segreta.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS2_5",
+  "testo": "Gli oppositori vengono arrestati, come Gramsci, o mandati al confino, per esempio a Ventotene.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PI3",
+  "testo": "Facciamo un riepilogo del consolidamento del potere. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS3_1",
+  "testo": "Dittatura a partito unico: il fascio littorio diventa l'emblema dello Stato.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS3_2",
+  "testo": "Il Gran Consiglio diventa l'organo supremo dello Stato e stila la lista unica dei candidati.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS3_3",
+  "testo": "Le elezioni plebiscitarie del millenovecentoventotto: una lista fissa di quattrocento deputati, scelti dal regime.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS3_4",
+  "testo": "Stato assoluto ed etico: cancella la sovranità popolare e controlla la vita dei cittadini.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PI4",
+  "testo": "Ripassiamo insieme la gioventù fascista. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS4_1",
+  "testo": "L'Opera Nazionale Dopolavoro, istituita nel millenovecentoventicinque, organizza il tempo libero dei lavoratori adulti.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS4_2",
+  "testo": "L'Opera Nazionale Balilla inquadra i giovani dai sei ai diciotto anni, divisi per età e per genere.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS4_3",
+  "testo": "Il sabato fascista: parate, ginnastica e addestramento militare, per la fedeltà al Duce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS4_4",
+  "testo": "I GUF, Gruppi Universitari Fascisti, controllano gli studenti universitari e diffondono l'ideologia del regime.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PI5",
+  "testo": "Facciamo un riepilogo della riforma Gentile. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS5_1",
+  "testo": "La Riforma Gentile, del millenovecentoventitré, estende l'obbligo scolastico a quattordici anni.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS5_2",
+  "testo": "La scuola ha una struttura gerarchica, divisa per classi e per genere.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS5_3",
+  "testo": "Il liceo classico diventa la scuola d'élite per la futura classe dirigente.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS5_4",
+  "testo": "Il libro di testo unico, introdotto nel millenovecentoventotto, serve a inculcare obbedienza e culto di Mussolini.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PI6",
+  "testo": "Facciamo un riepilogo di media e Patti Lateranensi. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS6_1",
+  "testo": "Nascono l'EIAR, per la radio, e l'Istituto LUCE, per il cinema di propaganda.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS6_2",
+  "testo": "Il Ministero della Cultura Popolare, il MinCulPop, controlla stampa, radio, cinema e propaganda.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS6_3",
+  "testo": "I Patti Lateranensi, del millenovecentoventinove, chiudono la questione romana tra Stato e Chiesa.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS6_4",
+  "testo": "Il Trattato riconosce lo Stato della Città del Vaticano. Con il Concordato il cattolicesimo diventa religione di Stato.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PI7",
+  "testo": "Ripassiamo insieme corporativismo e agricoltura. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS7_1",
+  "testo": "Il sistema corporativo è l'alternativa fascista a capitalismo e socialismo: vietati i sindacati liberi.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS7_2",
+  "testo": "Nasce l'INFPS, poi INPS, per pensioni e assicurazioni, e arrivano forti dazi sulle importazioni.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS7_3",
+  "testo": "La Battaglia del Grano, del millenovecentoventicinque, punta all'autosufficienza alimentare.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS7_4",
+  "testo": "La Bonifica Integrale prosciuga terre paludose, come l'Agro Pontino, e fonda nuove città, come Littoria.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PI8",
+  "testo": "Facciamo un riepilogo di Quota novanta e autarchia. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS8_1",
+  "testo": "Quota novanta, del millenovecentoventisei: la lira è rivalutata e il cambio è fissato a novanta lire per una sterlina.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS8_2",
+  "testo": "Gli effetti: scende l'inflazione, ma le esportazioni sono penalizzate.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS8_3",
+  "testo": "Nascono l'IMI e l'IRI, nel millenovecentotrentatré: lo Stato diventa il principale attore economico.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS8_4",
+  "testo": "L'autarchia, del millenovecentotrentasei, dopo le sanzioni: produrre tutto all'interno del Paese.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS8_5",
+  "testo": "I primi anni di politica estera: gli Accordi di Locarno e la riconquista della Libia, con il generale Graziani.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PI9",
+  "testo": "Ripassiamo insieme il ruolo della donna e la demografia. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS9_1",
+  "testo": "La visione patriarcale della famiglia: la donna è l'angelo del focolare, madre e moglie devota.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS9_2",
+  "testo": "La Battaglia demografica incentiva la natalità, con premi per le famiglie numerose.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS9_3",
+  "testo": "Nel millenovecentoventisei una legge proibisce l'aborto e la contraccezione.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS9_4",
+  "testo": "L'ONMI, Opera Nazionale Maternità e Infanzia, nata nel millenovecentoventicinque, assiste madri e bambini poveri.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS9_5",
+  "testo": "Le donne sono escluse dalle cattedre superiori e hanno un salario dimezzato rispetto agli uomini.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PI10",
+  "testo": "Facciamo un riepilogo di Impero e Leggi Razziali. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS10_1",
+  "testo": "La guerra d'Etiopia, tra il millenovecentotrentacinque e il millenovecentotrentasei, guidata da Badoglio: nasce l'Impero.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS10_2",
+  "testo": "La Società delle Nazioni impone sanzioni; il regime risponde con la campagna Oro alla Patria.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS10_3",
+  "testo": "Nel millenovecentotrentasei nasce l'Asse Roma-Berlino, l'alleanza con la Germania di Hitler.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS10_4",
+  "testo": "Il Manifesto della Razza, del millenovecentotrentotto, è un documento pseudoscientifico.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS10_5",
+  "testo": "Le Leggi Razziali, del settembre millenovecentotrentotto, espellono gli ebrei dalle scuole e dalle cariche pubbliche.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP1_0",
+  "testo": "Ecco la mappa del professore: come viene istituita la dittatura fascista? Al centro c'è il fascismo.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP1_1",
+  "testo": "Con le Leggi Fascistissime, del millenovecentoventicinque e del millenovecentoventisei, il fascismo istituisce il capo del governo, che può emanare leggi per decreto.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP1_2",
+  "testo": "Le Leggi Fascistissime aboliscono anche le autonomie locali, con l'istituzione dei podestà.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP1_3",
+  "testo": "Infine il fascismo adotta un apparato repressivo: l'OVRA, il Tribunale speciale per la sicurezza dello Stato e il confino.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP2_0",
+  "testo": "Ecco la mappa del professore: con quali strumenti il fascismo cerca di organizzare il consenso? Il progetto totalitario del fascismo prevede la trasformazione delle masse.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP2_1",
+  "testo": "Lo fa attraverso le attività ricreative e culturali, come il Dopolavoro.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP2_2",
+  "testo": "Attraverso l'inquadramento dei giovani e il controllo della scuola.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP2_3",
+  "testo": "E attraverso il controllo della radio e del cinema.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP3_0",
+  "testo": "Ecco la mappa del professore: qual è la politica economica del fascismo? La politica economica del fascismo prevede l'organizzazione corporativa del mondo del lavoro.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP3_1",
+  "testo": "Dopo la crisi del millenovecentoventinove, il regime istituisce l'IMI e l'IRI.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP3_2",
+  "testo": "Dopo le sanzioni della Società delle Nazioni, il regime adotta l'autarchia.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP4_0",
+  "testo": "Ecco la mappa del professore: quali sono la politica estera e la politica razziale del regime? La politica del fascismo si muove in due campi.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP4_1",
+  "testo": "In campo internazionale, la politica cambia dopo l'aggressione all'Etiopia, del millenovecentotrentacinque e del millenovecentotrentasei, e porta all'Asse Roma-Berlino del millenovecentotrentasei.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP4_2",
+  "testo": "In campo razziale, porta alle leggi contro le unioni miste e alle leggi razziali contro gli ebrei del millenovecentotrentotto.",
+  "lingua": "it"
  }
 ]
