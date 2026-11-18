@@ -143,5 +143,55 @@
   "nome": "CINTRO",
   "testo": "Ora passiamo ai compiti. Rispondi alle domande del professore con parole tue.",
   "lingua": "it"
+ },
+ {
+  "nome": "S1",
+  "testo": "Crisi economica: deficit pubblico e inflazione. Disoccupazione: oltre due milioni di persone. Contadini: invadono i latifondi incolti. Operai: occupano le fabbriche nel settembre del millenovecentoventi. Mito bolscevico: i massimalisti predicano la rivoluzione.",
+  "lingua": "it"
+ },
+ {
+  "nome": "S2",
+  "testo": "Suffragio universale maschile: voto ai maschi sopra i ventuno anni. Sistema proporzionale: seggi in proporzione ai voti. Crollo dei liberali: perdono il controllo del Parlamento. Partiti di massa: socialisti primi, poi i popolari di Sturzo. Vittoria mutilata: Dalmazia e Fiume negate all'Italia. Fiume: d'Annunzio la occupa nel millenovecentodiciannove.",
+  "lingua": "it"
+ },
+ {
+  "nome": "S3",
+  "testo": "Fasci di combattimento: fondati da Mussolini il ventitré marzo millenovecentodiciannove. Programma contraddittorio: anticlericale, democratico, violento. Squadre d'azione: bande con la camicia nera. Spedizioni punitive: contro leghe contadine e cooperative rosse. Complicità: funzionari, militari e magistrati tollerano.",
+  "lingua": "it"
+ },
+ {
+  "nome": "S4",
+  "testo": "Giolitti: torna al governo nel giugno millenovecentoventi. Trattato di Rapallo: Fiume Stato libero, nel novembre millenovecentoventi. Blocchi Nazionali: fascisti nelle liste liberali, nel millenovecentoventuno. Fascisti in Parlamento: trentacinque deputati, tra cui Mussolini. PNF: il partito di massa, nel novembre millenovecentoventuno.",
+  "lingua": "it"
+ },
+ {
+  "nome": "S5",
+  "testo": "Governo Facta: impotente di fronte alle violenze. Mobilitazione: riunione segreta a Milano, ottobre millenovecentoventidue. ventotto ottobre millenovecentoventidue: venticinquemila camicie nere verso Roma. Il re: rifiuta di firmare lo stato d'assedio. trenta ottobre millenovecentoventidue: Mussolini riceve l'incarico di governo.",
+  "lingua": "it"
+ },
+ {
+  "nome": "S6",
+  "testo": "Ministeri: Mussolini prende Interni ed Esteri. Discorso del bivacco: sedici novembre millenovecentoventidue, minaccia il Parlamento. Gran consiglio del fascismo: un governo parallelo del PNF. Milizia volontaria: le squadre d'azione diventano legali. Legge Acerbo: due terzi dei seggi alla lista maggioritaria.",
+  "lingua": "it"
+ },
+ {
+  "nome": "S7",
+  "testo": "Elezioni del millenovecentoventiquattro: violenze e brogli della Milizia. trenta maggio millenovecentoventiquattro: Matteotti denuncia le illegalità. dieci giugno millenovecentoventiquattro: Matteotti è rapito e ucciso. Aventino: le opposizioni lasciano il Parlamento. tre gennaio millenovecentoventicinque: Mussolini si assume la responsabilità: è la dittatura.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MAP1",
+  "testo": "Quali sono le condizioni dell'Italia nel dopoguerra? L'Italia vive una difficile situazione economica ed è attraversata da tensioni politiche. Le tensioni sono due: la mobilitazione contadina e operaia, che culmina nell'occupazione delle fabbriche del millenovecentoventi, e l'insoddisfazione dei nazionalisti per la vittoria mutilata, che porta all'occupazione di Fiume del millenovecentodiciannove.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MAP2",
+  "testo": "Come nasce e si sviluppa il movimento fascista? Benito Mussolini fonda i Fasci di combattimento nel millenovecentodiciannove, che praticano lo squadrismo. Partecipa poi ai blocchi nazionali del millenovecentoventuno e fonda il Partito nazionale fascista.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MAP3",
+  "testo": "Ecco la mappa su Mussolini al potere. Benito Mussolini decide la marcia su Roma, del millenovecentoventidue, e ottiene l'incarico di governo. Insieme ai liberali introduce una riforma elettorale. In seguito dispone l'assassinio di Matteotti, nel millenovecentoventiquattro, e ne rivendica pubblicamente la responsabilità nel millenovecentoventicinque.",
+  "lingua": "it"
  }
 ]
