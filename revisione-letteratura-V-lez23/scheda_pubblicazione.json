@@ -1,31 +1,31 @@
 {
  "materia": "Letteratura italiana (V)",
  "titolo": "Letteratura V · Lezione 23 · Primo Levi",
- "durata_s": 3173.46,
+ "durata_s": 3229.504,
  "argomenti": [
   {
    "n": 1,
    "titolo": "La vita e la formazione",
    "inizio_s": 197.4,
-   "quiz_s": 761.054
+   "quiz_s": 775.054
   },
   {
    "n": 2,
    "titolo": "La sopravvivenza nel Lager",
-   "inizio_s": 765.154,
-   "quiz_s": 1446.821
+   "inizio_s": 779.154,
+   "quiz_s": 1474.821
   },
   {
    "n": 3,
    "titolo": "Se questo è un uomo",
-   "inizio_s": 1450.921,
-   "quiz_s": 2197.588
+   "inizio_s": 1478.921,
+   "quiz_s": 2239.588
   },
   {
    "n": 4,
    "titolo": "La tregua",
-   "inizio_s": 2201.688,
-   "quiz_s": 2964.724
+   "inizio_s": 2243.688,
+   "quiz_s": 3020.724
   }
  ],
  "quiz": {
@@ -254,8 +254,8 @@
    "t": 2964.724
   }
  },
- "t_verifica": 3148.858,
- "t_compiti": 3167.158,
+ "t_verifica": 3204.858,
+ "t_compiti": 3223.158,
  "approfondimenti": [
   {
    "id": "AN1",
@@ -280,92 +280,92 @@
   {
    "id": "AN5",
    "titolo": "Come sopravvive Levi",
-   "inizio_s": 1019.254
+   "inizio_s": 1033.254
   },
   {
    "id": "AN6",
    "titolo": "Dalla liberazione al ritorno",
-   "inizio_s": 1106.454
+   "inizio_s": 1120.454
   },
   {
    "id": "AN7",
    "titolo": "Il tormento di non essere creduto",
-   "inizio_s": 1172.154
+   "inizio_s": 1186.154
   },
   {
    "id": "AN8",
    "titolo": "Due vite: il chimico e lo scrittore",
-   "inizio_s": 1238.455
+   "inizio_s": 1252.455
   },
   {
    "id": "AN9",
    "titolo": "La sopravvivenza",
-   "inizio_s": 1327.055
+   "inizio_s": 1341.055
   },
   {
    "id": "AN10",
    "titolo": "Se questo è un uomo: la scheda",
-   "inizio_s": 1723.021
+   "inizio_s": 1751.021
   },
   {
    "id": "AN11",
    "titolo": "La macchina del Lager",
-   "inizio_s": 1791.121
+   "inizio_s": 1819.121
   },
   {
    "id": "AN12",
    "titolo": "I salvati e i sommersi",
-   "inizio_s": 1853.021
+   "inizio_s": 1881.021
   },
   {
    "id": "AN13",
    "titolo": "Lo stile di Se questo è un uomo",
-   "inizio_s": 1907.754
+   "inizio_s": 1935.754
   },
   {
    "id": "AN14",
    "titolo": "Parole chiave del terzo argomento",
-   "inizio_s": 1993.254
+   "inizio_s": 2021.254
   },
   {
    "id": "AN15",
    "titolo": "Se questo è un uomo",
-   "inizio_s": 2069.254
+   "inizio_s": 2097.254
   },
   {
    "id": "AN16",
    "titolo": "La tregua: la scheda",
-   "inizio_s": 2423.458
+   "inizio_s": 2465.458
   },
   {
    "id": "AN17",
    "titolo": "Le due opere fondamentali a confronto",
-   "inizio_s": 2496.591
+   "inizio_s": 2538.591
   },
   {
    "id": "AN18",
    "titolo": "Dalla fantascienza alla chimica",
-   "inizio_s": 2559.291
+   "inizio_s": 2601.291
   },
   {
    "id": "AN19",
    "titolo": "Dalla Chiave a stella ai Sommersi e i salvati",
-   "inizio_s": 2649.291
+   "inizio_s": 2691.291
   },
   {
    "id": "AN20",
    "titolo": "Il sistema periodico: lettura guidata",
-   "inizio_s": 2766.091
+   "inizio_s": 2808.091
   },
   {
    "id": "AN21",
    "titolo": "Parole chiave dell'ultimo argomento",
-   "inizio_s": 2848.691
+   "inizio_s": 2890.691
   },
   {
    "id": "ANF",
    "titolo": "Primo Levi",
-   "inizio_s": 2968.824
+   "inizio_s": 3024.824
   }
  ]
 }
