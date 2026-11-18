@@ -1,31 +1,31 @@
 {
  "materia": "Letteratura italiana (V)",
  "titolo": "Letteratura V · Lezione 7 · Il romanzo nell'Europa e nell'Italia del Decadentismo",
- "durata_s": 3350.6,
+ "durata_s": 3406.613,
  "argomenti": [
   {
    "n": 1,
    "titolo": "Il romanzo decadente in Europa",
    "inizio_s": 130.567,
-   "quiz_s": 654.734
+   "quiz_s": 668.734
   },
   {
    "n": 2,
    "titolo": "Huysmans e Controcorrente",
-   "inizio_s": 660.034,
-   "quiz_s": 1297.667
+   "inizio_s": 674.034,
+   "quiz_s": 1325.667
   },
   {
    "n": 3,
    "titolo": "Oscar Wilde e l'Estetismo",
-   "inizio_s": 1302.967,
-   "quiz_s": 2447.467
+   "inizio_s": 1330.967,
+   "quiz_s": 2489.467
   },
   {
    "n": 4,
    "titolo": "Grazia Deledda e il romanzo in Italia",
-   "inizio_s": 2452.767,
-   "quiz_s": 3116.967
+   "inizio_s": 2494.767,
+   "quiz_s": 3172.967
   }
  ],
  "quiz": {
@@ -250,6 +250,6 @@
    ]
   }
  },
- "t_verifica": 3325.8,
- "t_compiti": 3344.1
+ "t_verifica": 3381.8,
+ "t_compiti": 3400.1
 }
