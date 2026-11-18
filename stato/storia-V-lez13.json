@@ -2,45 +2,20 @@
  "tag": "storia-V-lez13",
  "parti": {
   "1": {
-   "stato": "IN_MONTAGGIO"
+   "stato": "IN_REVISIONE"
   }
  },
  "manca": "",
- "serve_master": [
-  {
-   "quando": "14/11 13:50",
-   "testo": "Lezione 13: i 3 file del video (78:50 in tutto) finiscono a metà frase sull'armistizio dell'8 settembre 1943 («...l'Italia di Vittorio Emanuele»). L'ultima slide (Italia divisa, Salò) non viene spiegata. Manca un quarto file? Intanto monto con quello che c'è; se arriva il seguito lo aggiungo."
-  },
-  {
-   "quando": "14/11 13:56",
-   "testo": "Voci Kore lezione 13: una sola richiesta, 37 testi (circa 22.100 caratteri, stima 24 min) in voci-storia-V-lez13/scambio/storia-V-lez13/testi_voci.json. Quiz 8x5 in quiz.json da approvare."
-  },
-  {
-   "quando": "14/11 14:33",
-   "testo": "SECONDA richiesta di voci per la lezione 13 (34 nomi nuovi, circa 22.700 caratteri, 25 min): è arrivato il quarto file del video (13-4, 30:12) con 3 argomenti nuovi; la lezione diventa di 3 Parti (docente 34 + 36 + 39 min). Le 37 voci già generate restano in uso quasi tutte; dettagli in scambio/storia-V-lez13/RICHIESTA_2.txt. Quiz definitivo 11x5 in quiz.json."
-  },
-  {
-   "quando": "14/11 16:04",
-   "testo": "Promemoria (16:05): non sono ancora arrivate le voci Kore della seconda richiesta lez13 (34 nomi, 14:33), della lez03 (53, 15:13) e della lez12 (52, 15:49). Ordine di priorità: 13 (serve mercoledì), poi 3 (giovedì), poi 12. Tutto il resto è pronto: appena arrivano, monto."
-  }
- ],
+ "serve_master": [],
  "domande_sara": [],
  "note": [
   {
-   "quando": "14/11 12:27",
-   "testo": "Storia V · chat S3 (preparazione: trascrizione e slide mentre la lezione 5 aspetta le voci)"
-  },
-  {
-   "quando": "14/11 13:50",
-   "testo": "Trascrizione finita; 8 argomenti; previste 2 Parti (P1 argomenti 1-4, P2 5-8)."
-  },
-  {
-   "quando": "14/11 14:33",
-   "testo": "Arrivato il quarto file: 11 argomenti, 3 Parti (P1 arg 1-3, P2 arg 4-7, P3 arg 8-11). Stima: 51 / 52 / 55 min."
+   "quando": "18/11 19:33",
+   "testo": "PRENOTATA 18/11 17:30 · chat v3 rifacimento da zero"
   }
  ],
  "materia": "Storia V",
- "lezione": "Lezione 13 · La seconda guerra mondiale",
+ "lezione": "Lezione 13",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-14 16:04:51"
+ "aggiornato": "2026-11-18 19:33:57"
 }
