@@ -2,41 +2,53 @@
  "tag": "storia-V-lez03",
  "parti": {
   "1": {
-   "stato": "IN_MONTAGGIO"
+   "stato": "IN_REVISIONE"
   }
  },
  "manca": "",
  "serve_master": [
   {
-   "quando": "14/11 15:13",
-   "testo": "Voci Kore lezione 3: una sola richiesta, 53 testi (circa 28.000 caratteri, stima 31 min) in voci-storia-V-lez03/scambio/storia-V-lez03/testi_voci.json. Quiz 11x5 in quiz.json da approvare."
+   "quando": "18/11 12:41",
+   "testo": "Voci nuove nel ramo voci-storia-V-lez03 (commit 438859a, 15 testi: BEN, PIL1-11, MAPA1-3): non ancora generate. Servono per montare pillole, mappe del prof e benvenuto."
   },
   {
-   "quando": "16/11 07:30",
-   "testo": "Se avete gli script di montaggio usati per storia-V-lez05 (render schede/slide sincronizzate/animazioni), metteteli su un ramo: altrimenti li ricostruisco io, con tempi molto più lunghi."
+   "quando": "18/11 12:42",
+   "testo": "Voci nuove nel ramo voci-storia-V-lez03 (commit 438859a, 15 testi: BEN, PIL1-11, MAPA1-3) non ancora generate: servono per pillole, mappe del prof e benvenuto."
+  },
+  {
+   "quando": "18/11 12:42",
+   "testo": "Voci nuove nel ramo voci-storia-V-lez03 (commit 438859a, 15 testi: BEN, PIL1-11, MAPA1-3) non ancora generate: servono per pillole, mappe del prof e benvenuto."
+  },
+  {
+   "quando": "18/11 12:42",
+   "testo": "Voci nuove nel ramo voci-storia-V-lez03 (commit 438859a, 15 testi: BEN, PIL1-11, MAPA1-3) non ancora generate: servono per pillole, mappe del prof e benvenuto."
   }
  ],
  "domande_sara": [],
  "note": [
   {
-   "quando": "14/11 14:51",
-   "testo": "Storia V · chat S3 (preparazione mentre la 13 aspetta le voci)"
+   "quando": "18/11 12:06",
+   "testo": "chat v3"
   },
   {
-   "quando": "14/11 15:13",
-   "testo": "Analisi fatta: video 68:39 (1092x614), 11 argomenti, slide ricostruite dal video; 2 Parti (P1 arg 1-5, P2 arg 6-11), stima 52,5 + 52 min."
+   "quando": "18/11 12:41",
+   "testo": "chat v3: prof, approfondimenti, schemi e quiz in codifica; bloccata solo dalle 15 voci nuove"
   },
   {
-   "quando": "16/11 07:30",
-   "testo": "Storia V · chat S5: ripresa 16/11 07:50. Video scaricato, trascrizione in corso, slide individuate (11). Voci Kore già arrivate. Manca: motore di montaggio da ricostruire (gli script delle chat precedenti non sono nel repository)."
+   "quando": "18/11 12:42",
+   "testo": "chat v3: prof, approfondimenti, schemi e quiz in codifica"
   },
   {
-   "quando": "16/11 18:38",
-   "testo": "S5 16/11: applicate le regole delle 10:15 e 10:30 (grafica Spagnolo, trascrizione). Modello slide HTML pronto e provato; trascrizione in corso. Lezione ancora da montare."
+   "quando": "18/11 12:42",
+   "testo": "chat v3: prof, approfondimenti, schemi e quiz in codifica"
+  },
+  {
+   "quando": "18/11 12:42",
+   "testo": "chat v3: prof, approfondimenti, schemi e quiz in codifica"
   }
  ],
  "materia": "Storia V",
  "lezione": "Lezione 3 · L'Italia di Giolitti",
- "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-16 18:38:57"
+ "aggiornato": "2026-11-18 12:42:16",
+ "docente": "Prof. Giorgio Mazzotti"
 }
