@@ -178,5 +178,150 @@
   "nome": "COMPI",
   "testo": "Ora tocca a te: ecco i compiti.",
   "lingua": "it"
+ },
+ {
+  "nome": "SC1_1",
+  "testo": "Morte di Lenin, millenovecentoventiquattro: si apre la lotta per la successione.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC1_2",
+  "testo": "Trockij, la sinistra: difende la rivoluzione permanente.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC1_3",
+  "testo": "Bucharin, la destra: sostiene la Nuova politica economica e uno sviluppo pacifico e graduale.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC1_4",
+  "testo": "Stalin: il socialismo in un solo paese, e diventa leader supremo.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC2_1",
+  "testo": "Millenovecentoventinove: la grande svolta, da paese agricolo a potenza industriale.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC2_2",
+  "testo": "Economia pianificata: è lo Stato a decidere.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC2_3",
+  "testo": "Piani quinquennali: obiettivi fissati in anticipo per cinque anni, soprattutto industria pesante.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC2_4",
+  "testo": "Risultati: la produzione cresce e la disoccupazione scompare, ma i costi umani sono altissimi.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC3_1",
+  "testo": "Collettivizzazione forzata: lo Stato requisisce le terre e crea sovchoz e kolchoz.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC3_2",
+  "testo": "Kulaki: i contadini benestanti vengono perseguitati, deportati o eliminati.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC3_3",
+  "testo": "Requisizioni di grano: servono a finanziare l'industrializzazione.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC3_4",
+  "testo": "Carestia del millenovecentotrentadue e trentatré: milioni di morti, in Ucraina l'Holodomor.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC4_1",
+  "testo": "Dittatura personale: Stalin elimina la separazione tra partito e Stato.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC4_2",
+  "testo": "Grandi purghe, dal millenovecentotrentasei al millenovecentotrentotto: si colpisce ogni possibile oppositore.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC4_3",
+  "testo": "Processi pubblici: condanne a morte dopo confessioni estorte con la forza.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC4_4",
+  "testo": "Gulag: i campi di lavoro forzato per milioni di cittadini.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC4_5",
+  "testo": "Pilastri del regime: polizia segreta, sospetto, censura e propaganda.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC5_1",
+  "testo": "Culto della personalità: Stalin, il piccolo padre dei popoli, e il realismo socialista.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC5_2",
+  "testo": "Giovani: il controllo comincia a scuola e nel Komsomol.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC5_3",
+  "testo": "Stachanov: il mito del minatore che supera ogni record.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC5_4",
+  "testo": "Donne: si torna a modelli tradizionali e l'aborto diventa illegale.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC6_1",
+  "testo": "Anni Venti: l'Unione Sovietica esce dall'isolamento.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC6_2",
+  "testo": "Millenovecentotrentaquattro: entra nella Società delle Nazioni.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC6_3",
+  "testo": "Fronte unito: comunisti, socialisti e democratici contro il fascismo, come nella guerra civile spagnola.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC6_4",
+  "testo": "Agosto millenovecentotrentanove: il patto Molotov-Ribbentrop e la spartizione dell'Europa orientale.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MA1",
+  "testo": "Ecco la mappa dell'ascesa di Stalin. Alla morte di Lenin, nel millenovecentoventiquattro, si scontrano Trockij e Stalin. Trockij è il leader dell'Armata rossa e sostiene la rivoluzione permanente, ma viene sconfitto ed esiliato. Stalin è il segretario del Partito, sostiene la rivoluzione in un solo paese e raggiunge il potere assoluto.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MA2",
+  "testo": "Ecco la mappa dell'industrializzazione dell'Unione Sovietica. La svolta economica di Stalin si basa su due strumenti. La collettivizzazione dell'agricoltura provoca la resistenza dei contadini e gravissime carestie. I piani quinquennali per l'industria comportano lo sfruttamento dei lavoratori, ma consentono il decollo dell'industria pesante.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MA3",
+  "testo": "Ecco la mappa del totalitarismo di Stalin. Si basa su un uso spietato della violenza e sull'organizzazione del consenso. La violenza colpisce i rivali politici, con le purghe, e i cittadini comuni, deportati nei Gulag. Il consenso si basa sul controllo delle attività associative, della scuola e della gioventù, della cultura e delle arti.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RIEP1",
+  "testo": "Ripassiamo insieme ciò che abbiamo imparato. Prima, l'ascesa di Stalin: dopo la morte di Lenin, Stalin batte Trockij e Bucharin con il socialismo in un solo paese. Poi la grande svolta e i piani quinquennali. Poi la collettivizzazione forzata e la carestia. Poi il totalitarismo e il Grande Terrore. Poi la società staliniana, tra propaganda, giovani e donne. Infine la politica estera, fino al patto Molotov-Ribbentrop.",
+  "lingua": "it"
  }
 ]
