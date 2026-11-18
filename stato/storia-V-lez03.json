@@ -14,6 +14,20 @@
    "fotogrammi_attesi": 95080,
    "peso_MB": 340.1,
    "vtt": "Storia_Lez3_Parte1.vtt"
+  },
+  "2": {
+   "stato": "REVISIONATA",
+   "voci": "kore",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "no",
+   "video": "Storia_Lez3_Parte2_1080p.mp4",
+   "durata_s": 3081.4,
+   "durata": "51:21.4",
+   "fotogrammi": 92441,
+   "fotogrammi_attesi": 92441,
+   "peso_MB": 320.5,
+   "vtt": "Storia_Lez3_Parte2.vtt"
   }
  },
  "manca": "",
@@ -60,10 +74,14 @@
   {
    "quando": "18/11 21:14",
    "testo": "Parte 1 consegnata sul ramo revisione-storia-V-lez03"
+  },
+  {
+   "quando": "18/11 21:14",
+   "testo": "Parte 2 consegnata sul ramo revisione-storia-V-lez03"
   }
  ],
  "materia": "Storia V",
  "lezione": "Lezione 3 · L'Italia di Giolitti",
- "aggiornato": "2026-11-18 21:14:44",
+ "aggiornato": "2026-11-18 21:14:46",
  "docente": "Prof. Giorgio Mazzotti"
 }
