@@ -2,8 +2,46 @@
  "tag": "storia-V-lez04",
  "parti": {
   "1": {
-   "stato": "IN_MONTAGGIO",
-   "voci": "segnaposto"
+   "stato": "REVISIONATA",
+   "voci": "kore",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "no",
+   "video": "Storia_Lez4_Parte1_1080p.mp4",
+   "durata_s": 2628.1,
+   "durata": "43:48.1",
+   "fotogrammi": 78842,
+   "fotogrammi_attesi": 78842,
+   "peso_MB": 322.5,
+   "vtt": "Storia_Lez4_Parte1.vtt"
+  },
+  "2": {
+   "stato": "REVISIONATA",
+   "voci": "kore",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "no",
+   "video": "Storia_Lez4_Parte2_1080p.mp4",
+   "durata_s": 2146.3,
+   "durata": "35:46.3",
+   "fotogrammi": 64390,
+   "fotogrammi_attesi": 64390,
+   "peso_MB": 265.8,
+   "vtt": "Storia_Lez4_Parte2.vtt"
+  },
+  "3": {
+   "stato": "REVISIONATA",
+   "voci": "kore",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "no",
+   "video": "Storia_Lez4_Parte3_1080p.mp4",
+   "durata_s": 2659.9,
+   "durata": "44:19.9",
+   "fotogrammi": 79796,
+   "fotogrammi_attesi": 79796,
+   "peso_MB": 333.2,
+   "vtt": "Storia_Lez4_Parte3.vtt"
   }
  },
  "manca": "voci Kore (87)",
@@ -15,6 +53,10 @@
   {
    "quando": "18/11 13:29",
    "testo": "storia-V-lez04: genera le 87 voci di scambio/storia-V-lez04/testi_voci.json (ramo voci-storia-V-lez04), poi io monto."
+  },
+  {
+   "quando": "18/11 15:03",
+   "testo": "storia-V-lez04: servono 98 voci (testi_voci.json aggiornato, ultimo push 14:50)."
   }
  ],
  "domande_sara": [
@@ -31,10 +73,18 @@
   {
    "quando": "18/11 14:34",
    "testo": "14:35 anteprima Parte 1 (53:46) e Parte 2 (67:25) montate con voci a silenzio, pushate su revisione-storia-V-lez04 (cartella revisione-storia-V-lez04/). Mancano SOLO le voci Kore: rimontaggio ~40 min appena arrivano (lavoro/RIPRESA.md). LUFS -16,0, picco -1,8/-1,9 dBTP, nessun fermo del prof, quiz jingle a 0,000 s."
+  },
+  {
+   "quando": "18/11 15:03",
+   "testo": "Decisione Sara: 3 Parti (arg. 1-3 / 4,5,7 / 6,8,9,11,10) + mappa per ogni argomento (6 del prof + 5 costruite dalle slide). Aggiunte 11 voci nuove a voci-storia-V-lez04 (B3_*, F3_*, MAPN*: 98 testi in tutto). In ricodifica i pezzi del prof di Parte 2 e 3."
+  },
+  {
+   "quando": "18/11 16:53",
+   "testo": "REVISIONATA 3 Parti: 43:48, 35:46, 44:20; -16,0 LUFS; consegna su revisione-storia-V-lez04/ (RAPPORTO_REVISIONE.md). Da riascoltare: voci Kore (PI10 segnata DA CONTROLLARE), sottotitoli; da decidere: Parte 2 corta (36 min)."
   }
  ],
  "materia": "Storia V",
  "lezione": "Lezione 4 · La Prima guerra mondiale",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-18 14:34:20"
+ "aggiornato": "2026-11-18 16:53:04"
 }
