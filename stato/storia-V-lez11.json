@@ -2,7 +2,7 @@
  "tag": "storia-V-lez11",
  "parti": {
   "1": {
-   "stato": "PRONTA",
+   "stato": "REVISIONATA",
    "voci": "kore",
    "quiz_ok": "si",
    "fermi_ok": "si",
@@ -448,5 +448,5 @@
    "testo": "REVISIONATA chat v3 (ramo revisione-storia-V-lez11): 40:28.9, 72867 fotogrammi, -16.6 LUFS, picco -1.1 dBTP, Quiz a +0.005 s, 0 fermi prof. Sottotitoli del prof da riascoltare (vedi rapporto §7). Mappe prof mancanti: arg 5, 6 e finale."
   }
  ],
- "aggiornato": "2026-11-18 23:41:03"
+ "aggiornato": "2026-11-18 23:41:08"
 }
