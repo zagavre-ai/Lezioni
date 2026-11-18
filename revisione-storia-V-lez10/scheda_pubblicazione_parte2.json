@@ -1,0 +1,253 @@
+{
+ "materia": "Storia V",
+ "titolo": "Storia V · Lezione 10 · La Germania da Weimar al nazismo · Parte 2",
+ "durata_s": 3141.467,
+ "argomenti": [
+  {
+   "n": 5,
+   "titolo": "Dalle elezioni alla nomina di Hitler",
+   "inizio_s": 40.67,
+   "quiz_s": 776.1
+  },
+  {
+   "n": 6,
+   "titolo": "La costruzione dello Stato totalitario",
+   "inizio_s": 780.7,
+   "quiz_s": 1636.5
+  },
+  {
+   "n": 7,
+   "titolo": "Controllo della società ed economia",
+   "inizio_s": 1641.1,
+   "quiz_s": 2576.73
+  },
+  {
+   "n": 8,
+   "titolo": "La politica razzista e antisemita",
+   "inizio_s": 2581.33,
+   "quiz_s": 3077.67
+  }
+ ],
+ "quiz": {
+  "Q5": {
+   "title": "Quiz 5 · Dalle elezioni alla nomina di Hitler",
+   "items": [
+    {
+     "p": "Che cosa sono le SS?",
+     "a": "Le squadre di protezione, fedeli a Hitler",
+     "w": [
+      "Le milizie del partito comunista",
+      "La polizia di Weimar",
+      "Una setta religiosa"
+     ],
+     "e": "Hitler non si fidava delle SA, controllate da Röhm."
+    },
+    {
+     "p": "Quanti voti ottengono i nazisti alle elezioni del 1930?",
+     "a": "Oltre 6 milioni e 107 seggi",
+     "w": [
+      "800.000 voti",
+      "Il 44% dei voti",
+      "Il 53% dei voti"
+     ],
+     "e": "Diventano la seconda forza del Paese."
+    },
+    {
+     "p": "Come vanno le presidenziali del 1932?",
+     "a": "Hindenburg ottiene il 53% e Hitler il 37%",
+     "w": [
+      "Vince Hitler",
+      "Hitler ottiene il 3%",
+      "Hindenburg si ritira"
+     ],
+     "e": "Hitler non diventa presidente, ma il segnale è forte."
+    },
+    {
+     "p": "Che cosa fa von Papen dopo Brüning?",
+     "a": "Revoca il divieto alle milizie naziste e indice nuove elezioni",
+     "w": [
+      "Arresta Hitler",
+      "Dichiara guerra alla Francia",
+      "Si dimette subito"
+     ],
+     "e": "Nelle elezioni di luglio 1932 i nazisti raggiungono il 37%."
+    },
+    {
+     "p": "Quando Hitler è nominato cancelliere?",
+     "a": "Il 30 gennaio 1933",
+     "w": [
+      "Il 27 febbraio 1933",
+      "Il 5 marzo 1933",
+      "Il 30 giugno 1934"
+     ],
+     "e": "Hindenburg cede alle pressioni di industriali e militari."
+    }
+   ]
+  },
+  "Q6": {
+   "title": "Quiz 6 · La costruzione dello Stato totalitario",
+   "items": [
+    {
+     "p": "Che cosa accade il 27 febbraio 1933?",
+     "a": "Un incendio doloso distrugge il palazzo del Reichstag",
+     "w": [
+      "Hitler diventa Führer",
+      "Muore Hindenburg",
+      "Si vota per il Parlamento"
+     ],
+     "e": "Fu accusato il comunista olandese Marinus van der Lubbe."
+    },
+    {
+     "p": "Che cosa consente la legge sui pieni poteri?",
+     "a": "Al governo di legiferare senza il controllo del Parlamento",
+     "w": [
+      "Il ritorno della monarchia",
+      "Elezioni libere",
+      "Il voto alle donne"
+     ],
+     "e": "Fu approvata con SA e SS a presidiare l'aula."
+    },
+    {
+     "p": "Dove apre il primo campo di concentramento?",
+     "a": "A Dachau",
+     "w": [
+      "A Berlino",
+      "A Monaco",
+      "A Norimberga"
+     ],
+     "e": "Il campo è destinato agli oppositori politici."
+    },
+    {
+     "p": "Che cos'è la notte dei lunghi coltelli (1934)?",
+     "a": "La purga con cui le SS uccidono Röhm e i vertici delle SA",
+     "w": [
+      "Un pogrom contro gli ebrei",
+      "Un incendio",
+      "Un colpo di Stato fallito"
+     ],
+     "e": "Si svolge tra il 30 giugno e il 1° luglio 1934."
+    },
+    {
+     "p": "Che cosa succede alla morte di Hindenburg (agosto 1934)?",
+     "a": "Si uniscono le cariche di cancelliere e presidente nella figura del Führer",
+     "w": [
+      "Si torna alla monarchia",
+      "Si vota subito",
+      "Il Parlamento nomina un nuovo presidente"
+     ],
+     "e": "Hitler diventa anche capo delle forze armate."
+    }
+   ]
+  },
+  "Q7": {
+   "title": "Quiz 7 · Controllo della società ed economia",
+   "items": [
+    {
+     "p": "Che cos'è la Gestapo?",
+     "a": "La polizia segreta di Stato",
+     "w": [
+      "Un sindacato",
+      "Un ministero della cultura",
+      "Una milizia giovanile"
+     ],
+     "e": "Himmler e Heydrich guidano apparato repressivo e servizi di sicurezza."
+    },
+    {
+     "p": "Che cosa significa Gleichschaltung?",
+     "a": "Allineamento: ogni ambito della vita subordinato al regime",
+     "w": [
+      "Elezione",
+      "Riarmo",
+      "Concordato"
+     ],
+     "e": "Sindacati e associazioni sono sciolti o sostituiti."
+    },
+    {
+     "p": "Che cos'è la Gioventù hitleriana?",
+     "a": "L'organizzazione dei giovani, con iscrizione obbligatoria",
+     "w": [
+      "Un partito giovanile libero",
+      "Un'università",
+      "Un sindacato studentesco"
+     ],
+     "e": "I giovani ricevevano un'educazione militarista e razzista."
+    },
+    {
+     "p": "Chi guida la propaganda del regime?",
+     "a": "Joseph Goebbels",
+     "w": [
+      "Hermann Göring",
+      "Heinrich Himmler",
+      "Ernst Röhm"
+     ],
+     "e": "Controllava censura, stampa, radio e cinema."
+    },
+    {
+     "p": "Qual è il vero motore del rilancio economico?",
+     "a": "La politica del riarmo, diretta da Göring dal 1936",
+     "w": [
+      "Il pagamento dei debiti di guerra",
+      "Gli aiuti americani",
+      "L'abolizione dello Stato"
+     ],
+     "e": "Il regime non paga più i debiti di guerra e finanzia lavori pubblici e industria pesante."
+    }
+   ]
+  },
+  "Q8": {
+   "title": "Quiz 8 · La politica razzista e antisemita",
+   "items": [
+    {
+     "p": "Che cosa introduce la legge del luglio 1933?",
+     "a": "La sterilizzazione forzata per malattie mentali o genetiche",
+     "w": [
+      "Il divieto di matrimoni misti",
+      "La deportazione degli ebrei",
+      "Il servizio civile"
+     ],
+     "e": "È una politica eugenetica."
+    },
+    {
+     "p": "Che cos'è l'Aktion T4 (1939)?",
+     "a": "Il programma di eliminazione delle persone con disabilità",
+     "w": [
+      "Un piano economico",
+      "Un trattato internazionale",
+      "Un campo militare"
+     ],
+     "e": "Lo sterminio avviene con gas tossici."
+    },
+    {
+     "p": "Che cosa prevedono le leggi di Norimberga (1935)?",
+     "a": "Privano gli ebrei della cittadinanza e vietano matrimoni interrazziali",
+     "w": [
+      "Aboliscono la monarchia",
+      "Creano le SS",
+      "Autorizzano il riarmo"
+     ],
+     "e": "Gli ebrei sono esclusi da scuole, università, impieghi pubblici e professioni."
+    },
+    {
+     "p": "Che cos'è la notte dei cristalli?",
+     "a": "Il pogrom del 9-10 novembre 1938 contro gli ebrei",
+     "w": [
+      "L'incendio del Reichstag",
+      "La purga delle SA",
+      "Il discorso di Hitler"
+     ],
+     "e": "Furono devastate sinagoghe, negozi e case, con circa 20.000 deportati."
+    },
+    {
+     "p": "Che cosa dice Göring sull'espressione «soluzione finale»?",
+     "a": "Che si trattava di «soluzione totale», cioè un'espulsione, ma nei fatti fu sterminio",
+     "w": [
+      "Che prevedeva una guerra",
+      "Che era un accordo con la Francia",
+      "Che fu approvata dal Parlamento"
+     ],
+     "e": "Nella pratica gli ebrei furono deportati nei campi e uccisi."
+    }
+   ]
+  }
+ }
+}

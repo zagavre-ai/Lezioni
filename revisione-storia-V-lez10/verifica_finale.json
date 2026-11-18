@@ -1,0 +1,107 @@
+{
+ "titolo": "Verifica finale · Storia V · Lezione 10 · La Germania da Weimar al nazismo",
+ "fonte": "DOMANDE LEZIONE 10.xlsx del prof. Mazzotti (testo invariato)",
+ "soglia_percento": 80,
+ "domande": [
+  {
+   "n": 1,
+   "p": "Chi fu il successore del cancelliere Brüning nel maggio del 1932?",
+   "a": "Franz von Papen",
+   "w": [
+    "Paul van Hindenburg",
+    "Kurt von Schleicher",
+    "Adolf Hitler"
+   ]
+  },
+  {
+   "n": 2,
+   "p": "In quale data Adolf Hitler venne nominato cancelliere del Reich?",
+   "a": "30 gennaio 1933",
+   "w": [
+    "27 febbraio 1933",
+    "26 febbraio 1933",
+    "14 settembre 1930"
+   ]
+  },
+  {
+   "n": 3,
+   "p": "Quale importante evento del 27 febbraio 1933 portò all'emanazione di misure speciali e del decreto di emergenza?",
+   "a": "L'incendio del Parlamento (Reichstag)",
+   "w": [
+    "Il putsch di Monaco",
+    "La notte dei lunghi coltelli",
+    "Le elezioni presidenziali"
+   ]
+  },
+  {
+   "n": 4,
+   "p": "Quale nome prese il piano del settembre 1928 che propose un nuovo sistema di rateazione dei pagamenti delle riparazioni di guerra per la Germania?",
+   "a": "Piano Young",
+   "w": [
+    "Piano Dawes",
+    "Patto Briand-Kellogg",
+    "Accordo di Locarno"
+   ]
+  },
+  {
+   "n": 5,
+   "p": "Quale milizia paramilitare nazista era nota anche con il nome di \"camicie brune\"?",
+   "a": "SA (squadre d'assalto)",
+   "w": [
+    "SS (squadre di protezione)",
+    "Gestapo",
+    "Fronte del lavoro tedesco"
+   ]
+  },
+  {
+   "n": 6,
+   "p": "Quale fu il primo campo di concentramento tedesco, edificato nel marzo 1933 su iniziativa di Heinrich Himmler?",
+   "a": "Dachau",
+   "w": [
+    "Auschwitz",
+    "Berlino",
+    "Weimar"
+   ]
+  },
+  {
+   "n": 7,
+   "p": "Durante quale tragico evento dell'8-9 novembre 1938 vennero devastate sinagoghe, negozi e abitazioni di ebrei in tutta la Germania?",
+   "a": "La notte dei cristalli",
+   "w": [
+    "La notte dei lunghi coltelli",
+    "L'operazione Aktion T4",
+    "Il putsch di Monaco"
+   ]
+  },
+  {
+   "n": 8,
+   "p": "Chi fu nominato da Hitler a capo del ministero della Propaganda e dell'educazione popolare?",
+   "a": "Joseph Goebbels",
+   "w": [
+    "Hermann Göring",
+    "Ernst Röhm",
+    "Rudolf Hess"
+   ]
+  },
+  {
+   "n": 9,
+   "p": "Quale termine tedesco fu utilizzato per definire il processo di sottomissione e allineamento di ogni singolo momento della vita delle persone al partito nazista?",
+   "a": "Gleichschaltung",
+   "w": [
+    "Lebensraum",
+    "Mein Kampf",
+    "Policrazia"
+   ]
+  },
+  {
+   "n": 10,
+   "p": "In quale settore industriale nacquero le Volkswagen, definite le \"automobili del popolo\", grazie all'intervento economico dello Stato nazista?",
+   "a": "Industria automobilistica",
+   "w": [
+    "Industria automobilistica",
+    "Industria chimica",
+    "Industria degli armamenti"
+   ]
+  }
+ ]
+}

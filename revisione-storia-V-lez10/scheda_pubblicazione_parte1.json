@@ -1,0 +1,253 @@
+{
+ "materia": "Storia V",
+ "titolo": "Storia V · Lezione 10 · La Germania da Weimar al nazismo · Parte 1",
+ "durata_s": 3587.867,
+ "argomenti": [
+  {
+   "n": 1,
+   "titolo": "La Repubblica di Weimar e gli anni Venti",
+   "inizio_s": 282.47,
+   "quiz_s": 1155.57
+  },
+  {
+   "n": 2,
+   "titolo": "La crisi del 1929 e il collasso della Germania",
+   "inizio_s": 1160.17,
+   "quiz_s": 1864.6
+  },
+  {
+   "n": 3,
+   "titolo": "Il partito nazista e la sua ideologia",
+   "inizio_s": 1869.2,
+   "quiz_s": 2719.97
+  },
+  {
+   "n": 4,
+   "titolo": "Hitler, le SA e il putsch di Monaco",
+   "inizio_s": 2724.57,
+   "quiz_s": 3526.0
+  }
+ ],
+ "quiz": {
+  "Q1": {
+   "title": "Quiz 1 · La Repubblica di Weimar e gli anni Venti",
+   "items": [
+    {
+     "p": "Perché si parla di «Repubblica di Weimar»?",
+     "a": "Perché lì si riunì l'Assemblea costituente che scrisse la Costituzione",
+     "w": [
+      "Perché fu la capitale dell'impero",
+      "Perché lì si firmò la pace di Versailles",
+      "Perché fu fondata dal maresciallo Hindenburg"
+     ],
+     "e": "Weimar è la città dell'Assemblea costituente della Repubblica nata nel 1919."
+    },
+    {
+     "p": "Che cosa è il piano Dawes del 1924?",
+     "a": "Un piano di aiuti e prestiti americani che rilancia l'economia tedesca",
+     "w": [
+      "Un piano di conquista dell'Europa orientale",
+      "Un accordo militare con l'Italia",
+      "Un piano di riarmo"
+     ],
+     "e": "I dollari americani rilanciano l'apparato industriale tedesco."
+    },
+    {
+     "p": "Quali Paesi firmano gli accordi di Locarno (1925)?",
+     "a": "Germania, Regno Unito, Francia, Belgio e Italia",
+     "w": [
+      "Germania, Stati Uniti e Russia",
+      "Germania e Austria",
+      "Germania, Polonia e Cecoslovacchia"
+     ],
+     "e": "Gli accordi, legati a Stresemann, stabilizzano l'Europa."
+    },
+    {
+     "p": "Di quanto aumenta la produzione industriale tedesca tra il 1925 e il 1929?",
+     "a": "Del 46%",
+     "w": [
+      "Del 4%",
+      "Del 90%",
+      "Diminuisce del 12%"
+     ],
+     "e": "Nello stesso periodo la ricchezza pro capite cresce del 12%."
+    },
+    {
+     "p": "Che cosa prevede il patto Briand-Kellogg (1928)?",
+     "a": "La rinuncia alla guerra come mezzo di risoluzione dei conflitti",
+     "w": [
+      "L'alleanza militare tra Germania e Francia",
+      "La fine delle riparazioni di guerra",
+      "La nascita della Società delle Nazioni"
+     ],
+     "e": "Il patto sembrò sancire una rinuncia globale alla guerra."
+    }
+   ]
+  },
+  "Q2": {
+   "title": "Quiz 2 · La crisi del 1929 e il collasso della Germania",
+   "items": [
+    {
+     "p": "Perché la crisi di Wall Street colpisce così duramente la Germania?",
+     "a": "Perché la sua ripresa dipendeva dai finanziamenti e dai crediti americani",
+     "w": [
+      "Perché la Germania aveva investito in borsa",
+      "Perché gli Stati Uniti dichiarano guerra",
+      "Perché la Germania non aveva banche"
+     ],
+     "e": "Il ritiro dei capitali americani provoca il fallimento di banche tedesche."
+    },
+    {
+     "p": "Di quanto crollano gli stipendi secondo la lezione?",
+     "a": "Del 40%",
+     "w": [
+      "Del 4%",
+      "Del 90%",
+      "Non cambiano"
+     ],
+     "e": "La disoccupazione reale sale al 10% e il potere d'acquisto cala."
+    },
+    {
+     "p": "Che cosa è l'iperinflazione che la Germania ricorda?",
+     "a": "Il periodo in cui il marco si polverizza e servono banconote da 10.000 miliardi",
+     "w": [
+      "L'aumento dei salari",
+      "Il periodo di crescita del 1925",
+      "Un accordo con gli Stati Uniti"
+     ],
+     "e": "Il valore del marco tedesco si era azzerato."
+    },
+    {
+     "p": "Chi trae paradossalmente beneficio dall'iperinflazione?",
+     "a": "I contadini, che vendono a prezzi altissimi e azzerano i debiti",
+     "w": [
+      "Gli operai",
+      "I disoccupati",
+      "Le banche"
+     ],
+     "e": "Il mondo rurale diventerà un sostenitore del nazionalsocialismo."
+    },
+    {
+     "p": "Come reagiscono i partiti estremi alla crisi?",
+     "a": "Si scagliano contro il capitalismo finanziario, i nazisti perché «americano e straniero»",
+     "w": [
+      "Si alleano con gli Stati Uniti",
+      "Sostengono il piano Dawes",
+      "Chiedono nuove riparazioni"
+     ],
+     "e": "Comunisti e nazionalsocialisti capitalizzano il malcontento."
+    }
+   ]
+  },
+  "Q3": {
+   "title": "Quiz 3 · Il partito nazista e la sua ideologia",
+   "items": [
+    {
+     "p": "Che cosa significa NSDAP?",
+     "a": "Partito nazionalsocialista tedesco dei lavoratori",
+     "w": [
+      "Partito nazionale dei soldati",
+      "Partito socialdemocratico tedesco",
+      "Partito dei nazionalisti austriaci"
+     ],
+     "e": "Il partito nasce nel 1920 a Monaco di Baviera."
+    },
+    {
+     "p": "Di quale nazionalità era Hitler per nascita?",
+     "a": "Austriaca, nato nell'impero austro-ungarico",
+     "w": [
+      "Tedesca",
+      "Italiana",
+      "Polacca"
+     ],
+     "e": "Combatté per la Germania nella prima guerra mondiale."
+    },
+    {
+     "p": "Che cosa intende il nazismo con «Volk»?",
+     "a": "Il popolo tedesco come comunità omogenea fondata sulla purezza del sangue",
+     "w": [
+      "Un partito politico",
+      "Una forma di governo",
+      "Un esercito"
+     ],
+     "e": "La concezione si lega al mito rurale delle origini germaniche."
+    },
+    {
+     "p": "Quali sono i tre tratti ideologici del nazismo?",
+     "a": "Nazionalismo, razzismo e antisemitismo, antibolscevismo",
+     "w": [
+      "Liberalismo, pacifismo e democrazia",
+      "Comunismo, federalismo e ateismo",
+      "Monarchia, clericalismo e liberismo"
+     ],
+     "e": "I nazisti vogliono cancellare Versailles e vedono i comunisti come nemici interni."
+    },
+    {
+     "p": "Che cosa è la svastica?",
+     "a": "Un antico simbolo buddista di rinascita, rovesciato dai nazisti",
+     "w": [
+      "Il simbolo dell'impero romano",
+      "Lo stemma di Weimar",
+      "Il simbolo del Partito Comunista"
+     ],
+     "e": "Per i nazisti diventa simbolo di morte per ciò che non è germanico."
+    }
+   ]
+  },
+  "Q4": {
+   "title": "Quiz 4 · Hitler, le SA e il putsch di Monaco",
+   "items": [
+    {
+     "p": "Chi guida le SA, le squadre d'assalto?",
+     "a": "Ernst Röhm",
+     "w": [
+      "Heinrich Himmler",
+      "Joseph Goebbels",
+      "Hermann Göring"
+     ],
+     "e": "Le SA sono dette anche camicie brune."
+    },
+    {
+     "p": "Che cosa è il putsch di Monaco?",
+     "a": "Il tentativo di colpo di Stato di Hitler nel 1923",
+     "w": [
+      "Il trattato di Locarno",
+      "Le elezioni del 1930",
+      "Un incendio doloso"
+     ],
+     "e": "Il putsch fallisce e Hitler viene arrestato."
+    },
+    {
+     "p": "Che cosa scrive Hitler durante la prigionia?",
+     "a": "Il Mein Kampf, «La mia battaglia»",
+     "w": [
+      "Il piano Dawes",
+      "La Costituzione di Weimar",
+      "Il programma di Locarno"
+     ],
+     "e": "Il libro viene dettato a Rudolf Hess."
+    },
+    {
+     "p": "Quanti voti ottengono i nazisti alle elezioni del 1928?",
+     "a": "Meno del 3%",
+     "w": [
+      "Il 37%",
+      "Il 44%",
+      "Il 10%"
+     ],
+     "e": "Sembrava «tutto fumo e niente arrosto»: la crisi non era ancora arrivata."
+    },
+    {
+     "p": "Che cosa si intende per «spazio vitale» (Lebensraum)?",
+     "a": "La riconquista di territori, anche con la guerra",
+     "w": [
+      "Un programma di edilizia",
+      "Una zona demilitarizzata",
+      "La Società delle Nazioni"
+     ],
+     "e": "È uno degli obiettivi del Mein Kampf."
+    }
+   ]
+  }
+ }
+}
