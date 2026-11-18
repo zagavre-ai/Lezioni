@@ -1,31 +1,31 @@
 {
  "materia": "Letteratura italiana (V)",
  "titolo": "Letteratura V · Lezione 4 · Naturalismo e Verismo",
- "durata_s": 2948.77,
+ "durata_s": 3004.777,
  "argomenti": [
   {
    "n": 1,
    "titolo": "Le basi del Naturalismo francese",
    "inizio_s": 50.167,
-   "quiz_s": 737.5
+   "quiz_s": 751.5
   },
   {
    "n": 2,
    "titolo": "Émile Zola e il romanzo sperimentale",
-   "inizio_s": 741.0,
-   "quiz_s": 1399.833
+   "inizio_s": 755.0,
+   "quiz_s": 1427.833
   },
   {
    "n": 3,
    "titolo": "Il Verismo in Italia",
-   "inizio_s": 1403.333,
-   "quiz_s": 2409.2
+   "inizio_s": 1431.333,
+   "quiz_s": 2451.2
   },
   {
    "n": 4,
    "titolo": "Flaubert e Madame Bovary",
-   "inizio_s": 2412.7,
-   "quiz_s": 2853.7
+   "inizio_s": 2454.7,
+   "quiz_s": 2909.7
   }
  ],
  "quiz": {
@@ -250,8 +250,8 @@
    ]
   }
  },
- "t_verifica": 2928.933,
- "t_compiti": 2945.267,
+ "t_verifica": 2984.933,
+ "t_compiti": 3001.267,
  "approfondimenti": [
   {
    "id": "AN01",
@@ -266,37 +266,37 @@
   {
    "id": "AN04",
    "titolo": "Zola: il romanzo sperimentale",
-   "inizio_s": 1218.3
+   "inizio_s": 1232.3
   },
   {
    "id": "AN05",
    "titolo": "Intorno a Zola",
-   "inizio_s": 1297.7
+   "inizio_s": 1311.7
   },
   {
    "id": "AN07",
    "titolo": "Dalla Francia all'Italia",
-   "inizio_s": 2054.267
+   "inizio_s": 2082.267
   },
   {
    "id": "AN08",
    "titolo": "La poetica di Capuana",
-   "inizio_s": 2149.667
+   "inizio_s": 2177.667
   },
   {
    "id": "AN09",
    "titolo": "Capuana, Serao, Aleramo: le opere",
-   "inizio_s": 2211.467
+   "inizio_s": 2239.467
   },
   {
    "id": "AN10",
    "titolo": "La mappa del Verismo (mappa del prof. Mazzotti)",
-   "inizio_s": 2290.933
+   "inizio_s": 2318.933
   },
   {
    "id": "AN11",
    "titolo": "Flaubert e Madame Bovary",
-   "inizio_s": 2733.167
+   "inizio_s": 2775.167
   }
  ],
  "descrizione": "Il Naturalismo francese (Positivismo, Taine, Balzac e Flaubert, Zola e Il romanzo sperimentale) e il Verismo italiano (Capuana, Verga, Serao, Aleramo). Spiegazione del prof. Giorgio Mazzotti con slide, approfondimenti, schemi, quiz di verifica per argomento, glossario e riepilogo."
