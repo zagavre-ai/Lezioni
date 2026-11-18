@@ -24,3 +24,10 @@ Ciao. Sei la chat di **rifacimento della lezione NN di Storia V** (prof. Giorgio
    - **Tempi**: dopo ogni modifica, i fotogrammi delle schede Quiz devono cadere esattamente ai `quiz_s` della scheda di pubblicazione; durata video = durata audio.
 
 Scrivi a Sara una riga quando parti e una ogni 30 minuti.
+
+7. **Lezione successiva: vai avanti da sola, senza aspettare Sara** (aggiunto il 18/11).
+   Quando hai consegnato e messo `REVISIONATA`, scrivi a Sara una riga («Lezione NN consegnata, passo alla MM») e prendi la prossima lezione libera **in questo ordine**: 13, 15, 1, 2, 5, 6, 7, 8, 9, 11, 14, 16, 17, 18, 19, 20, 21.
+   - **Libera** = nel ramo `stato-storia-V-lezMM` non c'è nessuna nota con «chat v3». Le lezioni 3, 4, 10 e 12 sono già prese.
+   - **Prenotala subito** con `kit/tools/stato.py storia-V-lezMM IN_REVISIONE "chat v3: presa da <nome del tuo ramo di lavoro>"`. Poi rileggi il ramo: se c'è la nota di un'altra chat arrivata prima, lasciala e prendi la successiva.
+   - Poi rifai tutto da capo per la lezione MM (punti 1–6), sempre in questa chat.
+   - Se le lezioni sono finite, scrivi a Sara: «Storia V: nessuna lezione libera, ho finito».
