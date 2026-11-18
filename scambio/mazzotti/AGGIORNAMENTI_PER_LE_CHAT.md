@@ -258,3 +258,9 @@ Chi ha già cambiato schede blu in bianche: **rimettile blu come Spagnolo**. Res
 
 ## 18/11 00:05 — Pannello «PAROLE CHIAVE» sotto il prof: SI TIENE
 È un'aggiunta approvata da Sara (fa parte delle «aggiunte promosse» al modello Spagnolo). Non toglierlo.
+
+## 18/11 notte (23:45) · WEBCAM DEL DOCENTE PICCOLA O SFOCATA · DECISIONE DI SARA
+- Vale per **Chimica (Prof.ssa Caputi), Storia dell'arte V, Moda Laboratori** e per ogni video in cui il docente è in un tondino piccolo.
+- **Si tiene il TONDO**, come nelle lezioni pari di Chimica già PRONTE («riquadro docente con cerchio pulito»). **Non** si ingrandisce il docente nel riquadro 4:3: verrebbe sfocato.
+- Il cerchio va nella colonna destra, a una grandezza che resta nitida (al massimo circa 2 volte il tondino originale), con il bordo pulito e la fascia gialla con nome e materia sotto.
+- La qualità della webcam è quella che è: **non è un errore nostro**, non si chiede un file migliore e non ci si ferma. Scrivilo in una riga nel `RAPPORTO_REVISIONE.md`.
