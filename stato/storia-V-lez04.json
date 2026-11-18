@@ -11,9 +11,18 @@
   {
    "quando": "18/11 12:50",
    "testo": "storia-V-lez04: attendo le voci Kore (87 voci in scambio/storia-V-lez04/testi_voci.json, ramo voci-storia-V-lez04, push alle 12:22 e 12:30). Sono necessarie per cover, mappe, pillole, schemi, glossario, riepilogo. Il resto (prof, titoli, quiz) è in lavorazione."
+  },
+  {
+   "quando": "18/11 13:29",
+   "testo": "storia-V-lez04: genera le 87 voci di scambio/storia-V-lez04/testi_voci.json (ramo voci-storia-V-lez04), poi io monto."
   }
  ],
- "domande_sara": [],
+ "domande_sara": [
+  {
+   "quando": "18/11 13:29",
+   "testo": "Servono le voci Kore di storia-V-lez04: sono nel ramo voci-storia-V-lez04 (87 testi, push 12:22/12:31). L'ultima voce generata dalla master su un ramo voci-* risale al 16/11: puoi chiedere alla master di generarle? Senza voci non posso chiudere cover, mappe, pillole, schemi, glossario, riepilogo."
+  }
+ ],
  "note": [
   {
    "quando": "18/11 12:23",
@@ -23,5 +32,5 @@
  "materia": "Storia V",
  "lezione": "Lezione 4 · La Prima guerra mondiale",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-18 12:50:49"
+ "aggiornato": "2026-11-18 13:29:25"
 }
