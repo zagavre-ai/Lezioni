@@ -6,7 +6,12 @@
   }
  },
  "manca": "",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "18/11 22:16",
+   "testo": "RIPRESA 18/11: il video originale della lez 1 e' 1092x614 con il prof in un tondino di ~150x85 px: nel riquadro 4:3 da ~410x308 sarebbe molto sfocato. Serve un file del prof piu' nitido o una decisione. Il vecchio video (72,8 min) va diviso in 2 Parti."
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
@@ -21,5 +26,5 @@
  "materia": "Storia dell'Arte V",
  "lezione": "Lezione 1 · Il Neoclassicismo",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-18 22:14:15"
+ "aggiornato": "2026-11-18 22:16:08"
 }
