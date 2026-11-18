@@ -562,10 +562,14 @@
   {
    "quando": "16/11 21:39",
    "testo": "Storia V · chat S8: consegna su consegna-storia-V-lez08. Sottotitoli automatici da rileggere (attacco entro 0,3 s: 86% P1 / 83% P2 misurato su tutti i blocchi; il controllo del kit su campione dà 58%/67%). Intro Compiti 5,5 s (voce Kore già generata). Parte 1 50:08, Parte 2 54:02."
+  },
+  {
+   "quando": "18/11 21:48",
+   "testo": "chat v3: presa da claude/clever-davinci-puwpry (chat Storia V ex-coda dispari)"
   }
  ],
  "materia": "Storia V",
  "lezione": "Lezione 08",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-16 21:39:56"
+ "aggiornato": "2026-11-18 21:48:51"
 }
