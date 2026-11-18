@@ -263,5 +263,80 @@
   "nome": "FIN2",
   "testo": "Abbiamo concluso la lezione sull'Italia di Giolitti. Adesso mettiti alla prova con la verifica finale. Buon lavoro.",
   "lingua": "it"
+ },
+ {
+  "nome": "BEN",
+  "testo": "Benvenuti alla lezione di Storia. Oggi parliamo dell'Italia di Giolitti. Il professor Giorgio Mazzotti ci guida attraverso undici argomenti: dalla crisi di fine secolo alla settimana rossa.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PIL1",
+  "testo": "Ripassiamo insieme la crisi di fine secolo e la svolta liberale. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PIL2",
+  "testo": "Facciamo un riepilogo di quello che hai appena visto: la nuova linea politica di Giolitti. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PIL3",
+  "testo": "Ripassiamo insieme i rapporti con i socialisti e lo sciopero del millenovecentoquattro. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PIL4",
+  "testo": "Ripassiamo insieme il rapporto con i cattolici e il trasformismo. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PIL5",
+  "testo": "Facciamo un riepilogo di quello che hai appena visto: le riforme sociali e scolastiche. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PIL6",
+  "testo": "Ripassiamo insieme il suffragio universale maschile e il Patto Gentiloni. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PIL7",
+  "testo": "Ripassiamo insieme le riforme mancate: le donne in lotta. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PIL8",
+  "testo": "Facciamo un riepilogo di quello che hai appena visto: il decollo industriale italiano. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PIL9",
+  "testo": "Ripassiamo insieme il divario tra Nord e Sud e l'emigrazione. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PIL10",
+  "testo": "Ripassiamo insieme la politica coloniale e la guerra di Libia. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PIL11",
+  "testo": "Facciamo un riepilogo di quello che hai appena visto: la caduta di Giolitti e la settimana rossa. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MAPA1",
+  "testo": "Ecco la mappa del professore: quale svolta imprime Giolitti alla vita politica italiana? In alto, la crisi di fine secolo. Si risolve con la vittoria dei liberali progressisti, che portano al governo Giolitti. Da una parte, Giolitti è ministro dell'Interno, nel millenovecentouno, e sceglie la neutralità nei conflitti sociali. Dall'altra, è presidente del Consiglio dal millenovecentotre al millenovecentoquattordici, e introduce riforme a favore dei ceti popolari.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MAPA2",
+  "testo": "Ecco la mappa del professore: quali sono le caratteristiche dello sviluppo economico italiano nei primi anni del Novecento? Al centro, lo sviluppo industriale. Riguarda i settori siderurgico, meccanico ed elettrico. È favorito dall'intervento dello Stato, che gestisce i servizi telefonici e ferroviari. E si concentra nel triangolo industriale, che aggrava la questione meridionale.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MAPA3",
+  "testo": "Ecco la mappa del professore su Giolitti. Da una parte, Giolitti cede alle pressioni di industriali e nazionalisti, e decide la guerra di Libia, che dà scarsi risultati economici. Dall'altra, affronta la prevedibile avanzata dei socialisti con un patto con i cattolici, nel millenovecentotredici, ma ottiene una maggioranza instabile.",
+  "lingua": "it"
  }
 ]
