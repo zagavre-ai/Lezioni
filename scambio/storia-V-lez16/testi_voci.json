@@ -158,5 +158,190 @@
   "nome": "COMPI",
   "testo": "Ora tocca a te: ecco i compiti.",
   "lingua": "it"
+ },
+ {
+  "nome": "MD1",
+  "testo": "Ecco la mappa del professor Mazzotti. Quali aspetti presentano gli anni Sessanta negli Stati Uniti? Gli Stati Uniti vedono la presidenza Kennedy, dal millenovecentosessantuno al millenovecentosessantatré, con la lotta contro la miseria, le disuguaglianze e la segregazione razziale. Si impegnano nella guerra del Vietnam, dal millenovecentosessantaquattro al millenovecentosettantatré, che si rivela fallimentare e impopolare. E vedono studenti, afroamericani e cittadini ostili alla guerra in Vietnam dare vita a un movimento di contestazione mondiale, nel millenovecentosessantotto.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MD2",
+  "testo": "Ecco la mappa del professor Mazzotti. Cosa accade nel mondo socialista negli anni Sessanta? L'Unione Sovietica vede al governo Chruščëv, dal millenovecentocinquantatré, che teorizza la coesistenza pacifica con gli Stati Uniti. Approva la costruzione del muro di Berlino, nel millenovecentosessantuno, e provoca la crisi dei missili a Cuba. Passa sotto il governo di Brežnev, nel millenovecentosessantaquattro, che reprime le riforme in Cecoslovacchia, nel millenovecentosessantotto.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MD3",
+  "testo": "Ecco la mappa del professor Mazzotti, dedicata al Medio Oriente. L'Egitto si avvicina all'Unione Sovietica, dalla quale riceve aiuti militari. Nasce l'Organizzazione per la liberazione della Palestina, nel millenovecentosessantaquattro. Lo Stato di Israele inizia la guerra dei Sei giorni, nel millenovecentosessantasette, contro i paesi arabi confinanti.",
+  "lingua": "it"
+ },
+ {
+  "nome": "P1",
+  "testo": "Ripassiamo insieme l'età del benessere. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC1_1",
+  "testo": "Capitalismo avanzato e consumi di massa.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC1_2",
+  "testo": "La crescita: petrolio a basso costo, innovazioni e Bretton Woods.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC1_3",
+  "testo": "Il baby boom e le vite più lunghe.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC1_4",
+  "testo": "Il Welfare State: scuola e sanità pubblica.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC1_5",
+  "testo": "Le donne entrano nel lavoro qualificato e nella vita politica.",
+  "lingua": "it"
+ },
+ {
+  "nome": "P2",
+  "testo": "Ripassiamo insieme Kennedy e la Nuova Frontiera. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC2_1",
+  "testo": "La Nuova Frontiera: progresso economico, scientifico e sociale.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC2_2",
+  "testo": "Kennedy sostiene i diritti civili contro la segregazione.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC2_3",
+  "testo": "Rilancia la sfida al blocco comunista.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC2_4",
+  "testo": "Ventidue novembre millenovecentosessantatré: Kennedy è assassinato a Dallas.",
+  "lingua": "it"
+ },
+ {
+  "nome": "P3",
+  "testo": "Ripassiamo insieme Johnson e la Great Society. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC3_1",
+  "testo": "La Great Society: riforme contro povertà e ingiustizia razziale.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC3_2",
+  "testo": "Il Civil Rights Act del millenovecentosessantaquattro.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC3_3",
+  "testo": "Il Voting Rights Act del millenovecentosessantacinque.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC3_4",
+  "testo": "Aumentano gli scontri; nel millenovecentosessantotto viene ucciso King.",
+  "lingua": "it"
+ },
+ {
+  "nome": "P4",
+  "testo": "Ripassiamo insieme la corsa allo spazio. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC4_1",
+  "testo": "Una sfida di superiorità tecnologica e ideologica.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC4_2",
+  "testo": "Sputnik, millenovecentocinquantasette: il primo satellite.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC4_3",
+  "testo": "Gagarin, millenovecentosessantuno: il primo uomo nello spazio.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC4_4",
+  "testo": "Apollo undici: Armstrong sulla Luna, il venti luglio millenovecentosessantanove.",
+  "lingua": "it"
+ },
+ {
+  "nome": "P5",
+  "testo": "Ripassiamo insieme i punti di attrito della guerra fredda. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC5_1",
+  "testo": "Il Muro di Berlino, agosto millenovecentosessantuno.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC5_2",
+  "testo": "La crisi dei missili di Cuba, millenovecentosessantadue.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC5_3",
+  "testo": "La guerra del Vietnam: intervento americano e opposizione mondiale.",
+  "lingua": "it"
+ },
+ {
+  "nome": "P6",
+  "testo": "Ripassiamo insieme il blocco sovietico da Chruščëv a Brežnev. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC6_1",
+  "testo": "Chruščëv: destalinizzazione, ma controllo sul blocco orientale.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC6_2",
+  "testo": "La dottrina Brežnev: centralismo e repressione.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC6_3",
+  "testo": "La Primavera di Praga, millenovecentosessantotto, repressa dal Patto di Varsavia.",
+  "lingua": "it"
+ },
+ {
+  "nome": "P7",
+  "testo": "Ripassiamo insieme il Sessantotto, una protesta globale. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC7_1",
+  "testo": "Contestazione giovanile contro il capitalismo, l'autoritarismo e la guerra del Vietnam.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC7_2",
+  "testo": "Nuovi stili di vita: il movimento hippy.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC7_3",
+  "testo": "Femminismo: parità di genere, contraccezione e aborto.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC7_4",
+  "testo": "Poche vittorie politiche, ma cambiano la cultura e i costumi.",
+  "lingua": "it"
  }
 ]
