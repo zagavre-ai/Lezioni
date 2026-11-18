@@ -258,5 +258,260 @@
   "nome": "FIN2",
   "testo": "Abbiamo concluso la lezione sull'Europa e il mondo negli anni Trenta. Adesso mettiti alla prova con la verifica finale. Buon lavoro.",
   "lingua": "it"
+ },
+ {
+  "nome": "B0",
+  "testo": "Benvenuti alla lezione di Storia. Oggi parliamo dell'Europa e del mondo negli anni Trenta. Il professor Giorgio Mazzotti ci guida attraverso nove argomenti.",
+  "lingua": "it"
+ },
+ {
+  "nome": "B2",
+  "testo": "Benvenuti alla seconda parte della lezione di Storia. Il professor Giorgio Mazzotti ci guida attraverso gli ultimi quattro argomenti.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MD1",
+  "testo": "Ecco la mappa del professor Mazzotti. In quali Paesi si diffonde l'autoritarismo? In Europa: Polonia, Ungheria, Jugoslavia, Grecia, Romania e Portogallo. In America Latina: Argentina e Brasile. In Giappone: il patto anticomintern.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MD2",
+  "testo": "Ecco la mappa del professor Mazzotti. Come si svolge la guerra civile di Spagna? Da una parte i repubblicani, sostenuti dalle Brigate internazionali. Dall'altra i nazionalisti, sostenuti da Germania e Italia, che instaurano la dittatura di Franco.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MD3",
+  "testo": "Ecco la mappa del professor Mazzotti, dedicata a Hitler. Annette l'Austria, mentre Francia e Regno Unito rispondono con l'appeasement. Invade i Sudeti e poi l'intera Cecoslovacchia. Rivendica Danzica e firma il patto di non aggressione con l'Unione Sovietica.",
+  "lingua": "it"
+ },
+ {
+  "nome": "P1",
+  "testo": "Ripassiamo insieme il Regno Unito negli anni Trenta. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC1_1",
+  "testo": "Crisi del millenovecentoventinove: disoccupazione di massa e depressione.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC1_2",
+  "testo": "Governo di unità nazionale: MacDonald, con liberali e conservatori.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC1_3",
+  "testo": "Taglio dei sussidi e svalutazione della sterlina: si abbandona il gold standard.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC1_4",
+  "testo": "Mosley resta ai margini. Nel millenovecentotrentuno nasce il Commonwealth.",
+  "lingua": "it"
+ },
+ {
+  "nome": "P2",
+  "testo": "Ripassiamo insieme la Francia e il Fronte popolare. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC2_1",
+  "testo": "Una crisi tardiva, ma lunga.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC2_2",
+  "testo": "Estrema destra: Action Française e Croix de Feu.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC2_3",
+  "testo": "Fronte popolare: socialisti, comunisti e radicali uniti.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC2_4",
+  "testo": "Léon Blum, millenovecentotrentasei: settimana di quaranta ore e ferie pagate.",
+  "lingua": "it"
+ },
+ {
+  "nome": "P3",
+  "testo": "Ripassiamo insieme le dittature dell'Europa orientale. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC3_1",
+  "testo": "Ungheria: l'ammiraglio Horthy.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC3_2",
+  "testo": "Polonia: il generale Piłsudski, colpo di Stato del millenovecentoventisei.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC3_3",
+  "testo": "Balcani: dittature personali in Jugoslavia, Romania, Albania e Bulgaria.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC3_4",
+  "testo": "Grecia: il generale Metaxas, millenovecentotrentasei.",
+  "lingua": "it"
+ },
+ {
+  "nome": "P4",
+  "testo": "Ripassiamo insieme la penisola iberica prima della guerra civile. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC4_1",
+  "testo": "Portogallo: Salazar e l'Estado Novo.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC4_2",
+  "testo": "Spagna, millenovecentotrentuno: nasce la Seconda Repubblica.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC4_3",
+  "testo": "Riforme radicali e forti tensioni sociali.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC4_4",
+  "testo": "I nemici della Repubblica: Chiesa, esercito e fascisti.",
+  "lingua": "it"
+ },
+ {
+  "nome": "P5",
+  "testo": "Ripassiamo insieme l'autoritarismo fuori dall'Europa. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC5_1",
+  "testo": "America Latina: colpi di Stato. In Brasile, Vargas.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC5_2",
+  "testo": "Giappone: regime militarista e imperialista.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC5_3",
+  "testo": "Manciuria, millenovecentotrentuno: lo Stato fantoccio del Manciukuò.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC5_4",
+  "testo": "Cina divisa: nazionalisti e comunisti. La Lunga marcia.",
+  "lingua": "it"
+ },
+ {
+  "nome": "P6",
+  "testo": "Ripassiamo insieme la guerra civile spagnola. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC6_1",
+  "testo": "Luglio millenovecentotrentasei: Franco guida l'alzamiento.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC6_2",
+  "testo": "I nazionalisti sono sostenuti da Italia e Germania.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC6_3",
+  "testo": "I repubblicani ricevono aiuti dall'Unione Sovietica e dalle Brigate internazionali.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC6_4",
+  "testo": "Francia e Gran Bretagna scelgono il non intervento.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC6_5",
+  "testo": "Millenovecentotrentanove: cadono Barcellona e Madrid. Franco instaura la dittatura.",
+  "lingua": "it"
+ },
+ {
+  "nome": "P7",
+  "testo": "Ripassiamo insieme l'aggressività nazista e l'appeasement. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC7_1",
+  "testo": "Revisionismo: Hitler smonta Versailles ed esce dalla Società delle Nazioni.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC7_2",
+  "testo": "Millenovecentotrentacinque, la coscrizione. Millenovecentotrentasei, la Renania.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC7_3",
+  "testo": "Appeasement: concedere, per evitare la guerra.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC7_4",
+  "testo": "Asse Roma Berlino: l'Italia, isolata dopo l'Etiopia, si lega alla Germania.",
+  "lingua": "it"
+ },
+ {
+  "nome": "P8",
+  "testo": "Ripassiamo insieme l'Anschluss e la conferenza di Monaco. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC8_1",
+  "testo": "Marzo millenovecentotrentotto: l'Anschluss, la Germania annette l'Austria.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC8_2",
+  "testo": "Hitler rivendica i Sudeti.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC8_3",
+  "testo": "Conferenza di Monaco, settembre millenovecentotrentotto: Francia e Gran Bretagna cedono.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC8_4",
+  "testo": "Marzo millenovecentotrentanove: Hitler occupa tutta la Cecoslovacchia.",
+  "lingua": "it"
+ },
+ {
+  "nome": "P9",
+  "testo": "Ripassiamo insieme i mesi che portano alla Seconda guerra mondiale. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC9_1",
+  "testo": "Aprile millenovecentotrentanove: l'Italia occupa l'Albania.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC9_2",
+  "testo": "Maggio millenovecentotrentanove: il Patto d'acciaio.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC9_3",
+  "testo": "Hitler rivendica Danzica e il corridoio polacco.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC9_4",
+  "testo": "Ventitré agosto millenovecentotrentanove: il patto Molotov Ribbentrop, con clausole segrete sulla Polonia.",
+  "lingua": "it"
  }
 ]
