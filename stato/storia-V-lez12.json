@@ -1,16 +1,29 @@
 {
  "tag": "storia-V-lez12",
- "parti": {},
+ "parti": {
+  "1": {
+   "stato": "IN_MONTAGGIO"
+  }
+ },
  "manca": "",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "18/11 15:23",
+   "testo": "Voci Kore nuove: 51 testi (B0,B2,MD1-3,P1-9,SC*) nel ramo voci-storia-V-lez12, commit e86b3cb. Servono per pillole, schemi e mappe del prof: senza non chiudo."
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
    "quando": "18/11 14:52",
    "testo": "chat v3: parto; voci Kore gia presenti (52), nessuna consegna precedente"
+  },
+  {
+   "quando": "18/11 15:23",
+   "testo": "slide/prof/schede in corso; 2 Parti (P1: arg 1-5, P2: arg 6-9)"
   }
  ],
  "materia": "storia-V",
  "lezione": "12",
- "aggiornato": "2026-11-18 14:52:37"
+ "aggiornato": "2026-11-18 15:23:11"
 }
