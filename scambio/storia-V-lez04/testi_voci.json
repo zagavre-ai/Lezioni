@@ -433,5 +433,60 @@
   "nome": "FIN2",
   "testo": "Ricapitoliamo questa seconda parte. L'Italia dalla neutralità all'intervento, la guerra totale, le battaglie di logoramento, il millenovecentodiciassette, anno della svolta, il millenovecentodiciotto con la fine degli imperi, il bilancio umano e sociale del conflitto, e i trattati di pace.",
   "lingua": "it"
+ },
+ {
+  "nome": "B3_1",
+  "testo": "Benvenuti alla lezione di Storia. Oggi parliamo della Prima guerra mondiale. In questa prima parte il professor Giorgio Mazzotti ci guida attraverso tre argomenti: l'Europa all'inizio del Novecento, le crisi coloniali e i Balcani, e l'attentato di Sarajevo con la reazione a catena del millenovecentoquattordici.",
+  "lingua": "it"
+ },
+ {
+  "nome": "B3_2",
+  "testo": "Benvenuti alla seconda parte della lezione sulla Prima guerra mondiale. Il professor Giorgio Mazzotti ci guida attraverso tre argomenti: i fronti di guerra e la trincea, l'Italia dalla neutralità all'intervento nel millenovecentoquindici, e la guerra totale.",
+  "lingua": "it"
+ },
+ {
+  "nome": "B3_3",
+  "testo": "Benvenuti alla terza e ultima parte della lezione sulla Prima guerra mondiale. Il professor Giorgio Mazzotti ci guida attraverso cinque argomenti: le grandi battaglie di logoramento, il millenovecentodiciassette, il millenovecentodiciotto, il bilancio umano del conflitto e i trattati di pace.",
+  "lingua": "it"
+ },
+ {
+  "nome": "F3_1",
+  "testo": "Ricapitoliamo questa prima parte. Abbiamo visto l'equilibrio instabile dell'Europa all'inizio del Novecento, le crisi coloniali e i Balcani, e l'attentato di Sarajevo con la reazione a catena delle alleanze.",
+  "lingua": "it"
+ },
+ {
+  "nome": "F3_2",
+  "testo": "Ricapitoliamo questa seconda parte. Abbiamo visto i fronti di guerra e la trincea, l'Italia dalla neutralità all'intervento, e la guerra totale che coinvolge l'intera società.",
+  "lingua": "it"
+ },
+ {
+  "nome": "F3_3",
+  "testo": "Ricapitoliamo questa terza parte. Le grandi battaglie di logoramento, il millenovecentodiciassette anno della svolta, il millenovecentodiciotto con la fine degli imperi, il bilancio umano e sociale del conflitto, e infine i trattati di pace.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MAPN2",
+  "testo": "Ecco la mappa delle crisi che precedono la guerra. Al centro, le crisi coloniali e i Balcani. Primo ramo: le crisi marocchine del millenovecentocinque e del millenovecentoundici, con Francia e Germania vicine allo scontro. Secondo: la rivoluzione dei Giovani Turchi, che indebolisce l'Impero ottomano. Terzo: l'annessione della Bosnia-Erzegovina da parte dell'Austria-Ungheria. Quarto: le guerre balcaniche del millenovecentododici e tredici. Infine la polveriera d'Europa, tra Austria e Russia.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MAPN4",
+  "testo": "Ecco la mappa dei fronti di guerra. Al centro, i fronti e la trincea. La guerra di movimento fallisce: il piano Schlieffen è fermato sulla Marna. Nasce la guerra di posizione, con ottocento chilometri di trincee. A est, i russi sono sconfitti a Tannenberg e ai laghi Masuri. Le nuove armi, mitragliatrici, artiglieria, filo spinato e gas, rendono gli assalti carneficine. Nelle trincee, fango, malattie e traumi psicologici.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MAPN7",
+  "testo": "Ecco la mappa della guerra totale. Al centro, il coinvolgimento della società. Primo ramo: la mobilitazione economica, con il controllo della produzione e il razionamento. Secondo: il fronte interno, tra privazioni e mercato nero. Terzo: le donne in fabbrica, e l'emancipazione femminile. Quarto: la guerra sui mari, con blocco navale e sottomarini. Infine il genocidio degli armeni del millenovecentoquindici.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MAPN8",
+  "testo": "Ecco la mappa del millenovecentodiciassette, anno della crisi e della svolta. Primo ramo: la Russia esce dalla guerra con la pace di Brest-Litovsk. Secondo: ad aprile entrano in guerra gli Stati Uniti. Terzo: la disfatta italiana di Caporetto. Quarto: la resistenza sul Piave e sul monte Grappa. Infine Diaz, che sostituisce Cadorna e migliora le condizioni dei soldati.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MAPN11",
+  "testo": "Ecco la mappa del bilancio della guerra. Al centro, il bilancio umano e sociale. Circa diciassette milioni di morti. L'influenza spagnola, con oltre quaranta milioni di vittime. Oltre quaranta milioni di feriti, e i mutilati come simbolo della guerra industriale. La difficile smobilitazione dei reduci. E la nostalgia delle trincee, tra traumi e cameratismo.",
+  "lingua": "it"
  }
 ]
