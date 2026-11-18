@@ -1,28 +1,12 @@
-BENV OK frasi trovate 1 / 1 parole diverse 1 (vere 0) tentativi 1
-AN1 OK frasi trovate 1 / 1 parole diverse 2 (vere 3) tentativi 1
-R1 OK frasi trovate 1 / 1 parole diverse 6 (vere 3) tentativi 1
-AN2 OK frasi trovate 1 / 1 parole diverse 2 (vere 0) tentativi 1
-R2 OK frasi trovate 1 / 1 parole diverse 1 (vere 1) tentativi 1
-AN3 OK frasi trovate 1 / 1 parole diverse 4 (vere 4) tentativi 1
-R3 OK frasi trovate 1 / 1 parole diverse 4 (vere 4) tentativi 1
-AN4 OK frasi trovate 1 / 1 parole diverse 5 (vere 3) tentativi 1
-R4 OK frasi trovate 1 / 1 parole diverse 4 (vere 4) tentativi 1
-GL1 OK frasi trovate 1 / 1 parole diverse 4 (vere 4) tentativi 1
-RF1 OK frasi trovate 1 / 1 parole diverse 3 (vere 1) tentativi 1
-RP1 OK frasi trovate 1 / 1 parole diverse 4 (vere 4) tentativi 1
-AN5 OK frasi trovate 1 / 1 parole diverse 6 (vere 0) tentativi 1
-AN6 DA CONTROLLARE frasi trovate 1 / 1 parole diverse 3 (vere 5) tentativi 1
-R5 OK frasi trovate 1 / 1 parole diverse 4 (vere 3) tentativi 1
-AN7 OK frasi trovate 1 / 1 parole diverse 2 (vere 0) tentativi 1
-AN8 OK frasi trovate 1 / 1 parole diverse 2 (vere 1) tentativi 1
-R6 OK frasi trovate 1 / 1 parole diverse 1 (vere 2) tentativi 1
-AN9 OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
-AN10 OK frasi trovate 1 / 1 parole diverse 1 (vere 2) tentativi 1
-AN11 OK frasi trovate 1 / 1 parole diverse 1 (vere 1) tentativi 1
-R7 DA CONTROLLARE frasi trovate 1 / 1 parole diverse 4 (vere 5) tentativi 1
-AN12 OK frasi trovate 1 / 1 parole diverse 1 (vere 1) tentativi 1
-R8 OK frasi trovate 1 / 1 parole diverse 1 (vere 0) tentativi 1
-GL2 OK frasi trovate 1 / 1 parole diverse 1 (vere 2) tentativi 1
-RF2 DA CONTROLLARE frasi trovate 1 / 1 parole diverse 0 (vere 27) REGIA LETTA tentativi 1
-FIN2 OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
-CINTRO OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
+RI1 OK frasi trovate 1 / 1 parole diverse 1 (vere 0) tentativi 1
+RI2 OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
+RI3 OK frasi trovate 1 / 1 parole diverse 1 (vere 1) tentativi 1
+RI4 DA CONTROLLARE frasi trovate 1 / 1 parole diverse 5 (vere 5) tentativi 1
+RI5 OK frasi trovate 1 / 1 parole diverse 1 (vere 1) tentativi 1
+RI6 OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
+RI7 OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
+RI8 OK frasi trovate 1 / 1 parole diverse 1 (vere 1) tentativi 1
+M1 OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
+M2 OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
+M3 OK frasi trovate 1 / 1 parole diverse 1 (vere 2) tentativi 1
+RF2B OK frasi trovate 1 / 1 parole diverse 1 (vere 3) tentativi 1
