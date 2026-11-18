@@ -80,7 +80,7 @@ L=['# RAPPORTO DI REVISIONE · Diritto ed economia (I+II) · «Le organizzazioni
  'Rifacimento della lezione della piattaforma (Prof.ssa J. Didone). Tutti i tratti lunghi della prof sono interi; i 32 pezzi da 5 s sono stati sostituiti da 14 animazioni con voce Kore, costruite solo sul testo delle slide.','']
 for p in (1,2):
     d=sum(1 for _ in [0]);v=f'{O}Diritto_4222_Parte{p}_1080p.mp4'
-    m=open(f'{O}misura{p}.txt').read().strip().split(',') if os.path.exists(f'{O}misura{p}.txt') else ['?','?','?']
+    m=open(f'{O}misura{p}.txt').read().replace(chr(10),',').strip(',').split(',') if os.path.exists(f'{O}misura{p}.txt') else ['?','?','?']
     sha=open(v+'.sha256').read().split()[0] if os.path.exists(v+'.sha256') else '?'
     L+=[f'## Parte {p}',f'- File: `Diritto_4222_Parte{p}_1080p.mp4` · sha256 `{sha}`',f'- Durata misurata: **{ss(float(m[1]))}** ({float(m[1]):.2f} s) · fotogrammi **{m[0]}** (attesi {round(float(m[1])*30)}) · peso {int(m[2])/1e6:.0f} MB · 1920×1080, 30 fps',
         f'- Parlato: {open(f"{O}lufs{p}.txt").read().strip() if os.path.exists(f"{O}lufs{p}.txt") else "?"}','']
@@ -100,7 +100,7 @@ for n,(k,sl) in zip(P,slide_order):
     L.append('')
 L+=['## 4 · Controlli sul file finale','','### Jingle (scarto dal punto atteso)','','| Parte | Pezzo | Suono | Inizio scheda | Scarto |','|---|---|---|---|---|']
 for p,nome,w,t,sc in jing:L.append(f"| {p} | {nome} | {w} | {ss(t)} | {'?' if sc is None else '%+.3f s'%sc} |")
-L+=['','Dissolvenza + `trans.wav` (0,8 s) a ogni cambio di pezzo: i minuti dei cambi sono gli inizi della tabella.','','### Fermi (freezedetect ≥ 0,9 s, soglia −55 dB)','']
+L+=['','Dissolvenza + `trans.wav` (0,8 s) a ogni cambio di pezzo: i minuti dei cambi sono gli inizi della tabella.','','### Fermi (freezedetect ≥ 1,0 s, soglia −50 dB, sul riquadro della prof (ritaglio in basso a destra))','']
 for p in (1,2):
     inside=[]
     trs=[(t,t+dd) for nome,t,dd in TL[p] if (re.match(r'^T\d$',nome) and dd>=10) or nome=='C0']
