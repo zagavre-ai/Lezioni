@@ -1,0 +1,315 @@
+{
+ "materia": "Storia",
+ "titolo": "Storia V · Lezione 5 · La Rivoluzione russa e la nascita dell'URSS (1917-1922)",
+ "parte": 2,
+ "durata_s": 1841.4,
+ "argomenti": [
+  {
+   "n": 5,
+   "titolo": "I primi provvedimenti bolscevichi",
+   "inizio_s": 84.633,
+   "quiz_s": 405.333
+  },
+  {
+   "n": 6,
+   "titolo": "Brest-Litovsk e la guerra civile",
+   "inizio_s": 409.933,
+   "quiz_s": 863.967
+  },
+  {
+   "n": 7,
+   "titolo": "Il «Comunismo di guerra»",
+   "inizio_s": 868.567,
+   "quiz_s": 1025.167
+  },
+  {
+   "n": 8,
+   "titolo": "La Nuova Politica Economica (NEP)",
+   "inizio_s": 1029.767,
+   "quiz_s": 1375.133
+  },
+  {
+   "n": 9,
+   "titolo": "La nascita dell'URSS e la successione",
+   "inizio_s": 1379.733,
+   "quiz_s": 1695.3
+  }
+ ],
+ "quiz": {
+  "Q5": {
+   "title": "Quiz 5 · I primi provvedimenti bolscevichi",
+   "items": [
+    {
+     "p": "Che cosa stabilisce il decreto sulla terra?",
+     "a": "L'esproprio delle grandi proprietà e la terra ai contadini",
+     "w": [
+      "La vendita delle terre ai nobili",
+      "Il ritorno delle terre alla Chiesa",
+      "Una tassa sulla terra per i contadini"
+     ],
+     "e": "La grande proprietà fondiaria viene abolita e la terra ridistribuita tra i contadini."
+    },
+    {
+     "p": "Quale diritto introduce la Costituzione del 1918?",
+     "a": "Il suffragio universale maschile e femminile",
+     "w": [
+      "Il voto solo per i proprietari",
+      "Il potere assoluto del capo del governo",
+      "Il ritorno della monarchia"
+     ],
+     "e": "La Costituzione sancisce la parità tra i sessi e il suffragio universale."
+    },
+    {
+     "p": "Quale percentuale di voti ottengono i bolscevichi alle elezioni per l'Assemblea costituente?",
+     "a": "Il 21,7%",
+     "w": [
+      "Il 58%",
+      "Il 75%",
+      "Il 50,1%"
+     ],
+     "e": "I bolscevichi ottengono solo il 21,7%; i socialisti rivoluzionari circa il 58%."
+    },
+    {
+     "p": "Che cosa fa Lenin dell'Assemblea costituente nel gennaio 1918?",
+     "a": "La scioglie con la forza",
+     "w": [
+      "Le affida il governo",
+      "Ne diventa presidente",
+      "La trasferisce a Mosca"
+     ],
+     "e": "Lenin scioglie l'Assemblea, ritenendola superata dal potere dei soviet."
+    },
+    {
+     "p": "Che cos'era la Ceka?",
+     "a": "La polizia politica del partito",
+     "w": [
+      "Il parlamento sovietico",
+      "Un decreto sulla terra",
+      "L'esercito dei bianchi"
+     ],
+     "e": "Nata nel dicembre 1917, doveva individuare, arrestare e colpire i dissidenti."
+    }
+   ]
+  },
+  "Q6": {
+   "title": "Quiz 6 · Brest-Litovsk e la guerra civile",
+   "items": [
+    {
+     "p": "Che cosa perde la Russia con il Trattato di Brest-Litovsk?",
+     "a": "Finlandia, Paesi baltici, Polonia e Ucraina",
+     "w": [
+      "La Siberia e il Caucaso",
+      "Mosca e Pietrogrado",
+      "Solo la Crimea"
+     ],
+     "e": "Per uscire dalla guerra la Russia accetta condizioni durissime e rinuncia a vasti territori."
+    },
+    {
+     "p": "Chi guida l'Armata rossa?",
+     "a": "Lev Trockij",
+     "w": [
+      "Il generale Kornilov",
+      "Il principe L'vov",
+      "Aleksandr Kerenskij"
+     ],
+     "e": "Trockij trasforma l'Armata rossa in un esercito regolare di leva."
+    },
+    {
+     "p": "Chi fa parte delle Armate bianche?",
+     "a": "Monarchici, ex generali zaristi e conservatori",
+     "w": [
+      "Solo operai e soldati dei soviet",
+      "I marinai di Kronstadt",
+      "I bolscevichi dissidenti"
+     ],
+     "e": "È una coalizione controrivoluzionaria, aiutata da truppe delle potenze occidentali."
+    },
+    {
+     "p": "Dove viene uccisa la famiglia dello zar?",
+     "a": "A Ekaterinburg",
+     "w": [
+      "A Mosca",
+      "A Pietrogrado",
+      "A Riga"
+     ],
+     "e": "Nel luglio 1918 Nicola II e la famiglia imperiale vengono fucilati a Ekaterinburg."
+    },
+    {
+     "p": "Con quale pace si chiude la guerra contro la Polonia?",
+     "a": "La pace di Riga",
+     "w": [
+      "La pace di Brest-Litovsk",
+      "La pace di Versailles",
+      "La pace di Kronstadt"
+     ],
+     "e": "La pace di Riga, nel marzo 1921, fissa i confini orientali polacchi."
+    }
+   ]
+  },
+  "Q7": {
+   "title": "Quiz 7 · Il «Comunismo di guerra»",
+   "items": [
+    {
+     "p": "Perché i bolscevichi introducono il comunismo di guerra?",
+     "a": "Per sostenere lo sforzo militare e sfamare esercito e città",
+     "w": [
+      "Per aiutare i commercianti privati",
+      "Per preparare le elezioni",
+      "Per restituire la terra ai nobili"
+     ],
+     "e": "È un regime economico d'emergenza per la guerra civile."
+    },
+    {
+     "p": "Che cosa sono le requisizioni forzate?",
+     "a": "Il sequestro di grano e prodotti agricoli nelle campagne",
+     "w": [
+      "Una tassa sulle fabbriche",
+      "La vendita libera dei raccolti",
+      "Un prestito ai contadini"
+     ],
+     "e": "Squadre governative sequestrano il grano e lasciano ai contadini solo il necessario."
+    },
+    {
+     "p": "Chi erano gli «uomini con il sacco»?",
+     "a": "Persone che barattavano cibo al mercato nero",
+     "w": [
+      "Soldati dell'Armata rossa",
+      "Funzionari della Ceka",
+      "Ministri del governo provvisorio"
+     ],
+     "e": "Viaggiavano tra campagne e città barattando generi alimentari, contro le regole."
+    },
+    {
+     "p": "Come reagiscono molti contadini alle requisizioni?",
+     "a": "Riducono le coltivazioni e nascondono i raccolti",
+     "w": [
+      "Producono di più per lo Stato",
+      "Si arruolano nelle Armate bianche in massa",
+      "Si trasferiscono in Svizzera"
+     ],
+     "e": "L'opposizione rurale diventa una guerriglia sotterranea e nasce il mercato nero."
+    },
+    {
+     "p": "Che bilancio lasciano guerra civile, malattie e carestie tra il 1918 e il 1922?",
+     "a": "Milioni di morti e il collasso della produzione",
+     "w": [
+      "Una forte crescita industriale",
+      "Pochi danni nelle campagne",
+      "La fine delle carestie"
+     ],
+     "e": "La carestia del 1921 e le malattie causano milioni di morti."
+    }
+   ]
+  },
+  "Q8": {
+   "title": "Quiz 8 · La Nuova Politica Economica (NEP)",
+   "items": [
+    {
+     "p": "Chi si ribella a Kronstadt nel 1921?",
+     "a": "I marinai della base navale",
+     "w": [
+      "I generali zaristi",
+      "Gli uomini con il sacco",
+      "I contadini ucraini"
+     ],
+     "e": "Erano stati protagonisti della rivoluzione del 1917 e ora si ribellano alla dittatura di partito."
+    },
+    {
+     "p": "Che cosa chiedono i ribelli di Kronstadt?",
+     "a": "Il ripristino delle libertà politiche",
+     "w": [
+      "Il ritorno dello zar",
+      "Più requisizioni",
+      "La guerra alla Polonia"
+     ],
+     "e": "Chiedono libertà politiche ed elettorali e la fine delle requisizioni; la rivolta viene repressa."
+    },
+    {
+     "p": "Che cosa sostituisce le requisizioni con la NEP?",
+     "a": "Un'imposta fissa in natura",
+     "w": [
+      "Il lavoro obbligatorio",
+      "La confisca delle terre",
+      "Una moneta nuova per i contadini"
+     ],
+     "e": "Il contadino versa una parte fissa del prodotto e il resto lo tiene."
+    },
+    {
+     "p": "Che cosa possono fare i contadini con le eccedenze?",
+     "a": "Venderle liberamente sul mercato",
+     "w": [
+      "Consegnarle tutte allo Stato",
+      "Distruggerle",
+      "Darle all'Armata rossa"
+     ],
+     "e": "La NEP concede ai contadini la libertà di vendere le eccedenze."
+    },
+    {
+     "p": "Quali «grandi leve» restano allo Stato con la NEP?",
+     "a": "Industria pesante, banche e commercio estero",
+     "w": [
+      "Piccole imprese e botteghe",
+      "Il commercio interno al dettaglio",
+      "Le terre dei contadini"
+     ],
+     "e": "Lo Stato tiene le grandi leve; le piccole imprese tornano ai privati."
+    }
+   ]
+  },
+  "Q9": {
+   "title": "Quiz 9 · La nascita dell'URSS e la successione",
+   "items": [
+    {
+     "p": "Quando nasce ufficialmente l'URSS?",
+     "a": "Il 30 dicembre 1922",
+     "w": [
+      "Il 25 ottobre 1917",
+      "Il 3 marzo 1918",
+      "Nel gennaio 1924"
+     ],
+     "e": "L'Unione delle Repubbliche Socialiste Sovietiche nasce a fine 1922, con capitale Mosca."
+    },
+    {
+     "p": "Quale città è la capitale dell'URSS?",
+     "a": "Mosca",
+     "w": [
+      "Pietrogrado",
+      "Kiev",
+      "Ekaterinburg"
+     ],
+     "e": "La capitale era stata spostata a Mosca già nel marzo 1918."
+    },
+    {
+     "p": "Quali repubbliche si uniscono alla Russia nell'URSS?",
+     "a": "Ucraina, Bielorussia e Transcaucasia",
+     "w": [
+      "Finlandia, Polonia e Lituania",
+      "Germania e Austria",
+      "Solo la Siberia"
+     ],
+     "e": "La Transcaucasia comprende Armenia, Georgia e Azerbaigian."
+    },
+    {
+     "p": "Dove si trova il potere reale nell'URSS?",
+     "a": "Negli organi del Partito comunista a Mosca",
+     "w": [
+      "Nei soviet locali",
+      "Nelle singole repubbliche",
+      "Nell'Assemblea costituente"
+     ],
+     "e": "La federazione è solo formale: il Politburo detta la linea a tutto lo Stato."
+    },
+    {
+     "p": "Chi si contende la successione a Lenin?",
+     "a": "Trockij e Stalin",
+     "w": [
+      "Kerenskij e Kornilov",
+      "L'vov e Rasputin",
+      "Nicola II e suo fratello"
+     ],
+     "e": "Alla morte di Lenin, nel 1924, si scontrano Trockij e Stalin, segretario generale del partito."
+    }
+   ]
+  }
+ }
+}
