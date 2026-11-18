@@ -6,15 +6,24 @@
   }
  },
  "manca": "",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "18/11 21:48",
+   "testo": "Voci Kore nuove lez 7: 33 testi (MD1-3, P1-5, SC*) nel ramo voci-storia-V-lez07"
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
    "quando": "18/11 21:45",
    "testo": "PRENOTATA 18/11 21:48 · chat v3 rifacimento da zero (sessione lez12; 13 in lavorazione da altra chat, 6 presa, 15 e 5 fatte)"
+  },
+  {
+   "quando": "18/11 21:48",
+   "testo": "materiali scaricati, trascrizione in corso; Parte unica, 5 argomenti"
   }
  ],
  "materia": "storia-V",
  "lezione": "7",
- "aggiornato": "2026-11-18 21:45:30"
+ "aggiornato": "2026-11-18 21:48:34"
 }
