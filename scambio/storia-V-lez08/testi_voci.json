@@ -193,5 +193,15 @@
   "nome": "MAP3",
   "testo": "Ecco la mappa su Mussolini al potere. Benito Mussolini decide la marcia su Roma, del millenovecentoventidue, e ottiene l'incarico di governo. Insieme ai liberali introduce una riforma elettorale. In seguito dispone l'assassinio di Matteotti, nel millenovecentoventiquattro, e ne rivendica pubblicamente la responsabilità nel millenovecentoventicinque.",
   "lingua": "it"
+ },
+ {
+  "nome": "AN12N",
+  "testo": "Il triennio di consolidamento. Il trenta ottobre millenovecentoventidue Mussolini guida il governo di coalizione. Il sedici novembre millenovecentoventidue pronuncia alla Camera il discorso del bivacco. Tra la fine del millenovecentoventidue e l'inizio del millenovecentoventitré nascono il Gran Consiglio e la Milizia. A novembre del millenovecentoventitré viene approvata la legge Acerbo.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AN13N",
+  "testo": "I numeri della legge Acerbo. Basta ottenere il venticinque per cento dei voti per avere i due terzi dei seggi. Alle elezioni dell'aprile del millenovecentoventiquattro il Listone fascista conquista il sessantacinque per cento.",
+  "lingua": "it"
  }
 ]
