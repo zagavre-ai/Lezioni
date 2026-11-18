@@ -53,7 +53,7 @@ function init(s){S=s;const R=document.getElementById('s');R.innerHTML='';els=[];
   el('left:80px;bottom:44px','','foot').innerHTML=s.materia.toUpperCase()+' · '+s.docente;
  }else{
   const t=s.arg;
-  const k=el('top:150px','','kick');k.textContent=t;
+  if(s.type!='schema'){const k=el('top:150px','','kick');k.textContent=t;}
   el('top:122px','','hr');
   el('bottom:84px','','hr');
   const f=el('','','foot');f.style.left='80px';f.textContent=s.materia.toUpperCase();
