@@ -2,7 +2,7 @@
  "tag": "storia-V-lez06",
  "parti": {
   "1": {
-   "stato": "IN_REVISIONE"
+   "stato": "REVISIONATA"
   }
  },
  "manca": "",
@@ -16,7 +16,11 @@
   {
    "quando": "18/11 21:31",
    "testo": "21:40 voci (58 testi) inviate; trascrizione in corso"
+  },
+  {
+   "quando": "18/11 22:34",
+   "testo": "18/11 22:40 consegnata su revisione-storia-V-lez06: 55:07, 8 argomenti, 58 voci Kore (6 DA CONTROLLARE), -16.0 LUFS, 0 silenzi >3s"
   }
  ],
- "aggiornato": "2026-11-18 21:31:35"
+ "aggiornato": "2026-11-18 22:34:11"
 }

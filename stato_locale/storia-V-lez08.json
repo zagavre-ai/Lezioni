@@ -1,0 +1,27 @@
+{
+ "tag": "storia-V-lez08",
+ "parti": {
+  "1": {
+   "stato": "IN_REVISIONE"
+  }
+ },
+ "manca": "",
+ "serve_master": [
+  {
+   "quando": "18/11 22:39",
+   "testo": "Voci Kore nuove lez 8 (v3, rifacimento da zero): 67 testi in testi_voci.json, ramo voci-storia-V-lez08 (nomi nuovi: BEN, PI*, SC*_*, MAPN*, MPR1-3, LG0-8, FIN)"
+  }
+ ],
+ "domande_sara": [],
+ "note": [
+  {
+   "quando": "18/11 22:34",
+   "testo": "PRENOTATA 18/11 22:40 chat v3 rifacimento da zero (dopo lez 6 consegnata; 7,11,14 prese da altre chat)"
+  },
+  {
+   "quando": "18/11 22:39",
+   "testo": "18/11 23:00 voci inviate (67 testi, ramo voci-storia-V-lez08); trascrizione in corso"
+  }
+ ],
+ "aggiornato": "2026-11-18 22:39:25"
+}
