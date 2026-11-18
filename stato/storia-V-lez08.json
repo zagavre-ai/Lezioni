@@ -2,26 +2,586 @@
  "tag": "storia-V-lez08",
  "parti": {
   "1": {
-   "stato": "IN_REVISIONE"
+   "stato": "PRONTA",
+   "voci": "kore",
+   "titolo": "Il dopoguerra italiano e il fascismo (1919-1925) · Parte 1",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "si",
+   "video": "Storia_Lez8_Parte1_1080p.mp4",
+   "durata_s": 3008.3,
+   "durata": "50:08.3",
+   "fotogrammi": 90249,
+   "fotogrammi_attesi": 90249,
+   "peso_MB": 232.8,
+   "vtt": "Storia_Lez8_Parte1.vtt",
+   "scheda": {
+    "materia": "Storia V",
+    "titolo": "Storia V · Lezione 8 · Il dopoguerra italiano e il fascismo (1919-1925) · Parte 1",
+    "durata_s": 3008.3,
+    "argomenti": [
+     {
+      "n": 1,
+      "titolo": "Il Biennio rosso e la crisi del dopoguerra",
+      "inizio_s": 243.533,
+      "quiz_s": 1112.433
+     },
+     {
+      "n": 2,
+      "titolo": "Vittoria mutilata, Fiume e le elezioni del 1919",
+      "inizio_s": 1116.433,
+      "quiz_s": 1981.333
+     },
+     {
+      "n": 3,
+      "titolo": "La nascita del fascismo e lo squadrismo",
+      "inizio_s": 1985.333,
+      "quiz_s": 2929.0
+     }
+    ],
+    "quiz": {
+     "Q1": {
+      "title": "Quiz 1 · Il Biennio rosso e la crisi del dopoguerra",
+      "items": [
+       {
+        "p": "Perché il periodo 1919-1920 è chiamato «Biennio rosso»?",
+        "a": "Perché in due anni si ebbero tumulti, scioperi e occupazioni nelle campagne e nelle città",
+        "w": [
+         "Perché il Partito Comunista vinse due volte le elezioni",
+         "Perché la guerra civile durò due anni",
+         "Perché il governo fu guidato per due anni dai socialisti"
+        ],
+        "e": "Il Biennio rosso dura due anni, 1919 e 1920, ed è segnato da violente proteste di contadini e operai."
+       },
+       {
+        "p": "Quale promessa fu fatta ai soldati contadini durante la guerra?",
+        "a": "Una futura redistribuzione delle terre",
+        "w": [
+         "Un aumento delle pensioni",
+         "La cittadinanza onoraria",
+         "L'esenzione dalle tasse per dieci anni"
+        ],
+        "e": "La propaganda bellica promise la terra ai contadini, ma la promessa non fu mantenuta."
+       },
+       {
+        "p": "Quanti disoccupati si contavano circa nell'Italia del dopoguerra?",
+        "a": "Circa due milioni",
+        "w": [
+         "Circa duemila",
+         "Circa venti milioni",
+         "Circa duecentomila"
+        ],
+        "e": "La fine delle commesse belliche provocò una disoccupazione di circa due milioni di persone."
+       },
+       {
+        "p": "Che cosa accade nel settembre 1920 nei centri industriali del Nord?",
+        "a": "Gli operai occupano le fabbriche e creano consigli di fabbrica",
+        "w": [
+         "Gli industriali licenziano tutti gli operai",
+         "Il re scioglie le fabbriche",
+         "I contadini invadono le città"
+        ],
+        "e": "Centinaia di migliaia di operai metallurgici occupano gli stabilimenti."
+       },
+       {
+        "p": "Quale esempio politico ispira l'ala massimalista del PSI?",
+        "a": "La Rivoluzione russa bolscevica",
+        "w": [
+         "La Rivoluzione francese",
+         "L'impero tedesco",
+         "Il Risorgimento"
+        ],
+        "e": "I massimalisti vogliono «fare come in Russia» e abbattere lo Stato borghese."
+       }
+      ]
+     },
+     "Q2": {
+      "title": "Quiz 2 · Vittoria mutilata, Fiume e le elezioni del 1919",
+      "items": [
+       {
+        "p": "Che cosa non ottiene l'Italia dai trattati di pace?",
+        "a": "La Dalmazia, la città di Fiume e le colonie tedesche",
+        "w": [
+         "Trento e Trieste",
+         "L'Alto Adige",
+         "L'Istria"
+        ],
+        "e": "Trento, Trieste, l'Istria e l'Alto Adige sono assegnati all'Italia; non la Dalmazia, Fiume e le colonie tedesche."
+       },
+       {
+        "p": "Che cosa si intende con «vittoria mutilata»?",
+        "a": "L'idea che la pace avesse tradito le aspettative dell'Italia vincitrice",
+        "w": [
+         "La vittoria di Vittorio Veneto",
+         "La perdita di molti soldati",
+         "La sconfitta militare di Caporetto"
+        ],
+        "e": "Il mito fu pronunciato da D'Annunzio e rilanciato da «Il Popolo d'Italia» di Mussolini."
+       },
+       {
+        "p": "Che cosa fa Gabriele D'Annunzio il 12 settembre 1919?",
+        "a": "Guida i legionari e occupa Fiume",
+        "w": [
+         "Fonda i Fasci di combattimento",
+         "Firma il trattato di Rapallo",
+         "Marcia su Roma"
+        ],
+        "e": "L'impresa di Fiume dura circa un anno e mette in crisi la credibilità dello Stato liberale."
+       },
+       {
+        "p": "Quali novità introduce la legge elettorale del 1919?",
+        "a": "Voto maschile dai 21 anni e sistema proporzionale",
+        "w": [
+         "Voto alle donne e premio di maggioranza",
+         "Voto obbligatorio e collegio unico",
+         "Ritorno al maggioritario uninominale"
+        ],
+        "e": "Il suffragio maschile è esteso ai ventunenni e il proporzionale sostituisce il maggioritario."
+       },
+       {
+        "p": "Chi fonda il Partito Popolare Italiano il 18 gennaio 1919?",
+        "a": "Don Luigi Sturzo",
+        "w": [
+         "Filippo Turati",
+         "Giovanni Giolitti",
+         "Benito Mussolini"
+        ],
+        "e": "Il PPI, basato sulla solidarietà cristiana, nasce dal sacerdote Luigi Sturzo."
+       }
+      ]
+     },
+     "Q3": {
+      "title": "Quiz 3 · La nascita del fascismo e lo squadrismo",
+      "items": [
+       {
+        "p": "Dove e quando Mussolini fonda i Fasci italiani di combattimento?",
+        "a": "A Milano, il 23 marzo 1919",
+        "w": [
+         "A Roma, il 28 ottobre 1922",
+         "A Bologna, il 21 novembre 1920",
+         "A Trieste, nel luglio 1920"
+        ],
+        "e": "L'atto notarile fu firmato in piazza San Sepolcro, da cui il «Manifesto di San Sepolcro»."
+       },
+       {
+        "p": "Che cosa caratterizza il programma di San Sepolcro?",
+        "a": "Posizioni contraddittorie, tra istanze sindacali, anticlericali e nazionaliste",
+        "w": [
+         "Un programma solo monarchico",
+         "Un programma interamente liberale",
+         "L'adesione al comunismo sovietico"
+        ],
+        "e": "Il manifesto mescola giornata di otto ore, cogestione, abolizione del Senato e retorica nazionale."
+       },
+       {
+        "p": "Quanti voti ottengono i fasci alle elezioni del 1919?",
+        "a": "Circa 5.000, senza alcun eletto",
+        "w": [
+         "Circa 500.000",
+         "Circa 5 milioni",
+         "Circa 50.000, con dieci eletti"
+        ],
+        "e": "Il risultato fu fallimentare; la vera forza arriverà con lo squadrismo."
+       },
+       {
+        "p": "Che cosa accade a Bologna il 21 novembre 1920?",
+        "a": "Gli scontri a Palazzo d'Accursio per la nuova giunta socialista",
+        "w": [
+         "L'incendio del Narodni Dom",
+         "La firma del trattato di Rapallo",
+         "La fondazione del PNF"
+        ],
+        "e": "Gli scontri causarono vittime e segnarono l'inizio della violenza squadrista sistematica."
+       },
+       {
+        "p": "Perché lo squadrismo ha successo nelle campagne?",
+        "a": "Ha l'appoggio dei grandi proprietari e l'impunità garantita da parte dello Stato",
+        "w": [
+         "Perché i contadini lo votano in massa",
+         "Perché è armato dall'esercito francese",
+         "Perché il Papa lo sostiene"
+        ],
+        "e": "Gli agrari finanziano i fasci e funzionari, militari e magistrati tollerano le violenze."
+       }
+      ]
+     }
+    }
+   },
+   "timeline": [
+    [
+     "T1",
+     243.533,
+     5.0
+    ],
+    [
+     "Q1",
+     1112.433,
+     4.0
+    ],
+    [
+     "T2",
+     1116.433,
+     5.0
+    ],
+    [
+     "T3",
+     1985.333,
+     5.0
+    ],
+    [
+     "GL1",
+     2933.0,
+     42.133
+    ],
+    [
+     "RF1",
+     2975.133,
+     28.167
+    ]
+   ]
+  },
+  "2": {
+   "titolo": "Il dopoguerra italiano e il fascismo (1919-1925) · Parte 2",
+   "stato": "PRONTA",
+   "voci": "kore",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "si",
+   "video": "Storia_Lez8_Parte2_1080p.mp4",
+   "durata_s": 3242.0,
+   "durata": "54:02.0",
+   "fotogrammi": 97260,
+   "fotogrammi_attesi": 97260,
+   "peso_MB": 246.9,
+   "vtt": "Storia_Lez8_Parte2.vtt",
+   "scheda": {
+    "materia": "Storia V",
+    "titolo": "Storia V · Lezione 8 · Il dopoguerra italiano e il fascismo (1919-1925) · Parte 2",
+    "durata_s": 3242.0,
+    "argomenti": [
+     {
+      "n": 4,
+      "titolo": "Giolitti, Rapallo e la nascita del PNF",
+      "inizio_s": 41.433,
+      "quiz_s": 687.167
+     },
+     {
+      "n": 5,
+      "titolo": "La Marcia su Roma",
+      "inizio_s": 691.167,
+      "quiz_s": 1614.533
+     },
+     {
+      "n": 6,
+      "titolo": "Il primo governo Mussolini",
+      "inizio_s": 1618.533,
+      "quiz_s": 2137.967
+     },
+     {
+      "n": 7,
+      "titolo": "Legge Acerbo, delitto Matteotti e dittatura",
+      "inizio_s": 2141.967,
+      "quiz_s": 3140.6
+     }
+    ],
+    "quiz": {
+     "Q4": {
+      "title": "Quiz 4 · Giolitti, Rapallo e la nascita del PNF",
+      "items": [
+       {
+        "p": "Che cosa stabilisce il trattato di Rapallo (novembre 1920)?",
+        "a": "Fiume è una città libera, né italiana né jugoslava",
+        "w": [
+         "Fiume è annessa all'Italia",
+         "La Dalmazia passa all'Italia",
+         "D'Annunzio diventa capo del governo"
+        ],
+        "e": "Giolitti risolve la crisi di Fiume; in dicembre l'esercito sgombera i legionari."
+       },
+       {
+        "p": "Perché Giolitti inserisce i fascisti nei Blocchi nazionali?",
+        "a": "Per usarli contro i socialisti e costituzionalizzarli",
+        "w": [
+         "Per sciogliere il Parlamento",
+         "Per fare un governo socialista",
+         "Per abolire la monarchia"
+        ],
+        "e": "Giolitti pensa di poter assorbire il fascismo nella legalità liberale, ma il calcolo fallisce."
+       },
+       {
+        "p": "Quale scissione avviene a Livorno nel gennaio 1921?",
+        "a": "Nasce il Partito Comunista d'Italia",
+        "w": [
+         "Nasce il Partito Popolare",
+         "Nasce il PNF",
+         "Nasce il Partito Socialista Unitario"
+        ],
+        "e": "Bordiga, Gramsci e Togliatti escono dal PSI e fondano il PCd'I."
+       },
+       {
+        "p": "Quanti deputati fascisti entrano alla Camera nel 1921?",
+        "a": "35, tra cui Mussolini",
+        "w": [
+         "3, senza Mussolini",
+         "350",
+         "Nessuno"
+        ],
+        "e": "I Blocchi nazionali conquistano 105 seggi, di cui 35 fascisti."
+       },
+       {
+        "p": "Che cosa è il patto di pacificazione dell'agosto 1921?",
+        "a": "Un accordo tra socialisti e fascisti per fermare le violenze, rifiutato dai ras",
+        "w": [
+         "Un accordo tra Italia e Jugoslavia",
+         "Un trattato con il Papa",
+         "Un patto tra il re e Giolitti"
+        ],
+        "e": "I ras Balbo e Grandi lo rifiutano; Mussolini accetta un compromesso e il patto è rinnegato."
+       }
+      ]
+     },
+     "Q5": {
+      "title": "Quiz 5 · La Marcia su Roma",
+      "items": [
+       {
+        "p": "Chi forma il quadrumvirato della Marcia su Roma?",
+        "a": "Balbo, De Vecchi, Bianchi e De Bono",
+        "w": [
+         "Mussolini, Giolitti, Facta e Diaz",
+         "Matteotti, Turati, Sturzo e Gramsci",
+         "D'Annunzio, Marinetti, Balbo e Grandi"
+        ],
+        "e": "La direzione militare è affidata a quattro uomini; Mussolini ne resta distante."
+       },
+       {
+        "p": "Quando avviene la Marcia su Roma?",
+        "a": "Tra il 27 e il 28 ottobre 1922",
+        "w": [
+         "Il 23 marzo 1919",
+         "Il 6 aprile 1924",
+         "Il 3 gennaio 1925"
+        ],
+        "e": "Circa 25.000 squadristi convergono sulla capitale."
+       },
+       {
+        "p": "Che cosa propone il presidente del Consiglio Facta?",
+        "a": "Di proclamare lo stato d'assedio",
+        "w": [
+         "Di arrendersi a Mussolini",
+         "Di sciogliere l'esercito",
+         "Di dimettersi senza consultare nessuno"
+        ],
+        "e": "Lo stato d'assedio avrebbe dato i poteri ai militari, ma serviva la firma del re."
+       },
+       {
+        "p": "Perché il re non firma lo stato d'assedio?",
+        "a": "Teme una guerra civile, dubita dell'esercito e del duca d'Aosta",
+        "w": [
+         "È un fascista dichiarato",
+         "Non conosce Mussolini",
+         "È malato"
+        ],
+        "e": "Il duca d'Aosta, suo cugino, simpatizzava apertamente per il fascismo."
+       },
+       {
+        "p": "Che cosa avviene il 30 ottobre 1922?",
+        "a": "Mussolini riceve l'incarico di formare un governo di coalizione",
+        "w": [
+         "Mussolini è arrestato",
+         "Il re abdica",
+         "Facta vince le elezioni"
+        ],
+        "e": "Nel governo ci sono fascisti, liberali, popolari e nazionalisti; Diaz è ministro della Guerra."
+       }
+      ]
+     },
+     "Q6": {
+      "title": "Quiz 6 · Il primo governo Mussolini",
+      "items": [
+       {
+        "p": "Quali ministeri tiene per sé Mussolini?",
+        "a": "Interni ed Esteri",
+        "w": [
+         "Guerra e Marina",
+         "Istruzione e Finanze",
+         "Giustizia e Lavori pubblici"
+        ],
+        "e": "Guerra e Marina vanno a Diaz e a Thaon di Revel."
+       },
+       {
+        "p": "Che cos'è il «discorso del bivacco»?",
+        "a": "Il primo discorso di Mussolini alla Camera, il 6 novembre 1922",
+        "w": [
+         "Il discorso di Matteotti",
+         "Il discorso dei ras a Bologna",
+         "Il discorso del re"
+        ],
+        "e": "Mussolini minaccia di trasformare l'aula in un bivacco di manipoli."
+       },
+       {
+        "p": "Che cos'è il Gran Consiglio del fascismo?",
+        "a": "Un organo di partito non previsto dalla Costituzione",
+        "w": [
+         "Un ministero del Regno",
+         "Un tribunale militare",
+         "Un consiglio comunale"
+        ],
+        "e": "Affianca lo Stato e unisce i vertici del partito."
+       },
+       {
+        "p": "Che cosa fa la MVSN?",
+        "a": "Legalizza le squadre d'azione come corpo agli ordini di Mussolini",
+        "w": [
+         "Difende il Parlamento",
+         "Sostituisce i carabinieri",
+         "Controlla i confini"
+        ],
+        "e": "La Milizia è fedele a un leader e a un partito, non allo Stato."
+       },
+       {
+        "p": "Che periodo gli storici chiamano «triennio di consolidamento»?",
+        "a": "Gli anni 1922-1925",
+        "w": [
+         "Gli anni 1919-1922",
+         "Gli anni 1925-1928",
+         "Gli anni 1914-1917"
+        ],
+        "e": "In questa fase il Parlamento è ancora elettivo e pluripartitico, ma si costruisce il regime."
+       }
+      ]
+     },
+     "Q7": {
+      "title": "Quiz 7 · Legge Acerbo, delitto Matteotti e dittatura",
+      "items": [
+       {
+        "p": "Che cosa prevede la legge Acerbo?",
+        "a": "Due terzi dei seggi alla lista che ottiene almeno il 25% dei voti",
+        "w": [
+         "Il voto alle donne",
+         "Il ritorno al maggioritario uninominale",
+         "La fine del Parlamento"
+        ],
+        "e": "È una riforma fortemente maggioritaria, approvata nel novembre 1923."
+       },
+       {
+        "p": "Quanto ottiene il Listone alle elezioni del 6 aprile 1924?",
+        "a": "Il 65% dei voti",
+        "w": [
+         "Il 15% dei voti",
+         "Il 25% dei voti",
+         "Il 100% dei voti"
+        ],
+        "e": "Il risultato è favorito da violenze, intimidazioni e brogli."
+       },
+       {
+        "p": "Che cosa denuncia Matteotti il 30 maggio 1924?",
+        "a": "Violenze e brogli elettorali, chiedendo l'annullamento del voto",
+        "w": [
+         "La Marcia su Roma",
+         "La legge Aventino",
+         "Il trattato di Rapallo"
+        ],
+        "e": "Il 10 giugno viene rapito e assassinato da squadristi guidati da Dumini."
+       },
+       {
+        "p": "Che cos'è la secessione dell'Aventino?",
+        "a": "L'uscita dei deputati d'opposizione dal Parlamento",
+        "w": [
+         "Una rivolta militare",
+         "Un colpo di Stato del re",
+         "Un patto con Mussolini"
+        ],
+        "e": "La linea si rivelò inefficace perché il re non intervenne."
+       },
+       {
+        "p": "Che cosa fa Mussolini il 3 gennaio 1925?",
+        "a": "Si assume la responsabilità di quanto avvenuto e annuncia la svolta autoritaria",
+        "w": [
+         "Si dimette",
+         "Chiede scusa alla Camera",
+         "Scioglie i fasci"
+        ],
+        "e": "Seguono le leggi fascistissime, 1925-1927, che trasformano l'Italia in una dittatura."
+       }
+      ]
+     }
+    }
+   },
+   "timeline": [
+    [
+     "T4",
+     41.433,
+     5.0
+    ],
+    [
+     "T5",
+     691.167,
+     5.0
+    ],
+    [
+     "T6",
+     1618.533,
+     5.0
+    ],
+    [
+     "T7",
+     2141.967,
+     5.0
+    ],
+    [
+     "GL2",
+     3144.6,
+     39.833
+    ],
+    [
+     "RF2",
+     3184.433,
+     28.333
+    ],
+    [
+     "FIN2",
+     3212.767,
+     8.767
+    ]
+   ]
   }
  },
- "manca": "",
+ "manca": "Mappe concettuali del prof non presenti nella release (non inventate)",
  "serve_master": [
   {
-   "quando": "18/11 22:39",
-   "testo": "Voci Kore nuove lez 8 (v3, rifacimento da zero): 67 testi in testi_voci.json, ramo voci-storia-V-lez08 (nomi nuovi: BEN, PI*, SC*_*, MAPN*, MPR1-3, LG0-8, FIN)"
+   "quando": "16/11 18:57",
+   "testo": "Testi voci (29) e quiz (35 domande) sul ramo voci-storia-V-lez08, una sola richiesta per le 2 Parti. Mappe del prof per la 8 NON presenti nella release: non le invento."
   }
  ],
  "domande_sara": [],
  "note": [
   {
-   "quando": "18/11 22:34",
-   "testo": "PRENOTATA 18/11 22:40 chat v3 rifacimento da zero (dopo lez 6 consegnata; 7,11,14 prese da altre chat)"
+   "quando": "16/11 12:23",
+   "testo": "Storia V · chat S8"
   },
   {
-   "quando": "18/11 22:39",
-   "testo": "18/11 23:00 voci inviate (67 testi, ramo voci-storia-V-lez08); trascrizione in corso"
+   "quando": "16/11 21:39",
+   "testo": "Storia V · chat S8: consegna su consegna-storia-V-lez08. Sottotitoli automatici da rileggere (attacco entro 0,3 s: 86% P1 / 83% P2 misurato su tutti i blocchi; il controllo del kit su campione dà 58%/67%). Intro Compiti 5,5 s (voce Kore già generata). Parte 1 50:08, Parte 2 54:02."
+  },
+  {
+   "quando": "18/11 21:48",
+   "testo": "chat v3: presa da claude/clever-davinci-puwpry (chat Storia V ex-coda dispari)"
+  },
+  {
+   "quando": "18/11 22:11",
+   "testo": "chat v3 22:15: trascrizione, allineamento, slide, voci nuove (12) in coda alla master; schede blu e animazioni in rendering"
+  },
+  {
+   "quando": "18/11 22:29",
+   "testo": "chat v3 22:30: voci nuove ricevute (12); animazioni 21/27, schede blu 16/28, webcam a pezzi in corso; poi montaggio, codifica, sottotitoli, controlli"
+  },
+  {
+   "quando": "18/11 23:01",
+   "testo": "chat v3 23:05: schede blu e animazioni complete (foglio di controllo fatto); montaggio Parte 1 e 2 in corso"
   }
  ],
- "aggiornato": "2026-11-18 22:39:25"
+ "materia": "Storia V",
+ "lezione": "Lezione 08",
+ "docente": "Prof. Giorgio Mazzotti",
+ "aggiornato": "2026-11-18 23:01:19"
 }
