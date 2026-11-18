@@ -2,13 +2,22 @@
  "tag": "storia-V-lez11",
  "parti": {},
  "manca": "",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "18/11 22:17",
+   "testo": "lez11 v3: aggiunte 29 voci nuove (SC*, MA1-3, RIEP1) in testi_voci.json, ramo voci-storia-V-lez11. Servono per montare."
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
    "quando": "18/11 22:12",
    "testo": "IN_REVISIONE chat v3"
+  },
+  {
+   "quando": "18/11 22:17",
+   "testo": "IN_REVISIONE chat v3: voci inviate, trascrizione prof in corso"
   }
  ],
- "aggiornato": "2026-11-18 22:12:51"
+ "aggiornato": "2026-11-18 22:17:25"
 }
