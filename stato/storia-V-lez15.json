@@ -2,20 +2,17 @@
  "tag": "storia-V-lez15",
  "parti": {
   "1": {
-   "stato": "FERMA"
+   "stato": "IN_REVISIONE"
   }
  },
- "manca": "Trascrizione del docente (vedi lezione 12)",
+ "manca": "",
  "serve_master": [],
  "domande_sara": [],
  "note": [
   {
-   "quando": "16/11 12:26",
-   "testo": "Storia V · chat S6: stesso blocco della 12 (nessuna trascrizione). Voci Kore già presenti (25 testi) in voci-storia-V-lez15."
+   "quando": "18/11 19:36",
+   "testo": "PRENOTATA 18/11 19:40 · chat v3 rifacimento da zero (sessione lez04)"
   }
  ],
- "materia": "Storia V",
- "lezione": "Lezione 15 · La decolonizzazione (1945-1975)",
- "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-16 12:26:52"
+ "aggiornato": "2026-11-18 19:36:47"
 }
