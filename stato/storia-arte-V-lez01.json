@@ -2,7 +2,7 @@
  "tag": "storia-arte-V-lez01",
  "parti": {
   "1": {
-   "stato": "IN_MONTAGGIO"
+   "stato": "IN_REVISIONE"
   }
  },
  "manca": "",
@@ -12,10 +12,14 @@
   {
    "quando": "16/11 07:22",
    "testo": "Storia dell'arte V · chat A5: presa il 16/11 (stato precedente fermo da >2 ore). Voci Kore gia' su voci-storia-arte-V-lez01 (S/R/M/INTRO/GL/RF/FIN/CI)."
+  },
+  {
+   "quando": "18/11 22:14",
+   "testo": "ripresa 18/11: presa da claude/sharp-carson-b35tag"
   }
  ],
  "materia": "Storia dell'Arte V",
  "lezione": "Lezione 1 · Il Neoclassicismo",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-16 07:22:22"
+ "aggiornato": "2026-11-18 22:14:15"
 }
