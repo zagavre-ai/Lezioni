@@ -6,16 +6,25 @@
   }
  },
  "manca": "",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "18/11 15:59",
+   "testo": "Manca la sigla di apertura 15 s per Diritto ed economia (in kit/sigle ci sono solo Inglese, Letteratura, Storia). Serve anche l'elenco dei file voce da generare: testi in scambio/diritto-4222/testi_voci.json sul ramo voci-diritto-4222 (in arrivo)."
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
    "quando": "18/11 15:55",
    "testo": "chat 4222: avvio rifacimento"
+  },
+  {
+   "quando": "18/11 15:59",
+   "testo": "Argomenti proposti a Sara: 1 Persone giuridiche; 2 Azienda e classificazione imprese; 3 Rischio d'impresa; 4 Stakeholder e CSRD; 5 Soggetti, patrimonio, avviamento; 6 Gestione aziendale"
   }
  ],
  "materia": "Diritto ed economia (I+II)",
  "lezione": "ID 4222 · Le organizzazioni collettive e l'impresa",
  "docente": "Prof.ssa J. Didone",
- "aggiornato": "2026-11-18 15:55:47"
+ "aggiornato": "2026-11-18 15:59:22"
 }
