@@ -6,7 +6,7 @@
    "voci": "segnaposto"
   }
  },
- "manca": "",
+ "manca": "voci Kore (87)",
  "serve_master": [
   {
    "quando": "18/11 12:50",
@@ -27,10 +27,14 @@
   {
    "quando": "18/11 12:23",
    "testo": "chat v3 revisione: voci inviate (85) nel ramo voci-storia-V-lez04; trascrizione in corso; 2 Parti previste"
+  },
+  {
+   "quando": "18/11 14:34",
+   "testo": "14:35 anteprima Parte 1 (53:46) e Parte 2 (67:25) montate con voci a silenzio, pushate su revisione-storia-V-lez04 (cartella revisione-storia-V-lez04/). Mancano SOLO le voci Kore: rimontaggio ~40 min appena arrivano (lavoro/RIPRESA.md). LUFS -16,0, picco -1,8/-1,9 dBTP, nessun fermo del prof, quiz jingle a 0,000 s."
   }
  ],
  "materia": "Storia V",
  "lezione": "Lezione 4 · La Prima guerra mondiale",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-18 13:29:25"
+ "aggiornato": "2026-11-18 14:34:20"
 }
