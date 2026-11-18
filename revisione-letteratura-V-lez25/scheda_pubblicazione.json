@@ -1,43 +1,43 @@
 {
  "materia": "Letteratura italiana (V)",
  "titolo": "Letteratura V · Lezione 25 · Pier Paolo Pasolini",
- "durata_s": 2318.23,
+ "durata_s": 2402.25,
  "argomenti": [
   {
    "n": 1,
    "titolo": "La vita e gli anni friulani",
    "inizio_s": 70.367,
-   "quiz_s": 411.167
+   "quiz_s": 425.167
   },
   {
    "n": 2,
    "titolo": "Roma e il successo letterario",
-   "inizio_s": 414.767,
-   "quiz_s": 638.133
+   "inizio_s": 428.767,
+   "quiz_s": 666.133
   },
   {
    "n": 3,
    "titolo": "La svolta degli anni Sessanta",
-   "inizio_s": 641.733,
-   "quiz_s": 1032.233
+   "inizio_s": 669.733,
+   "quiz_s": 1074.233
   },
   {
    "n": 4,
    "titolo": "Le prime fasi poetiche e i conflitti interiori",
-   "inizio_s": 1035.833,
-   "quiz_s": 1457.8
+   "inizio_s": 1077.833,
+   "quiz_s": 1513.8
   },
   {
    "n": 5,
    "titolo": "La narrativa e il cinema",
-   "inizio_s": 1461.4,
-   "quiz_s": 1830.9
+   "inizio_s": 1517.4,
+   "quiz_s": 1900.9
   },
   {
    "n": 6,
    "titolo": "L'ultimo Pasolini",
-   "inizio_s": 1834.5,
-   "quiz_s": 2067.433
+   "inizio_s": 1904.5,
+   "quiz_s": 2151.433
   }
  ],
  "quiz": {
