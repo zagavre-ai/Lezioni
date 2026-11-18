@@ -1,16 +1,22 @@
 {
  "tag": "storia-V-lez04",
- "parti": {},
+ "parti": {
+  "1": {
+   "stato": "IN_MONTAGGIO",
+   "voci": "segnaposto"
+  }
+ },
  "manca": "",
  "serve_master": [],
  "domande_sara": [],
  "note": [
   {
-   "quando": "18/11 12:08",
-   "testo": "chat v3: parto da zero, non c'e consegna ne voci per la lez 4"
+   "quando": "18/11 12:23",
+   "testo": "chat v3 revisione: voci inviate (85) nel ramo voci-storia-V-lez04; trascrizione in corso; 2 Parti previste"
   }
  ],
- "materia": "storia-V",
- "lezione": "4",
- "aggiornato": "2026-11-18 12:08:17"
+ "materia": "Storia V",
+ "lezione": "Lezione 4 · La Prima guerra mondiale",
+ "docente": "Prof. Giorgio Mazzotti",
+ "aggiornato": "2026-11-18 12:23:23"
 }
