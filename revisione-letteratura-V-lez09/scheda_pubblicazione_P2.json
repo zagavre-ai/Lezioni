@@ -1,31 +1,31 @@
 {
  "materia": "Letteratura italiana (V)",
  "titolo": "Letteratura V · Lezione 9 · Giovanni Pascoli · Parte 2",
- "durata_s": 3216.17,
+ "durata_s": 3272.17,
  "argomenti": [
   {
    "n": 1,
    "titolo": "X Agosto",
    "inizio_s": 57.6,
-   "quiz_s": 931.567
+   "quiz_s": 945.567
   },
   {
    "n": 2,
    "titolo": "L'assiuolo e Temporale",
-   "inizio_s": 936.567,
-   "quiz_s": 1800.467
+   "inizio_s": 950.567,
+   "quiz_s": 1828.467
   },
   {
    "n": 3,
    "titolo": "Novembre, Il lampo e Il gelsomino notturno",
-   "inizio_s": 1805.467,
-   "quiz_s": 2720.133
+   "inizio_s": 1833.467,
+   "quiz_s": 2762.133
   },
   {
    "n": 4,
    "titolo": "I Poemetti e le ultime raccolte",
-   "inizio_s": 2725.133,
-   "quiz_s": 3092.567
+   "inizio_s": 2767.133,
+   "quiz_s": 3148.567
   }
  ],
  "quiz": {
@@ -250,6 +250,6 @@
    ]
   }
  },
- "t_verifica": 3197.5,
- "t_compiti": 3211.1
+ "t_verifica": 3253.5,
+ "t_compiti": 3267.1
 }
