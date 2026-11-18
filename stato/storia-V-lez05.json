@@ -6,15 +6,24 @@
   }
  },
  "manca": "",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "18/11 19:53",
+   "testo": "Voci Kore nuove lez 5: 52 testi (B0,B2,MDF,MDO,MDG,MDN,P1-9,SC*) nel ramo voci-storia-V-lez05, commit f66e61a"
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
    "quando": "18/11 19:50",
    "testo": "PRENOTATA 18/11 19:58 · chat v3 rifacimento da zero (sessione lez12; lez 13/15 prese da altre chat, lez 1/2 senza video originale)"
+  },
+  {
+   "quando": "18/11 19:53",
+   "testo": "scaricati materiali; trascrizione e voci nuove inviate; 2 Parti (P1 arg 1-4, P2 arg 5-9)"
   }
  ],
  "materia": "storia-V",
  "lezione": "5",
- "aggiornato": "2026-11-18 19:50:19"
+ "aggiornato": "2026-11-18 19:53:20"
 }
