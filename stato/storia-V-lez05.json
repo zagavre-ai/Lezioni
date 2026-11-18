@@ -2,7 +2,12 @@
  "tag": "storia-V-lez05",
  "parti": {
   "1": {
-   "stato": "IN_REVISIONE"
+   "stato": "REVISIONATA",
+   "voci": "kore",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "si",
+   "vtt": "si"
   }
  },
  "manca": "",
@@ -21,9 +26,13 @@
   {
    "quando": "18/11 19:53",
    "testo": "scaricati materiali; trascrizione e voci nuove inviate; 2 Parti (P1 arg 1-4, P2 arg 5-9)"
+  },
+  {
+   "quando": "18/11 21:45",
+   "testo": "Parte 1: 41:26,9 · LUFS -16,6 · quiz +0,005 s · ramo revisione-storia-V-lez05"
   }
  ],
  "materia": "storia-V",
  "lezione": "5",
- "aggiornato": "2026-11-18 19:53:20"
+ "aggiornato": "2026-11-18 21:45:13"
 }
