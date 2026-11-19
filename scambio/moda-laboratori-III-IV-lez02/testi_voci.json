@@ -823,5 +823,320 @@
   "nome": "COMP1",
   "testo": "Ora passa ai compiti.",
   "lingua": "it"
+ },
+ {
+  "nome": "SC1_1",
+  "testo": "Dialogo. Il sarto indaga la vestibilità desiderata dal cliente.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC1_2",
+  "testo": "Preparazione. Rilievo delle misure e stabilizzazione del tessuto.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC1_3",
+  "testo": "Cartamodello. Lo sviluppo geometrico del figurino, provato sul manichino con gli spilli.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC1_4",
+  "testo": "Taglio e imbastitura. Piegatura, piazzamento, taglio e prima prova.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC1_5",
+  "testo": "Confezione. Sdifettatura, cuciture definitive e stiro intermedio.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC1_6",
+  "testo": "Chiusura. Cucitura finale, stiro definitivo e scheda anagrafica.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC2_1",
+  "testo": "Fattori. Tipo di modello, taglia e altezza del tessuto.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC2_2",
+  "testo": "Altezza. Di solito centocinquanta centimetri.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC2_3",
+  "testo": "Gonne. Minigonna da cinquanta a cinquantacinque centimetri, sotto al ginocchio da settantacinque a ottanta, midi da novanta a novantacinque.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC2_4",
+  "testo": "Gonna a terra. Due lunghezze capo, circa duecentoventi o duecentotrenta centimetri; quattro per modelli molto ampi, circa quattrocentoquaranta.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC2_5",
+  "testo": "Pantaloni. Taglie forti: calcolare il livello inforcatura.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC2_6",
+  "testo": "Esempi. Shorts più trenta o quaranta centimetri, bermuda più cinquantacinque o sessantacinque, pinocchietti settantacinque o ottantacinque.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC3_1",
+  "testo": "Scopo. Evitare restringimenti e deformazioni dopo il primo lavaggio.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC3_2",
+  "testo": "Panni bagnati. Per i tessuti più delicati: circa venti ore, poi asciugatura lenta.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC3_3",
+  "testo": "Immersione. Cotone e misto cotone: acqua fredda e poi tiepida, senza detergenti.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC3_4",
+  "testo": "Vaporizzatura. Lana e fibre artificiali vegetali: sul rovescio, con ferro a bassa temperatura.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC4_1",
+  "testo": "Piegatura. Singola, doppia o senza piegatura.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC4_2",
+  "testo": "Sigle. Uno A, uno B, due A, due B, due C: una o due piegature, cimose sovrapposte, accostate o distanziate.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC4_3",
+  "testo": "Piazzamento. Sagome distanziate per margini e orli, cimose escluse.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC4_4",
+  "testo": "Diritto filo. Centro davanti e centro dietro paralleli alle cimose.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC4_5",
+  "testo": "Gonna. Gonna base a tubo: piegatura due B con cimose distanziate.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC4_6",
+  "testo": "Cintura. Parallela all'ordito o alla trama, con interfodera di sostegno.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC4_7",
+  "testo": "Pantaloni. Taglia snella: piegatura due A. Taglia forte: piegatura due C.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC5_1",
+  "testo": "Segno. Gessetto, con spazio per orli e entità di cucitura.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC5_2",
+  "testo": "Taglio. Forbici, su uno o pochi strati di tessuto.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC5_3",
+  "testo": "Scivolosi. Seta e sintetici: sotto uno strato di carta resistente.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC5_4",
+  "testo": "Imbastitura. Prima cucitura provvisoria a punti lunghi.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC5_5",
+  "testo": "Prove. Prima prova sul soggetto, poi una seconda prova.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC5_6",
+  "testo": "Confezione. Si toglie l'imbastitura e si cuce a mano o a macchina.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC6_1",
+  "testo": "Fodera. Riveste il rovescio del capo e protegge dall'usura.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC6_2",
+  "testo": "Interfodera. Strato di rinforzo, termoadesiva o cucita a mano.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC6_3",
+  "testo": "Cintura. Mantiene il capo aderente al punto vita.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC6_4",
+  "testo": "Passanti. Strisce di tessuto che guidano la cintura.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC6_5",
+  "testo": "Tasca. Esterna, a toppa, o interna con fessura.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC6_6",
+  "testo": "Risvolto. Tessuto ripiegato su se stesso per l'estetica.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC6_7",
+  "testo": "Paramontura. Rinforzo e abbellimento: un risvolto modellato.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC7_1",
+  "testo": "Mercerie. Accessori estetici o pratici: pizzi, elastici, cerniere e bottoni.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC7_2",
+  "testo": "Cerniera. Due nastri con dentini chiusi da un cursore.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC7_3",
+  "testo": "Bottoni. Si infilano nell'asola, poco più lunga del diametro.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC7_4",
+  "testo": "Baschina. Taglio orizzontale tra la vita e il bacino.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC7_5",
+  "testo": "Spacco. Apertura per il movimento, con il rovescio ben rifinito.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC7_6",
+  "testo": "Asole. Piane, con filo o tessuto, oppure volanti.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC7_7",
+  "testo": "Ricamo. Ornamento eseguito con ago e filo, a mano o a macchina.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC8_1",
+  "testo": "Ago. Cruna a un'estremità e punta affilata: numeri da uno a dodici.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC8_2",
+  "testo": "Cucirino. Il filato per cucire, più spesso e morbido per l'imbastitura.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC8_3",
+  "testo": "Strumenti. Forbici, ditale e spilli.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC8_4",
+  "testo": "Temporanee. Fili lenti e imbastitura rettilinea o diagonale.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC8_5",
+  "testo": "Permanenti. Punto filza, sella, indietro e impuntura.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC8_6",
+  "testo": "Bordi. Sopraffilo, punto mosca, occhiello e resca.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC8_7",
+  "testo": "Orli. Sottopunto e punto cieco, non visibili dal diritto.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC9_1",
+  "testo": "Principio. Due fili che si incontrano a metà del tessuto.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC9_2",
+  "testo": "Organi. Ago, piedino, sistema trasportatore, crochet e blocco regola tensione.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC9_3",
+  "testo": "Ago. Cruna in punta, spessore da settanta a novanta.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC9_4",
+  "testo": "Tensione. Due dischi tenuti da una molla: l'incrocio al centro del tessuto.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC9_5",
+  "testo": "Sicurezza. Macchina spenta per cambiare ago o piedino.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC9_6",
+  "testo": "Punti. Classe centouno, duecento, trecentouno e trecentoquattro.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC9_7",
+  "testo": "Tagliacuci. T C: cuce e taglia il margine con una lama.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC10_1",
+  "testo": "Fasi. Stiro preparatorio, intermedio e finale.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC10_2",
+  "testo": "Ferro. Piastra con fori, serbatoio e camera di vaporizzazione.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC10_3",
+  "testo": "Calore. Un punto per le sintetiche, due per la lana, tre per lino e cotone.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC10_4",
+  "testo": "Accessori. Asse da stiro, soletta e asse stiramaniche.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC10_5",
+  "testo": "Stiro finale. Si parte dalle parti applicate, come tasche e pattine.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC10_6",
+  "testo": "Scheda. Materiali, tempi e costi: l'archivio storico delle richieste.",
+  "lingua": "it"
  }
 ]
