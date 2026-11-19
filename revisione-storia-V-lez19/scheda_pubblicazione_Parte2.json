@@ -2,31 +2,31 @@
  "materia": "Storia",
  "titolo": "Storia V · Lezione 19 · L'Italia dal '68 alla crisi della Prima Repubblica",
  "parte": 2,
- "durata_s": 2681.333,
+ "durata_s": 2910.667,
  "argomenti": [
   {
    "n": 5,
    "titolo": "Conquiste sociali e crisi energetica",
    "inizio_s": 33.833,
-   "quiz_s": 532.967
+   "quiz_s": 591.233
   },
   {
    "n": 6,
    "titolo": "Gli anni Ottanta: riflusso e Pentapartito",
-   "inizio_s": 537.567,
-   "quiz_s": 1572.867
+   "inizio_s": 595.833,
+   "quiz_s": 1699.2
   },
   {
    "n": 7,
    "titolo": "Tangentopoli e il crollo dei partiti",
-   "inizio_s": 1577.467,
-   "quiz_s": 2332.2
+   "inizio_s": 1703.8,
+   "quiz_s": 2507.933
   },
   {
    "n": 8,
    "titolo": "La transizione e i governi tecnici",
-   "inizio_s": 2336.8,
-   "quiz_s": 2610.033
+   "inizio_s": 2512.533,
+   "quiz_s": 2839.367
   }
  ],
  "quiz": {

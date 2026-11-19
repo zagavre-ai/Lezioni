@@ -2,31 +2,31 @@
  "materia": "Storia",
  "titolo": "Storia V · Lezione 19 · L'Italia dal '68 alla crisi della Prima Repubblica",
  "parte": 1,
- "durata_s": 2805.567,
+ "durata_s": 3063.6,
  "argomenti": [
   {
    "n": 1,
    "titolo": "Il Sessantotto e la protesta studentesca",
    "inizio_s": 322.633,
-   "quiz_s": 1084.333
+   "quiz_s": 1156.1
   },
   {
    "n": 2,
    "titolo": "L'Autunno caldo e le riforme",
-   "inizio_s": 1088.933,
-   "quiz_s": 1448.733
+   "inizio_s": 1160.7,
+   "quiz_s": 1583.9
   },
   {
    "n": 3,
    "titolo": "Gli anni di piombo e lo stragismo",
-   "inizio_s": 1453.333,
-   "quiz_s": 2221.167
+   "inizio_s": 1588.5,
+   "quiz_s": 2425.5
   },
   {
    "n": 4,
    "titolo": "Il caso Moro e la solidarietà nazionale",
-   "inizio_s": 2225.767,
-   "quiz_s": 2735.467
+   "inizio_s": 2430.1,
+   "quiz_s": 2993.5
   }
  ],
  "quiz": {
