@@ -258,3 +258,39 @@ Chi ha già cambiato schede blu in bianche: **rimettile blu come Spagnolo**. Res
 
 ## 18/11 00:05 — Pannello «PAROLE CHIAVE» sotto il prof: SI TIENE
 È un'aggiunta approvata da Sara (fa parte delle «aggiunte promosse» al modello Spagnolo). Non toglierlo.
+
+## 18/11 notte (23:45, corretto alle 23:50) · WEBCAM DEL DOCENTE · DECISIONE DI SARA
+- **Prof. Mazzotti (Storia dell'arte V, come Storia V e Letteratura V): si mette il RIQUADRO 4:3**, come nelle lezioni già revisionate: 412×309 px a x=1428, y=148, angoli arrotondati, ombra grigia, niente bordo; ritaglio 4:3 dalla webcam dell'originale ingrandita (circa 2–2,7×), con hqdn3d 1.5:1.5:3:3 e cas 0,35 (vedi `RAPPORTO_REVISIONE.md` di `revisione-storia-V-lez10`). L'immagine morbida è il limite della sorgente: **va bene così, non ci si ferma**.
+- **Solo Prof.ssa Caputi (Chimica moda): si tiene il TONDO**, come nelle lezioni pari già PRONTE («riquadro docente con cerchio pulito»), nella colonna destra, al massimo circa 2 volte il tondino originale, bordo pulito, fascia gialla con nome e materia. La webcam è quella che è: non è un errore nostro, non si chiede un file migliore e non ci si ferma.
+- In entrambi i casi scrivilo in una riga nel `RAPPORTO_REVISIONE.md`.
+
+## 19/11 notte (00:20) · STORIA V: COSA PRENDERE DOPO · DECISIONE DI SARA
+- La **lezione 8** la fa la chat che l'ha presa per prima (ramo `claude/clever-davinci-puwpry`). Chi l'ha presa dopo (ramo `claude/optimistic-keller-9p9kwb`) la lascia e passa alla **16**.
+- Le lezioni **16, 17, 18, 19, 20, 21** erano PRONTE con le regole vecchie: **vanno rifatte tutte** nel modello nuovo (Spagnolo, riquadro 4:3, pillole, mappe, quiz 5 domande, Parti 50–60 min).
+- **Ordine per tutte le chat di Storia V:** quando consegni, prendi la prima libera di questa lista: **16, 17, 18, 19, 20, 21, 13**. Prima di prenderla rileggi `stato-storia-V-lezNN`: se un'altra chat l'ha prenotata dopo le 18:00 del 18/11, passa alla successiva. Mai due chat sulla stessa lezione.
+- La **13** era stata iniziata dal ramo `claude/youthful-euler-3ff21r` (fermo dalle 20:53): trascrizione e note sono su quel ramo, riusale.
+
+## 19/11 notte (00:20) · PROF.SSA CAPUTI (CHIMICA E MODA LABORATORI) · REGOLE FERREE
+- ⚠️ **ALLARME · Prof.ssa Piera Caputi.** Docente molto esigente. **Controllo doppio prima di consegnare** ogni sua lezione: nomi, misure, numeri, scritte dei cartamodelli, immagini nel momento esatto in cui ne parla, nome della materia esatto, nessun refuso. **Non si contatta mai la docente.** Ogni criticità (errori nelle sue slide o nel video, audio, immagini illeggibili, dubbi) si scrive alla master nel `RAPPORTO_REVISIONE.md` e nello stato: la riporta a Sara, **decide Sara**. Nel dubbio non si inventa niente.
+- **Webcam:** tondo (vedi sopra). Non ingrandire nel riquadro 4:3.
+- **Cartamodelli** (Laboratori, lezioni 3 Gonna, 4 Pantalone, 10 Corpini, 11 Giacche, 12 Cappotti, 13 Tessuto tecnico, e ogni altra lezione con cartamodelli): si **ridisegnano in vettoriale** (SVG), forme a tinta piatta azzurro/rosa con linee nette, **etichette riscritte come testo vero** (CT1, v.v. +2°, lettere dei punti, didascalie: testo ESATTO della prof, leggibile, mai sopra le linee). Mai l'immagine sgranata della prof ingrandita.
+- **Controllo ferreo:** originale e ridisegno affiancati a 4×, su tutta la figura: rette entro 1,5 px, curve entro 2 px, spigoli nello stesso punto, tutte le scritte presenti e identiche. Nel rapporto: difetti trovati, corretti, residui.
+- **Figurini e disegni a mano** della prof: stile approvato da Sara l'8/11 («migliorata + stile»: ingrandimento 4×, meno rumore, scheda bianca arrotondata con ombra).
+- **Le immagini devono corrispondere ESATTAMENTE a quello che dice la prof in quel momento.** Se parla di un cartamodello, il cartamodello è sullo schermo mentre lo spiega, accanto al testo. Niente immagini «di repertorio» o di un altro capo.
+- **Parole esatte della prof:** numeri e misure come li dice lei (esempio Capri: le due indicazioni, 68 cm e 63 cm, entrambe con la fonte). Nessun calcolo aggiunto.
+- Gonna (3) e Pantalone (4) sono già state rifatte in vettoriale l'8–9/11 (54 e 29 cartamodelli): se le riprendi, riusa quei disegni.
+
+## 19/11 notte (02:20) · REGOLA DI SARA: I DATI DEI DOCENTI NON SI TOCCANO MAI
+- Quello che i docenti hanno scritto o caricato (registri della piattaforma, registro dei compiti, quaderno, test, compiti, slide, video) **non si modifica mai**: si legge, si controlla e si riporta alla master, che lo porta a Sara. Decide Sara.
+
+## 19/11 notte (03:40) · STORIA V · REVISIONE TOTALE DELLA MASTER: COSA NON VA E COME SI CORREGGE (vale per la lezione che stai facendo ORA e per tutte le prossime)
+Sara ha guardato le lezioni caricate e ha detto: «è tutto un po' sballato». La master ha controllato 3, 5, 7, 9 (e le altre a seguire). Difetti trovati, uguali in quasi tutte:
+1. **Una sola slide per argomento per 8–16 minuti** (es. lez. 3 da 3:05 a 19:35, lez. 9 da 7:04 a 16:30): cambia solo il bordo giallo della card. **Regola (prompt montatore 4.1): al massimo 3 card per slide.** Dividi il testo dell'argomento in più slide (3 card ciascuna, nell'ordine in cui il prof parla), la slide cambia quando il prof passa alla 4ª frase. **Nessuna slide resta ferma più di 3 minuti.** Dove il PDF «LEZIONE NN.pdf» del prof ha immagini (foto, carte, ritratti), mettile in una slide a tempo con quando il prof ne parla (come la lez. 3 a 19:35).
+2. **Sincronia**: il bordo giallo deve accendersi quando il prof **inizia** quella frase (±1 s), non prima e non dopo. Controlla 10 punti a caso con la trascrizione parola per parola e scrivi gli scarti nel rapporto.
+3. **Mappe**: mai il ritaglio dell'immagine del prof con le fasce gialle che la scoprono a pezzi (lez. 9, 16:30). La mappa si **ridisegna** con `kit/tools/mappa.py` (nostra grafica, testo identico), intera, con i nodi che compaiono a tempo con la voce Kore. Una mappa per ogni argomento che ha una mappa nel PDF «MAPPE LEZIONE NN.pdf».
+4. **Approfondimenti animati (pezzo 4c)**: almeno uno per argomento, 40–60 s, voce Kore, solo dal materiale della lezione. Le slide di testo fermo senza voce non sono approfondimenti.
+5. **Schema di ripasso (4f)**: una riga per ogni punto chiave dell'argomento (4–6 righe), non 2.
+6. **Transizioni**: `trans.wav` + dissolvenza 0,3–1 s a **ogni** cambio di pezzo (anche prof → mappa → pillola). Mai tagli secchi.
+7. **Copertina**: titolo **esatto** della lezione (lez. 7 aveva il titolo della lez. 5: corretto dalla master); se il titolo va su 2 righe, la card ARGOMENTI scende e non si sovrappone (lez. 17).
+8. **Avviso diritti**: in basso al centro, testo bianco 24 px **senza riquadro**, mai sopra il piè di pagina della copertina.
+**Cosa fare:** applica questi punti alla lezione su cui sei ora **prima** di consegnarla. Quando consegni, prima di prendere una lezione nuova riprendi in quest'ordine le lezioni già consegnate da correggere: **9, 5, 3, 7, 12, 11, 16, 14, 10, 20** (prenota con `stato.py storia-V-lezNN IN_REVISIONE "correzioni 19/11: presa da <ramo>"`; se è già presa da un'altra chat, la successiva). Riusa tutto il resto (trascrizione, tagli, voci, schede blu): rifai solo slide, mappe, approfondimenti, schema e transizioni. Consegna di nuovo su `revisione-storia-V-lezNN` e stato `REVISIONATA` con nota «correzioni 19/11 fatte». La master ricarica su Vimeo con lo stesso link.
