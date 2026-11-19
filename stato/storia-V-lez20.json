@@ -620,10 +620,14 @@
   {
    "quando": "16/11 15:04",
    "testo": "16/11 chat S7: PRONTA in una Parte da 69:44 (misurata). Controllo sottotitoli automatico 67% entro 0,3 s su 12 punti: i 4 fuori non sono misurabili (voce bassa o attacco dopo una pausa breve, verificato a mano sulla curva di energia); sub_ok messo a mano. Consegna sul ramo consegna-storia-V-lez20. Se vuoi 2 Parti servono 5 voci nuove (INTRO2, MAPF2, GL2, RF2, FIN2)."
+  },
+  {
+   "quando": "19/11 00:35",
+   "testo": "chat v3: presa da claude/nice-mccarthy-pwc7in (dopo lez 09)"
   }
  ],
  "materia": "Storia",
  "lezione": "Lezione 20 · Gli anni Novanta, il mondo post-bipolare",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-16 15:04:50"
+ "aggiornato": "2026-11-19 00:35:06"
 }
