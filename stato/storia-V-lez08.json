@@ -9,34 +9,34 @@
    "fermi_ok": "si",
    "sub_ok": "si",
    "video": "Storia_Lez8_Parte1_1080p.mp4",
-   "durata_s": 3008.3,
-   "durata": "50:08.3",
-   "fotogrammi": 90249,
-   "fotogrammi_attesi": 90249,
-   "peso_MB": 232.8,
+   "durata_s": 3168.1,
+   "durata": "52:48.1",
+   "fotogrammi": 95044,
+   "fotogrammi_attesi": 95044,
+   "peso_MB": 266.7,
    "vtt": "Storia_Lez8_Parte1.vtt",
    "scheda": {
-    "materia": "Storia V",
-    "titolo": "Storia V · Lezione 8 · Il dopoguerra italiano e il fascismo (1919-1925) · Parte 1",
-    "durata_s": 3008.3,
+    "materia": "Storia",
+    "titolo": "Il dopoguerra italiano e il fascismo (1919-1925) · Parte 1",
+    "durata_s": 3168.13,
     "argomenti": [
      {
       "n": 1,
       "titolo": "Il Biennio rosso e la crisi del dopoguerra",
-      "inizio_s": 243.533,
-      "quiz_s": 1112.433
+      "inizio_s": 276.766,
+      "quiz_s": 1212.298
      },
      {
       "n": 2,
       "titolo": "Vittoria mutilata, Fiume e le elezioni del 1919",
-      "inizio_s": 1116.433,
-      "quiz_s": 1981.333
+      "inizio_s": 1218.598,
+      "quiz_s": 2270.464
      },
      {
       "n": 3,
       "titolo": "La nascita del fascismo e lo squadrismo",
-      "inizio_s": 1985.333,
-      "quiz_s": 2929.0
+      "inizio_s": 2276.764,
+      "quiz_s": 3092.264
      }
     ],
     "quiz": {
@@ -210,33 +210,33 @@
    "timeline": [
     [
      "T1",
-     243.533,
-     5.0
-    ],
-    [
-     "Q1",
-     1112.433,
+     276.766,
      4.0
     ],
     [
-     "T2",
-     1116.433,
+     "Q1",
+     1212.298,
      5.0
+    ],
+    [
+     "T2",
+     1218.598,
+     4.0
     ],
     [
      "T3",
-     1985.333,
-     5.0
+     2276.764,
+     4.0
     ],
     [
      "GL1",
-     2933.0,
-     42.133
+     3098.564,
+     37.4
     ],
     [
      "RF1",
-     2975.133,
-     28.167
+     3137.364,
+     22.866
     ]
    ]
   },
@@ -582,10 +582,14 @@
   {
    "quando": "18/11 23:33",
    "testo": "chat v3 23:33: corretto sfondo slide (bianco come Spagnolo) e titolo copertina; rifatti composizione prof e montaggio, poi codifica e controlli"
+  },
+  {
+   "quando": "19/11 00:52",
+   "testo": "controllo_finale: ESITO: TUTTO OK"
   }
  ],
  "materia": "Storia V",
  "lezione": "Lezione 08",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-18 23:33:03"
+ "aggiornato": "2026-11-19 00:52:34"
 }
