@@ -9,14 +9,14 @@ Lezione **rifatta nel modello Spagnolo Lez. 1** (chat v3, 18/11/2026) sopra la c
 | Durata [misurato] | 40:28.9 (2428.9 s) |
 | Fotogrammi [misurato] | 72867 = durata × 30 |
 | Formato [misurato] | 1920×1080, 30 fps, H.264 veryfast CRF 19, AAC 192k 48 kHz |
-| Peso [misurato] | 337,1 MB (4 pezzi da 90 MB) |
-| Parlato [misurato] | −16,6 LUFS, picco vero −1,1 dBTP |
+| Peso [misurato] | 308.5 MB (4 pezzi da 90 MB) |
+| Parlato [misurato] | −16,6 LUFS, picco −1,1 dBFS |
 | Fermi del prof ≥ 1 s (freezedetect sul riquadro, −55 dB) [misurato] | 0 |
 | Jingle Quiz (`controllo_jingle.py`) [misurato] | Q1–Q6 scarto +0,005 s, OK |
-| Silenzi > 3 s (silencedetect −45 dB) [misurato] | 6, tutti di 3,1–3,4 s a fine schema di ripasso (i «3 s fermi senza voce» della scheda tecnica); nessuno più lungo |
-| `trans.wav` a ogni cambio di pezzo | messo dal montaggio a ogni passaggio, con dissolvenza di 0,3 s (0,8 s sigla→copertina) [non rimisurato sul file finale] |
-| `titolo.wav`, `repaso.wav`, `quiz.wav` [dal montaggio] | un jingle a ogni titolo (6), pillola (6) e Quiz (6); i Quiz verificati col correlatore (riga sopra) |
-| sha256 | `d8d9f2f59e28b4ea0e23af4780f8832ae8748572e173ce82869154569819788d` |
+| Slide più lunga senza cambio [misurato] | 172 s (6c); nessuna oltre 3 minuti |
+| Silenzi > 3 s [misurato] | 6 di 3,1–3,4 s a fine schema di ripasso (i «3 s fermi senza voce»); nessuno più lungo |
+| `trans.wav` a ogni cambio di pezzo | messo dal montaggio a ogni inizio di pezzo, dissolvenza 0,3 s (0,8 s sigla→copertina) [non rimisurato sul file finale] |
+| sha256 | `007046085bada91029d0bb2d517d494bab9b9e94b4ce41bbac9ece493baf3458` |
 
 Video a pezzi `.parte_NN` (ricomporre con `cat Storia_Lez11_Parte1_1080p.mp4.parte_* > Storia_Lez11_Parte1_1080p.mp4`) + `.sha256`. Il numero della lezione non compare nel video [misurato a vista su foglio.png e controllo_minuti.jpg].
 
@@ -96,8 +96,8 @@ Video a pezzi `.parte_NN` (ricomporre con `cat Storia_Lez11_Parte1_1080p.mp4.par
 | 7 | Slide senza prof (approfondimenti, schema, glossario) | OK: fondo bianco, stesso logo e piè (solo materia negli schemi) |
 | 8 | Font solo Bricolage 800 + Figtree (niente DM Mono) | corretto: DM Mono eliminato da slide, piè e pannelli; il pannello «PAROLE CHIAVE» (aggiunta approvata) è tenuto, in Figtree |
 | 9 | Finale 5 s con avviso diritti + finale.wav | OK (`Sigla_finale_5s_con_avviso_diritti.mp4`) |
-| 10 | Struttura: sigla → copertina → per argomento 4a–4g → glossario → riepilogo → finale | OK (vedi tabella C). Mappa del prof solo per 3 argomenti su 6 (il prof ne ha date 3) |
-| 11 | PDF slide A4 orizzontale = video, PDF mappe | OK: `Storia_Lez11_slide.pdf` (24 pagine, le stesse immagini del video senza riquadro/fascia/pannello) e `Storia_Lez11_mappe.pdf` (3 mappe del prof con la nostra grafica) + `…_mappe_prof_originali.pdf` |
+| 10 | Struttura: sigla → copertina → per argomento 4a–4g → glossario → riepilogo → finale | OK (vedi tabella C). Mappa del prof (ridisegnata con `mappa.py`) solo per 3 argomenti su 6: il PDF del prof ne ha 3 |
+| 11 | PDF slide A4 orizzontale = video, PDF mappe | OK: `Storia_Lez11_slide.pdf` (30 pagine = 30 slide distinte del video, senza riquadro/fascia/pannello) e `Storia_Lez11_mappe.pdf` (3 mappe ridisegnate con `mappa.py`, pagine A4 della dispensa) + `…_mappe_prof_originali.pdf` (i PDF del prof) |
 
 ### Pezzi diversi da Spagnolo nella consegna precedente, rifatti
 
@@ -107,8 +107,8 @@ Video a pezzi `.parte_NN` (ricomporre con `cat Storia_Lez11_Parte1_1080p.mp4.par
 | Pillola di ripasso | mancava la scheda blu «RIPASSO» e lo schema guidato (c'era solo una voce «Ripassiamo») | 4e blu con onda e didascalia = testo della voce Kore R1–R6 parola per parola, sincronizzata sulle frasi (allineamento sulla voce); 4f schema bianco a righe evidenziate una alla volta con voci nuove SC* |
 | Scheda Quiz | simile ma con `tfs` fisso | `tfs` ridotto per gli argomenti lunghi (nessuno tocca il pulsante play) |
 | Riepilogo finale | — | `final` con tutti e 6 gli argomenti (ultimo fotogramma nel foglio) e voce RIEP1 nuova che ricapitola argomento per argomento |
-| Mappe | fatte da noi (6 + finale, con voci MAP1–6, MAPF1) | tolte; al loro posto le 3 mappe del prof (zip MAPPE) con nodi che compaiono a tempo con voci nuove MA1–MA3 |
-| Approfondimenti | 18 schede brevi con titoli in carattere mono | 6 slide bianche (3 card per argomento, una evidenziata alla volta con la sua voce AN); date in cifre |
+| Mappe | fatte da noi (6 + finale, con voci MAP1–6, MAPF1) | tolte; al loro posto le 3 mappe del prof, RIDISEGNATE con `kit/tools/mappa.py` (nostra grafica), con i rami che compaiono a tempo con le voci MA1–MA3. Il tool ha solo la forma «centro + rami»: l'albero del prof è stato riportato in rami con le stesse parole (esempi: «Violenza: rivali politici → purghe», «Consenso: controllo → attività associative / scuola e gioventù / cultura e arti») |
+| Approfondimenti | 18 schede brevi con titoli in carattere mono | 6 pezzi animati da 57–68 s (3 card, una evidenziata alla volta con la sua voce AN); date in cifre |
 | Schede «Verifica finale», «Compiti» e «Fine» nel video | presenti | tolte dal video (la scheda tecnica 18/11 le mette fuori dal video); restano `verifica_finale.json` e `compiti.json` |
 | Glossario | 6 termini, 31 s | 11 termini, 65 s (voci GL1 + GL2 nuova) |
 
@@ -145,9 +145,9 @@ durata_s: 2381.9 → 2428.9. I Quiz cadono ai `quiz_s` della scheda e il jingle 
 | Minuto video | Immagine | Fonte |
 |---|---|---|
 | 1:24 (D0, 54–57,6 s del prof) | Foto di Iosif Stalin («Questo è appunto Iosif Stalin») | slide 2 del prof (PDF SLIDE), a tempo con la voce |
-| argomento 1, 4d | Mappa «Come giunge al potere assoluto Stalin?» | MAPPE LEZIONE 11.pdf p.1, nodi a tempo con MA1 |
-| argomento 3, 4d | Mappa «Come avviene l'industrializzazione dell'URSS?» | MAPPE p.2, MA2 |
-| argomento 4, 4d | Mappa «Il totalitarismo di Stalin» | MAPPE p.3, MA3 |
+| argomento 1, 4d | Mappa «Come giunge al potere assoluto Stalin?» ridisegnata | MAPPE LEZIONE 11.pdf p.1, rami a tempo con MA1 |
+| argomento 3, 4d | Mappa «Come avviene l'industrializzazione dell'URSS?» | MAPPE p.2, MA2 (ridisegnata) |
+| argomento 4, 4d | Mappa «Il totalitarismo di Stalin» | MAPPE p.3, MA3 (ridisegnata) |
 
 ## 6. DA CONFERMARE COL PROF
 
@@ -155,7 +155,7 @@ durata_s: 2381.9 → 2428.9. I Quiz cadono ai `quiz_s` della scheda e il jingle 
 - Il prof dice a voce che l'Holodomor causò «circa 3 milioni» di morti; la slide dice «milioni di morti»: lasciato come dice il prof.
 - Il prof nomina la «Gosplan» e «Zinov'ev e Kamenev» che non sono sulle slide: non aggiunti.
 - Manca la mappa del prof per gli argomenti 5 e 6 e la mappa finale: attendo se il prof le manda.
-- La card 3 della slide 5 («Il mito del lavoro / Stachanov») non si accende mai nel suo argomento: il prof ne parla a 798–827 s dell'originale (dentro l'argomento 3, con la slide 2 sullo schermo). Se si vuole, si può accendere lì mostrando la slide 5.
+- La card «Il mito del lavoro / Stachanov» (slide 5a) si accende solo per 3 s (1084,9–1087,9 s, «il lavoro operaio e le conquiste del socialismo»): il prof parla di Stachanov a 798–827 s, dentro l'argomento 3, con la slide 2 sullo schermo.
 
 ## 7. Cosa NON ho verificato
 
