@@ -1,0 +1,497 @@
+{
+ "materia": "Storia V",
+ "titolo": "Storia V · Lezione 20 · Gli anni Novanta, il mondo post-bipolare · Parte 1",
+ "durata_s": 4064.933,
+ "argomenti": [
+  {
+   "n": 1,
+   "titolo": "Il crollo dell'URSS",
+   "inizio_s": 277.1,
+   "quiz_s": 1429.6
+  },
+  {
+   "n": 2,
+   "titolo": "L'egemonia degli Stati Uniti",
+   "inizio_s": 1434.6,
+   "quiz_s": 1803.967
+  },
+  {
+   "n": 3,
+   "titolo": "Le guerre nella ex Iugoslavia",
+   "inizio_s": 1808.967,
+   "quiz_s": 2348.833
+  },
+  {
+   "n": 4,
+   "titolo": "L'Europa negli anni Novanta",
+   "inizio_s": 2353.833,
+   "quiz_s": 2941.267
+  },
+  {
+   "n": 5,
+   "titolo": "L'Italia nella Seconda Repubblica",
+   "inizio_s": 2946.267,
+   "quiz_s": 3314.367
+  },
+  {
+   "n": 6,
+   "titolo": "Medio Oriente, Africa e America Latina",
+   "inizio_s": 3319.367,
+   "quiz_s": 3561.8
+  },
+  {
+   "n": 7,
+   "titolo": "I nuovi protagonisti in Asia",
+   "inizio_s": 3566.8,
+   "quiz_s": 3739.833
+  },
+  {
+   "n": 8,
+   "titolo": "La globalizzazione",
+   "inizio_s": 3744.833,
+   "quiz_s": 3985.6
+  }
+ ],
+ "quiz": {
+  "Q1": {
+   "title": "Quiz 1 · Il crollo dell'URSS",
+   "items": [
+    {
+     "p": "In che anno crolla l'Unione Sovietica?",
+     "a": "Nel 1991",
+     "w": [
+      "Nel 1979",
+      "Nel 1989",
+      "Nel 2001"
+     ],
+     "e": "Il crollo dell'URSS (1991) chiude l'era della Guerra fredda."
+    },
+    {
+     "p": "Che cosa sostiene Francis Fukuyama con la tesi della «fine della storia»?",
+     "a": "Il trionfo definitivo della democrazia liberale e del mercato",
+     "w": [
+      "Il ritorno del comunismo",
+      "La fine di ogni conflitto",
+      "La vittoria dell'URSS"
+     ],
+     "e": "Fukuyama teorizza il trionfo definitivo della democrazia liberale e dell'economia di mercato a livello globale."
+    },
+    {
+     "p": "Quale presidente guida la Russia nella transizione verso l'economia di mercato?",
+     "a": "Boris Eltsin",
+     "w": [
+      "Michail Gorbaciov",
+      "Vladimir Putin",
+      "Josif Stalin"
+     ],
+     "e": "Sotto la presidenza di Boris Eltsin la Russia affronta il passaggio traumatico a un'economia di mercato."
+    },
+    {
+     "p": "Chi sono gli «oligarchi» russi?",
+     "a": "I potenti capitalisti nati dalle privatizzazioni",
+     "w": [
+      "I vecchi dirigenti del KGB",
+      "I leader dei partiti comunisti stranieri",
+      "I governatori della Cecenia"
+     ],
+     "e": "Dalle privatizzazioni nasce una ristretta e potentissima oligarchia finanziaria."
+    },
+    {
+     "p": "Che cosa fa Putin dal 1999?",
+     "a": "Restaura il controllo statale e affronta la guerra in Cecenia",
+     "w": [
+      "Scioglie lo Stato russo",
+      "Indice un referendum sull'ingresso nella NATO",
+      "Restituisce l'indipendenza alla Cecenia"
+     ],
+     "e": "Nel 1999 Putin assume la guida della Russia, restaurando il controllo statale e affrontando duramente la crisi separatista."
+    }
+   ]
+  },
+  "Q2": {
+   "title": "Quiz 2 · L'egemonia degli Stati Uniti",
+   "items": [
+    {
+     "p": "Quale ruolo assumono gli Stati Uniti dopo il crollo dell'URSS?",
+     "a": "Quello di «poliziotto del mondo», unica superpotenza",
+     "w": [
+      "Quello di potenza neutrale",
+      "Quello di Paese isolazionista",
+      "Quello di alleato dell'URSS"
+     ],
+     "e": "Gli Stati Uniti rimangono l'unica superpotenza mondiale, assumendo il ruolo di «poliziotto del mondo»."
+    },
+    {
+     "p": "Quale presidente americano guida la Guerra del Golfo nel 1991?",
+     "a": "George Bush Senior",
+     "w": [
+      "Bill Clinton",
+      "Ronald Reagan",
+      "Richard Nixon"
+     ],
+     "e": "Nel 1991 la presidenza Bush Senior guida una coalizione internazionale nella Guerra del Golfo."
+    },
+    {
+     "p": "Quale Stato viene invaso dall'Iraq di Saddam Hussein?",
+     "a": "Il Kuwait",
+     "w": [
+      "L'Iran",
+      "L'Arabia Saudita",
+      "Israele"
+     ],
+     "e": "Gli USA guidano la coalizione per respingere l'invasione del Kuwait da parte dell'Iraq."
+    },
+    {
+     "p": "In quale periodo governa Bill Clinton?",
+     "a": "Dal 1993 al 2001",
+     "w": [
+      "Dal 1981 al 1989",
+      "Dal 1989 al 1993",
+      "Dal 2001 al 2009"
+     ],
+     "e": "La presidenza Clinton va dal 1993 al 2001."
+    },
+    {
+     "p": "Che cosa caratterizza la presidenza Clinton?",
+     "a": "Una forte crescita economica interna e la promozione di democrazia e accordi commerciali",
+     "w": [
+      "Una lunga recessione",
+      "Il rifiuto di ogni intervento estero",
+      "La fine dell'economia di mercato"
+     ],
+     "e": "La presidenza Clinton è segnata da forte crescita economica interna e da una politica estera volta a promuovere democrazia e accordi commerciali globali."
+    }
+   ]
+  },
+  "Q3": {
+   "title": "Quiz 3 · Le guerre nella ex Iugoslavia",
+   "items": [
+    {
+     "p": "Che cosa provoca la frantumazione della Iugoslavia?",
+     "a": "La morte di Tito e la fine del comunismo, con il riemergere dei nazionalismi",
+     "w": [
+      "Un'invasione sovietica",
+      "La nascita dell'Unione Europea",
+      "Un referendum voluto da Tito"
+     ],
+     "e": "Con la morte di Tito e la fine del comunismo emergono i nazionalismi storici che portano alla frantumazione."
+    },
+    {
+     "p": "Tra quali anni si combattono le guerre in Iugoslavia della slide?",
+     "a": "Tra il 1991 e il 1995",
+     "w": [
+      "Tra il 1945 e il 1948",
+      "Tra il 1961 e il 1965",
+      "Tra il 2001 e il 2005"
+     ],
+     "e": "Tra il 1991 e il 1995 scoppiano guerre sanguinose."
+    },
+    {
+     "p": "Che cosa è la «pulizia etnica» vista in Bosnia?",
+     "a": "L'eliminazione di una popolazione, con massacri di civili",
+     "w": [
+      "Un programma di sanità pubblica",
+      "Un trattato di pace",
+      "Un'operazione della NATO"
+     ],
+     "e": "In Bosnia Erzegovina si vedono drammatici episodi di «pulizia etnica» e massacri di civili, come a Srebrenica."
+    },
+    {
+     "p": "Quali accordi chiudono la guerra in Bosnia nel 1995?",
+     "a": "Gli accordi di Dayton",
+     "w": [
+      "Gli accordi di Oslo",
+      "Il trattato di Maastricht",
+      "Gli accordi di Helsinki"
+     ],
+     "e": "Gli accordi di pace di Dayton del 1995 pongono fine alla guerra."
+    },
+    {
+     "p": "Che cosa provoca l'intervento della NATO nel 1999?",
+     "a": "La repressione serba contro la maggioranza albanese del Kosovo",
+     "w": [
+      "L'invasione del Kuwait",
+      "Il crollo dell'URSS",
+      "La riunificazione tedesca"
+     ],
+     "e": "Nel 1999 la repressione serba contro la maggioranza albanese in Kosovo provoca l'intervento militare della NATO."
+    }
+   ]
+  },
+  "Q4": {
+   "title": "Quiz 4 · L'Europa negli anni Novanta",
+   "items": [
+    {
+     "p": "Che cosa accade alla Germania nel 1990?",
+     "a": "Si riunifica dopo la caduta del muro di Berlino",
+     "w": [
+      "Si divide in tre Stati",
+      "Entra nel Patto di Varsavia",
+      "Esce dall'Europa"
+     ],
+     "e": "Nel 1990 la Germania si riunifica, affrontando alti costi economici per integrare le regioni orientali."
+    },
+    {
+     "p": "Che cosa nasce nel 1992 con il trattato di Maastricht?",
+     "a": "L'Unione Europea",
+     "w": [
+      "La NATO",
+      "L'ONU",
+      "La CECA"
+     ],
+     "e": "Nel 1992 nasce ufficialmente l'UE, ponendo le basi per la moneta unica."
+    },
+    {
+     "p": "Quale moneta prepara il trattato di Maastricht?",
+     "a": "L'euro",
+     "w": [
+      "Il dollaro europeo",
+      "Il marco comune",
+      "Il franco unico"
+     ],
+     "e": "Il trattato pone le basi per la moneta unica, l'euro."
+    },
+    {
+     "p": "Chi vince le elezioni nel Regno Unito con la linea della «Terza via»?",
+     "a": "Il laburista Tony Blair",
+     "w": [
+      "Il conservatore John Major",
+      "Margaret Thatcher",
+      "Il socialista Mitterrand"
+     ],
+     "e": "Dopo Thatcher e Major vince il laburista Tony Blair con la linea della «Terza via»."
+    },
+    {
+     "p": "Che cosa significa «allargamento a Est» dell'Unione Europea?",
+     "a": "L'integrazione dei Paesi dell'ex blocco sovietico",
+     "w": [
+      "L'uscita dei Paesi dell'Est",
+      "La divisione dell'Europa",
+      "L'ingresso della Russia"
+     ],
+     "e": "L'Unione avvia i processi di integrazione per accogliere i Paesi dell'ex blocco sovietico dell'Europa centrale e orientale."
+    }
+   ]
+  },
+  "Q5": {
+   "title": "Quiz 5 · L'Italia nella Seconda Repubblica",
+   "items": [
+    {
+     "p": "Che cosa provocano le inchieste di «Mani pulite»?",
+     "a": "Il crollo dei partiti storici, come DC e PSI",
+     "w": [
+      "La nascita della Repubblica",
+      "L'ingresso nella NATO",
+      "La fine dell'euro"
+     ],
+     "e": "Le inchieste contro la corruzione provocano il crollo dei partiti storici (Democrazia Cristiana, PSI)."
+    },
+    {
+     "p": "Intorno a quali schieramenti si riorganizza il sistema politico?",
+     "a": "Il centro-destra e il centro-sinistra",
+     "w": [
+      "Monarchici e repubblicani",
+      "Fascisti e comunisti",
+      "Un partito unico"
+     ],
+     "e": "Il sistema si riorganizza intorno a due grandi coalizioni alternative: il centro-destra e il centro-sinistra."
+    },
+    {
+     "p": "In che anno Silvio Berlusconi entra in politica?",
+     "a": "Nel 1994",
+     "w": [
+      "Nel 1948",
+      "Nel 1968",
+      "Nel 2008"
+     ],
+     "e": "Nel 1994 l'imprenditore televisivo entra in politica con il nuovo partito Forza Italia, vincendo le elezioni."
+    },
+    {
+     "p": "Quale partito fonda Berlusconi?",
+     "a": "Forza Italia",
+     "w": [
+      "Alleanza Nazionale",
+      "Democrazia Cristiana",
+      "Partito d'Azione"
+     ],
+     "e": "Berlusconi fonda Forza Italia."
+    },
+    {
+     "p": "Quali sfide affronta l'Italia negli anni Novanta?",
+     "a": "Instabilità politica, debito pubblico e primi grandi flussi migratori",
+     "w": [
+      "Il ritorno della monarchia",
+      "L'uscita dall'Europa",
+      "La fine dell'inflazione in tutto il mondo"
+     ],
+     "e": "L'Italia affronta forte instabilità, l'esigenza di risanare il debito (governi Prodi) e l'inizio dei grandi flussi migratori."
+    }
+   ]
+  },
+  "Q6": {
+   "title": "Quiz 6 · Medio Oriente, Africa e America Latina",
+   "items": [
+    {
+     "p": "Che cosa accendono gli accordi di Oslo del 1993?",
+     "a": "La speranza di pace tra israeliani e palestinesi",
+     "w": [
+      "La guerra del Golfo",
+      "La nascita dell'euro",
+      "La fine dell'apartheid"
+     ],
+     "e": "Gli accordi di Oslo accendono la speranza di pace con la nascita dell'Autorità Nazionale Palestinese."
+    },
+    {
+     "p": "Chi offre protezione ad Al-Qaeda in Afghanistan?",
+     "a": "Il regime dei Talebani",
+     "w": [
+      "Il governo sovietico",
+      "L'Autorità Nazionale Palestinese",
+      "La NATO"
+     ],
+     "e": "In Afghanistan il regime teocratico dei Talebani offre protezione ad Al-Qaeda, fondata da Osama bin Laden."
+    },
+    {
+     "p": "Quale tragedia colpisce il Ruanda nel 1994?",
+     "a": "Un genocidio",
+     "w": [
+      "Una guerra col Kuwait",
+      "Una crisi finanziaria asiatica",
+      "Una riunificazione"
+     ],
+     "e": "Il continente africano è devastato da guerre civili, tra cui il genocidio in Ruanda del 1994."
+    },
+    {
+     "p": "Che cosa accade in Sudafrica nel 1994?",
+     "a": "Si tengono le prime elezioni libere e Mandela è eletto presidente",
+     "w": [
+      "Nasce la dittatura militare",
+      "Inizia l'apartheid",
+      "Si riunifica la Germania"
+     ],
+     "e": "Nel 1994 Nelson Mandela viene eletto presidente, ponendo fine alla segregazione razziale."
+    },
+    {
+     "p": "Che cosa caratterizza l'America Latina negli anni Novanta?",
+     "a": "Il consolidarsi del ritorno alla democrazia, con crisi economiche e disuguaglianze",
+     "w": [
+      "Il ritorno di dittature militari ovunque",
+      "Un boom senza problemi",
+      "L'ingresso nell'Unione Europea"
+     ],
+     "e": "Si consolida il ritorno alla democrazia in Cile, Argentina e Brasile, con pesanti crisi economiche e forti disuguaglianze."
+    }
+   ]
+  },
+  "Q7": {
+   "title": "Quiz 7 · I nuovi protagonisti in Asia",
+   "items": [
+    {
+     "p": "Che cosa caratterizza la Cina dopo piazza Tienanmen (1989)?",
+     "a": "Controllo politico autoritario e apertura all'economia di mercato",
+     "w": [
+      "Un governo democratico",
+      "Un regime comunista chiuso all'economia",
+      "L'ingresso nell'Unione Europea"
+     ],
+     "e": "Pechino mantiene un rigido controllo politico autoritario, ma avvia una straordinaria apertura all'economia di mercato."
+    },
+    {
+     "p": "Quali Paesi fanno parte delle «Tigri asiatiche»?",
+     "a": "Corea del Sud, Taiwan, Singapore e Hong Kong",
+     "w": [
+      "Cile, Brasile e Argentina",
+      "Ruanda e Somalia",
+      "Francia e Germania"
+     ],
+     "e": "Corea del Sud, Taiwan, Singapore e Hong Kong registrano un boom industriale e tecnologico."
+    },
+    {
+     "p": "Che cosa interrompe temporaneamente il boom delle Tigri asiatiche?",
+     "a": "Una grave crisi finanziaria nel 1997",
+     "w": [
+      "La guerra del Golfo",
+      "La riunificazione tedesca",
+      "La nascita dell'euro"
+     ],
+     "e": "Il boom è interrotto da una grave crisi finanziaria nel 1997."
+    },
+    {
+     "p": "Come si presenta il Giappone negli anni Novanta?",
+     "a": "In stagnazione economica e con instabilità politica",
+     "w": [
+      "In grande boom",
+      "In guerra civile",
+      "In ricostruzione postbellica"
+     ],
+     "e": "Il Giappone entra negli anni Novanta in una fase di stagnazione economica e instabilità politica."
+    },
+    {
+     "p": "In quale settore l'India diventa un centro mondiale?",
+     "a": "Nell'industria del software",
+     "w": [
+      "Nel petrolio",
+      "Nella siderurgia",
+      "Nell'industria automobilistica"
+     ],
+     "e": "L'India avvia riforme di liberalizzazione economica e diventa un centro mondiale per l'industria del software."
+    }
+   ]
+  },
+  "Q8": {
+   "title": "Quiz 8 · La globalizzazione",
+   "items": [
+    {
+     "p": "Che cosa unifica la globalizzazione economica?",
+     "a": "I mercati mondiali, con la libera circolazione di merci, capitali e servizi",
+     "w": [
+      "Le monete in un'unica valuta",
+      "Gli eserciti nazionali",
+      "Le lingue del mondo"
+     ],
+     "e": "La globalizzazione unifica i mercati mondiali, guidata dalle aziende multinazionali."
+    },
+    {
+     "p": "Quali innovazioni cambiano il modo di comunicare e lavorare?",
+     "a": "I personal computer e Internet",
+     "w": [
+      "La radio e il telegrafo",
+      "La televisione a colori",
+      "Il fax e la macchina da scrivere"
+     ],
+     "e": "La diffusione dei personal computer e la nascita di Internet cambiano il modo di comunicare, lavorare e accedere alle informazioni."
+    },
+    {
+     "p": "Che cosa criticano i movimenti No-Global?",
+     "a": "Gli effetti della globalizzazione, accusata di aumentare le disuguaglianze",
+     "w": [
+      "La fine della Guerra fredda",
+      "La nascita dell'euro",
+      "L'esistenza dell'ONU"
+     ],
+     "e": "I movimenti No-Global criticano la globalizzazione, accusata di aumentare le disuguaglianze tra Paesi ricchi e poveri."
+    },
+    {
+     "p": "Dove si tengono i tumulti No-Global del 1999?",
+     "a": "A Seattle",
+     "w": [
+      "A Mosca",
+      "A Pechino",
+      "A Johannesburg"
+     ],
+     "e": "I tumulti di Seattle del 1999 sono tra le proteste No-Global."
+    },
+    {
+     "p": "A quanto arriva la popolazione mondiale a fine secolo?",
+     "a": "A oltre 6 miliardi di persone",
+     "w": [
+      "A 2 miliardi",
+      "A 3 miliardi",
+      "A oltre 12 miliardi"
+     ],
+     "e": "La crescita demografica supera i 6 miliardi a fine secolo."
+    }
+   ]
+  }
+ }
+}
