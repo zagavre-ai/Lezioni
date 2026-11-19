@@ -1,0 +1,26 @@
+{
+ "titolo": "Compiti · Storia V · Lezione 8",
+ "stato": "compiti del prof. Mazzotti (file «LEZIONE 8.pdf», release mazzotti-storia-V, 14/11), testo invariato (nel PDF la quarta domanda è numerata «3» per errore: qui n. 4)",
+ "compiti": [
+  {
+   "n": 1,
+   "tipo": "risposta_aperta",
+   "testo": "Analizza le principali difficoltà economiche e sociali dell'Italia nel primo dopoguerra, soffermandoti sulle proteste del Biennio Rosso, sulle rivendicazioni contadine e operaie e sugli esiti politici delle elezioni del 1919."
+  },
+  {
+   "n": 2,
+   "tipo": "risposta_aperta",
+   "testo": "Spiega l'origine e il significato del mito della \"vittoria mutilata\", ricostruendo l'impresa di Fiume guidata da Gabriele d'Annunzio e la successiva soluzione diplomatica e militare attuata dal governo Giolitti con il Trattato di Rapallo."
+  },
+  {
+   "n": 3,
+   "tipo": "risposta_aperta",
+   "testo": "Descrivi la nascita dei Fasci di combattimento e le caratteristiche dello squadrismo agrario, illustrando l'atteggiamento delle istituzioni dello Stato, la strategia elettorale dei Blocchi Nazionali nel 1921 e gli eventi della Marcia su Roma."
+  },
+  {
+   "n": 4,
+   "tipo": "risposta_aperta",
+   "testo": "Ricostruisci le tappe della svolta autoritaria del primo governo Mussolini fino all'instaurazione della dittatura, analizzando il ruolo del Gran consiglio del fascismo, la creazione della MVSN, la Legge Acerbo, la crisi del delitto Matteotti e il discorso del 3 gennaio 1925."
+  }
+ ]
+}
