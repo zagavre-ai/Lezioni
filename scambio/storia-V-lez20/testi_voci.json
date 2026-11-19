@@ -113,5 +113,270 @@
   "nome": "FIN1",
   "testo": "Per oggi è tutto. Ripassa gli argomenti, rifai i quiz e metti alla prova quello che hai imparato con la verifica finale.",
   "lingua": "it"
+ },
+ {
+  "nome": "PI1",
+  "testo": "Facciamo un riepilogo di quello che hai appena visto: il crollo dell'URSS. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS1_1",
+  "testo": "La fine del bipolarismo: nel millenovecentonovantuno crolla l'Unione Sovietica e finisce la Guerra fredda.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS1_2",
+  "testo": "La tesi della fine della storia: Francis Fukuyama teorizza il trionfo della democrazia liberale e del mercato.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS1_3",
+  "testo": "La transizione russa, con Boris Eltsin: forte inflazione, impoverimento e la nascita degli oligarchi.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS1_4",
+  "testo": "L'ascesa di Putin, nel millenovecentonovantanove: restaura il controllo statale e affronta la guerra in Cecenia.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PI2",
+  "testo": "Ripassiamo insieme l'egemonia degli Stati Uniti. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS2_1",
+  "testo": "Un mondo unipolare: gli Stati Uniti sono l'unica superpotenza e fanno da poliziotto del mondo.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS2_2",
+  "testo": "Con Bush Senior, nel millenovecentonovantuno, gli Stati Uniti guidano la coalizione della Guerra del Golfo contro l'Iraq di Saddam Hussein.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS2_3",
+  "testo": "Con Clinton, tra il millenovecentonovantatré e il duemilauno, forte crescita economica e accordi commerciali globali.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PI3",
+  "testo": "Facciamo un riepilogo delle guerre nella ex Iugoslavia. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS3_1",
+  "testo": "Dopo la morte di Tito e la fine del comunismo, riemergono i nazionalismi e la Iugoslavia si frantuma.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS3_2",
+  "testo": "Tra il millenovecentonovantuno e il millenovecentonovantacinque, le guerre: in Bosnia la pulizia etnica e il massacro di Srebrenica.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS3_3",
+  "testo": "Nel millenovecentonovantanove, in Kosovo, la repressione serba porta all'intervento della NATO e ai bombardamenti sulla Serbia.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PI4",
+  "testo": "Ripassiamo insieme l'Europa negli anni Novanta. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS4_1",
+  "testo": "La riunificazione tedesca, nel millenovecentonovanta, con alti costi per integrare le regioni dell'Est.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS4_2",
+  "testo": "Con il trattato di Maastricht, nel millenovecentonovantadue, nasce l'Unione Europea e si preparano la moneta unica.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS4_3",
+  "testo": "In Francia si alternano Mitterrand e Chirac. Nel Regno Unito, dopo Thatcher e Major, vince il laburista Tony Blair con la Terza via.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS4_4",
+  "testo": "L'allargamento a Est: l'Unione Europea si prepara ad accogliere i Paesi dell'ex blocco sovietico.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PI5",
+  "testo": "Facciamo un riepilogo dell'Italia nella Seconda Repubblica. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS5_1",
+  "testo": "Le inchieste di Mani pulite contro la corruzione fanno crollare i partiti storici, la Democrazia Cristiana e il PSI.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS5_2",
+  "testo": "Nasce il bipolarismo: due grandi coalizioni alternative, il centrodestra e il centrosinistra.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS5_3",
+  "testo": "Nel millenovecentonovantaquattro Silvio Berlusconi entra in politica con Forza Italia, con uno stile comunicativo inedito.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS5_4",
+  "testo": "Le sfide dei governi: instabilità politica, risanare il debito pubblico con i governi Prodi e l'inizio dei grandi flussi migratori.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PI6",
+  "testo": "Ripassiamo insieme Medio Oriente, Africa e America Latina. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS6_1",
+  "testo": "Gli accordi di Oslo, nel millenovecentonovantatré, portano la speranza di pace tra israeliani e palestinesi.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS6_2",
+  "testo": "In Afghanistan i Talebani proteggono Al-Qaeda, la rete di Osama bin Laden.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS6_3",
+  "testo": "In Africa guerre civili e drammi umanitari, come il genocidio in Ruanda del millenovecentonovantaquattro.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS6_4",
+  "testo": "Nel millenovecentonovantaquattro Nelson Mandela è eletto presidente del Sudafrica: finisce l'Apartheid.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS6_5",
+  "testo": "In America Latina torna la democrazia, ma restano crisi economiche e forti disuguaglianze.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PI7",
+  "testo": "Facciamo un riepilogo dei nuovi protagonisti in Asia. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS7_1",
+  "testo": "La Cina, dopo Tienanmen, mantiene il controllo politico ma apre al mercato: il capitalismo senza democrazia.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS7_2",
+  "testo": "Le Tigri asiatiche vivono un boom industriale, interrotto dalla crisi finanziaria del millenovecentonovantasette.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS7_3",
+  "testo": "Il Giappone entra negli anni Novanta in una fase di stagnazione economica.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS7_4",
+  "testo": "L'India avvia le riforme e diventa un centro mondiale del software.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PI8",
+  "testo": "Facciamo un riepilogo della globalizzazione. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS8_1",
+  "testo": "Un mondo interconnesso: merci, capitali e servizi circolano liberamente, guidati dalle multinazionali.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS8_2",
+  "testo": "La rivoluzione informatica: personal computer e Internet cambiano il modo di comunicare e lavorare.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS8_3",
+  "testo": "I movimenti No-Global: le proteste di Seattle, nel millenovecentonovantanove, contro le disuguaglianze.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS8_4",
+  "testo": "Le sfide globali: crescita demografica, migrazioni e i primi allarmi ambientali.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP1_0",
+  "testo": "Ecco la mappa del professore: che cosa accade in Iugoslavia dopo la fine dell'URSS? Al centro c'è la Iugoslavia.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP1_1",
+  "testo": "L'indipendenza di alcuni Stati causa guerre civili.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP1_2",
+  "testo": "Le guerre civili scoppiano in Croazia nel millenovecentonovantuno, in Bosnia-Erzegovina nel millenovecentonovantadue e in Kosovo nel millenovecentonovantotto.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP2_0",
+  "testo": "Ecco la mappa del professore: come si evolve la Comunità economica europea negli anni Novanta? Al centro c'è l'Europa, con il trattato di Maastricht del millenovecentonovantadue.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP2_1",
+  "testo": "Il trattato crea l'Unione europea, che ha carattere politico oltre che economico.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP2_2",
+  "testo": "E introduce controlli sui bilanci degli Stati, per dare vita alla moneta unica europea.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP3_0",
+  "testo": "Ecco la mappa del professore: quali sono le vicende politiche italiane negli anni Novanta? Al centro c'è l'Italia, con la legge elettorale maggioritaria.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP3_1",
+  "testo": "La legge introduce il bipolarismo.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP3_2",
+  "testo": "Con la vittoria del centrodestra nel millenovecentonovantaquattro, guidato da Silvio Berlusconi.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP3_3",
+  "testo": "E con la vittoria del centrosinistra nel millenovecentonovantasei, guidato da Romano Prodi.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP4_0",
+  "testo": "Ecco la mappa del professore: che cos'è la globalizzazione e quali nuove potenze economiche si affermano? Al centro c'è la globalizzazione.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP4_1",
+  "testo": "Ha per protagoniste le aziende multinazionali, che delocalizzano la produzione.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP4_2",
+  "testo": "È accelerata dall'integrazione dei mercati e della finanza, favorita dalle tecnologie informatiche e telematiche.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP4_3",
+  "testo": "E favorisce l'industrializzazione di nuovi paesi, come la Cina.",
+  "lingua": "it"
  }
 ]
