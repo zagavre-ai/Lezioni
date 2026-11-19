@@ -1,0 +1,32 @@
+{
+ "materia": "Storia V",
+ "docente": "Prof. Giorgio Mazzotti",
+ "titolo": "Il 1917",
+ "rami": [
+  {
+   "concetto": "Russia fuori dalla guerra",
+   "parola": "Brest-Litovsk",
+   "esempio": "pace con gli Imperi centrali"
+  },
+  {
+   "concetto": "Stati Uniti in guerra",
+   "parola": "aprile",
+   "esempio": "a fianco dell'Intesa"
+  },
+  {
+   "concetto": "Caporetto",
+   "parola": "disfatta",
+   "esempio": "crollo delle linee italiane"
+  },
+  {
+   "concetto": "Resistenza sul Piave",
+   "parola": "Grappa",
+   "esempio": "nuova linea difensiva"
+  },
+  {
+   "concetto": "Svolta di Diaz",
+   "parola": "Cadorna",
+   "esempio": "migliori condizioni dei soldati"
+  }
+ ]
+}

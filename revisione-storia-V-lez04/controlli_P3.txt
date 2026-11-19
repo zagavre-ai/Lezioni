@@ -1,8 +1,8 @@
-[misurato] durata 44:19.9 (2659.9 s) | fotogrammi 79796 (attesi 79796) | peso 333.2 MB | 1920x1080 30/1
+[misurato] durata 44:19.9 (2659.9 s) | fotogrammi 79796 (attesi 79796) | peso 363.9 MB | 1920x1080 30/1
 [misurato] audio aac 48000 Hz, durata audio 2659.87 s (video 2659.87 s)
-[misurato] sha256 a02cc1e284f3a4bb1d6010cd47c679893c7789dbe6ef64fc88b0ee550d8aceea
+[misurato] sha256 890148dde65d0b0089fc25547b15d5da689ef1027b22212dd8694df6810398a8
 [misurato] LUFS integrato -16.0 | picco vero -1.6 dBTP
-[misurato] LUFS parlato del prof, campione su 4 pezzi: [-15.2, -15.7, -15.4, -16.0]
+[misurato] LUFS parlato del prof, campione su 4 pezzi: [-15.3, -15.7, -15.6, -16.2]
 [misurato] silenzi > 3 s (-55 dB): 0 []
 [misurato] fermi del riquadro del prof >= 1 s dentro i pezzi del prof: 0 []
 [misurato] jingle quiz 7: atteso 875.233 trovato 875.233 scarto +0.000 OK
@@ -11,40 +11,48 @@
 [misurato] jingle quiz 10: atteso 2195.167 trovato 2195.167 scarto -0.000 OK
 [misurato] jingle quiz 11: atteso 2598.267 trovato 2598.267 scarto -0.000 OK
 
-| pezzo | presente | minuto di inizio | durata misurata (s) |
-|---|---|---|---|
-| sigla | sì | 0:00.0 | 15.0 |
-| cover | sì | 0:14.6 | 25.6 |
-| titolo7 | sì | 0:39.8 | 4.0 |
-| prof7 | sì | 0:43.4 | 755.9 |
-| mappa6 | sì | 13:18.9 | 24.2 |
-| pillola7 | sì | 13:42.7 | 11.1 |
-| schema7 | sì | 13:53.4 | 41.7 |
-| quiz7 | sì | 14:34.7 | 5.0 |
-| titolo8 | sì | 14:39.3 | 4.0 |
-| prof8 | sì | 14:42.9 | 581.7 |
-| mappa8 | sì | 24:24.2 | 26.2 |
-| pillola8 | sì | 24:50.0 | 11.8 |
-| schema8 | sì | 25:01.4 | 33.7 |
-| quiz8 | sì | 25:34.7 | 5.0 |
-| titolo9 | sì | 25:39.3 | 4.0 |
-| prof9 | sì | 25:42.9 | 399.0 |
-| mappa9 | sì | 32:21.5 | 23.7 |
-| pillola9 | sì | 32:44.9 | 11.5 |
-| schema9 | sì | 32:56.0 | 35.9 |
-| quiz9 | sì | 33:31.5 | 5.0 |
-| titolo10 | sì | 33:36.1 | 4.0 |
-| prof10 | sì | 33:39.7 | 94.5 |
-| mappa11 | sì | 35:13.8 | 25.3 |
-| pillola10 | sì | 35:38.7 | 12.3 |
-| schema10 | sì | 35:50.6 | 44.5 |
-| quiz10 | sì | 36:34.7 | 5.0 |
-| titolo11 | sì | 36:39.3 | 4.0 |
-| prof11 | sì | 36:42.9 | 319.3 |
-| mappa10 | sì | 42:01.8 | 19.7 |
-| pillola11 | sì | 42:21.1 | 13.7 |
-| schema11 | sì | 42:34.4 | 43.7 |
-| quiz11 | sì | 43:17.8 | 5.0 |
-| glossario | sì | 43:22.4 | 33.8 |
-| riepilogo | sì | 43:55.8 | 19.5 |
-| finale | sì | 44:14.9 | 5.0 |
+## Slide ferme (misurato dal piano di montaggio dei pezzi, confermato dai fotogrammi ogni 30 s)
+| prof7 | slide diverse 11 | slide ferma piu' lunga 150 s (2.5 min) | cards 6 |
+| prof8 | slide diverse 4 | slide ferma piu' lunga 152 s (2.5 min) | img 18 |
+| prof9 | slide diverse 3 | slide ferma piu' lunga 150 s (2.5 min) | cards 9 |
+| prof10 | slide diverse 2 | slide ferma piu' lunga 80 s (1.3 min) | img 24 |
+| prof11 | slide diverse 3 | slide ferma piu' lunga 150 s (2.5 min) | cards 10 |
+[misurato] Parte 3: slide ferma piu' lunga 152 s = 2.52 minuti (limite 3 minuti)
+
+| pezzo | minuto di inizio | durata (s) |
+|---|---|---|
+| sigla | 0:00.0 | 15.0 |
+| cover | 0:14.6 | 25.6 |
+| titolo7 | 0:39.8 | 4.0 |
+| prof7 | 0:43.4 | 755.9 |
+| mappa6 | 13:18.9 | 24.2 |
+| pillola7 | 13:42.7 | 11.1 |
+| schema7 | 13:53.4 | 41.7 |
+| quiz7 | 14:34.7 | 5.0 |
+| titolo8 | 14:39.3 | 4.0 |
+| prof8 | 14:42.9 | 581.7 |
+| mappa8 | 24:24.2 | 26.2 |
+| pillola8 | 24:50.0 | 11.8 |
+| schema8 | 25:01.4 | 33.7 |
+| quiz8 | 25:34.7 | 5.0 |
+| titolo9 | 25:39.3 | 4.0 |
+| prof9 | 25:42.9 | 399.0 |
+| mappa9 | 32:21.5 | 23.7 |
+| pillola9 | 32:44.9 | 11.5 |
+| schema9 | 32:56.0 | 35.9 |
+| quiz9 | 33:31.5 | 5.0 |
+| titolo10 | 33:36.1 | 4.0 |
+| prof10 | 33:39.7 | 94.5 |
+| mappa11 | 35:13.8 | 25.3 |
+| pillola10 | 35:38.7 | 12.3 |
+| schema10 | 35:50.6 | 44.5 |
+| quiz10 | 36:34.7 | 5.0 |
+| titolo11 | 36:39.3 | 4.0 |
+| prof11 | 36:42.9 | 319.3 |
+| mappa10 | 42:01.8 | 19.7 |
+| pillola11 | 42:21.1 | 13.7 |
+| schema11 | 42:34.4 | 43.7 |
+| quiz11 | 43:17.8 | 5.0 |
+| glossario | 43:22.4 | 33.8 |
+| riepilogo | 43:55.8 | 19.5 |
+| finale | 44:14.9 | 5.0 |

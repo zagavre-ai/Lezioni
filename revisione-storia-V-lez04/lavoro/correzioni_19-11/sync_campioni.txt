@@ -1,0 +1,39 @@
+== sync P1
+| minuto video | argomento | card accesa | inizio frase del prof (sorgente) | prima parola della frase | scarto |
+|---|---|---|---|---|---|
+| 4:33.1 | 1 | 1. Nazionalismi e tensioni internazionali | 236.4 s: «L'Europa era caratterizzata.» |  L | -0.1 s |
+| 6:43.3 | 1 | 1. Nazionalismi e tensioni internazionali | 359.6 s: «L'oceano Atlantico, tutta il più. La seconda guerra mondiale sarà una » |  L | +6.8 s |
+| 7:15.7 | 1 | 2. La politica dei blocchi contrapposti | 399.0 s: «Ma soprattutto la polarizzazione» |  Ma | -0.2 s |
+| 9:24.6 | 1 | 3. L'aggressività e l'espansionismo tedesco | 530.8 s: «e Gran Bretagna e tra Germania e Francia.» |  e | -0.1 s |
+| 9:42.9 | 1 | 5. Il revanchismo francese | 549.1 s: «La Francia era animata poi da un radicato spirito di rivalsa.» |  La | -0.1 s |
+| 12:12.9 | 1 | 4. La rivalità navale anglo-tedesca | 696.7 s: «Ecco, insomma, e anche d'Asia.» |  E | +2.3 s |
+| 14:04.9 | 2 | 1. Le crisi marocchine (1905 e 1911) | 725.5 s: «Comprendere ancora di più, ma già l'avete capito, tutto il contesto at» |  Com | -0.2 s |
+| 18:33.9 | 2 | 2. L'indebolimento dell'Impero ottomano | 994.4 s: «Questo equilibrio già precario venne ulteriormente incrinato dalla cri» |  Qu | -0.1 s |
+| 22:41.1 | 2 | 4. Le guerre balcaniche (1912-1913) | 1243.1 s: «lo scoppio della guerra.» |  lo | -0.0 s |
+| 27:42.1 | 3 | 1. L'attentato di Sarajevo | 1444.6 s: «Voleva fare semplicemente questa operazione, che mirava a liberare i p» |  V | +9.1 s |
+== sync P2
+| minuto video | argomento | card accesa | inizio frase del prof (sorgente) | prima parola della frase | scarto |
+|---|---|---|---|---|---|
+| 2:50.6 | 4 | 1. Il fallimento della guerra di movimento | 2425.1 s: «e dall'altra parte la Serbia nel frattempo è conquistata praticamente » |  e | -0.1 s |
+| 3:07.1 | 4 | 1. Il fallimento della guerra di movimento | 2430.3 s: «Le pianificazioni strategiche della vigilia prevedevano una guerra di » |  Le | +11.2 s |
+| 11:46.4 | 5 | 1. La dichiarazione di neutralità | 2864.3 s: «Bene, allora, nell'agosto del 1914, quando ormai la guerra in Europa è» |  B | -0.1 s |
+| 16:13.1 | 5 | 3. Le motivazioni degli interventisti | 3126.9 s: «I democratici, una parte dei democratici, interventisti che considerav» |  I | +3.9 s |
+| 18:43.1 | 5 | 3. Le motivazioni degli interventisti | 3277.3 s: «Abbandonerà alcune parti del socialismo rivoluzionario, ma porterà que» |  A | +3.6 s |
+| 22:30.5 | 5 | 5. L'entrata in guerra | 3508.4 s: «Ma il re rifiuta le dimissioni e reincarica di nuovo, o meglio, le acc» |  Ma | -0.2 s |
+| 26:23.9 | 7 | 1. La mobilitazione economica dello Stato | 3655.4 s: «assumendo i caratteri di una guerra totale e globale.» |  ass | -0.2 s |
+| 30:47.7 | 7 | 2. La nascita del "fronte interno" | 3912.7 s: «L'attività dei parlamenti fu ridotta al minimo, provocando un forte ac» |  L | +6.4 s |
+| 32:14.8 | 7 | 3. Il nuovo ruolo sociale delle donne | 4006.3 s: «Un aspetto centrale di questa trasformazione sociale fu la mobilitazio» |  Un | -0.1 s |
+| 33:17.7 | 7 | 3. Il nuovo ruolo sociale delle donne | 4069.1 s: «molte di queste.» |  mol | -0.1 s |
+== sync P3
+| minuto video | argomento | card accesa | inizio frase del prof (sorgente) | prima parola della frase | scarto |
+|---|---|---|---|---|---|
+| 2:40.4 | 6 | 1. Il fronte italiano e la strategia di Cad | 4210.5 s: «che il combattimento prevede.» |  che | -0.3 s |
+| 4:03.1 | 6 | 2. La Strafexpedition (1916) | 4293.2 s: «Nella primavera dello stesso anno lo schieramento italiano fu colto di» |  N | -0.1 s |
+| 4:51.0 | 6 | 3. Il massacro di Verdun | 4341.2 s: «Il 1916 fu l'anno delle Immani carneficine di Verdun.» |  Il | -0.2 s |
+| 5:18.6 | 6 | 4. La risposta sulla Somme | 4368.7 s: «ma senza grandi successi» |  ma | -0.8 s |
+| 10:22.6 | 6 | 5. L'autoritarismo e la disciplina militare | 4673.1 s: «Anche per questo motivo, o meglio, proprio in questo contesto di disgr» |  An | -0.9 s |
+| 14:43.1 | 8 | 1. La rivoluzione in Russia | 4850.1 s: «Va bene, arriviamo quindi, grosso modo, alle conclusioni. Siamo al 191» |  Va | -0.1 s |
+| 19:42.9 | 8 | 2. L'intervento degli Stati Uniti | 5143.1 s: «Del partito democratico, quindi progressista, diciamo così, liberal de» |  D | +6.7 s |
+| 27:10.3 | 9 | 2. Il contrattacco dell'Intesa ad Amiens | 5519.4 s: «Per non dire quattro, ma l'offensiva, di nuovo, fu definitivamente arr» |  Per | -0.1 s |
+| 30:04.5 | 9 | 5. La fine dell'epoca dei grandi imperi | 5693.6 s: «E l'impero sburgico andò rapidamente in frantumi, più che altro, ha pe» |  E | -0.1 s |
+| 37:52.7 | 10 | 1. I Quattordici punti di Wilson | 5995.1 s: «diciamo così, l'interesse statunitense.» |  di | -0.2 s |

@@ -1,36 +1,42 @@
-[misurato] durata 35:46.3 (2146.3 s) | fotogrammi 64390 (attesi 64390) | peso 265.8 MB | 1920x1080 30/1
+[misurato] durata 35:46.3 (2146.3 s) | fotogrammi 64390 (attesi 64390) | peso 289.7 MB | 1920x1080 30/1
 [misurato] audio aac 48000 Hz, durata audio 2146.33 s (video 2146.33 s)
-[misurato] sha256 597e8af83fe8d67be1a0283e4bc931261148703ce6c1efdffaf8d545db112e07
+[misurato] sha256 413d5878184f440517a81e4a8f844b950e587a88553daf467429d3a2414dfdae
 [misurato] LUFS integrato -16.0 | picco vero -1.7 dBTP
-[misurato] LUFS parlato del prof, campione su 3 pezzi: [-16.0, -14.3, -16.2]
+[misurato] LUFS parlato del prof, campione su 3 pezzi: [-16.0, -14.4, -16.1]
 [misurato] silenzi > 3 s (-55 dB): 0 []
 [misurato] fermi del riquadro del prof >= 1 s dentro i pezzi del prof: 0 []
 [misurato] jingle quiz 4: atteso 665.433 trovato 665.433 scarto +0.000 OK
 [misurato] jingle quiz 5: atteso 1539.967 trovato 1539.967 scarto -0.000 OK
 [misurato] jingle quiz 6: atteso 2100.133 trovato 2100.133 scarto +0.000 OK
 
-| pezzo | presente | minuto di inizio | durata misurata (s) |
-|---|---|---|---|
-| sigla | sì | 0:00.0 | 15.0 |
-| cover | sì | 0:14.6 | 19.3 |
-| titolo4 | sì | 0:33.5 | 4.0 |
-| prof4 | sì | 0:37.1 | 539.0 |
-| mappa4 | sì | 9:35.7 | 32.4 |
-| pillola4 | sì | 10:07.7 | 11.6 |
-| schema4 | sì | 10:19.0 | 46.4 |
-| quiz4 | sì | 11:04.9 | 5.0 |
-| titolo5 | sì | 11:09.5 | 4.0 |
-| prof5 | sì | 11:13.1 | 788.3 |
-| mappa5 | sì | 24:21.0 | 23.6 |
-| pillola5 | sì | 24:44.2 | 11.9 |
-| schema5 | sì | 24:55.7 | 44.1 |
-| quiz5 | sì | 25:39.5 | 5.0 |
-| titolo6 | sì | 25:44.1 | 4.0 |
-| prof6 | sì | 25:47.7 | 474.7 |
-| mappa7 | sì | 33:41.9 | 30.0 |
-| pillola6 | sì | 34:11.6 | 10.6 |
-| schema6 | sì | 34:21.7 | 38.3 |
-| quiz6 | sì | 34:59.6 | 5.0 |
-| glossario | sì | 35:04.2 | 23.6 |
-| riepilogo | sì | 35:27.4 | 14.3 |
-| finale | sì | 35:41.3 | 5.0 |
+## Slide ferme (misurato dal piano di montaggio dei pezzi, confermato dai fotogrammi ogni 30 s)
+| prof4 | slide diverse 5 | slide ferma piu' lunga 150 s (2.5 min) | cards 4 |
+| prof5 | slide diverse 7 | slide ferma piu' lunga 150 s (2.5 min) | cards 5 |
+| prof6 | slide diverse 4 | slide ferma piu' lunga 150 s (2.5 min) | cards 7 |
+[misurato] Parte 2: slide ferma piu' lunga 150 s = 2.50 minuti (limite 3 minuti)
+
+| pezzo | minuto di inizio | durata (s) |
+|---|---|---|
+| sigla | 0:00.0 | 15.0 |
+| cover | 0:14.6 | 25.6 |
+| titolo4 | 0:33.5 | 4.0 |
+| prof4 | 0:37.1 | 539.0 |
+| mappa4 | 9:35.7 | 32.4 |
+| pillola4 | 10:07.7 | 11.6 |
+| schema4 | 10:19.0 | 46.4 |
+| quiz4 | 11:04.9 | 5.0 |
+| titolo5 | 11:09.5 | 4.0 |
+| prof5 | 11:13.1 | 788.3 |
+| mappa5 | 24:21.0 | 23.6 |
+| pillola5 | 24:44.2 | 11.9 |
+| schema5 | 24:55.7 | 44.1 |
+| quiz5 | 25:39.5 | 5.0 |
+| titolo6 | 25:44.1 | 4.0 |
+| prof6 | 25:47.7 | 474.7 |
+| mappa7 | 33:41.9 | 30.0 |
+| pillola6 | 34:11.6 | 10.6 |
+| schema6 | 34:21.7 | 38.3 |
+| quiz6 | 34:59.6 | 5.0 |
+| glossario | 35:04.2 | 33.8 |
+| riepilogo | 35:27.4 | 19.5 |
+| finale | 35:41.3 | 5.0 |

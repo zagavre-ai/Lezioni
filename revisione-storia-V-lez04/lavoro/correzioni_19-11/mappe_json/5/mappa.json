@@ -1,0 +1,27 @@
+{
+ "materia": "Storia V",
+ "docente": "Prof. Giorgio Mazzotti",
+ "titolo": "L'Italia",
+ "rami": [
+  {
+   "concetto": "Liberali conservatori",
+   "parola": "interventisti",
+   "esempio": "firmano il Patto di Londra"
+  },
+  {
+   "concetto": "Nazionalisti",
+   "parola": "interventisti",
+   "esempio": "manifestazioni per l'intervento"
+  },
+  {
+   "concetto": "Liberali progressisti",
+   "parola": "neutralisti",
+   "esempio": ""
+  },
+  {
+   "concetto": "Socialisti",
+   "parola": "neutralisti",
+   "esempio": ""
+  }
+ ]
+}
