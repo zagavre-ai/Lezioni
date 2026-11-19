@@ -1,0 +1,192 @@
+{
+ "materia": "Chimica applicata e nobilitazione dei materiali",
+ "titolo": "Cellulosa e fibre vegetali · Parte 1",
+ "durata_s": 2030.93,
+ "argomenti": [
+  {
+   "n": 1,
+   "titolo": "Cellulosa: struttura e composizione",
+   "inizio_s": 71.432,
+   "quiz_s": 777.232
+  },
+  {
+   "n": 2,
+   "titolo": "Proprietà e chimica della cellulosa",
+   "inizio_s": 782.532,
+   "quiz_s": 1456.232
+  },
+  {
+   "n": 3,
+   "titolo": "Fibre vegetali e cotone",
+   "inizio_s": 1461.532,
+   "quiz_s": 2022.932
+  }
+ ],
+ "quiz": {
+  "Q1": {
+   "title": "Quiz 1 · Cellulosa: struttura e composizione",
+   "items": [
+    {
+     "p": "Che cos'è la cellulosa dal punto di vista chimico?",
+     "a": "Un polisaccaride superiore, che con l'idrolisi completa dà glucosio",
+     "w": [
+      "Una proteina complessa",
+      "Un lipide a lunga catena",
+      "Un polimero aromatico a struttura fenolica"
+     ],
+     "ref": "La cellulosa è un polisaccaride superiore di formula bruta (C6H10O5)n: per idrolisi completa si trasforma in glucosio."
+    },
+    {
+     "p": "Quale legame unisce le unità di glucosio nella catena di cellulosa?",
+     "a": "Il legame glicosidico (ponte di ossigeno trasverso)",
+     "w": [
+      "Il ponte disolfuro",
+      "Il ponte salino",
+      "Il legame peptidico"
+     ],
+     "ref": "Le unità sono unite da legami glicosidici, tra l'ossidrile in posizione 1 di un glucosio e quello in posizione 4 del successivo."
+    },
+    {
+     "p": "Qual è il grado di polimerizzazione della cellulosa nelle fibre naturali?",
+     "a": "Tra 600 e 3000",
+     "w": [
+      "Tra 200 e 600",
+      "Tra 5 e 20",
+      "Tra 10000 e 50000"
+     ],
+     "ref": "Nelle fibre naturali il grado di polimerizzazione oscilla tra 600 e 3000; nelle artificiali è più basso, tra 200 e 600."
+    },
+    {
+     "p": "Come viene definita l'alfa-cellulosa?",
+     "a": "La parte nobile che non si scioglie nella soluzione di soda",
+     "w": [
+      "La parte che precipita con acido acetico",
+      "La parte che resta in soluzione dopo la neutralizzazione",
+      "La parte che contiene lignina"
+     ],
+     "ref": "L'alfa-cellulosa è insolubile nella soluzione di NaOH al 17,5% ed è usata per le fibre artificiali."
+    },
+    {
+     "p": "Quale tra queste è una sostanza incrostante che accompagna la cellulosa?",
+     "a": "La lignina",
+     "w": [
+      "Il glucosio",
+      "Il cellobioso",
+      "La soda-cellulosa"
+     ],
+     "ref": "Le sostanze incrostanti sono la lignina, le sostanze pectiche, la cutina e le resine."
+    }
+   ]
+  },
+  "Q2": {
+   "title": "Quiz 2 · Proprietà e chimica della cellulosa",
+   "items": [
+    {
+     "p": "Fino a quale percentuale di umidità può assorbire la cellulosa in condizioni normali?",
+     "a": "Fino al 12%",
+     "w": [
+      "Fino al 2%",
+      "Fino al 50%",
+      "Fino al 200%"
+     ],
+     "ref": "In condizioni normali assorbe fino al 12% di umidità; fino al 200% se immersa in acqua, con rigonfiamento intercristallino."
+    },
+    {
+     "p": "Che cosa si forma trattando la cellulosa con idrossido di sodio?",
+     "a": "La soda-cellulosa, intermedio per la viscosa",
+     "w": [
+      "La nitrocellulosa",
+      "L'acetato di cellulosa",
+      "La carbossimetilcellulosa"
+     ],
+     "ref": "La salificazione con alcali forma la soda-cellulosa, un intermedio utile nella produzione della viscosa."
+    },
+    {
+     "p": "Quale tra questi è un estere inorganico della cellulosa?",
+     "a": "La nitrocellulosa",
+     "w": [
+      "L'etilcellulosa",
+      "La metilcellulosa",
+      "La carbossimetilcellulosa"
+     ],
+     "ref": "La nitrocellulosa si ottiene con una miscela di acido nitrico e solforico; etil e metilcellulosa sono eteri."
+    },
+    {
+     "p": "Quali organismi attaccano la cellulosa producendo enzimi cellulolitici?",
+     "a": "Batteri e funghi",
+     "w": [
+      "Solo gli animali superiori",
+      "Virus",
+      "Alghe verdi"
+     ],
+     "ref": "Batteri e funghi producono enzimi cellulolitici capaci di degradare la molecola; la maggior parte degli animali superiori non digerisce la cellulosa."
+    },
+    {
+     "p": "Quale processo chimico di estrazione della cellulosa usa il bisolfito di calcio o magnesio?",
+     "a": "Il processo al solfito",
+     "w": [
+      "Il processo alla soda",
+      "Il processo al solfato",
+      "Il processo meccanico"
+     ],
+     "ref": "Il processo al solfito sfrutta bisolfito di calcio o magnesio con anidride solforosa a 120 °C sotto pressione."
+    }
+   ]
+  },
+  "Q3": {
+   "title": "Quiz 3 · Fibre vegetali e cotone",
+   "items": [
+    {
+     "p": "Quale tra queste è una fibra da seme?",
+     "a": "Il cotone",
+     "w": [
+      "Il lino",
+      "Il sisal",
+      "Il cocco"
+     ],
+     "ref": "Da seme: cotone e kapok. Il lino è da libro, il sisal da foglia, il cocco da frutto."
+    },
+    {
+     "p": "A quale genere botanico appartiene il cotone?",
+     "a": "Gossypium",
+     "w": [
+      "Bombax",
+      "Ceiba",
+      "Linum"
+     ],
+     "ref": "Il cotone è ricavato dalla peluria dei semi di piante della famiglia delle Malvacee, genere Gossypium."
+    },
+    {
+     "p": "Quale specie fornisce una fibra estremamente pregiata e lunga, originaria delle isole Barbados?",
+     "a": "Gossypium barbadense",
+     "w": [
+      "Gossypium herbaceum",
+      "Gossypium arboreum",
+      "Gossypium hirsutum"
+     ],
+     "ref": "Il barbadense fornisce una fibra pregiata e lunga; l'herbaceum una fibra corta e giallastra."
+    },
+    {
+     "p": "In quale fascia si produce il cotone?",
+     "a": "Tra 40° di latitudine Nord e 30° di latitudine Sud",
+     "w": [
+      "Solo oltre i 60° Nord",
+      "Solo all'equatore",
+      "Tra 60° Nord e 60° Sud"
+     ],
+     "ref": "La produzione avviene in una fascia tra i 40° Nord e i 30° Sud, in terreni ben concimati."
+    },
+    {
+     "p": "Come si chiama la peluria più corta aderente al seme, fonte di cellulosa purissima?",
+     "a": "Linter",
+     "w": [
+      "Lint",
+      "Bambagia",
+      "Lume"
+     ],
+     "ref": "I linters sono la peluria più corta, 3 mm circa; il lint è la peluria più lunga usata per il filato."
+    }
+   ]
+  }
+ }
+}

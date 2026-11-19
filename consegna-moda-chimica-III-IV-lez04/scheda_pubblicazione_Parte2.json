@@ -1,0 +1,131 @@
+{
+ "materia": "Chimica applicata e nobilitazione dei materiali",
+ "titolo": "Cellulosa e fibre vegetali · Parte 2",
+ "durata_s": 2020.17,
+ "argomenti": [
+  {
+   "n": 4,
+   "titolo": "Struttura e proprietà del cotone",
+   "inizio_s": 13.999,
+   "quiz_s": 569.499
+  },
+  {
+   "n": 5,
+   "titolo": "Classificazione, finissaggi e analisi del cotone",
+   "inizio_s": 574.799,
+   "quiz_s": 1803.832
+  }
+ ],
+ "quiz": {
+  "Q4": {
+   "title": "Quiz 4 · Struttura e proprietà del cotone",
+   "items": [
+    {
+     "p": "Quale caratteristica ha il cotone al microscopio?",
+     "a": "Una fibra a nastro ellittico con convoluzioni",
+     "w": [
+      "Una fibra cilindrica liscia senza lume",
+      "Una fibra a scaglie sovrapposte",
+      "Una fibra con nodi e striature trasversali"
+     ],
+     "ref": "Il cotone è monocellulare, a nastro ellittico con convoluzioni (torsioni) e due terminazioni: una a spatola e l'altra sfibrata."
+    },
+    {
+     "p": "Quale percentuale di cellulosa contiene il cotone?",
+     "a": "Circa l'85%",
+     "w": [
+      "Circa il 45%",
+      "Circa il 70%",
+      "Circa il 100%"
+     ],
+     "ref": "Il cotone è la fibra tessile con la più alta percentuale di cellulosa, circa l'85%."
+    },
+    {
+     "p": "Come cambia la tenacità del cotone quando è umido?",
+     "a": "Aumenta",
+     "w": [
+      "Diminuisce",
+      "Resta uguale",
+      "Si annulla"
+     ],
+     "ref": "La tenacità del cotone aumenta allo stato umido; l'elasticità è modesta, con allungamento del 2–3%."
+    },
+    {
+     "p": "Fino a quale temperatura il cotone resta stabile al calore?",
+     "a": "Fino a 120 °C",
+     "w": [
+      "Fino a 50 °C",
+      "Fino a 150 °C",
+      "Fino a 200 °C"
+     ],
+     "ref": "Il cotone è stabile fino a 120 °C, a 150 °C ingiallisce e a 200 °C si decompone."
+    },
+    {
+     "p": "Come si comporta il cotone con gli alcali diluiti?",
+     "a": "Resiste bene",
+     "w": [
+      "Si scioglie subito",
+      "Si carbonizza",
+      "Ingiallisce"
+     ],
+     "ref": "Il cotone resiste bene agli alcali diluiti; con alcali concentrati rigonfia formando la soda-cellulosa."
+    }
+   ]
+  },
+  "Q5": {
+   "title": "Quiz 5 · Classificazione, finissaggi e analisi del cotone",
+   "items": [
+    {
+     "p": "Quali parametri usa la classificazione americana del cotone?",
+     "a": "Tiglio, grado e carattere",
+     "w": [
+      "Specie, tipo e origine",
+      "Solo la lunghezza",
+      "Colore e profumo"
+     ],
+     "ref": "Il metodo americano valuta il tiglio (lunghezza), il grado (colore e omogeneità) e il carattere."
+    },
+    {
+     "p": "Quale grado è usato come base per le quotazioni di mercato?",
+     "a": "Middling",
+     "w": [
+      "Good ordinary",
+      "Strict low middling",
+      "Middling fair"
+     ],
+     "ref": "Middling è il grado medio utilizzato come base per le quotazioni di mercato."
+    },
+    {
+     "p": "In che cosa consiste la mercerizzazione?",
+     "a": "Nel trattare il cotone sotto tensione con soda caustica concentrata",
+     "w": [
+      "Nell'eliminare i grassi con soda al 2% a 150 °C",
+      "Nel candeggiare con ipoclorito",
+      "Nel rendere il cotone ignifugo"
+     ],
+     "ref": "La mercerizzazione trasforma la cellulosa I in cellulosa II, aumentando lucentezza, resistenza e affinità per i coloranti."
+    },
+    {
+     "p": "Quale reagente permette di separare il cotone dalla canapa o dalle fibre artificiali nell'analisi quantitativa?",
+     "a": "Il reattivo cuproammoniacale",
+     "w": [
+      "L'acido nitrico concentrato",
+      "L'ossichinolina",
+      "Il cloruro di zinco"
+     ],
+     "ref": "Il reattivo cuproammoniacale scioglie canapa e fibre artificiali, lasciando il cotone inalterato."
+    },
+    {
+     "p": "Quale sottoprodotto del cotone si ottiene dalla spremitura dei semi?",
+     "a": "L'olio di cotone",
+     "w": [
+      "Il cotone idrofilo",
+      "I linters",
+      "Il kapok"
+     ],
+     "ref": "L'olio di cotone si ottiene spremendo i semi puliti e liberati dai linters e dalla buccia."
+    }
+   ]
+  }
+ }
+}

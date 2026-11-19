@@ -1,0 +1,35 @@
+moda-chimica-III-IV-lez04 · Chimica applicata e nobilitazione dei materiali · Cellulosa e fibre vegetali · Prof.ssa Piera Caputi · Parte 1 di 2
+
+VIDEO: 4 (1920x1080, 30 fps, x264 veryfast CRF 18, AAC 192k). Si ricompone con: cat 4.parte_* > 4 (sha256 nel file .sha256).
+durata 33:50.9 (2030.9 s) | fotogrammi 60928 (attesi 60928) OK | peso 183.5 MB (175.0 MiB) OK | 1920x1080 OK
+Questa Parte finisce dopo la scheda Quiz dell'ultimo argomento, con la sigla finale (2025.9 s); Verifica finale, sigla e Compiti sono alla fine della Parte 2.
+Durata solo dal materiale della lezione: video del docente + schemi di ripasso, mappe, glossario, ripasso, quiz, chiusura.
+Struttura: per ogni argomento titolo, docente con slide sincronizzate, schema di ripasso con voce, mappa concettuale con voce, scheda Quiz (5 domande, 80%); poi glossario, ripasso finale, mappa finale, FINE, Verifica finale (test del docente), sigla, intro Compiti, Compiti.
+Voci: tutte Kore (dal ramo voci-moda-chimica-III-IV-lez04). La trascrizione automatica ha letto male alcuni termini tecnici: ascoltare a campione schemi (S) e glossario (GL1).
+Mappe: nel video e in Mappe_moda-chimica-III-IV-lez04.pdf (A4 orizzontale, una per pagina), a partire dalle mappe del docente rifatte nella grafica Telesio.
+File: quiz (Quiz_Chimica_LezDivisione in 2 Parti a fine argomento (Parte 1: argomenti 1-3; Parte 2: argomenti 4-5, glossario, ripasso, Verifica, sigla, Compiti). Sigla di Chimica: Sigla_Chimica_moda_15s.mp4 in testa a ogni Parte. Sincronia: un punto a 1,98 s (la riga si accende circa 2 s prima delle parole che la introducono; tolleranza 1,5 s). Voci Kore da ascoltare a campione..txt), test finale = Excel del docente (Test_Chimica_LezDivisione in 2 Parti a fine argomento (Parte 1: argomenti 1-3; Parte 2: argomenti 4-5, glossario, ripasso, Verifica, sigla, Compiti). Sigla di Chimica: Sigla_Chimica_moda_15s.mp4 in testa a ogni Parte. Sincronia: un punto a 1,98 s (la riga si accende circa 2 s prima delle parole che la introducono; tolleranza 1,5 s). Voci Kore da ascoltare a campione..xlsx), compiti.json, dispensa del docente, sottotitoli .vtt, scheda_pubblicazione.json, testo_youtube.txt, controllo_finale.txt.
+
+CONTROLLI sul file finale
+- Scatto musicale dei Quiz a 0,0 s: OK su 3/3.
+- durata 33:50.9 (2030.9 s) | fotogrammi 60928 (attesi 60928) OK | peso 183.5 MB (175.0 MiB) OK | 1920x1080 OK
+- quiz 3 scatto 0,0 s: OK
+- fermi immagine nei pezzi del docente: nessuno OK
+- volume del parlato (mediana dei pezzi del docente): -16.2 LUFS OK
+- Sincronia (righe che si accendono sulle parole dette; tempi parola per parola dalla trascrizione; confronto con la trascrizione del video FINALE), 10 punti a caso:
+    (23, 859.26, 859.28, -0.02, 'Tra le reazioni principali si distingue la salificazion')
+    (11, 448.47, 448.53, -0.06, "L'analisi ai raggi X rivela che la cellulosa possiede u")
+    (29, 985.87, 985.91, -0.04, 'Il comportamento biologico della cellulosa è caratteriz')
+    (51, 1619.14, 1619.26, -0.12, 'Gossypium barbadense: originario delle isole Barbados, ')
+    (5, 209.76, 209.81, -0.05, 'In natura, il glucosio assume prevalentemente una strut')
+    scarto medio assoluto 0.06 s, massimo 0.12 s
+    (12, 468.38, 468.53, -0.15, 'La struttura è organizzata in microfibrille composte da')
+    (30, 1015.42, 1015.34, 0.08, 'È importante sottolineare che la maggior parte degli an')
+    (55, 1660.82, 1660.92, -0.1, 'Gossypium vitifolium: originario del Sud America, da cu')
+    (50, 1559.93, 1560.11, -0.18, 'La pianta si presenta come un arbusto di media altezza ')
+    (20, 661.15, 662.27, -1.12, "Un altro polimero importante è l'amido, anch'esso compo")
+    scarto medio assoluto 0.33 s, massimo 1.12 s
+  Tolleranza richiesta 1,5 s.
+- Cerchio della docente: ritagliato solo dal video sorgente (58x58 px interni al cerchio, ingrandito a 232 px), maschera tonda con bordo sfumato e anello giallo #FFE600 di 6 px su fondo slide; nessun pixel del video originale fuori dal cerchio. La risoluzione di partenza e' bassa (il cerchio originale misura 61 px).
+- sottotitoli: 369 blocchi, sovrapposti 0, oltre la fine 0, attacco sulla voce entro 0,3 s: 64% di 14 verificabili DA GUARDARE
+- Controllo indipendente dei sottotitoli (trascrizione di finestre brevi): 30 confrontati; entro 0,3 s: 26 entro 0,6 s: 30 max 0.32 mediana 0.12
+- Codifica: 1080p x264 veryfast CRF 18. Le Parti sono ricavate dal montaggio 1080p gia' controllato: sigla nuova (Sigla_Chimica_moda_15s) in testa con dissolvenza di 1 s, taglio a fine scheda Quiz, ricodifica unica per Parte.

@@ -1,0 +1,35 @@
+moda-chimica-III-IV-lez04 · Chimica applicata e nobilitazione dei materiali · Cellulosa e fibre vegetali · Prof.ssa Piera Caputi · Parte 2 di 2
+
+VIDEO: 4 (1920x1080, 30 fps, x264 veryfast CRF 18, AAC 192k). Si ricompone con: cat 4.parte_* > 4 (sha256 nel file .sha256).
+durata 33:40.2 (2020.2 s) | fotogrammi 60604 (attesi 60605) OK | peso 186.2 MB (177.6 MiB) OK | 1920x1080 OK
+t_verifica = 1981.8 s · t_compiti = 2000.1 s (scheda Compiti di 20 s con le domande del docente; sigla finale 1988.4 s; intro Compiti 1995.0 s).
+Durata solo dal materiale della lezione: video del docente + schemi di ripasso, mappe, glossario, ripasso, quiz, chiusura.
+Struttura: per ogni argomento titolo, docente con slide sincronizzate, schema di ripasso con voce, mappa concettuale con voce, scheda Quiz (5 domande, 80%); poi glossario, ripasso finale, mappa finale, FINE, Verifica finale (test del docente), sigla, intro Compiti, Compiti.
+Voci: tutte Kore (dal ramo voci-moda-chimica-III-IV-lez04). La trascrizione automatica ha letto male alcuni termini tecnici: ascoltare a campione schemi (S) e glossario (GL1).
+Mappe: nel video e in Mappe_moda-chimica-III-IV-lez04.pdf (A4 orizzontale, una per pagina), a partire dalle mappe del docente rifatte nella grafica Telesio.
+File: quiz (Quiz_Chimica_LezDivisione in 2 Parti a fine argomento (Parte 1: argomenti 1-3; Parte 2: argomenti 4-5, glossario, ripasso, Verifica, sigla, Compiti). Sigla di Chimica: Sigla_Chimica_moda_15s.mp4 in testa a ogni Parte. Sincronia: un punto a 1,98 s (la riga si accende circa 2 s prima delle parole che la introducono; tolleranza 1,5 s). Voci Kore da ascoltare a campione..txt), test finale = Excel del docente (Test_Chimica_LezDivisione in 2 Parti a fine argomento (Parte 1: argomenti 1-3; Parte 2: argomenti 4-5, glossario, ripasso, Verifica, sigla, Compiti). Sigla di Chimica: Sigla_Chimica_moda_15s.mp4 in testa a ogni Parte. Sincronia: un punto a 1,98 s (la riga si accende circa 2 s prima delle parole che la introducono; tolleranza 1,5 s). Voci Kore da ascoltare a campione..xlsx), compiti.json, dispensa del docente, sottotitoli .vtt, scheda_pubblicazione.json, testo_youtube.txt, controllo_finale.txt.
+
+CONTROLLI sul file finale
+- Scatto musicale dei Quiz a 0,0 s: OK su 2/2.
+- durata 33:40.2 (2020.2 s) | fotogrammi 60604 (attesi 60605) OK | peso 186.2 MB (177.6 MiB) OK | 1920x1080 OK
+- quiz 2 scatto 0,0 s: OK
+- fermi immagine nei pezzi del docente: nessuno OK
+- volume del parlato (mediana dei pezzi del docente): -16.5 LUFS OK
+- Sincronia (righe che si accendono sulle parole dette; tempi parola per parola dalla trascrizione; confronto con la trascrizione del video FINALE), 10 punti a caso:
+    (105, 686.36, 686.47, -0.11, 'Secondo il metodo americano, i cotoni vengono ordinati ')
+    (86, 316.16, 316.18, -0.02, 'Il cotone è una fibra igroscopica, capace di assorbire ')
+    (120, 843.34, 843.11, 0.23, 'Tra le lavorazioni industriali vi è la lisciviazione (o')
+    (140, 1178.65, 1178.51, 0.14, "Il kapok è un'altra fibra da seme ricavata dalle capsul")
+    (72, 116.39, 116.31, 0.08, 'Le fibrille della parete secondaria hanno uno spessore ')
+    scarto medio assoluto 0.12 s, massimo 0.23 s
+    (88, 339.97, 341.95, -1.98, 'Al calore, il cotone rimane stabile fino a 120°C, mentr')
+    (121, 876.92, 877.07, -0.15, 'Il candeggio (o sbianca) elimina i pigmenti naturali tr')
+    (143, 1227.41, 1227.42, -0.01, "L'analisi delle fibre di cotone comprende procedure mic")
+    (139, 1167.46, 1167.83, -0.37, 'In ambito farmacologico, viene impiegato per le sue pro')
+    (103, 630.89, 631.24, -0.35, 'Il grado è, invece, un parametro che definisce il color')
+    scarto medio assoluto 0.57 s, massimo 1.98 s
+  Tolleranza richiesta 1,5 s.
+- Cerchio della docente: ritagliato solo dal video sorgente (58x58 px interni al cerchio, ingrandito a 232 px), maschera tonda con bordo sfumato e anello giallo #FFE600 di 6 px su fondo slide; nessun pixel del video originale fuori dal cerchio. La risoluzione di partenza e' bassa (il cerchio originale misura 61 px).
+- sottotitoli: 355 blocchi, sovrapposti 0, oltre la fine 0, attacco sulla voce entro 0,3 s: 70% di 20 verificabili DA GUARDARE
+- Controllo indipendente dei sottotitoli (trascrizione di finestre brevi): 31 confrontati; entro 0,3 s: 28 entro 0,6 s: 30 max 1.36 mediana 0.08
+- Codifica: 1080p x264 veryfast CRF 18. Le Parti sono ricavate dal montaggio 1080p gia' controllato: sigla nuova (Sigla_Chimica_moda_15s) in testa con dissolvenza di 1 s, taglio a fine scheda Quiz, ricodifica unica per Parte.
