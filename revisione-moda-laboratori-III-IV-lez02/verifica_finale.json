@@ -1,0 +1,162 @@
+{
+ "titolo": "Verifica finale · Laboratori tecnologici ed esercitazione · Lezione 2 · Sartoria",
+ "fonte": "lez2.xlsx (12 domande)",
+ "items": [
+  {
+   "p": "Quale trattamento di stabilizzazione è indicato specificamente per i tessuti in cotone e misto cotone per evitare restringimenti?",
+   "a": "Immersione in acqua (fredda e poi tiepida per 10-15 minuti).",
+   "w": [
+    "Vaporizzatura eseguita sul rovescio con ferro a vapore.",
+    "Avvolgitura in panni bagnati per circa venti ore.",
+    "Lavaggio a secco professionale prima del taglio."
+   ],
+   "w_extra": [
+    "Stiro ad alta temperatura con l'ausilio di appositi appretti.",
+    "Sdifettatura termica eseguita direttamente sul manichino."
+   ]
+  },
+  {
+   "p": "Nel linguaggio tecnico sartoriale, come viene definita la costruzione geometrica che rappresenta lo sviluppo del figurino?",
+   "a": "Cartamodello.",
+   "w": [
+    "Scheda anagrafica.",
+    "Piazzamento tecnico.",
+    "Sdifettatura volumetrica."
+   ],
+   "w_extra": [
+    "Tracciato d'imbastitura.",
+    "Impronta di taglio."
+   ]
+  },
+  {
+   "p": "Durante l'operazione di piazzamento, cosa si intende per mantenimento del \"diritto filo\"?",
+   "a": "Collocare il centro delle sagome in modo parallelo alle cimose, seguendo i fili d'ordito.",
+   "w": [
+    "Posizionare le sagome perpendicolarmente alla trama del tessuto.",
+    "Allineare i margini di cucitura con il bordo esterno del tavolo da taglio.",
+    "Tagliare il tessuto seguendo esattamente la linea tracciata dal gessetto."
+   ],
+   "w_extra": [
+    "Verificare che il filato del rocchetto abbia una torsione a Z.",
+    "Mantenere una distanza costante tra le sagome per inserire gli orli."
+   ]
+  },
+  {
+   "p": "A quale tipologia di piegatura del tessuto corrisponde la sigla tecnica \"2A\"?",
+   "a": "Due piegature con tessuto completamente doppio e cimose accostate al centro.",
+   "w": [
+    "Una piegatura con tessuto completamente doppio e cimose sovrapposte.",
+    "Una piegatura con tessuto parzialmente doppio e cimose distanziate.",
+    "Due piegature con tessuto parzialmente doppio e cimose distanziate."
+   ],
+   "w_extra": [
+    "Due piegature con tessuto parzialmente triplo e cimose distanziate.",
+    "Tessuto aperto senza alcuna piegatura per gestire capi asimmetrici."
+   ]
+  },
+  {
+   "p": "Qual è il metraggio di tessuto approssimativamente necessario per realizzare una gonna midi?",
+   "a": "Tra i 90 e i 95 cm.",
+   "w": [
+    "Circa 50-55 cm.",
+    "Circa 75-80 cm.",
+    "Circa 120-130 cm."
+   ],
+   "w_extra": [
+    "Tra i 220 e i 230 cm.",
+    "Esattamente 440 cm."
+   ]
+  },
+  {
+   "p": "Qual è la funzione principale dell'imbastitura nel ciclo di lavorazione sartoriale?",
+   "a": "Realizzare una cucitura provvisoria a punti lunghi per permettere la prima prova di indosso.",
+   "w": [
+    "Unire definitivamente i lembi di tessuto tramite il punto annodato.",
+    "Rifinire i margini del tessuto per evitare che si sfilino durante il lavaggio.",
+    "Stabilizzare le dimensioni del tessuto per evitare deformazioni post-lavaggio."
+   ],
+   "w_extra": [
+    "Segnare il perimetro del modello tramite boccole di filo poi tagliate.",
+    "Applicare elementi decorativi come pizzi, dentelli e lustrini."
+   ]
+  },
+  {
+   "p": "Quale tra i seguenti è un punto a mano permanente utilizzato per bloccare il margine di un tessuto ripiegato tramite punti obliqui incrociati?",
+   "a": "Punto mosca (o punto strega).",
+   "w": [
+    "Punto filza.",
+    "Punto indietro.",
+    "Punto sella."
+   ],
+   "w_extra": [
+    "Punto impuntura.",
+    "Punto sopraffilo."
+   ]
+  },
+  {
+   "p": "Nella macchina per cucire, quale organo ha il compito di far avanzare il tessuto in base alla lunghezza del punto impostata?",
+   "a": "La griffa (parte del sistema trasportatore).",
+   "w": [
+    "Il piedino premistoffa.",
+    "Il crochet.",
+    "Il blocco regola tensione."
+   ],
+   "w_extra": [
+    "La spolina contenuta nella capsula.",
+    "La placca ago."
+   ]
+  },
+  {
+   "p": "In base alla classificazione per punti del termostato del ferro da stiro, a quale materiale corrispondono \"tre punti\"?",
+   "a": "Lino e cotone.",
+   "w": [
+    "Fibre sintetiche.",
+    "Lana.",
+    "Seta e fibre artificiali vegetali."
+   ],
+   "w_extra": [
+    "Tessuti multibava volumizzati.",
+    "Pellami e materiali preformati."
+   ]
+  },
+  {
+   "p": "Qual è la funzione specifica della macchina tagliacuci (TC) quando lavora su tessuti a navetta?",
+   "a": "Eseguire la sorfilatura, ovvero la pulizia del margine per evitarne lo sfilacciamento.",
+   "w": [
+    "Sostituire completamente l'imbastitura manuale a punti lunghi.",
+    "Realizzare asole piane rinforzate su strati doppi di tessuto.",
+    "Effettuare lo stiro intermedio durante le diverse fasi di cucitura."
+   ],
+   "w_extra": [
+    "Misurare automaticamente la taglia del destinatario sul manichino.",
+    "Applicare bottoni da jeans tramite strumenti a pressione."
+   ]
+  },
+  {
+   "p": "Quale componente è inserito tra due tessuti per sostenere e rinforzare parti del capo come la cintura?",
+   "a": "Interfodera (termoadesiva o cucita).",
+   "w": [
+    "Fodera scivolosa.",
+    "Paramontura modellata.",
+    "Baschina sagomata."
+   ],
+   "w_extra": [
+    "Nastro fustellato ornamentale.",
+    "Pattina (o aletta) di copertura."
+   ]
+  },
+  {
+   "p": "A cosa serve principalmente la \"scheda anagrafica\" compilata durante il ciclo sartoriale?",
+   "a": "Raccogliere materiali, tempi e operazioni per calcolare i costi e creare un archivio storico.",
+   "w": [
+    "Fornire esclusivamente il figurino artistico al cliente finale.",
+    "Indicare le normative europee di sicurezza per l'uso delle macchine.",
+    "Sostituire l'uso del metro da sarto nel rilievo delle misure."
+   ],
+   "w_extra": [
+    "Catalogare i diversi tipi di aghi da macchina dal numero 70 al 90.",
+    "Documentare solo le asole volanti realizzate con il \"budellino\"."
+   ]
+  }
+ ]
+}

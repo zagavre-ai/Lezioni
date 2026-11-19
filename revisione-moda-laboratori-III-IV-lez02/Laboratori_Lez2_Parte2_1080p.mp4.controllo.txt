@@ -1,0 +1,7 @@
+durata 44:47.7 (2687.7 s) | fotogrammi 80631 (attesi 80631) OK | peso 241.2 MB (230.1 MiB) OK | 1920x1080 OK
+quiz 4 scatto 0,0 s: OK
+fermi immagine nei pezzi del docente: 147 DA GUARDARE [(76.7, 77.8, 'D7'), (90.5, 91.8, 'D7'), (96.8, 97.9, 'D7'), (116.8, 118.2, 'D7'), (119.0, 120.0, 'D7'), (218.8, 219.8, 'D7'), (270.6, 272.1, 'D7'), (276.9, 278.3, 'D7')]
+volume del parlato (mediana dei pezzi del docente): -16.0 LUFS OK
+sottotitoli: 640 blocchi, sovrapposti 0, oltre la fine 0, attacco sulla voce entro 0,3 s: 76% di 21 verificabili DA GUARDARE
+foglio di miniature: Laboratori_Lez2_Parte2_1080p.mp4.miniature.jpg
+ESITO: DA SISTEMARE: fermi, sottotitoli

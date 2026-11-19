@@ -1,0 +1,376 @@
+{
+ "materia": "Laboratori tecnologici ed esercitazione",
+ "titolo": "Laboratori tecnologici ed esercitazione · Lezione 2 · Parte 1",
+ "file": "Laboratori_Lez2_Parte1_1080p.mp4",
+ "durata_s": 2757.53,
+ "argomenti": [
+  {
+   "n": 1,
+   "titolo": "Il ciclo del lavoro sartoriale",
+   "inizio_s": 51.533,
+   "quiz_s": 585.1
+  },
+  {
+   "n": 2,
+   "titolo": "Quanto tessuto serve",
+   "inizio_s": 590.1,
+   "quiz_s": 874.133
+  },
+  {
+   "n": 3,
+   "titolo": "Stabilizzare il tessuto",
+   "inizio_s": 879.133,
+   "quiz_s": 1184.667
+  },
+  {
+   "n": 4,
+   "titolo": "Piegatura e piazzamento",
+   "inizio_s": 1189.667,
+   "quiz_s": 1861.467
+  },
+  {
+   "n": 5,
+   "titolo": "Taglio e imbastitura",
+   "inizio_s": 1866.467,
+   "quiz_s": 2183.567
+  },
+  {
+   "n": 6,
+   "titolo": "Gli elementi del capo",
+   "inizio_s": 2188.567,
+   "quiz_s": 2677.467
+  }
+ ],
+ "quiz": {
+  "Q1": {
+   "title": "Quiz 1 · Il ciclo del lavoro sartoriale",
+   "items": [
+    {
+     "p": "Che cosa distingue il lavoro sartoriale?",
+     "a": "Un approccio diretto e un dialogo costante con chi indosserà il capo",
+     "w": [
+      "Il lavoro in serie",
+      "L'assenza di prove",
+      "L'uso esclusivo di macchine"
+     ],
+     "ref": "Il sarto indaga la vestibilità desiderata e valuta la fattibilità tecnica."
+    },
+    {
+     "p": "Che cos'è il cartamodello?",
+     "a": "Lo sviluppo geometrico del figurino su carta o cartoncino",
+     "w": [
+      "Un tipo di tessuto",
+      "Un filo da imbastire",
+      "Un ferro da stiro"
+     ],
+     "ref": "Può essere testato su un manichino con gli spilli."
+    },
+    {
+     "p": "Che cos'è l'imbastitura?",
+     "a": "Una cucitura provvisoria a punti lunghi",
+     "w": [
+      "La cucitura finale",
+      "Un tipo di stiro",
+      "Un trattamento del tessuto"
+     ],
+     "ref": "Permette al capo di assumere una forma tridimensionale per la prima prova."
+    },
+    {
+     "p": "Che cosa si fa dopo la prova sul soggetto?",
+     "a": "La sdifettatura, per correggere le imperfezioni",
+     "w": [
+      "Si butta il tessuto",
+      "Si cambia cliente",
+      "Si stampa l'etichetta"
+     ],
+     "ref": "Poi si passa alla confezione finale."
+    },
+    {
+     "p": "A che cosa serve la scheda anagrafica?",
+     "a": "A calcolare i costi finali e creare un archivio storico dei clienti",
+     "w": [
+      "A scegliere i bottoni",
+      "A misurare il tessuto",
+      "A regolare la macchina"
+     ],
+     "ref": "Raccoglie informazioni su materiali, tempi e operazioni."
+    }
+   ]
+  },
+  "Q2": {
+   "title": "Quiz 2 · Quanto tessuto serve",
+   "items": [
+    {
+     "p": "Quale altezza del tessuto si considera di solito?",
+     "a": "150 cm",
+     "w": [
+      "50 cm",
+      "300 cm",
+      "440 cm"
+     ],
+     "ref": "Si considerano anche tipologia del modello e taglia del destinatario."
+    },
+    {
+     "p": "Quanto tessuto serve circa per una minigonna?",
+     "a": "Circa 50-55 cm",
+     "w": [
+      "Circa 90-95 cm",
+      "Circa 120-130 cm",
+      "Circa 440 cm"
+     ],
+     "ref": "La gonna midi richiede 90-95 cm."
+    },
+    {
+     "p": "Quanto serve per una gonna a terra molto ampia?",
+     "a": "Circa 440 cm, quattro lunghezze capo",
+     "w": [
+      "Circa 50 cm",
+      "Circa 75 cm",
+      "Circa 120 cm"
+     ],
+     "ref": "Per la gonna a terra normale bastano due lunghezze, circa 220-230 cm."
+    },
+    {
+     "p": "Perché nelle taglie forti si calcola il livello inforcatura?",
+     "a": "Perché l'ampiezza del modello potrebbe superare quella del tessuto",
+     "w": [
+      "Per scegliere il colore",
+      "Per risparmiare filo",
+      "Per stirare meglio"
+     ],
+     "ref": "Si consiglia un tessuto a verso indifferente per capovolgere le sagome."
+    },
+    {
+     "p": "Quanto si aggiunge alla lunghezza per i bermuda?",
+     "a": "55-65 cm",
+     "w": [
+      "30-40 cm",
+      "75-85 cm",
+      "5 cm"
+     ],
+     "ref": "Per gli shorts si aggiungono 30-40 cm."
+    }
+   ]
+  },
+  "Q3": {
+   "title": "Quiz 3 · Stabilizzare il tessuto",
+   "items": [
+    {
+     "p": "Perché si stabilizza il tessuto prima della lavorazione?",
+     "a": "Per evitare restringimenti o deformazioni dopo il primo lavaggio",
+     "w": [
+      "Per cambiare colore",
+      "Per renderlo più lucido",
+      "Per ridurre il costo"
+     ],
+     "ref": "La scelta della tecnica dipende dalla composizione fibrosa."
+    },
+    {
+     "p": "Per quanto tempo si lascia il tessuto avvolto nei panni bagnati?",
+     "a": "Circa venti ore",
+     "w": [
+      "Circa dieci minuti",
+      "Circa due ore",
+      "Circa una settimana"
+     ],
+     "ref": "Poi si srotola e si lascia asciugare con lentezza."
+    },
+    {
+     "p": "Per quali tessuti è indicata l'immersione in acqua?",
+     "a": "Cotone e misto cotone",
+     "w": [
+      "Lana",
+      "Seta",
+      "Tessuti stampati delicati"
+     ],
+     "ref": "Si immerge in acqua fredda e poi tiepida, senza detergenti."
+    },
+    {
+     "p": "Quale vantaggio dà l'acqua fredda nell'immersione?",
+     "a": "Permette spesso di fissare meglio il colore",
+     "w": [
+      "Asciuga prima",
+      "Stira il tessuto",
+      "Elimina le cimose"
+     ],
+     "ref": "Il passaggio dura circa dieci-quindici minuti."
+    },
+    {
+     "p": "Su quale lato si esegue la vaporizzatura?",
+     "a": "Sul rovescio del materiale",
+     "w": [
+      "Sul diritto",
+      "Su entrambi i lati sempre",
+      "Sulle cimose"
+     ],
+     "ref": "Si usa un ferro a vapore a bassa temperatura."
+    }
+   ]
+  },
+  "Q4": {
+   "title": "Quiz 4 · Piegatura e piazzamento",
+   "items": [
+    {
+     "p": "Quali sono le categorie di piegatura del tessuto?",
+     "a": "Singola, doppia e senza piegatura",
+     "w": [
+      "Rossa, blu e verde",
+      "Corta, media e lunga",
+      "Calda, tiepida e fredda"
+     ],
+     "ref": "Senza piegatura il tessuto è aperto, per i capi asimmetrici."
+    },
+    {
+     "p": "Che cosa indica la sigla 2A?",
+     "a": "Due piegature, tessuto completamente doppio e cimose accostate al centro",
+     "w": [
+      "Una piegatura con cimose sovrapposte",
+      "Tessuto aperto",
+      "Tessuto parzialmente triplo"
+     ],
+     "ref": "La 2C ha tessuto parzialmente triplo e cimose distanziate."
+    },
+    {
+     "p": "Perché il piazzamento non deve includere le cimose?",
+     "a": "Possono avere composizione diversa e causare difetti di vestibilità o manutenzione",
+     "w": [
+      "Sono troppo colorate",
+      "Sono troppo lunghe",
+      "Non si possono tagliare"
+     ],
+     "ref": "Le sagome vanno distanziate per margini di cucitura e orli."
+    },
+    {
+     "p": "Come deve correre il diritto filo nel piazzamento?",
+     "a": "Parallelo alle cimose, secondo i fili d'ordito",
+     "w": [
+      "Perpendicolare alle cimose",
+      "A 45 gradi",
+      "In qualsiasi direzione"
+     ],
+     "ref": "Si verificano con il metro le distanze dalle cimose."
+    },
+    {
+     "p": "Quale vantaggio ha la cintura parallela all'ordito?",
+     "a": "Minore deformazione nel tempo, per la stabilità dei fili d'ordito",
+     "w": [
+      "Richiede sempre l'interfodera",
+      "È più elastica",
+      "È più corta"
+     ],
+     "ref": "Parallela alla trama serve di solito un'interfodera di sostegno."
+    }
+   ]
+  },
+  "Q5": {
+   "title": "Quiz 5 · Taglio e imbastitura",
+   "items": [
+    {
+     "p": "Perché si usa il gessetto?",
+     "a": "Il suo segno svanisce con il calore del ferro da stiro",
+     "w": [
+      "È indelebile",
+      "Costa meno del filo",
+      "Non si vede"
+     ],
+     "ref": "Si lascia spazio per orli e cuciture oltre il bordo del cartamodello."
+    },
+    {
+     "p": "Che cos'è la stesura?",
+     "a": "La sovrapposizione di molti strati di tessuto per tagliare più pezzi insieme",
+     "w": [
+      "Un tipo di punto",
+      "Una piegatura",
+      "Un ferro da stiro"
+     ],
+     "ref": "È tipica dell'industria e poco praticata in sartoria."
+    },
+    {
+     "p": "Che cosa si fa con i tessuti scivolosi?",
+     "a": "Si stende sotto uno strato di carta resistente",
+     "w": [
+      "Si bagnano",
+      "Si tagliano a 45 gradi",
+      "Si lasciano da parte"
+     ],
+     "ref": "La carta goffrata o rugosa aumenta l'attrito e facilita il taglio."
+    },
+    {
+     "p": "Come sono i punti dell'imbastitura?",
+     "a": "Lunghi e poco resistenti",
+     "w": [
+      "Corti e fitti",
+      "Invisibili",
+      "Sempre a zig-zag"
+     ],
+     "ref": "Il capo inizia a prendere forma tridimensionale."
+    },
+    {
+     "p": "Che cosa avviene prima della confezione finale?",
+     "a": "La prova sul soggetto e una seconda prova generalmente definitiva",
+     "w": [
+      "Il lavaggio in lavatrice",
+      "La stampa del cartellino",
+      "La vendita"
+     ],
+     "ref": "Poi si toglie l'imbastitura e si cuce a mano o a macchina."
+    }
+   ]
+  },
+  "Q6": {
+   "title": "Quiz 6 · Gli elementi del capo",
+   "items": [
+    {
+     "p": "Che cos'è la fodera?",
+     "a": "Un rivestimento del rovescio, in tessuto leggero e scivoloso",
+     "w": [
+      "Un filo da cucito",
+      "Una piegatura",
+      "Un ferro da stiro"
+     ],
+     "ref": "Protegge dall'usura, migliora la vestibilità, scalda e dà più valore al capo."
+    },
+    {
+     "p": "A che cosa serve l'interfodera?",
+     "a": "A sostenere e rinforzare parti del capo",
+     "w": [
+      "A decorare",
+      "A stirare",
+      "A tagliare"
+     ],
+     "ref": "Può essere termoadesiva o applicata con ancoraggi manuali."
+    },
+    {
+     "p": "Che cosa sono i passanti?",
+     "a": "Strisce di tessuto affrancate sul capo per far passare la cintura",
+     "w": [
+      "Bottoni decorativi",
+      "Cerniere",
+      "Fodere"
+     ],
+     "ref": "Possono essere fissate anche con travette."
+    },
+    {
+     "p": "Come si chiamano le tasche applicate all'esterno?",
+     "a": "Tasche a toppa",
+     "w": [
+      "Tasche interne",
+      "Tasche a fessura",
+      "Pattine"
+     ],
+     "ref": "Le tasche interne si riconoscono per la fessura e sono completate da una fodera."
+    },
+    {
+     "p": "Dove si usa la paramontura?",
+     "a": "Per rifinire il giro vita senza cintura o le tasche sagomate",
+     "w": [
+      "Per allungare l'orlo",
+      "Per cambiare colore",
+      "Per stirare"
+     ],
+     "ref": "È un risvolto modellato di rinforzo e abbellimento."
+    }
+   ]
+  }
+ }
+}

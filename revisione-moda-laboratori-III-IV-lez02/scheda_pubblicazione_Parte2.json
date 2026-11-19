@@ -1,0 +1,254 @@
+{
+ "materia": "Laboratori tecnologici ed esercitazione",
+ "titolo": "Laboratori tecnologici ed esercitazione · Lezione 2 · Parte 2",
+ "file": "Laboratori_Lez2_Parte2_1080p.mp4",
+ "durata_s": 2687.7,
+ "argomenti": [
+  {
+   "n": 7,
+   "titolo": "Mercerie e finiture",
+   "inizio_s": 56.333,
+   "quiz_s": 426.433
+  },
+  {
+   "n": 8,
+   "titolo": "La cucitura a mano",
+   "inizio_s": 431.433,
+   "quiz_s": 1067.1
+  },
+  {
+   "n": 9,
+   "titolo": "La macchina per cucire",
+   "inizio_s": 1072.1,
+   "quiz_s": 2023.267
+  },
+  {
+   "n": 10,
+   "titolo": "Lo stiro e la scheda anagrafica",
+   "inizio_s": 2028.267,
+   "quiz_s": 2620.8
+  }
+ ],
+ "quiz": {
+  "Q7": {
+   "title": "Quiz 7 · Mercerie e finiture",
+   "items": [
+    {
+     "p": "Quali sono le mercerie più comuni su gonne e pantaloni?",
+     "a": "Cerniere e bottoni",
+     "w": [
+      "Lustrini e pizzi soltanto",
+      "Frange e passamanerie soltanto",
+      "Etichette"
+     ],
+     "ref": "Possono esserci anche nastri, cordelle e frange."
+    },
+    {
+     "p": "Com'è fatta una cerniera?",
+     "a": "Due nastri con dentini chiusi da un cursore",
+     "w": [
+      "Un solo nastro",
+      "Un bottone",
+      "Un filo elastico"
+     ],
+     "ref": "I materiali possono essere plastici o metallici."
+    },
+    {
+     "p": "Quanto deve essere lunga l'asola?",
+     "a": "Di poco superiore al diametro del bottone",
+     "w": [
+      "Metà del bottone",
+      "Il doppio del bottone",
+      "Non importa"
+     ],
+     "ref": "I bottoni da jeans si applicano con strumenti particolari."
+    },
+    {
+     "p": "Che cos'è la baschina?",
+     "a": "Un taglio orizzontale, a volte sagomato, tra la vita e il bacino",
+     "w": [
+      "Una cerniera",
+      "Un tipo di asola",
+      "Una tasca interna"
+     ],
+     "ref": "Può trovarsi sul davanti o sul dietro."
+    },
+    {
+     "p": "Quali sono i due tipi di asole?",
+     "a": "Piane e volanti",
+     "w": [
+      "Lunghe e corte",
+      "Rosse e blu",
+      "Esterne e interne"
+     ],
+     "ref": "Le volanti usano filo, cordoncino o tessuto tubolare a budellino."
+    }
+   ]
+  },
+  "Q8": {
+   "title": "Quiz 8 · La cucitura a mano",
+   "items": [
+    {
+     "p": "Com'è fatto l'ago a mano?",
+     "a": "Cruna a un'estremità e punta affilata all'altra",
+     "w": [
+      "Una punta per lato",
+      "Solo una cruna",
+      "Un bottone"
+     ],
+     "ref": "È in acciaio nichelato e numerato da 1 a 12."
+    },
+    {
+     "p": "Quale filo si usa per l'imbastitura?",
+     "a": "Un filo più spesso e morbido di quello delle cuciture permanenti",
+     "w": [
+      "Un filo sottile e duro",
+      "Un filo metallico",
+      "Nessun filo"
+     ],
+     "ref": "La scelta dipende da peso del tessuto, tipo di cucitura e ago."
+    },
+    {
+     "p": "A che cosa serve il ditale?",
+     "a": "A proteggere il dito medio e agevolare la spinta dell'ago",
+     "w": [
+      "A tagliare i fili",
+      "A segnare il tessuto",
+      "A stirare"
+     ],
+     "ref": "Gli spilli si ripongono in cuscinetti imbottiti."
+    },
+    {
+     "p": "Che cos'è il punto di cucitura?",
+     "a": "Il tratto che il filo compie tra due penetrazioni dell'ago in successione",
+     "w": [
+      "Il bottone",
+      "La cimosa",
+      "Il tessuto in doppio"
+     ],
+     "ref": "I punti a mano sono temporanei o permanenti."
+    },
+    {
+     "p": "Quale punto blocca l'orlo senza vedersi né sul diritto né sul rovescio?",
+     "a": "Il punto cieco",
+     "w": [
+      "Il punto filza",
+      "Il punto sella",
+      "Il punto indietro"
+     ],
+     "ref": "Il sottopunto usa piccoli punti obliqui non visibili dal diritto."
+    }
+   ]
+  },
+  "Q9": {
+   "title": "Quiz 9 · La macchina per cucire",
+   "items": [
+    {
+     "p": "Quali sono i principali organi della macchina per cucire?",
+     "a": "Ago, piedino premistoffa, sistema trasportatore, crochet e blocco regola tensione",
+     "w": [
+      "Solo ago e filo",
+      "Ferro e asse da stiro",
+      "Cerniera e bottone"
+     ],
+     "ref": "I fili cucirini sono due: uno sopra e uno sotto il tessuto."
+    },
+    {
+     "p": "Che cosa fa la griffa?",
+     "a": "Fa avanzare il tessuto secondo la lunghezza del punto",
+     "w": [
+      "Taglia il filo",
+      "Regola la tensione",
+      "Raccoglie la spolina"
+     ],
+     "ref": "Può anche invertire la marcia per fermare la cucitura."
+    },
+    {
+     "p": "Dove deve avvenire l'incrocio dei due fili con tensione corretta?",
+     "a": "Al centro dello spessore del tessuto",
+     "w": [
+      "Sopra il tessuto",
+      "Sotto il tessuto",
+      "Fuori dal tessuto"
+     ],
+     "ref": "Con tensione eccessiva il cappio inferiore oltrepassa il centro."
+    },
+    {
+     "p": "Che cosa indica il numero 301?",
+     "a": "Il punto annodato, identico su entrambi i lati",
+     "w": [
+      "Il punto catenella",
+      "Il punto a zig-zag",
+      "La macchina tagliacuci"
+     ],
+     "ref": "Il 304 è il punto annodato a zig-zag; la classe 200 i punti a effetto mano."
+    },
+    {
+     "p": "Che cosa permette la tagliacuci?",
+     "a": "Di cucire i lembi e tagliare contemporaneamente le parti eccedenti",
+     "w": [
+      "Solo di stirare",
+      "Solo di imbastire",
+      "Di ricamare"
+     ],
+     "ref": "Sul jersey realizza una cucitura chiusa con sopraggitto, molto elastica."
+    }
+   ]
+  },
+  "Q10": {
+   "title": "Quiz 10 · Lo stiro e la scheda anagrafica",
+   "items": [
+    {
+     "p": "Quali sono le fasi dello stiro?",
+     "a": "Preparatorio, intermedio e finale",
+     "w": [
+      "Rapido, lento e medio",
+      "Caldo, tiepido e freddo",
+      "Singolo, doppio e triplo"
+     ],
+     "ref": "Lo stiro finale è eseguito con estrema accuratezza."
+    },
+    {
+     "p": "Quanti punti si impostano per la lana?",
+     "a": "Due punti",
+     "w": [
+      "Un punto",
+      "Tre punti",
+      "Nessun punto"
+     ],
+     "ref": "Un punto per le fibre sintetiche, tre per lino e cotone."
+    },
+    {
+     "p": "Perché si usa acqua demineralizzata nel ferro?",
+     "a": "Per evitare il calcare",
+     "w": [
+      "Per colorare il tessuto",
+      "Per raffreddare il ferro",
+      "Per profumare"
+     ],
+     "ref": "Aiutano anche i sistemi anticalcare e antigocciolamento."
+    },
+    {
+     "p": "A che cosa serve la soletta o piattello?",
+     "a": "A proteggere i capi delicati o scuri dall'effetto lucido",
+     "w": [
+      "A misurare il tessuto",
+      "A tagliare i fili",
+      "A tendere il filo"
+     ],
+     "ref": "Si applica alla piastra del ferro."
+    },
+    {
+     "p": "Perché serve la scheda anagrafica?",
+     "a": "Per calcolare con precisione i costi e rispondere ai preventivi",
+     "w": [
+      "Per scegliere i colori",
+      "Per lavare i capi",
+      "Per stampare le etichette"
+     ],
+     "ref": "Il sarto costruisce una casistica con le schede nel tempo."
+    }
+   ]
+  }
+ }
+}
