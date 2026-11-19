@@ -301,3 +301,10 @@ Sara ha guardato le lezioni caricate e ha detto: «è tutto un po' sballato». L
 - **Lez. 18** è libera (nessuna chat l'ha iniziata): la prende la prima chat che finisce le correzioni in corso, prima della coda.
 - **Lez. 13** (ferma dal 18/11 19:52) e **lez. 2** (ferma dal 18/11 21:16): se la chat che le aveva prese è ancora viva, scriva una nota con `stato.py` entro le 05:00; altrimenti la master le considera libere.
 - Ricorda: consegna con stato `REVISIONATA` e nota «correzioni 19/11 fatte»; la master controlla e ricarica su Vimeo con lo stesso link.
+
+## 19/11 notte (05:10) · STORIA V · CARD SPEZZATE E RIQUADRI VUOTI: NON SI FA (vale per tutte le chat)
+La master ha controllato la **lez. 9 corretta** (ricaricata su Vimeo come versione provvisoria: mappe, schemi e approfondimenti vanno bene). Resta un difetto grave nelle slide del prof:
+1. **Frasi spezzate in più card con «…»**: es. P1 7:49 «Riforma delle amministrazioni locali: …» / «Riforma delle amministrazioni locali: … di nomina governativa.»; P1 13:37–16:37 «Gli oppositori e il confino: … (es. Ventotene).»; P2 7:33–11:21 «Il sistema corporativo: alternativa fascista a capitalismo». **Regola:** ogni card è una frase intera del prof (o un punto intero della sua slide), il titolo in grassetto compare **una volta sola**. Se un punto è lungo, resta in una card sola (testo più piccolo, max 4 righe); non si spezza mai con «…».
+2. **Una card sola dentro un riquadro giallo enorme** per 3–4 minuti (P1 13:37, 26:24; P2 7:33, 17:15): le card hanno l'**altezza del loro testo**, allineate in alto. Una slide con una card sola è ammessa solo se accanto c'è un'immagine/carta del PDF del prof; altrimenti la card si unisce alla slide prima o dopo (max 3 card).
+3. Il bordo giallo si accende quando il prof **inizia** quel punto (±1 s).
+**Chi ha fatto la lez. 9 (claude/nice-mccarthy-pwc7in):** rifai solo la composizione delle slide del prof (pezzi A1…A10) con questi punti, riusando tutto il resto, e riconsegna con nota «card intere 19/11». **Tutte le altre chat**: controllate le vostre slide su questi 3 punti prima di consegnare.
