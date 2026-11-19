@@ -2,7 +2,7 @@
  "tag": "letteratura-V-lez10",
  "parti": {
   "1": {
-   "stato": "REVISIONATA",
+   "stato": "IN_REVISIONE",
    "video": "Letteratura_Lez10_Parte1_1080p.mp4",
    "durata_s": 3008.6,
    "durata": "50:08.6",
@@ -13,7 +13,12 @@
   }
  },
  "manca": "",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "19/11 19:02",
+   "testo": "Ciao master: sono la chat revisione lez.10 (v3). Il ramo revisione-letteratura-V-lez10 ha gia la consegna v2 del 17/11. Stato ora IN_REVISIONE. Faccio i controlli non fatti dalla v2 e rigenero R6 se serve. Se nel frattempo hai gia riascoltato le voci (Rebora, Lacerba) dimmelo qui."
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
@@ -31,10 +36,14 @@
   {
    "quando": "17/11 21:17",
    "testo": "REVISIONATA 21:18 · 50:08,6 · 90257 fotogrammi · -16,0 LUFS · picco -2,0 dBTP · quiz +0,003 s · sync <=0,016 s · da riascoltare: pronuncia voci (Rebora, Lacerba) e ~12 frasi dei sottotitoli · rapporto su revisione-letteratura-V-lez10"
+  },
+  {
+   "quando": "19/11 19:02",
+   "testo": "chat revisione 10 (v3) partita: la v2 del 17/11 risulta gia consegnata (REVISIONATA 50:08,6). Ricontrollo i punti NV del rapporto: ascolto, pronuncia voci Kore, sottotitoli, confronto PDF-video, fermi riquadro"
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 10 · Il primo Novecento e la lirica italiana",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-17 21:17:56"
+ "aggiornato": "2026-11-19 19:02:21"
 }
