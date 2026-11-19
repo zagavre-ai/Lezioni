@@ -555,10 +555,14 @@
   {
    "quando": "19/11 12:59",
    "testo": "Parte 1 = 57,5 min con segnaposto; tolte 3 costruzioni (pinces, jeans, odalisca) per stare sotto 60. Capri: a voce 'UA per 3 piu 5 cm' (68 cm), nel PDF 'lunghezza totale 63 cm, UA per tre'. Impuntura 'a riva' corretta nei sottotitoli. Consegna su GitHub: vedi esito upload"
+  },
+  {
+   "quando": "19/11 12:59",
+   "testo": "UPLOAD su GitHub NON riuscito: 403 'Write access to this GitHub API path is not permitted through this proxy'. Tutto pronto in lezioni/moda-laboratori-III-IV-lez04/nn/consegna (video, vtt, slide, quiz, rapporto, upload.py): serve consegna manuale o via master"
   }
  ],
  "materia": "Laboratori tecnologici ed esercitazione",
  "lezione": "Lezione 4 · Pantalone",
  "docente": "Prof.ssa Piera Caputi",
- "aggiornato": "2026-11-19 12:59:31"
+ "aggiornato": "2026-11-19 12:59:43"
 }
