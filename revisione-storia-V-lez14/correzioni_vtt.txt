@@ -1,0 +1,29 @@
+Correzioni applicate ai sottotitoli (espressione -> sostituzione):
+Tsigievich  ->  Sergeevič
+\bStinizzazione  ->  Stalinizzazione
+\bstinizzazione  ->  stalinizzazione
+Puripartitifica  ->  Pluripartitismo
+Marbatico  ->  Mar Baltico
+Ariatico  ->  Adriatico
+l'Estonia e Tonio-Lituani  ->  l'Estonia, la Lettonia e la Lituania
+\bShuhan  ->  Shoah
+Hutley  ->  Attlee
+Pancov  ->  Pankow
+Respondo  ->  Rispondo
+Rpartire  ->  Ripartire
+Liticarono  ->  Litigarono
+Dopi bombardamenti  ->  Dopo i bombardamenti
+piano Mars\b  ->  piano Marshall
+piazza delle Toiles  ->  piazza dell'Étoile
+\bVene preso  ->  Venne preso
+\bIniz in Europa  ->  Inizia in Europa
+\bUrs\b  ->  URSS
+dell'URS\b  ->  dell'URSS
+\bFat sta  ->  Fatto sta
+\bTut quello  ->  Tutto quello
+soprattut Stalin  ->  soprattutto Stalin
+Yugoslavia  ->  Jugoslavia
+\bRiduci dalla  ->  Reduci dalla
+il Piero Marshall  ->  il piano Marshall
+Henry Truman  ->  Harry Truman
+\bNato\b  ->  NATO
