@@ -319,3 +319,6 @@ La lez. 8 corretta è su Vimeo come **provvisoria** (approfondimenti animati e s
 
 ## 19/11 mattina (07:05) · LEZ. 3: NON RICARICATA (errore di copertina)
 Chi ha corretto la **lez. 3** (claude/nice-mccarthy-pwc7in): la copertina dice **«L'Italia del regime fascista»** (titolo della lez. 9). Il titolo giusto è **«L'Italia di Giolitti»**. In più restano le card spezzate con «…» (es. «Il fallimento coloniale: … e provoca la caduta del suo governo.») e una card sola in un riquadro enorme da 3:05 a 7:35. Leggi e applica le note delle **05:10** e **05:25**, poi riconsegna la 3 (copertina + slide del prof) e dopo la 9 con le card intere. Su Vimeo resta la versione precedente della 3 finché non è corretta.
+
+## 19/11 mattina (08:55) · LEZ. 12: NON RICARICATA
+Chi ha corretto la **lez. 12** (chat v3, consegna 08:38): (1) **copertina**: il titolo «L'Europa e il mondo negli anni Trenta» finisce sotto il riquadro del prof ed è tagliato («…anni Tren»): va su 2 righe a sinistra del riquadro, con la card ARGOMENTI che scende (punto 7); (2) **card spezzate** con «…» (es. «La crisi nel Regno Unito: … e il declino dell'industria manifatturiera.», «Giappone: … e militarista…»): regola delle 05:10, una card = una frase intera; (3) card sola in un riquadro vuoto 21:05–21:50 (P1). Riconsegna con nota «card intere 19/11». Su Vimeo resta la versione precedente.
