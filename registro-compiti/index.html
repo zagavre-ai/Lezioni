@@ -143,7 +143,7 @@ footer b{color:var(--ink)}
 }
 .tabs{display:flex;flex-wrap:wrap;gap:6px}.tab{border:1px solid #c9d2e3;background:#fff;color:#0B1530;border-radius:999px;padding:6px 12px;font-weight:600;font-size:14px;font-family:inherit;line-height:1.2;cursor:pointer}.tab.on{background:#0B1530;color:#fff;border-color:#0B1530}
 </style>
-<meta name="versione" content="2026-11-19a">
+<meta name="versione" content="2026-11-19b">
 <script>/* se GitHub ha una versione più nuova di questa pagina, la carica subito (niente più «non vedo le novità») */
 (function(){try{var mia=document.querySelector('meta[name=versione]').content;
 fetch(location.pathname,{cache:'reload'}).then(function(r){return r.text()}).then(function(t){var m=t.match(/name="versione" content="([^"]+)"/);
@@ -203,7 +203,7 @@ details.sec>summary small{text-transform:none;font-weight:normal;opacity:.85}
 <script>
 /* Un registro = un alunno + una materia. Il codice del registro arriva dal PDF nella cartella (?c=...&m=...). */
 const Q=new URLSearchParams(location.search);
-const CODE=Q.get('c')||'prova';
+const CODE=(Q.get('c')||'prova').trim().replace(/^(c=)+/i,'').replace(/[^A-Za-z0-9]/g,'')||'prova'; /* 19/11: alcune porte avevano «?c=c=…» */
 let MAT=Q.get('m')||'';let MATERIE=[];let ALUNNO=null;
 const DEMO=CODE==='prova';
 const KEY='telesio_registro_'+CODE;
