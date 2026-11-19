@@ -1,132 +1,317 @@
 [
  {
-  "nome": "MAP1",
-  "testo": "La mappa degli Stati Uniti dopo l'undici settembre. Primo ramo: l'undici settembre duemilauno gli attentati di Al-Qaeda colpiscono le Torri Gemelle e il Pentagono. Secondo ramo: comincia l'era dell'angoscia. Terzo ramo: la guerra al terrore del presidente George W. Bush, contro i talebani in Afghanistan. Quarto ramo: nel duemilatré la guerra contro l'Iraq di Saddam Hussein, con un obiettivo poi rivelatosi infondato.",
+  "nome": "BEN1",
+  "testo": "Benvenuti alla lezione di Storia. Oggi parliamo del mondo dal duemilauno ad oggi. In questa prima parte il professor Giorgio Mazzotti ci guida attraverso tre argomenti: gli Stati Uniti dopo l'undici settembre, il Medio Oriente e il Nord Africa, e la crisi economica con le presidenze di Obama e Trump.",
   "lingua": "it"
  },
  {
-  "nome": "MAP2",
-  "testo": "La mappa del Medio Oriente e del Nord Africa. Primo ramo: il conflitto israelo-palestinese, aggravato dall'ascesa di Hamas nella Striscia di Gaza. Secondo ramo: le primavere arabe del duemiladieci e duemilaundici, in Tunisia, Egitto e Libia. Terzo ramo: le guerre civili in Libia e in Siria e l'ascesa dello Stato Islamico. Quarto ramo: la Turchia di Erdoğan, sempre più autoritaria e nazionalista. Quinto ramo: l'Iran dopo Khomeini, con un forte controllo teocratico e restrizioni sui diritti delle donne.",
+  "nome": "PI1",
+  "testo": "Facciamo un riepilogo di quello che hai appena visto: Gli USA dopo l'11 settembre. Guarda lo schema e ripeti ad alta voce.",
   "lingua": "it"
  },
  {
-  "nome": "MAP3",
-  "testo": "La mappa della crisi e delle presidenze americane. Primo ramo: tra il duemilasette e il duemilaotto la crisi dei mutui subprime provoca una recessione globale. Secondo ramo: Barack Obama, primo presidente afroamericano, con la riforma della sanità. Terzo ramo: Donald Trump e lo slogan America First, con il protezionismo e la lotta all'immigrazione. Quarto ramo: la fine della presidenza Trump, con l'assalto a Capitol Hill del sei gennaio duemilaventuno.",
+  "nome": "SC1_1",
+  "testo": "Primo: nel duemilauno gli attentati di Al-Qaeda colpiscono le Torri Gemelle e il Pentagono, e inizia l'era dell'angoscia.",
   "lingua": "it"
  },
  {
-  "nome": "MAP4",
-  "testo": "La mappa del mondo multipolare. Primo ramo: i BRICS, cioè Brasile, Russia, India, Cina e Sudafrica, sfidano l'egemonia degli Stati Uniti. Secondo ramo: la Cina diventa una superpotenza globale, con la Nuova via della seta. Terzo ramo: la Russia di Putin, autoritaria all'interno e aggressiva all'esterno. Quarto ramo: i paesi emergenti, che crescono ma restano segnati da forti disuguaglianze. Quinto ramo: la guerra in Ucraina del duemilaventidue.",
+  "nome": "SC1_2",
+  "testo": "Secondo: Bush lancia una campagna militare globale contro il terrorismo e il regime talebano in Afghanistan.",
   "lingua": "it"
  },
  {
-  "nome": "MAP5",
-  "testo": "La mappa dell'Europa e dell'Italia. Primo ramo: la crisi del duemilaotto e le politiche di austerità, che colpiscono soprattutto la Grecia. Secondo ramo: crescono l'euroscetticismo e il populismo. Terzo ramo: la Brexit, decisa con il referendum del duemilasedici. Quarto ramo: in Italia, i governi tecnici come quello di Mario Monti. Quinto ramo: nel duemiladiciotto si affermano il Movimento Cinque Stelle e la Lega. Sesto ramo: nel duemilaventidue Giorgia Meloni è la prima donna Presidente del Consiglio.",
+  "nome": "SC1_3",
+  "testo": "Terzo: nel duemilatre gli USA attaccano l'Iraq di Saddam Hussein per distruggere presunte armi di distruzione di massa, poi rivelatesi infondate.",
   "lingua": "it"
  },
  {
-  "nome": "MAP6",
-  "testo": "La mappa delle questioni aperte. Primo ramo: la pandemia del duemilaventi, con i lockdown e le campagne vaccinali. Secondo ramo: i fondi europei del Next Generation EU. Terzo ramo: la guerra in Ucraina, dopo l'annessione della Crimea nel duemilaquattordici. Quarto ramo: la crisi climatica, con gli Accordi di Parigi e l'Agenda duemilatrenta. Quinto ramo: le migrazioni, con l'Italia tra i principali paesi di approdo.",
+  "nome": "SC1_4",
+  "testo": "Quarto: anche dopo le guerre l'Afghanistan e l'Iraq restano pattugliati dagli Stati Uniti e le tensioni continuano.",
   "lingua": "it"
  },
  {
-  "nome": "MAPF1",
-  "testo": "La mappa di tutta la lezione. L'undici settembre e la guerra al terrore. Il Medio Oriente, dalle primavere arabe all'ISIS. Gli Stati Uniti della crisi, di Obama e di Trump. Il mondo multipolare dei BRICS, della Cina e della Russia. L'Europa e l'Italia, tra crisi, populismo e nuovi governi. Le questioni aperte: pandemia, Ucraina, clima e migrazioni.",
+  "nome": "AP1_0",
+  "testo": "Dopo la fine dell'Unione Sovietica sembrava che la storia fosse arrivata a una sintesi, la cosiddetta fine della storia. Ma l'ONU resta bloccata dai veti incrociati di Russia, Stati Uniti e Cina nel Consiglio di Sicurezza. Gli attentati dell'undici settembre mettono in crisi la supremazia mondiale degli Stati Uniti. Si apre così una stagione di nuovi scenari e di nuove tensioni. Il mondo bipolare lascia il posto a un mondo multipolare, più imprevedibile: è il mondo in cui viviamo. Per questo ripensare l'ONU e il suo meccanismo di sorveglianza, in vigore dal millenovecentoquarantacinque, è oggi una questione aperta.",
   "lingua": "it"
  },
  {
-  "nome": "AN1",
-  "testo": "Dall'undici settembre all'Iraq. L'undici settembre duemilauno Al-Qaeda colpisce le Torri Gemelle e il Pentagono. Il presidente George W. Bush lancia la guerra al terrore e attacca il regime talebano in Afghanistan. Nel duemilatré gli Stati Uniti attaccano l'Iraq di Saddam Hussein.",
+  "nome": "AP1_1",
+  "testo": "Dopo gli attentati, l'amministrazione del presidente Bush parla del male assoluto, che è il terrorismo islamico. Come Reagan aveva parlato di impero del male, Bush costruisce una dottrina militare basata sulla sicurezza nazionale. Il principio è che nessun attentato deve più colpire il suolo americano. Per questo non basta difendersi: servono interventi preventivi contro gli Stati che ospitano o proteggono i terroristi. È la strategia della guerra al terrore, la campagna militare globale degli Stati Uniti. Dall'invasione inglese dell'Ottocento gli Stati Uniti non erano mai stati di fatto attaccati sul proprio suolo.",
   "lingua": "it"
  },
  {
-  "nome": "AN2",
-  "testo": "Dalle primavere arabe all'ISIS. In molti paesi governano regimi autoritari. I cittadini chiedono libertà e migliori condizioni economiche. Tra il duemiladieci e il duemilaundici scoppiano proteste in Tunisia, Egitto e Libia. I vecchi regimi crollano. In Libia e in Siria scoppiano sanguinose guerre civili, e cresce lo Stato Islamico.",
+  "nome": "PI2",
+  "testo": "Facciamo un riepilogo di quello che hai appena visto: Medio Oriente e Nord Africa. Guarda lo schema e ripeti ad alta voce.",
   "lingua": "it"
  },
  {
-  "nome": "AN3",
-  "testo": "Tre presidenti americani. George W. Bush lancia la guerra al terrore dopo l'undici settembre. Barack Obama, primo presidente afroamericano, promuove la riforma della sanità e una politica estera di dialogo. Con Donald Trump arrivano il protezionismo, la lotta all'immigrazione e una forte polarizzazione sociale.",
+  "nome": "SC2_1",
+  "testo": "Primo: nonostante i tentativi di pace la regione resta instabile, e cresce il movimento islamista di Hamas a Gaza.",
   "lingua": "it"
  },
  {
-  "nome": "AN4",
-  "testo": "I BRICS, lettera per lettera. Brasile: un paese emergente in forte sviluppo. Russia: molto aggressiva, fino alla guerra in Ucraina. India: forte sviluppo industriale e demografico. Cina: una superpotenza economica. Sudafrica: crescita, ma con profonde disuguaglianze sociali.",
+  "nome": "SC2_2",
+  "testo": "Secondo: nel duemiladieci e duemilaundici proteste popolari contro i regimi autoritari in Tunisia, Egitto e Libia.",
   "lingua": "it"
  },
  {
-  "nome": "AN5",
-  "testo": "L'Italia nel nuovo secolo. I primi anni Duemila sono segnati dall'alternanza tra Silvio Berlusconi e Romano Prodi. Nel duemilaundici cade il governo Berlusconi e arriva il governo tecnico di Mario Monti. Nel duemiladiciotto vincono il Movimento Cinque Stelle e la Lega. Durante la pandemia nascono governi di unità nazionale, con Conte e poi con Draghi. Nel duemilaventidue Giorgia Meloni diventa la prima donna Presidente del Consiglio.",
+  "nome": "SC2_3",
+  "testo": "Terzo: il crollo dei vecchi regimi provoca guerre civili in Libia e Siria e favorisce l'ascesa dell'ISIS.",
   "lingua": "it"
  },
  {
-  "nome": "AN6",
-  "testo": "L'Europa dopo la crisi. La crisi del duemilaotto colpisce duramente l'Europa. Diventa una crisi del debito sovrano per Irlanda, Grecia, Spagna, Portogallo e Italia. Arrivano severe politiche di austerità. Cresce la sfiducia verso le istituzioni europee: euroscetticismo e populismo. Nel duemilasedici il Regno Unito vota per uscire dall'Unione Europea: è la Brexit, formalizzata nel duemilaventi.",
+  "nome": "SC2_4",
+  "testo": "Quarto: la Turchia si trasforma in senso autoritario e nazionalista, allontanandosi dai valori europei.",
   "lingua": "it"
  },
  {
-  "nome": "AN7",
-  "testo": "Le crisi del nostro tempo. Nel duemilaquattordici la Russia annette la Crimea. Nel duemilaventi la pandemia di Covid colpisce l'Italia e l'Europa. Nel febbraio duemilaventidue l'esercito russo invade l'Ucraina. Contro la crisi climatica la comunità internazionale adotta l'Agenda duemilatrenta.",
+  "nome": "SC2_5",
+  "testo": "Quinto: l'Iran oscilla tra riformisti e conservatori, con un forte controllo teocratico e restrizioni sui diritti civili delle donne.",
   "lingua": "it"
  },
  {
-  "nome": "GL1",
-  "testo": "Le parole chiave della lezione. Era dell'angoscia: il clima di paura dopo l'undici settembre. Primavere arabe: le proteste popolari del duemiladieci e duemilaundici. Mutui subprime: i prestiti all'origine della crisi del duemilaotto. BRICS: Brasile, Russia, India, Cina e Sudafrica. Austerità: politiche severe di risparmio e di tagli. Euroscetticismo: la sfiducia dei cittadini verso le istituzioni europee.",
+  "nome": "MPR3",
+  "testo": "Ecco la mappa del Medio Oriente e Nord Africa. Il conflitto arabo-israeliano è ancora in corso. Le primavere arabe del duemilaundici: cadono i regimi in Tunisia, Egitto, Libia e Siria. Si costituisce l'ISIS fra Siria e Libia.",
   "lingua": "it"
  },
  {
-  "nome": "R1",
-  "testo": "Ripassiamo. L'undici settembre duemilauno gli attentati di Al-Qaeda aprono l'era dell'angoscia. Bush risponde con la guerra al terrore in Afghanistan e, nel duemilatré, con la guerra in Iraq.",
+  "nome": "AP2_0",
+  "testo": "Le primavere arabe sono rivolte popolari contro i regimi autoritari del Nord Africa e del Medio Oriente. Scoppiano in Tunisia alla fine del duemiladieci e si propagano in Egitto all'inizio del duemilaundici, poi in Libia e in Siria. I manifestanti chiedono democrazia, riforme economiche e la fine di regimi autoritari che duravano da decenni. In Egitto la protesta è contro Mubarak, in Tunisia contro Ben Ali, in Siria contro il figlio del presidente precedente. Egitto, Tunisia e Libia vedono cadere i regimi; la Siria no, perché Assad resta al potere, aiutato dalle armi russe di Putin. In Siria la rivolta si trasforma in una guerra che dura dodici anni, dal duemilaundici al duemilaventiquattro.",
   "lingua": "it"
  },
  {
-  "nome": "R2",
-  "testo": "Ripassiamo. Il Medio Oriente resta instabile, tra il conflitto israelo-palestinese e l'ascesa di Hamas. Le primavere arabe fanno cadere vecchi regimi, ma portano guerre civili e l'ascesa dell'ISIS.",
+  "nome": "PI3",
+  "testo": "Facciamo un riepilogo di quello che hai appena visto: Crisi, Obama e Trump. Guarda lo schema e ripeti ad alta voce.",
   "lingua": "it"
  },
  {
-  "nome": "R3",
-  "testo": "Ripassiamo. La crisi dei mutui subprime del duemilaotto provoca una recessione globale. Obama punta su riforme sociali e dialogo; Trump su protezionismo e America First, fino all'assalto a Capitol Hill.",
+  "nome": "SC3_1",
+  "testo": "Quarto: tra il duemilasette e il duemilaotto i costi delle guerre e la crisi dei mutui subprime provocano una grave recessione globale.",
   "lingua": "it"
  },
  {
-  "nome": "R4",
-  "testo": "Ripassiamo. Nel mondo multipolare i BRICS contestano l'egemonia degli Stati Uniti. La Cina diventa una superpotenza, mentre la Russia di Putin reprime il dissenso e segue una politica estera aggressiva.",
+  "nome": "SC3_2",
+  "testo": "Primo: dal duemilaotto al duemilasedici il primo presidente afroamericano promuove riforme sociali e una politica estera basata sul dialogo.",
   "lingua": "it"
  },
  {
-  "nome": "R5",
-  "testo": "Ripassiamo. In Europa la crisi porta austerità, euroscetticismo e la Brexit. In Italia, dopo il bipolarismo, arrivano i governi tecnici, i partiti populisti, i governi di unità nazionale e il governo Meloni.",
+  "nome": "SC3_3",
+  "testo": "Secondo: dal duemilasedici al duemilaventi lo slogan America First porta a protezionismo, contrasto all'immigrazione e forte polarizzazione.",
   "lingua": "it"
  },
  {
-  "nome": "R6",
-  "testo": "Ripassiamo. La pandemia, la guerra in Ucraina, la crisi climatica e le migrazioni sono le grandi questioni aperte del nostro tempo.",
+  "nome": "SC3_4",
+  "testo": "Terzo: la chiudono le proteste di Black Lives Matter, la gestione della pandemia e l'assalto a Capitol Hill del sei gennaio duemilaventuno.",
   "lingua": "it"
  },
  {
-  "nome": "RF1",
-  "testo": "Ripasso finale. Dall'undici settembre la supremazia degli Stati Uniti entra in crisi. Il mondo diventa multipolare, mentre Europa e Italia affrontano crisi economiche, populismi e nuove sfide globali.",
+  "nome": "MPR1",
+  "testo": "Ecco la mappa degli Stati Uniti dopo l'attentato dell'undici settembre duemilauno. Segue la guerra in Iraq del duemilatre. Poi la crisi economica duemilasette-duemilaotto, diventata poi mondiale. Nel duemilaotto, Barack Obama, primo presidente afroamericano. Le riforme sociali di Obama non bastano a risollevare l'economia statunitense: avanzano i conservatori. Donald Trump diventa presidente nel duemilasedici fino al duemilaventi, e poi ancora nel duemilaventiquattro: protezionismo, lotta all'immigrazione e populismo.",
   "lingua": "it"
  },
  {
-  "nome": "FIN1",
-  "testo": "Per oggi è tutto. Con questa lezione siamo arrivati ai giorni nostri. Ora mettiti alla prova con la verifica finale e con i compiti. Ti aspetto.",
+  "nome": "AP3_0",
+  "testo": "Le conseguenze dei costosi conflitti in Iraq e in Afghanistan si uniscono a una devastante crisi finanziaria interna. È la crisi dei mutui subprime, scoppiata tra il duemilasette e il duemilaotto. Erano mutui concessi a chiunque, a tasso agevolato, senza troppe garanzie sulla situazione patrimoniale. La crisi mette a rischio la stabilità del dollaro e dello stipendio di un americano medio. Da qui nasce anche la crisi del debito sovrano in Europa, che condiziona governi, partiti e campagne elettorali. Da questa crisi, ricorda il prof, non ci siamo mai del tutto ripresi. Chi aveva bisogno di centomila dollari per comprare casa li otteneva subito dalla banca.",
   "lingua": "it"
  },
  {
-  "nome": "BENV1",
-  "testo": "Benvenuta e benvenuto alla lezione di Storia. Oggi il professor Mazzotti ci accompagna nel mondo dal duemilauno ad oggi. Alla fine di ogni argomento ti aspetta un breve quiz.",
+  "nome": "AP3_1",
+  "testo": "La fine della presidenza Trump è segnata da tensioni polarizzate ed esasperate. Crescono le tensioni razziali e il contrasto ai diritti civili della popolazione afroamericana e ispanica. Il sei gennaio duemilaventuno una folla di sostenitori di Trump assalta Capitol Hill, sede del Congresso a Washington. Gli assalitori entrano nei palazzi del potere, ma non alla Casa Bianca. È una conclusione drammatica, che esaspera il clima del paese. Il gesto è descritto dal prof come infantile, e rende il clima del paese ancora più teso. Colpiscono il Parlamento degli Stati Uniti, il Congresso.",
   "lingua": "it"
  },
  {
-  "nome": "COMPI",
-  "testo": "Ora tocca a te: ecco i compiti.",
+  "nome": "LG0",
+  "testo": "Ripassiamo le parole chiave della lezione.",
   "lingua": "it"
  },
  {
-  "nome": "MAPF1B",
-  "testo": "La mappa di tutta la lezione. L'undici settembre e la guerra al terrore. Il Medio Oriente, dalle primavere arabe all'ISIS. Gli Stati Uniti della crisi, di Obama e di Trump. Il mondo multipolare dei BRICS, della Cina e della Russia. L'Europa e l'Italia, tra crisi, populismo e nuovi governi. Le questioni aperte: pandemia, Ucraina, clima e migrazioni.",
+  "nome": "LG1",
+  "testo": "Era dell'angoscia: il clima di paura aperto dagli attentati dell'11 settembre 2001.",
+  "lingua": "it"
+ },
+ {
+  "nome": "LG2",
+  "testo": "Guerra al terrore: la campagna militare globale lanciata da Bush contro il terrorismo.",
+  "lingua": "it"
+ },
+ {
+  "nome": "LG5",
+  "testo": "Primavere arabe: le proteste popolari del 2010-2011 contro i regimi autoritari nordafricani.",
+  "lingua": "it"
+ },
+ {
+  "nome": "LG3",
+  "testo": "America First: lo slogan di Trump: protezionismo, contrasto all'immigrazione, polarizzazione.",
+  "lingua": "it"
+ },
+ {
+  "nome": "FZ1",
+  "testo": "Ricapitoliamo questa prima parte. Gli Stati Uniti dopo l'undici settembre, il Medio Oriente e le primavere arabe, e la crisi economica, da Obama a Trump.",
+  "lingua": "it"
+ },
+ {
+  "nome": "BEN2",
+  "testo": "Benvenuti alla seconda parte della lezione sul mondo dal duemilauno ad oggi. Con il professor Giorgio Mazzotti vediamo quattro argomenti: il mondo multipolare, l'Europa tra crisi e secessioni, l'Italia nel ventunesimo secolo e le questioni aperte dell'attualità.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PI4",
+  "testo": "Facciamo un riepilogo di quello che hai appena visto: Un mondo multipolare. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC4_1",
+  "testo": "Primo: Brasile, Russia, India, Cina e Sudafrica si uniscono per contestare l'egemonia globale ed economica degli Stati Uniti.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC4_2",
+  "testo": "Secondo: la Cina diventa superpotenza grazie a una crescita vertiginosa e a progetti come la Nuova via della seta.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC4_3",
+  "testo": "Terzo: regime autoritario, repressione del dissenso e politica estera aggressiva contro l'espansione della NATO.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC4_4",
+  "testo": "Quarto: paesi emergenti con forte sviluppo industriale e demografico, ma segnati da profonde disuguaglianze.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MPR2",
+  "testo": "Ecco la mappa dei nuovi Stati emergenti a partire dal duemila: i BRICS. Brasile. Russia, molto aggressiva, fino alla guerra in Ucraina del duemilaventidue. India. Cina, superpotenza economica. Sudafrica.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AP4_0",
+  "testo": "Dal duemilaquattro al duemilaotto Putin è presidente; poi, per quattro anni, non lo è più ufficialmente. Si ripresenta nel duemiladodici e fa modificare la costituzione per allungare la propria permanenza al potere. Putin salva l'economia russa e centralizza il potere economico e politico nel Cremlino. Lo fa attraverso repressione, censura e arresti. La sua politica estera è sempre più assertiva e nazionalista, per restituire alla Russia il ruolo di grande potenza globale. Per Putin è stato un errore far cessare l'impero sovietico. Per superare la crisi degli anni Novanta, il potere si concentra nella sua persona.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PI5",
+  "testo": "Facciamo un riepilogo di quello che hai appena visto: L'Europa tra crisi e secessioni. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC5_1",
+  "testo": "Primo: la crisi del duemilaotto colpisce duramente i paesi europei, in particolare la Grecia, con severe politiche di austerità.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC5_2",
+  "testo": "Secondo: cresce la sfiducia nelle istituzioni europee e crescono i partiti sovranisti, nazionalisti e la xenofobia.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC5_3",
+  "testo": "Terzo: nel duemilasedici un referendum decide l'uscita del Regno Unito dall'Unione Europea, formalizzata nel duemilaventi.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC5_4",
+  "testo": "Quarto: la Germania è guidata a lungo da Angela Merkel, mentre la Francia vive forti tensioni sociali prima dell'elezione di Emmanuel Macron.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AP5_0",
+  "testo": "L'impatto della crisi del duemilaotto colpisce duramente diversi paesi dell'Unione Europea e dell'euro. Le analisi dicono che i paesi più poveri, tra cui l'Italia, con la valuta nazionale avrebbero sofferto ancora di più. La Grecia subisce un impatto devastante, anche perché aveva fatto carte false per entrare nell'euro. In questo clima di insoddisfazione pesa anche la difficile gestione dei flussi migratori dal Mediterraneo. Il malcontento alimenta la sfiducia verso le istituzioni europee e i partiti sovranisti. L'euro si stava consolidando, ma la crisi ha finito per esasperare le difficoltà.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PI6",
+  "testo": "Facciamo un riepilogo di quello che hai appena visto: L'Italia nel XXI secolo. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC6_1",
+  "testo": "Primo: i primi anni Duemila vedono il bipolarismo e l'alternanza tra Berlusconi, centrodestra, e Prodi, centrosinistra.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC6_2",
+  "testo": "Secondo: per la crisi economica nascono governi tecnici come quello di Monti, seguiti da esecutivi deboli e instabili.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC6_3",
+  "testo": "Terzo: alle elezioni del duemiladiciotto si impongono il Movimento 5 Stelle e la Lega.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC6_4",
+  "testo": "Quarto: durante la pandemia si formano governi di coalizione allargata, tra cui il secondo governo Conte e il governo Draghi.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC6_5",
+  "testo": "Quinto: nel duemilaventidue vince il centrodestra guidato da Giorgia Meloni, prima donna Presidente del Consiglio.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MPR4",
+  "testo": "Ecco la mappa dell'Europa e dell'Italia nel periodo della crisi del duemilaotto. La crisi del debito sovrano colpisce soprattutto Irlanda, Grecia, Spagna, Portogallo e Italia. Aumentano euroscetticismo e populismo, con la Brexit come caso esemplare. Servono governi stabili: il quarto governo Berlusconi cade nel duemilaundici e arriva il governo tecnico di Monti. In Italia il Movimento 5 Stelle raccoglie il dissenso contro la politica e l'austerità. Segue la vittoria parziale del duemiladiciotto. Durante il Covid, Draghi guida un governo tecnico.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AP6_0",
+  "testo": "Giorgia Meloni è la prima donna a ricoprire la carica di Presidente del Consiglio nella storia italiana. Guida una coalizione di centrodestra a guida nazionalista, con Fratelli d'Italia. Il suo esecutivo gestisce le sfide dei finanziamenti europei del Recovery Fund, arrivati all'Italia per via del Covid. Sono miliardi che vanno ben spesi, per finanziare l'economia verde e la transizione ecologica. Dopo quattro anni il governo ha portato avanti la modernizzazione del paese, anche in termini tecnologici. Il governo sostiene una linea dura contro le azioni nazionaliste e imperialiste di Putin. I fondi europei sono un'occasione per fare bene i compiti a casa e far affluire i capitali.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PI7",
+  "testo": "Facciamo un riepilogo di quello che hai appena visto: Le questioni aperte. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC7_1",
+  "testo": "Primo: nel duemilaventi l'Italia e l'Europa affrontano una crisi sanitaria con lockdown, vaccini e fondi europei del Next Generation EU.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC7_2",
+  "testo": "Secondo: dopo la Crimea del duemilaquattordici, nel febbraio duemilaventidue la Russia invade l'Ucraina su larga scala.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC7_3",
+  "testo": "Terzo: il riscaldamento globale provoca eventi estremi, e la risposta sono gli Accordi di Parigi e l'Agenda duemilatrenta.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC7_4",
+  "testo": "Quarto: conflitti, povertà e clima intensificano i flussi verso l'Europa, e l'Italia è uno dei principali paesi di approdo.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AP7_0",
+  "testo": "La seconda grande emergenza è la crisi climatica: aumentano le temperature medie e si moltiplicano gli eventi meteorologici estremi. Nonostante gli sforzi diplomatici, come l'accordo di Parigi del duemilaquindici, i paesi faticano a ridurre le emissioni. L'accordo di Parigi segue il protocollo di Kyoto del millenovecentonovantasette. India e Cina dicono che Europa e Stati Uniti sono cresciuti quanto volevano e che ora non devono impedire la loro crescita. Ridurre i gas serra e abbandonare i combustibili fossili, come il carbone, resta una questione molto difficile. Trump e la Cina, ad esempio, non rispettano gli accordi di Parigi.",
+  "lingua": "it"
+ },
+ {
+  "nome": "LG4",
+  "testo": "BRICS: Brasile, Russia, India, Cina e Sudafrica, i paesi emergenti che contestano l'egemonia americana.",
+  "lingua": "it"
+ },
+ {
+  "nome": "LG6",
+  "testo": "Euroscetticismo: la sfiducia verso le istituzioni europee, alimentata dalla crisi del 2008.",
+  "lingua": "it"
+ },
+ {
+  "nome": "LG7",
+  "testo": "Brexit: l'uscita del Regno Unito dall'Unione Europea, decisa nel 2016 e formalizzata nel 2020.",
+  "lingua": "it"
+ },
+ {
+  "nome": "LG8",
+  "testo": "Governo tecnico: un governo di esperti nato per affrontare la crisi, come quello di Monti.",
+  "lingua": "it"
+ },
+ {
+  "nome": "FZ2",
+  "testo": "Ricapitoliamo questa seconda parte. Il mondo multipolare dei BRICS, l'Europa tra crisi e Brexit, l'Italia del ventunesimo secolo e le questioni aperte dell'attualità.",
   "lingua": "it"
  }
 ]
