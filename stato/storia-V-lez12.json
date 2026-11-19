@@ -1,50 +1,14 @@
 {
  "tag": "storia-V-lez12",
- "parti": {
-  "1": {
-   "stato": "REVISIONATA",
-   "voci": "kore",
-   "quiz_ok": "si",
-   "fermi_ok": "si",
-   "sub_ok": "si",
-   "vtt": "si"
-  },
-  "2": {
-   "stato": "REVISIONATA",
-   "voci": "kore",
-   "quiz_ok": "si",
-   "fermi_ok": "si",
-   "sub_ok": "si",
-   "vtt": "si"
-  }
- },
- "manca": "da confermare col prof: Sudeti 1938/1939 (mappa vs slide); 1 aprile 1936 detto dal prof",
- "serve_master": [
-  {
-   "quando": "18/11 15:23",
-   "testo": "Voci Kore nuove: 51 testi (B0,B2,MD1-3,P1-9,SC*) nel ramo voci-storia-V-lez12, commit e86b3cb. Servono per pillole, schemi e mappe del prof: senza non chiudo."
-  }
- ],
+ "parti": {},
+ "manca": "",
+ "serve_master": [],
  "domande_sara": [],
  "note": [
   {
-   "quando": "18/11 14:52",
-   "testo": "chat v3: parto; voci Kore gia presenti (52), nessuna consegna precedente"
-  },
-  {
-   "quando": "18/11 15:23",
-   "testo": "slide/prof/schede in corso; 2 Parti (P1: arg 1-5, P2: arg 6-9)"
-  },
-  {
-   "quando": "18/11 17:26",
-   "testo": "Parte 1: 28:58,9 · LUFS -16,7 · quiz a +0,005 s · ramo revisione-storia-V-lez12"
-  },
-  {
-   "quando": "18/11 17:27",
-   "testo": "Parte 2: 38:38,4 · LUFS -16,8 · quiz a +0,005 s · ramo revisione-storia-V-lez12"
+   "quando": "19/11 05:56",
+   "testo": "correzioni 19/11: presa da claude/nice-mccarthy-pwc7in"
   }
  ],
- "materia": "storia-V",
- "lezione": "12",
- "aggiornato": "2026-11-18 17:27:03"
+ "aggiornato": "2026-11-19 05:56:05"
 }
