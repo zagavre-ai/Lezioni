@@ -1,0 +1,254 @@
+{
+ "materia": "Storia",
+ "titolo": "Storia V · Lezione 19 · L'Italia dal '68 alla crisi della Prima Repubblica",
+ "parte": 1,
+ "durata_s": 2805.567,
+ "argomenti": [
+  {
+   "n": 1,
+   "titolo": "Il Sessantotto e la protesta studentesca",
+   "inizio_s": 322.633,
+   "quiz_s": 1084.333
+  },
+  {
+   "n": 2,
+   "titolo": "L'Autunno caldo e le riforme",
+   "inizio_s": 1088.933,
+   "quiz_s": 1448.733
+  },
+  {
+   "n": 3,
+   "titolo": "Gli anni di piombo e lo stragismo",
+   "inizio_s": 1453.333,
+   "quiz_s": 2221.167
+  },
+  {
+   "n": 4,
+   "titolo": "Il caso Moro e la solidarietà nazionale",
+   "inizio_s": 2225.767,
+   "quiz_s": 2735.467
+  }
+ ],
+ "quiz": {
+  "Q1": {
+   "title": "Quiz 1 · Il Sessantotto e la protesta studentesca",
+   "items": [
+    {
+     "p": "Che cosa contestano i giovani che scendono in piazza alla fine degli anni Sessanta?",
+     "a": "Il sistema scolastico tradizionale e l'autoritarismo",
+     "w": [
+      "Il servizio militare obbligatorio",
+      "La nascita delle Regioni",
+      "Lo Statuto dei lavoratori"
+     ],
+     "e": "Gli studenti contestano la scuola tradizionale, rifiutando l'autoritarismo e i valori della società borghese."
+    },
+    {
+     "p": "A quali grandi temi globali il movimento studentesco unisce le proprie richieste?",
+     "a": "Antimperialismo e opposizione alla guerra del Vietnam",
+     "w": [
+      "Difesa della monarchia",
+      "Ritorno al proporzionale",
+      "Lotta alla stagflazione"
+     ],
+     "e": "Il movimento unisce le sue rivendicazioni all'antimperialismo e alla forte opposizione alla guerra del Vietnam."
+    },
+    {
+     "p": "Perché il boom economico non è stato omogeneo?",
+     "a": "Ha favorito soprattutto le città e spopolato le campagne",
+     "w": [
+      "Ha favorito solo il Sud",
+      "Ha riguardato solo l'agricoltura",
+      "È durato fino agli anni Novanta"
+     ],
+     "e": "Il boom è legato ai consumi nelle città; le campagne si spopolano a vantaggio dei centri urbani."
+    },
+    {
+     "p": "Perché cresce la popolazione studentesca negli anni Sessanta?",
+     "a": "Per la scolarizzazione di massa e la scuola media unica",
+     "w": [
+      "Per l'arrivo di studenti stranieri",
+      "Per la chiusura delle fabbriche",
+      "Per l'abolizione delle università private"
+     ],
+     "e": "L'obbligo scolastico e la scuola media unica portano a un enorme aumento degli studenti."
+    },
+    {
+     "p": "Che cosa fanno gli studenti durante la contestazione?",
+     "a": "Occupano le facoltà universitarie e poi i licei",
+     "w": [
+      "Fondano un nuovo partito di governo",
+      "Chiedono di abolire le scuole",
+      "Si arruolano nell'esercito"
+     ],
+     "e": "La contestazione porta all'occupazione delle facoltà e poi delle scuole superiori, con scontri con le forze dell'ordine."
+    }
+   ]
+  },
+  "Q2": {
+   "title": "Quiz 2 · L'Autunno caldo e le riforme",
+   "items": [
+    {
+     "p": "Che cos'è l'Autunno caldo del 1969?",
+     "a": "L'unione tra la protesta studentesca e le lotte degli operai",
+     "w": [
+      "Una crisi del petrolio",
+      "Una legge sul lavoro",
+      "Un attentato terroristico"
+     ],
+     "e": "Nel 1969 la mobilitazione studentesca si salda con le lotte dei lavoratori: gli operai del Nord avviano scioperi di massa."
+    },
+    {
+     "p": "Che cosa chiedono gli operai durante l'Autunno caldo?",
+     "a": "Salari più alti, diritti sindacali e più tutele",
+     "w": [
+      "La chiusura delle fabbriche",
+      "Meno ore di scuola",
+      "L'uscita dalla NATO"
+     ],
+     "e": "Gli operai chiedono il rinnovo dei contratti, aumenti salariali, maggiori diritti e migliori condizioni di vita."
+    },
+    {
+     "p": "Che cosa approva lo Stato nel 1970 per tutelare i diritti nelle fabbriche?",
+     "a": "Lo Statuto dei lavoratori",
+     "w": [
+      "La scala mobile",
+      "La legge Mattarella",
+      "Il diritto di famiglia"
+     ],
+     "e": "Nel 1970 lo Stato approva lo Statuto dei lavoratori per tutelare i diritti nelle fabbriche."
+    },
+    {
+     "p": "Perché vengono istituite le Regioni nei primi anni Settanta?",
+     "a": "Per decentrare il potere, come prevedeva la Costituzione",
+     "w": [
+      "Per sostituire i Comuni",
+      "Per abolire il Parlamento",
+      "Per gestire la crisi del petrolio"
+     ],
+     "e": "Le Regioni, previste dalla Costituzione, vengono finalmente attuate per decentrare il potere."
+    },
+    {
+     "p": "Che cosa cambia per l'università dopo le proteste?",
+     "a": "L'accesso diventa libero, anche da scuole diverse dal liceo",
+     "w": [
+      "Si può accedere solo dal liceo classico",
+      "Le università vengono chiuse",
+      "Diventa obbligatoria per tutti"
+     ],
+     "e": "La liberalizzazione degli accessi apre l'università anche a chi ha frequentato un istituto tecnico."
+    }
+   ]
+  },
+  "Q3": {
+   "title": "Quiz 3 · Gli anni di piombo e lo stragismo",
+   "items": [
+    {
+     "p": "Come vengono chiamati gli anni Settanta segnati dalla violenza politica?",
+     "a": "Anni di piombo",
+     "w": [
+      "Anni d'oro",
+      "Anni del riflusso",
+      "Anni della ricostruzione"
+     ],
+     "e": "La spirale di violenza politica ed eversiva degli anni Settanta prende il nome di «anni di piombo»."
+    },
+    {
+     "p": "Che cosa vuole ottenere la strategia della tensione?",
+     "a": "Destabilizzare l'ordine democratico con stragi contro i civili",
+     "w": [
+      "Rafforzare i sindacati",
+      "Ottenere il divorzio",
+      "Portare l'Italia fuori dalla NATO con un referendum"
+     ],
+     "e": "Il terrorismo neofascista mira a destabilizzare lo Stato democratico con stragi indiscriminate."
+    },
+    {
+     "p": "In quale città esplode la bomba di Piazza Fontana nel 1969?",
+     "a": "Milano",
+     "w": [
+      "Roma",
+      "Bologna",
+      "Torino"
+     ],
+     "e": "La bomba esplode nella banca di Piazza Fontana, a Milano, nel 1969."
+    },
+    {
+     "p": "Quale attentato di destra colpisce l'Italia nel 1980?",
+     "a": "La strage alla stazione di Bologna",
+     "w": [
+      "La strage di Capaci",
+      "L'agguato di via Fani",
+      "La strage di via D'Amelio"
+     ],
+     "e": "Nel 1980 l'attentato alla stazione di Bologna segna drammaticamente il periodo."
+    },
+    {
+     "p": "Chi colpiscono in modo mirato le Brigate Rosse?",
+     "a": "I simboli dello Stato: magistrati, giornalisti, forze dell'ordine",
+     "w": [
+      "Solo i turisti stranieri",
+      "Gli studenti universitari",
+      "I contadini del Sud"
+     ],
+     "e": "Le organizzazioni armate di estrema sinistra colpiscono in modo mirato i simboli dello Stato."
+    }
+   ]
+  },
+  "Q4": {
+   "title": "Quiz 4 · Il caso Moro e la solidarietà nazionale",
+   "items": [
+    {
+     "p": "In che giorno avviene l'agguato di via Fani?",
+     "a": "Il 16 marzo 1978",
+     "w": [
+      "Il 9 maggio 1978",
+      "Il 12 dicembre 1969",
+      "Il 2 agosto 1980"
+     ],
+     "e": "Il 16 marzo 1978, nel giorno dell'insediamento di un nuovo governo, le Brigate Rosse rapiscono Aldo Moro."
+    },
+    {
+     "p": "Che ruolo ha Aldo Moro quando viene rapito?",
+     "a": "Presidente della Democrazia Cristiana",
+     "w": [
+      "Segretario del Partito Socialista",
+      "Governatore della Banca d'Italia",
+      "Presidente della Repubblica"
+     ],
+     "e": "Aldo Moro è il presidente della Democrazia Cristiana."
+    },
+    {
+     "p": "Quanti giorni dura la prigionia di Moro?",
+     "a": "55 giorni",
+     "w": [
+      "5 giorni",
+      "30 giorni",
+      "100 giorni"
+     ],
+     "e": "I 55 giorni di prigionia paralizzano e sconvolgono il Paese."
+    },
+    {
+     "p": "Che cosa significa la «linea della fermezza»?",
+     "a": "Lo Stato rifiuta di trattare con i terroristi",
+     "w": [
+      "Lo Stato libera i terroristi in carcere",
+      "Il governo si dimette",
+      "Si indicono nuove elezioni"
+     ],
+     "e": "Lo Stato rifiuta di cedere al ricatto e alle trattative con i terroristi."
+    },
+    {
+     "p": "Che effetto ha la morte di Moro sui partiti politici?",
+     "a": "Li unisce nella difesa delle istituzioni",
+     "w": [
+      "Li divide definitivamente",
+      "Porta allo scioglimento della DC",
+      "Fa nascere il Pentapartito"
+     ],
+     "e": "La morte di Moro unisce i partiti nella difesa delle istituzioni e avvia il declino del terrorismo."
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,7 @@
+durata 44:41.3 (2681.3 s) | fotogrammi 80440 (attesi 80440) OK | peso 386.3 MB (368.4 MiB) OK | 1920x1080 OK
+quiz 4 scatto 0,0 s: OK
+fermi immagine nei pezzi del docente: nessuno OK
+volume del parlato (mediana dei pezzi del docente): -16.1 LUFS OK
+sottotitoli: 632 blocchi, sovrapposti 0, oltre la fine 0, attacco sulla voce entro 0,3 s: 79% di 14 verificabili DA GUARDARE
+foglio di miniature: out/Storia_Lez19_Parte2_1080p.mp4.miniature.jpg
+ESITO: DA SISTEMARE: sottotitoli

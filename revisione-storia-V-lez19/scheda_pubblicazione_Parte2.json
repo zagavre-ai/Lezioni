@@ -1,0 +1,254 @@
+{
+ "materia": "Storia",
+ "titolo": "Storia V · Lezione 19 · L'Italia dal '68 alla crisi della Prima Repubblica",
+ "parte": 2,
+ "durata_s": 2681.333,
+ "argomenti": [
+  {
+   "n": 5,
+   "titolo": "Conquiste sociali e crisi energetica",
+   "inizio_s": 33.833,
+   "quiz_s": 532.967
+  },
+  {
+   "n": 6,
+   "titolo": "Gli anni Ottanta: riflusso e Pentapartito",
+   "inizio_s": 537.567,
+   "quiz_s": 1572.867
+  },
+  {
+   "n": 7,
+   "titolo": "Tangentopoli e il crollo dei partiti",
+   "inizio_s": 1577.467,
+   "quiz_s": 2332.2
+  },
+  {
+   "n": 8,
+   "titolo": "La transizione e i governi tecnici",
+   "inizio_s": 2336.8,
+   "quiz_s": 2610.033
+  }
+ ],
+ "quiz": {
+  "Q5": {
+   "title": "Quiz 5 · Conquiste sociali e crisi energetica",
+   "items": [
+    {
+     "p": "Che cosa conferma il referendum del 1974?",
+     "a": "La legge sul divorzio del 1970",
+     "w": [
+      "L'abolizione della scala mobile",
+      "Il sistema maggioritario",
+      "La nascita delle Regioni"
+     ],
+     "e": "La netta vittoria dei «NO» al referendum abrogativo conferma la legge sul divorzio del 1970."
+    },
+    {
+     "p": "Che cosa cambia la riforma del diritto di famiglia del 1975?",
+     "a": "Sancisce l'uguaglianza giuridica tra marito e moglie",
+     "w": [
+      "Introduce il divorzio",
+      "Istituisce le Regioni",
+      "Abolisce il voto alle donne"
+     ],
+     "e": "La riforma sancisce l'uguaglianza tra marito e moglie e cancella la figura del capofamiglia."
+    },
+    {
+     "p": "Quale evento causa la crisi del petrolio del 1973?",
+     "a": "La guerra arabo-israeliana del Kippur",
+     "w": [
+      "La caduta del Muro di Berlino",
+      "La guerra del Vietnam",
+      "Il crollo di Wall Street"
+     ],
+     "e": "A causa della guerra del Kippur i paesi produttori tagliano le forniture di greggio."
+    },
+    {
+     "p": "Che cos'è la stagflazione?",
+     "a": "Il blocco della produzione unito a un'inflazione record",
+     "w": [
+      "Una crescita economica molto rapida",
+      "Il calo dei prezzi",
+      "Un aumento dei salari pagato dallo Stato"
+     ],
+     "e": "La stagflazione unisce il blocco della produzione a un'inflazione che supera il 20%."
+    },
+    {
+     "p": "A che cosa serve la scala mobile?",
+     "a": "Ad adeguare automaticamente i salari al costo della vita",
+     "w": [
+      "A ridurre le tasse sulle imprese",
+      "A limitare il traffico la domenica",
+      "A finanziare i partiti"
+     ],
+     "e": "La scala mobile adegua automaticamente le buste paga all'aumento del costo della vita."
+    }
+   ]
+  },
+  "Q6": {
+   "title": "Quiz 6 · Gli anni Ottanta: riflusso e Pentapartito",
+   "items": [
+    {
+     "p": "Che cosa si intende per «riflusso» negli anni Ottanta?",
+     "a": "Il passaggio dalle passioni collettive alla dimensione privata",
+     "w": [
+      "Il ritorno delle grandi lotte sindacali",
+      "Un nuovo boom delle nascite",
+      "L'emigrazione verso l'estero"
+     ],
+     "e": "Dopo le passioni collettive degli anni Settanta, la società si sposta verso il benessere personale."
+    },
+    {
+     "p": "Che cos'è la «marcia dei quarantamila» del 1980?",
+     "a": "La sfilata dei quadri Fiat contro gli scioperi",
+     "w": [
+      "Una manifestazione di studenti",
+      "Una protesta contro la mafia",
+      "Un corteo per il divorzio"
+     ],
+     "e": "A Torino i quadri della Fiat sfilano contro gli scioperi operai: finisce un'epoca di lotte sindacali."
+    },
+    {
+     "p": "Chi guida la loggia P2 scoperta nel 1981?",
+     "a": "Licio Gelli",
+     "w": [
+      "Bettino Craxi",
+      "Carlo Azeglio Ciampi",
+      "Antonio Di Pietro"
+     ],
+     "e": "La loggia P2 è una setta massonica segreta guidata da Licio Gelli."
+    },
+    {
+     "p": "Che cos'è il Pentapartito?",
+     "a": "Un'alleanza di cinque partiti che esclude il PCI dal governo",
+     "w": [
+      "Un partito nato dalla Lega Nord",
+      "Un sindacato di cinque categorie",
+      "Un governo tecnico"
+     ],
+     "e": "Il Pentapartito è un'alleanza stabile tra cinque partiti moderati e di centro-sinistra."
+    },
+    {
+     "p": "Che cosa fa Craxi nella crisi di Sigonella del 1985?",
+     "a": "Riafferma la sovranità italiana opponendosi agli Stati Uniti",
+     "w": [
+      "Fa uscire l'Italia dalla NATO",
+      "Si dimette da Presidente del Consiglio",
+      "Chiede aiuto all'Unione Sovietica"
+     ],
+     "e": "Craxi si oppone agli Stati Uniti durante il sequestro dell'Achille Lauro, pur mantenendo l'alleanza atlantica."
+    }
+   ]
+  },
+  "Q7": {
+   "title": "Quiz 7 · Tangentopoli e il crollo dei partiti",
+   "items": [
+    {
+     "p": "Quale evento favorisce la fine delle ideologie all'inizio degli anni Novanta?",
+     "a": "Il crollo del blocco sovietico",
+     "w": [
+      "La crisi del petrolio",
+      "Il referendum sul divorzio",
+      "L'Autunno caldo"
+     ],
+     "e": "Con il crollo del blocco sovietico i vecchi equilibri politici svaniscono."
+    },
+    {
+     "p": "Che cosa svela l'inchiesta Mani Pulite del 1992?",
+     "a": "Un sistema di corruzione tra imprenditori e partiti",
+     "w": [
+      "La loggia P2",
+      "Il rapimento di Moro",
+      "La strategia della tensione"
+     ],
+     "e": "I magistrati di Milano svelano Tangentopoli, un sistema di corruzione e finanziamenti illeciti."
+    },
+    {
+     "p": "Quali giudici vengono assassinati dalla mafia nel 1992?",
+     "a": "Giovanni Falcone e Paolo Borsellino",
+     "w": [
+      "Aldo Moro e Carlo Alberto Dalla Chiesa",
+      "Antonio Di Pietro e Licio Gelli",
+      "Carlo Azeglio Ciampi e Bettino Craxi"
+     ],
+     "e": "Nelle stragi di Capaci e via D'Amelio la mafia uccide i giudici Falcone e Borsellino."
+    },
+    {
+     "p": "Quale nuova forza politica cresce all'inizio degli anni Novanta?",
+     "a": "La Lega Nord",
+     "w": [
+      "Il Pentapartito",
+      "Le Brigate Rosse",
+      "La Democrazia Cristiana"
+     ],
+     "e": "La fine delle ideologie favorisce l'ascesa di nuove forze come la Lega Nord."
+    },
+    {
+     "p": "Che cosa succede ai partiti storici come DC e PSI?",
+     "a": "Si dissolvono, travolti dalle inchieste",
+     "w": [
+      "Vincono le elezioni del 1993",
+      "Si uniscono nel Pentapartito",
+      "Diventano governi tecnici"
+     ],
+     "e": "Travolti dalle inchieste e dall'indignazione popolare, i partiti storici si dissolvono."
+    }
+   ]
+  },
+  "Q8": {
+   "title": "Quiz 8 · La transizione e i governi tecnici",
+   "items": [
+    {
+     "p": "Che cosa decide il referendum dell'aprile 1993?",
+     "a": "Abbandonare il sistema elettorale proporzionale",
+     "w": [
+      "Abolire le Regioni",
+      "Confermare il divorzio",
+      "Introdurre la scala mobile"
+     ],
+     "e": "Il referendum sancisce la volontà di abbandonare il vecchio sistema proporzionale."
+    },
+    {
+     "p": "Com'è il sistema elettorale della legge Mattarella?",
+     "a": "Misto: 75% maggioritario e 25% proporzionale",
+     "w": [
+      "Tutto proporzionale",
+      "Tutto maggioritario",
+      "50% maggioritario e 50% proporzionale"
+     ],
+     "e": "La legge Mattarella introduce un sistema misto: 75% maggioritario uninominale e 25% proporzionale."
+    },
+    {
+     "p": "Che cos'è un governo tecnico?",
+     "a": "Un governo affidato a figure indipendenti di alto profilo",
+     "w": [
+      "Un governo di soli militari",
+      "Un governo eletto dalle Regioni",
+      "Un governo del Pentapartito"
+     ],
+     "e": "Di fronte alla crisi, la guida del Paese viene affidata a figure indipendenti e di alto profilo istituzionale."
+    },
+    {
+     "p": "Che ruolo aveva Carlo Azeglio Ciampi prima di guidare il governo?",
+     "a": "Governatore della Banca d'Italia",
+     "w": [
+      "Segretario del Partito Socialista",
+      "Magistrato di Mani Pulite",
+      "Presidente della DC"
+     ],
+     "e": "Ciampi, ex governatore della Banca d'Italia, assume la presidenza del Consiglio nel 1993."
+    },
+    {
+     "p": "Con chi firma accordi storici il governo Ciampi?",
+     "a": "Con i sindacati, per frenare l'inflazione",
+     "w": [
+      "Con la mafia",
+      "Con la loggia P2",
+      "Con le Brigate Rosse"
+     ],
+     "e": "Ciampi sigla accordi con i sindacati per frenare l'inflazione e risanare le casse dello Stato."
+    }
+   ]
+  }
+ }
+}
