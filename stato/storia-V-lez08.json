@@ -13,7 +13,7 @@
    "durata": "52:48.2",
    "fotogrammi": 95045,
    "fotogrammi_attesi": 95045,
-   "peso_MB": 273.8,
+   "peso_MB": 269.0,
    "vtt": "Storia_Lez8_Parte1.vtt",
    "scheda": {
     "materia": "Storia",
@@ -613,10 +613,14 @@
   {
    "quando": "19/11 04:17",
    "testo": "chat v3 04:20: Parte 1 e 2 con controlli TUTTO OK; ultima rifinitura: slide che cambiano al massimo ogni 3 min dove possibile; ricostruzione in corso, poi consegna su revisione-storia-V-lez08"
+  },
+  {
+   "quando": "19/11 05:25",
+   "testo": "controllo_finale: ESITO: TUTTO OK"
   }
  ],
  "materia": "Storia V",
  "lezione": "Lezione 08",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-19 04:17:56"
+ "aggiornato": "2026-11-19 05:25:46"
 }
