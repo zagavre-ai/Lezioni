@@ -2,7 +2,7 @@
  "tag": "storia-V-lez08",
  "parti": {
   "1": {
-   "stato": "PRONTA",
+   "stato": "REVISIONATA",
    "voci": "kore",
    "titolo": "Il dopoguerra italiano (1919-1925) e il fascismo · Parte 1",
    "quiz_ok": "si",
@@ -242,7 +242,7 @@
   },
   "2": {
    "titolo": "Il dopoguerra italiano (1919-1925) e il fascismo · Parte 2",
-   "stato": "PRONTA",
+   "stato": "REVISIONATA",
    "voci": "kore",
    "quiz_ok": "si",
    "fermi_ok": "si",
@@ -621,10 +621,14 @@
   {
    "quando": "19/11 05:25",
    "testo": "controllo_finale: ESITO: TUTTO OK"
+  },
+  {
+   "quando": "19/11 05:31",
+   "testo": "chat v3 05:35: lezione 8 consegnata su revisione-storia-V-lez08 (REVISIONATA). P1 52:48,2 e P2 56:57,3, controlli TUTTO OK. Da segnalare: 6 slide oltre 3 min (max 6,8), approfondimenti 2 per argomento ma brevi, sigla segnaposto"
   }
  ],
  "materia": "Storia V",
  "lezione": "Lezione 08",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-19 05:25:57"
+ "aggiornato": "2026-11-19 05:31:00"
 }
