@@ -633,5 +633,310 @@
   "nome": "COMP1",
   "testo": "Ora passa ai compiti.",
   "lingua": "it"
+ },
+ {
+  "nome": "INTRO_P1",
+  "testo": "Benvenuti alla lezione di Laboratori tecnologici ed esercitazione, con la professoressa Piera Caputi. Oggi parliamo di modellistica. In questa prima parte vediamo il ruolo del modellista, il figurino, gli strumenti, come si costruisce un modello, le proporzioni del corpo e le taglie.",
+  "lingua": "it"
+ },
+ {
+  "nome": "INTRO_P2",
+  "testo": "Bentornati alla lezione di Laboratori tecnologici ed esercitazione, con la professoressa Piera Caputi. Continuiamo con la modellistica: la norma E N tredici quattrocentodue e il rilievo delle misure, le fibre tessili e i tessuti. Prima, un breve ripasso.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC1_1",
+  "testo": "Compito. Interpretare gli schizzi dello stilista e tradurli nel modello.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC1_2",
+  "testo": "Modello. L'insieme di tutti i pezzi che comporranno il capo finale.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC1_3",
+  "testo": "Basi. Matematica e geometria per progettare i tracciati.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC1_4",
+  "testo": "Industriale. Soggetti standard, sviluppo taglie e piazzamenti.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC1_5",
+  "testo": "Sartoriale. Il singolo cliente, con il modello corretto sulla sua conformazione.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC2_1",
+  "testo": "Figurino. L'espressione grafica di un'idea, base di ogni modello.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC2_2",
+  "testo": "Tendenza. Detto anche sketch: evoca atmosfere e temi stagionali.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC2_3",
+  "testo": "Tecnico. Detto anche plat: il capo in piano, con precisione tecnica.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC2_4",
+  "testo": "Ibrido. Intermedio e senza colore: etichette, cartellini e imballaggi.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC2_5",
+  "testo": "Ispirazione. Ritagli di giornale e contenuti web.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC3_1",
+  "testo": "Misurazione. Metro a nastro da centocinquanta centimetri, metro rigido, bilancia e manichino.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC3_2",
+  "testo": "Disegno tecnico. Mine e portamine, righe e squadre, curvilinei.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC3_3",
+  "testo": "Basi fisiche. Carta da modello e cartoncino.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC3_4",
+  "testo": "Marcatura. Forbici per cartone, spilli, segnatacche, punteruolo e trapanino.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC3_5",
+  "testo": "Digitale. CAD, mouse, penne ottiche, plotter e sistemi CAM.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC4_1",
+  "testo": "Tracciato geometrico. Parte dal figurino e dalle misure anatomiche.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC4_2",
+  "testo": "Metodo diretto. Prevalentemente in sartoria: le misure reali di una persona.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC4_3",
+  "testo": "Metodo proporzionale. Per l'industria: rapporti armonici del corpo umano.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC4_4",
+  "testo": "Modello base. Tracciati standard già testati, trasformati secondo le tendenze.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC4_5",
+  "testo": "Moulage. Il tessuto modellato direttamente sul manichino.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC4_6",
+  "testo": "CAD. L'intero ciclo di lavoro al computer.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC5_1",
+  "testo": "Policleto. Corpo ideale in otto parti uguali: le unità antropometriche.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC5_2",
+  "testo": "Parte superiore. Dalla sommità del capo alla linea della vita: tre parti.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC5_3",
+  "testo": "Parte inferiore. Dalla vita ai piedi: cinque parti.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC5_4",
+  "testo": "Altezza. Metro rigido, soggetto scalzo e a piedi uniti contro una parete.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC5_5",
+  "testo": "Misure. Larghezza, lunghezza o livelli, arti, accessorie e di controllo.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC6_1",
+  "testo": "Taglia. La semicirconferenza del torace, in centimetri.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC6_2",
+  "testo": "Taglia quarantadue. Corrisponde a una circonferenza di ottantaquattro centimetri.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC6_3",
+  "testo": "Variazione. Due centimetri sulla semicirconferenza per ogni taglia.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC6_4",
+  "testo": "Seno, vita, bacino. Taglia più tre, taglia meno otto, taglia più cinque centimetri.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC6_5",
+  "testo": "Drop otto. La differenza di otto centimetri tra torace e vita.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC6_6",
+  "testo": "Normotipo. Statura media di centosessantotto centimetri.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC7_1",
+  "testo": "Centimetri. Misure solo in centimetri, aboliti i pollici.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC7_2",
+  "testo": "Circonferenze intere. Le larghezze non sono più semicirconferenze.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC7_3",
+  "testo": "Intervalli. I dati come range di misure.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC7_4",
+  "testo": "Primarie. Dati essenziali, mai omessi in etichetta.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC7_5",
+  "testo": "Secondarie. Informazioni utili, facoltative per il produttore.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC7_6",
+  "testo": "Pittogrammi. Una figura umana stilizzata con le misure.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC8_1",
+  "testo": "Fibra. Unità elementare della materia prima, flessibile e fine.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC8_2",
+  "testo": "Naturali. Animali, come lana e seta; vegetali, come cotone e lino.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC8_3",
+  "testo": "Chimiche. Artificiali, come modal e viscosa; sintetiche, come poliestere e acrilico.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC8_4",
+  "testo": "In mischia. Materiali di natura diversa mescolati nella filatura.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC8_5",
+  "testo": "Elastan. La fibra del movimento: si allunga dal quattrocento al seicento per cento.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC8_6",
+  "testo": "Vestibilità. Con l'elastan si può usare la vestibilità zero.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC9_1",
+  "testo": "Tipi. Navetta, maglia, rete e non tessuti.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC9_2",
+  "testo": "Navetta. Ordito in verticale, trama in orizzontale.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC9_3",
+  "testo": "Armature. Tela, saia e raso.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC9_4",
+  "testo": "Cimose. I bordi laterali: basse, medie e alte.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC9_5",
+  "testo": "Diritto e rovescio. Il diritto è più lucido e curato.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC9_6",
+  "testo": "Verso. Indifferente, obbligato o semi obbligato.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC9_7",
+  "testo": "Diritto filo e sbieco. Il diritto filo è parallelo all'ordito; lo sbieco forma quarantacinque gradi.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RP_0",
+  "testo": "Prima di continuare, ripassiamo insieme gli argomenti visti finora.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RP_1",
+  "testo": "Il modellista interpreta gli schizzi dello stilista e li traduce nel modello.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RP_2",
+  "testo": "Il figurino è l'espressione grafica di un'idea: di tendenza, tecnico o ibrido.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RP_3",
+  "testo": "Gli strumenti servono a misurare, disegnare, marcare e digitalizzare.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RP_4",
+  "testo": "Il modello si costruisce con il tracciato geometrico, con un modello base o con il moulage.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RP_5",
+  "testo": "Il corpo ideale si divide in otto parti uguali: tre sopra la vita e cinque sotto.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RP_6",
+  "testo": "In Italia la taglia è la semicirconferenza del torace: la taglia quarantadue corrisponde a ottantaquattro centimetri.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RP_7",
+  "testo": "Ora continuiamo con la lezione.",
+  "lingua": "it"
  }
 ]

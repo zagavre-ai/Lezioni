@@ -1,0 +1,6 @@
+Voci NUOVE da generare (19/11, chat di produzione Lezione 1 Laboratori / Modellistica), 61 file, tutte in testi_voci.json:
+- INTRO_P1, INTRO_P2: benvenuto Parte 1 e Parte 2.
+- SCn_k (n=1..9): schema guidato bianco della pillola di ripasso (una riga = una voce, "parola chiave. frase breve").
+- RP_0..RP_7: ripasso animato della Parte 1 all'inizio della Parte 2.
+Le voci già presenti (AN, R, GL, RF, FIN, COMP) si riusano; le MP* (mappe nostre) NON si usano: nella release non c'è nessuna mappa del prof.
+Il montaggio usa segnaposto finché i wav non arrivano in vox/ (stessi nomi). Rifaccio il montaggio quando ci sono.
