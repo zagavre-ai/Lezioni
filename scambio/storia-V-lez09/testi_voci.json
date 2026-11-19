@@ -693,5 +693,10 @@
   "nome": "AP10_4",
   "testo": "Le sanzioni compattarono per un momento l'opinione pubblica, con iniziative come la Giornata della Fede, ma portarono al distacco da Londra e Parigi e all'isolamento diplomatico.",
   "lingua": "it"
+ },
+ {
+  "nome": "RV2",
+  "testo": "Il primo documento era un trattato internazionale tra Santa Sede e Italia, che riconosceva la sovranità del Papa sul nuovo Stato della Città del Vaticano.",
+  "lingua": "it"
  }
 ]
