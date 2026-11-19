@@ -2,7 +2,7 @@
  "tag": "storia-V-lez11",
  "parti": {
   "1": {
-   "stato": "PRONTA",
+   "stato": "REVISIONATA",
    "voci": "kore",
    "quiz_ok": "si",
    "fermi_ok": "si",
@@ -452,5 +452,5 @@
    "testo": "REVISIONATA correzioni 19/11 fatte: 40:28.9, -16.6 LUFS, slide max 3 card (max 172 s ferma), mappe con mappa.py, avviso diritti sopra il piè; ramo revisione-storia-V-lez11"
   }
  ],
- "aggiornato": "2026-11-19 03:13:47"
+ "aggiornato": "2026-11-19 03:13:49"
 }
