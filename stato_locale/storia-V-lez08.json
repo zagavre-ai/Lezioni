@@ -2,41 +2,41 @@
  "tag": "storia-V-lez08",
  "parti": {
   "1": {
-   "stato": "PRONTA",
+   "stato": "IN_MONTAGGIO",
    "voci": "kore",
-   "titolo": "Il dopoguerra italiano e il fascismo (1919-1925) · Parte 1",
-   "quiz_ok": "si",
+   "titolo": "Il dopoguerra italiano (1919-1925) e il fascismo · Parte 1",
+   "quiz_ok": "no",
    "fermi_ok": "si",
    "sub_ok": "si",
    "video": "Storia_Lez8_Parte1_1080p.mp4",
-   "durata_s": 3168.1,
-   "durata": "52:48.1",
-   "fotogrammi": 95044,
-   "fotogrammi_attesi": 95044,
-   "peso_MB": 271.4,
+   "durata_s": 3168.2,
+   "durata": "52:48.2",
+   "fotogrammi": 95045,
+   "fotogrammi_attesi": 95045,
+   "peso_MB": 273.8,
    "vtt": "Storia_Lez8_Parte1.vtt",
    "scheda": {
     "materia": "Storia",
-    "titolo": "Il dopoguerra italiano e il fascismo (1919-1925) · Parte 1",
-    "durata_s": 3168.13,
+    "titolo": "Il dopoguerra italiano (1919-1925) e il fascismo · Parte 1",
+    "durata_s": 3168.17,
     "argomenti": [
      {
       "n": 1,
       "titolo": "Il Biennio rosso e la crisi del dopoguerra",
       "inizio_s": 276.766,
-      "quiz_s": 1212.298
+      "quiz_s": 1164.132
      },
      {
       "n": 2,
       "titolo": "Vittoria mutilata, Fiume e le elezioni del 1919",
-      "inizio_s": 1218.598,
-      "quiz_s": 2270.464
+      "inizio_s": 1170.432,
+      "quiz_s": 2149.399
      },
      {
       "n": 3,
       "titolo": "La nascita del fascismo e lo squadrismo",
-      "inizio_s": 2276.764,
-      "quiz_s": 3092.264
+      "inizio_s": 2155.699,
+      "quiz_s": 3092.298
      }
     ],
     "quiz": {
@@ -215,27 +215,27 @@
     ],
     [
      "Q1",
-     1212.298,
+     1164.132,
      5.0
     ],
     [
      "T2",
-     1218.598,
+     1170.432,
      4.0
     ],
     [
      "T3",
-     2276.764,
+     2155.699,
      4.0
     ],
     [
      "GL1",
-     3098.564,
+     3098.598,
      37.4
     ],
     [
      "RF1",
-     3137.364,
+     3137.398,
      22.866
     ]
    ]
@@ -602,10 +602,14 @@
   {
    "quando": "19/11 02:25",
    "testo": "chat v3 03:00: applicati i punti della master 19/11 (slide piu corte e a tempo, mappe ridisegnate con mappa.py, trans.wav ovunque, copertina con titolo esatto, avviso diritti); rifaccio composizione/montaggio/codifica, stima 90 min"
+  },
+  {
+   "quando": "19/11 03:38",
+   "testo": "controllo_finale: ESITO: DA SISTEMARE: quiz"
   }
  ],
  "materia": "Storia V",
  "lezione": "Lezione 08",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-19 02:25:52"
+ "aggiornato": "2026-11-19 03:38:02"
 }
