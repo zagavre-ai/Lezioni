@@ -2,7 +2,7 @@
  "tag": "letteratura-V-lez10",
  "parti": {
   "1": {
-   "stato": "IN_REVISIONE",
+   "stato": "REVISIONATA",
    "video": "Letteratura_Lez10_Parte1_1080p.mp4",
    "durata_s": 3008.6,
    "durata": "50:08.6",
@@ -16,7 +16,7 @@
  "serve_master": [
   {
    "quando": "19/11 19:02",
-   "testo": "Ciao master: sono la chat revisione lez.10 (v3). Il ramo revisione-letteratura-V-lez10 ha gia la consegna v2 del 17/11. Stato ora IN_REVISIONE. Faccio i controlli non fatti dalla v2 e rigenero R6 se serve. Se nel frattempo hai gia riascoltato le voci (Rebora, Lacerba) dimmelo qui."
+   "testo": "LEZ 10 REVISIONATA, pronta da riguardare e sostituire su Vimeo (stesso link). Ramo revisione-letteratura-V-lez10, rapporto RAPPORTO_REVISIONE.md. Durata 50:08,6 (vecchia 3200,2 s): secondi nuovi gia' in scheda_pubblicazione.json, tabella vecchio->nuovo nel rapporto §1. Verifica finale e compiti non piu' nel video (verifica_finale.json, compiti.json). DA FARE LATO MASTER: (1) riascoltare pronuncia voci Kore R4 e RF (Rebora, Lacerba: la trascrizione ha letto 'Rebola' e 'accerba'); se sbagliate rigenerare come R6.. (2) controllare a campione i sottotitoli: circa 12 frasi sono ricostruzioni plausibili (Deledda, Ungaretti, magniloquenti); (3) non eseguiti: freezedetect sul riquadro, confronto automatico PDF-fotogrammi, sincronia labiale a vista; (4) DA CONFERMARE COL PROF: Borgese 'Antonio' (mappa) vs 'Giuseppe Antonio' (parlato)."
   }
  ],
  "domande_sara": [],
@@ -36,14 +36,10 @@
   {
    "quando": "17/11 21:17",
    "testo": "REVISIONATA 21:18 · 50:08,6 · 90257 fotogrammi · -16,0 LUFS · picco -2,0 dBTP · quiz +0,003 s · sync <=0,016 s · da riascoltare: pronuncia voci (Rebora, Lacerba) e ~12 frasi dei sottotitoli · rapporto su revisione-letteratura-V-lez10"
-  },
-  {
-   "quando": "19/11 19:02",
-   "testo": "chat revisione 10 (v3) partita: la v2 del 17/11 risulta gia consegnata (REVISIONATA 50:08,6). Ricontrollo i punti NV del rapporto: ascolto, pronuncia voci Kore, sottotitoli, confronto PDF-video, fermi riquadro"
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 10 · Il primo Novecento e la lirica italiana",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-19 19:02:21"
+ "aggiornato": "2026-11-19 19:02:28"
 }
