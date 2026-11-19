@@ -163,6 +163,245 @@
      3.6
     ]
    ]
+  },
+  "2": {
+   "titolo": "Ausiliari · Parte 2",
+   "stato": "PRONTA",
+   "voci": "kore",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "si",
+   "video": "Chimica_Lez10_Parte2_1080p.mp4",
+   "durata_s": 2407.0,
+   "durata": "40:07.0",
+   "fotogrammi": 72208,
+   "fotogrammi_attesi": 72210,
+   "peso_MB": 231.6,
+   "vtt": "Chimica_Lez10_Parte2.vtt",
+   "scheda": {
+    "materia": "Chimica applicata e nobilitazione dei materiali",
+    "titolo": "Ausiliari · Parte 2",
+    "durata_s": 2407.0,
+    "argomenti": [
+     {
+      "n": 3,
+      "titolo": "Detergenti e tensioattivi",
+      "inizio_s": 13.999,
+      "quiz_s": 968.365
+     },
+     {
+      "n": 4,
+      "titolo": "Candeggio e azzurranti ottici",
+      "inizio_s": 973.665,
+      "quiz_s": 1600.331
+     },
+     {
+      "n": 5,
+      "titolo": "Analisi chimica degli ausiliari",
+      "inizio_s": 1605.631,
+      "quiz_s": 2207.697
+     }
+    ],
+    "quiz": {
+     "Q3": {
+      "title": "Quiz 3 · Detergenti e tensioattivi",
+      "items": [
+       {
+        "p": "Come si chiama la parte idrofila della molecola di un detergente?",
+        "a": "La testa",
+        "w": [
+         "La coda",
+         "Il nucleo",
+         "L'intermaglia"
+        ],
+        "ref": "La coda, lipofila, è solubile nei grassi."
+       },
+       {
+        "p": "Che cosa sono i saponi?",
+        "a": "Sali alcalini degli acidi carbossilici grassi",
+        "w": [
+         "Derivati del petrolio",
+         "Esteri dei poliglicoli",
+         "Eteri della cellulosa"
+        ],
+        "ref": "Hanno formula generale R–COONa."
+       },
+       {
+        "p": "Come sono classificati i detergenti sintetici in base alla carica dello ione attivo?",
+        "a": "Anionici, cationici e non ionici",
+        "w": [
+         "Naturali e artificiali",
+         "Solubili e insolubili",
+         "Acidi e basi"
+        ],
+        "ref": "Derivano dai tagli petroliferi."
+       },
+       {
+        "p": "Che cosa fanno i saponi con l'acqua dura?",
+        "a": "Formano sali insolubili con calcio e magnesio",
+        "w": [
+         "Fanno molta schiuma",
+         "Si dissociano in ioni solfonato",
+         "Diventano non ionici"
+        ],
+        "ref": "I detersivi sintetici, invece, restano in soluzione."
+       },
+       {
+        "p": "Quale problema ambientale causano i fosfati dei detersivi?",
+        "a": "L'eutrofizzazione delle acque",
+        "w": [
+         "La formazione di ozono",
+         "La pioggia acida",
+         "L'ingiallimento dei tessuti"
+        ],
+        "ref": "I detergenti ramificati sono difficilmente biodegradabili e formano strati di schiuma."
+       }
+      ]
+     },
+     "Q4": {
+      "title": "Quiz 4 · Candeggio e azzurranti ottici",
+      "items": [
+       {
+        "p": "Che cosa fa un candeggiante?",
+        "a": "Toglie le colorazioni residue e le macchie, rendendo la fibra bianca",
+        "w": [
+         "Aumenta il peso del tessuto",
+         "Rende il tessuto impermeabile",
+         "Lubrifica i fili"
+        ],
+        "ref": "Reagisce con la fibra distruggendo le sostanze colorate."
+       },
+       {
+        "p": "Quale tra questi è un candeggiante ossidante?",
+        "a": "L'acqua ossigenata",
+        "w": [
+         "L'idrosolfito di sodio",
+         "L'anidride solforosa",
+         "Il bisolfito"
+        ],
+        "ref": "Libera ossigeno nascente che ossida le impurezze."
+       },
+       {
+        "p": "Quanti volumi di ossigeno svolge l'acqua ossigenata al 3%?",
+        "a": "12 volumi",
+        "w": [
+         "3 volumi",
+         "30 volumi",
+         "100 volumi"
+        ],
+        "ref": "A concentrazione 3% è usata come disinfettante."
+       },
+       {
+        "p": "Quale candeggiante riducente è usato per sbiancare la lana?",
+        "a": "L'anidride solforosa",
+        "w": [
+         "Il perborato di sodio",
+         "Il cloruro di calce",
+         "Il cloro gassoso"
+        ],
+        "ref": "Si usa anche per la carta."
+       },
+       {
+        "p": "Come agiscono gli azzurranti ottici?",
+        "a": "Assorbono i raggi UV ed emettono luce azzurra che annulla l'ingiallimento",
+        "w": [
+         "Distruggono le molecole colorate",
+         "Aumentano il peso",
+         "Riducono l'attrito"
+        ],
+        "ref": "La luce azzurra si sovrappone alla gialla."
+       }
+      ]
+     },
+     "Q5": {
+      "title": "Quiz 5 · Analisi chimica degli ausiliari",
+      "items": [
+       {
+        "p": "Quale reattivo colora di blu gli amidi nell'estratto in acqua?",
+        "a": "Lo iodio",
+        "w": [
+         "La fucsina",
+         "Il rosso Sudan",
+         "Il tannino"
+        ],
+        "ref": "Le destrine si colorano di rosso-porpora con iodio."
+       },
+       {
+        "p": "Quali solventi si usano per estrarre le sostanze degli appretti?",
+        "a": "Tetracloruro di carbonio, alcol etilico, acqua, diossano e acido cloridrico",
+        "w": [
+         "Solo acqua",
+         "Solo acetone",
+         "Solo benzene"
+        ],
+        "ref": "Si trattano 2–4 g di fibra con 50 ml di solvente per 5 minuti, ripetendo con solvente fresco."
+       },
+       {
+        "p": "Che cosa si riconosce nell'estratto in tetracloruro di carbonio se il residuo è liquido?",
+        "a": "Gli oli",
+        "w": [
+         "I saponi",
+         "Gli amidi",
+         "I sali inorganici"
+        ],
+        "ref": "Se il residuo è solido, l'etere di petrolio distingue polistirene e stearina."
+       },
+       {
+        "p": "Che cosa si cerca nell'estratto in acido cloridrico diluito?",
+        "a": "Sali inorganici e resine melamminiche",
+        "w": [
+         "Oli e cere",
+         "Amidi e gelatine",
+         "Resine acriliche"
+        ],
+        "ref": "Le resine melamminiche formano il picrato di melammina con acido picrico."
+       },
+       {
+        "p": "Con quale metodo si identificano le bozzime sulle fibre?",
+        "a": "Con saggi microscopici e macroscopici con reattivi colorati",
+        "w": [
+         "Con la combustione",
+         "Con la lampada di Wood",
+         "Con il picnometro"
+        ],
+        "ref": "Si usano iodio, fucsina, rosso Sudan e altri reattivi."
+       }
+      ]
+     }
+    }
+   },
+   "timeline": [
+    [
+     "T3",
+     13.999,
+     3.6
+    ],
+    [
+     "T4",
+     973.665,
+     3.6
+    ],
+    [
+     "T5",
+     1605.631,
+     3.6
+    ],
+    [
+     "GL1",
+     2212.997,
+     67.433
+    ],
+    [
+     "RF1",
+     2282.03,
+     53.467
+    ],
+    [
+     "FIN1",
+     2357.664,
+     9.4
+    ]
+   ]
   }
  },
  "manca": "",
@@ -184,10 +423,14 @@
   {
    "quando": "19/11 00:16",
    "testo": "Parte 1: durata misurata 31:20.8 (1880.8 s), 1080p CRF 18, 167 MB.  Consegna su consegna-moda-chimica-III-IV-lez10 (Parte 1: argomenti 1-2; Parte 2: 3-5 + chiusura). Sigla Chimica nuova in testa a ogni Parte; Parte 1 chiude con la sigla finale. Sincronia: scarto massimo 0,75 s (Parte 1), 0,37 s (Parte 2). Ascoltare a campione le voci Kore."
+  },
+  {
+   "quando": "19/11 00:16",
+   "testo": "Parte 2: durata misurata 40:07.0 (2407.0 s), 1080p CRF 18, 221 MB. t_verifica 2368.7 s, t_compiti 2387.0 s. Consegna su consegna-moda-chimica-III-IV-lez10 (Parte 1: argomenti 1-2; Parte 2: 3-5 + chiusura). Sigla Chimica nuova in testa a ogni Parte; Parte 1 chiude con la sigla finale. Sincronia: scarto massimo 0,75 s (Parte 1), 0,37 s (Parte 2). Ascoltare a campione le voci Kore."
   }
  ],
  "materia": "Moda III+IV · Chimica applicata e nobilitazione dei materiali",
  "lezione": "Ausiliari",
  "docente": "Prof.ssa Piera Caputi",
- "aggiornato": "2026-11-19 00:16:13"
+ "aggiornato": "2026-11-19 00:16:16"
 }
