@@ -338,5 +338,255 @@
   "nome": "MAPA3",
   "testo": "Ecco la mappa del professore su Giolitti. Da una parte, Giolitti cede alle pressioni di industriali e nazionalisti, e decide la guerra di Libia, che dà scarsi risultati economici. Dall'altra, affronta la prevedibile avanzata dei socialisti con un patto con i cattolici, nel millenovecentotredici, ma ottiene una maggioranza instabile.",
   "lingua": "it"
+ },
+ {
+  "nome": "PS1_1",
+  "testo": "La disfatta di Adua, nel milleottocentonovantasei, segna la fine delle ambizioni africane di Crispi e fa cadere il suo governo.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS1_2",
+  "testo": "La crisi del pane: i cattivi raccolti fanno salire i prezzi e scatenano proteste in tutta la penisola.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS1_3",
+  "testo": "Nel milleottocentonovantotto il generale Bava Beccaris ordina di sparare con i cannoni sulla folla di Milano: ottanta morti.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS1_4",
+  "testo": "L'ostruzionismo parlamentare: la sinistra blocca le leggi eccezionali con discorsi lunghissimi.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS1_5",
+  "testo": "Nel millenovecento l'anarchico Gaetano Bresci uccide il re Umberto Primo.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS1_6",
+  "testo": "Il nuovo re, Vittorio Emanuele Terzo, abbandona la linea repressiva e affida il governo a Zanardelli e Giolitti.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS2_1",
+  "testo": "Giovanni Giolitti guida il governo dal millenovecentotre, con una strategia di neutralità nei conflitti sociali.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS2_2",
+  "testo": "Il governo rifiuta di usare la forza pubblica per reprimere rivolte e scioperi.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS2_3",
+  "testo": "Nascono le prime Camere del lavoro e viene fondata la Confederazione Generale del Lavoro.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS2_4",
+  "testo": "L'obiettivo è modernizzare il Paese, assecondando le richieste economiche delle masse popolari.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS3_1",
+  "testo": "Il Partito socialista si divide tra i riformisti di Turati e i massimalisti, favorevoli alla rivoluzione.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS3_2",
+  "testo": "Giolitti cerca un accordo con i riformisti di Turati per integrare le masse nelle istituzioni.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS3_3",
+  "testo": "Nel settembre del millenovecentoquattro i massimalisti indicono il primo sciopero generale.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS3_4",
+  "testo": "Il governo non interviene con la forza e lascia che le agitazioni si esauriscano da sole.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS4_1",
+  "testo": "Si supera gradualmente il Non expedit: la Chiesa si avvicina allo Stato liberale per arginare i socialisti.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS4_2",
+  "testo": "Nelle elezioni del millenovecentoquattro il papa Pio Decimo permette ai cattolici di votare dove i socialisti rischiano di vincere.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS4_3",
+  "testo": "Entrano così in Parlamento i primi deputati cattolici.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS4_4",
+  "testo": "Per conservare il potere, Giolitti costruisce alleanze elettorali flessibili a destra e a sinistra: è il trasformismo.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS5_1",
+  "testo": "Nuove leggi vietano il lavoro ai minori di dodici anni e riducono gli orari delle donne.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS5_2",
+  "testo": "Arrivano il riposo settimanale obbligatorio e un fondo assicurativo per la maternità.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS5_3",
+  "testo": "Nel millenovecentododici nasce l'INA, l'Istituto Nazionale delle Assicurazioni, monopolio dello Stato.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS5_4",
+  "testo": "La legge Orlando porta l'obbligo scolastico a dodici anni e istituisce corsi serali per gli adulti.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS5_5",
+  "testo": "Con la legge Daneo-Credaro, nel millenovecentoundici, le scuole elementari passano dai comuni allo Stato.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS6_1",
+  "testo": "Nel millenovecentododici il voto è esteso ai maschi sopra i trent'anni, o ventuno se alfabetizzati o ex militari.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS6_2",
+  "testo": "Viene introdotta un'indennità per i deputati, così anche i non abbienti possono fare politica.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS6_3",
+  "testo": "Nel millenovecentotredici Giolitti stringe il Patto Gentiloni con l'Unione elettorale cattolica.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS6_4",
+  "testo": "I cattolici votano i liberali, in cambio dell'impegno a non approvare il divorzio e a difendere le scuole religiose.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS7_1",
+  "testo": "Nonostante l'allargamento del suffragio, le donne restano escluse dai diritti politici nazionali.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS7_2",
+  "testo": "Anna Kuliscioff e la rivista Lucciola animano il dibattito e chiedono parità.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS7_3",
+  "testo": "La mentalità del tempo relega la donna al ruolo di moglie e madre e tutela anche il delitto d'onore.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS7_4",
+  "testo": "Per frenare le attiviste, lo Stato ricorre spesso al ricovero forzato negli ospedali psichiatrici.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS8_1",
+  "testo": "Le alte tariffe doganali proteggono i prodotti italiani dalla concorrenza straniera.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS8_2",
+  "testo": "Lo Stato sostiene l'industria con grandi commesse per le ferrovie e la flotta militare.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS8_3",
+  "testo": "La banca mista usa i depositi dei risparmiatori per finanziare la grande industria pesante.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS8_4",
+  "testo": "Crescono la siderurgia con l'Ansaldo, la meccanica con la Fiat e la chimica con la Montecatini.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS8_5",
+  "testo": "Lo Stato assume la proprietà del servizio telefonico e della rete ferroviaria.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS9_1",
+  "testo": "Lo sviluppo si concentra nel triangolo industriale tra Torino, Milano e Genova.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS9_2",
+  "testo": "Il Sud resta agricolo, dominato dai latifondisti e quasi senza infrastrutture.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS9_3",
+  "testo": "Gaetano Salvemini e altri intellettuali accusano Giolitti di corruzione e di tollerare i brogli dei notabili.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS9_4",
+  "testo": "Al Nord il governo dialoga con i sindacati, al Sud reprime nel sangue le proteste delle leghe contadine.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS9_5",
+  "testo": "Tra il millenovecentouno e il millenovecentoquindici circa nove milioni di italiani emigrano.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS10_1",
+  "testo": "Industriali e nazionalisti spingono Giolitti verso un'impresa coloniale.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS10_2",
+  "testo": "Nel settembre del millenovecentoundici l'Italia dichiara guerra all'Impero ottomano e attacca Tripolitania e Cirenaica.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS10_3",
+  "testo": "La propaganda, con Pascoli, presenta la Libia come terra promessa per i migranti italiani.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS10_4",
+  "testo": "L'occupazione dell'interno è lenta, a causa della guerriglia, e viene stroncata con metodi spietati.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS10_5",
+  "testo": "Con il trattato di Losanna, nel millenovecentododici, l'Italia ottiene la Libia e occupa il Dodecaneso.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS11_1",
+  "testo": "L'impresa coloniale spacca il Partito socialista: sono espulsi i riformisti e sale il giovane Mussolini.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS11_2",
+  "testo": "Il Patto Gentiloni, per le proteste dei laici, indebolisce la maggioranza liberale.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS11_3",
+  "testo": "Nel marzo del millenovecentoquattordici Giolitti si dimette e il re affida il governo al conservatore Salandra.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PS11_4",
+  "testo": "Nel giugno del millenovecentoquattordici l'uccisione di tre dimostranti ad Ancona scatena la settimana rossa.",
+  "lingua": "it"
  }
 ]
