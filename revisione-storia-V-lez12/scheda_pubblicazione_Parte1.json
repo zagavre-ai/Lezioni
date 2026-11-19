@@ -1,38 +1,37 @@
 {
- "materia": "Storia",
- "titolo": "Storia V · Lezione 12 · L'Europa e il mondo negli anni Trenta",
- "parte": 1,
- "durata_s": 1738.867,
+ "materia": "Storia V",
+ "titolo": "Storia V · Lezione 12 · L'Europa e il mondo negli anni Trenta · Parte 1",
+ "durata_s": 1983.833,
  "argomenti": [
   {
    "n": 1,
    "titolo": "Il Regno Unito negli anni Trenta",
-   "inizio_s": 220.4,
-   "quiz_s": 609.933
+   "inizio_s": 223.1,
+   "quiz_s": 658.767
   },
   {
    "n": 2,
    "titolo": "La Francia e il Fronte popolare",
-   "inizio_s": 614.533,
-   "quiz_s": 847.433
+   "inizio_s": 663.767,
+   "quiz_s": 946.267
   },
   {
    "n": 3,
    "titolo": "Le dittature dell'Europa orientale",
-   "inizio_s": 852.033,
-   "quiz_s": 1079.9
+   "inizio_s": 951.267,
+   "quiz_s": 1224.567
   },
   {
    "n": 4,
    "titolo": "La penisola iberica",
-   "inizio_s": 1084.5,
-   "quiz_s": 1328.333
+   "inizio_s": 1229.567,
+   "quiz_s": 1545.7
   },
   {
    "n": 5,
    "titolo": "L'autoritarismo fuori dall'Europa",
-   "inizio_s": 1332.933,
-   "quiz_s": 1622.6
+   "inizio_s": 1550.7,
+   "quiz_s": 1865.8
   }
  ],
  "quiz": {

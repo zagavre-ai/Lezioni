@@ -1,32 +1,31 @@
 {
- "materia": "Storia",
- "titolo": "Storia V · Lezione 12 · L'Europa e il mondo negli anni Trenta",
- "parte": 2,
- "durata_s": 2318.367,
+ "materia": "Storia V",
+ "titolo": "Storia V · Lezione 12 · L'Europa e il mondo negli anni Trenta · Parte 2",
+ "durata_s": 2513.433,
  "argomenti": [
   {
    "n": 6,
    "titolo": "La guerra civile spagnola",
-   "inizio_s": 61.7,
-   "quiz_s": 786.133
+   "inizio_s": 63.1,
+   "quiz_s": 837.533
   },
   {
    "n": 7,
    "titolo": "L'aggressività nazista e l'appeasement",
-   "inizio_s": 790.733,
-   "quiz_s": 1167.933
+   "inizio_s": 842.533,
+   "quiz_s": 1265.2
   },
   {
    "n": 8,
    "titolo": "L'Anschluss e la conferenza di Monaco",
-   "inizio_s": 1172.533,
-   "quiz_s": 1663.467
+   "inizio_s": 1270.2,
+   "quiz_s": 1755.6
   },
   {
    "n": 9,
    "titolo": "Verso la Seconda guerra mondiale",
-   "inizio_s": 1668.067,
-   "quiz_s": 2220.333
+   "inizio_s": 1760.6,
+   "quiz_s": 2413.633
   }
  ],
  "quiz": {
