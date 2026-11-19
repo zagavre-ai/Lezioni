@@ -1,7 +1,7 @@
 {
  "materia": "Storia V",
  "titolo": "Storia V · Lezione 14 · La guerra fredda (1945-1961) · Parte 2",
- "durata_s": 2930.9,
+ "durata_s": 2927.733,
  "argomenti": [
   {
    "n": 4,
@@ -12,20 +12,20 @@
   {
    "n": 5,
    "titolo": "Gli Stati Uniti negli anni Cinquanta",
-   "inizio_s": 738.1,
-   "quiz_s": 1082.167
+   "inizio_s": 737.7,
+   "quiz_s": 1081.767
   },
   {
    "n": 6,
    "titolo": "Il blocco orientale e la destalinizzazione",
-   "inizio_s": 1086.767,
-   "quiz_s": 1845.633
+   "inizio_s": 1085.967,
+   "quiz_s": 1844.833
   },
   {
    "n": 7,
    "titolo": "La guerra fredda in Asia",
-   "inizio_s": 1850.233,
-   "quiz_s": 2818.0
+   "inizio_s": 1849.033,
+   "quiz_s": 2816.833
   }
  ],
  "quiz": {
@@ -250,6 +250,6 @@
    ]
   }
  },
- "verifica_s": 2912.4,
- "compiti_s": 2925.9
+ "verifica_s": 2910.833,
+ "compiti_s": 2923.133
 }

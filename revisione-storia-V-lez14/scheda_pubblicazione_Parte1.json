@@ -1,25 +1,25 @@
 {
  "materia": "Storia V",
  "titolo": "Storia V · Lezione 14 · La guerra fredda (1945-1961) · Parte 1",
- "durata_s": 2943.7,
+ "durata_s": 2942.067,
  "argomenti": [
   {
    "n": 1,
    "titolo": "Il dopoguerra e la nuova geopolitica",
    "inizio_s": 94.033,
-   "quiz_s": 1196.233
+   "quiz_s": 1196.2
   },
   {
    "n": 2,
    "titolo": "Bretton Woods e il bipolarismo",
-   "inizio_s": 1200.833,
-   "quiz_s": 1990.1
+   "inizio_s": 1200.4,
+   "quiz_s": 1989.667
   },
   {
    "n": 3,
    "titolo": "Dottrina Truman, piano Marshall e Berlino",
-   "inizio_s": 1994.7,
-   "quiz_s": 2849.0
+   "inizio_s": 1993.867,
+   "quiz_s": 2848.167
   }
  ],
  "quiz": {
