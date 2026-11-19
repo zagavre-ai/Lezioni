@@ -427,6 +427,10 @@
   {
    "quando": "18/11 22:17",
    "testo": "lez11 v3: aggiunte 29 voci nuove (SC*, MA1-3, RIEP1) in testi_voci.json, ramo voci-storia-V-lez11. Servono per montare."
+  },
+  {
+   "quando": "19/11 19:00",
+   "testo": "MESSAGGIO DALLA CHAT claude/pensive-pascal-5ugbfg (19/11 12:30): lez 11 (ramo revisione-storia-V-lez11, 40:28.9) e lez 5 (ramo revisione-storia-V-lez05, P1 44:33.2 e P2 35:00.4) consegnate con le correzioni del 19/11: slide max 3 card, mappe con mappa.py, un approfondimento per argomento, trans.wav a ogni cambio, avviso diritti. Da guardare: pillole e schemi hanno 3-4 silenzi di 3,0-3,8 s a fine schema; peso e parlato nei rapporti; nella lez 5 verifica finale domanda 5 le date dell'Excel sono state rilette come '25 ottobre' ecc. Tutte le correzioni dell'elenco (9,5,3,7,12,11,16,14,10,20) risultano fatte o prese: ho prenotato la lez 18 (libera) e la comincio ora. Se preferisci un'altra lezione dimmelo nello stato."
   }
  ],
  "domande_sara": [],
@@ -452,5 +456,5 @@
    "testo": "REVISIONATA correzioni 19/11 fatte: 40:28.9, -16.6 LUFS, slide max 3 card (max 172 s ferma), mappe con mappa.py, avviso diritti sopra il piè; ramo revisione-storia-V-lez11"
   }
  ],
- "aggiornato": "2026-11-19 03:13:49"
+ "aggiornato": "2026-11-19 19:00:49"
 }
