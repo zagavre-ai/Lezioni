@@ -1,31 +1,31 @@
 {
  "materia": "Storia V",
  "titolo": "Storia V · Lezione 10 · La Germania da Weimar al nazismo · Parte 1",
- "durata_s": 3587.867,
+ "durata_s": 3754.8,
  "argomenti": [
   {
    "n": 1,
    "titolo": "La Repubblica di Weimar e gli anni Venti",
-   "inizio_s": 282.47,
-   "quiz_s": 1155.57
+   "inizio_s": 284.133,
+   "quiz_s": 1200.0
   },
   {
    "n": 2,
    "titolo": "La crisi del 1929 e il collasso della Germania",
-   "inizio_s": 1160.17,
-   "quiz_s": 1864.6
+   "inizio_s": 1205.0,
+   "quiz_s": 2039.567
   },
   {
    "n": 3,
    "titolo": "Il partito nazista e la sua ideologia",
-   "inizio_s": 1869.2,
-   "quiz_s": 2719.97
+   "inizio_s": 2044.567,
+   "quiz_s": 2808.333
   },
   {
    "n": 4,
    "titolo": "Hitler, le SA e il putsch di Monaco",
-   "inizio_s": 2724.57,
-   "quiz_s": 3526.0
+   "inizio_s": 2813.333,
+   "quiz_s": 3678.633
   }
  ],
  "quiz": {
