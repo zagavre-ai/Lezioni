@@ -11,6 +11,10 @@
   {
    "quando": "14/11 22:39",
    "testo": "Voci Kore moda-laboratori-III-IV-lez5: scambio/moda-laboratori-III-IV-lez5/testi_voci.json sul ramo voci-moda-laboratori-III-IV-lez5."
+  },
+  {
+   "quando": "18/11 23:16",
+   "testo": "Voci nuove Lezione 5: 88 voci (schemi SC, Parte 2, glossario e riepilogo Parte 2) in testi_voci.json sul ramo voci-moda-laboratori-III-IV-lez5. Monto con segnaposto finche non arrivano."
   }
  ],
  "domande_sara": [],
@@ -34,9 +38,13 @@
   {
    "quando": "18/11 23:02",
    "testo": "ripresa 19/11: presa da chat LAB (Caputi), modello nuovo Spagnolo"
+  },
+  {
+   "quando": "18/11 23:16",
+   "testo": "Piano: 2 Parti (args 1-7 / 8-11), modello Spagnolo, tondo Caputi"
   }
  ],
  "materia": "Moda · Laboratori III-IV · chat LAB",
  "lezione": "Industrializzazione",
- "aggiornato": "2026-11-18 23:02:36"
+ "aggiornato": "2026-11-18 23:16:14"
 }
