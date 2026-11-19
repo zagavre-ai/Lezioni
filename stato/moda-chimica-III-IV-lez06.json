@@ -229,6 +229,245 @@
      3.6
     ]
    ]
+  },
+  "2": {
+   "titolo": "Fibre artificiali · Parte 2",
+   "stato": "PRONTA",
+   "voci": "kore",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "si",
+   "video": "Chimica_Lez6_Parte2_1080p.mp4",
+   "durata_s": 2567.9,
+   "durata": "42:47.9",
+   "fotogrammi": 77033,
+   "fotogrammi_attesi": 77036,
+   "peso_MB": 242.1,
+   "vtt": "Chimica_Lez6_Parte2.vtt",
+   "scheda": {
+    "materia": "Chimica applicata e nobilitazione dei materiali",
+    "titolo": "Fibre artificiali · Parte 2",
+    "durata_s": 2567.87,
+    "argomenti": [
+     {
+      "n": 4,
+      "titolo": "Acetato di cellulosa",
+      "inizio_s": 13.999,
+      "quiz_s": 633.666
+     },
+     {
+      "n": 5,
+      "titolo": "Fibre alginiche, proteiche e minerali",
+      "inizio_s": 638.966,
+      "quiz_s": 1899.799
+     },
+     {
+      "n": 6,
+      "titolo": "Analisi e riconoscimento delle fibre artificiali",
+      "inizio_s": 1905.099,
+      "quiz_s": 2354.465
+     }
+    ],
+    "quiz": {
+     "Q4": {
+      "title": "Quiz 4 · Acetato di cellulosa",
+      "items": [
+       {
+        "p": "A differenza di viscosa e cupro, l'acetato è composto da...",
+        "a": "Esteri della cellulosa",
+        "w": [
+         "Cellulosa rigenerata",
+         "Proteine",
+         "Polimeri minerali"
+        ],
+        "ref": "L'acetato è una fibra composta da esteri della cellulosa; viscosa e cupro da cellulosa rigenerata."
+       },
+       {
+        "p": "Quale percentuale minima di gruppi acetilati ha il triacetato?",
+        "a": "92%",
+        "w": [
+         "30%",
+         "74%",
+         "50%"
+        ],
+        "ref": "Il diacetato ha almeno il 74% di gruppi acetilati, il triacetato almeno il 92%."
+       },
+       {
+        "p": "Qual è la miscela usata per produrre il triacetato?",
+        "a": "60% di acido acetico e 40% di anidride acetica",
+        "w": [
+         "60% di soda e 40% di solfuro di carbonio",
+         "Solo anidride acetica",
+         "Acido nitrico e solforico"
+        ],
+        "ref": "L'acido solforico concentrato è il catalizzatore; la reazione è esotermica e va tenuta sotto i 40 °C."
+       },
+       {
+        "p": "Che tipo di fibra è l'acetato dal punto di vista termico?",
+        "a": "Termoplastica",
+        "w": [
+         "Infusibile",
+         "Infiammabile come il nitro",
+         "Resistente fino a 1500 °C"
+        ],
+        "ref": "Rammollisce a 205 °C (diacetato) e 225 °C (triacetato): permette plissettature permanenti."
+       },
+       {
+        "p": "Quale solvente scioglie completamente l'acetato e solo lui?",
+        "a": "L'acetone",
+        "w": [
+         "L'acido solforico diluito",
+         "L'acqua calda",
+         "La soda al 10%"
+        ],
+        "ref": "L'acetato è l'unica fibra, tra naturali e artificiali, che si scioglie completamente in acetone."
+       }
+      ]
+     },
+     "Q5": {
+      "title": "Quiz 5 · Fibre alginiche, proteiche e minerali",
+      "items": [
+       {
+        "p": "Da che cosa derivano le fibre alginiche?",
+        "a": "Dall'acido alginico delle alghe brune",
+        "w": [
+         "Dalla caseina del latte",
+         "Dalle proteine di soia",
+         "Dalla grafite"
+        ],
+        "ref": "L'acido alginico è un acido β-polimannuronico estratto da alghe brune, come la Laminaria."
+       },
+       {
+        "p": "Da quale proteina deriva l'Ardil?",
+        "a": "Dalle arachidi",
+        "w": [
+         "Dal mais",
+         "Dalla soia",
+         "Dal latte"
+        ],
+        "ref": "L'Ardil è ottenuto dall'ardeina, proteina dei semi di arachide; la Vicara dalla zeina del mais."
+       },
+       {
+        "p": "Quale fibra fu la prima fibra italiana, creata nel 1936 dalla caseina?",
+        "a": "Il Lanital",
+        "w": [
+         "La Merinova",
+         "La Vicara",
+         "Il Rilsan"
+        ],
+        "ref": "Il Lanital, seguito dalla Merinova, evoluzione più resistente."
+       },
+       {
+        "p": "Come si produce industrialmente la fibra di carbonio?",
+        "a": "Per pirolisi di fibre di viscosa in ambiente inerte",
+        "w": [
+         "Dalla fusione della grafite minerale",
+         "Dalla filatura del cotone",
+         "Dalla coagulazione dell'alginato"
+        ],
+        "ref": "Dopo la pirolisi tra 700 e 1400 °C, il residuo carbonioso viene graffitizzato in forni elettrici a 2000-2400 °C."
+       },
+       {
+        "p": "A che cosa servono i fili metallici come l'alluminio rivestito?",
+        "a": "A guarnizioni e tessuti lucenti come il lamé",
+        "w": [
+         "Alle imbottiture",
+         "Alle lenti ottiche",
+         "Agli scafi delle barche"
+        ],
+        "ref": "I fili metallici di argento, oro, ottone o alluminio sono usati per guarnizioni, arredamento e capi lucenti chiamati lamé."
+       }
+      ]
+     },
+     "Q6": {
+      "title": "Quiz 6 · Analisi e riconoscimento delle fibre artificiali",
+      "items": [
+       {
+        "p": "Che aspetto ha al microscopio la viscosa lucida?",
+        "a": "Fibre diritte e lucide con marcate striature longitudinali",
+        "w": [
+         "Fibre lisce senza striature",
+         "Fibre con puntini",
+         "Fibre con scaglie"
+        ],
+        "ref": "La viscosa opacizzata è simile ma ha puntini dovuti alla sostanza opacizzante."
+       },
+       {
+        "p": "Quali reagenti sciolgono esclusivamente l'acetato?",
+        "a": "Acetone e acido acetico",
+        "w": [
+         "Acido solforico e soda",
+         "Acido nitrico e cloruro di zinco",
+         "Acqua e alcol"
+        ],
+        "ref": "Le altre fibre cellulosiche restano inalterate."
+       },
+       {
+        "p": "Come si identifica la viscosa con la carta all'acetato di piombo?",
+        "a": "Cercando le tracce di zolfo residue: i vapori anneriscono la carta",
+        "w": [
+         "Con una colorazione blu",
+         "Con una fluorescenza azzurro-violetta",
+         "Sciogliendola in acetone"
+        ],
+        "ref": "Scaldando la fibra con acido solforico diluito si liberano vapori di acido solfidrico."
+       },
+       {
+        "p": "Quale reazione dà il Lanital con l'acido nitrico concentrato?",
+        "a": "Una colorazione gialla (reazione xantoproteica)",
+        "w": [
+         "Una colorazione blu",
+         "Una fluorescenza",
+         "Nessuna reazione, perché si scioglie in acetone"
+        ],
+        "ref": "Il Lanital è inoltre insolubile in acido solforico concentrato e dà rosa con la fluoroglucina."
+       },
+       {
+        "p": "Quale reattivo si usa per il dosaggio di viscosa o cupro in mischia con il cotone?",
+        "a": "Il reattivo di Cappelli e Ruffi (cloruro di zinco e ossido di zinco)",
+        "w": [
+         "La barite e il nitrato di potassio",
+         "L'acetone puro",
+         "L'acido acetico glaciale"
+        ],
+        "ref": "A 135 °C scioglie le fibre artificiali e lascia inalterato il cotone."
+       }
+      ]
+     }
+    }
+   },
+   "timeline": [
+    [
+     "T4",
+     13.999,
+     3.6
+    ],
+    [
+     "T5",
+     638.966,
+     3.6
+    ],
+    [
+     "T6",
+     1905.099,
+     3.6
+    ],
+    [
+     "GL1",
+     2359.765,
+     75.133
+    ],
+    [
+     "RF1",
+     2436.498,
+     57.967
+    ],
+    [
+     "FIN1",
+     2517.932,
+     9.967
+    ]
+   ]
   }
  },
  "manca": "",
@@ -250,10 +489,14 @@
   {
    "quando": "19/11 01:31",
    "testo": "Parte 1: durata misurata 34:11.7 (2051.7 s), 1080p CRF 18, 179 MB.  Consegna su consegna-moda-chimica-III-IV-lez06 (Parte 1: argomenti 1-3; Parte 2: 4-6 + chiusura). Sigla Chimica nuova in testa a ogni Parte; Parte 1 chiude con la sigla finale. Sincronia: scarto massimo 0,33 s. Ascoltare a campione le voci Kore."
+  },
+  {
+   "quando": "19/11 01:31",
+   "testo": "Parte 2: durata misurata 42:47.9 (2567.9 s), 1080p CRF 18, 231 MB. t_verifica 2529.5 s, t_compiti 2547.8 s. Consegna su consegna-moda-chimica-III-IV-lez06 (Parte 1: argomenti 1-3; Parte 2: 4-6 + chiusura). Sigla Chimica nuova in testa a ogni Parte; Parte 1 chiude con la sigla finale. Sincronia: scarto massimo 0,33 s. Ascoltare a campione le voci Kore."
   }
  ],
  "materia": "Moda III+IV · Chimica applicata e nobilitazione dei materiali",
  "lezione": "Fibre artificiali",
  "docente": "Prof.ssa Piera Caputi",
- "aggiornato": "2026-11-19 01:31:42"
+ "aggiornato": "2026-11-19 01:31:45"
 }
