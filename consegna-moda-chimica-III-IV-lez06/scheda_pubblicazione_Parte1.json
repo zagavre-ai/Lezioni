@@ -1,0 +1,192 @@
+{
+ "materia": "Chimica applicata e nobilitazione dei materiali",
+ "titolo": "Fibre artificiali · Parte 1",
+ "durata_s": 2051.7,
+ "argomenti": [
+  {
+   "n": 1,
+   "titolo": "Fibre artificiali: origine e produzione",
+   "inizio_s": 54.466,
+   "quiz_s": 429.566
+  },
+  {
+   "n": 2,
+   "titolo": "Nitro e cupro",
+   "inizio_s": 434.866,
+   "quiz_s": 1135.132
+  },
+  {
+   "n": 3,
+   "titolo": "Viscosa e derivati",
+   "inizio_s": 1140.432,
+   "quiz_s": 2043.666
+  }
+ ],
+ "quiz": {
+  "Q1": {
+   "title": "Quiz 1 · Fibre artificiali: origine e produzione",
+   "items": [
+    {
+     "p": "Da che cosa sono prodotte le fibre artificiali?",
+     "a": "Da polimeri di origine naturale (vegetale, animale o minerale) trasformati chimicamente",
+     "w": [
+      "Da monomeri ottenuti dal petrolio",
+      "Dalla filatura diretta di fibre naturali",
+      "Da polimeri sintetizzati ex novo"
+     ],
+     "ref": "Le fibre artificiali partono da polimeri naturali, che devono essere sottoposti a un processo chimico per poter essere filati."
+    },
+    {
+     "p": "Come si forma il filamento solido dopo l'estrusione?",
+     "a": "Per allontanamento del solvente o per reazione con un coagulante",
+     "w": [
+      "Per fusione e raffreddamento del polimero",
+      "Per stiro meccanico a freddo",
+      "Per ossidazione all'aria"
+     ],
+     "ref": "La massa fluida viene estrusa dalle filiere; il filamento solido si forma per allontanamento del solvente in corrente d'aria o con un reattivo coagulante."
+    },
+    {
+     "p": "Quale tra queste è una fibra artificiale di origine animale?",
+     "a": "La fibra ricavata dalla caseina del latte",
+     "w": [
+      "La fibra di vetro",
+      "L'Ardil",
+      "Il cupro"
+     ],
+     "ref": "Le fibre artificiali animali derivano da proteine animali, come la caseina del latte."
+    },
+    {
+     "p": "Quali sono le fibre artificiali di origine minerale?",
+     "a": "Vetro, fibre metalliche e carbonio",
+     "w": [
+      "Cotone, lino e canapa",
+      "Viscosa e acetato",
+      "Ardil e Vicara"
+     ],
+     "ref": "Le fibre di origine minerale includono le fibre di vetro, metalliche e di carbonio."
+    },
+    {
+     "p": "Perché la «seta artificiale» fu chiamata rayon?",
+     "a": "I commercianti di seta si opposero al vecchio nome, che fu proibito",
+     "w": [
+      "Perché è prodotta con raggi di luce",
+      "Perché è ricavata dal cotone",
+      "Perché è più resistente della seta"
+     ],
+     "ref": "Il termine rayon (dal francese raggio) sostituì «seta artificiale»; oggi si preferisce fibra tessile artificiale cellulosica."
+    }
+   ]
+  },
+  "Q2": {
+   "title": "Quiz 2 · Nitro e cupro",
+   "items": [
+    {
+     "p": "Chi brevettò il nitro nel 1886?",
+     "a": "Chardonnet",
+     "w": [
+      "Schutzenberger",
+      "Fremery e Urban",
+      "Bemberg"
+     ],
+     "ref": "Il nitro, o rayon alla nitrocellulosa, fu il primo a essere prodotto, brevettato da Chardonnet nel 1886."
+    },
+    {
+     "p": "Qual è il principale difetto del nitro?",
+     "a": "È estremamente infiammabile",
+     "w": [
+      "È troppo pesante",
+      "Si scioglie in acqua",
+      "È poco lucente"
+     ],
+     "ref": "Il filamento si ottiene per evaporazione del solvente, ma il nitro è estremamente infiammabile."
+    },
+    {
+     "p": "In quale reattivo si scioglie la cellulosa per produrre il cupro?",
+     "a": "Nel liquido di Schweitzer, soluzione ammoniacale di solfato di rame",
+     "w": [
+      "Nel solfuro di carbonio",
+      "Nell'acetone",
+      "In acido acetico glaciale"
+     ],
+     "ref": "Il cupro sfrutta la solubilità della cellulosa nel liquido di Schweitzer, a temperature inferiori ai 5 °C."
+    },
+    {
+     "p": "In che cosa consiste il processo Bemberg?",
+     "a": "Nello stirare la fibra ancora plastica tra due cilindri a velocità diverse",
+     "w": [
+      "Nel coagulare la fibra in acido",
+      "Nel raffreddare il reattivo sotto 5 °C",
+      "Nel tingere la fibra in massa"
+     ],
+     "ref": "Lo stiro orienta le macromolecole e permette di ottenere filamenti molto sottili e soffici."
+    },
+    {
+     "p": "Quale saggio colora di blu il cupro?",
+     "a": "Il saggio alla difenilammina",
+     "w": [
+      "Il saggio con acetone",
+      "La prova con acido nitrico",
+      "La prova alla fiamma"
+     ],
+     "ref": "Sciolto in acido solforico concentrato con difenilammina, il cupro assume una colorazione blu."
+    }
+   ]
+  },
+  "Q3": {
+   "title": "Quiz 3 · Viscosa e derivati",
+   "items": [
+    {
+     "p": "Quale percentuale della produzione di fibre artificiali rappresenta la viscosa?",
+     "a": "Circa l'80%",
+     "w": [
+      "Circa il 10%",
+      "Circa il 30%",
+      "Circa il 100%"
+     ],
+     "ref": "La viscosa ha raggiunto il maggiore sviluppo industriale grazie al costo contenuto di materie prime e reattivi."
+    },
+    {
+     "p": "Con quale sostanza si fa reagire la sodiocellulosa per ottenere lo xantogenato?",
+     "a": "Con il solfuro di carbonio",
+     "w": [
+      "Con l'acido acetico",
+      "Con l'anidride acetica",
+      "Con il liquido di Schweitzer"
+     ],
+     "ref": "La sodiocellulosa reagisce con solfuro di carbonio e dà lo xantogenato sodico di cellulosa."
+    },
+    {
+     "p": "Quale forma ha la sezione trasversale della viscosa?",
+     "a": "A C o dentellata",
+     "w": [
+      "Perfettamente circolare",
+      "Triangolare",
+      "A nastro"
+     ],
+     "ref": "La parte esterna del filamento coagula più velocemente di quella interna, dando una sezione a C o dentellata."
+    },
+    {
+     "p": "Perché la viscosa perde resistenza quando è bagnata?",
+     "a": "Perché è estremamente igroscopica",
+     "w": [
+      "Perché si scioglie in acqua",
+      "Perché è termoplastica",
+      "Perché è molto cristallina"
+     ],
+     "ref": "Assorbe acqua fino al 110% del suo peso, con un rigonfiamento volumetrico dell'80%."
+    },
+    {
+     "p": "Che cosa sono le fibre polinosiche, come il Modal?",
+     "a": "Fibre più cristalline della viscosa, con tenacità doppia e minore igroscopicità",
+     "w": [
+      "Fibre di acetato",
+      "Fibre ricavate dalla caseina",
+      "Fibre di origine minerale"
+     ],
+     "ref": "Le polinosiche sono prodotte con processi che minimizzano la depolimerizzazione."
+    }
+   ]
+  }
+ }
+}

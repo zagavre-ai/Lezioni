@@ -1,0 +1,35 @@
+moda-chimica-III-IV-lez06 · Chimica applicata e nobilitazione dei materiali · Fibre artificiali · Prof.ssa Piera Caputi · Parte 1 di 2
+
+VIDEO: 6 (1920x1080, 30 fps, x264 veryfast CRF 18, AAC 192k). Si ricompone con: cat 6.parte_* > 6 (sha256 nel file .sha256).
+durata 34:11.7 (2051.7 s) | fotogrammi 61551 (attesi 61551) OK | peso 187.4 MB (178.7 MiB) OK | 1920x1080 OK
+Questa Parte finisce dopo la scheda Quiz dell'ultimo argomento, con la sigla finale (2046.7 s); Verifica finale, sigla e Compiti sono alla fine della Parte 2.
+Durata solo dal materiale della lezione: video del docente + schemi di ripasso, mappe, glossario, ripasso, quiz, chiusura.
+Struttura: per ogni argomento titolo, docente con slide sincronizzate, schema di ripasso con voce, mappa concettuale con voce, scheda Quiz (5 domande, 80%); poi glossario, ripasso finale, mappa finale, FINE, Verifica finale (test del docente), sigla, intro Compiti, Compiti.
+Voci: tutte Kore (dal ramo voci-moda-chimica-III-IV-lez06). La trascrizione automatica ha letto male alcuni termini tecnici: ascoltare a campione schemi (S) e glossario (GL1).
+Mappe: nel video e in Mappe_moda-chimica-III-IV-lez06.pdf (A4 orizzontale, una per pagina), a partire dalle mappe del docente rifatte nella grafica Telesio.
+File: quiz (Quiz_Chimica_LezDivisione in 2 Parti a fine argomento (Parte 1: argomenti 1-3; Parte 2: argomenti 4-6, glossario, ripasso, Verifica, sigla, Compiti). Sigla di Chimica: Sigla_Chimica_moda_15s.mp4 in testa a ogni Parte. Voci Kore da ascoltare a campione..txt), test finale = Excel del docente (Test_Chimica_LezDivisione in 2 Parti a fine argomento (Parte 1: argomenti 1-3; Parte 2: argomenti 4-6, glossario, ripasso, Verifica, sigla, Compiti). Sigla di Chimica: Sigla_Chimica_moda_15s.mp4 in testa a ogni Parte. Voci Kore da ascoltare a campione..xlsx), compiti.json, dispensa del docente, sottotitoli .vtt, scheda_pubblicazione.json, testo_youtube.txt, controllo_finale.txt.
+
+CONTROLLI sul file finale
+- Scatto musicale dei Quiz a 0,0 s: OK su 3/3.
+- durata 34:11.7 (2051.7 s) | fotogrammi 61551 (attesi 61551) OK | peso 187.4 MB (178.7 MiB) OK | 1920x1080 OK
+- quiz 3 scatto 0,0 s: OK
+- fermi immagine nei pezzi del docente: nessuno OK
+- volume del parlato (mediana dei pezzi del docente): -16.4 LUFS OK
+- Sincronia (righe che si accendono sulle parole dette; tempi parola per parola dalla trascrizione; confronto con la trascrizione del video FINALE), 10 punti a caso:
+    (26, 796.06, 795.95, 0.11, 'La sezione trasversale è molto uniforme, solitamente ci')
+    (72, 1910.89, 1910.98, -0.09, "La viscosa opacizzata nasce dall'esigenza di correggere")
+    (15, 462.05, 462.17, -0.12, 'La materia prima, i linters di cotone, viene trattata c')
+    (34, 886.59, 886.81, -0.22, "Non ingiallisce con l'acido nitrico (HNO3) concentrato ")
+    (52, 1438.59, 1438.54, 0.05, 'In sezione trasversale, la fibra assume una forma a C o')
+    scarto medio assoluto 0.12 s, massimo 0.22 s
+    (16, 486.36, 486.57, -0.21, 'Questa sostanza viene sciolta in una miscela di etere e')
+    (35, 902.48, 902.65, -0.17, 'Reagisce con il reattivo iodosolforico assumendo una ti')
+    (55, 1491.81, 1491.75, 0.06, 'È una fibra estremamente igroscopica, capace di assorbi')
+    (51, 1411.72, 1411.67, 0.05, 'Dal punto di vista morfologico, la viscosa lucida si pr')
+    (24, 759.6, 759.59, 0.01, 'Dal punto di vista della morfologia, il cupro si presen')
+    scarto medio assoluto 0.10 s, massimo 0.21 s
+  Tolleranza richiesta 1,5 s.
+- Cerchio della docente: ritagliato solo dal video sorgente (58x58 px interni al cerchio, ingrandito a 232 px), maschera tonda con bordo sfumato e anello giallo #FFE600 di 6 px su fondo slide; nessun pixel del video originale fuori dal cerchio. La risoluzione di partenza e' bassa (il cerchio originale misura 61 px).
+- sottotitoli: 375 blocchi, sovrapposti 0, oltre la fine 0, attacco sulla voce entro 0,3 s: 45% di 22 verificabili DA GUARDARE
+- Controllo indipendente dei sottotitoli (trascrizione di finestre brevi): 30 confrontati; entro 0,3 s: 28 entro 0,6 s: 30 max 0.32 mediana 0.08
+- Codifica: 1080p x264 veryfast CRF 18. Le Parti sono ricavate dal montaggio 1080p gia' controllato: sigla nuova (Sigla_Chimica_moda_15s) in testa con dissolvenza di 1 s, taglio a fine scheda Quiz, ricodifica unica per Parte.

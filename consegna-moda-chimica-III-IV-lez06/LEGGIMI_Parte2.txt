@@ -1,0 +1,35 @@
+moda-chimica-III-IV-lez06 · Chimica applicata e nobilitazione dei materiali · Fibre artificiali · Prof.ssa Piera Caputi · Parte 2 di 2
+
+VIDEO: 6 (1920x1080, 30 fps, x264 veryfast CRF 18, AAC 192k). Si ricompone con: cat 6.parte_* > 6 (sha256 nel file .sha256).
+durata 42:47.9 (2567.9 s) | fotogrammi 77033 (attesi 77036) OK | peso 242.1 MB (230.9 MiB) OK | 1920x1080 OK
+t_verifica = 2529.5 s · t_compiti = 2547.8 s (scheda Compiti di 20 s con le domande del docente; sigla finale 2536.1 s; intro Compiti 2542.7 s).
+Durata solo dal materiale della lezione: video del docente + schemi di ripasso, mappe, glossario, ripasso, quiz, chiusura.
+Struttura: per ogni argomento titolo, docente con slide sincronizzate, schema di ripasso con voce, mappa concettuale con voce, scheda Quiz (5 domande, 80%); poi glossario, ripasso finale, mappa finale, FINE, Verifica finale (test del docente), sigla, intro Compiti, Compiti.
+Voci: tutte Kore (dal ramo voci-moda-chimica-III-IV-lez06). La trascrizione automatica ha letto male alcuni termini tecnici: ascoltare a campione schemi (S) e glossario (GL1).
+Mappe: nel video e in Mappe_moda-chimica-III-IV-lez06.pdf (A4 orizzontale, una per pagina), a partire dalle mappe del docente rifatte nella grafica Telesio.
+File: quiz (Quiz_Chimica_LezDivisione in 2 Parti a fine argomento (Parte 1: argomenti 1-3; Parte 2: argomenti 4-6, glossario, ripasso, Verifica, sigla, Compiti). Sigla di Chimica: Sigla_Chimica_moda_15s.mp4 in testa a ogni Parte. Voci Kore da ascoltare a campione..txt), test finale = Excel del docente (Test_Chimica_LezDivisione in 2 Parti a fine argomento (Parte 1: argomenti 1-3; Parte 2: argomenti 4-6, glossario, ripasso, Verifica, sigla, Compiti). Sigla di Chimica: Sigla_Chimica_moda_15s.mp4 in testa a ogni Parte. Voci Kore da ascoltare a campione..xlsx), compiti.json, dispensa del docente, sottotitoli .vtt, scheda_pubblicazione.json, testo_youtube.txt, controllo_finale.txt.
+
+CONTROLLI sul file finale
+- Scatto musicale dei Quiz a 0,0 s: OK su 3/3.
+- durata 42:47.9 (2567.9 s) | fotogrammi 77033 (attesi 77036) OK | peso 242.1 MB (230.9 MiB) OK | 1920x1080 OK
+- quiz 3 scatto 0,0 s: OK
+- fermi immagine nei pezzi del docente: nessuno OK
+- volume del parlato (mediana dei pezzi del docente): -16.4 LUFS OK
+- Sincronia (righe che si accendono sulle parole dette; tempi parola per parola dalla trascrizione; confronto con la trascrizione del video FINALE), 10 punti a caso:
+    (124, 1132.08, 1131.99, 0.09, 'Infine, si producono materiali misti di viscosa e di fi')
+    (99, 520.8, 521.21, -0.41, "L'analisi quantitativa per determinare la percentuale d")
+    (135, 1358.51, 1358.29, 0.22, 'Morfologicamente, queste fibre appaiono candide o legge')
+    (177, 2153.81, 2154.03, -0.22, "Il dosaggio dell'acetato di cellulosa avviene per solub")
+    (84, 216.62, 216.79, -0.17, 'Il filamento solido si ottiene attraverso la filatura d')
+    scarto medio assoluto 0.22 s, massimo 0.41 s
+    (102, 693.83, 693.72, 0.11, "Quest'ultimo è solubile in soluzione acquosa e genera u")
+    (138, 1416.84, 1416.83, 0.01, 'Sono impiegate principalmente in mischia con la lana pe')
+    (173, 2126.9, 2126.82, 0.08, 'Il Lanital è inoltre insolubile in acido solforico (H2S')
+    (119, 1032.94, 1033.27, -0.33, "Risulta meno igroscopica dell'Ardil, con un tasso di ri")
+    (148, 1617.84, 1617.91, -0.07, 'Al microscopio, la fibra di vetro appare composta da fi')
+    scarto medio assoluto 0.12 s, massimo 0.33 s
+  Tolleranza richiesta 1,5 s.
+- Cerchio della docente: ritagliato solo dal video sorgente (58x58 px interni al cerchio, ingrandito a 232 px), maschera tonda con bordo sfumato e anello giallo #FFE600 di 6 px su fondo slide; nessun pixel del video originale fuori dal cerchio. La risoluzione di partenza e' bassa (il cerchio originale misura 61 px).
+- sottotitoli: 458 blocchi, sovrapposti 0, oltre la fine 0, attacco sulla voce entro 0,3 s: 56% di 18 verificabili DA GUARDARE
+- Controllo indipendente dei sottotitoli (trascrizione di finestre brevi): 32 confrontati; entro 0,3 s: 28 entro 0,6 s: 32 max 0.4 mediana 0.08
+- Codifica: 1080p x264 veryfast CRF 18. Le Parti sono ricavate dal montaggio 1080p gia' controllato: sigla nuova (Sigla_Chimica_moda_15s) in testa con dissolvenza di 1 s, taglio a fine scheda Quiz, ricodifica unica per Parte.
