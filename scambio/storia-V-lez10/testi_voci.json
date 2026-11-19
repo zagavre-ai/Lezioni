@@ -198,5 +198,240 @@
   "nome": "RF2B",
   "testo": "Ricapitoliamo la seconda parte. Dal 1930 al 1933 i nazisti conquistano consensi e Hitler diventa cancelliere. Poi nasce lo Stato totalitario, con partito unico e Führer. Il regime controlla società, propaganda ed economia. Infine la politica razzista e antisemita prepara la soluzione finale.",
   "lingua": "it"
+ },
+ {
+  "nome": "P1",
+  "testo": "Ripassiamo insieme La Repubblica di Weimar e gli anni Venti. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC1_1",
+  "testo": "La ripresa: nella seconda metà degli anni Venti la Germania si normalizza.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC1_2",
+  "testo": "Locarno, millenovecentoventicinque: la Germania accetta i confini occidentali.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC1_3",
+  "testo": "Società delle Nazioni, millenovecentoventisei: la Germania torna Stato sovrano.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC1_4",
+  "testo": "Fiducia sul futuro: la produzione industriale cresce del quarantasei per cento.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC1_5",
+  "testo": "Patto Briand-Kellogg, millenovecentoventotto: si rinuncia alla guerra.",
+  "lingua": "it"
+ },
+ {
+  "nome": "P2",
+  "testo": "Ripassiamo insieme la crisi del millenovecentoventinove e il collasso della Germania. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC2_1",
+  "testo": "Wall Street, millenovecentoventinove: le banche americane ritirano i prestiti.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC2_2",
+  "testo": "L'economia tedesca collassa.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC2_3",
+  "testo": "Iperinflazione e stipendi giù del quaranta per cento.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC2_4",
+  "testo": "Cresce il consenso per i partiti estremisti.",
+  "lingua": "it"
+ },
+ {
+  "nome": "P3",
+  "testo": "Ripassiamo insieme il partito nazista e la sua ideologia. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC3_1",
+  "testo": "L'NSDAP nasce nel millenovecentoventi.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC3_2",
+  "testo": "Un popolo omogeneo, basato sulla purezza del sangue germanico.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC3_3",
+  "testo": "Nazionalismo esasperato: via il trattato di Versailles.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC3_4",
+  "testo": "Razzismo e antisemitismo: gli ebrei accusati della crisi.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC3_5",
+  "testo": "Antibolscevismo: comunisti e socialisti sono nemici.",
+  "lingua": "it"
+ },
+ {
+  "nome": "P4",
+  "testo": "Ripassiamo insieme Hitler, le SA e il putsch di Monaco. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC4_1",
+  "testo": "Millenovecentoventitré: il putsch di Monaco fallisce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC4_2",
+  "testo": "Hitler, arrestato, usa il processo per diventare famoso.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC4_3",
+  "testo": "Il Mein Kampf, scritto in prigione, diventa il manifesto nazista.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC4_4",
+  "testo": "Lebensraum: lo spazio vitale e la distruzione del comunismo.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC4_5",
+  "testo": "Nascono le SA e poi le SS, fedeli a Hitler.",
+  "lingua": "it"
+ },
+ {
+  "nome": "P5",
+  "testo": "Ripassiamo insieme le elezioni e la nomina di Hitler. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC5_1",
+  "testo": "Millenovecentotrenta: l'NSDAP diventa il secondo partito.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC5_2",
+  "testo": "Millenovecentotrentadue: diventa il primo partito.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC5_3",
+  "testo": "Trenta gennaio millenovecentotrentatré: Hindenburg nomina Hitler cancelliere.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC5_4",
+  "testo": "La nomina arriva dopo le pressioni di industriali e militari.",
+  "lingua": "it"
+ },
+ {
+  "nome": "P6",
+  "testo": "Ripassiamo insieme la costruzione dello Stato totalitario. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC6_1",
+  "testo": "Febbraio millenovecentotrentatré: l'incendio del Reichstag.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC6_2",
+  "testo": "Marzo millenovecentotrentatré: la legge sui pieni poteri.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC6_3",
+  "testo": "Dittatura a partito unico, e il primo campo a Dachau.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC6_4",
+  "testo": "Millenovecentotrentaquattro: nasce la figura del Führer.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC6_5",
+  "testo": "La notte dei lunghi coltelli elimina l'ala radicale delle SA.",
+  "lingua": "it"
+ },
+ {
+  "nome": "P7",
+  "testo": "Ripassiamo insieme il controllo della società e l'economia. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC7_1",
+  "testo": "La Gestapo e le SS: Himmler e Heydrich.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC7_2",
+  "testo": "Gleichschaltung: tutto è allineato al partito.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC7_3",
+  "testo": "I giovani: la Gioventù hitleriana.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC7_4",
+  "testo": "Le donne: madri prolifiche per la patria.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC7_5",
+  "testo": "Propaganda e censura: Goebbels e i roghi dei libri.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC7_6",
+  "testo": "Economia: lavori pubblici e riarmo sotto Göring.",
+  "lingua": "it"
+ },
+ {
+  "nome": "P8",
+  "testo": "Ripassiamo insieme la politica razzista e antisemita. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC8_1",
+  "testo": "Millenovecentotrentatré: sterilizzazione forzata e Aktion T4.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC8_2",
+  "testo": "Leggi di Norimberga, millenovecentotrentacinque: gli ebrei esclusi dalla cittadinanza.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC8_3",
+  "testo": "Notte dei cristalli, novembre millenovecentotrentotto: pogrom nazionale.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC8_4",
+  "testo": "Circa ventimila ebrei arrestati e deportati.",
+  "lingua": "it"
+ },
+ {
+  "nome": "FIN1",
+  "testo": "Per oggi è tutto. Nella seconda parte vedremo le elezioni e la nomina di Hitler, lo Stato totalitario, il controllo della società e la politica razzista e antisemita. Ti aspetto.",
+  "lingua": "it"
  }
 ]
