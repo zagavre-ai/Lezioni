@@ -1,0 +1,194 @@
+{
+ "materia": "Storia",
+ "titolo": "Storia V · Lezione 17 · Le fasi conclusive della Guerra fredda (1969-1991) · Parte 3",
+ "durata_s": 2232.5,
+ "argomenti": [
+  {
+   "n": 6,
+   "titolo": "Europa occidentale",
+   "inizio_s": 29.4,
+   "quiz_s": 554.933
+  },
+  {
+   "n": 7,
+   "titolo": "Il crollo dell'URSS",
+   "inizio_s": 559.533,
+   "quiz_s": 1789.0
+  },
+  {
+   "n": 8,
+   "titolo": "La svolta della Cina",
+   "inizio_s": 1793.6,
+   "quiz_s": 2178.2
+  }
+ ],
+ "quiz": {
+  "Q6": {
+   "title": "Quiz 6 · Europa occidentale",
+   "items": [
+    {
+     "p": "Che cosa provocano gli shock petroliferi nell'Europa occidentale?",
+     "a": "Inflazione, disoccupazione e conflitti sindacali",
+     "w": [
+      "Crescita record",
+      "Fine della disoccupazione",
+      "Calo dei prezzi"
+     ],
+     "e": "Colpiscono duramente le industrie."
+    },
+    {
+     "p": "Quando viene eletta Margaret Thatcher?",
+     "a": "Nel 1979",
+     "w": [
+      "Nel 1973",
+      "Nel 1981",
+      "Nel 1990"
+     ],
+     "e": "È detta la «Lady di ferro»."
+    },
+    {
+     "p": "Che politica avvia Thatcher?",
+     "a": "Neoliberista: privatizzazioni, tagli allo stato sociale e lotta ai sindacati",
+     "w": [
+      "Statalista: nazionalizzazioni",
+      "Socialista: più spesa sociale",
+      "Isolazionista"
+     ],
+     "e": "È una risposta alla crisi."
+    },
+    {
+     "p": "Quali paesi entrano nella CEE nel 1973?",
+     "a": "Regno Unito, Irlanda e Danimarca",
+     "w": [
+      "Grecia, Spagna e Portogallo",
+      "Austria, Svezia e Finlandia",
+      "Polonia, Ungheria e Romania"
+     ],
+     "e": "Grecia, Spagna e Portogallo entrano negli anni Ottanta."
+    },
+    {
+     "p": "Che cosa accade nel 1979 nelle istituzioni europee?",
+     "a": "Si tengono le prime elezioni a suffragio universale del Parlamento europeo",
+     "w": [
+      "Nasce l'euro",
+      "Si fonda la NATO",
+      "Cade il Muro di Berlino"
+     ],
+     "e": "L'integrazione prosegue nonostante la crisi."
+    }
+   ]
+  },
+  "Q7": {
+   "title": "Quiz 7 · Il crollo dell'URSS",
+   "items": [
+    {
+     "p": "Quale evento logora le risorse dell'URSS di Brežnev?",
+     "a": "L'invasione dell'Afghanistan (1979)",
+     "w": [
+      "La guerra in Corea",
+      "La crisi di Cuba",
+      "L'invasione dell'Ungheria"
+     ],
+     "e": "L'URSS vive una lunga stagnazione economica."
+    },
+    {
+     "p": "Che cosa significano Perestrojka e Glasnost?",
+     "a": "Ristrutturazione economica e trasparenza",
+     "w": [
+      "Disarmo e alleanza",
+      "Repressione e censura",
+      "Nazionalizzazione e collettivizzazione"
+     ],
+     "e": "Le lancia Gorbačev nel 1985."
+    },
+    {
+     "p": "Che cosa decide Gorbačev verso i paesi dell'Est europeo?",
+     "a": "Rinuncia a intervenire militarmente",
+     "w": [
+      "Invia i carri armati",
+      "Rafforza il Patto di Varsavia",
+      "Li annette all'URSS"
+     ],
+     "e": "Nel 1989 crollano i regimi comunisti."
+    },
+    {
+     "p": "Quando cade il Muro di Berlino?",
+     "a": "Il 9 novembre 1989",
+     "w": [
+      "Il 13 agosto 1961",
+      "Il 3 ottobre 1990",
+      "Il 25 dicembre 1991"
+     ],
+     "e": "Porta alla riunificazione tedesca del 1990."
+    },
+    {
+     "p": "Che cosa nasce dopo la dissoluzione dell'URSS?",
+     "a": "La CSI, Comunità degli Stati Indipendenti",
+     "w": [
+      "Il Patto di Varsavia",
+      "La NATO",
+      "L'Unione Europea"
+     ],
+     "e": "Succede nel dicembre 1991, e Gorbačev si dimette."
+    }
+   ]
+  },
+  "Q8": {
+   "title": "Quiz 8 · La svolta della Cina",
+   "items": [
+    {
+     "p": "Come si chiamano le riforme di Deng Xiaoping?",
+     "a": "Quattro modernizzazioni",
+     "w": [
+      "Cento fiori",
+      "Grande balzo in avanti",
+      "Rivoluzione culturale"
+     ],
+     "e": "Aprono la Cina al capitalismo."
+    },
+    {
+     "p": "Che cosa permettono le riforme di Deng?",
+     "a": "Proprietà privata e investimenti esteri, con una crescita vertiginosa",
+     "w": [
+      "Il multipartitismo",
+      "La fine del Partito Comunista",
+      "La collettivizzazione delle terre"
+     ],
+     "e": "L'economia cresce in modo vertiginoso."
+    },
+    {
+     "p": "Che cosa non accompagna l'apertura economica cinese?",
+     "a": "Riforme democratiche: il Partito Comunista mantiene il controllo assoluto",
+     "w": [
+      "Nessuna riforma economica",
+      "Elezioni libere",
+      "Libertà di stampa"
+     ],
+     "e": "È la mancata apertura politica."
+    },
+    {
+     "p": "Che cosa chiedono studenti e cittadini a Pechino nella primavera 1989?",
+     "a": "Democrazia e libertà politiche",
+     "w": [
+      "Il ritorno di Mao",
+      "L'uscita dall'ONU",
+      "Più armamenti"
+     ],
+     "e": "Manifestano in Piazza Tienanmen."
+    },
+    {
+     "p": "Come reagisce il governo cinese a giugno?",
+     "a": "Reprime la protesta nel sangue con i carri armati",
+     "w": [
+      "Concede libere elezioni",
+      "Si dimette",
+      "Apre un dialogo con gli studenti"
+     ],
+     "e": "Provoca una ferma condanna internazionale."
+    }
+   ]
+  }
+ },
+ "t_verifica": 2227.5,
+ "t_compiti": 2227.5
+}

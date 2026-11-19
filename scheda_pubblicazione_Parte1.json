@@ -1,0 +1,192 @@
+{
+ "materia": "Storia",
+ "titolo": "Storia V · Lezione 17 · Le fasi conclusive della Guerra fredda (1969-1991) · Parte 1",
+ "durata_s": 2935.7,
+ "argomenti": [
+  {
+   "n": 1,
+   "titolo": "La crisi economica degli anni Settanta",
+   "inizio_s": 201.467,
+   "quiz_s": 1450.167
+  },
+  {
+   "n": 2,
+   "titolo": "Tensioni e accordi in Medio Oriente",
+   "inizio_s": 1454.767,
+   "quiz_s": 2086.5
+  },
+  {
+   "n": 3,
+   "titolo": "Iran e guerra con l'Iraq",
+   "inizio_s": 2091.1,
+   "quiz_s": 2884.567
+  }
+ ],
+ "quiz": {
+  "Q1": {
+   "title": "Quiz 1 · La crisi economica degli anni Settanta",
+   "items": [
+    {
+     "p": "Che cosa decide Nixon nell'agosto 1971?",
+     "a": "Sospende la convertibilità del dollaro in oro",
+     "w": [
+      "Svaluta il dollaro del 50%",
+      "Chiude le frontiere alle importazioni",
+      "Aumenta le spese per il Vietnam"
+     ],
+     "e": "Finisce così il sistema di cambi fissi stabili di Bretton Woods."
+    },
+    {
+     "p": "Quali sono tra le cause del forte deficit americano ereditato da Nixon?",
+     "a": "Le spese per la guerra in Vietnam e per i programmi di assistenza sociale",
+     "w": [
+      "Le spese per la corsa allo spazio",
+      "Il pagamento dei debiti di guerra alla Germania",
+      "La fine del commercio con la Cina"
+     ],
+     "e": "Il deficit è del 1969."
+    },
+    {
+     "p": "Chi attacca Israele nella guerra del Kippur del 1973?",
+     "a": "Egitto e Siria",
+     "w": [
+      "Iran e Iraq",
+      "Libano e Giordania",
+      "Arabia Saudita e Libia"
+     ],
+     "e": "L'attacco avviene nel giorno del Kippur."
+    },
+    {
+     "p": "Che cosa fanno i paesi arabi dell'OPEC dopo l'intervento americano?",
+     "a": "Riducono l'offerta e quadruplicano il prezzo del petrolio",
+     "w": [
+      "Dimezzano il prezzo del petrolio",
+      "Nazionalizzano le banche occidentali",
+      "Bloccano il canale di Suez per sempre"
+     ],
+     "e": "È una ritorsione contro l'Occidente."
+    },
+    {
+     "p": "Che cosa si intende per «stagflazione»?",
+     "a": "Inflazione e recessione insieme",
+     "w": [
+      "Crescita senza inflazione",
+      "Deflazione e piena occupazione",
+      "Stagnazione demografica"
+     ],
+     "e": "È l'effetto della fine dell'energia a basso costo."
+    }
+   ]
+  },
+  "Q2": {
+   "title": "Quiz 2 · Tensioni e accordi in Medio Oriente",
+   "items": [
+    {
+     "p": "Quali accordi firmano Sadat e Begin nel 1978?",
+     "a": "Gli accordi di Camp David",
+     "w": [
+      "Gli accordi di Oslo",
+      "Gli accordi di Helsinki",
+      "Il trattato di Versailles"
+     ],
+     "e": "Avvengono grazie alla diplomazia americana."
+    },
+    {
+     "p": "Che cosa accade a Sadat dopo gli accordi?",
+     "a": "È isolato dal mondo arabo e assassinato nel 1981",
+     "w": [
+      "Diventa presidente d'Israele",
+      "Riceve l'appoggio di tutti i paesi arabi",
+      "Si dimette nel 1979"
+     ],
+     "e": "L'Egitto è il primo paese arabo a riconoscere Israele."
+    },
+    {
+     "p": "Quando scoppia la guerra civile in Libano?",
+     "a": "Nel 1975",
+     "w": [
+      "Nel 1967",
+      "Nel 1982",
+      "Nel 1990"
+     ],
+     "e": "Oppone la minoranza cristiana e i profughi palestinesi."
+    },
+    {
+     "p": "Perché Israele invade il Libano nel 1982?",
+     "a": "Per cacciare l'OLP",
+     "w": [
+      "Per liberare gli ostaggi",
+      "Per prendere il canale di Suez",
+      "Per aiutare la Siria"
+     ],
+     "e": "Si verificano i massacri di Sabra e Chatila."
+    },
+    {
+     "p": "Che cosa è l'Intifada del 1987?",
+     "a": "Una rivolta popolare spontanea dei palestinesi nei territori occupati",
+     "w": [
+      "Una guerra tra Egitto e Siria",
+      "Un colpo di Stato in Libano",
+      "Un trattato di pace"
+     ],
+     "e": "Nei territori occupati cresce il peso di Hamas."
+    }
+   ]
+  },
+  "Q3": {
+   "title": "Quiz 3 · Iran e guerra con l'Iraq",
+   "items": [
+    {
+     "p": "Quando cade il regime dello Shah in Iran?",
+     "a": "Nel 1979",
+     "w": [
+      "Nel 1971",
+      "Nel 1980",
+      "Nel 1989"
+     ],
+     "e": "Lo travolge una rivoluzione popolare."
+    },
+    {
+     "p": "Chi assume il potere in Iran dopo lo Shah?",
+     "a": "L'Ayatollah Khomeini",
+     "w": [
+      "Saddam Hussein",
+      "Mao Zedong",
+      "Sadat"
+     ],
+     "e": "Fonda una teocrazia."
+    },
+    {
+     "p": "Su che cosa si basa la Repubblica Islamica?",
+     "a": "Sulla sharia e su un forte sentimento anti-occidentale",
+     "w": [
+      "Sulla monarchia ereditaria",
+      "Sul libero mercato",
+      "Sul partito unico comunista"
+     ],
+     "e": "È fortemente anti-americana."
+    },
+    {
+     "p": "Che cosa accade nella crisi degli ostaggi?",
+     "a": "Gli studenti assaltano l'ambasciata USA a Teheran e tengono in ostaggio il personale per oltre un anno",
+     "w": [
+      "L'esercito iraniano invade il Kuwait",
+      "Gli Stati Uniti bombardano Teheran",
+      "Un aereo americano viene dirottato"
+     ],
+     "e": "Avviene nel novembre 1979."
+    },
+    {
+     "p": "Come si conclude la guerra Iran-Iraq (1980-1988)?",
+     "a": "Dopo otto anni, con quasi due milioni di morti e nessun vincitore",
+     "w": [
+      "Con la vittoria dell'Iraq",
+      "Con la vittoria dell'Iran",
+      "Con l'intervento dell'URSS"
+     ],
+     "e": "Saddam Hussein l'aveva iniziata attaccando l'Iran."
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,131 @@
+{
+ "materia": "Storia",
+ "titolo": "Storia V · Lezione 17 · Le fasi conclusive della Guerra fredda (1969-1991) · Parte 2",
+ "durata_s": 1920.37,
+ "argomenti": [
+  {
+   "n": 4,
+   "titolo": "Da Nixon a Reagan",
+   "inizio_s": 28.267,
+   "quiz_s": 1263.567
+  },
+  {
+   "n": 5,
+   "titolo": "America Latina",
+   "inizio_s": 1268.167,
+   "quiz_s": 1877.8
+  }
+ ],
+ "quiz": {
+  "Q4": {
+   "title": "Quiz 4 · Da Nixon a Reagan",
+   "items": [
+    {
+     "p": "Quale paese apre relazioni diplomatiche con gli USA di Nixon nel 1972?",
+     "a": "La Cina comunista di Mao",
+     "w": [
+      "L'Unione Sovietica",
+      "Cuba",
+      "Il Vietnam del Nord"
+     ],
+     "e": "Serve a isolare l'URSS."
+    },
+    {
+     "p": "Che cosa sono i trattati SALT 1 (1972)?",
+     "a": "Accordi per limitare gli armamenti nucleari",
+     "w": [
+      "Accordi commerciali",
+      "Trattati di alleanza militare",
+      "Accordi sui diritti umani"
+     ],
+     "e": "Fanno parte della distensione."
+    },
+    {
+     "p": "Che cosa stabiliscono gli accordi di Helsinki del 1975?",
+     "a": "Stabilizzano i confini europei e impegnano i blocchi al rispetto dei diritti umani",
+     "w": [
+      "Fondano la NATO",
+      "Dividono la Germania",
+      "Aboliscono le armi nucleari"
+     ],
+     "e": "Sono un punto alto della distensione."
+    },
+    {
+     "p": "Quale scandalo porta Nixon alle dimissioni nel 1974?",
+     "a": "Il Watergate",
+     "w": [
+      "Il caso Dreyfus",
+      "Lo scandalo Lockheed",
+      "La crisi dei missili"
+     ],
+     "e": "Gli succede Gerald Ford e poi Jimmy Carter."
+    },
+    {
+     "p": "Che cosa fa Reagan dal 1981?",
+     "a": "Adotta una linea dura contro l'URSS e rilancia le spese militari",
+     "w": [
+      "Apre alla Cina",
+      "Ritira le truppe dall'Europa",
+      "Firma l'accordo di Camp David"
+     ],
+     "e": "L'URSS è definita «impero del male»; c'è anche lo scudo spaziale."
+    }
+   ]
+  },
+  "Q5": {
+   "title": "Quiz 5 · America Latina",
+   "items": [
+    {
+     "p": "Chi viene eletto in Cile nel 1970?",
+     "a": "Il socialista Salvador Allende",
+     "w": [
+      "Augusto Pinochet",
+      "Fidel Castro",
+      "Juan Perón"
+     ],
+     "e": "Avvia riforme e nazionalizzazioni."
+    },
+    {
+     "p": "Che cosa accade in Cile nel settembre 1973?",
+     "a": "Un golpe militare del generale Pinochet abbatte il governo",
+     "w": [
+      "Allende viene rieletto",
+      "Il Cile entra in guerra con l'Argentina",
+      "Il Cile diventa una monarchia"
+     ],
+     "e": "Pinochet impone una dittatura feroce fino al 1988."
+    },
+    {
+     "p": "Che cosa sono i «desaparecidos»?",
+     "a": "Oppositori politici scomparsi nel nulla sotto la giunta militare argentina",
+     "w": [
+      "Soldati caduti nelle Falkland",
+      "Esuli cileni in Europa",
+      "Leader sindacali eletti"
+     ],
+     "e": "Il periodo è 1976-1983."
+    },
+    {
+     "p": "Che cosa chiedono le «Madri di Plaza de Mayo»?",
+     "a": "Verità sui propri figli scomparsi",
+     "w": [
+      "Il ritorno dei militari",
+      "Più tasse sui ricchi",
+      "L'indipendenza delle Falkland"
+     ],
+     "e": "Manifestano coraggiosamente."
+    },
+    {
+     "p": "Che cosa accelera il crollo dei regimi militari sudamericani?",
+     "a": "La crisi economica e la sconfitta argentina nella guerra delle Falkland (1982)",
+     "w": [
+      "La vittoria nelle Falkland",
+      "L'invasione sovietica",
+      "Il Piano Marshall"
+     ],
+     "e": "Segue il ritorno della democrazia."
+    }
+   ]
+  }
+ }
+}
