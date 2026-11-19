@@ -413,14 +413,6 @@
    "testo": "15/11: presa in carico (lezioni pari). Video docente 59:42, 5 argomenti (uno per mappa del docente). Richiesta voci (15 file) inviata sul ramo voci-moda-chimica-III-IV-lez10. Sincronia fatta (la dispensa ripete gli addensanti alle pp. 4-7: la docente li dice una volta sola, le righe doppie non sono mostrate)."
   },
   {
-   "quando": "16/11 04:21",
-   "testo": "voci Kore arrivate e importate (15/15); montaggio in UNA Parte; codifica 1080p CRF 19 in corso."
-  },
-  {
-   "quando": "16/11 05:00",
-   "testo": "Lez10 Ausiliari: 71:15 (4275,0 s), 128248 fotogrammi, 233,3 MB, 1080p CRF 19; 5 argomenti; t_verifica 4236,6 s, t_compiti 4254,9 s. Sincronia 10 punti max 0,09 s. Parte unica lunga, divisione a scelta master. Consegna su consegna-moda-chimica-III-IV-lez10. Ascoltare a campione le voci."
-  },
-  {
    "quando": "19/11 00:16",
    "testo": "Parte 1: durata misurata 31:20.8 (1880.8 s), 1080p CRF 18, 167 MB.  Consegna su consegna-moda-chimica-III-IV-lez10 (Parte 1: argomenti 1-2; Parte 2: 3-5 + chiusura). Sigla Chimica nuova in testa a ogni Parte; Parte 1 chiude con la sigla finale. Sincronia: scarto massimo 0,75 s (Parte 1), 0,37 s (Parte 2). Ascoltare a campione le voci Kore."
   },
@@ -432,5 +424,5 @@
  "materia": "Moda III+IV · Chimica applicata e nobilitazione dei materiali",
  "lezione": "Ausiliari",
  "docente": "Prof.ssa Piera Caputi",
- "aggiornato": "2026-11-19 00:16:16"
+ "aggiornato": "2026-11-19 02:35:28"
 }
