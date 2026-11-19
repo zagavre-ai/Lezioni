@@ -413,10 +413,6 @@
    "testo": "15/11: presa in carico (lezioni pari). Video docente 54:07, 5 argomenti (uno per mappa del docente). Richiesta voci (15 file) inviata sul ramo voci-moda-chimica-III-IV-lez04. Sincronia fatta; seguono slide, schemi, mappe, quiz."
   },
   {
-   "quando": "16/11 00:02",
-   "testo": "voci Kore arrivate e importate (15/15); montaggio 67:18 (una Parte, oltre i 65 min: il video del docente dura gia' 54 min; la master puo' decidere se dividerla); t_verifica=3999.97 s, t_compiti=4018.27 s. Codifica 1080p CRF 19 in corso."
-  },
-  {
    "quando": "16/11 00:46",
    "testo": "PRONTA 16/11. Durata 67:18,3 (una Parte; oltre i 65 min: il video del docente dura gia' 54:07, la master puo' decidere se dividerla), 121148 fotogrammi, 217,4 MB, 1080p CRF 19, -16 LUFS. t_verifica=3999.97 s, t_compiti=4018.27 s. Consegna: ramo consegna-moda-chimica-III-IV-lez04 (3 pezzi da 90 MiB + sha256, vtt, scheda, testo YouTube, quiz 25 domande, test del docente, compiti.json, Mappe PDF, dispensa, LEGGIMI). Sincronia (parola per parola): 10 punti a caso, 9 entro 0,16 s e uno a 1,73 s. Fermi: nessuno. Sottotitoli: controllo automatico 71% su 17 punti; controllo indipendente su 30 blocchi mediana 0,16 s, max 0,32 s. Voci da riascoltare a campione (S4, S5, GL1: trascrizione automatica incerta su alcuni termini)."
   },
@@ -432,5 +428,5 @@
  "materia": "Moda III+IV · Chimica applicata e nobilitazione dei materiali",
  "lezione": "Cellulosa e fibre vegetali",
  "docente": "Prof.ssa Piera Caputi",
- "aggiornato": "2026-11-19 00:51:12"
+ "aggiornato": "2026-11-19 02:35:22"
 }
