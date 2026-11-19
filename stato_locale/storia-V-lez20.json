@@ -632,10 +632,14 @@
   {
    "quando": "19/11 01:46",
    "testo": "REVISIONATA (chat v3): ramo revisione-storia-V-lez20. Parte 1 (unica): 67:44.9, 121948 fotogrammi, 377 MB, -15.2 LUFS, 0 silenzi >3 s, 0 fermi del prof. Vedi RAPPORTO_REVISIONE.md (cosa NON verificato, voci da ascoltare, DA CONFERMARE COL PROF)"
+  },
+  {
+   "quando": "19/11 10:48",
+   "testo": "correzioni 19/11: presa da claude/nice-mccarthy-pwc7in"
   }
  ],
  "materia": "Storia",
  "lezione": "Lezione 20 · Gli anni Novanta, il mondo post-bipolare",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-19 01:46:09"
+ "aggiornato": "2026-11-19 10:48:56"
 }
