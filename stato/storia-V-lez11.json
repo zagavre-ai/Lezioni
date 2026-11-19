@@ -2,7 +2,7 @@
  "tag": "storia-V-lez11",
  "parti": {
   "1": {
-   "stato": "REVISIONATA",
+   "stato": "PRONTA",
    "voci": "kore",
    "quiz_ok": "si",
    "fermi_ok": "si",
@@ -12,7 +12,7 @@
    "durata": "40:28.9",
    "fotogrammi": 72867,
    "fotogrammi_attesi": 72867,
-   "peso_MB": 337.1,
+   "peso_MB": 308.5,
    "vtt": "Storia_Lez11_Parte1.vtt",
    "scheda": {
     "materia": "Storia V",
@@ -446,7 +446,11 @@
   {
    "quando": "18/11 23:41",
    "testo": "REVISIONATA chat v3 (ramo revisione-storia-V-lez11): 40:28.9, 72867 fotogrammi, -16.6 LUFS, picco -1.1 dBTP, Quiz a +0.005 s, 0 fermi prof. Sottotitoli del prof da riascoltare (vedi rapporto §7). Mappe prof mancanti: arg 5, 6 e finale."
+  },
+  {
+   "quando": "19/11 03:13",
+   "testo": "REVISIONATA correzioni 19/11 fatte: 40:28.9, -16.6 LUFS, slide max 3 card (max 172 s ferma), mappe con mappa.py, avviso diritti sopra il piè; ramo revisione-storia-V-lez11"
   }
  ],
- "aggiornato": "2026-11-18 23:41:08"
+ "aggiornato": "2026-11-19 03:13:47"
 }
