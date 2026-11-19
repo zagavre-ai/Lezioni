@@ -1,0 +1,131 @@
+{
+ "materia": "Chimica applicata e nobilitazione dei materiali",
+ "titolo": "Ausiliari · Parte 1",
+ "durata_s": 1880.8,
+ "argomenti": [
+  {
+   "n": 1,
+   "titolo": "Ausiliari tessili",
+   "inizio_s": 95.866,
+   "quiz_s": 1459.266
+  },
+  {
+   "n": 2,
+   "titolo": "Oleanti e imbozzimatura",
+   "inizio_s": 1464.566,
+   "quiz_s": 1872.766
+  }
+ ],
+ "quiz": {
+  "Q1": {
+   "title": "Quiz 1 · Ausiliari tessili",
+   "items": [
+    {
+     "p": "Che cosa sono gli ausiliari tessili?",
+     "a": "Composti chimici che facilitano l'ottenimento del prodotto nei processi tessili",
+     "w": [
+      "Fibre sintetiche di nuova generazione",
+      "Macchine per la tessitura",
+      "Coloranti naturali"
+     ],
+     "ref": "Si usano per agevolare la produzione tra fibra e tessuto."
+    },
+    {
+     "p": "Che cosa sono gli addensanti artificiali?",
+     "a": "Eteri ottenuti per alchilazione di cellulosa, amido e gomme naturali",
+     "w": [
+      "Resine poliviniliche",
+      "Sali di ammonio",
+      "Oli minerali"
+     ],
+     "ref": "Gli eteri complessi, insolubili, sono appretti; quelli semplici sono bozzime."
+    },
+    {
+     "p": "Perché gli eteri semplici si usano come bozzime?",
+     "a": "Perché si asportano con un semplice risciacquo",
+     "w": [
+      "Perché sono insolubili",
+      "Perché sono infiammabili",
+      "Perché sono colorati"
+     ],
+     "ref": "Gli eteri più complessi restano sulla fibra e si usano come appretti."
+    },
+    {
+     "p": "A che cosa servono le sostanze caricanti?",
+     "a": "Ad aumentare il peso del tessuto",
+     "w": [
+      "A ridurre l'infiammabilità",
+      "A rendere impermeabile il tessuto",
+      "A candeggiare"
+     ],
+     "ref": "Si usano soprattutto sulla seta, per recuperare il peso perso con la sgommatura."
+    },
+    {
+     "p": "Quali composti rendono il tessuto antisporco?",
+     "a": "I composti fluorurati, come il teflon",
+     "w": [
+      "I siliconi a basso peso",
+      "La glicerina",
+      "I cloruri di calcio"
+     ],
+     "ref": "Isolano la fibra dall'esterno con resine filmanti."
+    }
+   ]
+  },
+  "Q2": {
+   "title": "Quiz 2 · Oleanti e imbozzimatura",
+   "items": [
+    {
+     "p": "A che cosa servono gli oleanti tessili?",
+     "a": "A diminuire gli attriti e le rotture dei fili",
+     "w": [
+      "A candeggiare i fili",
+      "A tingere i fili",
+      "A rendere i fili ignifughi"
+     ],
+     "ref": "Si usano insieme alle bozzime per agevolare la tessitura."
+    },
+    {
+     "p": "Quale percentuale di oleanti serve per un filato cardato?",
+     "a": "Dal 3 al 6%",
+     "w": [
+      "Il 20%",
+      "Lo 0,1%",
+      "Il 50%"
+     ],
+     "ref": "Per il pettinato basta l'1%."
+    },
+    {
+     "p": "Quali bozzime si usano per le fibre sintetiche?",
+     "a": "Bozzime sintetiche",
+     "w": [
+      "Bozzime naturali",
+      "Amido",
+      "Nessuna bozzima"
+     ],
+     "ref": "Le bozzime naturali si usano per le fibre naturali e artificiali."
+    },
+    {
+     "p": "Quale concentrazione di bozzima ha il bagno nell'imbozzimatrice?",
+     "a": "Il 4–5%",
+     "w": [
+      "Il 40–50%",
+      "Lo 0,4%",
+      "Il 100%"
+     ],
+     "ref": "I fili di ordito sono immersi nel bagno, poi passano nei cilindri spremitori."
+    },
+    {
+     "p": "Quanti sono di solito i tamburi asciugatori?",
+     "a": "In numero dispari, 7 o 9",
+     "w": [
+      "Sempre 2",
+      "Sempre 10",
+      "Uno solo"
+     ],
+     "ref": "Sono riscaldati a vapore, e i primi sono meno caldi."
+    }
+   ]
+  }
+ }
+}

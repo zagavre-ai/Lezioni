@@ -1,0 +1,35 @@
+moda-chimica-III-IV-lez10 · Chimica applicata e nobilitazione dei materiali · Ausiliari · Prof.ssa Piera Caputi · Parte 2 di 2
+
+VIDEO: 10 (1920x1080, 30 fps, x264 veryfast CRF 18, AAC 192k). Si ricompone con: cat 10.parte_* > 10 (sha256 nel file .sha256).
+durata 40:07.0 (2407.0 s) | fotogrammi 72208 (attesi 72210) OK | peso 231.6 MB (220.8 MiB) OK | 1920x1080 OK
+t_verifica = 2368.7 s · t_compiti = 2387.0 s (scheda Compiti di 20 s con le domande del docente; sigla finale 2375.3 s; intro Compiti 2381.9 s).
+Durata solo dal materiale della lezione: video del docente + schemi di ripasso, mappe, glossario, ripasso, quiz, chiusura.
+Struttura: per ogni argomento titolo, docente con slide sincronizzate, schema di ripasso con voce, mappa concettuale con voce, scheda Quiz (5 domande, 80%); poi glossario, ripasso finale, mappa finale, FINE, Verifica finale (test del docente), sigla, intro Compiti, Compiti.
+Voci: tutte Kore (dal ramo voci-moda-chimica-III-IV-lez10). La trascrizione automatica ha letto male alcuni termini tecnici: ascoltare a campione schemi (S) e glossario (GL1).
+Mappe: nel video e in Mappe_moda-chimica-III-IV-lez10.pdf (A4 orizzontale, una per pagina), a partire dalle mappe del docente rifatte nella grafica Telesio.
+File: quiz (Quiz_Chimica_LezDivisione in 2 Parti a fine argomento (Parte 1: argomenti 1-2; Parte 2: argomenti 3-5, glossario, ripasso, Verifica, sigla, Compiti). Sigla di Chimica: Sigla_Chimica_moda_15s.mp4 in testa a ogni Parte. Il PDF ripete gli addensanti alle pp. 4-7: escluso dalla sincronia. Voci Kore da ascoltare a campione..txt), test finale = Excel del docente (Test_Chimica_LezDivisione in 2 Parti a fine argomento (Parte 1: argomenti 1-2; Parte 2: argomenti 3-5, glossario, ripasso, Verifica, sigla, Compiti). Sigla di Chimica: Sigla_Chimica_moda_15s.mp4 in testa a ogni Parte. Il PDF ripete gli addensanti alle pp. 4-7: escluso dalla sincronia. Voci Kore da ascoltare a campione..xlsx), compiti.json, dispensa del docente, sottotitoli .vtt, scheda_pubblicazione.json, testo_youtube.txt, controllo_finale.txt.
+
+CONTROLLI sul file finale
+- Scatto musicale dei Quiz a 0,0 s: OK su 3/3.
+- durata 40:07.0 (2407.0 s) | fotogrammi 72208 (attesi 72210) OK | peso 231.6 MB (220.8 MiB) OK | 1920x1080 OK
+- quiz 3 scatto 0,0 s: OK
+- fermi immagine nei pezzi del docente: nessuno OK
+- volume del parlato (mediana dei pezzi del docente): -16.3 LUFS OK
+- Sincronia (righe che si accendono sulle parole dette; tempi parola per parola dalla trascrizione; confronto con la trascrizione del video FINALE), 10 punti a caso:
+    (106, 694.46, 694.39, 0.07, 'Si ha così il fenomeno dell’accumulo, nelle acque di sc')
+    (86, 281.2, 281.51, -0.31, 'Si distinguono i saponi duri (sali di sodio, per il buc')
+    (112, 1031.19, 1031.04, 0.15, 'La capacità di una molecola di assorbire alcune radiazi')
+    (135, 1446.54, 1446.66, -0.12, 'Gli azzurranti ottici sono prodotti che decolorano le f')
+    (79, 124.32, 124.42, -0.1, 'In base alla loro origine, i detergenti si classificano')
+    scarto medio assoluto 0.15 s, massimo 0.31 s
+    (87, 306.52, 306.51, 0.01, 'Il sapone neutro è ottenuto per completa neutralizzazio')
+    (113, 1070.91, 1071.28, -0.37, 'Le molecole dei candeggianti, reagendo con la parte del')
+    (139, 1695.1, 1695.09, 0.01, 'Per via macroscopica si utilizzano gli stessi reattivi ')
+    (134, 1424.05, 1424.09, -0.04, "L'idrosolfito di sodio (Na2S2O4) è un riducente più for")
+    (103, 553.0, 553.05, -0.05, 'Il più usato è il polifosfato di sodio (Na5P3O10), che ')
+    scarto medio assoluto 0.10 s, massimo 0.37 s
+  Tolleranza richiesta 1,5 s.
+- Cerchio della docente: ritagliato solo dal video sorgente (58x58 px interni al cerchio, ingrandito a 232 px), maschera tonda con bordo sfumato e anello giallo #FFE600 di 6 px su fondo slide; nessun pixel del video originale fuori dal cerchio. La risoluzione di partenza e' bassa (il cerchio originale misura 61 px).
+- sottotitoli: 420 blocchi, sovrapposti 0, oltre la fine 0, attacco sulla voce entro 0,3 s: 59% di 17 verificabili DA GUARDARE
+- Controllo indipendente dei sottotitoli (trascrizione di finestre brevi): 29 confrontati; entro 0,3 s: 24 entro 0,6 s: 28 max 1.6 mediana 0.16
+- Codifica: 1080p x264 veryfast CRF 18. Le Parti sono ricavate dal montaggio 1080p gia' controllato: sigla nuova (Sigla_Chimica_moda_15s) in testa con dissolvenza di 1 s, taglio a fine scheda Quiz, ricodifica unica per Parte.
