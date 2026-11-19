@@ -3,6 +3,9 @@
  "parti": {
   "1": {
    "stato": "IN_REVISIONE"
+  },
+  "2": {
+   "stato": "IN_REVISIONE"
   }
  },
  "manca": "",
@@ -17,7 +20,11 @@
   {
    "quando": "19/11 01:06",
    "testo": "PRENOTATA 19/11 01:10 chat v3 rifacimento da zero (dopo lez 6 e 17 consegnate; 16,18,19,20 prese da altre chat)"
+  },
+  {
+   "quando": "19/11 02:58",
+   "testo": "02:55 voci inviate (63 testi); trascrizione fatta, slide/approfondimenti in preparazione"
   }
  ],
- "aggiornato": "2026-11-19 02:58:48"
+ "aggiornato": "2026-11-19 02:58:50"
 }
