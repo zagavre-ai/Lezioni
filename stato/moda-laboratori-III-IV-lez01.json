@@ -2,59 +2,26 @@
  "tag": "moda-laboratori-III-IV-lez01",
  "parti": {
   "1": {
-   "stato": "IN_REVISIONE",
-   "voci": "kore",
-   "quiz_ok": "si",
-   "fermi_ok": "no: fermi del tondo presenti anche nell'originale",
-   "sub_ok": "parziale",
-   "video": "Laboratori_Lez1_Parte1_1080p.mp4",
-   "durata_s": 2642.1,
-   "durata": "44:02.1",
-   "fotogrammi": 79264,
-   "fotogrammi_attesi": 79264,
-   "peso_MB": 247.6,
-   "vtt": "Laboratori_Lez1_Parte1.vtt"
-  },
-  "2": {
-   "stato": "IN_REVISIONE",
-   "voci": "kore",
-   "quiz_ok": "si",
-   "fermi_ok": "no: fermi del tondo presenti anche nell'originale",
-   "sub_ok": "parziale",
-   "video": "Laboratori_Lez1_Parte2_1080p.mp4",
-   "durata_s": 2242.4,
-   "durata": "37:22.4",
-   "fotogrammi": 67272,
-   "fotogrammi_attesi": 67272,
-   "peso_MB": 213.4,
-   "vtt": "Laboratori_Lez1_Parte2.vtt"
+   "stato": "IN_REVISIONE"
   }
  },
  "manca": "",
  "serve_master": [
   {
-   "quando": "18/11 20:41",
-   "testo": "Per Sara: criticita sul docente nel rapporto. Residui: canone non vettoriale, deviazioni vettoriali non misurate."
-  },
-  {
-   "quando": "18/11 20:41",
-   "testo": "Per Sara: criticita sul docente nel rapporto. Residui: canone non vettoriale, deviazioni vettoriali non misurate."
+   "quando": "19/11 19:01",
+   "testo": "Ripresa lez01 Laboratori: (1) mancano sigle 15 s per Laboratori, Tecnologie ed Economia moda: metto segnaposto; (2) video del prof 852x480 con faccia in cerchio di ~65 px: il riquadro 4:3 sarà molto ingrandito, confermi o hai una sorgente migliore? (3) lavoro di metà novembre su Laboratori non presente sui rami (solo testi voci e quiz): rifaccio sincronia e tagli; (4) stato.py ha il percorso /home/claude/lezioni fisso e non accetta la sintassi del prompt."
   }
  ],
  "domande_sara": [],
  "note": [
   {
-   "quando": "18/11 20:41",
-   "testo": "Parti non 50-60 min (totale 81 min, divisione a fine argomento 6). Ramo revisione-moda-laboratori-III-IV-lez01. Vedi RAPPORTO_REVISIONE.md"
+   "quando": "18/11 22:11",
+   "testo": "ripresa 18/11: presa da claude/relaxed-newton-yl5foc"
   },
   {
-   "quando": "18/11 20:41",
-   "testo": "Parti non 50-60 min (totale 81 min, divisione a fine argomento 6). Ramo revisione-moda-laboratori-III-IV-lez01. Vedi RAPPORTO_REVISIONE.md"
-  },
-  {
-   "quando": "18/11 20:41",
-   "testo": "Consegnata su revisione-moda-laboratori-III-IV-lez01. Rapporto: RAPPORTO_REVISIONE.md. Stato REVISIONATA da confermare dopo controllo."
+   "quando": "18/11 22:12",
+   "testo": "18/11 sera: letto regole, scaricati video/PDF/xlsx, trascrizione in corso. Attenzione: video del prof 852x480 con faccia in cerchio di ~65 px (riquadro 4:3 sarà molto ingrandito). Lavoro del 14-15/11 su Laboratori non è su nessun ramo (solo testi voci e quiz). Sigla Moda Laboratori assente. Non ancora montato nulla."
   }
  ],
- "aggiornato": "2026-11-18 20:41:31"
+ "aggiornato": "2026-11-19 19:01:01"
 }
