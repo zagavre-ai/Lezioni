@@ -33,9 +33,13 @@
   {
    "quando": "19/11 04:11",
    "testo": "correzioni 19/11: presa da claude/hopeful-keller-s5yjrk (ramo revisione-storia-V-lez07 da aggiornare)"
+  },
+  {
+   "quando": "19/11 19:01",
+   "testo": "04:30 correzioni 19/11 in corso (claude/hopeful-keller-s5yjrk): materiali scaricati, voci AN/MD/SC già presenti nel ramo voci (nessuna voce nuova da generare), schede e montaggio in corso; stimo la consegna entro 2-3 ore"
   }
  ],
  "materia": "storia-V",
  "lezione": "7",
- "aggiornato": "2026-11-19 04:11:17"
+ "aggiornato": "2026-11-19 19:01:10"
 }
