@@ -252,7 +252,7 @@
    "durata": "56:57.3",
    "fotogrammi": 102518,
    "fotogrammi_attesi": 102518,
-   "peso_MB": 300.7,
+   "peso_MB": 294.9,
    "vtt": "Storia_Lez8_Parte2.vtt",
    "scheda": {
     "materia": "Storia",
@@ -617,10 +617,14 @@
   {
    "quando": "19/11 05:25",
    "testo": "controllo_finale: ESITO: TUTTO OK"
+  },
+  {
+   "quando": "19/11 05:25",
+   "testo": "controllo_finale: ESITO: TUTTO OK"
   }
  ],
  "materia": "Storia V",
  "lezione": "Lezione 08",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-19 05:25:46"
+ "aggiornato": "2026-11-19 05:25:57"
 }
