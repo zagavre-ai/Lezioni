@@ -1,0 +1,170 @@
+{
+ "totale_s": 2580.267,
+ "pezzi": [
+  {
+   "nome": "SIGLA",
+   "inizio_s": 0.0,
+   "durata_s": 15.0
+  },
+  {
+   "nome": "COVERV",
+   "inizio_s": 15.0,
+   "durata_s": 27.9
+  },
+  {
+   "nome": "T6",
+   "inizio_s": 42.9,
+   "durata_s": 4.0
+  },
+  {
+   "nome": "A6",
+   "inizio_s": 46.9,
+   "durata_s": 260.033
+  },
+  {
+   "nome": "MAP2",
+   "inizio_s": 306.933,
+   "durata_s": 25.5
+  },
+  {
+   "nome": "PI6",
+   "inizio_s": 332.433,
+   "durata_s": 11.667
+  },
+  {
+   "nome": "PS6",
+   "inizio_s": 344.1,
+   "durata_s": 35.267
+  },
+  {
+   "nome": "Q6",
+   "inizio_s": 379.367,
+   "durata_s": 5.0
+  },
+  {
+   "nome": "T7",
+   "inizio_s": 384.367,
+   "durata_s": 4.0
+  },
+  {
+   "nome": "A7",
+   "inizio_s": 388.367,
+   "durata_s": 309.133
+  },
+  {
+   "nome": "PI7",
+   "inizio_s": 697.5,
+   "durata_s": 11.567
+  },
+  {
+   "nome": "PS7",
+   "inizio_s": 709.067,
+   "durata_s": 36.067
+  },
+  {
+   "nome": "Q7",
+   "inizio_s": 745.133,
+   "durata_s": 5.0
+  },
+  {
+   "nome": "T8",
+   "inizio_s": 750.133,
+   "durata_s": 4.0
+  },
+  {
+   "nome": "A8",
+   "inizio_s": 754.133,
+   "durata_s": 395.9
+  },
+  {
+   "nome": "MAP3",
+   "inizio_s": 1150.033,
+   "durata_s": 23.7
+  },
+  {
+   "nome": "PI8",
+   "inizio_s": 1173.733,
+   "durata_s": 10.433
+  },
+  {
+   "nome": "PS8",
+   "inizio_s": 1184.167,
+   "durata_s": 43.033
+  },
+  {
+   "nome": "Q8",
+   "inizio_s": 1227.2,
+   "durata_s": 5.0
+  },
+  {
+   "nome": "T9",
+   "inizio_s": 1232.2,
+   "durata_s": 4.0
+  },
+  {
+   "nome": "A9",
+   "inizio_s": 1236.2,
+   "durata_s": 159.767
+  },
+  {
+   "nome": "PI9",
+   "inizio_s": 1395.967,
+   "durata_s": 10.467
+  },
+  {
+   "nome": "PS9",
+   "inizio_s": 1406.433,
+   "durata_s": 40.9
+  },
+  {
+   "nome": "Q9",
+   "inizio_s": 1447.333,
+   "durata_s": 5.0
+  },
+  {
+   "nome": "T10",
+   "inizio_s": 1452.333,
+   "durata_s": 4.0
+  },
+  {
+   "nome": "A10",
+   "inizio_s": 1456.333,
+   "durata_s": 961.067
+  },
+  {
+   "nome": "MAP4",
+   "inizio_s": 2417.4,
+   "durata_s": 31.6
+  },
+  {
+   "nome": "PI10",
+   "inizio_s": 2449.0,
+   "durata_s": 10.467
+  },
+  {
+   "nome": "PS10",
+   "inizio_s": 2459.467,
+   "durata_s": 43.933
+  },
+  {
+   "nome": "Q10",
+   "inizio_s": 2503.4,
+   "durata_s": 5.0
+  },
+  {
+   "nome": "GL",
+   "inizio_s": 2508.4,
+   "durata_s": 30.867
+  },
+  {
+   "nome": "RIEP",
+   "inizio_s": 2539.267,
+   "durata_s": 36.0
+  },
+  {
+   "nome": "FINALE",
+   "inizio_s": 2575.267,
+   "durata_s": 5.0
+  }
+ ]
+}

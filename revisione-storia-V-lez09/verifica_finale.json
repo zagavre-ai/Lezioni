@@ -1,0 +1,107 @@
+{
+ "titolo": "Verifica finale · Storia V · Lezione 9 · L'Italia del regime fascista",
+ "fonte": "DOMANDE LEZIONE 9.xlsx del prof. Mazzotti (testo invariato)",
+ "soglia_percento": 80,
+ "domande": [
+  {
+   "n": 1,
+   "p": "Chi fu l'artefice principale della riorganizzazione istituzionale che portò alle \"leggi fascistissime\" tra il 1925 e il 1926?",
+   "a": "Alfredo Rocco",
+   "w": [
+    "Luigi Federzoni",
+    "Giovanni Amendola",
+    "Rodolfo Graziani"
+   ]
+  },
+  {
+   "n": 2,
+   "p": "Attraverso quale riforma del 1926 i sindaci e gli organi comunali furono sostituiti dalla figura di nomina governativa del podestà?",
+   "a": "La riforma delle amministrazioni locali",
+   "w": [
+    "La riforma Gentile",
+    "I provvedimenti per la difesa dello Stato",
+    "La legge sulla bonifica integrale"
+   ]
+  },
+  {
+   "n": 3,
+   "p": "Quale quotidiano legato ai partiti d'opposizione fu costretto a chiudere definitivamente a seguito delle restrizioni fasciste sulla stampa?",
+   "a": "«l'Unità»",
+   "w": [
+    "«Corriere della Sera»",
+    "«La Stampa»",
+    "«Il Popolo d'Italia»"
+   ]
+  },
+  {
+   "n": 4,
+   "p": "Quale importante documento per la costruzione di un'Europa unita fu redatto segretamente durante il periodo di confino sull'omonima isola?",
+   "a": "Il Manifesto di Ventotene",
+   "w": [
+    "Il Manifesto degli intellettuali antifascisti",
+    "I Patti Lateranensi",
+    "Gli accordi di Locarno"
+   ]
+  },
+  {
+   "n": 5,
+   "p": "Che cosa stabiliva la riforma scolastica di Giovanni Gentile riguardo l'istruzione obbligatoria?",
+   "a": "Fu estesa fino all'età di 14 anni",
+   "w": [
+    "Fu ridotta fino al completamento delle scuole elementari",
+    "Fu estesa fino al compimento dei 18 anni",
+    "Fu resa facoltativa per le ragazze, indirizzate solo ai lavori domestici"
+   ]
+  },
+  {
+   "n": 6,
+   "p": "Quale organizzazione parastatale nacque nel 1925 con lo scopo di gestire il tempo libero, l'educazione e la formazione culturale dei lavoratori salariati?",
+   "a": "L'Opera nazionale dopolavoro",
+   "w": [
+    "L'Opera nazionale balilla",
+    "I Fasci giovanili di combattimento",
+    "L'Opera nazionale maternità e infanzia"
+   ]
+  },
+  {
+   "n": 7,
+   "p": "Nell'ambito della politica economica fascista, che cos'era la \"Quota 90\"?",
+   "a": "Un provvedimento volto a raggiungere un valore fisso nel cambio tra la lira e la sterlina inglese",
+   "w": [
+    "La percentuale di consenso elettorale plebiscitario che il regime doveva ottenere nelle elezioni",
+    "La quota minima di grano che ogni agricoltore doveva produrre durante la \"battaglia del grano\"",
+    "Il numero massimo di oppositori politici che potevano essere inviati contemporaneamente al confino"
+   ]
+  },
+  {
+   "n": 8,
+   "p": "Quale accordo internazionale del 1929 regolò definitivamente i rapporti tra lo Stato italiano e la Chiesa cattolica, risolvendo la \"questione romana\"?",
+   "a": "I Patti lateranensi",
+   "w": [
+    "Gli accordi di Locarno",
+    "Il patto di Londra",
+    "Il trattato di Stresa"
+   ]
+  },
+  {
+   "n": 9,
+   "p": "Quale fu la principale conseguenza internazionale per l'Italia a seguito dell'occupazione del territorio etiope nel 1935-1936?",
+   "a": "L'applicazione di pesanti sanzioni economiche da parte della Società delle Nazioni",
+   "w": [
+    "L'immediata firma di un'alleanza militare vincolante con il Regno Unito e la Francia",
+    "Il totale isolamento diplomatico anche da parte della Germania di Hitler",
+    "L'esclusione formale dell'Italia da tutti i commerci con i territori africani circostanti"
+   ]
+  },
+  {
+   "n": 10,
+   "p": "In quale anno la Direzione centrale per la demografia e la razza avviò il censimento della popolazione ebrea, culmine della strategia persecutoria delle leggi razziali?",
+   "a": "Nel 1938",
+   "w": [
+    "Nel 1925",
+    "Nel 1934",
+    "Nel 1940"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,165 @@
+{
+ "totale_s": 2346.133,
+ "pezzi": [
+  {
+   "nome": "SIGLA",
+   "inizio_s": 0.0,
+   "durata_s": 15.0
+  },
+  {
+   "nome": "COVERV",
+   "inizio_s": 15.0,
+   "durata_s": 26.7
+  },
+  {
+   "nome": "D0",
+   "inizio_s": 41.7,
+   "durata_s": 104.933
+  },
+  {
+   "nome": "T1",
+   "inizio_s": 146.633,
+   "durata_s": 4.0
+  },
+  {
+   "nome": "A1",
+   "inizio_s": 150.633,
+   "durata_s": 201.867
+  },
+  {
+   "nome": "PI1",
+   "inizio_s": 352.5,
+   "durata_s": 11.9
+  },
+  {
+   "nome": "PS1",
+   "inizio_s": 364.4,
+   "durata_s": 38.8
+  },
+  {
+   "nome": "Q1",
+   "inizio_s": 403.2,
+   "durata_s": 5.0
+  },
+  {
+   "nome": "T2",
+   "inizio_s": 408.2,
+   "durata_s": 4.0
+  },
+  {
+   "nome": "A2",
+   "inizio_s": 412.2,
+   "durata_s": 565.9
+  },
+  {
+   "nome": "MAP1",
+   "inizio_s": 978.1,
+   "durata_s": 33.1
+  },
+  {
+   "nome": "PI2",
+   "inizio_s": 1011.2,
+   "durata_s": 10.133
+  },
+  {
+   "nome": "PS2",
+   "inizio_s": 1021.333,
+   "durata_s": 40.467
+  },
+  {
+   "nome": "Q2",
+   "inizio_s": 1061.8,
+   "durata_s": 5.0
+  },
+  {
+   "nome": "T3",
+   "inizio_s": 1066.8,
+   "durata_s": 4.0
+  },
+  {
+   "nome": "A3",
+   "inizio_s": 1070.8,
+   "durata_s": 503.167
+  },
+  {
+   "nome": "PI3",
+   "inizio_s": 1573.967,
+   "durata_s": 10.367
+  },
+  {
+   "nome": "PS3",
+   "inizio_s": 1584.333,
+   "durata_s": 34.533
+  },
+  {
+   "nome": "Q3",
+   "inizio_s": 1618.867,
+   "durata_s": 5.0
+  },
+  {
+   "nome": "T4",
+   "inizio_s": 1623.867,
+   "durata_s": 4.0
+  },
+  {
+   "nome": "A4",
+   "inizio_s": 1627.867,
+   "durata_s": 304.533
+  },
+  {
+   "nome": "PI4",
+   "inizio_s": 1932.4,
+   "durata_s": 9.667
+  },
+  {
+   "nome": "PS4",
+   "inizio_s": 1942.067,
+   "durata_s": 38.533
+  },
+  {
+   "nome": "Q4",
+   "inizio_s": 1980.6,
+   "durata_s": 5.0
+  },
+  {
+   "nome": "T5",
+   "inizio_s": 1985.6,
+   "durata_s": 4.0
+  },
+  {
+   "nome": "A5",
+   "inizio_s": 1989.6,
+   "durata_s": 238.3
+  },
+  {
+   "nome": "PI5",
+   "inizio_s": 2227.9,
+   "durata_s": 10.767
+  },
+  {
+   "nome": "PS5",
+   "inizio_s": 2238.667,
+   "durata_s": 32.533
+  },
+  {
+   "nome": "Q5",
+   "inizio_s": 2271.2,
+   "durata_s": 5.0
+  },
+  {
+   "nome": "GL",
+   "inizio_s": 2276.2,
+   "durata_s": 28.533
+  },
+  {
+   "nome": "RIEP",
+   "inizio_s": 2304.733,
+   "durata_s": 36.4
+  },
+  {
+   "nome": "FINALE",
+   "inizio_s": 2341.133,
+   "durata_s": 5.0
+  }
+ ]
+}
