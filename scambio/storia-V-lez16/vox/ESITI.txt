@@ -1,2 +1,8 @@
-SC5_4 OK frasi trovate 1 / 1 parole diverse 2 (vere 0) tentativi 1
-SC6_4 OK frasi trovate 1 / 1 parole diverse 1 (vere 0) tentativi 1
+RV5_4 OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
+AP1 OK frasi trovate 1 / 1 parole diverse 5 (vere 4) tentativi 1
+AP2 OK frasi trovate 1 / 1 parole diverse 5 (vere 1) tentativi 1
+AP3 OK frasi trovate 1 / 1 parole diverse 7 (vere 5) tentativi 1
+AP4 OK frasi trovate 1 / 1 parole diverse 11 (vere 3) tentativi 1
+AP5 OK frasi trovate 1 / 1 parole diverse 6 (vere 5) tentativi 1
+AP6 OK frasi trovate 1 / 1 parole diverse 8 (vere 6) tentativi 1
+AP7 OK frasi trovate 1 / 1 parole diverse 5 (vere 3) tentativi 1
