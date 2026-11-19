@@ -713,5 +713,445 @@
   "nome": "COMP1",
   "testo": "Ora passa ai compiti.",
   "lingua": "it"
+ },
+ {
+  "nome": "INTRO2",
+  "testo": "Benvenuti alla seconda parte della lezione di Laboratori tecnologici, con la professoressa Piera Caputi. Parliamo di schede e di digitalizzazione: la scheda modello, la scheda tecnica, il controllo delle misure finali e la correzione digitale.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RPR2_0",
+  "testo": "Ripassiamo gli argomenti visti finora.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RPR2_1",
+  "testo": "Primo: il ciclo industriale e il campionario.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RPR2_2",
+  "testo": "Secondo: la codifica dei modelli.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RPR2_3",
+  "testo": "Terzo: i modelli base e le cuciture.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RPR2_4",
+  "testo": "Quarto: rimesse, orli e sagome.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RPR2_5",
+  "testo": "Quinto: diritto filo e tacche di riferimento.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RPR2_6",
+  "testo": "Sesto: fori di riferimento e dime.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RPR2_7",
+  "testo": "Settimo: collaudo del prototipo e difetti comuni.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC1_1",
+  "testo": "Analisi, creativo e operativo, commerciale",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC1_2",
+  "testo": "Studi di mercato, tendenze e dati di vendita precedenti",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC1_3",
+  "testo": "Progettazione, campionario e industrializzazione per la produzione in serie",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC1_4",
+  "testo": "Distribuzione e vendita: grossisti, dettaglianti ed e-commerce",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC1_5",
+  "testo": "Commerciali, tecnici ed elettronici",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC1_6",
+  "testo": "Resta insostituibile: la tangibilità ne mantiene il valore",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC2_1",
+  "testo": "Si attribuisce un nome: fiori, piante o persone",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC2_2",
+  "testo": "Si attribuisce un codice numerico o alfanumerico",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC2_3",
+  "testo": "Lettera, sigla di linea e tipologia umana, tipologia di capo, numero progressivo e tessuto",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC2_4",
+  "testo": "Davanti e dietro",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC2_5",
+  "testo": "Diritto filo, indispensabile per il piazzamento",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC2_6",
+  "testo": "I componenti del contro, come contropatta o centrocintura",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC2_7",
+  "testo": "Parti destre e sinistre nelle schede modello digitalizzate",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC3_1",
+  "testo": "Ogni azienda gestisce un proprio archivio di modelli base",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC3_2",
+  "testo": "Studiati con ripetute prove di confezione e indosso",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC3_3",
+  "testo": "Si riduce il tempo di lavorazione",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC3_4",
+  "testo": "Modelli per tasche, cinture e altri dettagli",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC3_5",
+  "testo": "Si controllano dopo la cucitura, soprattutto sul fianco della gonna e sul cavallo dei pantaloni",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC3_6",
+  "testo": "Limare o compensare le sagome: è una sdifettatura preventiva",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC4_1",
+  "testo": "Tutte le sagome si sviluppano sul loro perimetro",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC4_2",
+  "testo": "L'entità delle cuciture",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC4_3",
+  "testo": "Zero virgola sette centimetri: giro collo, attaccatura dei colletti, tasche rotonde o forme tondeggianti",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC4_4",
+  "testo": "Un centimetro: tutte le cuciture lineari",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC4_5",
+  "testo": "Uno virgola cinque o due centimetri: fianco o centro dietro di capi di linea morbida o da signora",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC4_6",
+  "testo": "Orli da tre, quattro o cinque centimetri",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC4_7",
+  "testo": "Si sviluppano tutte le sagome: una destra e una sinistra, uguali ma speculari",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC5_1",
+  "testo": "Segno su tutte le sagome: un segmento che non tocca il perimetro",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC5_2",
+  "testo": "Si può omettere se il centro davanti o dietro è un segmento rettilineo",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC5_3",
+  "testo": "Segni convenzionali sul perimetro: orli, cuciture, sormonto",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC5_4",
+  "testo": "Piccoli tagli che asportano materiale: rischiose sulla maglia",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC5_5",
+  "testo": "A forma di piramide: preferibili per i tessuti delicati",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC5_6",
+  "testo": "Tasca, pattina, orlo, bottoniera e cintura",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC6_1",
+  "testo": "Piccoli buchi per segnare ripresa, tasca o asole",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC6_2",
+  "testo": "Fustellatrice e trapano marcatore",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC6_3",
+  "testo": "Possono causare smagliature: meglio in punti nascosti",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC6_4",
+  "testo": "Tagliata, con tacche, interna",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC6_5",
+  "testo": "Dette anche mascherine: indicano la posizione senza danneggiare il tessuto",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC6_6",
+  "testo": "Precise, facili da impugnare, rigide e non deformabili",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC6_7",
+  "testo": "Le dime non entrano nei piazzamenti per il taglio",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC7_1",
+  "testo": "Il prototipo si controlla prima della produzione in serie",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC7_2",
+  "testo": "Prova d'indosso su modella prototipo",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC7_3",
+  "testo": "Superato il collaudo, la scheda prototipo diventa scheda tecnica",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC7_4",
+  "testo": "Si allarga sul centro davanti e sul centro dietro",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC7_5",
+  "testo": "Si riducono quelle del dietro e si allargano quelle del davanti",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC7_6",
+  "testo": "Si abbassa il centro dietro sulla linea della vita",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC7_7",
+  "testo": "Baffi: si stringe e si alza la punta dell'inforcatura. Raggi: si allarga la punta",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC8_1",
+  "testo": "Descrive quali e quante sagome compongono il capo e il tessuto",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC8_2",
+  "testo": "Fodere, interfodere ed eventuali dime",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC8_3",
+  "testo": "Dopo il taglio si controlla che ci siano tutte le sagome",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC8_4",
+  "testo": "Parte principale, controtasche, interno tasche e bottoniere",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC8_5",
+  "testo": "Parti principali, baschine e tasche applicate",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC8_6",
+  "testo": "Cintura e passanti",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC8_7",
+  "testo": "Distinta base modello: codice, quantità, materiale e significato di ogni pezzo",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC9_1",
+  "testo": "Scheda del prototipo: stilista, modellista e ufficio tecnico",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC9_2",
+  "testo": "Scheda del capo da produrre in serie, dopo il collaudo",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC9_3",
+  "testo": "Stagione, linea, tipologia umana e di capo, numero del modello, pezzi e piano taglie",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC9_4",
+  "testo": "Ideazione del prodotto e modalità di assemblaggio",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC9_5",
+  "testo": "La rappresentazione grafica del capo, in piano",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC9_6",
+  "testo": "Materie prime e quantità per ogni taglia",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC9_7",
+  "testo": "Stilista, modellista e ufficio tecnico",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC10_1",
+  "testo": "Verificare che il capo finito rispetti le misure del progetto",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC10_2",
+  "testo": "Il plat e le misure per ogni taglia",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC10_3",
+  "testo": "Stesura tesa, tagliato imperfetto, stiro non omogeneo, presentazione errata",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC10_4",
+  "testo": "Il modellista",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC10_5",
+  "testo": "Prima le larghezze, poi le lunghezze",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC10_6",
+  "testo": "Dipende dal tipo di capo e dal livello qualitativo",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC11_1",
+  "testo": "Convertire le sagome fisiche in digitale: sviluppo taglie e piazzamento più rapidi",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC11_2",
+  "testo": "Il cursore ripercorre il perimetro della sagoma",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC11_3",
+  "testo": "Diritto filo, posizione delle tasche e bottoni",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC11_4",
+  "testo": "Individuano tacche e fori, con scala uno a uno per CAD e plotter",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC11_5",
+  "testo": "Sempre su una copia: l'originale resta di confronto",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC11_6",
+  "testo": "Misure in millimetri, spilli virtuali e colori diversi",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC11_7",
+  "testo": "Allungando una canotta, si valuta anche l'allargamento",
+  "lingua": "it"
+ },
+ {
+  "nome": "GL2_0",
+  "testo": "Ripassiamo le parole chiave di questa parte.",
+  "lingua": "it"
+ },
+ {
+  "nome": "GL2_1",
+  "testo": "Scheda modello: l'elenco delle sagome, dei materiali e delle dime che compongono il capo.",
+  "lingua": "it"
+ },
+ {
+  "nome": "GL2_2",
+  "testo": "Plat: la rappresentazione grafica del capo in piano.",
+  "lingua": "it"
+ },
+ {
+  "nome": "GL2_3",
+  "testo": "Controllo misure: la scheda che verifica le misure del capo finito.",
+  "lingua": "it"
+ },
+ {
+  "nome": "GL2_4",
+  "testo": "Spilli virtuali: bloccano misure e punti che non devono cambiare nella correzione digitale.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RF2_0",
+  "testo": "Prima di salutarci, ricapitoliamo gli argomenti di questa seconda parte.",
+  "lingua": "it"
  }
 ]
