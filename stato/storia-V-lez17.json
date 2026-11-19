@@ -2,7 +2,7 @@
  "tag": "storia-V-lez17",
  "parti": {
   "1": {
-   "stato": "IN_REVISIONE"
+   "stato": "REVISIONATA"
   },
   "2": {
    "stato": "IN_REVISIONE"
@@ -31,7 +31,11 @@
   {
    "quando": "18/11 23:16",
    "testo": "prenotata con la Parte 1"
+  },
+  {
+   "quando": "19/11 01:06",
+   "testo": "19/11 01:20 consegnata su revisione-storia-V-lez17 (Parte 1): -16.0 LUFS, 0 silenzi >3s, jingle 0.000 s; Parti 48:56 / 32:00 / 37:12; 59 voci Kore (SC4_3 DA CONTROLLARE)"
   }
  ],
- "aggiornato": "2026-11-18 23:23:26"
+ "aggiornato": "2026-11-19 01:06:34"
 }
