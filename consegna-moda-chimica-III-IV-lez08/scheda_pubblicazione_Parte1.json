@@ -1,0 +1,131 @@
+{
+ "materia": "Chimica applicata e nobilitazione dei materiali",
+ "titolo": "Elastomeri e materiali · Parte 1",
+ "durata_s": 2122.6,
+ "argomenti": [
+  {
+   "n": 1,
+   "titolo": "Elastomeri e gomme",
+   "inizio_s": 53.866,
+   "quiz_s": 1593.899
+  },
+  {
+   "n": 2,
+   "titolo": "Fibre di gomma",
+   "inizio_s": 1599.199,
+   "quiz_s": 2114.599
+  }
+ ],
+ "quiz": {
+  "Q1": {
+   "title": "Quiz 1 · Elastomeri e gomme",
+   "items": [
+    {
+     "p": "Che cos'è un elastomero?",
+     "a": "Una sostanza che si allunga molte volte la sua lunghezza e riprende la forma originale",
+     "w": [
+      "Una fibra che si scioglie in acqua",
+      "Una resina termoindurente rigida",
+      "Un tessuto a maglia"
+     ],
+     "ref": "Gli elastomeri subiscono un forte allungamento senza rompersi e riassumono le dimensioni originarie quando cessa la forza."
+    },
+    {
+     "p": "Quale configurazione ha il poliisoprene del caucciù?",
+     "a": "Cis",
+     "w": [
+      "Trans",
+      "Atattica",
+      "Reticolata"
+     ],
+     "ref": "La forma trans è la gutta-perca, che non possiede proprietà elastiche."
+    },
+    {
+     "p": "Con quale sostanza si coagula il lattice?",
+     "a": "Con acido acetico",
+     "w": [
+      "Con soda caustica",
+      "Con benzene",
+      "Con acqua ossigenata"
+     ],
+     "ref": "Il lattice è filtrato e coagulato con acido acetico; il coagulo è spremuto in fogli (Crèpe Sheet)."
+    },
+    {
+     "p": "In che cosa consiste la vulcanizzazione?",
+     "a": "Nel riscaldare la gomma con zolfo, formando ponti chimici tra le macromolecole",
+     "w": [
+      "Nell'immergere la gomma in acqua calda",
+      "Nel masticare i fogli di gomma",
+      "Nell'aggiungere nero fumo"
+     ],
+     "ref": "Lo zolfo (0,4–3%) tra 60 e 140 °C crea un reticolo tridimensionale; con il 20–30% si ottiene l'ebanite."
+    },
+    {
+     "p": "Che cosa è la Buna S?",
+     "a": "Un copolimero di butadiene e stirene",
+     "w": [
+      "Un polimero di cloroprene",
+      "Un copolimero di etilene e propilene",
+      "Un silicone"
+     ],
+     "ref": "Contiene circa il 77% di butadiene e il 23% di stirene; è meno elastica ma più economica del caucciù."
+    }
+   ]
+  },
+  "Q2": {
+   "title": "Quiz 2 · Fibre di gomma",
+   "items": [
+    {
+     "p": "Dove furono prodotte le prime fibre di gomma?",
+     "a": "A Manchester, intorno al 1850",
+     "w": [
+      "A Murano",
+      "In Giappone nel 1960",
+      "In Brasile nel 1900"
+     ],
+     "ref": "Erano filamenti a sezione quadra ottenuti tagliando fogli sottili di caucciù vulcanizzato."
+    },
+    {
+     "p": "Di che cosa è fatto l'elastan?",
+     "a": "Per almeno l'85% di poliuretano",
+     "w": [
+      "Di poliisoprene naturale",
+      "Di poliestere",
+      "Di cellulosa rigenerata"
+     ],
+     "ref": "L'elastodiene è invece poliisoprene o polimeri di dieni."
+    },
+    {
+     "p": "Quanto vale circa l'allungamento a rottura delle fibre di gomma?",
+     "a": "700–800%",
+     "w": [
+      "10–20%",
+      "100%",
+      "2–3%"
+     ],
+     "ref": "La tenacità è bassa (0,4–0,5 g/den) ma il recupero elastico è del 98% dopo un allungamento del 100%."
+    },
+    {
+     "p": "Perché non si consiglia il lavaggio a secco delle fibre di gomma?",
+     "a": "Perché i solventi organici le fanno rigonfiare e le sciolgono",
+     "w": [
+      "Perché sono idrosolubili",
+      "Perché perdono colore",
+      "Perché si carbonizzano"
+     ],
+     "ref": "Si raccomanda il lavaggio in acqua fredda o tiepida, senza ipocloriti né esposizione prolungata al sole."
+    },
+    {
+     "p": "Quali solventi sciolgono selettivamente gli elastomeri?",
+     "a": "Solfuro di carbonio, cloroformio e toluene",
+     "w": [
+      "Acqua e alcol",
+      "Acido solforico concentrato",
+      "Acetone"
+     ],
+     "ref": "È il criterio per l'identificazione qualitativa e il dosaggio quantitativo."
+    }
+   ]
+  }
+ }
+}

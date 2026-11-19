@@ -1,0 +1,253 @@
+{
+ "materia": "Chimica applicata e nobilitazione dei materiali",
+ "titolo": "Elastomeri e materiali · Parte 2",
+ "durata_s": 2203.47,
+ "argomenti": [
+  {
+   "n": 3,
+   "titolo": "Filati e tessuti ortogonali",
+   "inizio_s": 13.999,
+   "quiz_s": 833.999
+  },
+  {
+   "n": 4,
+   "titolo": "Tessuti a maglia",
+   "inizio_s": 839.299,
+   "quiz_s": 1127.532
+  },
+  {
+   "n": 5,
+   "titolo": "Tessili tecnici e microfibre",
+   "inizio_s": 1132.832,
+   "quiz_s": 1626.499
+  },
+  {
+   "n": 6,
+   "titolo": "Analisi di filati e tessuti",
+   "inizio_s": 1631.799,
+   "quiz_s": 2003.531
+  }
+ ],
+ "quiz": {
+  "Q3": {
+   "title": "Quiz 3 · Filati e tessuti ortogonali",
+   "items": [
+    {
+     "p": "Come si chiama il prodotto continuo ottenuto da fibre discontinue?",
+     "a": "Filato",
+     "w": [
+      "Tessuto non tessuto",
+      "Armatura",
+      "Ritorto di seta"
+     ],
+     "ref": "Se deriva da fibre di lunghezza indefinita, come seta o fibre man made, si parla di filo."
+    },
+    {
+     "p": "Che cosa sono ordito e trama?",
+     "a": "Le serie di fili longitudinali (ordito) e trasversali (trama) del tessuto",
+     "w": [
+      "Due tipi di maglia",
+      "Due armature speciali",
+      "Due fibre sintetiche"
+     ],
+     "ref": "Il tessuto ortogonale nasce dall'intreccio di ordito e trama."
+    },
+    {
+     "p": "Quale armatura ha il massimo numero di intersezioni tra ordito e trama?",
+     "a": "L'armatura piana o tela",
+     "w": [
+      "Il raso",
+      "La saia",
+      "La garza"
+     ],
+     "ref": "La tela è la più semplice ed è identica sulle due facce."
+    },
+    {
+     "p": "Quale armatura ha il diritto lucido e il rovescio opaco?",
+     "a": "Il raso o satin",
+     "w": [
+      "La tela",
+      "La saia",
+      "Il velluto"
+     ],
+     "ref": "I punti di legatura sono distanziati, con poche intersezioni."
+    },
+    {
+     "p": "Quale tessuto non tessuto classico si ottiene da fibre di lana o peli animali?",
+     "a": "Il feltro",
+     "w": [
+      "Il denim",
+      "Il chiffon",
+      "Il tweed"
+     ],
+     "ref": "Sfrutta la tendenza delle scaglie superficiali ad alzarsi e ad agganciarsi."
+    }
+   ]
+  },
+  "Q4": {
+   "title": "Quiz 4 · Tessuti a maglia",
+   "items": [
+    {
+     "p": "Da quale elemento è ottenuto il tessuto a maglia?",
+     "a": "Dalla ripetizione di un solo elemento, la maglia",
+     "w": [
+      "Dall'intreccio di ordito e trama",
+      "Dalla saldatura di fibre",
+      "Dalla coagulazione di una resina"
+     ],
+     "ref": "Un unico filo non teso viene intrecciato su se stesso con speciali aghi."
+    },
+    {
+     "p": "Come è l'intermaglia nella maglia in trama?",
+     "a": "Orizzontale",
+     "w": [
+      "Verticale",
+      "Diagonale",
+      "Assente"
+     ],
+     "ref": "Rende il tessuto molto elastico: è ideale per l'abbigliamento."
+    },
+    {
+     "p": "Per quali articoli si usa la maglia in catena?",
+     "a": "Per tende, pizzi e tulli",
+     "w": [
+      "Per magliette",
+      "Per calze",
+      "Per jeans"
+     ],
+     "ref": "Ha intermaglia verticale o diagonale ed è smagliabile."
+    },
+    {
+     "p": "Quale intreccio ha diritto e rovescio uguali, con due serie di aghi contrapposti e sfalsati?",
+     "a": "La maglia a costa",
+     "w": [
+      "La maglia rasata",
+      "La links-links",
+      "Il jersey"
+     ],
+     "ref": "Il jersey, con una sola serie di aghi, ha diritto e rovescio diversi."
+    },
+    {
+     "p": "Quanti colori al massimo permette il jacquard a maglia?",
+     "a": "Quattro",
+     "w": [
+      "Due",
+      "Sei",
+      "Dodici"
+     ],
+     "ref": "Per la struttura stessa del tessuto a maglia, i colori sono limitati a quattro."
+    }
+   ]
+  },
+  "Q5": {
+   "title": "Quiz 5 · Tessili tecnici e microfibre",
+   "items": [
+    {
+     "p": "Quale materiale termoregolante usa microcapsule a cambiamento di fase?",
+     "a": "L'Outlast",
+     "w": [
+      "Il Coolmax",
+      "Il Thermolite",
+      "Il Gore-Tex"
+     ],
+     "ref": "Le microcapsule assorbono o rilasciano calore corporeo."
+    },
+    {
+     "p": "Da quale membrana è formato il Gore-Tex?",
+     "a": "Da politetrafluoroetilene microporoso",
+     "w": [
+      "Da poliuretano espanso",
+      "Da seta",
+      "Da viscosa"
+     ],
+     "ref": "I pori sono 20.000 volte più piccoli di una goccia d'acqua ma molto più grandi del vapore."
+    },
+    {
+     "p": "Come sono i titoli delle microfibre?",
+     "a": "Ultrafini, fino a 0,1 denari",
+     "w": [
+      "Intorno a 10 denari",
+      "Superiori a 100 denari",
+      "Uguali a 1–2 denari"
+     ],
+     "ref": "Storicamente i fili avevano titoli di 1–2 denari."
+    },
+    {
+     "p": "Di che cosa è fatto l'Alcantara?",
+     "a": "Per il 60% di microfibra di poliestere e per il 40% di poliuretano",
+     "w": [
+      "Di cotone e lana",
+      "Di viscosa e acetato",
+      "Di carbonio"
+     ],
+     "ref": "È un tessuto non tessuto con effetto vellutato, prodotto per la prima volta nel 1982."
+    },
+    {
+     "p": "Che cosa è il Crabyon?",
+     "a": "Un materiale antibatterico di viscosa e chitosano",
+     "w": [
+      "Una fibra termoregolante",
+      "Una membrana impermeabile",
+      "Un tessuto riscaldabile"
+     ],
+     "ref": "Appartiene ai materiali antibatterici e antiodore, come il Nanofeel."
+    }
+   ]
+  },
+  "Q6": {
+   "title": "Quiz 6 · Analisi di filati e tessuti",
+   "items": [
+    {
+     "p": "Quale strumento misura la torsione di un filato?",
+     "a": "Il torsiometro",
+     "w": [
+      "Il picnometro",
+      "Il dinamometro",
+      "Il lentino contafili"
+     ],
+     "ref": "Misura l'intensità e il grado della torsione impartita."
+    },
+    {
+     "p": "Quale liquido si usa di solito nel picnometro per il peso specifico?",
+     "a": "Il benzene",
+     "w": [
+      "L'acqua",
+      "L'alcol",
+      "L'acido solforico"
+     ],
+     "ref": "Non fa rigonfiare le fibre e permette di eliminare facilmente l'aria."
+    },
+    {
+     "p": "Che cosa misura il dinamometro?",
+     "a": "La resistenza a rottura e l'allungamento",
+     "w": [
+      "Il titolo",
+      "La torsione",
+      "Il restringimento"
+     ],
+     "ref": "Il dinamometro serve per le prove su filati e su strisce di tessuto."
+    },
+    {
+     "p": "Che cosa indica la riduzione di un tessuto?",
+     "a": "Il numero di fili di ordito e di trama in un centimetro quadrato",
+     "w": [
+      "Il peso al metro",
+      "La resistenza all'usura",
+      "Il titolo del filato"
+     ],
+     "ref": "Si misura con il lentino contafili."
+    },
+    {
+     "p": "A quali condizioni si eseguono le prove di resistenza dei tessuti?",
+     "a": "In ambiente condizionato: 20 °C e 65% di umidità",
+     "w": [
+      "A 100 °C",
+      "A secco assoluto",
+      "In acqua calda"
+     ],
+     "ref": "Le prove di usura comprendono flessione e abrasione."
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,35 @@
+moda-chimica-III-IV-lez08 · Chimica applicata e nobilitazione dei materiali · Elastomeri e materiali · Prof.ssa Piera Caputi · Parte 2 di 2
+
+VIDEO: 8 (1920x1080, 30 fps, x264 veryfast CRF 18, AAC 192k). Si ricompone con: cat 8.parte_* > 8 (sha256 nel file .sha256).
+durata 36:43.5 (2203.5 s) | fotogrammi 66101 (attesi 66104) OK | peso 210.7 MB (201.0 MiB) OK | 1920x1080 OK
+t_verifica = 2165.1 s · t_compiti = 2183.4 s (scheda Compiti di 20 s con le domande del docente; sigla finale 2171.7 s; intro Compiti 2178.3 s).
+Durata solo dal materiale della lezione: video del docente + schemi di ripasso, mappe, glossario, ripasso, quiz, chiusura.
+Struttura: per ogni argomento titolo, docente con slide sincronizzate, schema di ripasso con voce, mappa concettuale con voce, scheda Quiz (5 domande, 80%); poi glossario, ripasso finale, mappa finale, FINE, Verifica finale (test del docente), sigla, intro Compiti, Compiti.
+Voci: tutte Kore (dal ramo voci-moda-chimica-III-IV-lez08). La trascrizione automatica ha letto male alcuni termini tecnici: ascoltare a campione schemi (S) e glossario (GL1).
+Mappe: nel video e in Mappe_moda-chimica-III-IV-lez08.pdf (A4 orizzontale, una per pagina), a partire dalle mappe del docente rifatte nella grafica Telesio.
+File: quiz (Quiz_Chimica_LezDivisione in 2 Parti a fine argomento (Parte 1: argomenti 1-2; Parte 2: argomenti 3-6, glossario, ripasso, Verifica, sigla, Compiti). Sigla di Chimica: Sigla_Chimica_moda_15s.mp4 in testa a ogni Parte. Sincronia: nella Parte 2 un punto (riga 'Tra i principali tipi figurano il bouclé...') si accende 3,7 s dopo le parole; gia' presente nel montaggio originale (le righe 'comfort' e 'protettivi' dei tessili tecnici sono in ordine inverso rispetto al parlato). Voci Kore da ascoltare a campione..txt), test finale = Excel del docente (Test_Chimica_LezDivisione in 2 Parti a fine argomento (Parte 1: argomenti 1-2; Parte 2: argomenti 3-6, glossario, ripasso, Verifica, sigla, Compiti). Sigla di Chimica: Sigla_Chimica_moda_15s.mp4 in testa a ogni Parte. Sincronia: nella Parte 2 un punto (riga 'Tra i principali tipi figurano il bouclé...') si accende 3,7 s dopo le parole; gia' presente nel montaggio originale (le righe 'comfort' e 'protettivi' dei tessili tecnici sono in ordine inverso rispetto al parlato). Voci Kore da ascoltare a campione..xlsx), compiti.json, dispensa del docente, sottotitoli .vtt, scheda_pubblicazione.json, testo_youtube.txt, controllo_finale.txt.
+
+CONTROLLI sul file finale
+- Scatto musicale dei Quiz a 0,0 s: OK su 4/4.
+- durata 36:43.5 (2203.5 s) | fotogrammi 66101 (attesi 66104) OK | peso 210.7 MB (201.0 MiB) OK | 1920x1080 OK
+- quiz 4 scatto 0,0 s: OK
+- fermi immagine nei pezzi del docente: nessuno OK
+- volume del parlato (mediana dei pezzi del docente): -16.5 LUFS OK
+- Sincronia (righe che si accendono sulle parole dette; tempi parola per parola dalla trascrizione; confronto con la trascrizione del video FINALE), 10 punti a caso:
+    (148, 1033.79, 1033.48, 0.31, 'Jacquard a filo fluttuante: il filo che non partecipa a')
+    (115, 553.06, 552.93, 0.13, 'I tessuti double-face impiegano due serie di fili di or')
+    (160, 1259.8, 1260.13, -0.33, 'Thermolite: una fibra a nucleo cavo in poliestere che i')
+    (202, 1855.83, 1855.52, 0.31, 'prova di resistenza biologica: valuta la resistenza a m')
+    (102, 254.75, 251.03, 3.72, 'Tra i principali tipi figurano il bouclé, il fiammato, ')
+    scarto medio assoluto 0.96 s, massimo 3.72 s
+    (117, 603.1, 604.01, -0.91, 'I velluti presentano una superficie ricoperta di pelo o')
+    (163, 1296.14, 1296.06, 0.08, 'I tessuti impermeabili e traspiranti utilizzano membran')
+    (200, 1824.68, 1824.8, -0.12, 'prova di usura: comprende test di flessione (piegamenti')
+    (143, 972.89, 972.94, -0.05, 'maglia a costa: ottenuta con due serie di aghi contrapp')
+    (175, 1409.99, 1410.1, -0.11, 'I tessuti realizzati con queste fibre presentano caratt')
+    scarto medio assoluto 0.25 s, massimo 0.91 s
+  Tolleranza richiesta 1,5 s.
+- Cerchio della docente: ritagliato solo dal video sorgente (58x58 px interni al cerchio, ingrandito a 232 px), maschera tonda con bordo sfumato e anello giallo #FFE600 di 6 px su fondo slide; nessun pixel del video originale fuori dal cerchio. La risoluzione di partenza e' bassa (il cerchio originale misura 61 px).
+- sottotitoli: 351 blocchi, sovrapposti 0, oltre la fine 0, attacco sulla voce entro 0,3 s: 56% di 18 verificabili DA GUARDARE
+- Controllo indipendente dei sottotitoli (trascrizione di finestre brevi): 31 confrontati; entro 0,3 s: 27 entro 0,6 s: 31 max 0.4 mediana 0.16
+- Codifica: 1080p x264 veryfast CRF 18. Le Parti sono ricavate dal montaggio 1080p gia' controllato: sigla nuova (Sigla_Chimica_moda_15s) in testa con dissolvenza di 1 s, taglio a fine scheda Quiz, ricodifica unica per Parte.
