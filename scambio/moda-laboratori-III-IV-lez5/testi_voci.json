@@ -716,7 +716,7 @@
  },
  {
   "nome": "INTRO2",
-  "testo": "Benvenuti alla seconda parte della lezione di Laboratori tecnologici, con la professoressa Piera Caputi. Parliamo di schede e di digitalizzazione: la scheda modello, la scheda tecnica, il controllo delle misure finali e la correzione digitale.",
+  "testo": "Benvenuti alla seconda parte della lezione di Laboratori tecnologici, con la professoressa Piera Caputi. Parliamo di schede tecniche e di digitalizzazione: la scheda tecnica del capo, il controllo delle misure finali e la correzione digitale.",
   "lingua": "it"
  },
  {
@@ -1152,6 +1152,11 @@
  {
   "nome": "RF2_0",
   "testo": "Prima di salutarci, ricapitoliamo gli argomenti di questa seconda parte.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RPR2_8",
+  "testo": "Ottavo: la scheda modello.",
   "lingua": "it"
  }
 ]
