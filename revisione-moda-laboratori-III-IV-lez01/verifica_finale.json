@@ -1,0 +1,136 @@
+{
+ "titolo": "Verifica finale · Laboratori tecnologici ed esercitazione · Lezione 1 · Modellistica",
+ "fonte": "lez1.xlsx (10 domande)",
+ "items": [
+  {
+   "p": "Qual è il compito fondamentale del modellista all'interno della filiera della moda?",
+   "a": "Interpretare gli schizzi e i disegni dello stilista per tradurli nel modello concreto",
+   "w": [
+    "Disegnare esclusivamente figurini di tendenza per evocare temi stagionali.",
+    "Gestire le spedizioni e la logistica dei capi finiti verso i negozi.",
+    "Scegliere i colori della collezione basandosi solo sul gusto personale."
+   ],
+   "w_extra": [
+    "Produrre le fibre tessili a partire dalle materie prime grezze.",
+    "Occuparsi del marketing e della vendita diretta al consumatore."
+   ]
+  },
+  {
+   "p": "Secondo il canone di Policleto, in quante parti uguali può essere suddiviso il corpo umano ideale?",
+   "a": "In 8 parti uguali, definite unità antropometriche (U.A.)",
+   "w": [
+    "In 10 parti uguali per compensare l'altezza media moderna.",
+    "In 6 parti, dividendo equamente busto e arti inferiori.",
+    "In 12 parti per una precisione maggiore nei tracciati geometrici."
+   ],
+   "w_extra": [
+    "In 5 parti uguali seguendo esclusivamente la proporzione aurea.",
+    "In 9 parti per includere la misura degli accessori."
+   ]
+  },
+  {
+   "p": "Che cos'è tecnicamente il \"drop 8\" nel sistema industriale italiano?",
+   "a": "La differenza di 8 cm tra la semicirconferenza del torace e quella della vita",
+   "w": [
+    "La distanza standard tra la linea del seno e quella del bacino.",
+    "Un tipo di armatura del tessuto a navetta molto resistente.",
+    "La riduzione di misura applicata ai tessuti in lana pesante."
+   ],
+   "w_extra": [
+    "L'altezza della cimosa quando supera i 14 millimetri.",
+    "L'intervallo di tempo necessario per lo sviluppo di una taglia al CAD."
+   ]
+  },
+  {
+   "p": "Quale fibra è definita \"fibra del movimento\" per la sua eccezionale elasticità?",
+   "a": "L'elastan, capace di allungarsi dal 400% al 600% rispetto alla lunghezza iniziale",
+   "w": [
+    "Il lino, per la sua robustezza e struttura \"legnosa\".",
+    "La seta, grazie alla sua capacità di non aderire al corpo.",
+    "Il cotone, per la sua morbidezza ma bassa resistenza alla trazione."
+   ],
+   "w_extra": [
+    "La viscosa, essendo una fibra artificiale molto scivolosa.",
+    "La lana, apprezzata per il calore e la discreta vestibilità."
+   ]
+  },
+  {
+   "p": "Cosa caratterizza il \"figurino tecnico\" o \"plat\"?",
+   "a": "Una rappresentazione del capo in piano con precisione tecnica e linee precise",
+   "w": [
+    "Uno schizzo artistico finalizzato a comunicare emozioni e atmosfere.",
+    "Un disegno con proporzioni anatomiche alterate per esaltare l'impatto grafico.",
+    "Un'immagine sempre arricchita da campioni di tessuto e pizzi."
+   ],
+   "w_extra": [
+    "Una forma ibrida utilizzata esclusivamente per gli imballaggi.",
+    "Un ritaglio di giornale usato dagli stilisti per trarre ispirazione."
+   ]
+  },
+  {
+   "p": "In Italia, a quale misura anatomica corrisponde il valore della \"taglia\"?",
+   "a": "Alla semicirconferenza del torace espressa in centimetri",
+   "w": [
+    "Alla circonferenza totale della vita misurata in posizione rilassata.",
+    "All'altezza totale del soggetto misurata a piedi uniti.",
+    "Alla massa corporea totale espressa in chilogrammi."
+   ],
+   "w_extra": [
+    "Alla lunghezza della gamba interna dal cavallo alla pianta del piede.",
+    "Alla circonferenza massima dell'anca misurata attorno al bacino."
+   ]
+  },
+  {
+   "p": "Quale metodologia permette di generare un modello modellando il tessuto direttamente sul manichino?",
+   "a": "La tecnica del moulage",
+   "w": [
+    "Il metodo proporzionale basato su rapporti armonici.",
+    "Il tracciato geometrico diretto usato in sartoria.",
+    "Lo sviluppo taglie industriale tramite software CAD."
+   ],
+   "w_extra": [
+    "La trasformazione di un modello base preesistente.",
+    "Il piazzamento industriale per limitare lo spreco di tessuto."
+   ]
+  },
+  {
+   "p": "Cosa sono le \"cimose\" di un tessuto?",
+   "a": "I bordi laterali del tessuto che lo proteggono dagli sfilacciamenti",
+   "w": [
+    "I fili verticali che definiscono la lunghezza totale del rotolo.",
+    "Trattamenti di nobilitazione come l'impermeabilizzazione.",
+    "Le celle vuote tipiche dei tessuti a rete come il tulle."
+   ],
+   "w_extra": [
+    "Le armature diagonali tipiche del tessuto saia.",
+    "Gli strumenti usati per marcare le posizioni delle tasche sul cartone."
+   ]
+  },
+  {
+   "p": "Come viene definito il \"diritto filo\" nella progettazione di un capo?",
+   "a": "Il segmento immaginario parallelo alla lunghezza del tessuto o all'ordito",
+   "w": [
+    "Una linea che forma un angolo di 45 gradi con la trama per drappeggi.",
+    "Il lato del tessuto che appare meno rifinito e con colori tenui.",
+    "La direzione trasversale del tessuto corrispondente alla trama."
+   ],
+   "w_extra": [
+    "Il trattamento estetico che rende lucida la superficie del raso.",
+    "La tacca praticata sul cartamodello per indicare i punti di giuntura."
+   ]
+  },
+  {
+   "p": "Secondo la norma EN 13402, come devono essere indicate le misure in etichetta?",
+   "a": "Esclusivamente in centimetri, abolendo l'uso dei pollici",
+   "w": [
+    "Utilizzando codici alfabetici internazionali come S, M, L e XL.",
+    "In millimetri per garantire una precisione tecnica assoluta.",
+    "Tramite il peso corporeo consigliato per indossare il capo."
+   ],
+   "w_extra": [
+    "Solo attraverso rapporti antropometrici basati sulla statura.",
+    "Esprimendo le larghezze come semicirconferenze invece che intere."
+   ]
+  }
+ ]
+}

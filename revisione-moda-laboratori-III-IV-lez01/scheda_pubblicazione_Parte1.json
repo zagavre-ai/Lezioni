@@ -1,0 +1,376 @@
+{
+ "materia": "Laboratori tecnologici ed esercitazione",
+ "titolo": "Laboratori tecnologici ed esercitazione · Lezione 1 · Parte 1",
+ "file": "Laboratori_Lez1_Parte1_1080p.mp4",
+ "durata_s": 2642.13,
+ "argomenti": [
+  {
+   "n": 1,
+   "titolo": "Il modellista e le sue competenze",
+   "inizio_s": 62.067,
+   "quiz_s": 463.667
+  },
+  {
+   "n": 2,
+   "titolo": "Il figurino",
+   "inizio_s": 468.667,
+   "quiz_s": 817.733
+  },
+  {
+   "n": 3,
+   "titolo": "Gli strumenti del modellista",
+   "inizio_s": 822.733,
+   "quiz_s": 1190.667
+  },
+  {
+   "n": 4,
+   "titolo": "Come si costruisce un modello",
+   "inizio_s": 1195.667,
+   "quiz_s": 1618.633
+  },
+  {
+   "n": 5,
+   "titolo": "Proporzioni e misure del corpo",
+   "inizio_s": 1623.633,
+   "quiz_s": 1991.867
+  },
+  {
+   "n": 6,
+   "titolo": "Le taglie e il normotipo",
+   "inizio_s": 1996.867,
+   "quiz_s": 2632.133
+  }
+ ],
+ "quiz": {
+  "Q1": {
+   "title": "Quiz 1 · Il modellista e le sue competenze",
+   "items": [
+    {
+     "p": "Qual è il compito fondamentale del modellista?",
+     "a": "Interpretare gli schizzi dello stilista e tradurli nel modello",
+     "w": [
+      "Disegnare soltanto figurini di tendenza",
+      "Gestire le spedizioni dei capi finiti",
+      "Produrre le fibre tessili"
+     ],
+     "ref": "Il modellista traduce gli schizzi in un modello: l'insieme dei pezzi che comporranno il capo."
+    },
+    {
+     "p": "Che cos'è il modello?",
+     "a": "L'insieme di tutti i pezzi che comporranno il capo finale",
+     "w": [
+      "Un disegno artistico di moda",
+      "Il manichino su cui si prova il capo",
+      "Un campione di tessuto"
+     ],
+     "ref": "Il modello è l'insieme dei pezzi del capo finale."
+    },
+    {
+     "p": "Quali basi servono al modellista per progettare i tracciati?",
+     "a": "Matematica e geometria",
+     "w": [
+      "Solo conoscenze di marketing",
+      "Solo abilità di disegno artistico",
+      "Nozioni di logistica"
+     ],
+     "ref": "Per progettare tracciati adeguati servono solide basi di matematica e geometria."
+    },
+    {
+     "p": "Che cosa distingue il modellista sartoriale da quello industriale?",
+     "a": "Lavora sul singolo cliente correggendo il modello sulla sua conformazione",
+     "w": [
+      "Lavora solo al computer",
+      "Non legge mai il figurino",
+      "Si occupa solo di piazzamenti"
+     ],
+     "ref": "Il sartoriale opera sul singolo cliente; l'industriale lavora su soggetti standard."
+    },
+    {
+     "p": "A quale sistema informatico si lega oggi la figura del modellista?",
+     "a": "Ai sistemi CAD",
+     "w": [
+      "Ai programmi di contabilità",
+      "Ai sistemi di posta elettronica",
+      "Ai software di montaggio video"
+     ],
+     "ref": "L'evoluzione tecnologica ha legato il modellista ai sistemi CAD."
+    }
+   ]
+  },
+  "Q2": {
+   "title": "Quiz 2 · Il figurino",
+   "items": [
+    {
+     "p": "Che cosa rappresenta il figurino?",
+     "a": "L'espressione grafica di un'idea, base di ogni modello",
+     "w": [
+      "Il tessuto scelto per la collezione",
+      "La taglia base dell'azienda",
+      "Il listino prezzi del capo"
+     ],
+     "ref": "Il figurino è la base di partenza per la costruzione di ogni modello."
+    },
+    {
+     "p": "Quali sono le tre tipologie di figurino?",
+     "a": "Di tendenza, tecnico e intermedio o ibrido",
+     "w": [
+      "Solo maschile, femminile e infantile",
+      "Di seta, di lana e di cotone",
+      "Primaverile, estivo e invernale"
+     ],
+     "ref": "Le tipologie sono: figurino di tendenza, tecnico o plat, intermedio o ibrido."
+    },
+    {
+     "p": "Che cosa caratterizza il figurino tecnico o plat?",
+     "a": "Una rappresentazione del capo in piano con precisione tecnica",
+     "w": [
+      "Uno schizzo che comunica emozioni",
+      "Proporzioni anatomiche alterate",
+      "Campioni di tessuto e pizzi applicati"
+     ],
+     "ref": "Il plat mostra il capo in piano, con linee precise."
+    },
+    {
+     "p": "Come sono le linee del plat per la maglieria?",
+     "a": "Rigide, con forme geometriche molto stilizzate",
+     "w": [
+      "Morbide, con il volume del corpo",
+      "Sempre colorate",
+      "Tracciate solo a mano libera"
+     ],
+     "ref": "Per la maglieria le linee sono rigide; per i tessuti a navetta sono più morbide."
+    },
+    {
+     "p": "Dove si ritrova spesso il figurino ibrido?",
+     "a": "Su etichette, cartellini e imballaggi",
+     "w": [
+      "Solo nelle riviste di moda",
+      "Solo nei cataloghi dei tessuti",
+      "Solo nei registri di magazzino"
+     ],
+     "ref": "Il figurino ibrido dà al consumatore indicazioni sui volumi e sulla linea del capo."
+    }
+   ]
+  },
+  "Q3": {
+   "title": "Quiz 3 · Gli strumenti del modellista",
+   "items": [
+    {
+     "p": "Quale strumento serve per rilevare le circonferenze?",
+     "a": "Il metro a nastro flessibile da 150 cm",
+     "w": [
+      "Il metro rigido",
+      "La bilancia",
+      "Il plotter"
+     ],
+     "ref": "Il metro a nastro flessibile si usa per le circonferenze; quello rigido per l'altezza."
+    },
+    {
+     "p": "A che cosa serve il segnatacche?",
+     "a": "Ad asportare piccoli lembi di cartoncino nei punti di giuntura",
+     "w": [
+      "A stampare i modelli in scala reale",
+      "A pesare il tessuto",
+      "A tagliare il tessuto in serie"
+     ],
+     "ref": "Il segnatacche segna i punti di giuntura delle cuciture."
+    },
+    {
+     "p": "Che cosa si usa per stampare i modelli in scala reale?",
+     "a": "Il plotter",
+     "w": [
+      "Il punteruolo",
+      "Il trapanino",
+      "Il curvilineo"
+     ],
+     "ref": "Il plotter stampa in scala reale i tracciati digitali."
+    },
+    {
+     "p": "A che cosa servono i sistemi CAM?",
+     "a": "A interfacciarsi direttamente con i macchinari di taglio industriale",
+     "w": [
+      "A misurare l'altezza del soggetto",
+      "A disegnare i figurini di tendenza",
+      "A cucire i capi"
+     ],
+     "ref": "I sistemi CAM collegano il lavoro ai macchinari di taglio industriale."
+    },
+    {
+     "p": "Che cosa permette il piazzamento al CAD?",
+     "a": "Di ridurre il consumo di materia prima",
+     "w": [
+      "Di eliminare i modelli",
+      "Di scegliere i colori della collezione",
+      "Di sostituire il manichino"
+     ],
+     "ref": "Visualizzare le sagome insieme riduce drasticamente lo spreco di tessuto."
+    }
+   ]
+  },
+  "Q4": {
+   "title": "Quiz 4 · Come si costruisce un modello",
+   "items": [
+    {
+     "p": "Quali sono i tre sistemi per realizzare un modello?",
+     "a": "Tracciato geometrico, modello base e moulage",
+     "w": [
+      "Cucito, stiro e taglio",
+      "Disegno, pittura e collage",
+      "Filatura, tessitura e tintura"
+     ],
+     "ref": "I sistemi fondamentali sono tracciato geometrico, trasformazione di un modello base e moulage."
+    },
+    {
+     "p": "Quale metodo si usa soprattutto in sartoria nel tracciato geometrico?",
+     "a": "Il metodo diretto",
+     "w": [
+      "Il metodo proporzionale",
+      "Il metodo industriale",
+      "Il metodo CAD"
+     ],
+     "ref": "Il metodo diretto riporta fedelmente le misure di una persona specifica."
+    },
+    {
+     "p": "Su che cosa si basa il metodo proporzionale?",
+     "a": "Su rapporti armonici del corpo umano",
+     "w": [
+      "Sulle misure di un solo cliente",
+      "Sul peso del tessuto",
+      "Sul prezzo del capo"
+     ],
+     "ref": "È fondamentale per l'industria e punta a una buona vestibilità per un pubblico ampio."
+    },
+    {
+     "p": "Quale metodologia genera il modello modellando il tessuto sul manichino?",
+     "a": "Il moulage",
+     "w": [
+      "Il metodo proporzionale",
+      "Il modello base",
+      "Il piazzamento"
+     ],
+     "ref": "Con il moulage il modello nasce direttamente sul manichino, senza calcoli preventivi."
+    },
+    {
+     "p": "Che cosa permette il CAD nella costruzione del modello?",
+     "a": "Eseguire l'intero ciclo di lavoro al computer",
+     "w": [
+      "Eliminare le misure anatomiche",
+      "Sostituire il docente",
+      "Produrre le fibre"
+     ],
+     "ref": "Con il CAD non servono modelli fisici in carta o cartoncino."
+    }
+   ]
+  },
+  "Q5": {
+   "title": "Quiz 5 · Proporzioni e misure del corpo",
+   "items": [
+    {
+     "p": "Secondo il canone di Policleto, in quante parti uguali si divide il corpo ideale?",
+     "a": "In 8 parti, dette unità antropometriche",
+     "w": [
+      "In 10 parti",
+      "In 6 parti",
+      "In 12 parti"
+     ],
+     "ref": "Il canone risale al V secolo a.C.: 3 parti dal capo alla vita e 5 dalla vita ai piedi."
+    },
+    {
+     "p": "Con che cosa si rileva l'altezza?",
+     "a": "Con un metro rigido, con il soggetto scalzo e a piedi uniti",
+     "w": [
+      "Con un metro a nastro, in poltrona",
+      "Con una bilancia",
+      "Con un plotter"
+     ],
+     "ref": "Le altre misure si rilevano con il metro a nastro flessibile."
+    },
+    {
+     "p": "Quali sono misure di larghezza?",
+     "a": "Le circonferenze di torace, seno, vita e bacino",
+     "w": [
+      "Il livello ascella e il livello ginocchio",
+      "La lunghezza del braccio",
+      "La massa corporea"
+     ],
+     "ref": "Le misure di larghezza sono circonferenze."
+    },
+    {
+     "p": "Che cosa indicano i livelli?",
+     "a": "Le distanze verticali dal girocollo verso il basso",
+     "w": [
+      "Le circonferenze del busto",
+      "Il peso del soggetto",
+      "La taglia del capo"
+     ],
+     "ref": "Esempi di livelli: ascella, vita, bacino, inforcatura, ginocchio e caviglia."
+    },
+    {
+     "p": "Perché il soggetto deve essere poco vestito durante la misurazione?",
+     "a": "Per evitare che lo spessore degli indumenti falsi i valori",
+     "w": [
+      "Per stirare meglio il capo",
+      "Per scegliere il colore",
+      "Per ridurre il tempo di taglio"
+     ],
+     "ref": "Gli indumenti spessi alterano le misure rilevate."
+    }
+   ]
+  },
+  "Q6": {
+   "title": "Quiz 6 · Le taglie e il normotipo",
+   "items": [
+    {
+     "p": "In Italia a quale misura corrisponde la taglia?",
+     "a": "Alla semicirconferenza del torace, in centimetri",
+     "w": [
+      "All'altezza totale",
+      "Al peso corporeo",
+      "Alla lunghezza della gamba"
+     ],
+     "ref": "Una circonferenza di 84 cm identifica la taglia 42."
+    },
+    {
+     "p": "Che cos'è il drop 8?",
+     "a": "La differenza di 8 cm tra semicirconferenza del torace e della vita",
+     "w": [
+      "Un tipo di armatura del tessuto",
+      "La riduzione dei tessuti in lana",
+      "L'altezza della cimosa"
+     ],
+     "ref": "La semicirconferenza della vita è pari alla taglia meno 8 cm."
+    },
+    {
+     "p": "Di quanto varia la semicirconferenza tra una taglia e la successiva?",
+     "a": "Di 2 centimetri",
+     "w": [
+      "Di 8 centimetri",
+      "Di 5 centimetri",
+      "Di 10 centimetri"
+     ],
+     "ref": "Ogni taglia superiore o inferiore varia in modo progressivo di 2 cm."
+    },
+    {
+     "p": "Quale statura media ha il normotipo femminile della taglia 42?",
+     "a": "168 cm",
+     "w": [
+      "150 cm",
+      "180 cm",
+      "190 cm"
+     ],
+     "ref": "Per la taglia 42 italiana il normotipo ha statura media di 168 cm."
+    },
+    {
+     "p": "Che cos'è la vestibilità nel tracciato del modello?",
+     "a": "Lo spazio aggiuntivo, in gradi, sommato o sottratto alle misure del corpo",
+     "w": [
+      "Il colore del tessuto",
+      "Il prezzo della taglia",
+      "La lunghezza del rotolo"
+     ],
+     "ref": "Un grado di vestibilità (v.v.) corrisponde a 1 centimetro."
+    }
+   ]
+  }
+ }
+}
