@@ -6,16 +6,25 @@
   }
  },
  "manca": "",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "18/11 20:57",
+   "testo": "Voci Kore nuove: 63 testi degli schemi di ripasso (SC1_1..SC10_6) aggiunti a scambio/moda-laboratori-III-IV-lez02/testi_voci.json sul ramo voci-moda-laboratori-III-IV-lez02. Intanto monto con segnaposto."
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
    "quando": "18/11 20:43",
    "testo": "ripresa 19/11: presa dalla chat di produzione Laboratori (modello Spagnolo); voci Kore gia' sul ramo voci"
+  },
+  {
+   "quando": "18/11 20:57",
+   "testo": "Trascrizione fatta (539 segmenti), pagine del video verificate: il video mostra a p.10 una figura con 3 gruppi (la release PDF ne ha 2). Piano: 2 Parti (arg 1-6 e 7-10)."
   }
  ],
  "materia": "Laboratori tecnologici ed esercitazione",
  "lezione": "Lezione 2 · Sartoria",
  "docente": "Prof.ssa Piera Caputi",
- "aggiornato": "2026-11-18 20:43:21"
+ "aggiornato": "2026-11-18 20:57:30"
 }
