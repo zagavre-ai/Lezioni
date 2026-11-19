@@ -8,7 +8,7 @@
    "stato": "REVISIONATA"
   },
   "3": {
-   "stato": "IN_REVISIONE"
+   "stato": "REVISIONATA"
   }
  },
  "manca": "",
@@ -39,7 +39,11 @@
   {
    "quando": "19/11 01:06",
    "testo": "19/11 01:20 consegnata su revisione-storia-V-lez17 (Parte 2): -16.0 LUFS, 0 silenzi >3s, jingle 0.000 s; Parti 48:56 / 32:00 / 37:12; 59 voci Kore (SC4_3 DA CONTROLLARE)"
+  },
+  {
+   "quando": "19/11 01:06",
+   "testo": "19/11 01:20 consegnata su revisione-storia-V-lez17 (Parte 3): -16.0 LUFS, 0 silenzi >3s, jingle 0.000 s; Parti 48:56 / 32:00 / 37:12; 59 voci Kore (SC4_3 DA CONTROLLARE)"
   }
  ],
- "aggiornato": "2026-11-19 01:06:36"
+ "aggiornato": "2026-11-19 01:06:38"
 }
