@@ -528,5 +528,25 @@
   "nome": "SC9_4",
   "testo": "La lotta per la successione: Trockij e Stalin.",
   "lingua": "it"
+ },
+ {
+  "nome": "MA1",
+  "testo": "Ecco la mappa della Rivoluzione di febbraio. Le difficoltà della guerra causano una rivoluzione, nel marzo del millenovecentodiciassette. Da questa nascono il governo provvisorio, che intende proseguire la guerra, e i soviet, che vogliono la pace immediata. La rivoluzione provoca anche il rientro di Lenin, che sostiene la possibilità di una rivoluzione socialista.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MA2",
+  "testo": "Ecco la mappa della Rivoluzione di ottobre. La Rivoluzione di ottobre porta a un governo bolscevico. Questo governo decide la pace immediata e la distribuzione della terra ai contadini, e assume caratteri autoritari.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MA3",
+  "testo": "Ecco la mappa della guerra civile russa, dal millenovecentodiciotto al millenovecentoventi. Si scontrano le armate bianche, guidate da generali zaristi, e l'Armata rossa, guidata da Trockij. La guerra viene affrontata con il comunismo di guerra, che ha risultati economici disastrosi.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MA4",
+  "testo": "Ecco la mappa della politica di Lenin dopo la guerra civile. Il fallimento del comunismo di guerra viene affrontato con la Nuova politica economica. Essa consente ai contadini di vendere parte del prodotto, autorizza imprese private di piccole dimensioni e raggiunge risultati positivi.",
+  "lingua": "it"
  }
 ]
