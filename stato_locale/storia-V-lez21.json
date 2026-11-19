@@ -3,16 +3,28 @@
  "parti": {
   "1": {
    "stato": "IN_REVISIONE"
+  },
+  "2": {
+   "stato": "IN_REVISIONE"
   }
  },
  "manca": "",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "19/11 02:58",
+   "testo": "Voci Kore nuove lez 21 (v3 + regole 19/11, 2 Parti): 63 testi in testi_voci.json, ramo voci-storia-V-lez21. Nomi nuovi: BEN1-2, PI*, SC*_*, MPR1-4, AP*_* (approfondimenti 40-60 s), LG0-8, FZ1-2"
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
    "quando": "19/11 01:06",
    "testo": "PRENOTATA 19/11 01:10 chat v3 rifacimento da zero (dopo lez 6 e 17 consegnate; 16,18,19,20 prese da altre chat)"
+  },
+  {
+   "quando": "19/11 02:58",
+   "testo": "02:55 voci inviate (63 testi); trascrizione fatta, slide/approfondimenti in preparazione"
   }
  ],
- "aggiornato": "2026-11-19 01:06:57"
+ "aggiornato": "2026-11-19 02:58:50"
 }
