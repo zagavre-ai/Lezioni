@@ -2,7 +2,34 @@
  "tag": "storia-V-lez14",
  "parti": {
   "1": {
-   "stato": "IN_REVISIONE"
+   "stato": "REVISIONATA",
+   "titolo": "La guerra fredda (1945-1961) · Parte 1",
+   "voci": "kore",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "no",
+   "video": "Storia_Lez14_Parte1_1080p.mp4",
+   "durata_s": 2943.7,
+   "durata": "49:03.7",
+   "fotogrammi": 88311,
+   "fotogrammi_attesi": 88311,
+   "peso_MB": 315.8,
+   "vtt": "Storia_Lez14_Parte1.vtt"
+  },
+  "2": {
+   "titolo": "La guerra fredda (1945-1961) · Parte 2",
+   "stato": "REVISIONATA",
+   "voci": "kore",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "no",
+   "video": "Storia_Lez14_Parte2_1080p.mp4",
+   "durata_s": 2930.9,
+   "durata": "48:50.9",
+   "fotogrammi": 87927,
+   "fotogrammi_attesi": 87927,
+   "peso_MB": 332.3,
+   "vtt": "Storia_Lez14_Parte2.vtt"
   }
  },
  "manca": "",
@@ -16,10 +43,14 @@
   {
    "quando": "18/11 22:28",
    "testo": "chat v3: voci nuove inviate (55); rifaccio schede blu, pillole+schemi, mappe del prof, riquadro 4:3, cover; montaggio in corso"
+  },
+  {
+   "quando": "19/11 00:46",
+   "testo": "chat v3 REVISIONATA: ramo revisione-storia-V-lez14; P1 49:04, P2 48:51 (sotto i 50 min, vedi rapporto); sottotitoli: errori noti corretti, rilettura integrale non fatta"
   }
  ],
  "materia": "Storia V",
  "lezione": "Lezione 14",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-18 22:28:28"
+ "aggiornato": "2026-11-19 00:46:47"
 }
