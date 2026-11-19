@@ -2,53 +2,41 @@
  "tag": "moda-chimica-III-IV-lez04",
  "parti": {
   "1": {
-   "titolo": "Cellulosa e fibre vegetali",
+   "titolo": "Cellulosa e fibre vegetali · Parte 1",
    "stato": "PRONTA",
    "voci": "kore",
    "quiz_ok": "si",
    "fermi_ok": "si",
    "sub_ok": "si",
    "video": "Chimica_Lez4_Parte1_1080p.mp4",
-   "durata_s": 4038.3,
-   "durata": "67:18.3",
-   "fotogrammi": 121148,
-   "fotogrammi_attesi": 121149,
-   "peso_MB": 217.4,
+   "durata_s": 2030.9,
+   "durata": "33:50.9",
+   "fotogrammi": 60928,
+   "fotogrammi_attesi": 60928,
+   "peso_MB": 183.5,
    "vtt": "Chimica_Lez4_Parte1.vtt",
    "scheda": {
     "materia": "Chimica applicata e nobilitazione dei materiali",
     "titolo": "Cellulosa e fibre vegetali · Parte 1",
-    "durata_s": 4038.31,
+    "durata_s": 2030.93,
     "argomenti": [
      {
       "n": 1,
       "titolo": "Cellulosa: struttura e composizione",
-      "inizio_s": 75.332,
-      "quiz_s": 781.132
+      "inizio_s": 71.432,
+      "quiz_s": 777.232
      },
      {
       "n": 2,
       "titolo": "Proprietà e chimica della cellulosa",
-      "inizio_s": 786.432,
-      "quiz_s": 1460.132
+      "inizio_s": 782.532,
+      "quiz_s": 1456.232
      },
      {
       "n": 3,
       "titolo": "Fibre vegetali e cotone",
-      "inizio_s": 1465.432,
-      "quiz_s": 2026.832
-     },
-     {
-      "n": 4,
-      "titolo": "Struttura e proprietà del cotone",
-      "inizio_s": 2032.132,
-      "quiz_s": 2587.632
-     },
-     {
-      "n": 5,
-      "titolo": "Classificazione, finissaggi e analisi del cotone",
-      "inizio_s": 2592.932,
-      "quiz_s": 3821.965
+      "inizio_s": 1461.532,
+      "quiz_s": 2022.932
      }
     ],
     "quiz": {
@@ -216,164 +204,29 @@
         "ref": "I linters sono la peluria più corta, 3 mm circa; il lint è la peluria più lunga usata per il filato."
        }
       ]
-     },
-     "Q4": {
-      "title": "Quiz 4 · Struttura e proprietà del cotone",
-      "items": [
-       {
-        "p": "Quale caratteristica ha il cotone al microscopio?",
-        "a": "Una fibra a nastro ellittico con convoluzioni",
-        "w": [
-         "Una fibra cilindrica liscia senza lume",
-         "Una fibra a scaglie sovrapposte",
-         "Una fibra con nodi e striature trasversali"
-        ],
-        "ref": "Il cotone è monocellulare, a nastro ellittico con convoluzioni (torsioni) e due terminazioni: una a spatola e l'altra sfibrata."
-       },
-       {
-        "p": "Quale percentuale di cellulosa contiene il cotone?",
-        "a": "Circa l'85%",
-        "w": [
-         "Circa il 45%",
-         "Circa il 70%",
-         "Circa il 100%"
-        ],
-        "ref": "Il cotone è la fibra tessile con la più alta percentuale di cellulosa, circa l'85%."
-       },
-       {
-        "p": "Come cambia la tenacità del cotone quando è umido?",
-        "a": "Aumenta",
-        "w": [
-         "Diminuisce",
-         "Resta uguale",
-         "Si annulla"
-        ],
-        "ref": "La tenacità del cotone aumenta allo stato umido; l'elasticità è modesta, con allungamento del 2–3%."
-       },
-       {
-        "p": "Fino a quale temperatura il cotone resta stabile al calore?",
-        "a": "Fino a 120 °C",
-        "w": [
-         "Fino a 50 °C",
-         "Fino a 150 °C",
-         "Fino a 200 °C"
-        ],
-        "ref": "Il cotone è stabile fino a 120 °C, a 150 °C ingiallisce e a 200 °C si decompone."
-       },
-       {
-        "p": "Come si comporta il cotone con gli alcali diluiti?",
-        "a": "Resiste bene",
-        "w": [
-         "Si scioglie subito",
-         "Si carbonizza",
-         "Ingiallisce"
-        ],
-        "ref": "Il cotone resiste bene agli alcali diluiti; con alcali concentrati rigonfia formando la soda-cellulosa."
-       }
-      ]
-     },
-     "Q5": {
-      "title": "Quiz 5 · Classificazione, finissaggi e analisi del cotone",
-      "items": [
-       {
-        "p": "Quali parametri usa la classificazione americana del cotone?",
-        "a": "Tiglio, grado e carattere",
-        "w": [
-         "Specie, tipo e origine",
-         "Solo la lunghezza",
-         "Colore e profumo"
-        ],
-        "ref": "Il metodo americano valuta il tiglio (lunghezza), il grado (colore e omogeneità) e il carattere."
-       },
-       {
-        "p": "Quale grado è usato come base per le quotazioni di mercato?",
-        "a": "Middling",
-        "w": [
-         "Good ordinary",
-         "Strict low middling",
-         "Middling fair"
-        ],
-        "ref": "Middling è il grado medio utilizzato come base per le quotazioni di mercato."
-       },
-       {
-        "p": "In che cosa consiste la mercerizzazione?",
-        "a": "Nel trattare il cotone sotto tensione con soda caustica concentrata",
-        "w": [
-         "Nell'eliminare i grassi con soda al 2% a 150 °C",
-         "Nel candeggiare con ipoclorito",
-         "Nel rendere il cotone ignifugo"
-        ],
-        "ref": "La mercerizzazione trasforma la cellulosa I in cellulosa II, aumentando lucentezza, resistenza e affinità per i coloranti."
-       },
-       {
-        "p": "Quale reagente permette di separare il cotone dalla canapa o dalle fibre artificiali nell'analisi quantitativa?",
-        "a": "Il reattivo cuproammoniacale",
-        "w": [
-         "L'acido nitrico concentrato",
-         "L'ossichinolina",
-         "Il cloruro di zinco"
-        ],
-        "ref": "Il reattivo cuproammoniacale scioglie canapa e fibre artificiali, lasciando il cotone inalterato."
-       },
-       {
-        "p": "Quale sottoprodotto del cotone si ottiene dalla spremitura dei semi?",
-        "a": "L'olio di cotone",
-        "w": [
-         "Il cotone idrofilo",
-         "I linters",
-         "Il kapok"
-        ],
-        "ref": "L'olio di cotone si ottiene spremendo i semi puliti e liberati dai linters e dalla buccia."
-       }
-      ]
      }
     }
    },
    "timeline": [
     [
      "T1",
-     75.332,
+     71.432,
      3.6
     ],
     [
      "Q1",
-     781.132,
+     777.232,
      4.0
     ],
     [
      "T2",
-     786.432,
+     782.532,
      3.6
     ],
     [
      "T3",
-     1465.432,
+     1461.532,
      3.6
-    ],
-    [
-     "T4",
-     2032.132,
-     3.6
-    ],
-    [
-     "T5",
-     2592.932,
-     3.6
-    ],
-    [
-     "GL1",
-     3827.265,
-     63.667
-    ],
-    [
-     "RF1",
-     3892.532,
-     56.267
-    ],
-    [
-     "FIN1",
-     3989.132,
-     9.233
     ]
    ]
   }
@@ -393,10 +246,14 @@
   {
    "quando": "16/11 00:46",
    "testo": "PRONTA 16/11. Durata 67:18,3 (una Parte; oltre i 65 min: il video del docente dura gia' 54:07, la master puo' decidere se dividerla), 121148 fotogrammi, 217,4 MB, 1080p CRF 19, -16 LUFS. t_verifica=3999.97 s, t_compiti=4018.27 s. Consegna: ramo consegna-moda-chimica-III-IV-lez04 (3 pezzi da 90 MiB + sha256, vtt, scheda, testo YouTube, quiz 25 domande, test del docente, compiti.json, Mappe PDF, dispensa, LEGGIMI). Sincronia (parola per parola): 10 punti a caso, 9 entro 0,16 s e uno a 1,73 s. Fermi: nessuno. Sottotitoli: controllo automatico 71% su 17 punti; controllo indipendente su 30 blocchi mediana 0,16 s, max 0,32 s. Voci da riascoltare a campione (S4, S5, GL1: trascrizione automatica incerta su alcuni termini)."
+  },
+  {
+   "quando": "19/11 00:51",
+   "testo": "Parte 1: durata misurata 33:50.9 (2030.9 s), 1080p CRF 18, 176 MB.  Consegna su consegna-moda-chimica-III-IV-lez04 (Parte 1: argomenti 1-3; Parte 2: 4-5 + chiusura). Sigla Chimica nuova in testa a ogni Parte; Parte 1 chiude con la sigla finale. Sincronia: scarto massimo 0,12 s (Parte 1), 1,98 s su un punto (Parte 2). Ascoltare a campione le voci Kore."
   }
  ],
  "materia": "Moda III+IV · Chimica applicata e nobilitazione dei materiali",
  "lezione": "Cellulosa e fibre vegetali",
  "docente": "Prof.ssa Piera Caputi",
- "aggiornato": "2026-11-16 00:46:32"
+ "aggiornato": "2026-11-19 00:51:10"
 }
