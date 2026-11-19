@@ -1,44 +1,43 @@
 {
  "materia": "Storia V",
  "titolo": "Storia V · Lezione 3 · L'Italia di Giolitti · Parte 2",
- "descrizione": "Videolezione del prof. Giorgio Mazzotti sull'Italia di Giolitti: dal suffragio universale maschile alla caduta di Giolitti e alla settimana rossa.",
- "durata_s": 3081.367,
+ "durata_s": 2803.1,
  "argomenti": [
   {
    "n": 6,
    "titolo": "Il suffragio universale maschile e il Patto Gentiloni",
-   "inizio_s": 65.67,
-   "quiz_s": 654.37
+   "inizio_s": 63.367,
+   "quiz_s": 596.867
   },
   {
    "n": 7,
    "titolo": "Le riforme mancate: le donne in lotta",
-   "inizio_s": 660.17,
-   "quiz_s": 920.77
+   "inizio_s": 601.867,
+   "quiz_s": 827.0
   },
   {
    "n": 8,
    "titolo": "Il decollo industriale italiano",
-   "inizio_s": 926.57,
-   "quiz_s": 1469.4
+   "inizio_s": 832.0,
+   "quiz_s": 1334.767
   },
   {
    "n": 9,
    "titolo": "Il divario Nord-Sud e l'emigrazione",
-   "inizio_s": 1475.2,
-   "quiz_s": 1976.87
+   "inizio_s": 1339.767,
+   "quiz_s": 1794.733
   },
   {
    "n": 10,
    "titolo": "La politica coloniale e la guerra in Libia",
-   "inizio_s": 1982.67,
-   "quiz_s": 2468.2
+   "inizio_s": 1799.733,
+   "quiz_s": 2267.633
   },
   {
    "n": 11,
    "titolo": "La caduta di Giolitti e la «settimana rossa»",
-   "inizio_s": 2474.0,
-   "quiz_s": 2970.2
+   "inizio_s": 2272.633,
+   "quiz_s": 2692.4
   }
  ],
  "quiz": {

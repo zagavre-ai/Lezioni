@@ -1,185 +1,172 @@
-# RAPPORTO DI REVISIONE · Storia V · Lezione 3 · L'Italia di Giolitti (prof. Giorgio Mazzotti)
+# RAPPORTO DI REVISIONE · Storia V · Lezione 3 · «L'Italia di Giolitti» · CORREZIONI 19/11 (Prof. Giorgio Mazzotti)
+19/11/2026 · chat v3 · ramo `revisione-storia-V-lez03` (sostituisce la consegna precedente della lezione) · modello: Spagnolo Lez. 1. Ogni dato è etichettato **M** (misurato), **S** (stima / lettura a vista), **NV** (non verificato).
 
-Lezione **rifatta da zero** nel modello Spagnolo Lez. 1: non esisteva una consegna precedente (ramo `consegna-storia-V-lez03` assente), solo le voci Kore e lo stato. Ogni valore è etichettato **[misurato]**, **[stima]** o **[non verificato]**.
+**Cosa è cambiato rispetto alla prima consegna (8 punti della master, 19/11 03:40).** Riusati: trascrizione, tagli del prof, voci Kore, schede blu, quiz. Rifatti: slide, evidenziazioni, mappe, approfondimenti, schemi, sigla, copertina.
 
-## 1. Misure sul video nuovo
-
-| | Parte 1 (arg. 1–5) | Parte 2 (arg. 6–11) |
+## 1. Le 8 correzioni punto per punto
+| # | Punto della master | Esito |
 |---|---|---|
-| Durata [misurato] | 52:49.3 (3169.33 s) | 51:21.4 (3081.37 s) |
-| Fotogrammi [misurato] | 95080 = durata × 30 | 92441 = durata × 30 |
-| Formato [misurato] | 1920×1080, 30 fps, H.264 veryfast CRF 22, AAC 192k 48 kHz | idem |
-| Peso [misurato] | 340.1 MB | 320.5 MB |
-| Parlato [misurato] | −16,6 LUFS, picco −1,6 dBFS | −16,6 LUFS, picco −1,5 dBFS |
-| Fermi del prof ≥ 1 s (freezedetect sul riquadro, tolleranza −60 dB) [misurato] | 0 | 0 |
-| Jingle Quiz (`controllo_jingle.py`) [misurato] | Q1–Q5 scarto ≤ 0,003 s, OK | Q6–Q11 scarto ≤ 0,003 s, OK |
-| sha256 | `8d9b3b3059e336eef2e40151a0ef38ef80f2ff67783e0a4849def41347b3efd8` | `f51ffc6d4e906aab1f6aa6ae20e775a7198576a4a15e1c6bf72b69a4b0f4d7c6` |
+| 1 | Al massimo 3 card per slide; nessuna slide ferma oltre 3 minuti; immagini a tempo | fatto: ogni argomento è diviso in più slide da 1–3 card nell'ordine in cui il prof parla (testo del prof invariato; le card lunghe sono spezzate in frammenti, quelli seguenti iniziano con «…»). Le slide di testo sono 37; durata massima misurata 231 s. Slide oltre 180 s: arg. 1 slide 1 (231 s). Le immagini del prof sono messe a tempo (invariato).  |
+| 2 | Sincronia: il bordo giallo si accende quando il prof INIZIA la frase (±1 s); 10 punti a caso | fatto in modo diverso dal calcolo automatico di prima: l'inizio di ogni card è stato scelto leggendo la trascrizione (frase per frase) da revisori; tabella dei 10 punti qui sotto. Alcune card non hanno corrispondenza nel parlato (vedi sezione 4). |
+| 3 | Mappe ridisegnate con `kit/tools/mappa.py`, intere, nodi a tempo con la voce Kore | fatto: le 3 mappe del prof (La crisi di fine secolo, Lo sviluppo industriale, Giolitti) sono ridisegnate con lo strumento della master (centro + rami, nodi che compaiono con la voce Kore a tempo, testo del prof). Il prof ha mandato 3 mappe per tutta la lezione, non una per argomento: dopo gli argomenti 2, 9 e 11 (secondo il tema). |
+| 4 | Almeno un approfondimento animato (4c) per argomento, 40–60 s, voce Kore | fatto: 11 approfondimenti (uno per argomento), durata del pezzo misurata 39,2–62,4 s (AP1 44,8; AP2 54,8; AP3 49,1; AP4 48,1; AP5 53,3; AP6 46,9; AP7 39,2; AP8 47,8; AP9 48,5; AP10 50,7; AP11 62,4): AP7 è 0,8 s sotto i 40 s e AP11 2,4 s sopra i 60 (il pezzo include 0,9 s iniziali e 1,2 s finali di pausa), card che compaiono a tempo con la voce; i fatti sono presi dal parlato del prof (da far confermare, sezione 5). |
+| 5 | Schema di ripasso: 4–6 righe | già a norma: 4–6 righe per argomento. |
+| 6 | `trans.wav` + dissolvenza a ogni cambio di pezzo | a norma (tutti i pezzi, anche prof → approfondimento → mappa → pillola); dissolvenza 0,5 s dal fotogramma precedente. Dentro il pezzo del prof il cambio di slide è un taglio netto (NV: non ho aggiunto dissolvenze fra slide dello stesso pezzo). |
+| 7 | Copertina: titolo esatto; card ARGOMENTI non sovrapposta | a norma: «L'Italia di Giolitti» (titolo del PDF del prof; titolo su una riga, nessuna sovrapposizione con la card ARGOMENTI, vista a occhio sul fotogramma). |
+| 8 | Avviso diritti: in basso al centro, bianco 24 px senza riquadro, mai sopra il piè di pagina della copertina | fatto: sulla sigla (nera) negli ultimi 2 s, testo bianco 24 px senza riquadro; tolto dalla copertina bianca (il testo bianco non si vede su bianco). |
 
-Video a pezzi `.parte_NN` (ricomporre con `cat nome.parte_* > nome`) + `.sha256`. Il numero della lezione non compare nel video [misurato a vista sui fotogrammi].
+### Sincronia: 10 punti a caso (M)
+| Dove | Argomento | Card accesa | Frase del prof che inizia in quel punto (trascrizione) | Scarto dall'inizio della frase |
+|---|---|---|---|---|
+| Parte 1 · 29:07.32 | arg. 3 | «Giolitti cerca un accordo politico con i riformisti di …» | «È diviso in queste due frange. Giolitti decide di parlare, per ovvio, con l…» | -0.0 s |
+| Parte 1 · 29:35.82 | arg. 3 | «nel settembre 1904 i massimalisti indicono una grande p…» | «nel settembre del 1904, in occasione del primo sciopero generale nazionale …» | +0.0 s |
+| Parte 2 · 13:56.00 | arg. 8 | «le alte tariffe doganali introdotte dallo Stato protegg…» | «Ma l'età giolittiana è anche, in parallelo a tutto questo,…» | -0.4 s |
+| Parte 2 · 15:29.59 | arg. 8 | «per l'ampliamento delle ferrovie e della flotta militar…» | «l'intervento economico dello Stato tramite commesse pubbliche per la ferrov…» | +0.0 s |
+| Parte 2 · 15:55.09 | arg. 8 | «nuovi istituti finanziari utilizzano i depositi dei ris…» | «E poi c'è anche il supporto finanziario della banca mista, come la Banca Co…» | -0.0 s |
+| Parte 2 · 20:06.99 | arg. 8 | «e della rete ferroviaria per favorire gli investimenti.…» | «1903, e anche delle ferrovie, che fino a quel momento erano state, come in …» | +0.0 s |
+| Parte 2 · 27:10.50 | arg. 9 | «tra il 1901 e il 1915 circa 9 milioni di italiani sono …» | «La povertà e la miseria spinsero milioni di italiani, inizialmente provenie…» | -0.0 s |
+| Parte 2 · 33:13.06 | arg. 10 | «e attacca le coste della Tripolitania e della Cirenaica…» | «dai nazionalisti guidati da Enrico Corradini, che vedevano nella Libia uno …» | +0.0 s |
+| Parte 2 · 34:09.76 | arg. 10 | «e difficile a causa della guerriglia della popolazione,…» | «La resistenza della popolazione locale fu però durissima in Libia e costrin…» | +0.0 s |
+| Parte 2 · 34:38.66 | arg. 10 | «e l'occupazione strategica delle isole del Dodecaneso.…» | «E anche, ovviamente, la questione di Rodi e del Dodecaneso viene approvata.…» | -0.0 s |
 
-## 2. Tabella C della scheda tecnica (presente · minuto di inizio · durata misurata)
+L'accensione coincide con l'inizio di una frase del prof per costruzione (M: scarto dall'inizio della frase). Che la frase sia davvero quella della card l'hanno giudicato i revisori leggendo la trascrizione: io non l'ho riverificato punto per punto (NV).
+
+## 2. Misure sul video nuovo (M)
 
 ### Parte 1
-
-| Pezzo | Presente | Inizio | Durata |
-|---|---|---|---|
-| 1 · Sigla | sì | 0:00.0 | 15.0 s |
-| 3 · Copertina + benvenuto (voce Kore) | sì | 0:16.2 | 12.4 s |
-| 3 · Copertina + introduzione del prof | sì | 0:29.4 | 149.6 s |
-| **Argomento 1: Crisi di fine secolo e svolta liberale** | | | |
-| 4a · Titolo (4 s, titolo.wav) | sì | 2:59.8 | 4.0 s |
-| 4b · Docente + slide | sì | 3:04.6 | 997.6 s |
-| 4c · Approfondimento animato (AN1) | sì | 19:43.0 | 70.6 s |
-| 4c · Approfondimento animato (AN2) | sì | 20:54.4 | 44.6 s |
-| 4d · Mappa del prof | no: il prof ne ha consegnate 3 in tutto, non una per argomento | – | – |
-| 4e · Pillola, introduzione blu (repaso.wav) | sì | 21:39.9 | 14.0 s |
-| 4f · Pillola, schema guidato | sì | 21:54.7 | 44.4 s |
-| 4g · Scheda Quiz (quiz.wav a +0,5 s) | sì | 22:39.8 | 5.0 s |
-| **Argomento 2: La nuova linea politica di Giolitti** | | | |
-| 4a · Titolo (4 s, titolo.wav) | sì | 22:45.6 | 4.0 s |
-| 4b · Docente + slide | sì | 22:50.4 | 299.9 s |
-| 4c · Approfondimento animato (AN3) | sì | 27:51.1 | 48.8 s |
-| 4c · Approfondimento animato (AN4) | sì | 28:40.7 | 54.6 s |
-| 4d · Mappa del prof | sì | 29:36.1 | 33.6 s |
-| 4e · Pillola, introduzione blu (repaso.wav) | sì | 30:10.5 | 14.0 s |
-| 4f · Pillola, schema guidato | sì | 30:25.3 | 30.8 s |
-| 4g · Scheda Quiz (quiz.wav a +0,5 s) | sì | 30:56.9 | 5.0 s |
-| **Argomento 3: I socialisti e lo sciopero del 1904** | | | |
-| 4a · Titolo (4 s, titolo.wav) | sì | 31:02.7 | 4.0 s |
-| 4b · Docente + slide | sì | 31:07.5 | 163.3 s |
-| 4c · Approfondimento animato (AN5) | sì | 33:51.6 | 45.8 s |
-| 4c · Approfondimento animato (AN6) | sì | 34:38.2 | 48.9 s |
-| 4d · Mappa del prof | no: il prof ne ha consegnate 3 in tutto, non una per argomento | – | – |
-| 4e · Pillola, introduzione blu (repaso.wav) | sì | 35:27.8 | 14.0 s |
-| 4f · Pillola, schema guidato | sì | 35:42.6 | 30.9 s |
-| 4g · Scheda Quiz (quiz.wav a +0,5 s) | sì | 36:14.4 | 5.0 s |
-| **Argomento 4: I cattolici e il trasformismo** | | | |
-| 4a · Titolo (4 s, titolo.wav) | sì | 36:20.2 | 4.0 s |
-| 4b · Docente + slide | sì | 36:25.0 | 176.2 s |
-| 4c · Approfondimento animato (AN7) | sì | 39:21.9 | 58.2 s |
-| 4c · Approfondimento animato (AN8) | sì | 40:20.9 | 47.9 s |
-| 4d · Mappa del prof | no: il prof ne ha consegnate 3 in tutto, non una per argomento | – | – |
-| 4e · Pillola, introduzione blu (repaso.wav) | sì | 41:09.6 | 14.0 s |
-| 4f · Pillola, schema guidato | sì | 41:24.4 | 31.4 s |
-| 4g · Scheda Quiz (quiz.wav a +0,5 s) | sì | 41:56.6 | 5.0 s |
-| **Argomento 5: Le riforme sociali e scolastiche** | | | |
-| 4a · Titolo (4 s, titolo.wav) | sì | 42:02.4 | 4.0 s |
-| 4b · Docente + slide | sì | 42:07.2 | 386.9 s |
-| 4c · Approfondimento animato (AN9) | sì | 48:34.9 | 53.9 s |
-| 4c · Approfondimento animato (AN10) | sì | 49:29.6 | 53.1 s |
-| 4d · Mappa del prof | no: il prof ne ha consegnate 3 in tutto, non una per argomento | – | – |
-| 4e · Pillola, introduzione blu (repaso.wav) | sì | 50:23.5 | 14.0 s |
-| 4f · Pillola, schema guidato | sì | 50:38.3 | 18.7 s |
-| 4g · Scheda Quiz (quiz.wav a +0,5 s) | sì | 50:57.8 | 5.0 s |
-| 5 · Glossario | sì | 51:03.6 | 51.6 s |
-| 6 · Riepilogo finale (+ voce di chiusura) | sì | 51:55.9 | 47.6 s |
-| 7 · Finale (finale.wav) | sì | 52:44.3 | 5.0 s |
+```
+durata 2894.24 s = 48:14.24 | fotogrammi 86827 (durata*30=86827) = somma dei pezzi 86827 | peso 227.2 MB | 1920x1080
+LUFS -15.2  TP -1.9 dBFS
+Q1 atteso 1291.833 trovato 1291.833 scarto -0.000 OK
+Q2 atteso 1656.333 trovato 1656.334 scarto +0.001 OK
+Q3 atteso 1998.600 trovato 1998.601 scarto +0.001 OK
+Q4 atteso 2277.967 trovato 2277.968 scarto +0.001 OK
+Q5 atteso 2783.667 trovato 2783.668 scarto +0.001 OK
+```
+Silenzi > 3 s (−45 dB): 0.
+Fermi del prof ≥ 1 s: nessuno.
+Fotogramma Quiz ai `quiz_s`: Q1 1291.33s OK, Q2 1655.83s OK, Q3 1998.10s OK, Q4 2277.47s OK, Q5 2783.17s OK.
+sha256 (ricomposto dalle parti): `860f4b3a817ac470d48ee3f28923627a2d9c5d87b6cf262c98fa9667af1f8f77  Storia_Lez3_Parte1_1080p.mp4`
 
 ### Parte 2
+```
+durata 2803.10 s = 46:43.10 | fotogrammi 84093 (durata*30=84093) = somma dei pezzi 84093 | peso 225.6 MB | 1920x1080
+LUFS -15.2  TP -1.9 dBFS
+Q6 atteso 597.367 trovato 597.367 scarto +0.000 OK
+Q7 atteso 827.500 trovato 827.500 scarto +0.000 OK
+Q8 atteso 1335.267 trovato 1335.267 scarto +0.000 OK
+Q9 atteso 1795.233 trovato 1795.234 scarto +0.001 OK
+Q10 atteso 2268.133 trovato 2268.134 scarto +0.001 OK
+Q11 atteso 2692.900 trovato 2692.900 scarto +0.000 OK
+```
+Silenzi > 3 s (−45 dB): 0.
+Fermi del prof ≥ 1 s: nessuno.
+Fotogramma Quiz ai `quiz_s`: Q6 596.87s OK, Q7 827.00s OK, Q8 1334.77s OK, Q9 1794.73s OK, Q10 2267.63s OK, Q11 2692.40s OK.
+sha256 (ricomposto dalle parti): `b1c0796ea9ff0e73ba4d4db2e2b04ba1be321fe0533a6fbe2127e3926bfb7276  Storia_Lez3_Parte2_1080p.mp4`
+
+Formato: 1920×1080, 30 fps, x264 veryfast CRF 25, AAC 192 kbps 48 kHz; parlato del prof dall'originale con la catena del kit; voci Kore a −16 LUFS. **Le Parti durano meno dei 50 minuti** (materiale del prof).
+
+## 3. Tabella dei pezzi (sezione C della scheda tecnica) (M)
+
+**Parte 1**
 
 | Pezzo | Presente | Inizio | Durata |
 |---|---|---|---|
-| 1 · Sigla | sì | 0:00.0 | 15.0 s |
-| Ripasso della Parte 1 (voce Kore) | sì | 0:16.2 | 48.7 s |
-| **Argomento 6: Suffragio universale e Patto Gentiloni** | | | |
-| 4a · Titolo (4 s, titolo.wav) | sì | 1:05.7 | 4.0 s |
-| 4b · Docente + slide | sì | 1:10.5 | 441.5 s |
-| 4c · Approfondimento animato (AN11) | sì | 8:32.8 | 46.7 s |
-| 4c · Approfondimento animato (AN12) | sì | 9:20.3 | 44.4 s |
-| 4d · Mappa del prof | no: il prof ne ha consegnate 3 in tutto, non una per argomento | – | – |
-| 4e · Pillola, introduzione blu (repaso.wav) | sì | 10:05.5 | 14.0 s |
-| 4f · Pillola, schema guidato | sì | 10:20.3 | 33.3 s |
-| 4g · Scheda Quiz (quiz.wav a +0,5 s) | sì | 10:54.4 | 5.0 s |
-| **Argomento 7: Le riforme mancate: le donne in lotta** | | | |
-| 4a · Titolo (4 s, titolo.wav) | sì | 11:00.2 | 4.0 s |
-| 4b · Docente + slide | sì | 11:05.0 | 137.8 s |
-| 4c · Approfondimento animato (AN13) | sì | 13:23.6 | 29.7 s |
-| 4c · Approfondimento animato (AN14) | sì | 13:54.1 | 39.0 s |
-| 4d · Mappa del prof | no: il prof ne ha consegnate 3 in tutto, non una per argomento | – | – |
-| 4e · Pillola, introduzione blu (repaso.wav) | sì | 14:33.9 | 14.0 s |
-| 4f · Pillola, schema guidato | sì | 14:48.7 | 31.2 s |
-| 4g · Scheda Quiz (quiz.wav a +0,5 s) | sì | 15:20.8 | 5.0 s |
-| **Argomento 8: Il decollo industriale italiano** | | | |
-| 4a · Titolo (4 s, titolo.wav) | sì | 15:26.6 | 4.0 s |
-| 4b · Docente + slide | sì | 15:31.4 | 401.2 s |
-| 4c · Approfondimento animato (AN15) | sì | 22:13.3 | 45.3 s |
-| 4c · Approfondimento animato (AN16) | sì | 22:59.4 | 47.6 s |
-| 4d · Mappa del prof | no: il prof ne ha consegnate 3 in tutto, non una per argomento | – | – |
-| 4e · Pillola, introduzione blu (repaso.wav) | sì | 23:47.8 | 14.0 s |
-| 4f · Pillola, schema guidato | sì | 24:02.6 | 26.0 s |
-| 4g · Scheda Quiz (quiz.wav a +0,5 s) | sì | 24:29.4 | 5.0 s |
-| **Argomento 9: Il divario Nord-Sud e l'emigrazione** | | | |
-| 4a · Titolo (4 s, titolo.wav) | sì | 24:35.2 | 4.0 s |
-| 4b · Docente + slide | sì | 24:40.0 | 321.5 s |
-| 4c · Approfondimento animato (AN17) | sì | 30:02.3 | 48.3 s |
-| 4c · Approfondimento animato (AN18) | sì | 30:51.4 | 45.6 s |
-| 4d · Mappa del prof | sì | 31:37.8 | 27.7 s |
-| 4e · Pillola, introduzione blu (repaso.wav) | sì | 32:06.3 | 14.0 s |
-| 4f · Pillola, schema guidato | sì | 32:21.1 | 35.0 s |
-| 4g · Scheda Quiz (quiz.wav a +0,5 s) | sì | 32:56.9 | 5.0 s |
-| **Argomento 10: Politica coloniale e guerra in Libia** | | | |
-| 4a · Titolo (4 s, titolo.wav) | sì | 33:02.7 | 4.0 s |
-| 4b · Docente + slide | sì | 33:07.5 | 325.5 s |
-| 4c · Approfondimento animato (AN19) | sì | 38:33.8 | 53.6 s |
-| 4c · Approfondimento animato (AN20) | sì | 39:28.2 | 50.5 s |
-| 4d · Mappa del prof | no: il prof ne ha consegnate 3 in tutto, non una per argomento | – | – |
-| 4e · Pillola, introduzione blu (repaso.wav) | sì | 40:19.5 | 14.0 s |
-| 4f · Pillola, schema guidato | sì | 40:34.3 | 33.1 s |
-| 4g · Scheda Quiz (quiz.wav a +0,5 s) | sì | 41:08.2 | 5.0 s |
-| **Argomento 11: Caduta di Giolitti e settimana rossa** | | | |
-| 4a · Titolo (4 s, titolo.wav) | sì | 41:14.0 | 4.0 s |
-| 4b · Docente + slide | sì | 41:18.8 | 317.7 s |
-| 4c · Approfondimento animato (AN21) | sì | 46:37.3 | 62.2 s |
-| 4c · Approfondimento animato (AN22) | sì | 47:40.3 | 36.2 s |
-| 4d · Mappa del prof | sì | 48:17.3 | 23.7 s |
-| 4e · Pillola, introduzione blu (repaso.wav) | sì | 48:41.8 | 14.0 s |
-| 4f · Pillola, schema guidato | sì | 48:56.6 | 32.8 s |
-| 4g · Scheda Quiz (quiz.wav a +0,5 s) | sì | 49:30.2 | 5.0 s |
-| 5 · Glossario | sì | 49:36.0 | 49.7 s |
-| 6 · Riepilogo finale (+ voce di chiusura) | sì | 50:26.5 | 49.1 s |
-| 7 · Finale (finale.wav) | sì | 51:16.4 | 5.0 s |
+| 1 · Sigla `SIGLA` | sì | 0:00.00 | 15.0 s |
+| 3 · Copertina + benvenuto (voce Kore) `COVERV` | sì | 0:15.00 | 12.4 s |
+| 3 · Introduzione del prof (copertina con riquadro) `D0` | sì | 0:27.43 | 149.7 s |
+| 4a · Titolo argomento `T1` | sì | 2:57.10 | 4.0 s |
+| 4b · Docente + slide `A1` | sì | 3:01.10 | 999.0 s |
+| 4c · Approfondimento animato (voce Kore) `AP1` | sì | 19:40.07 | 44.8 s |
+| 4e · Pillola di ripasso (introduzione blu) `PI1` | sì | 20:24.87 | 11.2 s |
+| 4f · Pillola di ripasso (schema guidato bianco) `PS1` | sì | 20:36.03 | 55.3 s |
+| 4g · Scheda Quiz `Q1` | sì | 21:31.33 | 5.0 s |
+| 4a · Titolo argomento `T2` | sì | 21:36.33 | 4.0 s |
+| 4b · Docente + slide `A2` | sì | 21:40.33 | 223.3 s |
+| 4c · Approfondimento animato (voce Kore) `AP2` | sì | 25:23.60 | 54.8 s |
+| 4d · Mappa del prof (voce Kore) `MAP1` | sì | 26:18.40 | 33.3 s |
+| 4e · Pillola di ripasso (introduzione blu) `PI2` | sì | 26:51.67 | 12.4 s |
+| 4f · Pillola di ripasso (schema guidato bianco) `PS2` | sì | 27:04.03 | 31.8 s |
+| 4g · Scheda Quiz `Q2` | sì | 27:35.83 | 5.0 s |
+| 4a · Titolo argomento `T3` | sì | 27:40.83 | 4.0 s |
+| 4b · Docente + slide `A3` | sì | 27:44.83 | 238.4 s |
+| 4c · Approfondimento animato (voce Kore) `AP3` | sì | 31:43.27 | 49.1 s |
+| 4e · Pillola di ripasso (introduzione blu) `PI3` | sì | 32:32.33 | 12.2 s |
+| 4f · Pillola di ripasso (schema guidato bianco) `PS3` | sì | 32:44.53 | 33.6 s |
+| 4g · Scheda Quiz `Q3` | sì | 33:18.10 | 5.0 s |
+| 4a · Titolo argomento `T4` | sì | 33:23.10 | 4.0 s |
+| 4b · Docente + slide `A4` | sì | 33:27.10 | 175.8 s |
+| 4c · Approfondimento animato (voce Kore) `AP4` | sì | 36:22.90 | 48.1 s |
+| 4e · Pillola di ripasso (introduzione blu) `PI4` | sì | 37:10.97 | 11.3 s |
+| 4f · Pillola di ripasso (schema guidato bianco) `PS4` | sì | 37:22.30 | 35.2 s |
+| 4g · Scheda Quiz `Q4` | sì | 37:57.47 | 5.0 s |
+| 4a · Titolo argomento `T5` | sì | 38:02.47 | 4.0 s |
+| 4b · Docente + slide `A5` | sì | 38:06.47 | 391.3 s |
+| 4c · Approfondimento animato (voce Kore) `AP5` | sì | 44:37.73 | 53.3 s |
+| 4e · Pillola di ripasso (introduzione blu) `PI5` | sì | 45:31.00 | 12.4 s |
+| 4f · Pillola di ripasso (schema guidato bianco) `PS5` | sì | 45:43.37 | 39.8 s |
+| 4g · Scheda Quiz `Q5` | sì | 46:23.17 | 5.0 s |
+| 5 · Glossario `GL` | sì | 46:28.17 | 52.3 s |
+| 6 · Riepilogo finale `RIEP` | sì | 47:20.47 | 48.8 s |
+| 7 · Finale `FINALE` | sì | 48:09.23 | 5.0 s |
 
-Tra ogni coppia di pezzi c'è `trans.wav` + dissolvenza di 0,8 s (1,2 s dopo la sigla): il pezzo successivo parte dopo la dissolvenza. [misurato a campione, non su ognuna]
+**Parte 2**
 
-## 3. Confronto con Spagnolo Lez. 1
-`confronto_spagnolo.png`: modello sopra, nostri fotogrammi sotto. `foglio.png`: un fotogramma di ogni scheda blu (11 titoli, 11 pillole con le due didascalie, 11 quiz, 2 riepiloghi).
-
-- Schede blu (titoli, pillole, quiz, riepilogo) fatte **solo** con `schede_spagnolo.py` a scala 1.0; l'unica modifica è il percorso del browser installato qui. Pillola «Pillola di storia» + «RIPASSO»; riepilogo «Storia V» + «RIEPILOGO FINALE». [fatto]
-- Slide bianche: kicker «NN · ARGOMENTO» Figtree Bold, titolo Bricolage 800 con barretta, card col bordo giallo per la frase in corso, riquadro 4:3 410×308 con ombra, fascia gialla inclinata «Giorgio Mazzotti / PROF. DI STORIA», pannello «PAROLE CHIAVE» (aggiunta approvata), piè «STORIA V · Prof. Giorgio Mazzotti» e «Pagina N». Niente DM Mono. [confronto a vista]
-- Copertina bianca con card «ARGOMENTI» (11 voci, una colonna) e avviso di copyright nei primi 3 s, in grigio scuro (bianco su fondo bianco sarebbe invisibile). [scelta mia]
-- Quiz: l'argomento in arancio non tocca più il pulsante play (corpo 60–78 secondo la lunghezza). [misurato a vista sul foglio]
-- Schede di servizio «Quiz/Verifica/Compiti» a fine video: **non** presenti nel video (come in Spagnolo, sono fuori dal video: verifica e compiti sono nella pagina). [da scheda tecnica]
-
-## 4. Problemi trovati e correzioni
-
-| Dove | Tipo | Com'era | Correzione |
+| Pezzo | Presente | Inizio | Durata |
 |---|---|---|---|
-| Riquadro del prof, tutto il video | visivo | nel primo montaggio il riquadro restava fermo per minuti (freezedetect: fermi fino a 238 s) | corretto il montaggio e ricodificati tutti i pezzi col prof; ora 0 fermi ≥ 1 s [misurato] |
-| Quiz 3,5,6,7,8,9,10,11 | visivo | l'argomento toccava il pulsante play | corpo del testo ridotto, schede rifatte [misurato a vista] |
-| Slide schema / pillola | visivo | l'etichetta «PILLOLA DI STORIA» si sovrapponeva alla riga blu | tolta la riga blu sulle slide di schema |
-| Copertina | visivo | l'elenco degli 11 argomenti usciva dalla card e toccava l'avviso | card compattata, avviso spostato |
-| Peso | tecnico | 423 MB (Parte 1) dopo il montaggio | ricodifica CRF 22: 340 MB / 321 MB [misurato] |
-| Voci | contenuto | nessuna voce di benvenuto, mappe e annuncio pillola | 15 voci nuove (BEN, PIL1–11, MAPA1–3) generate dalla master; testi in `testi_voci.json` |
-| Approfondimento AN15 | contenuto | la voce dice «Guardiamo sulla carta dove si concentra lo sviluppo industriale»: la carta non è nei materiali del prof | tagliata la prima frase della voce; sullo schermo la didascalia corrispondente è tolta |
-| Mappe del video | contenuto | le mappe fatte da noi non vanno | nel video solo le 3 mappe del prof (dopo gli arg. 2, 9, 11) con voce nuova MAPA1–3; i nodi compaiono a tempo (tempi proporzionali alle frasi: [stima]) |
+| 1 · Sigla `SIGLA` | sì | 0:00.00 | 15.0 s |
+| 3 · Copertina + benvenuto (voce Kore) `COVERV` | sì | 0:15.00 | 48.4 s |
+| 4a · Titolo argomento `T6` | sì | 1:03.37 | 4.0 s |
+| 4b · Docente + slide `A6` | sì | 1:07.37 | 436.3 s |
+| 4c · Approfondimento animato (voce Kore) `AP6` | sì | 8:23.63 | 46.9 s |
+| 4e · Pillola di ripasso (introduzione blu) `PI6` | sì | 9:10.50 | 11.5 s |
+| 4f · Pillola di ripasso (schema guidato bianco) `PS6` | sì | 9:22.00 | 34.9 s |
+| 4g · Scheda Quiz `Q6` | sì | 9:56.87 | 5.0 s |
+| 4a · Titolo argomento `T7` | sì | 10:01.87 | 4.0 s |
+| 4b · Docente + slide `A7` | sì | 10:05.87 | 139.0 s |
+| 4c · Approfondimento animato (voce Kore) `AP7` | sì | 12:24.90 | 39.2 s |
+| 4e · Pillola di ripasso (introduzione blu) `PI7` | sì | 13:04.10 | 10.9 s |
+| 4f · Pillola di ripasso (schema guidato bianco) `PS7` | sì | 13:14.97 | 32.0 s |
+| 4g · Scheda Quiz `Q7` | sì | 13:47.00 | 5.0 s |
+| 4a · Titolo argomento `T8` | sì | 13:52.00 | 4.0 s |
+| 4b · Docente + slide `A8` | sì | 13:56.00 | 400.9 s |
+| 4c · Approfondimento animato (voce Kore) `AP8` | sì | 20:36.87 | 47.8 s |
+| 4e · Pillola di ripasso (introduzione blu) `PI8` | sì | 21:24.63 | 12.1 s |
+| 4f · Pillola di ripasso (schema guidato bianco) `PS8` | sì | 21:36.77 | 38.0 s |
+| 4g · Scheda Quiz `Q8` | sì | 22:14.77 | 5.0 s |
+| 4a · Titolo argomento `T9` | sì | 22:19.77 | 4.0 s |
+| 4b · Docente + slide `A9` | sì | 22:23.77 | 322.2 s |
+| 4c · Approfondimento animato (voce Kore) `AP9` | sì | 27:45.97 | 48.5 s |
+| 4d · Mappa del prof (voce Kore) `MAP2` | sì | 28:34.47 | 27.4 s |
+| 4e · Pillola di ripasso (introduzione blu) `PI9` | sì | 29:01.90 | 11.2 s |
+| 4f · Pillola di ripasso (schema guidato bianco) `PS9` | sì | 29:13.07 | 41.7 s |
+| 4g · Scheda Quiz `Q9` | sì | 29:54.73 | 5.0 s |
+| 4a · Titolo argomento `T10` | sì | 29:59.73 | 4.0 s |
+| 4b · Docente + slide `A10` | sì | 30:03.73 | 360.9 s |
+| 4c · Approfondimento animato (voce Kore) `AP10` | sì | 36:04.63 | 50.7 s |
+| 4e · Pillola di ripasso (introduzione blu) `PI10` | sì | 36:55.37 | 10.8 s |
+| 4f · Pillola di ripasso (schema guidato bianco) `PS10` | sì | 37:06.13 | 41.5 s |
+| 4g · Scheda Quiz `Q10` | sì | 37:47.63 | 5.0 s |
+| 4a · Titolo argomento `T11` | sì | 37:52.63 | 4.0 s |
+| 4b · Docente + slide `A11` | sì | 37:56.63 | 282.0 s |
+| 4c · Approfondimento animato (voce Kore) `AP11` | sì | 42:38.60 | 62.4 s |
+| 4d · Mappa del prof (voce Kore) `MAP3` | sì | 43:41.00 | 23.4 s |
+| 4e · Pillola di ripasso (introduzione blu) `PI11` | sì | 44:04.37 | 13.1 s |
+| 4f · Pillola di ripasso (schema guidato bianco) `PS11` | sì | 44:17.47 | 34.9 s |
+| 4g · Scheda Quiz `Q11` | sì | 44:52.40 | 5.0 s |
+| 5 · Glossario `GL` | sì | 44:57.40 | 50.4 s |
+| 6 · Riepilogo finale `RIEP` | sì | 45:47.77 | 50.3 s |
+| 7 · Finale `FINALE` | sì | 46:38.10 | 5.0 s |
 
-## 5. Cosa NON ho verificato
+## 4. Cose che non tornano nel parlato / limiti
+- Argomento 1: la card 1 parte a 149,9 s (inizio argomento) ma il prof entra in Adua verso 260 s; la prima slide resta ferma ~231 s (oltre i 180 s: l'unico punto in cui il parlato non offre un altro aggancio). Le card 11–13 sono scelte tra frasi vicine (il prof dice «uccide il re» a 914 s).
+- Argomento 4: «arginare i socialisti» è detto solo dopo la card 4; il trasformismo non è nominato (card 5–6 agganciate a frasi vicine). Argomento 5: card 2 anticipata di 3,6 s per rispettare i 6 s minimi. Argomento 7: card 4 (delitto d'onore) prima di dove lo dice il prof (2700,7 s). Argomento 8: card 5 nella frase successiva a quella della banca mista.
+- Argomento 9: l'immagine della slide 14 del prof compare solo 8 s (3346–3355 s) per lasciare spazio alle card 5–6; la card 6 (esodo) è a 3440 s perché il prof la riprende lì. Argomento 10: card 4 (coste) approssimata. Argomento 11: card 4–5 (Patto Gentiloni, maggioranza) non trattate esplicitamente, agganciate a frasi vicine.
+- Le card lunghe sono state spezzate in frammenti per rispettare le 3 card per slide; sono testo identico alla slide del prof.
+- Webcam del prof 184×138 ingrandita 2,2× (morbida); testa vicina al bordo alto già nell'originale (S).
 
-- **Ascolto**: non ho ascoltato le voci Kore né il parlato del prof: pronuncia dei nomi, rumore (fruscio/ronzio/metallico) e sincronia labbra (≤ 0,04 s) sono **non verificati**. L'audio del prof è rifatto dall'originale con la catena del kit (−16,6 LUFS, picco −1,6 dBFS misurati).
-- **Evidenziazione delle card**: calcolata dalla trascrizione (parola per parola, con percorso monotono); l'ho controllata a vista solo su pochi fotogrammi. [non verificato su tutto]
-- **Sottotitoli `.vtt`**: la parte del prof viene dalla trascrizione automatica con correzione automatica dei nomi (Giolitti, Crispi, Murri, Kuliscioff, Losanna, Salandra…); **non l'ho riletta tutta**: restano errori di riconoscimento e frasi spezzate. Le parti con voce Kore usano il testo esatto. Massimo 2 righe [misurato].
-- **Tagli del prof**: fatti sulle pause fra le frasi (inizio/fine di ogni argomento), mai dentro una frase secondo la trascrizione; non verificato all'ascolto. Il prof anticipa a volte l'argomento successivo prima del cambio slide (es. i massimalisti a 23:54 del video originale, mentre è ancora sulla slide dell'argomento 2): ho seguito il discorso, non il cambio slide.
-- **Approfondimenti AN1–AN22**: testi delle voci già fatte dalla master (contengono dettagli non presenti nelle slide, es. Dogali, Pelloux). Le animazioni sono card-frase in sequenza (ultime 5), non schemi disegnati ad hoc. AN19 mostra la carta della Libia del prof.
-- **Quiz** (`quiz_argomenti.json`, 11×5): scritti da noi, già in `quiz.json` («da approvare»); riletti da me, spiegazioni non tutte tratte dalle slide. **Da approvare da Sara.**
-- **Mappe**: sono quelle del prof, impaginate nella nostra grafica; il testo dentro le mappe è sotto i 28 px (grafica del prof, non rifacibile). I nodi compaiono a tempi proporzionali alla voce [stima].
-- **Limiti noti non risolvibili**: webcam 184×138 ingrandita 2,2× (morbida); la testa tocca il bordo alto già nell'originale (a tutto il video).
-- **PDF slide**: confronto PDF slide ↔ video fatto per costruzione (stesse funzioni di disegno, senza riquadro né evidenziazione, 56 pagine) ma **non fotogramma per fotogramma** [non verificato].
-
-## 6. Come ho verificato
-ffprobe (durata, fotogrammi, dimensioni), ebur128 (LUFS e picco), freezedetect sul riquadro, `controllo_jingle.py` sui quiz, estrazione di 46 fotogrammi (`foglio.png`) più controlli a vista su copertina, schema, mappa, docente, ripasso della Parte 2. Trascrizione del prof con `trascrivi.py` (727 frasi).
-
-## DA CONFERMARE COL PROF
-- La slide dell'argomento 2 scrive «Confederazione Generale del Lavoro (Cgil)»; il test del prof usa «CGdL» (1906). Nelle slide ho lasciato il testo del prof.
-
-## Ordine dei lavori / tempi
-Partenza 12:05; voci nuove arrivate in ritardo (richieste alle 12:15, ricevute il 18/11 alle 15:55); montaggio completato dopo la loro ricezione.
+## 5. DA CONFERMARE COL PROF / cosa NON ho verificato (NV)
+- Gli **approfondimenti** (fatti presi dal parlato dai revisori automatici) vanno riletti dal prof o dalla master. Gli approfondimenti usano solo fatti detti dal prof nella lezione.
+- Voci: tutte Kore (ramo `voci-storia-V-lez03`), controllo automatico trascrizione contro testo fatto sulle voci nuove (esito nei log di lavoro); non le ho riascoltate a orecchio (NV).
+- Sottotitoli: parlato del prof corretto a blocchi da revisori automatici (consegna precedente), non riletti per intero; tempi ±0,3 s non misurati (NV). Le voci Kore sono nei sottotitoli.
+- PDF slide: stesse immagini del video (S); confronto pagina per pagina con i fotogrammi non fatto (NV). Quiz di argomento riusati (da approvare dalla master).
