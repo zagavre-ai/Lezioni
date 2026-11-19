@@ -609,10 +609,14 @@
   {
    "quando": "19/11 04:11",
    "testo": "controllo_finale: ESITO: TUTTO OK"
+  },
+  {
+   "quando": "19/11 04:17",
+   "testo": "chat v3 04:20: Parte 1 e 2 con controlli TUTTO OK; ultima rifinitura: slide che cambiano al massimo ogni 3 min dove possibile; ricostruzione in corso, poi consegna su revisione-storia-V-lez08"
   }
  ],
  "materia": "Storia V",
  "lezione": "Lezione 08",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-19 04:11:52"
+ "aggiornato": "2026-11-19 04:17:56"
 }
