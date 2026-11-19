@@ -2,41 +2,20 @@
  "tag": "moda-laboratori-III-IV-lez02",
  "parti": {
   "1": {
-   "titolo": "Sartoria",
-   "stato": "IN_MONTAGGIO"
+   "stato": "IN_REVISIONE"
   }
  },
- "manca": "COMPITI_MANCANTI",
- "serve_master": [
-  {
-   "quando": "14/11 22:39",
-   "testo": "Voci Kore moda-laboratori-III-IV-lez02: scambio/moda-laboratori-III-IV-lez02/testi_voci.json sul ramo voci-moda-laboratori-III-IV-lez02."
-  }
- ],
+ "manca": "",
+ "serve_master": [],
  "domande_sara": [],
  "note": [
   {
-   "quando": "14/11 22:07",
-   "testo": "In coda dopo lez01"
-  },
-  {
-   "quando": "14/11 22:39",
-   "testo": "Testi voci e quiz inviati sul ramo voci-moda-laboratori-III-IV-lez02 (165 voci)."
-  },
-  {
-   "quando": "14/11 23:45",
-   "testo": "In due Parti (argomenti 1-6 e 7-10): il docente parla per 72 min. Pezzi del docente in codifica; attendo voci Kore."
-  },
-  {
-   "quando": "15/11 00:43",
-   "testo": "FERMA: due Parti montate con voci segnaposto (stima 44,3 e 43,9 min; il docente parla 72 min, non si arriva a 50-60 per Parte). Attendo voci Kore dalla master."
-  },
-  {
-   "quando": "15/11 02:35",
-   "testo": "Pronta, attende voci Kore. Montata con segnaposto."
+   "quando": "18/11 20:43",
+   "testo": "ripresa 19/11: presa dalla chat di produzione Laboratori (modello Spagnolo); voci Kore gia' sul ramo voci"
   }
  ],
- "materia": "Moda · Laboratori III-IV · chat LAB",
- "lezione": "Sartoria",
- "aggiornato": "2026-11-15 02:35:04"
+ "materia": "Laboratori tecnologici ed esercitazione",
+ "lezione": "Lezione 2 · Sartoria",
+ "docente": "Prof.ssa Piera Caputi",
+ "aggiornato": "2026-11-18 20:43:21"
 }
