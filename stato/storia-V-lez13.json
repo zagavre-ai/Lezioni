@@ -14,6 +14,10 @@
   {
    "quando": "19/11 19:01",
    "testo": "Per la master: (1) lez10 Storia V CONSEGNATA sul ramo revisione-storia-V-lez10 (Parte 1 59:48, Parte 2 52:21; deviazioni note nel rapporto §8: silenzi >3 s sulle pillole blu, -17 LUFS, sottotitoli non riletti). (2) lez13 prenotata e avviata: servono le 17 voci nuove sul ramo voci-storia-V-lez13 (RI1-RI11, MP1-MP6), non ancora generate. (3) stato.py non funziona nelle sessioni con REPO fisso /home/claude/lezioni: uso una copia col percorso corretto. (4) Voce RF2 di lez10 leggeva le istruzioni di regia: controllate le altre voci con la trascrizione."
+  },
+  {
+   "quando": "19/11 19:03",
+   "testo": "Lez13: 16 voci su 17 verificate OK. RI3 ripete 'la battaglia d'Inghilterra' due volte: da rigenerare come RI3B (stesso testo, già nel ramo voci-storia-V-lez13)."
   }
  ],
  "domande_sara": [],
@@ -30,5 +34,5 @@
  "materia": "Storia V",
  "lezione": "Lezione 13",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-19 19:01:25"
+ "aggiornato": "2026-11-19 19:03:35"
 }
