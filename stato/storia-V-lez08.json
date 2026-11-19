@@ -13,7 +13,7 @@
    "durata": "52:48.1",
    "fotogrammi": 95044,
    "fotogrammi_attesi": 95044,
-   "peso_MB": 266.7,
+   "peso_MB": 271.4,
    "vtt": "Storia_Lez8_Parte1.vtt",
    "scheda": {
     "materia": "Storia",
@@ -594,10 +594,14 @@
   {
    "quando": "19/11 01:00",
    "testo": "chat v3 01:00: corretti riquadro prof (ombra grigia, niente bordo blu) e mappe piu grandi; rifaccio composizione, montaggio, codifica di entrambe le Parti (stima 75 min)"
+  },
+  {
+   "quando": "19/11 02:18",
+   "testo": "controllo_finale: ESITO: TUTTO OK"
   }
  ],
  "materia": "Storia V",
  "lezione": "Lezione 08",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-19 01:00:59"
+ "aggiornato": "2026-11-19 02:18:25"
 }
