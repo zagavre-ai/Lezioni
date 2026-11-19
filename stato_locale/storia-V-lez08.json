@@ -2,10 +2,10 @@
  "tag": "storia-V-lez08",
  "parti": {
   "1": {
-   "stato": "IN_MONTAGGIO",
+   "stato": "PRONTA",
    "voci": "kore",
    "titolo": "Il dopoguerra italiano (1919-1925) e il fascismo · Parte 1",
-   "quiz_ok": "no",
+   "quiz_ok": "si",
    "fermi_ok": "si",
    "sub_ok": "si",
    "video": "Storia_Lez8_Parte1_1080p.mp4",
@@ -30,13 +30,13 @@
       "n": 2,
       "titolo": "Vittoria mutilata, Fiume e le elezioni del 1919",
       "inizio_s": 1170.432,
-      "quiz_s": 2149.399
+      "quiz_s": 2149.4
      },
      {
       "n": 3,
       "titolo": "La nascita del fascismo e lo squadrismo",
-      "inizio_s": 2155.699,
-      "quiz_s": 3092.298
+      "inizio_s": 2155.7,
+      "quiz_s": 3092.299
      }
     ],
     "quiz": {
@@ -225,63 +225,63 @@
     ],
     [
      "T3",
-     2155.699,
+     2155.7,
      4.0
     ],
     [
      "GL1",
-     3098.598,
+     3098.599,
      37.4
     ],
     [
      "RF1",
-     3137.398,
+     3137.399,
      22.866
     ]
    ]
   },
   "2": {
-   "titolo": "Il dopoguerra italiano e il fascismo (1919-1925) · Parte 2",
+   "titolo": "Il dopoguerra italiano (1919-1925) e il fascismo · Parte 2",
    "stato": "PRONTA",
    "voci": "kore",
    "quiz_ok": "si",
    "fermi_ok": "si",
    "sub_ok": "si",
    "video": "Storia_Lez8_Parte2_1080p.mp4",
-   "durata_s": 3242.0,
-   "durata": "54:02.0",
-   "fotogrammi": 97260,
-   "fotogrammi_attesi": 97260,
-   "peso_MB": 246.9,
+   "durata_s": 3417.3,
+   "durata": "56:57.3",
+   "fotogrammi": 102518,
+   "fotogrammi_attesi": 102518,
+   "peso_MB": 300.7,
    "vtt": "Storia_Lez8_Parte2.vtt",
    "scheda": {
-    "materia": "Storia V",
-    "titolo": "Storia V · Lezione 8 · Il dopoguerra italiano e il fascismo (1919-1925) · Parte 2",
-    "durata_s": 3242.0,
+    "materia": "Storia",
+    "titolo": "Il dopoguerra italiano (1919-1925) e il fascismo · Parte 2",
+    "durata_s": 3417.27,
     "argomenti": [
      {
       "n": 4,
       "titolo": "Giolitti, Rapallo e la nascita del PNF",
-      "inizio_s": 41.433,
-      "quiz_s": 687.167
+      "inizio_s": 44.3,
+      "quiz_s": 699.202
      },
      {
       "n": 5,
       "titolo": "La Marcia su Roma",
-      "inizio_s": 691.167,
-      "quiz_s": 1614.533
+      "inizio_s": 705.502,
+      "quiz_s": 1803.202
      },
      {
       "n": 6,
       "titolo": "Il primo governo Mussolini",
-      "inizio_s": 1618.533,
-      "quiz_s": 2137.967
+      "inizio_s": 1809.502,
+      "quiz_s": 2547.335
      },
      {
       "n": 7,
       "titolo": "Legge Acerbo, delitto Matteotti e dittatura",
-      "inizio_s": 2141.967,
-      "quiz_s": 3140.6
+      "inizio_s": 2553.635,
+      "quiz_s": 3321.369
      }
     ],
     "quiz": {
@@ -510,38 +510,33 @@
    "timeline": [
     [
      "T4",
-     41.433,
-     5.0
+     44.3,
+     4.0
     ],
     [
      "T5",
-     691.167,
-     5.0
+     705.502,
+     4.0
     ],
     [
      "T6",
-     1618.533,
-     5.0
+     1809.502,
+     4.0
     ],
     [
      "T7",
-     2141.967,
-     5.0
+     2553.635,
+     4.0
     ],
     [
      "GL2",
-     3144.6,
-     39.833
+     3327.669,
+     35.233
     ],
     [
      "RF2",
-     3184.433,
-     28.333
-    ],
-    [
-     "FIN2",
-     3212.767,
-     8.767
+     3364.302,
+     23.0
     ]
    ]
   }
@@ -606,10 +601,22 @@
   {
    "quando": "19/11 03:38",
    "testo": "controllo_finale: ESITO: DA SISTEMARE: quiz"
+  },
+  {
+   "quando": "19/11 04:11",
+   "testo": "controllo_finale: ESITO: TUTTO OK"
+  },
+  {
+   "quando": "19/11 04:11",
+   "testo": "controllo_finale: ESITO: TUTTO OK"
+  },
+  {
+   "quando": "19/11 04:17",
+   "testo": "chat v3 04:20: Parte 1 e 2 con controlli TUTTO OK; ultima rifinitura: slide che cambiano al massimo ogni 3 min dove possibile; ricostruzione in corso, poi consegna su revisione-storia-V-lez08"
   }
  ],
  "materia": "Storia V",
  "lezione": "Lezione 08",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-19 03:38:02"
+ "aggiornato": "2026-11-19 04:17:56"
 }
