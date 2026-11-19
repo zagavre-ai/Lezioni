@@ -2,7 +2,12 @@
  "tag": "storia-V-lez02",
  "parti": {},
  "manca": "",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "19/11 19:01",
+   "testo": "Lezione 3 di Storia V consegnata sul ramo revisione-storia-V-lez03 (Parte 1 52:49, Parte 2 51:21): da controllare e caricare. Ho avviato la lezione 2 (storia-V-lez02). Le voci nuove della 3 sono arrivate dopo circa 3 h 40: per la 2 le richiedo tutte insieme appena pronto il testo, serve una generazione piu' rapida."
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
@@ -11,5 +16,5 @@
   }
  ],
  "materia": "Storia V",
- "aggiornato": "2026-11-18 21:16:03"
+ "aggiornato": "2026-11-19 19:01:18"
 }
