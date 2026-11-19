@@ -866,12 +866,12 @@
  },
  {
   "nome": "SC2_3",
-  "testo": "Gonne. Minigonna da cinquanta a cinquantacinque centimetri, sotto al ginocchio da settantacinque a ottanta, midi da novanta a novantacinque.",
+  "testo": "Gonne. Minigonna da cinquanta a cinquantacinque centimetri, sotto al ginocchio da settantacinque a ottanta centimetri, midi da novanta a novantacinque centimetri.",
   "lingua": "it"
  },
  {
   "nome": "SC2_4",
-  "testo": "Gonna a terra. Due lunghezze capo, circa duecentoventi o duecentotrenta centimetri; quattro per modelli molto ampi, circa quattrocentoquaranta.",
+  "testo": "Gonna a terra. Due lunghezze capo, duecentoventi o duecentotrenta centimetri; quattro per modelli molto ampi, quattrocentoquaranta centimetri.",
   "lingua": "it"
  },
  {
@@ -901,7 +901,7 @@
  },
  {
   "nome": "SC3_4",
-  "testo": "Vaporizzatura. Lana e fibre artificiali vegetali: sul rovescio, con ferro a bassa temperatura.",
+  "testo": "Vaporizzatura. Lana e fibre artificiali vegetali: sul rovescio, con ferro a vapore.",
   "lingua": "it"
  },
  {
@@ -911,7 +911,7 @@
  },
  {
   "nome": "SC4_2",
-  "testo": "Sigle. Uno A, uno B, due A, due B, due C: una o due piegature, cimose sovrapposte, accostate o distanziate.",
+  "testo": "Sigle. Uno A, uno B, due A, due B, due C: una o due piegature, cimose accostate o distanziate.",
   "lingua": "it"
  },
  {
