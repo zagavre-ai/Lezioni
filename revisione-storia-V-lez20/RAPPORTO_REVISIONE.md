@@ -1,162 +1,132 @@
-# RAPPORTO DI REVISIONE · Storia V · Lezione 20 · «Gli anni Novanta, il mondo post-bipolare» (Prof. Giorgio Mazzotti)
-19/11/2026 · chat di revisione v3 · ramo `revisione-storia-V-lez20` · modello: Spagnolo Lez. 1. Ogni dato è etichettato **M** (misurato), **S** (stima / lettura a vista), **NV** (non verificato).
+# RAPPORTO DI REVISIONE · Storia V · Lezione 20 · «Gli anni Novanta, il mondo post-bipolare» · CORREZIONI 19/11 (Prof. Giorgio Mazzotti)
+19/11/2026 · chat v3 · ramo `revisione-storia-V-lez20` (sostituisce la consegna precedente della lezione) · modello: Spagnolo Lez. 1. Ogni dato è etichettato **M** (misurato), **S** (stima / lettura a vista), **NV** (non verificato).
 
-**Premessa (M).** Esisteva una consegna precedente (`consegna-storia-V-lez20`, una sola Parte da 69:44) nel modello sbagliato (vedi sezione 2): la lezione è stata **rifatta da zero nel modello Spagnolo** dal video originale del prof (1092×614, 56 min 28 s), dalle slide del prof (zip SLIDE 17/11, «LEZIONE 20.pdf», 14 pagine), dalle mappe del prof (zip MAPPE 17/11, «MAPPE LEZIONE 20.pdf», 4 mappe), da test e compiti (zip 14/11) e dalle voci Kore (ramo `voci-storia-V-lez20`: 23 già fatte + 53 nuove). Resta **in una sola Parte**: dura 67:44.94, circa 68 minuti, oltre i 60 della regola (con circa 65 minuti la regola dell'8/11 la lascia in una Parte; dividerla darebbe due Parti da 34 minuti, sotto i 50). La master decide.
+**Cosa è cambiato rispetto alla prima consegna (8 punti della master, 19/11 03:40).** Riusati: voci Kore già presenti (benvenuto, mappe, pillole, schemi, riepilogo), quiz, compiti e verifica della consegna precedente. Rifatti: trascrizione, tagli, slide (dal PDF del prof, SLIDE 17/11), schede blu, mappe, approfondimenti, copertina. Voci nuove richieste alla master: 8 approfondimenti e il glossario completo (la voce GL1 della consegna precedente si fermava prima dell'ultima voce «No-Global»; sostituita con RGL1)
 
-## 1. Misure sul video nuovo
-### Parte 1 (M)
+## 1. Le 8 correzioni punto per punto
+| # | Punto della master | Esito |
+|---|---|---|
+| 1 | Al massimo 3 card per slide; nessuna slide ferma oltre 3 minuti; immagini a tempo | fatto: ogni argomento è diviso in più slide da 1–3 card nell'ordine in cui il prof parla (testo del prof invariato; le card lunghe sono spezzate in frammenti, quelli seguenti iniziano con «…»). Le slide di testo sono 30; durata massima misurata 254 s. Slide oltre 180 s: arg. 1 slide 6 (234 s), arg. 1 slide 8 (254 s). Le immagini del prof sono messe a tempo (invariato).  |
+| 2 | Sincronia: il bordo giallo si accende quando il prof INIZIA la frase (±1 s); 10 punti a caso | fatto in modo diverso dal calcolo automatico di prima: l'inizio di ogni card è stato scelto leggendo la trascrizione (frase per frase) da revisori; tabella dei 10 punti qui sotto. Alcune card non hanno corrispondenza nel parlato (vedi sezione 4). |
+| 3 | Mappe ridisegnate con `kit/tools/mappa.py`, intere, nodi a tempo con la voce Kore | fatto: le 4 mappe del prof (In Iugoslavia, In Europa, In Italia, La globalizzazione) sono ridisegnate con lo strumento della master (centro + rami, nodi che compaiono con la voce Kore a tempo, testo del prof). Il prof ha mandato 3 mappe per tutta la lezione, non una per argomento: dopo gli argomenti 3, 4, 5 e 8 (secondo il tema); le mappe a catena (Iugoslavia) sono rese come centro + rami (NV). La voce di ogni mappa è la concatenazione delle voci già presenti MP*_k. |
+| 4 | Almeno un approfondimento animato (4c) per argomento, 40–60 s, voce Kore | fatto: 8 approfondimenti (uno per argomento) con voce Kore nuova (8 voci richieste alla master), durata dei pezzi AP1 61,9; AP2 60,3; AP3 58,2; AP4 52,9; AP5 48,3; AP6 48,6; AP7 52,9; AP8 54,2 (compresi 0,9 s iniziali e 1,2 s finali di pausa), card che compaiono a tempo con la voce; i testi sono stati scritti dal parlato del prof (da far confermare, sezione 5). |
+| 5 | Schema di ripasso: 4–6 righe | già a norma: 4–6 righe per argomento. |
+| 6 | `trans.wav` + dissolvenza a ogni cambio di pezzo | a norma (tutti i pezzi, anche prof → approfondimento → mappa → pillola); dissolvenza 0,5 s dal fotogramma precedente. Dentro il pezzo del prof il cambio di slide è un taglio netto (NV: non ho aggiunto dissolvenze fra slide dello stesso pezzo). |
+| 7 | Copertina: titolo esatto; card ARGOMENTI non sovrapposta | a norma: «Gli anni Novanta: il mondo post-bipolare» (titolo della prima slide del prof, abbreviato: «GLI ANNI NOVANTA: IL MONDO POST-BIPOLARE»; titolo su una riga, nessuna sovrapposizione con la card ARGOMENTI, vista a occhio sul fotogramma). |
+| 8 | Avviso diritti: in basso al centro, bianco 24 px senza riquadro, mai sopra il piè di pagina della copertina | fatto: sulla sigla (nera) negli ultimi 2 s, testo bianco 24 px senza riquadro; tolto dalla copertina bianca (il testo bianco non si vede su bianco). |
+
+### Sincronia: 10 punti a caso (M)
+| Dove | Argomento | Card accesa | Frase del prof che inizia in quel punto (trascrizione) | Scarto dall'inizio della frase |
+|---|---|---|---|---|
+| Parte 1 · 30:10.27 | arg. 2 | «e gli accordi commerciali globali.…» | «Però ecco qua, appunto, il quadro…» | -0.0 s |
+| Parte 1 · 32:15.13 | arg. 3 | «con la morte di Tito…» | «Cerchiamo di capire. Contemporaneamente l'Europa si è trovata a gestire le …» | -0.3 s |
+| Parte 1 · 56:22.83 | arg. 5 | «(governi Prodi) e l'inizio dei grandi flussi migratori.…» | «Poi bisogna gestire i primi flussi migratori: l'Italia assiste ai profughi …» | +0.0 s |
+| Parte 1 · 60:40.10 | arg. 6 | «si diffonde il fondamentalismo radicale in Medio Orient…» | «Il periodo ha visto anche la preoccupante diffusione del fondamentalismo is…» | +0.0 s |
+| Parte 1 · 60:46.60 | arg. 6 | «che offre protezione alla rete terroristica di Al-Qaeda…» | «culminato nella crescita di organizzazioni terroristiche come Al-Qaeda in A…» | +0.0 s |
+| Parte 1 · 65:20.70 | arg. 7 | «ma avvia una straordinaria apertura all'economia di mer…» | «e l'apertura ai mercati internazionali con la rigidità…» | -0.0 s |
+| Parte 1 · 66:14.10 | arg. 7 | «pur dovendo convivere con grandi sacche di povertà e co…» | «Pur dovendo convivere con piaghe sociali persistenti come l'estrema povertà…» | -0.0 s |
+| Parte 1 · 69:07.53 | arg. 8 | «la diffusione dei personal computer e la nascita di Int…» | «Nel bene e nel male, questo fenomeno è stato straordinariamente accelerato …» | -0.0 s |
+| Parte 1 · 70:17.93 | arg. 8 | «il mondo deve affrontare la crescita demografica (che s…» | «Il 2000 si è aperto dunque con un pianeta globalizzato, segnato da una fort…» | +0.0 s |
+| Parte 1 · 71:15.73 | arg. 8 | «e i primi grandi allarmi ambientali legati all'inquinam…» | «In parallelo emergono all'inizio del 2000, anche se già negli anni Ottanta …» | +0.0 s |
+
+L'accensione coincide con l'inizio di una frase del prof per costruzione (M: scarto dall'inizio della frase). Che la frase sia davvero quella della card l'hanno giudicato i revisori leggendo la trascrizione: io non l'ho riverificato punto per punto (NV).
+
+## 2. Misure sul video nuovo (M)
+
+### Parte 1
 ```
-durata 4064.94 s = 67:44.94 | fotogrammi 121948 (durata*30=121948) = somma dei pezzi 121948 | peso 376.9 MB | 1920x1080
-LUFS -15.2  TP -1.9 dBFS
-Q1 atteso 1430.100 trovato 1430.101 scarto +0.001 OK
-Q2 atteso 1804.467 trovato 1804.468 scarto +0.001 OK
-Q3 atteso 2349.333 trovato 2349.335 scarto +0.002 OK
-Q4 atteso 2941.767 trovato 2941.768 scarto +0.001 OK
-Q5 atteso 3314.867 trovato 3314.868 scarto +0.001 OK
-Q6 atteso 3562.300 trovato 3562.301 scarto +0.001 OK
-Q7 atteso 3740.333 trovato 3740.335 scarto +0.002 OK
-Q8 atteso 3986.100 trovato 3986.103 scarto +0.003 OK
+durata 4515.67 s = 75:15.67 | fotogrammi 135470 (durata*30=135470) = somma dei pezzi 135470 | peso 348.0 MB | 1920x1080
+LUFS -15.1  TP -1.9 dBFS
+Q1 atteso 1491.967 trovato 1491.967 scarto -0.000 OK
+Q2 atteso 1926.633 trovato 1926.634 scarto +0.001 OK
+Q3 atteso 2528.833 trovato 2528.836 scarto +0.003 OK
+Q4 atteso 2962.533 trovato 2962.537 scarto +0.004 OK
+Q5 atteso 3596.000 trovato 3596.003 scarto +0.003 OK
+Q6 atteso 3891.900 trovato 3891.904 scarto +0.004 OK
+Q7 atteso 4122.833 trovato 4122.838 scarto +0.005 OK
+Q8 atteso 4422.067 trovato 4422.071 scarto +0.004 OK
 ```
-Silenzi > 3 s (soglia −45 dB) (M): 0. nessuno.
-Fermi del prof ≥ 1 s (freezedetect sul riquadro) (M): nessuno.
-Fotogramma Quiz ai `quiz_s` (confronto col primo fotogramma della scheda, M): Q1 1429.60s OK, Q2 1803.97s OK, Q3 2348.83s OK, Q4 2941.27s OK, Q5 3314.37s OK, Q6 3561.80s OK, Q7 3739.83s OK, Q8 3985.60s OK.
-sha256 (file ricomposto dalle parti .parte_NN): `0977ef2cceb237647781d8b1afe582b72449c06c618b29908397bd467dca967a  Storia_Lez20_Parte1_1080p.mp4`
+Silenzi > 3 s (−45 dB): 0.
+Fermi del prof ≥ 1 s: nessuno.
+Fotogramma Quiz ai `quiz_s`: Q1 1491.47s OK, Q2 1926.13s OK, Q3 2528.33s OK, Q4 2962.03s OK, Q5 3595.50s OK, Q6 3891.40s OK, Q7 4122.33s OK, Q8 4421.57s OK.
+sha256 (ricomposto dalle parti): `812077ff64cd582484ae5e4fc55c9f27729e8c9986e47538b1684067bb9af929  Storia_Lez20_Parte1_1080p.mp4`
 
-Formato: 1920×1080, 30 fps, x264 veryfast CRF 25 keyint 60, AAC 192 kbps 48 kHz. Parlato del prof rifatto dall'originale con la catena del kit (aresample 48000, highpass 80, arnndn `sh.rnnn`, loudnorm −16 a due passaggi, limitatore); voci Kore a −16 LUFS; jingle e `trans.wav` del kit.
+Formato: 1920×1080, 30 fps, x264 veryfast CRF 25, AAC 192 kbps 48 kHz; parlato del prof dall'originale con la catena del kit; voci Kore a −16 LUFS. **Le Parti durano meno dei 50 minuti** (materiale del prof).
 
-## A. Tabella dei pezzi (scheda tecnica, sezione C) — presente / minuto di inizio / durata misurata (M)
+## 3. Tabella dei pezzi (sezione C della scheda tecnica) (M)
+
+**Parte 1**
 
 | Pezzo | Presente | Inizio | Durata |
 |---|---|---|---|
 | 1 · Sigla `SIGLA` | sì | 0:00.00 | 15.0 s |
 | 3 · Copertina + benvenuto (voce Kore) `COVERV` | sì | 0:15.00 | 30.1 s |
-| 3 · Introduzione del prof (copertina con riquadro) `D0` | sì | 0:45.13 | 232.0 s |
-| 4a · Titolo argomento `T1` | sì | 4:37.10 | 4.0 s |
-| 4b · Docente + slide `A1` | sì | 4:41.10 | 1100.6 s |
-| 4e · Pillola di ripasso (introduzione blu) `PI1` | sì | 23:01.70 | 12.1 s |
-| 4f · Pillola di ripasso (schema guidato bianco) `PS1` | sì | 23:13.83 | 35.8 s |
-| 4g · Scheda Quiz `Q1` | sì | 23:49.60 | 5.0 s |
-| 4a · Titolo argomento `T2` | sì | 23:54.60 | 4.0 s |
-| 4b · Docente + slide `A2` | sì | 23:58.60 | 327.0 s |
-| 4e · Pillola di ripasso (introduzione blu) `PI2` | sì | 29:25.63 | 10.3 s |
-| 4f · Pillola di ripasso (schema guidato bianco) `PS2` | sì | 29:35.93 | 28.0 s |
-| 4g · Scheda Quiz `Q2` | sì | 30:03.97 | 5.0 s |
-| 4a · Titolo argomento `T3` | sì | 30:08.97 | 4.0 s |
-| 4b · Docente + slide `A3` | sì | 30:12.97 | 470.8 s |
-| 4d · Mappa del prof (voce Kore) `MAP1` | sì | 38:03.77 | 25.3 s |
-| 4e · Pillola di ripasso (introduzione blu) `PI3` | sì | 38:29.07 | 11.2 s |
-| 4f · Pillola di ripasso (schema guidato bianco) `PS3` | sì | 38:40.23 | 28.6 s |
-| 4g · Scheda Quiz `Q3` | sì | 39:08.83 | 5.0 s |
-| 4a · Titolo argomento `T4` | sì | 39:13.83 | 4.0 s |
-| 4b · Docente + slide `A4` | sì | 39:17.83 | 506.3 s |
-| 4d · Mappa del prof (voce Kore) `MAP2` | sì | 47:44.17 | 26.7 s |
-| 4e · Pillola di ripasso (introduzione blu) `PI4` | sì | 48:10.87 | 10.1 s |
-| 4f · Pillola di ripasso (schema guidato bianco) `PS4` | sì | 48:21.00 | 40.3 s |
-| 4g · Scheda Quiz `Q4` | sì | 49:01.27 | 5.0 s |
-| 4a · Titolo argomento `T5` | sì | 49:06.27 | 4.0 s |
-| 4b · Docente + slide `A5` | sì | 49:10.27 | 284.4 s |
-| 4d · Mappa del prof (voce Kore) `MAP3` | sì | 53:54.63 | 27.7 s |
-| 4e · Pillola di ripasso (introduzione blu) `PI5` | sì | 54:22.30 | 11.4 s |
-| 4f · Pillola di ripasso (schema guidato bianco) `PS5` | sì | 54:33.70 | 40.7 s |
-| 4g · Scheda Quiz `Q5` | sì | 55:14.37 | 5.0 s |
-| 4a · Titolo argomento `T6` | sì | 55:19.37 | 4.0 s |
-| 4b · Docente + slide `A6` | sì | 55:23.37 | 183.3 s |
-| 4e · Pillola di ripasso (introduzione blu) `PI6` | sì | 58:26.67 | 11.9 s |
-| 4f · Pillola di ripasso (schema guidato bianco) `PS6` | sì | 58:38.57 | 43.2 s |
-| 4g · Scheda Quiz `Q6` | sì | 59:21.80 | 5.0 s |
-| 4a · Titolo argomento `T7` | sì | 59:26.80 | 4.0 s |
-| 4b · Docente + slide `A7` | sì | 59:30.80 | 125.3 s |
-| 4e · Pillola di ripasso (introduzione blu) `PI7` | sì | 61:36.10 | 10.6 s |
-| 4f · Pillola di ripasso (schema guidato bianco) `PS7` | sì | 61:46.70 | 33.1 s |
-| 4g · Scheda Quiz `Q7` | sì | 62:19.83 | 5.0 s |
-| 4a · Titolo argomento `T8` | sì | 62:24.83 | 4.0 s |
-| 4b · Docente + slide `A8` | sì | 62:28.83 | 158.8 s |
-| 4d · Mappa del prof (voce Kore) `MAP4` | sì | 65:07.67 | 29.4 s |
-| 4e · Pillola di ripasso (introduzione blu) `PI8` | sì | 65:37.10 | 11.4 s |
-| 4f · Pillola di ripasso (schema guidato bianco) `PS8` | sì | 65:48.50 | 37.1 s |
-| 4g · Scheda Quiz `Q8` | sì | 66:25.60 | 5.0 s |
-| 5 · Glossario `GL` | sì | 66:30.60 | 29.6 s |
-| 6 · Riepilogo finale `RIEP` | sì | 67:00.23 | 39.7 s |
-| 7 · Finale `FINALE` | sì | 67:39.93 | 5.0 s |
+| 3 · Introduzione del prof (copertina con riquadro) `D0` | sì | 0:45.13 | 234.9 s |
+| 4a · Titolo argomento `T1` | sì | 4:40.03 | 4.0 s |
+| 4b · Docente + slide `A1` | sì | 4:44.03 | 1097.6 s |
+| 4c · Approfondimento animato (voce Kore) `AP1` | sì | 23:01.63 | 61.9 s |
+| 4e · Pillola di ripasso (introduzione blu) `PI1` | sì | 24:03.57 | 12.1 s |
+| 4f · Pillola di ripasso (schema guidato bianco) `PS1` | sì | 24:15.70 | 35.8 s |
+| 4g · Scheda Quiz `Q1` | sì | 24:51.47 | 5.0 s |
+| 4a · Titolo argomento `T2` | sì | 24:56.47 | 4.0 s |
+| 4b · Docente + slide `A2` | sì | 25:00.47 | 327.0 s |
+| 4c · Approfondimento animato (voce Kore) `AP2` | sì | 30:27.47 | 60.3 s |
+| 4e · Pillola di ripasso (introduzione blu) `PI2` | sì | 31:27.80 | 10.3 s |
+| 4f · Pillola di ripasso (schema guidato bianco) `PS2` | sì | 31:38.10 | 28.0 s |
+| 4g · Scheda Quiz `Q2` | sì | 32:06.13 | 5.0 s |
+| 4a · Titolo argomento `T3` | sì | 32:11.13 | 4.0 s |
+| 4b · Docente + slide `A3` | sì | 32:15.13 | 470.9 s |
+| 4c · Approfondimento animato (voce Kore) `AP3` | sì | 40:06.03 | 58.2 s |
+| 4d · Mappa del prof (voce Kore) `MAP1` | sì | 41:04.23 | 25.3 s |
+| 4e · Pillola di ripasso (introduzione blu) `PI3` | sì | 41:29.57 | 11.2 s |
+| 4f · Pillola di ripasso (schema guidato bianco) `PS3` | sì | 41:40.73 | 27.6 s |
+| 4g · Scheda Quiz `Q3` | sì | 42:08.33 | 5.0 s |
+| 4a · Titolo argomento `T4` | sì | 42:13.33 | 4.0 s |
+| 4b · Docente + slide `A4` | sì | 42:17.33 | 294.6 s |
+| 4c · Approfondimento animato (voce Kore) `AP4` | sì | 47:11.93 | 52.9 s |
+| 4d · Mappa del prof (voce Kore) `MAP2` | sì | 48:04.87 | 26.8 s |
+| 4e · Pillola di ripasso (introduzione blu) `PI4` | sì | 48:31.63 | 10.1 s |
+| 4f · Pillola di ripasso (schema guidato bianco) `PS4` | sì | 48:41.77 | 40.3 s |
+| 4g · Scheda Quiz `Q4` | sì | 49:22.03 | 5.0 s |
+| 4a · Titolo argomento `T5` | sì | 49:27.03 | 4.0 s |
+| 4b · Docente + slide `A5` | sì | 49:31.03 | 496.2 s |
+| 4c · Approfondimento animato (voce Kore) `AP5` | sì | 57:47.23 | 48.3 s |
+| 4d · Mappa del prof (voce Kore) `MAP3` | sì | 58:35.53 | 27.9 s |
+| 4e · Pillola di ripasso (introduzione blu) `PI5` | sì | 59:03.43 | 11.4 s |
+| 4f · Pillola di ripasso (schema guidato bianco) `PS5` | sì | 59:14.83 | 40.7 s |
+| 4g · Scheda Quiz `Q5` | sì | 59:55.50 | 5.0 s |
+| 4a · Titolo argomento `T6` | sì | 60:00.50 | 4.0 s |
+| 4b · Docente + slide `A6` | sì | 60:04.50 | 183.2 s |
+| 4c · Approfondimento animato (voce Kore) `AP6` | sì | 63:07.70 | 48.6 s |
+| 4e · Pillola di ripasso (introduzione blu) `PI6` | sì | 63:56.27 | 11.9 s |
+| 4f · Pillola di ripasso (schema guidato bianco) `PS6` | sì | 64:08.17 | 43.2 s |
+| 4g · Scheda Quiz `Q6` | sì | 64:51.40 | 5.0 s |
+| 4a · Titolo argomento `T7` | sì | 64:56.40 | 4.0 s |
+| 4b · Docente + slide `A7` | sì | 65:00.40 | 125.3 s |
+| 4c · Approfondimento animato (voce Kore) `AP7` | sì | 67:05.70 | 52.9 s |
+| 4e · Pillola di ripasso (introduzione blu) `PI7` | sì | 67:58.60 | 10.6 s |
+| 4f · Pillola di ripasso (schema guidato bianco) `PS7` | sì | 68:09.20 | 33.1 s |
+| 4g · Scheda Quiz `Q7` | sì | 68:42.33 | 5.0 s |
+| 4a · Titolo argomento `T8` | sì | 68:47.33 | 4.0 s |
+| 4b · Docente + slide `A8` | sì | 68:51.33 | 158.8 s |
+| 4c · Approfondimento animato (voce Kore) `AP8` | sì | 71:30.17 | 54.2 s |
+| 4d · Mappa del prof (voce Kore) `MAP4` | sì | 72:24.40 | 29.7 s |
+| 4e · Pillola di ripasso (introduzione blu) `PI8` | sì | 72:54.07 | 11.4 s |
+| 4f · Pillola di ripasso (schema guidato bianco) `PS8` | sì | 73:05.47 | 36.1 s |
+| 4g · Scheda Quiz `Q8` | sì | 73:41.57 | 5.0 s |
+| 5 · Glossario `GL` | sì | 73:46.57 | 44.4 s |
+| 6 · Riepilogo finale `RIEP` | sì | 74:30.97 | 39.7 s |
+| 7 · Finale `FINALE` | sì | 75:10.67 | 5.0 s |
 
-4c · Approfondimento animato: **non presente come pezzo nuovo** (le voci vecchie `AN1a` e `AN3a` della consegna precedente non sono state riusate: non ho materiale del prof da animare e non ho inventato contenuti). 4d · Mappa del prof: il prof ha mandato **4 mappe per tutta la lezione** (Iugoslavia, Europa, Italia, globalizzazione), non una per argomento: sono messe dopo gli argomenti 3, 4, 5 e 8; nessuna mappa inventata.
+## 4. Cose che non tornano nel parlato / limiti
+- **Durata (M):** la lezione resta in una sola Parte come nella consegna precedente (decisione dell'8/11 per le lezioni fino a ~65 min), ma dura **più di 65 minuti** (vedi sezione 2): il prof parla 56,5 minuti e approfondimenti, schemi, pillole, quiz e mappe aggiungono ~19 minuti. Se la master vuole 2 Parti servono 5 voci nuove (introduzione, ripasso, glossario e riepilogo della seconda parte) e il taglio naturale è dopo l'argomento 4.
+- **Slide ferme oltre 180 s** (elenco al punto 1): solo l'argomento 1 (due slide da 234 e 254 s: il prof parla a lungo di Russia, oligarchi e Cecenia con poche card). Nel parlato non c'è un altro aggancio e non ho forzato i tempi. L'argomento 5 ha un gruppo di 3 card di 244 s ma con l'immagine del prof a metà (pagina 9) nessuna slide resta ferma oltre i 180 s.
+- Il prof non segue l'ordine delle slide: arg. 4 card 5–7 (Francia e Regno Unito) sono posizionate in momenti arbitrari («sicuramente sbagliate», dai revisori: il prof tratta il Regno Unito prima di Maastricht e non nomina Mitterrand e Chirac); arg. 3 card 9–10 (Kosovo); arg. 5 card 2–3 e 9; arg. 7 card 4 (il Giappone è detto dopo l'India); arg. 8 card 4–5.
+- Le card lunghe sono state spezzate in frammenti per rispettare le 3 card per slide; sono testo identico alla slide del prof.
+- Webcam del prof 184×138 ingrandita 2,2× (morbida); testa vicina al bordo alto già nell'originale (S).
 
-## 2. Confronto con il modello Spagnolo (11 punti) e con la consegna precedente
-**Cosa c'era di diverso nella consegna precedente** (fotogrammi guardati, S): copertina blu scura con «STORIA · QUINTO ANNO» e card in vetro; slide su fondo grigio con testo piccolo e card grigie; riquadro del prof con bordo blu; fascia con testo piccolo su tre righe («STORIA · QUINTO ANNO»); pannello «PAROLE CHIAVE» minuscolo con evidenziatore; mappa fatta da noi con una sola casella; titoli argomento senza chip; fotogramma finale nero.
-
-| # | Punto | Esito |
-|---|---|---|
-| 1 | Sigla Storia 15 s, dissolvenza morbida, avviso copyright negli ultimi 2 s + primi 3 s dopo | corretto |
-| 2 | Copertina bianca: logo, «STORIA V · VIDEOLEZIONE · PARTE 1», titolo con barretta, card ARGOMENTI su 2 colonne | corretto (riquadro del prof solo nell'introduzione parlata, 3 min 52 s) |
-| 3 | Slide su fondo bianco, «01 · NOME ARGOMENTO», card con bordo giallo sulla frase in corso | corretto |
-| 4 | Piè «STORIA V · Prof. Giorgio Mazzotti» e «Pagina N» | corretto (Pagina N = pagina del PDF) |
-| 5 | Riquadro del prof 4:3 (412×308, x 1428 y 148), angoli arrotondati, ombra grigia | corretto |
-| 6 | Fascia gialla inclinata −3°, due righe, sempre visibile | corretto |
-| 7 | Slide senza prof con logo e piè | corretto |
-| 8 | Font: solo Bricolage 800 e Figtree | corretto |
-| 9 | Finale 5 s con avviso diritti + `finale.wav` | corretto |
-| 10 | Struttura obbligatoria | corretto; 4c non presente (vedi sopra) |
-| 11 | PDF slide A4 orizzontale e PDF mappe A4 | consegnati |
-
-## 3. Problemi trovati e correzioni (tabella)
-| Minuto | Tipo | Com'era | Correzione |
-|---|---|---|---|
-| tutta la lezione | visivo | modello grafico diverso da Spagnolo (sezione 2) | rifatta nel modello Spagnolo: copertina, slide, riquadro, fascia, pillole, schemi, glossario, riepilogo |
-| mappe | visivo | mappe fatte da noi | sostituite con le 4 mappe del prof con la nostra grafica e voce nuova |
-| pillole | testo | etichetta e didascalie non nel modello | etichetta «PILLOLA DI STORIA», didascalia = testo della voce, schema bianco guidato |
-| glossario | audio | il testo della voce `GL1` elenca 6 termini, ma l'audio ne ha solo 5 (manca «No-Global») | sulla slide e nei sottotitoli i 5 termini realmente detti; da rigenerare la voce se si vuole il sesto (lato master) |
-| titoli lunghi | visivo | titoli lunghi vicini al pulsante play | `tfs` ridotto per i titoli lunghi (regola del kit) |
-| sottotitoli | testo | riconoscimento automatico con molti errori | rifatti da capo dal parlato, corretti a blocchi e controllati a campione |
-
-## 4. Immagini/fonti mostrate dal prof (M, tempi)
-| Immagine | Quando | Come |
-|---|---|---|
-| p. 3 · Immagine dell'argomento 1 (Russia, Cecenia) | 18:54.12 → 19:10.11 | slide del prof mostrata a tempo con la sua voce (lo stesso istante in cui il prof la mostra nel suo video) |
-| p. 7 · Immagine dell'argomento 3 (ex Iugoslavia) | 35:51.37 → 37:45.36 | slide del prof mostrata a tempo con la sua voce (lo stesso istante in cui il prof la mostra nel suo video) |
-| p. 9 · Immagine dell'argomento 4 (Europa) | 44:54.43 → 47:41.42 | slide del prof mostrata a tempo con la sua voce (lo stesso istante in cui il prof la mostra nel suo video) |
-| p. 11 · Immagine dell'argomento 5 (Italia) | 52:53.53 → 53:54.52 | slide del prof mostrata a tempo con la sua voce (lo stesso istante in cui il prof la mostra nel suo video) |
-
-## 5. Cosa NON ho verificato (NV)
-- **Non ho riascoltato a orecchio** le voci né tutto l'audio del prof; nessun controllo automatico delle 53 voci nuove contro il testo (fatto sulla lezione 9, qui NON eseguito). **Da ascoltare, lato master.**
-- Fruscio, ronzio e «metallico» del prof: misurati solo livello e picco. NV.
-- Sincronia labbra ≤ 0,04 s: non misurata (audio e video dallo stesso file con lo stesso offset, S).
-- Evidenziazione delle card: calcolata dal parlato in automatico; **non controllata a mano punto per punto**. NV.
-- PDF slide = video: pagine uguali per costruzione (S); confronto pagina per pagina non fatto (NV).
-- Sottotitoli corretti da 4 revisori automatici e non riletti da me per intero; tempi ±0,3 s non misurati. NV.
-- Quiz di argomento: riusati quelli della consegna precedente (da approvare dalla master). Non riscritti.
-- Il confronto con la consegna precedente è fatto su 7 fotogrammi.
-- Limiti noti: webcam del prof 184×138 ingrandita 2,2× (morbida); testa vicina al bordo alto già nell'originale (S).
-
-## 6. Come ho verificato
-Trascrizione del prof con `trascrivi.py` (502 frasi, M); piano dei pezzi contiguo con controllo fotogrammi = somma dei pezzi (M); ffmpeg/ffprobe (ebur128, silencedetect, freezedetect); `controllo_jingle.py` sui quiz (M); fotogrammi guardati a campione (foglio, S); `foglio.png` con una scheda blu di ogni tipo e le didascalie delle pillole.
-
-## DA CONFERMARE COL PROF
-Punti del parlato dove la trascrizione era poco chiara o il fatto è dubbio (tempo nel video):
-
-| Dove | Frase (corretta dal revisore) | Dubbio |
-|---|---|---|
-| Parte 1 · 9:50.98 | «Michail Gorbaciov.…» | Gorbaciov era presidente dell'URSS, non della Russia: il contesto sembra confuso |
-| Parte 1 · 10:15.59 | «da Russia indipendente, l'unico nella storia russa a essere, fino a questo momento, intendo, el…» | Eltsin non fu il primo né l'unico eletto in senso assoluto? Affermazione da verificare |
-| Parte 1 · 15:17.41 | «nel 1993 vi è la costituzione della Repubblica russa, giusto per la cronaca. Nel 1994 una costi…» | Costituzione datata 1993 e 1994 nel parlato: possibile errore (la costituzione è del 1993) |
-| Parte 1 · 21:31.56 | «mettendo insieme veramente, un po' come Adolf Hitler, le questioni della questione semitica,…» | Paragone con Hitler e questione semitica poco chiaro nell'audio |
-| Parte 1 · 24:22.70 | «arrivato dopo Reagan, di cui era vicepresidente, dall'88…» | Bush presidente dal 1989, non dall'88 (data come detta) |
-| Parte 1 · 24:26.31 | «al '92, poi perde le elezioni. In realtà è proprio il presidente con il quale l'Unione Sovietic…» | Bush in carica 1989-1993, non '88-'92 (come detto) |
-| Parte 1 · 24:40.81 | «anche per la gestione della guerra del Golfo, poi ci torniamo. E poi il suo successore, di nuov…» | Mandati di Clinton 1993-2001, non '92-'99 (come detto) |
-| Parte 1 · 28:09.26 | «'92, '99, 2000, però poi quando c'è, diciamo così, la consegna del mandato è sempre il gennaio …» | '92, '99, 2000: date incoerenti col 1993-2001 (come dette) |
-| Parte 1 · 29:08.36 | «Però, ecco qua, appunto, il quadro...…» | parola 'quadro' incerta (trascritto 'Quate') |
-| Parte 1 · 33:16.10 | «Sono bosniaci musulmani, si erano convertiti all'islam quando quella regione apparteneva all'im…» | centinaia di migliaia di vittime: cifra esagerata |
-| Parte 1 · 33:59.04 | «Un villaggio intero, centinaia di migliaia di persone, civili, vengono completamente massacrati…» | centinaia di migliaia di persone: cifra non verosimile (Srebrenica circa 8000) |
-| Parte 1 · 35:29.06 | «E successivamente si arriva agli accordi di pace di Dayton del 1995, che in teoria hanno defini…» | Dayton non creò il Kosovo; Montenegro e Kosovo indipendenti molto dopo |
-| Parte 1 · 35:53.86 | «Alla fine di tutto poi Milosevic verrà anche preso, arrestato e tradotto davanti alla Corte Pen…» | Milosevic fu giudicato dal Tribunale penale internazionale per la ex Iugoslavia, non dalla Corte Penale Internazionale |
-| Parte 1 · 36:26.98 | «Bosnia ed Erzegovina cominciano a staccarsi nel 1995. La Serbia non consente questa secessione.…» | Bosnia inizia a staccarsi nel 1992, non 1995 |
-| Parte 1 · 43:37.80 | «Anche se molti Stati passati poi all'estrema destra, come l'Ungheria per decenni, adesso è il p…» | frase poco chiara su Ungheria e presidente ex primo ministro |
-| Parte 1 · 45:06.67 | «però poi soprattutto nel 1957, con l'Europa dei 6 e gli accordi della CECA.…» | CECA 1951 / Roma 1957: 'cieca' interpretato come CECA |
-| Parte 1 · 49:29.38 | «Con il maggioritario, con il sistema non più, come dire, proporzionale ma maggioritario, appunt…» | Nel 1994 il sistema (Mattarellum) non prevedeva un premio di maggioranza |
-| Parte 1 · 51:04.42 | «ex fascista va al potere. È la prima volta che il centrodestra, esplicitamente almeno dalla sec…» | Il primo governo Berlusconi durò circa sette mesi |
-| Parte 1 · 51:16.70 | «Poi tornerà al potere di nuovo Berlusconi nel 2001, sempre vincendo le elezioni. Poi ancora nel…» | Berlusconi tornò al governo nel 2008, non nel 2011 (poi lo dice) |
-| Parte 1 · 52:20.77 | «e altri governi, come quello Dini, le sfide del debito pubblico, perché devono entrare nei para…» | L'Italia entrò nell'euro nel 1999 (monete nel 2002), non entro il 2001 |
-| Parte 1 · 53:41.60 | «Del governo Prodi, perché anche con Prodi, e poi successivamente, i primi due ex comunisti, rin…» | Rutelli non era un ex comunista |
-| Parte 1 · 57:27.59 | «In realtà, come dire, il figlio rinnegato di una ricchissima famiglia petrolifera, però si fond…» | La famiglia bin Laden era edile, non petrolifera |
-| Parte 1 · 60:18.89 | «Corea del Nord, immensamente arretrata e in mano al regime. Taiwan.…» | La Corea del Nord non è una Tigre asiatica |
-| Parte 1 · 60:31.33 | «Anche l'India, se per questo, ha registrato un forte boom economico, trainato dallo sviluppo de…» | Frase finale poco chiara |
-| Parte 1 · 64:19.49 | «Il Giappone glissa, la Russia non si sta ingolfando, però piano piano si riprenderà, ma solo ne…» | 'glissa' e 'ingolfando' incerti |
+## 5. DA CONFERMARE COL PROF / cosa NON ho verificato (NV)
+- Gli **approfondimenti** (fatti presi dal parlato dai revisori automatici) vanno riletti dal prof o dalla master. I 8 testi degli approfondimenti sono stati scritti da un revisore automatico a partire dal parlato del prof: da riverificare (NV). Dubbi segnalati dal revisore: guerra in Bosnia datata 1992–1995 dal prof (la slide dice 1991–1995), Dayton 1995 detto dal prof fuori ordine, «ottobre 1990» per la riunificazione tedesca, Maastricht «febbraio 1992», «Partito Socialista scompare» (il prof dice poi «rinascerà»), Bush e Clinton confusi nel parlato.
+- Voci: tutte Kore (ramo `voci-storia-V-lez20`). Controllo automatico trascrizione/testo sulle 9 voci nuove (88–98% delle parole; la voce «Maastricht» nel glossario è riconosciuta come «Más stricte»: da riascoltare); non le ho riascoltate a orecchio (NV).
+- Sottotitoli: parlato del prof corretto a blocchi da revisori automatici (consegna precedente), non riletti per intero; tempi ±0,3 s non misurati (NV). Le voci Kore sono nei sottotitoli.
+- PDF slide: stesse immagini del video (S); confronto pagina per pagina con i fotogrammi non fatto (NV). Quiz di argomento riusati (da approvare dalla master).

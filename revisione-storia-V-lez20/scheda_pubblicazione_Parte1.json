@@ -1,55 +1,55 @@
 {
  "materia": "Storia V",
  "titolo": "Storia V · Lezione 20 · Gli anni Novanta, il mondo post-bipolare · Parte 1",
- "durata_s": 4064.933,
+ "durata_s": 4515.667,
  "argomenti": [
   {
    "n": 1,
    "titolo": "Il crollo dell'URSS",
-   "inizio_s": 277.1,
-   "quiz_s": 1429.6
+   "inizio_s": 280.033,
+   "quiz_s": 1491.467
   },
   {
    "n": 2,
    "titolo": "L'egemonia degli Stati Uniti",
-   "inizio_s": 1434.6,
-   "quiz_s": 1803.967
+   "inizio_s": 1496.467,
+   "quiz_s": 1926.133
   },
   {
    "n": 3,
    "titolo": "Le guerre nella ex Iugoslavia",
-   "inizio_s": 1808.967,
-   "quiz_s": 2348.833
+   "inizio_s": 1931.133,
+   "quiz_s": 2528.333
   },
   {
    "n": 4,
    "titolo": "L'Europa negli anni Novanta",
-   "inizio_s": 2353.833,
-   "quiz_s": 2941.267
+   "inizio_s": 2533.333,
+   "quiz_s": 2962.033
   },
   {
    "n": 5,
    "titolo": "L'Italia nella Seconda Repubblica",
-   "inizio_s": 2946.267,
-   "quiz_s": 3314.367
+   "inizio_s": 2967.033,
+   "quiz_s": 3595.5
   },
   {
    "n": 6,
    "titolo": "Medio Oriente, Africa e America Latina",
-   "inizio_s": 3319.367,
-   "quiz_s": 3561.8
+   "inizio_s": 3600.5,
+   "quiz_s": 3891.4
   },
   {
    "n": 7,
    "titolo": "I nuovi protagonisti in Asia",
-   "inizio_s": 3566.8,
-   "quiz_s": 3739.833
+   "inizio_s": 3896.4,
+   "quiz_s": 4122.333
   },
   {
    "n": 8,
    "titolo": "La globalizzazione",
-   "inizio_s": 3744.833,
-   "quiz_s": 3985.6
+   "inizio_s": 4127.333,
+   "quiz_s": 4421.567
   }
  ],
  "quiz": {
