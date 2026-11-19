@@ -1,0 +1,564 @@
+{
+ "tag": "moda-laboratori-III-IV-lez04",
+ "parti": {
+  "1": {
+   "titolo": "Laboratori tecnologici ed esercitazione · Lezione 4 · Pantalone · Parte 1",
+   "stato": "IN_MONTAGGIO",
+   "voci": "segnaposto",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "si",
+   "video": "Laboratori_Lez4_Parte1_1080p.mp4",
+   "durata_s": 3447.0,
+   "durata": "57:27.0",
+   "fotogrammi": 103410,
+   "fotogrammi_attesi": 103410,
+   "peso_MB": 279.8,
+   "vtt": "Laboratori_Lez4_Parte1.vtt",
+   "scheda": {
+    "materia": "Laboratori tecnologici ed esercitazione",
+    "titolo": "Laboratori tecnologici ed esercitazione · Lezione 4 · Pantalone · Parte 1",
+    "file": "Laboratori_Lez4_Parte1_1080p.mp4",
+    "durata_s": 3447.0,
+    "argomenti": [
+     {
+      "n": 1,
+      "titolo": "Il pantalone: lunghezze e pantalone base",
+      "inizio_s": 44.0,
+      "quiz_s": 1065.0
+     },
+     {
+      "n": 2,
+      "titolo": "Pantalone con pinces e zampa d'elefante",
+      "inizio_s": 1070.0,
+      "quiz_s": 1606.567
+     },
+     {
+      "n": 3,
+      "titolo": "Pantaloni palazzo e jeans",
+      "inizio_s": 1611.567,
+      "quiz_s": 2460.5
+     },
+     {
+      "n": 4,
+      "titolo": "Tasca a imbuto e odalisca",
+      "inizio_s": 2465.5,
+      "quiz_s": 3304.033
+     }
+    ],
+    "quiz": {
+     "Q1": {
+      "title": "Quiz 1 · Il pantalone: lunghezze e pantalone base",
+      "items": [
+       {
+        "p": "Su quale statura di riferimento si basa il sistema dell'unità antropometrica (UA) per classificare le lunghezze del pantalone?",
+        "a": "Circa 168 cm",
+        "w": [
+         "Circa 160 cm",
+         "Circa 172 cm",
+         "Circa 175 cm"
+        ],
+        "ref": "Le lunghezze vengono classificate con l'unità antropometrica (UA), che rapporta le misure a una statura standard di circa 168 cm."
+       },
+       {
+        "p": "Quale formula corrisponde al pantalone pinocchietto?",
+        "a": "UA x 3,5",
+        "w": [
+         "UA x 3 + 5 cm",
+         "UA x 5 - 5 cm",
+         "UA x 3 - 8 cm"
+        ],
+        "ref": "Nell'elenco delle lunghezze i pinocchietto sono identificati dal valore UA x 3,5; i capri sono UA x 3 + 5 cm, i bermuda UA x 3 - 8 cm, alla caviglia UA x 5 - 5 cm."
+       },
+       {
+        "p": "Quanto misura la lunghezza totale del pantalone base a terra (taglia 42, statura 168 cm)?",
+        "a": "105 cm",
+        "w": [
+         "100 cm",
+         "84 cm",
+         "73,5 cm"
+        ],
+        "ref": "L'UA per questa statura corrisponde a 21 cm e, moltiplicata per cinque, dà la misura standard di 105 cm."
+       },
+       {
+        "p": "Quanto deve essere alto il rettangolo della cintura che, ripiegato su se stesso, rinforza il giro vita?",
+        "a": "6 cm",
+        "w": [
+         "3 cm",
+         "4,5 cm",
+         "9 cm"
+        ],
+        "ref": "La cintura viene predisposta come un rettangolo alto 6 cm che, ripiegato su se stesso, funge da rinforzo per il giro vita (altezza finita 3 cm)."
+       },
+       {
+        "p": "Che cosa si fa nella vestibilità +4°?",
+        "a": "Si aggiungono 2 mm per ogni decima parte, per 4 cm in totale",
+        "w": [
+         "Si aggiunge 1 mm per ogni decima parte, per 2 cm in totale",
+         "Si aggiungono 5 mm per ogni decima parte, per 5 cm in totale",
+         "Si aggiunge 1 cm per ogni decima parte, per 10 cm in totale"
+        ],
+        "ref": "Davanti e dietro si dividono in dieci parti uguali all'altezza dell'inforcatura: la vestibilità +4° aggiunge 2 mm per ogni parte, per un incremento totale di 4 cm."
+       }
+      ]
+     },
+     "Q2": {
+      "title": "Quiz 2 · Pantalone con pinces e zampa d'elefante",
+      "items": [
+       {
+        "p": "Di quanto si ruota la parte superiore del cartamodello per creare lo spazio della pince?",
+        "a": "4 cm in senso orario",
+        "w": [
+         "2 cm in senso orario",
+         "6 cm in senso orario",
+         "4,5 cm in senso antiorario"
+        ],
+        "ref": "Si effettua una rotazione della parte superiore di 4 cm in senso orario, mantenendo il perno sul fondo del pantalone."
+       },
+       {
+        "p": "Quanto risulta ampia la pince finale?",
+        "a": "6 cm",
+        "w": [
+         "4 cm",
+         "2 cm",
+         "8 cm"
+        ],
+        "ref": "L'ampiezza della pince finale risulta di 6 cm, valore ottenuto sommando i 4 cm della rotazione ai 2 cm originari della ripresa."
+       },
+       {
+        "p": "Di quanto si allarga il fondo gamba nel pantalone con pinces?",
+        "a": "2 cm su ogni lato (fianco e interno gamba)",
+        "w": [
+         "1 cm su ogni lato",
+         "4,5 cm su ogni lato",
+         "1,5 cm su ogni lato"
+        ],
+        "ref": "Si aumenta l'ampiezza del fondo gamba spostando di 2 cm verso l'esterno i punti dell'interno e dell'esterno gamba; sul dietro si allarga di 2 cm per lato."
+       },
+       {
+        "p": "Di quanto si ruota il cartamodello verso l'esterno per ottenere la zampa d'elefante?",
+        "a": "4,5 cm",
+        "w": [
+         "4 cm",
+         "2 cm",
+         "6 cm"
+        ],
+        "ref": "Si taglia lungo il diritto filo e, facendo perno sul centro del ginocchio, si ruota verso l'esterno di 4,5 cm (valore che può variare con la moda)."
+       },
+       {
+        "p": "Come si agisce sulla larghezza al ginocchio nella zampa d'elefante?",
+        "a": "Si rientra di 1 cm sia sul fianco sia sull'interno gamba",
+        "w": [
+         "Si allarga di 1 cm per lato",
+         "Si rientra di 4,5 cm per lato",
+         "Si lascia invariata"
+        ],
+        "ref": "Sulla larghezza al ginocchio si rientra di 1 cm sia sul lato del fianco sia su quello dell'interno gamba, per accentuare il contrasto con il fondo."
+       }
+      ]
+     },
+     "Q3": {
+      "title": "Quiz 3 · Pantaloni palazzo e jeans",
+      "items": [
+       {
+        "p": "Quali finiture ha il girovita dei pantaloni palazzo?",
+        "a": "Paramontura interna e cinque passanti",
+        "w": [
+         "Fascioncino esterno e tre passanti",
+         "Elastico e quattro passanti",
+         "Solo cintura applicata senza passanti"
+        ],
+        "ref": "I pantaloni palazzo hanno un girovita rifinito con una paramontura interna e cinque passanti."
+       },
+       {
+        "p": "Nei pantaloni palazzo, a quale distanza dalla vita si trova il punto di rotazione C sul davanti?",
+        "a": "UA - 11 cm",
+        "w": [
+         "UA - 9 cm",
+         "UA - 5 cm",
+         "UA - 13 cm"
+        ],
+        "ref": "Sul davanti si ruota in senso antiorario facendo perno sul punto C, a UA - 11 cm dalla vita; sul dietro il punto C è a UA - 9 cm."
+       },
+       {
+        "p": "Come si predispongono i passanti dei pantaloni palazzo?",
+        "a": "Con un rettangolo di 1 cm per 30 cm",
+        "w": [
+         "Con un rettangolo di 2 cm per 30 cm",
+         "Con un rettangolo di 1 cm per 50 cm",
+         "Con un rettangolo di 3 cm per 20 cm"
+        ],
+        "ref": "Per i passanti si predispone un rettangolo di 1 cm di larghezza per 30 cm di lunghezza."
+       },
+       {
+        "p": "Quante tasche in tutto presentano i pantaloni jeans?",
+        "a": "Cinque",
+        "w": [
+         "Tre",
+         "Quattro",
+         "Sei"
+        ],
+        "ref": "I pantaloni jeans hanno cinque tasche in totale, una linea a tubo aderente e la cerniera al centro davanti."
+       },
+       {
+        "p": "Come si definisce la curva dello sprone (baschina) sul dietro dei jeans?",
+        "a": "Si scende di 11 cm sulla linea del cavallo e di 7 cm sulla linea del fianco",
+        "w": [
+         "Si scende di 7 cm sul cavallo e di 11 cm sul fianco",
+         "Si scende di 9 cm sia sul cavallo sia sul fianco",
+         "Si scende di 13,5 cm sul cavallo e di 10 cm sul fianco"
+        ],
+        "ref": "Si scende di 11 cm sulla linea del cavallo e di 7 cm sulla linea del fianco per definire la curva dello sprone, dove viene assorbita la ripresa originaria."
+       }
+      ]
+     },
+     "Q4": {
+      "title": "Quiz 4 · Tasca a imbuto e odalisca",
+      "items": [
+       {
+        "p": "Quali caratteristiche distinguono i pantaloni con tasca a imbuto?",
+        "a": "Linea a sigaretta e maxi tasche visibili davanti e dietro",
+        "w": [
+         "Linea a tubo aderente e cinque tasche",
+         "Linea ampia con elastico in vita e cavigliera",
+         "Pieghe che degradano fino al fondo della gamba"
+        ],
+        "ref": "Questi pantaloni si distinguono per una linea a sigaretta e per l'applicazione di maxi tasche visibili sia sul davanti sia sul dietro."
+       },
+       {
+        "p": "Di quanto si rientra sulla linea della vita per delineare l'apertura della tasca a imbuto?",
+        "a": "9 cm",
+        "w": [
+         "7 cm",
+         "5,5 cm",
+         "4 cm"
+        ],
+        "ref": "Per delineare l'apertura della tasca si rientra di 9 cm sulla linea della vita e si congiungono i punti per formare il taglio obliquo."
+       },
+       {
+        "p": "Con che cosa sono regolabili i cinturini laterali del pantalone con tasca a imbuto?",
+        "a": "Con il velcro",
+        "w": [
+         "Con bottoni a pressione",
+         "Con un elastico",
+         "Con dei ganci metallici"
+        ],
+        "ref": "I cinturini laterali sono inseriti nel taglio della tasca e sono regolabili con velcro."
+       },
+       {
+        "p": "Che tipo di tessuto richiedono i pantaloni da odalisca?",
+        "a": "Tessuti morbidi con buona caduta, anche trasparenti o semitrasparenti",
+        "w": [
+         "Tessuti rigidi e strutturati come il denim",
+         "Tessuti pesanti e impermeabili",
+         "Tessuti compatti e poco scivolosi"
+        ],
+        "ref": "Il design fluido e i volumi ampi richiedono tessuti dotati di una buona caduta, preferibilmente morbidi e talvolta trasparenti o semitrasparenti."
+       },
+       {
+        "p": "Quali dimensioni ha il drappo laterale dei pantaloni da odalisca?",
+        "a": "Triangolo con base superiore di 140 cm e altezza di circa 70 cm",
+        "w": [
+         "Triangolo con base di 70 cm e altezza di 140 cm",
+         "Rettangolo di 140 cm per 30 cm",
+         "Triangolo con base di 100 cm e altezza di 70 cm"
+        ],
+        "ref": "Il drappo viene costruito come un triangolo con una base superiore di 140 cm e un'altezza di circa 70 cm, in diritto filo o in sbieco."
+       }
+      ]
+     }
+    }
+   },
+   "timeline": [
+    [
+     "T1",
+     44.0,
+     4.0
+    ],
+    [
+     "Q1",
+     1065.0,
+     5.0
+    ],
+    [
+     "T2",
+     1070.0,
+     4.0
+    ],
+    [
+     "T3",
+     1611.567,
+     4.0
+    ],
+    [
+     "T4",
+     2465.5,
+     4.0
+    ],
+    [
+     "GLO",
+     3309.033,
+     75.667
+    ],
+    [
+     "FIN",
+     3442.0,
+     5.0
+    ]
+   ]
+  },
+  "2": {
+   "titolo": "Laboratori tecnologici ed esercitazione · Lezione 4 · Pantalone · Parte 2",
+   "stato": "IN_MONTAGGIO",
+   "voci": "segnaposto",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "si",
+   "video": "Laboratori_Lez4_Parte2_1080p.mp4",
+   "durata_s": 3350.7,
+   "durata": "55:50.7",
+   "fotogrammi": 100521,
+   "fotogrammi_attesi": 100521,
+   "peso_MB": 245.2,
+   "vtt": "Laboratori_Lez4_Parte2.vtt",
+   "scheda": {
+    "materia": "Laboratori tecnologici ed esercitazione",
+    "titolo": "Laboratori tecnologici ed esercitazione · Lezione 4 · Pantalone · Parte 2",
+    "file": "Laboratori_Lez4_Parte2_1080p.mp4",
+    "durata_s": 3350.7,
+    "argomenti": [
+     {
+      "n": 5,
+      "titolo": "Pantaloni alla turca e pinocchietto",
+      "inizio_s": 131.467,
+      "quiz_s": 978.3
+     },
+     {
+      "n": 6,
+      "titolo": "Pantaloni alla Capri e bermuda",
+      "inizio_s": 983.3,
+      "quiz_s": 1686.7
+     },
+     {
+      "n": 7,
+      "titolo": "Balze, pantaloncini corti e con pannello",
+      "inizio_s": 1691.7,
+      "quiz_s": 3202.067
+     }
+    ],
+    "quiz": {
+     "Q5": {
+      "title": "Quiz 5 · Pantaloni alla turca e pinocchietto",
+      "items": [
+       {
+        "p": "Dove è posizionata l'inforcatura dei pantaloni alla turca?",
+        "a": "All'altezza del ginocchio",
+        "w": [
+         "All'altezza della vita",
+         "All'altezza della caviglia",
+         "Subito sotto il bacino"
+        ],
+        "ref": "I pantaloni alla turca hanno una linea molto ampia e un'inforcatura posizionata all'altezza del ginocchio."
+       },
+       {
+        "p": "Quante pieghe presentano i pantaloni alla turca?",
+        "a": "Quattro a destra e quattro a sinistra del punto vita",
+        "w": [
+         "Due a destra e due a sinistra",
+         "Tre a destra e tre a sinistra",
+         "Sei a destra e sei a sinistra"
+        ],
+        "ref": "Il capo presenta quattro pieghe a destra e quattro a sinistra del punto vita, che degradano fino ad annullarsi sul fondo della gamba."
+       },
+       {
+        "p": "In quante parti uguali si dividono la linea della vita e la larghezza della caviglia nel cartamodello alla turca?",
+        "a": "Vita in 5 parti e caviglia in 3 parti",
+        "w": [
+         "Vita in 3 parti e caviglia in 5 parti",
+         "Vita in 4 parti e caviglia in 4 parti",
+         "Vita in 8 parti e caviglia in 3 parti"
+        ],
+        "ref": "Si suddivide la linea della vita in 5 parti uguali e la larghezza della caviglia in 3 parti uguali."
+       },
+       {
+        "p": "Quanto misura la lunghezza totale del pantalone pinocchietto (taglia 42, statura 168 cm)?",
+        "a": "73,5 cm, cioè UA x 3,5",
+        "w": [
+         "63 cm, cioè UA x 3",
+         "55 cm, cioè UA x 3 - 8 cm",
+         "100 cm, cioè UA x 5 - 5 cm"
+        ],
+        "ref": "La lunghezza si attesta alla metà del polpaccio: l'UA di 21 cm moltiplicata per 3,5 dà 73,5 cm."
+       },
+       {
+        "p": "Di quanto si scende dal livello del ginocchio per definire la lunghezza del pinocchietto?",
+        "a": "13,5 cm",
+        "w": [
+         "5 cm",
+         "9 cm",
+         "1,5 cm"
+        ],
+        "ref": "Si individua l'intersezione tra il diritto filo e il livello del ginocchio e da qui si scende verticalmente di 13,5 cm."
+       }
+      ]
+     },
+     "Q6": {
+      "title": "Quiz 6 · Pantaloni alla Capri e bermuda",
+      "items": [
+       {
+        "p": "Come si presenta il modello alla Capri?",
+        "a": "Con linea affusolata e lunghezza appena sotto il ginocchio",
+        "w": [
+         "Con linea ampia e lunghezza sopra il ginocchio",
+         "Con linea a zampa e lunghezza a terra",
+         "Con maxi tasche e cinturini laterali"
+        ],
+        "ref": "Il modello alla Capri si distingue per una linea affusolata e una lunghezza che termina appena sotto il ginocchio."
+       },
+       {
+        "p": "Di quanto si scende dall'intersezione tra diritto filo e livello del ginocchio per la lunghezza dei Capri?",
+        "a": "5 cm",
+        "w": [
+         "13,5 cm",
+         "2 cm",
+         "9 cm"
+        ],
+        "ref": "Si individua il punto di intersezione tra il diritto filo e il livello del ginocchio e da lì si scende verticalmente di 5 cm."
+       },
+       {
+        "p": "Di quanto si rientra sui profili laterali per la larghezza del fondo gamba dei Capri?",
+        "a": "1,5 cm",
+        "w": [
+         "2 cm",
+         "4,5 cm",
+         "1 cm"
+        ],
+        "ref": "La larghezza fondo gamba si determina rientrando di 1,5 cm rispetto ai profili laterali originari, sia sul fianco sia sull'interno gamba."
+       },
+       {
+        "p": "Quale formula e quale misura corrispondono ai bermuda sopra al ginocchio?",
+        "a": "UA x 3 - 8 cm, pari a 55 cm",
+        "w": [
+         "UA x 3 + 5 cm, pari a 68 cm",
+         "UA x 2 + 6 cm, pari a 48 cm",
+         "UA x 3,5, pari a 73,5 cm"
+        ],
+        "ref": "La lunghezza totale del bermuda sopra al ginocchio è di 55 cm, calcolata con la formula UA x 3 - 8 cm."
+       },
+       {
+        "p": "Quale tasca presenta il bermuda sopra al ginocchio?",
+        "a": "La tasca alla francese con interno in fodera",
+        "w": [
+         "La tasca a toppa rotonda",
+         "La tasca a imbuto",
+         "La tasca a punta"
+        ],
+        "ref": "Tra le caratteristiche del modello: davanti con due pinces e apertura centrale con cerniera, tasca alla francese con interno in fodera, fascioncino con 4 passanti."
+       }
+      ]
+     },
+     "Q7": {
+      "title": "Quiz 7 · Balze, pantaloncini corti e con pannello",
+      "items": [
+       {
+        "p": "Quale formula dà la lunghezza dei bermuda con balze?",
+        "a": "UA x 2 + 6 cm, pari a 48 cm",
+        "w": [
+         "UA x 3 - 8 cm, pari a 55 cm",
+         "UA x 1,2 + 4 cm, pari a 29,2 cm",
+         "UA x 3 + 5 cm, pari a 68 cm"
+        ],
+        "ref": "La lunghezza totale sopra al ginocchio si calcola con la formula UA x 2 + 6 cm, risultando in una misura finita di 48 cm."
+       },
+       {
+        "p": "Quanto è alta, circa, la prima frappa dei bermuda con balze?",
+        "a": "17 cm",
+        "w": [
+         "16 cm",
+         "12 cm",
+         "20 cm"
+        ],
+        "ref": "La prima frappa è un rettangolo alto circa 17 cm che si innesta sotto la baschina; la seconda frappa è alta 16 cm."
+       },
+       {
+        "p": "Quanto tessuto serve in più per ottenere l'arricciatura della balza?",
+        "a": "Si aggiunge almeno la metà dello spazio misurato",
+        "w": [
+         "Si aggiunge almeno un quarto dello spazio",
+         "Non si aggiunge nulla",
+         "Si aggiunge sempre il triplo dello spazio"
+        ],
+        "ref": "Si misura lo spazio su cui andrà posta la balza e si aggiunge almeno la metà di tale valore; secondo l'effetto stilistico si può arrivare al doppio o oltre."
+       },
+       {
+        "p": "Quale formula dà la lunghezza dei pantaloncini corti (shorts)?",
+        "a": "UA x 1,2 + 4 cm, pari a 29,2 cm",
+        "w": [
+         "UA x 3 - 8 cm, pari a 55 cm",
+         "UA x 2 + 6 cm, pari a 48 cm",
+         "UA x 3,5, pari a 73,5 cm"
+        ],
+        "ref": "La lunghezza totale degli shorts è di 29,2 cm, calcolata con la formula UA x 1,2 + 4 cm."
+       },
+       {
+        "p": "Quale ampiezza di sovrapposizione ha il pannello a portafoglio dei pantaloncini?",
+        "a": "12 cm",
+        "w": [
+         "3 cm",
+         "5 cm",
+         "10 cm"
+        ],
+        "ref": "Il pannello a portafoglio si genera piegando la sagoma su se stessa e riportando a specchio la linea della vita, con un'ampiezza di sovrapposizione di 12 cm."
+       }
+      ]
+     }
+    }
+   },
+   "timeline": [
+    [
+     "T5",
+     131.467,
+     4.0
+    ],
+    [
+     "T6",
+     983.3,
+     4.0
+    ],
+    [
+     "T7",
+     1691.7,
+     4.0
+    ],
+    [
+     "GLO",
+     3207.067,
+     62.4
+    ],
+    [
+     "FIN",
+     3345.7,
+     5.0
+    ]
+   ]
+  }
+ },
+ "manca": "96 voci nuove (28.935 caratteri, testi_voci.json): ora segnaposto muti (circa 14 min nella Parte 1 e 19 min nella Parte 2)",
+ "serve_master": [
+  {
+   "quando": "19/11 12:59",
+   "testo": "Generare le 96 voci Kore da testi_voci.json e consegnarle: poi rifaccio plan, build, sottotitoli"
+  }
+ ],
+ "domande_sara": [],
+ "note": [
+  {
+   "quando": "19/11 12:59",
+   "testo": "Parte 1 = 57,5 min con segnaposto; tolte 3 costruzioni (pinces, jeans, odalisca) per stare sotto 60. Capri: a voce 'UA per 3 piu 5 cm' (68 cm), nel PDF 'lunghezza totale 63 cm, UA per tre'. Impuntura 'a riva' corretta nei sottotitoli. Consegna su GitHub: vedi esito upload"
+  }
+ ],
+ "materia": "Laboratori tecnologici ed esercitazione",
+ "lezione": "Lezione 4 · Pantalone",
+ "docente": "Prof.ssa Piera Caputi",
+ "aggiornato": "2026-11-19 12:59:31"
+}
