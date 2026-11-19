@@ -433,5 +433,45 @@
   "nome": "FIN1",
   "testo": "Per oggi è tutto. Nella seconda parte vedremo le elezioni e la nomina di Hitler, lo Stato totalitario, il controllo della società e la politica razzista e antisemita. Ti aspetto.",
   "lingua": "it"
+ },
+ {
+  "nome": "AP1",
+  "testo": "Come si riprende la Germania negli anni Venti? Dopo anni di instabilità, nel millenovecentoventiquattro il piano Dawes porta i dollari americani. Nel millenovecentoventicinque, con gli accordi di Locarno, la Germania accetta i confini occidentali e rinuncia alla guerra per risolvere le controversie. Nel millenovecentoventisei entra nella Società delle Nazioni, e torna a essere uno Stato sovrano e libero. Nel millenovecentoventotto firma anche il patto Briand-Kellogg. Tra il millenovecentoventicinque e il millenovecentoventinove la produzione industriale cresce del quarantasei per cento e la ricchezza di ogni tedesco del dodici per cento. La disoccupazione cala, perché le fabbriche assumono. Il piano Young poi divide in rate i debiti di guerra. Resta però un equilibrio fragile, perché dipende dai prestiti stranieri.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AP2",
+  "testo": "Perché il crollo di Wall Street travolge la Germania? Perché la ripresa dipende dai prestiti americani. Nel millenovecentoventinove le banche americane ritirano i capitali, e l'economia tedesca crolla per effetto domino. Falliscono grandi banche. Le fabbriche, senza più credito, bloccano la produzione e licenziano. Gli stipendi scendono del quaranta per cento, mentre i prezzi salgono. Il ricordo dell'iperinflazione, con banconote da diecimila miliardi di marchi, rende tutto più drammatico. L'angoscia spinge molti elettori verso i partiti estremi. I comunisti accusano il capitalismo. I nazionalsocialisti lo accusano di essere americano, quindi straniero, e promettono una soluzione tutta tedesca, diversa anche dal comunismo russo. Così il malcontento economico diventa consenso politico.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AP3",
+  "testo": "Su quali idee nasce il partito nazista? Fondato a Monaco di Baviera nel millenovecentoventi, mette al centro un popolo omogeneo, basato sulla purezza del sangue germanico. Le idee di fondo sono tre. Il nazionalismo esasperato vuole cancellare il trattato di Versailles, il limite ai soldati e i debiti di guerra. Il razzismo e l'antisemitismo indicano negli ebrei i responsabili della sconfitta e della crisi, secondo la falsa leggenda della pugnalata alla schiena. L'antibolscevismo considera comunisti e socialisti nemici interni. Hitler, austriaco, diventa la guida del partito con discorsi accesi, da attore, molto diversi da quelli pacati dei deputati. Il simbolo è la svastica, un antico segno buddista, che però viene rovesciata.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AP4",
+  "testo": "Come passa Hitler dal fallimento al consenso? Nel millenovecentoventitré tenta a Monaco un colpo di Stato, ma fallisce e viene arrestato. Il processo lo rende famoso in tutta la Germania. In prigione detta a Rudolf Hess il Mein Kampf, che indica gli obiettivi: distruggere il comunismo, eliminare lo Stato liberale e conquistare lo spazio vitale. Intanto il partito si dota di milizie. Le SA, le squadre d'assalto, sono guidate da Ernst Röhm. Poi nascono le SS, le squadre di protezione, fedeli a Hitler. Sono usate per violenze e intimidazioni, e arrivano a centinaia di migliaia di uomini. Eppure alle elezioni del millenovecentoventotto il partito ottiene meno del tre per cento dei voti.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AP5",
+  "testo": "Come arriva Hitler al governo? Nel millenovecentotrenta, sfruttando la crisi con una propaganda aggressiva, il partito passa da ottocentomila voti a oltre sei milioni e diventa il secondo del Paese. Nel millenovecentotrentadue, con il trentasette per cento, diventa il primo, ma senza la maggioranza assoluta. Hitler rifiuta ogni accordo che non gli dia la guida del governo, e il presidente Hindenburg scioglie più volte il Parlamento. Alla fine, sotto la pressione di industriali e militari, convinti di poterlo controllare, il trenta gennaio millenovecentotrentatré nomina Hitler cancelliere. Von Papen è vicecancelliere. Per ora Hindenburg resta presidente, e ci sono ancora il Parlamento e le elezioni, ma i nazisti vogliono cancellare questo sistema.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AP6",
+  "testo": "Come nasce la dittatura nazista? Il ventisette febbraio millenovecentotrentatré brucia il palazzo del Reichstag. Il governo lo usa come pretesto: un decreto d'emergenza sospende la libertà di stampa, di parola e di associazione. A marzo il Parlamento, sotto la minaccia delle SA e delle SS, approva la legge sui pieni poteri. Il governo può fare le leggi senza il controllo dei deputati. In poche settimane gli altri partiti vengono sciolti, e a Dachau si apre il primo campo di concentramento per gli oppositori politici. Nella notte dei lunghi coltelli, tra il trenta giugno e il primo luglio millenovecentotrentaquattro, le SS eliminano Röhm e i capi delle SA. Poi, alla morte di Hindenburg, Hitler riunisce le cariche e diventa il Führer.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AP7",
+  "testo": "Come il regime controlla la società? Con la Gleichschaltung, cioè l'allineamento di ogni aspetto della vita al partito. La polizia segreta e le SS, guidate da Himmler e Heydrich, perseguitano oppositori, ebrei, rom e omosessuali. I sindacati sono sciolti e sostituiti dal Fronte del lavoro tedesco. I giovani devono iscriversi alla Gioventù hitleriana, e la scuola è riscritta su razzismo e militarismo. Le donne sono richiamate al ruolo di madri per la patria. Goebbels controlla radio, cinema e giornali, e nel maggio del millenovecentotrentatré si bruciano in pubblico i libri contrari al regime. Lo Stato finanzia lavori pubblici e autostrade, e dal millenovecentotrentasei, con Göring, il riarmo prepara la conquista dello spazio vitale.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AP8",
+  "testo": "Quando la persecuzione diventa sistematica? Nel millenovecentotrentatré inizia la sterilizzazione forzata per chi ha malattie mentali o fisiche. Il programma sfocia poi nell'Aktion T quattro, che porta all'eliminazione dei disabili. Nel millenovecentotrentacinque le leggi di Norimberga tolgono agli ebrei la cittadinanza tedesca, li escludono da impieghi pubblici e università e vietano i matrimoni misti. Tra il nove e il dieci novembre millenovecentotrentotto, nella notte dei cristalli, vengono devastate sinagoghe, negozi e abitazioni ebraiche, e circa ventimila ebrei sono arrestati e deportati. Sono le tappe che preparano la cosiddetta soluzione finale, cioè lo sterminio di massa degli ebrei europei. Anche per le persone con disabilità e per gli oppositori politici, la violenza cresce passo dopo passo.",
+  "lingua": "it"
  }
 ]
