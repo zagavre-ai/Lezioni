@@ -9,11 +9,11 @@
    "fermi_ok": "si",
    "sub_ok": "no",
    "video": "Storia_Lez14_Parte1_1080p.mp4",
-   "durata_s": 2943.7,
-   "durata": "49:03.7",
-   "fotogrammi": 88311,
-   "fotogrammi_attesi": 88311,
-   "peso_MB": 315.8,
+   "durata_s": 2942.1,
+   "durata": "49:02.1",
+   "fotogrammi": 88262,
+   "fotogrammi_attesi": 88262,
+   "peso_MB": 308.9,
    "vtt": "Storia_Lez14_Parte1.vtt"
   },
   "2": {
@@ -24,11 +24,11 @@
    "fermi_ok": "si",
    "sub_ok": "no",
    "video": "Storia_Lez14_Parte2_1080p.mp4",
-   "durata_s": 2930.9,
-   "durata": "48:50.9",
-   "fotogrammi": 87927,
-   "fotogrammi_attesi": 87927,
-   "peso_MB": 332.3,
+   "durata_s": 2927.7,
+   "durata": "48:47.7",
+   "fotogrammi": 87832,
+   "fotogrammi_attesi": 87832,
+   "peso_MB": 319.3,
    "vtt": "Storia_Lez14_Parte2.vtt"
   }
  },
@@ -47,10 +47,14 @@
   {
    "quando": "19/11 00:46",
    "testo": "chat v3 REVISIONATA: ramo revisione-storia-V-lez14; P1 49:04, P2 48:51 (sotto i 50 min, vedi rapporto); sottotitoli: errori noti corretti, rilettura integrale non fatta"
+  },
+  {
+   "quando": "19/11 04:19",
+   "testo": "correzioni 19/11 fatte (chat v3): slide a 3 card, mappe con mappa.py, trans su ogni cambio, avviso diritti; P1 49:02, P2 48:48; vedi rapporto"
   }
  ],
  "materia": "Storia V",
  "lezione": "Lezione 14",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-19 00:46:47"
+ "aggiornato": "2026-11-19 04:19:58"
 }
