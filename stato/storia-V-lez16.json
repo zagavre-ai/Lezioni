@@ -2,7 +2,12 @@
  "tag": "storia-V-lez16",
  "parti": {
   "1": {
-   "stato": "IN_REVISIONE"
+   "stato": "REVISIONATA",
+   "voci": "kore",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "si",
+   "vtt": "si"
   }
  },
  "manca": "",
@@ -21,9 +26,13 @@
   {
    "quando": "18/11 22:57",
    "testo": "materiali scaricati, trascrizione in corso; Parte unica, 7 argomenti"
+  },
+  {
+   "quando": "19/11 00:08",
+   "testo": "Parte unica 49:10,6 · LUFS -16,7 · quiz +0,005 s · sottotitoli 94% (corretti solo per regole, non riletti) · ramo revisione-storia-V-lez16"
   }
  ],
  "materia": "storia-V",
  "lezione": "16",
- "aggiornato": "2026-11-18 22:57:32"
+ "aggiornato": "2026-11-19 00:08:55"
 }
