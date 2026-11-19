@@ -10,6 +10,10 @@
   {
    "quando": "19/11 00:12",
    "testo": "Voci Kore nuove lez 19: 3+8+~31 testi (MD1-3, P1-8, SC*) nel ramo voci-storia-V-lez19"
+  },
+  {
+   "quando": "19/11 02:23",
+   "testo": "Correzioni 19/11 lez 19: 3 voci nuove nel ramo voci-storia-V-lez19 (SC1_4, SC2_4, AN22)"
   }
  ],
  "domande_sara": [],
@@ -21,9 +25,13 @@
   {
    "quando": "19/11 00:12",
    "testo": "materiali scaricati, trascrizione in corso; 2 Parti (arg 1-4, 5-8)"
+  },
+  {
+   "quando": "19/11 02:23",
+   "testo": "correzioni 19/11 in corso (slide a 3 card, mappe mappa.py, approfondimenti AN, schema 4-6 righe); il ramo revisione-storia-V-lez19 ha la versione precedente, NON definitiva"
   }
  ],
  "materia": "storia-V",
  "lezione": "19",
- "aggiornato": "2026-11-19 00:12:29"
+ "aggiornato": "2026-11-19 02:23:05"
 }
