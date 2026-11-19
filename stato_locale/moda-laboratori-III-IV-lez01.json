@@ -6,7 +6,12 @@
   }
  },
  "manca": "",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "19/11 19:01",
+   "testo": "Ripresa lez01 Laboratori: (1) mancano sigle 15 s per Laboratori, Tecnologie ed Economia moda: metto segnaposto; (2) video del prof 852x480 con faccia in cerchio di ~65 px: il riquadro 4:3 sarà molto ingrandito, confermi o hai una sorgente migliore? (3) lavoro di metà novembre su Laboratori non presente sui rami (solo testi voci e quiz): rifaccio sincronia e tagli; (4) stato.py ha il percorso /home/claude/lezioni fisso e non accetta la sintassi del prompt."
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
@@ -18,5 +23,5 @@
    "testo": "18/11 sera: letto regole, scaricati video/PDF/xlsx, trascrizione in corso. Attenzione: video del prof 852x480 con faccia in cerchio di ~65 px (riquadro 4:3 sarà molto ingrandito). Lavoro del 14-15/11 su Laboratori non è su nessun ramo (solo testi voci e quiz). Sigla Moda Laboratori assente. Non ancora montato nulla."
   }
  ],
- "aggiornato": "2026-11-18 22:12:44"
+ "aggiornato": "2026-11-19 19:01:01"
 }
