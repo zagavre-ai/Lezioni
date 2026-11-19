@@ -2,7 +2,7 @@
  "tag": "storia-V-lez07",
  "parti": {
   "1": {
-   "stato": "REVISIONATA",
+   "stato": "IN_REVISIONE",
    "voci": "kore",
    "quiz_ok": "si",
    "fermi_ok": "si",
@@ -29,9 +29,13 @@
   {
    "quando": "18/11 22:54",
    "testo": "Parte unica 45:02,0 · LUFS -16,7 · quiz +0,005 s · sottotitoli: strumento 75% (3 blocchi artefatto verificati a mano) · ramo revisione-storia-V-lez07"
+  },
+  {
+   "quando": "19/11 04:11",
+   "testo": "correzioni 19/11: presa da claude/hopeful-keller-s5yjrk (ramo revisione-storia-V-lez07 da aggiornare)"
   }
  ],
  "materia": "storia-V",
  "lezione": "7",
- "aggiornato": "2026-11-18 22:54:53"
+ "aggiornato": "2026-11-19 04:11:17"
 }
