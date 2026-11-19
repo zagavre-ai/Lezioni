@@ -1,0 +1,136 @@
+{
+ "titolo": "Verifica finale · Laboratori tecnologici ed esercitazione · Lezione 5 · Industrializzazione",
+ "fonte": "lez5.xlsx (10 domande)",
+ "items": [
+  {
+   "p": "Quali sono le tre grandi categorie in cui si dividono i processi fondamentali del ciclo industriale dell'abbigliamento?",
+   "a": "Processo di analisi, processo creativo e operativo, processo commerciale.",
+   "w": [
+    "Processo di marketing, processo di sartoria, processo di logistica.",
+    "Processo di ricerca, processo di prototipazione, processo di vendita al dettaglio.",
+    "Processo di design, processo di produzione manuale, processo di distribuzione."
+   ],
+   "w_extra": [
+    "Processo di campionamento, processo di cucito, processo di e-commerce.",
+    "Processo di analisi dati, processo di taglio, processo di spedizione."
+   ]
+  },
+  {
+   "p": "Qual è la misura standard generalmente applicata per le cuciture lineari durante l'industrializzazione?",
+   "a": "1 cm",
+   "w": [
+    "0,7 cm",
+    "1,5 cm",
+    "2 cm"
+   ],
+   "w_extra": [
+    "0,5 cm",
+    "3 cm"
+   ]
+  },
+  {
+   "p": "Perché le tacche sporgenti a forma di piramide sono preferibili per i tessuti delicati?",
+   "a": "Perché non intaccano il materiale della sagoma, evitando rischi di rottura.",
+   "w": [
+    "Perché sono più facili da vedere per l'operatore della macchina lineare.",
+    "Perché permettono un risparmio maggiore di tessuto durante il piazzamento.",
+    "Perché indicano automaticamente la direzione del diritto filo."
+   ],
+   "w_extra": [
+    "Perché scompaiono con il calore del ferro da stiro.",
+    "Perché sono le uniche riconosciute dai software di taglio automatico."
+   ]
+  },
+  {
+   "p": "Qual è la funzione principale delle dime (o mascherine) nel reparto confezione?",
+   "a": "Indicare con precisione la posizione di tasche, asole o riprese senza danneggiare il tessuto.",
+   "w": [
+    "Sostituire definitivamente il modello in cartoncino nei piazzamenti per il taglio.",
+    "Fornire una guida rigida per eseguire il taglio manuale delle falde.",
+    "Indicare il prezzo finale previsto del capo durante la fase di campionario."
+   ],
+   "w_extra": [
+    "Proteggere le mani dell'operatore durante l'uso della fustellatrice.",
+    "Correggere i difetti di appiombo riscontrati durante la prova d'indosso."
+   ]
+  },
+  {
+   "p": "Come si corregge il difetto di appiombo se una gonna si alza sul davanti?",
+   "a": "Abbassando il centro dietro sulla linea della vita.",
+   "w": [
+    "Allargando la punta dell'inforcatura del davanti.",
+    "Aumentando l'ampiezza delle riprese sul davanti e riducendo quelle sul dietro.",
+    "Aggiungendo una dima di posizione sulla linea del bacino."
+   ],
+   "w_extra": [
+    "Allungando esclusivamente l'orlo del pannello posteriore.",
+    "Stringendo i fianchi e spostando le tacche di riferimento."
+   ]
+  },
+  {
+   "p": "Nella grande industria, quale metodo di codifica dei modelli è preferito per la sua funzionalità tecnica?",
+   "a": "L'attribuzione di un codice numerico o alfanumerico.",
+   "w": [
+    "L'uso di nomi di fiori, piante o persone.",
+    "Un sistema basato esclusivamente su colori e stagioni.",
+    "L'uso di nomi descrittivi lunghi e articolati."
+   ],
+   "w_extra": [
+    "Un sistema di codifica basato sul nome dello stilista.",
+    "L'assegnazione di un numero progressivo basato solo sul prezzo."
+   ]
+  },
+  {
+   "p": "Cosa indica la sigla DF quando viene riportata su una sagoma industrializzata?",
+   "a": "Il diritto filo, indispensabile per la corretta disposizione sul tessuto.",
+   "w": [
+    "Il davanti, per distinguere il pezzo dal dietro (DT).",
+    "La dima fisica, utilizzata per segnare le cuciture ornamentali.",
+    "La distanza del fondo, necessaria per calcolare l'entità dell'orlo."
+   ],
+   "w_extra": [
+    "Il doppio filo, per indicare cuciture a due aghi.",
+    "La distinta finale, che elenca i pezzi necessari per la serie."
+   ]
+  },
+  {
+   "p": "Qual è la differenza sostanziale tra la scheda provvisoria e la scheda definitiva (o tecnica)?",
+   "a": "La scheda definitiva include i consumi precisi per taglia e gli abbinamenti definitivi dopo il collaudo.",
+   "w": [
+    "La scheda provvisoria è solo cartacea, mentre quella definitiva è solo digitale.",
+    "La scheda provvisoria non contiene la raffigurazione tecnica del capo (plat).",
+    "La scheda definitiva è scritta esclusivamente dallo stilista senza il modellista."
+   ],
+   "w_extra": [
+    "La scheda provvisoria serve solo per il reparto commerciale e le vendite.",
+    "La scheda definitiva non riporta i dati identificativi come stagione o linea."
+   ]
+  },
+  {
+   "p": "A cosa servono gli spilli virtuali nei software di correzione digitale delle sagome?",
+   "a": "A bloccare misure o punti specifici che non devono variare durante la modifica.",
+   "w": [
+    "A simulare la resistenza del tessuto durante la prova d'indosso virtuale.",
+    "A unire digitalmente due sagome diverse prima di inviarle al plotter.",
+    "A indicare al sistema dove posizionare fisicamente i bottoni."
+   ],
+   "w_extra": [
+    "A calcolare automaticamente l'entità delle rimesse di cucitura.",
+    "A segnare i punti di deformazione del materiale cartoncino."
+   ]
+  },
+  {
+   "p": "Qual è il principale rischio tecnico associato all'uso dei fori di riferimento sui tessuti a maglia?",
+   "a": "La loro presenza può causare smagliature e abbassare la qualità del prodotto.",
+   "w": [
+    "Impediscono il corretto allineamento del diritto filo.",
+    "Rendono impossibile l'uso delle dime di posizione.",
+    "Provocano un rientro eccessivo delle misure dopo lo stiro."
+   ],
+   "w_extra": [
+    "Non sono riconoscibili dalle macchine del taglio automatico.",
+    "Rendono il tessuto troppo rigido nei punti di assemblaggio."
+   ]
+  }
+ ]
+}

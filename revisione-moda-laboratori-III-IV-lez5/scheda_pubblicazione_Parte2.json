@@ -1,0 +1,254 @@
+{
+ "materia": "Laboratori tecnologici ed esercitazione",
+ "titolo": "Laboratori tecnologici ed esercitazione · Lezione 5 · Industrializzazione · Parte 2",
+ "file": "Laboratori_Lez5_Parte2_1080p.mp4",
+ "durata_s": 1707.37,
+ "argomenti": [
+  {
+   "n": 8,
+   "titolo": "La scheda modello",
+   "inizio_s": 67.767,
+   "quiz_s": 443.1
+  },
+  {
+   "n": 9,
+   "titolo": "La scheda tecnica del capo",
+   "inizio_s": 448.1,
+   "quiz_s": 849.167
+  },
+  {
+   "n": 10,
+   "titolo": "Il controllo delle misure finali",
+   "inizio_s": 854.167,
+   "quiz_s": 1118.2
+  },
+  {
+   "n": 11,
+   "titolo": "Digitalizzazione e correzione digitale",
+   "inizio_s": 1123.2,
+   "quiz_s": 1637.067
+  }
+ ],
+ "quiz": {
+  "Q8": {
+   "title": "Quiz 8 · La scheda modello",
+   "items": [
+    {
+     "p": "Che cosa descrive la scheda modello?",
+     "a": "Quali e quante sagome compongono il capo e il tessuto da usare",
+     "w": [
+      "Solo il prezzo",
+      "Solo il colore",
+      "Solo la taglia"
+     ],
+     "ref": "Indica anche fodere, interfodere e dime."
+    },
+    {
+     "p": "Perché serve dopo il taglio?",
+     "a": "Per verificare che siano presenti tutte le sagome prima dell'assemblaggio",
+     "w": [
+      "Per scegliere il tessuto",
+      "Per fissare il prezzo",
+      "Per scrivere il codice"
+     ],
+     "ref": "Il confezionista la usa per sapere di quante sagome è fatto il capo."
+    },
+    {
+     "p": "Come si chiama anche la scheda modello digitalizzata?",
+     "a": "Distinta base modello",
+     "w": [
+      "Plat",
+      "Dima",
+      "Cartamodello"
+     ],
+     "ref": "Ogni riga riporta codice, quantità, materiale e significato del pezzo."
+    },
+    {
+     "p": "Che cosa permettono i codici univoci?",
+     "a": "Ai software di piazzamento di distinguere le sagome in modo automatico",
+     "w": [
+      "Di eliminare il modellista",
+      "Di non misurare",
+      "Di non stirare"
+     ],
+     "ref": "Si rispettano rigorosamente le misure progettate."
+    },
+    {
+     "p": "Quali sono pezzi di completamento di una gonna?",
+     "a": "La cintura e i passanti",
+     "w": [
+      "Il davanti",
+      "Le baschine",
+      "Le controtasche"
+     ],
+     "ref": "Il davanti comprende parte principale, controtasche e bottoniere."
+    }
+   ]
+  },
+  "Q9": {
+   "title": "Quiz 9 · La scheda tecnica del capo",
+   "items": [
+    {
+     "p": "Che cos'è la scheda provvisoria?",
+     "a": "La scheda del prototipo, preparata da stilista, modellista e ufficio tecnico",
+     "w": [
+      "La scheda dei clienti",
+      "L'elenco delle taglie",
+      "Il catalogo dei tessuti"
+     ],
+     "ref": "La definitiva nasce dopo il collaudo e aggiunge i consumi per taglia."
+    },
+    {
+     "p": "Che cosa descrive la distinta consumi?",
+     "a": "La quantità di materie prime necessarie per ogni taglia",
+     "w": [
+      "Il prezzo di vendita",
+      "Il numero dei dipendenti",
+      "I tempi di consegna"
+     ],
+     "ref": "Comprende tessuti, fodere, bottoni ed etichette."
+    },
+    {
+     "p": "Che cos'è la raffigurazione tecnica?",
+     "a": "Il plat, la rappresentazione grafica del capo in piano",
+     "w": [
+      "Una fotografia",
+      "Un campione di tessuto",
+      "Un codice"
+     ],
+     "ref": "È parte della scheda tecnica."
+    },
+    {
+     "p": "Che cosa compila il modellista?",
+     "a": "Descrizione dell'aspetto, cuciture, tacche, dime e consumi degli accessori",
+     "w": [
+      "Etichettatura e imballaggio",
+      "Stagione e linea",
+      "Il listino"
+     ],
+     "ref": "Lo stilista compila grafica, stagione e linea."
+    },
+    {
+     "p": "Chi trascrive i dati su etichettatura e imballaggio?",
+     "a": "L'ufficio tecnico",
+     "w": [
+      "Lo stilista",
+      "Il cliente",
+      "Il corriere"
+     ],
+     "ref": "Trascrive anche trattamenti finali e caratteristiche del tessuto."
+    }
+   ]
+  },
+  "Q10": {
+   "title": "Quiz 10 · Il controllo delle misure finali",
+   "items": [
+    {
+     "p": "A che cosa serve la scheda di controllo misure finali?",
+     "a": "A verificare che il capo finito rispetti le dimensioni previste",
+     "w": [
+      "A scegliere il tessuto",
+      "A fissare il prezzo",
+      "A disegnare il plat"
+     ],
+     "ref": "Contiene il plat e le misure per ogni taglia."
+    },
+    {
+     "p": "Quale può essere una causa di misure non corrispondenti?",
+     "a": "Una stesura delle falde troppo tesa",
+     "w": [
+      "Il colore del filo",
+      "La stagione",
+      "Il nome del modello"
+     ],
+     "ref": "La stesura tesa provoca un successivo rientro delle misure."
+    },
+    {
+     "p": "Che cosa può succedere ai capi in jersey sull'appendiabiti?",
+     "a": "Possono subire allungamenti",
+     "w": [
+      "Si restringono",
+      "Cambiano colore",
+      "Si scuciono"
+     ],
+     "ref": "È un caso di presentazione errata."
+    },
+    {
+     "p": "Chi prepara la scheda di controllo misure?",
+     "a": "Il modellista",
+     "w": [
+      "Il cliente",
+      "Il magazziniere",
+      "Il commerciale"
+     ],
+     "ref": "Conosce con precisione le misure del progetto."
+    },
+    {
+     "p": "Con quale ordine si organizzano le misure?",
+     "a": "Prima le larghezze, poi le lunghezze",
+     "w": [
+      "Prima le lunghezze",
+      "A caso",
+      "Solo le altezze"
+     ],
+     "ref": "Un ordine ragionato facilita il lavoro degli operatori."
+    }
+   ]
+  },
+  "Q11": {
+   "title": "Quiz 11 · Digitalizzazione e correzione digitale",
+   "items": [
+    {
+     "p": "Che cosa permette la digitalizzazione dei modelli?",
+     "a": "Rende più rapidi sviluppo taglie e piazzamento",
+     "w": [
+      "Eliminare le taglie",
+      "Non usare più tessuti",
+      "Evitare il collaudo"
+     ],
+     "ref": "Converte le sagome fisiche in formato digitale."
+    },
+    {
+     "p": "Come vengono acquisite le sagome con il digitalizzatore?",
+     "a": "Fissate su un tavolo e ripercorse con un cursore",
+     "w": [
+      "Fotografate col telefono",
+      "Ricopiate a mano",
+      "Pesate"
+     ],
+     "ref": "L'operatore indica anche orientamento e diritto filo."
+    },
+    {
+     "p": "Su che cosa opera il modellista nella correzione digitale?",
+     "a": "Su una copia della sagoma, mentre l'originale resta in archivio",
+     "w": [
+      "Sull'originale",
+      "Sul tessuto",
+      "Sull'etichetta"
+     ],
+     "ref": "L'originale è l'elemento di confronto."
+    },
+    {
+     "p": "A che cosa servono gli spilli virtuali?",
+     "a": "A bloccare misure o punti che non devono variare",
+     "w": [
+      "A cucire",
+      "A tagliare",
+      "A stampare"
+     ],
+     "ref": "I colori diversi mostrano l'area modificata."
+    },
+    {
+     "p": "Che cosa va valutato se si allunga una canotta?",
+     "a": "Anche l'eventuale allargamento, per mantenere la vestibilità",
+     "w": [
+      "Il colore",
+      "Il prezzo",
+      "Il numero di bottoni"
+     ],
+     "ref": "Il capo non deve risultare troppo aderente."
+    }
+   ]
+  }
+ }
+}

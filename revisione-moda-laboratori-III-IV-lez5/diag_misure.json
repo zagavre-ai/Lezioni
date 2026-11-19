@@ -1,0 +1,362 @@
+{
+ "2": {
+  "bordi_originale_px": 301634,
+  "originale_entro_1.5px_%": 63.4,
+  "originale_entro_2px_%": 87.7,
+  "p95_px": 3.28,
+  "mediana_px": 0.95,
+  "vettoriale_entro_2px_%": 78.6,
+  "diff_media_0_255": 3.09,
+  "pg": 7,
+  "k": 4,
+  "ink": 0.8,
+  "dpi": 300,
+  "svg_px": [
+   6240,
+   6744
+  ],
+  "sec": 44
+ },
+ "3": {
+  "bordi_originale_px": 158409,
+  "originale_entro_1.5px_%": 49.2,
+  "originale_entro_2px_%": 66.4,
+  "p95_px": 3.82,
+  "mediana_px": 1.91,
+  "vettoriale_entro_2px_%": 53.6,
+  "diff_media_0_255": 2.76,
+  "pg": 9,
+  "k": 4,
+  "ink": 0.78,
+  "dpi": 300,
+  "svg_px": [
+   5924,
+   4224
+  ],
+  "sec": 38
+ },
+ "4": {
+  "bordi_originale_px": 4437,
+  "originale_entro_1.5px_%": 73.2,
+  "originale_entro_2px_%": 76.1,
+  "p95_px": 3.82,
+  "mediana_px": 0.95,
+  "vettoriale_entro_2px_%": 62.2,
+  "diff_media_0_255": 4.78,
+  "pg": 11,
+  "k": 3,
+  "ink": 0.45,
+  "dpi": 170,
+  "svg_px": [
+   824,
+   672
+  ],
+  "sec": 1
+ },
+ "5": {
+  "bordi_originale_px": 4576,
+  "originale_entro_1.5px_%": 59.6,
+  "originale_entro_2px_%": 61.6,
+  "p95_px": 3.82,
+  "mediana_px": 0.95,
+  "vettoriale_entro_2px_%": 44.9,
+  "diff_media_0_255": 4.33,
+  "pg": 11,
+  "k": 3,
+  "ink": 0.45,
+  "dpi": 168,
+  "svg_px": [
+   852,
+   972
+  ],
+  "sec": 1
+ },
+ "6": {
+  "bordi_originale_px": 43178,
+  "originale_entro_1.5px_%": 53.1,
+  "originale_entro_2px_%": 67.5,
+  "p95_px": 4.78,
+  "mediana_px": 1.37,
+  "vettoriale_entro_2px_%": 62.9,
+  "diff_media_0_255": 3.45,
+  "pg": 11,
+  "k": 3,
+  "ink": 0.82,
+  "dpi": 164,
+  "svg_px": [
+   3188,
+   1008
+  ],
+  "sec": 3
+ },
+ "7": {
+  "bordi_originale_px": 63306,
+  "originale_entro_1.5px_%": 60.0,
+  "originale_entro_2px_%": 78.2,
+  "p95_px": 3.82,
+  "mediana_px": 0.95,
+  "vettoriale_entro_2px_%": 68.0,
+  "diff_media_0_255": 3.68,
+  "pg": 11,
+  "k": 3,
+  "ink": 0.82,
+  "dpi": 164,
+  "svg_px": [
+   3188,
+   1232
+  ],
+  "sec": 4
+ },
+ "8": {
+  "bordi_originale_px": 54085,
+  "originale_entro_1.5px_%": 64.9,
+  "originale_entro_2px_%": 77.0,
+  "p95_px": 3.82,
+  "mediana_px": 0.95,
+  "vettoriale_entro_2px_%": 66.5,
+  "diff_media_0_255": 4.91,
+  "pg": 12,
+  "k": 3,
+  "ink": 0.82,
+  "dpi": 168,
+  "svg_px": [
+   3284,
+   944
+  ],
+  "sec": 4
+ },
+ "9": {
+  "bordi_originale_px": 41109,
+  "originale_entro_1.5px_%": 51.0,
+  "originale_entro_2px_%": 66.5,
+  "p95_px": 13.37,
+  "mediana_px": 1.37,
+  "vettoriale_entro_2px_%": 51.5,
+  "diff_media_0_255": 8.47,
+  "pg": 12,
+  "k": 3,
+  "ink": 0.82,
+  "dpi": 150,
+  "svg_px": [
+   1916,
+   1168
+  ],
+  "sec": 4
+ },
+ "10": {
+  "bordi_originale_px": 84062,
+  "originale_entro_1.5px_%": 55.3,
+  "originale_entro_2px_%": 66.9,
+  "p95_px": 4.78,
+  "mediana_px": 1.37,
+  "vettoriale_entro_2px_%": 59.9,
+  "diff_media_0_255": 4.78,
+  "pg": 13,
+  "k": 3,
+  "ink": 0.82,
+  "dpi": 125,
+  "svg_px": [
+   2720,
+   1532
+  ],
+  "sec": 5
+ },
+ "11": {
+  "bordi_originale_px": 23588,
+  "originale_entro_1.5px_%": 65.8,
+  "originale_entro_2px_%": 80.1,
+  "p95_px": 3.82,
+  "mediana_px": 0.95,
+  "vettoriale_entro_2px_%": 81.6,
+  "diff_media_0_255": 3.25,
+  "pg": 15,
+  "k": 3,
+  "ink": 0.82,
+  "dpi": 112,
+  "svg_px": [
+   844,
+   1820
+  ],
+  "sec": 1
+ },
+ "12": {
+  "bordi_originale_px": 87754,
+  "originale_entro_1.5px_%": 58.8,
+  "originale_entro_2px_%": 71.2,
+  "p95_px": 5.6,
+  "mediana_px": 0.95,
+  "vettoriale_entro_2px_%": 67.5,
+  "diff_media_0_255": 4.93,
+  "pg": 17,
+  "k": 4,
+  "ink": 0.55,
+  "dpi": 96,
+  "svg_px": [
+   2612,
+   1836
+  ],
+  "sec": 4
+ },
+ "13": {
+  "bordi_originale_px": 56710,
+  "originale_entro_1.5px_%": 58.3,
+  "originale_entro_2px_%": 67.9,
+  "p95_px": 4.78,
+  "mediana_px": 0.95,
+  "vettoriale_entro_2px_%": 57.4,
+  "diff_media_0_255": 4.17,
+  "pg": 18,
+  "k": 4,
+  "ink": 0.8,
+  "dpi": 165,
+  "svg_px": [
+   3272,
+   1736
+  ],
+  "sec": 6
+ },
+ "14": {
+  "bordi_originale_px": 56307,
+  "originale_entro_1.5px_%": 66.1,
+  "originale_entro_2px_%": 75.2,
+  "p95_px": 4.78,
+  "mediana_px": 0.95,
+  "vettoriale_entro_2px_%": 62.3,
+  "diff_media_0_255": 4.01,
+  "pg": 19,
+  "k": 3,
+  "ink": 0.8,
+  "dpi": 172,
+  "svg_px": [
+   3268,
+   1800
+  ],
+  "sec": 6
+ },
+ "15": {
+  "bordi_originale_px": 40489,
+  "originale_entro_1.5px_%": 59.3,
+  "originale_entro_2px_%": 73.3,
+  "p95_px": 4.78,
+  "mediana_px": 0.95,
+  "vettoriale_entro_2px_%": 55.4,
+  "diff_media_0_255": 4.24,
+  "pg": 19,
+  "k": 3,
+  "ink": 0.8,
+  "dpi": 143,
+  "svg_px": [
+   2648,
+   1380
+  ],
+  "sec": 4
+ },
+ "16": {
+  "bordi_originale_px": 52898,
+  "originale_entro_1.5px_%": 69.3,
+  "originale_entro_2px_%": 79.5,
+  "p95_px": 3.82,
+  "mediana_px": 0.95,
+  "vettoriale_entro_2px_%": 60.5,
+  "diff_media_0_255": 4.84,
+  "pg": 20,
+  "k": 3,
+  "ink": 0.8,
+  "dpi": 146,
+  "svg_px": [
+   2616,
+   1388
+  ],
+  "sec": 4
+ },
+ "17": {
+  "bordi_originale_px": 38236,
+  "originale_entro_1.5px_%": 67.7,
+  "originale_entro_2px_%": 77.5,
+  "p95_px": 3.82,
+  "mediana_px": 0.95,
+  "vettoriale_entro_2px_%": 60.0,
+  "diff_media_0_255": 3.8,
+  "pg": 20,
+  "k": 3,
+  "ink": 0.8,
+  "dpi": 146,
+  "svg_px": [
+   2616,
+   1384
+  ],
+  "sec": 3
+ },
+ "18": {
+  "bordi_originale_px": 159402,
+  "originale_entro_1.5px_%": 58.8,
+  "originale_entro_2px_%": 69.0,
+  "p95_px": 6.43,
+  "mediana_px": 0.95,
+  "vettoriale_entro_2px_%": 73.4,
+  "diff_media_0_255": 3.25,
+  "pg": 21,
+  "k": 6,
+  "ink": 0.6,
+  "dpi": 125,
+  "svg_px": [
+   2660,
+   2644
+  ],
+  "sec": 6
+ },
+ "20": {
+  "bordi_originale_px": 159293,
+  "originale_entro_1.5px_%": 33.3,
+  "originale_entro_2px_%": 51.4,
+  "p95_px": 105.05,
+  "mediana_px": 1.91,
+  "vettoriale_entro_2px_%": 56.8,
+  "diff_media_0_255": 5.95,
+  "pg": 26,
+  "k": 4,
+  "ink": 0.75,
+  "dpi": 118,
+  "svg_px": [
+   2700,
+   2232
+  ],
+  "sec": 8
+ },
+ "21": {
+  "bordi_originale_px": 77731,
+  "originale_entro_1.5px_%": 45.8,
+  "originale_entro_2px_%": 64.2,
+  "p95_px": 4.78,
+  "mediana_px": 1.91,
+  "vettoriale_entro_2px_%": 66.3,
+  "diff_media_0_255": 6.14,
+  "pg": 28,
+  "k": 4,
+  "ink": 0.75,
+  "dpi": 119,
+  "svg_px": [
+   2688,
+   1252
+  ],
+  "sec": 4
+ },
+ "22": {
+  "bordi_originale_px": 279949,
+  "originale_entro_1.5px_%": 55.7,
+  "originale_entro_2px_%": 73.3,
+  "p95_px": 5.73,
+  "mediana_px": 0.95,
+  "vettoriale_entro_2px_%": 79.3,
+  "diff_media_0_255": 3.53,
+  "pg": 32,
+  "k": 5,
+  "ink": 0.0,
+  "dpi": 137,
+  "svg_px": [
+   2704,
+   2672
+  ],
+  "sec": 5
+ }
+}

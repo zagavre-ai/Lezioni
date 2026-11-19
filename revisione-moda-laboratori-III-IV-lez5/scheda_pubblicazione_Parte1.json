@@ -1,0 +1,437 @@
+{
+ "materia": "Laboratori tecnologici ed esercitazione",
+ "titolo": "Laboratori tecnologici ed esercitazione · Lezione 5 · Industrializzazione · Parte 1",
+ "file": "Laboratori_Lez5_Parte1_1080p.mp4",
+ "durata_s": 3045.4,
+ "argomenti": [
+  {
+   "n": 1,
+   "titolo": "Il ciclo industriale e il campionario",
+   "inizio_s": 56.567,
+   "quiz_s": 351.0
+  },
+  {
+   "n": 2,
+   "titolo": "La codifica dei modelli",
+   "inizio_s": 356.0,
+   "quiz_s": 882.633
+  },
+  {
+   "n": 3,
+   "titolo": "I modelli base e le cuciture",
+   "inizio_s": 887.633,
+   "quiz_s": 1327.367
+  },
+  {
+   "n": 4,
+   "titolo": "Rimesse, orli e sagome",
+   "inizio_s": 1332.367,
+   "quiz_s": 1744.767
+  },
+  {
+   "n": 5,
+   "titolo": "Diritto filo e tacche di riferimento",
+   "inizio_s": 1749.767,
+   "quiz_s": 2091.833
+  },
+  {
+   "n": 6,
+   "titolo": "Fori di riferimento e dime",
+   "inizio_s": 2096.833,
+   "quiz_s": 2606.9
+  },
+  {
+   "n": 7,
+   "titolo": "Collaudo del prototipo e difetti comuni",
+   "inizio_s": 2611.9,
+   "quiz_s": 2961.467
+  }
+ ],
+ "quiz": {
+  "Q1": {
+   "title": "Quiz 1 · Il ciclo industriale e il campionario",
+   "items": [
+    {
+     "p": "Quali sono i tre grandi processi del ciclo industriale?",
+     "a": "Analisi, creativo e operativo, commerciale",
+     "w": [
+      "Taglio, cucito e stiro",
+      "Filatura, tessitura e tintura",
+      "Acquisto, magazzino e spedizione"
+     ],
+     "ref": "Il ciclo trasforma le materie prime in prodotti finiti attraverso programmazione e organizzazione."
+    },
+    {
+     "p": "A che cosa servono i campionari tecnici?",
+     "a": "Sono usati internamente e ricchi di informazioni per la produzione",
+     "w": [
+      "Alla propaganda e alla vendita",
+      "A ridurre i costi dei prototipi fisici",
+      "A decorare i negozi"
+     ],
+     "ref": "I commerciali sono curati nell'estetica e destinati alla vendita."
+    },
+    {
+     "p": "Che cosa permettono i campionari elettronici?",
+     "a": "Di ridurre i costi di confezione dei prototipi fisici",
+     "w": [
+      "Di eliminare la produzione",
+      "Di sostituire i tessuti",
+      "Di non usare i modelli"
+     ],
+     "ref": "Sono visualizzati con tecnologie informatiche."
+    },
+    {
+     "p": "Perché il campionario fisico resta insostituibile?",
+     "a": "Per la sua tangibilità",
+     "w": [
+      "Perché costa meno",
+      "Perché è più veloce",
+      "Perché non serve il modellista"
+     ],
+     "ref": "È la tangibilità a mantenerne il grande valore."
+    },
+    {
+     "p": "Che cosa fa il processo commerciale?",
+     "a": "Riguarda distribuzione e vendita tramite grossisti, dettaglianti ed e-commerce",
+     "w": [
+      "Studia le tendenze",
+      "Progetta il campionario",
+      "Industrializza il prodotto"
+     ],
+     "ref": "Il processo di analisi, invece, studia mercato, tendenze e dati di vendita."
+    }
+   ]
+  },
+  "Q2": {
+   "title": "Quiz 2 · La codifica dei modelli",
+   "items": [
+    {
+     "p": "Come identificano i modelli le piccole realtà?",
+     "a": "Con un nome, spesso di fiori, piante o persone",
+     "w": [
+      "Con un codice a barre",
+      "Con una lettera sola",
+      "Non li identificano"
+     ],
+     "ref": "La grande industria preferisce un codice numerico o alfanumerico."
+    },
+    {
+     "p": "Che cosa significa DF?",
+     "a": "Diritto filo",
+     "w": [
+      "Davanti frontale",
+      "Dietro foderato",
+      "Disegno finale"
+     ],
+     "ref": "Il diritto filo è indispensabile per il corretto piazzamento."
+    },
+    {
+     "p": "Che cosa indicano DAV e DT?",
+     "a": "Il davanti e il dietro",
+     "w": [
+      "Destra e sinistra",
+      "Dime e tacche",
+      "Diritto e rovescio"
+     ],
+     "ref": "DX e SX indicano invece le parti destre e sinistre."
+    },
+    {
+     "p": "Che cos'è la distinta base?",
+     "a": "L'elenco di ogni pezzo necessario per la confezione",
+     "w": [
+      "Il disegno del capo",
+      "Il listino prezzi",
+      "Una tabella di taglie"
+     ],
+     "ref": "Comprende le parti principali e le minuterie, come bottoni e passanti."
+    },
+    {
+     "p": "Che cosa può indicare la lettera P in un codice?",
+     "a": "I pantaloni",
+     "w": [
+      "La produzione",
+      "Il prezzo",
+      "La pattina"
+     ],
+     "ref": "Un codice strutturato può indicare anche linea, numero del modello e tessuto."
+    }
+   ]
+  },
+  "Q3": {
+   "title": "Quiz 3 · I modelli base e le cuciture",
+   "items": [
+    {
+     "p": "Che cosa sono i modelli base?",
+     "a": "Modelli studiati e collaudati con ripetute prove di confezione e indosso",
+     "w": [
+      "Modelli solo digitali",
+      "Campioni di tessuto",
+      "Cartellini dei prezzi"
+     ],
+     "ref": "Sono archiviati dall'azienda come punto di partenza."
+    },
+    {
+     "p": "Qual è il vantaggio di partire da un modello base?",
+     "a": "Si riduce il tempo di lavorazione",
+     "w": [
+      "Non servono più le misure",
+      "Non serve il tessuto",
+      "Si evita la confezione"
+     ],
+     "ref": "Si possono saltare i passaggi preliminari."
+    },
+    {
+     "p": "Quali elementi singoli si trovano negli archivi?",
+     "a": "Modelli per tasche, cinture e altri dettagli",
+     "w": [
+      "Solo giacche",
+      "Solo scarpe",
+      "Solo etichette"
+     ],
+     "ref": "Di questi componenti l'azienda conosce resa estetica e tempi."
+    },
+    {
+     "p": "Dove i controlli sulle cuciture devono essere più accurati?",
+     "a": "Nel fianco della gonna e nel cavallo dei pantaloni",
+     "w": [
+      "Solo sulle etichette",
+      "Solo sugli orli",
+      "Solo sulle tasche"
+     ],
+     "ref": "Sono gli incroci più significativi per l'armonia del capo."
+    },
+    {
+     "p": "Che cosa si fa con linee rigide o incontri aguzzi?",
+     "a": "Si limano o si compensano le sagome",
+     "w": [
+      "Si lasciano così",
+      "Si cambia tessuto",
+      "Si elimina il capo"
+     ],
+     "ref": "Così si previene la comparsa di pieghe durante l'indosso."
+    }
+   ]
+  },
+  "Q4": {
+   "title": "Quiz 4 · Rimesse, orli e sagome",
+   "items": [
+    {
+     "p": "Quale rimessa si usa per le cuciture lineari?",
+     "a": "1 cm",
+     "w": [
+      "0,7 cm",
+      "3 cm",
+      "5 cm"
+     ],
+     "ref": "Per il giro collo e le forme tonde si usa 0,7 cm."
+    },
+    {
+     "p": "Di quanto può variare l'immissione degli orli?",
+     "a": "3, 4 o 5 cm",
+     "w": [
+      "0,7 cm",
+      "1 cm",
+      "10 cm"
+     ],
+     "ref": "La misura si applica alle sagome."
+    },
+    {
+     "p": "Che cosa si sviluppa a livello industriale?",
+     "a": "Tutte le sagome del capo, destre e sinistre",
+     "w": [
+      "Solo metà delle sagome",
+      "Solo il davanti",
+      "Solo la cintura"
+     ],
+     "ref": "In sartoria è possibile svilupparne solo una metà."
+    },
+    {
+     "p": "Quando basta una sola sagoma intera?",
+     "a": "Quando il capo non ha cuciture centrali davanti o dietro",
+     "w": [
+      "Sempre",
+      "Mai",
+      "Solo per i pantaloni"
+     ],
+     "ref": "Altrimenti si hanno due parti uguali ma speculari."
+    },
+    {
+     "p": "Quali sagome compongono il dietro di una gonna jeans?",
+     "a": "Le parti terminali, due baschine e due taschini",
+     "w": [
+      "Cintura e passanti",
+      "Bottoniere e controtasche",
+      "Solo la fodera"
+     ],
+     "ref": "Il davanti comprende parti principali, controtasche, interni tasca, bottoniere, striscia passanti e cintura."
+    }
+   ]
+  },
+  "Q5": {
+   "title": "Quiz 5 · Diritto filo e tacche di riferimento",
+   "items": [
+    {
+     "p": "Che cosa indica il segno del diritto filo?",
+     "a": "Come disporre la sagoma sul tessuto",
+     "w": [
+      "Il prezzo della sagoma",
+      "Il colore del tessuto",
+      "La taglia del cliente"
+     ],
+     "ref": "Deve essere presente su tutte le sagome industrializzate."
+    },
+    {
+     "p": "Come è tracciato il diritto filo?",
+     "a": "Con un segmento che non tocca il perimetro della sagoma",
+     "w": [
+      "Con una linea che tocca tutti i bordi",
+      "Con un cerchio",
+      "Non si traccia mai"
+     ],
+     "ref": "Si può omettere se il centro davanti o dietro è rettilineo."
+    },
+    {
+     "p": "Che cosa sono le tacche di riferimento?",
+     "a": "Segni convenzionali sul perimetro della sagoma",
+     "w": [
+      "Fori nel tessuto",
+      "Etichette adesive",
+      "Tipi di filo"
+     ],
+     "ref": "Indicano per esempio orli, ampiezza della cucitura e sormonti."
+    },
+    {
+     "p": "Quale tacca è preferibile per i tessuti delicati?",
+     "a": "La tacca sporgente, a forma di piramide",
+     "w": [
+      "La tacca rientrante",
+      "Nessuna tacca",
+      "Un foro"
+     ],
+     "ref": "Le rientranti sono rischiose sui tessuti di maglia."
+    },
+    {
+     "p": "A che cosa serve una tacca su una tasca quadrata?",
+     "a": "A indicare la parte alta e distinguere diritto e rovescio",
+     "w": [
+      "A scegliere il filo",
+      "A decorare la tasca",
+      "A indicare il prezzo"
+     ],
+     "ref": "Evita errori di posizionamento."
+    }
+   ]
+  },
+  "Q6": {
+   "title": "Quiz 6 · Fori di riferimento e dime",
+   "items": [
+    {
+     "p": "Che cosa sono i fori di riferimento?",
+     "a": "Piccoli buchi nelle sagome per segnare fine ripresa, tasche e asole",
+     "w": [
+      "Cuciture decorative",
+      "Etichette adesive",
+      "Tacche a piramide"
+     ],
+     "ref": "Si realizzano con la fustellatrice e si riportano con il trapano marcatore."
+    },
+    {
+     "p": "Perché l'uso dei fori è discusso?",
+     "a": "Sulla maglia possono causare smagliature e abbassare la qualità",
+     "w": [
+      "Costano troppo",
+      "Sono illegali",
+      "Sono troppo grandi"
+     ],
+     "ref": "Molte aziende preferiscono le dime."
+    },
+    {
+     "p": "A quale distanza dal termine della ripresa si possono nascondere i fori?",
+     "a": "Circa 1-1,5 cm",
+     "w": [
+      "10 cm",
+      "Sul bordo",
+      "20 cm"
+     ],
+     "ref": "La loro posizione va documentata nella scheda tecnica."
+    },
+    {
+     "p": "Che cosa sono le dime?",
+     "a": "Mascherine che indicano con precisione la posizione di tasche, asole e riprese",
+     "w": [
+      "Tessuti di rinforzo",
+      "Cartellini dei prezzi",
+      "Fili da cucire"
+     ],
+     "ref": "Individuano la posizione senza deteriorare il tessuto."
+    },
+    {
+     "p": "Le dime vanno inserite nei piazzamenti per il taglio?",
+     "a": "No, non devono essere inserite",
+     "w": [
+      "Sì, sempre",
+      "Solo per i pantaloni",
+      "Solo per le gonne"
+     ],
+     "ref": "Possono però servire anche a confezione ultimata."
+    }
+   ]
+  },
+  "Q7": {
+   "title": "Quiz 7 · Collaudo del prototipo e difetti comuni",
+   "items": [
+    {
+     "p": "Quando il prototipo diventa scheda tecnica?",
+     "a": "Dopo aver superato il collaudo, quando entra nell'archivio",
+     "w": [
+      "Prima del disegno",
+      "Dopo la vendita",
+      "Mai"
+     ],
+     "ref": "La prova d'indosso su modella prototipo trova difetti non visti prima."
+    },
+    {
+     "p": "Come si corregge una gonna stretta al bacino?",
+     "a": "Allargando il capo sul centro davanti e sul centro dietro",
+     "w": [
+      "Accorciando l'orlo",
+      "Cambiando il colore",
+      "Stringendo la vita"
+     ],
+     "ref": "La gonna tende a risalire verso la vita formando pieghe."
+    },
+    {
+     "p": "Come si corregge il difetto di appiombo?",
+     "a": "Abbassando il centro dietro sulla linea della vita",
+     "w": [
+      "Alzando il centro davanti",
+      "Allungando l'orlo",
+      "Togliendo la cintura"
+     ],
+     "ref": "Si riscontra quando la gonna si alza sul davanti."
+    },
+    {
+     "p": "Che cosa sono i baffi sul davanti dei pantaloni?",
+     "a": "Pieghe dovute a esubero di tessuto, da eliminare stringendo e alzando la punta dell'inforcatura",
+     "w": [
+      "Decorazioni",
+      "Cuciture laterali",
+      "Tasche applicate"
+     ],
+     "ref": "I raggi al cavallo richiedono invece di allargare la punta."
+    },
+    {
+     "p": "Che cosa si controlla prima della produzione in serie?",
+     "a": "Che il prototipo abbia mantenuto le caratteristiche ricercate",
+     "w": [
+      "Il prezzo dei bottoni",
+      "Il numero di clienti",
+      "Il colore delle etichette"
+     ],
+     "ref": "Si valutano aspetto tecnico e cromatico."
+    }
+   ]
+  }
+ }
+}
