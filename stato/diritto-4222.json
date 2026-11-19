@@ -427,6 +427,10 @@
   {
    "quando": "18/11 16:04",
    "testo": "Voci Kore: 184 frasi (una chiave per frase) in scambio/diritto-4222/testi_voci.json sul ramo voci-diritto-4222. Rispondere in scambio/diritto-4222/vox/NOME.wav + ESITI.txt. Serve anche la sigla Diritto 15 s."
+  },
+  {
+   "quando": "19/11 19:02",
+   "testo": "CONSEGNA 4222 Diritto: pronte Parte 1 (44:47) e Parte 2 (23:07) sul ramo revisione-diritto-4222 (video a parti .parte_NN + .sha256, .vtt, scheda_pubblicazione, quiz, RAPPORTO_REVISIONE.md, foglio.png). Da fare per voi: (1) sigla Diritto 15 s mancante, il video parte senza; (2) riascoltare 3 voci N4b_s1_i1, S4_4, F_3; (3) conferma col prof della parola 'obiettivo' (slide fattori, scritto 'fattore'); (4) possibile fermo 1,2 s a 39:58 Parte 1 (probabile falso allarme); (5) sottotitoli prof da rileggere a campione; (6) nel ramo claude/serene-hawking-o1089o c'è per errore il video originale (143 MB) nella storia: serve force-push, non autorizzato."
   }
  ],
  "domande_sara": [],
@@ -459,5 +463,5 @@
  "materia": "Diritto ed economia (I+II)",
  "lezione": "ID 4222 · Le organizzazioni collettive e l'impresa",
  "docente": "Prof.ssa J. Didone",
- "aggiornato": "2026-11-18 19:47:58"
+ "aggiornato": "2026-11-19 19:02:16"
 }
