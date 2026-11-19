@@ -143,7 +143,7 @@ footer b{color:var(--ink)}
 }
 .tabs{display:flex;flex-wrap:wrap;gap:6px}.tab{border:1px solid #c9d2e3;background:#fff;color:#0B1530;border-radius:999px;padding:6px 12px;font-weight:600;font-size:14px;font-family:inherit;line-height:1.2;cursor:pointer}.tab.on{background:#0B1530;color:#fff;border-color:#0B1530}
 </style>
-<meta name="versione" content="2026-11-18a">
+<meta name="versione" content="2026-11-19a">
 <script>/* se GitHub ha una versione più nuova di questa pagina, la carica subito (niente più «non vedo le novità») */
 (function(){try{var mia=document.querySelector('meta[name=versione]').content;
 fetch(location.pathname,{cache:'reload'}).then(function(r){return r.text()}).then(function(t){var m=t.match(/name="versione" content="([^"]+)"/);
@@ -666,7 +666,11 @@ function avvio(){
   CARICO=true;
   head();calendar();$('#day').innerHTML='<div class="empty"><b>Caricamento del registro…</b></div>';$('#sum').innerHTML='';
   (async()=>{await alunno();await attivita();await chiavi();await docenti();
-    const t=await (await fetch(CSV+(CSV.includes('?')?'&':'?')+'t='+Date.now(),{cache:'no-store'})).text();
+    /* 19/11: se le note dei docenti (Google) non arrivano, il registro si apre lo stesso con materie, piano e attività */
+    let t='',NOCSV=false;
+    try{const ac=new AbortController();const tm=setTimeout(()=>ac.abort(),25000);
+      const rr=await fetch(CSV+(CSV.includes('?')?'&':'?')+'t='+Date.now(),{cache:'no-store',signal:ac.signal});clearTimeout(tm);
+      if(!rr.ok)throw new Error('csv '+rr.status);t=await rr.text()}catch(e){NOCSV=true;t=''}
     const D={gen:{},days:{}};
     for(const r of csv(t).slice(1)){if(r[1]!==RID||!r[3])continue;
       try{const o=await decifra(r[3]);if(!DOCENTI[o.p])continue;
@@ -680,6 +684,7 @@ function avvio(){
     try{await attivita()}catch(e){}
     if(ATT&&ATT.nome){if(ALUNNO)ALUNNO.nome=ATT.nome;if(DB.gen&&DB.gen.nome&&DB.gen.nome!==ATT.nome)DB.gen=Object.assign({},DB.gen,{nome:ATT.nome})} /* 16/11: nome come lo scrive la direzione (es. GHITTI) */
     CARICO=false;render();
+    if(NOCSV)setTimeout(()=>stato('Le note dei docenti non si sono caricate: le materie e le lezioni si vedono, ricarica la pagina tra poco per le note.'),80);
   })().catch(()=>{CARICO=false;$('#day').innerHTML='<div class="empty"><b>Il registro non si è caricato</b>Controlla la connessione e ricarica la pagina.</div>'});
 }
 /* quaderno dei compiti: QR per consegnare con il telefono (solo vista studente) */
