@@ -2,7 +2,7 @@
  "tag": "storia-V-lez09",
  "parti": {
   "1": {
-   "stato": "IN_REVISIONE"
+   "stato": "IN_MONTAGGIO"
   }
  },
  "manca": "",
@@ -12,9 +12,13 @@
   {
    "quando": "19/11 04:07",
    "testo": "correzioni 19/11: presa da revisione-storia-V-lez09 (ramo da creare)"
+  },
+  {
+   "quando": "19/11 04:09",
+   "testo": "annullata per errore la mia prenotazione 04:07: lez 9 risulta gia' corretta da un'altra chat (revisione-storia-V-lez09, commit 03:53 «correzioni 19/11»); stato lasciato com'era, lo aggiorna chi l'ha corretta"
   }
  ],
  "materia": "storia-V",
  "lezione": "9",
- "aggiornato": "2026-11-19 04:07:32"
+ "aggiornato": "2026-11-19 04:09:03"
 }
