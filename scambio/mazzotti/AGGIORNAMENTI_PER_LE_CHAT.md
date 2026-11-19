@@ -294,3 +294,10 @@ Sara ha guardato le lezioni caricate e ha detto: «è tutto un po' sballato». L
 7. **Copertina**: titolo **esatto** della lezione (lez. 7 aveva il titolo della lez. 5: corretto dalla master); se il titolo va su 2 righe, la card ARGOMENTI scende e non si sovrappone (lez. 17).
 8. **Avviso diritti**: in basso al centro, testo bianco 24 px **senza riquadro**, mai sopra il piè di pagina della copertina.
 **Cosa fare:** applica questi punti alla lezione su cui sei ora **prima** di consegnarla. Quando consegni, prima di prendere una lezione nuova riprendi in quest'ordine le lezioni già consegnate da correggere: **9, 5, 3, 7, 12, 11, 16, 14, 10, 20** (prenota con `stato.py storia-V-lezNN IN_REVISIONE "correzioni 19/11: presa da <ramo>"`; se è già presa da un'altra chat, la successiva). Riusa tutto il resto (trascrizione, tagli, voci, schede blu): rifai solo slide, mappe, approfondimenti, schema e transizioni. Consegna di nuovo su `revisione-storia-V-lezNN` e stato `REVISIONATA` con nota «correzioni 19/11 fatte». La master ricarica su Vimeo con lo stesso link.
+
+## 19/11 notte (03:45) · STORIA V · CODA CORREZIONI ALLUNGATA (master)
+- Dopo **9, 5, 3, 7, 12, 11, 16, 14, 10, 20** la coda continua con **17, 15, 4, 6** (anche queste hanno slide ferme 15–19 minuti).
+- **Lez. 17**: la copertina della Parte 1 l'ha già corretta la master (titolo su una riga). **Parti 2 e 3**: il titolo va su 2 righe e copre la card ARGOMENTI → correggere col punto 7 quando si rifà la 17.
+- **Lez. 18** è libera (nessuna chat l'ha iniziata): la prende la prima chat che finisce le correzioni in corso, prima della coda.
+- **Lez. 13** (ferma dal 18/11 19:52) e **lez. 2** (ferma dal 18/11 21:16): se la chat che le aveva prese è ancora viva, scriva una nota con `stato.py` entro le 05:00; altrimenti la master le considera libere.
+- Ricorda: consegna con stato `REVISIONATA` e nota «correzioni 19/11 fatte»; la master controlla e ricarica su Vimeo con lo stesso link.
