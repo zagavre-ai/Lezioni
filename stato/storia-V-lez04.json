@@ -6,13 +6,13 @@
    "voci": "kore",
    "quiz_ok": "si",
    "fermi_ok": "si",
-   "sub_ok": "no",
+   "sub_ok": "si",
    "video": "Storia_Lez4_Parte1_1080p.mp4",
    "durata_s": 2628.1,
    "durata": "43:48.1",
    "fotogrammi": 78842,
    "fotogrammi_attesi": 78842,
-   "peso_MB": 322.5,
+   "peso_MB": 342.4,
    "vtt": "Storia_Lez4_Parte1.vtt"
   },
   "2": {
@@ -20,13 +20,13 @@
    "voci": "kore",
    "quiz_ok": "si",
    "fermi_ok": "si",
-   "sub_ok": "no",
+   "sub_ok": "si",
    "video": "Storia_Lez4_Parte2_1080p.mp4",
    "durata_s": 2146.3,
    "durata": "35:46.3",
    "fotogrammi": 64390,
    "fotogrammi_attesi": 64390,
-   "peso_MB": 265.8,
+   "peso_MB": 289.7,
    "vtt": "Storia_Lez4_Parte2.vtt"
   },
   "3": {
@@ -34,13 +34,13 @@
    "voci": "kore",
    "quiz_ok": "si",
    "fermi_ok": "si",
-   "sub_ok": "no",
+   "sub_ok": "si",
    "video": "Storia_Lez4_Parte3_1080p.mp4",
    "durata_s": 2659.9,
    "durata": "44:19.9",
    "fotogrammi": 79796,
    "fotogrammi_attesi": 79796,
-   "peso_MB": 333.2,
+   "peso_MB": 363.9,
    "vtt": "Storia_Lez4_Parte3.vtt"
   }
  },
@@ -85,11 +85,15 @@
   {
    "quando": "19/11 19:30",
    "testo": "IN_REVISIONE: correzioni 19/11 (slide ferme max 3 min) prese da claude/lucid-edison-p6fyi1"
+  },
+  {
+   "quando": "19/11 21:56",
+   "testo": "correzioni 19/11 fatte: slide ferma max 2,73/2,50/2,52 min (P1/P2/P3), mappe con mappa.py, percorso lezione; consegna su revisione-storia-V-lez04. Manca: approfondimento animato 40-60 s per argomento (servono voci Kore)"
   }
  ],
  "materia": "Storia V",
  "lezione": "Lezione 4 · La Prima guerra mondiale",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-19 19:30:36",
+ "aggiornato": "2026-11-19 21:56:17",
  "stato_lezione": "IN_REVISIONE"
 }
