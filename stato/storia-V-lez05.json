@@ -1,14 +1,54 @@
 {
  "tag": "storia-V-lez05",
- "parti": {},
- "manca": "",
- "serve_master": [],
+ "parti": {
+  "1": {
+   "stato": "REVISIONATA",
+   "voci": "kore",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "si",
+   "vtt": "si"
+  },
+  "2": {
+   "stato": "REVISIONATA",
+   "voci": "kore",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "si",
+   "vtt": "si"
+  }
+ },
+ "manca": "da confermare col prof: URSS nata 20 (slide) o 30 (parlato) dicembre 1922",
+ "serve_master": [
+  {
+   "quando": "18/11 19:53",
+   "testo": "Voci Kore nuove lez 5: 52 testi (B0,B2,MDF,MDO,MDG,MDN,P1-9,SC*) nel ramo voci-storia-V-lez05, commit f66e61a"
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
-   "quando": "19/11 02:45",
+   "quando": "18/11 19:50",
+   "testo": "PRENOTATA 18/11 19:58 · chat v3 rifacimento da zero (sessione lez12; lez 13/15 prese da altre chat, lez 1/2 senza video originale)"
+  },
+  {
+   "quando": "18/11 19:53",
+   "testo": "scaricati materiali; trascrizione e voci nuove inviate; 2 Parti (P1 arg 1-4, P2 arg 5-9)"
+  },
+  {
+   "quando": "18/11 21:45",
+   "testo": "Parte 1: 41:26,9 · LUFS -16,6 · quiz +0,005 s · ramo revisione-storia-V-lez05"
+  },
+  {
+   "quando": "18/11 21:45",
+   "testo": "Parte 2: 30:41,4 · LUFS -17,0 · quiz +0,005 s · ramo revisione-storia-V-lez05"
+  },
+  {
+   "quando": "19/11 02:46",
    "testo": "IN_REVISIONE correzioni 19/11: presa da claude/pensive-pascal-5ugbfg"
   }
  ],
- "aggiornato": "2026-11-19 02:45:54"
+ "materia": "storia-V",
+ "lezione": "5",
+ "aggiornato": "2026-11-19 02:46:03"
 }
