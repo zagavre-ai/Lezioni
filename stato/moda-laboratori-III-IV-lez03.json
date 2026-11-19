@@ -6,7 +6,12 @@
   }
  },
  "manca": "",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "19/11 11:18",
+   "testo": "URGENTE: Gonna rifatta nel modello nuovo, Parte 1 52:10 e Parte 2 53:09 misurate, file pronti in locale ma NON caricabili: gh api POST git/blobs da 403 'Write access to this GitHub API path is not permitted through this proxy' (19/11, due tentativi; lez01, lez02, lez5 erano passate con lo stesso metodo). Serve sblocco scrittura o altra via autorizzata. Servono inoltre i wav di 64 voci nuove (pillole, schemi, intro Parte 2, riepiloghi) da testi_voci.json del ramo voci-moda-laboratori-III-IV-lez03 (ramo non ancora creato: stessa causa); finche mancano le parti sono mute per 4,3 e 3,8 min."
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
@@ -15,7 +20,7 @@
   }
  ],
  "materia": "Laboratori tecnologici ed esercitazione",
- "lezione": "Gonna",
+ "lezione": "Lezione 3 · Gonna",
  "docente": "Prof.ssa Piera Caputi",
- "aggiornato": "2026-11-19 00:43:26"
+ "aggiornato": "2026-11-19 11:18:59"
 }
