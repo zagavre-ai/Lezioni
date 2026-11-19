@@ -3,6 +3,9 @@
  "parti": {
   "1": {
    "stato": "REVISIONATA"
+  },
+  "2": {
+   "stato": "REVISIONATA"
   }
  },
  "manca": "",
@@ -33,9 +36,13 @@
   {
    "quando": "19/11 04:07",
    "testo": "correzioni 19/11 fatte (8 punti); ramo revisione-storia-V-lez19; Parte 1 51:03.6 misurato; controllo_finale TUTTO OK; vedi RAPPORTO_REVISIONE.md (da confermare col prof: sez. 6)"
+  },
+  {
+   "quando": "19/11 04:07",
+   "testo": "correzioni 19/11 fatte (8 punti); ramo revisione-storia-V-lez19; Parte 2 48:30.7 misurato; controllo_finale TUTTO OK; vedi RAPPORTO_REVISIONE.md (da confermare col prof: sez. 6)"
   }
  ],
  "materia": "storia-V",
  "lezione": "19",
- "aggiornato": "2026-11-19 04:07:07"
+ "aggiornato": "2026-11-19 04:07:10"
 }
