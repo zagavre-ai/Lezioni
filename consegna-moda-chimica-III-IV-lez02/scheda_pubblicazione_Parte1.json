@@ -1,0 +1,253 @@
+{
+ "materia": "Chimica applicata e nobilitazione dei materiali",
+ "titolo": "Lana · Parte 1",
+ "durata_s": 3400.53,
+ "argomenti": [
+  {
+   "n": 1,
+   "titolo": "Struttura e composizione della lana",
+   "inizio_s": 93.299,
+   "quiz_s": 1115.699
+  },
+  {
+   "n": 2,
+   "titolo": "Lana sucida e proprietà",
+   "inizio_s": 1120.999,
+   "quiz_s": 2042.232
+  },
+  {
+   "n": 3,
+   "titolo": "Reattività chimica e manutenzione",
+   "inizio_s": 2047.532,
+   "quiz_s": 2611.232
+  },
+  {
+   "n": 4,
+   "titolo": "Classificazioni e analisi di laboratorio",
+   "inizio_s": 2616.532,
+   "quiz_s": 3151.298
+  }
+ ],
+ "quiz": {
+  "Q1": {
+   "title": "Quiz 1 · Struttura e composizione della lana",
+   "items": [
+    {
+     "p": "Qual è il costituente principale della lana, circa l'85% della fibra?",
+     "a": "Cheratina",
+     "w": [
+      "Fibroina",
+      "Cellulosa",
+      "Lanolina"
+     ],
+     "ref": "La composizione chimica della lana ha come protagonista la cheratina, una proteina complessa che costituisce circa l'85% della fibra."
+    },
+    {
+     "p": "Quale strato costituisce circa il 90% del peso della fibra di lana?",
+     "a": "Il cortice",
+     "w": [
+      "La cuticola",
+      "Il canale midollare",
+      "L'epicuticola"
+     ],
+     "ref": "Il cortice, circa il 90% del peso della fibra, è formato da milioni di cellule fusiformi cheratizzate e ricche di microfibrille."
+    },
+    {
+     "p": "Che funzione ha la giarra nel vello?",
+     "a": "Impermeabilizzante: è formata da peli setolosi e rigidi",
+     "w": [
+      "Isolante termico: è formata da fibre morbide e ondulate",
+      "Dà lucentezza alla fibra",
+      "Favorisce l'arricciatura naturale"
+     ],
+     "ref": "La giarra è formata da peli setolosi e rigidi con funzione impermeabilizzante; la borra è la parte morbida che isola."
+    },
+    {
+     "p": "Quali cellule del cortice assorbono più coloranti e favoriscono l'arricciatura naturale?",
+     "a": "Le cellule dell'ortocortice",
+     "w": [
+      "Le cellule del paracortice",
+      "Le scaglie della cuticola",
+      "Le cellule del midollo"
+     ],
+     "ref": "L'ortocortice è più reattivo, assorbe maggiormente i coloranti e ha più cistina, che favorisce l'arricciatura; il paracortice è più inerte."
+    },
+    {
+     "p": "Che tipo di legame è il ponte cistinico tra catene diverse?",
+     "a": "Un legame covalente a disolfuro",
+     "w": [
+      "Un legame ionico",
+      "Un legame a idrogeno",
+      "Un legame peptidico"
+     ],
+     "ref": "I ponti cistinici sono legami covalenti a disolfuro che si formano per ossidazione di due unità di cisteina e danno solidità strutturale."
+    }
+   ]
+  },
+  "Q2": {
+   "title": "Quiz 2 · Lana sucida e proprietà",
+   "items": [
+    {
+     "p": "Come si chiama la lana grezza, ancora con le impurità e il grasso naturale?",
+     "a": "Lana sucida",
+     "w": [
+      "Lana lavata",
+      "Lana saltata",
+      "Lana morta"
+     ],
+     "ref": "Allo stato grezzo la lana è detta sucida: le fibre sono aggregate in ciocche e contengono impurità."
+    },
+    {
+     "p": "Quale sostanza è insolubile in acqua ma può essere emulsionata con i tensioattivi?",
+     "a": "La lanolina",
+     "w": [
+      "Il suint",
+      "L'urea",
+      "La cheratina"
+     ],
+     "ref": "La lanolina, o grasso di lana, non si scioglie in acqua ma si emulsiona con i tensioattivi nella purificazione; il suint è idrosolubile."
+    },
+    {
+     "p": "Fino a quale percentuale del proprio peso la lana assorbe umidità senza apparire bagnata?",
+     "a": "Fino al 30%",
+     "w": [
+      "Fino al 3%",
+      "Fino al 10%",
+      "Fino al 60%"
+     ],
+     "ref": "L'igroscopicità: la lana assorbe e trattiene umidità fino al 30% del proprio peso senza apparire bagnata al tatto."
+    },
+    {
+     "p": "Che cos'è la feltrabilità?",
+     "a": "Il compattamento irreversibile delle fibre per sfregamento, calore e umidità",
+     "w": [
+      "La capacità di essere modellata con il vapore",
+      "La capacità di isolamento termico",
+      "La capacità di assorbire i coloranti"
+     ],
+     "ref": "La feltrabilità è dovuta alla disposizione unidirezionale delle scaglie cuticolari, che si agganciano quando le fibre scorrono in senso opposto."
+    },
+    {
+     "p": "A quale pH si trova il punto isoelettrico della lana?",
+     "a": "Circa 4,8–5",
+     "w": [
+      "Circa 7",
+      "Circa 9–10",
+      "Circa 1–2"
+     ],
+     "ref": "Il punto isoelettrico, in cui cariche positive e negative si equivalgono, è a pH 4,8–5: la fibra è nello stato di massima stabilità e inerzia chimica."
+    }
+   ]
+  },
+  "Q3": {
+   "title": "Quiz 3 · Reattività chimica e manutenzione",
+   "items": [
+    {
+     "p": "Quale acido provoca l'ingiallimento della lana per reazione xantoproteica?",
+     "a": "L'acido nitrico concentrato",
+     "w": [
+      "L'acido solforico diluito",
+      "L'acido cloridrico diluito",
+      "L'acido acetico"
+     ],
+     "ref": "L'acido nitrico concentrato agisce anche a freddo e provoca il tipico ingiallimento della fibra."
+    },
+    {
+     "p": "Perché le basi sono più aggressive degli acidi sulla lana?",
+     "a": "Perché idrolizzano i legami polipeptidici della cheratina",
+     "w": [
+      "Perché formano ponti salini",
+      "Perché rendono la fibra idrofoba",
+      "Perché ossidano la lanolina"
+     ],
+     "ref": "Le basi agiscono idrolizzando i legami polipeptidici della cheratina; la soda caustica, anche molto diluita, reagisce con la cistina già a 50 °C."
+    },
+    {
+     "p": "A quale pH va effettuato il candeggio con acqua ossigenata?",
+     "a": "A pH 7–8, seguito da una neutralizzazione acida",
+     "w": [
+      "In ambiente fortemente alcalino",
+      "A pH 1–2",
+      "A pH 11–12"
+     ],
+     "ref": "L'acqua ossigenata in ambiente alcalino attacca facilmente la cistina: il candeggio va fatto a pH 7–8 e seguito da una neutralizzazione acida."
+    },
+    {
+     "p": "Quale accorgimento aiuta a ripristinare la lucentezza e a prevenire l'infeltrimento?",
+     "a": "Il risciacquo con soluzioni acide blande, come acqua e aceto",
+     "w": [
+      "Il lavaggio con detersivi comuni in acqua calda",
+      "Lo sfregamento energico",
+      "Il trattamento con soda caustica diluita"
+     ],
+     "ref": "Le soluzioni acide blande, come acqua e aceto, favoriscono l'abbassamento delle scaglie cuticolari."
+    },
+    {
+     "p": "Che cosa può provocare la combustione spontanea della lana immagazzinata?",
+     "a": "L'ossidazione esotermica dei grassi nella lana compressa, umida e poco ventilata",
+     "w": [
+      "La reazione xantoproteica",
+      "La carbonizzazione con acido solforico",
+      "La feltrabilità"
+     ],
+     "ref": "È l'autoaccensione: i grassi residui si ossidano, catalizzati dai metalli, e sviluppano calore sufficiente a innescare la combustione."
+    }
+   ]
+  },
+  "Q4": {
+   "title": "Quiz 4 · Classificazioni e analisi di laboratorio",
+   "items": [
+    {
+     "p": "Da quali paesi arrivano soprattutto le lane pregiate di tipo Merino?",
+     "a": "Australia e Nuova Zelanda",
+     "w": [
+      "Cina e India",
+      "Islanda e Norvegia",
+      "Brasile e Messico"
+     ],
+     "ref": "Australia e Nuova Zelanda sono specializzate in lane pregiate di tipo Merino, con fibre fini (15–25 micron), lunghe e soffici."
+    },
+    {
+     "p": "Che cos'è la lana rigenerata?",
+     "a": "La lana ottenuta dal recupero di scarti industriali o vecchi indumenti",
+     "w": [
+      "La lana ottenuta dalla tosatura dell'animale vivo",
+      "La lana lavata sommariamente sull'animale",
+      "La lana da due tosature all'anno"
+     ],
+     "ref": "La lana vergine deriva dalla tosatura dell'animale vivo; la rigenerata, o meccanica, dal recupero di scarti: il processo prevede spesso la carbonizzazione."
+    },
+    {
+     "p": "Da quale animale deriva il mohair?",
+     "a": "Dalla capra d'Angora",
+     "w": [
+      "Dal coniglio d'Angora",
+      "Dalla capra del Kashmir",
+      "Dall'alpaca"
+     ],
+     "ref": "Il mohair, dalla capra d'Angora, è estremamente lucente e resistente all'infeltrimento."
+    },
+    {
+     "p": "Quale test mostra la fluorescenza azzurrognola della lana?",
+     "a": "L'esame con la lampada di Wood",
+     "w": [
+      "La reazione xantoproteica",
+      "La prova in soda caustica",
+      "La sezione trasversale al microscopio"
+     ],
+     "ref": "La fluorescenza azzurrognola sotto la lampada di Wood è un test di riconoscimento utile a distinguere la lana naturale da fibre artificiali o sintetiche."
+    },
+    {
+     "p": "Quale reagente dissolve le fibre cellulosiche, poliammidiche e poliuretaniche, lasciando da pesare la lana?",
+     "a": "L'acido solforico al 75%",
+     "w": [
+      "La soda caustica",
+      "L'ipoclorito di sodio",
+      "L'acqua e aceto"
+     ],
+     "ref": "Nell'analisi quantitativa l'acido solforico al 75% dissolve cellulosiche, poliammidi e poliuretaniche; soda e ipoclorito sciolgono invece la lana."
+    }
+   ]
+  }
+ }
+}

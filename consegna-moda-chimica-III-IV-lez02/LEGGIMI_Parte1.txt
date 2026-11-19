@@ -1,0 +1,35 @@
+moda-chimica-III-IV-lez02 · Chimica applicata e nobilitazione dei materiali · Lana · Prof.ssa Piera Caputi · Parte 1 di 1
+
+VIDEO: 2 (1920x1080, 30 fps, x264 veryfast CRF 18, AAC 192k). Si ricompone con: cat 2.parte_* > 2 (sha256 nel file .sha256).
+durata 56:40.5 (3400.5 s) | fotogrammi 102015 (attesi 102016) OK | peso 307.5 MB (293.2 MiB) OK | 1920x1080 OK
+t_verifica = 3362.2 s · t_compiti = 3380.5 s (scheda Compiti di 20 s con le domande del docente; sigla finale 3368.8 s; intro Compiti 3375.4 s).
+Durata solo dal materiale della lezione: video del docente + schemi di ripasso, mappe, glossario, ripasso, quiz, chiusura.
+Struttura: per ogni argomento titolo, docente con slide sincronizzate, schema di ripasso con voce, mappa concettuale con voce, scheda Quiz (5 domande, 80%); poi glossario, ripasso finale, mappa finale, FINE, Verifica finale (test del docente), sigla, intro Compiti, Compiti.
+Voci: tutte Kore (dal ramo voci-moda-chimica-III-IV-lez02). La trascrizione automatica ha letto male alcuni termini tecnici: ascoltare a campione schemi (S) e glossario (GL1).
+Mappe: nel video e in Mappe_moda-chimica-III-IV-lez02.pdf (A4 orizzontale, una per pagina), a partire dalle mappe del docente rifatte nella grafica Telesio.
+File: quiz (Quiz_Chimica_LezLezione in UNA Parte (56:40, sotto i 60 minuti): rimontata con la sigla nuova Sigla_Chimica_moda_15s.mp4 al posto del segnaposto. Fermo immagine segnalato in D0 (~89-90 s): gia' presente nella registrazione sorgente (webcam), uguale al montaggio precedente. Voci Kore da ascoltare a campione..txt), test finale = Excel del docente (Test_Chimica_LezLezione in UNA Parte (56:40, sotto i 60 minuti): rimontata con la sigla nuova Sigla_Chimica_moda_15s.mp4 al posto del segnaposto. Fermo immagine segnalato in D0 (~89-90 s): gia' presente nella registrazione sorgente (webcam), uguale al montaggio precedente. Voci Kore da ascoltare a campione..xlsx), compiti.json, dispensa del docente, sottotitoli .vtt, scheda_pubblicazione.json, testo_youtube.txt, controllo_finale.txt.
+
+CONTROLLI sul file finale
+- Scatto musicale dei Quiz a 0,0 s: OK su 4/4.
+- durata 56:40.5 (3400.5 s) | fotogrammi 102015 (attesi 102016) OK | peso 307.5 MB (293.2 MiB) OK | 1920x1080 OK
+- quiz 4 scatto 0,0 s: OK
+- fermi immagine nei pezzi del docente: 1 DA GUARDARE [(88.8, 89.9, 'D0')]
+- volume del parlato (mediana dei pezzi del docente): -16.6 LUFS OK
+- Sincronia (righe che si accendono sulle parole dette; tempi parola per parola dalla trascrizione; confronto con la trascrizione del video FINALE), 10 punti a caso:
+    (45, 1331.69, 1331.79, -0.1, 'Le proprietà fisiche della lanolina la rendono una sost')
+    (22, 641.63, 641.6, 0.03, 'Le modalità con cui si formano questi legami possono es')
+    (54, 1511.36, 1511.57, -0.21, 'Infine, la resistenza alla torsione è influenzata dalle')
+    (99, 2736.66, 2736.79, -0.13, 'Il processo di rigenerazione prevede spesso la carboniz')
+    (7, 261.83, 261.79, 0.04, "Il follicolo è un'introflessione della pelle dove avven")
+    scarto medio assoluto 0.10 s, massimo 0.21 s
+    (24, 673.99, 673.82, 0.17, 'Tra questi si distinguono i ponti salini, legami di tip')
+    (57, 1603.73, 1603.74, -0.01, 'Convenzionalmente, per scambi commerciali e analisi, si')
+    (106, 2873.32, 2873.23, 0.09, 'La fluorescenza azzurrognola sotto la lampada di Wood r')
+    (97, 2687.05, 2686.98, 0.07, 'peli animali speciali o luxury fibers: questa categoria')
+    (40, 1210.9, 1210.75, 0.15, 'sostanze idrosolubili (suint): composta principalmente ')
+    scarto medio assoluto 0.10 s, massimo 0.17 s
+  Tolleranza richiesta 1,5 s.
+- Cerchio della docente: ritagliato solo dal video sorgente (58x58 px interni al cerchio, ingrandito a 232 px), maschera tonda con bordo sfumato e anello giallo #FFE600 di 6 px su fondo slide; nessun pixel del video originale fuori dal cerchio. La risoluzione di partenza e' bassa (il cerchio originale misura 61 px).
+- sottotitoli: 587 blocchi, sovrapposti 0, oltre la fine 0, attacco sulla voce entro 0,3 s: 56% di 16 verificabili DA GUARDARE
+- Controllo indipendente dei sottotitoli (trascrizione di finestre brevi): 30 confrontati; entro 0,3 s: 24 entro 0,6 s: 30 max 0.4 mediana 0.16
+- Codifica: 1080p x264 veryfast CRF 18. Le Parti sono ricavate dal montaggio 1080p gia' controllato: sigla nuova (Sigla_Chimica_moda_15s) in testa con dissolvenza di 1 s, taglio a fine scheda Quiz, ricodifica unica per Parte.
