@@ -1,7 +1,0 @@
-durata 49:10.6 (2950.6 s) | fotogrammi 88517 (attesi 88517) OK | peso 373.7 MB (356.4 MiB) OK | 1920x1080 OK
-quiz 7 scatto 0,0 s: OK
-fermi immagine nei pezzi del docente: nessuno OK
-volume del parlato (mediana dei pezzi del docente): -16.3 LUFS OK
-sottotitoli: 679 blocchi, sovrapposti 0, oltre la fine 0, attacco sulla voce entro 0,3 s: 94% di 16 verificabili OK
-foglio di miniature: out/Storia_Lez16_Parte1_1080p.mp4.miniature.jpg
-ESITO: TUTTO OK
