@@ -10,7 +10,8 @@
      "Fa crescere l'industria dei beni di consumo",
      "Porta a una rapida vittoria sulla Germania"
     ],
-    "e": "La partecipazione al conflitto accentua difficoltà che esistevano da tempo e rende la situazione sociale insostenibile."
+    "e": "La partecipazione al conflitto accentua difficoltà che esistevano da tempo e rende la situazione sociale insostenibile.",
+    "ref": "La partecipazione al conflitto accentua difficoltà che esistevano da tempo e rende la situazione sociale insostenibile."
    },
    {
     "p": "Perché l'esercito russo non riesce a rifornire le truppe?",
@@ -20,7 +21,8 @@
      "Per il blocco dei porti del Mar Nero",
      "Per un ammutinamento della marina"
     ],
-    "e": "Le ferrovie meno sviluppate di quelle tedesche e austriache paralizzano i rifornimenti."
+    "e": "Le ferrovie meno sviluppate di quelle tedesche e austriache paralizzano i rifornimenti.",
+    "ref": "Le ferrovie meno sviluppate di quelle tedesche e austriache paralizzano i rifornimenti."
    },
    {
     "p": "Che cosa succede nelle città russe durante la guerra?",
@@ -30,7 +32,8 @@
      "Arrivano grano e viveri dall'Ucraina",
      "Le fabbriche producono più vestiti e mobili"
     ],
-    "e": "La riconversione industriale per la guerra riduce i beni di consumo; mancano il pane e il cibo."
+    "e": "La riconversione industriale per la guerra riduce i beni di consumo; mancano il pane e il cibo.",
+    "ref": "La riconversione industriale per la guerra riduce i beni di consumo; mancano il pane e il cibo."
    },
    {
     "p": "Che ruolo lascia Nicola II alla Duma?",
@@ -40,7 +43,8 @@
      "Il comando dell'esercito",
      "Il potere di dichiarare guerra"
     ],
-    "e": "Lo zar difende il potere assoluto e riduce il parlamento a un'istituzione priva di reali prerogative."
+    "e": "Lo zar difende il potere assoluto e riduce il parlamento a un'istituzione priva di reali prerogative.",
+    "ref": "Lo zar difende il potere assoluto e riduce il parlamento a un'istituzione priva di reali prerogative."
    },
    {
     "p": "Chi era Grigorij Rasputin?",
@@ -50,7 +54,8 @@
      "Il generale sconfitto a Tannenberg",
      "Il fondatore del partito dei cadetti"
     ],
-    "e": "Era un santone religioso con grande influenza a corte; fu ucciso nel dicembre 1916."
+    "e": "Era un santone religioso con grande influenza a corte; fu ucciso nel dicembre 1916.",
+    "ref": "Era un santone religioso con grande influenza a corte; fu ucciso nel dicembre 1916."
    }
   ]
  },
@@ -65,7 +70,8 @@
      "A Ekaterinburg",
      "A Kronstadt"
     ],
-    "e": "Le proteste scoppiano a Pietrogrado, cioè San Pietroburgo, la capitale imperiale."
+    "e": "Le proteste scoppiano a Pietrogrado, cioè San Pietroburgo, la capitale imperiale.",
+    "ref": "Le proteste scoppiano a Pietrogrado, cioè San Pietroburgo, la capitale imperiale."
    },
    {
     "p": "Chi guida le prime proteste di febbraio?",
@@ -75,7 +81,8 @@
      "I nobili della Duma",
      "I marinai di Kronstadt"
     ],
-    "e": "Le proteste sono guidate da donne in coda per il pane, a cui si uniscono gli operai in sciopero."
+    "e": "Le proteste sono guidate da donne in coda per il pane, a cui si uniscono gli operai in sciopero.",
+    "ref": "Le proteste sono guidate da donne in coda per il pane, a cui si uniscono gli operai in sciopero."
    },
    {
     "p": "Che cosa fanno i soldati mandati a reprimere le proteste?",
@@ -85,7 +92,8 @@
      "Arrestano gli operai",
      "Tornano subito al fronte"
     ],
-    "e": "I soldati scelgono di solidarizzare con la folla e la classe dirigente resta isolata."
+    "e": "I soldati scelgono di solidarizzare con la folla e la classe dirigente resta isolata.",
+    "ref": "I soldati scelgono di solidarizzare con la folla e la classe dirigente resta isolata."
    },
    {
     "p": "Perché per noi la Rivoluzione di febbraio cade a marzo?",
@@ -95,7 +103,8 @@
      "Perché lo zar abdicò ad aprile",
      "Perché i giornali ne parlarono in ritardo"
     ],
-    "e": "La Russia usava il calendario giuliano, diverso dal gregoriano dell'Europa occidentale."
+    "e": "La Russia usava il calendario giuliano, diverso dal gregoriano dell'Europa occidentale.",
+    "ref": "La Russia usava il calendario giuliano, diverso dal gregoriano dell'Europa occidentale."
    },
    {
     "p": "Chi guida il governo provvisorio nato dopo l'abdicazione?",
@@ -105,7 +114,8 @@
      "Il generale Kornilov",
      "Lev Trockij"
     ],
-    "e": "Le forze liberali formano un governo provvisorio guidato dal principe L'vov."
+    "e": "Le forze liberali formano un governo provvisorio guidato dal principe L'vov.",
+    "ref": "Le forze liberali formano un governo provvisorio guidato dal principe L'vov."
    }
   ]
  },
@@ -120,7 +130,8 @@
      "Il governo di due zar",
      "La guerra tra Russia e Germania"
     ],
-    "e": "Il potere ufficiale del governo provvisorio è limitato e contrastato dai soviet."
+    "e": "Il potere ufficiale del governo provvisorio è limitato e contrastato dai soviet.",
+    "ref": "Il potere ufficiale del governo provvisorio è limitato e contrastato dai soviet."
    },
    {
     "p": "Che cosa sono i soviet?",
@@ -130,7 +141,8 @@
      "Reparti della polizia politica",
      "Partiti della borghesia"
     ],
-    "e": "Sono assemblee di operai e soldati nate spontaneamente nelle fabbriche e nei reparti."
+    "e": "Sono assemblee di operai e soldati nate spontaneamente nelle fabbriche e nei reparti.",
+    "ref": "Sono assemblee di operai e soldati nate spontaneamente nelle fabbriche e nei reparti."
    },
    {
     "p": "Qual è la posizione del governo provvisorio sulla guerra?",
@@ -140,7 +152,8 @@
      "Vuole allearsi con la Germania",
      "Vuole sciogliere l'esercito"
     ],
-    "e": "Il governo provvisorio intende proseguire il conflitto a fianco delle potenze occidentali."
+    "e": "Il governo provvisorio intende proseguire il conflitto a fianco delle potenze occidentali.",
+    "ref": "Il governo provvisorio intende proseguire il conflitto a fianco delle potenze occidentali."
    },
    {
     "p": "Perché i tedeschi facilitano il ritorno di Lenin in Russia?",
@@ -150,7 +163,8 @@
      "Per farlo arrestare al confine",
      "Perché volevano che diventasse zar"
     ],
-    "e": "Le autorità tedesche vedevano in Lenin un elemento di destabilizzazione interna."
+    "e": "Le autorità tedesche vedevano in Lenin un elemento di destabilizzazione interna.",
+    "ref": "Le autorità tedesche vedevano in Lenin un elemento di destabilizzazione interna."
    },
    {
     "p": "Quale slogan riassume le Tesi di aprile?",
@@ -160,7 +174,8 @@
      "«Tutto il potere alla Duma»",
      "«La guerra fino alla vittoria»"
     ],
-    "e": "Lenin chiede il trasferimento di tutto il potere ai soviet, l'uscita dalla guerra e la nazionalizzazione delle terre."
+    "e": "Lenin chiede il trasferimento di tutto il potere ai soviet, l'uscita dalla guerra e la nazionalizzazione delle terre.",
+    "ref": "Lenin chiede il trasferimento di tutto il potere ai soviet, l'uscita dalla guerra e la nazionalizzazione delle terre."
    }
   ]
  },
@@ -175,7 +190,8 @@
      "La morte dello zar",
      "La firma della pace con la Germania"
     ],
-    "e": "La disastrosa offensiva in Galizia innesca nuove rivolte a Pietrogrado."
+    "e": "La disastrosa offensiva in Galizia innesca nuove rivolte a Pietrogrado.",
+    "ref": "La disastrosa offensiva in Galizia innesca nuove rivolte a Pietrogrado."
    },
    {
     "p": "Dove si rifugia Lenin dopo le giornate di luglio?",
@@ -185,7 +201,8 @@
      "In Germania",
      "In Polonia"
     ],
-    "e": "Il governo accusa i bolscevichi di tradimento e Lenin è costretto a fuggire in Finlandia."
+    "e": "Il governo accusa i bolscevichi di tradimento e Lenin è costretto a fuggire in Finlandia.",
+    "ref": "Il governo accusa i bolscevichi di tradimento e Lenin è costretto a fuggire in Finlandia."
    },
    {
     "p": "Che cosa tenta di fare il generale Kornilov?",
@@ -195,7 +212,8 @@
      "Proclamare la repubblica dei soviet",
      "Firmare la pace con la Germania"
     ],
-    "e": "Kornilov marcia su Pietrogrado, ma il golpe viene sventato anche grazie ai bolscevichi."
+    "e": "Kornilov marcia su Pietrogrado, ma il golpe viene sventato anche grazie ai bolscevichi.",
+    "ref": "Kornilov marcia su Pietrogrado, ma il golpe viene sventato anche grazie ai bolscevichi."
    },
    {
     "p": "Chi occupa il Palazzo d'Inverno il 25 ottobre 1917?",
@@ -205,7 +223,8 @@
      "I soldati di Kornilov",
      "I marinai inglesi"
     ],
-    "e": "Le Guardie rosse bolsceviche occupano il Palazzo d'Inverno e Kerenskij fugge."
+    "e": "Le Guardie rosse bolsceviche occupano il Palazzo d'Inverno e Kerenskij fugge.",
+    "ref": "Le Guardie rosse bolsceviche occupano il Palazzo d'Inverno e Kerenskij fugge."
    },
    {
     "p": "Che cos'è il Consiglio dei commissari del popolo?",
@@ -215,7 +234,8 @@
      "Un'assemblea dei menscevichi",
      "Il comando delle Armate bianche"
     ],
-    "e": "Dopo l'uscita di menscevichi e socialrivoluzionari, i bolscevichi formano da soli il nuovo governo."
+    "e": "Dopo l'uscita di menscevichi e socialrivoluzionari, i bolscevichi formano da soli il nuovo governo.",
+    "ref": "Dopo l'uscita di menscevichi e socialrivoluzionari, i bolscevichi formano da soli il nuovo governo."
    }
   ]
  },
@@ -230,7 +250,8 @@
      "Il ritorno delle terre alla Chiesa",
      "Una tassa sulla terra per i contadini"
     ],
-    "e": "La grande proprietà fondiaria viene abolita e la terra ridistribuita tra i contadini."
+    "e": "La grande proprietà fondiaria viene abolita e la terra ridistribuita tra i contadini.",
+    "ref": "La grande proprietà fondiaria viene abolita e la terra ridistribuita tra i contadini."
    },
    {
     "p": "Quale diritto introduce la Costituzione del 1918?",
@@ -240,7 +261,8 @@
      "Il potere assoluto del capo del governo",
      "Il ritorno della monarchia"
     ],
-    "e": "La Costituzione sancisce la parità tra i sessi e il suffragio universale."
+    "e": "La Costituzione sancisce la parità tra i sessi e il suffragio universale.",
+    "ref": "La Costituzione sancisce la parità tra i sessi e il suffragio universale."
    },
    {
     "p": "Quale percentuale di voti ottengono i bolscevichi alle elezioni per l'Assemblea costituente?",
@@ -250,7 +272,8 @@
      "Il 75%",
      "Il 50,1%"
     ],
-    "e": "I bolscevichi ottengono solo il 21,7%; i socialisti rivoluzionari circa il 58%."
+    "e": "I bolscevichi ottengono solo il 21,7%; i socialisti rivoluzionari circa il 58%.",
+    "ref": "I bolscevichi ottengono solo il 21,7%; i socialisti rivoluzionari circa il 58%."
    },
    {
     "p": "Che cosa fa Lenin dell'Assemblea costituente nel gennaio 1918?",
@@ -260,7 +283,8 @@
      "Ne diventa presidente",
      "La trasferisce a Mosca"
     ],
-    "e": "Lenin scioglie l'Assemblea, ritenendola superata dal potere dei soviet."
+    "e": "Lenin scioglie l'Assemblea, ritenendola superata dal potere dei soviet.",
+    "ref": "Lenin scioglie l'Assemblea, ritenendola superata dal potere dei soviet."
    },
    {
     "p": "Che cos'era la Ceka?",
@@ -270,7 +294,8 @@
      "Un decreto sulla terra",
      "L'esercito dei bianchi"
     ],
-    "e": "Nata nel dicembre 1917, doveva individuare, arrestare e colpire i dissidenti."
+    "e": "Nata nel dicembre 1917, doveva individuare, arrestare e colpire i dissidenti.",
+    "ref": "Nata nel dicembre 1917, doveva individuare, arrestare e colpire i dissidenti."
    }
   ]
  },
@@ -285,7 +310,8 @@
      "Mosca e Pietrogrado",
      "Solo la Crimea"
     ],
-    "e": "Per uscire dalla guerra la Russia accetta condizioni durissime e rinuncia a vasti territori."
+    "e": "Per uscire dalla guerra la Russia accetta condizioni durissime e rinuncia a vasti territori.",
+    "ref": "Per uscire dalla guerra la Russia accetta condizioni durissime e rinuncia a vasti territori."
    },
    {
     "p": "Chi guida l'Armata rossa?",
@@ -295,7 +321,8 @@
      "Il principe L'vov",
      "Aleksandr Kerenskij"
     ],
-    "e": "Trockij trasforma l'Armata rossa in un esercito regolare di leva."
+    "e": "Trockij trasforma l'Armata rossa in un esercito regolare di leva.",
+    "ref": "Trockij trasforma l'Armata rossa in un esercito regolare di leva."
    },
    {
     "p": "Chi fa parte delle Armate bianche?",
@@ -305,7 +332,8 @@
      "I marinai di Kronstadt",
      "I bolscevichi dissidenti"
     ],
-    "e": "È una coalizione controrivoluzionaria, aiutata da truppe delle potenze occidentali."
+    "e": "È una coalizione controrivoluzionaria, aiutata da truppe delle potenze occidentali.",
+    "ref": "È una coalizione controrivoluzionaria, aiutata da truppe delle potenze occidentali."
    },
    {
     "p": "Dove viene uccisa la famiglia dello zar?",
@@ -315,7 +343,8 @@
      "A Pietrogrado",
      "A Riga"
     ],
-    "e": "Nel luglio 1918 Nicola II e la famiglia imperiale vengono fucilati a Ekaterinburg."
+    "e": "Nel luglio 1918 Nicola II e la famiglia imperiale vengono fucilati a Ekaterinburg.",
+    "ref": "Nel luglio 1918 Nicola II e la famiglia imperiale vengono fucilati a Ekaterinburg."
    },
    {
     "p": "Con quale pace si chiude la guerra contro la Polonia?",
@@ -325,7 +354,8 @@
      "La pace di Versailles",
      "La pace di Kronstadt"
     ],
-    "e": "La pace di Riga, nel marzo 1921, fissa i confini orientali polacchi."
+    "e": "La pace di Riga, nel marzo 1921, fissa i confini orientali polacchi.",
+    "ref": "La pace di Riga, nel marzo 1921, fissa i confini orientali polacchi."
    }
   ]
  },
@@ -340,7 +370,8 @@
      "Per preparare le elezioni",
      "Per restituire la terra ai nobili"
     ],
-    "e": "È un regime economico d'emergenza per la guerra civile."
+    "e": "È un regime economico d'emergenza per la guerra civile.",
+    "ref": "È un regime economico d'emergenza per la guerra civile."
    },
    {
     "p": "Che cosa sono le requisizioni forzate?",
@@ -350,7 +381,8 @@
      "La vendita libera dei raccolti",
      "Un prestito ai contadini"
     ],
-    "e": "Squadre governative sequestrano il grano e lasciano ai contadini solo il necessario."
+    "e": "Squadre governative sequestrano il grano e lasciano ai contadini solo il necessario.",
+    "ref": "Squadre governative sequestrano il grano e lasciano ai contadini solo il necessario."
    },
    {
     "p": "Chi erano gli «uomini con il sacco»?",
@@ -360,7 +392,8 @@
      "Funzionari della Ceka",
      "Ministri del governo provvisorio"
     ],
-    "e": "Viaggiavano tra campagne e città barattando generi alimentari, contro le regole."
+    "e": "Viaggiavano tra campagne e città barattando generi alimentari, contro le regole.",
+    "ref": "Viaggiavano tra campagne e città barattando generi alimentari, contro le regole."
    },
    {
     "p": "Come reagiscono molti contadini alle requisizioni?",
@@ -370,7 +403,8 @@
      "Si arruolano nelle Armate bianche in massa",
      "Si trasferiscono in Svizzera"
     ],
-    "e": "L'opposizione rurale diventa una guerriglia sotterranea e nasce il mercato nero."
+    "e": "L'opposizione rurale diventa una guerriglia sotterranea e nasce il mercato nero.",
+    "ref": "L'opposizione rurale diventa una guerriglia sotterranea e nasce il mercato nero."
    },
    {
     "p": "Che bilancio lasciano guerra civile, malattie e carestie tra il 1918 e il 1922?",
@@ -380,7 +414,8 @@
      "Pochi danni nelle campagne",
      "La fine delle carestie"
     ],
-    "e": "La carestia del 1921 e le malattie causano milioni di morti."
+    "e": "La carestia del 1921 e le malattie causano milioni di morti.",
+    "ref": "La carestia del 1921 e le malattie causano milioni di morti."
    }
   ]
  },
@@ -395,7 +430,8 @@
      "Gli uomini con il sacco",
      "I contadini ucraini"
     ],
-    "e": "Erano stati protagonisti della rivoluzione del 1917 e ora si ribellano alla dittatura di partito."
+    "e": "Erano stati protagonisti della rivoluzione del 1917 e ora si ribellano alla dittatura di partito.",
+    "ref": "Erano stati protagonisti della rivoluzione del 1917 e ora si ribellano alla dittatura di partito."
    },
    {
     "p": "Che cosa chiedono i ribelli di Kronstadt?",
@@ -405,7 +441,8 @@
      "Più requisizioni",
      "La guerra alla Polonia"
     ],
-    "e": "Chiedono libertà politiche ed elettorali e la fine delle requisizioni; la rivolta viene repressa."
+    "e": "Chiedono libertà politiche ed elettorali e la fine delle requisizioni; la rivolta viene repressa.",
+    "ref": "Chiedono libertà politiche ed elettorali e la fine delle requisizioni; la rivolta viene repressa."
    },
    {
     "p": "Che cosa sostituisce le requisizioni con la NEP?",
@@ -415,7 +452,8 @@
      "La confisca delle terre",
      "Una moneta nuova per i contadini"
     ],
-    "e": "Il contadino versa una parte fissa del prodotto e il resto lo tiene."
+    "e": "Il contadino versa una parte fissa del prodotto e il resto lo tiene.",
+    "ref": "Il contadino versa una parte fissa del prodotto e il resto lo tiene."
    },
    {
     "p": "Che cosa possono fare i contadini con le eccedenze?",
@@ -425,7 +463,8 @@
      "Distruggerle",
      "Darle all'Armata rossa"
     ],
-    "e": "La NEP concede ai contadini la libertà di vendere le eccedenze."
+    "e": "La NEP concede ai contadini la libertà di vendere le eccedenze.",
+    "ref": "La NEP concede ai contadini la libertà di vendere le eccedenze."
    },
    {
     "p": "Quali «grandi leve» restano allo Stato con la NEP?",
@@ -435,7 +474,8 @@
      "Il commercio interno al dettaglio",
      "Le terre dei contadini"
     ],
-    "e": "Lo Stato tiene le grandi leve; le piccole imprese tornano ai privati."
+    "e": "Lo Stato tiene le grandi leve; le piccole imprese tornano ai privati.",
+    "ref": "Lo Stato tiene le grandi leve; le piccole imprese tornano ai privati."
    }
   ]
  },
@@ -450,7 +490,8 @@
      "Il 3 marzo 1918",
      "Nel gennaio 1924"
     ],
-    "e": "L'Unione delle Repubbliche Socialiste Sovietiche nasce a fine 1922, con capitale Mosca."
+    "e": "L'Unione delle Repubbliche Socialiste Sovietiche nasce a fine 1922, con capitale Mosca.",
+    "ref": "L'Unione delle Repubbliche Socialiste Sovietiche nasce a fine 1922, con capitale Mosca."
    },
    {
     "p": "Quale città è la capitale dell'URSS?",
@@ -460,7 +501,8 @@
      "Kiev",
      "Ekaterinburg"
     ],
-    "e": "La capitale era stata spostata a Mosca già nel marzo 1918."
+    "e": "La capitale era stata spostata a Mosca già nel marzo 1918.",
+    "ref": "La capitale era stata spostata a Mosca già nel marzo 1918."
    },
    {
     "p": "Quali repubbliche si uniscono alla Russia nell'URSS?",
@@ -470,7 +512,8 @@
      "Germania e Austria",
      "Solo la Siberia"
     ],
-    "e": "La Transcaucasia comprende Armenia, Georgia e Azerbaigian."
+    "e": "La Transcaucasia comprende Armenia, Georgia e Azerbaigian.",
+    "ref": "La Transcaucasia comprende Armenia, Georgia e Azerbaigian."
    },
    {
     "p": "Dove si trova il potere reale nell'URSS?",
@@ -480,7 +523,8 @@
      "Nelle singole repubbliche",
      "Nell'Assemblea costituente"
     ],
-    "e": "La federazione è solo formale: il Politburo detta la linea a tutto lo Stato."
+    "e": "La federazione è solo formale: il Politburo detta la linea a tutto lo Stato.",
+    "ref": "La federazione è solo formale: il Politburo detta la linea a tutto lo Stato."
    },
    {
     "p": "Chi si contende la successione a Lenin?",
@@ -490,7 +534,8 @@
      "L'vov e Rasputin",
      "Nicola II e suo fratello"
     ],
-    "e": "Alla morte di Lenin, nel 1924, si scontrano Trockij e Stalin, segretario generale del partito."
+    "e": "Alla morte di Lenin, nel 1924, si scontrano Trockij e Stalin, segretario generale del partito.",
+    "ref": "Alla morte di Lenin, nel 1924, si scontrano Trockij e Stalin, segretario generale del partito."
    }
   ]
  }

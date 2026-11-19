@@ -1,7 +1,0 @@
-durata 30:41.4 (1841.4 s) | fotogrammi 55242 (attesi 55242) OK | peso 233.6 MB (222.8 MiB) OK | 1920x1080 OK
-quiz 5 scatto 0,0 s: OK
-fermi immagine nei pezzi del docente: nessuno OK
-volume del parlato (mediana dei pezzi del docente): -16.7 LUFS OK
-sottotitoli: 398 blocchi, sovrapposti 0, oltre la fine 0, attacco sulla voce entro 0,3 s: 87% di 23 verificabili OK
-foglio di miniature: out/Storia_Lez5_Parte2_1080p.mp4.miniature.jpg
-ESITO: TUTTO OK

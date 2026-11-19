@@ -1,38 +1,38 @@
 {
- "materia": "Storia",
- "titolo": "Storia V · Lezione 5 · La Rivoluzione russa e la nascita dell'URSS (1917-1922)",
- "parte": 2,
- "durata_s": 1841.4,
+ "materia": "Storia V",
+ "titolo": "Storia V · Lezione 5 · La Rivoluzione russa e la nascita dell'URSS (1917-1922) · Parte 2",
+ "descrizione": "Seconda parte della videolezione del prof. Giorgio Mazzotti: dai primi provvedimenti bolscevichi alla guerra civile, dalla NEP alla nascita dell'URSS.",
+ "durata_s": 2100.367,
  "argomenti": [
   {
    "n": 5,
    "titolo": "I primi provvedimenti bolscevichi",
-   "inizio_s": 84.633,
-   "quiz_s": 405.333
+   "inizio_s": 86.567,
+   "quiz_s": 450.833
   },
   {
    "n": 6,
    "titolo": "Brest-Litovsk e la guerra civile",
-   "inizio_s": 409.933,
-   "quiz_s": 863.967
+   "inizio_s": 455.833,
+   "quiz_s": 939.1
   },
   {
    "n": 7,
    "titolo": "Il «Comunismo di guerra»",
-   "inizio_s": 868.567,
-   "quiz_s": 1025.167
+   "inizio_s": 944.1,
+   "quiz_s": 1219.533
   },
   {
    "n": 8,
    "titolo": "La Nuova Politica Economica (NEP)",
-   "inizio_s": 1029.767,
-   "quiz_s": 1375.133
+   "inizio_s": 1224.533,
+   "quiz_s": 1591.5
   },
   {
    "n": 9,
    "titolo": "La nascita dell'URSS e la successione",
-   "inizio_s": 1379.733,
-   "quiz_s": 1695.3
+   "inizio_s": 1596.5,
+   "quiz_s": 1963.333
   }
  ],
  "quiz": {
@@ -47,7 +47,8 @@
       "Il ritorno delle terre alla Chiesa",
       "Una tassa sulla terra per i contadini"
      ],
-     "e": "La grande proprietà fondiaria viene abolita e la terra ridistribuita tra i contadini."
+     "e": "La grande proprietà fondiaria viene abolita e la terra ridistribuita tra i contadini.",
+     "ref": "La grande proprietà fondiaria viene abolita e la terra ridistribuita tra i contadini."
     },
     {
      "p": "Quale diritto introduce la Costituzione del 1918?",
@@ -57,7 +58,8 @@
       "Il potere assoluto del capo del governo",
       "Il ritorno della monarchia"
      ],
-     "e": "La Costituzione sancisce la parità tra i sessi e il suffragio universale."
+     "e": "La Costituzione sancisce la parità tra i sessi e il suffragio universale.",
+     "ref": "La Costituzione sancisce la parità tra i sessi e il suffragio universale."
     },
     {
      "p": "Quale percentuale di voti ottengono i bolscevichi alle elezioni per l'Assemblea costituente?",
@@ -67,7 +69,8 @@
       "Il 75%",
       "Il 50,1%"
      ],
-     "e": "I bolscevichi ottengono solo il 21,7%; i socialisti rivoluzionari circa il 58%."
+     "e": "I bolscevichi ottengono solo il 21,7%; i socialisti rivoluzionari circa il 58%.",
+     "ref": "I bolscevichi ottengono solo il 21,7%; i socialisti rivoluzionari circa il 58%."
     },
     {
      "p": "Che cosa fa Lenin dell'Assemblea costituente nel gennaio 1918?",
@@ -77,7 +80,8 @@
       "Ne diventa presidente",
       "La trasferisce a Mosca"
      ],
-     "e": "Lenin scioglie l'Assemblea, ritenendola superata dal potere dei soviet."
+     "e": "Lenin scioglie l'Assemblea, ritenendola superata dal potere dei soviet.",
+     "ref": "Lenin scioglie l'Assemblea, ritenendola superata dal potere dei soviet."
     },
     {
      "p": "Che cos'era la Ceka?",
@@ -87,7 +91,8 @@
       "Un decreto sulla terra",
       "L'esercito dei bianchi"
      ],
-     "e": "Nata nel dicembre 1917, doveva individuare, arrestare e colpire i dissidenti."
+     "e": "Nata nel dicembre 1917, doveva individuare, arrestare e colpire i dissidenti.",
+     "ref": "Nata nel dicembre 1917, doveva individuare, arrestare e colpire i dissidenti."
     }
    ]
   },
@@ -102,7 +107,8 @@
       "Mosca e Pietrogrado",
       "Solo la Crimea"
      ],
-     "e": "Per uscire dalla guerra la Russia accetta condizioni durissime e rinuncia a vasti territori."
+     "e": "Per uscire dalla guerra la Russia accetta condizioni durissime e rinuncia a vasti territori.",
+     "ref": "Per uscire dalla guerra la Russia accetta condizioni durissime e rinuncia a vasti territori."
     },
     {
      "p": "Chi guida l'Armata rossa?",
@@ -112,7 +118,8 @@
       "Il principe L'vov",
       "Aleksandr Kerenskij"
      ],
-     "e": "Trockij trasforma l'Armata rossa in un esercito regolare di leva."
+     "e": "Trockij trasforma l'Armata rossa in un esercito regolare di leva.",
+     "ref": "Trockij trasforma l'Armata rossa in un esercito regolare di leva."
     },
     {
      "p": "Chi fa parte delle Armate bianche?",
@@ -122,7 +129,8 @@
       "I marinai di Kronstadt",
       "I bolscevichi dissidenti"
      ],
-     "e": "È una coalizione controrivoluzionaria, aiutata da truppe delle potenze occidentali."
+     "e": "È una coalizione controrivoluzionaria, aiutata da truppe delle potenze occidentali.",
+     "ref": "È una coalizione controrivoluzionaria, aiutata da truppe delle potenze occidentali."
     },
     {
      "p": "Dove viene uccisa la famiglia dello zar?",
@@ -132,7 +140,8 @@
       "A Pietrogrado",
       "A Riga"
      ],
-     "e": "Nel luglio 1918 Nicola II e la famiglia imperiale vengono fucilati a Ekaterinburg."
+     "e": "Nel luglio 1918 Nicola II e la famiglia imperiale vengono fucilati a Ekaterinburg.",
+     "ref": "Nel luglio 1918 Nicola II e la famiglia imperiale vengono fucilati a Ekaterinburg."
     },
     {
      "p": "Con quale pace si chiude la guerra contro la Polonia?",
@@ -142,7 +151,8 @@
       "La pace di Versailles",
       "La pace di Kronstadt"
      ],
-     "e": "La pace di Riga, nel marzo 1921, fissa i confini orientali polacchi."
+     "e": "La pace di Riga, nel marzo 1921, fissa i confini orientali polacchi.",
+     "ref": "La pace di Riga, nel marzo 1921, fissa i confini orientali polacchi."
     }
    ]
   },
@@ -157,7 +167,8 @@
       "Per preparare le elezioni",
       "Per restituire la terra ai nobili"
      ],
-     "e": "È un regime economico d'emergenza per la guerra civile."
+     "e": "È un regime economico d'emergenza per la guerra civile.",
+     "ref": "È un regime economico d'emergenza per la guerra civile."
     },
     {
      "p": "Che cosa sono le requisizioni forzate?",
@@ -167,7 +178,8 @@
       "La vendita libera dei raccolti",
       "Un prestito ai contadini"
      ],
-     "e": "Squadre governative sequestrano il grano e lasciano ai contadini solo il necessario."
+     "e": "Squadre governative sequestrano il grano e lasciano ai contadini solo il necessario.",
+     "ref": "Squadre governative sequestrano il grano e lasciano ai contadini solo il necessario."
     },
     {
      "p": "Chi erano gli «uomini con il sacco»?",
@@ -177,7 +189,8 @@
       "Funzionari della Ceka",
       "Ministri del governo provvisorio"
      ],
-     "e": "Viaggiavano tra campagne e città barattando generi alimentari, contro le regole."
+     "e": "Viaggiavano tra campagne e città barattando generi alimentari, contro le regole.",
+     "ref": "Viaggiavano tra campagne e città barattando generi alimentari, contro le regole."
     },
     {
      "p": "Come reagiscono molti contadini alle requisizioni?",
@@ -187,7 +200,8 @@
       "Si arruolano nelle Armate bianche in massa",
       "Si trasferiscono in Svizzera"
      ],
-     "e": "L'opposizione rurale diventa una guerriglia sotterranea e nasce il mercato nero."
+     "e": "L'opposizione rurale diventa una guerriglia sotterranea e nasce il mercato nero.",
+     "ref": "L'opposizione rurale diventa una guerriglia sotterranea e nasce il mercato nero."
     },
     {
      "p": "Che bilancio lasciano guerra civile, malattie e carestie tra il 1918 e il 1922?",
@@ -197,7 +211,8 @@
       "Pochi danni nelle campagne",
       "La fine delle carestie"
      ],
-     "e": "La carestia del 1921 e le malattie causano milioni di morti."
+     "e": "La carestia del 1921 e le malattie causano milioni di morti.",
+     "ref": "La carestia del 1921 e le malattie causano milioni di morti."
     }
    ]
   },
@@ -212,7 +227,8 @@
       "Gli uomini con il sacco",
       "I contadini ucraini"
      ],
-     "e": "Erano stati protagonisti della rivoluzione del 1917 e ora si ribellano alla dittatura di partito."
+     "e": "Erano stati protagonisti della rivoluzione del 1917 e ora si ribellano alla dittatura di partito.",
+     "ref": "Erano stati protagonisti della rivoluzione del 1917 e ora si ribellano alla dittatura di partito."
     },
     {
      "p": "Che cosa chiedono i ribelli di Kronstadt?",
@@ -222,7 +238,8 @@
       "Più requisizioni",
       "La guerra alla Polonia"
      ],
-     "e": "Chiedono libertà politiche ed elettorali e la fine delle requisizioni; la rivolta viene repressa."
+     "e": "Chiedono libertà politiche ed elettorali e la fine delle requisizioni; la rivolta viene repressa.",
+     "ref": "Chiedono libertà politiche ed elettorali e la fine delle requisizioni; la rivolta viene repressa."
     },
     {
      "p": "Che cosa sostituisce le requisizioni con la NEP?",
@@ -232,7 +249,8 @@
       "La confisca delle terre",
       "Una moneta nuova per i contadini"
      ],
-     "e": "Il contadino versa una parte fissa del prodotto e il resto lo tiene."
+     "e": "Il contadino versa una parte fissa del prodotto e il resto lo tiene.",
+     "ref": "Il contadino versa una parte fissa del prodotto e il resto lo tiene."
     },
     {
      "p": "Che cosa possono fare i contadini con le eccedenze?",
@@ -242,7 +260,8 @@
       "Distruggerle",
       "Darle all'Armata rossa"
      ],
-     "e": "La NEP concede ai contadini la libertà di vendere le eccedenze."
+     "e": "La NEP concede ai contadini la libertà di vendere le eccedenze.",
+     "ref": "La NEP concede ai contadini la libertà di vendere le eccedenze."
     },
     {
      "p": "Quali «grandi leve» restano allo Stato con la NEP?",
@@ -252,7 +271,8 @@
       "Il commercio interno al dettaglio",
       "Le terre dei contadini"
      ],
-     "e": "Lo Stato tiene le grandi leve; le piccole imprese tornano ai privati."
+     "e": "Lo Stato tiene le grandi leve; le piccole imprese tornano ai privati.",
+     "ref": "Lo Stato tiene le grandi leve; le piccole imprese tornano ai privati."
     }
    ]
   },
@@ -267,7 +287,8 @@
       "Il 3 marzo 1918",
       "Nel gennaio 1924"
      ],
-     "e": "L'Unione delle Repubbliche Socialiste Sovietiche nasce a fine 1922, con capitale Mosca."
+     "e": "L'Unione delle Repubbliche Socialiste Sovietiche nasce a fine 1922, con capitale Mosca.",
+     "ref": "L'Unione delle Repubbliche Socialiste Sovietiche nasce a fine 1922, con capitale Mosca."
     },
     {
      "p": "Quale città è la capitale dell'URSS?",
@@ -277,7 +298,8 @@
       "Kiev",
       "Ekaterinburg"
      ],
-     "e": "La capitale era stata spostata a Mosca già nel marzo 1918."
+     "e": "La capitale era stata spostata a Mosca già nel marzo 1918.",
+     "ref": "La capitale era stata spostata a Mosca già nel marzo 1918."
     },
     {
      "p": "Quali repubbliche si uniscono alla Russia nell'URSS?",
@@ -287,7 +309,8 @@
       "Germania e Austria",
       "Solo la Siberia"
      ],
-     "e": "La Transcaucasia comprende Armenia, Georgia e Azerbaigian."
+     "e": "La Transcaucasia comprende Armenia, Georgia e Azerbaigian.",
+     "ref": "La Transcaucasia comprende Armenia, Georgia e Azerbaigian."
     },
     {
      "p": "Dove si trova il potere reale nell'URSS?",
@@ -297,7 +320,8 @@
       "Nelle singole repubbliche",
       "Nell'Assemblea costituente"
      ],
-     "e": "La federazione è solo formale: il Politburo detta la linea a tutto lo Stato."
+     "e": "La federazione è solo formale: il Politburo detta la linea a tutto lo Stato.",
+     "ref": "La federazione è solo formale: il Politburo detta la linea a tutto lo Stato."
     },
     {
      "p": "Chi si contende la successione a Lenin?",
@@ -307,7 +331,8 @@
       "L'vov e Rasputin",
       "Nicola II e suo fratello"
      ],
-     "e": "Alla morte di Lenin, nel 1924, si scontrano Trockij e Stalin, segretario generale del partito."
+     "e": "Alla morte di Lenin, nel 1924, si scontrano Trockij e Stalin, segretario generale del partito.",
+     "ref": "Alla morte di Lenin, nel 1924, si scontrano Trockij e Stalin, segretario generale del partito."
     }
    ]
   }

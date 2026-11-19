@@ -1,32 +1,32 @@
 {
- "materia": "Storia",
- "titolo": "Storia V · Lezione 5 · La Rivoluzione russa e la nascita dell'URSS (1917-1922)",
- "parte": 1,
- "durata_s": 2486.933,
+ "materia": "Storia V",
+ "titolo": "Storia V · Lezione 5 · La Rivoluzione russa e la nascita dell'URSS (1917-1922) · Parte 1",
+ "descrizione": "Videolezione del prof. Giorgio Mazzotti sulla Rivoluzione russa: dalla crisi dello zarismo alla nascita dell'URSS.",
+ "durata_s": 2673.2,
  "argomenti": [
   {
    "n": 1,
    "titolo": "La crisi della Russia zarista",
-   "inizio_s": 220.233,
-   "quiz_s": 608.367
+   "inizio_s": 222.367,
+   "quiz_s": 666.7
   },
   {
    "n": 2,
    "titolo": "La Rivoluzione di Febbraio (1917)",
-   "inizio_s": 612.967,
-   "quiz_s": 1235.933
+   "inizio_s": 671.7,
+   "quiz_s": 1298.1
   },
   {
    "n": 3,
    "titolo": "Dualismo di potere e Lenin",
-   "inizio_s": 1240.533,
-   "quiz_s": 1756.733
+   "inizio_s": 1303.1,
+   "quiz_s": 1905.167
   },
   {
    "n": 4,
    "titolo": "Dalle giornate di luglio a Ottobre",
-   "inizio_s": 1761.333,
-   "quiz_s": 2372.0
+   "inizio_s": 1910.167,
+   "quiz_s": 2570.233
   }
  ],
  "quiz": {
@@ -41,7 +41,8 @@
       "Fa crescere l'industria dei beni di consumo",
       "Porta a una rapida vittoria sulla Germania"
      ],
-     "e": "La partecipazione al conflitto accentua difficoltà che esistevano da tempo e rende la situazione sociale insostenibile."
+     "e": "La partecipazione al conflitto accentua difficoltà che esistevano da tempo e rende la situazione sociale insostenibile.",
+     "ref": "La partecipazione al conflitto accentua difficoltà che esistevano da tempo e rende la situazione sociale insostenibile."
     },
     {
      "p": "Perché l'esercito russo non riesce a rifornire le truppe?",
@@ -51,7 +52,8 @@
       "Per il blocco dei porti del Mar Nero",
       "Per un ammutinamento della marina"
      ],
-     "e": "Le ferrovie meno sviluppate di quelle tedesche e austriache paralizzano i rifornimenti."
+     "e": "Le ferrovie meno sviluppate di quelle tedesche e austriache paralizzano i rifornimenti.",
+     "ref": "Le ferrovie meno sviluppate di quelle tedesche e austriache paralizzano i rifornimenti."
     },
     {
      "p": "Che cosa succede nelle città russe durante la guerra?",
@@ -61,7 +63,8 @@
       "Arrivano grano e viveri dall'Ucraina",
       "Le fabbriche producono più vestiti e mobili"
      ],
-     "e": "La riconversione industriale per la guerra riduce i beni di consumo; mancano il pane e il cibo."
+     "e": "La riconversione industriale per la guerra riduce i beni di consumo; mancano il pane e il cibo.",
+     "ref": "La riconversione industriale per la guerra riduce i beni di consumo; mancano il pane e il cibo."
     },
     {
      "p": "Che ruolo lascia Nicola II alla Duma?",
@@ -71,7 +74,8 @@
       "Il comando dell'esercito",
       "Il potere di dichiarare guerra"
      ],
-     "e": "Lo zar difende il potere assoluto e riduce il parlamento a un'istituzione priva di reali prerogative."
+     "e": "Lo zar difende il potere assoluto e riduce il parlamento a un'istituzione priva di reali prerogative.",
+     "ref": "Lo zar difende il potere assoluto e riduce il parlamento a un'istituzione priva di reali prerogative."
     },
     {
      "p": "Chi era Grigorij Rasputin?",
@@ -81,7 +85,8 @@
       "Il generale sconfitto a Tannenberg",
       "Il fondatore del partito dei cadetti"
      ],
-     "e": "Era un santone religioso con grande influenza a corte; fu ucciso nel dicembre 1916."
+     "e": "Era un santone religioso con grande influenza a corte; fu ucciso nel dicembre 1916.",
+     "ref": "Era un santone religioso con grande influenza a corte; fu ucciso nel dicembre 1916."
     }
    ]
   },
@@ -96,7 +101,8 @@
       "A Ekaterinburg",
       "A Kronstadt"
      ],
-     "e": "Le proteste scoppiano a Pietrogrado, cioè San Pietroburgo, la capitale imperiale."
+     "e": "Le proteste scoppiano a Pietrogrado, cioè San Pietroburgo, la capitale imperiale.",
+     "ref": "Le proteste scoppiano a Pietrogrado, cioè San Pietroburgo, la capitale imperiale."
     },
     {
      "p": "Chi guida le prime proteste di febbraio?",
@@ -106,7 +112,8 @@
       "I nobili della Duma",
       "I marinai di Kronstadt"
      ],
-     "e": "Le proteste sono guidate da donne in coda per il pane, a cui si uniscono gli operai in sciopero."
+     "e": "Le proteste sono guidate da donne in coda per il pane, a cui si uniscono gli operai in sciopero.",
+     "ref": "Le proteste sono guidate da donne in coda per il pane, a cui si uniscono gli operai in sciopero."
     },
     {
      "p": "Che cosa fanno i soldati mandati a reprimere le proteste?",
@@ -116,7 +123,8 @@
       "Arrestano gli operai",
       "Tornano subito al fronte"
      ],
-     "e": "I soldati scelgono di solidarizzare con la folla e la classe dirigente resta isolata."
+     "e": "I soldati scelgono di solidarizzare con la folla e la classe dirigente resta isolata.",
+     "ref": "I soldati scelgono di solidarizzare con la folla e la classe dirigente resta isolata."
     },
     {
      "p": "Perché per noi la Rivoluzione di febbraio cade a marzo?",
@@ -126,7 +134,8 @@
       "Perché lo zar abdicò ad aprile",
       "Perché i giornali ne parlarono in ritardo"
      ],
-     "e": "La Russia usava il calendario giuliano, diverso dal gregoriano dell'Europa occidentale."
+     "e": "La Russia usava il calendario giuliano, diverso dal gregoriano dell'Europa occidentale.",
+     "ref": "La Russia usava il calendario giuliano, diverso dal gregoriano dell'Europa occidentale."
     },
     {
      "p": "Chi guida il governo provvisorio nato dopo l'abdicazione?",
@@ -136,7 +145,8 @@
       "Il generale Kornilov",
       "Lev Trockij"
      ],
-     "e": "Le forze liberali formano un governo provvisorio guidato dal principe L'vov."
+     "e": "Le forze liberali formano un governo provvisorio guidato dal principe L'vov.",
+     "ref": "Le forze liberali formano un governo provvisorio guidato dal principe L'vov."
     }
    ]
   },
@@ -151,7 +161,8 @@
       "Il governo di due zar",
       "La guerra tra Russia e Germania"
      ],
-     "e": "Il potere ufficiale del governo provvisorio è limitato e contrastato dai soviet."
+     "e": "Il potere ufficiale del governo provvisorio è limitato e contrastato dai soviet.",
+     "ref": "Il potere ufficiale del governo provvisorio è limitato e contrastato dai soviet."
     },
     {
      "p": "Che cosa sono i soviet?",
@@ -161,7 +172,8 @@
       "Reparti della polizia politica",
       "Partiti della borghesia"
      ],
-     "e": "Sono assemblee di operai e soldati nate spontaneamente nelle fabbriche e nei reparti."
+     "e": "Sono assemblee di operai e soldati nate spontaneamente nelle fabbriche e nei reparti.",
+     "ref": "Sono assemblee di operai e soldati nate spontaneamente nelle fabbriche e nei reparti."
     },
     {
      "p": "Qual è la posizione del governo provvisorio sulla guerra?",
@@ -171,7 +183,8 @@
       "Vuole allearsi con la Germania",
       "Vuole sciogliere l'esercito"
      ],
-     "e": "Il governo provvisorio intende proseguire il conflitto a fianco delle potenze occidentali."
+     "e": "Il governo provvisorio intende proseguire il conflitto a fianco delle potenze occidentali.",
+     "ref": "Il governo provvisorio intende proseguire il conflitto a fianco delle potenze occidentali."
     },
     {
      "p": "Perché i tedeschi facilitano il ritorno di Lenin in Russia?",
@@ -181,7 +194,8 @@
       "Per farlo arrestare al confine",
       "Perché volevano che diventasse zar"
      ],
-     "e": "Le autorità tedesche vedevano in Lenin un elemento di destabilizzazione interna."
+     "e": "Le autorità tedesche vedevano in Lenin un elemento di destabilizzazione interna.",
+     "ref": "Le autorità tedesche vedevano in Lenin un elemento di destabilizzazione interna."
     },
     {
      "p": "Quale slogan riassume le Tesi di aprile?",
@@ -191,7 +205,8 @@
       "«Tutto il potere alla Duma»",
       "«La guerra fino alla vittoria»"
      ],
-     "e": "Lenin chiede il trasferimento di tutto il potere ai soviet, l'uscita dalla guerra e la nazionalizzazione delle terre."
+     "e": "Lenin chiede il trasferimento di tutto il potere ai soviet, l'uscita dalla guerra e la nazionalizzazione delle terre.",
+     "ref": "Lenin chiede il trasferimento di tutto il potere ai soviet, l'uscita dalla guerra e la nazionalizzazione delle terre."
     }
    ]
   },
@@ -206,7 +221,8 @@
       "La morte dello zar",
       "La firma della pace con la Germania"
      ],
-     "e": "La disastrosa offensiva in Galizia innesca nuove rivolte a Pietrogrado."
+     "e": "La disastrosa offensiva in Galizia innesca nuove rivolte a Pietrogrado.",
+     "ref": "La disastrosa offensiva in Galizia innesca nuove rivolte a Pietrogrado."
     },
     {
      "p": "Dove si rifugia Lenin dopo le giornate di luglio?",
@@ -216,7 +232,8 @@
       "In Germania",
       "In Polonia"
      ],
-     "e": "Il governo accusa i bolscevichi di tradimento e Lenin è costretto a fuggire in Finlandia."
+     "e": "Il governo accusa i bolscevichi di tradimento e Lenin è costretto a fuggire in Finlandia.",
+     "ref": "Il governo accusa i bolscevichi di tradimento e Lenin è costretto a fuggire in Finlandia."
     },
     {
      "p": "Che cosa tenta di fare il generale Kornilov?",
@@ -226,7 +243,8 @@
       "Proclamare la repubblica dei soviet",
       "Firmare la pace con la Germania"
      ],
-     "e": "Kornilov marcia su Pietrogrado, ma il golpe viene sventato anche grazie ai bolscevichi."
+     "e": "Kornilov marcia su Pietrogrado, ma il golpe viene sventato anche grazie ai bolscevichi.",
+     "ref": "Kornilov marcia su Pietrogrado, ma il golpe viene sventato anche grazie ai bolscevichi."
     },
     {
      "p": "Chi occupa il Palazzo d'Inverno il 25 ottobre 1917?",
@@ -236,7 +254,8 @@
       "I soldati di Kornilov",
       "I marinai inglesi"
      ],
-     "e": "Le Guardie rosse bolsceviche occupano il Palazzo d'Inverno e Kerenskij fugge."
+     "e": "Le Guardie rosse bolsceviche occupano il Palazzo d'Inverno e Kerenskij fugge.",
+     "ref": "Le Guardie rosse bolsceviche occupano il Palazzo d'Inverno e Kerenskij fugge."
     },
     {
      "p": "Che cos'è il Consiglio dei commissari del popolo?",
@@ -246,7 +265,8 @@
       "Un'assemblea dei menscevichi",
       "Il comando delle Armate bianche"
      ],
-     "e": "Dopo l'uscita di menscevichi e socialrivoluzionari, i bolscevichi formano da soli il nuovo governo."
+     "e": "Dopo l'uscita di menscevichi e socialrivoluzionari, i bolscevichi formano da soli il nuovo governo.",
+     "ref": "Dopo l'uscita di menscevichi e socialrivoluzionari, i bolscevichi formano da soli il nuovo governo."
     }
    ]
   }
