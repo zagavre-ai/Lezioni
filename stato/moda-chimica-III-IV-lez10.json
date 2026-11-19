@@ -2,9 +2,167 @@
  "tag": "moda-chimica-III-IV-lez10",
  "parti": {
   "1": {
-   "titolo": "Ausiliari",
-   "stato": "IN_CODIFICA",
-   "voci": "kore"
+   "titolo": "Ausiliari · Parte 1",
+   "stato": "PRONTA",
+   "voci": "kore",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "si",
+   "video": "Chimica_Lez10_Parte1_1080p.mp4",
+   "durata_s": 1880.8,
+   "durata": "31:20.8",
+   "fotogrammi": 56424,
+   "fotogrammi_attesi": 56424,
+   "peso_MB": 174.8,
+   "vtt": "Chimica_Lez10_Parte1.vtt",
+   "scheda": {
+    "materia": "Chimica applicata e nobilitazione dei materiali",
+    "titolo": "Ausiliari · Parte 1",
+    "durata_s": 1880.8,
+    "argomenti": [
+     {
+      "n": 1,
+      "titolo": "Ausiliari tessili",
+      "inizio_s": 95.866,
+      "quiz_s": 1459.266
+     },
+     {
+      "n": 2,
+      "titolo": "Oleanti e imbozzimatura",
+      "inizio_s": 1464.566,
+      "quiz_s": 1872.766
+     }
+    ],
+    "quiz": {
+     "Q1": {
+      "title": "Quiz 1 · Ausiliari tessili",
+      "items": [
+       {
+        "p": "Che cosa sono gli ausiliari tessili?",
+        "a": "Composti chimici che facilitano l'ottenimento del prodotto nei processi tessili",
+        "w": [
+         "Fibre sintetiche di nuova generazione",
+         "Macchine per la tessitura",
+         "Coloranti naturali"
+        ],
+        "ref": "Si usano per agevolare la produzione tra fibra e tessuto."
+       },
+       {
+        "p": "Che cosa sono gli addensanti artificiali?",
+        "a": "Eteri ottenuti per alchilazione di cellulosa, amido e gomme naturali",
+        "w": [
+         "Resine poliviniliche",
+         "Sali di ammonio",
+         "Oli minerali"
+        ],
+        "ref": "Gli eteri complessi, insolubili, sono appretti; quelli semplici sono bozzime."
+       },
+       {
+        "p": "Perché gli eteri semplici si usano come bozzime?",
+        "a": "Perché si asportano con un semplice risciacquo",
+        "w": [
+         "Perché sono insolubili",
+         "Perché sono infiammabili",
+         "Perché sono colorati"
+        ],
+        "ref": "Gli eteri più complessi restano sulla fibra e si usano come appretti."
+       },
+       {
+        "p": "A che cosa servono le sostanze caricanti?",
+        "a": "Ad aumentare il peso del tessuto",
+        "w": [
+         "A ridurre l'infiammabilità",
+         "A rendere impermeabile il tessuto",
+         "A candeggiare"
+        ],
+        "ref": "Si usano soprattutto sulla seta, per recuperare il peso perso con la sgommatura."
+       },
+       {
+        "p": "Quali composti rendono il tessuto antisporco?",
+        "a": "I composti fluorurati, come il teflon",
+        "w": [
+         "I siliconi a basso peso",
+         "La glicerina",
+         "I cloruri di calcio"
+        ],
+        "ref": "Isolano la fibra dall'esterno con resine filmanti."
+       }
+      ]
+     },
+     "Q2": {
+      "title": "Quiz 2 · Oleanti e imbozzimatura",
+      "items": [
+       {
+        "p": "A che cosa servono gli oleanti tessili?",
+        "a": "A diminuire gli attriti e le rotture dei fili",
+        "w": [
+         "A candeggiare i fili",
+         "A tingere i fili",
+         "A rendere i fili ignifughi"
+        ],
+        "ref": "Si usano insieme alle bozzime per agevolare la tessitura."
+       },
+       {
+        "p": "Quale percentuale di oleanti serve per un filato cardato?",
+        "a": "Dal 3 al 6%",
+        "w": [
+         "Il 20%",
+         "Lo 0,1%",
+         "Il 50%"
+        ],
+        "ref": "Per il pettinato basta l'1%."
+       },
+       {
+        "p": "Quali bozzime si usano per le fibre sintetiche?",
+        "a": "Bozzime sintetiche",
+        "w": [
+         "Bozzime naturali",
+         "Amido",
+         "Nessuna bozzima"
+        ],
+        "ref": "Le bozzime naturali si usano per le fibre naturali e artificiali."
+       },
+       {
+        "p": "Quale concentrazione di bozzima ha il bagno nell'imbozzimatrice?",
+        "a": "Il 4–5%",
+        "w": [
+         "Il 40–50%",
+         "Lo 0,4%",
+         "Il 100%"
+        ],
+        "ref": "I fili di ordito sono immersi nel bagno, poi passano nei cilindri spremitori."
+       },
+       {
+        "p": "Quanti sono di solito i tamburi asciugatori?",
+        "a": "In numero dispari, 7 o 9",
+        "w": [
+         "Sempre 2",
+         "Sempre 10",
+         "Uno solo"
+        ],
+        "ref": "Sono riscaldati a vapore, e i primi sono meno caldi."
+       }
+      ]
+     }
+    }
+   },
+   "timeline": [
+    [
+     "T1",
+     95.866,
+     3.6
+    ],
+    [
+     "Q1",
+     1459.266,
+     4.0
+    ],
+    [
+     "T2",
+     1464.566,
+     3.6
+    ]
+   ]
   }
  },
  "manca": "",
@@ -22,10 +180,14 @@
   {
    "quando": "16/11 05:00",
    "testo": "Lez10 Ausiliari: 71:15 (4275,0 s), 128248 fotogrammi, 233,3 MB, 1080p CRF 19; 5 argomenti; t_verifica 4236,6 s, t_compiti 4254,9 s. Sincronia 10 punti max 0,09 s. Parte unica lunga, divisione a scelta master. Consegna su consegna-moda-chimica-III-IV-lez10. Ascoltare a campione le voci."
+  },
+  {
+   "quando": "19/11 00:16",
+   "testo": "Parte 1: durata misurata 31:20.8 (1880.8 s), 1080p CRF 18, 167 MB.  Consegna su consegna-moda-chimica-III-IV-lez10 (Parte 1: argomenti 1-2; Parte 2: 3-5 + chiusura). Sigla Chimica nuova in testa a ogni Parte; Parte 1 chiude con la sigla finale. Sincronia: scarto massimo 0,75 s (Parte 1), 0,37 s (Parte 2). Ascoltare a campione le voci Kore."
   }
  ],
  "materia": "Moda III+IV · Chimica applicata e nobilitazione dei materiali",
  "lezione": "Ausiliari",
  "docente": "Prof.ssa Piera Caputi",
- "aggiornato": "2026-11-16 05:00:03"
+ "aggiornato": "2026-11-19 00:16:13"
 }
