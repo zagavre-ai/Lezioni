@@ -2,47 +2,47 @@
  "tag": "moda-chimica-III-IV-lez02",
  "parti": {
   "1": {
-   "titolo": "Lana",
+   "titolo": "Lana · Parte 1",
    "stato": "PRONTA",
    "voci": "kore",
    "quiz_ok": "si",
    "fermi_ok": "si",
    "sub_ok": "si",
    "video": "Chimica_Lez2_Parte1_1080p.mp4",
-   "durata_s": 3404.4,
-   "durata": "56:44.4",
-   "fotogrammi": 102132,
-   "fotogrammi_attesi": 102133,
-   "peso_MB": 179.7,
+   "durata_s": 3400.5,
+   "durata": "56:40.5",
+   "fotogrammi": 102015,
+   "fotogrammi_attesi": 102016,
+   "peso_MB": 307.5,
    "vtt": "Chimica_Lez2_Parte1.vtt",
    "scheda": {
     "materia": "Chimica applicata e nobilitazione dei materiali",
     "titolo": "Lana · Parte 1",
-    "durata_s": 3404.43,
+    "durata_s": 3400.53,
     "argomenti": [
      {
       "n": 1,
       "titolo": "Struttura e composizione della lana",
-      "inizio_s": 97.199,
-      "quiz_s": 1119.599
+      "inizio_s": 93.299,
+      "quiz_s": 1115.699
      },
      {
       "n": 2,
       "titolo": "Lana sucida e proprietà",
-      "inizio_s": 1124.899,
-      "quiz_s": 2046.132
+      "inizio_s": 1120.999,
+      "quiz_s": 2042.232
      },
      {
       "n": 3,
       "titolo": "Reattività chimica e manutenzione",
-      "inizio_s": 2051.432,
-      "quiz_s": 2615.132
+      "inizio_s": 2047.532,
+      "quiz_s": 2611.232
      },
      {
       "n": 4,
       "titolo": "Classificazioni e analisi di laboratorio",
-      "inizio_s": 2620.432,
-      "quiz_s": 3155.198
+      "inizio_s": 2616.532,
+      "quiz_s": 3151.298
      }
     ],
     "quiz": {
@@ -271,42 +271,42 @@
    "timeline": [
     [
      "T1",
-     97.199,
+     93.299,
      3.6
     ],
     [
      "Q1",
-     1119.599,
+     1115.699,
      4.0
     ],
     [
      "T2",
-     1124.899,
+     1120.999,
      3.6
     ],
     [
      "T3",
-     2051.432,
+     2047.532,
      3.6
     ],
     [
      "T4",
-     2620.432,
+     2616.532,
      3.6
     ],
     [
      "GL1",
-     3160.498,
+     3156.598,
      83.833
     ],
     [
      "RF1",
-     3245.931,
+     3242.031,
      69.767
     ],
     [
      "FIN1",
-     3354.031,
+     3350.131,
      10.467
     ]
    ]
@@ -331,10 +331,14 @@
   {
    "quando": "15/11 23:02",
    "testo": "PRONTA 15/11, sistemata con sincronia parola per parola. Durata 56:44,4 (una Parte), 102132 fotogrammi, 179,7 MB, 1080p CRF 19, -16 LUFS. t_verifica=3366.1 s, t_compiti=3384.4 s. Consegna: ramo consegna-moda-chimica-III-IV-lez02 (2 pezzi da 90 MiB + sha256, vtt, scheda, testo YouTube, quiz 20 domande, test del docente, compiti.json, Mappe PDF, dispensa, LEGGIMI). Sincronia: 10 punti a caso, scarto medio 0,09 s, max 0,21 s. Fermi: 2 segnalati dal controllo (D0 92,7 s = blocco di circa 0,5 s della webcam nel video originale; D3 2130,8 s webcam con poco movimento). Sottotitoli: controllo automatico 63% su 19 punti; controllo indipendente su 29 blocchi mediana 0,16 s, max 0,64 s. Voci da riascoltare: S2, GL1 (trascrizione automatica incerta su alcuni termini)."
+  },
+  {
+   "quando": "19/11 02:34",
+   "testo": "Parte 1: durata misurata 56:40.5 (3400.5 s), 1080p CRF 18, 294 MB. t_verifica 3362.2 s, t_compiti 3380.5 s. Consegna su consegna-moda-chimica-III-IV-lez02 (Parte unica, 4 argomenti). Sigla Chimica nuova in testa. Sincronia: massimo 0,21 s. Fermo immagine in D0 gia' nella sorgente. Ascoltare a campione le voci Kore."
   }
  ],
  "materia": "Moda III+IV · Chimica applicata e nobilitazione dei materiali",
  "lezione": "Lana",
  "docente": "Prof.ssa Piera Caputi",
- "aggiornato": "2026-11-15 23:02:20"
+ "aggiornato": "2026-11-19 02:34:22"
 }
