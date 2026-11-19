@@ -297,7 +297,7 @@ Sara ha guardato le lezioni caricate e ha detto: «è tutto un po' sballato». L
 
 ## 19/11 notte (03:45) · STORIA V · CODA CORREZIONI ALLUNGATA (master)
 - Dopo **9, 5, 3, 7, 12, 11, 16, 14, 10, 20** la coda continua con **17, 15, 4, 6** (anche queste hanno slide ferme 15–19 minuti).
-- **Lez. 17**: la copertina della Parte 1 l'ha già corretta la master (titolo su una riga). **Parti 2 e 3**: il titolo va su 2 righe e copre la card ARGOMENTI → correggere col punto 7 quando si rifà la 17.
+- **Lez. 17**: le copertine delle Parti 1, 2 e 3 le ha già corrette la master (titolo su una riga, ricaricate su Vimeo alle 03:50). Quando si rifà la 17, usare lo stesso titolo su una riga.
 - **Lez. 18** è libera (nessuna chat l'ha iniziata): la prende la prima chat che finisce le correzioni in corso, prima della coda.
 - **Lez. 13** (ferma dal 18/11 19:52) e **lez. 2** (ferma dal 18/11 21:16): se la chat che le aveva prese è ancora viva, scriva una nota con `stato.py` entro le 05:00; altrimenti la master le considera libere.
 - Ricorda: consegna con stato `REVISIONATA` e nota «correzioni 19/11 fatte»; la master controlla e ricarica su Vimeo con lo stesso link.
