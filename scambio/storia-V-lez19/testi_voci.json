@@ -228,5 +228,220 @@
   "nome": "COMPI",
   "testo": "Ora tocca a te: ecco i compiti.",
   "lingua": "it"
+ },
+ {
+  "nome": "MD1",
+  "testo": "Ecco la mappa del professor Mazzotti. Quali fenomeni politici caratterizzano gli anni Settanta? Il clima politico italiano vede, nel Sessantotto, la contestazione giovanile, seguita dalla mobilitazione operaia. Negli anni Settanta vede l'offensiva terrorista, di destra e di sinistra, con attentati dinamitardi e con attentati e sequestri.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MD2",
+  "testo": "Ecco la mappa del professor Mazzotti. Come viene affrontata l'emergenza degli anni di piombo? La situazione politica del Paese spinge Berlinguer a proporre un compromesso storico, e la Democrazia cristiana a proporre un governo di solidarietà nazionale. Ma le Brigate rosse rapiscono e uccidono Moro.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MD3",
+  "testo": "Ecco la mappa del professor Mazzotti, dedicata agli anni Novanta. Il Partito comunista diventa Partito democratico della sinistra. La Democrazia cristiana perde il ruolo di garante della posizione internazionale del Paese. Una inchiesta giudiziaria, nel millenovecentonovantadue, causa uno scandalo che travolge la Democrazia cristiana e i suoi alleati.",
+  "lingua": "it"
+ },
+ {
+  "nome": "P1",
+  "testo": "Ripassiamo insieme il Sessantotto e la protesta studentesca. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC1_1",
+  "testo": "La protesta degli studenti contro il sistema scolastico e l'autoritarismo.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC1_2",
+  "testo": "La richiesta di un mondo nuovo: antimperialismo e no alla guerra del Vietnam.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC1_3",
+  "testo": "L'Autunno caldo del millenovecentosessantanove: studenti e operai uniti.",
+  "lingua": "it"
+ },
+ {
+  "nome": "P2",
+  "testo": "Ripassiamo insieme l'Autunno caldo e le riforme. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC2_1",
+  "testo": "Scioperi di massa nelle grandi fabbriche del Nord.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC2_2",
+  "testo": "Nel millenovecentosettanta lo Statuto dei lavoratori.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC2_3",
+  "testo": "L'istituzione delle Regioni.",
+  "lingua": "it"
+ },
+ {
+  "nome": "P3",
+  "testo": "Ripassiamo insieme gli anni di piombo e lo stragismo. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC3_1",
+  "testo": "La violenza come arma politica: gli anni di piombo.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC3_2",
+  "testo": "La strategia della tensione: stragi neofasciste contro la popolazione.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC3_3",
+  "testo": "Le stragi: Piazza Fontana nel millenovecentosessantanove, Bologna nel millenovecentottanta.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC3_4",
+  "testo": "Il terrorismo di sinistra delle Brigate Rosse.",
+  "lingua": "it"
+ },
+ {
+  "nome": "P4",
+  "testo": "Ripassiamo insieme il caso Moro e la solidarietà nazionale. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC4_1",
+  "testo": "Via Fani, sedici marzo millenovecentosettantotto: rapito Aldo Moro.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC4_2",
+  "testo": "Cinquantacinque giorni di sequestro e la linea della fermezza.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC4_3",
+  "testo": "Nove maggio: il corpo di Moro in via Caetani.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC4_4",
+  "testo": "I partiti si uniscono nella solidarietà nazionale.",
+  "lingua": "it"
+ },
+ {
+  "nome": "P5",
+  "testo": "Ripassiamo insieme le conquiste sociali e la crisi energetica. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC5_1",
+  "testo": "Referendum sul divorzio, millenovecentosettantaquattro: vince il no.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC5_2",
+  "testo": "La legge del millenovecentosettantotto sulla maternità e l'aborto.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC5_3",
+  "testo": "Diritto di famiglia, millenovecentosettantacinque: parità tra i coniugi.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC5_4",
+  "testo": "La crisi del petrolio del millenovecentosettantatré: austerity e stagflazione.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC5_5",
+  "testo": "Scala mobile e Terza Italia: i distretti industriali.",
+  "lingua": "it"
+ },
+ {
+  "nome": "P6",
+  "testo": "Ripassiamo insieme gli anni Ottanta, il riflusso e il Pentapartito. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC6_1",
+  "testo": "Il riflusso: dalla piazza alla dimensione privata.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC6_2",
+  "testo": "La marcia dei quarantamila alla Fiat, millenovecentoottanta.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC6_3",
+  "testo": "Lo scandalo della Loggia P2, millenovecentoottantuno.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC6_4",
+  "testo": "La mafia attacca lo Stato: ucciso il generale Dalla Chiesa.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC6_5",
+  "testo": "Il Pentapartito e Bettino Craxi: presidente del Consiglio dal millenovecentottantatré.",
+  "lingua": "it"
+ },
+ {
+  "nome": "P7",
+  "testo": "Ripassiamo insieme Tangentopoli e il crollo dei partiti. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC7_1",
+  "testo": "La fine delle ideologie e la nascita della Lega Nord.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC7_2",
+  "testo": "Mani pulite, millenovecentonovantadue: i magistrati scoprono Tangentopoli.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC7_3",
+  "testo": "Le stragi di Capaci e via D'Amelio: Falcone e Borsellino.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC7_4",
+  "testo": "Crollano i partiti storici: finisce la Prima Repubblica.",
+  "lingua": "it"
+ },
+ {
+  "nome": "P8",
+  "testo": "Ripassiamo insieme la transizione e i governi tecnici. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC8_1",
+  "testo": "Il referendum del millenovecentonovantatré verso il maggioritario.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC8_2",
+  "testo": "La legge Mattarella: tre quarti maggioritario, un quarto proporzionale.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC8_3",
+  "testo": "I governi tecnici, guidati da figure indipendenti.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC8_4",
+  "testo": "Il governo Ciampi del millenovecentonovantatré.",
+  "lingua": "it"
  }
 ]
