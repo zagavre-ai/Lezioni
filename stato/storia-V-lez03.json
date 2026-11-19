@@ -30,7 +30,7 @@
    "vtt": "Storia_Lez3_Parte2.vtt"
   }
  },
- "manca": "montaggio finale, controlli, consegna",
+ "manca": "",
  "serve_master": [
   {
    "quando": "18/11 12:41",
@@ -80,20 +80,12 @@
    "testo": "Parte 2 consegnata sul ramo revisione-storia-V-lez03"
   },
   {
-   "quando": "19/11 04:02",
-   "testo": "IN_REVISIONE correzioni 19/11: presa da claude/nice-mccarthy-pwc7in"
-  },
-  {
-   "quando": "19/11 05:33",
-   "testo": "correzioni 19/11: video parti 1-2 montati, in corso controlli"
-  },
-  {
-   "quando": "19/11 05:53",
-   "testo": "correzioni 19/11 fatte"
+   "quando": "19/11 19:01",
+   "testo": "Consegnata: ramo revisione-storia-V-lez03, vedi RAPPORTO_REVISIONE.md"
   }
  ],
  "materia": "Storia V",
  "lezione": "Lezione 3 · L'Italia di Giolitti",
- "aggiornato": "2026-11-19 05:53:44",
+ "aggiornato": "2026-11-19 19:01:25",
  "docente": "Prof. Giorgio Mazzotti"
 }
