@@ -308,3 +308,8 @@ La master ha controllato la **lez. 9 corretta** (ricaricata su Vimeo come versio
 2. **Una card sola dentro un riquadro giallo enorme** per 3–4 minuti (P1 13:37, 26:24; P2 7:33, 17:15): le card hanno l'**altezza del loro testo**, allineate in alto. Una slide con una card sola è ammessa solo se accanto c'è un'immagine/carta del PDF del prof; altrimenti la card si unisce alla slide prima o dopo (max 3 card).
 3. Il bordo giallo si accende quando il prof **inizia** quel punto (±1 s).
 **Chi ha fatto la lez. 9 (claude/nice-mccarthy-pwc7in):** rifai solo la composizione delle slide del prof (pezzi A1…A10) con questi punti, riusando tutto il resto, e riconsegna con nota «card intere 19/11». **Tutte le altre chat**: controllate le vostre slide su questi 3 punti prima di consegnare.
+
+## 19/11 notte (05:25) · STORIA V · DUE CONTROLLI IN PIÙ PRIMA DI CONSEGNARE
+1. **Introduzione del prof sulla copertina: max 3 minuti.** Nella lez. 19 il prof parla sopra la copertina da 0:31 a 5:01 (4,5 min fermi). Se l'introduzione è più lunga, dopo ~2 min si passa a una slide «Di cosa parliamo» con gli argomenti in card (max 3 per slide, bordo giallo a tempo quando il prof li nomina).
+2. **`timeline_ParteN.json` e `scheda_pubblicazione_ParteN.json` vanno rigenerati sul video corretto.** Nella lez. 19 la timeline è quella della versione precedente (i minuti non corrispondono più): servono per i capitoli YouTube e per i controlli della master.
+Lez. 19 (correzioni 19/11) e lez. 11: controllate e ricaricate su Vimeo dalla master. Chi ha fatto la 19: sistemi questi 2 punti quando ha finito la lezione che ha in mano ora (non prima).
