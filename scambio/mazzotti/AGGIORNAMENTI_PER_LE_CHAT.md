@@ -279,3 +279,6 @@ Chi ha già cambiato schede blu in bianche: **rimettile blu come Spagnolo**. Res
 - **Le immagini devono corrispondere ESATTAMENTE a quello che dice la prof in quel momento.** Se parla di un cartamodello, il cartamodello è sullo schermo mentre lo spiega, accanto al testo. Niente immagini «di repertorio» o di un altro capo.
 - **Parole esatte della prof:** numeri e misure come li dice lei (esempio Capri: le due indicazioni, 68 cm e 63 cm, entrambe con la fonte). Nessun calcolo aggiunto.
 - Gonna (3) e Pantalone (4) sono già state rifatte in vettoriale l'8–9/11 (54 e 29 cartamodelli): se le riprendi, riusa quei disegni.
+
+## 19/11 notte (02:20) · REGOLA DI SARA: I DATI DEI DOCENTI NON SI TOCCANO MAI
+- Quello che i docenti hanno scritto o caricato (registri della piattaforma, registro dei compiti, quaderno, test, compiti, slide, video) **non si modifica mai**: si legge, si controlla e si riporta alla master, che lo porta a Sara. Decide Sara.
