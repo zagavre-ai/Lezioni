@@ -590,10 +590,14 @@
   {
    "quando": "19/11 00:57",
    "testo": "chat v3 00:58: Parte 1 ok (TUTTO OK, 52:48); Parte 2: trovato difetto (ultimo tratto del prof troncato), in rifacimento e ricodifica"
+  },
+  {
+   "quando": "19/11 01:00",
+   "testo": "chat v3 01:00: corretti riquadro prof (ombra grigia, niente bordo blu) e mappe piu grandi; rifaccio composizione, montaggio, codifica di entrambe le Parti (stima 75 min)"
   }
  ],
  "materia": "Storia V",
  "lezione": "Lezione 08",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-19 00:57:37"
+ "aggiornato": "2026-11-19 01:00:59"
 }
