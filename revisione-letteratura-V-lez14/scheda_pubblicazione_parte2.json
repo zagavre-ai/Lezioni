@@ -1,43 +1,43 @@
 {
  "materia": "Letteratura italiana (V)",
  "titolo": "Letteratura V · Lezione 14 · Pirandello · Parte 2",
- "durata_s": 2745.9,
+ "durata_s": 2829.92,
  "argomenti": [
   {
    "n": 1,
    "titolo": "Il teatro grottesco e Il giuoco delle parti",
    "inizio_s": 69.6,
-   "quiz_s": 280.833
+   "quiz_s": 294.833
   },
   {
    "n": 2,
    "titolo": "Sei personaggi in cerca d'autore",
-   "inizio_s": 286.133,
-   "quiz_s": 579.9
+   "inizio_s": 300.133,
+   "quiz_s": 607.9
   },
   {
    "n": 3,
    "titolo": "Enrico IV",
-   "inizio_s": 585.2,
-   "quiz_s": 778.733
+   "inizio_s": 613.2,
+   "quiz_s": 820.733
   },
   {
    "n": 4,
    "titolo": "L'ultima produzione e le ultime novelle",
-   "inizio_s": 784.033,
-   "quiz_s": 1234.833
+   "inizio_s": 826.033,
+   "quiz_s": 1290.833
   },
   {
    "n": 5,
    "titolo": "Ciàula scopre la luna",
-   "inizio_s": 1240.133,
-   "quiz_s": 1649.2
+   "inizio_s": 1296.133,
+   "quiz_s": 1719.2
   },
   {
    "n": 6,
    "titolo": "Il treno ha fischiato",
-   "inizio_s": 1654.5,
-   "quiz_s": 2483.967
+   "inizio_s": 1724.5,
+   "quiz_s": 2567.967
   }
  ],
  "quiz": {
@@ -372,6 +372,6 @@
    ]
   }
  },
- "t_verifica": 2720.8,
- "t_compiti": 2734.0
+ "t_verifica": 2804.8,
+ "t_compiti": 2818.0
 }
