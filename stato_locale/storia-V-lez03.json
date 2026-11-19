@@ -1,0 +1,91 @@
+{
+ "tag": "storia-V-lez03",
+ "parti": {
+  "1": {
+   "stato": "REVISIONATA",
+   "voci": "kore",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "no",
+   "video": "Storia_Lez3_Parte1_1080p.mp4",
+   "durata_s": 3169.3,
+   "durata": "52:49.3",
+   "fotogrammi": 95080,
+   "fotogrammi_attesi": 95080,
+   "peso_MB": 340.1,
+   "vtt": "Storia_Lez3_Parte1.vtt"
+  },
+  "2": {
+   "stato": "REVISIONATA",
+   "voci": "kore",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "no",
+   "video": "Storia_Lez3_Parte2_1080p.mp4",
+   "durata_s": 3081.4,
+   "durata": "51:21.4",
+   "fotogrammi": 92441,
+   "fotogrammi_attesi": 92441,
+   "peso_MB": 320.5,
+   "vtt": "Storia_Lez3_Parte2.vtt"
+  }
+ },
+ "manca": "",
+ "serve_master": [
+  {
+   "quando": "18/11 12:41",
+   "testo": "Voci nuove nel ramo voci-storia-V-lez03 (commit 438859a, 15 testi: BEN, PIL1-11, MAPA1-3): non ancora generate. Servono per montare pillole, mappe del prof e benvenuto."
+  },
+  {
+   "quando": "18/11 12:42",
+   "testo": "Voci nuove nel ramo voci-storia-V-lez03 (commit 438859a, 15 testi: BEN, PIL1-11, MAPA1-3) non ancora generate: servono per pillole, mappe del prof e benvenuto."
+  },
+  {
+   "quando": "18/11 12:42",
+   "testo": "Voci nuove nel ramo voci-storia-V-lez03 (commit 438859a, 15 testi: BEN, PIL1-11, MAPA1-3) non ancora generate: servono per pillole, mappe del prof e benvenuto."
+  },
+  {
+   "quando": "18/11 12:42",
+   "testo": "Voci nuove nel ramo voci-storia-V-lez03 (commit 438859a, 15 testi: BEN, PIL1-11, MAPA1-3) non ancora generate: servono per pillole, mappe del prof e benvenuto."
+  }
+ ],
+ "domande_sara": [],
+ "note": [
+  {
+   "quando": "18/11 12:06",
+   "testo": "chat v3"
+  },
+  {
+   "quando": "18/11 12:41",
+   "testo": "chat v3: prof, approfondimenti, schemi e quiz in codifica; bloccata solo dalle 15 voci nuove"
+  },
+  {
+   "quando": "18/11 12:42",
+   "testo": "chat v3: prof, approfondimenti, schemi e quiz in codifica"
+  },
+  {
+   "quando": "18/11 12:42",
+   "testo": "chat v3: prof, approfondimenti, schemi e quiz in codifica"
+  },
+  {
+   "quando": "18/11 12:42",
+   "testo": "chat v3: prof, approfondimenti, schemi e quiz in codifica"
+  },
+  {
+   "quando": "18/11 21:14",
+   "testo": "Parte 1 consegnata sul ramo revisione-storia-V-lez03"
+  },
+  {
+   "quando": "18/11 21:14",
+   "testo": "Parte 2 consegnata sul ramo revisione-storia-V-lez03"
+  },
+  {
+   "quando": "19/11 04:02",
+   "testo": "IN_REVISIONE correzioni 19/11: presa da claude/nice-mccarthy-pwc7in"
+  }
+ ],
+ "materia": "Storia V",
+ "lezione": "Lezione 3 · L'Italia di Giolitti",
+ "aggiornato": "2026-11-19 04:02:32",
+ "docente": "Prof. Giorgio Mazzotti"
+}
