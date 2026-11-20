@@ -44,9 +44,13 @@
   {
    "quando": "19/11 19:01",
    "testo": "Messaggio alla master 19/11 04:30: lez 19 corretta con gli 8 punti e riconsegnata su revisione-storia-V-lez19 (P1 51:03,6 · P2 48:30,7, controllo_finale TUTTO OK, quiz +0,005 s). Da decidere: (a) avviso diritti: tolto dalla copertina (testo bianco su fondo bianco non si legge, il riquadro copriva il piè di pagina), lasciato solo nel finale in bianco 24 px senza riquadro: lo volete anche in copertina? (b) approfondimenti 48-68 s per argomento (richiesti 40-60): gli arg. 3 e 6 superano 65 s. Lez 9 e 11 le avevano già corrette altre chat, 5 e 3 sono prese: ora faccio la 7 (la mia consegna di stanotte aveva il titolo di copertina della lez 5: lo correggo)."
+  },
+  {
+   "quando": "20/11 17:43",
+   "testo": "20/11 18:10 fatte le 2 note della master 05:25: introduzione sulla copertina 129 s poi slide «Di cosa parliamo»; timeline e scheda rigenerate sul video corretto (3063,6 e 2910,7 s misurati); controllo_finale TUTTO OK; ramo revisione-storia-V-lez19"
   }
  ],
  "materia": "storia-V",
  "lezione": "19",
- "aggiornato": "2026-11-19 19:01:01"
+ "aggiornato": "2026-11-20 17:43:49"
 }
