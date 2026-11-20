@@ -1,0 +1,84 @@
+{
+ "tag": "moda-chimica-III-IV-lez01",
+ "fonte": "Excel della docente (Lezione 1 - Le fibre.xlsx)",
+ "nota": "L'Excel della docente contiene 7 domande (non 10): sono tutte riportate, senza modifiche.",
+ "domande": [
+  {
+   "domanda": "Come vengono classificate le fibre prodotte dall'uomo trasformando materie prime polimeriche già esistenti in natura (come la cellulosa)?",
+   "giusta": "Fibre artificiali",
+   "sbagliate": [
+    "Fibre minerali",
+    "Fibre sintetiche",
+    "Fibre da seme",
+    "Fibre tigliose",
+    "Fibre animali secretive"
+   ]
+  },
+  {
+   "domanda": "Quando una fibra tessile è costituita da due o più tipi diversi di unità strutturali elementari (monomeri), come viene definita chimicamente?",
+   "giusta": "Copolimero",
+   "sbagliate": [
+    "Omopolimero",
+    "Monomero bifunzionale",
+    "Polimero lineare puro",
+    "Unità ripetitiva semplice",
+    "Grado di polimerizzazione"
+   ]
+  },
+  {
+   "domanda": "All'interno della struttura molecolare di una fibra, quali zone sono responsabili di garantire flessibilità, elasticità e la capacità di essere tinta?",
+   "giusta": "Zone amorfe",
+   "sbagliate": [
+    "Cristalliti",
+    "Zone cristalline",
+    "Legami covalenti forti",
+    "Unità trifunzionali reticolate",
+    "Catene parallele all'asse"
+   ]
+  },
+  {
+   "domanda": "Quale saggio chimico permette di sciogliere completamente le fibre proteiche (animali) lasciando invece inalterate la cellulosa e le fibre sintetiche?",
+   "giusta": "Saggio alla soda caustica",
+   "sbagliate": [
+    "Saggio con acido nitrico",
+    "Reattivo di Schweitzer",
+    "Acido solforico concentrato",
+    "Saggio alla fluoroglucina",
+    "Clorioduro di zinco"
+   ]
+  },
+  {
+   "domanda": "Secondo la normativa italiana (Legge 883/1973), quale di queste informazioni è obbligatoria sull'etichetta di un prodotto tessile destinato alla vendita al pubblico?",
+   "giusta": "Denominazione delle fibre in ordine decrescente di peso",
+   "sbagliate": [
+    "Etichetta di manutenzione",
+    "Marchio di garanzia",
+    "Codice meccanografico internazionale COMITEXTILE",
+    "Paese di origine della materia prima",
+    "Prezzo consigliato al consumo"
+   ]
+  },
+  {
+   "domanda": "Cosa certifica specificamente il marchio facoltativo Pura Lana Vergine rilasciato dal Segretariato Internazionale della Lana (IWS)?",
+   "giusta": "L'uso esclusivo di lana di tosa mai precedentemente lavorata",
+   "sbagliate": [
+    "Che la lana è stata rigenerata da scarti industriali",
+    "Che il prodotto contiene almeno il 25% di lana in mischia",
+    "Che la fibra è stata tinta con coloranti naturali",
+    "Che il capo può essere lavato in lavatrice senza infeltrire",
+    "La totale assenza di fibre sintetiche nel tessuto"
+   ]
+  },
+  {
+   "domanda": "In quale categoria di proprietà rientrano caratteristiche come l'igroscopicità, la tenacità (resistenza alla rottura) e la coibenza di una fibra?",
+   "giusta": "Caratteri fisico-meccanici",
+   "sbagliate": [
+    "Caratteri morfologico-organolettici",
+    "Caratteri chimici",
+    "Caratteri fisiologici",
+    "Reattività agli agenti atmosferici",
+    "Caratteri dimensionali e sensoriali"
+   ]
+  }
+ ]
+}

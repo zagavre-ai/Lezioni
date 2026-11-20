@@ -1,0 +1,7 @@
+durata 44:40.9 (2680.9 s) | fotogrammi 80427 (attesi 80427) OK | peso 246.3 MB (234.9 MiB) OK | 1920x1080 OK
+quiz 5 scatto 0,0 s: OK
+fermi immagine nei pezzi del docente: 297 DA GUARDARE [(20.8, 22.0, 'D0'), (22.0, 23.1, 'D0'), (26.7, 27.7, 'D0'), (30.0, 32.3, 'D0'), (32.3, 34.0, 'D0'), (34.0, 36.0, 'D0'), (40.0, 41.5, 'D0'), (42.7, 43.7, 'D0')]
+volume del parlato (mediana dei pezzi del docente): -16.0 LUFS OK
+sottotitoli: 378 blocchi, sovrapposti 0, oltre la fine 0, attacco sulla voce entro 0,3 s: 75% di 8 verificabili DA GUARDARE
+foglio di miniature: Chimica_Lez1_Parte1_1080p.mp4.miniature.jpg
+ESITO: DA SISTEMARE: fermi, sottotitoli

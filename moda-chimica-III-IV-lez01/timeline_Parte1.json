@@ -1,0 +1,260 @@
+[
+{
+"pezzo": "SIGLA",
+"tipo": "G",
+"inizio_s": 0.0,
+"durata_s": 16.2
+},
+{
+"pezzo": "D0",
+"tipo": "D",
+"inizio_s": 17.8,
+"durata_s": 54.4
+},
+{
+"pezzo": "T1",
+"tipo": "T",
+"inizio_s": 73.6,
+"durata_s": 4.0
+},
+{
+"pezzo": "D1",
+"tipo": "D",
+"inizio_s": 79.0,
+"durata_s": 198.97
+},
+{
+"pezzo": "AN1",
+"tipo": "A",
+"inizio_s": 279.57,
+"durata_s": 61.77
+},
+{
+"pezzo": "M1",
+"tipo": "M",
+"inizio_s": 342.93,
+"durata_s": 31.63
+},
+{
+"pezzo": "R1",
+"tipo": "R",
+"inizio_s": 376.07,
+"durata_s": 6.87
+},
+{
+"pezzo": "S1",
+"tipo": "S",
+"inizio_s": 384.53,
+"durata_s": 39.63
+},
+{
+"pezzo": "Q1",
+"tipo": "Q",
+"inizio_s": 425.66,
+"durata_s": 5.0
+},
+{
+"pezzo": "T2",
+"tipo": "T",
+"inizio_s": 432.06,
+"durata_s": 4.0
+},
+{
+"pezzo": "D2",
+"tipo": "D",
+"inizio_s": 437.46,
+"durata_s": 424.4
+},
+{
+"pezzo": "AN2",
+"tipo": "A",
+"inizio_s": 863.46,
+"durata_s": 52.8
+},
+{
+"pezzo": "AN3",
+"tipo": "A",
+"inizio_s": 917.86,
+"durata_s": 56.33
+},
+{
+"pezzo": "M2",
+"tipo": "M",
+"inizio_s": 975.8,
+"durata_s": 37.07
+},
+{
+"pezzo": "R2",
+"tipo": "R",
+"inizio_s": 1014.36,
+"durata_s": 6.57
+},
+{
+"pezzo": "S2",
+"tipo": "S",
+"inizio_s": 1022.53,
+"durata_s": 24.73
+},
+{
+"pezzo": "Q2",
+"tipo": "Q",
+"inizio_s": 1048.76,
+"durata_s": 5.0
+},
+{
+"pezzo": "T3",
+"tipo": "T",
+"inizio_s": 1055.16,
+"durata_s": 4.0
+},
+{
+"pezzo": "D3",
+"tipo": "D",
+"inizio_s": 1060.56,
+"durata_s": 220.5
+},
+{
+"pezzo": "AN4",
+"tipo": "A",
+"inizio_s": 1282.66,
+"durata_s": 65.87
+},
+{
+"pezzo": "M3",
+"tipo": "M",
+"inizio_s": 1350.13,
+"durata_s": 31.4
+},
+{
+"pezzo": "R3",
+"tipo": "R",
+"inizio_s": 1383.03,
+"durata_s": 6.07
+},
+{
+"pezzo": "S3",
+"tipo": "S",
+"inizio_s": 1390.69,
+"durata_s": 34.57
+},
+{
+"pezzo": "Q3",
+"tipo": "Q",
+"inizio_s": 1426.76,
+"durata_s": 5.0
+},
+{
+"pezzo": "T4",
+"tipo": "T",
+"inizio_s": 1433.16,
+"durata_s": 4.0
+},
+{
+"pezzo": "D4",
+"tipo": "D",
+"inizio_s": 1438.56,
+"durata_s": 210.7
+},
+{
+"pezzo": "AN5",
+"tipo": "A",
+"inizio_s": 1650.86,
+"durata_s": 60.47
+},
+{
+"pezzo": "M4",
+"tipo": "M",
+"inizio_s": 1712.93,
+"durata_s": 33.1
+},
+{
+"pezzo": "R4",
+"tipo": "R",
+"inizio_s": 1747.53,
+"durata_s": 6.87
+},
+{
+"pezzo": "S4",
+"tipo": "S",
+"inizio_s": 1755.99,
+"durata_s": 30.33
+},
+{
+"pezzo": "Q4",
+"tipo": "Q",
+"inizio_s": 1787.83,
+"durata_s": 5.0
+},
+{
+"pezzo": "T5",
+"tipo": "T",
+"inizio_s": 1794.23,
+"durata_s": 4.0
+},
+{
+"pezzo": "D5",
+"tipo": "D",
+"inizio_s": 1799.63,
+"durata_s": 533.4
+},
+{
+"pezzo": "AN6",
+"tipo": "A",
+"inizio_s": 2334.62,
+"durata_s": 52.57
+},
+{
+"pezzo": "AN7",
+"tipo": "A",
+"inizio_s": 2388.79,
+"durata_s": 53.27
+},
+{
+"pezzo": "M5",
+"tipo": "M",
+"inizio_s": 2443.66,
+"durata_s": 34.37
+},
+{
+"pezzo": "R5",
+"tipo": "R",
+"inizio_s": 2479.52,
+"durata_s": 7.53
+},
+{
+"pezzo": "S5",
+"tipo": "S",
+"inizio_s": 2488.66,
+"durata_s": 27.77
+},
+{
+"pezzo": "Q5",
+"tipo": "Q",
+"inizio_s": 2517.92,
+"durata_s": 5.0
+},
+{
+"pezzo": "MF",
+"tipo": "M",
+"inizio_s": 2524.52,
+"durata_s": 29.0
+},
+{
+"pezzo": "GL1",
+"tipo": "A",
+"inizio_s": 2555.12,
+"durata_s": 67.43
+},
+{
+"pezzo": "RIEP",
+"tipo": "F",
+"inizio_s": 2624.15,
+"durata_s": 44.73
+},
+{
+"pezzo": "FIN",
+"tipo": "G",
+"inizio_s": 2670.49,
+"durata_s": 10.41
+}
+]
