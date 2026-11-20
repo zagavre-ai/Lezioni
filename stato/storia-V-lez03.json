@@ -30,7 +30,7 @@
    "vtt": "Storia_Lez3_Parte2.vtt"
   }
  },
- "manca": "",
+ "manca": "montaggio finale, controlli, consegna",
  "serve_master": [
   {
    "quando": "18/11 12:41",
@@ -49,8 +49,8 @@
    "testo": "Voci nuove nel ramo voci-storia-V-lez03 (commit 438859a, 15 testi: BEN, PIL1-11, MAPA1-3) non ancora generate: servono per pillole, mappe del prof e benvenuto."
   },
   {
-   "quando": "20/11 15:55",
-   "testo": "Sessione con disco quasi pieno (.git 23 GB): non riesco a fare git gc/rimuovere rami remoti (permesso negato). Procedo con la 3, poi 9,12,16,10,20 compatibilmente con lo spazio."
+   "quando": "20/11 21:07",
+   "testo": "Messaggio per la master (20/11 21:10): riconsegnate con card intere, copertina su 2 righe, elenchi puntati, timeline e scheda rigenerate: lez 20, 10, 12, 16 (rami revisione-storia-V-lezNN). Da decidere: slide ferme oltre 3 min restano molte (card intere: il prof parla a lungo su pochi punti); lez 10 P1 62:35 (>60); lez 20 75:16 in una Parte; slide «Di cosa parliamo» senza bordo giallo (il prof non nomina gli argomenti). Ora faccio la 3 e poi la 9."
   }
  ],
  "domande_sara": [],
@@ -84,16 +84,24 @@
    "testo": "Parte 2 consegnata sul ramo revisione-storia-V-lez03"
   },
   {
-   "quando": "19/11 19:01",
-   "testo": "Consegnata: ramo revisione-storia-V-lez03, vedi RAPPORTO_REVISIONE.md"
+   "quando": "19/11 04:02",
+   "testo": "IN_REVISIONE correzioni 19/11: presa da claude/nice-mccarthy-pwc7in"
   },
   {
-   "quando": "20/11 15:55",
-   "testo": "20/11 ripresa: correzioni 19/11 in rimontaggio (max 3 card per slide con frasi intere, slide Di cosa parliamo, mappe ridisegnate, copertina L'Italia di Giolitti); lez 9,12,16,10,20 in coda, disco della sessione quasi pieno (serve pulizia .git)"
+   "quando": "19/11 05:33",
+   "testo": "correzioni 19/11: video parti 1-2 montati, in corso controlli"
+  },
+  {
+   "quando": "19/11 05:53",
+   "testo": "correzioni 19/11 fatte"
+  },
+  {
+   "quando": "20/11 21:07",
+   "testo": "20/11 21:10 presa da claude/nice-mccarthy-pwc7in (la nota delle 15:55 non ha prodotto consegne: nessun commit sul ramo dal 19/11). Lez 12, 16, 10, 20 riconsegnate con card intere. Faccio 3 poi 9"
   }
  ],
  "materia": "Storia V",
  "lezione": "Lezione 3 · L'Italia di Giolitti",
- "aggiornato": "2026-11-20 15:55:36",
+ "aggiornato": "2026-11-20 21:07:25",
  "docente": "Prof. Giorgio Mazzotti"
 }
