@@ -1,0 +1,11 @@
+durata 3238.20 s = 53:58.20 | fotogrammi 97146 (durata*30=97146.0) | peso 314.2 MB | 1920x1080
+LUFS -17.4 TP -1.6
+Q8 atteso 1252.370 scarto -0.000 OK
+Q9 atteso 1892.670 scarto -0.000 OK
+Q10 atteso 2717.400 scarto +0.003 OK
+Q11 atteso 3137.670 scarto -0.000 OK
+silenzi >2.5s: 22 ['3.02577', '3.81679', '2.8594', '2.90073', '2.56325', '2.53321', '2.57846', '4.02412', '2.83867', '2.5', '2.505', '3.19235']
+D8 fermi cam >=1s: 0 []
+D9 fermi cam >=1s: 0 []
+D10 fermi cam >=1s: 0 []
+D11 fermi cam >=1s: 0 []

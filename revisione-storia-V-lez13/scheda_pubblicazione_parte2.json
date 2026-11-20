@@ -1,0 +1,253 @@
+{
+ "materia": "Storia V",
+ "titolo": "Storia V · Lezione 13 · La seconda guerra mondiale · Parte 2",
+ "durata_s": 3078.567,
+ "argomenti": [
+  {
+   "n": 4,
+   "titolo": "La «guerra parallela» italiana e i Balcani (1940-1941)",
+   "inizio_s": 63.27,
+   "quiz_s": 846.83
+  },
+  {
+   "n": 5,
+   "titolo": "L'Operazione Barbarossa: l'invasione dell'URSS (1941)",
+   "inizio_s": 851.43,
+   "quiz_s": 1411.97
+  },
+  {
+   "n": 6,
+   "titolo": "Lo sterminio degli ebrei d'Europa (la Shoah)",
+   "inizio_s": 1416.57,
+   "quiz_s": 2149.3
+  },
+  {
+   "n": 7,
+   "titolo": "La svolta del conflitto e l'ingresso degli USA (1941-1943)",
+   "inizio_s": 2153.9,
+   "quiz_s": 2982.53
+  }
+ ],
+ "quiz": {
+  "Q4": {
+   "title": "Quiz 4 · La «guerra parallela» italiana e i Balcani (1940-1941)",
+   "items": [
+    {
+     "p": "Quando l'Italia entra in guerra?",
+     "a": "Il 10 giugno 1940",
+     "w": [
+      "Il 1° settembre 1939",
+      "Il 3 settembre 1943",
+      "Il 7 dicembre 1941"
+     ],
+     "e": "Mussolini è convinto di una rapida vittoria tedesca."
+    },
+    {
+     "p": "Che cosa si intende per «guerra parallela»?",
+     "a": "Una guerra autonoma dell'Italia in Africa e nei Balcani",
+     "w": [
+      "Una guerra combattuta solo in mare",
+      "L'alleanza con la Francia",
+      "La guerra contro l'URSS"
+     ],
+     "e": "Mussolini voleva non dipendere da Hitler."
+    },
+    {
+     "p": "Come va l'attacco italiano alla Grecia?",
+     "a": "È un disastro militare",
+     "w": [
+      "È una rapida vittoria",
+      "Non viene mai iniziato",
+      "Porta alla conquista di Atene in una settimana"
+     ],
+     "e": "La fiera resistenza greca e le carenze italiane portano alla sconfitta."
+    },
+    {
+     "p": "Che cosa perde l'Italia in Africa orientale?",
+     "a": "Eritrea, Somalia ed Etiopia",
+     "w": [
+      "La Sicilia",
+      "L'Albania",
+      "La Libia nel 1940"
+     ],
+     "e": "Le truppe italiane subiscono pesanti sconfitte dai britannici."
+    },
+    {
+     "p": "Chi guida l'Afrikakorps mandato in aiuto degli italiani?",
+     "a": "Erwin Rommel",
+     "w": [
+      "Hermann Göring",
+      "Friedrich Paulus",
+      "Pietro Badoglio"
+     ],
+     "e": "La Germania deve soccorrere l'alleato in Africa e nei Balcani."
+    }
+   ]
+  },
+  "Q5": {
+   "title": "Quiz 5 · L'Operazione Barbarossa: l'invasione dell'URSS (1941)",
+   "items": [
+    {
+     "p": "Quando inizia l'Operazione Barbarossa?",
+     "a": "Il 22 giugno 1941",
+     "w": [
+      "Il 1° settembre 1939",
+      "Il 7 dicembre 1941",
+      "Il 2 febbraio 1943"
+     ],
+     "e": "La Germania rompe il patto di non aggressione e invade l'URSS."
+    },
+    {
+     "p": "Che cosa cerca Hitler a Est?",
+     "a": "Lo spazio vitale e le risorse, come grano e petrolio",
+     "w": [
+      "Un'alleanza con Stalin",
+      "Una via verso il Giappone",
+      "Nuove colonie in Africa"
+     ],
+     "e": "Le motivazioni sono il Lebensraum, le risorse e la distruzione del comunismo."
+    },
+    {
+     "p": "Quale città russa subisce un lunghissimo assedio?",
+     "a": "Leningrado",
+     "w": [
+      "Kiev",
+      "Varsavia",
+      "Odessa"
+     ],
+     "e": "Leningrado è il nome sovietico di San Pietroburgo."
+    },
+    {
+     "p": "Che cos'è la tattica della «terra bruciata»?",
+     "a": "Distruggere ogni risorsa durante la ritirata",
+     "w": [
+      "Bombardare le città nemiche",
+      "Bruciare i raccolti dei tedeschi in Germania",
+      "Costruire fortificazioni"
+     ],
+     "e": "I sovietici lasciano ai tedeschi un territorio senza risorse."
+    },
+    {
+     "p": "Che cosa blocca l'avanzata tedesca?",
+     "a": "Il rigido inverno russo e la resistenza a Mosca",
+     "w": [
+      "L'intervento degli Stati Uniti",
+      "La resa della Romania",
+      "Lo sbarco in Sicilia"
+     ],
+     "e": "La guerra lampo diventa una guerra di logoramento."
+    }
+   ]
+  },
+  "Q6": {
+   "title": "Quiz 6 · Lo sterminio degli ebrei d'Europa (la Shoah)",
+   "items": [
+    {
+     "p": "Dove vengono rinchiusi gli ebrei all'inizio della persecuzione?",
+     "a": "Nei ghetti, come quello di Varsavia",
+     "w": [
+      "In colonie africane",
+      "Sulle navi",
+      "In Svizzera"
+     ],
+     "e": "Aree urbane isolate e sovraffollate, con fame ed epidemie."
+    },
+    {
+     "p": "Chi compie le fucilazioni di massa nei territori sovietici?",
+     "a": "Reparti speciali delle SS (Einsatzgruppen)",
+     "w": [
+      "L'esercito italiano",
+      "La RAF",
+      "I partigiani"
+     ],
+     "e": "Operano alle spalle del fronte dopo l'invasione dell'URSS."
+    },
+    {
+     "p": "Che cosa viene deciso alla Conferenza di Wannsee nel 1942?",
+     "a": "La «soluzione finale», cioè lo sterminio sistematico",
+     "w": [
+      "La pace con l'URSS",
+      "L'espulsione degli ebrei in America",
+      "L'armistizio con gli Alleati"
+     ],
+     "e": "I vertici nazisti pianificano lo sterminio."
+    },
+    {
+     "p": "Qual è il campo di sterminio dove muoiono oltre un milione e mezzo di persone?",
+     "a": "Auschwitz-Birkenau",
+     "w": [
+      "Dunkerque",
+      "Vichy",
+      "Cassibile"
+     ],
+     "e": "È il più grande complesso di sterminio nazista."
+    },
+    {
+     "p": "Che cosa significa la parola ebraica Shoah?",
+     "a": "Catastrofe",
+     "w": [
+      "Vittoria",
+      "Libertà",
+      "Rinascita"
+     ],
+     "e": "La Shoah provoca lo sterminio di circa sei milioni di ebrei."
+    }
+   ]
+  },
+  "Q7": {
+   "title": "Quiz 7 · La svolta del conflitto e l'ingresso degli USA (1941-1943)",
+   "items": [
+    {
+     "p": "Che cosa succede il 7 dicembre 1941?",
+     "a": "Il Giappone attacca Pearl Harbor",
+     "w": [
+      "La Germania invade l'URSS",
+      "Gli Alleati sbarcano in Sicilia",
+      "Cade Mussolini"
+     ],
+     "e": "Dopo l'attacco gli Stati Uniti entrano in guerra."
+    },
+    {
+     "p": "Perché il Giappone attacca gli Stati Uniti?",
+     "a": "Per distruggere preventivamente la flotta americana",
+     "w": [
+      "Per aiutare la Francia",
+      "Perché gli Stati Uniti avevano invaso il Giappone",
+      "Per conquistare l'Europa"
+     ],
+     "e": "Tokyo temeva un futuro intervento americano."
+    },
+    {
+     "p": "Dove gli Stati Uniti fermano l'espansione giapponese nel 1942?",
+     "a": "Alle isole Midway",
+     "w": [
+      "A Stalingrado",
+      "A El Alamein",
+      "In Sicilia"
+     ],
+     "e": "È una battaglia aeronavale del giugno 1942."
+    },
+    {
+     "p": "Chi vince a El Alamein?",
+     "a": "I britannici, contro le forze italo-tedesche",
+     "w": [
+      "Rommel",
+      "I giapponesi",
+      "I francesi di Vichy"
+     ],
+     "e": "La vittoria britannica in Africa è una tappa della svolta."
+    },
+    {
+     "p": "Perché Stalingrado è il punto di svolta della guerra?",
+     "a": "Perché nel febbraio 1943 i tedeschi capitolano",
+     "w": [
+      "Perché lì Hitler firma la pace",
+      "Perché lì sbarcano gli americani",
+      "Perché lì cade Mussolini"
+     ],
+     "e": "La sesta armata tedesca di Paulus si arrende."
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,192 @@
+{
+ "materia": "Storia V",
+ "titolo": "Storia V · Lezione 13 · La seconda guerra mondiale · Parte 1",
+ "durata_s": 2983.333,
+ "argomenti": [
+  {
+   "n": 1,
+   "titolo": "L'assalto all'Europa e l'inizio della guerra (1939-1940)",
+   "inizio_s": 189.17,
+   "quiz_s": 1297.3
+  },
+  {
+   "n": 2,
+   "titolo": "L'espansione a Nord e la caduta della Francia (1940)",
+   "inizio_s": 1301.9,
+   "quiz_s": 2361.83
+  },
+  {
+   "n": 3,
+   "titolo": "La Battaglia d'Inghilterra",
+   "inizio_s": 2366.43,
+   "quiz_s": 2873.0
+  }
+ ],
+ "quiz": {
+  "Q1": {
+   "title": "Quiz 1 · L'assalto all'Europa e l'inizio della guerra (1939-1940)",
+   "items": [
+    {
+     "p": "Quando la Germania invade la Polonia?",
+     "a": "Il 1° settembre 1939",
+     "w": [
+      "Il 3 settembre 1939",
+      "Il 22 giugno 1941",
+      "Il 14 giugno 1940"
+     ],
+     "e": "L'invasione della Polonia, il 1° settembre 1939, segna l'inizio della guerra."
+    },
+    {
+     "p": "Chi dichiara guerra alla Germania il 3 settembre 1939?",
+     "a": "Francia e Regno Unito",
+     "w": [
+      "Italia e Giappone",
+      "Stati Uniti e URSS",
+      "Belgio e Olanda"
+     ],
+     "e": "Francia e Regno Unito avevano promesso di proteggere la Polonia."
+    },
+    {
+     "p": "Che cos'è la guerra lampo (Blitzkrieg)?",
+     "a": "L'uso rapido e congiunto di aviazione e carri armati",
+     "w": [
+      "Una guerra di trincea",
+      "Un assedio lungo mesi",
+      "Una guerra solo navale"
+     ],
+     "e": "La strategia tedesca puntava ad arrivare subito all'obiettivo con Panzer e aerei."
+    },
+    {
+     "p": "Perché si parla di «guerra totale»?",
+     "a": "Perché coinvolge massicciamente le popolazioni civili",
+     "w": [
+      "Perché dura un solo mese",
+      "Perché si combatte solo in mare",
+      "Perché non ci sono vittime"
+     ],
+     "e": "Il conflitto è segnato da bombardamenti indiscriminati e violenze sui civili."
+    },
+    {
+     "p": "Che cosa accade a Katyn?",
+     "a": "L'URSS compie un massacro di polacchi",
+     "w": [
+      "La Germania firma la pace",
+      "Nasce la Repubblica di Vichy",
+      "Gli inglesi evacuano le truppe"
+     ],
+     "e": "Nella Polonia orientale occupata, i sovietici uccidono migliaia di polacchi."
+    }
+   ]
+  },
+  "Q2": {
+   "title": "Quiz 2 · L'espansione a Nord e la caduta della Francia (1940)",
+   "items": [
+    {
+     "p": "Quali Paesi occupa la Germania nell'aprile 1940?",
+     "a": "Danimarca e Norvegia",
+     "w": [
+      "Spagna e Portogallo",
+      "Grecia e Jugoslavia",
+      "Svizzera e Austria"
+     ],
+     "e": "La Germania occupa il Nord per il ferro e le basi navali."
+    },
+    {
+     "p": "Come viene superata la Linea Maginot?",
+     "a": "I tedeschi la aggirano passando per Belgio e Olanda",
+     "w": [
+      "I francesi la abbandonano",
+      "Viene bombardata dal mare",
+      "Gli italiani la sfondano"
+     ],
+     "e": "Le truppe tedesche passano dalle Ardenne e dai Paesi neutrali."
+    },
+    {
+     "p": "Che cosa succede a Dunkerque?",
+     "a": "Le truppe britanniche e francesi vengono evacuate in Inghilterra",
+     "w": [
+      "I tedeschi vengono sconfitti",
+      "Nasce il governo di Vichy",
+      "Mussolini dichiara guerra"
+     ],
+     "e": "È una ritirata drammatica ma riuscita, anche con piccole barche."
+    },
+    {
+     "p": "Quando i tedeschi entrano a Parigi?",
+     "a": "Il 14 giugno 1940",
+     "w": [
+      "Il 1° settembre 1939",
+      "Il 10 giugno 1940",
+      "Il 25 luglio 1943"
+     ],
+     "e": "La Francia crolla in poche settimane."
+    },
+    {
+     "p": "Che cos'è la Francia di Vichy?",
+     "a": "Un regime collaborazionista nel sud della Francia",
+     "w": [
+      "Il governo francese in esilio a Londra",
+      "Una colonia italiana",
+      "La zona occupata dagli inglesi"
+     ],
+     "e": "Il nord è occupato dai tedeschi; il sud è affidato al regime di Vichy."
+    }
+   ]
+  },
+  "Q3": {
+   "title": "Quiz 3 · La Battaglia d'Inghilterra",
+   "items": [
+    {
+     "p": "Chi guida la Gran Bretagna durante la Battaglia d'Inghilterra?",
+     "a": "Winston Churchill",
+     "w": [
+      "Charles de Gaulle",
+      "Philippe Pétain",
+      "Franklin Roosevelt"
+     ],
+     "e": "Il nuovo Primo Ministro rifiuta ogni trattativa e incita alla resistenza."
+    },
+    {
+     "p": "Che cos'è l'Operazione Leone Marino?",
+     "a": "Il piano tedesco per invadere la Gran Bretagna",
+     "w": [
+      "L'invasione dell'URSS",
+      "Lo sbarco in Sicilia",
+      "L'attacco a Pearl Harbor"
+     ],
+     "e": "Doveva essere preceduta da una massiccia campagna di bombardamenti."
+    },
+    {
+     "p": "Quali forze si scontrano nei cieli britannici?",
+     "a": "La Luftwaffe tedesca e la RAF britannica",
+     "w": [
+      "La flotta italiana e quella inglese",
+      "L'Armata rossa e la Wehrmacht",
+      "L'aviazione giapponese e quella americana"
+     ],
+     "e": "La RAF riesce a neutralizzare la minaccia tedesca."
+    },
+    {
+     "p": "Qual è il risultato della Battaglia d'Inghilterra?",
+     "a": "Hitler rinuncia allo sbarco",
+     "w": [
+      "La Gran Bretagna si arrende",
+      "Londra viene occupata",
+      "La Francia viene liberata"
+     ],
+     "e": "È il primo fallimento di Hitler."
+    },
+    {
+     "p": "Chi lancia da Londra l'appello della Francia libera?",
+     "a": "Charles de Gaulle",
+     "w": [
+      "Philippe Pétain",
+      "Winston Churchill",
+      "Hermann Göring"
+     ],
+     "e": "Il generale francese non si arrende e chiama alla resistenza."
+    }
+   ]
+  }
+ }
+}

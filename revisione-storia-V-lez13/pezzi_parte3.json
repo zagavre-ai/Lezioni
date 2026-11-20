@@ -1,0 +1,185 @@
+{
+ "totale_s": 3238.2,
+ "pezzi": [
+  {
+   "nome": "sigla3",
+   "inizio_s": 0.0,
+   "durata_s": 15.0
+  },
+  {
+   "nome": "cover3",
+   "inizio_s": 14.6,
+   "durata_s": 4.0
+  },
+  {
+   "nome": "rp3",
+   "inizio_s": 18.2,
+   "durata_s": 48.33
+  },
+  {
+   "nome": "t08",
+   "inizio_s": 66.17,
+   "durata_s": 4.0
+  },
+  {
+   "nome": "prof8",
+   "inizio_s": 69.77,
+   "durata_s": 998.03
+  },
+  {
+   "nome": "an_AN11",
+   "inizio_s": 1067.43,
+   "durata_s": 60.87
+  },
+  {
+   "nome": "an_AN12",
+   "inizio_s": 1127.9,
+   "durata_s": 43.6
+  },
+  {
+   "nome": "map5",
+   "inizio_s": 1171.1,
+   "durata_s": 21.57
+  },
+  {
+   "nome": "p08",
+   "inizio_s": 1192.27,
+   "durata_s": 14.0
+  },
+  {
+   "nome": "ps08",
+   "inizio_s": 1205.87,
+   "durata_s": 46.4
+  },
+  {
+   "nome": "q08",
+   "inizio_s": 1251.87,
+   "durata_s": 5.0
+  },
+  {
+   "nome": "t09",
+   "inizio_s": 1256.47,
+   "durata_s": 4.0
+  },
+  {
+   "nome": "prof9",
+   "inizio_s": 1260.07,
+   "durata_s": 452.2
+  },
+  {
+   "nome": "an_AN20",
+   "inizio_s": 1711.87,
+   "durata_s": 56.77
+  },
+  {
+   "nome": "an_AN21",
+   "inizio_s": 1768.23,
+   "durata_s": 65.67
+  },
+  {
+   "nome": "p09",
+   "inizio_s": 1833.5,
+   "durata_s": 14.0
+  },
+  {
+   "nome": "ps09",
+   "inizio_s": 1847.1,
+   "durata_s": 45.43
+  },
+  {
+   "nome": "q09",
+   "inizio_s": 1892.17,
+   "durata_s": 5.0
+  },
+  {
+   "nome": "t10",
+   "inizio_s": 1896.77,
+   "durata_s": 4.0
+  },
+  {
+   "nome": "prof10",
+   "inizio_s": 1900.37,
+   "durata_s": 642.3
+  },
+  {
+   "nome": "an_AN22",
+   "inizio_s": 2542.27,
+   "durata_s": 62.0
+  },
+  {
+   "nome": "an_AN23",
+   "inizio_s": 2603.87,
+   "durata_s": 58.47
+  },
+  {
+   "nome": "p10",
+   "inizio_s": 2661.93,
+   "durata_s": 14.0
+  },
+  {
+   "nome": "ps10",
+   "inizio_s": 2675.53,
+   "durata_s": 41.73
+  },
+  {
+   "nome": "q10",
+   "inizio_s": 2716.9,
+   "durata_s": 5.0
+  },
+  {
+   "nome": "t11",
+   "inizio_s": 2721.5,
+   "durata_s": 4.0
+  },
+  {
+   "nome": "prof11",
+   "inizio_s": 2725.1,
+   "durata_s": 251.67
+  },
+  {
+   "nome": "an_AN24",
+   "inizio_s": 2976.37,
+   "durata_s": 58.63
+  },
+  {
+   "nome": "an_AN25",
+   "inizio_s": 3034.63,
+   "durata_s": 33.17
+  },
+  {
+   "nome": "map6",
+   "inizio_s": 3067.4,
+   "durata_s": 19.87
+  },
+  {
+   "nome": "p11",
+   "inizio_s": 3086.87,
+   "durata_s": 14.0
+  },
+  {
+   "nome": "ps11",
+   "inizio_s": 3100.47,
+   "durata_s": 37.1
+  },
+  {
+   "nome": "q11",
+   "inizio_s": 3137.17,
+   "durata_s": 5.0
+  },
+  {
+   "nome": "gl3",
+   "inizio_s": 3141.77,
+   "durata_s": 57.47
+  },
+  {
+   "nome": "fin3",
+   "inizio_s": 3198.83,
+   "durata_s": 34.73
+  },
+  {
+   "nome": "finale",
+   "inizio_s": 3233.2,
+   "durata_s": 5.0
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "titolo": "Compiti · Storia V · Lezione 13",
+ "esercizi": [
+  {
+   "n": 1,
+   "tipo": "aperta",
+   "testo": "Analizza le caratteristiche della prima fase della Seconda guerra mondiale (1939-1940), spiegando il significato di guerra lampo e guerra totale e illustrando le tappe dell'espansione tedesca dalla Polonia fino alla caduta della Francia e alla Battaglia d'Inghilterra."
+  },
+  {
+   "n": 2,
+   "tipo": "aperta",
+   "testo": "Descrivi gli obiettivi e l'andamento della guerra parallela italiana tra il 1940 e il 1941 in Africa e nei Balcani, e spiega successivamente le motivazioni e gli esiti dell'Operazione Barbarossa contro l'Unione Sovietica."
+  },
+  {
+   "n": 3,
+   "tipo": "aperta",
+   "testo": "Ricostruisci le fasi principali della persecuzione e dello sterminio degli ebrei d'Europa (la Shoah), dalla segregazione nei ghetti alle fucilazioni di massa, fino alla pianificazione della soluzione finale alla Conferenza di Wannsee e all'istituzione dei campi di sterminio."
+  },
+  {
+   "n": 4,
+   "tipo": "aperta",
+   "testo": "Analizza gli eventi che segnarono la svolta del conflitto tra il 1941 e il 1943 (dall'attacco di Pearl Harbor alla battaglia di Stalingrado) e illustra le conseguenze in Italia dopo lo sbarco alleato in Sicilia, la destituzione di Mussolini, l'armistizio dell'8 settembre 1943 e la nascita della Resistenza."
+  }
+ ]
+}

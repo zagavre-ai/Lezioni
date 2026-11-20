@@ -1,0 +1,160 @@
+{
+ "totale_s": 2983.333,
+ "pezzi": [
+  {
+   "nome": "sigla1",
+   "inizio_s": 0.0,
+   "durata_s": 15.0
+  },
+  {
+   "nome": "cover1",
+   "inizio_s": 14.6,
+   "durata_s": 35.3
+  },
+  {
+   "nome": "intro",
+   "inizio_s": 49.5,
+   "durata_s": 139.67
+  },
+  {
+   "nome": "t01",
+   "inizio_s": 188.77,
+   "durata_s": 4.0
+  },
+  {
+   "nome": "prof1",
+   "inizio_s": 192.37,
+   "durata_s": 837.17
+  },
+  {
+   "nome": "an_AN1",
+   "inizio_s": 1029.13,
+   "durata_s": 60.37
+  },
+  {
+   "nome": "an_AN13",
+   "inizio_s": 1089.1,
+   "durata_s": 84.47
+  },
+  {
+   "nome": "an_AN14",
+   "inizio_s": 1173.17,
+   "durata_s": 66.47
+  },
+  {
+   "nome": "p01",
+   "inizio_s": 1239.23,
+   "durata_s": 14.0
+  },
+  {
+   "nome": "ps01",
+   "inizio_s": 1252.83,
+   "durata_s": 44.47
+  },
+  {
+   "nome": "q01",
+   "inizio_s": 1296.9,
+   "durata_s": 5.0
+  },
+  {
+   "nome": "t02",
+   "inizio_s": 1301.5,
+   "durata_s": 4.0
+  },
+  {
+   "nome": "prof2",
+   "inizio_s": 1305.1,
+   "durata_s": 821.73
+  },
+  {
+   "nome": "an_AN2",
+   "inizio_s": 2126.47,
+   "durata_s": 63.03
+  },
+  {
+   "nome": "an_AN15",
+   "inizio_s": 2189.13,
+   "durata_s": 57.07
+  },
+  {
+   "nome": "an_AN16",
+   "inizio_s": 2245.8,
+   "durata_s": 64.37
+  },
+  {
+   "nome": "p02",
+   "inizio_s": 2309.77,
+   "durata_s": 14.0
+  },
+  {
+   "nome": "ps02",
+   "inizio_s": 2323.37,
+   "durata_s": 38.47
+  },
+  {
+   "nome": "q02",
+   "inizio_s": 2361.43,
+   "durata_s": 5.0
+  },
+  {
+   "nome": "t03",
+   "inizio_s": 2366.03,
+   "durata_s": 4.0
+  },
+  {
+   "nome": "prof3",
+   "inizio_s": 2369.63,
+   "durata_s": 269.6
+  },
+  {
+   "nome": "an_AN3",
+   "inizio_s": 2638.83,
+   "durata_s": 40.77
+  },
+  {
+   "nome": "an_AN17",
+   "inizio_s": 2679.2,
+   "durata_s": 62.23
+  },
+  {
+   "nome": "an_AN18",
+   "inizio_s": 2741.07,
+   "durata_s": 65.07
+  },
+  {
+   "nome": "map1",
+   "inizio_s": 2805.73,
+   "durata_s": 20.93
+  },
+  {
+   "nome": "p03",
+   "inizio_s": 2826.3,
+   "durata_s": 14.0
+  },
+  {
+   "nome": "ps03",
+   "inizio_s": 2839.9,
+   "durata_s": 33.1
+  },
+  {
+   "nome": "q03",
+   "inizio_s": 2872.6,
+   "durata_s": 5.0
+  },
+  {
+   "nome": "gl1",
+   "inizio_s": 2877.2,
+   "durata_s": 63.57
+  },
+  {
+   "nome": "fin1",
+   "inizio_s": 2940.37,
+   "durata_s": 38.33
+  },
+  {
+   "nome": "finale",
+   "inizio_s": 2978.33,
+   "durata_s": 5.0
+  }
+ ]
+}

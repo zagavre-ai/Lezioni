@@ -1,0 +1,107 @@
+{
+ "titolo": "Verifica finale · Storia V · Lezione 13 · La seconda guerra mondiale",
+ "fonte": "DOMANDE LEZIONE 13.xlsx del prof. Mazzotti (testo invariato)",
+ "soglia_percento": 80,
+ "domande": [
+  {
+   "n": 1,
+   "p": "In quale data la Germania nazista iniziò l'invasione della Polonia, segnando l'inizio ufficiale della Seconda guerra mondiale?",
+   "a": "1° settembre 1939",
+   "w": [
+    "23 agosto 1939",
+    "10 maggio 1940",
+    "22 giugno 1941"
+   ]
+  },
+  {
+   "n": 2,
+   "p": "Quale nome in codice assunse la strategia militare tedesca basata su una fulminea \"guerra lampo\"?",
+   "a": "Blitzkrieg",
+   "w": [
+    "Barbarossa",
+    "Dynamo",
+    "Overlord"
+   ]
+  },
+  {
+   "n": 3,
+   "p": "Cosa stabiliva la clausola segreta del Patto Ribbentrop-Molotov firmato nell'agosto del 1939?",
+   "a": "La spartizione del territorio polacco tra Germania e Unione Sovietica",
+   "w": [
+    "Un'alleanza militare immediata tra Italia e Germania",
+    "L'ingresso degli Stati Uniti nel conflitto europeo",
+    "La resa incondizionata della Francia"
+   ]
+  },
+  {
+   "n": 4,
+   "p": "Quale imponente sistema di fortificazioni difensive francesi lungo il confine con la Germania fu aggirato dalle truppe tedesche nel maggio 1940?",
+   "a": "La linea Maginot",
+   "w": [
+    "La linea Gustav",
+    "La linea Gotica",
+    "Il vallo Atlantico"
+   ]
+  },
+  {
+   "n": 5,
+   "p": "Quale celebre Primo ministro britannico guidò il Regno Unito durante la \"battaglia d'Inghilterra\", esortando il popolo alla resistenza contro i tedeschi?",
+   "a": "Winston Churchill",
+   "w": [
+    "Neville Chamberlain",
+    "Bernard Law Montgomery",
+    "Charles de Gaulle"
+   ]
+  },
+  {
+   "n": 6,
+   "p": "In quale data il Giappone sferrò l'attacco a sorpresa contro la base navale statunitense di Pearl Harbor?",
+   "a": "7 dicembre 1941",
+   "w": [
+    "10 giugno 1940",
+    "22 giugno 1941",
+    "6 agosto 1945"
+   ]
+  },
+  {
+   "n": 7,
+   "p": "Quale grande battaglia sul fronte orientale (conclusasi nel febbraio 1943) segnò la prima durissima sconfitta della macchina bellica tedesca e la distruzione dell'Armata di von Paulus?",
+   "a": "La battaglia di Stalingrado",
+   "w": [
+    "L'operazione Barbarossa",
+    "La battaglia di El Alamein",
+    "Lo sbarco in Normandia"
+   ]
+  },
+  {
+   "n": 8,
+   "p": "Che cosa si intende storicamente con l'espressione \"svolta di Salerno\" del 12 aprile 1944?",
+   "a": "La decisione del PCI di Palmiro Togliatti di collaborare con il re e con Badoglio per formare un governo di unità nazionale",
+   "w": [
+    "Lo sbarco alleato sulle spiagge della Campania per liberare il Mezzogiorno",
+    "L'annuncio ufficiale dell'armistizio firmato dal generale Castellano",
+    "La proclamazione della nascita della Repubblica Sociale Italiana al Nord"
+   ]
+  },
+  {
+   "n": 9,
+   "p": "In quale località polacca sorgeva il campo di concentramento e sterminio nazista dotato, a partire dal 1942, di quattro camere a gas attive ininterrottamente?",
+   "a": "Auschwitz-Birkenau",
+   "w": [
+    "Buchenwald",
+    "Dachau",
+    "Mauthausen"
+   ]
+  },
+  {
+   "n": 10,
+   "p": "Quale presidente degli Stati Uniti prese la decisione radicale di utilizzare la bomba atomica contro le città giapponesi di Hiroshima e Nagasaki nell'agosto del 1945?",
+   "a": "Harry Truman",
+   "w": [
+    "Franklin Delano Roosevelt",
+    "Dwight Eisenhower",
+    "Douglas MacArthur"
+   ]
+  }
+ ]
+}
