@@ -6,8 +6,8 @@
 ## 1. Le 8 correzioni punto per punto
 | # | Punto della master | Esito |
 |---|---|---|
-| 1 | Al massimo 3 card per slide; nessuna slide ferma oltre 3 minuti; immagini a tempo | **PARZIALE** (massimo 3 card per slide: fatto; nessuna slide ferma oltre 3 minuti: NON rispettato, elenco sotto): ogni argomento è diviso in più slide da 1–3 card nell'ordine in cui il prof parla (testo del prof invariato; le card lunghe sono spezzate in frammenti, quelli seguenti iniziano con «…»). Le slide di testo sono 43; durata massima misurata 520 s. Slide oltre 180 s: arg. 1 slide 7 (213 s), arg. 2 slide 4 (520 s), arg. 3 slide 1 (268 s), arg. 4 slide 1 (278 s), arg. 5 slide 3 (183 s), arg. 6 slide 1 (194 s); arg. 8 slide 5 (241 s) — **aggiunta a mano**: l'elenco automatico escludeva l'argomento 8 (errore dello script del rapporto, corretto qui). Le immagini del prof sono messe a tempo (invariato).  |
-| 2 | Sincronia: il bordo giallo si accende quando il prof INIZIA la frase (±1 s); 10 punti a caso | fatto in modo diverso dal calcolo automatico di prima: l'inizio di ogni card è stato scelto leggendo la trascrizione (frase per frase) da revisori; tabella dei 10 punti qui sotto. Alcune card non hanno corrispondenza nel parlato (vedi sezione 4). |
+| 1 | Al massimo 3 card per slide; nessuna slide ferma oltre 3 minuti; immagini a tempo | fatto: ogni punto della slide del prof è UNA card intera (nessuna card spezzata con «…», titolo in grassetto una sola volta), card alte quanto il loro testo e allineate in alto, al massimo 3 card per slide (mai una card sola, salvo accanto a un'immagine del prof); il bordo giallo si accende quando il prof inizia quel punto. Le slide di testo sono 10; durata massima misurata 746 s. Slide oltre 180 s: arg. 1 slide 1 (482 s), arg. 1 slide 2 (327 s), arg. 2 slide 1 (741 s), arg. 3 slide 1 (571 s), arg. 4 slide 1 (746 s), arg. 5 slide 1 (519 s), arg. 6 slide 1 (494 s), arg. 6 slide 2 (273 s), arg. 7 slide 1 (514 s), arg. 7 slide 2 (279 s). Le immagini del prof sono messe a tempo (invariato).  |
+| 2 | Sincronia: il bordo giallo si accende quando il prof INIZIA il punto (±1 s); 10 punti a caso | fatto in modo diverso dal calcolo automatico di prima: l'inizio di ogni card è stato scelto leggendo la trascrizione (frase per frase) da revisori; tabella dei 10 punti qui sotto. Alcune card non hanno corrispondenza nel parlato (vedi sezione 4). |
 | 3 | Mappe ridisegnate con `kit/tools/mappa.py`, intere, nodi a tempo con la voce Kore | fatto: le 3 mappe del prof (Il partito nazista, La crisi del 1929 → Hitler al potere, Il regime nazista) sono ridisegnate con lo strumento della master (centro + rami, nodi che compaiono con la voce Kore a tempo, testo del prof). Il prof ha mandato 3 mappe per tutta la lezione, non una per argomento: dopo gli argomenti 4, 5 e 7 (secondo il tema); la mappa «La crisi del 1929» è una catena lineare con due rami finali, resa come centro + 2 rami (NV). |
 | 4 | Almeno un approfondimento animato (4c) per argomento, 40–60 s, voce Kore | fatto: 8 approfondimenti (uno per argomento) con voce Kore nuova (8 voci richieste alla master), durata dei pezzi AP1 52,8; AP2 52,8; AP3 47,9; AP4 45,1; AP5 52,8; AP6 51,3; AP7 50,9; AP8 53,3 (compresi 0,9 s iniziali e 1,2 s finali di pausa), card che compaiono a tempo con la voce; i testi sono stati scritti dal parlato del prof (da far confermare, sezione 5). |
 | 5 | Schema di ripasso: 4–6 righe | già a norma: 4–6 righe per argomento. |
@@ -18,16 +18,16 @@
 ### Sincronia: 10 punti a caso (M)
 | Dove | Argomento | Card accesa | Frase del prof che inizia in quel punto (trascrizione) | Scarto dall'inizio della frase |
 |---|---|---|---|---|
-| Parte 1 · 23:20.60 | arg. 2 | «il crollo degli stipendi del 40%…» | «nella slide: iperinflazione, dimezzamento del credito straniero,…» | -0.0 s |
-| Parte 1 · 23:28.90 | arg. 2 | «e una disoccupazione reale al 10%,…» | «E i prezzi si alzano, però c'è una disoccupazione reale al 10%, non è altis…» | -0.0 s |
-| Parte 2 · 6:54.70 | arg. 5 | «(1930) e poi il primo partito assoluto (1932).…» | «Von Papen revocò il bando alle milizie naziste e indisse nuove elezioni nel…» | +0.0 s |
-| Parte 2 · 8:25.80 | arg. 5 | «dopo forti pressioni da parte di industriali…» | «A questo punto, le elezioni di novembre del '32 videro una leggera flession…» | +0.0 s |
-| Parte 2 · 8:46.10 | arg. 5 | «e militari, il presidente Hindenburg nominò Hitler capo…» | «Hindenburg cedette e così il 30 gennaio 1923 Adolf Hitler fu nominato cance…» | -0.0 s |
-| Parte 2 · 17:41.75 | arg. 6 | «approvata dal Parlamento sotto intimidazione,…» | «A questo punto Hitler presentò al Parlamento, al Reichstag, una legge sui p…» | +0.0 s |
-| Parte 2 · 20:33.45 | arg. 6 | «alla morte di Hindenburg,…» | «Il controllo, insomma, del partito…» | +0.0 s |
-| Parte 2 · 21:35.15 | arg. 6 | «delle SA guidata da Ernst Röhm…» | «Le SS, fedelissime a Hitler, le sue guardie del corpo, furono mandate…» | -0.0 s |
-| Parte 2 · 27:20.58 | arg. 7 | «e Reinhard Heydrich per perseguitare oppositori, ebrei,…» | «guidato da Reinhard Heydrich, che si occupò del monitoraggio capillare e de…» | -0.0 s |
-| Parte 2 · 28:49.48 | arg. 7 | «e privata alle direttive del partito. Sindacati…» | «Ogni ambito della vita pubblica e privata venne subordinato alle direttive …» | -0.0 s |
+| Parte 1 · 20:09.00 | arg. 2 | «nel 1929 le banche americane ritirarono i prestiti conc…» | «il crollo di Wall Street, beh...…» | -1.0 s |
+| Parte 1 · 22:21.20 | arg. 2 | «si verificarono l'iperinflazione, il dimezzamento dei f…» | «fortemente dipendente dai finanziamenti e dai crediti statunitensi, si ritr…» | +0.0 s |
+| Parte 2 · 12:19.20 | arg. 6 | «usato come pretesto per emanare decreti d'emergenza che…» | «nazista, d'accordo? Ecco, e qua vediamo quindi la costruzione dello Stato t…» | -0.2 s |
+| Parte 2 · 17:41.75 | arg. 6 | «approvata dal Parlamento sotto intimidazione, assegnò i…» | «A questo punto Hitler presentò al Parlamento, al Reichstag, una legge sui p…» | +0.0 s |
+| Parte 2 · 18:39.65 | arg. 6 | «nel giro di poche settimane vennero sciolti tutti gli a…» | «Nel giro di poche settimane fu imposta la dittatura del partito unico: il p…» | +0.0 s |
+| Parte 2 · 20:33.45 | arg. 6 | «alla morte di Hindenburg, una legge unificò le cariche …» | «Il controllo, insomma, del partito…» | +0.0 s |
+| Parte 2 · 21:19.95 | arg. 6 | «eliminazione violenta dell'ala radicale delle SA guidat…» | «le SA di Röhm devono sparire. E anche Röhm.…» | -0.0 s |
+| Parte 2 · 28:37.88 | arg. 7 | «sottomissione forzata di ogni aspetto della vita pubbli…» | «La sottomissione totale, dicevamo, della società prese il nome, in tedesco,…» | +0.0 s |
+| Parte 2 · 30:57.18 | arg. 7 | «giovani: educazione scolastica riscritta su principi di…» | «Vado direttamente alla successiva slide, così che possiamo anche chiudere.…» | -1.8 s |
+| Parte 2 · 37:23.78 | arg. 7 | «massicci investimenti statali nell'industria pesante e …» | «Il vero motore del rilancio fu però la politica del riarmo, che spinge anco…» | -0.0 s |
 
 L'accensione coincide con l'inizio di una frase del prof per costruzione (M: scarto dall'inizio della frase). Che la frase sia davvero quella della card l'hanno giudicato i revisori leggendo la trascrizione: io non l'ho riverificato punto per punto (NV).
 
@@ -35,7 +35,7 @@ L'accensione coincide con l'inizio di una frase del prof per costruzione (M: sca
 
 ### Parte 1
 ```
-durata 3754.80 s = 62:34.80 | fotogrammi 112644 (durata*30=112644) = somma dei pezzi 112644 | peso 282.2 MB | 1920x1080
+durata 3754.80 s = 62:34.80 | fotogrammi 112644 (durata*30=112644) = somma dei pezzi 112644 | peso 344.7 MB | 1920x1080
 LUFS -15.2  TP -0.5 dBFS
 Q1 atteso 1200.500 trovato 1200.501 scarto +0.001 OK
 Q2 atteso 2040.067 trovato 2040.067 scarto -0.000 OK
@@ -45,11 +45,11 @@ Q4 atteso 3679.133 trovato 3679.135 scarto +0.002 OK
 Silenzi > 3 s (−45 dB): 0.
 Fermi del prof ≥ 1 s: nessuno.
 Fotogramma Quiz ai `quiz_s`: Q1 1200.00s OK, Q2 2039.57s OK, Q3 2808.33s OK, Q4 3678.63s OK.
-sha256 (ricomposto dalle parti): `7649e841f476335081512e2420ff7a0c912a65b13dfa97c06eb69ff1e0823457  Storia_Lez10_Parte1_1080p.mp4`
+sha256 (ricomposto dalle parti): `549fb9668ed9685e89f2372f5be2317b85d7541ef499d35c29da50c2f8231fe0  Storia_Lez10_Parte1_1080p.mp4`
 
 ### Parte 2
 ```
-durata 3151.20 s = 52:31.20 | fotogrammi 94536 (durata*30=94536) = somma dei pezzi 94536 | peso 245.6 MB | 1920x1080
+durata 3151.20 s = 52:31.20 | fotogrammi 94536 (durata*30=94536) = somma dei pezzi 94536 | peso 293.2 MB | 1920x1080
 LUFS -15.0  TP -1.9 dBFS
 Q5 atteso 730.700 trovato 730.700 scarto -0.000 OK
 Q6 atteso 1598.833 trovato 1598.834 scarto +0.001 OK
@@ -59,7 +59,7 @@ Q8 atteso 3061.967 trovato 3061.967 scarto -0.000 OK
 Silenzi > 3 s (−45 dB): 0.
 Fermi del prof ≥ 1 s: nessuno.
 Fotogramma Quiz ai `quiz_s`: Q5 730.20s OK, Q6 1598.33s OK, Q7 2530.57s OK, Q8 3061.47s OK.
-sha256 (ricomposto dalle parti): `196c258b45060c47292bd258918974b98105fb804a9f8998f1553c8eae2a2b4b  Storia_Lez10_Parte2_1080p.mp4`
+sha256 (ricomposto dalle parti): `b9a698d7fdd715e932d6af0165249fa4fdd00805cad1d7a6862f97f2252f9fae  Storia_Lez10_Parte2_1080p.mp4`
 
 Formato: 1920×1080, 30 fps, x264 veryfast CRF 25, AAC 192 kbps 48 kHz; parlato del prof dall'originale con la catena del kit; voci Kore a −16 LUFS. **Le Parti durano meno dei 50 minuti** (materiale del prof).
 
@@ -139,10 +139,11 @@ Formato: 1920×1080, 30 fps, x264 veryfast CRF 25, AAC 192 kbps 48 kHz; parlato 
 
 ## 4. Cose che non tornano nel parlato / limiti
 - **Durata (M):** la Parte 1 supera i 60 minuti (vedi sezione 2), la Parte 2 è sotto. Il prof parla 96 minuti: con approfondimenti, schemi, pillole e quiz la lezione dura circa 115 minuti e non si divide in due Parti da 50–60 minuti senza togliere materiale; ho tenuto il confine dopo l'argomento 4 (la master decide se spostarlo o tagliare).
-- Gli argomenti durano 7–13 minuti con poche card per slide: **molte slide restano ferme oltre i 180 s** (arg. 2 ultima slide 520 s; arg. 1 e 3–4 prime slide 213–278 s; vedi i dati nelle sezioni degli argomenti). I revisori hanno scelto gli inizi dalle frasi in cui il prof entra davvero nel tema, quindi non ho forzato i tempi.
+- **Slide ferme oltre i 3 minuti (M): molte.** Con le card intere (nota master 05:10) gli argomenti lunghi del prof (7–13 minuti) con 2–5 punti restano sulla stessa slide: elenco al punto 1. Le slide sono più lunghe di prima (prima le card erano spezzate in frammenti); non c'è altro modo di accorciarle senza spezzare le card o inventare contenuti. Le immagini del PDF del prof sono messe a tempo dove il prof le mostra.
+- **Introduzione (M):** il prof parla 239 s sopra la copertina; dopo ~2 min (111,9 s) passano 2 slide «Di cosa parliamo» con gli argomenti della Parte 1 in card (2+2). Il prof nell'introduzione non nomina i singoli argomenti: **le card non hanno il bordo giallo** (nessun aggancio nel parlato).
+- **Copertina:** titolo su 2 righe a sinistra del riquadro del prof, card ARGOMENTI sotto il titolo.
 - Il prof non segue sempre l'ordine delle slide (per es. SA e SS prima del putsch, Notte dei lunghi coltelli prima della morte di Hindenburg): le card sono approssimate (elenco nei rapporti dei revisori; riassunto: arg. 4 card 10–15, arg. 6 card 11–13, arg. 7 card 8–13, arg. 8 card 5–7 e 11–12).
 - La Parte 1 comprende anche l'introduzione di 4 minuti del prof (la «premessa» sull'antisemitismo e sulla crisi del 1929), tenuta intera.
-- Le card lunghe sono state spezzate in frammenti per rispettare le 3 card per slide; sono testo identico alla slide del prof (nei punti elenco di pagina 3 e 9 le voci sono unite alla riga che le introduce).
 - Il picco del segnale della Parte 1 è più alto del solito (−0,5 dBFS, vedi sezione 2): non l'ho corretto (NV).
 - Webcam del prof 184×138 ingrandita 2,2× (morbida); testa vicina al bordo alto già nell'originale (S).
 
