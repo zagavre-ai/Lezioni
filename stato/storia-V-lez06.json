@@ -1,26 +1,14 @@
 {
  "tag": "storia-V-lez06",
- "parti": {
-  "1": {
-   "stato": "REVISIONATA"
-  }
- },
+ "parti": {},
  "manca": "",
  "serve_master": [],
  "domande_sara": [],
  "note": [
   {
-   "quando": "18/11 21:27",
-   "testo": "PRENOTATA 18/11 21:30 · chat v3 rifacimento da zero (sessione lez04/15)"
-  },
-  {
-   "quando": "18/11 21:31",
-   "testo": "21:40 voci (58 testi) inviate; trascrizione in corso"
-  },
-  {
-   "quando": "18/11 22:34",
-   "testo": "18/11 22:40 consegnata su revisione-storia-V-lez06: 55:07, 8 argomenti, 58 voci Kore (6 DA CONTROLLARE), -16.0 LUFS, 0 silenzi >3s"
+   "quando": "20/11 21:25",
+   "testo": "correzioni 19/11: presa da claude/hopeful-keller-s5yjrk (coda 17, 15, 4, 6; lez15 consegnata 20/11 21:25). Rifaccio da capo come lez 7/15/19."
   }
  ],
- "aggiornato": "2026-11-18 22:34:11"
+ "aggiornato": "2026-11-20 21:25:27"
 }
