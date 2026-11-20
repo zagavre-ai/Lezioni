@@ -1,7 +1,7 @@
 {
  "materia": "Storia V",
  "titolo": "Storia V · Lezione 3 · L'Italia di Giolitti · Parte 2",
- "durata_s": 2803.1,
+ "durata_s": 2802.1,
  "argomenti": [
   {
    "n": 6,
@@ -19,25 +19,25 @@
    "n": 8,
    "titolo": "Il decollo industriale italiano",
    "inizio_s": 832.0,
-   "quiz_s": 1334.767
+   "quiz_s": 1333.767
   },
   {
    "n": 9,
    "titolo": "Il divario Nord-Sud e l'emigrazione",
-   "inizio_s": 1339.767,
-   "quiz_s": 1794.733
+   "inizio_s": 1338.767,
+   "quiz_s": 1793.733
   },
   {
    "n": 10,
    "titolo": "La politica coloniale e la guerra in Libia",
-   "inizio_s": 1799.733,
-   "quiz_s": 2267.633
+   "inizio_s": 1798.733,
+   "quiz_s": 2266.633
   },
   {
    "n": 11,
    "titolo": "La caduta di Giolitti e la «settimana rossa»",
-   "inizio_s": 2272.633,
-   "quiz_s": 2692.4
+   "inizio_s": 2271.633,
+   "quiz_s": 2691.4
   }
  ],
  "quiz": {

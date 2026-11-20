@@ -1,7 +1,7 @@
 {
  "materia": "Storia V",
  "titolo": "Storia V · Lezione 3 · L'Italia di Giolitti · Parte 1",
- "durata_s": 2894.233,
+ "durata_s": 2893.233,
  "argomenti": [
   {
    "n": 1,
@@ -19,19 +19,19 @@
    "n": 3,
    "titolo": "I rapporti con i socialisti e lo Sciopero del 1904",
    "inizio_s": 1660.833,
-   "quiz_s": 1998.1
+   "quiz_s": 1997.1
   },
   {
    "n": 4,
    "titolo": "Il rapporto con i cattolici e il trasformismo",
-   "inizio_s": 2003.1,
-   "quiz_s": 2277.467
+   "inizio_s": 2002.1,
+   "quiz_s": 2276.467
   },
   {
    "n": 5,
    "titolo": "Le riforme sociali e scolastiche",
-   "inizio_s": 2282.467,
-   "quiz_s": 2783.167
+   "inizio_s": 2281.467,
+   "quiz_s": 2782.167
   }
  ],
  "quiz": {
