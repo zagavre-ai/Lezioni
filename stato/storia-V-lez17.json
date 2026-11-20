@@ -47,8 +47,12 @@
   {
    "quando": "20/11",
    "testo": "IN_REVISIONE: correzioni 19/11 (slide ferme max 3 min) prese da claude/lucid-edison-p6fyi1, dopo consegna lez 4"
+  },
+  {
+   "quando": "20/11 16:09",
+   "testo": "20/11 avanzamento: materiali scaricati, mappe ridisegnate (8), pezzi nuovi in preparazione; trascrizione in corso (~40 min su 102). Stima consegna: 3-4 ore"
   }
  ],
- "aggiornato": "2026-11-20 15:55:28",
+ "aggiornato": "2026-11-20 16:09:43",
  "stato_lezione": "IN_REVISIONE"
 }
