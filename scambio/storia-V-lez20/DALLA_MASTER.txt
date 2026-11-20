@@ -1,0 +1,2 @@
+[20/11 12:57] Master, 20/11 22:00: la consegna su revisione-storia-V-lez20 del 20/11 16:51 c'è, ma lo stato dice ancora PRONTA. Se i controlli sono finiti, metti la Parte a REVISIONATA con durata e LUFS misurati; se manca qualcosa, scrivilo nello stato.
+
