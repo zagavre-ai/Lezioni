@@ -9,7 +9,7 @@
 | Durata | 51:03.6 (3063.6 s) [misurato] | 48:30.7 (2910.7 s) [misurato] |
 | Fotogrammi / 30 fps | 91908 = durata×30 [misurato] | 87320 = durata×30 [misurato] |
 | Formato | 1920×1080, x264, AAC 192k 48 kHz stereo [misurato] | idem |
-| Peso | 378.9 MB [misurato] | 359.5 MB [misurato] |
+| Peso | 387.5 MB [misurato] | 359.5 MB [misurato] |
 | Loudness integrata (file finale, ebur128) | -16,6 LUFS [misurato] | -16,7 LUFS [misurato] |
 | Picco (true peak, file finale) | -4,0 dBFS [misurato] | -4,0 dBFS [misurato] (limite −1) |
 | Parlato del prof (mediana dei pezzi) | -16,4 LUFS [misurato] | -16,5 LUFS [misurato] |
@@ -22,7 +22,7 @@ Uscita integrale di `controllo_finale.py`:
 
 ```
 Parte 1
-durata 51:03.6 (3063.6 s) | fotogrammi 91908 (attesi 91908) OK | peso 378.9 MB (361.3 MiB) OK | 1920x1080 OK
+durata 51:03.6 (3063.6 s) | fotogrammi 91908 (attesi 91908) OK | peso 387.5 MB (369.5 MiB) OK | 1920x1080 OK
 quiz 4 scatto 0,0 s: OK
 fermi immagine nei pezzi del docente: nessuno OK
 volume del parlato (mediana dei pezzi del docente): -16.4 LUFS OK
@@ -202,3 +202,9 @@ Trascrizione con `trascrivi.py` (715 segmenti); allineamento delle card al parla
 **Parte 2** (durata 2910.667 s): arg. 5 «Conquiste sociali e crisi energetica»: inizio 33.833 s, quiz 591.233 s; arg. 6 «Gli anni Ottanta: riflusso e Pentapartito»: inizio 595.833 s, quiz 1699.2 s; arg. 7 «Tangentopoli e il crollo dei partiti»: inizio 1703.8 s, quiz 2507.933 s; arg. 8 «La transizione e i governi tecnici»: inizio 2512.533 s, quiz 2839.367 s
 
 La scheda di pubblicazione ha i secondi nuovi; quelli della consegna precedente non valgono più.
+
+## 10 · Correzioni del 20/11 (note della master 05:25)
+
+- **Introduzione del prof sulla copertina max 3 minuti** [misurato]: la Parte 1 aveva il prof sulla copertina per 4,8 minuti. Ora resta sulla copertina da 0:35 a 2:44 (129 s); poi 3 slide «Di cosa parliamo» con gli 8 argomenti in card (3 + 3 + 2, ognuna 45–60 s), con il bordo giallo acceso quando il prof dice «si apre con il 68» (argomento 1) e «anni di piombo» (argomento 3). Nelle altre slide «Di cosa parliamo» non c'è bordo giallo perché il prof non nomina gli argomenti.
+- **Come ho fatto la sostituzione** [per costruzione]: ho sostituito solo i fotogrammi del tratto di introduzione (stessa durata, 288,3 s); audio, sottotitoli e tutti gli altri pezzi sono invariati. Il video è stato ricodificato una volta (x264 CRF 18): peso 387,5 MB; durata, fotogrammi, loudness (−16,6 LUFS), picco (−4,0 dBFS) e scatto dei Quiz (+0,005 s) rimisurati, `controllo_finale` TUTTO OK.
+- **`timeline_Parte1.json` e `timeline_Parte2.json` rigenerate** [misurato]: nella consegna del 19/11 erano quelle della versione precedente (2805,6 s e 2681,3 s); ora l'ultimo pezzo finisce a 3063,6 s e 2910,7 s, uguali alle durate dei video. `scheda_pubblicazione_Parte1/2.json` avevano già i tempi nuovi (durata_s 3063,567 e 2910,667).
