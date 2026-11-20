@@ -11,6 +11,10 @@
   {
    "quando": "14/11 22:10",
    "testo": "Voci Kore: testi_voci.json (20 voci, nomi L6_*) e quiz.json sul ramo voci-moda-tecnologie-III-lez06. Compiti: nella release non c'e' il file Compiti -> COMPITI_MANCANTI. Nota: Whisper non scaricabile (HuggingFace bloccato), trascrizione fatta con Gemini; sottotitoli da controllare."
+  },
+  {
+   "quando": "20/11 16:00",
+   "testo": "Voci L6_* nuove (99) sul ramo voci-moda-tecnologie-III-lez06, vedi DALLA_CHAT_voci_nuove.txt. Manca la sigla di Tecnologie (Moda III)."
   }
  ],
  "domande_sara": [],
@@ -34,9 +38,13 @@
   {
    "quando": "20/11 15:57",
    "testo": "ripresa 20/11: presa da claude/relaxed-newton-yl5foc"
+  },
+  {
+   "quando": "20/11 16:00",
+   "testo": "20/11: 99 voci nuove (AN, SC, INTRO_P2, RP, GLP, RF, FIN) inviate in testi_voci.json sul ramo voci-moda-tecnologie-III-lez06. Piano: 2 Parti (arg 1-4 e 5-7, ~40 min l'una, niente riempitivi). Riuso allineamento/argomenti/mappe dal ramo lavoro-moda-tecnologie-III-lez06. Manca ancora: slide bianche nel modello, riquadro prof (webcam 62 px), montaggio. Sigla Tecnologie assente: segnaposto 15 s. Lab lez01/02/5 già fatte da altra chat (revisione-moda-laboratori-*): non le rifaccio."
   }
  ],
  "materia": "Moda · Tecnologie III · chat TEC",
  "lezione": "Lezione 6",
- "aggiornato": "2026-11-20 15:57:41"
+ "aggiornato": "2026-11-20 16:00:33"
 }
