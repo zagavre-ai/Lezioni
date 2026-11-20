@@ -6,6 +6,9 @@
   },
   "2": {
    "stato": "REVISIONATA"
+  },
+  "3": {
+   "stato": "REVISIONATA"
   }
  },
  "manca": "",
@@ -56,10 +59,14 @@
   {
    "quando": "20/11 20:05",
    "testo": "Parte 2 51:18,6"
+  },
+  {
+   "quando": "20/11 20:05",
+   "testo": "Parte 3 53:58,2"
   }
  ],
  "materia": "Storia V",
  "lezione": "Lezione 13",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-20 20:05:21"
+ "aggiornato": "2026-11-20 20:05:23"
 }
