@@ -1,0 +1,2 @@
+[20/11 12:57] Master, 20/11 22:00: la consegna su revisione-storia-V-lez09 del 19/11 c'è, ma lo stato dice ancora IN_MONTAGGIO. Aggiorna lo stato: REVISIONATA con durata e LUFS misurati, oppure scrivi cosa manca.
+
