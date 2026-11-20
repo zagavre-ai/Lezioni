@@ -576,7 +576,7 @@
    ]
   }
  },
- "manca": "da decidere (master): dura 75:16 (>65 min, una sola Parte); 2 slide ferme oltre 3 minuti (arg. 1); da confermare col prof: 8 approfondimenti",
+ "manca": "da decidere (master): dura 75:16 in una Parte; molte slide ferme oltre 3 min (card intere, il prof parla a lungo su pochi punti); introduzione: card «Di cosa parliamo» senza bordo giallo (il prof non nomina gli argomenti); da riascoltare voce Maastricht nel glossario",
  "serve_master": [
   {
    "quando": "15/11 00:31",
@@ -648,10 +648,14 @@
   {
    "quando": "20/11 16:04",
    "testo": "20/11 16:15 rimontaggio in corso: card intere (mai «…»), card alte quanto il testo, copertina su 2 righe a sinistra del riquadro, slide «Di cosa parliamo» dopo ~2 min di introduzione. Poi la 10 (stessa sessione)"
+  },
+  {
+   "quando": "20/11 16:53",
+   "testo": "card intere 19/11 (chat v3, 20/11): copertina su 2 righe, card alte quanto il testo, slide Di cosa parliamo, timeline/scheda rigenerate; Parte unica 75:16; vedi rapporto"
   }
  ],
  "materia": "Storia",
  "lezione": "Lezione 20 · Gli anni Novanta, il mondo post-bipolare",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-20 16:04:44"
+ "aggiornato": "2026-11-20 16:53:35"
 }
