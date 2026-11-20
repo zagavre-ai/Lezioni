@@ -2,37 +2,37 @@
  "materia": "Storia",
  "titolo": "Storia V · Lezione 7 · Gli Stati Uniti dal boom economico al New Deal",
  "parte": 1,
- "durata_s": 2702.033,
+ "durata_s": 3011.467,
  "argomenti": [
   {
    "n": 1,
    "titolo": "I ruggenti anni Venti",
-   "inizio_s": 137.167,
-   "quiz_s": 749.867
+   "inizio_s": 137.367,
+   "quiz_s": 811.733
   },
   {
    "n": 2,
    "titolo": "Le donne e le flappers",
-   "inizio_s": 754.467,
-   "quiz_s": 993.033
+   "inizio_s": 816.333,
+   "quiz_s": 1103.667
   },
   {
    "n": 3,
    "titolo": "Isolazionismo, razzismo e proibizionismo",
-   "inizio_s": 997.633,
-   "quiz_s": 1575.533
+   "inizio_s": 1108.267,
+   "quiz_s": 1762.3
   },
   {
    "n": 4,
    "titolo": "Il crollo del 1929 e la Grande Depressione",
-   "inizio_s": 1580.133,
-   "quiz_s": 2052.633
+   "inizio_s": 1766.9,
+   "quiz_s": 2298.8
   },
   {
    "n": 5,
    "titolo": "Il New Deal di Roosevelt",
-   "inizio_s": 2057.233,
-   "quiz_s": 2591.933
+   "inizio_s": 2303.4,
+   "quiz_s": 2901.367
   }
  ],
  "quiz": {
