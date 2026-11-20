@@ -6,15 +6,24 @@
   }
  },
  "manca": "",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "20/11 17:47",
+   "testo": "Voci Kore nuove lez 15: 20 testi (AN1-AN20, approfondimenti animati 2 per argomento) nel ramo voci-storia-V-lez15"
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
    "quando": "20/11 17:45",
    "testo": "correzioni 19/11 (coda master: 17, 15, 4, 6): presa da claude/hopeful-keller-s5yjrk il 20/11 18:15; rifaccio slide, mappe, approfondimenti, schema, transizioni, copertina, intro <=3 min"
+  },
+  {
+   "quando": "20/11 17:47",
+   "testo": "20/11 18:30 materiali scaricati; trascrizione in corso; voci AN inviate"
   }
  ],
  "materia": "storia-V",
  "lezione": "15",
- "aggiornato": "2026-11-20 17:45:09"
+ "aggiornato": "2026-11-20 17:47:03"
 }
