@@ -3,7 +3,338 @@
  "parti": {
   "1": {
    "titolo": "Le fibre",
-   "stato": "IN_REVISIONE"
+   "stato": "REVISIONATA",
+   "voci": "kore",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "si",
+   "video": "Chimica_Lez1_Parte1_1080p.mp4",
+   "durata_s": 2680.9,
+   "durata": "44:40.9",
+   "fotogrammi": 80427,
+   "fotogrammi_attesi": 80427,
+   "peso_MB": 246.3,
+   "vtt": "Chimica_Lez1_Parte1.vtt",
+   "scheda": {
+    "materia": "Chimica applicata e nobilitazione dei materiali per i prodotti della moda",
+    "titolo": "Le fibre",
+    "durata_s": 2680.9,
+    "argomenti": [
+     {
+      "n": 1,
+      "titolo": "Classificazione delle fibre",
+      "inizio_s": 73.6,
+      "quiz_s": 425.66
+     },
+     {
+      "n": 2,
+      "titolo": "Struttura chimica delle fibre",
+      "inizio_s": 432.06,
+      "quiz_s": 1048.76
+     },
+     {
+      "n": 3,
+      "titolo": "Proprietà delle fibre",
+      "inizio_s": 1055.16,
+      "quiz_s": 1426.76
+     },
+     {
+      "n": 4,
+      "titolo": "Saggi chimici",
+      "inizio_s": 1433.16,
+      "quiz_s": 1787.83
+     },
+     {
+      "n": 5,
+      "titolo": "Etichettatura dei prodotti tessili",
+      "inizio_s": 1794.23,
+      "quiz_s": 2517.92
+     }
+    ],
+    "quiz": [
+     {
+      "quiz": 1,
+      "argomento": "Classificazione delle fibre",
+      "domande": [
+       {
+        "d": "Qual è il criterio fondamentale con cui si distinguono le fibre tessili?",
+        "giusta": "L'origine",
+        "sbagliate": [
+         "Il colore",
+         "Il prezzo",
+         "La lunghezza del filo"
+        ],
+        "spiega": "La distinzione fondamentale avviene in base all'origine: fibre naturali o tecnofibre."
+       },
+       {
+        "d": "Da che cosa sono composte prevalentemente le fibre vegetali?",
+        "giusta": "Cellulosa",
+        "sbagliate": [
+         "Proteine",
+         "Silicati metallici",
+         "Idrocarburi"
+        ],
+        "spiega": "Le fibre vegetali sono composte prevalentemente da cellulosa."
+       },
+       {
+        "d": "Quale di queste è una fibra vegetale da seme?",
+        "giusta": "Il cotone",
+        "sbagliate": [
+         "Il lino",
+         "Il sisal",
+         "Il cocco"
+        ],
+        "spiega": "Il cotone viene dal seme; lino e canapa da libro o stelo, sisal da foglia, cocco da frutto."
+       },
+       {
+        "d": "Come vengono ottenute le fibre artificiali?",
+        "giusta": "Trasformando materie prime polimeriche già esistenti in natura",
+        "sbagliate": [
+         "Per polimerizzazione di idrocarburi",
+         "Dal vello dei mammiferi",
+         "Dalle secrezioni di insetti"
+        ],
+        "spiega": "Le artificiali trasformano polimeri già presenti in natura, come viscosa e acetato."
+       },
+       {
+        "d": "Quali fibre nascono dalla polimerizzazione di composti chimici semplici (idrocarburi)?",
+        "giusta": "Le fibre sintetiche",
+        "sbagliate": [
+         "Le fibre animali",
+         "Le fibre artificiali",
+         "Le fibre minerali"
+        ],
+        "spiega": "Le fibre sintetiche danno origine a poliesteri, poliammidi, polimeri acrilici e poliuretanici."
+       }
+      ]
+     },
+     {
+      "quiz": 2,
+      "argomento": "Struttura chimica delle fibre",
+      "domande": [
+       {
+        "d": "Come si chiama una fibra composta da un unico tipo di monomero?",
+        "giusta": "Omopolimero",
+        "sbagliate": [
+         "Copolimero",
+         "Polimero reticolato",
+         "Polimero innestato"
+        ],
+        "spiega": "Un solo tipo di monomero: omopolimero. Due o più tipi: copolimero."
+       },
+       {
+        "d": "Che cosa tiene unite le unità ripetitive all'interno della macromolecola?",
+        "giusta": "Forti legami covalenti",
+        "sbagliate": [
+         "Deboli forze di Van der Waals",
+         "Ponti a idrogeno intercatena",
+         "Legami cistinici"
+        ],
+        "spiega": "I monomeri sono legati tra loro da forti legami covalenti."
+       },
+       {
+        "d": "Quale forma hanno in genere i polimeri che compongono le fibre tessili?",
+        "giusta": "Lineari o poco ramificati",
+        "sbagliate": [
+         "Solo reticolati",
+         "Solo tridimensionali",
+         "Sempre molto ramificati"
+        ],
+        "spiega": "I polimeri delle fibre tessili possono essere lineari o solo leggermente ramificati."
+       },
+       {
+        "d": "Che cosa conferiscono alla fibra le zone cristalline?",
+        "giusta": "Tenacità, stabilità chimica e rigidezza",
+        "sbagliate": [
+         "Flessibilità e tingibilità",
+         "Elasticità e flessibilità",
+         "Solubilità e reattività"
+        ],
+        "spiega": "Le zone cristalline danno tenacità, stabilità chimica e rigidezza; le amorfe flessibilità, elasticità e tingibilità."
+       },
+       {
+        "d": "Come sono disposte le molecole nel lino?",
+        "giusta": "Parallele all'asse della fibra",
+        "sbagliate": [
+         "Con andamento elicoidale",
+         "In modo del tutto casuale",
+         "In strati reticolati"
+        ],
+        "spiega": "Nel lino le molecole sono parallele all'asse: alta tenacità e scarso allungamento. Nel cotone l'andamento è elicoidale."
+       }
+      ]
+     },
+     {
+      "quiz": 3,
+      "argomento": "Proprietà delle fibre",
+      "domande": [
+       {
+        "d": "In quante categorie si dividono le proprietà fondamentali delle fibre?",
+        "giusta": "Quattro",
+        "sbagliate": [
+         "Due",
+         "Tre",
+         "Sei"
+        ],
+        "spiega": "Sono quattro: morfologico-organolettiche, fisico-meccaniche, chimiche e fisiologiche."
+       },
+       {
+        "d": "Che cos'è l'igroscopicità?",
+        "giusta": "La capacità di assorbire umidità",
+        "sbagliate": [
+         "La capacità isolante",
+         "La resistenza alla rottura",
+         "La riflessione della luce"
+        ],
+        "spiega": "L'igroscopicità è la capacità di assorbire umidità; la coibenza è la capacità isolante."
+       },
+       {
+        "d": "A quale categoria appartengono lunghezza e finezza?",
+        "giusta": "Caratteri morfologico-organolettici",
+        "sbagliate": [
+         "Caratteri fisico-meccanici",
+         "Caratteri chimici",
+         "Caratteri fisiologici"
+        ],
+        "spiega": "Lunghezza e finezza (o diametro) sono parametri morfologico-organolettici."
+       },
+       {
+        "d": "Che cosa studiano i caratteri fisiologici?",
+        "giusta": "Come il materiale interagisce con l'organismo umano",
+        "sbagliate": [
+         "La resistenza ad acidi e basi",
+         "La tenacità e la resilienza",
+         "La lunghezza e la lucentezza"
+        ],
+        "spiega": "Includono anallergicità, senso di caldo o di fresco e vestibilità."
+       },
+       {
+        "d": "A che cosa serve conoscere i caratteri chimici di una fibra?",
+        "giusta": "A definire lavaggio, candeggio e tintura senza danneggiare il polimero",
+        "sbagliate": [
+         "A misurarne la lunghezza",
+         "A stabilirne il prezzo",
+         "A valutarne la lucentezza"
+        ],
+        "spiega": "La conoscenza dei caratteri chimici è essenziale per i processi di lavaggio, candeggio e tintura."
+       }
+      ]
+     },
+     {
+      "quiz": 4,
+      "argomento": "Saggi chimici",
+      "domande": [
+       {
+        "d": "Che cosa fa la soda caustica alle fibre proteiche?",
+        "giusta": "Le scioglie completamente",
+        "sbagliate": [
+         "Le colora di rosso",
+         "Le lascia inalterate",
+         "Le colora di azzurro"
+        ],
+        "spiega": "Con la soda caustica le fibre proteiche si sciolgono; cellulosa e sintetiche restano inalterate."
+       },
+       {
+        "d": "Quale fibra resiste a lungo all'acido solforico concentrato?",
+        "giusta": "La lana",
+        "sbagliate": [
+         "Il cotone",
+         "La seta",
+         "Il lino"
+        ],
+        "spiega": "L'acido solforico concentrato scioglie quasi tutte le fibre, ma non la lana."
+       },
+       {
+        "d": "Che reazione dà l'acido nitrico concentrato sulla lana?",
+        "giusta": "Una colorazione gialla, senza scioglierla",
+        "sbagliate": [
+         "La scioglie subito",
+         "Una colorazione azzurra",
+         "Nessuna variazione"
+        ],
+        "spiega": "È la reazione xanto-proteica: la lana ingiallisce senza sciogliersi."
+       },
+       {
+        "d": "Quale fibra lascia integra il reattivo di Schweitzer?",
+        "giusta": "La lana",
+        "sbagliate": [
+         "La seta",
+         "Il cotone",
+         "Il lino"
+        ],
+        "spiega": "Il reattivo di Schweitzer scioglie seta e fibre vegetali (tranne la juta) e lascia integra la lana."
+       },
+       {
+        "d": "Che colore assumono le parti di cellulosa pura con il saggio iodosolforico?",
+        "giusta": "Azzurro",
+        "sbagliate": [
+         "Giallo",
+         "Rosso magenta",
+         "Violetto"
+        ],
+        "spiega": "La cellulosa pura si colora di azzurro, le parti lignificate di giallo."
+       }
+      ]
+     },
+     {
+      "quiz": 5,
+      "argomento": "Etichettatura dei prodotti tessili",
+      "domande": [
+       {
+        "d": "Qual è la legge italiana di riferimento per l'etichettatura dei prodotti tessili?",
+        "giusta": "La legge 883 del 26 novembre 1973",
+        "sbagliate": [
+         "La legge 883 del 1963",
+         "La legge 26 del 1983",
+         "Il codice UNITEX"
+        ],
+        "spiega": "In Italia la normativa è la legge 883 del 26 novembre 1973 e successive modifiche."
+       },
+       {
+        "d": "In quale ordine vanno elencate le fibre nell'etichetta di composizione?",
+        "giusta": "In ordine decrescente di peso, con le percentuali",
+        "sbagliate": [
+         "In ordine alfabetico",
+         "In ordine crescente di peso",
+         "In ordine di prezzo"
+        ],
+        "spiega": "Le fibre si elencano in ordine decrescente di peso, indicando la percentuale di ciascuna."
+       },
+       {
+        "d": "Che cosa è vietato scrivere al posto del nome generico di una fibra?",
+        "giusta": "Un marchio registrato, come Lycra o Terital",
+        "sbagliate": [
+         "La percentuale",
+         "Il nome del produttore",
+         "La denominazione ufficiale"
+        ],
+        "spiega": "È vietato sostituire i nomi generici con marchi registrati o con sinonimi devianti."
+       },
+       {
+        "d": "Quando le parti di un capo vanno etichettate separatamente?",
+        "giusta": "Quando superano il 30% del peso totale",
+        "sbagliate": [
+         "Quando superano il 10% del peso",
+         "Mai",
+         "Solo se sono di seta"
+        ],
+        "spiega": "Le parti con fibre diverse si etichettano a parte oltre il 30% del peso; le fodere sempre."
+       },
+       {
+        "d": "Che cosa certifica il marchio Pura Lana Vergine?",
+        "giusta": "L'uso esclusivo di lana di tosa mai lavorata prima",
+        "sbagliate": [
+         "Una presenza di lana vergine non inferiore al 25%",
+         "La resistenza al lavaggio",
+         "L'origine italiana della lana"
+        ],
+        "spiega": "Misto Lana Vergine indica invece una presenza di lana vergine non inferiore al 25% in mischia con un solo altro tipo di fibra."
+       }
+      ]
+     }
+    ],
+    "docente": "Prof.ssa Piera Caputi"
+   }
   }
  },
  "manca": "",
@@ -46,10 +377,14 @@
   {
    "quando": "20/11 19:36",
    "testo": "20/11 19:36: video lez01 montato e codificato (44:41, 1080p, -15.9 LUFS). Ultimi controlli e consegna su revisione-moda-chimica-III-IV-lez01 in corso."
+  },
+  {
+   "quando": "20/11 19:59",
+   "testo": "20/11 19:59: REVISIONATA lez01 su revisione-moda-chimica-III-IV-lez01. Durata misurata 44:40,9 (sotto i 50 min richiesti), 1080p, -15,9 LUFS, picco -1,2 dBFS. Criticità nel RAPPORTO_REVISIONE.md: manca voce INTRO1 (benvenuto), 5 silenzi da 3,3 s solo nelle schede Quiz, Excel docente con 7 domande, 5 frasi del PDF non dette dalla docente."
   }
  ],
  "materia": "Chimica applicata e nobilitazione dei materiali per i prodotti della moda (III + IV)",
  "lezione": "Le fibre",
  "docente": "Prof.ssa Piera Caputi",
- "aggiornato": "2026-11-20 19:36:17"
+ "aggiornato": "2026-11-20 19:59:28"
 }
