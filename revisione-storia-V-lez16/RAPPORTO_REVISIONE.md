@@ -1,33 +1,33 @@
-# RAPPORTO DI REVISIONE · Storia V · Lezione 16 · «Gli anni Sessanta tra crisi e progressi» · CORREZIONI 19/11 (Prof. Giorgio Mazzotti)
+# RAPPORTO DI REVISIONE · Storia V · Lezione 16 · «Gli anni Sessanta tra crisi e progressi» · CARD INTERE 19/11 (Prof. Giorgio Mazzotti)
 19/11/2026 · chat v3 · ramo `revisione-storia-V-lez16` (sostituisce la consegna precedente della lezione) · modello: Spagnolo Lez. 1. Ogni dato è etichettato **M** (misurato), **S** (stima / lettura a vista), **NV** (non verificato).
 
-**Cosa è cambiato rispetto alla prima consegna (8 punti della master, 19/11 03:40).** Riusati: voci Kore già presenti, quiz, compiti e verifica della consegna precedente. Rifatti da zero (la consegna precedente non aveva i file di lavoro): trascrizione, tagli, slide (dal PDF del prof, SLIDE 17/11), schede blu, mappe, approfondimenti, schemi, copertina. Voci nuove richieste alla master: 7 approfondimenti e 1 frase di schema (SC5_4 sostituita con RV5_4 per un errore di sintesi); la frase SC6_4 è stata aggiunta come 4ª riga dello schema dell'argomento 6.
+**Cosa è cambiato rispetto alla consegna precedente (note master 19/11: 8 punti delle 03:40 + card intere delle 05:10, controlli delle 05:25, copertina delle 08:55).** Rifatto da zero: trascrizione, tagli, slide (dal PDF del prof), schede blu, mappe, approfondimenti, copertina. Riusati: voci Kore già presenti, quiz, compiti e verifica della consegna precedente. Voci nuove richieste alla master: 7 approfondimenti e la sostituzione di una frase di schema (SC5_4 → RV5_4 per un errore di sintesi); SC6_4 aggiunta come 4ª riga dello schema 6.
 
 ## 1. Le 8 correzioni punto per punto
 | # | Punto della master | Esito |
 |---|---|---|
-| 1 | Al massimo 3 card per slide; nessuna slide ferma oltre 3 minuti; immagini a tempo | fatto: ogni argomento è diviso in più slide da 1–3 card nell'ordine in cui il prof parla (testo del prof invariato; le card lunghe sono spezzate in frammenti, quelli seguenti iniziano con «…»). Le slide di testo sono 23; durata massima misurata 296 s. Slide oltre 180 s: arg. 3 slide 1 (230 s), arg. 4 slide 4 (191 s), arg. 5 slide 1 (296 s). Le immagini del prof sono messe a tempo (invariato).  |
-| 2 | Sincronia: il bordo giallo si accende quando il prof INIZIA la frase (±1 s); 10 punti a caso | fatto in modo diverso dal calcolo automatico di prima: l'inizio di ogni card è stato scelto leggendo la trascrizione (frase per frase) da revisori; tabella dei 10 punti qui sotto. Alcune card non hanno corrispondenza nel parlato (vedi sezione 4). |
-| 3 | Mappe ridisegnate con `kit/tools/mappa.py`, intere, nodi a tempo con la voce Kore | fatto: le 3 mappe del prof (Gli Stati Uniti, L'Unione Sovietica, In Medio Oriente) sono ridisegnate con lo strumento della master (centro + rami, nodi che compaiono con la voce Kore a tempo, testo del prof). Il prof ha mandato 3 mappe per tutta la lezione, non una per argomento: dopo gli argomenti 5, 6 e 6 (secondo il tema; nella mappa «In Medio Oriente» il connettore del prof è «lo», lasciato com'è, NV). |
-| 4 | Almeno un approfondimento animato (4c) per argomento, 40–60 s, voce Kore | fatto: 7 approfondimenti (uno per argomento) con voce Kore nuova (7 voci richieste alla master), durata dei pezzi AP1 51,0; AP2 59,4; AP3 53,3; AP4 53,2; AP5 49,4; AP6 49,3; AP7 51,7 (compresi 0,9 s iniziali e 1,2 s finali di pausa), card che compaiono a tempo con la voce; i testi sono stati scritti dal parlato del prof (da far confermare, sezione 5). |
+| 1 | Al massimo 3 card per slide; nessuna slide ferma oltre 3 minuti; immagini a tempo | fatto: ogni punto della slide del prof è UNA card intera (nessuna card spezzata con «…», titolo in grassetto una sola volta), card alte quanto il loro testo e allineate in alto, al massimo 3 card per slide (mai una card sola, salvo accanto a un'immagine del prof); il bordo giallo si accende quando il prof inizia quel punto. Le slide di testo sono 10; durata massima misurata 488 s. Slide oltre 180 s: arg. 2 slide 2 (295 s), arg. 3 slide 1 (417 s), arg. 4 slide 1 (400 s), arg. 5 slide 1 (488 s), arg. 7 slide 2 (195 s). Le immagini del prof sono messe a tempo (invariato).  |
+| 2 | Sincronia: il bordo giallo si accende quando il prof INIZIA il punto (±1 s); 10 punti a caso | fatto in modo diverso dal calcolo automatico di prima: l'inizio di ogni card è stato scelto leggendo la trascrizione (frase per frase) da revisori; tabella dei 10 punti qui sotto. Alcune card non hanno corrispondenza nel parlato (vedi sezione 4). |
+| 3 | Mappe ridisegnate con `kit/tools/mappa.py`, intere, nodi a tempo con la voce Kore | fatto: le 3 mappe del prof (Gli Stati Uniti, L'Unione Sovietica, In Medio Oriente) sono ridisegnate (centro + rami, nodi con la voce Kore a tempo); dopo gli argomenti 5, 6 e 6. |
+| 4 | Almeno un approfondimento animato (4c) per argomento, 40–60 s, voce Kore | fatto: 7 approfondimenti (uno per argomento) con voce Kore nuova (7 voci richieste alla master), durata dei pezzi AP1 51,0; AP2 59,4; AP3 53,3; AP4 53,2; AP5 49,4; AP6 49,3; AP7 51,7 (compresi 0,9 s iniziali e 1,2 s finali di pausa), card a tempo con la voce; i testi sono stati scritti da un revisore automatico dal parlato del prof (da far confermare, sezione 5). |
 | 5 | Schema di ripasso: 4–6 righe | già a norma: 4–6 righe per argomento. |
 | 6 | `trans.wav` + dissolvenza a ogni cambio di pezzo | a norma (tutti i pezzi, anche prof → approfondimento → mappa → pillola); dissolvenza 0,5 s dal fotogramma precedente. Dentro il pezzo del prof il cambio di slide è un taglio netto (NV: non ho aggiunto dissolvenze fra slide dello stesso pezzo). |
-| 7 | Copertina: titolo esatto; card ARGOMENTI non sovrapposta | a norma: «Gli anni Sessanta tra crisi e progressi» (titolo della prima slide del prof; titolo su una riga, nessuna sovrapposizione con la card ARGOMENTI, vista a occhio sul fotogramma). |
+| 7 | Copertina: titolo esatto; card ARGOMENTI non sovrapposta | a norma: «Gli anni Sessanta tra crisi e progressi» su 2 righe a sinistra del riquadro del prof; la card ARGOMENTI sotto il titolo (vista a occhio sul fotogramma). |
 | 8 | Avviso diritti: in basso al centro, bianco 24 px senza riquadro, mai sopra il piè di pagina della copertina | fatto: sulla sigla (nera) negli ultimi 2 s, testo bianco 24 px senza riquadro; tolto dalla copertina bianca (il testo bianco non si vede su bianco). |
 
 ### Sincronia: 10 punti a caso (M)
 | Dove | Argomento | Card accesa | Frase del prof che inizia in quel punto (trascrizione) | Scarto dall'inizio della frase |
 |---|---|---|---|---|
-| Parte 1 · 9:50.77 | arg. 2 | «e Martin Luther King).…» | «Colored per i neri, maschi e femmine. Quindi c'è una triplice distinzione i…» | -0.0 s |
-| Parte 1 · 10:01.57 | arg. 2 | «rilancio della sfida al blocco comunista…» | «così che ha vinto le elezioni, cioè ha riscosso anche un certo interesse…» | +0.0 s |
-| Parte 1 · 25:45.00 | arg. 4 | «della "frontiera" extraterrestre.…» | «Per loro è la space race, intesa non solo come competizione tecnologica e m…» | +0.0 s |
-| Parte 1 · 25:59.00 | arg. 4 | «lancio del primo satellite artificiale (Sputnik, 1957)…» | «Inizialmente i primi significativi successi storici vengono messi a segno, …» | +0.0 s |
-| Parte 1 · 26:54.60 | arg. 4 | «Kennedy lancia il progetto lunare; il 20 luglio 1969…» | «Qualcuno direbbe la corsa all'oro, la corsa allo spazio, no? Appunto, nel s…» | -0.0 s |
-| Parte 1 · 36:57.08 | arg. 5 | «per fermare l'esodo continuo della popolazione verso l'…» | «di Chruščëv per fermare l'esodo continuo della popolazione di Berlino verso…» | +0.0 s |
-| Parte 1 · 37:35.08 | arg. 5 | «dall'installazione di missili sovietici sull'isola di C…» | «Perché l'Unione Sovietica fece questo? Perché gli Stati Uniti diedero il lo…» | +0.0 s |
-| Parte 1 · 48:30.93 | arg. 7 | «studenti e intellettuali insorgono contro il capitalism…» | «Ricordiamo in chiusura poi che il Sessantotto è anche però l'anno di una pr…» | -0.3 s |
-| Parte 1 · 49:07.33 | arg. 7 | «nascita del movimento hippy, rifiuto del materialismo e…» | «sono contrari alla politica dei loro padri, per così dire, alla politica re…» | -0.0 s |
-| Parte 1 · 51:39.83 | arg. 7 | «ma trasforma radicalmente la cultura, i costumi e la mo…» | «quello degli anni Sessanta all'atto della sua chiusura, con il Sessantotto …» | +0.0 s |
+| Parte 1 · 5:04.47 | arg. 2 | «programma politico basato sul progresso economico, scie…» | «e di una complessa ridefinizione degli equilibri internazionali. Passerei i…» | -0.2 s |
+| Parte 1 · 7:11.27 | arg. 2 | «Kennedy sostiene la lotta contro la segregazione razzia…» | «La questione dei neri, che non sono più schiavi, ma cento anni dopo aver fi…» | +0.0 s |
+| Parte 1 · 26:32.70 | arg. 4 | «Kennedy lancia il progetto lunare; il 20 luglio 1969 la…» | «Prima di tutto questo c'era anche il primo cane, per capire se poteva sopra…» | -0.0 s |
+| Parte 1 · 32:00.63 | arg. 5 | «eretto nell'agosto 1961 dalla Germania Est per fermare …» | «Bene, quindi capite che la presidenza Kennedy non è solo la presidenza del …» | -0.2 s |
+| Parte 1 · 37:20.48 | arg. 5 | «massimo punto di tensione globale causato dall'installa…» | «Poi, infatti, c'è la crisi dei missili di Cuba del 1962.…» | +0.0 s |
+| Parte 1 · 38:02.38 | arg. 5 | «intervento militare massiccio degli Stati Uniti contro …» | «Però c'è il problema, come potete vedere dalla cartina, del Vietnam. Mai ri…» | -0.0 s |
+| Parte 1 · 39:50.18 | arg. 5 | «intervento militare massiccio degli Stati Uniti contro …» | «La guerra dura.…» | +1.2 s |
+| Parte 1 · 44:34.85 | arg. 6 | «tentativo della Cecoslovacchia di creare un "socialismo…» | «E infatti sarà proprio con Brežnev. Con Chruščëv abbiamo visto i moti d'Ung…» | +0.0 s |
+| Parte 1 · 49:07.33 | arg. 7 | «nascita del movimento hippy, rifiuto del materialismo e…» | «e sono contrari alla politica dei loro padri, per così dire, alla politica …» | -0.0 s |
+| Parte 1 · 51:20.63 | arg. 7 | «sul piano strettamente politico ottiene poche vittorie …» | «di rottura, ma anche... cioè, di rottura positiva e di inaugurazione di un …» | -0.0 s |
 
 L'accensione coincide con l'inizio di una frase del prof per costruzione (M: scarto dall'inizio della frase). Che la frase sia davvero quella della card l'hanno giudicato i revisori leggendo la trascrizione: io non l'ho riverificato punto per punto (NV).
 
@@ -35,7 +35,7 @@ L'accensione coincide con l'inizio di una frase del prof per costruzione (M: sca
 
 ### Parte 1
 ```
-durata 3311.44 s = 55:11.44 | fotogrammi 99343 (durata*30=99343) = somma dei pezzi 99343 | peso 253.6 MB | 1920x1080
+durata 3311.44 s = 55:11.44 | fotogrammi 99343 (durata*30=99343) = somma dei pezzi 99343 | peso 285.1 MB | 1920x1080
 LUFS -15.2  TP -1.9 dBFS
 Q1 atteso 295.967 trovato 295.968 scarto +0.001 OK
 Q2 atteso 901.433 trovato 901.435 scarto +0.002 OK
@@ -48,7 +48,7 @@ Q7 atteso 3238.133 trovato 3238.135 scarto +0.002 OK
 Silenzi > 3 s (−45 dB): 0.
 Fermi del prof ≥ 1 s: nessuno.
 Fotogramma Quiz ai `quiz_s`: Q1 295.47s OK, Q2 900.93s OK, Q3 1414.30s OK, Q4 1911.63s OK, Q5 2612.00s OK, Q6 2901.93s OK, Q7 3237.63s OK.
-sha256 (ricomposto dalle parti): `baed8c295a34438d4ac2bc9443b3e23950a44b7c1301d5f9596f5d90ae8f00fa  Storia_Lez16_Parte1_1080p.mp4`
+sha256 (ricomposto dalle parti): `9f048dea94205148361c8579d364e5f00948505d7e70040003c65ad46dfce19b  Storia_Lez16_Parte1_1080p.mp4`
 
 Formato: 1920×1080, 30 fps, x264 veryfast CRF 25, AAC 192 kbps 48 kHz; parlato del prof dall'originale con la catena del kit; voci Kore a −16 LUFS. **Le Parti durano meno dei 50 minuti** (materiale del prof).
 
@@ -111,15 +111,15 @@ Formato: 1920×1080, 30 fps, x264 veryfast CRF 25, AAC 192 kbps 48 kHz; parlato 
 | 7 · Finale `FINALE` | sì | 55:06.43 | 5.0 s |
 
 ## 4. Cose che non tornano nel parlato / limiti
-- Il prof non segue l'ordine delle slide e fa lunghe digressioni: argomento 5, la card 1 (Muro di Berlino) resta accesa per ~296 s perché il prof parla del contenimento del comunismo nel terzo mondo prima di arrivare al Muro; argomento 3, la card 1 (Great Society) per ~230 s (parla della transizione Kennedy-Johnson); argomento 4, l'ultima card ~191 s (complotti sulla Luna). **Tre slide restano ferme oltre i 180 s**: nel parlato non c'è un altro aggancio.
-- L'argomento 1 dura solo 41 s (il prof lo liquida in fretta) e le card sul welfare e sul ruolo delle donne non sono trattate: le 6 card sono distribuite sulle frasi disponibili (due card a 1,8 s l'una dall'altra).
-- Card senza corrispondenza esplicita nel parlato (agganciate a frasi vicine): arg. 2 (Rosa Parks, politica estera), arg. 3 (Civil Rights Act citato prima della Great Society), arg. 5 (opposizione dell'opinione pubblica), arg. 6 (controllo sul blocco orientale), arg. 7 (hippy, aborto).
-- Le slide sono quelle del PDF del prof; le 4 pagine immagine (Kennedy, mappa del Vietnam, carri armati a Praga, mappa della guerra dei Sei giorni) sono messe a tempo dove il prof le mostra.
-- Le card lunghe sono state spezzate in frammenti per rispettare le 3 card per slide; sono testo identico alla slide del prof.
+- **Durata (M):** la lezione è in una sola Parte da 55 minuti (vedi sezione 2), dentro i 50–60 minuti della regola.
+- **Slide ferme oltre i 3 minuti (M): molte.** Con le card intere un argomento in cui il prof parla a lungo su pochi punti resta sulla stessa slide (elenco al punto 1; per es. arg. 5: 566 s su 3 punti, arg. 3: 417 s, arg. 4: 400 s). Non c'è altro modo di accorciarle senza spezzare le card o inventare contenuti. Le 4 pagine immagine del PDF (Kennedy, mappa del Vietnam, carri armati a Praga, mappa della guerra dei Sei giorni) sono messe a tempo dove il prof le mostra.
+- **Introduzione (M):** il prof parla 132 s sopra la copertina (meno di 3 minuti): nessuna slide «Di cosa parliamo».
+- **Copertina:** titolo su 2 righe a sinistra del riquadro del prof; la card ARGOMENTI scende sotto il titolo (8 argomenti: carattere più piccolo).
+- **Argomento 1 (M):** il prof lo liquida in 41 s con 5 punti: le card si accendono ogni 6–12 s su frasi vicine; welfare, baby boom e ruolo delle donne non sono trattati a voce. Arg. 2: politica estera non trattata (card agganciata a «sfida con i sovietici»); arg. 7: hippy dopo il femminismo (card 2 agganciata in modo debole).
 - Webcam del prof 184×138 ingrandita 2,2× (morbida); testa vicina al bordo alto già nell'originale (S).
 
 ## 5. DA CONFERMARE COL PROF / cosa NON ho verificato (NV)
-- Gli **approfondimenti** (fatti presi dal parlato dai revisori automatici) vanno riletti dal prof o dalla master. I 7 testi degli approfondimenti sono stati scritti da un revisore automatico a partire dal parlato del prof: da riverificare (NV). Fatti segnalati come dubbi: missili NATO in Turchia prima di Cuba, «Piano Marshall» (arg. 1), Tereskova 1963 (arg. 4), città dei disordini urbani (arg. 3).
-- Voci: tutte Kore (ramo `voci-storia-V-lez16`). Controllo automatico trascrizione/testo sulle 8 voci nuove: parole del testo coperte dal riconoscimento al 90–100% (AP2 dura 57,3 s); non le ho riascoltate a orecchio (NV).
+- Gli **approfondimenti** (testi scritti da un revisore automatico dal parlato del prof) vanno riletti dal prof o dalla master. Fatti da controllare: missili NATO in Turchia, «Piano Marshall» (arg. 1), Tereskova 1963 (arg. 4), città dei disordini urbani (arg. 3).
+- Voci: tutte Kore (ramo `voci-storia-V-lez16`). Controllo automatico trascrizione/testo sulle 8 voci nuove (90–98% delle parole); non le ho riascoltate a orecchio (NV).
 - Sottotitoli: parlato del prof corretto a blocchi da revisori automatici (consegna precedente), non riletti per intero; tempi ±0,3 s non misurati (NV). Le voci Kore sono nei sottotitoli.
 - PDF slide: stesse immagini del video (S); confronto pagina per pagina con i fotogrammi non fatto (NV). Quiz di argomento riusati (da approvare dalla master).
