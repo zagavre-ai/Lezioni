@@ -13,7 +13,7 @@
    "durata": "44:33.2",
    "fotogrammi": 80196,
    "fotogrammi_attesi": 80196,
-   "peso_MB": 302.7,
+   "peso_MB": 322.3,
    "scheda": {
     "materia": "Storia V",
     "titolo": "Storia V · Lezione 5 · La Rivoluzione russa e la nascita dell'URSS (1917-1922) · Parte 1",
@@ -301,7 +301,7 @@
    "durata": "35:00.4",
    "fotogrammi": 63011,
    "fotogrammi_attesi": 63011,
-   "peso_MB": 266.2,
+   "peso_MB": 271.1,
    "scheda": {
     "materia": "Storia V",
     "titolo": "Storia V · Lezione 5 · La Rivoluzione russa e la nascita dell'URSS (1917-1922) · Parte 2",
@@ -680,9 +680,13 @@
   {
    "quando": "19/11 12:13",
    "testo": "REVISIONATA correzioni 19/11 fatte (chat claude/pensive-pascal-5ugbfg): P1 44:33.2, P2 35:00.4; slide max 3 card (max 177 s), mappe con mappa.py, 9 approfondimenti, pillole 8-10 s; ramo revisione-storia-V-lez05"
+  },
+  {
+   "quando": "20/11 17:11",
+   "testo": "REVISIONATA 20/11: card intere 19/11 fatte (slide da 2-3 card, card sola solo con la carta di Brest-Litovsk, intro max 3 min, timeline_Parte1/2.json e schede rigenerate sul video nuovo): P1 44:33.2, P2 35:00.4"
   }
  ],
  "materia": "storia-V",
  "lezione": "5",
- "aggiornato": "2026-11-19 12:13:23"
+ "aggiornato": "2026-11-20 17:11:00"
 }
