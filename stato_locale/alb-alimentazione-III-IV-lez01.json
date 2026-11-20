@@ -44,10 +44,14 @@
   {
    "quando": "19/11 19:00",
    "testo": "ripresa 18/11: presa da claude/tender-pasteur-ixzzrw"
+  },
+  {
+   "quando": "20/11 16:02",
+   "testo": "20/11: video docente (61:01), slide e test scaricati; trascrizione con tempi parola per parola rifatta (580 segmenti). Il container si era riavviato a meta ASR: rilanciata. Prossimo: sincronia slide, testi_voci nuovi, schede blu. Nessuna risposta dalla master nel ramo voci-."
   }
  ],
  "materia": "Scienza e cultura dell'alimentazione · Alberghiero III-IV",
  "lezione": "Lezione 1 · Il mondo dell'alimentazione",
  "docente": "Prof.ssa Piera Caputi",
- "aggiornato": "2026-11-19 19:00:59"
+ "aggiornato": "2026-11-20 16:02:52"
 }
