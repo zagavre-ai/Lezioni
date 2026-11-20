@@ -2,23 +2,834 @@
  "tag": "storia-V-lez09",
  "parti": {
   "1": {
-   "stato": "IN_MONTAGGIO"
+   "stato": "PRONTA",
+   "titolo": "L'Italia del regime fascista · Parte 1",
+   "voci": "kore",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "si",
+   "video": "Storia_Lez9_Parte1_1080p.mp4",
+   "durata_s": 2478.4,
+   "durata": "41:18.4",
+   "fotogrammi": 74351,
+   "fotogrammi_attesi": 74351,
+   "peso_MB": 168.6,
+   "vtt": "Storia_Lez9_Parte1.vtt",
+   "scheda": {
+    "materia": "Storia",
+    "titolo": "L'Italia del regime fascista · Parte 1",
+    "durata_s": 2478.37,
+    "argomenti": [
+     {
+      "n": 1,
+      "titolo": "La svolta autoritaria",
+      "inizio_s": 150.1,
+      "quiz_s": 424.767
+     },
+     {
+      "n": 2,
+      "titolo": "Lo Stato fascistizzato",
+      "inizio_s": 428.767,
+      "quiz_s": 1072.5
+     },
+     {
+      "n": 3,
+      "titolo": "Il consolidamento del potere",
+      "inizio_s": 1076.5,
+      "quiz_s": 1654.4
+     },
+     {
+      "n": 4,
+      "titolo": "La gioventù fascista",
+      "inizio_s": 1658.4,
+      "quiz_s": 2032.3
+     },
+     {
+      "n": 5,
+      "titolo": "La riforma Gentile",
+      "inizio_s": 2036.3,
+      "quiz_s": 2350.367
+     }
+    ],
+    "quiz": {
+     "Q1": {
+      "title": "Quiz 1 · La svolta autoritaria",
+      "items": [
+       {
+        "p": "Che cosa fa Mussolini nel discorso del 3 gennaio 1925?",
+        "a": "Si assume la responsabilità del delitto Matteotti",
+        "w": [
+         "Si dimette da Capo del Governo",
+         "Dichiara guerra all'Etiopia",
+         "Scioglie il Parlamento europeo"
+        ],
+        "e": "Il discorso segna la fine dello Stato liberale e l'inizio della dittatura."
+       },
+       {
+        "p": "Quali oppositori vengono arrestati?",
+        "a": "Tra gli altri Giovanni Amendola e Piero Gobetti",
+        "w": [
+         "Benito Mussolini e Alfredo Rocco",
+         "Vittorio Emanuele III e Italo Balbo",
+         "Giovanni Gentile e Luigi Pirandello"
+        ],
+        "e": "Ci sono arresti di massa, tra cui Giovanni Amendola e Piero Gobetti."
+       },
+       {
+        "p": "Chi ideò le Leggi Fascistissime?",
+        "a": "Il ministro Alfredo Rocco",
+        "w": [
+         "Il ministro Giovanni Gentile",
+         "Il generale Badoglio",
+         "Il re Vittorio Emanuele III"
+        ],
+        "e": "Le Leggi Fascistissime (1925-1926) furono ideate dal ministro Alfredo Rocco."
+       },
+       {
+        "p": "A che cosa servono le Leggi Fascistissime?",
+        "a": "Ad accentrare il potere e sottomettere le istituzioni al PNF",
+        "w": [
+         "A introdurre il suffragio universale",
+         "A rafforzare i sindacati liberi",
+         "A restituire poteri al Parlamento"
+        ],
+        "e": "Servono ad accentrare il potere e a sottomettere le istituzioni dello Stato al Partito Nazionale Fascista."
+       },
+       {
+        "p": "Davanti a chi è responsabile Mussolini come «Capo del Governo»?",
+        "a": "Solo davanti al Re",
+        "w": [
+         "Davanti al Parlamento",
+         "Davanti al Gran Consiglio",
+         "Davanti agli elettori"
+        ],
+        "e": "Il Primo Ministro non è più responsabile davanti al Parlamento ma solo davanti al Re."
+       }
+      ]
+     },
+     "Q2": {
+      "title": "Quiz 2 · Lo Stato fascistizzato",
+      "items": [
+       {
+        "p": "Da chi sono sostituiti i sindaci?",
+        "a": "Dai podestà, di nomina governativa",
+        "w": [
+         "Dai prefetti eletti",
+         "Dai consoli",
+         "Dai deputati"
+        ],
+        "e": "Le autonomie comunali sono eliminate: i sindaci vengono sostituiti dai podestà."
+       },
+       {
+        "p": "Quale organizzazione viene sciolta tra le società segrete?",
+        "a": "La massoneria",
+        "w": [
+         "La Chiesa cattolica",
+         "L'esercito",
+         "Il PNF"
+        ],
+        "e": "Viene vietata l'associazione e sciolta anche la massoneria."
+       },
+       {
+        "p": "Quale giornale di opposizione viene chiuso?",
+        "a": "L'Unità",
+        "w": [
+         "Il Corriere della Sera",
+         "La Stampa",
+         "Il Popolo d'Italia"
+        ],
+        "e": "Chiudono i giornali d'opposizione, come l'Unità; Corriere della Sera e La Stampa vengono fascistizzati."
+       },
+       {
+        "p": "Che cosa è l'OVRA?",
+        "a": "La polizia segreta del regime",
+        "w": [
+         "Il Gran Consiglio",
+         "Il sindacato fascista",
+         "L'organizzazione del dopolavoro"
+        ],
+        "e": "Per la difesa dello Stato nasce l'OVRA, la polizia segreta."
+       },
+       {
+        "p": "Che cosa è il «confino»?",
+        "a": "L'esilio degli antifascisti in piccoli comuni isolati",
+        "w": [
+         "Un premio per i fedeli",
+         "Un servizio militare",
+         "Una scuola per giovani"
+        ],
+        "e": "Gli antifascisti vengono arrestati (come Gramsci) o mandati al confino in esilio."
+       }
+      ]
+     },
+     "Q3": {
+      "title": "Quiz 3 · Il consolidamento del potere",
+      "items": [
+       {
+        "p": "Quale emblema viene imposto come emblema dello Stato?",
+        "a": "Il fascio littorio",
+        "w": [
+         "La falce e martello",
+         "L'aquila bicipite",
+         "La croce sabauda"
+        ],
+        "e": "Si impone il fascio littorio come emblema dello Stato."
+       },
+       {
+        "p": "Che cosa diventa il Gran Consiglio del fascismo?",
+        "a": "L'organo supremo dello Stato",
+        "w": [
+         "Un partito di opposizione",
+         "Un tribunale civile",
+         "Un sindacato"
+        ],
+        "e": "Il Gran Consiglio diventa l'organo supremo dello Stato, incaricato di stilare la lista unica."
+       },
+       {
+        "p": "Quanti deputati ci sono nella lista fissa del 1928?",
+        "a": "400",
+        "w": [
+         "40",
+         "4.000",
+         "100"
+        ],
+        "e": "Nel 1928 si vota in blocco una lista fissa di 400 deputati scelti dal regime."
+       },
+       {
+        "p": "Come si svolgono le elezioni del 1928?",
+        "a": "In un clima di totale intimidazione, con un voto di approvazione «in blocco»",
+        "w": [
+         "Con libera scelta tra più partiti",
+         "Con voto segreto garantito",
+         "Senza alcuna lista"
+        ],
+        "e": "Sono elezioni plebiscitarie, svolte in un clima di totale intimidazione."
+       },
+       {
+        "p": "Che cosa pretende lo «Stato assoluto ed etico»?",
+        "a": "Di controllare la vita culturale, morale e sociale dei cittadini",
+        "w": [
+         "Di tutelare la sovranità popolare",
+         "Di favorire l'individuo",
+         "Di separare Stato e Chiesa"
+        ],
+        "e": "Lo Stato cancella la sovranità popolare e subordina l'individuo al bene collettivo del regime."
+       }
+      ]
+     },
+     "Q4": {
+      "title": "Quiz 4 · La gioventù fascista",
+      "items": [
+       {
+        "p": "Che cosa organizza l'Opera Nazionale Dopolavoro?",
+        "a": "Il tempo libero dei lavoratori adulti",
+        "w": [
+         "La scuola dei bambini",
+         "Le elezioni",
+         "L'esercito"
+        ],
+        "e": "L'OND, istituita nel 1925, organizza il tempo libero dei lavoratori adulti con attività ricreative, culturali e sportive."
+       },
+       {
+        "p": "Quale fascia d'età inquadra l'Opera Nazionale Balilla?",
+        "a": "Dai 6 ai 18 anni",
+        "w": [
+         "Dai 0 ai 3 anni",
+         "Dai 18 ai 30 anni",
+         "Solo gli adulti"
+        ],
+        "e": "L'ONB inquadra la gioventù dai 6 ai 18 anni, divisa per età e genere."
+       },
+       {
+        "p": "Come si chiamano i gruppi dei bambini più piccoli?",
+        "a": "Figli della lupa e Piccole italiane",
+        "w": [
+         "Gli Avanguardisti",
+         "I GUF",
+         "I podestà"
+        ],
+        "e": "Fra i gruppi ci sono i Figli della lupa, i Balilla, gli Avanguardisti e per le femmine Piccole italiane e Giovani italiane."
+       },
+       {
+        "p": "A che cosa serve il «sabato fascista»?",
+        "a": "A parate, ginnastica e preparazione alla disciplina bellica",
+        "w": [
+         "A riposare",
+         "Alla preghiera",
+         "Alle elezioni"
+        ],
+        "e": "Il sabato fascista serve per parate, ginnastica e preparazione dei giovani alla disciplina bellica e alla fedeltà al Duce."
+       },
+       {
+        "p": "Che cosa sono i GUF?",
+        "a": "I Gruppi Universitari Fascisti",
+        "w": [
+         "I Gruppi Universitari Francesi",
+         "Le squadre sportive del regime",
+         "I sindacati dei lavoratori"
+        ],
+        "e": "I GUF controllano e diffondono l'ideologia del regime tra gli studenti universitari."
+       }
+      ]
+     },
+     "Q5": {
+      "title": "Quiz 5 · La riforma Gentile",
+      "items": [
+       {
+        "p": "Chi ideò la riforma scolastica del 1923?",
+        "a": "Giovanni Gentile",
+        "w": [
+         "Alfredo Rocco",
+         "Benito Mussolini",
+         "Pietro Badoglio"
+        ],
+        "e": "La Riforma Gentile (1923) fu ideata da Giovanni Gentile."
+       },
+       {
+        "p": "Fino a quale età la Riforma Gentile estende l'obbligo scolastico?",
+        "a": "Fino a 14 anni",
+        "w": [
+         "Fino a 10 anni",
+         "Fino a 16 anni",
+         "Fino a 18 anni"
+        ],
+        "e": "La riforma estende l'obbligo scolastico a 14 anni."
+       },
+       {
+        "p": "Quale scuola diventa quella d'élite?",
+        "a": "Il liceo classico",
+        "w": [
+         "L'istituto tecnico",
+         "L'istituto magistrale",
+         "La scuola elementare"
+        ],
+        "e": "Il liceo classico diventa la scuola d'élite per la futura classe dirigente."
+       },
+       {
+        "p": "A chi sono destinati gli istituti tecnici e magistrali?",
+        "a": "Alla piccola borghesia e alle ragazze",
+        "w": [
+         "Alla nobiltà",
+         "Solo ai contadini",
+         "Ai membri del Gran Consiglio"
+        ],
+        "e": "Gli istituti tecnici e magistrali sono destinati alla piccola borghesia e alle ragazze."
+       },
+       {
+        "p": "Che cosa introduce il 1928 per le scuole elementari e medie?",
+        "a": "Il libro di testo unico",
+        "w": [
+         "Il voto alle donne",
+         "Il sabato libero",
+         "L'esame di Stato"
+        ],
+        "e": "Il libro di testo unico, introdotto nel 1928, inculca obbedienza e culto di Mussolini."
+       }
+      ]
+     }
+    }
+   },
+   "timeline": [
+    [
+     "T1",
+     150.1,
+     4.5
+    ],
+    [
+     "Q1",
+     424.767,
+     4.0
+    ],
+    [
+     "T2",
+     428.767,
+     4.5
+    ],
+    [
+     "T3",
+     1076.5,
+     4.5
+    ],
+    [
+     "T4",
+     1658.4,
+     4.5
+    ],
+    [
+     "T5",
+     2036.3,
+     4.5
+    ],
+    [
+     "GL1",
+     2389.633,
+     29.933
+    ],
+    [
+     "RF1",
+     2419.567,
+     25.133
+    ],
+    [
+     "FIN1",
+     2444.7,
+     15.167
+    ]
+   ]
+  },
+  "2": {
+   "titolo": "L'Italia del regime fascista · Parte 2",
+   "stato": "PRONTA",
+   "voci": "kore",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "si",
+   "video": "Storia_Lez9_Parte2_1080p.mp4",
+   "durata_s": 2704.7,
+   "durata": "45:04.7",
+   "fotogrammi": 81140,
+   "fotogrammi_attesi": 81140,
+   "peso_MB": 179.3,
+   "vtt": "Storia_Lez9_Parte2.vtt",
+   "scheda": {
+    "materia": "Storia",
+    "titolo": "L'Italia del regime fascista · Parte 2",
+    "durata_s": 2704.67,
+    "argomenti": [
+     {
+      "n": 6,
+      "titolo": "Media e Patti Lateranensi",
+      "inizio_s": 46.4,
+      "quiz_s": 442.133
+     },
+     {
+      "n": 7,
+      "titolo": "Corporativismo e agricoltura",
+      "inizio_s": 446.133,
+      "quiz_s": 843.367
+     },
+     {
+      "n": 8,
+      "titolo": "Quota 90 e autarchia",
+      "inizio_s": 847.367,
+      "quiz_s": 1295.733
+     },
+     {
+      "n": 9,
+      "titolo": "La donna e la demografia",
+      "inizio_s": 1299.733,
+      "quiz_s": 1554.4
+     },
+     {
+      "n": 10,
+      "titolo": "Impero e Leggi Razziali",
+      "inizio_s": 1558.4,
+      "quiz_s": 2574.2
+     }
+    ],
+    "quiz": {
+     "Q6": {
+      "title": "Quiz 6 · Media e Patti Lateranensi",
+      "items": [
+       {
+        "p": "Che cosa sono EIAR e Istituto LUCE?",
+        "a": "Gli enti della radio e del cinema di propaganda",
+        "w": [
+         "Due partiti",
+         "Due giornali",
+         "Due sindacati"
+        ],
+        "e": "Nascono l'EIAR (radio) e l'Istituto LUCE (cinema) per trasmettere propaganda e discorsi del Duce."
+       },
+       {
+        "p": "Che cosa controlla il MinCulPop?",
+        "a": "Stampa, radio, cinema e propaganda",
+        "w": [
+         "Solo la scuola",
+         "Solo l'esercito",
+         "Solo le elezioni"
+        ],
+        "e": "Il Ministero della Cultura Popolare assume il controllo totale di stampa, radio, cinema e propaganda."
+       },
+       {
+        "p": "In che anno sono firmati i Patti Lateranensi?",
+        "a": "Nel 1929",
+        "w": [
+         "Nel 1919",
+         "Nel 1938",
+         "Nel 1946"
+        ],
+        "e": "I Patti Lateranensi (1929) chiudono la «questione romana»."
+       },
+       {
+        "p": "Che cosa riconosce il Trattato dei Patti Lateranensi?",
+        "a": "Lo Stato della Città del Vaticano e Roma capitale",
+        "w": [
+         "Il potere temporale del Papa su tutta Italia",
+         "La fine del fascismo",
+         "Il voto alle donne"
+        ],
+        "e": "Il Trattato riconosce lo Stato della Città del Vaticano e Roma come capitale."
+       },
+       {
+        "p": "Che cosa stabilisce il Concordato?",
+        "a": "Il cattolicesimo come religione ufficiale di Stato",
+        "w": [
+         "La separazione tra Stato e Chiesa",
+         "L'abolizione del matrimonio",
+         "L'insegnamento facoltativo del catechismo"
+        ],
+        "e": "Con il Concordato il cattolicesimo diventa religione ufficiale di Stato, con insegnamento religioso obbligatorio."
+       }
+      ]
+     },
+     "Q7": {
+      "title": "Quiz 7 · Corporativismo e agricoltura",
+      "items": [
+       {
+        "p": "Che cosa è il sistema corporativo?",
+        "a": "L'alternativa fascista al capitalismo e al socialismo",
+        "w": [
+         "Un sistema di sindacati liberi",
+         "Un modello comunista",
+         "Un'alleanza militare"
+        ],
+        "e": "Vengono vietati i sindacati liberi e create le Corporazioni, per eliminare gli scioperi e controllare la produzione."
+       },
+       {
+        "p": "Che cosa diventa l'INFPS?",
+        "a": "L'INPS, per pensioni e assicurazioni sanitarie",
+        "w": [
+         "L'IRI",
+         "L'EIAR",
+         "L'OVRA"
+        ],
+        "e": "Nasce l'INFPS (poi INPS) per pensioni e assicurazioni sanitarie, per ottenere consenso."
+       },
+       {
+        "p": "Che cosa sostituisce il liberismo?",
+        "a": "Forti dazi sulle importazioni",
+        "w": [
+         "Il libero scambio",
+         "L'abolizione dei dazi",
+         "L'uscita dalla lira"
+        ],
+        "e": "Si abbandona il liberismo a favore di forti dazi sulle importazioni."
+       },
+       {
+        "p": "Qual è l'obiettivo della Battaglia del Grano?",
+        "a": "L'autosufficienza alimentare dell'Italia",
+        "w": [
+         "L'esportazione di grano",
+         "La chiusura dei campi",
+         "La fine della bonifica"
+        ],
+        "e": "La Battaglia del Grano (1925) vuole raggiungere l'autosufficienza alimentare."
+       },
+       {
+        "p": "Quale città nasce dalla Bonifica Integrale?",
+        "a": "Littoria (Latina)",
+        "w": [
+         "Torino",
+         "Napoli",
+         "Trieste"
+        ],
+        "e": "La bonifica avvia il prosciugamento dell'Agro Pontino e la fondazione di nuove città come Littoria/Latina."
+       }
+      ]
+     },
+     "Q8": {
+      "title": "Quiz 8 · Quota 90 e autarchia",
+      "items": [
+       {
+        "p": "Che cosa fissa «Quota 90»?",
+        "a": "Il cambio a 90 lire per una sterlina",
+        "w": [
+         "L'età della pensione",
+         "Il numero dei deputati",
+         "Il prezzo del grano"
+        ],
+        "e": "Quota 90 (1926) rivaluta la lira fissando il cambio a 90 lire per una sterlina."
+       },
+       {
+        "p": "Quale effetto ha Quota 90?",
+        "a": "Riduce l'inflazione ma penalizza le esportazioni",
+        "w": [
+         "Aumenta l'inflazione",
+         "Favorisce le esportazioni",
+         "Non ha effetti"
+        ],
+        "e": "Riduce l'inflazione ma penalizza le esportazioni."
+       },
+       {
+        "p": "Quali enti rendono lo Stato il principale attore economico?",
+        "a": "L'IMI e l'IRI",
+        "w": [
+         "L'EIAR e il LUCE",
+         "L'ONB e l'OND",
+         "L'ENEL e l'ENI"
+        ],
+        "e": "Nascono l'IMI e l'IRI (1933) per rilevare e salvare banche e industrie in crisi."
+       },
+       {
+        "p": "Che cosa è l'autarchia?",
+        "a": "Una politica di isolamento economico: produrre tutto all'interno del Paese",
+        "w": [
+         "Un accordo di libero scambio",
+         "L'apertura ai mercati esteri",
+         "Un'alleanza militare"
+        ],
+        "e": "L'autarchia (1936) è un isolamento economico, introdotto dopo le sanzioni internazionali."
+       },
+       {
+        "p": "Dopo quale evento viene introdotta l'autarchia?",
+        "a": "Dopo le sanzioni internazionali",
+        "w": [
+         "Dopo il delitto Matteotti",
+         "Dopo i Patti Lateranensi",
+         "Dopo Quota 90"
+        ],
+        "e": "L'autarchia è introdotta dopo le sanzioni internazionali."
+       }
+      ]
+     },
+     "Q9": {
+      "title": "Quiz 9 · La donna e la demografia",
+      "items": [
+       {
+        "p": "Quale ruolo il regime assegna alla donna?",
+        "a": "Quello di «angelo del focolare», madre e moglie devota",
+        "w": [
+         "Quello di dirigente di partito",
+         "Quello di soldato",
+         "Quello di giudice"
+        ],
+        "e": "La donna è relegata al ruolo domestico."
+       },
+       {
+        "p": "Qual è lo scopo della «Battaglia demografica»?",
+        "a": "Incentivare la natalità",
+        "w": [
+         "Ridurre la popolazione",
+         "Favorire l'emigrazione",
+         "Chiudere le scuole"
+        ],
+        "e": "È una campagna per incentivare la natalità, con premi per le famiglie numerose."
+       },
+       {
+        "p": "Che cosa proibisce la legge del 1926?",
+        "a": "L'aborto e la contraccezione",
+        "w": [
+         "Il divorzio",
+         "Il lavoro femminile",
+         "Le associazioni"
+        ],
+        "e": "Nel 1926 una legge proibisce l'aborto e la contraccezione, considerati crimini contro lo Stato."
+       },
+       {
+        "p": "Che cosa è l'ONMI?",
+        "a": "L'Opera Nazionale Maternità e Infanzia",
+        "w": [
+         "L'Opera Nazionale Militare Italiana",
+         "Il sindacato dei maestri",
+         "Il ministero della cultura"
+        ],
+        "e": "L'ONMI, nata nel 1925, assiste le madri e i bambini poveri."
+       },
+       {
+        "p": "Quale discriminazione colpisce le donne sul lavoro?",
+        "a": "L'esclusione da alcune cattedre e il salario dimezzato",
+        "w": [
+         "Un salario doppio",
+         "Il diritto di voto",
+         "L'accesso a ogni carica"
+        ],
+        "e": "Le donne sono escluse dalle cattedre superiori di lettere e filosofia e il salario è dimezzato per legge."
+       }
+      ]
+     },
+     "Q10": {
+      "title": "Quiz 10 · Impero e Leggi Razziali",
+      "items": [
+       {
+        "p": "Quale Paese invade l'Italia nel 1935?",
+        "a": "L'Etiopia",
+        "w": [
+         "L'Albania",
+         "La Libia",
+         "L'Egitto"
+        ],
+        "e": "Guerra d'Etiopia (1935-1936): invasione guidata dal generale Badoglio."
+       },
+       {
+        "p": "Che cosa proclama Mussolini dopo la vittoria?",
+        "a": "L'Impero dell'Africa Orientale Italiana",
+        "w": [
+         "La Repubblica",
+         "L'unione con la Germania",
+         "La fine del regime"
+        ],
+        "e": "Mussolini proclama la nascita dell'Impero dell'Africa Orientale Italiana (AOI)."
+       },
+       {
+        "p": "Come usa il regime le sanzioni?",
+        "a": "Con la campagna «Oro alla Patria» per compattare l'opinione pubblica",
+        "w": [
+         "Ritirandosi dall'Etiopia",
+         "Sciogliendo il Parlamento",
+         "Entrando nella Società delle Nazioni"
+        ],
+        "e": "Il regime sfrutta le sanzioni con la campagna «Oro alla Patria»."
+       },
+       {
+        "p": "Quale alleanza nasce nel 1936?",
+        "a": "L'Asse Roma-Berlino",
+        "w": [
+         "La Triplice Intesa",
+         "Il Patto di Varsavia",
+         "La NATO"
+        ],
+        "e": "L'isolamento internazionale spinge l'Italia ad allearsi con la Germania nazista."
+       },
+       {
+        "p": "Che cosa sono le Leggi Razziali del 1938?",
+        "a": "Provvedimenti discriminatori contro la comunità ebraica",
+        "w": [
+         "Leggi a favore degli ebrei",
+         "Leggi sulla scuola unica",
+         "Accordi con la Chiesa"
+        ],
+        "e": "Gli ebrei vengono espulsi dalle scuole e dalle cariche pubbliche e viene vietato loro di esercitare alcune professioni."
+       }
+      ]
+     }
+    }
+   },
+   "timeline": [
+    [
+     "T6",
+     46.4,
+     4.5
+    ],
+    [
+     "T7",
+     446.133,
+     4.5
+    ],
+    [
+     "T8",
+     847.367,
+     4.5
+    ],
+    [
+     "T9",
+     1299.733,
+     4.5
+    ],
+    [
+     "T10",
+     1558.4,
+     4.5
+    ],
+    [
+     "Q10",
+     2574.2,
+     4.0
+    ],
+    [
+     "GL2",
+     2614.033,
+     32.233
+    ],
+    [
+     "RF2",
+     2646.267,
+     29.533
+    ],
+    [
+     "FIN2",
+     2675.8,
+     10.367
+    ]
+   ]
   }
  },
  "manca": "",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "15/11 00:51",
+   "testo": "storia-V-lez09: 30 testi voce in scambio/storia-V-lez09/testi_voci.json (ramo voci-storia-V-lez09), quiz 10x5 da approvare. REGOLE: docente 66,7 min => 2 Parti (a fine argomento 5), ma ogni Parte viene di circa 43-46 min (sotto 50). Dimmi se preferisci una Parte sola (circa 85 min)."
+  },
+  {
+   "quando": "15/11 14:06",
+   "testo": "storia-V-lez09: attendo le voci Kore dal ramo voci-storia-V-lez09 (richiesta gia' inviata il 14/11; resto pronto)."
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
-   "quando": "19/11 04:07",
-   "testo": "correzioni 19/11: presa da revisione-storia-V-lez09 (ramo da creare)"
+   "quando": "15/11 00:33",
+   "testo": "Storia V · chat S1: preparazione (video e slide scaricati, trascrizione in corso)."
   },
   {
-   "quando": "19/11 04:09",
-   "testo": "annullata per errore la mia prenotazione 04:07: lez 9 risulta gia' corretta da un'altra chat (revisione-storia-V-lez09, commit 03:53 «correzioni 19/11»); stato lasciato com'era, lo aggiorna chi l'ha corretta"
+   "quando": "15/11 02:34",
+   "testo": "15/11: pronta, attende voci Kore (quota Google finita, riparte alle 09:00 italiane). Montaggio, mappe, quiz, sottotitoli, dispensa e compiti pronti con voci segnaposto; sostituisco le voci e faccio l'unica codifica finale appena arrivano in vox/."
+  },
+  {
+   "quando": "15/11 17:23",
+   "testo": "15/11, chat S1: PRONTA Parte 1. Docente 66,7 min diviso in 2 Parti a fine argomento 5; durata misurata sotto i 50 min (41:18 e 45:04) perche' non si aggiunge materiale di altre lezioni (decisione di Sara 15/11). Quiz 5 domande per argomento, mappe con voci Kore, verifica 80%, compiti nel video, bande blu, controllo_finale e jingle OK. Ramo consegna-storia-V-lez09. Sottotitoli Whisper base: consigliata revisione."
+  },
+  {
+   "quando": "15/11 17:23",
+   "testo": "15/11, chat S1: PRONTA Parte 2. Docente 66,7 min diviso in 2 Parti a fine argomento 5; durata misurata sotto i 50 min (41:18 e 45:04) perche' non si aggiunge materiale di altre lezioni (decisione di Sara 15/11). Quiz 5 domande per argomento, mappe con voci Kore, verifica 80%, compiti nel video, bande blu, controllo_finale e jingle OK. Ramo consegna-storia-V-lez09. Sottotitoli Whisper base: consigliata revisione."
+  },
+  {
+   "quando": "18/11 22:13",
+   "testo": "IN_REVISIONE chat v3: presa da claude/nice-mccarthy-pwc7in"
+  },
+  {
+   "quando": "18/11 22:26",
+   "testo": "IN_REVISIONE chat v3: trascrizione fatta, voci nuove inviate, grafica in costruzione"
+  },
+  {
+   "quando": "18/11 22:41",
+   "testo": "IN_REVISIONE chat v3 (20 min): voci Kore ricevute (98), slide/mappe/schemi pronti, codifica pezzi del prof in corso"
+  },
+  {
+   "quando": "18/11 23:07",
+   "testo": "IN_REVISIONE chat v3: voci e schede pronte; codifica pezzi del prof ripartita dopo un problema di memoria (risolto)"
+  },
+  {
+   "quando": "18/11 23:38",
+   "testo": "IN_REVISIONE chat v3: Parte 1 montata (39:40, 223 MB), Parte 2 in codifica; corretti quiz/pillole con titoli lunghi"
+  },
+  {
+   "quando": "19/11 00:34",
+   "testo": "REVISIONATA (chat v3): ramo revisione-storia-V-lez09 consegnato. Parte 1: 39:06.1, 70384 fotogrammi, 222 MB, -15.2 LUFS. Parte 2: 43:00.3, 77408 fotogrammi, 252 MB, -15.4 LUFS. Vedi RAPPORTO_REVISIONE.md (cosa non verificato e DA CONFERMARE COL PROF)"
+  },
+  {
+   "quando": "19/11 02:20",
+   "testo": "IN_REVISIONE correzioni 19/11: presa da claude/nice-mccarthy-pwc7in"
+  },
+  {
+   "quando": "19/11 02:27",
+   "testo": "IN_REVISIONE correzioni 19/11: slide da 3 card (nuova sincronia), mappe ridisegnate con mappa.py, 40 voci approfondimenti inviate; codifica in corso"
+  },
+  {
+   "quando": "19/11 02:46",
+   "testo": "IN_REVISIONE correzioni 19/11: sincronia card rifatta frase per frase, approfondimenti (40 voci) e mappe pronti, codifica in corso"
+  },
+  {
+   "quando": "19/11 03:57",
+   "testo": "REVISIONATA correzioni 19/11 fatte: ramo revisione-storia-V-lez09 aggiornato. Parte 1: 42:57, 77307 fotogrammi, 201 MB, -15,1 LUFS. Parte 2: 47:03, 84689 fotogrammi, 222 MB, -15,3 LUFS. Slide da max 3 card, mappe con mappa.py, 10 approfondimenti, avviso diritti senza riquadro. Slide oltre 3 min: vedi rapporto"
+  },
+  {
+   "quando": "20/11 21:07",
+   "testo": "20/11 21:10 in coda dopo la 3 (claude/nice-mccarthy-pwc7in): card intere"
   }
  ],
- "materia": "storia-V",
- "lezione": "9",
- "aggiornato": "2026-11-19 04:09:03"
+ "materia": "Storia",
+ "lezione": "Lezione 9 · L'Italia del regime fascista",
+ "docente": "Prof. Giorgio Mazzotti",
+ "aggiornato": "2026-11-20 21:07:28"
 }
