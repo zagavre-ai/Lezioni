@@ -7,7 +7,12 @@
   }
  },
  "manca": "",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "20/11 15:57",
+   "testo": "Voce Kore di benvenuto per la copertina lez01: la scrivo in testi_voci.json (INTRO1) sul ramo voci-moda-chimica-III-IV-lez01"
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
@@ -15,12 +20,16 @@
    "testo": "Presa in carico (chat Psicologia n.1: lezioni 1,3,5,7,9,11). Fatti: trascrizione, 72 unità slide sincronizzate, 5 argomenti, richiesta voci (26 blocchi) sul ramo voci-moda-chimica-III-IV-lez01. In corso: composizione docente, quiz, mappe, animazioni. Pronta, attende voci Kore."
   },
   {
-   "quando": "18/11 22:21",
-   "testo": "ripresa 18/11: presa da claude/peaceful-davinci-jnw8wb"
+   "quando": "19/11 01:34",
+   "testo": "19/11 01:34 · Corrette le regole: un solo lavoro pesante alla volta, consegna su revisione-<tag> con RAPPORTO_REVISIONE.md e foglio.png, note ogni 30 minuti. Coda seriale: 1 (Le fibre) → 4 → 6 → 8 → 10 → 3 → 11 → 9 → 5 → 7."
+  },
+  {
+   "quando": "20/11 15:57",
+   "testo": "20/11: ripresa da claude/peaceful-davinci-jnw8wb (ambiente azzerato, riscarico video). Voci Kore lez01 (26 blocchi) ok; mancano INTRO benvenuto e quiz (li scrivo io). Trascrizione da rifare, slide da rifare nel modello nuovo, tondo Caputi. Aggiorno ogni 30 min."
   }
  ],
  "materia": "Chimica applicata e nobilitazione dei materiali per i prodotti della moda (III + IV)",
  "lezione": "Le fibre",
  "docente": "Prof.ssa Piera Caputi",
- "aggiornato": "2026-11-18 22:21:53"
+ "aggiornato": "2026-11-20 15:57:38"
 }
