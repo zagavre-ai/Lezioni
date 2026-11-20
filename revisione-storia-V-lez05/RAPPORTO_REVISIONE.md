@@ -1,6 +1,6 @@
 # RAPPORTO DI REVISIONE · Storia V · Lezione 5 · La Rivoluzione russa e la nascita dell'URSS (prof. Giorgio Mazzotti)
 
-**Correzioni 19/11 fatte** (8 punti della master) sulla lezione 5, in 2 Parti. Rifatti da zero, dal video originale del prof (release `mazzotti-storia-V`, zip 007), slide, mappe, approfondimenti, schema, transizioni e schede blu; riusati le voci Kore già fatte (ramo `voci-storia-V-lez05`) e i quiz. Aggiunte 4 voci nuove (MA1–MA4) per le mappe del prof. Ogni valore è etichettato **[misurato]**, **[stima]** o **[non verificato]**.
+**Correzioni 19/11 fatte** (8 punti della master + note 05:10 e 05:25; versione del 20/11 con card di 2–3 per slide) sulla lezione 5, in 2 Parti. Rifatti da zero, dal video originale del prof (release `mazzotti-storia-V`, zip 007), slide, mappe, approfondimenti, schema, transizioni e schede blu; riusati le voci Kore già fatte (ramo `voci-storia-V-lez05`) e i quiz. Aggiunte 4 voci nuove (MA1–MA4) per le mappe del prof. Ogni valore è etichettato **[misurato]**, **[stima]** o **[non verificato]**.
 
 ## 1. Misure sul video nuovo
 
@@ -9,12 +9,12 @@
 | Durata [misurato] | 44:33.2 (2673.2 s) | 35:00.4 (2100.4 s) |
 | Fotogrammi [misurato] | 80196 = durata × 30 | 63011 = durata × 30 |
 | Formato [misurato] | 1920×1080, 30 fps, H.264 veryfast CRF 20, AAC 192k 48 kHz | 1920×1080, 30 fps, H.264 veryfast CRF 20, AAC 192k 48 kHz |
-| Peso [misurato] | 302.7 MB | 266.2 MB |
+| Peso [misurato] | 322.3 MB | 271.1 MB |
 | Parlato [misurato] | −17,4 LUFS, picco −2,1 dBFS (limite −1) | −17,7 LUFS, picco −2,1 dBFS (limite −1) |
 | Fermi del prof ≥ 1 s [misurato, freezedetect −55 dB] | 0 | 0 |
 | Jingle Quiz [misurato, controllo_jingle.py] | Q1–Q4 scarto ≤ 0,008 s, OK | Q5–Q9 scarto ≤ 0,008 s, OK |
-| Silenzi > 3 s [misurato, −45 dB] | 2 di 3,0–3,5 s (tenuta di 2,8 s a fine schema + coda della voce) | 9 di 3,0–3,8 s (stesso motivo); nessuno più lungo |
-| sha256 | `4ee66c5b2a22ca5d75e0ff263ce1f7ba95c5bd6871e792bea675e1a42a2616a9` | `6c8d8df5bc39caafc43b53022e52ecf51481960ceae125f6448a613802f977fc` |
+| Silenzi > 3 s [misurato, −45 dB] | 2 di 3,0–3,5 s (tenuta di 2,8 s a fine schema + coda della voce); nessuno più lungo | 9 di 3,0–3,8 s (stesso motivo); nessuno più lungo |
+| sha256 | `cf1f7bdf07ff80905466fe434ad7837c5ad2fce2fe83d03827af461cf190d33f` | `c9ba23e140e61de7225431e12be9f4d89ed110856e2443238438122c982134ac` |
 
 Video a pezzi `.parte_NN` (ricomporre con `cat Storia_Lez5_ParteK_1080p.mp4.parte_* > Storia_Lez5_ParteK_1080p.mp4`) + `.sha256`. Il numero della lezione non compare nel video [misurato a vista]. Parlato a −17,4/−17,7 LUFS: dentro −16 ± 2, ma più basso di prima perché ho abbassato il limitatore per stare sotto −1 dBFS.
 
@@ -26,7 +26,7 @@ Video a pezzi `.parte_NN` (ricomporre con `cat Storia_Lez5_ParteK_1080p.mp4.part
 |---|---|---|---|
 | 1 · Sigla | sì | 0:00.0 | 15.0 s |
 | 3 · Copertina + benvenuto (voce Kore) | sì | 0:15.0 | 13.0 s |
-| 3 · Copertina + introduzione del prof (con il percorso dei 9 argomenti) | sì | 0:28.0 | 194.4 s |
+| 3 · Copertina + introduzione del prof (copertina 96 s, poi slide «Il percorso della lezione» con i 9 argomenti: max 3 min come da nota 05:25) | sì | 0:28.0 | 194.4 s |
 | **Argomento 1: La crisi della Russia zarista** | | | |
 | 4a · Titolo (4 s, titolo.wav) | sì | 3:42.4 | 4.0 s |
 | 4b · Docente + slide (max 3 card per slide) | sì | 3:46.4 | 343.3 s |
@@ -118,7 +118,7 @@ Video a pezzi `.parte_NN` (ricomporre con `cat Storia_Lez5_ParteK_1080p.mp4.part
 
 | # | Punto | Esito |
 |---|---|---|
-| 1 | Max 3 card per slide; nessuna slide ferma oltre 3 minuti | fatto: 24 slide del prof (invece di 9), 1–3 card ciascuna, ordinate come parla il prof; la più lunga resta 177 s (3a, 1048–1225 s dell'originale) [misurato]. Dove la slide del prof aveva 4–5 card ma il prof ne tratta una per 150–250 s, ho diviso la slide in più slide; 3 card sono mie e riprendono le parole del prof: «Dalla Repubblica all'insurrezione» (1830–1981 s) e il diritto delle donne spostato nell'argomento 5 (il prof ne parla a 2198 s con la slide 8 sullo schermo). Slide delle immagini del prof (Lenin, Trockij, carta di Brest-Litovsk, carta dell'URSS) mostrate a tempo con la voce |
+| 1 | Max 3 card per slide; nessuna slide ferma oltre 3 minuti; card intere; card sola solo con immagine (note 05:10 e 05:25) | fatto con un compromesso: 18 slide del prof (invece di 9), 2–3 card ciascuna, card = punto intero della slide del prof con il titolo in grassetto una volta sola, mai «…»; card alte quanto il loro testo, allineate in alto. Una sola card per slide solo nell'argomento 6 (slide 6a), accanto alla carta di Brest-Litovsk del PDF del prof. Le due regole (max 3 card e max 3 minuti) si scontrano dove il prof dedica 100–250 s a ogni punto: le slide più lunghe restano ferme 284 s (3a) e 287 s (2b) [misurato]; sotto i 180 s dovrei usare card sole, vietate dalla nota delle 05:10. Ho scelto le card insieme. Due card sono mie ma fatte con parole del prof: «Dalla Repubblica all'insurrezione» (1830–1981 s) e il diritto delle donne spostato nell'argomento 5 (il prof ne parla a 2198 s con la slide 8 sullo schermo). Slide delle immagini del prof (Lenin, Trockij, carte) a tempo con la voce |
 | 2 | Sincronia ±1 s | fatto: ogni card si accende alla prima parola della frase del prof (tempi parola per parola); 46 punti controllati, scarto massimo 0,94 s [misurato]; 12 a caso nella tabella sotto |
 | 3 | Mappe ridisegnate con mappa.py | fatto: 4 mappe del prof (PDF MAPPE, 4 pagine) → `mappa.py`, rami a tempo con le nuove voci MA1–MA4. Il tool ha solo la forma «centro + rami»: l'albero del prof è stato ridotto a 3 rami con le stesse parole |
 | 4 | Approfondimento animato per argomento, voce Kore | fatto: 9 (uno per argomento, 55–64 s); per gli argomenti 6 e 9 la voce legge la carta (Brest-Litovsk, URSS) mostrata a schermo |
