@@ -198,5 +198,170 @@
   "nome": "FIN2",
   "testo": "Per oggi è tutto. Ripassa gli argomenti, rifai i quiz e metti alla prova quello che hai imparato con la verifica finale. Nella prossima lezione proseguiremo la storia dell'Italia dagli anni Sessanta in poi.",
   "lingua": "it"
+ },
+ {
+  "nome": "P1",
+  "testo": "Ripassiamo insieme un Paese da ricostruire. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC1_1",
+  "testo": "Il Paese è distrutto dalla guerra: fabbriche ferme e mancano i beni di prima necessità.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC1_2",
+  "testo": "Disoccupazione e mercato nero: reduci e sfollati faticano a ricominciare.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC1_3",
+  "testo": "Nel Centro-Nord: regolamenti di conti contro gli ex fascisti.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC1_4",
+  "testo": "Nel Sud: i contadini occupano le terre dei latifondisti.",
+  "lingua": "it"
+ },
+ {
+  "nome": "P2",
+  "testo": "Ripassiamo insieme la nascita della Repubblica. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC2_1",
+  "testo": "I partiti di massa: Democrazia Cristiana, Partito comunista e Partito socialista.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC2_2",
+  "testo": "Togliatti, ministro della Giustizia: amnistia per i reati politici della guerra.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC2_3",
+  "testo": "Due giugno millenovecentoquarantasei: il referendum, e per la prima volta votano le donne.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC2_4",
+  "testo": "Vince la Repubblica, con circa dodici milioni di voti contro dieci: nasce l'Assemblea Costituente.",
+  "lingua": "it"
+ },
+ {
+  "nome": "P3",
+  "testo": "Ripassiamo insieme la Costituzione. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC3_1",
+  "testo": "Ventuno madri costituenti: Nilde Iotti, Lina Merlin, Teresa Mattei.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC3_2",
+  "testo": "Uguaglianza giuridica e sociale tra i sessi.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC3_3",
+  "testo": "Primo gennaio millenovecentoquarantotto: l'Italia è una repubblica democratica fondata sul lavoro.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC3_4",
+  "testo": "Tre poteri separati: Parlamento, Governo e Magistratura.",
+  "lingua": "it"
+ },
+ {
+  "nome": "P4",
+  "testo": "Ripassiamo insieme il Centrismo. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC4_1",
+  "testo": "Elezioni del millenovecentoquarantotto: la Democrazia Cristiana vince contro il Fronte democratico popolare.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC4_2",
+  "testo": "De Gasperi ed Einaudi: una linea liberista.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC4_3",
+  "testo": "Riforma agraria e Cassa per il Mezzogiorno.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC4_4",
+  "testo": "Piano Marshall, Patto Atlantico e Ceca: l'Italia sceglie il blocco occidentale.",
+  "lingua": "it"
+ },
+ {
+  "nome": "P5",
+  "testo": "Ripassiamo insieme il miracolo economico. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC5_1",
+  "testo": "Boom economico negli anni Cinquanta e Sessanta: automobili, siderurgia e chimica, con la Fiat cinquecento.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC5_2",
+  "testo": "Nuovi consumi: elettrodomestici, automobili e televisione.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC5_3",
+  "testo": "Nascono le vacanze di massa.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC5_4",
+  "testo": "Il divario tra Nord e Sud: migrazione interna e speculazione edilizia.",
+  "lingua": "it"
+ },
+ {
+  "nome": "P6",
+  "testo": "Ripassiamo insieme il Centrosinistra. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC6_1",
+  "testo": "La Democrazia Cristiana si apre ai socialisti: nascono i governi Fanfani e Moro.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC6_2",
+  "testo": "Nazionalizzazione dell'energia elettrica: nasce l'Enel.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC6_3",
+  "testo": "Scuola media unica e obbligatoria fino a quattordici anni.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC6_4",
+  "testo": "Il Partito comunista, dopo l'Ungheria, cerca l'autonomia da Mosca.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MA1",
+  "testo": "Ecco la mappa della nascita della Repubblica italiana. Nel millenovecentoquarantasei le italiane e gli italiani scelgono la Repubblica ed eleggono l'Assemblea costituente. Nel millenovecentoquarantotto votano la Democrazia cristiana, che sconfigge il Fronte popolare democratico.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MA2",
+  "testo": "Ecco la mappa della crescita economica dell'età del centrismo. Si basa sull'appartenenza al blocco occidentale, sulla partecipazione alla Cee e sul basso costo del lavoro. Causa cambiamenti nel costume e nei consumi, con la diffusione di elettrodomestici, televisori, automobili e scooter, e intensi flussi migratori, dal Sud al Nord e dalle campagne alle città.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MA3",
+  "testo": "Ecco la mappa della Democrazia cristiana. Con Fanfani e Moro raggiunge un'alleanza con il Partito socialista di Nenni e forma i governi di centrosinistra, dal millenovecentosessantadue. Questi governi approvano la nazionalizzazione dell'energia elettrica e la riforma della scuola media.",
+  "lingua": "it"
  }
 ]
