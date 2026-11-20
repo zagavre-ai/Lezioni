@@ -6,6 +6,10 @@
   {
    "quando": "20/11 17:12",
    "testo": "lez18: aggiunte 33 voci nuove (P1-6, SC*, MA1-3) in testi_voci.json, ramo voci-storia-V-lez18. Servono per montare."
+  },
+  {
+   "quando": "20/11 17:33",
+   "testo": "lez18 liberata (non montata): vedi ramo lavoro-storia-V-lez18, LEGGIMI_PASSAGGIO.md. Chi la prende parte da trascrizione e script pronti."
   }
  ],
  "domande_sara": [],
@@ -33,7 +37,11 @@
   {
    "quando": "20/11 17:12",
    "testo": "17:12 voci inviate; scaricati materiali, trascrizione prof in corso"
+  },
+  {
+   "quando": "20/11 17:33",
+   "testo": "17:33 20/11: lez 18 NON montata, la libero con materiali di passaggio nel ramo lavoro-storia-V-lez18 (trascrizione, cambi slide, script, piano). Serve scrivere ~50-60 sotto-card dalle parole del prof: gli argomenti durano 10-19 min con una sola slide da 3 card. Voci nuove P1-6, SC*, MA1-3 già in voci-storia-V-lez18. Lez 5 e 11 consegnate."
   }
  ],
- "aggiornato": "2026-11-20 17:12:48"
+ "aggiornato": "2026-11-20 17:33:52"
 }
