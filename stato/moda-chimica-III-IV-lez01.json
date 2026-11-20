@@ -11,6 +11,10 @@
   {
    "quando": "20/11 15:57",
    "testo": "Voce Kore di benvenuto per la copertina lez01: la scrivo in testi_voci.json (INTRO1) sul ramo voci-moda-chimica-III-IV-lez01"
+  },
+  {
+   "quando": "20/11 19:36",
+   "testo": "INTRO1 (voce di benvenuto) richiesta sul ramo voci-moda-chimica-III-IV-lez01: la copertina oggi parte direttamente con la docente"
   }
  ],
  "domande_sara": [],
@@ -38,10 +42,14 @@
   {
    "quando": "20/11 17:12",
    "testo": "20/11 17:12: montaggio pezzi a metà (argomento 4 di 5). Poi join finale, LUFS, vtt, controlli, rapporto."
+  },
+  {
+   "quando": "20/11 19:36",
+   "testo": "20/11 19:36: video lez01 montato e codificato (44:41, 1080p, -15.9 LUFS). Ultimi controlli e consegna su revisione-moda-chimica-III-IV-lez01 in corso."
   }
  ],
  "materia": "Chimica applicata e nobilitazione dei materiali per i prodotti della moda (III + IV)",
  "lezione": "Le fibre",
  "docente": "Prof.ssa Piera Caputi",
- "aggiornato": "2026-11-20 17:12:09"
+ "aggiornato": "2026-11-20 19:36:17"
 }
