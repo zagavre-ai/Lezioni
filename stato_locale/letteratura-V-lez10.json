@@ -8,7 +8,7 @@
    "durata": "50:08.6",
    "fotogrammi": 90257,
    "fotogrammi_attesi": 90257,
-   "peso_MB": 342.0,
+   "peso_MB": 345.2,
    "vtt": "Letteratura_Lez10_Parte1.vtt"
   }
  },
@@ -36,10 +36,14 @@
   {
    "quando": "17/11 21:17",
    "testo": "REVISIONATA 21:18 · 50:08,6 · 90257 fotogrammi · -16,0 LUFS · picco -2,0 dBTP · quiz +0,003 s · sync <=0,016 s · da riascoltare: pronuncia voci (Rebora, Lacerba) e ~12 frasi dei sottotitoli · rapporto su revisione-letteratura-V-lez10"
+  },
+  {
+   "quando": "20/11 16:07",
+   "testo": "20/11 16:08 riconsegnata: schede titolo/ripasso/quiz/riepilogo rifatte blu come Spagnolo (avviso 17/11 23:35); stessa durata 50:08,6, stessi secondi, quiz +0,003 s; nuovo sha256; da decidere: intro prof 3:46 (>3 min) e pannello PAROLE CHIAVE non applicati"
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 10 · Il primo Novecento e la lirica italiana",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-19 19:02:28"
+ "aggiornato": "2026-11-20 16:07:57"
 }
