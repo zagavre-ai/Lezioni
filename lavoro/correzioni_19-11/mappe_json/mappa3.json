@@ -1,0 +1,27 @@
+{
+ "materia": "Storia V",
+ "docente": "Prof. Giorgio Mazzotti",
+ "titolo": "Iran e guerra con l'Iraq",
+ "rami": [
+  {
+   "concetto": "Caduta dello Shah",
+   "parola": "1979",
+   "esempio": "rivoluzione popolare"
+  },
+  {
+   "concetto": "Repubblica Islamica",
+   "parola": "Khomeini",
+   "esempio": "teocrazia basata sulla sharia"
+  },
+  {
+   "concetto": "Crisi degli ostaggi",
+   "parola": "1979",
+   "esempio": "assalto all'ambasciata americana"
+  },
+  {
+   "concetto": "Guerra Iran-Iraq",
+   "parola": "1980-1988",
+   "esempio": "quasi due milioni di morti"
+  }
+ ]
+}

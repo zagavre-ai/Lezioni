@@ -1,0 +1,27 @@
+{
+ "materia": "Storia V",
+ "docente": "Prof. Giorgio Mazzotti",
+ "titolo": "Da Nixon a Reagan",
+ "rami": [
+  {
+   "concetto": "Apertura alla Cina",
+   "parola": "1972",
+   "esempio": "Nixon e Mao contro l'URSS"
+  },
+  {
+   "concetto": "Distensione",
+   "parola": "SALT I",
+   "esempio": "accordi di Helsinki"
+  },
+  {
+   "concetto": "Watergate e Carter",
+   "parola": "1974",
+   "esempio": "dimissioni di Nixon"
+  },
+  {
+   "concetto": "Svolta di Reagan",
+   "parola": "1981",
+   "esempio": "linea dura e scudo spaziale"
+  }
+ ]
+}

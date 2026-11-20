@@ -1,0 +1,32 @@
+{
+ "materia": "Storia V",
+ "docente": "Prof. Giorgio Mazzotti",
+ "titolo": "Il neoliberismo",
+ "rami": [
+  {
+   "concetto": "Meno Stato, più mercato",
+   "parola": "critica",
+   "esempio": "l'intervento dello Stato"
+  },
+  {
+   "concetto": "Servizi ai privati",
+   "parola": "pratica",
+   "esempio": ""
+  },
+  {
+   "concetto": "Riduzione delle tasse",
+   "parola": "promette",
+   "esempio": ""
+  },
+  {
+   "concetto": "Reagan",
+   "parola": "Stati Uniti",
+   "esempio": "dal 1981 al 1988"
+  },
+  {
+   "concetto": "Thatcher",
+   "parola": "Regno Unito",
+   "esempio": "dal 1979 al 1990"
+  }
+ ]
+}

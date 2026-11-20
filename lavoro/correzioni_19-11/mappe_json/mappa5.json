@@ -1,0 +1,22 @@
+{
+ "materia": "Storia V",
+ "docente": "Prof. Giorgio Mazzotti",
+ "titolo": "America Latina",
+ "rami": [
+  {
+   "concetto": "Cile",
+   "parola": "1973",
+   "esempio": "golpe di Pinochet"
+  },
+  {
+   "concetto": "Argentina",
+   "parola": "1976-1983",
+   "esempio": "i desaparecidos"
+  },
+  {
+   "concetto": "Ritorno alla democrazia",
+   "parola": "1982",
+   "esempio": "crisi e sconfitta nelle Falkland"
+  }
+ ]
+}

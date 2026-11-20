@@ -1,0 +1,39 @@
+== sync P1
+| minuto video | argomento | card accesa | inizio frase del prof (sorgente) | prima parola della frase | scarto |
+|---|---|---|---|---|---|
+| 6:49.9 | 1 | 1. Un panorama complesso | 370.9 s: «Soprattutto, almeno molti ricorderanno Johnson solo.» |  So | -0.1 s |
+| 8:30.2 | 1 | 1. Un panorama complesso | 471.7 s: «Una complessa situazione economica, dicevamo.» |  U | -0.7 s |
+| 11:00.2 | 1 | 1. Un panorama complesso | 612.9 s: «Togliere a Washington e agli Stati Uniti il primato di potenza finanzi» |  T | +8.1 s |
+| 12:05.9 | 1 | 2. La fine degli accordi di Bretton Woods | 686.9 s: «smantellare.» |  sm | -0.3 s |
+| 17:16.3 | 1 | 4. Lo shock petrolifero | 997.3 s: «Praticamente tutto il decennio dei settanta in termini finanziari econ» |  P | -0.4 s |
+| 19:46.3 | 1 | 4. Lo shock petrolifero | 1145.5 s: «così facendo con la quadruplicazione del prezzo del» |  così | +1.6 s |
+| 24:57.6 | 2 | 1. La pace tra Egitto e Israele | 1374.3 s: «Allora, infatti, sul piano politico, le dinamiche medie orientali cono» |  All | -0.1 s |
+| 32:02.9 | 2 | 3. La nascita dell'Intifada (1987) | 1799.6 s: «Tut gli anni Ottanta, in realtà è ancora in corso.» |  T | -0.6 s |
+| 35:09.7 | 3 | 1. La caduta dello Shah | 1893.5 s: «Però, ecco, diciamo così, l'Iran è all'epoca una monarchia, cioè un im» |  Per | -0.1 s |
+| 39:03.8 | 3 | 3. La crisi degli ostaggi | 2127.6 s: «e ovviamente anche anti-americano, fino anche episodi estremi come l'a» |  e | -0.1 s |
+== sync P2
+| minuto video | argomento | card accesa | inizio frase del prof (sorgente) | prima parola della frase | scarto |
+|---|---|---|---|---|---|
+| 5:37.7 | 4 | 1. La diplomazia di Washington | 2877.1 s: «Come dire.» |  Com | -0.2 s |
+| 8:11.7 | 4 | 2. La distensione USA-URSS | 3031.1 s: «È lo stesso anno, se ci fate caso, il lavorino diplomatico è di qualch» |  È | -0.1 s |
+| 10:04.0 | 4 | 3. La fine di Nixon e la presidenza Carter | 3143.5 s: «sostanzialmente de» |  s | -0.3 s |
+| 10:41.7 | 4 | 3. La fine di Nixon e la presidenza Carter | 3179.0 s: «le mosse elettorali, politiche, le strategie dei democratici.» |  le | +1.9 s |
+| 13:11.7 | 4 | 3. La fine di Nixon e la presidenza Carter | 3326.8 s: «Dopo Gerald Ford, una presidenza piuttosto debole e travolta poi dalle» |  D | +4.2 s |
+| 16:37.5 | 4 | 4. La svolta di Ronald Reagan (1981) | 3536.9 s: «Quando Ronald Reagan nel 1980 inizia poi nel 81 il mandato» |  Qu | -0.2 s |
+| 18:11.7 | 4 | 4. La svolta di Ronald Reagan (1981) | 3629.3 s: «Per le spese militari. Per rilanciare lo scudo spaziale, un progetto u» |  Per | +1.7 s |
+| 25:33.0 | 5 | 2. La dittatura in Argentina e i Desapareci | 3964.4 s: «Che vengono addirittura sequestrati e messi in uno stadio, sembra fa r» |  Che | -0.1 s |
+| 26:22.7 | 5 | 2. La dittatura in Argentina e i Desapareci | 4011.4 s: «Non è proprio una cosa, diciamo, da poco. E poi.» |  Non | +2.4 s |
+| 29:36.4 | 5 | 3. Il ritorno alla democrazia | 4207.9 s: «della insomma la flotta britannica fino alle Falkland» |  della | -0.1 s |
+== sync P3
+| minuto video | argomento | card accesa | inizio frase del prof (sorgente) | prima parola della frase | scarto |
+|---|---|---|---|---|---|
+| 2:14.4 | 6 | 2. Il Regno Unito di Margaret Thatcher | 4337.2 s: «Ecco, chiudiamo la lezione proprio su questo. Come dicevo, vedremo poi» |  E | -0.3 s |
+| 4:02.7 | 6 | 3. Istituzioni e allargamento della CEE | 4445.6 s: «Poi dovete gestire la sanguinosa questione dell'Irlanda del Nord, che » |  Po | -0.2 s |
+| 6:32.7 | 6 | 3. Istituzioni e allargamento della CEE | 4594.0 s: «Quindi è interessante che questa transizione ecco perché la Spagna anc» |  Quindi | +1.4 s |
+| 10:13.5 | 7 | 1. L'era Brežnev e il declino sovietico | 4743.2 s: «La vera svolta si consumò all'interno del blocco comunista.» |  La | -0.3 s |
+| 12:12.3 | 7 | 2. Il tentativo di riforma di Gorbačev (198 | 4862.0 s: «Sostiene dal Vaticano, Giovanni Paolo II prega e piange per i suoi con» |  S | -0.1 s |
+| 14:23.1 | 7 | 2. Il tentativo di riforma di Gorbačev (198 | 4992.2 s: «Beh è un libro di tutti, sostanzialmente, paradossalmente, e forse nec» |  Be | +0.1 s |
+| 16:20.3 | 7 | 3. La fine del controllo sui satelliti | 5110.0 s: «Totale e palese.» |  T | -0.2 s |
+| 22:00.9 | 7 | 4. La disgregazione dell'URSS (1991) | 5450.6 s: «avviare una tra una transizione pacifica.» |  av | -0.2 s |
+| 32:02.1 | 8 | 3. La protesta di Piazza Tienanmen (1989) | 5956.8 s: «Dopo le proteste di piazza Tien Amen, nel giugno dell'ottantove, e qua» |  D | -0.1 s |
+| 33:36.3 | 8 | 1. Le riforme di Deng Xiaoping | 6051.1 s: «repressioni, ecco anche brutali.» |  re | -0.4 s |

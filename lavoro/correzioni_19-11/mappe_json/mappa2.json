@@ -1,0 +1,22 @@
+{
+ "materia": "Storia V",
+ "docente": "Prof. Giorgio Mazzotti",
+ "titolo": "Tensioni e accordi in Medio Oriente",
+ "rami": [
+  {
+   "concetto": "Camp David",
+   "parola": "1978",
+   "esempio": "accordi tra Sadat e Begin"
+  },
+  {
+   "concetto": "Libano",
+   "parola": "1975-1982",
+   "esempio": "guerra civile e invasione israeliana"
+  },
+  {
+   "concetto": "Intifada",
+   "parola": "1987",
+   "esempio": "rivolta palestinese e Hamas"
+  }
+ ]
+}

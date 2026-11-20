@@ -1,0 +1,32 @@
+{
+ "materia": "Storia V",
+ "docente": "Prof. Giorgio Mazzotti",
+ "titolo": "La crisi degli anni Settanta",
+ "rami": [
+  {
+   "concetto": "Guerra del Kippur",
+   "parola": "causata da",
+   "esempio": "attacco di Egitto e Siria a Israele (1973)"
+  },
+  {
+   "concetto": "Aumento del prezzo del petrolio",
+   "parola": "provoca",
+   "esempio": ""
+  },
+  {
+   "concetto": "Calo della produzione",
+   "parola": "da cui deriva",
+   "esempio": ""
+  },
+  {
+   "concetto": "Disoccupazione",
+   "parola": "da cui deriva",
+   "esempio": ""
+  },
+  {
+   "concetto": "Inflazione",
+   "parola": "da cui deriva",
+   "esempio": ""
+  }
+ ]
+}
