@@ -13,6 +13,10 @@
   {
    "quando": "19/11 02:58",
    "testo": "Voci Kore nuove lez 21 (v3 + regole 19/11, 2 Parti): 63 testi in testi_voci.json, ramo voci-storia-V-lez21. Nomi nuovi: BEN1-2, PI*, SC*_*, MPR1-4, AP*_* (approfondimenti 40-60 s), LG0-8, FZ1-2"
+  },
+  {
+   "quando": "20/11 15:59",
+   "testo": "Voci Kore lez 21: 5 testi NUOVI in testi_voci.json (ramo voci-storia-V-lez21): AP3_3, AP4_1, AP5_1, AP6_1, AP6_2 (approfondimenti rifatti per le regole delle 05:10). Le altre voci gia ricevute restano valide; AP3_2, AP5_0, AP6_0 non servono piu."
   }
  ],
  "domande_sara": [],
@@ -34,5 +38,5 @@
    "testo": "03:46 come Parte 1: rimontaggio in corso"
   }
  ],
- "aggiornato": "2026-11-19 19:01:11"
+ "aggiornato": "2026-11-20 15:59:03"
 }
