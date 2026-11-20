@@ -185,11 +185,6 @@
   "lingua": "it"
  },
  {
-  "nome": "AP4_0",
-  "testo": "Dal duemilaquattro al duemilaotto Putin è presidente; poi, per quattro anni, non lo è più ufficialmente. Si ripresenta nel duemiladodici e fa modificare la costituzione per allungare la propria permanenza al potere. Putin salva l'economia russa e centralizza il potere economico e politico nel Cremlino. Lo fa attraverso repressione, censura e arresti. La sua politica estera è sempre più assertiva e nazionalista, per restituire alla Russia il ruolo di grande potenza globale. Per Putin è stato un errore far cessare l'impero sovietico. Per superare la crisi degli anni Novanta, il potere si concentra nella sua persona.",
-  "lingua": "it"
- },
- {
   "nome": "PI5",
   "testo": "Facciamo un riepilogo di quello che hai appena visto: L'Europa tra crisi e secessioni. Guarda lo schema e ripeti ad alta voce.",
   "lingua": "it"
@@ -212,11 +207,6 @@
  {
   "nome": "SC5_4",
   "testo": "Quarto: la Germania è guidata a lungo da Angela Merkel, mentre la Francia vive forti tensioni sociali prima dell'elezione di Emmanuel Macron.",
-  "lingua": "it"
- },
- {
-  "nome": "AP5_0",
-  "testo": "L'impatto della crisi del duemilaotto colpisce duramente diversi paesi dell'Unione Europea e dell'euro. Le analisi dicono che i paesi più poveri, tra cui l'Italia, con la valuta nazionale avrebbero sofferto ancora di più. La Grecia subisce un impatto devastante, anche perché aveva fatto carte false per entrare nell'euro. In questo clima di insoddisfazione pesa anche la difficile gestione dei flussi migratori dal Mediterraneo. Il malcontento alimenta la sfiducia verso le istituzioni europee e i partiti sovranisti. L'euro si stava consolidando, ma la crisi ha finito per esasperare le difficoltà.",
   "lingua": "it"
  },
  {
@@ -252,11 +242,6 @@
  {
   "nome": "MPR4",
   "testo": "Ecco la mappa dell'Europa e dell'Italia nel periodo della crisi del duemilaotto. La crisi del debito sovrano colpisce soprattutto Irlanda, Grecia, Spagna, Portogallo e Italia. Aumentano euroscetticismo e populismo, con la Brexit come caso esemplare. Servono governi stabili: il quarto governo Berlusconi cade nel duemilaundici e arriva il governo tecnico di Monti. In Italia il Movimento 5 Stelle raccoglie il dissenso contro la politica e l'austerità. Segue la vittoria parziale del duemiladiciotto. Durante il Covid, Draghi guida un governo tecnico.",
-  "lingua": "it"
- },
- {
-  "nome": "AP6_0",
-  "testo": "Giorgia Meloni è la prima donna a ricoprire la carica di Presidente del Consiglio nella storia italiana. Guida una coalizione di centrodestra a guida nazionalista, con Fratelli d'Italia. Il suo esecutivo gestisce le sfide dei finanziamenti europei del Recovery Fund, arrivati all'Italia per via del Covid. Sono miliardi che vanno ben spesi, per finanziare l'economia verde e la transizione ecologica. Dopo quattro anni il governo ha portato avanti la modernizzazione del paese, anche in termini tecnologici. Il governo sostiene una linea dura contro le azioni nazionaliste e imperialiste di Putin. I fondi europei sono un'occasione per fare bene i compiti a casa e far affluire i capitali.",
   "lingua": "it"
  },
  {
@@ -315,8 +300,38 @@
   "lingua": "it"
  },
  {
-  "nome": "AP3_2",
-  "testo": "Obama vuole estendere i diritti civili e risolvere la questione razziale, mai davvero risolta negli Stati Uniti. Vuole anche ridimensionare le spinte sovraniste e il suprematismo bianco. Estende i diritti civili anche in campo sanitario, per far accedere alla sanità gli strati popolari più poveri. È il famoso Obamacare: in parte riuscì a garantire maggiore accesso alla sanità, in parte no. In politica estera Obama cerca una linea più diplomatica e multilaterale. Non guida la coalizione come Bush, ma dialoga con i partner occidentali.",
+  "nome": "AP3_3",
+  "testo": "Nel duemilaotto, in mezzo alla crisi, c'è il cambio alla Casa Bianca: viene eletto il democratico Barack Obama. È il primo presidente afroamericano della storia degli Stati Uniti, con origini sia bianche sia nere. Per il prof è sicuramente il primo presidente di colore. La sua elezione porta con sé le aspettative sull'estensione dei diritti civili. Obama vuole risolvere la questione razziale, mai davvero risolta negli Stati Uniti. Vuole anche ridimensionare le spinte sovraniste e razziste del suprematismo bianco. Tutto questo avviene mentre il mondo si sta avviando verso un nuovo disastro finanziario.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AP4_1",
+  "testo": "I BRICS sono le cinque grandi nazioni che stanno sorgendo come nuove forti economie globali. Si parla di paesi emergenti dal duemilauno, ma ormai sono emersi da tempo: è un fatto conclamato. Russia e Cina non sono democrazie piene: la Russia ufficialmente sì, la Cina no. L'India è una democrazia solo parziale; sono quasi tutti ex imperi coloniali o ex potenze. Si muovono in funzione anti-americana e antieuropea, a svantaggio dell'economia di Washington e dell'Unione Europea. La Cina ha interesse a tenere un canale commerciale con l'Unione Europea, la Russia molto meno.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AP4_1",
+  "testo": "I BRICS sono le cinque grandi nazioni che stanno sorgendo come nuove forti economie globali. Si parla di paesi emergenti dal duemilauno, ma ormai sono emersi da tempo: è un fatto conclamato. Russia e Cina non sono democrazie piene: la Russia ufficialmente sì, la Cina no. L'India è una democrazia solo parziale; sono quasi tutti ex imperi coloniali o ex potenze. Si muovono in funzione anti-americana e antieuropea, a svantaggio dell'economia di Washington e dell'Unione Europea. La Cina ha interesse a tenere un canale commerciale con l'Unione Europea, la Russia molto meno.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AP5_1",
+  "testo": "Anche l'Unione Europea ha dovuto affrontare vent'anni di dure prove. L'impatto della crisi economica del duemilaotto ha colpito duramente diversi paesi membri dell'Unione e dell'euro. L'euro si stava consolidando, ma la crisi non ha fatto altro che esasperare le difficoltà. Le analisi dicono che i paesi più poveri, tra cui l'Italia, con la valuta nazionale avrebbero sofferto ancora di più. Il prof precisa che si tratta di analisi e di studi, non di pareri personali. L'Europa deve intanto gestire la crisi economica e le nuove spinte secessioniste.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AP6_1",
+  "testo": "Nei primi decenni del secolo l'Italia vive una forte instabilità politica e l'alternanza di coalizioni, come voleva il sistema maggioritario. Il centrosinistra guida la legislatura dal novantasei al duemilauno, prima con Prodi e poi con D'Alema. Nel duemilauno rivince Berlusconi con Forza Italia, Lega e Alleanza Nazionale, per cinque anni. C'è quindi instabilità, ma allo stesso tempo stabilità dei governi, con tante tensioni interne. Nel duemilasei Prodi rivince le elezioni e parte il secondo governo Prodi, che sta in piedi per poco. Berlusconi rivince le elezioni, ma nel duemilaundici il quarto governo Berlusconi cessa.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AP6_2",
+  "testo": "Alle elezioni del duemilaventidue vince nettamente la coalizione di centrodestra. Le elezioni arrivano in anticipo, dopo l'esperienza dei governi di unità nazionale di Conte e Draghi. Ne fanno parte Forza Italia, la Lega e Fratelli d'Italia di Giorgia Meloni. Giorgia Meloni è la prima donna a ricoprire la carica di Presidente del Consiglio nella storia italiana. È una coalizione di centrodestra, a guida nazionalista. Il governo è solido: dovrebbe durare fino alla fine del mandato, previsto alla fine del duemilaventisette. Berlusconi era ancora presente, ma non era più quello di prima.",
+  "lingua": "it"
+ },
+ {
+  "nome": "AP4_0",
+  "testo": "Dal duemilaquattro al duemilaotto Putin è presidente; poi, per quattro anni, non lo è più ufficialmente. Si ripresenta nel duemiladodici e fa modificare la costituzione per allungare la propria permanenza al potere. Putin salva l'economia russa e centralizza il potere economico e politico nel Cremlino. Lo fa attraverso repressione, censura e arresti. La sua politica estera è sempre più assertiva e nazionalista, per restituire alla Russia il ruolo di grande potenza globale. Per Putin è stato un errore far cessare l'impero sovietico. Per superare la crisi degli anni Novanta, il potere si concentra nella sua persona.",
   "lingua": "it"
  }
 ]
