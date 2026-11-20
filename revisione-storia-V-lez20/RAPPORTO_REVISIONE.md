@@ -6,8 +6,8 @@
 ## 1. Le 8 correzioni punto per punto
 | # | Punto della master | Esito |
 |---|---|---|
-| 1 | Al massimo 3 card per slide; nessuna slide ferma oltre 3 minuti; immagini a tempo | fatto: ogni argomento è diviso in più slide da 1–3 card nell'ordine in cui il prof parla (testo del prof invariato; le card lunghe sono spezzate in frammenti, quelli seguenti iniziano con «…»). Le slide di testo sono 30; durata massima misurata 254 s. Slide oltre 180 s: arg. 1 slide 6 (234 s), arg. 1 slide 8 (254 s). Le immagini del prof sono messe a tempo (invariato).  |
-| 2 | Sincronia: il bordo giallo si accende quando il prof INIZIA la frase (±1 s); 10 punti a caso | fatto in modo diverso dal calcolo automatico di prima: l'inizio di ogni card è stato scelto leggendo la trascrizione (frase per frase) da revisori; tabella dei 10 punti qui sotto. Alcune card non hanno corrispondenza nel parlato (vedi sezione 4). |
+| 1 | Al massimo 3 card per slide; nessuna slide ferma oltre 3 minuti; immagini a tempo | fatto: ogni punto della slide del prof è UNA card intera (nessuna card spezzata con «…», titolo in grassetto una sola volta), card alte quanto il loro testo e allineate in alto, al massimo 3 card per slide (mai una card sola, salvo accanto a un'immagine del prof); il bordo giallo si accende quando il prof inizia quel punto. Le slide di testo sono 14; durata massima misurata 763 s. Slide oltre 180 s: arg. 1 slide 1 (318 s), arg. 1 slide 2 (763 s), arg. 2 slide 1 (327 s), arg. 3 slide 1 (357 s). Le immagini del prof sono messe a tempo (invariato).  |
+| 2 | Sincronia: il bordo giallo si accende quando il prof INIZIA il punto (±1 s); 10 punti a caso | fatto in modo diverso dal calcolo automatico di prima: l'inizio di ogni card è stato scelto leggendo la trascrizione (frase per frase) da revisori; tabella dei 10 punti qui sotto. Alcune card non hanno corrispondenza nel parlato (vedi sezione 4). |
 | 3 | Mappe ridisegnate con `kit/tools/mappa.py`, intere, nodi a tempo con la voce Kore | fatto: le 4 mappe del prof (In Iugoslavia, In Europa, In Italia, La globalizzazione) sono ridisegnate con lo strumento della master (centro + rami, nodi che compaiono con la voce Kore a tempo, testo del prof). Il prof ha mandato 3 mappe per tutta la lezione, non una per argomento: dopo gli argomenti 3, 4, 5 e 8 (secondo il tema); le mappe a catena (Iugoslavia) sono rese come centro + rami (NV). La voce di ogni mappa è la concatenazione delle voci già presenti MP*_k. |
 | 4 | Almeno un approfondimento animato (4c) per argomento, 40–60 s, voce Kore | fatto: 8 approfondimenti (uno per argomento) con voce Kore nuova (8 voci richieste alla master), durata dei pezzi AP1 61,9; AP2 60,3; AP3 58,2; AP4 52,9; AP5 48,3; AP6 48,6; AP7 52,9; AP8 54,2 (compresi 0,9 s iniziali e 1,2 s finali di pausa), card che compaiono a tempo con la voce; i testi sono stati scritti dal parlato del prof (da far confermare, sezione 5). |
 | 5 | Schema di ripasso: 4–6 righe | già a norma: 4–6 righe per argomento. |
@@ -18,16 +18,16 @@
 ### Sincronia: 10 punti a caso (M)
 | Dove | Argomento | Card accesa | Frase del prof che inizia in quel punto (trascrizione) | Scarto dall'inizio della frase |
 |---|---|---|---|---|
-| Parte 1 · 30:10.27 | arg. 2 | «e gli accordi commerciali globali.…» | «Però ecco qua, appunto, il quadro…» | -0.0 s |
-| Parte 1 · 32:15.13 | arg. 3 | «con la morte di Tito…» | «Cerchiamo di capire. Contemporaneamente l'Europa si è trovata a gestire le …» | -0.3 s |
-| Parte 1 · 56:22.83 | arg. 5 | «(governi Prodi) e l'inizio dei grandi flussi migratori.…» | «Poi bisogna gestire i primi flussi migratori: l'Italia assiste ai profughi …» | +0.0 s |
-| Parte 1 · 60:40.10 | arg. 6 | «si diffonde il fondamentalismo radicale in Medio Orient…» | «Il periodo ha visto anche la preoccupante diffusione del fondamentalismo is…» | +0.0 s |
-| Parte 1 · 60:46.60 | arg. 6 | «che offre protezione alla rete terroristica di Al-Qaeda…» | «culminato nella crescita di organizzazioni terroristiche come Al-Qaeda in A…» | +0.0 s |
-| Parte 1 · 65:20.70 | arg. 7 | «ma avvia una straordinaria apertura all'economia di mer…» | «e l'apertura ai mercati internazionali con la rigidità…» | -0.0 s |
-| Parte 1 · 66:14.10 | arg. 7 | «pur dovendo convivere con grandi sacche di povertà e co…» | «Pur dovendo convivere con piaghe sociali persistenti come l'estrema povertà…» | -0.0 s |
-| Parte 1 · 69:07.53 | arg. 8 | «la diffusione dei personal computer e la nascita di Int…» | «Nel bene e nel male, questo fenomeno è stato straordinariamente accelerato …» | -0.0 s |
+| Parte 1 · 25:00.47 | arg. 2 | «gli Stati Uniti rimangono l'unica superpotenza mondiale…» | «Allora, mentre l'ex spazio sovietico si frammentava, lo scenario internazio…» | -0.3 s |
+| Parte 1 · 26:15.57 | arg. 2 | «nel 1991 gli USA guidano una coalizione internazionale …» | «Allora, il primo grande banco di prova, appunto sotto la presidenza Bush se…» | -0.0 s |
+| Parte 1 · 49:31.03 | arg. 5 | «all'inizio degli anni Novanta, le inchieste giudiziarie…» | «In Italia, lo sappiamo, gli anni Novanta hanno sancito il crollo dei partit…» | -0.8 s |
+| Parte 1 · 53:48.23 | arg. 5 | «il sistema politico si riorganizza intorno a due grandi…» | «Democratico della Sinistra, rinnega il comunismo, ma va avanti. Siamo così …» | -0.0 s |
+| Parte 1 · 61:28.70 | arg. 6 | «si consolida il ritorno alla democrazia in Paesi come C…» | «L'America Latina ha invece vissuto una complessa transizione verso la democ…» | -0.0 s |
+| Parte 1 · 65:44.10 | arg. 7 | «Paesi come Corea del Sud, Taiwan, Singapore e Hong Kong…» | «Accanto alla Cina, le cosiddette Tigri asiatiche, come la Corea del Sud,…» | -0.0 s |
+| Parte 1 · 65:52.40 | arg. 7 | «dopo i successi dei decenni precedenti, il Giappone ent…» | «la Cina nazionalista, Singapore e Hong Kong hanno vissuto un impetuoso svil…» | +0.0 s |
+| Parte 1 · 66:00.90 | arg. 7 | «avvia riforme di liberalizzazione economica, diventando…» | «Anche l'India, se per questo, ha registrato un forte boom economico, traina…» | -0.0 s |
+| Parte 1 · 68:51.33 | arg. 8 | «la globalizzazione economica unifica i mercati mondiali…» | «Ed è il caso, appunto, di parlare della globalizzazione. Tutti questi mutam…» | -0.2 s |
 | Parte 1 · 70:17.93 | arg. 8 | «il mondo deve affrontare la crescita demografica (che s…» | «Il 2000 si è aperto dunque con un pianeta globalizzato, segnato da una fort…» | +0.0 s |
-| Parte 1 · 71:15.73 | arg. 8 | «e i primi grandi allarmi ambientali legati all'inquinam…» | «In parallelo emergono all'inizio del 2000, anche se già negli anni Ottanta …» | +0.0 s |
 
 L'accensione coincide con l'inizio di una frase del prof per costruzione (M: scarto dall'inizio della frase). Che la frase sia davvero quella della card l'hanno giudicato i revisori leggendo la trascrizione: io non l'ho riverificato punto per punto (NV).
 
@@ -35,7 +35,7 @@ L'accensione coincide con l'inizio di una frase del prof per costruzione (M: sca
 
 ### Parte 1
 ```
-durata 4515.67 s = 75:15.67 | fotogrammi 135470 (durata*30=135470) = somma dei pezzi 135470 | peso 348.0 MB | 1920x1080
+durata 4515.67 s = 75:15.67 | fotogrammi 135470 (durata*30=135470) = somma dei pezzi 135470 | peso 382.1 MB | 1920x1080
 LUFS -15.1  TP -1.9 dBFS
 Q1 atteso 1491.967 trovato 1491.967 scarto -0.000 OK
 Q2 atteso 1926.633 trovato 1926.634 scarto +0.001 OK
@@ -49,7 +49,7 @@ Q8 atteso 4422.067 trovato 4422.071 scarto +0.004 OK
 Silenzi > 3 s (−45 dB): 0.
 Fermi del prof ≥ 1 s: nessuno.
 Fotogramma Quiz ai `quiz_s`: Q1 1491.47s OK, Q2 1926.13s OK, Q3 2528.33s OK, Q4 2962.03s OK, Q5 3595.50s OK, Q6 3891.40s OK, Q7 4122.33s OK, Q8 4421.57s OK.
-sha256 (ricomposto dalle parti): `812077ff64cd582484ae5e4fc55c9f27729e8c9986e47538b1684067bb9af929  Storia_Lez20_Parte1_1080p.mp4`
+sha256 (ricomposto dalle parti): `a31eca2f0b738dd620aeaf656cc8c8a492d0bb80bb33bdebe155149e3a622394  Storia_Lez20_Parte1_1080p.mp4`
 
 Formato: 1920×1080, 30 fps, x264 veryfast CRF 25, AAC 192 kbps 48 kHz; parlato del prof dall'originale con la catena del kit; voci Kore a −16 LUFS. **Le Parti durano meno dei 50 minuti** (materiale del prof).
 
@@ -120,9 +120,10 @@ Formato: 1920×1080, 30 fps, x264 veryfast CRF 25, AAC 192 kbps 48 kHz; parlato 
 
 ## 4. Cose che non tornano nel parlato / limiti
 - **Durata (M):** la lezione resta in una sola Parte come nella consegna precedente (decisione dell'8/11 per le lezioni fino a ~65 min), ma dura **più di 65 minuti** (vedi sezione 2): il prof parla 56,5 minuti e approfondimenti, schemi, pillole, quiz e mappe aggiungono ~19 minuti. Se la master vuole 2 Parti servono 5 voci nuove (introduzione, ripasso, glossario e riepilogo della seconda parte) e il taglio naturale è dopo l'argomento 4.
-- **Slide ferme oltre 180 s** (elenco al punto 1): solo l'argomento 1 (due slide da 234 e 254 s: il prof parla a lungo di Russia, oligarchi e Cecenia con poche card). Nel parlato non c'è un altro aggancio e non ho forzato i tempi. L'argomento 5 ha un gruppo di 3 card di 244 s ma con l'immagine del prof a metà (pagina 9) nessuna slide resta ferma oltre i 180 s.
+- **Slide ferme oltre i 3 minuti (M): molte.** Con le card intere (nota master 05:10) un argomento in cui il prof parla a lungo su pochi punti resta sulla stessa slide: elenco al punto 1. Le slide sono più lunghe di prima (prima le card erano spezzate in frammenti); non c'è altro modo di accorciarle senza spezzare le card o inventare contenuti. Le immagini del PDF del prof sono messe a tempo dove il prof le mostra.
+- **Introduzione (M):** il prof parla 235 s sopra la copertina; dopo ~2 min (119,7 s) passano 3 slide «Di cosa parliamo» con gli argomenti in card (3+3+2). Il prof nell'introduzione non nomina i singoli argomenti uno per uno: **le card non hanno il bordo giallo** (nessun aggancio nel parlato).
+- **Copertina:** titolo su 2 righe a sinistra del riquadro del prof; la card ARGOMENTI scende sotto il titolo (8 argomenti: carattere più piccolo).
 - Il prof non segue l'ordine delle slide: arg. 4 card 5–7 (Francia e Regno Unito) sono posizionate in momenti arbitrari («sicuramente sbagliate», dai revisori: il prof tratta il Regno Unito prima di Maastricht e non nomina Mitterrand e Chirac); arg. 3 card 9–10 (Kosovo); arg. 5 card 2–3 e 9; arg. 7 card 4 (il Giappone è detto dopo l'India); arg. 8 card 4–5.
-- Le card lunghe sono state spezzate in frammenti per rispettare le 3 card per slide; sono testo identico alla slide del prof.
 - Webcam del prof 184×138 ingrandita 2,2× (morbida); testa vicina al bordo alto già nell'originale (S).
 
 ## 5. DA CONFERMARE COL PROF / cosa NON ho verificato (NV)
