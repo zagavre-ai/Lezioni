@@ -3,6 +3,9 @@
  "parti": {
   "1": {
    "stato": "REVISIONATA"
+  },
+  "2": {
+   "stato": "REVISIONATA"
   }
  },
  "manca": "",
@@ -49,10 +52,14 @@
   {
    "quando": "20/11 20:05",
    "testo": "REVISIONATA (rifatta da zero) · Parte 1 49:43,3 · Parte 2 51:18,6 · Parte 3 53:58,2 · ramo revisione-storia-V-lez13 · deviazioni note nel rapporto §8 (silenzi >3 s, -17 LUFS, sottotitoli e quiz non riletti)"
+  },
+  {
+   "quando": "20/11 20:05",
+   "testo": "Parte 2 51:18,6"
   }
  ],
  "materia": "Storia V",
  "lezione": "Lezione 13",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-20 20:05:18"
+ "aggiornato": "2026-11-20 20:05:21"
 }
