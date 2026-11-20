@@ -98,5 +98,500 @@
   "nome": "L6_COMP",
   "testo": "Ed ora i compiti.",
   "lingua": "it"
+ },
+ {
+  "nome": "L6_AN1_0",
+  "testo": "Approfondiamo: la preparazione del tessuto greggio.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_AN1_1",
+  "testo": "Sbozzima e purga: tolgono bozzime e impurità dal tessuto.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_AN1_2",
+  "testo": "Candeggio e mercerizzazione: il candeggio dà un bianco puro, la mercerizzazione migliora stabilità e lucentezza.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_AN1_3",
+  "testo": "Ausiliari: prodotti chimici, come i mordenzanti, che agevolano i processi.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_SC1_0",
+  "testo": "Schema di ripasso: pretrattamenti e ausiliari. Ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_SC1_1",
+  "testo": "Purga. lavaggio. elimina le impurità.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_SC1_2",
+  "testo": "Candeggio. bianco puro. toglie il giallo.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_SC1_3",
+  "testo": "Mercerizzazione. stabilità. lucentezza e resistenza.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_SC1_4",
+  "testo": "Bruciapelo. liscio. toglie la peluria.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_SC1_5",
+  "testo": "Ausiliari. chimici. mordenzanti.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_SC1_6",
+  "testo": "Sbozzima. ordito. toglie le bozzime.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_AN2_0",
+  "testo": "Approfondiamo: i momenti della tintura.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_AN2_1",
+  "testo": "In fibra: prima della filatura, per ottenere filati mélange.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_AN2_2",
+  "testo": "In filato: dopo la torsione, per realizzare disegni rigati.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_AN2_3",
+  "testo": "In pezza o in capo: la pezza è la più economica e flessibile, il capo finito serve il mercato last minute.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_SC2_0",
+  "testo": "Schema di ripasso: la tintura. Ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_SC2_1",
+  "testo": "Bagno. immersione. acqua e colore.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_SC2_2",
+  "testo": "Partite. controllo. non unire i lotti.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_SC2_3",
+  "testo": "In fibra. prima filatura. filati mélange.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_SC2_4",
+  "testo": "In filato. dopo torsione. disegni rigati.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_SC2_5",
+  "testo": "In pezza. economica. flessibile.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_SC2_6",
+  "testo": "In capo. capo finito. mercato last minute.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_AN3_0",
+  "testo": "Approfondiamo: coloranti naturali e sintetici.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_AN3_1",
+  "testo": "Naturali: di origine vegetale o animale, come robbia e curcuma, murice e carminio.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_AN3_2",
+  "testo": "Sintetici: nascono nel milleottocentocinquantasei, con la malveina scoperta da Perkin.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_AN3_3",
+  "testo": "Criticità: i sintetici costano meno e durano di più, ma pongono problemi di salute e di scarichi.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_SC3_0",
+  "testo": "Schema di ripasso: coloranti naturali e sintetici. Ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_SC3_1",
+  "testo": "Naturali. vegetali. robbia, curcuma.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_SC3_2",
+  "testo": "Animali. insetti. murice, carminio.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_SC3_3",
+  "testo": "Biologica. biodegradabili. ausiliari sicuri.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_SC3_4",
+  "testo": "Sintetici. milleottocentocinquantasei. Perkin, malveina.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_SC3_5",
+  "testo": "Vantaggi. costo minore. durata, uniformità.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_SC3_6",
+  "testo": "Criticità. salute. ammine aromatiche.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_AN4_0",
+  "testo": "Approfondiamo: come si valuta un colorante.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_AN4_1",
+  "testo": "Affinità e potere coprente: quanto il colorante si fissa e quanta intensità dà.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_AN4_2",
+  "testo": "Potere migratorio e solidità: uniformità della tinta e resistenza a lavaggi e luce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_AN4_3",
+  "testo": "Analisi del colore: si controlla con colorimetro e spettrofotometro.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_SC4_0",
+  "testo": "Schema di ripasso: proprietà e classi dei coloranti. Ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_SC4_1",
+  "testo": "Affinità. si fissa. mordenzatura.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_SC4_2",
+  "testo": "Potere coprente. dose. intensità.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_SC4_3",
+  "testo": "Potere migratorio. uniformità. contrasti.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_SC4_4",
+  "testo": "Solidità. resistenza. lavaggi e luce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_SC4_5",
+  "testo": "Classi. basici, acidi. diretti, reattivi.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_SC4_6",
+  "testo": "Analisi. colorimetro. spettrofotometro.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_AN5_0",
+  "testo": "Approfondiamo: la macchina giusta.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_AN5_1",
+  "testo": "Fibre e filati: autoclavi per rocche e subbi, con il bagno in circolo.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_AN5_2",
+  "testo": "Capi e pezze: rotative per i capi, jet e overflow in corda, jitter e foulard in largo.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_AN5_3",
+  "testo": "Finissaggio: vaporissaggio, lavaggio a umido e arrotolatura su tubi cavi.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_SC5_0",
+  "testo": "Schema di ripasso: macchine di tintura e finissaggio. Ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_SC5_1",
+  "testo": "Autoclavi. rocche, subbi. bagno in circolo.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_SC5_2",
+  "testo": "Capi. rotative. come lavatrici.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_SC5_3",
+  "testo": "In corda. jet, overflow. implumatura.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_SC5_4",
+  "testo": "In largo. jitter, foulard. tessuto teso.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_SC5_5",
+  "testo": "Finissaggio. vaporissaggio. lavaggio a umido.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_SC5_6",
+  "testo": "Arrotolatura. tubi cavi. imballaggio.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_AN6_0",
+  "testo": "Approfondiamo: come si stampa un disegno.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_AN6_1",
+  "testo": "Pasta da stampa: coloranti e ausiliari applicati su parti specifiche del tessuto.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_AN6_2",
+  "testo": "Rapporto di stampa: il disegno si ripete e va messo a registro.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_AN6_3",
+  "testo": "Sistemi: stampa diretta, a corrosione e a riserva.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_SC6_0",
+  "testo": "Schema di ripasso: la stampa: pasta e sistemi di applicazione. Ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_SC6_1",
+  "testo": "Disegno. parti specifiche. più colori, più costi.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_SC6_2",
+  "testo": "Pasta. coloranti. ausiliari.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_SC6_3",
+  "testo": "Rapporto. ripetizione. messa a registro.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_SC6_4",
+  "testo": "Diretta. tessuto bianco. più diffusa.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_SC6_5",
+  "testo": "Corrosione. motivi chiari. rischio.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_SC6_6",
+  "testo": "Riserva. paste. impermeabili.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_AN7_0",
+  "testo": "Approfondiamo: le tecnologie di stampa.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_AN7_1",
+  "testo": "A mano e batik: tecniche artigianali, con la cera nel batik.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_AN7_2",
+  "testo": "A quadro e a cilindro: la racla sul quadro per i tessuti di pregio, il cilindro continuo e veloce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_AN7_3",
+  "testo": "Digitale: gocce d'inchiostro, senza costi di quadri e cilindri, per piccoli lotti.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_SC7_0",
+  "testo": "Schema di ripasso: tecnologie di stampa. Ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_SC7_1",
+  "testo": "A mano. artigianale. tela ruggine.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_SC7_2",
+  "testo": "Batik. cera. Giava.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_SC7_3",
+  "testo": "A quadro. racla. tessuti di pregio.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_SC7_4",
+  "testo": "A cilindro. continua. alta velocità.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_SC7_5",
+  "testo": "Digitale. gocce d'inchiostro. piccoli lotti.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_SC7_6",
+  "testo": "Incisione. CAD e laser. costi elevati.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_INTRO_P2",
+  "testo": "Benvenuta, benvenuto alla seconda parte della lezione sulla nobilitazione. Parliamo di macchine di tintura e finissaggio, di stampa e di tecnologie di stampa.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_RP_0",
+  "testo": "Prima di continuare, ripassiamo gli argomenti della prima parte.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_RP_1",
+  "testo": "Primo: i pretrattamenti, con purga, candeggio, mercerizzazione e ausiliari.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_RP_2",
+  "testo": "Secondo: la tintura, per immersione, in fibra, in filato, in pezza o in capo.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_RP_3",
+  "testo": "Terzo: i coloranti, naturali e sintetici, con vantaggi e criticità.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_RP_4",
+  "testo": "Quarto: le proprietà dei coloranti, affinità e solidità, e le loro classi.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_GLP_0",
+  "testo": "Glossario. Le parole chiave della lezione.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_GLP_1",
+  "testo": "Purga: lavaggio che elimina le impurità.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_GLP_2",
+  "testo": "Mordenzante: prodotto che prepara la fibra alla tintura.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_GLP_3",
+  "testo": "Affinità: spontaneità con cui il colorante si fissa sulla fibra.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_GLP_4",
+  "testo": "Solidità: resistenza del colore ai trattamenti.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_GLP_5",
+  "testo": "Vaporissaggio: calore e umidità che fissano il colore.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_GLP_6",
+  "testo": "Rapporto di stampa: spazio occupato dal disegno che si ripete.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_RF_0",
+  "testo": "Prima di salutarci, ricapitoliamo gli argomenti della lezione.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_RF_1",
+  "testo": "Primo: i pretrattamenti e gli ausiliari.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_RF_2",
+  "testo": "Secondo: la tintura e i suoi stadi.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_RF_3",
+  "testo": "Terzo: i coloranti naturali e sintetici.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_RF_4",
+  "testo": "Quarto: proprietà e classi dei coloranti.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_RF_5",
+  "testo": "Quinto: le macchine di tintura e il finissaggio.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_RF_6",
+  "testo": "Sesto: la stampa, con la pasta e i sistemi di applicazione.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_RF_7",
+  "testo": "Settimo: le tecnologie di stampa.",
+  "lingua": "it"
+ },
+ {
+  "nome": "L6_FIN",
+  "testo": "Fine della lezione. Grazie per l'attenzione, e buono studio.",
+  "lingua": "it"
  }
 ]

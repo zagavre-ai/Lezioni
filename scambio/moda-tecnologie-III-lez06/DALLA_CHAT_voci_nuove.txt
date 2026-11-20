@@ -1,0 +1,6 @@
+Voci NUOVE da generare (20/11, ripresa Tecnologie lez06 Nobilitazione), 99 file in testi_voci.json, prefisso L6_:
+- L6_ANn_k: approfondimento animato di ogni argomento (n=1..7)
+- L6_SCn_k: schema guidato bianco della pillola (k=0 introduzione, 1..6 una riga per voce)
+- L6_INTRO_P2, L6_RP_0..4: benvenuto Parte 2 e ripasso della Parte 1
+- L6_GLP_0..6: glossario a pezzi; L6_RF_0..7: riepilogo finale; L6_FIN
+Le voci gia' presenti (BEN, M1-7, MF, R1-7, GL, RFIN, VER, COMP) si riusano. Divisione in 2 Parti: argomenti 1-4 e 5-7.
