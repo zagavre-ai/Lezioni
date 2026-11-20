@@ -1,0 +1,42 @@
+{
+ "tag": "moda-tecnologie-III-lez06",
+ "parti": {
+  "1": {
+   "stato": "IN_REVISIONE",
+   "voci": "segnaposto"
+  }
+ },
+ "manca": "COMPITI_MANCANTI",
+ "serve_master": [
+  {
+   "quando": "14/11 22:10",
+   "testo": "Voci Kore: testi_voci.json (20 voci, nomi L6_*) e quiz.json sul ramo voci-moda-tecnologie-III-lez06. Compiti: nella release non c'e' il file Compiti -> COMPITI_MANCANTI. Nota: Whisper non scaricabile (HuggingFace bloccato), trascrizione fatta con Gemini; sottotitoli da controllare."
+  }
+ ],
+ "domande_sara": [],
+ "note": [
+  {
+   "quando": "14/11 22:29",
+   "testo": "Fatto: materiali scaricati, trascrizione, struttura in 7 argomenti, quiz (35 domande) e 20 testi voci inviati alla master. Sincronia automatica da rivedere a mano (da circa 2000 s in poi sfasata). Manca: sincronia, slide, mappe, montaggio, voci Kore, dispensa. Lavoro salvato su ramo lavoro-moda-tecnologie-III-lez06."
+  },
+  {
+   "quando": "14/11 23:00",
+   "testo": "Sincronia corretta a mano e verificata su un campione (slide 58 giusta a 2250 s). Fatto: 84 slide + video docente con slide 1080p (3461 s). Manca: schede titolo/quiz, schemi, mappe, montaggio, voci Kore, codifica, sottotitoli, dispensa."
+  },
+  {
+   "quando": "15/11 02:36",
+   "testo": "attende voci Kore (quota Google); intanto montaggio con segnaposto"
+  },
+  {
+   "quando": "15/11 03:10",
+   "testo": "attende voci Kore. Fatto: video docente+slide, 14 schede titolo/quiz, 8 mappe (7 argomenti + finale, durata stimata). Manca: schemi ripasso, montaggio, compiti nel video, sottotitoli, dispensa, codifica."
+  },
+  {
+   "quando": "20/11 15:57",
+   "testo": "ripresa 20/11: presa da claude/relaxed-newton-yl5foc"
+  }
+ ],
+ "materia": "Moda · Tecnologie III · chat TEC",
+ "lezione": "Lezione 6",
+ "aggiornato": "2026-11-20 15:57:41"
+}
