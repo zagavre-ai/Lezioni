@@ -2,7 +2,7 @@
  "tag": "moda-tecnologie-III-lez06",
  "parti": {
   "1": {
-   "stato": "IN_MONTAGGIO",
+   "stato": "IN_REVISIONE",
    "voci": "segnaposto"
   }
  },
@@ -30,9 +30,13 @@
   {
    "quando": "15/11 03:10",
    "testo": "attende voci Kore. Fatto: video docente+slide, 14 schede titolo/quiz, 8 mappe (7 argomenti + finale, durata stimata). Manca: schemi ripasso, montaggio, compiti nel video, sottotitoli, dispensa, codifica."
+  },
+  {
+   "quando": "20/11 15:57",
+   "testo": "ripresa 20/11: presa da claude/relaxed-newton-yl5foc"
   }
  ],
  "materia": "Moda · Tecnologie III · chat TEC",
  "lezione": "Lezione 6",
- "aggiornato": "2026-11-15 03:10:42"
+ "aggiornato": "2026-11-20 15:57:41"
 }
