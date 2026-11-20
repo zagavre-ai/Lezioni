@@ -1,0 +1,192 @@
+{
+ "materia": "Storia dell'Arte V",
+ "titolo": "Il Neoclassicismo · Parte 1",
+ "durata_s": 2355.6,
+ "argomenti": [
+  {
+   "n": 1,
+   "titolo": "Le origini: Grand Tour, musei e moda",
+   "inizio_s": 355.267,
+   "quiz_s": 1172.033
+  },
+  {
+   "n": 2,
+   "titolo": "Architettura: Piranesi e i visionari francesi",
+   "inizio_s": 1177.033,
+   "quiz_s": 1698.0
+  },
+  {
+   "n": 3,
+   "titolo": "L'architettura in Italia e in Europa",
+   "inizio_s": 1703.0,
+   "quiz_s": 2350.567
+  }
+ ],
+ "quiz": {
+  "Q1": {
+   "title": "Quiz 1 · Le origini: Grand Tour, musei e moda",
+   "items": [
+    {
+     "p": "Da quale città nasce e si irradia il Neoclassicismo?",
+     "a": "Roma",
+     "w": [
+      "Parigi",
+      "Londra",
+      "Firenze"
+     ],
+     "ref": "Il movimento nasce e si irradia da Roma, diffondendosi in tutta Europa."
+    },
+    {
+     "p": "Che cos'era il Grand Tour?",
+     "a": "Un viaggio formativo in Italia di giovani aristocratici, artisti e architetti europei",
+     "w": [
+      "Una mostra itinerante di opere greche e romane",
+      "Una scuola d'arte fondata a Parigi",
+      "Un concorso di architettura bandito dal re di Francia"
+     ],
+     "ref": "Il Grand Tour è il viaggio formativo essenziale in Italia per l'educazione di giovani aristocratici, artisti e architetti europei."
+    },
+    {
+     "p": "Quali scavi alimentano l'amore per l'antichità classica?",
+     "a": "Ercolano e Pompei",
+     "w": [
+      "Atene e Delfi",
+      "Paestum e Agrigento",
+      "Ostia e Tivoli"
+     ],
+     "ref": "Gli scavi di Ercolano e Pompei alimentano l'amore e l'ispirazione per l'antichità classica."
+    },
+    {
+     "p": "Quali musei nascono in quest'epoca, aprendo le collezioni al pubblico?",
+     "a": "Il British Museum a Londra e il Louvre a Parigi",
+     "w": [
+      "Gli Uffizi a Firenze e il Prado a Madrid",
+      "La Galleria Borghese a Roma e il Kunsthaus a Zurigo",
+      "I Musei Vaticani e la Pinacoteca di Brera"
+     ],
+     "ref": "Nascono istituzioni celebri come il British Museum a Londra e il Louvre a Parigi."
+    },
+    {
+     "p": "Come si chiama lo stile neoclassico dell'arredamento?",
+     "a": "Stile impero",
+     "w": [
+      "Stile rococò",
+      "Stile Adam",
+      "Stile gotico"
+     ],
+     "ref": "Il gusto per l'antico invade la vita quotidiana, influenzando l'arredamento (stile impero) e la moda."
+    }
+   ]
+  },
+  "Q2": {
+   "title": "Quiz 2 · Architettura: Piranesi e i visionari francesi",
+   "items": [
+    {
+     "p": "Quali forme privilegia l'architettura neoclassica?",
+     "a": "Forme geometriche semplici e piante simmetriche",
+     "w": [
+      "Forme curve e decorazioni sovrabbondanti",
+      "Archi acuti e vetrate colorate",
+      "Piante irregolari e asimmetriche"
+     ],
+     "ref": "L'architettura neoclassica privilegia forme geometriche semplici, piante simmetriche e gli elementi degli ordini classici."
+    },
+    {
+     "p": "Con quali opere Piranesi diffonde il fascino delle rovine classiche?",
+     "a": "Le Vedute fantastiche di Roma e le Prigioni immaginarie",
+     "w": [
+      "I disegni del Pantheon di Parigi",
+      "I progetti per il Teatro alla Scala",
+      "Le statue della Galleria Borghese"
+     ],
+     "ref": "Piranesi diffonde il fascino delle rovine classiche con le sue Vedute fantastiche di Roma e le scenografie delle Prigioni immaginarie."
+    },
+    {
+     "p": "Quale forma geometrica caratterizza il Cenotafio di Newton di Boullée?",
+     "a": "La sfera",
+     "w": [
+      "La piramide",
+      "Il cubo",
+      "Il cilindro"
+     ],
+     "ref": "Boullée propone un'architettura monumentale basata su pure forme geometriche, come la sfera."
+    },
+    {
+     "p": "Il Cenotafio di Newton (1784) fu realizzato?",
+     "a": "No, è un progetto non realizzato",
+     "w": [
+      "Sì, a Parigi",
+      "Sì, a Londra",
+      "Sì, ma fu distrutto durante la Rivoluzione"
+     ],
+     "ref": "Étienne-Louis Boullée, Cenotafio di Newton, 1784, progetto non realizzato."
+    },
+    {
+     "p": "Chi progettò la chiesa di Sainte-Geneviève (Pantheon) a Parigi?",
+     "a": "Soufflot",
+     "w": [
+      "Boullée",
+      "Piermarini",
+      "Robert Adam"
+     ],
+     "ref": "La Chiesa di Sainte-Geneviève (Pantheon) a Parigi, progettata da Soufflot come cantiere-laboratorio sperimentale."
+    }
+   ]
+  },
+  "Q3": {
+   "title": "Quiz 3 · L'architettura in Italia e in Europa",
+   "items": [
+    {
+     "p": "Chi progetta il Teatro alla Scala di Milano?",
+     "a": "Giuseppe Piermarini",
+     "w": [
+      "Antonio Canova",
+      "Leo von Klenze",
+      "Carl Gotthard Langhans"
+     ],
+     "ref": "Giuseppe Piermarini progetta il Teatro alla Scala di Milano, unendo funzionalità urbana e sobrietà neoclassica."
+    },
+    {
+     "p": "Che cosa riscopre il Neopalladianesimo inglese?",
+     "a": "L'architettura di Andrea Palladio",
+     "w": [
+      "Le cattedrali gotiche",
+      "L'architettura egizia",
+      "Il barocco romano"
+     ],
+     "ref": "In Inghilterra si passa dal Neopalladianesimo (riscoperta di Andrea Palladio) al Neogreco e allo stile Adam."
+    },
+    {
+     "p": "Quale architetto progetta Kedleston Hall, nel Derbyshire?",
+     "a": "Robert Adam",
+     "w": [
+      "Soufflot",
+      "Giuseppe Piermarini",
+      "Étienne-Louis Boullée"
+     ],
+     "ref": "Robert Adam, Kedleston Hall, 1760-65, Derbyshire (Gran Bretagna)."
+    },
+    {
+     "p": "A quali modelli si ispira la Porta di Brandeburgo a Berlino?",
+     "a": "Ai modelli ateniesi",
+     "w": [
+      "Ai castelli medievali tedeschi",
+      "Alle chiese barocche",
+      "Ai palazzi rinascimentali di Firenze"
+     ],
+     "ref": "A Berlino viene costruito il Propileo (Porta di Brandeburgo) ispirato ai modelli ateniesi."
+    },
+    {
+     "p": "Dove sorge il tempio del Walhalla?",
+     "a": "A Ratisbona",
+     "w": [
+      "A Berlino",
+      "A Vienna",
+      "A Monaco"
+     ],
+     "ref": "A Ratisbona sorge il tempio del Walhalla (Leo von Klenze, 1830-42)."
+    }
+   ]
+  }
+ }
+}

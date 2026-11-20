@@ -1,0 +1,149 @@
+[
+ {
+  "nome": "SIGLA",
+  "inizio": 0,
+  "durata": 15.0,
+  "old": null
+ },
+ {
+  "nome": "COVER",
+  "inizio": 15.0,
+  "durata": 30.733,
+  "old": null
+ },
+ {
+  "nome": "D0",
+  "inizio": 45.733,
+  "durata": 309.533,
+  "old": [
+   48.95,
+   358.5
+  ]
+ },
+ {
+  "nome": "T1",
+  "inizio": 355.267,
+  "durata": 4.0,
+  "old": null
+ },
+ {
+  "nome": "D1",
+  "inizio": 359.267,
+  "durata": 693.5,
+  "old": [
+   358.5,
+   1052.0
+  ]
+ },
+ {
+  "nome": "M1",
+  "inizio": 1052.767,
+  "durata": 29.633,
+  "old": null
+ },
+ {
+  "nome": "P1",
+  "inizio": 1082.4,
+  "durata": 13.5,
+  "old": null
+ },
+ {
+  "nome": "S1",
+  "inizio": 1095.9,
+  "durata": 76.133,
+  "old": [
+   1052.0,
+   1128.117
+  ]
+ },
+ {
+  "nome": "Q1",
+  "inizio": 1172.033,
+  "durata": 5.0,
+  "old": null
+ },
+ {
+  "nome": "T2",
+  "inizio": 1177.033,
+  "durata": 4.0,
+  "old": null
+ },
+ {
+  "nome": "D2",
+  "inizio": 1181.033,
+  "durata": 416.5,
+  "old": [
+   1135.9869999999999,
+   1552.5
+  ]
+ },
+ {
+  "nome": "M2",
+  "inizio": 1597.533,
+  "durata": 30.867,
+  "old": null
+ },
+ {
+  "nome": "P2",
+  "inizio": 1628.4,
+  "durata": 9.333,
+  "old": null
+ },
+ {
+  "nome": "S2",
+  "inizio": 1637.733,
+  "durata": 60.267,
+  "old": [
+   1552.5,
+   1612.75
+  ]
+ },
+ {
+  "nome": "Q2",
+  "inizio": 1698.0,
+  "durata": 5.0,
+  "old": null
+ },
+ {
+  "nome": "T3",
+  "inizio": 1703.0,
+  "durata": 4.0,
+  "old": null
+ },
+ {
+  "nome": "D3",
+  "inizio": 1707.0,
+  "durata": 560.367,
+  "old": [
+   1620.62,
+   2181.0
+  ]
+ },
+ {
+  "nome": "M3",
+  "inizio": 2267.367,
+  "durata": 23.033,
+  "old": null
+ },
+ {
+  "nome": "P3",
+  "inizio": 2290.4,
+  "durata": 8.7,
+  "old": null
+ },
+ {
+  "nome": "S3",
+  "inizio": 2299.1,
+  "durata": 51.467,
+  "old": [
+   2181.0,
+   2232.4829999999997
+  ]
+ },
+ {
+  "nome": "Q3",
+  "inizio": 2350.567,
+  "durata": 5.0,
+  "old": null
+ }
+]

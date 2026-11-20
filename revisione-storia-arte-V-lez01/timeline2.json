@@ -1,0 +1,161 @@
+[
+ {
+  "nome": "SIGLA",
+  "inizio": 0,
+  "durata": 15.0,
+  "old": null
+ },
+ {
+  "nome": "T4",
+  "inizio": 15.0,
+  "durata": 4.0,
+  "old": null
+ },
+ {
+  "nome": "D4",
+  "inizio": 19.0,
+  "durata": 788.633,
+  "old": [
+   2240.353,
+   3029.0
+  ]
+ },
+ {
+  "nome": "M4",
+  "inizio": 807.633,
+  "durata": 30.4,
+  "old": null
+ },
+ {
+  "nome": "P4",
+  "inizio": 838.033,
+  "durata": 7.433,
+  "old": null
+ },
+ {
+  "nome": "S4",
+  "inizio": 845.467,
+  "durata": 63.467,
+  "old": [
+   3029.0,
+   3092.4829999999997
+  ]
+ },
+ {
+  "nome": "Q4",
+  "inizio": 908.933,
+  "durata": 5.0,
+  "old": null
+ },
+ {
+  "nome": "T5",
+  "inizio": 913.933,
+  "durata": 4.0,
+  "old": null
+ },
+ {
+  "nome": "D5",
+  "inizio": 917.933,
+  "durata": 683.133,
+  "old": [
+   3100.353,
+   3783.5
+  ]
+ },
+ {
+  "nome": "M5",
+  "inizio": 1601.067,
+  "durata": 27.133,
+  "old": null
+ },
+ {
+  "nome": "P5",
+  "inizio": 1628.2,
+  "durata": 6.0,
+  "old": null
+ },
+ {
+  "nome": "S5",
+  "inizio": 1634.2,
+  "durata": 53.533,
+  "old": [
+   3783.5,
+   3837.0499999999997
+  ]
+ },
+ {
+  "nome": "Q5",
+  "inizio": 1687.733,
+  "durata": 5.0,
+  "old": null
+ },
+ {
+  "nome": "T6",
+  "inizio": 1692.733,
+  "durata": 4.0,
+  "old": null
+ },
+ {
+  "nome": "D6",
+  "inizio": 1696.733,
+  "durata": 317.067,
+  "old": [
+   3844.92,
+   4162.0
+  ]
+ },
+ {
+  "nome": "M6",
+  "inizio": 2013.8,
+  "durata": 22.4,
+  "old": null
+ },
+ {
+  "nome": "P6",
+  "inizio": 2036.2,
+  "durata": 8.367,
+  "old": null
+ },
+ {
+  "nome": "S6",
+  "inizio": 2044.567,
+  "durata": 43.533,
+  "old": [
+   4162.0,
+   4205.517000000001
+  ]
+ },
+ {
+  "nome": "Q6",
+  "inizio": 2088.1,
+  "durata": 5.0,
+  "old": null
+ },
+ {
+  "nome": "MF",
+  "inizio": 2093.1,
+  "durata": 27.833,
+  "old": null
+ },
+ {
+  "nome": "GL",
+  "inizio": 2120.933,
+  "durata": 64.1,
+  "old": [
+   4209.787,
+   4273.9
+  ]
+ },
+ {
+  "nome": "RIEPILOGO",
+  "inizio": 2185.033,
+  "durata": 69.133,
+  "old": null
+ },
+ {
+  "nome": "FINALE",
+  "inizio": 2254.167,
+  "durata": 5.0,
+  "old": null
+ }
+]
