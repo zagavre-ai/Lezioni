@@ -1,0 +1,1031 @@
+{
+ "durata": 4274.0,
+ "taglio_parti": 2129.7,
+ "argomenti": {
+  "1": "Un Paese da ricostruire",
+  "2": "La nascita della Repubblica",
+  "3": "La Costituzione",
+  "4": "Il Centrismo (1948-1953)",
+  "5": "Il miracolo economico",
+  "6": "Il Centrosinistra (1953-1963)"
+ },
+ "slide": [
+  {
+   "id": "COP",
+   "tipo": "copertina",
+   "arg": 0,
+   "a": 0.0,
+   "b": 113.0,
+   "nota": "introduzione sulla copertina; a 113 s (inizio di frase) la slide «Di cosa parliamo»",
+   "parte": 1
+  },
+  {
+   "id": "AGE",
+   "tipo": "agenda",
+   "arg": 0,
+   "a": 113.0,
+   "b": 187.7,
+   "titolo": "Di cosa parliamo",
+   "voci": [
+    "Un Paese da ricostruire",
+    "La nascita della Repubblica",
+    "La Costituzione",
+    "Il Centrismo (1948-1953)",
+    "Il miracolo economico",
+    "Il Centrosinistra (1953-1963)"
+   ],
+   "parte": 1
+  },
+  {
+   "id": "1.1",
+   "tipo": "card",
+   "arg": 1,
+   "titolo": "Un Paese materialmente devastato",
+   "cards": [
+    {
+     "a": 187.7,
+     "b": 223.7,
+     "titolo": "Una profonda trasformazione",
+     "kw": "Ricostruzione",
+     "testo": "All'indomani della seconda guerra mondiale l'Italia affronta una profonda trasformazione: gravissime difficoltà economiche e sociali, ma anche una straordinaria spinta verso la ricostruzione democratica."
+    },
+    {
+     "a": 223.7,
+     "b": 296.6,
+     "titolo": "I bombardamenti",
+     "kw": "Bombardamenti",
+     "testo": "Il Paese esce dal conflitto devastato: fino ad aprile-maggio 1945 il Nord resta in mano ai nazifascisti e i bombardamenti continuano proprio dove si concentrano le industrie; strade e ferrovie sono interrotte."
+    },
+    {
+     "a": 296.6,
+     "b": 348.7,
+     "titolo": "Le rappresaglie naziste",
+     "kw": "Rappresaglie",
+     "testo": "Ai bombardamenti alleati si aggiungono le rappresaglie naziste, con le decimazioni (dieci italiani fucilati per ogni tedesco morto); i tedeschi in fuga fanno saltare i ponti per rallentare i nemici."
+    }
+   ],
+   "a": 187.7,
+   "b": 348.7,
+   "parte": 1
+  },
+  {
+   "id": "1.2",
+   "tipo": "card",
+   "arg": 1,
+   "titolo": "Un'economia in ginocchio",
+   "cards": [
+    {
+     "a": 348.7,
+     "b": 391.2,
+     "titolo": "Da riconvertire e ricostruire",
+     "kw": "Industrie",
+     "testo": "Reti di trasporto saltate e impianti industriali messi a dura prova: bisogna riconvertire l'apparato bellico in produzione civile. Le stime parlano di circa il 20% delle industrie distrutte."
+    },
+    {
+     "a": 391.2,
+     "b": 462.9,
+     "titolo": "Inflazione e mercato nero",
+     "kw": "Mercato nero",
+     "testo": "Inflazione galoppante e scarsità di beni alimentari: il mercato nero fa da padrone, con prodotti a prezzi altissimi. L'abolizione del prezzo politico del pane fa crescere la borsa nera e la povertà delle famiglie."
+    },
+    {
+     "a": 462.9,
+     "b": 484.8,
+     "titolo": "Ricostruire senza sapere come",
+     "kw": "Sopravvivere",
+     "testo": "Finita la guerra ognuno deve cavarsela da solo. Oggi sappiamo che arriverà il Piano Marshall, ma all'epoca la maggior parte delle persone non sapeva nemmeno se il giorno dopo avrebbe mangiato."
+    }
+   ],
+   "a": 348.7,
+   "b": 484.8,
+   "parte": 1
+  },
+  {
+   "id": "1.3",
+   "tipo": "card",
+   "arg": 1,
+   "titolo": "Un clima di violenza: il Sud",
+   "cards": [
+    {
+     "a": 484.8,
+     "b": 531.6,
+     "titolo": "Le lotte contadine",
+     "kw": "Latifondi",
+     "testo": "Nel Mezzogiorno le tensioni sono esasperate dalle lotte contadine per la redistribuzione delle terre dei latifondisti: «dateci le terre». Molte rivolte hanno ispirazione social-comunista e la forza pubblica le reprime."
+    },
+    {
+     "a": 531.6,
+     "b": 587.9,
+     "titolo": "Mafia e Stato debole",
+     "kw": "Mafia",
+     "testo": "In parte queste lotte sono viziate da elementi mafiosi infiltrati, e la mafia approfitta anche del mercato nero. Le istituzioni locali sono deboli e il Paese è allo sbando, anche al Sud, dove la guerra era finita già nel 1943."
+    }
+   ],
+   "a": 484.8,
+   "b": 587.9,
+   "parte": 1
+  },
+  {
+   "id": "1.4",
+   "tipo": "card",
+   "arg": 1,
+   "titolo": "Un clima di violenza: il Centro-Nord",
+   "cards": [
+    {
+     "a": 587.9,
+     "b": 627.4,
+     "titolo": "Regolamenti di conti",
+     "kw": "Guerra civile",
+     "testo": "Nel Centro-Nord, ancora più in guerra civile, gli antifascisti si vendicano sui fascisti: ex federali, vecchi podestà e miliziani vengono cercati nelle loro case e in molti casi uccisi."
+    },
+    {
+     "a": 627.4,
+     "b": 664.6,
+     "titolo": "Un Paese sgomento",
+     "kw": "Strascichi",
+     "testo": "Sono gli ultimi strascichi di un'esperienza, quella fascista, nata con la violenza e poi perduta su quasi tutti i fronti: l'Italia resta sgomenta, arrabbiata e materialmente più povera di prima."
+    }
+   ],
+   "a": 587.9,
+   "b": 664.6,
+   "parte": 1
+  },
+  {
+   "id": "2.1",
+   "tipo": "card",
+   "arg": 2,
+   "titolo": "La pacificazione nazionale",
+   "cards": [
+    {
+     "a": 664.6,
+     "b": 716.7,
+     "titolo": "Un governo di unità nazionale",
+     "kw": "Pacificazione",
+     "testo": "Urge la pacificazione nazionale, perseguita da Togliatti, ministro di Giustizia nel governo De Gasperi: un governo di unità nazionale con tutti i partiti antifascisti, tranne i repubblicani, che non possono governare sotto un re."
+    },
+    {
+     "a": 716.7,
+     "b": 753.8,
+     "titolo": "L'amnistia",
+     "kw": "Amnistia",
+     "testo": "Togliatti e il governo promuovono un'ampia amnistia per i reati politici commessi durante la guerra: per questo in Italia non ci sarà un processo di Norimberga o di Tokyo."
+    },
+    {
+     "a": 753.8,
+     "b": 790.5,
+     "titolo": "Un perdono necessario",
+     "kw": "Perdono",
+     "testo": "Sono le stranezze italiane, ma anche una necessità psicologica: superare in ogni modo quello che c'è stato e costruire un Paese democratico migliore di prima, anche a costo di perdonare i fascisti."
+    }
+   ],
+   "a": 664.6,
+   "b": 790.5,
+   "parte": 1
+  },
+  {
+   "id": "2.2",
+   "tipo": "card",
+   "arg": 2,
+   "titolo": "Un'amnistia per tutti",
+   "cards": [
+    {
+     "a": 790.5,
+     "b": 817.4,
+     "titolo": "Per fascisti e partigiani",
+     "kw": "Crimini di guerra",
+     "testo": "L'amnistia copre tutte le violenze della guerra, quelle dei fascisti ma anche dei partigiani, che avevano ucciso dei fascisti: erano comunque italiani."
+    },
+    {
+     "a": 817.4,
+     "b": 848.0,
+     "titolo": "L'unico modo per pacificare",
+     "kw": "Pacificazione",
+     "testo": "Il governo De Gasperi, abbastanza moderato, pensa che l'unico modo per pacificare il Paese sia un'amnistia generalizzata, per fascisti e antifascisti: per questo l'Italia non fa nessun processo come quelli di Norimberga e di Tokyo."
+    }
+   ],
+   "a": 790.5,
+   "b": 848.0,
+   "parte": 1
+  },
+  {
+   "id": "2.I1",
+   "tipo": "immagine",
+   "arg": 2,
+   "a": 848.0,
+   "b": 880.9,
+   "didascalia": "Alcide De Gasperi, ultimo presidente del Consiglio del Regno d'Italia e primo della Repubblica Italiana",
+   "immagine": "De Gasperi",
+   "parte": 1
+  },
+  {
+   "id": "2.3",
+   "tipo": "card",
+   "arg": 2,
+   "titolo": "Il panorama politico: il CLN e i tre partiti",
+   "cards": [
+    {
+     "a": 880.9,
+     "b": 954.0,
+     "titolo": "Il Comitato di Liberazione Nazionale",
+     "kw": "CLN",
+     "testo": "Il CLN riunisce le forze antifasciste disposte a collaborare con il re e con gli anglo-americani. Nel Sud già libero, dove si rifugia il re, i partiti sono di nuovo legali e i leader accorrono, Togliatti dall'Unione Sovietica."
+    },
+    {
+     "a": 954.0,
+     "b": 1018.5,
+     "titolo": "I tre grandi partiti",
+     "kw": "DC · PSI · PCI",
+     "testo": "I più importanti sono la Democrazia Cristiana di De Gasperi (erede del Partito popolare), il PSI di Pietro Nenni e il PCI di Palmiro Togliatti: saranno i più votati e scriveranno in buona parte la Costituzione."
+    }
+   ],
+   "a": 880.9,
+   "b": 1018.5,
+   "parte": 1
+  },
+  {
+   "id": "2.4",
+   "tipo": "card",
+   "arg": 2,
+   "titolo": "Gli altri partiti e il governo De Gasperi",
+   "cards": [
+    {
+     "a": 1018.5,
+     "b": 1061.3,
+     "titolo": "Le forze minori",
+     "kw": "Altri partiti",
+     "testo": "Nel CLN ci sono anche il Partito d'Azione, che poi si dissolverà a vantaggio dei socialisti, e i liberali, pochi. I repubblicani restano fuori: non vogliono avere a che fare con il re che aveva consegnato il Paese a Mussolini."
+    },
+    {
+     "a": 1061.3,
+     "b": 1101.7,
+     "titolo": "Verso il referendum",
+     "kw": "Governo De Gasperi",
+     "testo": "Da dicembre 1945 il governo De Gasperi guida il Paese con democristiani, socialisti e comunisti, fino a giugno 1946: poi ci sarà il famoso referendum sulla forma politica dello Stato."
+    }
+   ],
+   "a": 1018.5,
+   "b": 1101.7,
+   "parte": 1
+  },
+  {
+   "id": "2.5",
+   "tipo": "card",
+   "arg": 2,
+   "titolo": "I primi governi: da Parri a De Gasperi",
+   "cards": [
+    {
+     "a": 1101.7,
+     "b": 1156.4,
+     "titolo": "Il governo Parri",
+     "kw": "Parri",
+     "testo": "Roma è stata liberata nel giugno 1944. Finita la guerra, il governo Bonomi si dimette e nel giugno 1945 inizia il primo governo di unità nazionale del dopoguerra, guidato dal partigiano Ferruccio Parri."
+    },
+    {
+     "a": 1156.4,
+     "b": 1235.5,
+     "titolo": "Un'epurazione impossibile",
+     "kw": "Epurazione",
+     "testo": "Parri vorrebbe una sorta di Norimberga per i fascisti, ma la DC, la Chiesa e i liberali frenano: punire tutti significherebbe azzerare la classe dirigente dello Stato, e come si farebbe a mandarlo avanti?"
+    },
+    {
+     "a": 1235.5,
+     "b": 1259.6,
+     "titolo": "Si tollera e si perdona",
+     "kw": "Amnistia",
+     "testo": "Si tollerò e si fece l'amnistia: Parri, troppo radicale, lascia il posto a un governo De Gasperi più moderato, che lavorerà all'amnistia."
+    }
+   ],
+   "a": 1101.7,
+   "b": 1259.6,
+   "parte": 1
+  },
+  {
+   "id": "2.6",
+   "tipo": "card",
+   "arg": 2,
+   "titolo": "I partiti di massa",
+   "cards": [
+    {
+     "a": 1259.6,
+     "b": 1311.4,
+     "titolo": "Due anime: moderati e rivoluzionari",
+     "kw": "Partiti di massa",
+     "testo": "Si affermano i grandi partiti di massa: da una parte i moderati democristiani, dall'altra i rivoluzionari social-comunisti. Repubblicani e liberali pesano poco, perché legati al mondo prefascista che non aveva fermato Mussolini."
+    },
+    {
+     "a": 1311.4,
+     "b": 1362.1,
+     "titolo": "DC, PCI e PSI",
+     "kw": "De Gasperi",
+     "testo": "La DC di De Gasperi, trentino già deputato nell'impero austro-ungarico, è sostenuta dalla Chiesa e dai moderati. Il PCI di Togliatti e il PSI di Nenni riempiono le piazze con centinaia di migliaia di persone."
+    },
+    {
+     "a": 1362.1,
+     "b": 1411.9,
+     "titolo": "Formazioni minori e monarchici",
+     "kw": "Monarchici",
+     "testo": "Accanto ai partiti di massa ci sono il Partito d'Azione, i liberali, che sosterranno sempre la DC, e i monarchici, che vorrebbero mantenere la monarchia mentre lo Stato si avvia a trasformarsi."
+    }
+   ],
+   "a": 1259.6,
+   "b": 1411.9,
+   "parte": 1
+  },
+  {
+   "id": "2.7",
+   "tipo": "card",
+   "arg": 2,
+   "titolo": "L'Uomo Qualunque e il Movimento sociale italiano",
+   "cards": [
+    {
+     "a": 1411.9,
+     "b": 1486.0,
+     "titolo": "L'Uomo Qualunque",
+     "kw": "Qualunquismo",
+     "testo": "Nasce una destra qualunquista, né fascista né moderata, antipolitica e antistatale: «non mi interessa nulla, mi occupo solo del mio, lo Stato è cattivo perché ci spreme di tasse». Il movimento, antisistema, si scioglie pochi anni dopo."
+    },
+    {
+     "a": 1486.0,
+     "b": 1526.2,
+     "titolo": "Il Movimento sociale italiano",
+     "kw": "MSI",
+     "testo": "C'è anche un partito fascista, che non può chiamarsi così: il Movimento sociale italiano, che si richiama alla Repubblica Sociale di Mussolini ed è fondato da un ex federale, un ex governatore provinciale fascista."
+    }
+   ],
+   "a": 1411.9,
+   "b": 1526.2,
+   "parte": 1
+  },
+  {
+   "id": "2.8",
+   "tipo": "card",
+   "arg": 2,
+   "titolo": "Il MSI: un partito parafascista",
+   "cards": [
+    {
+     "a": 1526.2,
+     "b": 1570.1,
+     "titolo": "Violenza accantonata, classe dirigente fascista",
+     "kw": "Neofascismo",
+     "testo": "Per concorrere alle elezioni il MSI rinuncia alla componente di violenza, ma i suoi dirigenti e candidati appartenevano tutti al fascismo; dicono di essersi riconvertiti alla democrazia e non faranno campagne elettorali minacciando violenze."
+    },
+    {
+     "a": 1570.1,
+     "b": 1630.8,
+     "titolo": "Parafascista, non ancora post-fascista",
+     "kw": "Parafascista",
+     "testo": "Per storici e politologi è un partito «parafascista», non ancora post-fascista. Col tempo supererà molti aspetti del fascismo e il nucleo di quelle idee confluirà in formazioni successive."
+    }
+   ],
+   "a": 1526.2,
+   "b": 1630.8,
+   "parte": 1
+  },
+  {
+   "id": "2.9",
+   "tipo": "card",
+   "arg": 2,
+   "titolo": "Il referendum del 2 giugno 1946",
+   "cards": [
+    {
+     "a": 1630.8,
+     "b": 1684.3,
+     "titolo": "La svolta istituzionale",
+     "kw": "Referendum",
+     "testo": "Il 2 giugno 1946 il referendum istituzionale: per la prima volta votano le donne. Il voto, e poi anche la possibilità di essere elette, era già stato concesso nel 1945 dal governo Bonomi, ancora sotto la monarchia."
+    },
+    {
+     "a": 1684.3,
+     "b": 1707.8,
+     "titolo": "12 milioni contro 10",
+     "kw": "Repubblica o Monarchia",
+     "testo": "Circa 12 milioni di voti vanno alla Repubblica e circa 10 milioni alla Monarchia. I monarchici contestano il risultato, ma i documenti storici confermano la vittoria repubblicana."
+    },
+    {
+     "a": 1707.8,
+     "b": 1757.2,
+     "titolo": "Un voto antimonarchico",
+     "kw": "Perché la Repubblica",
+     "testo": "La Repubblica trionfa al Nord e al Centro: in Toscana ed Emilia-Romagna socialismo e comunismo erano fortissimi, al Nord si ricordava la guerra partigiana. Fu un voto antimonarchico, perché la monarchia era legata al fascismo."
+    }
+   ],
+   "a": 1630.8,
+   "b": 1757.2,
+   "parte": 1
+  },
+  {
+   "id": "2.10",
+   "tipo": "card",
+   "arg": 2,
+   "titolo": "Nasce la Repubblica",
+   "cards": [
+    {
+     "a": 1757.2,
+     "b": 1805.0,
+     "titolo": "Umberto II, re per un mese",
+     "kw": "Umberto II",
+     "testo": "La monarchia prende 10 milioni di voti da moderati, ex fascisti e nobili. Vittorio Emanuele III aveva abdicato a favore del figlio Umberto II, re per un solo mese, che dopo il voto parte per l'esilio in Portogallo."
+    },
+    {
+     "a": 1805.0,
+     "b": 1839.6,
+     "titolo": "Nasce la Repubblica Italiana",
+     "kw": "Costituente",
+     "testo": "Con lo stesso voto si eleggono i rappresentanti dell'Assemblea costituente: se avesse vinto la monarchia, la nuova Costituzione sarebbe stata democratica ma monarchica; ha vinto la Repubblica, quindi sarà democratica e repubblicana."
+    }
+   ],
+   "a": 1757.2,
+   "b": 1839.6,
+   "parte": 1
+  },
+  {
+   "id": "3.1",
+   "tipo": "card",
+   "arg": 3,
+   "titolo": "L'Assemblea costituente e le madri costituenti",
+   "cards": [
+    {
+     "a": 1839.6,
+     "b": 1884.6,
+     "titolo": "556 deputati alla Costituente",
+     "kw": "Assemblea costituente",
+     "testo": "Vengono eletti 556 deputati costituenti. Il primo partito è la DC, con circa il 35% dei seggi, che raccoglie voti di repubblicani e di moderati che non possono votare social-comunista: una forza a metà tra due anime."
+    },
+    {
+     "a": 1884.6,
+     "b": 1938.0,
+     "titolo": "Le madri costituenti",
+     "kw": "21 donne",
+     "testo": "Tra i 556 costituenti emergono 21 donne elette, le prime nella storia dell'Italia unita, ricordate come madri costituenti: democristiane, comuniste, socialiste, qualunquiste, un gruppo trasversale a tutti i partiti."
+    },
+    {
+     "a": 1938.0,
+     "b": 1984.3,
+     "titolo": "Uguaglianza e famiglia",
+     "kw": "Uguaglianza di genere",
+     "testo": "Le costituenti garantiscono l'uguaglianza di genere davanti alla legge e la tutela della famiglia, voluta dai cattolici. Ma nelle leggi ordinarie il capo famiglia resta il maschio: ci vorranno decenni per superare il patriarcato."
+    }
+   ],
+   "a": 1839.6,
+   "b": 1984.3,
+   "parte": 1
+  },
+  {
+   "id": "3.2",
+   "tipo": "card",
+   "arg": 3,
+   "titolo": "La Costituzione repubblicana",
+   "cards": [
+    {
+     "a": 1984.3,
+     "b": 2030.4,
+     "titolo": "La stesura e l'entrata in vigore",
+     "kw": "1° gennaio 1948",
+     "testo": "La Costituzione è scritta nel corso del 1947, non senza tensioni (i comunisti vorrebbero una sola camera). Firmata dal presidente provvisorio Enrico De Nicola, entra in vigore il 1° gennaio 1948, sotto il governo De Gasperi."
+    },
+    {
+     "a": 2030.4,
+     "b": 2076.7,
+     "titolo": "Una struttura simile allo Statuto",
+     "kw": "Tre poteri",
+     "testo": "Ricorda lo Statuto del Regno: il Parlamento ha due camere dotate di potere legislativo, e ora anche il Senato è elettivo; l'esecutivo appartiene al governo e la magistratura ha il potere giudiziario."
+    },
+    {
+     "a": 2076.7,
+     "b": 2129.7,
+     "titolo": "La fiducia al Parlamento",
+     "kw": "Fiducia",
+     "testo": "Nel Regno il governo era scelto dal re e restava finché il re voleva; nella Repubblica deve ottenere la fiducia del Parlamento, espressione del voto popolare. Sciolta la Costituente, si vota per la prima legislatura, di cinque anni."
+    }
+   ],
+   "a": 1984.3,
+   "b": 2129.7,
+   "parte": 1
+  },
+  {
+   "id": "4.1",
+   "tipo": "card",
+   "arg": 4,
+   "titolo": "Il Centrismo (1948-1953)",
+   "cards": [
+    {
+     "a": 2129.7,
+     "b": 2157.6,
+     "titolo": "Perché «centrismo»",
+     "kw": "Centro",
+     "testo": "Il centrismo è la fase in cui la forza centrale è la Democrazia Cristiana: né di destra nazionalista né di sinistra social-comunista, ma un centro moderato e confessionale cattolico."
+    },
+    {
+     "a": 2157.6,
+     "b": 2208.0,
+     "titolo": "Anticomunismo e filoamericanismo",
+     "kw": "Filoamericanismo",
+     "testo": "È una stagione di legislazione sociale ma anche cattolica, di anticomunismo e di buoni rapporti con gli Stati Uniti, perché è da lì che arrivano i soldi."
+    }
+   ],
+   "a": 2129.7,
+   "b": 2208.0,
+   "parte": 2
+  },
+  {
+   "id": "4.2",
+   "tipo": "card",
+   "arg": 4,
+   "titolo": "La conferenza di pace di Parigi",
+   "cards": [
+    {
+     "a": 2208.0,
+     "b": 2294.1,
+     "titolo": "I trattati di pace",
+     "kw": "Conferenza di Parigi",
+     "testo": "La guerra non è ancora finita formalmente: alla conferenza di pace di Parigi si firmano i trattati e si fissano i confini. De Gasperi, che sotto Mussolini si era opposto, ne sente comunque tutta la responsabilità e cerca il perdono del mondo."
+    },
+    {
+     "a": 2294.1,
+     "b": 2336.2,
+     "titolo": "Il perdono del mondo",
+     "kw": "Cambio di fronte",
+     "testo": "L'Italia lo ottiene perché il re e la classe dirigente avevano cacciato Mussolini e cambiato fronte con gli anglo-americani: così non viene divisa come la Germania né occupata per anni come il Giappone."
+    },
+    {
+     "a": 2336.2,
+     "b": 2371.4,
+     "titolo": "Nell'orbita americana",
+     "kw": "NATO",
+     "testo": "L'Italia entrerà nell'orbita americana con la NATO, anche se la sua classe dirigente (magistrati, dipendenti pubblici, docenti) è ancora in parte parafascista: debole economicamente, sarà un partner essenziale."
+    }
+   ],
+   "immagine": "confine",
+   "inserti": [
+    {
+     "a": 2238.0,
+     "b": 2246.0,
+     "immagine": "De Gasperi"
+    }
+   ],
+   "a": 2208.0,
+   "b": 2371.4,
+   "parte": 2
+  },
+  {
+   "id": "4.3",
+   "tipo": "card",
+   "arg": 4,
+   "titolo": "Cosa perde l'Italia",
+   "cards": [
+    {
+     "a": 2371.4,
+     "b": 2423.1,
+     "titolo": "Colonie e indennità",
+     "kw": "Pace di Parigi",
+     "testo": "Con la pace di Parigi (febbraio 1947) l'Italia perde le colonie, cede alla Francia Tenda e Briga e paga indennità alle nazioni che ha aggredito, tra cui Jugoslavia, Grecia, Unione Sovietica ed Etiopia."
+    },
+    {
+     "a": 2423.1,
+     "b": 2478.3,
+     "titolo": "L'Istria e Trieste",
+     "kw": "Confine orientale",
+     "testo": "L'Istria è ceduta alla Jugoslavia; Trieste, contesa, è divisa in Zona A anglo-americana, che tornerà all'Italia, e Zona B jugoslava, che non sarà più italiana. Al confine con una potenza comunista l'Italia diventa centrale per l'Occidente."
+    }
+   ],
+   "immagine": "confine",
+   "a": 2371.4,
+   "b": 2478.3,
+   "parte": 2
+  },
+  {
+   "id": "4.4",
+   "tipo": "card",
+   "arg": 4,
+   "titolo": "Le elezioni del 1948",
+   "cards": [
+    {
+     "a": 2478.3,
+     "b": 2528.6,
+     "titolo": "La rottura dell'unità antifascista",
+     "kw": "Elezioni 1948",
+     "testo": "Il 1948 segna la rottura definitiva dell'unità antifascista: comunisti e socialisti sono esclusi dal governo. Alle prime elezioni per il Parlamento la DC prende il 48% dei voti, quasi la maggioranza assoluta, con i voti di moderati, monarchici, liberali ed ex fascisti."
+    },
+    {
+     "a": 2528.6,
+     "b": 2592.8,
+     "titolo": "Governi De Gasperi e Piano Marshall",
+     "kw": "Piano Marshall",
+     "testo": "Partono i governi del centrismo, tre governi De Gasperi in successione (1948-1953), sotto l'influenza della guerra fredda e degli aiuti del Piano Marshall, regalati in gran parte anche in chiave antisovietica. Stalin sperava in una rivoluzione in Italia, ma non andrà così."
+    }
+   ],
+   "a": 2478.3,
+   "b": 2592.8,
+   "parte": 2
+  },
+  {
+   "id": "4.5",
+   "tipo": "card",
+   "arg": 4,
+   "titolo": "Il trionfo della DC e le tensioni sociali",
+   "cards": [
+    {
+     "a": 2592.8,
+     "b": 2641.2,
+     "titolo": "La propaganda della DC",
+     "kw": "Propaganda",
+     "testo": "Nei manifesti del 1948 la DC dice: votare PCI o PSI significa votare Stalin e la dittatura; votare DC significa America, soldi, benessere, lavoro e famiglia. Fa breccia soprattutto tra i contadini, che erano tanti."
+    },
+    {
+     "a": 2641.2,
+     "b": 2684.0,
+     "titolo": "Governi con piccoli alleati",
+     "kw": "Alleati laici",
+     "testo": "La DC vince con i voti dei moderati, della tradizione, dei filoamericani e della «paura rossa». Governa con piccoli partiti laici (repubblicani, liberali, socialdemocratici): con il 48% deve arrivare al 51% per governare."
+    },
+    {
+     "a": 2684.0,
+     "b": 2746.9,
+     "titolo": "Stabilità e tensioni sociali",
+     "kw": "Attentato a Togliatti",
+     "testo": "Il periodo è stabile ma con forti tensioni: l'attentato a Togliatti (luglio 1948) porta il Paese sull'orlo della guerra civile; seguono dura repressione di ex partigiani e sindacati e progressiva delegittimazione della Resistenza."
+    }
+   ],
+   "a": 2592.8,
+   "b": 2746.9,
+   "parte": 2
+  },
+  {
+   "id": "4.6",
+   "tipo": "card",
+   "arg": 4,
+   "titolo": "Gli interventi pubblici ed economici",
+   "cards": [
+    {
+     "a": 2746.9,
+     "b": 2790.1,
+     "titolo": "La stabilità della lira",
+     "kw": "Einaudi",
+     "testo": "I governi centristi avviano importanti interventi pubblici ed economici, con i beni del Piano Marshall e una linea di stabilità monetaria promossa dal primo presidente della Repubblica, Luigi Einaudi: la lira, poverissima, si stabilizza grazie ai dollari."
+    },
+    {
+     "a": 2790.1,
+     "b": 2842.5,
+     "titolo": "Riforma agraria e Cassa per il Mezzogiorno",
+     "kw": "Riforma agraria",
+     "testo": "Con la riforma agraria, per decreto di De Gasperi, la terra è ridistribuita ai contadini, con incentivi per gli agrari che perdono terreni: si toglie una bandiera alla rivoluzione comunista. Nasce la Cassa per il Mezzogiorno, che finanzia il Sud con benefici ma anche inefficienze."
+    }
+   ],
+   "a": 2746.9,
+   "b": 2842.5,
+   "parte": 2
+  },
+  {
+   "id": "4.7",
+   "tipo": "card",
+   "arg": 4,
+   "titolo": "Politica estera e democrazia",
+   "cards": [
+    {
+     "a": 2842.5,
+     "b": 2874.9,
+     "titolo": "L'integrazione nel blocco occidentale",
+     "kw": "NATO · CECA",
+     "testo": "In politica estera l'Italia sceglie il blocco occidentale: entra nella NATO nell'aprile 1949 e partecipa alle prime tappe dell'integrazione europea, dalla CECA (l'Europa dei Sei) ai trattati di Roma del 1957."
+    },
+    {
+     "a": 2874.9,
+     "b": 2926.6,
+     "titolo": "Una democrazia tollerante",
+     "kw": "Democrazia",
+     "testo": "L'Italia si accredita come nazione democratica e parlamentare, anticomunista ma non antiliberale: né il PCI né il MSI vengono messi al bando. Il centrismo allontana le ali estreme: le sinistre volevano una repubblica atea e comunista, le destre ancora il Duce."
+    }
+   ],
+   "a": 2842.5,
+   "b": 2926.6,
+   "parte": 2
+  },
+  {
+   "id": "4.I1",
+   "tipo": "immagine",
+   "arg": 4,
+   "a": 2926.6,
+   "b": 2969.6,
+   "didascalia": "Piano INA-Casa: case costruite con i soldi pubblici per le famiglie che vivevano in grotte, cantine e solai",
+   "immagine": "INA-Casa",
+   "parte": 2
+  },
+  {
+   "id": "4.8",
+   "tipo": "card",
+   "arg": 4,
+   "titolo": "Gli anni Cinquanta e la DC",
+   "cards": [
+    {
+     "a": 2969.6,
+     "b": 3009.0,
+     "titolo": "Il ritorno alla normalità",
+     "kw": "Anni Cinquanta",
+     "testo": "Negli anni Cinquanta l'Italia colma il divario: per bilancio dello Stato e occupazione torna alla situazione prebellica, fascismo o meno. È normalità, non ancora crescita, ma gli anni Cinquanta prefigurano il boom."
+    },
+    {
+     "a": 3009.0,
+     "b": 3079.0,
+     "titolo": "Una DC di massa ma divisa",
+     "kw": "Correnti DC",
+     "testo": "De Gasperi non è più presidente del Consiglio ed è morto: seguono altri governi democristiani (Segni, Fanfani, Pella, Scelba). La DC ha una corrente di destra, spesso autoritaria e parafascista, e una di sinistra, vicina al cattolicesimo sociale e al dialogo con i socialisti."
+    }
+   ],
+   "a": 2969.6,
+   "b": 3079.0,
+   "parte": 2
+  },
+  {
+   "id": "4.9",
+   "tipo": "card",
+   "arg": 4,
+   "titolo": "La crisi del centrismo",
+   "cards": [
+    {
+     "a": 3079.0,
+     "b": 3124.0,
+     "titolo": "Una Costituzione non attuata",
+     "kw": "Corte costituzionale",
+     "testo": "Il centrismo entra in crisi negli anni Cinquanta per l'instabilità, le correnti e la crescente domanda di riforme: la Costituzione prevede la Corte costituzionale e le Regioni, ma dieci anni dopo non esistono ancora."
+    },
+    {
+     "a": 3124.0,
+     "b": 3163.8,
+     "titolo": "Leggi ancora fasciste",
+     "kw": "Codice Rocco",
+     "testo": "Restano in vigore leggi del fascismo, come il Codice Rocco. La società vuole essere più moderna e le sinistre chiedono il divorzio, che in Francia esiste dall'inizio dell'Ottocento ma in Italia non c'è ancora."
+    }
+   ],
+   "a": 3079.0,
+   "b": 3163.8,
+   "parte": 2
+  },
+  {
+   "id": "5.1",
+   "tipo": "card",
+   "arg": 5,
+   "titolo": "Il miracolo economico (1958-1963)",
+   "cards": [
+    {
+     "a": 3163.8,
+     "b": 3234.4,
+     "titolo": "Da Paese agricolo a potenza industriale",
+     "kw": "Boom economico",
+     "testo": "Tra il 1958 e il 1963 si verifica il miracolo economico: un Paese essenzialmente agricolo diventa una potenza industriale, magari di serie B. Gli operai e il settore secondario superano l'agricoltura, dove fino agli anni Cinquanta lavorava la maggior parte degli italiani."
+    },
+    {
+     "a": 3234.4,
+     "b": 3280.2,
+     "titolo": "Auto ed elettrodomestici",
+     "kw": "Fiat 500",
+     "testo": "Il boom è trainato dall'automobile (la Fiat 500, a prezzi popolari, e l'acquisto a rate) e dall'arrivo in ogni casa di frigorifero e lavatrice: le donne non devono più lavare i panni al fiume. Negli anni Sessanta arriva la televisione."
+    }
+   ],
+   "a": 3163.8,
+   "b": 3280.2,
+   "parte": 2
+  },
+  {
+   "id": "5.2",
+   "tipo": "card",
+   "arg": 5,
+   "titolo": "Crescita economica e nuovi stili di vita",
+   "cards": [
+    {
+     "a": 3280.2,
+     "b": 3314.7,
+     "titolo": "Siderurgia, chimica e auto",
+     "kw": "Export",
+     "testo": "Siderurgia, chimica e settore automobilistico fanno da padroni e i prodotti italiani si fanno apprezzare all'estero. C'è crescita economica, ma non dei salari, ancora quasi quelli dell'anteguerra: i lavoratori vorrebbero una ricchezza meglio distribuita."
+    },
+    {
+     "a": 3314.7,
+     "b": 3376.7,
+     "titolo": "Consumi, vacanze e ferie pagate",
+     "kw": "Vacanze di massa",
+     "testo": "La crescita cambia consumi e stili di vita: motorizzazione di massa, televisore e vacanze balneari. Prima né il contadino né l'operaio andavano in vacanza; ora, con le ferie retribuite volute dalle sinistre nella Costituzione, nasce il turismo di massa."
+    }
+   ],
+   "a": 3280.2,
+   "b": 3376.7,
+   "parte": 2
+  },
+  {
+   "id": "5.3",
+   "tipo": "card",
+   "arg": 5,
+   "titolo": "Le criticità del boom",
+   "cards": [
+    {
+     "a": 3376.7,
+     "b": 3432.4,
+     "titolo": "Più case, speculazione, emigrazione",
+     "kw": "Abusivismo",
+     "testo": "Si fanno più figli e si costruisce di più, chiudendo un occhio sulle regole: palazzinari e abusivismo edilizio, anche sulle spiagge. Il lavoro è al Nord e dal Sud parte una massiccia emigrazione interna: il sogno è la Fiat, la stabilità."
+    },
+    {
+     "a": 3432.4,
+     "b": 3501.2,
+     "titolo": "Torino e le periferie",
+     "kw": "Periferie",
+     "testo": "Torino diventa la città più meridionale del Nord: due terzi dei suoi abitanti sono di origine meridionale. Operai con contratto stabile dormono sulle panchine della stazione perché molti non affittano ai meridionali; le periferie triplicano ma senza servizi, mentre il Sud si spopola."
+    }
+   ],
+   "a": 3376.7,
+   "b": 3501.2,
+   "parte": 2
+  },
+  {
+   "id": "6.1",
+   "tipo": "card",
+   "arg": 6,
+   "titolo": "Il centrosinistra: l'apertura ai socialisti",
+   "cards": [
+    {
+     "a": 3501.2,
+     "b": 3584.1,
+     "titolo": "La DC si apre ai socialisti",
+     "kw": "Fanfani e Moro",
+     "testo": "Per rispondere ai cambiamenti sociali la DC di sinistra, con Amintore Fanfani e poi Aldo Moro, si avvicina ai socialisti, che rinunciano alla vicinanza a Unione Sovietica e PCI. Il governo Fanfani (1960-62) è sostenuto in Parlamento anche dal PSI, in cambio di riforme sociali."
+    },
+    {
+     "a": 3584.1,
+     "b": 3647.2,
+     "titolo": "La scuola media unica",
+     "kw": "Scuola media unica",
+     "testo": "Prima del 1962 i figli dei ricchi andavano alla scuola media che portava a ginnasio e liceo, i figli dei poveri all'avviamento professionale. Su richiesta dei socialisti nasce la scuola media unica: tre anni nello stesso istituto per ricchi e poveri, poi si sceglie liceo o istituto tecnico-professionale."
+    }
+   ],
+   "a": 3501.2,
+   "b": 3647.2,
+   "parte": 2
+  },
+  {
+   "id": "6.2",
+   "tipo": "card",
+   "arg": 6,
+   "titolo": "Le grandi riforme",
+   "cards": [
+    {
+     "a": 3647.2,
+     "b": 3712.2,
+     "titolo": "La nazionalizzazione dell'energia elettrica",
+     "kw": "ENEL",
+     "testo": "Nasce l'ENEL, l'ente nazionale per l'energia elettrica: lo Stato controlla la corrente e si fa carico di portarla in tutte le case, non solo in quelle dei ricchi del centro. Con capitali pubblici le bollette non saranno altissime, per aiutare le classi povere."
+    },
+    {
+     "a": 3712.2,
+     "b": 3742.9,
+     "titolo": "Obbligo scolastico fino a 14 anni",
+     "kw": "Obbligo scolastico",
+     "testo": "Viene rafforzato l'obbligo scolastico fino a 14 anni, già previsto dal ministro Gentile durante il fascismo. Il dialogo con i socialisti prepara, alle elezioni del 1963, il primo governo organico di centrosinistra."
+    }
+   ],
+   "a": 3647.2,
+   "b": 3742.9,
+   "parte": 2
+  },
+  {
+   "id": "6.3",
+   "tipo": "card",
+   "arg": 6,
+   "titolo": "Dal dialogo al governo",
+   "cards": [
+    {
+     "a": 3742.9,
+     "b": 3781.4,
+     "titolo": "I socialisti al governo",
+     "kw": "Governo Moro",
+     "testo": "Negli anni Cinquanta c'era solo un dialogo; dal 1963, con il primo governo Moro a guida democristiana, i socialisti entrano al governo come ministri: Pietro Nenni sarà ministro di Moro. Nel 1964 muore Palmiro Togliatti."
+    },
+    {
+     "a": 3781.4,
+     "b": 3815.0,
+     "titolo": "Il PCI all'opposizione",
+     "kw": "Distensione",
+     "testo": "Sono gli anni del dialogo USA-URSS: il PCI è sempre più all'opposizione e il PSI sempre più al governo. Moro guarda a sinistra e attua una legislazione per i più poveri, che toglie consensi elettorali ai comunisti."
+    }
+   ],
+   "a": 3742.9,
+   "b": 3815.0,
+   "parte": 2
+  },
+  {
+   "id": "6.I1",
+   "tipo": "immagine",
+   "arg": 6,
+   "a": 3815.0,
+   "b": 3833.1,
+   "didascalia": "Amintore Fanfani e Aldo Moro, che guiderà il primo governo organico di centrosinistra nel 1963",
+   "immagine": "Fanfani e Moro",
+   "parte": 2
+  },
+  {
+   "id": "6.4",
+   "tipo": "card",
+   "arg": 6,
+   "titolo": "Il boom in cifre",
+   "cards": [
+    {
+     "a": 3833.1,
+     "b": 3887.9,
+     "titolo": "Il quinquennio d'oro 1958-1963",
+     "kw": "PIL",
+     "testo": "Il boom economico è il quinquennio 1958-1963 (nel 1964 arriva una prima crisi, poi una ripresa): il PIL cresce del 6,7% all'anno per cinque anni, più del 50% rispetto a prima. L'Italia fa balzi da gigante."
+    },
+    {
+     "a": 3887.9,
+     "b": 3919.0,
+     "titolo": "Spesa pubblica e debito",
+     "kw": "Debito pubblico",
+     "testo": "Aumentano le spese pubbliche e il debito pubblico, ma in quegli anni resta inferiore al 100% del PIL (lo supererà dagli anni Ottanta): è l'onda lunga del Piano Marshall e della gestione moderata della DC."
+    }
+   ],
+   "a": 3833.1,
+   "b": 3919.0,
+   "parte": 2
+  },
+  {
+   "id": "6.5",
+   "tipo": "card",
+   "arg": 6,
+   "titolo": "L'apertura a sinistra e la Chiesa",
+   "cards": [
+    {
+     "a": 3919.0,
+     "b": 3958.6,
+     "titolo": "La distensione",
+     "kw": "Kennedy · Chruščëv",
+     "testo": "Nasce il centrosinistra nella fase della distensione: Kennedy e Chruščëv avviano il dialogo, nonostante la crisi di Cuba del 1962. In questi anni c'è anche il pontificato di papa Giovanni XXIII."
+    },
+    {
+     "a": 3958.6,
+     "b": 4003.1,
+     "titolo": "Giovanni XXIII e il Concilio",
+     "kw": "Concilio Vaticano II",
+     "testo": "Giovanni XXIII inaugura una svolta epocale: la fine dei papi conservatori. Invita la DC ad aprire a sinistra in chiave sociale («applicate il Vangelo») e apre il Concilio Vaticano II: la messa potrà essere celebrata nelle lingue nazionali."
+    },
+    {
+     "a": 4003.1,
+     "b": 4063.2,
+     "titolo": "Integrare le sinistre",
+     "kw": "Apertura a sinistra",
+     "testo": "Il papa vuole integrare le sinistre e farle andare d'accordo con i cattolici in chiave antisovietica e antifascista: «se non riusciamo con i comunisti, riusciremo con i socialisti». Così la DC è tranquilla e Moro può governare con loro."
+    }
+   ],
+   "a": 3919.0,
+   "b": 4063.2,
+   "parte": 2
+  },
+  {
+   "id": "6.6",
+   "tipo": "card",
+   "arg": 6,
+   "titolo": "Luci e ombre: il Piano Solo",
+   "cards": [
+    {
+     "a": 4063.2,
+     "b": 4101.1,
+     "titolo": "Luci e ombre",
+     "kw": "Riforme e tensioni",
+     "testo": "Le riforme del governo Moro, l'apertura della Chiesa e la volontà di distaccarsi da nazionalismo e fascismo scontentano i fascisti ancora presenti in Italia e molti membri degli apparati dello Stato, nostalgici del vecchio ordine."
+    },
+    {
+     "a": 4101.1,
+     "b": 4167.5,
+     "titolo": "Il Piano Solo (1964)",
+     "kw": "Piano Solo",
+     "testo": "Nel 1964 le tensioni emergono sui giornali con il Piano Solo, un piano di colpo di Stato con i Carabinieri guidati dal generale De Lorenzo: proclamare lo stato d'emergenza per impedire alle sinistre di restare al potere. Non è mai stato chiarito se fosse un vero piano o solo un modo per spaventare le sinistre."
+    }
+   ],
+   "a": 4063.2,
+   "b": 4167.5,
+   "parte": 2
+  },
+  {
+   "id": "6.7",
+   "tipo": "card",
+   "arg": 6,
+   "titolo": "Un'Italia al bivio",
+   "cards": [
+    {
+     "a": 4167.5,
+     "b": 4230.3,
+     "titolo": "Il piano non scatta",
+     "kw": "De Lorenzo",
+     "testo": "Coinvolti uomini dei servizi segreti e degli apparati dello Stato, anche della magistratura, nostalgici del fascismo. Il colpo di Stato non scatta e il generale De Lorenzo viene fermato: lascia la divisa, ma poi diventa parlamentare nelle file del MSI."
+    },
+    {
+     "a": 4230.3,
+     "b": 4274.0,
+     "titolo": "L'Italia all'inizio degli anni Sessanta",
+     "kw": "Democrazia parlamentare",
+     "testo": "Ci si libera della minaccia comunista: i socialisti prendono le distanze e si cerca una piena democrazia parlamentare, liberale e pluripartitica; la DC si apre a sinistra, a destra restano le tensioni. Negli anni Settanta arriveranno terrorismo e stragismo di estrema sinistra e di estrema destra."
+    }
+   ],
+   "a": 4167.5,
+   "b": 4274.0,
+   "parte": 2
+  }
+ ]
+}

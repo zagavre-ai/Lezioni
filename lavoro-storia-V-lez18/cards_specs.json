@@ -1,0 +1,211 @@
+{
+ "T1": {
+  "type": "title",
+  "num": "01",
+  "total": 6,
+  "lines": [
+   "Un Paese",
+   "da ricostruire"
+  ],
+  "ex": "mercato nero · reduci · latifondi",
+  "fs": 128,
+  "lineY": 720,
+  "dur": 4
+ },
+ "Q1": {
+  "type": "quiz",
+  "act": "Quiz 1",
+  "topic": "Un Paese da ricostruire",
+  "tfs": 84,
+  "pts": "5 domande · per continuare almeno l'80%",
+  "dur": 5
+ },
+ "T2": {
+  "type": "title",
+  "num": "02",
+  "total": 6,
+  "lines": [
+   "La nascita",
+   "della Repubblica"
+  ],
+  "ex": "De Gasperi · Togliatti · 2 giugno 1946",
+  "fs": 128,
+  "lineY": 720,
+  "dur": 4
+ },
+ "Q2": {
+  "type": "quiz",
+  "act": "Quiz 2",
+  "topic": "La nascita della Repubblica",
+  "tfs": 74,
+  "pts": "5 domande · per continuare almeno l'80%",
+  "dur": 5
+ },
+ "T3": {
+  "type": "title",
+  "num": "03",
+  "total": 6,
+  "lines": [
+   "La Costituzione"
+  ],
+  "ex": "Nilde Iotti · Lina Merlin · 1948",
+  "fs": 150,
+  "lineY": 600,
+  "dur": 4
+ },
+ "Q3": {
+  "type": "quiz",
+  "act": "Quiz 3",
+  "topic": "La Costituzione",
+  "tfs": 84,
+  "pts": "5 domande · per continuare almeno l'80%",
+  "dur": 5
+ },
+ "T4": {
+  "type": "title",
+  "num": "04",
+  "total": 6,
+  "lines": [
+   "Il Centrismo",
+   "(1948-1953)"
+  ],
+  "ex": "De Gasperi · Piano Marshall · NATO",
+  "fs": 128,
+  "lineY": 720,
+  "dur": 4
+ },
+ "Q4": {
+  "type": "quiz",
+  "act": "Quiz 4",
+  "topic": "Il Centrismo (1948-1953)",
+  "tfs": 84,
+  "pts": "5 domande · per continuare almeno l'80%",
+  "dur": 5
+ },
+ "T5": {
+  "type": "title",
+  "num": "05",
+  "total": 6,
+  "lines": [
+   "Il miracolo",
+   "economico"
+  ],
+  "ex": "Fiat 500 · boom · Nord e Sud",
+  "fs": 128,
+  "lineY": 720,
+  "dur": 4
+ },
+ "Q5": {
+  "type": "quiz",
+  "act": "Quiz 5",
+  "topic": "Il miracolo economico",
+  "tfs": 84,
+  "pts": "5 domande · per continuare almeno l'80%",
+  "dur": 5
+ },
+ "T6": {
+  "type": "title",
+  "num": "06",
+  "total": 6,
+  "lines": [
+   "Il Centrosinistra",
+   "(1953-1963)"
+  ],
+  "ex": "Fanfani · Moro · ENEL",
+  "fs": 128,
+  "lineY": 720,
+  "dur": 4
+ },
+ "Q6": {
+  "type": "quiz",
+  "act": "Quiz 6",
+  "topic": "Il Centrosinistra (1953-1963)",
+  "tfs": 69,
+  "pts": "5 domande · per continuare almeno l'80%",
+  "dur": 5
+ },
+ "RIP": {
+  "type": "repaso",
+  "kicker": "Ripasso della prima parte",
+  "big": "RIPASSO",
+  "topic": "L'Italia repubblicana",
+  "tfs": 84,
+  "caps": [
+   [
+    1.09,
+    5.22,
+    "Benvenuti alla seconda parte della videolezione di Storia sull'Italia repubblicana."
+   ],
+   [
+    5.22,
+    8.26,
+    "Prima di ripartire, un breve ripasso della prima parte."
+   ],
+   [
+    8.26,
+    11.86,
+    "L'Italia esce dalla guerra distrutta, tra mercato nero e violenza."
+   ],
+   [
+    11.86,
+    19.62,
+    "Il due giugno del millenovecentoquarantasei il referendum sceglie la Repubblica e nasce l'Assemblea Costituente."
+   ],
+   [
+    19.62,
+    26.1,
+    "La Costituzione entra in vigore il primo gennaio del millenovecentoquarantotto."
+   ],
+   [
+    26.1,
+    30.66,
+    "Ora vediamo gli anni del Centrismo, il miracolo economico e la stagione del Centrosinistra."
+   ]
+  ],
+  "dur": 31.46
+ },
+ "F1": {
+  "type": "final",
+  "kicker": "Storia V",
+  "l1": "RIEPILOGO",
+  "l2": "FINALE",
+  "items": [
+   [
+    "Un Paese da ricostruire",
+    ""
+   ],
+   [
+    "La nascita della Repubblica",
+    ""
+   ],
+   [
+    "La Costituzione",
+    ""
+   ]
+  ],
+  "sub": "Ripassiamo insieme ciò che abbiamo imparato.",
+  "dur": 28.34
+ },
+ "F2": {
+  "type": "final",
+  "kicker": "Storia V",
+  "l1": "RIEPILOGO",
+  "l2": "FINALE",
+  "items": [
+   [
+    "Il Centrismo (1948-1953)",
+    ""
+   ],
+   [
+    "Il miracolo economico",
+    ""
+   ],
+   [
+    "Il Centrosinistra (1953-1963)",
+    ""
+   ]
+  ],
+  "sub": "Ripassiamo insieme ciò che abbiamo imparato.",
+  "dur": 29.54
+ }
+}
