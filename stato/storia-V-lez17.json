@@ -2,13 +2,46 @@
  "tag": "storia-V-lez17",
  "parti": {
   "1": {
-   "stato": "REVISIONATA"
+   "stato": "REVISIONATA",
+   "voci": "kore",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "si",
+   "video": "Storia_Lez17_Parte1_1080p.mp4",
+   "durata_s": 2935.7,
+   "durata": "48:55.7",
+   "fotogrammi": 88071,
+   "fotogrammi_attesi": 88071,
+   "peso_MB": 389.6,
+   "vtt": "Storia_Lez17_Parte1.vtt"
   },
   "2": {
-   "stato": "REVISIONATA"
+   "stato": "REVISIONATA",
+   "voci": "kore",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "si",
+   "video": "Storia_Lez17_Parte2_1080p.mp4",
+   "durata_s": 1920.4,
+   "durata": "32:00.4",
+   "fotogrammi": 57611,
+   "fotogrammi_attesi": 57611,
+   "peso_MB": 262.0,
+   "vtt": "Storia_Lez17_Parte2.vtt"
   },
   "3": {
-   "stato": "REVISIONATA"
+   "stato": "REVISIONATA",
+   "voci": "kore",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "si",
+   "video": "Storia_Lez17_Parte3_1080p.mp4",
+   "durata_s": 2232.5,
+   "durata": "37:12.5",
+   "fotogrammi": 66975,
+   "fotogrammi_attesi": 66975,
+   "peso_MB": 312.9,
+   "vtt": "Storia_Lez17_Parte3.vtt"
   }
  },
  "manca": "",
@@ -55,8 +88,12 @@
   {
    "quando": "20/11 16:37",
    "testo": "20/11 avanzamento: pezzi del prof nuovi pronti (Parti 1-3, slide max ~2,7 min), copertine con titolo su una riga, in corso rimontaggio e codifica. Stima consegna: 1-1,5 ore"
+  },
+  {
+   "quando": "20/11 17:46",
+   "testo": "correzioni 19/11 fatte (20/11): slide ferma max 2,76/2,68/2,63 min; copertine P1-P3 con titolo su una riga; mappe con mappa.py; consegna su revisione-storia-V-lez17. Manca: approfondimento animato 40-60 s per argomento (servono voci Kore)"
   }
  ],
- "aggiornato": "2026-11-20 16:37:40",
- "stato_lezione": "IN_REVISIONE"
+ "aggiornato": "2026-11-20 17:46:39",
+ "stato_lezione": "REVISIONATA"
 }
