@@ -25,10 +25,14 @@
   {
    "quando": "20/11 16:02",
    "testo": "20/11 ripresa: nessuna risposta alla nota del 18/11. Decido io: uso il prof dal video originale (come rettangolo.py della master), riuso del vecchio video (slide bianche, card gialla, prof, glossario) e rifaccio le schede blu (titolo, pillola, quiz, riepilogo) con schede_spagnolo.py, piu' pillole e mappe nuove. Vecchio video privo di pillole blu e mappe. Durata totale stimata ~79 min: in 2 Parti sono ~40 min l'una (<50): serve decisione master se 2 Parti corte o 1 Parte lunga."
+  },
+  {
+   "quando": "20/11 16:26",
+   "testo": "20/11 ~ora: schede blu (titoli, pillole, quiz, riepilogo) e mappe renderizzate con schede_spagnolo.py/mappa.py; cover nuova; codifica delle 2 Parti in corso. Ancora da fare: controlli (LUFS, freeze, quiz_s), sottotitoli, scheda, rapporto. Nessun approfondimento animato (non ci sono voci/materiale)."
   }
  ],
  "materia": "Storia dell'Arte V",
  "lezione": "Lezione 1 · Il Neoclassicismo",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-20 16:02:01"
+ "aggiornato": "2026-11-20 16:26:09"
 }
