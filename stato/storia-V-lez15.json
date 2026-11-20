@@ -25,9 +25,13 @@
   {
    "quando": "20/11 18:00",
    "testo": "20/11 18:30 voci AN ricevute (AN8 da controllare); slide a 2 card intere, cue dai tempi della trascrizione e dalla timeline delle slide del prof, 20 approfondimenti; schede blu e pezzi del prof in costruzione"
+  },
+  {
+   "quando": "20/11 21:24",
+   "testo": "correzioni 19/11 fatte · ramo revisione-storia-V-lez15 (aa7cb9f, sostituisce la versione precedente, ancora nella storia git) · 62:46, 112980 fotogrammi OK, 389 MB, parlato -16,4 LUFS, nessun fermo immagine, quiz sul punto, sottotitoli 797 blocchi senza sovrapposizioni · anni in cifre su schede e approfondimenti · DA CONFERMARE: AN8 (ESITI voce «da controllare», non riascoltata), sottotitoli corretti solo a regole, sincronia evidenziazioni scelta da trascrizione/pagine (non rimisurata), niente mappe del prof per lez 15, lip-sync non misurato. Dettagli in RAPPORTO_REVISIONE.md"
   }
  ],
  "materia": "storia-V",
  "lezione": "15",
- "aggiornato": "2026-11-20 18:00:57"
+ "aggiornato": "2026-11-20 21:24:49"
 }
