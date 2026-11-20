@@ -2,18 +2,7 @@
  "tag": "storia-V-lez15",
  "parti": {
   "1": {
-   "stato": "REVISIONATA",
-   "voci": "kore",
-   "quiz_ok": "si",
-   "fermi_ok": "si",
-   "sub_ok": "no",
-   "video": "Storia_Lez15_Parte1_1080p.mp4",
-   "durata_s": 3604.4,
-   "durata": "60:04.4",
-   "fotogrammi": 108131,
-   "fotogrammi_attesi": 108131,
-   "peso_MB": 380.0,
-   "vtt": "Storia_Lez15_Parte1.vtt"
+   "stato": "IN_REVISIONE"
   }
  },
  "manca": "",
@@ -21,21 +10,11 @@
  "domande_sara": [],
  "note": [
   {
-   "quando": "18/11 19:36",
-   "testo": "PRENOTATA 18/11 19:40 · chat v3 rifacimento da zero (sessione lez04)"
-  },
-  {
-   "quando": "18/11 19:43",
-   "testo": "19:55 voci (71 testi) inviate a voci-storia-V-lez15; trascrizione e pezzi in lavorazione"
-  },
-  {
-   "quando": "18/11 20:47",
-   "testo": "20:50 montata Parte 1 (60:10), ultime misure in corso"
-  },
-  {
-   "quando": "18/11 21:26",
-   "testo": "REVISIONATA 18/11 21:50: Parte 1 60:04, -16,0 LUFS, 10 mappe dalle slide (nessuna del prof), voci Kore ricevute (MAPN4 da controllare). Consegna su revisione-storia-V-lez15."
+   "quando": "20/11 17:45",
+   "testo": "correzioni 19/11 (coda master: 17, 15, 4, 6): presa da claude/hopeful-keller-s5yjrk il 20/11 18:15; rifaccio slide, mappe, approfondimenti, schema, transizioni, copertina, intro <=3 min"
   }
  ],
- "aggiornato": "2026-11-18 21:26:28"
+ "materia": "storia-V",
+ "lezione": "15",
+ "aggiornato": "2026-11-20 17:45:09"
 }
