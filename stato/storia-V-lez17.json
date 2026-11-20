@@ -43,7 +43,12 @@
   {
    "quando": "19/11 01:06",
    "testo": "19/11 01:20 consegnata su revisione-storia-V-lez17 (Parte 3): -16.0 LUFS, 0 silenzi >3s, jingle 0.000 s; Parti 48:56 / 32:00 / 37:12; 59 voci Kore (SC4_3 DA CONTROLLARE)"
+  },
+  {
+   "quando": "20/11",
+   "testo": "IN_REVISIONE: correzioni 19/11 (slide ferme max 3 min) prese da claude/lucid-edison-p6fyi1, dopo consegna lez 4"
   }
  ],
- "aggiornato": "2026-11-19 01:06:38"
+ "aggiornato": "2026-11-20 15:55:28",
+ "stato_lezione": "IN_REVISIONE"
 }
