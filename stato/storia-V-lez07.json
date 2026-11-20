@@ -37,9 +37,13 @@
   {
    "quando": "19/11 19:01",
    "testo": "04:30 correzioni 19/11 in corso (claude/hopeful-keller-s5yjrk): materiali scaricati, voci AN/MD/SC già presenti nel ramo voci (nessuna voce nuova da generare), schede e montaggio in corso; stimo la consegna entro 2-3 ore"
+  },
+  {
+   "quando": "20/11 15:57",
+   "testo": "ripresa 20/11 15:57: applico anche le note della master 05:10/05:25 (card intere, intro <=3 min, timeline rigenerata); rifaccio audio/webcam/trascrizione se persi"
   }
  ],
  "materia": "storia-V",
  "lezione": "7",
- "aggiornato": "2026-11-19 19:01:10"
+ "aggiornato": "2026-11-20 15:57:57"
 }
