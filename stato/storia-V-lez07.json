@@ -2,7 +2,7 @@
  "tag": "storia-V-lez07",
  "parti": {
   "1": {
-   "stato": "IN_REVISIONE",
+   "stato": "REVISIONATA",
    "voci": "kore",
    "quiz_ok": "si",
    "fermi_ok": "si",
@@ -45,9 +45,13 @@
   {
    "quando": "20/11 17:09",
    "testo": "20/11 17:10 montaggio Parte unica fatto (50:11, misurato); in corso finalizzazione, controlli, PDF e rapporto; consegna entro ~30 minuti"
+  },
+  {
+   "quando": "20/11 17:21",
+   "testo": "correzioni 19/11 fatte (20/11 17:40): ramo revisione-storia-V-lez07; 50:11,5 misurato; copertina col titolo giusto; slide 2-3 card intere; mappe mappa.py; approfondimenti AN; avviso nel finale; timeline/scheda rigenerate; controllo_finale: sottotitoli 67% di 18 (artefatti verificati, vedi rapporto), tutto il resto OK"
   }
  ],
  "materia": "storia-V",
  "lezione": "7",
- "aggiornato": "2026-11-20 17:09:03"
+ "aggiornato": "2026-11-20 17:21:20"
 }
