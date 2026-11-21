@@ -763,6 +763,10 @@
   {
    "quando": "15/11 14:06",
    "testo": "storia-V-lez09: attendo le voci Kore dal ramo voci-storia-V-lez09 (richiesta gia' inviata il 14/11; resto pronto)."
+  },
+  {
+   "quando": "21/11 00:41",
+   "testo": "Lez. 9 consegnata sul ramo revisione-storia-V-lez09. Parti 42:57 e 47:19 (sotto 50 min, non ho materiale per allungarle). Libera per la coda 17,15,4,6: parto con la 17 se e' libera."
   }
  ],
  "domande_sara": [],
@@ -830,10 +834,14 @@
   {
    "quando": "20/11 23:30",
    "testo": "20/11: rifacimento con card intere in corso (allineamenti, sottotitoli e slide pronti; montaggio in corso). Rispondo alla nota delle 22:00: lo stato REVISIONATA arriva a consegna avvenuta."
+  },
+  {
+   "quando": "21/11 00:41",
+   "testo": "card intere 19/11 consegnate su revisione-storia-V-lez09 (a4285d7). Misurato: Parte1 42:57 (-15.1 LUFS, TP -1.9), Parte2 47:19 (-15.3 LUFS, TP -1.9), 1080p, fotogrammi=durata*30, sha256 verificati. Limiti: Parti sotto 50 min (materiale del prof 66,7 min); silenzi >3 s in Parte1: 3,16 s (MAP1), 5,27 s (A3), 3,0 s (PS4); slide oltre 3 min negli arg. 2,3,5,6,8,10 (arg.10 ~8 min: riepilogo finale del prof); card di alcuni punti senza corrispondenza nel parlato (vedi rapporto sez.4); id sottotitoli 'dubbio' elencati; voci non riascoltate; approfondimenti da far confermare al prof."
   }
  ],
  "materia": "Storia",
  "lezione": "Lezione 9 · L'Italia del regime fascista",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-20 23:30:34"
+ "aggiornato": "2026-11-21 00:41:14"
 }
