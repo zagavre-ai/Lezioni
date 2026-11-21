@@ -1,5 +1,5 @@
-Q6 atteso 432.833 trovato 432.833 scarto -0.000 OK
-Q7 atteso 846.533 trovato 846.534 scarto +0.000 OK
-Q8 atteso 1375.533 trovato 1375.534 scarto +0.001 OK
-Q9 atteso 1640.400 trovato 1640.400 scarto +0.000 OK
-Q10 atteso 2746.600 trovato 2746.599 scarto -0.001 OK
+Q6 atteso 448.833 trovato 448.833 scarto -0.000 OK
+Q7 atteso 862.533 trovato 862.534 scarto +0.000 OK
+Q8 atteso 1391.533 trovato 1391.534 scarto +0.001 OK
+Q9 atteso 1656.400 trovato 1656.400 scarto +0.000 OK
+Q10 atteso 2762.600 trovato 2762.599 scarto -0.001 OK

@@ -1,37 +1,37 @@
 {
  "materia": "Storia V",
  "titolo": "Storia V · Lezione 9 · L'Italia del regime fascista · Parte 2",
- "durata_s": 2822.967,
+ "durata_s": 2838.967,
  "argomenti": [
   {
    "n": 6,
    "titolo": "Media e Patti Lateranensi",
    "inizio_s": 42.9,
-   "quiz_s": 432.333
+   "quiz_s": 448.333
   },
   {
    "n": 7,
    "titolo": "Corporativismo e agricoltura",
-   "inizio_s": 437.333,
-   "quiz_s": 846.033
+   "inizio_s": 453.333,
+   "quiz_s": 862.033
   },
   {
    "n": 8,
    "titolo": "Quota 90 e autarchia",
-   "inizio_s": 851.033,
-   "quiz_s": 1375.033
+   "inizio_s": 867.033,
+   "quiz_s": 1391.033
   },
   {
    "n": 9,
    "titolo": "La donna e la demografia",
-   "inizio_s": 1380.033,
-   "quiz_s": 1639.9
+   "inizio_s": 1396.033,
+   "quiz_s": 1655.9
   },
   {
    "n": 10,
    "titolo": "Impero e Leggi Razziali",
-   "inizio_s": 1644.9,
-   "quiz_s": 2746.1
+   "inizio_s": 1660.9,
+   "quiz_s": 2762.1
   }
  ],
  "quiz": {

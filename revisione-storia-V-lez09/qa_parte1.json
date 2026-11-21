@@ -2,7 +2,7 @@
  "durata_s": 2576.905,
  "fotogrammi": 77307,
  "fotogrammi_attesi": 77307,
- "peso_MB": 200.9,
+ "peso_MB": 217.7,
  "risoluzione": "1920x1080",
  "somma_pezzi_fotogrammi": 77307,
  "LUFS": -15.1,
@@ -26,5 +26,5 @@
   "2.91781",
   "2.66794"
  ],
- "sha256": "52ee913a046c36cf9f73e83cea28ed5ec14754a82ba06146c1ba3f1eccd33919"
+ "sha256": "43951e23b86f4472d0fd8df0f91e3ecab7c956070cc8bb708f19de11ae0c760c"
 }

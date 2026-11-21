@@ -1,10 +1,10 @@
 {
- "durata_s": 2822.967,
- "fotogrammi": 84689,
- "fotogrammi_attesi": 84689,
- "peso_MB": 221.7,
+ "durata_s": 2838.967,
+ "fotogrammi": 85169,
+ "fotogrammi_attesi": 85169,
+ "peso_MB": 242.4,
  "risoluzione": "1920x1080",
- "somma_pezzi_fotogrammi": 84689,
+ "somma_pezzi_fotogrammi": 85169,
  "LUFS": -15.3,
  "TP_dBFS": -1.9,
  "silenzi_>2.5s": [
@@ -19,10 +19,10 @@
   "2.77962",
   "2.87912",
   "2.78871",
-  "2.70602",
+  "2.706",
   "2.5721",
   "2.51037",
   "2.91781"
  ],
- "sha256": "9f40f01d6343f11c117989bfeaa79e68a77311e783c1c0aac8ba17d50ee67f42"
+ "sha256": "8c0883925f1ef8fcbc6f7655bdcbc36296fc616422f02df83f56abf32e05a870"
 }
