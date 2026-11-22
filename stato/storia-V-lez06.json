@@ -6,6 +6,10 @@
   {
    "quando": "22/11 18:29",
    "testo": "STORIA V lez06, 3 dubbi (intanto vado avanti col default indicato). 1) Il PDF mappe ha SOLO 3 mappe: Germania (titolo: «Quali sono i caratteri del dopoguerra in Germania?»), Turchia e Medio Oriente (titolo con domanda), Imperi coloniali (SENZA domanda-titolo nel PDF). Per la terza uso provvisoriamente il titolo «Gli imperi coloniali»: quale domanda metto? 2) Metto le 3 mappe a fine argomento 4 (Germania), 6 (Turchia/Medio Oriente), 7 (movimenti anticoloniali). Per gli altri 5 argomenti NON invento mappe (prompt 22/11), mentre CLAUDE.md §6 dice di costruirle con le parole del docente: confermi 'solo le 3 del prof'? 3) Lo stato aveva una nota 'correzioni 19/11' di claude/hopeful-keller-s5yjrk sulla lez06: ho prenotato io; avvisa quella chat se lavora ancora. Nota tecnica: kit/tools/stato.py ha REPO=/home/claude/lezioni fisso, in questa macchina non esiste: ho usato una copia con il percorso corretto."
+  },
+  {
+   "quando": "22/11 18:32",
+   "testo": "DOPPIONE storia-V-lez06: Sara mi ha assegnato questa lezione (con rifacimento audio del prof dall'originale, voce rovinata), ma lo stato ha già «correzioni 22/11» della chat claude/trusting-franklin-iuufqb (18:24). Come da prompt mi fermo e NON tocco nulla: non ho prenotato e non ho cambiato lo stato. Dimmi se devo (a) restare ferma, (b) occuparmi solo dell'audio del prof rifatto dall'originale, o (c) prendere io la lezione. Nota: stato.py ha REPO=/home/claude/lezioni fisso; qui ho fatto un collegamento."
   }
  ],
  "domande_sara": [],
@@ -15,5 +19,5 @@
    "testo": "correzioni 22/11: presa da claude/trusting-franklin-iuufqb (nota precedente 'correzioni 19/11' di claude/hopeful-keller-s5yjrk: se quella chat lavora ancora sulla lez06, avvisare)"
   }
  ],
- "aggiornato": "2026-11-22 18:29:47"
+ "aggiornato": "2026-11-22 18:32:59"
 }
