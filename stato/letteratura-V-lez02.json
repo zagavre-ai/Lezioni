@@ -30,6 +30,10 @@
   {
    "quando": "22/11 16:48",
    "testo": "Aggiunta voce INTRO2 (benvenuto senza il nome del docente) a testi_voci.json del ramo voci-letteratura-V-lez02, oltre a RN1..RN17: genera INTRO2 e RN1-RN17"
+  },
+  {
+   "quando": "22/11 18:14",
+   "testo": "Il controllo_severo.py e' molto lento qui (OCR su 334 fotogrammi): se potete, accettate anche una verifica con passo 20 s"
   }
  ],
  "domande_sara": [],
@@ -93,7 +97,11 @@
   {
    "quando": "22/11 17:00",
    "testo": "17:00 UTC: 35 pezzi su 49 codificati; mappa del prof in 2 schermate BES con le voci RN1-RN17 (controllate con trascrizione), INTRO2 senza nome del docente. Mancano D4/D7/D6 (lunghi), mappa, mux e controllo severo. Consegna prevista 19:00 UTC"
+  },
+  {
+   "quando": "22/11 18:14",
+   "testo": "18:14 UTC: video v3 montato (55:39, 268 MB); controllo severo in corso (rallentato dall'OCR); poi pacchetto, rapporto e consegna. Consegna prevista 19:15 UTC"
   }
  ],
- "aggiornato": "2026-11-22 17:00:30"
+ "aggiornato": "2026-11-22 18:14:30"
 }
