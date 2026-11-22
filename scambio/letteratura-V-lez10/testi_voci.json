@@ -203,5 +203,25 @@
   "nome": "M12",
   "testo": "Descrizioni semplici di ambienti e di case, con temi legati alla quotidianità.",
   "lingua": "it"
+ },
+ {
+  "nome": "R6_COMP1",
+  "testo": "Domanda uno. Quali furono le principali caratteristiche della politica interna ed estera di Giovanni Giolitti tra il millenovecentotré e il millenovecentoquattordici, e quali conseguenze ebbe lo sviluppo economico di quel periodo sul divario tra Nord e Sud?",
+  "lingua": "it"
+ },
+ {
+  "nome": "R6_COMP2",
+  "testo": "Domanda due. In che modo l'esperienza della Prima guerra mondiale e i fenomeni sociali ad essa collegati contribuirono all'unificazione linguistica in Italia e alla nascita del cosiddetto italiano popolare?",
+  "lingua": "it"
+ },
+ {
+  "nome": "R6_COMP3",
+  "testo": "Domanda tre. Quali scoperte scientifiche e nuove teorie culturali misero in crisi il Positivismo all'inizio del Novecento, e quale ruolo svolsero le riviste fiorentine nel dibattito dell'epoca?",
+  "lingua": "it"
+ },
+ {
+  "nome": "R6_COMP4",
+  "testo": "Domanda quattro. Quali sono le principali differenze di temi, stile e atteggiamento poetico tra i poeti crepuscolari (come Guido Gozzano) e i poeti legati alla rivista «La Voce» (come Clemente Rebora)?",
+  "lingua": "it"
  }
 ]
