@@ -10,6 +10,10 @@
   {
    "quando": "22/11 13:39",
    "testo": "TEC-A lez01: (1) trascrizione fatta (562 segmenti, parlato 67,9 min su 74,4). (2) Ramo voci-moda-tecnologie-III-lez01 creato con scambio/moda-tecnologie-III-lez01/immagini.json, PRIMO GIRO 12 acquerelli (copertina, merino, tosatura, protezione ignifuga, 6 animali delle lane speciali, baco+gelso, bozzolo+aspo): puoi generarli subito. Secondo giro e testi_voci.json seguono entro circa 45 min. (3) Piano: 12 argomenti allineati alle pagine del PDF, 2 Parti (prof 74 min + aggiunte = circa 120 min). (4) Nota: lez02 e lez03 hanno Parti PRONTA vecchie (8/11, 1440p): le rifaccio nel modello Gonna come da prompt; le prenoto quando ci arrivo, non prima. (5) Refusi sul PDF della prof da portare a Sara (non li correggo): pag16 super 100's e super 110's hanno lo stesso diametro 18,25 micron; pag31 'Bombix mori' (Bombyx); pag20 'addetti ai altoforni'; nomi propri in minuscolo a pag28-29 (patagonia, turchia, ankara, stati uniti, africa, asia, himalaya)."
+  },
+  {
+   "quando": "22/11 13:53",
+   "testo": "TEC-A lez01, BLOCCO UNICO sul ramo voci-moda-tecnologie-III-lez01 (scambio/moda-tecnologie-III-lez01): testi_voci.json con 184 voci (Parte 1 e 2 insieme, circa 9000 parole) e immagini.json con 20 acquerelli (12 + 8). Note per Kore: le voci A??_APPROF vanno VIVACI (sono le curiosità con domanda iniziale, circa 40-50 s); le altre in tono chiaro e fermo. Nei testi 'U E' e 'I W T O' sono scritti così per la pronuncia (sulla grafica sono UE e IWTO). Termini inglesi da leggere all'italiana dove possibile: man-made, lambswool, hanks, kid mohair. 'Bombix mori' e' scritto come nel PDF della prof (probabile refuso per Bombyx: lo lascio com'e', da segnalare a Sara). Decisioni mie per applicare le REGOLE_BLINDATE: (1) divisione in Parte 1 = argomenti 1-6 e Parte 2 = argomenti 7-10 con ripasso della Parte 1 in apertura; (2) niente mappe della prof per Tecnologie lez01, le costruisco con le sue parole e lo dichiaro nel rapporto; (3) il titolo della copertina e' 'Preparazione' come sulla sua prima slide (la prof scrive anche 'parte I'; se Sara preferisce 'Preparazione · parte I' dimmelo); (4) il suo PDF e la sua voce non sono sempre allineati (parafrasa): le card seguono il suo testo scritto e si accendono dove lei dice quella frase."
   }
  ],
  "domande_sara": [],
@@ -21,5 +25,5 @@
  ],
  "materia": "Tecnologie dei materiali e dei processi produttivi e organizzativi della moda",
  "docente": "Prof.ssa Piera Caputi",
- "aggiornato": "2026-11-22 13:39:07"
+ "aggiornato": "2026-11-22 13:53:27"
 }
