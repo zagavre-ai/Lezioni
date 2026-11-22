@@ -238,5 +238,15 @@
   "nome": "MP5b",
   "testo": "Hai visto i rami della mappa del professore: la vita, il pensiero, lo stile e le opere. Prima di passare al glossario, prova a ripercorrerli da solo, ramo per ramo.",
   "lingua": "it"
+ },
+ {
+  "nome": "MP3a",
+  "testo": "Dal centro scende il ramo delle opere, che si divide in romanzi, raccolta di racconti e saggi. Cominciamo dai romanzi. Il giorno della civetta, del millenovecentosessantuno: parla di mafia. Il consiglio d'Egitto, del millenovecentosessantatré: è ambientato nel Settecento. A ciascuno il suo, del millenovecentosessantasei: ancora sulla mafia.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP3b",
+  "testo": "Il contesto, del millenovecentosettantuno, e Todo modo, del millenovecentosettantaquattro: due romanzi sulla corruzione politica. Una storia semplice, del millenovecentoottantanove: un romanzo giallo.",
+  "lingua": "it"
  }
 ]
