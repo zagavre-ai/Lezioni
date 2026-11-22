@@ -1,7 +1,7 @@
 {
  "tag": "moda-chimica-III-IV-lez05",
  "parti": {},
- "manca": "",
+ "manca": "assemblaggio completo lez05 (animazioni sulle altre argomenti, glossario, ripasso finale, verifica, compiti, copertina), attesa voci/immagini del giro 1",
  "serve_master": [
   {
    "quando": "22/11 13:28",
@@ -17,7 +17,11 @@
   {
    "quando": "22/11 13:27",
    "testo": "presa da scambio-caputi, modello Gonna 22/11"
+  },
+  {
+   "quando": "22/11 13:55",
+   "testo": "motore pronto e provato su arg.1 (prof nel tondo con card sincronizzate, animazioni sopra la voce, mappa vettoriale, quiz, pillola, approfondimento). Codice su ramo claude/peaceful-cerf-w746tf, cartella chim-b/. Nessuna consegna ancora: lez05 NON e' REVISIONATA. Lez06-08 non iniziate (solo prenotata lez05, materiali scaricati)."
   }
  ],
- "aggiornato": "2026-11-22 13:39:36"
+ "aggiornato": "2026-11-22 13:55:47"
 }
