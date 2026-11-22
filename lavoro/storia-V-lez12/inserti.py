@@ -125,7 +125,7 @@ def pillola(k):
 def quiz(k):
     lab, _, _ = el(f'Q{k}_lab', '<div class="d-lab">Quiz</div>')
     tit, _, ht = el(f'Q{k}_tit', f'<div class="d-tit" style="font-size:80px;width:1600px">Mettiti alla prova</div>')
-    sub, _, _ = el(f'Q{k}_sub', f'<div class="d-line" style="width:1500px;font-size:42px">{E(P.TOP[k]["titolo"])}<br><span style="color:{rend.GIALLO}">5 domande · per continuare serve almeno l\'80%</span></div>')
+    sub, _, _ = el(f'Q{k}_sub', f'<div class="d-line" style="width:1500px;font-size:42px">{E(P.TOP[k]["titolo"])}<br><span style="color:{rend.GIALLO}">5 domande · per continuare serve almeno l\'80%</span><br><span style="font-size:36px;color:#cfd8ee">Rispondi · premi Controlla · poi Continua</span></div>')
     els = [dict(png=lab, x=160, y=340, t0=0.5, d=0.3), dict(png=tit, x=160, y=395, t0=0.5, d=0.4, slide=30), dict(png=sub, x=160, y=395 + ht + 30, t0=1.0, d=0.5)]
     return compone(f'quiz{k}', 4.2, base_scura(), els, [(snd('quiz'), 0.5, 1.0)])
 
@@ -283,7 +283,7 @@ def verifica():
     v = voce.get('V1_VERIFICA')
     lab, _, _ = el('VF_lab', '<div class="d-lab">Verifica di sbarramento</div>')
     tit, _, ht = el('VF_tit', '<div class="d-tit" style="font-size:84px">Verifica finale</div>')
-    sub, _, _ = el('VF_sub', f'<div class="d-line" style="width:1500px;font-size:44px">10 domande<br><span style="color:{rend.GIALLO}">per superarla serve almeno l\'80%</span></div>')
+    sub, _, _ = el('VF_sub', f'<div class="d-line" style="width:1500px;font-size:44px">10 domande<br><span style="color:{rend.GIALLO}">per superarla serve almeno l\'80%</span><br><span style="font-size:36px;color:#cfd8ee">Rispondi · premi Controlla · poi Continua</span></div>')
     els = [dict(png=lab, x=160, y=340, t0=0.5, d=0.3), dict(png=tit, x=160, y=395, t0=0.5, d=0.4, slide=30), dict(png=sub, x=160, y=395 + ht + 30, t0=1.0, d=0.5)]
     return compone('verifica', 0.9 + v['durata'] + 1.6, base_scura(), els, [(snd('quiz'), 0.5, 1.0), (v['wav'], 1.2, 1.0, v['durata'])])
 
@@ -328,7 +328,7 @@ def cover_benvenuto():
 
 def cover_benvenuto2():
     v = voce.get('I3_BENVENUTO2')
-    return compone('cover_ben2', max(12.5, 0.6 + v['durata'] + 0.8), cover_png(False), [], [(v['wav'], 0.6, 1.0, v['durata'])], anim_luce=False)
+    return compone('cover_ben2', max(11.0, 0.6 + v['durata'] + 2.4), cover_png(False), [], [(v['wav'], 0.6, 1.0, v['durata']), (snd('titolo'), 0.6 + v['durata'] + 0.2, 0.8)], anim_luce=False)
 
 def argomenti_scheda():
     v = voce.get('I2_ARGOMENTI'); assert len(v['frasi']) == 8; T0 = 0.6
