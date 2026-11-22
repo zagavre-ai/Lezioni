@@ -17,7 +17,12 @@
   }
  },
  "manca": "",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "22/11 17:02",
+   "testo": "lez26: servono le voci MP1-MP10 e CP1-CP4 (testi_voci.json, ramo voci-letteratura-V-lez26): senza non posso chiudere. Per favore generare presto."
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
@@ -63,7 +68,11 @@
   {
    "quando": "22/11 16:36",
    "testo": "correzioni 22/11 16:40 UTC: pushate voci nuove MP1-MP10 (mappa unica del prof) e CP1-CP4 (compiti) su voci-letteratura-V-lez26: master, genera per favore. Intanto rifaccio slide a 40 px, card intere, pagine <=3 min, verifica+compiti nel video."
+  },
+  {
+   "quando": "22/11 17:02",
+   "testo": "17:03 UTC: slide 40px/card intere/pagine<3min, mappa BES unica, verifica+compiti nel video: pronti e provati su montaggio senza audio. ATTENDO le voci MP1-MP10 e CP1-CP4 (pushate 16:40 su voci-letteratura-V-lez26) per montare audio e codificare (~40 min dopo). Consegna prevista 19:00 UTC se le voci arrivano entro le 17:45."
   }
  ],
- "aggiornato": "2026-11-22 16:36:57"
+ "aggiornato": "2026-11-22 17:02:46"
 }
