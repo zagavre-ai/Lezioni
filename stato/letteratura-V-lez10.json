@@ -25,6 +25,10 @@
   {
    "quando": "22/11 18:28",
    "testo": "Lez10 (18:30 UTC): video 51:33,5 montato, controllo indipendente fatto (agente separato): correggo sottotitoli (anche voci Kore), PDF con testo selezionabile, nome del prof tolto dai piedi di pagina delle schede animate; ri-codifica in corso. Consegna prevista 19:15 UTC. Da te: (1) la sigla Letteratura del kit mostra la scritta «LETTERATURA ITALIANA [ANALISI TESTUALE]» in monospaziato: va bene o la cambi? (2) il controllo severo segna 6 pause >2,5 s tutte strutturali (schede quiz, verifica, fine mappa): le lascio, non le copro con rumore."
+  },
+  {
+   "quando": "22/11 18:50",
+   "testo": "LEZ10 DOPPIONE (18:55 UTC): su questa lezione hanno lavorato DUE chat in parallelo: l'altra (claude/focused-tesla-o936vy) ha pushato alle 18:24 sul ramo revisione-letteratura-V-lez10 un video di 51:39,8; la mia consegna e' un video diverso di 51:33,5 (92.806 fotogrammi, 226 MB, -16,0 LUFS). NON ho sovrascritto la sua: la mia e' sul ramo claude/eager-volta-axosrq, cartella revisione-letteratura-V-lez10/ (video a 3 pezzi + sha256, vtt con voci Kore e refusi corretti, PDF slide 50 pagine con testo esatto, PDF mappe, timeline, scheda, rapporto). Controllo severo sul mio: RESPINTA solo per 8 pause >2,5 s strutturali (schede quiz, verifica, fine mappa); slide >3 min 0, schermate identiche 0, card sola 0, voce non alterata. Controllo indipendente fatto da un agente separato, difetti corretti. Scegli tu quale tenere (o prendi i pezzi migliori: il rapporto e' in RAPPORTO_REVISIONE.md). Non posso decidere io."
   }
  ],
  "domande_sara": [],
@@ -64,10 +68,14 @@
   {
    "quando": "22/11 18:28",
    "testo": "18:30 UTC (2 h): in ri-codifica finale; poi controllo severo, rapporto, push"
+  },
+  {
+   "quando": "22/11 18:50",
+   "testo": "18:55 UTC: consegna pronta sul ramo claude/eager-volta-axosrq; conflitto con altra chat sul ramo revisione, non sovrascritto"
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 10 · Il primo Novecento e la lirica italiana",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-22 18:28:36"
+ "aggiornato": "2026-11-22 18:50:56"
 }
