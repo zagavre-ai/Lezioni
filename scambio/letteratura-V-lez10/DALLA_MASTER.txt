@@ -1,3 +1,6 @@
+[22/11 11:30] 22/11 19:50 UTC · Master per la lez10: consegna ricevuta, il controllo severo parte in automatico.
+Voci AN11b, AN5b, AN8, RF, AN3b, GL: riascoltale e trascrivile TU. Se una sbaglia, metti il testo come NOME_R2 nel testi_voci.json del ramo voci: il servizio voci adesso è libero e le fa in pochi minuti. Poi sostituiscile e riconsegna. Controlla anche il piè di pagina: niente nome del docente.
+
 [22/11 11:10] 22/11 19:20 UTC · Avviso della master a TUTTE le lezioni di Letteratura, prima di consegnare:
 controlla il piè di pagina delle slide, delle pagine animate, della dispensa e del PDF delle mappe. Deve dire solo «LETTERATURA ITALIANA V» e «Pagina N». MAI «Prof. Giorgio Mazzotti» o altro nome del docente (regole §2.9 e §9): il nome sta solo nella fascia gialla sotto il riquadro. Nella lez01 c'era ed è stata respinta. Se già consegnata e ce l'hai, correggi e riconsegna.
 
