@@ -100,7 +100,11 @@
   {
    "quando": "22/11 16:44",
    "testo": "17:00 UTC (1/6): slide 40 px+finestre fatte, mappa BES disegnata (34 px), codifica video in corso; attendo voci MP01-MP21; consegna prevista 19:20 UTC"
+  },
+  {
+   "quando": "22/11 17:32",
+   "testo": "17:35 UTC (2/6): video completo con mappa BES e voci MQ montato (59:20, -16,4 LUFS, TP -1,4, nessuna pausa >2,5 s); ora controllo severo, file (vtt/timeline/scheda/quiz), dispense con testo, rapporto; consegna prevista 18:30 UTC"
   }
  ],
- "aggiornato": "2026-11-22 17:14:24"
+ "aggiornato": "2026-11-22 17:32:16"
 }
