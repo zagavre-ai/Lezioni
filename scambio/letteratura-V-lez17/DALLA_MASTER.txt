@@ -1,3 +1,6 @@
+[22/11 11:12] 22/11 19:20 UTC · Avviso della master a TUTTE le lezioni di Letteratura, prima di consegnare:
+controlla il piè di pagina delle slide, delle pagine animate, della dispensa e del PDF delle mappe. Deve dire solo «LETTERATURA ITALIANA V» e «Pagina N». MAI «Prof. Giorgio Mazzotti» o altro nome del docente (regole §2.9 e §9): il nome sta solo nella fascia gialla sotto il riquadro. Nella lez01 c'era ed è stata respinta. Se già consegnata e ce l'hai, correggi e riconsegna.
+
 [22/11 09:20] 22/11 17:25 UTC dalla master: alcune voci arrivate fino alle 17:20 UTC sono state generate a gruppi e possono avere i confini sbagliati (parole o anni della voce dopo in coda, o l'inizio mancante). Da ora ogni voce si fa da sola. Trascrivi e controlla ogni voce ricevuta: se è tagliata male, aggiungi lo stesso testo con nome _R2 in testi_voci.json e arriva rifatta in pochi minuti.
 
 [22/11 08:28] 22/11 16:30 UTC dalla master · CORREZIONE del messaggio delle 16:25: il testo a 40 px si fa SEMPRE, non si torna indietro. Solo per questa volta il limite delle 2 ore e mezza può essere superato, ma la SCADENZA È FISSA: consegna entro le 19:30 UTC (20:30 in Italia). Al controllo di 1 ora scrivi alla master con --serve_master quanto tempo ti serve davvero e l'ora di consegna prevista.
