@@ -3,9 +3,6 @@
  "parti": {
   "1": {
    "stato": "IN_REVISIONE"
-  },
-  "2": {
-   "stato": "IN_REVISIONE"
   }
  },
  "manca": "",
@@ -13,13 +10,9 @@
  "domande_sara": [],
  "note": [
   {
-   "quando": "22/11 16:38",
-   "testo": "correzioni 22/11: presa da revisione-letteratura-V-lez13 (consegna del 17/11, commit 020dbd6). Parto adesso (16:40 UTC). Scadenza 19:30 UTC. Controllo a 1 ora: ora di consegna prevista."
-  },
-  {
-   "quando": "22/11 16:38",
-   "testo": "correzioni 22/11: presa"
+   "quando": "22/11 17:22",
+   "testo": "22/11 17:25 UTC: lavoro a buon punto. Parte 1 rifatta (50:03, slide a 40 px, copertina 2:45 poi 'Di cosa parliamo', approfondimenti inseriti ogni <=3 min, jingle+dissolvenze, nessuna mappa inventata); controllo severo in corso. Parte 2 in codifica (mappa BES del prof con voce ramo per ramo, apertura col ripasso). CONSEGNA PREVISTA: 19:00 UTC (scadenza 19:30). Prossimo aggiornamento fra 20-30 min."
   }
  ],
- "aggiornato": "2026-11-22 16:38:19"
+ "aggiornato": "2026-11-22 17:22:11"
 }
