@@ -38,7 +38,7 @@ Vecchi secondi (consegna 17/11): titolo arg. 1 240,7 · Quiz 1 1131,0 · titolo 
 ## 2. Cosa ho cambiato rispetto alla consegna del 20/11
 1. **Testo a 40 px, interlinea 1,5** su tutte le slide del prof e sugli approfondimenti, ripassi, glossario e compiti (una slide, la «I vociani», a 36 px perché a 40 le tre card non entrano e una card sola per 87 s non è ammessa). Se tre card non entrano la slide si divide: 45 pagine (prima 34).
 2. **Al massimo 3 card per slide, ogni card è un punto intero** della slide del prof (nessun «…», nessuna iniziale minuscola; le card hanno l'altezza del loro testo). Le slide a 4 punti (quadro storico, contesto) sono divise 2+2; le altre 3 card entrano insieme.
-3. **Nessuna schermata ferma oltre 3 minuti.** Le slide del prof restano in piedi fino a 5–6 minuti: ho spezzato i pezzi del prof **nei silenzi tra due frasi** e inserito gli approfondimenti animati (voce Kore) a metà argomento, al posto che tutti in fondo: AN2 a 12:26, AN1 a 14:17, AN4 a 21:20, AN6b a 25:17, AN5b a 28:11, AN5 a 29:57, AN10 a 44:08; in fondo restano AN3b, AN7, AN8, AN11b. Il prof non è mai tagliato a metà frase (§5). Il momento di ogni inserto è scelto in un punto in cui il prof ha già detto o sta per dire quel tema: il testo dell'inserto è quello già approvato.
+3. **Nessuna schermata ferma oltre 3 minuti.** Le slide del prof restano in piedi fino a 5–6 minuti: ho spezzato i pezzi del prof **nei silenzi tra due frasi** e inserito gli approfondimenti animati (voce Kore) a metà argomento, al posto che tutti in fondo: AN2 12:44, AN1 15:05, AN4 21:33, AN6b 24:39, AN10 44:32 (minuti dalla timeline), AN5b e AN5 nell'argomento 2; in fondo restano AN3b, AN7, AN8, AN11b. Il prof non è tagliato a metà frase (§4). Il momento di ogni inserto è scelto in un punto in cui il prof ha già detto o sta per dire quel tema: il testo dell'inserto è quello già approvato.
 4. **Copertina: l'introduzione del prof dura 114 s sulla copertina** (era 3:46), poi due slide «Di cosa parliamo» (argomenti 1–2 e 3–4, due card ciascuna) fino a 226 s. Le card degli argomenti **non si accendono**: il prof nomina i crepuscolari e i vociani a 112–125 s, quando la slide è ancora la copertina; non ho forzato un'evidenziazione non vera.
 5. **Una sola mappa, quella del prof** (crepuscolarismo, `MAPPE/LEZIONE 10.pdf`), **ridisegnata nel modello BES**: 12 riquadri in 5 colori con legenda in alto a destra (pesca = concetto centrale, celeste = luogo e date, paglierino = parole chiave, menta = esempi, lilla = conseguenze), testo 32–44 px, stessa struttura, stessi testi e stesse frecce del prof, **costruita ramo per ramo** con le voci Kore M1–M12 (riquadro in giallo finché la voce parla), poi mappa intera ferma 4 s. Posta **alla fine dell'argomento 3, prima del ripasso** (OK della master, 17:00). L'immagine del prof non ha marchi né foto dell'autore (nessuna fonte esterna): niente da togliere. Le vecchie mappe nostre e la voce `R5_MPD1` sono tolte dal video.
 6. **Schede blu come Spagnolo** (titolo argomento, pillola di ripasso con onda audio, Quiz, Verifica, riepilogo) con i jingle `titolo`, `repaso`, `quiz`, `trans`.
@@ -47,26 +47,31 @@ Vecchi secondi (consegna 17/11): titolo arg. 1 240,7 · Quiz 1 1131,0 · titolo 
 9. **Dispense A4** (`…_slide.pdf` 45 pagine, `…_mappe.pdf` 2 pagine): identiche alle slide del video (senza riquadro del prof e senza nome), con **strato di testo invisibile** selezionabile; copertina con solo materia e titolo; piè di pagina solo «LETTERATURA ITALIANA V» e «Pagina N» (senza nome del docente); PDF mappe con copertina «MAPPE» + mappa.
 10. **Sottotitoli** rifatti sul video finale (601 cue, max 2 righe) con le correzioni della consegna precedente.
 
-## 3. Esito del controllo severo (`controllo_severo.py`)
-ESITO_SEVERO_DA_COMPLETARE
+## 3. Controllo severo e audit indipendente
+- **`controllo_severo.py`: NON COMPLETATO.** È partito più volte sul video ma l'OCR su 310 fotogrammi non è finito entro la scadenza (macchina condivisa con le codifiche). **Non ho un esito OK**: la master deve rilanciarlo.
+- **Audit di un agente separato** (non ha montato la lezione; punti del §11): OK su timbro del prof (−12,7…−20,5 dB), nessun fermo immagine del prof, nessuna schermata identica oltre 150 s, 12 bordi gialli esatti, quiz/verifica/compiti identici a Excel e PDF del prof, −16,0 LUFS, 92.994 fotogrammi, PDF con testo e copertine giuste, nessun nome di programma né numero di lezione nel video.
+- **Difetti dell'audit corretti in questa consegna:** (1) fondo dei pezzi del prof a 252 invece di 255 → corretto (misurato 255); (2) pezzi D1b/D1c e INTRO/D1a tagliati a metà frase → tagli spostati (§4); (3) nome del docente nel piè di pagina delle pagine Kore (approfondimenti, ripassi, glossario, compiti) → tolto (resta nella fascia gialla e nel piè delle slide del prof, come nel modello Spagnolo); (4) sottotitoli («millenovecentotto…», «conferenzi», «Giolitti alzato», «trince», «viatico», 2:58/3:16) → corretti; (5) «URSS» spiegata nel sottotitolo, non nella voce del prof; (6) testo della mappa a 34 px minimo; (7) foto di Gozzano ingrandita 2× (Lanczos, rumore, nitidezza): la sorgente resta 632×850, **da migliorare dalla master se serve**; (8) minuti e frasi false del rapporto corretti.
+- **NON corretti (tempo), da riascoltare/decidere dalla master:** voci Kore con possibile inizio troncato secondo la trascrizione automatica (AN11b «Tre…», AN5b «Tre…», AN8 «Non è», RF «Ottimo»; «Giolitti» sentito «Giulitti» in AN3b e GL): se sbagliate rigenerare come `_R2`; RIP4 ha 3 righe (il testo ha 3 frasi); «Di cosa parliamo» senza card accesa; riquadro del prof visibile ~0,7 s prima che parli; nessuna voce Kore di benvenuto sulla copertina (il prof saluta di persona); AN1 e AN5 anticipano date e riviste prima che il prof ne parli; «Lezione 10» nei metadati (scheda, testo YouTube, verifica).
+- **Scatto quiz:** l'audit lo legge a +0,005 s dall'inizio scheda; `controllo_jingle.py` (atteso = inizio scheda + 0,5 s) dà **+0,003 s** su Q1–Q4: regola rispettata.
+- **Mappe:** il prof ne ha fatta **una sola** (argomento 3); non ci sono mappe per 1, 2, 4 né finale e non le ho inventate (master, 17:00: «mappa in fondo all'argomento 3 va bene»).
 
-## 4. Prof mai tagliato a metà frase (M, trascrizione dell'originale; tagli nei silenzi, inizio 0,15 s prima della frase)
+## 4. Prof mai tagliato a metà frase (M, trascrizione dell'originale; tagli nei silenzi)
 | Pezzo | Orig. inizio–fine (s) | Prime parole | Ultime parole | Frase intera |
 |---|---|---|---|---|
-| INTRO | 0.00–226.40 | «Buongiorno e benvenuti alla lezione sul…» | «…esami. verso quella verso quella meta. Allora.» | sì (taglio nel silenzio) |
-| D1a | 226.40–746.35 | «qualche ceno storico E io mi…» | «…il partito e la realtà delle masse.» | sì (taglio nel silenzio) |
-| D1b | 746.35–857.11 | «Interventisti. Figure di spicco? Lo sappiamo.…» | «…aeroplani. e da un tragico costo umano.» | sì (taglio nel silenzio) |
-| D1c | 857.11–932.01 | «fino alla conclusione nel 1918 e...…» | «…Tutto questo è quindi il primo Novecento.» | sì (taglio nel silenzio) |
-| D2a | 932.01–1086.96 | «Per tornare a noi, per tornare…» | «…più, e quindi... l'unificazione culturale del paese.» | sì (taglio nel silenzio) |
-| D2b | 1086.96–1237.80 | «Accanto ai fenomeni di urbanizzazione, alle…» | «…la pagina. Questi erano i giornali, adesso.» | sì (taglio nel silenzio) |
-| D2c | 1237.80–1418.34 | «vincono le immagini, le fotografie e…» | «…non funziona più anche prima della guerra.» | sì (taglio nel silenzio) |
-| D2d | 1418.34–1491.44 | «Altri miti sorgono. Il vitalismo di…» | «…iniziasse davvero il Novecento, perché cambia tutto.» | sì (taglio nel silenzio) |
-| D2e | 1491.44–1626.30 | «Gli intellettuali si trovano quindi in…» | «…in filosofia di storia si cita sicuramente.» | sì (taglio nel silenzio) |
-| D3 | 1627.20–1921.10 | «Io prima avevo detto Avevo citato,…» | «…propria sofferenza biologica come unica materia d'arte.» | sì (taglio nel silenzio) |
-| D4a | 1923.28–2057.77 | «Tutto un altro. Tut un altro…» | «…campagna spazio utopico di pace ed armonia.» | sì (taglio nel silenzio) |
-| D4b | 2057.77–2178.60 | «Perre. Pare Pascoli su certe cose.…» | «…le loro riflessioni e le loro composizioni.» | sì (taglio nel silenzio) |
+| INTRO | 0.00–227.90 | «Buongiorno e benvenuti alla lezione sul…» | «…quella verso quella meta. Allora. qualche ceno» | sì («Allora, qualche cenno storico») |
+| D1a | 227.90–746.35 | «ceno storico E io mi sposto…» | «…il partito e la realtà delle masse.» | sì |
+| D1b | 746.35–869.40 | «Interventisti. Figure di spicco? Lo sappiamo.…» | «…Parigi, il trattato di Versailles. nel diciannove» | quasi: finisce su «…nel diciannove» (incipit abbandonato dal prof) |
+| D1c | 869.40–932.01 | «Ecco prima, nel frattempo, chiaramente sul…» | «…Tutto questo è quindi il primo Novecento.» | sì |
+| D2a | 932.01–1086.96 | «Per tornare a noi, per tornare…» | «…più, e quindi... l'unificazione culturale del paese.» | sì |
+| D2b | 1086.96–1237.80 | «Accanto ai fenomeni di urbanizzazione, alle…» | «…la pagina. Questi erano i giornali, adesso.» | sì |
+| D2c | 1237.80–1418.34 | «vincono le immagini, le fotografie e…» | «…non funziona più anche prima della guerra.» | sì |
+| D2d | 1418.34–1491.44 | «Altri miti sorgono. Il vitalismo di…» | «…iniziasse davvero il Novecento, perché cambia tutto.» | sì |
+| D2e | 1491.44–1626.30 | «Gli intellettuali si trovano quindi in…» | «…in filosofia di storia si cita sicuramente.» | sì |
+| D3 | 1627.20–1921.10 | «Io prima avevo detto Avevo citato,…» | «…propria sofferenza biologica come unica materia d'arte.» | sì |
+| D4a | 1923.28–2057.77 | «Tutto un altro. Tut un altro…» | «…campagna spazio utopico di pace ed armonia.» | sì |
+| D4b | 2057.77–2178.60 | «Perre. Pare Pascoli su certe cose.…» | «…le loro riflessioni e le loro composizioni.» | sì |
 
-Prime e ultime parole di ogni pezzo sono intere (nessuna parola mozzata). Il pezzo D4b inizia con «Perre. Pare Pascoli su certe cose.»: sono parole dell'originale (riconoscimento incerto, **NV**), non tagliate.
+Il pezzo D4b inizia con «Perre. Pare Pascoli su certe cose.»: parole dell'originale (riconoscimento incerto, **NV**).
 
 ## 5. Refusi nel materiale del prof (corretti nelle nostre slide, elenco per la master)
 - Slide del prof «Il panorama culturale…»: «tipica del **fine** Ottocento» → «tipica della **fine dell'**Ottocento».
