@@ -6,7 +6,12 @@
   }
  },
  "manca": "",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "22/11 18:35",
+   "testo": "Lez 15: nell'indice la mappa del prof per la lezione 15 NON esiste (MAPPE-...zip ha 1-21 tranne la 15). Non invento mappe: la rifaccio senza mappe del prof, a meno che mi arrivi il PDF. Se c'e' un PDF 'MAPPE LEZIONE 15', ditemi dove. Intanto lavoro su slide 40 px, intro senza riquadro, nome docente fuori dalle voci, spiegone non necessario (una sola Parte), audio -16 LUFS."
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
@@ -14,5 +19,5 @@
    "testo": "correzioni 22/11: presa da claude/wizardly-thompson-2cigpw"
   }
  ],
- "aggiornato": "2026-11-22 18:35:26"
+ "aggiornato": "2026-11-22 18:35:34"
 }
