@@ -55,7 +55,7 @@ def main():
     data = []
     for name, a, b, T in jobs:
         if T is None: subs = [(a, b)]; runs = [[('cover',), int(round((b - a) / 0.1))]]
-        else: subs = sub_intervals(segs, a, b); runs = tract_runs(T, subs, pageidx, isimg)
+        else: subs = subs_of(segs, a, b, T['n']); runs = tract_runs(T, subs, pageidx, isimg)
         data.append((name, a, b, T, subs, runs))
     # pagine: cover=1, agenda=2, poi per ordine di comparsa nel video (anche gli approfondimenti)
     page = {('cover',): 1, ('agenda',): 2}; cur = 3

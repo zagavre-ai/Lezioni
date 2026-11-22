@@ -76,13 +76,13 @@ def build_an():
             if done(piece, sig): continue
             title = ss[0].rstrip('.'); body = ss[1:]; st = starts(name, ss)[1:]
             lab = f"{GLOBAL_ORDER.index(n) + 1:02d} · {ARG[n - 1]['nome']} · APPROFONDIMENTO"
-            lead = 0.4; items = []; ev = [(0.0, -1, 0)]
+            lead = 0.8; items = []; ev = [(0.0, -1, 0)]
             for i, t in enumerate(st): ev.append((lead + t - 0.05, i, i + 1))
             ev.append((lead + d + 0.1, -1, len(body)))
             for i in range(len(body)): items.append((f'{piece}_{i}', sl2.an_slide(lab, title, body, i, i + 1, PAGES[('an', an)])))
             items.append((f'{piece}_e', sl2.an_slide(lab, title, body, -1, len(body), PAGES[('an', an)]))); items.append((f'{piece}_0e', sl2.an_slide(lab, title, body, -1, 0, PAGES[('an', an)])))
             sl2.render(items, W + '/slpng')
-            N = fr(lead + d + 1.2); states = []; used = 0
+            N = fr(lead + d + 2.4); states = []; used = 0
             for j, (t, i, sh) in enumerate(ev):
                 end = fr(ev[j + 1][0]) if j + 1 < len(ev) else N
                 png = f'{W}/slpng/{piece}_0e.png' if j == 0 else (f'{W}/slpng/{piece}_e.png' if i == -1 else f'{W}/slpng/{piece}_{i}.png')
@@ -123,12 +123,16 @@ def build_gloss():
     static_piece(st, f'{W}/pieces/GL.mp4'); save('GL', N, audio, dict(sig=sig))
 
 def build_compiti():
-    comp = json.load(open(W + '/compiti.json'))['compiti']
-    for k, c in enumerate(comp, 1):
-        d = vdur(f'CPT{k}'); sig = [round(d, 2)]; piece = f'CPT{k}'
+    comp = [c['testo'] for c in json.load(open(W + '/compiti.json'))['compiti']]
+    for g in (1, 2):
+        names = [f'CPT{2 * g - 1}', f'CPT{2 * g}']; ds = [vdur(x) for x in names]; sig = [round(x, 2) for x in ds]; piece = f'CPS{g}'
         if done(piece, sig): continue
-        sl2.render([(f'cmp{k}', sl2.compito(k, c['testo'], PAGES[('cmp', k)]))], W + '/slpng')
-        N = fr(0.5 + d + 1.4); static_piece([(f'{W}/slpng/cmp{k}.png', N)], f'{W}/pieces/{piece}.mp4'); save(piece, N, [(0.5, 'wav', vf(f'CPT{k}'))], dict(sig=sig))
+        pg = PAGES[('cmp', g)]; k0 = 2 * g - 1; tt = comp[k0 - 1:k0 + 1]
+        sl2.render([(f'cps{g}_{i}', sl2.compiti2(k0, tt, i, pg)) for i in (-1, 0, 1)], W + '/slpng')
+        t = 0.5; ev = []; audio = []
+        for i in range(2): audio.append((t, 'wav', vf(names[i]))); ev.append(t); t += ds[i] + 0.9
+        N = fr(t - 0.9 + 1.2); st = [(f'{W}/slpng/cps{g}_-1.png', fr(ev[0] - 0.1)), (f'{W}/slpng/cps{g}_0.png', fr(ev[1] - 0.1) - fr(ev[0] - 0.1)), (f'{W}/slpng/cps{g}_1.png', N - fr(ev[1] - 0.1))]
+        static_piece(st, f'{W}/pieces/{piece}.mp4'); save(piece, N, audio, dict(sig=sig))
 
 if __name__ == '__main__':
     for f in (sys.argv[1:] or ['cover', 'agenda', 'an', 'schema', 'gloss', 'compiti']): globals()['build_' + f]()

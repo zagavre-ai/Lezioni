@@ -52,14 +52,14 @@ def build_timeline():
         d = vdur(f'PI{n}'); cap_end = json.load(open(f'{W}/sch/R{pos}.json'))['caps'][-1][1] if os.path.exists(f'{W}/sch/R{pos}.json') else d + 1.2
         T.add(f'pillola{pos}', norm_sch(f'R{pos}', f'{P}/rep{pos}.mp4'), [(0, 'wav', S('repaso.wav')), (0.9, 'wav', vf(f'PI{n}'))], f'pillola{pos}')
         i = info(f'S{pos}'); T.add(f'schema{pos}', f'{P}/S{pos}.mp4', [tuple(a) for a in i['audio']], f'schema{pos}')
-        T.add(f'quiz{pos}', norm_sch(f'Q{pos}', f'{P}/quiz{pos}.mp4'), [(0.5, 'wav', S('quiz.wav'))], f'quiz{pos}')
+        T.add(f'quiz{pos}', norm_sch(f'Q{pos}', f'{P}/quiz{pos}.mp4', 4.6), [(0.5, 'wav', S('quiz.wav'))], f'quiz{pos}')
     i = info('GL'); T.add('glossario', f'{P}/GL.mp4', [tuple(a) for a in i['audio']], 'glossario')
     T.add('riepilogo', norm_sch('F', f'{P}/fin.mp4', vdur('FIN') + 2.5), [(0.8, 'wav', vf('FIN'))], 'riepilogo')
-    T.add('verifica', norm_sch('V', f'{P}/ver.mp4'), [(0.5, 'wav', S('quiz.wav'))], 'verifica')
+    T.add('verifica', norm_sch('V', f'{P}/ver.mp4', 4.6), [(0.5, 'wav', S('quiz.wav'))], 'verifica')
     T.add('finale', f'{P}/finale.mp4', [(0, 'wav', W + '/aud/finale.wav')], 'finale')
     T.add('compiti', norm_sch('C', f'{P}/comp.mp4'), [(0, 'wav', S('titolo.wav'))], 'compiti')
-    for k in range(1, 5):
-        i = info(f'CPT{k}'); T.add(f'compito{k}', f'{P}/CPT{k}.mp4', [tuple(a) for a in i['audio']], f'compito{k}')
+    for k in (1, 2):
+        i = info(f'CPS{k}'); T.add(f'compito{k}', f'{P}/CPS{k}.mp4', [tuple(a) for a in i['audio']], f'compito{k}')
     for i in range(1, len(T.pieces)): T.pieces[i]['audio'].append((0, 'wav', S('trans.wav')))
     return T
 
@@ -72,7 +72,10 @@ def mix_prof(T, out_wav):
         for off, kind, arg in p['audio']:
             if kind == 'wav': a = readwav(arg)
             else:
-                segs_ = [prof[int(round(x * SR)): int(round(x * SR)) + nf * (SR // 30)] for x, nf in arg]
+                segs_ = []
+                for x, nf in arg:
+                    sg = prof[int(round(x * SR)): int(round(x * SR)) + nf * (SR // 30)].copy(); f = int(0.01 * SR)
+                    sg[:f] *= np.linspace(0, 1, f); sg[-f:] *= np.linspace(1, 0, f); segs_.append(sg)
                 a = np.repeat(np.concatenate(segs_)[:, None], 2, axis=1)
             s = t0 + int(round(off * SR)); e = min(total, s + len(a)); mix[s:e] += a[:e - s]
     return mix

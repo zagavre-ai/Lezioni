@@ -63,11 +63,32 @@ def kore_cues():
     for (off, kind, path), nm in zip(i['audio'], ['GL0'] + [f'GL{x + 1}' for x in range(len(GLOSS))]):
         d = vdur(nm); cues.append((START['glossario'] + off, START['glossario'] + off + d, DISP(T[nm])))
     voice_cues('riepilogo', 0.8, 'FIN', cues)
-    for k in range(1, 5): voice_cues(f'compito{k}', 0.5, f'CPT{k}', cues)
+    for g in (1, 2):
+        i = json.load(open(f'{W}/info/CPS{g}.json'))
+        for (off, kind, path), nm in zip(i['audio'], [f'CPT{2 * g - 1}', f'CPT{2 * g}']): voice_cues(f'compito{g}', off, nm, cues)
     return cues
 
+def snap_onsets(cues):
+    """inizio di ogni blocco agganciato all'attacco reale della voce (energia sopra la soglia dopo una pausa); due passate"""
+    import numpy as np, subprocess
+    x = np.frombuffer(subprocess.run(['ffmpeg', '-v', 'error', '-i', OUT + '/audio.wav', '-ac', '1', '-ar', '8000', '-f', 's16le', '-'], capture_output=True).stdout, np.int16).astype(float)
+    SR = 8000; e = np.convolve(x ** 2, np.ones(400) / 400, 'same'); thr = np.percentile(e, 60)
+    def onset(a):
+        i0 = int(max(0, a - 0.8) * SR); seg = e[i0:int((a + 0.8) * SR)]
+        if len(seg) and seg[:int(0.5 * SR)].mean() < thr * 0.5:
+            if (seg > thr).any(): return i0 / SR + int(np.argmax(seg > thr)) / SR
+            j0 = int(a * SR); s2 = e[j0:j0 + int(2.0 * SR)]
+            if (s2 > thr).any(): return a + int(np.argmax(s2 > thr)) / SR
+        return a
+    cues = [list(c) for c in cues]
+    for _ in range(2):
+        prev = 0.0
+        for c in cues:
+            a2 = max(onset(c[0]), prev + 0.02); c[1] = max(c[1], a2 + 0.8); c[0] = a2; prev = a2
+    return [tuple(c) for c in cues]
+
 def write_vtt(path):
-    cues = sorted(prof_cues() + kore_cues())
+    cues = snap_onsets(sorted(prof_cues() + kore_cues()))
     res = []
     for a, b, tx in cues:
         if res and a < res[-1][1]: res[-1] = (res[-1][0], a - 0.02, res[-1][2])

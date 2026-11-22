@@ -12,7 +12,7 @@ END = 2538.9
 STARTV = 0.6
 
 CUESM = {
- 1: [(109.2, -1), (178.0, 0), (214.2, 2), (281.9, 1), (304.4, 3), (324.4, 2), (377.4, 1), (395.8, 3)],
+ 1: [(109.2, -1), (178.0, 0), (214.2, 2), (283.4, 1), (304.4, 3), (324.4, 2), (377.4, 1), (395.8, 3)],
  2: [(430.4, -1), (437.4, 3), (458.8, 0), (567.4, 2), (592.0, 1)],
  3: [(618.7, -1), (639.6, 0), (705.0, 1), (757.2, 2)],
  4: [(826.7, -1), (827.1, 1), (875.3, 0), (916.2, 2), (1031.7, 3)],
@@ -80,9 +80,28 @@ def state_at(t, T, pageidx, isimg):
         if tt <= t: c = k; w = ww
     return ('txt', T['n'], w, c)
 
-SPLIT = {1: [296.9], 2: [592.0], 3: [757.2], 4: [916.2], 5: [1142.3], 6: [1304.7], 7: [1711.4, 1793.3], 8: [2046.6], 9: [2304.4], 10: [2463.8]}
+SPLIT = {1: [296.9], 2: [592.0], 3: [763.6], 4: [916.2], 5: [1142.3], 6: [1304.7], 7: [1711.4, 1793.3], 8: [2046.6], 9: [2304.4], 10: [2463.8]}
+# digressioni del prof rimesse nell'argomento a cui appartengono (nessuna slide o immagine in due argomenti):
+#   Maghreb/Gheddafi (segmenti 240-251) -> argomento 5; colonie portoghesi (segmenti 231-239) -> argomento 7
+EXTRA = {5: (240, 251), 7: (231, 239)}
+SKIP = {6: [(1304.5, 1480.0)]}
+DROPS = [(103.0, 105.40), (827.78, 828.58), (511.85, 512.65), (1065.8, 1066.4), (1249.75, 1250.55), (1255.55, 1257.70), (1436.0, 1436.65), (1797.95, 1799.7), (2340.45, 2341.2)]
+# ripetizioni, incespicamenti e riempitivi del prof (Per il loro. Per le loro. / L'Indonesia appunto / Um / ehm / Mm): tolti
 AN_OF = {1: (1, 2), 2: (3, 4), 3: (5, 6), 4: (7, 8), 5: (9, 10), 6: (12, 11), 7: (13, 14), 8: (15, 16), 9: (17, 18), 10: (19, 20)}
-# per l'argomento 7 il primo approfondimento sta dopo il tratto A, il secondo dopo il tratto B1 (che chiude sulla mappa a meta')
+
+def cut_intervals(subs, cuts):
+    out = []
+    for x, y in subs:
+        cur = [(x, y)]
+        for a, b in cuts:
+            nxt = []
+            for p, q in cur:
+                if b <= p or a >= q: nxt.append((p, q)); continue
+                if a - p > 0.2: nxt.append((p, a))
+                if q - b > 0.2: nxt.append((b, q))
+            cur = nxt
+        out += cur
+    return out
 
 def tracts(segs, T):
     """tratti del prof dentro l'argomento: tagli solo a fine frase, 0,15 s prima della frase che segue. Ritorna [(a,b)] e la tabella dei tagli."""
@@ -96,7 +115,14 @@ def tracts(segs, T):
         out.append((a0, round(end, 3))); info.append((round(end, 1), ss[j - 1]['testo'], fine_frase(ss[j - 1]['testo'])))
         a0 = round(ss[j]['inizio'] - 0.15, 3)
     out.append((a0, T['src_b']))
+    if T['n'] in EXTRA:
+        i0, i1 = EXTRA[T['n']]
+        a = round(segs[i0]['inizio'] - 0.15, 3); b = round(min(segs[i1]['fine'] + 0.45, segs[i1 + 1]['inizio'] - 0.3), 3)
+        out.append((a, b)); info.append((b, segs[i1]['testo'], fine_frase(segs[i1]['testo'])))
     return out, info
+
+def subs_of(segs, a, b, n):
+    return cut_intervals(sub_intervals(segs, a, b), DROPS + SKIP.get(n, []))
 
 if __name__ == '__main__':
     segs, topics, intro, pageidx, dmin, isimg = plan()

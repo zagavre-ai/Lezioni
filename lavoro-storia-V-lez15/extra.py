@@ -10,7 +10,9 @@ FPS = 30
 VOX48 = os.environ.get('VOX48', W + '/vox48')
 
 def vname(name):
-    return name + '_R2' if os.path.exists(f'{VOX}/{name}_R2.wav') else name
+    for suf in ('_R3', '_R2'):
+        if os.path.exists(f'{VOX}/{name}{suf}.wav'): return name + suf
+    return name
 
 def vdur(name):
     f = f'{VOX}/{vname(name)}.wav'

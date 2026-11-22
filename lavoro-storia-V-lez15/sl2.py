@@ -57,13 +57,23 @@ body{width:1920px;height:1080px;background:#fff;font-family:'FG';color:#0B1530;p
 .ar{display:flex;align-items:center;border:4px solid #E3E7EF;border-radius:18px;padding:0 28px;height:68px;margin-bottom:8px;font-size:36px;font-weight:700}
 .ar i{font-style:normal;flex:0 0 66px;height:50px;width:50px;border-radius:50%;background:#E3E7EF;font-weight:800;font-size:28px;display:flex;align-items:center;justify-content:center;margin-right:24px;flex:0 0 50px}
 .ar.on{background:#FFF7B8;border-color:#FFE600}.ar.on i{background:#FFE600}
-.gr{display:flex;align-items:center;border:3px solid #E3E7EF;border-radius:18px;padding:0 28px;height:92px;margin-bottom:10px;font-size:32px;line-height:1.25;font-weight:500}
-.gr b{flex:0 0 480px;font-weight:800;font-size:36px;color:#2060AF}
+.gr{display:flex;align-items:center;border:3px solid #E3E7EF;border-radius:18px;padding:0 28px;height:84px;margin-bottom:6px;font-size:30px;line-height:1.25;font-weight:500}
+.gr b{flex:0 0 440px;font-weight:800;font-size:34px;color:#2060AF}
 .gr.on{background:#FFE600;border-color:#FFE600}.gr.on b{color:#0B1530}
 .cmp{position:absolute;left:80px;top:300px;width:1760px;border:4px solid #E3E7EF;border-radius:24px;padding:36px 48px;font-size:46px;line-height:1.5;font-weight:500;box-shadow:0 14px 40px rgba(30,40,70,.10)}
 .cmp .n{display:inline-flex;align-items:center;justify-content:center;width:64px;height:64px;border-radius:50%;background:#FFE600;font-weight:800;font-size:38px;margin-right:22px;vertical-align:middle}
 """.replace("%(f)s", FD)
 
+SIGLE = [('ONU', 'Organizzazione delle Nazioni Unite'), ('USA', "Stati Uniti d'America"), ('URSS', 'Unione Sovietica'), ('FLN', 'Fronte di Liberazione Nazionale'),
+         ('ANC', 'African National Congress'), ('FMI', 'Fondo Monetario Internazionale'), ('NATO', "Organizzazione del Trattato dell'Atlantico del Nord"),
+         ('UNESCO', "Organizzazione delle Nazioni Unite per l'educazione, la scienza e la cultura")]
+def espandi(s):
+    """ogni sigla si rispiega ogni volta che compare (BES): tra parentesi, salvo che la forma estesa sia gia' nel testo"""
+    import re as _re
+    for sg, ext in SIGLE:
+        if sg in s and ext.lower() not in s.lower():
+            s = _re.sub(r'\b' + sg + r'\b', f'{sg} ({ext})', s)
+    return s
 def esc(s): return html.escape(s)
 
 def frame(lab, body, foot_page, prof=True, pill=None, keys=None, active=-1, materia=MATERIA):
@@ -99,7 +109,7 @@ def txt_slide(n, win, active, cp, page, windows=None, prof=True):
     """win: indice finestra; active: indice card accesa (globale 0..3) o -1"""
     a = ARG[n - 1]; idx = windows[win]; cards = ''
     for k, i in enumerate(idx):
-        h, b = head_body(cp[n][i])
+        h, b = head_body(espandi(cp[n][i]))
         cls = 'on' if i == active else 'dim' if active >= 0 else ''
         cards += f"<div class='card {cls}'><div class=num>{k + 1}</div><div><b>{esc(h)}:</b> {esc(b)}</div></div>"
     body = f"<div class=main><div class=ttl>{esc(a['titolo'])}</div><div class=cards>{cards}</div></div>"
@@ -149,6 +159,7 @@ def _anno(m):
     return m.group(0)
 EXTRA = [("quindici milioni", "15 milioni"), ("Risoluzione centottantuno", "Risoluzione 181"), ("ventinove Stati", "29 Stati")]
 def DISP(s):
+    s = espandi(s)
     s = re.sub(r'millenovecento(\w*)', _anno, s)
     for a, b in EXTRA: s = s.replace(a, b)
     return s
@@ -158,7 +169,7 @@ def gloss(active, page, terms=None):
     for i, (t, d) in enumerate(terms):
         dd = DISP(d); dd = dd[0].upper() + dd[1:]
         rows += f"<div class='gr {'on' if i == active else ''}'><b>{esc(t)}</b><span>{esc(dd)}</span></div>"
-    return frame('GLOSSARIO · PAROLE CHIAVE', f"<div class=main><div class=ttl>Glossario</div></div><div class=ag style='top:290px'>{rows}</div>", page, prof=False)
+    return frame('GLOSSARIO · PAROLE CHIAVE', f"<div class=main><div class=ttl>Glossario</div></div><div class=ag style='top:252px'>{rows}</div>", page, prof=False)
 
 def compito(k, testo, page):
     body = f"<div class=main><div class=ttl>Compiti</div></div><div class=cmp><span class=n>{k}</span>{esc(testo)}</div>"
@@ -192,3 +203,12 @@ def cover_dispensa():
     h += f"<div class=cover-t style='top:330px'>{esc(LEZ_TITOLO).replace(' (', '<br>(')}</div><div class=bar style='top:530px'></div>"
     h += f"<div class=foot style='left:80px'>{MATERIA}</div><div class=foot style='right:80px'>Pagina 1</div>"
     return h + "</body></html>"
+
+def compiti2(k0, testi, active, page):
+    """due compiti per schermata, testo 40 px: ogni compito e' una card che si accende con la voce"""
+    cards = ''
+    for i, t in enumerate(testi):
+        cls = 'on' if i == active else 'dim' if active >= 0 else ''
+        cards += f"<div class='card {cls}' style='width:1760px'><div class=num>{k0 + i}</div><div>{esc(t)}</div></div>"
+    body = f"<div class=main style='width:1760px'><div class=ttl>Compiti</div><div class=cards>{cards}</div></div>"
+    return frame('COMPITI DEL DOCENTE', body, page, prof=False)

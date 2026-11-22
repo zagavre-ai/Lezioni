@@ -27,7 +27,7 @@ def build_pages():
             lab = f"{GLOBAL_ORDER.index(n) + 1:02d} · {ARG[n - 1]['nome']} · APPROFONDIMENTO"; h = sl2.an_slide(lab, ss[0].rstrip('.'), ss[1:], -1, len(ss) - 1, pg)
         elif key[0] == 'schema': h = sl2.schema(key[1], 99, pg)
         elif key[0] == 'gloss': h = sl2.gloss(-1, pg)
-        elif key[0] == 'cmp': h = sl2.compito(key[1], json.load(open(W + '/compiti.json'))['compiti'][key[1] - 1]['testo'], pg)
+        elif key[0] == 'cmp': k0 = 2 * key[1] - 1; h = sl2.compiti2(k0, [c['testo'] for c in json.load(open(W + '/compiti.json'))['compiti']][k0 - 1:k0 + 1], -1, pg)
         else: continue
         out.append((pg, str(key), h))
     return out
