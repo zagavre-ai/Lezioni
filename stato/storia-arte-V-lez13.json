@@ -11,6 +11,10 @@
   {
    "quando": "22/11 22:52",
    "testo": "Storia arte lez13: (1) Wikimedia/upload.wikimedia.org dà 403 dalla mia rete: uso solo le immagini del PDF del prof (opere 460-970 px, da ingrandire). Se la master può mettere sul ramo voci-storia-arte-V-lez13 versioni alte di: Le muse inquietanti, Canto d'amore, L'enigma di un pomeriggio d'autunno, Casa del Fascio di Como, Palazzo della Civiltà Italiana, via della Conciliazione, lo faccio volentieri. (2) Il video sorgente è 1092x614 con webcam di 246x138 px: il riquadro 4:3 sarà molto ingrandito (circa 2x). (3) Mi aspetto durata ~40 min di prof + aggiunte: una sola Parte. Mando testi_voci.json appena ho la trascrizione."
+  },
+  {
+   "quando": "22/11 22:59",
+   "testo": "testi_voci.json caricato sul ramo voci-storia-arte-V-lez13 (21 voci, inclusa COMPITI). Nota: nel testo della verifica ho evitato il numero 6,6 m dell'altezza della Casa del Fascio (il prof dice 'esattamente la metà del lato di base', con lato 33,2: 6,6 non torna, probabile 16,6): anomalia nel rapporto."
   }
  ],
  "domande_sara": [],
@@ -18,10 +22,14 @@
   {
    "quando": "22/11 22:45",
    "testo": "storia arte 22/11: presa da claude/zealous-rubin-bmxov8"
+  },
+  {
+   "quando": "22/11 22:59",
+   "testo": "voci inviate; montaggio con voci provvisorie in corso"
   }
  ],
  "materia": "Storia dell'arte V",
  "lezione": "Lezione 13 · Razionalismo e Metafisica",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-22 22:52:30"
+ "aggiornato": "2026-11-22 22:59:49"
 }
