@@ -25,9 +25,13 @@
   {
    "quando": "22/11 20:18",
    "testo": "22/11 ~21:20 UTC: montaggio di prova pronto con voci provvisorie. Una Parte sola = 69,6 min e 612 MB (oltre i 400 MB): dividerò in 2 Parti: P1 argomenti 1-4 (41,5 min, 361 MB), P2 spiegone + argomenti 5-6 + fine (30 min, 265 MB). Entrambe sotto i 45 min del controllo severo (materiale del prof insufficiente per altro). Nuove voci Kore da generare: testi_voci.json sul ramo voci-storia-V-lez12 (24 nuovi nomi + S1_SPIEGONE 6 argomenti; da usare gli ultimi testi nel ramo). Parte del prof: le ultime frasi dell'introduzione (27 s) cadono all'inizio dell'argomento 1 perché l'intro sopra la copertina è limitata a 3 min."
+  },
+  {
+   "quando": "22/11 22:54",
+   "testo": "23/11 00:00 IT: Parte 1 e 2 montate con voci provvisorie; controllo rapido OK su P1, P2 (picco da riverificare dopo le voci). Attendo le voci Kore (testi_voci.json su voci-storia-V-lez12) per la consegna finale."
   }
  ],
  "materia": "Storia",
  "lezione": "12",
- "aggiornato": "2026-11-22 20:18:43"
+ "aggiornato": "2026-11-22 22:54:16"
 }
