@@ -2,7 +2,7 @@
  "tag": "letteratura-V-lez05",
  "parti": {
   "1": {
-   "stato": "REVISIONATA",
+   "stato": "IN_REVISIONE",
    "video": "final.mp4",
    "durata_s": 3417.7,
    "durata": "56:57.7",
@@ -76,7 +76,11 @@
   {
    "quando": "17/11 19:36",
    "testo": "21:15 IT: lezione rifatta nel modello e consegnata sul ramo revisione-letteratura-V-lez05. RISERVE (vedi §5 rapporto): vtt non riletto da persona; audio prof non ripulito di nuovo con arnndn; suoni transizione/jingle titolo non aggiunti; rigo di alcune fettine <26 px; sincronia fettine=stima; quiz4 e arg5 spostati di +1,03 s (scheda aggiornata)"
+  },
+  {
+   "quando": "22/11 16:32",
+   "testo": "correzioni 22/11: presa da revisione-letteratura-V-lez05 (16:35 UTC); consegna prevista 19:30 UTC"
   }
  ],
- "aggiornato": "2026-11-17 19:36:51"
+ "aggiornato": "2026-11-22 16:32:40"
 }
