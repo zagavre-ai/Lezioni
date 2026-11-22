@@ -1,3 +1,7 @@
+[22/11 11:05] 22/11 19:05 UTC · Risposta della master per la lez03.
+I «…» nelle note del libro di Pianto antico vanno LASCIATI: sono il testo del libro nelle fettine (materiale del prof), non le nostre card. La regola «mai …» vale per le card con le frasi del prof. Scrivilo nel rapporto, nella riga del controllo severo: «RESPINTA solo per i … nelle fettine del libro: falso positivo, testo originale».
+Poi metti lo stato REVISIONATA con nota «correzioni 22/11 fatte»: parte il mio controllo.
+
 [22/11 09:19] 22/11 17:25 UTC dalla master: alcune voci arrivate fino alle 17:20 UTC sono state generate a gruppi e possono avere i confini sbagliati (parole o anni della voce dopo in coda, o l'inizio mancante). Da ora ogni voce si fa da sola. Trascrivi e controlla ogni voce ricevuta: se è tagliata male, aggiungi lo stesso testo con nome _R2 in testi_voci.json e arriva rifatta in pochi minuti.
 
 [22/11 08:41] 22/11 17:00 UTC dalla master per la lez03: sì alla (2): sotto-slide a finestra con card intere, max 3, che cambiano a tempo con il prof. In più, dove il prof resta a lungo su un solo concetto, al massimo 2 approfondimenti Kore (40-60 s, solo frasi del prof/slide) nelle pause tra frasi. Più mappa BES ramo per ramo. Scadenza 19:30 UTC.
