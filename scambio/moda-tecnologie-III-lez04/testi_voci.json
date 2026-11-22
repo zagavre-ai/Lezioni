@@ -1,0 +1,138 @@
+[
+ {
+  "nome": "A0_INTRO_P1",
+  "testo": "Benvenuti alla lezione Tessitura, prima parte, con la professoressa Piera Caputi. Oggi scopriamo come i filati diventano tessuti. Vedremo i tessuti a navetta, fatti con ordito e trama; il verso, le cimose e l'altezza; la messa in carta e le armature fondamentali: tela, saia e raso; e i tessuti composti. Alla fine di ogni argomento trovate un quiz di cinque domande: per continuare serve almeno l'ottanta per cento. Cominciamo."
+ },
+ {
+  "nome": "A0_INTRO_P2",
+  "testo": "Benvenuti alla seconda parte della lezione Tessitura, con la professoressa Piera Caputi. Prima di continuare, un ripasso della prima parte: i tessuti a navetta, il verso, le cimose, l'altezza, le armature tela, saia e raso, e i tessuti composti. Ora vedremo come nasce un tessuto, dal progetto al telaio, e poi i tessuti a maglia: le macchine, gli aghi, la finezza e i punti. Alla fine di ogni argomento trovate un quiz di cinque domande: per continuare serve almeno l'ottanta per cento."
+ },
+ {
+  "nome": "A1_TITOLO",
+  "testo": "Primo argomento. Dal filato al tessuto a navetta."
+ },
+ {
+  "nome": "A2_TITOLO",
+  "testo": "Secondo argomento. Verso, cimose, altezza, dritto e rovescio."
+ },
+ {
+  "nome": "A3_TITOLO",
+  "testo": "Terzo argomento. Gli intrecci e la messa in carta."
+ },
+ {
+  "nome": "A4_TITOLO",
+  "testo": "Quarto argomento. Le armature: tela, saia, raso, e i tessuti composti."
+ },
+ {
+  "nome": "A5_TITOLO",
+  "testo": "Quinto argomento. Dal progetto al telaio."
+ },
+ {
+  "nome": "A6_TITOLO",
+  "testo": "Sesto argomento. I tessuti a maglia: boccole e aghi."
+ },
+ {
+  "nome": "A7_TITOLO",
+  "testo": "Settimo argomento. Le macchine da maglieria."
+ },
+ {
+  "nome": "A8_TITOLO",
+  "testo": "Ottavo argomento. Finezza, punti ed effetti: colore e imbottitura."
+ },
+ {
+  "nome": "A1_APPROF",
+  "testo": "Sai perché si dice tessuto a navetta? La navetta era l'attrezzo tradizionale che racchiudeva la trama e ne consentiva l'inserimento nel telaio. Oggi la navetta è sostituita da pinze, getti d'aria, getti d'acqua o proiettili, ma il nome della tecnologia è rimasto. Nel tessuto a navetta i fili si incrociano ad angolo retto. I fili in verticale sono l'ordito, detto anche catena, e determinano la lunghezza del tessuto. I fili in orizzontale sono la trama, e determinano la larghezza, che si chiama altezza. Per creare l'ordito servono fili con maggiore torsione, più resistenti e tesi. Per la trama si usano fili con minore torsione, meno resistenti ma più elastici e confortevoli. Lo spessore dei fili determina il peso del tessuto, il costo e i possibili impieghi."
+ },
+ {
+  "nome": "A1_RIPASSO",
+  "testo": "Ripassiamo. Uno: con la tessitura i filati si intrecciano e diventano tessuti. Due: i tessuti a navetta hanno fili ortogonali, cioè ad angolo retto. Tre: l'ordito, o catena, è verticale, con fili più resistenti e tesi. Quattro: la trama è orizzontale, con fili meno resistenti ma più elastici e confortevoli. Cinque: l'espressione a navetta deriva dall'attrezzo tradizionale che racchiudeva la trama."
+ },
+ {
+  "nome": "A2_APPROF",
+  "testo": "Lo sapevi? Sulle due facce di un tessuto non c'è la stessa cosa. Sul dritto si vedono maggiormente i fili di ordito, e la superficie è più lucida, liscia e pulita. Sul rovescio si nota di più la trama. Nelle cimose parlate la scritta si legge sul dritto, mentre il cartellino della pezza si mette sul rovescio, per evitare macchie. Per aiutare i tagliatori, si applicano etichette adesive o cucite che indicano il dritto: così si evitano errori che si noterebbero solo dopo la confezione del capo. Conoscere il verso, cioè la direzione che il tessuto deve avere sulla persona, serve a disporre bene i pezzi del modello e a ridurre al minimo gli sprechi di materiale. Il verso è indifferente nei pois, obbligato se le figure hanno un senso orientato, semiobbligato nei motivi a triangoli."
+ },
+ {
+  "nome": "A2_RIPASSO",
+  "testo": "Ripassiamo. Uno: il verso indica la direzione che il tessuto deve assumere sulla persona; può essere indifferente, obbligato o semiobbligato. Due: le cimose sono i bordi laterali resistenti che evitano lo sfilacciamento; sono basse sotto i sette millimetri, medie tra sette e quattordici, alte sopra i quattordici. Tre: l'altezza è la misura in centimetri tra una cimosa e l'altra. Quattro: sono basse sotto i cento centimetri e doppie sopra i cento. Cinque: dritto e rovescio vanno distinti con attenzione."
+ },
+ {
+  "nome": "A3_APPROF",
+  "testo": "Sai come si scopre l'intreccio di un tessuto? Si fa la scampionatura: la scomposizione di un campione. A mano servono una lente, uno spillo, carta quadrettata e una matita. Si taglia il tessuto, con l'ordito sul lato lungo e la trama sul lato corto, si mette il dritto verso di noi e si sfilano i fili, per creare una frangia di circa mezzo centimetro. Poi si estraggono i fili dall'alto con lo spillo, annotando ogni passaggio, fino a ricostruire l'unità base: il rapporto d'armatura. Sulla griglia, ogni colonna verticale è un ordito, ogni riga orizzontale è una trama. Il quadretto si annerisce se l'ordito passa sopra la trama; resta vuoto se l'ordito rimane sotto. Il rapporto d'armatura si indica in rosso cinabro."
+ },
+ {
+  "nome": "A3_RIPASSO",
+  "testo": "Ripassiamo. Uno: ci sono quattro categorie di intrecci, secondo il numero di orditi e di trame. Due: la scampionatura scompone un campione per ricavare l'intreccio. Tre: sulla griglia, ogni colonna è un ordito e ogni riga è una trama. Quattro: il quadretto è nero se l'ordito passa sopra la trama, vuoto se resta sotto. Cinque: il rapporto d'armatura è l'unità minima che si ripete; due per due significa due orditi e due trame."
+ },
+ {
+  "nome": "A4_APPROF",
+  "testo": "Lo sapevi? Il raso è l'armatura dei contrasti. Nella seta il dritto appare estremamente lucido e il rovescio completamente opaco. I punti di incrocio formano una diagonale interrotta da un intervallo chiamato scoccamento, o diffalcamento. Ma le briglie lunghe, cioè i fili che passano sopra molti altri, lo rendono delicato: inclina allo sfilacciamento ed è scivoloso, quindi le cuciture sono difficili e i costi di lavorazione aumentano. Per questo il raso si usa per capi di alto pregio estetico. La saia, invece, mostra linee diagonali inclinate a S o a Z, e può raggiungere quarantacinque gradi quando la riduzione e il titolo di ordito e trama coincidono. È ideale per il drappeggio, per la drapperia maschile e per i capi a spalla."
+ },
+ {
+  "nome": "A4_RIPASSO",
+  "testo": "Ripassiamo. Uno: le armature fondamentali sono tela, saia e raso. Due: la tela, o taffetà, ha rapporto due per due, è a doppio dritto ed è stabile e resistente. Tre: la saia ha una diagonale a S o a Z, con rapporto minimo tre per tre, ed è ideale per il drappeggio. Quattro: il raso ha rapporto minimo cinque per cinque, è lucido e scorrevole, ma delicato. Cinque: i tessuti composti, come spugna, velluto, lanciato e fil coupé, richiedono più di due serie di fili."
+ },
+ {
+  "nome": "A5_APPROF",
+  "testo": "Sai quando è cambiata la tessitura? Nel milleottocentouno, con il telaio Jacquard, inventato dal tessitore francese Joseph Marie Jacquard, vissuto tra il millesettecentocinquantadue e il milleottocentotrentaquattro. Si pronuncia Giaccàr. Usava cartoni perforati, basati su un codice binario: il foro fa sollevare il filo, il pieno lo lascia a riposo. In questo modo controlla singolarmente più di milletrecento fili, per creare disegni complessi in modo completamente automatico. Nei telai tradizionali la navetta inseriva da cento a centotrenta trame al minuto; nei sistemi industriali contemporanei è sostituita da meccanismi che raggiungono mille trame al minuto."
+ },
+ {
+  "nome": "A5_RIPASSO",
+  "testo": "Ripassiamo. Uno: si parte dal progetto, con il bozzetto grafico e la scheda tecnica di tessitura. Due: le rocche si posizionano sulle cantre, poi i fili passano sull'orditoio e sul subbio d'ordito. Tre: l'imbozzimatura rende i fili più scorrevoli e resistenti. Quattro: i licci alzano e abbassano i fili, creando la bocca d'ordito, dove passa la trama. Cinque: la trama si inserisce con pinza, getto d'aria, getto d'acqua o proiettile."
+ },
+ {
+  "nome": "A6_APPROF",
+  "testo": "Sai come si asciuga un capo di maglia? Nella maglia in trama un solo filo forma una boccola dopo l'altra. È molto elastica e si sgualcisce poco, ma da bagnata tende a deformarsi se è appesa. Per questo è meglio asciugarla in piano oppure, per le fibre pregiate, strizzarla a mano con un asciugamano. Il rischio da ricordare è la smagliatura: le boccole si liberano e si sfilano lungo la lunghezza. Nella maglia in catena, invece, lavorano tanti fili quante sono le boccole: ciascun filo segue un percorso a zig zag e la struttura è compatta, resistente e indeformabile. La si usa soprattutto nei costumi da bagno e in alcune linee femminili, come quelle di Missoni."
+ },
+ {
+  "nome": "A6_RIPASSO",
+  "testo": "Ripassiamo. Uno: la maglia nasce dalle evoluzioni curvilinee di uno o più fili, che formano boccole concatenate dagli aghi. Due: i ranghi sono le righe orizzontali, come la trama; le file, o coste, sono colonne verticali, come l'ordito. Tre: maglia in trama, un solo filo; maglia in catena, molti fili paralleli a zig zag. Quattro: maglia tagliata, calata o integrale, secondo il metodo di confezionamento. Cinque: gli aghi sono a linguetta, a doppia linguetta, a becco o composti."
+ },
+ {
+  "nome": "A7_APPROF",
+  "testo": "Lo sapevi? Nelle macchine circolari più teli consecutivi si uniscono con un filo separatore, un filato resistente e di colore contrastante, che poi si sfila a mano. Un tempo lo toglievano a mano donne e bambini. Fu proposto un filo solubile al vapore, ma venne abbandonato per i costi elevati e per le tracce che lasciava sulle maglie. Oggi invece si usa per sigillare le tasche dei jeans prima dei lavaggi industriali. Le macchine rettilinee, invece, consentono lavorazioni flessibili e limitano gli scarti. Le macchine moderne possono perfino produrre un capo integrale, completo e privo di cuciture sui fianchi, sulle spalle e sotto le maniche."
+ },
+ {
+  "nome": "A7_RIPASSO",
+  "testo": "Ripassiamo. Uno: le macchine rettilinee sono flessibili e limitano gli scarti. Due: le macchine circolari sono molto più produttive e producono tessuto tubolare. Tre: monofrontura ha una serie di aghi, bifrontura due, plurifrontura tre o quattro. Quattro: la maglia in catena si produce solo su telai rettilinei, come Raschel e crochet. Cinque: se il filato si rompe, dispositivi fermano subito la macchina e annodatori pneumatici creano la giunzione, detta fiammatura."
+ },
+ {
+  "nome": "A8_APPROF",
+  "testo": "Sai da cosa nasce il pile? È un materiale sintetico fatto di microfibre di poliestere, lavorate per ottenere una doppia spugna su entrambe le facce. Poi la cimatura crea un vello morbido, termico e leggero. Si è diffuso a partire dagli anni millenovecentottanta, per l'abbigliamento sportivo ed escursionistico. Anche la felpa è un tessuto composto: un filo sottile forma il fondo, un filo più grosso a bassa torsione crea anse sul rovescio, che la garzatura solleva in pelo. Questo materiale è leggero e caldo, e per questo è ampiamente diffuso nell'abbigliamento sportivo."
+ },
+ {
+  "nome": "A8_RIPASSO",
+  "testo": "Ripassiamo. Uno: la finezza macchina indica la densità degli aghi; E sta per finezza inglese, ER per inglese Raschel, GG per Gauge. Due: il filato deve avere un titolo adeguato alla finezza della macchina. Tre: i punti sono la maglia rasata o jersey, links links, le coste, il picchè, la treccia e il punto traforo. Quattro: jacquard a fili flottanti, coupé, a rovescio puntinato, a doppio dritto; e le tecniche intarsio e vanisé. Cinque: la felpa e il pile sono tessuti imbottiti."
+ },
+ {
+  "nome": "A1_RITORNO",
+  "testo": "Ora torniamo dalla professoressa."
+ },
+ {
+  "nome": "A2_RITORNO",
+  "testo": "Ora torniamo dalla professoressa."
+ },
+ {
+  "nome": "A3_RITORNO",
+  "testo": "Ora torniamo dalla professoressa."
+ },
+ {
+  "nome": "A4_RITORNO",
+  "testo": "Ora torniamo dalla professoressa."
+ },
+ {
+  "nome": "A5_RITORNO",
+  "testo": "Ora torniamo dalla professoressa."
+ },
+ {
+  "nome": "A6_RITORNO",
+  "testo": "Ora torniamo dalla professoressa."
+ },
+ {
+  "nome": "A7_RITORNO",
+  "testo": "Ora torniamo dalla professoressa."
+ },
+ {
+  "nome": "A8_RITORNO",
+  "testo": "Ora torniamo dalla professoressa."
+ }
+]
