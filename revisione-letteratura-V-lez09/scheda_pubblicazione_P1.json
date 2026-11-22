@@ -1,54 +1,31 @@
 {
  "materia": "Letteratura italiana (V)",
  "titolo": "Letteratura V · Lezione 9 · Giovanni Pascoli · Parte 1",
-<<<<<<< HEAD
- "durata_s": 3286.613,
-=======
  "durata_s": 3208.63,
->>>>>>> 67acffd (Letteratura V lez 9: correzioni 22/11)
  "argomenti": [
   {
    "n": 1,
    "titolo": "La vita di Giovanni Pascoli",
    "inizio_s": 43.7,
-<<<<<<< HEAD
-   "quiz_s": 1104.367
-=======
    "quiz_s": 1059.833
->>>>>>> 67acffd (Letteratura V lez 9: correzioni 22/11)
   },
   {
    "n": 2,
    "titolo": "La teoria del nido",
-<<<<<<< HEAD
-   "inizio_s": 1109.367,
-   "quiz_s": 1455.5
-=======
    "inizio_s": 1064.833,
    "quiz_s": 1378.833
->>>>>>> 67acffd (Letteratura V lez 9: correzioni 22/11)
   },
   {
    "n": 3,
    "titolo": "La poetica del fanciullino",
-<<<<<<< HEAD
-   "inizio_s": 1460.5,
-   "quiz_s": 2690.6
-=======
    "inizio_s": 1383.833,
    "quiz_s": 2572.767
->>>>>>> 67acffd (Letteratura V lez 9: correzioni 22/11)
   },
   {
    "n": 4,
    "titolo": "Myricae e i Canti di Castelvecchio",
-<<<<<<< HEAD
-   "inizio_s": 2695.6,
-   "quiz_s": 3165.733
-=======
    "inizio_s": 2577.767,
    "quiz_s": 3007.2
->>>>>>> 67acffd (Letteratura V lez 9: correzioni 22/11)
   }
  ],
  "quiz": {
@@ -273,9 +250,5 @@
    ]
   }
  },
-<<<<<<< HEAD
- "t_verifica": 3276.533
-=======
  "t_verifica": 3198.567
->>>>>>> 67acffd (Letteratura V lez 9: correzioni 22/11)
 }
