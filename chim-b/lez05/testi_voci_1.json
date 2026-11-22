@@ -1,0 +1,482 @@
+[
+ {
+  "nome": "A1_INTRO",
+  "testo": "Benvenuti alla lezione sulle fibre vegetali. Con la professoressa Piera Caputi scopriremo come si ricavano il lino, la canapa, la juta e il ramiè, e come si riconoscono con i saggi di laboratorio. Cominciamo."
+ },
+ {
+  "nome": "T1_TIT",
+  "testo": "Origine delle fibre vegetali e macerazione."
+ },
+ {
+  "nome": "P1_APP",
+  "testo": "Sai dove si nascondono le fibre di una pianta? Non nel legno. Le fibre tessili stanno sotto la corteccia del fusto, nei vasi liberiani, disposti a cerchio. Qui le cellule di cellulosa sono poco lignificate e restano saldate tra loro da sostanze pectiche e gommose. Per separare la fibra dalla parte legnosa bisogna rendere solubili queste sostanze. Lo fa la macerazione, un processo chimico-fisico o microbiologico. È così che, dal fusto di una pianta, nasce la fibra per il tessuto."
+ },
+ {
+  "nome": "R1_1",
+  "testo": "Le fibre vegetali derivano da fusto, foglie, frutti e alghe."
+ },
+ {
+  "nome": "R1_2",
+  "testo": "Le fibre del fusto si trovano nel floema, cioè nei vasi liberiani, sotto la corteccia."
+ },
+ {
+  "nome": "R1_3",
+  "testo": "I vasi liberiani sono saldati da sostanze pectiche."
+ },
+ {
+  "nome": "R1_4",
+  "testo": "La macerazione scioglie le sostanze pectiche e gommose."
+ },
+ {
+  "nome": "R1_5",
+  "testo": "Così la fibra tessile si separa dalla parte legnosa."
+ },
+ {
+  "nome": "Q1_1_Q",
+  "testo": "Dove si trovano le fibre tessili nel fusto di una pianta?"
+ },
+ {
+  "nome": "Q1_1_S",
+  "testo": "La risposta giusta: Nel floema, cioè nei vasi liberiani vicini alla corteccia. Le fibre tessili si estraggono dai vasi liberiani, il floema, situati vicino alla corteccia."
+ },
+ {
+  "nome": "Q1_2_Q",
+  "testo": "Da che cosa sono saldati tra loro i vasi liberiani?"
+ },
+ {
+  "nome": "Q1_2_S",
+  "testo": "La risposta giusta: Da sostanze pectiche. I vasi liberiani sono saldati tra loro da sostanze pectiche e sono fatti di cellule di cellulosa poco lignificate."
+ },
+ {
+  "nome": "Q1_3_Q",
+  "testo": "Che cos'è il cambio?"
+ },
+ {
+  "nome": "Q1_3_S",
+  "testo": "La risposta giusta: Un tessuto meristematico aderente al legno. Il cambio è un tessuto meristematico che aderisce al legno."
+ },
+ {
+  "nome": "Q1_4_Q",
+  "testo": "Qual è lo scopo della macerazione?"
+ },
+ {
+  "nome": "Q1_4_S",
+  "testo": "La risposta giusta: Rendere solubili le sostanze pectiche e gommose per separare la fibra dalla parte legnosa. La macerazione scioglie le sostanze pectiche e gommose che tengono unita la fibra alla parte legnosa."
+ },
+ {
+  "nome": "Q1_5_Q",
+  "testo": "Come può essere la macerazione?"
+ },
+ {
+  "nome": "Q1_5_S",
+  "testo": "La risposta giusta: Un processo chimico-fisico o microbiologico. La professoressa la definisce un processo chimico-fisico o microbiologico."
+ },
+ {
+  "nome": "T2_TIT",
+  "testo": "Il lino."
+ },
+ {
+  "nome": "P2_APP",
+  "testo": "Sai perché il lino bianco è il più pregiato? Dipende dal momento della raccolta. Se si raccoglie con il fusto ancora verde, si ricava un tiglio molto fine, adatto a merletti e ricami. Con la maturazione gialla, quando la capsula è giallognola, si ottiene il lino bianco, pregiato e resistente. Con la maturazione bruna, dallo stelo scuro e dalla capsula bruna, il tiglio è più resistente, ma più grosso e più scuro. Poi la macerazione, in acqua stagnante o in acqua corrente, scioglie le sostanze pectiche. Quella in acqua corrente richiede più tempo, ma dà la qualità migliore."
+ },
+ {
+  "nome": "R2_1",
+  "testo": "Il lino è una fibra del fusto, ricavata dal Linum usitatissimum."
+ },
+ {
+  "nome": "R2_2",
+  "testo": "Maturazione verde: tiglio molto fine. Gialla: lino bianco, pregiato. Bruna: tiglio più grosso e scuro."
+ },
+ {
+  "nome": "R2_3",
+  "testo": "Lavorazione: macerazione, sgranatura, scavezzatura, scotolatura, pettinatura."
+ },
+ {
+  "nome": "R2_4",
+  "testo": "Al microscopio ha striature trasversali e nodi, come una canna di bambù."
+ },
+ {
+  "nome": "R2_5",
+  "testo": "Il lino è fresco e ha un'ottima conducibilità termica."
+ },
+ {
+  "nome": "Q2_1_Q",
+  "testo": "Quale maturazione del lino dà il lino bianco, pregiato e resistente?"
+ },
+ {
+  "nome": "Q2_1_S",
+  "testo": "La risposta giusta: La maturazione gialla. Con la maturazione gialla, quando la capsula è giallognola, si ottiene il lino bianco."
+ },
+ {
+  "nome": "Q2_2_Q",
+  "testo": "Quale macerazione del lino dà risultati migliori, anche se richiede più tempo?"
+ },
+ {
+  "nome": "Q2_2_S",
+  "testo": "La risposta giusta: Quella in acqua corrente. Il procedimento in acqua corrente richiede più tempo, ma è il più adeguato a ottenere la qualità migliore."
+ },
+ {
+  "nome": "Q2_3_Q",
+  "testo": "A che serve la pettinatura del lino?"
+ },
+ {
+  "nome": "Q2_3_S",
+  "testo": "La risposta giusta: A eliminare le fibre corte o annodate. La pettinatura elimina le fibre corte o annodate."
+ },
+ {
+  "nome": "Q2_4_Q",
+  "testo": "Che aspetto ha il lino al microscopio?"
+ },
+ {
+  "nome": "Q2_4_S",
+  "testo": "La risposta giusta: Striature trasversali e nodi, come una canna di bambù. Le striature trasversali marcate e i nodi danno al filamento l'aspetto di una canna di bambù."
+ },
+ {
+  "nome": "Q2_5_Q",
+  "testo": "Che cosa succede al lino messo cinque minuti nella fluoroglucina?"
+ },
+ {
+  "nome": "Q2_5_S",
+  "testo": "La risposta giusta: Resta incolore. Il lino resta incolore, la canapa vira al rosa pallido e la juta al rosso sangue."
+ },
+ {
+  "nome": "T3_TIT",
+  "testo": "La canapa."
+ },
+ {
+  "nome": "P3_APP",
+  "testo": "Sai perché una pianta di canapa può dare due fibre diverse? Perché la canapa è una pianta con fiori maschili e fiori femminili su individui separati. Le piante femminili, chiamate canapaccio, vivono più a lungo e danno una fibra più grossolana. Le piante maschili, chiamate canavatella, danno un tiglio di qualità superiore. Conta anche la semina: se è fitta, gli steli sono sottili e le fibre più fini; se è rada, la pianta si ramifica e la fibra è più grossolana. Dopo la macerazione, la decanapulazione separa la fibra con due operazioni meccaniche: la scavezzatura e la maciullatura."
+ },
+ {
+  "nome": "R3_1",
+  "testo": "La canapa ha origine liberiana e deriva dalla Cannabis sativa."
+ },
+ {
+  "nome": "R3_2",
+  "testo": "Piante femminili: canapaccio, fibra più grossolana. Piante maschili: canavatella, tiglio superiore."
+ },
+ {
+  "nome": "R3_3",
+  "testo": "Semina fitta: fibre più fini. Semina rada: fibra più grossolana."
+ },
+ {
+  "nome": "R3_4",
+  "testo": "Macerazione, poi decanapulazione: scavezzatura e maciullatura."
+ },
+ {
+  "nome": "R3_5",
+  "testo": "La cotonizzazione con NaOH dà una fibra morbida, simile al cotone."
+ },
+ {
+  "nome": "Q3_1_Q",
+  "testo": "Come si chiamano le piante maschili di canapa, che danno un tiglio di qualità superiore?"
+ },
+ {
+  "nome": "Q3_1_S",
+  "testo": "La risposta giusta: Canavatella. Le piante maschili si chiamano canavatella e danno un tiglio di qualità superiore."
+ },
+ {
+  "nome": "Q3_2_Q",
+  "testo": "Che cosa influenza la finezza della fibra di canapa?"
+ },
+ {
+  "nome": "Q3_2_S",
+  "testo": "La risposta giusta: La densità della semina. Con una semina fitta gli steli sono sottili e le fibre più fini; con una semina rada la pianta si ramifica e la fibra è più grossolana."
+ },
+ {
+  "nome": "Q3_3_Q",
+  "testo": "Che cos'è la scavezzatura nella decanapulazione?"
+ },
+ {
+  "nome": "Q3_3_S",
+  "testo": "La risposta giusta: La rottura dello stelo. La scavezzatura è la rottura dello stelo; la maciullatura è la battitura."
+ },
+ {
+  "nome": "Q3_4_Q",
+  "testo": "Che cos'è la stoppa?"
+ },
+ {
+  "nome": "Q3_4_S",
+  "testo": "La risposta giusta: Un sottoprodotto: fibre più corte, ancora parzialmente sporche di residui legnosi. I canapuli sono residui legnosi ricchi di cellulosa; la stoppa è fatta di fibre più corte, ancora un po' sporche."
+ },
+ {
+  "nome": "Q3_5_Q",
+  "testo": "Che cosa succede alla canapa nel saggio di immersione dopo il carbonato di sodio e la trielina?"
+ },
+ {
+  "nome": "Q3_5_S",
+  "testo": "La risposta giusta: Si imbeve d'acqua in fretta e affonda. La canapa si imbeve rapidamente e affonda; il lino, invece, galleggia per alcuni minuti."
+ },
+ {
+  "nome": "T4_TIT",
+  "testo": "Juta, kenaf e sunn."
+ },
+ {
+  "nome": "P4_APP",
+  "testo": "Sai quanto cresce in fretta la juta? In quattro o cinque mesi le piante arrivano a una altezza tra i tre e i quattro metri. La raccolta non avviene a maturazione completa, ma quando si formano le prime capsule con i semi. Poi si tagliano i fusti alla base, si tolgono rami e foglie e si lascia macerare. La fibra, rigida e molto igroscopica, può assorbire fino al venticinque per cento di acqua, ma invecchia facilmente. Il kenaf e il sunn sono altre fibre liberiane: anche per loro serve la macerazione."
+ },
+ {
+  "nome": "R4_1",
+  "testo": "La juta, o canapa di Calcutta, viene dal genere Corchorus."
+ },
+ {
+  "nome": "R4_2",
+  "testo": "Cresce in fretta, è ricca di lignina, rigida e invecchia facilmente."
+ },
+ {
+  "nome": "R4_3",
+  "testo": "È molto igroscopica: assorbe fino al venticinque per cento di acqua."
+ },
+ {
+  "nome": "R4_4",
+  "testo": "Il kenaf, o canapa della Guinea, si ottiene con macerazione e strigliatura."
+ },
+ {
+  "nome": "R4_5",
+  "testo": "Il sunn ha un lume largo e ovale, con un liquido midollare giallastro."
+ },
+ {
+  "nome": "Q4_1_Q",
+  "testo": "Come si chiama anche la juta?"
+ },
+ {
+  "nome": "Q4_1_S",
+  "testo": "La risposta giusta: Canapa di Calcutta. La juta è detta anche canapa di Calcutta."
+ },
+ {
+  "nome": "Q4_2_Q",
+  "testo": "Quando si raccoglie la juta?"
+ },
+ {
+  "nome": "Q4_2_S",
+  "testo": "La risposta giusta: Quando si formano le prime capsule con i semi. La raccolta non avviene a maturazione completa, ma quando si formano le prime capsule."
+ },
+ {
+  "nome": "Q4_3_Q",
+  "testo": "Quale caratteristica ha la juta rispetto all'acqua?"
+ },
+ {
+  "nome": "Q4_3_S",
+  "testo": "La risposta giusta: È molto igroscopica: assorbe fino al venticinque per cento di acqua. La juta assorbe fino al venticinque per cento di acqua."
+ },
+ {
+  "nome": "Q4_4_Q",
+  "testo": "Che cos'è il kenaf?"
+ },
+ {
+  "nome": "Q4_4_S",
+  "testo": "La risposta giusta: La canapa della Guinea, una fibra liberiana. Il kenaf, o canapa della Guinea, è una fibra liberiana."
+ },
+ {
+  "nome": "Q4_5_Q",
+  "testo": "Come si riconosce il sunn al microscopio?"
+ },
+ {
+  "nome": "Q4_5_S",
+  "testo": "La risposta giusta: Dal lume largo e ovale. Il lume del sunn è più largo di quello della canapa e di forma ovale."
+ },
+ {
+  "nome": "T5_TIT",
+  "testo": "Il ramiè."
+ },
+ {
+  "nome": "P5_APP",
+  "testo": "Sai perché il ramiè viene paragonato alla seta? È una fibra bianca, molto fine e lucente. I fusti sono piuttosto grossi, quindi non si macerano con i metodi tradizionali. Si usa la decorticazione meccanica, con il raspador. Si ottiene il ramiè grezzo, grigio-verdastro, ancora tenuto insieme da gomme, pectine e cere. Poi la degommatura, con un bagno di NaOH, cioè soda caustica, per circa ventiquattro ore, i bagni neutralizzanti, il lavaggio e l'asciugatura. Dopo il candeggio si ottiene il filato finale."
+ },
+ {
+  "nome": "R5_1",
+  "testo": "Il ramiè, o erba della Cina, è bianco, fine e lucente, simile alla seta."
+ },
+ {
+  "nome": "R5_2",
+  "testo": "Si ricava da arbusti che si tagliano alla base tre o quattro volte all'anno."
+ },
+ {
+  "nome": "R5_3",
+  "testo": "Decorticazione meccanica con il raspador, poi degommatura con NaOH per circa ventiquattro ore."
+ },
+ {
+  "nome": "R5_4",
+  "testo": "Dopo la degommatura la cellulosa sale a una percentuale tra l'ottantacinque e il novantacinque per cento."
+ },
+ {
+  "nome": "R5_5",
+  "testo": "Classificazione per finezza: extrafino, fine, ordinario e grosso."
+ },
+ {
+  "nome": "Q5_1_Q",
+  "testo": "Con quale macchinario si fa la decorticazione meccanica del ramiè?"
+ },
+ {
+  "nome": "Q5_1_S",
+  "testo": "La risposta giusta: Il raspador. I fusti del ramiè si decorticano con il raspador."
+ },
+ {
+  "nome": "Q5_2_Q",
+  "testo": "Perché il ramiè non si macera con i metodi tradizionali?"
+ },
+ {
+  "nome": "Q5_2_S",
+  "testo": "La risposta giusta: Perché i fusti sono piuttosto grossi. I fusti sono piuttosto grossi e non possono essere macerati con i metodi tradizionali."
+ },
+ {
+  "nome": "Q5_3_Q",
+  "testo": "In che cosa consiste la degommatura del ramiè?"
+ },
+ {
+  "nome": "Q5_3_S",
+  "testo": "La risposta giusta: In un bagno di NaOH, cioè soda caustica, per circa ventiquattro ore. Per la degommatura si usa NaOH per circa ventiquattro ore."
+ },
+ {
+  "nome": "Q5_4_Q",
+  "testo": "Che aspetto ha il ramiè grezzo?"
+ },
+ {
+  "nome": "Q5_4_S",
+  "testo": "La risposta giusta: È grigio-verdastro, con filamenti ancora uniti da cere, pectine e gomme. Il ramiè grezzo è grigio-verdastro e contiene ancora gomme, pectine e cere."
+ },
+ {
+  "nome": "Q5_5_Q",
+  "testo": "A che cosa serve il ramiè extrafino?"
+ },
+ {
+  "nome": "Q5_5_S",
+  "testo": "La risposta giusta: Alla biancheria e ai tessuti pregiati, come i tendaggi. Il ramiè extrafino si usa per biancheria e tessuti pregiati come i tendaggi."
+ },
+ {
+  "nome": "T6_TIT",
+  "testo": "Fibre minori, da foglia, da frutto e alghe."
+ },
+ {
+  "nome": "P6_APP",
+  "testo": "Sai perché la canapa di Manila è la preferita per cordami e reti? Perché è molto tenace e flessibile, e resiste all'acqua marina. Si ricava dalle foglie ed è fatta per il settantasette per cento di cellulosa. Tra le fibre da foglia c'è anche il sisal, bianco-avorio, resistente ma rigido, e la rafia, robusta ed elastica. Dal frutto del cocco si ottengono fibre brune e molto resistenti, per zerbini e spazzole. E dalle alghe nasce la seta marina: fibre molto fini e lucenti."
+ },
+ {
+  "nome": "R6_1",
+  "testo": "Fibre liberiane minori: ortica, ginestra, gelsomino."
+ },
+ {
+  "nome": "R6_2",
+  "testo": "Fibre da foglia: canapa di Manila, sisal, rafia."
+ },
+ {
+  "nome": "R6_3",
+  "testo": "La canapa di Manila è molto tenace e resiste all'acqua marina."
+ },
+ {
+  "nome": "R6_4",
+  "testo": "Fibre da frutto: il cocco dà fibre brune, per zerbini e spazzole."
+ },
+ {
+  "nome": "R6_5",
+  "testo": "Fibre alginiche: la seta marina, fibre molto fini e lucenti."
+ },
+ {
+  "nome": "Q6_1_Q",
+  "testo": "Perché la canapa di Manila si usa per cordami e reti?"
+ },
+ {
+  "nome": "Q6_1_S",
+  "testo": "La risposta giusta: È molto tenace e flessibile e resiste all'acqua marina. Resiste all'acqua marina ed è molto tenace e flessibile."
+ },
+ {
+  "nome": "Q6_2_Q",
+  "testo": "Come si presenta il sisal?"
+ },
+ {
+  "nome": "Q6_2_S",
+  "testo": "La risposta giusta: Come una fibra bianco-avorio, resistente ma rigida. Il sisal è bianco-avorio, resistente ma molto rigido."
+ },
+ {
+  "nome": "Q6_3_Q",
+  "testo": "Quali fibre dà il cocco e a che cosa servono?"
+ },
+ {
+  "nome": "Q6_3_S",
+  "testo": "La risposta giusta: Fibre brune, molto resistenti, per zerbini e spazzole. Le fibre di cocco sono corte e molto resistenti e si usano per zerbini e spazzole."
+ },
+ {
+  "nome": "Q6_4_Q",
+  "testo": "Da che cosa derivano le fibre alginiche?"
+ },
+ {
+  "nome": "Q6_4_S",
+  "testo": "La risposta giusta: Dalle alghe. Le fibre alginiche derivano dalle alghe, ad esempio del genere conferva."
+ },
+ {
+  "nome": "Q6_5_Q",
+  "testo": "Con quale nome commerciale sono note le fibre alginiche molto fini e brillanti?"
+ },
+ {
+  "nome": "Q6_5_S",
+  "testo": "La risposta giusta: Seta marina. A livello commerciale sono conosciute come seta marina."
+ },
+ {
+  "nome": "T7_TIT",
+  "testo": "Saggi e analisi delle fibre vegetali."
+ },
+ {
+  "nome": "P7_APP",
+  "testo": "Sai come si distingue la canapa di Manila dal cocco? Si guardano le ceneri delle fibre. Con ferrocianuro di potassio e una goccia di acido cloridrico diluito, il cocco dà una colorazione blu intensa, mentre la canapa di Manila resta incolore, o al massimo si colora di un azzurro molto chiaro. E il sisal? Le sue ceneri sono calcaree, solubili in acido cloridrico; quelle della canapa di Manila sono silicee, e quindi insolubili. Ogni fibra reagisce in modo diverso: per questo riconoscerla è così importante."
+ },
+ {
+  "nome": "R7_1",
+  "testo": "Per ogni fibra servono saggi diversi: combustione, reattivi colorimetrici, test fisici, analisi al microscopio."
+ },
+ {
+  "nome": "R7_2",
+  "testo": "Fluoroglucina: lino incolore, canapa rosa, juta rosso sangue."
+ },
+ {
+  "nome": "R7_3",
+  "testo": "Galleggiamento: il lino galleggia, la canapa affonda."
+ },
+ {
+  "nome": "R7_4",
+  "testo": "Ceneri: calcaree per il sisal, silicee per la canapa di Manila."
+ },
+ {
+  "nome": "R7_5",
+  "testo": "Con il liquido di Schweitzer si sciolgono le fibre liberiane, non il cotone."
+ },
+ {
+  "nome": "Q7_1_Q",
+  "testo": "Come si distingue la juta dall'ibisco al microscopio?"
+ },
+ {
+  "nome": "Q7_1_S",
+  "testo": "La risposta giusta: La juta non ha marcate striature longitudinali e ha sezioni pulite. Nella juta mancano le marcate striature longitudinali e le sezioni appaiono pulite."
+ },
+ {
+  "nome": "Q7_2_Q",
+  "testo": "Che colore dà il ramiè nel saggio con ipoclorito di calcio dopo l'acido nitrico?"
+ },
+ {
+  "nome": "Q7_2_S",
+  "testo": "La risposta giusta: Giallo, mentre la canapa di Manila è rossa. Il ramiè risulta giallo, la canapa di Manila rossa."
+ },
+ {
+  "nome": "Q7_3_Q",
+  "testo": "Come si distingue il cocco dalla canapa di Manila?"
+ },
+ {
+  "nome": "Q7_3_S",
+  "testo": "La risposta giusta: Con le ceneri, ferrocianuro di potassio e acido cloridrico diluito: il cocco dà blu intenso. Il cocco dà una colorazione blu intensa; la canapa di Manila resta incolore o appena azzurrina."
+ },
+ {
+  "nome": "Q7_4_Q",
+  "testo": "Come sono le ceneri del sisal?"
+ },
+ {
+  "nome": "Q7_4_S",
+  "testo": "La risposta giusta: Calcaree, solubili in acido cloridrico. Le ceneri del sisal sono calcaree e solubili in acido cloridrico; quelle della canapa di Manila sono silicee."
+ },
+ {
+  "nome": "Q7_5_Q",
+  "testo": "Perché è importante riconoscere la fibra?"
+ },
+ {
+  "nome": "Q7_5_S",
+  "testo": "La risposta giusta: Perché ogni fibra reagisce in modo diverso a basi, acidi, candeggi e lavaggi. Ogni fibra si comporta in modo diverso; candeggi o lavaggi errati possono degradare il tessuto quasi subito."
+ }
+]

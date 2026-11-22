@@ -1,0 +1,57 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="base.css"><style>
+.k{top:30px}
+#ttl{position:absolute;left:60px;top:104px;width:1320px;font:400 54px/1.1 Bri;color:#0B1530;opacity:0}
+#cards{position:absolute;left:60px;top:200px;width:1320px;display:flex;flex-direction:column;gap:20px}
+#cards .card{position:relative;left:auto;top:auto;width:100%;font:400 33px/1.42 Fig;padding:18px 28px}
+#anim{position:absolute;left:60px;top:100px;width:1330px;height:900px;opacity:0}
+#band{position:absolute;left:1455px;top:500px;width:370px;padding:10px 0;text-align:center;background:#FFE600;color:#0B1530;font:700 30px FigB;transform:rotate(-3deg);border-radius:4px}
+#ruolo{position:absolute;left:1440px;top:562px;width:400px;text-align:center;font:600 20px/1.3 FigS;color:#2060AF}
+#chiave{position:absolute;left:1440px;top:690px;width:400px}
+#chiave .h{font:700 20px FigB;letter-spacing:.14em;color:#2060AF;margin-bottom:10px}
+#chiave .p{display:inline-block;margin:0 8px 10px 0;padding:6px 14px;border-radius:999px;background:#FFF3BF;border:3px solid #A16207;font:700 24px FigB;color:#0B1530;opacity:0}
+#hole{position:absolute;left:1488px;top:158px;width:304px;height:304px;border-radius:50%}
+.foot{font-size:19px;letter-spacing:.03em}
+</style></head><body>
+<div class="k" id="kick">LA PROFESSORESSA SPIEGA</div><div class="rule"></div>
+<div id="ttl"></div><div id="cards"></div><div id="anim"></div>
+<div id="hole"></div>
+<div id="band">Prof.ssa Piera Caputi</div>
+<div id="ruolo">Chimica applicata e nobilitazione dei materiali per i prodotti della moda</div>
+<div id="chiave"><div class="h" id="chh">PAROLE CHIAVE</div><div id="chp"></div></div>
+<div class="foot" id="foot">CHIMICA APPLICATA E NOBILITAZIONE DEI MATERIALI PER I PRODOTTI DELLA MODA · Tecnico Sistema Moda · III-IV anno · Prof.ssa Piera Caputi</div>
+<script src="anim.js"></script>
+<script>
+const ease=x=>{x=Math.max(0,Math.min(1,x));return 1-Math.pow(1-x,3)};
+let D=null;
+function setData(d){D=d;document.getElementById('kick').textContent=d.kicker||'LA PROFESSORESSA SPIEGA';
+ const cc=document.getElementById('cards');cc.innerHTML='';
+ d.slides.forEach((s,si)=>{s.el=[];(s.cards||[]).forEach((c,ci)=>{const e=document.createElement('div');e.className='card';e.innerHTML=c.h;e.style.display='none';cc.appendChild(e);s.el.push(e)})});
+ const cp=document.getElementById('chp');cp.innerHTML='';
+ const allk=[];d.slides.forEach((s,si)=>{s.kel=[];(s.chiave||[]).forEach(k=>{const e=document.createElement('span');e.className='p';e.textContent=k;e.style.display='none';cp.appendChild(e);s.kel.push(e)})});
+ (d.anims||[]).forEach((a,i)=>{a.i=i});
+}
+function render(t){
+ const ttl=document.getElementById('ttl'),an=document.getElementById('anim');
+ // animazione attiva?
+ let A=null;(D.anims||[]).forEach(a=>{if(t>=a.t0&&t<a.t1)A=a});
+ const aop=A?Math.min(ease((t-A.t0)/0.5),ease((A.t1-t)/0.5)):0;
+ an.style.opacity=aop; an.style.display=aop>0?'block':'none';
+ if(A){if(an.dataset.cur!=String(A.i)){an.dataset.cur=A.i;an.innerHTML='';ANIM[A.kind].init(an,A)}ANIM[A.kind].draw(an,t-A.t0,A.t1-A.t0,A)}
+ // slide attiva
+ let S=null;D.slides.forEach(s=>{if(t>=s.t0&&t<s.t1)S=s});
+ let sl=0;
+ D.slides.forEach(s=>{
+   const vis=(S===s)?Math.min(ease((t-s.t0)/0.45),ease((s.t1-t)/0.35)):0;
+   const show=vis>0.001;
+   s.el.forEach((e,ci)=>{const c=s.cards[ci];e.style.display=show?'block':'none';
+     const p=ease((t-c.t0)/0.5);const on=t>=c.t0&&t<(c.t1||1e9)&&show;
+     const att=(t>=(c.t1||1e9))?0.55:1;
+     e.style.opacity=(show?vis*p*att:0).toFixed(3);e.style.transform=`translateY(${(16*(1-p)).toFixed(1)}px)`;e.classList.toggle('on',on&&!A)});
+   s.kel.forEach((e,ki)=>{e.style.display=show?'inline-block':'none';e.style.opacity=show?(vis*ease((t-s.t0-0.8-ki*0.5)/0.5)).toFixed(3):0});
+   if(show){ttl.textContent=s.title||'';ttl.style.opacity=(1-aop)*vis; sl=1}
+ });
+ document.getElementById('cards').style.opacity=(1-aop).toFixed(3);
+ if(!sl)ttl.style.opacity=0;
+ document.getElementById('chh').style.opacity=S&&S.kel.length?1:0;
+}
+</script></body></html>
