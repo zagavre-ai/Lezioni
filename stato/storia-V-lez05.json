@@ -653,6 +653,10 @@
   {
    "quando": "22/11 18:27",
    "testo": "DOMANDA DURATA (non blocca il lavoro): il prof parla circa 57 min netti (9 argomenti) e con titoli, approfondimenti, pillole, quiz, glossario, ripasso e compiti la lezione fa circa 78 min. Una Parte sola (max 65) è impossibile senza togliere parole al prof; due Parti entrambe da 45-65 min sono impossibili (servirebbero 90 min), e controllo_severo darà RESPINTA su durata in ogni caso. Propongo 2 Parti: P1 = argomenti 1-6 (circa 52 min), P2 = spiegone + argomenti 7-9 + fine (circa 27 min), divise alla fine di un argomento. Alternativa: 2 Parti bilanciate da circa 40 min. Procedo con la prima (P1 piu' lunga possibile) salvo vostro avviso. Notare: titolo esatto copertina = 'La rivoluzione russa' (il precedente 'La Rivoluzione russa e la nascita dell URSS (1917-1922)' non era il titolo esatto). Voci: manderò testi_voci.json sul ramo voci-storia-V-lez05 entro stasera."
+  },
+  {
+   "quando": "22/11 18:29",
+   "testo": "CORREZIONE alla domanda di prima: la divisione migliore e' P1 = argomenti 1-5 (circa 52 min, dentro 50-60), P2 = spiegone + argomenti 6-9 (circa 29 min); con 1-6 la P1 arriverebbe a circa 63 min, troppo vicino al limite 65. Seconda DOMANDA (conflitto CLAUDE.md §3/§6 e prompt 22/11): il prof ha solo 4 mappe (argomenti 2, 4, 6, 8). Il prompt dice 'togli le mappe inventate', il CLAUDE.md §6 dice 'se il prof non ha una mappa per un argomento si costruisce con le sue parole e lo si dichiara'. Cosa faccio per gli argomenti 1, 3, 5, 7, 9 e per la 'mappa finale della lezione'? Mia scelta se non rispondete: per 1,3,5,7,9 costruisco la mappa solo con le parole del prof (trascrizione) in stile BES e la dichiaro nel rapporto; mappa finale = nessuna mappa nuova, ma le mappe del prof di quella Parte rimostrate intere in sequenza. Dimmi se preferite NESSUNA mappa dove il prof non l'ha fatta."
   }
  ],
  "domande_sara": [],
@@ -696,5 +700,5 @@
  ],
  "materia": "storia-V",
  "lezione": "5",
- "aggiornato": "2026-11-22 18:27:29"
+ "aggiornato": "2026-11-22 18:29:09"
 }
