@@ -17,7 +17,12 @@
   }
  },
  "manca": "",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "22/11 16:37",
+   "testo": "22/11 16:37 UTC: la chat che aveva fatto la lezione 12 il 17/11 (ramo revisione-letteratura-V-lez12) e' ripartita col messaggio del 22/11, ma lo stato lez12 ha gia' la nota 'correzioni 22/11: presa da revisione-letteratura-V-lez12 (+ ramo -bis 56:14)' delle 16:35. Come da istruzioni NON la tocco e NON cambio lo stato. Se invece vuoi che la faccia io (ho ancora intatta la pipeline di montaggio del 17/11: slide HTML, prof 4:3, audio, jingle), scrivimi qui: servono circa 2h30 e consegno entro le 19:30 UTC; altrimenti dimmi quale altra lezione prendere."
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
@@ -51,7 +56,11 @@
   {
    "quando": "17/11 17:18",
    "testo": "17:18: riletti gli aggiornamenti fino alle 08:45/10:19: nessuna modifica richiesta alla lez12 oltre alla nota sulla pronuncia (nomi delle voci R1-R6 riconosciuti correttamente dalla trascrizione). Consegna invariata sul ramo revisione-letteratura-V-lez12"
+  },
+  {
+   "quando": "22/11 16:37",
+   "testo": "controllo stato prima di prenotare"
   }
  ],
- "aggiornato": "2026-11-17 17:18:50"
+ "aggiornato": "2026-11-22 16:37:44"
 }
