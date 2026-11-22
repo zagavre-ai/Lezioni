@@ -17,6 +17,10 @@
   {
    "quando": "19/11 02:23",
    "testo": "Correzioni 19/11 lez 19: 3 voci nuove nel ramo voci-storia-V-lez19 (SC1_4, SC2_4, AN22)"
+  },
+  {
+   "quando": "22/11 18:42",
+   "testo": "Lez19: su voci-storia-V-lez19 ho aggiunto 18 voci nuove (BENV1_R2 senza nome del prof, RIP2A, MP1_*, MP2_*, MP3_* mappe del prof ramo per ramo). Le voci MD1-3 e BENV1 dicono il nome del prof: sostituite. Domande: 1) la mappa 3 del prof non ha la domanda-titolo: uso 'NEGLI ANNI NOVANTA' come nei suoi nodi, ok? 2) spiegone Parte 2: riuso R1-R4 gia' presenti. Intanto monto con voci provvisorie."
   }
  ],
  "domande_sara": [],
@@ -56,5 +60,5 @@
  ],
  "materia": "storia-V",
  "lezione": "19",
- "aggiornato": "2026-11-22 18:38:59"
+ "aggiornato": "2026-11-22 18:42:55"
 }
