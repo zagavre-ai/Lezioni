@@ -13,9 +13,13 @@
   {
    "quando": "22/11 18:34",
    "testo": "correzioni 22/11: presa da claude/kind-wright-s05bxn"
+  },
+  {
+   "quando": "22/11 18:49",
+   "testo": "testi_voci.json (24 voci) e quiz_argomenti.json inviati su voci-storia-V-lez12; piano: 2 Parti (P1 argomenti 1-4, P2 spiegone + 5-6 + fine). Procedo con montaggio e voci provvisorie."
   }
  ],
  "materia": "Storia",
  "lezione": "12",
- "aggiornato": "2026-11-22 18:46:18"
+ "aggiornato": "2026-11-22 18:49:33"
 }
