@@ -238,6 +238,7 @@ function openC(){if(!CT.ap.length)return;open='C';cur={q:'C',idx:-1};P.pause();
      return api('lezione_stato',{},c).then(function(d){scrivi(d);$('qm').textContent='Compiti consegnati. Il docente li trova nel quaderno dei compiti e li correggerà.'})})
    .catch(function(e){$('qv').disabled=false;$('qm').textContent=(e.message==='Codice non valido'?'Codice non valido: controlla di averlo scritto bene.':'Non è partito: '+e.message+'. Controlla la connessione e riprova.')})}}
  scrivi(null);var c0=cod();if(c0)api('lezione_stato',{},c0).then(function(d){if(open==='C')scrivi(d)}).catch(function(){})}
+if(location.hash==='#compiti')setTimeout(function(){try{openC()}catch(e){}},1500);  /* 22/11: link diretto ai compiti della lezione */
 function val(n){var x=document.querySelector('input[name="'+n+'"]:checked');return x?x.value:''}
 async function consegna(){var cod=$('ccod').value.trim();if(!cod){$('qm').textContent='Scrivi il tuo codice studente.';return}
  var r={cod:cod,quando:new Date().toLocaleString('it-IT'),voci:{},v:{},ok:0,tot:0},i,g,x;
