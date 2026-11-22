@@ -17,6 +17,10 @@
   {
    "quando": "19/11 19:02",
    "testo": "LEZ 10 REVISIONATA, pronta da riguardare e sostituire su Vimeo (stesso link). Ramo revisione-letteratura-V-lez10, rapporto RAPPORTO_REVISIONE.md. Durata 50:08,6 (vecchia 3200,2 s): secondi nuovi gia' in scheda_pubblicazione.json, tabella vecchio->nuovo nel rapporto §1. Verifica finale e compiti non piu' nel video (verifica_finale.json, compiti.json). DA FARE LATO MASTER: (1) riascoltare pronuncia voci Kore R4 e RF (Rebora, Lacerba: la trascrizione ha letto 'Rebola' e 'accerba'); se sbagliate rigenerare come R6.. (2) controllare a campione i sottotitoli: circa 12 frasi sono ricostruzioni plausibili (Deledda, Ungaretti, magniloquenti); (3) non eseguiti: freezedetect sul riquadro, confronto automatico PDF-fotogrammi, sincronia labiale a vista; (4) DA CONFERMARE COL PROF: Borgese 'Antonio' (mappa) vs 'Giuseppe Antonio' (parlato)."
+  },
+  {
+   "quando": "22/11 17:20",
+   "testo": "CONTROLLO 1 ORA (17:20 UTC): lez 10 sono a circa 70%. Fatto: slide 40 px max 3 card, inserti per spezzare le schermate, mappa BES ramo per ramo, PDF con testo invisibile, video codificato senza mappa e compiti. MI SERVE per chiudere: le voci M1-M12 (mappa) e R6_COMP1-4 (compiti) sul ramo voci-letteratura-V-lez10: non ci sono ancora. Con le voci entro 17:50 consegno entro 19:00 UTC; se arrivano dopo, consegno 75 minuti dopo l'arrivo (resto dentro le 19:30 se arrivano entro 18:15). Nessuna parte da passare ad altra chat."
   }
  ],
  "domande_sara": [],
@@ -48,10 +52,14 @@
   {
    "quando": "22/11 16:44",
    "testo": "22/11 16:45 UTC: letti prompt+regole blindate. Fatti: slide a 40 px con max 3 card (45 pagine), piano con inserti a meta' pezzo (nessuna schermata >3 min), mappa BES ramo per ramo, PDF con testo invisibile, voci compiti richieste (R6_COMP1-4). In codifica il video; attendo voci M1-M12 e R6_COMP. Consegna prevista 18:45 UTC"
+  },
+  {
+   "quando": "22/11 18:26",
+   "testo": "22/11 18:26 UTC: video finale 51:39,8 codificato e pushato su revisione-letteratura-V-lez10 (bozza completa, rapporto da chiudere). Fatto: slide 40 px max 3 card, inserti a meta' argomento, mappa BES ramo per ramo, verifica+compiti nel video, PDF con testo. Manca: esito controllo severo + audit agente separato. Consegna prevista 19:15 UTC"
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 10 · Il primo Novecento e la lirica italiana",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-22 16:44:02"
+ "aggiornato": "2026-11-22 18:26:06"
 }
