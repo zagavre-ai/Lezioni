@@ -2,7 +2,7 @@
  "tag": "letteratura-V-lez10",
  "parti": {
   "1": {
-   "stato": "REVISIONATA",
+   "stato": "IN_REVISIONE",
    "video": "Letteratura_Lez10_Parte1_1080p.mp4",
    "durata_s": 3008.6,
    "durata": "50:08.6",
@@ -40,10 +40,14 @@
   {
    "quando": "20/11 16:07",
    "testo": "20/11 16:08 riconsegnata: schede titolo/ripasso/quiz/riepilogo rifatte blu come Spagnolo (avviso 17/11 23:35); stessa durata 50:08,6, stessi secondi, quiz +0,003 s; nuovo sha256; da decidere: intro prof 3:46 (>3 min) e pannello PAROLE CHIAVE non applicati"
+  },
+  {
+   "quando": "22/11 16:32",
+   "testo": "correzioni 22/11: presa da revisione-letteratura-V-lez10 (16:35 UTC). Consegna entro 19:30 UTC"
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 10 · Il primo Novecento e la lirica italiana",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-20 16:07:57"
+ "aggiornato": "2026-11-22 16:32:29"
 }
