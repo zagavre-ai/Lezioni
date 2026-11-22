@@ -96,7 +96,11 @@
   {
    "quando": "22/11 19:21",
    "testo": "correzioni 22/11 fatte: ramo revisione-letteratura-V-lez06 (video 50:14 a 3 pezzi + sha, vtt, PDF slide 98 pag e mappe 2 pag, scheda/quiz/verifica con secondi nuovi, rapporto). una sola mappa BES, card intere max 3 a 40 px, prof riordinato per argomento (niente già visto), pause <2,5 s, -16,6 LUFS/-1,9 dBTP. NON CONCLUSO: controllo_severo.py (in esecuzione dalle 18:46) e rimisura sync sottotitoli sul video nuovo; un agente separato ha spuntato la lista §11: 10/11 OK, unico difetto segnalato era un falso positivo. R14 usata al posto di R12."
+  },
+  {
+   "quando": "22/11 19:56",
+   "testo": "20:00 UTC: controllo severo concluso, RESPINTA per 2 punti (card attenuate non lette dall'OCR = probabile falso positivo, e minuscola dopo i due punti nel riepilogo). consegna del 19:30 già sul ramo; rifaccio ora le card attenuate piu' contrastate e la maiuscola nel riepilogo e riconsegno sullo stesso ramo entro circa 20:45 UTC se il controllo diventa OK"
   }
  ],
- "aggiornato": "2026-11-22 19:21:10"
+ "aggiornato": "2026-11-22 19:56:42"
 }
