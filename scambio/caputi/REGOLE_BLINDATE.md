@@ -47,7 +47,7 @@ Valgono per **tutte le materie e tutte le lezioni**. Non si discutono e non si c
 8. **Immagini negli inserti animati:**
    - **sempre ad alta risoluzione**, mai sgranate, sia quelle del docente sia quelle che aggiungiamo noi;
    - opere d'arte, monumenti, luoghi, oggetti e documenti si possono prendere da archivi liberi come Wikimedia Commons, in alta risoluzione e con la fonte nel rapporto. In Storia dell'arte sono fondamentali;
-   - **foto e ritratti fotografici di persone reali** (autori, personaggi storici): solo quelli già presenti nel materiale del docente, presi dal suo file in alta risoluzione. Le chat non li scaricano dal web.
+   - **foto e ritratti fotografici di persone reali** (autori, personaggi storici): si usano quelli del materiale del docente, presi dal suo file alla massima risoluzione. Se sono piccoli o sgranati **si migliorano**: ingrandimento di qualità, pulizia del rumore e nitidezza, senza cambiare i tratti della persona. Le chat non li scaricano dal web.
 9. **Mai dire o scrivere il nome del docente nelle animazioni**: né nella voce Kore né nelle schede animate. Il nome del docente compare solo nella fascia gialla sotto il suo riquadro.
 
 ## 4. Le slide (modello: Spagnolo lez01 con le aggiunte approvate)
