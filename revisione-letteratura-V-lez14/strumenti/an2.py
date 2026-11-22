@@ -1,6 +1,7 @@
 import json,sys,os,subprocess,re
 sys.path.insert(0,'/tmp/w14');sys.path.insert(0,'/tmp/w14/build')
 import gen
+gen.PROFON=False
 E=gen.E
 D={
 (1,'AN01'):('La vita di Pirandello',[("La nascita","Girgenti","Oggi Agrigento: famiglia agiata, borghese."),("Il disastro","Le miniere di zolfo","La ricchezza di famiglia e la dote della moglie vanno perse."),("La famiglia","La moglie Antonietta","Una malattia mentale, anche con ricoveri."),("Gli studi","Roma e la Germania","Cultura internazionale, contatti che durano nel tempo."),("Il lavoro","Scrittore e professore","Insegna all'università."),("La politica","Il fascismo","Aderisce al regime, forse per paura.")]),
@@ -18,26 +19,24 @@ D={
 (2,'AN11'):('Il treno ha fischiato',[("La struttura","Un'inchiesta","Prima i colleghi, poi il narratore testimone."),("La trappola","Casa e ufficio","Un inferno familiare e un lavoro di angherie."),("La svolta","Il fischio del treno","Parole senza senso: tutti lo credono pazzo."),("L'umorismo","La ragione dietro la follia","Il fischio ridesta la coscienza del mondo esterno."),("Il finale","La routine riprende","Con una nuova consapevolezza, è una fuga solo immaginata.")]),
 }
 def html(title,cards,k,pag):
-    n=len(cards);cols=3 if n>=3 else n
+    g=(k-1)//3 if k>0 else 0;sub=list(range(g*3,min(k,g*3+3)))
     body=f'<div style="position:absolute;left:80px;top:146px;width:1760px"><div class="lab">APPROFONDIMENTO</div><div class="tit" style="margin-top:34px;font-size:{56 if len(title)>44 else 64}px">{E(title)}</div><div class="bar"></div>'
-    body+=f'<div style="margin-top:46px;display:grid;grid-template-columns:repeat({cols if n!=4 else 2},1fr);gap:26px">'
-    for i,(l,t,b) in enumerate(cards):
-        if i<k:
-            on=' on' if i==k-1 else ''
-            body+=f'<div class="card{on}" style="padding:26px 30px;{"border:3px solid #FFE600;" if on else ""}"><div class="lab" style="font-size:17px;letter-spacing:2.5px">{E(l)}</div><div style="font:800 38px/1.1 Bric;margin:14px 0 12px;color:#0B1530">{E(t)}</div><div style="font:500 27px/1.35 Fig;color:#0B1530">{E(b)}</div></div>'
+    body+='<div style="margin-top:40px;display:flex;flex-direction:column;gap:20px">'
+    for i in sub:
+        l,t,b=cards[i];on=' on' if i==k-1 else ''
+        body+=f'<div class="card nc{on}" style="padding:20px 34px;font-size:40px;line-height:1.5"><div class="n">{i+1}</div><div><div class="lab" style="font-size:18px;letter-spacing:2.5px">{E(l)}</div><div style="font:800 40px/1.2 Bric;margin:6px 0 4px;color:#0B1530">{E(t)}</div><div style="font:500 36px/1.4 Fig;color:#0B1530">{E(b)}</div></div></div>'
     body+='</div></div>'
-    return gen.page(body,pag,prof=False)
+    return gen.page(body,(pag+g) if pag else None,prof=False)
 ENC=['-c:v','libx264','-preset','veryfast','-crf','19','-pix_fmt','yuv420p','-r','30','-an','-x264-params','keyint=60:scenecut=0','-threads','2']
-made=[];PAG={1:13,2:17}
+made=[];PG=json.load(open('/tmp/w14/pg_next.json'));PAG={1:PG['1'],2:PG['2']}
 for (P,n),(title,cards) in D.items():
-    if P==1: continue
     TL=json.load(open(f'/tmp/w14/tl{P}.json'));a,d=[(a,d) for nn,a,d in TL if nn==n][0]
     nf=round((a+d)*30)-round(a*30);N=len(cards)
     starts=[0]+[round(nf*(0.06+0.84*i/N)) for i in range(N)]+[nf]
     parts=[]
     for k in range(N+1):
         nm=f'an_{P}_{n}_{k}';gen.scrivi(nm,html(title,cards,k,PAG[P]));parts.append((nm,starts[k+1]-starts[k]))
-    made.append((P,n,parts));PAG[P]+=1
+    made.append((P,n,parts));PAG[P]+=max(1,-(-N//3))
 subprocess.run(['node','/tmp/w14/build/render.js','/tmp/w14/build/html','/tmp/w14/build/png'],check=True)
 for P,n,parts in made:
     out=f'/tmp/w14/new{P}/{n}.mp4';segs=[]

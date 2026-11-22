@@ -9,7 +9,7 @@ pages={'cover':1};plan={}
 for n,s0,s1 in B:
     nf=round((s1-s0)*30);lst=[];cum=0
     if n=='D0' and P==2: st=[[s0,s1,1,None]]
-    elif n=='D0' and P==1: st=[[s0,s0+149.0,1,None],[s0+149.0,s0+165.5,'dcpA',None],[s0+165.5,s1,'dcpB',None]]
+    elif n=='D0' and P==1: st=[[s0,s0+110.0,1,None],[s0+110.0,s0+150.0,'dcpA',None],[s0+150.0,s1,'dcpB',None]]
     else: st=piano.stati(s0,s1)
     for i,(a,b,s,c) in enumerate(st):
         end=nf if i==len(st)-1 else round((b-s0)*30);k=max(end-cum,0);cum+=k
@@ -21,7 +21,7 @@ for n,s0,s1 in B:
         elif s==2: key={'k':'foto','lab':buildd.label(P,2,a),'pag':pages.setdefault(2,len(pages)+1)}
         elif s in('C','B'): key={'k':'libro','n':s,'i':c,'lab':buildd.label(P,s,a),'pag':pages.setdefault(s,len(pages)+1)}
         else:
-            part=0 if c in (0,1) else 1
+            part=0 if c in (None,0,1) else 1
             key={'k':'cards','s':s,'c':c,'part':part,'lab':buildd.label(P,s,a),'pag':pages.setdefault(f'{s}_{part}',len(pages)+1)}
         lst.append((buildd.ensure_png(key,P,pages),k))
     plan[n]={'s0':s0,'s1':s1,'nf':nf,'lst':lst}

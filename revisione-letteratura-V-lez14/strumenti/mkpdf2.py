@@ -22,9 +22,11 @@ for P in (1,2):
             s,pt=k.split('_');s=int(s);pt=int(pt);tx=buildd.T[str(s)];its=tx[2:-1];sub=its[0:2] if pt==0 else its[2:3]
             h=gen.cards(buildd.label(P,s,300 if P==1 else 3000),tx[1],sub,None,pag=pag,start=0 if pt==0 else 2)
         open(f'{d}/{pag:02d}.html','w',encoding='utf-8').write(STRIP(h))
-    best={}
+    byk={}
     for f in glob.glob(f'/tmp/w14/build/html/ins_{P}_*.html')+glob.glob(f'/tmp/w14/build/html/an_{P}_*.html'):
-        b=os.path.basename(f)[:-5];m=re.match(r'(ins|an)_(\d)_(\w+)_(\d+)$',b);key=(m.group(1),m.group(3));k=int(m.group(4))
-        if key not in best or k>best[key][0]: best[key]=(k,f)
-    for key,(k,f) in best.items():
-        t=open(f,encoding='utf-8').read();pg=int(re.search(r'Pagina (\d+)',t).group(1));open(f'{d}/{pg:02d}.html','w',encoding='utf-8').write(STRIP(t))
+        b=os.path.basename(f)[:-5];m=re.match(r'(ins|an)_(\d)_(\w+)_(\d+)$',b);byk.setdefault((m.group(1),m.group(3)),{})[int(m.group(4))]=f
+    for key,d2 in byk.items():
+        mx=max(d2)
+        for k,f in d2.items():
+            if k>0 and (k%3==0 or k==mx):
+                t=open(f,encoding='utf-8').read();pg=int(re.search(r'Pagina (\d+)',t).group(1));open(f'{d}/{pg:02d}.html','w',encoding='utf-8').write(STRIP(t))

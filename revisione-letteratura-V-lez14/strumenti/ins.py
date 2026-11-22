@@ -7,15 +7,14 @@ VOCI={x['nome']:x['testo'] for x in json.load(open('/tmp/w14/voci/scambio/letter
 norm=lambda w:re.sub(r'[^a-zàèéìòù]','',w.lower())
 def sentences(t): return [s.strip() for s in re.split(r'(?<=[.?!])\s+',t.strip()) if s.strip()]
 def reveal_html(eyebrow,title,items,k,pag=None,two=False):
-    n=len(items);fs=30 if n<=4 else (27 if n<=6 else 24)
+    g=(k-1)//3 if k>0 else 0;sub=list(range(g*3,min(k,g*3+3)))
     body=f'<div style="position:absolute;left:80px;top:146px;width:1760px"><div class="lab">{E(eyebrow)}</div><div class="tit" style="margin-top:34px;font-size:{58 if len(title)>48 else 64}px">{E(title)}</div><div class="bar"></div>'
-    body+=f'<div style="margin-top:40px;display:grid;grid-template-columns:{"1fr 1fr" if n>4 else "1fr"};gap:18px 24px">'
-    for i,t in enumerate(items):
-        if i<k:
-            on=' on' if i==k-1 else ''
-            body+=f'<div class="card nc{on}" style="font-size:{fs}px;padding-top:18px;padding-bottom:18px"><div class="n">{i+1}</div><div>{gen.rich(t,False)}</div></div>'
+    body+='<div style="margin-top:36px;display:flex;flex-direction:column;gap:20px">'
+    for i in sub:
+        on=' on' if i==k-1 else ''
+        body+=f'<div class="card nc{on}" style="font-size:40px;line-height:1.5;padding-top:18px;padding-bottom:18px"><div class="n">{i+1}</div><div>{gen.rich(items[i],False)}</div></div>'
     body+='</div></div>'
-    return gen.page(body,pag,prof=False)
+    return gen.page(body,(pag+g) if pag else None,prof=False)
 def times(P,name,items):
     """tempi di comparsa (secondi relativi al pezzo) di ogni frase, dalle parole del video vecchio"""
     TL=json.load(open(f'/tmp/w14/tl{P}.json'));a,d=[(a,d) for n,a,d in TL if n==name][0]
@@ -40,7 +39,7 @@ def build(P,name,vname,kind):
     return eyebrow,title,items,t,d
 if __name__=='__main__':
     ENC=['-c:v','libx264','-preset','veryfast','-crf','19','-pix_fmt','yuv420p','-r','30','-an','-x264-params','keyint=60:scenecut=0','-threads','2']
-    PAG={1:7,2:9};made=[]
+    gen.PROFON=False;PAG={1:12,2:12};made=[];PAGE_NEXT={}
     for P in (1,2):
         TL=json.load(open(f'/tmp/w14/tl{P}.json'));os.makedirs(f'/tmp/w14/new{P}',exist_ok=True)
         pg=PAG[P]
@@ -56,8 +55,9 @@ if __name__=='__main__':
             for k in range(len(items)+1):
                 f0=bounds[k];f1=bounds[k+1] if k<len(items) else nf
                 if k<len(items): f1=bounds[k+1]
-                nm=f'ins_{P}_{n}_{k}';gen.scrivi(nm,reveal_html(ey,ti,items,k,pg if k==len(items) else pg));parts.append((nm,max(f1-f0,0)))
-            made.append((P,n,parts,nf,pg));pg+=1
+                nm=f'ins_{P}_{n}_{k}';gen.scrivi(nm,reveal_html(ey,ti,items,k,pg));parts.append((nm,max(f1-f0,0)))
+            made.append((P,n,parts,nf,pg));pg+=max(1,-(-len(items)//3));PAGE_NEXT[P]=pg
+    json.dump({str(P):x for P,x in PAGE_NEXT.items()},open('/tmp/w14/pg_next.json','w'))
     subprocess.run(['node','/tmp/w14/build/render.js','/tmp/w14/build/html','/tmp/w14/build/png'],check=True)
     for P,n,parts,nf,pg in made:
         out=f'/tmp/w14/new{P}/{n}.mp4';L=f'/tmp/w14/build/lins_{P}_{n}.txt';segs=[]

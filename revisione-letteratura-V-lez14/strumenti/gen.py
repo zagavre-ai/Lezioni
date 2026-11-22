@@ -2,7 +2,7 @@
 import html as H,re,os,base64
 B=os.path.dirname(os.path.abspath(__file__))
 LOGO='file://'+B+'/logo_blu.svg'; LOGOW='file://'+B+'/logo_bianco.svg'
-MAT='LETTERATURA ITALIANA V'; PROF='Prof. Giorgio Mazzotti'
+MAT='LETTERATURA ITALIANA V'; PROF='Prof. Giorgio Mazzotti'; PROFON=True
 CSS="""
 @font-face{font-family:Bric;font-weight:800;src:url(file://%s/fonts/BricolageGrotesque-ExtraBold.ttf)}
 @font-face{font-family:Fig;font-weight:400;src:url(file://%s/fonts/Figtree-Regular.ttf)}
@@ -32,7 +32,7 @@ def page(body,pag=None,prof=True,foot=True,logo=True,extra=''):
     if prof: s+='<div class="box"></div><div class="band"><div class="n">Giorgio Mazzotti</div><div class="r">Prof. di Letteratura italiana</div></div>'
     if foot:
         s+='<div class="hl" style="top:981px"></div>'
-        s+=f'<div class="foot" style="left:80px">{MAT} &nbsp;·&nbsp; {PROF}</div>'
+        s+=f'<div class="foot" style="left:80px">{MAT}'+(f' &nbsp;·&nbsp; {PROF}' if PROFON else '')+'</div>'
         if pag: s+=f'<div class="foot" style="right:80px">Pagina {pag}</div>'
     return s+'</body></html>'
 E=H.escape
