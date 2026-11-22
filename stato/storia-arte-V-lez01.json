@@ -10,6 +10,10 @@
   {
    "quando": "22/11 22:45",
    "testo": "storia arte lez01 BLOCCHI (22/11 notte): 1) Il PDF del prof 'LEZIONE 1.pdf' e' solo 1 pagina con 4 domande (le uso come compiti): NON ci sono slide in PDF, quindi niente pdfimages: le opere sono solo nel video del prof (1092x614, schermo registrato). Posso estrarle da li' ma sono a bassa risoluzione (ingrandimento+nitidezza, non alta risoluzione vera). 2) Wikimedia Commons e' bloccata dalla rete (403 proxy): non posso scaricare opere in alta risoluzione. Serve che la master me le fornisca (elenco opere: Goethe nella campagna romana di Tischbein, Cenotafio di Newton di Boullee, Pantheon Parigi, Palazzo Reale e Teatro alla Scala di Piermarini, Kedleston Hall, ecc.) oppure autorizzi il ricorso alle immagini del video. 3) Il prof nel video e' un tondino ~115x65 px: nel riquadro 4:3 412x309 sara' molto sfocato (stesso problema segnalato il 18/11). Procedo con upscaling+nitidezza salvo diversa indicazione. 4) In kit/sigle non c'e' la sigla Storia dell'arte: uso la sigla Storia 15s? Conferma. 5) Durata video originale 64 min: probabile 1 Parte. Procedo con trascrizione e montaggio provvisorio."
+  },
+  {
+   "quando": "22/11 23:01",
+   "testo": "storia arte lez01: testi_voci.json caricato con nomi NC_* (i vecchi R1..S6 sul ramo sono della versione vecchia: NON usarli). Nel testo MF (mappa) uso le sigle della mappa del prof espanse: G. Piermarini=Giuseppe, L. Cagnola=Luigi, L. Pollack=Leopoldo: da ricontrollare. La mappa del prof e' unica (arte Neoclassicismo) e non ha la domanda come titolo: uso «Che cos'e' il Neoclassicismo?»."
   }
  ],
  "domande_sara": [],
@@ -17,10 +21,14 @@
   {
    "quando": "22/11 22:41",
    "testo": "storia arte 22/11: presa da claude/zealous-cannon-9w0pxq"
+  },
+  {
+   "quando": "22/11 23:01",
+   "testo": "storia arte 22/11 (23:50 UTC): trascrizione fatta; webcam originale 246x136 px (riquadro 4:3 con ingrandimento 2,2x). Mandate le voci: testi_voci.json sul ramo voci-storia-arte-V-lez01 (17 voci, nomi NC_*: INTRO, ARG, A1-A5, R1-R5, SP, GL, RF, MF, COMPITI). Struttura: 5 argomenti, 2 Parti (taglio dopo il 4o argomento; P1 ~54 min, P2 ~34 min con spiegone). Ora monto con voci provvisorie."
   }
  ],
  "materia": "Storia dell'arte V",
  "lezione": "Lezione 1 · Il Neoclassicismo",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-22 22:45:51"
+ "aggiornato": "2026-11-22 23:01:01"
 }
