@@ -37,7 +37,7 @@ Le trovi nel messaggio di avvio, in ordine. Lavorale **una dopo l'altra, a caten
 ## 2. La lezione, nel modello Gonna
 **Struttura:** quella delle `REGOLE_BLINDATE` §3.
 - Sigla della materia.
-- **Introduzione** con un acquerello e l'elenco dei punti, come la copertina della Gonna.
+- **Introduzione** con un acquerello e l'elenco dei punti, come la copertina della Gonna. **Nell'introduzione non c'è mai il riquadro della prof, nemmeno vuoto**: compare quando lei comincia a parlare.
 - Per ogni argomento: titolo → prof con card sincronizzate → inserti → mappa BES ramo per ramo → pillola di ripasso → quiz di 5 domande.
 - Fine: glossario, ripasso finale e mappa della lezione, verifica di sbarramento (xlsx della prof, soglia 80%), sigla finale e, se ci sono, i compiti.
 
@@ -58,8 +58,9 @@ Docente: **Prof.ssa Piera Caputi**.
 La materia è pesante e la registrazione della prof è lenta. Oltre a insegnare dobbiamo **intrattenere**, senza mai inventare contenuti: tutto viene dal PDF e dalle parole della prof.
 
 1. **Schermo mai fermo per più di 90 secondi.** Si alternano card, inserti, acquerelli e mappe.
-2. **Parti tecniche o complicate** (processi, formule, strutture delle fibre, macchinari, trattamenti, classificazioni lunghe): mentre la prof spiega, **sopra la sua voce** entra un'animazione fatta bene che mostra esattamente quello che dice.
-   - Usa una sovrapposizione trasparente come `s3_prof.html`, oppure una scena a tutto schermo con la prof che resta nel tondo e **la sua voce che continua**. Non si taglia niente.
+2. **Parti tecniche o complicate** (processi, formule, strutture delle fibre, macchinari, trattamenti, classificazioni lunghe): **alla fine di una frase della prof** entra un'animazione fatta bene, **con la voce Kore**, che mostra e spiega esattamente quello che ha detto. Poi si torna da lei.
+   - **Correzione di Sara (22/11): tutto quello che creiamo noi ha la voce Kore, mai la voce della prof.** Niente animazioni sopra la sua voce: le card sincronizzate delle sue slide restano, gli inserti hanno la voce Kore.
+   - La prof non si taglia mai a metà frase.
    - Esempi:
      - la fibra di lana con le scaglie che si aprono e si chiudono;
      - il baco, il bozzolo e il filo che si svolge sul rocchetto;
@@ -77,6 +78,13 @@ La materia è pesante e la registrazione della prof è lenta. Oltre a insegnare 
    - «denaro, cioè l'unità che misura la finezza del filo».
 8. **Formule e molecole:** in vettoriale nitido, testo esatto della prof, costruite passo per passo.
 9. **I tagli di parti della prof li decide Sara.** Se un pezzo ti sembra da togliere (ripetizioni lunghe, parti fuori tema), **non toglierlo**: scrivilo alla master con minuto e motivo.
+
+## 3-bis. Correzioni di Sara del 22/11 (valgono più di tutto il resto)
+- **Mai dire o scrivere il nome della prof nelle animazioni** (voce Kore e schede).
+- **Nomi stranieri e latini** scritti nella loro lingua; la voce li pronuncia correttamente (latino in latino). Ascolta ogni voce con un nome straniero.
+- **Immagini tutte ad alta risoluzione.** Opere, oggetti, macchinari e luoghi si possono prendere da Wikimedia Commons in alta risoluzione, con la fonte nel rapporto. Niente foto di persone reali scaricate dal web.
+- **Dispensa:** in copertina solo materia esatta e titolo della videolezione (niente nome della prof, niente numero di lezione), stessa grafica della copertina delle slide. Piè di pagina: materia e pagina. **Le mappe hanno un PDF A4 orizzontale a parte**, con la stessa copertina più la scritta «MAPPE».
+- **Anomalie nel materiale della prof** (refusi, numeri che non tornano): nel rapporto. **Non si corregge niente** finché Sara non decide.
 
 ## 4. Illustrazioni ad acquerello
 - Stile del figurino della Gonna: «come il disegno di uno stilista». Tutte della stessa qualità.
