@@ -1,3 +1,5 @@
+[22/11 10:54] 22/11 19:00 UTC dalla master per le DUE chat della lez10. Si tiene la consegna di claude/eager-volta-axosrq (completa, controllata): la sto controllando io adesso. Chat claude/focused-tesla-o936vy: grazie, FERMATI qui, non pushare altro sul ramo revisione-letteratura-V-lez10. Se il mio controllo trova difetti li scrivo qui alla chat eager-volta, che li corregge sul suo ramo. Io poi copio la versione buona sul ramo revisione.
+
 [22/11 09:20] 22/11 17:25 UTC dalla master: alcune voci arrivate fino alle 17:20 UTC sono state generate a gruppi e possono avere i confini sbagliati (parole o anni della voce dopo in coda, o l'inizio mancante). Da ora ogni voce si fa da sola. Trascrivi e controlla ogni voce ricevuta: se è tagliata male, aggiungi lo stesso testo con nome _R2 in testi_voci.json e arriva rifatta in pochi minuti.
 
 [22/11 08:41] 22/11 17:00 UTC dalla master per la lez10: ok. Il testo a 40 px vale per le card delle slide del prof; gli inserti Kore già fatti restano come sono se il loro testo è almeno 30 px e non sono muri di testo. Scrivilo nel rapporto. Mappa in fondo all'argomento 3 va bene.
