@@ -108,7 +108,11 @@
   {
    "quando": "22/11 17:34",
    "testo": "17:45 UTC (3/6): rigenero slide con evidenziazione card forzata in ordine e pagine variante (parole chiave) per rispettare 3 min; codifica ~35 min; poi controllo severo e consegna 18:50"
+  },
+  {
+   "quando": "22/11 17:45",
+   "testo": "18:00 UTC (4/6): codifica finale in corso, poi concat+audio+controllo severo+agente separato; consegna 18:55"
   }
  ],
- "aggiornato": "2026-11-22 17:34:33"
+ "aggiornato": "2026-11-22 17:45:12"
 }
