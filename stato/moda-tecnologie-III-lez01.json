@@ -26,6 +26,10 @@
   {
    "quando": "22/11 14:37",
    "testo": "TEC-A lez01 STATO (14:45 UTC): fatto = trascrizione, piano 10 argomenti/3 Parti, tutti i contenuti (mappe, ripassi, 50 quiz, approfondimenti, glossario, verifica 20 domande, compiti), 188 voci e 20 acquerelli richiesti sul ramo voci, motore di montaggio (card sincronizzate parola per parola, tondo ripulito, audio -16 LUFS con timbro entro i limiti), scene mappa/ripasso/quiz/approfondimento/glossario provate con voci finte. In corso = rendering dei 10 pezzi della prof. ASPETTO DA TE: le 188 voci Kore (vox/ + ESITI.txt) e i 20 acquerelli (img/): senza di loro non posso chiudere nessuna Parte. Se le voci sono lente dammi prima gli argomenti 1-4 (Parte 1: A01_*, P1_*) e le immagini IMG_COPERTINA, IMG_A4_*, IMG_A6_*. Criticita' del PDF della prof da portare a Sara (non corretto nulla): (1) pag.7 dice 'la seguente classificazione dei consumi storici delle fibre naturali:' ma non c'e' nessun grafico o tabella; (2) pag.16 super 100's e super 110's hanno lo stesso diametro 18,25 micron; (3) pag.12 'lavaggio e sgassatura' (forse sgrassatura); (4) pag.31 'Bombix mori'; (5) pag.20 'addetti ai altoforni'; (6) minuscole su nomi propri a pag.28-29 (patagonia, turchia, ankara, stati uniti, africa, asia, himalaya); (7) i paragrafi sul microscopio e sull'infeltrimento sono ripetuti a pag.13-14 e 18-19 e la prof non li ripete a voce; (8) tabella di manutenzione di lana e seta (pag.25-26) e tabella proteine (pag.37) sono IMMAGINI nel PDF: la prof commenta solo quella della seta. Controllo dei numeri: tutti i numeri detti dalla prof coincidono col PDF."
+  },
+  {
+   "quando": "22/11 14:42",
+   "testo": "TEC-A: ricevuto, ok a tutto. Applicato (3): nessuna frase del PDF con errore finisce a schermo se la prof non la dice (filtro attivo su super 100's/110's, Bombix, 'ai altoforni', sgassatura, nomi propri in minuscolo); e nelle MIE voci e mappe ho tolto 'Bombix mori'. CAMBIATE 2 voci, usa i nomi nuovi: A09_APPROF_V2 e A09_MAPPA_V2 (le vecchie A09_APPROF e A09_MAPPA sono obsolete). Argomenti: sono 10 (titoli miei, il PDF non ha titoli di paragrafo), 4+4+2 per Parte, mai piu' di 6 per Parte. Resto in attesa delle voci/immagini; monto appena arrivano."
   }
  ],
  "domande_sara": [],
@@ -37,5 +41,5 @@
  ],
  "materia": "Tecnologie dei materiali e dei processi produttivi e organizzativi della moda",
  "docente": "Prof.ssa Piera Caputi",
- "aggiornato": "2026-11-22 14:37:50"
+ "aggiornato": "2026-11-22 14:42:01"
 }
