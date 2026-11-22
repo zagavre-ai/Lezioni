@@ -3,48 +3,19 @@
  "parti": {
   "1": {
    "stato": "IN_REVISIONE"
-  },
-  "2": {
-   "stato": "IN_REVISIONE"
   }
  },
  "manca": "",
- "serve_master": [
-  {
-   "quando": "19/11 02:58",
-   "testo": "Voci Kore nuove lez 21 (v3 + regole 19/11, 2 Parti): 63 testi in testi_voci.json, ramo voci-storia-V-lez21. Nomi nuovi: BEN1-2, PI*, SC*_*, MPR1-4, AP*_* (approfondimenti 40-60 s), LG0-8, FZ1-2"
-  },
-  {
-   "quando": "20/11 15:59",
-   "testo": "Voci Kore lez 21: 5 testi NUOVI in testi_voci.json (ramo voci-storia-V-lez21): AP3_3, AP4_1, AP5_1, AP6_1, AP6_2 (approfondimenti rifatti per le regole delle 05:10). Le altre voci gia ricevute restano valide; AP3_2, AP5_0, AP6_0 non servono piu."
-  }
- ],
+ "serve_master": [],
  "domande_sara": [],
  "note": [
   {
-   "quando": "19/11 01:06",
-   "testo": "PRENOTATA 19/11 01:10 chat v3 rifacimento da zero (dopo lez 6 e 17 consegnate; 16,18,19,20 prese da altre chat)"
-  },
-  {
-   "quando": "19/11 02:58",
-   "testo": "02:55 voci inviate (63 testi); trascrizione fatta, slide/approfondimenti in preparazione"
-  },
-  {
-   "quando": "19/11 19:00",
-   "testo": "19/11 03:46 PER LA MASTER: lez 21 in rimontaggio con le regole 03:40 (slide max 3 card/165 s, 10 approfondimenti, 4 mappe ridisegnate con mappa.py, copertina titolo esatto, avviso senza riquadro). Voci: 64 ricevute, nessuna DA CONTROLLARE. Parti 39:30 e 35:52 (2 Parti, totale 75 min: una sola Parte supererebbe i 60). Misurato prima del rimontaggio: -16.0 LUFS, 0 fermi prof, jingle 0.000 s. Consegna prevista ~04:30 su revisione-storia-V-lez21. ATTENZIONE lez 8: prima del vostro stop avevo scritto su voci-storia-V-lez08 il file testi_voci.json (commit 7707781, 67 testi miei) e la master ha generato 67 voci da quei testi (commit bc2a45c): non li ho piu toccati, ma potrebbero sovrascrivere quelli dell altra chat; verificate. Gia consegnate da me: lez 6 (revisione-storia-V-lez06) e lez 17 (revisione-storia-V-lez17) con le regole vecchie (una slide per argomento, mappe senza mappa.py): vanno corrette come le altre; la lez 15 ha anche gli anni in lettere nelle mappe. Dopo la 21 parto con la lista di correzione 9,5,3,7,12,11,16,14,10,20."
-  },
-  {
-   "quando": "19/11 19:01",
-   "testo": "03:46 come Parte 1: rimontaggio in corso"
-  },
-  {
-   "quando": "20/11 15:59",
-   "testo": "20/11 16:02 aggiornamento orario: ho letto le note master 05:10 e 05:25 (card intere, niente card sola su riquadro vuoto senza immagine, intro <3 min, timeline rigenerata). Lez 21: rifaccio le slide con queste regole (card sole solo con foto del PDF accanto, altrimenti 2-3 card), 5 nuovi approfondimenti (voci richieste al master), poi rimontaggio 2 Parti e controlli. Consegna prevista ~17:30."
-  },
-  {
-   "quando": "20/11 15:59",
-   "testo": "16:02 come Parte 1"
+   "quando": "22/11 18:36",
+   "testo": "correzioni 22/11: presa da claude/blissful-bell-9eelfr"
   }
  ],
- "aggiornato": "2026-11-20 15:59:51"
+ "materia": "Storia V",
+ "lezione": "Lezione 21 · Il mondo dal 2001 ad oggi",
+ "docente": "Prof. Giorgio Mazzotti",
+ "aggiornato": "2026-11-22 18:36:33"
 }
