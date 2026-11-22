@@ -1,0 +1,119 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="base.css"><style>
+body{background:#fff}
+.scr{position:absolute;left:0;top:0;width:1920px;height:1080px;opacity:0;display:none}
+.dark{background:#0B1530;color:#fff}
+.dark .foot{color:#9DB7E0}
+.dkbg{position:absolute;left:0;top:0;width:1920px;height:1080px;background:#0B1530}
+.abs{position:absolute}
+.badge{position:absolute;padding:8px 22px;background:#FFE600;color:#0B1530;font:700 26px FigB;letter-spacing:.12em;border-radius:6px}
+.n{position:absolute;box-sizing:border-box;display:flex;align-items:center;justify-content:center;text-align:center;padding:10px 20px;border-radius:16px;font:400 34px/1.28 Fig;color:#0B1530;opacity:0}
+.n b{font-family:FigB;font-weight:700}.n.hl{box-shadow:0 0 0 8px #FFE600}
+.pes{background:#FFDCC6;border:5px solid #C2410C}.pag{background:#FFF3BF;border:4px solid #A16207}
+.men{background:#DDF3E4;border:4px solid #15803D}.cel{background:#DCEEFB;border:4px solid #1D4ED8}.lil{background:#EADFF7;border:4px solid #7E22CE}
+.n.ls{align-items:flex-start;justify-content:flex-start;text-align:left}
+.opt{position:absolute;box-sizing:border-box;border-radius:18px;border:4px solid #CBD5E1;background:#F4F6FA;display:flex;align-items:center;padding:16px 28px;font:600 36px/1.25 FigS;color:#0B1530;opacity:0}
+.opt i{flex:0 0 64px;height:64px;border-radius:50%;background:#2060AF;color:#fff;font:700 36px/64px FigB;text-align:center;margin-right:24px;font-style:normal}
+.opt.ok{background:#DDF3E4;border-color:#15803D}.opt.ok i{background:#15803D}.opt.no{opacity:.28!important}
+</style></head><body>
+<!-- 1 TITOLO -->
+<div class="scr dark" id="s_titolo"><div class="dkbg"></div><svg class="abs" style="left:0;top:0" width="1920" height="1080" id="tsvg"></svg>
+ <div class="abs" id="tk" style="left:140px;top:330px;font:700 30px FigB;letter-spacing:.2em;color:#FFE600">ARGOMENTO</div>
+ <div class="abs" id="tt" style="left:136px;top:390px;width:1200px;font:400 104px/1.05 Bri;color:#fff"></div>
+ <div class="abs" id="tu" style="left:140px;top:360px;height:8px;background:#FFE600;border-radius:4px"></div>
+ <img class="abs" id="timg" style="right:100px;top:130px;height:820px;opacity:0"></div>
+<!-- 2 APPROFONDIMENTO -->
+<div class="scr" id="s_approf"><div class="k">APPROFONDIMENTO</div><div class="rule"></div><div class="badge" id="ab" style="left:700px;top:112px">LO SAPEVI?</div>
+ <img class="abs" id="aimg" style="left:90px;top:120px;height:880px;opacity:0">
+ <div class="abs" id="aq" style="left:700px;top:190px;width:1120px;font:400 56px/1.15 Bri;opacity:0"></div>
+ <div class="abs" id="ac" style="left:700px;top:430px;width:1120px;display:flex;flex-direction:column;gap:18px"></div>
+ <div class="foot" id="afoot"></div></div>
+<!-- 3 MAPPA -->
+<div class="scr" id="s_mappa"><div class="k" id="mk"></div><div class="rule"></div>
+ <div class="leg"><span><i style="background:#FFDCC6;border-color:#C2410C"></i>concetto centrale</span><span><i style="background:#DCEEFB;border-color:#1D4ED8"></i>date e sequenze</span><span><i style="background:#FFF3BF;border-color:#A16207"></i>parole chiave</span><span><i style="background:#DDF3E4;border-color:#15803D"></i>esempi</span><span><i style="background:#EADFF7;border-color:#7E22CE"></i>conseguenze</span></div>
+ <svg class="abs" style="left:0;top:0" width="1920" height="1080" id="msvg"></svg><div id="mn"></div><div class="foot" id="mfoot"></div></div>
+<!-- 4 PILLOLA -->
+<div class="scr dark" id="s_pillola"><div class="dkbg"></div><svg class="abs" style="left:0;top:0" width="1920" height="1080" id="psvg"></svg>
+ <div class="abs" style="left:140px;top:120px;font:700 30px FigB;letter-spacing:.2em;color:#FFE600" id="pk">PILLOLA DI RIPASSO</div>
+ <div class="abs" id="ptt" style="left:136px;top:170px;width:1640px;font:400 70px/1.1 Bri;color:#fff"></div>
+ <div class="abs" id="pl" style="left:140px;top:340px;width:1640px"></div></div>
+<!-- 5 SCHEDA QUIZ -->
+<div class="scr dark" id="s_qscheda"><div class="dkbg"></div><svg class="abs" style="left:0;top:0" width="1920" height="1080" id="qsvg"></svg>
+ <div class="abs" style="left:0;top:340px;width:1920px;text-align:center;font:400 120px Bri;color:#fff" id="qs1">Mettiti alla prova</div>
+ <div class="abs" style="left:0;top:520px;width:1920px;text-align:center;font:600 46px FigS;color:#FFE600" id="qs2">5 domande · per continuare almeno l'80%</div></div>
+<!-- 6 DOMANDA -->
+<div class="scr" id="s_dom"><div class="k" id="dk"></div><div class="rule"></div>
+ <div class="abs" id="dn" style="left:120px;top:112px;font:700 26px FigB;letter-spacing:.14em;color:#C2410C"></div>
+ <div class="abs" id="dq" style="left:120px;top:170px;width:1680px;font:400 56px/1.2 Bri;opacity:0"></div>
+ <div id="dopt"></div>
+ <div class="abs" id="dbar" style="left:120px;top:960px;height:10px;width:0;background:#2060AF;border-radius:5px;opacity:0"></div>
+ <div class="abs" id="dsp" style="left:120px;top:800px;width:1680px;font:400 36px/1.4 Fig;opacity:0"></div><div class="foot" id="dfoot"></div></div>
+<!-- 7 ELENCO (glossario, ripasso, verifica finale, compiti) -->
+<div class="scr" id="s_elenco"><div class="k" id="ek"></div><div class="rule"></div>
+ <div class="abs" id="et" style="left:60px;top:104px;width:1700px;font:400 60px/1.1 Bri;opacity:0"></div>
+ <div class="abs" id="el" style="left:60px;top:210px;width:1800px;display:flex;flex-wrap:wrap;gap:20px"></div><div class="foot" id="efoot"></div></div>
+<!-- 8 COPERTINA -->
+<div class="scr" id="s_cop"><div class="abs" id="ck" style="left:700px;top:120px;font:700 24px FigB;letter-spacing:.08em;color:#2060AF;width:700px;line-height:1.3"></div>
+ <div class="abs" id="ct" style="left:696px;top:200px;font:400 118px/1.0 Bri;opacity:0;width:720px"></div>
+ <div class="abs" id="cs" style="left:700px;top:430px;font:600 30px FigS;color:#2060AF;opacity:0;width:700px"></div>
+ <div class="abs" id="cl" style="left:700px;top:520px;width:700px;font:400 34px/1.45 Fig"></div>
+ <img class="abs" id="cimg" style="left:60px;top:120px;height:880px;opacity:0">
+ <div class="foot" id="cfoot"></div></div>
+<div class="abs" id="pr" style="display:none;left:1455px;top:500px;width:370px;padding:10px 0;text-align:center;background:#FFE600;color:#0B1530;font:700 30px FigB;transform:rotate(-3deg);border-radius:4px">Prof.ssa Piera Caputi</div>
+<div class="abs" id="pr2" style="display:none;left:1440px;top:562px;width:400px;text-align:center;font:600 20px/1.3 FigS;color:#2060AF">Chimica applicata e nobilitazione dei materiali per i prodotti della moda</div>
+<script>
+const ease=x=>{x=Math.max(0,Math.min(1,x));return 1-Math.pow(1-x,3)};
+const NS='http://www.w3.org/2000/svg';let D=null;
+const MATERIA='CHIMICA APPLICATA E NOBILITAZIONE DEI MATERIALI PER I PRODOTTI DELLA MODA · Tecnico Sistema Moda · III-IV anno · Prof.ssa Piera Caputi';
+function $(i){return document.getElementById(i)}
+function show(e,v,dy){e.style.opacity=Math.max(0,Math.min(1,v)).toFixed(3);e.style.transform=`translateY(${(dy||16)*(1-Math.max(0,Math.min(1,v)))}px)`}
+function bg(svgid,t){const s=$(svgid);if(!s.dataset.i){s.dataset.i=1;for(let i=0;i<14;i++){const c=document.createElementNS(NS,'circle');c.setAttribute('r',60+i*22);c.setAttribute('fill','none');c.setAttribute('stroke','#17306B');c.setAttribute('stroke-width','3');s.appendChild(c)}}
+ [...s.children].forEach((c,i)=>{c.setAttribute('cx',(1500+Math.sin(t*0.25+i*0.5)*260).toFixed(1));c.setAttribute('cy',(540+Math.cos(t*0.21+i*0.4)*200).toFixed(1));c.setAttribute('opacity',(0.25+0.15*Math.sin(t*0.6+i)).toFixed(2))})}
+function setData(d){D=d;document.querySelectorAll('.scr').forEach(e=>e.style.display='none');
+ const sc=$('s_'+d.kind);sc.style.display='block';sc.style.opacity=1;
+ document.querySelectorAll('.foot').forEach(f=>{if(!f.closest('.dark'))f.textContent=MATERIA});
+ INIT[d.kind]&&INIT[d.kind](d);}
+const ST=()=>D.steps||[];
+const INIT={},DRAW={};
+// ---- titolo
+INIT.titolo=d=>{$('tt').textContent=d.titolo;$('tk').textContent=d.kicker||'ARGOMENTO';const h=$('tt');
+ // sposta il blocco in base al numero di righe
+ if(d.img){$('timg').src=d.img}};
+DRAW.titolo=t=>{bg('tsvg',t);show($('tk'),ease((t-0.3)/0.6));show($('tt'),ease((t-0.6)/0.8),30);$('tu').style.width=(560*ease((t-1.2)/0.8))+'px';$('tu').style.top=($('tt').getBoundingClientRect().bottom+14)+'px';
+ if(D.img){$('timg').style.opacity=ease((t-0.8)/1.2)}};
+// ---- approfondimento
+INIT.approf=d=>{$('aimg').src=d.img||'';$('aq').textContent=d.domanda;const c=$('ac');c.innerHTML='';d.frasi.forEach(f=>{const e=document.createElement('div');e.className='card';e.style.cssText='position:relative;left:auto;top:auto;font:400 36px/1.4 Fig;padding:18px 28px;width:100%';e.innerHTML=f.h;c.appendChild(e)})};
+DRAW.approf=t=>{$('aimg').style.opacity=ease((t-0.2)/1.0);show($('aq'),ease((t-0.4)/0.7));show($('ab'),ease(t/0.5));
+ [...$('ac').children].forEach((e,i)=>{const f=D.frasi[i];const p=ease((t-f.t0)/0.5);const on=t>=f.t0&&t<f.t1;e.style.opacity=(p*(t>=f.t1?0.6:1)).toFixed(3);e.style.transform=`translateY(${16*(1-p)}px)`;e.classList.toggle('on',on)})};
+// ---- mappa
+INIT.mappa=d=>{$('mk').textContent=d.kicker;const svg=$('msvg');svg.innerHTML='';const box=$('mn');box.innerHTML='';
+ d.nodi.forEach(n=>{if(n.da){const p=d.nodi.find(x=>x.id===n.da);const l=document.createElementNS(NS,'path');l.setAttribute('id','L'+n.id);l.setAttribute('stroke','#0B1530');l.setAttribute('stroke-width','5');l.setAttribute('fill','none');l.setAttribute('stroke-linejoin','round');
+   const x1=p.x+p.w/2,y1=p.y+p.h,x2=n.x+n.w/2,y2=n.y; const ym=(y1+y2)/2; l.setAttribute('d',n.rl?`M${p.x+p.w} ${p.y+p.h/2} H${n.x} `:`M${x1} ${y1} V${ym} H${x2} V${y2}`);l.style.opacity=0;svg.appendChild(l)}
+  const e=document.createElement('div');e.className='n '+n.c+(n.ls?' ls':'');e.id='N'+n.id;e.style.cssText=`left:${n.x}px;top:${n.y}px;width:${n.w}px;height:${n.h}px;`+(n.fs?`font-size:${n.fs}px;`:'')+(n.c==='pes'?'font-family:Bri;font-size:'+(n.fs||44)+'px;':'');
+  e.innerHTML='<div style="width:100%">'+n.h2+'</div>';box.appendChild(e)})};
+DRAW.mappa=t=>{const st=ST();const grp=D.gruppi;const hold=D.tenuta;const end=st.length?st[st.length-1][0]+st[st.length-1][1]:0;
+ D.nodi.forEach(n=>{const e=$('N'+n.id);const l=$('L'+n.id);const gi=n.g;let t0=(gi==null||gi<0)?0.3:(st[gi]?st[gi][0]-0.25:0);let p=ease((t-t0)/0.5);
+  if(D.fantasma&&n.f){p=Math.max(p,0.18)}
+  e.style.opacity=p.toFixed(3);e.style.transform=`translateY(${(16*(1-p)).toFixed(1)}px)`;if(l)l.style.opacity=ease((t-t0+0.3)/0.4);
+  const on=(gi!=null&&gi>=0&&st[gi]&&t>=st[gi][0]-0.1&&t<st[gi][0]+st[gi][1]+0.3);e.classList.toggle('hl',on)})};
+// ---- pillola
+INIT.pillola=d=>{$('ptt').textContent=d.titolo;const l=$('pl');l.innerHTML='';d.righe.forEach(r=>{const e=document.createElement('div');e.style.cssText='font:400 46px/1.3 Fig;color:#fff;margin-bottom:26px;padding-left:44px;position:relative;opacity:0';e.innerHTML='<span style="position:absolute;left:0;top:14px;width:20px;height:20px;border-radius:50%;background:#FFE600"></span>'+r;l.appendChild(e)})};
+DRAW.pillola=t=>{bg('psvg',t);show($('pk'),ease(t/0.5));show($('ptt'),ease((t-0.2)/0.6));const st=ST();[...$('pl').children].forEach((e,i)=>{const s=st[i];const p=ease((t-s[0]+0.2)/0.5);const cur=t>=s[0]-0.1&&t<s[0]+s[1]+0.3;e.style.opacity=(p*(cur?1:0.55)).toFixed(3);e.style.transform=`translateY(${16*(1-p)}px)`;e.style.color=cur?'#FFE600':'#fff'})};
+// ---- scheda quiz
+DRAW.qscheda=t=>{bg('qsvg',t);show($('qs1'),ease((t-0.3)/0.6),30);show($('qs2'),ease((t-1.0)/0.6));$('qs2').textContent=D.sotto||"5 domande · per continuare almeno l'80%";$('qs1').textContent=D.titolo||'Mettiti alla prova'};
+// ---- domanda
+INIT.dom=d=>{$('dk').textContent=d.kicker;$('dn').textContent=d.num;$('dq').textContent=d.q;const o=$('dopt');o.innerHTML='';const L=['A','B','C','D'];
+ d.opz.forEach((x,i)=>{const e=document.createElement('div');e.className='opt';e.style.cssText=`left:${120+(i%2)*850}px;top:${(d.oy||380)+Math.floor(i/2)*190}px;width:830px;height:170px`;e.innerHTML='<i>'+L[i]+'</i><span>'+x+'</span>';o.appendChild(e)});$('dsp').innerHTML=d.sp};
+DRAW.dom=t=>{const st=ST();const q=st[0],s=st[1];show($('dq'),ease((t-q[0]+0.3)/0.6));show($('dn'),ease(t/0.5));
+ const tOpt=q[0]+q[1]+0.5;[...$('dopt').children].forEach((e,i)=>{show(e,ease((t-tOpt-i*0.35)/0.5)*(e.classList.contains('no')?0.28:1))});
+ const rev=t>=s[0]-0.3;[...$('dopt').children].forEach((e,i)=>{e.classList.toggle('ok',rev&&i===D.giusta);e.classList.toggle('no',rev&&i!==D.giusta)});
+ const tb=tOpt+1.6, te=s[0]-0.3;const bar=$('dbar');bar.style.opacity=(t>tb&&t<te)?1:0;bar.style.width=(1680*Math.max(0,Math.min(1,(t-tb)/(te-tb))))+'px';
+ show($('dsp'),ease((t-s[0]+0.1)/0.6))};
+// ---- elenco
+INIT.elenco=d=>{$('ek').textContent=d.kicker;$('et').textContent=d.titolo;const l=$('el');l.innerHTML='';d.voci.forEach(v=>{const e=document.createElement('div');e.className='card';e.style.cssText=`position:relative;left:auto;top:auto;width:${v.w||880}px;font:400 ${v.fs||32}px/1.35 Fig;padding:16px 26px;`;e.innerHTML=v.h;l.appendChild(e)})};
+DRAW.elenco=t=>{show($('et'),ease((t-0.2)/0.6));const st=ST();[...$('el').children].forEach((e,i)=>{const s=st[i];if(!s){return}const p=ease((t-s[0]+0.2)/0.5);const cur=t>=s[0]-0.1&&t<s[0]+s[1]+0.3;e.style.opacity=(p*(cur?1:0.6)).toFixed(3);e.style.transform=`translateY(${16*(1-p)}px)`;e.classList.toggle('on',cur)})};
+// ---- copertina
+INIT.cop=d=>{$('ck').textContent=d.kicker;$('ct').textContent=d.titolo;$('cs').textContent=d.sotto;$('cl').innerHTML=d.punti.map(p=>`<div style="opacity:0">${p}</div>`).join('');if(d.img){const i=$('cimg');i.src=d.img;} $('pr').style.display='block';$('pr2').style.display='block'};
+DRAW.cop=t=>{show($('ct'),ease((t-0.2)/0.8));show($('cs'),ease((t-0.8)/0.6)); [...$('cl').children].forEach((e,i)=>{const t0=(D.t_lista||1e9)+i*(D.passo||0.9);show(e,ease((t-t0)/0.5))});
+ const i=$('cimg');if(D.img){i.style.opacity=ease((t-0.3)/1.2)}};
+function render(t){const f=DRAW[D.kind];f(t)}
+</script></body></html>
