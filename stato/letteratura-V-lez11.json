@@ -2,7 +2,7 @@
  "tag": "letteratura-V-lez11",
  "parti": {
   "1": {
-   "stato": "REVISIONATA",
+   "stato": "IN_REVISIONE",
    "video": "Letteratura_Lez11_Parte1_1080p.mp4",
    "durata_s": 3104.0,
    "durata": "51:44.0",
@@ -38,7 +38,11 @@
   {
    "quando": "17/11 17:20",
    "testo": "17/11: riletti aggiornamenti fino alle 08:45 (pronuncia nomi latini: nessun nome latino nei testi voce della 11). Nulla da cambiare, consegna gia' sul ramo revisione-letteratura-V-lez11 (a67f43f)."
+  },
+  {
+   "quando": "22/11 16:37",
+   "testo": "correzioni 22/11: presa da revisione-letteratura-V-lez11 (a67f43f). Consegna prevista entro 19:30 UTC."
   }
  ],
- "aggiornato": "2026-11-17 17:20:07"
+ "aggiornato": "2026-11-22 16:37:05"
 }
