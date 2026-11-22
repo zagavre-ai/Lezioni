@@ -2,7 +2,7 @@
  "tag": "letteratura-V-lez23",
  "parti": {
   "1": {
-   "stato": "IN_REVISIONE"
+   "stato": "IN_MONTAGGIO"
   }
  },
  "manca": "",
@@ -101,7 +101,11 @@
   {
    "quando": "22/11 18:19",
    "testo": "18:17 UTC: video completo con voci mappa; controllo severo in corso, poi ritocchi, rapporto, consegna entro 19:20 UTC"
+  },
+  {
+   "quando": "22/11 18:45",
+   "testo": "18:46 UTC consegna sul ramo revisione-letteratura-V-lez23 (video 50:15, controllo severo in corso, rapporto); correzioni 22/11 quasi finite"
   }
  ],
- "aggiornato": "2026-11-22 18:19:34"
+ "aggiornato": "2026-11-22 18:45:28"
 }
