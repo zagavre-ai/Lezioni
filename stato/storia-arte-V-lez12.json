@@ -1,8 +1,13 @@
 {
  "tag": "storia-arte-V-lez12",
  "parti": {},
- "manca": "",
- "serve_master": [],
+ "manca": "montaggio con voci provvisorie; voci Kore da sostituire domattina",
+ "serve_master": [
+  {
+   "quando": "22/11 23:09",
+   "testo": "Lez12: testi_voci.json (22 voci) pushato su voci-storia-arte-V-lez12, include COMPITI. Domande non bloccanti: (1) sigla di Storia dell'arte: uso kit/sigle/Sigla_Storia_15s.mp4, ok? (2) Il prof ha UNA sola mappa (Dadaismo): la metto dopo l'argomento 2 e la mappa finale della lezione sarebbe la stessa: la rifaccio solo come schermata fissa 4 s nel ripasso finale, ok? (3) Titolo-domanda della mappa scritto da me con le parole del prof: «Che cos'è il Dadaismo?». Nota: l'audio del prof non ha pause oltre 2,5 s; 49,5 min, quindi con le aggiunte punto a una sola Parte sotto 65 min."
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
@@ -10,5 +15,5 @@
    "testo": "storia arte 22/11: presa da claude/elegant-shannon-iof7o7"
   }
  ],
- "aggiornato": "2026-11-22 22:47:02"
+ "aggiornato": "2026-11-22 23:09:33"
 }
