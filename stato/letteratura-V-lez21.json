@@ -99,7 +99,11 @@
   {
    "quando": "22/11 17:56",
    "testo": "correzioni 22/11 (18:00 UTC): voci mappa ricevute e verificate (numeri giusti), mappa unica montata ramo per ramo; video finale in codifica (55:59), poi controllo severo, sottotitoli e consegna. Consegna prevista 18:40 UTC."
+  },
+  {
+   "quando": "22/11 18:27",
+   "testo": "correzioni 22/11 (18:28 UTC): controllo severo: tutto OK tranne 24 pause >2,5 s tra le schede; le ho accorciate e sto ricodificando (pezzi leggeri + video finale). Poi ricontrollo e consegno entro le 19:15 UTC."
   }
  ],
- "aggiornato": "2026-11-22 17:56:30"
+ "aggiornato": "2026-11-22 18:27:16"
 }
