@@ -6,6 +6,10 @@
   {
    "quando": "22/11 16:37",
    "testo": "Lez.8 (correzioni 22/11): 3 conflitti di regole da decidere, intanto procedo con il resto. (1) DURATA: il video attuale è 66:54 e il controllo severo accetta 45–65 min; con mappa (+~90 s) e testo a 40 px sale sopra i 70: lo divido in 2 Parti (alla fine dell'argomento 2) o taglio pause/incespicamenti del prof (-5 min)? Intanto non taglio. (2) SCHERMATE >3 MIN: il prof parla 518 s sulla slide 'L'esteta e la vita come opera d'arte', 419 s su 'Il mito del superuomo', 372 s su 'Le opere della fase estetizzante', 246 s su 'La svolta politica': per rispettare il limite servono 7 approfondimenti animati Kore (40-60 s) nei punti di pausa del prof, con voci nuove. Li preparo e mando i testi su voci-letteratura-V-lez08 (M1.. mappa, A1..A7 approfondimenti): se non vuoi gli approfondimenti dimmelo. (3) MAPPA del prof: 25 riquadri (vita 8, poetica 3, personalità 5, opere 9): a 34 px non entrano tutti in una schermata 1920x1080; uso 34 px con riquadri larghi e testo identico, controlla il risultato."
+  },
+  {
+   "quando": "22/11 16:40",
+   "testo": "Voci pronte da generare su voci-letteratura-V-lez08: M1-M5 e A1-A9 (testi_voci.json). Mi servono entro le 18:15 UTC per finire entro 19:30."
   }
  ],
  "domande_sara": [],
@@ -13,7 +17,11 @@
   {
    "quando": "22/11 16:34",
    "testo": "correzioni 22/11: presa da revisione-letteratura-V-lez08. Consegna prevista entro 19:30 UTC."
+  },
+  {
+   "quando": "22/11 16:40",
+   "testo": "22/11 16:45 UTC: slide a 40px (max 2-3 card intere/pagina) pronte; testi voci nuovi pushati su voci-letteratura-V-lez08: M1-M5 (mappa del prof, ramo per ramo) e A1-A9 (approfondimenti animati). Master: genera quando puoi (servono prima possibile, ~14 voci). Ricodifica pezzi prof in corso."
   }
  ],
- "aggiornato": "2026-11-22 16:37:26"
+ "aggiornato": "2026-11-22 16:40:36"
 }
