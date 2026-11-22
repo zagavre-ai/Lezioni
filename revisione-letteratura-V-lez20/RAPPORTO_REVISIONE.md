@@ -1,43 +1,33 @@
-# RAPPORTO REVISIONE · Letteratura italiana V · Lezione 20 · Carlo Emilio Gadda · VERSIONE 2 (17/11/2026)
-Sostituisce la versione del 16/11 (che aveva **un errore grave nell'audio del prof**, vedi § 3). **Misurato** = misurato con uno strumento; **stima** = dedotto; **non verificato** = non ho potuto.
+# RAPPORTO REVISIONE · Letteratura italiana V · «Carlo Emilio Gadda» · CORREZIONI 22/11 (versione 3)
+Partenza: `revisione-letteratura-V-lez20` (v2 del 17/11). **Misurato** = misurato con uno strumento; **stima** = dedotto; **non verificato** = non ho potuto. Titolo esatto della lezione: «Carlo Emilio Gadda».
 
-## 1. Misure sul video nuovo (misurato)
+## 1. Misure sul video finale (misurato)
 | Controllo | Risultato |
 |---|---|
-| Formato | 1920×1080, 30 fps, x264 veryfast CRF 19, AAC 192k 48 kHz |
-| Durata | **47:43,6 (2863,6 s) = 85 909 fotogrammi** (prima 54:50). La durata è cambiata come deciso da Sara (mappe nostre tolte, silenzi tolti, tagli del prof a fine frase). **È sotto i 50 minuti della regola del 7/11**: da decidere |
-| Peso | 175,5 MB (167,4 MiB) |
+| Formato | 1920×1080, 30 fps, x264 veryfast CRF 19, AAC 192k 48 kHz, una sola codifica |
+| Durata | **47:46,6 (2866,6 s) = 85 999 fotogrammi** (durata × 30). Sotto i 50 minuti: lezione con il solo materiale del prof, come previsto dalle regole (non si allunga) |
+| Peso | 171,2 MB |
+| Volume | −16,8 LUFS integrato, picco **−1,1 dBTP** (`ebur128=peak=true`); parlato del prof (mediana pezzi D) −16,6 LUFS |
 | Scatto dei quiz | `controllo_jingle.py`: Q1–Q6 a **0,000 s** |
-| Volume | −16,8 LUFS integrato; parlato del prof (mediana pezzi D) −16,6 LUFS; picco **−1,2 dBTP** (`ebur128=peak=true`) |
-| Fermi immagine del prof | nessuno (`controllo_finale.py`, soglia 1 s) |
-| Silenzi ≥ 2,5 s (silencedetect −45 dB) | **uno solo**: 47:20,6–47:23,6 (3,0 s) fra la scheda «Verifica finale» e la sigla finale |
-| Sincronia labbra/voce (pezzi del prof) | scarto audio-finale vs audio dell'originale, 3 punti per pezzo (inizio/metà/fine): **−10 … −15 ms** su tutti e 7 i pezzi (correlazione dell'inviluppo, punteggio 0,77–0,95). Limite 0,04 s: OK. Video e audio vengono dallo stesso file e dallo stesso intervallo |
-| Sottotitoli | 686 blocchi, max 2 righe da 42 caratteri, nessuna sovrapposizione. `controllo_finale.py`: attacco entro 0,3 s **70 % di 23 blocchi → «DA GUARDARE» (soglia 80 %)** |
-| PDF | slide: 58 pagine A4 orizzontale (senza riquadro e fascia) · mappe: 1 pagina (la mappa del prof) |
+| Fermi immagine del prof | nessuno (freezedetect ≥ 1 s sui pezzi D) |
+| Pause/silenzi > 2,5 s | **nessuno** (silencedetect −45 dB, d=2,5 s) |
+| Sincronia labbra/voce | scarto audio finale vs audio dell'originale, 3 punti per pezzo: **−10 … −15 ms** su tutti e 7 i pezzi (correlazione dell'inviluppo, punteggio 0,77–0,95); limite 0,04 s |
+| Timbro del prof | rapporto fra energia sopra 4 kHz ed energia sopra 100 Hz, 14 finestre da 30 s: originale −11,8…−19,4 dB, finale −11,9…−19,8 dB; **differenza massima 1,0 dB**, tutto fra −9 e −20 dB |
+| Sottotitoli | 686 blocchi, max 2 righe da 42 caratteri, nessuna sovrapposizione; rigenerati sul video finale |
+| Voce R1 (mappa) | trascritta; bordi: ultimi 50 ms max 0,0009, primi 50 ms 0,0018 (< 0,03) |
 
-## 2. Aggiornamenti di oggi applicati
-- **Mappe solo del prof:** tolte le 7 mappe nostre e le loro voci; nel video c'è la mappa del prof (`MAPPE/LEZIONE 20.pdf`) a 44:57, impaginata nella nostra grafica, con la voce nuova **R1** (44,7 s, generata dalla master) e le caselle che compaiono in sincronia con la voce (stima dai tempi della trascrizione di R1). Contenuto identico alla mappa del prof.
-- **Silenzi > 3 s e code vuote** tolti: ogni scheda finisce 1 s dopo l'ultima parola della voce.
-- **Jingle come Spagnolo** (`kit/.../snd`): `titolo.wav` sulle 6 schede titolo d'argomento, `repaso.wav` sui 6 ripassi, `quiz.wav` sulle 6 schede Quiz (e sulla Verifica finale), `titolo.wav` sulla scheda Compiti, `finale.wav` sulla scheda finale dei compiti, `trans.wav` su ogni transizione.
-- **Transizioni:** dissolvenza di 1,3–1,6 s fra tutti i pezzi (45 transizioni) col suono `trans.wav`, mai taglio secco. Verso/da i pezzi del prof la dissolvenza usa la slide **senza riquadro**: il prof compare solo quando parla (nessuna immagine ferma del prof).
-- **Card «in corso»:** bordo giallo sottile + numero su pallino giallo, fondo bianco; altre card bordo grigio chiaro. Ombre sempre grigie e morbide (anche riquadro del prof e foto). Controllato su slide, ripassi, schede opera, mappa, PDF.
-- **Font:** Figtree Bold (etichette, «01 · ARGOMENTO», piè di pagina, copertina); titoli lunghi a capo su due righe e mai sotto il riquadro del prof (misurato: titolo max 1290 px, riquadro da 1428 px).
-- **Prof mai tagliato a metà frase:** tabella § 5.
+## 2. Cosa ho cambiato oggi
+- **Testo a 40 px, interlinea 1,5** in tutte le card (slide del prof, approfondimenti, ripassi, glossario, riepilogo, tabella). Titoli, etichette e piè di pagina invariati.
+- **Slide del prof:** a 40 px **tre card non entrano mai** (misurato nel browser su ogni terna): le slide mostrano **al massimo 2 card intere**, ognuna è una frase intera del prof (nessun «…», nessuna iniziale minuscola); quando il prof passa oltre, la finestra scorre (la card successiva non resta mai sola: l'ultima finestra riprende la card precedente). Bordo giallo + pallino giallo quando il prof **inizia** la frase (tempi parola per parola dalla trascrizione, ±1 s). Titolo con «(1/2)», «(2/2)» sui pezzi più lunghi di 170 s, così nessuna schermata ha lo stesso titolo per più di 3 minuti.
+- **Una sola mappa, quella del prof** (`MAPPE/LEZIONE 20.pdf`), ridisegnata nel **modello BES approvato** (colori pesca/celeste/paglierino/menta/lilla con legenda in alto a destra, testo 34–50 px, frecce blu notte, stesse parole). Si costruisce **ramo per ramo** mentre la voce Kore **R1** la legge (riquadro acceso in giallo finché la voce parla); alla fine la mappa intera resta ferma **4 s**. Posizione: prima del glossario, una volta sola. La mappa del prof di questa lezione **non ha marchio né foto**: non c'era niente da togliere.
+- **Copertina:** titolo esatto; introduzione del prof sopra la copertina **57,8 s** (< 3 minuti); nessun riquadro del prof nell'introduzione animata.
+- **Audio:** pause > 2,5 s eliminate (jingle `repaso/titolo/finale` nelle schede che restavano in silenzio: fine mappa, verifica finale, compiti, finale); nessun pezzo del prof alterato di timbro (§ 1).
+- **Dispense:** `Letteratura_Lez20_slide.pdf` (A4 orizzontale, **61 pagine**) identica alle slide del video, a tutta larghezza, con **testo vero** (vettoriale, selezionabile e leggibile dalla sintesi vocale: l'estrazione del testo dà le parole giuste, ma con le etichette spaziate in lettere separate, p.es. «L A V I TA»); copertina con solo materia e titolo; piè di pagina materia + pagina, **senza il nome del docente**. `Letteratura_Lez20_mappe.pdf`: copertina identica con «MAPPE» + la mappa.
+- **File rigenerati sul video finale:** `.vtt`, `timeline_Parte1.json`, `scheda_pubblicazione_Parte1.json` (titolo «Letteratura V · Lezione 20 · Carlo Emilio Gadda», inizio_s/quiz_s/durata_s/t_verifica/t_compiti nuovi), `quiz_argomenti.json` e `verifica_finale.json` (le domande restano quelle del prof, i secondi stanno nella scheda).
+- Ripresa dei lavori del 17/11 (già nel video): pezzi del prof contigui e tagliati a fine frase; audio del prof a 48 kHz corretto; jingle e transizioni `trans.wav` su ogni cambio di pezzo; card in corso gialla.
 
-## 3. Problemi trovati e correzioni (oltre a quelli della versione del 16/11)
-| Minuto | Tipo | Com'era | Correzione |
-|---|---|---|---|
-| tutto il prof | **audio** | **errore mio nella v1:** l'audio del prof era scritto a 192 kHz e letto come 48 kHz → parlato sbagliato nei pezzi del prof (non me ne ero accorto: misuravo solo volume e jingle) | rifatto a 48 kHz; sincronia misurata (§ 1) |
-| 6:56 (v1) | audio | taglio dentro la frase «segnata da profondi \| avvenimenti luttuosi» | il pezzo 1 finisce a fine frase (orig. 360,3 s) |
-| 25:16 (v1) | audio | taglio dentro la frase «il primo grande \| lavoro … è sicuramente La cognizione del dolore» | il pezzo 3 finisce a fine frase (orig. 904,7 s) |
-| 5 cuciture | audio | frasi ripetute di 0,5–1,5 s | nessuna: pezzi contigui, **velocità 1,0 (niente più variazioni di ritmo)** |
-| 7 mappe | testo | mappe nostre | mappa del prof + R1 |
-| 12 punti | audio | silenzi 3,0–3,9 s fra voci narranti | tolti |
-| sottotitoli | testo | (v1) | rifatti sui nuovi tempi; mappe nostre tolte; aggiunta la voce R1 |
-| scheda | testo | durate | `scheda_pubblicazione.json` aggiornata (inizio_s, quiz_s, durata_s, t_verifica, t_compiti) |
-
-Tabella **secondo vecchio → secondo nuovo** (durata 3290.37 → 2863.63 s):
-| Pezzo | vecchio (s) | nuovo (s) |
+Tabella **secondo vecchio → nuovo** (durata 3290,4 → 2866,6 s):
+| Pezzo | v1 del 16/11 (s) | ora (s) |
 |---|---|---|
 | T1 | 112.4 | 113.1 |
 | Q1 | 688.6 | 624.4 |
@@ -51,31 +41,34 @@ Tabella **secondo vecchio → secondo nuovo** (durata 3290.37 → 2863.63 s):
 | Q5 | 2450.4 | 2124.8 |
 | T6 | 2455.7 | 2130.1 |
 | Q6 | 3048.4 | 2652.7 |
-| GL1 | 3132.6 | 2705.9 |
-| RF1 | 3190.5 | 2763.7 |
-| VER | 3265.3 | 2838.5 |
-| COMP | 3284.1 | 2857.3 |
+| GL1 | 3132.6 | 2708.9 |
+| RF1 | 3190.5 | 2766.7 |
+| VER | 3265.3 | 2841.5 |
+| COMP | 3284.1 | 2860.3 |
 
-## 4. Consegne
-Video a pezzi + sha256 · `.vtt` · `…_slide.pdf` · `…_mappe.pdf` · `quiz_argomenti.json` · `Quiz_Letteratura_Lez20.txt` · `verifica_finale.json` + xlsx (10 domande del prof) · `compiti.json` (4, identici al PDF del prof) · `scheda_pubblicazione.json` · `testo_youtube.txt` · `timeline.json` · `controllo_minuti.jpg` · `sync_labbra.json`. Pagine del libro: nessuna in questa lezione.
-
-## 5. Pezzi del prof: inizio e fine (misurato dalla trascrizione dell'originale)
+## 3. Pezzi del prof: inizio e fine (misurato dalla trascrizione dell'originale)
 | Pezzo | inizio (min) | fine (min) | prime parole | ultime parole | frase finita |
 |---|---|---|---|---|---|
 | D0 | 0:54 | 1:52 | «Buongiorno a tutti e benvenuti alla lezione su Carlo Emilio Gadda» | «…una fotografia di Carlo Emilio Gadda.» | sì |
 | D1 | 1:58 | 7:00 | «Vediamo nella vita.» | «…segnata da profondi avvenimenti luttuosi.» | sì |
-| D2 | 10:35 | 16:51 | «Ecco, vediamo però la poetica gaddiana…» | «…primo dopoguerra. Allora, il Giornale di guerra e di prigionia.» | sì (enunciato completo che annuncia il tema) |
+| D2 | 10:35 | 16:51 | «Ecco, vediamo però la poetica gaddiana…» | «…primo dopoguerra. Allora, il Giornale di guerra e di prigionia.» | sì (enunciato che annuncia il tema) |
 | D3 | 20:29 | 23:17 | «Andiamo pure su quest'altra slide, il Giornale appunto di guerra e di prigionia…» | «…è sicuramente La cognizione del dolore.» | sì |
 | D4 | 25:24 | 29:07 | «Pubblicato inizialmente a puntate, i famosi romanzi a puntate.» | «…della mediocrità del mondo.» | sì |
 | D5 | 31:24 | 33:41 | «Altre opere: L'Adalgisa, Eros e Priapo…» | «…ma anche di incredibilmente polemico.» | sì |
 | D6 | 35:35 | 40:07 | «Bene, il giallo filosofico, Quer pasticciaccio brutto de via Merulana.» | «…il contenuto e le modalità che abbiamo delineato.» | sì (fine della registrazione) |
-Nessuna parola mozzata in partenza: ogni attacco cade in una pausa (minimo di energia, ≥ 0,4 s).
+Ogni attacco e ogni fine cadono in una pausa (minimo di energia, ≥ 0,4 s): nessuna parola mozzata.
+
+## 4. Controllo severo della master (`controllo_severo.py`)
+ESITO_SEVERO
+
+## 5. Controllo di un agente separato (lista §11)
+ESITO_AGENTE
 
 ## 6. Cosa NON ho verificato / limiti
-- **Ascolto umano: nessuno.** Fruscio/ronzio/«metallico»: non verificato. Voce **R1**: nella trascrizione risulta «la Dal Gisa» e «brutto **di** via Merulana» (R1 e altre voci Kore): se all'ascolto è sbagliato, serve rigenerarla. Altre voci sospette già elencate nella v1: «il docente» (≈ 18:07), «gattiano», «Mar Adal», «de via».
-- **Sottotitoli:** sincronia sotto soglia (70 %); dubbi sul testo del prof (v1, § 5): vedi elenco. Da controllare a occhio.
-- **Evidenziazioni** dei pezzi del prof: dalla trascrizione, stima ±1,5 s. Caselle della mappa del prof: stima dai tempi di R1.
-- **Foto di Gadda** (ritaglio dal video del prof, bassa risoluzione) e webcam 246×137 px ingrandita 2,25×: morbida; capelli al bordo già nell'originale. Slide originali (.pptx) della lezione 20 non nella release.
-- **Durata 47:44** sotto i 50 minuti: dopo le decisioni di Sara sulle mappe e sui silenzi.
-- Controllo di identità PDF slide/video: stessi modelli HTML, **non** confronto pixel per pixel.
-- **Date:** La meccanica: il prof dice «1924-28», schede e voce «1924». Nessun'altra discordanza.
+- **Ascolto umano: nessuno.** Fruscio, ronzio, «metallico» e pronuncia delle voci Kore: non verificati. Nella trascrizione automatica ci sono forme sospette da riascoltare: «il docente» (≈ 18:07 nella v1), «gattiano», «Mar Adal», «Dal Gisa», «brutto di via Merulana» (R1 e altre voci). Voce R1: nella trascrizione «I testi» risulta illeggibile.
+- **Sigle:** «RAI» compare nell'approfondimento sulla vita (scheda «La svolta») e nella voce narrante, **senza spiegazione** («RAI, cioè Radiotelevisione italiana»): per rispiegarla serve una voce nuova Kore (R2) — **da fare con la master**.
+- **Sottotitoli:** il controllo del kit sul loro attacco (entro 0,3 s) era 70 % su 23 blocchi nella v2 (soglia 80 %): non rilanciato sul video finale; dubbi di testo del parlato del prof elencati nel rapporto del 17/11.
+- **Caselle della mappa:** i tempi di comparsa vengono dai tempi della trascrizione di R1 (stima ±0,3 s), non da voci separate per riquadro.
+- **Foto di Gadda** (ritaglio dal video del prof): bassa risoluzione, ingrandita; la webcam (246×137 px nel video originale) è ingrandita 2,25×: morbida; capelli al bordo già nell'originale. Le slide originali `.pptx` della lezione 20 non sono nella release.
+- **Dispensa:** stessi modelli HTML del video; confronto pagina per pagina fatto a vista su un campione, non a pixel.
+- **Date/anomalie del prof:** La meccanica: il prof dice «1924-28», schede e voce «1924»; nessun'altra discordanza.

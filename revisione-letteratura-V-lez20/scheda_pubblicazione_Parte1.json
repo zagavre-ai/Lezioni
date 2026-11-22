@@ -1,43 +1,43 @@
 {
  "materia": "Letteratura italiana (V)",
  "titolo": "Letteratura V · Lezione 20 · Carlo Emilio Gadda",
- "durata_s": 2947.637,
+ "durata_s": 2866.63,
  "argomenti": [
   {
    "n": 1,
    "titolo": "La vita",
    "inizio_s": 113.133,
-   "quiz_s": 638.433
+   "quiz_s": 624.433
   },
   {
    "n": 2,
    "titolo": "Il linguaggio e la visione del mondo",
-   "inizio_s": 643.733,
-   "quiz_s": 1246.833
+   "inizio_s": 629.733,
+   "quiz_s": 1218.833
   },
   {
    "n": 3,
    "titolo": "Le prime opere e i frammenti",
-   "inizio_s": 1252.133,
-   "quiz_s": 1555.633
+   "inizio_s": 1224.133,
+   "quiz_s": 1513.633
   },
   {
    "n": 4,
    "titolo": "La cognizione del dolore",
-   "inizio_s": 1560.933,
-   "quiz_s": 1929.733
+   "inizio_s": 1518.933,
+   "quiz_s": 1873.733
   },
   {
    "n": 5,
    "titolo": "L'Adalgisa ed Eros e Priapo",
-   "inizio_s": 1935.033,
-   "quiz_s": 2194.833
+   "inizio_s": 1879.033,
+   "quiz_s": 2124.833
   },
   {
    "n": 6,
    "titolo": "Il giallo filosofico",
-   "inizio_s": 2200.133,
-   "quiz_s": 2736.667
+   "inizio_s": 2130.133,
+   "quiz_s": 2652.667
   }
  ],
  "quiz": {
@@ -372,6 +372,6 @@
    ]
   }
  },
- "t_verifica": 2922.533,
- "t_compiti": 2941.333
+ "t_verifica": 2841.533,
+ "t_compiti": 2860.333
 }
