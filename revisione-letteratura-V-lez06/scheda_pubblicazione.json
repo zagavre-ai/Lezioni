@@ -1,37 +1,37 @@
 {
  "materia": "Letteratura italiana (V)",
  "titolo": "Letteratura V · Lezione 6 · Decadentismo e Simbolismo",
- "durata_s": 3187.93,
+ "durata_s": 3014.03,
  "argomenti": [
   {
    "n": 1,
    "titolo": "Il Decadentismo e i poeti maledetti",
-   "inizio_s": 49.867,
-   "quiz_s": 716.267
+   "inizio_s": 52.933,
+   "quiz_s": 768.767
   },
   {
    "n": 2,
    "titolo": "L'origine del termine: Languore",
-   "inizio_s": 721.567,
-   "quiz_s": 1259.933
+   "inizio_s": 772.767,
+   "quiz_s": 1274.967
   },
   {
    "n": 3,
    "titolo": "La visione decadente del mondo",
-   "inizio_s": 1265.233,
-   "quiz_s": 1785.767
+   "inizio_s": 1278.967,
+   "quiz_s": 1930.967
   },
   {
    "n": 4,
    "titolo": "Rimbaud e il sonetto Vocali",
-   "inizio_s": 1791.067,
-   "quiz_s": 2444.933
+   "inizio_s": 1934.967,
+   "quiz_s": 2501.633
   },
   {
    "n": 5,
    "titolo": "Poetica, temi e figure tipiche",
-   "inizio_s": 2450.233,
-   "quiz_s": 3041.1
+   "inizio_s": 2505.633,
+   "quiz_s": 2849.0
   }
  ],
  "quiz": {
@@ -311,92 +311,72 @@
    ]
   }
  },
- "t_verifica": 3163.066,
- "t_compiti": 3179.433,
+ "t_verifica": 2991.167,
+ "t_compiti": 3006.533,
  "approfondimenti": [
   {
    "id": "AN1",
-   "inizio_s": 495.933
+   "inizio_s": 585.033
   },
   {
    "id": "AP1a",
-   "inizio_s": 528.0
+   "inizio_s": 617.1
   },
   {
    "id": "AP1b",
-   "inizio_s": 582.2
-  },
-  {
-   "id": "MP1",
-   "inizio_s": 621.667
+   "inizio_s": 671.3
   },
   {
    "id": "AN2",
-   "inizio_s": 1066.434
+   "inizio_s": 1115.933
   },
   {
    "id": "AP2a",
-   "inizio_s": 1103.7
+   "inizio_s": 1153.2
   },
   {
    "id": "AP2b",
-   "inizio_s": 1136.233
-  },
-  {
-   "id": "MP2",
-   "inizio_s": 1175.3
+   "inizio_s": 1185.733
   },
   {
    "id": "AN3",
-   "inizio_s": 1566.1
+   "inizio_s": 1747.1
   },
   {
    "id": "AP3a",
-   "inizio_s": 1602.567
+   "inizio_s": 1783.567
   },
   {
    "id": "AP3b",
-   "inizio_s": 1643.7
-  },
-  {
-   "id": "MP3",
-   "inizio_s": 1696.233
+   "inizio_s": 1824.7
   },
   {
    "id": "AN4",
-   "inizio_s": 2207.733
+   "inizio_s": 2306.133
   },
   {
    "id": "AP4a",
-   "inizio_s": 2250.067
+   "inizio_s": 2348.467
   },
   {
    "id": "AP4b",
-   "inizio_s": 2313.3
-  },
-  {
-   "id": "MP4",
-   "inizio_s": 2353.7
+   "inizio_s": 2411.7
   },
   {
    "id": "AN5",
-   "inizio_s": 2827.366
+   "inizio_s": 2668.2
   },
   {
    "id": "AP5a",
-   "inizio_s": 2864.567
+   "inizio_s": 2705.4
   },
   {
    "id": "AP5b",
-   "inizio_s": 2903.1
+   "inizio_s": 2743.933
   },
   {
-   "id": "MP5",
-   "inizio_s": 2950.333
-  },
-  {
-   "id": "MPF",
-   "inizio_s": 3046.4
+   "id": "MAP",
+   "inizio_s": 2853.0
   }
  ]
 }

@@ -52,7 +52,8 @@
     ],
     "e": "Il manifesto è il romanzo Controcorrente (1884) di Huysmans, che fissa le tematiche del gruppo."
    }
-  ]
+  ],
+  "inizio_s": 768.767
  },
  "Q2": {
   "title": "Quiz 2 · L'origine del termine: Languore",
@@ -107,7 +108,8 @@
     ],
     "e": "Il poeta sente dire che laggiù infuriano battaglie, ma resta passivo e indifferente: l'unica attività sono esercizi letterari raffinati e inutili."
    }
-  ]
+  ],
+  "inizio_s": 1274.967
  },
  "Q3": {
   "title": "Quiz 3 · La visione decadente del mondo",
@@ -162,7 +164,8 @@
     ],
     "e": "L'arte diventa il valore supremo: l'estetismo trasforma la vita in un'opera d'arte e mette l'estetica sopra la morale comune."
    }
-  ]
+  ],
+  "inizio_s": 1930.967
  },
  "Q4": {
   "title": "Quiz 4 · Rimbaud e il sonetto Vocali",
@@ -217,7 +220,8 @@
     ],
     "e": "Il sonetto si chiude con la visione mistica dell'Omega, che richiama l'alfa e l'omega della Bibbia."
    }
-  ]
+  ],
+  "inizio_s": 2501.633
  },
  "Q5": {
   "title": "Quiz 5 · Poetica, temi e figure tipiche",
@@ -272,6 +276,7 @@
     ],
     "e": "L'inetto a vivere è incapace di agire e rifiuta la vita sociale; il fanciullino pascoliano ne è una variante originale."
    }
-  ]
+  ],
+  "inizio_s": 2849.0
  }
 }
