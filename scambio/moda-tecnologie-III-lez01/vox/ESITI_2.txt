@@ -1,1 +1,3 @@
-T18_R DA CONTROLLARE durata fuori misura
+A04_Q4_R_R2 DA CONTROLLARE frasi trovate 1 / 1 parole diverse 3 (vere 28) tentativi 1
+P2_MAPPA_FINALE_R2 OK frasi trovate 1 / 1 parole diverse 11 (vere 5) tentativi 1
+P2_MAPPA_FINALE_R2 DA CONTROLLARE durata fuori misura
