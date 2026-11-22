@@ -7,7 +7,7 @@
    "voci": "segnaposto"
   }
  },
- "manca": "voci Kore (arrivano dopo le 9), sottotitoli, dispensa e PDF mappe, controllo rapido, controllo agente separato",
+ "manca": "solo le voci Kore (domattina dalle 9): poi codifica finale, sottotitoli, controllo rapido, controllo agente separato, consegna",
  "serve_master": [
   {
    "quando": "22/11 22:52",
@@ -27,10 +27,14 @@
   {
    "quando": "22/11 23:06",
    "testo": "lez11: pezzi del prof (6) montati; schede animate (titoli, approfondimenti, ripassi, quiz, glossario, mappa, compiti) in rendering con voci segnaposto; prossimo: montaggio completo di prova"
+  },
+  {
+   "quando": "22/11 23:38",
+   "testo": "lez11 pronta, attende voci Kore. Montaggio di prova completo fatto (37 min con segnaposto, 241 MB): schede, mappa unica, quiz 5x5, glossario, verifica, compiti, dispensa 24 pag e PDF mappe pronti. Alla ricezione delle voci lancio lavoro/finale.sh. MAPPA: aggiunta frase di chiusura nel testo voci (testi_voci.json aggiornato su voci-storia-arte-V-lez11)."
   }
  ],
  "materia": "Storia dell'arte V",
  "lezione": "Lezione 11 · Architettura moderna",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-22 23:06:42"
+ "aggiornato": "2026-11-22 23:38:29"
 }
