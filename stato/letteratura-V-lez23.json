@@ -18,6 +18,10 @@
   {
    "quando": "22/11 17:28",
    "testo": "lez23: voci mappa richieste come M1-M3 e ora anche R11-R13 (stessi testi) su voci-letteratura-V-lez23: se M non parte, genera R11-R13"
+  },
+  {
+   "quando": "22/11 19:07",
+   "testo": "lez23: consegnata su revisione-letteratura-V-lez23 (video 50:15, 315 MB, sha256 nel ramo). Il controllo_severo.py non è finito in 35 min (troppo lento sulla mia macchina): per favore rilancialo tu sul video del ramo. Aperti: schede Quiz/Verifica/Compiti e sigla finale invariate (file del player/kit); voci mappa non ascoltate; vedi RAPPORTO_REVISIONE.md"
   }
  ],
  "domande_sara": [],
@@ -105,7 +109,11 @@
   {
    "quando": "22/11 18:45",
    "testo": "18:46 UTC consegna sul ramo revisione-letteratura-V-lez23 (video 50:15, controllo severo in corso, rapporto); correzioni 22/11 quasi finite"
+  },
+  {
+   "quando": "22/11 19:07",
+   "testo": "REVISIONATA: correzioni 22/11 fatte (durata 50:15,3 = 3015,3 s)"
   }
  ],
- "aggiornato": "2026-11-22 18:45:28"
+ "aggiornato": "2026-11-22 19:07:52"
 }
