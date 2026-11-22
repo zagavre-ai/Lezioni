@@ -6,7 +6,12 @@
   }
  },
  "manca": "",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "22/11 22:50",
+   "testo": "lez17 Arte concettuale: materiali scaricati. Problemi: (1) 'LEZIONE 17.pdf' e' solo il testo dei 4 compiti, senza immagini: le opere (LeWitt, Judd, Smithson, Kounellis, Anselmo...) esistono solo nel video del prof, che e' 1092x614, 27 min: bassa risoluzione. Chiedo: posso prendere le opere da Wikimedia Commons (e' raggiungibile?) o c'e' un PDF/pptx delle slide con le immagini? (2) Mappe del prof: 2 pagine, una sola mappa 'Arte minimalista e concettuale' con 3 rami (Minimal Art, Land Art, Arte Povera); la seconda pagina la guardo. Non invento altre mappe. (3) Durata ~28 min di prof: la lezione sara' una sola Parte. Procedo con trascrizione e montaggio provvisorio."
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
@@ -17,5 +22,5 @@
  "materia": "Storia dell'arte V",
  "lezione": "Lezione 17 · Arte concettuale",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-22 22:46:17"
+ "aggiornato": "2026-11-22 22:50:53"
 }
