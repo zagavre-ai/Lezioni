@@ -3,10 +3,17 @@
  "parti": {
   "1": {
    "stato": "IN_REVISIONE"
+  },
+  "2": {
+   "stato": "IN_REVISIONE"
   }
  },
  "manca": "",
  "serve_master": [
+  {
+   "quando": "22/11 19:27",
+   "testo": "Rilanciare controllo_severo sui video finali e rigenerare i PDF con pdf44.py (nel ramo? no, locale): richiedo ETA 19:55"
+  },
   {
    "quando": "22/11 19:27",
    "testo": "Rilanciare controllo_severo sui video finali e rigenerare i PDF con pdf44.py (nel ramo? no, locale): richiedo ETA 19:55"
@@ -17,7 +24,11 @@
   {
    "quando": "22/11 19:27",
    "testo": "correzioni 22/11: video, vtt, schede e rapporto consegnati sul ramo; controllo severo ancora RESPINTA/da riconfermare, dispense PDF nuove NON pronte (macchina sovraccarica, disco pieno). Scadenza 19:30 non raggiungibile per PDF+severo: servono altri ~30 min"
+  },
+  {
+   "quando": "22/11 19:27",
+   "testo": "correzioni 22/11: video, vtt, schede e rapporto consegnati sul ramo; controllo severo ancora RESPINTA/da riconfermare, dispense PDF nuove NON pronte (macchina sovraccarica, disco pieno). Scadenza 19:30 non raggiungibile per PDF+severo: servono altri ~30 min"
   }
  ],
- "aggiornato": "2026-11-22 19:27:05"
+ "aggiornato": "2026-11-22 19:27:10"
 }
