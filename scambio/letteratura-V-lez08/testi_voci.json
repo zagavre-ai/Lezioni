@@ -6,11 +6,21 @@
   "Dopo ogni argomento trovi un ripasso e un quiz per controllare quello che hai imparato.",
   "Buon ascolto!"
  ],
- "R1": ["Ripassiamo il primo argomento: d'Annunzio esteta e il mito del superuomo."],
- "R2": ["Ripassiamo il secondo argomento: il rapporto con il mercato, il pubblico e la politica."],
- "R3": ["Ripassiamo il terzo argomento: i romanzi e il teatro di d'Annunzio."],
- "R4": ["Ripassiamo il quarto argomento: le Laudi e il capolavoro Alcyone."],
- "R5": ["Ripassiamo il quinto argomento: il periodo notturno."],
+ "R1": [
+  "Ripassiamo il primo argomento: d'Annunzio esteta e il mito del superuomo."
+ ],
+ "R2": [
+  "Ripassiamo il secondo argomento: il rapporto con il mercato, il pubblico e la politica."
+ ],
+ "R3": [
+  "Ripassiamo il terzo argomento: i romanzi e il teatro di d'Annunzio."
+ ],
+ "R4": [
+  "Ripassiamo il quarto argomento: le Laudi e il capolavoro Alcyone."
+ ],
+ "R5": [
+  "Ripassiamo il quinto argomento: il periodo notturno."
+ ],
  "S1": [
   "L'esteta e il superuomo. Ecco i punti da ricordare.",
   "Per d'Annunzio la vita è la sua opera più interessante: l'obiettivo è trasformare l'esistenza stessa in un'opera d'arte.",
@@ -69,5 +79,96 @@
   "Quattro, le Laudi e Alcyone: il panismo della Sera fiesolana e della Pioggia nel pineto.",
   "Cinque, il periodo notturno: la prosa frammentaria del Notturno."
  ],
- "FIN1": ["Fine della lezione. Grazie per l'attenzione."]
+ "FIN1": [
+  "Fine della lezione. Grazie per l'attenzione."
+ ],
+ "M1": [
+  "Gabriele d'Annunzio, milleottocentosessantatré, millenovecentotrentotto."
+ ],
+ "M2": [
+  "La vita.",
+  "Milleottocentosessantatré: nasce a Pescara, da famiglia benestante.",
+  "A vent'anni sposa la duchessa Maria Hardouin, con la quale ha tre figli; poi la abbandona.",
+  "Milleottocentonovantotto: va a vivere vicino a Firenze con Eleonora Duse, attrice.",
+  "Fugge in Francia per i debiti.",
+  "Millenovecentoquindici: ritorna in Italia e conduce una campagna per intervenire nella Grande Guerra.",
+  "Millenovecentodiciannove: occupa la città di Fiume.",
+  "Millenovecentoventi: si ritira a Gardone Riviera, sul Lago di Garda: il Vittoriale degli italiani.",
+  "Millenovecentotrentotto: muore a Gardone Riviera."
+ ],
+ "M3": [
+  "La poetica.",
+  "È un esponente del Decadentismo, con l'estetismo.",
+  "Il linguaggio è raffinato, elegante, musicale: usa parole che non si usano più e inventa parole nuove.",
+  "Nella poesia sono importanti la natura e i sensi."
+ ],
+ "M4": [
+  "La personalità.",
+  "Ha una grande considerazione di sé.",
+  "È l'idolo di una generazione.",
+  "È interventista nella prima guerra mondiale.",
+  "Ha uno spirito nazionalistico ed è seguace del fascismo.",
+  "Conduce una vita di lusso e raffinata, con molte amanti."
+ ],
+ "M5": [
+  "Le opere.",
+  "Le novelle: Terra vergine, milleottocentottantadue; Novelle della Pescara, dal milleottocentottantaquattro al milleottocentottantasei, ispirate al Verismo.",
+  "I romanzi: Il piacere, milleottocentottantanove, storia del conte Sperelli alla continua ricerca del piacere; L'innocente, milleottocentonovantadue; Il trionfo della morte, milleottocentonovantaquattro; Il fuoco, millenovecento.",
+  "La tragedia: La figlia di Iorio, millenovecentoquattro.",
+  "Le raccolte poetiche: Laudi del cielo, del mare, della terra e degli eroi, dal millenovecentotré al millenovecentododici; Alcyone, millenovecentotré, la più celebre."
+ ],
+ "A1": [
+  "Per approfondire: la vita come opera d'arte.",
+  "Per d'Annunzio la vita è la sua opera più interessante.",
+  "L'obiettivo è trasformare l'esistenza stessa in un'opera d'arte.",
+  "Per questo costruisce l'immagine dell'esteta, un individuo spiritualmente superiore."
+ ],
+ "A2": [
+  "Per approfondire: l'esteta e la morale comune.",
+  "L'esteta rifiuta con orrore la mediocrità borghese.",
+  "Si rifugia nel mondo della pura arte.",
+  "Disprezza la morale comune."
+ ],
+ "A3": [
+  "Per approfondire: la svolta del superuomo.",
+  "Negli anni novanta, dopo una crisi della fase estetizzante, adotta il mito del superuomo.",
+  "Si ispira, in modo approssimativo, al filosofo tedesco Friedrich Nìce.",
+  "Non è più solo culto della bellezza, ma energia eroica e attiva."
+ ],
+ "A4": [
+  "Per approfondire: il vivere inimitabile.",
+  "Il vivere inimitabile è una vita eccezionale e fuori dalle regole comuni.",
+  "Lo dimostra lo stile di vita da principe rinascimentale, nella villa della Capponcina, a Fiesole.",
+  "Le avventure amorose, il lusso e gli scandali creano un alone di mito che affascina il pubblico borghese."
+ ],
+ "A5": [
+  "Per approfondire: l'impegno politico.",
+  "D'Annunzio tenta di passare dall'estetismo a un intervento politico diretto.",
+  "È eletto deputato della Destra nel milleottocentonovantasette.",
+  "Nel millenovecento passa clamorosamente allo schieramento di Sinistra."
+ ],
+ "A6": [
+  "Per approfondire: Fiume e il Vittoriale.",
+  "Nel settembre millenovecentodiciannove guida una spedizione di volontari per occupare la città di Fiume.",
+  "Protesta contro la vittoria mutilata e instaura un dominio personale fino al Natale del millenovecentoventi.",
+  "Deluso, si ritira nella villa del Vittoriale degli italiani, a Gardone, dove muore nel millenovecentotrentotto."
+ ],
+ "A7": [
+  "Per approfondire: la crisi dell'estetismo nel Piacere.",
+  "Il romanzo mette in scena il fallimento del progetto estetico.",
+  "Il protagonista, Andrea Sperelli, è diviso tra la figura fatale di Elena Muti e la donna pura Maria Ferres.",
+  "È un romanzo psicologico: scava nella coscienza e adotta il punto di vista del protagonista."
+ ],
+ "A8": [
+  "Per approfondire: il panismo.",
+  "Il panismo è la fusione totale e sensuale dell'uomo con la natura.",
+  "L'identità umana si dissolve negli elementi naturali, fino a farsi divina.",
+  "Ne sono esempi La sera fiesolana e La pioggia nel pineto."
+ ],
+ "A9": [
+  "Per approfondire: il Notturno.",
+  "Il Notturno è composto al buio totale, a causa di un trauma agli occhi subìto durante un incidente di volo.",
+  "Viene scritto su sottili strisce di carta, esplorando i sensi e l'interiorità.",
+  "Lo stile è agile, secco e nervoso, con periodi brevissimi, spesso senza verbi."
+ ]
 }
