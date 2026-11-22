@@ -555,11 +555,7 @@
  },
  {
   "nome": "B2_R2",
-  "testo": "Benvenuti alla seconda parte della lezione di Storia sulla rivoluzione russa. Ci aspettano gli ultimi quattro argomenti."
- },
- {
-  "nome": "RIP2_R2",
-  "testo": "Bentornato. Prima di continuare, ripassiamo insieme la prima parte della lezione. La Prima guerra mondiale fa crollare l'Impero zarista: sconfitte al fronte, ferrovie arretrate, fame e caro vita nelle città, e una corte isolata e screditata da Rasputin. Nel febbraio millenovecentodiciassette, a Pietrogrado, donne e operai protestano per il pane e la pace; i soldati si schierano con la folla e lo zar Nicola II abdica. Nasce il governo provvisorio del principe Lvov, ma accanto a lui ci sono i soviet di operai e soldati: è il dualismo di potere. Ad aprile torna Lenin, che con le Tesi di aprile chiede tutto il potere ai soviet. Dopo le giornate di luglio e il golpe fallito di Kornilov, nella notte tra il ventiquattro e il venticinque ottobre le Guardie rosse assaltano il Palazzo d'Inverno e i bolscevichi prendono il potere. Subito firmano i decreti sulla pace e sulla terra, nazionalizzano banche e industrie, sciolgono l'Assemblea costituente e fondano la polizia politica: comincia la dittatura del partito. Ora vediamo come la Russia esce dalla guerra, e che cosa succede dopo."
+  "testo": "Benvenuti alla seconda parte della lezione di Storia sulla rivoluzione russa. Ci aspettano gli ultimi cinque argomenti."
  },
  {
   "nome": "AN9_R2",
@@ -590,20 +586,12 @@
   "testo": "Dicembre millenovecentoventidue: nasce l'Unione Sovietica."
  },
  {
-  "nome": "GL1_R2",
-  "testo": "Le parole chiave. Zar: il sovrano dell'Impero russo, con potere assoluto. Duma: il parlamento russo, con una sola camera e pochi poteri reali sotto lo zar. Soviet: assemblea di operai e soldati, nata spontaneamente ed eletta direttamente sul territorio. Governo provvisorio: il governo liberale nato dopo l'abdicazione dello zar, guidato prima da Lvov e poi da Kerenskij. Bolscevichi: i socialisti rivoluzionari di Lenin, che vogliono la rivoluzione socialista subito. Menscevichi: i socialisti riformisti, favorevoli a un passaggio per tappe. Tesi di aprile: il programma di Lenin: tutto il potere ai soviet, uscita dalla guerra e terra ai contadini. Guardie rosse: i miliziani bolscevichi armati che assaltano il Palazzo d'Inverno. Decreto sulla terra: il provvedimento che toglie la grande proprietà a nobili, corona e Chiesa e divide la terra tra i contadini. Ceka, cioè la polizia politica del partito bolscevico, nata nel dicembre millenovecentodiciassette per colpire i nemici della rivoluzione."
- },
- {
   "nome": "GL2_R2",
-  "testo": "Le parole chiave. Brest-Litovsk: il trattato con la Germania, del marzo millenovecentodiciotto, con cui la Russia esce dalla guerra perdendo vasti territori. Armata rossa: l'esercito bolscevico organizzato da Trockij, che vince la guerra civile. Armate bianche: le forze controrivoluzionarie di generali zaristi, monarchici e liberali, aiutate dagli stranieri. Comunismo di guerra: l'economia d'emergenza dal millenovecentodiciotto al millenovecentoventuno, con la statalizzazione e le requisizioni del grano. Mercato nero: il commercio clandestino di cibo, gestito dagli uomini con il sacco. Nuova politica economica, in sigla NEP: l'economia mista del millenovecentoventuno, con l'imposta in natura e il libero mercato delle eccedenze. Unione Sovietica, in sigla URSS, cioè Unione delle Repubbliche Socialiste Sovietiche: lo Stato nato nel millenovecentoventidue, con capitale Mosca."
- },
- {
-  "nome": "RF1_R2",
-  "testo": "Ripasso finale della prima parte. Primo argomento: la Prima guerra mondiale porta l'Impero zarista al collasso, tra sconfitte, fame e una corte isolata. Secondo: nel febbraio millenovecentodiciassette, a Pietrogrado, i soldati si uniscono alla folla, lo zar abdica e nasce il governo provvisorio. Terzo: accanto al governo crescono i soviet, e ad aprile Lenin torna con le Tesi di aprile. Quarto: dopo le giornate di luglio e il golpe fallito di Kornilov, a ottobre i bolscevichi prendono il potere con l'assalto al Palazzo d'Inverno. Quinto: il nuovo governo firma i decreti sulla pace e sulla terra, nazionalizza banche e industrie, scioglie l'Assemblea costituente e instaura la dittatura del partito."
+  "testo": "Le parole chiave. Decreto sulla terra: il provvedimento che toglie la grande proprietà a nobili, corona e Chiesa e divide la terra tra i contadini. Ceka, cioè la polizia politica del partito bolscevico, nata nel dicembre millenovecentodiciassette per colpire i nemici della rivoluzione. Politburo: l'ufficio politico del Partito comunista, a Mosca: detta la linea a tutto lo Stato. Armata rossa: l'esercito bolscevico organizzato da Trockij, che vince la guerra civile. Armate bianche: le forze controrivoluzionarie di generali zaristi, monarchici e liberali, aiutate dagli stranieri. Comunismo di guerra: l'economia d'emergenza dal millenovecentodiciotto al millenovecentoventuno, con la statalizzazione e le requisizioni del grano. Nuova politica economica, in sigla NEP: l'economia mista del millenovecentoventuno, con l'imposta in natura e il libero mercato delle eccedenze. Unione Sovietica, in sigla URSS, cioè Unione delle Repubbliche Socialiste Sovietiche: lo Stato nato nel millenovecentoventidue, con capitale Mosca."
  },
  {
   "nome": "RF2_R2",
-  "testo": "Ripasso finale della seconda parte. Sesto argomento: con Brest-Litovsk la Russia esce dalla guerra e perde vasti territori; scoppia la guerra civile, vinta dall'Armata rossa di Trockij. Settimo: il comunismo di guerra requisisce il grano e provoca la carestia del millenovecentoventuno. Ottavo: dopo la rivolta di Kronstadt, Lenin vara la Nuova politica economica, un'economia mista. Nono: alla fine del millenovecentoventidue nasce l'Unione Sovietica, federale solo sulla carta; alla morte di Lenin, nel millenovecentoventiquattro, si apre la lotta tra Trockij e Stalin."
+  "testo": "Ripasso finale della seconda parte. Quinto argomento: al potere, i bolscevichi firmano la pace, danno la terra ai contadini e approvano la Costituzione del millenovecentodiciotto, ma sciolgono l'Assemblea costituente e instaurano la dittatura del partito. Sesto: con Brest-Litovsk la Russia esce dalla guerra e perde vasti territori; scoppia la guerra civile, vinta dall'Armata rossa di Trockij. Settimo: il comunismo di guerra requisisce il grano e provoca la carestia del millenovecentoventuno. Ottavo: dopo la rivolta di Kronstadt, Lenin vara la Nuova politica economica, un'economia mista. Nono: alla fine del millenovecentoventidue nasce l'Unione Sovietica, federale solo sulla carta; alla morte di Lenin, nel millenovecentoventiquattro, si apre la lotta tra Trockij e Stalin."
  },
  {
   "nome": "FIN1_R2",
