@@ -5,14 +5,14 @@
    "stato": "IN_REVISIONE"
   }
  },
- "manca": "consegna prevista 19:30 UTC (20:30 Italia)",
+ "manca": "",
  "serve_master": [],
  "domande_sara": [],
  "note": [
   {
-   "quando": "22/11 16:36",
-   "testo": "correzioni 22/11: presa da revisione-letteratura-V-lez01 (16:40 UTC). Consegna prevista 19:20 UTC. Stato ogni 30 min"
+   "quando": "22/11 16:46",
+   "testo": "16:47 UTC: lette regole; slide rifatte a 40 px con max 3 card intere e pagine sotto 3 min; mappa del prof ridisegnata BES pronta (attendo voce R10 della master); codifica dei pezzi col prof in corso. Consegna prevista 19:20 UTC. Prossimo stato ~17:15"
   }
  ],
- "aggiornato": "2026-11-22 16:36:54"
+ "aggiornato": "2026-11-22 16:46:06"
 }
