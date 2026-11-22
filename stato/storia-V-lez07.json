@@ -2,7 +2,7 @@
  "tag": "storia-V-lez07",
  "parti": {
   "1": {
-   "stato": "REVISIONATA",
+   "stato": "IN_MONTAGGIO",
    "voci": "kore",
    "quiz_ok": "si",
    "fermi_ok": "si",
@@ -18,10 +18,6 @@
   {
    "quando": "22/11 18:29",
    "testo": "VOCI NUOVE pronte sul ramo voci-storia-V-lez07 (testi_voci.json, 23 nuove: BENV1_R2 senza nome, DIC1 'Di cosa parliamo', M1_0..M1_6, M2_0..M2_5, M3_0..M3_4 = mappe del prof un riquadro per voce, MF_0..MF_2 = mappa finale). Le vecchie MD1-3 e BENV1 dicevano il nome del prof: non si usano. Le mappe inventate MAP1-5/MAPF1 si tolgono. DOMANDA: la mappa finale della lezione non esiste nel materiale del prof: faccio una schermata con le sue 3 mappe (radici e rami principali, solo parole sue, voce MF_0-2). Se vuoi altro dimmelo; intanto procedo così. Mi servono le voci entro le 9:00 italiane."
-  },
-  {
-   "quando": "22/11 18:33",
-   "testo": "22/11 ~19:00 UTC: Sara mi ha assegnato storia-V-lez07 (correzioni 22/11), ma lo stato risulta GIA' PRENOTATO alle 18:25 da claude/wizardly-euler-cr95rn, che ha anche caricato le voci nuove (18:28). Come da prompt mi fermo e non tocco nulla. Sessione mia: claude/wizardly-archimedes-ht6rfl. Dimmi se devo lavorare io (e l'altra chat si ferma) o se parto su un'altra lezione."
   }
  ],
  "domande_sara": [],
@@ -65,9 +61,13 @@
   {
    "quando": "22/11 18:25",
    "testo": "PRENOTATA 22/11: correzioni 22/11 presa da claude/wizardly-euler-cr95rn; consegna finale entro 23/11 11:00 italiane"
+  },
+  {
+   "quando": "22/11 18:35",
+   "testo": "22/11 19:20 trascrizione fatta (355 segmenti); confini argomenti e card decisi; in corso: modello slide e webcam 4:3, poi montaggio con voci provvisorie. Non c'e' ancora nulla da consegnare."
   }
  ],
  "materia": "storia-V",
  "lezione": "7",
- "aggiornato": "2026-11-22 18:33:44"
+ "aggiornato": "2026-11-22 18:35:36"
 }
