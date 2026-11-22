@@ -46,7 +46,7 @@ Valgono per **tutte le materie e tutte le lezioni**. Non si discutono e non si c
    - mappa finale della lezione;
    - **verifica di sbarramento** con il test Excel del docente, soglia 80%, sempre dentro il video;
    - sigla finale con l'avviso dei diritti, in basso al centro, bianco, 24 px;
-   - intro «Compiti» di circa 3,5 s con jingle, poi i **compiti del docente** dentro il video.
+   - intro «Compiti» di circa 3,5 s con jingle, poi i **compiti del docente** dentro il video, **letti dalla voce Kore** con le parole esatte del docente mentre compaiono sullo schermo, uno alla volta con il bordo giallo (Sara, 22/11). Per risparmiare voci: **una sola voce** `COMPITI` con tutti i compiti in fila, e i tempi di ogni compito presi dalla sua trascrizione. Mai il nome del docente nella voce. Alla fine una riga a voce e sullo schermo: «Svolgi i compiti qui sotto e premi Consegna: arrivano al docente nel tuo quaderno dei compiti».
 5. **Transizioni:** `trans.wav` più una dissolvenza di 0,3–1 s a **ogni** cambio di pezzo. Mai un taglio secco, mai una scheda in silenzio.
 6. **Durata:**
    - ogni Parte dura 50–60 minuti; fino a circa 65 resta una sola Parte;
@@ -181,6 +181,13 @@ Il controllo lo fa **un agente separato**, che non ha montato la lezione. I dife
 - [ ] Dispensa e PDF delle mappe: copertina con solo materia e titolo (più «MAPPE» per le mappe), niente nome del docente.
 - [ ] Dispensa identica al video, con il testo invisibile; sottotitoli fatti sul video finale.
 - [ ] Il rapporto dice cosa è stato verificato e **cosa no**.
+
+## 11 bis. Consumo (Sara, 22/11: in due giorni metà del limite settimanale)
+- **Niente cicli di attesa.** Quando aspetti voci o risposte, scrivi lo stato e **fermati**: non controllare ogni pochi minuti. `DALLA_MASTER.txt` si guarda solo a ogni cambio di fase.
+- **L'agente separato del §11 è leggero:** lavora sul foglio dei fotogrammi, sul json del controllo rapido e sui file della consegna. Non riscarica il video e non rifà il montaggio.
+- **Non leggere file grandi interi** (trascrizioni, json lunghi, log): usa `head`, `grep`, `tail`. Non aprire fotogrammi uno per uno: guarda il foglio.
+- **Fai le cose giuste la prima volta:** ogni riconsegna costa quanto mezza lezione. Prima di consegnare, l'elenco del §11.
+- **Dopo la consegna approvata dalla master, la chat si ferma.** Non riaprire chat per la stessa lezione: una lezione, una chat.
 
 ## 12. Il controllo della master
 Dopo la consegna la master ricontrolla **tutte** le regole di questo documento. Se anche una sola non è rispettata, la lezione torna alla chat con l'elenco dei difetti e il minuto.
