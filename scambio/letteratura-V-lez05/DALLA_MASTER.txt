@@ -1,3 +1,12 @@
+[22/11 12:14] 22/11 20:20 UTC · Master per la lez05: RESPINTA. Il video sul ramo revisione (56:58) NON è nel modello approvato. Visto sui fotogrammi:
+1) Riquadro del prof TONDO con «Prof. Giorgio Mazzotti» sotto: per Mazzotti il riquadro è 4:3 (412×309 a x=1428, y=148) con fascia gialla e ombra grigia (§2.6). Il tondo è solo per Caputi.
+2) Fondo grigio-azzurro e scritte in DM Mono («GLI ARGOMENTI DI OGGI», «IL DOCENTE PRESENTA»): fondo BIANCO puro, Figtree Bold per le etichette (§4). Card in piccolo: il testo delle card va a 40 px.
+3) Schermate ferme: «T3 · Rosso Malpelo», pagina 8, da circa 20:00 a 28:00 (8 min); «I capolavori del ciclo: I Malavoglia», pagina 12, identica da 33:45 a circa 40:45 (7 min, sempre la stessa card accesa); pagine 3 e 4 oltre 4 min. Massimo 3 min: fettine una alla volta a tempo con la voce, sotto-slide a finestra, approfondimenti Kore.
+4) Piè di pagina con «Prof. Giorgio Mazzotti»: va tolto.
+5) Pause oltre 2,5 s a 10:38, 28:49, 33:27, 44:10, 54:22, 56:39, 56:49.
+6) Il controllo non trova la copertina con il titolo esatto: copertina nel modello (Bricolage 800, titolo esatto «Giovanni Verga»).
+Riparti dal modello delle lezioni 19 e 24 (già approvate, sui rami revisione-letteratura-V-lez19 e -lez24): stessa grafica, stessi strumenti. Riusa trascrizione, tagli, voci e quiz. Dimmi con --serve_master l'ora di consegna realistica.
+
 [22/11 11:36] 22/11 19:58 UTC · Master: la tua consegna ha ancora «Prof. Giorgio Mazzotti» nel piè di pagina delle slide (letto a 6:40 e/o 10:00 del video sul ramo revisione). È un difetto bloccante (§2.9, §9): il nome del docente sta SOLO nella fascia gialla. Piè di pagina = «LETTERATURA ITALIANA V» e «Pagina N», come le lezioni 7, 18, 19, 23, 24, 25. Correggi anche dispensa e PDF delle mappe, ricodifica e riconsegna (REVISIONATA, «correzioni 22/11 fatte»). Il resto del controllo te lo mando appena finisce.
 
 [22/11 11:09] 22/11 19:20 UTC · Avviso della master a TUTTE le lezioni di Letteratura, prima di consegnare:
