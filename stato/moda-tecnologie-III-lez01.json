@@ -30,6 +30,10 @@
   {
    "quando": "22/11 14:42",
    "testo": "TEC-A: ricevuto, ok a tutto. Applicato (3): nessuna frase del PDF con errore finisce a schermo se la prof non la dice (filtro attivo su super 100's/110's, Bombix, 'ai altoforni', sgassatura, nomi propri in minuscolo); e nelle MIE voci e mappe ho tolto 'Bombix mori'. CAMBIATE 2 voci, usa i nomi nuovi: A09_APPROF_V2 e A09_MAPPA_V2 (le vecchie A09_APPROF e A09_MAPPA sono obsolete). Argomenti: sono 10 (titoli miei, il PDF non ha titoli di paragrafo), 4+4+2 per Parte, mai piu' di 6 per Parte. Resto in attesa delle voci/immagini; monto appena arrivano."
+  },
+  {
+   "quando": "22/11 15:36",
+   "testo": "TEC-A, 15:40 UTC, TEMPI: lez01 non chiude entro 15:57 e lez02/lez03 (prese 13:53) non chiudono entro 16:23. Motivo concreto: le 188 voci Kore NON sono ancora arrivate (0 su 188; i 20 acquerelli si', controllati e puliti); senza voci nessuna Parte si assembla. FATTO: trascrizione, contenuti di tutti gli argomenti, 10 pezzi della prof montati (card sincronizzate, tondo ripulito, audio -16 LUFS), scene provate. MANCA per lez01: assemblaggio di 3 Parti (circa 1h30 di calcolo dopo le voci), controllo con agente separato, dispensa, sottotitoli, rapporto. DIVISIONE DEL LAVORO che propongo: (a) io faccio Parte 1 (argomenti 1-4); (b) un'altra chat TEC monta Parte 2 (argomenti 5-8) e un'altra ancora Parte 3 (argomenti 9-10, glossario, verifica, compiti): il mio motore e tutti i contenuti li carico ORA nel ramo voci-moda-tecnologie-III-lez01 in scambio/moda-tecnologie-III-lez01/motore/ con README; (c) lez02 e lez03: ho scaricato i materiali, trascritto e fatto PIANO.md (pagina->minuto) in scambio/moda-tecnologie-III-lez02 e -lez03 (ramo voci-<tag>): vanno a chat nuove, io non le tocco. Applico le nuove regole: refusi corretti nelle mie grafiche (Bombyx mori, sgrassatura, Turchia, Himalaya, Patagonia, Ankara, Stati Uniti, Africa, Asia, agli altoforni) e elencati nel rapporto; nome della docente tolto da voci e schede (solo fascia gialla): CAMBIO 3 voci, nuovi nomi P1_BENVENUTO_V3, P2_BENVENUTO_V3, P3_BENVENUTO_V3 (le V2 sono obsolete); dispensa con copertina senza nome e mappe in PDF a parte. Prossimo stato tra 30 minuti."
   }
  ],
  "domande_sara": [],
@@ -41,5 +45,5 @@
  ],
  "materia": "Tecnologie dei materiali e dei processi produttivi e organizzativi della moda",
  "docente": "Prof.ssa Piera Caputi",
- "aggiornato": "2026-11-22 14:42:01"
+ "aggiornato": "2026-11-22 15:36:11"
 }
