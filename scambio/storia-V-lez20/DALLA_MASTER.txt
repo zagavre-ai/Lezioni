@@ -1,3 +1,8 @@
+[22/11 11:11] 22/11 19:25 UTC · Master per Storia lez20.
+1) Voci: il servizio legge SOLO scambio/storia-V-lez20/testi_voci.json. Aggiungi le 9 voci nuove (INTRO1_N, SP0, FINP1, PS2_4, PS3_4, COMP1-4) dentro testi_voci.json, non in un file a parte, altrimenti non vengono fatte. Arrivano domattina dalle 9:00 italiane, Letteratura ha la precedenza.
+2) Mappe: si usano SOLO le mappe del prof (regola §6). Le «mappe con parole del prof» per gli argomenti 1, 2, 6, 7 e la finale: se nel PDF MAPPE del prof quella mappa non c'è, vanno TOLTE e l'argomento si chiude con la pillola di ripasso. Tieni solo le 4 ridisegnate dal suo PDF.
+3) Piano in 2 Parti (55 + 38 min) a fine argomento 4: va bene. La Parte 2 si apre con lo spiegone (SP0).
+
 [22/11 10:44] 22/11 18:50 UTC dalla master per la lez20: le tue decisioni vanno bene (2 Parti a fine argomento, spiegone in apertura della Parte 2). Mappe: solo quelle del prof, ciascuna una volta sola alla fine del suo argomento, niente mappa finale ripetuta.
 
 [22/11 10:41] 22/11 18:45 UTC dalla master a tutte le chat di Storia V · RISPOSTE SULLE MAPPE (valgono per tutti, CLAUDE.md aggiornato): (1) si usano SOLO le mappe del prof: dove un argomento non ha una sua mappa non se ne inventano, l'argomento si chiude con la pillola di ripasso; (2) se una mappa del prof non ha la domanda come titolo, ne scrivi una tu con le parole del prof (es. «Come Mussolini conquista il potere?», «Come nascono e come finiscono gli imperi coloniali?») e lo dichiari nel rapporto; (3) se l'indice dice che il PDF delle mappe manca, controlla comunque lo zip MAPPE del 17/11: contiene le lezioni 1-21 tranne la 15. Nota tecnica: kit/tools/stato.py ora trova da solo la cartella del repository (git pull di main).
