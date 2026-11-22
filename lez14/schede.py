@@ -133,9 +133,9 @@ def lufs(path):
     return float(m[-1])
 
 
-def audio_norm(path, target, tag, fade=0.04):
+def audio_norm(path, target, tag, fade=0.04, pad=0.0, jingle=False):
     """porta a 48 kHz stereo e al livello `target` LUFS, dissolvenze di 40 ms, picco <= -1 dBTP; ritorna (file, durata)"""
-    out = f'{WK}/aud/{tag}_{abs(int(target))}.wav'
+    out = f'{WK}/aud/{tag}_{abs(int(target))}_v3.wav'
     key = out + '.key'
     k = f'{os.path.getmtime(path)}:{os.path.getsize(path)}'
     if os.path.exists(out) and os.path.exists(key) and open(key).read() == k:
@@ -144,8 +144,15 @@ def audio_norm(path, target, tag, fade=0.04):
     sh(['ffmpeg', '-y', '-v', 'error', '-i', path, '-af', 'aresample=48000,pan=stereo|c0=c0|c1=c0' if _mono(path) else 'aresample=48000', '-c:a', 'pcm_s16le', tmp])
     g = target - lufs(tmp)
     d = dur(tmp)
+    if jingle:  # solo guadagno (nessun limiter con ritardo): l'attacco deve restare sull'istante esatto
+        mv = float(re.findall(r'max_volume: (-?[\d.]+) dB', subprocess.run(['ffmpeg', '-nostats', '-i', tmp, '-af', 'volumedetect', '-f', 'null', '-'], capture_output=True, text=True).stderr)[0])
+        g = min(g, -1.5 - mv)
+        sh(['ffmpeg', '-y', '-v', 'error', '-i', tmp, '-af', f'volume={g}dB', '-c:a', 'pcm_s16le', out])
+        os.remove(tmp)
+        open(key, 'w').write(k)
+        return out, dur(out)
     sh(['ffmpeg', '-y', '-v', 'error', '-i', tmp, '-af',
-        f'volume={g}dB,alimiter=limit=0.891:level=disabled,afade=t=in:st=0:d={fade},afade=t=out:st={d - fade}:d={fade}',
+        f'volume={g}dB,alimiter=limit=0.891:level=disabled,afade=t=in:st=0:d={fade},afade=t=out:st={d - fade}:d={fade}' + (f',apad=pad_dur={pad}' if pad else ''),
         '-c:a', 'pcm_s16le', out])
     os.remove(tmp)
     open(key, 'w').write(k)
@@ -164,12 +171,12 @@ def voce(nome):
         f = f'{WK}/aud/{nome}_provv.wav'
         sh(['ffmpeg', '-y', '-v', 'error', '-f', 'lavfi', '-i', 'anullsrc=r=48000:cl=stereo', '-t', f'{d:.3f}', '-c:a', 'pcm_s16le', f])
         return f, d, True
-    f, d = audio_norm(voce_path(nome), -16, 'v_' + nome)
+    f, d = audio_norm(voce_path(nome), -16, 'v_' + nome, pad=0.06)
     return f, d, False
 
 
 def jingle(nome):
-    return audio_norm(f'{SND}/{nome}.wav', -22, 'j_' + nome, fade=0.005)[0]
+    return audio_norm(f'{SND}/{nome}.wav', -22, 'j_' + nome, jingle=True)[0]
 
 
 def bordo_voce(f):
@@ -864,17 +871,24 @@ def p_COMP():
     sc = Scene()
     head, top = head_bianco('ORA TOCCA A TE', 'Compiti', pag=None)
     per = 15.0
-    rows = ''
-    for q, e in enumerate(es):
-        tx = e['testo'].replace('"', '«', 1)
-        tx = re.sub(r'«([^"]*)"', r'«\1»', e['testo'])
-        on = 1.5 + q * per
-        off = on + per
-        rows += sc.add(f'<div class="num">{e["n"]}</div><div class="txt" style="font:500 34px/46px Fig">{esc(tx)}</div>', 'row',
-                       'font-size:34px;align-items:flex-start;margin-bottom:14px;padding:12px 30px', i=0.6 + 0.4 * q, d=0.5, fx='up', lit=[(on, off)], dim=0.78)
-    body = head + f'<div style="position:absolute;left:80px;width:1760px;top:{top + 24}px">{rows}</div>'
-    T = 1.5 + len(es) * per + 0.5
-    costruisci('COMP', T, pagina(sc, body), sc, jingoli=[('repaso', 0.0)], note='compiti del docente (compiti.json), esercizi accesi a turno, circa 15 s ciascuno')
+    gruppi = [es[i:i + 2] for i in range(0, len(es), 2)]
+    pagine = ''
+    t0 = 1.0
+    for gi, g in enumerate(gruppi):
+        rows = ''
+        fine_g = t0 + len(g) * per + 0.5
+        for q, e in enumerate(g):
+            tx = re.sub(r'"([^"]*)"', r'«\1»', e['testo'])
+            on = t0 + 0.6 + q * per
+            off = on + per
+            rows += sc.add(f'<div class="num">{e["n"]}</div><div class="txt" style="font:500 40px/54px Fig">{esc(tx)}</div>', 'row',
+                           'font-size:40px;align-items:flex-start;margin-bottom:22px;padding:18px 34px', i=t0 + 0.1 + 0.4 * q, d=0.5, fx='up', lit=[(on, off)], dim=0.8,
+                           o=(fine_g - 0.4) if gi < len(gruppi) - 1 else None, od=0.3)
+        pagine += f'<div style="position:absolute;left:80px;width:1760px;top:{top + 24}px">{rows}</div>'
+        t0 = fine_g
+    body = head + pagine
+    T = t0 + 0.2
+    costruisci('COMP', T, pagina(sc, body), sc, jingoli=[('repaso', 0.0)], note='compiti del docente (compiti.json), 4 esercizi in 2 schermate, ognuno acceso 15 s')
 
 
 def main():
