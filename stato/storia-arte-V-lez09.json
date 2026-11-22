@@ -2,15 +2,24 @@
  "tag": "storia-arte-V-lez09",
  "parti": {},
  "manca": "",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "22/11 22:49",
+   "testo": "Lez09 Futurismo: (1) nella release non c'è il PDF delle slide con le opere: 'LEZIONE 9.pdf' contiene solo i compiti. Le opere (Boccioni, Balla, Carrà, Severini, Depero, Sant'Elia, Pellizza, Segantini) esistono solo dentro il video del prof, che è 1092x614: sgranate se ingrandite. (2) Wikimedia Commons dalla mia rete è bloccata (403). Mi serve una di queste: il PDF/PowerPoint originale del prof con le immagini, oppure le immagini ad alta risoluzione caricate sul mio ramo, oppure l'ok a migliorare (ingrandimento di qualità) i fotogrammi del video. Intanto monto con i fotogrammi migliorati e segno il limite nel rapporto."
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
    "quando": "22/11 22:44",
    "testo": "storia arte 22/11: presa da claude/peaceful-cannon-wgzrtn"
+  },
+  {
+   "quando": "22/11 22:49",
+   "testo": "trascrizione in corso; video prof 49 min scaricato"
   }
  ],
- "aggiornato": "2026-11-22 22:44:24",
+ "aggiornato": "2026-11-22 22:49:48",
  "materia": "Storia dell'arte V",
  "lezione": "9",
  "docente": "Giorgio Mazzotti"
