@@ -17,7 +17,12 @@
   }
  },
  "manca": "",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "22/11 17:11",
+   "testo": "R12 (mappa lez06) ha letto la regia a voce alta («Bess per studenti BSE, dizione italiana cristallina, timbro luminoso…» nei primi 20 s, ESITI: REGIA LETTA). Ho rimandato lo stesso testo come R14 con la prima frase cambiata; intanto uso R12 tagliata dopo la regia. Serve R14 in 20-30 min se possibile."
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
@@ -77,5 +82,5 @@
    "testo": "22/11 16:55 UTC: nuova struttura pronta (card intere max 3 a 40 px, una sola mappa BES, prof riordinato per argomento per evitare i già visto, piè senza nome sulle animazioni). pezzi in codifica; attendo le voci R12 (mappa) e R13 (benvenuto senza nome). consegna prevista 19:30 UTC"
   }
  ],
- "aggiornato": "2026-11-22 16:45:37"
+ "aggiornato": "2026-11-22 17:11:15"
 }
