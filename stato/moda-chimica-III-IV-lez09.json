@@ -2,7 +2,12 @@
  "tag": "moda-chimica-III-IV-lez09",
  "parti": {},
  "manca": "",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "22/11 13:45",
+   "testo": "Ramo voci-moda-chimica-III-IV-lez09 aggiornato (e5f1959): testi_voci.json NUOVO formato (15 voci), immagini.json (12 acquerelli), quiz_PROPOSTA.json (25 domande da approvare al posto di Sara). Le voci vecchie del 15/11 non le uso (vecchio file rinominato). Fatto anche: trascrizione lez09 completa; argomenti = 5 mappe della prof (Filatura, Tessitura, Finissaggio ad umido, Trattamenti meccanici, Fissazione e trattamenti speciali). SEGNALAZIONE SCALA: 3 lezioni da 40-60 min con tutte le regole (animazioni sopra la voce, mappe vettoriali, dispensa, controllo agente separato) sono molte ore di CPU: il rendering HTML a 30 fps di una lezione intera richiede ore su questa macchina (4 CPU). Mi serve sapere se la consegna e' attesa per tutte e tre oggi o una alla volta."
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
@@ -16,5 +21,5 @@
  ],
  "materia": "Chimica applicata e nobilitazione dei materiali per i prodotti della moda",
  "docente": "Prof.ssa Piera Caputi",
- "aggiornato": "2026-11-22 13:27:37"
+ "aggiornato": "2026-11-22 13:45:21"
 }
