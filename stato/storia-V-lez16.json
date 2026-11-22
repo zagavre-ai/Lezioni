@@ -1,7 +1,12 @@
 {
  "tag": "storia-V-lez16",
- "parti": {},
- "manca": "da confermare col prof: 7 approfondimenti (testi scritti dal parlato); molte slide ferme oltre 3 min (card intere)",
+ "parti": {
+  "1": {
+   "titolo": "Gli anni Sessanta tra crisi e progressi",
+   "stato": "IN_MONTAGGIO"
+  }
+ },
+ "manca": "montaggio completo, controlli, dispensa, sottotitoli",
  "serve_master": [
   {
    "quando": "22/11 18:43",
@@ -45,7 +50,11 @@
   {
    "quando": "22/11 18:52",
    "testo": "correzioni 22/11: trascrizione fatta, voci richieste, montaggio in corso"
+  },
+  {
+   "quando": "22/11 19:05",
+   "testo": "correzioni 22/11 in corso: pezzi del prof (tagli+slide 40px) e grafica pronti; costruisco approfondimenti/mappe/ripassi con voci provvisorie; attendo voci nuove"
   }
  ],
- "aggiornato": "2026-11-22 18:52:53"
+ "aggiornato": "2026-11-22 19:05:15"
 }
