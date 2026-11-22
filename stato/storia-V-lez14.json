@@ -32,7 +32,7 @@
    "vtt": "Storia_Lez14_Parte2.vtt"
   }
  },
- "manca": "montaggio finale, controlli, dispensa, sottotitoli",
+ "manca": "D1,D2,D3,D6,D7, approfondimenti, assemblaggio Parti, dispensa, controlli",
  "serve_master": [
   {
    "quando": "19/11 19:00",
@@ -76,10 +76,14 @@
   {
    "quando": "22/11 19:03",
    "testo": "22/11 19:15 UTC: trascrizione fatta; pezzi docente+slide (7 argomenti) in codifica; 3 sotto-agenti su mappe, schede/quiz/glossario, approfondimenti. Voci: servono solo MB1-3, W1_R2, W2_R2 (gia' sul ramo voci)."
+  },
+  {
+   "quando": "22/11 19:23",
+   "testo": "22/11 19:35 UTC: pronti mappe, schede, quiz, glossario, pillole (voci provvisorie solo per MB1-3 e W1_R2/W2_R2). In codifica i pezzi del docente D1-D7 (D4,D5,D0 fatti). Incidente: disco pieno per un file temporaneo di git (25 GB) rimosso; ripreso."
   }
  ],
  "materia": "Storia V",
  "lezione": "Lezione 14",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-22 19:12:01"
+ "aggiornato": "2026-11-22 19:23:39"
 }
