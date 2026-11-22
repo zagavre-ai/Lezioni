@@ -1,18 +1,14 @@
 {
  "tag": "letteratura-V-lez20",
- "parti": {
-  "1": {
-   "stato": "IN_REVISIONE"
-  }
- },
+ "parti": {},
  "manca": "",
  "serve_master": [],
  "domande_sara": [],
  "note": [
   {
-   "quando": "22/11 16:38",
-   "testo": "correzioni 22/11: presa da revisione-letteratura-V-lez20 (v2 del 17/11). Consegna prevista 19:30 UTC (20:30 italiane)."
+   "quando": "22/11 16:42",
+   "testo": "22/11 17:20: slide a 40 px (max 2-3 card intere, finestre), mappa BES con voce R1, rebuild pezzi in corso. Consegna prevista 19:25 UTC."
   }
  ],
- "aggiornato": "2026-11-22 16:38:07"
+ "aggiornato": "2026-11-22 16:42:49"
 }
