@@ -26,6 +26,10 @@
   {
    "quando": "22/11 16:36",
    "testo": "Voci nuove RN1..RN17 (mappa del prof, una per riquadro) sul ramo voci-letteratura-V-lez02: genera solo quelle. Nota: la mappa del prof ha ~1300 caratteri: a 34 px non entra in una schermata, la divido in due schermate (parte 1: origine/esponenti/poetica; parte 2: principi) salvo tua indicazione contraria"
+  },
+  {
+   "quando": "22/11 16:48",
+   "testo": "Aggiunta voce INTRO2 (benvenuto senza il nome del docente) a testi_voci.json del ramo voci-letteratura-V-lez02, oltre a RN1..RN17: genera INTRO2 e RN1-RN17"
   }
  ],
  "domande_sara": [],
@@ -87,5 +91,5 @@
    "testo": "16:43 UTC: slide rifatte a card (testo 40 px, max 3 card, pagine ≤165 s), mappa del prof in 2 schermate BES (in attesa voci RN1-RN17), codifica D1-D7 in corso. Consegna prevista 19:00 UTC"
   }
  ],
- "aggiornato": "2026-11-22 16:43:57"
+ "aggiornato": "2026-11-22 16:48:52"
 }
