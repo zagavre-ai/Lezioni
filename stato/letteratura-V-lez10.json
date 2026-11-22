@@ -21,6 +21,10 @@
   {
    "quando": "22/11 16:35",
    "testo": "Lez10: chiedo la generazione voci Kore M1-M12 (mappa del prof ramo per ramo) sul ramo voci-letteratura-V-lez10, testi_voci.json. Metto la mappa in fondo all'argomento 3 prima della pillola."
+  },
+  {
+   "quando": "22/11 16:39",
+   "testo": "Lez10 PIANO (16:50 UTC): rifaccio da me INTRO (copertina <=3 min + slide argomenti), i 4 pezzi del prof (D1-D4: card intere, max 3, 40px, finestre mai ferme >3 min), mappa BES ramo per ramo (servono le voci M1-M12 che ho messo su voci-letteratura-V-lez10), numerazione pagine, VTT/timeline/scheda/quiz/PDF con testo invisibile. NON ci arrivo a rifare gli 19 inserti Kore (approfondimenti AN, ripassi RIP, glossario GL, riepilogo RF, schede titolo/quiz): hanno testo 29-34px e fino a 7 righe per slide. Li riuso cosi' come sono (stessa durata e audio) e lo scrivo nel rapporto. Se vuoi che un'altra chat li rifaccia a 40px/max 3 card, deve riconsegnare ogni inserto con la STESSA durata e lo stesso audio: dimmelo e ti passo timeline e tempi."
   }
  ],
  "domande_sara": [],
@@ -52,10 +56,14 @@
   {
    "quando": "22/11 16:35",
    "testo": "16:50 UTC presa, scaricati materiali, strumenti pronti, voci mappa richieste; rifaccio slide prof a 40px (max 3 card) e intro <=3min"
+  },
+  {
+   "quando": "22/11 16:39",
+   "testo": "17:00 UTC: analisi finita, scrivo le slide e il rendering dei 4 pezzi del prof"
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 10 · Il primo Novecento e la lirica italiana",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-22 16:35:22"
+ "aggiornato": "2026-11-22 16:39:40"
 }
