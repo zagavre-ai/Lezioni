@@ -2,8 +2,8 @@
  "tag": "storia-V-lez03",
  "parti": {
   "1": {
-   "stato": "IN_REVISIONE",
-   "voci": "kore",
+   "stato": "IN_MONTAGGIO",
+   "voci": "segnaposto",
    "quiz_ok": "si",
    "fermi_ok": "si",
    "sub_ok": "no",
@@ -126,10 +126,14 @@
   {
    "quando": "22/11 18:57",
    "testo": "22/11 20:45 UTC: preparati video originale, trascrizione, mappe del prof (3) ridisegnate BES, piano di montaggio con slide a finestra e inserti Kore; in corso: libreria di montaggio. Voci nuove richieste alla master (BEN_R2, SPG_0, DIC_1-2, MP1-3)."
+  },
+  {
+   "quando": "22/11 19:24",
+   "testo": "22/11 19:25 UTC: Parte 1 (52:00) e Parte 2 (53:07) in codifica con voci provvisorie per le voci nuove; fatti: slide a finestra a 40 px con card intere, mappe del prof BES ramo per ramo, inserti Kore AN1-22, spiegone, introduzione senza riquadro. Manca: controlli, sottotitoli, dispensa, rapporto; voci nuove da sostituire domattina."
   }
  ],
  "materia": "Storia V",
  "lezione": "Lezione 3 · L'Italia di Giolitti",
- "aggiornato": "2026-11-22 18:57:33",
+ "aggiornato": "2026-11-22 19:24:34",
  "docente": "Prof. Giorgio Mazzotti"
 }
