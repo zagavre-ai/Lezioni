@@ -20,7 +20,14 @@
   {
    "quando": "22/11 13:28",
    "testo": "presa da claude/compassionate-sagan-2i436j, modello Gonna 22/11"
+  },
+  {
+   "quando": "22/11 13:29",
+   "testo": "Presa lez04 (poi 05, 06). Materiali mp4/pdf/xlsx trovati SI (anche 05 e 06); niente compiti (lez 2-8). Sorgente 852x480, 59 min. Trascrizione in corso. Stima consegna lez04: dopo trascrizione ricalcolo e scrivo qui; la prima consegna non e' prevista prima di alcune ore. Nota: stato.py ha REPO fisso /home/claude/lezioni, ho fatto un link simbolico."
   }
  ],
- "aggiornato": "2026-11-22 13:28:14"
+ "aggiornato": "2026-11-22 13:29:47",
+ "materia": "Tecnologie dei materiali e dei processi produttivi e organizzativi della moda · III anno",
+ "lezione": "Lezione 4 · Tessitura pt. 1",
+ "docente": "Prof.ssa Piera Caputi"
 }
