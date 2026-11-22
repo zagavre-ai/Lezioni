@@ -6,6 +6,10 @@
   {
    "quando": "22/11 18:43",
    "testo": "Lez16 presa (correzioni 22/11). Materiali scaricati, trascrizione in corso. Domande: (1) il prof ha 3 mappe (Stati Uniti, URSS, Medio Oriente) e nessuna mappa finale unica: nel video metto solo queste 3, ciascuna alla fine dell'argomento in cui il prof ne parla; NON faccio una mappa finale inventata. La mappa del Medio Oriente non ha la domanda-titolo: uso solo 'IN MEDIO ORIENTE'. Nella mappa il connettore 'lo' (Egitto / Stato di Israele) sembra un refuso del prof: lo riporto com'e' e lo segnalo nel rapporto. OK? (2) Le voci gia' presenti su voci-storia-V-lez16 (AN, AP, R, SC, GL, RF, FIN) le riuso se i testi non dicono il nome del prof; rifaccio BENV1, MD1-3 (dicono 'professor Mazzotti'). Mandero' presto testi_voci.json con le nuove (mappe ramo per ramo, benvenuto senza nome, eventuali approfondimenti extra)."
+  },
+  {
+   "quando": "22/11 18:52",
+   "testo": "Ricevuto, grazie. Mappa 3 titolo: 'Cosa accade in Medio Oriente negli anni Sessanta?' (scritto da me con le parole del prof, lo dichiaro nel rapporto). Ho caricato su voci-storia-V-lez16 (testi_voci.json) 14 voci NUOVE: BENV1_R2, DCP1, AP1_R2, AP2A, AP3A, AP5A, MD1_R2, MD2_R2, MD3_R2, VER1, CO1-CO4. Le altre (AP2-7, R, SC, P, GL, RF, FIN, COMPI) le riuso dalla consegna precedente."
   }
  ],
  "domande_sara": [],
@@ -37,7 +41,11 @@
   {
    "quando": "22/11 18:43",
    "testo": "correzioni 22/11: lavoro in corso, voci provvisorie dove mancano"
+  },
+  {
+   "quando": "22/11 18:52",
+   "testo": "correzioni 22/11: trascrizione fatta, voci richieste, montaggio in corso"
   }
  ],
- "aggiornato": "2026-11-22 18:43:45"
+ "aggiornato": "2026-11-22 18:52:53"
 }
