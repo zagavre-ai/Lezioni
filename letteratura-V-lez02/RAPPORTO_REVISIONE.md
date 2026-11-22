@@ -1,52 +1,59 @@
 # RAPPORTO DI REVISIONE · Letteratura italiana V · Lezione 2 · La Scapigliatura
-**Consegna 17/11/2026 (seconda versione, 17:45) · stato: REVISIONATA (con i limiti scritti in §5)** · ogni dato è etichettato *misurato* / *stima* / *non verificato*.
+**Correzioni 22/11/2026** (terza versione) · stato: REVISIONATA con i limiti in §6 · ogni dato è *misurato*, *stima* o *non verificato*.
 
-## 1. Misure sul video nuovo (`Letteratura_Lez2_Parte1_1080p.mp4`)
+## 1. Cosa ho cambiato il 22/11
+1. **Slide a card, testo 40 px.** Tutte le slide del prof (e schemi, approfondimenti, glossario, riepilogo) rifatte con card: una frase intera per card, **al massimo 3 card per slide**, testo 40 px interlinea 1,5, card alte quanto il testo, bordo giallo e pallino giallo sulla card in corso (le altre attenuate), pallino numerato. Quando le card non entrano la slide si divide (mai rimpicciolire). La slide cambia anche quando una pagina durerebbe più di 165 s. Nessuna pagina supera 3 minuti (misurato sul manifest: massimo 154 s; fettine del libro massimo 132 s).
+2. **Mappa: una sola, quella del prof**, ridisegnata nel modello BES (colori del disciplinare con legenda in alto in ogni schermata). Il testo a 36 px non entra in una schermata (≈ 1300 caratteri): divisa in **2 schermate** («Mappa · 1 di 2», «Mappa · 2 di 2»), come autorizzato dalla master (messaggio 22/11 17:00 UTC). Si costruisce **riquadro per riquadro** con la voce Kore (17 voci RN1–RN17, una per riquadro, il riquadro si accende in giallo mentre la voce parla) e ogni schermata resta ferma 4 s. Posizionata **prima del glossario**, una volta sola. Le 7 mappe nostre e la loro voce sono tolte. La mappa originale del prof (`MAPPE/LEZIONE 2.pdf`) non ha marchio di altri siti né foto dell'autore: nessun elemento da togliere. Parole identiche a quelle del prof; unica disposizione adattata: nella seconda schermata le frecce dai sei princìpi sono verticali tra le righe invece che tutte dal riquadro centrale.
+3. **Nome del docente non nelle animazioni.** Nuova voce di benvenuto `INTRO2` senza il nome; tolto il nome dai piè di pagina di titoli, quiz, verifica, compiti, fine, copertina animata e mappa. Il nome compare solo nella fascia gialla (e nel piè di pagina delle slide del prof, come nel modello Spagnolo).
+4. **Pause:** nessuna pausa ≥ 2,5 s nel video (prima 2,9 s dopo i jingle di titoli e Quiz): riempite con `trans.wav`.
+5. **Mai «già visto»:** la slide «Il culto del vero» compariva in due argomenti; ora le card 1–2 sono nell'argomento 3 e la card 3 («Romanticismo straniero») solo nell'argomento 4.
+6. **PDF:** `Letteratura_Lez2_slide.pdf` ora con copertina (solo materia e titolo), piè di pagina materia + pagina (senza nome del docente), tutte le card visibili, testo vero selezionabile (vettoriale); `Letteratura_Lez2_mappe.pdf` con copertina «MAPPE» + le 2 schermate della mappa. Pagine uguali al video (stesso generatore).
+7. Resta valido tutto il lavoro del 17/11 (riquadro 4:3, fascia, fettine HD, tagli del prof a fine frase, audio rifatto agganciato ai fotogrammi, jingle Quiz).
+
+## 2. Controllo severo (`controllo_severo.py`, tesseract, passo 10 s)
+Esito sull'ultimo video: **RESPINTA**
+- copertina: titolo presente e intero, 80 s (limite 180) · durata 55.66 min · loudness -15.2 LUFS · pause > 2,5 s: 0 · slide con lo stesso titolo > 3 min: 0 · schermate identiche > 3 min: 0
+- errori residui: ['«…» in 12 campioni', '4 tratti con una card sola oltre 60 s']
+- **Card «sola oltre 60 s»**: il controllo conta le card dalle righe che iniziano con 1–3 e sulle pagine a due card legge quasi sempre solo il numero della card in corso. **Controllo sul manifest di montaggio: nessuna pagina con una sola card dura più di 60 s** (massimo 54 s); le pagine a una card sono quelle dell'ultima frase di una slide. Il controllo severo, rilanciato 3 volte con contrasti diversi, resta a 4 tratti: va riguardato dalla master (mia ipotesi: lettura OCR, *non verificata*).
+- note: `card_con_puntini` scatta sulle **fettine della poesia** (Preludio), dove il testo del libro ha davvero «…» (es. «ai lembi del Sudario⁶…», «tu puoi morir!⁷…»): falso positivo, il testo del libro non si cambia (segnalato alla master). Le «iniziali minuscole» sono errori di lettura OCR delle etichette (la prima lettera «I»/«Il» scambiata) sulle slide a card.
+- Tono della voce del prof (campioni): [152, 164, 160, 148, 148, 176] Hz, chiarezza [1363, 1464, 1543, 1547, 1551, 1439] Hz (soglia 800 Hz): voce non alterata.
+
+## 3. Misure sul video nuovo
 | Voce | Valore | Tipo |
 |---|---|---|
-| Durata / fotogrammi | 55:26,8 · 99 803 (attesi 99 803) · 1920×1080 · 30 fps · 266,1 MB | misurato |
-| Vecchio video | 59:17,1 · 106 712 fotogrammi (la durata è cambiata: vedi §3, tabella secondi) | misurato |
-| Volume | integrato −15,2 LUFS (include sigle e jingle); parlato del prof −16,0 LUFS sul file pulito (catena kit: aresample 48000, highpass 80, arnndn `sh.rnnn`, loudnorm −16); voci Kore portate a −16 LUFS | misurato |
-| Picco reale | **−1,2 dBTP** (limite −1) | misurato |
-| Jingle Quiz (`controllo_jingle.py`, `quiz.wav`) | 7/7 a +0,005 s (rifatto sul file finale) dall'inizio scheda + 0,5 s: OK | misurato |
-| Altri jingle del kit | `titolo.wav` su ogni titolo di argomento (già presente), `repaso.wav` su ogni ripasso (**aggiunto**, mancava), `finale.wav` su «Fine della lezione» (**aggiunto**), schede Verifica/Compiti con jingle (**aggiunto**) | misurato (correlazione) |
-| Silenzi > 3 s | **nessuno** (`silencedetect` −45 dB, 3 s); i più lunghi sono ≈ 2,9 s dopo il jingle di titoli e Quiz | misurato |
-| Fermo immagine del riquadro del prof ≥ 1 s (`freezedetect` sul riquadro) | **nessuno** dentro i pezzi del prof (rifatto anche dopo la seconda passata su D3, D4, D5) | misurato |
-| **Sincronia audio/video dei pezzi del prof** (correlazione audio del file finale con l'originale; scarto dei fotogrammi del riquadro con la webcam originale; 5 punti per pezzo) | audio **−20 ms** costanti (ritardo di codifica AAC), video **0 ms** su D1–D7: massimo 20 ms (limite 40 ms) | misurato |
-| Sottotitoli | 934 blocchi, nessuna sovrapposizione, tempi dalla trascrizione Parakeet; testo del docente da trascrizione automatica con correzioni di nomi | misurato / **non riletti per intero** |
+| Durata / fotogrammi | 55:39,4 · 100 182 fotogrammi (= durata × 30) · 1920×1080 · 268 MB | misurato |
+| Volume | −15,2 LUFS integrato (parlato del prof −16,0 LUFS sul file pulito); picco reale −1,2 dBTP | misurato |
+| Jingle Quiz (`controllo_jingle.py`) | 7/7 a +0,005 s | misurato |
+| Sincronia labbra/voce dei pezzi del prof | audio −20 ms costanti (ritardo AAC), video 0 ms su D1–D7 (5 punti per pezzo): massimo 20 ms | misurato |
+| Fermo immagine del riquadro del prof ≥ 1 s | nessuno dentro i pezzi del prof | misurato |
+| Pause ≥ 2,5 s | nessuna | misurato |
+| Sottotitoli | 927 blocchi; voci Kore col testo esatto, prof da trascrizione automatica con correzioni | misurato / **non riletti per intero** |
 
-## 2. Confronto col modello Spagnolo (punto 000)
-| # | Esito |
-|---|---|
-| 1 Sigla → dissolvenza → copertina | OK (sigla 15 s del kit; dissolvenza di 0,2 s su ogni giunzione tra pezzi, tranne sigle) |
-| 2 Copertina | **corretto**: titolo, card ARGOMENTI su 2 colonne, riga «LETTERATURA ITALIANA V · VIDEOLEZIONE» |
-| 3 Slide (fondo bianco, «0N · ARGOMENTO», barretta blu, tabelle intestazione blu notte) | **corretto** (tutte rifatte da testo del pptx del prof) |
-| 4 Piè di pagina «LETTERATURA ITALIANA V · Prof. Giorgio Mazzotti» + «Pagina N» | **corretto** (Figtree Bold) |
-| 5 Riquadro 4:3 (412×310, x 1428 y 148, ombra grigia morbida, niente bordo) | **corretto**; ritaglio dalla webcam dell'originale 184×138 ingrandito 2,24× con correzione kit (hqdn3d, cas, contrasto 1,04, sat. 1,03): **morbido**, limite della sorgente |
-| 6 Fascia gialla −3°, due righe, sempre visibile | **corretto** |
-| 7 Slide senza prof | OK (ripassi, schemi, parole difficili, glossario, riepilogo) |
-| 8 Font | solo Bricolage 800 / Figtree / (DM Mono non usato) |
-| 9 Finale kit `Sigla_finale_5s_con_avviso_diritti.mp4` | **corretto** (prima: testo tagliato e 8 s di silenzio) |
-| 10 Struttura | presente: sigla, presentazione, 7 argomenti (prof, ripasso con voce, schema, quiz 5 domande), approfondimenti, glossario, riepilogo, mappa del prof, finale |
-| 11 PDF A4 orizzontale | `Letteratura_Lez2_slide.pdf` (62 pagine = slide del video senza riquadro e fascia; vettoriale) e `Letteratura_Lez2_mappe.pdf` (mappa del prof). **Confronto pagina per pagina con i fotogrammi: NON fatto** (stesso generatore per video e PDF) |
+### Voci nuove (RN1–RN17, INTRO2): trascrizione e bordi
+Bordo = ampiezza massima negli ultimi 50 ms (soglia 0,03; in montaggio ogni voce ha dissolvenza 30 ms in entrata e uscita). «Differenze» = trascrizione automatica confrontata col testo (numeri in lettere ↔ cifre non contano).
+| Voce | s | bordo fine | bordo inizio | differenze |
+|---|---|---|---|---|
+| RN1 | 2.3 | 0.001 | 0.004 | — |
+| RN2 | 2.8 | 0.029 | 0.002 | [['1860', 'milleottocentosessanta']] |
+| RN3 | 2.5 | 0.0 | 0.002 | — |
+| RN4 | 3.7 | 0.001 | 0.002 | — |
+| RN5 | 9.9 | 0.001 | 0.001 | [['', 'il'], ['boheme boheme', 'boem boemo']] |
+| RN6 | 2.4 | 0.001 | 0.003 | — |
+| RN7 | 11.5 | 0.0 | 0.002 | [['gino', 'igino']] |
+| RN8 | 11.9 | 0.022 | 0.002 | — |
+| RN9 | 5.0 | 0.0 | 0.001 | — |
+| RN10 | 7.5 | 0.031 | 0.033 | [['baudelaire', 'bodler']] |
+| RN11 | 12.3 | 0.03 | 0.032 | — |
+| RN12 | 4.8 | 0.001 | 0.021 | — |
+| RN13 | 4.3 | 0.012 | 0.046 | — |
+| RN14 | 8.2 | 0.055 | 0.025 | — |
+| RN15 | 3.9 | 0.001 | 0.001 | — |
+| RN16 | 4.0 | 0.001 | 0.024 | — |
+| RN17 | 6.4 | 0.0 | 0.014 | [['patologi', 'patologiche']] |
+| INTRO2 | 29.8 | 0.0 | 0.001 | [['5', 'cinque'], ['l80', 'lottanta per cento']] |
+Bordi sopra 0,03 (RN10 0,031 · RN11 0,030 · RN14 0,055): tutte le parole sono intere (nessuna differenza di testo) e la dissolvenza di 30 ms le chiude; non rigenerate. «Igino» (RN7) è reso «Gino» dalla trascrizione: da ascoltare.
 
-## 3. Problemi trovati e correzioni
-| Minuto (vecchio video) | Tipo | Com'era | Correzione |
-|---|---|---|---|
-| tutta la lezione | audio/visivo | **Audio in anticipo sul video in modo progressivo**: scarto 0,03 s sul primo argomento fino a ≈ 1 s sul settimo (offset del prof rispetto all'originale: D1 0,03 · D3 0,25 · D5 0,57 · D7 0,97 s; jingle Quiz 7 a −1,24 s dall'attesa; voci Kore che partono fino a 0,6 s prima della scheda) | audio rifatto da zero con i file originali (prof dall'originale pulito, voci Kore dai `.wav`, jingle del kit) agganciato ai fotogrammi |
-| tutti i pezzi del prof | visivo | prof nel tondo, nome su una riga | riquadro 4:3 + fascia gialla |
-| tutte le slide | visivo | modello diverso da Spagnolo (fondo grigio, barretta gialla, etichetta senza «0N ·») | rifatte nel modello |
-| fine D5 (orig. 1324 s) | audio | pezzo del prof tagliato a metà frase («…preludio di Emilio» / «Prague») | fine spostata dopo la frase |
-| fine D6 (orig. 1816 s) | audio | tagliato a metà frase («…la noia e»…) | fine spostata a 1820,74 s dell'originale |
-| fine D4 (orig. 1223 s) | audio | fine di «…a leggere» sul bordo | spostata dopo «…almeno alcune di queste.» (1226,58 s) |
-| 58:51–59:17 | visivo+audio | finale con «GRAZIE PER L'ATTENZI» tagliato, senza logo, 8 s di silenzio | sigla finale del kit |
-| 3300 s e dintorni | audio | schede Verifica/Compiti e ripasso senza jingle | jingle aggiunti |
-| Preludio/Dualismo | pagina | pagina intera rimpicciolita, riga tagliata in fondo | 26 fettine dagli screen HD (vedi §4) |
-| card 3 («significato letterale»), 309 s | visivo | evidenziata 12 s prima della frase del prof (321,6 s) | evidenziazione dai tempi parola per parola |
-| mappe | contenuto | 7 mappe + 1 finale **fatte da noi**, non del prof (il prof ne ha una sola) | tolte; nel video la **mappa del prof** (voce nuova `RM1`, 108 s); mappa nel PDF |
-| ripassi/schemi | visivo/testo | voci scritte alla pronuncia («Bodlèr», «Òffman», «boemièn», «Gòete», «Anjambmàn») anche sullo schermo | sullo schermo ortografia corretta (Baudelaire, Hoffmann, bohémien, Goethe, enjambement) |
-
-### Tabella secondo vecchio → nuovo (la durata è cambiata: scheda_pubblicazione.json e timeline.json già aggiornati)
+### Secondi vecchio → nuovo (scheda e timeline già aggiornate)
 | Pezzo | vecchio (s) | nuovo (s) |
 |---|---|---|
 | Q1 | 529.1 | 491.0 |
@@ -56,10 +63,10 @@
 | Q5 | 1896.4 | 1696.8 |
 | Q6 | 2570.7 | 2332.6 |
 | Q7 | 3295.6 | 3006.8 |
-| VERIFICA | 3538.4 | 3308.1 |
-| COMPITI | 3552.0 | 3321.7 |
+| VERIFICA | 3538.4 | 3320.7 |
+| COMPITI | 3552.0 | 3334.3 |
 
-### Inizio e fine di ogni pezzo del prof (ultime parole dalla trascrizione, *stima*)
+### Inizio e fine di ogni pezzo del prof (*stima* dalla trascrizione)
 | pezzo | inizio | prime parole | fine | ultime parole | frase finita |
 |---|---|---|---|---|---|
 | D1 | 0:50.8 | Buongiorno e benvenuti alla lezione sulla | 7:10.3 | organizzato. con manifestazioni teoriche o manifesti codificati. | sì |
@@ -70,11 +77,9 @@
 | D6 | 28:25.8 | Allora, questa è, come potete vedere, | 36:41.8 | disperazione, e torna ovviamente su questo Podler. | sì |
 | D7 | 39:01.6 | Arrigo Boito, dualismo. Come vedete, 1863, | 47:59.8 | e lo capite anche voi. a risolversi. | sì |
 
-**Tagli corretti:** tutti i pezzi del prof finiscono e iniziano a frase finita. In una seconda passata ho spostato i tagli D3/D4 (796,66 s dell'originale, dopo «…cose sempre tranquille.») e D4/D5 (1226,58 s, dopo «…almeno alcune di queste.»); i tagli D1/D2, D2/D3, D5/D6 (dopo «Emilio Prague.») e D6/D7 (dopo «…questo Podler.») cadono già in una pausa (energia minima). Nei primi secondi di D3 e D4 le slide mostrano ancora quella del tema precedente finché il prof non passa al nuovo.
-
 ## 4. Pagine del libro in HD (fettine)
-Sorgente: `Lez02_ingrandita.1.zip` → `Lez02/screen/Lez02_p038, 039, 041, 042, 043, 044.png`. Ogni fettina inizia e finisce su una riga bianca, prende solo la colonna del brano, senza intestazioni, numeri di pagina o riquadri; il rigo è ≈ 26 px o più a 1080p (scala ≥ 1,16 sulla sorgente HD). Le note a piè di pagina non sono state mostrate (spiegate dagli approfondimenti con voce). Foglio dei fotogrammi: `controllo_fettine.jpg` (un fotogramma a metà intervallo per ogni fettina, controllati a vista: nessuna riga tagliata).
-| Fettina | Pagina | File (rettangolo in pixel) | Minuto video |
+Sorgente `Lez02_ingrandita.1.zip` → `Lez02/screen/Lez02_p038, 039, 041, 042, 043, 044.png`; ogni fettina inizia e finisce su una riga bianca, solo la colonna del brano, senza intestazioni, numeri di pagina o riquadri. Foglio dei fotogrammi: `controllo_fettine.jpg` (controllate a vista: nessuna riga tagliata).
+| Fettina | Pagina | File (rettangolo px) | Minuto video (17/11) |
 |---|---|---|---|
 | A1 | p. 38 | Lez02/screen/Lez02_p038.png (334,235)-(875,507) | 28:41.6 |
 | A2 | p. 38 | Lez02/screen/Lez02_p038.png (503,512)-(1593,731) | 29:41.3 |
@@ -111,22 +116,24 @@ Sorgente: `Lez02_ingrandita.1.zip` → `Lez02/screen/Lez02_p038, 039, 041, 042, 
 | S2 | p. 41 | Lez02/screen/Lez02_p041.png (438,2356)-(1113,2765) | 45:27.8 |
 | S6 | p. 42 | Lez02/screen/Lez02_p042.png (419,1580)-(1098,1994) | 47:05.3 |
 | S17 | p. 44 | Lez02/screen/Lez02_p044.png (408,1568)-(1074,1982) | 47:48.3 |
+(I minuti sono quelli della versione del 17/11: i pezzi D6 e D7 non si sono spostati.)
 
-## 5. Cosa NON ho verificato / limiti noti
-- **Ascolto**: nessun ascolto umano. Pronuncia delle voci Kore controllata solo confrontando la trascrizione automatica col testo: da ascoltare «Manzonismo» (resa «mansonismo» in S3 e glossario), «Igino Ugo» (resa «Gino Ugo» in R5/S5/riepilogo), «svolazziam» (approfondimento Preludio). Non ho rigenerato voci.
-- **Rumore** del prof (fruscio/ronzio/metallico): applicata la catena del kit ma non ascoltata.
-- **Sincronia labbra/voce**: misurata con la correlazione (audio −20 ms, video 0 ms); non ho guardato le labbra a occhio.
-- **Evidenziazioni** (card in corso): tempi dalla trascrizione ma con sovrapposizioni stimate: *stima* ±1,5 s; per ripassi/schemi/glossario/riepilogo i tempi sono corretti sullo scarto medio (*stima*).
-- **Testo delle slide**: preso dal pptx del prof (nessun OCR del video finale). Sottotitoli non riletti per intero; possibili errori residui di nomi.
-- **Webcam**: 244×138 px nell'originale, ingrandita ×2,24: morbida; in alcuni punti la testa tocca il bordo alto già nell'originale (es. orig. 100 s, 1700 s).
-- **Mappa del prof nel video**: schermata fissa di 108 s con voce RM1 (nessuna comparsa progressiva dei nodi). Una sola mappa per lezione (il prof non ne ha mandata una per argomento).
-- **Dissolvenze**: 0,2 s verso il bianco su ogni giunzione; `trans.wav` usato solo sulla scheda Compiti. Non c'è un effetto sonoro di transizione tra tutti i pezzi.
-- Slide extra «Avanguardia e ritardo italiano» (D4, 1077–1223 s dell'originale): il prof parla di cose che non sono sulle sue slide; schede scritte con le sue parole.
+## 5. Refusi e anomalie nel materiale del prof (da riportare a Sara, non corretti nel contenuto)
+- Il prof dice «Gino Ugo Tarchetti», la slide e la mappa «Igino Ugo Tarchetti».
+- La mappa elenca «i fratelli Arrigo e Camillo Boito»; le slide parlano solo di Arrigo.
+- «Il 6 febbraio 1862» (slide ed Excel) vs «nel 1862» (voce del prof): coerenti.
+- Preludio 1864 / Dualismo 1863: il prof si corregge a voce («un po' più avanti… scusate, più dietro»).
+- Refusi corretti nelle nostre slide: nomi propri e maiuscole delle card (prima lettera), virgolette; nessun numero toccato.
 
-## DA CONFERMARE COL PROF
-- Slide extra «Avanguardia e ritardo italiano» (frasi: «Manzoni è ancora vivo: morirà nel 1873», «anticipa i temi della letteratura decadente: mistero, crudeltà, bellezza malata»).
-- Nome «Igino Ugo Tarchetti» (slide) pronunciato «Gino Ugo» dal prof.
-- Data «il 6 febbraio» (pptx e Excel concordano; il prof dice «nel 1862»).
+## 6. Cosa NON ho verificato / limiti
+- **Nessun ascolto umano**: pronuncia delle voci Kore (soprattutto «Bohème» reso «Boèm», «Igino», «Baudelaire» reso «Bodlèr») controllata solo con la trascrizione; rumore del prof non ascoltato. Voci Kore già esistenti (R, S, approfondimenti, glossario, riepilogo) non rigenerate: segnalate dalla trascrizione «Manzonismo» (S3, glossario) e «svolazziam» (approfondimento Preludio) da ascoltare.
+- **Pause lunghe del prof** (> 2,5 s tra due frasi) non accorciate: il video non ha pause ≥ 2,5 s (misurato), quindi non servivano tagli.
+- **Parole chiave** nella colonna destra: non aggiunte (facoltative).
+- **Webcam** originale 244×138 px ingrandita ×2,24: morbida; in alcuni punti la testa tocca il bordo alto già nell'originale.
+- **Sottotitoli** non riletti per intero; testo delle slide non verificato con OCR parola per parola (preso dal pptx del prof).
+- Card con testo a 40 px: alcune pagine hanno una sola card (frase molto lunga): il controllo severo le segnala solo se durano > 60 s.
+- Slide extra «Avanguardia e ritardo italiano» (D4, 1077–1226 s dell'originale) scritta con le parole del prof perché nelle sue slide non c'è nulla per quel tratto: **da confermare col prof**.
+- Mappa: 2 schermate invece di una (autorizzato dalla master); frecce della 2ª schermata adattate.
 
-## 6. Come ho verificato
-Ricomposizione e sha256 del video vecchio; trascrizione `trascrivi.py` (Parakeet) di video vecchio e originale; fotogrammi ogni 60/30 s; allineamento audio-originale (correlazione) dei pezzi del prof; slide dal pptx del prof; fettine dalle 6 pagine HD con coordinate OCR (rapidocr); `controllo_jingle.py`; `ebur128`, `silencedetect`, `freezedetect` (ffmpeg); confronto compiti (identici al PDF del prof) ed Excel (identico byte per byte). Video: piano di montaggio per pezzi (47 pezzi), una codifica x264 veryfast CRF 19, AAC 192k.
+## 7. Come ho verificato
+`controllo_severo.py` (tesseract), `controllo_jingle.py`, `ebur128`/`silencedetect`/`freezedetect` (ffmpeg), correlazione audio e fotogrammi col file originale per la sincronia, trascrizione `trascrivi.py` (Parakeet) di voci nuove, originale e video, foglio dei fotogrammi ogni 30 s (`controllo_minuti.jpg`) e fettine (`controllo_fettine.jpg`), PDF generati dalle stesse pagine del video. Video: piano per pezzi (49 pezzi), una codifica x264 veryfast CRF 19, AAC 192k, sha256 dei pezzi da 90 MB.
