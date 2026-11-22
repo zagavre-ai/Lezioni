@@ -17,7 +17,12 @@
   }
  },
  "manca": "",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "22/11 17:05",
+   "testo": "lez 7: in attesa delle voci P1..P10 (mappa del prof letta ramo per ramo, testi_voci.json sul ramo voci-letteratura-V-lez07, pushate 16:37 UTC). Tutto il resto del montaggio e' pronto; appena arrivano chiudo (circa 30 min)."
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
@@ -76,5 +81,5 @@
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 7",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-22 16:42:26"
+ "aggiornato": "2026-11-22 17:05:35"
 }
