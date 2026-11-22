@@ -328,5 +328,37 @@
   "nome": "GL2",
   "testo": "Altre parole da ricordare. Holodomor: la carestia che colpisce l'Ucraina tra il millenovecentotrentadue e il millenovecentotrentatré. Komsomol: l'organizzazione giovanile del partito. Grandi purghe: la campagna di epurazione degli anni Trenta. Fronte unito: l'alleanza dei comunisti con socialisti e democratici contro il fascismo. Patto Molotov-Ribbentrop: il patto di non aggressione con la Germania nazista.",
   "lingua": "it"
+ },
+ {
+  "nome": "BENV1_R2",
+  "testo": "Benvenuta e benvenuto alla lezione di Storia. Oggi il professore ci porta nell'Unione Sovietica di Stalin, dal millenovecentoventiquattro al millenovecentotrentanove. Alla fine di ogni argomento ti aspetta un breve quiz."
+ },
+ {
+  "nome": "MP1",
+  "testo": "Come giunge al potere assoluto Stalin? Alla morte di Lenin, nel millenovecentoventiquattro, si scontrano Trockij e Stalin. Trockij è il leader dell'Armata rossa, e sostiene la rivoluzione permanente, ma viene sconfitto ed esiliato. Stalin è il segretario del Partito, sostiene la rivoluzione in un solo paese, e raggiunge il potere assoluto."
+ },
+ {
+  "nome": "MP23",
+  "testo": "Come avviene l'industrializzazione dell'Unione Sovietica? La svolta economica di Stalin si basa su due cose. La collettivizzazione dell'agricoltura, che provoca la resistenza dei contadini, e gravissime carestie. E i piani quinquennali per l'industria, che si basano sullo sfruttamento dei lavoratori, ma consentono il decollo dell'industria pesante."
+ },
+ {
+  "nome": "MP4",
+  "testo": "Il totalitarismo di Stalin. Si basa su un uso spietato della violenza, e sull'organizzazione del consenso. La violenza è contro i rivali politici, con le purghe, e contro i cittadini comuni, deportati nei Gulag, cioè i campi di lavoro forzato. Il consenso è basato sul controllo delle attività associative, sul controllo della scuola e della gioventù, e sul controllo della cultura e delle arti."
+ },
+ {
+  "nome": "MP5A",
+  "testo": "La società staliniana, prima parte. Il culto della personalità: Stalin è presentato come leader infallibile e piccolo padre dei popoli, e il realismo socialista è l'unico stile artistico ammesso. L'indottrinamento dei giovani: avviene a scuola e nelle organizzazioni di partito come il Komsomol, l'organizzazione giovanile comunista, per creare cittadini obbedienti."
+ },
+ {
+  "nome": "MP5B",
+  "testo": "La società staliniana, seconda parte. Il mito del lavoro, detto stachanovismo: nasce il mito del minatore Aleksej Stachanov, per spingere i lavoratori a superare i record di produzione. I diritti femminili: dopo le riforme degli anni Venti, cioè voto, divorzio e aborto, negli anni Trenta si torna a modelli tradizionali, l'aborto diventa illegale e lo Stato promuove la natalità."
+ },
+ {
+  "nome": "MP6",
+  "testo": "La politica estera e le relazioni internazionali. L'uscita dall'isolamento: negli anni Venti l'Unione Sovietica ristabilisce le relazioni diplomatiche con le potenze occidentali, ed entra nella Società delle Nazioni nel millenovecentotrentaquattro. La strategia del fronte unito: il Comintern, cioè l'Internazionale comunista, promuove l'alleanza tra comunisti, socialisti e forze democratiche, come nella guerra civile spagnola. Il patto Molotov-Ribbentrop: nell'agosto del millenovecentotrentanove l'Unione Sovietica firma un patto di non aggressione con la Germania nazista, con un accordo segreto per la spartizione dell'Europa orientale."
+ },
+ {
+  "nome": "MPF",
+  "testo": "La mappa di tutta la lezione: l'Unione Sovietica di Stalin, dal millenovecentoventiquattro al millenovecentotrentanove. L'ascesa di Stalin e il controllo del partito. La grande svolta e i piani quinquennali. La collettivizzazione forzata e la carestia. Il totalitarismo staliniano e il Grande Terrore. La società staliniana: propaganda, giovani e donne. La politica estera e le relazioni internazionali."
  }
 ]
