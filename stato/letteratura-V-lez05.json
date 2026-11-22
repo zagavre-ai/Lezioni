@@ -33,6 +33,10 @@
   {
    "quando": "22/11 17:14",
    "testo": "URGENTE voci mappa Lez5: le MP01-MP21 sono TAGLIATE MALE (gli anni in lettere finiscono in coda alla voce precedente: MP01 finisce con 'milleottocentosettantadue', MP05 con 'millenovecentoventidue', MP13 con 'milleottocentosettantotto' ecc.; bordi >0,03 in MP01,05,06,08,15,18). Ho riscritto i testi senza anno a inizio frase: rigenera MQ01-MQ21 (testi_voci.json sul ramo voci) e controlla i tagli"
+  },
+  {
+   "quando": "22/11 18:35",
+   "testo": "Lez5: l'agente indipendente ha trovato bordo giallo card non affidabile (sync lessicale) e QR in alcune fettine: li dichiaro nel rapporto; se serve rifinitura a mano, puo' passare a un'altra chat"
   }
  ],
  "domande_sara": [],
@@ -116,7 +120,11 @@
   {
    "quando": "22/11 18:11",
    "testo": "18:20 UTC (5/6): video completo 59:20 montato (391 MB); controllo severo e agente indipendente in corso; poi consegna"
+  },
+  {
+   "quando": "22/11 18:35",
+   "testo": "18:45 UTC (6/6): ricodifica finale con fascia gialla corretta e pagine <3 min in corso; poi controllo severo e push; consegna prevista 19:20 UTC. Difetti noti non risolti nel rapporto (sync card, QR, glossario)"
   }
  ],
- "aggiornato": "2026-11-22 18:11:06"
+ "aggiornato": "2026-11-22 18:35:49"
 }
