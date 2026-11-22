@@ -3,14 +3,19 @@
  "parti": {
   "1": {
    "titolo": "Postmodernità e globalizzazione",
-   "stato": "IN_MONTAGGIO"
+   "stato": "IN_MONTAGGIO",
+   "voci": "segnaposto"
   }
  },
- "manca": "trascrizione in corso; poi tagli, slide, voci, mappe, quiz, montaggio",
+ "manca": "montaggio con voci provvisorie; arrivano alle 9:00",
  "serve_master": [
   {
    "quando": "22/11 22:52",
    "testo": "Lez18 storia arte presa. Materiali scaricati (video 40:52 a 1092x614, slide PDF 24 pag, mappe 3 pag, 10 domande). Wikimedia Commons non raggiungibile da qui (403): userò solo le opere del PDF del prof, migliorate. Mando testi_voci.json appena ho la trascrizione."
+  },
+  {
+   "quando": "22/11 23:00",
+   "testo": "testi_voci.json caricato sul ramo voci-storia-arte-V-lez18 (22 voci: BENVENUTO, A1..A7_APPROF, A1..A7_RIPASSO, 3 mappe, GLOSSARIO, RIPASSO_FINALE, VERIFICA, COMPITI). Struttura: 7 argomenti; mappe del prof: Street Art dopo A4, Fotografia/Artistar/Archistar dopo A7 (e' una mappa unica che copre A5-A7), mappa generale come mappa finale. Domande-titolo delle mappe scritte da me con parole del prof. Refusi mappe: Graffity, Bansky, Cyndi. Quiz 35 domande da approvare."
   }
  ],
  "domande_sara": [],
@@ -23,5 +28,5 @@
  "materia": "Storia dell'arte V",
  "lezione": "Lezione 18 · Postmodernità e globalizzazione",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-22 22:52:23"
+ "aggiornato": "2026-11-22 23:00:32"
 }
