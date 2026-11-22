@@ -1,31 +1,31 @@
 {
  "materia": "Letteratura italiana (V)",
  "titolo": "Letteratura V · Lezione 16 · Umberto Saba",
- "durata_s": 3311.7,
+ "durata_s": 3238.4,
  "argomenti": [
   {
    "n": 1,
    "titolo": "La vita e la formazione",
    "inizio_s": 139.633,
-   "quiz_s": 958.4
+   "quiz_s": 904.2
   },
   {
    "n": 2,
    "titolo": "La «poesia onesta»",
-   "inizio_s": 963.4,
-   "quiz_s": 1694.967
+   "inizio_s": 909.2,
+   "quiz_s": 1599.067
   },
   {
    "n": 3,
    "titolo": "Il Canzoniere",
-   "inizio_s": 1699.967,
-   "quiz_s": 2821.033
+   "inizio_s": 1604.067,
+   "quiz_s": 2671.233
   },
   {
    "n": 4,
    "titolo": "La produzione in prosa",
-   "inizio_s": 2826.033,
-   "quiz_s": 3139.767
+   "inizio_s": 2676.233,
+   "quiz_s": 2937.967
   }
  ],
  "quiz": {
@@ -250,6 +250,6 @@
    ]
   }
  },
- "t_verifica": 3293.2,
- "t_compiti": 3306.7
+ "t_verifica": 3219.9,
+ "t_compiti": 3233.4
 }
