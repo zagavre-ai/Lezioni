@@ -2,7 +2,7 @@
  "tag": "letteratura-V-lez16",
  "parti": {
   "1": {
-   "stato": "REVISIONATA",
+   "stato": "IN_REVISIONE",
    "titolo": "Umberto Saba",
    "voci": "kore",
    "quiz_ok": "si",
@@ -386,10 +386,14 @@
   {
    "quando": "17/11 17:19",
    "testo": "rapporto aggiornato: tabella secondi vecchi→nuovi (Q2 1694,97, Q3 2821,03) e nota pronuncia. Regole fino alle 08:45 applicate; resta non ascoltato."
+  },
+  {
+   "quando": "22/11 16:49",
+   "testo": "correzioni 22/11: presa da revisione-letteratura-V-lez16. 16:55 UTC. Piano: slide max 3 card a 40 px, una sola mappa del prof in colori BES ramo per ramo, controllo severo. Consegna prevista 19:30 UTC."
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 16 · Umberto Saba",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-17 17:19:14"
+ "aggiornato": "2026-11-22 16:49:45"
 }
