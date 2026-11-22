@@ -30,6 +30,10 @@
   {
    "quando": "17/11 17:25",
    "testo": "rigenerare la pagina con i nuovi secondi (timeline.json); sostituire su Vimeo sullo stesso link"
+  },
+  {
+   "quando": "22/11 16:38",
+   "testo": "voci M1-M9 su voci-letteratura-V-lez04 (testi_voci.json): servono entro ~30 min"
   }
  ],
  "domande_sara": [],
@@ -89,7 +93,11 @@
   {
    "quando": "22/11 16:35",
    "testo": "correzioni 22/11: presa da revisione-letteratura-V-lez04 (5b7b4d3); consegna prevista 19:15 UTC"
+  },
+  {
+   "quando": "22/11 16:38",
+   "testo": "correzioni 22/11: inviate voci M1-M9 (mappa ramo per ramo); rifacimento slide 40px e pagine; consegna prevista 19:15 UTC"
   }
  ],
- "aggiornato": "2026-11-22 16:35:54"
+ "aggiornato": "2026-11-22 16:38:03"
 }
