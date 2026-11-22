@@ -2,7 +2,7 @@
  "tag": "storia-V-lez03",
  "parti": {
   "1": {
-   "stato": "REVISIONATA",
+   "stato": "IN_REVISIONE",
    "voci": "kore",
    "quiz_ok": "si",
    "fermi_ok": "si",
@@ -114,10 +114,14 @@
   {
    "quando": "20/11 23:18",
    "testo": "card intere 19/11 fatte: P1 48:13, P2 46:42 (sotto i 50 min), slide ferme >3 min in arg 1,6,8,10 (vedi rapporto), voci da riascoltare, approfondimenti da confermare col prof"
+  },
+  {
+   "quando": "22/11 18:23",
+   "testo": "correzioni 22/11: presa da claude/wonderful-allen-yq1z2q"
   }
  ],
  "materia": "Storia V",
  "lezione": "Lezione 3 · L'Italia di Giolitti",
- "aggiornato": "2026-11-20 23:18:32",
+ "aggiornato": "2026-11-22 18:23:58",
  "docente": "Prof. Giorgio Mazzotti"
 }
