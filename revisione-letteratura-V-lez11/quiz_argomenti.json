@@ -52,7 +52,8 @@
     ],
     "e": "Il Surrealismo nasce nel 1924 in Francia, guidato da André Breton, da un'evoluzione del Dada."
    }
-  ]
+  ],
+  "inizio_s": 1026.533
  },
  "Q2": {
   "title": "Quiz 2 · Il Futurismo italiano",
@@ -107,7 +108,8 @@
     ],
     "e": "Palazzeschi partecipa con ironia, come in «E lasciatemi divertire!», dove rifiuta il ruolo sacro del poeta vate."
    }
-  ]
+  ],
+  "inizio_s": 1829.22
  },
  "Q3": {
   "title": "Quiz 3 · Il Manifesto del Futurismo",
@@ -162,7 +164,8 @@
     ],
     "e": "Il manifesto vuole distruggere musei, biblioteche e accademie, e canta invece le macchine e le città moderne."
    }
-  ]
+  ],
+  "inizio_s": 2509.896
  },
  "Q4": {
   "title": "Quiz 4 · James Joyce e il flusso di coscienza",
@@ -217,6 +220,7 @@
     ],
     "e": "Nel monologo di Molly i pensieri scorrono senza punti né virgole, come nel pensiero vero."
    }
-  ]
+  ],
+  "inizio_s": 3014.98
  }
 }

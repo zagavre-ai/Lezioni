@@ -1,0 +1,98 @@
+{
+ "titolo": "Verifica finale · Letteratura V · Il Futurismo e le avanguardie",
+ "soglia": 0.8,
+ "domande": [
+  {
+   "p": "Quale città si conferma all'inizio del Novecento come il primo centro europeo di elaborazione della cultura d'avanguardia?",
+   "a": "Parigi",
+   "w": [
+    "Berlino",
+    "Milano",
+    "San Pietroburgo"
+   ]
+  },
+  {
+   "p": "In quale celebre quotidiano parigino fu pubblicato il Manifesto del Futurismo di Marinetti il 20 febbraio 1909?",
+   "a": "Le Figaro",
+   "w": [
+    "Le Monde",
+    "Gil Blas",
+    "Lacerba"
+   ]
+  },
+  {
+   "p": "Quale innovazione formale del Futurismo prevede l'eliminazione degli aggettivi e degli avverbi e l'uso dei verbi all'infinito?",
+   "a": "Distruzione della sintassi",
+   "w": [
+    "Abolizione della punteggiatura",
+    "Paroliberismo",
+    "Analogia espressiva"
+   ]
+  },
+  {
+   "p": "Chi è l'autore della celebre poesia futurista intitolata \"E lasciatemi divertire! (canzonetta)\"?",
+   "a": "Aldo Palazzeschi",
+   "w": [
+    "Filippo Tommaso Marinetti",
+    "Guillaume Apollinaire",
+    "Vladimir Majakovskij"
+   ]
+  },
+  {
+   "p": "Nella lirica \"E lasciatemi divertire!\", quale concezione del poeta viene dichiarata definitivamente tramontata?",
+   "a": "Quella del poeta come sacro vate investito di una missione morale e civile",
+   "w": [
+    "Quella del poeta d'avanguardia politicamente impegnato",
+    "Quella del poeta fanciullino che dialoga con la natura",
+    "Quella del poeta artigiano della parola e della metrica classica"
+   ]
+  },
+  {
+   "p": "In quale città svizzera nacque ufficialmente il movimento Dada nel 1916?",
+   "a": "Zurigo",
+   "w": [
+    "Ginevra",
+    "Basilea",
+    "Lugano"
+   ]
+  },
+  {
+   "p": "Chi fu il principale fondatore e teorico del movimento Dadaista, autore del manifesto \"Disgusto dadaista\"?",
+   "a": "Tristan Tzara",
+   "w": [
+    "André Breton",
+    "Alfred Jarry",
+    "Louis Aragon"
+   ]
+  },
+  {
+   "p": "Quale movimento d'avanguardia, guidato da André Breton, mette al centro della propria ricerca l'esplorazione del sogno e dell'inconscio?",
+   "a": "Il Surrealismo",
+   "w": [
+    "Il Futurismo",
+    "Il Dadaismo",
+    "L'Espressionismo"
+   ]
+  },
+  {
+   "p": "Quale tecnica narrativa viene ampiamente teorizzata e utilizzata da James Joyce nel romanzo \"Ulisse\"?",
+   "a": "Il flusso di coscienza o monologo interiore",
+   "w": [
+    "La narrazione con narratore onniscente ottocentesco",
+    "Il principio dell'impersonalità di matrice verista",
+    "La scomposizione geometrica dei dialoghi teatrali"
+   ]
+  },
+  {
+   "p": "Come viene definita l'arte poetica nella raccolta \"L'incendiario\" di Palazzeschi, in totale contrasto con il pubblico borghese?",
+   "a": "Come spazzatura o una merce qualsiasi che non comunica messaggi di verità",
+   "w": [
+    "Come un oggetto sacro da custodire gelosamente nei musei",
+    "Come uno strumento di pura propaganda politica e militare",
+    "Come un'indagine psicologica profonda e sentimentale dei personaggi"
+   ]
+  }
+ ],
+ "inizio_s": 3095.58,
+ "durata_s": 3.5
+}

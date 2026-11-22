@@ -1,128 +1,97 @@
-# RAPPORTO DI REVISIONE · Letteratura italiana V · Lezione 11 · «Il Futurismo e le avanguardie» (Prof. Giorgio Mazzotti)
-Versione finale · 16/11/2026 · stato: REVISIONATA (da riguardare dalla master). Ramo: `revisione-letteratura-V-lez11`.
+# RAPPORTO DI REVISIONE · Letteratura italiana V · Lezione 11 · «Il Futurismo e le avanguardie»
+**Correzioni 22/11/2026** (sopra la consegna del 17/11). Ramo `revisione-letteratura-V-lez11`. Misurato (M) / stima o lettura a vista (S) / non verificato (NV).
 
-**Scrivo sempre che cosa ho MISURATO (M) e che cosa è una STIMA/lettura a vista (S).**
+## 1. Numeri sul video finale (M)
+| | Valore |
+|---|---|
+| Durata | **52:57** (3177,27 s), una sola Parte |
+| Fotogrammi | **95.318 = durata × 30** |
+| Peso | 258,7 MB (< 400) · 1920×1080, 30 fps, x264 veryfast CRF 19, AAC 192k 48 kHz |
+| Volume | **−15,8 LUFS** integrati (parlato del prof a −16 LUFS ±1); picco vero **−1,6 dBTP** (rimisurati sul file finale) |
+| Timbro della voce del prof | rapporto acuti(>4 kHz)/(>100 Hz): originale −16,1 dB · pulito −15,7 dB · video finale −15,5 dB (limite −9…−20: **OK**) |
+| Pause > 2,5 s | **0** (`silencedetect` −45 dB, d ≥ 2,5 s) |
+| Scatto quiz | **−0,009 / −0,009 / −0,009 / −0,010 s** (limite 0,05) |
+| Sincronia labbra/voce (audio finale ↔ originale, 3 punti per pezzo) | **−0,01 s** su tutti i 12 punti nella build precedente; dopo l'ultima ricodifica (audio e video del prof identici, cambiano solo card e dissolvenze) ricontrollato D1 = −0,01 s; D2–D4 non ancora rimisurati (NV) |
+| Fermi immagine nel riquadro del prof (`freezedetect` −60 dB, ≥ 1 s) | **0** |
+| Controllo severo della master (`controllo_severo.py`) | **IN CORSO al momento della consegna** (lanciato alle 19:09 UTC sul file finale, passo 20 s): l'OCR non era ancora finito. Esito da aggiungere con un commit dopo la consegna; nella build precedente le uniche cose segnalate dall'agente indipendente sono quelle della §7, già corrette |
 
-## 1. Risultato in numeri (M)
-| | Prima (consegna) | Dopo (revisione) |
+## 2. Cosa ho cambiato in questa tornata
+1. **Testo a 40 px** (mai sotto 36), interlinea 1,5, in tutte le card; **al massimo 3 card per slide, ogni card una frase intera**, alta quanto il testo (misurata col font vero). Quando 3 card non entrano la slide si divide (da 64 a 99 pagine). Nessuna card resta sola per oltre 60 s (M).
+2. **Copertina**: il prof sopra la copertina parla per 150 s (< 3 min), poi slide «Di cosa parliamo» con i 4 argomenti, che si accendono quando il prof li nomina. L'introduzione animata (voce di benvenuto) **non ha il riquadro del prof, nemmeno vuoto**.
+3. **Nessuna schermata identica oltre 3 minuti** (M, dalla composizione delle scene): il fotogramma identico più lungo è la copertina con il prof (150 s); la stessa slide con evidenziazione che cambia al massimo 150,6 s (D1, «Un'arte nuova»); nessuna card sola oltre 45 s fuori dalla copertina.
+4. **Una sola mappa, quella del prof** (`MAPPE/LEZIONE 11.pdf`, 1 sola mappa sul Futurismo), **ridisegnata nel modello BES approvato** (stesse parole, stessa struttura a 5 rami): 5 colori con legenda in alto a destra, testo 34–50 px, **costruita ramo per ramo** mentre la voce Kore la legge (box in giallo finché parla), poi la mappa intera resta ferma 4 s. Posta alla fine dell'argomento 2, prima della pillola, **una volta sola**. L'originale non ha marchio di mappe-scuola né foto dell'autore: nessun marchio da togliere. Assegnazione dei colori (mia, S): pesca = concetto centrale; celeste = Marinetti e il manifesto (origine); paglierino = parole chiave (Paroliberismo, Esaltava, «Scrivono eliminando…»); menta = esempi (punteggiatura/infinito, modernità, coraggio, guerra, esponenti); lilla = conseguenze (volevano distruggere il passato; polemici sulla donna). Le due mappe inventate da noi sono già tolte dal 17/11.
+5. **Schede blu scuro** (titolo argomento, pillola di ripasso, quiz, verifica, riepilogo, compiti) come Spagnolo; le righe della pillola e del riepilogo si accendono con la voce.
+6. **Verifica di sbarramento e compiti dentro il video**: scheda «Verifica finale» (10 domande, soglia 80%), sigla finale del kit con avviso diritti, intro «Compiti» con jingle e i 4 compiti del prof (testo identico al suo PDF) letti dalla voce Kore (CP1–CP4), una card per volta.
+7. **Pausa del prof > 2,5 s accorciata**: una sola, orig. 1571,9–1574,7 (2,75 s) → 1 s, tra due frasi, con la slide che non cambia (taglio sia nel video che nell'audio del prof).
+8. **Card riallineate al parlato** (bordo giallo all'inizio della frase): ho confrontato ogni card con la trascrizione e spostato le 5 che erano fuori oltre 1 s e ben identificabili (D1 p.2 card 1, D1 p.4 card 2, D2 p.11 card 3, D4 p.22 card 2, D4 p.24 card 1).
+9. **Nome del docente mai detto né scritto nelle animazioni**: tolto dal piè di pagina di tutte le slide senza il prof e dalla voce di benvenuto (nuova voce **INTRO2**: «Il professore ci guida…»). Resta solo nella fascia gialla e nel piè di pagina delle slide col prof.
+10. **Dispensa A4 e PDF mappe rifatti** (§5).
+11. File rigenerati sul video finale: `.vtt`, `timeline.json`, `scheda_pubblicazione.json` (titolo «Letteratura V · Lezione 11 · Il Futurismo e le avanguardie»), `quiz_argomenti.json` (con `inizio_s`), `verifica_finale.json` (10 domande dall'Excel del prof, con `inizio_s`).
+Mantenuti: trascrizione, tagli del prof, fettine HD del libro (9, già approvate), sigla, voci Kore, quiz, compiti, jingle del kit, transizioni (dissolvenza + `trans.wav` in uscita dai pezzi del prof), audio del prof pulito (highpass 80, rnnoise, loudnorm −16, alimiter).
+
+## 3. Secondi vecchio → nuovo (la pagina Vimeo va rigenerata)
+| Elemento | consegna 17/11 (s) | consegna 22/11 (s) |
 |---|---|---|
-| Durata | 54:23 (3263,0 s) | **51:40 (3100,36 s)** |
-| Fotogrammi | – | **93.120 = durata × 30** (controllato) |
-| Peso | 192,5 MB | **240,1 MB** (< 400) |
-| Formato | 1920×1080, 30 fps, x264 veryfast CRF 19, AAC 192k 48 kHz | uguale |
-| Volume totale | – | **−15,8 LUFS** integrati; **picco vero −1,5 dBTP** (misurato con `ebur128=peak=true`; prima 0,0). Parlato del prof normalizzato a −16 LUFS |
-| Silenzi > 3 s | 8 (schede titolo e quiz) | **0** (4 silenzi tra 2,5 e 3 s) |
-| Scatto quiz (4 quiz) | – | **scarti −0,009 / −0,009 / −0,009 / −0,010 s** (limite 0,05) |
-| Sha256 | ricomposto, uguale al file | `…parte_00/01/02` + `.sha256` (controllato) |
+| T1 | 46.3 (0:46) | 43.4 (0:43) |
+| D1 | 49.2 (0:49) | 46.3 (0:46) |
+| Q1 | 1029.4 (17:09) | 1026.5 (17:06) |
+| T2 | 1034.3 (17:14) | 1030.7 (17:10) |
+| D2 | 1037.2 (17:17) | 1033.6 (17:13) |
+| Q2 | 1828.8 (30:28) | 1829.2 (30:29) |
+| T3 | 1833.7 (30:33) | 1833.4 (30:33) |
+| D3 | 1836.6 (30:36) | 1836.3 (30:36) |
+| Q3 | 2511.9 (41:51) | 2509.9 (41:49) |
+| T4 | 2516.8 (41:56) | 2514.1 (41:54) |
+| D4 | 2519.7 (41:59) | 2517.0 (41:56) |
+| Q4 | 3017.7 (50:17) | 3015.0 (50:14) |
+| GL1 | 3022.6 (50:22) | 3019.2 (50:19) |
+| RF1 | 3064.4 (51:04) | 3060.9 (51:00) |
+| VF | — | 3095.6 (51:35) |
+| SIGF | 3099.0 (51:38) | 3099.1 (51:39) |
+| CMPI | — | 3104.1 (51:44) |
+| CMP | — | 3107.6 (51:47) |
+| Durata totale | 3104,0 | 3177.3 |
 
-## 2. Confronto con il modello Spagnolo (punto 000), punto per punto
-| # | Punto | Esito |
+## 4. Mai il prof tagliato a metà frase (M, su trascrizione dell'originale pulito)
+| Pezzo | Inizio (orig. s) | Prime parole | Fine (orig. s) | Ultime parole | Frase intera |
+|---|---|---|---|---|---|
+| D1 | 0,0 | «Buongiorno e benvenuti alla lezione sul Futurismo» | 721,9 | «…chiedono il Futurismo italiano, d'accordo?» | sì |
+| D2 | 721,9 | «il Futurismo di Marinetti. Noi dobbiamo affrontare…» | 1201,9 | «…agli occhi della società borghese, quella che produce.» | sì |
+| D3 | 1203,0 | «però sempre più… In Marinetti, questo è Palazzeschi…» | 1648,15 | «…ecco questo a seconda del programma, va bene.» | sì |
+| D4 | 1648,15 | «chiudiamo con altre esperienze sempre d'avanguardia…» | 1984,0 | «…segnerà l'inizio della letteratura.» | sì (fine originale) |
+I tagli cadono nelle pause (0,15 s o più prima della frase che segue); le dissolvenze tra pezzi cadono nel silenzio.
+
+## 5. Dispensa e PDF mappe
+- `Letteratura_Lez11_slide.pdf`: A4 orizzontale, **99 pagine** = le slide del video (una per slide, stato finale, senza riquadro, fascia e nome del docente), **testo vero e selezionabile** (PDF vettoriale: `pdftotext` lo legge; nessuno strato invisibile necessario), testo a 40 px come il video. Copertina con **solo materia e titolo**; piè di pagina «LETTERATURA ITALIANA V» + pagina, **senza nome del docente**. Confronto di tutte le 99 pagine con il fotogramma corrispondente: **scarto medio massimo 2,0/255** (M).
+- `Letteratura_Lez11_mappe.pdf`: copertina identica con la scritta **MAPPE**, poi la mappa del prof nel modello BES (colori e legenda).
+
+## 6. Voci (M/NV)
+Nuove voci Kore generate dalla master: MPD1 (mappa), INTRO2 (benvenuto senza nome), CP1–CP4 (compiti). Tutte trascritte con `trascrivi.py` e confrontate con il testo: parole e numeri coincidono (gli anni sono scritti in lettere nel testo: «millenovecentonove»); **bordi**: ampiezza negli ultimi 50 ms tra 0,0006 e 0,0021 (< 0,03); dissolvenza 20–40 ms. Nomi propri letti correttamente nelle trascrizioni (Marinetti, Palazzeschi, Govoni, Joyce, Molly). **NV**: non ho ascoltato a orecchio le voci (ho solo la trascrizione automatica).
+
+## 7. Verifica indipendente (§11)
+Un agente separato (che non ha montato la lezione) ha controllato il video e la dispensa sull'elenco del §11 (campionando fotogrammi, trascrizione, OCR su 139 fotogrammi, PDF). Esito e che cosa ho fatto:
+| Punto | Esito dell'agente | Azione |
 |---|---|---|
-| 1 | Sigla 15 s → dissolvenza → copertina | **corretto**: sigla Letteratura del kit, dissolvenza di 0,7 s verso la copertina |
-| 2 | Copertina | **corretto**: riga DM Mono blu «LETTERATURA ITALIANA V · VIDEOLEZIONE», titolo Bricolage 800 con barretta, card «ARGOMENTI» (4 argomenti) |
-| 3 | Slide fondo bianco, «01 · ARGOMENTO», titolo+barretta, card | **corretto**: tutte le slide rifatte su fondo bianco (prima: approfondimenti, schede, ripassi, quiz, glossario su fondo blu scuro) |
-| 4 | Piè di pagina | **corretto**: «LETTERATURA ITALIANA V · Prof. Giorgio Mazzotti» + «Pagina N» in **Figtree Bold** spaziato (64 pagine, mai il numero della lezione) |
-| 5 | Riquadro prof 4:3 ~410×308, ombra morbida, niente bordo | **corretto**: 412×310 px a x=1428, y=148, angoli arrotondati, ombra grigia. Ritaglio 4:3 dall'**originale del prof** (release) con correzione immagine del kit (contrasto 1,04, saturazione 1,03, hqdn3d 1.5:1.5:3:3, cas 0,35). Il tondo non c'è più |
-| 6 | Fascia gialla col nome | **corretto**: due righe, −3°, «Giorgio Mazzotti» / «PROF. DI LETTERATURA ITALIANA», sempre visibile dove c'è il prof |
-| 7 | Slide senza prof | **corretto**: testo grande (29–36 px), parole chiave evidenziate in giallo, stesso logo e piè di pagina |
-| 8 | Font | **corretto dopo il controllo master (15:10)**: Bricolage Grotesque 800 (titoli) e Figtree; la riga «01 · ARGOMENTO», la riga della copertina, il piè di pagina e le etichette sono in **Figtree Bold maiuscolo spaziato**, come `slide_1080p_esempio.png`. DM Mono non è più usato (video, PDF slide, PDF mappe) |
-| 9 | Finale | **corretto**: `Sigla_finale_5s_con_avviso_diritti.mp4` del kit. Tolte la slide «Fine», la scheda «Verifica finale» e le due schede «Compiti» che stavano dentro il video |
-| 10 | Struttura | **OK**: sigla → presentazione → per argomento: titolo, prof, approfondimenti, ripasso (voce + schema), quiz → glossario → riepilogo → finale. Verifica finale (10 domande) e compiti restano fuori dal video |
-| 11 | PDF A4 | **fatti**: `…_slide.pdf` (64 pagine) e `…_mappe.pdf` (1 pagina) |
+| Introduzione/copertina ≤ 3 min, nessun riquadro nell'intro animata | OK (copertina col prof 150,7 s; nessun riquadro nemmeno vuoto) | – |
+| Max 3 card per slide | NO: «Gli argomenti di oggi» e il riepilogo avevano 4 card | **Corretto**: «Di cosa parliamo» ora in 2 slide da 2 card; riepilogo in 2 slide |
+| Card intere, 40 px | OK (passo riga 60 px) | – |
+| Nessuna schermata identica > 3 min | OK (max 150 s) | – |
+| Nessuna card sola > 60 s | NO sulle fettine del Manifesto (91 s e 67 s): sono fettine del libro, una alla volta a tempo con la voce (approvate dalla master) | Lasciate; segnalo |
+| Bordo giallo a inizio frase (20 punti) | 14/20 entro ±1 s; fuori: D1 4:53, D1 10:49, D2 22:55, D4 43:35, D4 43:52, D2 18:16 | **Corretti i 5 con scarto misurato** (card anticipate di 14,0 / 1,0 / 1,6 / 2,2 / 2,2 s); D2 18:16 («La prima avanguardia italiana…») non ha una frase corrispondente nella trascrizione: lasciata, da riascoltare |
+| Prof mai tagliato a metà frase | OK; dubbi: giunzioni D1/D2 («…d'accordo? Uh see, so») e D3 (inizia con «però sempre più») | Il «so» è un'esitazione trascritta dal riconoscimento: da riascoltare (NV) |
+| Nome del docente nelle animazioni | OK (OCR: 0 occorrenze; voce INTRO2 senza nome) | – |
+| Mappa del prof | parole identiche all'originale; struttura ad albero invece che radiale | Lasciata (stessi rami e stesse parole; colori BES); segnalo |
+| Quiz e verifica | domande giuste; `verifica_finale.json` = Excel del prof; nel video solo le schede (le domande sono nel player) | – |
+| Dispensa/PDF | OK (testo selezionabile, niente nome del docente, pagine = fotogrammi). Copertina dispensa senza card «ARGOMENTI» (come da §9: solo materia e titolo) | **Aggiunta la scritta MAPPE grande** nella copertina dei PDF mappe |
+| Transizioni | dissolvenze bianco↔blu di 0,17 s e VF→sigla finale a taglio secco | **Corretto**: dissolvenze di 10 fotogrammi (0,33 s) in tutto il video, dissolvenza a nero da VF al finale e dal finale a «Compiti» |
+| Ordine apertura | scheda «Argomento 1» prima dell'introduzione del prof | Lasciata (la scheda titolo precede sempre l'argomento; il pezzo del prof non si spezza) |
 
-## 3. Problemi trovati e corretti
-| Minuto (vecchio video) | Tipo | Com'era | Come l'ho corretto |
-|---|---|---|---|
-| tutto | visivo | prof nel tondo, nessuna fascia gialla, fondo blu scuro in metà del video, stile diverso da Spagnolo | tutto rifatto in grafica Spagnolo (vedi §2) |
-| 0:51 | testo | sottotitolo «**Buogiorno** benvenuti» | .vtt rifatto da zero sull'originale pulito (499 cue); ora «Buongiorno» |
-| 12:51–… e 33:xx–38:xx (vecchio) | pagina libro | Manifesto (pp. 377–379) e Monologo di Molly (pp. 399–400) in **bassa risoluzione**, ritagliati dal video, righe < 26 px; la fettina restava ferma per 100 s mentre il prof leggeva i punti 6–11 | rifatte dagli screen HD della release (rigo ≈ 36 px a 1080p), 9 fettine a tempo con la lettura (tabella §5) |
-| 38:26 (AN3) | voce/visivo | la voce dice «Ecco le immagini più forti del manifesto» ma sullo schermo non c'è alcuna immagine | **tagliata** quella frase (solo voce narrante, 4,5 s) |
-| Mappe | contenuto | 5 mappe «inventate» dalla produzione (MP1–MP4 e MPF) | tolte. Resta **solo la mappa del prof** (`MAPPE/LEZIONE 11.pdf`, esiste una sola mappa: sul Futurismo), impaginata nella nostra grafica dopo l'argomento 2, con **voce nuova MPD1** (aggiunta a `testi_voci.json`, generata dalla master) |
-| Schede animate | visivo | schede a card su fondo scuro (linea del tempo, schede) | sostituite da slide bianche con testo evidenziato **frase per frase in sincronia con la voce** (tempi dalle parole della voce) |
-| 46–47 (T1…T4) e quiz | audio | 8 silenzi di 3,2–3,8 s (schede titolo di 5 s, coda delle schede quiz) | schede titolo 2,9 s, schede quiz 4,9 s: nessun silenzio > 3 s; scatto quiz invariato |
-| fine | struttura | slide «Fine», finale senza avviso dei diritti, poi schede VF/Compiti | finale del kit, schede esterne tolte |
-| Audio prof | audio | non verificabile a orecchio | **rifatto dall'originale** con la catena del kit: aresample 48000, highpass 80, arnndn, loudnorm −16, alimiter (vedi limiti) |
-| Q1 domanda 5 | quiz | «scrittura automatica dei surrealisti»: non è nel materiale del prof | sostituita: «Chi guida il Surrealismo, nato in Francia nel 1924?» → André Breton |
-| compiti.json | dati | formato `compiti/risposta_aperta` | formato `esercizi/aperta`; testo identico al PDF del prof (4 domande, controllato) |
-| scheda_pubblicazione.json | dati | titolo «Il Futurismo e le avanguardie» | «Letteratura V · Lezione 11 · Il Futurismo e le avanguardie» |
-| Test | dati | – | 10 domande identiche all'Excel del prof (controllato) |
 
-## 4. Verifica (che cosa ho fatto davvero)
-- **A · Ascolto (M):** trascrizione completa con `trascrivi.py` del video montato (646 segmenti) e dell'originale pulito. Cercati «ecco / guarda / in questa… / come vedete»: l'unico caso senza immagine è AN3 (tagliato); «Ecco la mappa…» cade con la mappa sullo schermo. Allineamento dell'audio del prof con il vecchio montaggio: scarto ≤ 0,03 s (correlazione 0,94–0,97). Frasi tagliate o ripetute: non trovate. **Non ho ascoltato a orecchio** (fruscio/ronzio/«metallico»): non verificabile qui.
-- **B · Visione (M/S):** 1632 fotogrammi (uno ogni 2 s) del video vecchio e 104 del nuovo (`controllo_minuti.jpg`, uno ogni 30 s). Cambi di evidenziazione misurati a 10 fps su tutti i 4 argomenti; per ogni stato ho letto la trascrizione del tratto e confrontato con la card evidenziata: nessuna card contraddice il parlato. Tenute lunghe ma coerenti: copertina 0:51–4:25 (il prof presenta il corso e gli argomenti, che sono sullo schermo), card 3 «Espressionismo tedesco» 7:09–8:35, card 3 «Futurismo e fascismo» 20:23–… (il prof parla di fascismo). (S: ±1,5 s controllato a campione, non su ogni cambio.)
-- **C · Testo (M/S):** slide lette a vista (nessun OCR automatico installabile) e confrontate con `Letteratura_Lez11_Dispensa.pdf` e `Lez11_docente.pdf`. PDF slide: **64 pagine**, ognuna confrontata con il fotogramma del video (scarto medio massimo 0,85 su 255, zona senza prof): **le pagine coincidono**. PDF mappe: 1 pagina.
-- **D · Dati (M):** vedi §3.
+## 8. Refusi e anomalie nel materiale del prof
+Nessun refuso da correggere oltre alla doppia punteggiatura «divertire!.» (→ «divertire!»). Nessun numero che non torni. Nella voce del prof (non toccata) compaiono errori di dizione tipici del parlato: restano come li dice lui.
 
-## 5. Brani del libro (B-bis)
-| Brano | Pagina | File HD | Minuto (video nuovo) |
-|---|---|---|---|
-| T1 Marinetti, Manifesto del Futurismo (titolo e introduzione) | 377 | Lez11_p377.png | 31:30–31:36 |
-| punti 1–3 | 377 | Lez11_p377.png | 31:36–32:06 |
-| punti 4–5 | 377 | Lez11_p377.png | 32:06–33:37 |
-| punti 6–8 | 378 | Lez11_p378.png | 33:37–34:23 |
-| punti 9–10 | 378 | Lez11_p378.png | 34:23–34:54 |
-| punto 11 | 378 | Lez11_p378.png | 34:54–36:01 |
-| «È dall'Italia che noi lanciamo…» | 378 | Lez11_p378.png | 36:01–36:22 |
-| T9 Joyce, Il monologo di Molly (inizio, da «Sì perché prima…») | 399 | Lez11_p399.png | 45:12–45:41 |
-| continuazione («e per l'anima sua spilorcia…») | 400 | Lez11_p400.png | 45:41–45:55 |
-La pagina 379 e le pagine 401–402 non sono lette dal prof: non inserite.
+## 9. Cosa NON ho verificato
+Ascolto a orecchio (fruscio, ronzio, metallico, labbra); i sottotitoli frase per frase (trascrizione automatica con correzione di nomi e termini; circa 15 frammenti senza senso tolti); l'accensione giallo/frase su ogni singolo cambio (verificati 20 punti con la trascrizione, ±1 s); riquadro del prof: la sorgente è la webcam in miniatura dello schermo registrato (247×138 px), quindi il 4:3 è morbido e la testa è al limite alto dell'inquadratura già nell'originale.
 
-## 6. Limiti e cose da sapere (da dire a Sara)
-1. **Riquadro del prof:** l'originale è una registrazione dello schermo 1092×614 in cui il prof sta in un riquadro di **247×138 px**. Il ritaglio 4:3 è 184×138 px ingrandito ×2,2: **più morbido del modello Spagnolo**; non si può fare meglio senza un video originale con la sola webcam. In più **la testa è al limite alto già nell'originale** (la fronte/i capelli toccano il bordo) per tutta la lezione.
-2. **Modello audio `arnndn` del kit:** nel repository non c'è. Ho usato il modello rnnoise «somnolent-hogwash» (GregorR/rnnoise-models, da GitHub). Va riascoltato dalla master.
-3. **Sottotitoli:** fatti sul solo parlato del prof (come `sub_finale.py`), da trascrizione automatica sull'originale pulito + correzione di nomi e termini. Il prof parla in modo molto colloquiale: **alcune frasi restano approssimative** e circa 15 frammenti senza senso sono stati tolti (es. 1–2 parole in inglese inventate dal riconoscimento). Non ho potuto riascoltarli: **da controllare a campione dalla master**. Nomi propri controllati con ricerca sistematica (Baudelaire, Apollinaire, Majakovskij, Tzara, Breton, Joyce, Svevo, Palazzeschi, Die Brücke, Der Blaue Reiter…).
-4. **Mappe:** il prof ne ha mandata **una sola** (Futurismo). Per gli argomenti 1, 3, 4 e per la mappa finale **non ci sono mappe del prof**: non le ho inventate. Se Sara le carica, si aggiungono.
-5. **Picco:** il picco campione arriva a 0 dBFS dopo la codifica AAC (parlato a −16 LUFS): da guardare se la master vuole più margine.
-6. Strumenti: `finale_a_pezzi.py` e `controllo_finale.py` usano percorsi della macchina della master (`/home/claude/…`) e non girano qui: ho fatto una sola codifica x264 per gruppo (veryfast CRF 19) e un solo AAC 192k, poi unione senza ricomprimere; i controlli equivalenti (fotogrammi, silenzi, LUFS, scatto quiz con riferimento ricavato dal vecchio video, PDF/fotogrammi) sono nelle tabelle sopra.
-
-## 6-bis. Correzioni dopo il controllo della master
-1. Font delle etichette: DM Mono → Figtree Bold in tutte le slide del video, nel PDF slide (64 pp.) e nel PDF mappe. Video rimontato: stessi tempi, stessi fotogrammi.
-2. Picco audio: limitatore sull'audio finale, picco vero **−1,3 dBTP** (era 0,0). Durata 3100,363 s e **93.010 fotogrammi** identici; scatto dei quiz entro +0,02 s; nessun silenzio > 3 s.
-3. Fettina di Molly (p. 400): mancava la prima riga («e per l'anima sua spilorcia…»); ora c'è.
-4. Aggiunto `controllo_fettine.jpg` (un fotogramma per ognuna delle 9 fettine).
-
-## 6-ter. Aggiornamenti 17/11 (01:20, 01:25, 01:30, 08:15)
-**Tempi nuovi (la durata è cambiata: 3263,0 → 3104,0 s).** Secondi già aggiornati in `scheda_pubblicazione.json` e `timeline.json`:
-| Elemento | secondo vecchio | secondo nuovo |
-|---|---|---|
-| T1 | 46.3 (0:46) | 46.3 (0:46) |
-| D1 | 51.3 (0:51) | 49.2 (0:49) |
-| Q1 | 1063.4 (17:43) | 1029.4 (17:09) |
-| T2 | 1068.7 (17:48) | 1034.3 (17:14) |
-| D2 | 1073.7 (17:53) | 1037.2 (17:17) |
-| Q2 | 1849.0 (30:49) | 1828.8 (30:28) |
-| T3 | 1854.3 (30:54) | 1833.7 (30:33) |
-| D3 | 1859.3 (30:59) | 1836.6 (30:36) |
-| Q3 | 2577.1 (42:57) | 2511.9 (41:51) |
-| T4 | 2582.4 (43:02) | 2516.8 (41:56) |
-| D4 | 2587.4 (43:07) | 2519.7 (41:59) |
-| Q4 | 3119.2 (51:59) | 3017.7 (50:17) |
-| GL1 | 3162.1 (52:42) | 3022.6 (50:22) |
-| RF1 | 3203.9 (53:23) | 3064.4 (51:04) |
-| Durata totale | 3263,0 | 3104.0 |
-
-**Prof mai tagliato a metà frase (01:25).** Misurato sulla trascrizione dell'originale pulito (tempi dell'originale):
-| Pezzo | Fine (orig.) | Ultime parole dette | Frase finita |
-|---|---|---|---|
-| D1 | 721,9 | «…chiedono il Futurismo italiano, d'accordo?» | sì |
-| D2 | 1201,9 | «…agli occhi della società borghese, quella che produce.» | **sì** (prima finiva a «…borghese, quella»: allungato di 1,6 s) |
-| D3 | 1648,15 | «…ecco questo a seconda del programma, va bene.» | **sì** (prima finiva a «…la pagina scritta»: allungato di 2,3 s) |
-| D4 | 1984,0 | «…segnerà l'inizio della letteratura.» | sì (fine dell'originale) |
-
-| Pezzo | Inizio (orig.) | Prime parole dette | Parola mozzata |
-|---|---|---|---|
-| D1 | 0,0 | «Buongiorno e benvenuti alla lezione sul Futurismo» | no |
-| D2 | 721,9 | «il Futurismo di Marinetti. Noi dobbiamo affrontare…» | no |
-| D3 | 1203,0 | «però sempre più… In Marinetti, questo è Palazzeschi…» | no |
-| D4 | 1648,15 | «chiudiamo con altre esperienze sempre d'avanguardia…» | no |
-
-**Jingle come Spagnolo (01:20):** quiz (scatto a 0,0 s, tabella §1), **titolo** a ogni scheda argomento, **ripasso** all'inizio di ogni pillola di ripasso (voce spostata di 1,2 s), **transizione** (`trans.wav`) in uscita da ogni pezzo del prof, tutti dal kit (`Telesio_kit_produzione_v1.zip`). Finale: jingle già nel finale del kit. In più dissolvenze di 5 fotogrammi tra le slide e dissolvenza sigla→copertina: nessun taglio secco.
-**Card «in corso» e ombre (01:30):** ogni card ha bordo grigio chiaro; quella in corso ha bordo **giallo** sottile e numero su **pallino giallo**; ombre grigie morbide (riquadro prof, fascia, card), anche nel PDF slide.
-**Mai immagine ferma del prof (08:15):** il riquadro del prof c'è solo nei pezzi del prof (video vivo; la copertina senza prof non ha riquadro). `freezedetect` (n −60 dB, d ≥ 1 s) sul riquadro nei pezzi del prof: **0 fermi**.
-**Sincronia audio/video (08:15):** audio ricostruito dall'originale allo stesso istante del video; scarto audio finale ↔ originale misurato con correlazione su 3 punti per pezzo (inizio, metà, fine): **−0,01 s** in tutti i 12 punti (limite 0,04; correlazione 0,85–0,94). Il labiale non l'ho potuto guardare: scarto dedotto dall'audio.
-
-## Cosa NON ho verificato
-Ascolto a orecchio (rumore, metallico, sincronia labiale); correttezza di ogni frase dei sottotitoli; i tempi delle evidenziazioni su ogni cambio (±1,5 s solo a campione).
-
-## 7. File consegnati (cartella `revisione-letteratura-V-lez11/`)
-`Letteratura_Lez11_Parte1_1080p.mp4.parte_00/01/02` + `.sha256`, `Letteratura_Lez11_Parte1.vtt`, `Letteratura_Lez11_slide.pdf` (A4 orizz., 64 pp.), `Letteratura_Lez11_mappe.pdf` (A4 orizz.), `quiz_argomenti.json`, `Quiz_Letteratura_Lez11.txt`, `Test_Letteratura_Lez11.xlsx`, `compiti.json`, `scheda_pubblicazione.json`, `testo_youtube.txt`, `timeline.json`, `controllo_minuti.jpg`, `controllo_fettine.jpg`, questo rapporto. Voce nuova: `scambio/letteratura-V-lez11/` sul ramo `voci-letteratura-V-lez11` (MPD1).
+## 10. File consegnati
+Video a pezzi da 90 MB + `.sha256`, `.vtt`, `timeline.json`, `scheda_pubblicazione.json`, `quiz_argomenti.json`, `verifica_finale.json`, `Quiz_Letteratura_Lez11.txt`, `Test_Letteratura_Lez11.xlsx`, `compiti.json`, `testo_youtube.txt`, `Letteratura_Lez11_slide.pdf`, `Letteratura_Lez11_mappe.pdf`, `controllo_minuti.jpg`, `controllo_fettine.jpg`, questo rapporto. Voci nuove sul ramo `voci-letteratura-V-lez11`.

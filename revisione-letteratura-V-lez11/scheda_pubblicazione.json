@@ -1,31 +1,31 @@
 {
  "materia": "Letteratura italiana (V)",
  "titolo": "Letteratura V · Lezione 11 · Il Futurismo e le avanguardie",
- "durata_s": 3104.0,
+ "durata_s": 3177.27,
  "argomenti": [
   {
    "n": 1,
    "titolo": "Le avanguardie storiche",
-   "inizio_s": 46.267,
-   "quiz_s": 1029.4
+   "inizio_s": 43.4,
+   "quiz_s": 1026.533
   },
   {
    "n": 2,
    "titolo": "Il Futurismo italiano",
-   "inizio_s": 1034.3,
-   "quiz_s": 1828.787
+   "inizio_s": 1030.733,
+   "quiz_s": 1829.22
   },
   {
    "n": 3,
    "titolo": "Il Manifesto del Futurismo",
-   "inizio_s": 1833.687,
-   "quiz_s": 2511.913
+   "inizio_s": 1833.42,
+   "quiz_s": 2509.896
   },
   {
    "n": 4,
    "titolo": "James Joyce e il flusso di coscienza",
-   "inizio_s": 2516.813,
-   "quiz_s": 3017.697
+   "inizio_s": 2514.096,
+   "quiz_s": 3014.98
   }
  ],
  "quiz": {
@@ -82,7 +82,8 @@
      ],
      "e": "Il Surrealismo nasce nel 1924 in Francia, guidato da André Breton, da un'evoluzione del Dada."
     }
-   ]
+   ],
+   "inizio_s": 1026.533
   },
   "Q2": {
    "title": "Quiz 2 · Il Futurismo italiano",
@@ -137,7 +138,8 @@
      ],
      "e": "Palazzeschi partecipa con ironia, come in «E lasciatemi divertire!», dove rifiuta il ruolo sacro del poeta vate."
     }
-   ]
+   ],
+   "inizio_s": 1829.22
   },
   "Q3": {
    "title": "Quiz 3 · Il Manifesto del Futurismo",
@@ -192,7 +194,8 @@
      ],
      "e": "Il manifesto vuole distruggere musei, biblioteche e accademie, e canta invece le macchine e le città moderne."
     }
-   ]
+   ],
+   "inizio_s": 2509.896
   },
   "Q4": {
    "title": "Quiz 4 · James Joyce e il flusso di coscienza",
@@ -247,7 +250,8 @@
      ],
      "e": "Nel monologo di Molly i pensieri scorrono senza punti né virgole, come nel pensiero vero."
     }
-   ]
+   ],
+   "inizio_s": 3014.98
   }
  }
 }
