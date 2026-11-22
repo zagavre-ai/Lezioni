@@ -11,6 +11,10 @@
   {
    "quando": "22/11 22:48",
    "testo": "Storia arte lez03: Wikimedia/it.wikipedia sono bloccati dalla rete (403 proxy). Uso le immagini del PDF del prof (max ~1200 px) migliorate con ingrandimento di qualità. Se servono opere in alta risoluzione da Commons (Courbet, Millet, Daumier, Fattori, Lega, Signorini, Crystal Palace, Opéra Garnier), mi dite se le può scaricare la master. Mappe del prof: un solo PDF con 'Realismo in Francia' e 'Realismo in Italia'; per Barbizon/architettura il prof non ha mappe: quegli argomenti chiudono con la pillola."
+  },
+  {
+   "quando": "22/11 22:59",
+   "testo": "Voci pronte da generare: sul ramo voci-storia-arte-V-lez03 ho aggiunto 11 testi (ARG, AP1-5, SPIE, MAPFR, MAPIT, VER, COMP). Sara: nella mappa del prof il pittore è scritto «Miller» (è Millet) e Le spigolatrici è datato 1867, mentre le slide e la voce del prof dicono 1857: lo riporto come lo scrive il prof e lo metto nel rapporto, la master lo porta a Sara."
   }
  ],
  "domande_sara": [],
@@ -22,10 +26,14 @@
   {
    "quando": "22/11 22:48",
    "testo": "materiali scaricati (video, slide 21 pag, mappe 1 pag con 2 mappe, domande). In corso: trascrizione, slide, voci"
+  },
+  {
+   "quando": "22/11 22:59",
+   "testo": "testi_voci.json con 11 voci nuove inviato sul ramo voci"
   }
  ],
  "materia": "Storia dell'arte V",
  "lezione": "Lezione 3 · Il Realismo",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-22 22:48:08"
+ "aggiornato": "2026-11-22 22:59:47"
 }
