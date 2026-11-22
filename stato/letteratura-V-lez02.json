@@ -101,7 +101,11 @@
   {
    "quando": "22/11 18:14",
    "testo": "18:14 UTC: video v3 montato (55:39, 268 MB); controllo severo in corso (rallentato dall'OCR); poi pacchetto, rapporto e consegna. Consegna prevista 19:15 UTC"
+  },
+  {
+   "quando": "22/11 18:20",
+   "testo": "18:20 UTC: controllo severo: RESPINTA per «card sola» (contrasto numeri card, corretto) e «…» nelle fettine del libro (puntini veri della poesia, falso positivo). Ricodifica D1-D5 e schede, poi nuovo controllo. Consegna prevista 19:15 UTC"
   }
  ],
- "aggiornato": "2026-11-22 18:14:30"
+ "aggiornato": "2026-11-22 18:20:21"
 }
