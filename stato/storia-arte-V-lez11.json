@@ -2,9 +2,8 @@
  "tag": "storia-arte-V-lez11",
  "parti": {
   "1": {
-   "titolo": "Storia dell'arte",
-   "stato": "IN_MONTAGGIO",
-   "voci": "segnaposto"
+   "titolo": "Architettura moderna",
+   "stato": "IN_MONTAGGIO"
   }
  },
  "manca": "",
@@ -12,12 +11,12 @@
  "domande_sara": [],
  "note": [
   {
-   "quando": "15/11 13:18",
-   "testo": "Storia dell'arte V · chat A3: preparazione 15/11. Testi voci inviati su voci-storia-arte-V-lez11. Monto con segnaposto: pronta, attende voci Kore."
+   "quando": "22/11 22:44",
+   "testo": "storia arte 22/11: presa da claude/nifty-franklin-4an2es"
   }
  ],
- "materia": "Storia dell'Arte V",
- "lezione": "Lezione 11",
+ "materia": "Storia dell'arte V",
+ "lezione": "Lezione 11 · Architettura moderna",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-15 13:18:28"
+ "aggiornato": "2026-11-22 22:44:55"
 }
