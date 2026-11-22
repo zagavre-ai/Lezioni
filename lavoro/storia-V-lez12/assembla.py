@@ -68,13 +68,12 @@ def assembla(seq, uscita, tmp):
     json.dump(dict(pezzi=tempi, guadagno_prof_db=round(gp, 2), lufs_mix=L, guadagno_finale_db=round(g, 2)), open(f'{tmp}/timeline.json', 'w'), indent=1)
     return tempi
 
-SEQ = ['sigla', 'cover_ben', 'prof0', 'argomenti']
-for k in range(1, 7):
-    SEQ += [f'tit{k}', f'prof{k}', f'app{k}'] + ([f'mappa{k}'] if k in (2, 4, 6) else []) + [f'pil{k}', f'quiz{k}']
-SEQ += ['glossario', 'ripasso', 'mappe_fin', 'verifica', 'sigla_fin', 'compiti_intro', 'compiti']
+def blocco(k): return [f'tit{k}', f'prof{k}', f'app{k}'] + ([f'mappa{k}'] if k in (2, 4, 6) else []) + [f'pil{k}', f'quiz{k}']
+PARTE1 = ['sigla', 'cover_ben', 'prof0', 'argomenti'] + sum([blocco(k) for k in (1, 2, 3, 4)], []) + ['sigla_fin']
+PARTE2 = ['sigla', 'spiegone'] + sum([blocco(k) for k in (5, 6)], []) + ['glossario', 'ripasso', 'mappe_fin', 'verifica', 'sigla_fin', 'compiti_intro', 'compiti']
 
 if __name__ == '__main__':
-    seq = SEQ if len(sys.argv) < 2 else sys.argv[1].split(',')
-    out = f'{W}/Storia_Lez12_prova.mp4' if len(sys.argv) < 3 else sys.argv[2]
-    t = assembla(seq, out, f'{W}/asm')
-    print('durata totale', sum(x[2] for x in t) / 60, 'min')
+    for n, seq in ((1, PARTE1), (2, PARTE2)):
+        if len(sys.argv) > 1 and str(n) not in sys.argv[1:]: continue
+        t = assembla(seq, f'{W}/Storia_Lez12_Parte{n}_1080p.mp4', f'{W}/asm{n}')
+        print('Parte', n, 'durata', round(sum(x[2] for x in t) / 60, 2), 'min', flush=True)

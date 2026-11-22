@@ -349,3 +349,36 @@ def pezzo_da_file(nome, mp4):
     sh(['ffmpeg', '-v', 'error', '-y', '-i', mp4, '-t', f'{n/FPS:.4f}', '-af', 'apad', '-ar', '48000', '-ac', '2', '-c:a', 'pcm_s16le', f'{d}/a.wav'])
     sh(['ffmpeg', '-v', 'error', '-y', '-sseof', '-0.06', '-i', f'{d}/v.mp4', '-frames:v', '1', f'{d}/ultimo.png'])
     return dict(nome=nome, mp4=f'{d}/v.mp4', wav=f'{d}/a.wav', durata=n / FPS, frames=n, ultimo=f'{d}/ultimo.png')
+
+# ---------- spiegone (apertura della Parte 2): ripasso della Parte 1 con immagini e mappe ----------
+def spiegone():
+    v = voce.get('S1_SPIEGONE'); T = v['tempi']; assert len(T) == 8, len(T); T0 = 0.8
+    els = []
+    def scheda(nome, lab_t, tit_t, punti, img=None):
+        lab, _, _ = el(f'{nome}_l', f'<div class="d-lab">{E(lab_t)}</div>')
+        tit, _, ht = el(f'{nome}_t', f'<div class="d-tit" style="font-size:66px;width:{1000 if img else 1650}px">{E(tit_t)}</div>')
+        L = [(lab, 100, 150), (tit, 100, 205)]; y = 205 + ht + 40
+        for i, p in enumerate(punti):
+            png, w, h = el(f'{nome}_p{i}', f'<div style="display:flex;gap:22px;width:{1000 if img else 1650}px"><div style="flex:none;width:18px;height:18px;margin-top:20px;border-radius:50%;background:{rend.GIALLO}"></div><div class="d-line" style="font-size:42px">{E(p)}</div></div>')
+            L.append((png, 100, y)); y += h + 20
+        if img:
+            hi = slide.immagine_alta(img); im = Image.open(hi); r = min(740 / im.width, 640 / im.height); w, h = int(im.width * r), int(im.height * r)
+            png, _, _ = el(f'{nome}_i', f'<div style="background:#fff;border-radius:22px;padding:14px;box-shadow:0 14px 40px rgba(0,0,0,.45)"><img src="file://{hi}" style="width:{w}px;height:{h}px;display:block;border-radius:10px"></div>')
+            L.append((png, 1100, 300))
+        return L
+    G = {
+     0: [(el('SP_t', '<div class="d-tit" style="font-size:90px;width:1500px">Ripasso della Parte precedente</div>')[0], 160, 420)],
+     1: scheda('SP1', 'Argomento 1', 'Francia e Gran Bretagna', ["Regno Unito: crisi, disoccupazione, taglio dei sussidi", "1931 · Statuto di Westminster: nasce il Commonwealth", "1936 · Fronte Popolare di Léon Blum: 40 ore e ferie retribuite"]),
+     2: scheda('SP2', 'Argomento 2', 'Dittature e autoritarismi', ["Polonia, Ungheria, Balcani, Portogallo", "America Latina: colpi di Stato militari", "Giappone: regime militarista"]),
+     3: [(f'{OUT}/mappa2/ultimo.png', 0, 0)],
+     4: scheda('SP4', 'Argomento 3', "L'espansionismo asiatico", ["1931 · Manciuria e Manchukuo", "1937 · invasione della Cina", "Lunga marcia: 10.000 km verso lo Shaanxi"], 'asia'),
+     5: scheda('SP5', 'Argomento 4', 'La guerra civile spagnola', ["Luglio 1936 · colpo di Stato di Franco", "Italia e Germania con i nazionalisti", "Brigate internazionali con la Repubblica"], 'spagna'),
+     6: [(f'{OUT}/mappa4/ultimo.png', 0, 0)],
+    }
+    for i, L in G.items():
+        t0 = T0 + T[i][0] - 0.2; t1 = (T0 + T[i + 1][0] - 0.1) if i + 1 < len(T) and (i + 1) in G else None
+        if i == 7: continue
+        for j, (png, x, y) in enumerate(L):
+            els.append(dict(png=png, x=x, y=y, t0=t0 + 0.12 * j, d=0.5, slide=0 if x == 0 and y == 0 else 24, t1=t1 if t1 and i != 6 else None))
+    dur = T0 + v['durata'] + 1.5
+    return compone('spiegone', dur, base_scura(), els, [(v['wav'], T0, 1.0, v['durata'])])
