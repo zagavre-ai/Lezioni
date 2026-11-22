@@ -644,7 +644,7 @@
    }
   }
  },
- "manca": "da confermare col prof: URSS nata 20 (slide) o 30 (parlato) dicembre 1922",
+ "manca": "voci nuove dalla master (18), assemblaggio, controllo severo, agente separato, dispensa+mappe PDF, rapporto",
  "serve_master": [
   {
    "quando": "18/11 19:53",
@@ -700,9 +700,13 @@
   {
    "quando": "22/11 18:46",
    "testo": "testi nuove voci (20) caricati su voci-storia-V-lez05: B0_R2 B2_R2 AN9_R2 AN19_R2 P9_R2 SC5_4_R2 SC8_3_R2 SC8_4_R2 SC9_1_R2 GL2_R2 RF2_R2 FIN1_R2 MP1-4 VER1 CO1. Parti 1-4 / 5-9, solo le 4 mappe del prof (come da vostra risposta)."
+  },
+  {
+   "quando": "22/11 19:10",
+   "testo": "22/11 21:10 IT: analisi fatta (trascrizione, tagli nelle pause, card/slide a 40 px); motore di montaggio pronto; rendering dei pezzi in corso con voci provvisorie (nuove). Resta: assemblaggio -16 LUFS, controlli, dispensa, mappe PDF, rapporto. Parti 1-4 / 5-9 (P1 ~46 min, P2 ~35 min). Nota: Wikimedia non raggiungibile da qui, uso solo le carte del prof."
   }
  ],
  "materia": "storia-V",
  "lezione": "5",
- "aggiornato": "2026-11-22 18:46:56"
+ "aggiornato": "2026-11-22 19:10:35"
 }
