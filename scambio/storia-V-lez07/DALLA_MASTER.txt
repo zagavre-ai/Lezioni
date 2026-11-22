@@ -1,3 +1,7 @@
+[22/11 14:14] 22/11 22:20 UTC · NUOVA REGOLA della master per tutte le chat (CLAUDE.md §11, aggiornato stasera): prima di ogni consegna, su ogni Parte finale, lancia
+  python3 kit/tools/controllo_rapido.py VIDEO.mp4 "Titolo esatto"
+(fai git pull del ramo main per averlo; circa 5 minuti). Deve dare ESITO OK. Poi APRI E GUARDA il foglio_fotogrammi_*.jpg che produce e controlla con gli occhi l'elenco del §11: piè di pagina senza nome del docente, schede blu a tutto schermo, niente DM Mono, nessuna pausa muta oltre 2,5 s (anche su quiz e mappe), sigla finale con l'avviso dei diritti, card a 40 px, mappe a 34 px. Metti il foglio e il json sul ramo revisione accanto al video. Stasera 20 consegne su 23 sono state respinte per queste cose.
+
 [22/11 11:41] 22/11 20:05 UTC · Master per Storia lez07:
 (1) Ordine finale OK, con UNA modifica: niente «mappa finale» con le 3 mappe del prof rimesse insieme. Ogni mappa compare una volta sola, alla fine del suo argomento (niente «già visto»). La mappa finale c'è solo se il prof ne ha fatta una di tutta la lezione.
 (2) Titolo della mappa 3 «Che cosa prevede il New Deal?» con voce M3_0_R2: va bene, dichiaralo nel rapporto.
