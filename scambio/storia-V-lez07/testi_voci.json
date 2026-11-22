@@ -313,5 +313,97 @@
   "nome": "SC5_5",
   "testo": "Le fireside chats: Roosevelt parla ai cittadini alla radio.",
   "lingua": "it"
+ },
+ {
+  "nome": "BENV1_R2",
+  "testo": "Benvenuta e benvenuto alla lezione di Storia. Oggi andiamo negli Stati Uniti, dal boom economico degli anni Venti al New Deal. Alla fine di ogni argomento ti aspetta un breve quiz."
+ },
+ {
+  "nome": "DIC1",
+  "testo": "Di cosa parliamo. Primo argomento: i ruggenti anni Venti. Secondo argomento: le donne e le flappers. Terzo argomento: isolazionismo, razzismo e proibizionismo. Quarto argomento: il crollo del millenovecentoventinove e la Grande Depressione. Quinto argomento: il New Deal di Roosevelt."
+ },
+ {
+  "nome": "M1_0",
+  "testo": "Qual è la situazione economica e sociale degli Stati Uniti dopo la guerra? I ruggenti anni Venti."
+ },
+ {
+  "nome": "M1_1",
+  "testo": "Vedono una crescita economica."
+ },
+ {
+  "nome": "M1_2",
+  "testo": "E l'aumento dei consumi."
+ },
+ {
+  "nome": "M1_3",
+  "testo": "Cambiamenti nel costume."
+ },
+ {
+  "nome": "M1_4",
+  "testo": "Con la diffusione della musica jazz e del cinema di Hollywood."
+ },
+ {
+  "nome": "M1_5",
+  "testo": "Fenomeni negativi."
+ },
+ {
+  "nome": "M1_6",
+  "testo": "Come la diffidenza verso gli immigrati e la paura dei comunisti."
+ },
+ {
+  "nome": "M2_0",
+  "testo": "Quali sono le cause e gli effetti della Grande depressione? La Borsa statunitense."
+ },
+ {
+  "nome": "M2_1",
+  "testo": "Vede formarsi una bolla speculativa."
+ },
+ {
+  "nome": "M2_2",
+  "testo": "Che porta al crollo del valore delle azioni."
+ },
+ {
+  "nome": "M2_3",
+  "testo": "Che provoca l'impoverimento degli investitori."
+ },
+ {
+  "nome": "M2_4",
+  "testo": "Il fallimento delle banche."
+ },
+ {
+  "nome": "M2_5",
+  "testo": "Il fallimento delle aziende e la disoccupazione."
+ },
+ {
+  "nome": "M3_0",
+  "testo": "Il New Deal."
+ },
+ {
+  "nome": "M3_1",
+  "testo": "Prevede l'intervento dello Stato nell'economia."
+ },
+ {
+  "nome": "M3_2",
+  "testo": "Con il sostegno dello Stato a consumatori e imprenditori."
+ },
+ {
+  "nome": "M3_3",
+  "testo": "La realizzazione di grandi opere che creano lavoro."
+ },
+ {
+  "nome": "M3_4",
+  "testo": "Provvedimenti sociali come le pensioni di anzianità."
+ },
+ {
+  "nome": "MF_0",
+  "testo": "La mappa di tutta la lezione. I ruggenti anni Venti: una crescita economica, cambiamenti nel costume e fenomeni negativi."
+ },
+ {
+  "nome": "MF_1",
+  "testo": "La Borsa statunitense: una bolla speculativa, che porta al crollo del valore delle azioni."
+ },
+ {
+  "nome": "MF_2",
+  "testo": "Il New Deal: l'intervento dello Stato nell'economia."
  }
 ]
