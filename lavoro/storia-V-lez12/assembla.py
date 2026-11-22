@@ -62,7 +62,7 @@ def assembla(seq, uscita, tmp):
     sh(['ffmpeg', '-v', 'error', '-y'] + ins + ['-filter_complex', ';'.join(fc), '-map', '[mx]', '-ar', '48000', '-ac', '2', '-c:a', 'pcm_s16le', f'{tmp}/mix.wav'])
     # 3) livello finale a -16 LUFS con solo guadagno lineare
     L = lufs(f'{tmp}/mix.wav'); g = -16.0 - L
-    sh(['ffmpeg', '-v', 'error', '-y', '-i', f'{tmp}/mix.wav', '-af', f'volume={g:.2f}dB,alimiter=limit=0.78:level=disabled', '-ar', '48000', '-c:a', 'pcm_s16le', f'{tmp}/finale.wav'])
+    sh(['ffmpeg', '-v', 'error', '-y', '-i', f'{tmp}/mix.wav', '-af', f'volume={g:.2f}dB,alimiter=limit=0.68:level=disabled', '-ar', '48000', '-c:a', 'pcm_s16le', f'{tmp}/finale.wav'])
     sh(['ffmpeg', '-v', 'error', '-y', '-i', video, '-i', f'{tmp}/finale.wav', '-map', '0:v', '-map', '1:a', '-c:v', 'copy', '-c:a', 'aac', '-b:a', '192k', '-ar', '48000',
         '-movflags', '+faststart', uscita])
     json.dump(dict(pezzi=tempi, guadagno_prof_db=round(gp, 2), lufs_mix=L, guadagno_finale_db=round(g, 2)), open(f'{tmp}/timeline.json', 'w'), indent=1)
