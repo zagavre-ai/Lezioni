@@ -1,117 +1,62 @@
-{
- "R1": [
-  "Ripassiamo la filatura e le caratteristiche dei filati. Guarda la mappa."
- ],
- "R2": [
-  "Ripassiamo la tessitura e gli elementi del telaio. Osserva la mappa."
- ],
- "R3": [
-  "Ripassiamo i finissaggi e il lavaggio. Guarda la mappa."
- ],
- "R4": [
-  "Ripassiamo la follatura e la garzatura. Osserva la mappa."
- ],
- "R5": [
-  "Ripassiamo asciugatura, cimatura, bruciapelo, pressatura e calandratura. Guarda la mappa."
- ],
- "R6": [
-  "Ripassiamo la fissazione: decatizzo, KD, crabbing e potting. Osserva la mappa."
- ],
- "R7": [
-  "Ripassiamo carbonizzo, vaporizzo e i trattamenti speciali. Guarda la mappa prima del quiz."
- ],
- "M1": [
-  "Mappa concettuale: la filatura e le caratteristiche dei filati.",
-  "La preparazione alla filatura comprende pulitura, apertura e battitura, che dà la falda.",
-  "Nella filatura cardata si passa dalla cardatura allo stiro, al banco a fusi e alla filatura.",
-  "La pettinatura lisci le fibre lunghe e dà un nastro pettinato, il top.",
-  "Per i fili continui basta la torsione o la ritorcitura dei filamenti.",
-  "Il titolo esprime la grossezza: tex e denaro sono sistemi diretti, Nm e Ne indiretti.",
-  "Più torsione dà più resistenza e meno elasticità e sofficità."
- ],
- "M2": [
-  "Mappa concettuale: la tessitura e il telaio.",
-  "Il tessuto nasce dall'intreccio di fili di ordito, in lunghezza, e di trama, perpendicolari.",
-  "La navetta alloggia la spola e la trasporta tra i fili di ordito.",
-  "I subbi sostengono l'ordito e avvolgono il tessuto prodotto.",
-  "Il pettine battente preme i fili di trama contro il tessuto.",
-  "Il liccio crea lo spazio di passaggio, la frusta lancia la navetta.",
-  "Nei telai moderni la trama passa con proiettili, pinze o getti d'aria o d'acqua."
- ],
- "M3": [
-  "Mappa concettuale: i finissaggi e il lavaggio.",
-  "I finissaggi migliorano aspetto, pregio e proprietà del tessuto.",
-  "La rifinitura rasata mette in risalto l'armatura dei tessuti pettinati.",
-  "La rifinitura follata copre l'armatura dei tessuti cardati.",
-  "La rifinitura garzata dà una superficie ricca di peluria.",
-  "Il lavaggio elimina bozzime, oleanti e sporco, a quaranta-sessanta gradi.",
-  "Si lava in corda, in largo e in continuo, oppure con il lavaggio veloce."
- ],
- "M4": [
-  "Mappa concettuale: follatura e garzatura.",
-  "La follatura dà compattezza e impermeabilità ai cardati di lana, con il rimborso.",
-  "La follatura può essere acida, basica o neutra.",
-  "Il follone a cilindri trascina e comprime il tessuto.",
-  "La garzatura dà un aspetto peloso e vellutato.",
-  "Si garza a umido, a secco o a bagno; l'umido è il più usato.",
-  "I garzi vegetali non strappano le fibre; pelo e contropelo dipendono dai sensi di rotazione."
- ],
- "M5": [
-  "Mappa concettuale: asciugatura, cimatura, bruciapelo e calandratura.",
-  "Si asciuga tra ottanta e centoventi gradi, con ramosa, hot-flue o essiccatoio.",
-  "La cimatura taglia i peli sporgenti: rasatura a fondo o livellatura.",
-  "Il bruciapelo elimina la peluria con una fiamma non luminosa.",
-  "La pressatura è costosa e poco produttiva: duecento-quattrocento atmosfere per ore.",
-  "La calandratura dà lucentezza per attrito e compattezza per pressione.",
-  "Un cilindro piccolo dà un tessuto compatto, uno grosso più lucente."
- ],
- "M6": [
-  "Mappa concettuale: la fissazione.",
-  "La fissazione dà stabilità dimensionale permanente, a differenza della stiratura.",
-  "Il decatizzo usa vapore secco seguito da un brusco raffreddamento.",
-  "Può essere in continuo o in discontinuo, con una sottopezza.",
-  "Il KD è un decatizzo in autoclave, sotto pressione.",
-  "Il crabbing elimina le tensioni latenti nelle fibre miste.",
-  "Il potting è un decatissaggio a umido, senza shock termico."
- ],
- "M7": [
-  "Mappa concettuale: carbonizzo, vaporizzo e trattamenti speciali.",
-  "Il carbonizzo elimina le impurità cellulosiche con acidi diluiti, senza intaccare la lana.",
-  "Il vaporizzo dà irrestringibilità al tessuto.",
-  "La mercerizzazione rende il cotone lucente e più resistente.",
-  "La sanforizzazione rende il cotone stabile ai lavaggi.",
-  "La tollatura riguarda la seta, la ratinatura i tessuti di lana a pelo lungo.",
-  "La marezzatura crea riflessi e venature simili a onde."
- ],
- "MF": [
-  "Mappa finale della lezione: la lavorazione.",
-  "La filatura trasforma le fibre in filato.",
-  "La tessitura intreccia ordito e trama sul telaio.",
-  "Lavaggio e follatura puliscono e compattano il tessuto.",
-  "Garzatura e cimatura sollevano o tagliano la peluria.",
-  "La fissazione stabilizza il tessuto in modo permanente."
- ],
- "GL1": [
-  "Le parole chiave della lezione.",
-  "Filatura: Operazioni che trasformano le fibre grezze in un filato resistente e omogeneo.",
-  "Titolo: Rapporto tra peso e lunghezza del filo; ne definisce la grossezza.",
-  "Ordito e trama: Fili in lunghezza e fili perpendicolari che formano il tessuto.",
-  "Finissaggio: Operazioni di rifinitura che migliorano aspetto, pregio e proprietà del tessuto.",
-  "Follatura: Trattamento dei cardati di lana che li rende compatti e impermeabili.",
-  "Garzatura: Trattamento meccanico che solleva una peluria sul tessuto.",
-  "Calandratura: Passaggio tra cilindro e bacinella per dare lucentezza e compattezza.",
-  "Decatizzo: Fissazione con vapore secco seguita da brusco raffreddamento.",
-  "Mercerizzazione: Bagno di soda caustica sotto trazione che rende lucente il cotone."
- ],
- "RF1": [
-  "Ricapitoliamo la lezione.",
-  "La filatura trasforma le fibre in filato, per fibra corta, fibra lunga o filo continuo; il titolo e la torsione ne definiscono le caratteristiche.",
-  "La tessitura intreccia fili di ordito e di trama sul telaio.",
-  "I finissaggi migliorano l'aspetto del tessuto: lavaggio, follatura e garzatura per i cardati, cimatura e bruciapelo per i pettinati.",
-  "Asciugatura, pressatura e calandratura danno al tessuto superficie liscia e lucente.",
-  "La fissazione, con decatizzo, KD, crabbing e potting, stabilizza il tessuto in modo permanente; a chiudere ci sono carbonizzo, vaporizzo e i trattamenti speciali."
- ],
- "FIN1": [
-  "Fine della lezione. Hai ripassato i sette argomenti: dalla filatura ai trattamenti speciali. Buono studio!"
- ]
-}
+[
+ {
+  "nome": "A1_INTRO",
+  "testo": "Benvenuti alla lezione sulla lavorazione dei materiali tessili! Dopo aver visto le composizioni chimiche e le caratteristiche dei diversi materiali, scopriamo come le fibre diventano filato, tessuto e prodotto finito. Parleremo di filatura, di tessitura, di lavaggio e follatura, di asciugatura, garzatura e cimatura, e dei trattamenti di fissazione. Ora ascoltiamo la professoressa Piera Caputi."
+ },
+ {
+  "nome": "AP1_FILATURA",
+  "testo": "Sai da dove nasce un filo? Molte fibre arrivano come un insieme disordinato di fibre discontinue, lunghe da pochi millimetri a decine di centimetri. Per questo servono tanti passaggi: pulitura, apertura, battitura, cardatura, accoppiamento e stiro, banco a fusi e filatura. A ogni passaggio le fibre diventano più ordinate: prima la falda, poi il nastro di carda, il bindello, lo stoppino e infine il filato. Alla fine, una forte torsione dà al filato la tenacità e il titolo desiderato."
+ },
+ {
+  "nome": "AP1B_TITOLO",
+  "testo": "Come si misura quanto è grosso un filo? Con il titolo, cioè il rapporto tra il peso e la lunghezza del materiale. Nei sistemi diretti, come il denaro e il tex, la lunghezza è fissa e il peso cambia. Nei sistemi indiretti, come il numero metrico e il numero inglese, il peso è fisso e la lunghezza cambia. Ad esempio, un tex vuol dire che mille metri di filo pesano un grammo."
+ },
+ {
+  "nome": "AP2_TESSITURA",
+  "testo": "Come nasce un tessuto? Dall'intreccio di due famiglie di fili. I fili di ordito, detti anche catena, corrono lungo il tessuto e sono più resistenti. I fili di trama vengono deposti di traverso, perpendicolarmente all'ordito. Il liccio alza e abbassa i fili di ordito e crea lo spazio per far passare la navetta, lanciata dalla frusta. Poi il pettine battente preme la trama contro il tessuto già formato. Oggi la navetta è stata sostituita da sistemi più veloci: a proiettile, a pinze o a getto di aria o di acqua."
+ },
+ {
+  "nome": "AP3_FOLLATURA",
+  "testo": "Sai perché un tessuto di lana cardata può diventare compatto e quasi impermeabile? Grazie alla follatura! Con sfregamento, calore e umidità, le squame della superficie delle fibre di lana si agganciano tra loro in modo irreversibile: è la feltratura. Il tessuto si restringe, sia in ordito sia in trama: questo restringimento si chiama rimborso. Prima del trattamento il tessuto viene cucito a forma di sacco, così l'umidità interna crea pressione e la feltratura è uniforme."
+ },
+ {
+  "nome": "AP4_GARZATURA",
+  "testo": "Come si ottiene una superficie morbida e vellutata? Con la garzatura! Punte elastiche naturali, i garzi, oppure punte metalliche sollevano una sottile peluria, estraendo parzialmente le fibre dal tessuto. I garzi vegetali vengono dall'infiorescenza secca di una pianta, il Dipsacus fullonum, coperta di squame elastiche a uncino. Costano di più, ma non strappano le fibre e danno una peluria più omogenea e regolare."
+ },
+ {
+  "nome": "AP5_FISSAZIONE",
+  "testo": "Sapevi che si può fissare la forma di un tessuto in modo permanente? La fissazione rompe e poi ricostituisce i legami tra le catene delle fibre. Il decatizzo usa vapore secco surriscaldato, seguito da un raffreddamento brusco, e rende il tessuto più morbido e opaco. Il KD, cioè il decatizzo in autoclave, lavora sotto pressione. A differenza della stiratura, che deforma solo temporaneamente, la fissazione dà una stabilità che resiste ai lavaggi."
+ },
+ {
+  "nome": "RIP1_FILATURA",
+  "testo": "Ripassiamo la filatura. La filatura trasforma una massa di fibre grezze in un filato resistente e omogeneo. Le fasi sono: pulitura, apertura, battitura, cardatura, accoppiamento e stiro, banco a fusi e filatura. Il titolo dice quanto è grosso il filo. Il filato pettinato è lucido, liscio e resistente; il filato cardato è peloso e soffice."
+ },
+ {
+  "nome": "RIP2_TESSITURA",
+  "testo": "Ripassiamo la tessitura. È il processo automatico di intreccio dei fili mediante il telaio. L'ordito corre lungo il tessuto, la trama è perpendicolare. Gli elementi del telaio sono: subbi, pettine battente, liccio, frusta, spola e navetta. Nei sistemi moderni si usano pinze, proiettile e getto fluido."
+ },
+ {
+  "nome": "RIP3_UMIDO",
+  "testo": "Ripassiamo i trattamenti ad umido. Le rifiniture sono rasata, follata e garzata. Il lavaggio ha tre fasi: ammollo, sgrassatura e risciacquo, e può essere in corda, in largo, in continuo o veloce. La follatura dà compattezza, impermeabilità e feltratura alla lana cardata, e può essere acida, basica o neutra."
+ },
+ {
+  "nome": "RIP4_MECCANICI",
+  "testo": "Ripassiamo i trattamenti meccanici. L'asciugatura usa ramosa, hot-flue ed essiccatoio. La cimatura può essere rasatura o livellatura. Il bruciapelo elimina le fibre superficiali con una fiamma. Pressatura e calandratura usano pressione e calore per rendere il tessuto più liscio e lucido. La garzatura estrae la peluria, a umido, a secco o a bagno."
+ },
+ {
+  "nome": "RIP5_FISSAZIONE",
+  "testo": "Ripassiamo la fissazione. Dà stabilità dimensionale e resistenza ai lavaggi. Con il vapore secco abbiamo decatizzo e KD; con l'acqua bollente, crabbing e potting. Il carbonizzo elimina le impurità vegetali con acido solforico o cloridrico. I trattamenti specifici sono mercerizzazione e sanforizzazione per il cotone, tollatura e marezzatura per la seta, ratinatura per lana e misti."
+ },
+ {
+  "nome": "G0_GLOSSARIO",
+  "testo": "Facciamo ora il glossario della lezione: le parole chiave da ricordare, una alla volta, con il loro significato."
+ },
+ {
+  "nome": "F1_RIPASSO",
+  "testo": "Ripasso finale. Cinque argomenti: la filatura, che trasforma le fibre in filato; la tessitura, che intreccia ordito e trama; i trattamenti ad umido, cioè lavaggio e follatura; i trattamenti meccanici, cioè asciugatura, cimatura, calandratura e garzatura; infine la fissazione e i trattamenti speciali."
+ },
+ {
+  "nome": "F2_SBARRAMENTO",
+  "testo": "Adesso la verifica finale: dieci domande. Per superarla serve almeno l'ottanta per cento di risposte corrette. In bocca al lupo!"
+ }
+]

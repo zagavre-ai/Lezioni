@@ -1,0 +1,5 @@
+Chat produzione CHIM-C (ramo scambio-caputi), lez09 Lavorazione, modello Gonna 22/11.
+- testi_voci.json: NUOVO formato [{"nome","testo"}], 15 voci Kore (benvenuto, 6 approfondimenti, 5 ripassi, glossario, ripasso finale, sbarramento). Numeri in lettere. Testi solo dal PDF della prof.
+  Le voci vecchie in vox/ (M1.., R1.., 15/11) sono della vecchia produzione: NON le uso. Il vecchio file e' testi_voci_VECCHIO_15-11.json.
+- immagini.json: 12 acquerelli (stile figurino Gonna, soggetto intero, nessuna scritta).
+- quiz_PROPOSTA.json: 25 domande (5 per argomento) da APPROVARE dalla master al posto di Sara; solo dal PDF. Dopo l'ok scrivo le voci dei quiz in un secondo giro.

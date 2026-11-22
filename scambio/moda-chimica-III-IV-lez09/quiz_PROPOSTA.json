@@ -1,0 +1,262 @@
+{
+ "1 · Filatura": [
+  [
+   "Che cos'è la filatura?",
+   [
+    "L'insieme delle operazioni che trasforma una massa di fibre grezze in un filato resistente e omogeneo",
+    "Un processo chimico per tingere le fibre",
+    "L'intreccio dei fili di ordito e di trama"
+   ],
+   0,
+   "La filatura trasforma fibre grezze in un filato resistente e omogeneo."
+  ],
+  [
+   "Quale prodotto intermedio si ottiene al termine della battitura?",
+   [
+    "Lo stoppino",
+    "La falda, o tovaglia",
+    "Il nastro pettinato"
+   ],
+   1,
+   "La battitura stacca le scorie e dà uno strato soffice e regolare: la falda, o tovaglia."
+  ],
+  [
+   "Nel sistema tex, che cosa indica 1 tex?",
+   [
+    "Che 1000 metri di filo pesano 1 grammo",
+    "Che 1 metro di filo pesa 1000 grammi",
+    "Che il filo ha 1 spira per metro"
+   ],
+   0,
+   "Nel sistema tex, 1 tex indica che 1000 metri di filo pesano 1 grammo."
+  ],
+  [
+   "Che effetto ha una torsione maggiore?",
+   [
+    "Aumenta la resistenza ma diminuisce elasticità e sofficità",
+    "Aumenta elasticità e sofficità",
+    "Non cambia nessuna proprietà"
+   ],
+   0,
+   "Una torsione maggiore aumenta la resistenza ma diminuisce elasticità e sofficità."
+  ],
+  [
+   "Come è il filato pettinato rispetto al cardato?",
+   [
+    "Peloso e soffice",
+    "Lucido, liscio, molto resistente e privo di peluria",
+    "Meno resistente e più caldo"
+   ],
+   1,
+   "Il filato pettinato è lucido, liscio, molto resistente e privo di peluria."
+  ]
+ ],
+ "2 · Tessitura": [
+  [
+   "Come sono disposti i fili di ordito?",
+   [
+    "Parallelamente alla lunghezza del tessuto",
+    "Perpendicolarmente alla lunghezza del tessuto",
+    "In cerchio attorno al telaio"
+   ],
+   0,
+   "I fili di ordito sono paralleli alla lunghezza del tessuto e più resistenti."
+  ],
+  [
+   "Come vengono deposti i fili di trama?",
+   [
+    "Parallelamente all'ordito",
+    "Perpendicolarmente ai fili di ordito",
+    "In modo casuale"
+   ],
+   1,
+   "I fili di trama sono deposti perpendicolarmente ai fili di ordito."
+  ],
+  [
+   "Quale organo del telaio lancia la navetta?",
+   [
+    "La frusta",
+    "Il pettine battente",
+    "Il subbio avvolgipezza"
+   ],
+   0,
+   "La frusta è l'organo meccanico che lancia la navetta."
+  ],
+  [
+   "A che cosa serve il liccio?",
+   [
+    "Ad avvolgere il tessuto finito",
+    "Ad alzare o abbassare i fili di ordito per creare lo spazio alla navetta",
+    "A pressare la trama contro il tessuto"
+   ],
+   1,
+   "Il liccio, alzando o abbassando i fili di ordito, crea lo spazio per il passaggio della navetta."
+  ],
+  [
+   "Quali sono i sistemi moderni di inserimento della trama?",
+   [
+    "A proiettile, a pinze o a getto fluido",
+    "Solo a navetta di legno",
+    "A garzi e a cilindri"
+   ],
+   0,
+   "Oggi la navetta è sostituita da proiettile, pinze o getto fluido, di aria o di acqua."
+  ]
+ ],
+ "3 · Trattamenti ad umido": [
+  [
+   "A quali tessuti si applica la rifinitura rasata?",
+   [
+    "Principalmente ai tessuti pettinati",
+    "Ai tessuti cardati per coprire l'armatura",
+    "Solo ai tessuti garzati"
+   ],
+   0,
+   "La rifinitura rasata mette in risalto l'armatura di fondo dei tessuti pettinati."
+  ],
+  [
+   "Quali sono le tre fasi del lavaggio?",
+   [
+    "Ammollo, sgrassatura e risciacquo",
+    "Cardatura, stiro e filatura",
+    "Follatura, garzatura e cimatura"
+   ],
+   0,
+   "Il lavaggio si divide in ammollo, sgrassatura e risciacquo."
+  ],
+  [
+   "Perché il lavaggio in corda non è adatto ai tessuti pettinati?",
+   [
+    "Perché potrebbero strapparsi o sgualcirsi",
+    "Perché richiede troppa acqua dolce",
+    "Perché è troppo lento"
+   ],
+   0,
+   "Il lavaggio in corda è rapido ma i tessuti pettinati potrebbero strapparsi o sgualcirsi."
+  ],
+  [
+   "Che cosa dà la follatura ai tessuti cardati di lana?",
+   [
+    "Compattezza, tenacità e impermeabilità",
+    "Lucentezza e peluria",
+    "Solo colore"
+   ],
+   0,
+   "La follatura conferisce compattezza, tenacità e impermeabilità attraverso la feltratura."
+  ],
+  [
+   "Con che cosa si effettua la follatura basica?",
+   [
+    "Con carbonato di sodio o soda caustica",
+    "Solo con acqua e saponi",
+    "Con acido solforico"
+   ],
+   0,
+   "La follatura basica si effettua con carbonato di sodio o soda caustica."
+  ]
+ ],
+ "4 · Trattamenti meccanici": [
+  [
+   "Che aspetto dà la garzatura al tessuto?",
+   [
+    "Peloso e vellutato",
+    "Liscio e lucente",
+    "Rigido e impermeabile"
+   ],
+   0,
+   "La garzatura dà un aspetto peloso e vellutato, con maggiore morbidezza e sofficità."
+  ],
+  [
+   "Che cosa sono i garzi vegetali?",
+   [
+    "L'infiorescenza secca del Dipsacus fullonum, con squame elastiche a uncino",
+    "Punte di acciaio inclinate a 45°",
+    "Rulli che allargano le cimose"
+   ],
+   0,
+   "I garzi vegetali sono l'infiorescenza secca del Dipsacus fullonum, coperta di squame elastiche a uncino."
+  ],
+  [
+   "Come è agganciato il tessuto nella ramosa?",
+   [
+    "Per le cimose a una catena con spilli o pinze",
+    "Sospeso in falde verticali",
+    "Su un tappeto trasportatore"
+   ],
+   0,
+   "Nella ramosa il tessuto è agganciato per le cimose a una catena con spilli o pinze."
+  ],
+  [
+   "Come si chiama la cimatura a fondo?",
+   [
+    "Rasatura",
+    "Livellatura",
+    "Gasatura"
+   ],
+   0,
+   "La cimatura a fondo si chiama rasatura; a una determinata altezza, livellatura."
+  ],
+  [
+   "Che effetto ha un cilindro piccolo nella calandratura?",
+   [
+    "Tessuto compatto ma poco lucido",
+    "Tessuto molto lucente ma meno compatto",
+    "Nessun effetto"
+   ],
+   0,
+   "Un cilindro piccolo aumenta la pressione e diminuisce l'attrito: tessuto compatto ma poco lucido."
+  ]
+ ],
+ "5 · Fissazione e trattamenti speciali": [
+  [
+   "Che cosa garantisce la fissazione?",
+   [
+    "Stabilità dimensionale e resistenza ai lavaggi",
+    "Solo maggiore lucentezza",
+    "L'eliminazione delle impurità vegetali"
+   ],
+   0,
+   "La fissazione dà stabilità dimensionale permanente, resistente ai lavaggi."
+  ],
+  [
+   "Come funziona il decatizzo?",
+   [
+    "Vapore secco surriscaldato seguito da raffreddamento brusco",
+    "Immersione in soda caustica sotto trazione",
+    "Passaggio su una fiamma"
+   ],
+   0,
+   "Il decatizzo usa vapore secco surriscaldato, seguito da un raffreddamento brusco."
+  ],
+  [
+   "In che condizioni avviene il KD?",
+   [
+    "In autoclave, sotto pressione",
+    "Senza vapore",
+    "In un bagno a temperatura ambiente"
+   ],
+   0,
+   "Il KD, o decatizzo in autoclave, avviene sotto pressione."
+  ],
+  [
+   "Su quale principio si basa il carbonizzo?",
+   [
+    "Le fibre cellulosiche si sciolgono negli acidi, la lana no",
+    "La lana si scioglie negli acidi",
+    "Le fibre sintetiche fondono"
+   ],
+   0,
+   "Le fibre cellulosiche si sciolgono negli acidi, mentre la lana assorbe l'acido diluito senza deteriorarsi."
+  ],
+  [
+   "Per quale fibra è la mercerizzazione?",
+   [
+    "Per il cotone",
+    "Per la seta",
+    "Per la lana"
+   ],
+   0,
+   "La mercerizzazione è dedicata ai tessuti di cotone, per renderli lucenti e più resistenti."
+  ]
+ ]
+}

@@ -1,0 +1,50 @@
+[
+ {
+  "nome": "IMG_A1_filatura",
+  "descrizione": "Dal fiocco di fibre al filo: sequenza da sinistra a destra, un batuffolo di fibre disordinate, un nastro morbido, uno stoppino e un filo ritorto avvolto su un rocchetto"
+ },
+ {
+  "nome": "IMG_A1_titolo",
+  "descrizione": "Una matassa di filo accanto a un rocchetto e a una piccola bilancia da laboratorio"
+ },
+ {
+  "nome": "IMG_A2_telaio",
+  "descrizione": "Un telaio da tessitura visto di fronte: fili di ordito tesi, navetta con spola, pettine battente, tessuto che si forma"
+ },
+ {
+  "nome": "IMG_A2_trama_ordito",
+  "descrizione": "Primo piano dell'intreccio di fili di ordito verticali e di trama orizzontale, due colori diversi"
+ },
+ {
+  "nome": "IMG_A3_lavaggio",
+  "descrizione": "Una pezza di tessuto che passa tra cilindri spremitori in una vasca d'acqua"
+ },
+ {
+  "nome": "IMG_A3_follatura",
+  "descrizione": "Una fibra di lana al microscopio con le squame che si agganciano tra loro, a fianco un tessuto di lana compatto e feltrato"
+ },
+ {
+  "nome": "IMG_A4_garzatura",
+  "descrizione": "Un tamburo rotante con listelli carichi di garzi vegetali (infiorescenze secche di cardo) che sollevano la peluria da un tessuto di lana"
+ },
+ {
+  "nome": "IMG_A4_ramosa",
+  "descrizione": "Una macchina asciugatrice ramosa: un tessuto agganciato per le cimose a una catena con pinze, che scorre in una camera di asciugatura con aria calda"
+ },
+ {
+  "nome": "IMG_A4_calandra",
+  "descrizione": "Una calandra: un cilindro rotante e una bacinella liscia tra cui passa un tessuto lucido"
+ },
+ {
+  "nome": "IMG_A5_decatizzo",
+  "descrizione": "Un tessuto avvolto con una sottopezza su un cilindro forato in una camera a vapore (decatizzo)"
+ },
+ {
+  "nome": "IMG_A5_mercerizzazione",
+  "descrizione": "Una fibra di cotone che si rigonfia e diventa tondeggiante in un bagno alcalino, con a fianco un tessuto di cotone lucido"
+ },
+ {
+  "nome": "IMG_A5_seta",
+  "descrizione": "Un tessuto di seta con riflessi simili a onde del mare (marezzatura)"
+ }
+]
