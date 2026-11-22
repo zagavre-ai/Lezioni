@@ -21,7 +21,7 @@ def stati_arg(n,t0,t1):
     for k,im in enumerate(a.get('immagini',[])):
         ev.append((refine_lit(im['lit']),'i',k));ev.append((refine_lit(im['fine']),'x',k))
     ev.sort()
-    seq=[(t0,('c',None))]
+    seq=[(t0-5.0,('c',None))]
     for t,kind,i in ev:
         if kind=='c': seq.append((t,('c',i)))
         elif kind=='i': seq.append((t,('i',i)))

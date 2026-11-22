@@ -36,8 +36,8 @@ ARG=[
   cards=[
    C('Le elezioni del 1930 e del 1932:','Le elezioni del 1930 e del 1932: sfruttando la crisi e una propaganda aggressiva, la NSDAP divenne prima il secondo partito del Reich (1930) e poi il primo partito assoluto (1932).','52:49.8'),
    C('Hitler cancelliere:','Hitler cancelliere: il 30 gennaio 1933, dopo forti pressioni da parte di industriali e militari, il presidente Hindenburg nominò Hitler capo del governo.','61:30.2')],
-  immagini=[dict(file='s-007.png',lit='62:01.8',fine='62:47.1',titolo='Le sfilate militari',did='La fotografia del 1926 ritrae Hitler mentre saluta la parata di un gruppo di SA.'),
-            dict(file='s-009.png',lit='62:47.1',fine='63:04.5',titolo='Un poster di propaganda nazista',did="Il manifesto invita a votare la lista 9 della NSDAP alle elezioni del 1930. Un pugnale trafigge la testa di un serpente, sulla quale è disegnato l'emblema della stella giudea.")]),
+  immagini=[dict(file='s-007.png',lit='62:01.8',fine='62:47.1',titolo='Le sfilate militari',did='La fotografia del 1926 ritrae Hitler mentre saluta la parata di un gruppo di SA (squadre d\'assalto).'),
+            dict(file='s-009.png',lit='62:47.1',fine='63:04.5',titolo='Un poster di propaganda nazista',did="Il manifesto invita a votare la lista 9 della NSDAP (partito nazista) alle elezioni del 1930. Un pugnale trafigge la testa di un serpente, sulla quale è disegnato l'emblema della stella giudea.")]),
  dict(n=6,titolo='La costruzione dello Stato totalitario',slide='La costruzione dello Stato totalitario',ini=3784.93,
   kw=['Reichstag = il Parlamento tedesco','Pieni poteri','Partito unico','Führer = guida','Notte dei lunghi coltelli'],
   cards=[

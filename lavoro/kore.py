@@ -59,14 +59,22 @@ def parse_it(w):
     if s is None:return None
     tot+=s
     return tot if tot else None
+MESI='gennaio|febbraio|marzo|aprile|maggio|giugno|luglio|agosto|settembre|ottobre|novembre|dicembre'
 def digits(t):
     t=re.sub(r'\b(\w+)\s+per\s+cento\b',lambda m:(str(parse_it(m.group(1)))+'%') if parse_it(m.group(1)) else m.group(0),t)
     def rep(m):
-        w=m.group(0);v=parse_it(w)
-        return str(v) if v and v>=10 and not w.lower() in ('dieci','undici','dodici') else w
-    t=re.sub(r"[A-Za-zàèéìòù]+",rep,t)
+        w=m.group(1);v=parse_it(w)
+        if v and v>=100: s=str(v);return (f'{v:,}'.replace(',','.') if v>=10000 else s)+m.group(2)
+        if v and v>=10 and re.match(r'\s+('+MESI+')',t[m.end(1):m.end(1)+12]): return str(v)+m.group(2)
+        return m.group(0)
+    t=re.sub(r"\b([A-Za-zàèéìòù]+)\b()",rep,t)
+    t=re.sub(r'\bsei milioni\b','6 milioni',t);t=re.sub(r'\bottocentomila\b','800.000',t)
     return t
 # --- sincronizzazione sulle pause della voce ---
+def _read(wav):
+    with wave.open(wav) as w:
+        sr=w.getframerate();d=np.frombuffer(w.readframes(w.getnframes()),np.int16).astype(np.float32)/32768
+    return d,sr
 def pause_runs(wav,thr=0.012,minlen=0.18):
     x,sr=_read(wav);fr=int(sr*0.01);n=len(x)//fr
     r=np.sqrt((x[:n*fr].reshape(n,fr)**2).mean(1));out=[];cur=None
@@ -77,10 +85,6 @@ def pause_runs(wav,thr=0.012,minlen=0.18):
             if cur is not None and (i-cur)/100>=minlen:out.append((cur/100,i/100))
             cur=None
     return out,n/100
-def _read(wav):
-    with wave.open(wav) as w:
-        sr=w.getframerate();d=np.frombuffer(w.readframes(w.getnframes()),np.int16).astype(np.float32)/32768
-    return d,sr
 def tempi_unita(nome,unita):
     """inizio (s) di ciascuna unità di testo letta nella voce `nome`: proporzionale ai caratteri, agganciato alle pause"""
     wav,real=vox(nome);d=dur(wav);L=[len(u)+2 for u in unita];tot=sum(L);acc=0;stim=[]
@@ -90,7 +94,7 @@ def tempi_unita(nome,unita):
     for k in range(1,len(unita)):
         cand=[(abs((a+b)/2-stim[k]),(a+b)/2,j) for j,(a,b) in enumerate(runs) if j>used and (a+b)/2>ts[-1]+0.4]
         if cand:
-            e,t,j=min(cand);
+            e,t,j=min(cand)
             if e<0.18*d/len(unita)+1.2:ts.append(t);used=j;continue
         ts.append(stim[k])
     return ts,d
@@ -108,7 +112,6 @@ def scena(nome,stati,audio,tot,out,lead=0.6,tail=0.9,gain_db=0.0,extra_audio=Non
     else:
         cur='[0:v]'
         for i in range(1,len(st)):
-            off=times[i]-0  # offset dall'inizio del flusso accumulato
             fc.append(f'{cur}[{i}:v]xfade=transition=fade:duration={FADE}:offset={times[i]:.3f}[x{i}]');cur=f'[x{i}]'
         fc.append(f'{cur}format=yuv420p[vo]')
     ai=len(st)

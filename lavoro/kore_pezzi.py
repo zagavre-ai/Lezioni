@@ -7,6 +7,8 @@ from mont import sh, B, dur
 SND='/home/user/Lezioni/kit/suoni/'
 IMGS={'stemma':'/tmp/w/hr/s-004.png','parata':'/tmp/w/hr/s-007.png','poster':'/tmp/w/hr/s-009.png','goebbels':'/tmp/w/hr/s-012.png'}
 TIT={a['n']:a['titolo'] for a in S.ARG}
+import pagine as PG
+PN=PG.numera()
 os.makedirs(f'{B}/k',exist_ok=True);os.makedirs('/tmp/w/kh',exist_ok=True)
 QUEUE=[]
 def png(key,html,omit=False):
@@ -93,19 +95,19 @@ def PS_n(n):
     for c in cards:
         if ':' in c['testo'][:40]: c['lead']=c['testo'].split(':')[0]+':'
     stati=[]
-    h,_=tlib.scheda_cards(f'RIPASSO · {n}',TIT[n],None,cards,None,'');stati.append((0.0,png(f'PS{n}_x',h)))
+    h,_=tlib.scheda_cards(f'RIPASSO · {n}',TIT[n],PN[f'PS{n}'],cards,None,'');stati.append((0.0,png(f'PS{n}_x',h)))
     for i in range(len(cards)):
-        h,_=tlib.scheda_cards(f'RIPASSO · {n}',TIT[n],None,cards,i,'');stati.append((starts[i],png(f'PS{n}_{i}',h)))
+        h,_=tlib.scheda_cards(f'RIPASSO · {n}',TIT[n],PN[f'PS{n}'],cards,i,'');stati.append((starts[i],png(f'PS{n}_{i}',h)))
     flush()
     return scena(f'PS{n}',stati,a,tot+1.0,f'{B}/k/PS{n}.mkv',lead=0.5,tail=0.9)
-def unita_card_scene(nome,voce,label,titolo,cards,units_all,side_fn=None,tot_extra=0.8,skip=0):
+def unita_card_scene(nome,voce,label,titolo,cards,units_all,side_fn=None,tot_extra=0.8,skip=0,pag=None):
     """scena generica: cards lit con la voce; units_for_cards = testi delle unità lette (stessa lunghezza di cards)"""
     w,d,real=prep_voce(voce,f'{B}/k/{voce}_n.wav')
     # tempi: unità = frasi in lettura; tempi_unita lavora sulla voce originale (stessa durata)
     starts,dd=tempi_unita(voce,units_all)
-    stati=[];h,_=tlib.scheda_cards(label,titolo,None,cards,None,side_fn(None) if side_fn else '');stati.append((0.0,png(nome+'_x',h)))
+    stati=[];h,_=tlib.scheda_cards(label,titolo,pag,cards,None,side_fn(None) if side_fn else '');stati.append((0.0,png(nome+'_x',h)))
     for i in range(len(cards)):
-        h,_=tlib.scheda_cards(label,titolo,None,cards,i,side_fn(i) if side_fn else '');stati.append((starts[i+skip],png(f'{nome}_{i}',h)))
+        h,_=tlib.scheda_cards(label,titolo,pag,cards,i,side_fn(i) if side_fn else '');stati.append((starts[i+skip],png(f'{nome}_{i}',h)))
     flush()
     return scena(nome,stati,w,dd+tot_extra,f'{B}/k/{nome}.mkv',lead=0.6,tail=0.9)
 AP_SIDE={3:('stemma','Lo stemma nazista'),5:('poster','Un poster di propaganda nazista'),7:('goebbels','Joseph Goebbels')}
@@ -120,21 +122,21 @@ def AP_n(n):
         for j in range(i+1):
             if years[j]: last=years[j][0]
         return tlib.side_chip(last) if last else ''
-    return unita_card_scene(f'AP{n}',f'AP{n}',f'APPROFONDIMENTO · {n}',digits(q),cards,[q]+corpo,side,skip=1)
+    return unita_card_scene(f'AP{n}',f'AP{n}',f'APPROFONDIMENTO · {n}',digits(q),cards,[q]+corpo,side,skip=1,pag=PN[f'AP{n}'])
 def GL_n(parte):
     nm='GL1' if parte==1 else 'GL2';fs=frasi(TESTI[nm]);corpo=fs[1:]
     cards=[]
     for f in corpo:
         lead=f.split(':')[0]+':' if ':' in f else None
         cards.append(dict(lead=lead,testo=digits(f)))
-    return unita_card_scene(f'GL{parte}',nm,'GLOSSARIO','Parole chiave',cards,fs,None,skip=1)
+    return unita_card_scene(f'GL{parte}',nm,'GLOSSARIO','Parole chiave',cards,fs,None,skip=1,pag=PN[f'GL{parte}'])
 def RIEP_n(parte):
     nm='RF1_R2' if parte==1 else 'RF2';fs=frasi(TESTI[nm]);corpo=fs[1:]
     cards=[]
     for f in corpo:
         lead=f.split(':')[0]+':' if re.match(r'^(Primo|Secondo|Terzo|Quarto):',f) else None
         cards.append(dict(lead=lead,testo=digits(f)))
-    return unita_card_scene(f'RIEP{parte}',nm,'RIPASSO FINALE','Ripasso finale',cards,fs,None,skip=1)
+    return unita_card_scene(f'RIEP{parte}',nm,'RIPASSO FINALE','Ripasso finale',cards,fs,None,skip=1,pag=PN[f'RIEP{parte}'])
 def COVERV(parte):
     args=[(a['n'],a['titolo']) for a in S.ARG if a['n'] in (S.PARTE1 if parte==1 else S.PARTE2)]
     p=png(f'cover{parte}',tlib.copertina('La Germania da Weimar al nazismo',args,False,parte if parte==2 else None))
@@ -169,12 +171,12 @@ def SPG2():
         t=corpo[i]
         if 'NSDAP' in t or 'nazionalsocialista' in t: return tlib.side_img(IMGS['stemma'],'Lo stemma nazista')
         return ''
-    h,_=tlib.scheda_cards('RIPASSO DELLA PARTE PRECEDENTE','Che cosa abbiamo visto',None,cards,None,'');st.append((0.0,png('spg_x',h)))
+    h,_=tlib.scheda_cards('RIPASSO DELLA PARTE PRECEDENTE','Che cosa abbiamo visto',PN["('spg', 2)"],cards,None,'');st.append((0.0,png('spg_x',h)))
     for i in range(len(cards)):
         if i in imap:
             st.append((starts[i+1],png('spg_map',mappe.stato_html('M1',None,True))))
         else:
-            h,_=tlib.scheda_cards('RIPASSO DELLA PARTE PRECEDENTE','Che cosa abbiamo visto',None,cards,i,side(i));st.append((starts[i+1],png(f'spg_{i}',h)))
+            h,_=tlib.scheda_cards('RIPASSO DELLA PARTE PRECEDENTE','Che cosa abbiamo visto',PN["('spg', 2)"],cards,i,side(i));st.append((starts[i+1],png(f'spg_{i}',h)))
     flush()
     return scena(nm,st,w,dd+0.8,f'{B}/k/{nm}.mkv',lead=0.6,tail=0.9)
 def FIN_blu(parte):
@@ -195,7 +197,7 @@ COMP=[('C1',"Quali accordi internazionali e quali indicatori economici caratteri
 def COMPITO(k):
     nm,testo=COMP[k-1];w,d,_=prep_voce(nm,f'{B}/k/{nm}_n.wav')
     cards=[dict(lead=f'Compito {k}',testo=f'Compito {k}: '+testo)]
-    h,_=tlib.scheda_cards('COMPITI',f'Compito {k} di 4',None,cards,0,'')
+    h,_=tlib.scheda_cards('COMPITI',f'Compito {k} di 4',PN[f'COMPITO{k}'],cards,0,'')
     p=png(f'comp{k}',h);flush()
     return scena(f'COMPITO{k}',[(0.0,p)],w,d+max(3.0,len(testo)/14),f'{B}/k/COMPITO{k}.mkv',lead=0.7,tail=1.0)
 def notice_png():
@@ -211,7 +213,7 @@ def SIGLA():
 def D0_DI_slides():
     args1=[(a['n'],a['titolo']) for a in S.ARG if a['n'] in S.PARTE1]
     c=png('cover1_cam',tlib.copertina('La Germania da Weimar al nazismo',args1,True))
-    d=png('di_cosa',tlib.di_cosa_parliamo(args1,2,True));flush();return c,d
+    d=png('di_cosa',tlib.di_cosa_parliamo(args1,PN["('di', 1)"],True));flush();return c,d
 ALL={}
 for n in range(1,9):
     ALL[f'T{n}']=lambda n=n:T_n(n);ALL[f'Q{n}']=lambda n=n:Q_n(n);ALL[f'PI{n}']=lambda n=n:PI_n(n);ALL[f'PS{n}']=lambda n=n:PS_n(n);ALL[f'AP{n}']=lambda n=n:AP_n(n)

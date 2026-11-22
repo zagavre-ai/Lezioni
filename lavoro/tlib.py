@@ -132,7 +132,7 @@ COVER_CSS='''
 .arg span{flex:none;width:56px;height:56px;border-radius:50%;background:#2060AF;color:#fff;font:800 30px/56px Bri;text-align:center}
 .box{position:absolute;left:80px;width:1305px;background:#F7F9FC;border:2px solid #E2E8F0;border-radius:22px;padding:30px 40px;box-shadow:0 12px 30px rgba(71,85,105,.16)}
 .box h5{margin:0 0 20px;font:700 22px Fig;letter-spacing:.16em;color:#2060AF}
-.big{position:absolute;left:80px;top:230px;width:1300px;font:800 104px/1.04 Bri;color:#0B1530}
+.big{position:absolute;left:80px;top:196px;width:1300px;font:800 104px/1.04 Bri;color:#0B1530}
 .und{position:absolute;left:80px;width:120px;height:8px;background:#2060AF;border-radius:4px}
 '''
 def copertina(titolo,args,cam,parte=None):
@@ -196,3 +196,10 @@ def scheda_cards(label,title,pagina,cards,cur,side='',dim=True,numeri=False):
         st=f'top:{y}px;min-height:{h}px'+('' if dim or i==cur else ';opacity:1')
         body+=f'<div class="{cl}" style="{st}">{card_inner(c)}</div>';y+=h+18
     return page(body+side,SIDE_CSS),idx
+
+def copertina_semplice(titolo,extra=None):
+    """copertina della dispensa: solo materia e titolo (extra = 'MAPPE')"""
+    body=f'<img class="logo" src="{LOGO}"><div class="hl"></div><div class="lab">STORIA · VIDEOLEZIONE</div>'
+    if extra: body+=f'<div class="lab" style="top:186px;color:#0B1530;font-size:40px;letter-spacing:.3em">{extra}</div>'
+    body+=f'<div class="big" style="top:300px">{esc(titolo)}</div><div class="und" style="top:540px"></div><div class="fl"></div><div class="ft">STORIA</div><div class="pg">Pagina 1</div>'
+    return page(body,COVER_CSS)

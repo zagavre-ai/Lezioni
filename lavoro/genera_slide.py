@@ -3,10 +3,10 @@ sys.path.insert(0,'/home/user/Lezioni/lavoro')
 import struttura as S, tlib, piani
 from piani import ARGS, B, END, stati_arg, spec_key
 OUT='/tmp/w/sl';os.makedirs(OUT,exist_ok=True)
-pagine={};lst=[];stati={}
+import pagine as PG
+PN=PG.numera();pagine={};lst=[];stati={}
 def pagina(k):
-    if k not in pagine: pagine[k]=len(pagine)+3   # 1 copertina, 2 di cosa parliamo
-    return pagine[k]
+    pagine[k]=PN[k];return PN[k]
 for k,n in enumerate(range(1,9)):
     a=ARGS[n];t0=B[f'a{n}'];t1=B[f'a{n+1}'] if n<8 else END
     st=stati_arg(n,t0,t1);stati[n]=[]
