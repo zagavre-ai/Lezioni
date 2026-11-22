@@ -3,10 +3,17 @@
  "parti": {
   "1": {
    "stato": "REVISIONATA"
+  },
+  "2": {
+   "stato": "REVISIONATA"
   }
  },
  "manca": "",
  "serve_master": [
+  {
+   "quando": "22/11 19:35",
+   "testo": "Sistemare le 2 card sole P1 e le pause lunghe; riconfermare ESITO OK"
+  },
   {
    "quando": "22/11 19:35",
    "testo": "Sistemare le 2 card sole P1 e le pause lunghe; riconfermare ESITO OK"
@@ -17,7 +24,11 @@
   {
    "quando": "22/11 19:35",
    "testo": "correzioni 22/11 consegnate sul ramo: P1 49:43, P2 55:00, vtt/schede/PDF nuovi. Controllo severo RESPINTA: P1 2 card sole (24:50, 31:10) + 12 pause>2,5s; P2 pause 7 + falsi positivi OCR su pagine libro. Non risolti: vedi RAPPORTO_REVISIONE.md"
+  },
+  {
+   "quando": "22/11 19:35",
+   "testo": "correzioni 22/11 consegnate sul ramo: P1 49:43, P2 55:00, vtt/schede/PDF nuovi. Controllo severo RESPINTA: P1 2 card sole (24:50, 31:10) + 12 pause>2,5s; P2 pause 7 + falsi positivi OCR su pagine libro. Non risolti: vedi RAPPORTO_REVISIONE.md"
   }
  ],
- "aggiornato": "2026-11-22 19:35:17"
+ "aggiornato": "2026-11-22 19:35:19"
 }
