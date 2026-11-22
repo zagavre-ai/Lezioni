@@ -8,7 +8,9 @@ python3 estrai_da_release.py mazzotti-storia-arte-V "<chiave>" <cartella>
 
 Per ogni lezione N servono 4 cose (chiavi esatte, con lo spazio finale dove c'è):
 - **video originale del prof:** chiave della colonna «Video» (sta dentro uno degli zip grandi; la 8 è un file a parte);
-- **slide del prof (PDF):** chiave `/LEZIONE N.pdf` (zip «STORIA.DELL.ARTE.V.-20261114T223357Z»);
+- **slide del prof (PDF, con le opere):** chiave `SLIDE/LEZIONE N.pdf` (zip «SLIDE-20261115T094620Z», 1–2 MB a lezione). Da qui si estraggono le immagini delle opere alla massima risoluzione (`pdfimages -all`);
+- **compiti del prof:** chiave `STORIA DELL_ARTE V /LEZIONE N.pdf` (zip «STORIA.DELL.ARTE.V.-20261114T223357Z»): una pagina con le domande dei compiti, non sono le slide;
+- **sigla della materia:** `kit/sigle/Sigla_Storia_arte_15s.mp4` sul ramo main (fai git pull);
 - **mappe del prof (PDF):** chiave `MAPPE LEZIONE N.pdf`;
 - **domande per la verifica di sbarramento:** file `DOMANDE.LEZIONE.N.xlsx` (10 domande, caricato a parte il 22/11).
 
