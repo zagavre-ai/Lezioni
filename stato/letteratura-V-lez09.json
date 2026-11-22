@@ -25,6 +25,10 @@
   {
    "quando": "22/11 16:55",
    "testo": "lez09: rigenerare le voci R15, R16, R17 (testi gia' su voci-letteratura-V-lez09): R5/R6/R2 sono troncate (bordi >0,03). Servono entro le 19:00 UTC; intanto monto con le attuali + dissolvenza 30 ms"
+  },
+  {
+   "quando": "22/11 17:01",
+   "testo": "lez09: aggiunte voci R18, R19, R20 (benvenuto P1 senza nome docente, argomenti P2, apertura spiegone P2) oltre a R15-R17: tutte su voci-letteratura-V-lez09, servono entro 19:00 UTC"
   }
  ],
  "domande_sara": [],
@@ -82,5 +86,5 @@
    "testo": "18:00 It correzioni 22/11: nuove slide (testo 40 px, max 3 card intere, nessuna slide oltre 3 min con inserti dal parlato del prof), mappa unica del prof nel modello BES (3 schermate, prima del glossario in P1), copertina prof 170 s poi argomenti. Montaggio in corso (P1+P2). Consegna prevista 20:15 It"
   }
  ],
- "aggiornato": "2026-11-22 16:55:22"
+ "aggiornato": "2026-11-22 17:01:12"
 }
