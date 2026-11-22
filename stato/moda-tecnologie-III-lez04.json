@@ -15,6 +15,10 @@
   {
    "quando": "22/11 13:48",
    "testo": "STATO ONESTO 22/11: pronti per lez04: trascrizione, struttura 8 argomenti/2 Parti, card (argomenti 1,4,5,6,7,8 fatti; 2-3 in lavorazione), quiz/mappe/glossari bozza, motore di montaggio (tondo ripulito, pause, slide), template scene e animazioni (intreccio su griglia, processi, ventaglio). Immagini ricevute OK (grazie), IMG_A3_scampionatura ha un bordo di foglio: la rifaro' come _v2. MI SERVONO: (1) voci di testi_voci.json; poi mandero' un secondo giro (voci mappe, glossari, ripasso finale). (2) Domanda formato quiz: scheda Quiz di 5 s con jingle e domande su piattaforma (modello Spagnolo) oppure le 5 domande dentro il video come nella Gonna? Procedo col modello Gonna (domande nel video) salvo tua risposta. NESSUNA lezione e' ancora consegnabile: il montaggio e il controllo con agente separato sono ancora da fare, lez05 e lez06 non iniziate."
+  },
+  {
+   "quando": "22/11 13:49",
+   "testo": "Card di tutti gli 8 argomenti di lez04 pronte (A2-A3 incluse). DA VERIFICARE ALL'ASCOLTO (la trascrizione automatica non basta): numero del regolamento UE a 422 s (trascritto 'UE 1711', PDF 'UE 1007/11'; le card riportano il numero detto dalla prof, con 'UE, cioe' Unione Europea'): decidi tu/Sara. Altre discrepanze prof/PDF e proposte di taglio (decide Sara) sono nei file topics/A*_extra.json nel ramo claude/compassionate-sagan-2i436j, cartella scambio/moda-tecnologie-III-lez04/lavoro."
   }
  ],
  "domande_sara": [],
@@ -40,7 +44,7 @@
    "testo": "Presa lez04 (poi 05, 06). Materiali mp4/pdf/xlsx trovati SI (anche 05 e 06); niente compiti (lez 2-8). Sorgente 852x480, 59 min. Trascrizione in corso. Stima consegna lez04: dopo trascrizione ricalcolo e scrivo qui; la prima consegna non e' prevista prima di alcune ore. Nota: stato.py ha REPO fisso /home/claude/lezioni, ho fatto un link simbolico."
   }
  ],
- "aggiornato": "2026-11-22 13:48:30",
+ "aggiornato": "2026-11-22 13:49:03",
  "materia": "Tecnologie dei materiali e dei processi produttivi e organizzativi della moda · III anno",
  "lezione": "Lezione 4 · Tessitura pt. 1",
  "docente": "Prof.ssa Piera Caputi"
