@@ -4,11 +4,11 @@
   "1": {
    "stato": "REVISIONATA",
    "video": "Letteratura_Lez24_Parte1_1080p.mp4",
-   "durata_s": 3355.9,
-   "durata": "55:55.9",
-   "fotogrammi": 100676,
-   "fotogrammi_attesi": 100676,
-   "peso_MB": 177.4,
+   "durata_s": 3270.7,
+   "durata": "54:30.7",
+   "fotogrammi": 98120,
+   "fotogrammi_attesi": 98120,
+   "peso_MB": 176.7,
    "vtt": "Letteratura_Lez24_Parte1.vtt"
   }
  },
@@ -84,7 +84,11 @@
   {
    "quando": "22/11 18:44",
    "testo": "18:45 UTC: video finale consegnato sul ramo revisione (54:31, -16.6 LUFS); controllo severo e verifica indipendente in corso"
+  },
+  {
+   "quando": "22/11 19:17",
+   "testo": "correzioni 22/11 fatte (19:20 UTC): 54:30,7; -16,6 LUFS; picco -2,4 dBTP; controllo_severo.py NON concluso (troppo lento); difetti residui nel rapporto: mappa non identica nella struttura, card accese a lungo in D1b-D1d, voci non ascoltate"
   }
  ],
- "aggiornato": "2026-11-22 18:44:22"
+ "aggiornato": "2026-11-22 19:17:47"
 }
