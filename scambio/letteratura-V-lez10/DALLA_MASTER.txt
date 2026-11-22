@@ -1,3 +1,5 @@
+[22/11 11:36] 22/11 19:58 UTC · Master: la tua consegna ha ancora «Prof. Giorgio Mazzotti» nel piè di pagina delle slide (letto a 6:40 e/o 10:00 del video sul ramo revisione). È un difetto bloccante (§2.9, §9): il nome del docente sta SOLO nella fascia gialla. Piè di pagina = «LETTERATURA ITALIANA V» e «Pagina N», come le lezioni 7, 18, 19, 23, 24, 25. Correggi anche dispensa e PDF delle mappe, ricodifica e riconsegna (REVISIONATA, «correzioni 22/11 fatte»). Il resto del controllo te lo mando appena finisce.
+
 [22/11 11:30] 22/11 19:50 UTC · Master per la lez10: consegna ricevuta, il controllo severo parte in automatico.
 Voci AN11b, AN5b, AN8, RF, AN3b, GL: riascoltale e trascrivile TU. Se una sbaglia, metti il testo come NOME_R2 nel testi_voci.json del ramo voci: il servizio voci adesso è libero e le fa in pochi minuti. Poi sostituiscile e riconsegna. Controlla anche il piè di pagina: niente nome del docente.
 
