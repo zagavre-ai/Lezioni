@@ -1,6 +1,10 @@
-M1 OK frasi trovate 1 / 1 parole diverse 1 (vere 1) tentativi 1
-M2 DA CONTROLLARE frasi trovate 1 / 1 parole diverse 4 (vere 6) tentativi 1
-M3 DA CONTROLLARE frasi trovate 1 / 1 parole diverse 5 (vere 5) tentativi 1
-M4 OK frasi trovate 1 / 1 parole diverse 2 (vere 3) tentativi 1
-M5 OK frasi trovate 1 / 1 parole diverse 1 (vere 2) tentativi 1
-MF OK frasi trovate 1 / 1 parole diverse 1 (vere 1) tentativi 1
+MP1 OK frasi trovate 1 / 1 parole diverse 2 (vere 0) tentativi 1
+MP3 OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
+MP5 OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
+MP7 OK frasi trovate 1 / 1 parole diverse 3 (vere 2) tentativi 1
+MP9 OK frasi trovate 1 / 1 parole diverse 2 (vere 0) tentativi 1
+CP1 OK frasi trovate 1 / 1 parole diverse 2 (vere 2) tentativi 1
+CP3 OK frasi trovate 1 / 1 parole diverse 1 (vere 1) tentativi 1
+MP1 DA CONTROLLARE durata fuori misura
+MP7 DA CONTROLLARE durata fuori misura
+MP9 DA CONTROLLARE durata fuori misura
