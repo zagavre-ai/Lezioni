@@ -16,15 +16,18 @@ def chrome(label='',pg=None,cam=False,foot='STORIA'):
 def glows():
     return '<div class="glow" style="left:-200px;top:-150px;width:700px;height:700px;background:#2060AF"></div><div class="glow" style="right:-150px;bottom:-200px;width:800px;height:800px;background:#E04F8B;opacity:.28"></div><div class="glow" style="left:900px;top:300px;width:500px;height:500px;background:#FFE600;opacity:.10"></div>'
 # ---------- copertina ----------
-def cover_html(cam=False,anim=True):
+def cover_html(cam=False,anim=True,hl=None):
     items=''.join(f'<li data-in="{1.6+0.4*i if anim else 0}" data-d="0.5">{e(a)}</li>' for i,a in enumerate(ARGLIST))
     css='''.ct{position:absolute;left:80px;top:230px;width:1300px;font-size:104px;color:#0B1530}
     .bar{position:absolute;left:80px;top:600px;width:170px;height:10px;background:#2060AF;border-radius:5px}
     .arg{position:absolute;left:80px;top:650px;width:1180px;background:#F5F8FC;border:2px solid #DCE4EF;border-radius:22px;box-shadow:0 12px 30px rgba(60,72,96,.14);padding:22px 36px 18px}
-    .arg h4{font-weight:700;font-size:22px;letter-spacing:.16em;color:#2060AF;margin-bottom:8px}
+    .arg h4{font-weight:700;font-size:24px;letter-spacing:.16em;color:#2060AF;margin-bottom:8px}
     .arg ul{list-style:none;font-size:32px;font-weight:600;line-height:1.38}
     .arg li:before{content:'';display:inline-block;width:12px;height:12px;border-radius:50%;background:#2060AF;margin-right:16px;vertical-align:middle}'''
-    t=f'<div class="lab" style="top:146px">STORIA · VIDEOLEZIONE</div><div class="ct h1" data-in="0.2" data-d="0.7">GLI STATI UNITI:<br>DAL BOOM ECONOMICO<br>AL NEW DEAL</div><div class="bar" data-in="0.9" data-d="0.5"></div><div class="arg" data-in="1.2" data-d="0.5"><h4>ARGOMENTI</h4><ul>{items}</ul></div>'
+    LL=['GLI STATI UNITI:','DAL BOOM ECONOMICO','AL NEW DEAL']
+    LL=[f'<span class="yl">{x}</span>' if hl==i else x for i,x in enumerate(LL)]
+    L0,L1,L2=LL
+    t=f'<div class="lab" style="top:146px">STORIA · VIDEOLEZIONE</div><div class="ct h1" data-in="0.2" data-d="0.7">{L0}<br>{L1}<br>{L2}</div><div class="bar" data-in="0.9" data-d="0.5"></div><div class="arg" data-in="1.2" data-d="0.5"><h4>ARGOMENTI</h4><ul>{items}</ul></div>'
     body=f'<img class="logo" src="{LOGO}"><div class="hr"></div><div class="hr2"></div><div class="foot">STORIA</div><div class="pg">Pagina 1</div>'+t
     if cam: body+='<div class="cam"></div><div class="band"><b>Giorgio Mazzotti</b><i>PROF. DI STORIA</i></div>'
     return scene(body,css)
@@ -50,7 +53,7 @@ def title_scene(a):
     .ch{position:absolute;left:140px;top:290px;background:#FFE600;color:#0B1530}
     .ul{position:absolute;left:140px;top:700px;height:12px;max-width:1640px;background:#FFE600;border-radius:6px}'''
     body=glows()+f'<div class="chip ch" data-in="0.15">Argomento {a}</div><div class="tt h1" data-in="0.3" data-d="0.7">{e(ARG[a])}</div><div style="position:absolute;left:140px;top:700px;width:900px"><div class="ul2" data-bar="0.8,1.8" style="height:12px;background:#FFE600;border-radius:6px;width:0"></div></div>'
-    return dict(html=scene(body,css,True),dur=4.0,events=[(SU+'titolo.wav',0.1,'fx')])
+    return dict(html=scene(body,css,True),dur=3.6,events=[(SU+'titolo.wav',0.1,'fx')])
 
 # ---------- blocchi a finestra (max 3 card visibili) ----------
 def pages(S,per=3,cls='c',w=1180,left=80,top=330,gap=24,fs=38):
@@ -67,13 +70,13 @@ CARDCSS='''.c{background:#fff;border:2px solid #E3E8F0;border-radius:22px;paddin
 .c.on{border:5px solid #FFE600;padding:11px 29px}
 .c b{color:#2060AF;font-weight:800}'''
 HERO={'AN1':('+50%','reddito nazionale in dieci anni'),'AN2':('Jazz','radio, cinema e grandi città'),'AN3':('1920','suffragio universale alle donne'),
-'AN4':('Flappers','una nuova moda, nuovi comportamenti'),'AN5':('Harding e Coolidge','isolazionismo e liberismo'),'AN6':('1927','Sacco e Vanzetti condannati a morte'),
+'AN4':('Flappers','una nuova moda, nuovi comportamenti'),'AN5':('Harding e Coolidge','isolazionismo e liberismo'),'AN6':('1927','Sacco e Vanzetti condannati a morte'),'AN6_R2':('1927','Sacco e Vanzetti condannati a morte'),
 'AN7':('Sovrapproduzione','l\'offerta supera la domanda'),'AN8':('Ottobre 1929','Giovedì e Martedì nero'),'AN9':('1932','Roosevelt e il New Deal'),'AN10':('1935','il Social Security Act')}
 def appro_scene(name):
-    v=vox.info(name); S=v['sent']; title=S[0][2].rstrip('.:')
-    cards=[(a,b,H.escape(s)) for a,b,s in S[1:]]
+    v=vox.info(name); S=v['sent']; title=digits(S[0][2].rstrip('.:'))
+    cards=[(a,b,H.escape(digits(s))) for a,b,s in S[1:]]
     hero,cap=HERO[name]
-    hf=96 if len(hero)<9 else 64
+    hf=96 if len(hero)<9 else (64 if len(hero)<=13 else 50)
     css=CARDCSS+'''.hero{position:absolute;left:1330px;top:330px;width:510px;height:470px;background:#FFF3B0;border:4px solid #E3C340;border-radius:30px;box-shadow:0 14px 34px rgba(60,72,96,.18);display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:30px}
     .hero .hh{font-family:'Bricolage Grotesque';font-weight:800;color:#0B1530;line-height:1.05}
     .hero .cp{font-size:34px;font-weight:700;color:#0B1530;margin-top:18px}
@@ -112,7 +115,7 @@ def map_scene(n,hold=4.0):
     .bx.rt{font-weight:800;font-size:40px;letter-spacing:.06em}
     .lb{position:absolute;font-size:34px;font-weight:600;color:#0B1530;background:#fff;padding:2px 14px;transform:translate(-50%,-50%)}
     .leg{position:absolute;right:70px;top:140px;width:420px}
-    .leg div{display:flex;align-items:center;gap:14px;font-size:26px;font-weight:600;margin-bottom:8px}.leg i{width:34px;height:26px;border-radius:7px;border:3px solid}
+    .leg div{display:flex;align-items:center;gap:14px;font-size:34px;font-weight:600;margin-bottom:6px}.leg i{width:38px;height:28px;border-radius:7px;border:3px solid}
     .tt{position:absolute;left:80px;top:150px;width:1260px;font-size:54px;color:#2060AF}'''
     t=0.9; steps=[]
     for bid,vn in zip(M['order'],M['vox']):
@@ -129,7 +132,7 @@ def map_scene(n,hold=4.0):
     leg=''.join(f'<div><i style="background:{COL[k][0]};border-color:{COL[k][1]}"></i>{e(l)}</div>' for k,l in LEG)
     tt=f'<div class="tt h1" data-in="0.1">{e(M["title"])}</div>' if M['title'] else ''
     body=f'<svg style="position:absolute;left:0;top:0" width="1920" height="1080"><defs><marker id="ah" markerUnits="userSpaceOnUse" markerWidth="30" markerHeight="30" refX="20" refY="15" orient="auto"><path d="M4,5 L20,15 L4,25" fill="none" stroke="#0B1530" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>{svg}</svg>{tt}<div class="leg" data-in="0.2">{leg}</div>{boxes}{lbls}'
-    ev=[(s[4]['path'],s[2],'voce') for s in steps]
+    ev=[(s[4]['path'],s[2],'voce') for s in steps]+[(SU+'repaso.wav',steps[-1][3]+0.6,'fx')]
     return dict(html=scene(body,css),dur=total,events=ev,prov=any(s[4]['prov'] for s in steps),steps=[(s[0],s[1],s[2],s[3]) for s in steps])
 
 # ---------- numeri in cifre sullo schermo ----------
@@ -162,11 +165,13 @@ def dark_card(chip,big,sub='',hold=4.0,jingle=None,jt=0.1,voice=None):
     body=glows()+f'<div class="chip ch" data-in="0.15">{e(chip)}</div><div class="bg1 h1" data-in="0.3" data-d="0.6">{e(big)}</div><div class="sb" data-in="0.9">{e(sub)}</div>'
     return css,body
 def quiz_scene(a):
-    css,body=dark_card('Ora tocca a te','Quiz',f'{ARG[a]} · 5 domande · per continuare serve almeno l’80%')
-    return dict(html=scene(body,css,True),dur=5.0,events=[(SU+'quiz.wav',0.5,'fx')])
+    css,body=dark_card('Ora tocca a te','Quiz',f'{ARG[a]} · 5 domande · almeno l’80% per continuare')
+    body+='<div class="sb" data-in="1.4" style="top:760px;color:#FFE600">Rispondi · premi Controlla · poi Continua</div>'
+    return dict(html=scene(body,css,True),dur=4.4,events=[(SU+'quiz.wav',0.5,'fx')])
 def verifica_scene():
     css,body=dark_card('Verifica finale','Verifica di sbarramento','10 domande · per superarla serve almeno l’80%, cioè 8 risposte giuste')
-    return dict(html=scene(body,css,True),dur=6.0,events=[(SU+'quiz.wav',0.5,'fx')])
+    body+='<div class="sb" data-in="1.4" style="top:780px;color:#FFE600">Rispondi · premi Controlla · poi Continua</div>'
+    return dict(html=scene(body,css,True),dur=4.4,events=[(SU+'quiz.wav',0.5,'fx')])
 def compiti_intro():
     v=vox.info('COMPI')
     css,body=dark_card('Compiti','Compiti','')
@@ -221,7 +226,7 @@ def mappa_finale_scene(hold=4.0):
     .bx{border:4px solid;border-radius:20px;display:flex;align-items:center;justify-content:center;text-align:center;font-size:38px;line-height:1.25;font-weight:600;color:#0B1530;padding:14px 18px;min-height:110px}
     .bx.on{background:#FFE600!important;border-color:#0B1530!important}
     .ar{align-self:center;font-size:44px;color:#0B1530;line-height:1}
-    .leg{position:absolute;right:70px;top:140px;width:420px}.leg div{display:flex;align-items:center;gap:14px;font-size:26px;font-weight:600;margin-bottom:8px}.leg i{width:34px;height:26px;border-radius:7px;border:3px solid}
+    .leg{position:absolute;right:70px;top:140px;width:420px}.leg div{display:flex;align-items:center;gap:14px;font-size:34px;font-weight:600;margin-bottom:6px}.leg i{width:38px;height:28px;border-radius:7px;border:3px solid}
     h2{position:absolute;left:80px;top:170px;font-size:70px;color:#2060AF}'''
     t=0.9;pn='';ev=[];prov=False
     for i,(root,kids) in enumerate(cols):
@@ -234,7 +239,11 @@ def mappa_finale_scene(hold=4.0):
     body=f'<h2 class="h1" data-in="0.1">Mappa di tutta la lezione</h2><div class="leg" data-in="0.2">{leg}</div>{pn}'
     return dict(html=scene(body,css),dur=t+hold,events=ev,prov=prov)
 def compiti_scene(k,items):
+    v=vox.info(f'CP{k}'); S=v['sent']
     css=CARDCSS+'h2{position:absolute;left:80px;top:170px;font-size:76px;color:#0B1530}.c{font-size:40px}'
-    cs=''.join(f'<div class="c" data-in="{0.5+0.6*i}" data-d="0.5"><b>{n}.</b> {e(t)}</div>' for i,(n,t) in enumerate(items))
+    cs=''
+    for i,(n,t) in enumerate(items):
+        a=S[2*i][0]+0.3; b=S[2*i+1][1]+0.3
+        cs+=f'<div class="c" data-in="{0.5+0.4*i}" data-d="0.5" data-lit="{a:.2f},{b:.2f}"><b>{n}.</b> {e(t)}</div>'
     body=chrome(label='Compiti')+'<h2 class="h1" data-in="0.1">Compiti</h2>'+f'<div style="position:absolute;left:80px;top:300px;width:1700px;display:flex;flex-direction:column;gap:30px">{cs}</div>'
-    return dict(html=scene(body,css),dur=18.0,events=[])
+    return dict(html=scene(body,css),dur=v['dur']+1.6,events=[(v['path'],0.3,'voce')],prov=v['prov'])

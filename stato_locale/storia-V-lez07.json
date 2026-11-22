@@ -2,7 +2,7 @@
  "tag": "storia-V-lez07",
  "parti": {
   "1": {
-   "stato": "REVISIONATA",
+   "stato": "IN_MONTAGGIO",
    "voci": "kore",
    "quiz_ok": "si",
    "fermi_ok": "si",
@@ -18,6 +18,14 @@
   {
    "quando": "22/11 18:29",
    "testo": "VOCI NUOVE pronte sul ramo voci-storia-V-lez07 (testi_voci.json, 23 nuove: BENV1_R2 senza nome, DIC1 'Di cosa parliamo', M1_0..M1_6, M2_0..M2_5, M3_0..M3_4 = mappe del prof un riquadro per voce, MF_0..MF_2 = mappa finale). Le vecchie MD1-3 e BENV1 dicevano il nome del prof: non si usano. Le mappe inventate MAP1-5/MAPF1 si tolgono. DOMANDA: la mappa finale della lezione non esiste nel materiale del prof: faccio una schermata con le sue 3 mappe (radici e rami principali, solo parole sue, voce MF_0-2). Se vuoi altro dimmelo; intanto procedo così. Mi servono le voci entro le 9:00 italiane."
+  },
+  {
+   "quando": "22/11 19:36",
+   "testo": "Tre conferme (procedo cosi' se non rispondi): (1) ordine finale: glossario, ripasso finale 1-5, mappa finale (le 3 mappe del prof insieme), verifica di sbarramento (10 domande Excel), 'Per oggi e' tutto', sigla finale con avviso diritti, intro Compiti + 4 compiti del prof; (2) mappa 3 del prof senza domanda: titolo scritto da me con le sue parole 'Che cosa prevede il New Deal?' (voce M3_0_R2, gia' nel ramo voci); (3) Wikimedia/Commons e' bloccato dalla rete della sessione: niente immagini di repertorio negli approfondimenti, solo grafica e le slide del prof. Dimmi se vuoi altro."
+  },
+  {
+   "quando": "22/11 22:31",
+   "testo": "Voci in piu' sul ramo voci: AN6_R2 (approfondimento dell'arg. 3 piu' breve, cosi' ogni argomento sta entro 60 s) e CP1, CP2 (lettura dei 4 compiti del prof, parole sue, per non avere schede mute). Tolta la mappa finale come da tua risposta (le voci MF_0-2 non servono). Voci ancora da generare: BENV1_R2, DIC1, M1_0-6, M2_0-5, M3_0_R2, M3_1-4, SC5_3_R2, AN6_R2, CP1, CP2."
   }
  ],
  "domande_sara": [],
@@ -61,9 +69,29 @@
   {
    "quando": "22/11 18:25",
    "testo": "PRENOTATA 22/11: correzioni 22/11 presa da claude/wizardly-euler-cr95rn; consegna finale entro 23/11 11:00 italiane"
+  },
+  {
+   "quando": "22/11 18:35",
+   "testo": "22/11 19:20 trascrizione fatta (355 segmenti); confini argomenti e card decisi; in corso: modello slide e webcam 4:3, poi montaggio con voci provvisorie. Non c'e' ancora nulla da consegnare."
+  },
+  {
+   "quando": "22/11 18:52",
+   "testo": "22/11 20:25 (UTC 19:25): voci nuove inviate (24 testi), slide a card 40px pronte, mappe del prof ridisegnate BES, schede animate pronte; in corso: render pezzi prof (≈45 min) e schede animate (≈2 ore). Prossimo: assemblaggio con voci provvisorie, dispensa, controlli."
+  },
+  {
+   "quando": "22/11 19:36",
+   "testo": "22/11 21:20 UTC19:20: pezzi del prof e schede animate quasi pronti (voci provvisorie dove mancano); in corso dispensa, mappe PDF, sottotitoli, assemblaggio. Consegna prevista entro 23/11 09:00 UTC se le voci arrivano alle 07:00 UTC."
+  },
+  {
+   "quando": "22/11 20:43",
+   "testo": "20:43 UTC: prima versione completa montata (53:30, voci provvisorie dove mancano) in codifica di prova; rifaccio pezzi con testo piu' grande (chip 28px) e numerazione pagine; poi controlli, dispensa, mappe, sottotitoli. Voci reali attese dalle 07:00 UTC."
+  },
+  {
+   "quando": "22/11 22:33",
+   "testo": "22:33 UTC: applico le nuove regole della master (nessuna mappa finale, quiz 'Rispondi · premi Controlla · poi Continua', nessuna pausa muta oltre 2,5 s, nessuna card sola oltre 60 s, controllo rapido). Rifaccio pezzi e schede (circa 1 ora), poi dispensa, mappe, sottotitoli, controllo rapido e rapporto. Voci reali attese dalle 07:00 UTC."
   }
  ],
  "materia": "storia-V",
  "lezione": "7",
- "aggiornato": "2026-11-22 18:29:03"
+ "aggiornato": "2026-11-22 22:33:05"
 }

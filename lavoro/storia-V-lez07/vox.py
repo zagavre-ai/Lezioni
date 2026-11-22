@@ -5,7 +5,7 @@ os.makedirs(PROV,exist_ok=True); os.makedirs(ASRD,exist_ok=True)
 T={x['nome']:x['testo'] for x in json.load(open(W+'/testi_voci.json'))}
 def dur(f): return float(subprocess.run(['ffprobe','-v','error','-show_entries','format=duration','-of','csv=p=0',f],capture_output=True,text=True).stdout)
 def sentences(text):
-    parts=re.split(r'(?<=[.!?:])\s+',text.strip()); return [p for p in parts if p]
+    parts=re.split(r'(?<=[.!?])\s+',text.strip()); return [p for p in parts if p]
 def path(name):
     r=f'{REAL}/{name}.wav'
     if os.path.exists(r): return r,False

@@ -35,7 +35,7 @@ BASE='''
 html,body{margin:0}
 .dark{background:#0B1530;color:#fff}
 .dark .glow{position:absolute;border-radius:50%;filter:blur(90px);opacity:.55}
-.chip{display:inline-block;font-weight:700;font-size:26px;letter-spacing:.14em;text-transform:uppercase;padding:8px 20px;border-radius:10px}
+.chip{display:inline-block;font-weight:700;font-size:28px;letter-spacing:.14em;text-transform:uppercase;padding:8px 20px;border-radius:10px}
 .h1{font-family:'Bricolage Grotesque';font-weight:800;line-height:1.05}
 .yl{background:linear-gradient(transparent 58%,#FFE600 58%,#FFE600 92%,transparent 92%)}
 '''
@@ -72,7 +72,7 @@ def mux(video,events,dur,out,keep_video=True):
         g=vgain(f) if kind=='voce' else 0
         fl.append(f"[{i+1}:a]aformat=sample_rates=48000:channel_layouts=stereo,volume={g:.2f}dB,afade=t=in:st=0:d=0.03,adelay={int(t0*1000)}|{int(t0*1000)}[x{i}]")
     mix=''.join(f'[x{i}]' for i in range(len(events)))
-    fg=';'.join(fl)+(';' if fl else '')+(f"{mix}amix=inputs={len(events)}:normalize=0,apad[am];[am]atrim=duration={dur:.3f},afade=t=out:st={dur-0.03:.3f}:d=0.03[ao]" if events else f"anullsrc=r=48000:cl=stereo,atrim=duration={dur:.3f}[ao]")
+    fg=';'.join(fl)+(';' if fl else '')+(f"{mix}amix=inputs={len(events)}:normalize=0,alimiter=limit=0.84:level=0,apad[am];[am]atrim=duration={dur:.3f},afade=t=out:st={dur-0.03:.3f}:d=0.03[ao]" if events else f"anullsrc=r=48000:cl=stereo,atrim=duration={dur:.3f}[ao]")
     cmd=['ffmpeg','-y','-v','error','-i',video]+ins+['-filter_complex',fg,'-map','0:v','-map','[ao]','-c:v','copy','-c:a','pcm_s16le','-ar','48000','-ac','2','-shortest',out]
     r=subprocess.run(cmd,capture_output=True,text=True)
     if r.returncode: raise SystemExit('mux '+out+': '+r.stderr[-800:])

@@ -7,7 +7,8 @@ TR=SU+'trans.wav'
 def build_scene(name,d,trans=True,force=False):
     out=f'{B}/sc/{name}.mkv'
     mark=out+'.ok'
-    sig=json.dumps([d['dur'],d.get('prov'),[(os.path.basename(f),round(t,2)) for f,t,k in d['events']]])
+    VER='v5'
+    sig=VER+json.dumps([d['dur'],d.get('prov'),[(os.path.basename(f),round(t,2)) for f,t,k in d['events']]])
     if os.path.exists(mark) and open(mark).read()==sig and not force: return out
     tmp=f'{B}/sc/{name}_v.mp4'
     render_scene(d['html'],d['dur'],tmp)
@@ -27,7 +28,6 @@ def scene_list():
         L.append((f'quiz{a}',lambda a=a:quiz_scene(a)))
     L.append(('glos',glossario_scene))
     for a in range(1,6): L.append((f'rip{a}',lambda a=a:ripasso_scene(a)))
-    L.append(('mapf',mappa_finale_scene))
     L.append(('verif',verifica_scene))
     v=vox.info('FIN1')
     L.append(('fin',lambda:dict(html=scene(glows()+'<div style="position:absolute;left:140px;top:420px;font-size:130px;color:#fff" class="h1" data-in="0.3">Per oggi è tutto</div>','',True),dur=v['dur']+1.4,events=[(v['path'],0.5,'voce')],prov=v['prov'])))

@@ -4,7 +4,7 @@ from lib import *
 from data import *
 SEG=json.load(open(W+'/trasc.json'))
 ORIG=W+'/mat/LEZIONE 7 GLI STATI UNITI DAL BOOM ECONOMICO AL NEW DEAL.mp4'
-os.makedirs(B+'/pz',exist_ok=True)
+os.makedirs(B+'/pz4',exist_ok=True)
 LEAD=0.30; TAIL=0.30; GAPMAX=2.5
 def seg_range(t0,t1):
     return [i for i,s in enumerate(SEG) if s['inizio']>=t0-0.05 and s['fine']<=t1+0.05]
@@ -78,7 +78,7 @@ def states_for(t0,t1):
     st=[(t0,cur)]+[(t,p) for t,p in ev if t0+0.01<t<t1-0.5]
     return st
 def run_piece(name,t0,t1,force=False,states=None):
-    out=f'{B}/pz/{name}.mkv'
+    out=f'{B}/pz4/{name}.mkv'
     if os.path.exists(out+'.ok') and not force: return out
     P=build_piece(name,t0,t1,states or states_for(t0,t1),None)
     L=P['L']
@@ -107,4 +107,9 @@ if __name__=='__main__':
         t=time.time(); f=run_piece(n,t0,t1); print(n,round(dur(f),1),round(time.time()-t),'s',flush=True)
 
 def run_intro():
-    return run_piece('P0',0.9,170.9,states=[(0.9,B+'/st/cover_prof.png')])
+    sys.path.insert(0,'/home/claude/w/b')
+    from scenes import cover_html
+    pg=page(); pngs=[]
+    for k,hl in enumerate([None,0,1,2]):
+        pg.set_content(cover_html(True,anim=False,hl=hl)); pg.wait_for_timeout(300); pg.evaluate('render(9)'); f=f'{B}/st/cover_prof{k}.png'; pg.screenshot(path=f); pngs.append(f)
+    return run_piece('P0',0.9,170.9,states=[(0.9,pngs[0]),(55.0,pngs[1]),(100.0,pngs[2]),(140.0,pngs[3])])
