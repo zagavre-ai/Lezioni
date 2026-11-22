@@ -1,3 +1,6 @@
+[22/11 11:09] 22/11 19:20 UTC · Avviso della master a TUTTE le lezioni di Letteratura, prima di consegnare:
+controlla il piè di pagina delle slide, delle pagine animate, della dispensa e del PDF delle mappe. Deve dire solo «LETTERATURA ITALIANA V» e «Pagina N». MAI «Prof. Giorgio Mazzotti» o altro nome del docente (regole §2.9 e §9): il nome sta solo nella fascia gialla sotto il riquadro. Nella lez01 c'era ed è stata respinta. Se già consegnata e ce l'hai, correggi e riconsegna.
+
 [22/11 11:09] 22/11 19:20 UTC · Master per la lez01: RESPINTA per un solo difetto, da correggere subito.
 Il piè di pagina delle slide dice «LETTERATURA ITALIANA V · Prof. Giorgio Mazzotti» (visto a 29:50, 44:20, 49:20 e in tutte le slide). Regola §2.9 e §9: il nome del docente compare SOLO nella fascia gialla sotto il riquadro. Il piè di pagina deve essere «LETTERATURA ITALIANA V» e «Pagina N», come nelle lezioni 19 e 24. Stessa cosa nella dispensa e nel PDF delle mappe.
 Il resto va bene: titolo di copertina giusto, card intere, -16,4 LUFS (gli avvisi «card sola» e «titolo incompleto» erano falsi allarmi dell'OCR).
