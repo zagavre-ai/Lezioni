@@ -2,10 +2,10 @@
  "tag": "storia-V-lez15",
  "parti": {
   "1": {
-   "stato": "IN_REVISIONE"
+   "stato": "IN_MONTAGGIO"
   }
  },
- "manca": "",
+ "manca": "montaggio finale, sottotitoli, dispensa, controllo agente separato, rapporto",
  "serve_master": [
   {
    "quando": "22/11 18:35",
@@ -25,7 +25,11 @@
   {
    "quando": "22/11 18:35",
    "testo": "correzioni 22/11: presa da claude/wizardly-thompson-2cigpw"
+  },
+  {
+   "quando": "22/11 19:06",
+   "testo": "22/11 19:10 UTC: fatto: materiali scaricati, trascrizione, piano tagli su frase finita, slide a finestra 40 px (3 card), voci controllate (11 da rifare, chieste), audio prof da originale -17,1 LUFS timbro -16,9 dB (orig -17,5). In corso: pezzi del prof, schede blu, approfondimenti. Mancano: montaggio, verifica+compiti nel video, sottotitoli, dispensa, controlli, rapporto. Voci nuove attese: BEN_R2, DP, CPT1-4 + 11 _R2."
   }
  ],
- "aggiornato": "2026-11-22 18:54:56"
+ "aggiornato": "2026-11-22 19:06:30"
 }
