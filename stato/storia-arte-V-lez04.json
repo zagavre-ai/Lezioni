@@ -2,16 +2,25 @@
  "tag": "storia-arte-V-lez04",
  "parti": {},
  "manca": "",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "22/11 22:46",
+   "testo": "Storia arte lez04: (1) Wikimedia Commons bloccata dalla rete della chat: uso solo le immagini del PDF del prof; se servono opere in piu' (Monet, Renoir, Degas, Manet in alta risoluzione) dite se la master puo' fornirle. (2) La lezione dura 78,8 min: prevedo 2 Parti con spiegone in apertura della Parte 2 (testi_voci.json in arrivo). (3) Non ho gli strumenti di montaggio del modello Letteratura lez19 nel repository: li ricostruisco io; se c'e' un ramo con gli script approvati, indicatemelo."
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
    "quando": "22/11 22:43",
    "testo": "storia arte 22/11: presa da claude/clever-noether-rb6ofj"
+  },
+  {
+   "quando": "22/11 22:46",
+   "testo": "storia arte 22/11 22:50: materiale scaricato (video 78,8 min 1092x614, slide 25 pag, mappe, verifica xlsx, compiti); trascrizione in corso. Esistono voci Kore vecchie (23, 11/11, struttura a 2 Parti) sul ramo voci: le riuso solo dove le parole coincidono. Wikimedia non raggiungibile da qui (403 proxy): le opere le prendo dal PDF del prof con pdfimages."
   }
  ],
  "materia": "Storia dell'arte V",
  "lezione": "Lezione 4 · L'Impressionismo",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-22 22:43:18"
+ "aggiornato": "2026-11-22 22:46:17"
 }
