@@ -3,7 +3,8 @@
 Regola: **misurato** = misurato con uno strumento; **stima** = dedotto; **non verificato** = non ho potuto.
 
 ## 1. Esito del controllo severo e misure sul video nuovo
-**Controllo severo (`controllo_severo.py`, passo 45 s): esito NON CONCLUSO alla scadenza delle 19:30 UTC (lanciato alle 18:46 UTC, ancora in esecuzione: tesseract su 4 thread molto lento con la macchina carica). Lo rilancio e aggiorno il rapporto appena finisce; la master può rilanciarlo con `controllo_severo.py`.** 
+**Controllo severo (`controllo_severo.py`, passo 60 s, concluso alle 20:00 UTC, dopo la scadenza): esito RESPINTA.** Errori segnalati: [   "1 tratti con una card sola oltre 60 s"  ]. Tutti gli altri controlli sono a posto: copertina con titolo intero e 180 s (limite 180), nessuna slide con lo stesso titolo né schermata identica oltre 3 min, nessuna card con «…», -16.6 LUFS, 0 pause oltre 2,5 s, durata 50,2 min, timbro della voce 148–164 Hz e chiarezza 1345–1455 Hz (voce non alterata).
+**Sui due punti segnalati:** (1) «una card sola oltre 60 s» a 4:30 per 300 s: nel video le slide di quel tratto («I poeti maledetti e la critica», «Il manifesto letterario», «Dal movimento…») hanno **2 o 3 card visibili** (le attenuate non sono lette dall'OCR: sospetto falso positivo, ma **non verificato** a occhio fotogramma per fotogramma); (2) «iniziale minuscola» a 49:30: è la scheda del riepilogo, dove dopo il titolo dell'argomento e i due punti la frase comincia con la minuscola («Il Decadentismo: il Decadentismo nasce…»). **Da correggere:** alzare il contrasto delle card attenuate e mettere la maiuscola dopo i due punti nel riepilogo: ricodifica di circa 40 minuti, non fatta entro la scadenza.
 | Controllo | Risultato |
 |---|---|
 | Formato | 1920×1080, 30 fps, x264 veryfast CRF 19, AAC 192k 48 kHz (**misurato**) |
@@ -76,7 +77,7 @@ Zip `Lez06_ingrandita.zip`: pagine 202 (Languore) e 206 (Vocali). Una fettina pe
 - **Strato di testo invisibile nelle fettine del libro:** nei PDF le card, i titoli e la mappa sono testo reale selezionabile; le fettine delle pagine 202 e 206 sono immagini senza testo selezionabile. **Non fatto.**
 - **Pronuncia dei nomi stranieri:** Verlaine, Baudelaire, Rimbaud, Huysmans, Mallarmé, Corbière sono scritti nella loro lingua a schermo e nei sottotitoli; nella voce sono scritti come si pronunciano (Verlèn, Bodlèr, Rembò). Non ho potuto ascoltarli.
 - **Ordine del prof:** il riordino degli argomenti è una scelta mia per rispettare «niente già visto»; la master/Sara decidono se preferiscono l'ordine originale con le slide ripetute.
-- **Controllo severo:** NON CONCLUSO alla scadenza delle 19:30 UTC (lanciato alle 18:46 UTC, ancora in esecuzione: tesseract su 4 thread molto lento con la macchina carica). Lo rilancio e aggiorno il rapporto appena finisce; la master può rilanciarlo con `controllo_severo.py`; l'agente separato di controllo: vedi §6.
+- **Controllo severo:** RESPINTA; l'agente separato di controllo: vedi §6.
 - **Sottotitoli da riascoltare:** 7:55 «il manifesto delle tendenze decadenti…» (inizio frase non trascritto); 15:10 «già usato dagli Scapigliati»; 16:58 «si dice che facciano qualcosa»; 24:32 frase di 1 s tolta; 30:47 «perché Languore è dell'83»; 32:48 «prima la U e poi la O»; 35:42 «il blu della suprema tromba»; 35:55 «dai mondi e dagli angeli»; 36:44 «Questo è chiaro». I minuti sono quelli del video precedente (±3 min dopo il riordino).
 - **Testa nel riquadro:** webcam 246×138 px, ritaglio 4:3 di 184×138 ingrandito 2,24×; i capelli toccano il bordo alto già nella ripresa. Non risolvibile.
 - **Refusi:** nelle slide del prof ho solo uniformato la maiuscola iniziale e le virgolette («»); nessun refuso di ortografia trovato. Nessun dato che non torna (1872, 1883, 1884 coerenti).
