@@ -22,6 +22,10 @@
   {
    "quando": "22/11 20:50",
    "testo": "lez18: controllo delle voci Kore GIA' presenti in voci-storia-V-lez18 (trascrizione Parakeet): troncate in fondo AN2a (ampiezza finale 0,57, 'De Gasperi' tagliato), AN2b, AN6a ('Moro' mancante), R6. Aggiunte come AN2a_R2, AN2b_R2, AN6a_R2, R6_R2 in testi_voci.json (stesso testo). Le altre voci vecchie risultano intere. Parte 1 montata (50,2 min), Parte 2 in codifica."
+  },
+  {
+   "quando": "22/11 21:21",
+   "testo": "lez18: voci Kore GIA' presenti con sigle non spiegate (regola BES): CECA in R4, AN4c, SC4_4; NATO in AN4c; DC in R6; ENEL in R6, AN6b, RF2, SC6_2. Aggiunte le versioni _R2 con la sigla spiegata (testi in testi_voci.json). ATTENZIONE: per ENEL ho usato 'ente energetico nazionale' come lo dice il prof (nel nome vero e' 'Ente nazionale per l'energia elettrica'): da confermare. Totale voci da generare per me: 40 (30 nuove + 10 _R2). Elenco: voci_da_generare.json nel mio ramo di lavoro."
   }
  ],
  "domande_sara": [],
@@ -67,5 +71,5 @@
    "testo": "19:10 UTC: Parte 1 in codifica (prof con card/sotto-slide, mappe BES, schede blu del modello); Parte 2 dopo. Voci nuove provvisorie (espeak) in attesa delle Kore."
   }
  ],
- "aggiornato": "2026-11-22 20:50:06"
+ "aggiornato": "2026-11-22 21:21:26"
 }
