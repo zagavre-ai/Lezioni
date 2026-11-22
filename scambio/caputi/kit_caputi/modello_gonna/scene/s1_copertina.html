@@ -1,0 +1,10 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="base.css"><style>#k1{position:absolute;left:100px;top:170px;font:700 26px FigB;letter-spacing:.14em;color:#2060AF}
+#t1{position:absolute;left:96px;top:215px;font:400 150px Bri;opacity:0}
+#s1{position:absolute;left:100px;top:400px;font:600 34px FigS;color:#2060AF;opacity:0}
+#li{position:absolute;left:100px;top:500px;font:400 40px/1.6 Fig}
+#li div{opacity:0}#li b{font-family:FigB}
+#fig{position:absolute;right:140px;top:60px;height:960px;opacity:0}</style></head><body><div id="k1">LABORATORI TECNOLOGICI ED ESERCITAZIONE</div><div id="t1">La gonna</div>
+<div id="s1">Tecnico Sistema Moda · III e IV anno</div>
+<div id="li"><div id="l1">① Le misure della <b>gonna base a tubo</b></div><div id="l2">② Il <b>tracciato del dietro</b></div><div id="l3">③ La <b>mappa</b> della gonna a tubo</div><div id="l4">④ <b>Mettiti alla prova</b></div></div>
+<img id="fig" src="figurino.png"><div class="foot">LABORATORI TECNOLOGICI ED ESERCITAZIONE · Prof.ssa Piera Caputi</div><script>window.STEPS=[];function setSteps(s){window.STEPS=s}const ease=x=>{x=Math.max(0,Math.min(1,x));return 1-Math.pow(1-x,3)};function show(id,t0,t,d){const e=document.getElementById(id);const p=ease((t-t0)/(d||0.5));e.style.opacity=p;e.style.transform=`translateY(${16*(1-p)}px)`}function render(t){const s=STEPS[0]?STEPS[0][0]:1;show('t1',0.2,t,0.8);show('s1',0.8,t);document.getElementById('fig').style.opacity=ease((t-0.4)/1.2);
+const s2=s+6.0;['l1','l2','l3','l4'].forEach((id,i)=>show(id,s2+i*0.9,t));}</script></body></html>

@@ -1,0 +1,12 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="base.css"><style>#fig{position:absolute;left:120px;top:110px;height:900px;opacity:0}
+#cap1{position:absolute;left:470px;top:960px;font:600 26px FigS;color:#2060AF;opacity:0}
+#plat{position:absolute;left:1260px;top:150px;height:560px;border:2px solid #CBD5E1;border-radius:12px;opacity:0}
+#cap2{position:absolute;left:1180px;top:730px;width:640px;text-align:center;font:600 26px FigS;color:#2060AF;opacity:0}
+#tt{position:absolute;left:560px;top:120px;font:400 64px Bri;opacity:0}
+.card{width:640px;left:560px}</style></head><body><div class="k">IL MODELLO BASE · GONNA A TUBO</div><div class="rule"></div><img id="fig" src="figurino.png"><div id="cap1">Figurino ad acquerello</div>
+<div id="tt">Gonna base a tubo</div>
+<div class="card" id="c1" style="top:260px">Linea leggermente <b>a tubo</b>,<br>lunghezza al <b>centro ginocchio</b></div>
+<div class="card" id="c2" style="top:470px">Un <b>davanti</b> e un <b>dietro</b>,<br>con <b>due riprese</b> ciascuno</div>
+<img id="plat" src="plat.png"><div id="cap2">Il disegno tecnico (plat) della professoressa</div><div class="foot">LABORATORI TECNOLOGICI ED ESERCITAZIONE · Prof.ssa Piera Caputi</div><script>window.STEPS=[];function setSteps(s){window.STEPS=s}const ease=x=>{x=Math.max(0,Math.min(1,x));return 1-Math.pow(1-x,3)};function show(id,t0,t,d){const e=document.getElementById(id);const p=ease((t-t0)/(d||0.5));e.style.opacity=p;e.style.transform=`translateY(${16*(1-p)}px)`}function render(t){const s=STEPS[0]?STEPS[0][0]:1;document.getElementById('fig').style.opacity=ease((t-0.1)/1.0);show('cap1',0.6,t);show('tt',0.3,t);
+show('c1',s+2.0,t);show('c2',s+5.9,t);document.getElementById('plat').style.opacity=ease((t-s-5.9)/0.6);show('cap2',s+6.3,t);
+document.getElementById('c1').classList.toggle('on',t>s+2&&t<s+5.6);document.getElementById('c2').classList.toggle('on',t>s+5.9&&t<s+10);}</script></body></html>

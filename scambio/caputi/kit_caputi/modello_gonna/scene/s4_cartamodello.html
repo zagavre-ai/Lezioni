@@ -1,0 +1,79 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="base.css"><style>
+#tit{position:absolute;left:1000px;top:120px;font:400 54px Bri}
+#sub{position:absolute;left:1000px;top:196px;font:600 26px FigS;color:#2060AF}
+.card{left:1000px;top:270px;width:860px}
+#chips{position:absolute;left:1000px;top:720px;width:860px;display:flex;flex-wrap:wrap;gap:14px}
+.chip{font:600 30px FigS;padding:10px 20px;border-radius:12px;background:#DCEEFB;border:3px solid #1D4ED8;opacity:0}
+svg text{font-family:FigB;font-weight:700}
+</style></head><body>
+<div class="k">CARTAMODELLO · GONNA BASE A TUBO</div><div class="rule"></div>
+<div class="foot">LABORATORI TECNOLOGICI ED ESERCITAZIONE · Prof.ssa Piera Caputi</div>
+<div id="tit">Tracciato del dietro</div>
+<div id="sub">Taglia 42 · vita 34 cm · bacino 47 cm · 1 UA = 21 cm</div>
+<div class="card" id="card"></div>
+<div id="chips"></div>
+<svg id="sv" width="1920" height="1080" style="position:absolute;left:0;top:0"></svg>
+<script>
+const S=14, X0=780, Y0=150;               // 1 cm = 12,4 px; A in alto a destra
+const P=(x,y)=>[X0-x*S, Y0+y*S];            // x in cm verso sinistra, y in cm verso il basso
+const pts={A:[0,0],B:[0,18],C:[0,58],D:[23,18],E:[23,58],F:[23,0],F1:[19.5,0],A1:[0,1.5]};
+const yw=x=>1.5-x*1.5/19.5;                 // retta A1-F1
+pts.G=[9.75,yw(9.75)]; pts.H=[11.5,18]; pts.G1=[8.25,yw(8.25)]; pts.G2=[11.25,yw(11.25)];
+{const dx=pts.H[0]-pts.G[0],dy=pts.H[1]-pts.G[1],L=Math.hypot(dx,dy); pts.I=[pts.G[0]+dx*12/L,pts.G[1]+dy*12/L];}
+pts.E1=[22,58];
+const NS='http://www.w3.org/2000/svg', sv=document.getElementById('sv');
+function el(tag,attrs,step,kind){const e=document.createElementNS(NS,tag);for(const k in attrs)e.setAttribute(k,attrs[k]);e.dataset.step=step;e.dataset.kind=kind||'fade';sv.appendChild(e);return e}
+function line(a,b,step,st){const [x1,y1]=P(...pts[a]),[x2,y2]=P(...pts[b]);
+  const e=el('line',Object.assign({x1,y1,x2,y2,stroke:'#0B1530','stroke-width':3,'stroke-linecap':'round'},st||{}),step,'draw');e.dataset.len=Math.hypot(x2-x1,y2-y1);return e}
+function dot(n,step,dx,dy){const [x,y]=P(...pts[n]);el('circle',{cx:x,cy:y,r:7,fill:'#C2410C'},step);
+  const t=el('text',{x:x+(dx||12),y:y+(dy||-12),'font-size':30,fill:'#0B1530'},step);t.textContent=n}
+function dim(txt,x,y,step,anchor){const t=el('text',{x,y,'font-size':30,fill:'#1D4ED8','text-anchor':anchor||'middle'},step);t.textContent=txt}
+// sagoma (passo 10) disegnata per prima, sotto alle linee
+{const [a1x,a1y]=P(...pts.A1),[g1x,g1y]=P(...pts.G1),[ix,iy]=P(...pts.I),[g2x,g2y]=P(...pts.G2),[f1x,f1y]=P(...pts.F1),[dx,dy]=P(...pts.D),[e1x,e1y]=P(...pts.E1),[cx,cy]=P(...pts.C);
+ const d=`M${a1x},${a1y} L${g1x},${g1y} L${ix},${iy} L${g2x},${g2y} L${f1x},${f1y} C${f1x-S*2.2},${f1y+S*7} ${dx},${dy-S*7} ${dx},${dy} L${e1x},${e1y} L${cx},${cy} Z`;
+ el('path',{d,fill:'#4FC3F7','fill-opacity':.85,stroke:'#0B1530','stroke-width':3},10);
+ const t=el('text',{x:(cx+dx)/2+10,y:Y0+40*S,'font-size':32,fill:'#0B1530','text-anchor':'middle'},10);t.textContent='Dietro';
+ const t2=el('text',{x:cx-22,y:Y0+30*S,'font-size':24,fill:'#0B1530',transform:`rotate(-90 ${cx-22} ${Y0+30*S})`,'text-anchor':'middle'},10);t2.textContent='centro dietro';
+}
+// passo 1: angolo retto e guide
+line('A','C',1,{stroke:'#94A3B8','stroke-dasharray':'10 8','stroke-width':2});
+line('A','F',1,{stroke:'#94A3B8','stroke-dasharray':'10 8','stroke-width':2});
+dot('A',1,12,-14);
+dot('B',2,14,6); dim('18 cm',X0+24,Y0+10*S,2,'start');
+dot('C',3,14,8); dim('58 cm',X0+24,Y0+40*S,3,'start');
+line('B','D',4,{stroke:'#C2410C','stroke-width':4}); dot('D',4,-34,6); dim('23 cm',X0-18.5*S,Y0+18*S-16,4);
+line('C','E',5); line('A','F',5); line('F','D',5); line('D','E',5); dot('E',5,-36,34); dot('F',5,-30,-12);
+dot('F1',6,-14,-18); dim('19,5 cm',X0-9.75*S,Y0-54,6);
+dot('A1',7,14,14); line('A1','F1',7,{stroke:'#C2410C','stroke-width':4});
+{const [gx,gy]=P(...pts.G);el('circle',{cx:gx,cy:gy,r:6,fill:'#C2410C'},8);} dot('H',8,8,30); line('G','H',8,{stroke:'#94A3B8','stroke-dasharray':'8 6','stroke-width':2});
+dot('G1',8,-72,44); dot('G2',8,26,44); dot('I',8,12,10); line('G1','I',8,{stroke:'#C2410C'}); line('G2','I',8,{stroke:'#C2410C'});
+dot('E1',9,6,36); line('E1','D',9,{stroke:'#C2410C','stroke-width':4});
+const CARDS={1:'Angolo retto con vertice nel punto <b>A</b>',
+2:'Livello bacino, punto <b>B</b>:<br>UA − 3 cm = <b>18 cm</b>',
+3:'Lunghezza gonna, punto <b>C</b>:<br><b>58 cm</b>',
+4:'Larghezza bacino <b>BD</b>:<br>½ semicirconferenza bacino − 0,5 cm = <b>23 cm</b>',
+5:'Stessa misura in <b>CE</b> e in <b>AF</b>.<br>Si uniscono <b>F</b>, <b>D</b> ed <b>E</b>',
+6:'Larghezza vita, punto <b>F1</b>:<br>½ semicirconferenza vita − 0,5 cm<br>+ 3 cm di ripresa = <b>19,5 cm</b>',
+7:'<b>A1</b>: 1,5 cm sotto il punto A,<br>collegato a <b>F1</b>',
+8:'Ripresa: da <b>G</b> verso <b>H</b>.<br><b>G1</b> e <b>G2</b> a 1,5 cm da G.<br>Lunghezza UA − 9 = <b>12 cm</b> (punto <b>I</b>)',
+9:'Sul fondo si rientra di 1 cm:<br>punto <b>E1</b>, collegato a <b>D</b>',
+10:'Si raccordano i punti con linee armoniche:<br><b>la sagoma del dietro</b>'};
+const CHIPS={2:'B = 18 cm',3:'C = 58 cm',4:'BD = 23 cm',6:'F1 = 19,5 cm',8:'ripresa 12 cm',9:'E1 = 1 cm'};
+const chipsEl=document.getElementById('chips');const chipEls={};
+for(const k in CHIPS){const c=document.createElement('div');c.className='chip';c.textContent=CHIPS[k];chipsEl.appendChild(c);chipEls[k]=c}
+window.STEPS=[];function setSteps(s){window.STEPS=s}
+const ease=x=>{x=Math.max(0,Math.min(1,x));return 1-Math.pow(1-x,3)};
+function render(t){
+  let cur=0;for(let i=0;i<STEPS.length;i++){if(t>=STEPS[i][0]-0.2)cur=i+1}
+  const start=n=>STEPS[n-1]?STEPS[n-1][0]:1e9;
+  sv.querySelectorAll('[data-step]').forEach(e=>{const n=+e.dataset.step,p=ease((t-start(n)+0.2)/(e.dataset.kind=='draw'?1.0:0.5));
+     if(e.dataset.kind=='draw'){const L=+e.dataset.len;e.style.strokeDasharray=e.getAttribute('stroke-dasharray')||L;
+        if(!e.getAttribute('stroke-dasharray')){e.style.strokeDasharray=L;e.style.strokeDashoffset=L*(1-p)}else{e.style.opacity=p}}
+     else e.style.opacity=p});
+  const card=document.getElementById('card');
+  if(cur>0){if(card.dataset.n!=cur){card.innerHTML=CARDS[cur];card.dataset.n=cur}
+     const p=ease((t-start(cur)+0.2)/0.4);card.style.opacity=p;card.style.transform=`translateY(${16*(1-p)}px)`;
+     const fine=STEPS[cur-1][0]+STEPS[cur-1][1];card.classList.toggle('on',t<fine+0.3)}
+  for(const k in chipEls){chipEls[k].style.opacity=ease((t-start(+k)-1.0)/0.5)}
+}
+</script></body></html>

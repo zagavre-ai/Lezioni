@@ -1,0 +1,24 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="base.css"><style>
+html,body{background:transparent!important}
+#tt{position:absolute;left:60px;top:120px;font:400 60px Bri;opacity:0}
+.card{left:60px;width:1300px}
+#nome{position:absolute;left:1455px;top:500px;width:370px;padding:10px 0;text-align:center;background:#FFE600;color:#0B1530;font:700 30px FigB;transform:rotate(-3deg);border-radius:4px}
+#ruolo{position:absolute;left:1455px;top:560px;width:370px;text-align:center;font:600 22px FigS;color:#2060AF}
+</style></head><body>
+<div class="k">LA PROFESSORESSA SPIEGA</div><div class="rule"></div>
+<div class="foot">LABORATORI TECNOLOGICI ED ESERCITAZIONE · Prof.ssa Piera Caputi</div>
+<div id="tt">Le misure della gonna base a tubo</div>
+<div class="card" id="c1" style="top:250px"><b>Taglia 42</b> · statura <b>168 cm</b></div>
+<div class="card" id="c2" style="top:420px"><b>1 UA</b> (unità antropometrica) = <b>21 cm</b></div>
+<div class="card" id="c3" style="top:590px">Semicirconferenza <b>vita 34 cm</b><br>Semicirconferenza <b>bacino 47 cm</b></div>
+<div class="card" id="c4" style="top:250px">Lunghezza della gonna<br>= <b>UA × 3 − 5 cm</b> = <b>58 cm</b></div>
+<div class="card" id="c5" style="top:500px">Valore della vestibilità = <b>0</b></div>
+<div id="nome">Prof.ssa Piera Caputi</div><div id="ruolo">Laboratori tecnologici</div>
+<script>
+const ease=x=>{x=Math.max(0,Math.min(1,x));return 1-Math.pow(1-x,3)};
+const T={c1:[6.0,19.0],c2:[19.3,26.0],c3:[33.0,56.5],c4:[57.0,76.3],c5:[76.5,88.0]};
+function render(t){document.getElementById('tt').style.opacity=ease((t-0.2)/0.6);
+ for(const id in T){const [a,b]=T[id];const e=document.getElementById(id);let p=ease((t-a)/0.5);
+   if(['c1','c2','c3'].includes(id)) p*=1-ease((t-56.6)/0.4);
+   e.style.opacity=p;e.style.transform=`translateY(${16*(1-ease((t-a)/0.5))}px)`;e.classList.toggle('on',t>=a&&t<b)}}
+</script></body></html>
