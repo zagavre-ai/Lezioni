@@ -7,16 +7,25 @@
   }
  },
  "manca": "",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "22/11 22:48",
+   "testo": "Storia arte lez03: Wikimedia/it.wikipedia sono bloccati dalla rete (403 proxy). Uso le immagini del PDF del prof (max ~1200 px) migliorate con ingrandimento di qualità. Se servono opere in alta risoluzione da Commons (Courbet, Millet, Daumier, Fattori, Lega, Signorini, Crystal Palace, Opéra Garnier), mi dite se le può scaricare la master. Mappe del prof: un solo PDF con 'Realismo in Francia' e 'Realismo in Italia'; per Barbizon/architettura il prof non ha mappe: quegli argomenti chiudono con la pillola."
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
    "quando": "22/11 22:42",
    "testo": "storia arte 22/11: presa da claude/loving-lamport-26838p"
+  },
+  {
+   "quando": "22/11 22:48",
+   "testo": "materiali scaricati (video, slide 21 pag, mappe 1 pag con 2 mappe, domande). In corso: trascrizione, slide, voci"
   }
  ],
  "materia": "Storia dell'arte V",
  "lezione": "Lezione 3 · Il Realismo",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-22 22:42:30"
+ "aggiornato": "2026-11-22 22:48:08"
 }
