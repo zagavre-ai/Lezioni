@@ -3,6 +3,7 @@ W='/home/user/work';B=W+'/build'
 VOX=W+'/vc/scambio/storia-V-lez11/vox'
 TXT={x['nome']:x['testo'] for x in json.load(open(W+'/vc/scambio/storia-V-lez11/testi_voci.json'))}
 def vpath(n):
+    if os.path.exists(f'{VOX}/{n}_R2.wav'): return f'{VOX}/{n}_R2.wav'
     for d in (VOX,B+'/vox_prov'):
         p=f'{d}/{n}.wav'
         if os.path.exists(p): return p
@@ -35,6 +36,7 @@ def cifre(txt):
 def frasi(txt):
     return [s.strip() for s in re.split(r'(?<=[.!?])\s+',txt.strip()) if s.strip()]
 def asr_words(n):
+    if os.path.exists(f'{VOX}/{n}_R2.wav'): n=n+'_R2'
     p=f'{B}/asr/{n}.json'
     if not os.path.exists(p): return None
     segs=json.load(open(p));w=[]

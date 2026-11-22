@@ -28,5 +28,5 @@ I=float(re.findall(r'\n\s+I:\s+(-?[\d.]+) LUFS',e)[-1]);g=-16-I;print('LUFS grez
 subprocess.run(['ffmpeg','-y','-v','error','-i',B+'/audio_raw.wav','-af',f'volume={g:.2f}dB,alimiter=limit=0.89:attack=3:release=60:level=false','-ar','48000',B+'/audio_fin.wav'],check=True)
 encode(names,B+'/video_noaudio.mp4',crf)
 out=B+'/Storia_Lez11_Parte1_1080p.mp4'
-subprocess.run(['ffmpeg','-y','-v','error','-i',B+'/video_noaudio.mp4','-i',B+'/audio_fin.wav','-c:v','copy','-c:a','aac','-b:a','192k','-ar','48000','-ac','2','-movflags','+faststart','-shortest',out],check=True)
+subprocess.run(['ffmpeg','-y','-v','error','-i',B+'/video_noaudio.mp4','-i',B+'/audio_fin.wav','-c:v','copy','-t',str(subprocess.run(['ffprobe','-v','error','-show_entries','stream=nb_frames','-select_streams','v:0','-of','csv=p=0',B+'/video_noaudio.mp4'],capture_output=True,text=True).stdout.strip().split()[0] and int(subprocess.run(['ffprobe','-v','error','-count_packets','-select_streams','v:0','-show_entries','stream=nb_read_packets','-of','csv=p=0',B+'/video_noaudio.mp4'],capture_output=True,text=True).stdout.strip())/30),'-c:a','aac','-b:a','192k','-ar','48000','-ac','2','-movflags','+faststart','-shortest',out],check=True)
 print('FATTO',os.path.getsize(out)/1e6,'MB',total)

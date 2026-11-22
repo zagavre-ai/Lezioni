@@ -1,4 +1,4 @@
-import sys,os,json,re
+import sys,os,json,re,textwrap
 sys.path.insert(0,'/home/user/work/build')
 exec(open('/home/user/work/build/build2.py').read())
 from reportlab.pdfgen import canvas
@@ -32,7 +32,7 @@ def pdf(pages,out,title):
         h=W_*1080/1920;c.drawImage(jp,0,(H_-h)/2,W_,h)
         t=c.beginText(30,H_-40);t.setTextRenderMode(3);t.setFont('Helvetica',10)
         for line in txt:
-            for chunk in [line[i:i+110] for i in range(0,len(line),110)]: t.textLine(chunk)
+            for chunk in textwrap.wrap(line,100): t.textLine(chunk)
         c.drawText(t);c.showPage()
     c.save()
 pdf(pages,B+'/Storia_Lez11_dispensa.pdf',"L'URSS di Stalin (1924-1939)")

@@ -16,10 +16,11 @@ CORR=[
  (r"\bmillovecentotrentaquattro\b","1934"),(r"\bnell'?Unione sovietica\b","nell'Unione Sovietica"),
  (r"\bsociet[àa] delle nazioni\b","Società delle Nazioni"),(r"\bBukarin\b","Bucharin"),(r"\bBolshevico\b","bolscevico"),
  (r"\bUN\b","URSS"),
+ (r"per estremazi di sintesi","per estrema sintesi"),(r"meno male delle tracce su un possibile erete","meno male delle tracce su un possibile erede"),(r"poteva anche inquorare molti","poteva anche inquietare molti"),(r"lo disignò il rete di Lenin e lui assunse le guida alle redini","lo designò erede di Lenin e lui assunse le redini"),(r"l'Un Sovietica","l'Unione Sovietica"),(r"per Antonomasi è diventati i Gulag","per antonomasia sono diventati i Gulag"),(r"mi possono fare le scale","mi possono fare le scarpe"),(r"dopo le Purg\b","dopo le purghe"),(r"il nostro Salima","il nostro Stalin"),(r"il pattoresse un anno","il patto durò un anno"),(r"una settimana dopo scopia","una settimana dopo scoppia"),(r"Per Stridovsk","Per Brest-Litovsk"),(r"scopia anche perché Italsi si sente forte","scoppia anche perché l'Italia si sente forte"),(r"\b(?:Uh|Um|Mm|Hmm)\b[.,]?",""),
 ]
 def corr(s):
     for a,b in CORR: s=re.sub(a,b,s)
-    s=re.sub(r"\b(19\d\d)-(19\d\d)\b",r"\1-\2",s)
+    s=re.sub(r"\s+"," ",s).strip()
     return s
 def words_prof():
     segs=json.load(open(B+'/../trasc_orig.json'));W=[]
@@ -64,7 +65,7 @@ def make_vtt(tl,out):
     starts={n:(s,d) for n,s,d in tl}
     cues=[]
     W=words_prof()
-    PROF={'D0':(0.0,57.6),'D1':(57.6,357.35),'D2':(357.35,471.7),'D3':(471.7,871.3),'D4':(871.3,1013.8),'D5':(1013.8,1145.55),'D6a':(1145.55,1322.3),'D6b':(1322.3,1413.8),'D6c':(1413.8,1506.13)}
+    PROF={'D0':(0.0,57.6),'D1':(57.6,357.35),'D2':(357.35,471.7),'D3':(471.7,874.25),'D4':(874.25,1022.85),'D5':(1022.85,1145.55),'D6a':(1145.55,1322.3),'D6b':(1322.3,1413.8),'D6c':(1413.8,1506.13)}
     for nm,(a,b) in PROF.items():
         if nm not in starts: continue
         vs=starts[nm][0]
@@ -89,7 +90,7 @@ def make_vtt(tl,out):
         if f'PIL{t}' in starts: kv(f'R{t}',S(f'PIL{t}')+1.0)
         if f'SCH_T{t}' in starts:
             x=0.7
-            for i in range(1,len([k for k in TXT if k.startswith(f'SC{t}_')])+1):
+            for i in range(1,len([k for k in TXT if re.fullmatch(f'SC{t}_\\d',k)])+1):
                 kv(f'SC{t}_{i}',S(f'SCH_T{t}')+x);x+=dur(vpath(f'SC{t}_{i}'))+0.4
     if 'GLOSS' in starts:
         o=0.5

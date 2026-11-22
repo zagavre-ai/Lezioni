@@ -11,7 +11,7 @@ for k in range(1,19):
     f=sent_cards(f'AN{k}');t=((k-1)//3)+1
     PAGES[f'AN{k}']=dict(prof=False,kick=f'{t:02d} · Approfondimento',title=f[0],cards=f[1:],kws=[])
 for t in range(1,7):
-    n=len([x for x in TXT if x.startswith(f'SC{t}_')])
+    n=len([x for x in TXT if re.fullmatch(f'SC{t}_\\d',x)])
     PAGES[f'SC{t}']=dict(prof=False,kick=f'{t:02d} · Pillola di ripasso',title=TOP[t-1]['t'],cards=[cifre(TXT[f'SC{t}_{i}']).rstrip('.') for i in range(1,n+1)],kws=[],n=n)
 for g in ('GL1','GL2'):
     f=sent_cards(g);PAGES[g]=dict(prof=False,kick='Glossario',title=f[0],cards=f[1:],kws=[])
@@ -20,6 +20,13 @@ CP=_j.load(open(W+'/rev/revisione-storia-V-lez11/compiti.json'))['esercizi']
 def cg(t): return t.replace('PCUS','PCUS (Partito Comunista dell\'Unione Sovietica)')
 PAGES['CP1']=dict(prof=False,kick='Compiti',title='Ora tocca a te',cards=[f"Esercizio {e['n']}: {cg(e['testo'])}" for e in CP[:2]],kws=[])
 PAGES['CP2']=dict(prof=False,kick='Compiti',title='Ora tocca a te',cards=[f"Esercizio {e['n']}: {cg(e['testo'])}" for e in CP[2:]],kws=[])
+GLS=[('NEP','NEP (Nuova politica economica)'),('Gulag','Gulag (campi di lavoro forzato)'),('Comintern','Comintern (Internazionale comunista)'),('Komsomol','Komsomol (organizzazione giovanile comunista)'),('kolchoz','kolchoz (cooperativa agricola)'),('sovchoz','sovchoz (azienda agricola pubblica)')]
+def glossa(t):
+    for k,v in GLS: t=re.sub(r'\b'+k+r'\b(?!\s*\()(?!:)(?!\s*,?\s*cio)',v,t)
+    return t
+import re
+for k,Pg in list(PAGES.items()):
+    if k.startswith(('AN','SC')): Pg['cards']=[glossa(c) for c in Pg['cards']];Pg['title']=glossa(Pg['title'])
 # ---------- eventi dei pezzi a card: [(t_locale, attivo)]  (t relativo all'inizio della voce)
 def ev_AN(k):
     tf=tempi_frasi(f'AN{k}',TXT[f'AN{k}'])

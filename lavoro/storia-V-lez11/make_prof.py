@@ -37,6 +37,6 @@ for name,a,b in SUB:
         seq=clip_seq(r,wins,name,a,b,pn)
     fl=fade_list(seq,d);cc=f'{B}/clips/{cname}.txt';write_concat(fl,cc)
     compose(cc,a,a+d,None,out)
-    x=pa[int(a*SR):int((a+d)*SR)]
+    x=pa[int((a+0.0305)*SR):int((a+0.0305+d)*SR)]
     m=Mix(d);m.add(0,x,0,0.0);m.save(f'{B}/clips/{cname}.wav')
     open(out+'.ok','w').write('1');print(name,d,flush=True)

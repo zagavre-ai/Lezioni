@@ -21,10 +21,10 @@ v=json.load(open(REV+'verifica_finale.json'));v['titolo']="Verifica finale · St
 json.dump(v,open(OUT+'/verifica_finale.json','w'),ensure_ascii=False,indent=1)
 shutil.copy(W+'/domande/DOMANDE LEZIONE 11.xlsx',OUT+'/verifica_finale_prof.xlsx')
 shutil.copy(REV+'compiti.json',OUT+'/compiti.json')
-tl=json.load(open(B+'/timeline_Parte1_full.json'))
+tl=json.load(open(B+'/tl_raw.json'))
 n=make_vtt(tl['tl'],OUT+'/Storia_Lez11_Parte1.vtt');print('cues',n)
 shutil.copy(B+'/timeline_Parte1.json',OUT+'/timeline_Parte1.json')
 shutil.copy(B+'/Storia_Lez11_dispensa.pdf',OUT+'/Storia_Lez11_dispensa.pdf')
 shutil.copy(B+'/Storia_Lez11_mappe.pdf',OUT+'/Storia_Lez11_mappe.pdf')
 V=B+'/Storia_Lez11_Parte1_1080p.mp4'
-subprocess.run([sys.executable,'/home/user/Lezioni/kit/tools/scheda_da_timeline.py',V,OUT+'/timeline_Parte1.json',OUT+'/quiz_argomenti.json',"Storia V · Lezione 11 · L'URSS di Stalin (1924-1939) · Parte 1",OUT+'/scheda_pubblicazione_Parte1.json','Storia V'],check=True)
+subprocess.run([sys.executable,'/home/user/Lezioni/kit/tools/scheda_da_timeline.py',V,OUT+'/timeline_Parte1.json',OUT+'/quiz_argomenti.json',"Storia V · L'URSS di Stalin (1924-1939)",OUT+'/scheda_pubblicazione_Parte1.json','Storia V'],check=True)

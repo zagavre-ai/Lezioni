@@ -29,7 +29,7 @@ tf=[timbre(t+0.5,t+l-0.5,V) for n,t,l in D if l>3]
 to=timbre(60,1500,ORIG)
 say(f"- timbre (acuti >4 kHz meno volume >100 Hz): finale min {min(tf):.1f} max {max(tf):.1f} dB; originale {to:.1f} dB; ammesso −20…−9 → {'OK' if all(-20<=x<=-9 for x in tf) else 'NO'} [misurato]")
 # sincronia: audio finale vs originale per ogni pezzo D (correlazione), video finale vs originale (cam)
-PROF={'D0':0.0,'D1':57.6,'D2':357.35,'D3':471.7,'D4':871.3,'D5':1013.8,'D6a':1145.55,'D6b':1322.3,'D6c':1413.8}
+PROF={'D0':0.0,'D1':57.6,'D2':357.35,'D3':471.7,'D4':874.25,'D5':1022.85,'D6a':1145.55,'D6b':1322.3,'D6c':1413.8}
 def rd(f,ss,d,sr=8000):
     return np.frombuffer(sh(['ffmpeg','-v','error','-ss',str(ss),'-t',str(d),'-i',f,'-vn','-ac','1','-ar',str(sr),'-f','s16le','-'],) .stdout if False else subprocess.run(['ffmpeg','-v','error','-ss',str(ss),'-t',str(d),'-i',f,'-vn','-ac','1','-ar',str(sr),'-f','s16le','-'],capture_output=True).stdout,np.int16).astype(float)
 say("\n## Sincronia labbra/voce (audio e video finale confrontati con l'originale)\n| pezzo | scarto audio (s) | scarto video (s) | labbra−voce (s) |\n|---|---|---|---|")
@@ -62,7 +62,7 @@ for n,t,l in D:
 say('nessuno [misurato]' if not fz else f'DA GUARDARE {fz}')
 # tabella fine di ogni pezzo
 W_=words_prof();say("\n## Fine di ogni pezzo del docente\n| pezzo | minuto video (fine) | ultime parole (orig.) | frase finita |\n|---|---|---|---|")
-BND={'D0':(0,57.6),'D1':(57.6,357.35),'D2':(357.35,471.7),'D3':(471.7,871.3),'D4':(871.3,1013.8),'D5':(1013.8,1145.55),'D6a':(1145.55,1322.3),'D6b':(1322.3,1413.8),'D6c':(1413.8,1506.13)}
+BND={'D0':(0,57.6),'D1':(57.6,357.35),'D2':(357.35,471.7),'D3':(471.7,874.25),'D4':(874.25,1022.85),'D5':(1022.85,1145.55),'D6a':(1145.55,1322.3),'D6b':(1322.3,1413.8),'D6c':(1413.8,1506.13)}
 for n,t,l in D:
     a,b=BND[n];ws=[(tt,w) for tt,w in W_ if w and tt<b][-8:];tail=' '.join(w for _,w in ws)
     last=[w for tt,w in ws][-1] if ws else ''

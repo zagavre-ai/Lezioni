@@ -60,7 +60,7 @@ def assemble(L,out_v,out_a,tl_out,trans_gain=0.0):
     names=[n for n,_ in L];dur=[clen(n) for n in names]
     D=[];
     for i in range(1,len(names)):
-        D.append(0.8 if names[i]=='COVER_A' else 0.4)
+        D.append(0.8 if names[i]=='COVER_A' else (0.3 if names[i] in ('D4','D5','D6a','D6b') else 0.4))
     starts=[0.0]
     for i in range(1,len(names)): starts.append(starts[-1]+dur[i-1]-D[i-1])
     total=starts[-1]+dur[-1]

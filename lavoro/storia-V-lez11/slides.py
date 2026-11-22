@@ -46,18 +46,18 @@ class R:
         s.pg.goto('file:///tmp/_s.html');s.pg.evaluate('document.fonts.ready');s.pg.wait_for_timeout(30)
         s.pg.screenshot(path=out)
     def close(s): s.b.close();s.p.stop()
-def cardhtml(i,txt,state):
+def cardhtml(i,txt,state,num=None):
     lab,_,rest=txt.partition(':')
     t=f'<b>{lab}:</b>{rest}' if rest else txt
-    return f'<div class="card {state}" id="c{i}"><span class=n>{i}</span>{t}</div>'
+    return f'<div class="card {state}" id="c{i}"><span class=n>{num or i}</span>{t}</div>'
 def frame(kick,title,cards,win,active,kws,kwa,pagen,prof=True,materia='STORIA V',top=None,wide=False,fs=40):
     """cards: lista testi; win: indici (1-based) mostrati; active: indice o None"""
     cy=0
     h=f'<img id=logo src="data:image/svg+xml;base64,{LOGO}"><div id=hl></div><div id=kick>{html.escape(kick)}</div><div id=flow{' style="width:1760px"' if wide else ''}><div id=ttl{' style="width:1760px"' if wide else ''}>{title}</div><div id=bar></div>'
     h+=f'<div id=cards style="{"width:1760px;" if wide else ""}font-size:{fs}px">'
-    for i in win:
+    for pos,i in enumerate(win,1):
         st='on' if i==active else ('dim' if active else '')
-        h+=cardhtml(i,cards[i-1],st)
+        h+=cardhtml(i,cards[i-1],st,pos)
     h+='</div></div>'
     if prof:
         h+='<div id=cam></div><div id=band><div class=nm>Giorgio Mazzotti</div><div class=ms>PROF. DI STORIA</div></div>'
