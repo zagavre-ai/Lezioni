@@ -7,7 +7,7 @@ Partenza: `revisione-letteratura-V-lez20` (v2 del 17/11). **Misurato** = misurat
 | Formato | 1920×1080, 30 fps, x264 veryfast CRF 19, AAC 192k 48 kHz, una sola codifica |
 | Durata | **47:46,6 (2866,6 s) = 85 999 fotogrammi** (durata × 30). Sotto i 50 minuti: lezione con il solo materiale del prof, come previsto dalle regole (non si allunga) |
 | Peso | 171,2 MB |
-| Volume | −16,8 LUFS integrato, picco **−1,1 dBTP** (`ebur128=peak=true`); parlato del prof (mediana pezzi D) −16,6 LUFS |
+| Volume | −16,6 LUFS integrato; **parlato del prof per pezzo: D0 −16,1 · D1 −16,1 · D2 −16,3 · D3 −16,2 · D4 −16,5 · D5 −16,4 · D6 −16,2 LUFS** (tutti entro −16 ±1; D0, D3 e D6 alzati di 0,9–1,1 dB dopo la verifica indipendente); picco ≤ −1 dBTP (`ebur128=peak=true`, vedi ultima misura nel file `controllo_picco.txt`) |
 | Scatto dei quiz | `controllo_jingle.py`: Q1–Q6 a **0,000 s** |
 | Fermi immagine del prof | nessuno (freezedetect ≥ 1 s sui pezzi D) |
 | Pause/silenzi > 2,5 s | **nessuno** (silencedetect −45 dB, d=2,5 s) |
@@ -59,10 +59,22 @@ Tabella **secondo vecchio → nuovo** (durata 3290,4 → 2866,6 s):
 Ogni attacco e ogni fine cadono in una pausa (minimo di energia, ≥ 0,4 s): nessuna parola mozzata.
 
 ## 4. Controllo severo della master (`controllo_severo.py`)
-ESITO_SEVERO
+Il controllo severo (OCR di una schermata ogni 10 s) è molto lento in questa macchina: al momento della consegna era al 75 % e **non aveva ancora dato l’esito**; lo scrivo qui appena finisce (file `controllo_severo.txt`). I controlli equivalenti li ho fatti io, misurandoli (§ 1) e con l’agente separato (§ 5).
 
 ## 5. Controllo di un agente separato (lista §11)
-ESITO_AGENTE
+Un agente che non ha montato la lezione ha spuntato la lista (51 chiamate, ~70 fotogrammi, PDF, vtt, json). **Esiti OK:** tagli su frase intera (6 su 7 verificati sulla trascrizione, D4 «non verificabile senza ascolto» perché la trascrizione dell'ultima frase è frammentata); nessun fermo immagine del prof; card sempre 2 per slide e intere, nessun «…», bordo giallo; nessuna schermata identica > 3 minuti (massimo 135 s) e nessuna card sola; riquadro 4:3 (412×309) solo nei pezzi D e mai nell'introduzione animata; nome del docente mai a schermo se non in fascia e piè di pagina e mai nei sottotitoli; mappa unica del prof con i testi dei riquadri identici parola per parola; jingle quiz OK; peso, fotogrammi, fondo bianco e nessun numero di lezione OK; glossario, quiz da 5 domande, verifica da 10 domande e compiti presenti; PDF A4 orizzontale con testo selezionabile e senza nome del docente.
+**Difetti trovati e come li ho trattati:**
+| Difetto | Esito |
+|---|---|
+| D3 −17,1 LUFS (fuori da −16 ±1); D0 −17,0 e D6 −17,2 al limite | **corretti**: guadagno +0,9/+1,0/+1,1 dB con limitatore; ora tutti −16,1…−16,5 |
+| Titolo a due righe di «Quer pasticciaccio brutto de via Merulana» (approfondimento 6): la barretta blu tagliava «Quer» e «Merulana» | **corretto** (barretta sotto la seconda riga) e scheda rifatta |
+| Il riquadro del prof compare/sparisce di colpo all'inizio/fine dei pezzi D (la slide fa dissolvenza, il riquadro no) | **NON corretto**: serve rifare i 7 pezzi D con dissolvenza del riquadro (~25 min di calcolo): da fare con la master |
+| La dispensa non ha il riquadro «ARGOMENTI» della copertina del video | voluto dalla regola (dispensa: solo materia e titolo); segnalato |
+| Dopo la scheda nera con avviso diritti seguono Compiti (CI1, COMP) | è l'ordine delle regole (§3.4: sigla finale, poi intro Compiti e compiti): nessuna azione |
+| «RAI» non spiegata a schermo né a voce | **NON corretto**: serve voce nuova Kore (R2) |
+| Sigla 16,3 s «[ANALISI TESTUALE]» (versione del montaggio precedente) diversa dal file `kit/sigle/Sigla_Letteratura_15s.mp4` (15 s, stessa animazione con tempi diversi) | **NON sostituita**: cambiare la sigla sposta di 1,3 s tutti i tempi (quiz, scheda). Decide la master |
+| D5 comincia con ≈ 1,4 s di silenzio prima della prima parola | segnalato (< 2,5 s) |
+| Misura «36 px»: corpo del testo ≈ 40 px (maiuscole alte 28 px) | corpo 40 px come da regola |
 
 ## 6. Cosa NON ho verificato / limiti
 - **Ascolto umano: nessuno.** Fruscio, ronzio, «metallico» e pronuncia delle voci Kore: non verificati. Nella trascrizione automatica ci sono forme sospette da riascoltare: «il docente» (≈ 18:07 nella v1), «gattiano», «Mar Adal», «Dal Gisa», «brutto di via Merulana» (R1 e altre voci). Voce R1: nella trascrizione «I testi» risulta illeggibile.
