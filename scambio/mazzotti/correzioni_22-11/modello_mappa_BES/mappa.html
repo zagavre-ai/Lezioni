@@ -1,0 +1,58 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:Fig;src:url(file:///root/.fonts/Figtree-SemiBold.ttf)}
+@font-face{font-family:FigB;src:url(file:///root/.fonts/Figtree-Bold.ttf)}
+@font-face{font-family:Bri;src:url(file:///root/.fonts/BricolageGrotesque-ExtraBold.ttf)}
+html,body{margin:0;width:1920px;height:1080px;background:#fff;overflow:hidden}
+#k{position:absolute;left:60px;top:34px;font:700 22px FigB;letter-spacing:.14em;color:#2060AF}
+#f{position:absolute;left:60px;bottom:22px;font:600 20px Fig;color:#2060AF;letter-spacing:.06em}
+#line{position:absolute;left:60px;right:60px;top:78px;height:2px;background:#CBD5E1}
+.b{position:absolute;box-sizing:border-box;display:flex;align-items:center;justify-content:center;text-align:center;
+   padding:10px 22px;border-radius:14px;font-family:Fig;line-height:1.45;opacity:0;transform:translateY(18px)}
+.l1{background:#FFDCC6;color:#0B1530;border:5px solid #C2410C;font:400 50px Bri;border-radius:18px}
+.cel{background:#DCEEFB;color:#0B1530;border:4px solid #1D4ED8;font-size:36px}
+.lil{background:#EBE3F7;color:#0B1530;border:4px solid #6D28D9;font-size:36px}
+.pag{background:#FFF3BF;color:#0B1530;border:4px solid #A16207;font-size:36px}
+.men{background:#DDF3E4;color:#0B1530;border:4px solid #15803D;font-size:34px}
+#leg{position:absolute;right:60px;top:24px;display:flex;gap:14px;font:600 18px Fig;color:#0B1530}
+#leg span{display:flex;align-items:center;gap:6px}
+#leg i{display:inline-block;width:22px;height:16px;border-radius:4px;border:3px solid}
+.hl{box-shadow:0 0 0 8px #FFE600, 0 10px 24px rgba(11,21,48,.18)}
+svg{position:absolute;left:0;top:0}
+</style></head><body>
+<div id="k">MAPPA DEL PROFESSORE</div>
+<div id="leg"><span><i style="background:#FFDCC6;border-color:#C2410C"></i>concetto centrale</span><span><i style="background:#DCEEFB;border-color:#1D4ED8"></i>date e sequenze</span><span><i style="background:#FFF3BF;border-color:#A16207"></i>parole chiave</span><span><i style="background:#DDF3E4;border-color:#15803D"></i>esempi e opere</span><span><i style="background:#EBE3F7;border-color:#6D28D9"></i>conseguenze</span></div><div id="line"></div>
+<div id="f">LETTERATURA ITALIANA V · Prof. Giorgio Mazzotti</div>
+<svg width="1920" height="1080"><defs><marker id="ah" markerUnits="userSpaceOnUse" markerWidth="40" markerHeight="40" refX="20" refY="20" orient="auto"><path d="M0,4 L36,20 L0,36 z" fill="#0B1530"/></marker></defs>
+<line id="A1" x1="690" y1="315" x2="585" y2="388" stroke="#0B1530" stroke-width="10" marker-end="url(#ah)"/>
+<line id="A2" x1="1330" y1="300" x2="1470" y2="400" stroke="#0B1530" stroke-width="10" marker-end="url(#ah)"/>
+<line id="A3" x1="330" y1="622" x2="330" y2="672" stroke="#0B1530" stroke-width="10" marker-end="url(#ah)"/>
+</svg>
+<div class="b l1" id="B1" style="left:545px;top:98px;width:830px;height:96px">Carlo Emilio Gadda</div>
+<div class="b cel" id="B2" style="left:610px;top:214px;width:700px;height:92px">Milano, 1893, famiglia borghese</div>
+<div class="b cel" id="B3" style="left:60px;top:408px;width:620px;height:200px">Compie studi di ingegneria nonostante la vocazione letteraria</div>
+<div class="b lil" id="B4" style="left:1290px;top:420px;width:570px;height:180px">Rimane ingegnere ma scrive tutta la vita; muore nel 1973</div>
+<div class="b lil" id="B5" style="left:60px;top:690px;width:560px;height:150px">La guerra gli porta via il fratello</div>
+<div class="b pag" id="B6" style="left:680px;top:640px;width:570px;height:200px">Lo stile si caratterizza per pasticcio linguistico, uso di figure retoriche</div>
+<div class="b pag" id="B7" style="left:1290px;top:660px;width:570px;height:180px">Contenuti: realtà come caos, critica alla borghesia</div>
+<div class="b men" id="B8" style="left:60px;top:866px;width:1800px;height:140px;font-size:34px">Testi: Madonna dei filosofi, La cognizione del dolore, Adalgisa, Accoppiamenti giudiziosi, Quer pasticciaccio brutto de via Merulana</div>
+<script>
+// passi: [box, freccia, inizio voce (s), durata voce]
+window.STEPS=[];
+function setSteps(s){window.STEPS=s}
+function ease(x){x=Math.max(0,Math.min(1,x));return 1-Math.pow(1-x,3)}
+function render(t){
+  const arrows=['A1','A2','A3'];
+  arrows.forEach(a=>{const e=document.getElementById(a);e.style.opacity=0});
+  let cur=null;
+  for(const [b,a,st,du] of STEPS){
+    const e=document.getElementById(b);
+    if(a){const ar=document.getElementById(a);const p=ease((t-(st-0.6))/0.5);ar.style.opacity=p;
+}
+    const p=ease((t-st+0.15)/0.45);
+    e.style.opacity=p;e.style.transform=`translateY(${18*(1-p)}px)`;
+    if(t>=st-0.15 && t<st+du+0.35) cur=e;
+    e.classList.remove('hl');
+  }
+  if(cur) cur.classList.add('hl');
+}
+</script></body></html>

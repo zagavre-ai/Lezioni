@@ -5,19 +5,24 @@
    "stato": "REVISIONATA",
    "voci": "kore",
    "quiz_ok": "si",
-   "fermi_ok": "si",
+   "fermi_ok": "no",
    "sub_ok": "no",
    "video": "Letteratura_Lez7_Parte1_1080p.mp4",
-   "durata_s": 3350.6,
-   "durata": "55:50.6",
-   "fotogrammi": 100518,
-   "fotogrammi_attesi": 100518,
-   "peso_MB": 207.7,
+   "durata_s": 3094.3,
+   "durata": "51:34.3",
+   "fotogrammi": 92829,
+   "fotogrammi_attesi": 92829,
+   "peso_MB": 188.4,
    "vtt": "Letteratura_Lez7_Parte1.vtt"
   }
  },
  "manca": "",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "22/11 17:05",
+   "testo": "lez 7: in attesa delle voci P1..P10 (mappa del prof letta ramo per ramo, testi_voci.json sul ramo voci-letteratura-V-lez07, pushate 16:37 UTC). Tutto il resto del montaggio e' pronto; appena arrivano chiudo (circa 30 min)."
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
@@ -63,10 +68,30 @@
   {
    "quando": "17/11 17:34",
    "testo": "18:34 IT: titolo pag. 19 corretto e riconsegnato su revisione-letteratura-V-lez07"
+  },
+  {
+   "quando": "22/11 16:35",
+   "testo": "correzioni 22/11: presa da revisione-letteratura-V-lez07; consegna prevista 19:15 UTC (20:15 IT)"
+  },
+  {
+   "quando": "22/11 16:42",
+   "testo": "16:42 UTC: rifatte slide (max 3 card, testo 40 px, nessun titolo >180 s), una sola mappa del prof in colori BES (voci P1-P10 chieste alla master), via 4 mappe nostre; codifica in corso. Consegna prevista 19:15 UTC"
+  },
+  {
+   "quando": "22/11 17:49",
+   "testo": "17:49 UTC: video nuovo 51:12 (-16,3 LUFS, picco -1,4); in corso controllo severo e rapporto; consegna prevista 19:00 UTC"
+  },
+  {
+   "quando": "22/11 18:20",
+   "testo": "18:20 UTC: dopo controllo indipendente correggo: ritratti non sotto il riquadro, compiti dentro il video, nome docente non nei piè di pagina, card non sole; ricodifica in corso; consegna prevista 19:20 UTC"
+  },
+  {
+   "quando": "22/11 19:19",
+   "testo": "correzioni 22/11 fatte (19:25 UTC): controllo severo NON completato; restano silenzi >2,5 s e compiti senza voce, vedi rapporto"
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 7",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-17 17:34:23"
+ "aggiornato": "2026-11-22 19:19:15"
 }
