@@ -2,8 +2,8 @@ import json,re,sys,os
 sys.path.insert(0,'/tmp/w14')
 from evid import ricostruisci
 P=int(sys.argv[1])
-NT=json.load(open(f'/tmp/w14/as{P}/tl_new.json'))['tl']
-PLN=json.load(open(f'/tmp/w14/dn{P}/plan.json'))['plan']
+NT=json.load(open(f'/tmp/w14/aq{P}/tl_new.json'))['tl']
+PLN=json.load(open(f'/tmp/w14/dq{P}/plan.json'))['plan']
 def words_of(name): return [(t,w) for t,w in ricostruisci(json.load(open(f'/tmp/w14/tr/{name}.json')))]
 O=words_of('orig');OLD=words_of(f'P{P}')
 W=[]
@@ -31,7 +31,7 @@ def flush():
 for i,(t,w) in enumerate(W):
     if cur:
         gap=t-cur[-1][0];chars=len(' '.join(x for _,x in cur))+1+len(w);dur=t-cur[0][0]
-        if gap>0.8 or chars>80 or dur>6 or (cur[-1][1][-1] in '.?!' and chars>38 and dur>1.5):
+        if gap>0.8 or chars>72 or dur>6 or (cur[-1][1][-1] in '.?!' and chars>38 and dur>1.5):
             flush()
     cur.append((t,w))
 flush()
