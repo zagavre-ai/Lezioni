@@ -1,7 +1,7 @@
 {
  "materia": "Letteratura italiana (V)",
  "titolo": "Letteratura V · Lezione 10 · Il primo Novecento e la lirica italiana",
- "durata_s": 3008.6,
+ "durata_s": 3093.53,
  "argomenti": [
   {
    "n": 1,
@@ -19,13 +19,13 @@
    "n": 3,
    "titolo": "I crepuscolari",
    "inizio_s": 2029.533,
-   "quiz_s": 2507.0
+   "quiz_s": 2519.733
   },
   {
    "n": 4,
    "titolo": "I vociani e Clemente Rebora",
-   "inizio_s": 2512.0,
-   "quiz_s": 2891.9
+   "inizio_s": 2524.733,
+   "quiz_s": 2904.633
   }
  ],
  "quiz": {
@@ -249,5 +249,8 @@
     }
    ]
   }
- }
+ },
+ "verifica_s": 3016.3,
+ "compiti_s": 3021.3,
+ "mappa_s": 2411.133
 }
