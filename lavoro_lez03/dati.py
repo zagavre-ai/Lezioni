@@ -39,12 +39,12 @@ KW={2:['Realismo','1830–1880','Denuncia sociale','Balzac, Flaubert, Zola'],
 DID={'crystal':'Joseph Paxton, Crystal Palace a Londra, 1851 (distrutto nel 1937).','parigi':'Parigi, veduta aerea.',
  'galleria':'Giuseppe Mengoni, Galleria Vittorio Emanuele II, 1863-77. Milano.','opera':"Charles Garnier, Teatro dell'Opéra, 1861-77. Parigi, veduta aerea.",
  'pedrocchino':'Giuseppe Jappelli, Pasticceria detta Il Pedrocchino (1831-42) e Caffè Pedrocchi (dal 1817; facciata meridionale). Padova.',
- 'mole':'Alessandro Antonelli, Mole Antonelliana. 1862-89. Torino.','spigolatrici':"Jean-François Millet, Le spigolatrici, 1857; olio su tela, 83,5 x 110 cm. Parigi, Musée d'Orsay.",
- 'spaccapietre':'Gustave Courbet, Gli spaccapietre, 1849; olio su tela, 165 x 257 cm, già a Dresda, Gemäldegalerie (opera distrutta durante i bombardamenti della Seconda guerra mondiale).',
- 'atelier':"Gustave Courbet, L'atelier del pittore.",'vagone':'Honoré Daumier, Il vagone di terza classe, 1863-65; olio su tela, 65 x 90 cm. Ottawa (Canada), National Gallery of Canada.',
- 'rotonda':'Giovanni Fattori, La rotonda dei bagni Palmieri, 1866; olio su tavola, 12 x 35 cm. Firenze, Galleria d\'arte moderna.',
- 'invedetta':'Giovanni Fattori, In vedetta, 1871 ca.; olio su tela, 37 x 56 cm. Collezione privata.',
- 'toeletta':'Telemaco Signorini, La toeletta del mattino, 1898; olio su tela, 120 x 175 cm. Collezione privata.'}
+ 'mole':'Alessandro Antonelli, Mole Antonelliana. 1862-89. Torino.','spigolatrici':"Jean-François Millet, Le spigolatrici, 1857; olio su tela, 83,5 per 110 centimetri. Parigi, Musée d'Orsay.",
+ 'spaccapietre':'Gustave Courbet, Gli spaccapietre, 1849; olio su tela, 165 per 257 centimetri, già a Dresda, Gemäldegalerie (opera distrutta durante i bombardamenti della Seconda guerra mondiale).',
+ 'atelier':"Gustave Courbet, L'atelier del pittore.",'vagone':'Honoré Daumier, Il vagone di terza classe, 1863-65; olio su tela, 65 per 90 centimetri. Ottawa (Canada), National Gallery of Canada.',
+ 'rotonda':'Giovanni Fattori, La rotonda dei bagni Palmieri, 1866; olio su tavola, 12 per 35 centimetri. Firenze, Galleria d\'arte moderna.',
+ 'invedetta':'Giovanni Fattori, In vedetta, 1871 circa; olio su tela, 37 per 56 centimetri. Collezione privata.',
+ 'toeletta':'Telemaco Signorini, La toeletta del mattino, 1898; olio su tela, 120 per 175 centimetri. Collezione privata.'}
 if __name__=='__main__':
     for p in LAB:
         for c in cards(p):print(p,c[0][0],'|',c[1][0][:60])

@@ -28,6 +28,7 @@ def boundary_near(t,lo=None,hi=None):
     """confine di frase (indice k = inizio della frase k) più vicino a t, con la pausa più lunga nei dintorni; restituisce k"""
     best=None
     for k in range(1,len(SENT)):
+        if SENT[k][3]-SENT[k][2]<3:continue
         gap=SENT[k][0]-SENT[k-1][1]
         d=abs(SENT[k][0]-t)
         if lo is not None and SENT[k][0]<lo:continue
