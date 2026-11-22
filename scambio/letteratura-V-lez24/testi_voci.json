@@ -218,5 +218,20 @@
   "nome": "MP5",
   "testo": "Questa è la mappa intera del professore: la vita, il pensiero, lo stile e le opere di Leonardo Sciascia. Prima di passare al glossario, prova a ripercorrerla da solo, ramo per ramo.",
   "lingua": "it"
+ },
+ {
+  "nome": "INTRO1c",
+  "testo": "Benvenuti alla lezione di letteratura italiana. Oggi conosciamo Leonardo Sciascia, lo scrittore siciliano che unisce il gusto per l'intrigo e l'impegno civile. La lezione ha tre argomenti. Primo: la vita e l'impegno civile. Secondo: Il consiglio d'Egitto e Il contesto. Terzo: Todo modo e le ultime opere. Dopo ogni argomento trovi un ripasso e un quiz per controllare quello che hai imparato. Buon ascolto.",
+  "lingua": "it"
+ },
+ {
+  "nome": "S3c",
+  "testo": "Todo modo e le ultime opere. Ecco i punti da ricordare. In Todo modo, del millenovecentosettantaquattro, politici della Democrazia cristiana intrecciano intrighi durante un ritiro spirituale. Nel romanzo manca la rivelazione finale dell'assassino: è impossibile arrivare alla verità e alla giustizia. In Candido, Sciascia riprende il modello di Voltaire per parlare dei suoi rapporti con il Partito comunista italiano. Porte aperte affronta la pena di morte. L'affèr Moro indaga i punti oscuri del rapimento di Aldo Moro. Sciascia resta indipendente da partiti e chiese. Il suo stile è terso, essenziale e concreto.",
+  "lingua": "it"
+ },
+ {
+  "nome": "RF1c",
+  "testo": "Ricapitoliamo i tre argomenti della lezione. Primo: la vita e l'impegno civile. Il giorno della civetta e la denuncia della mafia. Secondo: Il consiglio d'Egitto e Il contesto. Il passato come metafora del presente e gli anni di piombo. Terzo: Todo modo e le ultime opere. Il giallo senza soluzione, Candido, Porte aperte e L'affèr Moro.",
+  "lingua": "it"
  }
 ]
