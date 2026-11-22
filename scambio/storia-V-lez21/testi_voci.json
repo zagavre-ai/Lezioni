@@ -480,7 +480,7 @@
  },
  {
   "nome": "SP_0",
-  "testo": "Prima di cominciare la seconda parte, ripassiamo insieme la prima. Quattro argomenti: gli Stati Uniti dopo l'undici settembre, il Medio Oriente e il Nord Africa, la crisi economica con Obama e Trump, e il mondo multipolare."
+  "testo": "Prima di cominciare la seconda parte, ripassiamo insieme la prima. Tre argomenti: gli Stati Uniti dopo l'undici settembre, il Medio Oriente e il Nord Africa, la crisi economica con Obama e Trump."
  },
  {
   "nome": "SP_1",
@@ -496,7 +496,7 @@
  },
  {
   "nome": "SP_4",
-  "testo": "Con questo ripasso sei pronto per la seconda parte: l'Europa, l'Italia e le questioni aperte."
+  "testo": "Con questo ripasso sei pronto per la seconda parte: il mondo multipolare, l'Europa, l'Italia e le questioni aperte."
  },
  {
   "nome": "AP3_0_R2",
@@ -601,5 +601,17 @@
  {
   "nome": "BEN2_R3",
   "testo": "Benvenuti alla seconda parte della lezione sul mondo dal duemilauno ad oggi. Vediamo tre argomenti: l'Europa tra crisi e secessioni, l'Italia nel ventunesimo secolo e le questioni aperte dell'attualità. Alla fine trovi il glossario, il ripasso e la verifica finale."
+ },
+ {
+  "nome": "BEN1_R4",
+  "testo": "Benvenuti alla lezione di Storia. Oggi parliamo del mondo dal duemilauno ad oggi. In questa prima parte vediamo tre argomenti: gli Stati Uniti dopo l'undici settembre, il Medio Oriente e il Nord Africa, e la crisi economica con le presidenze di Obama e di Trump."
+ },
+ {
+  "nome": "BEN2_R4",
+  "testo": "Benvenuti alla seconda parte della lezione sul mondo dal duemilauno ad oggi. Vediamo quattro argomenti: il mondo multipolare, l'Europa tra crisi e secessioni, l'Italia nel ventunesimo secolo e le questioni aperte dell'attualità. Alla fine trovi il glossario, il ripasso e la verifica finale."
+ },
+ {
+  "nome": "FZ1_R3",
+  "testo": "Ricapitoliamo questa prima parte. Gli Stati Uniti dopo l'undici settembre, il Medio Oriente e le primavere arabe, e la crisi economica da Obama a Trump. Nella seconda parte vediamo il mondo multipolare, l'Europa, l'Italia e le questioni aperte dell'attualità."
  }
 ]
