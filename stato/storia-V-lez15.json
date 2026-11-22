@@ -2,10 +2,11 @@
  "tag": "storia-V-lez15",
  "parti": {
   "1": {
-   "stato": "IN_MONTAGGIO"
+   "stato": "IN_MONTAGGIO",
+   "voci": "segnaposto"
   }
  },
- "manca": "montaggio finale, sottotitoli, dispensa, controllo agente separato, rapporto",
+ "manca": "voci BEN_R2, DP, CPT1-4 e 11 _R2; poi rimontaggio, controlli, rapporto, consegna",
  "serve_master": [
   {
    "quando": "22/11 18:35",
@@ -29,7 +30,11 @@
   {
    "quando": "22/11 19:06",
    "testo": "22/11 19:10 UTC: fatto: materiali scaricati, trascrizione, piano tagli su frase finita, slide a finestra 40 px (3 card), voci controllate (11 da rifare, chieste), audio prof da originale -17,1 LUFS timbro -16,9 dB (orig -17,5). In corso: pezzi del prof, schede blu, approfondimenti. Mancano: montaggio, verifica+compiti nel video, sottotitoli, dispensa, controlli, rapporto. Voci nuove attese: BEN_R2, DP, CPT1-4 + 11 _R2."
+  },
+  {
+   "quando": "22/11 21:53",
+   "testo": "22/11 22:00 UTC: video completo 61:16 con voci provvisorie solo per BEN_R2, DP, CPT1-4 (e 11 voci da rifare: usate le vecchie). controllo_severo.py ESITO OK; controllo_finale TUTTO OK (jingle 0,0 s, sottotitoli 100%); dispensa 60 pag con testo invisibile. In corso: controllo agente separato. Appena arrivano le voci rifaccio montaggio e consegno su revisione-storia-V-lez15."
   }
  ],
- "aggiornato": "2026-11-22 19:06:30"
+ "aggiornato": "2026-11-22 21:53:41"
 }
