@@ -13,7 +13,7 @@
    "vtt": "Letteratura_Lez14_Parte1.vtt"
   }
  },
- "manca": "controlli finali, rapporto, push",
+ "manca": "controllo severo, slide a 40px/max 3 card, mappa BES con voce, fettine che cambiano, volume -16, dispense con testo invisibile",
  "serve_master": [
   {
    "quando": "17/11 07:29",
@@ -45,7 +45,11 @@
   {
    "quando": "17/11 17:46",
    "testo": "17/11: consegna sul ramo revisione-letteratura-V-lez14 (inserti rifatti nel modello; P1 45:45, P2 45:46). In push ora. Riserve nel RAPPORTO sez. 5."
+  },
+  {
+   "quando": "22/11 16:34",
+   "testo": "correzioni 22/11: presa da revisione-letteratura-V-lez14 (16:40 UTC). Consegna entro 19:30 UTC. Prima fase: controllo severo sul video attuale, poi rifacimento slide a 40 px, mappa unica del prof ramo per ramo, copertina max 3 min."
   }
  ],
- "aggiornato": "2026-11-17 17:46:04"
+ "aggiornato": "2026-11-22 16:34:08"
 }
