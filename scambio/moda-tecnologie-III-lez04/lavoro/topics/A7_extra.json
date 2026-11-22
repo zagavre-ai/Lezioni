@@ -1,0 +1,201 @@
+{
+ "T0": 2522.2,
+ "T1": 2899.2,
+ "tecniche": [
+  {
+   "t": 2553.89,
+   "durata": 50,
+   "cosa": "Macchina rettilinea vista di lato che si costruisce pezzo per pezzo mentre la prof li nomina: basamento in ghisa, barre d'acciaio con gli aghi (aghi e fronture), carro che scorre da destra a sinistra e muove gli aghi, impianto di motorizzazione con moto alternato, guidafili che tengono teso il filato sopra le fronture, pettine e rulli che tirano il telo, unità di programmazione elettronica. Ogni elemento si accende con la sua etichetta.",
+   "parole": "Abbiamo innanzitutto questo basamento, ovvero un basamento in ghisa che va a sostenere l'intero macchinario. Poi ovviamente abbiamo queste barre d'acciaio con gli aghi, ovvero aghi e fronture, il carro che è l'organo mobile che va a scorrere da destra a sinistra."
+  },
+  {
+   "t": 2651.94,
+   "durata": 34,
+   "cosa": "Macchina circolare con il filato che sale dal castello portarocche; il tessuto esce come tubo (tessuto tubolare); poi il tubo viene aperto e tagliato su tutta l'altezza con un taglio laterale in corrispondenza dello scarto d'ago, e un getto d'aria compressa distende il telo, con le cimose che non si arrotolano.",
+   "parole": "Possiamo ottenere il tessuto tubolare che può essere poi aperto e tagliato su tutta la sua altezza. La macchina può eseguire un taglio laterale in corrispondenza dello scarto d'ago, quindi va a distendere direttamente il tessuto con quello che è il getto d'aria compressa."
+  },
+  {
+   "t": 2696.81,
+   "durata": 28,
+   "cosa": "Schermo diviso in due gruppi: a sinistra monofrontura con le voci maglia o jersey, spugna, piquet, felpa; a destra bifrontura con maglia a coste, maglia a stoffa, maglia inglese, tessuti double. Le voci entrano una alla volta, mentre la prof le elenca.",
+   "parole": "Abbiamo la monofrontura e dall'altra bifrontura. Nella monofrontura abbiamo la maglia o jersey, la spugna, il piquet e la felpa. Nella bifrontura invece abbiamo la creazione di maglia a costa, maglie a stoffa, maglia inglese e tessuti double."
+  },
+  {
+   "t": 2721.3,
+   "durata": 30,
+   "cosa": "Due pezzi di maglia uniti da un filo separatore che li tiene insieme in modo temporaneo; il filo viene rimosso a mano. Poi una tasca di jeans sigillata con il filo prima del lavaggio industriale. Solo ciò che dice la prof, senza aggiungere altro.",
+   "parole": "Il filo separatore è in pratica questo filo utilizzato per unire in modo temporaneo i pezzi. Oggi viene molto utilizzato per sigillare le tasche di jeans prima dei lavaggi industriali."
+  },
+  {
+   "t": 2836.17,
+   "durata": 30,
+   "cosa": "Telaio in catena con i fili paralleli: un filato si rompe, un dispositivo arresta subito la macchina, poi un annodatore meccanico pneumatico unisce i due capi con un getto d'aria, lasciando una giunzione quasi invisibile con l'etichetta fiammatura.",
+   "parole": "Nel momento in cui dovesse esserci una rottura sul filato, abbiamo bisogno di speciali dispositivi che ci aiutano ad arrestare questa macchina nell'immediato. Andiamo poi ad utilizzare degli annodatori meccanici pneumatici per riuscire ad unire i capi con getto d'aria."
+  }
+ ],
+ "quiz": [
+  {
+   "d": "Che cos'è il carro in una macchina rettilinea?",
+   "giusta": "L'organo mobile che scorre da destra a sinistra e dà il movimento agli aghi",
+   "sbagliate": [
+    "La struttura in ghisa che sostiene l'intero macchinario",
+    "L'apparato elettronico che controlla l'intero ciclo produttivo",
+    "Il gruppo di pettine e rulli che tira il telo in formazione"
+   ],
+   "spiegazione": "Il carro è l'organo mobile che scorre da destra a sinistra. Il basamento è in ghisa, l'unità di programmazione è elettronica, il sistema di trazione è fatto da pettine e rulli."
+  },
+  {
+   "d": "Che cosa fa la macchina circolare per evitare che le cimose si arrotolino?",
+   "giusta": "Esegue un taglio laterale allo scarto d'ago e distende il tessuto con un getto d'aria compressa",
+   "sbagliate": [
+    "Cuce le cimose al centro del tessuto tubolare con un filo separatore",
+    "Ferma gli aghi e ripete il giro con un filato più grosso",
+    "Bagna il tessuto tubolare e lo lascia asciugare appeso al telaio"
+   ],
+   "spiegazione": "La macchina esegue un taglio laterale in corrispondenza dello scarto d'ago e distende il tessuto con il getto d'aria compressa."
+  },
+  {
+   "d": "Quali lavorazioni appartengono alla monofrontura?",
+   "giusta": "Maglia o jersey, spugna, piquet e felpa",
+   "sbagliate": [
+    "Maglia a coste, maglia a stoffa, maglia inglese e tessuti double",
+    "Maglia a coste, spugna, piquet e tessuti double",
+    "Jersey, felpa, maglia inglese e maglia a stoffa"
+   ],
+   "spiegazione": "La monofrontura, con una sola serie di aghi, comprende maglia o jersey, spugna, piquet e felpa. Coste, stoffa, inglese e double sono in bifrontura."
+  },
+  {
+   "d": "A che cosa serve oggi il filo separatore?",
+   "giusta": "A sigillare le tasche dei jeans prima dei lavaggi industriali",
+   "sbagliate": [
+    "A rendere il filato più scorrevole prima della tessitura",
+    "A unire i capi dopo la rottura del filato con un getto d'aria",
+    "A tendere il filato sopra le fronture durante la lavorazione"
+   ],
+   "spiegazione": "Il filo separatore univa temporaneamente i pezzi ed è stato abbandonato per i costi elevati. Oggi sigilla le tasche dei jeans prima dei lavaggi industriali."
+  },
+  {
+   "d": "Che cos'è la fiammatura nella maglia in catena?",
+   "giusta": "Una giunzione quasi invisibile fatta dagli annodatori meccanici pneumatici con un getto d'aria",
+   "sbagliate": [
+    "Un dispositivo che arresta subito la macchina quando il filato si rompe",
+    "Un tipo di telaio per nastri e pizzi a larghezza limitata",
+    "Il taglio laterale che distende il tessuto tubolare in piano"
+   ],
+   "spiegazione": "Dopo l'arresto della macchina, gli annodatori meccanici pneumatici uniscono i capi con un getto d'aria: la giunzione quasi invisibile si chiama fiammatura."
+  }
+ ],
+ "mappa": {
+  "domanda": "Che cosa sono le macchine da maglieria?",
+  "centro": "Macchine da maglieria",
+  "rami": [
+   {
+    "nome": "Macchine rettilinee",
+    "tipo": "parola",
+    "figli": [
+     {
+      "nome": "Lavorazioni flessibili",
+      "tipo": "conseguenza"
+     },
+     {
+      "nome": "Minor scarto di materiale",
+      "tipo": "conseguenza"
+     }
+    ]
+   },
+   {
+    "nome": "Macchine circolari",
+    "tipo": "parola",
+    "figli": [
+     {
+      "nome": "Tessuto tubolare, taglio laterale e getto d'aria",
+      "tipo": "sequenza"
+     }
+    ]
+   },
+   {
+    "nome": "Monofrontura",
+    "tipo": "parola",
+    "figli": [
+     {
+      "nome": "Jersey, spugna, piquet, felpa",
+      "tipo": "esempio"
+     }
+    ]
+   },
+   {
+    "nome": "Bifrontura",
+    "tipo": "parola",
+    "figli": [
+     {
+      "nome": "Coste, stoffa, inglese, double",
+      "tipo": "esempio"
+     }
+    ]
+   },
+   {
+    "nome": "Maglia in catena",
+    "tipo": "parola",
+    "figli": [
+     {
+      "nome": "Telai monofrontura, Raschel, crochet",
+      "tipo": "esempio"
+     }
+    ]
+   }
+  ],
+  "voce": "Che cosa sono le macchine da maglieria? La produzione di maglieria in trama richiede macchine rettilinee o circolari. Le macchine rettilinee permettono lavorazioni flessibili e richiedono un minor scarto di materiale. Dalle macchine circolari si ottiene il tessuto tubolare, che si apre con un taglio laterale e si distende con il getto d'aria compressa. La monofrontura comprende maglia o giérsi, spugna, picchè e felpa. La bifrontura comprende maglia a coste, maglia a stoffa, maglia inglese e tessuti dabol. Infine la maglia in catena si realizza con i telai rettilinei: telai in catena monofrontura, telai Raschèl e telai croscè."
+ },
+ "glossario": [
+  {
+   "termine": "Frontura",
+   "def": "Piastra metallica con le scanalature in cui sono inseriti gli aghi; si chiama anche letto degli aghi."
+  },
+  {
+   "termine": "Monofrontura",
+   "def": "Macchina provvista di una sola serie di aghi."
+  },
+  {
+   "termine": "Bifrontura",
+   "def": "Macchina con due serie di aghi disposte una di fronte all'altra, per lavorazioni complesse."
+  },
+  {
+   "termine": "Carro",
+   "def": "Organo mobile della macchina rettilinea che scorre da destra a sinistra e dà il movimento agli aghi."
+  },
+  {
+   "termine": "Guidafili",
+   "def": "Dispositivi che alimentano il filato mantenendolo teso sopra le fronture."
+  },
+  {
+   "termine": "Filo separatore",
+   "def": "Filo che unisce temporaneamente i pezzi; oggi sigilla le tasche dei jeans prima dei lavaggi industriali."
+  },
+  {
+   "termine": "Fiammatura",
+   "def": "Giunzione quasi invisibile dei capi del filato rotto, fatta con annodatori meccanici pneumatici e getto d'aria."
+  },
+  {
+   "termine": "Telai Raschel",
+   "def": "Telai in catena usati in monofrontura e bifrontura per disegni complessi e pizzi simili al tombolo."
+  }
+ ],
+ "discrepanze": [
+  "2522.5 trascrizione automatica «mialeria entrama»: corretto in «maglieria in trama» con il PDF.",
+  "2560.36 la trascrizione automatica scrive «frontture» e «guida fili»: corretti in «fronture» e «guidafili» con il PDF. Nella card su «frontura» la spiegazione «piastra metallica con le scanalature» viene dal PDF, non dalla frase della prof.",
+  "2629.96 la prof dice «castello portarocche»; il PDF scrive «castello porta rocche». Nelle card ho usato «castello portarocche» come lei. Elenco circolare: la prof non cita unità di programmazione né cilindro/piatto, né «fino a 90 ranghi» che sono nel PDF.",
+  "2706.21 la prof dice «la maglia o jersey»; il PDF «maglia rasata o jersey». Card come la prof.",
+  "2706.21 / 2712.29 la prof dice «maglia a costa»; il PDF «maglia a coste» (usato nelle card). Il PDF scrive «piquet» in un punto e «picchè» in un altro (refuso/variante nel PDF): la prof dice «piquet», usato nelle card.",
+  "2732.17 la prof dice «bambine e donne»; il PDF «donne e bambini».",
+  "2743.33–2751.08 la prof dice «Questo era anche un filo solubile. Con l'utilizzo del vapore»; il PDF «In passato fu proposto un filo solubile al vapore».",
+  "2790.25–2802.33 frase confusa («riesce a limitare parzialmente… modelli moderni… guidafili indipendenti»); ricostruita con il PDF: limite dei pezzi simmetrici parzialmente superato nei modelli moderni con guidafili indipendenti. Non detti dalla prof: «molte teste monofrontura per tessere più pezzi calati» e l'ingombro notevole dei telai Cotton.",
+  "2818.92 la prof dice «border»; il PDF «bordure» (usato nelle card). 2849.48 la prof dice solo «getto d'aria»; il PDF «getto d'aria ad alta pressione».",
+  "Nel tratto della prof (2522–2899) NON compaiono: capo integrale, maglia calata, macchine che imitano il pizzo a mano, produttività superiore delle macchine circolari, aghi e classificazione delle fronture (plurifrontura) che sono nel PDF: nelle card non ci sono. Le spiegazioni «una sola serie di aghi» e «due serie di aghi» vengono dal PDF."
+ ],
+ "tagli_proposti": [
+  "2573.35–2575.31 «O meglio dare il movimento agli ali» (2 s): autocorrezione, già detto in 2560–2573.",
+  "2611.91–2629.15 (circa 17 s): due frasi generiche («ci sono anche altre macchine… abbiamo fatto riferimento alle sezioni più principali») senza contenuto tecnico nuovo.",
+  "2798.45–2808.3 (circa 10 s): «Quindi riusciamo ad ottenere ovviamente dei prodotti… al fine ultimo dell'utilizzo di questo determinato macchinario», frasi vuote che seguono la frase confusa sui guidafili indipendenti.",
+  "2817.2–2818.5 «Questi infatti vanno…»: incespico, ma la frase resta intera."
+ ]
+}

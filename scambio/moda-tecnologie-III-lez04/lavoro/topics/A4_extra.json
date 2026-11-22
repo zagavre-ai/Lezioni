@@ -1,0 +1,208 @@
+{
+ "T0": 947.1,
+ "T1": 1560.4,
+ "tecniche": [
+  {
+   "t": 954.69,
+   "durata": 26,
+   "cosa": "Griglia di fili: ordito verticale (blu) e trama orizzontale (gialla) con una navetta che passa. La trama va alternatamente sopra e sotto ogni ordito, a croce perpendicolare. In parallelo compare la griglia di messa in carta con un quadretto nero e uno bianco alternati, con etichetta «rapporto 2x2, cioè due orditi e due trame»; poi il tessuto si capovolge e le due facce risultano identiche (doppio dritto).",
+   "parole": "L'armatura a tela viene anche chiamata comunemente taffetas, ovvero parliamo di questa struttura semplice dove abbiamo due ordini di filo che vanno ad incrociarsi in modo perpendicolare, quindi il classico incrocio a croce."
+  },
+  {
+   "t": 1063.85,
+   "durata": 45,
+   "cosa": "Sulla griglia della tela si aggiungono quadretti neri in senso verticale: riga dopo riga il tessuto mostra un cannello orizzontale (reps d'ordito). Poi la stessa griglia con quadretti aggiunti nel senso della trama: il cannello diventa verticale (reps in trama, come nell'Oxford). Infine, per il panama, i quadretti si aggiungono in entrambe le direzioni e compare un effetto a quadrettoni (natté).",
+   "parole": "Derivate della tela possiamo ottenere il reps, ovvero andiamo ad aggiungere quadretti neri in senso verticale, per creare questo cannello orizzontale. Il reps in trama viene ottenuto aggiungendo i quadretti nel senso della trama. Il cannello viene a posizionarsi in modo verticale, come avviene nell'Oxford. Infine abbiamo il panama, che richiede quadrettini inseriti in entrambe le direzioni."
+  },
+  {
+   "t": 1116.93,
+   "durata": 42,
+   "cosa": "Griglia 3x3 in cui si anneriscono almeno due quadretti consecutivi per riga, spostati di una colonna a ogni riga: appare la diagonale. La diagonale si inclina prima a S, poi a Z. Un angolo indica i 45 gradi quando riduzione e titolo di ordito e trama coincidono; infine la griglia cresce a 4x4 e 5x5. Accanto il tessuto: dritto con diagonale marcata, rovescio con diagonale tenue.",
+   "parole": "Si distingue in modo grafico perché ha un annerimento di almeno due quadretti consecutivi che andranno a creare questo andamento diagonale. Questo andamento diagonale inclinato potrà essere inserito come sezione S o sezione Z. Può raggiungere i 45 gradi nel momento in cui la riduzione, il titolo di ordito e trama vanno a coincidere."
+  },
+  {
+   "t": 1251.14,
+   "durata": 50,
+   "cosa": "Griglia 5x5 quasi tutta nera con pochissimi quadretti bianchi (messa in carta del raso). Le linee dei punti di incrocio si accendono e disegnano una diagonale non continua; a ogni salto la diagonale viene interrotta da un intervallo evidenziato con la scritta «scoccamento, o diffalcamento». Accanto, il filo di ordito che passa da una superficie all'altra del tessuto e forma briglie lunghe.",
+   "parole": "Avremmo a che fare con un'elevata presenza di quadretti neri, ma pochissimi quadretti bianchi. Il rapporto minimo d'armatura in questo caso è di 5x5. Abbiamo questi punti di incrocio dove i fili passano da una superficie all'altra e vanno a formare una diagonale non continua. Questa diagonale sarà sempre interrotta da questo intervallo che prende il nome di diffalcamento o scoccamento."
+  },
+  {
+   "t": 1457.01,
+   "durata": 38,
+   "cosa": "Sezione di un tessuto: fitto intreccio di fondo con un ordito supplementare che forma ricci o anelline sopra la superficie (spugna). Poi i ricci vengono tagliati con una lama e la superficie diventa pelosa, sostenuta dall'intreccio di fondo (velluto). Per ultimo i filati supplementari che restano liberi sul rovescio del tessuto (lanciato), poi tagliati (fil coupé).",
+   "parole": "Spugna si caratterizza più che altro da questi ricci o da queste anelline che vengono formate tra ordito o trama. Nel velluto invece questi ricci vengono tagliati e quindi riusciamo a riscontrare questa superficie pelosa che viene sostenuta dal fitto intreccio di fondo del tessuto."
+  }
+ ],
+ "quiz": [
+  {
+   "d": "Come viene chiamata comunemente l'armatura a tela?",
+   "giusta": "Taffetas",
+   "sbagliate": [
+    "Satin",
+    "Spina o diagonale",
+    "Natté"
+   ],
+   "spiegazione": "L'armatura a tela si chiama anche taffetas; satin è il raso, spina o diagonale è la saia."
+  },
+  {
+   "d": "Qual è il rapporto minimo d'armatura del raso?",
+   "giusta": "5x5, cioè cinque orditi e cinque trame",
+   "sbagliate": [
+    "2x2, cioè due orditi e due trame",
+    "3x3, cioè tre orditi e tre trame",
+    "4x4, cioè quattro orditi e quattro trame"
+   ],
+   "spiegazione": "Per il raso il rapporto minimo è 5x5; 2x2 è della tela e 3x3 è della saia."
+  },
+  {
+   "d": "Che cosa caratterizza la batavia, variante della saia?",
+   "giusta": "Un numero di orditi alzati pari a quelli a riposo",
+   "sbagliate": [
+    "Nervature diagonali con grossezze diverse",
+    "Una diagonale che alterna l'andamento Z e S",
+    "Una diagonale interrotta da un intervallo regolare"
+   ],
+   "spiegazione": "La batavia ha gli orditi alzati pari a quelli a riposo; la levantina ha nervature diverse e la spinapesce alterna Z e S."
+  },
+  {
+   "d": "Quale tessuto composto ha i ricci tagliati e una superficie pelosa?",
+   "giusta": "Il velluto, sostenuto da un fitto intreccio di fondo",
+   "sbagliate": [
+    "La spugna, con ricci o anelline non tagliati",
+    "Il lanciato, con filati liberi sul dritto",
+    "Il crêpe, con aspetto rugoso e mano secca"
+   ],
+   "spiegazione": "Il velluto è simile alla spugna ma i suoi ricci sono tagliati e creano una superficie pelosa."
+  },
+  {
+   "d": "Qual è la differenza tra tessuti operati e jacquard?",
+   "giusta": "Gli operati hanno disegni molto piccoli e un solo colore; i jacquard disegni più grandi e più colori",
+   "sbagliate": [
+    "Gli operati hanno disegni grandi e molti colori; i jacquard disegni piccoli e un solo colore",
+    "Gli operati si fanno con schemi semplici; i jacquard sono sempre tessuti lisci",
+    "Gli operati e i jacquard hanno disegni piccoli ma i jacquard usano un solo colore"
+   ],
+   "spiegazione": "Gli operati hanno disegni molto piccoli e un solo colore, i jacquard disegni grandi e una ricca varietà di colori."
+  }
+ ],
+ "mappa": {
+  "domanda": "Che cosa sono le armature dei tessuti a navetta?",
+  "centro": "Armature: tela, saia e raso",
+  "rami": [
+   {
+    "nome": "Tela, o taffetas",
+    "tipo": "parola",
+    "figli": [
+     {
+      "nome": "Rapporto 2x2",
+      "tipo": "sequenza"
+     },
+     {
+      "nome": "Doppio dritto, privo di rovescio",
+      "tipo": "conseguenza"
+     }
+    ]
+   },
+   {
+    "nome": "Saia, o spina, o diagonale",
+    "tipo": "parola",
+    "figli": [
+     {
+      "nome": "Rapporto 3x3, fino a 5x5",
+      "tipo": "sequenza"
+     },
+     {
+      "nome": "Batavia, levantina, spinapesce",
+      "tipo": "esempio"
+     }
+    ]
+   },
+   {
+    "nome": "Raso, o satin",
+    "tipo": "parola",
+    "figli": [
+     {
+      "nome": "Rapporto 5x5",
+      "tipo": "sequenza"
+     },
+     {
+      "nome": "Scoccamento, o diffalcamento",
+      "tipo": "parola"
+     },
+     {
+      "nome": "Scivoloso, cuciture difficili",
+      "tipo": "conseguenza"
+     }
+    ]
+   },
+   {
+    "nome": "Tessuti composti",
+    "tipo": "parola",
+    "figli": [
+     {
+      "nome": "Spugna, velluto, lanciato, fil coupé",
+      "tipo": "esempio"
+     }
+    ]
+   }
+  ],
+  "voce": "Le armature sono gli schemi con cui i fili si intrecciano. Le fondamentali sono tre. La tela, chiamata anche taffetas, ha rapporto due per due e dà un tessuto a doppio dritto, senza vero rovescio. La saia, chiamata anche spina o diagonale, ha rapporto minimo tre per tre, e le sue varianti sono la batavia, la levantina e la spinapesce. Il raso, chiamato anche satin, ha rapporto minimo cinque per cinque e una diagonale interrotta dallo scoccamento: è scivoloso e rende difficili le cuciture. Infine i tessuti composti, con più di due serie di fili: spugna, velluto, lanciato e fil coupé."
+ },
+ "glossario": [
+  {
+   "termine": "Armatura a tela (taffetas)",
+   "def": "La struttura più semplice: due ordini di fili si incontrano perpendicolarmente formando una croce, con rapporto 2x2."
+  },
+  {
+   "termine": "Rapporto d'armatura",
+   "def": "L'unità minima dell'intreccio che si ripete; per esempio 2x2 indica due orditi e due trame."
+  },
+  {
+   "termine": "Briglie",
+   "def": "Si formano quando un filo passa sopra due o più fili a riposo."
+  },
+  {
+   "termine": "Saia",
+   "def": "Armatura detta anche spina o diagonale: almeno due quadretti consecutivi anneriti creano un andamento diagonale a S o a Z."
+  },
+  {
+   "termine": "Raso (satin)",
+   "def": "Armatura con quasi tutti i quadretti neri e rapporto minimo 5x5; superficie scivolosa, diagonale interrotta dallo scoccamento."
+  },
+  {
+   "termine": "Scoccamento (diffalcamento)",
+   "def": "L'intervallo che interrompe la diagonale non continua dei punti di incrocio nel raso."
+  },
+  {
+   "termine": "Velluto",
+   "def": "Simile alla spugna, ma con i ricci tagliati che creano una superficie pelosa sostenuta dal fitto intreccio di fondo."
+  },
+  {
+   "termine": "Jacquard",
+   "def": "Tessuti con disegni di grandi dimensioni e una ricca varietà di colori."
+  }
+ ],
+ "discrepanze": [
+  "970.17 la prof dice «taffetà»: il PDF scrive «taffetas» (nelle card: taffetas).",
+  "1024.61-1041.81 frase confusa e interrotta («Le armature che possono essere ordinate da Successivamente…»): il senso è che le armature fondamentali sono tela, saia e raso; la card riporta solo questo.",
+  "1063.85 la prof dice «reps» e «come nel file» (trascrizione): il PDF scrive «reps d'ordito» e «come nella faille»; la card non cita la faille perché non è chiaro che la prof la dica.",
+  "1100.95 «effetto na te» in trascrizione = «natté» come nel PDF.",
+  "1116.93-1150.15 la prof dice «reduzione»: il PDF scrive «riduzione»; la card usa «riduzione». Né lei né il PDF spiegano che cosa sia la riduzione.",
+  "1159.67 la trascrizione riporta «3 per te. Trap.» = «3x3»; la prof dice anche «4x4 o 5x5».",
+  "1206.33 «numero di orgiti» = «orditi»; 1221.53 «spina a peso» = «spinapesce» come nel PDF (che aggiunge «spigato o chevron», non detti dalla prof).",
+  "1232.68-1242.0 la prof dice «dove la batavia abbiamo appunto questa alternanza»: ma l'alternanza Z/S è della spinapesce; probabile errore o trascrizione sbagliata, la card non riporta la frase.",
+  "1290.21 «sccoccamento» = «scoccamento»; la prof lo chiama anche «diffalcamento» come nel PDF.",
+  "1465.13 «ricci vengliati» = «ricci tagliati» (PDF).",
+  "1537.13 la prof dice «con una riduzione di fili», il PDF «un numero ridotto di fili»; la card usa le parole della prof.",
+  "1496.44 «fil coupet» e 1543-1553 «jacard» = «fil coupé» e «jacquard» come nel PDF.",
+  "PDF: «formazione di anelle» (probabile refuso per «anelli»); «complessi da lavorare» per i tessuti saia.",
+  "1552.4 il tempo della card «jacquard» è stimato dentro la frase 1545.0-1560.1 (nella trascrizione non ci sono tempi per parola): verificare ±1 s sul video."
+ ],
+ "tagli_proposti": [
+  "1051.4-1063.85 circa 12 s: «Good.», «ehm» e riformulazione prima del reps (esitazioni).",
+  "1166.05-1173.77 circa 8 s di quasi silenzio tra la fine del rapporto 3x3 e il dritto/rovescio.",
+  "1232.68-1242.0 circa 9 s: ripete batavia, levantina e spinapesce già dette, con l'errore sulla batavia.",
+  "1305.64-1315.12 circa 10 s: riformulazione sull'elevata concentrazione di orditi, già detta a 1299.3.",
+  "1499.56-1510.13 circa 10 s: incertezze («Um Libera») prima di dire che le briglie vengono tagliate."
+ ]
+}

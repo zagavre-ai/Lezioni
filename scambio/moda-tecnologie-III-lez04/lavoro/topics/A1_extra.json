@@ -1,0 +1,143 @@
+{
+ "T0": 0.0,
+ "T1": 229.0,
+ "tecniche": [
+  {
+   "t": 94.18,
+   "durata": 38,
+   "cosa": "fili verticali (ordito) e fili orizzontali (trama) che si incrociano a 90 gradi su un telaio stilizzato, con angolo retto evidenziato; poi i fili verticali si colorano e prendono l'etichetta ordito o catena, quelli orizzontali trama",
+   "parole": "I fili si intrecciano in modo perpendicolare... costruiscono un angolo retto... i fili in verticale prendono il nome di ordito, o catena"
+  },
+  {
+   "t": 192.55,
+   "durata": 30,
+   "cosa": "la navetta (barchetta con la spola) che passa da sinistra a destra tra i fili d'ordito sollevati e lascia la trama; poi la navetta lascia il posto a pinza, getto d'aria, getto d'acqua e proiettile in quattro riquadri",
+   "parole": "La navetta racchiudeva la trama e ne consentiva l'inserimento nel telaio. Oggi è sostituita da pinze, getti d'aria, getti d'acqua o proiettili"
+  }
+ ],
+ "quiz": [
+  {
+   "d": "Che cosa succede ai filati con la tessitura?",
+   "giusta": "Si intrecciano e diventano tessuti, prodotti con autonomia e compattezza",
+   "sbagliate": [
+    "Diventano fibre sciolte",
+    "Vengono trasformati in filati",
+    "Si torcono per diventare fibre più sottili"
+   ],
+   "spiegazione": "Con la filatura le fibre diventano filati; con la tessitura i filati si intrecciano e diventano tessuti."
+  },
+  {
+   "d": "Come si chiamano i fili disposti in verticale nei tessuti a navetta?",
+   "giusta": "Ordito, detto anche catena",
+   "sbagliate": [
+    "Trama",
+    "Cimosa",
+    "Boccola"
+   ],
+   "spiegazione": "Il filo verticale è l'ordito o catena; il filo orizzontale è la trama."
+  },
+  {
+   "d": "Come devono essere i fili dell'ordito rispetto a quelli della trama?",
+   "giusta": "Con maggiore torsione, più resistenti e tesi",
+   "sbagliate": [
+    "Con minore torsione, più elastici e confortevoli",
+    "Senza alcuna torsione",
+    "Sempre più sottili e meno resistenti"
+   ],
+   "spiegazione": "L'ordito è il filo più resistente e teso; la trama usa fili con minore torsione, più elastici."
+  },
+  {
+   "d": "Da che cosa deriva l'espressione «a navetta»?",
+   "giusta": "Dall'attrezzo tradizionale che racchiudeva la trama e la inseriva nel telaio",
+   "sbagliate": [
+    "Dalla forma delle cimose",
+    "Dal getto d'aria che spinge il filo",
+    "Dal colore dei fili d'ordito"
+   ],
+   "spiegazione": "La navetta era l'attrezzo tradizionale; oggi è sostituita da pinze, getti d'aria, getti d'acqua o proiettili, ma il nome rimane."
+  },
+  {
+   "d": "Come si chiama l'angolo formato dai fili nei tessuti a navetta, che li rende ortogonali?",
+   "giusta": "Angolo retto",
+   "sbagliate": [
+    "Angolo acuto",
+    "Angolo piatto",
+    "Angolo curvilineo"
+   ],
+   "spiegazione": "I fili si intrecciano in modo perpendicolare e formano un angolo retto: per questo i tessuti a navetta sono ortogonali."
+  }
+ ],
+ "mappa": {
+  "domanda": "Che cosa sono i tessuti a navetta?",
+  "centro": "Tessuti a navetta",
+  "rami": [
+   {
+    "nome": "Fili ortogonali, ad angolo retto",
+    "tipo": "parola",
+    "figli": []
+   },
+   {
+    "nome": "Ordito (o catena): fili verticali",
+    "tipo": "parola",
+    "figli": [
+     {
+      "nome": "più torsione, più resistenti e tesi",
+      "tipo": "conseguenza"
+     }
+    ]
+   },
+   {
+    "nome": "Trama: fili orizzontali",
+    "tipo": "parola",
+    "figli": [
+     {
+      "nome": "meno torsione, più elastici e confortevoli",
+      "tipo": "conseguenza"
+     }
+    ]
+   },
+   {
+    "nome": "Navetta: attrezzo tradizionale",
+    "tipo": "sequenza",
+    "figli": [
+     {
+      "nome": "oggi pinze, getti d'aria, getti d'acqua, proiettili",
+      "tipo": "esempio"
+     }
+    ]
+   }
+  ],
+  "voce": "Che cosa sono i tessuti a navetta? Al centro: i tessuti a navetta, con fili ortogonali, cioè ad angolo retto. Primo ramo: l'ordito, o catena, formato da fili verticali, con maggiore torsione, più resistenti e tesi. Secondo ramo: la trama, formata da fili orizzontali, con minore torsione, più elastici e confortevoli. Terzo ramo: la navetta, l'attrezzo tradizionale che racchiudeva la trama; oggi è sostituita da pinze, getti d'aria, getti d'acqua o proiettili."
+ },
+ "glossario": [
+  {
+   "termine": "Tessitura",
+   "def": "Processo in cui i filati si intrecciano e diventano tessuti, con autonomia e compattezza."
+  },
+  {
+   "termine": "Filato",
+   "def": "Elemento filiforme ottenuto con la filatura dalle fibre tessili."
+  },
+  {
+   "termine": "Ordito (catena)",
+   "def": "Fili disposti in senso verticale nel tessuto a navetta."
+  },
+  {
+   "termine": "Trama",
+   "def": "Fili disposti in senso orizzontale nel tessuto a navetta."
+  },
+  {
+   "termine": "Navetta",
+   "def": "Attrezzo tradizionale che racchiudeva la trama e ne consentiva l'inserimento nel telaio."
+  },
+  {
+   "termine": "Tessuto ortogonale",
+   "def": "Tessuto in cui i fili si intrecciano ad angolo retto."
+  }
+ ],
+ "discrepanze": [
+  "Nel PDF l'altezza è «la larghezza del tessuto, nota come altezza» (trama = larghezza): la prof dice (170 s circa) 'trama in senso della lunghezza e quindi orizzontale': detto a voce in modo confuso; il PDF è chiaro. Da non toccare, segnalo.",
+  "A 63 s la prof elenca 'tessuti a maglia, a trecce, a rete': il PDF dice «a navetta (trama e catena) da quelli a maglia, a trecce e a rete»."
+ ],
+ "tagli_proposti": []
+}

@@ -1,0 +1,206 @@
+{
+ "T0": 2963.0,
+ "T1": 3544.0,
+ "tecniche": [
+  {
+   "t": 2976.49,
+   "durata": 22,
+   "cosa": "Una fila di aghi in sezione che si infittisce o si dirada: aghi che si inseriscono o si escludono, accanto alle sigle E (finezza inglese), ER (finezza inglese Raschel) e GG (finezza Gauge), mentre compaiono le cifre 2, 3, 5, 7, 8, 10 fino a 16.",
+   "parole": "Grazie a dei sistemi computerizzati abbiamo bisogno di macchine moderne che ci permettono di ottenere questa finezza flessibile grazie all'applicazione di diversi aghi."
+  },
+  {
+   "t": 3026.0,
+   "durata": 22,
+   "cosa": "Due maglie affiancate: filo troppo grosso per la macchina che si spezza, filo troppo sottile che lascia una maglia rada con spazi vuoti, poi filo con titolo adeguato che forma una maglia regolare.",
+   "parole": "Se utilizzassimo un filo non idoneo al titolo di finezza della macchina potremmo andare incontro a tessuti troppo rari, oppure a fili che saranno facilmente rotti."
+  },
+  {
+   "t": 3140.8,
+   "durata": 30,
+   "cosa": "Maglia rasata (jersey) con una sola serie di aghi (monofrontura): lato dritto liscio, lato rovescio rugoso; il bordo si arrotola. Poi links-links con ranghi dritto e rovescio alternati che formano una superficie ondulata; poi coste con due serie di aghi contrapposti (bifrontura).",
+   "parole": "Questa possiede una struttura fondamentale a monofrontura, risulta essere liscia sul dritto e rugosa sul rovescio. La variante links-links alterna ranghi dritto e rovescio."
+  },
+  {
+   "t": 3231.1,
+   "durata": 62,
+   "cosa": "Quattro riquadri di rovescio di maglia jacquard che si aprono a ventaglio: fili flottanti con lunghe briglie libere; fili coupé con briglie tagliate; rovescio puntinato con fili legati; doppio dritto con due colori alternati sulle due facce, effetto negativo-positivo.",
+   "parole": "Abbiamo il jacquard a fili flottanti, il jacquard a fili coupé, il jacquard a rovescio puntinato, il jacquard a doppio dritto."
+  },
+  {
+   "t": 3309.6,
+   "durata": 42,
+   "cosa": "Intarsio: più guidafili, ciascuno con il suo colore, che cedono il filato solo nella propria area. Poi vanisé: un solo guidafilo con due filati di colore e tensione diversi, uno sul dritto e uno sul rovescio.",
+   "parole": "La tecnica dell'intarsio consente di utilizzare più colori distribuiti in aree circoscritte. L'effetto vanisé si ottiene alimentando un solo guidafilo."
+  },
+  {
+   "t": 3359.4,
+   "durata": 50,
+   "cosa": "Felpa in sezione: filo sottile che forma il fondo, filo più grosso che crea anse sul rovescio, garzatura che solleva il pelo. Poi tre rapporti di inserzione: a un filo 1 a 3, accordeon 1 a 1, doppia Pirenei con due fili supplementari indipendenti nello stesso rango.",
+   "parole": "Un filo sottile andrà a formare il fondo, mentre il filo più grosso creerà delle anse sul rovescio che subiranno un processo di garzatura per sollevare il pelo."
+  }
+ ],
+ "quiz": [
+  {
+   "d": "Che cosa esprime la finezza della macchina?",
+   "giusta": "La densità degli aghi, misurata in aghi per pollice inglese",
+   "sbagliate": [
+    "Lo spessore del filato usato per tessere",
+    "Il peso del tessuto prodotto al metro",
+    "La velocità del carro della macchina"
+   ],
+   "spiegazione": "La finezza macchina esprime la densità degli aghi."
+  },
+  {
+   "d": "Quale sigla indica gli aghi presenti in 3.81 cm nei telai Cotton?",
+   "giusta": "GG, cioè finezza Gauge",
+   "sbagliate": [
+    "E, cioè finezza inglese",
+    "ER, cioè finezza inglese Raschel",
+    "R.G.T., cioè Rappresentazione Grafica Tremelloni"
+   ],
+   "spiegazione": "GG, finezza Gauge, conta gli aghi in 3.81 cm nei telai Cotton."
+  },
+  {
+   "d": "Che cos'è il jacquard a fili coupé?",
+   "giusta": "Un jacquard con le briglie libere sul rovescio tagliate",
+   "sbagliate": [
+    "Un jacquard con le briglie legate sul rovescio",
+    "Un jacquard con due colori alternati sulle due facce",
+    "Un jacquard con lunghe briglie libere non tagliate"
+   ],
+   "spiegazione": "Nel jacquard a fili coupé le briglie libere sul rovescio vengono tagliate per non impigliarsi."
+  },
+  {
+   "d": "Come si ottiene l'effetto vanisé?",
+   "giusta": "Con un solo guidafilo che alimenta due filati di colore e tensione diversi",
+   "sbagliate": [
+    "Con diversi guidafili, ciascuno nella propria area di colore",
+    "Con due colori che lavorano alternati sulle due facce",
+    "Con un filo più grosso che crea anse da garzare"
+   ],
+   "spiegazione": "Il vanisé usa un solo guidafilo con due filati: uno sul dritto e uno sul rovescio."
+  },
+  {
+   "d": "Che cos'è la felpa doppia, detta Pirenei?",
+   "giusta": "Una felpa con due fili supplementari indipendenti nello stesso rango, per l'isolamento termico",
+   "sbagliate": [
+    "Una felpa con rapporto di inserzione di 1 a 1 per i neonati",
+    "Una felpa con rapporto di inserzione standard di 1 a 3",
+    "Una felpa con un solo filo supplementare e il pelo tagliato"
+   ],
+   "spiegazione": "La felpa doppia, o Pirenei, aumenta l'isolamento termico con due fili supplementari indipendenti."
+  }
+ ],
+ "mappa": {
+  "domanda": "Come si ottengono finezza, punti ed effetti nella maglia?",
+  "centro": "Maglia: finezza, punti ed effetti",
+  "rami": [
+   {
+    "nome": "Finezza della macchina",
+    "tipo": "parola",
+    "figli": [
+     {
+      "nome": "E: finezza inglese",
+      "tipo": "parola"
+     },
+     {
+      "nome": "ER: finezza inglese Raschel",
+      "tipo": "parola"
+     },
+     {
+      "nome": "GG: finezza Gauge",
+      "tipo": "parola"
+     }
+    ]
+   },
+   {
+    "nome": "Filato con titolo adeguato",
+    "tipo": "conseguenza",
+    "figli": [
+     {
+      "nome": "Altrimenti tessuti troppo rari o fili rotti",
+      "tipo": "conseguenza"
+     }
+    ]
+   },
+   {
+    "nome": "Effetti di intreccio: jersey, links-links, coste, picchè, treccia, traforo",
+    "tipo": "esempio",
+    "figli": []
+   },
+   {
+    "nome": "Effetti di colore: jacquard, intarsio, vanisé",
+    "tipo": "esempio",
+    "figli": []
+   },
+   {
+    "nome": "Effetti di imbottitura: felpa, pile",
+    "tipo": "esempio",
+    "figli": [
+     {
+      "nome": "Felpa a un filo, accordeon, doppia (Pirenei)",
+      "tipo": "esempio"
+     }
+    ]
+   }
+  ],
+  "voce": "Come si ottengono finezza, punti ed effetti nella maglia? Al centro c'è la maglia. Primo ramo: la finezza della macchina, che si indica con E, cioè finezza inglese, ER, cioè finezza inglese Raschel, e GG, cioè finezza Gauge. Il filato deve avere un titolo adeguato: altrimenti i tessuti sono troppo rari o i fili si rompono. Poi gli effetti di intreccio: jersey, links-links, coste, picchè, treccia e traforo. Gli effetti di colore: jacquard, che in italiano si legge Giaccàr, intarsio e vanisé. Infine gli effetti di imbottitura: la felpa, a un filo, accordeon o doppia, detta Pirenei, e il pile."
+ },
+ "glossario": [
+  {
+   "termine": "E",
+   "def": "Finezza inglese: gli aghi presenti in 2.54 cm nelle macchine circolari, rettilinee e in catena."
+  },
+  {
+   "termine": "ER",
+   "def": "Finezza inglese Raschel: gli aghi presenti in 5.08 cm."
+  },
+  {
+   "termine": "GG",
+   "def": "Finezza Gauge: gli aghi presenti in 3.81 cm nei telai Cotton."
+  },
+  {
+   "termine": "Corposità",
+   "def": "Stabilità della maglia, riferita a ranghi e file e regolata dalla lunghezza delle boccole tramite i pomoli del carro."
+  },
+  {
+   "termine": "Jersey",
+   "def": "Maglia rasata a monofrontura, liscia sul dritto e rugosa sul rovescio, molto elastica ma arrotolabile."
+  },
+  {
+   "termine": "Picchè",
+   "def": "Jersey a nido d'ape con un rango teso che unisce due o più ranghi; ideale per l'abbigliamento sportivo."
+  },
+  {
+   "termine": "Intarsio",
+   "def": "Tecnica che usa più colori in aree circoscritte, con diversi guidafili che cedono il filato solo nel proprio spazio."
+  },
+  {
+   "termine": "Vanisé",
+   "def": "Effetto ottenuto alimentando un solo guidafilo con due filati di colore e tensione diversi, uno sul dritto e uno sul rovescio."
+  },
+  {
+   "termine": "Felpa",
+   "def": "Tessuto composto: filo sottile per il fondo, filo più grosso che forma anse sul rovescio, poi garzate per sollevare il pelo."
+  }
+ ],
+ "discrepanze": [
+  "2937-2945 (e GG in 2963-2976 zona): la trascrizione automatica riporta «finezza Gros» per GG; il PDF dice «finezza Gauge». Nelle card si usa Gauge; da verificare all'ascolto cosa dice la prof.",
+  "3011-3025: il PDF dice 'ranghi e file' e 'pomoli del carro'; la trascrizione automatica porta «rang», «piedi pomoli»; corretto con il PDF.",
+  "3080-3092: la trascrizione dice «mottitura»; il PDF dice «imbottitura»; usato il PDF.",
+  "3156 (links-links): la trascrizione automatica riporta «L'XL»; usato «links-links» del PDF. Possibile anche pronuncia della prof diversa: da riascoltare.",
+  "3174.66: la trascrizione riporta «coste P»; il PDF dice «coste piatte»; usato il PDF.",
+  "3180.55: il PDF dice «picchè»; la trascrizione «picquet»; la prof lo dice 'jersey lavorato in nido d'ape' (trascritto «ideadape»).",
+  "3254: la trascrizione dice «coupin» o «card»; il PDF dice «fili coupé»; usato il PDF.",
+  "3405 circa: la trascrizione dice «felpa a cordon»; il PDF dice «felpa accordeon»; usato il PDF.",
+  "3440-3463: il PDF dice «anni 1980», «sottoposta a cimatura» e «abbigliamento sportivo ed escursionistico»; la prof dice solo «per la prima volta nel 1980»; nella card riportato come dice lei.",
+  "3475.57: la trascrizione dice «numero dell'otto»; il PDF dice «numero di lotto»; usato il PDF.",
+  "3359-3388: il PDF dice «filo più grosso a bassa torsione»; la prof non lo dice; non inserito nelle card.",
+  "2963: «finezza espressa con cifre intere 2, 3, 5, 7, 8, 10 fino a 16»: il PDF aggiunge 12 e 14; riportata come dice la prof."
+ ],
+ "tagli_proposti": [
+  "3006.9-3011: «Nel momento in cui parliamo di...» è un incipit spezzato, ma è dentro una frase senza pause: nessun taglio consigliato, solo da tenere intero.",
+  "3339-3352: il vanisé è ripetuto due volte (3328 e 3338-3352); si potrebbe valutare un taglio breve, ma la frase di 3338 aggiunge che si ottiene il doppio dritto.",
+  "3502-3510: 'Quindi queste sono le differenze' e 'Posti sul mercato' ripetono il concetto di chiusura; eventuale accorciamento a discrezione di Sara."
+ ]
+}

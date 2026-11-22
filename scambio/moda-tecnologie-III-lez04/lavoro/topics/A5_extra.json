@@ -1,0 +1,206 @@
+{
+ "T0": 1560.77,
+ "T1": 2014.85,
+ "tecniche": [
+  {
+   "t": 1648.01,
+   "durata": 48,
+   "cosa": "Preparazione dell'ordito, passo per passo: una cantra (struttura metallica) con file di rocche di filato (contatore che sale fino a 250 rocche, poi a 800 nei modelli moderni); i fili escono dalle rocche e si dispongono paralleli; un tratto di filo che si accorcia leggermente mentre si intreccia (imbozzo); uno schema di fili colorati in sequenza (nota di ordito); i fili si avvolgono sul tamburo dell'orditoio e poi passano sul subbio d'ordito, un cilindro che si riempie.",
+   "parole": "Queste verranno poi posizionate sul cantro, ovvero su queste strutture metalliche che possono ospitare fino a 250 rocche... Questi fili comunque verranno poi avvolti sul tamburo dell'orditoio e passeranno sul subbio d'ordito."
+  },
+  {
+   "t": 1696.49,
+   "durata": 46,
+   "cosa": "Imbozzimatura: il subbio con i fili entra in una vasca di bozzima (collante) e i fili si immergono; i fili escono e passano tra cilindri di spremitura in acciaio; poi passano su cilindri di essiccazione; infine il subbio è montato sul telaio. Accanto, il filo prima ruvido e poi liscio con le scritte «più scorrevole» e «più resistente».",
+   "parole": "I filati vengono immersi in una vasca insieme a questa bozzima collante. In questo modo il filo diventa più scorrevole e resistente. Possiamo poi porre i filati attraverso i cilindri di spremitura in acciaio, poi passano verso i cilindri di essiccazione."
+  },
+  {
+   "t": 1746.6,
+   "durata": 47,
+   "cosa": "Telaio ortogonale tradizionale in sezione laterale; i componenti si accendono uno alla volta con la loro etichetta: intelaiatura (struttura portante), subbio di ordito (cilindro posteriore con i fili), liccio (quadro rettangolare con maglie metalliche in cui passano i fili), navetta e spola, pettine battente, subbio del tessuto (cilindro anteriore che raccoglie il tessuto).",
+   "parole": "I componenti principali, ovvero l'intelaiatura, la struttura portante, il subbio di ordito, questo cilindro posteriore... il liccio, un quadro rettangolare dove vengono inserite le maglie metalliche... la navetta e la spola... il pettine battente e il subbio del tessuto."
+  },
+  {
+   "t": 1868.68,
+   "durata": 50,
+   "cosa": "Funzionamento del telaio: i fili d'ordito passano nelle maglie di due licci; i licci si muovono in alternanza (uno sale, uno scende) aprendo la bocca d'ordito (apertura angolare, etichetta «bocca d'ordito, o passo»); la trama attraversa l'apertura; il pettine batte e accosta il filo al tessuto già formato; i licci invertono la posizione e bloccano il filo; il tessuto greggio si avvolge sul subbio anteriore. Il ciclo si ripete (va e vieni).",
+   "parole": "Il movimento alternato dei licci ci aiuta ad aprire in modo angolare la sezione richiesta, la bocca d'ordito o passo. All'interno di questa apertura possiamo inserire la trama. Il pettine accosta il filo al tessuto già formato e i licci invertono la posizione per bloccarlo."
+  },
+  {
+   "t": 1931.8,
+   "durata": 40,
+   "cosa": "Inserimento della trama, quattro sistemi affiancati a ventaglio: navetta tradizionale (contatore 100-130 trame al minuto) che cede il posto ai sistemi moderni (contatore fino a 1000 trame al minuto). Pinza: due elementi metallici afferrano e trascinano il filato e lo tagliano all'altezza della cimosa. Proiettile: una piccola pinza d'acciaio lancia il filo ad altissima velocità attraverso l'ordito. Getto d'aria e getto d'acqua compaiono come riquadri con la sola etichetta (la prof ne dice il nome, non li descrive in questo punto).",
+   "parole": "Questa navetta poteva arrivare tra 100 e 130 trame al minuto. Oggi possiamo arrivare fino a 1000 trame al minuto. Il sistema a pinza richiede due elementi metallici... Il sistema a proiettile ha questa piccola pinza d'acciaio che lancia il filo ad altissima velocità attraverso l'ordito."
+  }
+ ],
+ "quiz": [
+  {
+   "d": "Che cos'è l'imbozzo?",
+   "giusta": "Il naturale accorciamento del filato dovuto all'intrecciarsi dei fili",
+   "sbagliate": [
+    "Il collante in cui si immergono i fili d'ordito",
+    "Il cilindro posteriore su cui si avvolge l'ordito",
+    "La struttura metallica che ospita le rocche"
+   ],
+   "spiegazione": "L'imbozzo serve a determinare la lunghezza corretta del filato."
+  },
+  {
+   "d": "A che cosa serve l'imbozzimatura?",
+   "giusta": "A rendere il filo più scorrevole e resistente",
+   "sbagliate": [
+    "A colorare i fili secondo la nota di ordito",
+    "A tagliare la trama all'altezza della cimosa",
+    "A controllare il tessuto sulla specula luminosa"
+   ],
+   "spiegazione": "I filati sono immersi in una vasca con bozzime collanti prima di essere caricati sul telaio."
+  },
+  {
+   "d": "Che cosa si forma con il movimento alternato dei licci?",
+   "giusta": "La bocca d'ordito, o passo, in cui si inserisce la trama",
+   "sbagliate": [
+    "Il tessuto greggio avvolto sul subbio del tessuto",
+    "Il codice binario dei cartoni perforati",
+    "La cimosa che protegge il bordo del tessuto"
+   ],
+   "spiegazione": "L'apertura angolare tra i fili permette l'inserimento della trama."
+  },
+  {
+   "d": "Quale novità introduce il telaio Jacquard, nato nel 1801?",
+   "giusta": "I cartoni perforati basati sul codice binario",
+   "sbagliate": [
+    "La navetta che inserisce la trama a mano",
+    "Il pettine battente che accosta il filo",
+    "La cantra con più di 800 rocche"
+   ],
+   "spiegazione": "Il telaio Jacquard controlla singolarmente più di 1300 fili in modo automatico."
+  },
+  {
+   "d": "Che cos'è il tessuto greggio?",
+   "giusta": "Il tessuto ottenuto dal telaio, ancora da trattare e controllare",
+   "sbagliate": [
+    "Il filato avvolto sul subbio d'ordito",
+    "Il tessuto già privo di bozzima e di difetti",
+    "Il disegno del bozzetto grafico fatto a mano"
+   ],
+   "spiegazione": "Il greggio viene poi liberato dalla bozzima e controllato sulla specula luminosa."
+  }
+ ],
+ "mappa": {
+  "domanda": "Che cosa serve per passare dal progetto al tessuto greggio?",
+  "centro": "Dal progetto al tessuto greggio",
+  "rami": [
+   {
+    "nome": "Fase progettuale",
+    "tipo": "sequenza",
+    "figli": [
+     {
+      "nome": "Motivo, disegno, titolo dei filati, composizione",
+      "tipo": "parola"
+     },
+     {
+      "nome": "Calcoli: riduzioni di ordito e di trama",
+      "tipo": "parola"
+     }
+    ]
+   },
+   {
+    "nome": "Bozzetto grafico: a mano o con software CAD",
+    "tipo": "sequenza",
+    "figli": []
+   },
+   {
+    "nome": "Preparazione dell'ordito",
+    "tipo": "sequenza",
+    "figli": [
+     {
+      "nome": "Rocche sulle cantre, fino a 250",
+      "tipo": "esempio"
+     },
+     {
+      "nome": "Imbozzimatura in vasca",
+      "tipo": "sequenza"
+     }
+    ]
+   },
+   {
+    "nome": "Telaio",
+    "tipo": "parola",
+    "figli": [
+     {
+      "nome": "Jacquard 1801: cartoni perforati",
+      "tipo": "esempio"
+     },
+     {
+      "nome": "Bocca d'ordito o passo",
+      "tipo": "parola"
+     }
+    ]
+   },
+   {
+    "nome": "Tessuto greggio",
+    "tipo": "conseguenza",
+    "figli": [
+     {
+      "nome": "Bozzima eliminata, controllo sulla specula",
+      "tipo": "conseguenza"
+     }
+    ]
+   }
+  ],
+  "voce": "Che cosa serve per passare dal progetto al tessuto greggio? Si parte dalla fase progettuale, dove gli stilisti indicano motivo, disegno, titolo dei filati e composizione, e si calcolano le riduzioni di ordito e di trama. Poi viene il bozzetto grafico, a mano o con i software Cad. Si prepara l'ordito: le rocche stanno sulle cantre, fino a duecentocinquanta, e i fili passano per l'imbozzimatura in vasca. Sul telaio, che nel milleottocentouno con Giaccàr ebbe i cartoni perforati, i licci aprono la bocca d'ordito, o passo, e si inserisce la trama. Si ottiene il tessuto greggio: si elimina la bozzima e lo si controlla sulla specula luminosa."
+ },
+ "glossario": [
+  {
+   "termine": "Imbozzo",
+   "def": "Il naturale accorciamento del filato dovuto all'intrecciarsi dei fili; serve a determinare la lunghezza corretta."
+  },
+  {
+   "termine": "Cantra",
+   "def": "Struttura metallica su cui si posizionano le rocche; può ospitare fino a 250 rocche, in alcuni modelli moderni fino a 800."
+  },
+  {
+   "termine": "Nota di ordito",
+   "def": "Schema preciso da seguire nella disposizione dei fili quando si usano filati colorati."
+  },
+  {
+   "termine": "Imbozzimatura",
+   "def": "Processo in cui i filati sono immersi in una vasca con bozzima collante, per renderli più scorrevoli e resistenti."
+  },
+  {
+   "termine": "Subbio",
+   "def": "Cilindro del telaio: quello d'ordito, posteriore, porta i fili; quello del tessuto, anteriore, raccoglie il materiale prodotto."
+  },
+  {
+   "termine": "Liccio",
+   "def": "Quadro rettangolare con maglie metalliche in cui passano i fili da abbassare o alzare."
+  },
+  {
+   "termine": "Bocca d'ordito",
+   "def": "Apertura angolare, detta anche passo, creata dal movimento alternato dei licci; vi si inserisce la trama."
+  },
+  {
+   "termine": "Tessuto greggio",
+   "def": "Il tessuto ottenuto dal telaio, che poi subisce i trattamenti per eliminare la bozzima e il controllo visivo."
+  }
+ ],
+ "discrepanze": [
+  "1659.21 e 1653.41: la prof dice «fino a 250 rocche» e «fino a 800 unità»; il PDF dice «da 150 a 250 rocche» e «oltre le 800 unità». Nelle card è riportato come lo dice lei.",
+  "1676.36-1687.7: trascrizione confusa («dovissimo invece utilizzare dei forati»); per il PDF significa «nel caso si utilizzino filati colorati». La card segue il PDF: da verificare all'ascolto.",
+  "1688.42 «tamburo adordito»: corretto con il PDF in «tamburo dell'orditoio».",
+  "1704.52 e 1988.61: «bozzine/bozzina» corretto in «bozzima» (PDF: bozzime collanti).",
+  "1742.68 e 1877.41: «telaio ottagonale» e «ricci» sono errori della trascrizione per «ortogonale» e «licci».",
+  "1818.57: la prof non dice le date di vita di Jacquard (1752-1834) e non dice il PDF «tessitore francese»; il PDF indica «più di 1.300 fili», la prof dice «più di 1300 fili».",
+  "1828.53: la prof non spiega il codice binario; la spiegazione sulla card (foro = filo sollevato, pieno = riposo) viene dal PDF.",
+  "1794-1818: la prof non nomina il telaio verticale (tappeti e arazzi), che è nel PDF.",
+  "1942.47-1971.0: la prof descrive solo pinza e proiettile («due esempi delle quattro»); getto d'aria e getto d'acqua non sono descritti qui (detti prima, a 201.13). Il PDF indica per il getto d'acqua le fibre sintetiche idrorepellenti, non detto.",
+  "1988.61-2014.85: la prof non dice «sbozzimatura» né «tagliato in pezze di lunghezza variabile» né le sostanze idrosolubili del PDF; dice che si eliminano la bozzima e che si segnalano e risolvono le imperfezioni.",
+  "1613.89: la prof dice solo «questo documento»; il nome «scheda tecnica di tessitura» viene dal PDF. Il PDF scrive «CAD» senza spiegare la sigla: sulla card è «sistemi informatici».",
+  "1566.66-1570.1: trascrizione «stilizzi» per «stilisti»; 1601.54 e 1591.4 «finisso» per «finissaggio»."
+ ],
+ "tagli_proposti": [
+  "1717.99-1724.97 (circa 7 s): autocorrezione «il telaio, scusatemi i fili… sono andati a subire questa imbozzimatura», ripete il concetto già detto.",
+  "1856.2-1868.68 (circa 12 s): «possiamo fare un riferimento medio per le tipologie di telai», frase senza contenuto tecnico.",
+  "1918.3-1919.8 (1,5 s): «In questo caso però…» frammento interrotto.",
+  "1978.05-1987.93 (circa 10 s): ripete la definizione di tessuto greggio già data a 1920.6."
+ ]
+}
