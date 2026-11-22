@@ -2,24 +2,7 @@
  "tag": "letteratura-V-lez13",
  "parti": {
   "1": {
-   "stato": "REVISIONATA_CON_RISERVE",
-   "video": "Letteratura_Lez13_Parte1_1080p.mp4",
-   "durata_s": 3108.0,
-   "durata": "51:48.0",
-   "fotogrammi": 93241,
-   "fotogrammi_attesi": 93241,
-   "peso_MB": 324.9,
-   "vtt": "Letteratura_Lez13_Parte1.vtt"
-  },
-  "2": {
-   "stato": "REVISIONATA_CON_RISERVE",
-   "video": "Letteratura_Lez13_Parte2_1080p.mp4",
-   "durata_s": 3303.5,
-   "durata": "55:03.5",
-   "fotogrammi": 99104,
-   "fotogrammi_attesi": 99104,
-   "peso_MB": 341.0,
-   "vtt": "Letteratura_Lez13_Parte2.vtt"
+   "stato": "IN_REVISIONE"
   }
  },
  "manca": "",
@@ -27,9 +10,9 @@
  "domande_sara": [],
  "note": [
   {
-   "quando": "17/11 17:20",
-   "testo": "17/11 CONSEGNATA sul ramo revisione-letteratura-V-lez13 (commit 020dbd6). P1 51:48, P2 55:03; -16,6/-16,2 LUFS, picchi -1,5/-2,1 dBFS; jingle Quiz scarto <=0,045 s; sincronia labbra max 0,037 s; 0 fermi del prof; pezzi del prof tutti a fine frase (D1, D3 estesi; inizio P2 ripulito); mappa solo del prof; apertura P2 col ripasso; fettine: 8 righe tagliate coperte. RISERVE (nel rapporto): (1) font etichette DM Mono invece di Figtree Bold nelle slide gia montate, senza sorgenti; (2) ~148 cue dei sottotitoli del prof dubbi, da riascoltare; (3) jingle e rumore non ascoltati; (4) tabella pagine del libro e controllo_finale.py non fatti; (5) animazioni scure e copertina non identiche a Spagnolo. Scheda: secondi nuovi in scheda_P1/P2.json. Prossimo aggiornamento fra 20 minuti."
+   "quando": "22/11 16:38",
+   "testo": "correzioni 22/11: presa da revisione-letteratura-V-lez13 (consegna del 17/11, commit 020dbd6). Parto adesso (16:40 UTC). Scadenza 19:30 UTC. Controllo a 1 ora: ora di consegna prevista."
   }
  ],
- "aggiornato": "2026-11-17 17:20:45"
+ "aggiornato": "2026-11-22 16:38:17"
 }
