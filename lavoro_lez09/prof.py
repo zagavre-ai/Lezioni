@@ -12,6 +12,27 @@ def silenzi():
     r=subprocess.run(['ffmpeg','-v','info','-i',SRC,'-vn','-af','silencedetect=n=-38dB:d=0.3','-f','null','-'],capture_output=True,text=True).stderr
     st=[float(x) for x in re.findall(r'silence_start: ([\d.]+)',r)];en=[float(x) for x in re.findall(r'silence_end: ([\d.]+)',r)]
     L=list(zip(st,en));json.dump(L,open(f,'w'));return L
+_X=None
+def _x():
+    global _X
+    if _X is None:
+        import numpy as np
+        _X=np.frombuffer(subprocess.run(['ffmpeg','-v','error','-i',SRC,'-vn','-ac','1','-ar','16000','-f','f32le','-'],capture_output=True).stdout,np.float32)
+    return _X
+def _rms(a,b):
+    import numpy as np
+    s=_x()[int(a*16000):int(b*16000)];return float(np.sqrt(np.mean(s**2))) if len(s) else 0.0
+def snap(t0,t1,L=None,soglia=0.012):
+    """tagli nelle pause: inizio fino a 0,15 s prima della frase, fine fino a 0,25 s dopo, solo se lì c'è silenzio"""
+    a0=t0
+    for k in range(1,4):
+        if _rms(t0-0.05*k,t0-0.05*(k-1))<soglia:a0=t0-0.05*k
+        else:break
+    a1=t1
+    for k in range(1,6):
+        if _rms(t1+0.05*(k-1),t1+0.05*k)<soglia:a1=t1+0.05*k
+        else:break
+    return a0,a1
 def segmenti(t0,t1,L,maxp=2.5,keep=1.0):
     """intervalli sorgente da tenere: le pause > maxp si accorciano a ~keep"""
     cuts=[(a,b) for a,b in L if a>t0 and b<t1 and b-a>maxp]
@@ -80,7 +101,7 @@ def build(n,pagnum0,out_mp4,t0=None,t1=None,prefix=None,anchors=None):
     """pezzo del prof per l'argomento n"""
     L=silenzi();a0,a1=arg_range(n)
     t0=a0 if t0 is None else t0;t1=a1 if t1 is None else t1
-    segs=segmenti(t0,t1,L);f,tot=mappa(segs)
+    t0,t1=snap(t0,t1,L);segs=segmenti(t0,t1,L);f,tot=mappa(segs)
     cards={};ev=[]
     for p,i,a in CARDS[n]:
         k=f'{p}.{i}';cards[k]=card(p,i);ev.append((f(SEG[seg_at(a)]['inizio']),k))
@@ -99,26 +120,37 @@ def guadagno():
     if os.path.exists(f):return json.load(open(f))['g']
     r=subprocess.run(['ffmpeg','-v','info','-i',SRC,'-vn','-af',CHAIN+',ebur128=framelog=quiet','-f','null','-'],capture_output=True,text=True).stderr
     I=float(re.findall(r'I:\s+(-?[\d.]+) LUFS',r)[-1]);g=-16-I;json.dump({'I':I,'g':g},open(f,'w'));return g
+def seq_pagine(d,pag0):
+    """sequenza cronologica di pagine: [(t,'win'|'focus'|'img',ks,on,fn,tb,pag)] e ultima pagina"""
+    st=list(d['stati'])
+    if st[0][0]>0.5:st=[[0.0,st[0][1],None,False]]+st
+    ev=[(s[0],0,s) for s in st]+[(a,1,(a,fn,b)) for a,b,fn in d['imm']]
+    ev.sort(key=lambda e:(e[0],e[1]));out=[];pag=pag0;last=None;cur_ks=None
+    for t,k,x in ev:
+        if k==1:
+            pag+=1;out.append((t,'img',None,None,x[1],x[2],pag))
+        else:
+            _,win,on,focus=x;ks=tuple(win)
+            if focus:out.append((t,'focus',ks,on,None,None,pag if last==ks else pag));continue
+            if ks!=last:pag+=1;last=ks
+            out.append((t,'win',ks,on,None,None,pag))
+    return out,pag
 def render_stati(d,pag0,dirp):
-    """PNG per ogni stato; ritorna lista [(t_out,png)] e ultimo numero pagina"""
-    os.makedirs(dirp,exist_ok=True);cards=d['cards'];title=d['title'];n=d['n'];tl=[];pag=pag0;last=None;wincache={}
-    ev=[]
+    os.makedirs(dirp,exist_ok=True);cards=d['cards'];title=d['title'];n=d['n']
+    seq,pag=seq_pagine(d,pag0);ev=[];winpag={}
     with G.R() as r:
-        for t,win,on,focus in d['stati']:
-            ks=tuple(win)
-            if ks!=last and not focus:pag+=1;last=ks
-            if focus:
+        for t,kind,ks,on,fn,tb,pg in seq:
+            if kind=='img':
+                cap=IMMCAP.get(fn,'')
+                h=G.doc(f'<img class="img" src="file:///home/user/Lezioni/w/imgs/{fn}" style="left:80px;top:290px;height:650px;max-width:1290px">',f'ARGOMENTO {n}',cap,259,pg,True,KW.get(n))
+                p=f'{dirp}/i{len(ev):03d}.png';r.shot(h,p);ev.append((t,p,tb));continue
+            if kind=='focus':
                 inner,bar=G.pagina(title,[cards[on]],0)
                 inner=inner.replace('class="card on"','class="card on" style="font-size:46px;line-height:1.45"')
             else:
-                sg=sigle_in(ks,cards);inner,bar=G.pagina(title,[cards[k] for k in ks],list(ks).index(on) if on in ks else None,sg or None)
-            h=G.doc(inner,f'ARGOMENTO {n}',title,bar,pag,True,KW.get(n))
+                sg=sigle_in(ks,cards);inner,bar=G.pagina(title,[cards[k] for k in ks],(list(ks).index(on) if on in ks else None),sg or None)
+            h=G.doc(inner,('RIEPILOGO' if n==11 else f'ARGOMENTO {n}'),title,bar,pg,True,KW.get(n))
             p=f'{dirp}/s{len(ev):03d}.png';r.shot(h,p);ev.append((t,p))
-        # immagini
-        for ta,tb,fn in d['imm']:
-            cap=IMMCAP.get(fn,'')
-            h=G.doc(f'<img class="img" src="file:///home/user/Lezioni/w/imgs/{fn}" style="left:80px;top:290px;height:650px;max-width:1290px">',f'ARGOMENTO {n}',cap,259,pag+1,True,KW.get(n))
-            p=f'{dirp}/i{len(ev):03d}.png';r.shot(h,p);ev.append((ta,p,tb))
     return ev,pag
 IMMCAP={'i-005.jpg':'Mussolini dal balcone di Palazzo Venezia','i-006.jpg':'La propaganda: il fascismo non accetta un «no»','i-010.jpg':'I Balilla e l’addestramento militare',
         'i-014.jpg':'La firma dei Patti Lateranensi','i-018.jpg':'La battaglia del grano','i-021.jpg':'Un simbolo del fascismo: il Palazzo della Civiltà italiana','i-024.jpg':'La guerra d’Etiopia (1935-1936)'}
@@ -154,8 +186,13 @@ def ffcmd(d,tl,out,prev_png=None,trans=True,tag='x'):
         fine=tl[i+1][0] if i+1<len(tl) else tot
         L.append(f"file '{p}'\nduration {max(fine-t,1/30):.4f}")
     L.append(f"file '{tl[-1][1]}'");open(lst,'w').write('\n'.join(L))
-    base=W+f'/{tag}_base.mkv'
-    subprocess.run(['ffmpeg','-v','error','-y','-f','concat','-safe','0','-i',lst,'-vf','fps=30,format=yuv420p','-t',f'{tot:.3f}','-c:v','libx264','-preset','ultrafast','-crf','12','-r','30',base],check=True)
+    base=W+f'/{tag}_base.mkv';clips=[];bounds=[round(t*30) for t,_ in tl]+[round(tot*30)]
+    for i,(t,png) in enumerate(tl):
+        nfr=max(bounds[i+1]-bounds[i],1);cp=W+f'/{tag}_clip{i:02d}.mkv'
+        subprocess.run(['ffmpeg','-v','error','-y','-loop','1','-framerate','30','-i',png,'-frames:v',str(nfr),'-vf','format=yuv420p','-c:v','libx264','-preset','ultrafast','-crf','12','-g','60','-r','30',cp],check=True);clips.append(cp)
+    open(W+f'/{tag}_clips.txt','w').write('\n'.join(f"file '{c}'" for c in clips))
+    subprocess.run(['ffmpeg','-v','error','-y','-f','concat','-safe','0','-i',W+f'/{tag}_clips.txt','-c','copy',base],check=True)
+    for c in clips:os.remove(c)
     fc=[];cmd=['ffmpeg','-v','error','-y','-i',base,'-i',cam,'-i',aud]
     fc.append("[1:v]scale=412:309:flags=lanczos,unsharp=5:5:0.7,eq=contrast=1.04:saturation=1.05,format=rgba,geq=r='r(X,Y)':g='g(X,Y)':b='b(X,Y)':a='if(gt(hypot(max(0,abs(X-205.5)-189.5),max(0,abs(Y-154)-138)),16),0,255)'[cam]")
     fc.append("[0:v]format=rgba[bg];[bg][cam]overlay=1428:148:format=auto:shortest=1[vb]")
@@ -171,3 +208,12 @@ def ffcmd(d,tl,out,prev_png=None,trans=True,tag='x'):
     cmd+=['-filter_complex',';'.join(fc),'-map','[vo]','-map','[ao]','-t',f'{tot:.3f}','-c:v','libx264','-preset','veryfast','-crf','16','-pix_fmt','yuv420p','-r','30','-c:a','pcm_s16le','-ar','48000',out]
     return cmd
 HERE=os.path.dirname(os.path.abspath(__file__))
+
+RIEP_TITLES={2:'La fascistizzazione dello Stato',4:'La gioventù fascista',5:'La scuola fascista',6:'I media e i Patti Lateranensi',9:'Il ruolo della donna e la demografia',7:'Il corporativismo e l’agricoltura',8:'Quota 90, Stato imprenditore e autarchia',10:'Politica estera, impero e Leggi Razziali'}
+RIEP_EV=[('60:26',2),('60:37',4),('61:17',5),('62:00',6),('63:14',9),('63:51',7),('64:46',8),('65:37',10)]
+def build_riep():
+    L=silenzi();t0,t1=arg_range(11);t0,t1=snap(t0,t1,L);segs=segmenti(t0,t1,L);f,tot=mappa(segs)
+    cards={f'r{k}':RIEP_TITLES[k] for _,k in RIEP_EV};ev=[(f(SEG[seg_at(a)]['inizio']),f'r{k}') for a,k in RIEP_EV]
+    cards=dict(sorted(cards.items(),key=lambda kv:[k for _,k in RIEP_EV].index(int(kv[0][1:]))))
+    stati=finestre(ev,tot,cards,'Riepilogo della lezione')
+    return dict(n=11,segs=segs,tot=tot,stati=stati,cards=cards,imm=[],title='Riepilogo della lezione')

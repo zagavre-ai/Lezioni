@@ -64,14 +64,14 @@ def doc(inner,kicker='',title='',bar=0,pag=1,cam=True,kw=None,foot='STORIA V',no
     kwh=f'<div id="kw"><h4>PAROLE CHIAVE</h4>{k}</div>' if (cam and kw) else ''
     return f'''<!doctype html><html><head><meta charset="utf-8"><style>{CSS}</style></head><body>
 <div id="logo">{LOGO}</div><div id="hl"></div><div id="fl"></div>
-<div id="kick">{esc(kicker)}</div><div id="tit">{esc(title)}</div><div id="bar" style="top:{bar}px"></div>
+<div id="kick">{esc(kicker)}</div><div id="tit">{esc(title)}</div>{('<div id="bar" style="top:%dpx"></div>'%bar) if bar else ''}
 {inner}{camh}{kwh}<div id="foot">{esc(foot)}</div><div id="pag">Pagina {pag}</div>{extra}</body></html>'''
 class R:
     def __enter__(self):
         self.p=sync_playwright().start();self.b=self.p.chromium.launch(executable_path='/opt/pw-browsers/chromium',args=['--no-sandbox']);self.pg=self.b.new_page(viewport={'width':1920,'height':1080});return self
     def __exit__(self,*a):self.b.close();self.p.stop()
     def set(self,h):
-        open('/tmp/claude-0/_r.html','w').write(h);self.pg.goto('file:///tmp/claude-0/_r.html');self.pg.evaluate("document.fonts.ready");self.pg.wait_for_timeout(80)
+        fp=f'/tmp/claude-0/_r{os.getpid()}.html';open(fp,'w').write(h);self.pg.goto('file://'+fp);self.pg.evaluate("document.fonts.ready");self.pg.wait_for_timeout(80)
     def shot(self,h,path):
         self.set(h);self.pg.screenshot(path=path)
     def heights(self,h):

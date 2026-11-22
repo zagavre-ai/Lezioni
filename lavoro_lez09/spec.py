@@ -24,7 +24,9 @@ ARGS=[
 ]
 def arg_range(n):
     a=[x for x in ARGS if x[0]==n][0]
-    i0=seg_at(a[2]);i1=seg_at(a[3])-1 if a[3]!='67:00' else len(SEG)-1
+    i0=seg_at(a[2]);
+    if n==0:return 0.45,SEG[seg_at(a[3])-1]['fine']
+    i1=seg_at(a[3])-1 if a[3]!='67:00' else len(SEG)-1
     return SEG[i0]['inizio'],SEG[i1]['fine']
 
 PDF=json.load(open('/home/user/Lezioni/w/lav/pdf_cards.json'))
