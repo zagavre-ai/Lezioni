@@ -1,7 +1,13 @@
 {
  "tag": "storia-arte-V-lez06",
- "parti": {},
- "manca": "",
+ "parti": {
+  "1": {
+   "titolo": "Simbolismo e Art Nouveau",
+   "stato": "IN_MONTAGGIO",
+   "voci": "segnaposto"
+  }
+ },
+ "manca": "voci Kore (9:00), assemblaggio finale, dispensa e PDF mappe, controllo",
  "serve_master": [
   {
    "quando": "22/11 22:48",
@@ -21,10 +27,14 @@
   {
    "quando": "22/11 22:43",
    "testo": "storia arte 22/11: presa da claude/admiring-feynman-80e2f4"
+  },
+  {
+   "quando": "22/11 23:27",
+   "testo": "00:30 it: trascrizione fatta, testi voci caricati, slide sincronizzate sul prof in montaggio (intro, 5 argomenti), schede/approfondimenti/pillole fatti con voce provvisoria, mappe in corso (fork). Mancano: assemblaggio, sottotitoli, dispense, controllo rapido. Con le voci delle 9:00 rigenero i pezzi vocali e consegno entro le 13:00."
   }
  ],
  "materia": "Storia dell'arte V",
  "lezione": "Lezione 6 · Simbolismo e Art Nouveau",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-22 22:57:54"
+ "aggiornato": "2026-11-22 23:27:45"
 }
