@@ -1,55 +1,31 @@
 {
- "materia": "Storia V",
- "titolo": "Storia V · Lezione 20 · Gli anni Novanta, il mondo post-bipolare · Parte 1",
- "durata_s": 4515.667,
+ "materia": "Storia",
+ "titolo": "Gli anni Novanta: il mondo post-bipolare · Parte 1",
+ "durata_s": 3249.87,
  "argomenti": [
   {
    "n": 1,
    "titolo": "Il crollo dell'URSS",
-   "inizio_s": 280.033,
-   "quiz_s": 1491.467
+   "inizio_s": 279.3,
+   "quiz_s": 1514.0
   },
   {
    "n": 2,
    "titolo": "L'egemonia degli Stati Uniti",
-   "inizio_s": 1496.467,
-   "quiz_s": 1926.133
+   "inizio_s": 1518.2,
+   "quiz_s": 1949.833
   },
   {
    "n": 3,
    "titolo": "Le guerre nella ex Iugoslavia",
-   "inizio_s": 1931.133,
-   "quiz_s": 2528.333
+   "inizio_s": 1954.033,
+   "quiz_s": 2593.4
   },
   {
    "n": 4,
    "titolo": "L'Europa negli anni Novanta",
-   "inizio_s": 2533.333,
-   "quiz_s": 2962.033
-  },
-  {
-   "n": 5,
-   "titolo": "L'Italia nella Seconda Repubblica",
-   "inizio_s": 2967.033,
-   "quiz_s": 3595.5
-  },
-  {
-   "n": 6,
-   "titolo": "Medio Oriente, Africa e America Latina",
-   "inizio_s": 3600.5,
-   "quiz_s": 3891.4
-  },
-  {
-   "n": 7,
-   "titolo": "I nuovi protagonisti in Asia",
-   "inizio_s": 3896.4,
-   "quiz_s": 4122.333
-  },
-  {
-   "n": 8,
-   "titolo": "La globalizzazione",
-   "inizio_s": 4127.333,
-   "quiz_s": 4421.567
+   "inizio_s": 2597.6,
+   "quiz_s": 3230.867
   }
  ],
  "quiz": {
@@ -270,226 +246,6 @@
       "L'ingresso della Russia"
      ],
      "e": "L'Unione avvia i processi di integrazione per accogliere i Paesi dell'ex blocco sovietico dell'Europa centrale e orientale."
-    }
-   ]
-  },
-  "Q5": {
-   "title": "Quiz 5 · L'Italia nella Seconda Repubblica",
-   "items": [
-    {
-     "p": "Che cosa provocano le inchieste di «Mani pulite»?",
-     "a": "Il crollo dei partiti storici, come DC e PSI",
-     "w": [
-      "La nascita della Repubblica",
-      "L'ingresso nella NATO",
-      "La fine dell'euro"
-     ],
-     "e": "Le inchieste contro la corruzione provocano il crollo dei partiti storici (Democrazia Cristiana, PSI)."
-    },
-    {
-     "p": "Intorno a quali schieramenti si riorganizza il sistema politico?",
-     "a": "Il centro-destra e il centro-sinistra",
-     "w": [
-      "Monarchici e repubblicani",
-      "Fascisti e comunisti",
-      "Un partito unico"
-     ],
-     "e": "Il sistema si riorganizza intorno a due grandi coalizioni alternative: il centro-destra e il centro-sinistra."
-    },
-    {
-     "p": "In che anno Silvio Berlusconi entra in politica?",
-     "a": "Nel 1994",
-     "w": [
-      "Nel 1948",
-      "Nel 1968",
-      "Nel 2008"
-     ],
-     "e": "Nel 1994 l'imprenditore televisivo entra in politica con il nuovo partito Forza Italia, vincendo le elezioni."
-    },
-    {
-     "p": "Quale partito fonda Berlusconi?",
-     "a": "Forza Italia",
-     "w": [
-      "Alleanza Nazionale",
-      "Democrazia Cristiana",
-      "Partito d'Azione"
-     ],
-     "e": "Berlusconi fonda Forza Italia."
-    },
-    {
-     "p": "Quali sfide affronta l'Italia negli anni Novanta?",
-     "a": "Instabilità politica, debito pubblico e primi grandi flussi migratori",
-     "w": [
-      "Il ritorno della monarchia",
-      "L'uscita dall'Europa",
-      "La fine dell'inflazione in tutto il mondo"
-     ],
-     "e": "L'Italia affronta forte instabilità, l'esigenza di risanare il debito (governi Prodi) e l'inizio dei grandi flussi migratori."
-    }
-   ]
-  },
-  "Q6": {
-   "title": "Quiz 6 · Medio Oriente, Africa e America Latina",
-   "items": [
-    {
-     "p": "Che cosa accendono gli accordi di Oslo del 1993?",
-     "a": "La speranza di pace tra israeliani e palestinesi",
-     "w": [
-      "La guerra del Golfo",
-      "La nascita dell'euro",
-      "La fine dell'apartheid"
-     ],
-     "e": "Gli accordi di Oslo accendono la speranza di pace con la nascita dell'Autorità Nazionale Palestinese."
-    },
-    {
-     "p": "Chi offre protezione ad Al-Qaeda in Afghanistan?",
-     "a": "Il regime dei Talebani",
-     "w": [
-      "Il governo sovietico",
-      "L'Autorità Nazionale Palestinese",
-      "La NATO"
-     ],
-     "e": "In Afghanistan il regime teocratico dei Talebani offre protezione ad Al-Qaeda, fondata da Osama bin Laden."
-    },
-    {
-     "p": "Quale tragedia colpisce il Ruanda nel 1994?",
-     "a": "Un genocidio",
-     "w": [
-      "Una guerra col Kuwait",
-      "Una crisi finanziaria asiatica",
-      "Una riunificazione"
-     ],
-     "e": "Il continente africano è devastato da guerre civili, tra cui il genocidio in Ruanda del 1994."
-    },
-    {
-     "p": "Che cosa accade in Sudafrica nel 1994?",
-     "a": "Si tengono le prime elezioni libere e Mandela è eletto presidente",
-     "w": [
-      "Nasce la dittatura militare",
-      "Inizia l'apartheid",
-      "Si riunifica la Germania"
-     ],
-     "e": "Nel 1994 Nelson Mandela viene eletto presidente, ponendo fine alla segregazione razziale."
-    },
-    {
-     "p": "Che cosa caratterizza l'America Latina negli anni Novanta?",
-     "a": "Il consolidarsi del ritorno alla democrazia, con crisi economiche e disuguaglianze",
-     "w": [
-      "Il ritorno di dittature militari ovunque",
-      "Un boom senza problemi",
-      "L'ingresso nell'Unione Europea"
-     ],
-     "e": "Si consolida il ritorno alla democrazia in Cile, Argentina e Brasile, con pesanti crisi economiche e forti disuguaglianze."
-    }
-   ]
-  },
-  "Q7": {
-   "title": "Quiz 7 · I nuovi protagonisti in Asia",
-   "items": [
-    {
-     "p": "Che cosa caratterizza la Cina dopo piazza Tienanmen (1989)?",
-     "a": "Controllo politico autoritario e apertura all'economia di mercato",
-     "w": [
-      "Un governo democratico",
-      "Un regime comunista chiuso all'economia",
-      "L'ingresso nell'Unione Europea"
-     ],
-     "e": "Pechino mantiene un rigido controllo politico autoritario, ma avvia una straordinaria apertura all'economia di mercato."
-    },
-    {
-     "p": "Quali Paesi fanno parte delle «Tigri asiatiche»?",
-     "a": "Corea del Sud, Taiwan, Singapore e Hong Kong",
-     "w": [
-      "Cile, Brasile e Argentina",
-      "Ruanda e Somalia",
-      "Francia e Germania"
-     ],
-     "e": "Corea del Sud, Taiwan, Singapore e Hong Kong registrano un boom industriale e tecnologico."
-    },
-    {
-     "p": "Che cosa interrompe temporaneamente il boom delle Tigri asiatiche?",
-     "a": "Una grave crisi finanziaria nel 1997",
-     "w": [
-      "La guerra del Golfo",
-      "La riunificazione tedesca",
-      "La nascita dell'euro"
-     ],
-     "e": "Il boom è interrotto da una grave crisi finanziaria nel 1997."
-    },
-    {
-     "p": "Come si presenta il Giappone negli anni Novanta?",
-     "a": "In stagnazione economica e con instabilità politica",
-     "w": [
-      "In grande boom",
-      "In guerra civile",
-      "In ricostruzione postbellica"
-     ],
-     "e": "Il Giappone entra negli anni Novanta in una fase di stagnazione economica e instabilità politica."
-    },
-    {
-     "p": "In quale settore l'India diventa un centro mondiale?",
-     "a": "Nell'industria del software",
-     "w": [
-      "Nel petrolio",
-      "Nella siderurgia",
-      "Nell'industria automobilistica"
-     ],
-     "e": "L'India avvia riforme di liberalizzazione economica e diventa un centro mondiale per l'industria del software."
-    }
-   ]
-  },
-  "Q8": {
-   "title": "Quiz 8 · La globalizzazione",
-   "items": [
-    {
-     "p": "Che cosa unifica la globalizzazione economica?",
-     "a": "I mercati mondiali, con la libera circolazione di merci, capitali e servizi",
-     "w": [
-      "Le monete in un'unica valuta",
-      "Gli eserciti nazionali",
-      "Le lingue del mondo"
-     ],
-     "e": "La globalizzazione unifica i mercati mondiali, guidata dalle aziende multinazionali."
-    },
-    {
-     "p": "Quali innovazioni cambiano il modo di comunicare e lavorare?",
-     "a": "I personal computer e Internet",
-     "w": [
-      "La radio e il telegrafo",
-      "La televisione a colori",
-      "Il fax e la macchina da scrivere"
-     ],
-     "e": "La diffusione dei personal computer e la nascita di Internet cambiano il modo di comunicare, lavorare e accedere alle informazioni."
-    },
-    {
-     "p": "Che cosa criticano i movimenti No-Global?",
-     "a": "Gli effetti della globalizzazione, accusata di aumentare le disuguaglianze",
-     "w": [
-      "La fine della Guerra fredda",
-      "La nascita dell'euro",
-      "L'esistenza dell'ONU"
-     ],
-     "e": "I movimenti No-Global criticano la globalizzazione, accusata di aumentare le disuguaglianze tra Paesi ricchi e poveri."
-    },
-    {
-     "p": "Dove si tengono i tumulti No-Global del 1999?",
-     "a": "A Seattle",
-     "w": [
-      "A Mosca",
-      "A Pechino",
-      "A Johannesburg"
-     ],
-     "e": "I tumulti di Seattle del 1999 sono tra le proteste No-Global."
-    },
-    {
-     "p": "A quanto arriva la popolazione mondiale a fine secolo?",
-     "a": "A oltre 6 miliardi di persone",
-     "w": [
-      "A 2 miliardi",
-      "A 3 miliardi",
-      "A oltre 12 miliardi"
-     ],
-     "e": "La crescita demografica supera i 6 miliardi a fine secolo."
     }
    ]
   }
