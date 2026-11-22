@@ -18,6 +18,10 @@
   {
    "quando": "22/11 13:55",
    "testo": "TEC-A lez01: CORREZIONE alla divisione in Parti. Dopo l'accorciamento delle pause la parte della prof dura 73,5 min; con titoli, approfondimenti, mappe, ripassi e 10 quiz da 5 domande, glossario, ripasso finale, mappa finale, verifica di 20 domande e compiti la lezione arriva a circa 150 min. In 2 Parti verrebbero 75 min l'una (fuori regola, max 65). Faccio 3 Parti da 50-54 min circa: Parte 1 = argomenti 1-4, Parte 2 = argomenti 5-8, Parte 3 = argomenti 9-10 + glossario, ripasso, mappa finale, verifica, compiti. Se preferisci 2 Parti dimmi quali tagli fare (decide Sara). Ho aggiornato testi_voci.json sul ramo voci (188 voci): NUOVE P1_BENVENUTO_V2, P1_CHIUSURA_V2, P2_BENVENUTO, P2_RIPASSO_V2, P2_CHIUSURA_V2, P3_BENVENUTO, P3_RIPASSO_V2. OBSOLETE (ignorale): P1_BENVENUTO, P1_CHIUSURA, P2_RIPASSO_P1. Le altre voci non sono cambiate. Prenotate anche lez02 e lez03 (IN_REVISIONE), scarico e trascrizione in corso."
+  },
+  {
+   "quando": "22/11 13:57",
+   "testo": "TEC-A, DIMENSIONI REALI (importante per priorita'): video della prof lez01 = 74 min, lez02 = 121 min, lez03 = 92 min (287 min in tutto). Nel modello Gonna ogni lezione diventa circa il doppio (titoli, approfondimento, mappa, ripasso e 5 quiz per argomento, glossario, verifica): stimo circa 150 min per lez01, 240 per lez02, 180 per lez03 = circa 9-10 ore di video finale, cioe' 10-11 Parti. Una sola chat non le chiude oggi. Propongo: finisco lez01 (3 Parti) con tutta la qualita', e per lez02 e lez03 preparo trascrizione, piano, testi voci e immagini cosi' che la master o altre chat TEC possano montare in parallelo con il mio motore (che documento nel ramo). Dimmi se vuoi un altro ordine o se ci sono altre chat TEC libere. Nel frattempo procedo su lez01."
   }
  ],
  "domande_sara": [],
@@ -29,5 +33,5 @@
  ],
  "materia": "Tecnologie dei materiali e dei processi produttivi e organizzativi della moda",
  "docente": "Prof.ssa Piera Caputi",
- "aggiornato": "2026-11-22 13:55:32"
+ "aggiornato": "2026-11-22 13:57:38"
 }
