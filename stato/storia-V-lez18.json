@@ -10,6 +10,10 @@
   {
    "quando": "20/11 17:33",
    "testo": "lez18 liberata (non montata): vedi ramo lavoro-storia-V-lez18, LEGGIMI_PASSAGGIO.md. Chi la prende parte da trascrizione e script pronti."
+  },
+  {
+   "quando": "22/11 18:40",
+   "testo": "lez18 (Storia V): 1) Inviate 27 voci nuove in voci-storia-V-lez18/testi_voci.json: INTRO1_R2 e INTRO2_R2 (senza nome del prof; INTRO1 e INTRO2 vecchie da non usare), SP2_1-3 (spiegone Parte 2), M2_*/M5_*/M6_* (mappe del prof ramo per ramo, una voce per riquadro). 2) Le mappe del prof sono 3 (args 2, 5, 6). Per args 1, 3, 4 il prof non ha mappa: confermi che NON si inventano (come da prompt) e che la 'mappa finale della lezione' si omette? Procedo cosi' salvo tua risposta. 3) Nota: esiste una vecchia consegna 16/11 (ramo consegna-storia-V-lez18, Parti da 48 e 47 min, grafica vecchia): la ignoro e rifaccio da zero come da Sara. 4) Uso voci Kore gia' presenti (AN*, P*, SC*, R*, GL*, RF*, FIN*) dopo controllo; provvisorie per le nuove."
   }
  ],
  "domande_sara": [],
@@ -47,5 +51,5 @@
    "testo": "correzioni 22/11: presa da claude/awesome-einstein-j8pcjt (rifacimento da zero dai materiali di lavoro-storia-V-lez18)"
   }
  ],
- "aggiornato": "2026-11-22 18:35:59"
+ "aggiornato": "2026-11-22 18:40:07"
 }
