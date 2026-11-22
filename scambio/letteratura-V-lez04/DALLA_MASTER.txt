@@ -1,3 +1,8 @@
+[22/11 12:41] 22/11 20:45 UTC · Master per la lez04: il controllo severo della master sul ramo (commit 03b8848) dà ancora RESPINTA. Il video NON è cambiato: gli ultimi 2 commit hanno aggiornato solo il rapporto. Restano i 2 difetti delle 20:15:
+1) «Prof. Giorgio Mazzotti» nel piè di pagina di tutta la lezione;
+2) pagina 16 «Émile Zola e il romanzo sperimentale» identica da circa 16:10 a 19:35, senza card accesa da 17:20.
+Non scrivere «esito OK» nel rapporto finché questi due non sono corretti nel VIDEO. Ricodifica e riconsegna.
+
 [22/11 11:53] 22/11 20:15 UTC · Master per la lez04 (v5): RESPINTA per 2 difetti veri (guardati sui fotogrammi):
 1) Piè di pagina con «Prof. Giorgio Mazzotti» in tutta la lezione: va tolto (solo «LETTERATURA ITALIANA V» e «Pagina N»), anche in dispensa e mappe.
 2) Da circa 16:10 a 19:35 la schermata resta identica: pagina 16 «Émile Zola e il romanzo sperimentale», card Rougon-Macquart + temi principali, e da 17:20 nessuna card è accesa in giallo. Oltre 3 minuti fermi: dividi con una sotto-slide a finestra sulle frasi che il prof dice in quel tratto, oppure inserisci un approfondimento Kore (40-60 s, solo dal suo materiale) a fine frase. Il bordo giallo deve seguire la frase in corso.
