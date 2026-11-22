@@ -1,0 +1,69 @@
+{
+ "tag": "storia-V-lez07",
+ "parti": {
+  "1": {
+   "stato": "REVISIONATA",
+   "voci": "kore",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "vtt": "si"
+  }
+ },
+ "manca": "",
+ "serve_master": [
+  {
+   "quando": "18/11 21:48",
+   "testo": "Voci Kore nuove lez 7: 33 testi (MD1-3, P1-5, SC*) nel ramo voci-storia-V-lez07"
+  },
+  {
+   "quando": "22/11 18:29",
+   "testo": "VOCI NUOVE pronte sul ramo voci-storia-V-lez07 (testi_voci.json, 23 nuove: BENV1_R2 senza nome, DIC1 'Di cosa parliamo', M1_0..M1_6, M2_0..M2_5, M3_0..M3_4 = mappe del prof un riquadro per voce, MF_0..MF_2 = mappa finale). Le vecchie MD1-3 e BENV1 dicevano il nome del prof: non si usano. Le mappe inventate MAP1-5/MAPF1 si tolgono. DOMANDA: la mappa finale della lezione non esiste nel materiale del prof: faccio una schermata con le sue 3 mappe (radici e rami principali, solo parole sue, voce MF_0-2). Se vuoi altro dimmelo; intanto procedo così. Mi servono le voci entro le 9:00 italiane."
+  }
+ ],
+ "domande_sara": [],
+ "note": [
+  {
+   "quando": "18/11 21:45",
+   "testo": "PRENOTATA 18/11 21:48 · chat v3 rifacimento da zero (sessione lez12; 13 in lavorazione da altra chat, 6 presa, 15 e 5 fatte)"
+  },
+  {
+   "quando": "18/11 21:48",
+   "testo": "materiali scaricati, trascrizione in corso; Parte unica, 5 argomenti"
+  },
+  {
+   "quando": "18/11 22:54",
+   "testo": "Parte unica 45:02,0 · LUFS -16,7 · quiz +0,005 s · sottotitoli: strumento 75% (3 blocchi artefatto verificati a mano) · ramo revisione-storia-V-lez07"
+  },
+  {
+   "quando": "19/11 04:11",
+   "testo": "correzioni 19/11: presa da claude/hopeful-keller-s5yjrk (ramo revisione-storia-V-lez07 da aggiornare)"
+  },
+  {
+   "quando": "19/11 19:01",
+   "testo": "04:30 correzioni 19/11 in corso (claude/hopeful-keller-s5yjrk): materiali scaricati, voci AN/MD/SC già presenti nel ramo voci (nessuna voce nuova da generare), schede e montaggio in corso; stimo la consegna entro 2-3 ore"
+  },
+  {
+   "quando": "20/11 15:57",
+   "testo": "ripresa 20/11 15:57: applico anche le note della master 05:10/05:25 (card intere, intro <=3 min, timeline rigenerata); rifaccio audio/webcam/trascrizione se persi"
+  },
+  {
+   "quando": "20/11 17:09",
+   "testo": "20/11 17:10 montaggio Parte unica fatto (50:11, misurato); in corso finalizzazione, controlli, PDF e rapporto; consegna entro ~30 minuti"
+  },
+  {
+   "quando": "20/11 17:21",
+   "testo": "correzioni 19/11 fatte (20/11 17:40): ramo revisione-storia-V-lez07; 50:11,5 misurato; copertina col titolo giusto; slide 2-3 card intere; mappe mappa.py; approfondimenti AN; avviso nel finale; timeline/scheda rigenerate; controllo_finale: sottotitoli 67% di 18 (artefatti verificati, vedi rapporto), tutto il resto OK"
+  },
+  {
+   "quando": "20/11 17:43",
+   "testo": "20/11 18:10 lez 7 consegnata (vedi nota 17:40)"
+  },
+  {
+   "quando": "22/11 18:25",
+   "testo": "PRENOTATA 22/11: correzioni 22/11 presa da claude/wizardly-euler-cr95rn; consegna finale entro 23/11 11:00 italiane"
+  }
+ ],
+ "materia": "storia-V",
+ "lezione": "7",
+ "aggiornato": "2026-11-22 18:29:03"
+}
