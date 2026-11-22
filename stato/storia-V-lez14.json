@@ -32,7 +32,7 @@
    "vtt": "Storia_Lez14_Parte2.vtt"
   }
  },
- "manca": "",
+ "manca": "montaggio finale, controlli, dispensa, sottotitoli",
  "serve_master": [
   {
    "quando": "19/11 19:00",
@@ -68,10 +68,14 @@
   {
    "quando": "22/11 18:35",
    "testo": "correzioni 22/11: presa da claude/beautiful-planck-whr8m1"
+  },
+  {
+   "quando": "22/11 19:03",
+   "testo": "22/11 19:15 UTC: trascrizione fatta; pezzi docente+slide (7 argomenti) in codifica; 3 sotto-agenti su mappe, schede/quiz/glossario, approfondimenti. Voci: servono solo MB1-3, W1_R2, W2_R2 (gia' sul ramo voci)."
   }
  ],
  "materia": "Storia V",
  "lezione": "Lezione 14",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-22 18:38:54"
+ "aggiornato": "2026-11-22 19:03:22"
 }
