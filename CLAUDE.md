@@ -4,8 +4,8 @@ Lo legge in automatico ogni chat aperta su questo repository e **vale più di og
 
 - Sei una chat di produzione. Coordina la Prof.ssa Sara Zagarese: parlale in italiano, frasi brevi.
 - Domande e richieste vanno alla **master** con `python3 kit/tools/stato.py <tag> --serve_master "..." --invia`. I suoi messaggi sono in `scambio/<tag>/DALLA_MASTER.txt` sul tuo ramo `voci-<tag>`: leggilo a ogni cambio di fase.
-- Strumenti e regole tecniche: `kit/` e `kit/REGOLE.md`. Istruzioni per materia: ramo `scambio-caputi` (Chimica, Tecnologie) e ramo `scambio-mazzotti` (Letteratura, Storia, Storia dell'arte).
-- **Superato, non usarlo:** `kit_prod/CLAUDE.md` e `METODO_v2` dentro `Telesio_kit_produzione_v2_aggiunta.zip`.
+- **Come si lavora** (preparazione, strumenti, jingle, caratteri, voci, stato, consegna): `kit/REGOLE.md`. Istruzioni per materia: ramo `scambio-caputi` (Chimica, Tecnologie) e ramo `scambio-mazzotti` (Letteratura, Storia, Storia dell'arte).
+- **Superati, non usarli:** tutti i documenti dentro gli zip `Telesio_kit_produzione_*` (WORKFLOW, METODO_v2, MESSAGGIO_AVVIO, LEGGIMI v3–v5, LEGGIMI_VOCE, CLAUDE.md del kit) e i prompt vecchi che dicono il contrario di questo file.
 
 # Regole blindate
 

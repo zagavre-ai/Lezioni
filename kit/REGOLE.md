@@ -1,75 +1,65 @@
-# REGOLE DELLE CHAT · Videolezioni Centro Studi Telesio (versione 8/11/2026)
+# Kit tecnico delle chat · Videolezioni Centro Studi Telesio (22/11/2026)
 
-> **22/11/2026:** le regole decise da Sara stanno in `CLAUDE.md` nella radice del repository e **vincono su questo file**. Qui restano valide le regole tecniche (file, stato, strumenti) che non le contraddicono.
+**Le regole sono tutte in `CLAUDE.md`** (radice del repository). Qui c'è solo il «come»: strumenti, file, comandi. Se qualcosa qui sembra contraddire il CLAUDE.md, vince il CLAUDE.md: scrivilo alla master.
 
-Valgono per tutte le chat e tutte le lezioni. Se una regola manca o non è chiara, chiedi alla master con stato.py (punto 9). Non chiedere a Sara.
+## 1. Preparazione
+```
+git clone https://github.com/zagavre-ai/lezioni.git /home/claude/lezioni && cd /home/claude/lezioni
+mkdir -p /root/.fonts && cp kit/caratteri/*.ttf /root/.fonts/ && fc-cache -f
+mkdir -p tools && cp kit/tools/*.py tools/
+```
+- **Caratteri** (`kit/caratteri/`): Bricolage Grotesque (titoli, 800) e Figtree (testo; Bold per etichette e piè di pagina).
+- **Jingle** (`kit/suoni/`): `titolo.wav` (titolo dell'argomento), `repaso.wav` (pillola/schema di ripasso), `quiz.wav` (scheda Quiz, scatto a +0,5 s), `trans.wav` (ogni cambio di pezzo), `finale.wav` (fine).
+- **Sigle** (`kit/sigle/`): una per materia, più `Sigla_finale_5s_con_avviso_diritti.mp4`.
+- **Modello grafico** (`kit/modello_spagnolo/`): fotogrammi di riferimento delle slide, del riquadro del docente e della dispensa.
+- **Istruzioni e modelli per materia:** ramo `scambio-caputi` (Chimica, Tecnologie: modello «Gonna», acquerelli, scaricatore dalle release) e ramo `scambio-mazzotti` (Letteratura, Storia, Storia dell'arte: controllo severo, modello della mappa BES).
 
-## 1. Chi decide
-- Sara decide: contenuti (quiz, titoli, docenti), soldi, «mi piace / non mi piace» dopo un ascolto o una visione.
-- La master decide tutto il resto: formati, codifiche, strumenti, ordine dei lavori.
-- A Sara non si fanno domande tecniche.
+## 2. Strumenti (`kit/tools/`)
+| Strumento | A cosa serve |
+|---|---|
+| `trascrivi.py` | Trascrizione italiana con i tempi delle parole |
+| `taglio.py` | Sposta ogni taglio nella pausa più silenziosa, mai dentro una frase |
+| `mappa.py` | Disegno vettoriale delle mappe (con i caratteri in `mappa_font/`) |
+| `rettangolo/` | Trova e allinea il riquadro del docente nel video (vedi il suo LEGGIMI) |
+| `scene_dal_word.py` | Slide divise per scene dal Word del docente (lezioni con segni F9) |
+| `voci_auto.py` | Importa le voci Kore ricevute dalla master; non le cancella mai |
+| `finale_a_pezzi.py` | Codifica finale a gruppi, riprende da dove si è fermata |
+| `volume16.py` | Porta il parlato a −16 LUFS rifacendo solo l'audio |
+| `sub_finale.py` | Sottotitoli `.vtt` sul video finale |
+| `scheda_da_timeline.py` | `scheda_pubblicazione.json` con la durata misurata sul file finale |
+| `controllo_finale.py` | Fotogrammi, peso, risoluzione, volume, fermi del docente |
+| `controllo_jingle.py` | Scatto di ogni scheda Quiz a 0,0 s |
+| `testo_youtube.py` | Testo con i capitoli dalla scheda (lo usa la master) |
+| `stato.py` | Stato della lezione per la master |
 
-## 2. Struttura e durata
-- Ogni Parte dura tra 50 e 60 minuti, regola del 7/11.
-- Una lezione lunga fino a circa 65 minuti resta in una sola Parte (decisione dell'8/11).
-- Se la lezione è più lunga, va divisa in due Parti, tagliando alla fine di un argomento. La Parte 2 si apre con il ripasso della Parte 1.
-- Ordine dentro ogni Parte:
-  1. sigla e benvenuto;
-  2. per ogni argomento: titolo, docente con slide sincronizzate, eventuali animazioni, ripasso breve, scheda Quiz;
-  3. glossario, ripasso finale, chiusura, sigla finale.
-- Le aggiunte si prendono solo dal materiale del docente. Mai tagliare parole del docente, mai riempitivi.
+## 3. Voci e illustrazioni (le fa la master)
+- Le chat non hanno chiavi. Sul ramo **`voci-<tag>`** carichi `scambio/<tag>/testi_voci.json`:
+  `[{"nome":"A1_APPROF","testo":"..."}]` (numeri e anni in lettere, nomi stranieri scritti nella loro lingua).
+- Le voci tornano in `scambio/<tag>/vox/NOME.wav`, con `ESITI*.txt`. Ogni voce va trascritta e controllata prima di montarla. Per rifarne una, aggiungi lo stesso testo con nome `_R2`.
+- Illustrazioni ad acquerello: `scambio/<tag>/immagini.json` `[{"nome":"IMG_...","descrizione":"...","riferimento":"(facoltativo)"}]`. Tornano in `scambio/<tag>/img/`.
+- **Messaggi della master:** `scambio/<tag>/DALLA_MASTER.txt` nello stesso ramo. Leggilo a ogni cambio di fase.
 
-## 3. Quiz e test
-- Ogni argomento ha un quiz di 5 domande scritte da noi: 1 risposta giusta, 3 sbagliate e una spiegazione.
-- La scheda Quiz dice «5 domande · per continuare almeno l'80%».
-- Il test finale si prende dall'Excel del docente. Se manca, se ne propone uno con la scritta «PROPOSTA_DA_VALIDARE».
+## 4. Stato
+```
+python3 tools/stato.py <tag> --stato IN_REVISIONE --nota "presa da <tuo ramo>" --invia
+python3 tools/stato.py <tag> --parte N --stato IN_MONTAGGIO|IN_CODIFICA|REVISIONATA|FERMA --nota "..." --invia
+python3 tools/stato.py <tag> --serve_master "domanda o richiesta" --invia
+```
+- Stato ogni 30 minuti. Una lezione si prenota prima di cominciarla: se un'altra chat l'ha già presa, non si tocca.
+- Durata, fotogrammi e peso li misura il programma.
 
-## 4. Voci
-- Unica voce: Kore. Le genera SOLO la master.
-- Mai voci locali, mai Vox Studio, mai la chiave nelle chat.
-- I testi si mandano quando sono definitivi: scambio/<tag>/testi_voci.json nel ramo voci-<tag>.
-- La master risponde nello stesso ramo, in scambio/<tag>/vox/NOME.wav, con un file ESITI.txt.
-- Le voci ricevute si importano con voci_auto.py (kit/tools), che non le cancella mai.
+## 5. File finali e consegna
+- **Video:** `Materia_LezN_ParteN_1080p.mp4`, 1920×1080, 30 fps, x264 veryfast CRF 19 (`finale_a_pezzi.py`), AAC 192k 48 kHz, sotto i 400 MB (se li supera, CRF 20 o 21).
+- **Consegna sul ramo `revisione-<tag>`:**
+  - video a pezzi da 90 MB (`split -b 90M -d -a 2 <video> <video>.parte_`) con il suo `.sha256`;
+  - `.vtt` (`sub_finale.py`) e `timeline_ParteN.json`, `scheda_pubblicazione_ParteN.json` (`scheda_da_timeline.py`), rifatti sul video finale;
+  - quiz, verifica e compiti in JSON; dispensa e PDF delle mappe;
+  - `RAPPORTO_REVISIONE.md` con l'esito di `controllo_finale.py`, `controllo_jingle.py` e del controllo dell'agente separato.
+- Poi stato `REVISIONATA`. La master controlla e carica.
+- **Mai video sul ramo `main`.** Commit senza firma. Mai dati di alunni, chiavi o password.
 
-## 5. File finali
-- Video:
-  - nome Materia_LezN_ParteN_1080p.mp4;
-  - 1920×1080 (deciso da Sara il 13/11: metà del tempo di codifica), 30 fotogrammi al secondo;
-  - x264 veryfast, CRF 19, audio AAC 192k a 48 kHz;
-  - una sola codifica, con tools/finale_a_pezzi.py;
-  - sotto i 400 MB: se li supera, CRF 20 o 21.
-- Sottotitoli: Materia_LezN_ParteN.vtt, fatti con tools/sub_finale.py sul video FINALE, con i termini corretti dal PDF.
-- Altri file: dispensa A4 in PDF, quiz in .txt, test in .xlsx, scheda_pubblicazione.json (tools/scheda_da_timeline.py).
-
-## 6. Controlli obbligatori sul file finale
-- Scatto dei Quiz a 0,0 s, con tools/controllo_jingle.py.
-- La docente o il docente non resta mai fermo sullo stesso fotogramma. I fermi sulle schede statiche vanno bene.
-- Fotogrammi = durata × 30.
-- Peso sotto i 400 MB.
-- Parlato del docente a circa −16 LUFS.
-- Sincronia: in almeno 4 punti presi qua e là, la frase che si sente deve essere la riga illuminata sulla slide.
-- Sottotitoli: un controllo a campione sul video finale.
-
-## 7. Stato per la master (sostituisce il blocco «PER LA MASTER»)
-- Ogni volta che cambia fase, aggiorna lo stato:
-  `python3 tools/stato.py <tag> --parte N --stato IN_MONTAGGIO|IN_CODIFICA|PRONTA|FERMA --video ... --vtt ... --voci kore --quiz_ok si --fermi_ok si --sub_ok si --invia`
-- Durata, fotogrammi e peso li misura da solo il programma.
-- Se un controllo manca, la Parte non può risultare PRONTA.
-- Domande di contenuto per Sara: `--domanda_sara "..."`. Richieste alla master: `--serve_master "..."`.
-- Quando una Parte è PRONTA, manda a Sara in chat, in un solo messaggio: video, .vtt, quiz, test, dispensa, scheda.
-
-## 7-bis. Messaggi dalla master
-- A ogni cambio di fase guarda kit/LEGGIMI.md su main (novità del kit) e il file scambio/<tag>/DALLA_MASTER.txt nel tuo ramo voci-<tag>: lì la master ti scrive istruzioni e file nuovi, senza passare da Sara.
-
-## 8. Macchina e sicurezza
-- I lavori lunghi devono poter ripartire: un lavoro in background viene fermato dopo 2 ore. Usa i marcatori .ok/.fatto.
-- Scrivi i log con `> log && touch .fatto`, mai con `| tail`.
-- Disco: cancella i pezzi intermedi appena la Parte è controllata.
-- Mai chiavi o password in file, documenti o GitHub.
-- Mai video o file grandi sul ramo main.
-- Mai nomi di strumenti o programmi nei materiali per la scuola.
-- Mai foto scaricate di personaggi pubblici.
-
-## 9. Miglioramento ogni 3 giorni (regola di Sara)
-- Se trovi un modo per fare prima, scrivilo con `--serve_master "MIGLIORAMENTO: ..."`.
-- La master lo valuta e lo porta in tutte le chat.
+## 6. Macchina
+- 2 processori: un lavoro pesante alla volta, ma la macchina non resta mai ferma (mentre una cosa codifica, prepari la successiva).
+- Un lavoro in background viene fermato dopo 2 ore: lavori che ripartono da dove erano (marcatori `.ok`), log con `> log && touch .fatto`, mai `| tail`.
+- Disco: cancella i pezzi intermedi appena una Parte è controllata.
+- Video grandi delle release: si scaricano solo i file che servono (`estrai_da_release.py` nei rami di scambio).
