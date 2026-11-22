@@ -1,0 +1,181 @@
+{
+ "mappa": 3,
+ "titolo": "Come si giunge all'intervento dell'Italia?",
+ "convenzione": "tempi in secondi di video; voce parte a +0,5 s (t_video = 0,5 + t_voce)",
+ "durata_voce_s": 21.76,
+ "durata_totale_s": 27.7667,
+ "fotogrammi": 833,
+ "nodi": {
+  "B0": {
+   "entra_s": 1.0,
+   "acceso_giallo_s": [
+    [
+     4.12,
+     4.86
+    ]
+   ]
+  },
+  "B1": {
+   "entra_s": 5.46,
+   "acceso_giallo_s": [
+    [
+     5.56,
+     6.455
+    ],
+    [
+     7.97,
+     9.35
+    ]
+   ]
+  },
+  "B2": {
+   "entra_s": 6.33,
+   "acceso_giallo_s": [
+    [
+     6.43,
+     7.26
+    ],
+    [
+     17.58,
+     18.77
+    ]
+   ]
+  },
+  "B3": {
+   "entra_s": 9.489,
+   "acceso_giallo_s": [
+    [
+     9.589,
+     11.018
+    ]
+   ]
+  },
+  "B4": {
+   "entra_s": 11.8,
+   "acceso_giallo_s": [
+    [
+     11.9,
+     12.783
+    ]
+   ]
+  },
+  "B5": {
+   "entra_s": 13.15,
+   "acceso_giallo_s": [
+    [
+     13.25,
+     14.291
+    ]
+   ]
+  },
+  "B6": {
+   "entra_s": 15.24,
+   "acceso_giallo_s": [
+    [
+     15.34,
+     16.972
+    ]
+   ]
+  },
+  "B7": {
+   "entra_s": 18.57,
+   "acceso_giallo_s": [
+    [
+     18.67,
+     19.954
+    ]
+   ]
+  },
+  "B8": {
+   "entra_s": 20.067,
+   "acceso_giallo_s": [
+    [
+     20.167,
+     21.03
+    ]
+   ]
+  }
+ },
+ "archi_entrano_s": {
+  "E1": 4.66,
+  "E2": 6.33,
+  "E3": 7.87,
+  "E5": 13.15,
+  "E4": 11.068,
+  "E6": 14.47,
+  "E7": 18.57,
+  "E8": 20.067
+ },
+ "passi_voce": [
+  {
+   "t0_voce": 3.62,
+   "t1_voce": 4.26,
+   "testo": "L'Italia"
+  },
+  {
+   "t0_voce": 4.26,
+   "t1_voce": 5.06,
+   "testo": "è divisa tra"
+  },
+  {
+   "t0_voce": 5.06,
+   "t1_voce": 5.855,
+   "testo": "interventisti"
+  },
+  {
+   "t0_voce": 5.93,
+   "t1_voce": 6.66,
+   "testo": "e neutralisti"
+  },
+  {
+   "t0_voce": 7.47,
+   "t1_voce": 8.75,
+   "testo": "Gli interventisti sono"
+  },
+  {
+   "t0_voce": 9.089,
+   "t1_voce": 10.418,
+   "testo": "liberali conservatori"
+  },
+  {
+   "t0_voce": 10.668,
+   "t1_voce": 11.4,
+   "testo": "che firmano"
+  },
+  {
+   "t0_voce": 11.4,
+   "t1_voce": 12.183,
+   "testo": "il Patto di Londra"
+  },
+  {
+   "t0_voce": 12.75,
+   "t1_voce": 13.691,
+   "testo": "e nazionalisti"
+  },
+  {
+   "t0_voce": 14.07,
+   "t1_voce": 14.84,
+   "testo": "che organizzano"
+  },
+  {
+   "t0_voce": 14.84,
+   "t1_voce": 16.372,
+   "testo": "manifestazioni per l'intervento"
+  },
+  {
+   "t0_voce": 17.08,
+   "t1_voce": 18.17,
+   "testo": "I neutralisti sono"
+  },
+  {
+   "t0_voce": 18.17,
+   "t1_voce": 19.354,
+   "testo": "liberali progressisti"
+  },
+  {
+   "t0_voce": 19.667,
+   "t1_voce": 20.43,
+   "testo": "e socialisti"
+  }
+ ]
+}

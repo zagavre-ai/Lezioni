@@ -1,0 +1,168 @@
+{
+ "mappa": 4,
+ "titolo": "Come si svolge la guerra tra il 1916 e il 1917?",
+ "convenzione": "tempi in secondi di video; voce parte a +0,5 s (t_video = 0,5 + t_voce)",
+ "durata_voce_s": 22.4,
+ "durata_totale_s": 28.4,
+ "fotogrammi": 852,
+ "nodi": {
+  "B0": {
+   "entra_s": 1.0,
+   "acceso_giallo_s": [
+    [
+     6.62,
+     7.99
+    ]
+   ]
+  },
+  "B1": {
+   "entra_s": 8.26,
+   "acceso_giallo_s": [
+    [
+     8.36,
+     9.247
+    ]
+   ]
+  },
+  "B2": {
+   "entra_s": 9.13,
+   "acceso_giallo_s": [
+    [
+     9.23,
+     9.769
+    ]
+   ]
+  },
+  "B3": {
+   "entra_s": 10.39,
+   "acceso_giallo_s": [
+    [
+     10.49,
+     12.09
+    ]
+   ]
+  },
+  "B4": {
+   "entra_s": 12.25,
+   "acceso_giallo_s": [
+    [
+     12.35,
+     14.428
+    ]
+   ]
+  },
+  "B5": {
+   "entra_s": 14.508,
+   "acceso_giallo_s": [
+    [
+     14.608,
+     16.36
+    ]
+   ]
+  },
+  "B6": {
+   "entra_s": 16.55,
+   "acceso_giallo_s": [
+    [
+     16.65,
+     18.146
+    ]
+   ]
+  },
+  "B7": {
+   "entra_s": 18.156,
+   "acceso_giallo_s": [
+    [
+     18.256,
+     19.834
+    ]
+   ]
+  },
+  "B8": {
+   "entra_s": 19.985,
+   "acceso_giallo_s": [
+    [
+     20.085,
+     21.957
+    ]
+   ]
+  }
+ },
+ "archi_entrano_s": {
+  "E1": 7.79,
+  "E2": 9.13,
+  "E3": 10.22,
+  "E4": 11.89,
+  "E5": 14.508,
+  "E6": 16.3,
+  "E7": 18.156,
+  "E8": 19.985
+ },
+ "passi_voce": [
+  {
+   "t0_voce": 6.12,
+   "t1_voce": 7.39,
+   "testo": "La Prima guerra mondiale"
+  },
+  {
+   "t0_voce": 7.39,
+   "t1_voce": 7.86,
+   "testo": "è una"
+  },
+  {
+   "t0_voce": 7.86,
+   "t1_voce": 8.647,
+   "testo": "guerra globale"
+  },
+  {
+   "t0_voce": 8.73,
+   "t1_voce": 9.169,
+   "testo": "e totale"
+  },
+  {
+   "t0_voce": 9.82,
+   "t1_voce": 9.99,
+   "testo": "Nel"
+  },
+  {
+   "t0_voce": 9.99,
+   "t1_voce": 11.49,
+   "testo": "millenovecentosedici"
+  },
+  {
+   "t0_voce": 11.49,
+   "t1_voce": 11.85,
+   "testo": "vede"
+  },
+  {
+   "t0_voce": 11.85,
+   "t1_voce": 13.828,
+   "testo": "gigantesche e inutili battaglie"
+  },
+  {
+   "t0_voce": 14.108,
+   "t1_voce": 15.76,
+   "testo": "Nel millenovecentodiciassette"
+  },
+  {
+   "t0_voce": 15.9,
+   "t1_voce": 16.15,
+   "testo": "vede"
+  },
+  {
+   "t0_voce": 16.15,
+   "t1_voce": 17.546,
+   "testo": "il ritiro della Russia"
+  },
+  {
+   "t0_voce": 17.756,
+   "t1_voce": 19.234,
+   "testo": "l'intervento degli Stati Uniti"
+  },
+  {
+   "t0_voce": 19.585,
+   "t1_voce": 21.357,
+   "testo": "e la sconfitta italiana a Caporetto"
+  }
+ ]
+}

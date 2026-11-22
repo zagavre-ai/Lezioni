@@ -1,0 +1,103 @@
+{
+ "mappa": 2,
+ "titolo": "Come ha inizio la Prima guerra mondiale?",
+ "convenzione": "tempi in secondi di video; voce parte a +0,5 s (t_video = 0,5 + t_voce)",
+ "durata_voce_s": 16.64,
+ "durata_totale_s": 22.6667,
+ "fotogrammi": 680,
+ "nodi": {
+  "B0": {
+   "entra_s": 1.0,
+   "acceso_giallo_s": [
+    [
+     3.708,
+     5.01
+    ]
+   ]
+  },
+  "B1": {
+   "entra_s": 5.43,
+   "acceso_giallo_s": [
+    [
+     5.53,
+     7.2
+    ]
+   ]
+  },
+  "B2": {
+   "entra_s": 8.32,
+   "acceso_giallo_s": [
+    [
+     8.42,
+     9.807
+    ]
+   ]
+  },
+  "B3": {
+   "entra_s": 9.84,
+   "acceso_giallo_s": [
+    [
+     9.94,
+     12.739
+    ]
+   ]
+  },
+  "B4": {
+   "entra_s": 13.416,
+   "acceso_giallo_s": [
+    [
+     13.516,
+     15.789
+    ]
+   ]
+  }
+ },
+ "archi_entrano_s": {
+  "E1": 4.81,
+  "E2": 7.32,
+  "E3": 7.32,
+  "E4": 13.04
+ },
+ "passi_voce": [
+  {
+   "t0_voce": 3.208,
+   "t1_voce": 4.41,
+   "testo": "L'attentato di Sarajevo"
+  },
+  {
+   "t0_voce": 4.41,
+   "t1_voce": 5.03,
+   "testo": "fa scattare"
+  },
+  {
+   "t0_voce": 5.03,
+   "t1_voce": 6.6,
+   "testo": "le alleanze contrapposte"
+  },
+  {
+   "t0_voce": 6.92,
+   "t1_voce": 7.92,
+   "testo": "Seguono"
+  },
+  {
+   "t0_voce": 7.92,
+   "t1_voce": 9.207,
+   "testo": "l'attacco tedesco alla Francia"
+  },
+  {
+   "t0_voce": 9.44,
+   "t1_voce": 12.139,
+   "testo": "e le battaglie di Tannenberg e dei laghi Masuri"
+  },
+  {
+   "t0_voce": 12.64,
+   "t1_voce": 13.016,
+   "testo": "Poi"
+  },
+  {
+   "t0_voce": 13.016,
+   "t1_voce": 15.189,
+   "testo": "la guerra di posizione nelle trincee"
+  }
+ ]
+}

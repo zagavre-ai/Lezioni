@@ -1,0 +1,153 @@
+{
+ "mappa": 1,
+ "titolo": "Quali sono le premesse della Prima guerra mondiale?",
+ "convenzione": "tempi in secondi di video; voce parte a +0,5 s (t_video = 0,5 + t_voce)",
+ "durata_voce_s": 27.03,
+ "durata_totale_s": 33.0333,
+ "fotogrammi": 991,
+ "nodi": {
+  "B0": {
+   "entra_s": 1.0,
+   "acceso_giallo_s": [
+    [
+     5.31,
+     7.47
+    ]
+   ]
+  },
+  "B1": {
+   "entra_s": 8.9,
+   "acceso_giallo_s": [
+    [
+     9.0,
+     10.39
+    ]
+   ]
+  },
+  "B2": {
+   "entra_s": 10.54,
+   "acceso_giallo_s": [
+    [
+     10.64,
+     12.08
+    ]
+   ]
+  },
+  "B3": {
+   "entra_s": 11.984,
+   "acceso_giallo_s": [
+    [
+     12.084,
+     13.41
+    ]
+   ]
+  },
+  "B4": {
+   "entra_s": 14.8,
+   "acceso_giallo_s": [
+    [
+     14.9,
+     16.976
+    ]
+   ]
+  },
+  "B5": {
+   "entra_s": 17.75,
+   "acceso_giallo_s": [
+    [
+     17.85,
+     20.39
+    ]
+   ]
+  },
+  "B6": {
+   "entra_s": 20.99,
+   "acceso_giallo_s": [
+    [
+     21.09,
+     23.18
+    ]
+   ]
+  },
+  "B7": {
+   "entra_s": 24.0,
+   "acceso_giallo_s": [
+    [
+     24.1,
+     26.79
+    ]
+   ]
+  }
+ },
+ "archi_entrano_s": {
+  "E1": 8.086,
+  "E2": 13.576,
+  "E3": 20.99,
+  "Es2": 10.54,
+  "Es3": 11.984,
+  "E4": 17.074,
+  "E5": 23.342
+ },
+ "passi_voce": [
+  {
+   "t0_voce": 4.81,
+   "t1_voce": 6.87,
+   "testo": "l'Europa dell'inizio del Novecento"
+  },
+  {
+   "t0_voce": 7.686,
+   "t1_voce": 8.5,
+   "testo": "Si divide in"
+  },
+  {
+   "t0_voce": 8.5,
+   "t1_voce": 9.79,
+   "testo": "alleanze contrapposte"
+  },
+  {
+   "t0_voce": 10.14,
+   "t1_voce": 11.48,
+   "testo": "la Triplice Alleanza"
+  },
+  {
+   "t0_voce": 11.584,
+   "t1_voce": 12.81,
+   "testo": "e la Triplice Intesa"
+  },
+  {
+   "t0_voce": 13.176,
+   "t1_voce": 14.4,
+   "testo": "È destabilizzata da"
+  },
+  {
+   "t0_voce": 14.4,
+   "t1_voce": 16.376,
+   "testo": "Guglielmo secondo di Germania"
+  },
+  {
+   "t0_voce": 16.674,
+   "t1_voce": 17.35,
+   "testo": "che adotta"
+  },
+  {
+   "t0_voce": 17.35,
+   "t1_voce": 19.79,
+   "testo": "una politica estera e coloniale aggressiva"
+  },
+  {
+   "t0_voce": 20.59,
+   "t1_voce": 22.58,
+   "testo": "E dalla crisi dell'Impero ottomano"
+  },
+  {
+   "t0_voce": 22.942,
+   "t1_voce": 23.6,
+   "testo": "che causa"
+  },
+  {
+   "t0_voce": 23.6,
+   "t1_voce": 26.19,
+   "testo": "la concorrenza tra Austria-Ungheria e Russia"
+  }
+ ]
+}

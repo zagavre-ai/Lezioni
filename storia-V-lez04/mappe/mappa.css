@@ -1,0 +1,17 @@
+@font-face{font-family:Fig;font-weight:600;src:url(../../kit/caratteri/Figtree-SemiBold.ttf)}
+@font-face{font-family:Fig;font-weight:500;src:url(../../kit/caratteri/Figtree-Medium.ttf)}
+@font-face{font-family:Fig;font-weight:700;src:url(../../kit/caratteri/Figtree-Bold.ttf)}
+@font-face{font-family:Bri;font-weight:800;src:url(../../kit/caratteri/BricolageGrotesque-ExtraBold.ttf)}
+html,body{margin:0;background:#fff}
+.mp{position:relative;width:1920px;height:1080px;background:#fff;overflow:hidden;color:#0B1530;font-family:Fig}
+.mp .kick{position:absolute;left:60px;top:26px;font:700 22px Fig;letter-spacing:.14em;color:#2060AF}
+.mp .leg{position:absolute;right:60px;top:24px;display:flex;gap:16px;font:600 20px Fig;color:#0B1530}
+.mp .leg span{display:flex;align-items:center;gap:7px}
+.mp .leg i{display:inline-block;width:24px;height:17px;border-radius:5px;border:3px solid;box-sizing:border-box}
+.mp .rule{position:absolute;left:60px;right:60px;top:68px;height:2px;background:#CBD5E1}
+.mp .ttl{position:absolute;left:60px;top:80px;font:800 56px/1.1 Bri;color:#2060AF;white-space:nowrap}
+.mp .foot{position:absolute;left:60px;bottom:20px;font:600 20px Fig;letter-spacing:.08em;color:#2060AF}
+.mp .bx{position:absolute;box-sizing:border-box;border:4px solid;border-radius:16px;padding:12px 30px;text-align:center;white-space:nowrap;font:600 38px/1.3 Fig;color:#0B1530;opacity:0}
+.mp .bx.ctr{font:800 46px/1.2 Bri;letter-spacing:.03em;border-width:5px;border-radius:20px;padding:16px 44px}
+.mp .lab{position:absolute;white-space:nowrap;font:500 34px/1.2 Fig;color:#0B1530;opacity:0}
+.mp .lab.lc{background:#fff;padding:2px 12px}

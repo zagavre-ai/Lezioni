@@ -1,0 +1,143 @@
+{
+ "mappa": 5,
+ "titolo": "Come si giunge alla vittoria dell'Intesa?",
+ "convenzione": "tempi in secondi di video; voce parte a +0,5 s (t_video = 0,5 + t_voce)",
+ "durata_voce_s": 21.92,
+ "durata_totale_s": 27.9333,
+ "fotogrammi": 838,
+ "nodi": {
+  "B0": {
+   "entra_s": 1.0,
+   "acceso_giallo_s": [
+    [
+     3.9,
+     5.57
+    ]
+   ]
+  },
+  "B1": {
+   "entra_s": 6.37,
+   "acceso_giallo_s": [
+    [
+     6.47,
+     8.131
+    ]
+   ]
+  },
+  "B2": {
+   "entra_s": 8.55,
+   "acceso_giallo_s": [
+    [
+     8.65,
+     10.898
+    ]
+   ]
+  },
+  "B3": {
+   "entra_s": 11.464,
+   "acceso_giallo_s": [
+    [
+     11.564,
+     14.147
+    ]
+   ]
+  },
+  "B4": {
+   "entra_s": 14.9,
+   "acceso_giallo_s": [
+    [
+     15.0,
+     16.698
+    ]
+   ]
+  },
+  "B5": {
+   "entra_s": 16.88,
+   "acceso_giallo_s": [
+    [
+     16.98,
+     18.909
+    ]
+   ]
+  },
+  "B6": {
+   "entra_s": 20.08,
+   "acceso_giallo_s": [
+    [
+     20.18,
+     21.434
+    ]
+   ]
+  }
+ },
+ "archi_entrano_s": {
+  "E1": 5.72,
+  "E2": 8.22,
+  "E3": 11.07,
+  "E4": 14.28,
+  "E5": 16.88,
+  "E6": 19.07
+ },
+ "passi_voce": [
+  {
+   "t0_voce": 3.4,
+   "t1_voce": 4.97,
+   "testo": "L'anno millenovecentodiciotto"
+  },
+  {
+   "t0_voce": 5.32,
+   "t1_voce": 5.97,
+   "testo": "inizia con"
+  },
+  {
+   "t0_voce": 5.97,
+   "t1_voce": 7.531,
+   "testo": "una grande offensiva tedesca"
+  },
+  {
+   "t0_voce": 7.82,
+   "t1_voce": 8.15,
+   "testo": "a cui"
+  },
+  {
+   "t0_voce": 8.15,
+   "t1_voce": 10.298,
+   "testo": "l'Intesa risponde con la battaglia di Amiens"
+  },
+  {
+   "t0_voce": 10.67,
+   "t1_voce": 11.064,
+   "testo": "Vede"
+  },
+  {
+   "t0_voce": 11.064,
+   "t1_voce": 13.547,
+   "testo": "la sconfitta austriaca sul fronte italiano"
+  },
+  {
+   "t0_voce": 13.88,
+   "t1_voce": 14.5,
+   "testo": "a cui segue"
+  },
+  {
+   "t0_voce": 14.5,
+   "t1_voce": 16.098,
+   "testo": "l'armistizio del quattro novembre"
+  },
+  {
+   "t0_voce": 16.48,
+   "t1_voce": 18.309,
+   "testo": "E la rivoluzione in Germania"
+  },
+  {
+   "t0_voce": 18.67,
+   "t1_voce": 19.68,
+   "testo": "che porta"
+  },
+  {
+   "t0_voce": 19.68,
+   "t1_voce": 20.834,
+   "testo": "all'armistizio dell'undici novembre"
+  }
+ ]
+}
