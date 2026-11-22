@@ -3,10 +3,17 @@
  "parti": {
   "1": {
    "titolo": "Gli anni Sessanta tra crisi e progressi",
-   "stato": "IN_MONTAGGIO"
+   "stato": "IN_MONTAGGIO",
+   "voci": "segnaposto",
+   "video": "Storia_Lez16_Parte1_1080p.mp4",
+   "durata_s": 3560.8,
+   "durata": "59:20.8",
+   "fotogrammi": 106823,
+   "fotogrammi_attesi": 106823,
+   "peso_MB": 287.4
   }
  },
- "manca": "montaggio completo, controlli, dispensa, sottotitoli",
+ "manca": "sostituire voci provvisorie, codifica finale, sottotitoli sul video finale, controllo agente separato, rapporto",
  "serve_master": [
   {
    "quando": "22/11 18:43",
@@ -54,7 +61,11 @@
   {
    "quando": "22/11 19:05",
    "testo": "correzioni 22/11 in corso: pezzi del prof (tagli+slide 40px) e grafica pronti; costruisco approfondimenti/mappe/ripassi con voci provvisorie; attendo voci nuove"
+  },
+  {
+   "quando": "22/11 20:35",
+   "testo": "20:45 UTC: video completo montato con voci provvisorie 59:21, 1080p 287 MB, quiz 0,0 s OK, nessun fermo del prof, volume OK; dispensa A4 con testo invisibile e PDF mappe fatti; attendo voci nuove (BENV1_R2, DCP1, AP1_R2, AP2A, AP3A, AP5A, MD1-3_R2, VER1, CO1-4) per la codifica finale"
   }
  ],
- "aggiornato": "2026-11-22 19:05:15"
+ "aggiornato": "2026-11-22 20:35:00"
 }
