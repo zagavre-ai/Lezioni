@@ -2,7 +2,12 @@
  "tag": "storia-V-lez11",
  "parti": {},
  "manca": "",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "22/11 18:40",
+   "testo": "lez11 correzioni 22/11. (1) Voci nuove su voci-storia-V-lez11/testi_voci.json: BENV1_R2 (benvenuto senza nome del prof) e 7 voci mappe MP1, MP23, MP4, MP5A, MP5B, MP6, MPF (una voce per schermata, le allineo io riquadro per riquadro con la trascrizione). Il resto delle voci già fatte (AN, SC, R, GL, RIEP, RF, FIN, COMPI) lo riuso. (2) Il PDF mappe del prof ha 3 mappe: ascesa di Stalin (arg 1), svolta economica (UNICA per arg 2+3: la metto a fine arg 3, resta unica come dice il CLAUDE.md), totalitarismo (arg 4). Per arg 5, 6 e mappa finale costruisco la mappa CON LE PAROLE DELLE SUE SLIDE (CLAUDE.md §6) e lo dichiaro nel rapporto: dimmi se NON va fatto. (3) Nel piè e nelle schede tolgo il nome del prof (resta solo nella fascia gialla)."
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
@@ -10,5 +15,5 @@
    "testo": "correzioni 22/11: presa da claude/gifted-fermi-uzdgf8"
   }
  ],
- "aggiornato": "2026-11-22 18:34:56"
+ "aggiornato": "2026-11-22 18:40:59"
 }
