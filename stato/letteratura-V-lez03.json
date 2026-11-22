@@ -17,6 +17,10 @@
   {
    "quando": "16/11 18:21",
    "testo": "Servono sorgenti di montaggio (slide/timeline) e modello Whisper small; HF bloccato"
+  },
+  {
+   "quando": "22/11 16:36",
+   "testo": "Lez.3 Carducci, dubbio vincolante: il prof sta 9 min (15:47-25:03) e 13 min (slide 'Dal radicalismo...') su UNA sola slide/card; per la regola 'nessuna schermata identica >3 min' devo spezzare. Propongo: (1) inserire approfondimenti animati blu (voce Kore, 40-60 s, solo con frasi del prof/slide) alle pause tra frasi, nel parlato lungo; (2) dividere la slide in sotto-slide 'a finestra' (card intere, max 3) con pagine diverse. Va bene? Se non rispondete procedo con (2) piu' mappa BES ramo per ramo."
   }
  ],
  "domande_sara": [],
@@ -69,5 +73,5 @@
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 3 · Carducci",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-22 16:33:15"
+ "aggiornato": "2026-11-22 16:36:51"
 }
