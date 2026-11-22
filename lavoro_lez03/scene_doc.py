@@ -89,4 +89,4 @@ def build_scene(sc,render=True):
             states.append((M.save_png(img),max(1,out_frame(subs,t2)-out_frame(subs,t))))
     if not render:return dict(sc=sc,subs=subs,states=states,N=N,meta=meta,a=a,b=b)
     pc=M.doc_piece(sc['nome'],SRC,subs,states)
-    pc.update(meta=meta,a=a,b=b,topic=sc['nome'][1]);return pc
+    pc.update(meta=meta,sa=a,sb=b,topic=sc['nome'][1]);return pc
