@@ -17,6 +17,10 @@
   {
    "quando": "16/11 18:20",
    "testo": "installare faster-whisper e rapidocr (pip negato)"
+  },
+  {
+   "quando": "22/11 16:36",
+   "testo": "Lez 24: la mappa del prof ha 23 riquadri: a 34 px non entra in 1920x1080 (stimato ~28 px). Uso il minimo possibile e lo scrivo nel rapporto. Voci nuove da generare: MP1-MP5, INTRO1c, S3c, RF1c."
   }
  ],
  "domande_sara": [],
@@ -48,7 +52,19 @@
   {
    "quando": "17/11 18:27",
    "testo": "consegnata su revisione-letteratura-V-lez24: 55:55.9, 100676 fotogrammi, -16.7 LUFS, -2.1 dBTP. NON corretta: pronuncia 'L'affaire Moro' (RM3d, S3, RF1) da ascoltare. Date da confermare col prof nel rapporto."
+  },
+  {
+   "quando": "22/11 16:33",
+   "testo": "correzioni 22/11: presa da revisione-letteratura-V-lez24 (16:35 UTC), consegna prevista 19:30 UTC"
+  },
+  {
+   "quando": "22/11 16:36",
+   "testo": "16:55 UTC: tesseract ok; voci nuove MP1-MP5 (mappa del prof), INTRO1c, S3c, RF1c mandate a voci-letteratura-V-lez24; riscrivo slide a 40 px, D1 diviso con AN intercalati, mappa BES unica prima del glossario"
+  },
+  {
+   "quando": "22/11 16:44",
+   "testo": "17:05 UTC: mappa in 3 schermate come da master; voce MP5b aggiunta; render in corso (slide 40 px, D1 diviso con approfondimenti)"
   }
  ],
- "aggiornato": "2026-11-17 18:27:55"
+ "aggiornato": "2026-11-22 16:44:20"
 }
