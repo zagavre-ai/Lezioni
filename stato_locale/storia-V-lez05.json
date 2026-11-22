@@ -704,9 +704,13 @@
   {
    "quando": "22/11 19:10",
    "testo": "22/11 21:10 IT: analisi fatta (trascrizione, tagli nelle pause, card/slide a 40 px); motore di montaggio pronto; rendering dei pezzi in corso con voci provvisorie (nuove). Resta: assemblaggio -16 LUFS, controlli, dispensa, mappe PDF, rapporto. Parti 1-4 / 5-9 (P1 ~46 min, P2 ~35 min). Nota: Wikimedia non raggiungibile da qui, uso solo le carte del prof."
+  },
+  {
+   "quando": "22/11 22:46",
+   "testo": "22/11 ~22:55 UTC: P1 45:49 e P2 35:12 assemblate con voci provvisorie; controllo severo P1 solo 2 difetti (volume, silenzio mappa) gia corretti, ora rilancio su entrambe; agente separato al lavoro; in attesa delle 18 voci nuove (ne sono arrivate 5)."
   }
  ],
  "materia": "storia-V",
  "lezione": "5",
- "aggiornato": "2026-11-22 19:10:35"
+ "aggiornato": "2026-11-22 22:46:20"
 }
