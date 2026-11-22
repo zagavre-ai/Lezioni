@@ -88,7 +88,11 @@
   {
    "quando": "22/11 17:53",
    "testo": "22/11 17:55 UTC: video nuovo montato (50:31, 90931 fotogrammi, 207 MB, -16,6 LUFS, picco -1,8 dBTP, jingle quiz a 0,0 s, sync prof <=0,022 s). in corso: controllo severo, trascrizione di controllo, PDF con testo, rapporto. consegna prevista 19:00 UTC"
+  },
+  {
+   "quando": "22/11 18:53",
+   "testo": "22/11 18:55 UTC: video nuovo pronto (50:23, -16,6 LUFS, -1,9 dBTP, nessuna pausa >2,5 s, jingle e sync ok). in corso: esito controllo severo (in esecuzione), controllo di un agente separato, rapporto. consegna sul ramo prevista 19:20 UTC"
   }
  ],
- "aggiornato": "2026-11-22 17:53:34"
+ "aggiornato": "2026-11-22 18:53:24"
 }
