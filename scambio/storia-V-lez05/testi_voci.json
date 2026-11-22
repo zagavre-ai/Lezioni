@@ -548,5 +548,89 @@
   "nome": "MA4",
   "testo": "Ecco la mappa della politica di Lenin dopo la guerra civile. Il fallimento del comunismo di guerra viene affrontato con la Nuova politica economica. Essa consente ai contadini di vendere parte del prodotto, autorizza imprese private di piccole dimensioni e raggiunge risultati positivi.",
   "lingua": "it"
+ },
+ {
+  "nome": "B0_R2",
+  "testo": "Benvenuti alla lezione di Storia. Oggi parliamo della rivoluzione russa e della nascita dell'Unione Sovietica, in nove argomenti."
+ },
+ {
+  "nome": "B2_R2",
+  "testo": "Benvenuti alla seconda parte della lezione di Storia sulla rivoluzione russa. Ci aspettano gli ultimi quattro argomenti."
+ },
+ {
+  "nome": "RIP2_R2",
+  "testo": "Bentornato. Prima di continuare, ripassiamo insieme la prima parte della lezione. La Prima guerra mondiale fa crollare l'Impero zarista: sconfitte al fronte, ferrovie arretrate, fame e caro vita nelle città, e una corte isolata e screditata da Rasputin. Nel febbraio millenovecentodiciassette, a Pietrogrado, donne e operai protestano per il pane e la pace; i soldati si schierano con la folla e lo zar Nicola II abdica. Nasce il governo provvisorio del principe Lvov, ma accanto a lui ci sono i soviet di operai e soldati: è il dualismo di potere. Ad aprile torna Lenin, che con le Tesi di aprile chiede tutto il potere ai soviet. Dopo le giornate di luglio e il golpe fallito di Kornilov, nella notte tra il ventiquattro e il venticinque ottobre le Guardie rosse assaltano il Palazzo d'Inverno e i bolscevichi prendono il potere. Subito firmano i decreti sulla pace e sulla terra, nazionalizzano banche e industrie, sciolgono l'Assemblea costituente e fondano la polizia politica: comincia la dittatura del partito. Ora vediamo come la Russia esce dalla guerra, e che cosa succede dopo."
+ },
+ {
+  "nome": "AN9_R2",
+  "testo": "Appena preso il potere, il Consiglio dei commissari del popolo, presieduto da Lenin, emana i primi provvedimenti. Il primo è il decreto sulla pace: fine immediata della partecipazione russa alla guerra mondiale e trattative per una pace senza annessioni e senza indennità. Il secondo è il decreto sulla terra: abolisce subito, senza indennizzo, la grande proprietà della nobiltà, della corona e della Chiesa ortodossa, e ridistribuisce la terra in modo paritario tra i contadini. Il terzo è la nazionalizzazione: grandi industrie, banche e commercio passano allo Stato, e nelle fabbriche si pongono le basi del controllo operaio. Poi arriva la Costituzione del millenovecentodiciotto: suffragio universale maschile e femminile, divorzio e aborto legali, parità salariale tra uomo e donna, tutele per la maternità e asili nido. Sono grandi conquiste, ma ottenute attraverso la violenza della rivoluzione."
+ },
+ {
+  "nome": "AN19_R2",
+  "testo": "Mettiamo a confronto il comunismo di guerra e la Nuova politica economica, punto per punto. Con il comunismo di guerra il grano viene requisito con la forza. Con la Nuova politica economica, al posto delle requisizioni, c'è un'imposta fissa in natura, nettamente più bassa. Il contadino ne versa una parte e il resto lo tiene, così non muore di fame. Con il comunismo di guerra il libero mercato è vietato, e nasce il mercato nero. Con la nuova politica i contadini possono vendere sul mercato libero le eccedenze, cioè quello che resta dopo aver pagato l'imposta. Con il comunismo di guerra la proprietà privata e l'uso della moneta sono aboliti, in coerenza con gli ideali marxisti. Con la nuova politica tornano in parte la proprietà privata e il commercio interno tradizionale, basato sulla moneta. In sintesi: la Nuova politica economica reintroduce alcune pratiche capitalistiche per salvare il comunismo, con l'idea di superarle quando la situazione si sarà stabilizzata."
+ },
+ {
+  "nome": "P9_R2",
+  "testo": "Ripassiamo insieme la nascita dell'Unione Sovietica e la successione a Lenin. Guarda lo schema e ripeti ad alta voce."
+ },
+ {
+  "nome": "SC5_4_R2",
+  "testo": "La polizia politica, il Politburo e la capitale a Mosca: la dittatura del partito."
+ },
+ {
+  "nome": "SC8_3_R2",
+  "testo": "Lenin chiude il comunismo di guerra e vara la Nuova politica economica."
+ },
+ {
+  "nome": "SC8_4_R2",
+  "testo": "Nuova politica economica: imposta in natura e libero mercato."
+ },
+ {
+  "nome": "SC9_1_R2",
+  "testo": "Dicembre millenovecentoventidue: nasce l'Unione Sovietica."
+ },
+ {
+  "nome": "GL1_R2",
+  "testo": "Le parole chiave. Zar: il sovrano dell'Impero russo, con potere assoluto. Duma: il parlamento russo, con una sola camera e pochi poteri reali sotto lo zar. Soviet: assemblea di operai e soldati, nata spontaneamente ed eletta direttamente sul territorio. Governo provvisorio: il governo liberale nato dopo l'abdicazione dello zar, guidato prima da Lvov e poi da Kerenskij. Bolscevichi: i socialisti rivoluzionari di Lenin, che vogliono la rivoluzione socialista subito. Menscevichi: i socialisti riformisti, favorevoli a un passaggio per tappe. Tesi di aprile: il programma di Lenin: tutto il potere ai soviet, uscita dalla guerra e terra ai contadini. Guardie rosse: i miliziani bolscevichi armati che assaltano il Palazzo d'Inverno. Decreto sulla terra: il provvedimento che toglie la grande proprietà a nobili, corona e Chiesa e divide la terra tra i contadini. Ceka, cioè la polizia politica del partito bolscevico, nata nel dicembre millenovecentodiciassette per colpire i nemici della rivoluzione."
+ },
+ {
+  "nome": "GL2_R2",
+  "testo": "Le parole chiave. Brest-Litovsk: il trattato con la Germania, del marzo millenovecentodiciotto, con cui la Russia esce dalla guerra perdendo vasti territori. Armata rossa: l'esercito bolscevico organizzato da Trockij, che vince la guerra civile. Armate bianche: le forze controrivoluzionarie di generali zaristi, monarchici e liberali, aiutate dagli stranieri. Comunismo di guerra: l'economia d'emergenza dal millenovecentodiciotto al millenovecentoventuno, con la statalizzazione e le requisizioni del grano. Mercato nero: il commercio clandestino di cibo, gestito dagli uomini con il sacco. Nuova politica economica, in sigla NEP: l'economia mista del millenovecentoventuno, con l'imposta in natura e il libero mercato delle eccedenze. Unione Sovietica, in sigla URSS, cioè Unione delle Repubbliche Socialiste Sovietiche: lo Stato nato nel millenovecentoventidue, con capitale Mosca."
+ },
+ {
+  "nome": "RF1_R2",
+  "testo": "Ripasso finale della prima parte. Primo argomento: la Prima guerra mondiale porta l'Impero zarista al collasso, tra sconfitte, fame e una corte isolata. Secondo: nel febbraio millenovecentodiciassette, a Pietrogrado, i soldati si uniscono alla folla, lo zar abdica e nasce il governo provvisorio. Terzo: accanto al governo crescono i soviet, e ad aprile Lenin torna con le Tesi di aprile. Quarto: dopo le giornate di luglio e il golpe fallito di Kornilov, a ottobre i bolscevichi prendono il potere con l'assalto al Palazzo d'Inverno. Quinto: il nuovo governo firma i decreti sulla pace e sulla terra, nazionalizza banche e industrie, scioglie l'Assemblea costituente e instaura la dittatura del partito."
+ },
+ {
+  "nome": "RF2_R2",
+  "testo": "Ripasso finale della seconda parte. Sesto argomento: con Brest-Litovsk la Russia esce dalla guerra e perde vasti territori; scoppia la guerra civile, vinta dall'Armata rossa di Trockij. Settimo: il comunismo di guerra requisisce il grano e provoca la carestia del millenovecentoventuno. Ottavo: dopo la rivolta di Kronstadt, Lenin vara la Nuova politica economica, un'economia mista. Nono: alla fine del millenovecentoventidue nasce l'Unione Sovietica, federale solo sulla carta; alla morte di Lenin, nel millenovecentoventiquattro, si apre la lotta tra Trockij e Stalin."
+ },
+ {
+  "nome": "FIN1_R2",
+  "testo": "Per oggi è tutto. Nella seconda parte vedremo il trattato di Brest-Litovsk, la guerra civile, il comunismo di guerra, la Nuova politica economica e la nascita dell'Unione Sovietica. Ti aspetto."
+ },
+ {
+  "nome": "MP1",
+  "testo": "Come avviene la Rivoluzione di febbraio? Le difficoltà della guerra causano una rivoluzione, nel marzo millenovecentodiciassette. Dalla rivoluzione nascono il governo provvisorio, che intende proseguire la guerra, e i soviet, che vogliono una pace immediata. La rivoluzione provoca anche il rientro di Lenin, che sostiene la possibilità di una rivoluzione socialista."
+ },
+ {
+  "nome": "MP2",
+  "testo": "Come si svolge la Rivoluzione di ottobre? La Rivoluzione di ottobre porta a un governo bolscevico. Il governo bolscevico decide la pace immediata e la distribuzione della terra ai contadini, e assume caratteri autoritari."
+ },
+ {
+  "nome": "MP3",
+  "testo": "Come si svolge la guerra civile russa? La guerra civile, dal millenovecentodiciotto al millenovecentoventi, vede scontrarsi le armate bianche, guidate da generali zaristi, e l'Armata rossa, guidata da Trockij. La guerra civile viene affrontata con il comunismo di guerra, con risultati economici disastrosi."
+ },
+ {
+  "nome": "MP4",
+  "testo": "Qual è la politica di Lenin dopo la fine della guerra civile? Il fallimento del comunismo di guerra viene affrontato con la Nuova politica economica. La Nuova politica economica consente ai contadini di vendere parte del prodotto e autorizza imprese private di piccole dimensioni, e raggiunge risultati positivi."
+ },
+ {
+  "nome": "VER1",
+  "testo": "Verifica finale. Dieci domande su tutta la lezione. Per superarla serve almeno l'ottanta per cento di risposte corrette. Buon lavoro."
+ },
+ {
+  "nome": "CO1",
+  "testo": "Ora i compiti. Prima domanda: quali fattori politici, economici e militari aggravano la crisi della Russia zarista durante la Prima guerra mondiale e portano al crollo del regime nel febbraio del millenovecentodiciassette? Seconda domanda: che cosa si intende per dualismo di potere dopo la Rivoluzione di febbraio, e quali sono i punti principali del programma politico presentato da Lenin nelle Tesi di aprile? Terza domanda: attraverso quali provvedimenti i bolscevichi consolidano il potere e attuano una svolta autoritaria tra la fine del millenovecentodiciassette e il millenovecentodiciotto? Quarta domanda: quali sono le differenze principali tra il comunismo di guerra e la Nuova politica economica varata da Lenin nel millenovecentoventuno, e quali conseguenze producono sulle campagne e sull'economia russa?"
  }
 ]
