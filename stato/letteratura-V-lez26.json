@@ -21,6 +21,10 @@
   {
    "quando": "22/11 17:02",
    "testo": "lez26: servono le voci MP1-MP10 e CP1-CP4 (testi_voci.json, ramo voci-letteratura-V-lez26): senza non posso chiudere. Per favore generare presto."
+  },
+  {
+   "quando": "22/11 17:42",
+   "testo": "URGENTE lez26 17:43 UTC: dopo 1 ora le voci MP1-MP10 e CP1-CP4 (commit 9ac5357 su voci-letteratura-V-lez26, scambio/letteratura-V-lez26/testi_voci.json) non sono ancora in vox/. Tutto il resto è pronto: appena arrivano servono ~40 min. Senza voci entro le 18:30 non rispetto le 19:30."
   }
  ],
  "domande_sara": [],
@@ -78,5 +82,5 @@
    "testo": "17:23 UTC: tutto pronto tranne le voci MP1-MP10/CP1-CP4 (ancora non generate). Appena arrivano: audio+codifica ~40 min."
   }
  ],
- "aggiornato": "2026-11-22 17:22:23"
+ "aggiornato": "2026-11-22 17:42:15"
 }
