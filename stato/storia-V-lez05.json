@@ -657,6 +657,10 @@
   {
    "quando": "22/11 18:29",
    "testo": "CORREZIONE alla domanda di prima: la divisione migliore e' P1 = argomenti 1-5 (circa 52 min, dentro 50-60), P2 = spiegone + argomenti 6-9 (circa 29 min); con 1-6 la P1 arriverebbe a circa 63 min, troppo vicino al limite 65. Seconda DOMANDA (conflitto CLAUDE.md §3/§6 e prompt 22/11): il prof ha solo 4 mappe (argomenti 2, 4, 6, 8). Il prompt dice 'togli le mappe inventate', il CLAUDE.md §6 dice 'se il prof non ha una mappa per un argomento si costruisce con le sue parole e lo si dichiara'. Cosa faccio per gli argomenti 1, 3, 5, 7, 9 e per la 'mappa finale della lezione'? Mia scelta se non rispondete: per 1,3,5,7,9 costruisco la mappa solo con le parole del prof (trascrizione) in stile BES e la dichiaro nel rapporto; mappa finale = nessuna mappa nuova, ma le mappe del prof di quella Parte rimostrate intere in sequenza. Dimmi se preferite NESSUNA mappa dove il prof non l'ha fatta."
+  },
+  {
+   "quando": "22/11 18:32",
+   "testo": "CONFLITTO DI PRENOTAZIONE: Sara mi ha assegnato storia-V-lez05 (nuova chat, ramo claude/amazing-brahmagupta-1e2bc5), ma lo stato ha gia' 'correzioni 22/11: presa da claude/magical-cray-5jt9c9' (22/11 18:25) con 2 domande aperte (divisione in Parti, mappe mancanti). Come da prompt MI FERMO e non tocco lo stato ne' i rami revisione/voci. Dite: (a) la chat magical-cray prosegue e io non faccio nulla, oppure (b) e' ferma e riparto io; in tal caso quali risposte alle 2 domande (2 Parti 1-5 / 6-9 e mappe dove il prof non le ha)."
   }
  ],
  "domande_sara": [],
@@ -700,5 +704,5 @@
  ],
  "materia": "storia-V",
  "lezione": "5",
- "aggiornato": "2026-11-22 18:29:09"
+ "aggiornato": "2026-11-22 18:32:28"
 }
