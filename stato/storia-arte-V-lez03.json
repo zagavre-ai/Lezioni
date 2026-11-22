@@ -3,7 +3,8 @@
  "parti": {
   "1": {
    "titolo": "Il Realismo",
-   "stato": "IN_MONTAGGIO"
+   "stato": "IN_MONTAGGIO",
+   "voci": "segnaposto"
   }
  },
  "manca": "",
@@ -38,10 +39,14 @@
   {
    "quando": "22/11 23:06",
    "testo": "avanzamento: trascrizione fatta, piano pezzi e prime slide renderizzate; ora montaggio con voci provvisorie"
+  },
+  {
+   "quando": "22/11 23:23",
+   "testo": "stato 30': montati i pezzi del prof (tagli su frasi intere), schede blu, approfondimenti, mappe del prof ridisegnate; manca assemblaggio, controlli e voci vere (9:00)"
   }
  ],
  "materia": "Storia dell'arte V",
  "lezione": "Lezione 3 · Il Realismo",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-22 23:06:39"
+ "aggiornato": "2026-11-22 23:23:37"
 }
