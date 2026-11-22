@@ -6,6 +6,10 @@
   {
    "quando": "22/11 13:28",
    "testo": "TEC-A: presa lez01 (Preparazione pt.1). Materiali trovati SI: mp4 (74:28, 852x480, schermo con testo + tondino prof), PDF dispensa 45 pag, xlsx 20 domande, compiti 5 domande (da release moda-chimica-III-IV). Trascrizione in corso. Durata >65 min: prevedo 2 Parti, dividerò a fine argomento. Stima consegna lez01: non ancora stimabile finché non ho trascrizione e piano argomenti; ti scrivo appena pronti. Nota onesta: tre lezioni da 70+ min nel modello Gonna sono molto lavoro per una sessione sola; dimmi se preferisci priorità/ordine diverso."
+  },
+  {
+   "quando": "22/11 13:39",
+   "testo": "TEC-A lez01: (1) trascrizione fatta (562 segmenti, parlato 67,9 min su 74,4). (2) Ramo voci-moda-tecnologie-III-lez01 creato con scambio/moda-tecnologie-III-lez01/immagini.json, PRIMO GIRO 12 acquerelli (copertina, merino, tosatura, protezione ignifuga, 6 animali delle lane speciali, baco+gelso, bozzolo+aspo): puoi generarli subito. Secondo giro e testi_voci.json seguono entro circa 45 min. (3) Piano: 12 argomenti allineati alle pagine del PDF, 2 Parti (prof 74 min + aggiunte = circa 120 min). (4) Nota: lez02 e lez03 hanno Parti PRONTA vecchie (8/11, 1440p): le rifaccio nel modello Gonna come da prompt; le prenoto quando ci arrivo, non prima. (5) Refusi sul PDF della prof da portare a Sara (non li correggo): pag16 super 100's e super 110's hanno lo stesso diametro 18,25 micron; pag31 'Bombix mori' (Bombyx); pag20 'addetti ai altoforni'; nomi propri in minuscolo a pag28-29 (patagonia, turchia, ankara, stati uniti, africa, asia, himalaya)."
   }
  ],
  "domande_sara": [],
@@ -17,5 +21,5 @@
  ],
  "materia": "Tecnologie dei materiali e dei processi produttivi e organizzativi della moda",
  "docente": "Prof.ssa Piera Caputi",
- "aggiornato": "2026-11-22 13:28:26"
+ "aggiornato": "2026-11-22 13:39:07"
 }
