@@ -1,6 +1,10 @@
 {
  "tag": "storia-V-lez13",
- "parti": {},
+ "parti": {
+  "1": {
+   "stato": "IN_MONTAGGIO"
+  }
+ },
  "manca": "",
  "serve_master": [
   {
@@ -25,7 +29,11 @@
   {
    "quando": "22/11 18:52",
    "testo": "19/11→22/11 19:00 UTC · avvio correzioni: scaricati i 4 video e i materiali, confini degli 11 argomenti fissati sulla trascrizione (3 Parti: 1-3, 4-7, 8-11), voci nuove richieste, in corso: parlato pulito del prof, schede, mappe del prof ramo per ramo, approfondimenti, piani delle slide. Timbro verificato sull'introduzione: -17,7 dB originale, -16,0 dB pulito (ok -9/-20). Nota: i file originali 13-1/13-2/13-3/13-4 si interrompono in mezzo alla frase: i tagli cadono sulla frase intera precedente/seguente (lo scrivo nel rapporto)."
+  },
+  {
+   "quando": "22/11 22:36",
+   "testo": "22/11 22:40 UTC: tutte e 3 le Parti montate con voci provvisorie (P1 48:54, P2 52:16, P3 56:03; P1 sotto i 50 min: solo materiale del prof). Fatto: parlato pulito del prof con timbro intatto, 11 argomenti a finestre (card intere, max 3), mappe del prof ramo per ramo, schede, approfondimenti, glossario, spiegoni, verifica, compiti. In corso: controllo severo, dispense, sottotitoli, codifica finale (CRF più alto: oltre 400 MB a CRF 19). Dipende dalle voci: arrivando alle 9:00 italiane resta poco margine: se avanzano, prima le voci MPB1-6, BEN2-3, RIP2C-3C, VER13, COMP13, MPBF1-3."
   }
  ],
- "aggiornato": "2026-11-22 20:34:20"
+ "aggiornato": "2026-11-22 22:36:36"
 }
