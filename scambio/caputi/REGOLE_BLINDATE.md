@@ -3,12 +3,10 @@
 Valgono per **tutte le materie e tutte le lezioni**. Raccolgono le decisioni di Sara dal 29/10 al 22/11/2026 (aggiornate con le sue correzioni del 22/11 mattina). Non si discutono e non si chiedono più. Se una regola nuova contraddice una vecchia, vale la più recente, scritta in questo documento.
 
 ## 1. Chi decide e come si lavora
-- **Sara** (Prof.ssa Sara Zagarese, Coordinatrice Didattica) decide i contenuti (quiz, titoli, docenti), i soldi e il «mi piace / non mi piace» dopo una visione. **Sui tagli delle parti dei docenti decide Sara.**
 - **La master** decide tutto il resto: formati, codifiche, strumenti, ordine dei lavori. Approva al posto di Sara quiz e testi delle voci.
 - **Le chat non fanno domande a Sara.** Scrivono alla master con `stato.py --serve_master "..."`. A Sara arriva solo lo stato.
 - **Nessuno parte in automatico su cose nuove:** la master spiega a Sara cosa vuole fare e aspetta il suo sì.
 - Nel dubbio non si inventa e non si stima: ci si ferma e si scrive alla master.
-- **Mai contattare i docenti**, in particolare la Prof.ssa Caputi.
 - **Oltre a insegnare bisogna intrattenere: vale per tutte le materie.** Ritmo, animazioni fatte bene, mai lo schermo fermo a lungo (sezione 4 e sezione 8).
 - Nei testi per docenti, alunni, famiglie e direzione Sara si scrive sempre «**Prof.ssa Sara Zagarese, Coordinatrice Didattica**».
 
@@ -23,7 +21,7 @@ Valgono per **tutte le materie e tutte le lezioni**. Raccolgono le decisioni di 
    - Prof. Mazzotti: riquadro 4:3 (412×309 a x=1428, y=148), ombra grigia.
    - Prof.ssa Caputi: **il suo tondo ripulito**, nella colonna destra, al massimo circa 2 volte il tondino originale, con la fascia gialla del nome e della materia.
    - Correzione colore leggera, niente sfocature dello sfondo. La sorgente è quella che è: non ci si ferma.
-7. **I dati e i materiali dei docenti non si modificano mai.** Errori nelle loro slide o nei loro testi si segnalano alla master. Decide Sara.
+7. **I file originali dei docenti non si modificano mai.** Nelle nostre slide, dispense e mappe **i refusi si correggono** (ortografia, accenti, maiuscole dei nomi propri, nomi scientifici scritti male) e si elencano nel rapporto; la master li ricontrolla. Numeri o contenuti che non tornano non si toccano: si riportano come li dice il docente e si scrivono nel rapporto.
 
 ## 3. Struttura della lezione
 1. **Sigla della materia** (15 s, sempre la stessa, senza numero di lezione).
@@ -99,7 +97,7 @@ Valgono per **tutte le materie e tutte le lezioni**. Raccolgono le decisioni di 
 
 ## 8. Prof.ssa Caputi (Chimica, Tecnologie, Laboratori): regole in più
 - ⚠️ **Docente molto esigente: controllo doppio** su nomi, misure, numeri, sigle, nome esatto della materia e refusi. Misure e numeri si riportano **come li dice lei**, senza calcoli aggiunti.
-- **Ogni anomalia** trovata nel suo materiale (refusi, numeri che non tornano, parti mancanti) **va nel rapporto**, e la master la porta a Sara. **Non si corregge niente finché Sara non decide.**
+- **Ogni anomalia** trovata nel suo materiale va nel rapporto. **I refusi si correggono** nelle nostre slide e dispense (esempi: «Bombyx mori», «sgrassatura», Turchia, Himalaya) e la master li ricontrolla; numeri e contenuti che non tornano restano come li dice lei e la master li porta a Sara.
 - **Modello approvato:** l'anteprima «Gonna» del 21/11, cioè sigla, introduzione con figurino, prof nel tondo, cartamodello passo per passo, mappa BES, quiz e il ritorno «ora torniamo dalla professoressa…».
 - **Ritmo** (Sara, 22/11): la materia è pesante, quindi oltre a insegnare bisogna **intrattenere**.
   - La prof resta nel suo tondo ripulito.
@@ -160,3 +158,10 @@ Il controllo lo fa **un agente separato**, che non ha montato la lezione. I dife
 
 ## 12. Il controllo severo della master (dopo la consegna)
 La master ricontrolla ogni lezione prima di caricarla, su **tutti** gli aspetti decisi in questo documento: la lista del §11 e ogni altra regola. Per i controlli che si possono misurare usa i suoi strumenti; per gli altri guarda i fotogrammi e la trascrizione. Se anche una sola regola non è rispettata, la lezione torna alla chat con l'elenco dei difetti e il minuto. Se è tutto a posto, la carica su Vimeo, aggiorna la pagina interattiva e lo stato delle videolezioni.
+
+## 13. Tempi (vincolanti)
+- **Ogni lezione si consegna entro 2 ore e mezza** da quando la chat la prende (stato `IN_REVISIONE`).
+- Stato ogni 30 minuti, con quello che è fatto e quello che manca.
+- **Dopo 1 ora** la chat confronta il lavoro fatto con quello che manca: se vede che non chiude nelle 2 ore e mezza, lo scrive **subito** alla master con `--serve_master`, dicendo quale parte del lavoro può passare a un'altra chat. Non si aspetta la scadenza per dirlo.
+- Non si riduce la qualità per stare nei tempi: se il tempo non basta, si divide il lavoro.
+- La master ricontrolla ogni consegna appena arriva e risponde entro 30 minuti: carica oppure rimanda indietro con l'elenco dei difetti.
