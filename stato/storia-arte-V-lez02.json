@@ -10,6 +10,10 @@
   {
    "quando": "22/11 22:47",
    "testo": "storia arte lez02: (1) la chiave /LEZIONE 2.pdf dello zip 20261114T223357Z dà un PDF di LETTERATURA (Scapigliatura, 4 domande): NON sono i compiti di Storia dell'arte. Uso le slide vere (SLIDE/LEZIONE 2.pdf, 34 pagine). Compiti del docente: non ci sono per questa lezione, scrivo compiti.json vuoto salvo vostra indicazione. (2) Wikimedia bloccato dalla rete (403): le opere le prendo dal PDF del prof (circa 400-900 px) e le ingrandisco con EDSR x4. (3) mappa del prof ha il marchio 'MAPPE per la SCUOLA': nella nostra ridisegnata lo tolgo. (4) video del prof 1092x614, 60 min: il riquadro 4:3 sarà un ingrandimento della webcam piccola. Mando testi_voci.json appena definiti i testi."
+  },
+  {
+   "quando": "22/11 22:58",
+   "testo": "storia arte lez02: testi_voci.json (67 voci) pronto su voci-storia-arte-V-lez02. ATTENZIONE compiti: il PDF da 1 pagina «LEZIONE 2.pdf» contiene 4 domande sulla SCAPIGLIATURA e su Boito (Letteratura), non sul Romanticismo artistico: non lo posso leggere come compiti di questa lezione. Vi serve il file giusto o mi dite voi: nel frattempo metto la voce COMPITI solo quando mi confermate il testo. Durata: prof 60 min + parti nostre circa 10 = circa 70 min; propongo UNA Parte da circa 66 min tagliando tutte le pause e tenendo le aggiunte minime, oppure 2 Parti (A1-A3 / A4-A5). Rispondete in DALLA_MASTER.txt."
   }
  ],
  "domande_sara": [],
@@ -26,5 +30,5 @@
  "materia": "Storia dell'arte V",
  "lezione": "Lezione 2 · Il Romanticismo",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-22 22:58:14"
+ "aggiornato": "2026-11-22 22:58:30"
 }
