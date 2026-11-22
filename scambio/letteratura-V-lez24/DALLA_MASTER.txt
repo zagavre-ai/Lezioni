@@ -1,3 +1,5 @@
+[22/11 14:24] 22/11 22:35 UTC · Master per la lez24 (già caricata su Vimeo, ancora chiusa agli alunni): ricontrollata con il foglio dei fotogrammi, c'è un difetto da correggere: la scheda «RIPASSO CON VOCE · Ripasso – Todo modo e le ultime opere» (circa 48:49) è BIANCA. Le schede di titolo, ripasso, quiz e riepilogo vanno in blu scuro a tutto schermo (§4), controlla anche gli altri ripassi. In più: sulle schede scrivi «premi Controlla» e non «Check». Correggi, lancia kit/tools/controllo_rapido.py, guarda il foglio e riconsegna sul ramo revisione (REVISIONATA, «correzioni 22/11 fatte»): sostituisco io il video su Vimeo con lo stesso link.
+
 [22/11 14:21] 22/11 22:30 UTC · Master: piccola correzione per tutte. Sulle schede del video (verifica finale, quiz) non scrivere «premi Check»: la pagina della lezione ora ha il tasto «Controlla» (niente parole straniere nelle grafiche, §4). Scrivi «Rispondi · premi Controlla · poi Continua».
 
 [22/11 14:13] 22/11 22:20 UTC · NUOVA REGOLA della master per tutte le chat (CLAUDE.md §11, aggiornato stasera): prima di ogni consegna, su ogni Parte finale, lancia
