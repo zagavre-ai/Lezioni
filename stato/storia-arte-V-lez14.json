@@ -3,10 +3,17 @@
  "parti": {
   "1": {
    "titolo": "I nuovi realismi",
-   "stato": "IN_MONTAGGIO"
+   "stato": "IN_MONTAGGIO",
+   "voci": "segnaposto",
+   "video": "StoriaArte_Lez14_Parte1_1080p_v2.mp4",
+   "durata_s": 2742.5,
+   "durata": "45:42.5",
+   "fotogrammi": 82275,
+   "fotogrammi_attesi": 82275,
+   "peso_MB": 358.2
   }
  },
- "manca": "",
+ "manca": "Montato tutto con voci provvisorie: 45:42, 1080p, -16 LUFS, controllo rapido ESITO OK, jingle quiz 0,0 s. Mancano: voci Kore (domattina 9:00), opere ad alta risoluzione dal ramo opere-storia-arte-V, rimontaggio, rapporto, consegna",
  "serve_master": [
   {
    "quando": "22/11 22:57",
@@ -22,10 +29,14 @@
   {
    "quando": "22/11 23:18",
    "testo": "storia arte 22/11: piano completo (6 argomenti, 3 mappe, sigla Storia arte); slide, mappe, quiz, glossario pronti; montaggio con voci provvisorie in corso"
+  },
+  {
+   "quando": "22/11 23:55",
+   "testo": "storia arte 22/11: fermo fino alle voci delle 9:00 (regola di consumo)"
   }
  ],
  "materia": "Storia dell'arte V",
  "lezione": "Lezione 14 · I nuovi realismi",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-22 23:18:44"
+ "aggiornato": "2026-11-22 23:55:35"
 }
