@@ -7,16 +7,25 @@
   }
  },
  "manca": "",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "22/11 22:52",
+   "testo": "lez11 Architettura moderna: testi_voci.json (20 voci, incl. COMPITI) inviato su voci-storia-arte-V-lez11. Domande: (1) il prof nomina nel parlato 'Hufeisensiedlung' (Taut e Wagner, Berlino 1925-33) e 'Mill Run' per Fallingwater: ricontrolla la grafia. (2) Le 10 domande del prof (xlsx) citano cose NON presenti ne' nelle slide ne' nel parlato: Weissenhofsiedlung/Stoccarda 1927, CIAM 1928 La Sarraz, Casa Tugendhat, rivista Esprit Nouveau 1920, Broadacre City, Hofsanierung: le uso come sono (verifica) e le segnalo nel rapporto. (3) La mappa del prof e' UNICA (una sola per tutta la lezione): la metto a fine lezione prima del ripasso finale; ogni argomento chiude con la pillola. (4) Video origine 1092x614, webcam molto piccola: ingrandisco con nitidezza leggera."
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
    "quando": "22/11 22:44",
    "testo": "storia arte 22/11: presa da claude/nifty-franklin-4an2es"
+  },
+  {
+   "quando": "22/11 22:52",
+   "testo": "lez11: trascrizione fatta, voci inviate, ora costruisco il montaggio"
   }
  ],
  "materia": "Storia dell'arte V",
  "lezione": "Lezione 11 · Architettura moderna",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-22 22:44:55"
+ "aggiornato": "2026-11-22 22:52:55"
 }
