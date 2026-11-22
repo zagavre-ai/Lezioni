@@ -16,7 +16,7 @@ MAPS={
  ('d',700,500,520,"cambiamenti nel costume e nei consumi",'paglierino',1),('e',700,720,520,"elettrodomestici, televisori, automobili e scooter",'menta',0),
  ('f',1300,500,500,"intensi flussi migratori",'paglierino',1),('g',1370,680,430,"dal Sud al Nord",'menta',0),('h',1370,810,430,"dalle campagne alle città",'menta',0)],
  edges=[('r','a',"si basa su",'l'),('r','b','','l'),('r','c','','l'),('r','d',"causa",'v'),('r','f','','v'),('d','e',"con la diffusione di",'v'),('f','g',"diretti",'b'),('f','h','','b')]),
-'C':dict(title="",boxes=[
+'C':dict(title="Come nascono i governi di centrosinistra?",boxes=[
  ('r',700,290,520,"La Democrazia cristiana",'pesca',1),('a',700,450,520,"Fanfani e Moro",'paglierino',0),
  ('b',150,640,560,"un'alleanza con il Partito socialista di Nenni",'paglierino',0),('c',1000,640,520,"governi di centrosinistra (dal 1962)",'celeste',1),
  ('d',740,830,500,"la nazionalizzazione dell'energia elettrica",'lilla',0),('e',1290,830,500,"la riforma della scuola media",'lilla',0)],
@@ -51,6 +51,7 @@ def map_step(key,step,out,page,total=1,idx=1):
     h=f'<img id=logo src="data:image/svg+xml;base64,{LOGO}"><div class=hl style="top:124px"></div><div class=lab>{lab}</div>'
     if m['title']:h+=f'<div class=ttl style="top:196px;font-size:52px;width:930px;line-height:1.1">{H.escape(m["title"])}</div>'
     h+='<div class=legend>'+''.join(f'<span style="background:{COL[c][0]};border-color:{COL[c][1]}">{t}</span>' for c,t in LEG)+'</div>'
+    if key=='B':h+='<div style="position:absolute;left:80px;top:925px;font-size:28px;font-weight:700;color:#0B1530">Cee: Comunità economica europea</div>'
     h+='<div id=stage></div><div class=hl style="top:981px"></div><div class=foot style="left:80px">STORIA</div><div class=foot style="right:80px">Pagina '+str(page)+'</div>'
     vis=order[:min(step,len(order))];hot=order[step-1] if step<=len(order) else None
     if os.path.exists(out):return out

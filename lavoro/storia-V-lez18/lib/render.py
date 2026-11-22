@@ -13,12 +13,12 @@ body{width:1920px;height:1080px;background:#fff;overflow:hidden;font-family:'FG'
 #logo{position:absolute;left:80px;top:52px;height:52px}
 .hl{position:absolute;left:80px;right:80px;height:1px;background:#E3E8F0}
 .lab{position:absolute;left:80px;top:148px;font-weight:700;font-size:23px;letter-spacing:.17em;color:#2060AF;text-transform:uppercase;white-space:nowrap}
-.ttl{position:absolute;left:80px;width:1300px;font-family:'BG';font-weight:800;font-size:64px;line-height:1.08;color:#0B1530;letter-spacing:-.015em}
+.ttl{position:absolute;left:80px;width:1300px;font-family:'BG';font-weight:800;font-size:58px;line-height:1.05;color:#0B1530;letter-spacing:-.015em}
 .bar{position:absolute;left:80px;width:85px;height:6px;border-radius:4px;background:#2060AF}
 .foot{position:absolute;top:998px;font-weight:700;font-size:22px;letter-spacing:.14em;color:#2060AF;white-space:nowrap}
 .col{position:absolute;left:80px;width:1305px}
-.card{position:relative;background:#fff;border:2px solid #D5DCE8;border-radius:22px;box-shadow:0 10px 30px rgba(60,70,90,.10);padding:16px 28px 16px 100px;font-size:40px;line-height:1.5;font-weight:500;margin-bottom:18px;opacity:.62}
-.card.on{opacity:1;border:5px solid #FFE600;box-shadow:0 0 0 6px rgba(255,230,0,.28),0 12px 30px rgba(60,70,90,.14);padding:13px 25px 13px 97px}
+.card{position:relative;background:#fff;border:2px solid #D5DCE8;border-radius:22px;box-shadow:0 10px 30px rgba(60,70,90,.10);padding:12px 28px 12px 100px;font-size:40px;line-height:1.46;font-weight:500;margin-bottom:14px;opacity:.62}
+.card.on{opacity:1;border:5px solid #FFE600;box-shadow:0 0 0 6px rgba(255,230,0,.28),0 12px 30px rgba(60,70,90,.14);padding:9px 25px 9px 97px}
 .card .num{position:absolute;left:26px;top:20px;width:50px;height:50px;border-radius:50%;background:#E3E8F0;color:#3b4766;font-weight:800;font-size:28px;display:flex;align-items:center;justify-content:center;line-height:1}
 .card.on .num{background:#FFE600;color:#0B1530}
 .card.on::after{content:'';position:absolute;right:22px;top:22px;width:20px;height:20px;border-radius:50%;background:#FFE600;box-shadow:0 0 0 4px rgba(255,230,0,.35)}
@@ -26,9 +26,9 @@ body{width:1920px;height:1080px;background:#fff;overflow:hidden;font-family:'FG'
 .fas{position:absolute;left:1428px;top:466px;width:416px;height:106px;background:#FFE600;border-radius:10px;transform:rotate(-3deg);box-shadow:0 10px 24px rgba(60,70,90,.22);padding:18px 24px}
 .fas .n{font-family:'BG';font-weight:800;font-size:37px;line-height:1.05;white-space:nowrap}
 .fas .m{font-weight:800;font-size:20px;letter-spacing:.06em;margin-top:6px;text-transform:uppercase}
-.pc{position:absolute;left:1428px;top:650px;width:440px}
-.pc h4{font-weight:800;font-size:20px;letter-spacing:.2em;color:#2060AF;margin-bottom:14px}
-.pc div{font-weight:700;font-size:30px;line-height:1.2;padding:6px 12px;margin:0 0 8px;border-radius:6px;display:table;color:#0B1530;opacity:.55}
+.pc{position:absolute;left:1428px;top:608px;width:412px}
+.pc h4{font-weight:800;font-size:20px;letter-spacing:.2em;color:#2060AF;margin-bottom:10px}
+.pc div{font-weight:700;font-size:27px;line-height:1.15;padding:4px 10px;margin:0 0 6px;border-radius:6px;display:table;color:#0B1530;opacity:.55}
 .pc div.on{background:#FFE600;opacity:1}
 .pill{display:inline-block;font-weight:800;font-size:20px;letter-spacing:.2em;color:#2060AF;background:#E9F0FB;padding:8px 18px;border-radius:30px;text-transform:uppercase}
 .big{font-family:'BG';font-weight:800;color:#0B1530;letter-spacing:-.02em}
@@ -54,7 +54,7 @@ def shot(body,out,extra='',force=False):
     pg.screenshot(path=out+'.t.png');os.rename(out+'.t.png',out)
     if over>972 and 'ok_overflow' not in extra:print('ATTENZIONE: contenuto oltre il piede',out,over)
     return out
-def frame(label,title,page,tsize=64,materia='STORIA'):
+def frame(label,title,page,tsize=58,materia='STORIA'):
     h=f'<img id=logo src="data:image/svg+xml;base64,{LOGO}"><div class=hl style="top:124px"></div><div class=lab>{H.escape(label)}</div>'
     h+=f'<div class=ttl id=ttl style="top:196px;font-size:{tsize}px">{H.escape(title)}</div>'
     h+=f'<div class=hl style="top:981px"></div><div class=foot style="left:80px">{materia}</div><div class=foot style="right:80px">Pagina {page}</div>'
@@ -68,10 +68,10 @@ def cam_block(kw=None,on=()):
     return h
 def card_html(i,t,on):
     return f'<div class="card {"on" if on else ""}"><div class=num>{i}</div>{H.escape(t)}</div>'
-def slide_cards(label,title,cards,active,page,kw=None,kw_on=(),cam=True,out=None):
+def slide_cards(label,title,cards,active,page,kw=None,kw_on=(),cam=True,out=None,extra=''):
     b=frame(label,title,page)+'<div class=bar id=bar></div><div class=col id=col>'+''.join(card_html(i+1,c,i==active) for i,c in enumerate(cards))+'</div>'
     if cam:b+=cam_block(kw,kw_on)
-    return shot(b,out)
+    return shot(b,out,extra)
 
 # ---------- altre schede bianche ----------
 def cam_block(kw=None,on=()):
@@ -95,7 +95,7 @@ def label_slide(label,title,page,body_html,out,kw=None,cam=False,extra=''):
     b=frame(label,title,page)+'<div class=bar id=bar></div><div class=col id=col>'+body_html+'</div>'
     if cam:b+=cam_block(kw)
     return shot(b,out,extra)
-def img_slide(label,title,page,imgpath,cards,active,out,kw=None,kw_on=(),cam=True):
+def img_slide(label,title,page,imgpath,cards,active,out,kw=None,kw_on=(),cam=True,extra2=''):
     """immagine a sinistra (560 px) e fino a 2 card a destra (36 px)"""
     b64=base64.b64encode(open(imgpath,'rb').read()).decode()
     ext=imgpath.rsplit('.',1)[-1]
@@ -103,4 +103,27 @@ def img_slide(label,title,page,imgpath,cards,active,out,kw=None,kw_on=(),cam=Tru
     body+='<div style="position:absolute;left:640px;top:0;width:665px">'+''.join(card_html(i+1,c,i==active) for i,c in enumerate(cards))+'</div>'
     b=frame(label,title,page)+'<div class=bar id=bar></div><div class=col id=col>'+body+'</div>'
     if cam:b+=cam_block(kw,kw_on)
-    return shot(b,out,'#col .card{font-size:36px;line-height:1.4;padding:12px 20px 12px 84px}#col .card .num{left:18px;width:44px;height:44px;font-size:24px}#col .card.on{padding:9px 17px 9px 81px}')
+    return shot(b,out,'#col .card{font-size:36px;line-height:1.4;padding:12px 20px 12px 84px}#col .card .num{left:18px;width:44px;height:44px;font-size:24px}#col .card.on{padding:9px 17px 9px 81px}'+extra2)
+
+def quiz_png(label,qi,qn,q,opts,correct,reveal,expl,page,out):
+    """opts: 4 testi nell'ordine mostrato; correct: indice; reveal: bool"""
+    L='ABCD'
+    h=frame(label,f'Domanda {qi} di {qn}',page,tsize=44)
+    h+=f'<div style="position:absolute;left:80px;top:262px;width:1760px;font-family:BG;font-weight:800;font-size:46px;line-height:1.2">{H.escape(q)}</div>'
+    if not reveal:
+        cards=''
+        for i,o in enumerate(opts):
+            cards+=f'<div class=card style="opacity:1;position:absolute;left:{(i%2)*890}px;top:{(i//2)*250}px;width:870px;height:232px;font-size:32px;line-height:1.35;padding:18px 24px 18px 96px;margin:0;display:flex;align-items:center"><div class=num style="top:24px">{L[i]}</div>{H.escape(o)}</div>'
+        h+=f'<div id=qa style="position:absolute;left:80px;top:470px;width:1760px;height:500px">{cards}</div>'
+    else:
+        h+=f'<div class="card on" style="position:absolute;left:80px;top:470px;width:1760px;font-size:36px;line-height:1.35;padding:18px 28px 18px 100px"><div class=num>{L[correct]}</div><b>Risposta corretta · {L[correct]}</b><br>{H.escape(opts[correct])}</div>'
+        if expl:h+=f'<div class=card style="opacity:1;position:absolute;left:80px;top:740px;width:1760px;font-size:32px;line-height:1.4;padding:16px 28px;background:#F4F7FC"><div style="font-weight:800;color:#2060AF;letter-spacing:.14em;font-size:22px;margin-bottom:6px">PERCHÉ</div>{H.escape(expl)}</div>'
+    return shot(h,out,'ok_overflow')
+def table_png(label,title,page,rows,lit,out,head=("PUNTO","IN BREVE")):
+    body=f'<div style="border-radius:22px;overflow:hidden;box-shadow:0 12px 34px rgba(60,70,90,.12);border:1.5px solid #E3E8F0;width:1760px"><div style="display:flex;background:#0B1530;color:#fff;font-weight:800;font-size:24px;letter-spacing:.17em"><div style="width:560px;padding:16px 32px">{head[0]}</div><div style="flex:1;padding:16px 32px">{head[1]}</div></div>'
+    for i,(a,b) in enumerate(rows):
+        on=i==lit;bg='#FFF4A8' if on else '#fff';bd='border-left:12px solid #FFE600;' if on else 'border-left:12px solid transparent;'
+        body+=f'<div style="display:flex;border-top:1.5px solid #E9EDF4;background:{bg};{bd}font-size:38px;line-height:1.35"><div style="width:548px;padding:22px 32px 22px 20px;color:#2060AF;font-weight:800">{H.escape(a)}</div><div style="flex:1;padding:22px 32px;font-weight:500">{H.escape(b)}</div></div>'
+    body+='</div>'
+    b=frame(label,title,page)+'<div class=bar id=bar></div><div class=col id=col style="width:1760px">'+body+'</div>'
+    return shot(b,out)
