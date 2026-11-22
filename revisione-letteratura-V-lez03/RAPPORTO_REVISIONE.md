@@ -1,13 +1,13 @@
 # RAPPORTO REVISIONE · Letteratura italiana V · Lezione 3 · Giosuè Carducci
-Correzioni del 22/11/2026. Video: `Letteratura_Lez3_Parte1_1080p.mp4` (6 pezzi `.parte_00…05` da 90 MiB + `.sha256`). Ogni dato è etichettato **misurato**, **stima** o **non verificato**.
+Correzioni del 22/11/2026. Video: `Letteratura_Lez3_Parte1_1080p.mp4` (4 pezzi `.parte_00…03` da 90 MiB + `.sha256`). Ogni dato è etichettato **misurato**, **stima** o **non verificato**.
 
 ## 1. Misure sul video finale (misurato)
 | Controllo | Risultato |
 |---|---|
 | Formato | 1920×1080, 30 fps, x264, AAC 192k 48 kHz |
 | Durata / fotogrammi | **64:46,7 (3886,7 s)** · 116 602 fotogrammi (limite 65 min: margine 13 s) |
-| Peso | ≈ 495 MB |
-| Volume | −16,0 LUFS (LRA 7,0); picco −1,5 dBFS (campioni, dopo limitatore) |
+| Peso | 306 MB (una sola codifica, sotto i 400; video CRF 25, AAC 160k) |
+| Volume | −16,7 LUFS; picco vero −1,6 dBTP (`ebur128=peak=true`, misurato sul file finale) |
 | Pause > 2,5 s (silencedetect −45 dB, `controllo_severo`) | nessuna dopo i tagli: massimo 2,43 s |
 | Scatto jingle Quiz | Q1–Q4: +0,003 s (limite 0,05) |
 | Sincronia labbra/voce (sync5, 6 punti per pezzo) | copertina −0,008 · A1 −0,004 · A2 −0,034 · A3 0,000 · A4 −0,007 s (limite 0,04; A2 è un fotogramma, vicino al limite) |
@@ -48,4 +48,4 @@ Esito dell'ultima esecuzione: vedi la riga finale in `controllo_severo_esito.txt
 - Tempi di evidenziazione delle card e delle fettine: **stimati** dalla trascrizione, ±1 s, non misurati fotogramma per fotogramma.
 - Rumore del prof (arnndn) non dimostrabile all'ascolto.
 - Schede Quiz, titoli argomento e la coda (Verifica finale, sigla, Compiti) sono quelle già approvate, non rifatte; i silenzi lunghi di queste schede sono stati accorciati a 2,4 s.
-- Checklist §11 della master: la spunta indipendente è in `CHECKLIST_11.md` (se presente), altrimenti non fatta.
+- Checklist §11: spunta indipendente in `CHECKLIST_11.md`. Voci aperte: copertina PDF/video con sottotitolo e card ARGOMENTI (come nel modello); «Prof. Giorgio Mazzotti» nel piè delle slide del **video** (tolto solo nei PDF) e in testo_youtube; qualche errore ASR nel vtt («Josué», «Val di Castello»). Dopo la ricodifica per il peso il `controllo_severo` non è stato rilanciato (stessi fotogrammi, stessa durata; scatto jingle e fotogrammi rimisurati).
