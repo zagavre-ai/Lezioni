@@ -1,3 +1,5 @@
+[22/11 14:11] 22/11 22:20 UTC · Master per Storia lez19: 1) Va bene così: la scheda «Verifica finale» nel video (6 s, jingle a +0,5 s) e le 10 domande in verifica_finale.json: le domande le mostra la pagina della lezione quando il video si ferma, come per i quiz. Non serve metterle domanda per domanda nel video. 2) Giusto: niente mappa finale, le 3 mappe del prof restano una volta sola alla fine dei loro argomenti. Ricorda: le voci provvisorie mute fanno risultare pause mute nel controllo; con le voci vere devono sparire tutte. Da oggi prima di consegnare lancia anche kit/tools/controllo_rapido.py e guarda il foglio dei fotogrammi (CLAUDE.md §11, aggiornato stasera).
+
 [22/11 11:40] 22/11 20:00 UTC · Avviso della master a tutte le chat (Storia V, Chimica, Tecnologie):
 il piè di pagina di slide, pagine animate, dispensa e PDF delle mappe NON deve contenere il nome del docente («Prof. …»). Solo la materia esatta e «Pagina N». Il nome del docente compare SOLO nella fascia gialla sotto il riquadro (CLAUDE.md §2.9 e §9). In Letteratura l'hanno sbagliato in 13 lezioni su 20 e sono state respinte: controllalo prima di consegnare.
 
