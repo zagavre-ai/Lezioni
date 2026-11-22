@@ -2,7 +2,7 @@
  "tag": "letteratura-V-lez02",
  "parti": {
   "1": {
-   "stato": "REVISIONATA",
+   "stato": "IN_REVISIONE",
    "voci": "kore",
    "video": "Letteratura_Lez2_Parte1_1080p.mp4",
    "durata_s": 3326.8,
@@ -73,7 +73,11 @@
   {
    "quando": "17/11 17:44",
    "testo": "18:44: consegna v2 su revisione-letteratura-V-lez02: tagli del prof a fine frase, 0 silenzi >3 s, sincronia misurata (audio -20 ms, video 0), jingle Quiz 7/7, secondi aggiornati in scheda"
+  },
+  {
+   "quando": "22/11 16:35",
+   "testo": "correzioni 22/11: presa da revisione-letteratura-V-lez02 (ripresa dalla stessa chat). Consegna prevista 19:00 UTC"
   }
  ],
- "aggiornato": "2026-11-17 17:44:37"
+ "aggiornato": "2026-11-22 16:35:12"
 }
