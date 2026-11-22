@@ -536,5 +536,21 @@
  {
   "nome": "AN8_R2",
   "testo": "Il piano Marshall non porta solo denaro: porta anche aiuti materiali. Arrivano cibo e beni di prima necessità, in un'Europa con i campi devastati dalla guerra. Arrivano benzina e carbone, per far ripartire le fabbriche, i trasporti e illuminare le case. E arrivano circa tredici miliardi di dollari: all'Italia ne va circa un miliardo, una cifra enorme per l'epoca. La ricostruzione va dal millenovecentoquarantotto al millenovecentocinquantadue circa, e gli americani vigilano su come vengono spesi i soldi."
+ },
+ {
+  "nome": "PR74_R2",
+  "testo": "Guerra di Corea: il Nord comunista contro il Sud."
+ },
+ {
+  "nome": "PR64_R2",
+  "testo": "Patto di Varsavia, millenovecentocinquantacinque: la risposta alla NATO."
+ },
+ {
+  "nome": "PR44_R2",
+  "testo": "CECA, millenovecentocinquantuno: l'Europa dei sei."
+ },
+ {
+  "nome": "PR46_R2",
+  "testo": "Euratom, accanto alla CEE."
  }
 ]
