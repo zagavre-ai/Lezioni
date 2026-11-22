@@ -85,9 +85,13 @@
   {
    "quando": "22/11 20:43",
    "testo": "20:43 UTC: prima versione completa montata (53:30, voci provvisorie dove mancano) in codifica di prova; rifaccio pezzi con testo piu' grande (chip 28px) e numerazione pagine; poi controlli, dispensa, mappe, sottotitoli. Voci reali attese dalle 07:00 UTC."
+  },
+  {
+   "quando": "22/11 22:33",
+   "testo": "22:33 UTC: applico le nuove regole della master (nessuna mappa finale, quiz 'Rispondi · premi Controlla · poi Continua', nessuna pausa muta oltre 2,5 s, nessuna card sola oltre 60 s, controllo rapido). Rifaccio pezzi e schede (circa 1 ora), poi dispensa, mappe, sottotitoli, controllo rapido e rapporto. Voci reali attese dalle 07:00 UTC."
   }
  ],
  "materia": "storia-V",
  "lezione": "7",
- "aggiornato": "2026-11-22 22:31:34"
+ "aggiornato": "2026-11-22 22:33:05"
 }
