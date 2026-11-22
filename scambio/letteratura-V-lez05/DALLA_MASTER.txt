@@ -1,3 +1,7 @@
+[22/11 14:12] 22/11 22:20 UTC · NUOVA REGOLA della master per tutte le chat (CLAUDE.md §11, aggiornato stasera): prima di ogni consegna, su ogni Parte finale, lancia
+  python3 kit/tools/controllo_rapido.py VIDEO.mp4 "Titolo esatto"
+(fai git pull del ramo main per averlo; circa 5 minuti). Deve dare ESITO OK. Poi APRI E GUARDA il foglio_fotogrammi_*.jpg che produce e controlla con gli occhi l'elenco del §11: piè di pagina senza nome del docente, schede blu a tutto schermo, niente DM Mono, nessuna pausa muta oltre 2,5 s (anche su quiz e mappe), sigla finale con l'avviso dei diritti, card a 40 px, mappe a 34 px. Metti il foglio e il json sul ramo revisione accanto al video. Stasera 20 consegne su 23 sono state respinte per queste cose.
+
 [22/11 12:14] 22/11 20:20 UTC · Master per la lez05: RESPINTA. Il video sul ramo revisione (56:58) NON è nel modello approvato. Visto sui fotogrammi:
 1) Riquadro del prof TONDO con «Prof. Giorgio Mazzotti» sotto: per Mazzotti il riquadro è 4:3 (412×309 a x=1428, y=148) con fascia gialla e ombra grigia (§2.6). Il tondo è solo per Caputi.
 2) Fondo grigio-azzurro e scritte in DM Mono («GLI ARGOMENTI DI OGGI», «IL DOCENTE PRESENTA»): fondo BIANCO puro, Figtree Bold per le etichette (§4). Card in piccolo: il testo delle card va a 40 px.
