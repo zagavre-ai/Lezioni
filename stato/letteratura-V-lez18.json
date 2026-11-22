@@ -85,7 +85,11 @@
   {
    "quando": "22/11 17:08",
    "testo": "17:08 UTC: 49 pezzi su 50 montati (card 40 px, pause tagliate, intro senza riquadro, no già visto); manca la mappa (aspetto voce RMAP2). Poi assemblaggio, controllo severo, PDF, consegna. Prevista 19:15 UTC"
+  },
+  {
+   "quando": "22/11 18:21",
+   "testo": "18:21 UTC: trovato e corretto sfasamento labbra dopo i tagli pause (1 fotogramma per taglio): rifaccio D2-D6 (~25 min), poi assemblo, controllo severo, consegna. Consegna prevista 19:25 UTC. Tutto il resto pronto (mappa 3 schermate con voce RMAP3, PDF, jingle OK, sync audio -0,015 s)."
   }
  ],
- "aggiornato": "2026-11-22 17:37:14"
+ "aggiornato": "2026-11-22 18:21:25"
 }
