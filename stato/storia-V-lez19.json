@@ -22,6 +22,10 @@
   {
    "quando": "22/11 18:42",
    "testo": "Lez19: su voci-storia-V-lez19 ho aggiunto 18 voci nuove (BENV1_R2 senza nome del prof, RIP2A, MP1_*, MP2_*, MP3_* mappe del prof ramo per ramo). Le voci MD1-3 e BENV1 dicono il nome del prof: sostituite. Domande: 1) la mappa 3 del prof non ha la domanda-titolo: uso 'NEGLI ANNI NOVANTA' come nei suoi nodi, ok? 2) spiegone Parte 2: riuso R1-R4 gia' presenti. Intanto monto con voci provvisorie."
+  },
+  {
+   "quando": "22/11 22:09",
+   "testo": "Lez19, 2 domande (non mi blocco, procedo cosi' salvo tua risposta): 1) VERIFICA DI SBARRAMENTO: nel video c'e' la scheda 'Verifica finale' (6 s, jingle quiz.wav a +0,5 s, 'serve almeno l'80%') con le 10 domande del test Excel del prof in verifica_finale.json/xlsx per la piattaforma, come i quiz degli argomenti. Se le vuoi mostrate domanda per domanda dentro il video, dimmelo. 2) MAPPA FINALE DELLA LEZIONE: con la tua regola 'solo mappe del prof' non l'ho fatta (le 3 mappe del prof sono negli arg. 3, 4, 7). Il ripasso finale e' argomento per argomento. Nota: le voci provvisorie sono silenziose; appena arrivano controllo e sostituisco."
   }
  ],
  "domande_sara": [],
@@ -73,5 +77,5 @@
  ],
  "materia": "storia-V",
  "lezione": "19",
- "aggiornato": "2026-11-22 22:08:15"
+ "aggiornato": "2026-11-22 22:09:56"
 }
