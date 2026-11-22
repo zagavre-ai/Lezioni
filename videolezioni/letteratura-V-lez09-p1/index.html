@@ -199,24 +199,45 @@ function introC(){if(open)return;open='I';var el=$('intro');el.classList.remove(
 function ended(){S.end=true;save();draw();if(open)return;}
 
 /* ---- compiti nel video ---- */
-var CT={vf:[["Le fibre tessili si dividono in naturali e chimiche.","V"],["Il mohair è una fibra vegetale.","F"],["La viscosa è una fibra chimica artificiale.","V"],["Nelle fibre in mischia si uniscono i pregi di fibre diverse.","V"]],
- gap:[["Lana e seta sono fibre ","naturali"," di origine animale."],["Viscosa e acetato sono fibre chimiche ","artificiali","."],["Poliammide e poliestere sono fibre chimiche ","sintetiche","."]],
- mc:[{p:"Quale fibra NON è artificiale?",o:["Viscosa","Acetato","Poliestere","Modal"],a:"Poliestere"},{p:"Il cashmere è una fibra…",o:["vegetale","animale","sintetica","artificiale"],a:"animale"}],
- ap:["Spiega con parole tue la differenza tra fibre chimiche artificiali e sintetiche, con un esempio per ciascuna.","Scegli un capo che indossi spesso: di quale fibra è fatto? Perché pensi che sia stata scelta proprio quella fibra?"]};
+var CT={vf:[],gap:[],mc:[],ap:[]};
 var HS={};
 async function hh(t){var b=await crypto.subtle.digest('SHA-256',new TextEncoder().encode('telesio|'+String(t).trim().toLowerCase().replace(/\s+/g,' ')));return Array.from(new Uint8Array(b)).map(function(x){return x.toString(16).padStart(2,'0')}).join('').slice(0,16)}
 (async function(){for(var i=0;i<CT.vf.length;i++)HS['vf'+i]=await hh(CT.vf[i][1]);for(i=0;i<CT.gap.length;i++)HS['g'+i]=await hh(CT.gap[i][1]);for(i=0;i<CT.mc.length;i++)HS['m'+i]=await hh(CT.mc[i].a);
  CT.vf.forEach(function(x){x[1]=''});CT.gap.forEach(function(x){x[1]=''});CT.mc.forEach(function(x){x.a=''})})();
-function openC(){open='C';cur={q:'C',idx:-1};P.pause();
+function openC(){if(!CT.ap.length)return;open='C';cur={q:'C',idx:-1};P.pause();
+ /* 22/11 sera: i compiti si svolgono qui, uno spazio per domanda; «Consegna» li manda al quaderno dei compiti (il docente li corregge da lì) */
  var ov=$('ov'),narrow=$('stage').clientWidth<720&&!document.fullscreenElement;if(narrow){document.body.appendChild(ov);ov.classList.add('fix')}else{$('stage').appendChild(ov);ov.classList.remove('fix')}
- $('qt').textContent='Compiti della lezione';$('qs').textContent='Svolgili qui e premi «Consegna» · si consegna una volta sola · gli esercizi 1–3 si correggono subito, il 4 lo corregge il docente';
- var h='<div class="qi"><div class="p">Il tuo codice studente</div><input type="text" id="ccod" style="font:inherit;padding:6px 10px;border-radius:8px;border:1px solid #C9D0DC;width:240px" placeholder="nella prova: il tuo nome"></div>';
- h+='<div class="qi"><div class="p">Esercizio 1 · Vero o falso?</div>'+CT.vf.map(function(x,i){return '<div id="cvf'+i+'" style="display:flex;gap:10px;justify-content:space-between;align-items:center;padding:3px 6px;border-radius:6px"><span>'+esc(x[0])+'</span><span style="white-space:nowrap"><label style="display:inline"><input type="radio" name="vf'+i+'" value="V"> V</label> <label style="display:inline"><input type="radio" name="vf'+i+'" value="F"> F</label></span></div>'}).join('')+'</div>';
- h+='<div class="qi"><div class="p">Esercizio 2 · Completa con: naturali · artificiali · sintetiche</div>'+CT.gap.map(function(x,i){return '<div id="cg'+i+'" style="padding:3px 6px;border-radius:6px">'+esc(x[0])+'<input type="text" id="g'+i+'" style="font:inherit;width:130px;padding:2px 6px;border-radius:6px;border:1px solid #C9D0DC">'+esc(x[2])+'</div>'}).join('')+'</div>';
- h+='<div class="qi"><div class="p">Esercizio 3 · Scegli la risposta giusta</div>'+CT.mc.map(function(q,i){return '<div id="cm'+i+'" style="padding:3px 6px;border-radius:6px"><b>'+esc(q.p)+'</b>'+q.o.map(function(o){return '<label><input type="radio" name="m'+i+'" value="'+esc(o)+'"> <span>'+esc(o)+'</span></label>'}).join('')+'</div>'}).join('')+'</div>';
- h+='<div class="qi"><div class="p">Esercizio 4 · Rispondi (lo corregge il docente)</div>'+CT.ap.map(function(p,i){return '<div style="margin:6px 0">'+esc(p)+'<textarea id="ca'+i+'" style="display:block;width:100%;min-height:70px;font:inherit;padding:6px 8px;border-radius:8px;border:1px solid #C9D0DC;margin-top:4px"></textarea></div>'}).join('')+'</div>';
- $('qb').innerHTML=h;$('qb').scrollTop=0;$('qm').textContent='';$('qr').style.display='none';$('qv').textContent='Consegna';$('qv').className='btn';$('qv').onclick=consegna;
- $('ov').classList.add('on');$('cap').classList.remove('on');if(S.cons)esito(S.cons)}
+ if(!$('stcz')){var st=document.createElement('style');st.id='stcz';st.textContent='textarea.cz{width:100%;min-height:96px;font:inherit;font-size:17px;line-height:1.5;padding:10px;border:2px solid #D5DCE8;border-radius:10px;resize:none;overflow:hidden;overflow-wrap:anywhere;background:#fff;color:#0B1530;box-sizing:border-box}textarea.cz:focus{border-color:#2060AF;outline:3px solid rgba(255,230,0,.55)}.czt{display:flex;flex-wrap:wrap;gap:4px;margin-top:6px}.czt button{min-width:38px;height:38px;border:1px solid #2060AF;background:#fff;color:#2060AF;border-radius:8px;font-size:17px;cursor:pointer}.czr{white-space:pre-wrap;overflow-wrap:anywhere;background:#F4F6F9;border-radius:10px;padding:10px;font-size:16px}.czn{color:#B3261E;font-weight:700;margin-top:6px;white-space:pre-wrap}input.czc{width:100%;max-width:320px;font:inherit;font-size:17px;padding:9px;border:2px solid #D5DCE8;border-radius:10px;text-transform:uppercase;box-sizing:border-box}';document.head.appendChild(st)}
+ $('qt').textContent='Compiti della lezione';$('qs').textContent='Rispondi qui, una risposta per ogni domanda. Con «Consegna» i compiti arrivano al docente nel tuo quaderno dei compiti.';
+ $('qr').style.display='none';$('qm').textContent='';$('ov').classList.add('on');$('cap').classList.remove('on');
+ var LEZ=CFG.id.replace(/-p\d+$/,''),BK='compiti_'+LEZ,SIM=['²','³','√','π','½','≤','≥','≠','°','×','÷','→'],ES={giusto:'✓ Giusto',da_rivedere:'~ Da rivedere',sbagliato:'✗ Sbagliato'},ult=null;
+ var QURL='https://tsguzxawpywxrydazhrc.supabase.co/functions/v1/quaderno';
+ function cod(){try{return localStorage.getItem('quaderno_codice')||''}catch(e){return ''}}
+ function bozza(){try{return JSON.parse(localStorage.getItem(BK)||'[]')}catch(e){return []}}
+ function api(az,d,c){return fetch(QURL,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(Object.assign({codice:c,azione:az,tag:LEZ},d||{}))}).then(function(r){return r.json().then(function(j){if(!r.ok)throw new Error(j.errore||('errore '+r.status));return j})})}
+ function cresci(t){t.style.height='auto';t.style.height=(t.scrollHeight+4)+'px'}
+ function scrivi(d){var B=bozza(),h='';var dom=(d&&d.esercizi&&d.esercizi.length)?d.esercizi:CT.ap;var ro=d&&(d.stato==='consegnato'||d.stato==='corretto'||d.stato==='verificato'||d.stato==='segnalato');
+  if(d&&d.stato==='consegnato')h+='<div class="qi"><div class="p">Compiti consegnati'+(d.consegnato_il?' il '+new Date(d.consegnato_il).toLocaleString('it-IT'):'')+'.</div><div>Il docente li correggerà: voto e commenti li trovi nel tuo quaderno dei compiti.</div></div>';
+  if(d&&(d.stato==='corretto'||d.stato==='verificato'||d.stato==='segnalato'))h+='<div class="qi"><div class="p">Compiti corretti'+(d.voto?' · voto: '+esc(d.voto):'')+'</div>'+(d.commento?'<div class="czn">'+esc(d.commento)+'</div>':'')+'</div>';
+  if(d&&d.stato==='da_rifare')h+='<div class="qi"><div class="p">Da rifare</div>'+(d.commento?'<div class="czn">'+esc(d.commento)+'</div>':'')+'<div>Correggi le risposte e consegna di nuovo.</div></div>';
+  dom.forEach(function(p,i){var n=d&&d.note_esercizi&&d.note_esercizi[i];var r=(d&&d.risposte&&d.risposte[i])||B[i]||'';
+   h+='<div class="qi"><div class="p">'+(i+1)+'. '+esc(p)+'</div>'+(ro?'<div class="czr">'+(esc(r)||'(nessuna risposta)')+'</div>':'<label for="cz'+i+'" style="display:block;border:0;padding:0;font-weight:700;font-size:.9em;color:#2060AF">La tua risposta</label><textarea class="cz" id="cz'+i+'" data-i="'+i+'">'+esc(r)+'</textarea><div class="czt">'+SIM.map(function(x){return '<button type="button" data-s="'+x+'" aria-label="Scrivi '+x+'">'+x+'</button>'}).join('')+'</div>')+(n&&(n.esito||n.nota)?'<div class="czn">'+(n.esito?ES[n.esito]:'')+(n.nota?' · '+esc(n.nota):'')+'</div>':'')+'</div>'});
+  if(!ro)h+='<div class="qi"><div class="p">Il tuo codice</div><div style="margin-bottom:6px">È lo stesso del registro e del quaderno dei compiti.</div><input class="czc" id="czc" autocomplete="off" value="'+esc(cod())+'" aria-label="Il tuo codice"></div>';
+  h+='<div style="text-align:center;margin:6px 0 2px"><button type="button" class="btn" id="czx" style="background:#fff;color:#2060AF;border:1.5px solid #2060AF">Chiudi (le risposte restano salvate su questo dispositivo)</button></div>';
+  $('qb').innerHTML=h;$('qb').scrollTop=0;
+  [].forEach.call($('qb').querySelectorAll('textarea.cz'),function(t){cresci(t);t.onfocus=function(){ult=t};t.oninput=function(){cresci(t);var B=bozza();B[+t.dataset.i]=t.value;try{localStorage.setItem(BK,JSON.stringify(B))}catch(e){}}});
+  [].forEach.call($('qb').querySelectorAll('[data-s]'),function(b){b.onmousedown=function(e){e.preventDefault()};b.onclick=function(){var t=ult&&document.body.contains(ult)?ult:b.parentNode.previousSibling;if(!t)return;var a=t.selectionStart||t.value.length,z=t.selectionEnd||a;t.value=t.value.slice(0,a)+b.dataset.s+t.value.slice(z);t.focus();t.selectionStart=t.selectionEnd=a+b.dataset.s.length;t.dispatchEvent(new Event('input'))}});
+  $('czx').onclick=function(){$('ov').classList.remove('on');open=null};
+  if(ro){$('qv').textContent='Chiudi';$('qv').className='btn go';$('qv').onclick=function(){$('ov').classList.remove('on');open=null};return}
+  $('qv').textContent='Consegna';$('qv').className='btn go';$('qv').onclick=function(){var c=($('czc').value||'').trim().toUpperCase().replace(/\s+/g,'');var R=[].map.call($('qb').querySelectorAll('textarea.cz'),function(t){return t.value});
+   if(!R.some(function(x){return x.trim()})){$('qm').textContent='Scrivi almeno una risposta.';return}
+   if(c.length<6){$('qm').textContent='Scrivi il tuo codice (lo stesso del registro).';$('czc').focus();return}
+   if(R.some(function(x){return !x.trim()})&&!$('qv').dataset.ok){$('qv').dataset.ok=1;$('qm').textContent='Alcune domande sono senza risposta. Se vuoi consegnare lo stesso, premi di nuovo «Consegna».';return}
+   $('qv').disabled=true;$('qm').textContent='Invio in corso…';
+   api('lezione_consegna',{risposte:R},c).then(function(){try{localStorage.setItem('quaderno_codice',c);localStorage.removeItem(BK)}catch(e){}S.cons={quando:new Date().toLocaleString('it-IT')};save();draw();$('qv').disabled=false;delete $('qv').dataset.ok;
+     return api('lezione_stato',{},c).then(function(d){scrivi(d);$('qm').textContent='Compiti consegnati. Il docente li trova nel quaderno dei compiti e li correggerà.'})})
+   .catch(function(e){$('qv').disabled=false;$('qm').textContent=(e.message==='Codice non valido'?'Codice non valido: controlla di averlo scritto bene.':'Non è partito: '+e.message+'. Controlla la connessione e riprova.')})}}
+ scrivi(null);var c0=cod();if(c0)api('lezione_stato',{},c0).then(function(d){if(open==='C')scrivi(d)}).catch(function(){})}
 function val(n){var x=document.querySelector('input[name="'+n+'"]:checked');return x?x.value:''}
 async function consegna(){var cod=$('ccod').value.trim();if(!cod){$('qm').textContent='Scrivi il tuo codice studente.';return}
  var r={cod:cod,quando:new Date().toLocaleString('it-IT'),voci:{},v:{},ok:0,tot:0},i,g,x;
