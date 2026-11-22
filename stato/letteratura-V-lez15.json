@@ -2,11 +2,24 @@
  "tag": "letteratura-V-lez15",
  "parti": {
   "1": {
-   "stato": "IN_REVISIONE"
+   "stato": "IN_REVISIONE",
+   "voci": "kore",
+   "video": "Letteratura_Lez15_Parte1_1080p.mp4",
+   "durata_s": 3177.7,
+   "durata": "52:57.7",
+   "fotogrammi": 95331,
+   "fotogrammi_attesi": 95331,
+   "peso_MB": 315.1,
+   "vtt": "Letteratura_Lez15_Parte1.vtt"
   }
  },
  "manca": "",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "22/11 19:31",
+   "testo": "lezione 15: consegnata oltre le 19:30 con difetti noti nel rapporto; posso fare un ultimo giro di ~40 min (toglie il fade sul prof, riallinea 4 card): dimmi se lo vuoi"
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
@@ -28,7 +41,11 @@
   {
    "quando": "22/11 19:11",
    "testo": "100 min: ricodifica finale in corso (numeri card piu' leggibili, pause riempite); poi controlli e consegna; prevista 19:35 UTC (5 min oltre scadenza per il ricontrollo)"
+  },
+  {
+   "quando": "22/11 19:31",
+   "testo": "correzioni 22/11 consegnate sul ramo revisione ma NON pulite: controllo severo RESPINTA (4 tratti 'card sola', falsi positivi OCR) + difetti dell'agente indipendente (lampi del riquadro prof, 4 sync card). Servono ~40 min: vedi RAPPORTO §7"
   }
  ],
- "aggiornato": "2026-11-22 19:11:36"
+ "aggiornato": "2026-11-22 19:31:21"
 }
