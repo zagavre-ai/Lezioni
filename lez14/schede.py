@@ -89,8 +89,8 @@ def cifre(t):
     for i, w in enumerate(parole):
         lw = w.lower()
         if re.match(r'^[A-Za-zÀ-ÿ]+$', w):
-            if lw.endswith('esimo') and _p(lw[:-5]) and _p(lw[:-5]) > 10:
-                out.append(f'{_p(lw[:-5])}°')
+            if lw.endswith('esimo') and (_p(lw[:-5] + 'o') or 0) > 10:
+                out.append(f'{_p(lw[:-5] + "o")}°')
             elif lw in ('uno', 'una', 'un'):
                 out.append(w)
             elif lw == 'sei' and prev != 'dei':
@@ -881,7 +881,7 @@ def p_COMP():
             tx = re.sub(r'"([^"]*)"', r'«\1»', e['testo'])
             on = t0 + 0.6 + q * per
             off = on + per
-            rows += sc.add(f'<div class="num">{e["n"]}</div><div class="txt" style="font:500 40px/54px Fig">{esc(tx)}</div>', 'row',
+            rows += sc.add(f'<div class="num">{e["n"]}</div><div class="txt" style="font:500 40px/54px Fig">{esc(tx)}' + (f'<div style="margin-top:6px">{chips(sigle_in(tx))}</div>' if sigle_in(tx) else '') + '</div>', 'row',
                            'font-size:40px;align-items:flex-start;margin-bottom:22px;padding:18px 34px', i=t0 + 0.1 + 0.4 * q, d=0.5, fx='up', lit=[(on, off)], dim=0.8,
                            o=(fine_g - 0.4) if gi < len(gruppi) - 1 else None, od=0.3)
         pagine += f'<div style="position:absolute;left:80px;width:1760px;top:{top + 24}px">{rows}</div>'

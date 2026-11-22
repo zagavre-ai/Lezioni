@@ -507,8 +507,8 @@ def AN7_2(P):
     cam = [(d[0], .5, .5, 1.0), (c('Cina', pre=0.4), .25, .25, 1.9), (t50 - 0.2, .25, .6, 1.7), (t3 - 0.2, .75, .55, 1.8), (tF - 0.2, .75, .6, 1.5), (tN, .75, .55, 1.8), (d[1] - 0.6, .5, .5, 1.0)]
     vb = (1800, 1215)
     marks = (mk(14, 8, 9, 9, c('Cina', pre=0.2), t1=t50, lab='Cina', lx=-1, ly=-9)
-             + freccia_svg((330, 600), (520, 1090), vb, t50, d=1.4) + mk(66, 40.5, 10.5, 12, c('Pyongyang', pre=0.1), lab='Pyongyang', lx=-10, ly=-9)
-             + mk(70, 56.5, 8.5, 10, c('Seul', pre=0.1), lab='Seul', lx=2, ly=-9)
+             + freccia_svg((330, 600), (520, 1090), vb, t50, d=1.4) + mk(63.2, 42, 8, 11, c('Pyongyang', pre=0.1), lab='Pyongyang', lx=-11, ly=-10)
+             + mk(70.5, 60.5, 8, 11, c('Seul', pre=0.1), lab='Seul', lx=3, ly=-10)
              + linea_svg([(925, 725), (1800, 725)], vb, tF, d=1.2, col='#0B1530', wd=26) + linea_svg([(925, 725), (1800, 725)], vb, tF + 0.1, d=1.2, col='#FFE600', wd=14))
     mp = mappa(src, size, 960, 648, cam, d[0] + 0.1, marks)
     st = pila(760, 648, [
