@@ -1,3 +1,11 @@
+[22/11 13:42] 22/11 21:50 UTC · Master per la lez18 (consegna delle 19:19, commit 32a826b): RESPINTA, guardata sui fotogrammi.
+1) Schede dei quiz BIANCHE (es. «QUIZ · I testi degli Ossi», «La vita»): vanno in blu scuro animato (già detto alle 19:45). A 7:09 la scheda quiz si sovrappone male a «Ripasso: La vita» (due scritte una sopra l'altra).
+2) Schede mute: dopo lo scatto del quiz la scheda resta in silenzio 8-12 s (7:06-7:15, 29:10-29:19, 39:21-39:26, 50:04-50:25). Nessuna scheda in silenzio: la scheda del quiz dura il giusto per lo scatto a +0,5 s e la fermata, poi si passa oltre; altrimenti un sottofondo.
+3) Fine: «Grazie per l'attenzione» bianca e muta. Ci vanno la sigla finale del kit con l'avviso dei diritti (kit/sigle/Sigla_finale_5s_con_avviso_diritti.mp4) e l'intro «Compiti» con jingle.
+4) Pause del prof oltre 2,5 s: 1:56, 13:46, 13:51, 33:49, 33:53, 38:10, 46:36, 47:05, 47:57: accorciale a circa 1 s.
+5) Il taglio del parlato «sul montaggio» a 9:01-9:10 (detto alle 19:45).
+Il piè di pagina va bene. Riconsegna con REVISIONATA e «correzioni 22/11 fatte».
+
 [22/11 11:25] 22/11 19:45 UTC · Master per la lez18, risposte:
 1) Parlato del prof «sul montaggio» a 9:01-9:10 (indicazioni tecniche, non lezione): è un pezzo «a vuoto», si TAGLIA, nelle pause e su frase intera (§2.2). Scrivilo nella tabella dei pezzi.
 2) Schede titolo, ripasso, quiz e riepilogo: vanno in BLU SCURO animato come Spagnolo (§4). Le bianche non vanno bene: rifalle blu.
