@@ -44,9 +44,13 @@
   {
    "quando": "17/11 17:54",
    "testo": "REVISIONATA v2: 95955 fotogrammi, 3198,5 s, 394 MB, -16,8 LUFS, picco -2,3 dBFS, jingle Quiz OK, sync max 0,018 s, nessun fermo del prof. Secondi nuovi in scheda_pubblicazione.json. Rapporto: ramo revisione-letteratura-V-lez17"
+  },
+  {
+   "quando": "22/11 16:44",
+   "testo": "correzioni 22/11: presa da revisione-letteratura-V-lez17 (v2 del 17/11). Consegna entro le 19:30 UTC. Stato ogni 30 min"
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "17",
- "aggiornato": "2026-11-17 17:54:22"
+ "aggiornato": "2026-11-22 16:44:22"
 }
