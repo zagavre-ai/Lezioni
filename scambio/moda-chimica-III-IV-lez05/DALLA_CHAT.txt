@@ -1,0 +1,4 @@
+Chat CHIM-B (Caputi), lez05 Fibre vegetali, 22/11, modello Gonna.
+- testi_voci.json = NUOVO primo giro (lista [{nome,testo}], 120 voci: intro, titoli, approfondimenti, pillole, quiz domanda/spiegazione). Il vecchio file del 15/11 e' testi_voci_15-11_vecchio.json (non toccato, le sue voci in vox/ restano).
+- immagini.json = 8 acquerelli (IMG_A0..A7).
+- Quiz e testi da approvare dalla master al posto di Sara. Secondo giro (mappe, glossario, ripasso, verifica, compiti) in arrivo.
