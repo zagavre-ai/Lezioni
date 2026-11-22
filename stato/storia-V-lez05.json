@@ -649,6 +649,10 @@
   {
    "quando": "18/11 19:53",
    "testo": "Voci Kore nuove lez 5: 52 testi (B0,B2,MDF,MDO,MDG,MDN,P1-9,SC*) nel ramo voci-storia-V-lez05, commit f66e61a"
+  },
+  {
+   "quando": "22/11 18:27",
+   "testo": "DOMANDA DURATA (non blocca il lavoro): il prof parla circa 57 min netti (9 argomenti) e con titoli, approfondimenti, pillole, quiz, glossario, ripasso e compiti la lezione fa circa 78 min. Una Parte sola (max 65) è impossibile senza togliere parole al prof; due Parti entrambe da 45-65 min sono impossibili (servirebbero 90 min), e controllo_severo darà RESPINTA su durata in ogni caso. Propongo 2 Parti: P1 = argomenti 1-6 (circa 52 min), P2 = spiegone + argomenti 7-9 + fine (circa 27 min), divise alla fine di un argomento. Alternativa: 2 Parti bilanciate da circa 40 min. Procedo con la prima (P1 piu' lunga possibile) salvo vostro avviso. Notare: titolo esatto copertina = 'La rivoluzione russa' (il precedente 'La Rivoluzione russa e la nascita dell URSS (1917-1922)' non era il titolo esatto). Voci: manderò testi_voci.json sul ramo voci-storia-V-lez05 entro stasera."
   }
  ],
  "domande_sara": [],
@@ -692,5 +696,5 @@
  ],
  "materia": "storia-V",
  "lezione": "5",
- "aggiornato": "2026-11-22 18:25:50"
+ "aggiornato": "2026-11-22 18:27:29"
 }
