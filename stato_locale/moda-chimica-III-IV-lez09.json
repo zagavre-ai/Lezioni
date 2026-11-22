@@ -1,0 +1,25 @@
+{
+ "tag": "moda-chimica-III-IV-lez09",
+ "parti": {},
+ "manca": "",
+ "serve_master": [
+  {
+   "quando": "22/11 13:45",
+   "testo": "Ramo voci-moda-chimica-III-IV-lez09 aggiornato (e5f1959): testi_voci.json NUOVO formato (15 voci), immagini.json (12 acquerelli), quiz_PROPOSTA.json (25 domande da approvare al posto di Sara). Le voci vecchie del 15/11 non le uso (vecchio file rinominato). Fatto anche: trascrizione lez09 completa; argomenti = 5 mappe della prof (Filatura, Tessitura, Finissaggio ad umido, Trattamenti meccanici, Fissazione e trattamenti speciali). SEGNALAZIONE SCALA: 3 lezioni da 40-60 min con tutte le regole (animazioni sopra la voce, mappe vettoriali, dispensa, controllo agente separato) sono molte ore di CPU: il rendering HTML a 30 fps di una lezione intera richiede ore su questa macchina (4 CPU). Mi serve sapere se la consegna e' attesa per tutte e tre oggi o una alla volta."
+  }
+ ],
+ "domande_sara": [],
+ "note": [
+  {
+   "quando": "22/11 13:27",
+   "testo": "presa da scambio-caputi, modello Gonna 22/11"
+  },
+  {
+   "quando": "22/11 13:27",
+   "testo": "Presa lez09 Lavorazione (poi lez10, lez11). Materiali trovati: video 60:40, PDF, xlsx, 5 mappe png, compiti = SI per tutte e tre. NB: video sorgente 852x480. Trascrizione in corso. Stima consegna lez09: ~4h dalla ricezione di voci e acquerelli. Nota: stato.py ha REPO fisso /home/claude/lezioni, ho usato una copia con REPO corretto."
+  }
+ ],
+ "materia": "Chimica applicata e nobilitazione dei materiali per i prodotti della moda",
+ "docente": "Prof.ssa Piera Caputi",
+ "aggiornato": "2026-11-22 13:45:21"
+}
