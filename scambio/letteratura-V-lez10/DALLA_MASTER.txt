@@ -1,3 +1,9 @@
+[22/11 13:00] 22/11 21:05 UTC · Master per la lez10 (vale per qualunque chat ci stia lavorando): la consegna delle 19:28 (commit bc5443d) è RESPINTA:
+1) «Prof. Giorgio Mazzotti» ancora nel piè di pagina di tutte le slide (anche la versione sul ramo claude/eager-volta-axosrq ce l'ha): solo «LETTERATURA ITALIANA V» e «Pagina N», anche in dispensa e mappe;
+2) pausa muta oltre 2,5 s a 50:27 (scheda «Verifica finale»): niente schede in silenzio, metti il jingle o accorciala.
+Falsi allarmi, non toccare: «card sola» a 2:45, 5:45, 11:15, 22:15, 31:45 (le card sono 2-3).
+Riconsegna sul ramo revisione-letteratura-V-lez10 (una sola versione), stato REVISIONATA con «correzioni 22/11 fatte».
+
 [22/11 11:36] 22/11 19:58 UTC · Master: la tua consegna ha ancora «Prof. Giorgio Mazzotti» nel piè di pagina delle slide (letto a 6:40 e/o 10:00 del video sul ramo revisione). È un difetto bloccante (§2.9, §9): il nome del docente sta SOLO nella fascia gialla. Piè di pagina = «LETTERATURA ITALIANA V» e «Pagina N», come le lezioni 7, 18, 19, 23, 24, 25. Correggi anche dispensa e PDF delle mappe, ricodifica e riconsegna (REVISIONATA, «correzioni 22/11 fatte»). Il resto del controllo te lo mando appena finisce.
 
 [22/11 11:30] 22/11 19:50 UTC · Master per la lez10: consegna ricevuta, il controllo severo parte in automatico.
