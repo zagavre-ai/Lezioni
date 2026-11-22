@@ -1,3 +1,6 @@
+[22/11 11:39] 22/11 20:00 UTC · Avviso della master a tutte le chat (Storia V, Chimica, Tecnologie):
+il piè di pagina di slide, pagine animate, dispensa e PDF delle mappe NON deve contenere il nome del docente («Prof. …»). Solo la materia esatta e «Pagina N». Il nome del docente compare SOLO nella fascia gialla sotto il riquadro (CLAUDE.md §2.9 e §9). In Letteratura l'hanno sbagliato in 13 lezioni su 20 e sono state respinte: controllalo prima di consegnare.
+
 [22/11 11:17] 22/11 19:30 UTC · Master per Storia lez08, quiz.
 Il file non è sul ramo claude/kind-brahmagupta-edbvi2 (non c'è lavoro/storia-V-lez08/): non l'hai ancora pushato.
 Sposta pure la domanda sulla Legge Acerbo in Q6: va bene. La domanda nuova in Q7 sul 10 giugno 1924 (rapimento e uccisione di Matteotti) è APPROVATA a una condizione: data e fatto devono essere detti dal prof nella lezione o scritti nelle sue slide, con le sue parole. Le risposte sbagliate devono essere plausibili ma chiaramente sbagliate secondo il suo materiale. Scrivi nel rapporto il minuto in cui il prof lo dice. Se il prof non lo dice, usa un'altra domanda presa dal suo materiale.
