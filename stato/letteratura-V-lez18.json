@@ -2,7 +2,13 @@
  "tag": "letteratura-V-lez18",
  "parti": {
   "1": {
-   "stato": "IN_MONTAGGIO"
+   "stato": "IN_MONTAGGIO",
+   "video": "Letteratura_Lez18_Parte1_1080p.mp4",
+   "durata_s": 3031.1,
+   "durata": "50:31.1",
+   "fotogrammi": 90934,
+   "fotogrammi_attesi": 90934,
+   "peso_MB": 159.4
   }
  },
  "manca": "",
@@ -14,6 +20,10 @@
   {
    "quando": "22/11 17:37",
    "testo": "lez18: aspetto le voci RMAP e RMAP2 (mappa del prof in 3 schermate, ramo voci-letteratura-V-lez18, richieste alle ~16:40 UTC). Senza la voce non chiudo la mappa. Tutto il resto è pronto: appena arriva assemblo (circa 25 min)."
+  },
+  {
+   "quando": "22/11 19:19",
+   "testo": "lez18: ricontrollate voi con controllo_severo.py (da noi non finisce). Residui da decidere: (1) tagliare o no il parlato sul montaggio a 9:01-9:10; (2) schede titolo/quiz/ripasso in blu scuro animato (§4) invece che bianche; (3) voce mappa RMAP3 da riascoltare (Le occasioni, Satura)."
   }
  ],
  "domande_sara": [],
@@ -93,7 +103,11 @@
   {
    "quando": "22/11 18:32",
    "testo": "18:32 UTC: video definitivo assemblato (50:32,6, 90979 fotogrammi); controllo severo + agente indipendente in corso; sync audio -0,015 s, jingle 6/6, nessun fermo del prof. Consegna prevista 19:20 UTC"
+  },
+  {
+   "quando": "22/11 19:19",
+   "testo": "19:19 UTC REVISIONATA correzioni 22/11 fatte, durata 50:31,1 (90934 fotogrammi). ATTENZIONE: controllo_severo.py NON arrivato a esito (>40 min su questa macchina); fatto controllo con agente indipendente, difetti corretti e residui elencati in RAPPORTO §2 (residuo montaggio del prof a 9:01, tratti lunghi senza card accesa, schede su fondo bianco, VER->SFIN tagli secchi). Quiz 3,4,5 cambiano secondo (rapporto §5)."
   }
  ],
- "aggiornato": "2026-11-22 18:32:04"
+ "aggiornato": "2026-11-22 19:19:17"
 }
