@@ -2,13 +2,13 @@
  "tag": "storia-V-lez19",
  "parti": {
   "1": {
-   "stato": "REVISIONATA"
+   "stato": "IN_MONTAGGIO"
   },
   "2": {
    "stato": "REVISIONATA"
   }
  },
- "manca": "",
+ "manca": "montaggio Parte 1 e 2, voci nuove, dispensa, mappe PDF, sottotitoli, controlli",
  "serve_master": [
   {
    "quando": "19/11 00:12",
@@ -56,9 +56,13 @@
   {
    "quando": "22/11 18:38",
    "testo": "correzioni 22/11: presa da claude/clever-dirac-keybwq"
+  },
+  {
+   "quando": "22/11 19:03",
+   "testo": "ore 19:30: scaricato originale, trascritto (715 segmenti), piano di taglio deciso, strumenti slide/mappe pronti; voci nuove richieste (A2N + MP* + BENV1_R2 + RIP2A) su voci-storia-V-lez19. Ora: montaggio con voci provvisorie."
   }
  ],
  "materia": "storia-V",
  "lezione": "19",
- "aggiornato": "2026-11-22 18:42:55"
+ "aggiornato": "2026-11-22 19:03:03"
 }
