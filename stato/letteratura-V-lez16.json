@@ -327,6 +327,10 @@
   {
    "quando": "22/11 16:51",
    "testo": "lez16: la mappa del prof ha 29 riquadri (circa 1000 caratteri): a 34 px non entra in una schermata sola. Provo un layout a colonne; se non basta dividerò la mappa in due schermate poi riunite. Dimmi se va bene."
+  },
+  {
+   "quando": "22/11 17:58",
+   "testo": "URGENTE lez16: le voci MB01-MB29 (testi_voci.json sul ramo voci-letteratura-V-lez16, richieste alle 16:50 UTC) sono ferme a 2 su 29 (MB02, MB04). Senza le altre 27 non posso fissare i tempi della mappa e codificare. Serve che il servizio le generi entro le 18:40 UTC per consegnare alle 19:30. Se non è possibile dimmelo: l'alternativa è consegnare senza la mappa (da aggiungere dopo)."
   }
  ],
  "domande_sara": [],
@@ -406,10 +410,14 @@
   {
    "quando": "22/11 17:28",
    "testo": "17:30 UTC. Pezzi del prof e schermate pronti; mappa divisa in 3 schermate (Mappa 1/2/3 di 3, ognuna ferma 4 s) come da indicazione della master. Aspetto le voci MB01-MB29 (arrivate 2 su 29) per fissare i tempi e codificare. Consegna prevista 19:15 UTC."
+  },
+  {
+   "quando": "22/11 17:58",
+   "testo": "17:59 UTC. Tutto pronto tranne le voci MB01-MB29 della mappa (arrivate 2 su 29 da 70 minuti)."
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 16 · Umberto Saba",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-22 17:28:37"
+ "aggiornato": "2026-11-22 17:58:47"
 }
