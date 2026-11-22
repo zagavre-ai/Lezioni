@@ -6,6 +6,10 @@
   {
    "quando": "22/11 18:37",
    "testo": "Storia V lez08: (1) la 3a mappa del PDF del prof (Mussolini: marcia su Roma → incarico di governo) NON ha il titolo-domanda: uso 'Come Mussolini conquista il potere?' o lo lascio senza domanda? Intanto la lascio senza domanda. (2) Il prof ha 3 mappe per 8 argomenti: le metto a fine argomento 3 (Fiume), 4 (nascita fascismo), 8 (Matteotti); le altre senza mappa, non invento. (3) Mi serve la voce nuova BEN (benvenuto senza nome) e SPIEGONE_P2: li mando entro stasera."
+  },
+  {
+   "quando": "22/11 19:13",
+   "testo": "Quiz lez08: per coerenza con le slide del prof (la Legge Acerbo è nella slide del primo governo) ho spostato la domanda sulla Legge Acerbo da Q7 a Q6 (tolta 'triennio di consolidamento') e aggiunto in Q7 una domanda nuova sul 10 giugno 1924 (rapimento e uccisione di Matteotti). Serve la tua approvazione sulla domanda nuova; il file è quiz_argomenti.json sul ramo claude/kind-brahmagupta-edbvi2 in lavoro/storia-V-lez08."
   }
  ],
  "domande_sara": [],
@@ -25,7 +29,11 @@
   {
    "quando": "22/11 18:51",
    "testo": "Mandati anche 8 approfondimenti nuovi AP1-AP8 (40-60 s, solo slide del prof, numeri in lettere): servono per sostituire gli AN vecchi (troppo corti, alcuni con dati non del prof)."
+  },
+  {
+   "quando": "22/11 19:13",
+   "testo": "Pipeline di montaggio pronta e testata (slide a 40 px, riquadro 4:3 con sync esatta, mappe BES ramo per ramo, schede animate). In rendering i pezzi del prof (7 argomenti, 89 min). Poi assemblo Parte 1 e 2 con voci provvisorie dove mancano."
   }
  ],
- "aggiornato": "2026-11-22 18:51:58"
+ "aggiornato": "2026-11-22 19:13:15"
 }
