@@ -12,7 +12,7 @@
    "vtt": "Letteratura_Lez8_Parte1.vtt"
   },
   "2": {
-   "stato": "IN_REVISIONE",
+   "stato": "IN_MONTAGGIO",
    "video": "Letteratura_Lez8_Parte2_1080p.mp4",
    "durata_s": 2082.7,
    "durata": "34:42.7",
@@ -66,7 +66,11 @@
   {
    "quando": "22/11 18:20",
    "testo": "22/11 18:25: CONSEGNATE le 2 Parti sul ramo revisione-letteratura-V-lez08 (video a pezzi + sha, vtt, PDF slide e mappe, timeline/schede, RAPPORTO). Manca solo l'esito del controllo severo (in corso, lento) da aggiungere al rapporto; lo stato REVISIONATA lo imposto appena finisce."
+  },
+  {
+   "quando": "22/11 18:50",
+   "testo": "22/11 correzioni fatte: 2 Parti consegnate su revisione-letteratura-V-lez08 (RAPPORTO_REVISIONE.md con esito del controllo severo: RESPINTA per durata <45 min (2 Parti), 1 residuo di 3,5 min sulla slide 'La svolta politica e l'azione' p.20, 2 falsi positivi OCR 'card sola', 6 falsi positivi '...' sui libri). Non ascoltato da un umano; sottotitoli non riletti; card non verificate una per una."
   }
  ],
- "aggiornato": "2026-11-22 18:50:52"
+ "aggiornato": "2026-11-22 18:50:54"
 }
