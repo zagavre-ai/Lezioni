@@ -70,10 +70,14 @@
   {
    "quando": "22/11 22:07",
    "testo": "22/11 22:10 UTC: consegna PROVVISORIA caricata su revisione-storia-V-lez20 (Parte 1 54:10, Parte 2 29:26; controllo severo senza errori di struttura; restano solo le voci nuove da inserire: INTRO1_N, SP0, FINP1, PS2_4, PS3_4, COMP1-4). Rifaccio i pezzi appena arrivano le voci e consegno entro le 10:00 UTC."
+  },
+  {
+   "quando": "22/11 22:50",
+   "testo": "22/11 23:20 UTC: consegna provvisoria v2 su revisione-storia-V-lez20 con le correzioni dell'agente separato (spiegone solo arg. 1-4, niente fotogramma nero, avviso non doppio, sigle spiegate, sottotitoli intro). Attendo le 9 voci."
   }
  ],
  "materia": "Storia V",
  "lezione": "Lezione 20 · Gli anni Novanta: il mondo post-bipolare",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-22 22:07:37"
+ "aggiornato": "2026-11-22 22:50:58"
 }
