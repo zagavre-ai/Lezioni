@@ -1,6 +1,17 @@
 {
  "tag": "letteratura-V-lez08",
- "parti": {},
+ "parti": {
+  "1": {
+   "stato": "IN_REVISIONE",
+   "video": "Letteratura_Lez8_Parte1_1080p.mp4",
+   "durata_s": 2336.6,
+   "durata": "38:56.6",
+   "fotogrammi": 70098,
+   "fotogrammi_attesi": 70098,
+   "peso_MB": 212.6,
+   "vtt": "Letteratura_Lez8_Parte1.vtt"
+  }
+ },
  "manca": "",
  "serve_master": [
   {
@@ -41,7 +52,11 @@
   {
    "quando": "22/11 18:00",
    "testo": "22/11 +1h40: Parte 1 (38:57) e Parte 2 (34:43) montate e muxate; jingle Quiz OK; controllo severo in corso su entrambe; poi PDF, vtt/timeline/scheda, rapporto e push (circa 40 min)."
+  },
+  {
+   "quando": "22/11 18:20",
+   "testo": "22/11 18:25: CONSEGNATE le 2 Parti sul ramo revisione-letteratura-V-lez08 (video a pezzi + sha, vtt, PDF slide e mappe, timeline/schede, RAPPORTO). Manca solo l'esito del controllo severo (in corso, lento) da aggiungere al rapporto; lo stato REVISIONATA lo imposto appena finisce."
   }
  ],
- "aggiornato": "2026-11-22 18:00:11"
+ "aggiornato": "2026-11-22 18:20:49"
 }
