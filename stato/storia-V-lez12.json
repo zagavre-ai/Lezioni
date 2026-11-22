@@ -1,8 +1,13 @@
 {
  "tag": "storia-V-lez12",
  "parti": {},
- "manca": "",
- "serve_master": [],
+ "manca": "montaggio completo; voci Kore; controllo agente separato",
+ "serve_master": [
+  {
+   "quando": "22/11 18:46",
+   "testo": "STORIA V LEZ12 (presa 22/11 19:40 IT). Materiali scaricati: video 54 min (webcam del prof solo 205x138 px nell'originale, sarà ingrandita), slide 11 pagine, mappe 3 pagine (Autoritarismo, Guerra civile spagnola, Hitler), test 10 domande, compiti 4. Domande: (1) Il prof ha mappe solo per 3 argomenti su 6 (Dittature, Spagna, Verso la 2a guerra). Per Francia-GB, Asia e Nazismo/Locarno: nessuna mappa (prompt 22/11: non inventare) oppure mappa con le sue parole (CLAUDE §6)? Procedo SENZA mappa se non rispondi. (2) La mappa 'Hitler' non ha titolo-domanda: uso il titolo 'Hitler'? (3) Mappa finale della lezione: nessuna unica del prof, mostro le 3 mappe del prof in sequenza: ok? (4) Anomalie nel materiale, le riporto come le dice il prof: mappa 'Sudeti (1939)' ma slide e voce '1938'; etichetta 'Patto di ferro' ma testo 'Patto d acciaio'; slide 'fallimento di Locarno' senza che Locarno sia nel testo; 'Austria (Dollfuss)' elencata tra i Balcani. (5) Durata stimata sopra 65 min: pianifico 2 Parti (Parte 1: argomenti 1-3; Parte 2: spiegone + argomenti 4-6 + fine). Quiz: 5 domande per argomento scritte da me dal materiale del prof, te le mando in scambio/storia-V-lez12/quiz_argomenti.json per l'approvazione. testi_voci.json arriva sul ramo voci-storia-V-lez12 appena pronto."
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
@@ -12,5 +17,5 @@
  ],
  "materia": "Storia",
  "lezione": "12",
- "aggiornato": "2026-11-22 18:34:02"
+ "aggiornato": "2026-11-22 18:46:18"
 }
