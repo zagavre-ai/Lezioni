@@ -1,15 +1,15 @@
 [
  {
   "nome": "BEN1_R2",
-  "testo": "Benvenuti alla lezione di Storia. Oggi parliamo delle fasi conclusive della guerra fredda, dal millenovecentosessantanove al millenovecentonovantuno. In questa prima parte vediamo tre argomenti: la crisi economica degli anni Settanta, le tensioni e gli accordi in Medio Oriente, e la rivoluzione in Iran con la guerra contro l'Iraq."
+  "testo": "Benvenuti alla lezione di Storia. Oggi parliamo delle fasi conclusive della guerra fredda, dal millenovecentosessantanove al millenovecentonovantuno."
  },
  {
   "nome": "BEN2_R2",
-  "testo": "Benvenuti alla seconda parte della lezione sulle fasi conclusive della guerra fredda. In questa parte vediamo due argomenti: gli Stati Uniti da Nixon a Reagan, e le dittature in America Latina."
+  "testo": "Benvenuti alla seconda parte della lezione sulle fasi conclusive della guerra fredda."
  },
  {
   "nome": "BEN3_R2",
-  "testo": "Benvenuti alla terza parte della lezione sulle fasi conclusive della guerra fredda. In questa parte vediamo tre argomenti: l'Europa occidentale tra crisi e integrazione, il crollo dell'Unione Sovietica e la svolta della Cina."
+  "testo": "Benvenuti alla terza parte della lezione sulle fasi conclusive della guerra fredda."
  },
  {
   "nome": "SPG2_1",
@@ -106,5 +106,17 @@
  {
   "nome": "MPR3_R2",
   "testo": "Come si arriva alla fine dell'Unione Sovietica? Ecco la mappa. Michail Gorbačëv, millenovecentottantacinque, introduce riforme basate su trasparenza e ristrutturazione. Riconosce l'autonomia dei paesi dell'Est europeo, dove il socialismo cade nel millenovecentottantanove e viene aperto il muro di Berlino, il nove novembre millenovecentottantanove. Subisce un tentativo di colpo di Stato, nel millenovecentonovantuno, e la separazione di molti Stati dell'Unione, fino alla dissoluzione dell'Unione Sovietica, a dicembre del millenovecentonovantuno."
+ },
+ {
+  "nome": "DCP1",
+  "testo": "Di cosa parliamo in questa prima parte. Primo: la crisi economica degli anni Settanta. Secondo: le tensioni e gli accordi in Medio Oriente. Terzo: la rivoluzione in Iran e la guerra con l'Iraq."
+ },
+ {
+  "nome": "DCP2",
+  "testo": "Di cosa parliamo in questa seconda parte. Primo: gli Stati Uniti da Nixon a Reagan. Secondo: le dittature in America Latina."
+ },
+ {
+  "nome": "DCP3",
+  "testo": "Di cosa parliamo in questa terza parte. Primo: l'Europa occidentale tra crisi e integrazione. Secondo: il crollo dell'Unione Sovietica. Terzo: la svolta della Cina."
  }
 ]
