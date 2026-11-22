@@ -64,9 +64,13 @@
   {
    "quando": "22/11 18:15",
    "testo": "120min: controllo severo = RESPINTA (7 'card sola': le card attenuate non si leggono con OCR; 15 'pause>2,5s': code mute di T/Q/mappa/verifica/compiti). Correzioni in corso: card attenuate piu' leggibili, suono nelle code mute. Rirendering ~25 min + nuovo controllo severo ~20 min. Consegna prevista 19:20 UTC"
+  },
+  {
+   "quando": "22/11 18:50",
+   "testo": "150min: 2o controllo severo: resta 1 errore (numerazione card 3-4 su una slide) e trovato disallineamento audio dei pezzi non-prof: corretti, rimontaggio D6 + audio in corso (~10 min), poi 3o controllo severo (~15 min). Consegna prevista 19:25 UTC"
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "17",
- "aggiornato": "2026-11-22 18:15:06"
+ "aggiornato": "2026-11-22 18:50:01"
 }
