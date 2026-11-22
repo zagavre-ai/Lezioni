@@ -1,15 +1,15 @@
 [
  {
-  "nome": "P1_BENVENUTO_V2",
-  "testo": "Benvenuti alla lezione Preparazione, di Tecnologie dei materiali e dei processi produttivi e organizzativi della moda, con la Professoressa Piera Caputi. Parleremo di classificazione generale delle fibre tessili e approfondiremo le caratteristiche, l'origine e i processi di lavorazione delle fibre naturali di origine animale: lana e seta. In questa prima parte vedremo: che cos'è una fibra tessile e come si classifica; le proprietà delle fibre tessili; il mercato delle fibre e come si sporcano; la lana di pecora: dalla tosatura alla struttura della fibra."
+  "nome": "P1_BENVENUTO_V3",
+  "testo": "Benvenuti alla lezione Preparazione, di Tecnologie dei materiali e dei processi produttivi e organizzativi della moda. Parleremo di classificazione generale delle fibre tessili e approfondiremo le caratteristiche, l'origine e i processi di lavorazione delle fibre naturali di origine animale: lana e seta. In questa prima parte vedremo: che cos'è una fibra tessile e come si classifica; le proprietà delle fibre tessili; il mercato delle fibre e come si sporcano; la lana di pecora: dalla tosatura alla struttura della fibra."
  },
  {
   "nome": "P1_CHIUSURA_V2",
   "testo": "Fine della prima parte. Nella seconda parte vedremo la qualità e il valore commerciale della lana, i suoi trattamenti e i suoi pregi, e le lane e i peli speciali."
  },
  {
-  "nome": "P2_BENVENUTO",
-  "testo": "Benvenuti alla seconda parte della lezione Preparazione, di Tecnologie dei materiali e dei processi produttivi e organizzativi della moda, con la Professoressa Piera Caputi. In questa parte vedremo: qualità e valore commerciale della lana; i trattamenti chimici e meccanici della lana; i pregi della lana e come si lavora; lane e peli speciali."
+  "nome": "P2_BENVENUTO_V3",
+  "testo": "Benvenuti alla seconda parte della lezione Preparazione, di Tecnologie dei materiali e dei processi produttivi e organizzativi della moda. In questa parte vedremo: qualità e valore commerciale della lana; i trattamenti chimici e meccanici della lana; i pregi della lana e come si lavora; lane e peli speciali."
  },
  {
   "nome": "P2_RIPASSO_V2",
@@ -20,8 +20,8 @@
   "testo": "Fine della seconda parte. Nella terza parte parleremo della seta, e poi faremo la verifica finale."
  },
  {
-  "nome": "P3_BENVENUTO",
-  "testo": "Benvenuti alla terza parte della lezione Preparazione, di Tecnologie dei materiali e dei processi produttivi e organizzativi della moda, con la Professoressa Piera Caputi. In questa parte vedremo: la seta: dal baco al filo; la seta: trattamenti, proprietà e cura. Alla fine, il glossario, il ripasso, la mappa della lezione e la verifica finale."
+  "nome": "P3_BENVENUTO_V3",
+  "testo": "Benvenuti alla terza parte della lezione Preparazione, di Tecnologie dei materiali e dei processi produttivi e organizzativi della moda. In questa parte vedremo: la seta: dal baco al filo; la seta: trattamenti, proprietà e cura. Alla fine, il glossario, il ripasso, la mappa della lezione e la verifica finale."
  },
  {
   "nome": "P3_RIPASSO_V2",
@@ -750,13 +750,5 @@
  {
   "nome": "P2_CHIUSURA",
   "testo": "Per oggi è tutto. Buon lavoro!"
- },
- {
-  "nome": "A01_APPROF_R2",
-  "testo": "Sai perché alcune fibre si chiamano man-made? Perché sono fibre chimiche, prodotte tramite l'intervento dell'uomo su una materia prima. Ma prima chiediamoci: che cos'è una fibra tessile? È un elemento di base di forma allungata, flessibile e sottile, che si presta a essere filato. Il Regolamento U E, cioè Unione Europea, numero mille e sette del duemilaundici, la definisce con tre parole chiave: flessibilità, finezza e un elevato rapporto tra la lunghezza e la dimensione trasversale massima. Le fibre naturali arrivano direttamente dal mondo naturale, senza modifiche da parte dell'uomo. Quelle chimiche si dividono in artificiali, che partono da prodotti già esistenti in natura, e sintetiche, che nascono dall'unione di elementi chimici semplici. Per unire i pregi delle varie fibre esistono infine le fibre in mischia."
- },
- {
-  "nome": "P2_CHIUSURA_V2_R2",
-  "testo": "Fine della seconda parte. Nella terza parte parleremo della seta, e poi faremo la verifica finale."
  }
 ]
