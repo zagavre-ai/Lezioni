@@ -3,7 +3,7 @@
 Regola: **misurato** = misurato con uno strumento; **stima** = dedotto; **non verificato** = non ho potuto.
 
 ## 1. Esito del controllo severo e misure sul video nuovo
-**Controllo severo (`controllo_severo.py`, passo 45 s): esito DA COMPLETARE.** Errori: nessuno.
+**Controllo severo (`controllo_severo.py`, passo 45 s): esito NON CONCLUSO alla scadenza delle 19:30 UTC (lanciato alle 18:46 UTC, ancora in esecuzione: tesseract su 4 thread molto lento con la macchina carica). Lo rilancio e aggiorno il rapporto appena finisce; la master può rilanciarlo con `controllo_severo.py`.** 
 | Controllo | Risultato |
 |---|---|
 | Formato | 1920×1080, 30 fps, x264 veryfast CRF 19, AAC 192k 48 kHz (**misurato**) |
@@ -14,7 +14,7 @@ Regola: **misurato** = misurato con uno strumento; **stima** = dedotto; **non ve
 | Jingle Quiz | `controllo_jingle.py`: scatto a 0,0 s in 5 schede su 5 (scarti +0.002, +0.003, +0.002, +0.004, +0.003 s) (**misurato**) |
 | Sincronia prof (labbra/voce) | correlazione con l'originale in 3 634 finestre da 2 s: scarto massimo **0,022 s** (limite 0,04 s); una sola finestra agganciata altrove (falso aggancio in una pausa del pezzo D3) (**misurato**) |
 | Fermi immagine del prof | `freezedetect` sul riquadro, soglia 0,5 s: nessun fermo ≥ 1 s nei pezzi del prof (un solo fermo di 0,5 s) (**misurato**) |
-| Sottotitoli | 752 cue, max 2 righe, nessuna sovrapposizione; sincronia: su 143 cue verificabili (trascrizione del video nuovo), scarto mediano 0.02 s; entro 0,3 s il 97%, entro 1 s il 100% (**misurato**) |
+| Sottotitoli | 752 cue, max 2 righe, nessuna sovrapposizione; sincronia: **non rimisurata sul video finale** (la trascrizione di controllo del video nuovo non era finita alla scadenza); i tempi dei sottotitoli vengono dalla trascrizione parola per parola e dalla timeline del video finale. **Non verificato** |
 | Testo delle card | 40 px (mai sotto), interlinea 1,5, **al massimo 3 card per slide**, ogni card è una frase intera (`Etichetta: frase`); nessuna slide ferma oltre 3 min |
 | PDF | `…_slide.pdf` 98 pagine A4 orizzontale (copertina + 97 slide, a 40 px, testo reale selezionabile); `…_mappe.pdf` 2 pagine (copertina «MAPPE» + mappa) |
 
@@ -76,7 +76,7 @@ Zip `Lez06_ingrandita.zip`: pagine 202 (Languore) e 206 (Vocali). Una fettina pe
 - **Strato di testo invisibile nelle fettine del libro:** nei PDF le card, i titoli e la mappa sono testo reale selezionabile; le fettine delle pagine 202 e 206 sono immagini senza testo selezionabile. **Non fatto.**
 - **Pronuncia dei nomi stranieri:** Verlaine, Baudelaire, Rimbaud, Huysmans, Mallarmé, Corbière sono scritti nella loro lingua a schermo e nei sottotitoli; nella voce sono scritti come si pronunciano (Verlèn, Bodlèr, Rembò). Non ho potuto ascoltarli.
 - **Ordine del prof:** il riordino degli argomenti è una scelta mia per rispettare «niente già visto»; la master/Sara decidono se preferiscono l'ordine originale con le slide ripetute.
-- **Controllo severo:** DA COMPLETARE; l'agente separato di controllo: vedi §6.
+- **Controllo severo:** NON CONCLUSO alla scadenza delle 19:30 UTC (lanciato alle 18:46 UTC, ancora in esecuzione: tesseract su 4 thread molto lento con la macchina carica). Lo rilancio e aggiorno il rapporto appena finisce; la master può rilanciarlo con `controllo_severo.py`; l'agente separato di controllo: vedi §6.
 - **Sottotitoli da riascoltare:** 7:55 «il manifesto delle tendenze decadenti…» (inizio frase non trascritto); 15:10 «già usato dagli Scapigliati»; 16:58 «si dice che facciano qualcosa»; 24:32 frase di 1 s tolta; 30:47 «perché Languore è dell'83»; 32:48 «prima la U e poi la O»; 35:42 «il blu della suprema tromba»; 35:55 «dai mondi e dagli angeli»; 36:44 «Questo è chiaro». I minuti sono quelli del video precedente (±3 min dopo il riordino).
 - **Testa nel riquadro:** webcam 246×138 px, ritaglio 4:3 di 184×138 ingrandito 2,24×; i capelli toccano il bordo alto già nella ripresa. Non risolvibile.
 - **Refusi:** nelle slide del prof ho solo uniformato la maiuscola iniziale e le virgolette («»); nessun refuso di ortografia trovato. Nessun dato che non torna (1872, 1883, 1884 coerenti).
