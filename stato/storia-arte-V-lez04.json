@@ -21,10 +21,14 @@
   {
    "quando": "22/11 23:08",
    "testo": "storia arte 22/11 23:10: letta DALLA_MASTER (slide vere = SLIDE/LEZIONE 4.pdf, gia' scaricato, 25 pag; sigla Storia_arte presa da main; voce COMPITI da aggiungere). Trascrizione a 45/79 min. Prossimo: tagli e Parti, testi_voci.json con COMPITI e spiegone Parte 2."
+  },
+  {
+   "quando": "22/11 23:24",
+   "testo": "storia arte 22/11 23:30: la trascrizione si era interrotta a 45/79 min; rilanciata (~10 min). Poi tagli, Parti e testi_voci.json con COMPITI. Nessuna attesa a ciclo: riprendo a trascrizione finita."
   }
  ],
  "materia": "Storia dell'arte V",
  "lezione": "Lezione 4 · L'Impressionismo",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-22 23:08:06"
+ "aggiornato": "2026-11-22 23:24:45"
 }
