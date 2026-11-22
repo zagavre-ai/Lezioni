@@ -29,6 +29,10 @@
   {
    "quando": "22/11 17:01",
    "testo": "lez09: aggiunte voci R18, R19, R20 (benvenuto P1 senza nome docente, argomenti P2, apertura spiegone P2) oltre a R15-R17: tutte su voci-letteratura-V-lez09, servono entro 19:00 UTC"
+  },
+  {
+   "quando": "22/11 18:37",
+   "testo": "Rischio ritardo: restano ~50 min; consegno comunque entro 19:30 UTC con i limiti nel rapporto"
   }
  ],
  "domande_sara": [],
@@ -88,7 +92,11 @@
   {
    "quando": "22/11 17:41",
    "testo": "correzioni 22/11: P1 segmenti 32/ok, P2 19; poi audio, mux, controllo severo. Consegna prevista 19:15 UTC (20:15 It)"
+  },
+  {
+   "quando": "22/11 18:37",
+   "testo": "correzioni 22/11: video assemblati; controllo severo prima prova RESPINTA (copertina P1 202s, pause quiz/titoli); correggo copertina e nome nel piede; consegna prevista 19:25 UTC"
   }
  ],
- "aggiornato": "2026-11-22 17:41:51"
+ "aggiornato": "2026-11-22 18:37:14"
 }
