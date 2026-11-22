@@ -2,18 +2,18 @@
  "tag": "letteratura-V-lez16",
  "parti": {
   "1": {
-   "stato": "IN_REVISIONE",
+   "stato": "REVISIONATA",
    "titolo": "Umberto Saba",
    "voci": "kore",
    "quiz_ok": "si",
    "fermi_ok": "si",
    "sub_ok": "no",
    "video": "Letteratura_Lez16_Parte1_1080p.mp4",
-   "durata_s": 3311.7,
-   "durata": "55:11.7",
-   "fotogrammi": 99351,
-   "fotogrammi_attesi": 99351,
-   "peso_MB": 205.9,
+   "durata_s": 3238.4,
+   "durata": "53:58.4",
+   "fotogrammi": 97152,
+   "fotogrammi_attesi": 97152,
+   "peso_MB": 199.7,
    "vtt": "Letteratura_Lez16_Parte1.vtt",
    "scheda": {
     "materia": "Letteratura italiana (V)",
@@ -422,10 +422,14 @@
   {
    "quando": "22/11 19:06",
    "testo": "19:10 UTC. Controllo indipendente fatto: corretti schede finali (nome prof nel piè), mappa in 4 schermate, card sola, etichette; ricodifico (chain in corso, ~12 min). Consegna 19:30."
+  },
+  {
+   "quando": "22/11 19:43",
+   "testo": "correzioni 22/11 fatte (consegna alle 19:45 UTC, 15 minuti dopo la scadenza). Durata 53:58,4, 97152 fotogrammi, 199,7 MB. Quiz a 904,2 / 1599,07 / 2671,23 / 2938,47 s (jingle a 0,0 s). Controllo severo con OCR NON completato; controllo fatto da un agente separato, difetti residui elencati nel rapporto (transizioni tra approfondimenti, silenzi 2,6-2,9 s, titolo T6 nelle fettine del video, testo mappe 3 e 4 sotto 34 px, voci non ascoltate)."
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 16 · Umberto Saba",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-22 19:06:20"
+ "aggiornato": "2026-11-22 19:43:38"
 }
