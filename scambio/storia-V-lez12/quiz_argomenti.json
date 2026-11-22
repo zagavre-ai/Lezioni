@@ -1,0 +1,284 @@
+{
+ "1": [
+  {
+   "domanda": "Che cosa nasce nel 1931 con lo Statuto di Westminster?",
+   "corretta": "Il Commonwealth",
+   "sbagliate": [
+    "L'Estado Novo",
+    "Il Fronte Popolare",
+    "La British Union of Fascists"
+   ]
+  },
+  {
+   "domanda": "Che cosa fonda Oswald Mosley?",
+   "corretta": "La British Union of Fascists",
+   "sbagliate": [
+    "Il Commonwealth",
+    "La Croix de Feu",
+    "Il Guomindang"
+   ]
+  },
+  {
+   "domanda": "Quale divieto limita i movimenti fascisti inglesi nel 1936?",
+   "corretta": "Indossare uniformi politiche",
+   "sbagliate": [
+    "Fondare partiti",
+    "Votare alle elezioni",
+    "Parlare in pubblico"
+   ]
+  },
+  {
+   "domanda": "Chi guida il Fronte Popolare vincitore delle elezioni del 1936 in Francia?",
+   "corretta": "Léon Blum",
+   "sbagliate": [
+    "Ramsay MacDonald",
+    "Oswald Mosley",
+    "Neville Chamberlain"
+   ]
+  },
+  {
+   "domanda": "Quali riforme introduce il Fronte Popolare?",
+   "corretta": "Settimana di 40 ore e ferie retribuite",
+   "sbagliate": [
+    "Nazionalizzazione delle banche",
+    "Abolizione dei sindacati",
+    "Dittatura militare"
+   ]
+  }
+ ],
+ "2": [
+  {
+   "domanda": "Chi instaura un regime autoritario in Polonia nel 1926?",
+   "corretta": "Józef Piłsudski",
+   "sbagliate": [
+    "Miklós Horthy",
+    "Metaxas",
+    "Salazar"
+   ]
+  },
+  {
+   "domanda": "In quale Paese Salazar avvia l'Estado Novo?",
+   "corretta": "Portogallo",
+   "sbagliate": [
+    "Spagna",
+    "Grecia",
+    "Romania"
+   ]
+  },
+  {
+   "domanda": "Chi governa il Brasile con un regime populista?",
+   "corretta": "Getúlio Vargas",
+   "sbagliate": [
+    "Francisco Franco",
+    "Pu Yi",
+    "Béla Kun"
+   ]
+  },
+  {
+   "domanda": "Quale ammiraglio instaura una dittatura in Ungheria?",
+   "corretta": "Miklós Horthy",
+   "sbagliate": [
+    "Józef Piłsudski",
+    "Carlo II",
+    "Alessandro I"
+   ]
+  },
+  {
+   "domanda": "Quale regime si afferma in Giappone?",
+   "corretta": "Autoritario e militarista",
+   "sbagliate": [
+    "Repubblicano e pacifista",
+    "Comunista",
+    "Populista"
+   ]
+  }
+ ],
+ "3": [
+  {
+   "domanda": "Quale regione cinese occupa il Giappone nel 1931?",
+   "corretta": "La Manciuria",
+   "sbagliate": [
+    "Lo Shaanxi",
+    "Shanghai",
+    "Pechino"
+   ]
+  },
+  {
+   "domanda": "Come si chiama lo Stato fantoccio creato dal Giappone?",
+   "corretta": "Manchukuo",
+   "sbagliate": [
+    "Guomindang",
+    "Shaanxi",
+    "Qing"
+   ]
+  },
+  {
+   "domanda": "Chi guida lo Stato fantoccio del Manchukuo?",
+   "corretta": "Pu Yi, ultimo imperatore Qing",
+   "sbagliate": [
+    "Chiang Kai-shek",
+    "Mao Zedong",
+    "Hirohito"
+   ]
+  },
+  {
+   "domanda": "Quali sono le due forze della guerra civile cinese?",
+   "corretta": "Nazionalisti del Guomindang e comunisti",
+   "sbagliate": [
+    "Monarchici e repubblicani",
+    "Giapponesi e russi",
+    "Fascisti e socialisti"
+   ]
+  },
+  {
+   "domanda": "Quanti chilometri è lunga la Lunga marcia?",
+   "corretta": "10.000",
+   "sbagliate": [
+    "1.000",
+    "100",
+    "50.000"
+   ]
+  }
+ ],
+ "4": [
+  {
+   "domanda": "Quando nasce la Repubblica in Spagna?",
+   "corretta": "Nel 1931",
+   "sbagliate": [
+    "Nel 1919",
+    "Nel 1939",
+    "Nel 1926"
+   ]
+  },
+  {
+   "domanda": "Chi guida il colpo di Stato militare del luglio 1936?",
+   "corretta": "Francisco Franco",
+   "sbagliate": [
+    "Léon Blum",
+    "Józef Piłsudski",
+    "Getúlio Vargas"
+   ]
+  },
+  {
+   "domanda": "Quale città è bombardata nel 1937?",
+   "corretta": "Guernica",
+   "sbagliate": [
+    "Madrid",
+    "Barcellona",
+    "Praga"
+   ]
+  },
+  {
+   "domanda": "Quale scelta fanno Francia e Gran Bretagna?",
+   "corretta": "Il non intervento",
+   "sbagliate": [
+    "L'aiuto a Franco",
+    "L'aiuto alla Repubblica",
+    "L'invasione della Spagna"
+   ]
+  },
+  {
+   "domanda": "Come si chiamano i volontari antifascisti per la Repubblica?",
+   "corretta": "Brigate internazionali",
+   "sbagliate": [
+    "Camicie Nere",
+    "Falange",
+    "Guomindang"
+   ]
+  }
+ ],
+ "5": [
+  {
+   "domanda": "Quale accordo Hitler decide di smantellare?",
+   "corretta": "Il trattato di Versailles",
+   "sbagliate": [
+    "Il Patto d'acciaio",
+    "Il Commonwealth",
+    "Lo Statuto di Westminster"
+   ]
+  },
+  {
+   "domanda": "Che cosa abbandona la Germania dopo il 1933?",
+   "corretta": "La Società delle Nazioni",
+   "sbagliate": [
+    "Il Reich",
+    "Il Patto d'acciaio",
+    "La Renania"
+   ]
+  },
+  {
+   "domanda": "Che cosa reintroduce la Germania nel 1935?",
+   "corretta": "La coscrizione obbligatoria",
+   "sbagliate": [
+    "La monarchia",
+    "La Società delle Nazioni",
+    "Il Commonwealth"
+   ]
+  },
+  {
+   "domanda": "Che cosa fa la Germania nel 1936 in Renania?",
+   "corretta": "La militarizza",
+   "sbagliate": [
+    "La cede",
+    "La vende",
+    "La abbandona"
+   ]
+  },
+  {
+   "domanda": "A quale Paese si lega progressivamente Hitler?",
+   "corretta": "All'Italia fascista di Mussolini",
+   "sbagliate": [
+    "Alla Francia",
+    "Al Regno Unito",
+    "Alla Spagna repubblicana"
+   ]
+  }
+ ],
+ "6": [
+  {
+   "domanda": "Che cos'è l'Appeasement?",
+   "corretta": "Non opporsi con la forza a Hitler per salvare la pace",
+   "sbagliate": [
+    "Un'alleanza militare con Hitler",
+    "Un attacco preventivo alla Germania",
+    "Un blocco economico della Germania"
+   ]
+  },
+  {
+   "domanda": "Che cosa succede nel marzo 1938?",
+   "corretta": "L'Anschluss: la Germania occupa l'Austria",
+   "sbagliate": [
+    "Cade Barcellona",
+    "Nasce il Commonwealth",
+    "Si firma il Patto d'acciaio"
+   ]
+  },
+  {
+   "domanda": "Quale regione rivendica Hitler a Monaco nel 1938?",
+   "corretta": "I Sudeti",
+   "sbagliate": [
+    "La Renania",
+    "Danzica",
+    "Lo Shaanxi"
+   ]
+  },
+  {
+   "domanda": "Quale città occupa Hitler nel marzo 1939?",
+   "corretta": "Praga",
+   "sbagliate": [
+    "Vienna",
+    "Parigi",
+    "Varsavia"
+   ]
+  },
+  {
+   "domanda": "Quando viene firmato il Patto Molotov-Ribbentrop?",
+   "corretta": "Il 23 agosto 1939",
+   "sbagliate": [
+    "Il 14 aprile 1931",
+    "Nel marzo 1938",
+    "Nel maggio 1939"
+   ]
+  }
+ ]
+}
