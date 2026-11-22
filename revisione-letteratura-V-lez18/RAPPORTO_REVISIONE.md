@@ -1,121 +1,84 @@
 # RAPPORTO REVISIONE · Letteratura italiana V · Lezione 18 · Eugenio Montale
-Revisione del 17/11/2026. Video corretto: `Letteratura_Lez18_Parte1_1080p.mp4` (a pezzi `.parte_NN`, sha256 nel file `.sha256`).
-Etichette: **misurato** = misurato con uno strumento; **stima** = dedotto; **non verificato** = non potuto verificare.
+**Correzioni del 22/11/2026** (secondo giro, sopra la consegna del 17/11). Video: `Letteratura_Lez18_Parte1_1080p.mp4` (a pezzi `.parte_NN`, sha256 nel file `.sha256`).
+Etichette: **misurato** = con uno strumento; **stima** = dedotto; **non verificato** = non potuto.
 
-## 1. Misure sul video nuovo
+## 1. Cosa ho cambiato in questo giro
+| Punto | Prima (17/11) | Ora (22/11) |
+|---|---|---|
+| Testo delle card | 30 px, 3 card lunghe per slide | **40 px**, interlinea 1,5, **al massimo 3 card intere** per slide (di solito 2); ogni card è una frase/paragrafo intero del prof, mai «…»; l'ultima card non sta mai sola se c'è la precedente |
+| Mappe | 7 inserti con mappa spezzettata + mappa del prof in 1 pagina piccola | **una sola mappa, quella del prof**, in **3 schermate** BES (vita / poetica / opere), testo 34–54 px, legenda in ogni schermata, costruita **ramo per ramo** con una voce Kore (riquadro in giallo finché la voce parla) e ferma 4 s a fine ramo; messa **una volta sola**, prima del glossario (decisione master 22/11: niente mappa intera rimpicciolita). Ridisegnata senza il marchio mappe-scuola.com e senza le due foto |
+| Colori mappa | arancio/verde del sito | pesca = concetto centrale; celeste = date e sequenze; paglierino = parole chiave; menta = esempi e opere; lilla = conseguenze |
+| Introduzione | copertina con voce, poi il prof | copertina con voce di benvenuto **senza riquadro del prof**, slide «Di cosa parliamo» con le 6 card che si accendono quando la voce nomina l'argomento, poi il prof sopra la copertina (**69,5 s**, < 3 min) |
+| Pause del prof > 2,5 s | 6 pause da 2,5 a 4,3 s | accorciate a ~1 s (tagli solo fra due frasi): 347,8; 560,0; 625,8; 769,3; 1011,1; 1215,9 s dell'originale (−13,0 s in tutto) |
+| «Già visto» | la slide «Satura» tornava nell'argomento 6 | ogni slide del prof compare in **un solo argomento**: «La storia» (orig. 27:49) si vede sulla slide dell'argomento 6 |
+| Piè di pagina / nome del prof | «…· Prof. Giorgio Mazzotti» | solo «LETTERATURA ITALIANA V» e «Pagina N» (il nome compare solo nella fascia gialla) |
+| Dispensa | slide su A4 con piè col nome | **110 pagine** A4 orizzontale = ogni slide del video senza riquadro e fascia; testo vero selezionabile; copertina solo materia e titolo; PDF mappe a parte con copertina «MAPPE» |
+| Durata | 53:39,5 | 50:31,1: ≥ 50 min non richiesto per lezioni con solo materiale del prof (regola 3.6); i secondi dei quiz cambiano (§5) |
+
+## 2. Esito del controllo severo (`controllo_severo.py`)
+**Il `controllo_severo.py` NON è arrivato a esito su questa versione finale**: sulla versione precedente ha girato oltre 40 minuti (tesseract su 600 fotogrammi) senza finire e l'ho interrotto alla scadenza; **esito non ottenuto, non OK**. Al suo posto ho fatto fare a un **agente indipendente** la lista del §11 (misure sul video e sul PDF). Difetti che ha trovato e che **ho corretto** in questa versione: taglio di D0 a metà frase («…beh…» ora la frase è intera); 4 card accese in ritardo (Il correlativo oggettivo, Il testo di *Spesso il male*, L'angoscia della memoria, Il rifiuto delle ideologie); refusi nei sottotitoli (virandello, Vieux, Mollussi, redità, scapro, buffere d'altro, diallettali, Exenia, viggente); volume del prof (era a −14…−15 LUFS, ora −16,1 in tutto) e delle voci (−17…−18, alzate); bordi della voce della mappa (dissolvenze di 30 ms); testo della mappa (ora 38–54 px, prima 30–36); riquadri della mappa in anticipo sulla voce; copertina della dispensa (solo materia e titolo); schede VER/CI1/COMP/FIN1 senza suono (ora `trans.wav`) e CI1 accorciata a 3,6 s.
+**Difetti dell'agente NON corretti (decide la master):**
+1. Residuo del prof sul montaggio a 9:01–9:10 («Ripetiamo le slide… per costruire montaggio… Vabbè»): taglio in mezzo al parlato, non fatto per non toccare le parole del prof senza decisione.
+2. Tratti di 78–118 s del prof senza card accesa (2:02–3:40, 7:19–9:09, 19:37–21:35, 42:06–43:25: il prof parla in generale) e 5 tratti con una sola card accesa oltre 60 s (la slide ha 2–3 card visibili). Nessuna schermata supera i 3 minuti.
+3. Schede titolo, quiz, ripasso, fine, verifica, compiti su fondo bianco: l'agente ricorda che §4 le vuole in blu scuro animato; non rifatte.
+4. VER→SFIN e SFIN→CI1: tagli secchi bianco/nero (la sigla finale è il file del kit).
+5. Pagine PDF con le poesie: testo solo come immagine (sono le scansioni del libro).
+6. Quiz: la scheda_pubblicazione ha il titolo con «Lezione 18» (titolo standard richiesto dalle regole di consegna).
+7. Pause tra i rami della mappa: 4 s di fermo a fine di ogni schermata (misurato dall'agente); la pausa vocale fra rami è breve.
+8. Font monospazio nella sigla del kit («[ANALISI TESTUALE]»).
+
+## 3. Misure sul video finale
 | Controllo | Risultato |
 |---|---|
-| Formato | 1920×1080, 30 fps, x264 veryfast (CRF 19; tratti col prof CRF 22), AAC 192k 48 kHz (**misurato**) |
-| Durata / fotogrammi | 53:39,5 · **96 585** fotogrammi = durata × 30 = **identici al video vecchio** (**misurato**) |
-| Peso | 163,4 MB, 2 parti da ≤ 90 MB, sha256 verificato sulla ricomposizione (**misurato**) |
-| Volume | −16,4 LUFS integrato, LRA 6,5 LU; picco campioni −2,2 dBFS (**misurato**). Il true peak non l'ho letto separatamente (**non verificato**; con il picco a −2,2 dBFS è molto probabilmente ≤ −1 dBTP). Prima della correzione era −15,0 LUFS e −0,9 dBFS: abbassato di 1,4 dB |
-| Jingle dei quiz (`controllo_jingle.py`) | Q1…Q6: scarto **0,000 s** (OK, **misurato**); prima della correzione −0,16…−0,21 s (spostato) |
-| Sincronia labbra/voce | audio del video contro originale, 5 punti per pezzo del prof, D0…D6: scarto **−0,015 s** in tutti (≤ 0,04, **misurato**; video e audio vengono dallo stesso file originale) |
-| Fermi immagine del prof | `freezedetect` (n=−55 dB, d=1 s) sul riquadro, tutto il video: 79 tratti fermi, **nessuno dentro un pezzo del prof** (gli unici due che sfiorano D0 e D2 sono i cartelli senza prof, a 15:00–45:00 s e 478–483 s: sovrapposizione 0,0 s). Il riquadro compare solo con video vivo: la copertina durante la voce di benvenuto non ha riquadro (**misurato**) |
-| PDF | slide: **74 pagine** A4 orizzontale (una per slide del video; numerazione = «Pagina N» del video); mappe: 1 pagina |
-| Confronto PDF/video | pagine = slide del video senza riquadro e fascia (stessi file HTML): confronto fatto su 12 pagine a vista; non su tutte (**non verificato**) |
+| Formato | 1920×1080, 30 fps, x264 veryfast, AAC 192k 48 kHz; **50:31,1**, **90 934** fotogrammi = durata × 30; 159,4 MB in 2 parti ≤ 90 MB, sha256 verificato (**misurato**) |
+| Volume | **−16,1 LUFS** integrato (LRA 5,9), true peak **−1,2 dBTP** (**misurato**) |
+| Jingle quiz (`controllo_jingle.py`) | Q1…Q6 scarto **0,000 s** OK (**misurato**) |
+| Sincronia labbra/voce | audio contro originale, D0…D6: scarto **−0,015 s** (≤ 0,04; **misurato**); il video del prof è tagliato con la stessa mappa delle pause (un primo montaggio perdeva 1 fotogramma per taglio: **trovato e corretto**, differenza fotogramma/originale a 0 nei 3 punti controllati) |
+| Fermi immagine del prof | `freezedetect` (versione precedente dello stesso montaggio): nessuno dentro i pezzi del prof (**misurato**); riquadro assente da copertina con voce e da «Di cosa parliamo» |
+| PDF | slide **110 pagine** A4 orizzontale = slide del video (copertina senza card ARGOMENTI); mappe: copertina «MAPPE» + 3 schermate (**misurato**) |
 
-## 2. Confronto col modello Spagnolo (punto 000)
-| # | Punto | Esito |
-|---|---|---|
-| 1 | Sigla 15 s → dissolvenza morbida → copertina | **OK**: sigla del kit, dissolvenza di 1 s sulla copertina (misurato a vista su 3 fotogrammi) |
-| 2 | Copertina (logo, «LETTERATURA ITALIANA V · VIDEOLEZIONE», titolo, card ARGOMENTI su 2 colonne) | **corretto** (era sfondo blu scuro) |
-| 3 | Slide: fondo bianco, «01 · ARGOMENTO», titolo + barretta, card | **corretto** (era pannello laterale blu e «ARGOMENTO 1 · LA VITA») |
-| 4 | Piè di pagina «LETTERATURA ITALIANA V · Prof. Giorgio Mazzotti» + «Pagina N» | **corretto**; 74 pagine, numerazione uguale al PDF slide |
-| 5 | Riquadro 4:3 (412×310 a x=1428, y=148, r=18), ombra grigia morbida, niente bordo | **corretto** |
-| 6 | Fascia gialla −3°, due righe, sempre visibile col prof | **corretto**; assente quando il prof non parla (copertina con la voce, schede) |
-| 7 | Slide senza prof | **corretto**: approfondimenti, mappe, ripassi, glossario, riepilogo, quiz, verifica, compiti, finale |
-| 8 | Font Bricolage 800 / Figtree (etichette e piè in Figtree Bold) | **OK** (controllo a vista; nessun DM Mono) |
-| 9 | Finale 5 s con avviso diritti | **OK** (`Sigla_finale_5s_con_avviso_diritti.mp4`, a 53:21,5) |
-| 10 | Struttura | **OK**: sigla, presentazione, 6 argomenti (titolo, prof, approfondimenti, mappa, ripasso, quiz), mappa finale, glossario, riepilogo, fine, verifica, compiti |
-| 11 | PDF slide + mappe | consegnati: slide **74 pagine** A4 orizzontale; mappe **1 pagina** |
-Aggiornamenti 17/11 (01:20–08:15): card in corso con bordo giallo sottile e pallino giallo numerato, ombre grigie morbide; jingle (`quiz.wav` ai quiz, `titolo.wav` ai titoli, `repaso.wav` ai ripassi, `trans.wav` ai passaggi); dissolvenze brevi tra i pezzi; riquadro del prof solo con video vivo.
-
-## 3. Problemi trovati e correzioni (minuti sul video VECCHIO → NUOVO)
-| Minuto | Tipo | Com'era | Correzione |
-|---|---|---|---|
-| 28:27–31:44, 34:30–41:24 | **sincronia (grave)** | I pezzi del prof erano sfasati rispetto agli argomenti: la spiegazione di *Spesso il male di vivere* (orig. 16:52–20:09, argomento 3) stava dopo il quiz 3 e sotto la slide «Le occasioni»; *Le occasioni* e *La bufera* stavano sotto «La bufera e altro e Satura» | piano rifatto sulle pause del prof: arg. 3 = orig. 8:07–20:10, arg. 4 = 20:10–22:41, arg. 5 = 22:41–25:12, arg. 6 = 25:12–29:25. **I quiz 3, 4, 5 cambiano secondo (tabella §6).** Durata totale invariata (3219,5 s, 96 585 fotogrammi) |
-| tutto | **pagina** | nessuna pagina del libro nel video, ma il prof legge 4 testi | 17 fettine dagli screen HD (§4) |
-| 6:24, 16:21, 21:00, 33:06, 41:01, 48:59, 50:22 | **visivo** | 7 «mappe» inventate da noi (non del prof) | mappa del prof (1 sola) nella nostra grafica, stesso testo (tolti logo mappe-scuola.com e 2 foto); 7 inserti con voce nuova `R1…R6, RF`, che leggono la mappa del prof + ricordano le slide |
-| 38:49–38:51 / 42:35 | audio | frase ripetuta «…con tanto di testo/testi» (sovrapposizione di 1,8 s) | taglio su una pausa |
-| 12:02 / 15:22 | audio | pezzo finito a metà parola «vog|liamo» | tagli solo su pause ≥ 0,2 s (misurate) |
-| orig. 1:12 | audio | pezzo del prof finito a metà frase («Direi che» | «Questa è appunto una sua fotografia…») | taglio spostato prima di «Direi che»: ora la frase è intera (D1 inizia a 1:12) |
-| tutto | visivo | grafica fuori dal modello (fondo scuro, riquadro con bordo blu, niente fascia gialla) | tutto rifatto (punto 000) |
-| tutto | sincronia | evidenziazioni scelte a occhio | rifatte dalle parole del prof e dalla voce (trascrizione) |
-| copertina | visivo | riquadro del prof fermo durante la voce di benvenuto | copertina senza riquadro durante la voce; riquadro in dissolvenza quando il prof parla |
-| audio | audio | parlato del prof non pulito col kit | rifatto dall'originale: `aresample 48000, highpass 80, arnndn (sh.rnnn), loudnorm −16, alimiter` |
-| ripassi | audio | senza jingle | `repaso.wav` a ogni ripasso; `trans.wav` ai passaggi |
-| vtt | testo | ~50 errori («solo è disclusivamente», «alletterrature», «poesino», «delignato», poesie lette male…) | riscritto dalla trascrizione, nomi e poesie dal libro |
-| Q4 domanda 2 | testo | «clima del dopoguerra e degli anni Trenta» (errore anche nella slide del prof) | «Gli anni Trenta, con la minaccia del fascismo e dei totalitarismi» (dalla voce del prof) |
-| scheda | testo | titolo «Eugenio Montale · Parte 1» | «Letteratura V · Lezione 18 · Eugenio Montale» |
-| consegna | file | mancavano `verifica_finale`, `…_slide.pdf`; il «Test» era il modello vuoto; PDF mappe con 7 mappe inventate | prodotti |
-
-## 4. Pagine del libro in alta risoluzione (B-bis)
-Zip `Lez18_ingrandita.zip`: p. 756, 757, 758, 762, 763, 765, 789. Solo la colonna del brano, tagli su righe bianche, senza intestazioni/numeri di pagina/QR; fettina in corso con bordo giallo. Foglio `controllo_fettine.jpg` (un fotogramma per fettina, guardato).
-| Brano | Pagina | File HD | Minuto (nuovo) |
-|---|---|---|---|
-| I limoni | 756 | Lez18_p756.png · strofa 1 | 15:50 |
-| I limoni | 756 | Lez18_p756.png · strofa 2 | 16:15 |
-| I limoni | 757 | Lez18_p757.png · strofa 3 | 16:32 |
-| I limoni | 757 | Lez18_p757.png · strofa 4 | 16:53 |
-| I limoni | 757 | Lez18_p757.png · strofa 5 | 17:16 |
-| I limoni | 757 | Lez18_p757.png · strofa 6 | 17:35 |
-| I limoni | 758 | Lez18_p758.png · strofa 7 | 17:59 |
-| Meriggiare pallido e assorto | 762 | Lez18_p762.png · strofa 1 | 20:19 |
-| Meriggiare… | 762 | Lez18_p762.png · strofa 2 | 20:35 |
-| Meriggiare… | 763 | Lez18_p763.png · strofa 3 | 20:48 |
-| Meriggiare… | 763 | Lez18_p763.png · strofa 4 | 21:03 |
-| Spesso il male di vivere | 765 | Lez18_p765.png · quartina 1 | 24:20 |
-| Spesso il male di vivere | 765 | Lez18_p765.png · quartina 2 | 24:37 |
-| Ho sceso, dandoti il braccio | 789 | Lez18_p789.png · strofa 1 | 44:08 |
-| Ho sceso… | 789 | Lez18_p789.png · strofa 2 | 44:28 |
-
-Non inserite (decisione): il paragrafo «METRO» di p. 762 (rigo troppo piccolo, < 26 px) e i commenti di analisi del manuale (p. 758, 763, 765, 789): il prof li riprende a voce, il video mostra le sue slide.
-
-## 5. Fine e inizio di ogni pezzo del prof (aggiornamento 01:25)
-| Pezzo | Minuto nuovo | Prime parole dette | Ultime parole dette | Frase finita? |
+## 4. Fine e inizio di ogni pezzo del prof
+| Pezzo | Minuto nuovo | Prime parole | Ultime parole | Frase finita |
 |---|---|---|---|---|
-| D0 | 0:45.0 (orig. 0:00.1–1:13.7) | «Buongiorno e benvenuti alla lezione su» | «In ogni caso. Eugenio Montale, beh... Direi che» | sì («…Eugenio Montale, beh… Direi che» è ora in D1: il pezzo finisce prima, su una pausa di 0,4 s, a «In ogni caso.») |
-| D1 | 2:03.5 (orig. 1:13.7–4:07.3) | «Questa è appunto una sua fotografia.» | «e muore nel 1981, attraverso veramente. in novecento.» | sì |
-| D2 | 8:03.2 (orig. 4:07.3–8:06.9) | «Vediamo la prima raccolta, la più» | «ciò che non siamo, ciò che non vogliamo.» | sì |
-| D3 | 15:24.0 (orig. 8:06.9–20:10.0) | «Bene, e allora come propone giustamente» | «nostra condizione, se no addirittura ci potrebbe attaccare.» | sì |
-| D4 | 31:45.2 (orig. 20:10.0–22:40.7) | «Seconda raccolta, le occasioni. Allora. Mm.» | «immobile e privo di un varco di salvezza.» | sì |
-| D5 | 37:02.7 (orig. 22:40.7–25:12.7) | «Poi viene ve ne un'altra di» | «i linguaggi alienanti. della moderna società di consumo.» | sì |
-| D6 | 43:19.3 (orig. 25:12.7–29:25.7) | «All'interno di quest'opera la sezione Xenia,» | «diciamolo, in sede scolastica. Di solito. sono richieste.» | sì (fine registrazione) |
+| D0 | 0:45.0–1:56.8 (orig. 0:00.1–1:09.6) | «Buongiorno e benvenuti alla lezione su Eugenio» | «ma vedrete. In ogni caso. Eugenio Montale, beh...» | sì |
+| D1 | 2:01.8–4:57.1 (orig. 1:11.9–4:07.3) | «Eugenio Montale, beh... Direi che è appunto una sua» | «e muore nel 1981, attraverso veramente. in novecento.» | sì |
+| D2 | 7:19.1–11:16.6 (orig. 4:07.3–8:06.9) | «Vediamo la prima raccolta, la più importante,» | «ciò che non siamo, ciò che non vogliamo.» | sì |
+| D3 | 13:54.7–25:48.8 (orig. 8:06.9–20:10.0) | «Bene, e allora come propone giustamente il» | «nostra condizione, se no addirittura ci potrebbe attaccare.» | sì |
+| D4 | 29:22.9–31:51.8 (orig. 20:10.0–22:40.7) | «Seconda raccolta, le occasioni. Allora. Mm. Beh,» | «immobile e privo di un varco di salvezza.» | sì |
+| D5 | 33:57.4–36:29.3 (orig. 22:40.7–25:12.7) | «Poi viene ve ne un'altra di raccolta,» | «i linguaggi alienanti. della moderna società di consumo.» | sì |
+| D6 | 39:30.0–43:43.1 (orig. 25:12.7–29:25.7) | «All'interno di quest'opera la sezione Xenia, oksenia,» | «diciamolo, in sede scolastica. Di solito. sono richieste.» | sì |
 
-**Misurato** sull'originale: ogni taglio cade in una pausa di almeno 0,2–1,5 s (audio < soglia) e tra due frasi; nessuna parola mozzata in partenza né in chiusura. D0 termina a «…In ogni caso. Eugenio Montale, beh…» e D1 inizia con «Direi che questa è appunto una sua fotografia, si debba iniziare dalla vita» (frase intera).
 
-## 6. Quiz, verifica e compiti: secondi vecchio → nuovo (misurato)
+## 5. Quiz, verifica e compiti: secondi vecchio → nuovo (misurato)
 | Elemento | Vecchio | Nuovo |
 |---|---|---|
-| Quiz 1 | 7:53.1 (473.1 s) | 7:53.1 (473.1 s) |
-| Quiz 2 | 15:12.6 (912.6 s) | 15:12.6 (912.6 s) |
-| Quiz 3 | 28:17.5 (1697.5 s) | 31:33.8 (1893.8 s) |
-| Quiz 4 | 34:20.2 (2060.2 s) | 36:51.3 (2211.3 s) |
-| Quiz 5 | 42:24.8 (2544.8 s) | 43:07.9 (2587.9 s) |
-| Quiz 6 | 50:17.8 (3017.8 s) | 50:17.8 (3017.8 s) |
-| Verifica finale | 53:14,9 (3194.9 s) | invariato |
-| Compiti | 53:33,2 (3213.2 s) | invariato |
+| Quiz 1 | 7:53 (473.1 s) | 7:08 (428.8 s) |
+| Quiz 2 | 15:12 (912.6 s) | 13:44 (824.4 s) |
+| Quiz 3 | 28:17 (1697.5 s) | 29:12 (1752.6 s) |
+| Quiz 4 | 34:20 (2060.2 s) | 33:47 (2027.1 s) |
+| Quiz 5 | 42:24 (2544.8 s) | 39:19 (2359.7 s) |
+| Quiz 6 | 50:17 (3017.8 s) | 45:47 (2747.9 s) |
+| Verifica finale | 53:14 (3194.9 s) | 50:08 (3008.0 s) |
+| Compiti | 53:33 (3213.2 s) | 50:24 (3024.8 s) |
 
-Inizio argomenti nuovo: T1 1:56,8 (era 1:59,3), T2 7:58,4, T3 15:17,9, T4 31:39,1 (era 28:22,8), T5 36:56,6 (era 34:25,5), T6 43:13,2 (era 42:30,1). Quiz 1 e 2 sono rimasti agli stessi secondi di prima (la differenza è assorbita dal cartello del titolo).
-Aggiornati `scheda_pubblicazione.json`, `timeline.json`, `testo_youtube.txt`. **La pagina Vimeo/quiz va riallineata ai secondi nuovi.**
+Aggiornati `scheda_pubblicazione_Parte1.json`, `timeline_Parte1.json`, `testo_youtube.txt`. **La pagina del video va riallineata ai secondi nuovi.**
 
-## 7. Cosa NON ho verificato / limiti
-- **Ascolto umano** (fruscio/ronzio/metallico dopo la pulizia): non ascoltato. **Non verificato.**
-- **Voce R6 (mappa 6):** rigenerata come R6c con «Ksènia» e «Drusilla» scritti come si pronunciano (regola 08:45); la trascrizione automatica dà «Xenia» e «Drusilla Tanzi» corretti. Ascolto umano non fatto.
-- **Pronuncia della voce Kore** nelle voci nuove (R1…R6, RF): controllata solo con la trascrizione automatica, che segna «Contarla» (R3, prima versione), «Primerla» (R3b) e «VAR» (R4): sono molto probabilmente errori del riconoscimento, ma **da riascoltare**: R3b a 30:07, R4b a 35:57. Nelle vecchie voci S1/S6 «Viessò» (Vieusseux) da riascoltare.
-- **Sottotitoli:** riscritti dalla trascrizione (prof) e dai testi veri (voce Kore), poesie dal libro; tempi proporzionali alle strofe (**stima**, ±1–2 s nelle poesie). Parole non decifrabili lasciate come sono: «anche Insha» (≈ 38:03), «Allora i» (≈ 38:14), «Il poeta si rivendica» (≈ 38:23), passaggio sulle rime di *Meriggiare* (≈ 17:30). **Non riletti cue per cue.**
-- **Testa tagliata:** nell'originale la webcam è 243×139 px e i capelli toccano il bordo alto in molti punti (es. 1:30, 3:20, 14:10 dell'originale): non risolvibile. Webcam ingrandita 2,2× (immagine morbida).
-- **Foto di Montale** (1:14 orig.): vedi §8.
-- **Didascalia «DAL LIBRO…»** nelle fettine alte (strofa 4 di *I limoni*, 16:53) tocca il bordo basso del riquadro giallo: difetto minore **non corretto**.
-- **Jingle `titolo.wav`/`quiz.wav`** già presenti nell'audio del montaggio precedente (misurati); `repaso.wav` e `trans.wav` aggiunti ai ripassi e ai passaggi: livello scelto a orecchio dalla misura, non ascoltato.
-- **PDF slide:** testo vero (selezionabile) ma le slide sono 16:9 centrate su A4 (margini bianchi sopra e sotto): non identico al modello Spagnolo che usa tutta la pagina.
+## 6. Cosa NON ho verificato
+- **Controllo severo: non completato** (vedi §2). **Ascolto umano** di tutto il video (voci, timbro, jingle, trans): non fatto.
+- **Voce della mappa (RMAP3):** la trascrizione automatica non vede «Le occasioni» e «Satura», ma c'è una pausa di ~2 s dove vanno: sembrano dette; **da riascoltare** (schermata 3 di 3, intorno a 46:10–47:40). RMAP e RMAP2 avevano parole mancanti e non le ho usate.
+- **Altre voci Kore** (ripassi, approfondimenti, glossario, riepilogo, benvenuto): sono quelle del 17/11, trascritte dall'agente (nessuna parola tagliata, anni giusti) ma non riascoltate; «Vieusseux» (S1, AP1a) da riascoltare.
+- **Sottotitoli:** non riletti cue per cue; poesie dal libro con tempi proporzionali (stima ±1–2 s).
+- **Mappa:** frecce ridisegnate come catene dentro ogni colonna (le linee a ventaglio del prof si sarebbero incrociate); stessi nodi e stesse parole; marchio e foto del sito tolti.
+- **Pixel-identico PDF/video:** confrontato a vista su 11 pagine.
+- **Il «già visto»:** la terza card della slide «Satura» non compare: il prof ne parla solo a fine lezione, mostrata sulla slide dell'argomento 6.
+- **Webcam** 243×139 px ingrandita 2,2×: immagine morbida, capelli al bordo alto nell'originale.
 
-## 8. DA CONFERMARE COL PROF
-- Slide 9 (*Le occasioni*): «nel clima storico del **dopoguerra** e degli anni trenta» (la raccolta è del 1939): lasciato com'è nella slide; nel quiz uso «anni Trenta».
-- La mappa del prof non ha rami per *I testi degli Ossi* e per *La figura della moglie*: negli inserti MP3 e MP6 evidenzio i nodi *Ossi di seppia* e *Satura* e ricordo le slide.
-- A 1:14 (orig.) il prof dice «Questa è appunto una sua fotografia»: nella sua slide c'è un ritratto di Montale; **non l'ho messo** (regola: mai foto di personaggi pubblici scaricate). Decide Sara.
-- Il prof dice «Meriggiare pallido e assorto: tre quartine e una strofa di cinque versi»; il libro (p. 762) conferma.
+## 7. DA CONFERMARE COL PROF (anomalie nel suo materiale, non corrette)
+- Slide «Le occasioni (1939)»: «nel clima storico del **dopoguerra** e degli anni trenta» (la raccolta è del 1939). Lasciata com'è; il quiz 4 usa «anni Trenta».
+- Mappa del prof: «I^ Guerra mondiale» (la voce dice «prima guerra mondiale»).
+- Slide «Meriggiare…»: il prof dice «tre quartine e una strofa di cinque versi»; il libro (p. 762–763) conferma.
+- A 1:14 (orig.) il prof dice «Questa è appunto una sua fotografia»: nella sua slide c'è un ritratto di Montale che non ho messo (regola: foto di persone reali solo dal materiale del prof, alla massima risoluzione, migliorate se sgranate: **da decidere**; l'immagine è nel suo PDF, p. 1).
+- Refusi corretti nelle nostre slide: nessuno di rilievo (accenti e maiuscole già giusti); «scorni», «milione» sono nel libro.
 
-## 9. Come ho verificato
-Trascrizione completa di originale e video vecchio (Parakeet via `trascrivi.py`), 3 220 fotogrammi a 1/s sul video vecchio, allineamento audio con `allinea.py`, misure sul video nuovo con ffmpeg (ebur128, freezedetect, ffprobe), `controllo_finale.py`, `controllo_jingle.py`, correlazione audio/originale per la sincronia, `controllo_minuti.jpg` (1 fotogramma ogni 30 s) e `controllo_fettine.jpg`.
+## 8. Come ho verificato
+Trascrizione di originale e video (Parakeet), controllo severo della master (tesseract, loudness, voce), `controllo_jingle.py`, correlazione audio/originale per la sincronia, `freezedetect` sul riquadro, fotogrammi ogni 30 s (`controllo_minuti.jpg`) e fettine (`controllo_fettine.jpg`).
