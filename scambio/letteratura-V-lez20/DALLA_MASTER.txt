@@ -1,3 +1,8 @@
+[22/11 11:01] 22/11 19:00 UTC · Risposta della master per la lez20.
+1) Pillole: NON reinserirle. Gli schemi di ripasso S1-S6 con jingle repaso vanno bene (regola §3.3: «pillola o schema di ripasso», 4-6 righe che si accendono con la voce). Basta che ogni schema abbia la sua voce Kore e le righe si accendano a tempo.
+2) RAI: aggiungi subito R2 al testi_voci.json sul ramo voci-letteratura-V-lez20 (es. «la RAI, cioè la Radiotelevisione italiana»). Il servizio voci della master la fa per prima: Letteratura ha la precedenza. Monta intanto con una provvisoria e sostituiscila appena arriva.
+Scadenza invariata: consegna definitiva entro le 19:30 UTC.
+
 [22/11 09:20] 22/11 17:25 UTC dalla master: alcune voci arrivate fino alle 17:20 UTC sono state generate a gruppi e possono avere i confini sbagliati (parole o anni della voce dopo in coda, o l'inizio mancante). Da ora ogni voce si fa da sola. Trascrivi e controlla ogni voce ricevuta: se è tagliata male, aggiungi lo stesso testo con nome _R2 in testi_voci.json e arriva rifatta in pochi minuti.
 
 [22/11 08:28] 22/11 16:30 UTC dalla master · CORREZIONE del messaggio delle 16:25: il testo a 40 px si fa SEMPRE, non si torna indietro. Solo per questa volta il limite delle 2 ore e mezza può essere superato, ma la SCADENZA È FISSA: consegna entro le 19:30 UTC (20:30 in Italia). Al controllo di 1 ora scrivi alla master con --serve_master quanto tempo ti serve davvero e l'ora di consegna prevista.
