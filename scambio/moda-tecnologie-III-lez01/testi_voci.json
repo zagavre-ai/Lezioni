@@ -750,5 +750,33 @@
  {
   "nome": "P2_CHIUSURA",
   "testo": "Per oggi è tutto. Buon lavoro!"
+ },
+ {
+  "nome": "A01_APPROF_R2",
+  "testo": "Sai perché alcune fibre si chiamano man-made? Perché sono fibre chimiche, prodotte tramite l'intervento dell'uomo su una materia prima. Ma prima chiediamoci: che cos'è una fibra tessile? È un elemento di base di forma allungata, flessibile e sottile, che si presta a essere filato. Il Regolamento U E, cioè Unione Europea, numero mille e sette del duemilaundici, la definisce con tre parole chiave: flessibilità, finezza e un elevato rapporto tra la lunghezza e la dimensione trasversale massima. Le fibre naturali arrivano direttamente dal mondo naturale, senza modifiche da parte dell'uomo. Quelle chimiche si dividono in artificiali, che partono da prodotti già esistenti in natura, e sintetiche, che nascono dall'unione di elementi chimici semplici. Per unire i pregi delle varie fibre esistono infine le fibre in mischia."
+ },
+ {
+  "nome": "A01_MAPPA_R2",
+  "testo": "Come si classificano le fibre tessili? Le fibre naturali sono composte da materie prime non modificate dall'uomo. Quelle vegetali sono, per esempio, cotone, lino, canapa, juta, ramiè, sisal, cocco e kapok. Quelle animali sono lana, cashmere, mohair, angora e seta. Le fibre chimiche, o man-made, sono prodotte tramite l'intervento dell'uomo su una materia prima. Le artificiali sono viscosa, acetato, triacetato, cupro, modal e lyocell. Le sintetiche sono poliestere, poliammide o nylon, acrilica, polipropilenica, elastan e aramide. Le fibre in mischia uniscono le caratteristiche positive delle varie fibre e minimizzano quelle negative."
+ },
+ {
+  "nome": "A03_Q2_R_R2",
+  "testo": "La risposta giusta è la B: Il trentasette per cento. Le fibre naturali sono scese dal sessantadue per cento del millenovecentosettanta ad appena il trentasette per cento attuale. Il sessantatré per cento è la quota del consumo delle fibre chimiche."
+ },
+ {
+  "nome": "A04_Q4_R_R2",
+  "testo": "La risposta giusta è la A: Primo Paese al mondo per la trasformazione della lana in tessuto e maggior esportatore di questi manufatti. L'Italia è il primo Paese al mondo per potenza industriale nella trasformazione della lana in tessuto e il maggior esportatore mondiale di questi manufatti."
+ },
+ {
+  "nome": "A07_Q5_D_R2",
+  "testo": "Domanda cinque. Come si evita che un tessuto di lana steso umido dia forme ridotte dopo il taglio? Risposta A: Con falde più lunghe e facendo riposare il materasso per una notte. Risposta B: Tagliando subito, appena steso. Risposta C: Stendendo il tessuto con la massima tensione. Risposta D: Aggiungendo lanolina al tessuto."
+ },
+ {
+  "nome": "P2_CHIUSURA_V2_R2",
+  "testo": "Fine della seconda parte. Nella terza parte parleremo della seta, e poi faremo la verifica finale."
+ },
+ {
+  "nome": "P2_TEST_INTRO_R2",
+  "testo": "Verifica finale. Sono venti domande: per superare la lezione serve almeno l'ottanta per cento di risposte corrette."
  }
 ]
