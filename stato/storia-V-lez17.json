@@ -1,7 +1,7 @@
 {
  "tag": "storia-V-lez17",
  "parti": {},
- "manca": "",
+ "manca": "in corso: mappe BES (fatte 3), trascrizione originale, testi voci inviati; da fare: slide 40px, pezzi prof, approfondimenti, spiegoni, montaggio, controlli",
  "serve_master": [
   {
    "quando": "22/11 18:41",
@@ -25,8 +25,12 @@
   {
    "quando": "22/11 18:37",
    "testo": "ripristinato stato precedente (le 3 Parti della consegna 19/11) dopo prenotazione correzioni 22/11"
+  },
+  {
+   "quando": "22/11 18:47",
+   "testo": "ore 19:20 UTC: materiali scaricati, testi voci nuovi (16) su voci-storia-V-lez17, mappe del prof ridisegnate BES; trascrizione in corso"
   }
  ],
- "aggiornato": "2026-11-22 18:42:54",
+ "aggiornato": "2026-11-22 18:47:48",
  "stato": "IN_REVISIONE"
 }
