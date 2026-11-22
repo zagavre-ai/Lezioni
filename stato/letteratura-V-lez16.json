@@ -398,10 +398,14 @@
   {
    "quando": "22/11 16:51",
    "testo": "17:12 UTC. Voci mappa unica richieste (MB01-MB29). Controllo severo sul video vecchio in corso. Stima onesta: serve circa 3 ore per fare tutto (slide a 3 card/40 px, mappa BES unica ramo per ramo, ricodifica): consegna realistica 20:15 UTC, fuori dalle 19:30; faccio il possibile per le 19:30."
+  },
+  {
+   "quando": "22/11 17:01",
+   "testo": "17:08 UTC. Fatto: nuove slide (max 3 card intere, 40 px, bordo giallo all'inizio della frase), mappa unica BES (3 schermate ramo per ramo + panoramica), nuovo piano tempi senza le 4 mappe inventate (circa 53 min), pezzi del prof in ricostruzione. Manca: voci mappa (MB01-MB29 dalla master), audio, codifica, vtt/timeline/scheda, dispense, controllo severo. Consegna prevista 19:15 UTC."
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 16 · Umberto Saba",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-22 16:51:50"
+ "aggiornato": "2026-11-22 17:01:57"
 }
