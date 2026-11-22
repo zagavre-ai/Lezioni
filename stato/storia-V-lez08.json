@@ -37,7 +37,11 @@
   {
    "quando": "22/11 19:35",
    "testo": "19:40 UTC: fatti trascrizione, piano tagli (intro 175 s sopra copertina), mappe del prof ridisegnate BES (3), schede animate, 24 pezzi Kore con voci provvisorie dove mancano. In rendering i 7 pezzi del prof (corretto un problema di memoria). Manca: assemblaggio Parti, codifica, controlli, dispensa, sottotitoli; poi sostituzione voci quando arrivano."
+  },
+  {
+   "quando": "22/11 22:20",
+   "testo": "22:40 UTC: Parti 1 e 2 codificate (51:18 e 59:40, -16 LUFS, 321/348 MB) con voci provvisorie. controllo_severo: respinta per slide oltre 3 min e pause: corretto (finestre max 150 s, code piu corte), rifaccio i pezzi del prof (50 min) e riassemblo. Aspetto le voci per sostituirle."
   }
  ],
- "aggiornato": "2026-11-22 19:35:37"
+ "aggiornato": "2026-11-22 22:20:42"
 }
