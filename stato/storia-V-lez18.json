@@ -69,7 +69,11 @@
   {
    "quando": "22/11 19:05",
    "testo": "19:10 UTC: Parte 1 in codifica (prof con card/sotto-slide, mappe BES, schede blu del modello); Parte 2 dopo. Voci nuove provvisorie (espeak) in attesa delle Kore."
+  },
+  {
+   "quando": "22/11 21:24",
+   "testo": "21:00 UTC: Parte 1 montata (50,2 min, 374 MB) e Parte 2 (58,9 min) montate con voci provvisorie; rifaccio Parte 2 a CRF 21 (peso > 400 MB), poi controlli (controllo_severo, agente separato), dispensa, PDF mappe, sottotitoli. Mappe: solo le 3 del prof (arg 2, 5, 6) come da risposta master."
   }
  ],
- "aggiornato": "2026-11-22 21:21:26"
+ "aggiornato": "2026-11-22 21:24:35"
 }
