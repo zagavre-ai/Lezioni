@@ -21,6 +21,10 @@
   {
    "quando": "22/11 16:36",
    "testo": "Lez.3 Carducci, dubbio vincolante: il prof sta 9 min (15:47-25:03) e 13 min (slide 'Dal radicalismo...') su UNA sola slide/card; per la regola 'nessuna schermata identica >3 min' devo spezzare. Propongo: (1) inserire approfondimenti animati blu (voce Kore, 40-60 s, solo con frasi del prof/slide) alle pause tra frasi, nel parlato lungo; (2) dividere la slide in sotto-slide 'a finestra' (card intere, max 3) con pagine diverse. Va bene? Se non rispondete procedo con (2) piu' mappa BES ramo per ramo."
+  },
+  {
+   "quando": "22/11 19:02",
+   "testo": "Il controllo severo dà RESPINTA solo per i «…» delle note del libro in Pianto antico (lo ristora … calor / Tu fior … inaridita / estremo … fior). Sono testo del prof nelle fettine: li lascio o taglio le note? Dimmi tu."
   }
  ],
  "domande_sara": [],
@@ -76,10 +80,14 @@
   {
    "quando": "22/11 17:03",
    "testo": "17:05 UTC: fatti slide 40 px a finestra (max 3 card intere), slide Di cosa parliamo, ripassi/glossario/riepilogo 40 px, mappa BES ramo per ramo, approfondimenti AP1/AP2 con voce. In corso: ricodifica tratti col prof e audio finale. Poi controllo severo, dispense, rapporto. Consegna prevista 18:45-19:15 UTC"
+  },
+  {
+   "quando": "22/11 19:02",
+   "testo": "correzioni 22/11 fatte. Durata misurata 64:46,7 (3886,7 s). Ramo revisione-letteratura-V-lez03, 6 parti + sha256. controllo_severo: unico errore residuo «…» in 8 campioni (43:52-45:52) = puntini scritti nelle note del libro del prof (fettine Pianto antico), non card spezzate; tutto il resto OK. Voci Kore non ascoltate: vedi RAPPORTO."
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 3 · Carducci",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-22 17:03:23"
+ "aggiornato": "2026-11-22 19:02:23"
 }
