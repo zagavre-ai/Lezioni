@@ -50,6 +50,10 @@
   {
    "quando": "22/11 17:27",
    "testo": "TEC-A STATO 17:35 UTC lez01. FATTO: Parte 1 ASSEMBLATA (56,2 min, 1080p, 175 MB, fotogrammi = durata x 30, -16,2 LUFS picco -1,8, 4 Quiz con scatto +0,000 s, sottotitoli 484 blocchi agganciati alla voce, tabella dei tagli della prof: tutti su frase intera) ma con SEGNAPOSTO SILENZIOSI per 4 voci non ancora arrivate (A01_APPROF, A01_MAPPA, A03_Q2_R, A04_Q4_R). Scene Kore di tutte e 3 le Parti costruite con segnaposto dove manca la voce (circa 40 voci mancanti: A07_Q5_D, A10_Q5_R, glossario/ripasso/mappa finale, test T01-T20 in parte, compiti, P2/P3_BENVENUTO_V3, P2_CHIUSURA...). Difetto mio trovato e corretto: titoli e domande su 2 righe si sovrapponevano alle risposte (altezze misurate prima del caricamento del carattere): sto rifacendo TUTTE le scene Kore (circa 35 min) poi riassemblo le 3 Parti (circa 10 min l'una). Spiegone aggiunto a Parte 2 e 3 (ripasso e mappa di ogni argomento della Parte precedente, voce Kore). Strumenti pronti: controllo voci automatico, sostituzione dei segnaposto appena arrivano le voci (rifai_scene.py), consegna (sottotitoli, scheda, quiz/verifica/compiti JSON, dispensa A4 + mappe PDF, pezzi da 90 MB + sha256). Quando le voci arrivano bastano circa 30 minuti per Parte per sostituire e riassemblare. Non consegno come REVISIONATA finche' ci sono segnaposto: stato IN_MONTAGGIO."
+  },
+  {
+   "quando": "22/11 19:00",
+   "testo": "TEC-A STATO 19:00 UTC lez01. FATTO: 3 Parti ASSEMBLATE con la grafica corretta (56,2 / 56,6 / 57,1 min, 1080p, -16,4 LUFS, Quiz con scatto +0,000 s, 20 risposte giuste verificate sul PDF). Controllo con agente separato sulla Parte 2: 14 difetti, tra cui 3 alti che sto correggendo ORA: (1) card della prof non sempre in sincronia (alcune restano accese 50-66 s; mancavano le card di alpaca, lama, guanaco, Kashmir, cashgora, yak, coniglio) -> nuovo aggancio per nome del soggetto e riempimento dei buchi oltre 30 s, verificato sui tempi della prof; (2) voce della prof in ritardo di 30 ms (filtro audio non compensato) -> compensato; (3) SM1 senza voce = e' A01_MAPPA, uno dei segnaposto. Correggo anche: sottotitoli con termini storpiati (dizionario), numerazione copertina (argomenti 5-8 e 9-10), sigle da rispiegare a schermo (micron, IWTO, hanks, pilling, ZIRPRO) in quiz/mappe/ripassi, overflow in un approfondimento, volume delle voci Kore a -16 LUFS, testi delle mappe (corridori automobilistici). In corso: rigenero i 10 pezzi della prof (circa 40 min), poi riassemblo e rifaccio i controlli. Controllo agente sulla Parte 1 ancora in corso. VOCI: ancora segnaposto per 51 voci (A01_APPROF, A01_MAPPA, A03_Q2_R, A04_Q4_R, A07_Q5_D, A10_Q5_R, T02-T20 parziali, C1-C5, P2_COMPITI_INTRO, P2_MAPPA_FINALE, P2_CHIUSURA, P2_CHIUSURA_V2, P3_BENVENUTO_V3): le Parti non sono consegnabili finche' non arrivano. Appena arrivano: python3 rifai_scene.py + ricostruzione + riassemblaggio, circa 30 minuti per Parte."
   }
  ],
  "domande_sara": [],
@@ -65,5 +69,5 @@
  ],
  "materia": "Tecnologie dei materiali e dei processi produttivi e organizzativi della moda",
  "docente": "Prof.ssa Piera Caputi",
- "aggiornato": "2026-11-22 17:27:06"
+ "aggiornato": "2026-11-22 19:00:32"
 }
