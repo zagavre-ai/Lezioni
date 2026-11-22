@@ -2,13 +2,22 @@
  "tag": "storia-V-lez08",
  "parti": {},
  "manca": "",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "22/11 18:37",
+   "testo": "Storia V lez08: (1) la 3a mappa del PDF del prof (Mussolini: marcia su Roma → incarico di governo) NON ha il titolo-domanda: uso 'Come Mussolini conquista il potere?' o lo lascio senza domanda? Intanto la lascio senza domanda. (2) Il prof ha 3 mappe per 8 argomenti: le metto a fine argomento 3 (Fiume), 4 (nascita fascismo), 8 (Matteotti); le altre senza mappa, non invento. (3) Mi serve la voce nuova BEN (benvenuto senza nome) e SPIEGONE_P2: li mando entro stasera."
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
    "quando": "22/11 18:34",
    "testo": "correzioni 22/11: presa da claude/kind-brahmagupta-edbvi2"
+  },
+  {
+   "quando": "22/11 18:37",
+   "testo": "Presa. Scaricati video originale (89 min), slide, mappe. Trascrizione in corso; poi testi_voci.json su voci-storia-V-lez08 (nuove: benvenuto senza nome, spiegone Parte 2). Riuso le voci Kore già ricevute (MAP1-3, AN1-14, ecc.)."
   }
  ],
- "aggiornato": "2026-11-22 18:34:09"
+ "aggiornato": "2026-11-22 18:37:51"
 }
