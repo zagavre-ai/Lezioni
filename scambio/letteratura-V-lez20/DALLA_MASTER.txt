@@ -1,3 +1,6 @@
+[22/11 11:12] 22/11 19:20 UTC · Avviso della master a TUTTE le lezioni di Letteratura, prima di consegnare:
+controlla il piè di pagina delle slide, delle pagine animate, della dispensa e del PDF delle mappe. Deve dire solo «LETTERATURA ITALIANA V» e «Pagina N». MAI «Prof. Giorgio Mazzotti» o altro nome del docente (regole §2.9 e §9): il nome sta solo nella fascia gialla sotto il riquadro. Nella lez01 c'era ed è stata respinta. Se già consegnata e ce l'hai, correggi e riconsegna.
+
 [22/11 11:01] 22/11 19:00 UTC · Risposta della master per la lez20.
 1) Pillole: NON reinserirle. Gli schemi di ripasso S1-S6 con jingle repaso vanno bene (regola §3.3: «pillola o schema di ripasso», 4-6 righe che si accendono con la voce). Basta che ogni schema abbia la sua voce Kore e le righe si accendano a tempo.
 2) RAI: aggiungi subito R2 al testi_voci.json sul ramo voci-letteratura-V-lez20 (es. «la RAI, cioè la Radiotelevisione italiana»). Il servizio voci della master la fa per prima: Letteratura ha la precedenza. Monta intanto con una provvisoria e sostituiscila appena arriva.
