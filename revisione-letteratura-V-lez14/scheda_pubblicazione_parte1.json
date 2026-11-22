@@ -1,31 +1,31 @@
 {
  "materia": "Letteratura italiana (V)",
  "titolo": "Letteratura V · Lezione 14 · Pirandello · Parte 1",
- "durata_s": 2745.43,
+ "durata_s": 2801.45,
  "argomenti": [
   {
    "n": 1,
    "titolo": "Pirandello e la crisi del primo Novecento",
    "inizio_s": 236.367,
-   "quiz_s": 1230.1
+   "quiz_s": 1244.1
   },
   {
    "n": 2,
    "titolo": "La visione del mondo e l'umorismo",
-   "inizio_s": 1235.4,
-   "quiz_s": 1738.333
+   "inizio_s": 1249.4,
+   "quiz_s": 1766.333
   },
   {
    "n": 3,
    "titolo": "Il fu Mattia Pascal",
-   "inizio_s": 1743.633,
-   "quiz_s": 2264.167
+   "inizio_s": 1771.633,
+   "quiz_s": 2306.167
   },
   {
    "n": 4,
    "titolo": "Uno, nessuno e centomila",
-   "inizio_s": 2269.467,
-   "quiz_s": 2622.933
+   "inizio_s": 2311.467,
+   "quiz_s": 2678.933
   }
  ],
  "quiz": {
