@@ -7,22 +7,28 @@ Consegna sul ramo `revisione-letteratura-V-lez08`. La lezione è in **2 Parti** 
 | Durata / fotogrammi | misurato: 38:56,6 · 70 098 fotogrammi (= durata × 30) | misurato: 34:42,7 · 62 482 fotogrammi (= durata × 30) |
 | Peso | misurato: 212,6 MB | misurato: 180,6 MB |
 | Formato | misurato: 1920×1080, 30 fps, H.264, AAC 192k 48 kHz | idem |
-| Jingle Quiz | misurato: Q1 +0,002 s · Q2 +0,002 s (OK) | misurato: Q3, Q4, Q5 +0,002 s (OK) |
-| Fermi immagine del prof ≥ 1 s (`freezedetect`) | misurato: nessuno | misurato: nessuno |
-| Volume | vedi controllo severo (limitatore a ≈ −3 dBFS, parlato a −16 LUFS) | idem |
+| Jingle Quiz (`controllo_jingle.py`) | misurato: Q1 +0,002 s · Q2 +0,002 s (OK) | misurato: Q3 · Q4 · Q5 +0,002 s (OK) |
+| Fermi immagine del prof ≥ 1 s (`freezedetect`) | misurato: nessuno (sulla versione precedente: video dei pezzi del prof invariato) | misurato: nessuno (idem) |
 
-| Controllo severo della master (`controllo_severo.py`) | |
-|---|---|
-| Parte 1 | _controllo non terminato al momento della consegna_ |
-| Parte 2 | _controllo non terminato al momento della consegna_ |
-
-Il controllo segnala la **durata** (45–65 min) come errore su entrambe le Parti (38:57 e 34:43): è la conseguenza della divisione in 2 Parti decisa dalla master (la lezione intera sarebbe di ~76 min). Non l'ho allungata e non ho tagliato parole del prof.
+**Controllo severo della master** (`controllo_severo.py`, passo 15 s), eseguito sui video finali: **esito RESPINTA su entrambe le Parti** per i motivi seguenti (nessuno nascosto):
+| Voce | Parte 1 | Parte 2 |
+|---|---|---|
+| Copertina (titolo esatto, ≤ 180 s) | OK: titolo presente, **150 s** | OK: titolo presente |
+| Loudness (−16 ±1,5) | OK: −16,5 LUFS | OK: −16,8 LUFS (picco −3,0 dBFS, misurato) |
+| Voce del prof (timbro) | OK: tono 145–164 Hz, chiarezza 1290–1390 Hz | OK: tono 148–168 Hz, chiarezza 1243–1435 Hz |
+| Pause > 2,5 s | OK: 0 | OK: 0 (dopo la correzione; misurato con `silencedetect`) |
+| Card con «…» | OK | **6 campioni = testo delle pagine del libro** (T6, T7: i versi del libro contengono «…»): non sono card |
+| Schermata identica > 3 min | OK: nessuna | OK: nessuna |
+| Slide con stesso titolo > 3 min | **1 residuo**: «La svolta politica e l'azione», pagina 20, 34:15–37:45 (3,5 min = 209 s): le card «L'impresa di Fiume» (167 s) e «L'esilio sul Garda» (42 s) stanno nella stessa finestra di 2 card, senza cambio di pagina. Non risolto: serviva un quinto approfondimento (la master ne ha concessi 4) | OK |
+| Una card sola > 60 s | 1 segnalazione (35:37, 75 s) sulla stessa finestra: **stima: falso positivo dell'OCR** (le card sono 2; il numero «2» del pallino grigio non viene letto) | 1 segnalazione (4:52, 75 s): idem, 2 card visibili (fotogrammi guardati) |
+| Durata (45–65 min) | **38:57** | **34:43** |
+Il controllo segnala la **durata** perché la lezione è divisa in 2 Parti come deciso dalla master; non ho allungato niente né tagliato parole del prof. Il controllo severo è stato eseguito sulla versione finale del video salvo una correzione successiva solo dell'audio della Parte 2 (pause in silenzio coperte con jingle): rimisurate a mano con `silencedetect`, jingle Quiz e loudness.
 
 ## 2. Cosa ho cambiato rispetto alla consegna del 17/11
 | Punto | Cosa |
 |---|---|
 | Testo | card a **40 px, interlinea 1,5** (mai sotto 36); card intere (una frase del prof, mai «…»); **finestre di 2 card** (a 40 px tre non entrano) che scorrono a tempo con il prof; la card in corso ha bordo e pallino giallo, l'altra resta attenuata. Le slide del prof sono quelle del suo PPTX (testo identico); le virgolette dritte sono diventate «…» |
-| Schermate ferme | nessuna schermata identica oltre 3 minuti: **4 approfondimenti animati con voce Kore** (A1 vita come opera d'arte 5:58, A3 svolta del superuomo 19:56, A5 impegno politico 28:25, A7 crisi dell'estetismo nel *Piacere*, Parte 2 6:06), solo dove il prof resta a lungo sulla stessa card (max 4, indicazione della master) |
+| Schermate ferme | nessuna schermata identica oltre 3 minuti (un residuo di 3,5 min sullo stesso titolo, vedi §1): **4 approfondimenti animati con voce Kore** (A1 «Esistenza e arte» 5:58, A3 svolta del superuomo 19:56, A5 impegno politico 28:25, A7 crisi dell'estetismo nel *Piacere*, Parte 2 6:06), solo dove il prof resta a lungo sulla stessa card (max 4, indicazione della master) |
 | Copertina | titolo esatto «Gabriele d'Annunzio»; presentazione con voce Kore **senza riquadro del prof**; il riquadro compare quando il prof parla; la copertina resta **143 s** (limite 180), poi slide «Di cosa parliamo» con gli argomenti |
 | Mappa | **una sola mappa, quella del prof** (la mappa delle mappe-scuola ridisegnata: tolti il marchio del sito e le due foto). 25 riquadri non entrano a 34 px in una schermata: **3 schermate** («Mappa 1 di 3»: vita; 2 di 3: poetica e personalità; 3 di 3: opere), legenda BES in ognuna, costruite **ramo per ramo** con la voce Kore (riquadro giallo finché la voce parla), ferme 4 s. Nel video 2:34 (Parte 2, prima del riepilogo). Testo a **40–45 px** (schermata 3: 40 px; etichette dei rami 30–34 px). La sigla «I^ Guerra mondiale» è scritta «Prima guerra mondiale» (sigla rispiegata) |
 | Mappa nel PDF | PDF mappe A4 orizzontale: copertina con «MAPPE», poi le 3 schermate (come nel video) |
