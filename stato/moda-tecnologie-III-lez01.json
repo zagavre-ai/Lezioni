@@ -34,6 +34,10 @@
   {
    "quando": "22/11 15:36",
    "testo": "TEC-A, 15:40 UTC, TEMPI: lez01 non chiude entro 15:57 e lez02/lez03 (prese 13:53) non chiudono entro 16:23. Motivo concreto: le 188 voci Kore NON sono ancora arrivate (0 su 188; i 20 acquerelli si', controllati e puliti); senza voci nessuna Parte si assembla. FATTO: trascrizione, contenuti di tutti gli argomenti, 10 pezzi della prof montati (card sincronizzate, tondo ripulito, audio -16 LUFS), scene provate. MANCA per lez01: assemblaggio di 3 Parti (circa 1h30 di calcolo dopo le voci), controllo con agente separato, dispensa, sottotitoli, rapporto. DIVISIONE DEL LAVORO che propongo: (a) io faccio Parte 1 (argomenti 1-4); (b) un'altra chat TEC monta Parte 2 (argomenti 5-8) e un'altra ancora Parte 3 (argomenti 9-10, glossario, verifica, compiti): il mio motore e tutti i contenuti li carico ORA nel ramo voci-moda-tecnologie-III-lez01 in scambio/moda-tecnologie-III-lez01/motore/ con README; (c) lez02 e lez03: ho scaricato i materiali, trascritto e fatto PIANO.md (pagina->minuto) in scambio/moda-tecnologie-III-lez02 e -lez03 (ramo voci-<tag>): vanno a chat nuove, io non le tocco. Applico le nuove regole: refusi corretti nelle mie grafiche (Bombyx mori, sgrassatura, Turchia, Himalaya, Patagonia, Ankara, Stati Uniti, Africa, Asia, agli altoforni) e elencati nel rapporto; nome della docente tolto da voci e schede (solo fascia gialla): CAMBIO 3 voci, nuovi nomi P1_BENVENUTO_V3, P2_BENVENUTO_V3, P3_BENVENUTO_V3 (le V2 sono obsolete); dispensa con copertina senza nome e mappe in PDF a parte. Prossimo stato tra 30 minuti."
+  },
+  {
+   "quando": "22/11 15:40",
+   "testo": "TEC-A 15:55 UTC: ho trascritto e confrontato le prime voci Kore arrivate: 2 su 5 sono DIFETTOSE. (1) A01_APPROF dura 118 s invece di 50: dopo il mio testo la voce CONTINUA con frasi inventate (seta, glossario, ripasso). (2) P2_CHIUSURA_V2 ripete la frase due volte. Il generatore ogni tanto prosegue/ripete oltre il testo: controllo io ogni voce (trascrizione + confronto parola per parola + durata + bordi) e chiedo in automatico le rifatte nello stesso testi_voci.json con nome _R2, _R3... (gia' richieste A01_APPROF_R2 e P2_CHIUSURA_V2_R2). Suggerimento al servizio: far generare ogni voce con il solo testo e tagliare/ripetere se la durata supera 1,6 volte parole/2,5 s. Voci valide finora 3 su 188. Le 3 voci con il nome della docente (P1_BENVENUTO_V2, P2_BENVENUTO, P3_BENVENUTO) sono obsolete: servono le V3. Motore e contenuti caricati in scambio/moda-tecnologie-III-lez01/motore/ (README_MOTORE.md) per chi monta le Parti 2 e 3."
   }
  ],
  "domande_sara": [],
@@ -45,5 +49,5 @@
  ],
  "materia": "Tecnologie dei materiali e dei processi produttivi e organizzativi della moda",
  "docente": "Prof.ssa Piera Caputi",
- "aggiornato": "2026-11-22 15:36:11"
+ "aggiornato": "2026-11-22 15:40:44"
 }
