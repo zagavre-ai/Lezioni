@@ -5,7 +5,7 @@ Sei una **chat di produzione** delle videolezioni del Centro Studi Telesio. Coor
 **Non abbiamo tempo per correggere errori: ogni lezione deve uscire giusta la prima volta.**
 
 ## 0. Preparazione (una volta sola)
-1. Clona `zagavre-ai/lezioni`, poi scompatta `Telesio_kit_produzione_v1.zip` (dalla radice del repository) per i jingle in `home/claude/v5/snd/`.
+1. Clona `zagavre-ai/lezioni` e prepara la macchina come dice `kit/REGOLE.md` §1 (caratteri in `kit/caratteri/`, jingle in `kit/suoni/`, strumenti in `kit/tools/`).
 2. Scarica il ramo **`scambio-caputi`**. In `scambio/caputi/` trovi:
    - **`REGOLE_BLINDATE.md`**: tutte le regole decise da Sara. **Leggilo tutto. Vale più di ogni altro documento.**
    - **`kit_caputi/LEGGIMI.md`** e la cartella del **modello approvato «Gonna»**: anteprima, scene HTML, `scena.py`, esempi di acquerello, sigle, `estrai_da_release.py`.
