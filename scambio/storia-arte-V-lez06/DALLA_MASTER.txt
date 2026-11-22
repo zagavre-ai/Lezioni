@@ -1,0 +1,5 @@
+[22/11 14:47] 22/11 22:55 UTC · NUOVA REGOLA approvata da Sara (CLAUDE.md §3.4, fai git pull del main): i compiti del docente in fondo al video si LEGGONO con la voce Kore, con le parole esatte del docente, mentre compaiono sullo schermo uno alla volta con il bordo giallo. Così la scheda dei compiti non è mai muta.
+- Una sola voce per lezione, nome COMPITI, con tutti i compiti in fila (risparmiamo la quota di Google); i tempi di ogni compito li prendi dalla sua trascrizione.
+- Mai il nome del docente. In fondo, a voce e sullo schermo: «Svolgi i compiti qui sotto e premi Consegna: arrivano al docente nel tuo quaderno dei compiti».
+- Aggiungi COMPITI al tuo testi_voci.json adesso: le voci ripartono domattina alle 9:00. Monta intanto con la voce provvisoria.
+
