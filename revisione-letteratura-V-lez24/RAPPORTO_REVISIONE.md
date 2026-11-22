@@ -1,94 +1,68 @@
 # RAPPORTO REVISIONE · Letteratura italiana V · Lezione 24 · Leonardo Sciascia
-Revisione del 16–17/11/2026. Video: `Letteratura_Lez24_Parte1_1080p.mp4` (a pezzi `.parte_00`, `.parte_01`; sha256 nel file `.sha256`).
-Regole applicate: fino all'aggiornamento delle 08:45 del 17/11. Etichette: **misurato** = misurato con uno strumento; **stima** = dedotto; **non verificato** = non ho potuto.
+Correzioni del 22/11/2026 (regole: `REGOLE_BLINDATE.md` e aggiornamenti della master fino alle 17:00 UTC). Video: `Letteratura_Lez24_Parte1_1080p.mp4` (a pezzi `.parte_00`, `.parte_01`; sha256 nel file `.sha256`).
+Etichette: **misurato** = misurato con uno strumento; **stima** = dedotto; **non verificato** = non ho potuto.
 
-## 1. Misure sul video nuovo
+## 1. Misure sul video nuovo (misurato)
 | Controllo | Risultato |
 |---|---|
-| Formato | 1920×1080, 30 fps, x264 veryfast CRF 19, AAC 192k 48 kHz (misurato) |
-| Durata / fotogrammi | 55:55,9 (3355,87 s) · 100 676 fotogrammi = durata × 30 (misurato). **La durata è cambiata**: era 55:38,4 (+17,4 s), vedi §6 |
-| Peso | 177,4 MB (misurato) |
-| Volume | −16,7 LUFS integrato, LRA 6,1 LU (misurato) |
-| Picco | −2,1 dBTP (ebur128 peak=true) (misurato) |
-| Sincronia audio/prof | scarto massimo 1,4 ms su 20 punti dei 4 pezzi del prof (correlazione dell'audio del video con l'originale) (misurato). Il video è tagliato dagli stessi istanti dell'audio (stima: ≤ 17 ms di arrotondamento al fotogramma) |
-| Fermi immagine riquadro del prof | `freezedetect` sul video finale: 0 fermi ≥ 1 s in D0, D1, D2, D3 (misurato) |
-| Jingle Quiz | lo scatto cade a inizio scheda + 0,5 s con scarto −0,016 s su Q1, Q2, Q3, Verifica finale, Compiti (corr. 0,90–0,99) (misurato). Jingle titolo argomento (T1–T3) presente (misurato) |
-| Silenzi > 2,9 s | nessuno, tranne gli ultimi 4,2 s della scheda Compiti (ultima scheda, in attesa dell'esercizio) (misurato) |
-| PDF | slide: 40 pagine A4 orizzontale; mappe: 1 pagina A4 orizzontale (il prof ha una sola mappa per tutta la lezione) |
+| Formato | 1920×1080, 30 fps, x264 veryfast CRF 19, AAC 192k 48 kHz |
+| Durata / fotogrammi | 54:31,7 (3271,67 s) · 98 150 fotogrammi = durata × 30 |
+| Peso | 176 MB |
+| Volume | −16,6 LUFS integrato (LRA 5,9) |
+| Picco | −2,3 dBTP |
+| Sincronia labbra/voce | scarto massimo 17 ms su tutti i pezzi del prof (correlazione dell'audio del video con l'originale, 2 punti per pezzo) |
+| Fermi immagine del prof | 0 fermi ≥ 1 s in D0, D1a–D1d, D2, D3 (`freezedetect`) |
+| Jingle Quiz | scatto a inizio scheda + 0,5 s, scarto −0,016 s su Q1, Q2, Q3, Verifica finale, Compiti; jingle titolo su T1–T3 (corr. 0,96) |
+| Pause > 2,5 s | nessuna a −45 dB (`silencedetect`) |
+| PDF | slide: 69 pagine A4 orizzontale con strato di testo; mappe: 4 pagine (copertina «MAPPE» + 3 schermate) |
+| Controllo severo (`controllo_severo.py`, passo 20 s) | vedi §6 |
 
-## 2. Confronto col modello Spagnolo (punto 000)
-| # | Punto | Esito |
-|---|---|---|
-| 1 | Sigla 15 s → dissolvenza → copertina | OK. Sigla invariata; dissolvenza di 1,6 s + `trans.wav` |
-| 2 | Copertina (logo, riga «LETTERATURA ITALIANA V · VIDEOLEZIONE», titolo, card ARGOMENTI) | **corretto** (era titolo piccolo + elenco senza card) |
-| 3 | Slide: fondo bianco, «01 · ARGOMENTO», titolo + barretta | **corretto** (era fondo azzurrino, titolo piccolo) |
-| 4 | Piè di pagina «LETTERATURA ITALIANA V · Prof. Giorgio Mazzotti» + «Pagina N» | **corretto**; numerazione 1–40 uguale nel PDF |
-| 5 | Riquadro 4:3 con ombra grigia morbida | **corretto**: 412×310 px a x=1428, y=148, angoli r=18 (era un tondo) |
-| 6 | Fascia gialla −3°, due righe | **corretto**: «Giorgio Mazzotti» / «PROF. DI LETTERATURA ITALIANA», sempre visibile dove c'è il prof |
-| 7 | Slide senza prof | **corretto**: approfondimenti, schemi di ripasso, glossario, riepilogo, mappe in stile Spagnolo (erano pagine blu scuro) |
-| 8 | Font | Bricolage Grotesque 800, Figtree (etichette in Figtree Bold come da aggiornamento 15:10) |
-| 9 | Finale 5 s con avviso diritti | OK (non toccato) |
-| 10 | Struttura | OK: sigla, presentazione, 3 argomenti con approfondimenti, ripasso, quiz; glossario, riepilogo, finale |
-| 11 | PDF slide + mappe | consegnati |
-Card in corso: bordo giallo sottile + numero su pallino giallo, ombre grigie morbide (aggiornamento 01:30). Titoli lunghi accanto al riquadro ristretti per stare a sinistra (pagine 13 e 26).
+## 2. Cosa è cambiato rispetto alla consegna del 17/11
+- **Testo a 40 px** (interlinea 1,5) nelle slide del prof; con 40 px non entrano 3 card, quindi ogni slide ne mostra **2** (finestre «card 1+2» e «card 2+3»), mai rimpicciolito. Approfondimenti: schede da 38/32 px, al massimo 3 per pagina (la 4ª card apre una nuova pagina). Schemi di ripasso e glossario a 36 px.
+- **Nessuna schermata identica oltre 3 minuti.** La slide «L'impegno politico e civile» durava 6,8 minuti: il pezzo D1 è ora diviso in D1a–D1d (tagli sulle pause tra due frasi) e **tra i pezzi del prof entrano gli approfondimenti** che commentano quello che il prof ha appena detto (AN1–AN2, AN3, AN4). Nessuna card sola oltre 60 s (tutte le finestre hanno ≥ 2 card).
+- **Bordo giallo all'inizio della frase** del prof (stima ±1–2 s da trascrizione): il bordo non c'è più quando il prof parla ancora della slide prima.
+- **Mappa: una sola, quella del prof**, nel modello BES (colori pesca / celeste / paglierino / menta / lilla con legenda in alto a destra), tolti il logo mappe-scuola.com e le due foto. Le tre mappe «nostre» (AN8, AN16, AN26) e la mappa finale inventata (ANF) sono state **tolte**. La mappa del prof ha 23 riquadri e a 34 px non entra in una schermata: seguendo l'indicazione della master è **divisa in 3 schermate** («Mappa del professore · 1 di 3 … 3 di 3», una volta sola, prima del glossario): vita (37 px), pensiero + stile (46 px), opere (43 px). Ogni schermata si costruisce riquadro per riquadro con la voce Kore (MP1, MP2, MP3a/b + MP4 + MP5b) e il riquadro in corso è giallo; alla fine resta ferma 4 s. Non esiste la mappa intera rimpicciolita sotto 34 px.
+- **Nome del prof**: tolto dalla voce dell'introduzione (nuova voce INTRO1c) e dai piè di pagina (ora «LETTERATURA ITALIANA V» e «Pagina N»). Resta solo nella fascia gialla.
+- **Voci nuove** (generate dalla master): INTRO1c, S3c, RF1c, MP1, MP2, MP3a, MP3b, MP4, MP5b. Numeri e anni in lettere; «L'affaire Moro» scritto «L'affèr Moro» nel testo per la voce, «L'affaire Moro» sullo schermo.
+- **Sigle:** «PCI» nelle schede di ripasso è scritto «Partito comunista italiano (PCI)»; la voce nuova dice «Partito comunista italiano».
+- **Transizioni:** dissolvenza di 0,9 s + `trans.wav` a ogni cambio di pezzo. Pause sotto le schede della mappa riempite con `repaso.wav` (la scheda resta ferma 4 s come da regola) e nel ripasso 2.
+- **Rigenerati sul video finale:** `.vtt` (851 cue), `timeline.json`, `scheda_pubblicazione.json` (titolo «Letteratura V · Lezione 24 · Leonardo Sciascia»; `inizio_s`, `quiz_s`, `t_verifica`, `t_compiti`), `testo_youtube.txt`, dispensa slide e PDF mappe con testo invisibile selezionabile.
 
-## 3. Problemi trovati e correzioni
-| Minuto (nuovo) | Tipo | Com'era | Correzione |
-|---|---|---|---|
-| tutto | visivo | prof nel tondo, nome piccolo senza fascia, slide grigio-azzurre, pagine blu scuro per approfondimenti | tutto rifatto nel modello: 40 pagine |
-| 19:19–20:48, 34:33–35:40, 51:04–52:19, 53:14–54:25 (mappe) | contenuto | mappe concettuali **inventate da noi** (6 rami diversi dal prof) con voce corrispondente | sostituite con la **mappa del prof** (`MAPPE/LEZIONE 24.pdf`) impaginata nella nostra grafica, contenuto identico (tolti logo mappe-scuola.com e le due foto). 4 voci nuove: `RM1c`, `RM2c`, `RM3d`, `RMFd` |
-| 25:24 (fine D2) | prof | il pezzo del prof finiva a metà frase («…trova il suo culmine nel romanzo») | D2 ora finisce a «…e i sistematici depistaggi istituzionali.»; D3 inizia da «Questo quadro radicalmente negativo e impietoso…» |
-| tutti i pezzi del prof | sincronia | evidenziazioni delle card scelte a occhio | rifatte dal parlato del prof (§6 e stime in §5) |
-| audio prof | audio | non verificabile se pulito con la catena del kit | rifatto dall'originale: `aresample 48000, highpass 80, arnndn (sh.rnnn), loudnorm −16, alimiter` |
-| VF 55:25 | jingle | scheda «Verifica finale» e «Compiti» senza jingle | aggiunto `quiz.wav` a +0,5 s |
-| tra i pezzi | transizioni | silenzio nelle transizioni | dissolvenza + `trans.wav` in tutte le transizioni |
-| vtt | testo | cue con durata negativa (1:05,153→1:05,144), «Ciasca», «Todomoto», «briantaggio», «debutato», «elento», «deipistagi», «milanti», anni scritti male | rigenerato: 888 cue, max 2 righe, anni in cifre, nomi corretti; testi delle voci Kore presi dai testi originali |
-| scheda | testo | titolo «Leonardo Sciascia» | «Letteratura V · Lezione 24 · Leonardo Sciascia»; secondi aggiornati |
-| picco audio | audio | 0 dBFS circa | −2,1 dBTP |
+## 3. Tabella dei pezzi del prof (misurato sulla trascrizione)
+| Pezzo | Minuto | Inizio (prime parole) | Fine (ultime parole) | Frase intera |
+|---|---|---|---|---|
+| D0 | 0:51–1:33 | «Buongiorno e benvenuti alla lezione su Leonardo Sciascia» | «In effetti c'è quest'altra tematica.» | sì |
+| D1a | 1:39–4:07 | «Leonardo Sciascia. Allora. Comprendiamo…» | «…lo specchio della realtà, d'accordo?» | sì |
+| D1b | 7:04–9:34 | «Allora. Nelle sue prime opere narrative…» | «…lotta contro lo Stato, d'accordo?» | sì |
+| D1c | 10:39–12:19 | «Ecco, poi le cose andarono diciamo così.» | «…Gesto d'accusa. Certamente.» | sì |
+| D1d | 13:38–16:13 | «L'impegno di Sciascia andò ben oltre la pagina scritta.» | «…poi passiamo alla successiva.» | sì |
+| D2 | 20:36–24:01 | «Passiamo alla successiva, dopo tutto, perché sto per introdurre l'opera.» | «…e i sistematici depistaggi istituzionali.» | sì |
+| D3 | 34:18–39:12 | «Questo quadro radicalmente negativo e impietoso trova il suo culmine nel romanzo Todo Modo…» | «…ma che certamente dà fastidio.» | sì |
+I tagli cadono nelle pause tra due frasi; ogni pezzo inizia 0,15 s prima della frase (le frasi di inizio/fine sono lette dalla trascrizione automatica; **non verificate all'ascolto**).
 
 ## 4. Pagine del libro
-Lezione 24: nessuna pagina del libro (regola B-bis non applicabile).
+Lezione 24: nessuna pagina del libro.
 
 ## 5. Cosa NON ho verificato / limiti
-- **Ascolto umano:** non ho ascoltato il video. Fruscio/ronzio/metallico dopo `arnndn` **non verificati**.
-- **Pronuncia della voce Kore — probabili errori, NON corretti:** la trascrizione automatica rende «L'affaire Moro» come «l'affermoro», «L'affermo oro», «La Fer Moro» in RM3d (nuova), S3 e RF1. Va ascoltato; se è sbagliato, scrivere nel testo della voce «Laffèr Moro» e rigenerare. Altre stranezze nella trascrizione delle voci (non verificate all'ascolto): «Todomoto», «Pultima», «Creta» (= «quarta/ultima»). **Non corretto.**
-- **Evidenziazioni delle card** del prof: da parlato (trascrizione Parakeet, tempi parola per parola); incertezza stimata ±2 s. In D2 la card 3 è accesa solo 4,5 s perché il prof alterna le card. Da riguardare in 4 punti.
-- **Sincronizzazione delle schede degli approfondimenti** (compaiono sulla parola chiave della voce): stima ±2 s, dove la trascrizione non trova la parola le schede sono spaziate in modo uniforme.
-- **Sottotitoli:** riletti per le parole sospette e rigenerati; non riletti cue per cue contro l'audio. Punti di dubbio nel parlato del prof, lasciati con la lettura più probabile: «Ve ritiero?» → «Vero?» (~8:12), «pe i supistieri» → «per i misteri» (~38:40), «scomparsi inserisamente» (~39:55). Da riascoltare.
-- **Testa nel riquadro:** webcam originale 184×138 px ingrandita 2,2×: immagine morbida; i capelli toccano il bordo alto già nell'originale (ad es. 2:34): non risolvibile.
-- **Quiz:** riletti contro le slide del prof: domande e risposte giuste coerenti. Invariati. Verifica finale = Excel del prof (10 domande), compiti = PDF del prof (4 domande), testo identico.
-- **Voce narrante senza immagine:** controllati «ecco/guarda/leggi la frase/linea del tempo»: le immagini nominate ora sono sullo schermo (linee del tempo AN1/AN14/AN17, frase evidenziata AN12/AN19/AN24, mappa). Il controllo è sulla trascrizione, non sull'ascolto.
-- **Coda silenziosa 4,2 s** sull'ultima scheda (Compiti): scheda ferma in attesa dell'esercizio.
+- **Ascolto umano:** non ho ascoltato né guardato il video per intero. Pronuncia delle voci nuove (in particolare «L'affèr Moro» in S3c, RF1c, MP4 e i nomi stranieri) **non verificata all'ascolto**: ho letto solo la trascrizione automatica delle voci.
+- **Dimensione del testo della mappa:** 37, 46 e 43 px nelle tre schermate; il minimo richiesto (34 px) è rispettato.
+- **Slide del prof a 2 card:** con 40 px tre card (220–280 px l'una) non entrano nell'area utile (circa 600 px): scelta di dividere la slide.
+- **Evidenziazioni:** tempi da trascrizione automatica; incertezza stimata ±1–2 s. Da riguardare in almeno 4 punti.
+- **Sincronizzazione delle schede degli approfondimenti** sulle parole chiave della voce: stima ±2 s.
+- **Sottotitoli:** nomi e parole sospette corretti; non riletti riga per riga contro l'audio. Dubbi sul parlato del prof (lasciati con la lettura più probabile): «Ve ritiero?» → «Vero?» (~8:12 nel video precedente), «pe i supistieri» → «per i misteri», «scomparsi inserisamente».
+- **Testa nel riquadro:** webcam originale 184×138 px ingrandita 2,2×: immagine morbida; i capelli toccano il bordo alto già nell'originale: non risolvibile.
+- **Quiz:** riletti contro le slide del prof: coerenti. Invariati. Verifica finale = Excel del prof (10 domande), compiti = PDF del prof (4 domande), testo identico.
+- **Voce narrante dell'introduzione dell'8 ottobre:** nessuna; l'introduzione animata non ha il riquadro del prof.
+- **Controllo indipendente (agente separato):** esito nel §6.
 
-## 6. Tabelle richieste
-### Fine e inizio di ogni pezzo del prof (misurato sulla trascrizione)
-| Pezzo | Minuto | Inizio (prime parole) | Fine (ultime parole) | Frase finita |
-|---|---|---|---|---|
-| D0 | 0:48–1:30 | «Buongiorno e benvenuti alla lezione su Leonardo Sciascia» | «In effetti c'è quest'altra tematica.» | sì |
-| D1 | 1:36–10:52 | «Leonardo Sciascia. Allora.» | «…stiamo pure ancora su questa e poi passiamo alla successiva.» | sì |
-| D2 | 21:58–25:24 | «Passiamo alla successiva, dopo tutto, perché sto per introdurre l'opera.» | «…e i sistematici depistaggi istituzionali.» | sì (corretto) |
-| D3 | 36:43–41:36 | «Questo quadro radicalmente negativo e impietoso trova il suo culmine nel romanzo Todo Modo…» | «…ma che certamente dà fastidio.» | sì |
-Tutti i tagli interni ai pezzi del prof (7) sono su pause di 0,6–1,4 s (energia al minimo), non dentro le frasi (misurato).
+## 6. Esito dei controlli severi
+(da completare al momento della consegna: vedi riga «ESITO» qui sotto)
 
-### Secondi vecchio → nuovo (quiz, verifica, compiti)
-| Elemento | Vecchio (s) | Nuovo (s) |
-|---|---|---|
-| Quiz 1 | 1294,9 | 1307,8 |
-| Argomento 2 (T2) | 1300,2 | 1313,1 |
-| Quiz 2 | 2191,1 | 2192,9 |
-| Argomento 3 (T3) | 2196,4 | 2198,2 |
-| Quiz 3 | 3176,6 | 3188,5 |
-| Verifica finale | 3307,9 | 3325,4 |
-| Compiti | 3332,1 | 3349,6 |
-| Durata | 3338,4 | 3355,9 |
-`scheda_pubblicazione.json`, `testo_youtube.txt` e `timeline.json` sono aggiornati a questi secondi; la master rigenera la pagina.
-
-## 7. DA CONFERMARE COL PROF
-Nella mappa del prof le date non coincidono con slide, voce e Excel. Nella mappa ho lasciato le date del prof:
+## 7. DA CONFERMARE COL PROF (dati che non coincidono; nella mappa ho lasciato le date del prof)
 - **Morte dell'Inquisitore**: mappa 1964; voce degli approfondimenti 1963.
 - **L'affaire Moro**: mappa 1978; slide, voce ed Excel (domanda 5) 1979.
-- **Porte aperte (1987)**: presente in slide, voce ed Excel ma non nella mappa.
-- La mappa dice «A ciascuno il suo (1966)», non trattato nelle slide.
+- **Porte aperte (1987)**: in slide, voce ed Excel, non nella mappa. «A ciascuno il suo (1966)»: nella mappa, non nelle slide.
+Refusi del materiale del prof corretti nelle nostre slide: nessuno trovato nelle 7 slide del prof.
 
 ## 8. Come ho verificato
-Trascrizione completa (Parakeet TDT, `trascrivi.py`, 760 segmenti), 3338 fotogrammi a 1/s sul video vecchio, correlazione audio per i tagli del prof (7 tagli, ±0,2 s di partenza poi cercati sul minimo di energia), 112 fotogrammi a 1/30 s sul video nuovo (`controllo_minuti.jpg`), misure ffmpeg/ebur128, controllo contiguità (somma dei pezzi = 100 676 fotogrammi).
+Trascrizione completa (Parakeet TDT, `trascrivi.py`), correlazione audio per i tagli, misure ffmpeg/ebur128/`freezedetect`/`silencedetect`, fotogrammi a 1/30 s (`controllo_minuti.jpg`), `controllo_severo.py` con tesseract, controllo di un agente separato che non ha montato la lezione.

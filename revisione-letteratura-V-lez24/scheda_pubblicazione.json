@@ -1,25 +1,25 @@
 {
  "materia": "Letteratura italiana (V)",
  "titolo": "Letteratura V · Lezione 24 · Leonardo Sciascia",
- "durata_s": 3355.88,
+ "durata_s": 3271.62,
  "argomenti": [
   {
    "n": 1,
    "titolo": "La vita e l'impegno civile",
-   "inizio_s": 91.314,
-   "quiz_s": 1307.847
+   "inizio_s": 94.748,
+   "quiz_s": 1226.722
   },
   {
    "n": 2,
-   "titolo": "Il Consiglio d'Egitto e Il contesto",
-   "inizio_s": 1313.147,
-   "quiz_s": 2192.871
+   "titolo": "Il consiglio d'Egitto e Il contesto",
+   "inizio_s": 1231.622,
+   "quiz_s": 2049.377
   },
   {
    "n": 3,
    "titolo": "Todo modo e le ultime opere",
-   "inizio_s": 2198.171,
-   "quiz_s": 3188.501
+   "inizio_s": 2054.277,
+   "quiz_s": 2980.844
   }
  ],
  "quiz": {
@@ -79,10 +79,10 @@
    ]
   },
   "Q2": {
-   "title": "Quiz 2 · Il Consiglio d'Egitto e Il contesto",
+   "title": "Quiz 2 · Il consiglio d'Egitto e Il contesto",
    "items": [
     {
-     "p": "Dove e quando è ambientato Il Consiglio d'Egitto?",
+     "p": "Dove e quando è ambientato Il consiglio d'Egitto?",
      "a": "A Palermo, a fine Settecento",
      "w": [
       "A Roma, durante gli anni di piombo",
@@ -189,143 +189,138 @@
    ]
   }
  },
- "t_verifica": 3325.391,
- "t_compiti": 3349.578,
+ "t_verifica": 3244.731,
+ "t_compiti": 3267.018,
  "approfondimenti": [
   {
    "id": "AN1",
    "titolo": "La vita di Leonardo Sciascia",
-   "inizio_s": 653.1
+   "inizio_s": 248.234
   },
   {
    "id": "AN2",
    "titolo": "Il campo letterario di Sciascia",
-   "inizio_s": 756.067
+   "inizio_s": 352.101
   },
   {
    "id": "AN3",
    "titolo": "Il giorno della civetta: la scheda",
-   "inizio_s": 827.833
+   "inizio_s": 575.118
   },
   {
    "id": "AN4",
    "titolo": "Come si trattava la mafia",
-   "inizio_s": 891.2
+   "inizio_s": 740.535
   },
   {
    "id": "AN5",
    "titolo": "Le due esperienze politiche",
-   "inizio_s": 967.933
+   "inizio_s": 974.222
   },
   {
    "id": "AN6",
    "titolo": "Gli anni di piombo e il garantismo",
-   "inizio_s": 1031.3
+   "inizio_s": 1038.489
   },
   {
    "id": "AN7",
    "titolo": "Parole chiave del primo argomento",
-   "inizio_s": 1092.0
-  },
-  {
-   "id": "AN8",
-   "titolo": "Leonardo Sciascia",
-   "inizio_s": 1159.533
+   "inizio_s": 1100.089
   },
   {
    "id": "AN9",
-   "titolo": "Il Consiglio d'Egitto: la scheda",
-   "inizio_s": 1525.186
+   "titolo": "Il consiglio d'Egitto: la scheda",
+   "inizio_s": 1442.775
   },
   {
    "id": "AN10",
    "titolo": "Vella e Di Blasi a confronto",
-   "inizio_s": 1594.153
+   "inizio_s": 1512.642
   },
   {
    "id": "AN11",
-   "titolo": "Il Consiglio d'Egitto e Il contesto",
-   "inizio_s": 1647.92
+   "titolo": "Il consiglio d'Egitto e Il contesto",
+   "inizio_s": 1567.309
   },
   {
    "id": "AN12",
    "titolo": "Come Sciascia usa il passato",
-   "inizio_s": 1722.286
+   "inizio_s": 1642.576
   },
   {
    "id": "AN13",
    "titolo": "Il contesto: la scheda",
-   "inizio_s": 1789.253
+   "inizio_s": 1710.443
   },
   {
    "id": "AN14",
    "titolo": "Gli anni del Contesto",
-   "inizio_s": 1858.22
+   "inizio_s": 1780.31
   },
   {
    "id": "AN15",
    "titolo": "Parole chiave del secondo argomento",
-   "inizio_s": 1925.22
+   "inizio_s": 1848.21
   },
   {
    "id": "AN17",
    "titolo": "Le opere principali in ordine cronologico",
-   "inizio_s": 2000.586
-  },
-  {
-   "id": "AN16",
-   "titolo": "Sciascia illuminista",
-   "inizio_s": 2073.353
+   "inizio_s": 1924.477
   },
   {
    "id": "AN18",
    "titolo": "Todo modo: la scheda",
-   "inizio_s": 2497.836
+   "inizio_s": 2353.056
   },
   {
    "id": "AN19",
    "titolo": "Il finale mancato di Todo modo",
-   "inizio_s": 2566.936
+   "inizio_s": 2423.056
   },
   {
    "id": "AN20",
    "titolo": "Todo modo e Mani pulite",
-   "inizio_s": 2647.336
+   "inizio_s": 2504.356
   },
   {
    "id": "AN21",
    "titolo": "I tre gialli a confronto",
-   "inizio_s": 2711.003
+   "inizio_s": 2568.923
   },
   {
    "id": "AN22",
    "titolo": "Candido: la scheda",
-   "inizio_s": 2789.303
+   "inizio_s": 2648.123
   },
   {
    "id": "AN23",
    "titolo": "Le ultime opere e la saggistica",
-   "inizio_s": 2847.069
+   "inizio_s": 2706.79
   },
   {
    "id": "AN24",
    "titolo": "L'eredità e lo stile di Sciascia",
-   "inizio_s": 2927.803
+   "inizio_s": 2788.423
   },
   {
    "id": "AN25",
    "titolo": "Parole chiave del terzo argomento",
-   "inizio_s": 3002.769
+   "inizio_s": 2864.29
   },
   {
-   "id": "AN26",
-   "titolo": "Todo modo",
-   "inizio_s": 3064.536
+   "id": "MAP1",
+   "titolo": "Mappa del professore · 1 di 3",
+   "inizio_s": 2985.744
   },
   {
-   "id": "ANF",
-   "titolo": "Leonardo Sciascia",
-   "inizio_s": 3193.786
+   "id": "MAP2",
+   "titolo": "Mappa del professore · 2 di 3",
+   "inizio_s": 3051.244
+  },
+  {
+   "id": "MAP3",
+   "titolo": "Mappa del professore · 3 di 3",
+   "inizio_s": 3091.184
   }
  ]
 }
