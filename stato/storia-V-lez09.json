@@ -2,13 +2,22 @@
  "tag": "storia-V-lez09",
  "parti": {},
  "manca": "",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "22/11 18:34",
+   "testo": "Lez09: nell'indice il PDF MAPPE LEZIONE 9 risulta MANCANTE. Non invento mappe. Nella consegna del 19/11 c'erano 4 mappe del prof (Storia_Lez9_mappe_prof_originali.pdf, 4 pagine, es. «Come viene istituita la dittatura fascista?») prese non so da dove. Mi confermi che sono del prof e posso ridisegnarle nel modello BES, oppure le tolgo e consegno senza mappe? Intanto lavoro al resto (slide 40 px, introduzione senza riquadro, spiegone Parte 2, audio, dispensa) e preparo testi_voci.json. Voci Kore da mandare: ti scrivo appena il json e' sul ramo voci-storia-V-lez09."
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
    "quando": "22/11 18:34",
    "testo": "correzioni 22/11: presa da claude/ecstatic-heisenberg-bvsgkp"
+  },
+  {
+   "quando": "22/11 18:34",
+   "testo": "scarico video originale (1276 MB) dalla release mazzotti-storia-V"
   }
  ],
- "aggiornato": "2026-11-22 18:34:28"
+ "aggiornato": "2026-11-22 18:34:56"
 }
