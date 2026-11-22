@@ -2,7 +2,12 @@
  "tag": "storia-V-lez13",
  "parti": {},
  "manca": "",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "22/11 18:39",
+   "testo": "Voci pronte su voci-storia-V-lez13 (testi_voci.json, in fondo): MPB1-MPB6 (letture ramo per ramo delle 6 mappe del prof, parole sue) e le riscritture _R2 con sigla spiegata: AN18_R2, AN23_R2, R9_R2, RF3_R2, RIP2B_R2 (RAF e CLN non erano rispiegate). Le altre voci già presenti le riuso dopo controllo. DUE DOMANDE: (1) il prof ha mappe solo per 6 argomenti (arg. 1-3 una sola mappa, poi 5,6,7,8,11): per gli altri non faccio mappe, come da prompt. Confermi? (2) La 'mappa finale della lezione': la monto come riepilogo delle 6 mappe del prof con le sue parole. Se serve una voce, mandatemi un testo MPBF o dite no. Voli: lezione di 109 minuti di prof, 3 Parti, 11 argomenti: tutta ricostruita da zero nel nuovo modello."
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
@@ -10,5 +15,5 @@
    "testo": "correzioni 22/11: presa da claude/vigilant-noether-5kd0bq (chat in avvio, scadenza finale 23/11 11:00 IT)"
   }
  ],
- "aggiornato": "2026-11-22 18:34:52"
+ "aggiornato": "2026-11-22 18:39:35"
 }
