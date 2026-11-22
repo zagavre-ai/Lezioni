@@ -1,31 +1,31 @@
 {
  "materia": "Letteratura italiana (V)",
  "titolo": "Letteratura V · Lezione 15 · La narrativa tra le due guerre",
- "durata_s": 3101.85,
+ "durata_s": 3177.71,
  "argomenti": [
   {
    "n": 1,
    "titolo": "Il dopoguerra e il fascismo",
-   "inizio_s": 37.916,
-   "quiz_s": 741.849
+   "inizio_s": 38.001,
+   "quiz_s": 741.834
   },
   {
    "n": 2,
    "titolo": "Il regime e la sua politica",
-   "inizio_s": 746.849,
-   "quiz_s": 1058.536
+   "inizio_s": 745.801,
+   "quiz_s": 1057.501
   },
   {
    "n": 3,
    "titolo": "Ideologia e cultura",
-   "inizio_s": 1063.536,
-   "quiz_s": 1812.222
+   "inizio_s": 1061.601,
+   "quiz_s": 1810.134
   },
   {
    "n": 4,
    "titolo": "La narrativa tra le due guerre",
-   "inizio_s": 1817.222,
-   "quiz_s": 2985.787
+   "inizio_s": 1814.201,
+   "quiz_s": 2985.968
   }
  ],
  "quiz": {
@@ -250,6 +250,9 @@
    ]
   }
  },
- "t_verifica": 3101.85,
- "t_compiti": 3101.85
+ "mappa_s": 2871.2,
+ "glossario_s": 2990.134,
+ "riepilogo_s": 3040.734,
+ "t_verifica": 3090.133,
+ "t_compiti": 3105.133
 }
