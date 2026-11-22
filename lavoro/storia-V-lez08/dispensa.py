@@ -37,6 +37,7 @@ def costruisci(out_pdf, parti):
     p = tmp + '/arg.png'; covers.argomenti(2).convert('RGB').save(p); pagina(c, p, 'Di cosa parliamo\n' + '\n'.join(covers.ARG))
     for pn, tl, vid in parti:
         for nome, t0, d, *_ in tl:
+            if nome == 'D0': continue
             if nome.startswith('D') and nome[1:].isdigit():
                 top = int(nome[1:]); st = json.load(open(f'{O}/D{top}_stati.json')); vis = set()
                 for s in st:

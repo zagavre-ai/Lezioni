@@ -126,7 +126,7 @@ def build(top,pag0,outdir):
     # il primo stato comincia a 0
     states[0]=(0.0,states[0][1])
     dur=monta_prof(f'D{top}',PIANO[str(top)]['iv'],states,f'{outdir}/D{top}.mkv')
-    json.dump([dict(t=s['t'],pag=s['pag'],att=s['att'],si=s['si'],img=s['img'],orig=s['orig']) for s in st],open(f'{outdir}/D{top}_stati.json','w'),indent=1)
+    json.dump([dict(t=s['t'],pag=s['pag'],att=s['att'],si=s['si'],img=s['img'],win=s['win'],orig=s['orig']) for s in st],open(f'{outdir}/D{top}_stati.json','w'),indent=1)
     return dur,pag
 if __name__=='__main__':
     top=int(sys.argv[1]); pag0=int(sys.argv[2]); out=sys.argv[3]
