@@ -22,7 +22,13 @@ Tutto quello che serve è sul ramo **`scambio-mazzotti`**, cartella `scambio/maz
 3. Lancia `controllo_severo.py` sul tuo video attuale (titolo = titolo esatto della lezione). L'elenco degli errori è la tua lista di lavoro.
 
 ## 1. Cosa rifai
-**Riusa tutto quello che è giusto:** trascrizione, tagli del prof, voci già fatte, quiz, verifica, compiti, fettine del libro, sigla. **Il carattere e la grandezza del testo restano come sono** (Sara, 22/11).
+**Riusa tutto quello che è giusto:** trascrizione, tagli del prof, voci già fatte, quiz, verifica, compiti, fettine del libro, sigla.
+
+**Testo più grande (Sara, 22/11 ore 08:20 California), SOLO se resta nelle 2 ore e mezza:**
+- Visto che ricomponi comunque le slide: testo delle card a **40 px** (mai sotto 36), interlinea **1,5**; titoli, etichette e piè di pagina come sono.
+- Se a 40 px tre card non entrano, la slide si divide: **mai rimpicciolire**. Restano le regole delle card intere e della schermata mai ferma oltre 3 minuti.
+- La dispensa resta identica al video, quindi anche lei con il testo più grande.
+- **Al controllo di 1 ora:** se il testo più grande ti fa sforare le 2 ore e mezza, torni alla grandezza di prima per **tutta** la lezione (mai due grandezze nella stessa lezione) e lo scrivi alla master e nel rapporto.
 
 1. **Mappe**
    - Il prof ha fatto **una sola mappa per lezione** (`MAPPE/LEZIONE N.pdf`, zip `MAPPE-…zip` della release). **Togli tutte le mappe inventate da noi**: ne resta una, la sua.
