@@ -477,5 +477,49 @@
  {
   "nome": "CPT4",
   "testo": "Compito quattro. Spiega che cosa si intende per neocolonialismo e in che modo i Paesi del cosiddetto Terzo mondo continuano a subire una subordinazione economica e finanziaria nonostante la conquista dell'indipendenza politica."
+ },
+ {
+  "nome": "PI3_R2",
+  "testo": "Facciamo un riepilogo di quello che hai appena visto: India e Pakistan. Guarda lo schema e ripeti ad alta voce."
+ },
+ {
+  "nome": "SC6_1_R2",
+  "testo": "Primo: l'Etiopia torna indipendente, l'Eritrea le viene aggregata e la Somalia è indipendente nel millenovecentosessanta."
+ },
+ {
+  "nome": "SC10_1_R2",
+  "testo": "Primo: l'espressione è di Alfred Sauvy e indica i Paesi di nuova indipendenza, poveri e arretrati."
+ },
+ {
+  "nome": "GL1_R2",
+  "testo": "Decolonizzazione: il processo con cui le colonie ottengono l'indipendenza dopo la Seconda guerra mondiale."
+ },
+ {
+  "nome": "GL3_R2",
+  "testo": "Non allineati: gli Stati che rifiutano di schierarsi con uno dei due blocchi della Guerra fredda."
+ },
+ {
+  "nome": "GL4_R2",
+  "testo": "Spartizione: la divisione di un territorio in due Stati, come India e Pakistan nel 1947."
+ },
+ {
+  "nome": "GL7_R2",
+  "testo": "Neocolonialismo: la subordinazione economica dei Paesi indipendenti alle potenze occidentali."
+ },
+ {
+  "nome": "AN5_R2",
+  "testo": "L'indipendenza dell'India. Nel millenovecentoquarantasette il Regno Unito concede l'indipendenza all'India, a causa della forza del movimento nazionalista guidato da Gandhi e Nehru. L'impossibilità di accordo tra la maggioranza indù e la minoranza musulmana porta alla nascita di due Stati: l'Unione Indiana e il Pakistan."
+ },
+ {
+  "nome": "AN7_R2",
+  "testo": "Indipendenze quasi pacifiche. Ceylon, oggi Sri Lanka, ottiene l'indipendenza nel millenovecentoquarantotto e la Malesia nel millenovecentocinquantasette, in modo prevalentemente pacifico. In Indonesia l'Olanda tenta di riprendere il controllo dopo la guerra, ma la resistenza locale porta alla proclamazione della Repubblica nel millenovecentoquarantanove."
+ },
+ {
+  "nome": "AN8_R2",
+  "testo": "La guerra in Indocina. La dura guerra della Francia contro il movimento comunista Vietminh culmina nella sconfitta francese a Dien Bien Phu, nel millenovecentocinquantaquattro. Gli accordi di Ginevra dividono temporaneamente il Vietnam in due Stati: il Nord comunista e il Sud filoccidentale."
+ },
+ {
+  "nome": "AN9_R2",
+  "testo": "Libia, Marocco e Tunisia. La Libia, colonia italiana, dichiara l'indipendenza nel millenovecentocinquantuno sotto una monarchia costituzionale, trasformata poi in Repubblica da Gheddafi nel millenovecentosessantanove. Marocco e Tunisia ottengono l'indipendenza dalla Francia nel millenovecentocinquantasei, in modo prevalentemente pacifico."
  }
 ]
