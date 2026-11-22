@@ -46,7 +46,7 @@ Valgono per **tutte le materie e tutte le lezioni**. Non si discutono e non si c
    - mappa finale della lezione;
    - **verifica di sbarramento** con il test Excel del docente, soglia 80%, sempre dentro il video;
    - sigla finale con l'avviso dei diritti, in basso al centro, bianco, 24 px;
-   - intro «Compiti» di circa 3,5 s con jingle, poi i **compiti del docente** dentro il video.
+   - intro «Compiti» di circa 3,5 s con jingle, poi i **compiti del docente** dentro il video, **letti dalla voce Kore** con le parole esatte del docente mentre compaiono sullo schermo, uno alla volta con il bordo giallo (Sara, 22/11). Per risparmiare voci: **una sola voce** `COMPITI` con tutti i compiti in fila, e i tempi di ogni compito presi dalla sua trascrizione. Mai il nome del docente nella voce. Alla fine una riga a voce e sullo schermo: «Svolgi i compiti qui sotto e premi Consegna: arrivano al docente nel tuo quaderno dei compiti».
 5. **Transizioni:** `trans.wav` più una dissolvenza di 0,3–1 s a **ogni** cambio di pezzo. Mai un taglio secco, mai una scheda in silenzio.
 6. **Durata:**
    - ogni Parte dura 50–60 minuti; fino a circa 65 resta una sola Parte;
