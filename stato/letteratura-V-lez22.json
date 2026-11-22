@@ -446,7 +446,12 @@
   }
  },
  "manca": "",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "22/11 17:09",
+   "testo": "Lez22: servono le voci RB01 (introduzione senza nome del prof) e RB02 (mappa unica, 193 parole) nel ramo voci-letteratura-V-lez22, testi_voci.json pushato alle 17:40 circa. Senza RB02 non posso montare la mappa: se entro le 19:00 non arrivano consegno con le voci vecchie MM per la mappa e lo dico nel rapporto. Grazie."
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
@@ -496,7 +501,11 @@
   {
    "quando": "22/11 16:46",
    "testo": "correzioni 22/11 - 30 min: FATTO: regole lette; mappa BES disegnata (colori+legenda, 6 riquadri ramo per ramo); slide con testo 40 px, max 3 card, p. >180 s divisa; voci richieste alla master (RB01 introduzione senza nome del prof, RB02 mappa unica); timbro voce prof -14,7 dB (ok). IN CORSO: rimontaggio slide. MANCA: montaggio intro+mappa (aspetto voci), pdf con testo, vtt/timeline/scheda, controllo severo e agente separato. Consegna prevista 20:15 (ora italiana)"
+  },
+  {
+   "quando": "22/11 17:09",
+   "testo": "correzioni 22/11 - 50 min: slide rimontate (D1-D4 fatti); attendo voci RB01/RB02 dalla master"
   }
  ],
- "aggiornato": "2026-11-22 16:46:57"
+ "aggiornato": "2026-11-22 17:09:41"
 }
