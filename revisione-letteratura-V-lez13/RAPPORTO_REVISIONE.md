@@ -42,9 +42,11 @@ Ogni taglio cade su un silenzio dopo una parola di chiusura frase; la tabella pe
 Parte 1: argomento 1 227,8→210,3 · quiz 1 1688,0→1631,1 · argomento 2 1693,3→1636,4 · quiz 2 2500,7→2405,6 · argomento 3 2506,0→2410,9 · quiz 3 3098,2→2972,7.
 Parte 2: argomento 4 18,0→60,4 · quiz 4 3059,7→3080,1 · verifica finale →3270,6 · compiti →3288,7.
 
-## Esito controllo_severo
-- Eseguito sui file finali (passo 15 s): **ESITO RESPINTA su entrambe le Parti** (non OK). Il dettaglio del run è andato perso perché il processo è stato fermato per mancanza di CPU prima del salvataggio (macchina a 4 core sovraccarica); non ho quindi dati affidabili su quali controlli falliscano nel montaggio finale. Il run precedente (montaggio intermedio) dava: P1 = 1 slide >3 min, 2 «card sola», 13 pause; P2 = 3 schermate identiche, «…» ×30 (testo del libro), 7 pause. Le correzioni di questo ciclo puntavano a queste voci ma NON sono confermate dal controllo.
-- **Da rifare dalla master o in un nuovo turno**: rilanciare `controllo_severo.py` sui due file finali con `OMP_THREAD_LIMIT=1` e leggere l'esito.
+## Esito controllo_severo (rilanciato sui file finali, passo 20 s; JSON in `controllo_severo_Parte{1,2}.json`)
+**ESITO: RESPINTA su entrambe** (non OK). Misurato:
+- **Parte 1** (49,7 min): nessuna slide/schermata identica > 3 min, nessuna «…», copertina corretta (da 20 s, durata 140 s), −16,5 LUFS. Errori residui: **2 tratti con una card sola oltre 60 s** (24:50 «Le radici del pensiero sveviano» 80 s; 31:10 «Il primo romanzo – Una vita» 160 s) e **12 pause > 2,5 s**. Le «iniziali minuscole» (modello, e, il) sono avvisi OCR.
+- **Parte 2** (55,0 min): nessuna schermata identica > 3 min, −16,2 LUFS. Errori: «copertina non trovata» (la Parte 2 non ha copertina: il controllo è pensato per la Parte 1 — non è un difetto reale), **«…» in 25 campioni** (11:50–16:10, 19:10–25:50, 35:30–36:50, 40:10–42:50: sono pagine del libro dove l'OCR legge male i titoli «T4 – Il fumo», «T5 – La morte del padre», …; non ho verificato a occhio che non ci siano vere card spezzate) e **7 pause > 2,5 s** (code dei jingle del kit su card T/Q).
+- Quindi **non** ho raggiunto l'esito OK: restano da sistemare le due card sole in P1 (24:50 e 31:10) e le pause lunghe.
 
 ## Dispense PDF
-- Rigenerate dal video finale (A4, strato di testo invisibile): vedi file `Letteratura_Lez13_slide.pdf` e `Letteratura_Lez13_mappe.pdf` se presenti nel ramo; se mancanti o con data anteriore al 22/11 sono quelle del ciclo precedente e NON corrispondono al video finale.
+- Rigenerate dal video finale (A4, strato di testo invisibile): `Letteratura_Lez13_slide.pdf` (120 pagine) e `Letteratura_Lez13_mappe.pdf` (2 pagine: copertina «MAPPE» + mappa) generate dal video finale (pagine a 150 dpi, testo OCR invisibile in italiano). Non ho controllato visivamente tutte le pagine.
