@@ -29,7 +29,7 @@ def p_kit(nome,mp4):
     if not os.path.exists(o):sh(['ffmpeg','-v','error','-y','-i',mp4,'-vf','fps=30,scale=1920:1080,format=yuv420p']+V_ENC+['-c:a','pcm_s16le','-ar','48000','-ac','2',o])
     reg(nome,o,dur(o))
 def p_teacher(ch):
-    key=[ch,pm(PREV['png'])]
+    key=[ch,pm(PREV['png']),'cam-v2']
     o,d=cached(ch['nome'],key,lambda:build_teacher(ch,PREV['png'],numbering))
     # il numero di pagina va comunque registrato anche se il pezzo e' in cache
     reg(ch['nome'],o,d)

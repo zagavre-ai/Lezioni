@@ -22,6 +22,10 @@
   {
    "quando": "22/11 18:52",
    "testo": "Ricevuto, grazie. Mappa 3 titolo: 'Cosa accade in Medio Oriente negli anni Sessanta?' (scritto da me con le parole del prof, lo dichiaro nel rapporto). Ho caricato su voci-storia-V-lez16 (testi_voci.json) 14 voci NUOVE: BENV1_R2, DCP1, AP1_R2, AP2A, AP3A, AP5A, MD1_R2, MD2_R2, MD3_R2, VER1, CO1-CO4. Le altre (AP2-7, R, SC, P, GL, RF, FIN, COMPI) le riuso dalla consegna precedente."
+  },
+  {
+   "quando": "22/11 21:55",
+   "testo": "Voci: oltre alle 14 nuove ho aggiunto in testi_voci.json 6 rifacimenti con lo stesso testo, perche' il file grezzo ha l'ultimo 50 ms sopra 0,03 (voce forse troncata): GL1_R2, R2_R2, R3_R2, R5_R2, P6_R2, RV5_4_R2. MD3_R2: testo cambiato in 'L'Egitto' (prima 'Lo Egitto'). Quando arrivano le voci (da domattina) le monto e consegno entro le 10:00 UTC. Il montaggio completo con voci provvisorie e' gia' fatto: 59:21, quiz OK, nessun fermo, schermate mai identiche oltre 3 min."
   }
  ],
  "domande_sara": [],
@@ -65,7 +69,11 @@
   {
    "quando": "22/11 20:35",
    "testo": "20:45 UTC: video completo montato con voci provvisorie 59:21, 1080p 287 MB, quiz 0,0 s OK, nessun fermo del prof, volume OK; dispensa A4 con testo invisibile e PDF mappe fatti; attendo voci nuove (BENV1_R2, DCP1, AP1_R2, AP2A, AP3A, AP5A, MD1-3_R2, VER1, CO1-4) per la codifica finale"
+  },
+  {
+   "quando": "22/11 21:55",
+   "testo": "voci: aggiunti 6 rifacimenti"
   }
  ],
- "aggiornato": "2026-11-22 20:35:00"
+ "aggiornato": "2026-11-22 21:55:51"
 }

@@ -16,8 +16,13 @@ C=["Quali fattori economici favorirono l'età del benessere nei paesi occidental
 "Quali furono i principali momenti di tensione della guerra fredda nel corso degli anni Sessanta e come si sviluppò il confronto tra Stati Uniti e Unione Sovietica nella corsa allo spazio?",
 "Contro quali aspetti della società insorsero i movimenti di contestazione del Sessantotto, quali furono le principali rivendicazioni del movimento femminista e quale fu il bilancio storico di queste proteste?"]
 for i,c in enumerate(C,1):a(f"CO{i}",f"Compito {['uno','due','tre','quattro'][i-1]}. "+c)
+# rifacimenti per bordo non pulito (ultimi 50 ms >= 0,03 nel file grezzo): stesso testo, nome _R2
+RIF=['GL1','R2','R3','R5','P6','RV5_4']
+def rifacimenti(old):
+    T={d['nome']:d['testo'] for d in old}
+    return [{"nome":n+'_R2',"testo":T[n]} for n in RIF if n in T]
 if __name__=='__main__':
     import sys
     old=json.load(open(sys.argv[1]));nm={d['nome'] for d in old}
-    out=old+[d for d in N if d['nome'] not in nm]
+    out=old+[d for d in N+rifacimenti(old) if d['nome'] not in nm]
     json.dump(out,open(sys.argv[2],'w'),ensure_ascii=False,indent=1);print(len(old),'->',len(out))

@@ -33,7 +33,7 @@ def build_teacher(ch,prev_png,numbering):
         inp+=['-ss',f'{x:.4f}','-t',f'{y-x:.4f}','-i',W+'/orig.mp4'];vk.append(k);k+=1
         inp+=['-ss',f'{x:.4f}','-t',f'{y-x:.4f}','-i',W+'/aud/prof_clean.wav'];ak.append(k);k+=1
     for i,(x,y) in enumerate(rr):
-        fc.append(f"[{vk[i]}:v]setpts=PTS-STARTPTS,crop={CAM[2]}:{CAM[3]}:{CAM[0]}:{CAM[1]},scale=412:309:flags=lanczos[c{i}]")
+        fc.append(f"[{vk[i]}:v]setpts=PTS-STARTPTS,crop={CAM[2]}:{CAM[3]}:{CAM[0]}:{CAM[1]},scale=412:309:flags=lanczos,unsharp=5:5:0.55:5:5:0.0,eq=contrast=1.04:saturation=1.05[c{i}]")
         fc.append(f"[{ak[i]}:a]asetpts=PTS-STARTPTS,afade=t=in:d=0.015,afade=t=out:st={y-x-0.015:.4f}:d=0.015[a{i}]")
     fc.append(''.join(f"[c{i}]" for i in range(n))+f"concat=n={n}:v=1:a=0,fps=30,trim=end_frame={nF}[cam]")
     fc.append(''.join(f"[a{i}]" for i in range(n))+f"concat=n={n}:v=0:a=1,pan=stereo|c0=c0|c1=c0[pa]")
