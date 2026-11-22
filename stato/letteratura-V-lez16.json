@@ -323,6 +323,10 @@
   {
    "quando": "15/11 16:01",
    "testo": "lez16: sottotitoli del docente da migliorare (Whisper base con poche correzioni, 53% attacchi). Se hai una trascrizione migliore o un modo per verificarli, dimmelo; altrimenti decidi tu se la Parte puo' essere PRONTA."
+  },
+  {
+   "quando": "22/11 16:51",
+   "testo": "lez16: la mappa del prof ha 29 riquadri (circa 1000 caratteri): a 34 px non entra in una schermata sola. Provo un layout a colonne; se non basta dividerò la mappa in due schermate poi riunite. Dimmi se va bene."
   }
  ],
  "domande_sara": [],
@@ -390,10 +394,14 @@
   {
    "quando": "22/11 16:49",
    "testo": "correzioni 22/11: presa da revisione-letteratura-V-lez16. 16:55 UTC. Piano: slide max 3 card a 40 px, una sola mappa del prof in colori BES ramo per ramo, controllo severo. Consegna prevista 19:30 UTC."
+  },
+  {
+   "quando": "22/11 16:51",
+   "testo": "17:12 UTC. Voci mappa unica richieste (MB01-MB29). Controllo severo sul video vecchio in corso. Stima onesta: serve circa 3 ore per fare tutto (slide a 3 card/40 px, mappa BES unica ramo per ramo, ricodifica): consegna realistica 20:15 UTC, fuori dalle 19:30; faccio il possibile per le 19:30."
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 16 · Umberto Saba",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-22 16:49:45"
+ "aggiornato": "2026-11-22 16:51:50"
 }
