@@ -426,7 +426,7 @@
  },
  {
   "nome": "M5_03",
-  "testo": "Si basa sulla partecipazione alla Cee."
+  "testo": "Si basa sulla partecipazione alla Cee, cioè alla Comunità economica europea."
  },
  {
   "nome": "M5_04",
@@ -498,6 +498,30 @@
  },
  {
   "nome": "R6_R2",
-  "testo": "Ripasso. Per allargare la base democratica, la DC si apre ai socialisti e nascono i governi di centrosinistra guidati da Fanfani e Moro. Le grandi riforme sono la nazionalizzazione dell'energia elettrica, con l'ENEL, e la scuola media unica e obbligatoria fino a quattordici anni. Dopo i fatti d'Ungheria e dopo la morte di Togliatti, il Partito comunista avvia un percorso di autonomia dall'Unione Sovietica."
+  "testo": "Ripasso. Per allargare la base democratica, la DC, cioè la Democrazia Cristiana, si apre ai socialisti e nascono i governi di centrosinistra guidati da Fanfani e Moro. Le grandi riforme sono la nazionalizzazione dell'energia elettrica, con l'ENEL, cioè l'ente energetico nazionale, e la scuola media unica e obbligatoria fino a quattordici anni. Dopo i fatti d'Ungheria e dopo la morte di Togliatti, il Partito comunista avvia un percorso di autonomia dall'Unione Sovietica."
+ },
+ {
+  "nome": "R4_R2",
+  "testo": "Ripasso. Nel millenovecentoquarantotto la Democrazia Cristiana, sostenuta dalla Chiesa e dagli Stati Uniti, ottiene una netta vittoria contro il Fronte democratico popolare. Con De Gasperi e il ministro Einaudi si segue una linea liberista, con la riforma agraria e la Cassa per il Mezzogiorno. In politica estera l'Italia sceglie il blocco occidentale: Piano Marshall, Patto Atlantico e CECA, cioè Comunità europea del carbone e dell'acciaio."
+ },
+ {
+  "nome": "AN4c_R2",
+  "testo": "Vediamo le scelte principali dei governi De Gasperi. Prima la linea economica: è liberista, con il ministro Luigi Einaudi, sostenuta dagli aiuti americani. Poi le riforme: la riforma agraria ridistribuisce le terre ai contadini e nasce la Cassa per il Mezzogiorno, per finanziare il Sud. Infine la politica estera: l'Italia aderisce al Piano Marshall, entra nella NATO, cioè nell'alleanza militare occidentale, nell'aprile del millenovecentoquarantanove e partecipa alla nascita della CECA, cioè la Comunità europea del carbone e dell'acciaio. Con questi interventi gli anni Cinquanta riportano l'Italia a una situazione di normalità e di tranquillità, ancora senza una vera crescita."
+ },
+ {
+  "nome": "SC4_4_R2",
+  "testo": "Piano Marshall, Patto Atlantico e Ceca, cioè Comunità europea del carbone e dell'acciaio: l'Italia sceglie il blocco occidentale."
+ },
+ {
+  "nome": "AN6b_R2",
+  "testo": "Vediamo le riforme del centrosinistra. L'ENEL, cioè l'ente energetico nazionale, nasce dalla nazionalizzazione dell'energia elettrica: lo Stato si fa carico di portare la corrente in tutte le case degli italiani. La scuola media unica è obbligatoria fino a quattordici anni: prima del millenovecentosessantadue i figli dei poveri andavano all'avviamento professionale. Dietro queste riforme c'è il dialogo con i socialisti, voluto da Fanfani e da Moro, della corrente di sinistra della Democrazia Cristiana. Sono riforme volute dai socialisti e approvate dai governi democristiani, per aiutare le classi più povere."
+ },
+ {
+  "nome": "RF2_R2",
+  "testo": "Ripasso finale della seconda parte. Il Centrismo: la Democrazia Cristiana vince nel millenovecentoquarantotto e con De Gasperi attua riforme e sceglie il blocco occidentale. Il boom economico porta una crescita industriale eccezionale e nuovi consumi, ma accentua il divario tra Nord e Sud. Il centrosinistra apre ai socialisti, crea l'ENEL, cioè l'ente energetico nazionale, e la scuola media unica, mentre il Partito comunista cerca l'autonomia dall'Unione Sovietica."
+ },
+ {
+  "nome": "SC6_2_R2",
+  "testo": "Nazionalizzazione dell'energia elettrica: nasce l'Enel, cioè l'ente energetico nazionale."
  }
 ]
