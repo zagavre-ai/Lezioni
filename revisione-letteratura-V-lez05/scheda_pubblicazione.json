@@ -1,7 +1,7 @@
 {
  "materia": "Letteratura italiana (V)",
  "titolo": "Letteratura V · Lezione 5 · Giovanni Verga",
- "durata_s": 3417.733,
+ "durata_s": 3559.867,
  "argomenti": [
   {
    "n": 1,
@@ -310,5 +310,9 @@
     }
    ]
   }
- }
+ },
+ "mappa_s": 3265.0,
+ "glossario_s": 3407.133,
+ "verifica_s": 3541.367,
+ "compiti_s": 3554.867
 }

@@ -52,7 +52,8 @@
     ],
     "e": "Nel 1872 si sposta a Milano, centro culturale più aperto agli stimoli europei, dove frequenta gli ambienti degli Scapigliati."
    }
-  ]
+  ],
+  "start_s": 636.1
  },
  "Q2": {
   "title": "Quiz 2 · La svolta verso il Verismo",
@@ -107,7 +108,8 @@
     ],
     "e": "Svolta segnata dall'influsso del Positivismo e del Naturalismo francese."
    }
-  ]
+  ],
+  "start_s": 1727.467
  },
  "Q3": {
   "title": "Quiz 3 · Il «ciclo dei Vinti»",
@@ -162,7 +164,8 @@
     ],
     "e": "Stanchezza dello scrittore e difficoltà nell'applicare il metodo verista all'alta società."
    }
-  ]
+  ],
+  "start_s": 2005.333
  },
  "Q4": {
   "title": "Quiz 4 · I Malavoglia",
@@ -217,7 +220,8 @@
     ],
     "e": "T8 · La conclusione del romanzo e la partenza di 'Ntoni."
    }
-  ]
+  ],
+  "start_s": 2649.7
  },
  "Q5": {
   "title": "Quiz 5 · Mastro-don Gesualdo e le novelle",
@@ -272,6 +276,7 @@
     ],
     "e": "T9 · La roba."
    }
-  ]
+  ],
+  "start_s": 3260.0
  }
 }
