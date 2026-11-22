@@ -2,7 +2,7 @@
  "tag": "letteratura-V-lez07",
  "parti": {
   "1": {
-   "stato": "REVISIONATA",
+   "stato": "IN_REVISIONE",
    "voci": "kore",
    "quiz_ok": "si",
    "fermi_ok": "si",
@@ -63,10 +63,14 @@
   {
    "quando": "17/11 17:34",
    "testo": "18:34 IT: titolo pag. 19 corretto e riconsegnato su revisione-letteratura-V-lez07"
+  },
+  {
+   "quando": "22/11 16:35",
+   "testo": "correzioni 22/11: presa da revisione-letteratura-V-lez07; consegna prevista 19:15 UTC (20:15 IT)"
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 7",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-17 17:34:23"
+ "aggiornato": "2026-11-22 16:35:07"
 }
