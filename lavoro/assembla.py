@@ -27,12 +27,21 @@ def transizione(a,b):
     sh(['ffmpeg','-v','error','-y','-loop','1','-framerate','30','-t','0.9','-i',fa,'-loop','1','-framerate','30','-t','0.9','-i',fb,'-i',TRANS,
         '-filter_complex',"[0:v][1:v]xfade=transition=fade:duration=0.6:offset=0,format=yuv420p,trim=0:0.6,setpts=PTS-STARTPTS[v];[2:a]aresample=48000,aformat=channel_layouts=mono,atrim=0:0.6,afade=t=out:st=0.4:d=0.2[a]",
         '-map','[v]','-map','[a]','-frames:v','18','-r','30','-c:v','libx264','-preset','veryfast','-crf','14','-pix_fmt','yuv420p','-c:a','pcm_s16le','-ar','48000',out]);return out
+FIX=f'{B}/fix';os.makedirs(FIX,exist_ok=True)
+def nframes(f):
+    return int(sh(['ffprobe','-v','error','-count_packets','-select_streams','v:0','-show_entries','stream=nb_read_packets','-of','csv=p=0',f]).stdout.strip())
+def esatto(p):
+    """copia del pezzo con l'audio lungo esattamente quanto il video (frame/30)"""
+    out=f'{FIX}/'+p.replace('/','_').lstrip('_')
+    if os.path.exists(out) and os.path.getmtime(out)>os.path.getmtime(p): return out,nframes(out)/30
+    n=nframes(p);D=n/30
+    sh(['ffmpeg','-v','error','-y','-i',p,'-c:v','copy','-af',f'apad=whole_dur={D:.6f},atrim=0:{D:.6f}','-c:a','pcm_s16le','-ar','48000',out]);return out,D
 def assembla(parte):
     seq=SEQ[parte];lista=[];tl=[];t=0.0
     for i,n in enumerate(seq):
         if i>0:
-            tr=transizione(seq[i-1],n);lista.append(tr);t+=dur(tr)
-        p=path(n);d=dur(p);lista.append(p);tl.append([tname(n),round(t,3),round(d,3)]);t+=d
+            tr,dtr=esatto(transizione(seq[i-1],n));lista.append(tr);t+=dtr
+        p,d=esatto(path(n));lista.append(p);tl.append([tname(n),round(t,3),round(d,3)]);t+=d
     open(f'{B}/lista_P{parte}.txt','w').write(''.join(f"file '{p}'\n" for p in lista))
     json.dump(tl,open(f'{B}/timeline_Parte{parte}.json','w'))
     return t,tl
