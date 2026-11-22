@@ -73,7 +73,11 @@
   {
    "quando": "22/11 21:24",
    "testo": "21:00 UTC: Parte 1 montata (50,2 min, 374 MB) e Parte 2 (58,9 min) montate con voci provvisorie; rifaccio Parte 2 a CRF 21 (peso > 400 MB), poi controlli (controllo_severo, agente separato), dispensa, PDF mappe, sottotitoli. Mappe: solo le 3 del prof (arg 2, 5, 6) come da risposta master."
+  },
+  {
+   "quando": "22/11 22:47",
+   "testo": "23:00 UTC: primo controllo separato fatto (4 bloccanti, tutti corretti: card in ritardo arg4, tagli a meta' frase, glossario/AN, sigle, pagine). Rifaccio Parte 1 e 2 (circa 75 min), poi nuovo controllo. Voci Kore nuove: in attesa."
   }
  ],
- "aggiornato": "2026-11-22 21:24:35"
+ "aggiornato": "2026-11-22 22:47:56"
 }
