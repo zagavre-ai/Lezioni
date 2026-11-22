@@ -21,6 +21,10 @@
   {
    "quando": "22/11 16:36",
    "testo": "Lez 24: la mappa del prof ha 23 riquadri: a 34 px non entra in 1920x1080 (stimato ~28 px). Uso il minimo possibile e lo scrivo nel rapporto. Voci nuove da generare: MP1-MP5, INTRO1c, S3c, RF1c."
+  },
+  {
+   "quando": "22/11 17:00",
+   "testo": "Lez24: servono SUBITO le voci nuove sul ramo voci-letteratura-V-lez24: MP1, MP2, MP3, MP4, MP5b (mappa in 3 schermate), INTRO1c, S3c, RF1c (tolto il nome del prof e L'affaire Moro). Senza non posso chiudere entro le 19:30 UTC."
   }
  ],
  "domande_sara": [],
@@ -64,7 +68,11 @@
   {
    "quando": "22/11 16:44",
    "testo": "17:05 UTC: mappa in 3 schermate come da master; voce MP5b aggiunta; render in corso (slide 40 px, D1 diviso con approfondimenti)"
+  },
+  {
+   "quando": "22/11 17:00",
+   "testo": "17:00 UTC: tutti i pezzi video pronti tranne INTRO1c/S3c/RF1c/MP1-MP5b (voci nuove non ancora generate)"
   }
  ],
- "aggiornato": "2026-11-22 16:44:20"
+ "aggiornato": "2026-11-22 17:00:19"
 }
