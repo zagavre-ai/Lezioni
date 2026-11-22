@@ -11,9 +11,9 @@
 | Timbro della voce del prof | rapporto acuti(>4 kHz)/(>100 Hz): originale −16,1 dB · pulito −15,7 dB · video finale −15,5 dB (limite −9…−20: **OK**) |
 | Pause > 2,5 s | **0** (`silencedetect` −45 dB, d ≥ 2,5 s) |
 | Scatto quiz | **−0,009 / −0,009 / −0,009 / −0,010 s** (limite 0,05) |
-| Sincronia labbra/voce (audio finale ↔ originale, 3 punti per pezzo) | **−0,01 s** su tutti i 12 punti nella build precedente; dopo l'ultima ricodifica (audio e video del prof identici, cambiano solo card e dissolvenze) ricontrollato D1 = −0,01 s; D2–D4 non ancora rimisurati (NV) |
+| Sincronia labbra/voce (audio finale ↔ originale, 3 punti per pezzo) | **−0,01 s** su tutti i 12 punti, rimisurati sul file finale |
 | Fermi immagine nel riquadro del prof (`freezedetect` −60 dB, ≥ 1 s) | **0** |
-| Controllo severo della master (`controllo_severo.py`) | **IN CORSO al momento della consegna** (lanciato alle 19:09 UTC sul file finale, passo 20 s): l'OCR non era ancora finito. Esito da aggiungere con un commit dopo la consegna; nella build precedente le uniche cose segnalate dall'agente indipendente sono quelle della §7, già corrette |
+| Controllo severo della master (`controllo_severo.py`) | **NON CONCLUSO (NV)**: `controllo_severo.py` (tesseract installato, passo 20 s, lanciato alle 19:09 UTC sul file finale) dopo 30 minuti non aveva ancora scritto l'esito e l'ho fermato. Al suo posto: controllo indipendente dell'agente (§7), misure proprie (card ≤ 3, nessuna schermata identica > 3 min, copertina ≤ 3 min, volume, pause, fotogrammi). La master può rilanciarlo sul file consegnato |
 
 ## 2. Cosa ho cambiato in questa tornata
 1. **Testo a 40 px** (mai sotto 36), interlinea 1,5, in tutte le card; **al massimo 3 card per slide, ogni card una frase intera**, alta quanto il testo (misurata col font vero). Quando 3 card non entrano la slide si divide (da 64 a 99 pagine). Nessuna card resta sola per oltre 60 s (M).
