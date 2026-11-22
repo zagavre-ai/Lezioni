@@ -513,7 +513,11 @@
   {
    "quando": "22/11 18:08",
    "testo": "correzioni 22/11 - 1h30: voci RB01 e RB02 ricevute e verificate (bordi<0,03, testo ok); tutti i pezzi ricodificati; ora assemblaggio, audio, pdf con testo. Poi trascrizione, sottotitoli, controllo severo, agente separato. Consegna prevista 20:15 (ora italiana)"
+  },
+  {
+   "quando": "22/11 18:33",
+   "testo": "correzioni 22/11 - 2h: controllo severo sul primo montaggio: 2 errori (una slide con 2 card per 163 s; silenzio di 4,3 s a fine mappa + 2,7 s a fine Verifica): corretti (slide a 3 card, jingle a fine mappa, Verifica accorciata). In corso: ricodifica delle slide dopo il 2º argomento, poi assemblaggio, sottotitoli, rapporto. Consegna prevista 20:25 (ora italiana)"
   }
  ],
- "aggiornato": "2026-11-22 18:08:01"
+ "aggiornato": "2026-11-22 18:33:30"
 }
