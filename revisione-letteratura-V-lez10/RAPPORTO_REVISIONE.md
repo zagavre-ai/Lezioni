@@ -1,105 +1,94 @@
 # RAPPORTO DI REVISIONE · Letteratura italiana V · Lezione 10 · «Il primo Novecento e la lirica italiana» (Prof. Giorgio Mazzotti)
-17/11/2026 · chat di revisione 10 v2 · ramo `revisione-letteratura-V-lez10` · modello: lezione 11. Ogni dato è etichettato **M** (misurato), **S** (stima / lettura a vista), **NV** (non verificato).
+Correzioni 22/11/2026 · ramo `revisione-letteratura-V-lez10` · presa 16:35 UTC, consegna entro le 19:30 UTC. Ogni dato è **M** (misurato), **S** (stima / lettura a vista) o **NV** (non verificato).
 
-## 1. Misure sul video nuovo (M)
-| | Prima (consegna) | Dopo |
-|---|---|---|
-| Durata | 53:20,2 (3200,2 s) | **50:08,6 (3008,57 s)** |
-| Fotogrammi | 96.005 | **90.257 = durata × 30** |
-| Peso | 172,9 MB | **342,0 MB** (< 400), 4 parti da 90 MB + sha256 (ricomposto = uguale) |
-| Formato | 1920×1080 | 1920×1080, 30 fps, x264 veryfast CRF 19, AAC 192k 48 kHz |
-| Volume totale | – | **−16,0 LUFS**; picco **−2,0 dBTP** (limite −1) |
-| Silenzi > 2,5 s | – | solo 4 punti da 2,79–2,81 s (schede titolo); **nessuno > 3 s** |
-| Scatto quiz (controllo_jingle.py) | – | Q1–Q4 **+0,003 s** (limite 0,05) |
-| Sincronia audio del prof con l'originale | – | 15 punti (3 per pezzo): **scarto max 0,016 s** (limite 0,04), correlazione 0,99–1,00 |
-
-**Tabella secondo vecchio → nuovo** (la durata è cambiata; già aggiornati `scheda_pubblicazione.json`, `quiz_argomenti`, `timeline.json`):
-| Elemento | vecchio | nuovo |
-|---|---|---|
-| Titolo arg. 1 | 257,9 | 240,7 |
-| Quiz 1 | 1198,0 | 1131,0 |
-| Titolo arg. 2 | 1203,0 | 1136,0 |
-| Quiz 2 | 2142,9 | 2024,5 |
-| Titolo arg. 3 | 2147,9 | 2029,5 |
-| Quiz 3 | 2604,8 | 2507,0 |
-| Titolo arg. 4 | 2609,8 | 2512,0 |
-| Quiz 4 | 3025,3 | 2891,9 |
-| Durata | 3200,2 | 3008,6 |
-Verifica finale e compiti **non sono più nel video** (come lezione 11): restano in `verifica_finale.json` / `compiti.json`.
-
-## 2. Confronto con il modello (punti 1–11)
-| # | Esito |
+## 1. Misure sul video finale (M)
+| | Valore |
 |---|---|
-| 1 sigla → dissolvenza → copertina | **corretto**: sigla Letteratura del kit, dissolvenza 0,7 s |
-| 2 copertina | **corretto**: logo, riga Figtree Bold «LETTERATURA ITALIANA V · VIDEOLEZIONE», titolo Bricolage 800 con barretta, card ARGOMENTI (4). Il prof c'è in video vivo (parla davvero) |
-| 3 slide fondo bianco, «01 · ARGOMENTO», card | **corretto**: tutte rifatte (prima fondo azzurro/blu scuro) |
-| 4 piè di pagina | **corretto**: «LETTERATURA ITALIANA V · Prof. Giorgio Mazzotti» + «Pagina N» (N = ordine nel video, 34 pagine), Figtree Bold |
-| 5 riquadro 4:3 | **corretto**: 412×310 a x=1428 y=148, angoli arrotondati, ombra grigia, niente bordo; ritaglio 4:3 dall'**originale** del prof con correzione del kit (contrasto 1,04, saturazione 1,03, hqdn3d, cas 0,35). Il tondo non c'è più |
-| 6 fascia gialla | **corretto**: 2 righe, −3°, sempre visibile dove c'è il prof |
-| 7 slide senza prof | **corretto**: approfondimenti, ripassi, mappa, glossario, riepilogo, titoli, quiz a pagina intera, testo 29–34 px, giallo solo sulla card in corso |
-| 8 font | **corretto**: Bricolage 800 + Figtree; etichette e piè di pagina Figtree Bold (nessun DM Mono) |
-| 9 finale | **corretto**: `Sigla_finale_5s_con_avviso_diritti.mp4` |
-| 10 struttura | **OK**: sigla → presentazione (il prof) → per argomento: titolo, prof, approfondimenti, ripasso (R + schema), quiz → glossario → riepilogo → finale |
-| 11 PDF A4 orizz. | **fatti**: `…_slide.pdf` 34 pagine, `…_mappe.pdf` 1 pagina. Confronto pagina/video: **S** (stesse immagini usate per il video, stato senza evidenziazione e senza prof; non ho fatto il confronto automatico fotogramma per fotogramma → **NV**). Il testo nel PDF è immagine, non selezionabile |
+| Durata | **51:39,8 (3099.8 s)** (50–65 min ✓; prima 53:20) |
+| Fotogrammi | **92994 = durata × 30** |
+| Peso | **347.7 MB** (< 400), 4 parti da 90 MB + sha256 (ricomposto = uguale) |
+| Formato | 1920×1080, 30 fps, x264 veryfast CRF 19, AAC 192k 48 kHz |
+| Volume | **−16,0 LUFS**; picco **−2,0 dBTP** |
+| Pause > 2,5 s (−50 dB) | **nessuna** (prima 6: schede Quiz e mappa; accorciate le schede Quiz e Verifica a 4,4 s e messi due `trans.wav` nella tenuta finale della mappa) |
+| Scatto quiz Q1–Q4 | **+0,003 s** (`controllo_jingle.py`, limite 0,05) |
+| Sincronia audio del prof con l'originale | 36 punti (3 per pezzo, 12 pezzi): **scarto max 0,02 s** (limite 0,04), correlazione ≥ 0,99 |
+| Timbro del prof | energia sopra 4 kHz rispetto a tutto sopra 100 Hz: originale −18,0…−19,4 dB, pulito −13,9…−19,1 dB (4 campioni): dentro −9…−20 dB, voce **non** alterata |
 
-## 3. Problemi trovati e correzioni
-| Minuto (vecchio) | Tipo | Com'era | Correzione |
-|---|---|---|---|
-| tutto | visivo | prof nel tondo, grafica non Spagnolo, fondo blu scuro in titoli/quiz/animazioni, DM Mono | tutto rifatto nel modello (§2) |
-| 23:02–28:30 | visivo | evidenziazione ferma sul punto 1 mentre il prof va avanti | evidenziazioni rifatte dal parlato (tempi della trascrizione). Nessuna card resta evidenziata mentre il prof parla d'altro: dove le slide non coprono il discorso (Verga/Pascoli 8:08–9:39, stampa 19:01–21:39) tutte le card sono spente. Stati più lunghi: card «L'Italia divisa» 4:06 (neutralisti, interventisti, guerra), foto Gozzano 2:15 |
-| ~15:34 (D1/D2) e ~27:12 | audio | i pezzi del prof finivano a metà frase («…Avevo citato, avevo anticipato un po' i crepuscolari») | pezzi rifatti dall'originale tagliando solo nei silenzi, a fine frase (tabella §6) |
-| 4 pezzi, intro | visivo | riquadro non allineato con l'inquadratura reale: la webcam del prof **cambia posizione a 229,5 s** (spostamento) | ritaglio con cambio di posizione a 229,5 s (misurato sui fotogrammi) |
-| 0:00–3:46 | visivo | titolo/argomenti: ok ma nel tondo | copertina con card ARGOMENTI e il prof che parla |
-| mappe | contenuto | 5 mappe nostre (una per argomento + finale) | tolte con le loro voci. Il prof ne ha mandata **una sola** (crepuscolarismo): impaginata dopo il ripasso dell'argomento 3, con voce nuova **R5_MPD1** (generata dalla master in 10 min) |
-| approfondimenti | voce/visivo | frasi «Ecco la mappa…» senza mappa | AN3, AN6, AN9, AN11, MF1 tolti; per le altre voci ogni frase ha una card sullo schermo evidenziata a tempo (allineamento voce ↔ trascrizione della voce) |
-| quiz Q1 | dati | – | verificati i 4 quiz da 5 domande contro il materiale del prof: corretti, invariati |
-| compiti.json | dati | formato `risposta_aperta` | formato `esercizi/aperta`; testo = PDF del prof (4 domande, M) |
-| scheda_pubblicazione.json | dati | titolo con «Parte 1» | «Letteratura V · Lezione 10 · Il primo Novecento e la lirica italiana» |
-| sottotitoli | testo | 677 blocchi con frasi senza senso e nomi storpiati | `.vtt` rifatto dall'originale (601 cue): ~100 correzioni a mano e per regola (D'Annunzio, Pascoli, Gozzano, Rebora, Lacerba, Laudi, Ungaretti, Deledda, Verlaine…), tolte 14 frasi inventate dal riconoscimento (es. «Olha só», «No estoy enquadrando…»). Max 2 righe |
-| Verifica | dati | – | `Verifica_finale…xlsx` = Excel del prof (10 domande, M); `verifica_finale.json` |
-| Audio prof | audio | – | rifatto dall'originale: aresample 48000, highpass 80, arnndn (modello `sh.rnnn` del kit), loudnorm −16 lineare, limitatore; stessi istanti dell'originale |
+Posizioni nel video finale (secondi nuovi, già in `scheda_pubblicazione.json` e `timeline.json`):
+| Elemento | Inizio |
+|---|---|
+| T1 | 4:00 |
+| Q1 | 18:51 |
+| T2 | 18:55 |
+| Q2 | 33:56 |
+| T3 | 34:00 |
+| MAPPA | 40:22 |
+| Q3 | 42:09 |
+| T4 | 42:14 |
+| Q4 | 48:34 |
+| GL | 48:38 |
+| RF | 49:34 |
+| VER | 50:25 |
+| FINALE | 50:29 |
+| CI | 50:34 |
+| COMPITI | 50:38 |
 
-## 4. Pagine del libro in HD
-Lezione 10: **non ha pagine del libro** (regole B-bis). Le slide del prof 8 e 10 contengono foto: la 8 (Gozzano, detto dal prof a 29:47 «Eccolo qua… Guido Gozzano») è usata a 29:46–32:01; la 10 (seconda foto) **il prof non la mostra mai** nell'originale e non è inserita.
+Vecchi secondi (consegna 17/11): titolo arg. 1 240,7 · Quiz 1 1131,0 · titolo 2 1136,0 · Quiz 2 2024,5 · titolo 3 2029,5 · Quiz 3 2507,0 · titolo 4 2512,0 · Quiz 4 2891,9 · durata 3008,6. Tutti i secondi cambiano e sono rigenerati sul video finale: `timeline.json`, `scheda_pubblicazione.json` (con `t_verifica` e `t_compiti`), `quiz_argomenti.json`, `verifica_finale.json`, `testo_youtube.txt`, `.vtt`.
 
-## 5. Cosa NON ho verificato
-- **Ascolto a orecchio**: fruscio, ronzio, «metallico», pronuncia delle voci Kore (nomi: Rebora, Lacerba, Brest-Litovsk, Corazzini; la trascrizione automatica ha letto «Rebola» e «l'accerba» in R4 e RF: **da riascoltare** e, se sbagliati, rigenerare come R6…).
-- Sincronia labiale (dedotta dall'audio, non guardata).
-- Freeze (`freezedetect`) sul riquadro del prof: non eseguito per mancanza di tempo; il prof è sempre video vivo (**S**).
-- Sottotitoli: ~12 frasi sono **ricostruzioni plausibili** di parole storpiate dal riconoscimento (es. «Grazia Deledda», «Ungaretti», «magniloquenti», «dell'impero austro-ungarico»): **da riascoltare** a campione dalla master.
-- Confronto automatico pagina PDF ↔ fotogramma (§2.11).
-- Pronuncia di «Aracoeli»: non presente in questa lezione.
-- Testa del prof a volte al limite alto del riquadro: già nell'originale (webcam 247×138 ingrandita ×2,2, più morbida del modello Spagnolo).
+## 2. Cosa ho cambiato rispetto alla consegna del 20/11
+1. **Testo a 40 px, interlinea 1,5** su tutte le slide del prof e sugli approfondimenti, ripassi, glossario e compiti (una slide, la «I vociani», a 36 px perché a 40 le tre card non entrano e una card sola per 87 s non è ammessa). Se tre card non entrano la slide si divide: 45 pagine (prima 34).
+2. **Al massimo 3 card per slide, ogni card è un punto intero** della slide del prof (nessun «…», nessuna iniziale minuscola; le card hanno l'altezza del loro testo). Le slide a 4 punti (quadro storico, contesto) sono divise 2+2; le altre 3 card entrano insieme.
+3. **Nessuna schermata ferma oltre 3 minuti.** Le slide del prof restano in piedi fino a 5–6 minuti: ho spezzato i pezzi del prof **nei silenzi tra due frasi** e inserito gli approfondimenti animati (voce Kore) a metà argomento, al posto che tutti in fondo: AN2 a 12:26, AN1 a 14:17, AN4 a 21:20, AN6b a 25:17, AN5b a 28:11, AN5 a 29:57, AN10 a 44:08; in fondo restano AN3b, AN7, AN8, AN11b. Il prof non è mai tagliato a metà frase (§5). Il momento di ogni inserto è scelto in un punto in cui il prof ha già detto o sta per dire quel tema: il testo dell'inserto è quello già approvato.
+4. **Copertina: l'introduzione del prof dura 114 s sulla copertina** (era 3:46), poi due slide «Di cosa parliamo» (argomenti 1–2 e 3–4, due card ciascuna) fino a 226 s. Le card degli argomenti **non si accendono**: il prof nomina i crepuscolari e i vociani a 112–125 s, quando la slide è ancora la copertina; non ho forzato un'evidenziazione non vera.
+5. **Una sola mappa, quella del prof** (crepuscolarismo, `MAPPE/LEZIONE 10.pdf`), **ridisegnata nel modello BES**: 12 riquadri in 5 colori con legenda in alto a destra (pesca = concetto centrale, celeste = luogo e date, paglierino = parole chiave, menta = esempi, lilla = conseguenze), testo 32–44 px, stessa struttura, stessi testi e stesse frecce del prof, **costruita ramo per ramo** con le voci Kore M1–M12 (riquadro in giallo finché la voce parla), poi mappa intera ferma 4 s. Posta **alla fine dell'argomento 3, prima del ripasso** (OK della master, 17:00). L'immagine del prof non ha marchi né foto dell'autore (nessuna fonte esterna): niente da togliere. Le vecchie mappe nostre e la voce `R5_MPD1` sono tolte dal video.
+6. **Schede blu come Spagnolo** (titolo argomento, pillola di ripasso con onda audio, Quiz, Verifica, riepilogo) con i jingle `titolo`, `repaso`, `quiz`, `trans`.
+7. **Struttura finale come da regole blindate**: glossario → riepilogo → **verifica di sbarramento** (scheda blu, 10 domande dall'Excel del prof, 80%) → sigla finale con avviso → intro «Compiti» → **compiti del prof** con voce Kore (4 domande, testo identico al PDF del prof). Verifica e compiti sono di nuovo dentro il video (con soglia 80% a `t_verifica`).
+8. **Voci**: nuove M1–M12 (mappa), R6_COMP1–4 (compiti). Ogni voce nuova trascritta e confrontata col testo: anni e numeri corretti (1903, 1911…). Bordi (primi/ultimi 50 ms) < 0,01 nelle voci nuove; nelle vecchie quattro avevano un bordo 0,03–0,055 (P1_AN1 fine, P1_AN3b inizio, P1_AN6b fine, P1_AN11b inizio): dissolvenza di 50 ms su ogni voce nel montaggio. **Rifatte**: `P1_AN5_R2` (la trascrizione leggeva «103» al posto di «1903»: la R2 dice «1903» ✓, usata nel video) e `M11_R2` (usata). `S1_R2` richiesta per controllo: la trascrizione della R2 leggeva «Jolittiana», l'originale «Giolittiana» → **tenuta l'originale S1**. `M6_R2` non è arrivata: **tenuta M6** («Ecco le caratteristiche»; la trascrizione automatica ha letto «Con le caratteristiche»: **NV, da riascoltare**).
+9. **Dispense A4** (`…_slide.pdf` 45 pagine, `…_mappe.pdf` 2 pagine): identiche alle slide del video (senza riquadro del prof e senza nome), con **strato di testo invisibile** selezionabile; copertina con solo materia e titolo; piè di pagina solo «LETTERATURA ITALIANA V» e «Pagina N» (senza nome del docente); PDF mappe con copertina «MAPPE» + mappa.
+10. **Sottotitoli** rifatti sul video finale (601 cue, max 2 righe) con le correzioni della consegna precedente.
 
-## 6. Prof mai tagliato a metà frase (M, trascrizione dell'originale)
-segmenti 33 frame 90257 durata 50.14277777777777 min
-| Pezzo | Fine (orig.) | Ultime parole dette | Frase finita |
-|---|---|---|---|
-| INTRO | 226.40 | «…esami. verso quella verso quella meta. Allora.» | sì |
-| A1 | 932.01 | «…Tutto questo è quindi il primo Novecento.» | sì |
-| A2 | 1626.30 | «…in filosofia di storia si cita sicuramente.» | sì |
-| A3 | 1921.10 | «…propria sofferenza biologica come unica materia d'arte.» | sì |
-| A4 | 2178.60 | «…le loro riflessioni e le loro composizioni.» | sì |
+## 3. Esito del controllo severo (`controllo_severo.py`)
+ESITO_SEVERO_DA_COMPLETARE
 
-| Pezzo | Inizio (orig.) | Prime parole dette | Parola mozzata |
-|---|---|---|---|
-| INTRO | 0.00 | «Buongiorno e benvenuti alla lezione sul primo…» | no |
-| A1 | 226.40 | «qualche ceno storico E io mi sposto…» | no |
-| A2 | 932.01 | «Per tornare a noi, per tornare alla…» | no |
-| A3 | 1627.20 | «Io prima avevo detto Avevo citato, avevo…» | no |
-| A4 | 1923.28 | «Tutto un altro. Tut un altro discorso…» | no |
+## 4. Prof mai tagliato a metà frase (M, trascrizione dell'originale; tagli nei silenzi, inizio 0,15 s prima della frase)
+| Pezzo | Orig. inizio–fine (s) | Prime parole | Ultime parole | Frase intera |
+|---|---|---|---|---|
+| INTRO | 0.00–226.40 | «Buongiorno e benvenuti alla lezione sul…» | «…esami. verso quella verso quella meta. Allora.» | sì (taglio nel silenzio) |
+| D1a | 226.40–746.35 | «qualche ceno storico E io mi…» | «…il partito e la realtà delle masse.» | sì (taglio nel silenzio) |
+| D1b | 746.35–857.11 | «Interventisti. Figure di spicco? Lo sappiamo.…» | «…aeroplani. e da un tragico costo umano.» | sì (taglio nel silenzio) |
+| D1c | 857.11–932.01 | «fino alla conclusione nel 1918 e...…» | «…Tutto questo è quindi il primo Novecento.» | sì (taglio nel silenzio) |
+| D2a | 932.01–1086.96 | «Per tornare a noi, per tornare…» | «…più, e quindi... l'unificazione culturale del paese.» | sì (taglio nel silenzio) |
+| D2b | 1086.96–1237.80 | «Accanto ai fenomeni di urbanizzazione, alle…» | «…la pagina. Questi erano i giornali, adesso.» | sì (taglio nel silenzio) |
+| D2c | 1237.80–1418.34 | «vincono le immagini, le fotografie e…» | «…non funziona più anche prima della guerra.» | sì (taglio nel silenzio) |
+| D2d | 1418.34–1491.44 | «Altri miti sorgono. Il vitalismo di…» | «…iniziasse davvero il Novecento, perché cambia tutto.» | sì (taglio nel silenzio) |
+| D2e | 1491.44–1626.30 | «Gli intellettuali si trovano quindi in…» | «…in filosofia di storia si cita sicuramente.» | sì (taglio nel silenzio) |
+| D3 | 1627.20–1921.10 | «Io prima avevo detto Avevo citato,…» | «…propria sofferenza biologica come unica materia d'arte.» | sì (taglio nel silenzio) |
+| D4a | 1923.28–2057.77 | «Tutto un altro. Tut un altro…» | «…campagna spazio utopico di pace ed armonia.» | sì (taglio nel silenzio) |
+| D4b | 2057.77–2178.60 | «Perre. Pare Pascoli su certe cose.…» | «…le loro riflessioni e le loro composizioni.» | sì (taglio nel silenzio) |
 
-## 7. DA CONFERMARE COL PROF
-- Giuseppe Antonio Borgese (nel parlato) / «Antonio Borgese» (mappa del prof) / articolo «La Stampa 1910» (Excel): nel video uso «Antonio Borgese» solo nella voce della mappa, come scritto nella mappa.
-- Il prof dice che l'obbligo scolastico sale «da 9 a 12 anni»: la slide dice «fino a dodici anni» (coerente).
+Prime e ultime parole di ogni pezzo sono intere (nessuna parola mozzata). Il pezzo D4b inizia con «Perre. Pare Pascoli su certe cose.»: sono parole dell'originale (riconoscimento incerto, **NV**), non tagliate.
 
-## 8. Come ho verificato
-Trascrizione completa dell'originale (`trascrivi.py`, 405 segmenti) letta per intero; fotogrammi ogni 2 s del video vecchio (1/s estratti) e cambi slide dell'originale misurati a 2 fps; trascrizione di tutte le voci Kore per sincronizzare le card; misure sul video nuovo con ffprobe/ebur128/silencedetect/correlazione audio; contact sheet `controllo_minuti.jpg` (1 fotogramma ogni 30 s) guardato per intero.
+## 5. Refusi nel materiale del prof (corretti nelle nostre slide, elenco per la master)
+- Slide del prof «Il panorama culturale…»: «tipica del **fine** Ottocento» → «tipica della **fine dell'**Ottocento».
+- Slide del prof «I vociani…»: «L'esperienza di *Viatico*» → «L'esperienza di «Viatico»» (titolo dell'opera tra virgolette).
+Nessun numero o contenuto del prof modificato. File originali del prof (slide, Excel, compiti, mappa) invariati.
+Da confermare col prof (non toccato): Borgese è «Antonio Borgese» nella sua mappa e «Giuseppe Antonio Borgese» nel suo parlato e nell'Excel («La Stampa 1910»).
 
-## 9. Aggiornamento 20/11 (applicati gli avvisi della master del 17/11 23:35 e seguenti)
-- **Modello = Spagnolo Lezione 1 (avviso 17/11 23:35):** le schede di servizio erano bianche (come la lezione 11) e sono state **rifatte blu scure come Spagnolo** (`MODELLO_Spagnolo_schede.jpg`): titolo dell'argomento «ARGOMENTO 0N / 04» (jingle titolo), pillola «PILLOLA DI RIPASSO · 0N / RIPASSO» con titolo azzurro, onda audio animata e riga della voce (jingle repaso; poi lo schema bianco con la voce), scheda Quiz «PAUSA DEL VIDEO · QUIZ» con argomento in giallo, «5 domande · per continuare almeno l'80%», «Rispondi · premi Check · poi Continua» e pulsante play (jingle quiz), riepilogo blu con i 4 argomenti numerati evidenziati a tempo. Copertina, slide di contenuto, approfondimenti, mappa e glossario restano bianchi.
-- **Misure sul video rifatto (M):** stessa durata **3008,57 s**, **90.257 fotogrammi** = durata × 30, **345,2 MB**, −16,0 LUFS, picco −2,0 dBTP, nessun silenzio > 3 s, scatto quiz Q1–Q4 **+0,003 s** (`controllo_jingle.py`). Stessi secondi di prima: **la tabella §1 e `scheda_pubblicazione.json` non cambiano**. Ricodificati solo titoli, ripassi, quiz e riepilogo; i pezzi del prof sono invariati. `sha256` nuovo, `…_slide.pdf` aggiornato (34 pagine; le schede blu sono incluse nel PDF).
-- **Webcam (avviso 18/11):** riquadro 4:3 412×310 a x=1428 y=148, angoli arrotondati, ombra grigia, ritaglio ingrandito ~2,2× dall'originale con hqdn3d 1.5:1.5:3:3 e cas 0,35: già come richiesto.
-- **Card intere (05:10):** ogni card è un punto intero della slide del prof, titolo in grassetto una volta sola, mai «…»; nessuna card sola in riquadro vuoto.
-- **Non applicato / da decidere:** (a) introduzione del prof sulla copertina **3:46** (oltre i 3 min dell'avviso 05:25, nato per Storia V): non ho inserito la slide «Di cosa parliamo» per non tagliare il discorso; (b) pannello «PAROLE CHIAVE» sotto il prof (avviso 18/11 00:05): non l'ho aggiunto, non avendo il modello; (c) il limite «max 3 card per slide / max 3 min» (Storia V) non applicato: le slide del prof di questa lezione hanno 3–4 punti e restano quelle del prof.
-- Nessun dato del prof modificato (slide, Excel, compiti, mappa invariati).
+## 6. Regole BES
+- **Niente «già visto»**: ogni slide e immagine del prof compare in un solo argomento (verificato sull'elenco delle pagine); l'unica foto del prof usata è quella di Gozzano (slide 8 del prof), nell'argomento 3. La seconda foto del prof (slide 10) **non è mai mostrata dal prof** nell'originale e non c'è.
+- **Sigle**: nel testo non ci sono sigle o abbreviazioni da spiegare (S: lette a vista).
+- **Glossario** presente, con voce. Il colore non è mai l'unico segnale (card gialle con pallino numerato; mappa con testo in ogni riquadro). Nessun lampeggio.
+- **Nome del docente** mai detto né scritto nelle animazioni (voci dicono «il docente»/«il professore»); solo nella fascia gialla. Il «Prof. Giorgio Mazzotti» è nel piè di pagina delle slide del video, come nel modello Spagnolo.
+- **Nessun riquadro del prof nell'introduzione animata** quando non parla: sulla copertina il prof parla dal secondo 0,9; i primi 0,9 s mostrano il prof prima di parlare (**NV**, non ho potuto togliere il riquadro nel primo secondo senza tagliare il parlato).
+- **Foto Gozzano**: presa dalla slide 8 del prof, risoluzione originale 632×850: bassa; **non migliorata** (non è stato possibile in questa sessione): **da migliorare dalla master** se serve (§ regola foto di persone reali).
+
+## 7. Inserti Kore già fatti (nota della master delle 17:00)
+Gli approfondimenti e i ripassi Kore sono a 40 px (non a 30) e a tre card per pagina: nessun muro di testo.
+
+## 8. Cosa NON ho verificato
+- **Ascolto a orecchio**: pronuncia delle voci Kore (soprattutto Rebora, Lacerba, Brest-Litovsk, Corazzini, M6 «Ecco le caratteristiche»), fruscio e «metallico» del prof; labbra/voce (dedotti dall'audio).
+- Sottotitoli: ~12 frasi sono ricostruzioni plausibili di parole storpiate dal riconoscimento («Grazia Deledda», «Ungaretti», «magniloquenti»…): da riascoltare a campione.
+- Controllo `freezedetect` sul riquadro del prof (non eseguito; il riquadro è sempre video vivo, S).
+- Il controllo del §11 da parte di un agente separato: vedi §3.
+- La foto di Gozzano è a bassa risoluzione (§6).
+- Confronto pagina PDF ↔ fotogramma: le pagine sono le stesse immagini del video (stato senza evidenziazione) — **S**.
