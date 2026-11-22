@@ -458,5 +458,69 @@
   "nome": "AN22",
   "testo": "Il governo Ciampi. Nel millenovecentonovantatré l'ex governatore della Banca d'Italia, Carlo Azeglio Ciampi, assume la presidenza del Consiglio. È il primo presidente del Consiglio che non viene dal Parlamento: guida un governo tecnico, sostenuto dai partiti. Firma storici accordi con i sindacati per frenare l'inflazione. E lavora per risanare le casse dello Stato.",
   "lingua": "it"
+ },
+ {
+  "nome": "BENV1_R2",
+  "testo": "Benvenuta e benvenuto alla lezione di Storia. Oggi seguiamo l'Italia dal Sessantotto alla crisi della Prima Repubblica. In questa prima parte vedremo il Sessantotto, l'Autunno caldo, gli anni di piombo e il caso Moro. Alla fine di ogni argomento ti aspetta un breve quiz."
+ },
+ {
+  "nome": "RIP2A",
+  "testo": "Bentornata e bentornato. Prima di cominciare, ripassiamo insieme la prima parte, argomento per argomento."
+ },
+ {
+  "nome": "MP1_0",
+  "testo": "Ecco la mappa. Quali fenomeni politici caratterizzano gli anni Settanta? Al centro c'è il clima politico italiano."
+ },
+ {
+  "nome": "MP1_1",
+  "testo": "Nel millenovecentosessantotto, la contestazione giovanile."
+ },
+ {
+  "nome": "MP1_2",
+  "testo": "Seguita dalla mobilitazione operaia."
+ },
+ {
+  "nome": "MP1_3",
+  "testo": "Negli anni Settanta, l'offensiva terrorista."
+ },
+ {
+  "nome": "MP1_4",
+  "testo": "Di destra, con attentati dinamitardi."
+ },
+ {
+  "nome": "MP1_5",
+  "testo": "Di sinistra, con attentati e sequestri."
+ },
+ {
+  "nome": "MP2_0",
+  "testo": "Ecco la mappa. Come viene affrontata l'emergenza degli anni di piombo? Al centro c'è la situazione politica del Paese."
+ },
+ {
+  "nome": "MP2_1",
+  "testo": "La situazione spinge Berlinguer a proporre un compromesso storico."
+ },
+ {
+  "nome": "MP2_2",
+  "testo": "E spinge la Democrazia cristiana a proporre un governo di solidarietà nazionale."
+ },
+ {
+  "nome": "MP2_3",
+  "testo": "Ma le Brigate rosse rapiscono e uccidono Moro."
+ },
+ {
+  "nome": "MP3_0",
+  "testo": "Ecco la mappa degli anni Novanta. Al centro, negli anni Novanta, ci sono tre rami."
+ },
+ {
+  "nome": "MP3_1",
+  "testo": "Il Partito comunista diventa Partito democratico della sinistra."
+ },
+ {
+  "nome": "MP3_2",
+  "testo": "La Democrazia cristiana perde il ruolo di garante della posizione internazionale del Paese."
+ },
+ {
+  "nome": "MP3_3",
+  "testo": "Una inchiesta giudiziaria, nel millenovecentonovantadue, causa uno scandalo che travolge la Democrazia cristiana e i suoi alleati."
  }
 ]
