@@ -60,11 +60,12 @@ def card(im, x, y, w, testo, attiva, size=40, lh=1.5):
 def slide(titolo, kicker, cards, attiva, pag, parole=None, riquadro=True):
     """cards: lista di frasi intere (max 3); attiva: indice acceso o None"""
     im = cornice(pag=pag, riquadro=riquadro); d = ImageDraw.Draw(im)
-    d.text((80, 160), kicker.upper(), font=font('Figtree-ExtraBold.ttf', 26), fill=TEL)
-    ft = font('BricolageGrotesque-ExtraBold.ttf', 64); righe = wrap(d, titolo, ft, 1250)[:2]
-    y = 205
-    for r in righe: d.text((80, y), r, font=ft, fill=BLU); y += 76
-    d.rounded_rectangle((80, y + 6, 165, y + 12), 3, fill=TEL); y += 40
+    d.text((80, 144), kicker.upper(), font=font('Figtree-ExtraBold.ttf', 26), fill=TEL)
+    ft = font('BricolageGrotesque-ExtraBold.ttf', 58); righe = wrap(d, titolo, ft, 1260)
+    if len(righe) > 2: raise SystemExit('titolo su 3 righe: '+titolo)
+    y = 182
+    for r in righe: d.text((80, y), r, font=ft, fill=BLU); y += 68
+    d.rounded_rectangle((80, y + 4, 165, y + 10), 3, fill=TEL); y += 30
     for i, c in enumerate(cards):
         h = card(im, 80, y, 1300, c, attiva == i); y += h + 22
     if y > 975: raise SystemExit(f'slide troppo piena: y={y} {titolo}')
