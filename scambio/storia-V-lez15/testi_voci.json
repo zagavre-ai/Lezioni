@@ -456,6 +456,26 @@
  },
  {
   "nome": "BEN_R2",
-  "testo": "Benvenuti alla lezione di Storia. Oggi parliamo della decolonizzazione, dal millenovecentoquarantacinque al millenovecentosettantacinque. Faremo un percorso in dieci argomenti: dalle premesse e dalla Conferenza di Bandung all'Asia, all'Africa, al Medio Oriente e al neocolonialismo."
+  "testo": "Benvenuti alla lezione di Storia. Oggi parliamo della decolonizzazione, dal millenovecentoquarantacinque al millenovecentosettantacinque."
+ },
+ {
+  "nome": "DP",
+  "testo": "Di cosa parliamo. Primo, le premesse della decolonizzazione. Secondo, la Conferenza di Bandung e la Guerra fredda. Terzo, la decolonizzazione in Asia: India e Pakistan. Quarto, altre indipendenze in Asia e l'Indocina. Quinto, la decolonizzazione nell'Africa del Nord. Sesto, l'Africa subsahariana e il Corno d'Africa. Settimo, apartheid e conflitti nell'Africa meridionale. Ottavo, il Medio Oriente e la nascita di Israele. Nono, l'Egitto di Nasser e la crisi di Suez. Decimo, il mondo post-coloniale e il neocolonialismo."
+ },
+ {
+  "nome": "CPT1",
+  "testo": "Compito uno. Quali sono le principali premesse storiche e internazionali che favoriscono il processo di decolonizzazione dopo la Seconda guerra mondiale, e quale posizione assumono i Paesi partecipanti alla Conferenza di Bandung del millenovecentocinquantacinque rispetto ai due blocchi della Guerra fredda?"
+ },
+ {
+  "nome": "CPT2",
+  "testo": "Compito due. Analizza il processo di decolonizzazione nel continente asiatico, confrontando le conseguenze della spartizione tra India e Pakistan del millenovecentoquarantasette con la guerra nell'Indocina francese culminata negli accordi di Ginevra del millenovecentocinquantaquattro."
+ },
+ {
+  "nome": "CPT3",
+  "testo": "Compito tre. Illustra le diverse modalità con cui si sviluppa la decolonizzazione in Africa, soffermandoti sulla guerra d'Algeria contro la Francia, sulla crisi del Congo e sull'instaurazione dell'apartheid in Sudafrica."
+ },
+ {
+  "nome": "CPT4",
+  "testo": "Compito quattro. Spiega che cosa si intende per neocolonialismo e in che modo i Paesi del cosiddetto Terzo mondo continuano a subire una subordinazione economica e finanziaria nonostante la conquista dell'indipendenza politica."
  }
 ]
