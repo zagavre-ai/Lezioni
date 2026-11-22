@@ -1,37 +1,37 @@
 {
  "materia": "Letteratura italiana (V)",
  "titolo": "Letteratura V · Lezione 26 · Italo Calvino",
- "durata_s": 3151.7,
+ "durata_s": 3182.9,
  "argomenti": [
   {
    "n": 1,
    "titolo": "La vita",
    "inizio_s": 40.7,
-   "quiz_s": 672.5
+   "quiz_s": 634.14
   },
   {
    "n": 2,
    "titolo": "Tra neorealismo e fiaba",
-   "inizio_s": 677.77,
-   "quiz_s": 1239.36
+   "inizio_s": 639.33,
+   "quiz_s": 1167.47
   },
   {
    "n": 3,
    "titolo": "Il barone rampante e il filone realistico",
-   "inizio_s": 1244.87,
-   "quiz_s": 1943.16
+   "inizio_s": 1172.87,
+   "quiz_s": 1847.77
   },
   {
    "n": 4,
    "titolo": "Il secondo Calvino",
-   "inizio_s": 1948.4,
-   "quiz_s": 2460.72
+   "inizio_s": 1852.9,
+   "quiz_s": 2341.0
   },
   {
    "n": 5,
    "titolo": "Il meta-romanzo e le ultime opere",
-   "inizio_s": 2466.23,
-   "quiz_s": 2978.13
+   "inizio_s": 2346.37,
+   "quiz_s": 2828.04
   }
  ],
  "quiz": {
@@ -88,7 +88,8 @@
      ],
      "e": "Collabora strettamente con la casa editrice Einaudi."
     }
-   ]
+   ],
+   "quiz_s": 634.14
   },
   "Q2": {
    "title": "Quiz 2 · Tra neorealismo e fiaba",
@@ -143,7 +144,8 @@
      ],
      "e": "Le due metà rappresentano la condizione dell'uomo contemporaneo, diviso e incompleto."
     }
-   ]
+   ],
+   "quiz_s": 1167.47
   },
   "Q3": {
    "title": "Quiz 3 · Il barone rampante e il filone realistico",
@@ -198,7 +200,8 @@
      ],
      "e": "Amerigo Ormea affronta il mistero della sofferenza al Cottolengo di Torino."
     }
-   ]
+   ],
+   "quiz_s": 1847.77
   },
   "Q4": {
    "title": "Quiz 4 · Il secondo Calvino",
@@ -253,7 +256,8 @@
      ],
      "e": "Sono descrizioni fatte da Marco Polo all'imperatore Kublai Kan."
     }
-   ]
+   ],
+   "quiz_s": 2341.0
   },
   "Q5": {
    "title": "Quiz 5 · Il meta-romanzo e le ultime opere",
@@ -308,9 +312,10 @@
      ],
      "e": "Le sei qualità: leggerezza, rapidità, esattezza, visibilità, molteplicità e consistenza."
     }
-   ]
+   ],
+   "quiz_s": 2828.04
   }
  },
- "t_verifica": 3146.7,
- "t_compiti": 3146.7
+ "t_verifica": 3081.9,
+ "t_compiti": 3087.9
 }

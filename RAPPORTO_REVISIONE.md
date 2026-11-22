@@ -1,82 +1,45 @@
 # RAPPORTO DI REVISIONE · Letteratura italiana V · Lezione 26 · Italo Calvino (Prof. Giorgio Mazzotti)
-**Versione finale (16/11/2026) · stato: REVISIONATA** · ramo `revisione-letteratura-V-lez26`
+**Correzioni 22/11 fatte** · ramo `revisione-letteratura-V-lez26` · stato `REVISIONATA`
 
-## Risultato in una riga
-Lezione rifatta nella grafica identica a Spagnolo Lez. 1 (fondo bianco, riquadro 4:3, fascia gialla col nome), con mappe del prof, voci e schermo allineati, sottotitoli corretti, finale con avviso diritti e i due PDF A4. Il montaggio dei contenuti, le voci e le slide del prof sono rimasti quelli già approvati.
+## Cosa ho cambiato il 22/11 (secondo `PROMPT_Letteratura_correzioni_22-11.md` e `REGOLE_BLINDATE.md`)
+- **Una sola mappa, quella del prof** (`MAPPE/LEZIONE 26.pdf`, «Italo Calvino 1923-1985»): tolte le 5 mappe per argomento e la mappa finale inventate da noi. Ridisegnata in vettoriale nel **modello BES approvato**: stessa struttura (vita, pensiero, saggista, opere con caratteristica e 5 famiglie di opere), stesse parole, stesse frecce, 5 colori BES con legenda in alto a destra (pesca, celeste, paglierino, menta, lilla), testo 34–50 px. Si costruisce **riquadro per riquadro con la voce Kore** (10 voci `MP1–MP10`, riquadro acceso in giallo mentre la voce parla), alla fine resta ferma 4 s. Compare **una volta sola**, prima del glossario. **Tolti il marchio «Mappe per la scuola» e la foto dell'autore** (decisione di Sara). Anni in lettere nel testo delle voci, in cifre sullo schermo.
+- **Testo a 40 px**, interlinea 1,5, in tutte le card (slide del prof, schede opera, confronti, ripassi, riepilogo, compiti); glossario (tabella) a 34/32 px. Quando due card non entrano insieme la slide si divide.
+- **Slide del prof:** al massimo 2 card per pagina, ogni card è una frase intera del prof (mai «…», mai iniziale minuscola); una pagina nuova a ogni frase in corso, con bordo giallo e pallino giallo quando il prof la comincia. Nessuna pagina oltre 3 minuti (la card più lunga, 182 s, è divisa in due pagine con la parte in corso evidenziata). Nessuna card sola oltre 60 s. Ripassi e riepilogo a pagine di massimo 3 righe.
+- **Copertina:** titolo «Italo Calvino» intero; il riquadro del prof compare solo da 0:44, quando parla davvero; introduzione 30 s.
+- **Dentro il video, come da regole blindate:** scheda «Verifica finale» (10 domande, 80%) e **compiti del prof** (intro con jingle + 4 esercizi letti da Kore, `CP1–CP4`), poi sigla finale con avviso dei diritti. Tolta la scheda «Fine della lezione».
+- **Pause mute > 2,5 s:** accorciate (schede quiz −0,8 s, attacco del pezzo 3 −1,1 s) o spezzate con `trans.wav`; nessuna pausa muta oltre 2,3 s.
+- **Audio:** −16,0 LUFS, picco −1,4 dBTP; jingle quiz a +0,5 s (scarto ≤ 0,004 s, `controllo_jingle.txt`); `trans.wav` e dissolvenze (0,3 s tra pagine, 0,6 s tra slide e schede, 0,4 s verso la sigla finale).
+- **Durata:** 53:03 (3182,9 s), 95.486 fotogrammi = durata × 30; peso 199 MB.
+- File rigenerati sul video finale: `.vtt` (766 cue), `timeline_Parte1.json`, `scheda_pubblicazione(_Parte1).json` (titolo «Letteratura V · Lezione 26 · Italo Calvino»), `quiz_argomenti.json` con `quiz_s`, `verifica_finale.json`, `testo_youtube.txt`.
+- **Dispense A4 orizzontali** identiche al video, con testo vero selezionabile: `Letteratura_Lez26_slide.pdf` (68 pagine, copertina con solo materia e titolo, piè di pagina senza nome del docente) e `Letteratura_Lez26_mappe.pdf` (copertina con «MAPPE» + mappa).
 
-## Misure sul video nuovo (misurato)
-| Controllo | Esito |
-|---|---|
-| Formato | 1920×1080, 30 fps, x264 veryfast CRF 19, AAC 192k 48 kHz |
-| Durata / fotogrammi | 52:31,7 (3151,7 s) · 94.552 fotogrammi (la durata può cambiare: regola 00:40) · OK (50–60 min) |
-| Peso | 190,9 MB (< 400 MB) · tre pezzi `.parte_00/01/02`, sha256 nel file `.sha256` |
-| Volume del parlato | −16,1 LUFS · picco vero **−1,5 dBTP** (limitatore; richiesto ≤ −1) · OK (prima −16,3 e −0,6 dB) |
-| Silenzi > 2,5 s | **nessuno > 3 s** (massimo 2,96 s; i due da 3,5 e 3,9 s sono stati accorciati: 0,6 s di respiro prima del pezzo 3 e 1,0 s di scheda quiz 5). Restano 6 pause da 2,96 s, tutte nelle schede «Pausa del video / Quiz» e nei titoli (2,96–3,9 s, non parlato: sono le pause previste). Nessun silenzio nel parlato. Sparita la coda muta di 7,9 s |
-| Sincronia prof (labbra/mani) | 25 punti a caso: somiglianza vecchio tondo ↔ nuovo riquadro min 0,85, media 0,96 (soglia 0,75) → OK. Le 5 tracce del prof vengono dall'originale con offset costanti (allineamento audio su 3.041 finestre su 3.120) |
-| Sincronia slide–prof | 17 cambi di evidenziazione confrontati col parlato: tutti coerenti (±2 s). Nessuna slide ferma > 60 s mentre il prof parla d'altro |
-| PDF slide ↔ video | 45 pagine; confronto automatico pagina per pagina con il fotogramma finale della slide nel video: differenza media 5,8/255, massima 9,1 (dovuta a evidenziazione e compressione) → coincidono |
-| Quiz | 5 domande per argomento, risposte giuste controllate (una per una); verifica finale: 10 domande **identiche** all'Excel del prof (riga per riga); compiti identici al PDF del prof |
-
-## Confronto con il modello Spagnolo (punto 000)
-| # | Punto | Esito |
-|---|---|---|
-| 1 | Sigla → dissolvenza → copertina | **corretto**: c'era uno stacco secco a 0:15, ora dissolvenza morbida |
-| 2 | Copertina (card ARGOMENTI, riga blu, titolo + barretta) | **corretto**: la card «ARGOMENTI» mancava |
-| 3 | Slide: fondo bianco, «01 · ARGOMENTO», titolo + barretta | **corretto**: era grigio-azzurro, testo minuscolo |
-| 4 | Piè di pagina + «Pagina N» | **corretto**: c'erano «Introduzione / Approfondimento / Ripasso» e numeri ripetuti; ora «Pagina N» progressiva (1–45) |
-| 5 | Riquadro 4:3 | **corretto**: era un tondo con bordo. Ora 410×308, angoli arrotondati, ombra grigia, tutta testa e spalle, ritaglio dall'originale con correzione immagine del kit (contrasto 1,04, saturazione 1,03, hqdn3d 1.5:1.5:3:3, cas 0,35). **Limite**: nell'originale il prof è un riquadro di 243×135 px, quindi il 4:3 è ingrandito 2,3×: la nitidezza è quella che la sorgente permette |
-| 6 | Fascia gialla col nome, due righe, −3° | **corretto**: non c'era; ora sempre visibile quando il prof è in video |
-| 7 | Slide senza prof | **corretto** (testo grande, parole in giallo, stessi logo e piè) |
-| 8 | Font | **corretto (16/11 15:10)**: «01 · ARGOMENTO», riga copertina e piè di pagina in **Figtree Bold maiuscolo spaziato** come nel modello (prima DM Mono); nel video e nei PDF solo Bricolage Grotesque e Figtree |
-| 9 | Finale kit con avviso diritti | **corretto**: c'era un finale nero senza avviso, poi una card «Compiti» (ordine sbagliato). Ora la sigla del kit da 5 s, in coda |
-| 10 | Struttura | **OK**; verifica finale e compiti sono fuori dal video (le card «Verifica» e «Compiti» sono state tolte) |
-| 11 | PDF A4 orizzontali | **creati**: `Letteratura_Lez26_slide.pdf` (45 pagine, senza riquadro e fascia, testo vero) e `Letteratura_Lez26_mappe.pdf` (6 pagine) |
-
-## Problemi trovati e corretti (minuti riferiti al video PRIMA della correzione)
-| Minuto | Tipo | Com'era | Come l'ho corretto |
-|---|---|---|---|
-| tutta | visivo | prof nel tondo, nome senza fascia, fondo grigio, testo minuscolo | grafica Spagnolo (punti 1–7 sopra) |
-| 0:15 | visivo | stacco secco sigla → copertina | dissolvenza di 0,6 s |
-| 1:08 | audio/visivo | il prof dice «ecco appunto una sua fotografia» e sullo schermo non c'è la foto | inserita la foto presa dalla **slide 2 del prof** (immagine `p2`) da 1:07 a 1:14 nella copertina. *Da confermare da Sara: è un'immagine editoriale dentro le slide del prof* |
-| 8:45–10:00 e 17:10–18:15 | visivo | confronti «Calvino e Pavese» e «Lo sguardo di un bambino»: terza card tagliata e sovrapposta al piè | slide rifatte, tutte le card dentro la pagina |
-| 10:00–11:00, 19:40–20:40, 30:30–32:00, 41:10–42:00, 50:20–51:30, 52:10–53:20 | visivo/audio | 5 mappe + mappa finale **inventate** («Barone rampante e realismo»…), con voce che le descriveva | mappe del prof (`LEZIONE 26.pdf`, «Italo Calvino 1923-1985») impaginate con la nostra grafica, **contenuto identico**: vita, pensiero, saggista, opere (neorealismo, problemi sociali, fiabe/avventure, fantascienza, combinatorio). Tolti il logo «Mappe per la scuola» e la foto del personaggio. Una mappa per argomento (parti della mappa del prof) + mappa finale intera. **Voci nuove** M1–M5 e MF (Kore, dalla master) |
-| 11:00–11:45, 20:40–21:25, 33:00–33:45, 41:20–42:00, 51:20–52:10 | audio/visivo | **pillole di ripasso**: la voce legge frasi che non erano sullo schermo (pillola 2: «Il realismo della guerra si unisce…»; pillola 4: frase sulle Città invisibili; pillola 5: «La letteratura non può contenere tutta la realtà…»); pillola 1 chiudeva con la sola riga «Muore a Siena.» per 1 s | schermo = testo letto dalla voce; ogni riga compare quando la voce la dice |
-| 53:19–54:20 | audio/visivo | **glossario**: la voce legge 8 termini, sullo schermo ne comparivano 6 (mancavano «Dimezzato» e «Speculazione edilizia») | 8 termini, a tempo con la voce |
-| 55:05–55:29 | audio/visivo | finale senza avviso diritti; card «Verifica finale» (5 s muta) e «Compiti» (8 s muta) dentro il video | finale kit 5 s con avviso; verifica e compiti restano fuori dal video |
-| 55:29 | audio | coda muta 7,9 s | tolta |
-| `.vtt` | testo | 722 sottotitoli con errori di trascrizione («Nacordo», «Itholo», «Santiago della Svegas», «polliedri», «Inetiamo», «viragno», «Napolone», «spicolazione», «slaque», «tricene»…); **nessun sottotitolo** per benvenuto, ripassi, glossario, riepilogo e finale (buchi di 45–60 s) | riletti i 325 sottotitoli del prof e corretti; aggiunti quelli mancanti (testi delle voci Kore); 769 cue, ≤ 2 righe, nessuna sovrapposizione, tempi sul video nuovo |
-| scheda/quiz | testo | argomenti con nomi diversi da quelli del video («La vita di Calvino», «Scienza, combinatoria e città invisibili» vs «La vita», «Il secondo Calvino») | allineati a quelli del video (scheda, quiz, YouTube) |
-| `compiti.json` | testo | lista di 4 frasi, formato sbagliato | formato `{"titolo","esercizi":[{n,tipo,testo}]}`, testo identico al PDF del prof |
-| `scheda_pubblicazione.json` | testo | titolo «Italo Calvino · Parte 1», tempi del video vecchio | titolo «Letteratura V · Lezione 26 · Italo Calvino», tempi nuovi |
-
-## Aggiornamenti 17/11 (01:20, 01:25, 01:30, 08:15)
-**Pezzi del prof: fine e inizio** (trascrizione corretta; non ascoltato) — tutti finiscono a fine frase.
-| Pezzo | Fine (minuto video) | Ultime parole | Frase finita | Inizio | Primo parole | Inizio pulito |
+## Tabella dei pezzi del prof (inizio e fine, dalla trascrizione corretta; minuti del video nuovo)
+| Pezzo | Inizio | Prime parole | Inizio pulito | Fine | Ultime parole | Frase finita |
 |---|---|---|---|---|---|---|
-| 1 | 7:29 | «…ma ci atteniamo all'autore.» | sì | 0:44 | «Buongiorno e benvenuti…» | sì |
-| 2 | 15:34 | «…diviso e incompleto.» | sì | 11:21 | «Allora, io proseguirei…» | sì |
-| 3 | 27:25 | «…la definitiva chiusura della fase realistica.» | sì | 20:48 | «Continua, visto che c'è una teleologia…» | sì |
-| 4 | 36:23 | «…ciò che inferno non è, per farlo durare. La buona strada.» | sì | 32:32 | «E poi il secondo Calvino…» | **corretto**: prima iniziava con «…al vino.» (coda di «Calvino», mozzata); tolto 1,15 s, il pezzo parte dopo la pausa |
-| 5 | 45:15 | «…trattandolo però in modo piuttosto diverso da come lo trattano altri.» | sì | 41:10 | «Parliamo anche del meta-romanzo…» | sì |
-**Jingle (01:20):** `quiz.wav` del kit presente sulle 5 schede Quiz (con `controllo_jingle.py`, file `controllo_jingle.txt`): scarto 0,000–0,004 s, OK. Le schede titolo/ripasso/finale hanno già i loro jingle (`titolo`, `repaso`, `finale`). Il jingle nel video cadeva 0,07–0,2 s prima dell'atteso: ho aggiornato `quiz_s` nella scheda (inizio scheda − 0,07…0,2 s) invece di spostare l'audio. Nessuna scheda in silenzio nel parlato.
-**Transizioni (08:15):** `trans.wav` del kit su 18 passaggi (inizio e fine di ogni pezzo del prof, mappe, glossario, riepilogo), più dissolvenza di 0,6 s tra slide e schede; nessun taglio secco.
-**Mai immagine ferma del prof (08:15):** la copertina mostra il prof solo da 0:44, quando parla davvero (prima c'è solo la copertina, senza riquadro). `freezedetect` (≥1 s) sul video finale: **0 fermi** dentro le finestre del prof.
-**Sincronia (08:15, misurato):** scarto audio ↔ originale per ognuno dei 5 pezzi (5 punti ciascuno, correlazione a 16 kHz): massimo **0,003 s**; il video viene dallo stesso istante dell'originale (arrotondamento al fotogramma ≤ 0,017 s). Limite 0,04 s: OK.
-**Ombre e card in corso (01:30):** ombre grigie e morbide (nessuna nera né spostata a blocco, nel video e nei PDF); card in corso con bordo **giallo sottile** e numero su pallino giallo, fondo bianco; le altre con bordo grigio chiaro.
-**Picco audio:** −1,5 dBTP, −16,1 LUFS (limitatore dopo l'inserimento dei jingle).
-**Correzione di bug:** nel video precedente l'ultima parte della clip del prof 4 restava agganciata alla scheda successiva (la finestra finiva 25 s dopo); ora termina con il pezzo.
-**Non verificato:** ascolto dei jingle e delle transizioni a orecchio.
+| 1 | 0:44 | «Buongiorno e benvenuti alla lezione su Italo Calvi…» | sì | 7:29 | «…anche dello sfondo storico, ma ci atteniamo all'autore.» | sì |
+| 2 | 10:41 | «Allora, io proseguirei, come dire, anche con le sl…» | sì | 14:54 | «…ondizione dell'uomo contemporaneo, diviso e incompleto.» | sì |
+| 3 | 19:34 | «Continua, visto che c'è una teleologia, dobbiamo a…» | sì | 26:11 | «…Sancice e la definitiva chiusura della fase realistica.» | sì |
+| 4 | 30:55 | «E poi il secondo Calvino, questo era un po' il pri…» | sì | 34:46 | «…La buona strada.» | sì |
+| 5 | 39:08 | «Parliamo anche del meta-romanzo Se una notte d'inv…» | sì | 43:13 | «…piuttosto diverso da come lo trattano altri.» | sì |
+Il pezzo 4 parte dopo la pausa (prima iniziava con «…al vino.», coda mozzata). Sincronia misurata (16/11, ancora valida: pezzi e offset non sono cambiati): scarto audio ↔ originale max 0,003 s; nessun fermo immagine ≥ 1 s nel riquadro del prof.
 
-## Aggiornamento 17/11 (mattina): silenzi > 3 s tolti e secondi della scheda
-Letti di nuovo gli aggiornamenti della master: la lezione contiene solo mappe del prof (con voci nuove), nessuna voce con «Aracoeli»/nomi latini da correggere. Tolti i due silenzi > 3 s. Secondi aggiornati in `scheda_pubblicazione.json` e `testo_youtube.txt`; jingle dei quiz ricontrollato (scarto ≤ 0,004 s, `controllo_jingle.txt`). 0 fermi immagine del prof, picco −1,5 dBTP, −16,1 LUFS.
-| Argomento | inizio_s (v1 → ora) | quiz_s (v1 → ora) |
-|---|---|---|
-| 1 | 40.55 → 40.7 | 693.08 → 672.5 |
-| 2 | 698.08 → 677.77 | 1284.78 → 1239.36 |
-| 3 | 1289.78 → 1244.87 | 2027.95 → 1943.16 |
-| 4 | 2032.95 → 1948.4 | 2583.42 → 2460.72 |
-| 5 | 2588.42 → 2466.23 | 3126.18 → 2978.13 |
-`durata_s`: 3329,7 → 3151,7.
+## Controllo severo
+(in corso: lo aggiorno appena finisce)
+
+## Voci nuove (MP1–MP10, CP1–CP4): controllo
+Trascritte tutte con `trascrivi.py` e confrontate con il testo: corrispondenza completa (numeri letti correttamente); bordi: ampiezza negli ultimi 50 ms < 0,03 in tutte. **Da riascoltare** (il riconoscimento ha capito diversamente): MP1 «Ecco la mappa» (capito «Con la mappa»), CP4 «Quarto esercizio» (capito «Tu esercizio»), MP8 «dimezzato» e MP7 «Marcovaldo» (capiti «di Mezzato» / «Marco Valdo»), MP9 «cosmicomiche». Il servizio ha segnato MP1, MP7, MP9 «durata fuori misura» (voce lenta, nessun taglio). Se la master le sente sbagliate: rigenerare con `_R2` e rimontare.
+
+## Refusi / anomalie del materiale del prof (da non correggere, per Sara)
+- «Siena nel 1983» detto dal prof (morte nel 1985, come nella sua mappa); slide del prof «Muore a Siena nel 1983».
+- *La speculazione edilizia*: 1957 nella slide, **1963 nella mappa** del prof: la mappa è riportata com'è.
+- Nella mappa del prof compare «Marcovaldo … 1963».
+
+## Cosa NON ho potuto verificare
+- **Ascolto**: non posso ascoltare audio. Le sincronie voce-schermo sono derivate dalle pause misurate; i sottotitoli del prof sono corretti per contesto (non ascoltati); le voci nuove sono verificate solo con trascrizione automatica.
+- Rumore/timbro della voce del prof: audio del pezzo come già approvato (alto-passa 80 Hz presente); il timbro (−9…−20 dB sopra 4 kHz) non l'ho rimisurato dopo la ricodifica.
+- Tempi dei sottotitoli delle voci Kore (benvenuto, ripassi, glossario, mappa, compiti): stima dalle pause (±0,3–0,5 s).
+- Immagine del ritratto di Calvino a 1:07–1:14: viene dalla slide 2 del prof (editoriale, miglioramento non applicato).
+- Nel video la mappa dura 2:23 (10 voci); il confronto delle parole con la mappa del prof è fatto a mano, riga per riga.
 
 ## Correzioni dopo il controllo della master (16/11)
 1. **Slide vuote:** la scheda «Il visconte dimezzato» (e tutte le altre slide senza prof: schede opera, linee del tempo, confronti, analisi, parole chiave) restava a solo titolo fino alla prima card. Ora la prima card/punto/riga è presente dal primo fotogramma; nei ripassi, nel glossario e nel riepilogo tutte le righe sono presenti sbiadite e si accendono a tempo con la voce; le mappe partono con centro + primo ramo. Controllo: nessuna pagina ha uno stato senza contenuto (misurato su tutte le 45 pagine).

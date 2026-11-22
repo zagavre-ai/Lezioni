@@ -1,0 +1,97 @@
+{
+ "titolo": "Verifica finale · Letteratura V · Lezione 26 · Italo Calvino",
+ "soglia": 0.8,
+ "t_inizio_s": 3081.9,
+ "domande": [
+  {
+   "p": "In quale anno esce il romanzo \"Il visconte dimezzato\"?",
+   "a": "1952",
+   "w": [
+    "1947",
+    "1957",
+    "1963"
+   ]
+  },
+  {
+   "p": "Chi suggerisce a Calvino di puntare sulla componente fantastica nei primi anni Cinquanta?",
+   "a": "Vittorini",
+   "w": [
+    "Pavese",
+    "Eco",
+    "Biagio"
+   ]
+  },
+  {
+   "p": "A quale voce è affidato il racconto delle gesta del protagonista nel romanzo \"Il barone rampante\"?",
+   "a": "Al fratello minore Biagio",
+   "w": [
+    "Al protagonista stesso in prima persona",
+    "Al bandito Gian dei Brughi",
+    "Al mercante veneziano Marco Polo"
+   ]
+  },
+  {
+   "p": "Quale opera di Calvino del 1957 è dedicata al proliferare delle costruzioni che deturpavano la riviera ligure?",
+   "a": "La speculazione edilizia",
+   "w": [
+    "La nuvola di smog",
+    "La giornata d'uno scrutatore",
+    "Palomar"
+   ]
+  },
+  {
+   "p": "Chi è il protagonista del breve romanzo realistico \"La giornata d'uno scrutatore\"?",
+   "a": "Amerigo Ormea",
+   "w": [
+    "Medardo di Terralba",
+    "Cosimo di Rondò",
+    "Signor Palomar"
+   ]
+  },
+  {
+   "p": "In quale istituto religioso torinese è ambientato il seggio elettorale di \"La giornata d'uno scrutatore\"?",
+   "a": "Il Cottolengo",
+   "w": [
+    "La Purificazione",
+    "L'osservatorio astronomico statunitense",
+    "L'Università di Harvard"
+   ]
+  },
+  {
+   "p": "Quanti racconti contiene complessivamente l'opera \"Le città invisibili\"?",
+   "a": "55",
+   "w": [
+    "10",
+    "11",
+    "5"
+   ]
+  },
+  {
+   "p": "Quale caratteristica singolare presenta la narrazione del romanzo \"Se una notte d'inverno un viaggiatore\"?",
+   "a": "È scritto alla seconda persona e si rivolge al Lettore con il \"tu\"",
+   "w": [
+    "È scritto interamente dal punto di vista di un bambino",
+    "È narrato esclusivamente in terza persona da un narratore onniscente",
+    "Utilizza solo la prima persona di una lettrice di nome Ludmilla"
+   ]
+  },
+  {
+   "p": "A cosa fa riferimento il titolo dell'opera \"Palomar\" del 1983?",
+   "a": "Al nome del protagonista e a un famoso osservatorio astronomico statunitense",
+   "w": [
+    "Al nome di un'industria metalmeccanica altamente inquinante",
+    "Al titolo di un poema cavalleresco di Ludovico Ariosto",
+    "Al nome del sobborgo cittadino in cui si stendono i panni candidi"
+   ]
+  },
+  {
+   "p": "Quale opera viene considerata come l'ultimo lavoro e il testamento letterario di Calvino?",
+   "a": "Lezioni americane",
+   "w": [
+    "Sotto il sole giaguaro",
+    "La strada di San Giovanni",
+    "Collezione di sabbia"
+   ]
+  }
+ ]
+}
