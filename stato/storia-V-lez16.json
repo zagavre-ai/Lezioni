@@ -2,7 +2,12 @@
  "tag": "storia-V-lez16",
  "parti": {},
  "manca": "da confermare col prof: 7 approfondimenti (testi scritti dal parlato); molte slide ferme oltre 3 min (card intere)",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "22/11 18:43",
+   "testo": "Lez16 presa (correzioni 22/11). Materiali scaricati, trascrizione in corso. Domande: (1) il prof ha 3 mappe (Stati Uniti, URSS, Medio Oriente) e nessuna mappa finale unica: nel video metto solo queste 3, ciascuna alla fine dell'argomento in cui il prof ne parla; NON faccio una mappa finale inventata. La mappa del Medio Oriente non ha la domanda-titolo: uso solo 'IN MEDIO ORIENTE'. Nella mappa il connettore 'lo' (Egitto / Stato di Israele) sembra un refuso del prof: lo riporto com'e' e lo segnalo nel rapporto. OK? (2) Le voci gia' presenti su voci-storia-V-lez16 (AN, AP, R, SC, GL, RF, FIN) le riuso se i testi non dicono il nome del prof; rifaccio BENV1, MD1-3 (dicono 'professor Mazzotti'). Mandero' presto testi_voci.json con le nuove (mappe ramo per ramo, benvenuto senza nome, eventuali approfondimenti extra)."
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
@@ -28,7 +33,11 @@
   {
    "quando": "22/11 18:37",
    "testo": "correzioni 22/11: presa da claude/lucid-bohr-33zvvw"
+  },
+  {
+   "quando": "22/11 18:43",
+   "testo": "correzioni 22/11: lavoro in corso, voci provvisorie dove mancano"
   }
  ],
- "aggiornato": "2026-11-22 18:37:05"
+ "aggiornato": "2026-11-22 18:43:45"
 }
