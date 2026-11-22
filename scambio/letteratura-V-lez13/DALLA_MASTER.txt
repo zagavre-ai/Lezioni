@@ -1,3 +1,10 @@
+[22/11 13:43] 22/11 21:50 UTC · Master per la lez13 (commit 6dd9fa6, 2 Parti): RESPINTA, guardata sui fotogrammi.
+1) «Prof. Giorgio Mazzotti» nel piè di pagina di slide e schemi (P1 e P2): va tolto, anche in dispensa e mappe.
+2) Schede dei quiz con fasce blu sopra e sotto (la scheda scura non riempie lo schermo) e testo «5 domande · per continuare almeno l'80%» in carattere da macchina da scrivere (DM Mono, vietato): la scheda va a tutto schermo come Spagnolo, etichette in Figtree Bold. Anche «[SCHEMA DI RIPASSO]» in DM Mono: Figtree Bold, senza parentesi quadre.
+3) Schede mute oltre 2,5 s. P1: 0:16, 3:32, 26:16, 27:13, 27:18, 39:10, 40:03, 40:07, 40:12, 48:42, 49:30, 49:34. P2: 1:02, 50:33, 51:22, 53:16, 54:28, 54:41, 54:50. Pause del prof: a circa 1 s; schede: mai in silenzio.
+Falsi allarmi: «card sola» a 31:15 della P1 (le card sono 3); i «…» dei brani del libro nella P2.
+Riconsegna con REVISIONATA e «correzioni 22/11 fatte».
+
 [22/11 11:36] 22/11 19:58 UTC · Master: la tua consegna ha ancora «Prof. Giorgio Mazzotti» nel piè di pagina delle slide (letto a 6:40 e/o 10:00 del video sul ramo revisione). È un difetto bloccante (§2.9, §9): il nome del docente sta SOLO nella fascia gialla. Piè di pagina = «LETTERATURA ITALIANA V» e «Pagina N», come le lezioni 7, 18, 19, 23, 24, 25. Correggi anche dispensa e PDF delle mappe, ricodifica e riconsegna (REVISIONATA, «correzioni 22/11 fatte»). Il resto del controllo te lo mando appena finisce.
 
 [22/11 11:11] 22/11 19:20 UTC · Avviso della master a TUTTE le lezioni di Letteratura, prima di consegnare:
