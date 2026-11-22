@@ -1,0 +1,13 @@
+Q4_4_Q OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
+T5_TIT DA CONTROLLARE frasi trovate 0 / 1 parole diverse 2 (vere 2) tentativi 1
+R5_4 OK frasi trovate 1 / 1 parole diverse 4 (vere 0) tentativi 1
+Q5_2_Q OK frasi trovate 1 / 1 parole diverse 1 (vere 1) tentativi 1
+Q5_4_S OK frasi trovate 1 / 1 parole diverse 2 (vere 2) tentativi 1
+P6_APP OK frasi trovate 1 / 1 parole diverse 6 (vere 4) tentativi 1
+R6_5 OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
+Q6_2_S OK frasi trovate 1 / 1 parole diverse 2 (vere 4) tentativi 1
+Q6_5_Q OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
+R7_1 OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
+Q7_1_Q OK frasi trovate 1 / 1 parole diverse 3 (vere 3) tentativi 1
+Q7_3_Q OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
+Q7_5_S OK frasi trovate 1 / 1 parole diverse 0 (vere 1) tentativi 1
