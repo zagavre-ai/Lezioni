@@ -1,43 +1,43 @@
 {
  "materia": "Letteratura italiana (V)",
  "titolo": "Letteratura V · Lezione 1 · L'età del Naturalismo e del Decadentismo",
- "durata_s": 3578.067,
+ "durata_s": 3559.367,
  "argomenti": [
   {
    "n": 1,
    "titolo": "Il Regno d'Italia e il panorama politico",
-   "inizio_s": 184.9,
-   "quiz_s": 585.267
+   "inizio_s": 186.4,
+   "quiz_s": 581.6
   },
   {
    "n": 2,
    "titolo": "Sviluppo economico, sociale e culturale",
-   "inizio_s": 590.567,
-   "quiz_s": 1048.267
+   "inizio_s": 585.2,
+   "quiz_s": 1037.3
   },
   {
    "n": 3,
    "titolo": "Istituzioni culturali e il ruolo degli intellettuali",
-   "inizio_s": 1053.567,
-   "quiz_s": 1564.767
+   "inizio_s": 1040.9,
+   "quiz_s": 1544.5
   },
   {
    "n": 4,
    "titolo": "La storia della lingua italiana",
-   "inizio_s": 1570.067,
-   "quiz_s": 2017.5
+   "inizio_s": 1548.1,
+   "quiz_s": 1989.667
   },
   {
    "n": 5,
    "titolo": "Charles Baudelaire e il nuovo modello di artista",
-   "inizio_s": 2022.8,
-   "quiz_s": 2628.9
+   "inizio_s": 1993.267,
+   "quiz_s": 2643.867
   },
   {
    "n": 6,
    "titolo": "Le innovazioni poetiche di Baudelaire",
-   "inizio_s": 2634.2,
-   "quiz_s": 3330.633
+   "inizio_s": 2647.467,
+   "quiz_s": 3337.667
   }
  ],
  "quiz": {
@@ -94,7 +94,8 @@
      ],
      "e": "Nel 1882 l'Italia stringe la Triplice Alleanza e avvia le prime spedizioni coloniali nel Corno d'Africa."
     }
-   ]
+   ],
+   "inizio_s": 581.6
   },
   "Q2": {
    "title": "Quiz 2 · Sviluppo economico, sociale e culturale",
@@ -149,7 +150,8 @@
      ],
      "e": "Il mondo cattolico resta intransigente verso lo Stato; sono gli anarchici a promuovere insurrezioni popolari."
     }
-   ]
+   ],
+   "inizio_s": 1037.3
   },
   "Q3": {
    "title": "Quiz 3 · Istituzioni culturali e il ruolo degli intellettuali",
@@ -204,7 +206,8 @@
      ],
      "e": "Il rifiuto estetizzante è del Decadentismo e di D'Annunzio; l'osservazione distaccata è di Verga e del Verismo."
     }
-   ]
+   ],
+   "inizio_s": 1544.5
   },
   "Q4": {
    "title": "Quiz 4 · La storia della lingua italiana",
@@ -259,7 +262,8 @@
      ],
      "e": "La poesia oscilla tra lo stile elevato di Carducci e D'Annunzio e i linguaggi più semplici di Pascoli e degli Scapigliati."
     }
-   ]
+   ],
+   "inizio_s": 1989.667
   },
   "Q5": {
    "title": "Quiz 5 · Charles Baudelaire e il nuovo modello di artista",
@@ -314,7 +318,8 @@
      ],
      "e": "Esplora il conflitto tra bene e male, l'orrore per la mediocrità borghese e l'allegoria della vita cittadina moderna."
     }
-   ]
+   ],
+   "inizio_s": 2643.867
   },
   "Q6": {
    "title": "Quiz 6 · Le innovazioni poetiche di Baudelaire",
@@ -369,7 +374,8 @@
      ],
      "e": "L'aureola, caduta nel fango, rappresenta la perdita di dignità sacrale del poeta nella società borghese."
     }
-   ]
+   ],
+   "inizio_s": 3337.667
   }
  },
  "t_verifica": 3808.729,
@@ -440,5 +446,7 @@
    "titolo": "Naturalismo e Decadentismo",
    "inizio_s": 3555.73
   }
- ]
+ ],
+ "verifica_s": 3546.367,
+ "compiti_s": 3555.367
 }

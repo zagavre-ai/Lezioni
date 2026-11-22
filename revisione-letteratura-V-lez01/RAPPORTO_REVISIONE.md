@@ -1,117 +1,119 @@
 # RAPPORTO DI REVISIONE · Letteratura italiana V · Lezione 1 · L'età del Naturalismo e del Decadentismo
-Prof. Giorgio Mazzotti · revisione del 16–17/11/2026 · stato: **REVISIONATA** (la master la guarda prima di sostituire il video su Vimeo)
+Correzioni del 22/11/2026 (prima consegna 16–17/11) · stato: **REVISIONATA, «correzioni 22/11 fatte»** · durata misurata 59:19,4
 Video: `Letteratura_Lez1_Parte1_1080p.mp4` (a pezzi `.parte_00…`, sha256 nel file `.sha256`).
-Etichette: **misurato** = misurato con uno strumento · **stima** = dedotto · **non verificato** = non ho potuto.
+Etichette: **misurato** = con uno strumento · **stima** = dedotto · **non verificato** = non ho potuto.
 
-## 1. Misure sul video nuovo
+## 1. Cosa ho cambiato il 22/11
+- **Testo delle slide a 40 px** (interlinea 1,5) in tutte le slide del docente, approfondimenti, ripassi, glossario, riepilogo; mai sotto. Dove tre card non entrano la slide si divide. Titoli, etichette e piè come prima.
+- **Al massimo 3 card per slide, ogni card una frase intera** (iniziale maiuscola, niente «…»); le frasi lunghe delle slide del docente sono state spezzate **al punto** (es. «Economia e divario Nord-Sud…» / «La successiva svolta protezionistica…»), parole identiche. Le card sono nell'ordine in cui il docente le dice (nell'argomento 1 «Politica estera» viene detta prima di «L'involuzione di fine secolo»; nel 3 «L'editoria» prima di «Scuola»).
+- **Nessuna slide ferma oltre 3 minuti**: ogni pagina dura al massimo ≈ 2,7 minuti (numero di pagina diverso); dove il docente parla a lungo prima della prima card (argomenti 2 e 5) c'è una slide «In questo argomento» invece della card sola. Bordo giallo all'inizio della frase (±1 s, **stima** dai tempi della trascrizione).
+- **Una sola mappa, quella del docente** (`MAPPE/LEZIONE 1.pdf`, su Baudelaire), ridisegnata nel modello BES approvato: 12 riquadri, colori del disciplinare con legenda in alto a destra (pesca = concetto centrale, celeste = date, paglierino = parole chiave, menta = opere ed esempi, lilla = conseguenze), testo 35–50 px, frecce blu notte, costruita **ramo per ramo** con la voce Kore (`R10`), riquadro in giallo finché la voce parla, mappa intera ferma 4 secondi. Sta alla fine dell'argomento 5 (prima del ripasso), una volta sola. **Ridisegnata senza il marchio di mappe-scuola.com e senza la fotografia** (decisione di Sara). Le parole sono del docente ma **condensate** per stare in 12 riquadri a 35–50 px (come nel modello Gadda): nel riquadro del Realismo non ci sono «le persone sono miseri e tristi» (refuso del docente: accordo) e «Parigi di quell'epoca». Nel PDF `…_mappe.pdf` c'è la stessa mappa.
+- Le 6 mappe nostre sono già state tolte il 17/11.
+- Copertina: titolo esatto «L'età del Naturalismo e del Decadentismo»; la copertina compare per 167 s (introduzione animata senza riquadro del docente + il docente che si presenta, 2:12): sotto i 180 s.
+- **Dispensa A4 slide e PDF mappe** rifatti identici al video, **con strato di testo invisibile** (selezionabile e leggibile dalla sintesi vocale); copertina solo con materia e titolo (per le mappe in più «MAPPE»), piè di pagina solo con la materia e il numero di pagina, niente nome del docente.
+- Sottotitoli, `timeline.json`, `scheda_pubblicazione.json`, `quiz_argomenti.json`, `verifica_finale.json`, `compiti.json` rigenerati sul video finale con i secondi nuovi.
+
+## 1-bis. Controllo di un agente separato (22/11) e correzioni
+Un agente che non ha montato la lezione ha controllato la lista del §11 e ha trovato i difetti sotto: **corretti** salvo dove scritto.
+| Difetto trovato | Correzione |
+|---|---|
+| Il nome del docente era detto e sottotitolato nella voce di benvenuto | voce rifatta (`R11`), nome tolto anche dal sottotitolo |
+| 23 silenzi ≥ 3 s e schede titolo/quiz/verifica/compiti mute | schede titolo 3,4 s con `titolo.wav`, quiz 3,6 s con `quiz.wav`, verifica e compiti con `titolo.wav`; code delle voci accorciate; nessun silenzio oltre 2,5 s (max 2,43 s) |
+| Due pagine identiche per oltre 3 minuti (argomenti 3 e 5) | pagine ricomposte (ordine card diverso, bordo giallo che cambia): nessuna schermata uguale oltre 3 minuti |
+| Evidenziazioni fuori ±1 s (1ª, 2ª card dell'arg. 1, 4ª card, «I fiori del male») | tempi corretti (134,0 · 219,0 · 358,1 · 1873,5 s dell'originale) |
+| Sigla di 17,9 s | sigla del kit di 15,0 s |
+| Falsa partenza del docente ripetuta all'inizio dell'argomento 3 («Ancora una volta, proviamo a…») | tolta (2,45 s, in pausa) |
+| Intercalari («eh», «ehm») nei sottotitoli | tolti |
+| Finale senza dissolvenza | dissolvenza verso il bianco |
+| Quiz/verifica/compiti non mostrano le domande nel video | **non cambiato**: le schede sono le stesse di Spagnolo, le domande le mostra la pagina interattiva (file `quiz_argomenti.json`, `verifica_finale.json`, `compiti.json`) |
+| Pagine del manuale in carattere con grazie e a cambio rapido (52:40) | **non cambiato**: sono le pagine del libro del docente e cambiano quando le cambia lui (1–2,9 s); un solo pagina alla volta, nessun lampo |
+| Verifica finale: «rifiuto … contro la cultura borghese» ha come giusto Giosuè Carducci mentre la slide dice che il rifiuto estetizzante è del Decadentismo | domanda del docente (`DOMANDE LEZIONE 1.xlsx`), **non modificata**: da confermare col prof |
+
+## 2. Esito del controllo severo (`controllo_severo.py`, 22/11)
+**ESITO: OK, zero errori** (`controllo_severo.py`, passo 15 s, 238 fotogrammi): copertina trovata e titolo intero («L'età del Naturalismo e del Decadentismo»), copertina 165 s (< 180); nessuna slide con lo stesso titolo/pagina oltre 3 min; nessuna schermata identica oltre 3 min; nessun «…»; nessuna card con iniziale minuscola; nessuna card sola oltre 60 s; loudness −16,4 LUFS; pause oltre 2,5 s: 0; durata 59,3 min; voce: tono 145–168 Hz e chiarezza 1244–1510 Hz sui 6 campioni (voce non alterata). Il controllo usa un OCR di sostituzione (tesseract non installabile: `apt-get` non lo trova): ho verificato a parte che legge i numeri di pagina (con una prima versione dell'OCR che non leggeva le cifre singole il controllo segnalava due falsi allarmi sul titolo; corretto lo strumento, non il video). File: `controllo_severo.json`.
+
+## 3. Misure sul video finale
 | Controllo | Risultato |
 |---|---|
-| Formato | 1920×1080, 30 fps, x264 veryfast (CRF 19 schede, CRF 21 tratti col prof), AAC 192k 48 kHz — **misurato** |
-| Durata / fotogrammi | 59:38,1 · 107342 fotogrammi = durata × 30 (vecchio: 63:53,8). **La durata è cambiata** (via le 6 mappe non del docente e le voci senza immagine): vedi tabella vecchio → nuovo in §6 — **misurato** |
-| Peso | 239.8 MB (228.7 MiB) — **misurato** |
-| Volume | parlato del docente −16,2 LUFS (mediana dei pezzi col docente); integrato −16,3 LUFS, LRA 6,0 LU — **misurato** |
-| Picco | true peak **−1,4 dBTP** (obiettivo ≤ −1 dBTP) — **misurato** |
-| Rumore del docente | originale: fondo −47,4 dBFS, parlato mediano −25,6 dBFS, **picco 1,000 (clipping)**; dopo la catena del kit: fondo −50,4 dBFS, parlato −20,9 dBFS, picco 0,803 — **misurato**. Ascolto a orecchio di fruscio/ronzio/«metallico»: **non fatto** (non verificato) |
-| Fermi immagine del docente | nessun fermo ≥ 1 s nei 7 pezzi col docente (riquadro sempre con video vivo; copertina senza riquadro mentre parla la voce) — **misurato** (`freezedetect`, soglia 1 s, solo sui pezzi col docente) |
-| Scatto dei Quiz (jingle) | 6 su 6 a 0,0 s (scarto +0,002 s) — **misurato** (`controllo_jingle.py`) |
-| Altri jingoli del kit | `titolo.wav` ×6 (inizio titolo +0,5 s), `repaso.wav` ×6 (prima di ogni ripasso), `quiz.wav` ×6; `trans.wav` messa ai passaggi (approfondimenti, mappa, glossario, riepilogo) ma **non rilevabile** per correlazione perché sotto la voce (non verificato) — **misurato** (correlazione con `titolo.wav`, `repaso.wav`, `trans.wav`) |
-| Sincronia audio/video del docente | audio: scarto 0,000 ± 0,0001 s su 21 punti (7 pezzi × 3, correlazione con l'originale); video: scarto ≤ 1 fotogramma (0,033 s) su 21 punti, nessun trend; massimo 0,033 s (< 0,04) — **misurato** |
-| Sottotitoli | 952 blocchi, sovrapposti 0, oltre la fine 0, max 2 righe; attacco sulla voce entro 0,3 s: **68% di 22 verificabili** (il controllo chiede ≥ 80%): scarti senza trend (mediana ≈ 0), gli errori grandi coincidono con blocchi che iniziano dopo jingle/passaggi; **da guardare** — **misurato** |
-| PDF | `…_slide.pdf`: **35 pagine** A4 orizzontale, senza riquadro e fascia; `…_mappe.pdf`: **1 pagina** — **misurato** |
+| Formato | 1920×1080, 30 fps, x264 veryfast (CRF 19 schede, CRF 21 tratti col docente), AAC 192k 48 kHz — misurato |
+| Durata / fotogrammi | 59:19,4 · 106781 fotogrammi = durata × 30 — misurato |
+| Peso | 235.6 MB — misurato |
+| Volume | parlato del docente −16,2 LUFS; integrato −16,4 LUFS; picco −1,4 dBTP — misurato |
+| Timbro della voce del docente | rapporto energia sopra 4 kHz / sopra 100 Hz, originale vs dopo la pulizia: −15,5/−15,6, −17,3/−17,5, −19,0/−16,9, −10,9/−11,4, −17,1/−17,4, −12,7/−12,8, −17,4/−19,0 dB (7 punti): sempre tra −9 e −20 dB, il timbro non è cambiato — misurato |
+| Fermi immagine del docente | nessun fermo ≥ 0,7 s nel riquadro del docente in nessuno dei 7 pezzi (freezedetect sul ritaglio del riquadro) — misurato |
+| Scatto dei Quiz | 6 su 6 a +0,5 s dall'inizio della scheda, scarto −0,015 s (limite 0,05); jingle titolo ×6, ripasso ×6, titolo anche sulle schede «Verifica» e «Compiti» — misurato |
+| Sincronia labbra/voce | audio: scarto 0,0001 s su 21 punti (correlazione con l'originale); video: ≤ 1 fotogramma (0,033 s), nessun trend; massimo audio+video 0,033 s — misurato |
+| Pause > 2,5 s | silenzi sotto −45 dB più lunghi di 2 s: 4 (52,8 s, 587,1 s, 3548,2 s, 3557,2 s), il più lungo 2,43 s: nessuna pausa oltre 2,5 s — misurato |
+| Sottotitoli | 960 cue, max 2 righe, nessuna sovrapposizione; intercalari («eh», «ehm») e nome del docente tolti; nomi corretti (Baudelaire, Spleen, D'Annunzio) — misurato |
+| PDF | dispensa 63 pagine A4 orizzontale con testo invisibile selezionabile (pdftotext); mappe 2 pagine (copertina «MAPPE» + mappa) — misurato |
 
-## 2. Confronto col modello Spagnolo (punto 000)
-| # | Punto | Esito |
-|---|---|---|
-| 1 | Sigla 15 s → dissolvenza → copertina | **corretto**: sigla del kit invariata; dissolvenza morbida (0,37 s) alla copertina bianca; nessun lampo |
-| 2 | Copertina (logo, «LETTERATURA ITALIANA V · VIDEOLEZIONE», titolo, card ARGOMENTI su due colonne) | **corretto** (prima mancavano gli argomenti, il titolo restava fermo da 0:56 a 2:15). Durante la voce di benvenuto **nessun riquadro del docente** (prima immagine ferma); il riquadro entra quando il docente parla davvero |
-| 3 | Slide: fondo bianco, «01 · ARGOMENTO», titolo + barretta, card | **corretto** |
-| 4 | Piè di pagina + «Pagina N» | **corretto** (numerazione 1–35 uguale nel PDF) |
-| 5 | Riquadro 4:3, ombra grigia, niente bordo | **corretto**: 412×310 px a x=1428, y=148, angoli r=18, ombra grigia morbida (prima 16:9 in banda blu). **Limite**: i capelli toccano il bordo alto già nell'originale (webcam 245×137 px, ingrandita ≈ 2,3×: immagine morbida) |
-| 6 | Fascia gialla −3°, due righe | **corretto** (prima: nome piccolo bianco, illeggibile) |
-| 7 | Slide senza prof | **corretto**; card **in corso: bordo giallo sottile, numero su pallino giallo, fondo bianco**; le altre bordo grigio chiaro; ombre grigie morbide ovunque (aggiornamento 01:30) |
-| 8 | Font | Bricolage Grotesque 800, Figtree (etichette e piè **Figtree Bold**, DM Mono non usato) |
-| 9 | Finale | `Sigla_finale_5s_con_avviso_diritti.mp4` (prima «GRAZIE PER L'ATTENZION» tagliato) |
-| 10 | Struttura | sigla → presentazione → 6 argomenti (titolo, docente, approfondimento animato, [mappa del docente nel 5], ripasso con voce, quiz 5 domande) → glossario → riepilogo → finale; verifica e compiti dopo |
-| 11 | PDF A4 | consegnati, §7 |
-
-## 3. Problemi trovati e correzioni
-Minuti del video **vecchio**, salvo indicato.
-| Minuto | Tipo | Com'era | Correzione |
-|---|---|---|---|
-| tutto | visivo | grafica diversa dal modello | tutta la lezione rifatta nel modello (35 slide) |
-| 0:17–2:15 | visivo | presentazione: solo la slide del titolo (come segnalato); poi slide avanti sul parlato | copertina con card ARGOMENTI; slide in sincronia (§5) |
-| 0:17–0:55 | visivo | riquadro del docente **fermo** durante la voce di benvenuto | niente riquadro finché non parla il docente |
-| 2:15 | audio | taglio dentro la frase «Siamo in letteratura» | tutti i tagli nelle pause (tabella §4) |
-| 19:12 | audio | «Bene.» ripetuto (fine arg. 2 e inizio arg. 3) | un solo «Bene.» |
-| 26:00 / 28:34 | audio | arg. 4 inizia 1,4 s prima, poi riparte a metà frase | taglio nella pausa |
-| 44:17 / 46:50 | audio | fine arg. 5 tagliata a 0,4 s dalla fine della frase; arg. 6 riparte a metà frase | taglio nella pausa |
-| 56:30 | video | 1,6 s oltre la fine dell'originale | fine = fine dell'originale |
-| 36:00–62:30 | testo | «Bodlèr», «Splin», «dèndi», «boemièn» sulle schede e nel .vtt | Baudelaire, Spleen, dandy, bohémien ovunque |
-| 9:00, 17:30, 45:00, 59:30 | visivo | titolo «MAPPA CONCETTUALE» tagliato | — |
-| 8:49, 17:21, 26:57, 35:11, 57:55 e mappa finale | contenuto | 6 mappe **fatte da noi**, non del docente | **tolte** (decisione di Sara 17/11); voce e silenzi collegati tolti |
-| 45:00 | contenuto | mappa di Baudelaire inventata | sostituita dalla **mappa del docente** (`MAPPE/LEZIONE 1.pdf`), con voce nuova R7 che la legge |
-| 8:30 · 17:10 | audio | in fondo agli approfondimenti la voce dice «Ecco la mappa…» e passa alla mappa | tagliata prima di «Ecco la mappa» |
-| 58:20 | audio | voce mappa finale saltava il primo ramo | scheda tolta con la mappa |
-| 63:37 | visivo | «GRAZIE PER L'ATTENZION» tagliato | finale del kit |
-| quiz, titoli, ripassi | audio | jingle del quiz e del titolo presenti, **mancavano** quelli di ripasso e le transizioni | `repaso.wav` prima di ogni ripasso, `trans.wav` ai passaggi, `titolo.wav` ai titoli, `quiz.wav` ai quiz (come Spagnolo) |
-| .vtt | testo | 788 blocchi con errori («lettatura», «ben umale il metesimo», «le tà del naturalismo»…) | **rifatto** sulla trascrizione: 952 cue |
-| 40:18–42:30 orig. | pagina | pagine del manuale piccole prese dal video | fettine HD (§4) |
-
-## 4. Fine e inizio di ogni pezzo del docente (aggiornamento 01:25)
-Misurato sulla trascrizione (tempi parola per parola). Ogni pezzo inizia e finisce **nelle pause**, tra una frase e l'altra; nessuna parola mozzata o ripetuta.
+## 4. Pezzi del docente: inizio e fine (frase intera sì/no)
 | Pezzo | Inizio (video) | Prime parole | Fine (video) | Ultime parole dette | Frase finita |
 |---|---|---|---|---|---|
-| D0 | 0:52 | «Buongiorno e benvenuti al corso di letteratura» (pausa prima: 0.0 s; parola non mozzata: sì) | 3:04 | «…di questi contenuti, quindi meno male ci siamo.» (pausa dopo: 0.54 s) | sì |
+| D0 | 0:54 | «Buongiorno e benvenuti al corso di letteratura» (pausa prima: 0.0 s; parola non mozzata: sì) | 3:06 | «…di questi contenuti, quindi meno male ci siamo.» (pausa dopo: 0.54 s) | sì |
 | D1 | 3:09 | «Il Regno d'Italia Lo ricordo, nacque ufficialmente» (pausa prima: 0.84 s; parola non mozzata: sì) | 7:55 | «…ottocento, soprattutto italiano. fino alle soglie del Novecento.» (pausa dopo: 0.61 s) | sì |
-| D2 | 9:53 | «dobbiamo parlare però come vedete anche di» (pausa prima: 0.65 s; parola non mozzata: sì) | 15:30 | «…repubblicano-democratiche. Quindi lo schieramento un po' questo. Bene.» (pausa dopo: 0.53 s) | sì |
-| D3 | 17:34 | «Ancora una volta, proviamo a... Ancora una» (pausa prima: 0.46 s; parola non mozzata: sì) | 24:17 | «…altri paesi europei. Quelli avanzati, chiaramente, quelli avanzati.» (pausa dopo: 1.22 s) | sì |
-| D4 | 26:09 | «Dicevamo, storia della lingua, anche questo è» (pausa prima: 1.25 s; parola non mozzata: sì) | 31:45 | «…mirato, comprendendo tutte le parti. che ci interessano.» (pausa dopo: 0.14 s) | sì |
-| D5 | 33:40 | «Ma adesso Per così dire, stacchiamo dalla» (pausa prima: 0.19 s; parola non mozzata: sì) | 41:20 | «…incarna e che lui incarna è Cochle Baudelaire.» (pausa dopo: 1.05 s) | sì |
-| D6 | 43:47 | «E quindi, insomma, capite che i contenuti» (pausa prima: 1.09 s; parola non mozzata: sì) | 53:22 | «…e la prima lezione si può concludere qui.» (pausa dopo: 8999997471.0 s) | sì |
+| D2 | 9:48 | «dobbiamo parlare però come vedete anche di» (pausa prima: 0.65 s; parola non mozzata: sì) | 15:25 | «…repubblicano-democratiche. Quindi lo schieramento un po' questo. Bene.» (pausa dopo: 0.53 s) | sì |
+| D3 | 17:24 | «Ancora una volta a parlare di storie,» (pausa prima: 0.16 s; parola non mozzata: sì) | 24:04 | «…altri paesi europei. Quelli avanzati, chiaramente, quelli avanzati.» (pausa dopo: 1.2 s) | sì |
+| D4 | 25:51 | «Dicevamo, storia della lingua, anche questo è» (pausa prima: 1.25 s; parola non mozzata: sì) | 31:27 | «…mirato, comprendendo tutte le parti. che ci interessano.» (pausa dopo: 0.14 s) | sì |
+| D5 | 33:16 | «Ma adesso Per così dire, stacchiamo dalla» (pausa prima: 0.19 s; parola non mozzata: sì) | 40:56 | «…incarna e che lui incarna è Cochle Baudelaire.» (pausa dopo: 1.05 s) | sì |
+| D6 | 44:10 | «E quindi, insomma, capite che i contenuti» (pausa prima: 1.09 s; parola non mozzata: sì) | 53:44 | «…e la prima lezione si può concludere qui.» (pausa dopo: 8999997471.0 s) | sì |
 
-## 5. Pagine del libro e mappe
-**Pagine HD** (`Lez01_ingrandita.1.zip`: p. 24, 26, 28, 30, 31). Taglio solo sulle righe bianche, solo la colonna del brano, senza intestazioni, numeri di pagina, QR, loghi. Fettina in corso con bordo giallo. Tempi = quelli in cui il docente cambia pagina (rilevati nell'originale, misurato).
-| Brano | Pagina | File HD | Minuto (video nuovo) |
-|---|---|---|---|
-| Corrispondenze (da I fiori del male) | 24 | Lez01_p024.png · fettina 1 | 51:43–51:50 |
-| Corrispondenze (da I fiori del male) | 24 | Lez01_p024.png · fettina 2 | 51:50–51:57 |
-| L'albatro | 26 | Lez01_p026.png · fettina 1 | 51:57–51:58 |
-| Spleen | 28 | Lez01_p028.png · fettina 1 | 51:58–51:59 |
-| Perdita d'aureola (Lo spleen di Parigi) | 30 | Lez01_p030.png · fettina 1 | 51:59–52:01 |
-| Perdita d'aureola (testo) | 31 | Lez01_p031.png · fettina 1 | 52:01–52:04 |
-| Spleen | 28 | Lez01_p028.png · fettina 1 | 52:04–52:05 |
-| Perdita d'aureola (testo) | 31 | Lez01_p031.png · fettina 1 | 52:05–52:40 |
+Tutti i tagli cadono nelle pause tra due frasi. **Pause lunghe:** l'unica pausa del docente oltre 2,5 s in mezzo a una frase (≈ 17:04, «…come link. [3,9 s] lista del corso») non sta sotto −45 dB (rumore di fondo) e non l'ho accorciata: se la master vuole accorciarla va fatto con un taglio del video del docente.
 
-Il docente non legge i versi: mostra le pagine alla fine («trovate i testi, li ho aggiunti in slide»). Rigo più piccolo: prosa di p. 31, interlinea ≈ 34 px a 1080p. Foglio di controllo: `controllo_fettine.jpg`.
-**Mappa.** `MAPPE/LEZIONE 1.pdf` ha **una sola pagina, su Baudelaire**. Impaginata senza cambiare né togliere nessun nodo (nel PDF c'erano il logo di un sito e una fotografia: non riportati). Per gli altri argomenti il docente non ha mandato mappe: non ce ne sono nel video.
-**Sincronia delle evidenziazioni:** card accesa quando il docente comincia a parlarne (parola chiave nella trascrizione); ripassi/approfondimenti sull'inizio delle frasi della voce. Scarto atteso ±1 s (**stima**).
-
-## 6. Tabella vecchio → nuovo (secondi)
-Serve alla master per rigenerare la pagina. Aggiornati `scheda_pubblicazione.json` (`inizio_s`, `quiz_s`, `durata_s`) e `timeline.json`.
-| Punto | Vecchio | Nuovo |
+## 5. Voci Kore: confronto trascrizione ↔ schermo
+Le card sullo schermo sono più brevi di quello che dice la voce (rapporto parole uguali 0,6–0,94: la voce spiega, la card riassume con le stesse parole). Ogni voce è stata trascritta e confrontata con il testo sullo schermo (rapporto parole uguali; numeri e anni **identici** in tutte).
+| Voce | Parole uguali | Numeri uguali |
 |---|---|---|
-| Quiz 1 | 632.7 | 585.3 |
-| Quiz 2 | 1142.6 | 1048.3 |
-| Quiz 3 | 1704.0 | 1564.8 |
-| Quiz 4 | 2191.0 | 2017.5 |
-| Quiz 5 | 2799.9 | 2628.9 |
-| Quiz 6 | 3550.4 | 3330.6 |
-| Verifica finale | 3808.7 | 3553.0 |
-| Compiti | 3821.9 | 3566.2 |
-| Durata totale | 3833.8 | 3578.1 |
+| AP1 | 0.88 | sì |
+| S1 | 0.93 | sì |
+| AP2 | 0.6 | sì |
+| S2 | 0.91 | sì |
+| AP3 | 0.73 | sì |
+| S3 | 0.92 | sì |
+| AP4 | 0.77 | sì (nella prima trascrizione la frase era tagliata a «settant…»; sul file intero `AP4a.wav` la voce dice «settantotto per cento») |
+| S4 | 0.94 | sì |
+| AP5 | 0.76 | sì |
+| S5 | 0.82 | sì |
+| AP6 | 0.79 | sì |
+| S6 | 0.88 | sì |
+| GL | 0.78 | sì |
+| RF | 0.92 | sì |
+| R11 (benvenuto) | trascritta: nessun nome del docente; «Charles Baudelaire» detto | — |
+| R10 (mappa) | trascritta riga per riga: 19 segmenti, testo uguale riga per riga, anni 1821·1845·1848·1857·1867 giusti | sì |
+Bordi delle voci: ho applicato 30 ms di dissolvenza a ogni voce nel montaggio. Sui file di origine alcune voci hanno ampiezza oltre 0,03 negli ultimi 50 ms (AP1a, AP6a, S1, S2, R1): la dissolvenza copre il punto. Pronuncia: «Baudelaire» scritto come si pronuncia nel testo voce (Bodlèr); R10 trascritta: «Quarto ramo» riconosciuto male dal riconoscimento («Toro le opere»), ma la durata è giusta: **non verificato a orecchio**.
 
-## 7. PDF e consegne
-- `…_slide.pdf`: 35 pagine, generate dallo stesso HTML delle slide del video; confronto con 15 fotogrammi del video: tutti uguali (scarto medio ≈ 2/255 = compressione) sulle 15 pagine senza docente; le 20 pagine col docente sono la stessa grafica senza riquadro e fascia (non confrontate a una a una).
-- `verifica_finale.json` + `.xlsx`: le **10 domande del docente** (`DOMANDE LEZIONE 1.xlsx`). `compiti.json`: **4 esercizi** del docente (`LEZIONE 1.pdf`). `quiz_argomenti.json`, `Quiz_Letteratura_Lez1.txt`, `scheda_pubblicazione.json` (titolo «Letteratura V · Lezione 1 · L'età del Naturalismo e del Decadentismo»), `testo_youtube.txt`, `timeline.json`.
+## 6. Pagine del libro (fettine HD) e fonti
+| Brano | Pagina | File HD | Minuto |
+|---|---|---|---|
+| Corrispondenze (da I fiori del male) | 24 | Lez01_p024.png · fettina 1 | 51:54–52:01 |
+| Corrispondenze (da I fiori del male) | 24 | Lez01_p024.png · fettina 2 | 52:01–52:08 |
+| L'albatro | 26 | Lez01_p026.png · fettina 1 | 52:08–52:09 |
+| Spleen | 28 | Lez01_p028.png · fettina 1 | 52:09–52:11 |
+| Perdita d'aureola (Lo spleen di Parigi) | 30 | Lez01_p030.png · fettina 1 | 52:11–52:12 |
+| Perdita d'aureola (testo) | 31 | Lez01_p031.png · fettina 1 | 52:12–52:15 |
+| Spleen | 28 | Lez01_p028.png · fettina 1 | 52:15–52:16 |
+| Perdita d'aureola (testo) | 31 | Lez01_p031.png · fettina 1 | 52:16–52:51 |
+
+Pagine dal file `Lez01_ingrandita.1.zip` (p. 24, 26, 28, 30, 31), taglio su righe bianche, solo la colonna del brano; foglio `controllo_fettine.jpg`.
+
+## 7. Tabella vecchio → nuovo (secondi)
+| Punto | Prima del 22/11 (consegna 17/11) | Ora |
+|---|---|---|
+| Quiz 1 | 632.7 | 581.6 |
+| Quiz 2 | 1142.6 | 1037.3 |
+| Quiz 3 | 1704.0 | 1544.5 |
+| Quiz 4 | 2191.0 | 1989.7 |
+| Quiz 5 | 2799.9 | 2643.9 |
+| Quiz 6 | 3550.4 | 3337.7 |
+| Verifica finale | 3808.7 | 3546.4 |
+| Compiti | 3821.9 | 3555.4 |
+| Durata totale | 3833.8 (prima consegna 16/11: 3833,8) | 3559.4 |
 
 ## 8. Cosa NON ho verificato
-Ascolto del rumore (fruscio, ronzio, «metallico»); sottotitoli riletti ascoltando (sono la trascrizione con ≈ 90 correzioni: restano frasi del docente rese male: «I fiori del mare… del male» (≈ 31:12 orig.), «Dogali/Adua» (≈ 5:41), «Podler/Baudelaire» e nomi propri nelle spiegazioni a braccio); pronuncia delle voci Kore GL/S/RF (solo trascritte); OCR su tutti i fotogrammi (verificate le immagini delle slide, non i 107342 fotogrammi); funzionamento dei file sulla pagina interattiva.
+ascolto a orecchio di rumore, pronuncia e timbro delle voci (le trascrizioni sono fatte, l'ascolto no); sincronia delle evidenziazioni di ripassi e glossario (±1 s è una stima sui tempi della voce); pagina interattiva (quiz, verifica, compiti: la generano la master e il lettore); OCR di tutti i fotogrammi (il controllo severo ne campiona uno ogni 15 s)
 
-## 9. DA CONFERMARE COL PROF / SARA
-1. Mappa del docente: «le persone sono **miseri** e tristi» riportato identico.
-2. Il docente dice «I fiori del **mare**… del male» (≈ 31:12 orig.): lapsus, nei sottotitoli «I fiori del male».
-3. Il docente dice «1887/1896: Dogali e Adua»; Adua è del 1896, Dogali del 1887: nei sottotitoli «Adua, 1896» come dice dopo.
-4. Voci Kore di S, GL, RF non riascoltate: controllare a orecchio.
-
-## 10. Tempi
-Primo rapporto: 01:00 italiane (16–17/11). Consegna: 09:30 (ora italiana).
+## 9. Da confermare col prof / Sara
+1. Mappa: «le persone sono **miseri** e tristi» (accordo): nel video non compare in questa forma.
+2. «I fiori del **mare**… del male» (≈ 31:12 dell'originale): lapsus, nei sottotitoli «I fiori del male».
+3. Dogali (1887) e Adua (1896): il docente le dice in sequenza; sottotitoli «Adua, 1896».
+4. Le card di slide, ripassi e glossario derivano dal testo delle slide del docente, spezzato in frasi intere: confermare che la spezzatura va bene.
