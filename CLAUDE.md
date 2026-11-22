@@ -136,8 +136,13 @@ Valgono per **tutte le materie e tutte le lezioni**. Non si discutono e non si c
   - video a pezzi da 90 MB con sha256;
   - `.vtt`;
   - `timeline_ParteN.json` e `scheda_pubblicazione_ParteN.json` rigenerati sul video **finale**;
+  - `compiti.json` con i compiti del docente (`{"titolo": …, "esercizi": [{"testo": …}]}`): nella pagina della lezione gli alunni li svolgono e li consegnano nel quaderno dei compiti, dove il docente li corregge;
+  - il foglio dei fotogrammi e il json del controllo rapido (§11);
   - `RAPPORTO_REVISIONE.md` con le misure.
   - Lo stato diventa `REVISIONATA`. La master controlla e carica su Vimeo.
+- **Una lezione, una chat, un ramo di consegna.** Si lavora solo sulla lezione prenotata con `stato.py`. Se trovi un'altra chat sulla stessa lezione, fermati e scrivilo alla master: mai due versioni della stessa lezione.
+- **Si riparte sempre dal modello approvato** (grafica e strumenti della lezione 19 di Letteratura V), mai da una versione vecchia della propria lezione: delle versioni vecchie si riusano solo trascrizione, tagli, voci giuste e quiz.
+- **Un controllo che non finisce non è un esito.** Nel rapporto si scrive solo «OK» per un controllo arrivato in fondo; se il controllo severo è troppo lento, vale il controllo rapido (§11).
 - **Repository pubblico:**
   - mai dati di alunni, mai chiavi o password;
   - commit senza firma;
