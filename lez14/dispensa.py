@@ -28,7 +28,7 @@ def pagina(parte,p,k):
         sc=min(1700/im.width,640/im.height);im=im.resize((int(im.width*sc),int(im.height*sc)),Image.LANCZOS)
         b.paste(im,((1920-im.width)//2,300));b.save(out);testo=cap
     elif k[0]=='PS':
-        out=f'{W}/pezzi/PS{k[1]}_finale.png';testo=' '.join(VT.get(f'PIA{k[1]}','')+'\n'+'\n'.join(VT.get(f'PR{k[1]}{j}','') for j in range(1,7)).split('\n'))
+        out=f'{W}/pezzi/PS{k[1]}_finale.png'
         testo='Schema di ripasso\n'+'\n'.join(VT.get(f'PR{k[1]}{j}','') for j in range(1,7))
     elif k[0]=='MAP':
         out=f'{W}/pezzi/MAP{ {1:1,6:2,7:3}[k[1]] }_finale.png'
