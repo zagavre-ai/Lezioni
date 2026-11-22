@@ -1,150 +1,29 @@
 {
  "materia": "Letteratura italiana (V)",
  "titolo": "Letteratura V · Lezione 8 · Gabriele d'Annunzio",
- "durata_s": 4014.0,
+ "parte": 2,
+ "durata_s": 2082.733,
  "argomenti": [
-  {
-   "n": 1,
-   "titolo": "L'esteta e il superuomo",
-   "inizio_s": 204.315,
-   "quiz_s": 1433.747
-  },
-  {
-   "n": 2,
-   "titolo": "Mercato, pubblico e politica",
-   "inizio_s": 1439.047,
-   "quiz_s": 2259.081
-  },
   {
    "n": 3,
    "titolo": "I romanzi e il teatro",
-   "inizio_s": 2264.381,
-   "quiz_s": 2821.214
+   "inizio_s": 152.7,
+   "quiz_s": 735.733
   },
   {
    "n": 4,
    "titolo": "Le Laudi e Alcyone",
-   "inizio_s": 2826.514,
-   "quiz_s": 3728.914
+   "inizio_s": 741.033,
+   "quiz_s": 1643.033
   },
   {
    "n": 5,
-   "titolo": "Il periodo notturno",
-   "inizio_s": 3734.214,
-   "quiz_s": 3902.848
+   "titolo": "Il periodo «notturno»",
+   "inizio_s": 1648.333,
+   "quiz_s": 1816.567
   }
  ],
  "quiz": {
-  "Q1": {
-   "title": "Quiz 1 · L'esteta e il superuomo",
-   "items": [
-    {
-     "p": "Qual è il principio cardine della vita di d'Annunzio?",
-     "a": "Trasformare l'esistenza stessa in un'opera d'arte",
-     "w": [
-      "Vivere lontano dal pubblico e dalla mondanità",
-      "Mettere la letteratura al servizio della scienza",
-      "Descrivere la realtà in modo oggettivo e impersonale"
-     ],
-     "e": "la vita di d'Annunzio è concepita come la sua opera più interessante."
-    },
-    {
-     "p": "Con quale raccolta poetica esordisce d'Annunzio nel 1879?",
-     "a": "Primo vere",
-     "w": [
-      "Alcyone",
-      "Terra vergine",
-      "Il Libro segreto"
-     ],
-     "e": "esordisce precocissimo, ancora studente al collegio Cicognini di Prato, con Primo vere."
-    },
-    {
-     "p": "Che cosa fa d'Annunzio dopo il trasferimento a Roma nel 1881?",
-     "a": "Abbandona presto l'università e lavora nella cronaca mondana dei giornali",
-     "w": [
-      "Si laurea in Lettere e diventa professore",
-      "Entra subito in Parlamento come deputato",
-      "Si ritira in una villa sul lago di Garda"
-     ],
-     "e": "si immerge nei salotti mondani e nelle redazioni giornalistiche."
-    },
-    {
-     "p": "Che cosa diventa il superuomo dannunziano rispetto all'estetismo?",
-     "a": "Non più solo culto della bellezza, ma energia eroica e attiva",
-     "w": [
-      "Un ritorno alla morale borghese",
-      "Una forma di rinuncia e di pietà cristiana",
-      "Un modo per rifiutare ogni azione politica"
-     ],
-     "e": "dopo la crisi della fase estetizzante, negli anni novanta il mito del superuomo esalta l'energia e l'azione."
-    },
-    {
-     "p": "Dove d'Annunzio conduce una vita da «principe rinascimentale»?",
-     "a": "Nella villa della Capponcina, a Fiesole",
-     "w": [
-      "Nel collegio Cicognini, a Prato",
-      "Nella redazione di un giornale romano",
-      "Nella città di Fiume"
-     ],
-     "e": "è l'esempio del «vivere inimitabile», una vita eccezionale fuori dalle regole comuni."
-    }
-   ]
-  },
-  "Q2": {
-   "title": "Quiz 2 · Mercato, pubblico e politica",
-   "items": [
-    {
-     "p": "Perché d'Annunzio usa le sue esibizioni clamorose e gli scandali?",
-     "a": "Per mettersi in primo piano e vendere la propria immagine e i propri libri",
-     "w": [
-      "Per allontanare il pubblico borghese",
-      "Per protestare contro l'editoria",
-      "Per nascondere la propria vita privata"
-     ],
-     "e": "gli scandali sono una strategia commerciale."
-    },
-    {
-     "p": "Qual è la contraddizione di fondo nel rapporto con il mercato?",
-     "a": "Il culto della bellezza finisce per servire il denaro e il successo, che diceva di disprezzare",
-     "w": [
-      "Disprezza il denaro e infatti vive in povertà",
-      "Scrive solo per pochi amici e rifiuta di pubblicare",
-      "Ama la vita borghese ma la critica nei libri"
-     ],
-     "e": "la vita dispendiosa e i debiti lo legano alle esigenze commerciali del suo tempo."
-    },
-    {
-     "p": "Che cosa accade nel 1900 nella carriera politica di d'Annunzio?",
-     "a": "Passa clamorosamente dalla Destra alla Sinistra",
-     "w": [
-      "Viene eletto per la prima volta deputato della Destra",
-      "Occupa la città di Fiume",
-      "Si ritira al Vittoriale"
-     ],
-     "e": "eletto deputato della Destra nel 1897, nel 1900 passa allo schieramento di Sinistra."
-    },
-    {
-     "p": "Quali imprese compie d'Annunzio nella prima guerra mondiale?",
-     "a": "La beffa di Buccari e il volo su Vienna",
-     "w": [
-      "L'occupazione di Roma e la marcia su Milano",
-      "La difesa di Venezia e la presa di Trieste",
-      "La spedizione dei Mille e la presa di Palermo"
-     ],
-     "e": "si arruola volontario a cinquantadue anni."
-    },
-    {
-     "p": "Che cosa fa d'Annunzio nel settembre 1919?",
-     "a": "Guida una spedizione di volontari che occupa la città di Fiume",
-     "w": [
-      "Si arruola come volontario",
-      "Viene eletto deputato",
-      "Si trasferisce a Roma per l'università"
-     ],
-     "e": "protesta contro la «vittoria mutilata» e tiene Fiume fino al Natale del 1920."
-    }
-   ]
-  },
   "Q3": {
    "title": "Quiz 3 · I romanzi e il teatro",
    "items": [
@@ -311,6 +190,6 @@
    ]
   }
  },
- "t_verifica": 3982.983,
- "t_compiti": 4007.703
+ "t_verifica": 2052.0,
+ "t_compiti": 2071.633
 }
