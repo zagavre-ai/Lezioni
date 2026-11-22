@@ -2,16 +2,25 @@
  "tag": "storia-V-lez04",
  "parti": {},
  "manca": "tutto: audio da rifare dall'originale, mappe, slide, voci",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "22/11 18:29",
+   "testo": "Voci: caricato testi_voci.json (22 voci nuove: B4_1-3 benvenuto senza nome, SP2_0-3 e SP3_0-3 spiegoni, AP1-AP11 approfondimenti) sul ramo voci-storia-V-lez04. Le voci del 18/11 (MAP1-6, PI, SC, GL, F3_x) si riusano; B3_x/BEN/FIN/MAPN non servono più. DOMANDE: (1) 5 argomenti su 11 non hanno mappa del prof (2,4,7,8,11): le tolgo e non invento, giusto? La mappa finale della lezione la faccio unendo SOLO le 6 mappe del prof in una panoramica, ok? (2) Durata: circa 125 min di prof + schede = 3 Parti da circa 44 min (sotto i 50): le tengo a 3 Parti da 44-48 min, ok? Procedo così se non rispondi."
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
    "quando": "22/11 18:24",
    "testo": "correzioni 22/11: presa da claude/sharp-rubin-yxwz91"
+  },
+  {
+   "quando": "22/11 18:29",
+   "testo": "22/11 18:50 scaricati video originale, slide, mappe; voci inviate; inizio audio dall'originale"
   }
  ],
  "materia": "Storia V",
  "lezione": "Lezione 4 · La prima guerra mondiale",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-22 18:24:28"
+ "aggiornato": "2026-11-22 18:29:13"
 }
