@@ -6,16 +6,16 @@ Etichette: **misurato** = misurato con uno strumento; **stima** = dedotto; **non
 | Controllo | Risultato |
 |---|---|
 | Formato | 1920×1080, 30 fps, x264 veryfast CRF 19, AAC 192k 48 kHz |
-| Durata / fotogrammi | 54:31,7 (3271,67 s) · 98 150 fotogrammi = durata × 30 |
-| Peso | 176 MB |
+| Durata / fotogrammi | 54:30,7 (3270,67 s) · 98 120 fotogrammi = durata × 30 |
+| Peso | 176,7 MB |
 | Volume | −16,6 LUFS integrato (LRA 5,9) |
-| Picco | −2,3 dBTP |
+| Picco | −2,4 dBTP |
 | Sincronia labbra/voce | scarto massimo 17 ms su tutti i pezzi del prof (correlazione dell'audio del video con l'originale, 2 punti per pezzo) |
 | Fermi immagine del prof | 0 fermi ≥ 1 s in D0, D1a–D1d, D2, D3 (`freezedetect`) |
 | Jingle Quiz | scatto a inizio scheda + 0,5 s, scarto −0,016 s su Q1, Q2, Q3, Verifica finale, Compiti; jingle titolo su T1–T3 (corr. 0,96) |
 | Pause > 2,5 s | nessuna a −45 dB (`silencedetect`) |
 | PDF | slide: 69 pagine A4 orizzontale con strato di testo; mappe: 4 pagine (copertina «MAPPE» + 3 schermate) |
-| Controllo severo (`controllo_severo.py`, passo 20 s) | vedi §6 |
+| Controllo severo (`controllo_severo.py`) | **non completato** (vedi §6) |
 
 ## 2. Cosa è cambiato rispetto alla consegna del 17/11
 - **Testo a 40 px** (interlinea 1,5) nelle slide del prof; con 40 px non entrano 3 card, quindi ogni slide ne mostra **2** (finestre «card 1+2» e «card 2+3»), mai rimpicciolito. Approfondimenti: schede da 38/32 px, al massimo 3 per pagina (la 4ª card apre una nuova pagina). Schemi di ripasso e glossario a 36 px.
@@ -25,8 +25,8 @@ Etichette: **misurato** = misurato con uno strumento; **stima** = dedotto; **non
 - **Nome del prof**: tolto dalla voce dell'introduzione (nuova voce INTRO1c) e dai piè di pagina (ora «LETTERATURA ITALIANA V» e «Pagina N»). Resta solo nella fascia gialla.
 - **Voci nuove** (generate dalla master): INTRO1c, S3c, RF1c, MP1, MP2, MP3a, MP3b, MP4, MP5b. Numeri e anni in lettere; «L'affaire Moro» scritto «L'affèr Moro» nel testo per la voce, «L'affaire Moro» sullo schermo.
 - **Sigle:** «PCI» nelle schede di ripasso è scritto «Partito comunista italiano (PCI)»; la voce nuova dice «Partito comunista italiano».
-- **Transizioni:** dissolvenza di 0,9 s + `trans.wav` a ogni cambio di pezzo. Pause sotto le schede della mappa riempite con `repaso.wav` (la scheda resta ferma 4 s come da regola) e nel ripasso 2.
-- **Rigenerati sul video finale:** `.vtt` (851 cue), `timeline.json`, `scheda_pubblicazione.json` (titolo «Letteratura V · Lezione 24 · Leonardo Sciascia»; `inizio_s`, `quiz_s`, `t_verifica`, `t_compiti`), `testo_youtube.txt`, dispensa slide e PDF mappe con testo invisibile selezionabile.
+- **Transizioni:** dissolvenza di 0,9 s + `trans.wav` a ogni cambio di pezzo. Pause sotto le schede della mappa riempite con `repaso.wav` (la scheda resta ferma 4 s come da regola) e nel ripasso 2; scheda Compiti 4,6 s e Verifica finale 4 s per non avere pause > 2,5 s.
+- **Rigenerati sul video finale:** `.vtt` (842 cue), `timeline.json`, `scheda_pubblicazione.json` (titolo «Letteratura V · Lezione 24 · Leonardo Sciascia»; `inizio_s`, `quiz_s`, `t_verifica`, `t_compiti`), `testo_youtube.txt`, dispensa slide e PDF mappe con testo invisibile selezionabile.
 
 ## 3. Tabella dei pezzi del prof (misurato sulla trascrizione)
 | Pezzo | Minuto | Inizio (prime parole) | Fine (ultime parole) | Frase intera |
@@ -53,10 +53,18 @@ Lezione 24: nessuna pagina del libro.
 - **Testa nel riquadro:** webcam originale 184×138 px ingrandita 2,2×: immagine morbida; i capelli toccano il bordo alto già nell'originale: non risolvibile.
 - **Quiz:** riletti contro le slide del prof: coerenti. Invariati. Verifica finale = Excel del prof (10 domande), compiti = PDF del prof (4 domande), testo identico.
 - **Voce narrante dell'introduzione dell'8 ottobre:** nessuna; l'introduzione animata non ha il riquadro del prof.
-- **Controllo indipendente (agente separato):** esito nel §6.
+- **Controllo indipendente (agente separato):** esito nel §6 (non ha potuto ascoltare né guardare tutti i pezzi: approfondimenti AN2–AN25, S2, S3, Q2, Q3, R, FIN non guardati).
 
 ## 6. Esito dei controlli severi
-(da completare al momento della consegna: vedi riga «ESITO» qui sotto)
+- **`controllo_severo.py`: NON concluso.** L'ho lanciato con tesseract sul video (passo 20 s): con la macchina carica dalle codifiche è rimasto in esecuzione oltre 30 minuti senza dare l'esito e l'ho fermato per non perdere la scadenza. **Esito OK non dimostrato.** Le stesse misure del controllo le ho fatte a mano sul video finale: durata 54:30,7; −16,6 LUFS; nessuna pausa > 2,5 s (`silencedetect` a −45 dB); copertina da 0:17 a 1:33 (circa 76 s, ≤ 180 s) con titolo «Leonardo Sciascia»; nessuna schermata con la stessa pagina oltre 3 minuti (la corsa più lunga con la stessa pagina è D1b, 150 s; stima dai tempi delle finestre, non da OCR); nessun «…» nelle card; card con iniziale maiuscola.
+- **Verifica indipendente (agente separato che non ha montato):** trovati e **corretti**: (a) suono di transizione fuori posto (cadeva prima della dissolvenza, ora nella dissolvenza); (b) sigla «PCI» non rispiegata nella slide di D3 («Il distacco dal PCI (Partito comunista italiano)»); (c) mappa: etichette dei rami tutte in maiuscolo, frecce più grandi, «saggi» non più collegato a «Il mare colore del vino»; (d) sottotitoli: tolti i cue di soli riempitivi («Uh», «Um», «Mm»), corretti «il Candide di Voltaire», «le ipocrisie sociali», «Il consiglio d'Egitto e Il contesto»; (e) scheda Verifica finale accorciata a 4 s (restava una pausa di 2,8 s).
+- **Difetti segnalati e NON corretti** (da decidere con la master):
+  - **Mappa del prof non identica nella struttura:** le foglie «sulla mafia», «ambientato nel '700», «sulla corruzione politica», «romanzo giallo» sono fuse nel riquadro del romanzo con «·» (l'originale ha riquadri separati); «sulla corruzione politica» compare sia su «Il contesto» sia su «Todo modo» (nell'originale è uno solo collegato a entrambi); nella schermata 1 la vita è una catena di frecce (nell'originale è a raggiera). Le parole sono quelle del prof.
+  - **Card accesa a lungo:** in D1b la card 1 resta accesa 124 s, in D1c circa 100 s, in D1d la card 2 circa 155 s (le slide hanno sempre 2 card; la regola «card sola» riguarda una sola card per schermata). Nessuna schermata resta identica oltre 3 minuti.
+  - **Bordo giallo:** in D1b la card 1 si accende ~1,6 s prima della frase (fuori da ±1 s); in D3 l'agente segnala un possibile ritardo di ~7 s ma la misura assume gli stessi tagli del video vecchio e **non è dimostrata**: da guardare.
+  - **Mappa MAP2:** resta ferma a mappa intera circa 2,5–4 s (richiesto 4 s): non misurato con precisione.
+  - **Dispensa:** la copertina mostra anche l'elenco ARGOMENTI e «Pagina 1» (identica alla copertina del video).
+  - **Schede Verifica finale e Compiti:** nel video si vedono solo i titoli («10 domande», «Quattro domande aperte»); le domande sono nei file `verifica_finale.json` e `compiti.json` (interattive nel lettore: non verificato).
 
 ## 7. DA CONFERMARE COL PROF (dati che non coincidono; nella mappa ho lasciato le date del prof)
 - **Morte dell'Inquisitore**: mappa 1964; voce degli approfondimenti 1963.
