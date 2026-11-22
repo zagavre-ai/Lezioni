@@ -2,7 +2,8 @@
  "tag": "storia-V-lez19",
  "parti": {
   "1": {
-   "stato": "IN_MONTAGGIO"
+   "stato": "IN_MONTAGGIO",
+   "voci": "segnaposto"
   },
   "2": {
    "stato": "REVISIONATA"
@@ -64,9 +65,13 @@
   {
    "quando": "22/11 19:51",
    "testo": "ore 20:00 UTC: pipeline di montaggio funzionante (slide a 40 px a finestra, mappe BES ramo per ramo, scene Kore, ponte con trans.wav); Parte 1 in costruzione con voci provvisorie (silenzio per le 18 voci nuove). Piano taglio: intro del prof sulla copertina 177 s, poi 3 slide 'Di cosa parliamo'. Mappe del prof: 3 (arg. 3, 4, 7); arg. 1, 2, 5, 6, 8 senza mappa -> pillola. Mappa 3 senza domanda: ho scritto 'Come cambia il quadro politico negli anni Novanta?'."
+  },
+  {
+   "quando": "22/11 22:08",
+   "testo": "ore 22:20 UTC: Parte 1 (52:04) e Parte 2 (50:56) montate e codificate con voci provvisorie per le 19 voci nuove; controllo_finale/jingle in corso; dispensa e PDF mappe fatti. Domattina: voci Kore -> sostituzione, ricodifica, controllo severo, agente separato, consegna."
   }
  ],
  "materia": "storia-V",
  "lezione": "19",
- "aggiornato": "2026-11-22 19:51:17"
+ "aggiornato": "2026-11-22 22:08:15"
 }
