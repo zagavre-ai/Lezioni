@@ -1,7 +1,11 @@
 {
  "tag": "storia-V-lez18",
- "parti": {},
- "manca": "",
+ "parti": {
+  "1": {
+   "stato": "IN_MONTAGGIO"
+  }
+ },
+ "manca": "Parte 2, dispensa, PDF mappe, sottotitoli, controlli, voci Kore nuove",
  "serve_master": [
   {
    "quando": "20/11 17:12",
@@ -53,7 +57,11 @@
   {
    "quando": "22/11 18:50",
    "testo": "22/11 18:xx: materiali scaricati, card scritte per 6 argomenti, motore di montaggio e mappe BES pronti; ora montaggio Parte 1 e 2 con voci provvisorie"
+  },
+  {
+   "quando": "22/11 19:05",
+   "testo": "19:10 UTC: Parte 1 in codifica (prof con card/sotto-slide, mappe BES, schede blu del modello); Parte 2 dopo. Voci nuove provvisorie (espeak) in attesa delle Kore."
   }
  ],
- "aggiornato": "2026-11-22 18:50:46"
+ "aggiornato": "2026-11-22 19:05:27"
 }
