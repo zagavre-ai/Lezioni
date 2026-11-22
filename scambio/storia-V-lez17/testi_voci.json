@@ -1,297 +1,66 @@
 [
  {
-  "nome": "BEN1",
-  "testo": "Benvenuti alla lezione di Storia. Oggi parliamo delle fasi conclusive della Guerra fredda, dal millenovecentosessantanove al millenovecentonovantuno. In questa prima parte il professor Giorgio Mazzotti ci guida attraverso tre argomenti: la crisi economica degli anni Settanta, le tensioni in Medio Oriente e la rivoluzione iraniana.",
-  "lingua": "it"
+  "nome": "BEN1_R2",
+  "testo": "Benvenuti alla lezione di Storia. Oggi parliamo delle fasi conclusive della guerra fredda, dal millenovecentosessantanove al millenovecentonovantuno. In questa prima parte vediamo tre argomenti: la crisi economica degli anni Settanta, le tensioni e gli accordi in Medio Oriente, e la rivoluzione in Iran con la guerra contro l'Iraq."
  },
  {
-  "nome": "PI1",
-  "testo": "Facciamo un riepilogo di quello che hai appena visto: La crisi economica degli anni Settanta. Guarda lo schema e ripeti ad alta voce.",
-  "lingua": "it"
+  "nome": "BEN2_R2",
+  "testo": "Benvenuti alla seconda parte della lezione sulle fasi conclusive della guerra fredda. In questa parte vediamo due argomenti: gli Stati Uniti da Nixon a Reagan, e le dittature in America Latina."
  },
  {
-  "nome": "SC1_1",
-  "testo": "Primo: nel millenovecentosessantanove Nixon eredita un forte deficit, causato dalla guerra in Vietnam e dai programmi di assistenza sociale.",
-  "lingua": "it"
+  "nome": "BEN3_R2",
+  "testo": "Benvenuti alla terza parte della lezione sulle fasi conclusive della guerra fredda. In questa parte vediamo tre argomenti: l'Europa occidentale tra crisi e integrazione, il crollo dell'Unione Sovietica e la svolta della Cina."
  },
  {
-  "nome": "SC1_2",
-  "testo": "Secondo: nell'agosto del millenovecentosettantuno Nixon sospende la convertibilità del dollaro in oro e finisce il sistema dei cambi fissi.",
-  "lingua": "it"
+  "nome": "SPG2_1",
+  "testo": "Ripassiamo la prima parte. Nel millenovecentosessantanove Nixon eredita un forte deficit di bilancio, causato dalla guerra in Vietnam e dai programmi di assistenza sociale. Nel millenovecentosettantuno sospende la convertibilità del dollaro in oro e finisce il sistema dei cambi fissi. Nel millenovecentosettantatré la guerra del Kippur e lo shock petrolifero portano inflazione e recessione: è la stagflazione."
  },
  {
-  "nome": "SC1_3",
-  "testo": "Terzo: nel millenovecentosettantatré Egitto e Siria attaccano Israele, gli Stati Uniti lo sostengono e i paesi arabi reagiscono.",
-  "lingua": "it"
+  "nome": "SPG2_2",
+  "testo": "Poi abbiamo visto il Medio Oriente. Nel millenovecentosettantotto Sadat e Begin firmano gli accordi di Camp David, e l'Egitto è il primo paese arabo a riconoscere Israele. Nel millenovecentosettantacinque scoppia la guerra civile in Libano, e nel millenovecentottantadue Israele lo invade per cacciare l'OLP. Nel millenovecentottantasette nasce l'Intifada, e cresce il peso di Hamas."
  },
  {
-  "nome": "SC1_4",
-  "testo": "Quarto: i paesi arabi dell'OPEC riducono l'offerta e quadruplicano il prezzo del petrolio, e arrivano inflazione e recessione, la stagflazione.",
-  "lingua": "it"
+  "nome": "SPG2_3",
+  "testo": "Infine l'Iran. Nel millenovecentosettantanove la rivoluzione popolare travolge lo Shah, e l'ayatollah Khomeini fonda una teocrazia basata sulla sharia. Gli studenti assaltano l'ambasciata americana a Teheran e tengono in ostaggio il personale per oltre un anno. Nel millenovecentottanta Saddam Hussein attacca l'Iran: la guerra dura otto anni e provoca quasi due milioni di morti."
  },
  {
-  "nome": "MPR1",
-  "testo": "Ecco la mappa della crisi degli anni Settanta. La guerra del Kippur del millenovecentosettantatré è causata dall'attacco di Egitto e Siria a Israele, e provoca l'aumento del prezzo del petrolio. Da questo derivano il calo della produzione, la disoccupazione e l'inflazione.",
-  "lingua": "it"
+  "nome": "SPG3_1",
+  "testo": "Ripassiamo la seconda parte. Sotto Nixon gli Stati Uniti aprono relazioni diplomatiche con la Cina di Mao, per isolare l'Unione Sovietica. Nascono i trattati SALT uno e gli accordi di Helsinki. Il Watergate costringe Nixon alle dimissioni nel millenovecentosettantaquattro, poi arrivano Ford e Carter. Nel millenovecentottantuno Reagan sceglie la linea dura contro quello che chiama l'impero del male."
  },
  {
-  "nome": "PI2",
-  "testo": "Facciamo un riepilogo di quello che hai appena visto: Tensioni e accordi in Medio Oriente. Guarda lo schema e ripeti ad alta voce.",
-  "lingua": "it"
+  "nome": "SPG3_2",
+  "testo": "Poi l'America Latina. Nel millenovecentosettantatré un golpe guidato da Pinochet abbatte il governo di Allende in Cile e instaura una dittatura feroce. In Argentina, tra il millenovecentosettantasei e il millenovecentottantatré, la giunta militare fa sparire migliaia di oppositori, i desaparecidos. La sconfitta nella guerra delle Falkland e la crisi economica portano al ritorno della democrazia."
  },
  {
-  "nome": "SC2_1",
-  "testo": "Primo: nel millenovecentosettantotto Sadat e Begin firmano gli accordi di Camp David, ma Sadat è isolato e assassinato nel millenovecentottantuno.",
-  "lingua": "it"
+  "nome": "AP1",
+  "testo": "Approfondimento: dal dollaro allo shock petrolifero. Dopo la seconda guerra mondiale il sistema di Bretton Woods teneva stabili i cambi, perché il dollaro era convertibile in oro. Nel millenovecentosettantuno, per affrontare la crisi monetaria e frenare le importazioni, Nixon sospende questa convertibilità, e i cambi fissi finiscono. Due anni dopo, nel giorno del Kippur, Egitto e Siria attaccano Israele. Gli Stati Uniti si schierano con Israele, e i paesi arabi dell'OPEC reagiscono: riducono l'offerta e quadruplicano il prezzo del petrolio. Finisce l'era dell'energia a basso costo. L'Occidente affronta insieme inflazione e recessione, una combinazione che viene chiamata stagflazione."
  },
  {
-  "nome": "SC2_2",
-  "testo": "Secondo: nel millenovecentosettantacinque scoppia la guerra civile in Libano, e nel millenovecentottantadue Israele lo invade per cacciare l'OLP.",
-  "lingua": "it"
+  "nome": "AP2",
+  "testo": "Approfondimento: il Libano e Sabra e Chatila. Nel millenovecentosettantacinque lo scontro tra la minoranza cristiana e i profughi palestinesi scatena una guerra civile in Libano. Nel millenovecentottantadue Israele invade il paese per cacciare l'OLP, l'organizzazione dei palestinesi. In quei mesi si verificano tragici massacri nei campi profughi di Sabra e Chatila. Cinque anni dopo, nel millenovecentottantasette, nei territori occupati da Israele, cioè Gaza e Cisgiordania, scoppia una rivolta popolare spontanea: è l'Intifada. Ricordiamo che nel millenovecentosettantotto Sadat e Begin avevano firmato gli accordi di Camp David, e l'Egitto era stato il primo paese arabo a riconoscere Israele. In questi anni cresce anche il peso del fondamentalismo islamico, con l'organizzazione Hamas."
  },
  {
-  "nome": "SC2_3",
-  "testo": "Terzo: nel millenovecentottantasette nei territori occupati scoppia la rivolta popolare palestinese e cresce il peso di Hamas.",
-  "lingua": "it"
+  "nome": "AP3",
+  "testo": "Approfondimento: la rivoluzione iraniana. Nel millenovecentosettantanove in Iran crolla il regime repressivo e modernizzatore dello Shah Mohammad Reza Pahlavi, travolto da una rivoluzione popolare. L'ayatollah Khomeini assume il potere e fonda una teocrazia: uno Stato governato dalla legge religiosa, la sharia, con un forte sentimento anti-occidentale e anti-americano. A novembre gli studenti iraniani assaltano l'ambasciata americana a Teheran e tengono in ostaggio il personale diplomatico per oltre un anno. Nel millenovecentottanta il dittatore iracheno Saddam Hussein attacca l'Iran, per bloccare il contagio della rivoluzione islamica e per controllare le risorse petrolifere. La guerra finisce dopo otto anni, con quasi due milioni di morti e nessun vincitore."
  },
  {
-  "nome": "MAPN2",
-  "testo": "Ecco la mappa di questo argomento: Tensioni e accordi in Medio Oriente. Primo ramo, camp David: nel millenovecentosettantotto Sadat e Begin firmano gli accordi di Camp David, ma Sadat è isolato e assassinato nel millenovecentottantuno. Secondo ramo, libano: nel millenovecentosettantacinque scoppia la guerra civile in Libano, e nel millenovecentottantadue Israele lo invade per cacciare l'OLP. Terzo ramo, intifada: nel millenovecentottantasette nei territori occupati scoppia la rivolta popolare palestinese e cresce il peso di Hamas.",
-  "lingua": "it"
+  "nome": "AP4",
+  "testo": "Approfondimento: la distensione e la sua crisi. Sotto Nixon gli Stati Uniti aprono relazioni diplomatiche con la Cina comunista di Mao, nel millenovecentosettantadue, per isolare l'Unione Sovietica. Nello stesso anno vengono firmati i trattati SALT uno, per limitare gli armamenti nucleari. Nel millenovecentosettantacinque gli accordi di Helsinki stabilizzano i confini europei e impegnano i due blocchi al rispetto dei diritti umani. Poi lo scandalo Watergate costringe Nixon alle dimissioni, nel millenovecentosettantaquattro. Alla fine degli anni Settanta la distensione entra in crisi per le incursioni sovietiche nel mondo, e nel millenovecentottantuno Reagan adotta una linea dura e rilancia le spese militari, compreso il progetto dello scudo spaziale."
  },
  {
-  "nome": "PI3",
-  "testo": "Facciamo un riepilogo di quello che hai appena visto: Iran e guerra con l'Iraq. Guarda lo schema e ripeti ad alta voce.",
-  "lingua": "it"
+  "nome": "AP5",
+  "testo": "Approfondimento: i desaparecidos. In Argentina, tra il millenovecentosettantasei e il millenovecentottantatré, governa una giunta militare che attua una durissima repressione. Migliaia di oppositori politici spariscono nel nulla: sono i desaparecidos. Le Madri di Plaza de Mayo manifestano coraggiosamente per chiedere la verità sui propri figli scomparsi. La crisi economica e la sconfitta argentina contro il Regno Unito nella guerra delle Falkland, nel millenovecentottantadue, accelerano il crollo dei regimi militari. Anche in Cile, dopo il golpe del settembre millenovecentosettantatré, il generale Augusto Pinochet impone una dittatura feroce e repressiva, che dura fino al millenovecentottantotto. Poi, in tutto il Sudamerica, torna la democrazia."
  },
  {
-  "nome": "SC3_1",
-  "testo": "Primo: nel millenovecentosettantanove una rivoluzione popolare travolge il regime dello Shah Reza Pahlavi.",
-  "lingua": "it"
+  "nome": "AP6",
+  "testo": "Approfondimento: Margaret Thatcher. Gli shock petroliferi colpiscono duramente le industrie europee, e provocano inflazione, disoccupazione e conflitti sindacali, come gli scioperi dei minatori in Gran Bretagna. Nel millenovecentosettantanove viene eletta Margaret Thatcher, la Lady di ferro. Avvia una politica neoliberista, basata su dure privatizzazioni, tagli allo stato sociale e lotta intransigente contro i sindacati. Intanto il processo di integrazione europea prosegue. Nel millenovecentosettantatré entrano nella CEE Regno Unito, Irlanda e Danimarca. Negli anni Ottanta si uniscono Grecia, Spagna e Portogallo, paesi usciti dalle dittature. Nel millenovecentosettantanove si tengono le prime elezioni a suffragio universale del Parlamento europeo."
  },
  {
-  "nome": "SC3_2",
-  "testo": "Secondo: Khomeini fonda una teocrazia basata sulla sharia e su un forte sentimento anti-occidentale.",
-  "lingua": "it"
+  "nome": "AP7",
+  "testo": "Approfondimento: la fine dell'Unione Sovietica. L'era di Brežnev è un lungo periodo di stagnazione economica e arretratezza tecnologica, e l'invasione dell'Afghanistan, nel millenovecentosettantanove, logora le risorse del paese. Nel millenovecentottantacinque Michail Gorbačev diventa leader sovietico e lancia due parole chiave: Perestrojka, cioè ristrutturazione economica, e Glasnost, cioè trasparenza, libertà di espressione e fine della censura. Gorbačev rinuncia a intervenire militarmente nei paesi dell'Europa dell'Est, e nel millenovecentottantanove i regimi comunisti crollano. Il nove novembre cade il Muro di Berlino, e nel millenovecentonovanta la Germania si riunifica. Nel dicembre millenovecentonovantuno l'Unione Sovietica si dissolve, nasce la CSI, Comunità degli Stati Indipendenti, e Gorbačev si dimette."
  },
  {
-  "nome": "SC3_3",
-  "testo": "Terzo: nel novembre del millenovecentosettantanove gli studenti assaltano l'ambasciata americana e tengono in ostaggio il personale per oltre un anno.",
-  "lingua": "it"
- },
- {
-  "nome": "SC3_4",
-  "testo": "Quarto: Saddam Hussein attacca l'Iran, e la guerra del millenovecentottanta finisce dopo otto anni con quasi due milioni di morti.",
-  "lingua": "it"
- },
- {
-  "nome": "MAPN3",
-  "testo": "Ecco la mappa di questo argomento: Iran e guerra con l'Iraq. Primo ramo, caduta dello Shah: nel millenovecentosettantanove una rivoluzione popolare travolge il regime dello Shah Reza Pahlavi. Secondo ramo, repubblica Islamica: khomeini fonda una teocrazia basata sulla sharia e su un forte sentimento anti-occidentale. Terzo ramo, crisi degli ostaggi: nel novembre del millenovecentosettantanove gli studenti assaltano l'ambasciata americana e tengono in ostaggio il personale per oltre un anno. Quarto ramo, guerra Iran-Iraq: saddam Hussein attacca l'Iran, e la guerra del millenovecentottanta finisce dopo otto anni con quasi due milioni di morti.",
-  "lingua": "it"
- },
- {
-  "nome": "LG0",
-  "testo": "Ripassiamo le parole chiave della lezione.",
-  "lingua": "it"
- },
- {
-  "nome": "LG1",
-  "testo": "Bretton Woods: il sistema di cambi fissi legato alla convertibilità del dollaro in oro, finito nel 1971.",
-  "lingua": "it"
- },
- {
-  "nome": "LG2",
-  "testo": "Stagflazione: la combinazione di inflazione e recessione seguita allo shock petrolifero.",
-  "lingua": "it"
- },
- {
-  "nome": "LG3",
-  "testo": "Teocrazia: il governo fondato sulla legge religiosa, come l'Iran di Khomeini.",
-  "lingua": "it"
- },
- {
-  "nome": "FZ1",
-  "testo": "Ricapitoliamo questa prima parte. La crisi economica degli anni Settanta, le tensioni e gli accordi in Medio Oriente, e la rivoluzione in Iran con la guerra contro l'Iraq.",
-  "lingua": "it"
- },
- {
-  "nome": "BEN2",
-  "testo": "Benvenuti alla seconda parte della lezione sulle fasi conclusive della Guerra fredda. Con il professor Giorgio Mazzotti vediamo due argomenti: gli Stati Uniti da Nixon a Reagan e le dittature in America Latina.",
-  "lingua": "it"
- },
- {
-  "nome": "PI4",
-  "testo": "Facciamo un riepilogo di quello che hai appena visto: Da Nixon a Reagan. Guarda lo schema e ripeti ad alta voce.",
-  "lingua": "it"
- },
- {
-  "nome": "SC4_1",
-  "testo": "Primo: nel millenovecentosettantadue Nixon apre relazioni diplomatiche con la Cina di Mao, per isolare l'URSS.",
-  "lingua": "it"
- },
- {
-  "nome": "SC4_2",
-  "testo": "Secondo: nascono i trattati SALT uno e gli accordi di Helsinki sui confini europei e sui diritti umani.",
-  "lingua": "it"
- },
- {
-  "nome": "SC4_3",
-  "testo": "Terzo: lo scandalo Watergate costringe Nixon alle dimissioni nel millenovecentosettantaquattro, poi arrivano Ford e Carter.",
-  "lingua": "it"
- },
- {
-  "nome": "SC4_4",
-  "testo": "Quarto: nel millenovecentottantuno Reagan adotta una linea dura contro l'impero del male e rilancia le spese militari, con lo scudo spaziale.",
-  "lingua": "it"
- },
- {
-  "nome": "MAPN4",
-  "testo": "Ecco la mappa di questo argomento: Da Nixon a Reagan. Primo ramo, apertura alla Cina: nel millenovecentosettantadue Nixon apre relazioni diplomatiche con la Cina di Mao, per isolare l'URSS. Secondo ramo, distensione: nascono i trattati SALT uno e gli accordi di Helsinki sui confini europei e sui diritti umani. Terzo ramo, watergate e Carter: lo scandalo Watergate costringe Nixon alle dimissioni nel millenovecentosettantaquattro, poi arrivano Ford e Carter. Quarto ramo, svolta di Reagan: nel millenovecentottantuno Reagan adotta una linea dura contro l'impero del male e rilancia le spese militari, con lo scudo spaziale.",
-  "lingua": "it"
- },
- {
-  "nome": "PI5",
-  "testo": "Facciamo un riepilogo di quello che hai appena visto: America Latina. Guarda lo schema e ripeti ad alta voce.",
-  "lingua": "it"
- },
- {
-  "nome": "SC5_1",
-  "testo": "Primo: eletto Allende nel millenovecentosettanta, nel millenovecentosettantatré un golpe di Pinochet instaura una dittatura feroce.",
-  "lingua": "it"
- },
- {
-  "nome": "SC5_2",
-  "testo": "Secondo: tra il millenovecentosettantasei e il millenovecentottantatré la giunta militare fa sparire migliaia di oppositori, i desaparecidos.",
-  "lingua": "it"
- },
- {
-  "nome": "SC5_3",
-  "testo": "Terzo: la crisi economica e la sconfitta nelle Falkland del millenovecentottantadue portano al ritorno della democrazia.",
-  "lingua": "it"
- },
- {
-  "nome": "MAPN5",
-  "testo": "Ecco la mappa di questo argomento: America Latina. Primo ramo, cile: eletto Allende nel millenovecentosettanta, nel millenovecentosettantatré un golpe di Pinochet instaura una dittatura feroce. Secondo ramo, argentina: tra il millenovecentosettantasei e il millenovecentottantatré la giunta militare fa sparire migliaia di oppositori, i desaparecidos. Terzo ramo, ritorno alla democrazia: la crisi economica e la sconfitta nelle Falkland del millenovecentottantadue portano al ritorno della democrazia.",
-  "lingua": "it"
- },
- {
-  "nome": "LG4",
-  "testo": "Distensione: la fase di dialogo tra USA e URSS, con i trattati SALT e gli accordi di Helsinki.",
-  "lingua": "it"
- },
- {
-  "nome": "LG5",
-  "testo": "Desaparecidos: gli oppositori fatti sparire dalla giunta militare argentina.",
-  "lingua": "it"
- },
- {
-  "nome": "FZ2",
-  "testo": "Ricapitoliamo questa seconda parte. Gli Stati Uniti da Nixon a Reagan, dalla distensione alla linea dura contro l'URSS, e le dittature militari in America Latina, dal Cile all'Argentina.",
-  "lingua": "it"
- },
- {
-  "nome": "BEN3",
-  "testo": "Benvenuti alla terza parte della lezione sulle fasi conclusive della Guerra fredda. Con il professor Giorgio Mazzotti vediamo tre argomenti: l'Europa occidentale tra crisi e integrazione, il crollo dell'URSS e la svolta della Cina.",
-  "lingua": "it"
- },
- {
-  "nome": "PI6",
-  "testo": "Facciamo un riepilogo di quello che hai appena visto: Europa occidentale. Guarda lo schema e ripeti ad alta voce.",
-  "lingua": "it"
- },
- {
-  "nome": "SC6_1",
-  "testo": "Primo: gli shock petroliferi colpiscono le industrie europee con inflazione, disoccupazione e conflitti sindacali.",
-  "lingua": "it"
- },
- {
-  "nome": "SC6_2",
-  "testo": "Secondo: eletta nel millenovecentosettantanove, la Lady di ferro avvia privatizzazioni, tagli allo stato sociale e lotta ai sindacati.",
-  "lingua": "it"
- },
- {
-  "nome": "SC6_3",
-  "testo": "Terzo: nel millenovecentosettantatré entrano Regno Unito, Irlanda e Danimarca; poi Grecia, Spagna e Portogallo.",
-  "lingua": "it"
- },
- {
-  "nome": "MPR2",
-  "testo": "Ecco la mappa della risposta neoliberista alla crisi. Il neoliberismo critica l'intervento dello Stato in economia e sostiene meno Stato, più mercato. Pratica l'affidamento dei servizi ai privati e promette la riduzione delle tasse. Viene messo in atto da Reagan negli Stati Uniti, dal millenovecentottantuno al millenovecentottantotto, e da Thatcher nel Regno Unito, dal millenovecentosettantanove al millenovecentonovanta.",
-  "lingua": "it"
- },
- {
-  "nome": "PI7",
-  "testo": "Facciamo un riepilogo di quello che hai appena visto: Il crollo dell'URSS. Guarda lo schema e ripeti ad alta voce.",
-  "lingua": "it"
- },
- {
-  "nome": "SC7_1",
-  "testo": "Primo: l'URSS vive una lunga stagnazione economica, logorata dall'invasione dell'Afghanistan del millenovecentosettantanove.",
-  "lingua": "it"
- },
- {
-  "nome": "SC7_2",
-  "testo": "Secondo: nel millenovecentottantacinque Gorbačev lancia la Perestrojka e la Glasnost e avvia il disarmo con gli Stati Uniti.",
-  "lingua": "it"
- },
- {
-  "nome": "SC7_3",
-  "testo": "Terzo: nel millenovecentottantanove crollano i regimi comunisti dell'Est, cade il Muro di Berlino e la Germania si riunifica.",
-  "lingua": "it"
- },
- {
-  "nome": "SC7_4",
-  "testo": "Quarto: nel dicembre del millenovecentonovantuno l'URSS si dissolve, nasce la CSI e Gorbačev si dimette.",
-  "lingua": "it"
- },
- {
-  "nome": "MPR3",
-  "testo": "Ecco la mappa di Michail Gorbačev, del millenovecentottantacinque. Introduce riforme basate su trasparenza e ristrutturazione. Riconosce l'autonomia dei paesi dell'Est europeo, dove il socialismo cade nel millenovecentottantanove e viene aperto il Muro di Berlino, il nove novembre. Subisce un tentativo di colpo di Stato nel millenovecentonovantuno e la separazione di molti Stati dell'Unione, fino alla dissoluzione dell'Unione Sovietica, a dicembre del millenovecentonovantuno.",
-  "lingua": "it"
- },
- {
-  "nome": "PI8",
-  "testo": "Facciamo un riepilogo di quello che hai appena visto: La svolta della Cina. Guarda lo schema e ripeti ad alta voce.",
-  "lingua": "it"
- },
- {
-  "nome": "SC8_1",
-  "testo": "Primo: dalla fine degli anni Settanta Deng apre la Cina al capitalismo con le Quattro modernizzazioni e l'economia cresce in modo vertiginoso.",
-  "lingua": "it"
- },
- {
-  "nome": "SC8_2",
-  "testo": "Secondo: il Partito Comunista mantiene il controllo assoluto dello Stato, senza riforme democratiche.",
-  "lingua": "it"
- },
- {
-  "nome": "SC8_3",
-  "testo": "Terzo: nella primavera del millenovecentottantanove studenti e cittadini chiedono democrazia, e a giugno i carri armati reprimono la protesta nel sangue.",
-  "lingua": "it"
- },
- {
-  "nome": "MAPN8",
-  "testo": "Ecco la mappa di questo argomento: La svolta della Cina. Primo ramo, riforme di Deng: dalla fine degli anni Settanta Deng apre la Cina al capitalismo con le Quattro modernizzazioni e l'economia cresce in modo vertiginoso. Secondo ramo, nessuna apertura politica: il Partito Comunista mantiene il controllo assoluto dello Stato, senza riforme democratiche. Terzo ramo, piazza Tienanmen: nella primavera del millenovecentottantanove studenti e cittadini chiedono democrazia, e a giugno i carri armati reprimono la protesta nel sangue.",
-  "lingua": "it"
- },
- {
-  "nome": "LG6",
-  "testo": "Neoliberismo: la politica di privatizzazioni e tagli allo stato sociale di Thatcher e Reagan.",
-  "lingua": "it"
- },
- {
-  "nome": "LG7",
-  "testo": "Perestrojka e Glasnost: la ristrutturazione economica e la trasparenza lanciate da Gorbačev.",
-  "lingua": "it"
- },
- {
-  "nome": "LG8",
-  "testo": "CSI: la Comunità degli Stati Indipendenti nata dopo lo scioglimento dell'URSS.",
-  "lingua": "it"
- },
- {
-  "nome": "FZ3",
-  "testo": "Ricapitoliamo questa terza parte. L'Europa occidentale tra crisi e integrazione, il crollo dell'URSS con Gorbačev e la fine della Guerra fredda, e la svolta della Cina, da Deng Xiaoping a Piazza Tienanmen.",
-  "lingua": "it"
+  "nome": "AP8",
+  "testo": "Approfondimento: l'altro millenovecentottantanove. Dalla fine degli anni Settanta Deng Xiaoping introduce in Cina riforme radicali, le Quattro modernizzazioni, che aprono il paese al capitalismo, alla proprietà privata e agli investimenti esteri. L'economia cresce in modo vertiginoso. Ma l'apertura economica non è accompagnata da riforme democratiche: il Partito Comunista mantiene il controllo assoluto dello Stato. Nella primavera del millenovecentottantanove studenti e cittadini manifestano a Pechino, in piazza Tienanmen, chiedendo democrazia e libertà politiche. A giugno il governo reprime la protesta nel sangue, con l'intervento dei carri armati dell'esercito, e arriva una ferma condanna internazionale."
  }
 ]
