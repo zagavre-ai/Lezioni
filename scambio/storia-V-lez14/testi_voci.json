@@ -508,5 +508,25 @@
   "nome": "W2",
   "testo": "Bentornati alla lezione di Storia. Oggi proseguiamo con la guerra fredda. Il professor Giorgio Mazzotti ci guida attraverso quattro argomenti: l'Europa occidentale, gli Stati Uniti negli anni Cinquanta, il blocco orientale e la guerra fredda in Asia.",
   "lingua": "it"
+ },
+ {
+  "nome": "MB1",
+  "testo": "Qual è il nuovo clima internazionale dopo la guerra? Dopo la guerra nasce l'Organizzazione delle Nazioni Unite, nel millenovecentoquarantacinque, con il compito di evitare nuove guerre. Si assiste al declino delle potenze europee e all'affermazione di due superpotenze, tra le quali si crea la guerra fredda."
+ },
+ {
+  "nome": "MB2",
+  "testo": "Qual è la situazione dell'Europa nel quadro della guerra fredda? L'Europa è sotto l'influenza degli Stati Uniti, a occidente, che offrono aiuti economici, con il piano Marshall, che avviano un processo di integrazione economica, la CEE, nel millenovecentocinquantasette; e un'alleanza militare, la NATO. L'Europa è sotto l'influenza dell'Unione Sovietica, a oriente, che impone il modello socialista e reprime i tentativi di autonomia, come in Ungheria, nel millenovecentocinquantasei."
+ },
+ {
+  "nome": "MB3",
+  "testo": "In Asia. In Corea si combatte la guerra tra Nord e Sud, dal millenovecentocinquanta al millenovecentocinquantatré. Il Giappone realizza una brillante ripresa economica e diventa il principale alleato degli Stati Uniti in Asia. In Cina nasce la Repubblica popolare cinese, che sperimenta una forma di socialismo autonoma dall'Unione Sovietica."
+ },
+ {
+  "nome": "W1_R2",
+  "testo": "Benvenuti alla lezione di Storia. Oggi parliamo della guerra fredda, dal millenovecentoquarantacinque al millenovecentosessantuno. In questa prima parte vediamo tre argomenti: il dopoguerra, Bretton Woods e il bipolarismo, la dottrina Truman e il blocco di Berlino."
+ },
+ {
+  "nome": "W2_R2",
+  "testo": "Bentornati alla lezione di Storia. Oggi proseguiamo con la guerra fredda. In questa seconda parte vediamo quattro argomenti: l'Europa occidentale, gli Stati Uniti negli anni Cinquanta, il blocco orientale e la guerra fredda in Asia."
  }
 ]
