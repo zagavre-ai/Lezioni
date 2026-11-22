@@ -2,7 +2,12 @@
  "tag": "storia-V-lez17",
  "parti": {},
  "manca": "",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "22/11 18:41",
+   "testo": "VOCI NUOVE lez17 (tutte): scambio/storia-V-lez17/testi_voci.json su voci-storia-V-lez17 contiene SOLO i testi nuovi, 16 voci: BEN1_R2, BEN2_R2, BEN3_R2 (benvenuti senza nome del prof, rifanno BEN1-3), SPG2_1-3 e SPG3_1-2 (spiegoni Parte 2 e 3), AP1-AP8 (approfondimenti 40-60 s, uno per argomento). Restano valide le voci del 19/11 PI*, SC*, MPR1-3, LG*, FZ* (nessun nome del prof). MAPN* non servono piu (mappe inventate tolte). Nomi propri: Brezhnev scritto Brežnev, Gorbačev, Khomeini, Pinochet, Tienanmen, Sabra e Chatila, Perestrojka, Glasnost, Plaza de Mayo, Falkland: da controllare in ascolto. Altre voci possono seguire; monto con provvisorie."
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
@@ -18,6 +23,6 @@
    "testo": "ripristinato stato precedente (le 3 Parti della consegna 19/11) dopo prenotazione correzioni 22/11"
   }
  ],
- "aggiornato": "2026-11-22 18:37:25",
+ "aggiornato": "2026-11-22 18:41:56",
  "stato": "IN_REVISIONE"
 }
