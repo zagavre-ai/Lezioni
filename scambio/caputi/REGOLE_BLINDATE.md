@@ -1,26 +1,24 @@
 # Regole blindate delle videolezioni
 
-Valgono per **tutte le materie e tutte le lezioni**. Raccolgono le decisioni di Sara dal 29/10 al 22/11/2026 (aggiornate con le sue correzioni del 22/11 mattina). Non si discutono e non si chiedono più. Se una regola nuova contraddice una vecchia, vale la più recente, scritta in questo documento.
+Valgono per **tutte le materie e tutte le lezioni**. Non si discutono e non si chiedono più.
 
 ## 1. Chi decide e come si lavora
-- **La master** decide tutto il resto: formati, codifiche, strumenti, ordine dei lavori. Approva al posto di Sara quiz e testi delle voci.
-- **Le chat non fanno domande a Sara.** Scrivono alla master con `stato.py --serve_master "..."`. A Sara arriva solo lo stato.
-- **Nessuno parte in automatico su cose nuove:** la master spiega a Sara cosa vuole fare e aspetta il suo sì.
+- **La master** decide formati, codifiche, strumenti e ordine dei lavori, e approva quiz e testi delle voci.
+- **Le chat non fanno domande a Sara**: scrivono alla master con `stato.py --serve_master "..."`.
 - Nel dubbio non si inventa e non si stima: ci si ferma e si scrive alla master.
-- **Oltre a insegnare bisogna intrattenere: vale per tutte le materie.** Ritmo, animazioni fatte bene, mai lo schermo fermo a lungo (sezione 4 e sezione 8).
-- Nei testi per docenti, alunni, famiglie e direzione Sara si scrive sempre «**Prof.ssa Sara Zagarese, Coordinatrice Didattica**».
+- **Oltre a insegnare bisogna intrattenere, in tutte le materie:** ritmo, animazioni fatte bene, mai lo schermo fermo a lungo.
 
 ## 2. Il docente: voce, parole, immagine
 1. **Le parole del docente non si toccano.** Si tolgono solo pause lunghe, inizi e fini a vuoto, ripetizioni e incespicamenti. Mai riassunti, mai riempitivi.
 2. **Mai tagliare il docente a metà frase.** Ogni pezzo del docente comincia e finisce su una frase intera, controllata sulla trascrizione. I tagli cadono nelle pause, 0,15 s prima della frase che segue. Le dissolvenze cadono solo nel silenzio. Nel rapporto va una tabella con la fine di ogni pezzo: minuto, ultime 6–8 parole, frase finita sì/no.
 3. **Mai il docente fermo:** nessun fermo immagine di 1 s o più. Mai la sua foto fissa.
    - **Nell'introduzione animata** (copertina e presentazione degli argomenti) **non c'è mai il riquadro del docente, nemmeno vuoto o bianco.** Il riquadro compare solo quando il docente comincia a parlare.
-4. **Audio pulito ma con la sua voce:** filtro dei bassi, riduzione leggera del rumore, −16 LUFS (picco ≤ −1 dBTP). Pause oltre 2,5 s accorciate a circa 1 s. **La pulizia non deve cambiare il timbro.** Si misura: acuti sopra i 4 kHz meno volume sopra i 100 Hz tra −9 e −20 dB. Sotto −25 dB la voce è rovinata («grugnito», come Storia V lez04 e lez06) e la lezione non si consegna.
+4. **Audio pulito ma con la sua voce:** filtro dei bassi, riduzione leggera del rumore, −16 LUFS (picco ≤ −1 dBTP). Pause oltre 2,5 s accorciate a circa 1 s. **La pulizia non deve cambiare il timbro:** acuti sopra i 4 kHz meno volume sopra i 100 Hz tra −9 e −20 dB; sotto −25 dB la voce è rovinata e la lezione non si consegna.
 5. **Labbra e voce in sincrono**, scarto massimo 0,04 s per ogni pezzo, misurato sull'originale.
 6. **Webcam:**
    - Prof. Mazzotti: riquadro 4:3 (412×309 a x=1428, y=148), ombra grigia.
    - Prof.ssa Caputi: **il suo tondo ripulito**, nella colonna destra, al massimo circa 2 volte il tondino originale, con la fascia gialla del nome e della materia.
-   - Correzione colore leggera, niente sfocature dello sfondo. La sorgente è quella che è: non ci si ferma.
+   - Correzione colore leggera, niente sfocature dello sfondo.
 7. **I file originali dei docenti non si modificano mai.** Nelle nostre slide, dispense e mappe **i refusi si correggono** (ortografia, accenti, maiuscole dei nomi propri, nomi scientifici scritti male) e si elencano nel rapporto; la master li ricontrolla. Numeri o contenuti che non tornano non si toccano: si riportano come li dice il docente e si scrivono nel rapporto.
 
 ## 3. Struttura della lezione
@@ -133,7 +131,6 @@ Valgono per **tutte le materie e tutte le lezioni**. Raccolgono le decisioni di 
   - mai dati di alunni, mai chiavi o password;
   - commit senza firma;
   - i video non si caricano mai sul ramo `main`, che è la parte comune del repository che ogni chat scarica: vanno nei rami di consegna e nelle release.
-- **Piattaforma SoluzioneFAD:** solo lettura, salvo un ok esplicito di Sara.
 
 ## 11. Controlli obbligatori prima di consegnare (se uno non torna, non si consegna)
 Il controllo lo fa **un agente separato**, che non ha montato la lezione. I difetti si correggono e il controllo si ripete finché non ne resta nessuno.
@@ -156,12 +153,12 @@ Il controllo lo fa **un agente separato**, che non ha montato la lezione. I dife
 - [ ] Dispensa identica al video, con il testo invisibile; sottotitoli fatti sul video finale.
 - [ ] Il rapporto dice cosa è stato verificato e **cosa no**.
 
-## 12. Il controllo severo della master (dopo la consegna)
-La master ricontrolla ogni lezione prima di caricarla, su **tutti** gli aspetti decisi in questo documento: la lista del §11 e ogni altra regola. Per i controlli che si possono misurare usa i suoi strumenti; per gli altri guarda i fotogrammi e la trascrizione. Se anche una sola regola non è rispettata, la lezione torna alla chat con l'elenco dei difetti e il minuto. Se è tutto a posto, la carica su Vimeo, aggiorna la pagina interattiva e lo stato delle videolezioni.
+## 12. Il controllo della master
+Dopo la consegna la master ricontrolla **tutte** le regole di questo documento. Se anche una sola non è rispettata, la lezione torna alla chat con l'elenco dei difetti e il minuto.
 
 ## 13. Tempi (vincolanti)
 - **Ogni lezione si consegna entro 2 ore e mezza** da quando la chat la prende (stato `IN_REVISIONE`).
 - Stato ogni 30 minuti, con quello che è fatto e quello che manca.
 - **Dopo 1 ora** la chat confronta il lavoro fatto con quello che manca: se vede che non chiude nelle 2 ore e mezza, lo scrive **subito** alla master con `--serve_master`, dicendo quale parte del lavoro può passare a un'altra chat. Non si aspetta la scadenza per dirlo.
 - Non si riduce la qualità per stare nei tempi: se il tempo non basta, si divide il lavoro.
-- La master ricontrolla ogni consegna appena arriva e risponde entro 30 minuti: carica oppure rimanda indietro con l'elenco dei difetti.
+- Una chat con più lezioni le fa una dopo l'altra: 2 ore e mezza **per ogni lezione**.
