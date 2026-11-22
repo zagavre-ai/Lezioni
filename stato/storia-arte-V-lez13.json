@@ -6,8 +6,13 @@
    "stato": "IN_MONTAGGIO"
   }
  },
- "manca": "",
- "serve_master": [],
+ "manca": "montaggio completo: trascrizione in corso, poi tagli, slide, mappe (2 del prof: Metafisica, Architettura), quiz, voci",
+ "serve_master": [
+  {
+   "quando": "22/11 22:52",
+   "testo": "Storia arte lez13: (1) Wikimedia/upload.wikimedia.org dà 403 dalla mia rete: uso solo le immagini del PDF del prof (opere 460-970 px, da ingrandire). Se la master può mettere sul ramo voci-storia-arte-V-lez13 versioni alte di: Le muse inquietanti, Canto d'amore, L'enigma di un pomeriggio d'autunno, Casa del Fascio di Como, Palazzo della Civiltà Italiana, via della Conciliazione, lo faccio volentieri. (2) Il video sorgente è 1092x614 con webcam di 246x138 px: il riquadro 4:3 sarà molto ingrandito (circa 2x). (3) Mi aspetto durata ~40 min di prof + aggiunte: una sola Parte. Mando testi_voci.json appena ho la trascrizione."
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
@@ -18,5 +23,5 @@
  "materia": "Storia dell'arte V",
  "lezione": "Lezione 13 · Razionalismo e Metafisica",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-22 22:45:17"
+ "aggiornato": "2026-11-22 22:52:30"
 }
