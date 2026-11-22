@@ -1,12 +1,12 @@
 {
  "materia": "Letteratura italiana (V)",
  "titolo": "Letteratura V · Lezione 14 · Pirandello · Parte 2",
- "durata_s": 2745.9,
+ "durata_s": 2745.87,
  "argomenti": [
   {
    "n": 1,
    "titolo": "Il teatro grottesco e Il giuoco delle parti",
-   "inizio_s": 69.6,
+   "inizio_s": 77.267,
    "quiz_s": 280.833
   },
   {
@@ -31,13 +31,13 @@
    "n": 5,
    "titolo": "Ciàula scopre la luna",
    "inizio_s": 1240.133,
-   "quiz_s": 1649.2
+   "quiz_s": 1652.467
   },
   {
    "n": 6,
    "titolo": "Il treno ha fischiato",
-   "inizio_s": 1654.5,
-   "quiz_s": 2483.967
+   "inizio_s": 1657.767,
+   "quiz_s": 2483.933
   }
  ],
  "quiz": {
@@ -372,6 +372,6 @@
    ]
   }
  },
- "t_verifica": 2720.8,
- "t_compiti": 2734.0
+ "t_verifica": 2720.767,
+ "t_compiti": 2733.967
 }

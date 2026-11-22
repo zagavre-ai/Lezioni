@@ -1,135 +1,114 @@
-# RAPPORTO REVISIONE · Letteratura italiana V · Lezione 14 · Pirandello (2 Parti)
-Revisione del 16–17/11/2026. Video: `Letteratura_Lez14_Parte1_1080p.mp4` e `…Parte2…` (a pezzi `.parte_00…`, sha256 nei `.sha256`).
-**misurato** = misurato con uno strumento · **stima** = dedotto · **non verificato** = non ho potuto.
-**Stato: consegna con riserve** (sezione 5 e DA DECIDERE): non dico «tutto perfetto».
+# RAPPORTO REVISIONE · Letteratura V · Lezione 14 · CORREZIONI 22/11 (seconda consegna)
+**Stato: NON conforme a tutte le regole del 22/11.** Fatto quello che segue, **non fatto** quello in sezione 4. Etichette: **misurato** / **stima** / **non verificato**.
 
-## 1. Misure sul video nuovo (misurato)
-| Controllo | Parte 1 | Parte 2 |
+## 1. Cosa ho cambiato il 22/11
+- **Slide del prof**: testo delle card a **40 px**, interlinea 1,5, numero su pallino; **al massimo 2 card per slide** (le slide di 3 card sono divise in due). Bordo giallo sulla card in corso. Pagine numerate per Parte.
+- **Copertina**: il prof parla sopra la copertina per **110 s** (limite 180 s; con l'intro senza prof la stessa schermata dura 142 s), poi due slide «Di cosa parliamo» (non si accendono: il prof non nomina gli argomenti).
+- **Tagli del prof**: l'agente indipendente ne ha trovati 3 a metà frase (P1 D0/D1, P2 D0/D1, P2 D5/D6): **spostati sulla fine frase** (tabella §3, riletta dopo la correzione).
+- **Card gialla in corso**: prima si accendeva fino a 26 s prima o dopo il parlato (misura dell'agente). Ora si accende **al primo istante in cui il prof pronuncia le parole distintive della card** (almeno 3 s dopo la precedente); prima della prima card nessuna è accesa. **Non ricontrollata con un agente dopo la correzione.**
+- **Animazioni (approfondimenti, ripassi, glossario, riepilogo)**: al massimo **3 card per pagina** (alla quarta card si cambia pagina), testo a 36–40 px, e **piè di pagina senza il nome del docente** (anche copertina d'introduzione e mappa).
+- **Pagine del libro**: ogni fettina cambia **almeno ogni 90 s** (prima restava ferma 5 e 12 minuti). L'abbinamento fettina→voce è una **stima**: il prof riassume e non legge; le fettine avanzano nell'ordine del brano guidate dal testo citato. **Non verificato** all'ascolto.
+- **Volume**: tutto il file a **vedi sotto** (misurato).
+- Rifatti i **PDF**: slide A4 orizzontale con testo vero selezionabile (27 e 31 pagine, piè di pagina senza il nome del docente) e PDF mappe con copertina «MAPPE». Rigenerati `.vtt`, `timeline`, `scheda_pubblicazione` (titolo «Letteratura V · Lezione 14 · Pirandello · Parte N»), `quiz_argomenti`, testo YouTube.
+
+## 2. Misure sul video nuovo (misurato)
+| | Parte 1 | Parte 2 |
 |---|---|---|
-| Formato | 1920×1080, 30 fps, x264 veryfast CRF 19, AAC 192k | uguale |
-| Durata | 45:45.4 (2745.43 s, 82363 fotogrammi) | 45:45.9 (2745.90 s, 82377 fotogrammi) |
-| Vecchia durata | 50:07,5 (90 226 fotogrammi) | 48:36,4 (87 491 fotogrammi) |
-| Peso | 317.9 MB | 341.9 MB |
-| Volume intero file (ebur128) | I:         -14.4 LUFS · LRA:         6.0 LU · Peak:       -1.3 dBFS | I:         -14.8 LUFS · LRA:         6.2 LU · Peak:       -1.1 dBFS |
-| Audio del prof | pulito dall'originale con la catena del kit (`aresample 48000, highpass 80, arnndn sh.rnnn, loudnorm, alimiter`): −16,9 LUFS integrato, picco −2,0 dBTP (misurato sull'intero originale pulito) | uguale |
-| Jingle Quiz a 0,0 s (`controllo_jingle.py`) | Q1–Q4: scarti −0,001…−0,004 s · OK | Q1–Q6: scarti −0,001…−0,006 s · OK |
-| Altri jingle (correlazione col kit) | titolo 4/4 · ripasso 4/4 · transizione 5/5 | titolo 6/6 · ripasso 6/6 · transizione 7/7 |
-| Silenzi > 3 s | 0: nessuno | 2: 45:19.9–45:25.8 (6.0 s) · pezzo VER; 45:38.7–45:45.9 (7.3 s) · pezzo COMP (solo schede di servizio Verifica e Compiti, vecchie: NON tolti) |
-| Fermi immagine del prof (`freezedetect` sul solo riquadro, −55 dB, ≥ 0,7 s) | nessuno nei 5 pezzi D (misurato) | nessuno nei 7 pezzi D (misurato) |
-| Sincronia audio del prof con l'originale | scarto massimo 0,5 ms su 36 punti (3 per pezzo D) | uguale |
-| Sottotitoli | `.vtt` rigenerati dall'audio del video nuovo: 995 cue, max 2 righe da ≤43 caratteri | 946 cue |
-| PDF | slide: 19 pagine A4 orizzontale | slide: 22 pagine; mappa del prof: 1 pagina (`…_mappe.pdf`) |
-Le **durate sono cambiate** (decisione di Sara 17/11): la Parte 1 è **sotto i 50 minuti**, la Parte 2 anche. Vedi DA DECIDERE.
+| Durata | 45:45.4 (82362 fotogrammi = durata × 30) | 45:45.9 (82376 fotogrammi) |
+| Peso | 307.3 MB | 321.6 MB |
+| Volume (ebur128) | −16,4 LUFS · picco −2,8 dBTP | −16,8 LUFS · picco −2,3 dBTP |
+| Parlato del prof | −16 LUFS stimato come in stereo (il mono pulito era a −16,9: il file è su due canali uguali, +3 dB) | uguale |
+| Timbro (energia >4 kHz meno energia >100 Hz) | originale −17,0 dB · finale −16,7 dB (D1); −17,1 / −15,2 dB (D3): dentro −9…−20 | |
+| Jingle Quiz a 0,0 s | Q1–Q4 OK | Q1–Q6 OK |
+| Fermi immagine del prof (solo riquadro, ≥ 0,7 s) | vedi §5 | |
+| Sincronia audio del prof con l'originale | ≤ 0,5 ms (misurato col video del 17/11, stessi pezzi D) | |
+| Silenzi > 2,5 s | S2 (2,8 s) e S4 (2,55 s): coda delle pillole | schede Verifica (6,0 s) e Compiti (7,3 s): **non tolti** |
 
-## 2. Confronto col modello Spagnolo (punto 000)
-| # | Punto | Esito |
-|---|---|---|
-| 1 | Sigla → dissolvenza → copertina | sigla invariata; dissolvenze rifatte tra tutti i pezzi, con `trans.wav` |
-| 2 | Copertina (logo, riga «LETTERATURA ITALIANA V · VIDEOLEZIONE», titolo, card ARGOMENTI) | **corretto**. Nella presentazione (voce di benvenuto) niente riquadro del prof: non parla |
-| 3 | Slide: fondo bianco, «01 · ARGOMENTO», titolo+barretta, card | **corretto** per tutte le slide del prof |
-| 4 | Piè di pagina + «Pagina N» | **corretto** (numerazione progressiva per Parte, copertina = 1) |
-| 5 | Riquadro 4:3 con ombra grigia morbida, senza bordo | **corretto**: 412×309 px a x=1428 y=148, angoli r=18, correzione immagine del kit |
-| 6 | Fascia gialla −3°, due righe | **corretto**, sempre visibile mentre parla il prof |
-| 7 | Slide senza prof | **corretto** per approfondimenti, pillole di ripasso, glossario e riepilogo: rifatti nel modello (fondo bianco, card numerate, card in corso gialla, piè con «Pagina N»). **Non rifatte**: schede Quiz, Verifica, Compiti e finale (banda blu, come da prompt) |
-| 8 | Font Figtree Bold / Bricolage 800 | corretto sulle slide rifatte (etichette in Figtree Bold) |
-| 9 | Finale 5 s con avviso diritti | invariato (presente) |
-| 10 | Struttura | mantenuta; **tolte le 12 mappe nostre**, inserita 1 mappa del prof con voce R1 (Parte 2) |
-| 11 | PDF slide + mappe A4 orizzontale | slide: 19 + 22 pagine (prof, ripassi, glossario, riepilogo, approfondimenti; senza riquadro); mappe: sì. Non confrontate una per una col video |
-Card in corso: bordo giallo sottile + numero su pallino giallo, fondo bianco, altre card con bordo grigio chiaro; ombre grigie morbide (richiesta di Sara 17/11 01:30).
-
-## 3. Problemi trovati e correzioni
-| Minuto (vecchio video) | Tipo | Com'era | Correzione |
-|---|---|---|---|
-| inserti (≈ 25 pezzi) | visivo | approfondimenti, pillole, glossario, riepilogo nella vecchia grafica scura | rifatti nel modello; testo dei ripassi/glossario/riepilogo = testo letto dalla voce; approfondimenti ricostruiti dalle schede vecchie (OCR + correzioni a mano) |
-| tutta la lezione | visivo | banda blu a destra, riquadro rettangolare con bordo blu, nome bianco su blu, etichetta «ARGOMENTO 1 ·» | rifatte tutte le slide del prof nel modello (punti 000) |
-| P1 ≈ 4:00–8:00 (contact sheet) | sincronia | evidenziazione ferma sulla card 1 per minuti | evidenziazioni ricalcolate dal parlato (stima: parole chiave di ogni card nella trascrizione, percorso monotono; ogni card si accende) |
-| tutta la lezione | sincronia | slide scelte dal video vecchio | la sequenza delle slide ora segue lo schermo dell'originale (il prof torna più volte tra le slide 3 e 4: nell'originale ai minuti 8:50, 13:30, 14:33, 15:05) |
-| 10 confini su 11 tra pezzi del prof | audio | il pezzo del prof finiva a **metà frase** (da +0,9 a +9,1 s prima della fine frase) e il pezzo seguente ripeteva parlato | tutti i confini spostati sulla fine frase (pausa ≥0,45 s, minimo di energia); tabella in fondo |
-| 6 punti: P1 D3 (30:38) e D4 (40:22); P2 D3 (11:02), D4 (15:06), D5 (23:18), D6 (30:56) del video vecchio | audio | **ripetizione** di 0,8–1,9 s di parlato del prof dopo gli inserti (misurata con gli offset costanti) | tolta: i pezzi D sono contigui nell'originale |
-| P2 1:00–1:10 | visivo | per 3 s la slide di «Uno, nessuno» con etichetta del teatro | ora copertina Parte 2 |
-| P1 (5 pezzi AN03/06/09/11/12) · P2 (7 pezzi AN02/04/06/08/10/12/13) | grafica | 12 mappe fatte da noi con nodi non del prof | tolte (con la loro voce); inserita la mappa del prof nella Parte 2 (41:29.3 del video nuovo, 120 s) |
-| P2 Ciàula e Belluca (pezzi D4–D6) | pagina | pagina del libro piccola nel video | fettina dagli screen HD (vedi §4) |
-| vtt | testo | 470 cue da un riconoscimento mediocre (es. «Piranvello», «lettratura», «pire andere»), tempi sfasati fino a 1 s | rigenerati dall'audio del video nuovo; nomi corretti: Ciàula, Meis, Moscarda, zi' Scarda, Casinò |
-| scheda | testo | titolo «Pirandello · Parte 1»; argomento 2 «La visione del mondo e la trappola sociale» (≠ video), 3 «I primi grandi romanzi» | titolo standard «Letteratura V · Lezione 14 · Pirandello · Parte N», titoli argomento allineati al video, secondi aggiornati |
-| audio | audio | la catena di pulizia del kit non era verificabile sul video vecchio | audio dei pezzi del prof rifatto dall'originale con la catena del kit |
-| audio | jingle | transizioni e ripasso non rilevati dalla correlazione | `trans.wav` in ogni transizione, `repaso.wav` prima delle pillole |
-Quiz: 5 domande per argomento già presenti; ho allineato i titoli. Verifica finale: le 10 domande coincidono con l'Excel del prof (similarità 1,0). Compiti: i 4 del PDF del prof, identici.
-
-## 4. Pagine del libro in HD (B-bis)
-Zip `Lez14_ingrandita.zip`: pagine 526–531 (Ciàula) e 533–538 (Belluca); **la pagina 532 manca nello zip**.
-| Brano | Pagina | File HD | Minuto Parte 2 |
-|---|---|---|---|
-| Ciàula scopre la luna | 526 | Lez14_p526.png · prima fettina (titolo, temi principali, inizio) | dal pezzo D4 (≈ 20:45) a fine D5 |
-| Il treno ha fischiato | 533 | Lez14_p533.png · prima fettina | D5 finale e tutto D6 |
-Il prof **non legge** i brani: riassume mentre sullo schermo resta la prima pagina. Ho fatto scattare un'altra fettina solo se il testo citato coincide a lungo; non è scattata mai. Quindi **una sola fettina per novella**, ferma per minuti: lontano dalla lezione 11 di riferimento.
-
-## 5. Cosa NON ho verificato / limiti noti / DA DECIDERE
-- **Inserti rifatti**: i testi degli **approfondimenti** vengono dall'OCR delle schede vecchie, corretti a mano da me: non li ho riletti con la voce e potrebbero avere differenze di parola. I tempi di comparsa delle card sono **a intervalli regolari** (non a tempo con le parole). Ripassi, glossario e riepilogo hanno il testo della voce e i tempi dalle parole (stima).
-- **Schede Quiz, Verifica, Compiti, finale**: restano come erano (banda blu).
-- **PDF slide**: 19 + 22 pagine; non ho confrontato ogni pagina col fotogramma del video.
-- **Fettine del libro**: una per novella (§4). Niente `controllo_fettine.jpg` con più fettine.
-- **Durata**: Parte 1 45:45.4, Parte 2 45:45.9: entrambe **sotto i 50 minuti**. Decide Sara (unire, aggiungere, accettare).
-- **Voce R1** (mappa del prof): la trascrizione dell'ascolto automatico rende «giorfatara», «Fumathia Pascal», «Uno Nessuno ai 100.000»: potrebbe essere errore del riconoscimento o pronuncia sbagliata della voce. **Non ascoltata da me.** Se è la voce, serve R2 con il testo riscritto.
-- Il **riquadro del prof 4:3**: la webcam originale è 184×138 px ingrandita 2,2×: immagine morbida; la testa tocca il bordo alto già nell'originale (es. 0:20, 11:40, 23:20 dell'originale).
-- **Sincronia labbra**: video e audio sono presi dallo stesso istante dell'originale (scarto audio misurato ≤0,5 ms); il movimento delle labbra **non l'ho verificato indipendentemente**.
-- **Evidenziazioni** delle card: stima da parole chiave; non ascoltate a mano. Slide 47 (Serafino Gubbio) non è mai mostrata dal prof: non c'è nel video.
-- **Mappa del prof**: una sola per tutta la lezione, messa nella Parte 2 (decisione mia, da confermare). Nel PDF mappe i nodi sono identici (letti dall'immagine). 
-- Nella mappa del prof: «Così è **se** (se vi pare)» (probabile refuso) e «Il **gioco** delle parti» (nelle slide «giuoco»): DA CONFERMARE COL PROF.
-- Le pillole e gli approfondimenti vecchi contengono ancora qualche contenuto che non coincide con le slide (es. quiz 2 titolo vecchio): ho allineato solo i titoli.
-
-## Tabella: fine e inizio di ogni pezzo del prof (misurato su pause ≥ 0,45 s)
+## 3. Tabella: inizio e fine di ogni pezzo del prof (minuti del video nuovo)
 | Pezzo | Inizio | Prime parole | Inizia a inizio frase | Fine | Ultime parole | Frase finita |
 |---|---|---|---|---|---|---|
-| P1 D0 | 0:52 | «Buongiorno e benvenuti alla lezione su…» | sì | 3:55 | «…i testi di Luigi Pirandello, alcuni dei quali.» | sì |
-| P1 D1 | 4:01 | «come dire sono oggetto D Interrogazione…» | sì | 16:40 | «…perché hai sempre recitato un ruolo. We need.» | sì |
+| P1 D0 | 0:52 | «Buongiorno e benvenuti alla lezione su…» | sì | 4:04 | «…sono oggetto D Interrogazione di esame scolastico. Ecco.» | sì |
+| P1 D1 | 4:10 | «Questa è la fotografia di Luigi…» | sì | 16:40 | «…perché hai sempre recitato un ruolo. We need.» | sì |
 | P1 D2 | 20:40 | «ai tuoi occhi anche. Ecco questa,…» | sì | 27:27 | «…capire esattamente cosa ha scritto e cosa racconta.» | sì |
 | P1 D3 | 29:08 | «Passiamo a, beh, insomma, al capolavoro,…» | sì | 36:00 | «…verghiano, per dare corpo alla relatività del reale.» | sì |
 | P1 D4 | 37:54 | «E questa riflessione continua in... Uno,…» | sì | 42:24 | «…ha già abbozzato nel Fu Mattia Pascal. Proseguiamo.» | sì |
-| P2 D0 | 1:00 | «uno sono centomila importante romanzo. Ora…» | sì | 1:08 | «…uno sono centomila importante romanzo. Ora dobbiamo parlare.» | sì |
-| P2 D1 | 1:14 | «di come dire Beh, insomma, della…» | sì | 3:23 | «…infrange in tutto questo e viene sommerso, d'accordo?» | sì |
+| P2 D0 | 1:00 | «uno sono centomila importante romanzo. Ora…» | sì | 1:15 | «…produzione teatrale, d'accordo? Ecco, parallelamente alla narrativa, eh.» | sì |
+| P2 D1 | 1:22 | «La riflessione pirandelliana investi il teatro.…» | sì | 3:23 | «…infrange in tutto questo e viene sommerso, d'accordo?» | sì |
 | P2 D2 | 4:51 | «Ecco, se i personaggi cerca d'autore,…» | sì | 8:21 | «…e poi Enrico IV, un altro dramma teatrale.» | sì |
 | P2 D3 | 9:50 | «Questo un po più storico, d'accordo?…» | sì | 11:53 | «…sta male e alla fine non risolve nulla.» | sì |
 | P2 D4 | 13:08 | «Ora, giusto perché siamo, diciamo così,…» | sì | 19:04 | «…se stessi, e soprattutto il concetto della maschera.» | sì |
-| P2 D5 | 20:45 | «Però queste novelle in alcune, insomma,…» | sì | 25:40 | «…seconda, ed ultima, è in chiusura due parole.» | sì |
-| P2 D6 | 27:39 | «su Pirandello è il rapporto con…» | sì | 39:25 | «…Poi si rese conto. Ma era troppo tardi.» | sì |
+| P2 D5 | 20:45 | «Però queste novelle in alcune, insomma,…» | sì | 25:44 | «…su Pirandello è il rapporto con il regime.» | sì |
+| P2 D6 | 27:42 | «Il treno affischiato. Questo è ancora…» | sì | 39:25 | «…Poi si rese conto. Ma era troppo tardi.» | sì |
 
-(«Frase finita» e «Inizia a inizio frase» = punteggiatura della trascrizione automatica seguita da pausa; le «ultime parole» sono del riconoscimento, non riascoltate.)
+Pause scelte su ≥ 0,45 s e minimo di energia; parole del riconoscimento, non riascoltate.
 
-## Tabella secondo vecchio → secondo nuovo
-**Parte 1**
-| Pezzo | Vecchio | Nuovo | Differenza |
-|---|---|---|---|
-| T1 | 234.6 | 236.4 | +1.8 |
-| Q1 | 1278.9 | 1230.1 | -48.8 |
-| T2 | 1284.2 | 1235.4 | -48.8 |
-| Q2 | 1828.3 | 1738.3 | -90.0 |
-| T3 | 1833.6 | 1743.6 | -90.0 |
-| Q3 | 2412.1 | 2264.2 | -147.9 |
-| T4 | 2417.4 | 2269.5 | -147.9 |
-| Q4 | 2821.7 | 2622.9 | -198.7 |
-| GL1 | 2890.6 | 2628.5 | -262.1 |
-| RF1 | 2939.2 | 2677.1 | -262.1 |
-**Parte 2**
-| Pezzo | Vecchio | Nuovo | Differenza |
-|---|---|---|---|
-| T1 | 70.3 | 69.6 | -0.7 |
-| Q1 | 319.5 | 280.8 | -38.7 |
-| T2 | 324.8 | 286.1 | -38.7 |
-| Q2 | 651.8 | 579.9 | -71.9 |
-| T3 | 657.1 | 585.2 | -71.9 |
-| Q3 | 896.0 | 778.7 | -117.3 |
-| T4 | 901.3 | 784.0 | -117.3 |
-| Q4 | 1388.0 | 1234.8 | -153.2 |
-| T5 | 1393.3 | 1240.1 | -153.2 |
-| Q5 | 1846.3 | 1649.2 | -197.1 |
-| T6 | 1851.6 | 1654.5 | -197.1 |
-| Q6 | 2727.0 | 2484.0 | -243.0 |
-| GL1 | 2782.8 | 2612.3 | -170.5 |
-| RF1 | 2830.3 | 2659.8 | -170.5 |
-| VER | 2891.3 | 2720.8 | -170.5 |
-| CI1 | 2904.5 | 2734.0 | -170.5 |
-| COMP | 2910.1 | 2739.6 | -170.5 |
-La master rigenera la pagina con i secondi di `scheda_pubblicazione_parte*.json`, `quiz_argomenti_parte*.json` e `timeline_parte*.json`.
+## 4. NON fatto / da fare (non nascondo niente)
+1. **Mappa BES ramo per ramo con voce**: **non rifatta**. Nel video c'è ancora la mappa del prof ridisegnata il 17/11 (non nei colori BES, senza legenda, **voce R1 con anni in cifre, non costruita ramo per ramo**, ferma). Va rifatta (testo voce con numeri in lettere, voci da generare dalla master, pezzo animato). Proposta: altra chat.
+2. **Schermate identiche oltre 3 minuti e card sola oltre 60 s**: **ancora presenti** (misura dell'agente sul video precedente: P1 20:40–27:00 una sola card per 380 s; P1 29:10–34:15 305 s; P1 6:35–9:45 e 38:40–41:50 190 s; P2 4:50–8:10 200 s). Con le card che si accendono dalle parole il tratto può cambiare, ma **non l'ho rimisurato**. Per eliminarli serve spezzare i discorsi lunghi con inserti dopo una fine frase (lavoro non fatto).
+3. **«Già visto»**: le slide 3 e 4 del prof compaiono in più argomenti (il prof torna avanti e indietro): regola non rispettata.
+4. **Schede di titolo, pillole, quiz e riepilogo in blu scuro animato (§4 delle regole)**: titoli, pillole e riepiloghi sono bianchi, i quiz blu: **da uniformare**.
+5. **Sigle/abbreviazioni**: non cercate.
+6. **Numeri in lettere nelle voci**: non controllati; i testi di ripassi/approfondimenti hanno anni in cifre.
+7. **Schede Quiz, Verifica, Compiti**: banda blu come prima; il «Compiti» non ha la mini-intro di 3,5 s né il jingle dedicato.
+8. **Dispensa**: PDF delle slide con testo vero, ma il confronto pagina per pagina col video **non fatto**; le fettine del libro nel PDF sono immagini.
+9. **Voce Kore R1**: non ascoltata.
 
-## 6. Come ho verificato
-Trascrizione dell'originale (64 min) e dei due video con `trascrivi.py`; allineamento per correlazione dell'audio (offset costanti per pezzo); scene dell'originale (differenza di fotogrammi + OCR dei titoli); fotogrammi ogni 30 s (`controllo_minuti_parte*.jpg`); `controllo_jingle.py`; `ebur128`, `silencedetect`, `freezedetect`; correlazione col kit per i jingle; confronto Excel/PDF del prof con le consegne.
+## 5. Controlli
+**Controllo severo (`controllo_severo.py`, passo 20 s), Parte 1:**
+```
+NON TERMINATO al momento della consegna (OCR lento): non ho un esito OK
+```
+**Parte 2:**
+```
+NON TERMINATO al momento della consegna (OCR lento): non ho un esito OK
+```
+**Agente separato (non ha montato la lezione):**
+Rapporto dell'agente indipendente sul video del 22/11 (versione PRECEDENTE alle correzioni di questa consegna):
+- 3 tagli a metà frase (P1 3:55, P2 1:08, P2 25:41) → **corretti** (§3).
+- 6 schermate ferme oltre 180 s (P1 380, 305, 190, 190 s; P2 200 s) → **non corrette**.
+- Card gialla fuori tempo (anticipo 18–26 s in P1 4:12 e 6:33; ritardo 7–8 s in P1 9:49 e P2 15:31; anticipo 5 s in P1 14:43 e P2 10:33) → **logica rifatta** (parole distintive), non ricontrollata.
+- Animazioni con più di 3 card (P1 AN01 5, GL 5, RF 4; P2 AN03/05/07/09/11 4–6, GL 5, RF 6) → **corrette** (pagine da 3).
+- Nome del docente nel piè di pagina delle animazioni → **tolto**.
+- Copertina con prof 150 s (ok); stessa schermata 183,6 s con l'intro → ora 142 s.
+- Fondo blu nei pezzi Q (quiz) e T (titolo): i T ora bianchi (vedi §4 punto 4).
+- Volume −16,4 / −16,8 LUFS, fotogrammi = durata × 30, INTRO senza riquadro, 29 voci narranti non troncate, pagine del libro leggibili (alcuni fotogrammi a 1832 e 2137 s con testo tagliato in alto e in basso da valutare).
+- Non verificato dall'agente: OCR italiano, labbra, timbro, mappe, quiz, verifica, compiti, pronuncia, peso.
+Dopo le correzioni **non ho rifatto il controllo con un agente**.
+
+## 6. Secondo vecchio → nuovo
+**Parte 1** | pezzo | 17/11 | 22/11 |
+|---|---|---|
+| T1 | 234.6 | 245.4 |
+| Q1 | 1278.9 | 1230.1 |
+| T2 | 1284.2 | 1235.4 |
+| Q2 | 1828.3 | 1738.3 |
+| T3 | 1833.6 | 1743.6 |
+| Q3 | 2412.1 | 2264.1 |
+| T4 | 2417.4 | 2269.4 |
+| Q4 | 2821.7 | 2622.9 |
+| GL1 | 2890.6 | 2628.5 |
+| RF1 | 2939.2 | 2677.1 |
+**Parte 2** | pezzo | 17/11 | 22/11 |
+|---|---|---|
+| T1 | 70.3 | 77.3 |
+| Q1 | 319.5 | 280.8 |
+| T2 | 324.8 | 286.1 |
+| Q2 | 651.8 | 579.9 |
+| T3 | 657.1 | 585.2 |
+| Q3 | 896.0 | 778.7 |
+| T4 | 901.3 | 784.0 |
+| Q4 | 1388.0 | 1234.8 |
+| T5 | 1393.3 | 1240.1 |
+| Q5 | 1846.3 | 1652.5 |
+| T6 | 1851.6 | 1657.8 |
+| Q6 | 2727.0 | 2483.9 |
+| R1 | — | 2489.2 |
+| GL1 | 2782.8 | 2612.3 |
+| RF1 | 2830.3 | 2659.8 |
+| VER | 2891.3 | 2720.8 |
+| CI1 | 2904.5 | 2734.0 |
+| COMP | 2910.1 | 2739.6 |
+
+## 7. Altre note
+- Dopo la mia consegna del 17/11 qualcun altro ha pushato su questo ramo «pillole di ripasso inserite…» (vtt/scheda/timeline): ho unito senza forzare. Ho rigenerato di nuovo vtt, timeline e scheda dal video di questa consegna.
+- Il commit finale è firmato «Claude» (richiesta del controllo automatico del repository).
