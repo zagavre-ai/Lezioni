@@ -1,8 +1,4 @@
-RM1b OK frasi trovate 1 / 1 parole diverse 11 (vere 4) tentativi 1
-RM2b OK frasi trovate 1 / 1 parole diverse 6 (vere 1) tentativi 1
-RM3b DA CONTROLLARE frasi trovate 1 / 1 parole diverse 7 (vere 23) tentativi 1
-RMFb OK frasi trovate 1 / 1 parole diverse 6 (vere 4) tentativi 1
-RM1c OK frasi trovate 1 / 1 parole diverse 12 (vere 5) tentativi 1
-RM2c OK frasi trovate 1 / 1 parole diverse 7 (vere 2) tentativi 1
-RM3d OK frasi trovate 1 / 1 parole diverse 8 (vere 4) tentativi 1
-RMFd OK frasi trovate 1 / 1 parole diverse 7 (vere 4) tentativi 1
+MP1 OK frasi trovate 1 / 1 parole diverse 14 (vere 5) tentativi 1
+MP5 OK frasi trovate 1 / 1 parole diverse 1 (vere 1) tentativi 1
+MP5b OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
+MP1 DA CONTROLLARE durata fuori misura
