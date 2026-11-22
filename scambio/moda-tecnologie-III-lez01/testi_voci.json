@@ -750,5 +750,13 @@
  {
   "nome": "P2_CHIUSURA",
   "testo": "Per oggi è tutto. Buon lavoro!"
+ },
+ {
+  "nome": "A01_APPROF_R2",
+  "testo": "Sai perché alcune fibre si chiamano man-made? Perché sono fibre chimiche, prodotte tramite l'intervento dell'uomo su una materia prima. Ma prima chiediamoci: che cos'è una fibra tessile? È un elemento di base di forma allungata, flessibile e sottile, che si presta a essere filato. Il Regolamento U E, cioè Unione Europea, numero mille e sette del duemilaundici, la definisce con tre parole chiave: flessibilità, finezza e un elevato rapporto tra la lunghezza e la dimensione trasversale massima. Le fibre naturali arrivano direttamente dal mondo naturale, senza modifiche da parte dell'uomo. Quelle chimiche si dividono in artificiali, che partono da prodotti già esistenti in natura, e sintetiche, che nascono dall'unione di elementi chimici semplici. Per unire i pregi delle varie fibre esistono infine le fibre in mischia."
+ },
+ {
+  "nome": "P2_CHIUSURA_V2_R2",
+  "testo": "Fine della seconda parte. Nella terza parte parleremo della seta, e poi faremo la verifica finale."
  }
 ]
