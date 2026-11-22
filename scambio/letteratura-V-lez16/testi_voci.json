@@ -348,5 +348,15 @@
   "nome": "MB11_R2",
   "testo": "Il secondo ramo: il pensiero.",
   "lingua": "it"
+ },
+ {
+  "nome": "MB21_R2",
+  "testo": "Autobiografico.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MB26_R2",
+  "testo": "Poi, la prosa.",
+  "lingua": "it"
  }
 ]
