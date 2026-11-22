@@ -2,8 +2,7 @@
  "tag": "storia-arte-V-lez02",
  "parti": {
   "1": {
-   "stato": "IN_MONTAGGIO",
-   "voci": "segnaposto"
+   "stato": "IN_MONTAGGIO"
   }
  },
  "manca": "",
@@ -11,9 +10,12 @@
  "domande_sara": [],
  "note": [
   {
-   "quando": "15/11 10:16",
-   "testo": "Storia dell'arte V · chat A2: presa in carico, pronta, attende voci Kore"
+   "quando": "22/11 22:42",
+   "testo": "storia arte 22/11: presa da claude/serene-ramanujan-dlnr70"
   }
  ],
- "aggiornato": "2026-11-15 10:16:48"
+ "materia": "Storia dell'arte V",
+ "lezione": "Lezione 2 · Il Romanticismo",
+ "docente": "Prof. Giorgio Mazzotti",
+ "aggiornato": "2026-11-22 22:42:03"
 }
