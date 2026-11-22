@@ -1,11 +1,15 @@
 {
  "tag": "storia-V-lez10",
  "parti": {},
- "manca": "trascrizione dell'originale in corso (96 min); pronti: generatore slide, 3 mappe BES, motore di montaggio; poi tagli, slide, pezzi, voci",
+ "manca": "montaggio pezzi in corso; voci provvisorie fino all'arrivo delle nuove",
  "serve_master": [
   {
    "quando": "22/11 18:46",
    "testo": "Storia V lez10: 1) mappe del prof = solo 3 (partito nazista; come giunge al potere Hitler; regime nazista): le faccio e non invento le altre; la mappa del regime nel PDF non ha titolo-domanda: la lascio senza titolo. 2) «Mappa finale della lezione» (CLAUDE §3.4): con 3 sole mappe del prof, la faccio come ripasso che riprende le 3 mappe finite, senza inventarne: ok? 3) Dalla consegna del 19/11 non ho i file di lavoro: rifaccio tutto dall'originale. Le voci Kore vecchie (BENV, SC*, P*, RI*, GL*, AP*) le riuso solo dopo averle controllate sul parlato del prof."
+  },
+  {
+   "quando": "22/11 19:03",
+   "testo": "storia-V-lez10: voci nuove inviate su voci-storia-V-lez10 (testi_voci.json, 17 voci nuove in coda alle 95 esistenti): BENV2, SPG2 (spiegone Parte 2), MAP1N/2N/3N (mappe del prof), VER, C1-C4 (compiti), e 7 rifacimenti con le sigle rispiegate (P4_R2, SC3_1_R2, SC4_5_R2, SC5_1_R2, SC6_5_R2, SC7_1_R2, RF1_R2). Le altre voci vecchie (BENV, AP1-8, P*, SC*, GL*, RF2, FIN*, CINTRO) le riuso dopo averle riverificate. Mappa 3: il prof non ha la domanda: titolo mio «Come funziona il regime nazista?» (lo dichiaro nel rapporto). Confine Parti: dopo l'argomento 4 (Parte 1 ~63 min, Parte 2 ~55 min)."
   }
  ],
  "domande_sara": [],
@@ -21,5 +25,5 @@
  ],
  "materia": "Storia V",
  "lezione": "Lezione 10 · La Germania da Weimar al nazismo",
- "aggiornato": "2026-11-22 18:46:03"
+ "aggiornato": "2026-11-22 19:03:36"
 }
