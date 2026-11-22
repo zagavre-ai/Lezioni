@@ -1,107 +1,81 @@
-# RAPPORTO REVISIONE · Letteratura italiana V · Lezione 19 · Dal secondo dopoguerra a oggi
-Revisione del 16/11/2026 (prova del metodo «2 ore»). Video corretto: `Letteratura_Lez19_Parte1_1080p.mp4` (a pezzi `.parte_00…01`, sha256 nel file `.sha256`).
-Ogni dato è etichettato **misurato** (con uno strumento), **stima** (dedotto) o **non verificato**. Mai «fatto» senza una misura.
+# RAPPORTO DI REVISIONE · Letteratura italiana V · Lezione 19 · «Dal secondo dopoguerra a oggi» (Prof. Giorgio Mazzotti)
+**Correzioni 22/11/2026** · ramo `revisione-letteratura-V-lez19` · stato: REVISIONATA (da ricontrollare dalla master).
+Etichette: **M** = misurato, **S** = stima o lettura a vista, **NV** = non verificato.
 
-## 1. Misure sul video nuovo (misurato)
-| Controllo | Risultato |
+## 1. Cosa ho cambiato rispetto alla revisione del 17/11
+| Regola 22/11 | Com'era | Com'è ora |
+|---|---|---|
+| Testo delle card a 40 px, interlinea 1,5 | 26–31 px | **40 px, interlinea 1,5** nelle slide con il prof; 36–40 px negli schemi, glossario, riepilogo, approfondimenti (titoli, etichette, piè di pagina invariati) |
+| Al massimo 3 card, frasi intere, mai «…» né iniziale minuscola | 3–4 card piccole per slide | **2 card per pagina** (a 40 px tre frasi del prof non entrano: la slide si divide, mai rimpicciolita). Ogni card è una frase intera del prof. La pagina cambia quando il prof passa alla frase dopo; il pallino/bordo giallo si accende alla **prima parola** con cui il prof incomincia la frase (tempi dalla trascrizione, ±1 s); l'altra card resta attenuata. Le pagine hanno numero progressivo (1–56) |
+| Nessuna schermata ferma oltre 3 min, nessuna card sola oltre 60 s | prima parte dell'argomento 1: 211 s con la stessa slide; ultima slide 200 s | **nessuna pagina oltre 153 s** (la copertina con l'introduzione; tutte le altre ≤ 145 s; misurato). Nei tratti in cui il prof parla in generale ho aggiunto slide fatte **con le sue frasi**: «Il secondo Novecento in Italia» (4 frasi, 2:07–5:35 del suo pezzo) e «Una carrellata per concludere» (2 frasi, ultime 100 s) |
+| Mappa: una sola, del prof, colori BES, ramo per ramo con la voce | mappa del prof in stile blu/giallo | **mappa del prof ridisegnata nel modello BES approvato** (concetto centrale pesca; parole chiave paglierino; esempi e opere menta; legenda in alto a destra), testo 34–50 px, maiuscolo/minuscolo, **stesse parole e stesse frecce** del prof. Costruita **ramo per ramo** con la voce Kore RV5 (riquadro acceso in giallo finché la voce parla), mappa intera ferma 4 s alla fine. Una volta sola, prima del glossario. **La mappa del prof non ha marchio di terzi né foto dell'autore** (è un disegno suo a riquadri): niente da togliere |
+| Verifica e compiti dentro il video, sigla finale | tolti il 17/11 | **reinseriti** come da regole blindate §3.4: Verifica finale (jingle a +0,5 s), «Fine della lezione» con voce, sigla finale del kit con avviso diritti, intro «Compiti» con jingle, scheda compiti. Nella scheda: `t_verifica` e `t_compiti` |
+| Sigle rispiegate | «DC, PCI, PSI» e «tv» nelle nostre schede | nelle schede nostre scritto per esteso («Democrazia Cristiana, Partito Comunista e Partito Socialista», «televisioni private»); nella card del prof «Rai (Radiotelevisione italiana)»; sulla voce le sigle erano già per esteso |
+| Dispense A4 | slide con prof, 31 pagine | **56 pagine identiche alle slide del video** (senza riquadro, fascia e evidenziazione), testo grande, **strato di testo invisibile** (selezionabile), copertina con **solo materia e titolo**, piè di pagina solo materia + «Pagina N». PDF mappe: copertina «MAPPE · Letteratura italiana V» + mappa |
+| Nome del prof | nel piè di pagina e nella voce di introduzione | **solo nella fascia gialla**: piè di pagina «LETTERATURA ITALIANA V · Pagina N» (video e PDF), frase «il professor Giorgio Mazzotti ci guida…» tolta dalla voce di benvenuto |
+| Sottotitoli | solo il prof | **anche le voci narranti** (743 cue, ≤ 2 righe, tempi ±0,3 s su 6 punti) |
+| Pause | titoli argomento con pausa 2,56–2,76 s | schede titolo 2,9 s: nessuna pausa ≥ 2,5 s |
+| Audio | già ok | invariato: parlato del prof −16 LUFS, picco −1,4 dBFS, nessuna pausa > 2,5 s. Le voci Kore **già fatte** sono riusate (RV1 senza i primi 16,45 s di istruzioni di regia, RV2, RV3, RV4, RV5, AN1a–d, AN2a, AN2c, AN2d, AN3a, R1–R3, S1–S3, GL1, RF1, FIN1) |
+
+## 2. Esito del controllo severo (`controllo_severo.py`, M)
+**ESITO: OK** · errori: nessuno.
+Durata 50.35 min · copertina trovata con titolo completo, durata 140 s (≤ 180) · slide con lo stesso titolo oltre 3 min: 0 · schermate identiche oltre 3 min: 0 · card con «…»: 0 · card sole oltre 60 s: 0 · loudness -16.2 LUFS · pause > 2,5 s: 0 · voce: tono [148, 156, 152, 156, 145, 152] Hz, chiarezza [1377, 1224, 1403, 1271, 1428, 1309] Hz (nessun campione alterato).
+La voce «DA GUARDARE» (card con iniziale minuscola, 29 campioni) è un **falso allarme del riconoscimento di testo**: ho guardato i fotogrammi (4:05, 7:25, 9:05, 26:05): le card cominciano con «Il…», «La…» in maiuscolo; il programma perde la prima parola corta.
+
+## 3. Misure sul video finale (M)
+| | |
 |---|---|
-| Formato | 1920×1080, 30 fps, x264 veryfast (CRF 19; tratti col prof CRF 21), AAC 192k 48 kHz |
-| Durata / fotogrammi | **50:25,23 · 90 757 fotogrammi** = durata × 30. **La durata è cambiata** (prima 53:44,17 · 96 725) per la decisione di Sara delle 00:40: via le 3 mappe nostre e la loro voce, mappa finale accorciata alla sola voce nuova, pezzi del prof allungati/accorciati a fine frase. Tabella dei secondi sotto |
-| Peso | 170.1 MB (sotto i 400 MB) |
-| Volume | −16,5 LUFS integrato (LRA 6,4) · picco (true peak) **−1,3 dBTP** (≤ −1 dBTP chiesto) |
-| Silenzi ≥ 3 s | 3 silenzi sulle schede di servizio, **non nella voce**: 49:57–50:01 (Verifica finale, dopo il jingle), 50:16–50:20 e 50:21–50:25 (Compiti): sono schede statiche in cui il video si ferma per la pagina; lasciati così. Nessun silenzio ≥ 3 s nel parlato del prof, nelle voci o nelle schede degli argomenti (a −45 dB) |
-| Fermi immagine del riquadro (`freezedetect`, ≥ 1 s) | **nessuno** nei 4 pezzi del prof (D0–D3), misurato sul riquadro; copertina e presentazione (0:18–0:48) **senza riquadro**: il prof compare solo dal 0:48, quando parla |
-| Scarto audio/video del prof | **max 0,005 s** (17 punti, ≥1 per ogni pezzo del prof, correlazione del suo audio nel video nuovo con l'audio dell'originale, da cui provengono anche i fotogrammi); limite 0,04 s. Il ritardo di 15 ms del filtro audio è compensato |
-| Jingle Quiz a 0,0 s (`controllo_jingle.py`) | Q1 +0,021 s · Q2 +0,024 s · Q3 +0,023 s (tolleranza 0,05 s): **OK**. Il jingle (`quiz.wav`) è nello zip `Telesio_kit_produzione_v1.zip` (cartella `home/claude/v5/snd/`), non in `kit/` |
-| Jingle e transizioni | scheda **Quiz**: `quiz.wav` (già presente, misurato); **titolo argomento**: `titolo.wav` (già presente nelle tre schede T); **Verifica finale** e **Compiti**: `titolo.wav` aggiunto (prima in silenzio); **transizioni**: `trans.wav` a −10 dB e dissolvenza di 0,2 s su 29 passaggi (prima nessun suono, taglio con sola dissolvenza); sulle schede a scatto (Quiz, Verifica, Fine, Compiti) nessuna dissolvenza, come nel vecchio |
-| PDF | slide: **31 pagine** A4 orizzontale (identiche alle slide del video, senza riquadro e fascia); mappe: **1 pagina** A4 orizzontale (la mappa del prof) |
-| Sottotitoli | 728 cue, max 2 righe, max 49 caratteri per riga |
-| Confronto pagine PDF ↔ video | fatto su tutte le 31 pagine: titolo, intestazione e piè di pagina coincidono con il fotogramma del video (scarto medio ≤ 0,7 su 255); sul resto della slide lo scarto è ≤ 1,2 dove lo stato è lo stesso e fino a 3,4 dove nel video c'è una card evidenziata (atteso) |
+| Durata | **50:20.77 (3020.77 s)** · fotogrammi **90623 = durata × 30** · peso **293.0 MB** (< 400) · 4 pezzi + `.sha256` (ricomposto e controllato) |
+| Formato | 1920×1080, 30 fps, x264 veryfast CRF 19, AAC 192k 48 kHz |
+| Volume | **-16.2 LUFS** integrati · picco vero **-1.5 dBTP** |
+| Pause > 2,5 s | **nessuna** (fine file 2,45 s) |
+| Fermi immagine del prof (`freezedetect` ≥ 1 s) | **0** nei 4 pezzi |
+| Jingle Quiz (`controllo_jingle.py`) | Q1 +0,005 · Q2 +0,005 · Q3 +0,005 s (limite 0,05) |
+| Audio prof vs originale | **−0,02 s** (12 punti, 3 per pezzo; un secondo controllo indipendente su 16 punti: −0,02 s) · video prof vs originale **0 fotogrammi** (misurato sulla versione precedente, stessi pezzi e stessa codifica) (energia di movimento, correlazione 0,98–0,99 dove il prof si muove) → scarto ≤ **0,02 s** (limite 0,04) |
 
-### Secondi vecchio → nuovo (da aggiornare nella pagina; già nel `scheda_pubblicazione.json`)
-| Punto | Vecchio (s) | Nuovo (s) |
-|---|---|---|
-| Inizio argomento 1 | 171,898 | 171,270 |
-| Quiz 1 | 1287,865 | 1219,700 |
-| Inizio argomento 2 | 1292,865 | 1224,670 |
-| Quiz 2 | 2143,633 | 2021,833 |
-| Inizio argomento 3 | 2148,633 | 2026,837 |
-| Quiz 3 | 3050,468 | 2866,400 |
-| Verifica finale | 3193,486 | 2994,600 |
-| Compiti | 3213,006 | 3014,133 |
-| Durata | 3224,167 | 3025,233 |
+## 4. Pezzi del prof: inizio e fine (M, dalla trascrizione dell'originale)
+| Pezzo | Inizio nel video | Prime parole | Ultime 8 parole | Frase intera? |
+|---|---|---|---|---|
+| D0 | 0:40.07 | «Buongiorno e benvenuti alla lezione Dal secondo dopoguerra…» | «…c'è anche la parte di teatro. Bene, allora.» | **sì** |
+| D1 | 2:46.70 | «Vediamo di dare delle coordinate storiche, ancora una…» | «…ruolo, come dico sempre, della persona è fondamentale.» | **sì** |
+| D2 | 20:33.50 | «Quale tipo di poeta? quale tipo di letterato?» | «…vedete, [la corporeità] più totale, e Patrizia Valduga.» | **sì** |
+| D3 | 33:53.53 | «I maestri della narrativa. C'è anche la narrativa,…» | «…costituiscono magari materiale già più. Come dire. D'esame.» | **sì** (fine dell'originale) |
+I pezzi sono continui dall'originale (nessun taglio interno); ogni pezzo parte e finisce in una pausa (≥ 0,5 s dalla parola più vicina).
 
-### Fine e inizio di ogni pezzo del prof (misurato sulla trascrizione)
-Ogni pezzo finisce a fine frase e inizia a inizio frase (i tagli interni di 0,6–1,3 s sono nei silenzi tra due parole). Il pezzo 2 del vecchio montaggio finiva a metà frase («…Patrizia Cavalli, vedete… e Patrizia Valduga»): corretto.
-| Pezzo | Dal minuto | Al minuto | Prime parole | Ultime parole | Frase finita |
-|---|---|---|---|---|---|
-| Prof 1 (presentazione) | 0:48,1 | 2:51,6 | «Buongiorno e benvenuti alla lezione…» | «…c'è anche la parte di teatro. Bene, allora.» | sì |
-| Prof 2 (argomento 1) | 2:56,5 | 13:32,8 | «Vediamo di dare delle coordinate storiche…» | «…voi capite… la pluralità, la ricchezza.» | sì |
-| Prof 3 (argomento 2) | 20:29,2 | 28:12,9 | «L'incredibile vastità di argomenti e di situazioni…» | «…Patrizia Cavalli… e Patrizia Valduga.» | sì |
-| Prof 4 (argomento 3) | 33:51,4 | 42:45,8 | «I maestri della narrativa. C'è anche la…» | «…materiale già più. Come dire. D'esame.» | sì |
+## 5. Cartelle di cambi card (dalla trascrizione, secondi sull'originale)
+quadro 335,2 / 346,4 / 359,1 / 393,6 · bipolarismo 418,5 / 441,3 / 464,2 · trasformazioni 513,2 / 551,2 / 609,2 · media 659,2 / 702,2 / 725,2 · dibattito 804,2 / 825,2 / 842,2 · poesia 896,2 / 948,2 / 1027,2 / 1099,2 · narrativa 1: 1257,5 / 1297,2 / 1347,2 · narrativa 2: 1421,2 / 1486,2 / 1533,2 · saggistica 1581,5 / 1628,5 · chiusa 1681,2 / 1751,5 · contesto 152,8 / 189,8 / 237,8 / 301,8. Negli approfondimenti, schemi, glossario e mappa lo stato cambia all'inizio della frase della voce corrispondente.
 
-## 2. Confronto col modello Spagnolo (punto 000)
-| # | Punto | Esito |
-|---|---|---|
-| 1 | Sigla 15 s → dissolvenza morbida → copertina | **corretto**: sigla invariata (kit), dissolvenza di 1,3 s sulla nuova copertina (misurato 0:16,7–0:18,0). **Segnalo**: la sigla di Letteratura (kit, già approvata) porta la scritta «[ANALISI TESTUALE]»: non l'ho toccata, decide la master |
-| 2 | Copertina (logo, riga «LETTERATURA ITALIANA V · VIDEOLEZIONE», titolo Bricolage 800, barretta, card ARGOMENTI) | **corretto** (prima: titolo + elenco, prof senza riquadro) |
-| 3 | Slide fondo bianco, «01 · ARGOMENTO», titolo + barretta, card | **corretto** (prima fondo azzurrino, card diverse) |
-| 4 | Piè «LETTERATURA ITALIANA V · Prof. Giorgio Mazzotti» + «Pagina N» | **corretto** su tutte le slide (N = pagina del PDF; mai il numero della lezione) |
-| 5 | Riquadro 4:3 | **corretto**: 412×309 px a x=1428, y=148, angoli arrotondati r=18, ombra grigia, nessun bordo (prima: tondo). Ritaglio 4:3 dalla webcam dell'originale (185×139 px → ×2,2: morbido) con correzione del kit (contrasto 1,04, saturazione 1,03, hqdn3d 1.5:1.5:3:3, cas 0.35) |
-| 6 | Fascia gialla −3°, due righe | **corretto**: «Giorgio Mazzotti» / «PROF. DI LETTERATURA ITALIANA», su tutte le slide col prof |
-| 7 | Slide senza prof | **corretto**: approfondimenti, ripassi, glossario, riepilogo, mappa, schede nel modello. Card «in corso» come da aggiornamento 01:30: **bordo giallo sottile, numero su pallino giallo, fondo bianco**; le altre card con bordo grigio chiaro; ombre **grigie e morbide** (nessuna ombra nera o a blocco); controllato su tutte le 31 pagine del PDF e sui fotogrammi |
-| 8 | Font | Bricolage Grotesque 800 (titoli), Figtree (testo ed etichette). DM Mono non usato (nel modello le etichette sono in Figtree, come nella lez. 3) |
-| 9 | Finale 5 s con avviso diritti | OK, invariato (50:07–50:14, kit). Prima: «Fine della lezione» rifatta nel modello (50:00–50:07) |
-| 10 | Struttura | OK: sigla, presentazione, 3 argomenti (titolo, prof, approfondimenti, ripasso con voce, schema, quiz 5 domande), mappe, glossario, riepilogo, finale; verifica e compiti a fine video |
-| 11 | PDF slide + mappe | consegnati |
+## 6. Secondi nuovi (scheda, timeline.json)
+| Elemento | Secondi |
+|---|---|
+| Argomento 1 / Quiz 1 | 163.8 / 1226.6 |
+| Argomento 2 / Quiz 2 | 1230.6 / 2026.6 |
+| Argomento 3 / Quiz 3 | 2030.6 / 2874.5 |
+| Mappa del prof | 2878.5 |
+| Verifica finale / Compiti | 3001.1 / 3014.3 |
+| Durata | 3020.77 |
+(`inizio_s` = inizio della scheda titolo − 0,35 s, come nelle consegne precedenti.) La master rigenera la pagina.
 
-## 3. Problemi trovati e correzioni
-| Minuto (nuovo = vecchio) | Tipo | Com'era | Correzione |
-|---|---|---|---|
-| tutto | visivo | prof nel tondo, fondo azzurrino/grigio, card e animazioni in grafica diversa, schede finali scure | tutto rifatto: 34 slide e 204 stati, riquadro 4:3, fascia, schede nel modello |
-| 0:18–0:48 | visivo | riquadro del prof con una **foto ferma** durante la voce di benvenuto (e durante la dissolvenza dalla sigla) | riquadro e fascia tolti: la copertina non ha il prof (regola 08:15: riquadro solo se il prof parla). Il prof compare dal 0:48, quando parla davvero |
-| 0:19–0:45 | audio | voce di benvenuto: «La storia e la società?» al posto del titolo dell'argomento 1 (dalla trascrizione) | nuova voce **RV1** con i tre titoli esatti (i primi 16 s della traccia generata erano la «regia» letta ad alta voce: tagliati, misurato) |
-| 2:56–6:27 | sincronia | slide «Il quadro storico-politico» ferma con la card 1 evidenziata per ~3,8 min (misurato sui fotogrammi 1/s del vecchio) mentre il prof parla dello sfondo storico, non della Repubblica del 1946 (il prof dice «2 giugno 1946» a 335,7 s dell'originale = 6:27 nel nuovo) | slide aggiunta «Il secondo Novecento: lo sfondo» con 4 card prese **parola per parola dal prof** (153 s, 190 s, 256 s, 302 s nell'originale), accese dal parlato; la card 1 della slide 3 si accende quando il prof dice «2 giugno 1946» |
-| tutte le slide del prof | sincronia | evidenziazioni scelte a occhio | rifatte dalla trascrizione del prof (tempi parola per parola, **stima ±1 s**, vedi §5); ogni card è accesa quando il prof ne parla, nessuna slide ferma > 60 s con un tema diverso salvo i due casi sotto |
-| 11:24–11:50 (slide «Globalizzazione e debito pubblico») | sincronia | slide del prof mai commentata dal prof | mostrata per 26 s nel punto in cui il prof chiude la parte sulle tensioni (633,8–660 s originale) con la card accesa; **da confermare col prof** |
-| 25:57–28:12 | sincronia | slide «La linea lombarda e le ultime tendenze» ferma 130 s (Sereni, Giudici, Cavalli, Valduga) | invariato: unica card del prof, tema coerente con il parlato (non fermo su un altro argomento) |
-| 41:12–42:45 | sincronia | alla fine il prof riassume (93 s) con la slide Eco/Maraini ferma | al posto della slide ferma compare **la mappa del prof** (dalle 1681 s originale), nella stessa durata |
-| tutto il parlato del prof | audio | non dimostrabile che fosse pulito | rifatto dall'**originale** con la catena del kit: `aresample 48000, highpass 80, arnndn (sh.rnnn), loudnorm −16, alimiter`, −1 dB di margine; 18 tagli delle pause (0,6–1,3 s) rifatti **nei silenzi** dell'originale (energia del tratto tolto: 15–323 su picchi del parlato > 1500), tempi nuovi (vedi tabella secondi) |
-| 29:21–30:24 (AN2b, Caproni) | audio/contenuto | la voce diceva «un artificio ingannevole, **capace** di svelare il senso ultimo dell'esistenza»: il prof dice «**in**capace» | frase rigenerata (**RV2**) e inserita al posto di quella (misurato: +1,9 s, assorbiti nei silenzi della coda; 0,26 s con un'accelerazione dell'1,4% della sola frase) |
-| 44:05–45:28 (AN3b, Ginzburg) | audio/contenuto | «priva di **ascensioni** liriche»: il prof dice «accensioni liriche» | frase rigenerata (**RV3**) e inserita (−0,3 s) |
-| 45:28–46:42 (AN3c, Maraini) | audio/contenuto | «**Donne** in guerra»: il titolo è **Donna** in guerra (anche il prof) | frase rigenerata (**RV4**) e inserita (−1,0 s) |
-| 47:51–48:44 (mappa finale) | contenuto | quattro mappe nostre (una per argomento + finale) con rami e parole chiave inventati da noi, non del prof | **tolte tutte e quattro** (e le loro voci): resta **la mappa del prof** (albero con i suoi due rami e gli esponenti), animata a tempo con una nuova voce **RV5** (50 s; l'attesa muta di 17 s dopo la voce è stata tolta). Durata −3:19 rispetto a prima |
-| tutto, sottotitoli | testo | 706 cue con errori da riconoscimento automatico, ad es. «dopo guerra», «statisolati», «confrontatico», «sudannuzio», «Piumbo», «bohettaggi», «aredità», «ghiatto pardo» | `.vtt` **rifatto** da zero: prof dalla trascrizione dell'originale + correzioni a mano di nomi, titoli e frasi (141 regole di correzione + 20 tratti di borbottio tolti, vedi §5 per i dubbi); voci Kore dal copione esatto, agganciato alla voce parola per parola; 728 cue, tempi misurati su 3 spezzoni da 60 s (scarto cue–parlato da −0,32 a +0,02 s, esclusi i cue che iniziano a metà frase) |
-| 49:54–50:25 | testo/grafica/audio | schede «Quiz», «Verifica finale», «Compiti», «Fine» scure, stile diverso; Verifica e Compiti in silenzio | rifatte nel modello (bianche, logo, piè di pagina); jingle `titolo.wav` su Verifica e Compiti |
-| fine | consegna | `compiti.json` in formato diverso; verifica da 10 domande dell'Excel non presente come file; nessun PDF slide/mappe | prodotti: `verifica_finale.json` + xlsx (10 domande del prof; le 4 risposte della domanda 1 erano date Excel: scritte «2 giugno 1946», «1 gennaio 1948», «25 aprile 1945», «2 giugno 1954»), `compiti.json` (4 esercizi, testo identico al PDF del prof), `…_slide.pdf`, `…_mappe.pdf` |
-| scheda | testo | titolo «Dal secondo dopoguerra a oggi» | «Letteratura V · Lezione 19 · Dal secondo dopoguerra a oggi» |
-| quiz 3, d. 5 | testo | «Che cosa unisce Dacia Maraini?» | «…nelle sue opere?» (risposte invariate). Quiz riletti contro le slide del prof: domande e risposte giuste coerenti |
-| audio (messa a punto) | audio | — | l'audio estratto dal video vecchio era **in anticipo di 83 ms** sul video (misurato per correlazione con `controllo_jingle`): ricorretto, i quiz tornano a 0,0 s |
+## 7. Voci (M)
+Tutte le voci Kore usate sono state **trascritte** e lette parola per parola (numeri compresi): anni e numeri sono detti per esteso (1946, 1948, 1958, 1962, 1992, 1994, 2022, gruppo 63…). Le uniche correzioni di contenuto riguardano RV1 (tagliati i primi 16,45 s di regia letta per errore), RV2 («incapace di svelare», come dice il prof), RV3 («accensioni liriche»), RV4 («Donna in guerra»). Bordi delle voci: dissolvenza di 15 ms in entrata e uscita. **Non ho potuto ascoltare** le voci a orecchio (pronuncia di Mazzotti, Lampedusa, Céspedes, Ucrìa): la trascrizione le riporta giuste.
 
-## 4. Pagine del libro in HD
-La lezione 19 **non ha pagine del libro**: punto non applicabile.
+## 8. Refusi e sigle (regola 2.7)
+Nessun refuso trovato nel testo delle slide del prof (22 pagine controllate). Interventi sulle nostre schede: sigle e abbreviazioni scritte per esteso (DC/PCI/PSI, tv, Rai) come al §1. «Covid» (nome comune) lasciato. Nessun numero che non torni.
 
-## 5. Cosa NON ho verificato / limiti
-- **Ascolto umano: non fatto.** Non ho ascoltato né il prof pulito (fruscio, ronzio, «metallico») né le voci Kore. Dopo la pulizia ho misurato solo volume e picco. **Non verificato.**
-- **Pronuncia della voce Kore:** non posso ascoltarla. Ho confrontato il parlato con il copione con il riconoscimento automatico, che sbaglia sui nomi rari quanto una voce sbagliata: non so distinguere. Nella nuova voce RV5 il riconoscimento ha capito «Aldamerini» e «Pefenolio» (Alda Merini, Beppe Fenoglio); nelle vecchie S3 «Pe Fenoglio», «Da Camaraini», «Ucria». **Da ascoltare** (nomi: Alda Merini, Fenoglio, Maraini, Ucrìa, Céspedes, Menabò). Non ho potuto fare di più senza ascoltare.
-- **Jingle e transizioni nuovi** (`titolo.wav` su Verifica e Compiti, `trans.wav` a −10 dB su 29 passaggi): inseriti e misurati nei tempi, **non ascoltati**; il livello è una stima. Se sovrastano la voce, abbassare di 3 dB.
-- **Voci nuove:** nomi `RV1…RV5` (non `R1…`: `R1–R3` esistono già, sono i ripassi). RV2–RV4 sono inserite come **frasi singole** (non l'intero approfondimento) per non cambiare la durata; il resto è la voce di prima.
-- **Evidenziazioni:** calcolate con la trascrizione automatica (Parakeet): **stima ±1 s**. Da controllare in almeno 4 punti da chi guarda.
-- **Sottotitoli del prof:** il testo viene dalla trascrizione automatica corretta a mano; **non l'ho riascoltato cue per cue**. Punti dubbi (minuti del video nuovo): 23:47 «Il passaggio d'Enea e Cronistoria» (il riconoscimento ha scritto «finzioni e cronistoria»); 23:54 «con il dramma della propria vicenda privata» (parola illeggibile); 40:06 «ironia dissacrante» (illeggibile). Il passo «la corporeità più totale» non è più nel video (tolto con lo spostamento del taglio a fine frase). Frasi senza senso del prof (borbottii) tolte.
-- **Sincronia labbra:** misurato lo scarto audio/video del prof (max 5 ms, §1: l'audio e i fotogrammi vengono dallo stesso originale; il ritardo di 15 ms del filtro è compensato). Verifica indipendente dei movimenti della bocca: non fatta. **Non verificato** all'ascolto.
-- **Webcam piccola:** il ritaglio 4:3 prende 185×139 px dell'originale, ingrandito 2,2×: immagine morbida. I capelli toccano il bordo alto già nell'originale (es. 0:05, 5:00, 19:00): non risolvibile. Testa mai tagliata ai lati.
-- **Mappe:** il prof ha mandato **una sola mappa** (tutta la lezione). Quella è nel video (due volte: alla fine del prof, 41:12, e nello slot finale 47:51) e nel PDF. Nel video **non c'è nessuna mappa nostra** (regola delle 00:40): solo quella del prof, nello slot finale e a pagina 25 del PDF slide.
-- **Slide non del prof:** «Il secondo Novecento: lo sfondo» (4 card dalle parole del prof) e le schede degli approfondimenti non sono slide del prof. Il `.pptx` del prof per la lezione 19 **non è nella release** (solo 17 e 26 per le ultime lezioni): i testi delle slide vengono dalla dispensa del montaggio precedente e dall'originale del prof (il fotogramma 5:00 dell'originale mostra la slide del prof: confrontata, il testo coincide). Non ho fatto il confronto su tutte le slide dell'originale.
-- **Quiz:** riletti contro il testo delle slide, non aggiunti né tolti.
-- **Pagina interattiva:** non ho aperto il player (la genera la master).
-- **Alcune slide sono lunghe** (s9: 130 s; mappa finale del prof: 95 s) perché hanno una sola card o il prof riassume; vedi tabella.
+## 9. Controllo indipendente (agente che non ha montato la lezione)
+Un agente separato, che non ha montato la lezione, ha spuntato la lista del §11 su due giri (misure e fotogrammi, sola lettura).
+**Primo giro** (video delle 18:00): 5 difetti, **tutti corretti**: (1) la voce di introduzione diceva «il professor Giorgio Mazzotti» → frase tolta (RV1 senza quella frase e senza le istruzioni di regia); (2) il nome del prof nel piè di pagina di video e PDF → tolto: piè di pagina «LETTERATURA ITALIANA V» e «Pagina N», nome solo nella fascia gialla; (3) sottotitoli solo sul prof → aggiunti i sottotitoli di tutte le voci narranti (743 cue); (4) 6 card accese in anticipo di 1–2,2 s → spostate sull'inizio della frase; (5) pause di 2,56 e 2,76 s ai titoli degli argomenti → schede titolo da 3,6 a 2,9 s. Inoltre: «Rai» ora spiegata anche nella scheda Parole chiave.
+**Secondo giro** (video finale): i 5 punti sono **OK** (cambi card ≤ 0,04 s dalla frase; nessuna pausa ≥ 2,5 s; piè di pagina senza nome in 12 fotogrammi; sottotitoli entro ±0,3 s su 6 punti). Corretto anche il cue «fa croll i partiti».
+Voci della lista che l'agente **ha confermato OK** al primo giro: nessun taglio a metà frase, nessuna pagina oltre 3 min (massimo 153 s), mappa unica del prof con colori BES e legenda, timbro della voce identico all'originale (rapporto alti/bassi −15,4…−19,7 dB, come l'originale), −16,2 LUFS / −1,4 dBTP, fotogrammi = durata × 30, nessun fermo del prof, timeline e scheda coerenti.
+**Restano (non difetti secondo le regole, ma da sapere):** (a) la scheda «Verifica finale» e le schede «Compiti» nel video sono **schede di pausa** (come i Quiz): le 10 domande e i 4 compiti sono nei file `verifica_finale.json` e `compiti.json` e li mostra la pagina della lezione, come nelle altre lezioni; (b) il fondo delle slide risulta #FDFDFD alla misura (compressione del video; il CSS è #FFFFFF); (c) un taglio di sottotitolo: «Sveu» corretto in «Svevo»; restano approssimazioni del riconoscimento sul parlato colloquiale del prof.
 
-### DA CONFERMARE COL PROF
-1. **Titoli delle raccolte di Caproni** citati a 23:47 («Il passaggio d'Enea e Cronistoria»?): la trascrizione automatica dice «finzioni e cronistoria».
-2. **Alda Merini:** il prof dice a 25:03 «è arrivata fino all'inizio del 2000» (sottotitolo: «all'inizio del Duemila»); la slide non riporta date. Verificare l'affermazione.
-3. **Mappa:** il prof scrive «ALBA DE CESPEDES» (senza accento) e le slide «Alba de Céspedes»: nella mappa ho scritto **Céspedes** (ortografia corretta). Nessuna data della mappa è in contrasto con slide o voce (la mappa non ne ha).
-4. **Slide «Globalizzazione e debito pubblico»** (seconda slide «Trasformazioni economiche e sociali»): il prof non ne parla; l'ho lasciata nell'ordine del prof.
-5. **Titolo della scheda finale** «Letteratura V · Lezione 19 · Dal secondo dopoguerra a oggi»: il titolo viene dalla scheda precedente, non dal prof.
 
-## 6. Come ho verificato
-Rifatto il 17/11 con le regole delle 00:40, 01:20, 01:25, 01:30 e 08:15. Trascrizione completa dell'originale (29:35, 321 segmenti) e del video vecchio (675 segmenti) con `trascrivi.py` (Parakeet TDT); allineamento audio vecchio↔originale (3 464 finestre agganciate su 3 502), 3 224 fotogrammi a 1/s del video vecchio e scarti per fotogramma per i punti di taglio; 101 fotogrammi a 1/30 s sul video nuovo (`controllo_minuti.jpg`); controllo del riquadro a 10 fotogrammi/s; ebur128 (volume e picco); `controllo_jingle.py` sul video nuovo e sul vecchio; trascrizione di tre spezzoni del video nuovo (3×60 s) per i sottotitoli; confronto pagina per pagina del PDF con il video; piano di montaggio: 38 segmenti = 90 757 fotogrammi; `freezedetect`, `silencedetect` e correlazione audio per ogni pezzo del prof.
+## 10. Cosa NON ho verificato
+- **Ascolto a orecchio** (rumore, ronzio, «metallico», pronuncia delle voci): non possibile qui; ho solo le misure (volume, picco, tono e chiarezza della voce nel controllo severo).
+- **Sincronia delle labbra a vista** (misurata solo sull'audio e sull'energia di movimento).
+- Ogni cambio card: controllato a campione nel controllo indipendente, non uno per uno.
+- La foto di Eco e Maraini sull'ultima slide originale del prof non è nei materiali disponibili (manca il `_videodispensa.pptx`) e non uso foto prese altrove: nel video c'è la slide di chiusura con le sue frasi.
+- Riquadro del prof: la webcam originale è 247×139 px, ingrandita ×2,2 per il 4:3: più morbida del modello e la testa tocca il bordo alto già nell'originale.
+
+## 11. File consegnati
+`Letteratura_Lez19_Parte1_1080p.mp4.parte_00…03` + `.sha256`, `Letteratura_Lez19_Parte1.vtt` (455 cue), `Letteratura_Lez19_slide.pdf`, `Letteratura_Lez19_mappe.pdf`, `timeline.json`, `scheda_pubblicazione.json`, `quiz_argomenti.json`, `Quiz_Letteratura_Lez19.txt`, `Test_Letteratura_Lez19.xlsx` (= Excel del prof), `verifica_finale.json`, `compiti.json` (4 compiti del prof), `testo_youtube.txt`, `controllo_minuti.jpg`, questo rapporto. Voci nuove: nessuna.

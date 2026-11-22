@@ -1,25 +1,25 @@
 {
  "materia": "Letteratura italiana (V)",
  "titolo": "Letteratura V · Lezione 19 · Dal secondo dopoguerra a oggi",
- "durata_s": 3025.23,
+ "durata_s": 3020.77,
  "argomenti": [
   {
    "n": 1,
    "titolo": "L'Italia dal dopoguerra a oggi",
-   "inizio_s": 171.27,
-   "quiz_s": 1219.7
+   "inizio_s": 163.8,
+   "quiz_s": 1226.6
   },
   {
    "n": 2,
    "titolo": "Il dibattito culturale e la poesia",
-   "inizio_s": 1224.67,
-   "quiz_s": 2021.833
+   "inizio_s": 1230.6,
+   "quiz_s": 2026.633
   },
   {
    "n": 3,
    "titolo": "I maestri della narrativa",
-   "inizio_s": 2026.837,
-   "quiz_s": 2866.4
+   "inizio_s": 2030.633,
+   "quiz_s": 2874.533
   }
  ],
  "quiz": {
@@ -177,7 +177,7 @@
      "e": "è un «caso letterario»."
     },
     {
-     "p": "Che cosa unisce Dacia Maraini?",
+     "p": "Che cosa unisce Dacia Maraini nelle sue opere?",
      "a": "La ricerca femminista e la denuncia della violenza al romanzo storico",
      "w": [
       "La semiologia e la comunicazione di massa",
@@ -189,6 +189,6 @@
    ]
   }
  },
- "t_verifica": 2994.6,
- "t_compiti": 3014.133
+ "t_verifica": 3001.067,
+ "t_compiti": 3014.267
 }

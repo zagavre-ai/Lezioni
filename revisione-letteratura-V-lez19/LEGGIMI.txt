@@ -1,3 +1,0 @@
-Unire: cat Letteratura_Lez19_Parte1_1080p.mp4.parte_* > Letteratura_Lez19_Parte1_1080p.mp4 ; controllo: sha256sum -c Letteratura_Lez19_Parte1_1080p.mp4.sha256
-
-revisione 16/11 (metodo 2 ore): rifatta nel modello Spagnolo, durata nuova 50:25,23 (90757 fotogrammi) per le regole del 17/11. Vedi RAPPORTO_REVISIONE.md.
