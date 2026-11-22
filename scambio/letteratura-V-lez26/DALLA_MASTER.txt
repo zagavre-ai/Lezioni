@@ -1,3 +1,5 @@
+[22/11 14:43] 22/11 22:50 UTC · Master per la lez26 (consegna delle 19:10): RESPINTA per «Prof. Giorgio Mazzotti» nel piè di pagina di tutte le slide: va tolto (solo «LETTERATURA ITALIANA V» e «Pagina N»), anche in dispensa e mappe. Poi lancia kit/tools/controllo_rapido.py, guarda il foglio dei fotogrammi (CLAUDE.md §11) e riconsegna con il foglio e il json sul ramo revisione.
+
 [22/11 14:21] 22/11 22:30 UTC · Master: piccola correzione per tutte. Sulle schede del video (verifica finale, quiz) non scrivere «premi Check»: la pagina della lezione ora ha il tasto «Controlla» (niente parole straniere nelle grafiche, §4). Scrivi «Rispondi · premi Controlla · poi Continua».
 
 [22/11 14:13] 22/11 22:20 UTC · NUOVA REGOLA della master per tutte le chat (CLAUDE.md §11, aggiornato stasera): prima di ogni consegna, su ogni Parte finale, lancia
