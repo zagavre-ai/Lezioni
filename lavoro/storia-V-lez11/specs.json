@@ -1,0 +1,336 @@
+{
+ "T1": {
+  "type": "title",
+  "num": "01",
+  "total": 6,
+  "lines": [
+   "L'ascesa",
+   "di Stalin"
+  ],
+  "ex": "Lenin · Trockij · Bucharin",
+  "fs": 128,
+  "lineY": 720,
+  "dur": 4.0
+ },
+ "P1": {
+  "type": "repaso",
+  "kicker": "Pillola di storia",
+  "big": "RIPASSO",
+  "topic": "L'ascesa di Stalin",
+  "tfs": 84,
+  "caps": [
+   [
+    1.32,
+    2.04,
+    "Ripassiamo."
+   ],
+   [
+    2.04,
+    6.6,
+    "Dopo la morte di Lenin si scontrano Trockij e Bucharin."
+   ],
+   [
+    6.6,
+    12.68,
+    "Stalin propone il socialismo in un solo paese, elimina gli oppositori e diventa leader supremo."
+   ]
+  ],
+  "dur": 14.38
+ },
+ "Q1": {
+  "type": "quiz",
+  "act": "Quiz 1",
+  "tfs": 84,
+  "topic": "L'ascesa di Stalin",
+  "pts": "5 domande · per continuare almeno l'80%",
+  "dur": 5.0
+ },
+ "T2": {
+  "type": "title",
+  "num": "02",
+  "total": 6,
+  "lines": [
+   "La grande svolta e",
+   "i piani quinquennali"
+  ],
+  "ex": "1929 · piani quinquennali",
+  "fs": 120,
+  "lineY": 720,
+  "dur": 4.0
+ },
+ "P2": {
+  "type": "repaso",
+  "kicker": "Pillola di storia",
+  "big": "RIPASSO",
+  "topic": "La grande svolta e i piani quinquennali",
+  "tfs": 65,
+  "caps": [
+   [
+    1.24,
+    1.96,
+    "Ripassiamo."
+   ],
+   [
+    1.96,
+    9.16,
+    "Nel 1929 la grande svolta trasforma l'Unione Sovietica in una potenza industriale."
+   ],
+   [
+    9.16,
+    15.51,
+    "I piani quinquennali puntano sull'industria pesante: la produzione cresce, ma a costi umani altissimi."
+   ]
+  ],
+  "dur": 17.34
+ },
+ "Q2": {
+  "type": "quiz",
+  "act": "Quiz 2",
+  "tfs": 65,
+  "topic": "La grande svolta e i piani quinquennali",
+  "pts": "5 domande · per continuare almeno l'80%",
+  "dur": 5.0
+ },
+ "T3": {
+  "type": "title",
+  "num": "03",
+  "total": 6,
+  "lines": [
+   "La collettivizzazione",
+   "e la carestia"
+  ],
+  "ex": "kolchoz · kulaki · Holodomor",
+  "fs": 120,
+  "lineY": 720,
+  "dur": 4.0
+ },
+ "P3": {
+  "type": "repaso",
+  "kicker": "Pillola di storia",
+  "big": "RIPASSO",
+  "topic": "La collettivizzazione e la carestia",
+  "tfs": 72,
+  "caps": [
+   [
+    1.24,
+    1.96,
+    "Ripassiamo."
+   ],
+   [
+    1.96,
+    5.88,
+    "La collettivizzazione forzata crea kolchoz e sovchoz e colpisce i kulaki."
+   ],
+   [
+    5.88,
+    11.88,
+    "Le requisizioni di grano provocano la carestia del 1932 e 1933, l'Holodomor."
+   ]
+  ],
+  "dur": 14.0
+ },
+ "Q3": {
+  "type": "quiz",
+  "act": "Quiz 3",
+  "tfs": 72,
+  "topic": "La collettivizzazione e la carestia",
+  "pts": "5 domande · per continuare almeno l'80%",
+  "dur": 5.0
+ },
+ "T4": {
+  "type": "title",
+  "num": "04",
+  "total": 6,
+  "lines": [
+   "Il totalitarismo e",
+   "il Grande Terrore"
+  ],
+  "ex": "grandi purghe · Gulag",
+  "fs": 128,
+  "lineY": 720,
+  "dur": 4.0
+ },
+ "P4": {
+  "type": "repaso",
+  "kicker": "Pillola di storia",
+  "big": "RIPASSO",
+  "topic": "Il totalitarismo e il Grande Terrore",
+  "tfs": 70,
+  "caps": [
+   [
+    1.24,
+    2.36,
+    "Ripassiamo."
+   ],
+   [
+    2.36,
+    5.72,
+    "Stalin instaura una dittatura personale."
+   ],
+   [
+    5.72,
+    12.07,
+    "Con le grandi purghe, i processi pubblici e il Gulag elimina ogni possibile oppositore."
+   ]
+  ],
+  "dur": 14.0
+ },
+ "Q4": {
+  "type": "quiz",
+  "act": "Quiz 4",
+  "tfs": 70,
+  "topic": "Il totalitarismo e il Grande Terrore",
+  "pts": "5 domande · per continuare almeno l'80%",
+  "dur": 5.0
+ },
+ "T5": {
+  "type": "title",
+  "num": "05",
+  "total": 6,
+  "lines": [
+   "La società",
+   "staliniana"
+  ],
+  "ex": "culto della personalità · Stachanov",
+  "fs": 128,
+  "lineY": 720,
+  "dur": 4.0
+ },
+ "P5": {
+  "type": "repaso",
+  "kicker": "Pillola di storia",
+  "big": "RIPASSO",
+  "topic": "La società staliniana",
+  "tfs": 84,
+  "caps": [
+   [
+    1.24,
+    1.88,
+    "Ripassiamo."
+   ],
+   [
+    1.88,
+    4.68,
+    "La propaganda costruisce il culto di Stalin."
+   ],
+   [
+    4.68,
+    12.6,
+    "I giovani sono indottrinati nel Komsomol, il lavoro è esaltato con Stachanov e le donne tornano a ruoli tradizionali."
+   ]
+  ],
+  "dur": 14.3
+ },
+ "Q5": {
+  "type": "quiz",
+  "act": "Quiz 5",
+  "tfs": 84,
+  "topic": "La società staliniana",
+  "pts": "5 domande · per continuare almeno l'80%",
+  "dur": 5.0
+ },
+ "T6": {
+  "type": "title",
+  "num": "06",
+  "total": 6,
+  "lines": [
+   "La politica estera e",
+   "le relazioni internazionali"
+  ],
+  "ex": "Società delle Nazioni · Fronte unito",
+  "fs": 100,
+  "lineY": 720,
+  "dur": 4.0
+ },
+ "P6": {
+  "type": "repaso",
+  "kicker": "Pillola di storia",
+  "big": "RIPASSO",
+  "topic": "La politica estera e le relazioni internazionali",
+  "tfs": 52,
+  "caps": [
+   [
+    1.24,
+    1.96,
+    "Ripassiamo."
+   ],
+   [
+    1.96,
+    5.72,
+    "L'Unione Sovietica esce dall'isolamento ed entra nella Società delle Nazioni."
+   ],
+   [
+    5.72,
+    12.63,
+    "Promuove il Fronte unito contro il fascismo, ma nel 1939 firma il patto con Hitler."
+   ]
+  ],
+  "dur": 14.62
+ },
+ "Q6": {
+  "type": "quiz",
+  "act": "Quiz 6",
+  "tfs": 52,
+  "topic": "La politica estera e le relazioni internazionali",
+  "pts": "5 domande · per continuare almeno l'80%",
+  "dur": 5.0
+ },
+ "FINALE": {
+  "type": "final",
+  "kicker": "Storia V",
+  "l1": "RIEPILOGO",
+  "l2": "FINALE",
+  "items": [
+   [
+    "L'ascesa di Stalin",
+    ""
+   ],
+   [
+    "La grande svolta e i piani quinquennali",
+    ""
+   ],
+   [
+    "La collettivizzazione e la carestia",
+    ""
+   ],
+   [
+    "Il totalitarismo e il Grande Terrore",
+    ""
+   ],
+   [
+    "La società staliniana",
+    ""
+   ],
+   [
+    "La politica estera e le relazioni internazionali",
+    ""
+   ]
+  ],
+  "sub": "Ripassiamo insieme ciò che abbiamo imparato.",
+  "ti": [
+   3.12,
+   11.36,
+   14.24,
+   17.44,
+   20.08,
+   24.16
+  ],
+  "dur": 30.31
+ },
+ "VERIFICA": {
+  "type": "quiz",
+  "act": "Verifica finale",
+  "tfs": 64,
+  "topic": "L'URSS di Stalin (1924-1939)",
+  "pts": "10 domande · per continuare almeno l'80%",
+  "dur": 5.0
+ },
+ "COMPITI": {
+  "type": "simple",
+  "kicker": "Storia V",
+  "big": "Compiti",
+  "sub": "Ora tocca a te",
+  "fs": 210,
+  "dur": 3.5
+ }
+}
