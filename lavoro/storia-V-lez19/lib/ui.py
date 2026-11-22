@@ -10,7 +10,8 @@ class B:
         s.pg=s.b.new_page(viewport={'width':1920,'height':1080});return s
     def __exit__(s,*a):s.b.close();s.p.stop()
     def shot(s,html,out,transparent=False):
-        s.pg.set_content('<!doctype html><html><head><meta charset=utf-8><style>'+FONT+BASE+'</style></head><body>'+html+'</body></html>')
+        open('/tmp/pagina.html','w').write('<!doctype html><html><head><meta charset=utf-8><style>'+FONT+BASE+'</style></head><body>'+html+'</body></html>')
+        s.pg.goto('file:///tmp/pagina.html')
         s.pg.wait_for_timeout(150)
         s.pg.screenshot(path=out,omit_background=transparent)
 BASE="""

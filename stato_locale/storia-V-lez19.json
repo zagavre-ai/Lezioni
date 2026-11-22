@@ -1,0 +1,81 @@
+{
+ "tag": "storia-V-lez19",
+ "parti": {
+  "1": {
+   "stato": "IN_MONTAGGIO",
+   "voci": "segnaposto"
+  },
+  "2": {
+   "stato": "REVISIONATA"
+  }
+ },
+ "manca": "montaggio P1 e P2, voci nuove (09:00 italiane), sostituzione voci, dispensa, PDF mappe, sottotitoli, controllo severo, controllo agente separato",
+ "serve_master": [
+  {
+   "quando": "19/11 00:12",
+   "testo": "Voci Kore nuove lez 19: 3+8+~31 testi (MD1-3, P1-8, SC*) nel ramo voci-storia-V-lez19"
+  },
+  {
+   "quando": "19/11 02:23",
+   "testo": "Correzioni 19/11 lez 19: 3 voci nuove nel ramo voci-storia-V-lez19 (SC1_4, SC2_4, AN22)"
+  },
+  {
+   "quando": "22/11 18:42",
+   "testo": "Lez19: su voci-storia-V-lez19 ho aggiunto 18 voci nuove (BENV1_R2 senza nome del prof, RIP2A, MP1_*, MP2_*, MP3_* mappe del prof ramo per ramo). Le voci MD1-3 e BENV1 dicono il nome del prof: sostituite. Domande: 1) la mappa 3 del prof non ha la domanda-titolo: uso 'NEGLI ANNI NOVANTA' come nei suoi nodi, ok? 2) spiegone Parte 2: riuso R1-R4 gia' presenti. Intanto monto con voci provvisorie."
+  },
+  {
+   "quando": "22/11 22:09",
+   "testo": "Lez19, 2 domande (non mi blocco, procedo cosi' salvo tua risposta): 1) VERIFICA DI SBARRAMENTO: nel video c'e' la scheda 'Verifica finale' (6 s, jingle quiz.wav a +0,5 s, 'serve almeno l'80%') con le 10 domande del test Excel del prof in verifica_finale.json/xlsx per la piattaforma, come i quiz degli argomenti. Se le vuoi mostrate domanda per domanda dentro il video, dimmelo. 2) MAPPA FINALE DELLA LEZIONE: con la tua regola 'solo mappe del prof' non l'ho fatta (le 3 mappe del prof sono negli arg. 3, 4, 7). Il ripasso finale e' argomento per argomento. Nota: le voci provvisorie sono silenziose; appena arrivano controllo e sostituisco."
+  }
+ ],
+ "domande_sara": [],
+ "note": [
+  {
+   "quando": "19/11 00:09",
+   "testo": "PRENOTATA 19/11 00:10 · chat v3 rifacimento da zero (sessione lez12; fatte 12, 5, 7, 16)"
+  },
+  {
+   "quando": "19/11 00:12",
+   "testo": "materiali scaricati, trascrizione in corso; 2 Parti (arg 1-4, 5-8)"
+  },
+  {
+   "quando": "19/11 02:23",
+   "testo": "correzioni 19/11 in corso (slide a 3 card, mappe mappa.py, approfondimenti AN, schema 4-6 righe); il ramo revisione-storia-V-lez19 ha la versione precedente, NON definitiva"
+  },
+  {
+   "quando": "19/11 04:07",
+   "testo": "correzioni 19/11 fatte (8 punti); ramo revisione-storia-V-lez19; Parte 1 51:03.6 misurato; controllo_finale TUTTO OK; vedi RAPPORTO_REVISIONE.md (da confermare col prof: sez. 6)"
+  },
+  {
+   "quando": "19/11 04:07",
+   "testo": "correzioni 19/11 fatte (8 punti); ramo revisione-storia-V-lez19; Parte 2 48:30.7 misurato; controllo_finale TUTTO OK; vedi RAPPORTO_REVISIONE.md (da confermare col prof: sez. 6)"
+  },
+  {
+   "quando": "19/11 19:01",
+   "testo": "Messaggio alla master 19/11 04:30: lez 19 corretta con gli 8 punti e riconsegnata su revisione-storia-V-lez19 (P1 51:03,6 · P2 48:30,7, controllo_finale TUTTO OK, quiz +0,005 s). Da decidere: (a) avviso diritti: tolto dalla copertina (testo bianco su fondo bianco non si legge, il riquadro copriva il piè di pagina), lasciato solo nel finale in bianco 24 px senza riquadro: lo volete anche in copertina? (b) approfondimenti 48-68 s per argomento (richiesti 40-60): gli arg. 3 e 6 superano 65 s. Lez 9 e 11 le avevano già corrette altre chat, 5 e 3 sono prese: ora faccio la 7 (la mia consegna di stanotte aveva il titolo di copertina della lez 5: lo correggo)."
+  },
+  {
+   "quando": "20/11 17:43",
+   "testo": "20/11 18:10 fatte le 2 note della master 05:25: introduzione sulla copertina 129 s poi slide «Di cosa parliamo»; timeline e scheda rigenerate sul video corretto (3063,6 e 2910,7 s misurati); controllo_finale TUTTO OK; ramo revisione-storia-V-lez19"
+  },
+  {
+   "quando": "22/11 18:38",
+   "testo": "correzioni 22/11: presa da claude/clever-dirac-keybwq"
+  },
+  {
+   "quando": "22/11 19:03",
+   "testo": "ore 19:30: scaricato originale, trascritto (715 segmenti), piano di taglio deciso, strumenti slide/mappe pronti; voci nuove richieste (A2N + MP* + BENV1_R2 + RIP2A) su voci-storia-V-lez19. Ora: montaggio con voci provvisorie."
+  },
+  {
+   "quando": "22/11 19:51",
+   "testo": "ore 20:00 UTC: pipeline di montaggio funzionante (slide a 40 px a finestra, mappe BES ramo per ramo, scene Kore, ponte con trans.wav); Parte 1 in costruzione con voci provvisorie (silenzio per le 18 voci nuove). Piano taglio: intro del prof sulla copertina 177 s, poi 3 slide 'Di cosa parliamo'. Mappe del prof: 3 (arg. 3, 4, 7); arg. 1, 2, 5, 6, 8 senza mappa -> pillola. Mappa 3 senza domanda: ho scritto 'Come cambia il quadro politico negli anni Novanta?'."
+  },
+  {
+   "quando": "22/11 22:08",
+   "testo": "ore 22:20 UTC: Parte 1 (52:04) e Parte 2 (50:56) montate e codificate con voci provvisorie per le 19 voci nuove; controllo_finale/jingle in corso; dispensa e PDF mappe fatti. Domattina: voci Kore -> sostituzione, ricodifica, controllo severo, agente separato, consegna."
+  }
+ ],
+ "materia": "storia-V",
+ "lezione": "19",
+ "aggiornato": "2026-11-22 22:09:56"
+}
