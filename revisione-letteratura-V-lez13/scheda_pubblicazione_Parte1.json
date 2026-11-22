@@ -1,29 +1,29 @@
 {
  "materia": "Letteratura italiana (V)",
  "titolo": "Letteratura V · Lezione 13 · Italo Svevo · Parte 1",
- "durata_s": 3108.0,
+ "durata_s": 2983.0,
  "argomenti": [
   {
    "n": 1,
    "titolo": "L'inetto e il pensiero sveviano",
-   "inizio_s": 227.833,
-   "quiz_s": 1645.4,
+   "inizio_s": 210.333,
+   "quiz_s": 1631.1,
    "inizio_s_vecchio": 227.848,
    "quiz_s_vecchio": 1687.981
   },
   {
    "n": 2,
    "titolo": "Una vita e Senilità",
-   "inizio_s": 1650.7,
-   "quiz_s": 2417.9,
+   "inizio_s": 1636.4,
+   "quiz_s": 2405.6,
    "inizio_s_vecchio": 1693.281,
    "quiz_s_vecchio": 2500.748
   },
   {
    "n": 3,
    "titolo": "La coscienza di Zeno",
-   "inizio_s": 2423.2,
-   "quiz_s": 2983.8,
+   "inizio_s": 2410.9,
+   "quiz_s": 2972.7,
    "inizio_s_vecchio": 2506.048,
    "quiz_s_vecchio": 3098.249
   }
@@ -197,65 +197,41 @@
  },
  "approfondimenti": [
   {
-   "id": "AN1",
-   "titolo": "Italo Svevo: la vita in una linea del tempo",
-   "inizio_s": 1375.933
+   "nome": "AN1",
+   "inizio_s": 384.767
   },
   {
-   "id": "AN2",
-   "titolo": "Le radici del pensiero sveviano",
-   "inizio_s": 1447.533
+   "nome": "AN2",
+   "inizio_s": 631.333
   },
   {
-   "id": "AN3",
-   "titolo": "L'inetto e il pensiero sveviano",
-   "inizio_s": 1585.333
+   "nome": "AN1b",
+   "inizio_s": 845.333
   },
   {
-   "id": "AN4",
-   "titolo": "Una vita e Senilità",
-   "inizio_s": 2297.533
+   "nome": "AN1c",
+   "inizio_s": 1048.367
   },
   {
-   "id": "AN5",
-   "titolo": "Una vita e Senilità",
-   "inizio_s": 2407.267
+   "nome": "AN4",
+   "inizio_s": 1802.3
   },
   {
-   "id": "AN6",
-   "titolo": "La coscienza di Zeno: struttura e narratore",
-   "inizio_s": 2916.4
+   "nome": "AN4b",
+   "inizio_s": 2014.8
   },
   {
-   "id": "AN7",
-   "titolo": "La coscienza di Zeno",
-   "inizio_s": 3018.1
+   "nome": "AN6",
+   "inizio_s": 2691.767
   },
   {
-   "id": "MF1",
-   "titolo": "Italo Svevo · Parte 1",
-   "inizio_s": 3103.533
-  },
-  {
-   "id": "AN1b",
-   "titolo": "Che cos'è l'inetto",
-   "inizio_s": 1492.5
-  },
-  {
-   "id": "AN1c",
-   "titolo": "Dalla vita di Svevo ai suoi romanzi",
-   "inizio_s": 1537.567
-  },
-  {
-   "id": "AN4b",
-   "titolo": "Tre temi comuni ai primi due romanzi",
-   "inizio_s": 2351.267
-  },
-  {
-   "id": "AN7b",
-   "titolo": "Zeno, il Dottor S. e la psicoanalisi",
-   "inizio_s": 2965.133
+   "nome": "AN7b",
+   "inizio_s": 2872.4
   }
  ],
- "descrizione": "Lezione di Letteratura italiana V del prof. Giorgio Mazzotti su Italo Svevo, prima parte: l'inetto e il pensiero sveviano, i romanzi Una vita e Senilità, La coscienza di Zeno."
+ "descrizione": "Lezione di Letteratura italiana V del prof. Giorgio Mazzotti su Italo Svevo, prima parte: l'inetto e il pensiero sveviano, i romanzi Una vita e Senilità, La coscienza di Zeno.",
+ "mappa_s": null,
+ "t_verifica": null,
+ "t_compiti": null,
+ "t_glossario": null
 }

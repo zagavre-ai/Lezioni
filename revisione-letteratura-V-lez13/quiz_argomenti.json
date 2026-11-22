@@ -52,7 +52,9 @@
     ],
     "e": "serve a smascherare la psiche."
    }
-  ]
+  ],
+  "inizio_s": 1631.1,
+  "parte": 1
  },
  "Q2": {
   "title": "Quiz 2 · Una vita e Senilità",
@@ -107,7 +109,9 @@
     ],
     "e": "crea un contrasto tra le bugie del personaggio e la realtà dei fatti."
    }
-  ]
+  ],
+  "inizio_s": 2405.6,
+  "parte": 1
  },
  "Q3": {
   "title": "Quiz 3 · La coscienza di Zeno",
@@ -162,7 +166,9 @@
     ],
     "e": "Zeno si dice guarito per i successi commerciali, ma la vita è inquinata alle radici."
    }
-  ]
+  ],
+  "inizio_s": 2972.7,
+  "parte": 1
  },
  "Q4": {
   "title": "Quiz 4 · Testi da La coscienza di Zeno",
@@ -217,6 +223,8 @@
     ],
     "e": "è la pagina della profezia di un'apocalisse cosmica."
    }
-  ]
+  ],
+  "inizio_s": 3080.1,
+  "parte": 2
  }
 }

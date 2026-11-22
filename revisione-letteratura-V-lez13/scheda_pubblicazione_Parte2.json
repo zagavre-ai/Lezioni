@@ -1,13 +1,13 @@
 {
  "materia": "Letteratura italiana (V)",
  "titolo": "Letteratura V · Lezione 13 · Italo Svevo · Parte 2",
- "durata_s": 3303.5,
+ "durata_s": 3299.8,
  "argomenti": [
   {
    "n": 4,
    "titolo": "Testi da La coscienza di Zeno",
-   "inizio_s": 67.0,
-   "quiz_s": 3085.467,
+   "inizio_s": 60.433,
+   "quiz_s": 3080.1,
    "inizio_s_vecchio": 17.982,
    "quiz_s_vecchio": 3059.716
   }
@@ -69,54 +69,39 @@
    ]
   }
  },
- "t_verifica": 3169.749,
- "t_compiti": 3194.036,
+ "t_verifica": 3270.567,
+ "t_compiti": 3288.667,
  "approfondimenti": [
   {
-   "id": "AN1",
-   "titolo": "Il fumo e la morte del padre",
-   "inizio_s": 2584.3
+   "nome": "AN1",
+   "inizio_s": 185.033
   },
   {
-   "id": "AN2",
-   "titolo": "Augusta, Guido e la profezia",
-   "inizio_s": 2638.667
+   "nome": "AN2",
+   "inizio_s": 2886.233
   },
   {
-   "id": "AN3",
-   "titolo": "Parole chiave dei testi di Zeno",
-   "inizio_s": 2701.633
+   "nome": "AN3",
+   "inizio_s": 2950.0
   },
   {
-   "id": "AN4",
-   "titolo": "Testi da La coscienza di Zeno",
-   "inizio_s": 2979.6
+   "nome": "AN1b",
+   "inizio_s": 527.9
   },
   {
-   "id": "MF2",
-   "titolo": "Svevo · tutta la lezione",
-   "inizio_s": 3065.0
+   "nome": "AN2b",
+   "inizio_s": 1873.567
   },
   {
-   "id": "AN1b",
-   "titolo": "Il fumo: gli indizi nel testo",
-   "inizio_s": 2726.1
+   "nome": "AN3b",
+   "inizio_s": 2975.267
   },
   {
-   "id": "AN2b",
-   "titolo": "La morte del padre: tre momenti",
-   "inizio_s": 2779.233
-  },
-  {
-   "id": "AN3b",
-   "titolo": "Zeno e Guido: due modi di essere",
-   "inizio_s": 2852.833
-  },
-  {
-   "id": "AN4b",
-   "titolo": "La profezia finale, lettura guidata",
-   "inizio_s": 2906.033
+   "nome": "AN4b",
+   "inizio_s": 2724.1
   }
  ],
- "descrizione": "Lezione di Letteratura italiana V del prof. Giorgio Mazzotti su Italo Svevo, seconda parte: lettura e commento di testi da La coscienza di Zeno (Il fumo, La morte del padre, La salute «malata» di Augusta, Un affare commerciale disastroso, La profezia di un'apocalisse cosmica)."
+ "descrizione": "Lezione di Letteratura italiana V del prof. Giorgio Mazzotti su Italo Svevo, seconda parte: lettura e commento di testi da La coscienza di Zeno (Il fumo, La morte del padre, La salute «malata» di Augusta, Un affare commerciale disastroso, La profezia di un'apocalisse cosmica).",
+ "mappa_s": null,
+ "t_glossario": 3201.1
 }
