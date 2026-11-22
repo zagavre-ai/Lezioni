@@ -7,7 +7,12 @@
   }
  },
  "manca": "",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "22/11 22:47",
+   "testo": "lez07 Le Avanguardie (storia arte 22/11): materiali scaricati. Blocchi/avvisi: 1) Wikimedia Commons NON raggiungibile (proxy 403): le opere le prendo dal PDF del prof, ma sono piccole (max ~900 px): le ingrandisco con upscale di qualità; se hai un modo di fornirmi versioni ad alta risoluzione di Matisse (Luxe calme et volupté, La danse, Bonheur de vivre), Picasso (La vie, Acrobate, Demoiselles d'Avignon, Guitare), Braque, Chagall, Modigliani, Rousseau, dimmelo. 2) Il video originale del prof è 1092x614 (38 min): il riquadro 4:3 a 412x309 sarà ingrandito poco, qualità ok. 3) Le mappe del prof sono 3: panoramica 'AVANGUARDIE (arte)' (diventa mappa finale), 'I Fauves' e 'CUBISMO'; per Futurismo ecc. nessuna mappa. Procedo con trascrizione, poi testi_voci.json."
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
@@ -18,5 +23,5 @@
  "materia": "Storia dell'Arte V",
  "lezione": "Le Avanguardie",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-22 22:43:56"
+ "aggiornato": "2026-11-22 22:47:15"
 }
