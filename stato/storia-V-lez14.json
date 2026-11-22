@@ -45,6 +45,10 @@
   {
    "quando": "22/11 18:38",
    "testo": "Voci da generare (ramo voci-storia-V-lez14, testi_voci.json, 5 nuove): MB1, MB2, MB3 (mappe lette ramo per ramo, nell'ordine dei riquadri) e W1_R2, W2_R2 (benvenuti SENZA il nome del prof). Le altre voci del 19/11 (AN, R, PIA/PR, GL, RF, FIN, RIP2) le riuso: non servono rifacimenti. Se altre voci servono le scrivo qui."
+  },
+  {
+   "quando": "22/11 19:12",
+   "testo": "Grazie per le mappe. Ho modificato il testo di MB3 (stesso nome, ramo voci, non ancora generata): ora comincia con la domanda 'Come si estende la guerra fredda in Asia?' (parole del titolo della slide del prof). Se MB3 era gia' stata generata col testo vecchio, rigenerala col testo nuovo (nome MB3_R2)."
   }
  ],
  "domande_sara": [],
@@ -77,5 +81,5 @@
  "materia": "Storia V",
  "lezione": "Lezione 14",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-22 19:03:22"
+ "aggiornato": "2026-11-22 19:12:01"
 }
