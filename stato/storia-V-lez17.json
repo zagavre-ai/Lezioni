@@ -1,7 +1,7 @@
 {
  "tag": "storia-V-lez17",
  "parti": {},
- "manca": "in corso: mappe BES (fatte 3), trascrizione originale, testi voci inviati; da fare: slide 40px, pezzi prof, approfondimenti, spiegoni, montaggio, controlli",
+ "manca": "in corso: pezzi del prof a 40 px (in codifica), approfondimenti, ripassi, mappe BES; poi montaggio, audio, controlli, dispensa. Voci Kore nuove attese domattina",
  "serve_master": [
   {
    "quando": "22/11 18:41",
@@ -37,8 +37,12 @@
   {
    "quando": "22/11 18:47",
    "testo": "ore 19:20 UTC: materiali scaricati, testi voci nuovi (16) su voci-storia-V-lez17, mappe del prof ridisegnate BES; trascrizione in corso"
+  },
+  {
+   "quando": "22/11 19:07",
+   "testo": "stato 30 min: trascrizione fatta, mappe BES pronte, slide a 40 px pronte, codifica pezzi prof in corso, voci provvisorie montate"
   }
  ],
- "aggiornato": "2026-11-22 18:55:48",
+ "aggiornato": "2026-11-22 19:07:17",
  "stato": "IN_REVISIONE"
 }
