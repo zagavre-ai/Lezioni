@@ -143,5 +143,641 @@
   "nome": "L7_COMP",
   "testo": "Ed ora i compiti.",
   "lingua": "it"
+ },
+ {
+  "nome": "A0_BENVENUTO",
+  "testo": "Benvenuti alla lezione sulla nobilitazione, seconda parte. Oggi vediamo i diversi trattamenti che migliorano un tessuto, come si controlla la solidità del colore in laboratorio e quali norme tutelano chi lavora e chi compra. La professoressa Piera Caputi vi accompagna passo dopo passo."
+ },
+ {
+  "nome": "A1_TITOLO",
+  "testo": "Primo argomento. Trattamenti e sistemi di macchine."
+ },
+ {
+  "nome": "A2_TITOLO",
+  "testo": "Secondo argomento. Durata e obiettivi delle nobilitazioni."
+ },
+ {
+  "nome": "A3_TITOLO",
+  "testo": "Terzo argomento. Mercerizzazione, calandratura e lucidatura."
+ },
+ {
+  "nome": "A4_TITOLO",
+  "testo": "Quarto argomento. Marezzatura, ceratura e stabilità dimensionale."
+ },
+ {
+  "nome": "A5_TITOLO",
+  "testo": "Quinto argomento. Le nobilitazioni che agiscono sul pelo."
+ },
+ {
+  "nome": "A6_TITOLO",
+  "testo": "Sesto argomento. Uso del prodotto e mano del tessuto."
+ },
+ {
+  "nome": "A7_TITOLO",
+  "testo": "Settimo argomento. Solidità del colore e prove."
+ },
+ {
+  "nome": "A8_TITOLO",
+  "testo": "Ottavo argomento. Controlli, sicurezza e norme tecniche."
+ },
+ {
+  "nome": "A9_TITOLO",
+  "testo": "Nono argomento. Tutela del consumatore e casi reali."
+ },
+ {
+  "nome": "A1_APPROF",
+  "testo": "Sai come si organizzano le macchine in una tintoria? Ci sono tre modi. Nel sistema discontinuo la stessa macchina esegue una fase dopo l'altra: è molto flessibile per produzioni limitate, ma costa molta manodopera e la qualità non è sempre omogenea. Nel sistema continuo le macchine stanno in linea, come una catena di montaggio: la qualità è uniforme e la manodopera è poca, ma l'attrezzatura costa molto. Il sistema semicontinuo unisce le due cose, e per riempire l'impianto le pezze vengono cucite insieme in rotoli."
+ },
+ {
+  "nome": "A3_APPROF",
+  "testo": "Sai perché il lino un tempo si candeggiava sul prato? Perché il sole sbianca! Oggi il candeggio si fa a umido e cambia secondo la fibra. Per le fibre vegetali si usano ipocloriti, acqua ossigenata e soluzioni diluite di soda caustica, in recipienti a forma di J dove il tessuto scorre continuamente. Per la lana si usano fumigazioni con anidride solforosa o acqua ossigenata, che serve anche per la seta."
+ },
+ {
+  "nome": "A3_APPROF2",
+  "testo": "E la mercerizzazione? Fu ideata dal chimico John Mercer nel millesettecentonovantuno e brevettata nel milleottocentosessantasei. Il filato o il tessuto di fibre cellulosiche si immerge in una soluzione fredda di soda caustica, al quindici o al venti per cento. Il risultato: le fibre si gonfiano, diventano più lucenti e la resistenza aumenta del venti per cento."
+ },
+ {
+  "nome": "A4_APPROF",
+  "testo": "Sai come si fa a rendere la lana lavabile in lavatrice? Con il trattamento superwash. Grazie al cloraggio e a resine speciali, la lana può restringersi al massimo del tre per cento in lunghezza e dell'uno per cento in larghezza. E la follatura? Con calore, sapone e sfregamento meccanico la lana si infeltrisce in modo controllato, e si ottiene un tessuto compatto detto lana cotta."
+ },
+ {
+  "nome": "A5_APPROF",
+  "testo": "Sai come si fa a far venire il pelo a un tessuto? Con la garzatura! Per le lane pregiate, come il cashmere, si usano cardi vegetali; per gli altri tessuti, punte metalliche montate su macchine garzatrici. Una curiosità storica: anche Leonardo da Vinci ideò una macchina per la cardatura, cercando di migliorare questo processo."
+ },
+ {
+  "nome": "A6_APPROF",
+  "testo": "Sai come può diventare autopulente un tessuto di cotone? Con le nanotecnologie ispirate alle foglie di loto! Il cotone respinge lo sporco e, sotto l'azione della luce, distrugge i batteri. È una delle moderne tecnologie di finissaggio che modificano l'uso del prodotto."
+ },
+ {
+  "nome": "A7_APPROF",
+  "testo": "Sai come si misura se un colore regge al lavaggio? Con la striscia multifibra: un tessuto alto circa dieci centimetri, con fili d'ordito di composizioni diverse, cioè acetato, cotone, poliammide, poliestere, acrilico e lana. Si cuce insieme al campione e a un tessuto bianco testimone, poi si legge il risultato con la scala dei grigi, da uno, solidità debolissima, a cinque, solidità ottima."
+ },
+ {
+  "nome": "A8_APPROF",
+  "testo": "Sai che cosa significa la sigla di una norma tecnica? Prendiamo UNI EN ISO centocinque E zero quattro, duemilatredici. UNI vale in Italia, EN in Europa, ISO nel mondo. La serie centocinque riguarda le prove di solidità del colore, E zero quattro indica il metodo per la solidità al sudore, e duemilatredici è l'anno di emissione dell'aggiornamento."
+ },
+ {
+  "nome": "A9_APPROF",
+  "testo": "Sai come si legge un rapporto di prova? Nella prova di sfregamento a secco, secondo la norma UNI EN ISO centocinque X dodici, un campione può avere scarico tre e degrado cinque: perde un po' di colore, ma il provino non cambia tono. Nella prova di lavaggio a quaranta gradi, secondo la UNI EN ISO centocinque C zero sei, i valori possono scendere a scarico due e degrado tre."
+ },
+ {
+  "nome": "A2_APPROF",
+  "testo": "Sai quanto dura l'effetto di un trattamento? Dipende! Un trattamento permanente incide sulla struttura intima della fibra e resta inalterato nel tempo. Quello durevole si usura e perde intensità. Il semidurevole mantiene la sua efficacia solo per un numero limitato di cicli di manutenzione. Il temporaneo perde gran parte del suo effetto già con i primi cicli."
+ },
+ {
+  "nome": "A1_R1",
+  "testo": "Le lavorazioni si possono fare in continuo, sui rotoli, o in discontinuo, una pezza alla volta."
+ },
+ {
+  "nome": "A1_R2",
+  "testo": "Le macchine possono essere discontinue, continue o semicontinue."
+ },
+ {
+  "nome": "A2_R1",
+  "testo": "Le nobilitazioni si classificano per tecnologia: a umido, a secco, fisiche e chimiche."
+ },
+ {
+  "nome": "A2_R2",
+  "testo": "Per durata si distinguono trattamenti permanenti, durevoli, semidurevoli e temporanei."
+ },
+ {
+  "nome": "A2_R3",
+  "testo": "Gli obiettivi sono cinque: aspetto esteriore, stabilità delle dimensioni, pelo, uso del prodotto e mano."
+ },
+ {
+  "nome": "A3_R1",
+  "testo": "Il candeggio, detto anche sbianca, rende bianco il materiale tessile."
+ },
+ {
+  "nome": "A3_R2",
+  "testo": "Il carbonissaggio elimina le impurità vegetali dalla lana, con acido solforico."
+ },
+ {
+  "nome": "A3_R3",
+  "testo": "La mercerizzazione dà lucentezza e un aumento di resistenza del venti per cento."
+ },
+ {
+  "nome": "A3_R4",
+  "testo": "La calandratura, o schiacciatura, pressa il tessuto tra cilindri."
+ },
+ {
+  "nome": "A4_R1",
+  "testo": "Increspatura, goffratura e marezzatura creano rilievi e effetti di luce."
+ },
+ {
+  "nome": "A4_R2",
+  "testo": "La ceratura copre l'intreccio ed è precursore dei tessuti tecnici."
+ },
+ {
+  "nome": "A4_R3",
+  "testo": "Queste nobilitazioni limitano il restringimento dopo lavaggio e manutenzione."
+ },
+ {
+  "nome": "A4_R4",
+  "testo": "Per la lana: cloraggio, decatissaggio, follatura, trattamento london e superwash."
+ },
+ {
+  "nome": "A4_R5",
+  "testo": "Per le fibre vegetali: sanforizzazione; per le camicie: trubenissaggio."
+ },
+ {
+  "nome": "A5_R1",
+  "testo": "Cardatura e garzatura estraggono il pelo."
+ },
+ {
+  "nome": "A5_R2",
+  "testo": "La cimatura taglia le fibre a altezza uniforme con lame elicoidali."
+ },
+ {
+  "nome": "A5_R3",
+  "testo": "Il bruciapelo elimina la peluria con una fiammella a gas o con l'enzima cellulasi."
+ },
+ {
+  "nome": "A5_R4",
+  "testo": "La smerigliatura dà la mano pesca o scamosciata."
+ },
+ {
+  "nome": "A6_R1",
+  "testo": "Antimuffa, antitarme, antipiega, antistatico e antipilling migliorano l'uso del prodotto."
+ },
+ {
+  "nome": "A6_R2",
+  "testo": "Per gli antipiega: lava-indossa, sgocciola-asciuga, easy-care, non iron e wrinkle free."
+ },
+ {
+  "nome": "A6_R3",
+  "testo": "Molte nobilitazioni modificano la mano del tessuto: secca, solida, morbida, scivolosa o sostenuta."
+ },
+ {
+  "nome": "A6_R4",
+  "testo": "L'apprettatura dà una mano sostenuta e liscia, con sostanze amidacee."
+ },
+ {
+  "nome": "A7_R1",
+  "testo": "La solidità del colore è la capacità di conservare il tono iniziale."
+ },
+ {
+  "nome": "A7_R2",
+  "testo": "Le alterazioni sono due: il degrado e la migrazione."
+ },
+ {
+  "nome": "A7_R3",
+  "testo": "La scala dei grigi va da uno a cinque; la scala dei blu va da uno a otto."
+ },
+ {
+  "nome": "A7_R4",
+  "testo": "Le prove usano crock-meter, perspirometro e linitest."
+ },
+ {
+  "nome": "A8_R1",
+  "testo": "Una norma ha una sigla di origine, un numero e l'anno di pubblicazione."
+ },
+ {
+  "nome": "A8_R2",
+  "testo": "Gli enti normatori sono UNI, DIN, BS, EN, ASTM, JIS, GB e ISO."
+ },
+ {
+  "nome": "A8_R3",
+  "testo": "I rischi sono ustioni, scivolamenti, dermatiti, asma ed emissioni nocive."
+ },
+ {
+  "nome": "A8_R4",
+  "testo": "Il tono del colore si controlla tra centro e cimosa e tra le due cimose."
+ },
+ {
+  "nome": "A9_R1",
+  "testo": "Formaldeide, ammine aromatiche e silicosi sono i pericoli da conoscere."
+ },
+ {
+  "nome": "A9_R2",
+  "testo": "I rapporti di prova descrivono con numeri le prestazioni dei tessuti."
+ },
+ {
+  "nome": "A9_R3",
+  "testo": "Le prove si dividono in prove di solidità del colore e prove fisico-meccaniche."
+ },
+ {
+  "nome": "A9_R4",
+  "testo": "Scarico e degrado si leggono con la scala dei grigi."
+ },
+ {
+  "nome": "A9_R5",
+  "testo": "Abrasione e tenuta delle cuciture si misurano con Martindale e metodo grab."
+ },
+ {
+  "nome": "A1_Q1_D",
+  "testo": "Quali due parametri si valutano per scegliere il trattamento di nobilitazione?"
+ },
+ {
+  "nome": "A1_Q1_R",
+  "testo": "La risposta giusta è: La composizione chimico-fibrosa del prodotto e l'effetto desiderato. Sono i due parametri fondamentali indicati dalla docente."
+ },
+ {
+  "nome": "A1_Q2_D",
+  "testo": "Come sono disposte le macchine in un sistema continuo?"
+ },
+ {
+  "nome": "A1_Q2_R",
+  "testo": "La risposta giusta è: In linea, come una catena, per eseguire sempre lo stesso tipo di lavorazione. Alta uniformità e bassi costi di manodopera, ma investimenti elevati."
+ },
+ {
+  "nome": "A1_Q3_D",
+  "testo": "Che cosa caratterizza un sistema discontinuo?"
+ },
+ {
+  "nome": "A1_Q3_R",
+  "testo": "La risposta giusta è: Elevata flessibilità per produzioni limitate, ma costi di manodopera elevati e qualità non sempre omogenea. La stessa macchina esegue diverse fasi in successione."
+ },
+ {
+  "nome": "A1_Q4_D",
+  "testo": "Che cosa richiede un sistema semicontinuo?"
+ },
+ {
+  "nome": "A1_Q4_R",
+  "testo": "La risposta giusta è: La cucitura delle pezze in rotoli per saturare l'impianto. Integra fasi in continuo e fasi in discontinuo."
+ },
+ {
+  "nome": "A1_Q5_D",
+  "testo": "Che cosa sono le nobilitazioni per foulardaggio?"
+ },
+ {
+  "nome": "A1_Q5_R",
+  "testo": "La risposta giusta è: Trattamenti a umido con impregnazione di piccole quantità di liquido. Quelli per esaurimento prevedono l'immersione in un bagno pieno."
+ },
+ {
+  "nome": "A2_Q1_D",
+  "testo": "Quale trattamento incide sulla struttura intima della fibra e rimane inalterato nel tempo?"
+ },
+ {
+  "nome": "A2_Q1_R",
+  "testo": "La risposta giusta è: Il trattamento permanente. I durevoli si usurano gradualmente; i temporanei perdono effetto già con i primi cicli."
+ },
+ {
+  "nome": "A2_Q2_D",
+  "testo": "Che cosa significa trattamento semidurevole?"
+ },
+ {
+  "nome": "A2_Q2_R",
+  "testo": "La risposta giusta è: Mantiene la sua efficacia solo per un numero limitato di cicli di manutenzione. Il temporaneo perde gran parte dell'effetto già con i primi cicli."
+ },
+ {
+  "nome": "A2_Q3_D",
+  "testo": "Che cos'è il candeggio, detto anche sbianca?"
+ },
+ {
+  "nome": "A2_Q3_R",
+  "testo": "La risposta giusta è: Il trattamento che rende bianco il materiale eliminando le colorazioni naturali. È un trattamento chimico a umido, considerato permanente."
+ },
+ {
+  "nome": "A2_Q4_D",
+  "testo": "Con che cosa si candeggiano le fibre vegetali?"
+ },
+ {
+  "nome": "A2_Q4_R",
+  "testo": "La risposta giusta è: Con ipocloriti, acqua ossigenata e soluzioni diluite di soda caustica. La lana si candeggia con anidride solforosa o acqua ossigenata."
+ },
+ {
+  "nome": "A2_Q5_D",
+  "testo": "A che serve il carbonissaggio?"
+ },
+ {
+  "nome": "A2_Q5_R",
+  "testo": "La risposta giusta è: A eliminare le impurità vegetali dai tessili di lana, con acido solforico. Va poi lavato completamente per non danneggiare la lana."
+ },
+ {
+  "nome": "A3_Q1_D",
+  "testo": "Quale incremento di resistenza dà la mercerizzazione con soda caustica?"
+ },
+ {
+  "nome": "A3_Q1_R",
+  "testo": "La risposta giusta è: Circa il venti per cento. Con ammoniaca liquida l'incremento arriva al quaranta per cento."
+ },
+ {
+  "nome": "A3_Q2_D",
+  "testo": "In che anno Mercer ideò la mercerizzazione?"
+ },
+ {
+  "nome": "A3_Q2_R",
+  "testo": "La risposta giusta è: Nel millesettecentonovantuno. Fu ideata nel millesettecentonovantuno e brevettata nel milleottocentosessantasei."
+ },
+ {
+  "nome": "A3_Q3_D",
+  "testo": "Che cos'è la calandratura?"
+ },
+ {
+  "nome": "A3_Q3_R",
+  "testo": "La risposta giusta è: Un trattamento fisico a secco che preme il tessuto per assottigliarlo e renderlo più lucido. L'effetto è in genere temporaneo."
+ },
+ {
+  "nome": "A3_Q4_D",
+  "testo": "Che cos'è il chintz?"
+ },
+ {
+  "nome": "A3_Q4_R",
+  "testo": "La risposta giusta è: Un tessuto lucido ottenuto con la lucidatura, con armatura fine e compatta e mano scivolosa. La lucidatura usa una sospensione di amido e cilindri incisi con righe diagonali."
+ },
+ {
+  "nome": "A3_Q5_D",
+  "testo": "Come si chiamano i tessuti con minirilievi leggeri ottenuti per increspatura?"
+ },
+ {
+  "nome": "A3_Q5_R",
+  "testo": "La risposta giusta è: Crêpe o crepelle. Con rilievi più pronunciati si parla di crepòn."
+ },
+ {
+  "nome": "A4_Q1_D",
+  "testo": "Che effetto dà la marezzatura?"
+ },
+ {
+  "nome": "A4_Q1_R",
+  "testo": "La risposta giusta è: Un aspetto simile alle onde del mare, per la luce riflessa in modo non omogeneo. Si ottiene con pressione e calore tra due cilindri, uno dei quali solcato."
+ },
+ {
+  "nome": "A4_Q2_D",
+  "testo": "Che cosa fa il decatissaggio?"
+ },
+ {
+  "nome": "A4_Q2_R",
+  "testo": "La risposta giusta è: Dà stabilità dimensionale permanente ai tessuti lanieri con vapore sotto pressione in autoclave. Si arriva a temperature fino a centotrentacinque gradi."
+ },
+ {
+  "nome": "A4_Q3_D",
+  "testo": "Che cos'è la follatura?"
+ },
+ {
+  "nome": "A4_Q3_R",
+  "testo": "La risposta giusta è: Un infeltrimento controllato a umido della lana, con calore, sapone e sfregamento. Si ottiene la cosiddetta lana cotta."
+ },
+ {
+  "nome": "A4_Q4_D",
+  "testo": "Come funziona la sanforizzazione?"
+ },
+ {
+  "nome": "A4_Q4_R",
+  "testo": "La risposta giusta è: Comprime meccanicamente su nastro di gomma le fibre vegetali bagnate e vaporizzate, prevenendo il ritiro. Si completa con calandre asciugatrici."
+ },
+ {
+  "nome": "A4_Q5_D",
+  "testo": "Che restringimento massimo garantisce il trattamento superwash?"
+ },
+ {
+  "nome": "A4_Q5_R",
+  "testo": "La risposta giusta è: tre per cento in lunghezza e uno per cento in larghezza. Rende la lana lavabile in lavatrice."
+ },
+ {
+  "nome": "A5_Q1_D",
+  "testo": "A che servono i cardi vegetali nella garzatura?"
+ },
+ {
+  "nome": "A5_Q1_R",
+  "testo": "La risposta giusta è: Per estrarre il pelo dalle lane pregiate come il cashmere. Per gli altri tessuti si usano punte metalliche montate su garzatrici."
+ },
+ {
+  "nome": "A5_Q2_D",
+  "testo": "Che cosa fa la cimatura?"
+ },
+ {
+  "nome": "A5_Q2_R",
+  "testo": "La risposta giusta è: Taglia le fibre ad altezza uniforme o crea disegni, con lame elicoidali. Si usa una macchina cimatrice."
+ },
+ {
+  "nome": "A5_Q3_D",
+  "testo": "Che cos'è la ratinatura?"
+ },
+ {
+  "nome": "A5_Q3_R",
+  "testo": "La risposta giusta è: L'aggrovigliamento del pelo in pallottoline, come nel tessuto casentino. Cerca l'effetto pilling voluto."
+ },
+ {
+  "nome": "A5_Q4_D",
+  "testo": "A che velocità passa il tessuto sulla fiamma nel bruciapelo?"
+ },
+ {
+  "nome": "A5_Q4_R",
+  "testo": "La risposta giusta è: Tra sessanta e centoventi metri al minuto. Si può eliminare la peluria anche chimicamente con l'enzima cellulasi."
+ },
+ {
+  "nome": "A5_Q5_D",
+  "testo": "Che mano dà la smerigliatura?"
+ },
+ {
+  "nome": "A5_Q5_R",
+  "testo": "La risposta giusta è: La tipica mano pesca o scamosciata. Si usano rulli ricoperti di materiale abrasivo."
+ },
+ {
+  "nome": "A6_Q1_D",
+  "testo": "Da che cosa protegge il trattamento antitarme?"
+ },
+ {
+  "nome": "A6_Q1_R",
+  "testo": "La risposta giusta è: Dall'attacco degli insetti sulla lana. L'antimuffa protegge invece le fibre vegetali dai microrganismi."
+ },
+ {
+  "nome": "A6_Q2_D",
+  "testo": "Con che cosa agiscono i trattamenti antipiega?"
+ },
+ {
+  "nome": "A6_Q2_R",
+  "testo": "La risposta giusta è: Con resine ureiche che modificano la struttura delle fibre cellulosiche. Riducono le sgualciture causate dall'uso."
+ },
+ {
+  "nome": "A6_Q3_D",
+  "testo": "Quale finissaggio è progettato per non essere assolutamente stirato?"
+ },
+ {
+  "nome": "A6_Q3_R",
+  "testo": "La risposta giusta è: Il finissaggio non iron. Lava-indossa rende superfluo il ferro da stiro; sgocciola-asciuga si asciuga appeso."
+ },
+ {
+  "nome": "A6_Q4_D",
+  "testo": "Che mano conferisce la garzatura?"
+ },
+ {
+  "nome": "A6_Q4_R",
+  "testo": "La risposta giusta è: Morbida, calda e voluminosa. Il bruciapelo dà mano secca, la lucidatura scivolosa."
+ },
+ {
+  "nome": "A6_Q5_D",
+  "testo": "Che cos'è l'apprettatura?"
+ },
+ {
+  "nome": "A6_Q5_R",
+  "testo": "La risposta giusta è: Un trattamento temporaneo che dà mano sostenuta e liscia usando sostanze amidacee. Si può ammorbidire con cilindri rompi-appretto."
+ },
+ {
+  "nome": "A7_Q1_D",
+  "testo": "Che cos'è la migrazione del colore?"
+ },
+ {
+  "nome": "A7_Q1_R",
+  "testo": "La risposta giusta è: Il trasferimento del colore su un materiale tessile adiacente. Lo scolorimento si chiama degrado."
+ },
+ {
+  "nome": "A7_Q2_D",
+  "testo": "Che cos'è la striscia multifibra?"
+ },
+ {
+  "nome": "A7_Q2_R",
+  "testo": "La risposta giusta è: Un tessuto alto circa dieci cm con fili d'ordito di composizioni diverse, usato nelle prove. Si cuce insieme al campione e a un testimone bianco."
+ },
+ {
+  "nome": "A7_Q3_D",
+  "testo": "Che cosa indica il valore cinque della scala dei grigi?"
+ },
+ {
+  "nome": "A7_Q3_R",
+  "testo": "La risposta giusta è: Assenza di contrasto e solidità ottima. Il valore uno indica contrasto maggiore e solidità debolissima."
+ },
+ {
+  "nome": "A7_Q4_D",
+  "testo": "Quanti campioni ha la scala dei blu, usata per la solidità alla luce?"
+ },
+ {
+  "nome": "A7_Q4_R",
+  "testo": "La risposta giusta è: Otto. Il valore otto indica solidità eccezionale."
+ },
+ {
+  "nome": "A7_Q5_D",
+  "testo": "Quali condizioni ha la prova di sfregamento con il crock-meter?"
+ },
+ {
+  "nome": "A7_Q5_R",
+  "testo": "La risposta giusta è: Forza di nove newton, dieci sfregamenti su dieci cm in dieci secondi. Il peso di cinque chilogrammi per quattro ore a trentasette gradi riguarda il perspirometro."
+ },
+ {
+  "nome": "A8_Q1_D",
+  "testo": "A che serve il controllo centro-cimosa?"
+ },
+ {
+  "nome": "A8_Q1_R",
+  "testo": "La risposta giusta è: A confrontare il tono del centro del tessuto con quello dei bordi. Il controllo cimosa-cimosa confronta i due bordi."
+ },
+ {
+  "nome": "A8_Q2_D",
+  "testo": "Quale strumento misura la resistenza alla trazione?"
+ },
+ {
+  "nome": "A8_Q2_R",
+  "testo": "La risposta giusta è: Il dinamometro. Il pilling si misura con Random Tumble, ICI pilling box o Martindale."
+ },
+ {
+  "nome": "A8_Q3_D",
+  "testo": "Quali rischi derivano da acqua e soluzioni chimiche sui pavimenti?"
+ },
+ {
+  "nome": "A8_Q3_R",
+  "testo": "La risposta giusta è: Scivolamento e cadute, da prevenire con stivali antisdrucciolo. Gli stivali hanno puntale e lamina in acciaio."
+ },
+ {
+  "nome": "A8_Q4_D",
+  "testo": "Che cosa indica la sigla UNI EN ISO centocinque E zero quattro, duemilatredici?"
+ },
+ {
+  "nome": "A8_Q4_R",
+  "testo": "La risposta giusta è: Una norma nazionale, europea e internazionale sulla solidità del colore al sudore, nell'edizione del duemilatredici. centocinque indica le prove di solidità, Equattro il sudore, duemilatredici l'anno."
+ },
+ {
+  "nome": "A8_Q5_D",
+  "testo": "Quale ente normatore opera in Italia?"
+ },
+ {
+  "nome": "A8_Q5_R",
+  "testo": "La risposta giusta è: L'UNI. DIN Germania, ASTM Stati Uniti, JIS Giappone."
+ },
+ {
+  "nome": "A9_Q1_D",
+  "testo": "Che cos'è la formaldeide, secondo la lezione?"
+ },
+ {
+  "nome": "A9_Q1_R",
+  "testo": "La risposta giusta è: Una sostanza irritante, classificata come cancerogena dall'Organizzazione Mondiale della Sanità. Può essere presente in capi d'importazione."
+ },
+ {
+  "nome": "A9_Q2_D",
+  "testo": "Dal duemiladue che cosa è vietato nell'Unione Europea?"
+ },
+ {
+  "nome": "A9_Q2_R",
+  "testo": "La risposta giusta è: I coloranti azoici con ammine aromatiche cancerogene. Direttiva duemila due barra sessantuno CE."
+ },
+ {
+  "nome": "A9_Q3_D",
+  "testo": "Che cos'è la silicosi?"
+ },
+ {
+  "nome": "A9_Q3_R",
+  "testo": "La risposta giusta è: Una patologia polmonare irreversibile degli addetti alla sabbiatura dei jeans. La sabbiatura fu vietata in Turchia nel duemilanove."
+ },
+ {
+  "nome": "A9_Q4_D",
+  "testo": "Qual è l'unica strategia sostenibile per il tessile italiano?"
+ },
+ {
+  "nome": "A9_Q4_R",
+  "testo": "La risposta giusta è: Investire in ricerca e innovazione ed esportare prodotti di alta qualità. I dazi e i contingenti si sono rivelati inefficaci."
+ },
+ {
+  "nome": "A9_Q5_D",
+  "testo": "Che cosa misura il metodo grab secondo UNI EN ISO tredicimilanovecentotrentacinque-due?"
+ },
+ {
+  "nome": "A9_Q5_R",
+  "testo": "La risposta giusta è: La resistenza delle cuciture. Nell'esempio, valori sedici in ordito e venticinque,otto in trama contro un requisito di venti."
+ },
+ {
+  "nome": "GL_INTRO",
+  "testo": "Glossario. Ripassiamo insieme i termini principali della lezione."
+ },
+ {
+  "nome": "GL_01",
+  "testo": "Candeggio. Il candeggio, detto anche sbianca, rende bianco il materiale tessile eliminando le colorazioni naturali."
+ },
+ {
+  "nome": "GL_02",
+  "testo": "Carbonissaggio. Il carbonissaggio è l'operazione chimica che elimina le impurità vegetali dalla lana."
+ },
+ {
+  "nome": "GL_03",
+  "testo": "Mercerizzazione. La mercerizzazione è il trattamento a umido delle fibre cellulosiche che ne migliora lucentezza e resistenza."
+ },
+ {
+  "nome": "GL_04",
+  "testo": "Calandratura. La calandratura, o schiacciatura, è la pressatura del tessuto tra cilindri per renderlo più sottile e lucente."
+ },
+ {
+  "nome": "GL_05",
+  "testo": "Follatura. La follatura è l'infeltrimento controllato della lana, a umido, con calore, sapone e sfregamento."
+ },
+ {
+  "nome": "GL_06",
+  "testo": "Garzatura. La garzatura estrae il pelo dal tessuto, per renderlo peloso, caldo e morbido."
+ },
+ {
+  "nome": "GL_07",
+  "testo": "Mano del tessuto. La mano è la sensazione tattile che il tessuto trasmette: secca, solida, morbida, scivolosa o sostenuta."
+ },
+ {
+  "nome": "GL_08",
+  "testo": "Degrado. Il degrado è lo scolorimento del materiale sottoposto all'azione di vari agenti."
+ },
+ {
+  "nome": "GL_09",
+  "testo": "Migrazione. La migrazione è il trasferimento del colore su un materiale tessile adiacente."
+ },
+ {
+  "nome": "GL_10",
+  "testo": "Striscia multifibra. La striscia multifibra è un tessuto alto circa dieci centimetri, con fili d'ordito di composizioni diverse."
+ },
+ {
+  "nome": "GL_11",
+  "testo": "Norma tecnica. Una norma tecnica è identificata da una sigla di origine, un numero progressivo e l'anno di pubblicazione."
+ },
+ {
+  "nome": "RF_INTRO",
+  "testo": "Ripasso finale. Rivediamo gli argomenti della lezione, uno dopo l'altro."
+ },
+ {
+  "nome": "VS_INTRO",
+  "testo": "Verifica finale. Per continuare serve almeno l'ottanta per cento di risposte giuste."
  }
 ]
