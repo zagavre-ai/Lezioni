@@ -53,6 +53,10 @@
   {
    "quando": "22/11 19:53",
    "testo": "Controllo voci del 19/11: AN7 finisce con ampiezza 0,33 (voce troncata) e AN8 inizia a 0,345 (primo suono mangiato). Ho aggiunto AN7_R2 e AN8_R2 (stesso testo) sul ramo voci da rigenerare. Altre voci con bordi >0,03 da riascoltare se puoi: AN13, AN22, AN4, AN23, AN9, AN15, AN5, AN21. Nomi storpiati dalla trascrizione da controllare ascoltando: Attlee (AN10), Armata Rossa (AN5), Comecon (AN16), Euratom/CEE (AN11, AN24), Chruščëv."
+  },
+  {
+   "quando": "22/11 20:03",
+   "testo": "Altre voci con bordo troncato (ampiezza 0,36-0,76 negli ultimi 10 ms): PR74, PR64, PR44, PR46: aggiunte come _R2 sul ramo voci. Da riascoltare: PR22, PR14, PR15, PR16, PR21, PR33, PR42. Sigle non spiegate a voce (sullo schermo si': decidi se rigenerare): PR11, PR34, PR43, PR44, PR45, PR46, PR64, PIA1, RF1, RF2, GL2."
   }
  ],
  "domande_sara": [],
@@ -89,5 +93,5 @@
  "materia": "Storia V",
  "lezione": "Lezione 14",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-22 19:53:38"
+ "aggiornato": "2026-11-22 20:03:51"
 }
