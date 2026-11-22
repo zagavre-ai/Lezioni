@@ -45,16 +45,22 @@ def monta_prof(nome,iv,stati,out,fade_video=0.3):
     S0=max(0.0,iv[0][0]-1.0); S0=round(S0*30)/30
     S0=max(0.0,iv[0][0]-1.0); S0=round(S0*30)/30
     sel='+'.join(f'between(t,{a-S0-0.004:.4f},{b-S0-0.004:.4f})' for a,b in iv)
-    # passo 1: le slide diventano un vero flusso a 30 fps (a basso costo: immagini ferme), per non gonfiare la memoria
-    sl=f'{CACHE}/{nome}_slide.mkv'
-    r1=subprocess.run(['ffmpeg','-v','error','-y','-f','concat','-safe','0','-i',lst,'-vf','fps=30,format=yuv420p','-t',f'{dur:.4f}','-c:v','libx264','-preset','ultrafast','-crf','8','-g','30',sl],capture_output=True,text=True)
-    if r1.returncode: raise SystemExit('slide: '+r1.stderr[-800:])
+    # passo 1: ogni stato diventa un breve filmato a 30 fps (immagine ferma): nessun picco di memoria
+    parti=[]; tot=0
+    for k,(t,png) in enumerate(stati):
+        t2=stati[k+1][0] if k+1<len(stati) else dur
+        nfr=max(1,round((t2-t)*30)) if k+1<len(stati) else max(1,round(dur*30)-tot)
+        mk=f'{CACHE}/{nome}_st{k:02d}.mkv'
+        r1=subprocess.run(['ffmpeg','-v','error','-y','-loop','1','-framerate','30','-i',png,'-frames:v',str(nfr),'-c:v','libx264','-preset','ultrafast','-crf','8','-pix_fmt','yuv420p','-g','30',mk],capture_output=True,text=True)
+        if r1.returncode: raise SystemExit('stato: '+r1.stderr[-800:])
+        parti.append(mk); tot+=nfr
+    sl=f'{CACHE}/{nome}_slide.txt'; open(sl,'w').write(''.join(f"file '{p}'\n" for p in parti))
     flt=(f"[1:v]crop=185:139:'if(lt(t+{S0:.4f},1082.05),851,877)':'if(lt(t+{S0:.4f},1082.05),337,343)',select='{sel}',setpts=N/(30*TB),"
          f"scale=412:309:flags=lanczos,unsharp=5:5:0.7:5:5:0.0,eq=contrast=1.04:saturation=1.05,format=yuv420p[cam];"
          f"[0:v][cam]overlay=1428:148:format=yuv420[x1];[2:v]format=yuva420p[cn];[x1][cn]overlay=1428:148:format=yuv420,"
          f"fade=t=in:st=0:d={fade_video},fade=t=out:st={dur-fade_video:.3f}:d={fade_video}[v];"
          f"[3:a]highpass=f=70,afftdn=nr=6:nf=-55,afade=t=in:st=0:d=0.02[a]")
-    cmd=['ffmpeg','-v','error','-y','-i',sl,'-ss',f'{S0:.4f}','-t',f'{iv[-1][1]-S0+1.0:.4f}','-i',ORIG,'-i',maschera(),'-i',wav,
+    cmd=['ffmpeg','-v','error','-y','-f','concat','-safe','0','-i',sl,'-ss',f'{S0:.4f}','-t',f'{iv[-1][1]-S0+1.0:.4f}','-i',ORIG,'-i',maschera(),'-i',wav,
          '-filter_complex',flt,'-map','[v]','-map','[a]','-t',f'{dur:.4f}','-r','30','-c:v','libx264','-preset','ultrafast','-crf','14','-pix_fmt','yuv420p','-c:a','pcm_s16le','-ar','48000',out]
     r=subprocess.run(cmd,capture_output=True,text=True)
     if r.returncode: raise SystemExit(r.stderr[-1500:])
