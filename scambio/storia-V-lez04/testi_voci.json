@@ -86,5 +86,29 @@
  {
   "nome": "AP11",
   "testo": "Approfondiamo il bilancio umano della guerra. La guerra provoca circa diciassette milioni di morti tra soldati e civili, soprattutto giovani uomini tra i venti e i quarant'anni. Tra il millenovecentodiciotto e il millenovecentodiciannove la spagnola, un'influenza favorita dalle pessime condizioni igieniche e dagli spostamenti delle truppe, uccide oltre quaranta milioni di persone nel mondo. Oltre quaranta milioni di soldati restano feriti, e i mutilati diventano la testimonianza visibile della violenza delle nuove armi. Il ritorno a casa dei reduci è drammatico: gli Stati sono impoveriti e non garantiscono né lavoro né pensioni dignitose."
+ },
+ {
+  "nome": "VER_0",
+  "testo": "Siamo alla verifica finale della lezione. Per continuare serve almeno l'ottanta per cento di risposte esatte. Rispondi con calma a tutte le domande del test."
+ },
+ {
+  "nome": "CP_0",
+  "testo": "Per finire, i compiti. Sono quattro domande aperte: leggile con attenzione e rispondi per iscritto."
+ },
+ {
+  "nome": "CP_1",
+  "testo": "Prima domanda. Quali fattori politici, economici e strategici resero instabile l'equilibrio europeo all'inizio del Novecento, e perché l'area dei Balcani venne definita la polveriera d'Europa?"
+ },
+ {
+  "nome": "CP_2",
+  "testo": "Seconda domanda. Attraverso quali passaggi politici e diplomatici l'Italia passò dalla dichiarazione di neutralità dell'agosto del millenovecentoquattordici all'ingresso in guerra nel maggio del millenovecentoquindici, e quali furono le principali differenze tra il fronte neutralista e quello interventista?"
+ },
+ {
+  "nome": "CP_3",
+  "testo": "Terza domanda. Perché il millenovecentodiciassette viene considerato l'anno della crisi e della svolta del conflitto, con particolare riferimento all'uscita della Russia, all'intervento degli Stati Uniti e alla disfatta italiana di Caporetto?"
+ },
+ {
+  "nome": "CP_4",
+  "testo": "Quarta domanda. In che modo i trattati di pace ridefinirono l'assetto geopolitico europeo dopo il crollo dei quattro grandi imperi, e quali furono le principali conseguenze umane e sociali della Grande guerra?"
  }
 ]
