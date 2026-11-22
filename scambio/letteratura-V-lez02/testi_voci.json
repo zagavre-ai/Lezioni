@@ -228,5 +228,10 @@
   "nome": "RN17",
   "testo": "L'attrazione per le situazioni patologiche, per il mostruoso, il macabro e il funereo.",
   "lingua": "it"
+ },
+ {
+  "nome": "INTRO2",
+  "testo": "Benvenuti alla lezione di Letteratura italiana. Oggi parliamo della Scapigliatura: l'origine del nome, un movimento senza scuola, il rifiuto della tradizione, lo stile e il rapporto con la modernità. Poi conosceremo i protagonisti e leggeremo due poesie: Preludio di Emilio Praga e Dualismo di Arrigo Boito. Alla fine di ogni argomento c'è un quiz di cinque domande: per continuare serve almeno l'ottanta per cento delle risposte giuste.",
+  "lingua": "it"
  }
 ]
