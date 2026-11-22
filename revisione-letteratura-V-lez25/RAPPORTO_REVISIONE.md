@@ -1,98 +1,66 @@
 # RAPPORTO REVISIONE · Letteratura italiana V · Lezione 25 · Pier Paolo Pasolini
-Revisione del 17/11/2026. Video: `Letteratura_Lez25_Parte1_1080p.mp4` (a pezzi `.parte_00/01`, sha256 nel file `.sha256`, verificato sul file ricomposto).
+Correzioni del 22/11/2026 (sul video del 17/11). Video: `Letteratura_Lez25_Parte1_1080p.mp4` (a pezzi `.parte_00/01`, sha256 nel file `.sha256`, verificato sul file ricomposto).
 **misurato** = misurato con uno strumento; **stima** = dedotto; **non verificato** = non ho potuto.
 
-## 1. Misure sul video nuovo (misurato)
+## 1. Cosa ho cambiato il 22/11
+- **Slide del prof:** testo delle card a **40 px**, interlinea 1,5, card alte quanto il testo. Ogni card è una **frase intera** (le frasi lunghe del prof sono separate in card distinte), al massimo **3 card** per slide, la slide cambia quando il prof passa alla 4ª frase; se tre card non entrano a 40 px la slide si divide. Bordo e pallino gialli sulla card in corso (tempi dal parlato, ±1 s; i tempi dei paragrafi sono misurati, quelli delle singole frasi sono stimati dalla trascrizione). Schermata identica più lunga: 123 s; card sola più lunga: 52 s (misurato dall'agente di controllo).
+- **Mappa:** una sola, **quella del prof**, ridisegnata nel **modello BES** (colori pesca, celeste, paglierino, menta, lilla con legenda in alto a destra), stesse parole e stessa struttura, costruita **un riquadro alla volta** con la voce Kore **R2**; il riquadro è giallo mentre la voce parla; alla fine mappa intera ferma 7 s. Va prima del glossario (riguarda tutta la lezione), una volta sola. Ridisegnata **senza il marchio mappe-scuola.com e senza le foto di Pasolini** (decisione di Sara).
+- **Introduzione:** il prof sopra la copertina dura 22 s (poi voce Kore con gli argomenti che si accendono quando li nomina, **senza riquadro del prof**). Titolo copertina «Pier Paolo Pasolini».
+- **Glossario:** ora a **due pagine** con tutti e **6 i termini** letti dalla voce (prima ne mostrava 3).
+- **Piè di pagina:** «LETTERATURA ITALIANA V» + numero di pagina, senza il nome del docente (il nome compare solo nella fascia gialla).
+- **Jingle e transizioni:** jingle anche su glossario, ripasso finale, Verifica, Compiti; dissolvenza a ogni cambio di pezzo, compresi gli ultimi (prima 3 tagli secchi alla fine).
+- **Taglio D0/D1:** il pezzo del prof non si interrompe più a metà frase («…Analizziamo la sua | Ecco appunto una sua fotografia»).
+- **Audio del prof:** −16,9 LUFS, picco ≥ −1 dBTP, catena del kit; guadagno +0,4 dB e voce della mappa +1,5 dB (prima fuori di 1 dB).
+- **Sottotitoli:** rifatti sul video finale; anni scritti in cifre («1922», non «19ventidue»), «Palazzo» maiuscolo, mappa su due righe.
+- **PDF:** slide (57 pagine) e mappe (2 pagine), A4 orizzontale, identici al video (senza riquadro del prof), **con strato di testo invisibile** selezionabile (testato con `pdftotext`). Copertina con solo materia e titolo (più «MAPPE» nel PDF mappe), piè di pagina con materia e numero, senza nome del docente.
+- `timeline.json`, `scheda_pubblicazione.json` («Letteratura V · Lezione 25 · Pier Paolo Pasolini»), `testo_youtube.txt`, `quiz_argomenti.json` rigenerati sui secondi del video finale.
+
+## 2. Misure sul video finale (misurato)
 | Controllo | Risultato |
 |---|---|
-| Formato | 1920×1080, 30 fps, x264 veryfast CRF 19, AAC 192k |
-| Durata / fotogrammi | **38:38,2 (2318,2 s)** · 69 547 fotogrammi = durata × 30. **La durata è cambiata** (prima 45:19): via le 7 mappe nostre (−6:30) e i silenzi, aggiunta la mappa del prof con voce nuova (+1:47). Resta sotto i 50 minuti: il materiale del prof dura 20 min, non si allunga con riempitivi |
-| Peso | 146.6 MB |
-| Volume | -16.9 LUFS integrato; picco -1.0 dBFS (≤ −1) |
-| Silenzi ≥ 3 s | **nessuno** (prima 27, di 3–11 s) |
-| Fermi del riquadro del prof ≥ 1 s (`freezedetect`) | **nessuno** |
-| Sincronia audio/video del prof | audio del video finale confrontato con l'originale, per ogni pezzo D0–D6: scarto **−0,013 s** (limite 0,04). Audio e immagine del prof vengono dallo stesso file con lo stesso offset |
-| Jingle Quiz (`controllo_jingle.py`) | Q1–Q6: scarto **0,000 s** |
-| PDF slide | 47 pagine A4 orizzontale; ognuna confrontata con il fotogramma del video (esclusi riquadro e nome): **47 su 47 coincidono** |
-| Rumore del prof | fondo −58 dB (prima −54 dB), catena arnndn del kit |
+| Formato | 1920×1080, 30 fps, x264 veryfast CRF 19, AAC 192k; 69 625 fotogrammi = 2320,83 s × 30 (38:40,8) |
+| Peso | 145,7 MB |
+| Volume / picco | −16,6 LUFS integrato; picco −1,4 dBFS |
+| Silenzi ≥ 2,5 s (`silencedetect −45 dB`) | nessuno (prima: 27 da 3 a 11 s, poi 2 da 2,5 s) |
+| Fermi del riquadro del prof ≥ 1 s (`freezedetect`) | nessuno |
+| Sincronia audio/video del prof | per ogni pezzo D0–D6, audio finale vs originale: **−0,013 s** (limite 0,04) |
+| Jingle Quiz (`controllo_jingle.py`) | Q1–Q6: **0,000 s** |
+| PDF slide | 57 pagine (+ copertina) A4 orizzontale, 57 su 57 coincidono col fotogramma del video (maschera su riquadro e nome) |
+| Sigla finale, avviso diritti | file del kit, conservato |
 
-## 2. Confronto col modello Spagnolo (punto 000)
-| # | Punto | Esito |
-|---|---|---|
-| 1 | Sigla → dissolvenza → copertina | OK (dissolvenza di 0,5 s dalla sigla) |
-| 2 | Copertina (logo, riga «LETTERATURA ITALIANA V · VIDEOLEZIONE», titolo, card ARGOMENTI su 2 colonne) | **corretto** (prima fondo scuro) |
-| 3 | Slide: fondo bianco, «01 · ARGOMENTO», titolo + barretta | **corretto** |
-| 4 | Piè «LETTERATURA ITALIANA V · Prof. Giorgio Mazzotti» + «Pagina N» | **corretto** (prima senza «V» e a sinistra) |
-| 5 | Riquadro 4:3 | **corretto**: 412×309 px a x=1428 y=148, angoli r=18, ombra grigia morbida, nessun bordo (prima riquadro piccolo con bordo blu e banda blu) |
-| 6 | Fascia gialla −3°, due righe | **corretto** (prima testo bianco piccolo, senza fascia) |
-| 7 | Slide senza prof | **corretto**: approfondimenti, ripassi, glossario, riepilogo, mappa, schede titolo/Quiz/Verifica/Compiti/Fine su fondo bianco (prima blu notte, e carattere con le grazie su titoli e «FINE») |
-| 8 | Font | Bricolage Grotesque 800 e Figtree (etichette in Figtree Bold, aggiornamento 15:10) |
-| 9 | Finale | sigla finale 5 s del kit conservata |
-| 10 | Struttura | OK: sigla, presentazione, 6 argomenti (titolo, prof, approfondimenti, ripasso, quiz), mappa del prof, glossario, riepilogo, fine |
-| 11 | PDF slide + mappe | consegnati |
+## 3. Controlli
+- **`controllo_severo.py`:** lanciato sul video finale (passo 20 s, tesseract installato). **Al momento della consegna non aveva ancora finito** (OCR lento su 116 fotogrammi); la copia dell'esito è in `esito_controllo_severo.json` se completata. Un primo controllo dei punti che esso verifica è stato fatto a mano e con l'agente separato: schermata identica più lunga 123 s (< 180), card sola più lunga 52 s (< 60), nessun «…», nessuna card con iniziale minuscola, copertina «Pier Paolo Pasolini» presente per 55 s (< 180), volume −16,6 LUFS, nessuna pausa > 2,5 s, durata 38:40 (**sotto i 45 minuti: il controllo severo la segnerà**; il materiale del prof dura 20 minuti e non si allunga con riempitivi).
+- **Agente separato** (non ha montato la lezione) ha spuntato la lista del §11. Difetti trovati e **corretti**: nome del docente nel piè di pagina; mappa senza «vita dei ragazzi nelle borgate romane», senza «regista cinematografico», senza parentesi e senza «.....»; mappa vuota per 4 s all'inizio; tre tagli secchi (FIN1→VER→SFIN→CI1); mappa a −17,6 LUFS e D2 a −17,3; taglio D0/D1 a metà frase; glossario con 3 termini su 6; jingle mancanti su glossario, ripasso finale e Compiti; anni mal scritti nei sottotitoli. Dopo le correzioni ho rimisurato: volume, silenzi, fermi, sincronia, jingle (sotto).
+- **Pagina PDF vs fotogramma:** 56 pagine confrontate (maschera su riquadro e nome), nessuna differente oltre il 6 %.
 
-Card «in corso»: bordo giallo, pallino giallo, fondo bianco; le altre con bordo grigio chiaro; ombre sempre grigie e morbide (aggiornamento 01:30).
-
-## 3. Problemi trovati e correzioni
-| Minuto (nuovo) | Tipo | Com'era | Correzione |
-|---|---|---|---|
-| tutto | visivo | grafica diversa dal modello (vedi §2) | tutte le slide rifatte; riquadro 4:3 dall'originale con correzione immagine del kit |
-| copertina | visivo | riquadro del prof presente anche dove parla solo la voce | riquadro solo dove il prof parla (video vivo, nessun fermo); in presentazione con voce Kore niente riquadro |
-| 34:31 | contenuto | 7 mappe fatte da noi (non del prof), con voce | tolte; una sola mappa, **quella del prof** (`MAPPE/LEZIONE 25.pdf`), nella nostra grafica, voce nuova **R2** (Kore) con evidenziazione del ramo; senza le foto di Pasolini e senza il logo del sito della mappa |
-| raccordi del prof | prof | pezzi tagliati a metà frase e frasi ripetute (v. §4) | tagli rifatti a fine frase, su pause misurate; nessuna ripetizione |
-| 16:13 | voce | la voce Kore di AN06 era **troncata**: si fermava a «…morale del Paese» e mancavano 4 frasi (denunce, 2 novembre 1975) mentre le card erano a schermo | nuova narrazione **R1** completa (25,6 s), card a tempo con la voce |
-| silenzi | audio | 27 silenzi di 3–11 s (schede titolo, Quiz, Verifica, Compiti, code dei pezzi) | tolti |
-| jingle / transizioni | audio | ripasso, Verifica, Compiti, Fine senza jingle; passaggi a taglio secco | `repaso.wav` sui ripassi, `quiz.wav` su Verifica e Compiti, `finale.wav` su Fine, `trans.wav` + dissolvenza 0,2 s sui passaggi; Quiz e titoli come prima |
-| audio prof | audio | non pulito con la catena del kit | rifatto dall'originale: `aresample 48000, highpass 80, arnndn (sh.rnnn)`, guadagno per pezzo a −16,5 LUFS, limitatore −1,5 dB. Nota: `loudnorm` dinamico **cancellava il parlato per 5–9 s** in 3 punti; sostituito da guadagno fisso (verificato: nessun secondo di parlato perso) |
-| scheda titolo 4 | testo | «Poesia e conflitti interiori» ≠ elenco «Le prime fasi poetiche e i conflitti interiori» | uniformato all'elenco della dispensa |
-| quiz | testo | «Quale è il primo film» | «Qual è» |
-| verifica | pagina | mancava la verifica finale | `verifica_finale.json` + xlsx del prof (10 domande) |
-| compiti | pagina | ok | 4 domande del prof, testo identico al PDF |
-| scheda | testo | titolo «Pier Paolo Pasolini · Parte 1» | «Letteratura V · Lezione 25 · Pier Paolo Pasolini»; secondi aggiornati |
-| vtt | testo | trascrizione automatica con errori («con giorno bevenute», «più di ottubra»…) | rifatto: voce Kore dai testi esatti, prof dalla nuova trascrizione con i nomi corretti (Pasolini, Officina, Accattone, Canterbury, Scritti corsari…), 599 cue di max 2 righe, tempi sul nuovo montaggio |
-
-## 4. Fine e inizio di ogni pezzo del prof (aggiornamento 01:25)
-| Pezzo | Minuto (nuovo) | Prime parole | Ultime parole | Frase finita |
+## 4. Fine e inizio di ogni pezzo del prof
+| Pezzo | Minuto | Prime parole | Ultime parole | Frase intera |
 |---|---|---|---|---|
-| D0 | 0:51–1:10 | Buongiorno e benvenuti alla lezione su | dissacranti appunto della letteratura italiana. del Novecento. Analizziamo. | sì |
-| D1 | 1:13–5:04 | Ecco appunto una sua fotografia. Analizziamo | costruirsi un'altra vita, una nuova vita, se vogliamo. | sì |
-| D2 | 6:57–8:56 | Nella capitale l'impatto con i duri | potrebbe potremmo rubricarlo il suo... il suo impegno. | sì |
-| D3 | 10:44–15:10 | Andiamo avanti. Intorno al millovecentosanta, periodo | But Come dire. diversa e un po' fastidiosa. | sì |
+| D0 | 0:51–1:13 | Buongiorno e benvenuti alla lezione su | del Novecento. Analizziamo. Ecco appunto una sua fotografia. | sì |
+| D1 | 1:16–5:04 | Analizziamo la sua biografia, cerchiamo di | costruirsi un'altra vita, una nuova vita, se vogliamo. | sì |
+| D2 | 6:57–8:56 | Nella capitale l'impatto con i duri | potrebbe potremmo rubricarlo il suo… impegno. | sì |
+| D3 | 10:44–15:10 | Andiamo avanti. Intorno al millenovecentosessanta, periodo | diversa e un po' fastidiosa. | sì |
 | D4 | 17:18–21:18 | Allora ripercorriamo, dopo aver visto velocemente | Officina. Quella di vista di cui abbiamo parlato. | sì |
-| D5 | 24:24–27:49 | Poi c'è anche la narrativa, certamente. | o scritti corsali del 1975, 5, d'accordo. d'accordo, | sì (taglio dopo «d'accordo.», prima di «possiamo andare») |
-| D6 | 30:37–32:42 | possiamo andare pure su questi. Nelle | intellettuali più lucidi, tormentati e provocatori. del novecento. | sì |
+| D5 | 24:24–27:49 | Poi c'è anche la narrativa, certamente. | o Scritti corsari del 1975, d'accordo. | sì |
+| D6 | 30:37–32:42 | possiamo andare pure su questi. Nelle | intellettuali più lucidi, tormentati e provocatori. del Novecento. | sì |
 
-Prima i raccordi D1/D2 («…tentò di | costruirsi…»), D2/D3 («…il suo | impegno») e D3/D4 («…un po’ | fastidiosa») erano tagliati a metà frase e D5/D6 ripeteva «d'accordo» (1,95 s). I tagli sono ora su pause misurate (−50…−66 dB).
+(D5 ripete «d'accordo»: il taglio cade dopo «d'accordo.» e il pezzo successivo parte da «possiamo andare…».)
 
-## 5. Secondi vecchio → nuovo (la durata è cambiata)
-| Scheda | vecchio (s) | nuovo (s) |
-|---|---|---|
-| Q1 | 481.7 | 411.2 |
-| Q2 | 779.0 | 638.1 |
-| Q3 | 1239.4 | 1032.2 |
-| Q4 | 1746.2 | 1457.8 |
-| Q5 | 2190.6 | 1830.9 |
-| Q6 | 2490.4 | 2067.4 |
-| VER | 2693.8 | 2304.4 |
-| CI1 | 2707.0 | 2312.2 |
-
-`scheda_pubblicazione.json` (`inizio_s`, `quiz_s`, `durata_s` = 2318,23) e `quiz_argomenti.json` sono aggiornati; la master rigenera la pagina.
+## 5. Secondi vecchio → nuovo
+`timeline.json`, `scheda_pubblicazione.json` (`inizio_s`, `quiz_s`, `durata_s` = 2320,83) sono sui secondi del video finale. Rispetto alla versione del 17/11 (38:38,2): la mappa del prof dura 1:52 (prima 1:47) con 4,5 s di mappa intera, il glossario ha 6 termini, il taglio D0/D1 aggiunge 3,6 s.
 
 ## 6. DA CONFERMARE COL PROF
-- Mappa: «dopo l'**8 settembre 1943** si rifugia a Casarsa»; slide e lezione dicono «dal **1942** vive a Casarsa». Nel video restano mappa (voce R2) e slide come sono.
+- Mappa: «dopo l'**8 settembre 1943** si rifugia a Casarsa»; slide e parlato: «dal **1942** vive a Casarsa». Restano come li dice il prof.
 - Mappa: «muore assassinato **a Roma**»; slide: «presso **Ostia**».
-- Parlato 1:18: «Ecco appunto una **sua fotografia**» ma nelle sue slide non c'è nessuna foto (non è nei materiali; non si scaricano foto): non risolvibile, parla il prof.
-- Nomi dubbi nella trascrizione del parlato: «Silone» (tra Verga e Pavese) e «a Marx» (prima «a Marshall»): **da riascoltare**.
-- La mappa del prof è una sola (non una per argomento): nel video una sola mappa, a fine lezione.
+- Mappa: «della **società dei consumi**» (così nell'originale, riportato identico).
+- Parlato 1:18: «una sua fotografia» ma nelle sue slide non c'è nessuna foto (non si scaricano foto): non risolvibile.
+- Nomi dubbi nella trascrizione: «Silone» (tra Verga e Pavese), «a Marx» (prima «a Marshall»): da riascoltare.
+- Refusi dei file del prof: nessuno corretto sul file originale (non si tocca); nelle nostre slide ho sistemato «Casarsa/…» maiuscole e accenti; nel PDF «–» e «·» compaiono come «-» nel solo strato di testo invisibile.
 
-## 7. Cosa NON ho verificato (non verificato)
-- **Pronuncia della voce Kore** (Accattone, Officina, Decameron…): nessun ascolto umano. La trascrizione automatica sulla voce RF1 ha letto «E a Cattone» al minuto 44:27 del vecchio video: **da riascoltare**.
-- **Sottotitoli del prof parola per parola**: trascrizione automatica buona ma non perfetta; alcuni tratti poco intelligibili sono stati tolti o corretti a senso. Vanno riletti all'ascolto.
-- **Testa nel riquadro**: nell'originale il prof è una webcam di 245×138 px con i capelli a contatto del bordo alto; il ritaglio 4:3 (184×138 px ingrandito 2,2×) è morbido e la testa tocca il bordo. Non risolvibile.
-- Sincronia card/parlato: misurata con i tempi parola per parola (stima ±1 s), non con riascolto.
-- Pagine del libro: la lezione non ne ha (B-bis non applicabile).
-
-- **Regola pronuncia (aggiornamento 08:45):** nella lezione non ci sono nomi latini come «Aracoeli». Le voci nuove R1 e R2 contengono nomi propri (Pasolini, Casarsa, Accattone, La Ricotta, Alì dagli occhi azzurri, Corriere della Sera, Canterbury nelle voci vecchie); ne ho confrontato la trascrizione automatica col testo e le differenze sono solo «Pierpaolo», «Poesia/Poesie a Casarsa» e «Ali/Alì», che non provano un errore di Kore. **Non ho potuto ascoltarle**: da ascoltare e, se sbagliate, rigenerare con R3… scrivendo il nome come si pronuncia.
-
-## 8. Come ho verificato
-Trascrizione parola per parola (`trascrivi.py`), OCR dei fotogrammi del video vecchio, correlazione audio per allineare il prof all'originale, `freezedetect`, `silencedetect`, `ebur128`, `controllo_jingle.py`, confronto pixel di ogni pagina PDF col fotogramma, contact sheet `controllo_minuti.jpg` (1 fotogramma ogni 30 s).
+## 7. Cosa NON ho verificato
+- **Pronuncia della voce Kore** (R1, R2, voci già fatte): nessun ascolto umano; trascrizione automatica: R2 e R1 hanno anni e numeri giusti e frasi complete (agente di controllo). Un solo dubbio: «Alì dagli occhi azzurri» trascritto «Alida/Ali…» da riascoltare; «Accattone» trascritto «A cattone» in tutte le voci (probabile errore del trascrittore).
+- **Pause del prof fra 2,2 e 2,6 s** (D4, 18:41 e 19:39): non accorciate, perché cadono dove la slide e il riquadro non permettono un taglio pulito senza toccare il video del prof; sotto 2,5 s alla soglia −45 dB.
+- Parlato del prof parola per parola nei sottotitoli: trascrizione automatica, alcuni tratti poco intelligibili (es. «era una cosa non», tolta).
+- Testa nel riquadro: la webcam originale è 245×138 px con i capelli a contatto del bordo alto; ritaglio 4:3 ingrandito 2,2×, morbido. Non risolvibile.
+- Sigla (fondo nero) e sigla finale (fondo nero): sono i file del kit.
+- Pagine del libro: la lezione non ne ha.
