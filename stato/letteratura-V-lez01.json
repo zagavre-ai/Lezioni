@@ -1,14 +1,18 @@
 {
  "tag": "letteratura-V-lez01",
- "parti": {},
- "manca": "",
+ "parti": {
+  "1": {
+   "stato": "IN_REVISIONE"
+  }
+ },
+ "manca": "consegna prevista 19:30 UTC (20:30 Italia)",
  "serve_master": [],
  "domande_sara": [],
  "note": [
   {
-   "quando": "17/11 17:19",
-   "testo": "17:19UTC: riletti gli aggiornamenti fino a 10:19: nessuna regola nuova per la lezione 1 (Aracoeli e ritocchi di 15, 7, 21 non la riguardano). Lezione già consegnata e REVISIONATA sul ramo revisione-letteratura-V-lez01; resta da guardare il controllo sottotitoli (68%)."
+   "quando": "22/11 16:36",
+   "testo": "correzioni 22/11: presa da revisione-letteratura-V-lez01 (16:40 UTC). Consegna prevista 19:20 UTC. Stato ogni 30 min"
   }
  ],
- "aggiornato": "2026-11-17 17:19:17"
+ "aggiornato": "2026-11-22 16:36:54"
 }
