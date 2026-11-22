@@ -41,7 +41,8 @@ Valgono per **tutte le materie e tutte le lezioni**. Non si discutono e non si c
 5. **Transizioni:** `trans.wav` più una dissolvenza di 0,3–1 s a **ogni** cambio di pezzo. Mai un taglio secco, mai una scheda in silenzio.
 6. **Durata:**
    - ogni Parte dura 50–60 minuti; fino a circa 65 resta una sola Parte;
-   - oltre i 65 si divide alla fine di un argomento, e la Parte 2 si apre con il ripasso della Parte 1;
+   - oltre i 65 si divide alla fine di un argomento;
+   - **ogni Parte dopo la prima si apre con lo «spiegone»**: dopo la sigla, un ripasso animato con voce Kore di tutto quello che si è visto nella Parte precedente, argomento per argomento, con le immagini e le mappe di quella Parte;
    - una lezione più corta di 50 minuti con il solo materiale suo **va bene**: non si allunga e non si inventa.
 7. **Le aggiunte vengono solo dal materiale della lezione stessa:** niente argomenti di altre lezioni.
 8. **Immagini negli inserti animati:**
@@ -145,6 +146,7 @@ Il controllo lo fa **un agente separato**, che non ha montato la lezione. I dife
 - [ ] Glossario presente; quiz da 5 domande con scatto a 0,0 s; verifica di sbarramento e compiti dentro il video.
 - [ ] Voci intere: trascritte, numeri giusti, bordi sotto 0,03.
 - [ ] Copertina con titolo esatto; introduzione del docente al massimo 3 minuti; nessun titolo sotto il riquadro.
+- [ ] Lezioni in più Parti: ogni Parte dopo la prima si apre con lo spiegone della Parte precedente.
 - [ ] Volume −16 LUFS ±1; fotogrammi = durata × 30; peso sotto 400 MB.
 - [ ] Nessun numero di lezione, nessun nome di programma, fondo bianco.
 - [ ] Nessun riquadro del docente (nemmeno vuoto) nell'introduzione animata; nome del docente mai detto o scritto nelle animazioni.
