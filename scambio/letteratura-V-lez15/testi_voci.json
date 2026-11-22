@@ -138,5 +138,15 @@
   "nome": "VF1",
   "testo": "Verifica finale. Rispondi alle dieci domande: per concludere serve almeno l'ottanta per cento.",
   "lingua": "it"
+ },
+ {
+  "nome": "CP3_R2",
+  "testo": "Esercizio due. In che modo il regime fascista consolida la dittatura tra il millenovecentoventicinque e il millenovecentoventisei e attraverso quali strumenti organizza il controllo della società, della cultura e della lingua italiana?",
+  "lingua": "it"
+ },
+ {
+  "nome": "CP5_R2",
+  "testo": "Esercizio quattro. Confronta le scelte narrative e i temi principali di Ignazio Silone, Fontamara, e Dino Buzzati, Il deserto dei Tartari, spiegando in che modo ciascuno dei due rappresenta la realtà o la condizione umana del proprio tempo.",
+  "lingua": "it"
  }
 ]
