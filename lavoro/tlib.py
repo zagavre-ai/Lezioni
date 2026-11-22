@@ -30,9 +30,9 @@ html,body{{margin:0;width:1920px;height:1080px;background:#fff;overflow:hidden;f
 .nome{{position:absolute;left:1428px;top:476px;width:412px;height:98px;background:{GIALLO};transform:rotate(-1.4deg);padding:14px 24px;
   box-shadow:0 10px 24px rgba(71,85,105,.30);border-radius:4px}}
 .nome .n{{font:800 30px/1.15 Bri;color:{NAVY}}} .nome .m{{font:700 20px/1.3 Fig;letter-spacing:.06em;color:{NAVY};margin-top:2px}}
-.kw{{position:absolute;left:1428px;top:640px;width:412px}}
+.kw{{position:absolute;left:1428px;top:606px;width:412px}}
 .kw h4{{margin:0 0 12px;font:700 20px Fig;letter-spacing:.16em;color:{BLU}}}
-.kw div{{font:600 28px/1.25 Fig;color:{NAVY};background:#F1F5FB;border-left:6px solid {BLU};border-radius:8px;padding:8px 14px;margin-bottom:10px}}
+.kw div{{font:600 26px/1.2 Fig;color:{NAVY};background:#F1F5FB;border-left:6px solid {BLU};border-radius:8px;padding:6px 14px;margin-bottom:8px}}
 '''
 def esc(s): return html.escape(s,quote=False)
 _fm={}
@@ -51,10 +51,27 @@ def nlines(testo,width=1305-92,size=40,bold_lead=None):
         else:x+=wd
     return righe
 def card_h(c): return nlines(c['testo'],bold_lead=c.get('lead'))*60+28+4
-def card_inner(c):
-    t=esc(c['testo']);l=c.get('lead')
-    if l and t.startswith(esc(l)): t='<b>'+esc(l)+'</b>'+t[len(esc(l)):]
-    return t
+import re
+def chunks(c):
+    """frasi/segmenti della card dopo il titoletto (per le evidenze)"""
+    t=c['testo'];l=c.get('lead') or '';r=t[len(l):] if t.startswith(l) else t
+    parts=re.split(r'(?<=[,;:.])\s+',r.strip());parts=[p for p in parts if p]
+    # unisci pezzi troppo corti (<18 caratteri) al successivo
+    out=[]
+    for p in parts:
+        if out and len(out[-1])<22: out[-1]+=' '+p
+        else: out.append(p)
+    if len(out)>1 and len(out[-1])<22: out[-2]+=' '+out.pop()
+    return out
+def card_inner(c,ev=None):
+    l=c.get('lead') or '';t=c['testo']
+    if l and t.startswith(l):
+        head='<b>'+esc(l)+'</b>';rest=t[len(l):].strip()
+    else: head='';rest=t
+    if ev is None or not rest: return head+(' ' if head and rest and rest[0] not in ',;.' else '')+esc(rest)
+    ch=chunks(c);out=[]
+    for i,p in enumerate(ch): out.append(f'<mark>{esc(p)}</mark>' if i==ev else esc(p))
+    return head+(' ' if ch and ch[0][0] not in ',;.' else '')+' '.join(out)
 def head(label,title,pagina,materia=MATERIA):
     return f'''<img class="logo" src="{LOGO}"><div class="hl"></div><div class="lab">{esc(label)}</div><div class="tit">{esc(title)}</div>
 <div class="fl"></div><div class="ft">{esc(materia)}</div><div class="pg">Pagina {pagina}</div>'''
@@ -79,17 +96,51 @@ def finestra(cards,k,title,maxn=3):
     top,H=area(title);idx=[k];h=card_h(cards[k])
     while len(idx)<maxn:
         for cand in (max(idx)+1,min(idx)-1):
-            if 0<=cand<len(cards) and cand not in idx and h+22+card_h(cards[cand])<=H:
-                idx.append(cand);h+=22+card_h(cards[cand]);break
+            if 0<=cand<len(cards) and cand not in idx and h+18+card_h(cards[cand])<=H:
+                idx.append(cand);h+=18+card_h(cards[cand]);break
         else:break
     return sorted(idx)
-def slide_cards(label,title,pagina,cards,cur,kw,cam=True,**k):
+def slide_cards(label,title,pagina,cards,cur,kw,cam=True,ev=None,**k):
     """cards: lista completa; cur: indice acceso. Mostra una finestra di al massimo 3 card che contiene la corrente."""
     top,H=area(title);idx=finestra(cards,cur,title) if cur is not None else finestra(cards,0,title)
     body=head(label,title,pagina);y=top
     for i in idx:
         c=cards[i];h=card_h(c)
-        body+=f'<div class="card{" on" if i==cur else ""}" style="top:{y}px;min-height:{h}px">{card_inner(c)}</div>'
-        y+=h+22
+        body+=f'<div class="card{" on" if i==cur else ""}" style="top:{y}px;min-height:{h}px">{card_inner(c,ev if i==cur else None)}</div>'
+        y+=h+18
     body+=prof_col(kw,cam)
     return page(body),idx
+
+def lista_argomenti(args,dim=False):
+    """card con l'elenco degli argomenti (copertina / Di cosa parliamo)"""
+    h=''
+    for i,(n,t) in enumerate(args):
+        h+=f'<div class="arg"><span>{n}</span>{esc(t)}</div>'
+    return h
+COVER_CSS='''
+.arg{display:flex;align-items:center;gap:22px;font:600 38px/1.2 Fig;color:#0B1530;margin:0 0 18px}
+.arg span{flex:none;width:56px;height:56px;border-radius:50%;background:#2060AF;color:#fff;font:800 30px/56px Bri;text-align:center}
+.box{position:absolute;left:80px;width:1305px;background:#F7F9FC;border:2px solid #E2E8F0;border-radius:22px;padding:30px 40px;box-shadow:0 12px 30px rgba(71,85,105,.16)}
+.box h5{margin:0 0 20px;font:700 22px Fig;letter-spacing:.16em;color:#2060AF}
+.big{position:absolute;left:80px;top:230px;width:1300px;font:800 104px/1.04 Bri;color:#0B1530}
+.und{position:absolute;left:80px;width:120px;height:8px;background:#2060AF;border-radius:4px}
+'''
+def copertina(titolo,args,cam,parte=None):
+    n=len(args);y=470
+    body=f'<img class="logo" src="{LOGO}"><div class="hl"></div><div class="lab">STORIA · VIDEOLEZIONE{(" · PARTE "+str(parte)) if parte else ""}</div>'
+    body+=f'<div class="big">{esc(titolo)}</div><div class="und" style="top:436px"></div>'
+    body+=f'<div class="box" style="top:470px"><h5>ARGOMENTI</h5>{lista_argomenti(args)}</div>'
+    body+=f'<div class="fl"></div><div class="ft">STORIA</div><div class="pg">Pagina 1</div>'+prof_col(None,cam)
+    return page(body,COVER_CSS)
+def di_cosa_parliamo(args,pagina,cam=True):
+    body=head('STORIA · VIDEOLEZIONE','Di cosa parliamo',pagina)
+    body+=f'<div class="box" style="top:300px"><h5>ARGOMENTI</h5>{lista_argomenti(args)}</div>'+prof_col(None,cam)
+    return page(body,COVER_CSS)
+IMG_CSS='''
+.im{position:absolute;left:80px;top:300px;width:1305px;height:640px;display:flex;align-items:center;justify-content:center;background:#fff;border-radius:22px;box-shadow:0 12px 30px rgba(71,85,105,.16);overflow:hidden}
+.im img{max-width:100%;max-height:100%;object-fit:contain}
+.dd{position:absolute;left:80px;top:945px;width:1305px;font:600 26px/1.25 Fig;color:#0B1530}
+'''
+def slide_img(label,title,pagina,img,did,kw,cam=True):
+    body=head(label,title,pagina)+f'<div class="im" style="height:560px"><img src="file://{img}"></div><div class="dd" style="top:872px"><b style="color:#2060AF">{esc(title).upper()}</b> · {esc(did)}</div>'+prof_col(kw,cam)
+    return page(body,IMG_CSS)

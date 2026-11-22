@@ -44,15 +44,18 @@ def pezzo_prof(nome,ranges,stati_src,out,gain_db=0.0,cam=True):
         else: st.append((f,png))
     if st[0][0]!=0: st.insert(0,(0,st[0][1]))
     lst=f'{B}/{nome}_slide.txt';slide_list(st,tot,lst)
+    base=max(0.0,mp[0][0]-2.0)
     fc=[];v=[];a=[]
     for i,(s0,s1,o,n) in enumerate(mp):
-        fc.append(f"[0:v]trim=start={s0:.5f}:end={s1:.5f},setpts=PTS-STARTPTS,crop=184:138:31:0,fps=30[v{i}]")
+        s0,s1=s0-base,s1-base
+        fc.append(f"[0:v]trim=start={s0:.5f}:end={s1:.5f},setpts=PTS-STARTPTS,crop=184:138:877:343,fps=30[v{i}]")
         fc.append(f"[0:a]atrim=start={s0:.5f}:end={s1:.5f},asetpts=PTS-STARTPTS,aresample=48000[a{i}]")
         v.append(f'[v{i}]');a.append(f'[a{i}]')
     fc.append(''.join(v)+f"concat=n={len(mp)}:v=1:a=0,scale=412:309:flags=lanczos,unsharp=5:5:0.6:5:5:0,format=rgb24[cam]")
     fc.append(''.join(a)+f"concat=n={len(mp)}:v=0:a=1,{AF_PROF},volume={gain_db}dB,alimiter=limit=0.89[aud]")
-    fc.append("[2:v]loop=-1:1,format=gray[m];[cam][m]alphamerge[camm]" if False else "[1:v]fps=30,format=rgb24[bg]")
-    fc.append("[bg][cam]overlay=1428:148:format=auto:shortest=1,format=yuv420p[vo]" if cam else "[bg]format=yuv420p[vo]")
-    c=['ffmpeg','-v','error','-y','-i',SRC,'-f','concat','-safe','0','-i',lst,'-filter_complex',';'.join(fc),'-map','[vo]','-map','[aud]','-frames:v',str(tot),
+    fc.append("[1:v]fps=30,format=rgb24[bg]")
+    fc.append("[2:v]format=gray[m];[cam][m]alphamerge[camm]")
+    fc.append("[bg][camm]overlay=1428:148:format=auto:shortest=1,format=yuv420p[vo]" if cam else "[bg]format=yuv420p[vo]")
+    c=['ffmpeg','-v','error','-y','-ss',f'{base:.3f}','-to',f'{mp[-1][1]+1.0:.3f}','-i',SRC,'-f','concat','-safe','0','-i',lst,'-loop','1','-i',maschera(),'-filter_complex',';'.join(fc),'-map','[vo]','-map','[aud]','-frames:v',str(tot),
        '-c:v','libx264','-preset','veryfast','-crf','14','-pix_fmt','yuv420p','-r','30','-c:a','pcm_s16le','-ar','48000',out]
     sh(c);return tot/FPS
