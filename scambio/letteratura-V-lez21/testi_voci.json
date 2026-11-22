@@ -163,5 +163,35 @@
   "nome": "M4b",
   "testo": "La mappa concettuale del professore, per il quarto argomento: le opere narrative. Il ramo dei romanzi, in ordine. Paesi tuoi, 1941. La spiaggia, 1942. Dialoghi con Leucò, 1947. Il compagno, 1947. La casa in collina, 1948. Il carcere, 1948. La bella estate, 1949. La luna e i falò, 1950.",
   "lingua": "it"
+ },
+ {
+  "nome": "MR1",
+  "testo": "La mappa concettuale del professore. Al centro: Cesare Pavese, millenovecentotto, millenovecentocinquanta. Scrittore, poeta, critico letterario, traduttore, insegnante. Primo ramo: la vita. Millenovecentotto: nasce a Santo Stefano Belbo, nelle Langhe, in Piemonte. A cinque anni rimane orfano di padre. Si trasferisce a Torino con la famiglia.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MR2",
+  "testo": "Millenovecentotrenta: si laurea in Lettere e Filosofia. Attività antifascista attiva. Millenovecentotrentacinque: arrestato e confinato in Calabria. Millenovecentotrentasei: torna a lavorare come redattore per Einaudi.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MR3",
+  "testo": "Dopo l'otto settembre millenovecentoquarantatré vive nascosto dalla sorella nel Monferrato. Dopo la fine della guerra, collabora con L'Unità. Millenovecentocinquanta: muore suicida. Secondo ramo: il linguaggio. Semplice ed essenziale, con elementi dialettali.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MR4",
+  "testo": "Terzo ramo: le tematiche. Il ricordo dell'infanzia e del mondo contadino nelle Langhe. La Resistenza partigiana. Alienazione, solitudine e malinconia.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MR5",
+  "testo": "Quarto ramo: le opere. Le poesie: Lavorare stanca, millenovecentotrentasei. Verrà la morte e avrà i tuoi occhi, millenovecentocinquantuno. Il diario: Il mestiere di vivere, dal millenovecentotrentacinque al millenovecentocinquanta.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MR6",
+  "testo": "I romanzi, in ordine. Paesi tuoi, millenovecentoquarantuno. La spiaggia, millenovecentoquarantadue. Dialoghi con Leucò, millenovecentoquarantasette. Il compagno, millenovecentoquarantasette. La casa in collina, millenovecentoquarantotto. Il carcere, millenovecentoquarantotto. La bella estate, millenovecentoquarantanove. La luna e i falò, millenovecentocinquanta.",
+  "lingua": "it"
  }
 ]
