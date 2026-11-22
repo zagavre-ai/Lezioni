@@ -32,6 +32,10 @@
   {
    "quando": "22/11 16:39",
    "testo": "correzioni 22/11 lez21: servono voci Kore MR1..MR6 (mappa unica del prof letta ramo per ramo, numeri in lettere) in testi_voci.json sul ramo voci-letteratura-V-lez21, per favore con priorita'. Intanto rifaccio slide e montaggio."
+  },
+  {
+   "quando": "22/11 17:17",
+   "testo": "lez21: urgente voci MR1..MR6 (ramo voci-letteratura-V-lez21, testi_voci.json) per la mappa unica; sono ferma su quella. Se non arrivano entro le 18:15 UTC rischio la scadenza."
   }
  ],
  "domande_sara": [],
@@ -83,7 +87,11 @@
   {
    "quando": "22/11 16:45",
    "testo": "correzioni 22/11 (16:55 UTC): slide rifatte a 40 px, max 3 card intere, nessuna slide oltre 3 min, una sola mappa del prof (BES) in costruzione; codifica pezzi in corso; attendo voci MR1-MR6 dalla master. Consegna prevista entro le 19:30 UTC."
+  },
+  {
+   "quando": "22/11 17:17",
+   "testo": "correzioni 22/11 (17:20 UTC): slide a 40 px con max 3 card intere, nome del prof tolto dai piè di pagina delle schede animate, codifica pezzi in corso (42 da rifare). MANCANO le voci Kore MR1-MR6 (mappa unica) richieste alle 16:45: senza di loro non posso chiudere la mappa. Consegna prevista 19:30 UTC se le voci arrivano entro le 18:15."
   }
  ],
- "aggiornato": "2026-11-22 16:45:40"
+ "aggiornato": "2026-11-22 17:17:34"
 }
