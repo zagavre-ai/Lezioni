@@ -14,6 +14,10 @@
   {
    "quando": "22/11 13:53",
    "testo": "TEC-A lez01, BLOCCO UNICO sul ramo voci-moda-tecnologie-III-lez01 (scambio/moda-tecnologie-III-lez01): testi_voci.json con 184 voci (Parte 1 e 2 insieme, circa 9000 parole) e immagini.json con 20 acquerelli (12 + 8). Note per Kore: le voci A??_APPROF vanno VIVACI (sono le curiosità con domanda iniziale, circa 40-50 s); le altre in tono chiaro e fermo. Nei testi 'U E' e 'I W T O' sono scritti così per la pronuncia (sulla grafica sono UE e IWTO). Termini inglesi da leggere all'italiana dove possibile: man-made, lambswool, hanks, kid mohair. 'Bombix mori' e' scritto come nel PDF della prof (probabile refuso per Bombyx: lo lascio com'e', da segnalare a Sara). Decisioni mie per applicare le REGOLE_BLINDATE: (1) divisione in Parte 1 = argomenti 1-6 e Parte 2 = argomenti 7-10 con ripasso della Parte 1 in apertura; (2) niente mappe della prof per Tecnologie lez01, le costruisco con le sue parole e lo dichiaro nel rapporto; (3) il titolo della copertina e' 'Preparazione' come sulla sua prima slide (la prof scrive anche 'parte I'; se Sara preferisce 'Preparazione · parte I' dimmelo); (4) il suo PDF e la sua voce non sono sempre allineati (parafrasa): le card seguono il suo testo scritto e si accendono dove lei dice quella frase."
+  },
+  {
+   "quando": "22/11 13:55",
+   "testo": "TEC-A lez01: CORREZIONE alla divisione in Parti. Dopo l'accorciamento delle pause la parte della prof dura 73,5 min; con titoli, approfondimenti, mappe, ripassi e 10 quiz da 5 domande, glossario, ripasso finale, mappa finale, verifica di 20 domande e compiti la lezione arriva a circa 150 min. In 2 Parti verrebbero 75 min l'una (fuori regola, max 65). Faccio 3 Parti da 50-54 min circa: Parte 1 = argomenti 1-4, Parte 2 = argomenti 5-8, Parte 3 = argomenti 9-10 + glossario, ripasso, mappa finale, verifica, compiti. Se preferisci 2 Parti dimmi quali tagli fare (decide Sara). Ho aggiornato testi_voci.json sul ramo voci (188 voci): NUOVE P1_BENVENUTO_V2, P1_CHIUSURA_V2, P2_BENVENUTO, P2_RIPASSO_V2, P2_CHIUSURA_V2, P3_BENVENUTO, P3_RIPASSO_V2. OBSOLETE (ignorale): P1_BENVENUTO, P1_CHIUSURA, P2_RIPASSO_P1. Le altre voci non sono cambiate. Prenotate anche lez02 e lez03 (IN_REVISIONE), scarico e trascrizione in corso."
   }
  ],
  "domande_sara": [],
@@ -25,5 +29,5 @@
  ],
  "materia": "Tecnologie dei materiali e dei processi produttivi e organizzativi della moda",
  "docente": "Prof.ssa Piera Caputi",
- "aggiornato": "2026-11-22 13:53:27"
+ "aggiornato": "2026-11-22 13:55:32"
 }
