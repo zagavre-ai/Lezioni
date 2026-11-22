@@ -480,7 +480,7 @@
  },
  {
   "nome": "SP_0",
-  "testo": "Prima di cominciare la seconda parte, ripassiamo insieme la prima. Tre argomenti: gli Stati Uniti dopo l'undici settembre, il Medio Oriente e il Nord Africa, la crisi economica con Obama e Trump."
+  "testo": "Prima di cominciare la seconda parte, ripassiamo insieme la prima. Quattro argomenti: gli Stati Uniti dopo l'undici settembre, il Medio Oriente e il Nord Africa, la crisi economica con Obama e Trump, e il mondo multipolare."
  },
  {
   "nome": "SP_1",
@@ -496,7 +496,7 @@
  },
  {
   "nome": "SP_4",
-  "testo": "Con questo ripasso sei pronto per la seconda parte: il mondo multipolare, l'Europa, l'Italia e le questioni aperte."
+  "testo": "Con questo ripasso sei pronto per la seconda parte: l'Europa, l'Italia e le questioni aperte."
  },
  {
   "nome": "AP3_0_R2",
@@ -593,5 +593,13 @@
  {
   "nome": "PI1_R2",
   "testo": "Facciamo un riepilogo di quello che hai appena visto: Gli USA dopo l'11 settembre. Guarda lo schema e ripeti ad alta voce."
+ },
+ {
+  "nome": "BEN1_R3",
+  "testo": "Benvenuti alla lezione di Storia. Oggi parliamo del mondo dal duemilauno ad oggi. In questa prima parte vediamo quattro argomenti: gli Stati Uniti dopo l'undici settembre, il Medio Oriente e il Nord Africa, la crisi economica con le presidenze di Obama e di Trump, e il mondo multipolare."
+ },
+ {
+  "nome": "BEN2_R3",
+  "testo": "Benvenuti alla seconda parte della lezione sul mondo dal duemilauno ad oggi. Vediamo tre argomenti: l'Europa tra crisi e secessioni, l'Italia nel ventunesimo secolo e le questioni aperte dell'attualità. Alla fine trovi il glossario, il ripasso e la verifica finale."
  }
 ]
