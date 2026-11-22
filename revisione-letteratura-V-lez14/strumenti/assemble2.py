@@ -1,7 +1,7 @@
 import json,sys,os,subprocess,numpy as np,wave
-P=int(sys.argv[1]);W=f'/tmp/w14/as{P}';os.makedirs(W,exist_ok=True)
+P=int(sys.argv[1]);W=f'/tmp/w14/aq{P}';os.makedirs(W,exist_ok=True)
 TL=json.load(open(f'/tmp/w14/tl{P}.json'));OLD=f'/tmp/w14/P{P}.mp4'
-PLN=json.load(open(f'/tmp/w14/dn{P}/plan.json'))['plan']
+PLN=json.load(open(f'/tmp/w14/dq{P}/plan.json'))['plan']
 TOT={1:90226,2:87491}[P]
 MAPS={1:{'AN03','AN06','AN09','AN11','AN12'},2:{'AN02','AN04','AN06','AN08','AN10','AN12','AN13'}}[P]
 R1='/tmp/w14/voci/scambio/letteratura-V-lez14/vox/R1.wav'
@@ -40,6 +40,8 @@ def mixjingle(g,kind,gapf):
     return np.clip(out,-32768,32767).astype(np.int16)
 def addpiece(name,vfile,nfr,audio,gapf,gapaud,oldname,oldstart):
     global cur,prevf
+    audio=np.clip(audio.astype(float)*(1.084 if oldname in PLN else 0.75),-32768,32767).astype(np.int16)
+    gapaud=np.clip(gapaud.astype(float)*0.75,-32768,32767).astype(np.int16)
     if prevf is not None and gapf>0:
         a=edge(prevf,'last');b=edge(vfile,'first');o=f'{W}/dis_{len(seq)}.mp4';D=gapf/30
         sh(['ffmpeg','-v','error','-y','-loop','1','-framerate','30','-t',f'{D+0.1:.3f}','-i',a,'-loop','1','-framerate','30','-t',f'{D+0.1:.3f}','-i',b,'-filter_complex',f'[0][1]xfade=transition=fade:duration={D:.4f}:offset=0,format=yuv420p','-frames:v',str(gapf),*ENC,o])
@@ -58,7 +60,7 @@ for i,(n,f0,f1) in enumerate(old):
     pf1=old[i-1][2] if i>0 else f0
     gapf=f0-pf1;gapaud=A[pf1*1600:f0*1600]
     if n in PLN:
-        p=PLN[n];vf=f'/tmp/w14/dn{P}/{n}.mp4';nf=p['nf']
+        p=PLN[n];vf=f'/tmp/w14/dq{P}/{n}.mp4';nf=p['nf']
         c0=int(round(p['s0']*48000));seg=C[c0:c0+nf*1600]
         if len(seg)<nf*1600: seg=np.pad(seg,(0,nf*1600-len(seg)))
         audio=np.stack([seg,seg],1);addpiece(n,vf,nf,audio,gapf,gapaud,n,TL[i][1])

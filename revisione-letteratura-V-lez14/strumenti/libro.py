@@ -36,3 +36,17 @@ def stato(n,a,b,win=8,thr=9):
 if __name__=='__main__':
     for n,(a,b) in {'C':(2728,3145.5),'B':(3145.5,3860)}.items():
         r=stato(n,a,b);print(n,len(SL[n]),[(round(x),round(y),k,SL[n][k]['p']) for x,y,k in r])
+
+def stato2(n,a,b,win=90):
+    """una fettina diversa almeno ogni 90 s: in avanti nell'ordine del brano, guidata dal testo citato (stima)"""
+    S=ST[n];cur=0;res=[];t=a
+    while t<b-1:
+        e=min(b,t+win)
+        ws={s for tt,s in words if t<=tt<e and s not in STOP}
+        sc=[len(ws&k) for k in S]
+        cand=[i for i in range(cur,min(len(S),cur+4))]
+        best=max(cand,key=lambda i:(sc[i],-i))
+        if t>a and best==cur: best=min(cur+1,len(S)-1)
+        cur=best;res.append([t,e,cur]);t=e
+    if len(res)>1 and res[-1][1]-res[-1][0]<30: res[-2][1]=res[-1][1];res.pop()
+    return res

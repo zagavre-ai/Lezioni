@@ -18,6 +18,10 @@
   {
    "quando": "17/11 07:29",
    "testo": "voce R1 (lettura mappa del prof) in testi_voci.json del ramo voci-letteratura-V-lez14: generarla appena possibile"
+  },
+  {
+   "quando": "22/11 16:37",
+   "testo": "Lez14 (2 Parti, 64 min di parlato): il lavoro 22/11 per me vale circa 5-6 ore, non chiude entro le 19:30 UTC. Cosa posso fare io entro le 19:30: volume -16, copertina max 3 min, slide a 40px max 3 card intere (rifatte), fettine del libro che cambiano ogni <3 min, vtt/timeline/scheda, rapporto. Cosa passerei a un'altra chat: (1) mappa unica del prof in BES ramo per ramo con voce (testi R in lettere, voci da generare, pezzo video + PDF mappe), (2) dispense A4 con testo invisibile e copertine nuove. Nota: sul mio ramo revisione-letteratura-V-lez14 qualcuno ha pushato 'pillole di ripasso inserite' (vtt/scheda/timeline cambiati dopo la mia consegna): le ho unite, ditemi se il video giusto e' quello vostro."
   }
  ],
  "domande_sara": [],
@@ -49,7 +53,11 @@
   {
    "quando": "22/11 16:34",
    "testo": "correzioni 22/11: presa da revisione-letteratura-V-lez14 (16:40 UTC). Consegna entro 19:30 UTC. Prima fase: controllo severo sul video attuale, poi rifacimento slide a 40 px, mappa unica del prof ramo per ramo, copertina max 3 min."
+  },
+  {
+   "quando": "22/11 17:08",
+   "testo": "correzioni 22/11 (17:12 UTC): in codifica D con testo 40px/max 3 card, fettine che cambiano ogni 90 s, copertina 149 s + 'Di cosa parliamo'. Da fare: volume -16, riassemblaggio, vtt/timeline/scheda, PDF con testo invisibile. NON fatto/da altra chat: mappa BES con voce."
   }
  ],
- "aggiornato": "2026-11-22 16:34:08"
+ "aggiornato": "2026-11-22 17:08:45"
 }

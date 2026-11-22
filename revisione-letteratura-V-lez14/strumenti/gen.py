@@ -17,7 +17,7 @@ body{width:1920px;height:1080px;background:#fff;position:relative;overflow:hidde
 .bar{width:85px;height:6px;border-radius:3px;background:#2060AF;margin-top:26px}
 .foot{position:absolute;top:998px;font:700 21px Fig;letter-spacing:2.5px;color:#2060AF}
 .card{background:#fff;border:1px solid #E3E8F0;border-radius:22px;box-shadow:0 10px 30px rgba(11,21,48,.07);padding:26px 38px;font:500 31px/1.38 Fig;color:#0B1530}
-.nc{display:flex;gap:26px;align-items:flex-start}.nc .n{flex:0 0 48px;height:48px;border-radius:24px;background:#E6E9EF;color:#6B7690;font:700 25px/48px Fig;text-align:center;margin-top:2px}.nc.on{border:3px solid #FFE600;padding:24px 36px}.nc.on .n{background:#FFE600;color:#0B1530}
+.nc{display:flex;gap:26px;align-items:flex-start}.nc .n{flex:0 0 56px;height:56px;border-radius:28px;background:#E6E9EF;color:#6B7690;font:700 30px/56px Fig;text-align:center;margin-top:4px}.nc.on{border:3px solid #FFE600;padding:24px 36px}.nc.on .n{background:#FFE600;color:#0B1530}
 .card b{font-weight:700;color:#2060AF}
 .mk{background:linear-gradient(transparent 38%%,#FFE600 38%%,#FFE600 92%%,transparent 92%%);padding:0 3px;margin:0 -3px}
 .box{position:absolute;left:1428px;top:148px;width:412px;height:309px;border-radius:18px;background:#E9EDF3;box-shadow:0 18px 44px rgba(11,21,48,.22)}
@@ -43,15 +43,15 @@ def rich(t,active=False):
         lead=E(m.group(1));cls=' class="mk"' if active else ''
         return f'<b><span{cls}>{lead}</span></b> {E(m.group(2))}'
     return E(t)
-def cards(label,title,items,active=None,pag=1,prof=True,fs=None):
+def cards(label,title,items,active=None,pag=1,prof=True,fs=40,start=0):
     w=1305 if prof else 1760
     body=f'<div style="position:absolute;left:80px;top:146px;width:{w}px"><div class="lab">{E(label)}</div>'
     body+=f'<div class="tit" style="margin-top:34px;font-size:{58 if len(title)>48 else 64}px">{E(title)}</div><div class="bar"></div>'
     body+=f'<div style="margin-top:44px;display:flex;flex-direction:column;gap:22px">'
     for i,t in enumerate(items):
-        st=f' style="font-size:{fs}px"' if fs else ''
+        st=f' style="font-size:{fs}px;line-height:1.5;padding-top:22px;padding-bottom:22px"'
         on=' on' if active==i else ''
-        body+=f'<div class="card nc{on}"{st}><div class="n">{i+1}</div><div>{rich(t,False)}</div></div>'
+        body+=f'<div class="card nc{on}"{st}><div class="n">{start+i+1}</div><div>{rich(t,False)}</div></div>'
     body+='</div></div>'
     return page(body,pag,prof)
 def cover(title,args,pag=1,prof=True):

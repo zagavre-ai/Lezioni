@@ -9,7 +9,7 @@ ARGS={1:['Pirandello e la crisi del primo Novecento',"La visione del mondo e l'u
 def label(P,slide,tf):
     """etichetta '01 · NOME' dall'argomento della slide (tf = tempo nel video della parte)"""
     if P==1:
-        if slide in (2,3,4): n=1 if tf<1289.133 else 2
+        if slide in (2,3,4): n=1 if tf<941.99 else 2
         elif slide==46 or slide==47: n=3
         else: n=4
     else:
@@ -21,8 +21,13 @@ def ensure_png(key,P,pages):
     kind=key['k'];nm=pngname(key);hp=f'/tmp/w14/build/html/{nm}.html'
     if os.path.exists(f'/tmp/w14/build/png/{nm}.png'): return nm
     if kind=='cover': h=gen.cover(f'Luigi Pirandello · Parte {P}',ARGS[P],pag=1)
+    elif kind=='dcp':
+        its=ARGS[P][0:2] if key['part']==0 else ARGS[P][2:4]
+        h=gen.cards('LETTERATURA ITALIANA V · VIDEOLEZIONE','Di cosa parliamo',its,None,pag=key['pag'],start=0 if key['part']==0 else 2)
     elif kind=='cards':
-        s=key['s'];tx=T[str(s)];h=gen.cards(key['lab'],tx[1],tx[2:-1],key['c'],pag=key['pag'])
+        s=key['s'];tx=T[str(s)];its=tx[2:-1];p=key.get('part',0)
+        sub=its[0:2] if p==0 else its[2:3];off=0 if p==0 else 2
+        h=gen.cards(key['lab'],tx[1],sub,key['c']-off,pag=key['pag'],start=off)
     elif kind=='foto':
         h=gen.page(f'<div style="position:absolute;left:80px;top:146px"><div class="lab">{gen.E(key["lab"])}</div><div class="tit" style="margin-top:34px">Luigi Pirandello</div><div class="bar"></div></div><div class="card" style="position:absolute;left:80px;top:420px;width:380px;height:520px;padding:0;overflow:hidden"><img src="file:///tmp/w14/slide2_crop.jpg" style="width:100%;height:100%;object-fit:cover;object-position:top"></div>',key['pag'])
     if kind=='libro':
@@ -48,7 +53,7 @@ def compose(P,name,fin_start,dur,off,s0,f0,f1,pages,trim_s,out):
         tf=a-off
         if P==2 and s==48: s=1
         if s==1:
-            pages.setdefault('cover',1);key={'k':'cover'}
+            pages.setdefault('cover',1);key={'k':'cover','P':P}
         elif s==2: key={'k':'foto','lab':label(P,2,tf),'pag':pages.setdefault(2,len(pages)+1)}
         elif s in ('C','B'): key={'k':'libro','n':s,'i':c,'lab':label(P,s,tf),'pag':pages.setdefault(s,len(pages)+1)}
         else: key={'k':'cards','s':s,'c':c,'lab':label(P,s,tf),'pag':pages.setdefault(s,len(pages)+1)}
