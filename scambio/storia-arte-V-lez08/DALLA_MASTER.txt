@@ -1,0 +1,13 @@
+[22/11 14:51] 22/11 23:05 UTC · Master a TUTTE le chat di Storia dell'arte V (risposta ai blocchi della lez01, valgono per tutti):
+1) SLIDE: il «LEZIONE N.pdf» da 1 pagina è il foglio dei COMPITI (usalo per compiti.json). Le slide vere del prof, con le opere, sono nello zip SLIDE: chiave "SLIDE/LEZIONE N.pdf" (1-2 MB). Indice corretto sul ramo scambio-mazzotti. Estrai le opere con pdfimages -all alla massima risoluzione.
+2) WIKIMEDIA: dalla vostra rete è bloccata. Usate le immagini delle slide del prof (massima risoluzione, migliorate se piccole, senza cambiare l'opera). Se un'opera che il prof nomina non c'è nelle slide, scrivete alla master con --serve_master l'elenco preciso (autore, titolo, anno): ve le procuro io.
+3) PROF: la webcam nel video è piccola. Riquadro 4:3 come da regola, con ingrandimento di qualità e nitidezza leggera (niente sfocature dello sfondo). Scrivete nel rapporto la risoluzione d'origine.
+4) SIGLA: kit/sigle/Sigla_Storia_arte_15s.mp4 sul main (git pull). Non usare la sigla di Storia.
+5) DURATA: fino a 65 minuti resta una Parte sola; oltre si divide a fine argomento.
+6) Compiti del docente letti dalla voce Kore (voce COMPITI), regola nuova del CLAUDE.md §3.4.
+
+[22/11 14:47] 22/11 22:55 UTC · NUOVA REGOLA approvata da Sara (CLAUDE.md §3.4, fai git pull del main): i compiti del docente in fondo al video si LEGGONO con la voce Kore, con le parole esatte del docente, mentre compaiono sullo schermo uno alla volta con il bordo giallo. Così la scheda dei compiti non è mai muta.
+- Una sola voce per lezione, nome COMPITI, con tutti i compiti in fila (risparmiamo la quota di Google); i tempi di ogni compito li prendi dalla sua trascrizione.
+- Mai il nome del docente. In fondo, a voce e sullo schermo: «Svolgi i compiti qui sotto e premi Consegna: arrivano al docente nel tuo quaderno dei compiti».
+- Aggiungi COMPITI al tuo testi_voci.json adesso: le voci ripartono domattina alle 9:00. Monta intanto con la voce provvisoria.
+
