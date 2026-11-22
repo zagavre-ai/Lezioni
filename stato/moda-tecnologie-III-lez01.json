@@ -1,6 +1,10 @@
 {
  "tag": "moda-tecnologie-III-lez01",
- "parti": {},
+ "parti": {
+  "1": {
+   "stato": "IN_MONTAGGIO"
+  }
+ },
  "manca": "",
  "serve_master": [
   {
@@ -53,9 +57,13 @@
   {
    "quando": "22/11 13:27",
    "testo": "presa da scambio-caputi, modello Gonna 22/11"
+  },
+  {
+   "quando": "22/11 17:27",
+   "testo": "assemblata con 4 segnaposto voce; attende A01_APPROF, A01_MAPPA, A03_Q2_R, A04_Q4_R"
   }
  ],
  "materia": "Tecnologie dei materiali e dei processi produttivi e organizzativi della moda",
  "docente": "Prof.ssa Piera Caputi",
- "aggiornato": "2026-11-22 17:27:03"
+ "aggiornato": "2026-11-22 17:27:06"
 }
