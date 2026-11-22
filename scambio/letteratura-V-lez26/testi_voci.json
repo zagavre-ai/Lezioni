@@ -128,5 +128,75 @@
   "nome": "MF",
   "testo": "Concludiamo con la mappa di tutta la lezione, la mappa del professore. Al centro: Italo Calvino, 1923-1985. Il primo ramo è la vita: Cuba, Sanremo, la Resistenza partigiana, la laurea in Lettere, Roma, Torino e Parigi, e la morte a Siena nel 1985. Il secondo ramo è il pensiero: la letteratura come forma di conoscenza del mondo, con la fantasia che collabora con la ragione, e la realtà in continuo movimento. Poi c'è il Calvino saggista e critico letterario. Infine le opere, con la loro varietà di temi e di forme espressive: vicine al neorealismo, sui problemi sociali, fiabe e avventure, fantascienza e combinatorio.",
   "lingua": "it"
+ },
+ {
+  "nome": "MP1",
+  "testo": "Ecco la mappa del professore. Al centro: Italo Calvino, millenovecentoventitré, millenovecentoottantacinque.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP2",
+  "testo": "Il ramo della vita. Nel millenovecentoventitré nasce a Santiago de Las Vegas, a Cuba, dove la famiglia si era trasferita per lavoro. Infanzia e adolescenza a Sanremo, in Liguria. Partecipa alla Resistenza partigiana. Nel millenovecentoquarantasette si laurea in Lettere. Vive a Roma, a Torino e a Parigi. Nel millenovecentoottantacinque muore a Siena, dove stava lavorando per delle conferenze.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP3",
+  "testo": "Il ramo del pensiero. La letteratura è una forma di conoscenza del mondo: la fantasia può collaborare con la ragione. E la nostra realtà è in continuo movimento.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP4",
+  "testo": "Calvino è stato anche saggista e critico letterario.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP5",
+  "testo": "Poi le opere. La loro caratteristica è la varietà di temi e di forme espressive.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP6",
+  "testo": "Vicino al neorealismo: Il sentiero dei nidi di ragno, millenovecentoquarantasette, e Ultimo viene il corvo, millenovecentoquarantanove.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP7",
+  "testo": "Sui problemi sociali: La speculazione edilizia, millenovecentosessantatré, e Marcovaldo, ovvero Le stagioni in città, millenovecentosessantatré.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP8",
+  "testo": "Fiabe e avventure: Il visconte dimezzato, millenovecentocinquantadue; Il barone rampante, millenovecentocinquantasette; Il cavaliere inesistente, millenovecentocinquantanove.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP9",
+  "testo": "Fantascienza: Le cosmicomiche, millenovecentosessantacinque.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MP10",
+  "testo": "Combinatorio: Le città invisibili, millenovecentosettantadue; Il castello dei destini incrociati, millenovecentosettantatré; Se una notte d'inverno un viaggiatore, millenovecentosettantanove.",
+  "lingua": "it"
+ },
+ {
+  "nome": "CP1",
+  "testo": "Primo esercizio. In che modo Italo Calvino affronta il tema della Resistenza nel suo romanzo d'esordio Il sentiero dei nidi di ragno, e quali sono le caratteristiche originali dello sguardo narrativo e della fusione dei generi presenti nell'opera?",
+  "lingua": "it"
+ },
+ {
+  "nome": "CP2",
+  "testo": "Secondo esercizio. Analizza il significato allegorico dei protagonisti nel filone fantastico di Calvino, confrontando la condizione dell'uomo contemporaneo rappresentata nel Visconte dimezzato con la figura dell'intellettuale moderno incarnata da Cosimo nel Barone rampante.",
+  "lingua": "it"
+ },
+ {
+  "nome": "CP3",
+  "testo": "Terzo esercizio. Spiega come si manifesta la critica alla modernità nella produzione realistica di Calvino, facendo riferimento ai temi affrontati in opere come La speculazione edilizia, La nuvola di smog e La giornata d'uno scrutatore.",
+  "lingua": "it"
+ },
+ {
+  "nome": "CP4",
+  "testo": "Quarto esercizio. Illustra l'evoluzione della scrittura di Calvino verso la letteratura combinatoria e il meta-romanzo, soffermandoti sulla struttura e sui significati di opere come Il castello dei destini incrociati, Le città invisibili, Se una notte d'inverno un viaggiatore e sul testamento letterario delle Lezioni americane.",
+  "lingua": "it"
  }
 ]
