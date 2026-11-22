@@ -276,10 +276,6 @@
   "testo": "Ripasso finale della terza parte. Nel millenovecentoquarantatré gli Alleati sbarcano in Sicilia, cade Mussolini e, dopo l'armistizio dell'otto settembre, l'Italia si divide in due. Nasce la Resistenza, guidata dal CLN, cioè dal Comitato di Liberazione Nazionale, e i nazifascisti rispondono con le stragi di civili. Nel millenovecentoquarantaquattro gli Alleati liberano Roma e sbarcano in Normandia; il venticinque aprile millenovecentoquarantacinque l'Italia è liberata. La Germania si arrende a maggio; dopo Hiroshima e Nagasaki, il due settembre millenovecentoquarantacinque si arrende anche il Giappone."
  },
  {
-  "nome": "RIP2B_R2",
-  "testo": "Bentornato. Prima di continuare, ripassiamo insieme la prima parte della lezione. La guerra oppone l'Asse, cioè Germania, Italia e Giappone, a Francia e Gran Bretagna. Il primo settembre millenovecentotrentanove la Germania invade la Polonia: Francia e Regno Unito le dichiarano guerra. I tedeschi usano la guerra lampo. Nel millenovecentoquaranta la Germania occupa Danimarca e Norvegia, aggira la Linea Maginot e il quattordici giugno entra a Parigi. Al sud nasce la Francia di Vichy. La Gran Bretagna di Churchill resiste: nella Battaglia d'Inghilterra la RAF, cioè la Royal Air Force, ferma la Luftwaffe, e Hitler rinuncia allo sbarco. Ora vediamo che cosa fa l'Italia, e come la guerra cambia nel millenovecentoquarantuno."
- },
- {
   "nome": "MPB1",
   "testo": "Come si svolgono le prime fasi della guerra? Nel millenovecentotrentanove-millenovecentoquaranta la Germania invade la Polonia, con la strategia della guerra lampo. La Germania occupa la Francia, dove nasce la Repubblica di Vichy. La Germania attacca il Regno Unito, con massicci bombardamenti aerei."
  },
@@ -302,5 +298,41 @@
  {
   "nome": "MPB6",
   "testo": "Come si giunge alla fine della guerra? Nel millenovecentoquarantaquattro-millenovecentoquarantacinque gli Alleati effettuano lo sbarco in Normandia, e aprono un secondo fronte contro la Germania. Gli Stati Uniti usano la bomba atomica, e ottengono la resa del Giappone."
+ },
+ {
+  "nome": "BEN2",
+  "testo": "Benvenuto alla seconda parte della lezione sulla seconda guerra mondiale. In questa parte vedremo la guerra parallela italiana e i Balcani, l'invasione dell'Unione Sovietica, lo sterminio degli ebrei d'Europa e la svolta del conflitto, con l'ingresso degli Stati Uniti. Al termine di ogni argomento troverai un quiz di cinque domande. Buon lavoro."
+ },
+ {
+  "nome": "BEN3",
+  "testo": "Benvenuto alla terza e ultima parte della lezione sulla seconda guerra mondiale. In questa parte vedremo il crollo del fascismo e l'Italia divisa, i movimenti di Resistenza in Europa e in Italia, il declino dell'Asse e la vittoria alleata in Europa, e la fine della guerra nel Pacifico con la bomba atomica. Al termine di ogni argomento troverai un quiz di cinque domande. Buon lavoro."
+ },
+ {
+  "nome": "RIP2C",
+  "testo": "Ripassiamo insieme la prima parte della lezione. La guerra oppone l'Asse, cioè Germania, Italia e Giappone, a Francia e Gran Bretagna. Il primo settembre millenovecentotrentanove la Germania invade la Polonia: Francia e Regno Unito le dichiarano guerra. I tedeschi usano la guerra lampo, in tedesco Blitzkrieg. Nel millenovecentoquaranta la Germania occupa Danimarca e Norvegia, aggira la Linea Maginot e il quattordici giugno entra a Parigi. Al sud nasce la Francia di Vichy. La Gran Bretagna di Churchill resiste: nella Battaglia d'Inghilterra la RAF, cioè la Royal Air Force, ferma la Luftwaffe, l'aviazione tedesca, e Hitler rinuncia allo sbarco. Ora vediamo che cosa fa l'Italia, e come la guerra cambia nel millenovecentoquarantuno."
+ },
+ {
+  "nome": "RIP3C",
+  "testo": "Ripassiamo insieme la seconda parte della lezione. Il dieci giugno millenovecentoquaranta l'Italia entra in guerra con la sua guerra parallela, ma viene sconfitta in Africa e in Grecia, e la Germania deve aiutarla. Il ventidue giugno millenovecentoquarantuno la Germania invade l'Unione Sovietica, ma l'inverno russo e la terra bruciata la fermano. Intanto i nazisti compiono la Shoah: circa sei milioni di ebrei vengono uccisi. Il sette dicembre millenovecentoquarantuno il Giappone attacca Pearl Harbor e gli Stati Uniti entrano in guerra. Midway, El Alamein e Stalingrado segnano la svolta. Ora vediamo il millenovecentoquarantatré in Italia, e la fine della guerra."
+ },
+ {
+  "nome": "VER13",
+  "testo": "Siamo alla verifica finale della lezione: per proseguire devi rispondere correttamente ad almeno l'ottanta per cento delle domande."
+ },
+ {
+  "nome": "COMP13",
+  "testo": "Compiti. Prima domanda. Analizza le caratteristiche della prima fase della Seconda guerra mondiale, dal millenovecentotrentanove al millenovecentoquaranta, spiegando il significato di guerra lampo e guerra totale e illustrando le tappe dell'espansione tedesca dalla Polonia fino alla caduta della Francia e alla Battaglia d'Inghilterra. Seconda domanda. Descrivi gli obiettivi e l'andamento della guerra parallela italiana tra il millenovecentoquaranta e il millenovecentoquarantuno in Africa e nei Balcani, e spiega successivamente le motivazioni e gli esiti dell'Operazione Barbarossa contro l'Unione Sovietica. Terza domanda. Ricostruisci le fasi principali della persecuzione e dello sterminio degli ebrei d'Europa, la Shoah, dalla segregazione nei ghetti alle fucilazioni di massa, fino alla pianificazione della soluzione finale alla Conferenza di Wannsee e all'istituzione dei campi di sterminio. Quarta domanda. Analizza gli eventi che segnarono la svolta del conflitto tra il millenovecentoquarantuno e il millenovecentoquarantatré, dall'attacco di Pearl Harbor alla battaglia di Stalingrado, e illustra le conseguenze in Italia dopo lo sbarco alleato in Sicilia, la destituzione di Mussolini, l'armistizio dell'otto settembre millenovecentoquarantatré e la nascita della Resistenza."
+ },
+ {
+  "nome": "MPBF1",
+  "testo": "Mappa finale della prima parte. Come si svolgono le prime fasi della guerra? Nel millenovecentotrentanove-millenovecentoquaranta la Germania invade la Polonia, con la strategia della guerra lampo; occupa la Francia, dove nasce la Repubblica di Vichy; attacca il Regno Unito, con massicci bombardamenti aerei."
+ },
+ {
+  "nome": "MPBF2",
+  "testo": "Mappa finale della seconda parte. Come si giunge all'intervento dell'Italia e dell'Unione Sovietica? Nel millenovecentoquaranta-millenovecentoquarantuno l'Italia interviene in Africa e nei Balcani, ma subisce sconfitte. La Germania attacca l'Unione Sovietica, ma non riesce a piegarne la resistenza. Come si svolge la Shoah? I nazisti, in Polonia, creano ghetti per gli ebrei. In Unione Sovietica, effettuano fucilazioni di massa. E adottano la soluzione finale, e creano campi di sterminio. Come si giunge a una svolta nel conflitto? Nel millenovecentoquarantuno-millenovecentoquarantadue il Giappone attacca la base di Pearl Harbor, e causa l'intervento degli Stati Uniti. Le forze dell'Asse sono sconfitte a El Alamein, nelle Midway, a Stalingrado."
+ },
+ {
+  "nome": "MPBF3",
+  "testo": "Mappa finale della terza parte. Cosa accade in Italia dopo la caduta del fascismo? Lo sbarco alleato in Sicilia provoca la caduta di Mussolini, venticinque luglio millenovecentoquarantatré, cui segue l'armistizio, otto settembre millenovecentoquarantatré, e la divisione in Repubblica sociale italiana e Regno del Sud. Come si giunge alla fine della guerra? Nel millenovecentoquarantaquattro-millenovecentoquarantacinque gli Alleati effettuano lo sbarco in Normandia, e aprono un secondo fronte contro la Germania. Gli Stati Uniti usano la bomba atomica, e ottengono la resa del Giappone."
  }
 ]
