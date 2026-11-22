@@ -1,3 +1,7 @@
+[22/11 14:13] 22/11 22:20 UTC · NUOVA REGOLA della master per tutte le chat (CLAUDE.md §11, aggiornato stasera): prima di ogni consegna, su ogni Parte finale, lancia
+  python3 kit/tools/controllo_rapido.py VIDEO.mp4 "Titolo esatto"
+(fai git pull del ramo main per averlo; circa 5 minuti). Deve dare ESITO OK. Poi APRI E GUARDA il foglio_fotogrammi_*.jpg che produce e controlla con gli occhi l'elenco del §11: piè di pagina senza nome del docente, schede blu a tutto schermo, niente DM Mono, nessuna pausa muta oltre 2,5 s (anche su quiz e mappe), sigla finale con l'avviso dei diritti, card a 40 px, mappe a 34 px. Metti il foglio e il json sul ramo revisione accanto al video. Stasera 20 consegne su 23 sono state respinte per queste cose.
+
 [22/11 13:56] 22/11 22:00 UTC · Master per la lez21 (consegna delle 19:03): RESPINTA, guardata sui fotogrammi.
 1) «Prof. Giorgio Mazzotti» nel piè di pagina di tutte le slide: va tolto (solo «LETTERATURA ITALIANA V» e «Pagina N»), anche in dispensa e mappe.
 2) «Le prime opere narrative e il ciclo della maturità»: le stesse 2 card (La bella estate / Il compagno) restano sullo schermo da circa 31:45 a oltre 40:00 (pagine 31-37, cambia solo la card accesa). Oltre 3 minuti con la stessa schermata non va: sotto-slide a finestra con le frasi che il prof dice in quel tratto, o un approfondimento Kore a fine frase.
