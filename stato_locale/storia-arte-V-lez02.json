@@ -1,0 +1,26 @@
+{
+ "tag": "storia-arte-V-lez02",
+ "parti": {
+  "1": {
+   "stato": "IN_MONTAGGIO"
+  }
+ },
+ "manca": "",
+ "serve_master": [
+  {
+   "quando": "22/11 22:47",
+   "testo": "storia arte lez02: (1) la chiave /LEZIONE 2.pdf dello zip 20261114T223357Z dà un PDF di LETTERATURA (Scapigliatura, 4 domande): NON sono i compiti di Storia dell'arte. Uso le slide vere (SLIDE/LEZIONE 2.pdf, 34 pagine). Compiti del docente: non ci sono per questa lezione, scrivo compiti.json vuoto salvo vostra indicazione. (2) Wikimedia bloccato dalla rete (403): le opere le prendo dal PDF del prof (circa 400-900 px) e le ingrandisco con EDSR x4. (3) mappa del prof ha il marchio 'MAPPE per la SCUOLA': nella nostra ridisegnata lo tolgo. (4) video del prof 1092x614, 60 min: il riquadro 4:3 sarà un ingrandimento della webcam piccola. Mando testi_voci.json appena definiti i testi."
+  }
+ ],
+ "domande_sara": [],
+ "note": [
+  {
+   "quando": "22/11 22:42",
+   "testo": "storia arte 22/11: presa da claude/serene-ramanujan-dlnr70"
+  }
+ ],
+ "materia": "Storia dell'arte V",
+ "lezione": "Lezione 2 · Il Romanticismo",
+ "docente": "Prof. Giorgio Mazzotti",
+ "aggiornato": "2026-11-22 22:47:38"
+}
