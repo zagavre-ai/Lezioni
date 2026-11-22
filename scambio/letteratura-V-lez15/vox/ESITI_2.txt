@@ -1,3 +1,2 @@
-CP2 OK frasi trovate 1 / 1 parole diverse 2 (vere 0) tentativi 1
-CP4 OK frasi trovate 1 / 1 parole diverse 2 (vere 1) tentativi 1
-VF1 OK frasi trovate 1 / 1 parole diverse 4 (vere 0) tentativi 1
+CP5 OK frasi trovate 1 / 1 parole diverse 3 (vere 2) tentativi 1
+CP5_R2 OK frasi trovate 1 / 1 parole diverse 2 (vere 1) tentativi 1
