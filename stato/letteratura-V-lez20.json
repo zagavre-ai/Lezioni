@@ -2,13 +2,18 @@
  "tag": "letteratura-V-lez20",
  "parti": {},
  "manca": "",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "22/11 18:56",
+   "testo": "Lez.20: il 18/11 la master aveva inserito 'pillole di ripasso' (14 s blu con voce di annuncio) nel video pubblicato; il mio ricostruito non le contiene (i ripassi S1-S6 sono schemi con jingle repaso). Servono la voce e la scheda di annuncio se vanno reinserite. Inoltre 'RAI' nell'approfondimento sulla vita non è rispiegata a voce: serve voce nuova (R2)."
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
-   "quando": "22/11 18:17",
-   "testo": "22/11 19:20 it: video nuovo codificato (47:46, 85999 fr); controllo severo in corso (OCR lento); PDF A4 con testo pronti. Consegna prevista 19:30 UTC al più tardi."
+   "quando": "22/11 18:56",
+   "testo": "22/11 19:56 it: BOZZA DI CONSEGNA pushata su revisione-letteratura-V-lez20 (47:46, 85999 fr, 40 px, mappa BES+R1, PDF A4 con testo). Controllo severo a 67% (OCR lento), agente separato in corso: rapporto da completare. Consegna definitiva entro 19:30 UTC."
   }
  ],
- "aggiornato": "2026-11-22 18:17:04"
+ "aggiornato": "2026-11-22 18:56:21"
 }
