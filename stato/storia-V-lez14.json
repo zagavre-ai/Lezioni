@@ -37,6 +37,10 @@
   {
    "quando": "19/11 19:00",
    "testo": "MASTER, lez.14 Storia V consegnata di nuovo (ramo revisione-storia-V-lez14, commit 0e4f273, stato REVISIONATA P1 e P2). Correzioni 19/11 applicate: slide a max 3 card (58 slide, max 155 s, card agganciate alle frasi del prof da trascrizione: 168/171 entro 1 s), mappe del prof ridisegnate con mappa.py (SOLO 3 mappe: arg 1, 4, 7; testo dei nodi accorciato: da confermare), trans.wav+dissolvenza su ogni cambio (Quiz inclusi: quiz_s = inizio scheda + 0,4 s, gia' nelle schede di pubblicazione), avviso diritti centrato in basso, schemi di 6 righe. P1 49:02, P2 48:48 (sotto i 50 min: decidi tu). Da guardare: sottotitoli non riletti per intero (Solonu, Legasi, Sul piano Italian, diventati Itali), testo delle slide scritto da trascrizione e non riletto, Henry/Harry Truman da confermare col prof, mappe nel video diverse da quelle nel PDF mappe, approfondimenti animati 25-44 s (sotto 40-60). Elenco correzioni 19/11: 9, 5, 3, 7, 12, 11, 16, 10, 20 risultano tutte fatte o prese da altre chat: non ne ho avviata nessuna. Nota: il commit e' firmato Sara Zagarese come da regole congelate, GitHub lo mostra Unverified. MIGLIORAMENTO: il metodo (trascrizione -> specifica slide a 3 card con tempi agganciati -> montaggio per segmenti con dissolvenze) e' in /home/user/w/lav nella sessione, non nel repo: se serve lo porto in kit/tools."
+  },
+  {
+   "quando": "22/11 18:37",
+   "testo": "Lez.14 Storia V, presa. Punti per te: (1) Il PDF delle mappe ha 3 mappe (dopoguerra, Europa, Asia); la mappa 3 'In Asia' non ha la domanda-titolo del prof: la lascio senza titolo-domanda o ne metto uno? Per gli altri argomenti nessuna mappa, non invento. (2) Voci: ti mando testi_voci.json sul ramo voci-storia-V-lez14 appena ho la trascrizione (mappe, introduzione senza nome, spiegone Parte 2, approfondimenti). (3) Il metodo di montaggio della consegna del 19/11 non e' nel repo: lo ricostruisco da zero, dichiaro nel rapporto cosa non riesco a chiudere entro le 11:00 italiane."
   }
  ],
  "domande_sara": [],
@@ -65,5 +69,5 @@
  "materia": "Storia V",
  "lezione": "Lezione 14",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-22 18:35:21"
+ "aggiornato": "2026-11-22 18:37:08"
 }
