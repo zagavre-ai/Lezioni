@@ -561,5 +561,25 @@
  {
   "nome": "RP_7",
   "testo": "Settimo argomento. Le questioni aperte sono la pandemia di Covid, la guerra in Ucraina, la crisi climatica e le migrazioni."
+ },
+ {
+  "nome": "FZ1_R2",
+  "testo": "Ricapitoliamo questa prima parte. Gli Stati Uniti dopo l'undici settembre, il Medio Oriente e le primavere arabe, la crisi economica da Obama a Trump e il mondo multipolare dei BRICS. Nella seconda parte vediamo l'Europa, l'Italia e le questioni aperte dell'attualità."
+ },
+ {
+  "nome": "CP_1",
+  "testo": "Compito numero uno. Quali conseguenze politiche, militari ed economiche hanno avuto sugli Stati Uniti gli attentati dell'undici settembre duemilauno, considerando la cosiddetta guerra al terrore di George W. Bush fino allo scoppio della crisi dei mutui subprime del duemilasette-duemilaotto?"
+ },
+ {
+  "nome": "CP_2",
+  "testo": "Compito numero due. Spiega che cosa si intende per mondo multipolare e analizza il ruolo dei paesi BRICS, soffermandoti sull'espansione economica e infrastrutturale della Cina e sulle caratteristiche del regime di Vladimir Putin in Russia."
+ },
+ {
+  "nome": "CP_3",
+  "testo": "Compito numero tre. Quali sono state le cause e le principali conseguenze geopolitiche delle primavere arabe del duemiladieci-duemilaundici in Medio Oriente e Nord Africa, e in che modo hanno favorito l'ascesa dello Stato Islamico?"
+ },
+ {
+  "nome": "CP_4",
+  "testo": "Compito numero quattro. Analizza l'impatto della crisi economica del duemilaotto sull'Unione Europea e sull'Italia, evidenziando l'ascesa dei movimenti populisti ed euroscettici, il fenomeno della Brexit e l'evoluzione degli equilibri politici italiani fino al duemilaventidue."
  }
 ]
