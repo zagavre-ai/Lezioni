@@ -500,7 +500,7 @@
  },
  {
   "nome": "GL4_R2",
-  "testo": "Spartizione: la divisione di un territorio in due Stati, come India e Pakistan nel 1947."
+  "testo": "Spartizione: la divisione di un territorio in due Stati, come India e Pakistan nel millenovecentoquarantasette."
  },
  {
   "nome": "GL7_R2",
@@ -521,5 +521,25 @@
  {
   "nome": "AN9_R2",
   "testo": "Libia, Marocco e Tunisia. La Libia, colonia italiana, dichiara l'indipendenza nel millenovecentocinquantuno sotto una monarchia costituzionale, trasformata poi in Repubblica da Gheddafi nel millenovecentosessantanove. Marocco e Tunisia ottengono l'indipendenza dalla Francia nel millenovecentocinquantasei, in modo prevalentemente pacifico."
+ },
+ {
+  "nome": "SC7_2_R3",
+  "testo": "Secondo: l'ANC, cioè African National Congress, guidato anche da Nelson Mandela, combatte le leggi razziali."
+ },
+ {
+  "nome": "SC8_2_R3",
+  "testo": "Secondo: l'ONU, cioè Organizzazione delle Nazioni Unite, approva nel millenovecentoquarantasette la Risoluzione centottantuno per dividere la Palestina."
+ },
+ {
+  "nome": "SC10_4_R3",
+  "testo": "Quarto: negli anni Settanta all'ONU, cioè Organizzazione delle Nazioni Unite, si discute una riforma più equa, ostacolata dai Paesi occidentali."
+ },
+ {
+  "nome": "AN15_R3",
+  "testo": "La fine dei mandati e la Palestina. La Società delle Nazioni aveva affidato l'area a Gran Bretagna e Francia. Nel dopoguerra nascono Stati sovrani come Libano, Siria e Transgiordania. La Gran Bretagna rinuncia al mandato sulla Palestina e l'ONU, cioè Organizzazione delle Nazioni Unite, approva, nel millenovecentoquarantasette, la Risoluzione centottantuno, per dividere la regione in uno Stato ebraico e uno arabo."
+ },
+ {
+  "nome": "AN20_R3",
+  "testo": "Dipendenza e nuovo ordine economico. Istituzioni come il Fondo Monetario Internazionale impongono misure economiche che spesso favoriscono i Paesi industrializzati. Negli anni Settanta all'ONU, cioè Organizzazione delle Nazioni Unite, si discute un nuovo ordine economico internazionale, per una riforma finanziaria più equa. Il progetto è però ostacolato dai Paesi occidentali."
  }
 ]
