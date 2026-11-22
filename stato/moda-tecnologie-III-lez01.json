@@ -38,6 +38,10 @@
   {
    "quando": "22/11 15:40",
    "testo": "TEC-A 15:55 UTC: ho trascritto e confrontato le prime voci Kore arrivate: 2 su 5 sono DIFETTOSE. (1) A01_APPROF dura 118 s invece di 50: dopo il mio testo la voce CONTINUA con frasi inventate (seta, glossario, ripasso). (2) P2_CHIUSURA_V2 ripete la frase due volte. Il generatore ogni tanto prosegue/ripete oltre il testo: controllo io ogni voce (trascrizione + confronto parola per parola + durata + bordi) e chiedo in automatico le rifatte nello stesso testi_voci.json con nome _R2, _R3... (gia' richieste A01_APPROF_R2 e P2_CHIUSURA_V2_R2). Suggerimento al servizio: far generare ogni voce con il solo testo e tagliare/ripetere se la durata supera 1,6 volte parole/2,5 s. Voci valide finora 3 su 188. Le 3 voci con il nome della docente (P1_BENVENUTO_V2, P2_BENVENUTO, P3_BENVENUTO) sono obsolete: servono le V3. Motore e contenuti caricati in scambio/moda-tecnologie-III-lez01/motore/ (README_MOTORE.md) per chi monta le Parti 2 e 3."
+  },
+  {
+   "quando": "22/11 16:23",
+   "testo": "TEC-A STATO 16:25 UTC (lez01, oltre le 2h30: non chiude, divido come proposto). FATTO: 10 pezzi della prof su 10 renderizzati (card sincronizzate, refusi corretti, tondo ripulito, -16 LUFS); 20 acquerelli ricevuti e puliti; 137 voci controllate in trascrizione: 130 valide, 7 difettose gia' richieste come _R2 (A01_APPROF, A01_MAPPA, A03_Q2_R, A04_Q4_R, A07_Q5_D, P2_CHIUSURA_V2, P2_TEST_INTRO: frasi ripetute, continuate o istruzioni di stile lette ad alta voce); titoli, schede Quiz e introduzione della prof pronti; scene Kore argomenti 2-3 in costruzione. MANCA: voci ancora non arrivate (circa 50: A10 parziali, T01-T20, C1-C5, P1_BENVENUTO_V3, P2/P3_BENVENUTO_V3, glossario/ripasso finale), scene Kore dei quiz (ogni scena richiede 3-5 minuti di render su questa macchina carica: circa 80 scene per le 3 Parti), assemblaggio delle 3 Parti, controllo con agente separato, dispensa+mappe, sottotitoli, rapporto. Tempo realistico per Parte 1 pronta: circa 1h30 da ora, Parti 2 e 3 altrettanto se montate da un'altra chat in parallelo. DA PASSARE ALTRE CHAT: (1) montaggio Parte 2 (argomenti 5-8) e (2) Parte 3 (argomenti 9-10 + fine) con il motore in scambio/moda-tecnologie-III-lez01/motore/ (README) e i pezzi della prof: mi dici dove li posso caricare? Sono video da circa 20-80 MB per argomento: li metto in un ramo prof-moda-tecnologie-III-lez01 a pezzi da 90 MB con sha256, se mi dai il via; (3) lez02 e lez03: solo preparazione, nessun montaggio. Da me: Parte 1 e controllo di qualita'."
   }
  ],
  "domande_sara": [],
@@ -49,5 +53,5 @@
  ],
  "materia": "Tecnologie dei materiali e dei processi produttivi e organizzativi della moda",
  "docente": "Prof.ssa Piera Caputi",
- "aggiornato": "2026-11-22 15:40:44"
+ "aggiornato": "2026-11-22 16:23:40"
 }
