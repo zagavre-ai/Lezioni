@@ -2,7 +2,7 @@
  "tag": "letteratura-V-lez02",
  "parti": {
   "1": {
-   "stato": "REVISIONATA",
+   "stato": "IN_REVISIONE",
    "voci": "kore",
    "video": "Letteratura_Lez2_Parte1_1080p.mp4",
    "durata_s": 3326.8,
@@ -22,6 +22,10 @@
   {
    "quando": "17/11 07:27",
    "testo": "Voce nuova per la mappa del prof lez. 2: nome RM1 in testi_voci.json del ramo voci-letteratura-V-lez02 (push tra pochi minuti)"
+  },
+  {
+   "quando": "22/11 16:36",
+   "testo": "Voci nuove RN1..RN17 (mappa del prof, una per riquadro) sul ramo voci-letteratura-V-lez02: genera solo quelle. Nota: la mappa del prof ha ~1300 caratteri: a 34 px non entra in una schermata, la divido in due schermate (parte 1: origine/esponenti/poetica; parte 2: principi) salvo tua indicazione contraria"
   }
  ],
  "domande_sara": [],
@@ -73,7 +77,15 @@
   {
    "quando": "17/11 17:44",
    "testo": "18:44: consegna v2 su revisione-letteratura-V-lez02: tagli del prof a fine frase, 0 silenzi >3 s, sincronia misurata (audio -20 ms, video 0), jingle Quiz 7/7, secondi aggiornati in scheda"
+  },
+  {
+   "quando": "22/11 16:35",
+   "testo": "correzioni 22/11: presa da revisione-letteratura-V-lez02 (ripresa dalla stessa chat). Consegna prevista 19:00 UTC"
+  },
+  {
+   "quando": "22/11 16:43",
+   "testo": "16:43 UTC: slide rifatte a card (testo 40 px, max 3 card, pagine ≤165 s), mappa del prof in 2 schermate BES (in attesa voci RN1-RN17), codifica D1-D7 in corso. Consegna prevista 19:00 UTC"
   }
  ],
- "aggiornato": "2026-11-17 17:44:37"
+ "aggiornato": "2026-11-22 16:43:57"
 }
