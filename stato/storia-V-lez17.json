@@ -10,6 +10,10 @@
   {
    "quando": "22/11 18:42",
    "testo": "DOMANDE lez17 (monto con il default scritto, correggo se rispondi): (1) la consegna del 19/11 NON ha verifica di sbarramento ne compiti nel video: li metto SOLO a fine Parte 3 (verifica Excel soglia 80% + intro Compiti 3,5 s + compiti del prof). Ok? (2) 'mappa finale della lezione': il prof ha solo 3 mappe (Kippur, neoliberismo, Gorbacev); default: a fine Parte 3 le 3 mappe intere 4 s ciascuna sotto il titolo 'Mappe della lezione', senza mappa inventata. Ok? (3) mappa Gorbacev non ha la domanda come titolo: scrivo 'Come si arriva alla fine dell'URSS?' con parole del prof e lo dichiaro. (4) le slide del prof non sono in PDF per immagini: uso le pagine immagine (Nixon, cartina Iran, Reagan, Thatcher, Mitterrand, Berlino/Gorbacev, cartina CSI, Tienanmen) ciascuna in un solo argomento."
+  },
+  {
+   "quando": "22/11 18:53",
+   "testo": "AGGIUNTE voci lez17 in testi_voci.json (ora 28 voci nuove): MPR1_R2, MPR2_R2, MPR3_R2 (le 3 mappe del prof lette parola per parola, sostituiscono MPR1-3), SC2_4, SC5_4, SC6_4, SC8_4 (4a riga del ripasso), COMP1-COMP4 (compiti del prof, senza numero di lezione)."
   }
  ],
  "domande_sara": [],
@@ -31,6 +35,6 @@
    "testo": "ore 19:20 UTC: materiali scaricati, testi voci nuovi (16) su voci-storia-V-lez17, mappe del prof ridisegnate BES; trascrizione in corso"
   }
  ],
- "aggiornato": "2026-11-22 18:47:48",
+ "aggiornato": "2026-11-22 18:53:14",
  "stato": "IN_REVISIONE"
 }
