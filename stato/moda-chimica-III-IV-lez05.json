@@ -2,7 +2,12 @@
  "tag": "moda-chimica-III-IV-lez05",
  "parti": {},
  "manca": "",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "22/11 13:28",
+   "testo": "RIGA INIZIALE: presa lez05 (poi 06,07,08 in ordine). Materiali trovati SI per tutte e 4 (mp4 852x480 a 64 min, pdf, xlsx, 4 mappe png per lezione; compiti nello zip COMPITI, da estrarre). NOTE: (1) stima onesta: una lezione da ~60 min nel modello Gonna con animazioni, mappe vettoriali, quiz e controllo separato richiede molte ore di lavoro mie piu i giri voci/immagini con voi; 4 lezioni in una sola chat non sono realistiche in giornata: consiglio di assegnare lez07/lez08 ad altre chat, io parto con lez05 e lez06. (2) Refuso nel materiale della prof, mappa 4 lez05: 'SLino -> punte acute' (probabile 'Lino'). Nella mia mappa lo riporto come 'Lino' solo se Sara conferma; altrimenti dimmi. (3) stato.py puo' girare solo con /home/claude/lezioni: ho fatto un link simbolico."
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
@@ -10,5 +15,5 @@
    "testo": "presa da scambio-caputi, modello Gonna 22/11"
   }
  ],
- "aggiornato": "2026-11-22 13:27:21"
+ "aggiornato": "2026-11-22 13:28:57"
 }
