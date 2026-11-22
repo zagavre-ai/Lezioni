@@ -29,10 +29,14 @@
   {
    "quando": "22/11 18:50",
    "testo": "stato 30 min: scaricati materiali, trascritto il prof, scaletta: Parte 1 = arg 1-4, Parte 2 = arg 5-7+fine. In corso: riquadro 4:3, slide, mappe del prof, schede animate. Voci provvisorie (espeak) fino alle voci Kore."
+  },
+  {
+   "quando": "22/11 19:15",
+   "testo": "stato: pipeline pronta (slide a finestra, mappe del prof con domanda-titolo, schede animate). Parti in rendering con voci provvisorie. Seguo risposta master: niente mappe inventate (arg 1,5,7 chiudono con la pillola)."
   }
  ],
  "materia": "Storia V",
  "lezione": "Lezione 21 · Il mondo dal 2001 ad oggi",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-22 18:50:37"
+ "aggiornato": "2026-11-22 19:15:09"
 }
