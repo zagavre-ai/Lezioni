@@ -2,7 +2,12 @@
  "tag": "moda-tecnologie-III-lez07",
  "parti": {},
  "manca": "",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "22/11 13:37",
+   "testo": "Ramo voci-moda-tecnologie-III-lez07 pronto: testi_voci.json (145 voci: benvenuto, 8 titoli, 9 approfondimenti, ripassi, quiz 8x5, glossario) e immagini.json (12 acquerelli). Li approva la master al posto di Sara. Lezione di 68 min: con inserti e quiz supera 65 min, la divido in 2 Parti alla fine di un argomento. Segnalo: la trascrizione automatica ha errori, la ricontrollo sul PDF."
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
@@ -17,5 +22,5 @@
  "materia": "Tecnologie dei materiali e dei processi produttivi e organizzativi della moda",
  "lezione": "Lezione 7 · Nobilitazione pt. 2",
  "docente": "Prof.ssa Piera Caputi",
- "aggiornato": "2026-11-22 13:29:09"
+ "aggiornato": "2026-11-22 13:37:34"
 }
