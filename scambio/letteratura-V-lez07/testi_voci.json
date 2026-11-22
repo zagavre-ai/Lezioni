@@ -183,5 +183,55 @@
   "nome": "M19b",
   "testo": "Ecco la mappa del professore, per il terzo argomento. Al centro c'è il romanzo nel Decadentismo. Tra le opere e gli autori fondamentali c'è Il ritratto di Dorian Gray, di Wilde. Il romanzo è del milleottocentonovantuno, ed è un vero manifesto dell'Estetismo, il culto assoluto della bellezza, elevata a valore supremo, al di sopra di qualsiasi convenzione morale comune. L'impianto narrativo è in apparenza più tradizionale, con personaggi e intreccio, ma si innesta una forte dimensione intellettuale, volta a capovolgere i luoghi comuni della società borghese. C'è anche una dimensione fantastica e allegorica, incentrata sul tema del doppio: il dipinto invecchia al posto di Dorian, e accumula i segni dei suoi vizi. Dorian, giovane bellissimo, vorrebbe non morire mai: invecchia il ritratto, al posto suo. Ma interiormente diventa un mostro, e alla fine perde la sua umanità. Nella Prefazione, Wilde afferma che i libri sono scritti bene o scritti male, e che tutta l'arte è inutile. Guarda il ramo sulla mappa: opere e autori fondamentali, poi Il ritratto di Dorian Gray, Wilde. Ripeti il percorso a voce alta.",
   "lingua": "it"
+ },
+ {
+  "nome": "P1",
+  "testo": "Ecco la mappa del professore. Al centro c'è il romanzo nel Decadentismo.",
+  "lingua": "it"
+ },
+ {
+  "nome": "P2",
+  "testo": "Primo ramo: la rottura con la tradizione. Il romanzo si allontana dal realismo ottocentesco e dal naturalismo.",
+  "lingua": "it"
+ },
+ {
+  "nome": "P3",
+  "testo": "Secondo ramo: i nuovi temi ideologici.",
+  "lingua": "it"
+ },
+ {
+  "nome": "P4",
+  "testo": "Da qui, il focus sull'irrazionale, e sul complesso rapporto tra l'artista e la società.",
+  "lingua": "it"
+ },
+ {
+  "nome": "P5",
+  "testo": "Terzo ramo: l'orientamento verso sensazioni nuove, rare e preziose.",
+  "lingua": "it"
+ },
+ {
+  "nome": "P6",
+  "testo": "Poi le opere e gli autori fondamentali.",
+  "lingua": "it"
+ },
+ {
+  "nome": "P7",
+  "testo": "Controcorrente, di Uismans, del milleottocentottantaquattro, la bibbia del Decadentismo.",
+  "lingua": "it"
+ },
+ {
+  "nome": "P8",
+  "testo": "E Il ritratto di Dòrian Grèi, di Uàild, del milleottocentonovantuno, manifesto dell'Estetismo.",
+  "lingua": "it"
+ },
+ {
+  "nome": "P9",
+  "testo": "Infine, un'autrice italiana.",
+  "lingua": "it"
+ },
+ {
+  "nome": "P10",
+  "testo": "Grazia Deledda, premio Nobel per la letteratura nel millenovecentoventisei.",
+  "lingua": "it"
  }
 ]
