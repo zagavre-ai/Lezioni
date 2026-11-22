@@ -6,7 +6,12 @@
   }
  },
  "manca": "",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "22/11 16:36",
+   "testo": "lez18: la mappa del prof di Montale ha 34 nodi: a 34 px non entra in uno schermo. La costruisco ramo per ramo con zoom (>=34 px) e alla fine mappa intera 4 s (testo piccolo). Se non va bene scrivetelo."
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
@@ -64,7 +69,11 @@
   {
    "quando": "22/11 16:35",
    "testo": "correzioni 22/11: presa da revisione-letteratura-V-lez18 (chat lez18)"
+  },
+  {
+   "quando": "22/11 16:36",
+   "testo": "16:36 UTC: piano: 1 mappa sola BES (voce RMAP chiesta), card 40px, pause>2.5s, no già visto, PDF senza nome. Consegna prevista 19:15 UTC"
   }
  ],
- "aggiornato": "2026-11-22 16:35:11"
+ "aggiornato": "2026-11-22 16:36:42"
 }
