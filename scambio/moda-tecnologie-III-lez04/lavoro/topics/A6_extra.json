@@ -1,0 +1,203 @@
+{
+ "T0": 2016.3,
+ "T1": 2522.2,
+ "tecniche": [
+  {
+   "t": 2046.37,
+   "durata": 42,
+   "cosa": "Un unico filo disegna anse curvilinee (le boccole) che si concatenano tra loro con gli aghi. Poi le boccole si dispongono: in orizzontale formano righe, i ranghi, che corrispondono alla trama; in verticale formano colonne, le file o coste, simili all'ordito.",
+   "parole": "anse, ovvero boccole che sono concatenate tra loro attraverso l'utilizzo di aghi... Al percorso orizzontale abbiamo le boccole che vanno a formare queste righe che vengono chiamate ranghi... il percorso verticale vanno a creare delle colonne che vengono chiamate file o coste e sono simili all'ordito."
+  },
+  {
+   "t": 2124.55,
+   "durata": 28,
+   "cosa": "Due schemi affiancati: a sinistra un solo filo che si sposta in senso orizzontale (maglia in trama); a destra molti fili paralleli che lavorano a zig zag in senso verticale (maglia in catena).",
+   "parole": "la maglia in trama, dove abbiamo un solo filo che va a spostarsi in senso orizzontale, la maglia in catena che invece richiede molti fili paralleli e che invece vanno a lavorare a zig zag nel senso verticale."
+  },
+  {
+   "t": 2334.18,
+   "durata": 25,
+   "cosa": "Quattro aghi che compaiono uno dopo l'altro: ago a linguetta con la piccola sbarra mobile che richiude l'uncino; ago a doppia linguetta che lavora su entrambe le estremità; ago a becco dalla forma ricurva flessibile; ago composto o a pistone per lavorazioni particolari.",
+   "parole": "Abbiamo gli aghi a linguetta che hanno questa piccola sbarra mobile per richiudere l'uncino. Poi abbiamo gli aghi a doppia linguetta... gli aghi a becco che invece hanno una forma ricurva flessibile infine gli aghi composti o a pistone."
+  },
+  {
+   "t": 2370.66,
+   "durata": 24,
+   "cosa": "Una piastra metallica (frontura, o letto degli aghi) con una sola serie di aghi; poi due piastre una di fronte all'altra con due serie di aghi; poi tre o quattro piastre che moltiplicano i punti.",
+   "parole": "Abbiamo la monofrontura che richiede una sola serie di aghi, la bifrontura che invece richiede due serie di aghi disposte una di fronte all'altra, e infine la plurifrontura. In questo caso abbiamo tre o quattro fronture."
+  },
+  {
+   "t": 2463.86,
+   "durata": 30,
+   "cosa": "Schema delle due fronture, posteriore e anteriore, con gli aghi che si accendono: caso A solo la frontura posteriore, caso B solo la frontura anteriore, caso C entrambe, con la maglia a coste 1/1 che si forma.",
+   "parole": "in un caso abbiamo i lavori solo con gli aghi della frontura posteriore. Nel secondo abbiamo un lavoro con gli aghi della frontura anteriore. E nell'ultima... con gli aghi riguardanti entrambe le fronture per ottenere una maglia a coste uno uno."
+  }
+ ],
+ "quiz": [
+  {
+   "d": "Come si chiamano le righe che le boccole formano nel percorso orizzontale?",
+   "giusta": "Ranghi, che corrispondono alla trama del tessuto ortogonale",
+   "sbagliate": [
+    "File o coste, che corrispondono all'ordito del tessuto ortogonale",
+    "Briglie, che corrispondono alla cimosa del tessuto a navetta",
+    "Rocche, che corrispondono al filato preparato per la tessitura"
+   ],
+   "spiegazione": "Nel percorso orizzontale le boccole formano righe chiamate ranghi, che corrispondono alla trama. Le colonne verticali sono le file o coste, simili all'ordito."
+  },
+  {
+   "d": "Quale ago ha una piccola sbarra mobile per richiudere l'uncino?",
+   "giusta": "L'ago a linguetta",
+   "sbagliate": [
+    "L'ago a becco, di forma ricurva flessibile",
+    "L'ago composto o a pistone",
+    "L'ago a doppia linguetta, che lavora solo sul letto posteriore"
+   ],
+   "spiegazione": "L'ago a linguetta ha una piccola sbarra mobile per richiudere l'uncino. L'ago a doppia linguetta consente di lavorare su entrambe le estremità."
+  },
+  {
+   "d": "Che cosa caratterizza la bifrontura?",
+   "giusta": "Due serie di aghi disposte una di fronte all'altra",
+   "sbagliate": [
+    "Una sola serie di aghi su un'unica piastra",
+    "Tre o quattro serie di aghi per moltiplicare i punti",
+    "Due serie di aghi disposte una dietro l'altra sullo stesso piano"
+   ],
+   "spiegazione": "La frontura, o letto degli aghi, è la piastra metallica. La monofrontura ha una sola serie di aghi, la bifrontura due serie una di fronte all'altra, la plurifrontura tre o quattro fronture."
+  },
+  {
+   "d": "Come si ottiene la maglia calata?",
+   "giusta": "Con singoli pezzi sagomati direttamente sulla macchina, per eliminare gli scarti di tessuto",
+   "sbagliate": [
+    "Con teli lineari prima tagliati e poi cuciti secondo il cartamodello",
+    "Con capi già interamente confezionati e privi di cuciture",
+    "Con un solo filo che si sposta in senso orizzontale per tutto il telo"
+   ],
+   "spiegazione": "La maglia calata, detta anche diminuita, riduce gli sprechi di materiale. La maglia tagliata usa teli cuciti secondo il cartamodello; la maglia integrale dà capi senza cuciture."
+  },
+  {
+   "d": "Che cosa avviene nel caso C della R.G.T., cioè Rappresentazione Grafica Tremelloni?",
+   "giusta": "Lavorano gli aghi di entrambe le fronture, per ottenere una maglia a coste 1/1",
+   "sbagliate": [
+    "Lavorano solo gli aghi della frontura posteriore",
+    "Lavorano solo gli aghi della frontura anteriore",
+    "Non lavora nessun ago e il filo viene sottoposto a paraffinatura"
+   ],
+   "spiegazione": "Nella R.G.T. il caso A usa solo la frontura posteriore, il caso B solo l'anteriore, il caso C entrambe le fronture per ottenere una maglia a coste 1/1."
+  }
+ ],
+ "mappa": {
+  "domanda": "Che cosa sono i tessuti a maglia?",
+  "centro": "Tessuti a maglia",
+  "rami": [
+   {
+    "nome": "Boccole",
+    "tipo": "parola",
+    "figli": [
+     {
+      "nome": "Ranghi: percorso orizzontale, come la trama",
+      "tipo": "parola"
+     },
+     {
+      "nome": "File o coste: percorso verticale, come l'ordito",
+      "tipo": "parola"
+     }
+    ]
+   },
+   {
+    "nome": "Maglia in trama: un filo orizzontale",
+    "tipo": "esempio",
+    "figli": [
+     {
+      "nome": "Maglia in catena: molti fili a zig zag",
+      "tipo": "esempio"
+     }
+    ]
+   },
+   {
+    "nome": "Tagliata, calata, integrale",
+    "tipo": "esempio",
+    "figli": []
+   },
+   {
+    "nome": "Aghi: linguetta, doppia linguetta, becco, composti",
+    "tipo": "parola",
+    "figli": []
+   },
+   {
+    "nome": "Fronture: mono, bi, plurifrontura",
+    "tipo": "parola",
+    "figli": []
+   },
+   {
+    "nome": "Alta densità: maglia leggera. Bassa densità: maglia pesante",
+    "tipo": "conseguenza",
+    "figli": []
+   },
+   {
+    "nome": "R.G.T.: casi A, B e C",
+    "tipo": "sequenza",
+    "figli": [
+     {
+      "nome": "Roccatrice e paraffinatura",
+      "tipo": "sequenza"
+     }
+    ]
+   }
+  ],
+  "voce": "Che cosa sono i tessuti a maglia? Un filo disegna anse, le boccole, concatenate dagli aghi. In orizzontale formano i ranghi, come la trama; in verticale le file o coste, come l'ordito. La maglia in trama ha un solo filo, quella in catena molti fili a zig zag. Può essere tagliata, calata o integrale. Gli aghi sono a linguetta, a doppia linguetta, a becco o composti. Le fronture sono la piastra degli aghi. Alta densità dà la maglia leggera, bassa densità la pesante. Infine la R.G.T., cioè Rappresentazione Grafica Tremelloni, con i casi A, B e C, e la roccatrice con la paraffinatura."
+ },
+ "glossario": [
+  {
+   "termine": "Boccole",
+   "def": "Anse prodotte dal percorso curvilineo del filo, concatenate tra loro tramite aghi."
+  },
+  {
+   "termine": "Ranghi",
+   "def": "Righe formate dalle boccole nel percorso orizzontale; corrispondono alla trama dei tessuti ortogonali."
+  },
+  {
+   "termine": "File o coste",
+   "def": "Colonne formate dalle boccole nel percorso verticale; sono simili all'ordito."
+  },
+  {
+   "termine": "Maglia in trama",
+   "def": "Maglia in cui un solo filo si sposta in senso orizzontale; elevata elasticità e rischio di smagliature."
+  },
+  {
+   "termine": "Maglia in catena",
+   "def": "Maglia con molti fili paralleli che lavorano a zig zag in senso verticale; struttura compatta e indeformabile."
+  },
+  {
+   "termine": "Frontura",
+   "def": "Piastra metallica, detta anche letto degli aghi, con le scanalature in cui sono inseriti gli aghi."
+  },
+  {
+   "termine": "R.G.T.",
+   "def": "Rappresentazione Grafica Tremelloni: metodologia italiana che definisce lo schema di evoluzione sulle fronture."
+  },
+  {
+   "termine": "Paraffinatura",
+   "def": "Contatto del filo con un disco di cera, per renderlo più scorrevole durante la roccatura."
+  }
+ ],
+ "discrepanze": [
+  "2046.37: la trascrizione dà «anze» e «aghe»; la prof dice anse (boccole) e aghi, come nel PDF.",
+  "2141.57: la trascrizione dà «usciti»; letto come «cuciti» (PDF: tagliati e cuciti secondo il cartamodello).",
+  "2257.59: «macchine rettiline, brifontura» corretto in macchine rettilinee bifrontura (PDF).",
+  "2370.66: «brifrontura», «purifrontura», «richiedu»: corretti in bifrontura e plurifrontura (PDF).",
+  "2410.79: la prof dice «tessuti fini esterni»; il PDF dice «capi intimi ed esterni sottili». Nelle card ho usato «tessuti fini».",
+  "2444.01: la prof dice «RGT… rappresentazione grafica tre melloni»; il PDF scrive R.G.T., Rappresentazione Grafica Tremelloni.",
+  "2479.46: «costa una uno» corretto in coste 1/1 (PDF).",
+  "2463.86-2474.98: la prof dice «in un caso, nel secondo, nell'ultima»; le etichette caso A, B, C sono del PDF.",
+  "2177.06: la prof non spiega «smagliature»; la spiegazione «boccole che si sfilano» viene dal PDF.",
+  "Dal PDF e non dalla prof in questo pezzo: asciugatura in piano e stiro inferiore della maglia in trama; comfort a capo ultimato; comandi elettronici, pneumatici e informatici; macchine e telai (hanno aghi in sequenza o simultanei) e modelli ibridi; piastra con scanalature; test di scorrimento sui rulli.",
+  "2101.54: «stesura in materassi» e «zone attenzione diverse» corretti in zone a tensione diversa (PDF).",
+  "2515.38: la frase della paraffinatura continua e finisce a 2522.0; subito dopo (2522.5) comincia la parte sulle macchine rettilinee o circolari, fuori da questo argomento. Il PDF ha il refuso «Queste elementi» (frontura, non in questo pezzo letto dalla prof)."
+ ],
+ "tagli_proposti": [
+  "2234.1-2266.7 (circa 33 s): maglia calata e maglia integrale vengono ripetute, già dette a 2147-2165; l'unica novità è «macchine rettilinee bifrontura».",
+  "2039.14-2045.9 (circa 7 s): frase incompleta «abbiamo anche bisogno» che prosegue a 2046.37; da valutare solo se il passaggio resta chiaro.",
+  "2184.84-2193.02 (circa 8 s): «maglieria più comune e anche più pregiata» ripete un concetto detto di sfuggita; basso valore.",
+  "2430.17-2434.05 (circa 4 s): «Arriviamo quindi alla creazione stessa del tessuto» è solo un passaggio di raccordo."
+ ]
+}
