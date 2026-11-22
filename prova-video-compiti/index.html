@@ -108,7 +108,7 @@ html.yt.pzhold .pz.b span{display:none}
  <div class="ov" id="ov" role="dialog" aria-modal="true" aria-labelledby="qt">
   <div class="qh"><b id="qt"></b><small id="qs"></small></div>
   <div class="qb" id="qb"></div>
-  <div class="qf"><span class="msg" id="qm" aria-live="polite"></span><button class="btn sec" id="qr" style="display:none">Rivedi la parte del video</button><button class="btn" id="qv">Check</button></div>
+  <div class="qf"><span class="msg" id="qm" aria-live="polite"></span><button class="btn sec" id="qr" style="display:none">Rivedi la parte del video</button><button class="btn" id="qv">Controlla</button></div>
  </div>
 </div>
 <div class="ctl" id="ctl">
@@ -260,7 +260,7 @@ function openQ(q,idx){var Z=QZ[q];open=q;cur={q:q,idx:idx};P.pause();
  var h='';Z.items.forEach(function(it,k){var op=shuf([it.a].concat(it.w));h+='<div class="qi" id="qi'+k+'"><div class="p">'+(k+1)+'. '+esc(it.p)+'</div>';
   op.forEach(function(o,j){h+='<label><input type="radio" name="r'+k+'" value="'+esc(o)+'"> <span>'+esc(o)+'</span></label>'});
   h+='<div class="fb">Da rivedere: '+esc(it.ref||'')+'</div></div>'});
- $('qb').innerHTML=h;$('qb').scrollTop=0;$('qm').textContent='';$('qv').textContent='Check';$('qv').className='btn';$('qv').onclick=check;
+ $('qb').innerHTML=h;$('qb').scrollTop=0;$('qm').textContent='';$('qv').textContent='Controlla';$('qv').className='btn';$('qv').onclick=check;
  $('qr').style.display=(idx>=0?'':'none');$('ov').classList.add('on');$('cap').classList.remove('on');
  setTimeout(function(){$('qt').focus&&$('qb').querySelector('input')&&$('qb').querySelector('input').focus({preventScroll:true})},60)}
 function esc(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/"/g,'&quot;')}
