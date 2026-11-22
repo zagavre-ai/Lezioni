@@ -38,7 +38,7 @@ def numeri_pagina():
                     k=('i',sc[1])
                     if (parte,k) not in num:num[(parte,k)]=p;elenco.append((parte,p,k));p+=1
                 else:
-                    idx=sc[2];wins=S.finestre([SL[sc[1]]['par'][i] for i in idx])
+                    idx=sc[2];wins=S.finestre([SL[sc[1]]['par'][i] for i in idx],SL[sc[1]]['titolo'])
                     for w in wins:
                         k=('c',sc[1],tuple(idx[x] for x in w))
                         if (parte,k) not in num:num[(parte,k)]=p;elenco.append((parte,p,k));p+=1

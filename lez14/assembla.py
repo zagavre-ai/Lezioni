@@ -4,6 +4,7 @@ from lib import *
 import numpy as np
 PZ='/tmp/w/pezzi';FIN='/tmp/w/fin';os.makedirs(FIN,exist_ok=True)
 REPO='/home/user/Lezioni'
+EQ='treble=g=3:f=4000:t=s,'
 def sh(c):
     r=subprocess.run(c,capture_output=True,text=True)
     if r.returncode:raise RuntimeError(' '.join(c)[:300]+'\n'+r.stderr[-1200:])
@@ -55,9 +56,9 @@ def costruisci(parte,out,crf=19,prova=False):
     a.tofile(f'{FIN}/a2_P{parte}.f32')
     # loudness a due passi (-16 LUFS, picco <= -1,5 dBTP)
     base=['ffmpeg','-v','info','-f','f32le','-ar','48000','-ac','2','-i',f'{FIN}/a2_P{parte}.f32','-af']
-    m=subprocess.run(base+['loudnorm=I=-16:TP=-1.5:LRA=11:print_format=json','-f','null','-'],capture_output=True,text=True).stderr
+    m=subprocess.run(base+[EQ+'loudnorm=I=-16:TP=-1.5:LRA=11:print_format=json','-f','null','-'],capture_output=True,text=True).stderr
     j=json.loads(m[m.rfind('{'):m.rfind('}')+1])
-    af=f"loudnorm=I=-16:TP=-1.5:LRA=11:measured_I={j['input_i']}:measured_TP={j['input_tp']}:measured_LRA={j['input_lra']}:measured_thresh={j['input_thresh']}:offset={j['target_offset']}:linear=true"
+    af=EQ+f"loudnorm=I=-16:TP=-1.5:LRA=11:measured_I={j['input_i']}:measured_TP={j['input_tp']}:measured_LRA={j['input_lra']}:measured_thresh={j['input_thresh']}:offset={j['target_offset']}:linear=true"
     wav=f'{FIN}/a_P{parte}.wav'
     sh(['ffmpeg','-v','error','-y','-f','f32le','-ar','48000','-ac','2','-i',f'{FIN}/a2_P{parte}.f32','-af',af,'-ar','48000',wav])
     sh(['ffmpeg','-v','error','-y','-i',vid,'-i',wav,'-map','0:v','-map','1:a','-c:v','copy','-c:a','aac','-b:a','192k','-ar','48000','-movflags','+faststart',out])

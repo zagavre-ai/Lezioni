@@ -80,7 +80,7 @@ def stati_argomento(n,A,B,K):
         t0=max(sc[3] if sc[0]=='c' else sc[2],A);t1=min(sc[4] if sc[0]=='c' else sc[3],B)
         if t1<=t0:continue
         if sc[0]=='i':ev.append((t_ed(t0),('i',sc[1],t_ed(t1)-t_ed(t0))));continue
-        _,pg,idx,_,_,sched=sc;pars=SL[pg]['par'];wins=S.finestre([pars[i] for i in idx])
+        _,pg,idx,_,_,sched=sc;pars=SL[pg]['par'];wins=S.finestre([pars[i] for i in idx],SL[pg]['titolo'])
         win_of={}
         for w in wins:
             for c in w:win_of[idx[c]]=tuple(idx[x] for x in w)

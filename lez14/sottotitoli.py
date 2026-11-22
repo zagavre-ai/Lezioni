@@ -76,8 +76,19 @@ def vtt(timeline,out,durate):
                 cues+=cues_testo(start+a,start+max(b,a+0.6),tx)
         else:
             voci=info.get('voci') or []
-            tx=' '.join(VT.get(v,'') for v in voci)
-            if tx:cues+=cues_testo(start+0.3,start+d-0.6,cifre(tx))
+            VX=W+'/vox/scambio/storia-V-lez14/vox/'
+            def vd(v):
+                p=VX+v+'.wav'
+                return dur(p) if os.path.exists(p) else None
+            on=info.get('tempi_voci') or []
+            t=0.3
+            for i,v in enumerate(voci):
+                dv=vd(v)
+                if i<len(on):t=on[i]
+                if dv is None:
+                    dv=max(2.0,(d-0.9)/max(1,len(voci)))
+                if VT.get(v):cues+=cues_testo(start+t,start+min(t+dv,d-0.3),cifre(VT[v]))
+                t=t+dv+0.6
     with open(out,'w') as F:
         F.write('WEBVTT\n\n')
         for i,(a,b,t) in enumerate(cues):F.write(f'{ts(a)} --> {ts(max(b,a+0.4))}\n{t}\n\n')

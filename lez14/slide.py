@@ -3,6 +3,14 @@ from PIL import ImageFont
 F='/root/.fonts/'
 FM=ImageFont.truetype(F+'Figtree-Medium.ttf',40);FB=ImageFont.truetype(F+'Figtree-Bold.ttf',40)
 TXTW=1305-2*34-8  # larghezza testo card
+FT=ImageFont.truetype(F+'BricolageGrotesque-ExtraBold.ttf',60)
+def righe_titolo(t):
+    n=1;x=0
+    for w in t.split():
+        l=FT.getlength(w+' ')
+        if x+l>1290 and x>0:n+=1;x=0
+        x+=l
+    return n
 def split_card(p):
     m=re.match(r'^([^:]{2,70}):\s*(.*)$',p)
     return (m.group(1),m.group(2)) if m else ('',p)
@@ -14,8 +22,15 @@ def lines(lead,body):
         if x+l>TXTW and x>0:n+=1;x=0
         x+=l
     return n
+def fmt(p):
+    # elenchi puntati su righe separate
+    return re.sub(r'\s*•\s*','\n• ',p)
 def altezza(p):
-    lead,body=split_card(p);return lines(lead,body)*60+44
+    n=0
+    for k,seg in enumerate(fmt(p).split('\n')):
+        lead,body=split_card(seg) if k==0 else ('',seg)
+        n+=lines(lead,body)
+    return n*60+44
 def clausole(p):
     lead,body=split_card(p)
     parts=re.split(r'(?<=[,;:])\s+',body)
@@ -25,8 +40,10 @@ def clausole(p):
         if out and len(x)<28:out[-1]+=' '+x
         else:out.append(x)
     return lead,out
-def finestre(pars,maxh=640,maxn=3):
+def finestre(pars,titolo='',maxn=3,sigle=True):
     """raggruppa le card (in ordine) in finestre da <=3 card e che entrano nello spazio"""
+    nl=righe_titolo(titolo) if titolo else 1
+    maxh=960-(188+nl*65+20+30)-(60 if sigle and any(re.search(r'\b'+k+r'\b',' '.join(pars)) for k in SIGLE) else 0)
     W=[];cur=[];h=0
     for i,p in enumerate(pars):
         hh=altezza(p)+22
@@ -60,7 +77,7 @@ html,body{width:1920px;height:1080px;background:#fff;overflow:hidden;font-family
 .c b{font-weight:800}
 .c.on{opacity:1;border:6px solid #FFE600;padding:8px 31px;box-shadow:0 10px 26px rgba(60,70,90,.2)}
 .c.on::before{content:"";position:absolute;left:-17px;top:24px;width:26px;height:26px;border-radius:50%;background:#FFE600;box-shadow:0 0 0 3px #fff,0 2px 8px rgba(60,70,90,.35)}
-#sig{position:absolute;left:80px;top:905px;width:1305px;display:flex;flex-wrap:wrap;gap:8px 12px}#sig span{font:500 26px/1.2 Fig;background:#EEF3FB;border-radius:10px;padding:6px 14px;border-left:6px solid #2060AF}#sig b{font-weight:800}
+#sig{position:relative;margin-top:6px;width:1305px;display:flex;flex-wrap:wrap;gap:8px 12px}#sig span{font:500 26px/1.2 Fig;background:#EEF3FB;border-radius:10px;padding:6px 14px;border-left:6px solid #2060AF}#sig b{font-weight:800}
 #cards.z .c{display:none}#cards.z .c.on{display:block;font-size:52px;line-height:80px;padding:22px 44px;margin-top:10px}#cards.z .c.on::before{top:44px}
 mark{background:#FFF08A;color:#0B1530;padding:0 2px;border-radius:5px}
 """
@@ -69,14 +86,15 @@ LOGO=open('/tmp/w/logo.svg').read()
 def e(s):return html.escape(s)
 def page(kick,title,pars,win,attiva,clau,pag,keys,cam=True,nome_band=True,zoom=0):
     """pars: testi; win: indici delle card in questa finestra; attiva: indice card attiva (o None); clau: indice clausola evidenziata"""
-    nl=1 if len(title)<44 else 2
+    nl=righe_titolo(title)
     top=188+nl*65+20
     cards=''
     for i in win:
         lead,cl=clausole(pars[i]);on=(i==attiva)
         body=''
         for j,c in enumerate(cl):
-            body+=(f'<mark>{e(c)}</mark>' if on and j==clau else e(c))+' '
+            c2=e(c).replace(' •','<br>•').replace('•','•')
+            body+=(f'<mark>{c2}</mark>' if on and j==clau else c2)+' '
         cards+=f'<div class="c{" on" if on else ""}">'+(f'<b>{e(lead)}:</b> ' if lead else '')+body.strip()+'</div>'
     sig=[]
     if attiva is not None:
@@ -87,8 +105,7 @@ def page(kick,title,pars,win,attiva,clau,pag,keys,cam=True,nome_band=True,zoom=0
     return f"""<!doctype html><html><head><meta charset=utf-8><style>{CSS}</style></head><body>
 <img id=logo src="file:///tmp/w/logo.svg"><div id=hl></div><div id=kick>{e(kick)}</div><div id=tit>{e(title)}</div>
 <div id=bar style="top:{top-6}px"></div>
-<div id=cards{" class=z" if zoom else ""} style="top:{top+30}px">{cards}</div>
-{'<div id=sig>'+sg+'</div>' if sig else ''}
+<div id=cards{" class=z" if zoom else ""} style="top:{top+30}px">{cards}{'<div id=sig>'+sg+'</div>' if sig else ''}</div>
 {'<div id=cam></div><div id=band><b>Giorgio Mazzotti</b><i>PROF. DI STORIA</i></div>' if cam else ''}
 {'<div id=kw><h4>PAROLE CHIAVE</h4>'+kws+'</div>' if keys else ''}
 <div id=fl></div><div id=foot>STORIA V</div><div id=pag>Pagina {pag}</div></body></html>"""
