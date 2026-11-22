@@ -3,6 +3,9 @@
  "parti": {
   "1": {
    "stato": "IN_REVISIONE"
+  },
+  "2": {
+   "stato": "IN_REVISIONE"
   }
  },
  "manca": "",
@@ -12,7 +15,11 @@
   {
    "quando": "22/11 19:07",
    "testo": "correzioni 22/11: montaggi finali pronti, controllo severo e PDF in corso; consegna prevista 19:25 UTC"
+  },
+  {
+   "quando": "22/11 19:07",
+   "testo": "correzioni 22/11: montaggi finali pronti, controllo severo e PDF in corso; consegna prevista 19:25 UTC"
   }
  ],
- "aggiornato": "2026-11-22 19:07:48"
+ "aggiornato": "2026-11-22 19:07:50"
 }
