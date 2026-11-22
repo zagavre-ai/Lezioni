@@ -133,7 +133,11 @@
   {
    "quando": "22/11 19:22",
    "testo": "correzioni 22/11 fatte: consegna v5 sul ramo revisione-letteratura-V-lez04 (48:53, 87995 fotogrammi, -16,6 LUFS, picco -2,1, jingle quiz OK, sync -0,02 s, pagina max 165 s, nessuna pausa >2,5 s). Controllo severo ufficiale NON ancora finito (lo lancio ora); pillole blu 14 s del 17/11 non incluse. Vedi RAPPORTO_REVISIONE.md"
+  },
+  {
+   "quando": "22/11 20:21",
+   "testo": "correzioni 22/11 fatte: controllo severo OK zero errori (passo 60 s), consegna sul ramo revisione-letteratura-V-lez04; pillole blu 14 s del 17/11 non incluse"
   }
  ],
- "aggiornato": "2026-11-22 19:22:50"
+ "aggiornato": "2026-11-22 20:21:53"
 }
