@@ -25,6 +25,15 @@ def slide_list(stati,tot_frames,path):
             if b<=a: continue
             f.write(f"file '{png}'\nduration {(b-a)/FPS:.6f}\n")
         f.write(f"file '{stati[-1][1]}'\n")
+def misura_gain(ranges,target=-16.0):
+    base=max(0.0,ranges[0][0]-2.0);fc=[];a=[]
+    for i,(s0,s1) in enumerate(ranges):
+        fc.append(f"[0:a]atrim=start={s0-base:.5f}:end={s1-base:.5f},asetpts=PTS-STARTPTS,aresample=48000[a{i}]");a.append(f'[a{i}]')
+    fc.append(''.join(a)+f"concat=n={len(ranges)}:v=0:a=1,{AF_PROF},ebur128[o]")
+    r=sh(['ffmpeg','-v','info','-ss',f'{base:.3f}','-to',f'{ranges[-1][1]+1.0:.3f}','-i',SRC,'-filter_complex',';'.join(fc),'-map','[o]','-f','null','-'],check=False).stderr
+    import re
+    m=re.findall(r'I:\s+(-?[\d.]+) LUFS',r)
+    return (target-float(m[-1])) if m else 0.0
 def pezzo_prof(nome,ranges,stati_src,out,gain_db=0.0,cam=True):
     """ranges: [(s0,s1)] secondi sorgente (multipli di 1/30), nell'ordine; stati_src: [(t_sorgente, png)] cambi di slide in tempo sorgente"""
     # mappa tempo sorgente -> frame di uscita

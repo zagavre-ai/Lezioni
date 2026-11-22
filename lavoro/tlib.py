@@ -62,7 +62,16 @@ def chunks(c):
         if out and len(out[-1])<22: out[-1]+=' '+p
         else: out.append(p)
     if len(out)>1 and len(out[-1])<22: out[-2]+=' '+out.pop()
-    return out
+    # spezza i pezzi lunghi (> 44 caratteri) a metà, sugli spazi
+    def spezza(p):
+        if len(p)<=44: return [p]
+        m=len(p)//2;i=p.rfind(' ',0,m+8);j=p.find(' ',m-8)
+        k=i if i>8 else j
+        if k<=0: return [p]
+        return spezza(p[:k])+spezza(p[k+1:])
+    fin=[]
+    for p in out: fin+=spezza(p)
+    return fin
 def card_inner(c,ev=None):
     l=c.get('lead') or '';t=c['testo']
     if l and t.startswith(l):
@@ -70,7 +79,7 @@ def card_inner(c,ev=None):
     else: head='';rest=t
     if ev is None or not rest: return head+(' ' if head and rest and rest[0] not in ',;.' else '')+esc(rest)
     ch=chunks(c);out=[]
-    for i,p in enumerate(ch): out.append(f'<mark>{esc(p)}</mark>' if i==ev else esc(p))
+    for i,p in enumerate(ch): out.append(f'<mark>{esc(p)}</mark>' if i==ev else f'<span class="dm">{esc(p)}</span>')
     return head+(' ' if ch and ch[0][0] not in ',;.' else '')+' '.join(out)
 def head(label,title,pagina,materia=MATERIA):
     return f'''<img class="logo" src="{LOGO}"><div class="hl"></div><div class="lab">{esc(label)}</div><div class="tit">{esc(title)}</div>
@@ -106,7 +115,8 @@ def slide_cards(label,title,pagina,cards,cur,kw,cam=True,ev=None,**k):
     body=head(label,title,pagina);y=top
     for i in idx:
         c=cards[i];h=card_h(c)
-        body+=f'<div class="card{" on" if i==cur else ""}" style="top:{y}px;min-height:{h}px">{card_inner(c,ev if i==cur else None)}</div>'
+        tint=';background:#FFF4B0' if (i==cur and ev is not None and ev%2==0) else ''
+        body+=f'<div class="card{" on" if i==cur else ""}" style="top:{y}px;min-height:{h}px{tint}">{card_inner(c,ev if i==cur else None)}</div>'
         y+=h+18
     body+=prof_col(kw,cam)
     return page(body),idx
@@ -144,3 +154,45 @@ IMG_CSS='''
 def slide_img(label,title,pagina,img,did,kw,cam=True):
     body=head(label,title,pagina)+f'<div class="im" style="height:560px"><img src="file://{img}"></div><div class="dd" style="top:872px"><b style="color:#2060AF">{esc(title).upper()}</b> · {esc(did)}</div>'+prof_col(kw,cam)
     return page(body,IMG_CSS)
+
+# ---- schede blu (testo su fondo trasparente, il fondo animato lo fa ffmpeg) ----
+BLU_CSS='''
+html,body{background:transparent!important}
+.lb{position:absolute;left:160px;top:330px;font:700 30px Fig;letter-spacing:.2em;color:#FFE600}
+.tt{position:absolute;left:160px;top:400px;width:1600px;font:800 92px/1.08 Bri;color:#fff}
+.st{position:absolute;left:160px;font:600 44px/1.3 Fig;color:#DCE6F7;width:1500px}
+.bar{position:absolute;left:160px;width:140px;height:10px;background:#FFE600;border-radius:5px}
+.lg{position:absolute;left:80px;top:48px;height:58px;filter:brightness(0) invert(1)}
+'''
+def blu(label,titolo,sotto=None,ty=None):
+    n=len(titolo)
+    top=400 if n<44 else 340
+    h=f'<img class="lg" src="{LOGO}"><div class="lb" style="top:{top-70}px">{esc(label)}</div><div class="tt" style="top:{top}px">{esc(titolo)}</div>'
+    lines=1 if n<=26 else 2 if n<=52 else 3
+    by=top+lines*100+30
+    h+=f'<div class="bar" style="top:{by}px"></div>'
+    if sotto: h+=f'<div class="st" style="top:{by+40}px">{esc(sotto)}</div>'
+    return f'<!doctype html><html><head><meta charset="utf-8"><style>{BASE_CSS}{BLU_CSS}</style></head><body>{h}</body></html>'
+SIDE_CSS='''
+.sideimg{position:absolute;left:1428px;top:148px;width:412px;height:560px;display:flex;align-items:center;justify-content:center;border-radius:14px;overflow:hidden;background:#fff;box-shadow:0 14px 34px rgba(71,85,105,.40)}
+.sideimg img{max-width:100%;max-height:100%}
+.sidecap{position:absolute;left:1428px;top:725px;width:412px;font:600 24px/1.25 Fig;color:#0B1530}
+.chip{position:absolute;left:1428px;top:148px;width:412px;height:309px;border-radius:18px;background:#EEF3FB;border:3px solid #2060AF;display:flex;flex-direction:column;align-items:center;justify-content:center;box-shadow:0 14px 34px rgba(71,85,105,.30)}
+.chip b{font:800 120px/1 Bri;color:#2060AF}.chip i{font:700 22px Fig;font-style:normal;letter-spacing:.16em;color:#0B1530;margin-top:10px}
+'''
+def side_img(file,cap):
+    return f'<div class="sideimg"><img src="file://{file}"></div><div class="sidecap">{esc(cap)}</div>'
+def side_chip(txt,sub='DATA'):
+    return f'<div class="chip"><b>{esc(txt)}</b><i>{sub}</i></div>'
+def scheda_cards(label,title,pagina,cards,cur,side='',dim=True,numeri=False):
+    """pagina bianca senza docente (approfondimenti, schemi, glossario): card di testo con la lit"""
+    top,H=area(title);idx=finestra(cards,cur if cur is not None else 0,title)
+    body=f'<img class="logo" src="{LOGO}"><div class="hl"></div><div class="lab">{esc(label)}</div><div class="tit">{esc(title)}</div><div class="fl"></div><div class="ft">{MATERIA}</div>'
+    if pagina: body+=f'<div class="pg">Pagina {pagina}</div>'
+    y=top
+    for i in idx:
+        c=cards[i];h=card_h(c)
+        cl='card on' if i==cur else 'card'
+        st=f'top:{y}px;min-height:{h}px'+('' if dim or i==cur else ';opacity:1')
+        body+=f'<div class="{cl}" style="{st}">{card_inner(c)}</div>';y+=h+18
+    return page(body+side,SIDE_CSS),idx

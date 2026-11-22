@@ -34,7 +34,7 @@ MAPPE={
   frecce=[('A1',[(960,270),(960,368)],'favorisce',(960,320)),('A2',[(960,470),(960,568)],'che porta a',(960,520)),('A3',[(960,670),(960,720),(500,720),(500,808)],'che',(960,720)),('A4',[(960,720),(1420,720),(1420,808)],None,None)],
   etichette=[],
   ordine=[('B1',[]),('B2',['A1']),('B3',['A2']),('B4',['A3']),('B5',['A4'])]),
- 'M3':dict(titolo='',
+ 'M3':dict(titolo='Come funziona il regime nazista?',
   boxes=[('B1',660,170,600,92,'pesca','IL REGIME NAZISTA',1),
    ('B2',60,360,540,92,'paglierino','strumenti di repressione',0),('B3',690,360,540,92,'paglierino','consenso',0),('B4',1320,360,540,92,'paglierino','economia',0),
    ('B5',130,520,470,100,'menta','la Gestapo',0),('B6',130,650,470,110,'menta','il Tribunale del popolo',0),('B7',130,790,470,130,'menta','i campi di concentramento',0),
@@ -52,7 +52,7 @@ MAPPE['M3']['ordine']=[('B1',[]),('B2',['A1']),('B5',['A4']),('B6',['A5']),('B7'
 def stato_html(nome,passo,finale=False,pagina='1'):
     M=MAPPE[nome];vis=M['ordine'][:passo+1] if passo is not None else M['ordine']
     vb={b for b,_ in vis};va={a for _,al in vis for a in al}
-    cur=None if finale or passo is None else vis[-1][0]
+    cur=None if finale or passo is None or not vis else vis[-1][0]
     svg='<svg style="position:absolute;left:0;top:0" width="1920" height="1080"><defs><marker id="ah" markerUnits="userSpaceOnUse" markerWidth="30" markerHeight="30" refX="15" refY="15" orient="auto"><path d="M2,4 L28,15 L2,26 z" fill="#0B1530"/></marker></defs>'
     for a,pts,lab,pos in M['frecce']:
         if a in va:
@@ -70,6 +70,7 @@ def stato_html(nome,passo,finale=False,pagina='1'):
             f,bo=COL[col];cl='b c' if c else 'b'
             h+=f'<div class="{cl}{" hl" if b==cur else ""}" style="left:{x}px;top:{y}px;width:{w}px;min-height:{hh}px;background:{f};border:{5 if c else 4}px solid {bo}">{esc(t)}</div>'
     body=f'<div class="mk">MAPPA DEL PROFESSORE</div><div class="leg">{LEG}</div><div class="mt">{esc(M["titolo"])}</div>' if False else f'<div class="mk">MAPPA</div><div class="leg">{LEG}</div><div class="mt" style="top:60px">{esc(M["titolo"])}</div>'
+    if nome=='M3' and 'B5' in vb: h+='<div class="al" style="left:60px;top:985px;font-size:28px;background:none;transform:none">Gestapo = polizia segreta</div>'
     body+=h+'<div class="fl" style="top:1020px"></div><div class="ft">STORIA</div>'
     return f'<!doctype html><html><head><meta charset="utf-8"><style>{BASE_CSS}{CSS}</style></head><body>{body}</body></html>'
 if __name__=='__main__':

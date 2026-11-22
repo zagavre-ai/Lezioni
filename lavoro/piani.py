@@ -7,7 +7,7 @@ from trasc_util import mmss, find
 ARGS={a['n']:a for a in S.ARG}
 # confini tra pezzi del prof (tempo ASR dell'inizio della frase che segue)
 B={'intro_fine':180.7,'a1':239.88,'a2':1039.13,'a3':1676.09,'a4':2462.37,'a5':3169.78,'a6':3784.93,'a7':4550.69,'a8':5355.72}
-MID={2:1436.7,3:1926.1,4:3084.4,5:3431.8,8:5572.1}   # inizio frase dopo cui entra l'approfondimento a metà argomento
+MID={}   # nessun approfondimento a metà argomento: le schermate lunghe si spezzano con le evidenze
 END=5786.18
 def taglio_pt(t):
     if t>=END-1: return END,END
@@ -41,10 +41,10 @@ def stati_arg(n,t0,t1):
         if s[0]=='c' and s[1] is not None:
             d=tend-t;ch=tlib.chunks(cards[s[1]]);nch=len(ch)
             # intervalli interni: AP a metà arg interrompe? lo trattiamo dopo (stesso stato prima e dopo)
-            steps=min(max(1,math.ceil(d/105)),nch+1)
+            steps=min(max(1,math.ceil(d/80)),nch+1)
             if d>150 and nch>=2:
                 for q in range(steps):
-                    tq=t+q*d/steps; evq=None if q==0 else min(nch-1,int(round((q-1)*(nch-1)/max(1,steps-2)))) if steps>2 else 0
+                    tq=t+q*d/steps; evq=None if q==0 else q-1
                     res.append((tq,('c',s[1],evq)))
                 continue
         res.append((t,s+(None,) if s[0]=='c' else s))
