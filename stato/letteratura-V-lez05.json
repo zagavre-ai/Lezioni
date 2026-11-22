@@ -112,7 +112,11 @@
   {
    "quando": "22/11 17:45",
    "testo": "18:00 UTC (4/6): codifica finale in corso, poi concat+audio+controllo severo+agente separato; consegna 18:55"
+  },
+  {
+   "quando": "22/11 18:11",
+   "testo": "18:20 UTC (5/6): video completo 59:20 montato (391 MB); controllo severo e agente indipendente in corso; poi consegna"
   }
  ],
- "aggiornato": "2026-11-22 17:45:12"
+ "aggiornato": "2026-11-22 18:11:06"
 }
