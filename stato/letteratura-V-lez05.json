@@ -88,7 +88,11 @@
   {
    "quando": "22/11 16:34",
    "testo": "16:55 UTC: prenotata; testi voce mappa inviati; avvio ricomposizione slide a 40 px, card <=3, pagine <=180 s"
+  },
+  {
+   "quando": "22/11 16:38",
+   "testo": "17:10 UTC: slide ricomposte a 40 px (max 2-3 card, pagine a finestra, nessuna pagina >180 s), codifica in corso; in attesa voci mappa dalla master"
   }
  ],
- "aggiornato": "2026-11-22 16:34:12"
+ "aggiornato": "2026-11-22 16:38:13"
 }
