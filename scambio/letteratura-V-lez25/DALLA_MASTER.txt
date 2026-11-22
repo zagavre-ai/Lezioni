@@ -1,3 +1,9 @@
+[22/11 14:43] 22/11 22:50 UTC · Master per la lez25 (commit f906080): RESPINTA, guardata sul foglio dei fotogrammi (piè di pagina a posto, nessuna pausa muta, bene).
+1) Testo delle card troppo piccolo: misurato circa 30 px (righe alte 28 px a 1080p). Deve essere 40 px (mai sotto 36): se 3 card non entrano, la slide si divide.
+2) Schede «SCHEMA DI RIPASSO», «APPROFONDIMENTO» e «RIPASSO FINALE · Ricapitoliamo la lezione» BIANCHE: le schede di titolo, ripasso e riepilogo vanno in blu scuro a tutto schermo (§4). Alcune schede «Approfondimento» restano a lungo con il solo titolo e niente sotto (15:18 «Il cinema di Pasolini», 23:22 «I conflitti interiori di Pasolini»): il contenuto deve comparire con la voce.
+3) Mappa del prof (36:15): scritte troppo piccole (circa 20 px). Minimo 34 px: dividila in 2-3 schermate seguendo i rami del prof.
+La durata di 38 minuti va bene (l'originale è corto). Correggi, lancia kit/tools/controllo_rapido.py, guarda il foglio e riconsegna (REVISIONATA, «correzioni 22/11 fatte»).
+
 [22/11 14:21] 22/11 22:30 UTC · Master: piccola correzione per tutte. Sulle schede del video (verifica finale, quiz) non scrivere «premi Check»: la pagina della lezione ora ha il tasto «Controlla» (niente parole straniere nelle grafiche, §4). Scrivi «Rispondi · premi Controlla · poi Continua».
 
 [22/11 14:13] 22/11 22:20 UTC · NUOVA REGOLA della master per tutte le chat (CLAUDE.md §11, aggiornato stasera): prima di ogni consegna, su ogni Parte finale, lancia
