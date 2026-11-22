@@ -38,7 +38,11 @@
   {
    "quando": "22/11 21:53",
    "testo": "22/11 22:00 UTC: video completo 61:16 con voci provvisorie solo per BEN_R2, DP, CPT1-4 (e 11 voci da rifare: usate le vecchie). controllo_severo.py ESITO OK; controllo_finale TUTTO OK (jingle 0,0 s, sottotitoli 100%); dispensa 60 pag con testo invisibile. In corso: controllo agente separato. Appena arrivano le voci rifaccio montaggio e consegno su revisione-storia-V-lez15."
+  },
+  {
+   "quando": "22/11 23:20",
+   "testo": "23/11 00:00 UTC: video rifatto dopo controllo separato (digressioni rimesse nel loro argomento, taglio arg.3, sigle rispiegate sullo schermo, glossario, esitazioni tolte, sottotitoli): 61:38, controllo_severo OK, controllo_finale TUTTO OK. In attesa delle voci Kore (BEN_R2, DP, CPT1-4, 11 _R2, 5 _R3) per il montaggio definitivo e la consegna."
   }
  ],
- "aggiornato": "2026-11-22 22:19:50"
+ "aggiornato": "2026-11-22 23:20:11"
 }
