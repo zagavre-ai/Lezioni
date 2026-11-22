@@ -4,12 +4,24 @@
  "manca": "",
  "serve_master": [
   {
+   "quando": "14/11 22:19",
+   "testo": "(storico, ripristinato) Voci Kore: 29 voci L7_* e quiz.json; 2 Parti (argomenti 1-5 e 6-9). COMPITI_MANCANTI: ora noto che lez2-8 non hanno compiti."
+  },
+  {
    "quando": "22/11 13:37",
    "testo": "Ramo voci-moda-tecnologie-III-lez07 pronto: testi_voci.json (145 voci: benvenuto, 8 titoli, 9 approfondimenti, ripassi, quiz 8x5, glossario) e immagini.json (12 acquerelli). Li approva la master al posto di Sara. Lezione di 68 min: con inserti e quiz supera 65 min, la divido in 2 Parti alla fine di un argomento. Segnalo: la trascrizione automatica ha errori, la ricontrollo sul PDF."
+  },
+  {
+   "quando": "22/11 13:38",
+   "testo": "RIPRENDO il lavoro del 14/11 (9 argomenti, 2 Parti, quiz da 45 già sul ramo voci-moda-tecnologie-III-lez07: li riuso). NB: scrivendo il primo stato ho sovrascritto con push forzato le note vecchie dello stato: le ho ripristinate ora. Sul ramo voci ho AGGIUNTO (senza toccare L7_* e le vostre voci) 159 testi nuovi: benvenuto, 9 titoli, 9+ approfondimenti Kore, ripassi a righe (A#_R#), voci domanda/risposta dei quiz (A#_Q#_D/_R), glossario GL_*, RF_, VS_. E scambio/<tag>/immagini.json con 12 acquerelli (nomi IMG_T0/T2.. = vecchia numerazione, il soggetto è nella descrizione). Per favore: generate voci e immagini."
   }
  ],
  "domande_sara": [],
  "note": [
+  {
+   "quando": "14/11 22:29",
+   "testo": "(storico, ripristinato) Fatto: trascrizione, 9 argomenti, quiz 45 domande, 29 testi voci inviati. 2 Parti; attendeva voci Kore."
+  },
   {
    "quando": "22/11 13:27",
    "testo": "presa da scambio-caputi, modello Gonna 22/11"
@@ -22,5 +34,5 @@
  "materia": "Tecnologie dei materiali e dei processi produttivi e organizzativi della moda",
  "lezione": "Lezione 7 · Nobilitazione pt. 2",
  "docente": "Prof.ssa Piera Caputi",
- "aggiornato": "2026-11-22 13:37:34"
+ "aggiornato": "2026-11-22 13:38:49"
 }
