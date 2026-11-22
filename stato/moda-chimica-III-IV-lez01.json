@@ -346,6 +346,10 @@
   {
    "quando": "20/11 19:36",
    "testo": "INTRO1 (voce di benvenuto) richiesta sul ramo voci-moda-chimica-III-IV-lez01: la copertina oggi parte direttamente con la docente"
+  },
+  {
+   "quando": "22/11 13:31",
+   "testo": "lez01 (e a seguire lez02-04): 1) posso riusare le 26 voci Kore gia' generate il 20/11 sul ramo voci-moda-chimica-III-IV-lez01 (AN1-7, R1-5, S1-5, M1-5, MF, GL1, RF1, FIN1)? Le trascrivo e confronto parola per parola; per il nuovo ritmo (domande 'Sai perche'...', 'Lo sapevi?', ritorno 'ora torniamo dalla professoressa') mandero' testi nuovi con nomi nuovi. 2) INTRO1 (benvenuto) risulta non generata: la rimando nel nuovo testi_voci.json. 3) Mando a breve immagini.json con circa 6 acquerelli per lez01 (copertina con figurino/fibre, tessuti da fibre naturali e tecnofibre, polimero come catena di perle, ecc.)."
   }
  ],
  "domande_sara": [],
@@ -385,10 +389,14 @@
   {
    "quando": "22/11 13:26",
    "testo": "22/11 13:30 presa da scambio-caputi, modello Gonna 22/11 (rifacimento completo). Materiali release trovati: video 135 MB, PDF, xlsx, compiti, mappe sì. Stima consegna: da comunicare dopo trascrizione."
+  },
+  {
+   "quando": "22/11 13:31",
+   "testo": "22/11 13:45 lez01: trascrizione fatta (27 min di prof). Riuso come appoggio dal 20/11: testi voci, quiz, correzioni termini. Grafica/montaggio rifatti da zero nel modello Gonna. Consegna: non stimabile prima di aver chiuso voci e acquerelli; dico io appena ho il piano dei pezzi."
   }
  ],
  "materia": "Chimica applicata e nobilitazione dei materiali per i prodotti della moda (III + IV)",
  "lezione": "Le fibre",
  "docente": "Prof.ssa Piera Caputi",
- "aggiornato": "2026-11-22 13:26:42"
+ "aggiornato": "2026-11-22 13:31:28"
 }
