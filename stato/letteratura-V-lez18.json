@@ -10,6 +10,10 @@
   {
    "quando": "22/11 16:36",
    "testo": "lez18: la mappa del prof di Montale ha 34 nodi: a 34 px non entra in uno schermo. La costruisco ramo per ramo con zoom (>=34 px) e alla fine mappa intera 4 s (testo piccolo). Se non va bene scrivetelo."
+  },
+  {
+   "quando": "22/11 17:37",
+   "testo": "lez18: aspetto le voci RMAP e RMAP2 (mappa del prof in 3 schermate, ramo voci-letteratura-V-lez18, richieste alle ~16:40 UTC). Senza la voce non chiudo la mappa. Tutto il resto è pronto: appena arriva assemblo (circa 25 min)."
   }
  ],
  "domande_sara": [],
@@ -83,5 +87,5 @@
    "testo": "17:08 UTC: 49 pezzi su 50 montati (card 40 px, pause tagliate, intro senza riquadro, no già visto); manca la mappa (aspetto voce RMAP2). Poi assemblaggio, controllo severo, PDF, consegna. Prevista 19:15 UTC"
   }
  ],
- "aggiornato": "2026-11-22 17:08:01"
+ "aggiornato": "2026-11-22 17:37:14"
 }
