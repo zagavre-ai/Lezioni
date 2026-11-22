@@ -6,9 +6,9 @@
  "domande_sara": [],
  "note": [
   {
-   "quando": "22/11 22:36",
-   "testo": "22/11 22:45 UTC: ultimo giro: numeri più grandi per l'OCR del controllo severo (resta solo 'card sola'). Consegna prevista 00:00 UTC."
+   "quando": "22/11 23:13",
+   "testo": "22/11 23:20 UTC: giro 4 pushato (video 47:46, 85999 fr). Il controllo_severo.py di questo giro è in corso (~35 min): 3 giri precedenti RESPINTI solo per 'card sola' (OCR dei numeri), corretti. Scrivo l'esito appena finisce."
   }
  ],
- "aggiornato": "2026-11-22 22:36:01"
+ "aggiornato": "2026-11-22 23:13:37"
 }
