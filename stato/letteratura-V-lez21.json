@@ -107,7 +107,11 @@
   {
    "quando": "22/11 19:03",
    "testo": "correzioni 22/11 fatte (19:05 UTC): consegnata sul ramo revisione-letteratura-V-lez21. 55:20,6, 99617 fotogrammi, controllo_severo ESITO OK (con OCR sostitutivo: tesseract non installabile), picco -1,8 dBFS, quiz +0,000 s, sync prof 0,015 s. Secondi nuovi nella scheda. Controllo di un agente separato in corso: lo aggiungo al rapporto."
+  },
+  {
+   "quando": "22/11 19:03",
+   "testo": "correzioni 22/11 fatte (19:12 UTC): rapporto aggiornato con il controllo indipendente (nessun difetto bloccante; 1 sottotitolo lungo 9,5 s a 15:43 non corretto). Consegna completa sul ramo revisione-letteratura-V-lez21."
   }
  ],
- "aggiornato": "2026-11-22 19:03:07"
+ "aggiornato": "2026-11-22 19:03:57"
 }
