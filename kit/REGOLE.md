@@ -1,5 +1,7 @@
 # REGOLE DELLE CHAT · Videolezioni Centro Studi Telesio (versione 8/11/2026)
 
+> **22/11/2026:** le regole decise da Sara stanno in `CLAUDE.md` nella radice del repository e **vincono su questo file**. Qui restano valide le regole tecniche (file, stato, strumenti) che non le contraddicono.
+
 Valgono per tutte le chat e tutte le lezioni. Se una regola manca o non è chiara, chiedi alla master con stato.py (punto 9). Non chiedere a Sara.
 
 ## 1. Chi decide
