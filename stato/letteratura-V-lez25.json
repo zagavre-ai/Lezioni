@@ -2,27 +2,27 @@
  "tag": "letteratura-V-lez25",
  "parti": {
   "1": {
-   "stato": "IN_REVISIONE",
+   "stato": "PRONTA",
    "voci": "kore",
    "quiz_ok": "si",
    "fermi_ok": "si",
    "sub_ok": "si",
    "video": "Letteratura_Lez25_Parte1_1080p.mp4",
-   "durata_s": 2318.2,
-   "durata": "38:38.2",
-   "fotogrammi": 69547,
-   "fotogrammi_attesi": 69547,
-   "peso_MB": 146.6,
+   "durata_s": 2320.8,
+   "durata": "38:40.8",
+   "fotogrammi": 69625,
+   "fotogrammi_attesi": 69625,
+   "peso_MB": 145.7,
    "vtt": "Letteratura_Lez25_Parte1.vtt",
    "scheda": {
     "materia": "Letteratura italiana (V)",
     "titolo": "Letteratura V · Lezione 25 · Pier Paolo Pasolini",
-    "durata_s": 2318.23,
+    "durata_s": 2320.83,
     "argomenti": [
      {
       "n": 1,
       "titolo": "La vita e gli anni friulani",
-      "inizio_s": 70.367,
+      "inizio_s": 73.9,
       "quiz_s": 411.167
      },
      {
@@ -392,7 +392,7 @@
    "timeline": [
     [
      "T1",
-     70.367,
+     73.9,
      2.8
     ],
     [
@@ -427,17 +427,17 @@
     ],
     [
      "GL1",
-     2180.367,
+     2183.767,
      55.233
     ],
     [
      "RF1",
-     2235.6,
+     2239.0,
      62.233
     ],
     [
      "FIN1",
-     2297.833,
+     2301.233,
      6.6
     ]
    ]
@@ -495,10 +495,14 @@
   {
    "quando": "22/11 18:36",
    "testo": "18:45 UTC: controllo indipendente fatto, corretti: piè di pagina, mappa (tutte le parole del prof), glossario a 2 pagine, tagli secchi, volume, jingle, taglio D0/D1. Ricodifica in corso; consegna prevista 19:15."
+  },
+  {
+   "quando": "22/11 19:20",
+   "testo": "19:20 UTC correzioni 22/11 fatte, consegnate sul ramo revisione-letteratura-V-lez25 (38:40, 69625 fot., -16,6 LUFS, jingle 0,000 s, sync -0,013 s). Controllo severo ancora in corso al momento della consegna: durata sotto i 45 min (materiale del prof 20 min). Unione con le pillole della master: tenuta la nuova versione."
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 25 · Pasolini",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-22 18:36:20"
+ "aggiornato": "2026-11-22 19:20:11"
 }
