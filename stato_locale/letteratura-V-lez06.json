@@ -100,7 +100,11 @@
   {
    "quando": "22/11 19:56",
    "testo": "20:00 UTC: controllo severo concluso, RESPINTA per 2 punti (card attenuate non lette dall'OCR = probabile falso positivo, e minuscola dopo i due punti nel riepilogo). consegna del 19:30 già sul ramo; rifaccio ora le card attenuate piu' contrastate e la maiuscola nel riepilogo e riconsegno sullo stesso ramo entro circa 20:45 UTC se il controllo diventa OK"
+  },
+  {
+   "quando": "22/11 20:22",
+   "testo": "20:25 UTC: 2° controllo severo ancora RESPINTA solo per 'card sola' (falso positivo: il controllo conta i numeri 1-3 e le mie card del 2° gruppo erano numerate 3-4): numero ora ripartito da 1 per slide, ricodifico e rimonto (circa 35 min), poi riconsegno sullo stesso ramo"
   }
  ],
- "aggiornato": "2026-11-22 19:56:42"
+ "aggiornato": "2026-11-22 20:22:01"
 }
