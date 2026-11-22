@@ -146,6 +146,18 @@ Valgono per **tutte le materie e tutte le lezioni**. Non si discutono e non si c
 ## 11. Controlli obbligatori prima di consegnare (se uno non torna, non si consegna)
 Il controllo lo fa **un agente separato**, che non ha montato la lezione. I difetti si correggono e il controllo si ripete finché non ne resta nessuno.
 
+**Prima di tutto (22/11, obbligatorio):** su ogni Parte finale lancia `python3 kit/tools/controllo_rapido.py VIDEO.mp4 "Titolo esatto"`. Ci mette circa 5 minuti. Deve dare **ESITO OK**. Poi **apri e guarda** il `foglio_fotogrammi_*.jpg` che produce: 24 fotogrammi con il minuto, più quelli delle pause mute. Consegna il foglio e il json sul ramo revisione, accanto al video.
+
+**Cosa si deve vedere sul foglio** (il 22/11 sono state respinte 20 lezioni su 23 per queste cose):
+- piè di pagina: **solo la materia e «Pagina N»**, mai «Prof.» né il nome del docente; il nome compare solo nella fascia gialla;
+- schede di titolo, quiz, ripasso e riepilogo in **blu scuro a tutto schermo**: niente fasce sopra e sotto, niente schede bianche;
+- etichette in Figtree Bold, mai il carattere da macchina da scrivere (DM Mono), niente parentesi quadre;
+- riquadro del docente giusto: Mazzotti 4:3 con la fascia gialla, Caputi nel tondo;
+- **nessuna pausa muta oltre 2,5 s**, neanche sulle schede dei quiz e sulle mappe: la mappa intera resta ferma 4 s, non di più;
+- in fondo la sigla finale del kit con l'avviso dei diritti, poi l'intro «Compiti» con il jingle; mai un «Grazie per l'attenzione» muto;
+- card intere a 40 px, mai una card sola oltre 60 s, nessuna schermata uguale oltre 3 minuti;
+- scritte delle mappe almeno 34 px.
+
 - [ ] Nessun taglio a metà frase del docente (tabella inizio e fine di ogni pezzo).
 - [ ] Voce del docente non alterata: timbro tra −9 e −20 dB in ogni Parte, confrontato con l'originale.
 - [ ] Labbra e voce entro 0,04 s; nessun fermo immagine del docente.
