@@ -2,13 +2,13 @@
  "tag": "letteratura-V-lez11",
  "parti": {
   "1": {
-   "stato": "IN_REVISIONE",
+   "stato": "REVISIONATA",
    "video": "Letteratura_Lez11_Parte1_1080p.mp4",
-   "durata_s": 3104.0,
-   "durata": "51:44.0",
-   "fotogrammi": 93120,
-   "fotogrammi_attesi": 93120,
-   "peso_MB": 240.1
+   "durata_s": 3177.3,
+   "durata": "52:57.3",
+   "fotogrammi": 95318,
+   "fotogrammi_attesi": 95318,
+   "peso_MB": 258.7
   }
  },
  "manca": "",
@@ -67,7 +67,11 @@
   {
    "quando": "22/11 18:46",
    "testo": "18:50 UTC: controllo indipendente fatto, corretti: sincronia card (6 punti), max 3 card (argomenti e riepilogo), dissolvenze 0,33 s, VF->finale dissolve, copertina MAPPE. Ricodifica in corso (finisce ~19:03), poi controllo severo e consegna entro 19:25 UTC."
+  },
+  {
+   "quando": "22/11 19:21",
+   "testo": "correzioni 22/11 fatte: consegna sul ramo revisione-letteratura-V-lez11 (19:22 UTC). Controllo severo OCR ancora in corso: esito in un commit successivo. Durata 52:57."
   }
  ],
- "aggiornato": "2026-11-22 18:46:18"
+ "aggiornato": "2026-11-22 19:21:18"
 }
