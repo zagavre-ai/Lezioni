@@ -2,7 +2,12 @@
  "tag": "moda-tecnologie-III-lez01",
  "parti": {},
  "manca": "",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "22/11 13:28",
+   "testo": "TEC-A: presa lez01 (Preparazione pt.1). Materiali trovati SI: mp4 (74:28, 852x480, schermo con testo + tondino prof), PDF dispensa 45 pag, xlsx 20 domande, compiti 5 domande (da release moda-chimica-III-IV). Trascrizione in corso. Durata >65 min: prevedo 2 Parti, dividerò a fine argomento. Stima consegna lez01: non ancora stimabile finché non ho trascrizione e piano argomenti; ti scrivo appena pronti. Nota onesta: tre lezioni da 70+ min nel modello Gonna sono molto lavoro per una sessione sola; dimmi se preferisci priorità/ordine diverso."
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
@@ -12,5 +17,5 @@
  ],
  "materia": "Tecnologie dei materiali e dei processi produttivi e organizzativi della moda",
  "docente": "Prof.ssa Piera Caputi",
- "aggiornato": "2026-11-22 13:27:13"
+ "aggiornato": "2026-11-22 13:28:26"
 }
