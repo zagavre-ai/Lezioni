@@ -708,9 +708,13 @@
   {
    "quando": "22/11 22:46",
    "testo": "22/11 ~22:55 UTC: P1 45:49 e P2 35:12 assemblate con voci provvisorie; controllo severo P1 solo 2 difetti (volume, silenzio mappa) gia corretti, ora rilancio su entrambe; agente separato al lavoro; in attesa delle 18 voci nuove (ne sono arrivate 5)."
+  },
+  {
+   "quando": "22/11 23:00",
+   "testo": "22/11 ~23:30 UTC: controllo severo P1 OK; P2 solo durata 35 min (accettata) piu 2 difetti gia corretti (titolo copertina P2, silenzio compiti); controllo_rapido P1 OK; agente separato: corretti sottotitoli, spiegone, doppioni di sigla nei JSON, sfasamento 25 ms. Aspetto le 18 voci (arrivate 5) per rifare i pezzi e consegnare entro le 10:00 UTC."
   }
  ],
  "materia": "storia-V",
  "lezione": "5",
- "aggiornato": "2026-11-22 22:46:20"
+ "aggiornato": "2026-11-22 23:00:56"
 }
