@@ -2,13 +2,13 @@
  "tag": "letteratura-V-lez05",
  "parti": {
   "1": {
-   "stato": "IN_REVISIONE",
-   "video": "final.mp4",
-   "durata_s": 3417.7,
-   "durata": "56:57.7",
-   "fotogrammi": 102532,
-   "fotogrammi_attesi": 102532,
-   "peso_MB": 391.0,
+   "stato": "REVISIONATA",
+   "video": "final5.mp4",
+   "durata_s": 3559.9,
+   "durata": "59:19.9",
+   "fotogrammi": 106796,
+   "fotogrammi_attesi": 106796,
+   "peso_MB": 399.9,
    "vtt": "Letteratura_Lez5_Parte1.vtt"
   }
  },
@@ -37,6 +37,10 @@
   {
    "quando": "22/11 18:35",
    "testo": "Lez5: l'agente indipendente ha trovato bordo giallo card non affidabile (sync lessicale) e QR in alcune fettine: li dichiaro nel rapporto; se serve rifinitura a mano, puo' passare a un'altra chat"
+  },
+  {
+   "quando": "22/11 19:07",
+   "testo": "Lez5 consegnata sul ramo revisione. Il timeline.json in radice (vecchio) non coincide col video nuovo: usare revisione-letteratura-V-lez05/timeline.json"
   }
  ],
  "domande_sara": [],
@@ -124,7 +128,11 @@
   {
    "quando": "22/11 18:35",
    "testo": "18:45 UTC (6/6): ricodifica finale con fascia gialla corretta e pagine <3 min in corso; poi controllo severo e push; consegna prevista 19:20 UTC. Difetti noti non risolti nel rapporto (sync card, QR, glossario)"
+  },
+  {
+   "quando": "22/11 19:07",
+   "testo": "correzioni 22/11 fatte (19:08 UTC) CON RISERVE: bordo giallo card (sync lessicale) da rifinire a mano; QR in alcune fettine; glossario su 2 pagine; controllo severo non terminato (da rilanciare). Merge con timeline.json della master; quiz4 +1,03 s e glossario/verifica/compiti +142,13 s"
   }
  ],
- "aggiornato": "2026-11-22 18:35:49"
+ "aggiornato": "2026-11-22 19:07:52"
 }
