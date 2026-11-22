@@ -48,7 +48,7 @@ def costruisci(parte,out,crf=19,prova=False):
     tr=np.frombuffer(sh(['ffmpeg','-v','error','-i',f'{REPO}/kit/suoni/trans.wav','-f','f32le','-ar','48000','-ac','2','-']).stdout.encode('latin1') if False else subprocess.run(['ffmpeg','-v','error','-i',f'{REPO}/kit/suoni/trans.wav','-f','f32le','-ar','48000','-ac','2','-'],capture_output=True).stdout,dtype=np.float32).reshape(-1,2)
     t=0;tl=[]
     for i,p in enumerate(ped):
-        tl.append([p,round(t,3),p]);
+        tl.append([p,round(t,3),round(D[i],3)]);
         if i>0:
             s=int(round((t-0.5)*48000));s=max(0,s);e=min(len(a),s+len(tr));a[s:e]+=tr[:e-s]*0.8
         t+=D[i]
