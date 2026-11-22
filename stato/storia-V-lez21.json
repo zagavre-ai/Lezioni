@@ -22,6 +22,10 @@
   {
    "quando": "22/11 19:20",
    "testo": "Correzione voci lez 21: la Parte 1 ha 4 argomenti (USA, Medio Oriente, Obama/Trump, mondo multipolare). Usate BEN1_R3 e BEN2_R3 (NON BEN1_R2/BEN2_R2); SP_0 e SP_4 hanno il testo aggiornato (non ancora generati). Le voci con nome del prof (BEN1, BEN2, BENV1) non vanno usate."
+  },
+  {
+   "quando": "22/11 19:48",
+   "testo": "Cambio struttura lez 21 per le durate: Parte 1 = argomenti 1-3 (circa 41 min), Parte 2 = argomenti 4-7 + fine (circa 54 min). Voci da usare: BEN1_R4, BEN2_R4, FZ1_R3 (NON BEN1_R2/R3, BEN2_R2/R3, FZ1_R2); SP_0 e SP_4 aggiornati; SP_4B non serve piu'."
   }
  ],
  "domande_sara": [],
@@ -46,5 +50,5 @@
  "materia": "Storia V",
  "lezione": "Lezione 21 · Il mondo dal 2001 ad oggi",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-22 19:20:56"
+ "aggiornato": "2026-11-22 19:48:26"
 }
