@@ -55,6 +55,10 @@
   {
    "quando": "20/11 23:18",
    "testo": "Lez 3 consegnata sul ramo revisione-storia-V-lez03 (card intere). Prendo la 9."
+  },
+  {
+   "quando": "22/11 18:33",
+   "testo": "Voci nuove sul ramo voci-storia-V-lez03 (testi_voci.json): BEN_R2 (benvenuto senza nome del docente), SPG_0 (apertura spiegone Parte 2; per il resto del spiegone riuso R1-R5 gia' esistenti), MP1_1-7, MP2_1-6, MP3_1-7 (mappe del prof nodo per nodo). Altre voci nuove forse in seguito. Monto con voci provvisorie."
   }
  ],
  "domande_sara": [],
@@ -122,6 +126,6 @@
  ],
  "materia": "Storia V",
  "lezione": "Lezione 3 · L'Italia di Giolitti",
- "aggiornato": "2026-11-22 18:23:58",
+ "aggiornato": "2026-11-22 18:33:57",
  "docente": "Prof. Giorgio Mazzotti"
 }
