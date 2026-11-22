@@ -333,5 +333,17 @@
   "nome": "FIN",
   "testo": "Ricapitoliamo la lezione. Il Biennio Rosso, le elezioni del millenovecentodiciannove e la crisi di Fiume. Poi la nascita del fascismo, Giolitti e le elezioni del millenovecentoventuno. Infine la Marcia su Roma, il primo governo fascista e il delitto Matteotti, che segna il passaggio alla dittatura.",
   "lingua": "it"
+ },
+ {
+  "nome": "BEN_R2",
+  "testo": "Benvenuti alla lezione di Storia. Oggi parliamo del dopoguerra italiano e del fascismo, dal millenovecentodiciannove al millenovecentoventicinque. Vedremo sette argomenti: dal Biennio rosso e dalla crisi di Fiume alla nascita del fascismo, fino alla Marcia su Roma e al delitto Matteotti."
+ },
+ {
+  "nome": "SPIEGONE_P2",
+  "testo": "Prima di continuare, ripassiamo insieme quello che abbiamo visto nella Parte precedente. Primo argomento: il Biennio rosso. L'Italia esce dalla Grande Guerra con un altissimo deficit pubblico e con un'inflazione violenta, che dimezza il potere d'acquisto dei salari. La fine delle commesse belliche chiude molte aziende e lascia senza lavoro oltre due milioni di persone. Nel Centro-Sud i contadini invadono i latifondi, perché la terra promessa durante la guerra non è stata redistribuita. Nel settembre del millenovecentoventi, al Nord, gli operai occupano le fabbriche e creano i consigli di fabbrica, mentre i massimalisti del Partito Socialista Italiano, ispirati alla Rivoluzione russa, predicano l'abbattimento dello Stato borghese. Secondo argomento: la vittoria mutilata. Nazionalisti, reduci e giovani ufficiali giudicano la classe dirigente liberale debole e incapace ai tavoli di pace di Parigi. Il poeta Gabriele d'Annunzio e Mussolini alimentano il mito della vittoria mutilata, perché all'Italia sono negate la Dalmazia e Fiume. Nel settembre del millenovecentodiciannove d'Annunzio conquista Fiume con alcune centinaia di soldati ribelli e volontari. Nello stesso anno si vota con il suffragio universale maschile e con il sistema proporzionale: il Partito Socialista Italiano diventa la prima forza, seguito dal Partito Popolare Italiano di don Luigi Sturzo, mentre i liberali perdono il controllo assoluto del Parlamento. Terzo argomento: la nascita del fascismo. Il ventitré marzo del millenovecentodiciannove Mussolini fonda a Milano i Fasci di combattimento, con reduci, nazionalisti e intellettuali futuristi. Dal millenovecentoventi le squadre d'azione, con la camicia nera come divisa, colpiscono cooperative rosse, leghe contadine e municipi socialisti, e gran parte dello Stato tollera queste violenze. Ora vediamo come continua questa storia."
+ },
+ {
+  "nome": "CINTRO_R2",
+  "testo": "Ora, i compiti."
  }
 ]
