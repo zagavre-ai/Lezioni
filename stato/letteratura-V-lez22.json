@@ -4,46 +4,46 @@
   "1": {
    "stato": "REVISIONATA",
    "video": "Letteratura_Lez22_Parte1_1080p.mp4",
-   "durata_s": 3098.6,
-   "durata": "51:38.6",
-   "fotogrammi": 92957,
-   "fotogrammi_attesi": 92957,
-   "peso_MB": 291.0,
+   "durata_s": 2927.1,
+   "durata": "48:47.1",
+   "fotogrammi": 87812,
+   "fotogrammi_attesi": 87812,
+   "peso_MB": 281.4,
    "vtt": "Letteratura_Lez22_Parte1.vtt",
    "scheda": {
     "materia": "Letteratura italiana (V)",
     "titolo": "Letteratura V · Lezione 22 · Elsa Morante",
-    "durata_s": 3098.567,
+    "durata_s": 2927.067,
     "argomenti": [
      {
       "n": 1,
       "titolo": "La vita e la formazione",
       "inizio_s": 50.5,
-      "quiz_s": 695.4
+      "quiz_s": 641.7
      },
      {
       "n": 2,
       "titolo": "I primi successi e Menzogna e sortilegio",
-      "inizio_s": 700.7,
-      "quiz_s": 1305.833
+      "inizio_s": 647.0,
+      "quiz_s": 1208.2
      },
      {
       "n": 3,
       "titolo": "L'isola di Arturo",
-      "inizio_s": 1311.133,
-      "quiz_s": 2008.0
+      "inizio_s": 1213.5,
+      "quiz_s": 1859.1
      },
      {
       "n": 4,
       "titolo": "La storia",
-      "inizio_s": 2013.3,
-      "quiz_s": 2574.233
+      "inizio_s": 1864.4,
+      "quiz_s": 2381.333
      },
      {
       "n": 5,
       "titolo": "Aracoeli, l'ultimo romanzo",
-      "inizio_s": 2579.533,
-      "quiz_s": 2950.167
+      "inizio_s": 2386.633,
+      "quiz_s": 2713.733
      }
     ],
     "quiz": {
@@ -323,8 +323,8 @@
       ]
      }
     },
-    "t_verifica": 3071.667,
-    "t_compiti": 3094.367,
+    "t_verifica": 2900.667,
+    "t_compiti": 2922.867,
     "approfondimenti": [
      {
       "id": "AP1a",
@@ -342,104 +342,79 @@
       "inizio_s": 541.7
      },
      {
-      "id": "MP1",
-      "titolo": "Elsa Morante",
-      "inizio_s": 589.3
-     },
-     {
       "id": "AP2a",
       "titolo": "Menzogna e sortilegio: la trama",
-      "inizio_s": 1083.233
+      "inizio_s": 1029.533
      },
      {
       "id": "AP2b",
       "titolo": "Passioni, ironia e modelli",
-      "inizio_s": 1127.233
+      "inizio_s": 1073.533
      },
      {
       "id": "AP2c",
       "titolo": "Parole chiave di Menzogna e sortilegio",
-      "inizio_s": 1184.033
-     },
-     {
-      "id": "MP2",
-      "titolo": "Menzogna e sortilegio",
-      "inizio_s": 1205.867
+      "inizio_s": 1130.333
      },
      {
       "id": "AP3a",
       "titolo": "L'isola di Arturo: il romanzo",
-      "inizio_s": 1742.233
+      "inizio_s": 1642.7
      },
      {
       "id": "AP3b",
       "titolo": "Le tre fasi del romanzo",
-      "inizio_s": 1780.4
+      "inizio_s": 1680.867
      },
      {
       "id": "AP3c",
       "titolo": "Il significato del romanzo e il Neorealismo",
-      "inizio_s": 1826.633
+      "inizio_s": 1727.1
      },
      {
       "id": "AP3d",
       "titolo": "Parole chiave dell'Isola di Arturo",
-      "inizio_s": 1880.967
-     },
-     {
-      "id": "MP3",
-      "titolo": "L'isola di Arturo",
-      "inizio_s": 1908.233
+      "inizio_s": 1781.433
      },
      {
       "id": "AP4a",
       "titolo": "La storia: la trama",
-      "inizio_s": 2318.467
+      "inizio_s": 2169.567
      },
      {
       "id": "AP4b",
       "titolo": "I personaggi e la forma del romanzo",
-      "inizio_s": 2361.633
+      "inizio_s": 2212.733
      },
      {
       "id": "AP4c",
       "titolo": "La storia e l'accoglienza della critica",
-      "inizio_s": 2397.467
+      "inizio_s": 2248.567
      },
      {
       "id": "AP4d",
       "titolo": "Parole chiave della Storia",
-      "inizio_s": 2446.1
-     },
-     {
-      "id": "MP4",
-      "titolo": "La storia",
-      "inizio_s": 2480.567
+      "inizio_s": 2297.2
      },
      {
       "id": "AP5a",
       "titolo": "Aracoeli: il romanzo",
-      "inizio_s": 2765.867
+      "inizio_s": 2572.967
      },
      {
       "id": "AP5b",
       "titolo": "L'accoglienza di Aracoeli",
-      "inizio_s": 2803.533
+      "inizio_s": 2610.633
      },
      {
       "id": "AP5c",
       "titolo": "L'isola di Arturo e Aracoeli a confronto",
-      "inizio_s": 2835.3
+      "inizio_s": 2642.4
      },
      {
-      "id": "MP5",
-      "titolo": "Aracoeli",
-      "inizio_s": 2867.533
-     },
-     {
-      "id": "MPF",
-      "titolo": "Elsa Morante",
-      "inizio_s": 2955.467
+      "id": "MAPPA",
+      "titolo": "La mappa del professore",
+      "inizio_s": 2719.033
      }
     ]
    }
@@ -525,7 +500,11 @@
   {
    "quando": "22/11 19:05",
    "testo": "correzioni 22/11 - 2h30: controllo severo: unico errore rimasto 'pause >2,5 s' (fine mappa e una pausa del prof a 24:23): corretti; sto ricodificando il pezzo D3 e riassemblando (15 min), poi controllo severo di conferma e consegna. Rischio: consegna 20:40 circa (10 min oltre la scadenza per il controllo severo di conferma)."
+  },
+  {
+   "quando": "22/11 19:31",
+   "testo": "correzioni 22/11 fatte: 48:47,1 (87812 fotogrammi), 281 MB, -16,3 LUFS, picco -1,8 dBTP; controllo severo ESITO OK; sync prof 0,0001 s/0 fotogrammi; mappa unica BES ramo per ramo; slide 40 px max 3 card. Non ascoltato; card in ritardo 1-1,4 s in 4 punti non corretti (vedi rapporto)."
   }
  ],
- "aggiornato": "2026-11-22 19:05:47"
+ "aggiornato": "2026-11-22 19:31:55"
 }
