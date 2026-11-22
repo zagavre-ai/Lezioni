@@ -1,5 +1,6 @@
-M1b OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
-M1c OK frasi trovate 1 / 1 parole diverse 1 (vere 0) tentativi 1
-M3b OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
-M3c OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
-M4b OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
+MR1 OK frasi trovate 1 / 1 parole diverse 4 (vere 1) tentativi 1
+MR3 OK frasi trovate 1 / 1 parole diverse 3 (vere 0) tentativi 1
+MR5 OK frasi trovate 1 / 1 parole diverse 4 (vere 0) tentativi 1
+MR1 DA CONTROLLARE durata fuori misura
+MR3 DA CONTROLLARE durata fuori misura
+MR5 DA CONTROLLARE durata fuori misura
