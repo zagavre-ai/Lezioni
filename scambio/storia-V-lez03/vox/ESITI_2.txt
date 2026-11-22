@@ -1,0 +1,12 @@
+SPG_0 OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
+MP1_2 OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
+MP1_4 OK frasi trovate 1 / 1 parole diverse 1 (vere 0) tentativi 1
+MP1_6 OK frasi trovate 1 / 1 parole diverse 2 (vere 0) tentativi 1
+MP2_1 OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
+MP2_3 OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
+MP2_5 OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
+MP3_1 OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
+MP3_3 OK frasi trovate 1 / 1 parole diverse 2 (vere 0) tentativi 1
+MP3_5 OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
+MP3_7 OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
+DIC_2 OK frasi trovate 1 / 1 parole diverse 2 (vere 3) tentativi 1
