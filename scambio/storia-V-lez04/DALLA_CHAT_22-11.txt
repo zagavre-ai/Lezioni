@@ -1,0 +1,2 @@
+22/11 sera: la chat della lezione 4 (correzioni 22/11) manda in testi_voci.json le 22 voci NUOVE (benvenuto senza nome del prof, spiegoni delle Parti 2 e 3, approfondimenti AP1-AP11).
+Le voci già consegnate il 18/11 (MAP1-6, PI, SC, GL, F3_x) restano valide e si riusano: l'elenco è in testi_voci_precedenti_18-11.json. Da NON rifare: B3_x/BEN/FIN (sostituite da B4_x).

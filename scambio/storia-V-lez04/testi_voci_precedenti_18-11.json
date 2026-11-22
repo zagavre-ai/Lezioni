@@ -1,0 +1,492 @@
+[
+ {
+  "nome": "MAP1",
+  "testo": "Ecco la mappa delle premesse della Prima guerra mondiale. Al centro, l'Europa dell'inizio del Novecento. Si divide in alleanze contrapposte: la Triplice Alleanza e la Triplice Intesa. È destabilizzata da Guglielmo secondo di Germania, che adotta una politica estera e coloniale aggressiva. E dalla crisi dell'Impero ottomano, che causa la concorrenza tra Austria-Ungheria e Russia.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MAP2",
+  "testo": "Ecco la mappa dell'inizio della guerra. L'attentato di Sarajevo fa scattare le alleanze contrapposte. Seguono l'attacco tedesco alla Francia e le battaglie di Tannenberg e dei laghi Masuri. Poi la guerra di posizione nelle trincee.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MAP3",
+  "testo": "Ecco la mappa dell'intervento dell'Italia. L'Italia è divisa tra interventisti e neutralisti. Gli interventisti sono liberali conservatori, che firmano il Patto di Londra, e nazionalisti, che organizzano manifestazioni per l'intervento. I neutralisti sono liberali progressisti e socialisti.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MAP4",
+  "testo": "Ecco la mappa della guerra tra il millenovecentosedici e il millenovecentodiciassette. La Prima guerra mondiale è una guerra globale e totale. Nel millenovecentosedici vede gigantesche e inutili battaglie. Nel millenovecentodiciassette vede il ritiro della Russia, l'intervento degli Stati Uniti e la sconfitta italiana a Caporetto.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MAP5",
+  "testo": "Ecco la mappa della vittoria dell'Intesa. L'anno millenovecentodiciotto inizia con una grande offensiva tedesca, a cui l'Intesa risponde con la battaglia di Amiens. Vede la sconfitta austriaca sul fronte italiano, a cui segue l'armistizio del quattro novembre. E la rivoluzione in Germania, che porta all'armistizio dell'undici novembre.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MAP6",
+  "testo": "Ecco la mappa delle condizioni della pace. La Conferenza di pace di Parigi è ispirata dai Quattordici punti di Wilson, che sostengono l'autodeterminazione dei popoli e la nascita di una Società delle Nazioni. È condizionata da Francia e Regno Unito, che vogliono una pace punitiva per la Germania.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PI1",
+  "testo": "Facciamo un riepilogo di quello che hai appena visto: L'Europa all'inizio del Novecento. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC1_1",
+  "testo": "Primo: nazionalismi e rivalità economiche rendono instabili i rapporti tra le grandi potenze.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC1_2",
+  "testo": "Secondo: due alleanze contrapposte, la Triplice Alleanza e la Triplice Intesa.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC1_3",
+  "testo": "Terzo: la Germania di Guglielmo secondo è aggressiva e si arma.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC1_4",
+  "testo": "Quarto: il piano Tirpitz tedesco minaccia il predominio navale del Regno Unito.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC1_5",
+  "testo": "Quinto: la Francia vuole la rivincita sulla sconfitta del milleottocentosettanta e l'Alsazia e la Lorena.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PI2",
+  "testo": "Facciamo un riepilogo di quello che hai appena visto: Le crisi coloniali e i Balcani. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC2_1",
+  "testo": "Primo: le crisi marocchine del millenovecentocinque e del millenovecentoundici oppongono Francia e Germania.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC2_2",
+  "testo": "Secondo: nel millenovecentotto la rivoluzione dei Giovani Turchi indebolisce l'Impero ottomano.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC2_3",
+  "testo": "Terzo: l'Austria-Ungheria annette la Bosnia-Erzegovina, e Serbia e Russia reagiscono.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC2_4",
+  "testo": "Quarto: le guerre balcaniche del millenovecentododici e tredici lasciano la regione instabile.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC2_5",
+  "testo": "Quinto: i Balcani diventano la polveriera d'Europa, tra Austria e Russia.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PI3",
+  "testo": "Facciamo un riepilogo di quello che hai appena visto: 1914: il casus belli. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC3_1",
+  "testo": "Primo: il ventotto giugno millenovecentoquattordici Gavrilo Princip uccide a Sarajevo l'arciduca Francesco Ferdinando.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC3_2",
+  "testo": "Secondo: l'Austria-Ungheria impone alla Serbia un ultimatum durissimo, poi dichiara guerra.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC3_3",
+  "testo": "Terzo: le alleanze trascinano nel conflitto Germania, Russia, Francia e Regno Unito.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC3_4",
+  "testo": "Quarto: con Giappone e Impero ottomano la guerra diventa mondiale.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC3_5",
+  "testo": "Quinto: la popolazione accoglie la guerra con entusiasmo, convinta che sarà rapidissima.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PI4",
+  "testo": "Facciamo un riepilogo di quello che hai appena visto: I fronti di guerra e la trincea. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC4_1",
+  "testo": "Primo: il piano Schlieffen fallisce, i francesi fermano i tedeschi sulla Marna.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC4_2",
+  "testo": "Secondo: sul fronte occidentale nasce la guerra di posizione, con ottocento chilometri di trincee.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC4_3",
+  "testo": "Terzo: a est la guerra resta di movimento, e i russi sono sconfitti a Tannenberg e ai laghi Masuri.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC4_4",
+  "testo": "Quarto: mitragliatrici, artiglieria, filo spinato e armi chimiche rendono gli assalti carneficine.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC4_5",
+  "testo": "Quinto: nelle trincee fango, malattie e bombardamenti causano gravi traumi psicologici.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PI5",
+  "testo": "Facciamo un riepilogo di quello che hai appena visto: 1915: l'Italia in guerra. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC5_1",
+  "testo": "Primo: nell'agosto millenovecentoquattordici il governo Salandra dichiara la neutralità.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC5_2",
+  "testo": "Secondo: il Paese si divide tra neutralisti, maggioranza in Parlamento, e interventisti, nelle piazze.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC5_3",
+  "testo": "Terzo: gli interventisti vogliono Trento e Trieste e un rinnovamento del Paese.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC5_4",
+  "testo": "Quarto: ad aprile millenovecentoquindici il governo firma in segreto il Patto di Londra.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC5_5",
+  "testo": "Quinto: dopo le radiose giornate di maggio, l'Italia dichiara guerra all'Austria-Ungheria il ventiquattro maggio.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PI6",
+  "testo": "Facciamo un riepilogo di quello che hai appena visto: Le battaglie di logoramento. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC6_1",
+  "testo": "Primo: Cadorna lancia undici offensive frontali sull'Isonzo, con enormi perdite.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC6_2",
+  "testo": "Secondo: nel millenovecentosedici la Strafexpedition austriaca fa cadere il governo Salandra.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC6_3",
+  "testo": "Terzo: a Verdun la battaglia dura mesi, con circa ottocentomila vittime.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC6_4",
+  "testo": "Quarto: sulla Somme gli anglo-francesi attaccano, con un bilancio altrettanto devastante.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC6_5",
+  "testo": "Quinto: i vertici militari rispondono alle insubordinazioni con fucilazioni e decimazione.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PI7",
+  "testo": "Facciamo un riepilogo di quello che hai appena visto: La guerra totale. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC7_1",
+  "testo": "Primo: gli Stati controllano la produzione e impongono il razionamento.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC7_2",
+  "testo": "Secondo: nasce il fronte interno, e i civili subiscono privazioni e mercato nero.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC7_3",
+  "testo": "Terzo: milioni di donne entrano nelle fabbriche e accelerano l'emancipazione femminile.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC7_4",
+  "testo": "Quarto: blocco navale britannico e guerra sottomarina tedesca, fino al Lusitania.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC7_5",
+  "testo": "Quinto: nel millenovecentoquindici i Giovani Turchi deportano e sterminano oltre un milione di armeni.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PI8",
+  "testo": "Facciamo un riepilogo di quello che hai appena visto: 1917: crisi e svolta. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC8_1",
+  "testo": "Primo: la Russia, con Lenin, esce dalla guerra con la pace di Brest-Litovsk.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC8_2",
+  "testo": "Secondo: ad aprile gli Stati Uniti entrano in guerra con l'Intesa.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC8_3",
+  "testo": "Terzo: a ottobre la disfatta di Caporetto fa crollare le linee italiane.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC8_4",
+  "testo": "Quarto: l'esercito italiano resiste sul Piave e sul monte Grappa.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC8_5",
+  "testo": "Quinto: Diaz sostituisce Cadorna e migliora le condizioni dei soldati.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PI9",
+  "testo": "Facciamo un riepilogo di quello che hai appena visto: 1918: la fine degli imperi. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC9_1",
+  "testo": "Primo: la Germania lancia l'ultima offensiva a ovest.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC9_2",
+  "testo": "Secondo: ad Amiens l'Intesa, con mezzo milione di soldati americani e i carri armati, sfonda il fronte tedesco.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC9_3",
+  "testo": "Terzo: il ventiquattro ottobre l'Italia vince a Vittorio Veneto.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC9_4",
+  "testo": "Quarto: gli armistizi di Villa Giusti e di Compiègne, e l'abdicazione dei sovrani.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC9_5",
+  "testo": "Quinto: crollano quattro imperi: tedesco, austro-ungarico, russo e ottomano.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PI10",
+  "testo": "Facciamo un riepilogo di quello che hai appena visto: I trattati di pace. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC10_1",
+  "testo": "Primo: i quattordici punti di Wilson propongono un nuovo ordine fondato sulla nazionalità.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC10_2",
+  "testo": "Secondo: nasce la Società delle Nazioni, ma è debole fin dall'inizio.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC10_3",
+  "testo": "Terzo: la pace di Versailles del millenovecentodiciannove è punitiva verso la Germania.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC10_4",
+  "testo": "Quarto: nascono Polonia, Cecoslovacchia, Regno dei Serbi, Croati e Sloveni, e le repubbliche baltiche.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC10_5",
+  "testo": "Quinto: in Italia si parla di vittoria mutilata: niente Dalmazia e niente Fiume.",
+  "lingua": "it"
+ },
+ {
+  "nome": "PI11",
+  "testo": "Facciamo un riepilogo di quello che hai appena visto: Il bilancio del conflitto. Guarda lo schema e ripeti ad alta voce.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC11_1",
+  "testo": "Primo: circa diciassette milioni di morti, soprattutto giovani tra i venti e i quarant'anni.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC11_2",
+  "testo": "Secondo: tra il millenovecentodiciotto e il diciannove la spagnola uccide oltre quaranta milioni di persone.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC11_3",
+  "testo": "Terzo: oltre quaranta milioni di feriti, e i mutilati diventano il simbolo della guerra industriale.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC11_4",
+  "testo": "Quarto: il ritorno dei reduci è drammatico, tra Stati impoveriti e mancanza di lavoro.",
+  "lingua": "it"
+ },
+ {
+  "nome": "SC11_5",
+  "testo": "Quinto: nevrosi di guerra e cameratismo rendono difficile il ritorno alla vita civile.",
+  "lingua": "it"
+ },
+ {
+  "nome": "GL0",
+  "testo": "Ripassiamo le parole chiave della lezione.",
+  "lingua": "it"
+ },
+ {
+  "nome": "GL1",
+  "testo": "Triplice Alleanza: l'alleanza militare tra Germania, Austria-Ungheria e Italia.",
+  "lingua": "it"
+ },
+ {
+  "nome": "GL2",
+  "testo": "Triplice Intesa: l'alleanza tra Francia, Russia e Regno Unito.",
+  "lingua": "it"
+ },
+ {
+  "nome": "GL3",
+  "testo": "Casus belli: il fatto che scatena una guerra: nel millenovecentoquattordici, l'attentato di Sarajevo.",
+  "lingua": "it"
+ },
+ {
+  "nome": "GL4",
+  "testo": "Revanchismo: il desiderio di rivincita della Francia contro la Germania.",
+  "lingua": "it"
+ },
+ {
+  "nome": "GL5",
+  "testo": "Guerra di posizione: la guerra combattuta nelle trincee, con fronti quasi immobili.",
+  "lingua": "it"
+ },
+ {
+  "nome": "GL6",
+  "testo": "Fronte interno: la parte di popolazione civile coinvolta nello sforzo bellico, lontano dal fronte.",
+  "lingua": "it"
+ },
+ {
+  "nome": "GL7",
+  "testo": "Decimazione: la punizione che colpiva a sorte un soldato ogni dieci.",
+  "lingua": "it"
+ },
+ {
+  "nome": "GL8",
+  "testo": "Armistizio: l'accordo che sospende i combattimenti.",
+  "lingua": "it"
+ },
+ {
+  "nome": "GL9",
+  "testo": "Società delle Nazioni: l'organismo internazionale nato per risolvere pacificamente le controversie.",
+  "lingua": "it"
+ },
+ {
+  "nome": "GL10",
+  "testo": "Vittoria mutilata: il mito italiano di una vittoria tradita a Versailles.",
+  "lingua": "it"
+ },
+ {
+  "nome": "BEN1",
+  "testo": "Benvenuti alla lezione di Storia. Oggi parliamo della Prima guerra mondiale. In questa prima parte il professor Giorgio Mazzotti ci guida attraverso quattro argomenti: l'Europa all'inizio del Novecento, le crisi coloniali e i Balcani, l'attentato di Sarajevo del millenovecentoquattordici, e i fronti di guerra con la vita in trincea.",
+  "lingua": "it"
+ },
+ {
+  "nome": "BEN2",
+  "testo": "Benvenuti alla seconda parte della lezione sulla Prima guerra mondiale. Il professor Giorgio Mazzotti ci guida attraverso sette argomenti: l'intervento dell'Italia nel millenovecentoquindici, la guerra totale, le grandi battaglie di logoramento, il millenovecentodiciassette, il millenovecentodiciotto, il bilancio umano del conflitto e i trattati di pace.",
+  "lingua": "it"
+ },
+ {
+  "nome": "FIN1",
+  "testo": "Ricapitoliamo questa prima parte. Abbiamo visto l'equilibrio instabile dell'Europa all'inizio del Novecento, le crisi coloniali e i Balcani, l'attentato di Sarajevo con la reazione a catena delle alleanze, e infine i fronti di guerra e il dramma della trincea.",
+  "lingua": "it"
+ },
+ {
+  "nome": "FIN2",
+  "testo": "Ricapitoliamo questa seconda parte. L'Italia dalla neutralità all'intervento, la guerra totale, le battaglie di logoramento, il millenovecentodiciassette, anno della svolta, il millenovecentodiciotto con la fine degli imperi, il bilancio umano e sociale del conflitto, e i trattati di pace.",
+  "lingua": "it"
+ },
+ {
+  "nome": "B3_1",
+  "testo": "Benvenuti alla lezione di Storia. Oggi parliamo della Prima guerra mondiale. In questa prima parte il professor Giorgio Mazzotti ci guida attraverso tre argomenti: l'Europa all'inizio del Novecento, le crisi coloniali e i Balcani, e l'attentato di Sarajevo con la reazione a catena del millenovecentoquattordici.",
+  "lingua": "it"
+ },
+ {
+  "nome": "B3_2",
+  "testo": "Benvenuti alla seconda parte della lezione sulla Prima guerra mondiale. Il professor Giorgio Mazzotti ci guida attraverso tre argomenti: i fronti di guerra e la trincea, l'Italia dalla neutralità all'intervento nel millenovecentoquindici, e la guerra totale.",
+  "lingua": "it"
+ },
+ {
+  "nome": "B3_3",
+  "testo": "Benvenuti alla terza e ultima parte della lezione sulla Prima guerra mondiale. Il professor Giorgio Mazzotti ci guida attraverso cinque argomenti: le grandi battaglie di logoramento, il millenovecentodiciassette, il millenovecentodiciotto, il bilancio umano del conflitto e i trattati di pace.",
+  "lingua": "it"
+ },
+ {
+  "nome": "F3_1",
+  "testo": "Ricapitoliamo questa prima parte. Abbiamo visto l'equilibrio instabile dell'Europa all'inizio del Novecento, le crisi coloniali e i Balcani, e l'attentato di Sarajevo con la reazione a catena delle alleanze.",
+  "lingua": "it"
+ },
+ {
+  "nome": "F3_2",
+  "testo": "Ricapitoliamo questa seconda parte. Abbiamo visto i fronti di guerra e la trincea, l'Italia dalla neutralità all'intervento, e la guerra totale che coinvolge l'intera società.",
+  "lingua": "it"
+ },
+ {
+  "nome": "F3_3",
+  "testo": "Ricapitoliamo questa terza parte. Le grandi battaglie di logoramento, il millenovecentodiciassette anno della svolta, il millenovecentodiciotto con la fine degli imperi, il bilancio umano e sociale del conflitto, e infine i trattati di pace.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MAPN2",
+  "testo": "Ecco la mappa delle crisi che precedono la guerra. Al centro, le crisi coloniali e i Balcani. Primo ramo: le crisi marocchine del millenovecentocinque e del millenovecentoundici, con Francia e Germania vicine allo scontro. Secondo: la rivoluzione dei Giovani Turchi, che indebolisce l'Impero ottomano. Terzo: l'annessione della Bosnia-Erzegovina da parte dell'Austria-Ungheria. Quarto: le guerre balcaniche del millenovecentododici e tredici. Infine la polveriera d'Europa, tra Austria e Russia.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MAPN4",
+  "testo": "Ecco la mappa dei fronti di guerra. Al centro, i fronti e la trincea. La guerra di movimento fallisce: il piano Schlieffen è fermato sulla Marna. Nasce la guerra di posizione, con ottocento chilometri di trincee. A est, i russi sono sconfitti a Tannenberg e ai laghi Masuri. Le nuove armi, mitragliatrici, artiglieria, filo spinato e gas, rendono gli assalti carneficine. Nelle trincee, fango, malattie e traumi psicologici.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MAPN7",
+  "testo": "Ecco la mappa della guerra totale. Al centro, il coinvolgimento della società. Primo ramo: la mobilitazione economica, con il controllo della produzione e il razionamento. Secondo: il fronte interno, tra privazioni e mercato nero. Terzo: le donne in fabbrica, e l'emancipazione femminile. Quarto: la guerra sui mari, con blocco navale e sottomarini. Infine il genocidio degli armeni del millenovecentoquindici.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MAPN8",
+  "testo": "Ecco la mappa del millenovecentodiciassette, anno della crisi e della svolta. Primo ramo: la Russia esce dalla guerra con la pace di Brest-Litovsk. Secondo: ad aprile entrano in guerra gli Stati Uniti. Terzo: la disfatta italiana di Caporetto. Quarto: la resistenza sul Piave e sul monte Grappa. Infine Diaz, che sostituisce Cadorna e migliora le condizioni dei soldati.",
+  "lingua": "it"
+ },
+ {
+  "nome": "MAPN11",
+  "testo": "Ecco la mappa del bilancio della guerra. Al centro, il bilancio umano e sociale. Circa diciassette milioni di morti. L'influenza spagnola, con oltre quaranta milioni di vittime. Oltre quaranta milioni di feriti, e i mutilati come simbolo della guerra industriale. La difficile smobilitazione dei reduci. E la nostalgia delle trincee, tra traumi e cameratismo.",
+  "lingua": "it"
+ }
+]
