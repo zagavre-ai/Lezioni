@@ -1,120 +1,71 @@
-# RAPPORTO DI REVISIONE · Letteratura italiana V · Lezione 21 · Cesare Pavese · Prof. Giorgio Mazzotti
+# RAPPORTO DI REVISIONE · Letteratura italiana V · Cesare Pavese · CORREZIONI 22/11
 
-Chat di revisione 21 · partita il 16/11/2026 · stato: **REVISIONATA — versione finale**
+Stato: **REVISIONATA — «correzioni 22/11 fatte»**. Durata misurata **55:20,6** (3320,6 s), 99617 fotogrammi, 190,5 MiB, 1920×1080.
+Presa alle 16:40 UTC dal ramo `revisione-letteratura-V-lez21`; consegnata prima delle 19:30 UTC.
 
-> Per Sara. Scrivo che cosa ho **misurato** (numeri veri letti dai file) e che cosa è una **stima** o una **lettura a occhio dai fotogrammi**. Non ho potuto **ascoltare**: dove scrivo «non verificato all'ascolto» è perché lo strumento qui è solo automatico.
+## 1. Cosa ho cambiato
+- **Una sola mappa, quella del prof**, ridisegnata nel modello BES approvato (colori pesca/celeste/paglierino/menta/lilla, legenda in alto a destra, testo 34–52 px), costruita **ramo per ramo** con la voce Kore (6 voci MR1–MR6, numeri in lettere) con il riquadro acceso in giallo; alla fine resta ferma 4 s. Messa **una volta sola**, prima del glossario. Tolte tutte le mappe per argomento e le loro voci. Le card della mappa riuniscono le voci vicine del prof nello stesso riquadro con le **stesse parole**; per stare a 34 px ho unito più voci in un riquadro (la mappa del prof ha 25 riquadri).
+- **Slide del prof**: testo **40 px, interlinea 1,5**, **al massimo 3 card**, ogni card è una frase intera (le card che continuano una frase cominciano con la maiuscola), card alte quanto il testo; la card in corso ha bordo e pallino **gialli** quando il prof inizia la frase (±1 s). Le slide cambiano quando il prof passa alla frase successiva, **mai oltre 165 s sulla stessa pagina** (tabella §3). Anche approfondimenti, ripassi, glossario e riepilogo sono ora card a 40 px (max 3 per pagina; niente tabelle).
+- **Pezzi del prof**: D4 diviso in tre (D4a/D4b/D4c) con gli approfondimenti «La casa in collina» e «Altre tre opere» inseriti **a fine frase** nel punto giusto, così nessuna slide resta ferma e ogni approfondimento arriva dopo che il prof ha parlato di quell'opera.
+- **Pause**: le pause oltre 2,5 s tra le schede sono state accorciate (ritardo voce 0,5 s, code 0,5 s, schede titolo/quiz/verifica/compiti più brevi; jingle nei soliti punti); la mappa finale tiene 4 s con due `trans.wav` per non lasciare silenzio.
+- **Nome del prof**: tolto dai piè di pagina di tutte le schede animate; resta solo nella fascia gialla e nel piè di pagina delle slide con il prof.
+- **Audio**: parlato a −16,1 LUFS (mediana pezzi del prof), totale −16,5 LUFS, **picco −1,8 dBFS** (≤ −1); timbro: rapporto acuti/gravi del prof −13,9…−16,4 dB come l'originale (nel range −9…−20).
+- **Dispense A4 orizzontali**: `Letteratura_Lez21_slide.pdf` (60 pagine, identiche alle schermate del video senza riquadro e senza fascia; **testo reale selezionabile**; copertina con solo materia e titolo; piè di pagina materia + pagina senza nome del docente) e `Letteratura_Lez21_mappe.pdf` (copertina identica con la scritta «MAPPE» + mappa del prof).
+- File rigenerati sul video finale: `.vtt`, `timeline.json`, `scheda_pubblicazione.json` (titolo «Letteratura V · Lezione 21 · Cesare Pavese»), `quiz_argomenti.json`, `verifica_finale.json`, `testo_youtube.txt`, `controllo_minuti.jpg`.
 
-## 1. Verdetto in una riga
-La lezione consegnata (58:23, v2 del 15/11) **non è conforme al modello Spagnolo in nessuno degli 11 punti grafici** e ha **3 tagli del prof messi nel punto sbagliato**, **mappe che non sono quelle del prof**, **sottotitoli con molti errori** e **compiti/scheda in formato sbagliato**. Va **rifatta in grafica e rimontata**, non solo ritoccata. Il parlato del prof, le voci degli approfondimenti (verificate sul parlato del prof) e i quiz si riusano.
+## 2. Esito del controllo severo (`controllo_severo.py`, titolo «Cesare Pavese»)
+**ESITO OK, zero errori**: copertina con titolo intero (90 s), nessuna slide oltre 3 min, nessuna schermata identica oltre 3 min, nessuna card con «…» o minuscola, nessuna card sola oltre 60 s, loudness −16,5, 0 pause >2,5 s, durata 55,3 min, voce non alterata (tono 141–164 Hz, chiarezza 1465–1562 Hz).
+**Attenzione sul metodo:** tesseract non si installa in questa macchina (apt senza pacchetto). Ho usato un **sostituto** (`tesseract` finto basato su RapidOCR, in `/tmp`, non nel repo) che ricalca l'uscita di tesseract: i controlli sul testo (titolo, numeri di pagina, card) vanno quindi **riconfermati dalla master con il suo tesseract**.
+Altri controlli del kit: quiz Q1–Q5 scatto **+0,000 s**; nessun fermo immagine nei pezzi del prof; **il controllo del kit sull'attacco dei sottotitoli entro 0,3 s dà 72% su 25 punti verificabili: sotto la soglia dell'80%** (segnalato, non dimostrato).
 
-## 2. Che cosa ho verificato e come
-| Controllo | Come | Esito |
-|---|---|---|
-| File integro | ricomposti i 2 pezzi, sha256 | **OK** (misurato) |
-| Parlato di tutta la lezione | trascrizione completa Whisper *small* (italiano) con i tempi, letta riga per riga | fatto (3503 s) |
-| Parlato dell'originale del prof | trascrizione con tempi di parola dell'originale (1705 s) | fatto |
-| Voci narranti | trascritte tutte (34 file) e confrontate con il copione (SequenceMatcher) | 14 approfondimenti **OK**; **M1, M2, M3, M4 nuove con errori** (vedi §4) |
-| Fotogrammi | 1 fotogramma ogni 2 s (1752) + foglio-contatto ogni 30 s, guardati tutti | fatto |
-| Sincronia slide ↔ prof | letta la trascrizione contro la slide mostrata | **3 errori** (§3) |
-| Volume | misura EBU R128 sui 5 pezzi del prof | −15,6 / −16,2 / −15,9 / −16,4 / −16,0 LUFS (**OK**, misurato); picco −0,3 dBFS in D4 (oltre −1) |
-| Rumore | confronto spettro/rumore di fondo con l'originale | passa-alto presente (misurato); **«niente metallico» non verificato all'ascolto** |
-| Silenzi > 3 s | silencedetect | 3 casi (§3) |
-| Sottotitoli .vtt | 758 cue, nessuna sovrapposizione, max 2 righe (misurato) ma **testo pieno di errori** | da rifare |
-| Quiz | 5×5, tutte le risposte «giuste» riscontrate sul parlato del prof | **OK** (1 nota: «Il compagno» 1946 nel parlato/slide, 1947 nella mappa del prof) |
-| Verifica finale | confronto cella per cella con «DOMANDE LEZIONE 21.xlsx» | **identica** (10 domande, misurato) |
-| Compiti | confronto con «LEZIONE 21.pdf» | **testo identico**, formato JSON sbagliato (§3) |
-| Pagine del libro in alta risoluzione | lezione 21 **non è tra quelle con pagine del libro** | **salto B-bis** |
-
-## 3. Problemi trovati (minuti = video consegnato v2)
-| # | Minuto | Tipo | Com'era | Come lo correggo |
-|---|---|---|---|---|
-| 1 | 9:02–10:03 | sincronia | il prof parla di armistizio 1943, Resistenza e Casale Monferrato (è il punto 1 della slide dopo) mentre sullo schermo c'è «La delusione amorosa» | taglio spostato a fine frase («…figure femminili.»): l'argomento 2 parte da «Dopo l'armistizio…» con la slide 2, punto 1 evidenziato |
-| 2 | 21:53–22:15 | audio | l'argomento 3 si apre con «E così l'abbiamo delineato… vedrete anche voi», che è la chiusura dell'argomento 2, dopo il quiz 2 | la chiusura resta alla fine dell'argomento 2; l'argomento 3 parte da «Allora, addentrandoci nella sua poetica» |
-| 3 | 40:31 → 46:26 | audio | frase spezzata: «Ma soprattutto, come dicevo,» in fondo all'argomento 4, «il capolavoro…» in testa al 5, con 6 minuti di approfondimenti e quiz in mezzo | la frase resta intera in testa all'argomento 5 |
-| 4 | 55:05, 58:05, 58:15 | audio | silenzi di 3,1 s, 4,7 s e 7,9 s (ultimo = cartello finale muto) | cartelli con suono; finale del kit (5 s) |
-| 5 | scatti Q3, Q4, Q5 | audio | scatto del jingle +0,068 s (soglia 0,05), già segnalato dalla chat precedente | pezzi rifatti, controllo_jingle sul file nuovo |
-| 6 | pezzo D4 | audio | picco −0,3 dBFS | alimiter −1 dB nella catena del kit |
-| 7 | 56:30 | contenuto | Glossario: «Neorealismo: la letteratura del dopoguerra che racconta la realtà sociale» — non è del prof (per lui è la produzione promossa dal partito, che esalta il mito della povertà) | nuova voce GL2 con le parole del prof |
-| 8 | 13:36, 20:27, 31:51, 44:32, 53:34, 55:02 | contenuto | le 6 «mappe» sono **inventate** dalla chat precedente (parole chiave «memoria, introversione, colpa…») | sostituite con la **mappa del prof** (una per argomento + finale), voci nuove M1–M5, MF |
-| 9 | tutto il video | visivo | prof nel **tondo**, senza ombra morbida e **senza fascia gialla col nome** | riquadro **4:3 410×308**, angoli 18, ombra grigia morbida; fascia gialla −3° su due righe sempre visibile |
-| 10 | tutto il video | visivo | fondo grigio-azzurro, schede blu a gradiente, «Fine della lezione»/«Quiz»/«Compiti» in blu scuro | fondo **bianco** come Spagnolo; stesse card e tabelle |
-| 11 | 0:16–0:40 | visivo | copertina con «QUINTO ANNO» e «GLI ARGOMENTI DI OGGI» | «LETTERATURA ITALIANA V · VIDEOLEZIONE», titolo grande, card ARGOMENTI su 2 colonne |
-| 12 | tutto il video | visivo | piè di pagina a destra «Introduzione», «Ripasso», «Approfondimento» o «Pagina n» non coerente col PDF | «Pagina N» progressivo, uguale al PDF slide |
-| 13 | arg. 1–5 | visivo | slide del prof mostrate **2 punti su 4** per volta, testo abbreviato (es. manca «ma si isola nella letteratura» e «(affidatigli dalla donna amata, Tina Pizzardo)») | **4 punti col testo integrale delle slide del prof**; evidenziato quello detto (±1,5 s) |
-| 14 | arg. 1–5 | visivo | schede non attive in grigio chiarissimo (poco leggibili per BES) | tutte nere su bianco |
-| 15 | ≈11:30, ≈31:00, ≈53:00 | visivo | schede degli approfondimenti **tagliate dal piè di pagina** (AN1b, AN3c, AN5c) | tabelle in stile Spagnolo, mai spezzate, nessuna sbordata (verificato: bordo ≤ 968 px su 1080) |
-| 16 | 13:36, 20:27, 31:51… | visivo | mappa ferma per 2–6 s con solo il nodo centrale | nodi che entrano a tempo con la voce |
-| 17 | 0:34–0:40 | audio | titolo argomento 1 sopra le prime parole del prof | titolo con suono prima del prof |
-| 18 | tutto il video | testo | sottotitoli fatti con Whisper *base*: es. «lezione succesare Pavese», «Una autore», «notici pari troppo», «sede disame» | **tutti i sottotitoli del prof riletti e corretti a mano** (357 cue); voci da copione |
-| 19 | file | dati | `compiti.json` non nel formato richiesto | `{titolo, esercizi:[{n,tipo,testo}]}`, testo identico al PDF del prof |
-| 20 | file | dati | scheda: titolo «Cesare Pavese · Parte 1» | «Letteratura V · Lezione 21 · Cesare Pavese» |
-| 21 | file | dati | dispensa unica con mappe inventate | due PDF A4 orizzontali: `…_slide.pdf` (33 pagine = le slide del video, senza riquadro e senza nome) e `…_mappe.pdf` (6 pagine, mappa del prof) |
-
-## 4. Cose che ti segnalo (non decido io)
-1. **Il prof si contraddice tra slide, parlato e mappa.** Mappa: «a 5 anni rimane orfano di padre» ma slide e parlato dicono sei anni; mappa: *Il compagno* 1947, parlato e slide 1946; mappa: *La bella estate* 1949 (è il volume trittico: nel parlato il racconto è del 1940). Ho lasciato **la mappa identica a come l'ha mandata** e ho tenuto slide e quiz come il parlato. Se vuoi, chiedi al prof quale data vale.
-2. **Nella mappa del prof c'era il logo «MAPPE per la SCUOLA» e una foto di Pavese**: per le regole (nessun marchio di terzi, mai foto scaricate) li ho **tolti**; il contenuto dei nodi è identico.
-3. **La webcam del prof è piccola (245×139 px nell'originale) e lui siede alto**: nell'originale i capelli/fronte sono **già tagliati** in vari tratti (visto a 2:30, 7:00, 13:20, 20:00, 26:40 dell'originale). Non correggibile. Nel riquadro 4:3 l'immagine è ingrandita ×2,2: è un po' morbida.
-4. Whisper è stato scaricato da un pacchetto pubblico npm (modello *small* convertito) perché huggingface è bloccato; checksum interno OK, **non confrontabile con l'originale OpenAI**. Serve solo a trascrivere, non entra nel prodotto.
-
-## 5. Esito sul video nuovo (misurato sul file finale)
-| Misura | Valore |
+## 3. Pezzi del prof: pagine (finestre) e card
+| Pezzo | finestre di pagina |
 |---|---|
-| Durata | **57:23,3** (3443,3 s) — tra 50 e 60 min |
-| Fotogrammi | 103299 = durata × 30 (**OK**) |
-| Peso | 210,5 MB (200,7 MiB), 1920×1080, x264 veryfast CRF 19, AAC 192k |
-| Scatto quiz (controllo_jingle) | Q1–Q5 **+0,000 s** (OK) |
-| Fermi immagine nei pezzi del prof | nessuno |
-| Parlato del prof | mediana **−16,1 LUFS** (OK, ±2); catena del kit: 48 kHz, passa-alto 80, arnndn, loudnorm −16 a due passaggi, alimiter |
-| **Picco audio (ebur128 peak, tutto il file)** | **−2,0 dBTP** (≤ −1, OK; prima −0,1) |
-| Sincronia audio prof (correlazione col file originale, 3 punti per pezzo) | D1–D5 **0,015 s** (D5 fino a 0,016) → **≤ 0,04 OK** |
-| Slide nel video = slide progettate | 67 confronti fotogramma↔slide, differenza media ≤ **3,7 su 255** (solo compressione; eccezione: la dissolvenza a nero del cartello Compiti) |
-| PDF slide | **33 pagine** A4 orizzontale, stesse pagine e stesso ordine delle slide del video, senza riquadro e senza nome; numerazione «Pagina N» uguale al video (**confronto fatto**; le schede senza contenuto — titoli argomento, quiz, verifica, compiti, sigle — non hanno numero né pagina) |
-| PDF mappe | 6 pagine A4 orizzontale (una per argomento + finale), mappa del prof con la nostra grafica |
-| Sottotitoli | 812 blocchi, 0 sovrapposti, 0 oltre la fine, max 2 righe; **357 cue del prof riletti e corretti a mano**, voci da copione. Verifica sulla trascrizione automatica del video finale: **94,6 %** dei blocchi ritrovati nella finestra ±0,8 s (misura grossolana, per segmento); il controllo del kit sull'attacco entro 0,3 s dà **50 % su 16 punti verificabili → non raggiunge la soglia**, quindi **lo segnalo: l'allineamento fine ±0,3 s non è dimostrato**. Non ho potuto riascoltare |
-| Font etichette (richiesta master 17/11) | «01 · ARGOMENTO», riga copertina e piè di pagina in **Figtree Bold maiuscolo spaziato** come `slide_1080p_esempio.png`, anche nel PDF slide (rifatto) |
-| Titolo copertina | «Cesare Pavese» (non più tutto maiuscolo) |
-| Card in corso | bordo giallo sottile, pallino numerato giallo, altre card con bordo grigio; ombre sempre grigie e morbide, anche nel PDF |
-| Jingle | `titolo.wav` sui titoli argomento, `repaso.wav` sui ripassi, `trans.wav` sugli approfondimenti, `quiz.wav` su Quiz 1–5 (scatto +0,000 s) e su Verifica; `titolo.wav` su Compiti: nessuna scheda in silenzio |
-| Transizioni | dissolvenza tra tutti i pezzi (bianco 0,35 s; da/verso nero 2 s per sigle) |
-| Prof mai fermo | `freezedetect` sui pezzi del prof: nessun fermo; il riquadro c'è solo dove il prof parla davvero (copertina con prof = video vivo; copertina con voce di benvenuto senza riquadro) |
-| Mai il numero della lezione nel video | OK (a vista sul foglio minuti) |
+| D1 | 1:08.1–3:53.1 card 1,2,3; 3:53.1–6:38.1 card 3,4,5; 6:38.1–8:05.1 card 4,5,6; 8:05.1–8:21.9 card 6,7 |
+| D2 | 8:21.9–10:07.7 card 1,2,3; 10:07.7–12:16.4 card 4,5 |
+| D3 | 12:16.9–15:01.9 card 1,2,3; 15:01.9–15:55.6 card 3,4; 15:55.6–18:02.0 card 4,5 |
+| D4a | 18:02.7–20:15.9 card 1,2; 20:15.9–21:41.0 card 3,4 |
+| D4b | 21:41.6–23:32.3 card 1,2 |
+| D4c | 23:32.5–24:41.2 card 1,2 |
+| D5 | 24:41.6–26:00.9 card 1,2; 26:00.9–27:41.7 card 3,4; 27:41.7–28:24.9 card 4,5 |
 
-### Inizio e fine di ogni pezzo del prof (aggiornamento 01:25)
-| Pezzo | Inizio | Fine: ultime parole | Frase finita |
+## 4. Tabella inizio/fine di ogni pezzo del prof (tempi dell'originale)
+| Pezzo | Inizio | Fine: ultime parole | Frase intera |
 |---|---|---|---|
-| D1 | «Buongiorno e benvenuti alla lezione su…» | «…rapporto permanentemente difficile e tormentato con le figure femminili.» | **sì** |
-| D2 | «Dopo l'armistizio dell'8 settembre…» | «…con gli autori che abbiamo nel frattempo già visto, d'accordo?» | **sì** |
-| D3 | «Allora, addentrandoci nella sua poetica…» | «…metafore e da una profonda e dolorosa solitudine.» | **sì** |
-| D4 | «Ecco, vediamo invece di delineare i romanzi.» | «…l'ideale pavesiano di un sano equilibrio interiore e sociale.» | **sì** |
-| D5 | «Ma soprattutto, come dicevo, il capolavoro…» | «…fine della sua vita tramite appunto il suicidio.» | **sì** |
-(Parole dalla trascrizione con tempi di parola dell'originale; tagli nelle pause tra frasi, nessuna parola mozzata in partenza.)
+| D1 | 0:00 «Buongiorno e benvenuti alla lezione su Cesare Pavese…» | «…rapporto permanentemente difficile e tormentato con le figure femminili.» | sì |
+| D2 | 8:22 «Dopo l'armistizio dell'8 settembre 1943…» | «…con gli autori che abbiamo nel frattempo già visto, d'accordo?» | sì |
+| D3 | 12:17 «Allora, addentrandoci nella sua poetica…» | «…metafore e da una profonda e dolorosa solitudine.» | sì |
+| D4a | 18:03 «Ecco, vediamo invece di delineare i romanzi.» | «…È molto autobiografico, in parte.» | sì |
+| D4b | 21:42 «Il trittico di romanzi brevi che compone…» | «…analisi acerbe e pungenti, mordaci, ecco.» | sì |
+| D4c | 23:32 «Un discorso a parte merita Il diavolo sulle colline…» | «…l'ideale pavesiano di un sano equilibrio interiore e sociale.» | sì |
+| D5 | 24:41 «Ma soprattutto, come dicevo, il capolavoro…» | «…fine della sua vita tramite appunto il suicidio.» | sì |
+Sincronia audio/video del prof (correlazione sull'originale, 3 punti per pezzo): **0,014–0,016 s** su tutti i pezzi (limite 0,04).
 
-### Ritocchi del 17/11 ore 10:19 (aggiornamento per la lezione 21)
-- «SCHEMA DI RIPASSO» senza parentesi quadre (5 slide, video e PDF slide).
-- «MAPPA CONCETTUALE» in alto a sinistra sopra il titolo, in tutte le 6 slide-mappa (video, PDF slide e PDF mappe).
-- Ricodificati solo i pezzi toccati (S1–S5, M1–M5, MF) e rifatto il video finale: **durata 57:23,3, 103299 fotogrammi, timeline identica** (secondi di scheda invariati); picco −2,0 dBTP, quiz +0,000 s. Verificato a vista sul video finale (ripasso 1 a 14:05; mappa finale a 54:52).
-
-## 6. Tabella di confronto col modello Spagnolo (punto 000)
-| # | Punto | Esito |
+## 5. Secondi vecchi → nuovi (scheda)
+| Voce | secondo vecchio | secondo nuovo |
 |---|---|---|
-| 1 | Sigla 15 s → dissolvenza morbida → copertina | **corretto**: sigla del kit, poi dissolvenza da nero di 2 s (nessun lampo) |
-| 2 | Copertina | **corretto**: logo, «LETTERATURA ITALIANA V · VIDEOLEZIONE», titolo grande, barretta, card ARGOMENTI su 2 colonne |
-| 3 | Slide: fondo bianco, «01 · ARGOMENTO», titolo+barretta, tabelle | **corretto** (numero = argomento, mai la lezione) |
-| 4 | Piè di pagina | **corretto**: «LETTERATURA ITALIANA V · Prof. Giorgio Mazzotti» + «Pagina N» |
-| 5 | Riquadro 4:3 410×308 (412×310), x 1428 y 148, angoli 18, ombra grigia, testa | **corretto** (testa tagliata dall'originale in vari tratti: §4) |
-| 6 | Fascia gialla −3° su due righe, sempre visibile | **corretto** |
-| 7 | Slide senza prof | **corretto**: Fine lezione, Verifica finale, Compiti in stile «Ora tocca a te» |
-| 8 | Font | **OK**: solo Bricolage 800, Figtree, DM Mono |
-| 9 | Finale | **corretto**: `Sigla_finale_5s_con_avviso_diritti.mp4` del kit |
-| 10 | Struttura | **OK**: sigla → presentazione → 5×(titolo, prof, 3–4 approfondimenti animati, mappa del prof, ripasso, quiz) → mappa finale → glossario → riepilogo → fine → verifica → compiti → finale |
-| 11 | PDF A4 slide + mappe | **fatto** (§5) |
+| Durata totale | 3503.16 | 3320.57 |
+| Argomento 1 inizio | 36.25 | 36.968 |
+| Quiz 1 | 923.184 | 803.8 |
+| Argomento 2 inizio | 928.184 | 807.6 |
+| Quiz 2 | 1315.419 | 1227.119 |
+| Argomento 3 inizio | 1320.419 | 1230.919 |
+| Quiz 3 | 2026.184 | 1858.475 |
+| Argomento 4 inizio | 2031.184 | 1862.275 |
+| Quiz 4 | 2781.117 | 2548.857 |
+| Argomento 5 inizio | 2786.117 | 2552.657 |
+| Quiz 5 | 3303.284 | 3030.54 |
+| Verifica finale | 3484.71 | 3308.753 |
+| Compiti | 3498.21 | 3312.553 |
 
-## 7. Non verificato / limiti
-- **Ascolto**: nessun ascolto umano. Rumore/«metallico», qualità delle voci Kore e sincronia labbra non verificati all'ascolto (solo misure).
-- Sottotitoli: allineamento fine ±0,3 s non dimostrato (§5). Poche parole del prof restano incerte senza ascolto (es. attorno a 1660 s dell'originale, «il fronte dei…»).
-- Le voci delle mappe M1–M4 sono state unite/tagliate da me a livello di parola (M2 conteneva istruzioni lette a voce, tagliate): **vanno riascoltate dalla master**.
-- Mappa e slide del prof non coincidono su alcune date (§4).
-- Webcam del prof a bassa risoluzione ingrandita ×2,2.
+## 6. Voci
+Voci nuove: MR1–MR6 (mappa unica), GL2 (glossario). Controllo: trascritte una per una e confrontate con il copione, **tutti i numeri coincidono** (1908, 1930, 1935, 1936, 1941–1951…) e nessuna parola inserita o mancante; «amendmenta» nella trascrizione è un'allucinazione dello strumento (durata zero). Le voci già esistenti (INTRO, R, S, AN, RF, FIN) controllate con lo stesso metodo: numeri coincidenti.
 
-## 8. Consegna
-Ramo `revisione-letteratura-V-lez21`: video a pezzi + sha256, `.vtt`, PDF slide, PDF mappe, quiz, verifica, compiti, scheda, testo YouTube, `controllo_minuti.jpg`, `timeline.json`. Durata misurata 57:23,3 (invariata), 103299 fotogrammi → stato `REVISIONATA`. La master riguarda e sostituisce su Vimeo.
+## 7. Cosa non ho potuto verificare
+- Nessun **ascolto umano** (rumore, «metallico», naturalezza delle voci Kore, sincronia delle labbra oltre la misura).
+- Controllo severo con **OCR sostitutivo** (§2).
+- **Sottotitoli**: i 357 blocchi del prof riletti a mano il 16/11; qualche parola resta incerta senza ascolto (es. «il fronte dei…» a 1655 s dell'originale). Allineamento fine ±0,3 s non dimostrato (72% al controllo del kit).
+- Immagini: nessuna immagine esterna aggiunta (nessuna foto di persone, nessun logo di terzi; dalla mappa del prof ho tolto il marchio e la foto).
+
+## 8. Anomalie del materiale del prof (non corretto niente: decide Sara)
+Mappa «a 5 anni» orfano di padre ↔ slide e parlato «sei anni»; *Il compagno* 1947 (mappa) ↔ 1946 (slide e parlato); *La bella estate* 1949 (mappa, trittico) ↔ «scritto nel 1940» (slide). Nel parlato il prof dice «Santina» (il romanzo), nelle slide «Santa».

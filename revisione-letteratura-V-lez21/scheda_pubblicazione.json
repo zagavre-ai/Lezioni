@@ -1,37 +1,37 @@
 {
  "materia": "Letteratura italiana (V)",
  "titolo": "Letteratura V · Lezione 21 · Cesare Pavese",
- "durata_s": 3443.3,
+ "durata_s": 3320.57,
  "argomenti": [
   {
    "n": 1,
    "titolo": "La vita e i traumi",
-   "inizio_s": 37.684,
-   "quiz_s": 870.55
+   "inizio_s": 36.968,
+   "quiz_s": 803.8
   },
   {
    "n": 2,
    "titolo": "La storia e l'impegno politico",
-   "inizio_s": 876.35,
-   "quiz_s": 1333.769
+   "inizio_s": 807.6,
+   "quiz_s": 1227.119
   },
   {
    "n": 3,
    "titolo": "Il mito e Il mestiere di vivere",
-   "inizio_s": 1339.569,
-   "quiz_s": 2009.162
+   "inizio_s": 1230.919,
+   "quiz_s": 1858.475
   },
   {
    "n": 4,
    "titolo": "Le opere narrative",
-   "inizio_s": 2014.962,
-   "quiz_s": 2742.125
+   "inizio_s": 1862.275,
+   "quiz_s": 2548.857
   },
   {
    "n": 5,
    "titolo": "La luna e i falò",
-   "inizio_s": 2747.925,
-   "quiz_s": 3252.641
+   "inizio_s": 2552.657,
+   "quiz_s": 3030.54
   }
  ],
  "quiz": {
@@ -311,6 +311,6 @@
    ]
   }
  },
- "t_verifica": 3427.05,
- "t_compiti": 3432.85
+ "t_verifica": 3308.753,
+ "t_compiti": 3312.553
 }

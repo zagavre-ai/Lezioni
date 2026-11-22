@@ -1,0 +1,107 @@
+{
+ "titolo": "Verifica finale · Letteratura V · Lezione 21 · Cesare Pavese",
+ "soglia_percentuale": 80,
+ "t_verifica": 3308.753,
+ "domande": [
+  {
+   "p": "In quale località nacque Cesare Pavese il 9 settembre 1908?",
+   "a": "Santo Stefano Belbo",
+   "w": [
+    "Casale Monferrato",
+    "Brancaleone Calabro",
+    "Torino"
+   ],
+   "e": ""
+  },
+  {
+   "p": "Con quale autore statunitense si laureò in Lettere Cesare Pavese nel 1930?",
+   "a": "Walt Whitman",
+   "w": [
+    "Ernest Hemingway",
+    "Edgar Allan Poe",
+    "Herman Melville"
+   ],
+   "e": ""
+  },
+  {
+   "p": "Chi era Tina Pizzardo, la donna a causa della quale Pavese fu condannato al confino nel 1935?",
+   "a": "Una militante comunista che gli affidò documenti compromettenti",
+   "w": [
+    "Una traduttrice britannica che collaborava con l'Einaudi",
+    "Una scrittrice neorealista critica verso le posizioni del PCI",
+    "La proprietaria della tenuta della Mora nelle Langhe"
+   ],
+   "e": ""
+  },
+  {
+   "p": "Per quale motivo Pavese provò un forte senso di colpa nel secondo dopoguerra?",
+   "a": "Per non aver partecipato alla Resistenza",
+   "w": [
+    "Per aver tradito i suoi compagni di università durante il fascismo",
+    "Per aver abbandonato la casa editrice Einaudi durante l'occupazione tedesca",
+    "Per essersi iscritto al Partito Comunista spinto da impulsi puramente economici"
+   ],
+   "e": ""
+  },
+  {
+   "p": "Quale critica principale veniva mossa a Pavese dai militanti del Partito Comunista?",
+   "a": "Di trattare solo temi soggettivi e di trascurare i grandi temi politici e sociali",
+   "w": [
+    "Di imitare eccessivamente lo stile della narrativa neorealista",
+    "Di rifiutare lo studio del mito e delle culture primitive",
+    "Di non voler tradurre autori e poeti di orientamento nordamericano"
+   ],
+   "e": ""
+  },
+  {
+   "p": "Quale personaggio fa da modello e da guida ad Anguilla nel romanzo \"La luna e i falò\"?",
+   "a": "Il falegname comunista Nuto",
+   "w": [
+    "Il ricco proprietario della tenuta della Mora",
+    "Il giovane orfano e trovatello chiamato Pieretto",
+    "Un professore torinese che vive in solitudine sulla collina"
+   ],
+   "e": ""
+  },
+  {
+   "p": "Di quale opera fa parte il racconto della sedicenne Ginia e del suo drammatico percorso di formazione mancata?",
+   "a": "La bella estate",
+   "w": [
+    "Paesi tuoi",
+    "La casa in collina",
+    "Dialoghi con Leucò"
+   ],
+   "e": ""
+  },
+  {
+   "p": "Chi è Corrado, il protagonista del romanzo \"La casa in collina\"?",
+   "a": "Un professore torinese che si chiude in solitudine per sfuggire alle responsabilità della storia",
+   "w": [
+    "Un giovane della ricca borghesia dedito alle droghe e all'alcol",
+    "Un militante antifascista che guida la lotta partigiana nelle Langhe",
+    "Un contadino che decide di emigrare negli Stati Uniti per fare fortuna"
+   ],
+   "e": ""
+  },
+  {
+   "p": "Nel romanzo \"Tra donne sole\", quale personaggio femminile rappresenta un'attiva concretezza e un'alternativa al vuoto della società \"bene\"?",
+   "a": "La narratrice Clelia",
+   "w": [
+    "La nobildonna Momina",
+    "La giovane tormentata Rosetta",
+    "La moglie del ricco borghese Poli"
+   ],
+   "e": ""
+  },
+  {
+   "p": "Quale concezione fondamentale emerge nella conclusione del romanzo \"La luna e i falò\"?",
+   "a": "La dimensione del mito e della natura ha preso il sopravvento sulla storia e l'ha cancellata",
+   "w": [
+    "Il progresso moderno e lo sviluppo tecnologico della valle del Belbo riscatteranno la miseria dei contadini",
+    "L'impegno politico attivo e la lotta sociale sono gli unici strumenti per superare i traumi dell'infanzia",
+    "Le credenze contadine sulle fasi lunari e sui falò sono scientificamente fondate e storicamente decisive"
+   ],
+   "e": ""
+  }
+ ]
+}
