@@ -2,7 +2,7 @@
  "tag": "letteratura-V-lez25",
  "parti": {
   "1": {
-   "stato": "PRONTA",
+   "stato": "IN_REVISIONE",
    "voci": "kore",
    "quiz_ok": "si",
    "fermi_ok": "si",
@@ -479,10 +479,14 @@
   {
    "quando": "17/11 17:19",
    "testo": "Riletti gli aggiornamenti fino alle 10:19: tutto applicato; unico punto aperto la pronuncia Kore di R1/R2 (non ascoltabile da me). Lezione consegnata sul ramo revisione-letteratura-V-lez25."
+  },
+  {
+   "quando": "22/11 16:37",
+   "testo": "correzioni 22/11: presa da revisione-letteratura-V-lez25 (16:40 UTC). Consegna prevista 19:15 UTC."
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 25 · Pasolini",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-17 17:19:27"
+ "aggiornato": "2026-11-22 16:37:11"
 }
