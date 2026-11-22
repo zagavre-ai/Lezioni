@@ -2,7 +2,7 @@
  "tag": "letteratura-V-lez12",
  "parti": {
   "1": {
-   "stato": "REVISIONATA",
+   "stato": "IN_REVISIONE",
    "voci": "kore",
    "quiz_ok": "si",
    "fermi_ok": "si",
@@ -51,7 +51,11 @@
   {
    "quando": "17/11 17:18",
    "testo": "17:18: riletti gli aggiornamenti fino alle 08:45/10:19: nessuna modifica richiesta alla lez12 oltre alla nota sulla pronuncia (nomi delle voci R1-R6 riconosciuti correttamente dalla trascrizione). Consegna invariata sul ramo revisione-letteratura-V-lez12"
+  },
+  {
+   "quando": "22/11 16:35",
+   "testo": "correzioni 22/11: presa da revisione-letteratura-V-lez12 (+ mio ramo -bis 56:14, pipeline di montaggio intatta). Consegna prevista 20:15 (ora italiana)."
   }
  ],
- "aggiornato": "2026-11-17 17:18:50"
+ "aggiornato": "2026-11-22 16:35:58"
 }
