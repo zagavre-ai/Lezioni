@@ -2,7 +2,7 @@
  "tag": "storia-V-lez21",
  "parti": {
   "1": {
-   "stato": "IN_REVISIONE"
+   "stato": "IN_MONTAGGIO"
   }
  },
  "manca": "",
@@ -25,10 +25,14 @@
   {
    "quando": "22/11 18:47",
    "testo": "trascrizione prof fatta, struttura argomenti definita, in costruzione slide/mappe con voci provvisorie"
+  },
+  {
+   "quando": "22/11 18:50",
+   "testo": "stato 30 min: scaricati materiali, trascritto il prof, scaletta: Parte 1 = arg 1-4, Parte 2 = arg 5-7+fine. In corso: riquadro 4:3, slide, mappe del prof, schede animate. Voci provvisorie (espeak) fino alle voci Kore."
   }
  ],
  "materia": "Storia V",
  "lezione": "Lezione 21 · Il mondo dal 2001 ad oggi",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-22 18:47:09"
+ "aggiornato": "2026-11-22 18:50:37"
 }
