@@ -275,8 +275,8 @@ def mappe_finale():
     for i, k in enumerate((2, 4, 6)):
         t0 = T0 + v['tempi'][i + 1][0] - 0.2
         els.append(dict(png=f'{OUT}/mappa{k}/ultimo.png', x=0, y=0, t0=t0, d=0.6))
-    dur = T0 + v['tempi'][3][1] + 4.5
-    return compone('mappe_fin', dur, base_scura(), els, [(v['wav'], T0, 1.0, v['durata'])])
+    dur = T0 + v['tempi'][3][1] + 0.4 + 4.0
+    return compone('mappe_fin', dur, base_scura(), els, [(v['wav'], T0, 1.0, v['durata']), (snd('repaso'), T0 + v['tempi'][3][1] + 0.3, 0.45)])
 
 # ---------- verifica ----------
 def verifica():
@@ -303,7 +303,7 @@ def compiti():
         card, _, h = el(f'CO_c{i}', f'<div style="width:1700px;background:rgba(255,255,255,.10);border-left:14px solid {rend.GIALLO};border-radius:18px;padding:22px 36px"><div style="font:800 40px Figtree;color:{rend.GIALLO};margin-bottom:6px">Compito {i+1}</div><div style="font:500 40px/1.45 Figtree;color:#fff">{E(txt)}</div></div>')
         t0 = T0 + v['tempi'][2 * i][0] - 0.2; t1 = T0 + v['tempi'][2 * i + 1][1] + 0.4
         els.append(dict(png=card, x=100, y=210, t0=t0, d=0.5, slide=30, t1=t1 if i < 3 else None))
-    return compone('compiti', T0 + v['durata'] + 2.5, base_scura(), els, [(v['wav'], T0, 1.0, v['durata'])])
+    return compone('compiti', T0 + v['durata'] + 1.0, base_scura(), els, [(v['wav'], T0, 1.0, v['durata'])])
 
 # ---------- copertina + argomenti ----------
 def cover_html(con_prof, lit=None):
@@ -328,7 +328,7 @@ def cover_benvenuto():
 
 def cover_benvenuto2():
     v = voce.get('I3_BENVENUTO2')
-    return compone('cover_ben2', 0.6 + v['durata'] + 0.8, cover_png(False), [], [(v['wav'], 0.6, 1.0, v['durata'])], anim_luce=False)
+    return compone('cover_ben2', max(12.5, 0.6 + v['durata'] + 0.8), cover_png(False), [], [(v['wav'], 0.6, 1.0, v['durata'])], anim_luce=False)
 
 def argomenti_scheda():
     v = voce.get('I2_ARGOMENTI'); assert len(v['frasi']) == 8; T0 = 0.6
