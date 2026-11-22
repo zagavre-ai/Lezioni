@@ -1,0 +1,14 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="base.css"><style>
+#tt{position:absolute;left:60px;top:100px;font:400 60px Bri}
+.c{position:absolute;left:60px;width:1800px;box-sizing:border-box;padding:18px 30px 18px 110px;border-radius:16px;background:#F4F6FA;border:3px solid #CBD5E1;font:400 36px/1.35 Fig;opacity:0}
+.c .l{position:absolute;left:28px;top:18px;width:56px;height:56px;border-radius:50%;background:#2060AF;color:#fff;font:700 32px/56px FigB;text-align:center}
+.c.on{border-color:#2060AF;box-shadow:0 0 0 7px #FFE600;background:#fff}
+</style></head><body><div class="k" id="k"></div><div class="rule"></div><div id="tt"></div><div id="cs"></div><div class="foot" id="foot"></div>
+<script>
+const $=i=>document.getElementById(i),ease=x=>{x=Math.max(0,Math.min(1,x));return 1-Math.pow(1-x,3)};
+let C=[],ST=[];
+function setData(d){$('k').textContent=d.kicker;$('tt').textContent=d.titolo;$('foot').textContent=d.foot;$('cs').innerHTML='';C=[];let y=200;
+ d.domande.forEach((q,i)=>{const e=document.createElement('div');e.className='c';e.innerHTML='<span class="l">'+(i+1)+'</span>'+q;e.style.top=y+'px';$('cs').appendChild(e);C.push(e);y+=e.offsetHeight+16})}
+function setSteps(s){ST=s}
+function render(t){C.forEach((e,i)=>{const s=ST[i];if(!s)return;const p=ease((t-s[0]+0.15)/0.4);e.style.opacity=p;e.style.transform=`translateY(${12*(1-p)}px)`;e.classList.toggle('on',t>=s[0]-0.1&&t<s[0]+s[1]+0.2)})}
+</script></body></html>

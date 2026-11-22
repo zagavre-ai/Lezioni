@@ -1,0 +1,16 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="base.css"><style>
+#tt{position:absolute;left:60px;top:100px;font:400 60px Bri}
+.g{position:absolute;box-sizing:border-box;width:880px;padding:12px 24px;border-radius:16px;background:#F4F6FA;border:3px solid #CBD5E1;opacity:0}
+.g b{display:block;font:700 36px/1.2 FigB;color:#2060AF}.g span{display:block;font:400 30px/1.3 Fig;color:#0B1530}
+.g.on{border-color:#2060AF;box-shadow:0 0 0 7px #FFE600;background:#fff}
+</style></head><body><div class="k" id="k"></div><div class="rule"></div><div id="tt"></div><div id="gs"></div><div class="foot" id="foot"></div>
+<script>
+const $=i=>document.getElementById(i),ease=x=>{x=Math.max(0,Math.min(1,x));return 1-Math.pow(1-x,3)};
+let G=[],ST=[],PER=10;
+function setData(d){$('k').textContent=d.kicker;$('tt').textContent=d.titolo;$('foot').textContent=d.foot;$('gs').innerHTML='';G=[];PER=d.per||10;
+ d.termini.forEach((t,i)=>{const e=document.createElement('div');e.className='g';e.innerHTML='<b>'+t[0]+'</b><span>'+t[1]+'</span>';$('gs').appendChild(e);G.push(e)});
+ G.forEach((e,i)=>{const k=i%PER,col=k%2,row=Math.floor(k/2);e.style.left=(60+col*930)+'px';e.style.top=(215+row*165)+'px'})}
+function setSteps(s){ST=s}
+function render(t){G.forEach((e,i)=>{const s=ST[i];if(!s)return;const pg=Math.floor(i/PER);const first=ST[pg*PER][0];const last=ST[Math.min(G.length-1,pg*PER+PER-1)];const next=ST[(pg+1)*PER];
+  const p=ease((t-s[0]+0.15)/0.4);let a=p;if(next)a*=1-ease((t-next[0]+0.3)/0.3);e.style.opacity=a;e.style.transform=`translateY(${12*(1-p)}px)`;e.classList.toggle('on',t>=s[0]-0.1&&t<s[0]+s[1]+0.2)})}
+</script></body></html>

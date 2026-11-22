@@ -1,0 +1,19 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="base.css"><style>
+#kk{position:absolute;left:60px;top:40px;font:700 26px FigB;letter-spacing:.16em;color:#C2410C}
+#tt{position:absolute;left:60px;top:84px;width:1800px;font:400 64px/1.1 Bri}
+#im{position:absolute;left:60px;top:230px;width:760px;height:770px;object-fit:contain;opacity:0}
+.b{position:absolute;box-sizing:border-box;padding:16px 28px;border-radius:16px;background:#F4F6FA;border:3px solid #CBD5E1;font:400 38px/1.3 Fig;opacity:0}
+.b.on{border-color:#2060AF;box-shadow:0 0 0 7px #FFE600;background:#fff}
+.b b{font-family:FigB}
+</style></head><body><div id="kk">LO SAPEVI?</div><div class="rule" style="top:76px;display:none"></div><div id="tt"></div><img id="im"><div id="bx"></div><div class="foot" id="foot"></div>
+<script>
+const $=i=>document.getElementById(i),ease=x=>{x=Math.max(0,Math.min(1,x));return 1-Math.pow(1-x,3)};
+let B=[],ST=[];
+function setData(d){$('tt').textContent=d.titolo;$('foot').textContent=d.foot;$('bx').innerHTML='';B=[];
+ const img=d.img;if(img){$('im').src=img;$('im').style.display='block'}else{$('im').style.display='none'}
+ const x=img?860:160,w=img?1000:1600;let y=img?250:270;const fs=img?38:46;
+ d.box.forEach(t=>{const e=document.createElement('div');e.className='b';e.style.cssText=`left:${x}px;top:${y}px;width:${w}px;font-size:${fs}px;padding:${img?16:22}px 32px`;e.innerHTML=t;$('bx').appendChild(e);B.push(e);y+=e.offsetHeight+(img?18:26)})}
+function setSteps(s){ST=s}
+function render(t){const pi=ease((t-0.3)/1.2);$('im').style.opacity=pi;$('im').style.transform=`scale(${0.97+0.03*pi}) translateY(${(1-pi)*12}px)`;
+ B.forEach((e,i)=>{const s=ST[i];if(!s)return;const p=ease((t-s[0]+0.15)/0.4);e.style.opacity=p;e.style.transform=`translateY(${14*(1-p)}px)`;e.classList.toggle('on',t>=s[0]-0.1&&t<s[0]+s[1]+0.2)})}
+</script></body></html>

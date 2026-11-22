@@ -1,0 +1,754 @@
+[
+ {
+  "nome": "P1_BENVENUTO_V3",
+  "testo": "Benvenuti alla lezione Preparazione, di Tecnologie dei materiali e dei processi produttivi e organizzativi della moda. Parleremo di classificazione generale delle fibre tessili e approfondiremo le caratteristiche, l'origine e i processi di lavorazione delle fibre naturali di origine animale: lana e seta. In questa prima parte vedremo: che cos'è una fibra tessile e come si classifica; le proprietà delle fibre tessili; il mercato delle fibre e come si sporcano; la lana di pecora: dalla tosatura alla struttura della fibra."
+ },
+ {
+  "nome": "P1_CHIUSURA_V2",
+  "testo": "Fine della prima parte. Nella seconda parte vedremo la qualità e il valore commerciale della lana, i suoi trattamenti e i suoi pregi, e le lane e i peli speciali."
+ },
+ {
+  "nome": "P2_BENVENUTO_V3",
+  "testo": "Benvenuti alla seconda parte della lezione Preparazione, di Tecnologie dei materiali e dei processi produttivi e organizzativi della moda. In questa parte vedremo: qualità e valore commerciale della lana; i trattamenti chimici e meccanici della lana; i pregi della lana e come si lavora; lane e peli speciali."
+ },
+ {
+  "nome": "P2_RIPASSO_V2",
+  "testo": "Prima di ricominciare, ripassiamo la prima parte. Le fibre tessili si dividono in naturali, vegetali o animali, e chimiche, artificiali o sintetiche. Le proprietà sono morfologiche, chimiche, fisico-meccaniche e fisiologiche. Le fibre naturali sono scese al trentasette per cento della produzione, mentre le fibre chimiche coprono il sessantatré per cento del consumo. La lana è fatta soprattutto di cheratina, e le lane migliori vengono dalle spalle e dai fianchi."
+ },
+ {
+  "nome": "P2_CHIUSURA_V2",
+  "testo": "Fine della seconda parte. Nella terza parte parleremo della seta, e poi faremo la verifica finale."
+ },
+ {
+  "nome": "P3_BENVENUTO_V3",
+  "testo": "Benvenuti alla terza parte della lezione Preparazione, di Tecnologie dei materiali e dei processi produttivi e organizzativi della moda. In questa parte vedremo: la seta: dal baco al filo; la seta: trattamenti, proprietà e cura. Alla fine, il glossario, il ripasso, la mappa della lezione e la verifica finale."
+ },
+ {
+  "nome": "P3_RIPASSO_V2",
+  "testo": "Prima di ricominciare, ripassiamo la seconda parte. Il valore della lana dipende da razza, finezza in micron, filabilità, morbidezza, lunghezza e colore. I trattamenti della lana sono chimici o meccanici: per esempio lo ZIRPRO, la follatura e il superwash. La lana è ingualcibile, ignifuga, idrorepellente e igroscopica, fino al trenta per cento del proprio peso. Tra le lane speciali, la vigogna è la più fine e costosa; a pelo fine corrisponde il prezzo più elevato."
+ },
+ {
+  "nome": "A01_APPROF",
+  "testo": "Sai perché alcune fibre si chiamano man-made? Perché sono fibre chimiche, prodotte tramite l'intervento dell'uomo su una materia prima. Ma prima chiediamoci: che cos'è una fibra tessile? È un elemento di base di forma allungata, flessibile e sottile, che si presta a essere filato. Il Regolamento U E, cioè Unione Europea, numero mille e sette del duemilaundici, la definisce con tre parole chiave: flessibilità, finezza e un elevato rapporto tra la lunghezza e la dimensione trasversale massima. Le fibre naturali arrivano direttamente dal mondo naturale, senza modifiche da parte dell'uomo. Quelle chimiche si dividono in artificiali, che partono da prodotti già esistenti in natura, e sintetiche, che nascono dall'unione di elementi chimici semplici. Per unire i pregi delle varie fibre esistono infine le fibre in mischia."
+ },
+ {
+  "nome": "A01_MAPPA",
+  "testo": "Come si classificano le fibre tessili? Le fibre naturali sono composte da materie prime non modificate dall'uomo. Quelle vegetali sono, per esempio, cotone, lino, canapa, juta, ramiè, sisal, cocco e kapok. Quelle animali sono lana, cashmere, mohair, angora e seta. Le fibre chimiche, o man-made, sono prodotte tramite l'intervento dell'uomo su una materia prima. Le artificiali sono viscosa, acetato, triacetato, cupro, modal e lyocell. Le sintetiche sono poliestere, poliammide o nylon, acrilica, polipropilenica, elastan e aramide. Le fibre in mischia uniscono le caratteristiche positive delle varie fibre e minimizzano quelle negative."
+ },
+ {
+  "nome": "A01_RIPASSO",
+  "testo": "Ripasso. La fibra tessile è un elemento lungo, flessibile e sottile, adatto a essere filato. Il Regolamento U E, Unione Europea, numero mille e sette del duemilaundici, la definisce per flessibilità, finezza e rapporto tra lunghezza e dimensione trasversale. Due grandi gruppi: fibre naturali e fibre chimiche, dette man-made. Le naturali sono vegetali o animali; le chimiche sono artificiali o sintetiche. Le fibre in mischia uniscono i pregi di fibre diverse."
+ },
+ {
+  "nome": "A01_Q1_D",
+  "testo": "Domanda uno. Che cosa definisce il Regolamento U E, cioè Unione Europea, numero mille e sette del duemilaundici? Risposta A: Il prezzo delle fibre naturali. Risposta B: La temperatura di lavaggio dei tessuti. Risposta C: La fibra tessile. Risposta D: Il colore dei filati."
+ },
+ {
+  "nome": "A01_Q1_R",
+  "testo": "La risposta giusta è la C: La fibra tessile. Il Regolamento definisce la fibra tessile: un elemento con flessibilità, finezza ed elevato rapporto tra lunghezza e dimensione trasversale massima."
+ },
+ {
+  "nome": "A01_Q2_D",
+  "testo": "Domanda due. In quali due grandi gruppi si dividono le fibre tessili? Risposta A: Vegetali e animali. Risposta B: Artificiali e sintetiche. Risposta C: Continue e discontinue. Risposta D: Naturali e chimiche (man-made)."
+ },
+ {
+  "nome": "A01_Q2_R",
+  "testo": "La risposta giusta è la D: Naturali e chimiche (man-made). I grandi gruppi sono fibre naturali e fibre chimiche, o man-made. Vegetali e animali sono i due sottogruppi delle naturali."
+ },
+ {
+  "nome": "A01_Q3_D",
+  "testo": "Domanda tre. Quale di queste è una fibra naturale di origine animale? Risposta A: Seta. Risposta B: Cotone. Risposta C: Viscosa. Risposta D: Poliestere."
+ },
+ {
+  "nome": "A01_Q3_R",
+  "testo": "La risposta giusta è la A: Seta. La seta proviene dal regno animale, come lana, cashmere, mohair e angora. Il cotone è vegetale, la viscosa è artificiale, il poliestere è sintetico."
+ },
+ {
+  "nome": "A01_Q4_D",
+  "testo": "Domanda quattro. Che cosa sono le fibre sintetiche? Risposta A: Fibre ottenute da prodotti già esistenti in natura, opportunamente lavorati. Risposta B: Fibre prodotte dall'unione di elementi chimici semplici che formano polimeri complessi. Risposta C: Fibre che provengono direttamente dal mondo naturale. Risposta D: Fibre nate dall'unione di fibre diverse."
+ },
+ {
+  "nome": "A01_Q4_R",
+  "testo": "La risposta giusta è la B: Fibre prodotte dall'unione di elementi chimici semplici che formano polimeri complessi. Le sintetiche nascono dall'unione di elementi chimici semplici che formano polimeri complessi, come il poliestere. Le artificiali partono invece da prodotti già esistenti in natura."
+ },
+ {
+  "nome": "A01_Q5_D",
+  "testo": "Domanda cinque. A che cosa servono le fibre in mischia? Risposta A: A produrre solo fibre di origine animale. Risposta B: A eliminare il filato dal processo produttivo. Risposta C: A unire le caratteristiche positive di fibre diverse e minimizzare gli aspetti negativi. Risposta D: A rendere le fibre naturali non modificate dall'uomo."
+ },
+ {
+  "nome": "A01_Q5_R",
+  "testo": "La risposta giusta è la C: A unire le caratteristiche positive di fibre diverse e minimizzare gli aspetti negativi. Le fibre in mischia nascono per unire le caratteristiche positive delle varie fibre esistenti e minimizzare gli aspetti negativi, per soddisfare le esigenze dei consumatori."
+ },
+ {
+  "nome": "A02_APPROF",
+  "testo": "Sai che cosa sono quei pallini che compaiono sulla superficie di un maglione? Si chiamano pilling, e sono antiestetici pallini che si formano sul tessuto. La tendenza al pilling dipende anche dalla lunghezza delle fibre. Per questo le fibre si catalogano in discontinue, semicontinue e continue. La lunghezza influenza la resistenza, la lucentezza e proprio il pilling. Un'altra proprietà morfologica è la finezza, cioè la sottigliezza della fibra, che si esprime in micron: un micron è un millesimo di millimetro. L'igroscopicità, cioè la capacità di assorbire umidità, è molto importante negli scambi commerciali, perché serve a stabilire il peso convenzionale. Conoscere le proprietà è fondamentale per scegliere i materiali in base all'uso finale del prodotto."
+ },
+ {
+  "nome": "A02_MAPPA",
+  "testo": "Quali sono le proprietà delle fibre tessili? Le proprietà morfologiche indicano come è fatta una fibra. Ne fanno parte lunghezza, finezza, colore e lucentezza, mano, densità, sezione e aspetto longitudinale. Le proprietà chimiche indicano come la fibra si comporta a contatto con le sostanze chimiche. Sono la resistenza ad acidi, alcali, solventi e ossidanti. Le proprietà fisico-meccaniche indicano come la fibra si comporta quando si applica su di essa una forza. Ne fanno parte igroscopicità, tenacità, allungamento a rottura, elasticità, resilienza, infiammabilità, punto di fusione e punto di rammollimento. Le proprietà fisiologiche indicano come una fibra interagisce con il corpo umano e l'ambiente circostante. Sono la coibenza, la resistenza ai raggi ultravioletti e la resistenza alle intemperie."
+ },
+ {
+  "nome": "A02_RIPASSO",
+  "testo": "Ripasso. Le proprietà si dividono in quattro gruppi: morfologiche, chimiche, fisico-meccaniche e fisiologiche. Le morfologiche dicono come è fatta una fibra: lunghezza, finezza in micron, cioè millesimi di millimetro, colore, mano e densità. Le chimiche riguardano la resistenza ad acidi, alcali, solventi e ossidanti. Le fisico-meccaniche descrivono il comportamento sotto l'azione di forze fisiche. Le fisiologiche descrivono l'interazione con l'organismo e con l'ambiente."
+ },
+ {
+  "nome": "A02_Q1_D",
+  "testo": "Domanda uno. Quali proprietà indicano come è fatta una fibra? Risposta A: Le proprietà chimiche. Risposta B: Le proprietà fisico-meccaniche. Risposta C: Le proprietà fisiologiche. Risposta D: Le proprietà morfologiche."
+ },
+ {
+  "nome": "A02_Q1_R",
+  "testo": "La risposta giusta è la D: Le proprietà morfologiche. Le proprietà morfologiche definiscono la struttura fisica esterna della fibra: lunghezza, finezza, colore, mano, densità e sezione."
+ },
+ {
+  "nome": "A02_Q2_D",
+  "testo": "Domanda due. Che cos'è il pilling? Risposta A: La formazione di antiestetici pallini sulla superficie del tessuto. Risposta B: Il restringimento del tessuto dopo il lavaggio. Risposta C: La perdita di colore della fibra. Risposta D: L'isolamento termico della fibra."
+ },
+ {
+  "nome": "A02_Q2_R",
+  "testo": "La risposta giusta è la A: La formazione di antiestetici pallini sulla superficie del tessuto. Il pilling è la formazione di antiestetici pallini sulla superficie del tessuto. La tendenza al pilling è influenzata dalla lunghezza delle fibre."
+ },
+ {
+  "nome": "A02_Q3_D",
+  "testo": "Domanda tre. Che cosa indicano l'igroscopicità e il tasso di ripresa? Risposta A: La capacità di resistere alle sollecitazioni di tiro. Risposta B: La capacità delle fibre di assorbire umidità. Risposta C: La capacità di isolamento termico. Risposta D: La temperatura di passaggio allo stato liquido."
+ },
+ {
+  "nome": "A02_Q3_R",
+  "testo": "La risposta giusta è la B: La capacità delle fibre di assorbire umidità. L'igroscopicità e il tasso di ripresa indicano la capacità di assorbire umidità, importante negli scambi commerciali per stabilire il peso convenzionale."
+ },
+ {
+  "nome": "A02_Q4_D",
+  "testo": "Domanda quattro. Che cos'è la mano di un tessuto? Risposta A: Il peso di un centimetro cubo di fibra. Risposta B: La forma della fibra osservata al microscopio. Risposta C: L'insieme di sensazioni tattili e termiche suscitate dal contatto con il tessuto. Risposta D: La capacità di resistere ai raggi ultravioletti."
+ },
+ {
+  "nome": "A02_Q4_R",
+  "testo": "La risposta giusta è la C: L'insieme di sensazioni tattili e termiche suscitate dal contatto con il tessuto. La mano indica l'insieme di sensazioni tattili e termiche suscitate dal contatto con il tessuto, che può risultare morbido, secco, caldo o fresco."
+ },
+ {
+  "nome": "A02_Q5_D",
+  "testo": "Domanda cinque. Che cos'è la coibenza? Risposta A: La capacità di dissipare l'elettricità statica. Risposta B: La capacità di non alterarsi se esposti ad acidi. Risposta C: L'insieme di sensazioni tattili suscitate dal tessuto. Risposta D: La capacità di isolamento termico, che mantiene costante la temperatura corporea."
+ },
+ {
+  "nome": "A02_Q5_R",
+  "testo": "La risposta giusta è la D: La capacità di isolamento termico, che mantiene costante la temperatura corporea. La coibenza è la capacità di isolamento termico: permette di mantenere costante la temperatura corporea. È una proprietà fisiologica."
+ },
+ {
+  "nome": "A03_APPROF",
+  "testo": "Sai quante volte è cresciuta la domanda di fibre tessili dal millenovecentocinquanta? Otto volte! E oggi supera la soglia di settanta milioni di tonnellate di fibre consumate. Le fibre naturali, che nel millenovecento dominavano incontrastate, sono scese dal sessantadue per cento del millenovecentosettanta ad appena il trentasette per cento attuale. Le fibre chimiche coprono ormai il sessantatré per cento del consumo complessivo, e la crescita è guidata dal poliestere, quasi l'ottanta per cento della produzione di fibre sintetiche. Anche la geografia è cambiata: la Cina è passata dall'otto virgola sette per cento a oltre il sessanta per cento della produzione di fibre sintetiche, in vent'anni."
+ },
+ {
+  "nome": "A03_MAPPA",
+  "testo": "Come cambia il mercato delle fibre e come si sporcano? La domanda è aumentata di otto volte rispetto al millenovecentocinquanta e supera settanta milioni di tonnellate. Le fibre naturali sono scese dal sessantadue per cento del millenovecentosettanta al trentasette per cento attuale. Le fibre chimiche coprono il sessantatré per cento del consumo. Il poliestere è quasi l'ottanta per cento delle sintetiche, e la Cina è salita dall'otto virgola sette a oltre il sessanta per cento. Le macchie grasse riguardano l'indice di sporcabilità; le macchie magre, la proprietà antimacchia. Per la sporcabilità cotone e lana hanno cento, la seta quaranta e le sintetiche i valori più bassi. Per la pulibilità, al vertice ci sono poliammide ed elastan con cento per cento."
+ },
+ {
+  "nome": "A03_RIPASSO",
+  "testo": "Ripasso. La domanda di fibre è aumentata di otto volte dal millenovecentocinquanta: oltre settanta milioni di tonnellate. Le naturali sono scese dal sessantadue per cento al trentasette per cento; le chimiche coprono il sessantatré per cento. Il poliestere è quasi l'ottanta per cento delle sintetiche; la Cina supera il sessanta per cento. Sporcabilità: tendenza a trattenere lo sporco grasso; massima per cotone e lana, cento. Pulibilità: facilità di togliere le macchie; al vertice poliammide ed elastan, cento per cento."
+ },
+ {
+  "nome": "A03_Q1_D",
+  "testo": "Domanda uno. Di quante volte è aumentata la domanda di fibre tessili rispetto al millenovecentocinquanta? Risposta A: Di otto volte. Risposta B: Di due volte. Risposta C: Di quattro volte. Risposta D: Di dodici volte."
+ },
+ {
+  "nome": "A03_Q1_R",
+  "testo": "La risposta giusta è la A: Di otto volte. La domanda è aumentata di ben otto volte rispetto al millenovecentocinquanta, superando i settanta milioni di tonnellate."
+ },
+ {
+  "nome": "A03_Q2_D",
+  "testo": "Domanda due. Quale quota della produzione totale hanno oggi le fibre naturali? Risposta A: Il sessantadue per cento. Risposta B: Il trentasette per cento. Risposta C: Il sessantatré per cento. Risposta D: L'ottanta per cento."
+ },
+ {
+  "nome": "A03_Q2_R",
+  "testo": "La risposta giusta è la B: Il trentasette per cento. Le fibre naturali sono scese dal sessantadue per cento del millenovecentosettanta ad appena il trentasette per cento attuale. Il sessantatré per cento è la quota del consumo delle fibre chimiche."
+ },
+ {
+  "nome": "A03_Q3_D",
+  "testo": "Domanda tre. Quale Paese ha oggi una posizione di dominio nella produzione di fibre sintetiche, con oltre il sessanta per cento? Risposta A: L'Italia. Risposta B: L'Australia. Risposta C: La Cina. Risposta D: Il Brasile."
+ },
+ {
+  "nome": "A03_Q3_R",
+  "testo": "La risposta giusta è la C: La Cina. La Cina ha aumentato la sua quota dall'otto virgola sette per cento a oltre il sessanta per cento della produzione di fibre sintetiche nel giro di vent'anni."
+ },
+ {
+  "nome": "A03_Q4_D",
+  "testo": "Domanda quattro. Che cosa esprime l'indice di sporcabilità? Risposta A: La facilità di rimozione delle macchie nel lavaggio. Risposta B: La resistenza alle macchie in soluzione acquosa. Risposta C: La velocità di asciugatura del tessuto. Risposta D: La tendenza di un materiale a trattenere lo sporco grasso."
+ },
+ {
+  "nome": "A03_Q4_R",
+  "testo": "La risposta giusta è la D: La tendenza di un materiale a trattenere lo sporco grasso. L'indice di sporcabilità esprime la tendenza a trattenere lo sporco grasso, come smog o sostanze oleose. Cotone e lana hanno il valore massimo, cento."
+ },
+ {
+  "nome": "A03_Q5_D",
+  "testo": "Domanda cinque. Quali fibre sono al vertice della pulibilità, con il cento per cento? Risposta A: Poliammide ed elastan. Risposta B: Seta e lana. Risposta C: Viscosa e cotone. Risposta D: Lino e acrilica."
+ },
+ {
+  "nome": "A03_Q5_R",
+  "testo": "La risposta giusta è la A: Poliammide ed elastan. In cima alla graduatoria della pulibilità ci sono poliammide ed elastan con il cento per cento. In fondo alla classifica: viscosa, seta e lana."
+ },
+ {
+  "nome": "A04_APPROF",
+  "testo": "Sai che la lana è fatta della stessa proteina dei tuoi capelli? Si chiama cheratina, ed è l'ottanta per cento della fibra. È la stessa che si trova nelle piume, nelle unghie e nelle corna. Il resto sono altre proteine, per il diciotto per cento, la lanolina, per l'uno virgola cinque per cento, e i sali minerali, per lo zero virgola cinque per cento. La lanolina è il grasso che dà alla fibra il suo colore giallognolo e, dopo specifici trattamenti, si usa nell'industria farmaceutica e cosmetica, perché ha una grande affinità con la pelle umana. Al microscopio la fibra mostra un midollo poroso, un cortex e una cuticola rivestita di squame sovrapposte."
+ },
+ {
+  "nome": "A04_MAPPA",
+  "testo": "Com'è fatta e come si lavora la lana di pecora? La lana nasce con le prime civiltà, fiorisce in Asia Minore e si diffonde nel bacino del Mediterraneo. Oggi le pecore sono circa un miliardo, e l'Italia è il primo Paese per la trasformazione della lana in tessuto. Le razze si dividono in merino, incrociate e indigene. Il merino ha il pelo arricciato e soffice, le incrociate sono più grossolane, le indigene lunghe e spesse. La tosatura è annuale, in primavera; la bistosa si fa due volte all'anno. Si distinguono la lana saltata, la lana sucida e la lana vergine. Con la cernita si separano le parti: le lane migliori vengono dalle spalle e dai fianchi. Poi il vello si lava, la lanolina va in una centrifuga e si asciuga con aria calda. La composizione è cheratina all'ottanta per cento, altre proteine al diciotto, lanolina all'uno virgola cinque e sali minerali allo zero virgola cinque. Se le squame esterne si saldano tra loro, si ha l'infeltrimento."
+ },
+ {
+  "nome": "A04_RIPASSO",
+  "testo": "Ripasso. La lana è la principale fibra animale: viene dal vello della pecora. Le razze sono merino, incrociate e indigene. La cernita separa le parti: le lane migliori vengono da spalle e fianchi. Composizione: cheratina ottanta per cento, altre proteine diciotto, lanolina uno virgola cinque, sali minerali zero virgola cinque. Con acqua troppo calda, detersivi non adatti e sfregamenti le squame si saldano: è l'infeltrimento."
+ },
+ {
+  "nome": "A04_Q1_D",
+  "testo": "Domanda uno. Qual è la proteina principale della lana? Risposta A: La fibroina. Risposta B: La cheratina. Risposta C: La sericina. Risposta D: La lanolina."
+ },
+ {
+  "nome": "A04_Q1_R",
+  "testo": "La risposta giusta è la B: La cheratina. La cheratina è presente nella misura dell'ottanta per cento. È la stessa proteina dei capelli umani, delle piume, delle unghie e delle corna."
+ },
+ {
+  "nome": "A04_Q2_D",
+  "testo": "Domanda due. Da quali zone del corpo della pecora provengono le lane migliori? Risposta A: Dal muso e dal ventre. Risposta B: Dalle zampe e dalla testa. Risposta C: Dalle spalle e dai fianchi. Risposta D: Dalla coda e dalle orecchie."
+ },
+ {
+  "nome": "A04_Q2_R",
+  "testo": "La risposta giusta è la C: Dalle spalle e dai fianchi. Muso e ventre sono molto deteriorati e non sono pregiati. Le lane migliori vengono dalle spalle e dai fianchi."
+ },
+ {
+  "nome": "A04_Q3_D",
+  "testo": "Domanda tre. Che cos'è la lana sucida? Risposta A: La lana di una pecora lavata in acqua corrente prima della tosatura. Risposta B: La lana recuperata dal riciclo di manufatti usati. Risposta C: La lana tosata esclusivamente da animali vivi. Risposta D: La lana appena recisa, non ancora sottoposta a lavaggio industriale."
+ },
+ {
+  "nome": "A04_Q3_R",
+  "testo": "La risposta giusta è la D: La lana appena recisa, non ancora sottoposta a lavaggio industriale. La lana sucida è appena recisa e non ancora lavata. Se la pecora è lavata prima della tosatura, la lana si dice saltata."
+ },
+ {
+  "nome": "A04_Q4_D",
+  "testo": "Domanda quattro. Quale ruolo ha l'Italia nel settore della lana? Risposta A: Primo Paese al mondo per la trasformazione della lana in tessuto e maggior esportatore di questi manufatti. Risposta B: Primo Paese al mondo per numero di pecore. Risposta C: Unico Paese che importa lana. Risposta D: Principale Paese in cui si pratica la bistosa."
+ },
+ {
+  "nome": "A04_Q4_R",
+  "testo": "La risposta giusta è la A: Primo Paese al mondo per la trasformazione della lana in tessuto e maggior esportatore di questi manufatti. L'Italia è il primo Paese al mondo per potenza industriale nella trasformazione della lana in tessuto e il maggior esportatore mondiale di questi manufatti."
+ },
+ {
+  "nome": "A04_Q5_D",
+  "testo": "Domanda cinque. Che cos'è l'infeltrimento? Risposta A: La caduta delle squame per l'azione della lanolina. Risposta B: Le squame esterne si saldano e si compenetrano tra loro. Risposta C: L'allungamento permanente della fibra. Risposta D: L'eliminazione del grasso dalla fibra."
+ },
+ {
+  "nome": "A04_Q5_R",
+  "testo": "La risposta giusta è la B: Le squame esterne si saldano e si compenetrano tra loro. Con acqua troppo calda, detergenti non idonei o forti azioni meccaniche come sfregamenti e centrifugazione, le squame si saldano e si compenetrano: è l'infeltrimento."
+ },
+ {
+  "nome": "A05_APPROF",
+  "testo": "Sai che cosa significa «super centoventi» per un filato di lana? Viene dal Bradford System, che misura la filabilità: quante matasse, in inglese hanks, da cinquecentosessanta yard, cioè circa cinquecentoundici metri, si ottengono da una libbra, cioè quattrocentocinquantatré grammi, di fibra. Il sistema è codificato dall'I W T O, cioè l'Organizzazione Internazionale del Tessile Laniero, per definire i filati più pregiati. Per esempio, nel super ottanta il diametro massimo delle fibre è diciannove virgola settantacinque micron. Nel super centoventi è diciassette virgola settantacinque micron. E nel super duecentocinquanta arriva a undici virgola venticinque micron. Ricorda: un micron è un millesimo di millimetro."
+ },
+ {
+  "nome": "A05_MAPPA",
+  "testo": "Che cosa determina il valore commerciale della lana? Il valore dipende dalla razza: merino, incrociate e indigene. Il merino è per l'abbigliamento, le incrociate per coperte e tappeti, le indigene per materassi ed edilizia. La finezza si misura in micron: extrafine fino a venti, fine da venti a venticinque, intermedia da venticinque a trenta, comune da trenta a cinquanta, ordinaria da cinquanta a cento. Il Bradford System conta le matasse, o hanks, da cinquecentosessanta yard ottenibili da una libbra di fibra. Va dal super ottanta al super duecentocinquanta, ed è codificato dall'I W T O. La morbidezza dipende dall'età dell'animale: le lane agnelline, o lambswool, sono le più soffici. Più la fibra è ondulata, più è elastica e voluminosa. La lunghezza decide la filatura: le fibre lunghe per i filati pettinati, le corte per i cardati. Il bianco è il colore più apprezzato. Per provenienza la lana è vergine, di concia o rigenerata."
+ },
+ {
+  "nome": "A05_RIPASSO",
+  "testo": "Ripasso. Tre categorie di razza: merino per l'abbigliamento, incrociate per coperte e tappeti, indigene per materassi ed edilizia. Finezza in micron, cioè millesimi di millimetro: da extrafine, fino a venti, a ordinaria, da cinquanta a cento. Bradford System: matasse, o hanks, da cinquecentosessanta yard ottenibili da una libbra; scala da super ottanta a super duecentocinquanta. Morbidezza: le agnelline, o lambswool, sono le più pregiate. Più la fibra è ondulata, più è elastica e voluminosa. Fibre lunghe: filati pettinati. Fibre corte: filati cardati. Il bianco è il colore più apprezzato."
+ },
+ {
+  "nome": "A05_Q1_D",
+  "testo": "Domanda uno. Quale razza ha lana destinata soprattutto all'abbigliamento? Risposta A: Le incrociate. Risposta B: Le indigene. Risposta C: Il merino. Risposta D: Tutte allo stesso modo."
+ },
+ {
+  "nome": "A05_Q1_R",
+  "testo": "La risposta giusta è la C: Il merino. La lana merino è destinata soprattutto all'abbigliamento. Le incrociate servono per coperte e tappeti, le indigene per materassi ed edilizia."
+ },
+ {
+  "nome": "A05_Q2_D",
+  "testo": "Domanda due. A quale categoria appartengono le fibre fino a venti micron? Risposta A: Fine. Risposta B: Intermedia. Risposta C: Comune. Risposta D: Extrafine."
+ },
+ {
+  "nome": "A05_Q2_R",
+  "testo": "La risposta giusta è la D: Extrafine. Extrafine: fino a venti micron. Fine: da venti a venticinque. Intermedia: da venticinque a trenta. Comune: da trenta a cinquanta."
+ },
+ {
+  "nome": "A05_Q3_D",
+  "testo": "Domanda tre. Che cosa misura il Bradford System? Risposta A: La filabilità: le matasse (hanks) da cinquecentosessanta yard ottenibili da una libbra di fibra. Risposta B: Il colore naturale della lana. Risposta C: La resistenza al fuoco della fibra. Risposta D: Il peso del vello alla tosatura."
+ },
+ {
+  "nome": "A05_Q3_R",
+  "testo": "La risposta giusta è la A: La filabilità: le matasse (hanks) da cinquecentosessanta yard ottenibili da una libbra di fibra. Il Bradford System misura la filabilità: il numero di matasse, o hanks, da cinquecentosessanta yard ottenibili da una libbra di fibra."
+ },
+ {
+  "nome": "A05_Q4_D",
+  "testo": "Domanda quattro. Come si commercializzano le lane dei piccoli di quattro, sei o otto mesi? Risposta A: Lane matricine. Risposta B: Lane agnelline o lambswool. Risposta C: Lane saltate. Risposta D: Lane sucide."
+ },
+ {
+  "nome": "A05_Q4_R",
+  "testo": "La risposta giusta è la B: Lane agnelline o lambswool. Le lane dei piccoli sono le più pregiate per la loro sofficità: lane agnelline o lambswool. Le matricine vengono invece dalle pecore che hanno già partorito."
+ },
+ {
+  "nome": "A05_Q5_D",
+  "testo": "Domanda cinque. Quale colore naturale della lana è il più apprezzato sul mercato? Risposta A: Il nero. Risposta B: Il grigio scuro. Risposta C: Il bianco. Risposta D: Il marrone scuro."
+ },
+ {
+  "nome": "A05_Q5_R",
+  "testo": "La risposta giusta è la C: Il bianco. Il bianco permette di tingere la fibra in qualsiasi colore. Le lane scure, con il nero come tonalità più difficile, sono di complessa tintura e di scarso pregio."
+ },
+ {
+  "nome": "A06_APPROF",
+  "testo": "Sai perché la lana può proteggere i pompieri? La lana è già una fibra naturalmente ignifuga. Con il trattamento ZIRPRO, a base di zirconio o titanio, diventa ancora più resistente al fuoco, anti-fumo e priva di tossicità. Per questo è ideale per confezionare gli indumenti protettivi di pompieri, corridori automobilistici e addetti agli altoforni. Per rendere i capi lavabili in lavatrice, senza rischio di restringimenti, c'è il superwash, che smussa le squame e distribuisce speciali resine. E con il lintrak, applicando a freddo una resina nel punto interessato, si fissano pieghe permanenti e durature. Ma attenzione: le sostanze basiche forti, come la soda caustica e la potassa caustica, sono altamente nocive e danneggiano in modo irreparabile la struttura della lana."
+ },
+ {
+  "nome": "A06_MAPPA",
+  "testo": "Quali trattamenti può subire la lana? I trattamenti chimici usano sostanze e preparati per variare la struttura, il colore o la reazione chimica delle fibre. L'acido solforico serve per la lana rigenerata. Cloro e aceto rimpiccioliscono le squame e riducono il restringimento. Il trattamento ZIRPRO usa zirconio o titanio. Rende la lana più ignifuga, anti-fumo e priva di tossicità: per pompieri, corridori automobilistici e addetti agli altoforni. Le basi forti sono la soda caustica e la potassa caustica. Danneggiano la lana in modo irreparabile. I trattamenti meccanici agiscono fisicamente su filato o tessuto, cambiandone la mano e l'aspetto. La follatura è un infeltrimento voluto, la garzatura alza il pelo, la gasatura elimina i peli sporgenti. Infine ci sono il superwash e il lintrak. Il superwash rende lavabile in lavatrice, il lintrak fissa pieghe permanenti."
+ },
+ {
+  "nome": "A06_RIPASSO",
+  "testo": "Ripasso. Due famiglie di trattamenti: chimici e meccanici. ZIRPRO, a base di zirconio o titanio: lana più ignifuga, anti-fumo e non tossica. Soda caustica e potassa caustica danneggiano la lana in modo irreparabile. Follatura: infeltrimento voluto, per feltri e lana cotta. Garzatura: solleva il pelo. Superwash: lavabile in lavatrice. Lintrak: pieghe permanenti applicate a freddo."
+ },
+ {
+  "nome": "A06_Q1_D",
+  "testo": "Domanda uno. Che cosa ottiene il trattamento ZIRPRO? Risposta A: Una lana lavabile in lavatrice. Risposta B: Una lana con pieghe permanenti. Risposta C: Una lana senza impurità vegetali. Risposta D: Una lana ancora più ignifuga, anti-fumo e priva di tossicità."
+ },
+ {
+  "nome": "A06_Q1_R",
+  "testo": "La risposta giusta è la D: Una lana ancora più ignifuga, anti-fumo e priva di tossicità. Lo ZIRPRO usa zirconio o titanio e accresce la resistenza al fuoco della lana: ideale per gli indumenti di pompieri, corridori automobilistici e addetti agli altoforni."
+ },
+ {
+  "nome": "A06_Q2_D",
+  "testo": "Domanda due. Che cos'è la follatura? Risposta A: Un infeltrimento voluto che aumenta densità e stabilità dimensionale. Risposta B: Il sollevamento del pelo superficiale. Risposta C: La bruciatura delle punte delle fibre. Risposta D: L'applicazione a freddo di una resina."
+ },
+ {
+  "nome": "A06_Q2_R",
+  "testo": "La risposta giusta è la A: Un infeltrimento voluto che aumenta densità e stabilità dimensionale. La follatura è un infeltrimento voluto: sulle fibre dà i feltri, sui tessuti la lana cotta, spesso prima della tintura."
+ },
+ {
+  "nome": "A06_Q3_D",
+  "testo": "Domanda tre. Quale trattamento serve per ottenere il tessuto fresco lana? Risposta A: La garzatura. Risposta B: La bruciatura. Risposta C: La follatura. Risposta D: Il lintrak."
+ },
+ {
+  "nome": "A06_Q3_R",
+  "testo": "La risposta giusta è la B: La bruciatura. Per il fresco lana si usa la bruciatura, che elimina le punte e i piccoli peli sporgenti. Se si usano fiammelle a gas si chiama gasatura."
+ },
+ {
+  "nome": "A06_Q4_D",
+  "testo": "Domanda quattro. A che cosa serve il trattamento superwash? Risposta A: A rendere la lana ignifuga. Risposta B: A ottenere i feltri. Risposta C: A rendere i capi lavabili in lavatrice senza restringimenti. Risposta D: A sbiancare la fibra."
+ },
+ {
+  "nome": "A06_Q4_R",
+  "testo": "La risposta giusta è la C: A rendere i capi lavabili in lavatrice senza restringimenti. Il superwash smussa le squame superficiali e distribuisce speciali resine che mantengono distanziate le fibre."
+ },
+ {
+  "nome": "A06_Q5_D",
+  "testo": "Domanda cinque. Che effetto hanno soda caustica e potassa caustica sulla lana? Risposta A: La rendono più brillante. Risposta B: Eliminano le impurità vegetali. Risposta C: Migliorano l'affinità con i coloranti. Risposta D: La danneggiano in modo irreparabile."
+ },
+ {
+  "nome": "A06_Q5_R",
+  "testo": "La risposta giusta è la D: La danneggiano in modo irreparabile. Le sostanze basiche forti sono altamente nocive per la lana, soprattutto ad alte temperature o con soluzioni concentrate."
+ },
+ {
+  "nome": "A07_APPROF",
+  "testo": "Sai perché la lana non si stropiccia? Il merito è delle arricciature della fibra, che si comportano come vere e proprie molle. Se stringi un capo di lana nella mano senti sofficità, morbidezza e calore e, non appena rilasci la presa, il capo riprende subito la sua forma originaria. La lana è anche una fibra ignifuga: brucia con estrema lentezza, produce un lieve scoppiettio simile a un friggere, non genera fumi tossici e non fonde né gocciola come le fibre sintetiche. E ha un tasso di igroscopicità eccezionale: può incamerare umidità e sudore fino al trenta per cento del proprio peso, senza risultare umida o fredda al tatto."
+ },
+ {
+  "nome": "A07_MAPPA",
+  "testo": "Quali sono i pregi e i problemi della lana? Ingualcibilità e morbidezza: le arricciature della fibra funzionano come molle elastiche. Quando si rilascia la presa, il capo riprende subito la sua forma originaria. Vestibilità e drappeggiabilità: sono legate alla naturale elasticità della fibra e alla limitata torsione del filato. Il risultato è un panneggio morbido ed elegante. Resistenza al fuoco: la lana brucia con estrema lentezza. Non fonde né gocciola come le sintetiche, e si spegne da sola quando la fonte di calore si allontana. L'idrorepellenza viene dalla lanolina; la lana è termoisolante e igroscopica, fino al trenta per cento del proprio peso. Gli aspetti negativi sono il prurito sulla pelle sensibile e l'allungamento del tessuto umido. Le soluzioni sono il cotone a contatto con la pelle, e falde più lunghe con il materasso a riposo per una notte."
+ },
+ {
+  "nome": "A07_RIPASSO",
+  "testo": "Ripasso. Ingualcibilità: le arricciature funzionano come molle. Resistenza al fuoco: brucia con estrema lentezza, non fonde e non gocciola. Idrorepellenza naturale, grazie alla lanolina. Igroscopicità eccezionale: fino al trenta per cento del proprio peso, senza sembrare umida. Pelle sensibile: tessuti in mischia o indumenti a due strati, con il cotone a contatto con la pelle."
+ },
+ {
+  "nome": "A07_Q1_D",
+  "testo": "Domanda uno. Perché la lana è ingualcibile? Risposta A: Perché le arricciature della fibra si comportano come molle. Risposta B: Perché la fibra è liscia e scivolosa. Risposta C: Perché è ricoperta di sali minerali. Risposta D: Perché non contiene cheratina."
+ },
+ {
+  "nome": "A07_Q1_R",
+  "testo": "La risposta giusta è la A: Perché le arricciature della fibra si comportano come molle. Le arricciature della fibra funzionano come molle elastiche: danno al capo vitalità, vigore e una naturale resistenza alle pieghe."
+ },
+ {
+  "nome": "A07_Q2_D",
+  "testo": "Domanda due. Che cosa succede quando la lana brucia? Risposta A: Fonde e gocciola come le fibre sintetiche. Risposta B: Brucia con estrema lentezza, non fonde né gocciola e si spegne da sola. Risposta C: Produce fumi tossici. Risposta D: Brucia rapidamente con una grande fiamma."
+ },
+ {
+  "nome": "A07_Q2_R",
+  "testo": "La risposta giusta è la B: Brucia con estrema lentezza, non fonde né gocciola e si spegne da sola. La lana è ignifuga: brucia con estrema lentezza, produce un lieve scoppiettio, non genera fumi tossici e si spegne da sola."
+ },
+ {
+  "nome": "A07_Q3_D",
+  "testo": "Domanda tre. Quanta umidità può incamerare la lana senza risultare umida o fredda al tatto? Risposta A: Fino al dieci per cento del proprio peso. Risposta B: Fino al cinquanta per cento del proprio peso. Risposta C: Fino al trenta per cento del proprio peso. Risposta D: Meno del cinque per cento del proprio peso."
+ },
+ {
+  "nome": "A07_Q3_R",
+  "testo": "La risposta giusta è la C: Fino al trenta per cento del proprio peso. Grazie a un tasso di igroscopicità eccezionale, la lana può incamerare umidità e sudore fino al trenta per cento del proprio peso."
+ },
+ {
+  "nome": "A07_Q4_D",
+  "testo": "Domanda quattro. Da che cosa deriva l'idrorepellenza naturale della lana? Risposta A: Dalla cuticola liscia. Risposta B: Dai sali minerali. Risposta C: Dal midollo poroso. Risposta D: Dal sottile rivestimento di lanolina."
+ },
+ {
+  "nome": "A07_Q4_R",
+  "testo": "La risposta giusta è la D: Dal sottile rivestimento di lanolina. La lanolina è il grasso protettivo che non viene mai asportato completamente durante i cicli di lavaggio industriale e di nobilitazione."
+ },
+ {
+  "nome": "A07_Q5_D",
+  "testo": "Domanda cinque. Come si evita che un tessuto di lana steso umido dia forme ridotte dopo il taglio? Risposta A: Con falde più lunghe e facendo riposare il materasso per una notte. Risposta B: Tagliando subito, appena steso. Risposta C: Stendendo il tessuto con la massima tensione. Risposta D: Aggiungendo lanolina al tessuto."
+ },
+ {
+  "nome": "A07_Q5_R",
+  "testo": "La risposta giusta è la A: Con falde più lunghe e facendo riposare il materasso per una notte. Si predispone la stesura con falde proporzionalmente più lunghe e si fa riposare il materasso per una notte, oppure si usano stenditrici che controllano la tensione."
+ },
+ {
+  "nome": "A08_APPROF",
+  "testo": "Sai quanta fibra dà una vigogna? Appena centoventi grammi per capo! È un piccolo camelide selvatico che vive sulle montagne andine, tra quattromila e seimila metri di altitudine, e non sopravvive in cattività: viene radunato ogni due anni per la tosatura e poi rilasciato. Il suo vello fornisce il sottopelo più fine e costoso in assoluto, di colore cannella, con una finezza tra tredici e sedici micron. Ricorda: un micron è un millesimo di millimetro. Il lama, invece, dà circa quattro chilogrammi di fibra per animale, con una finezza tra ventisette e trenta micron. Insomma: a pelo fine, modesta resa e tecnica complessa per ottenerlo corrisponde il prezzo più elevato."
+ },
+ {
+  "nome": "A08_MAPPA",
+  "testo": "Quali sono le lane e i peli speciali? Cammello e dromedario: finezza tra diciassette e ventitré micron, resa tra due e cinque chilogrammi all'anno. Il pelo viene raccolto in primavera, quando cade a fiocchi, o con la tosatura. Vigogna: il sottopelo più fine e costoso, da tredici a sedici micron, centoventi grammi per capo. Viene radunata ogni due anni per la tosatura e non sopravvive in cattività. Alpaca: circa trecento grammi, finezza di venti-venticinque micron. Lama: circa quattro chilogrammi, finezza da ventisette a trenta micron. Sono camelidi andini, e l'alpaca ha sette colori naturali. Cashmere: da tredici a quindici micron. Mohair: da quindici a novanta micron, circa milleseicento grammi. Il cashmere viene dalla capra del Kashmir, per pettinatura; il mohair dalla capra d'Angora, per tosa. Più il pelo è fine, minore la resa e più complessa la raccolta, più alto è il prezzo. I sistemi di raccolta: ciuffi spontanei, tosatura, pettinatura, strigliatura, o dopo uccisione per il guanaco."
+ },
+ {
+  "nome": "A08_RIPASSO",
+  "testo": "Ripasso. Cammello e dromedario: da diciassette a ventitré micron; da due a cinque chilogrammi all'anno. Vigogna: il pelo più fine e costoso, da tredici a sedici micron, appena centoventi grammi. Cashmere, dalla capra del Kashmir: da tredici a quindici micron. Mohair, dalla capra d'Angora: da quindici a novanta micron. Alpaca da venti a venticinque micron; lama da ventisette a trenta; yak da quindici a diciannove. Pelo fine, resa modesta e tecnica complessa: il prezzo è più elevato."
+ },
+ {
+  "nome": "A08_Q1_D",
+  "testo": "Domanda uno. Quale animale fornisce il sottopelo più fine e costoso in assoluto? Risposta A: Il lama. Risposta B: La vigogna. Risposta C: Il cammello. Risposta D: Lo yak."
+ },
+ {
+  "nome": "A08_Q1_R",
+  "testo": "La risposta giusta è la B: La vigogna. La vigogna dà il sottopelo più fine e costoso in assoluto, destinato a un mercato di nicchia, con una finezza tra tredici e sedici micron."
+ },
+ {
+  "nome": "A08_Q2_D",
+  "testo": "Domanda due. Quanta fibra dà una vigogna per capo? Risposta A: Circa trecento grammi. Risposta B: Circa milleseicento grammi. Risposta C: Appena centoventi grammi. Risposta D: Circa quattro chilogrammi."
+ },
+ {
+  "nome": "A08_Q2_R",
+  "testo": "La risposta giusta è la C: Appena centoventi grammi. La resa per capo è di appena centoventi grammi di fibra color cannella. Il lama dà circa quattro chilogrammi e il mohair circa milleseicento grammi."
+ },
+ {
+  "nome": "A08_Q3_D",
+  "testo": "Domanda tre. Come si ottiene il pelo del guanaco? Risposta A: Pettinando l'animale. Risposta B: Con la raccolta dei ciuffi. Risposta C: Con la tosatura ogni due anni. Risposta D: Dopo l'uccisione dell'animale."
+ },
+ {
+  "nome": "A08_Q3_R",
+  "testo": "La risposta giusta è la D: Dopo l'uccisione dell'animale. Il guanaco non sopporta la tosatura: per ottenere il suo pelo è necessario ucciderlo. Si usa soprattutto in pellicceria."
+ },
+ {
+  "nome": "A08_Q4_D",
+  "testo": "Domanda quattro. Da quale animale si ricava il mohair? Risposta A: La capra d'Angora. Risposta B: La capra del Kashmir. Risposta C: Il coniglio d'Angora. Risposta D: Lo yak."
+ },
+ {
+  "nome": "A08_Q4_R",
+  "testo": "La risposta giusta è la A: La capra d'Angora. Il mohair viene dalla capra d'Angora. Il pelo del capretto è la fibra più pregiata, detta kid mohair."
+ },
+ {
+  "nome": "A08_Q5_D",
+  "testo": "Domanda cinque. Quale fibra ha una finezza da tredici a quindici micron e si raccoglie in primavera con la pettinatura? Risposta A: Il mohair. Risposta B: Il cashmere. Risposta C: L'alpaca. Risposta D: Il lama."
+ },
+ {
+  "nome": "A08_Q5_R",
+  "testo": "La risposta giusta è la B: Il cashmere. Il cashmere ha una finezza straordinaria tra tredici e quindici micron; il sottopelo si raccoglie in primavera con la pettinatura, con una resa tra quattrocento grammi e un chilogrammo per capo."
+ },
+ {
+  "nome": "A09_APPROF_V2",
+  "testo": "Sai quanto è lungo il filo di un solo bozzolo? Mediamente un chilometro! È una bava ininterrotta, ed è per questo che la seta è l'unica fibra naturale continua. La produce il baco da seta, un lepidottero che si nutre di foglie di gelso e le trasforma nella proteina che costituisce la fibra. Dopo tre o quattro giorni di lavoro il baco si è avvolto completamente nel bozzolo. Con la trattura, da quattro a otto bave si uniscono per formare il filamento continuo di seta grezza. Ma attenzione: da cento chilogrammi di bozzoli si ricavano appena venti-venticinque chilogrammi di seta grezza. Ecco perché la seta è così costosa."
+ },
+ {
+  "nome": "A09_MAPPA_V2",
+  "testo": "Come si passa dal baco al filo di seta? La seta nasce in Cina nel terzo millennio avanti Cristo, arriva nel Mediterraneo verso la metà del quinto secolo dopo Cristo e in Italia dal dodicesimo secolo. Oggi Cina e India producono insieme circa il novanta per cento del totale. Il baco da seta si nutre di foglie di gelso. Nella bachicoltura, a circa venticinque gradi, la larva cresce in trenta giorni e fa il bozzolo in tre o quattro giorni. I bozzoli vanno alla riproduzione, oppure all'industria, con la stufatura a vapore a settanta gradi. Seguono cernita, spelatura, scopinatura e avvolgimento sugli aspi. Con la trattura, da quattro a otto bave formano il filo di seta grezza. Con la sgommatura si toglie la sericina: seta cruda, mezza cotta, cotta. Il valore: finezza da dodici a quindici micron; da cento chilogrammi di bozzoli, venti-venticinque chilogrammi di seta grezza. La seta caricata con sali minerali è lucente, ma più rigida e fragile."
+ },
+ {
+  "nome": "A09_RIPASSO",
+  "testo": "Ripasso. La seta è l'unica fibra naturale continua; la bava è lunga mediamente un chilometro. Il baco da seta si nutre di foglie di gelso; l'allevamento si chiama bachicoltura. Trattura: da quattro a otto bave formano il filamento di seta tratta, o grezza. Sgommatura: toglie la sericina. Seta cruda, mezza cotta, cotta. Seta caricata: sali minerali per recuperare peso; più rigida e fragile."
+ },
+ {
+  "nome": "A09_Q1_D",
+  "testo": "Domanda uno. Di che cosa si nutre il baco da seta? Risposta A: Di foglie di quercia e frassino. Risposta B: Di foglie di olivo. Risposta C: Di foglie di gelso. Risposta D: Di foglie di tiglio."
+ },
+ {
+  "nome": "A09_Q1_R",
+  "testo": "La risposta giusta è la C: Di foglie di gelso. Il baco da seta si nutre di foglie di gelso, trasformando la cellulosa in esse contenuta nella proteina che costituisce la base della fibra."
+ },
+ {
+  "nome": "A09_Q2_D",
+  "testo": "Domanda due. Come si chiama l'operazione che unisce da quattro a otto bave per formare il filamento continuo? Risposta A: Spelatura. Risposta B: Scopinatura. Risposta C: Stufatura. Risposta D: Trattura."
+ },
+ {
+  "nome": "A09_Q2_R",
+  "testo": "La risposta giusta è la D: Trattura. La trattura unisce da quattro a otto bave e dà la seta tratta o grezza. La spelatura pulisce il bozzolo dalla peluria; la scopinatura è una leggera spazzolatura."
+ },
+ {
+  "nome": "A09_Q3_D",
+  "testo": "Domanda tre. A che cosa serve la stufatura a vapore a settanta gradi centigradi? Risposta A: A uccidere la crisalide, evitando che la rottura del bozzolo rovini il filamento. Risposta B: A far uscire la farfalla dal bozzolo. Risposta C: A togliere la sericina dalla fibra. Risposta D: A tingere il filamento."
+ },
+ {
+  "nome": "A09_Q3_R",
+  "testo": "La risposta giusta è la A: A uccidere la crisalide, evitando che la rottura del bozzolo rovini il filamento. La stufatura uccide la crisalide all'interno del bozzolo, così la rottura del bozzolo non rovina il filamento continuo."
+ },
+ {
+  "nome": "A09_Q4_D",
+  "testo": "Domanda quattro. Quale sostanza gommosa ricopre la fibra e viene tolta con la sgommatura? Risposta A: La lanolina. Risposta B: La sericina. Risposta C: La cheratina. Risposta D: La fibroina."
+ },
+ {
+  "nome": "A09_Q4_R",
+  "testo": "La risposta giusta è la B: La sericina. La sericina è una sostanza proteica gommosa che rende la seta tratta ruvida e opaca. Con la sgommatura viene eliminata in gradi diversi."
+ },
+ {
+  "nome": "A09_Q5_D",
+  "testo": "Domanda cinque. Quale seta si ottiene con un lavaggio energico che rimuove totalmente la sericina? Risposta A: La seta cruda. Risposta B: La seta mezza cotta. Risposta C: La seta cotta. Risposta D: La seta caricata."
+ },
+ {
+  "nome": "A09_Q5_R",
+  "testo": "La risposta giusta è la C: La seta cotta. La seta cotta è morbidissima, estremamente lucente e ideale per la tintura. La seta cruda ha un lavaggio lieve, la mezza cotta un buon lavaggio."
+ },
+ {
+  "nome": "A10_APPROF",
+  "testo": "Sai che la seta è forte come un acciaio? Ha una resistenza alla trazione paragonabile a quella di un acciaio ordinario, con un valore di quarantaquattro chilogrammi al millimetro quadrato. È anche leggera e termoisolante, per questo è «calda» per l'inverno e «leggera» per l'estate. Ma è delicata: l'acido solforico diluito la increspa e dà il crespo di seta, ma ad alta concentrazione la distrugge. Il sudore, i profumi e i deodoranti la danneggiano. E nel futuro c'è la seta di ragno: i geni del ragno Nephila clavipes responsabili della seta sono stati impiantati in una capra, così le proteine della fibra sono presenti direttamente nel suo latte."
+ },
+ {
+  "nome": "A10_MAPPA",
+  "testo": "Come si comporta la seta e come si cura? Trattamenti chimici: acidi, basi e coloranti. L'acido solforico diluito dà il crespo di seta, l'acido acetico diluito il fruscio; gli acidi forti concentrati la distruggono. Per sbiancare la seta bastano acido solforoso, acqua ossigenata o aceto bianco. Sudore, deodoranti e profumi danneggiano la seta e i suoi colori. Le proprietà: drappeggiabilità, leggerezza, isolamento termico, resistenza al fuoco e igiene. La resistenza alla trazione è di quarantaquattro chilogrammi al millimetro quadrato, come un acciaio ordinario. Nella lavorazione la seta è scivolosa: servono filo e aghi sottili, e un taglio che aspira l'aria tra gli strati. Cura: lavaggio tiepido, lavaggio a secco per i colori vivaci, stiratura a rovescio con ferro tiepido. Altre sete: il doppione, per lo shantung; i saturnidi, per il tussah; e il ragno Nephila clavipes. Per il ragno, i geni sono stati impiantati in una capra, e le proteine sono nel suo latte."
+ },
+ {
+  "nome": "A10_RIPASSO",
+  "testo": "Ripasso. Acido solforico diluito: crespo di seta. Acido acetico diluito: il fruscio. Acidi forti concentrati, sudore, profumi e deodoranti danneggiano la seta. Proprietà: drappeggiabilità, leggerezza, isolamento termico, resistenza al fuoco, igiene e resistenza alla trazione. Lavorazione: scivolosa. Filo e aghi sottili; taglio con aspirazione dell'aria. Cura: lavaggio tiepido, niente centrifuga né candeggio; stiro a rovescio, senza vapore diretto."
+ },
+ {
+  "nome": "A10_Q1_D",
+  "testo": "Domanda uno. Che cosa si ottiene con l'acido solforico a media concentrazione sulla seta? Risposta A: La seta si sbianca. Risposta B: La seta acquista il fruscio. Risposta C: La seta si tinge meglio. Risposta D: La fibra si contrae e si increspa: crespo di seta."
+ },
+ {
+  "nome": "A10_Q1_R",
+  "testo": "La risposta giusta è la D: La fibra si contrae e si increspa: crespo di seta. A media concentrazione l'acido solforico fa contrarre e increspare la fibra, permettendo il crespo di seta. Ad alta concentrazione distrugge la seta."
+ },
+ {
+  "nome": "A10_Q2_D",
+  "testo": "Domanda due. Quale trattamento dà alla seta il caratteristico fruscio? Risposta A: L'acido acetico diluito. Risposta B: L'acqua ossigenata. Risposta C: L'acido cloridrico concentrato. Risposta D: La soda caustica."
+ },
+ {
+  "nome": "A10_Q2_R",
+  "testo": "La risposta giusta è la A: L'acido acetico diluito. L'acido acetico diluito facilita la tintura e dà il caratteristico fruscio. Ad alta concentrazione, invece, danneggia seriamente la seta."
+ },
+ {
+  "nome": "A10_Q3_D",
+  "testo": "Domanda tre. A quale valore di resistenza alla trazione la seta è paragonabile a un acciaio ordinario? Risposta A: quattro virgola quattro chilogrammi al millimetro quadrato. Risposta B: quarantaquattro chilogrammi al millimetro quadrato. Risposta C: quattrocentoquaranta chilogrammi al millimetro quadrato. Risposta D: quattordici chilogrammi al millimetro quadrato."
+ },
+ {
+  "nome": "A10_Q3_R",
+  "testo": "La risposta giusta è la B: quarantaquattro chilogrammi al millimetro quadrato. La seta ha un'eccellente resistenza alla trazione, paragonabile a quella di un acciaio ordinario, con un valore di quarantaquattro chilogrammi al millimetro quadrato."
+ },
+ {
+  "nome": "A10_Q4_D",
+  "testo": "Domanda quattro. Come si stira la seta? Risposta A: A dritto, con il vapore diretto. Risposta B: Con ferro molto caldo, senza panni. Risposta C: Tra due panni umidi, a rovescio, con ferro tiepido e senza vapore diretto. Risposta D: Dopo l'asciugatura in tamburo."
+ },
+ {
+  "nome": "A10_Q4_R",
+  "testo": "La risposta giusta è la C: Tra due panni umidi, a rovescio, con ferro tiepido e senza vapore diretto. Si interpone il tessuto tra due panni umidi, si stira a rovescio con un ferro tiepido, evitando l'uso diretto del vapore."
+ },
+ {
+  "nome": "A10_Q5_D",
+  "testo": "Domanda cinque. Quale soluzione si studia per produrre la seta di ragno su larga scala? Risposta A: Allevare molti ragni in un unico bozzolo. Risposta B: Nutrire i ragni con foglie di gelso. Risposta C: Estrarre la bava dal baco da seta. Risposta D: Impiantare in una capra i geni del ragno, così le proteine sono nel suo latte."
+ },
+ {
+  "nome": "A10_Q5_R",
+  "testo": "La risposta giusta è la D: Impiantare in una capra i geni del ragno, così le proteine sono nel suo latte. I geni del ragno responsabili della fabbricazione della seta sono stati impiantati in una capra: le proteine di base della fibra sono presenti nel suo latte."
+ },
+ {
+  "nome": "P2_GLOSSARIO",
+  "testo": "Glossario. Fibra tessile: elemento di forma allungata, flessibile e sottile, che si può filare. Man-made: fibre chimiche, prodotte con l'intervento dell'uomo su una materia prima. Pilling: formazione di antiestetici pallini sulla superficie del tessuto. Micron: unità equivalente a un millesimo di millimetro. Igroscopicità: capacità delle fibre di assorbire umidità. Coibenza: capacità di isolamento termico. Sporcabilità: tendenza di un materiale a trattenere lo sporco grasso. Pulibilità: facilità di rimozione delle macchie durante il lavaggio. Cheratina: proteina principale della lana. Lanolina: sostanza grassa che dà alla lana il colore giallognolo. Cernita: selezione del vello in base al pregio commerciale. Infeltrimento: le squame della lana si saldano e si compenetrano. Follatura: infeltrimento voluto della lana. Bradford System: misura la filabilità: matasse, o hanks, da cinquecentosessanta yard ottenibili da una libbra di fibra. Trattura: unione di da quattro a otto bave per formare il filamento continuo di seta. Sericina: sostanza proteica gommosa che ricopre la seta. Sgommatura: lavaggio che libera la seta dalla sericina. Bachicoltura: allevamento dei bachi da seta a scopo industriale."
+ },
+ {
+  "nome": "P2_RIPASSO_FINALE",
+  "testo": "Ripasso finale, argomento per argomento. Le fibre tessili si dividono in naturali, vegetali o animali, e chimiche, artificiali o sintetiche. Le proprietà sono morfologiche, chimiche, fisico-meccaniche e fisiologiche. Le fibre naturali sono scese al trentasette per cento della produzione, mentre le fibre chimiche coprono il sessantatré per cento del consumo. La lana è fatta soprattutto di cheratina, e le lane migliori vengono dalle spalle e dai fianchi. Il valore della lana dipende da razza, finezza in micron, filabilità, morbidezza, lunghezza e colore. I trattamenti della lana sono chimici o meccanici: per esempio lo ZIRPRO, la follatura e il superwash. La lana è ingualcibile, ignifuga, idrorepellente e igroscopica, fino al trenta per cento del proprio peso. Tra le lane speciali, la vigogna è la più fine e costosa; a pelo fine corrisponde il prezzo più elevato. La seta è l'unica fibra naturale continua: con la trattura e la sgommatura si ottengono seta cruda, mezza cotta e cotta. La seta è resistente, leggera e termoisolante, ma delicata: va lavata tiepida e stirata a rovescio, senza vapore diretto."
+ },
+ {
+  "nome": "P2_MAPPA_FINALE",
+  "testo": "La mappa della lezione. Classificazione: fibre naturali, vegetali o animali, e fibre chimiche, artificiali o sintetiche. Proprietà: morfologiche, chimiche, fisico-meccaniche e fisiologiche. Mercato: fibre naturali al trentasette per cento, chimiche al sessantatré per cento; poi sporcabilità e pulibilità. Lana: razze, finezza in micron, Bradford System, trattamenti e pregi. Lane speciali: vigogna, cashmere, mohair, alpaca, lama e yak. Seta: baco, trattura, sgommatura, trattamenti, proprietà e cura."
+ },
+ {
+  "nome": "P2_TEST_INTRO",
+  "testo": "Verifica finale. Sono venti domande: per superare la lezione serve almeno l'ottanta per cento di risposte corrette."
+ },
+ {
+  "nome": "T01_D",
+  "testo": "Domanda uno. Come definisce la fibra tessile il Regolamento U E, cioè Unione Europea, numero mille e sette del duemilaundici?"
+ },
+ {
+  "nome": "T01_R",
+  "testo": "La risposta corretta è la B: Un elemento caratterizzato da flessibilità, finezza ed elevato rapporto tra la lunghezza e la dimensione trasversale massima"
+ },
+ {
+  "nome": "T02_D",
+  "testo": "Domanda due. Quali tra le seguenti fibre sono classificate come artificiali (ottenute da prodotti già esistenti in natura opportunamente lavorati)?"
+ },
+ {
+  "nome": "T02_R",
+  "testo": "La risposta corretta è la A: Viscosa, acetato, triacetato, cupro, modal e lyocell"
+ },
+ {
+  "nome": "T03_D",
+  "testo": "Domanda tre. Che cosa indicano le proprietà morfologiche di una fibra tessile?"
+ },
+ {
+  "nome": "T03_R",
+  "testo": "La risposta corretta è la D: La struttura fisica esterna della fibra, come lunghezza, finezza, colore, lucentezza, mano, densità e sezione al microscopio"
+ },
+ {
+  "nome": "T04_D",
+  "testo": "Domanda quattro. Che cos'è il fenomeno del pilling?"
+ },
+ {
+  "nome": "T04_R",
+  "testo": "La risposta corretta è la C: La formazione di antiestetici pallini sulla superficie del tessuto."
+ },
+ {
+  "nome": "T05_D",
+  "testo": "Domanda cinque. A quanto ammonta attualmente la quota percentuale delle fibre naturali sulla produzione totale complessiva globale?"
+ },
+ {
+  "nome": "T05_R",
+  "testo": "La risposta corretta è la B: trentasette per cento"
+ },
+ {
+  "nome": "T06_D",
+  "testo": "Domanda sei. Quale quota percentuale della produzione totale di fibre sintetiche è rappresentata dal poliestere?"
+ },
+ {
+  "nome": "T06_R",
+  "testo": "La risposta corretta è la A: Quasi l'ottanta per cento"
+ },
+ {
+  "nome": "T07_D",
+  "testo": "Domanda sette. Quale Paese detiene oggi una posizione di assoluto dominio globale sul mercato, controllando oltre il sessanta per cento della produzione di fibre sintetiche?"
+ },
+ {
+  "nome": "T07_R",
+  "testo": "La risposta corretta è la D: La Cina"
+ },
+ {
+  "nome": "T08_D",
+  "testo": "Domanda otto. Qual è l'indice di sporcabilità della seta (tendenza a trattenere lo sporco grasso come smog o sostanze oleose) secondo la scala del testo?"
+ },
+ {
+  "nome": "T08_R",
+  "testo": "La risposta corretta è la C: quaranta per cento"
+ },
+ {
+  "nome": "T09_D",
+  "testo": "Domanda nove. Quali fibre si posizionano al vertice della graduatoria della pulibilità con un punteggio del cento per cento (facilità di rimozione delle macchie)?"
+ },
+ {
+  "nome": "T09_R",
+  "testo": "La risposta corretta è la B: Poliammide ed elastan."
+ },
+ {
+  "nome": "T10_D",
+  "testo": "Domanda dieci. Quale importante ruolo commerciale e industriale ricopre l'Italia a livello internazionale nel settore laniero?"
+ },
+ {
+  "nome": "T10_R",
+  "testo": "La risposta corretta è la A: Primo Paese al mondo per potenza industriale legata alla trasformazione della lana in tessuto e maggior esportatore mondiale di tali manufatti."
+ },
+ {
+  "nome": "T11_D",
+  "testo": "Domanda undici. Da quali zone del corpo della pecora provengono le lane migliori e di maggior pregio commerciale?"
+ },
+ {
+  "nome": "T11_R",
+  "testo": "La risposta corretta è la D: Dalle spalle e dai fianchi."
+ },
+ {
+  "nome": "T12_D",
+  "testo": "Domanda dodici. Qual è la composizione chimica percentuale approssimativa della fibra di lana?"
+ },
+ {
+  "nome": "T12_R",
+  "testo": "La risposta corretta è la C: ottanta per cento cheratina, diciotto per cento altre proteine, uno virgola cinque per cento lanolina e zero virgola cinque per cento sali minerali."
+ },
+ {
+  "nome": "T13_D",
+  "testo": "Domanda tredici. In base alla classificazione della finezza della lana espressa in micron, a quale categoria appartengono le fibre extrafine?"
+ },
+ {
+  "nome": "T13_R",
+  "testo": "La risposta corretta è la B: Fibre fino a venti micron."
+ },
+ {
+  "nome": "T14_D",
+  "testo": "Domanda quattordici. Come vengono commercializzate le lane tosate dai piccoli di pecora di quattro, sei o otto mesi, apprezzate per la loro eccezionale sofficità?"
+ },
+ {
+  "nome": "T14_R",
+  "testo": "La risposta corretta è la A: Lane agnelline o lambswool."
+ },
+ {
+  "nome": "T15_D",
+  "testo": "Domanda quindici. Che cos'è lo speciale trattamento chimico della lana denominato ZIRPRO?"
+ },
+ {
+  "nome": "T15_R",
+  "testo": "La risposta corretta è la D: Un trattamento a base di zirconio o titanio che accresce notevolmente le naturali doti di resistenza al fuoco della lana, rendendola altamente ignifuga e anti-fumo."
+ },
+ {
+  "nome": "T16_D",
+  "testo": "Domanda sedici. Qual è il tasso eccezionale di igroscopicità della lana (capacità di incamerare umidità e sudore senza risultare umida o fredda al tatto)?"
+ },
+ {
+  "nome": "T16_R",
+  "testo": "La risposta corretta è la C: Fino al trenta per cento del proprio peso."
+ },
+ {
+  "nome": "T17_D",
+  "testo": "Domanda diciassette. Qual è la resa media di fibra finissima color cannella ottenibile per ciascun capo di Vigogna durante la tosatura biennale?"
+ },
+ {
+  "nome": "T17_R",
+  "testo": "La risposta corretta è la B: Appena centoventi grammi di fibra"
+ },
+ {
+  "nome": "T18_D",
+  "testo": "Domanda diciotto. Dal punto di vista chimico, quali sono le due proteine principali che compongono la bava grezza del baco da seta e le loro percentuali?"
+ },
+ {
+  "nome": "T18_R",
+  "testo": "La risposta corretta è la A: Fibroina (settantacinque-settantasette per cento) e sericina (ventidue-ventitré per cento)."
+ },
+ {
+  "nome": "T19_D",
+  "testo": "Domanda diciannove. A quanto ammonta la resa media di seta grezza (tratta direttamente) a partire da cento chilogrammi di bozzoli integri?"
+ },
+ {
+  "nome": "T19_R",
+  "testo": "La risposta corretta è la D: Appena venti-venticinque chilogrammi di seta grezza"
+ },
+ {
+  "nome": "T20_D",
+  "testo": "Domanda venti. Quale innovativo metodo di ingegneria genetica si sta studiando per produrre su larga scala le proteine della seta di ragno (Nephila clavipes)?"
+ },
+ {
+  "nome": "T20_R",
+  "testo": "La risposta corretta è la C: L'impianto dei geni del ragno in una capra per fare in modo che le proteine base della fibra siano presenti direttamente all'interno del suo latte."
+ },
+ {
+  "nome": "P2_COMPITI_INTRO",
+  "testo": "Compiti. Rispondi alle seguenti domande."
+ },
+ {
+  "nome": "C1_D",
+  "testo": "Qual è la classificazione generale delle fibre tessili secondo il Regolamento U E, cioè Unione Europea, numero mille e sette del duemilaundici, e in quali grandi categorie si suddividono le fibre naturali e le fibre chimiche (man-made)?"
+ },
+ {
+  "nome": "C2_D",
+  "testo": "Quali sono le principali proprietà fisico-meccaniche, fisiologiche e morfologiche che caratterizzano le fibre tessili, e in che modo l'igroscopicità e la tenacità influenzano la qualità e l'uso finale del manufatto?"
+ },
+ {
+  "nome": "C3_D",
+  "testo": "Come si articola la classificazione commerciale della lana in base alle razze degli ovini (Merino, incrociate e indigene), e quali sono le caratteristiche che determinano il pregio e la finezza della fibra (es. il Bradford System)?"
+ },
+ {
+  "nome": "C4_D",
+  "testo": "Quali sono i trattamenti chimici e meccanici a cui può essere sottoposta la lana (tra cui la follatura, la garzatura e il trattamento superwash o ZIRPRO), e quali effetti producono sulla fibra?"
+ },
+ {
+  "nome": "C5_D",
+  "testo": "Qual è l'origine biologica della seta, come si svolge il processo produttivo (dalla bachicoltura alla trattura) e quali differenze sussistono tra i vari gradi di lavaggio (seta cruda, mezza cotta e cotta)?"
+ },
+ {
+  "nome": "P2_CHIUSURA",
+  "testo": "Per oggi è tutto. Buon lavoro!"
+ }
+]

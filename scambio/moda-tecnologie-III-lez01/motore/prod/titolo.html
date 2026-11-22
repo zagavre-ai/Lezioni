@@ -1,0 +1,20 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="base.css"><style>
+html,body{background:#0B1530!important;color:#fff}
+#bg{position:absolute;inset:0;overflow:hidden}
+.band{position:absolute;width:2600px;height:160px;left:-340px;background:linear-gradient(90deg,rgba(32,96,175,0),rgba(32,96,175,.55),rgba(32,96,175,0));transform-origin:center}
+#k{position:absolute;left:120px;top:330px;font:700 30px FigB;letter-spacing:.16em;color:#FFE600;opacity:0}
+#t{position:absolute;left:116px;top:390px;width:1560px;font:400 112px/1.08 Bri;color:#fff;opacity:0}
+#bar{position:absolute;left:120px;top:0;height:10px;background:#FFE600;border-radius:5px}
+#f{position:absolute;left:120px;bottom:60px;font:600 24px FigS;color:#9DB7E0;letter-spacing:.04em}
+</style></head><body><div id="bg"></div><div id="k"></div><div id="t"></div><div id="bar"></div><div id="f"></div>
+<script>
+const $=i=>document.getElementById(i),ease=x=>{x=Math.max(0,Math.min(1,x));return 1-Math.pow(1-x,3)};
+for(let i=0;i<5;i++){const d=document.createElement('div');d.className='band';d.id='b'+i;$('bg').appendChild(d)}
+let HH=0;function setData(d){$("k").textContent=d.k;$("t").textContent=d.t;$("f").textContent=d.f;HH=$("t").offsetHeight}function setSteps(s){}
+function render(t){const h=HH;
+ for(let i=0;i<5;i++){const b=$('b'+i);const y=120+i*220+Math.sin(t*0.7+i)*40;b.style.top=y+'px';b.style.transform=`rotate(${-12+i*1.5}deg) translateX(${(t*40*(i%2?1:-1))%300}px)`;b.style.opacity=.35+.15*Math.sin(t+i)}
+ $('k').style.opacity=ease((t-0.15)/0.5);$('k').style.transform=`translateY(${14*(1-ease((t-0.15)/0.5))}px)`;
+ $('t').style.opacity=ease((t-0.4)/0.7);$('t').style.transform=`translateY(${24*(1-ease((t-0.4)/0.7))}px)`;
+ $('bar').style.top=(390+h+22)+'px';$('bar').style.width=(520*ease((t-0.9)/0.8))+'px';
+ $('f').style.opacity=ease((t-1.2)/0.6)}
+</script></body></html>

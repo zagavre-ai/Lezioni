@@ -1,0 +1,34 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="base.css"><style>
+#tt{position:absolute;left:60px;top:100px;width:1300px;font:400 54px/1.12 Bri;color:#0B1530}
+.card{left:60px;width:1320px;font:400 40px/1.45 Fig}
+.card .dot{position:absolute;left:-34px;top:30px;width:22px;height:22px;border-radius:50%;background:#FFE600;border:3px solid #0B1530;opacity:0;box-sizing:border-box}
+.card.on .dot{opacity:1}
+.card.old{background:#F4F6FA}
+.note{font:600 28px/1.3 FigS;color:#2060AF;margin-top:10px}
+#ring{position:absolute;left:1572px;top:140px;width:136px;height:136px;border-radius:50%;border:4px solid #CBD5E1;box-sizing:border-box;background:#F4F6FA}
+#nome{position:absolute;left:1455px;top:290px;width:370px;padding:10px 0;text-align:center;background:#FFE600;color:#0B1530;font:700 30px FigB;transform:rotate(-2deg);border-radius:4px}
+#mat{position:absolute;left:1455px;top:346px;width:370px;text-align:center;font:600 22px/1.28 FigS;color:#2060AF}
+#kh{position:absolute;left:1455px;top:470px;font:700 22px FigB;letter-spacing:.14em;color:#2060AF}
+.key{position:absolute;left:1455px;width:370px;box-sizing:border-box;padding:5px 14px;border-radius:12px;background:#FFF3BF;border:3px solid #A16207}
+.key b{display:block;font:700 28px/1.2 FigB;color:#0B1530}.key span{display:block;font:400 22px/1.2 Fig;color:#0B1530}
+</style></head><body>
+<div class="k">LA PROFESSORESSA SPIEGA</div><div class="rule"></div>
+<div class="foot" style="font:600 18px FigS;letter-spacing:0;text-transform:none">Tecnologie dei materiali e dei processi produttivi e organizzativi della moda · Tecnico Sistema Moda · III anno</div>
+<div id="tt"></div><div id="cards"></div><div id="ring"></div>
+<div id="nome">Prof.ssa Piera Caputi</div><div id="mat">Tecnologie dei materiali e dei processi produttivi e organizzativi della moda · Tecnico Sistema Moda · III anno</div>
+<div id="kh">PAROLE CHIAVE</div><div id="keys"></div>
+<script>
+const $=id=>document.getElementById(id);
+let CARDS=[],KEYS=[];
+function setup(title,cards,keys){ $('tt').textContent=title; $('cards').innerHTML='';CARDS=[];
+ cards.forEach((c,i)=>{const d=document.createElement('div');d.className='card';d.style.opacity=0;
+  d.innerHTML='<span class="dot"></span>'+c.html+(c.note?'<div class="note">'+c.note+'</div>':'');$('cards').appendChild(d);CARDS.push(d)});
+ $('keys').innerHTML='';KEYS=[];let y=505;
+ keys.forEach(k=>{const d=document.createElement('div');d.className='key';d.style.top=y+'px';d.innerHTML='<b>'+k[0]+'</b><span>'+k[1]+'</span>';$('keys').appendChild(d);KEYS.push(d);y+=d.offsetHeight+8});
+ $('kh').style.display=keys.length?'block':'none';
+ const th=$('tt').offsetHeight;return {h:CARDS.map(d=>d.offsetHeight),top:Math.max(215,100+th+22),keysEnd:y}}
+// st = {vis:[[idx,alpha,on,top],...]}
+async function pronto(){await Promise.all(['40px Fig','700 28px FigB','600 22px FigS','400 54px Bri'].map(f=>document.fonts.load(f)));await document.fonts.ready;return true}
+function draw(st){CARDS.forEach(d=>{d.style.opacity=0});
+ st.vis.forEach(v=>{const d=CARDS[v[0]];d.style.opacity=v[1];d.style.top=(v[3]+16*(1-v[1]))+'px';d.classList.toggle('on',!!v[2])})}
+</script></body></html>

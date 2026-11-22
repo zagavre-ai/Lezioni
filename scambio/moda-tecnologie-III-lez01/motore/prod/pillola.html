@@ -1,0 +1,22 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="base.css"><style>
+html,body{background:#0B1530!important;color:#fff}
+#bg{position:absolute;inset:0;overflow:hidden}
+.band{position:absolute;width:2600px;height:150px;left:-340px;background:linear-gradient(90deg,rgba(32,96,175,0),rgba(32,96,175,.45),rgba(32,96,175,0))}
+#kk{position:absolute;left:100px;top:60px;font:700 28px FigB;letter-spacing:.16em;color:#FFE600}
+#tt{position:absolute;left:96px;top:105px;width:1700px;font:400 64px/1.1 Bri;color:#fff}
+.r{position:absolute;left:150px;width:1620px;box-sizing:border-box;padding:18px 30px;border-radius:16px;background:rgba(255,255,255,.08);border:3px solid rgba(255,255,255,.18);font:400 42px/1.35 Fig;color:#fff;opacity:0}
+.r b{font-family:FigB;color:#FFE600}
+.r.on{background:rgba(255,255,255,.16);border-color:#FFE600;box-shadow:0 0 0 6px rgba(255,230,0,.35)}
+.r .dot{position:absolute;left:-44px;top:30px;width:22px;height:22px;border-radius:50%;background:#FFE600;opacity:0}.r.on .dot{opacity:1}
+#f{position:absolute;left:100px;bottom:34px;font:600 22px FigS;color:#9DB7E0}
+</style></head><body><div id="bg"></div><div id="kk"></div><div id="tt"></div><div id="rr"></div><div id="f"></div>
+<script>
+const $=i=>document.getElementById(i),ease=x=>{x=Math.max(0,Math.min(1,x));return 1-Math.pow(1-x,3)};
+let R=[],STEPS=[];
+for(let i=0;i<5;i++){const d=document.createElement('div');d.className='band';d.id='b'+i;$('bg').appendChild(d)}
+function setData(d){$('kk').textContent=d.kicker;$('tt').textContent=d.titolo;$('f').textContent=d.foot;$('rr').innerHTML='';R=[];
+ let y=250;d.righe.forEach(h=>{const e=document.createElement('div');e.className='r';e.innerHTML='<span class="dot"></span>'+h;e.style.top=y+'px';$('rr').appendChild(e);R.push(e);y+=e.offsetHeight+22})}
+function setSteps(s){STEPS=s}
+function render(t){for(let i=0;i<5;i++){const b=$('b'+i);b.style.top=(120+i*210+Math.sin(t*0.7+i)*40)+'px';b.style.transform=`rotate(${-12+i*1.5}deg) translateX(${(t*40*(i%2?1:-1))%300}px)`;b.style.opacity=.35+.15*Math.sin(t+i)}
+ R.forEach((e,i)=>{const s=STEPS[i];if(!s)return;const p=ease((t-s[0]+0.15)/0.4);e.style.opacity=p;e.style.transform=`translateY(${14*(1-p)}px)`;e.classList.toggle('on',t>=s[0]-0.1&&t<s[0]+s[1]+0.2)})}
+</script></body></html>

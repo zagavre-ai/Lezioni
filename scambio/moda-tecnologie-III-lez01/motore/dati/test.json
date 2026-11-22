@@ -1,0 +1,202 @@
+[
+ {
+  "d": "Come definisce la fibra tessile il Regolamento UE n. 1007/2011?",
+  "o": [
+   "Una materia prima unicamente sintetica ad alta resistenza meccanica priva di flessibilità",
+   "Un elemento caratterizzato da flessibilità, finezza ed elevato rapporto tra la lunghezza e la dimensione trasversale massima",
+   "Un filamento continuo minerale resistente ad altissime temperature e non filabile",
+   "Un preparato di origine esclusivamente animale caratterizzato da rigidità e peso specifico superiore a 10 g/cm³"
+  ],
+  "ok": 1
+ },
+ {
+  "d": "Quali tra le seguenti fibre sono classificate come artificiali (ottenute da prodotti già esistenti in natura opportunamente lavorati)?",
+  "o": [
+   "Viscosa, acetato, triacetato, cupro, modal e lyocell",
+   "Lana, cashmere, mohair, angora e seta",
+   "Cotone, lino, canapa, juta, ramiè e cocco",
+   "Aramide, polipropilene, lana di pecora e seta di baco"
+  ],
+  "ok": 0
+ },
+ {
+  "d": "Che cosa indicano le proprietà morfologiche di una fibra tessile?",
+  "o": [
+   "L'interazione biologica della fibra con l'organismo umano e con gli agenti atmosferici circostanti",
+   "Esclusivamente il punto di fusione e il punto di rammollimento della fibra sotto l'azione del calore",
+   "La capacità intrinseca della fibra di non propagare la fiamma in presenza di combustione",
+   "La struttura fisica esterna della fibra, come lunghezza, finezza, colore, lucentezza, mano, densità e sezione al microscopio"
+  ],
+  "ok": 3
+ },
+ {
+  "d": "Che cos'è il fenomeno del pilling?",
+  "o": [
+   "L'applicazione a freddo di resine protettive per fissare le pieghe permanenti di un capo.",
+   "Il sollevamento del pelo superficiale ottenuto mediante la garzatura del filato.",
+   "La formazione di antiestetici pallini sulla superficie del tessuto.",
+   "Il restringimento progressivo e irreversibile delle fibre dovuto all'azione meccanica del lavaggio."
+  ],
+  "ok": 2
+ },
+ {
+  "d": "A quanto ammonta attualmente la quota percentuale delle fibre naturali sulla produzione totale complessiva globale?",
+  "o": [
+   "8,7%",
+   "37%",
+   "62%",
+   "50%"
+  ],
+  "ok": 1
+ },
+ {
+  "d": "Quale quota percentuale della produzione totale di fibre sintetiche è rappresentata dal poliestere?",
+  "o": [
+   "Quasi l'80%",
+   "Il 37%",
+   "Circa il 62%",
+   "Meno del 50%"
+  ],
+  "ok": 0
+ },
+ {
+  "d": "Quale Paese detiene oggi una posizione di assoluto dominio globale sul mercato, controllando oltre il 60% della produzione di fibre sintetiche?",
+  "o": [
+   "L'India",
+   "L'Australia",
+   "Il Brasile",
+   "La Cina"
+  ],
+  "ok": 3
+ },
+ {
+  "d": "Qual è l'indice di sporcabilità della seta (tendenza a trattenere lo sporco grasso come smog o sostanze oleose) secondo la scala del testo?",
+  "o": [
+   "50%",
+   "20%",
+   "40%",
+   "0%"
+  ],
+  "ok": 2
+ },
+ {
+  "d": "Quali fibre si posizionano al vertice della graduatoria della pulibilità con un punteggio del 100% (facilità di rimozione delle macchie)?",
+  "o": [
+   "Lino e poliestere.",
+   "Poliammide ed elastan.",
+   "Seta e lana.",
+   "Cotone e lana."
+  ],
+  "ok": 1
+ },
+ {
+  "d": "Quale importante ruolo commerciale e industriale ricopre l'Italia a livello internazionale nel settore laniero?",
+  "o": [
+   "Primo Paese al mondo per potenza industriale legata alla trasformazione della lana in tessuto e maggior esportatore mondiale di tali manufatti.",
+   "Primo esportatore mondiale di macchinari per la tosatura e la bistosa.",
+   "Primo produttore mondiale di lana sucida con oltre un quinto del patrimonio ovino globale.",
+   "Maggior importatore mondiale di tessuti finiti di lana Merino provenienti dall'Australia."
+  ],
+  "ok": 0
+ },
+ {
+  "d": "Da quali zone del corpo della pecora provengono le lane migliori e di maggior pregio commerciale?",
+  "o": [
+   "Dal muso e dal ventre.",
+   "Dalle zampe e dalla testa.",
+   "Esclusivamente dalla coda e dalla groppa.",
+   "Dalle spalle e dai fianchi."
+  ],
+  "ok": 3
+ },
+ {
+  "d": "Qual è la composizione chimica percentuale approssimativa della fibra di lana?",
+  "o": [
+   "50% cellulosa, 30% lignina, 15% pectine e 5% sali minerali.",
+   "98% cheratina, 1% lanolina, 0,5% acido solforico e 0,5% acqua.",
+   "80% cheratina, 18% altre proteine, 1,5% lanolina e 0,5% sali minerali.",
+   "60% proteine della seta, 30% grassi animali, 9% polimeri e 1% titanio."
+  ],
+  "ok": 2
+ },
+ {
+  "d": "In base alla classificazione della finezza della lana espressa in micron, a quale categoria appartengono le fibre extrafine?",
+  "o": [
+   "Fibre da 30 a 50 micron.",
+   "Fibre fino a 20 micron.",
+   "Fibre da 50 a 100 micron.",
+   "Fibre oltre i 120 micron."
+  ],
+  "ok": 1
+ },
+ {
+  "d": "Come vengono commercializzate le lane tosate dai piccoli di pecora di 4, 6 o 8 mesi, apprezzate per la loro eccezionale sofficità?",
+  "o": [
+   "Lane agnelline o lambswool.",
+   "Lane saltate.",
+   "Lane bistose.",
+   "Lane matricine."
+  ],
+  "ok": 0
+ },
+ {
+  "d": "Che cos'è lo speciale trattamento chimico della lana denominato ZIRPRO?",
+  "o": [
+   "Un'addizione di sali minerali per recuperare la perdita di peso dovuta alla sgommatura.",
+   "Un lavaggio energico ad acido solforico concentrato per eliminare le impurità vegetali.",
+   "Un processo che utilizza cloro e aceto per rimpicciolire e avvicinare le squame esterne.",
+   "Un trattamento a base di zirconio o titanio che accresce notevolmente le naturali doti di resistenza al fuoco della lana, rendendola altamente ignifuga e anti-fumo."
+  ],
+  "ok": 3
+ },
+ {
+  "d": "Qual è il tasso eccezionale di igroscopicità della lana (capacità di incamerare umidità e sudore senza risultare umida o fredda al tatto)?",
+  "o": [
+   "Fino al 10% del proprio peso.",
+   "Esattamente il 50% del proprio peso.",
+   "Fino al 30% del proprio peso.",
+   "Fino al 100% del proprio peso."
+  ],
+  "ok": 2
+ },
+ {
+  "d": "Qual è la resa media di fibra finissima color cannella ottenibile per ciascun capo di Vigogna durante la tosatura biennale?",
+  "o": [
+   "Esattamente 400 g di fibra",
+   "Appena 120 g di fibra",
+   "Circa 1.600 g di fibra",
+   "Da 2 a 5 kg di fibra"
+  ],
+  "ok": 1
+ },
+ {
+  "d": "Dal punto di vista chimico, quali sono le due proteine principali che compongono la bava grezza del baco da seta e le loro percentuali?",
+  "o": [
+   "Fibroina (75-77%) e sericina (22-23%).",
+   "Fibroina (50%) e cheratina (50%).",
+   "Sericina (60%) e albumina (40%).",
+   "Fibroina (10%) e sericina (90%)."
+  ],
+  "ok": 0
+ },
+ {
+  "d": "A quanto ammonta la resa media di seta grezza (tratta direttamente) a partire da 100 kg di bozzoli integri?",
+  "o": [
+   "Più di 90 kg di seta grezza",
+   "Esattamente 15 kg di seta grezza",
+   "Circa 50 kg di seta grezza",
+   "Appena 20-25 kg di seta grezza"
+  ],
+  "ok": 3
+ },
+ {
+  "d": "Quale innovativo metodo di ingegneria genetica si sta studiando per produrre su larga scala le proteine della seta di ragno (Nephila clavipes)?",
+  "o": [
+   "L'estrazione delle bave polimeriche da batteri marini trattati con acido solforico a media concentrazione.",
+   "L'ibridazione in laboratorio del ragno Nephila clavipes con il comune baco da seta Bombix mori.",
+   "L'impianto dei geni del ragno in una capra per fare in modo che le proteine base della fibra siano presenti direttamente all'interno del suo latte.",
+   "L'alimentazione controllata di ragni giganti selvatici con foglie di quercia e frassino."
+  ],
+  "ok": 2
+ }
+]
