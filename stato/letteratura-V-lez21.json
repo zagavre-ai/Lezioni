@@ -28,6 +28,10 @@
   {
    "quando": "16/11 18:54",
    "testo": "chat revisione 21: controllate le voci mappa: M1 manca l'ultima voce (1950 muore suicida), M3 manca la frase delle poesie, M4 ha un '1947' in piu'. Richieste nuove voci (testi in testi_voci.json, ramo voci-letteratura-V-lez21): M1b M1c M2b M3b M3c M4b. M5, MF e GL2 sono ok."
+  },
+  {
+   "quando": "22/11 16:39",
+   "testo": "correzioni 22/11 lez21: servono voci Kore MR1..MR6 (mappa unica del prof letta ramo per ramo, numeri in lettere) in testi_voci.json sul ramo voci-letteratura-V-lez21, per favore con priorita'. Intanto rifaccio slide e montaggio."
   }
  ],
  "domande_sara": [],
@@ -77,5 +81,5 @@
    "testo": "correzioni 22/11: presa da revisione-letteratura-V-lez21 (16:40 UTC). Consegna prevista entro le 19:30 UTC; stato ogni 30 min."
   }
  ],
- "aggiornato": "2026-11-22 16:37:28"
+ "aggiornato": "2026-11-22 16:39:54"
 }
