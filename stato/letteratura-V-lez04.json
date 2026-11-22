@@ -2,18 +2,18 @@
  "tag": "letteratura-V-lez04",
  "parti": {
   "1": {
-   "stato": "IN_REVISIONE",
+   "stato": "REVISIONATA",
    "titolo": "Naturalismo e Verismo",
    "voci": "kore",
    "quiz_ok": "si",
    "fermi_ok": "si",
-   "sub_ok": "no",
+   "sub_ok": "si",
    "video": "Letteratura_Lez4_Parte1_1080p.mp4",
-   "durata_s": 2948.8,
-   "durata": "49:08.8",
-   "fotogrammi": 88463,
-   "fotogrammi_attesi": 88463,
-   "peso_MB": 198.4,
+   "durata_s": 2933.2,
+   "durata": "48:53.2",
+   "fotogrammi": 87995,
+   "fotogrammi_attesi": 87995,
+   "peso_MB": 200.6,
    "vtt": "Letteratura_Lez4_Parte1.vtt"
   }
  },
@@ -34,6 +34,10 @@
   {
    "quando": "22/11 16:38",
    "testo": "voci M1-M9 su voci-letteratura-V-lez04 (testi_voci.json): servono entro ~30 min"
+  },
+  {
+   "quando": "22/11 19:22",
+   "testo": "pillole di ripasso blu (come commit 4094bc7) da reinserire dalla master; timeline.json/scheda aggiornati ai nuovi secondi; sostituire su Vimeo stesso link"
   }
  ],
  "domande_sara": [],
@@ -125,7 +129,11 @@
   {
    "quando": "22/11 19:05",
    "testo": "correzioni 22/11: consegnato v4 sul ramo; aggiungo schede blu animate come Spagnolo (titolo, quiz, verifica, compiti, riepilogo); ricodifica in corso, nuova consegna prevista 19:30 UTC"
+  },
+  {
+   "quando": "22/11 19:22",
+   "testo": "correzioni 22/11 fatte: consegna v5 sul ramo revisione-letteratura-V-lez04 (48:53, 87995 fotogrammi, -16,6 LUFS, picco -2,1, jingle quiz OK, sync -0,02 s, pagina max 165 s, nessuna pausa >2,5 s). Controllo severo ufficiale NON ancora finito (lo lancio ora); pillole blu 14 s del 17/11 non incluse. Vedi RAPPORTO_REVISIONE.md"
   }
  ],
- "aggiornato": "2026-11-22 19:05:32"
+ "aggiornato": "2026-11-22 19:22:50"
 }
