@@ -1,122 +1,70 @@
 [
  {
-  "nome": "INTRO",
-  "testo": "Benvenuti alla lezione sul Neoclassicismo, il ritorno all'antico. Vedremo sei argomenti. Le origini del movimento: il Grand Tour, i musei e la moda. L'architettura: le vedute di Piranesi e i progetti visionari francesi. L'architettura neoclassica in Italia e in Europa. I teorici del movimento e la scultura di Antonio Canova. La pittura di Jacques-Louis David. E infine Jean-Auguste-Dominique Ingres.",
-  "lingua": "it"
+  "nome": "NC_INTRO",
+  "testo": "Benvenuti alla prima videolezione di Storia dell'arte: Il Neoclassicismo, il ritorno all'antico. In questa lezione vedremo come nasce il movimento, tra Grand Tour, musei e scoperte archeologiche; l'architettura, da Piranesi a Piermarini; i teorici e la scultura di Canova; e la pittura di David e di Ingres. Buona visione!"
  },
  {
-  "nome": "R1",
-  "testo": "Ripassiamo le origini del Neoclassicismo: il Grand Tour, i musei pubblici, la moda e le città.",
-  "lingua": "it"
+  "nome": "NC_ARG",
+  "testo": "Ecco gli argomenti della lezione. Primo: le origini, il Grand Tour, i musei e la moda. Secondo: l'architettura, Piranesi e i visionari francesi. Terzo: l'architettura in Italia e in Europa. Quarto: i teorici e la scultura di Canova. Quinto: la pittura di David e di Ingres."
  },
  {
-  "nome": "R2",
-  "testo": "Ripassiamo l'architettura neoclassica: le vedute di Piranesi e i progetti visionari francesi.",
-  "lingua": "it"
+  "nome": "NC_A1",
+  "testo": "Approfondimento. Guardiamo da vicino questo dipinto: Johann Wolfgang Goethe visita il Colosseo a Roma, di Jakob Philipp Hackert, millesettecentonovanta, olio su tela. Due signori vestiti alla moda del Settecento osservano il Colosseo, che si staglia all'orizzonte. Sono figure piccole, un po' sperdute tra le maestose rovine: l'artista le inserisce per accentuare, per contrasto, la monumentalità e l'immensità dello spazio architettonico romano. È un'opera pittorica, ma anche la riproduzione di un'architettura che vuole rendere glorioso il passato di Roma. Il soggetto è proprio il Grand Tour, il viaggio di formazione dei giovani europei, che aveva l'Italia come meta obbligatoria. La veduta è costruita sulla falsariga delle vedute di Piranesi."
  },
  {
-  "nome": "R3",
-  "testo": "Ripassiamo l'architettura neoclassica in Italia, in Inghilterra e in Germania.",
-  "lingua": "it"
+  "nome": "NC_A2",
+  "testo": "Approfondimento. Il Cenotafio di Newton, di Étienne-Louis Boullée, millesettecentoottantaquattro: un progetto mai realizzato. Doveva essere una tomba enorme, di forma sferica, con un ingresso che conduce lo spettatore, microscopico, dentro la grandiosità dell'edificio. Nel disegno si vedono dei cipressi. Era la tomba di Newton, lo scienziato inglese, il padre della gravità. Ma non è soltanto la tomba di un uomo: è l'esaltazione di figure illuminate, che hanno dato la loro vita per la scienza e per la razionalità, e dell'intelligenza umana sul volto della Terra. È l'architettura visionaria: un'architettura monumentale, basata su pure forme geometriche come la sfera, e su un ideale di bellezza universale."
  },
  {
-  "nome": "R4",
-  "testo": "Ripassiamo i teorici del Neoclassicismo e la scultura di Antonio Canova.",
-  "lingua": "it"
+  "nome": "NC_A3",
+  "testo": "Approfondimento. Il Teatro alla Scala di Milano, costruito da Giuseppe Piermarini tra il millesettecentosettantasei e il millesettecentosettantotto. La pianta è rettangolare e chiara. Si accede da due ingressi, sul fronte e sul retro, con un porticato non monumentale, progettato per agevolare il passaggio delle carrozze dei visitatori al riparo dalla pioggia. La facciata è articolata su tre livelli rigorosi, dominata da elementi classici di chiara derivazione greco-romana. L'interno ha la forma di un ferro di cavallo, con cinque ordini di palchi in legno sovrapposti e una galleria, il loggione superiore, studiati per garantire una visibilità e un'acustica eccellenti. Nel millesettecentosettantotto il teatro viene inaugurato con l'opera L'Europa riconosciuta, di Antonio Salieri."
  },
  {
-  "nome": "R5",
-  "testo": "Ripassiamo la pittura di Jacques-Louis David.",
-  "lingua": "it"
+  "nome": "NC_A4",
+  "testo": "Approfondimento. Amore e Psiche, di Antonio Canova, realizzato tra il millesettecentoottantasette e il millesettecentonovantatré su commissione del colonnello inglese John Campbell. L'opera raffigura il momento esatto poco prima del bacio: il dio Amore rianima con un bacio la giovane Psiche, svenuta per aver aperto un vaso proibito. Canova organizza la composizione secondo uno schema perfetto di linee tese e curve, che si incrociano diagonalmente formando una grande X strutturale. Le ali spiegate di Amore formano un arco teso, mentre le braccia delle due figure si intrecciano creando un cerchio geometrico perfetto, che incornicia i volti dei due amanti, a pochissimi millimetri dal bacio. Il marmo viene lavorato fino a ottenere una levigatezza specchiante, e infine rifinito con una patina di cera per imitare la morbidezza della pelle umana."
  },
  {
-  "nome": "R6",
-  "testo": "Ripassiamo Jean-Auguste-Dominique Ingres, tra classicismo e fascino dell'Oriente.",
-  "lingua": "it"
+  "nome": "NC_A5",
+  "testo": "Approfondimento. Napoleone valica il Gran San Bernardo, di Jacques-Louis David, eseguito tra il milleottocento e il milleottocentouno. Il primo console della Repubblica è in sella a un impetuoso cavallo bianco rampante. È calmo e idealizzato, con un mantello rosso gonfiato dal vento, e indica con il braccio destro teso verso l'alto la direzione della vittoria, oltre le montagne. Nelle fonti storiche, invece, Napoleone avrebbe valicato le Alpi a piedi o su un asino: per questo doveva essere monumentalizzato e rappresentato. Sulle rocce scure, in basso a sinistra, David incide i nomi dei grandi condottieri che compirono la stessa impresa: Annibale, prima di lui, e Carlo Magno. Così inserisce Napoleone nella leggenda della storia universale."
  },
  {
-  "nome": "S1",
-  "testo": "Le origini del Neoclassicismo. È un fenomeno internazionale: il movimento nasce e si irradia da Roma, diffondendosi in tutta Europa. Il Grand Tour è il viaggio formativo in Italia di giovani aristocratici, artisti e architetti europei. Le mete principali sono Venezia, Firenze, Roma, Napoli, Ercolano e Pompei. Gli scavi di Ercolano e Pompei alimentano l'amore e l'ispirazione per l'antichità classica. Le collezioni private di antichità diventano musei aperti al pubblico, come il British Museum a Londra e il Louvre a Parigi. Le Accademie di Belle Arti diffondono i principi artistici classici. Il gusto per l'antico entra nella vita quotidiana: nell'arredamento, con lo stile impero, e nella moda, con abiti dalle linee semplici. Le città vengono riorganizzate con regolarità, simmetria e funzionalità. Il dipinto di Hackert, con Goethe davanti al Colosseo, racconta proprio il Grand Tour: i viaggiatori affascinati dalle rovine di Roma.",
-  "lingua": "it"
+  "nome": "NC_R1",
+  "testo": "Ripasso. Il Neoclassicismo nasce da Roma e si diffonde in tutta Europa. Il Grand Tour è il viaggio di formazione in Italia dei giovani aristocratici europei. Gli scavi di Ercolano e Pompei alimentano l'amore per l'antichità classica. Nascono i musei pubblici: il British Museum a Londra e il Louvre a Parigi. L'antico invade la vita quotidiana: arredamento, stile impero e moda."
  },
  {
-  "nome": "S2",
-  "testo": "L'architettura neoclassica in Francia. L'architettura neoclassica privilegia forme geometriche semplici, piante simmetriche e gli elementi degli ordini classici: frontoni, colonne, timpani. Giambattista Piranesi diffonde il fascino delle rovine classiche con le Vedute fantastiche di Roma e le Prigioni immaginarie. In Francia, Étienne-Louis Boullée propone un'architettura monumentale basata su pure forme geometriche, come la sfera del Cenotafio di Newton, un progetto mai realizzato. La chiesa di Sainte-Geneviève a Parigi, il Pantheon, è progettata da Soufflot come cantiere laboratorio: pianta a croce greca, pronao con colonne corinzie e una grande cupola. Il Pantheon nasce come chiesa, ma sembra un tempio: durante la Rivoluzione diventa il pantheon nazionale dei grandi della patria.",
-  "lingua": "it"
+  "nome": "NC_R2",
+  "testo": "Ripasso. L'architettura neoclassica privilegia forme geometriche semplici, piante simmetriche e ordini classici. Piranesi diffonde il fascino delle rovine con le Vedute fantastiche di Roma e le Prigioni immaginarie. Boullée propone un'architettura visionaria, fatta di pure forme geometriche come la sfera. Il Cenotafio di Newton, mai realizzato, è l'esempio perfetto. Soufflot progetta la chiesa di Sainte-Geneviève a Parigi: è una chiesa, ma sembra un tempio. Nel millesettecentonovantuno diventa il Panthéon nazionale dei grandi uomini."
  },
  {
-  "nome": "S3",
-  "testo": "L'architettura in Italia e in Europa. In Italia, Giuseppe Piermarini progetta il Teatro alla Scala di Milano, unendo funzionalità e sobrietà neoclassica, e rinnova il Palazzo Reale. In Inghilterra si passa dal Neopalladianesimo, la riscoperta di Andrea Palladio, al Neogreco e allo stile Adam. Robert Adam progetta Kedleston Hall, con la Marble Hall e il Saloon. La Germania guarda alla Grecia: a Berlino la Porta di Brandeburgo, ispirata ai modelli ateniesi, e a Ratisbona il tempio del Walhalla. La Scala, costruita dopo l'incendio del vecchio teatro, ha l'interno a ferro di cavallo con cinque ordini di palchi; fu inaugurata nel millesettecentosettantotto.",
-  "lingua": "it"
+  "nome": "NC_R3",
+  "testo": "Ripasso. Piermarini progetta il Palazzo Reale e il Teatro alla Scala di Milano: sobrietà e funzionalità. In Inghilterra Robert Adam progetta Kedleston Hall, dal Neopalladianesimo allo stile Adam. A Berlino la Porta di Brandeburgo si ispira ai modelli ateniesi. A Ratisbona il Walhalla riproduce un tempio greco. Il riferimento è sempre greco-romano, ma ogni paese lo declina a modo suo."
  },
  {
-  "nome": "S4",
-  "testo": "I teorici e la scultura di Canova. Johann Joachim Winckelmann è il principale teorico del movimento: l'ideale estetico è l'arte greca, definita da nobile semplicità e quieta grandezza. Per Winckelmann l'imitazione degli antichi non è una copia servile, ma la ricerca della bellezza ideale. Anton Raphael Mengs lega i principi classici a un disegno geometrico e simmetrico. Antonio Canova è il più grande scultore neoclassico. Il suo metodo va dal disegno al modello in argilla, fino alla sbozzatura e alla finitura del marmo. Le opere celebri sono Amore e Psiche, Paolina Borghese come Venere vincitrice e il Monumento funebre di Maria Cristina d'Austria, che rinnova il genere dei monumenti funebri. In Amore e Psiche le ali e i corpi formano una grande X, e le braccia un cerchio che incornicia i volti dei due amanti.",
-  "lingua": "it"
+  "nome": "NC_R4",
+  "testo": "Ripasso. Winckelmann identifica l'ideale nell'arte greca: nobile semplicità e quieta grandezza. Imitare gli antichi non è copiare: è cercare la bellezza ideale. Mengs applica i principi classici a un disegno geometrico e simmetrico. Canova segue un processo rigoroso: dal disegno al modello in argilla, dalla sbozzatura alla finitura del marmo. Opere celebri: Amore e Psiche, Venere vincitrice, Le tre Grazie. Il Monumento a Maria Cristina d'Austria rinnova il monumento funebre."
  },
  {
-  "nome": "S5",
-  "testo": "La pittura di Jacques-Louis David. David è il massimo esponente della pittura neoclassica francese e lega l'arte all'impegno etico e politico. Il giuramento degli Orazi è l'opera simbolo del Neoclassicismo: severa prospettiva, composizione geometrica, esaltazione delle virtù civiche e del sacrificio per la patria. Nella Morte di Marat la morte del leader rivoluzionario è idealizzata con un'essenziale sobrietà formale e richiami alla pietà cristiana. Con il Giuramento della pallacorda e Napoleone valica il Gran San Bernardo, David celebra la Rivoluzione e il mito di Napoleone. Negli Orazi lo spazio è diviso in tre settori, come i tre archi sullo sfondo: i fratelli a sinistra, il padre al centro, le donne a destra.",
-  "lingua": "it"
+  "nome": "NC_R5",
+  "testo": "Ripasso. David lega l'arte all'impegno etico e politico. Il giuramento degli Orazi è il manifesto del Neoclassicismo pittorico. La Morte di Marat trasforma un delitto politico in un'immagine sacra. Napoleone valica il Gran San Bernardo celebra il mito di Napoleone. Ingres, allievo di David, difende il primato del disegno. La grande odalisca, del milleottocentoquattordici, porta il fascino dell'Oriente."
  },
  {
-  "nome": "S6",
-  "testo": "Jean-Auguste-Dominique Ingres. Allievo di David, Ingres difende il primato del disegno e del colore locale. È famoso per i ritratti realistici e dettagliati dell'aristocrazia e dell'alta borghesia. Introduce il tema del nudo e dell'Oriente, come nella Grande odalisca: linee sinuose, deformazioni anatomiche calibrate e una sensualità astratta. In Giove e Teti, ispirato all'Iliade, Giove è rigido e frontale, mentre Teti è disegnata con linee curve e sinuose. Nella Grande odalisca Ingres allunga la schiena della modella per accentuare la linea sinuosa del corpo.",
-  "lingua": "it"
+  "nome": "NC_GL",
+  "testo": "Glossario. Le parole da ricordare. Neoclassicismo: ritorno all'antico: movimento artistico e culturale internazionale, nato dalla seconda metà del Settecento. Grand Tour: viaggio di formazione dei giovani aristocratici europei, con l'Italia come meta obbligatoria. Veduta: immagine di Roma e dei suoi monumenti, fedele o inventata, come quelle di Piranesi. Cenotafio: monumento funebre: quello di Newton, di Boullée, non fu mai realizzato. Neopalladianesimo: riscoperta dell'architettura di Andrea Palladio. Pronao: ingresso con un frontone triangolare, sorretto da colonne. Quadriga: carro con quattro cavalli, condotto da un auriga: sta sopra la Porta di Brandeburgo. Stile impero: lo stile di arredo che Napoleone adotta per la nuova Francia imperiale, ma neoclassica. Agrippina: divano in stile impero. Accademia di Belle Arti: centro statale per l'insegnamento e la diffusione dei principi artistici classici."
  },
  {
-  "nome": "GL",
-  "testo": "Ripassiamo le parole chiave della lezione. Neoclassicismo: il ritorno all'antico, ai modelli greci e romani. Grand Tour: il viaggio formativo in Italia di giovani aristocratici, artisti e architetti europei. Stile impero: il gusto per l'antico nell'arredamento. Architettura visionaria: progetti monumentali basati su pure forme geometriche, come la sfera. Neopalladianesimo: la riscoperta di Andrea Palladio in Inghilterra. Nobile semplicità e quieta grandezza: così Winckelmann definisce l'arte greca. Imitazione: per Winckelmann non è una copia servile, ma la ricerca della bellezza ideale. Esotismo: il fascino dell'Oriente, come nella Grande odalisca di Ingres. Monumento funebre: Canova rinnova il genere con opere solenni e allegoriche, come il Monumento a Maria Cristina d'Austria. Primato del disegno: Ingres lo difende, insieme al colore locale, rispetto alle innovazioni dell'epoca.",
-  "lingua": "it"
+  "nome": "NC_RF",
+  "testo": "Ripasso finale, argomento per argomento. Primo argomento: Le origini: Grand Tour, musei e moda. Il Neoclassicismo nasce da Roma e si diffonde in tutta Europa, come ritorno all'antico. Il Grand Tour porta in Italia i giovani aristocratici europei; gli scavi di Ercolano e Pompei alimentano l'amore per l'antichità. Nascono i musei pubblici e le Accademie di Belle Arti, e il gusto per l'antico entra nell'arredamento e nella moda. Secondo argomento: L'architettura: Piranesi e i visionari francesi. L'architettura neoclassica usa forme geometriche semplici e piante simmetriche. Piranesi diffonde il fascino delle rovine; Boullée immagina un'architettura visionaria, come il Cenotafio di Newton; Soufflot progetta Sainte-Geneviève, una chiesa che sembra un tempio. Terzo argomento: L'architettura in Italia e in Europa. Piermarini progetta il Palazzo Reale e il Teatro alla Scala di Milano. In Inghilterra, Robert Adam progetta Kedleston Hall. In Germania, la Porta di Brandeburgo guarda ai modelli ateniesi e a Ratisbona sorge il Walhalla. Quarto argomento: I teorici e la scultura di Canova. Winckelmann cerca l'ideale nell'arte greca, nobile semplicità e quieta grandezza, e Mengs lo applica alla pittura. Canova lavora dal disegno al marmo: Amore e Psiche, la Venere vincitrice, Le tre Grazie e il monumento a Maria Cristina d'Austria. Quinto argomento: La pittura: David e Ingres. David lega l'arte all'impegno etico e politico: il Giuramento degli Orazi, la Morte di Marat, Napoleone che valica il Gran San Bernardo. Ingres, suo allievo, difende il primato del disegno e porta il fascino dell'Oriente con la grande odalisca."
  },
  {
-  "nome": "RF",
-  "testo": "Prima di salutarci, ricapitoliamo i sei argomenti della lezione. Uno: il Neoclassicismo nasce a Roma e si diffonde in Europa grazie al Grand Tour, agli scavi di Ercolano e Pompei e ai nuovi musei pubblici. Due: l'architettura sceglie forme geometriche semplici. Piranesi diffonde il fascino delle rovine, Boullée immagina il Cenotafio di Newton, Soufflot costruisce il Pantheon di Parigi. Tre: in Italia Piermarini progetta la Scala e il Palazzo Reale di Milano; in Inghilterra Robert Adam costruisce Kedleston Hall; in Germania nascono la Porta di Brandeburgo e il Walhalla. Quattro: Winckelmann indica nell'arte greca la nobile semplicità e quieta grandezza; Canova la traduce nel marmo, da Amore e Psiche al Monumento di Maria Cristina d'Austria. Cinque: David lega la pittura all'impegno politico, dal Giuramento degli Orazi alla Morte di Marat, fino a Napoleone. Sei: Ingres, allievo di David, difende il primato del disegno e apre al nudo e all'Oriente con la Grande odalisca.",
-  "lingua": "it"
+  "nome": "NC_SP",
+  "testo": "Prima di continuare, ripassiamo quello che abbiamo visto nella Parte precedente. Primo argomento: Le origini: Grand Tour, musei e moda. Il Neoclassicismo nasce da Roma e si diffonde in tutta Europa, come ritorno all'antico. Il Grand Tour porta in Italia i giovani aristocratici europei; gli scavi di Ercolano e Pompei alimentano l'amore per l'antichità. Nascono i musei pubblici e le Accademie di Belle Arti, e il gusto per l'antico entra nell'arredamento e nella moda. Secondo argomento: L'architettura: Piranesi e i visionari francesi. L'architettura neoclassica usa forme geometriche semplici e piante simmetriche. Piranesi diffonde il fascino delle rovine; Boullée immagina un'architettura visionaria, come il Cenotafio di Newton; Soufflot progetta Sainte-Geneviève, una chiesa che sembra un tempio. Terzo argomento: L'architettura in Italia e in Europa. Piermarini progetta il Palazzo Reale e il Teatro alla Scala di Milano. In Inghilterra, Robert Adam progetta Kedleston Hall. In Germania, la Porta di Brandeburgo guarda ai modelli ateniesi e a Ratisbona sorge il Walhalla. Quarto argomento: I teorici e la scultura di Canova. Winckelmann cerca l'ideale nell'arte greca, nobile semplicità e quieta grandezza, e Mengs lo applica alla pittura. Canova lavora dal disegno al marmo: Amore e Psiche, la Venere vincitrice, Le tre Grazie e il monumento a Maria Cristina d'Austria."
  },
  {
-  "nome": "FIN",
-  "testo": "Fine della lezione. Grazie per l'attenzione.",
-  "lingua": "it"
+  "nome": "NC_MF",
+  "testo": "Mappa della lezione. Che cos'è il Neoclassicismo? Il Neoclassicismo, arte. È un movimento artistico e culturale, che riscopre l'arte classica greco-romana. Nasce in contrasto alle stravaganze del Barocco e del Rococò. Il periodo: dal millesettecentocinquanta al milleottocentoquindici, tra Illuminismo, Rivoluzione francese e Napoleone. Rinasce l'interesse per l'arte classica grazie alla scoperta di Pompei ed Ercolano e a Winckelmann, archeologo. L'architettura: rispetto al Barocco non ci sono decorazioni e le forme sono semplici. Gli architetti: Giuseppe Piermarini, Luigi Cagnola e Leopoldo Pollack. La scultura: soggetti idealizzati, perfetti. Con Antonio Canova. La pittura: temi storici e mitologici. Con Jacques-Louis David e Jean-Auguste-Dominique Ingres."
  },
  {
-  "nome": "M1",
-  "testo": "Mappa delle origini. Il Neoclassicismo nasce a Roma e si diffonde in Europa. Il Grand Tour porta in Italia giovani aristocratici, artisti e architetti. Gli scavi di Ercolano e Pompei alimentano l'amore per l'antico. Nascono i musei pubblici, come il British Museum e il Louvre. Le Accademie di Belle Arti insegnano i principi classici. Infine l'antico entra nella moda e nelle città.",
-  "lingua": "it"
- },
- {
-  "nome": "M2",
-  "testo": "Mappa su Piranesi e i visionari francesi. L'architettura sceglie forme geometriche semplici: frontoni, colonne, timpani. Piranesi diffonde il fascino delle rovine con le Vedute di Roma. Le Prigioni immaginarie sono scenografie incise. In Francia la teoria illuminista cerca un fondamento razionale. Boullée propone architetture di pure forme, come la sfera. Soufflot progetta Sainte-Geneviève, il Pantheon di Parigi.",
-  "lingua": "it"
- },
- {
-  "nome": "M3",
-  "testo": "Mappa dell'architettura in Europa. In Italia Piermarini unisce funzionalità e sobrietà. Il suo capolavoro è il Teatro alla Scala di Milano. In Inghilterra si passa dal Neopalladianesimo allo stile Adam. A Berlino sorge il Propileo, la Porta di Brandeburgo. A Ratisbona il tempio del Walhalla guarda alla Grecia.",
-  "lingua": "it"
- },
- {
-  "nome": "M4",
-  "testo": "Mappa di Winckelmann e Canova. Winckelmann è il principale teorico del movimento. L'ideale estetico è l'arte greca: nobile semplicità e quieta grandezza. Imitare gli antichi non significa copiare, ma cercare la bellezza ideale. Mengs applica i principi classici con un disegno simmetrico. Canova è il grande scultore, dal disegno all'argilla fino al marmo. Tra le opere, Amore e Psiche.",
-  "lingua": "it"
- },
- {
-  "nome": "M5",
-  "testo": "Mappa su Jacques-Louis David. David è il massimo esponente della pittura neoclassica francese. Lega l'arte all'impegno etico e politico. Il giuramento degli Orazi è l'opera simbolo e esalta le virtù civiche. La composizione è geometrica, con una severa prospettiva. La morte di Marat unisce sobrietà formale e richiami alla pietà cristiana.",
-  "lingua": "it"
- },
- {
-  "nome": "M6",
-  "testo": "Mappa su Ingres. Allievo di David, resta fedele al classicismo. Difende il primato del disegno e del colore locale. I suoi ritratti sono dettagliati e realistici. L'esotismo porta il tema dell'Oriente, come nella Grande odalisca. Lo stile ha linee sinuose e una sensualità astratta.",
-  "lingua": "it"
- },
- {
-  "nome": "MF",
-  "testo": "Mappa di tutta la lezione. Le origini nascono a Roma, con il Grand Tour, i musei e la moda. L'architettura cerca geometria, con Piranesi, Boullée e Piermarini. La teoria di Winckelmann e Mengs indica la bellezza ideale. La scultura ha in Canova il suo maestro. La pittura ha in David l'impegno civile. Dopo David, Ingres difende il primato del disegno.",
-  "lingua": "it"
- },
- {
-  "nome": "CI",
-  "testo": "Prima di salutarci, un momento per i compiti. Nella prossima scheda trovi le attività assegnate dal professore: svolgile con calma, per fissare gli argomenti di oggi.",
-  "lingua": "it"
+  "nome": "NC_COMPITI",
+  "testo": "Compiti. Primo compito. Analizza il contesto culturale e sociale in cui nasce e si diffonde il Neoclassicismo, spiegando il ruolo del Grand Tour in Italia, l'importanza delle scoperte archeologiche di Ercolano e Pompei, la nascita dei musei pubblici e delle Accademie di Belle Arti, fino alle ricadute sulla moda, sull'arredamento e sull'urbanistica europea. Secondo compito. Descrivi le caratteristiche principali dell'architettura neoclassica e confronta le diverse declinazioni europee, soffermandoti sulle visioni e incisioni di Giambattista Piranesi, sui progetti visionari illuministi di Étienne-Louis Boullée in Francia, sull'opera di Giuseppe Piermarini in Italia e sugli sviluppi in Inghilterra e Germania. Terzo compito. Illustra i principi estetici elaborati dai teorici Johann Joachim Winckelmann (con particolare riferimento ai concetti di nobile semplicità e quieta grandezza e di imitazione degli antichi) e Anton Raphael Mengs, spiegando poi come tali ideali trovino applicazione nella scultura e nel metodo creativo di Antonio Canova attraverso le sue opere principali. Quarto compito. Metti a confronto la pittura di Jacques-Louis David e quella del suo allievo Jean-Auguste-Dominique Ingres, analizzando da un lato l'impegno etico-politico e la visione epica della storia nelle opere di David (come Il giuramento degli Orazi e La Morte di Marat) e dall'altro il primato del disegno e l'apertura ai temi esotici in Ingres (come ne La grande odalisca). Svolgi i compiti qui sotto e premi Consegna: arrivano al docente nel tuo quaderno dei compiti."
  }
 ]
