@@ -21,6 +21,10 @@
   {
    "quando": "22/11 17:20",
    "testo": "CONTROLLO 1 ORA (17:20 UTC): lez 10 sono a circa 70%. Fatto: slide 40 px max 3 card, inserti per spezzare le schermate, mappa BES ramo per ramo, PDF con testo invisibile, video codificato senza mappa e compiti. MI SERVE per chiudere: le voci M1-M12 (mappa) e R6_COMP1-4 (compiti) sul ramo voci-letteratura-V-lez10: non ci sono ancora. Con le voci entro 17:50 consegno entro 19:00 UTC; se arrivano dopo, consegno 75 minuti dopo l'arrivo (resto dentro le 19:30 se arrivano entro 18:15). Nessuna parte da passare ad altra chat."
+  },
+  {
+   "quando": "22/11 18:28",
+   "testo": "Lez10 (18:30 UTC): video 51:33,5 montato, controllo indipendente fatto (agente separato): correggo sottotitoli (anche voci Kore), PDF con testo selezionabile, nome del prof tolto dai piedi di pagina delle schede animate; ri-codifica in corso. Consegna prevista 19:15 UTC. Da te: (1) la sigla Letteratura del kit mostra la scritta «LETTERATURA ITALIANA [ANALISI TESTUALE]» in monospaziato: va bene o la cambi? (2) il controllo severo segna 6 pause >2,5 s tutte strutturali (schede quiz, verifica, fine mappa): le lascio, non le copro con rumore."
   }
  ],
  "domande_sara": [],
@@ -56,10 +60,14 @@
   {
    "quando": "22/11 18:26",
    "testo": "22/11 18:26 UTC: video finale 51:39,8 codificato e pushato su revisione-letteratura-V-lez10 (bozza completa, rapporto da chiudere). Fatto: slide 40 px max 3 card, inserti a meta' argomento, mappa BES ramo per ramo, verifica+compiti nel video, PDF con testo. Manca: esito controllo severo + audit agente separato. Consegna prevista 19:15 UTC"
+  },
+  {
+   "quando": "22/11 18:28",
+   "testo": "18:30 UTC (2 h): in ri-codifica finale; poi controllo severo, rapporto, push"
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 10 · Il primo Novecento e la lirica italiana",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-22 18:26:06"
+ "aggiornato": "2026-11-22 18:28:36"
 }
