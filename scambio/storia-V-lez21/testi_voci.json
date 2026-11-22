@@ -497,5 +497,69 @@
  {
   "nome": "SP_4",
   "testo": "Con questo ripasso sei pronto per la seconda parte: il mondo multipolare, l'Europa, l'Italia e le questioni aperte."
+ },
+ {
+  "nome": "AP3_0_R2",
+  "testo": "Le conseguenze dei costosi conflitti in Iraq e in Afghanistan si uniscono a una devastante crisi finanziaria interna. È la crisi dei mutui subprime, scoppiata tra il duemilasette e il duemilaotto. Erano mutui concessi a chiunque, a tasso agevolato, senza troppe garanzie sulla situazione patrimoniale: chi aveva bisogno di centomila dollari per comprare casa li otteneva subito dalla banca. La crisi mette a rischio la stabilità del dollaro e il tenore di vita di un americano medio. Da qui nasce anche la crisi del debito sovrano in Europa, che condiziona governi, partiti e campagne elettorali. Da questa crisi non ci siamo mai del tutto ripresi."
+ },
+ {
+  "nome": "AP3_1_R2",
+  "testo": "La fine della presidenza Trump è segnata da tensioni polarizzate ed esasperate. Crescono le tensioni razziali e il contrasto ai diritti civili della popolazione afroamericana e ispanica. Il sei gennaio duemilaventuno una folla di sostenitori di Trump assalta Capitol Hill, sede del Congresso a Washington, cioè del Parlamento degli Stati Uniti. Gli assalitori entrano nei palazzi del potere, ma non alla Casa Bianca. È una conclusione drammatica, che rende il clima del paese ancora più teso."
+ },
+ {
+  "nome": "AP3_3_R2",
+  "testo": "Nel duemilaotto, in mezzo alla crisi, c'è il cambio alla Casa Bianca: viene eletto il democratico Barack Obama. È il primo presidente afroamericano della storia degli Stati Uniti, con origini sia bianche sia nere. La sua elezione porta con sé le aspettative sull'estensione dei diritti civili. Obama vuole risolvere la questione razziale, mai davvero risolta negli Stati Uniti. Vuole anche ridimensionare le spinte sovraniste e razziste del suprematismo bianco. Tutto questo avviene mentre il mondo si sta avviando verso un nuovo disastro finanziario."
+ },
+ {
+  "nome": "AP5_1_R2",
+  "testo": "Anche l'Unione Europea ha dovuto affrontare vent'anni di dure prove. L'impatto della crisi economica del duemilaotto ha colpito duramente diversi paesi membri dell'Unione e dell'euro. L'euro si stava consolidando, ma la crisi non ha fatto altro che esasperare le difficoltà. Le analisi dicono che i paesi più poveri, tra cui l'Italia, con la valuta nazionale avrebbero sofferto ancora di più. Si tratta di analisi e di studi, non di pareri personali. L'Europa deve intanto gestire la crisi economica e le nuove spinte secessioniste."
+ },
+ {
+  "nome": "SC3_1_R2",
+  "testo": "Primo: tra il duemilasette e il duemilaotto i costi delle guerre e la crisi dei mutui subprime provocano una grave recessione globale."
+ },
+ {
+  "nome": "SC3_2_R2",
+  "testo": "Secondo: dal duemilaotto al duemilasedici il primo presidente afroamericano, Barack Obama, promuove riforme sociali e una politica estera basata sul dialogo."
+ },
+ {
+  "nome": "SC3_3_R2",
+  "testo": "Terzo: dal duemilasedici al duemilaventi lo slogan America First porta a protezionismo, contrasto all'immigrazione e forte polarizzazione."
+ },
+ {
+  "nome": "SC3_4_R2",
+  "testo": "Quarto: la presidenza Trump si chiude con le proteste di Black Lives Matter, la gestione della pandemia e l'assalto a Capitol Hill del sei gennaio duemilaventuno."
+ },
+ {
+  "nome": "SP_4B",
+  "testo": "Quarto argomento: il mondo multipolare. Brasile, Russia, India, Cina e Sudafrica, i paesi BRICS, si uniscono per contestare l'egemonia globale ed economica degli Stati Uniti. La Cina si afferma come superpotenza globale grazie a una crescita economica vertiginosa e a progetti infrastrutturali mondiali come la Nuova via della seta. La Russia di Putin ha un regime autoritario interno, reprime il dissenso e ha una politica estera aggressiva volta a contrastare l'espansione della NATO, cioè dell'alleanza militare occidentale."
+ },
+ {
+  "nome": "RP_1",
+  "testo": "Primo argomento. Gli attentati dell'undici settembre duemilauno aprono l'era dell'angoscia. Segue la guerra al terrore di Bush, la guerra in Iraq del duemilatre e la crisi economica del duemilasette-duemilaotto."
+ },
+ {
+  "nome": "RP_2",
+  "testo": "Secondo argomento. Nel Medio Oriente e nel Nord Africa il conflitto israelo-palestinese resta aperto. Le primavere arabe del duemiladieci-duemilaundici fanno cadere i vecchi regimi e le guerre civili favoriscono l'ISIS."
+ },
+ {
+  "nome": "RP_3",
+  "testo": "Terzo argomento. Obama, primo presidente afroamericano, promuove riforme sociali. Poi Trump, con America First, porta protezionismo e forte polarizzazione sociale."
+ },
+ {
+  "nome": "RP_4",
+  "testo": "Quarto argomento. I BRICS contestano l'egemonia degli Stati Uniti: la Cina è una superpotenza globale e la Russia di Putin è autoritaria e aggressiva."
+ },
+ {
+  "nome": "RP_5",
+  "testo": "Quinto argomento. La crisi del duemilaotto colpisce l'Europa, cresce l'euroscetticismo e nel duemilasedici il Regno Unito vota la Brexit."
+ },
+ {
+  "nome": "RP_6",
+  "testo": "Sesto argomento. In Italia, dopo il bipolarismo, arrivano i governi tecnici, il successo dei partiti populisti nel duemiladiciotto, i governi di unità nazionale e, nel duemilaventidue, il governo Meloni."
+ },
+ {
+  "nome": "RP_7",
+  "testo": "Settimo argomento. Le questioni aperte sono la pandemia di Covid, la guerra in Ucraina, la crisi climatica e le migrazioni."
  }
 ]
