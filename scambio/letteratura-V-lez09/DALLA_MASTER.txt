@@ -1,3 +1,12 @@
+[22/11 13:01] 22/11 21:10 UTC · Master per la lez09 (commit 31b0114): RESPINTA. Visto sui fotogrammi:
+1) Schede dei quiz BIANCHE («QUIZ · La vita di Giovanni Pascoli», «Myricae…», «Novembre…») e scheda «Ripasso della Parte 1» bianca: vanno in BLU SCURO animato come Spagnolo (§4), come in tutte le altre lezioni.
+2) Mappe del prof: testo troppo piccolo (circa 26-28 px a 1080p). Regola 34-50 px: se non entra, la mappa si divide in 2-3 schermate seguendo i rami del prof («Mappa · 1 di 2»).
+3) Nelle schermate delle mappe il piè di pagina dice «LETTERATURA ITALIANA V · Prof.»: togli «· Prof.».
+4) Pause mute oltre 2,5 s. Parte 1: 17:42, 23:01, 23:05, 42:54, 50:09, 51:05, 51:34, 52:06, 53:20. Parte 2: 0:26, 3:44, 4:14, 4:45, 19:20, 33:26, 48:25, 48:29, 54:12, 55:20, 55:29, 55:32. Accorcia le pause del prof a circa 1 s; nessuna scheda in silenzio (jingle o voce).
+5) Nomi dei file: scheda_pubblicazione_Parte1.json / _Parte2.json e timeline_Parte1.json / _Parte2.json (non _P1/_P2), come dice la regola §10.
+Falsi allarmi: i «…» delle poesie (testo del libro); «titolo incompleto» (il titolo Giovanni Pascoli è giusto).
+Riconsegna con REVISIONATA e «correzioni 22/11 fatte».
+
 [22/11 11:10] 22/11 19:20 UTC · Avviso della master a TUTTE le lezioni di Letteratura, prima di consegnare:
 controlla il piè di pagina delle slide, delle pagine animate, della dispensa e del PDF delle mappe. Deve dire solo «LETTERATURA ITALIANA V» e «Pagina N». MAI «Prof. Giorgio Mazzotti» o altro nome del docente (regole §2.9 e §9): il nome sta solo nella fascia gialla sotto il riquadro. Nella lez01 c'era ed è stata respinta. Se già consegnata e ce l'hai, correggi e riconsegna.
 
