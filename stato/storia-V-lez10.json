@@ -1,7 +1,7 @@
 {
  "tag": "storia-V-lez10",
  "parti": {},
- "manca": "montaggio pezzi in corso; voci provvisorie fino all'arrivo delle nuove",
+ "manca": "in corso: codifica dei 10 pezzi del prof (circa 96 min, 2 lavori in parallelo) e dei pezzi Kore con voci provvisorie. Poi: assemblaggio Parte 1 (~62 min) e Parte 2 (~56 min), controlli, dispensa, sottotitoli. Voci reali: appena arrivano le sostituisco.",
  "serve_master": [
   {
    "quando": "22/11 18:46",
@@ -21,9 +21,13 @@
   {
    "quando": "22/11 18:37",
    "testo": "22/11 18:50 avviata: materiali scaricati, riparto dall'originale (i file di lavoro del 19/11 non ci sono)"
+  },
+  {
+   "quando": "22/11 19:31",
+   "testo": "22/11 ~21:00 italiane: trascrizione e struttura fatte (8 argomenti, evidenze per evitare schermate identiche >3 min misurate con la stessa soglia del controllo severo: max 146 s); slide, mappe BES, schede blu, approfondimenti, schemi pronti; montaggio in corso"
   }
  ],
  "materia": "Storia V",
  "lezione": "Lezione 10 · La Germania da Weimar al nazismo",
- "aggiornato": "2026-11-22 19:03:36"
+ "aggiornato": "2026-11-22 19:31:58"
 }
