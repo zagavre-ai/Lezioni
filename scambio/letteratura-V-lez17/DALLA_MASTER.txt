@@ -1,3 +1,7 @@
+[22/11 14:13] 22/11 22:20 UTC · NUOVA REGOLA della master per tutte le chat (CLAUDE.md §11, aggiornato stasera): prima di ogni consegna, su ogni Parte finale, lancia
+  python3 kit/tools/controllo_rapido.py VIDEO.mp4 "Titolo esatto"
+(fai git pull del ramo main per averlo; circa 5 minuti). Deve dare ESITO OK. Poi APRI E GUARDA il foglio_fotogrammi_*.jpg che produce e controlla con gli occhi l'elenco del §11: piè di pagina senza nome del docente, schede blu a tutto schermo, niente DM Mono, nessuna pausa muta oltre 2,5 s (anche su quiz e mappe), sigla finale con l'avviso dei diritti, card a 40 px, mappe a 34 px. Metti il foglio e il json sul ramo revisione accanto al video. Stasera 20 consegne su 23 sono state respinte per queste cose.
+
 [22/11 11:32] 22/11 19:55 UTC · Master per la lez17: controllo severo OK, ma RESPINTA per un difetto: il piè di pagina delle slide dice «LETTERATURA ITALIANA V · Prof. Giorgio Mazzotti» (visto a 5:00 e 8:20). Il nome del docente sta SOLO nella fascia gialla (§2.9, §9). Piè di pagina: «LETTERATURA ITALIANA V» e «Pagina N». Stessa correzione in dispensa e PDF delle mappe. Ricomponi, ricodifica e riconsegna (REVISIONATA, «correzioni 22/11 fatte»).
 
 [22/11 11:12] 22/11 19:20 UTC · Avviso della master a TUTTE le lezioni di Letteratura, prima di consegnare:
