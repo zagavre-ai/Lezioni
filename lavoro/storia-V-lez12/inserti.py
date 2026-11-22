@@ -70,7 +70,7 @@ def titolo(k):
     b, wb, hb = el(f'T{k}_tit', f'<div class="d-tit" style="width:1500px">{E(t)}</div>')
     c, wc, hc = el(f'T{k}_rig', f'<div style="width:260px;height:10px;background:{rend.GIALLO};border-radius:5px"></div>')
     els = [dict(png=a, x=160, y=330, t0=0.15, d=0.4, slide=25), dict(png=b, x=160, y=400, t0=0.35, d=0.5, slide=40), dict(png=c, x=160, y=400 + hb + 24, t0=0.9, d=0.5)]
-    return compone(f'tit{k}', 4.0, base_scura(), els, [(snd('titolo'), 0.0, 1.0)])
+    return compone(f'tit{k}', 3.0, base_scura(), els, [(snd('titolo'), 0.0, 1.0)])
 
 # ---------- approfondimento ----------
 APPROF_TRIGGER = {  # frase della voce da cui compare ogni punto (indice di frase)
@@ -92,7 +92,7 @@ def approfondimento(k, immagine=None):
         hi = slide.immagine_alta(immagine); im = Image.open(hi); r = min(740 / im.width, 640 / im.height); w, h = int(im.width * r), int(im.height * r)
         png, ww, hh = el(f'AP{k}_img', f'<div style="background:#fff;border-radius:22px;padding:14px;box-shadow:0 14px 40px rgba(0,0,0,.45)"><img src="file://{hi}" style="width:{w}px;height:{h}px;display:block;border-radius:10px"></div>')
         els.append(dict(png=png, x=1100, y=300, t0=1.5, d=0.8, slide=30))
-    dur = 0.8 + v['durata'] + 1.2
+    dur = 0.8 + v['durata'] + 0.9
     return compone(f'app{k}', dur, base_scura(), els, [(v['wav'], 0.8, 1.0, v['durata'])])
 
 # ---------- pillola di ripasso ----------
@@ -118,7 +118,7 @@ def pillola(k):
         els.append(dict(png=norm, x=100, y=y, t0=t0, d=0.4, slide=20))
         els.append(dict(png=acc, x=100, y=y, t0=t0, d=0.2, fade=False, enable=f"between(t,{t0:.3f},{t1:.3f})"))
         y += h + 16
-    dur = T0 + v['durata'] + 1.5
+    dur = T0 + v['durata'] + 0.8
     return compone(f'pil{k}', dur, base_scura(), els, [(snd('repaso'), 0.0, 1.0), (v['wav'], T0, 1.0, v['durata'])])
 
 # ---------- quiz ----------
@@ -127,7 +127,7 @@ def quiz(k):
     tit, _, ht = el(f'Q{k}_tit', f'<div class="d-tit" style="font-size:80px;width:1600px">Mettiti alla prova</div>')
     sub, _, _ = el(f'Q{k}_sub', f'<div class="d-line" style="width:1500px;font-size:42px">{E(P.TOP[k]["titolo"])}<br><span style="color:{rend.GIALLO}">5 domande · per continuare serve almeno l\'80%</span></div>')
     els = [dict(png=lab, x=160, y=340, t0=0.5, d=0.3), dict(png=tit, x=160, y=395, t0=0.5, d=0.4, slide=30), dict(png=sub, x=160, y=395 + ht + 30, t0=1.0, d=0.5)]
-    return compone(f'quiz{k}', 5.0, base_scura(), els, [(snd('quiz'), 0.5, 1.0)])
+    return compone(f'quiz{k}', 4.2, base_scura(), els, [(snd('quiz'), 0.5, 1.0)])
 
 # ---------- mappe del prof, ridisegnate (modello BES) e costruite ramo per ramo ----------
 COL = {  # riempimento, bordo
@@ -225,8 +225,8 @@ def mappa(k):
         rend.elem(nodo_html(n[1], n[2], True, w, h, centro=(nid == 'c')), acc)
         els.append(dict(png=norm, x=n[3], y=n[4], t0=a0, d=0.35))
         els.append(dict(png=acc, x=n[3], y=n[4], t0=a0, d=0.2, fade=False, enable=f"between(t,{a0:.3f},{a1:.3f})"))
-    dur = T0 + fine_voce + 0.6 + 4.0   # la mappa intera resta ferma 4 s
-    r = compone(f'mappa{k}', dur, base, els, [(v['wav'], T0, 1.0, v['durata'])], anim_luce=False)
+    dur = T0 + fine_voce + 0.4 + 4.0   # la mappa intera resta ferma 4 s
+    r = compone(f'mappa{k}', dur, base, els, [(v['wav'], T0, 1.0, v['durata']), (snd('repaso'), T0 + fine_voce + 0.3, 0.45)], anim_luce=False)
     return r
 
 # ---------- glossario ----------
@@ -326,10 +326,14 @@ def cover_benvenuto():
     v = voce.get('I1_BENVENUTO')
     return compone('cover_ben', 0.6 + v['durata'] + 0.8, cover_png(False), [], [(v['wav'], 0.6, 1.0, v['durata'])], anim_luce=False)
 
+def cover_benvenuto2():
+    v = voce.get('I3_BENVENUTO2')
+    return compone('cover_ben2', 0.6 + v['durata'] + 0.8, cover_png(False), [], [(v['wav'], 0.6, 1.0, v['durata'])], anim_luce=False)
+
 def argomenti_scheda():
     v = voce.get('I2_ARGOMENTI'); assert len(v['frasi']) == 8; T0 = 0.6
     base = f'{ASSET}/arg_base.png'
-    h = f'<img class="logo" src="file://{rend.LOGO}"><div class="hr" style="top:125px"></div><div class="lab">STORIA · VIDEOLEZIONE</div><div class="tit" style="width:1700px">Di cosa parliamo</div><div class="hr" style="top:981px"></div><div class="foot"><span>STORIA</span><span>Pagina 2</span></div>'
+    h = f'<img class="logo" src="file://{rend.LOGO}"><div class="hr" style="top:125px"></div><div class="lab">STORIA</div><div class="tit" style="width:1700px">Di cosa parliamo</div><div class="hr" style="top:981px"></div><div class="foot"><span>STORIA</span><span>Pagina 2</span></div>'
     rend.png(rend.doc(h), base, name='argbase.html')
     els = []; y = 300
     for i, (n, tt) in enumerate(C.ARGOMENTI):

@@ -60,7 +60,11 @@ def segmenti(k):
         a = acceso(t)
         if win is None or (a is not None and a not in win['cards']) or (t - win['t0'] >= MAXFIN - 1e-6):
             i0 = a if a is not None else (win['cards'][0] if win else 0)
-            nid += 1; win = dict(id=nid, cards=scegli(cards, i0, T['titolo']), t0=t)
+            nuovo = scegli(cards, i0, T['titolo'])
+            if win is not None and nuovo == win['cards']:
+                alt = [i0 - 1, i0] if i0 > 0 else nuovo
+                if alt != nuovo: nuovo = alt
+            nid += 1; win = dict(id=nid, cards=nuovo, t0=t)
         nxt = [e for e in E if e > t + 1e-6]
         nb = min(nxt + [win['t0'] + MAXFIN, t1])
         # un'immagine che comincia dopo: già nei punti di E
@@ -80,16 +84,25 @@ def render_stato(k, st_lit, win, pagina, nome):
         body += rend.card_html(n, ttl, txt, y, stato); y += h + GAP
     return rend.png(rend.doc(body), nome, name=os.path.basename(nome) + '.html')
 
+IMGCARDS = {
+ 'asia': [("Leggere la carta", "La «Lunga marcia» (1934-1935) e l’invasione giapponese (1937)"), ("Nella legenda", "Il percorso della marcia e il territorio cinese nel 1936")],
+ 'spagna': [("Leggere la carta", "La guerra di Spagna (1936-1939)"), ("Territori dei nazionalisti", "Dicembre 1936, dicembre 1937, dicembre 1938, febbraio 1939, marzo 1939")],
+}
 def render_img(k, chiave, cap, pagina, nome):
-    T = P.TOP[k]
-    titolo = P.SLIDE_TITOLO[k]
+    T = P.TOP[k]; titolo = P.SLIDE_TITOLO[k]
     body = rend.telaio(f"{k:02d} · {T['titolo']}", titolo, pagina, parole=C.CHIAVE[k])
-    hi = immagine_alta(chiave)
-    im = Image.open(hi)
-    # area figura: x 80..1385, y 290..930
-    ax, ay, aw, ah = 80, 290, 1305, 640
+    hi = immagine_alta(chiave); im = Image.open(hi)
+    cards = IMGCARDS.get(chiave)
+    ax, ay, aw, ah = (80, 290, 780, 640) if cards else (80, 290, 1305, 640)
     r = min(aw / im.width, ah / im.height); w, h = int(im.width * r), int(im.height * r)
     ox = ax + (aw - w) // 2; oy = ay + (ah - h) // 2
     body += f'<div class="fig" style="left:{ax}px;top:{ay}px;width:{aw}px;height:{ah}px"><img src="file://{hi}" style="width:{w}px;height:{h}px"></div>'
-    body += f'<div class="cap" style="left:80px;top:936px;width:1305px;font-size:26px">{rend.esc(cap)}</div>'
+    if cards:
+        y = 290
+        for n, (t_, x_) in enumerate(cards, 1):
+            body += rend.card_html(n, t_, x_, y, 'norm').replace('class="card ', 'style="width:500px;left:885px" class="card ').replace('style="width:500px;left:885px" class="card  style="top:', 'class="card " style="width:500px;left:885px;top:') if False else (
+                f'<div class="card" style="top:{y}px;left:885px;width:500px;padding-left:80px"><div class="n">{n}</div><div class="t" style="font-size:28px">{rend.esc(t_)}</div><div class="s" style="font-size:34px">{rend.esc(x_)}</div></div>')
+            y += 300 if n == 1 else 0
+    else:
+        body += f'<div class="cap" style="left:80px;top:936px;width:1305px;font-size:26px">{rend.esc(cap)}</div>'
     return rend.png(rend.doc(body), nome, name=os.path.basename(nome) + '.html')

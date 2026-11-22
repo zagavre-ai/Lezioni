@@ -15,7 +15,8 @@ ARGOMENTI = [
 ]
 
 VOCI = {
-"I1_BENVENUTO": "Benvenuti alla videolezione di Storia: L'Europa e il mondo negli anni Trenta. Prima della Seconda guerra mondiale, il mondo cambia in fretta. Cominciamo.",
+"I1_BENVENUTO": "Benvenuti alla videolezione di Storia: L'Europa e il mondo negli anni Trenta.",
+"I3_BENVENUTO2": "Benvenuti alla seconda parte della videolezione di Storia: L'Europa e il mondo negli anni Trenta.",
 "I2_ARGOMENTI": "Di cosa parliamo. Sei argomenti. Primo: Francia e Gran Bretagna tra le due guerre. Secondo: dittature e autoritarismi in Europa e fuori dall'Europa. Terzo: l'espansionismo asiatico e la Cina divisa. Quarto: la guerra civile spagnola, dal millenovecentotrentasei al millenovecentotrentanove. Quinto: l'aggressività nazista e il fallimento di Locarno. Sesto: verso la Seconda guerra mondiale.",
 
 "A1_APPROF": "Due risposte alla crisi. Nel Regno Unito il governo del primo ministro laburista affronta la crisi con misure d'emergenza e con il taglio dei sussidi. Nel millenovecentotrentuno lo Statuto di Westminster fa nascere il Commonwealth: i domini, cioè Canada, Australia, Nuova Zelanda e Sudafrica, ottengono pari dignità e forte autonomia. La Gran Bretagna resta la guida, ma non è più il capo. In Francia la crisi del millenovecentoventinove arriva più tardi. Il Paese è instabile, crescono gruppi di estrema destra come la Croix de Feu, e ci sono scandali finanziari. Nel millenovecentotrentasei una coalizione di sinistra, formata da comunisti, socialisti e radicali, vince le elezioni con Léon Blum. Nasce il Fronte Popolare, che introduce la settimana lavorativa di quaranta ore e le ferie retribuite.",

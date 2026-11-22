@@ -70,7 +70,7 @@ def assembla(seq, uscita, tmp):
 
 def blocco(k): return [f'tit{k}', f'prof{k}', f'app{k}'] + ([f'mappa{k}'] if k in (2, 4, 6) else []) + [f'pil{k}', f'quiz{k}']
 PARTE1 = ['sigla', 'cover_ben', 'prof0', 'argomenti'] + sum([blocco(k) for k in (1, 2, 3, 4)], []) + ['sigla_fin']
-PARTE2 = ['sigla', 'spiegone'] + sum([blocco(k) for k in (5, 6)], []) + ['glossario', 'ripasso', 'mappe_fin', 'verifica', 'sigla_fin', 'compiti_intro', 'compiti']
+PARTE2 = ['sigla', 'cover_ben2', 'spiegone'] + sum([blocco(k) for k in (5, 6)], []) + ['glossario', 'ripasso', 'mappe_fin', 'verifica', 'sigla_fin', 'compiti_intro', 'compiti']
 
 if __name__ == '__main__':
     for n, seq in ((1, PARTE1), (2, PARTE2)):

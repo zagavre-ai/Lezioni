@@ -33,12 +33,12 @@ body{{background:#fff;font-family:'Figtree',sans-serif;color:{NOTTE};position:re
 .tit{{position:absolute;left:80px;top:182px;width:1300px;font:800 60px/1.08 'Bricolage Grotesque';color:{NOTTE}}}
 .foot{{position:absolute;left:80px;right:80px;top:1000px;font:700 24px 'Figtree';letter-spacing:2px;color:{BLU};display:flex;justify-content:space-between}}
 .card{{position:absolute;left:80px;width:1305px;background:#fff;border:3px solid #dfe3ea;border-radius:22px;padding:10px 28px 12px 96px;box-shadow:0 10px 30px rgba(40,50,80,.10)}}
-.card .n{{position:absolute;left:26px;top:14px;width:48px;height:48px;border-radius:50%;background:#e8eef8;color:{BLU};font:800 28px/48px 'Figtree';text-align:center}}
+.card .n{{position:absolute;left:26px;top:14px;width:48px;height:48px;border-radius:50%;background:#fff;border:3px solid {NOTTE};color:{NOTTE};font:800 30px/42px 'Figtree';text-align:center}}
 .card .t{{font:700 30px/1.25 'Figtree';color:{BLU};letter-spacing:.5px;margin-bottom:0}}
 .card .s{{font:500 40px/1.45 'Figtree';color:{NOTTE}}}
 .card.off{{opacity:.55}}
 .card.on{{border-color:{GIALLO};border-width:6px;background:#FFFBD6;box-shadow:0 12px 34px rgba(40,50,80,.18)}}
-.card.on .n{{background:{GIALLO};color:{NOTTE}}}
+.card.on .n{{background:#fff;color:{NOTTE}}}
 .card .dot{{display:none}}
 .card.on .dot{{display:block;position:absolute;right:26px;top:26px;width:22px;height:22px;border-radius:50%;background:{GIALLO};border:3px solid {NOTTE}}}
 .ombra{{position:absolute;left:1428px;top:148px;width:412px;height:309px;border-radius:14px;background:#e9edf3;box-shadow:0 14px 34px rgba(60,70,90,.30)}}

@@ -9,7 +9,7 @@ def run(n, f, *a):
 KIT = M.KIT
 run('sigla', I.pezzo_da_file, 'sigla', f'{KIT}/sigle/Sigla_Storia_15s.mp4')
 run('sigla_fin', I.pezzo_da_file, 'sigla_fin', f'{KIT}/sigle/Sigla_finale_5s_con_avviso_diritti.mp4')
-run('cover_ben', I.cover_benvenuto); run('argomenti', I.argomenti_scheda)
+run('cover_ben', I.cover_benvenuto); run('cover_ben2', I.cover_benvenuto2); run('spiegone', I.spiegone); run('argomenti', I.argomenti_scheda)
 IMG = {3: 'asia', 4: 'spagna', 6: 'europa'}
 for k in range(1, 7):
     run(f'tit{k}', I.titolo, k)
