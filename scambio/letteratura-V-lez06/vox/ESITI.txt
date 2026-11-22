@@ -1,6 +1,2 @@
-R6 DA CONTROLLARE frasi trovate 1 / 1 parole diverse 9 (vere 9) tentativi 1
-R7 DA CONTROLLARE frasi trovate 1 / 1 parole diverse 11 (vere 9) tentativi 1
-R8 OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
-R9 OK frasi trovate 1 / 1 parole diverse 4 (vere 4) tentativi 1
-R10 OK frasi trovate 1 / 1 parole diverse 1 (vere 1) tentativi 1
-R11 OK frasi trovate 1 / 1 parole diverse 4 (vere 4) tentativi 1
+R12 DA CONTROLLARE frasi trovate 1 / 1 parole diverse 10 (vere 41) REGIA LETTA tentativi 1
+R12 DA CONTROLLARE durata fuori misura
