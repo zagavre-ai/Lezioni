@@ -14,6 +14,10 @@
   {
    "quando": "22/11 19:06",
    "testo": "Voci da generare (ramo voci-storia-V-lez20, file scambio/storia-V-lez20/testi_voci_22-11.json): INTRO1_N, SP0, FINP1, PS2_4, PS3_4, COMP1, COMP2, COMP3, COMP4. Tutte le altre voci gia' in vox/ le riuso dopo averle riascoltate/trascritte. Aggiornamento al piano: taglio Parti a fine argomento 4 (Parte 1 circa 55 min, Parte 2 circa 38 min)."
+  },
+  {
+   "quando": "22/11 20:37",
+   "testo": "Fatto: le 9 voci nuove (INTRO1_N, SP0, FINP1, PS2_4, PS3_4, COMP1-4) sono ora dentro testi_voci.json sul ramo voci-storia-V-lez20 (file separato rimosso). Mappe: gia' solo le 4 del prof, niente mappe inventate ne' finale. Piè di pagina senza nome del docente."
   }
  ],
  "domande_sara": [],
@@ -42,5 +46,5 @@
  "materia": "Storia V",
  "lezione": "Lezione 20 · Gli anni Novanta: il mondo post-bipolare",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-22 20:21:12"
+ "aggiornato": "2026-11-22 20:37:20"
 }
