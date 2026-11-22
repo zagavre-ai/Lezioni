@@ -5,7 +5,7 @@
  },
  {
   "nome": "ARGOMENTI",
-  "testo": "Ecco gli argomenti di oggi. Primo: la Nuova Oggettività e la censura nazista. Secondo: Otto Dix e il trittico Metropolis. Terzo: Picasso e Guernica. Quarto: il muralismo messicano e Frida Kahlo. Quinto: il realismo americano, da Edward Hopper alla Straight Photography."
+  "testo": "Ecco gli argomenti di oggi. Primo: la Nuova Oggettività e la censura nazista. Secondo: Otto Dix e il trittico Metropolis. Terzo: Picasso e Guernica. Quarto: il muralismo messicano e Frida Kahlo. Quinto: il realismo americano, da Sheeler a Edward Hopper. Sesto: la Straight Photography e il reportage sociale."
  },
  {
   "nome": "APPR_1",
@@ -45,7 +45,15 @@
  },
  {
   "nome": "PILL_5",
-  "testo": "Il crollo del millenovecentoventinove porta alla Grande depressione. Il New Deal finanzia artisti, murales e campagne fotografiche. Sheeler dipinge American Landscape, Wood American Gothic. Hopper, con Nighthawks, racconta la solitudine urbana. La Straight Photography documenta la povertà rurale."
+  "testo": "Il crollo del millenovecentoventinove porta alla Grande depressione. Il New Deal finanzia artisti, murales e campagne fotografiche. Sheeler dipinge American Landscape, Wood American Gothic. Hopper, con Nighthawks, racconta la solitudine urbana."
+ },
+ {
+  "nome": "APPR_6",
+  "testo": "Negli anni Trenta la drammatica realtà della Grande depressione viene documentata anche dai fotografi. Si afferma la Straight Photography, cioè la fotografia diretta: un'estetica che rifiuta qualsiasi manipolazione in fase di sviluppo e di stampa, per garantire la totale fedeltà al vero. Sotto l'impulso della Farm Security Administration, fotografi come Walker Evans e Dorothea Lange realizzano reportage sulla povertà rurale, causata dalla crisi e dalla siccità. Nel millenovecentotrentasei Evans fotografa l'interno di una povera baracca in Alabama: una famiglia di mezzadri, seria, dignitosa e rassegnata. Lange firma Migrant Mother: Florence Owens Thompson, a Nipomo, in California, con tre dei suoi sette figli. Il suo sguardo trasforma il dramma della Grande depressione in un simbolo senza tempo."
+ },
+ {
+  "nome": "PILL_6",
+  "testo": "Negli anni Trenta la Straight Photography, cioè la fotografia diretta, rifiuta ritocchi e alterazioni. Walker Evans e Dorothea Lange documentano la povertà rurale. Evans fotografa una famiglia di mezzadri in Alabama. Lange firma Migrant Mother, nel millenovecentotrentasei. Florence Owens Thompson diventa un simbolo senza tempo."
  },
  {
   "nome": "MAP1",
@@ -69,7 +77,7 @@
  },
  {
   "nome": "RIPASSO",
-  "testo": "Ripasso finale. Primo argomento: la Nuova Oggettività tedesca racconta senza filtri le conseguenze della guerra, e il nazismo la colpisce con la mostra dell'Arte degenerata. Secondo: Otto Dix, con il trittico Metropolis, contrappone lo sfarzo di un locale da ballo alla miseria dei reduci di guerra. Terzo: Guernica di Picasso è un manifesto contro l'orrore di tutte le guerre. Quarto: il muralismo messicano e Frida Kahlo uniscono storia, tradizione popolare e dolore del corpo. Quinto: in America il New Deal sostiene gli artisti; Sheeler, Wood e Hopper raccontano la realtà urbana, rurale e la solitudine; la Straight Photography documenta la povertà."
+  "testo": "Ripasso finale. Primo argomento: la Nuova Oggettività tedesca racconta senza filtri le conseguenze della guerra, e il nazismo la colpisce con la mostra dell'Arte degenerata. Secondo: Otto Dix, con il trittico Metropolis, contrappone lo sfarzo di un locale da ballo alla miseria dei reduci di guerra. Terzo: Guernica di Picasso è un manifesto contro l'orrore di tutte le guerre. Quarto: il muralismo messicano e Frida Kahlo uniscono storia, tradizione popolare e dolore del corpo. Quinto: in America il New Deal sostiene gli artisti, e Sheeler, Wood e Hopper raccontano la realtà urbana, quella rurale e la solitudine. Sesto: la Straight Photography documenta la povertà rurale senza alcun ritocco."
  },
  {
   "nome": "VERIFICA_INTRO",
