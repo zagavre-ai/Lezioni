@@ -68,9 +68,13 @@
   {
    "quando": "22/11 18:50",
    "testo": "150min: 2o controllo severo: resta 1 errore (numerazione card 3-4 su una slide) e trovato disallineamento audio dei pezzi non-prof: corretti, rimontaggio D6 + audio in corso (~10 min), poi 3o controllo severo (~15 min). Consegna prevista 19:25 UTC"
+  },
+  {
+   "quando": "22/11 19:02",
+   "testo": "correzioni 22/11 fatte: controllo severo OK (0 errori), 96078 fotogrammi, 3202,6 s, 386 MB, -16,9 LUFS, picco -2,5 dBFS, jingle Quiz OK, sync max 0,018 s, nessun fermo del prof, mappa BES ramo-per-ramo. Rapporto sul ramo revisione-letteratura-V-lez17"
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "17",
- "aggiornato": "2026-11-22 18:50:01"
+ "aggiornato": "2026-11-22 19:02:27"
 }

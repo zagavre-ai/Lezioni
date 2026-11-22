@@ -20,14 +20,14 @@ Questa è la versione di correzione del 22/11 (regole blindate): sostituisce la 
 |---|---|
 | Formato | 1920×1080, 30 fps, x264 veryfast CRF 19, AAC 192 k, 48 kHz |
 | Durata / fotogrammi | **3202,6 s = 53:23 · 96 078 fotogrammi = durata × 30**; ogni pezzo ha i fotogrammi del piano (46/46) |
-| Peso | 380,9 MB (< 400 MB) |
-| Volume | **−16,8 LUFS** integrato (LRA 6,8 LU), picco **−2,5 dBFS** |
+| Peso | 385,9 MB (< 400 MB) |
+| Volume | **−16,9 LUFS** integrato (LRA 6,9 LU), picco **−2,5 dBFS** |
 | Timbro della voce del prof | rapporto acuti >4 kHz / bassi >100 Hz: D1 −18,1, D2 −15,0, D3 −16,9, D4 −15,0, D5 −20,5, D6 −18,9 dB. Voce **non alterata**: identica all'originale entro ±2,1 dB (D5 −20,5 vs −20,9 dell'originale: è già al limite nel file originale) |
 | Sincronia labbra/voce | correlazione con l'audio dell'originale (3–6 punti per pezzo): scarto massimo **0,018 s** (limite 0,04) |
 | Immagine ferma del prof | `freezedetect` sul riquadro (≥ 1 s): **nessun fermo**. Nell'introduzione animata (0:15–0:48) **nessun riquadro**, nemmeno vuoto; il riquadro compare da 0:53 quando il prof parla |
-| Jingle Quiz | `controllo_jingle.py` con `quiz.wav` del kit: Q1–Q6 scarto +0,004 s, **tutti OK** |
-| Transizioni | `trans.wav` + dissolvenza da/verso il bianco di 0,3 s a ogni cambio di pezzo |
-| Controllo severo (`controllo_severo.py`) | __SEVERO__ |
+| Jingle Quiz | `controllo_jingle.py` con `quiz.wav` del kit: Q1–Q6 scarto +0,004 s, **tutti OK** (il controllo ha anche intercettato un disallineamento dell'audio dei pezzi senza il prof, causato dalla timeline sbagliata: corretto) |
+| Transizioni | `trans.wav` + dissolvenza da/verso il bianco di 0,3 s a ogni cambio di pezzo; nelle code mute delle schede (titoli, quiz, mappa, verifica, compiti) un sottofondo morbido (accordo a −37 dB) perché nessuna scheda resti in silenzio |
+| Controllo severo (`controllo_severo.py`) | **ESITO OK, zero errori** (terza esecuzione). Copertina da 0:15 per 90 s (≤ 180 s), titolo esatto presente; nessuna slide con lo stesso titolo oltre 3 min; nessuna schermata identica oltre 3 min; nessuna card con «…»; nessun tratto con una card sola oltre 60 s; loudness -16.9 LUFS; pause oltre 2,5 s: 0; voce: tono [152, 156, 164, 156, 160, 152] Hz, chiarezza [1316, 1333, 1207, 1283, 1281, 1351] Hz (nessuna alterazione). Il controllo segnala 30 campioni «iniziale minuscola»: sono letture OCR che perdono l'«Il» davanti a «tema»; ho verificato nei sorgenti delle slide (358 card) che **ogni card inizia con la maiuscola** (eccetto le 6 righe del riepilogo finale, che cominciano con il numero) e a vista su un campione. Prime due esecuzioni: RESPINTA (7 tratti con card sola: le card attenuate al 50% non si leggevano; 15 pause oltre 2,5 s nelle code mute di titoli, quiz, mappa, verifica e compiti) → card attenuate all'80%, sottofondo morbido nelle code mute, numerazione relativa 1–2 nelle finestre di «Ed è subito sera: l'analisi». |
 
 ## 3. Confronto col modello (punto 000)
 Riquadro 4:3 (412×309 a x=1428, y=148, ombra grigia), fascia gialla −3° a due righe, fondo bianco puro, Bricolage 800 + Figtree, ombre grigie, schede di titolo/quiz/riepilogo bianche come nel modello Spagnolo, finale del kit con avviso diritti, struttura sigla → copertina → 6 argomenti (titolo con jingle, prof con slide, approfondimento, ripasso con jingle, schema, quiz) → mappa → glossario → riepilogo → verifica → fine → finale → compiti. **Compiti del prof** (4 esercizi) e **verifica di sbarramento** con le 10 domande dell'Excel del prof dentro il video.
