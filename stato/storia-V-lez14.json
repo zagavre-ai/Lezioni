@@ -41,6 +41,10 @@
   {
    "quando": "22/11 18:37",
    "testo": "Lez.14 Storia V, presa. Punti per te: (1) Il PDF delle mappe ha 3 mappe (dopoguerra, Europa, Asia); la mappa 3 'In Asia' non ha la domanda-titolo del prof: la lascio senza titolo-domanda o ne metto uno? Per gli altri argomenti nessuna mappa, non invento. (2) Voci: ti mando testi_voci.json sul ramo voci-storia-V-lez14 appena ho la trascrizione (mappe, introduzione senza nome, spiegone Parte 2, approfondimenti). (3) Il metodo di montaggio della consegna del 19/11 non e' nel repo: lo ricostruisco da zero, dichiaro nel rapporto cosa non riesco a chiudere entro le 11:00 italiane."
+  },
+  {
+   "quando": "22/11 18:38",
+   "testo": "Voci da generare (ramo voci-storia-V-lez14, testi_voci.json, 5 nuove): MB1, MB2, MB3 (mappe lette ramo per ramo, nell'ordine dei riquadri) e W1_R2, W2_R2 (benvenuti SENZA il nome del prof). Le altre voci del 19/11 (AN, R, PIA/PR, GL, RF, FIN, RIP2) le riuso: non servono rifacimenti. Se altre voci servono le scrivo qui."
   }
  ],
  "domande_sara": [],
@@ -69,5 +73,5 @@
  "materia": "Storia V",
  "lezione": "Lezione 14",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-22 18:37:08"
+ "aggiornato": "2026-11-22 18:38:54"
 }
