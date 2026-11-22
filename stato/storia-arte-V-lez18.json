@@ -16,6 +16,10 @@
   {
    "quando": "22/11 23:00",
    "testo": "testi_voci.json caricato sul ramo voci-storia-arte-V-lez18 (22 voci: BENVENUTO, A1..A7_APPROF, A1..A7_RIPASSO, 3 mappe, GLOSSARIO, RIPASSO_FINALE, VERIFICA, COMPITI). Struttura: 7 argomenti; mappe del prof: Street Art dopo A4, Fotografia/Artistar/Archistar dopo A7 (e' una mappa unica che copre A5-A7), mappa generale come mappa finale. Domande-titolo delle mappe scritte da me con parole del prof. Refusi mappe: Graffity, Bansky, Cyndi. Quiz 35 domande da approvare."
+  },
+  {
+   "quando": "22/11 23:02",
+   "testo": "Sigla: nel kit non c'e' la sigla di Storia dell'arte (solo Sigla_Storia_15s con le date 1900-1968). Quale uso? Fino a vostra risposta monto con una sigla provvisoria e la sostituisco."
   }
  ],
  "domande_sara": [],
@@ -28,5 +32,5 @@
  "materia": "Storia dell'arte V",
  "lezione": "Lezione 18 · Postmodernità e globalizzazione",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-22 23:00:32"
+ "aggiornato": "2026-11-22 23:02:22"
 }
