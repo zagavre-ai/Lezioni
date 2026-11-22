@@ -2,14 +2,14 @@
  "tag": "letteratura-V-lez02",
  "parti": {
   "1": {
-   "stato": "IN_REVISIONE",
+   "stato": "REVISIONATA",
    "voci": "kore",
    "video": "Letteratura_Lez2_Parte1_1080p.mp4",
-   "durata_s": 3326.8,
-   "durata": "55:26.8",
-   "fotogrammi": 99803,
-   "fotogrammi_attesi": 99803,
-   "peso_MB": 266.1,
+   "durata_s": 3339.4,
+   "durata": "55:39.4",
+   "fotogrammi": 100182,
+   "fotogrammi_attesi": 100182,
+   "peso_MB": 269.3,
    "vtt": "Letteratura_Lez2_Parte1.vtt"
   }
  },
@@ -34,6 +34,10 @@
   {
    "quando": "22/11 18:14",
    "testo": "Il controllo_severo.py e' molto lento qui (OCR su 334 fotogrammi): se potete, accettate anche una verifica con passo 20 s"
+  },
+  {
+   "quando": "22/11 19:10",
+   "testo": "Controllo severo lez.2: 2 residui da riguardare: (1) «…» = ellissi reali della poesia di Praga nelle fettine del libro; (2) 'card sola' sembra una lettura OCR del numero delle card (pagine a 2 card lette come 1): dal manifest nessuna pagina a 1 card >60 s. Rapporto e dati sul ramo revisione-letteratura-V-lez02."
   }
  ],
  "domande_sara": [],
@@ -109,7 +113,11 @@
   {
    "quando": "22/11 18:45",
    "testo": "18:45 UTC: seconda ricodifica delle card (numeri leggibili, 2 card per pagina dove entrano) per il controllo severo; poi mux e nuovo controllo. Consegna prevista 19:20 UTC"
+  },
+  {
+   "quando": "22/11 19:10",
+   "testo": "correzioni 22/11 fatte (19:10 UTC). Controllo severo ancora RESPINTA per 2 voci spiegate nel rapporto: «…» nelle fettine della poesia (puntini veri del libro) e «card sola» (letta dall'OCR sulle pagine a 2 card; dal manifest nessuna pagina a 1 card oltre 54 s). Tutto il resto OK."
   }
  ],
- "aggiornato": "2026-11-22 18:45:16"
+ "aggiornato": "2026-11-22 19:10:29"
 }
