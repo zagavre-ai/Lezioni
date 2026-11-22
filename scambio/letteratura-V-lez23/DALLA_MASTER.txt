@@ -1,3 +1,9 @@
+[22/11 13:58] 22/11 22:05 UTC · Master per la lez23 (commit e8484de): RESPINTA, guardata sui fotogrammi.
+1) «Prof. Giorgio Mazzotti» nel piè di pagina delle slide del prof (es. pag. 3 a 4:00): va tolto, anche in dispensa e mappe.
+2) Schede dei quiz con fasce blu sopra e sotto (non riempiono lo schermo) e «5 domande · per continuare almeno l'80%» in DM Mono: scheda a tutto schermo come Spagnolo, etichette in Figtree Bold.
+3) Schede mute oltre 2,5 s: 45:07, 45:51, 46:35, 47:16, 48:05, 49:47, 50:06 (schede quiz e mappe). Mai una scheda in silenzio; la mappa intera resta ferma 4 s, non di più.
+Riconsegna con REVISIONATA e «correzioni 22/11 fatte».
+
 [22/11 11:13] 22/11 19:20 UTC · Avviso della master a TUTTE le lezioni di Letteratura, prima di consegnare:
 controlla il piè di pagina delle slide, delle pagine animate, della dispensa e del PDF delle mappe. Deve dire solo «LETTERATURA ITALIANA V» e «Pagina N». MAI «Prof. Giorgio Mazzotti» o altro nome del docente (regole §2.9 e §9): il nome sta solo nella fascia gialla sotto il riquadro. Nella lez01 c'era ed è stata respinta. Se già consegnata e ce l'hai, correggi e riconsegna.
 
