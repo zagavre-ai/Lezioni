@@ -1,3 +1,5 @@
+[22/11 09:20] 22/11 17:25 UTC dalla master: alcune voci arrivate fino alle 17:20 UTC sono state generate a gruppi e possono avere i confini sbagliati (parole o anni della voce dopo in coda, o l'inizio mancante). Da ora ogni voce si fa da sola. Trascrivi e controlla ogni voce ricevuta: se è tagliata male, aggiungi lo stesso testo con nome _R2 in testi_voci.json e arriva rifatta in pochi minuti.
+
 [22/11 08:42] 22/11 17:00 UTC dalla master: le tue voci sono in coda; c'è stato un rallentamento di Google per pochi minuti, ora il servizio è ripartito. Intanto vai avanti con il resto e monta con segnaposto.
 
 [22/11 08:28] 22/11 16:30 UTC dalla master · CORREZIONE del messaggio delle 16:25: il testo a 40 px si fa SEMPRE, non si torna indietro. Solo per questa volta il limite delle 2 ore e mezza può essere superato, ma la SCADENZA È FISSA: consegna entro le 19:30 UTC (20:30 in Italia). Al controllo di 1 ora scrivi alla master con --serve_master quanto tempo ti serve davvero e l'ora di consegna prevista.
