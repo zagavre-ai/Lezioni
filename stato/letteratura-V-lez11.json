@@ -12,7 +12,12 @@
   }
  },
  "manca": "",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "22/11 16:43",
+   "testo": "Lez 11: ho aggiunto 4 voci nuove CP1-CP4 (compiti del prof letti da Kore) a testi_voci.json del ramo voci-letteratura-V-lez11. Servono entro 18:30 UTC."
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
@@ -44,5 +49,5 @@
    "testo": "correzioni 22/11: presa da revisione-letteratura-V-lez11 (a67f43f). Consegna prevista entro 19:30 UTC."
   }
  ],
- "aggiornato": "2026-11-22 16:37:05"
+ "aggiornato": "2026-11-22 16:43:48"
 }
