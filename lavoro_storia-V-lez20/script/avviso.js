@@ -1,0 +1,1 @@
+const {chromium}=require('playwright');(async()=>{const b=await chromium.launch();const p=await b.newPage({viewport:{width:1920,height:1080}});await p.goto('file:///tmp/w/b/h/avviso.html');await p.evaluate(()=>document.fonts.ready);await p.screenshot({path:'/tmp/w/b/assets/avviso.png',omitBackground:true});await b.close()})()

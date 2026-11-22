@@ -1,0 +1,1 @@
+Script di montaggio di Storia V lez20 (22/11): rigenerano pezzi, mappe, dispensa, sottotitoli. Ordine: chunks_build.py, run.py 1 / run.py 2, final.py N, sub.py N, dispensa.py N, mappe_pdf.py, rapporto.py. Percorsi di lavoro in /tmp/w (non nel repository).
