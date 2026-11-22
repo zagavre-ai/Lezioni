@@ -7,9 +7,9 @@
    "video": "finale.mp4",
    "durata_s": 2745.4,
    "durata": "45:45.4",
-   "fotogrammi": 82363,
-   "fotogrammi_attesi": 82363,
-   "peso_MB": 327.3,
+   "fotogrammi": 82362,
+   "fotogrammi_attesi": 82362,
+   "peso_MB": 307.3,
    "vtt": "Letteratura_Lez14_Parte1.vtt"
   }
  },
@@ -69,7 +69,11 @@
   {
    "quando": "22/11 18:07",
    "testo": "correzioni 22/11 (18:10 UTC): agente indipendente ha trovato: 3 tagli a meta' frase, card gialle in anticipo/ritardo (fino a 26 s), schermate ferme >180 s, animazioni con >3 card, nome prof nel piede delle animazioni. Sto correggendo tagli, accensione card (evento sulle parole), 3 card max e piede nelle animazioni. Consegna fino alle 19:30 UTC. Restano non fatti: mappa BES con voce, 'gia visto', schermate ferme su card lunga."
+  },
+  {
+   "quando": "22/11 18:47",
+   "testo": "correzioni 22/11 consegna (18:50 UTC) sul ramo revisione-letteratura-V-lez14. NON conforme a tutte le regole: mappa BES con voce non rifatta, schermate ferme >180 s, 'gia visto', controllo severo non terminato. Vedi RAPPORTO sez. 4-5. Stato NON REVISIONATA."
   }
  ],
- "aggiornato": "2026-11-22 18:07:25"
+ "aggiornato": "2026-11-22 18:47:50"
 }
