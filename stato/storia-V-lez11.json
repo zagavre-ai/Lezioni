@@ -1,7 +1,7 @@
 {
  "tag": "storia-V-lez11",
  "parti": {},
- "manca": "",
+ "manca": "schede blu in rendering (circa 40 min), assemblaggio, codifica, controlli; voci nuove della master (BENV1_R2, MP1, MP23, MP4, COMP1, COMP2) da montare al posto delle provvisorie",
  "serve_master": [
   {
    "quando": "22/11 18:40",
@@ -17,7 +17,11 @@
   {
    "quando": "22/11 18:34",
    "testo": "correzioni 22/11: presa da claude/gifted-fermi-uzdgf8"
+  },
+  {
+   "quando": "22/11 19:32",
+   "testo": "correzioni 22/11 19:35 UTC: pezzi del prof (slide 40px, finestre, riquadro 4:3), approfondimenti, schemi, glossario, compiti, 3 mappe del prof BES, dispensa e PDF mappe fatti; resta assemblaggio e controlli"
   }
  ],
- "aggiornato": "2026-11-22 18:41:23"
+ "aggiornato": "2026-11-22 19:32:03"
 }
