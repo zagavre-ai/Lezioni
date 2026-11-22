@@ -8,7 +8,7 @@
    "stato": "REVISIONATA"
   }
  },
- "manca": "montaggio Parte 1 e 2, voci nuove, dispensa, mappe PDF, sottotitoli, controlli",
+ "manca": "montaggio P1 e P2, voci nuove (09:00 italiane), sostituzione voci, dispensa, PDF mappe, sottotitoli, controllo severo, controllo agente separato",
  "serve_master": [
   {
    "quando": "19/11 00:12",
@@ -60,9 +60,13 @@
   {
    "quando": "22/11 19:03",
    "testo": "ore 19:30: scaricato originale, trascritto (715 segmenti), piano di taglio deciso, strumenti slide/mappe pronti; voci nuove richieste (A2N + MP* + BENV1_R2 + RIP2A) su voci-storia-V-lez19. Ora: montaggio con voci provvisorie."
+  },
+  {
+   "quando": "22/11 19:51",
+   "testo": "ore 20:00 UTC: pipeline di montaggio funzionante (slide a 40 px a finestra, mappe BES ramo per ramo, scene Kore, ponte con trans.wav); Parte 1 in costruzione con voci provvisorie (silenzio per le 18 voci nuove). Piano taglio: intro del prof sulla copertina 177 s, poi 3 slide 'Di cosa parliamo'. Mappe del prof: 3 (arg. 3, 4, 7); arg. 1, 2, 5, 6, 8 senza mappa -> pillola. Mappa 3 senza domanda: ho scritto 'Come cambia il quadro politico negli anni Novanta?'."
   }
  ],
  "materia": "storia-V",
  "lezione": "19",
- "aggiornato": "2026-11-22 19:03:03"
+ "aggiornato": "2026-11-22 19:51:17"
 }
