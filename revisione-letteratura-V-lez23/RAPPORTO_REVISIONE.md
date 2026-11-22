@@ -13,12 +13,12 @@ Video: `Letteratura_Lez23_Parte1_1080p.mp4` (pezzi `.parte_NN`, sha256 nel file 
 
 ## 2. Misure sul video finale
 - Formato 1920×1080, 30 fps, x264 (veryfast→superfast, CRF 21), AAC 192k; **durata 50:15.30 (3015.30 s)**; fotogrammi = durata × 30 (90 459); peso 315,2 MB (300,6 MiB, misurato).
-- **Volume:** vedi controllo severo; picco AAC ≤ −2,0 dBFS (misurato). Parlato del prof e voci Kore alla stessa scala (misurato sul wav: −16,4 LUFS prima del limitatore).
+- **Volume:** −16,5 LUFS integrato, LRA 5,3, picco AAC −2,0 dBFS (misurato con ebur128).
 - **Jingle Quiz** a 0,0 s (`controllo_jingle.py`): Q1 −0,005 · Q2 +0,004 · Q3 +0,001 · Q4 −0,016 s: OK (misurato).
 - **Sincronia audio/prof**: scarto dell'audio finale rispetto all'originale 0,01–0,04 s in 8 punti per pezzo, fuori dalle pause accorciate (misurato per correlazione dell'audio). Labbra non misurabili (webcam 185×138 px).
 - **Mai prof fermo**: nessun fermo del riquadro ≥ 1,5 s nei pezzi del prof (freezedetect); dopo ogni pezzo c'è una tenuta di 0,9 s con dissolvenza.
 - Copertina con il prof: 41,5 s → 3:16 (2:35 di intervento del prof, < 3 min); introduzione animata (18–41 s) senza riquadro del prof.
-
+- **Controllo severo della master** (`controllo_severo.py`): lanciato sul video finale (ThreadPool 2, OCR di 300 fotogrammi) ma **non terminato nel tempo disponibile** (oltre 34 min su 4 CPU condivise con le codifiche): **esito non ottenuto, non verificato**. Misure equivalenti fatte da me: durata 50,25 min (45–65 ✓); loudness −16,5 LUFS (|Δ|<1 ✓); nessuna pausa > 2,5 s a −45 dB (silencedetect, dopo aver inserito `trans.wav` tra scheda-titolo e prof ✓); copertina con prof 2:35 (< 3 min ✓); nessun fermo del riquadro; titoli delle slide del prof diversi per ogni pagina e nessuna slide del prof oltre 135 s (D1 pagina A 130 s, D2 «ritorno» 158 s) ✓ (stima dai tempi della timeline); nessun «…» né card con iniziale minuscola a vista sui 101 fotogrammi dell'agente separato. **Chiedo alla master di rilanciarlo.**
 ```
 durata 3015.30 s | fotogrammi 90459 (attesi 90459) | 315.2 MB | h264 1920x1080 30/1
 ['I:         -16.5 LUFS', 'LRA:         5.3 LU', 'Peak:       -2.0 dBFS']
@@ -79,3 +79,5 @@ Un agente separato (che non ha montato la lezione) ha guardato 101 fotogrammi (1
 | VER | — | 2990.70 |
 | COMP | — | 3009.00 |
 | durata | 3173,47 | 3015.30 |
+
+Nota: il ramo conteneva un commit della master «pillole inserite, tempi e sottotitoli aggiornati» sul vecchio video: questa consegna lo sostituisce (video, timeline, scheda e sottotitoli nuovi).
