@@ -52,7 +52,8 @@
     ],
     "e": "Una prosa lirica e una profonda indagine dell'interiorità."
    }
-  ]
+  ],
+  "t_s": 641.7
  },
  "Q2": {
   "title": "Quiz 2 · I primi successi e Menzogna e sortilegio",
@@ -107,7 +108,8 @@
     ],
     "e": "L'intervento confluisce nel volume Pro o contro la bomba atomica."
    }
-  ]
+  ],
+  "t_s": 1208.2
  },
  "Q3": {
   "title": "Quiz 3 · L'isola di Arturo",
@@ -162,7 +164,8 @@
     ],
     "e": "La visione di Arturo trasforma la realtà in un clima di sogno."
    }
-  ]
+  ],
+  "t_s": 1859.1
  },
  "Q4": {
   "title": "Quiz 4 · La storia",
@@ -217,7 +220,8 @@
     ],
     "e": "Grande successo di pubblico, ma la critica si divide."
    }
-  ]
+  ],
+  "t_s": 2381.333
  },
  "Q5": {
   "title": "Quiz 5 · Aracoeli, l'ultimo romanzo",
@@ -272,6 +276,7 @@
     ],
     "e": "Conferma i temi familiari e la ricerca di nuove strade."
    }
-  ]
+  ],
+  "t_s": 2713.733
  }
 }

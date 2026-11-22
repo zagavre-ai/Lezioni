@@ -446,7 +446,16 @@
   }
  },
  "manca": "",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "22/11 17:09",
+   "testo": "Lez22: servono le voci RB01 (introduzione senza nome del prof) e RB02 (mappa unica, 193 parole) nel ramo voci-letteratura-V-lez22, testi_voci.json pushato alle 17:40 circa. Senza RB02 non posso montare la mappa: se entro le 19:00 non arrivano consegno con le voci vecchie MM per la mappa e lo dico nel rapporto. Grazie."
+  },
+  {
+   "quando": "22/11 19:05",
+   "testo": "Lez22: il controllo severo sul video finale dava un solo errore (pause >2,5 s); l'ho corretto e sto riassemblando: consegna prevista 20:40 invece di 20:30 per poter rilanciare il controllo severo di conferma."
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
@@ -488,7 +497,35 @@
   {
    "quando": "17/11 17:51",
    "testo": "v2 REVISIONATA: 51:38,6, 92957 fotogrammi, 291 MB, -16,4 LUFS, picco -1,5 dBTP; sync prof audio 0,0001 s / video 0 fotogrammi; jingle quiz 0,000 s; transizioni 0,8 s; nessun silenzio >3 s; voci Aracèli RA01-RA09. Secondi vecchio->nuovo nel rapporto. Non ascoltato: vedi sez. 5"
+  },
+  {
+   "quando": "22/11 16:35",
+   "testo": "correzioni 22/11: presa da revisione-letteratura-V-lez22. Consegna prevista 20:15 (ora italiana)"
+  },
+  {
+   "quando": "22/11 16:46",
+   "testo": "correzioni 22/11 - 30 min: FATTO: regole lette; mappa BES disegnata (colori+legenda, 6 riquadri ramo per ramo); slide con testo 40 px, max 3 card, p. >180 s divisa; voci richieste alla master (RB01 introduzione senza nome del prof, RB02 mappa unica); timbro voce prof -14,7 dB (ok). IN CORSO: rimontaggio slide. MANCA: montaggio intro+mappa (aspetto voci), pdf con testo, vtt/timeline/scheda, controllo severo e agente separato. Consegna prevista 20:15 (ora italiana)"
+  },
+  {
+   "quando": "22/11 17:09",
+   "testo": "correzioni 22/11 - 50 min: slide rimontate (D1-D4 fatti); attendo voci RB01/RB02 dalla master"
+  },
+  {
+   "quando": "22/11 17:38",
+   "testo": "correzioni 22/11 - 1h05: FATTO: slide con testo 40 px e max 3 card, mappa BES unica prima del glossario, introduzione senza riquadro e senza nome (voce RB01 attesa dalla master; intanto montata la voce vecchia con la frase del nome tagliata), pdf con testo selezionabile pronti. IN CORSO: codifica di tutti i pezzi (30 min), poi assemblaggio, sottotitoli, controllo severo. Voce mappa RB02 attesa: provvisoria la voce MMF. Consegna prevista 20:15 (ora italiana)"
+  },
+  {
+   "quando": "22/11 18:08",
+   "testo": "correzioni 22/11 - 1h30: voci RB01 e RB02 ricevute e verificate (bordi<0,03, testo ok); tutti i pezzi ricodificati; ora assemblaggio, audio, pdf con testo. Poi trascrizione, sottotitoli, controllo severo, agente separato. Consegna prevista 20:15 (ora italiana)"
+  },
+  {
+   "quando": "22/11 18:33",
+   "testo": "correzioni 22/11 - 2h: controllo severo sul primo montaggio: 2 errori (una slide con 2 card per 163 s; silenzio di 4,3 s a fine mappa + 2,7 s a fine Verifica): corretti (slide a 3 card, jingle a fine mappa, Verifica accorciata). In corso: ricodifica delle slide dopo il 2º argomento, poi assemblaggio, sottotitoli, rapporto. Consegna prevista 20:25 (ora italiana)"
+  },
+  {
+   "quando": "22/11 19:05",
+   "testo": "correzioni 22/11 - 2h30: controllo severo: unico errore rimasto 'pause >2,5 s' (fine mappa e una pausa del prof a 24:23): corretti; sto ricodificando il pezzo D3 e riassemblando (15 min), poi controllo severo di conferma e consegna. Rischio: consegna 20:40 circa (10 min oltre la scadenza per il controllo severo di conferma)."
   }
  ],
- "aggiornato": "2026-11-17 17:51:40"
+ "aggiornato": "2026-11-22 19:05:47"
 }
