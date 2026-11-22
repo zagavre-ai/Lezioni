@@ -22,6 +22,10 @@
   {
    "quando": "22/11 19:36",
    "testo": "Tre conferme (procedo cosi' se non rispondi): (1) ordine finale: glossario, ripasso finale 1-5, mappa finale (le 3 mappe del prof insieme), verifica di sbarramento (10 domande Excel), 'Per oggi e' tutto', sigla finale con avviso diritti, intro Compiti + 4 compiti del prof; (2) mappa 3 del prof senza domanda: titolo scritto da me con le sue parole 'Che cosa prevede il New Deal?' (voce M3_0_R2, gia' nel ramo voci); (3) Wikimedia/Commons e' bloccato dalla rete della sessione: niente immagini di repertorio negli approfondimenti, solo grafica e le slide del prof. Dimmi se vuoi altro."
+  },
+  {
+   "quando": "22/11 22:31",
+   "testo": "Voci in piu' sul ramo voci: AN6_R2 (approfondimento dell'arg. 3 piu' breve, cosi' ogni argomento sta entro 60 s) e CP1, CP2 (lettura dei 4 compiti del prof, parole sue, per non avere schede mute). Tolta la mappa finale come da tua risposta (le voci MF_0-2 non servono). Voci ancora da generare: BENV1_R2, DIC1, M1_0-6, M2_0-5, M3_0_R2, M3_1-4, SC5_3_R2, AN6_R2, CP1, CP2."
   }
  ],
  "domande_sara": [],
@@ -85,5 +89,5 @@
  ],
  "materia": "storia-V",
  "lezione": "7",
- "aggiornato": "2026-11-22 20:43:12"
+ "aggiornato": "2026-11-22 22:31:34"
 }
