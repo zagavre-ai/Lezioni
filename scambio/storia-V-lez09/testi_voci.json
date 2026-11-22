@@ -698,5 +698,169 @@
   "nome": "RV2",
   "testo": "Il primo documento era un trattato internazionale tra Santa Sede e Italia, che riconosceva la sovranità del Papa sul nuovo Stato della Città del Vaticano.",
   "lingua": "it"
+ },
+ {
+  "nome": "INTRO1_R2",
+  "testo": "Benvenuti alla videolezione di Storia: l'Italia del regime fascista, dal millenovecentoventicinque al millenovecentotrentotto."
+ },
+ {
+  "nome": "DP1",
+  "testo": "Di cosa parliamo. In questa prima parte vediamo la svolta autoritaria del millenovecentoventicinque, la fascistizzazione dello Stato, il consolidamento del potere, la gioventù e la scuola. Alla fine di ogni argomento troverai un ripasso e un quiz di cinque domande."
+ },
+ {
+  "nome": "DP2",
+  "testo": "Di cosa parliamo. In questa seconda parte vediamo i media e i Patti Lateranensi, la politica economica e il corporativismo, Quota novanta e l'autarchia, il ruolo della donna e la demografia, e infine l'impero e le Leggi Razziali. Alla fine di ogni argomento troverai un ripasso e un quiz di cinque domande."
+ },
+ {
+  "nome": "AP2_2_R2",
+  "testo": "Eppure a Ventotene c'era anche il mare: non era come stare in un penitenziario, anche se le restrizioni restavano dure."
+ },
+ {
+  "nome": "AP6_1_R2",
+  "testo": "Il fascismo, nato anticlericale, divenne un regime autoritario e conservatore. La questione romana fu risolta attraverso tre documenti, e l'accordo fu piuttosto svantaggioso per l'Italia."
+ },
+ {
+  "nome": "SP2_0",
+  "testo": "Prima di cominciare la seconda parte, ripassiamo insieme quello che abbiamo visto nella prima, argomento per argomento."
+ },
+ {
+  "nome": "SP2_1",
+  "testo": "Primo argomento: la svolta autoritaria. Il tre gennaio del millenovecentoventicinque Mussolini si assume la responsabilità del delitto Matteotti: finisce lo Stato liberale e comincia la dittatura. Con le Leggi Fascistissime, ideate dal ministro Alfredo Rocco, Mussolini diventa Capo del Governo e risponde solo al Re."
+ },
+ {
+  "nome": "SP2_2",
+  "testo": "Secondo argomento: la fascistizzazione dello Stato. I sindaci sono sostituiti dai podestà, di nomina governativa. Vengono abolite le libertà civili e la libertà di stampa. Nascono il Tribunale speciale e l'OVRA, la polizia segreta. Gli oppositori sono arrestati o mandati al confino, per esempio a Ventotene. Ecco la mappa: come viene istituita la dittatura fascista?"
+ },
+ {
+  "nome": "SP2_3",
+  "testo": "Terzo argomento: il consolidamento del potere. È una dittatura a partito unico, con il fascio littorio come emblema dello Stato. Il Gran Consiglio compila la lista unica dei candidati e, nel millenovecentoventotto, si vota con un plebiscito su una lista fissa di quattrocento deputati."
+ },
+ {
+  "nome": "SP2_4",
+  "testo": "Quarto argomento: la gioventù. L'Opera Nazionale Dopolavoro, istituita nel millenovecentoventicinque, organizza il tempo libero degli adulti. L'Opera Nazionale Balilla inquadra i giovani dai sei ai diciotto anni. Il sabato fascista serve all'addestramento militare, e i Gruppi Universitari Fascisti controllano gli studenti universitari."
+ },
+ {
+  "nome": "SP2_5",
+  "testo": "Quinto argomento: la scuola. La Riforma Gentile, del millenovecentoventitré, estende l'obbligo scolastico a quattordici anni, ma la scuola resta gerarchica. Il liceo classico è la scuola dell'élite, mentre gli istituti tecnici e magistrali sono per la piccola borghesia e per le ragazze. Dal millenovecentoventotto c'è il libro di testo unico."
+ },
+ {
+  "nome": "MAP_M1a_1",
+  "testo": "Il fascismo."
+ },
+ {
+  "nome": "MAP_M1a_2",
+  "testo": "Con le leggi fascistissime, del millenovecentoventicinque, millenovecentoventisei."
+ },
+ {
+  "nome": "MAP_M1a_3",
+  "testo": "Le leggi fascistissime istituiscono il capo del governo."
+ },
+ {
+  "nome": "MAP_M1a_4",
+  "testo": "Il capo del governo può emanare leggi per decreto."
+ },
+ {
+  "nome": "MAP_M1a_5",
+  "testo": "E abolisce le autonomie locali."
+ },
+ {
+  "nome": "MAP_M1a_6",
+  "testo": "Con l’istituzione dei podestà."
+ },
+ {
+  "nome": "MAP_M1b_1",
+  "testo": "Il fascismo."
+ },
+ {
+  "nome": "MAP_M1b_2",
+  "testo": "Adotta un apparato repressivo."
+ },
+ {
+  "nome": "MAP_M1b_3",
+  "testo": "Con l’OVRA."
+ },
+ {
+  "nome": "MAP_M1b_4",
+  "testo": "Il Tribunale speciale per la sicurezza dello Stato."
+ },
+ {
+  "nome": "MAP_M1b_5",
+  "testo": "E il confino."
+ },
+ {
+  "nome": "MAP_M2_1",
+  "testo": "Il progetto totalitario del fascismo."
+ },
+ {
+  "nome": "MAP_M2_2",
+  "testo": "Prevede la trasformazione delle masse."
+ },
+ {
+  "nome": "MAP_M2_3",
+  "testo": "Attraverso le attività ricreative e culturali."
+ },
+ {
+  "nome": "MAP_M2_4",
+  "testo": "L’inquadramento dei giovani."
+ },
+ {
+  "nome": "MAP_M2_5",
+  "testo": "Il controllo della scuola."
+ },
+ {
+  "nome": "MAP_M2_6",
+  "testo": "E il controllo di radio e cinema."
+ },
+ {
+  "nome": "MAP_M3_1",
+  "testo": "La politica economica del fascismo."
+ },
+ {
+  "nome": "MAP_M3_2",
+  "testo": "Prevede l’organizzazione corporativa del mondo del lavoro."
+ },
+ {
+  "nome": "MAP_M3_3",
+  "testo": "Dopo la crisi del millenovecentoventinove."
+ },
+ {
+  "nome": "MAP_M3_4",
+  "testo": "Istituisce l’IMI e l’IRI."
+ },
+ {
+  "nome": "MAP_M3_5",
+  "testo": "Dopo le sanzioni della Società delle Nazioni."
+ },
+ {
+  "nome": "MAP_M3_6",
+  "testo": "Adotta l’autarchia."
+ },
+ {
+  "nome": "MAP_M4_1",
+  "testo": "La politica del fascismo."
+ },
+ {
+  "nome": "MAP_M4_2",
+  "testo": "In campo internazionale."
+ },
+ {
+  "nome": "MAP_M4_3",
+  "testo": "Cambia dopo l’aggressione all’Etiopia, del millenovecentotrentacinque, millenovecentotrentasei."
+ },
+ {
+  "nome": "MAP_M4_4",
+  "testo": "E porta all’Asse Roma-Berlino, del millenovecentotrentasei."
+ },
+ {
+  "nome": "MAP_M4_5",
+  "testo": "In campo razziale."
+ },
+ {
+  "nome": "MAP_M4_6",
+  "testo": "Porta a leggi contro le unioni miste."
+ },
+ {
+  "nome": "MAP_M4_7",
+  "testo": "E alle leggi razziali contro gli ebrei, del millenovecentotrentotto."
  }
 ]
