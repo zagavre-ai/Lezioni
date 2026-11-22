@@ -19,6 +19,10 @@
   {
    "quando": "22/11 18:54",
    "testo": "Lez 15 controllo voci: aggiunte _R2 in testi_voci.json per 11 voci da rifare: GL1 (il file e' il glossario intero di 33 s, non la sola riga), SC6_1 e AN7/AN8/AN9 (troncate: ampiezza finale 0,10-0,23), PI3, SC10_1, GL3, GL4, GL7, AN5 (bordo finale 0,03-0,07). Da questa lez tutte le altre (115) trascritte e confrontate: ok. In piu' servono le voci nuove BEN_R2, DP, CPT1-4 gia' inviate."
+  },
+  {
+   "quando": "22/11 22:19",
+   "testo": "Lez 15: aggiunte in testi_voci.json 5 voci _R3 (SC7_2, SC8_2, SC10_4, AN15, AN20) con le sigle ANC/ONU rispiegate a voce (regola BES), e GL4_R2 con l'anno in lettere. Totale voci da fare per me: BEN_R2, DP, CPT1-4, 11 _R2, 5 _R3. Le sigle delle slide del prof (USA, URSS, ONU, FLN, ANC) le espando sullo schermo tra parentesi; il prof a voce non le spiega e non si tocca: lo scrivo nel rapporto."
   }
  ],
  "domande_sara": [],
@@ -36,5 +40,5 @@
    "testo": "22/11 22:00 UTC: video completo 61:16 con voci provvisorie solo per BEN_R2, DP, CPT1-4 (e 11 voci da rifare: usate le vecchie). controllo_severo.py ESITO OK; controllo_finale TUTTO OK (jingle 0,0 s, sottotitoli 100%); dispensa 60 pag con testo invisibile. In corso: controllo agente separato. Appena arrivano le voci rifaccio montaggio e consegno su revisione-storia-V-lez15."
   }
  ],
- "aggiornato": "2026-11-22 21:53:41"
+ "aggiornato": "2026-11-22 22:19:50"
 }
