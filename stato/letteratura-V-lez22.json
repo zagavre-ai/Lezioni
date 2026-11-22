@@ -488,7 +488,11 @@
   {
    "quando": "17/11 17:51",
    "testo": "v2 REVISIONATA: 51:38,6, 92957 fotogrammi, 291 MB, -16,4 LUFS, picco -1,5 dBTP; sync prof audio 0,0001 s / video 0 fotogrammi; jingle quiz 0,000 s; transizioni 0,8 s; nessun silenzio >3 s; voci Aracèli RA01-RA09. Secondi vecchio->nuovo nel rapporto. Non ascoltato: vedi sez. 5"
+  },
+  {
+   "quando": "22/11 16:35",
+   "testo": "correzioni 22/11: presa da revisione-letteratura-V-lez22. Consegna prevista 20:15 (ora italiana)"
   }
  ],
- "aggiornato": "2026-11-17 17:51:40"
+ "aggiornato": "2026-11-22 16:35:25"
 }
