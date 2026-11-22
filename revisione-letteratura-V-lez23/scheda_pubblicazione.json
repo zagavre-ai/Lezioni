@@ -1,31 +1,31 @@
 {
  "materia": "Letteratura italiana (V)",
  "titolo": "Letteratura V · Lezione 23 · Primo Levi",
- "durata_s": 3173.46,
+ "durata_s": 3015.3,
  "argomenti": [
   {
    "n": 1,
    "titolo": "La vita e la formazione",
-   "inizio_s": 197.4,
-   "quiz_s": 761.054
+   "inizio_s": 193.04,
+   "quiz_s": 684.677
   },
   {
    "n": 2,
    "titolo": "La sopravvivenza nel Lager",
-   "inizio_s": 765.154,
-   "quiz_s": 1446.821
+   "inizio_s": 688.777,
+   "quiz_s": 1287.691
   },
   {
    "n": 3,
    "titolo": "Se questo è un uomo",
-   "inizio_s": 1450.921,
-   "quiz_s": 2197.588
+   "inizio_s": 1291.791,
+   "quiz_s": 1837.551
   },
   {
    "n": 4,
    "titolo": "La tregua",
-   "inizio_s": 2201.688,
-   "quiz_s": 2964.724
+   "inizio_s": 1841.651,
+   "quiz_s": 2705.238
   }
  ],
  "quiz": {
@@ -83,7 +83,7 @@
      "e": "In quanto ebreo, viene deportato nel campo di sterminio di Auschwitz."
     }
    ],
-   "t": 761.054
+   "t": 684.677
   },
   "Q2": {
    "title": "Quiz 2 · La sopravvivenza nel Lager",
@@ -139,7 +139,7 @@
      "e": "Il 27 gennaio è oggi assunto come Giorno della Memoria."
     }
    ],
-   "t": 1446.821
+   "t": 1287.691
   },
   "Q3": {
    "title": "Quiz 3 · Se questo è un uomo",
@@ -195,7 +195,7 @@
      "e": "La narrazione è priva di emotività e di retorica: uno stile preciso, sobrio ed essenziale."
     }
    ],
-   "t": 2197.588
+   "t": 1837.551
   },
   "Q4": {
    "title": "Quiz 4 · La tregua",
@@ -251,121 +251,121 @@
      "e": "La tregua è una parentesi faticosa prima di un futuro oscuro, dominato da ferite che non si rimargineranno."
     }
    ],
-   "t": 2964.724
+   "t": 2705.238
   }
  },
- "t_verifica": 3148.858,
- "t_compiti": 3167.158,
+ "t_verifica": 2990.704,
+ "t_compiti": 3009.004,
  "approfondimenti": [
   {
    "id": "AN1",
    "titolo": "La vita di Primo Levi",
-   "inizio_s": 376.22
+   "inizio_s": 378.544
   },
   {
    "id": "AN2",
    "titolo": "Il contesto storico di Levi",
-   "inizio_s": 483.221
+   "inizio_s": 485.544
   },
   {
    "id": "AN3",
    "titolo": "Parole chiave del primo argomento",
-   "inizio_s": 561.421
-  },
-  {
-   "id": "AN4",
-   "titolo": "Primo Levi",
-   "inizio_s": 644.021
+   "inizio_s": 563.744
   },
   {
    "id": "AN5",
    "titolo": "Come sopravvive Levi",
-   "inizio_s": 1019.254
+   "inizio_s": 946.757
   },
   {
    "id": "AN6",
    "titolo": "Dalla liberazione al ritorno",
-   "inizio_s": 1106.454
+   "inizio_s": 1033.957
   },
   {
    "id": "AN7",
    "titolo": "Il tormento di non essere creduto",
-   "inizio_s": 1172.154
+   "inizio_s": 1099.658
   },
   {
    "id": "AN8",
    "titolo": "Due vite: il chimico e lo scrittore",
-   "inizio_s": 1238.455
-  },
-  {
-   "id": "AN9",
-   "titolo": "La sopravvivenza",
-   "inizio_s": 1327.055
+   "inizio_s": 1165.958
   },
   {
    "id": "AN10",
    "titolo": "Se questo è un uomo: la scheda",
-   "inizio_s": 1723.021
+   "inizio_s": 1437.485
   },
   {
    "id": "AN11",
    "titolo": "La macchina del Lager",
-   "inizio_s": 1791.121
+   "inizio_s": 1505.585
   },
   {
    "id": "AN12",
    "titolo": "I salvati e i sommersi",
-   "inizio_s": 1853.021
+   "inizio_s": 1567.485
   },
   {
    "id": "AN13",
    "titolo": "Lo stile di Se questo è un uomo",
-   "inizio_s": 1907.754
+   "inizio_s": 1622.218
   },
   {
    "id": "AN14",
    "titolo": "Parole chiave del terzo argomento",
-   "inizio_s": 1993.254
-  },
-  {
-   "id": "AN15",
-   "titolo": "Se questo è un uomo",
-   "inizio_s": 2069.254
+   "inizio_s": 1707.718
   },
   {
    "id": "AN16",
    "titolo": "La tregua: la scheda",
-   "inizio_s": 2423.458
+   "inizio_s": 2163.071
   },
   {
    "id": "AN17",
    "titolo": "Le due opere fondamentali a confronto",
-   "inizio_s": 2496.591
+   "inizio_s": 2236.204
   },
   {
    "id": "AN18",
    "titolo": "Dalla fantascienza alla chimica",
-   "inizio_s": 2559.291
+   "inizio_s": 2298.904
   },
   {
    "id": "AN19",
    "titolo": "Dalla Chiave a stella ai Sommersi e i salvati",
-   "inizio_s": 2649.291
+   "inizio_s": 2388.904
   },
   {
    "id": "AN20",
    "titolo": "Il sistema periodico: lettura guidata",
-   "inizio_s": 2766.091
+   "inizio_s": 2505.704
   },
   {
    "id": "AN21",
    "titolo": "Parole chiave dell'ultimo argomento",
-   "inizio_s": 2848.691
+   "inizio_s": 2588.304
   },
   {
-   "id": "ANF",
-   "titolo": "Primo Levi",
-   "inizio_s": 2968.824
+   "id": "MV",
+   "titolo": "Mappa · 1 di 4: la vita",
+   "inizio_s": 2709.338
+  },
+  {
+   "id": "MR",
+   "titolo": "Mappa · 2 di 4: il racconto nei Lager",
+   "inizio_s": 2756.618
+  },
+  {
+   "id": "MO1",
+   "titolo": "Mappa · 3 di 4: le opere (1)",
+   "inizio_s": 2800.858
+  },
+  {
+   "id": "MO2",
+   "titolo": "Mappa · 4 di 4: le opere (2)",
+   "inizio_s": 2841.871
   }
  ]
 }

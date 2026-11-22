@@ -1,105 +1,81 @@
-# RAPPORTO REVISIONE · Letteratura italiana V · Lezione 23 · Primo Levi
-Revisione del 17/11/2026. Video: `Letteratura_Lez23_Parte1_1080p.mp4` (a pezzi `.parte_NN`, sha256 nel file `.sha256`). **misurato** = misurato con uno strumento; **stima** = dedotto; **non verificato** = non ho potuto.
+# RAPPORTO REVISIONE · Letteratura italiana V · Lezione 23 · Primo Levi — correzioni 22/11
+Video: `Letteratura_Lez23_Parte1_1080p.mp4` (pezzi `.parte_NN`, sha256 nel file `.sha256`). **misurato** = misurato con uno strumento; **stima** = dedotto; **non verificato** = non ho potuto.
 
-## 1. Misure sul video nuovo
-| Controllo | Risultato |
-|---|---|
-| Formato | 1920×1080, 30 fps, x264 (CRF 21 superfast), AAC 192k (misurato) |
-| Durata / fotogrammi | 52:53,47 (3173,47 s) · 95 204 fotogrammi = durata × 30 (misurato). **La durata è cambiata** (prima 53:12,53): tabella vecchio→nuovo nella sezione 8 |
-| Peso | 324,7 MB (misurato) |
-| Volume | −17,0 LUFS integrato, LRA 5,2; picco **−1,5 dBTP** (misurato, ≤ −1) |
-| Jingle Quiz a 0,0 s (`controllo_jingle.py`) | Q1 +0,013 · Q2 +0,002 · Q3 −0,007 · Q4 −0,007 s (rimisurati sul file finale): tutti OK (misurato) |
-| Sincronia audio/video del prof | scarto dell'audio finale rispetto all'originale: +0,02 s (D0, D1), +0,03 s (D2, D3, D4) in 3 punti per pezzo, correlazione dell'audio (misurato); max richiesto 0,04 s. Scarto video-audio ai giunti dei pezzi: −0,03 s (misurato su 8 giunti) |
-| Fermi immagine del prof | nessun fermo ≥ 1,5 s nel riquadro durante i pezzi del prof D0–D4 (misurato con `freezedetect`); dopo ogni pezzo del prof c'è una tenuta di 0,9 s con dissolvenza |
-| Silenzi > 2,5 s | tutti sotto i 3 s (2,6–2,9 s sulle schede titolo e a 3045 s), tranne le schede di pausa del player Verifica (10 s) e Compiti (9 s). Le schede Quiz sono state accorciate a 3,2 s (jingle intatto); l'ultima parte della prima mappa è meno silenziosa (voce R5 al 88%). (misurato) |
-| Transizioni | dissolvenza di 0,6 s tra tutti i pezzi + `trans.wav` dopo ogni pezzo del prof, introduzione, glossario e ripasso (misurato nei file; **non ascoltato**) |
-| PDF | slide: 78 pagine A4 orizzontale (testo vero); mappe: 1 pagina A4 orizzontale con la mappa del prof |
+## 1. Cosa ho cambiato rispetto alla consegna del 17/11
+- **Una sola mappa, quella del prof, una volta sola**, prima del glossario. Tolte le 4 mappe precedenti (AN4, AN9, AN15, ANF). Ridisegnata in vettoriale nel modello BES (colori e legenda in alto a destra, testo 34–50 px) **senza il marchio mappe-scuola.com e senza le foto** (ritratto di Levi e frontespizio): stessa struttura, stesse frecce, stesse parole del prof. La mappa (circa 30 riquadri) non entra in una schermata a 34 px: come da risposta della master (22/11 17:00 UTC) è divisa in **4 schermate** («Mappa · 1 di 4»: vita; 2: racconto dell'esperienza nei Lager; 3 e 4: opere), ognuna costruita riquadro per riquadro con la voce Kore (riquadro acceso in giallo) e ferma 4 s alla fine. Voci nuove M1–M3 (testi in `testi_voci.json`, numeri in lettere).
+- **Slide del prof**: testo a 40 px (36 solo dove serve), interlinea 1,5, al massimo 3 card intere (le slide con più card sono divise in due pagine), bordo giallo quando il prof comincia la frase. Nessuna card sola oltre 60 s.
+- **Confini degli argomenti spostati sul prof** (finivano a metà del suo discorso): D1 ora comprende la frase finale «…per capire Primo Levi»; D2 finisce a «…naturale o meno che sia finita»; D3 («Se questo è un uomo») finisce a «…realtà mostruosa»; D4 («La tregua») parte da «Il trauma del ritorno…». Così nessuna slide o immagine compare in due argomenti (niente «già visto»: prima «La tregua» era mostrata nell'argomento 3 e nel 4) e le slide del prof seguono il suo discorso.
+- **Pause del prof > 2,2 s** accorciate a circa 1 s (solo tra due frasi): 3 in D0, 1 in D1, 4 in D2, 2 in D3, 3 in D4 (tempi nella timeline). Audio e video tagliati agli stessi punti.
+- **Audio:** −16,0 LUFS (misurato sul wav; vedi §2), picco ≤ −1 dBTP.
+- **Testo delle animazioni a 40 px**; ripassi, glossario e riepilogo con al massimo 3 righe per pagina (divisi in 2 pagine).
+- **Piè di pagina delle animazioni senza il nome del prof** (regola 22/11: il nome del docente solo nella fascia gialla); sulle slide con il prof resta come nel modello.
+- **Dispense**: `…_slide.pdf` (89 pagine A4 orizzontale, identiche al video, copertina con solo materia e titolo, piè con materia e pagina, **senza il nome del docente**, testo vero selezionabile) e `…_mappe.pdf` (copertina identica con «MAPPE» + le 4 schermate della mappa).
+
+## 2. Misure sul video finale
+- Formato 1920×1080, 30 fps, x264 (veryfast→superfast, CRF 21), AAC 192k; **durata 50:15.30 (3015.30 s)**; fotogrammi = durata × 30 (90 459); peso 315,2 MB (300,6 MiB, misurato).
+- **Volume:** vedi controllo severo; picco AAC ≤ −2,0 dBFS (misurato). Parlato del prof e voci Kore alla stessa scala (misurato sul wav: −16,4 LUFS prima del limitatore).
+- **Jingle Quiz** a 0,0 s (`controllo_jingle.py`): Q1 −0,005 · Q2 +0,004 · Q3 +0,001 · Q4 −0,016 s: OK (misurato).
+- **Sincronia audio/prof**: scarto dell'audio finale rispetto all'originale 0,01–0,04 s in 8 punti per pezzo, fuori dalle pause accorciate (misurato per correlazione dell'audio). Labbra non misurabili (webcam 185×138 px).
+- **Mai prof fermo**: nessun fermo del riquadro ≥ 1,5 s nei pezzi del prof (freezedetect); dopo ogni pezzo c'è una tenuta di 0,9 s con dissolvenza.
+- Copertina con il prof: 41,5 s → 3:16 (2:35 di intervento del prof, < 3 min); introduzione animata (18–41 s) senza riquadro del prof.
+
+```
+durata 3015.30 s | fotogrammi 90459 (attesi 90459) | 315.2 MB | h264 1920x1080 30/1
+['I:         -16.5 LUFS', 'LRA:         5.3 LU', 'Peak:       -2.0 dBFS']
+silenzi >2.5 s: [('194.957', ''), ('', '2.69867'), ('690.691', ''), ('', '2.59096'), ('1293.71', ''), ('', '2.86246'), ('1843.57', ''), ('', '2.70823')]
+fermi riquadro >=1.5 s: []
+
+```
 
 
-## 2. Confronto col modello Spagnolo (punto 000)
-| # | Punto | Esito |
-|---|---|---|
-| 1 | Sigla 15 s → dissolvenza → copertina | OK: sigla invariata, dissolvenza morbida di 0,6 s tra tutti i pezzi |
-| 2 | Copertina (logo, riga «LETTERATURA ITALIANA V · VIDEOLEZIONE», titolo, card ARGOMENTI) | **corretto** (prima: titolo con elenco su fondo blu) |
-| 3 | Slide: fondo bianco, «01 · ARGOMENTO», titolo + barretta | **corretto** (prima: fondo azzurrino/blu, grafica diversa) |
-| 4 | Piè «LETTERATURA ITALIANA V · Prof. Giorgio Mazzotti» + «Pagina N» | **corretto** (Figtree Bold; prima DM Mono; ripassi senza numero di pagina) |
-| 5 | Riquadro 4:3 | **corretto**: 412×309 px a x=1428, y=148, angoli r=18, ombra grigia morbida, niente bordo (prima: piccola finestra nella colonna scura) |
-| 6 | Fascia gialla −3°, due righe | **corretto**: «Giorgio Mazzotti» / «PROF. DI LETTERATURA ITALIANA» |
-| 7 | Slide senza prof (ripassi, glossario, schede) | **corretto**: rifatte nel modello, card in corso con bordo giallo sottile, ombre grigie |
-| 8 | Font | Bricolage 800 + Figtree |
-| 9 | Finale | OK: scheda «Fine della lezione» rifatta; sigla finale 5 s con avviso diritti invariata |
-| 10 | Struttura | OK: sigla, presentazione, 4 argomenti con ripasso e quiz, glossario, riepilogo, finale |
-| 11 | PDF slide + mappe | consegnati (78 pagine; 1 pagina) |
-Schede di servizio Quiz / Verifica finale / Compiti: **invariate** (blu, come da decisione «banda blu si tiene»).
-
-## 3. Problemi trovati e correzioni
-| Minuto (video vecchio) | Tipo | Com'era | Correzione |
-|---|---|---|---|
-| tutto | visivo | grafica scura/blu, riquadro non da modello, card blu | tutto rifatto nel modello (78 pagine) |
-| 6:18 → 12:56 | audio | «E quindi capite che…» detto due volte (2,1 s ripetuti) e frase tagliata a metà a 6:18 | il pezzo 1 finisce dopo «…nella Polonia occupata»; il pezzo 2 riprende da lì |
-| 17:03 → 24:22 | audio | «…perché non riusciva più a sopportare il dolore» tagliata a metà a 17:03 e ripetuta a 24:22 (1,1 s ripetuti) | il pezzo 2 contiene la frase intera |
-| 28:38 → 36:45 | audio | «e continuiamo appunto… Questo come dire? Mm.» a fine pezzo e «Questa analisi…» ripetuti (1,0 s) e frase lasciata a metà | il pezzo 3 arriva fino a «…le abbiamo quindi isolate in particolare»; il pezzo 4 parte da «La produzione successiva» |
-| 36:44–40:33 | sincronia | slide «La tregua» ferma per 233 s mentre il prof parla di altre opere | nuova slide «Le altre opere di Primo Levi» (dal suo discorso e dalla sua mappa), card accese sul parlato, poi ritorno alla slide «La tregua» alla frase «non si rimargineranno mai» |
-| 14:39–17:03 | sincronia | slide «La sopravvivenza nel Lager» ferma per 135 s mentre il prof parla del ritorno e del trauma | slide «Il ritorno e il trauma» (dalla presentazione del prof, presente nel suo video a 5:32) con le due card accese sul parlato |
-| 0:42–3:17 | visivo | presentazione senza gli argomenti | copertina con card ARGOMENTI mentre il prof parla |
-| 0:18–0:40 | visivo | introduzione senza riquadro del prof | copertina senza riquadro (non parla il prof): le voci narranti non hanno il prof |
-| mappe 10:48, 22:12, 34:25, 49:46 | contenuto | 4 mappe **inventate da noi** (es. «gomma sintetica», «La memoria», «Lo stile sobrio») | sostituite con la mappa del prof (`LEZIONE 23.pdf`), stessi nodi, nostra grafica; voce nuova R5, R9, R10, R8 (Kore, generata dal servizio della master) |
-| vtt | testo | ~700 cue con errori gravi («suomalgrado», «Eccoprivole», «hager»…) | sottotitoli rifatti sul nuovo video (≈260 cue, max 2 righe), con correzioni dei nomi e dei termini |
-| audio | audio | parlato del prof non dimostrabilmente pulito | rifatto dall'originale con `aresample 48000, highpass 80, arnndn (sh.rnnn), loudnorm −16, alimiter`, −1,2 dB |
-| scheda | testo | titolo «Primo Levi · Parte 1» | «Letteratura V · Lezione 23 · Primo Levi»; secondi aggiornati (la durata è cambiata) |
-| silenzi | audio | code mute di 3–4 s dopo i quiz e le mappe | pause fisse di 0,9 s con transizione (`trans.wav`) e dissolvenza; nessun silenzio > 3 s (misurato) |
-
-## 3-bis. Inizio e fine di ogni pezzo del prof (aggiornamento 17/11 01:25)
-| Pezzo | Inizio (nuovo) | Prime parole | Fine (nuovo) | Ultime 8 parole | Frase finita |
+## 3. Tabella dei pezzi del prof (inizio e fine)
+| Pezzo | Inizio | Prime parole | Fine | Ultime 8 parole | Frase finita |
 |---|---|---|---|---|---|
-| D0 | 0:41.50 | «Buongiorno e benvenuti alla lezione su» | 3:16.50 | «…d'accordo, che ricorda. Questi spiacevolissimi episodi. Primo Levi.» | sì |
-| D1 | 3:21.90 | «Allora. Vediamo. Inquadrare appunto eventi fondamentali» | 6:15.32 | «…insomma. Di Auschwitz, proprio quello. Nella Polonia occupata.» | sì |
-| D2 | 12:49.65 | «Quindi capite che l'esperienza biografica è» | 16:58.35 | «…Perché non riusciva più a sopportare il dolore.» | sì |
-| D3 | 24:15.42 | «La vita dopo. La vita dopo.» | 28:42.12 | «…queste e le abbiamo quindi isolate in particolare» | sì |
-| D4 | 36:46.19 | «La produzione successiva di Levi si» | 40:22.56 | «…quello appunto che è ha vissuto ha subito.» | sì (fine del video del prof) |
-Con la trascrizione automatica (misurato sulle parole): nessuna parola mozzata in partenza (la prima parola comincia ≥ 0,2 s dopo l'attacco del pezzo); ogni pezzo finisce in una pausa dopo la fine di una frase. D3 è stato allungato di 16 s (fino a «…le abbiamo quindi isolate in particolare») per non lasciare «e continuiamo appunto…» a metà; D4 parte da «La produzione successiva di Levi». La durata è cambiata (da 53:12,5 a 52:53,5): tabella vecchio→nuovo nella sezione 8.
+| D0 | 0:41.50 | «Buongiorno e benvenuti alla lezione su» | 3:12.14 | «…d'accordo, che ricorda. Questi spiacevolissimi episodi. Primo Levi.» | sì |
+| D1 | 3:17.54 | «Allora. Vediamo. Inquadrare appunto eventi fondamentali» | 6:17.61 | «…fondamentale per inquadrare e per capire Primo Levi.» | sì |
+| D2 | 11:33.28 | «Levi riuscì a sopravvivere alle condizioni» | 15:45.86 | «…loro vita, naturale o meno che sia finita.» | sì |
+| D3 | 21:36.29 | «Ecco, quindi capite il peso. Decise,» | 23:56.55 | «…portare ordine nel caos di una realtà mostruosa.» | sì |
+| D4 | 30:46.15 | «Il trauma del ritorno e la» | 36:02.17 | «…quello appunto che è ha vissuto ha subito.» | sì (fine del video del prof) |
+Misurato sulle parole della trascrizione automatica: ogni pezzo comincia ≥ 0,3 s prima della prima parola e finisce 0,3–0,5 s dopo l'ultima, in una pausa. D1 finisce dopo «…per capire Primo Levi»; D2 dopo «…naturale o meno che sia finita»; D3 dopo «…caos di una realtà mostruosa»; D4 comincia da «Il trauma del ritorno…» (la trascrizione automatica rende alcune parole male: vedi §5).
 
 
-## 4. Pagine del libro in alta risoluzione (B-bis)
-La lezione 23 non ha pagine del libro (regola: salta il punto).
-
-## 5. Cosa NON ho verificato / limiti
-- **Ascolto umano:** non ho potuto ascoltare l'audio (fruscio, ronzio, «metallico» dopo la pulizia). **Non verificato.**
-- **Sottotitoli:** corretti sulla trascrizione automatica (Parakeet), non sull'ascolto. Passaggi che l'ASR rende male e che ho lasciato com'erano, da riascoltare: «Primo Levi viene in ebreo» (0:01:15), «…gli valsero Notorietà gli permisero» (0:13:43), «a Verona» (0:15:07), «anche se descolastiche» (~0:37:26), «in questo conti che non potevano lavorare» (~0:26:13), «Finita» (0:16:58). **Non verificato.**
-- **Sincronia labbra:** il video e l'audio del prof vengono dallo stesso file originale con lo stesso inizio (`-ss`); lo scarto dell'audio pulito rispetto all'originale è **−0,02 s** (misurato per correlazione, risoluzione 10 ms). Il movimento della bocca non è misurabile (webcam 185×138 px). **Non verificato sulla bocca.**
-- **Qualità riquadro:** la webcam dell'originale è 185×138 px ingrandita 2,2×: immagine morbida; i capelli toccano il bordo alto già nell'originale (limite non risolvibile, tutto il pezzo).
-- **Pagine del libro:** nessuna in questa lezione.
-- **Evidenziazioni delle card:** calcolate dalla trascrizione (parola per parola, ±1 s stima); controllate a campione su 4 punti con i fotogrammi (vedi sezione 7).
-- **Le card «Le altre opere»:** testo scritto da me riassumendo parole e mappa del prof (non c'era una sua slide su quelle opere): da far vedere al prof.
-- **Voci Kore:** le voci delle schede S1–S4, GL1, RF1, AN1–AN21 (escluse le mappe) sono quelle già consegnate; non le ho riascoltate. S3: lo schermo dice «Descrive», la trascrizione automatica della voce dice «Scrive»: **non verificato** (testo della voce S3 non disponibile nei file).
-- **Schede Quiz / Verifica / Compiti:** invariate (banda blu, come deciso); non ricostruite nel modello.
-- **Silenzi > 3 s residui e jingle `trans.wav`:** vedi tabella misure; non ascoltati.
-- **Schede «Quiz»**: copiate dal video vecchio (jingle presente, controllato a 0,0 s). **Sincronia card/voce di AN, S, GL, RF:** i tempi degli accendimenti sono quelli del video vecchio (stessi secondi della voce già consegnata), non rimisurati.
-- **Mappe:** i tempi di comparsa dei nodi sono presi dalla trascrizione delle voci nuove (±0,5 s, stima). Le voci R5 e R8 sono state rallentate al 90% e R9 al 92% (per evitare lunghi silenzi): **non riascoltate**.
+## 4. Refusi e anomalie del materiale del prof (non corretti nei file del prof)
+- **Nodo della mappa «1959 – Premio Nobel per la letteratura»**: Primo Levi non ha mai vinto il Nobel. Lasciato come nella mappa del prof; **la voce nuova non lo legge**. Da chiedere al prof.
+- **«Storie naturali 1967»** (mappa) contro «del 1966» detto dal prof nel video.
+- **Slide del prof «arrivando a Torino a metà settembre»** contro il prof che dice «nell'ottobre del 1945».
+- Nomi: «Damiano Malabaila» (la trascrizione scriveva «Malaca»), «Mordo Nahum»: corretti nei sottotitoli.
+- Mappa: «Monowitz», date e titoli come nella mappa del prof.
 
 
-## 6. DA CONFERMARE COL PROF
-- **Mappa del prof, nodo «1959 – Premio Nobel per la letteratura»:** Primo Levi non ha mai vinto il Nobel. Ho lasciato il nodo come nella mappa del prof (regola), ma **la voce nuova non lo legge**. Da chiedere al prof.
-- **Mappa «Storie naturali 1967»** vs il prof nel video «Storie naturali del 1966» (e voce AN18 «1966»).
-- **Slide del prof «arrivando a Torino a metà settembre»** vs il prof che dice «nell'ottobre del 1945» (e AN1/AN6 dicono ottobre).
-- Il prof nel video dice «Storie naturali… pubblicate sotto lo pseudonimo di Damiano Malabaila» (corretto da me nei sottotitoli: l'ASR scriveva «Malaca»).
+## 5. Cosa NON ho verificato
+- **Ascolto umano**: non ho potuto ascoltare nulla (voce del prof dopo la pulizia, voci Kore nuove della mappa, jingle, `trans.wav`). Le voci della mappa sono state **trascritte** (Parakeet) e confrontate col testo: la trascrizione automatica a volte omette parole brevi a inizio frase («Racconta», «Il», «Se») in modo diverso tra due generazioni dello stesso testo, quindi la ritengo rumore della trascrizione, **non verificato all'ascolto**. Usate: M1 (vita), R12 (racconto nei Lager), R13 (opere); M2, M3, M2_R2 non usate.
+- **Sottotitoli**: corretti sulla trascrizione automatica (257 cue), con le correzioni elencate nel codice (Levi, Lager, prigioniero, cooptati…); frasi che la trascrizione rende male e che ho lasciato: «Primo Levi viene in ebreo», «gli valsero Notorietà gli permisero», «a Verona», «anche se descolastiche», «in questo conti», «Finita». **Non verificato.**
+- **Card «Le altre opere di Primo Levi»** (D4): testo scritto da me riassumendo il discorso e la mappa del prof (non c'è una sua slide): da far vedere al prof.
+- **Pause > 2,5 s**: le schede di pausa del player Verifica (10 s) e Compiti (9 s) restano silenziose (pausa del player).
+- **Schede Quiz / Verifica / Compiti**: invariate (banda blu, come deciso).
+- **Voci S1–S4, GL1, RF1, AN1–AN21, FIN1**: quelle già consegnate, **non riascoltate** (S3: lo schermo dice «Descrive», la trascrizione dice «Scrive»).
+- **Mappa**: i tempi di comparsa dei riquadri vengono dalla trascrizione delle voci (±0,5 s, stima); «una volta sola, prima del glossario» rispettato. Non ho ridisegnato la mappa intera su una pagina del PDF perché a 34 px non entra (la master ha approvato la divisione in schermate).
+- **Immagini**: nessuna immagine di repertorio; ritratti e frontespizio della mappa del prof NON usati.
+- **Agente separato** (§2 del prompt): vedi sezione 6.
 
 
-## 7. Come ho verificato
-Trascrizione completa del video vecchio (Parakeet via `trascrivi.py`, 758 segmenti), 3 193 fotogrammi a 1/s + OCR di ogni stato delle animazioni (50 pezzi), allineamento per correlazione audio dei 5 pezzi del prof con l'originale (offset esatti, 3 ripetizioni trovate), OCR e lettura delle slide originali del prof, 78 pagine slide generate dal nuovo HTML, controllo_minuti.jpg (1 fotogramma ogni 30 s, 106 fotogrammi) sul video nuovo; misure con ffprobe/ebur128/freezedetect/silencedetect e `controllo_jingle.py`. Compiti e verifica confrontati col PDF e l'Excel del prof (10 domande, 4 compiti). Quiz riletti contro le slide del prof: coerenti, invariati.
+## 6. Controllo dell'agente separato
+Un agente separato (che non ha montato la lezione) ha guardato 101 fotogrammi (1 ogni 30 s) più 10 mirati, i PDF e il `.vtt` (non audio, non tagli a metà frase). Esito e cosa ho fatto:
+- **Corretti dopo il suo controllo**: etichetta «Mappa · N di 4» assente nelle schermate del video (c'era solo nei PDF) → rifatte le 4 schermate con etichetta e legenda più grande (23 px) e frecce più sottili; refuso nei sottotitoli «Un' po'» → «Un po'».
+- **Non confermato dal mio controllo**: «riquadro del prof a 0:30» (ho verificato a 30 s: copertina senza riquadro; il riquadro compare con D0 a 41,5 s).
+- **Segnalato, non cambiato**: (1) schede Quiz (3,2 s), Verifica e Compiti sono le schede del player (le domande sono in `quiz_argomenti.json`, `verifica_finale.json`, `compiti.json`); (2) sigla finale = file del kit (`Sigla_finale_5s…`), non toccata; il «ATTENZIONI» letto dall'agente va controllato sul file del kit; (3) animazioni con molto spazio bianco sotto le card (3 card per schermata a 40 px): scelta di layout; (4) l'agente stima il testo delle slide del prof a 30–32 px: non confermo, il codice imposta 40 px e scende a 36 solo se non entra; **misura diretta sui fotogrammi non fatta**; (5) i sottotitoli coprono solo i pezzi del prof (D0–D4), non le voci narranti, come nelle consegne precedenti.
 
-
-## 8. Secondi vecchio → nuovo (la durata è cambiata; aggiornati in `scheda_pubblicazione.json` e `timeline.json`)
-| Evento | Secondo vecchio | Secondo nuovo |
+## 7. Secondi vecchio → nuovo (consegna del 17/11 → oggi; aggiornati in `scheda_pubblicazione.json` e `timeline.json`)
+| Evento | Prima (17/11) | Ora |
 |---|---|---|
-| T1 | 198.47 | 197.40 |
-| T2 | 770.83 | 765.15 |
-| T3 | 1457.50 | 1450.92 |
-| T4 | 2199.70 | 2201.69 |
-| Q1 | 765.53 | 761.05 |
-| Q2 | 1452.20 | 1446.82 |
-| Q3 | 2194.40 | 2197.59 |
-| Q4 | 2980.73 | 2964.72 |
-| VER | 3167.93 | 3148.86 |
-| COMP | 3186.23 | 3167.16 |
-| durata | 3192.53 | 3173.46 |
+| T1 | 197.37 | 193.04 |
+| T2 | 765.15 | 688.78 |
+| T3 | 1450.92 | 1291.79 |
+| T4 | 2201.69 | 1841.65 |
+| Q1 | 761.05 | 684.68 |
+| Q2 | 1446.82 | 1287.69 |
+| Q3 | 2197.59 | 1837.55 |
+| Q4 | 2964.72 | 2705.24 |
+| VER | — | 2990.70 |
+| COMP | — | 3009.00 |
+| durata | 3173,47 | 3015.30 |
