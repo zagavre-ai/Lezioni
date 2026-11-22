@@ -170,11 +170,6 @@
   "lingua": "it"
  },
  {
-  "nome": "BENV1",
-  "testo": "Benvenuta e benvenuto alla lezione di Storia. Oggi il professor Mazzotti ci porta nell'Unione Sovietica di Stalin, dal millenovecentoventiquattro al millenovecentotrentanove. Alla fine di ogni argomento ti aspetta un breve quiz.",
-  "lingua": "it"
- },
- {
   "nome": "COMPI",
   "testo": "Ora tocca a te: ecco i compiti.",
   "lingua": "it"
@@ -352,5 +347,29 @@
  {
   "nome": "COMP2",
   "testo": "Esercizio tre: con quali strumenti Stalin instaura un regime totalitario negli anni Trenta, e in che cosa consiste il Grande Terrore, dal millenovecentotrentasei al millenovecentotrentotto? Esercizio quattro: come evolve la politica estera dell'Unione Sovietica tra gli anni Venti e il millenovecentotrentanove, passando dall'isolamento alla strategia del Fronte unito, fino al Patto Molotov-Ribbentrop?"
+ },
+ {
+  "nome": "R3_R2",
+  "testo": "Ripassiamo. La collettivizzazione forzata crea kolchoz e sovchoz e colpisce i kulaki. Le requisizioni di grano provocano la carestia del millenovecentotrentadue e trentatré, l'Holodomor."
+ },
+ {
+  "nome": "R4_R2",
+  "testo": "Ripassiamo. Stalin instaura una dittatura personale. Con le grandi purghe, i processi pubblici e il Gulag elimina ogni possibile oppositore."
+ },
+ {
+  "nome": "SC6_1_R2",
+  "testo": "Anni Venti: l'Unione Sovietica esce dall'isolamento."
+ },
+ {
+  "nome": "SC6_2_R2",
+  "testo": "Millenovecentotrentaquattro: entra nella Società delle Nazioni."
+ },
+ {
+  "nome": "SC6_3_R2",
+  "testo": "Fronte unito: comunisti, socialisti e democratici contro il fascismo, come nella guerra civile spagnola."
+ },
+ {
+  "nome": "SC6_4_R2",
+  "testo": "Agosto millenovecentotrentanove: il patto Molotov-Ribbentrop e la spartizione dell'Europa orientale."
  }
 ]
