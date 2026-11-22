@@ -3,10 +3,11 @@
  "parti": {
   "1": {
    "titolo": "Razionalismo e Metafisica",
-   "stato": "IN_MONTAGGIO"
+   "stato": "IN_MONTAGGIO",
+   "voci": "segnaposto"
   }
  },
- "manca": "montaggio completo: trascrizione in corso, poi tagli, slide, mappe (2 del prof: Metafisica, Architettura), quiz, voci",
+ "manca": "assemblaggio finale video (voci provvisorie), sottotitoli, dispensa, controlli; poi sostituzione voci Kore dalle 9:00",
  "serve_master": [
   {
    "quando": "22/11 22:52",
@@ -26,10 +27,14 @@
   {
    "quando": "22/11 22:59",
    "testo": "voci inviate; montaggio con voci provvisorie in corso"
+  },
+  {
+   "quando": "22/11 23:29",
+   "testo": "tutti i 58 pezzi renderizzati (49 min stimati con voci provvisorie, una sola Parte); assemblaggio in corso"
   }
  ],
  "materia": "Storia dell'arte V",
  "lezione": "Lezione 13 · Razionalismo e Metafisica",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-22 22:59:49"
+ "aggiornato": "2026-11-22 23:29:29"
 }
