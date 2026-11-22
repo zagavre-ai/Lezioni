@@ -34,10 +34,10 @@
    ]
   },
   "B3": {
-   "entra_s": 11.464,
+   "entra_s": 11.75,
    "acceso_giallo_s": [
     [
-     11.564,
+     11.85,
      14.147
     ]
    ]
@@ -61,10 +61,10 @@
    ]
   },
   "B6": {
-   "entra_s": 20.08,
+   "entra_s": 19.85,
    "acceso_giallo_s": [
     [
-     20.18,
+     19.95,
      21.434
     ]
    ]
@@ -73,7 +73,7 @@
  "archi_entrano_s": {
   "E1": 5.72,
   "E2": 8.22,
-  "E3": 11.07,
+  "E3": 11.46,
   "E4": 14.28,
   "E5": 16.88,
   "E6": 19.07
@@ -105,12 +105,12 @@
    "testo": "l'Intesa risponde con la battaglia di Amiens"
   },
   {
-   "t0_voce": 10.67,
-   "t1_voce": 11.064,
+   "t0_voce": 11.06,
+   "t1_voce": 11.35,
    "testo": "Vede"
   },
   {
-   "t0_voce": 11.064,
+   "t0_voce": 11.35,
    "t1_voce": 13.547,
    "testo": "la sconfitta austriaca sul fronte italiano"
   },
@@ -131,11 +131,11 @@
   },
   {
    "t0_voce": 18.67,
-   "t1_voce": 19.68,
+   "t1_voce": 19.45,
    "testo": "che porta"
   },
   {
-   "t0_voce": 19.68,
+   "t0_voce": 19.45,
    "t1_voce": 20.834,
    "testo": "all'armistizio dell'undici novembre"
   }

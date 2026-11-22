@@ -11,15 +11,15 @@
    "acceso_giallo_s": [
     [
      6.62,
-     7.99
+     7.8
     ]
    ]
   },
   "B1": {
-   "entra_s": 8.26,
+   "entra_s": 8.1,
    "acceso_giallo_s": [
     [
-     8.36,
+     8.2,
      9.247
     ]
    ]
@@ -61,10 +61,10 @@
    ]
   },
   "B6": {
-   "entra_s": 16.55,
+   "entra_s": 16.7,
    "acceso_giallo_s": [
     [
-     16.65,
+     16.8,
      18.146
     ]
    ]
@@ -89,28 +89,28 @@
   }
  },
  "archi_entrano_s": {
-  "E1": 7.79,
+  "E1": 7.6,
   "E2": 9.13,
   "E3": 10.22,
   "E4": 11.89,
   "E5": 14.508,
-  "E6": 16.3,
+  "E6": 16.4,
   "E7": 18.156,
   "E8": 19.985
  },
  "passi_voce": [
   {
    "t0_voce": 6.12,
-   "t1_voce": 7.39,
+   "t1_voce": 7.2,
    "testo": "La Prima guerra mondiale"
   },
   {
-   "t0_voce": 7.39,
-   "t1_voce": 7.86,
+   "t0_voce": 7.2,
+   "t1_voce": 7.7,
    "testo": "è una"
   },
   {
-   "t0_voce": 7.86,
+   "t0_voce": 7.7,
    "t1_voce": 8.647,
    "testo": "guerra globale"
   },
@@ -145,12 +145,12 @@
    "testo": "Nel millenovecentodiciassette"
   },
   {
-   "t0_voce": 15.9,
-   "t1_voce": 16.15,
+   "t0_voce": 16.0,
+   "t1_voce": 16.3,
    "testo": "vede"
   },
   {
-   "t0_voce": 16.15,
+   "t0_voce": 16.3,
    "t1_voce": 17.546,
    "testo": "il ritiro della Russia"
   },

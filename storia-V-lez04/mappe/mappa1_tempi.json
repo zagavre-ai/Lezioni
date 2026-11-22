@@ -16,10 +16,10 @@
    ]
   },
   "B1": {
-   "entra_s": 8.9,
+   "entra_s": 8.85,
    "acceso_giallo_s": [
     [
-     9.0,
+     8.95,
      10.39
     ]
    ]
@@ -43,19 +43,19 @@
    ]
   },
   "B4": {
-   "entra_s": 14.8,
+   "entra_s": 14.95,
    "acceso_giallo_s": [
     [
-     14.9,
+     15.05,
      16.976
     ]
    ]
   },
   "B5": {
-   "entra_s": 17.75,
+   "entra_s": 17.7,
    "acceso_giallo_s": [
     [
-     17.85,
+     17.8,
      20.39
     ]
    ]
@@ -70,10 +70,10 @@
    ]
   },
   "B7": {
-   "entra_s": 24.0,
+   "entra_s": 23.85,
    "acceso_giallo_s": [
     [
-     24.1,
+     23.95,
      26.79
     ]
    ]
@@ -96,11 +96,11 @@
   },
   {
    "t0_voce": 7.686,
-   "t1_voce": 8.5,
+   "t1_voce": 8.45,
    "testo": "Si divide in"
   },
   {
-   "t0_voce": 8.5,
+   "t0_voce": 8.45,
    "t1_voce": 9.79,
    "testo": "alleanze contrapposte"
   },
@@ -116,21 +116,21 @@
   },
   {
    "t0_voce": 13.176,
-   "t1_voce": 14.4,
+   "t1_voce": 14.55,
    "testo": "È destabilizzata da"
   },
   {
-   "t0_voce": 14.4,
+   "t0_voce": 14.55,
    "t1_voce": 16.376,
    "testo": "Guglielmo secondo di Germania"
   },
   {
    "t0_voce": 16.674,
-   "t1_voce": 17.35,
+   "t1_voce": 17.3,
    "testo": "che adotta"
   },
   {
-   "t0_voce": 17.35,
+   "t0_voce": 17.3,
    "t1_voce": 19.79,
    "testo": "una politica estera e coloniale aggressiva"
   },
@@ -141,11 +141,11 @@
   },
   {
    "t0_voce": 22.942,
-   "t1_voce": 23.6,
+   "t1_voce": 23.45,
    "testo": "che causa"
   },
   {
-   "t0_voce": 23.6,
+   "t0_voce": 23.45,
    "t1_voce": 26.19,
    "testo": "la concorrenza tra Austria-Ungheria e Russia"
   }

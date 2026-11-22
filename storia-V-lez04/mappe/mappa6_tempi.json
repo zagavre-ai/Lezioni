@@ -16,10 +16,10 @@
    ]
   },
   "B1": {
-   "entra_s": 6.88,
+   "entra_s": 6.8,
    "acceso_giallo_s": [
     [
-     6.98,
+     6.9,
      8.542
     ]
    ]
@@ -29,15 +29,15 @@
    "acceso_giallo_s": [
     [
      9.34,
-     11.2
+     11.1
     ]
    ]
   },
   "B3": {
-   "entra_s": 11.0,
+   "entra_s": 10.9,
    "acceso_giallo_s": [
     [
-     11.1,
+     11.0,
      13.22
     ]
    ]
@@ -52,10 +52,10 @@
    ]
   },
   "B5": {
-   "entra_s": 16.25,
+   "entra_s": 16.15,
    "acceso_giallo_s": [
     [
-     16.35,
+     16.25,
      18.292
     ]
    ]
@@ -64,7 +64,7 @@
  "archi_entrano_s": {
   "E1": 5.92,
   "E2": 8.51,
-  "E3": 11.0,
+  "E3": 10.9,
   "E4": 13.44,
   "E5": 15.57
  },
@@ -76,11 +76,11 @@
   },
   {
    "t0_voce": 5.52,
-   "t1_voce": 6.48,
+   "t1_voce": 6.4,
    "testo": "è ispirata dai"
   },
   {
-   "t0_voce": 6.48,
+   "t0_voce": 6.4,
    "t1_voce": 7.942,
    "testo": "Quattordici punti di Wilson"
   },
@@ -91,11 +91,11 @@
   },
   {
    "t0_voce": 8.84,
-   "t1_voce": 10.6,
+   "t1_voce": 10.5,
    "testo": "l'autodeterminazione dei popoli"
   },
   {
-   "t0_voce": 10.6,
+   "t0_voce": 10.5,
    "t1_voce": 12.62,
    "testo": "e la nascita di una Società delle Nazioni"
   },
@@ -111,11 +111,11 @@
   },
   {
    "t0_voce": 15.17,
-   "t1_voce": 15.85,
+   "t1_voce": 15.75,
    "testo": "che vogliono"
   },
   {
-   "t0_voce": 15.85,
+   "t0_voce": 15.75,
    "t1_voce": 17.692,
    "testo": "una pace punitiva per la Germania"
   }

@@ -38,8 +38,8 @@ def pdf_html():
         T,_,_=tempi(k); m=dict(M[str(k)]); m['tempi']=T; pages.append(m)
     logo=open('../../kit/docenti/Telesio_logo_blu.svg').read()
     return f'''<!doctype html><html lang="it"><head><meta charset="utf-8"><title>Storia V · Mappe</title><link rel="stylesheet" href="mappa.css">
-<style>@page{{size:297mm 210mm;margin:0}} body{{margin:0}} .pg{{position:relative;width:297mm;height:210mm;overflow:hidden;page-break-after:always;background:#fff}}
-.sc{{position:absolute;left:0;top:14mm;width:1920px;height:1080px;transform-origin:0 0;transform:scale(var(--s))}}
+<style>@page{{size:297mm 210mm;margin:0}} html,body{{margin:0;width:297mm}} .pg{{position:relative;width:297mm;height:210mm;overflow:hidden;page-break-after:always;background:#fff}}
+.scw{{position:absolute;left:0;top:14mm;width:297mm;height:calc(1080px*var(--s));overflow:hidden}} .sc{{position:absolute;left:0;top:0;width:1920px;height:1080px;}}
 .pf{{position:absolute;left:12mm;right:12mm;bottom:8mm;display:flex;justify-content:space-between;font:600 11pt Fig;letter-spacing:.08em;color:#2060AF}}
 .cv .lg{{position:absolute;left:18mm;top:14mm;width:60mm}} .cv .lg svg{{width:100%;height:auto;display:block}}
 .cv .k{{position:absolute;left:18mm;top:78mm;font:700 13pt Fig;letter-spacing:.16em;color:#2060AF}}
@@ -49,11 +49,11 @@ def pdf_html():
 .cv .tt{{position:absolute;left:18mm;top:140mm;font:800 34pt/1.15 Bri;color:#0B1530}}</style></head><body>
 <div class="pg cv"><div class="lg">{logo}</div><div class="k">STORIA V · VIDEOLEZIONE</div><div class="t">MAPPE</div><div class="u"></div><div class="s">Storia V</div><div class="tt">La prima guerra mondiale</div>
 <div class="pf"><span>STORIA V</span><span>Pagina 1</span></div></div>
-{''.join(f'<div class="pg"><div class="sc" id="s{i+1}"></div><div class="pf"><span>STORIA V</span><span>Pagina {i+2}</span></div></div>' for i in range(6))}
+{''.join(f'<div class="pg"><div class="scw"><div class="sc" id="s{i+1}"></div></div><div class="pf"><span>STORIA V</span><span>Pagina {i+2}</span></div></div>' for i in range(6))}
 <script src="mappa_lib.js"></script><script>
 const PAG={json.dumps(pages,ensure_ascii=False)};
 window.pronta=FONTS().then(()=>{{const s=(297/25.4*96)/1920;document.documentElement.style.setProperty('--s',s);
- const iss=[];PAG.forEach((m,i)=>{{const r=buildMap(document.getElementById('s'+(i+1)),m,{{nofooter:true}});r.render(1e6);iss.push(...r.issues)}});return iss}});
+ const iss=[];PAG.forEach((m,i)=>{{const r=buildMap(document.getElementById('s'+(i+1)),m,{{nofooter:true}});r.render(1e6);iss.push(...r.issues);document.getElementById('s'+(i+1)).style.zoom=s}});return iss}});
 </script></body></html>'''
 with sync_playwright() as p:
     br=p.chromium.launch(executable_path=os.environ.get('CHROMIUM_EXE','/opt/pw-browsers/chromium_headless_shell-1243/chrome-headless-shell-linux64/chrome-headless-shell'))
@@ -79,5 +79,5 @@ with sync_playwright() as p:
     if ALL or '--pdf' in fl:
         open('Mappe_dispensa.html','w').write(pdf_html())
         pg=br.new_page(); pg.goto('file://'+os.path.abspath('Mappe_dispensa.html')); print('pdf problemi:',pg.evaluate('window.pronta'))
-        pg.pdf(path='Mappe_dispensa.pdf',width='297mm',height='210mm',print_background=True,margin={'top':'0','bottom':'0','left':'0','right':'0'})
+        pg.pdf(path='Mappe_dispensa.pdf',width='297mm',height='210mm',print_background=True,margin={'top':'0','bottom':'0','left':'0','right':'0'},prefer_css_page_size=True)
     br.close()
