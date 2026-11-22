@@ -1,4 +1,4 @@
-durata 48:53.2 (2933.2 s) | fotogrammi 87995 (attesi 87995) OK | peso 198.1 MB (188.9 MiB) OK | 1920x1080 OK
+durata 48:53.2 (2933.2 s) | fotogrammi 87995 (attesi 87995) OK | peso 200.6 MB (191.3 MiB) OK | 1920x1080 OK
 quiz 4 scatto 0,0 s: OK
 fermi immagine nei pezzi del docente: nessuno OK
 volume del parlato (mediana dei pezzi del docente): -16.8 LUFS OK

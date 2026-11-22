@@ -19,7 +19,7 @@ in corso al momento della consegna: vedi file severo_esito.txt se presente
 **Controllo con un agente separato** (non ha montato la lezione, lista §11): difetti trovati e corretti — (a) pagina 33, terza card vicina al piè di pagina → layout delle card rialzato (fondo massimo 946 px su 981); (b) ripasso con card «Madame Bovary (1857).» non frase intera → corretta; (c) ritratto di Zola sgranato → migliorato; (d) riquadro «Caratteri:» della mappa stretto → allargato; (e) pagina «Zola» ferma 175 s → divisa in due pagine con la ripresa su card 1. Segnalati e non cambiati: schede Quiz/Verifica/Compiti senza piè di pagina (sono schede di servizio con banda blu, come da decisione precedente); fascia gialla con «PROF. DI LETTERATURA ITALIANA» (richiesta dalla regola 000.6).
 
 ## 3. Misure sul video finale
-- durata 48:53.2 (2933.2 s) | fotogrammi 87995 (attesi 87995) OK | peso 198.1 MB (188.9 MiB) OK | 1920x1080 OK
+- durata 48:53.2 (2933.2 s) | fotogrammi 87995 (attesi 87995) OK | peso 200.6 MB (191.3 MiB) OK | 1920x1080 OK
 - quiz 4 scatto 0,0 s: OK
 - fermi immagine nei pezzi del docente: nessuno OK
 - volume del parlato (mediana dei pezzi del docente): -16.8 LUFS OK
