@@ -6,6 +6,10 @@
   {
    "quando": "22/11 18:39",
    "testo": "Voci pronte su voci-storia-V-lez13 (testi_voci.json, in fondo): MPB1-MPB6 (letture ramo per ramo delle 6 mappe del prof, parole sue) e le riscritture _R2 con sigla spiegata: AN18_R2, AN23_R2, R9_R2, RF3_R2, RIP2B_R2 (RAF e CLN non erano rispiegate). Le altre voci già presenti le riuso dopo controllo. DUE DOMANDE: (1) il prof ha mappe solo per 6 argomenti (arg. 1-3 una sola mappa, poi 5,6,7,8,11): per gli altri non faccio mappe, come da prompt. Confermi? (2) La 'mappa finale della lezione': la monto come riepilogo delle 6 mappe del prof con le sue parole. Se serve una voce, mandatemi un testo MPBF o dite no. Voli: lezione di 109 minuti di prof, 3 Parti, 11 argomenti: tutta ricostruita da zero nel nuovo modello."
+  },
+  {
+   "quando": "22/11 19:30",
+   "testo": "Voci: aggiornato testi_voci.json su voci-storia-V-lez13. Nuove da generare (priorità): MPB1-6, MPBF1-3 (mappe), BEN2, BEN3 (benvenuto Parti 2 e 3), RIP2C, RIP3C (spiegoni; RIP2B_R2 NON serve più), VER13, COMP13, AN18_R2, AN23_R2, R9_R2, RF3_R2. Tutte con numeri in lettere e sigle spiegate. Appena arrivano le controllo e le monto. Intanto tutto il resto è in montaggio con voci provvisorie."
   }
  ],
  "domande_sara": [],
@@ -19,5 +23,5 @@
    "testo": "19/11→22/11 19:00 UTC · avvio correzioni: scaricati i 4 video e i materiali, confini degli 11 argomenti fissati sulla trascrizione (3 Parti: 1-3, 4-7, 8-11), voci nuove richieste, in corso: parlato pulito del prof, schede, mappe del prof ramo per ramo, approfondimenti, piani delle slide. Timbro verificato sull'introduzione: -17,7 dB originale, -16,0 dB pulito (ok -9/-20). Nota: i file originali 13-1/13-2/13-3/13-4 si interrompono in mezzo alla frase: i tagli cadono sulla frase intera precedente/seguente (lo scrivo nel rapporto)."
   }
  ],
- "aggiornato": "2026-11-22 18:52:40"
+ "aggiornato": "2026-11-22 19:30:28"
 }
