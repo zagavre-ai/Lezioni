@@ -2,7 +2,7 @@
  "tag": "storia-V-lez21",
  "parti": {
   "1": {
-   "stato": "IN_MONTAGGIO"
+   "stato": "IN_CODIFICA"
   }
  },
  "manca": "",
@@ -45,10 +45,14 @@
   {
    "quando": "22/11 19:15",
    "testo": "stato: pipeline pronta (slide a finestra, mappe del prof con domanda-titolo, schede animate). Parti in rendering con voci provvisorie. Seguo risposta master: niente mappe inventate (arg 1,5,7 chiudono con la pillola)."
+  },
+  {
+   "quando": "22/11 21:23",
+   "testo": "21:30 UTC: Parti montate con voci provvisorie (P1 43 min 237 MB, P2 50 min 332 MB, -16 LUFS). In corso: sottotitoli e controllo severo. Alle voci Kore (08:00 UTC) rifaccio le schede con voce e ricodifico."
   }
  ],
  "materia": "Storia V",
  "lezione": "Lezione 21 · Il mondo dal 2001 ad oggi",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-22 19:48:26"
+ "aggiornato": "2026-11-22 21:23:49"
 }
