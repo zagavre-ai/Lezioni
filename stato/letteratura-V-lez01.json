@@ -1,18 +1,14 @@
 {
  "tag": "letteratura-V-lez01",
- "parti": {
-  "1": {
-   "stato": "IN_REVISIONE"
-  }
- },
+ "parti": {},
  "manca": "",
- "serve_master": [],
- "domande_sara": [],
- "note": [
+ "serve_master": [
   {
-   "quando": "22/11 17:40",
-   "testo": "17:41 UTC: video finale montato (60:35, 237 MB, 109038 fotogrammi, jingle quiz OK, sync 0,033 s, −16,2 LUFS, picco −1,4); in corso controllo_severo e controllo di un agente separato; poi rapporto e push. Consegna prevista 18:30 UTC"
+   "quando": "22/11 17:59",
+   "testo": "Lezione 1: serve la voce R11 (nuova, già nel testi_voci.json del ramo voci-letteratura-V-lez01, pushata alle 17:45 UTC): benvenuto senza il nome del docente (regola §3.9). Mi serve entro 18:20 UTC per consegnare alle 19:15."
   }
  ],
- "aggiornato": "2026-11-22 17:40:00"
+ "domande_sara": [],
+ "note": [],
+ "aggiornato": "2026-11-22 17:59:43"
 }
