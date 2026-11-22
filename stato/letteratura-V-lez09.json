@@ -2,7 +2,7 @@
  "tag": "letteratura-V-lez09",
  "parti": {
   "1": {
-   "stato": "IN_MONTAGGIO",
+   "stato": "IN_REVISIONE",
    "video": "Letteratura_Lez9_Parte1_1080p.mp4",
    "durata_s": 3230.6,
    "durata": "53:50.6",
@@ -63,7 +63,11 @@
   {
    "quando": "17/11 17:39",
    "testo": "consegnata sul ramo revisione-letteratura-V-lez09 (rapporto v2)"
+  },
+  {
+   "quando": "22/11 16:37",
+   "testo": "correzioni 22/11: presa da revisione-letteratura-V-lez09 (macchina ancora attiva, w9 integro). Consegna prevista 20:15 It"
   }
  ],
- "aggiornato": "2026-11-17 17:39:33"
+ "aggiornato": "2026-11-22 16:37:01"
 }
