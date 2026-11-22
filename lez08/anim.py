@@ -76,6 +76,7 @@ def mix_audio(parts,total,out):
     if r.returncode: raise SystemExit(r.stderr)
 def emit(pid,tl,total,parts,fade=8):
     wav=f'{B}/a_{pid}.wav'; mix_audio(parts,total,wav)
+    json.dump({'parts':[(os.path.basename(w),st) for w,st,v in parts],'total':total},open(f'{B}/meta_{pid}.json','w'))
     out=f'{B}/p_{pid}.mkv'
     ff=subprocess.Popen(['ffmpeg','-v','error','-y','-f','rawvideo','-pix_fmt','rgb24','-s','1920x1080','-r','30','-i','-','-i',wav,'-map','0:v','-map','1:a','-c:v','libx264','-preset','veryfast','-crf','18','-pix_fmt','yuv420p','-c:a','pcm_s16le','-shortest',out],stdin=subprocess.PIPE)
     frames.render_timeline(tl,total,ff.stdin,fade); ff.stdin.close(); ff.wait(); return out

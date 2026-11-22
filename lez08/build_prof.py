@@ -27,8 +27,16 @@ def seg_states(sc):
         e=act[k+1][0] if k+1<len(act) else sc['t1']
         t=snap_inizio(t,2.5) if k>0 else t
         d=e-t
-        if c is not None and d>70: out+= [(t,c,'overview'),(t+22,c,'focus')]+([(e-18,c,'overview')] if d>130 else [])
-        elif c is None and d>70: out+=[(t,c,'overview'),(t+d/2,c,'overview')]
+        if c is not None and d>45:
+            k2=0; tt=t
+            while tt<e-1:
+                out.append((tt,c,'overview')); tt+=28
+                if tt<e-6: out.append((tt,c,'focus')); tt+=22
+            continue
+        elif c is None and d>45:
+            tt=t
+            while tt<e-1: out.append((tt,c,'overview')); tt+=60
+            continue
         else: out.append((t,c,'overview'))
     return out
 def build_pngs(piece,pgmap):
