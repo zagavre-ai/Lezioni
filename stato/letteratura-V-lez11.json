@@ -55,7 +55,11 @@
   {
    "quando": "22/11 17:19",
    "testo": "17:20 UTC: video ricostruito (card 40px, dark cards, mappa BES, jingle, pausa 2,75s accorciata, card riallineate al parlato); in codifica finale; attendo voci CP1-4 e INTRO2. Consegna prevista 19:00 UTC."
+  },
+  {
+   "quando": "22/11 18:17",
+   "testo": "18:17 UTC: video finale ricostruito (52:57), voci CP/INTRO2 integrate; ora controlli (severo, sync, silenzi, PDF) e rapporto. Consegna prevista 19:00 UTC."
   }
  ],
- "aggiornato": "2026-11-22 17:19:56"
+ "aggiornato": "2026-11-22 18:17:42"
 }
