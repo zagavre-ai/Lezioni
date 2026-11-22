@@ -19,7 +19,9 @@ def _lista(states,name):
     p=ST+name+'.txt';tot=0;n=0
     with open(p,'w') as f:
         for png,d in states:
-            k=fr(d);n+=k;f.write(f"file '{png}'\nduration {k/FPS:.6f}\n")
+            k=fr(d);n+=k
+            while k>0:   # blocchi da 2 s: evita che il filtro fps metta in coda migliaia di fotogrammi
+                c=min(k,60);f.write(f"file '{png}'\nduration {c/FPS:.6f}\n");k-=c
         f.write(f"file '{states[-1][0]}'\n")
     return p,n
 MASK=ST+'mask412.png'
@@ -36,7 +38,7 @@ def video_stati(name,states,cam=None,bg=False,fade=(0.35,0.35)):
     ff=['ffmpeg','-v','error','-y']
     if bg:ff+=['-stream_loop','-1','-i',WK+'bg_blu.mp4']
     ff+=['-f','concat','-safe','0','-i',lst]
-    if cam is not None:ff+=['-ss',f'{cam:.4f}','-t',f'{D:.4f}','-i',WK+'cam.mp4','-loop','1','-framerate','30','-i',mask()]
+    if cam is not None:ff+=['-ss',f'{cam:.4f}','-t',f'{D:.4f}','-i',WK+'cam.mp4']
     fl=[]
     if bg:
         fl.append(f"[1:v]fps=30,format=rgba[s];[0:v]fps=30,format=yuv420p[b];[b][s]overlay=0:0:format=auto[v0]")
@@ -44,9 +46,9 @@ def video_stati(name,states,cam=None,bg=False,fade=(0.35,0.35)):
         fl.append(f"[0:v]fps=30,format=yuv420p[v0]")
     if cam is not None:
         ci=2 if bg else 1
-        mi=ci+1
         fl[-1]=fl[-1].replace('[0:v]',f'[{0 if not bg else 1}:v]') if False else fl[-1]
-        fl.append(f"[{ci}:v]fps=30,setpts=PTS-STARTPTS,format=yuv444p[c];[{mi}:v]format=gray[m];[c][m]alphamerge[cr];[v0][cr]overlay=1428:148:format=auto[v1]")
+        GEQ="geq=lum='lum(X,Y)':cb='cb(X,Y)':cr='cr(X,Y)':a='if(lte(pow(max(max(16-X,X-395),0),2)+pow(max(max(16-Y,Y-292),0),2),256),255,0)'"
+        fl.append(f"[{ci}:v]fps=30,setpts=PTS-STARTPTS,format=yuva444p,{GEQ}[cr];[v0][cr]overlay=1428:148:format=auto[v1]")
         last='v1'
     else:last='v0'
     ffx=f"[{last}]{fade_f(D,*fade) if fade else 'null'},format=yuv420p[v]"
