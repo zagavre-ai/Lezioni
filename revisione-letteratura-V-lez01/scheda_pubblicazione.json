@@ -378,8 +378,8 @@
    "inizio_s": 3337.667
   }
  },
- "t_verifica": 3808.729,
- "t_compiti": 3827.529,
+ "t_verifica": 3892.729,
+ "t_compiti": 3911.529,
  "approfondimenti": [
   {
    "id": "AP1a",
@@ -389,62 +389,62 @@
   {
    "id": "MP1",
    "titolo": "Il Regno d’Italia",
-   "inizio_s": 529.133
+   "inizio_s": 543.133
   },
   {
    "id": "AP2a",
    "titolo": "Economia e società",
-   "inizio_s": 981.866
+   "inizio_s": 995.866
   },
   {
    "id": "MP2",
    "titolo": "Sviluppo economico e sociale",
-   "inizio_s": 1037.432
+   "inizio_s": 1065.432
   },
   {
    "id": "AP3a",
    "titolo": "Scuola, editoria, intellettuali",
-   "inizio_s": 1561.598
+   "inizio_s": 1603.598
   },
   {
    "id": "MP3",
    "titolo": "Istituzioni e intellettuali",
-   "inizio_s": 1614.198
+   "inizio_s": 1656.198
   },
   {
    "id": "AP4a",
    "titolo": "Dal dialetto all’italiano",
-   "inizio_s": 2051.931
+   "inizio_s": 2107.931
   },
   {
    "id": "MP4",
    "titolo": "La lingua italiana",
-   "inizio_s": 2107.331
+   "inizio_s": 2163.331
   },
   {
    "id": "AP5a",
    "titolo": "Baudelaire: vita e opera",
-   "inizio_s": 2658.864
+   "inizio_s": 2728.864
   },
   {
    "id": "MP5",
    "titolo": "Charles Baudelaire",
-   "inizio_s": 2705.764
+   "inizio_s": 2775.764
   },
   {
    "id": "AP6a",
    "titolo": "Le innovazioni di Baudelaire",
-   "inizio_s": 3389.964
+   "inizio_s": 3473.964
   },
   {
    "id": "MP6",
    "titolo": "Le innovazioni poetiche",
-   "inizio_s": 3456.497
+   "inizio_s": 3540.497
   },
   {
    "id": "MPF",
    "titolo": "Naturalismo e Decadentismo",
-   "inizio_s": 3555.73
+   "inizio_s": 3639.73
   }
  ],
  "verifica_s": 3546.367,
