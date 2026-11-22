@@ -104,7 +104,11 @@
   {
    "quando": "22/11 17:32",
    "testo": "17:35 UTC (2/6): video completo con mappa BES e voci MQ montato (59:20, -16,4 LUFS, TP -1,4, nessuna pausa >2,5 s); ora controllo severo, file (vtt/timeline/scheda/quiz), dispense con testo, rapporto; consegna prevista 18:30 UTC"
+  },
+  {
+   "quando": "22/11 17:34",
+   "testo": "17:45 UTC (3/6): rigenero slide con evidenziazione card forzata in ordine e pagine variante (parole chiave) per rispettare 3 min; codifica ~35 min; poi controllo severo e consegna 18:50"
   }
  ],
- "aggiornato": "2026-11-22 17:32:16"
+ "aggiornato": "2026-11-22 17:34:33"
 }
