@@ -65,7 +65,11 @@
   {
    "quando": "22/11 17:52",
    "testo": "correzioni 22/11 (17:55 UTC): video nuovi pushati (P1 45:45, P2 45:46, volume -16,4/-16,8, jingle quiz OK, 40px/max 2-3 card, fettine ogni 90s, copertina 149s). In corso: controllo severo + agente separato, poi rapporto finale. NON fatto: mappa BES con voce, inserti a 40px, 'gia visto'. Serve altra chat per la mappa."
+  },
+  {
+   "quando": "22/11 18:07",
+   "testo": "correzioni 22/11 (18:10 UTC): agente indipendente ha trovato: 3 tagli a meta' frase, card gialle in anticipo/ritardo (fino a 26 s), schermate ferme >180 s, animazioni con >3 card, nome prof nel piede delle animazioni. Sto correggendo tagli, accensione card (evento sulle parole), 3 card max e piede nelle animazioni. Consegna fino alle 19:30 UTC. Restano non fatti: mappa BES con voce, 'gia visto', schermate ferme su card lunga."
   }
  ],
- "aggiornato": "2026-11-22 17:52:52"
+ "aggiornato": "2026-11-22 18:07:25"
 }
