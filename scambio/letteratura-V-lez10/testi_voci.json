@@ -143,5 +143,65 @@
   "nome": "R5_MPD1",
   "testo": "Ecco la mappa del professore sul crepuscolarismo. Al centro, il crepuscolarismo, dal millenovecentotré al millenovecentoundici. È un movimento poetico nato a Roma e a Torino. Il termine indica il tramonto, il crepuscolo, della poesia romantico-decadente, ed è stato coniato da Antonio Borgese. I maggiori esponenti sono Sergio Corazzini, Marino Moretti e Guido Gozzano. Tra le caratteristiche, il rifiuto dei temi del romanticismo e dell'esaltazione dei sentimenti. Poi il tema del fanciullino, diverso da quello di Pascoli: è l'incapacità di assumersi le responsabilità della vita adulta. Il linguaggio è vicino al parlato, ma con termini tecnici: una poesia minuscola. Ci sono le onomatopee. E ci sono descrizioni semplici di ambienti e di case, con temi legati alla quotidianità.",
   "lingua": "it"
+ },
+ {
+  "nome": "M1",
+  "testo": "Il crepuscolarismo, dal millenovecentotré al millenovecentoundici.",
+  "lingua": "it"
+ },
+ {
+  "nome": "M2",
+  "testo": "È un movimento poetico nato a Roma e a Torino.",
+  "lingua": "it"
+ },
+ {
+  "nome": "M3",
+  "testo": "Il termine significa tramonto, crepuscolo, della poesia romantico-decadente.",
+  "lingua": "it"
+ },
+ {
+  "nome": "M4",
+  "testo": "Il termine è stato coniato da Antonio Borgese.",
+  "lingua": "it"
+ },
+ {
+  "nome": "M5",
+  "testo": "I maggiori esponenti sono Sergio Corazzini, Marino Moretti e Guido Gozzano.",
+  "lingua": "it"
+ },
+ {
+  "nome": "M6",
+  "testo": "Ecco le caratteristiche.",
+  "lingua": "it"
+ },
+ {
+  "nome": "M7",
+  "testo": "Il tema del fanciullino, diverso da quello di Pascoli: è l'incapacità di assumersi la responsabilità della vita adulta.",
+  "lingua": "it"
+ },
+ {
+  "nome": "M8",
+  "testo": "Il rifiuto dei temi del romanticismo e dell'esaltazione dei sentimenti.",
+  "lingua": "it"
+ },
+ {
+  "nome": "M9",
+  "testo": "Un linguaggio vicino al parlato, ma con termini tecnici.",
+  "lingua": "it"
+ },
+ {
+  "nome": "M10",
+  "testo": "Una poesia minuscola.",
+  "lingua": "it"
+ },
+ {
+  "nome": "M11",
+  "testo": "Le onomatopee.",
+  "lingua": "it"
+ },
+ {
+  "nome": "M12",
+  "testo": "Descrizioni semplici di ambienti e di case, con temi legati alla quotidianità.",
+  "lingua": "it"
  }
 ]
