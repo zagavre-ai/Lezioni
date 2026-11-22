@@ -1,0 +1,330 @@
+{
+ "arg": 6,
+ "t0": 3549.5,
+ "t1": 4274.0,
+ "kw": [
+  "Centrosinistra",
+  "Scuola media unica",
+  "ENEL (ente energetico nazionale)",
+  "Papa Giovanni ventitreesimo",
+  "Piano Solo (1964)"
+ ],
+ "finestre": [
+  {
+   "t0": 3549.5,
+   "t1": 3584.1,
+   "kw_on": [
+    0
+   ],
+   "card": [
+    {
+     "t": 3549.7,
+     "testo": "I socialisti rinunciano alla vicinanza all'Unione Sovietica e al Partito Comunista, per qualificarsi come forza di governo."
+    },
+    {
+     "t": 3560.49,
+     "testo": "La Democrazia Cristiana di sinistra, guidata da Fanfani e da Moro, si avvicina ai socialisti."
+    },
+    {
+     "t": 3573.99,
+     "testo": "Il governo Fanfani godrà del sostegno parlamentare dei socialisti, che non sono ministri ma sostengono il governo nelle votazioni."
+    }
+   ]
+  },
+  {
+   "t0": 3584.1,
+   "t1": 3618.5,
+   "kw_on": [
+    1
+   ],
+   "card": [
+    {
+     "t": 3584.1,
+     "testo": "La scuola media unica, chiesta dai socialisti, è del 1962: prima di allora la scuola media era ancora divisa."
+    },
+    {
+     "t": 3592.4,
+     "testo": "I figli dei ricchi vanno alla scuola media ufficiale, che porta al ginnasio, al liceo e alle classi dirigenti del paese."
+    },
+    {
+     "t": 3605.5,
+     "testo": "I figli dei poveri, degli operai, degli artigiani e dei contadini vanno all'avviamento professionale e poi sul mercato del lavoro."
+    }
+   ]
+  },
+  {
+   "t0": 3618.5,
+   "t1": 3651.21,
+   "kw_on": [
+    1
+   ],
+   "card": [
+    {
+     "t": 3618.5,
+     "testo": "Ci deve essere una scuola media per tutti: tre anni di scuola media, per ricchi e poveri, nello stesso istituto."
+    },
+    {
+     "t": 3630.02,
+     "testo": "Dopo la scuola media, lo studente e la famiglia sceglieranno se mandarlo al liceo o all'istituto tecnico professionale."
+    }
+   ]
+  },
+  {
+   "t0": 3651.21,
+   "t1": 3712.2,
+   "kw_on": [
+    2
+   ],
+   "card": [
+    {
+     "t": 3651.21,
+     "testo": "Nasce anche l'ENEL, cioè l'ente energetico nazionale, con la nazionalizzazione dell'energia elettrica."
+    },
+    {
+     "t": 3664.17,
+     "testo": "Lo Stato controlla la corrente elettrica e si fa carico di portarla in tutte le case degli italiani, non solo in quelle dei ricchi."
+    },
+    {
+     "t": 3685.38,
+     "testo": "Mettendo capitali pubblici, le bollette non saranno altissime, per aiutare le classi povere a non andare in rovina economica."
+    }
+   ]
+  },
+  {
+   "t0": 3712.2,
+   "t1": 3760.87,
+   "kw_on": [
+    0
+   ],
+   "card": [
+    {
+     "t": 3712.2,
+     "testo": "L'obbligo scolastico fino a 14 anni lo prevedeva già il ministro Gentile durante il fascismo, ma ne venne rafforzato il concetto."
+    },
+    {
+     "t": 3727.7,
+     "testo": "A livello elettorale c'è un dialogo con i socialisti, che gettano le basi per un primo governo organico di centrosinistra alle elezioni del 1963."
+    },
+    {
+     "t": 3750.68,
+     "testo": "Dal 1963, con il primo governo Moro, a guida democristiana, i socialisti sono direttamente al governo come ministri."
+    }
+   ]
+  },
+  {
+   "t0": 3760.87,
+   "t1": 3816.45,
+   "kw_on": [
+    0
+   ],
+   "card": [
+    {
+     "t": 3760.87,
+     "testo": "La stagione del centrosinistra parte anche perché nel 1964 muore Palmiro Togliatti, il leader del Partito Comunista Italiano."
+    },
+    {
+     "t": 3781.41,
+     "testo": "Sono gli anni del dialogo tra America e Russia, cioè tra Stati Uniti e Unione Sovietica."
+    },
+    {
+     "t": 3792.01,
+     "testo": "Il Partito Socialista è sempre più al governo e convince i democristiani a fare riforme, perché Moro guarda a sinistra e non a destra."
+    }
+   ]
+  },
+  {
+   "t0": 3816.45,
+   "t1": 3875.0,
+   "kw_on": [
+    0
+   ],
+   "card": [
+    {
+     "t": 3816.45,
+     "testo": "Aldo Moro guiderà il primo governo organico di centrosinistra nel 1963."
+    },
+    {
+     "t": 3848.47,
+     "testo": "Il boom economico va dal 1958 al 1963, quel quinquennio, e i benefici ci sono per tutti gli anni Sessanta."
+    },
+    {
+     "t": 3858.31,
+     "testo": "Il boom economico è il quinquennio 1958-1963: nel 1964 arriva una prima crisi economica, poi una ripresa nel 1965."
+    }
+   ]
+  },
+  {
+   "t0": 3875.0,
+   "t1": 3938.37,
+   "kw_on": [],
+   "card": [
+    {
+     "t": 3875.0,
+     "testo": "Il PIL, cioè il prodotto interno lordo, cresce del 6-7 per cento all'anno per cinque anni: più del 50% rispetto a prima."
+    },
+    {
+     "t": 3895.0,
+     "testo": "Aumentano le spese pubbliche e il debito pubblico, ma è ancora inferiore al 100% del prodotto interno lordo."
+    },
+    {
+     "t": 3907.33,
+     "testo": "È l'onda lunga del Piano Marshall, cioè degli aiuti americani, e della gestione oculata e moderata della Democrazia Cristiana."
+    }
+   ]
+  },
+  {
+   "t0": 3938.37,
+   "t1": 3979.27,
+   "kw_on": [
+    3
+   ],
+   "card": [
+    {
+     "t": 3938.53,
+     "testo": "Con la presidenza Kennedy negli Stati Uniti e Khrushchev si avvia il dialogo, anche se nel 1962 c'è la crisi di Cuba."
+    },
+    {
+     "t": 3947.97,
+     "testo": "C'è anche il pontificato di papa Giovanni ventitreesimo, il papa bergamasco, che aveva inaugurato una svolta epocale."
+    },
+    {
+     "t": 3961.45,
+     "testo": "Il papa dice alla sua Democrazia Cristiana di aprire alla sinistra in chiave sociale: applicate il Vangelo."
+    }
+   ]
+  },
+  {
+   "t0": 3979.27,
+   "t1": 4003.11,
+   "kw_on": [
+    3
+   ],
+   "card": [
+    {
+     "t": 3979.27,
+     "testo": "Giovanni ventitreesimo sarà il papa che inaugurerà il Concilio Vaticano II."
+    },
+    {
+     "t": 3990.89,
+     "testo": "Con il Concilio Vaticano II i paesi cattolici potranno avere la messa nella lingua nazionale: è una svolta epocale."
+    }
+   ]
+  },
+  {
+   "t0": 4003.11,
+   "t1": 4047.14,
+   "kw_on": [
+    3
+   ],
+   "card": [
+    {
+     "t": 4003.19,
+     "testo": "Giovanni ventitreesimo, molto lungimirante, fu poi attaccato dai conservatori, che lo accusarono di essere stato lo zerbino delle sinistre."
+    },
+    {
+     "t": 4027.21,
+     "testo": "Il papa vuole integrare le sinistre ed evangelizzarle, e rendere le forze democratiche consapevoli di andare d'accordo con i cattolici."
+    }
+   ]
+  },
+  {
+   "t0": 4047.14,
+   "t1": 4101.1,
+   "kw_on": [
+    0
+   ],
+   "card": [
+    {
+     "t": 4047.14,
+     "testo": "Anche la Chiesa di Giovanni ventitreesimo è importante in questo discorso, perché inaugura l'apertura a sinistra."
+    },
+    {
+     "t": 4056.98,
+     "testo": "Aldo Moro può partire con i socialisti al governo, senza grossi problemi."
+    },
+    {
+     "t": 4076.81,
+     "testo": "L'azione riformatrice del primo governo Moro, l'apertura della Chiesa e la distanza dal fascismo scontentarono i fascisti, che ancora c'erano."
+    }
+   ]
+  },
+  {
+   "t0": 4101.1,
+   "t1": 4157.93,
+   "kw_on": [
+    4
+   ],
+   "card": [
+    {
+     "t": 4101.1,
+     "testo": "Nel 1964 le tensioni furono così acute che sui giornali venne alla luce il Piano Solo."
+    },
+    {
+     "t": 4123.7,
+     "testo": "Non è mai stato chiarito se davvero ci fu il Piano Solo o se fosse un tentativo di inventare un colpo di Stato per spaventare le sinistre."
+    },
+    {
+     "t": 4137.4,
+     "testo": "Il Piano Solo era un piano per un colpo di Stato, con il concorso dei soli carabinieri guidati dal generale De Lorenzo."
+    }
+   ]
+  },
+  {
+   "t0": 4157.93,
+   "t1": 4210.6,
+   "kw_on": [
+    4
+   ],
+   "card": [
+    {
+     "t": 4157.93,
+     "testo": "Il generale avrebbe dovuto proclamare lo stato d'emergenza e lo stato d'assedio, per evitare che le sinistre continuassero a stare al potere."
+    },
+    {
+     "t": 4174.7,
+     "testo": "Non tutti erano d'accordo: il generale, con molti uomini dei servizi segreti e degli apparati dello Stato, vollero architettare un colpo di Stato."
+    },
+    {
+     "t": 4200.84,
+     "testo": "Le sinistre vanno al potere con la Democrazia Cristiana, il colpo di Stato non scatta e il generale De Lorenzo viene fermato."
+    }
+   ]
+  },
+  {
+   "t0": 4210.6,
+   "t1": 4246.05,
+   "kw_on": [
+    4
+   ],
+   "card": [
+    {
+     "t": 4215.96,
+     "testo": "De Lorenzo venne punito e dovette lasciare la divisa, ma poi diventò parlamentare della Repubblica Italiana nel Movimento Sociale Italiano."
+    },
+    {
+     "t": 4237.9,
+     "testo": "Anche i socialisti prendono le distanze dalla minaccia comunista: si cerca di realizzare una piena democrazia parlamentare, liberale e pluripartitica."
+    }
+   ]
+  },
+  {
+   "t0": 4246.05,
+   "t1": 4274.0,
+   "kw_on": [
+    0
+   ],
+   "card": [
+    {
+     "t": 4246.45,
+     "testo": "I socialisti rinunciano alla rivoluzione, i comunisti no; la Democrazia Cristiana si apre a sinistra e ci sono tensioni a destra."
+    },
+    {
+     "t": 4258.85,
+     "testo": "Poi arriveremo agli anni Settanta e alla vera tensione sociale, con terrorismo e stragismo di estrema sinistra e di estrema destra."
+    }
+   ]
+  }
+ ],
+ "pausa_A6": 3917.19,
+ "note": "Confini: arg6 comincia a 3549.5 (la frase 'Che rinuncia in parallelo...' 3549.7-3573 continua dall'arg5: fine frase 3549.31); la prima card (3549.7) fonde 3549.7+3554.5+3560.49 ('rinuncia... nell'ottica di qualificarsi come forza di governo'), parole del prof. Contenuto finisce a 4273.54 (fine di 'di estrema sinistra e di estrema destra.', ultima frase, 4270.79-4273.54); il video dura 4274: NON ci sono saluti ne' chiusura detti dal prof (trasc. finisce a 4273.54 senza 'grazie/arrivederci'); secondo finale esatto del contenuto = 4273.54 (t1 messo a 4274.0). Anomalie: 'Pietronelli sarà ministro di Moro' (3757.96) = Pietro Nenni, non usato in card; 'Muore e morto anche Stalin' (3777.19) e' fuori cronologia (Stalin m. 1953) e non usato; 'Crusoff'=Khrushchev, scritto cosi'; 'ripresa nel sessantinque' ASR, letto come 1965; ENEL: il prof dice 'ente energetico nazionale' (in realta' Ente nazionale per l'energia elettrica), come dice lui; 'obbligo scolastico fino a 14 anni gia' previsto da Gentile' come dice lui; 'Giovanni ventitreesimo ... Concilio Vaticano II dal Medioevo/Lutero' frase confusa, non usata; 'le sinistre... ha spaventato Moro' ecc. in 4123.7 'fosse un tentativo di inventare un colpo di Stato' parole sue; 'De Lorenzo diventa parlamentare nel Movimento Sociale Italiano' (in card tolto 'partito piu' chiaramente fascista'); 'il Piano Solo architettato nel 1964' (in realta' 1964 rivelato 1967) come dice lui. 4174.7: tolto 'magistratura' per lunghezza. Card 3938.53 fonde 'Kennedy negli Stati Uniti e Khrushchev' con 'in Unione Sovietica' (riformulata per brevita', senza aggiunte). Sigla 'DC' sempre espansa; PIL spiegato; USA/URSS gia' espresse per esteso. pausa_A6=3917.19: fine di 'Ma e' anche l'onda lunga del Piano Marshall ... moderata della DC.' (50.7% dell'argomento)."
+}

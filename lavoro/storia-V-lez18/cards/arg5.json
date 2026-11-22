@@ -1,0 +1,260 @@
+{
+ "arg": 5,
+ "t0": 2978.98,
+ "t1": 3549.5,
+ "kw": [
+  "Boom economico 1958-1963",
+  "Dall'agricoltura all'industria",
+  "Fiat 500 ed elettrodomestici",
+  "Ferie e vacanze di massa",
+  "Emigrazione dal Sud a Torino"
+ ],
+ "finestre": [
+  {
+   "t0": 2978.98,
+   "t1": 3042.8,
+   "kw_on": [
+    0
+   ],
+   "card": [
+    {
+     "t": 2978.98,
+     "testo": "Negli anni Cinquanta l'Italia torna a un bilancio dello Stato e a un'occupazione simili a quelli precedenti la Seconda guerra mondiale."
+    },
+    {
+     "t": 2995.91,
+     "testo": "Gli anni Cinquanta prefigurano il boom economico, che si verificherà alla fine degli anni Cinquanta e nei primi anni Sessanta."
+    },
+    {
+     "t": 3015.37,
+     "testo": "Dopo De Gasperi, che è morto, ci sono altre elezioni e altri governi a guida democristiana: Segni, Fanfani, Pella, Scelba."
+    }
+   ]
+  },
+  {
+   "t0": 3042.8,
+   "t1": 3092.7,
+   "kw_on": [],
+   "card": [
+    {
+     "t": 3042.8,
+     "testo": "La Democrazia Cristiana è un partito di massa molto strutturato ma diviso: una corrente moderata di destra e una corrente di sinistra."
+    },
+    {
+     "t": 3061.03,
+     "testo": "La corrente di sinistra è orientata al cattolicesimo sociale e al dialogo, soprattutto con i socialisti, che hanno rotto con l'Unione Sovietica."
+    },
+    {
+     "t": 3079.0,
+     "testo": "L'assetto centrista entrò in crisi negli anni Cinquanta per la sua instabilità e per la crescente domanda di riforme da parte della società."
+    }
+   ]
+  },
+  {
+   "t0": 3092.7,
+   "t1": 3139.0,
+   "kw_on": [],
+   "card": [
+    {
+     "t": 3092.7,
+     "testo": "La Costituzione prevede la Corte Costituzionale, ma non parte nel 1948: si rimanda a una legge ordinaria che il Parlamento non ha ancora fatto."
+    },
+    {
+     "t": 3107.99,
+     "testo": "La Costituzione prevede la nascita delle regioni, ma le regioni non esistono ancora."
+    },
+    {
+     "t": 3123.97,
+     "testo": "La società chiede riforme e di superare certe leggi ancora fasciste, come il Codice Rocco, il codice penale fatto dal ministro fascista."
+    }
+   ]
+  },
+  {
+   "t0": 3139.0,
+   "t1": 3203.1,
+   "kw_on": [
+    0
+   ],
+   "card": [
+    {
+     "t": 3139.0,
+     "testo": "Le sinistre vogliono il divorzio, che in Francia c'è dall'inizio dell'Ottocento grazie a Napoleone; in Italia non c'è ancora."
+    },
+    {
+     "t": 3163.8,
+     "testo": "L'Italia è distratta, tra il 1958 e il 1963, perché in questi anni si verifica il miracolo economico, il boom economico."
+    },
+    {
+     "t": 3178.0,
+     "testo": "Un paese essenzialmente agricolo diventa una potenza industriale."
+    }
+   ]
+  },
+  {
+   "t0": 3203.1,
+   "t1": 3234.4,
+   "kw_on": [
+    1
+   ],
+   "card": [
+    {
+     "t": 3203.1,
+     "testo": "Fino agli anni Cinquanta compresi, la maggior parte del lavoro era in agricoltura."
+    },
+    {
+     "t": 3207.7,
+     "testo": "Poi la maggior parte del lavoro passa all'industria e, negli anni Ottanta, al terziario: servizi, trasporti, scuole, medicina."
+    }
+   ]
+  },
+  {
+   "t0": 3234.4,
+   "t1": 3280.23,
+   "kw_on": [
+    1,
+    2
+   ],
+   "card": [
+    {
+     "t": 3234.4,
+     "testo": "L'Italia diventa una grande potenza industriale, trainata dal boom di settori come l'automobilistico: la Fiat di Torino, la Fiat 500."
+    },
+    {
+     "t": 3248.76,
+     "testo": "Arriva lo strumento delle rate e arrivano gli elettrodomestici in casa: le donne non devono più lavare i panni al fiume."
+    },
+    {
+     "t": 3266.2,
+     "testo": "L'elettrodomestico colonizza ogni casa, il frigorifero, la lavatrice, e negli anni Sessanta arriva il televisore."
+    }
+   ]
+  },
+  {
+   "t0": 3280.23,
+   "t1": 3330.85,
+   "kw_on": [
+    0
+   ],
+   "card": [
+    {
+     "t": 3281.51,
+     "testo": "La siderurgia, la chimica e il settore automobilistico fanno da padroni, e i prodotti italiani attirano sul mercato internazionale."
+    },
+    {
+     "t": 3300.7,
+     "testo": "C'è crescita economica ma non dei salari, e i lavoratori vorrebbero vedere distribuita un po' questa ricchezza."
+    },
+    {
+     "t": 3314.7,
+     "testo": "Questa crescita generò un profondo mutamento nei consumi e negli stili di vita: motorizzazione di massa, televisore, vacanze balneari."
+    }
+   ]
+  },
+  {
+   "t0": 3330.85,
+   "t1": 3378.5,
+   "kw_on": [
+    3
+   ],
+   "card": [
+    {
+     "t": 3330.85,
+     "testo": "Prima il contadino non andava in vacanza, e l'operaio al massimo la domenica passeggiava per il centro della città o faceva un picnic."
+    },
+    {
+     "t": 3340.71,
+     "testo": "Il babbo lavora, mantiene moglie e due figli e con un'automobilina riesce a portarsi al mare una o due settimane."
+    },
+    {
+     "t": 3356.7,
+     "testo": "Le ferie retribuite diventano obbligatorie, perché la Costituzione, voluta dalle sinistre, richiama esplicitamente la retribuzione delle ferie."
+    }
+   ]
+  },
+  {
+   "t0": 3378.5,
+   "t1": 3432.4,
+   "kw_on": [
+    4
+   ],
+   "card": [
+    {
+     "t": 3378.5,
+     "testo": "Si fanno più figli e si costruiscono più case, ma chiudendo un occhio: nascono i palazzinari e l'abusivismo edilizio."
+    },
+    {
+     "t": 3399.43,
+     "testo": "Il lavoro è al nord e quindi dal sud inizia una massiccia emigrazione verso il nord."
+    },
+    {
+     "t": 3419.06,
+     "testo": "Torino è la città più meridionale d'Italia: due terzi dei suoi abitanti sono di origini meridionali o di recente immigrazione meridionale."
+    }
+   ]
+  },
+  {
+   "t0": 3432.4,
+   "t1": 3479.14,
+   "kw_on": [
+    2,
+    4
+   ],
+   "card": [
+    {
+     "t": 3432.4,
+     "testo": "Torino è profondamente mutata, perché la Fiat è diventata la vera Torino, non più la Torino città."
+    },
+    {
+     "t": 3454.1,
+     "testo": "Molti operai, con contratto stabile e stipendio, non trovavano l'affitto: non c'era spazio e molti non affittavano ai meridionali."
+    },
+    {
+     "t": 3463.46,
+     "testo": "Questi operai dormivano sulle panchine della stazione: non erano senza tetto, ma senza casa, e la mattina andavano a lavorare alla Fiat."
+    }
+   ]
+  },
+  {
+   "t0": 3479.14,
+   "t1": 3519.3,
+   "kw_on": [
+    4
+   ],
+   "card": [
+    {
+     "t": 3479.14,
+     "testo": "Le periferie urbane triplicano e quadruplicano, ma sono costruite all'ultimo e completamente prive di servizi."
+    },
+    {
+     "t": 3488.1,
+     "testo": "Le palazzine spesso non hanno il riscaldamento, l'acqua corrente non è per tutti e il bagno è sul pianerottolo."
+    },
+    {
+     "t": 3497.4,
+     "testo": "Il sud si desertifica e si spopola."
+    }
+   ]
+  },
+  {
+   "t0": 3519.3,
+   "t1": 3549.5,
+   "kw_on": [],
+   "card": [
+    {
+     "t": 3519.3,
+     "testo": "Il governo Fanfani, tra il 1960 e il 1962, è molto importante: Fanfani appartiene alla corrente di sinistra della Democrazia Cristiana."
+    },
+    {
+     "t": 3534.8,
+     "testo": "Aldo Moro, presidente del consiglio dal 1963 al 1968, appartiene anche lui alla corrente di sinistra della Democrazia Cristiana."
+    },
+    {
+     "t": 3540.1,
+     "testo": "Si avviano progressive trasformazioni anche a favore delle classi lavoratrici e avvicinamenti verso il partito socialista."
+    }
+   ]
+  }
+ ],
+ "pausa_A5": 3279.91,
+ "note": "Confini: l'argomento comincia a 2978.98 (inizio di frase, 'Prebelliche, nel senso che l'Italia negli anni cinquanta colma il divario') e non a ~2940: 2928.9-2978 e' ancora il Piano casa (arg4) e 2960-2976 sono frammenti. Finisce a 3549.5 (dopo 'verso il partito socialista.' che termina a 3549.31); da 3549.7 la frase continua nell'arg6. Anomalie/ASR: 'anquanta'=anni Cinquanta; 'distratta' (3168.7) forse 'distratta' voluta (=non pensa ad altro), lasciata; 'elezioni del 53-58 per la seconda legislatura' dette cosi' dal prof (in realta' 1953 e 1958, seconde e terza legislatura): card scritta senza questo dettaglio. 'la Costituzione prevede la Corte Costituzionale, ma non parte nel 48, siamo a quasi dieci anni dopo' (in realta' la Corte entra in funzione nel 1956) e 'le regioni non esistono ancora' (a statuto ordinario dal 1970): come dice il prof. 'governo Segni, Fanfani, Pella, Scelba': l'ASR dice 'Fanfan', 'pella', 'scelba'. 'Torino: due terzi degli abitanti di origine meridionale' dato dichiarato dal prof, non verificato. 'Giovanni ... Moro presidente fino al 68' come dice. Il prof dice 'ferie retribuite... la Costituzione l'hanno voluta le sinistre' (card riformulata minimamente). Card 3203.1/3207.7: 'terziario' negli anni Ottanta come dice. Lasciata fuori la frase 3222.4 ('shock'). pausa_A5=3279.91 e' la fine di 'Ma quello e' per intrattenimento, ma anche per informazione.' (incluso il 'Comunque la societa' cambia.')."
+}

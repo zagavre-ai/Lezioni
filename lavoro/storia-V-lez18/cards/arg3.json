@@ -1,0 +1,57 @@
+{
+ "arg": 3,
+ "t0": 2030.4,
+ "t1": 2098.5,
+ "kw": [
+  "Statuto del Regno",
+  "Parlamento bicamerale",
+  "Fiducia al governo"
+ ],
+ "finestre": [
+  {
+   "t0": 2030.4,
+   "t1": 2067.8,
+   "kw_on": [
+    0,
+    1
+   ],
+   "card": [
+    {
+     "t": 2034.6,
+     "testo": "Questa Costituzione la sappiamo già: la approfondisco poco, ma è sempre meglio ripassarla."
+    },
+    {
+     "t": 2046.8,
+     "testo": "La Costituzione ricorda lo Statuto del Regno di Sardegna e d'Italia, che era in vigore fino a poco prima: non è molto diverso."
+    },
+    {
+     "t": 2054.5,
+     "testo": "Il Parlamento è bicamerale, con Camera e Senato; da qui in avanti anche il Senato sarà elettivo."
+    }
+   ]
+  },
+  {
+   "t0": 2067.8,
+   "t1": 2098.5,
+   "kw_on": [
+    2
+   ],
+   "card": [
+    {
+     "t": 2067.8,
+     "testo": "Le due camere hanno il potere legislativo, l'esecutivo appartiene al governo e la magistratura ha il potere giudiziario."
+    },
+    {
+     "t": 2076.7,
+     "testo": "Nel Regno d'Italia il governo era incaricato dal re e andava avanti finché il re voleva."
+    },
+    {
+     "t": 2083.4,
+     "testo": "Nella Repubblica il governo deve chiedere la fiducia al Parlamento, altrimenti non entra in carica."
+    }
+   ]
+  }
+ ],
+ "pausa_AN": 2067.8,
+ "note": "Il prof torna sulla Costituzione anche in 1805-2020 (arg2, assemblea costituente) e 3086-3102 (Corte costituzionale, regioni): non usate. 2030.4-2034 e filler ('Bene', 'Ecco'); la card 2034.6 e meta-commento del prof ma e sua frase. ASR 2062.9 'luminato dal re' = nominato dal re; 2096.6 'Obrigatorio' = rumore. t1 2098.5 e l'inizio della frase seguente ('Va bene, e quindi...') che continua con le elezioni: al confine con arg4 la frase 2098.5 e di raccordo. pausa_AN 2067.8 e al 55% ma a meta di un elenco (camere eleggibili): in alternativa 2062.9 (49%)."
+}

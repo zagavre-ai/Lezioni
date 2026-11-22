@@ -1,0 +1,176 @@
+{
+ "arg": 1,
+ "t0": 187.7,
+ "t1": 880.9,
+ "kw": [
+  "Italia devastata",
+  "Mercato nero",
+  "Lotte contadine",
+  "Palmiro Togliatti",
+  "Amnistia"
+ ],
+ "finestre": [
+  {
+   "t0": 187.7,
+   "t1": 327.6,
+   "kw_on": [
+    0
+   ],
+   "card": [
+    {
+     "t": 187.7,
+     "testo": "All'indomani della seconda guerra mondiale l'Italia affrontò un periodo di profonda trasformazione."
+    },
+    {
+     "t": 212.3,
+     "testo": "Fu un periodo segnato da gravissime difficoltà economiche e sociali, ma anche da una straordinaria spinta verso la ricostruzione democratica."
+    },
+    {
+     "t": 266.3,
+     "testo": "I bombardamenti continuano, soprattutto nel nord dell'Italia, la zona in cui si concentrava il maggior numero di industrie."
+    }
+   ]
+  },
+  {
+   "t0": 327.6,
+   "t1": 418.4,
+   "kw_on": [
+    0,
+    1
+   ],
+   "card": [
+    {
+     "t": 330.2,
+     "testo": "Le infrastrutture sono distrutte, perché i tedeschi in fuga fanno saltare i ponti per rallentare l'arrivo dei nemici anglo-americani."
+    },
+    {
+     "t": 365.4,
+     "testo": "Si è contato circa il venti per cento delle industrie distrutte e il sessanta per cento delle case distrutte."
+    },
+    {
+     "t": 405.7,
+     "testo": "Il mercato nero faceva da padrone: tutti i prodotti si trovavano, ma a prezzi altissimi."
+    }
+   ]
+  },
+  {
+   "t0": 418.4,
+   "t1": 484.8,
+   "kw_on": [
+    1
+   ],
+   "card": [
+    {
+     "t": 418.9,
+     "testo": "Il governo aveva cercato di imporre il prezzo del pane, per venire incontro alle esigenze popolari."
+    },
+    {
+     "t": 446.7,
+     "testo": "L'abolizione del prezzo politico del pane non fece altro che provocare l'aumento della borsa nera e della povertà delle famiglie."
+    },
+    {
+     "t": 462.9,
+     "testo": "La guerra è finita e quindi adesso bisogna cavarsela un po' tutti da soli: bisogna anche ricostruire l'Italia."
+    }
+   ]
+  },
+  {
+   "t0": 484.8,
+   "t1": 591.8,
+   "kw_on": [
+    2
+   ],
+   "card": [
+    {
+     "t": 484.8,
+     "testo": "A questa precarietà economica si affiancava un drammatico clima di violenza, soprattutto nel Mezzogiorno."
+    },
+    {
+     "t": 493.7,
+     "testo": "Le tensioni erano esasperate dalle lotte contadine per la redistribuzione delle terre latifondiste."
+    },
+    {
+     "t": 559.0,
+     "testo": "La mafia, nel frattempo, approfitta anche del mercato nero per distruggere ancora di più lo Stato."
+    }
+   ]
+  },
+  {
+   "t0": 591.8,
+   "t1": 664.1,
+   "kw_on": [],
+   "card": [
+    {
+     "t": 592.3,
+     "testo": "Si sono verificati numerosi regolamenti di conti e di violenze da parte di antifascisti sui fascisti."
+    },
+    {
+     "t": 655.1,
+     "testo": "Questi eventi lasciano il paese sgomento, molto arrabbiato e materialmente più povero di prima."
+    }
+   ]
+  },
+  {
+   "t0": 664.1,
+   "t1": 748.9,
+   "kw_on": [
+    3,
+    4
+   ],
+   "card": [
+    {
+     "t": 664.6,
+     "testo": "Emerse l'urgenza di una pacificazione nazionale, perseguita in particolare dal leader comunista Palmiro Togliatti."
+    },
+    {
+     "t": 714.7,
+     "testo": "Togliatti propose per primo, e poi tutto il governo, un'ampia amnistia per i reati politici commessi durante la guerra."
+    },
+    {
+     "t": 734.9,
+     "testo": "In Italia non ci sarà il processo di Norimberga né quello di Tokyo, perché i fascisti sono stati perdonati."
+    }
+   ]
+  },
+  {
+   "t0": 748.9,
+   "t1": 817.9,
+   "kw_on": [
+    4
+   ],
+   "card": [
+    {
+     "t": 749.4,
+     "testo": "Sono le stranezze italiane, ma anche la necessità psicologica di superare in tutti i modi quello che c'è stato."
+    },
+    {
+     "t": 764.2,
+     "testo": "Costruiremo un paese democratico, migliore di prima. Quella è la nostra missione."
+    },
+    {
+     "t": 790.5,
+     "testo": "L'amnistia fu pensata per tutti i crimini di guerra e per tutti gli episodi di violenza, anche dei partigiani."
+    }
+   ]
+  },
+  {
+   "t0": 817.9,
+   "t1": 880.9,
+   "kw_on": [
+    4
+   ],
+   "card": [
+    {
+     "t": 818.4,
+     "testo": "Il governo De Gasperi pensò che l'unico modo per pacificare il paese fosse un'amnistia generalizzata, per fascisti e antifascisti."
+    },
+    {
+     "t": 849.5,
+     "testo": "Alcide De Gasperi è l'ultimo presidente del Consiglio dei ministri del Regno d'Italia e il primo della Repubblica Italiana."
+    }
+   ]
+  }
+ ],
+ "pausa_AN": 484.8,
+ "note": "ASR rumoroso. 'sessanta per cento delle case distrutte' (370-386 s): cifra riportata come riconosciuta, da riascoltare (storicamente il dato non torna con 'una buona metà rasa'). Card 559.0: l'attacco della frase cade a meta riga ASR, t approssimato (+-3 s). Card 462.9 'La guerra e finita...' unisce due frasi contigue. Il prof dice 'regno del Sud' e 'ovra' (non usati nelle card). Partito repubblicano escluso dal governo/CLN (682-710 s) non in card, solo parlato. 'Palmiro Togliatti allora ministro di Giustizia' omesso nella card 664.6 per lunghezza. Confini argomento: t0 187.7 = inizio frase, t1 880.9 = inizio frase successiva (CLN)."
+}

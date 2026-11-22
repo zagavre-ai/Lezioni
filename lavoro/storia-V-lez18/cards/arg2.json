@@ -1,0 +1,398 @@
+{
+ "arg": 2,
+ "t0": 880.9,
+ "t1": 2030.4,
+ "kw": [
+  "Partiti di massa",
+  "Governi di unità nazionale",
+  "Referendum del 2 giugno 1946",
+  "Assemblea Costituente",
+  "Madri costituenti"
+ ],
+ "finestre": [
+  {
+   "t0": 880.9,
+   "t1": 948.2,
+   "kw_on": [
+    0,
+    1
+   ],
+   "card": [
+    {
+     "t": 880.9,
+     "testo": "Il Comitato di Liberazione Nazionale (CLN) è composto da tutte le forze antifasciste disposte a collaborare con il re."
+    },
+    {
+     "t": 912.1,
+     "testo": "I partiti sono stati nuovamente legalizzati dopo la caduta del fascismo dal governo Badoglio."
+    },
+    {
+     "t": 942.1,
+     "testo": "I leader dei partiti, nascosti spesso all'estero, affluiscono al Sud."
+    }
+   ]
+  },
+  {
+   "t0": 948.2,
+   "t1": 986.9,
+   "kw_on": [
+    0
+   ],
+   "card": [
+    {
+     "t": 948.2,
+     "testo": "Palmiro Togliatti arriva dall'Unione Sovietica e porta la parola dei comunisti."
+    },
+    {
+     "t": 960.4,
+     "testo": "La Democrazia Cristiana, guidata da Alcide De Gasperi, rinasce dal Partito Popolare Italiano: è confessionale ma democratica."
+    },
+    {
+     "t": 975.6,
+     "testo": "Il Partito Socialista Italiano (PSI) è guidato da Pietro Nenni, il Partito Comunista Italiano (PCI) da Palmiro Togliatti."
+    }
+   ]
+  },
+  {
+   "t0": 986.9,
+   "t1": 1061.3,
+   "kw_on": [
+    0
+   ],
+   "card": [
+    {
+     "t": 988.5,
+     "testo": "Queste tre forze scriveranno in buona parte il testo della Costituzione che ancora oggi abbiamo."
+    },
+    {
+     "t": 1018.5,
+     "testo": "Nel Comitato di Liberazione Nazionale ci sono anche il Partito d'Azione, che poi si dissolverà, e il Partito Liberale."
+    },
+    {
+     "t": 1041.9,
+     "testo": "Il Partito Repubblicano non partecipa ufficialmente perché non vuole avere a che fare con il re."
+    }
+   ]
+  },
+  {
+   "t0": 1061.3,
+   "t1": 1101.7,
+   "kw_on": [
+    1
+   ],
+   "card": [
+    {
+     "t": 1061.3,
+     "testo": "Nei governi di unità nazionale De Gasperi è presidente, Nenni ministro e Togliatti ministro di Giustizia, che fa l'amnistia."
+    },
+    {
+     "t": 1084.4,
+     "testo": "A dicembre del 1945 inizia il governo De Gasperi, a guida democristiana, fino al giugno del 1946."
+    },
+    {
+     "t": 1093.6,
+     "testo": "A giugno del 1946 ci sarà il famoso referendum sulla forma politica dello Stato."
+    }
+   ]
+  },
+  {
+   "t0": 1101.7,
+   "t1": 1168.3,
+   "kw_on": [
+    1
+   ],
+   "card": [
+    {
+     "t": 1101.7,
+     "testo": "Sul piano politico l'Italia visse una transizione cruciale, guidata dai primi governi di unità nazionale."
+    },
+    {
+     "t": 1125.5,
+     "testo": "Roma è liberata dagli anglo-americani nel giugno del 1944 e torna simbolicamente capitale, ma il governo resta nel Sud."
+    },
+    {
+     "t": 1140.4,
+     "testo": "Dopo il governo Bonomi inizia il governo guidato dal partigiano Ferruccio Parri, nel giugno del 1945, che durerà sei mesi."
+    }
+   ]
+  },
+  {
+   "t0": 1168.3,
+   "t1": 1227.5,
+   "kw_on": [
+    1
+   ],
+   "card": [
+    {
+     "t": 1168.3,
+     "testo": "Il governo Parri vuole una sorta di Norimberga per i fascisti: punire chi si era tesserato e chi aveva combattuto con i tedeschi."
+    },
+    {
+     "t": 1188.6,
+     "testo": "La Democrazia Cristiana, che sostiene il governo, vorrebbe pacificare, perché molti democristiani erano vecchi fascisti riconvertiti."
+    },
+    {
+     "t": 1204.6,
+     "testo": "Socialisti e comunisti vogliono l'epurazione, i democristiani già meno, e la Chiesa vorrebbe evitare altro sangue."
+    }
+   ]
+  },
+  {
+   "t0": 1227.5,
+   "t1": 1283.9,
+   "kw_on": [
+    0,
+    1
+   ],
+   "card": [
+    {
+     "t": 1227.5,
+     "testo": "Non si riesce ad azzerare la classe dirigente italiana, quindi si tollerò e si fece l'amnistia."
+    },
+    {
+     "t": 1240.9,
+     "testo": "Parri viene accompagnato alla porta perché il suo governo è troppo radicale; nasce il governo De Gasperi, più moderato."
+    },
+    {
+     "t": 1259.6,
+     "testo": "Nell'immediato dopoguerra si affermano i grandi partiti di massa: democristiani, socialisti e comunisti."
+    }
+   ]
+  },
+  {
+   "t0": 1283.9,
+   "t1": 1355.8,
+   "kw_on": [
+    0
+   ],
+   "card": [
+    {
+     "t": 1283.9,
+     "testo": "I nazionalisti fascisti, sopravvissuti, si raccolgono in un piccolo partito di estrema destra."
+    },
+    {
+     "t": 1293.9,
+     "testo": "I partiti repubblicano e liberale raccolgono poco consenso, perché non sono stati in grado di fermare Mussolini."
+    },
+    {
+     "t": 1311.4,
+     "testo": "La Democrazia Cristiana, guidata da Alcide De Gasperi come segretario, è sostenuta dalla Chiesa e dalle classi moderate."
+    }
+   ]
+  },
+  {
+   "t0": 1355.8,
+   "t1": 1450.0,
+   "kw_on": [
+    0
+   ],
+   "card": [
+    {
+     "t": 1355.8,
+     "testo": "Il Partito Comunista Italiano (PCI) è di Togliatti e il Partito Socialista Italiano (PSI) di Pietro Nenni."
+    },
+    {
+     "t": 1402.5,
+     "testo": "I monarchici sono, in teoria, tutti gli italiani perché è ancora il Regno d'Italia, ma sanno che lo Stato sta per trasformarsi."
+    },
+    {
+     "t": 1411.9,
+     "testo": "Poi c'è una destra qualunquista, non fascista, anticomunista e antistatale, che darà vita al movimento dell'Uomo qualunque."
+    }
+   ]
+  },
+  {
+   "t0": 1450.0,
+   "t1": 1520.7,
+   "kw_on": [
+    0
+   ],
+   "card": [
+    {
+     "t": 1453.8,
+     "testo": "Il movimento dell'Uomo qualunque, fondato da un comico, è antisistema e si dissolverà pochi anni dopo."
+    },
+    {
+     "t": 1486.0,
+     "testo": "Il Movimento Sociale Italiano (MSI) si richiama alla Repubblica Sociale Italiana di Mussolini ed è fondato a dicembre del 1945."
+    },
+    {
+     "t": 1506.2,
+     "testo": "Il fondatore del Movimento Sociale Italiano è un ex federale, cioè un governatore provinciale fascista."
+    }
+   ]
+  },
+  {
+   "t0": 1520.7,
+   "t1": 1630.8,
+   "kw_on": [
+    0
+   ],
+   "card": [
+    {
+     "t": 1520.7,
+     "testo": "Il Movimento Sociale Italiano non ha superato il fascismo: per concorrere alle elezioni rinuncia alla violenza."
+    },
+    {
+     "t": 1560.3,
+     "testo": "Storici e politologi lo classificano come partito parafascista, ma non ancora postfascista."
+    },
+    {
+     "t": 1581.0,
+     "testo": "Il nocciolo di questi ideali confluirà poi in Fratelli d'Italia di Giorgia Meloni, che ha la stessa fiamma tricolore."
+    }
+   ]
+  },
+  {
+   "t0": 1630.8,
+   "t1": 1706.1,
+   "kw_on": [
+    2
+   ],
+   "card": [
+    {
+     "t": 1630.8,
+     "testo": "La svolta istituzionale definitiva avviene il 2 giugno 1946 con il referendum, in cui per la prima volta votano anche le donne."
+    },
+    {
+     "t": 1648.9,
+     "testo": "Nel 1945, ancora in monarchia, il governo Bonomi aveva fatto il decreto che concede il voto alle donne."
+    },
+    {
+     "t": 1684.3,
+     "testo": "Il risultato è molto polarizzato: 10 milioni di voti vanno alla monarchia e 12 milioni alla Repubblica."
+    }
+   ]
+  },
+  {
+   "t0": 1706.1,
+   "t1": 1774.2,
+   "kw_on": [
+    2
+   ],
+   "card": [
+    {
+     "t": 1707.8,
+     "testo": "Dodici milioni sono i voti per la Repubblica, che trionfa al Nord e al Centro."
+    },
+    {
+     "t": 1733.5,
+     "testo": "Al Nord si ricorda la guerra partigiana e il re che aveva legalizzato il fascismo: il voto è antimonarchico."
+    },
+    {
+     "t": 1757.2,
+     "testo": "La monarchia prende 10 milioni di voti perché molti moderati, ex fascisti e nobili votano per il re."
+    }
+   ]
+  },
+  {
+   "t0": 1774.2,
+   "t1": 1821.2,
+   "kw_on": [
+    2
+   ],
+   "card": [
+    {
+     "t": 1779.5,
+     "testo": "Il sovrano aveva abdicato a favore del figlio Umberto II, che fu re solo per un mese."
+    },
+    {
+     "t": 1791.0,
+     "testo": "Alla fine Umberto II se ne andò in esilio in Portogallo."
+    },
+    {
+     "t": 1805.0,
+     "testo": "Nacque la Repubblica Italiana; ma anche con la monarchia serviva una nuova costituzione, perché lo Statuto del Regno era superato."
+    }
+   ]
+  },
+  {
+   "t0": 1821.2,
+   "t1": 1876.0,
+   "kw_on": [
+    2,
+    3
+   ],
+   "card": [
+    {
+     "t": 1821.2,
+     "testo": "L'Assemblea Costituente si sarebbe convocata comunque: nelle stesse elezioni si votava per i costituenti e per Repubblica o monarchia."
+    },
+    {
+     "t": 1839.6,
+     "testo": "Vengono eletti 556 deputati per l'Assemblea Costituente."
+    },
+    {
+     "t": 1846.2,
+     "testo": "Il primo partito è la Democrazia Cristiana, con circa il 35% dei deputati: ha i voti di tanti repubblicani e moderati."
+    }
+   ]
+  },
+  {
+   "t0": 1876.0,
+   "t1": 1934.6,
+   "kw_on": [
+    3,
+    4
+   ],
+   "card": [
+    {
+     "t": 1878.7,
+     "testo": "Tra i 556 membri dell'Assemblea Costituente emergono 21 elette, le prime donne elette della storia dell'Italia unita."
+    },
+    {
+     "t": 1892.3,
+     "testo": "Sono ricordate come madri costituenti e provengono da tutti i partiti: democristiane, comuniste, socialiste, qualunquiste."
+    },
+    {
+     "t": 1923.0,
+     "testo": "La Democrazia Cristiana, con il 35% dei seggi, insieme a socialisti e comunisti fa la maggioranza assoluta dell'Assemblea."
+    }
+   ]
+  },
+  {
+   "t0": 1934.6,
+   "t1": 1980.3,
+   "kw_on": [
+    4
+   ],
+   "card": [
+    {
+     "t": 1934.6,
+     "testo": "I missini, cioè quelli del Movimento Sociale Italiano, non entrano nella Costituente."
+    },
+    {
+     "t": 1938.0,
+     "testo": "Le madri e i padri costituenti garantiscono l'uguaglianza di genere davanti alla legge e la tutela della famiglia."
+    },
+    {
+     "t": 1964.4,
+     "testo": "Il maschio è il capo della famiglia: non è in Costituzione ma nelle leggi ordinarie, e ci vorranno decenni per superarlo."
+    }
+   ]
+  },
+  {
+   "t0": 1980.3,
+   "t1": 2030.4,
+   "kw_on": [
+    3
+   ],
+   "card": [
+    {
+     "t": 1984.3,
+     "testo": "La Costituzione viene scritta nel corso del 1947, non senza tensioni."
+    },
+    {
+     "t": 1996.5,
+     "testo": "Socialisti e comunisti sono abbastanza concordi, anche se i comunisti vorrebbero un parlamento con una sola camera."
+    },
+    {
+     "t": 2011.7,
+     "testo": "La Costituzione è firmata dal Presidente della Repubblica provvisorio Enrico De Nicola ed entra in vigore il 1° gennaio 1948."
+    }
+   ]
+  }
+ ],
+ "pausa_A2": 1450.0,
+ "note": "Prof. dice 'PC' per PCI e 'MS' per MSI: scritto per esteso. Dice 'Vittorio Emanuele II' invece di III: nome omesso nella card. MSI fondato 'a dicembre del 48... del 45': tenuto 1945 (nota: in realtà fondato nel dicembre 1946). Prof dice che Roma e' liberata nel giugno 1944 e governo Parri 'giugno 45': come detto. Voto alle donne: dice 1945 decreto Bonomi (in realta' decreto 1945 sotto Bonomi, ok). Aneddoto sul M5S non usato. 1865.1-1875.3 e 1951.0 'It','Duno' frammenti ASR ignorati. Finestra 1821.2-1876.0 contiene immagine De Gasperi (1840-1869) lasciata normale. Card 1923.0: frase del prof sul 35% seggi e maggioranza assoluta unita da due pezzi (1910.4-1924.9). Il numero 556 deputati e 21 donne come detto dal prof."
+}

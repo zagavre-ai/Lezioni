@@ -1,0 +1,359 @@
+{
+ "arg": 4,
+ "t0": 2098.5,
+ "t1": 2926.6,
+ "kw": [
+  "Centrismo",
+  "Democrazia Cristiana",
+  "Pace di Parigi",
+  "Piano Marshall",
+  "Elezioni del 1948"
+ ],
+ "finestre": [
+  {
+   "t0": 2098.0,
+   "t1": 2143.0,
+   "kw_on": [
+    0
+   ],
+   "card": [
+    {
+     "t": 2108.6,
+     "testo": "Nasce così la Repubblica Italiana con la Costituzione, e si va alle elezioni per la prima legislatura repubblicana."
+    },
+    {
+     "t": 2123.8,
+     "testo": "La legislatura, il mandato del Parlamento che esprime il governo con la fiducia, dura cinque anni."
+    },
+    {
+     "t": 2132.4,
+     "testo": "Questa fase della storia della Repubblica Italiana è ricordata come la fase del centrismo."
+    }
+   ]
+  },
+  {
+   "t0": 2143.0,
+   "t1": 2207.8,
+   "kw_on": [
+    0,
+    1
+   ],
+   "card": [
+    {
+     "t": 2143.8,
+     "testo": "La forza di centro, la Democrazia Cristiana, non è né di destra nazionalista né di sinistra social comunista, ma è di centro."
+    },
+    {
+     "t": 2157.6,
+     "testo": "È un centro confessionale cattolico che inaugura una stagione di legislazione sociale, ma anche cattolica e di anticomunismo."
+    },
+    {
+     "t": 2166.2,
+     "testo": "Una buona parte della classe dirigente democristiana è anticomunista e filoamericana, anche perché dagli Stati Uniti arrivano i soldi."
+    }
+   ]
+  },
+  {
+   "t0": 2207.8,
+   "t1": 2277.5,
+   "kw_on": [
+    2
+   ],
+   "card": [
+    {
+     "t": 2208.0,
+     "testo": "La conferenza di pace di Parigi si svolge tra il 1945-46 e il 1947 e deve sottoscrivere i trattati che chiudono la seconda guerra mondiale."
+    },
+    {
+     "t": 2239.4,
+     "testo": "De Gasperi va come presidente del consiglio a Parigi più volte e pronuncia il famoso discorso all'assemblea."
+    },
+    {
+     "t": 2263.7,
+     "testo": "De Gasperi sente tutta la responsabilità della politica aggressiva del fascismo, dell'alleanza con la Germania e della guerra."
+    }
+   ]
+  },
+  {
+   "t0": 2277.5,
+   "t1": 2335.8,
+   "kw_on": [
+    2
+   ],
+   "card": [
+    {
+     "t": 2277.9,
+     "testo": "A discolpa di De Gasperi, faceva già parte del Parlamento negli anni di Mussolini, nel Partito Popolare Italiano, e tentò di opporsi."
+    },
+    {
+     "t": 2298.7,
+     "testo": "Il re Vittorio Emanuele Terzo e la classe dirigente dell'epoca cacciarono Mussolini e passarono con gli anglo-americani."
+    },
+    {
+     "t": 2322.85,
+     "testo": "Questo garantisce all'Italia la mancata divisione, cosa che invece sarà per la Germania, occupata e divisa."
+    }
+   ]
+  },
+  {
+   "t0": 2335.8,
+   "t1": 2391.3,
+   "kw_on": [
+    2
+   ],
+   "card": [
+    {
+     "t": 2336.2,
+     "testo": "L'Italia sarà costretta a entrare nell'orbita americana con l'Alleanza Atlantica, ma non è obbligata a sottoscrivere il patto."
+    },
+    {
+     "t": 2371.4,
+     "testo": "Con la pace di Parigi, firmata a febbraio del 1947, l'Italia perde le colonie, che ufficialmente erano ancora sue."
+    },
+    {
+     "t": 2381.1,
+     "testo": "L'Italia perde la Libia, l'Etiopia, l'Eritrea, la Somalia, Rodi e il Dodecanese, l'Albania."
+    }
+   ]
+  },
+  {
+   "t0": 2391.3,
+   "t1": 2434.7,
+   "kw_on": [
+    2
+   ],
+   "card": [
+    {
+     "t": 2391.5,
+     "testo": "Per aver aggredito la Francia, l'Italia perde due piccole località, Tenda e Briga."
+    },
+    {
+     "t": 2395.5,
+     "testo": "Per aver aggredito Jugoslavia, Grecia, Unione Sovietica ed Etiopia, l'Italia paga delle indennità."
+    },
+    {
+     "t": 2423.1,
+     "testo": "La Jugoslavia, attaccata dall'Italia, reagisce e invade il territorio italiano: occupa tutta l'Istria, che viene ceduta alla Jugoslavia."
+    }
+   ]
+  },
+  {
+   "t0": 2434.7,
+   "t1": 2476.71,
+   "kw_on": [
+    2
+   ],
+   "card": [
+    {
+     "t": 2434.9,
+     "testo": "Anche la città di Trieste è contesa: sarà divisa in una zona A, anglo-americana, e una zona B."
+    },
+    {
+     "t": 2441.9,
+     "testo": "La zona A, con la città di Trieste, verrà all'Italia; la zona B non sarà mai più italiana e apparterrà alla Jugoslavia di Tito."
+    },
+    {
+     "t": 2452.3,
+     "testo": "L'Italia diventa fondamentale perché è al confine con una potenza comunista, la Jugoslavia."
+    }
+   ]
+  },
+  {
+   "t0": 2476.71,
+   "t1": 2528.0,
+   "kw_on": [
+    0,
+    4
+   ],
+   "card": [
+    {
+     "t": 2483.1,
+     "testo": "Il 1948 è l'anno della rottura definitiva dell'unità antifascista: i comunisti e i socialisti sono esclusi dal governo."
+    },
+    {
+     "t": 2504.7,
+     "testo": "Alle prime elezioni per il Parlamento la Democrazia Cristiana prende il 48% dei voti, quasi la maggioranza assoluta."
+    },
+    {
+     "t": 2518.0,
+     "testo": "Molti di questi voti sono di moderati, monarchici, liberali ed ex fascisti, che confluiscono sullo scudo crociato per non far vincere le sinistre."
+    }
+   ]
+  },
+  {
+   "t0": 2528.0,
+   "t1": 2590.5,
+   "kw_on": [
+    0,
+    3
+   ],
+   "card": [
+    {
+     "t": 2528.6,
+     "testo": "Partono i governi del centrismo: tre governi De Gasperi in successione, dal 1948 al 1953."
+    },
+    {
+     "t": 2543.1,
+     "testo": "I governi nascono sotto l'influenza della guerra fredda e dei forti aiuti economici americani legati al Piano Marshall."
+    },
+    {
+     "t": 2582.0,
+     "testo": "Stalin sperava che in Italia, poverissima, venisse una rivoluzione e che non passasse dalla parte degli americani, ma così non sarà."
+    }
+   ]
+  },
+  {
+   "t0": 2590.5,
+   "t1": 2641.0,
+   "kw_on": [
+    1,
+    4
+   ],
+   "card": [
+    {
+     "t": 2592.8,
+     "testo": "Nei manifesti del 1948 la Democrazia Cristiana dice: se votate il Partito Comunista o il Partito Socialista, votate Stalin e la dittatura."
+    },
+    {
+     "t": 2602.6,
+     "testo": "Se votate Democrazia Cristiana, votate l'America, i soldi, il benessere, il lavoro, la famiglia."
+    },
+    {
+     "t": 2630.0,
+     "testo": "La Democrazia Cristiana vince con il voto dei moderati, della tradizione, dei filoamericani e del terrore rosso."
+    }
+   ]
+  },
+  {
+   "t0": 2641.0,
+   "t1": 2684.04,
+   "kw_on": [
+    1,
+    4
+   ],
+   "card": [
+    {
+     "t": 2654.8,
+     "testo": "Le elezioni del 1948 videro il netto trionfo della Democrazia Cristiana e l'avvio di governi moderati alleati con piccoli partiti laici."
+    },
+    {
+     "t": 2659.65,
+     "testo": "Sono repubblicani, liberali e socialdemocratici, questi ultimi staccatisi dai socialisti e più americanizzati."
+    },
+    {
+     "t": 2674.3,
+     "testo": "I piccoli partiti sostengono la Democrazia Cristiana, che ha solo il 48% e deve avere il 51% per governare."
+    }
+   ]
+  },
+  {
+   "t0": 2684.04,
+   "t1": 2726.0,
+   "kw_on": [
+    0
+   ],
+   "card": [
+    {
+     "t": 2684.04,
+     "testo": "Questo periodo fu caratterizzato da una certa stabilità democristiana, ma da forti tensioni sociali."
+    },
+    {
+     "t": 2691.2,
+     "testo": "Vi fu un attentato a Togliatti nel luglio del 1948, che portò il paese sull'orlo della guerra civile."
+    },
+    {
+     "t": 2713.2,
+     "testo": "Molti partigiani ripresero le armi, pensando che fosse di nuovo arrivato il momento della guerra civile."
+    }
+   ]
+  },
+  {
+   "t0": 2726.0,
+   "t1": 2780.0,
+   "kw_on": [
+    0,
+    3
+   ],
+   "card": [
+    {
+     "t": 2726.8,
+     "testo": "Sono gli anni della dura repressione giudiziaria e poliziesca contro gli ex partigiani, i movimenti sindacali e gli estremisti di destra."
+    },
+    {
+     "t": 2746.9,
+     "testo": "I governi centristi di De Gasperi avviarono importanti interventi pubblici ed economici, nonostante lo scontro politico."
+    },
+    {
+     "t": 2753.8,
+     "testo": "Fu guidata da una linea di stabilità monetaria promossa da Luigi Einaudi, primo Presidente della Repubblica eletto dal Parlamento."
+    }
+   ]
+  },
+  {
+   "t0": 2780.0,
+   "t1": 2830.3,
+   "kw_on": [
+    0
+   ],
+   "card": [
+    {
+     "t": 2785.5,
+     "testo": "La lira, molto povera, grazie ai dollari internazionali riesce a stabilizzarsi."
+    },
+    {
+     "t": 2790.05,
+     "testo": "Le riforme strutturali, come la riforma agraria, ridistribuiscono per decreto di De Gasperi la terra ai contadini."
+    },
+    {
+     "t": 2812.1,
+     "testo": "La terra ai contadini la fa il governo democristiano, con incentivi economici per gli agrari che perdono molti terreni."
+    }
+   ]
+  },
+  {
+   "t0": 2830.3,
+   "t1": 2871.0,
+   "kw_on": [
+    3
+   ],
+   "card": [
+    {
+     "t": 2830.6,
+     "testo": "Viene istituita la Cassa per il Mezzogiorno: tanti soldi del bilancio statale per finanziare il Sud e le sue arretratezze."
+    },
+    {
+     "t": 2842.5,
+     "testo": "In politica estera l'Italia sceglie l'integrazione nel blocco occidentale, entrando nell'Alleanza Atlantica nell'aprile del 1949."
+    },
+    {
+     "t": 2858.7,
+     "testo": "L'Italia partecipa alla nascita della Comunità del Carbone e dell'Acciaio, l'Europa dei sei, e firma il trattato iniziale."
+    }
+   ]
+  },
+  {
+   "t0": 2871.0,
+   "t1": 2926.6,
+   "kw_on": [
+    0,
+    1
+   ],
+   "card": [
+    {
+     "t": 2871.3,
+     "testo": "L'Italia cerca di accreditarsi come nazione democratica, parlamentare, anticomunista ma non antiliberale."
+    },
+    {
+     "t": 2889.4,
+     "testo": "Il Partito Comunista non viene messo al bando, e neanche il partito chiaramente fascista, il Movimento Sociale Italiano."
+    },
+    {
+     "t": 2915.8,
+     "testo": "Il centrismo di De Gasperi riesce ad allontanare le ali estreme e a portare avanti il paese."
+    }
+   ]
+  }
+ ],
+ "pausa_AN": 2476.71,
+ "note": "TRATTO CARTA CONFINE ORIENTALE: da 2208.0 s a 2476.7 s (pace di Parigi, perdite coloniali e territoriali, Istria, Trieste zona A/B; finestre 3-7); pausa_AN a 2476.71 s, subito dopo il tratto. Il prof non dice «Venezia Giulia». FINE ARGOMENTO: ultima frase del centrismo 2921.89-2925.92 («...portare avanti il paese»); da 2926.63 («in questo modo ma lo porterà») comincia il miracolo economico, con Piano INA-Casa a 2928.9 (immagine INA-Casa verso 2930 s); t1=2926.6. Inizio argomento 2098.5 (dopo «Obrigatório» a 2096.6 che chiude arg3). Anomalie/dubbi: «1948-1953» e primo settennato di Einaudi riportati come detti; Pace di Parigi «tra il 45-46 e il 47», firmata «a febbraio 47» (card: 1947); indennità «centinaia di migliaia di lire» NON usata nelle card; Giappone occupato «una decina d'anni» non usato; frase sul Piano Marshall (2556 s) contraddittoria («non è a fondo perduto... l'hanno regalato») non usata; ASR confonde «Istria/Ista/Isria», «Tenda e Briga», «Togliatti»; card 2423.1 unisce due frasi contigue (Jugoslavia reagisce, occupa l'Istria); card 2166.2 unisce «anticomunista» e «filoamericanismo/soldi dagli Stati Uniti»; card 2208.0 e 2371.4: «colonie» come dette (anche Albania); la zona A «che poi verrà all'Italia» è detta al futuro; CECA (Comunità del Carbone e dell'Acciaio) e trattati di Roma 1957 detti dal prof senza anno CECA; «NATO» resa «Alleanza Atlantica» per rispiegare la sigla; «PC/PSI» rese per esteso; «MSI» reso Movimento Sociale Italiano; il prof attribuisce l'attentato a Togliatti a un militante di estrema destra (non usato)."
+}
