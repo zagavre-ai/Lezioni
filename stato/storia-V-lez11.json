@@ -6,6 +6,10 @@
   {
    "quando": "22/11 18:40",
    "testo": "lez11 correzioni 22/11. (1) Voci nuove su voci-storia-V-lez11/testi_voci.json: BENV1_R2 (benvenuto senza nome del prof) e 7 voci mappe MP1, MP23, MP4, MP5A, MP5B, MP6, MPF (una voce per schermata, le allineo io riquadro per riquadro con la trascrizione). Il resto delle voci già fatte (AN, SC, R, GL, RIEP, RF, FIN, COMPI) lo riuso. (2) Il PDF mappe del prof ha 3 mappe: ascesa di Stalin (arg 1), svolta economica (UNICA per arg 2+3: la metto a fine arg 3, resta unica come dice il CLAUDE.md), totalitarismo (arg 4). Per arg 5, 6 e mappa finale costruisco la mappa CON LE PAROLE DELLE SUE SLIDE (CLAUDE.md §6) e lo dichiaro nel rapporto: dimmi se NON va fatto. (3) Nel piè e nelle schede tolgo il nome del prof (resta solo nella fascia gialla)."
+  },
+  {
+   "quando": "22/11 18:41",
+   "testo": "Visto il tuo messaggio sulle mappe: ANNULLO le voci MP5A, MP5B, MP6, MPF (tolte da testi_voci.json). Restano da generare solo: BENV1_R2, MP1, MP23, MP4 (MP4 ha ora la domanda come titolo: «Su che cosa si basa il totalitarismo di Stalin?», parole del prof; la dichiaro nel rapporto). Mappe: arg 1 = MP1; mappa UNICA svolta economica (arg 2+3) a fine arg 3 = MP23; arg 4 = MP4. Arg 2, 5, 6 si chiudono con pillola+quiz; niente mappa finale."
   }
  ],
  "domande_sara": [],
@@ -15,5 +19,5 @@
    "testo": "correzioni 22/11: presa da claude/gifted-fermi-uzdgf8"
   }
  ],
- "aggiornato": "2026-11-22 18:40:59"
+ "aggiornato": "2026-11-22 18:41:23"
 }
