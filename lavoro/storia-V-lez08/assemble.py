@@ -27,6 +27,8 @@ def pz(nome, f, *a, **k):
 INFO = []   # (nome, durata, voce_reale)
 def dur(p): return float(subprocess.run(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', p], capture_output=True, text=True).stdout)
 def aggiungi(lst, nome, p, real=True):
+    if not os.path.exists(p):
+        print('MANCA', nome, flush=True); return
     lst.append((nome, p, dur(p), real))
 def sigla(nome, src, fade_out=0.3):
     p = f'{O}/{nome}.mkv'
