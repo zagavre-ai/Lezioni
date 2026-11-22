@@ -2,7 +2,7 @@
  "tag": "letteratura-V-lez26",
  "parti": {
   "1": {
-   "stato": "REVISIONATA",
+   "stato": "IN_REVISIONE",
    "voci": "kore",
    "quiz_ok": "si",
    "fermi_ok": "si",
@@ -55,7 +55,11 @@
   {
    "quando": "17/11 17:51",
    "testo": "17:51 UTC riconsegna: silenzi >3 s tolti, scheda aggiornata (durata 3151,7 s, 94552 fotogrammi)"
+  },
+  {
+   "quando": "22/11 16:33",
+   "testo": "correzioni 22/11: presa da revisione-letteratura-V-lez26 (16:35 UTC); consegna prevista entro 19:30 UTC"
   }
  ],
- "aggiornato": "2026-11-17 17:51:27"
+ "aggiornato": "2026-11-22 16:33:45"
 }
