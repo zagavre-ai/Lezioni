@@ -246,10 +246,14 @@
   {
    "quando": "22/11 16:40",
    "testo": "correzioni 22/11 (16:40 UTC): rifatte slide a 40 px, max 2 card intere per pagina (pagine nuove ogni <3 min), mappa del prof in stile BES ramo per ramo (voce RV5), verifica e compiti dentro il video; codifica in corso. Stima consegna 18:30 UTC (scadenza 19:30)."
+  },
+  {
+   "quando": "22/11 18:10",
+   "testo": "correzioni 22/11 (18:10 UTC): controllo severo OK sul video 50:27; il controllo indipendente ha trovato difetti (nome del prof nella voce INTRO e nel piè di pagina, sottotitoli sulle voci narranti, 6 card in anticipo >1 s, pause 2,56-2,76 s, Rai non rispiegata): corretti, ricodifica in corso (~20 min), poi ricontrollo e consegna entro le 19:00 UTC."
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 19 · Dal secondo dopoguerra a oggi",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-22 16:40:48"
+ "aggiornato": "2026-11-22 18:10:27"
 }
