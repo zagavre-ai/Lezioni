@@ -10,6 +10,10 @@
   {
    "quando": "22/11 16:40",
    "testo": "Voci pronte da generare su voci-letteratura-V-lez08: M1-M5 e A1-A9 (testi_voci.json). Mi servono entro le 18:15 UTC per finire entro 19:30."
+  },
+  {
+   "quando": "22/11 17:12",
+   "testo": "URGENTE voci lez.8 (blocco): servono M1,M2,M3,M4,M5 (mappa), A1,A3,A5,A7 (approfondimenti, solo questi 4 come da tue indicazioni; A2,A4,A6,A8,A9 NON servono), P2 (spiegone Parte 2). Testi in scambio/letteratura-V-lez08/testi_voci.json su voci-letteratura-V-lez08 (pushati alle 16:40-16:45 UTC). Senza queste voci non posso chiudere."
   }
  ],
  "domande_sara": [],
@@ -31,5 +35,5 @@
    "testo": "22/11 +40min: pronti slide 40px a finestre (2 card intere), mappa in 3 schermate, PDF slide (63 pag, con testo) e PDF mappe, S/GL/RF ricomposti; D1b ricodificato, altri pezzi prof in coda (~25 min). In attesa delle voci M1-M5, A1 A3 A5 A7, P2 dalla master (testi_voci.json su voci-letteratura-V-lez08)."
   }
  ],
- "aggiornato": "2026-11-22 16:57:29"
+ "aggiornato": "2026-11-22 17:12:17"
 }
