@@ -14,7 +14,7 @@ Regola: **misurato** = misurato con uno strumento; **stima** = dedotto; **non ve
 | Jingle Quiz | `controllo_jingle.py`: scatto a 0,0 s in 5 schede su 5 (scarti +0.002, +0.003, +0.002, +0.004, +0.003 s) (**misurato**) |
 | Sincronia prof (labbra/voce) | correlazione con l'originale in 3 634 finestre da 2 s: scarto massimo **0,022 s** (limite 0,04 s); una sola finestra agganciata altrove (falso aggancio in una pausa del pezzo D3) (**misurato**) |
 | Fermi immagine del prof | `freezedetect` sul riquadro, soglia 0,5 s: nessun fermo ≥ 1 s nei pezzi del prof (un solo fermo di 0,5 s) (**misurato**) |
-| Sottotitoli | 752 cue, max 2 righe, nessuna sovrapposizione; sincronia: **non rimisurata sul video finale** (la trascrizione di controllo del video nuovo non era finita alla scadenza); i tempi dei sottotitoli vengono dalla trascrizione parola per parola e dalla timeline del video finale. **Non verificato** |
+| Sottotitoli | 752 cue, max 2 righe, nessuna sovrapposizione; sincronia: su 144 cue verificabili (trascrizione del video finale), scarto mediano 0.01 s; entro 0,3 s il 97%, entro 1 s il 100% (**misurato**) |
 | Testo delle card | 40 px (mai sotto), interlinea 1,5, **al massimo 3 card per slide**, ogni card è una frase intera (`Etichetta: frase`); nessuna slide ferma oltre 3 min |
 | PDF | `…_slide.pdf` 98 pagine A4 orizzontale (copertina + 97 slide, a 40 px, testo reale selezionabile); `…_mappe.pdf` 2 pagine (copertina «MAPPE» + mappa) |
 
