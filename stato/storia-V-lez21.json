@@ -6,7 +6,12 @@
   }
  },
  "manca": "",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "22/11 18:39",
+   "testo": "Voci Kore lez 21 su voci-storia-V-lez21 (testi_voci.json): 41 testi NUOVI, ordine di priorita: MA1_0..MA7_4 e MB1_0..MB4_4 (mappe del prof, un riquadro per voce), BEN1_R2 e BEN2_R2 (intro SENZA nome del prof, rifanno BEN1/BEN2), SP_0..SP_4 (spiegone Parte 2), MF_0 (mappa finale). Le voci vecchie restano. Dubbio: AN*, COMPI, FIN1, GL1, MAP*, R1-6, RF1 sono wav senza testo nel json: se contengono il nome del prof vanno rifatte, le trascrivo io appena posso. Ho montato con voci provvisorie."
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
@@ -17,5 +22,5 @@
  "materia": "Storia V",
  "lezione": "Lezione 21 · Il mondo dal 2001 ad oggi",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-22 18:36:33"
+ "aggiornato": "2026-11-22 18:39:45"
 }
