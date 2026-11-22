@@ -3,7 +3,8 @@
  "parti": {
   "1": {
    "titolo": "Il Realismo",
-   "stato": "IN_MONTAGGIO"
+   "stato": "IN_MONTAGGIO",
+   "voci": "segnaposto"
   }
  },
  "manca": "",
@@ -11,6 +12,14 @@
   {
    "quando": "22/11 22:48",
    "testo": "Storia arte lez03: Wikimedia/it.wikipedia sono bloccati dalla rete (403 proxy). Uso le immagini del PDF del prof (max ~1200 px) migliorate con ingrandimento di qualità. Se servono opere in alta risoluzione da Commons (Courbet, Millet, Daumier, Fattori, Lega, Signorini, Crystal Palace, Opéra Garnier), mi dite se le può scaricare la master. Mappe del prof: un solo PDF con 'Realismo in Francia' e 'Realismo in Italia'; per Barbizon/architettura il prof non ha mappe: quegli argomenti chiudono con la pillola."
+  },
+  {
+   "quando": "22/11 22:59",
+   "testo": "Voci pronte da generare: sul ramo voci-storia-arte-V-lez03 ho aggiunto 11 testi (ARG, AP1-5, SPIE, MAPFR, MAPIT, VER, COMP). Sara: nella mappa del prof il pittore è scritto «Miller» (è Millet) e Le spigolatrici è datato 1867, mentre le slide e la voce del prof dicono 1857: lo riporto come lo scrive il prof e lo metto nel rapporto, la master lo porta a Sara."
+  },
+  {
+   "quando": "22/11 23:06",
+   "testo": "Storia arte lez03, OPERE DA PROCURARE (autore, titolo, anno), in alta risoluzione: (1) John Nash, Brighton Pavilion (Royal Pavilion), 1815-23 (il prof lo nomina, nelle slide non c'è); (2) Jean-François Millet, L'Angelus, 1857-59 (nominato nelle slide, non c'è); (3) Silvestro Lega, Il pergolato, 1868 (nominato, non c'è); (4) Telemaco Signorini, La sala delle agitate al Bonifazio di Firenze, 1865 (nominato, non c'è); (5) Honoré Daumier, La lavandaia, 1863 circa (è nella mappa del prof); (6) Silvestro Lega, Lo stornello, 1867 (mappa); (7) Odoardo Borrani, Le cucitrici delle camicie rosse (mappa: 1854 come scrive il prof); (8) Giovanni Fattori, Libecciata, 1880 (mappa); (9) Nino Sernesi, Tetti al sole, 1860 (mappa). In più, se potete, versioni migliori di opere che ho solo piccole nelle slide: Millet, Le spigolatrici, 1857 (380 px); Courbet, L'atelier del pittore, 1855 (712 px); Courbet, Gli spaccapietre, 1849 (730 px); Daumier, Il vagone di terza classe, 1863-65 (710 px). Intanto monto con le immagini del prof migliorate; se arrivano le sostituisco."
   }
  ],
  "domande_sara": [],
@@ -22,10 +31,22 @@
   {
    "quando": "22/11 22:48",
    "testo": "materiali scaricati (video, slide 21 pag, mappe 1 pag con 2 mappe, domande). In corso: trascrizione, slide, voci"
+  },
+  {
+   "quando": "22/11 22:59",
+   "testo": "testi_voci.json con 11 voci nuove inviato sul ramo voci"
+  },
+  {
+   "quando": "22/11 23:06",
+   "testo": "avanzamento: trascrizione fatta, piano pezzi e prime slide renderizzate; ora montaggio con voci provvisorie"
+  },
+  {
+   "quando": "22/11 23:23",
+   "testo": "stato 30': montati i pezzi del prof (tagli su frasi intere), schede blu, approfondimenti, mappe del prof ridisegnate; manca assemblaggio, controlli e voci vere (9:00)"
   }
  ],
  "materia": "Storia dell'arte V",
  "lezione": "Lezione 3 · Il Realismo",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-22 22:48:08"
+ "aggiornato": "2026-11-22 23:23:37"
 }

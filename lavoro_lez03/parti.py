@@ -42,3 +42,35 @@ def ap(n):
 def scene_pieces(prefix,names):
     kI=json.load(open('/tmp/w/b/kI.json'))['kI'];P={s['nome']:s for s in piano_scene(kI)}
     return [(n,build_scene(P[n])) for n in names]
+
+def D0_piece():
+    kI=json.load(open('/tmp/w/b/kI.json'))['kI'];a,b=piece_range(0,kI);subs=tagli_pause(a,b)
+    N=sum(round((y-x)*30) for x,y in subs)
+    return M.doc_piece('D0',SRC,subs,[(M.save_png(cover(True)),N)])
+def parte1():
+    seq=[];kI=json.load(open('/tmp/w/b/kI.json'))['kI']
+    seq+=[('SG',sigla_piece(KIT+'sigle/Sigla_Storia_arte_15s.mp4','SG')),('CV',cover_piece()),('D0',D0_piece()),('AR',args_piece())]
+    sc=dict(scene_pieces('D',['D1a','D2a','D2b','D2c','D3a','D3b','D3c','D3d','D3e','D3f']))
+    groups=[(1,['D1a']),(2,['D2a','D2b','D2c']),(3,['D3a','D3b','D3c','D3d','D3e','D3f'])]
+    for k,ds in groups:
+        seq.append((f'T{k}',title_piece(k)))
+        for d in ds:seq.append((d,sc[d]))
+        seq+=[(f'AP{k}',ap(f'AP{k}')),(f'R{k}',pill_piece(k,intro=f'R{k}')),(f'Q{k}',quiz_piece(k))]
+    seq.append(('FP',fine_parte_piece(1)))
+    return seq
+def parte2():
+    seq=[('SG',sigla_piece(KIT+'sigle/Sigla_Storia_arte_15s.mp4','SG')),('SP',ap('SPIE'))]
+    sc=dict(scene_pieces('D',['D4a','D4b','D4c','D4d','D4e','D4f','D5a','D5b','D5c','D5d','D5e','D5f','D5g']))
+    for k,ds in [(4,['D4a','D4b','D4c','D4d','D4e','D4f']),(5,['D5a','D5b','D5c','D5d','D5e','D5f','D5g'])]:
+        seq.append((f'T{k}',title_piece(k)))
+        for d in ds:seq.append((d,sc[d]))
+        seq.append((f'AP{k}',ap(f'AP{k}')))
+        if k==5:
+            pa=[SD.page_of(('m','FR',1)),SD.page_of(('m','FR',2)),SD.page_of(('m','IT',1)),SD.page_of(('m','IT',2))]
+            fr_=map_pieces('MAPFR',MP.FR_A,MP.FR_ORDER,MP.FR_B,MP.FR_B_ORDER,MP.FR_FRAGS,'MFR',pa[0],pa[1])
+            it_=map_pieces('MAPIT',MP.IT_A,MP.IT_ORDER,MP.IT_B,MP.IT_B_ORDER,MP.IT_FRAGS,'MIT',pa[2],pa[3])
+            seq+=[('MFR1',fr_[0]),('MFR2',fr_[1]),('MIT1',it_[0]),('MIT2',it_[1])]
+        seq+=[(f'R{k}',pill_piece(k,intro=f'R{k}')),(f'Q{k}',quiz_piece(k))]
+    seq+=[('GL',glossario_piece()),('RF',ripasso_finale()),('MF',mappa_finale()),('VE',verifica_piece()),
+          ('SF',sigla_piece(KIT+'sigle/Sigla_finale_5s_con_avviso_diritti.mp4','SF')),('CI',compiti_intro()),('CP',compiti_piece())]
+    return seq

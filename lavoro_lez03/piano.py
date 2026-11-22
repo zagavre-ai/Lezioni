@@ -76,7 +76,11 @@ def quiz_piece(k):
     t=['Le nuove sfide del progresso','Ferro, vetro e urbanistica',"L'Italia che cambia e l'Eclettismo",'Barbizon, Millet e Courbet','Daumier e i Macchiaioli'][k-1]
     return M.still_piece(f'Q{k}',[st(quiz_card(k,t),4.0)],[(SUON+'quiz.wav',0.5,0.9)],bg=make_bg())
 def pill_lines(nome):
-    s=spl(TESTI[nome]);return s[0],s[1:]
+    s=spl(TESTI[nome]);rr=s[1:]
+    if len(rr)<4:
+        rr=[]
+        for x in s[1:]:rr+=[y.strip() for y in re.split(r'(?<=[:;])\s+',x) if y.strip()]
+    return s[0],rr
 def pill_piece(k,header=None,nome=None,intro=None,prefix='P',jingle='repaso.wav'):
     nome=nome or f'S{k}';tit,righe=pill_lines(nome)
     pv,pd,_=voce(nome);tm=frasi_tempi(nome,righe)
