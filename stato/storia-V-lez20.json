@@ -2,7 +2,18 @@
  "tag": "storia-V-lez20",
  "parti": {
   "1": {
-   "stato": "IN_MONTAGGIO"
+   "stato": "IN_MONTAGGIO",
+   "voci": "segnaposto",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "no",
+   "video": "Storia_Lez20_Parte1_1080p.mp4",
+   "durata_s": 3249.9,
+   "durata": "54:09.9",
+   "fotogrammi": 97496,
+   "fotogrammi_attesi": 97496,
+   "peso_MB": 326.9,
+   "vtt": "Storia_Lez20_Parte1.vtt"
   }
  },
  "manca": "",
@@ -41,10 +52,14 @@
   {
    "quando": "22/11 20:21",
    "testo": "22/11 20:20 UTC: Parte 1 (54:15, 330 MB, -16,3 LUFS) e Parte 2 (29:32, 153 MB, -16,1 LUFS) montate con voci provvisorie solo dove mancano (INTRO1_N, SP0, FINP1, PS2_4, PS3_4, COMP1-4). Quiz a 0,0 s OK, fermi docente nessuno. Ora controllo severo + agente separato + dispensa/PDF mappe/rapporto."
+  },
+  {
+   "quando": "22/11 22:07",
+   "testo": "22/11 22:10 UTC: consegna PROVVISORIA caricata su revisione-storia-V-lez20 (Parte 1 54:10, Parte 2 29:26; controllo severo senza errori di struttura; restano solo le voci nuove da inserire: INTRO1_N, SP0, FINP1, PS2_4, PS3_4, COMP1-4). Rifaccio i pezzi appena arrivano le voci e consegno entro le 10:00 UTC."
   }
  ],
  "materia": "Storia V",
  "lezione": "Lezione 20 · Gli anni Novanta: il mondo post-bipolare",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-22 20:37:20"
+ "aggiornato": "2026-11-22 22:07:35"
 }
