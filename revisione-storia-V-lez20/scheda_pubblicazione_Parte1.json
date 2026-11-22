@@ -5,7 +5,7 @@
  "argomenti": [
   {
    "n": 1,
-   "titolo": "Il crollo dell'URSS",
+   "titolo": "Il crollo dell'URSS (Unione Sovietica)",
    "inizio_s": 279.3,
    "quiz_s": 1514.0
   },
@@ -30,7 +30,7 @@
  ],
  "quiz": {
   "Q1": {
-   "title": "Quiz 1 · Il crollo dell'URSS",
+   "title": "Quiz 1 · Il crollo dell'URSS (Unione Sovietica)",
    "items": [
     {
      "p": "In che anno crolla l'Unione Sovietica?",
@@ -48,7 +48,7 @@
      "w": [
       "Il ritorno del comunismo",
       "La fine di ogni conflitto",
-      "La vittoria dell'URSS"
+      "La vittoria dell'URSS (Unione Sovietica)"
      ],
      "e": "Fukuyama teorizza il trionfo definitivo della democrazia liberale e dell'economia di mercato a livello globale."
     },
@@ -77,7 +77,7 @@
      "a": "Restaura il controllo statale e affronta la guerra in Cecenia",
      "w": [
       "Scioglie lo Stato russo",
-      "Indice un referendum sull'ingresso nella NATO",
+      "Indice un referendum sull'ingresso nella NATO (Alleanza militare del Nord Atlantico)",
       "Restituisce l'indipendenza alla Cecenia"
      ],
      "e": "Nel 1999 Putin assume la guida della Russia, restaurando il controllo statale e affrontando duramente la crisi separatista."
@@ -88,12 +88,12 @@
    "title": "Quiz 2 · L'egemonia degli Stati Uniti",
    "items": [
     {
-     "p": "Quale ruolo assumono gli Stati Uniti dopo il crollo dell'URSS?",
+     "p": "Quale ruolo assumono gli Stati Uniti dopo il crollo dell'URSS (Unione Sovietica)?",
      "a": "Quello di «poliziotto del mondo», unica superpotenza",
      "w": [
       "Quello di potenza neutrale",
       "Quello di Paese isolazionista",
-      "Quello di alleato dell'URSS"
+      "Quello di alleato dell'URSS (Unione Sovietica)"
      ],
      "e": "Gli Stati Uniti rimangono l'unica superpotenza mondiale, assumendo il ruolo di «poliziotto del mondo»."
     },
@@ -115,7 +115,7 @@
       "L'Arabia Saudita",
       "Israele"
      ],
-     "e": "Gli USA guidano la coalizione per respingere l'invasione del Kuwait da parte dell'Iraq."
+     "e": "Gli USA (Stati Uniti d'America) guidano la coalizione per respingere l'invasione del Kuwait da parte dell'Iraq."
     },
     {
      "p": "In quale periodo governa Bill Clinton?",
@@ -168,7 +168,7 @@
      "w": [
       "Un programma di sanità pubblica",
       "Un trattato di pace",
-      "Un'operazione della NATO"
+      "Un'operazione della NATO (Alleanza militare del Nord Atlantico)"
      ],
      "e": "In Bosnia Erzegovina si vedono drammatici episodi di «pulizia etnica» e massacri di civili, come a Srebrenica."
     },
@@ -183,14 +183,14 @@
      "e": "Gli accordi di pace di Dayton del 1995 pongono fine alla guerra."
     },
     {
-     "p": "Che cosa provoca l'intervento della NATO nel 1999?",
+     "p": "Che cosa provoca l'intervento della NATO (Alleanza militare del Nord Atlantico) nel 1999?",
      "a": "La repressione serba contro la maggioranza albanese del Kosovo",
      "w": [
       "L'invasione del Kuwait",
-      "Il crollo dell'URSS",
+      "Il crollo dell'URSS (Unione Sovietica)",
       "La riunificazione tedesca"
      ],
-     "e": "Nel 1999 la repressione serba contro la maggioranza albanese in Kosovo provoca l'intervento militare della NATO."
+     "e": "Nel 1999 la repressione serba contro la maggioranza albanese in Kosovo provoca l'intervento militare della NATO (Alleanza militare del Nord Atlantico)."
     }
    ]
   },
@@ -211,11 +211,11 @@
      "p": "Che cosa nasce nel 1992 con il trattato di Maastricht?",
      "a": "L'Unione Europea",
      "w": [
-      "La NATO",
-      "L'ONU",
+      "La NATO (Alleanza militare del Nord Atlantico)",
+      "L'ONU (Organizzazione delle Nazioni Unite)",
       "La CECA"
      ],
-     "e": "Nel 1992 nasce ufficialmente l'UE, ponendo le basi per la moneta unica."
+     "e": "Nel 1992 nasce ufficialmente l'UE (Unione Europea), ponendo le basi per la moneta unica."
     },
     {
      "p": "Quale moneta prepara il trattato di Maastricht?",

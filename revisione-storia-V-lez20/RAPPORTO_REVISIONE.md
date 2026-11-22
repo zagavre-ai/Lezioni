@@ -1,50 +1,50 @@
 # RAPPORTO DI REVISIONE · Storia · «Gli anni Novanta: il mondo post-bipolare» · CORREZIONI 22/11
-Chat `claude/keen-hypatia-d76anw` · ramo di consegna `revisione-storia-V-lez20` · 22/11/2026 22:05 UTC.
+Chat `claude/keen-hypatia-d76anw` · ramo di consegna `revisione-storia-V-lez20` · 22/11/2026 22:49 UTC.
 Ogni dato è etichettato **M** (misurato), **S** (a vista / stima) o **NV** (non verificato).
 
 ## 0. Cosa è stato fatto e cosa no (in breve)
 - Lezione **rimontata da zero** dall'originale del prof (release `mazzotti-storia-V`, zip 004): il montaggio precedente non era ricostruibile. Slide, mappe, quiz, pillole, quiz, glossario, ripasso finale, verifica, sigle e compiti sono nuovi.
-- **Due Parti**, tagliate a fine argomento 4 (decisione approvata dalla master): Parte 1 = 54:09, Parte 2 = 29:25. La Parte 2 è sotto i 50 minuti perché il materiale del prof è breve (CLAUDE.md §3.6: «va bene, non si allunga»).
+- **Due Parti**, tagliate a fine argomento 4 (decisione approvata dalla master): Parte 1 = 54:09, Parte 2 = 28:59. La Parte 2 è sotto i 50 minuti perché il materiale del prof è breve (CLAUDE.md §3.6: «va bene, non si allunga»).
 - **Voci provvisorie ancora presenti:** vedi §3. Finché non arrivano e non sono sostituite **questa consegna non è definitiva**.
 
 ## 1. Misure sui video finali (M)
 | | Parte 1 | Parte 2 |
 |---|---|---|
 | File | `Storia_Lez20_Parte1_1080p.mp4` | `Storia_Lez20_Parte2_1080p.mp4` |
-| Durata | 54:09 (3249.87 s) | 29:25 (1765.73 s) |
-| Fotogrammi / durata×30 | 97496 / 97496 | 52972 / 52972 |
-| Peso | 326.9 MB | 152.8 MB |
+| Durata | 54:09 (3249.87 s) | 28:59 (1739.43 s) |
+| Fotogrammi / durata×30 | 97496 / 97496 | 52183 / 52183 |
+| Peso | 327.2 MB | 150.6 MB |
 | Formato | 1920×1080, 30 fps, x264 veryfast (CRF 19 le schede, CRF 22 i pezzi del prof, per stare sotto 400 MB), AAC 192k 48 kHz | idem |
-| Volume | -16.3 LUFS, picco -3.2 dBFS | -16.1 LUFS, picco -2.6 dBFS |
-| sha256 | `85cee896b1bd2f458c5183e1e548f43ed9bd6f3a46fe933ac8e32a880f252b71` | `898a574d5fbb8c6eff885e4a98a66c15b071dd8b812187b765f95b32032f9586` |
+| Volume | -16.3 LUFS, picco -3.2 dBFS | -16.1 LUFS, picco -2.7 dBFS |
+| sha256 | `de17ac02db6b96444398074f4579a590fc09d032531032fe576cf0341f5219d3` | `7e20a5ccb3ed30b07f399918c8452ba307c80319e72bf9c1840624bde5233d99` |
 
 Audio: una sola codifica AAC sull'intero programma (audio rifatto in un passaggio dai pezzi non compressi, così non ci sono scarti di durata). Video: ogni pezzo codificato una volta, uniti senza ricodifica.
 
 ### Controlli automatici
 - `controllo_finale.py` Parte 1:
 ```
-durata 54:09.9 (3249.9 s) | fotogrammi 97496 (attesi 97496) OK | peso 326.9 MB (311.8 MiB) OK | 1920x1080 OK
+durata 54:09.9 (3249.9 s) | fotogrammi 97496 (attesi 97496) OK | peso 327.2 MB (312.0 MiB) OK | 1920x1080 OK
 quiz 4 scatto 0,0 s: OK
 fermi immagine nei pezzi del docente: nessuno OK
 volume del parlato (mediana dei pezzi del docente): -16.4 LUFS OK
-sottotitoli: 837 blocchi, sovrapposti 0, oltre la fine 0, attacco sulla voce entro 0,3 s: 71% di 21 verificabili DA GUARDARE
+sottotitoli: 908 blocchi, sovrapposti 0, oltre la fine 0, attacco sulla voce entro 0,3 s: 37% di 19 verificabili DA GUARDARE
 foglio di miniature: out/Storia_Lez20_Parte1_1080p.mp4.miniature.jpg
 ESITO: DA SISTEMARE: sottotitoli
 
 ```
 - `controllo_finale.py` Parte 2:
 ```
-durata 29:25.7 (1765.7 s) | fotogrammi 52972 (attesi 52972) OK | peso 152.8 MB (145.7 MiB) OK | 1920x1080 OK
+durata 28:59.4 (1739.4 s) | fotogrammi 52183 (attesi 52183) OK | peso 150.6 MB (143.7 MiB) OK | 1920x1080 OK
 quiz 4 scatto 0,0 s: OK
 fermi immagine nei pezzi del docente: nessuno OK
 volume del parlato (mediana dei pezzi del docente): -15.8 LUFS OK
-sottotitoli: 430 blocchi, sovrapposti 0, oltre la fine 0, attacco sulla voce entro 0,3 s: 53% di 17 verificabili DA GUARDARE
+sottotitoli: 424 blocchi, sovrapposti 0, oltre la fine 0, attacco sulla voce entro 0,3 s: 44% di 18 verificabili DA GUARDARE
 foglio di miniature: out/Storia_Lez20_Parte2_1080p.mp4.miniature.jpg
 ESITO: DA SISTEMARE: sottotitoli
 
 ```
 - `controllo_severo.py` Parte 1 (M): copertina 150 s; slide stesso titolo >3 min: 0; schermate identiche >3 min: 0; card con puntini: 0; card che iniziano minuscole: 0; una card sola >60 s: 0; pause >2,5 s: 5; esito: **RESPINTA** — errori: ['5 pause > 2,5 s']
-- `controllo_severo.py` Parte 2 (M): copertina 0 s; slide stesso titolo >3 min: 0; schermate identiche >3 min: 0; card con puntini: 0; card che iniziano minuscole: 0; una card sola >60 s: 0; pause >2,5 s: 8; esito: **RESPINTA** — errori: ['titolo copertina incompleto: gli anni novanta mondo post bipolare', 'copertina non trovata', 'durata 29.43 min', '8 pause > 2,5 s'] — «copertina non trovata» e «durata < 50 min» sono attesi: la Parte 2 non ha copertina (si apre con sigla e spiegone) ed è breve per scelta approvata.
+- `controllo_severo.py` Parte 2 (M): copertina 0 s; slide stesso titolo >3 min: 0; schermate identiche >3 min: 0; card con puntini: 0; card che iniziano minuscole: 0; una card sola >60 s: 0; pause >2,5 s: 8; esito: **RESPINTA** — errori: ['titolo copertina incompleto: gli anni novanta mondo post bipolare', 'copertina non trovata', 'durata 28.99 min', '8 pause > 2,5 s'] — «copertina non trovata» e «durata < 50 min» sono attesi: la Parte 2 non ha copertina (si apre con sigla e spiegone) ed è breve per scelta approvata.
 - Pause >2,5 s: sono le code silenziose di 4 s con la mappa intera ferma (richieste dal §6), le code dei jingle delle schede titolo/quiz e, finché sono provvisorie, i silenzi delle voci non ancora arrivate. Nel parlato del prof non ci sono pause >2,5 s (M, rilevamento sulla trascrizione: nessun intervallo da accorciare).
 - Quiz: scatto del jingle a 0,0 s su tutte e 8 le schede (M).
 - Fermi immagine ≥1 s nei pezzi del prof: nessuno (M, `freezedetect`). Resta una fermata di 0,8 s all'inizio di ogni pezzo (fotogramma fisso con dissolvenza, 24 fotogrammi) e di 0,5 s in coda (S).
@@ -130,47 +130,46 @@ ESITO: DA SISTEMARE: sottotitoli
 | SP2 | 0:56 | 26.9 |
 | SP3 | 1:23 | 25.9 |
 | SP4 | 1:48 | 28.2 |
-| SP5 | 2:17 | 28.3 |
-| T5 | 2:45 | 3.4 |
-| DA5 | 2:48 | 285.0 |
-| AP5 | 7:33 | 47.9 |
-| MAP5 | 8:21 | 31.1 |
-| PI5 | 8:52 | 43.5 |
-| Q5 | 9:36 | 4.2 |
-| T6 | 9:40 | 3.4 |
-| DA6 | 9:44 | 183.4 |
-| AP6 | 12:47 | 48.2 |
-| PI6 | 13:35 | 45.4 |
-| Q6 | 14:21 | 4.2 |
-| T7 | 14:25 | 3.4 |
-| DA7 | 14:28 | 125.2 |
-| AP7 | 16:33 | 52.5 |
-| PI7 | 17:26 | 35.2 |
-| Q7 | 18:01 | 4.2 |
-| T8 | 18:05 | 3.4 |
-| DA8 | 18:09 | 158.9 |
-| AP8 | 20:48 | 53.8 |
-| MAP8 | 21:41 | 32.9 |
-| PI8 | 22:14 | 39.9 |
-| Q8 | 22:54 | 4.2 |
-| GLOSS | 22:58 | 43.2 |
-| RF1 | 23:42 | 32.0 |
-| RF2 | 24:14 | 26.8 |
-| RF3 | 24:40 | 25.8 |
-| RF4 | 25:06 | 28.1 |
-| RF5 | 25:34 | 28.2 |
-| RF6 | 26:03 | 28.1 |
-| RF7 | 26:31 | 23.6 |
-| RF8 | 26:54 | 22.4 |
-| RFIN | 27:17 | 29.7 |
-| FIN | 27:46 | 10.1 |
-| VERIFICA | 27:57 | 4.6 |
-| SIGF2 | 28:01 | 5.0 |
-| COMPITI | 28:06 | 3.5 |
-| COMP1 | 28:10 | 19.8 |
-| COMP2 | 28:29 | 19.4 |
-| COMP3 | 28:49 | 17.4 |
-| COMP4 | 29:06 | 19.0 |
+| T5 | 2:17 | 3.4 |
+| DA5 | 2:20 | 285.0 |
+| AP5 | 7:05 | 47.9 |
+| MAP5 | 7:53 | 31.1 |
+| PI5 | 8:24 | 43.5 |
+| Q5 | 9:08 | 4.2 |
+| T6 | 9:12 | 3.4 |
+| DA6 | 9:15 | 183.4 |
+| AP6 | 12:19 | 48.2 |
+| PI6 | 13:07 | 45.4 |
+| Q6 | 13:52 | 4.2 |
+| T7 | 13:56 | 3.4 |
+| DA7 | 14:00 | 125.2 |
+| AP7 | 16:05 | 52.5 |
+| PI7 | 16:58 | 35.2 |
+| Q7 | 17:33 | 4.2 |
+| T8 | 17:37 | 3.4 |
+| DA8 | 17:40 | 158.9 |
+| AP8 | 20:19 | 53.8 |
+| MAP8 | 21:13 | 32.9 |
+| PI8 | 21:46 | 39.9 |
+| Q8 | 22:26 | 4.2 |
+| GLOSS | 22:30 | 43.2 |
+| RF1 | 23:13 | 32.0 |
+| RF2 | 23:45 | 26.8 |
+| RF3 | 24:12 | 25.8 |
+| RF4 | 24:38 | 28.1 |
+| RF5 | 25:06 | 28.2 |
+| RF6 | 25:34 | 28.1 |
+| RF7 | 26:02 | 23.6 |
+| RF8 | 26:26 | 22.4 |
+| RFIN | 26:48 | 29.7 |
+| FIN | 27:18 | 10.1 |
+| VERIFICA | 27:28 | 4.6 |
+| SIGF2 | 27:33 | 5.0 |
+| COMPITI | 27:38 | 3.5 |
+| COMP1 | 27:41 | 19.8 |
+| COMP2 | 28:01 | 21.4 |
+| COMP3 | 28:23 | 17.4 |
+| COMP4 | 28:40 | 19.0 |
 
 
 ## 5. Refusi e anomalie nel materiale del prof
@@ -226,33 +225,33 @@ Corretti nelle nostre slide/dispensa (i file originali non sono toccati):
 
 | Pezzo | Fine (minuto) | Ultime 8 parole (trascrizione) | Frase finita |
 |---|---|---|---|
-| A5 | 7:33 | …dal dai governi di coalizione nazionale. | sì |
-| A6 | 12:46 | …ad attaccare poi i simboli dell'Occidente. | sì |
-| A7 | 16:33 | …a lui e in alcuni casi lo supera. | sì |
-| A8 | 20:47 | …nel mondo dal 2000 in poi. | sì |
+| A5 | 7:04 | …dal dai governi di coalizione nazionale. | sì |
+| A6 | 12:18 | …ad attaccare poi i simboli dell'Occidente. | sì |
+| A7 | 16:04 | …a lui e in alcuni casi lo supera. | sì |
+| A8 | 20:19 | …nel mondo dal 2000 in poi. | sì |
 
 #### Parte 2: accensione delle card (tutti i punti)
 
 | Video | Pezzo | Card | Frase del prof vicina | Scarto da inizio frase |
 |---|---|---|---|---|
-| 2:49 | A5 | 1 | È molto importante, visto che ne accennavamo a chiusura di questa lezi | +0.0 s |
-| 3:05 | A5 | 2 | a partire dalle elezioni del novantaquattro quando | -0.0 s |
-| 4:12 | A5 | 3 | Delle libertà di Silvio Berlusconi, imprenditore televisivo. | +0.0 s |
-| 5:54 | A5 | 4 | riesce a governare due anni e affronta come governò Berlusconi prima. | +0.2 s |
-| 9:44 | A6 | 1 | Va bene, adesso proviamo ad affrontare... | +0.0 s |
-| 10:20 | A6 | 2 | Il periodo ha visto anche la preoccupante diffusione del fondamentalis | +0.2 s |
-| 10:41 | A6 | 3 | In Africa alle croniche difficoltà legate a povertà e conflitti intern | +0.4 s |
-| 10:58 | A6 | 4 | E l'elezione del carcerato, è il caso di dirlo Nelson Mandela, | -0.3 s |
-| 11:08 | A6 | 5 | L'America Latina ha invece vissuto una complessa transizione verso la  | -0.4 s |
-| 11:41 | A6 | 2 | Ora, ricordatevi che Al Qaida, fondata da Osama bin Laden, opera in Af | -0.3 s |
-| 14:29 | A7 | 1 | Ecco, per concludere vediamo i nuovi protagonisti. | -0.0 s |
-| 15:12 | A7 | 2 | Accanto alla Cina le cosiddette Tigri asiatiche, come la Corea del Sud | -0.0 s |
-| 15:29 | A7 | 4 | Anche l'India, se per questo è registrato un forte boom economico. Tra | -0.0 s |
-| 16:02 | A7 | 3 | Tutte le nazioni sovrane. Il Giappone ha attraversato al contrario un  | +0.0 s |
-| 18:10 | A8 | 1 | Ed è il caso, appunto, di parlare della globalizzazione. Tutti questi  | -0.0 s |
-| 18:26 | A8 | 2 | Nel bene e nel male, questo fenomeno è stato straordinariamente accele | +0.5 s |
-| 18:46 | A8 | 3 | dall'altro ha sollevato forti critiche e resistenze. | +0.2 s |
-| 19:36 | A8 | 4 | Il 2000 si è aperto dunque con un pianeta globalizzato, segnato da una | +0.0 s |
+| 2:21 | A5 | 1 | È molto importante, visto che ne accennavamo a chiusura di questa lezi | +0.0 s |
+| 2:36 | A5 | 2 | a partire dalle elezioni del novantaquattro quando | -0.0 s |
+| 3:43 | A5 | 3 | Delle libertà di Silvio Berlusconi, imprenditore televisivo. | +0.0 s |
+| 5:26 | A5 | 4 | riesce a governare due anni e affronta come governò Berlusconi prima. | +0.2 s |
+| 9:16 | A6 | 1 | Va bene, adesso proviamo ad affrontare... | +0.0 s |
+| 9:52 | A6 | 2 | Il periodo ha visto anche la preoccupante diffusione del fondamentalis | +0.2 s |
+| 10:13 | A6 | 3 | In Africa alle croniche difficoltà legate a povertà e conflitti intern | +0.4 s |
+| 10:30 | A6 | 4 | E l'elezione del carcerato, è il caso di dirlo Nelson Mandela, | -0.3 s |
+| 10:40 | A6 | 5 | L'America Latina ha invece vissuto una complessa transizione verso la  | -0.4 s |
+| 11:13 | A6 | 2 | Ora, ricordatevi che Al Qaida, fondata da Osama bin Laden, opera in Af | -0.3 s |
+| 14:01 | A7 | 1 | Ecco, per concludere vediamo i nuovi protagonisti. | -0.0 s |
+| 14:44 | A7 | 2 | Accanto alla Cina le cosiddette Tigri asiatiche, come la Corea del Sud | -0.0 s |
+| 15:01 | A7 | 4 | Anche l'India, se per questo è registrato un forte boom economico. Tra | -0.0 s |
+| 15:34 | A7 | 3 | Tutte le nazioni sovrane. Il Giappone ha attraversato al contrario un  | +0.0 s |
+| 17:41 | A8 | 1 | Ed è il caso, appunto, di parlare della globalizzazione. Tutti questi  | -0.0 s |
+| 17:58 | A8 | 2 | Nel bene e nel male, questo fenomeno è stato straordinariamente accele | +0.5 s |
+| 18:18 | A8 | 3 | dall'altro ha sollevato forti critiche e resistenze. | +0.2 s |
+| 19:08 | A8 | 4 | Il 2000 si è aperto dunque con un pianeta globalizzato, segnato da una | +0.0 s |
 
 **Tabella immagine del prof → argomento (uno solo)**
 | Immagine (PDF slide) | Argomento in cui compare | Minuto video | Qualità |
@@ -261,11 +260,21 @@ Corretti nelle nostre slide/dispensa (i file originali non sono toccati):
 | Carta «Dove si trova il Kuwait» (253×333) | 2 | 27:06 (Parte 1) | **piccola**: ingrandita 2,2× con Lanczos e nitidezza leggera (S) |
 | Carta «L'ex Iugoslavia 1991-2008» (1231×748) | 3 | 39:42 (Parte 1) | originale, nitida (S) |
 | Carta «Le tappe dell'integrazione europea» (783×655) | 4 | 48:58 (Parte 1) | originale (S) |
-| Ritratti Berlusconi (298×367) e Prodi (216×487) | 5 | 6:41 (Parte 2) | **piccoli**: ingranditi 1,4–1,8× con Lanczos e nitidezza leggera, tratti invariati (S) |
+| Ritratti Berlusconi (298×367) e Prodi (216×487) | 5 | 6:12 (Parte 2) | **piccoli**: ingranditi 1,4–1,8× con Lanczos e nitidezza leggera, tratti invariati (S) |
 Le immagini sono quelle del PDF del prof alla massima risoluzione disponibile; non scaricato nulla dal web. Il prof fa vedere la carta del Kuwait solo per 3,5 s: l'ho tenuta mentre parla del Kuwait (la mostro dove lo cita).
 
 ## 7. Controllo dell'agente separato
-_Controllo dell'agente separato non ancora eseguito._
+Controllo eseguito da un agente separato (non ha montato la lezione) sui file finali, prima delle correzioni sotto. Sintesi dei difetti trovati e come sono stati trattati:
+1. **Spiegone della Parte 2 includeva l'argomento 5** (non ancora visto) → **corretto**: ora solo argomenti 1–4.
+2. **Fotogramma nero di 1/30 s a ogni cambio di pezzo** (dissolvenza iniziale di 0,001 s) → **corretto**; ricontrollo automatico Parte 2: 0 fotogrammi neri isolati (M); Parte 1 ricodificata con lo stesso codice (S).
+3. **Avviso dei diritti doppio nelle sigle finali** (la sigla del kit ha già una copia grigia nei primi 3 s) → **corretto**: la mia copia bianca 24 px compare solo dopo i 3 s, quando quella del kit sparisce.
+4. **Sottotitoli mancanti per l'introduzione del prof (D0, D1)** → **corretti** (908 e 424 blocchi). COMP1–4 non hanno sottotitoli finché le voci sono provvisorie.
+5. **Refusi nei sottotitoli** (Srebrenica, pulizia etnica, Milošević, Al-Qaeda, Iugoslavia) → **corretti** con sostituzioni sistematiche. Altre parole mal riconosciute dal trascrittore potrebbero restare (NV).
+6. **Sigle non spiegate** (NATO nelle parole chiave, ONU, PSI, DC nei quiz e nelle pillole) → **corretto**: espansione automatica alla prima comparsa su schermo (pillole, approfondimenti, ripassi, compiti, parole chiave, quiz/verifica JSON).
+7. **Parte 2 sotto i 50 minuti** → approvato dalla master (totale 83 min, due Parti obbligate).
+8. **Mappa finale assente** → voluta: la master ha scritto di usare solo le mappe del prof.
+Non verificabili dall'agente: sincronia labbra, bordi delle voci, pronuncia dei nomi, «verifica dentro il video» (scheda con jingle; domande nel JSON). Testo delle slide a 1080p: righe di 34–37 px misurate dall'agente contro 40 px CSS impostati: ricontrollare a occhio.
+
 
 ## 8. Cosa NON ho verificato (NV)
 - Ascolto delle voci Kore (pronuncia, interpretazione): nessun ascolto possibile qui.
