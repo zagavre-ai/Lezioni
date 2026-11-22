@@ -1,14 +1,18 @@
 {
  "tag": "letteratura-V-lez01",
- "parti": {},
+ "parti": {
+  "1": {
+   "stato": "IN_REVISIONE"
+  }
+ },
  "manca": "",
- "serve_master": [
+ "serve_master": [],
+ "domande_sara": [],
+ "note": [
   {
-   "quando": "22/11 17:59",
-   "testo": "Lezione 1: serve la voce R11 (nuova, già nel testi_voci.json del ramo voci-letteratura-V-lez01, pushata alle 17:45 UTC): benvenuto senza il nome del docente (regola §3.9). Mi serve entro 18:20 UTC per consegnare alle 19:15."
+   "quando": "22/11 18:05",
+   "testo": "18:06 UTC: dal controllo di un agente separato corretti: nome del docente nella voce di benvenuto (R11 nuova), silenzi >2,5 s, sigla 15 s, schermate identiche >3 min, evidenziazioni, falsa partenza del docente, intercalari nei sottotitoli. Rimonto il video finale (~10 min), poi controllo severo (~20 min), rapporto e push. Consegna prevista 18:50 UTC"
   }
  ],
- "domande_sara": [],
- "note": [],
- "aggiornato": "2026-11-22 17:59:43"
+ "aggiornato": "2026-11-22 18:05:37"
 }
