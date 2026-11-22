@@ -25,7 +25,11 @@
   {
    "quando": "22/11 16:45",
    "testo": "22/11 17:15: eseguo le indicazioni delle 17:00: 2 Parti (fine arg.2), 4 approfondimenti (A1, A3, A5, A7: pausa del prof, solo dove la card dura >3 min), mappa in 3 schermate. Servono le voci: M1-M5, A1, A3, A5, A7 (gia' pushate) + nuova voce P2 (spiegone Parte 1). Ricodifica prof in corso."
+  },
+  {
+   "quando": "22/11 16:57",
+   "testo": "22/11 +40min: pronti slide 40px a finestre (2 card intere), mappa in 3 schermate, PDF slide (63 pag, con testo) e PDF mappe, S/GL/RF ricomposti; D1b ricodificato, altri pezzi prof in coda (~25 min). In attesa delle voci M1-M5, A1 A3 A5 A7, P2 dalla master (testi_voci.json su voci-letteratura-V-lez08)."
   }
  ],
- "aggiornato": "2026-11-22 16:45:32"
+ "aggiornato": "2026-11-22 16:57:29"
 }
