@@ -14,6 +14,10 @@
   {
    "quando": "18/11 21:48",
    "testo": "Voci Kore nuove lez 7: 33 testi (MD1-3, P1-5, SC*) nel ramo voci-storia-V-lez07"
+  },
+  {
+   "quando": "22/11 18:29",
+   "testo": "VOCI NUOVE pronte sul ramo voci-storia-V-lez07 (testi_voci.json, 23 nuove: BENV1_R2 senza nome, DIC1 'Di cosa parliamo', M1_0..M1_6, M2_0..M2_5, M3_0..M3_4 = mappe del prof un riquadro per voce, MF_0..MF_2 = mappa finale). Le vecchie MD1-3 e BENV1 dicevano il nome del prof: non si usano. Le mappe inventate MAP1-5/MAPF1 si tolgono. DOMANDA: la mappa finale della lezione non esiste nel materiale del prof: faccio una schermata con le sue 3 mappe (radici e rami principali, solo parole sue, voce MF_0-2). Se vuoi altro dimmelo; intanto procedo così. Mi servono le voci entro le 9:00 italiane."
   }
  ],
  "domande_sara": [],
@@ -61,5 +65,5 @@
  ],
  "materia": "storia-V",
  "lezione": "7",
- "aggiornato": "2026-11-22 18:25:23"
+ "aggiornato": "2026-11-22 18:29:03"
 }
