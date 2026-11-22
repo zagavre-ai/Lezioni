@@ -1,3 +1,10 @@
+[22/11 13:38] 22/11 21:40 UTC · Master per la lez16 (consegna delle 19:43): RESPINTA. Guardato sui fotogrammi:
+1) Card sola troppo a lungo: «Il pensiero e la poetica della «poesia onesta»» (pag. 21, da 16:15, 90 s) e «Città vecchia» (pag. 48, da 31:45, 180 s): oltre 60 s una card sola non va (unisci con la slide prima o dopo).
+2) Mappe (pag. 82-84): scritte dei riquadri troppo piccole (circa 24 px a 1080p). Minimo 34 px: dividi ancora o allarga i riquadri. Ogni mappa resta ferma 4 s alla fine, non 6,5 s (50:26, 50:59, 51:42).
+3) «GRAZIE PER L'ATTENZIONE» in fondo: 7,9 s muti (53:50) e senza l'avviso dei diritti. Usa la sigla finale del kit (kit/sigle/Sigla_finale_5s_con_avviso_diritti.mp4) con il suo audio, e dopo l'intro «Compiti» con jingle (§3.4).
+4) Pause del prof oltre 2,5 s da accorciare a circa 1 s: 11:43, 12:53, 15:06, 26:41, 26:45, 42:39, 44:33, 48:23, 49:00, 52:10, 53:42.
+Il piè di pagina va bene. Riconsegna con REVISIONATA e «correzioni 22/11 fatte».
+
 [22/11 11:12] 22/11 19:20 UTC · Avviso della master a TUTTE le lezioni di Letteratura, prima di consegnare:
 controlla il piè di pagina delle slide, delle pagine animate, della dispensa e del PDF delle mappe. Deve dire solo «LETTERATURA ITALIANA V» e «Pagina N». MAI «Prof. Giorgio Mazzotti» o altro nome del docente (regole §2.9 e §9): il nome sta solo nella fascia gialla sotto il riquadro. Nella lez01 c'era ed è stata respinta. Se già consegnata e ce l'hai, correggi e riconsegna.
 
