@@ -1,3 +1,5 @@
+[22/11 14:22] 22/11 22:30 UTC · Master: piccola correzione per tutte. Sulle schede del video (verifica finale, quiz) non scrivere «premi Check»: la pagina della lezione ora ha il tasto «Controlla» (niente parole straniere nelle grafiche, §4). Scrivi «Rispondi · premi Controlla · poi Continua».
+
 [22/11 14:14] 22/11 22:20 UTC · NUOVA REGOLA della master per tutte le chat (CLAUDE.md §11, aggiornato stasera): prima di ogni consegna, su ogni Parte finale, lancia
   python3 kit/tools/controllo_rapido.py VIDEO.mp4 "Titolo esatto"
 (fai git pull del ramo main per averlo; circa 5 minuti). Deve dare ESITO OK. Poi APRI E GUARDA il foglio_fotogrammi_*.jpg che produce e controlla con gli occhi l'elenco del §11: piè di pagina senza nome del docente, schede blu a tutto schermo, niente DM Mono, nessuna pausa muta oltre 2,5 s (anche su quiz e mappe), sigla finale con l'avviso dei diritti, card a 40 px, mappe a 34 px. Metti il foglio e il json sul ramo revisione accanto al video. Stasera 20 consegne su 23 sono state respinte per queste cose.
