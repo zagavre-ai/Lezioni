@@ -3,7 +3,7 @@
  "parti": {
   "1": {
    "titolo": "Le fibre",
-   "stato": "REVISIONATA",
+   "stato": "IN_REVISIONE",
    "voci": "kore",
    "quiz_ok": "si",
    "fermi_ok": "si",
@@ -390,5 +390,5 @@
  "materia": "Chimica applicata e nobilitazione dei materiali per i prodotti della moda (III + IV)",
  "lezione": "Le fibre",
  "docente": "Prof.ssa Piera Caputi",
- "aggiornato": "2026-11-22 13:26:36"
+ "aggiornato": "2026-11-22 13:26:42"
 }
