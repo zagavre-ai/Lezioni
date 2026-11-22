@@ -25,6 +25,10 @@
   {
    "quando": "22/11 17:00",
    "testo": "Lez24: servono SUBITO le voci nuove sul ramo voci-letteratura-V-lez24: MP1, MP2, MP3, MP4, MP5b (mappa in 3 schermate), INTRO1c, S3c, RF1c (tolto il nome del prof e L'affaire Moro). Senza non posso chiudere entro le 19:30 UTC."
+  },
+  {
+   "quando": "22/11 18:11",
+   "testo": "Lez24: la voce MP3 non è stata generata (file vuoto/mancante). Ho rimandato il testo diviso in MP3a e MP3b: servono entro le 18:50 UTC o non chiudo la mappa 3/3."
   }
  ],
  "domande_sara": [],
@@ -72,7 +76,11 @@
   {
    "quando": "22/11 17:00",
    "testo": "17:00 UTC: tutti i pezzi video pronti tranne INTRO1c/S3c/RF1c/MP1-MP5b (voci nuove non ancora generate)"
+  },
+  {
+   "quando": "22/11 18:11",
+   "testo": "18:15 UTC: arrivate MP1 MP2 MP4 MP5b INTRO1c S3c RF1c; MANCA MP3 (mai generata): rimandata come MP3a+MP3b"
   }
  ],
- "aggiornato": "2026-11-22 17:00:19"
+ "aggiornato": "2026-11-22 18:11:34"
 }
