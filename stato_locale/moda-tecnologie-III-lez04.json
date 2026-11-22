@@ -1,8 +1,22 @@
 {
  "tag": "moda-tecnologie-III-lez04",
- "parti": {},
+ "parti": {
+  "1": {
+   "titolo": "Tessitura pt.1 (argomenti 1-4)",
+   "stato": "IN_MONTAGGIO"
+  }
+ },
  "manca": "",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "22/11 13:36",
+   "testo": "Ramo voci-moda-tecnologie-III-lez04: caricati testi_voci.json (34 voci: intro P1/P2, titoli, approfondimento+ripasso per 8 argomenti, ritorno) e immagini.json (9 acquerelli). Struttura proposta: 8 argomenti, 2 Parti (A1-A4 ~0-26 min di prof, A5-A8 ~26-59 min). Segnalo: (1) la trascrizione automatica ha molti errori sui termini (brille, reps, boccole...) e ogni card va riscritta a mano dal PDF: lavoro lungo. (2) Stima onesta: montaggio+controllo agente separato di una sola lezione richiede varie ore; lez05 e lez06 dopo. Se serve ripartire il lavoro su piu' chat, dimmelo. (3) Domanda: l'ASR e' l'unica fonte dei tempi, nessun problema se i controlli a campione restano a mio carico?"
+  },
+  {
+   "quando": "22/11 13:48",
+   "testo": "STATO ONESTO 22/11: pronti per lez04: trascrizione, struttura 8 argomenti/2 Parti, card (argomenti 1,4,5,6,7,8 fatti; 2-3 in lavorazione), quiz/mappe/glossari bozza, motore di montaggio (tondo ripulito, pause, slide), template scene e animazioni (intreccio su griglia, processi, ventaglio). Immagini ricevute OK (grazie), IMG_A3_scampionatura ha un bordo di foglio: la rifaro' come _v2. MI SERVONO: (1) voci di testi_voci.json; poi mandero' un secondo giro (voci mappe, glossari, ripasso finale). (2) Domanda formato quiz: scheda Quiz di 5 s con jingle e domande su piattaforma (modello Spagnolo) oppure le 5 domande dentro il video come nella Gonna? Procedo col modello Gonna (domande nel video) salvo tua risposta. NESSUNA lezione e' ancora consegnabile: il montaggio e il controllo con agente separato sono ancora da fare, lez05 e lez06 non iniziate."
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
@@ -26,7 +40,7 @@
    "testo": "Presa lez04 (poi 05, 06). Materiali mp4/pdf/xlsx trovati SI (anche 05 e 06); niente compiti (lez 2-8). Sorgente 852x480, 59 min. Trascrizione in corso. Stima consegna lez04: dopo trascrizione ricalcolo e scrivo qui; la prima consegna non e' prevista prima di alcune ore. Nota: stato.py ha REPO fisso /home/claude/lezioni, ho fatto un link simbolico."
   }
  ],
- "aggiornato": "2026-11-22 13:29:47",
+ "aggiornato": "2026-11-22 13:48:30",
  "materia": "Tecnologie dei materiali e dei processi produttivi e organizzativi della moda · III anno",
  "lezione": "Lezione 4 · Tessitura pt. 1",
  "docente": "Prof.ssa Piera Caputi"
