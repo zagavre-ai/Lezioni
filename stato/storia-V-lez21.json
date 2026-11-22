@@ -18,6 +18,10 @@
   {
    "quando": "22/11 19:19",
    "testo": "Controllo voci gia' arrivate (ASR): vanno rifatte LG1 (manca il 2001), SC7_2 (nel wav c'e' anche 'Terzo,' in coda), PI1 (pronuncia di 'Gli USA' dubbia). Nuovi testi *_R2 gia' su voci-storia-V-lez21. Elenco completo delle voci nuove da generare: BEN1_R2, BEN2_R2, MA1_0..MA1_2, MA2_0..MA2_6, MA3_0..MA3_4, MA4_0..MA4_3, MB1_1..MB1_3, MB4_0..MB4_4, SP_0..SP_4B, MF_0, CP_1..CP_4, FZ1_R2, AP3_0_R2, AP3_1_R2, AP3_3_R2, AP5_1_R2, SC3_1_R2..SC3_4_R2, LG1_R2, SC7_2_R2, PI1_R2. NON servono: MA7_*, MB1_0, RP_*."
+  },
+  {
+   "quando": "22/11 19:20",
+   "testo": "Correzione voci lez 21: la Parte 1 ha 4 argomenti (USA, Medio Oriente, Obama/Trump, mondo multipolare). Usate BEN1_R3 e BEN2_R3 (NON BEN1_R2/BEN2_R2); SP_0 e SP_4 hanno il testo aggiornato (non ancora generati). Le voci con nome del prof (BEN1, BEN2, BENV1) non vanno usate."
   }
  ],
  "domande_sara": [],
@@ -42,5 +46,5 @@
  "materia": "Storia V",
  "lezione": "Lezione 21 · Il mondo dal 2001 ad oggi",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-22 19:19:32"
+ "aggiornato": "2026-11-22 19:20:56"
 }
