@@ -2,7 +2,7 @@
  "tag": "letteratura-V-lez06",
  "parti": {
   "1": {
-   "stato": "REVISIONATA",
+   "stato": "IN_REVISIONE",
    "voci": "kore",
    "quiz_ok": "si",
    "fermi_ok": "si",
@@ -67,7 +67,11 @@
   {
    "quando": "17/11 17:19",
    "testo": "riletti gli aggiornamenti fino alle 10:19: per la lezione 6 nessuna modifica (nessun nome latino da pronunciare, titoli sempre a sinistra del riquadro, etichetta mappa in alto a sinistra, nessuna etichetta tra parentesi). consegna ferma sul ramo revisione-letteratura-V-lez06"
+  },
+  {
+   "quando": "22/11 16:36",
+   "testo": "correzioni 22/11: presa dal ramo revisione-letteratura-V-lez06; consegna prevista 19:30 UTC (20:30 IT); aggiorno ogni 20-30 min"
   }
  ],
- "aggiornato": "2026-11-17 17:19:50"
+ "aggiornato": "2026-11-22 16:36:31"
 }
