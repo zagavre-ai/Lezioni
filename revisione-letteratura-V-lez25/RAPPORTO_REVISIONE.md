@@ -15,6 +15,8 @@ Correzioni del 22/11/2026 (sul video del 17/11). Video: `Letteratura_Lez25_Parte
 - **PDF:** slide (57 pagine) e mappe (2 pagine), A4 orizzontale, identici al video (senza riquadro del prof), **con strato di testo invisibile** selezionabile (testato con `pdftotext`). Copertina con solo materia e titolo (più «MAPPE» nel PDF mappe), piè di pagina con materia e numero, senza nome del docente.
 - `timeline.json`, `scheda_pubblicazione.json` («Letteratura V · Lezione 25 · Pier Paolo Pasolini»), `testo_youtube.txt`, `quiz_argomenti.json` rigenerati sui secondi del video finale.
 
+- **Nota di unione:** sul ramo la master aveva inserito nel video del 17/11 «pillole di ripasso» di 14 s con voce di annuncio (commit a663a39). Questa consegna rifà il montaggio da capo e ha già un ripasso con voce e jingle dopo ogni argomento: **ho tenuto la mia versione** di video, `.vtt`, scheda e timeline (coerenti tra loro). Se la master vuole le sue pillole, vanno reinserite sul nuovo video e i secondi rigenerati.
+
 ## 2. Misure sul video finale (misurato)
 | Controllo | Risultato |
 |---|---|
