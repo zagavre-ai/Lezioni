@@ -61,6 +61,10 @@ Sincronia audio/video del prof (correlazione sull'originale, 3 punti per pezzo):
 ## 6. Voci
 Voci nuove: MR1–MR6 (mappa unica), GL2 (glossario). Controllo: trascritte una per una e confrontate con il copione, **tutti i numeri coincidono** (1908, 1930, 1935, 1936, 1941–1951…) e nessuna parola inserita o mancante; «amendmenta» nella trascrizione è un'allucinazione dello strumento (durata zero). Le voci già esistenti (INTRO, R, S, AN, RF, FIN) controllate con lo stesso metodo: numeri coincidenti.
 
+## 6-bis. Controllo di un agente separato (che non ha montato la lezione, §11 delle regole)
+Esito: **nessun difetto bloccante** su: (1) pezzi del prof a frase intera (0 parole a cavallo dei tagli, in tutti e 7); (2) copertina senza riquadro del prof; (3) max 3 card, iniziali maiuscole, testo 40 px, mappa unica con legenda BES costruita ramo per ramo; (4) PDF slide 60 pagine A4 orizzontali con testo selezionabile, copertina e piè di pagina senza nome del docente né numero di lezione, PDF mappe con «MAPPE»; (5) nessun numero di lezione e nome del docente solo nella fascia gialla e nel piè di pagina delle slide col prof; (6) sottotitoli: 0 sovrapposizioni, max 2 righe, 15 cue a campione coerenti con la trascrizione.
+**Difetto lieve:** un sottotitolo lungo 9,5 s a 15:43–15:52 (copre una pausa del prof): leggibile, nessuna regola violata, **non corretto**. L'agente **non ha verificato**: audio, labbra, quiz, glossario, verifica, compiti, voci, immagini, «già visto», bordo giallo in 10 punti, tenuta di 4 s della mappa finale.
+
 ## 7. Cosa non ho potuto verificare
 - Nessun **ascolto umano** (rumore, «metallico», naturalezza delle voci Kore, sincronia delle labbra oltre la misura).
 - Controllo severo con **OCR sostitutivo** (§2).
