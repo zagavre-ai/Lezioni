@@ -676,5 +676,13 @@
  {
   "nome": "MP3_7",
   "testo": "Ma ottiene una maggioranza instabile."
+ },
+ {
+  "nome": "DIC_1",
+  "testo": "Di cosa parliamo. In questa prima parte vedremo cinque argomenti: la crisi di fine secolo e la svolta liberale; la nuova linea politica di Giolitti; i rapporti con i socialisti e lo sciopero del millenovecentoquattro; il rapporto con i cattolici e il trasformismo; le riforme sociali e scolastiche."
+ },
+ {
+  "nome": "DIC_2",
+  "testo": "Di cosa parliamo. In questa seconda parte vedremo sei argomenti: il suffragio universale maschile e il Patto Gentiloni; le riforme mancate, cioè le donne in lotta; il decollo industriale italiano; il divario tra Nord e Sud e l'emigrazione; la politica coloniale e la guerra in Libia; la caduta di Giolitti e la settimana rossa."
  }
 ]
