@@ -1,0 +1,6 @@
+controllo_severo.py final (passo 15 s)
+ESITO: RESPINTA
+ERRORI: ['«…» in 8 campioni']
+DA_GUARDARE: ['possibili card con iniziale minuscola: 4:37, 6:07, 6:37, 8:52']
+Durata min: 64.78 | LUFS -16.0 | pause>2.5s: 0 | schermate identiche>3min: [] | card sole>60s: [] | copertina: titolo presente True, 90 s
+Nota: i «…» sono nelle note del libro del prof (fettine di Pianto antico, 43:52-45:52): «lo ristora … calor», «Tu fior … inaridita», «estremo … fior».
