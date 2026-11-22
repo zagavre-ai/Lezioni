@@ -2,13 +2,7 @@
  "tag": "letteratura-V-lez15",
  "parti": {
   "1": {
-   "stato": "REVISIONATA",
-   "video": "Letteratura_Lez15_Parte1_1080p.mp4",
-   "durata_s": 3101.8,
-   "durata": "51:41.8",
-   "fotogrammi": 93055,
-   "fotogrammi_attesi": 93055,
-   "peso_MB": 300.0
+   "stato": "IN_REVISIONE"
   }
  },
  "manca": "",
@@ -16,9 +10,9 @@
  "domande_sara": [],
  "note": [
   {
-   "quando": "17/11 17:24",
-   "testo": "copertina in Figtree Bold ricodificata e consegnata sul ramo revisione (17/11)"
+   "quando": "22/11 16:36",
+   "testo": "correzioni 22/11: presa da revisione-letteratura-V-lez15 (macchina ancora viva). Consegna prevista entro 19:30 UTC"
   }
  ],
- "aggiornato": "2026-11-17 17:24:33"
+ "aggiornato": "2026-11-22 16:36:32"
 }
