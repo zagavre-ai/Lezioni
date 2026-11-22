@@ -4,11 +4,11 @@
   "1": {
    "stato": "REVISIONATA",
    "video": "Letteratura_Lez21_Parte1_1080p.mp4",
-   "durata_s": 3443.3,
-   "durata": "57:23.3",
-   "fotogrammi": 103299,
-   "fotogrammi_attesi": 103299,
-   "peso_MB": 210.4
+   "durata_s": 3320.6,
+   "durata": "55:20.6",
+   "fotogrammi": 99617,
+   "fotogrammi_attesi": 99617,
+   "peso_MB": 199.8
   }
  },
  "manca": "",
@@ -103,7 +103,11 @@
   {
    "quando": "22/11 18:27",
    "testo": "correzioni 22/11 (18:28 UTC): controllo severo: tutto OK tranne 24 pause >2,5 s tra le schede; le ho accorciate e sto ricodificando (pezzi leggeri + video finale). Poi ricontrollo e consegno entro le 19:15 UTC."
+  },
+  {
+   "quando": "22/11 19:03",
+   "testo": "correzioni 22/11 fatte (19:05 UTC): consegnata sul ramo revisione-letteratura-V-lez21. 55:20,6, 99617 fotogrammi, controllo_severo ESITO OK (con OCR sostitutivo: tesseract non installabile), picco -1,8 dBFS, quiz +0,000 s, sync prof 0,015 s. Secondi nuovi nella scheda. Controllo di un agente separato in corso: lo aggiungo al rapporto."
   }
  ],
- "aggiornato": "2026-11-22 18:27:16"
+ "aggiornato": "2026-11-22 19:03:07"
 }
