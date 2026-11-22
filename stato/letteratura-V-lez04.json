@@ -121,7 +121,11 @@
   {
    "quando": "22/11 19:01",
    "testo": "correzioni 22/11: video finale v4 codificato (48:53, -16,6 LUFS, picco -2,1, jingle OK, sync -0,02 s, nessuna pausa >2,5 s); controllo severo in corso; poi push; prevista 19:00 UTC"
+  },
+  {
+   "quando": "22/11 19:05",
+   "testo": "correzioni 22/11: consegnato v4 sul ramo; aggiungo schede blu animate come Spagnolo (titolo, quiz, verifica, compiti, riepilogo); ricodifica in corso, nuova consegna prevista 19:30 UTC"
   }
  ],
- "aggiornato": "2026-11-22 19:01:24"
+ "aggiornato": "2026-11-22 19:05:32"
 }
