@@ -1,10 +1,5 @@
 [
  {
-  "nome": "INTRO1",
-  "testo": "Benvenuti alla videolezione di Storia del professor Giorgio Mazzotti: l'Italia repubblicana. In questa prima parte vediamo l'Italia che esce dalla guerra distrutta, la nascita della Repubblica con il referendum del due giugno millenovecentoquarantasei e la Costituzione. Alla fine di ogni argomento troverai un ripasso, una mappa e un quiz di cinque domande.",
-  "lingua": "it"
- },
- {
   "nome": "R1",
   "testo": "Ripasso. Dopo la guerra l'Italia è distrutta dai bombardamenti alleati e dalle rappresaglie tedesche. Fabbriche e infrastrutture sono devastate, la produzione è ferma e mancano i beni di prima necessità. Cresce la disoccupazione e si diffonde il mercato nero. Nel Centro-Nord ci sono regolamenti di conti contro gli ex fascisti, nel Sud i contadini occupano le terre dei latifondisti.",
   "lingua": "it"
@@ -22,11 +17,6 @@
  {
   "nome": "AN1b",
   "testo": "L'ordine pubblico, in questi mesi, è precario. Vediamo dove e perché. Nel Centro-Nord si verificano regolamenti di conti contro gli ex fascisti: persone che avevano ricoperto cariche del regime vengono colpite. Nel Sud esplodono le lotte contadine: i contadini chiedono la redistribuzione delle terre e occupano i latifondi. Lo Stato è fragile e la forza pubblica reprime queste manifestazioni. Il clima sociale è segnato da conflitti di classe, in un Paese sfiduciato dopo una guerra perduta su quasi tutti i fronti.",
-  "lingua": "it"
- },
- {
-  "nome": "MAP1",
-  "testo": "Costruiamo la mappa di questo argomento. Primo ramo: le distruzioni. I bombardamenti colpiscono fabbriche e strade. Secondo ramo: l'economia. La produzione è ferma e cresce il mercato nero. Terzo ramo: la popolazione. Aumenta la disoccupazione, tra reduci e sfollati. Quarto ramo: il Centro-Nord, dove la violenza prende la forma di regolamenti di conti. Quinto ramo: il Sud, con le lotte contadine per le terre dei latifondisti.",
   "lingua": "it"
  },
  {
@@ -50,11 +40,6 @@
   "lingua": "it"
  },
  {
-  "nome": "MAP2",
-  "testo": "Ecco la mappa della nascita della Repubblica. Primo ramo: i partiti di massa, cioè Democrazia Cristiana, comunisti e socialisti, con De Gasperi, Togliatti e Nenni. Secondo ramo: la pacificazione, con l'amnistia promossa da Togliatti. Terzo ramo: il referendum del due giugno millenovecentoquarantasei, in cui votano anche le donne. Quarto ramo: il risultato. Vince la Repubblica, con dodici milioni di voti contro dieci. Quinto ramo: l'Assemblea Costituente, che nasce nel millenovecentoquarantasei.",
-  "lingua": "it"
- },
- {
   "nome": "R3",
   "testo": "Ripasso. Nell'Assemblea Costituente siedono ventuno donne, le madri costituenti, tra cui Nilde Iotti, Lina Merlin e Teresa Mattei. La Costituzione entra in vigore il primo gennaio del millenovecentoquarantotto e definisce l'Italia una repubblica democratica fondata sul lavoro. I poteri sono separati: il Parlamento fa le leggi, il Governo esegue e la Magistratura giudica.",
   "lingua": "it"
@@ -75,16 +60,6 @@
   "lingua": "it"
  },
  {
-  "nome": "MAP3",
-  "testo": "Ecco la mappa della Costituzione. Primo ramo: le madri costituenti, ventuno donne, tra cui Iotti, Merlin e Mattei. Secondo ramo: l'entrata in vigore, il primo gennaio del millenovecentoquarantotto, con una repubblica fondata sul lavoro. Terzo ramo: il Parlamento, che esercita il potere legislativo e fa le leggi. Quarto ramo: il Governo, che ha il potere esecutivo e deve chiedere la fiducia. Quinto ramo: la Magistratura, che esercita il potere giudiziario.",
-  "lingua": "it"
- },
- {
-  "nome": "MAPF1",
-  "testo": "Ecco la mappa di tutta la prima parte. Dalle macerie della guerra, con il mercato nero e la violenza. Alla scena politica dei grandi partiti di massa: Democrazia Cristiana, comunisti e socialisti. Fino al referendum del due giugno millenovecentoquarantasei, in cui vince la Repubblica. Poi l'Assemblea Costituente, con ventuno madri costituenti. Infine la Costituzione, in vigore dal primo gennaio del millenovecentoquarantotto, con tre poteri separati.",
-  "lingua": "it"
- },
- {
   "nome": "GL1",
   "testo": "Glossario. Le parole chiave di questa parte. Mercato nero: il commercio di beni a prezzi altissimi, fuori dal controllo dello Stato. Amnistia: il perdono dei reati politici commessi durante la guerra. Referendum istituzionale: il voto con cui gli italiani scelgono tra Repubblica e Monarchia. Assemblea Costituente: l'assemblea eletta per scrivere la Costituzione. Separazione dei poteri: legislativo, esecutivo e giudiziario affidati a organi diversi.",
   "lingua": "it"
@@ -97,11 +72,6 @@
  {
   "nome": "FIN1",
   "testo": "Per oggi è tutto. Nella seconda parte vedremo gli anni del Centrismo, il miracolo economico e la stagione del Centrosinistra. Ti aspetto.",
-  "lingua": "it"
- },
- {
-  "nome": "INTRO2",
-  "testo": "Benvenuti alla seconda parte della videolezione di Storia sull'Italia repubblicana. Prima di ripartire, un breve ripasso della prima parte. L'Italia esce dalla guerra distrutta, tra mercato nero e violenza. Il due giugno del millenovecentoquarantasei il referendum sceglie la Repubblica e nasce l'Assemblea Costituente. La Costituzione entra in vigore il primo gennaio del millenovecentoquarantotto. Ora vediamo gli anni del Centrismo, il miracolo economico e la stagione del Centrosinistra.",
   "lingua": "it"
  },
  {
@@ -125,11 +95,6 @@
   "lingua": "it"
  },
  {
-  "nome": "MAP4",
-  "testo": "Ecco la mappa degli anni del Centrismo. Primo ramo: le elezioni del millenovecentoquarantotto, con la vittoria della Democrazia Cristiana contro il Fronte popolare. Secondo ramo: la pace di Parigi, con le perdite dell'Italia e Trieste divisa. Terzo ramo: la linea economica liberista, con De Gasperi ed Einaudi. Quarto ramo: le riforme, cioè la riforma agraria e la Cassa per il Mezzogiorno. Quinto ramo: la politica estera, con la scelta del blocco occidentale: Marshall, NATO e CECA.",
-  "lingua": "it"
- },
- {
   "nome": "R5",
   "testo": "Ripasso. Tra gli anni Cinquanta e Sessanta l'Italia vive una crescita industriale eccezionale, trainata da automobile, siderurgia e chimica. Con elettrodomestici, automobili, televisione e vacanze di massa cambiano gli stili di vita. Ma si accentua il divario tra Nord e Sud, con una massiccia migrazione interna e città che crescono in modo caotico.",
   "lingua": "it"
@@ -150,11 +115,6 @@
   "lingua": "it"
  },
  {
-  "nome": "MAP5",
-  "testo": "Ecco la mappa del miracolo economico. Primo ramo: le cause. L'appartenenza al blocco occidentale, la partecipazione alla CEE e il basso costo del lavoro. Secondo ramo: i settori trainanti, cioè automobile, siderurgia e chimica. Terzo ramo: i consumi, che cambiano gli stili di vita, con televisione, automobili ed elettrodomestici. Quarto ramo: le migrazioni, dal Sud al Nord e dalle campagne alle città. Quinto ramo: le criticità, con il divario tra Nord e Sud, le periferie e la cementificazione.",
-  "lingua": "it"
- },
- {
   "nome": "R6",
   "testo": "Ripasso. Per allargare la base democratica, la DC si apre ai socialisti e nascono i governi di centrosinistra guidati da Fanfani e Moro. Le grandi riforme sono la nazionalizzazione dell'energia elettrica, con l'ENEL, e la scuola media unica e obbligatoria fino a quattordici anni. Dopo i fatti d'Ungheria e dopo la morte di Togliatti, il Partito comunista avvia un percorso di autonomia dall'Unione Sovietica.",
   "lingua": "it"
@@ -172,16 +132,6 @@
  {
   "nome": "AN6c",
   "testo": "Questo periodo ha luci e ombre. Le luci sono le riforme sociali e l'apertura della Chiesa con papa Giovanni ventitreesimo, che inaugura il Concilio Vaticano Secondo. Le ombre sono le tensioni con i conservatori e, nel millenovecentosessantaquattro, il Piano Solo, mai chiarito fino in fondo. Secondo il Piano Solo, i carabinieri guidati dal generale De Lorenzo avrebbero dovuto organizzare un colpo di stato. Il generale lasciò la divisa, ma poi diventò parlamentare della Repubblica.",
-  "lingua": "it"
- },
- {
-  "nome": "MAP6",
-  "testo": "Ecco la mappa del centrosinistra. Primo ramo: Fanfani e Moro, della corrente di sinistra della Democrazia Cristiana. Secondo ramo: l'alleanza con il Partito socialista di Nenni. Terzo ramo: i governi di centrosinistra, dal millenovecentosessantadue. Quarto ramo: l'ENEL, con la nazionalizzazione dell'energia elettrica. Quinto ramo: la scuola media unica, obbligatoria fino a quattordici anni. Sesto ramo: il Partito comunista, che dopo l'Ungheria del millenovecentocinquantasei avvia un percorso di autonomia.",
-  "lingua": "it"
- },
- {
-  "nome": "MAPF2",
-  "testo": "Ecco la mappa di tutta la seconda parte. Il Centrismo, con la Democrazia Cristiana al governo dopo la vittoria del millenovecentoquarantotto. Le scelte dei governi De Gasperi: riforma agraria, Cassa per il Mezzogiorno e Patto Atlantico. Il miracolo economico, il boom del quinquennio millenovecentocinquantotto, sessantatré, simboleggiato dalla Fiat Cinquecento. Le sue criticità: il divario tra Nord e Sud, le migrazioni e le periferie. Infine il centrosinistra, con l'alleanza tra Democrazia Cristiana e socialisti e riforme come l'ENEL e la scuola media unica.",
   "lingua": "it"
  },
  {
