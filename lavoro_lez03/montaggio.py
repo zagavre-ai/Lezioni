@@ -36,7 +36,7 @@ def _rd(p,n):
     return bytes(b)
 def _enc(out_v,N):
     return subprocess.Popen(['ffmpeg','-v','error','-y','-f','rawvideo','-pix_fmt','rgb24','-s','1920x1080','-r','30','-i','-','-frames:v',str(N),
-        '-c:v','libx264','-preset','veryfast','-crf','19','-pix_fmt','yuv420p','-r','30','-an',out_v],stdin=subprocess.PIPE)
+        '-c:v','libx264','-preset','veryfast','-crf','21','-pix_fmt','yuv420p','-r','30','-an',out_v],stdin=subprocess.PIPE)
 _png_cache={}
 def load_png(p):
     if p not in _png_cache:
@@ -46,7 +46,7 @@ def load_png(p):
 def doc_piece(name,src,subs,states,tag=''):
     """pezzo con il prof: subs=[(x,y)] intervalli sorgente, states=[(png,frames)] in tempo d'uscita (il riquadro del prof si sovrappone)"""
     frames=[nfr(y-x) for x,y in subs];N=sum(frames)
-    k=key_of('doc2',src,subs,[(p,f) for p,f in states],tag)
+    k=key_of('doc3',src,subs,[(p,f) for p,f in states],tag)
     v=f'{OUT}/pezzi/{name}_{k}.mp4';a=f'{OUT}/pezzi/{name}_{k}.wav'
     if os.path.exists(v) and os.path.exists(a):return dict(v=v,a=a,n=N,first=states[0][0],last=states[-1][0],name=name,src=src,subs=subs)
     s=sum(f for _,f in states)
@@ -57,7 +57,7 @@ def doc_piece(name,src,subs,states,tag=''):
     for i,f in enumerate(frames):
         fd=f/FPS
         fc.append(f'[{i}:a]aresample=48000,asetpts=PTS-STARTPTS,apad=whole_dur={fd:.4f},atrim=0:{fd:.4f},afade=t=in:st=0:d=0.03,afade=t=out:st={max(0,fd-0.03):.4f}:d=0.03[a{i}]');ai.append(f'[a{i}]')
-    fc.append(''.join(ai)+f'concat=n={len(frames)}:v=0:a=1,highpass=f=70,afftdn=nr=6:nf=-48:tn=0,pan=stereo|c0=c0|c1=c0[au]')
+    fc.append(''.join(ai)+f'concat=n={len(frames)}:v=0:a=1,highpass=f=70,afftdn=nr=6:nf=-48:tn=0,atrim=start=0.0250,asetpts=PTS-STARTPTS,apad,pan=stereo|c0=c0|c1=c0[au]')
     cmd+=['-filter_complex',';'.join(fc),'-map','[au]','-t',f'{N/FPS:.4f}','-c:a','pcm_s16le','-ar','48000',a]
     sh(cmd)
     # video
