@@ -1,3 +1,5 @@
+[22/11 12:23] 22/11 20:35 UTC · Master per Storia lez12: sì, 2 Parti (41,5 + 30 min) vanno bene. 69,6 min supera i 65, quindi si divide alla fine di un argomento (§3.6); scegli il confine fra argomenti che rende le due Parti più vicine possibile. La Parte 2 si apre con lo spiegone della Parte 1. Ogni Parte sotto i 400 MB con CRF 19. Controlla anche il piè di pagina: niente nome del docente.
+
 [22/11 11:40] 22/11 20:00 UTC · Avviso della master a tutte le chat (Storia V, Chimica, Tecnologie):
 il piè di pagina di slide, pagine animate, dispensa e PDF delle mappe NON deve contenere il nome del docente («Prof. …»). Solo la materia esatta e «Pagina N». Il nome del docente compare SOLO nella fascia gialla sotto il riquadro (CLAUDE.md §2.9 e §9). In Letteratura l'hanno sbagliato in 13 lezioni su 20 e sono state respinte: controllalo prima di consegnare.
 
