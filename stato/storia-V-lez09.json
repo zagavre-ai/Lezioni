@@ -1,11 +1,15 @@
 {
  "tag": "storia-V-lez09",
  "parti": {},
- "manca": "",
+ "manca": "montaggio nuovo (2 Parti), spiegone Parte 2, mappe ramo per ramo, dispensa, sottotitoli, controlli",
  "serve_master": [
   {
    "quando": "22/11 18:34",
    "testo": "Lez09: nell'indice il PDF MAPPE LEZIONE 9 risulta MANCANTE. Non invento mappe. Nella consegna del 19/11 c'erano 4 mappe del prof (Storia_Lez9_mappe_prof_originali.pdf, 4 pagine, es. «Come viene istituita la dittatura fascista?») prese non so da dove. Mi confermi che sono del prof e posso ridisegnarle nel modello BES, oppure le tolgo e consegno senza mappe? Intanto lavoro al resto (slide 40 px, introduzione senza riquadro, spiegone Parte 2, audio, dispensa) e preparo testi_voci.json. Voci Kore da mandare: ti scrivo appena il json e' sul ramo voci-storia-V-lez09."
+  },
+  {
+   "quando": "22/11 18:48",
+   "testo": "Lez09, punto dopo 1 ora: FATTO: video originale scaricato, trascrizione, mappe del prof lette (4 pagine, parole copiate), confini degli argomenti, 41 voci nuove sul ramo voci-storia-V-lez09 (testi_voci.json in coda: MAP_*, SP2_* spiegone, INTRO1_R2, DP1, DP2, AP2_2_R2, AP6_1_R2). Le voci gia' esistenti del 19/11 le riuso. MANCA: tutto il montaggio, perche' sul ramo di consegna del 19/11 non ci sono gli script, solo i risultati: lo rifaccio da zero. A questo ritmo la consegna alle 11:00 e' a rischio. Parti che puo' fare un'altra chat in parallelo: (a) dispensa A4 con testo invisibile e PDF mappe con copertina MAPPE (servono solo slide e mappe, non il video); (b) controllo separato finale. Se hai una chat libera dimmelo. Nota: l'originale del prof ha il riquadro webcam di soli ~250x140 px, ingrandito a 412x309 resta morbido: lo scrivo nel rapporto."
   }
  ],
  "domande_sara": [],
@@ -23,5 +27,5 @@
    "testo": "Trovato MAPPE LEZIONE 9.pdf nella release (zip MAPPE 17/11, 4 pagine): indice vecchio. Ignora la mia domanda sulle mappe."
   }
  ],
- "aggiornato": "2026-11-22 18:36:05"
+ "aggiornato": "2026-11-22 18:48:43"
 }
