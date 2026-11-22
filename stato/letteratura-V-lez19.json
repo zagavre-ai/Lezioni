@@ -2,7 +2,7 @@
  "tag": "letteratura-V-lez19",
  "parti": {
   "1": {
-   "stato": "REVISIONATA",
+   "stato": "IN_REVISIONE",
    "titolo": "Dal secondo dopoguerra a oggi",
    "voci": "kore",
    "quiz_ok": "si",
@@ -212,12 +212,7 @@
   }
  },
  "manca": "",
- "serve_master": [
-  {
-   "quando": "22/11 16:37",
-   "testo": "22/11 16:40 UTC: una seconda chat di lezione 19 ha trovato lo stato gia' preso con 'correzioni 22/11' alle 16:32 (altra chat). Non l'ho toccata ne' prenotata: mi fermo come da regola. Se la prima chat e' chiusa/ferma dimmelo e riparto subito (ho ancora in /home/user/w19 la pipeline della revisione del 17/11)."
-  }
- ],
+ "serve_master": [],
  "domande_sara": [],
  "note": [
   {
@@ -239,10 +234,22 @@
   {
    "quando": "17/11 08:35",
    "testo": "17/11 ~08:40 UTC: REVISIONATA, ramo revisione-letteratura-V-lez19. Durata misurata 50:25,23 (90757 fotogrammi), 170 MB. Secondi cambiati: vedi tabella nel rapporto/scheda. Da ascoltare: nomi nelle voci Kore, jingle titolo/trans nuovi. CRONOMETRO.md sul ramo"
+  },
+  {
+   "quando": "17/11 18:27",
+   "testo": "17/11: ripristinato lo stato REVISIONATA della prima revisione (ramo revisione-letteratura-V-lez19, 50:25, consegnata 08:35 UTC): durante questa sessione l'avevo sovrascritto per errore con IN_REVISIONE. In più esiste una revisione ALTERNATIVA v2 (50:09) sul ramo claude/admiring-cerf-9zh5f6, cartella revisione-letteratura-V-lez19-v2/, che non ha sostituito la prima: scegliere quale caricare."
+  },
+  {
+   "quando": "22/11 16:32",
+   "testo": "correzioni 22/11: presa da revisione-letteratura-V-lez19 (prima revisione 50:25) e dalla mia v2 (ramo claude/admiring-cerf-9zh5f6, 50:09). Consegna prevista entro le 19:30 UTC; scrivo la stima vera al controllo di 1 ora."
+  },
+  {
+   "quando": "22/11 16:40",
+   "testo": "correzioni 22/11 (16:40 UTC): rifatte slide a 40 px, max 2 card intere per pagina (pagine nuove ogni <3 min), mappa del prof in stile BES ramo per ramo (voce RV5), verifica e compiti dentro il video; codifica in corso. Stima consegna 18:30 UTC (scadenza 19:30)."
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 19 · Dal secondo dopoguerra a oggi",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-22 16:37:16"
+ "aggiornato": "2026-11-22 16:40:48"
 }
