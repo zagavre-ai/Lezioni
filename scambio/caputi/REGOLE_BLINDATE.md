@@ -85,7 +85,8 @@ Valgono per **tutte le materie e tutte le lezioni**. Non si discutono e non si c
   - lilla: conseguenze.
 - Riempimenti pastello, testo blu notte, bordi pieni colorati, frecce blu notte. Testo in maiuscolo e minuscolo, 34–50 px.
 - **Nel video si costruisce ramo per ramo:** un riquadro alla volta, con la sua freccia, mentre la voce lo legge, e il riquadro acceso in giallo finché la voce parla. Alla fine la mappa intera resta ferma 4 secondi.
-- Se il docente non ha una mappa per un argomento, la mappa si costruisce **con le sue parole** e lo si dichiara nel rapporto.
+- **Si usano solo le mappe del docente.** Se per un argomento il docente non ha fatto una mappa, non si inventa: quell'argomento si chiude con la pillola di ripasso.
+- Se una mappa del docente non ha la domanda come titolo, la chat ne scrive una con le parole del docente e lo dichiara nel rapporto.
 
 ## 7. Voci narranti
 - **Tutto quello che creiamo noi** (animazioni, inserti, grafiche, piccoli video, mappe, ripassi, glossario) **ha la nostra voce Kore**, mai la voce del docente. La genera **solo la master**: le chat mandano `testi_voci.json` sul ramo `voci-<tag>`. Mai chiavi nelle chat.
