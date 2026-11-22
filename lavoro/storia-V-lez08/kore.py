@@ -82,7 +82,7 @@ def base_bianca(kicker, titolo, pag, tsize=58):
     return im, y + 40
 # ---------------- schede blu ----------------
 def scheda_titolo(out, n, titolo, kws, pag=None):
-    dur = 4.0
+    dur = 3.4
     ft = F('BricolageGrotesque-ExtraBold.ttf', 76); d0 = ImageDraw.Draw(Image.new('RGB', (4, 4))); righe = L.wrap(d0, titolo, ft, 1500)
     def p(t):
         im = blu(t).convert('RGBA'); d = ImageDraw.Draw(im)
@@ -101,7 +101,7 @@ def scheda_titolo(out, n, titolo, kws, pag=None):
         return im
     return scrivi(out, dur, p, mix(dur, [(suono('titolo.wav'), 0, 1.0)]))
 def scheda_quiz(out, titolo, verifica=False):
-    dur = 5.0
+    dur = 4.6
     def p(t):
         im = blu(t).convert('RGBA'); d = ImageDraw.Draw(im); a = ease(t / .5)
         d.text((960, 340), 'VERIFICA FINALE' if verifica else 'QUIZ', font=F('BricolageGrotesque-ExtraBold.ttf', 120), fill=BIA, anchor='mm')
@@ -197,15 +197,16 @@ def mappa(out, titolo, nodi, archi, voce_nome, testo_voce, ancore, tempi_stima=N
         return im
     if solo_png: painter(dur - 0.5).convert('RGB').save(solo_png)
     aud = mix(dur, [(v, 1.2, 1.0)])
+    rng = np.random.default_rng(1); aud += (rng.standard_normal(aud.shape) * 0.0035).astype(np.float32)
     if out: scrivi(out, dur, painter, aud)
     return dur, real
 # ---------------- approfondimento ----------------
 def approfondimento(out, nome, testo, pag, kicker='APPROFONDIMENTO'):
-    v, real = voce(nome, testo); dv = len(v) / SW; dur = 1.6 + dv + 1.5
+    v, real = voce(nome, testo); dv = len(v) / SW; dur = 1.2 + dv + 0.7
     fr = [s.strip() for s in re.split(r'(?<=[.?!])\s+', testo) if s.strip()]
     titolo = fr[0]; corpo = fr[1:]
     # tempi: proporzionali ai caratteri (voce provvisoria) — con voce reale si sostituiscono con le ancore trascritte
-    tot = sum(len(s) for s in fr); t0 = 1.6; tf = []
+    tot = sum(len(s) for s in fr); t0 = 1.2; tf = []
     acc = 0
     for s in fr: tf.append(t0 + dv * acc / tot); acc += len(s)
     wcol = 830; cards = []; y = [0, 0]
@@ -220,17 +221,17 @@ def approfondimento(out, nome, testo, pag, kicker='APPROFONDIMENTO'):
         c = 0 if yc[0] <= yc[1] else 1; pos.append((80 - 30 + c * 870, yc[c])); yc[c] += h + 70 - 30
     def painter(t):
         im = base.copy(); d = ImageDraw.Draw(im)
-        d.rounded_rectangle((80, 1060, 80 + (1760) * min(1, max(0, (t - 1.6) / dv)), 1066), 3, fill=GIA) if False else None
+        d.rounded_rectangle((80, 1060, 80 + (1760) * min(1, max(0, (t - 1.2) / dv)), 1066), 3, fill=GIA) if False else None
         att = -1
         for i in range(len(corpo)):
             if tf[i + 1] <= t: att = i
         for i, (l, la, col, h) in enumerate(lay):
             p = ease((t - tf[i + 1]) / 0.5)
             if p > 0: rise(im, la if i == att else l, pos[i][0], pos[i][1], p, 30)
-        pr = min(1, max(0, (t - 1.6) / dv)); d = ImageDraw.Draw(im)
+        pr = min(1, max(0, (t - 1.2) / dv)); d = ImageDraw.Draw(im)
         d.rounded_rectangle((80, 960, 1840, 966), 3, fill=(226, 230, 238)); d.rounded_rectangle((80, 960, 80 + 1760 * pr, 966), 3, fill=GIA)
         return im
-    aud = mix(dur, [(suono('trans.wav'), 0, .5), (v, 1.6, 1.0)])
+    aud = mix(dur, [(suono('trans.wav'), 0, .5), (v, 1.2, 1.0)])
     if out: scrivi(out, dur, painter, aud)
     return dur, real
 # ---------------- pillola: intro blu + schema che si accende ----------------
@@ -240,7 +241,7 @@ def pillola(out, n, titolo, pi_nome, pi_testo, righe_nomi, righe_testi, pag):
     t_intro = 0.6 + dvp + 1.0
     starts = []; t = t_intro + 0.8
     for v, r in vs: starts.append(t); t += len(v) / SW + 0.5
-    dur = t + 1.5
+    dur = t + 0.7
     base, y0 = base_bianca('Ripasso', titolo, pag)
     lays = []; y = y0 + 20
     pos = []
@@ -269,7 +270,7 @@ def glossario(out, termini, voce_intro_testo, pag):
     vs = [voce(f'LG{i + 1}', d) for i, (t, d) in enumerate(termini)]
     starts = []; t = 1.5 + len(vi) / SW + 0.6
     for v, r in vs: starts.append(t); t += len(v) / SW + 0.45
-    dur = t + 1.5
+    dur = t + 0.7
     base, y0 = base_bianca('Glossario', 'Le parole chiave della lezione', pag)
     cols = 2; lays = []; pos = []; yc = [y0 + 10] * cols
     for i, (tm, df) in enumerate(termini):
@@ -288,12 +289,12 @@ def glossario(out, termini, voce_intro_testo, pag):
     scrivi(out, dur, painter, mix(dur, ev)); return dur, ri and all(r for v, r in vs)
 # ---------------- riepilogo finale ----------------
 def riepilogo(out, voce_nome, voce_testo, items, pag, kicker='Ripasso finale'):
-    v, real = voce(voce_nome, voce_testo); dv = len(v) / SW; dur = 1.6 + dv + 1.5
+    v, real = voce(voce_nome, voce_testo); dv = len(v) / SW; dur = 1.2 + dv + 0.7
     base, y0 = base_bianca(kicker, 'Riepilogo della lezione', pag)
     lays = []; pos = []; y = y0 + 10
     for i, (tx, anc) in enumerate(items):
         l, h = cartella(tx, 1700, 36, 1.35); la = cartella(tx, 1700, 36, 1.35, attiva=True)[0]; lays.append((l, la)); pos.append((50, y)); y += h + 6
-    tf = [1.6 + a for tx, a in items]
+    tf = [1.2 + a for tx, a in items]
     def painter(t):
         im = base.copy(); att = -1
         for i in range(len(items)):
@@ -302,7 +303,7 @@ def riepilogo(out, voce_nome, voce_testo, items, pag, kicker='Ripasso finale'):
             p = ease((t - tf[i] + 0.2) / 0.5)
             if p > 0: rise(im, lays[i][1 if i == att else 0], pos[i][0], pos[i][1], p, 25)
         return im
-    scrivi(out, dur, painter, mix(dur, [(suono('trans.wav'), 0, .5), (v, 1.6, 1.0)])); return dur, real
+    scrivi(out, dur, painter, mix(dur, [(suono('trans.wav'), 0, .5), (v, 1.2, 1.0)])); return dur, real
 def immagini_fisse(out, pngs, durs, voce_nome, voce_testo, titolo_fisso=None):
     """mappe finali ferme (4 s ciascuna) con voce"""
     v, real = voce(voce_nome, voce_testo); dur = max(sum(durs), len(v) / SW + 2.0) + 0.5

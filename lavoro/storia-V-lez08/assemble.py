@@ -124,13 +124,13 @@ def parte(n):
 def voce_reale(nome): return os.path.exists(kore.VOX + nome + '.wav')
 def spiegone_real(): return voce_reale('SPIEGONE_P2')
 def spiegone(out):
-    txt = TXT['SPIEGONE_P2']; v, real = kore.voce('SPIEGONE_P2', txt); dv = len(v) / kore.SW; d = 1.5 + dv + 1.5
+    txt = TXT['SPIEGONE_P2']; v, real = kore.voce('SPIEGONE_P2', txt); dv = len(v) / kore.SW; d = 1.2 + dv + 0.7
     base, y0 = kore.base_bianca('Ripasso della Parte precedente', 'Che cosa abbiamo visto', 1)
     pars = [s.strip() for s in re.split(r'(?<=[.:])\s+(?=(?:Primo|Secondo|Terzo) argomento|Ora vediamo)', txt) if s.strip()]
     pars = [p_ for p_ in re.split(r'(?=Primo argomento|Secondo argomento|Terzo argomento|Ora vediamo)', txt) if p_.strip()]
     titoli = ['Il Biennio rosso', 'La vittoria mutilata, Fiume e le elezioni del 1919', 'La nascita del fascismo']
     tot = sum(len(x) for x in pars); acc = 0; tf = []
-    for x in pars: tf.append(1.5 + dv * acc / tot); acc += len(x)
+    for x in pars: tf.append(1.2 + dv * acc / tot); acc += len(x)
     # immagini del prof (alta risoluzione) e la mappa della Parte 1
     from PIL import Image
     imgs = [f'{CACHE}/img_p3-001.jpg.png', f'{CACHE}/img_p6-001.jpg.png', f'{CACHE}/img_p8-001.jpg.png']
@@ -149,7 +149,7 @@ def spiegone(out):
         if k == 1 and mp is not None:
             m2 = mp.resize((800, 450)); kore.rise(im, m2.convert('RGBA'), 1060, y0 + 80, kore.ease((t - tf[1] - 2) / .6), 30)
         return im
-    r = kore.scrivi(out, d, painter, kore.mix(d, [(kore.suono('trans.wav'), 0, .5), (v, 1.5, 1.0)])); return r, real
+    r = kore.scrivi(out, d, painter, kore.mix(d, [(kore.suono('trans.wav'), 0, .5), (v, 1.2, 1.0)])); return r, real
 def compiti_pezzo(out, dq):
     d = 75.0
     from PIL import Image

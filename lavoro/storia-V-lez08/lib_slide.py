@@ -57,7 +57,7 @@ def card(im, x, y, w, testo, attiva, size=40, lh=1.5):
         col = (92, 102, 128)
     for i, r in enumerate(righe): d.text((x + 64, y + 22 + int(i * size * lh)), r, font=f, fill=col)
     return h
-def slide(titolo, kicker, cards, attiva, pag, parole=None, riquadro=True):
+def slide(titolo, kicker, cards, attiva, pag, parole=None, riquadro=True, size=40):
     """cards: lista di frasi intere (max 3); attiva: indice acceso o None"""
     im = cornice(pag=pag, riquadro=riquadro); d = ImageDraw.Draw(im)
     d.text((80, 144), kicker.upper(), font=font('Figtree-ExtraBold.ttf', 26), fill=TEL)
@@ -67,7 +67,7 @@ def slide(titolo, kicker, cards, attiva, pag, parole=None, riquadro=True):
     for r in righe: d.text((80, y), r, font=ft, fill=BLU); y += 68
     d.rounded_rectangle((80, y + 4, 165, y + 10), 3, fill=TEL); y += 30
     for i, c in enumerate(cards):
-        h = card(im, 80, y, 1300, c, attiva == i); y += h + 22
+        h = card(im, 80, y, 1300, c, attiva == i, size); y += h + 22
     if y > 975: raise SystemExit(f'slide troppo piena: y={y} {titolo}')
     if parole:
         d = ImageDraw.Draw(im); d.text((1428, 620), 'PAROLE CHIAVE', font=font('Figtree-ExtraBold.ttf', 24), fill=TEL)

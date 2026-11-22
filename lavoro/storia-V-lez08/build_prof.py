@@ -54,7 +54,7 @@ def img_pronta(nome):
         im.save(p)
     return p
 def render(si,top,win,attiva,pag,img=None):
-    im=L.slide(TIT[si],f'{top:02d} · {NOMI[top]}',[cardtext(si,i) for i in win],(win.index(attiva) if attiva is not None else None),pag,KW[si]) if img is None else None
+    im=L.slide(TIT[si],f'{top:02d} · {NOMI[top]}',[cardtext(si,i) for i in win],(win.index(attiva) if attiva is not None else None),pag,KW[si],size=(48 if len(win)==1 else 40)) if img is None else None
     if img is not None:
         im=L.slide(TIT[si],f'{top:02d} · {NOMI[top]}',[],None,pag,KW[si])
         pi=Image.open(img_pronta(img)); x=80+(1300-pi.width)//2; y=350+(625-pi.height)//2
@@ -91,25 +91,32 @@ def stati_topic(top,pag0):
         elif k=='img': add(t,'i',a,lastsi if lastsi is not None else si_list[0],None,None)
         elif k=='fine_img':
             si=lastsi; add(t,'c',None,si,lastwin,lastatt)
-    # spezza le soste lunghe (>150 s) cambiando finestra a un inizio di frase
-    fin=[]; 
+    # nessuna "pagina" (finestra) resta uguale oltre 140 s: si cambia finestra a un inizio di frase o all'attivazione di una card
+    fm=mappa(P['iv']); frasi=[fm(g['inizio']) for i,g in enumerate(S) if g['inizio']>=P['orig'][0] and g['inizio']<P['orig'][1] and i>0 and fine_frase(S[i-1])]
+    def altwin(si,att,cur):
+        al=[w for w in alternative(si,att) if w!=cur]
+        if not al and cur!=[att]: return [att]
+        return al[0] if al else None
+    fin=[]; span_t=None; span_key=None
     for k,s in enumerate(stati):
         t_end=stati[k+1]['t'] if k+1<len(stati) else f.durata
+        key=lambda x:(x['img'],tuple(x['win']) if x['win'] else None,x['si'])
+        if span_key is None or key(s)!=span_key: span_key=key(s); span_t=s['t']
+        if not s['img'] and s['att'] is not None and s['t']-span_t>140:
+            w=altwin(s['si'],s['att'],s['win'])
+            if w: s=dict(s); s['win']=w; span_key=key(s); span_t=s['t']
         fin.append(s)
         if s['img'] or s['att'] is None: continue
-        cur_s=s; tt=s['t']
-        while t_end-tt>150:
-            tc=tt+130
-            # cerca inizio di frase nell'originale a partire da tc (tempo pezzo -> originale approssimato)
-            cand=[g for g in S if mappa(P['iv'])(g['inizio'])>=tc and g['inizio']>=P['orig'][0] and fine_frase(S[S.index(g)-1])] if True else []
-            if not cand: break
-            g=cand[0]; tn=mappa(P['iv'])(g['inizio'])
-            if t_end-tn<20: break
-            alts=[w for w in alternative(cur_s['si'],cur_s['att']) if w!=cur_s['win']]
-            if not alts: break
-            pag+=1; new=dict(cur_s); new.update(t=tn,win=alts[0],pag=pag); fin.append(new); cur_s=new; tt=tn
-            # le pagine dopo questo cambiano numero: gestito dal chiamante rinumerando
-    # rinumera le pagine in ordine
+        cur_s=s
+        while t_end-span_t>140:
+            c=[x for x in frasi if x>=span_t+100 and x<=span_t+140]
+            if not c: c=[x for x in frasi if x>span_t+30 and x<span_t+170]
+            if not c: break
+            tn=c[-1]
+            if t_end-tn<12: break
+            w=altwin(cur_s['si'],cur_s['att'],cur_s['win'])
+            if not w: break
+            new=dict(cur_s); new.update(t=tn,win=w); fin.append(new); cur_s=new; span_key=key(new); span_t=tn
     out=[];lastkey=None;p=pag0-1
     for s in sorted([x for x in fin if x['t']<f.durata-0.5],key=lambda x:x['t']):
         key=(s['img'],tuple(s['win']) if s['win'] else None,s['si'])
