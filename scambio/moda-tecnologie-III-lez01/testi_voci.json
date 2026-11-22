@@ -1,11 +1,31 @@
 [
  {
-  "nome": "P1_BENVENUTO",
-  "testo": "Benvenuti alla lezione Preparazione, di Tecnologie dei materiali e dei processi produttivi e organizzativi della moda, con la Professoressa Piera Caputi. Parleremo di classificazione generale delle fibre tessili e approfondiremo le caratteristiche, l'origine e i processi di lavorazione delle fibre naturali di origine animale: lana e seta. In questa prima parte vedremo: che cos'è una fibra tessile e come si classifica; le proprietà delle fibre; il mercato delle fibre e come si sporcano; la lana di pecora, dalla tosatura alla struttura della fibra; la qualità e il valore commerciale della lana; e i trattamenti chimici e meccanici della lana."
+  "nome": "P1_BENVENUTO_V2",
+  "testo": "Benvenuti alla lezione Preparazione, di Tecnologie dei materiali e dei processi produttivi e organizzativi della moda, con la Professoressa Piera Caputi. Parleremo di classificazione generale delle fibre tessili e approfondiremo le caratteristiche, l'origine e i processi di lavorazione delle fibre naturali di origine animale: lana e seta. In questa prima parte vedremo: che cos'è una fibra tessile e come si classifica; le proprietà delle fibre tessili; il mercato delle fibre e come si sporcano; la lana di pecora: dalla tosatura alla struttura della fibra."
  },
  {
-  "nome": "P1_CHIUSURA",
-  "testo": "Fine della prima parte. Nella seconda parte vedremo i pregi della lana e come si lavora, le lane e i peli speciali, e la seta: dal baco al filo, i trattamenti, le proprietà e la cura."
+  "nome": "P1_CHIUSURA_V2",
+  "testo": "Fine della prima parte. Nella seconda parte vedremo la qualità e il valore commerciale della lana, i suoi trattamenti e i suoi pregi, e le lane e i peli speciali."
+ },
+ {
+  "nome": "P2_BENVENUTO",
+  "testo": "Benvenuti alla seconda parte della lezione Preparazione, di Tecnologie dei materiali e dei processi produttivi e organizzativi della moda, con la Professoressa Piera Caputi. In questa parte vedremo: qualità e valore commerciale della lana; i trattamenti chimici e meccanici della lana; i pregi della lana e come si lavora; lane e peli speciali."
+ },
+ {
+  "nome": "P2_RIPASSO_V2",
+  "testo": "Prima di ricominciare, ripassiamo la prima parte. Le fibre tessili si dividono in naturali, vegetali o animali, e chimiche, artificiali o sintetiche. Le proprietà sono morfologiche, chimiche, fisico-meccaniche e fisiologiche. Le fibre naturali sono scese al trentasette per cento della produzione, mentre le fibre chimiche coprono il sessantatré per cento del consumo. La lana è fatta soprattutto di cheratina, e le lane migliori vengono dalle spalle e dai fianchi."
+ },
+ {
+  "nome": "P2_CHIUSURA_V2",
+  "testo": "Fine della seconda parte. Nella terza parte parleremo della seta, e poi faremo la verifica finale."
+ },
+ {
+  "nome": "P3_BENVENUTO",
+  "testo": "Benvenuti alla terza parte della lezione Preparazione, di Tecnologie dei materiali e dei processi produttivi e organizzativi della moda, con la Professoressa Piera Caputi. In questa parte vedremo: la seta: dal baco al filo; la seta: trattamenti, proprietà e cura. Alla fine, il glossario, il ripasso, la mappa della lezione e la verifica finale."
+ },
+ {
+  "nome": "P3_RIPASSO_V2",
+  "testo": "Prima di ricominciare, ripassiamo la seconda parte. Il valore della lana dipende da razza, finezza in micron, filabilità, morbidezza, lunghezza e colore. I trattamenti della lana sono chimici o meccanici: per esempio lo ZIRPRO, la follatura e il superwash. La lana è ingualcibile, ignifuga, idrorepellente e igroscopica, fino al trenta per cento del proprio peso. Tra le lane speciali, la vigogna è la più fine e costosa; a pelo fine corrisponde il prezzo più elevato."
  },
  {
   "nome": "A01_APPROF",
@@ -318,10 +338,6 @@
  {
   "nome": "A06_Q5_R",
   "testo": "La risposta giusta è la D: La danneggiano in modo irreparabile. Le sostanze basiche forti sono altamente nocive per la lana, soprattutto ad alte temperature o con soluzioni concentrate."
- },
- {
-  "nome": "P2_RIPASSO_P1",
-  "testo": "Prima di ricominciare, ripassiamo la prima parte. Le fibre tessili si dividono in naturali, vegetali o animali, e chimiche, artificiali o sintetiche. Le proprietà sono morfologiche, chimiche, fisico-meccaniche e fisiologiche. Le fibre naturali sono scese al trentasette per cento della produzione, mentre le fibre chimiche coprono il sessantatré per cento del consumo. La lana è fatta soprattutto di cheratina, e le lane migliori vengono dalle spalle e dai fianchi. Il valore della lana dipende da razza, finezza in micron, filabilità, morbidezza, lunghezza e colore. I trattamenti della lana sono chimici o meccanici: per esempio lo ZIRPRO, la follatura e il superwash."
  },
  {
   "nome": "A07_APPROF",
