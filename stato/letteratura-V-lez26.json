@@ -8,11 +8,11 @@
    "fermi_ok": "si",
    "sub_ok": "si",
    "video": "Letteratura_Lez26_Parte1_1080p.mp4",
-   "durata_s": 3151.7,
-   "durata": "52:31.7",
-   "fotogrammi": 94552,
-   "fotogrammi_attesi": 94552,
-   "peso_MB": 192.3,
+   "durata_s": 3182.9,
+   "durata": "53:02.9",
+   "fotogrammi": 95486,
+   "fotogrammi_attesi": 95486,
+   "peso_MB": 199.1,
    "vtt": "Letteratura_Lez26_Parte1.vtt"
   }
  },
@@ -88,7 +88,11 @@
   {
    "quando": "22/11 18:44",
    "testo": "18:46 UTC: montaggio finale quasi pronto (assemblo coda: mappa, glossario, verifica, compiti, finale). Poi controllo severo, agente separato, rapporto: consegna prevista 19:20 UTC"
+  },
+  {
+   "quando": "22/11 19:00",
+   "testo": "19:01 UTC: consegna intermedia pushata (video 53:03, 95486 fotogrammi); attendo controllo severo e controllo agente separato, poi REVISIONATA"
   }
  ],
- "aggiornato": "2026-11-22 18:44:05"
+ "aggiornato": "2026-11-22 19:00:14"
 }
