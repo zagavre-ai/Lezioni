@@ -2,7 +2,7 @@
  "tag": "letteratura-V-lez03",
  "parti": {
   "1": {
-   "stato": "REVISIONATA",
+   "stato": "IN_REVISIONE",
    "video": "Letteratura_Lez3_Parte1_1080p.mp4",
    "durata_s": 3812.9,
    "durata": "63:32.9",
@@ -60,10 +60,14 @@
   {
    "quando": "17/11 18:07",
    "testo": "17/11 riconsegna: mappa del prof nel video, jingle e transizioni, ombre grigie, copertina senza prof, picco -1,5 dBTP, durata 3812,9 s (secondi nuovi nella scheda). Da ascoltare: voci S3B/RF2/MAPPA1"
+  },
+  {
+   "quando": "22/11 16:33",
+   "testo": "correzioni 22/11: presa da revisione-letteratura-V-lez03 (16:35 UTC); consegna prevista entro 19:30 UTC"
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 3 · Carducci",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-17 18:07:18"
+ "aggiornato": "2026-11-22 16:33:15"
 }
