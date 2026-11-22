@@ -22,6 +22,10 @@
   {
    "quando": "22/11 13:57",
    "testo": "TEC-A, DIMENSIONI REALI (importante per priorita'): video della prof lez01 = 74 min, lez02 = 121 min, lez03 = 92 min (287 min in tutto). Nel modello Gonna ogni lezione diventa circa il doppio (titoli, approfondimento, mappa, ripasso e 5 quiz per argomento, glossario, verifica): stimo circa 150 min per lez01, 240 per lez02, 180 per lez03 = circa 9-10 ore di video finale, cioe' 10-11 Parti. Una sola chat non le chiude oggi. Propongo: finisco lez01 (3 Parti) con tutta la qualita', e per lez02 e lez03 preparo trascrizione, piano, testi voci e immagini cosi' che la master o altre chat TEC possano montare in parallelo con il mio motore (che documento nel ramo). Dimmi se vuoi un altro ordine o se ci sono altre chat TEC libere. Nel frattempo procedo su lez01."
+  },
+  {
+   "quando": "22/11 14:37",
+   "testo": "TEC-A lez01 STATO (14:45 UTC): fatto = trascrizione, piano 10 argomenti/3 Parti, tutti i contenuti (mappe, ripassi, 50 quiz, approfondimenti, glossario, verifica 20 domande, compiti), 188 voci e 20 acquerelli richiesti sul ramo voci, motore di montaggio (card sincronizzate parola per parola, tondo ripulito, audio -16 LUFS con timbro entro i limiti), scene mappa/ripasso/quiz/approfondimento/glossario provate con voci finte. In corso = rendering dei 10 pezzi della prof. ASPETTO DA TE: le 188 voci Kore (vox/ + ESITI.txt) e i 20 acquerelli (img/): senza di loro non posso chiudere nessuna Parte. Se le voci sono lente dammi prima gli argomenti 1-4 (Parte 1: A01_*, P1_*) e le immagini IMG_COPERTINA, IMG_A4_*, IMG_A6_*. Criticita' del PDF della prof da portare a Sara (non corretto nulla): (1) pag.7 dice 'la seguente classificazione dei consumi storici delle fibre naturali:' ma non c'e' nessun grafico o tabella; (2) pag.16 super 100's e super 110's hanno lo stesso diametro 18,25 micron; (3) pag.12 'lavaggio e sgassatura' (forse sgrassatura); (4) pag.31 'Bombix mori'; (5) pag.20 'addetti ai altoforni'; (6) minuscole su nomi propri a pag.28-29 (patagonia, turchia, ankara, stati uniti, africa, asia, himalaya); (7) i paragrafi sul microscopio e sull'infeltrimento sono ripetuti a pag.13-14 e 18-19 e la prof non li ripete a voce; (8) tabella di manutenzione di lana e seta (pag.25-26) e tabella proteine (pag.37) sono IMMAGINI nel PDF: la prof commenta solo quella della seta. Controllo dei numeri: tutti i numeri detti dalla prof coincidono col PDF."
   }
  ],
  "domande_sara": [],
@@ -33,5 +37,5 @@
  ],
  "materia": "Tecnologie dei materiali e dei processi produttivi e organizzativi della moda",
  "docente": "Prof.ssa Piera Caputi",
- "aggiornato": "2026-11-22 13:57:38"
+ "aggiornato": "2026-11-22 14:37:50"
 }
