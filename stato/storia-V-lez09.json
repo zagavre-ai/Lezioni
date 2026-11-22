@@ -1,6 +1,10 @@
 {
  "tag": "storia-V-lez09",
- "parti": {},
+ "parti": {
+  "1": {
+   "stato": "IN_MONTAGGIO"
+  }
+ },
  "manca": "montaggio nuovo (2 Parti), spiegone Parte 2, mappe ramo per ramo, dispensa, sottotitoli, controlli",
  "serve_master": [
   {
@@ -25,7 +29,11 @@
   {
    "quando": "22/11 18:36",
    "testo": "Trovato MAPPE LEZIONE 9.pdf nella release (zip MAPPE 17/11, 4 pagine): indice vecchio. Ignora la mia domanda sulle mappe."
+  },
+  {
+   "quando": "22/11 19:18",
+   "testo": "19:20 UTC: motore di montaggio pronto (slide a finestra 40px, mappe ramo per ramo, dispensa con testo invisibile). In corso: pezzi del prof Parte 1 e 2 e scene Kore con voci provvisorie. Codice sul ramo lavoro-storia-V-lez09."
   }
  ],
- "aggiornato": "2026-11-22 18:48:43"
+ "aggiornato": "2026-11-22 19:18:06"
 }
