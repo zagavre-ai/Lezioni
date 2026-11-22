@@ -2,7 +2,7 @@
  "tag": "letteratura-V-lez19",
  "parti": {
   "1": {
-   "stato": "REVISIONATA",
+   "stato": "IN_REVISIONE",
    "titolo": "Dal secondo dopoguerra a oggi",
    "voci": "kore",
    "quiz_ok": "si",
@@ -238,10 +238,14 @@
   {
    "quando": "17/11 18:27",
    "testo": "17/11: ripristinato lo stato REVISIONATA della prima revisione (ramo revisione-letteratura-V-lez19, 50:25, consegnata 08:35 UTC): durante questa sessione l'avevo sovrascritto per errore con IN_REVISIONE. In più esiste una revisione ALTERNATIVA v2 (50:09) sul ramo claude/admiring-cerf-9zh5f6, cartella revisione-letteratura-V-lez19-v2/, che non ha sostituito la prima: scegliere quale caricare."
+  },
+  {
+   "quando": "22/11 16:32",
+   "testo": "correzioni 22/11: presa da revisione-letteratura-V-lez19 (prima revisione 50:25) e dalla mia v2 (ramo claude/admiring-cerf-9zh5f6, 50:09). Consegna prevista entro le 19:30 UTC; scrivo la stima vera al controllo di 1 ora."
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 19 · Dal secondo dopoguerra a oggi",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-17 18:27:03"
+ "aggiornato": "2026-11-22 16:32:59"
 }
