@@ -2,33 +2,22 @@
  "tag": "letteratura-V-lez13",
  "parti": {
   "1": {
-   "stato": "IN_REVISIONE"
-  },
-  "2": {
-   "stato": "IN_REVISIONE"
+   "stato": "REVISIONATA"
   }
  },
  "manca": "",
  "serve_master": [
   {
-   "quando": "22/11 19:27",
-   "testo": "Rilanciare controllo_severo sui video finali e rigenerare i PDF con pdf44.py (nel ramo? no, locale): richiedo ETA 19:55"
-  },
-  {
-   "quando": "22/11 19:27",
-   "testo": "Rilanciare controllo_severo sui video finali e rigenerare i PDF con pdf44.py (nel ramo? no, locale): richiedo ETA 19:55"
+   "quando": "22/11 19:35",
+   "testo": "Sistemare le 2 card sole P1 e le pause lunghe; riconfermare ESITO OK"
   }
  ],
  "domande_sara": [],
  "note": [
   {
-   "quando": "22/11 19:27",
-   "testo": "correzioni 22/11: video, vtt, schede e rapporto consegnati sul ramo; controllo severo ancora RESPINTA/da riconfermare, dispense PDF nuove NON pronte (macchina sovraccarica, disco pieno). Scadenza 19:30 non raggiungibile per PDF+severo: servono altri ~30 min"
-  },
-  {
-   "quando": "22/11 19:27",
-   "testo": "correzioni 22/11: video, vtt, schede e rapporto consegnati sul ramo; controllo severo ancora RESPINTA/da riconfermare, dispense PDF nuove NON pronte (macchina sovraccarica, disco pieno). Scadenza 19:30 non raggiungibile per PDF+severo: servono altri ~30 min"
+   "quando": "22/11 19:35",
+   "testo": "correzioni 22/11 consegnate sul ramo: P1 49:43, P2 55:00, vtt/schede/PDF nuovi. Controllo severo RESPINTA: P1 2 card sole (24:50, 31:10) + 12 pause>2,5s; P2 pause 7 + falsi positivi OCR su pagine libro. Non risolti: vedi RAPPORTO_REVISIONE.md"
   }
  ],
- "aggiornato": "2026-11-22 19:27:10"
+ "aggiornato": "2026-11-22 19:35:17"
 }
