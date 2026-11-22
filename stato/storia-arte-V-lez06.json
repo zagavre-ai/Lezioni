@@ -2,7 +2,12 @@
  "tag": "storia-arte-V-lez06",
  "parti": {},
  "manca": "",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "22/11 22:48",
+   "testo": "lez06 presa. 3 punti: (1) nel kit non c'e la sigla di Storia dell'arte: uso Sigla_Storia_15s.mp4 o c'e una sigla apposta? (2) Il PDF slide del prof (LEZIONE 6.pdf) e solo l'elenco di 4 argomenti, senza immagini: le opere sono solo nel video del prof a 1092x614, quindi le prendo da li e le miglioro, e le grandi opere da Wikimedia se la rete le raggiunge. (3) MAPPE LEZIONE 6.pdf e UNA pagina con 2 mappe (Art Nouveau + Secessione; Presupposti/Art Nouveau/Secessione): le ridisegno entrambe nel modello BES. Testi voci in arrivo nel ramo voci-storia-arte-V-lez06 appena ho la trascrizione."
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
@@ -13,5 +18,5 @@
  "materia": "Storia dell'arte V",
  "lezione": "Lezione 6 · Simbolismo e Art Nouveau",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-22 22:43:35"
+ "aggiornato": "2026-11-22 22:48:22"
 }
