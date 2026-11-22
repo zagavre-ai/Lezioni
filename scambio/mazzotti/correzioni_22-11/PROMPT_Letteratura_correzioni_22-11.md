@@ -24,11 +24,11 @@ Tutto quello che serve è sul ramo **`scambio-mazzotti`**, cartella `scambio/maz
 ## 1. Cosa rifai
 **Riusa tutto quello che è giusto:** trascrizione, tagli del prof, voci già fatte, quiz, verifica, compiti, fettine del libro, sigla.
 
-**Testo più grande (Sara, 22/11 ore 08:20 California), SOLO se resta nelle 2 ore e mezza:**
+**Testo più grande (Sara, 22/11), sempre:**
 - Visto che ricomponi comunque le slide: testo delle card a **40 px** (mai sotto 36), interlinea **1,5**; titoli, etichette e piè di pagina come sono.
 - Se a 40 px tre card non entrano, la slide si divide: **mai rimpicciolire**. Restano le regole delle card intere e della schermata mai ferma oltre 3 minuti.
 - La dispensa resta identica al video, quindi anche lei con il testo più grande.
-- **Al controllo di 1 ora:** se il testo più grande ti fa sforare le 2 ore e mezza, torni alla grandezza di prima per **tutta** la lezione (mai due grandezze nella stessa lezione) e lo scrivi alla master e nel rapporto.
+- **Solo per questa volta** (riallineamento) il limite delle 2 ore e mezza può essere superato, ma la **scadenza è fissa: consegna entro le 19:30 UTC (20:30 in Italia)**. Al controllo di 1 ora scrivi alla master **quanto tempo ti serve davvero** per finire, con l'ora di consegna prevista.
 
 1. **Mappe**
    - Il prof ha fatto **una sola mappa per lezione** (`MAPPE/LEZIONE N.pdf`, zip `MAPPE-…zip` della release). **Togli tutte le mappe inventate da noi**: ne resta una, la sua.
