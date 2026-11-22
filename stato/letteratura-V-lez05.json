@@ -29,6 +29,10 @@
   {
    "quando": "22/11 16:34",
    "testo": "Lez5: inviati su voci-letteratura-V-lez05 i testi MP01..MP21 (mappa del prof, anni in lettere): serve la generazione Kore; poi li importo e monto la mappa prima del glossario"
+  },
+  {
+   "quando": "22/11 17:14",
+   "testo": "URGENTE voci mappa Lez5: le MP01-MP21 sono TAGLIATE MALE (gli anni in lettere finiscono in coda alla voce precedente: MP01 finisce con 'milleottocentosettantadue', MP05 con 'millenovecentoventidue', MP13 con 'milleottocentosettantotto' ecc.; bordi >0,03 in MP01,05,06,08,15,18). Ho riscritto i testi senza anno a inizio frase: rigenera MQ01-MQ21 (testi_voci.json sul ramo voci) e controlla i tagli"
   }
  ],
  "domande_sara": [],
@@ -98,5 +102,5 @@
    "testo": "17:00 UTC (1/6): slide 40 px+finestre fatte, mappa BES disegnata (34 px), codifica video in corso; attendo voci MP01-MP21; consegna prevista 19:20 UTC"
   }
  ],
- "aggiornato": "2026-11-22 16:44:25"
+ "aggiornato": "2026-11-22 17:14:24"
 }
