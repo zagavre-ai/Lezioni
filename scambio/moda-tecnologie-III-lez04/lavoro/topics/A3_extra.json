@@ -1,0 +1,201 @@
+{
+ "T0": 630.1,
+ "T1": 947.1,
+ "tecniche": [
+  {
+   "t": 635.0,
+   "durata": 24,
+   "cosa": "Ordito verticale e trama orizzontale che si intrecciano su un telaio stilizzato, i due sistemi di filo in colori diversi (uno più spesso e resistente dell'altro); compaiono i nomi tela, saia, raso come armature fondamentali.",
+   "parole": "abbiamo bisogno appunto di due sistemi di filo, l'ordito e la trama, uno più resistente dell'altro. Gli schemi fondamentali però in questo caso prendono il nome di armature fondamentali. Queste armature prendono il nome di tela, saia e raso."
+  },
+  {
+   "t": 669.32,
+   "durata": 35,
+   "cosa": "Quattro riquadri che si accendono uno alla volta: un solo ordito e una sola trama; un solo ordito e più trame; più orditi e una sola trama; più orditi e più trame, con i fili che si moltiplicano nel passaggio da una categoria all'altra.",
+   "parole": "Una prima categoria che si rivolge a tessuti semplici con solo ordito e solo trama. La seconda categoria [...] un solo ordito ma da più trame. La terza categoria invece richiede più orditi ma una sola trama e infine la quarta categoria richiede più orditi e più trame."
+  },
+  {
+   "t": 730.05,
+   "durata": 48,
+   "cosa": "Mano che con lente e spillo scompone un campione: il tessuto tagliato con ordito sul lato lungo e trama sul lato corto, il dritto verso di noi, la frangia di circa 0,5 cm, i fili estratti dall'alto con lo spillo e annotati su carta quadrettata.",
+   "parole": "dobbiamo andare a tagliare il tessuto simulando l'ordito sul lato lungo e la trama invece la dobbiamo indicare sul lato corto. Poi successivamente possiamo posizionare il dritto verso di noi, sfilare i fili per creare questa frangia di circa più o meno 0,5 cm e poi possiamo finalmente estrarre i fili partendo dall'alto con l'ausilio dello spillo."
+  },
+  {
+   "t": 778.65,
+   "durata": 50,
+   "cosa": "Griglia di carta quadrettata che si costruisce: colonne verticali etichettate ordito, righe orizzontali etichettate trama, l'incrocio forma un quadretto; il quadretto si annerisce se l'ordito passa sopra la trama e resta vuoto se l'ordito è sotto; un filo che salta due o più fili a riposo forma una briglia.",
+   "parole": "ogni colonna verticale deve rappresentare un ordito, e invece ogni riga orizzontale deve rappresentare una trama. [...] Il quadretto a questo punto dovrà essere annerito nel momento in cui l'ordito andrà a passare sopra la trama, pure sarà vuoto nel momento in cui l'ordito risulta essere sotto la trama."
+  },
+  {
+   "t": 829.8,
+   "durata": 29,
+   "cosa": "Due griglie affiancate: una con prevalenza di quadretti neri (tessitura pesante, il liccio che solleva molti fili con sforzo) e una con prevalenza di quadretti bianchi (tessitura leggera).",
+   "parole": "una prevalenza di quadretti neri ci aiuterà a capire che abbiamo a che fare con una tessitura pesante, perché in questo caso abbiamo bisogno di più sforzo per andare a sollevare i fili. [...] prevalenza di quadretti bianchi. Abbiamo a che fare con una tessitura leggera."
+  },
+  {
+   "t": 884.84,
+   "durata": 18,
+   "cosa": "Griglia quadrata due per due con riquadro rosso in basso a sinistra che racchiude due orditi e due trame, ripetuto più volte su tutta l'altezza.",
+   "parole": "Un esempio in questo caso di rapporto d'armatura può essere un rapporto 2x2. [...] il 2x2 ci indica proprio la presenza di due orditi e due trame come possiamo ben vedere appunto all'interno dell'esempio."
+  }
+ ],
+ "quiz": [
+  {
+   "d": "Quali sono le armature fondamentali?",
+   "giusta": "Tela, saia e raso",
+   "sbagliate": [
+    "Tela, spugna e velluto",
+    "Saia, raso e crêpe",
+    "Tela, saia e jacquard"
+   ],
+   "spiegazione": "Gli schemi fondamentali si chiamano armature fondamentali e sono tela, saia e raso."
+  },
+  {
+   "d": "Come è formata la seconda categoria di intrecci?",
+   "giusta": "Da un solo ordito e da più trame",
+   "sbagliate": [
+    "Da un solo ordito e da una sola trama",
+    "Da più orditi e da una sola trama",
+    "Da più orditi e da più trame"
+   ],
+   "spiegazione": "Prima: un ordito e una trama; seconda: un ordito e più trame; terza: più orditi e una trama; quarta: più orditi e più trame."
+  },
+  {
+   "d": "Che cosa si fa con la scampionatura?",
+   "giusta": "Si scompone un campione per ricavare l'intreccio utilizzato",
+   "sbagliate": [
+    "Si rappresenta l'intreccio su carta quadrettata già noto",
+    "Si prepara il telaio per la tessitura del tessuto",
+    "Si misura l'altezza del tessuto tra le cimose"
+   ],
+   "spiegazione": "La scampionatura scompone un campione per ricavarne l'intreccio, con lente, spillo, carta quadrettata e matita."
+  },
+  {
+   "d": "Quando il quadretto della messa in carta va annerito?",
+   "giusta": "Quando l'ordito passa sopra la trama",
+   "sbagliate": [
+    "Quando l'ordito risulta sotto la trama",
+    "Quando un filo passa sotto due o più fili",
+    "Quando la trama è più resistente dell'ordito"
+   ],
+   "spiegazione": "Il quadretto è annerito se l'ordito passa sopra la trama, vuoto se l'ordito è sotto."
+  },
+  {
+   "d": "Che cosa indica un rapporto d'armatura 2x2?",
+   "giusta": "La presenza di due orditi e di due trame",
+   "sbagliate": [
+    "La presenza di due armature fondamentali",
+    "Una tessitura pesante con due quadretti neri",
+    "Due sistemi di fili con due tessuti sovrapposti"
+   ],
+   "spiegazione": "Il rapporto d'armatura è l'unità minima dell'intreccio; il 2x2 indica due orditi e due trame."
+  }
+ ],
+ "mappa": {
+  "domanda": "Come si ottiene un tessuto a navetta e come si rappresenta l'intreccio?",
+  "centro": "Intreccio del tessuto a navetta",
+  "rami": [
+   {
+    "nome": "Due sistemi di filo: ordito e trama",
+    "tipo": "parola",
+    "figli": [
+     {
+      "nome": "Armature fondamentali: tela, saia, raso",
+      "tipo": "esempio"
+     }
+    ]
+   },
+   {
+    "nome": "Quattro categorie di intrecci",
+    "tipo": "sequenza",
+    "figli": [
+     {
+      "nome": "1ª e 2ª: un solo ordito, una o più trame",
+      "tipo": "sequenza"
+     },
+     {
+      "nome": "3ª e 4ª: più orditi, una o più trame",
+      "tipo": "sequenza"
+     }
+    ]
+   },
+   {
+    "nome": "Scampionatura: scomporre il campione",
+    "tipo": "parola",
+    "figli": [
+     {
+      "nome": "Lente, spillo, carta quadrettata, matita",
+      "tipo": "esempio"
+     }
+    ]
+   },
+   {
+    "nome": "Messa in carta: colonna = ordito, riga = trama",
+    "tipo": "parola",
+    "figli": [
+     {
+      "nome": "Quadretto nero: ordito sopra, tessitura pesante",
+      "tipo": "conseguenza"
+     },
+     {
+      "nome": "Quadretto vuoto: ordito sotto, tessitura leggera",
+      "tipo": "conseguenza"
+     }
+    ]
+   },
+   {
+    "nome": "Rapporto d'armatura: unità minima",
+    "tipo": "parola",
+    "figli": [
+     {
+      "nome": "2x2: due orditi e due trame",
+      "tipo": "esempio"
+     }
+    ]
+   }
+  ],
+  "voce": "Per ottenere un tessuto a navetta servono due sistemi di filo, l'ordito e la trama. Gli schemi fondamentali si chiamano armature fondamentali: tela, saia e raso. Gli intrecci si classificano in quattro categorie: un solo ordito con una o più trame, oppure più orditi con una o più trame. Per ricavare l'intreccio di un campione si fa la scampionatura, con lente, spillo, carta quadrettata e matita. Nella messa in carta ogni colonna è un ordito e ogni riga una trama: il quadretto nero indica l'ordito sopra la trama, il quadretto vuoto l'ordito sotto. Il rapporto d'armatura è l'unità minima: nel due per due ci sono due orditi e due trame."
+ },
+ "glossario": [
+  {
+   "termine": "Armature fondamentali",
+   "def": "Schemi fondamentali dell'intreccio dei due sistemi di filo, ordito e trama: tela, saia e raso."
+  },
+  {
+   "termine": "Scampionatura",
+   "def": "Processo che scompone un campione per ricavare l'intreccio utilizzato, con lente, spillo, carta quadrettata e matita."
+  },
+  {
+   "termine": "Messa in carta",
+   "def": "Rappresentazione grafica dell'intreccio: colonna verticale per ogni ordito, riga orizzontale per ogni trama, quadretto per ogni incrocio."
+  },
+  {
+   "termine": "Briglie",
+   "def": "Si formano quando un filo passa sopra due o più fili a riposo."
+  },
+  {
+   "termine": "Tessitura pesante",
+   "def": "Armatura con prevalenza di quadretti neri: serve più sforzo per sollevare i fili. Con prevalenza di bianchi è leggera."
+  },
+  {
+   "termine": "Rapporto d'armatura",
+   "def": "Unità minima dell'intreccio che si ripete su tutta l'altezza; il 2x2 indica due orditi e due trame."
+  }
+ ],
+ "discrepanze": [
+  "Rapporto d'armatura (865.7-874.62): la prof dice che si ripete «su tutta l'altezza della trama stessa»; il PDF dice «su tutta l'altezza». Card con la formula del PDF.",
+  "Colore del rapporto (883.67): la prof dice «rosso»; il PDF «rosso cinabro». Card con «rosso» come detto dalla prof.",
+  "Unità base (761.51-777.47): la prof dice «l'unità base, ovvero la nostra armatura»; il PDF «unità base, chiamata rapporto d'armatura». Card con le parole della prof.",
+  "Briglie (828.37): la trascrizione ha «brille», corretto in «briglie» come nel PDF. Analogamente «armeture» (916.26, 919.65) corretto in «armature» e «ordite» (685.51) in «orditi».",
+  "Terza e quarta categoria: la prof non dice «tessuti composti» ma «intrecci più complessi formati da più di due sistemi di fili, come tra spugna e velluto»; il PDF dice «tessuti composti tra cui la spugna e il velluto». Card con le parole della prof.",
+  "Scampionatura: il PDF dice che la numerazione dei fili parte dall'angolo in basso a sinistra, e il profilo d'ordito e di trama; la prof non li dice nel pezzo, non sono nelle card.",
+  "Il PDF cita il rapporto d'armatura 2x2 della tela con «un ordito sollevato e uno a riposo»; la prof dice solo «due orditi e due trame» (898.41), la card è conforme a lei."
+ ],
+ "tagli_proposti": [
+  "665.08-669.28: domanda «Quali sono gli intrecci del quale possiamo fare una classificazione?» prima delle categorie; si può togliere la domanda.",
+  "694.73-705.33: «Prima di andare a vedere come possiamo andare a produrre diversi tessuti, ci focalizziamo un attimo su come effettuare questo intreccio» frase di raccordo; si può togliere o tenere come transizione.",
+  "859.78-865.66: «Passiamo quindi al nostro rapporto d'armatura. ... perché per noi è importante?» domanda retorica e raccordo.",
+  "874.62-879.91: «Quindi, in questo caso, possiamo indicarlo solitamente nel.» frase interrotta e ripresa; si può togliere l'incipit interrotto.",
+  "923.30-934.25: frasi vaghe su «dinamiche» e «un'altra tessitura che potevamo attuare», ripetute a 935.05; si può togliere."
+ ]
+}

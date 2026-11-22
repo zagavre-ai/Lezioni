@@ -1,0 +1,195 @@
+{
+ "T0": 221.7,
+ "T1": 630.05,
+ "tecniche": [
+  {
+   "t": 253.61,
+   "durata": 22,
+   "cosa": "Figura stilizzata di persona accanto a un rettangolo di tessuto: la lunghezza del tessuto si posiziona sull'altezza della persona e la larghezza sulla larghezza della persona; poi compaiono tre indizi del verso: motivo decorativo, contrasti di luce, direzione del pelo.",
+   "parole": "Per riuscire a capire qual è il verso, per noi è importantissimo andare a posizionare la lunghezza del tessuto sull'altezza della persona, e dall'altra parte abbiamo bisogno anche di posizionare la larghezza sulla larghezza della persona stessa."
+  },
+  {
+   "t": 291.97,
+   "durata": 38,
+   "cosa": "Tre campioni di tessuto affiancati che si aprono a ventaglio: pois (verso indifferente, ruotabile senza cambiare aspetto), figure con senso orientato (verso obbligato, freccia fissa verso l'alto), motivo a triangoli (verso semiobbligato, utilizzabile nelle due direzioni con effetti diversi).",
+   "parole": "Un esempio può essere il tessuto a pois. Se invece avessimo un tessuto con delle figure con senso orientato, in questo caso parliamo del verso obbligato. [...] abbiamo un verso semiobbligato."
+  },
+  {
+   "t": 366.95,
+   "durata": 30,
+   "cosa": "Bordo laterale del tessuto ingrandito, con un righello che misura la cimosa: bassa sotto 7 mm, media tra 7 e 14 mm, alta oltre 14 mm; il bordo resistente protegge dallo sfilacciamento.",
+   "parole": "Le cimose possono essere basse nel momento in cui sono inferiori ai 7 mm. Media se la loro misura è posta tra 7 e 14 mm o alta è quando la misura d'altezza va a superare questi 14 mm."
+  },
+  {
+   "t": 434.6,
+   "durata": 50,
+   "cosa": "Due tessuti con cimose a confronto: a sinistra cimosa troppo tesa, il tessuto si increspa in pieghe e piccoli tagli sulla cimosa le distendono; a destra cimosa con tensione scarsa, il bordo ondeggia con sbandieramenti che riducono l'altezza utile del tessuto, segnata da una freccia.",
+   "parole": "La tensione nel momento in cui diventa troppo alta, va a formare delle pieghe all'interno del tessuto. [...] possiamo andare a praticare dei piccoli tagli sulla cimosa. [...] sbandieramenti che vanno a ridurre l'altezza utile del tessuto."
+  },
+  {
+   "t": 492.65,
+   "durata": 55,
+   "cosa": "Rotolo di tessuto con una freccia orizzontale tra una cimosa e l'altra (altezza) e una seconda freccia che esclude le cimose (altezza utile); poi una scala in centimetri: bassa sotto 100 cm (70-80), doppia sopra 100 cm (140-150), maggiori di 150, fino a 200-300 cm per tende e coperte.",
+   "parole": "L'altezza è la misura posta in centimetri lineari tra una cimosa e l'altra. [...] altezza utile [...] con esclusione delle cimose. Le altezze possono essere basse quando sono inferiori a 100 centimetri [...] tra i 140 e i 150. [...] tessuti che vengono tra i 200 e 300 centimetri."
+  },
+  {
+   "t": 575.94,
+   "durata": 25,
+   "cosa": "Tessuto visto da due lati: sul dritto prevalgono i fili di ordito con superficie pulita, liscia, lucida; sul rovescio si vede la trama; il cartellino compare sul rovescio.",
+   "parole": "Nel momento in cui parliamo di dritto abbiamo una maggiore concentrazione di fili di ordito. La superficie risulta anche pulita, liscia, lucida, mentre sul rovescio è caratterizzato dalla trama."
+  }
+ ],
+ "quiz": [
+  {
+   "d": "Quando una cimosa si definisce media?",
+   "giusta": "Quando la sua misura è compresa tra 7 e 14 mm",
+   "sbagliate": [
+    "Quando è inferiore a 7 mm",
+    "Quando supera i 14 mm",
+    "Quando la sua misura è tra 14 e 21 mm"
+   ],
+   "spiegazione": "La cimosa è bassa sotto i 7 mm, media tra 7 e 14 mm, alta oltre i 14 mm."
+  },
+  {
+   "d": "Che cos'è il verso obbligato?",
+   "giusta": "Quello di un tessuto con figure con senso orientato",
+   "sbagliate": [
+    "Quello di un tessuto a pois",
+    "Quello di un tessuto con un motivo a triangoli",
+    "Quello di un tessuto senza alcun verso preciso"
+   ],
+   "spiegazione": "Pois: verso indifferente. Triangoli: semiobbligato. Figure con senso orientato: obbligato."
+  },
+  {
+   "d": "Che cosa succede quando la tensione della cimosa è troppo alta?",
+   "giusta": "Si formano pieghe, risolvibili con piccoli tagli sulla cimosa",
+   "sbagliate": [
+    "Si formano sbandieramenti che riducono l'altezza utile",
+    "La cimosa si sfilaccia e il tessuto si scuce",
+    "Il tessuto non presenta più alcun verso"
+   ],
+   "spiegazione": "Con la tensione alta nascono pieghe; con la tensione scarsa si hanno sbandieramenti, problema più grave."
+  },
+  {
+   "d": "Che cos'è l'altezza utile del tessuto?",
+   "giusta": "La misura tra una cimosa e l'altra, con esclusione delle cimose",
+   "sbagliate": [
+    "La misura tra una cimosa e l'altra, comprese le cimose",
+    "La lunghezza del tessuto in metri sul rotolo",
+    "La misura della cimosa espressa in millimetri"
+   ],
+   "spiegazione": "L'altezza è la misura in centimetri lineari tra una cimosa e l'altra; l'altezza utile esclude le cimose."
+  },
+  {
+   "d": "Che cosa caratterizza il dritto di un tessuto?",
+   "giusta": "Maggiore concentrazione di fili di ordito e superficie liscia e lucida",
+   "sbagliate": [
+    "Maggiore concentrazione di fili di trama e superficie opaca",
+    "Il cartellino della pezza e la trama in evidenza",
+    "La scritta delle cimose parlate che si legge al contrario"
+   ],
+   "spiegazione": "Sul dritto prevalgono i fili di ordito; sul rovescio si nota la trama e si pone il cartellino."
+  }
+ ],
+ "mappa": {
+  "domanda": "Quali sono gli elementi che caratterizzano il tessuto a navetta?",
+  "centro": "Tessuto a navetta",
+  "rami": [
+   {
+    "nome": "Verso: direzione del tessuto sulla persona",
+    "tipo": "parola",
+    "figli": [
+     {
+      "nome": "Indifferente: tessuto a pois",
+      "tipo": "esempio"
+     },
+     {
+      "nome": "Obbligato: figure con senso orientato",
+      "tipo": "parola"
+     },
+     {
+      "nome": "Semiobbligato: motivo a triangoli",
+      "tipo": "esempio"
+     }
+    ]
+   },
+   {
+    "nome": "Cimose: bordi che evitano lo sfilacciamento",
+    "tipo": "parola",
+    "figli": [
+     {
+      "nome": "Basse sotto 7 mm, medie 7-14 mm, alte oltre 14 mm",
+      "tipo": "sequenza"
+     },
+     {
+      "nome": "Cimosa parlata: scritte stampate o tessute",
+      "tipo": "esempio"
+     }
+    ]
+   },
+   {
+    "nome": "Altezza: centimetri tra una cimosa e l'altra",
+    "tipo": "parola",
+    "figli": [
+     {
+      "nome": "Bassa sotto 100 cm, doppia 140-150 cm",
+      "tipo": "sequenza"
+     },
+     {
+      "nome": "Da 200 a 300 cm: tende e coperte",
+      "tipo": "esempio"
+     }
+    ]
+   },
+   {
+    "nome": "Dritto: più ordito, liscio e lucido. Rovescio: trama",
+    "tipo": "conseguenza",
+    "figli": []
+   }
+  ],
+  "voce": "Il tessuto a navetta si riconosce da cinque elementi. Il verso può essere indifferente, come nei pois, obbligato, quando le figure hanno un senso orientato, o semiobbligato, come nel motivo a triangoli. Le cimose sono bordi resistenti che evitano lo sfilacciamento: basse sotto i sette millimetri, medie tra sette e quattordici millimetri, alte oltre i quattordici. L'altezza è la misura in centimetri tra una cimosa e l'altra: bassa sotto i cento centimetri, doppia tra centoquaranta e centocinquanta. Per tende e coperte si arriva tra i duecento e i trecento centimetri. Sul dritto prevalgono i fili di ordito, sul rovescio la trama."
+ },
+ "glossario": [
+  {
+   "termine": "Verso",
+   "def": "Direzione che il tessuto deve prendere quando viene appoggiato sulla persona da vestire."
+  },
+  {
+   "termine": "Cimose",
+   "def": "Parti laterali del tessuto: bordi resistenti che proteggono il tessuto ed evitano lo sfilacciamento."
+  },
+  {
+   "termine": "Cimosa parlata",
+   "def": "Cimosa con scritte stampate o tessute che portano determinate informazioni."
+  },
+  {
+   "termine": "Sbandieramenti",
+   "def": "Difetti dovuti a tensione scarsa della cimosa, che riducono l'altezza utile del tessuto."
+  },
+  {
+   "termine": "Altezza",
+   "def": "Misura in centimetri lineari tra una cimosa e l'altra; esclusi le cimose si parla di altezza utile."
+  },
+  {
+   "termine": "Dritto",
+   "def": "Faccia del tessuto con più fili di ordito, superficie pulita, liscia e lucida; il rovescio è caratterizzato dalla trama."
+  }
+ ],
+ "discrepanze": [
+  "UE (422.05-427.61): la prof dice «In questo caso il regolamento che subentra è l'UE 1711» (trascrizione automatica; da verificare all'ascolto). Il PDF scrive «regolamento UE 1007/11». La card riporta il numero detto dalla prof (1711): decide la master/Sara quale mostrare. Sigla spiegata sullo schermo: «UE, cioè Unione Europea».",
+  "Altezze 529.24-538.64: la prof dice che la confezione industriale può richiedere «altezze maggiori di 150»; il PDF dice che oggi si tende a produrre tessuti con altezza di 150 cm. Card con le parole della prof.",
+  "Ordine degli elementi (223-231 s): la prof dice «verso, dritto, rovescio, altezza e cimose»; il PDF «verso, cimose, altezza, dritto e rovescio» (e aggiunge che l'altezza è l'elemento più importante). Card con l'ordine della prof.",
+  "Cimose, 400.9-421.79: la prof parla di «normativa che va a redigere la tipologia di tessuto e le regole di produzione»; il PDF cita «lavorazioni come frange o il giro inglese, secondo le norme del regolamento UE 1007/11».",
+  "Verso semiobbligato: trascrizione «semi obbligato», il PDF scrive «semiobbligato» (usato nelle card). A 291.97 la trascrizione ha «poa», corretto in «pois» come nel PDF.",
+  "Il PDF aggiunge lo spessore eccessivo della cimosa (slittamento in materasso) e il «doppio dritto»: la prof non li dice in questo pezzo, non sono nelle card.",
+  "Il PDF afferma che le cimose hanno scarso valore commerciale e che i tessuti industriali si vendono arrotolati: non detto dalla prof, non nelle card.",
+  "Trascrizione 616.23-629.85: frase incerta («rapporto in modo lavorativo, in modo sbagliato»); card scritta come «evitiamo di lavorare il tessuto in modo sbagliato», senso del PDF («evitando errori»)."
+ ],
+ "tagli_proposti": [
+  "233.03-236.67: «Il verso che cos'è? Il verso è la parte, diciamo...» esitazione e domanda retorica prima della definizione ripetuta a 237.49; si può tenere solo la definizione.",
+  "304.33-322.47: frase interrotta («ma che hanno comunque dei... Versi diversi, questi effetti con versi diversi») con ripetizione; la frase completa è a 314.95.",
+  "331.17-335.33: domanda «perché è importante per noi conoscere il verso?» seguita dalla risposta; si può togliere la domanda.",
+  "406.25-410.15: «In questo caso parliamo comunque» esitazione prima della normativa.",
+  "468.6-471.4: «Tesa. Quindi In questo caso...» ripetizione di circa 3 s prima della frase completa a 471.48."
+ ]
+}
