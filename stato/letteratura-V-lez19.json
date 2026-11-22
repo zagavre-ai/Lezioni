@@ -2,18 +2,18 @@
  "tag": "letteratura-V-lez19",
  "parti": {
   "1": {
-   "stato": "IN_REVISIONE",
+   "stato": "REVISIONATA",
    "titolo": "Dal secondo dopoguerra a oggi",
    "voci": "kore",
    "quiz_ok": "si",
    "fermi_ok": "si",
    "sub_ok": "si",
    "video": "Letteratura_Lez19_Parte1_1080p.mp4",
-   "durata_s": 3025.2,
-   "durata": "50:25.2",
-   "fotogrammi": 90757,
-   "fotogrammi_attesi": 90757,
-   "peso_MB": 170.1,
+   "durata_s": 3020.8,
+   "durata": "50:20.8",
+   "fotogrammi": 90623,
+   "fotogrammi_attesi": 90623,
+   "peso_MB": 293.0,
    "vtt": "Letteratura_Lez19_Parte1.vtt",
    "scheda": {
     "materia": "Letteratura italiana (V)",
@@ -250,10 +250,14 @@
   {
    "quando": "22/11 18:10",
    "testo": "correzioni 22/11 (18:10 UTC): controllo severo OK sul video 50:27; il controllo indipendente ha trovato difetti (nome del prof nella voce INTRO e nel piè di pagina, sottotitoli sulle voci narranti, 6 card in anticipo >1 s, pause 2,56-2,76 s, Rai non rispiegata): corretti, ricodifica in corso (~20 min), poi ricontrollo e consegna entro le 19:00 UTC."
+  },
+  {
+   "quando": "22/11 18:38",
+   "testo": "correzioni 22/11 fatte (18:45 UTC): ramo revisione-letteratura-V-lez19, durata 50:20,77 (90623 fotogrammi), 293 MB, -16,2 LUFS, picco -1,5 dBTP. controllo_severo.py: ESITO OK. Controllo indipendente (agente separato) su 2 giri: difetti trovati e corretti, secondo giro OK. Non verificato: ascolto a orecchio. Voci nuove: nessuna. Sul ramo claude/admiring-cerf-9zh5f6 resta la vecchia cartella v2 (da ignorare)."
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 19 · Dal secondo dopoguerra a oggi",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-22 18:10:27"
+ "aggiornato": "2026-11-22 18:38:27"
 }
