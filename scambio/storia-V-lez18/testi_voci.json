@@ -458,7 +458,7 @@
  },
  {
   "nome": "M6_01",
-  "testo": "Che cosa succede alla Democrazia cristiana? Al centro della mappa, la Democrazia cristiana."
+  "testo": "Ecco la mappa del centrosinistra. Al centro della mappa, la Democrazia cristiana."
  },
  {
   "nome": "M6_02",
@@ -483,5 +483,21 @@
  {
   "nome": "M6_07",
   "testo": "Ecco la mappa completa."
+ },
+ {
+  "nome": "AN2a_R2",
+  "testo": "Mettiamo in fila le tappe dalla fine della guerra alla Repubblica. Nel giugno del millenovecentoquarantacinque nasce il governo guidato da Ferruccio Parri. A dicembre dello stesso anno inizia il primo governo De Gasperi, un governo di unità nazionale con tutti i partiti antifascisti. Il due giugno del millenovecentoquarantasei gli italiani votano il referendum istituzionale. Nello stesso anno nasce l'Assemblea Costituente, incaricata di scrivere la nuova Costituzione. Il governo Parri, molto radicale, dura pochi mesi: lo sostituisce un governo De Gasperi più moderato."
+ },
+ {
+  "nome": "AN2b_R2",
+  "testo": "Tre uomini guidano i partiti che raccolgono più consensi. Alcide De Gasperi guida la Democrazia Cristiana. È l'ultimo presidente del Consiglio del Regno d'Italia e il primo della Repubblica. Palmiro Togliatti è il leader del Partito comunista e, come ministro della Giustizia, promuove un'amnistia per i reati politici. Pietro Nenni guida il Partito socialista italiano. Accanto a questi tre ci sono partiti minori, come il Partito d'Azione, i repubblicani, i liberali e i monarchici, ma gli elettori premiano soprattutto i partiti di massa."
+ },
+ {
+  "nome": "AN6a_R2",
+  "testo": "Seguiamo le tappe che portano al centrosinistra. Nel millenovecentocinquantasei i fatti d'Ungheria spingono il Partito comunista verso l'autonomia dall'Unione Sovietica. Nel millenovecentosessantadue nascono i governi di centrosinistra, con Fanfani e l'appoggio dei socialisti. Nel millenovecentosessantatré Aldo Moro guida il primo governo organico di centrosinistra. Nel millenovecentosessantaquattro muore Togliatti e arriva la prima crisi economica, mentre si parla del Piano Solo. Il Partito comunista, intanto, è sempre più all'opposizione, mentre il Partito socialista si avvicina sempre di più all'area di governo."
+ },
+ {
+  "nome": "R6_R2",
+  "testo": "Ripasso. Per allargare la base democratica, la DC si apre ai socialisti e nascono i governi di centrosinistra guidati da Fanfani e Moro. Le grandi riforme sono la nazionalizzazione dell'energia elettrica, con l'ENEL, e la scuola media unica e obbligatoria fino a quattordici anni. Dopo i fatti d'Ungheria e dopo la morte di Togliatti, il Partito comunista avvia un percorso di autonomia dall'Unione Sovietica."
  }
 ]
