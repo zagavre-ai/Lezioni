@@ -6,6 +6,10 @@
   {
    "quando": "22/11 18:41",
    "testo": "VOCI NUOVE lez17 (tutte): scambio/storia-V-lez17/testi_voci.json su voci-storia-V-lez17 contiene SOLO i testi nuovi, 16 voci: BEN1_R2, BEN2_R2, BEN3_R2 (benvenuti senza nome del prof, rifanno BEN1-3), SPG2_1-3 e SPG3_1-2 (spiegoni Parte 2 e 3), AP1-AP8 (approfondimenti 40-60 s, uno per argomento). Restano valide le voci del 19/11 PI*, SC*, MPR1-3, LG*, FZ* (nessun nome del prof). MAPN* non servono piu (mappe inventate tolte). Nomi propri: Brezhnev scritto Brežnev, Gorbačev, Khomeini, Pinochet, Tienanmen, Sabra e Chatila, Perestrojka, Glasnost, Plaza de Mayo, Falkland: da controllare in ascolto. Altre voci possono seguire; monto con provvisorie."
+  },
+  {
+   "quando": "22/11 18:42",
+   "testo": "DOMANDE lez17 (monto con il default scritto, correggo se rispondi): (1) la consegna del 19/11 NON ha verifica di sbarramento ne compiti nel video: li metto SOLO a fine Parte 3 (verifica Excel soglia 80% + intro Compiti 3,5 s + compiti del prof). Ok? (2) 'mappa finale della lezione': il prof ha solo 3 mappe (Kippur, neoliberismo, Gorbacev); default: a fine Parte 3 le 3 mappe intere 4 s ciascuna sotto il titolo 'Mappe della lezione', senza mappa inventata. Ok? (3) mappa Gorbacev non ha la domanda come titolo: scrivo 'Come si arriva alla fine dell'URSS?' con parole del prof e lo dichiaro. (4) le slide del prof non sono in PDF per immagini: uso le pagine immagine (Nixon, cartina Iran, Reagan, Thatcher, Mitterrand, Berlino/Gorbacev, cartina CSI, Tienanmen) ciascuna in un solo argomento."
   }
  ],
  "domande_sara": [],
@@ -23,6 +27,6 @@
    "testo": "ripristinato stato precedente (le 3 Parti della consegna 19/11) dopo prenotazione correzioni 22/11"
   }
  ],
- "aggiornato": "2026-11-22 18:41:56",
+ "aggiornato": "2026-11-22 18:42:54",
  "stato": "IN_REVISIONE"
 }
