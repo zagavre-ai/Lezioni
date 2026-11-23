@@ -40,14 +40,14 @@ def blue_piece(nome,inner_states,D,sfx,audios,vk=()):
     return o,d
 def p_titolo(a):
     n=a['n'];st=[(0,png(blu_title(n,7,a['nome']),f'T{n}',True))];flush()
-    o,d=blue_piece(f'T{n}',st,4.0,[(0.0,SND+'titolo.wav')],[]);reg(f'T{n}',o,d)
+    o,d=blue_piece(f'T{n}',st,4.0,[(0.0,SND+'titolo.wav'),(1.3,W+'/snd2/fin_q.wav')],[]);reg(f'T{n}',o,d)
 def p_pillola(a,pname):
     n=a['n'];txt=TEXTS[pname];vn=vname(pname);w,vd,prov=prepare(vn,txt)
     D=LEAD+vd+1.4;st=[(0,png(blu_pill(a['nome']),f'PI{n}',True))];flush()
     o,d=blue_piece(f'PI{n}',st,D,[(0.0,SND+'repaso.wav')],[(1.7,w)],key_voice(vn));reg(f'PI{n}',o,d,prov);vc_one(f'PI{n}',1.7,vd,txt)
 def p_quiz(a):
     n=a['n'];st=[(0,png(blu_quiz(n,a['nome']),f'Q{n}',True))];flush()
-    o,d=blue_piece(f'Q{n}',st,5.0,[(0.5,SND+'quiz.wav')],[]);reg(f'Q{n}',o,d)
+    o,d=blue_piece(f'Q{n}',st,5.0,[(0.5,SND+'quiz.wav'),(2.4,W+'/snd2/fin_q.wav')],[]);reg(f'Q{n}',o,d)
 def white_piece(nome,states,audios,D,vk,prov,sfx=None):
     flush()
     key=[nome,states,audios,D,vk,pm(PREV['png']),sfx]
@@ -126,7 +126,7 @@ def p_riep():
 def p_verifica():
     vn=vname('VER1');txt=TEXTS[vn];w,vd,prov=prepare(vn,txt)
     st=[(0,png(blu_text('PAUSA DEL VIDEO','Verifica finale','Serve almeno l\'80% per continuare'),'ver',True))];flush()
-    o,d=blue_piece('VER',st,LEAD+vd+2.0,[(0.5,SND+'quiz.wav')],[(1.2,w)],key_voice(vn));reg('VER',o,d,prov);vc_one('VER',1.2,vd,txt)
+    o,d=blue_piece('VER',st,LEAD+vd+2.0,[(0.5,SND+'quiz.wav'),(0.0,W+'/snd2/fin_q.wav')],[(1.2,w)],key_voice(vn));reg('VER',o,d,prov);vc_one('VER',1.2,vd,txt)
 def p_compiti():
     vn='COMPI';txt=TEXTS[vn];w,vd,prov=prepare(vn,txt)
     st=[(0,png(blu_text('E ORA TOCCA A TE','Compiti'),'comp',True))];flush()
