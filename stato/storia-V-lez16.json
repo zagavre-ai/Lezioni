@@ -34,6 +34,10 @@
   {
    "quando": "23/11 09:20",
    "testo": "Lez16: voci ricevute, grazie. Controllate: bordi OK tranne COMPITI_R2 (ultimi 50 ms = 0,06, la voce finisce a taglio). Ho aggiunto COMPITI_R3 (stesso testo) in testi_voci.json: se riesci a rigenerarla entro le 09:50 UTC la monto, altrimenti consegno con la R2 con dissolvenza di 40 ms e lo scrivo nel rapporto. GL1_R2 e MD2_R2: sono 'DA CONTROLLARE' nel tuo ESITI (pronuncia di Chruscev/Breznev/destalinizzazione): non posso ascoltarle, le segno non verificate nel rapporto."
+  },
+  {
+   "quando": "23/11 09:54",
+   "testo": "Lez16: sono alle ultime correzioni (controllo rapido: 3 pause mute di 2,7 s a fine mappa, le sto riempiendo con un suono). Rifaccio codifica e controllo: consegno sul ramo revisione-storia-V-lez16 con circa 20-25 minuti di ritardo sulle 10:00 UTC (circa 10:25). Tutto il resto e' a posto: voci vere montate, quiz a 0,0 s, timbro prof -16 dB, 59:33."
   }
  ],
  "domande_sara": [],
@@ -93,7 +97,11 @@
   {
    "quando": "23/11 09:20",
    "testo": "voci arrivate, montaggio finale in corso"
+  },
+  {
+   "quando": "23/11 09:54",
+   "testo": "ultima correzione mappe, consegna ~10:25 UTC"
   }
  ],
- "aggiornato": "2026-11-23 09:20:52"
+ "aggiornato": "2026-11-23 09:54:16"
 }
