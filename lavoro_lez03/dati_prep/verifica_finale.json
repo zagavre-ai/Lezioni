@@ -1,0 +1,96 @@
+{
+ "title": "Verifica finale · Il Realismo",
+ "soglia": 0.8,
+ "items": [
+  {
+   "p": "Chi progettò la struttura in ferro e vetro del Crystal Palace a Londra per la prima Esposizione Universale del 1851?",
+   "a": "Joseph Paxton",
+   "w": [
+    "Georges-Eugène Haussmann",
+    "Giuseppe Mengoni",
+    "John Nash"
+   ]
+  },
+  {
+   "p": "Quale prefetto della Senna ricevette nel 1853 l'incarico da Napoleone III di attuare il grande piano di risanamento urbano di Parigi?",
+   "a": "Georges-Eugène Haussmann",
+   "w": [
+    "Charles Garnier",
+    "Alessandro Antonelli",
+    "Giuseppe Mengoni"
+   ]
+  },
+  {
+   "p": "In quale città italiana sorge la monumentale galleria commerciale progettata da Giuseppe Mengoni e realizzata tra il 1865 e il 1877?",
+   "a": "Milano",
+   "w": [
+    "Torino",
+    "Firenze",
+    "Roma"
+   ]
+  },
+  {
+   "p": "Quale architetto inglese avviò nel 1815 la ristrutturazione in stile eclettico ed esotico del Brighton Pavilion?",
+   "a": "John Nash",
+   "w": [
+    "Charles Garnier",
+    "Joseph Paxton",
+    "Giuseppe Mengoni"
+   ]
+  },
+  {
+   "p": "Quale celebre edificio parigino, progettato da Charles Garnier tra il 1861 e il 1875, costituisce un'opera esemplare dell'eclettismo al servizio della modernità?",
+   "a": "Il Teatro dell'Opera",
+   "w": [
+    "La Scuola di Barbizon",
+    "Il Padiglione del Realismo",
+    "La Galleria Vittorio Emanuele II"
+   ]
+  },
+  {
+   "p": "Quale opera del 1849 di Gustave Courbet mostra in modo autentico, crudo e senza idealizzazioni la fatica del lavoro delle classi più povere?",
+   "a": "Gli spaccapietre",
+   "w": [
+    "Le spigolatrici",
+    "L'atelier del pittore",
+    "Il vagone di terza classe"
+   ]
+  },
+  {
+   "p": "In quale locale di Firenze si riunivano i pittori Macchiaioli tra il 1850 e il 1867 per discutere di arte, cultura e politica?",
+   "a": "Caffè Michelangiolo",
+   "w": [
+    "Caffè Pedrocchi",
+    "Caffè della Musica",
+    "Padiglione del Realismo"
+   ]
+  },
+  {
+   "p": "Chi è l'autore del dipinto del 1866 \"La rotonda dei bagni Palmieri\", fondamentale per la sperimentazione della tecnica \"a macchia\"?",
+   "a": "Giovanni Fattori",
+   "w": [
+    "Silvestro Lega",
+    "Telemaco Signorini",
+    "Odoardo Borrani"
+   ]
+  },
+  {
+   "p": "Quale celebre dipinto del 1868 di Silvestro Lega descrive con precisione un momento di quieta quotidianità e di atmosfera domestica borghese?",
+   "a": "Il pergolato",
+   "w": [
+    "La sala delle agitate",
+    "In vedetta",
+    "La lettura"
+   ]
+  },
+  {
+   "p": "Quale artista francese si distinse a metà dell'Ottocento per l'impegno sociale espresso attraverso i suoi disegni satirici e dipinti come \"Il vagone di terza classe\"?",
+   "a": "Honoré Daumier",
+   "w": [
+    "Jean-François Millet",
+    "Camille Corot",
+    "Charles-François Daubigny"
+   ]
+  }
+ ]
+}
