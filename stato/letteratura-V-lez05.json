@@ -2,7 +2,7 @@
  "tag": "letteratura-V-lez05",
  "parti": {
   "1": {
-   "stato": "REVISIONATA",
+   "stato": "IN_REVISIONE",
    "video": "final5.mp4",
    "durata_s": 3559.9,
    "durata": "59:19.9",
@@ -132,7 +132,11 @@
   {
    "quando": "22/11 19:07",
    "testo": "correzioni 22/11 fatte (19:08 UTC) CON RISERVE: bordo giallo card (sync lessicale) da rifinire a mano; QR in alcune fettine; glossario su 2 pagine; controllo severo non terminato (da rilanciare). Merge con timeline.json della master; quiz4 +1,03 s e glossario/verifica/compiti +142,13 s"
+  },
+  {
+   "quando": "23/11 10:54",
+   "testo": "23/11 11:00 UTC: ripresa. Controllo rapido sulla consegna: errori = nome docente nel piè di pagina delle slide col prof; schermata identica 33:30 (6,8 min). Correggo: piè di pagina, schede blu a tutto schermo, QR, bordo giallo con parole della trascrizione, voce COMPITI (testo inviato), testo Controlla; poi ricodifica ~40 min"
   }
  ],
- "aggiornato": "2026-11-22 19:07:52"
+ "aggiornato": "2026-11-23 10:54:51"
 }
