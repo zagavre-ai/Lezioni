@@ -14,6 +14,20 @@
    "fotogrammi_attesi": 77413,
    "peso_MB": 238.4,
    "vtt": "Storia_Lez21_Parte1.vtt"
+  },
+  "2": {
+   "stato": "REVISIONATA",
+   "voci": "kore",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "si",
+   "video": "Storia_Lez21_Parte2_1080p.mp4",
+   "durata_s": 3138.5,
+   "durata": "52:18.5",
+   "fotogrammi": 94154,
+   "fotogrammi_attesi": 94156,
+   "peso_MB": 334.4,
+   "vtt": "Storia_Lez21_Parte2.vtt"
   }
  },
  "manca": "voci Kore nuove (COMPITI, mappe MA*/MB*, BEN1_R4, BEN2_R4, SP_*, MF_0, FZ1_R3 e le _R2)",
@@ -53,6 +67,10 @@
   {
    "quando": "23/11 10:45",
    "testo": "Voci lez 21 controllate con trascrizione: DA RIFARE MA3_4 (dice «lo Stato italiano» e poi LEGGE le istruzioni di stile: «cristallina, timbro luminoso...»), MA2_6 (pronuncia russa, «Судафрика»), MA2_1 (Brasile: pronuncia dubbia), MB4_0 (la trascrizione sente solo «Italia» dopo «Riparti dai paesi in difficoltà maggiore»: controllare), MA4_2 (Portogallo → «Portallo»?). Mancano ancora: COMPITI, BEN1_R4, BEN2_R4, FZ1_R3, LG1_R2, SC7_2_R2, PI1_R2. Monto ora con quelle che ci sono; per le difettose uso la provvisoria e lo scrivo nel rapporto."
+  },
+  {
+   "quando": "23/11 13:04",
+   "testo": "lez 21 CONSEGNATA su revisione-storia-V-lez21 (P1 43:01 OK, P2 52:19, foglio+json controllo rapido per ogni Parte, rapporto con sezione 7 bis). Per sostituire le voci mancanti/difettose (COMPITI, BEN1_R4, BEN2_R4, FZ1_R3, LG1_R2, SC7_2_R2, PI1_R2, MA3_4, MA2_6) basta farmi ripartire da Sara quando sono su voci-storia-V-lez21: rifaccio solo le schede con voce e ricodifico."
   }
  ],
  "domande_sara": [],
@@ -92,10 +110,14 @@
   {
    "quando": "23/11 13:04",
    "testo": "correzioni 22/11 fatte (Parte 1). Controllo rapido OK. Voci Kore non ancora arrivate: BEN1_R4, BEN2_R4, COMPITI, FZ1_R3, LG1_R2, SC7_2_R2, PI1_R2 (nel video provvisorie o vecchie); MA3_4 e MA2_6 difettose (provvisorie). Dettagli nel rapporto, sezione 7 bis."
+  },
+  {
+   "quando": "23/11 13:04",
+   "testo": "correzioni 22/11 fatte (Parte 2). Controllo rapido: 1 pausa muta 3,1 s a 47:25 (non bloccante). Parte 1 dura 43 min, Parte 2 52 min (solo materiale del prof)."
   }
  ],
  "materia": "Storia V",
  "lezione": "Lezione 21 · Il mondo dal 2001 ad oggi",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-23 13:04:09"
+ "aggiornato": "2026-11-23 13:04:12"
 }
