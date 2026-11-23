@@ -31,7 +31,7 @@ def quiz(tit,dur=5.0):
     h='<div class="dk">'+logo()
     h+=T(0.2,'QUIZ','position:absolute;left:0;right:0;top:330px;text-align:center;font:800 150px Figtree;letter-spacing:.14em;color:#FFE600')
     h+=T(0.6,tit,"position:absolute;left:200px;right:200px;top:560px;text-align:center;font:800 54px/1.15 'Bricolage Grotesque'")
-    h+=T(1.0,'5 domande · per continuare serve almeno l’80%','position:absolute;left:0;right:0;top:760px;text-align:center;font:600 38px Figtree;color:#C9D6F5')
+    h+=T(1.0,'5 domande · serve almeno l’80% · Rispondi · premi Controlla · poi Continua','position:absolute;left:0;right:0;top:760px;text-align:center;font:600 38px Figtree;color:#C9D6F5')
     return h+'</div>',dur
 def elenco(kick,tit,voci,voce_t,dur,fs=40):
     """voci: lista di (grassetto,resto) o testo; si accendono con la voce"""

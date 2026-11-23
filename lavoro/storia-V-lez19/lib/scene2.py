@@ -101,3 +101,25 @@ def s_testo(pid,kick,tit,voce,rows=None,dur=None,jingle=None,voce_t=1.0):
     if jingle: ev.append((KIT+'/suoni/'+jingle[0],jingle[1],jingle[2]))
     if voce: ev.append((VX+voce+'.wav',voce_t,0))
     return render_scene(pid,html+'</div>',dur),ev
+
+def s_compiti():
+    """compiti del docente letti con la voce COMPITI: uno alla volta, bordo giallo; tempi dalle frasi (proporzionali ai caratteri)"""
+    C=json.load(open('/home/claude/w19/compiti.json'))['compiti'];d=vd('COMPITI')
+    txt=TV['COMPITI'];parti=re.split(r'(?<=\.)\s+(?=(?:Primo|Secondo|Terzo|Quarto) compito\.)',txt)
+    # parti[0] = intro + primo compito; l'ultima frase è la chiusura
+    chiusa=txt[txt.rindex('Svolgi'):]
+    tot=len(txt);t=1.0;ev=[(VX+'COMPITI.wav',1.0,0)]
+    # intervallo di ogni compito
+    segs=[];pos=0
+    for n,c in zip(['Primo','Secondo','Terzo','Quarto'],C):
+        i=txt.index(n+' compito.',pos);j=txt.index(' compito.',i)+9
+        fine=txt.find(' Secondo compito.',i) if n=='Primo' else (txt.find(' Terzo compito.',i) if n=='Secondo' else (txt.find(' Quarto compito.',i) if n=='Terzo' else txt.index(' Svolgi')))
+        segs.append((i,fine));pos=fine
+    html='<div class="dk">'+logo()+T(0.2,'COMPITI','position:absolute;left:140px;top:150px;font:800 30px Figtree;letter-spacing:.22em;color:#FFE600')
+    for k,(c,(i,f)) in enumerate(zip(C,segs)):
+        a=1.0+d*i/tot;b=1.0+d*f/tot
+        nxt=1.0+d*segs[k+1][0]/tot if k+1<len(segs) else 1.0+d*f/tot
+        html+=(f'<div data-t0="{a-0.1:.2f}" data-t1="{b+0.1:.2f}" data-out="{nxt:.2f}" style="opacity:0;position:absolute;left:140px;top:230px;width:1640px;box-sizing:border-box;padding:30px 40px;border-radius:20px;background:rgba(255,255,255,.08);border:6px solid #FFE600;font:600 42px/1.45 Figtree"><div style="font:800 34px Figtree;color:#FFE600;margin-bottom:14px">Compito {c["n"]} di {len(C)}</div>{c["testo"]}</div>')
+    ia=1.0+d*txt.index('Svolgi')/tot
+    html+=T(ia-0.1,'Svolgi i compiti qui sotto e premi Consegna: arrivano al docente nel tuo quaderno dei compiti.','position:absolute;left:140px;top:420px;width:1640px;font:800 54px/1.3 \'Bricolage Grotesque\';color:#fff',t1=1.0+d+0.3)
+    return render_scene('compiti_voce',html+'</div>',round(d+2.3,2)),ev

@@ -85,9 +85,13 @@
   {
    "quando": "22/11 22:08",
    "testo": "ore 22:20 UTC: Parte 1 (52:04) e Parte 2 (50:56) montate e codificate con voci provvisorie per le 19 voci nuove; controllo_finale/jingle in corso; dispensa e PDF mappe fatti. Domattina: voci Kore -> sostituzione, ricodifica, controllo severo, agente separato, consegna."
+  },
+  {
+   "quando": "23/11 10:43",
+   "testo": "ore 10:50 UTC: voci Kore arrivate (18/18); verificate (bordi <0,003, trascrizione con pochi scarti dell'ASR); ricostruzione e riassemblaggio in corso, poi controllo_rapido e consegna."
   }
  ],
  "materia": "storia-V",
  "lezione": "19",
- "aggiornato": "2026-11-23 09:46:02"
+ "aggiornato": "2026-11-23 10:43:59"
 }

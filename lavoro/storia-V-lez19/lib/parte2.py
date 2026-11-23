@@ -54,22 +54,11 @@ def run2():
            ('P','a8b',708,714,[(708,17,3)],[],C8)])
     r.scena('gl2',s_gloss(2),'glossario')
     r.scena('rf2',s_ripasso_finale(2),'ripasso_finale')
-    r.scena('verifica',s_testo('verifica','VERIFICA FINALE','Verifica finale',None,rows='10 domande · per superarla serve almeno l’80%',dur=6.0,jingle=('quiz.wav',0.5,-2)),'verifica')
+    r.scena('verifica',s_testo('verifica','VERIFICA FINALE','Verifica finale',None,rows='10 domande · serve almeno l’80% · Rispondi · premi Controlla · poi Continua',dur=6.0,jingle=('quiz.wav',0.5,-2)),'verifica')
     r.scena('fin2',s_testo('fin2','ARRIVEDERCI','Per oggi è tutto','FIN2',dur=round(vd('FIN2')+2.5,2),jingle=('finale.wav',0.2,-6)),'saluto')
     r.clip('finale2',KIT+'/sigle/Sigla_finale_5s_con_avviso_diritti.mp4',tipo='finale')
-    r.scena('compiti_i',s_testo('compiti_i','ORA TOCCA A TE','Compiti',None and 'COMPI',dur=3.5,jingle=('titolo.wav',0.2,-4)),'compiti_intro')
-    C=json.load(open(W+'/compiti.json'))['compiti']
-    pages=[]
-    for i,c in enumerate(C):
-        png=O+f'comp{i}.png'
-        if not os.path.exists(png):
-            with B() as b: b.shot(compiti_html(f'Compito {c["n"]} di {len(C)}',c['testo'],i+1),png)
-        pages.append(png)
-    for i,png in enumerate(pages):
-        pid=f'compiti_{i+1}'
-        vid=O+pid+'.mp4'
-        if not os.path.exists(vid): subprocess.run(['ffmpeg','-v','error','-y','-loop','1','-framerate','30','-i',png,'-t','22','-c:v','libx264','-crf','16','-pix_fmt','yuv420p',vid],check=True)
-        r.scena(pid,(vid,[(VX+'_sil.wav',0,0)]),'compiti',last=(i==len(pages)-1))
+    r.scena('compiti_i',s_testo('compiti_i','ORA TOCCA A TE','Compiti',None,dur=3.5,jingle=('titolo.wav',0.2,-4)),'compiti_intro')
+    r.scena('compiti_voce',s_compiti(),'compiti',last=True)
     return r
 if __name__=='__main__':
     r=run2();json.dump(r.tl,open(W+'/timeline_P2_tmp.json','w'),ensure_ascii=False,indent=0)
