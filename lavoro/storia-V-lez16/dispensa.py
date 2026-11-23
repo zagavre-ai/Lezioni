@@ -28,7 +28,8 @@ def page_html(num,key,mappe=False):
         return wslide(f"APPROFONDIMENTO · {a['n']:02d} {a['nome']}",q,cards,None,num,tl=2 if len(q)>62 else 1)
     if t=='ps':
         n=key[1];a=ARGS[n-1];lines=[dict(t=screen(TEXTS[vname(x)])) for x in PSN[n]]
-        return wslide(f"RIPASSO · {n:02d} {a['nome']}",'Schema di ripasso',lines,None,num,extra_css=css_rows)
+        h=blu_schema(f"SCHEMA DI RIPASSO · {n:02d} {a['nome']}",a['nome'],[screen(TEXTS[vname(x)]) for x in PSN[n]],None,num,opaque=True)
+        return h.replace('top:981px','top:1257px').replace('top:1000px','top:1276px').replace('html,body{background:#0B1530}','html,body{background:#0B1530;height:1357px}').replace('inset:0','left:0;top:0;width:1920px;height:1357px')
     if t=='map':
         m=MAPS[key[1]-1];sh={'centro'}|{(c,r) for c,col in enumerate(m['cols']) for r in range(len(col))}
         return map_html(m,sh,None,num)

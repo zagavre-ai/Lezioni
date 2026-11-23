@@ -48,10 +48,10 @@ def p_pillola(a,pname):
 def p_quiz(a):
     n=a['n'];st=[(0,png(blu_quiz(n,a['nome']),f'Q{n}',True))];flush()
     o,d=blue_piece(f'Q{n}',st,5.0,[(0.5,SND+'quiz.wav')],[]);reg(f'Q{n}',o,d)
-def white_piece(nome,states,audios,D,vk,prov):
+def white_piece(nome,states,audios,D,vk,prov,sfx=None):
     flush()
-    key=[nome,states,audios,D,vk,pm(PREV['png'])]
-    o,d=cached(nome,key,lambda:compose(nome,states,audios,D,PREV['png']));reg(nome,o,d,prov);return o,d
+    key=[nome,states,audios,D,vk,pm(PREV['png']),sfx]
+    o,d=cached(nome,key,lambda:compose(nome,states,audios,D,PREV['png'],sfx=sfx));reg(nome,o,d,prov);return o,d
 def p_ap(a,name,label):
     vn=vname(name);txt=TEXTS[vn if vn in TEXTS else name];S_=sentences(txt)
     w,vd,prov=prepare(vn,txt);st_,vd,prov=starts(vn,txt,S_)
@@ -67,17 +67,16 @@ def p_ap(a,name,label):
     white_piece(f'AP{label_key(name)}',states,[(LEAD,w)],D,key_voice(vn),prov);vc_sent(f'AP{label_key(name)}',LEAD,S_,st_,vd)
 def label_key(name):return name[2:] if name.startswith('AP') else name
 def p_ps(a,names):
-    n=a['n'];ws=[];lines=[];t=LEAD;states=[];tt=[]
+    n=a['n'];ws=[];lines=[];tt=[]
     for nm in names:
-        vn=vname(nm);txt=TEXTS[vn if vn in TEXTS else nm];w,vd,prov=prepare(vn,txt);ws.append((w,vd,prov,vn));lines.append(dict(t=screen(txt)))
-    css=".card{padding-top:10px;padding-bottom:10px;line-height:56px}.card .n{top:12px}"
-    pg=numbering(('ps',n));eb=f"RIPASSO · {n:02d} {a['nome']}"
-    states=[(0,png(wslide(eb,'Schema di ripasso',[],None,pg,extra_css=css),'ps'))]
+        vn=vname(nm);txt=TEXTS[vn if vn in TEXTS else nm];w,vd,prov=prepare(vn,txt);ws.append((w,vd,prov,vn));lines.append(screen(txt))
+    pg=numbering(('ps',n));eb=f"SCHEMA DI RIPASSO · {n:02d} {a['nome']}"
+    states=[(0,png(blu_schema(eb,a['nome'],lines,None),'psb',True))]
     aud=[];t=LEAD;prov_any=False;vtmp=[]
     for i,(w,vd,prov,vn) in enumerate(ws):
-        states.append((t,png(wslide(eb,'Schema di ripasso',lines[:i+1],i,pg,extra_css=css),'ps')));aud.append((t,w));vtmp.append((t,vd,TEXTS[vn if vn in TEXTS else names[i]]));t+=vd+0.5;prov_any|=prov
-    D=t+TAIL-0.5
-    white_piece(f'PS{n}',states,aud,D,key_voice(*[x[3] for x in ws]),prov_any)
+        states.append((t,png(blu_schema(eb,a['nome'],lines,i),'psb',True)));aud.append((t,w));vtmp.append((t,vd,lines[i]));t+=vd+0.5;prov_any|=prov
+    D=t+TAIL-0.5;flush()
+    o,d=blue_piece(f'PS{n}',states,D,[],aud,key_voice(*[x[3] for x in ws]));reg(f'PS{n}',o,d,prov_any)
     for (tt_,vd_,tx_) in vtmp:vc_one(f'PS{n}',tt_,vd_,tx_)
 def p_map(k):
     m=MAPS[k-1];nm=f'MD{k}';vn=vname(nm);txt=TEXTS[vn];S_=sentences(txt);w,vd,prov=prepare(vn,txt);st_,vd,prov=starts(vn,txt,S_)
@@ -87,7 +86,7 @@ def p_map(k):
         shown.add(nd);states.append((LEAD+st_[i+1],png(map_html(m,set(shown),nd,pg),'map')))
     t_end=LEAD+vd+0.4;states.append((t_end,png(map_html(m,set(shown),None,pg),'map')))
     D=t_end+4.0
-    white_piece(f'MAP{k}',states,[(LEAD,w)],D,key_voice(vn),prov);vc_sent(f'MAP{k}',LEAD,S_,st_,vd)
+    white_piece(f'MAP{k}',states,[(LEAD,w)],D,key_voice(vn),prov,sfx=[(t_end,SND+'titolo.wav')]);vc_sent(f'MAP{k}',LEAD,S_,st_,vd)
 def p_cover(teacher=False):
     pg=numbering('cover');vn=vname('BENV1');txt=TEXTS[vn];w,vd,prov=prepare(vn,txt)
     states=[(0,png(cover(["Gli anni Sessanta","tra crisi e progressi"],[x['nome'] for x in ARGS],False,pg),'cover_n'))]

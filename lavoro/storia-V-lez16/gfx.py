@@ -198,3 +198,21 @@ def map_html(m,shown,lit,pageno,show_title=True):
     t=(f'<div class=mt>{H.escape(m["titolo"])}</div>' if show_title else '').replace('class=mt>',f'class=mt style="top:{135 if three else 150}px">')
     base=head(css)+f'<img class=logo src="{B}/img/logo.svg"><div class=rule></div>'
     return base+t+leg+f'<svg width=1920 height=1080>{svg}</svg>'+boxes+labs+f'<div class=foot></div><div class=fl>STORIA V</div><div class=fr>Pagina {pageno}</div>'
+
+
+def blu_schema(eb,titolo,righe,lit,pageno=None,opaque=False):
+    """schema di ripasso in blu scuro a tutto schermo: righe (testo) che si accendono con la voce"""
+    import math
+    rows='';y=300
+    for i,t in enumerate(righe):
+        on=(i==lit);nl=max(1,math.ceil(len(t)/48));h=nl*58+36
+        bg='rgba(255,230,0,.97)' if on else 'rgba(255,255,255,.14)';col='#0B1530' if on else '#f2f6ff'
+        dim='' if (lit is None or on or i<lit) else 'opacity:.0;'
+        rows+=f'<div style="position:absolute;left:120px;top:{y}px;width:1500px;min-height:{h}px;border-radius:20px;background:{bg};color:{col};font-weight:700;font-size:40px;line-height:58px;padding:16px 30px 16px 96px;{dim}"><span style="position:absolute;left:26px;top:{16}px;width:46px;height:46px;border-radius:23px;background:{"#0B1530" if on else "#2060AF"};color:#fff;font-size:26px;line-height:46px;text-align:center">{i+1}</span>{H.escape(t)}</div>'
+        y+=h+18
+    body=f'<div class="t eb" style="left:120px;top:150px">{H.escape(eb)}</div><div class="t big" style="left:120px;top:196px;width:1600px;font-size:72px;line-height:80px">{H.escape(titolo)}</div>'+rows
+    foot=f'<div style="position:absolute;left:80px;right:80px;top:981px;height:1px;background:rgba(255,255,255,.25)"></div><div style="position:absolute;left:80px;top:1000px;font-weight:700;font-size:22px;letter-spacing:.14em;color:#9ec3f0">STORIA V</div>'+(f'<div style="position:absolute;right:80px;top:1000px;font-weight:700;font-size:22px;letter-spacing:.1em;color:#9ec3f0">Pagina {pageno}</div>' if pageno else '')
+    h=blu_fg(body+foot)
+    if opaque:
+        h=h.replace('html,body{background:transparent}','html,body{background:#0B1530}').replace('</style>','</style><div style="position:absolute;inset:0;background:radial-gradient(900px 700px at 15% 20%,rgba(32,96,175,.55),transparent 70%),radial-gradient(1100px 800px at 85% 85%,rgba(20,60,130,.55),transparent 70%),#0B1530;z-index:-1"></div>',1)
+    return h
