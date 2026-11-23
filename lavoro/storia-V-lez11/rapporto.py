@@ -6,7 +6,12 @@ OUT=B+'/consegna/RAPPORTO_REVISIONE.md'
 tl=json.load(open(B+'/timeline_Parte1_full.json'))['tl']
 ver=open(B+'/verifica.txt').read() if os.path.exists(B+'/verifica.txt') else '(controllo non eseguito)'
 agente=open(B+'/agente.txt').read() if os.path.exists(B+'/agente.txt') else '(controllo dell\'agente separato non ancora eseguito)'
-voci=open(B+'/voci_stato.txt').read() if os.path.exists(B+'/voci_stato.txt') else ''
+NEWV=['BENV1_R2','MP1','MP23','MP4','COMP1','COMP2']
+miss=[n for n in NEWV if not os.path.exists(f'{W}/vc/scambio/storia-V-lez11/vox/{n}.wav')]
+if miss:
+    voci=("**ATTENZIONE: questo video NON è definitivo.** Le voci "+', '.join(miss)+" non sono ancora arrivate dalla master: nel video ci sono silenzi della durata stimata al posto del benvenuto in copertina (0:15-0:32), delle 3 mappe del prof (la sincronia ramo per ramo è stimata sul testo) e della lettura dei compiti. Per questo lo stato è IN_MONTAGGIO e non REVISIONATA. Appena arrivano si ricodifica una volta sola (circa 40 minuti). Le altre voci (AN, SC, R, GL, RIEP, FIN, COMPI) sono le Kore già generate dalla master. Le voci R3, R4, SC6_1..SC6_4 hanno i bordi non puliti (misura dell'agente separato: ampiezza fino a 0,54 nei primi/ultimi 50 ms): richieste come _R2; nel montaggio ogni voce ha comunque dissolvenza di 30 ms.")
+else:
+    voci="Tutte le voci nuove sono arrivate e sono state montate (BENV1_R2, MP1, MP23, MP4, COMP1, COMP2)."
 sev=open(B+'/severo.txt').read() if os.path.exists(B+'/severo.txt') else '(non eseguito)'
 def mm(s): return f'{int(s//60)}:{s%60:04.1f}'
 NAMES={'S0':'Sigla Storia (kit, 15 s)','C0':'Copertina + benvenuto (voce Kore, senza riquadro del docente)','D0':'Copertina + introduzione del docente (57,6 s, riquadro solo mentre parla; foto di Iosif Stalin a 54,3 s)','GL':'Glossario animato (GL1 + GL2, 11 termini)','RF':'Ripasso finale argomento per argomento (RIEP1)','FI':'Chiusura (FIN1)','VF':'Scheda Verifica di sbarramento (80%, test Excel del prof, 10 domande)','SF':'Sigla finale con avviso dei diritti (kit)','CI':'Intro «Compiti» (jingle)','CS':'Compiti del docente (4 esercizi, 2 schermate, voce COMP1/COMP2)'}
