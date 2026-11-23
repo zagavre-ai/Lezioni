@@ -2,7 +2,7 @@
  "tag": "letteratura-V-lez11",
  "parti": {
   "1": {
-   "stato": "REVISIONATA",
+   "stato": "IN_REVISIONE",
    "video": "Letteratura_Lez11_Parte1_1080p.mp4",
    "durata_s": 3177.3,
    "durata": "52:57.3",
@@ -79,7 +79,11 @@
   {
    "quando": "22/11 19:41",
    "testo": "correzioni 22/11 fatte. controllo_severo.py non concluso dopo 30 min (OCR lento): da rilanciare dalla master sul video consegnato. Durata 52:57."
+  },
+  {
+   "quando": "23/11 10:50",
+   "testo": "23/11: riparto. Tolto il nome del docente dai piè di pagina (video, dispensa, mappe), testi quiz/verifica 'premi Controlla', aggiunta voce CMPF (chiusura compiti). Attendo CMPF poi ricodifica e controllo_rapido."
   }
  ],
- "aggiornato": "2026-11-22 19:41:26"
+ "aggiornato": "2026-11-23 10:50:55"
 }
