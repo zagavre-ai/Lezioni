@@ -43,6 +43,10 @@
   {
    "quando": "22/11 20:37",
    "testo": "Fatto: le 9 voci nuove (INTRO1_N, SP0, FINP1, PS2_4, PS3_4, COMP1-4) sono ora dentro testi_voci.json sul ramo voci-storia-V-lez20 (file separato rimosso). Mappe: gia' solo le 4 del prof, niente mappe inventate ne' finale. Piè di pagina senza nome del docente."
+  },
+  {
+   "quando": "23/11 09:21",
+   "testo": "storia-V-lez20: manca solo la generazione delle 6 voci nuove (INTRO1_N, SP0, FINP1, PS2_4, PS3_4, COMPITI) in scambio/storia-V-lez20/testi_voci.json sul ramo voci-storia-V-lez20. Tutto il resto e' sul ramo revisione (v3). Quando le voci sono caricate scrivi in DALLA_MASTER e riprendo."
   }
  ],
  "domande_sara": [],
@@ -130,10 +134,14 @@
   {
    "quando": "23/11 07:58",
    "testo": "23/11 08:00 UTC: voci ancora non arrivate. Se non arrivano entro le 09:15 UTC lascio la consegna in stato provvisorio e lo dico chiaramente."
+  },
+  {
+   "quando": "23/11 09:21",
+   "testo": "23/11 09:25 UTC: consegna v3 su revisione-storia-V-lez20 (commit 2db8e95): Parte 1 54:10, Parte 2 29:06, foglio fotogrammi + json controllo_rapido per Parte. Restano SOLO pause mute dovute a voci mancanti: INTRO1_N (ora provvisoria con il nome del prof), SP0, FINP1, PS2_4, PS3_4, COMPITI (una sola voce, nel testi_voci.json). NON e' REVISIONATA finche' non arrivano. Appena ci sono le voci, scrivimi un messaggio in DALLA_MASTER: le inserisco (circa 25 min) e rilancio i controlli. Mi fermo qui."
   }
  ],
  "materia": "Storia V",
  "lezione": "Lezione 20 · Gli anni Novanta: il mondo post-bipolare",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-23 07:58:45"
+ "aggiornato": "2026-11-23 09:21:15"
 }
