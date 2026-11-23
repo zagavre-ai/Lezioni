@@ -81,7 +81,11 @@
   {
    "quando": "23/11 01:22",
    "testo": "01:25 UTC: Parte 1 (50,0 min, 378 MB) e Parte 2 (58,5 min, 371 MB) rifatte dopo i due controlli separati; restano in attesa delle voci Kore (40 da generare, vedi voci_da_generare.json) e del controllo_severo finale. Nota: nel repo c'e' un ramo temporaneo 'tmp-test-lez18' (prova di push, 90 MB): non riesco a cancellarlo, lo puoi cancellare tu."
+  },
+  {
+   "quando": "23/11 03:26",
+   "testo": "03:30 UTC: Parte 1 (50,0 min, 378 MB) e Parte 2 (58,5 min, 371 MB) rifatte dopo il secondo controllo separato: controllo_severo OK su entrambe (prima della rifusione finale), -16,3/-16,4 LUFS. Terzo controllo in corso. Aspetto le voci Kore (dalle 9:00 italiane) per rimontare e consegnare."
   }
  ],
- "aggiornato": "2026-11-23 01:22:30"
+ "aggiornato": "2026-11-23 03:26:02"
 }
