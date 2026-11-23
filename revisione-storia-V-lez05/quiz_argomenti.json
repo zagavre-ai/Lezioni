@@ -1,6 +1,6 @@
 {
  "Q1": {
-  "title": "Quiz 1 · La crisi della Russia zarista",
+  "title": "Quiz · La crisi della Russia zarista",
   "items": [
    {
     "p": "Quale effetto ha la Prima guerra mondiale sull'Impero zarista?",
@@ -60,7 +60,7 @@
   ]
  },
  "Q2": {
-  "title": "Quiz 2 · La Rivoluzione di Febbraio (1917)",
+  "title": "Quiz · La Rivoluzione di febbraio (1917)",
   "items": [
    {
     "p": "Dove scoppia la Rivoluzione di febbraio?",
@@ -120,7 +120,7 @@
   ]
  },
  "Q3": {
-  "title": "Quiz 3 · Dualismo di potere e Lenin",
+  "title": "Quiz · Il dualismo di potere e il ritorno di Lenin",
   "items": [
    {
     "p": "Che cosa si intende per «dualismo di potere»?",
@@ -180,7 +180,7 @@
   ]
  },
  "Q4": {
-  "title": "Quiz 4 · Dalle giornate di luglio a Ottobre",
+  "title": "Quiz · Dalle giornate di luglio alla Rivoluzione di ottobre",
   "items": [
    {
     "p": "Che cosa provoca le «giornate di luglio»?",
@@ -240,7 +240,7 @@
   ]
  },
  "Q5": {
-  "title": "Quiz 5 · I primi provvedimenti bolscevichi",
+  "title": "Quiz · I primi provvedimenti bolscevichi e la svolta autoritaria",
   "items": [
    {
     "p": "Che cosa stabilisce il decreto sulla terra?",
@@ -300,7 +300,7 @@
   ]
  },
  "Q6": {
-  "title": "Quiz 6 · Brest-Litovsk e la guerra civile",
+  "title": "Quiz · Il trattato di Brest-Litovsk e la guerra civile",
   "items": [
    {
     "p": "Che cosa perde la Russia con il Trattato di Brest-Litovsk?",
@@ -360,7 +360,7 @@
   ]
  },
  "Q7": {
-  "title": "Quiz 7 · Il «Comunismo di guerra»",
+  "title": "Quiz · Il «comunismo di guerra»",
   "items": [
    {
     "p": "Perché i bolscevichi introducono il comunismo di guerra?",
@@ -420,7 +420,7 @@
   ]
  },
  "Q8": {
-  "title": "Quiz 8 · La Nuova Politica Economica (NEP)",
+  "title": "Quiz · La Nuova Politica Economica",
   "items": [
    {
     "p": "Chi si ribella a Kronstadt nel 1921?",
@@ -445,7 +445,7 @@
     "ref": "Chiedono libertà politiche ed elettorali e la fine delle requisizioni; la rivolta viene repressa."
    },
    {
-    "p": "Che cosa sostituisce le requisizioni con la NEP?",
+    "p": "Che cosa sostituisce le requisizioni con la Nuova politica economica?",
     "a": "Un'imposta fissa in natura",
     "w": [
      "Il lavoro obbligatorio",
@@ -463,11 +463,11 @@
      "Distruggerle",
      "Darle all'Armata rossa"
     ],
-    "e": "La NEP concede ai contadini la libertà di vendere le eccedenze.",
-    "ref": "La NEP concede ai contadini la libertà di vendere le eccedenze."
+    "e": "La Nuova politica economica concede ai contadini la libertà di vendere le eccedenze.",
+    "ref": "La Nuova politica economica concede ai contadini la libertà di vendere le eccedenze."
    },
    {
-    "p": "Quali «grandi leve» restano allo Stato con la NEP?",
+    "p": "Quali «grandi leve» restano allo Stato con la Nuova politica economica?",
     "a": "Industria pesante, banche e commercio estero",
     "w": [
      "Piccole imprese e botteghe",
@@ -480,10 +480,10 @@
   ]
  },
  "Q9": {
-  "title": "Quiz 9 · La nascita dell'URSS e la successione",
+  "title": "Quiz · La nascita dell'Unione Sovietica e la successione",
   "items": [
    {
-    "p": "Quando nasce ufficialmente l'URSS?",
+    "p": "Quando nasce ufficialmente l'Unione Sovietica?",
     "a": "Il 30 dicembre 1922",
     "w": [
      "Il 25 ottobre 1917",
@@ -494,7 +494,7 @@
     "ref": "L'Unione delle Repubbliche Socialiste Sovietiche nasce a fine 1922, con capitale Mosca."
    },
    {
-    "p": "Quale città è la capitale dell'URSS?",
+    "p": "Quale città è la capitale dell'Unione Sovietica?",
     "a": "Mosca",
     "w": [
      "Pietrogrado",
@@ -505,7 +505,7 @@
     "ref": "La capitale era stata spostata a Mosca già nel marzo 1918."
    },
    {
-    "p": "Quali repubbliche si uniscono alla Russia nell'URSS?",
+    "p": "Quali repubbliche si uniscono alla Russia nell'Unione Sovietica?",
     "a": "Ucraina, Bielorussia e Transcaucasia",
     "w": [
      "Finlandia, Polonia e Lituania",
@@ -516,7 +516,7 @@
     "ref": "La Transcaucasia comprende Armenia, Georgia e Azerbaigian."
    },
    {
-    "p": "Dove si trova il potere reale nell'URSS?",
+    "p": "Dove si trova il potere reale nell'Unione Sovietica?",
     "a": "Negli organi del Partito comunista a Mosca",
     "w": [
      "Nei soviet locali",

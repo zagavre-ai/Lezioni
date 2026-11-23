@@ -1,37 +1,36 @@
 {
  "materia": "Storia V",
- "titolo": "Storia V · Lezione 5 · La Rivoluzione russa e la nascita dell'URSS (1917-1922) · Parte 1",
- "descrizione": "Videolezione del prof. Giorgio Mazzotti sulla Rivoluzione russa: dalla crisi dello zarismo alla nascita dell'URSS.",
- "durata_s": 2673.2,
+ "titolo": "Storia V · La rivoluzione russa · Parte 1",
+ "durata_s": 2748.23,
  "argomenti": [
   {
    "n": 1,
    "titolo": "La crisi della Russia zarista",
-   "inizio_s": 222.367,
-   "quiz_s": 666.7
+   "inizio_s": 217.7,
+   "quiz_s": 702.867
   },
   {
    "n": 2,
-   "titolo": "La Rivoluzione di Febbraio (1917)",
-   "inizio_s": 671.7,
-   "quiz_s": 1298.1
+   "titolo": "La Rivoluzione di febbraio (1917)",
+   "inizio_s": 707.567,
+   "quiz_s": 1321.933
   },
   {
    "n": 3,
-   "titolo": "Dualismo di potere e Lenin",
-   "inizio_s": 1303.1,
-   "quiz_s": 1905.167
+   "titolo": "Il dualismo di potere e il ritorno di Lenin",
+   "inizio_s": 1326.633,
+   "quiz_s": 1915.633
   },
   {
    "n": 4,
-   "titolo": "Dalle giornate di luglio a Ottobre",
-   "inizio_s": 1910.167,
-   "quiz_s": 2570.233
+   "titolo": "Dalle giornate di luglio alla Rivoluzione di ottobre",
+   "inizio_s": 1920.333,
+   "quiz_s": 2633.3
   }
  ],
  "quiz": {
   "Q1": {
-   "title": "Quiz 1 · La crisi della Russia zarista",
+   "title": "Quiz · La crisi della Russia zarista",
    "items": [
     {
      "p": "Quale effetto ha la Prima guerra mondiale sull'Impero zarista?",
@@ -91,7 +90,7 @@
    ]
   },
   "Q2": {
-   "title": "Quiz 2 · La Rivoluzione di Febbraio (1917)",
+   "title": "Quiz · La Rivoluzione di febbraio (1917)",
    "items": [
     {
      "p": "Dove scoppia la Rivoluzione di febbraio?",
@@ -151,7 +150,7 @@
    ]
   },
   "Q3": {
-   "title": "Quiz 3 · Dualismo di potere e Lenin",
+   "title": "Quiz · Il dualismo di potere e il ritorno di Lenin",
    "items": [
     {
      "p": "Che cosa si intende per «dualismo di potere»?",
@@ -211,7 +210,7 @@
    ]
   },
   "Q4": {
-   "title": "Quiz 4 · Dalle giornate di luglio a Ottobre",
+   "title": "Quiz · Dalle giornate di luglio alla Rivoluzione di ottobre",
    "items": [
     {
      "p": "Che cosa provoca le «giornate di luglio»?",

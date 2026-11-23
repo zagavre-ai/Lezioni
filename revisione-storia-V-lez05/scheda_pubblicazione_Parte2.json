@@ -1,43 +1,42 @@
 {
  "materia": "Storia V",
- "titolo": "Storia V · Lezione 5 · La Rivoluzione russa e la nascita dell'URSS (1917-1922) · Parte 2",
- "descrizione": "Seconda parte della videolezione del prof. Giorgio Mazzotti: dai primi provvedimenti bolscevichi alla guerra civile, dalla NEP alla nascita dell'URSS.",
- "durata_s": 2100.367,
+ "titolo": "Storia V · La rivoluzione russa · Parte 2",
+ "durata_s": 2146.07,
  "argomenti": [
   {
    "n": 5,
-   "titolo": "I primi provvedimenti bolscevichi",
-   "inizio_s": 86.567,
-   "quiz_s": 450.833
+   "titolo": "I primi provvedimenti bolscevichi e la svolta autoritaria",
+   "inizio_s": 87.767,
+   "quiz_s": 450.933
   },
   {
    "n": 6,
-   "titolo": "Brest-Litovsk e la guerra civile",
-   "inizio_s": 455.833,
-   "quiz_s": 939.1
+   "titolo": "Il trattato di Brest-Litovsk e la guerra civile",
+   "inizio_s": 455.633,
+   "quiz_s": 948.867
   },
   {
    "n": 7,
-   "titolo": "Il «Comunismo di guerra»",
-   "inizio_s": 944.1,
-   "quiz_s": 1219.533
+   "titolo": "Il «comunismo di guerra»",
+   "inizio_s": 953.567,
+   "quiz_s": 1146.6
   },
   {
    "n": 8,
-   "titolo": "La Nuova Politica Economica (NEP)",
-   "inizio_s": 1224.533,
-   "quiz_s": 1591.5
+   "titolo": "La Nuova Politica Economica",
+   "inizio_s": 1151.3,
+   "quiz_s": 1550.833
   },
   {
    "n": 9,
-   "titolo": "La nascita dell'URSS e la successione",
-   "inizio_s": 1596.5,
-   "quiz_s": 1963.333
+   "titolo": "La nascita dell'Unione Sovietica e la successione",
+   "inizio_s": 1555.533,
+   "quiz_s": 1914.833
   }
  ],
  "quiz": {
   "Q5": {
-   "title": "Quiz 5 · I primi provvedimenti bolscevichi",
+   "title": "Quiz · I primi provvedimenti bolscevichi e la svolta autoritaria",
    "items": [
     {
      "p": "Che cosa stabilisce il decreto sulla terra?",
@@ -97,7 +96,7 @@
    ]
   },
   "Q6": {
-   "title": "Quiz 6 · Brest-Litovsk e la guerra civile",
+   "title": "Quiz · Il trattato di Brest-Litovsk e la guerra civile",
    "items": [
     {
      "p": "Che cosa perde la Russia con il Trattato di Brest-Litovsk?",
@@ -157,7 +156,7 @@
    ]
   },
   "Q7": {
-   "title": "Quiz 7 · Il «Comunismo di guerra»",
+   "title": "Quiz · Il «comunismo di guerra»",
    "items": [
     {
      "p": "Perché i bolscevichi introducono il comunismo di guerra?",
@@ -217,7 +216,7 @@
    ]
   },
   "Q8": {
-   "title": "Quiz 8 · La Nuova Politica Economica (NEP)",
+   "title": "Quiz · La Nuova Politica Economica",
    "items": [
     {
      "p": "Chi si ribella a Kronstadt nel 1921?",
@@ -242,7 +241,7 @@
      "ref": "Chiedono libertà politiche ed elettorali e la fine delle requisizioni; la rivolta viene repressa."
     },
     {
-     "p": "Che cosa sostituisce le requisizioni con la NEP?",
+     "p": "Che cosa sostituisce le requisizioni con la Nuova politica economica?",
      "a": "Un'imposta fissa in natura",
      "w": [
       "Il lavoro obbligatorio",
@@ -260,11 +259,11 @@
       "Distruggerle",
       "Darle all'Armata rossa"
      ],
-     "e": "La NEP concede ai contadini la libertà di vendere le eccedenze.",
-     "ref": "La NEP concede ai contadini la libertà di vendere le eccedenze."
+     "e": "La Nuova politica economica concede ai contadini la libertà di vendere le eccedenze.",
+     "ref": "La Nuova politica economica concede ai contadini la libertà di vendere le eccedenze."
     },
     {
-     "p": "Quali «grandi leve» restano allo Stato con la NEP?",
+     "p": "Quali «grandi leve» restano allo Stato con la Nuova politica economica?",
      "a": "Industria pesante, banche e commercio estero",
      "w": [
       "Piccole imprese e botteghe",
@@ -277,10 +276,10 @@
    ]
   },
   "Q9": {
-   "title": "Quiz 9 · La nascita dell'URSS e la successione",
+   "title": "Quiz · La nascita dell'Unione Sovietica e la successione",
    "items": [
     {
-     "p": "Quando nasce ufficialmente l'URSS?",
+     "p": "Quando nasce ufficialmente l'Unione Sovietica?",
      "a": "Il 30 dicembre 1922",
      "w": [
       "Il 25 ottobre 1917",
@@ -291,7 +290,7 @@
      "ref": "L'Unione delle Repubbliche Socialiste Sovietiche nasce a fine 1922, con capitale Mosca."
     },
     {
-     "p": "Quale città è la capitale dell'URSS?",
+     "p": "Quale città è la capitale dell'Unione Sovietica?",
      "a": "Mosca",
      "w": [
       "Pietrogrado",
@@ -302,7 +301,7 @@
      "ref": "La capitale era stata spostata a Mosca già nel marzo 1918."
     },
     {
-     "p": "Quali repubbliche si uniscono alla Russia nell'URSS?",
+     "p": "Quali repubbliche si uniscono alla Russia nell'Unione Sovietica?",
      "a": "Ucraina, Bielorussia e Transcaucasia",
      "w": [
       "Finlandia, Polonia e Lituania",
@@ -313,7 +312,7 @@
      "ref": "La Transcaucasia comprende Armenia, Georgia e Azerbaigian."
     },
     {
-     "p": "Dove si trova il potere reale nell'URSS?",
+     "p": "Dove si trova il potere reale nell'Unione Sovietica?",
      "a": "Negli organi del Partito comunista a Mosca",
      "w": [
       "Nei soviet locali",
