@@ -87,9 +87,9 @@ def main(parte,out):
             _,a,b,pre=build.PROF_CUT[nm];cues+=cues_prof(a,b,t0,a-pre)
         elif re.fullmatch(r'[AR]\d',nm):
             n=int(nm[1]);tv=1.0 if nm[0]=='A' else 2.4
-            txt=voci.per_voce(voci.VOCI[nm]);cues+=cues_voce(nm,t0,tv,txt)
+            txt=voci.VOCI[nm].replace('«','').replace('»','');cues+=cues_voce(nm,t0,tv,txt)
         elif nm in('SIG','FIN','CI'):pass
-        elif nm in voci.VOCI:cues+=cues_voce(nm,t0,TV.get(nm,1.0),voci.per_voce(voci.VOCI[nm]))
+        elif nm in voci.VOCI:cues+=cues_voce(nm,t0,TV.get(nm,1.0),voci.VOCI[nm].replace('«','').replace('»',''))
     cues=sorted(cues)
     # niente sovrapposizioni
     fixed=[]

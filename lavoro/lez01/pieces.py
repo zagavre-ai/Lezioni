@@ -18,9 +18,9 @@ def stati_slide(argn,a,b,pagine,titolo_arg):
         cards=s['cards'];pg=pagine[(argn,i)]
         times=[max(t0,c[0]) for c in cards]
         # intervalli: [t0,times0) -> -1 ; [times_k,times_k+1) -> k
-        bounds=[(t0,-1)]+[(times[k],k) for k in range(len(cards))]
+        bounds=[(t0,-1)]+[(times[k],k) for k in range(len(cards)) if times[k]<t1-0.5]
         for j,(tb,k) in enumerate(bounds):
-            te=bounds[j+1][0] if j+1<len(bounds) else t1
+            te=min(bounds[j+1][0],t1) if j+1<len(bounds) else t1
             if te<=tb:continue
             key=f"s{argn}_{i}_{k}"
             if not os.path.exists(ST+key+'.png'):render.slide(s,k,argn,titolo_arg,pg).convert('RGB').save(ST+key+'.png')

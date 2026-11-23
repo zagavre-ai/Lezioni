@@ -23,7 +23,7 @@ def pezzo_voce(name,layout,n,ev,tv,vpath,vdur,jingles=(),tail=1.2,pre_states=Non
         if nn<=0:continue
         st2.append((p,nn/FPS));acc+=nn
     v,D=video_stati(name,st2,bg=True,fade=fade)
-    parts=[(vpath,tv,0,0,None,25)]
+    parts=[(vpath,tv,0,0,None,25,30)]
     for wav,t,g,dd in jingles:parts.append((wav,t,g,0,dd,0))
     a=audio_pezzo(name,D,parts)
     return v,a,D
@@ -118,7 +118,7 @@ def approfondimento(n):
         nn=fr(d_) if i<len(states)-1 else tot-acc
         if nn>0:st2.append((p,nn/FPS));acc+=nn
     v,Dd=video_approf(vn,st2,art,(80,170,880,800),D)
-    a=audio_pezzo(vn,Dd,[(SND+'trans.wav',0,-6,0,1.0,0),(vp,tv,0,0,None,25)])
+    a=audio_pezzo(vn,Dd,[(SND+'trans.wav',0,-6,0,1.0,0),(vp,tv,0,0,None,25,30)])
     return v,a,Dd
 # ---------- copertina e elenco argomenti ----------
 ARGT=[a['titolo'] for a in piano.ARGOMENTI]
@@ -247,7 +247,7 @@ def mappa_finale():
         nn=fr(d_) if i<len(states)-1 else tot-acc
         if nn>0:st2.append((p,nn/FPS));acc+=nn
     v,Dd=video_stati('MF',st2,fade=(0.35,0.35))
-    a=audio_pezzo('MF',Dd,[(SND+'trans.wav',0,-6,0,1.0,0),(vp,tv,0,0,None,25),(SND+'repaso.wav',tv+vd+0.2,-6,0,3.3,0)])
+    a=audio_pezzo('MF',Dd,[(SND+'trans.wav',0,-6,0,1.0,0),(vp,tv,0,0,None,25,30),(SND+'repaso.wav',tv+vd+0.2,-6,0,3.3,0)])
     return v,a,Dd
 def verifica_card():
     im=blu.layer();blu.intestazione(im);d=ImageDraw.Draw(im)

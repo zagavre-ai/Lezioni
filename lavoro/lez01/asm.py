@@ -60,12 +60,14 @@ def audio_pezzo(name,D,parts,fade_ms=30):
     """parts: [(wav_path, t_inizio_nel_pezzo, gain_db, taglio_inizio_s, taglio_durata_s|None, fade_in_ms)] -> wav stereo 48k di durata esatta D"""
     out=CL+name+'.wav';ins=[];fl=[]
     for i,pt in enumerate(parts):
-        p,t0,g,ss,dd,fi=(list(pt)+[0,None,fade_ms])[:6] if len(pt)<6 else pt
+        pt=list(pt)+[None]*(7-len(pt)) if len(pt)<7 else list(pt);p,t0,g,ss,dd,fi,fo=pt
         ins+=['-i',p]
         chain=f"[{i}:a]aformat=sample_rates=48000:channel_layouts=stereo"
         if ss or dd:chain+=f",atrim=start={ss}"+(f":duration={dd}" if dd else "")+",asetpts=PTS-STARTPTS"
         if g:chain+=f",volume={g}dB"
         if fi:chain+=f",afade=t=in:st=0:d={fi/1000}"
+        if fo:
+            dv=(dd or dur_wav(p))-ss;chain+=f",afade=t=out:st={dv-fo/1000:.4f}:d={fo/1000}"
         chain+=f",adelay={int(t0*1000)}|{int(t0*1000)}[a{i}]"
         fl.append(chain)
     n=len(parts)
@@ -77,7 +79,7 @@ def audio_pezzo(name,D,parts,fade_ms=30):
     return out
 def voce(nome,testo=None):
     """percorso della voce Kore se c'e', altrimenti voce provvisoria (silenzio, durata stimata dal testo). Ritorna (path, durata, provvisoria)."""
-    real=f'/home/user/Lezioni/scambio_voci/vox/NC_{nome}.wav'
+    real=WK+f'vox16/NC_{nome}.wav'
     if os.path.exists(real):return real,dur_wav(real),False
     p=WK+f'prov/NC_{nome}.wav'
     if not os.path.exists(p):
