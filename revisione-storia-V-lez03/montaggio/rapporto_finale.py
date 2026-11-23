@@ -31,10 +31,8 @@ for n in (1, 2):
     w("")
 w("## 6. Voci")
 w("- **Voci Kore vere (già generate dalla master e riusate):** approfondimenti AN1–AN22 (AN1 accorciata a fine frase: 53,1 s invece di 68 s, per restare entro 60 s), ripassi R1–R5, pillole PIL1–PIL11, schemi PS, glossari GL1–2, ripassi finali RF1–2, FIN1–2.")
-if STATO == 'provvisorio':
-    w("- **Voci ancora PROVVISORIE (sintetiche, da sostituire domattina):** BEN_R2 (benvenuto senza nome), SPG_0 (apertura spiegone), DIC_1 e DIC_2 («Di cosa parliamo»), MP1_1–7, MP2_1–6, MP3_1–7 (mappe nodo per nodo), CMP_1 (compiti). Testi inviati alla master sul ramo `voci-storia-V-lez03` (`testi_voci.json`). **La lezione non è consegnabile finché queste voci non sono sostituite e controllate** (trascrizione, numeri, bordi sotto 0,03).")
-else:
-    w("- Voci nuove: vedi sezione 7.")
+w("- **Voci nuove, ora vere Kore (ricevute dalla master il 22/11 sera) e montate:** BEN_R2, SPG_0, DIC_1, DIC_2, MP1_1–7, MP2_1–6, MP3_1–7, CMP_1. Controllate (M): trascrizione confrontata col testo (numeri compresi) con concordanza 0,86–1,00 (le 3 sotto 0,95 differiscono solo per «Giolitti»/«imprime» scritti diversamente dal riconoscitore), ampiezza negli ultimi 50 ms e nei primi sotto 0,03 su tutte, nessuna troncata. Pronuncia dei nomi non riascoltata a orecchio (NV). Elenco in `check_voci.txt` non incluso: vedi sopra.")
+w("- **Voci rimaste da rifare (testo con la sigla spiegata):** AN21 (PSI), R5 (INA), AN16 e R8 (Fiat): a voce la sigla non è spiegata, sullo schermo sì. Chiesto alla master.")
 w("- Il testo delle voci nuove usa solo parole del prof; nessuna voce o scheda nomina il prof (c'è solo la fascia gialla). Alcuni approfondimenti AN dicono «il docente» (non il nome).")
 w("")
 w("## 7. Cose che non tornano / limiti / NON verificato")
