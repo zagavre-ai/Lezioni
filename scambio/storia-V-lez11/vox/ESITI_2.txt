@@ -1,7 +1,1 @@
-MP1 OK frasi trovate 1 / 1 parole diverse 4 (vere 4) tentativi 1
-MP4 DA CONTROLLARE frasi trovate 1 / 1 parole diverse 2 (vere 33) tentativi 1
-COMP2 OK frasi trovate 1 / 1 parole diverse 7 (vere 0) tentativi 1
-R4_R2 OK frasi trovate 1 / 1 parole diverse 1 (vere 1) tentativi 1
-SC6_2_R2 OK frasi trovate 1 / 1 parole diverse 1 (vere 0) tentativi 1
-SC6_4_R2 OK frasi trovate 1 / 1 parole diverse 3 (vere 2) tentativi 1
-MP4 DA CONTROLLARE durata fuori misura
+MP4_R2 OK frasi trovate 1 / 1 parole diverse 2 (vere 4) tentativi 1
