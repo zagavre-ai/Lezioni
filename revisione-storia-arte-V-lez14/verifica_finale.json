@@ -1,0 +1,105 @@
+{
+ "titolo": "Verifica finale · Storia dell'arte V · I nuovi realismi",
+ "domande": [
+  {
+   "n": 1,
+   "p": "In quale città tedesca venne organizzata nel 1937 la mostra d'arte censurata dal regime nazista intitolata \"Arte degenerata\" (Entartete Kunst)?",
+   "a": "Monaco di Baviera",
+   "w": [
+    "Berlino",
+    "Dresda",
+    "Mannheim"
+   ]
+  },
+  {
+   "n": 2,
+   "p": "Quale celebre trittico pittorico di Otto Dix del 1927-1928 esprime una critica spietata e satirica nei confronti della società borghese tedesca del tempo?",
+   "a": "Metropolis",
+   "w": [
+    "Guernica",
+    "American Gothic",
+    "Nighthawks"
+   ]
+  },
+  {
+   "n": 3,
+   "p": "Quale pittore della Nuova Oggettività ha realizzato nel 1927 l'indagine psicologica intitolata \"Autoritratto in smoking\"?",
+   "a": "Max Beckmann",
+   "w": [
+    "George Grosz",
+    "Otto Dix",
+    "Christian Schad"
+   ]
+  },
+  {
+   "n": 4,
+   "p": "A quale tragico evento storico è legata la genesi del capolavoro \"Guernica\" dipinto da Pablo Picasso nel 1937?",
+   "a": "Al bombardamento dell'omonima città basca da parte dell'aviazione militare tedesca a sostegno del generale Franco",
+   "w": [
+    "Alla crisi economica globale causata dal crollo della borsa di Wall Street nel 1929",
+    "Alla censura culturale imposta dalla Camera della Cultura del Reich in Germania",
+    "Alla rivoluzione agraria delle comunità contadine messicane guidata da Zapata"
+   ]
+  },
+  {
+   "n": 5,
+   "p": "Quali sono i leader storici della rivoluzione contadina messicana menzionati come radice e ispirazione ideale del movimento muralista e della \"messicanità\"?",
+   "a": "Emiliano Zapata e Pancho Villa",
+   "w": [
+    "Diego Rivera e David Alfaro Siqueiros",
+    "José Clemente Orozco e Modigliani",
+    "Walker Evans e Dorothea Lange"
+   ]
+  },
+  {
+   "n": 6,
+   "p": "Nel dipinto \"La colonna spezzata\" di Frida Kahlo, quale elemento architettonico viene utilizzato per rappresentare visivamente la spina dorsale lesionata dell'artista?",
+   "a": "Una colonna ionica classica in rovina, spaccata in più punti",
+   "w": [
+    "Un pilastro d'acciaio che richiama la struttura dei moderni grattacieli di New York",
+    "Un muro di cemento decorato con motivi geometrici dell'arte precolombiana",
+    "Una trave metallica divelta proveniente dall'incidente in autobus subìto dall'artista"
+   ]
+  },
+  {
+   "n": 7,
+   "p": "Come si chiamavano i principali programmi federali statunitensi che, all'interno del New Deal, finanziarono migliaia di artisti per realizzare opere pubbliche durante la Grande depressione?",
+   "a": "Public Works of Art Project e Federal Art Project",
+   "w": [
+    "Farm Security Administration e Straight Photography",
+    "Ashcan School e American Scene Painting",
+    "Chrysler Building Foundation e Empire State Art Project"
+   ]
+  },
+  {
+   "n": 8,
+   "p": "Quale pittore ed esponente del \"precisionismo\" americano ha realizzato nel 1930 l'opera \"American Landscape\", caratterizzata da una composizione nitida e geometrica di impianti industriali?",
+   "a": "Charles Sheeler",
+   "w": [
+    "Grant Wood",
+    "Edward Hopper",
+    "William Gropper"
+   ]
+  },
+  {
+   "n": 9,
+   "p": "Quale regista cinematografico italiano ha omaggiato esplicitamente la composizione e l'atmosfera del quadro \"Nighthawks\" di Edward Hopper in una celebre scena di un suo film?",
+   "a": "Dario Argento nel film \"Profondo rosso\"",
+   "w": [
+    "Federico Fellini nel film \"La dolce vita\"",
+    "Luchino Visconti nel film \"Ossessione\"",
+    "Sergio Leone nel film \"C'era una volta in America\""
+   ]
+  },
+  {
+   "n": 10,
+   "p": "Qual è il nome della donna e madre di sette figli che Dorothea Lange fotografò a Nipomo nel 1936, diventando il simbolo universale della \"Madre migrante\"?",
+   "a": "Florence Owens Thompson",
+   "w": [
+    "Sylvia von Harden",
+    "Dora Maar",
+    "Josephine Nivison"
+   ]
+  }
+ ]
+}
