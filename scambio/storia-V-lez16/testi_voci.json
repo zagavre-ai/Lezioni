@@ -435,22 +435,6 @@
   "testo": "Ora la verifica finale. Per continuare serve almeno l'ottanta per cento di risposte corrette."
  },
  {
-  "nome": "CO1",
-  "testo": "Compito uno. Quali fattori economici favorirono l'età del benessere nei paesi occidentali durante gli anni Sessanta e quali furono le principali trasformazioni sociali e demografiche che ne derivarono?"
- },
- {
-  "nome": "CO2",
-  "testo": "Compito due. Quali furono gli obiettivi principali del programma della «Nuova Frontiera» di John F. Kennedy e quali leggi fondamentali vennero approvate durante la presidenza di Lyndon Johnson per tutelare i diritti civili della popolazione afroamericana?"
- },
- {
-  "nome": "CO3",
-  "testo": "Compito tre. Quali furono i principali momenti di tensione della guerra fredda nel corso degli anni Sessanta e come si sviluppò il confronto tra Stati Uniti e Unione Sovietica nella corsa allo spazio?"
- },
- {
-  "nome": "CO4",
-  "testo": "Compito quattro. Contro quali aspetti della società insorsero i movimenti di contestazione del Sessantotto, quali furono le principali rivendicazioni del movimento femminista e quale fu il bilancio storico di queste proteste?"
- },
- {
   "nome": "GL1_R2",
   "testo": "Le parole chiave della lezione. Baby boom: il forte aumento delle nascite. Welfare State: lo Stato che garantisce a tutti servizi come scuola e sanità. Nuova Frontiera: il programma politico di Kennedy. Great Society: le riforme di Johnson contro povertà e ingiustizia. Destalinizzazione: il distacco dall'epoca di Stalin, avviato da Chruščëv. Dottrina Brežnev: il controllo rigido e repressivo sul blocco sovietico."
  },
@@ -473,5 +457,9 @@
  {
   "nome": "RV5_4_R2",
   "testo": "Il Vietnam del Nord e il Vietnam del Sud, divisi dal diciassettesimo parallelo."
+ },
+ {
+  "nome": "COMPITI_R2",
+  "testo": "Compito uno. Quali fattori economici favorirono l'età del benessere nei paesi occidentali durante gli anni Sessanta e quali furono le principali trasformazioni sociali e demografiche che ne derivarono? Compito due. Quali furono gli obiettivi principali del programma della «Nuova Frontiera» di John F. Kennedy e quali leggi fondamentali vennero approvate durante la presidenza di Lyndon Johnson per tutelare i diritti civili della popolazione afroamericana? Compito tre. Quali furono i principali momenti di tensione della guerra fredda nel corso degli anni Sessanta e come si sviluppò il confronto tra Stati Uniti e Unione Sovietica nella corsa allo spazio? Compito quattro. Contro quali aspetti della società insorsero i movimenti di contestazione del Sessantotto, quali furono le principali rivendicazioni del movimento femminista e quale fu il bilancio storico di queste proteste? Svolgi i compiti qui sotto e premi Consegna: arrivano al docente nel tuo quaderno dei compiti."
  }
 ]
