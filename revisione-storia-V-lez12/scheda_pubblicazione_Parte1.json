@@ -1,312 +1,251 @@
 {
- "materia": "Storia V",
- "titolo": "Storia V · Lezione 20 · Gli anni Novanta, il mondo post-bipolare · Parte 1",
- "durata_s": 1981.633,
+ "materia": "Storia",
+ "titolo": "Storia V · Lezione 12 · L'Europa e il mondo negli anni Trenta · Parte 1",
+ "durata_s": 2473.77,
  "argomenti": [
   {
    "n": 1,
-   "titolo": "Il Regno Unito negli anni Trenta",
-   "inizio_s": 223.1,
-   "quiz_s": 658.767
+   "titolo": "Francia e Gran Bretagna tra le due guerre",
+   "inizio_s": 224.3,
+   "quiz_s": 876.7
   },
   {
    "n": 2,
-   "titolo": "La Francia e il Fronte popolare",
-   "inizio_s": 663.767,
-   "quiz_s": 946.267
+   "titolo": "Dittature e autoritarismi in Europa ed extra-Europa",
+   "inizio_s": 880.9,
+   "quiz_s": 1504.767
   },
   {
    "n": 3,
-   "titolo": "Le dittature dell'Europa orientale",
-   "inizio_s": 951.267,
-   "quiz_s": 1224.567
+   "titolo": "L'espansionismo asiatico e la Cina divisa",
+   "inizio_s": 1508.967,
+   "quiz_s": 1695.3
   },
   {
    "n": 4,
-   "titolo": "La penisola iberica",
-   "inizio_s": 1229.567,
-   "quiz_s": 1545.7
-  },
-  {
-   "n": 5,
-   "titolo": "L'autoritarismo fuori dall'Europa",
-   "inizio_s": 1550.7,
-   "quiz_s": 1863.6
+   "titolo": "La guerra civile spagnola (1936-1939)",
+   "inizio_s": 1699.5,
+   "quiz_s": 2464.567
   }
  ],
  "quiz": {
   "Q1": {
-   "title": "Quiz 1 · Il Regno Unito negli anni Trenta",
+   "title": "Quiz 1 · Francia e Gran Bretagna tra le due guerre",
    "items": [
-    {
-     "p": "Che cosa colpisce l'economia britannica alla fine degli anni Venti?",
-     "a": "Il crollo di Wall Street del 1929",
-     "w": [
-      "La guerra di Spagna",
-      "La conquista dell'Etiopia",
-      "La Lunga marcia"
-     ],
-     "e": "La crisi del 1929 arriva anche a Londra."
-    },
-    {
-     "p": "Quale partito vince le elezioni britanniche del maggio 1929?",
-     "a": "Il Partito laburista di Ramsay MacDonald",
-     "w": [
-      "Il Partito conservatore di Chamberlain",
-      "La British Union of Fascists",
-      "Il Partito comunista"
-     ],
-     "e": "MacDonald deve poi affrontare una gravissima depressione."
-    },
-    {
-     "p": "Che cosa fa il governo di unità nazionale per arginare la crisi?",
-     "a": "Taglia i sussidi e svaluta la sterlina",
-     "w": [
-      "Nazionalizza tutte le industrie",
-      "Chiude il Parlamento",
-      "Dichiara guerra alla Germania"
-     ],
-     "e": "Abbandona anche il gold standard."
-    },
-    {
-     "p": "Chi fonda la British Union of Fascists?",
-     "a": "Oswald Mosley",
-     "w": [
-      "Neville Chamberlain",
-      "Ramsay MacDonald",
-      "Léon Blum"
-     ],
-     "e": "Il movimento ottiene però poco consenso."
-    },
     {
      "p": "Che cosa nasce nel 1931 con lo Statuto di Westminster?",
      "a": "Il Commonwealth",
      "w": [
-      "La Società delle Nazioni",
-      "Il Fronte popolare",
-      "L'Asse Roma-Berlino"
+      "L'Estado Novo",
+      "Il Fronte Popolare",
+      "La British Union of Fascists"
      ],
-     "e": "I domini ottengono più autonomia."
+     "e": "Risposta corretta: Il Commonwealth."
+    },
+    {
+     "p": "Che cosa fonda Oswald Mosley?",
+     "a": "La British Union of Fascists",
+     "w": [
+      "Il Commonwealth",
+      "La Croix de Feu",
+      "Il Guomindang"
+     ],
+     "e": "Risposta corretta: La British Union of Fascists."
+    },
+    {
+     "p": "Quale divieto limita i movimenti fascisti inglesi nel 1936?",
+     "a": "Indossare uniformi politiche",
+     "w": [
+      "Fondare partiti",
+      "Votare alle elezioni",
+      "Parlare in pubblico"
+     ],
+     "e": "Risposta corretta: Indossare uniformi politiche."
+    },
+    {
+     "p": "Chi guida il Fronte Popolare vincitore delle elezioni del 1936 in Francia?",
+     "a": "Léon Blum",
+     "w": [
+      "Ramsay MacDonald",
+      "Oswald Mosley",
+      "Neville Chamberlain"
+     ],
+     "e": "Risposta corretta: Léon Blum."
+    },
+    {
+     "p": "Quali riforme introduce il Fronte Popolare?",
+     "a": "Settimana di 40 ore e ferie retribuite",
+     "w": [
+      "Nazionalizzazione delle banche",
+      "Abolizione dei sindacati",
+      "Dittatura militare"
+     ],
+     "e": "Risposta corretta: Settimana di 40 ore e ferie retribuite."
     }
    ]
   },
   "Q2": {
-   "title": "Quiz 2 · La Francia e il Fronte popolare",
+   "title": "Quiz 2 · Dittature e autoritarismi in Europa ed extra-Europa",
    "items": [
     {
-     "p": "Come arriva in Francia la crisi del 1929?",
-     "a": "Più tardi, ma in modo prolungato",
+     "p": "Chi instaura un regime autoritario in Polonia nel 1926?",
+     "a": "Józef Piłsudski",
      "w": [
-      "Prima che negli Stati Uniti",
-      "Non arriva affatto",
-      "Solo nelle colonie"
+      "Miklós Horthy",
+      "Metaxas",
+      "Salazar"
      ],
-     "e": "Calano la produzione e il credito, e cresce l'instabilità."
+     "e": "Risposta corretta: Józef Piłsudski."
     },
     {
-     "p": "Che cosa sono le Croix-de-Feu?",
-     "a": "Un gruppo paramilitare di estrema destra",
+     "p": "In quale Paese Salazar avvia l'Estado Novo?",
+     "a": "Portogallo",
      "w": [
-      "Un partito socialista",
-      "Un sindacato cattolico",
-      "Un'alleanza militare"
+      "Spagna",
+      "Grecia",
+      "Romania"
      ],
-     "e": "Si ispirano al fascismo, ma hanno poco consenso."
+     "e": "Risposta corretta: Portogallo."
     },
     {
-     "p": "Chi forma il Fronte popolare in Francia?",
-     "a": "Socialisti, comunisti e radicali",
+     "p": "Chi governa il Brasile con un regime populista?",
+     "a": "Getúlio Vargas",
      "w": [
-      "Conservatori e monarchici",
-      "Fascisti e nazionalisti",
-      "Solo i comunisti"
-     ],
-     "e": "L'obiettivo è difendere la democrazia."
-    },
-    {
-     "p": "Chi guida il governo del Fronte popolare nel 1936?",
-     "a": "Il socialista Léon Blum",
-     "w": [
-      "Ramsay MacDonald",
       "Francisco Franco",
-      "Oswald Mosley"
+      "Pu Yi",
+      "Béla Kun"
      ],
-     "e": "Il Fronte popolare vince le elezioni del 1936."
+     "e": "Risposta corretta: Getúlio Vargas."
     },
     {
-     "p": "Quale riforma introduce il Fronte popolare?",
-     "a": "La settimana lavorativa di 40 ore",
+     "p": "Quale ammiraglio instaura una dittatura in Ungheria?",
+     "a": "Miklós Horthy",
      "w": [
-      "Il voto ai soli proprietari",
-      "L'abolizione dei sindacati",
-      "La coscrizione obbligatoria"
+      "Józef Piłsudski",
+      "Carlo II",
+      "Alessandro I"
      ],
-     "e": "Arrivano anche i contratti collettivi e le ferie pagate."
+     "e": "Risposta corretta: Miklós Horthy."
+    },
+    {
+     "p": "Quale regime si afferma in Giappone?",
+     "a": "Autoritario e militarista",
+     "w": [
+      "Repubblicano e pacifista",
+      "Comunista",
+      "Populista"
+     ],
+     "e": "Risposta corretta: Autoritario e militarista."
     }
    ]
   },
   "Q3": {
-   "title": "Quiz 3 · Le dittature dell'Europa orientale",
+   "title": "Quiz 3 · L'espansionismo asiatico e la Cina divisa",
    "items": [
     {
-     "p": "Chi instaura una dittatura in Ungheria?",
-     "a": "L'ammiraglio Miklós Horthy",
+     "p": "Quale regione cinese occupa il Giappone nel 1931?",
+     "a": "La Manciuria",
      "w": [
-      "Béla Kun",
-      "Józef Piłsudski",
-      "Ioannis Metaxas"
+      "Lo Shaanxi",
+      "Shanghai",
+      "Pechino"
      ],
-     "e": "Horthy rovescia la repubblica sovietica di Béla Kun."
+     "e": "Risposta corretta: La Manciuria."
     },
     {
-     "p": "Come prende il potere Piłsudski in Polonia nel 1926?",
-     "a": "Con un colpo di Stato",
+     "p": "Come si chiama lo Stato fantoccio creato dal Giappone?",
+     "a": "Manchukuo",
      "w": [
-      "Vincendo le elezioni",
-      "Con un plebiscito",
-      "Ereditando il trono"
+      "Guomindang",
+      "Shaanxi",
+      "Qing"
      ],
-     "e": "Governa poi in modo autoritario fino alla morte, nel 1935."
+     "e": "Risposta corretta: Manchukuo."
     },
     {
-     "p": "Che cosa fa il re Alessandro I di Jugoslavia nel 1929?",
-     "a": "Abolisce la Costituzione",
+     "p": "Chi guida lo Stato fantoccio del Manchukuo?",
+     "a": "Pu Yi, ultimo imperatore Qing",
      "w": [
-      "Concede il suffragio universale",
-      "Fugge dal Paese",
-      "Si allea con la Francia"
+      "Chiang Kai-shek",
+      "Mao Zedong",
+      "Hirohito"
      ],
-     "e": "La monarchia diventa una dittatura."
+     "e": "Risposta corretta: Pu Yi, ultimo imperatore Qing."
     },
     {
-     "p": "Chi instaura una dittatura militare in Grecia nel 1936?",
-     "a": "Il generale Ioannis Metaxas",
+     "p": "Quali sono le due forze della guerra civile cinese?",
+     "a": "Nazionalisti del Guomindang e comunisti",
      "w": [
-      "Il re Carlo II",
-      "L'ammiraglio Horthy",
-      "Il generale Franco"
+      "Monarchici e repubblicani",
+      "Giapponesi e russi",
+      "Fascisti e socialisti"
      ],
-     "e": "Anche la Grecia, che è una monarchia, sperimenta la dittatura."
+     "e": "Risposta corretta: Nazionalisti del Guomindang e comunisti."
     },
     {
-     "p": "Secondo il docente, che cosa hanno in comune questi regimi?",
-     "a": "Sono regimi militari e nazionalisti di estrema destra",
+     "p": "Quanti chilometri è lunga la Lunga marcia?",
+     "a": "10.000",
      "w": [
-      "Sono tutti comunisti",
-      "Sono democrazie parlamentari",
-      "Sono colonie britanniche"
+      "1.000",
+      "100",
+      "50.000"
      ],
-     "e": "Non si rifanno in modo esplicito al fascismo."
+     "e": "Risposta corretta: 10.000."
     }
    ]
   },
   "Q4": {
-   "title": "Quiz 4 · La penisola iberica",
+   "title": "Quiz 4 · La guerra civile spagnola (1936-1939)",
    "items": [
     {
-     "p": "Da quando si afferma in Portogallo un regime dittatoriale?",
-     "a": "Dal 1926",
+     "p": "Quando nasce la Repubblica in Spagna?",
+     "a": "Nel 1931",
      "w": [
-      "Dal 1945",
-      "Dal 1910",
-      "Dal 1939"
+      "Nel 1919",
+      "Nel 1939",
+      "Nel 1926"
      ],
-     "e": "Il regime si afferma passo dopo passo."
+     "e": "Risposta corretta: Nel 1931."
     },
     {
-     "p": "Come si chiama il regime di Salazar?",
-     "a": "Estado Novo",
+     "p": "Chi guida il colpo di Stato militare del luglio 1936?",
+     "a": "Francisco Franco",
      "w": [
-      "Fronte popolare",
-      "Commonwealth",
-      "Falange"
+      "Léon Blum",
+      "Józef Piłsudski",
+      "Getúlio Vargas"
      ],
-     "e": "È uno Stato nazionalista, corporativo e dittatoriale."
+     "e": "Risposta corretta: Francisco Franco."
     },
     {
-     "p": "A quale modello si ispira il Portogallo di Salazar?",
-     "a": "Al fascismo italiano corporativo",
+     "p": "Quale città è bombardata nel 1937?",
+     "a": "Guernica",
      "w": [
-      "Al comunismo sovietico",
-      "Alla democrazia britannica",
-      "All'impero giapponese"
+      "Madrid",
+      "Barcellona",
+      "Praga"
      ],
-     "e": "Lo Stato organizza l'economia dall'alto."
+     "e": "Risposta corretta: Guernica."
     },
     {
-     "p": "Che cosa accade in Spagna nel 1931?",
-     "a": "Il re lascia il Paese e nasce la Seconda Repubblica",
+     "p": "Quale scelta fanno Francia e Gran Bretagna?",
+     "a": "Il non intervento",
      "w": [
-      "Franco prende il potere",
-      "Inizia la guerra civile",
-      "La Spagna occupa il Portogallo"
+      "L'aiuto a Franco",
+      "L'aiuto alla Repubblica",
+      "L'invasione della Spagna"
      ],
-     "e": "Nel 1930 era caduta la dittatura di Primo de Rivera."
+     "e": "Risposta corretta: Il non intervento."
     },
     {
-     "p": "Chi si oppone alle riforme della Repubblica spagnola?",
-     "a": "Conservatori, Chiesa cattolica e forze armate",
+     "p": "Come si chiamano i volontari antifascisti per la Repubblica?",
+     "a": "Brigate internazionali",
      "w": [
-      "Socialisti e comunisti",
-      "Le Brigate internazionali",
-      "L'Unione Sovietica"
+      "Camicie Nere",
+      "Falange",
+      "Guomindang"
      ],
-     "e": "Le riforme hanno uno stampo socialcomunista."
-    }
-   ]
-  },
-  "Q5": {
-   "title": "Quiz 5 · L'autoritarismo fuori dall'Europa",
-   "items": [
-    {
-     "p": "Perché la crisi del 1929 colpisce duramente l'America Latina?",
-     "a": "Perché le economie si basano sull'esportazione agricola",
-     "w": [
-      "Perché non c'è agricoltura",
-      "Perché è in guerra con gli Stati Uniti",
-      "Perché è governata dal Giappone"
-     ],
-     "e": "La crisi provoca colpi di Stato e guerre civili."
-    },
-    {
-     "p": "Chi crea in Brasile un regime populista e autoritario?",
-     "a": "Getúlio Vargas",
-     "w": [
-      "Hipólito Yrigoyen",
-      "Salazar",
-      "Chiang Kai-shek"
-     ],
-     "e": "Il suo regime si chiama anch'esso Estado Novo."
-    },
-    {
-     "p": "Che cosa fa il Giappone nel 1931?",
-     "a": "Occupa la Manciuria e crea il Manciukuò",
-     "w": [
-      "Firma la pace con la Cina",
-      "Diventa una democrazia",
-      "Invade l'Australia"
-     ],
-     "e": "Il Manciukuò è uno Stato fantoccio."
-    },
-    {
-     "p": "Chi si combatte nella guerra civile cinese?",
-     "a": "I nazionalisti di Chiang Kai-shek e i comunisti di Mao Zedong",
-     "w": [
-      "Giapponesi e coreani",
-      "Inglesi e francesi",
-      "Monarchici e repubblicani spagnoli"
-     ],
-     "e": "Mao guida la Lunga marcia nel 1934-1935."
-    },
-    {
-     "p": "Che cosa fanno nazionalisti e comunisti cinesi dopo l'invasione giapponese del 1937?",
-     "a": "Firmano una tregua contro l'invasore",
-     "w": [
-      "Si arrendono al Giappone",
-      "Si alleano con il Giappone",
-      "Lasciano la Cina"
-     ],
-     "e": "I contrasti riprenderanno dopo la Seconda guerra mondiale."
+     "e": "Risposta corretta: Brigate internazionali."
     }
    ]
   }

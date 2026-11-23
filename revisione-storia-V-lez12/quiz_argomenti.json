@@ -1,496 +1,331 @@
 {
  "Q1": {
-  "title": "Quiz 1 · Il Regno Unito negli anni Trenta",
+  "title": "Quiz 1 · Francia e Gran Bretagna tra le due guerre",
   "items": [
-   {
-    "p": "Che cosa colpisce l'economia britannica alla fine degli anni Venti?",
-    "a": "Il crollo di Wall Street del 1929",
-    "w": [
-     "La guerra di Spagna",
-     "La conquista dell'Etiopia",
-     "La Lunga marcia"
-    ],
-    "e": "La crisi del 1929 arriva anche a Londra."
-   },
-   {
-    "p": "Quale partito vince le elezioni britanniche del maggio 1929?",
-    "a": "Il Partito laburista di Ramsay MacDonald",
-    "w": [
-     "Il Partito conservatore di Chamberlain",
-     "La British Union of Fascists",
-     "Il Partito comunista"
-    ],
-    "e": "MacDonald deve poi affrontare una gravissima depressione."
-   },
-   {
-    "p": "Che cosa fa il governo di unità nazionale per arginare la crisi?",
-    "a": "Taglia i sussidi e svaluta la sterlina",
-    "w": [
-     "Nazionalizza tutte le industrie",
-     "Chiude il Parlamento",
-     "Dichiara guerra alla Germania"
-    ],
-    "e": "Abbandona anche il gold standard."
-   },
-   {
-    "p": "Chi fonda la British Union of Fascists?",
-    "a": "Oswald Mosley",
-    "w": [
-     "Neville Chamberlain",
-     "Ramsay MacDonald",
-     "Léon Blum"
-    ],
-    "e": "Il movimento ottiene però poco consenso."
-   },
    {
     "p": "Che cosa nasce nel 1931 con lo Statuto di Westminster?",
     "a": "Il Commonwealth",
     "w": [
-     "La Società delle Nazioni",
-     "Il Fronte popolare",
-     "L'Asse Roma-Berlino"
+     "L'Estado Novo",
+     "Il Fronte Popolare",
+     "La British Union of Fascists"
     ],
-    "e": "I domini ottengono più autonomia."
+    "e": "Risposta corretta: Il Commonwealth."
+   },
+   {
+    "p": "Che cosa fonda Oswald Mosley?",
+    "a": "La British Union of Fascists",
+    "w": [
+     "Il Commonwealth",
+     "La Croix de Feu",
+     "Il Guomindang"
+    ],
+    "e": "Risposta corretta: La British Union of Fascists."
+   },
+   {
+    "p": "Quale divieto limita i movimenti fascisti inglesi nel 1936?",
+    "a": "Indossare uniformi politiche",
+    "w": [
+     "Fondare partiti",
+     "Votare alle elezioni",
+     "Parlare in pubblico"
+    ],
+    "e": "Risposta corretta: Indossare uniformi politiche."
+   },
+   {
+    "p": "Chi guida il Fronte Popolare vincitore delle elezioni del 1936 in Francia?",
+    "a": "Léon Blum",
+    "w": [
+     "Ramsay MacDonald",
+     "Oswald Mosley",
+     "Neville Chamberlain"
+    ],
+    "e": "Risposta corretta: Léon Blum."
+   },
+   {
+    "p": "Quali riforme introduce il Fronte Popolare?",
+    "a": "Settimana di 40 ore e ferie retribuite",
+    "w": [
+     "Nazionalizzazione delle banche",
+     "Abolizione dei sindacati",
+     "Dittatura militare"
+    ],
+    "e": "Risposta corretta: Settimana di 40 ore e ferie retribuite."
    }
   ]
  },
  "Q2": {
-  "title": "Quiz 2 · La Francia e il Fronte popolare",
+  "title": "Quiz 2 · Dittature e autoritarismi in Europa ed extra-Europa",
   "items": [
    {
-    "p": "Come arriva in Francia la crisi del 1929?",
-    "a": "Più tardi, ma in modo prolungato",
+    "p": "Chi instaura un regime autoritario in Polonia nel 1926?",
+    "a": "Józef Piłsudski",
     "w": [
-     "Prima che negli Stati Uniti",
-     "Non arriva affatto",
-     "Solo nelle colonie"
+     "Miklós Horthy",
+     "Metaxas",
+     "Salazar"
     ],
-    "e": "Calano la produzione e il credito, e cresce l'instabilità."
+    "e": "Risposta corretta: Józef Piłsudski."
    },
    {
-    "p": "Che cosa sono le Croix-de-Feu?",
-    "a": "Un gruppo paramilitare di estrema destra",
+    "p": "In quale Paese Salazar avvia l'Estado Novo?",
+    "a": "Portogallo",
     "w": [
-     "Un partito socialista",
-     "Un sindacato cattolico",
-     "Un'alleanza militare"
+     "Spagna",
+     "Grecia",
+     "Romania"
     ],
-    "e": "Si ispirano al fascismo, ma hanno poco consenso."
+    "e": "Risposta corretta: Portogallo."
    },
    {
-    "p": "Chi forma il Fronte popolare in Francia?",
-    "a": "Socialisti, comunisti e radicali",
+    "p": "Chi governa il Brasile con un regime populista?",
+    "a": "Getúlio Vargas",
     "w": [
-     "Conservatori e monarchici",
-     "Fascisti e nazionalisti",
-     "Solo i comunisti"
-    ],
-    "e": "L'obiettivo è difendere la democrazia."
-   },
-   {
-    "p": "Chi guida il governo del Fronte popolare nel 1936?",
-    "a": "Il socialista Léon Blum",
-    "w": [
-     "Ramsay MacDonald",
      "Francisco Franco",
-     "Oswald Mosley"
+     "Pu Yi",
+     "Béla Kun"
     ],
-    "e": "Il Fronte popolare vince le elezioni del 1936."
+    "e": "Risposta corretta: Getúlio Vargas."
    },
    {
-    "p": "Quale riforma introduce il Fronte popolare?",
-    "a": "La settimana lavorativa di 40 ore",
+    "p": "Quale ammiraglio instaura una dittatura in Ungheria?",
+    "a": "Miklós Horthy",
     "w": [
-     "Il voto ai soli proprietari",
-     "L'abolizione dei sindacati",
-     "La coscrizione obbligatoria"
+     "Józef Piłsudski",
+     "Carlo II",
+     "Alessandro I"
     ],
-    "e": "Arrivano anche i contratti collettivi e le ferie pagate."
+    "e": "Risposta corretta: Miklós Horthy."
+   },
+   {
+    "p": "Quale regime si afferma in Giappone?",
+    "a": "Autoritario e militarista",
+    "w": [
+     "Repubblicano e pacifista",
+     "Comunista",
+     "Populista"
+    ],
+    "e": "Risposta corretta: Autoritario e militarista."
    }
   ]
  },
  "Q3": {
-  "title": "Quiz 3 · Le dittature dell'Europa orientale",
+  "title": "Quiz 3 · L'espansionismo asiatico e la Cina divisa",
   "items": [
    {
-    "p": "Chi instaura una dittatura in Ungheria?",
-    "a": "L'ammiraglio Miklós Horthy",
+    "p": "Quale regione cinese occupa il Giappone nel 1931?",
+    "a": "La Manciuria",
     "w": [
-     "Béla Kun",
-     "Józef Piłsudski",
-     "Ioannis Metaxas"
+     "Lo Shaanxi",
+     "Shanghai",
+     "Pechino"
     ],
-    "e": "Horthy rovescia la repubblica sovietica di Béla Kun."
+    "e": "Risposta corretta: La Manciuria."
    },
    {
-    "p": "Come prende il potere Piłsudski in Polonia nel 1926?",
-    "a": "Con un colpo di Stato",
+    "p": "Come si chiama lo Stato fantoccio creato dal Giappone?",
+    "a": "Manchukuo",
     "w": [
-     "Vincendo le elezioni",
-     "Con un plebiscito",
-     "Ereditando il trono"
+     "Guomindang",
+     "Shaanxi",
+     "Qing"
     ],
-    "e": "Governa poi in modo autoritario fino alla morte, nel 1935."
+    "e": "Risposta corretta: Manchukuo."
    },
    {
-    "p": "Che cosa fa il re Alessandro I di Jugoslavia nel 1929?",
-    "a": "Abolisce la Costituzione",
+    "p": "Chi guida lo Stato fantoccio del Manchukuo?",
+    "a": "Pu Yi, ultimo imperatore Qing",
     "w": [
-     "Concede il suffragio universale",
-     "Fugge dal Paese",
-     "Si allea con la Francia"
+     "Chiang Kai-shek",
+     "Mao Zedong",
+     "Hirohito"
     ],
-    "e": "La monarchia diventa una dittatura."
+    "e": "Risposta corretta: Pu Yi, ultimo imperatore Qing."
    },
    {
-    "p": "Chi instaura una dittatura militare in Grecia nel 1936?",
-    "a": "Il generale Ioannis Metaxas",
+    "p": "Quali sono le due forze della guerra civile cinese?",
+    "a": "Nazionalisti del Guomindang e comunisti",
     "w": [
-     "Il re Carlo II",
-     "L'ammiraglio Horthy",
-     "Il generale Franco"
+     "Monarchici e repubblicani",
+     "Giapponesi e russi",
+     "Fascisti e socialisti"
     ],
-    "e": "Anche la Grecia, che è una monarchia, sperimenta la dittatura."
+    "e": "Risposta corretta: Nazionalisti del Guomindang e comunisti."
    },
    {
-    "p": "Secondo il docente, che cosa hanno in comune questi regimi?",
-    "a": "Sono regimi militari e nazionalisti di estrema destra",
+    "p": "Quanti chilometri è lunga la Lunga marcia?",
+    "a": "10.000",
     "w": [
-     "Sono tutti comunisti",
-     "Sono democrazie parlamentari",
-     "Sono colonie britanniche"
+     "1.000",
+     "100",
+     "50.000"
     ],
-    "e": "Non si rifanno in modo esplicito al fascismo."
+    "e": "Risposta corretta: 10.000."
    }
   ]
  },
  "Q4": {
-  "title": "Quiz 4 · La penisola iberica",
+  "title": "Quiz 4 · La guerra civile spagnola (1936-1939)",
   "items": [
    {
-    "p": "Da quando si afferma in Portogallo un regime dittatoriale?",
-    "a": "Dal 1926",
+    "p": "Quando nasce la Repubblica in Spagna?",
+    "a": "Nel 1931",
     "w": [
-     "Dal 1945",
-     "Dal 1910",
-     "Dal 1939"
+     "Nel 1919",
+     "Nel 1939",
+     "Nel 1926"
     ],
-    "e": "Il regime si afferma passo dopo passo."
+    "e": "Risposta corretta: Nel 1931."
    },
    {
-    "p": "Come si chiama il regime di Salazar?",
-    "a": "Estado Novo",
+    "p": "Chi guida il colpo di Stato militare del luglio 1936?",
+    "a": "Francisco Franco",
     "w": [
-     "Fronte popolare",
-     "Commonwealth",
-     "Falange"
+     "Léon Blum",
+     "Józef Piłsudski",
+     "Getúlio Vargas"
     ],
-    "e": "È uno Stato nazionalista, corporativo e dittatoriale."
+    "e": "Risposta corretta: Francisco Franco."
    },
    {
-    "p": "A quale modello si ispira il Portogallo di Salazar?",
-    "a": "Al fascismo italiano corporativo",
+    "p": "Quale città è bombardata nel 1937?",
+    "a": "Guernica",
     "w": [
-     "Al comunismo sovietico",
-     "Alla democrazia britannica",
-     "All'impero giapponese"
+     "Madrid",
+     "Barcellona",
+     "Praga"
     ],
-    "e": "Lo Stato organizza l'economia dall'alto."
+    "e": "Risposta corretta: Guernica."
    },
    {
-    "p": "Che cosa accade in Spagna nel 1931?",
-    "a": "Il re lascia il Paese e nasce la Seconda Repubblica",
+    "p": "Quale scelta fanno Francia e Gran Bretagna?",
+    "a": "Il non intervento",
     "w": [
-     "Franco prende il potere",
-     "Inizia la guerra civile",
-     "La Spagna occupa il Portogallo"
+     "L'aiuto a Franco",
+     "L'aiuto alla Repubblica",
+     "L'invasione della Spagna"
     ],
-    "e": "Nel 1930 era caduta la dittatura di Primo de Rivera."
+    "e": "Risposta corretta: Il non intervento."
    },
    {
-    "p": "Chi si oppone alle riforme della Repubblica spagnola?",
-    "a": "Conservatori, Chiesa cattolica e forze armate",
+    "p": "Come si chiamano i volontari antifascisti per la Repubblica?",
+    "a": "Brigate internazionali",
     "w": [
-     "Socialisti e comunisti",
-     "Le Brigate internazionali",
-     "L'Unione Sovietica"
+     "Camicie Nere",
+     "Falange",
+     "Guomindang"
     ],
-    "e": "Le riforme hanno uno stampo socialcomunista."
+    "e": "Risposta corretta: Brigate internazionali."
    }
   ]
  },
  "Q5": {
-  "title": "Quiz 5 · L'autoritarismo fuori dall'Europa",
+  "title": "Quiz 5 · L'aggressività nazista e il fallimento di Locarno",
   "items": [
    {
-    "p": "Perché la crisi del 1929 colpisce duramente l'America Latina?",
-    "a": "Perché le economie si basano sull'esportazione agricola",
+    "p": "Quale accordo Hitler decide di smantellare?",
+    "a": "Il trattato di Versailles",
     "w": [
-     "Perché non c'è agricoltura",
-     "Perché è in guerra con gli Stati Uniti",
-     "Perché è governata dal Giappone"
+     "Il Patto d'acciaio",
+     "Il Commonwealth",
+     "Lo Statuto di Westminster"
     ],
-    "e": "La crisi provoca colpi di Stato e guerre civili."
+    "e": "Risposta corretta: Il trattato di Versailles."
    },
    {
-    "p": "Chi crea in Brasile un regime populista e autoritario?",
-    "a": "Getúlio Vargas",
+    "p": "Che cosa abbandona la Germania dopo il 1933?",
+    "a": "La Società delle Nazioni",
     "w": [
-     "Hipólito Yrigoyen",
-     "Salazar",
-     "Chiang Kai-shek"
+     "Il Reich",
+     "Il Patto d'acciaio",
+     "La Renania"
     ],
-    "e": "Il suo regime si chiama anch'esso Estado Novo."
+    "e": "Risposta corretta: La Società delle Nazioni."
    },
    {
-    "p": "Che cosa fa il Giappone nel 1931?",
-    "a": "Occupa la Manciuria e crea il Manciukuò",
+    "p": "Che cosa reintroduce la Germania nel 1935?",
+    "a": "La coscrizione obbligatoria",
     "w": [
-     "Firma la pace con la Cina",
-     "Diventa una democrazia",
-     "Invade l'Australia"
+     "La monarchia",
+     "La Società delle Nazioni",
+     "Il Commonwealth"
     ],
-    "e": "Il Manciukuò è uno Stato fantoccio."
+    "e": "Risposta corretta: La coscrizione obbligatoria."
    },
    {
-    "p": "Chi si combatte nella guerra civile cinese?",
-    "a": "I nazionalisti di Chiang Kai-shek e i comunisti di Mao Zedong",
+    "p": "Quale politica scelgono Francia e Gran Bretagna verso Hitler?",
+    "a": "L'Appeasement",
     "w": [
-     "Giapponesi e coreani",
-     "Inglesi e francesi",
-     "Monarchici e repubblicani spagnoli"
+     "L'attacco preventivo",
+     "Il blocco economico",
+     "L'alleanza segreta"
     ],
-    "e": "Mao guida la Lunga marcia nel 1934-1935."
+    "e": "Risposta corretta: L'Appeasement."
    },
    {
-    "p": "Che cosa fanno nazionalisti e comunisti cinesi dopo l'invasione giapponese del 1937?",
-    "a": "Firmano una tregua contro l'invasore",
+    "p": "A quale Paese si lega progressivamente Hitler?",
+    "a": "All'Italia fascista di Mussolini",
     "w": [
-     "Si arrendono al Giappone",
-     "Si alleano con il Giappone",
-     "Lasciano la Cina"
+     "Alla Francia",
+     "Al Regno Unito",
+     "Alla Spagna repubblicana"
     ],
-    "e": "I contrasti riprenderanno dopo la Seconda guerra mondiale."
+    "e": "Risposta corretta: All'Italia fascista di Mussolini."
    }
   ]
  },
  "Q6": {
-  "title": "Quiz 6 · La guerra civile spagnola",
+  "title": "Quiz 6 · Verso la Seconda Guerra Mondiale",
   "items": [
    {
-    "p": "Chi vince le elezioni spagnole del 1936?",
-    "a": "Il Fronte popolare",
+    "p": "Quale alleanza politico-militare firmano Italia e Germania nel maggio 1939?",
+    "a": "Il Patto d'acciaio",
     "w": [
-     "La Falange",
-     "I monarchici",
-     "I conservatori cattolici"
+     "Il Commonwealth",
+     "Il Fronte Popolare",
+     "L'Estado Novo"
     ],
-    "e": "La destra si oppone al risultato."
+    "e": "Risposta corretta: Il Patto d'acciaio."
    },
    {
-    "p": "Chi guida la sollevazione militare del luglio 1936?",
-    "a": "Il generale Francisco Franco",
+    "p": "Che cosa succede nel marzo 1938?",
+    "a": "L'Anschluss: la Germania occupa l'Austria",
     "w": [
-     "Il re Alfonso XIII",
-     "Miguel Primo de Rivera",
-     "Juan Carlos di Borbone"
+     "Cade Barcellona",
+     "Nasce il Commonwealth",
+     "Si firma il Patto d'acciaio"
     ],
-    "e": "È l'alzamiento contro la Repubblica."
+    "e": "Risposta corretta: L'Anschluss: la Germania occupa l'Austria."
    },
    {
-    "p": "Chi sostiene Franco con uomini e armi?",
-    "a": "L'Italia fascista e la Germania nazista",
-    "w": [
-     "L'Unione Sovietica",
-     "La Francia e la Gran Bretagna",
-     "Gli Stati Uniti"
-    ],
-    "e": "I tedeschi bombardano Guernica."
-   },
-   {
-    "p": "Che cosa fanno Francia e Gran Bretagna durante la guerra di Spagna?",
-    "a": "Scelgono di non intervenire",
-    "w": [
-     "Aiutano Franco",
-     "Mandano l'esercito alla Repubblica",
-     "Dichiarano guerra all'Italia"
-    ],
-    "e": "Temono che il conflitto si allarghi."
-   },
-   {
-    "p": "Come finisce la guerra civile spagnola nel 1939?",
-    "a": "Con la vittoria di Franco e la sua dittatura",
-    "w": [
-     "Con la vittoria della Repubblica",
-     "Con il ritorno immediato del re",
-     "Con la divisione della Spagna in due Stati"
-    ],
-    "e": "Cadono Barcellona e Madrid."
-   }
-  ]
- },
- "Q7": {
-  "title": "Quiz 7 · L'aggressività nazista e l'appeasement",
-  "items": [
-   {
-    "p": "Quale trattato del 1925 aveva fatto entrare la Germania nella Società delle Nazioni?",
-    "a": "Il trattato di Locarno",
-    "w": [
-     "Il trattato di Versailles",
-     "Il Patto d'acciaio",
-     "Lo Statuto di Westminster"
-    ],
-    "e": "La sua stabilità crolla negli anni Trenta."
-   },
-   {
-    "p": "Che cosa fa la Germania nel 1935?",
-    "a": "Reintroduce la coscrizione obbligatoria",
-    "w": [
-     "Annette l'Austria",
-     "Occupa la Polonia",
-     "Firma il patto con l'URSS"
-    ],
-    "e": "Nel 1936 militarizza anche la Renania."
-   },
-   {
-    "p": "Che cos'è l'appeasement?",
-    "a": "La politica di concessioni a Hitler per evitare la guerra",
-    "w": [
-     "L'alleanza tra Italia e Germania",
-     "Il riarmo francese",
-     "Un patto tra Germania e URSS"
-    ],
-    "e": "La scelgono Francia e Gran Bretagna."
-   },
-   {
-    "p": "Chi guida il governo britannico che sceglie l'appeasement?",
-    "a": "Neville Chamberlain",
-    "w": [
-     "Ramsay MacDonald",
-     "Winston Churchill",
-     "Oswald Mosley"
-    ],
-    "e": "Chamberlain vuole evitare un'altra guerra mondiale."
-   },
-   {
-    "p": "Che cosa sottovalutano Francia e Gran Bretagna?",
-    "a": "Il Lebensraum, lo spazio vitale di Hitler",
-    "w": [
-     "La forza dell'Italia in Etiopia",
-     "La crisi del 1929",
-     "La guerra civile cinese"
-    ],
-    "e": "Hitler vuole espandersi."
-   }
-  ]
- },
- "Q8": {
-  "title": "Quiz 8 · L'Anschluss e la conferenza di Monaco",
-  "items": [
-   {
-    "p": "Che cos'è l'Anschluss del marzo 1938?",
-    "a": "L'annessione dell'Austria alla Germania",
-    "w": [
-     "La conquista dell'Albania",
-     "Il patto tra Germania e URSS",
-     "L'occupazione della Renania"
-    ],
-    "e": "Un plebiscito la approva."
-   },
-   {
-    "p": "Quale regione della Cecoslovacchia rivendica Hitler?",
+    "p": "Quale regione rivendica Hitler a Monaco nel 1938?",
     "a": "I Sudeti",
     "w": [
      "La Renania",
-     "La Manciuria",
-     "La Catalogna"
+     "Danzica",
+     "Lo Shaanxi"
     ],
-    "e": "È abitata da popolazioni tedesche."
+    "e": "Risposta corretta: I Sudeti."
    },
    {
-    "p": "Chi fa da mediatore per la conferenza di Monaco?",
-    "a": "Mussolini",
+    "p": "Quale città occupa Hitler nel marzo 1939?",
+    "a": "Praga",
     "w": [
-     "Stalin",
-     "Franco",
-     "Roosevelt"
-    ],
-    "e": "Vuole riavvicinarsi a Londra e Parigi."
-   },
-   {
-    "p": "Quale Paese non è invitato alla conferenza di Monaco?",
-    "a": "La Cecoslovacchia",
-    "w": [
-     "La Germania",
-     "L'Italia",
-     "La Francia"
-    ],
-    "e": "Subisce l'amputazione senza poter parlare."
-   },
-   {
-    "p": "Che cosa fa Hitler nel marzo 1939?",
-    "a": "Viola i patti e occupa tutta la Cecoslovacchia",
-    "w": [
-     "Restituisce i Sudeti",
-     "Attacca la Francia",
-     "Firma la pace con la Polonia"
-    ],
-    "e": "L'appeasement è fallito."
-   }
-  ]
- },
- "Q9": {
-  "title": "Quiz 9 · Verso la Seconda guerra mondiale",
-  "items": [
-   {
-    "p": "Quale Paese occupa l'Italia nell'aprile 1939?",
-    "a": "L'Albania",
-    "w": [
-     "La Grecia",
-     "L'Etiopia",
-     "La Jugoslavia"
-    ],
-    "e": "Il re d'Italia diventa anche re d'Albania."
-   },
-   {
-    "p": "Che cos'è il Patto d'acciaio?",
-    "a": "L'alleanza militare tra Italia e Germania del maggio 1939",
-    "w": [
-     "Il patto tra Germania e URSS",
-     "L'accordo di Monaco",
-     "L'alleanza tra Francia e Gran Bretagna"
-    ],
-    "e": "È un patto di difesa e di aggressione reciproca."
-   },
-   {
-    "p": "Quale città pretende Hitler dalla Polonia?",
-    "a": "Danzica",
-    "w": [
-     "Praga",
      "Vienna",
+     "Parigi",
      "Varsavia"
     ],
-    "e": "Vuole anche il corridoio polacco."
+    "e": "Risposta corretta: Praga."
    },
    {
-    "p": "Che cosa prevedono le clausole segrete del patto Molotov-Ribbentrop?",
-    "a": "La spartizione della Polonia",
+    "p": "Quando viene firmato il Patto Molotov-Ribbentrop?",
+    "a": "Il 23 agosto 1939",
     "w": [
-     "L'invasione della Francia",
-     "La pace con la Gran Bretagna",
-     "La restituzione dell'Austria"
+     "Il 14 aprile 1931",
+     "Nel marzo 1938",
+     "Nel maggio 1939"
     ],
-    "e": "Dividono anche le sfere di influenza nel Baltico."
-   },
-   {
-    "p": "Su che cosa sbaglia la scommessa di Hitler?",
-    "a": "Sulla reazione di Francia e Gran Bretagna",
-    "w": [
-     "Sulla debolezza della Polonia",
-     "Sull'aiuto sovietico",
-     "Sull'alleanza con l'Italia"
-    ],
-    "e": "Questa volta Francia e Gran Bretagna dichiareranno guerra."
+    "e": "Risposta corretta: Il 23 agosto 1939."
    }
   ]
  }
