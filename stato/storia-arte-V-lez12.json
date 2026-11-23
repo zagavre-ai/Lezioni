@@ -1,7 +1,7 @@
 {
  "tag": "storia-arte-V-lez12",
  "parti": {},
- "manca": "rifacimento finale con correzioni (volume, sfasamento audio 30 ms, schermate uguali, pause mute); poi voci Kore (dalle 9:00), codifica, controlli, agente separato",
+ "manca": "attendo le voci Kore (dalle 9:00): al loro arrivo le controllo, rifaccio le 17 schede con voce, codifico, controllo, consegno",
  "serve_master": [
   {
    "quando": "22/11 23:09",
@@ -21,7 +21,11 @@
   {
    "quando": "23/11 00:40",
    "testo": "23/11 00:55: prima codifica di prova 60,2 min / 324 MB; controllo rapido ha trovato 4 difetti, tutti già corretti nel montaggio in corso"
+  },
+  {
+   "quando": "23/11 01:43",
+   "testo": "23/11 02:50: montaggio completo con voci provvisorie 60,2 min; controllo_rapido ESITO OK; sincronia 0,02 s; quiz a 0,0 s; timbro -15,6/-17,3 dB. Dispense e PDF mappe pronti."
   }
  ],
- "aggiornato": "2026-11-23 00:40:26"
+ "aggiornato": "2026-11-23 01:43:21"
 }
