@@ -22,6 +22,10 @@
   {
    "quando": "23/11 08:25",
    "testo": "08:30 UTC. Ricevute 7 voci (COMPITI, SPG2, VER, MAP2N, SC3_1_R2, SC5_1_R2, SC7_1_R2): controllate, bordi sotto 0,03, testo ok. MANCANO 7 voci dal mio testi_voci.json: BENV2, MAP1N, MAP3N, P4_R2, SC4_5_R2, SC6_5_R2, RF1_R2. Senza queste non posso consegnare alle 11:00 italiane. Montaggio finale richiede circa 45 minuti: devo avere le voci entro le 09:00 UTC (10:00 italiane). Intanto monto il resto."
+  },
+  {
+   "quando": "23/11 09:17",
+   "testo": "09:20 UTC. Tutte le voci ricevute e controllate. Un mio processo di montaggio si era fermato: ricostruisco i pezzi Kore (circa 20 minuti), poi montaggio finale delle due Parti (circa 40 minuti), controllo e consegna. Prevedo consegna tra le 10:30 e le 10:45 UTC, cioè un po' oltre le 11:00 italiane. Lo dico ora per tempo."
   }
  ],
  "domande_sara": [],
@@ -41,5 +45,5 @@
  ],
  "materia": "Storia V",
  "lezione": "Lezione 10 · La Germania da Weimar al nazismo",
- "aggiornato": "2026-11-23 08:25:01"
+ "aggiornato": "2026-11-23 09:17:57"
 }
