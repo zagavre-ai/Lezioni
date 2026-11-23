@@ -51,3 +51,12 @@ Inizi su pausa, nessuna parola mozzata. Il pezzo D2 finiva a metà frase nel gir
 
 ## 7. Stato onesto della consegna (22/11, oltre le 19:30 UTC)
 Il controllo severo dà ancora **RESPINTA** solo per «card sola oltre 60 s» in 4 tratti (4:45, 12:45, 35:45, 39:45): nel video quelle slide hanno **due card intere** (guardate a occhio), ma l'OCR di tesseract legge il numero della seconda card in modo diverso e ne conta una. Pause > 2,5 s, schermate identiche, «…», copertina, loudness e voce: **tutto a posto**. Con i difetti dell'agente indipendente (§2 punto «Controllo indipendente») servono circa **40 minuti** per: togliere la dissolvenza da bianco sopra il prof (lampi di 1 fotogramma), riallineare 4 card, rifinire la mappa e ricodificare i pezzi del prof (~15 min di codifica). La lezione **non va online** finché la master non decide se accetta questi punti o aspetta quel giro.
+
+## 8. Giro del 23/11 (correzioni della master)
+- **Piè di pagina**: solo «LETTERATURA ITALIANA V» e «Pagina N», nel video (anche la copertina, che era in cache e l'ho ricodificata), nella dispensa e nelle mappe.
+- **Schede in blu scuro a tutto schermo**: titolo argomento, quiz, verifica finale, pillole di ripasso, riepilogo, intro Compiti, fine lezione (logo bianco). Schede quiz e verifica con «Rispondi · premi Controlla · poi Continua».
+- **Dissolvenza sul prof tolta** (niente più lampi di 1 fotogramma); transizioni solo tra schede senza il prof.
+- **Card riallineate**: 3:44 (Condizioni dell'Italia), 8:43 (conquista del potere), 13:23 (Economia e società), nessuna card accesa durante Balilla/Ministero (19:55–20:11).
+- **Mappa**: tolta la freccia in più dal titolo.
+- **Compiti**: ora una sola voce `COMPITI` (voce già richiesta alla master, nel `testi_voci.json`); i compiti compaiono uno alla volta con il bordo giallo, in fondo la riga «Svolgi i compiti qui sotto e premi Consegna…». **Per ora montata con la voce provvisoria** (CP2–CP5 in fila, chiusura muta): per questo `controllo_rapido` segnala **1 pausa muta a 52:54 (5,7 s)**. Appena arriva la voce COMPITI sostituisco e riconsegno.
+- `controllo_rapido.py`: LUFS −16,5, picco −2,5 dBTP, nessun nome nel piè di pagina, nessuna scheda con fasce, nessuna schermata ferma, titolo 4/4. Foglio e json sono nella cartella. Foglio guardato: schede blu, card a 40 px, niente DM Mono, sigla finale, compiti dopo la sigla.
