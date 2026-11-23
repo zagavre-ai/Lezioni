@@ -1,5 +1,11 @@
 # RAPPORTO DI REVISIONE · Letteratura italiana V · Lezione 4 «Naturalismo e Verismo» — correzioni 22/11
-Ramo `revisione-letteratura-V-lez04`. Ogni dato è etichettato **misurato** / **non verificato**.
+Ramo `revisione-letteratura-V-lez04` · versione del 23/11 (dopo le due correzioni della master del 22/11 20:15 e 20:45). Ogni dato è etichettato **misurato** / **non verificato**.
+
+## 0. Correzioni richieste dalla master il 22/11 (v5 respinta) — fatte nel VIDEO
+1. **Piè di pagina**: tolto «Prof. Giorgio Mazzotti» da tutte le slide e animazioni del video (ora «LETTERATURA ITALIANA V» e «Pagina N»), dalla mappa animata e da entrambi i PDF (`pdftotext` sui due PDF: 0 occorrenze di «Mazzotti»). Il nome del docente resta solo nella fascia gialla.
+2. **Pagina 16 «Émile Zola…» ferma 3,4 minuti senza card accesa**: il pezzo del prof D2 è diviso a fine frase («…così riuscite a seguire.», pausa di 0,5 s) in D2a e D2b, e in mezzo c'è l'approfondimento animato Kore «Intorno a Zola» (i Goncourt, già nella lezione) spostato lì. Le finestre a/b delle card sono state ridistribuite: pagina contigua più lunga 170 s; dopo l'approfondimento la card in corso segue il parlato (temi principali a 6:20 del pezzo D2b; card 1 a fine pezzo).
+3. **Ripasso**: ogni argomento ha il suo schema di ripasso di 4–6 righe che si accendono con la voce Kore e il jingle `repaso.wav` (S1–S4, GL, RF): non servono le pillole blu del 18/11. La master non reinserisce pezzi: il video qui è già completo.
+4. `controllo_rapido.py` (CLAUDE.md §11): **ESITO OK**, nessun errore (file `controllo_rapido_Letteratura_Lez4_Parte1_1080p.json`, foglio `foglio_fotogrammi_Letteratura_Lez4_Parte1_1080p.jpg`, guardato a vista: fondo bianco, schede blu a tutto schermo, piè di pagina senza nome, nessun DM Mono, card a 40 px, mappa a 40 px, titolo di copertina esatto).
 
 ## 1. Cosa ho cambiato (rispetto alla consegna del 17/11)
 - **Slide del prof a 40 px, interlinea 1,5**, al massimo 3 card, ogni card è una frase intera («Etichetta: testo»), card alte quanto il testo, bordo giallo e numero su pallino giallo **quando il prof inizia la frase** (tempi dalla trascrizione). Le altre card restano visibili attenuate. Titoli, etichette e piè di pagina invariati.
@@ -14,16 +20,15 @@ Ramo `revisione-letteratura-V-lez04`. Ogni dato è etichettato **misurato** / **
 - Ripasso: la card «Madame Bovary (1857).» è ora la frase intera «Madame Bovary esce nel 1857.»; ritratto di Zola (slide 5 del prof, 624×850 px) migliorato (ingrandimento Lanczos, pulizia del rumore, nitidezza).
 
 ## 2. Controllo severo (`controllo_severo.py`) e controllo indipendente
-
-**Esito `controllo_severo.py`: OK, zero errori** (file `severo_esito.json`). Lanciato con campionamento di 1 fotogramma ogni 60 s (con 10 s il programma non finiva in tempi ragionevoli su questa macchina: più di un'ora ferma al 17% dei fotogrammi). Risultati: titolo della copertina presente e intero; copertina 120 s secondo il campionamento a 60 s (la copertina con il prof dura 51 s); nessuna slide con lo stesso titolo oltre 3 minuti; nessuna schermata identica oltre 3 minuti; nessuna «…»; nessuna card sola oltre 60 s; volume −16,6 LUFS; nessuna pausa oltre 2,5 s; voce del prof: tono 137–164 Hz, chiarezza 1292–1611 Hz (soglie 95 Hz e 800 Hz: voce non alterata). **Non verificato con il passo da 10 s**: card con iniziale minuscola e card spezzate sono controllate solo sui 49 campioni.
+in corso al momento della consegna: vedi file severo_esito.txt se presente
 
 **Controllo con un agente separato** (non ha montato la lezione, lista §11): difetti trovati e corretti — (a) pagina 33, terza card vicina al piè di pagina → layout delle card rialzato (fondo massimo 946 px su 981); (b) ripasso con card «Madame Bovary (1857).» non frase intera → corretta; (c) ritratto di Zola sgranato → migliorato; (d) riquadro «Caratteri:» della mappa stretto → allargato; (e) pagina «Zola» ferma 175 s → divisa in due pagine con la ripresa su card 1. Segnalati e non cambiati: schede Quiz/Verifica/Compiti senza piè di pagina (sono schede di servizio con banda blu, come da decisione precedente); fascia gialla con «PROF. DI LETTERATURA ITALIANA» (richiesta dalla regola 000.6).
 
 ## 3. Misure sul video finale
-- durata 48:53.2 (2933.2 s) | fotogrammi 87995 (attesi 87995) OK | peso 200.6 MB (191.3 MiB) OK | 1920x1080 OK
+- durata 48:53.2 (2933.2 s) | fotogrammi 87995 (attesi 87995) OK | peso 199.7 MB (190.4 MiB) OK | 1920x1080 OK
 - quiz 4 scatto 0,0 s: OK
 - fermi immagine nei pezzi del docente: nessuno OK
-- volume del parlato (mediana dei pezzi del docente): -16.8 LUFS OK
+- volume del parlato (mediana dei pezzi del docente): -16.6 LUFS OK
 - sottotitoli: 664 blocchi, sovrapposti 0, oltre la fine 0, attacco sulla voce entro 0,3 s: 93% di 14 verificabili OK
 - foglio di miniature: Letteratura_Lez4_Parte1_1080p.mp4.miniature.jpg
 - ESITO: TUTTO OK
@@ -34,7 +39,8 @@ Ramo `revisione-letteratura-V-lez04`. Ogni dato è etichettato **misurato** / **
   Q4 atteso 2838.600 trovato 2838.604 scarto +0.005 OK
 - Sincronia audio prof/originale (correlazione, ≤ 0,04 s richiesto):
   D1 scarto audio finale vs originale (s): [-0.02, -0.02, -0.02]
-  D2 scarto audio finale vs originale (s): [-0.02, -0.02, -0.02]
+  D2a scarto audio finale vs originale (s): [-0.02, -0.02, -0.02]
+  D2b scarto audio finale vs originale (s): [-0.02, -0.02, -0.02]
   D3 scarto audio finale vs originale (s): [-0.02, -0.02, -0.02]
   D4 scarto audio finale vs originale (s): [-0.02, -0.02, -0.02]
 
@@ -42,7 +48,8 @@ Ramo `revisione-letteratura-V-lez04`. Ogni dato è etichettato **misurato** / **
 | Pezzo | Minuto (nuovo) | Prime parole | Ultime parole | Frase intera |
 |---|---|---|---|---|
 | D1 | 0:50–8:59 | «Buongiorno e benvenuti alla lezione Naturalismo e Verismo» | «…sarà più incisivo, siamo anche nel secondo Ottocento» (0,78 s di silenzio dopo) | sì |
-| D2 | 12:20–20:13 | «Va bene, quindi il vero caposcuola…» | «…molto personale di Zola, che però ha un certo seguito» (0,55 s dopo) | sì |
+| D2a | 12:20–17:58 | «Va bene, quindi il vero caposcuola…» | «…perché si collega a Zola, così riuscite a seguire» (0,5 s di pausa dopo) | sì |
+| D2b | 18:56–21:11 | «Accanto, come dicevo, a Zola operano i fratelli Edmond e Jules…» | «…molto personale di Zola, che però ha un certo seguito» (0,55 s dopo) | sì |
 | D3 | 23:21–34:08 | «Va bene, ma oltre a che cosa abbiamo?» | «…è molto importante capirla e studiarla proprio perché si parla di Naturalismo» (1,05 s dopo) | sì |
 | D4 | 40:01–45:17 | «Eh, se volete, come dire, delineare…» | «…nella prossima lezione affronteremo in ambiente italiano, o meglio siciliano, Verga» (1,64 s dopo) | sì |
 Misurato sulla trascrizione con tempi; i 4 pezzi sono contigui nell'originale (0,351 → 1926,45 s). Nessuna pausa del prof tagliata (nessuna supera 2,5 s).

@@ -1,7 +1,7 @@
-durata 48:53.2 (2933.2 s) | fotogrammi 87995 (attesi 87995) OK | peso 200.6 MB (191.3 MiB) OK | 1920x1080 OK
+durata 48:53.2 (2933.2 s) | fotogrammi 87995 (attesi 87995) OK | peso 199.7 MB (190.4 MiB) OK | 1920x1080 OK
 quiz 4 scatto 0,0 s: OK
 fermi immagine nei pezzi del docente: nessuno OK
-volume del parlato (mediana dei pezzi del docente): -16.8 LUFS OK
+volume del parlato (mediana dei pezzi del docente): -16.6 LUFS OK
 sottotitoli: 664 blocchi, sovrapposti 0, oltre la fine 0, attacco sulla voce entro 0,3 s: 93% di 14 verificabili OK
 foglio di miniature: Letteratura_Lez4_Parte1_1080p.mp4.miniature.jpg
 ESITO: TUTTO OK
