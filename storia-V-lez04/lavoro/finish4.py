@@ -116,9 +116,9 @@ def build_pieces():
     gi = GLP[P]; terms = [GLOSS[i] for i in gi]
     items = [(f'P{P}_gl_{j}', SL.html_gloss(j, pages[('gloss',)], terms)) for j in range(len(terms))] + [(f'P{P}_gl_e', SL.html_gloss(-1, pages[('gloss',)], terms))]
     SL.render(items, W + '/slpng')
-    t = 0.6; audio = [(t, 'wav', f'{VOX48}/GL0.wav')]; t += vdur('GL0') + 1.0; starts = []
+    t = 0.6; audio = [(t, 'wav', f'{VOX48}/GL0.wav')]; t += vdur('GL0') + 0.6; starts = []
     for j, gidx in enumerate(gi):
-        nm = f'GL{gidx + 1}'; audio.append((t, 'wav', f'{VOX48}/{nm}.wav')); starts.append(t); t += vdur(nm) + 1.2
+        nm = f'GL{gidx + 1}'; audio.append((t, 'wav', f'{VOX48}/{nm}.wav')); starts.append(t); t += vdur(nm) + 0.6
     tot = t + 1.5; N = fr(tot)
     st = [(f'{W}/slpng/P{P}_gl_e.png', fr(starts[0] - 0.1))]
     for j in range(len(terms)):
@@ -138,10 +138,10 @@ def build_pieces():
         d0 = vdur('CP_0'); items = [(f'P3_cp_{k}', SL.frame('', 'Compiti', 130 + k, '<div class=cards style="top:300px">' + ''.join(
             f"<div class='card {'on' if i == k else ''}' style='font-size:34px;line-height:1.4'><div class=num>{i + 1}</div><div>{SL.esc(e['testo'])}</div></div>" for i, e in enumerate(txt)) + '</div>', prof=False, pill='COMPITI', titlesize=56)) for k in range(-1, 4)]
         SL.render(items, W + '/slpng')
-        t = 0.6; audio = [(t, 'wav', f'{VOX48}/CP_0.wav')]; t += d0 + 1.0; starts = []
+        t = 0.6; audio = [(t, 'wav', f'{VOX48}/CP_0.wav')]; t += d0 + 0.6; starts = []
         for k in range(4):
-            nm = f'CP_{k + 1}'; audio.append((t, 'wav', f'{VOX48}/{nm}.wav')); starts.append(t); t += vdur(nm) + 1.5
-        N = fr(t + 2.0); st = [(f'{W}/slpng/P3_cp_-1.png', fr(starts[0] - 0.1))]
+            nm = f'CP_{k + 1}'; audio.append((t, 'wav', f'{VOX48}/{nm}.wav')); starts.append(t); t += vdur(nm) + 0.7
+        N = fr(t + 1.0); st = [(f'{W}/slpng/P3_cp_-1.png', fr(starts[0] - 0.1))]
         for k in range(4):
             end = fr(starts[k + 1] - 0.1) if k < 3 else N
             st.append((f'{W}/slpng/P3_cp_{k}.png', end - sum(f for _, f in st)))
@@ -185,7 +185,7 @@ def monta():
         T.add(f'appro{g}', f'{W}/pieces/P{P}_AP{n}.mp4', [tuple(a) for a in info[f'AP{n}']['audio']], f'appro{g}')
         k = next((k for k, m in enumerate(MAPPE, 1) if m['dopo'] == n), None)
         if k and os.path.exists(f'{MAPDIR}/mappa{k}.mp4'):
-            T.add(f'mappa{n}', f'{MAPDIR}/mappa{k}.mp4', [(0.5, 'wav', f'{VOX48}/MAP{k}.wav')], f'mappa{n}')
+            vd = vdur(f'MAP{k}'); T.add(f'mappa{n}', f'{MAPDIR}/mappa{k}.mp4', [(0.5, 'wav', f'{VOX48}/MAP{k}.wav'), (0.5 + vd + 0.8, 'wav', W + '/aud/bed1.wav'), (0.5 + vd + 3.4, 'wav', W + '/aud/bed2.wav')], f'mappa{n}')
         d = vdur(f'PI{n}')
         T.add(f'pillola{g}', norm_sch(f'P{P}R{pos}', f'{W}/pieces/P{P}_rep{pos}.mp4', split_caps(ALLT[f'PI{n}'], d)[-1][1] + 1.2), [(0, 'wav', S('repaso.wav')), (0.9, 'wav', f'{VOX48}/PI{n}.wav')], f'pillola{g}')
         T.add(f'schema{g}', f'{W}/pieces/P{P}_S{pos}.mp4', [tuple(a) for a in info[f'S{pos}']['audio']], f'schema{g}')
@@ -202,19 +202,19 @@ def monta():
     json.dump([{k: v for k, v in p.items() if k != 'audio'} for p in T.pieces], open(f'{W}/out/timeline_P{P}.json', 'w'), indent=1)
     print('durata', round(T.total_frames() / 30, 1), 's', len(T.pieces), 'pezzi', flush=True)
     video = f'{W}/out/Storia_Lez4_Parte{P}_video.mp4'
-    build_video(T, video, f'{W}/out/tmp{P}')
+    if not os.path.exists(video): build_video(T, video, f'{W}/out/tmp{P}')
     prof = np.frombuffer(open(W + '/aud/prof.wav', 'rb').read()[44:], dtype=np.int16).astype(np.float32) / 32768
     mix = mix_audio(T, None, prof)
     import wave
     def write(arr, path):
-        pcm = (np.clip(arr, -0.89, 0.89) * 32767).astype(np.int16)
+        pcm = (np.clip(arr, -0.999, 0.999) * 32767).astype(np.int16)
         w = wave.open(path, 'wb'); w.setnchannels(2); w.setsampwidth(2); w.setframerate(SR); w.writeframes(pcm.tobytes()); w.close()
     write(mix, f'{W}/out/audio{P}_pre.wav')
     r = subprocess.run(['ffmpeg', '-nostats', '-i', f'{W}/out/audio{P}_pre.wav', '-af', 'ebur128', '-f', 'null', '-'], capture_output=True, text=True).stderr
     I = float(re.findall(r'\n\s+I:\s+(-?[\d\.]+) LUFS', r)[-1]); gain = 10 ** ((-16.0 - I) / 20.0); print('LUFS prima %.2f, guadagno %.2f dB' % (I, 20 * math.log10(gain)))
     write(mix * gain, f'{W}/out/audio{P}.wav')
     json.dump({'timeline': [(p['name'], round(p['start'] / 30, 3), p['n']) for p in T.pieces]}, open(f'{W}/out/tl_P{P}.json', 'w'))
-    sh(['ffmpeg', '-y', '-v', 'error', '-i', video, '-i', f'{W}/out/audio{P}.wav', '-map', '0:v', '-map', '1:a', '-c:v', 'copy', '-c:a', 'aac', '-b:a', '192k', '-ar', '48000',
+    sh(['ffmpeg', '-y', '-v', 'error', '-i', video, '-i', f'{W}/out/audio{P}.wav', '-map', '0:v', '-map', '1:a', '-af', 'alimiter=limit=0.75:attack=3:release=40:level=disabled', '-c:v', 'copy', '-c:a', 'aac', '-b:a', '192k', '-ar', '48000',
         '-movflags', '+faststart', f'{W}/out/Storia_Lez4_Parte{P}_1080p.mp4'])
     print('montato', P)
 

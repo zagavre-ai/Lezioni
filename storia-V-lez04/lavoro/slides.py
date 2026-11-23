@@ -167,6 +167,9 @@ def html_img(n, imgfile, page, active=-1, prof=True):
                  f"<div class=imgbox><img src='file://{imgfile}'></div>", keys=[k for k, _ in a['schema']], active=-1, titlesize=50, prof=prof, pdf=not prof)
 
 def html_schema(n, active, page):
+    return html_schema_dark(n, active, page)
+
+def html_schema_old(n, active, page):
     a = ARG[n - 1]
     rows = ''
     for i, (kw, fr) in enumerate(a['schema']):
@@ -196,3 +199,18 @@ def html_gloss(active, page, terms=None):
         rows += f"<div class='gr {'on' if i==active else ''}' style='{st}'><b style='{'font-size:36px' if big else ''}'>{esc(t)}</b><span>{esc(dd)}</span></div>"
     body = f"<div class=gl style='top:290px'>{rows}</div>"
     return frame('GLOSSARIO · PAROLE CHIAVE', 'Glossario', page, body, prof=False, titlesize=50)
+
+DARK = """<style>
+body{background:radial-gradient(1400px 900px at 30% 20%,#13224A 0%,#0A1330 55%,#060A1B 100%)!important;color:#fff!important}
+.ttl{color:#fff!important}.hl,.fl{background:rgba(255,255,255,.18)!important}.foot,.lab{color:#8FB8F0!important}
+.tbl{border-color:rgba(255,255,255,.25)!important;background:rgba(255,255,255,.06)}
+.th{background:#2060AF!important}
+.tr{border-top-color:rgba(255,255,255,.18)!important;color:#fff;font-size:34px!important;height:110px!important}
+.tr span:first-child{color:#FFE600!important;font-size:34px!important}
+.tr.on{background:#FFE600!important;color:#0B1530!important}.tr.on span:first-child{color:#0B1530!important}
+.pill{background:#FFE600}
+</style>"""
+def html_schema_dark(n, active, page):
+    h = html_schema_old(n, active, page)
+    h = h.replace('</head>', DARK + '</head>', 1)
+    return h.replace(f"src='data:image/svg+xml;base64,{LOGO}'", "src='data:image/svg+xml;base64," + base64.b64encode(open(W + '/Telesio_logo_bianco.svg','rb').read()).decode() + "'")

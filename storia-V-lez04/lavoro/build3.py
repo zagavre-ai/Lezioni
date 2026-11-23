@@ -50,10 +50,10 @@ def retime(fr, nc, curn=None):
             if k[0] == 'txt':
                 c = k[2]
                 if c >= 0: last_c = c
-                if cur is not None and cur[0] == 'cards' and (c in cur[2] or c < 0) and since < MAXF:
+                if cur is not None and cur[0] == 'cards' and cur[1] == k[1] and (c in cur[2] or c < 0) and since < MAXF:
                     ident = cur
                 else:
-                    fam = family(c, nc, curn)
+                    fam = family(c, len(CPG[int(k[1])]), int(k[1]))
                     cands = [s for s in fam if ('cards', k[1], s) != cur]
                     # la meno usata di recente (a parita', la prima in ordine di preferenza)
                     def lru(s):
