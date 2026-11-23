@@ -25,7 +25,8 @@ def confine(T,cerca=25):
     best=None
     for i in range(1,len(SEG)):
         prev=SEG[i-1];cur=SEG[i]
-        if not re.search(r'[.?!…]["»]?\s*$',prev['testo'].strip()):continue
+        pt=prev['testo'].strip()
+        if not re.search(r'[.?!…]["»]?\s*$',pt) or re.search(r'(\.\.\.|…)["»]?\s*$',pt):continue   # «qualcosa...» = frase lasciata a meta
         gap=cur['inizio']-prev['fine']
         if gap<0.25:continue
         c=cur['inizio']-0.15
