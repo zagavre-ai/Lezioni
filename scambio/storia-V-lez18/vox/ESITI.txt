@@ -1,21 +1,6 @@
-INTRO1_R2 OK frasi trovate 1 / 1 parole diverse 4 (vere 2) tentativi 1
-SP2_1 OK frasi trovate 1 / 1 parole diverse 2 (vere 3) tentativi 1
-SP2_3 OK frasi trovate 1 / 1 parole diverse 6 (vere 3) tentativi 1
-M2_02 OK frasi trovate 1 / 1 parole diverse 1 (vere 0) tentativi 1
-M2_04 OK frasi trovate 1 / 1 parole diverse 1 (vere 0) tentativi 1
-M2_06 OK frasi trovate 1 / 1 parole diverse 1 (vere 0) tentativi 1
-M2_08 OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
-M5_02 OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
-M5_04 OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
-M5_06 OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
-M5_08 OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
-M5_10 OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
-M6_02 OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
-M6_04 OK frasi trovate 1 / 1 parole diverse 1 (vere 0) tentativi 1
-M6_06 OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
-AN2a_R2 OK frasi trovate 1 / 1 parole diverse 6 (vere 2) tentativi 1
-AN6a_R2 OK frasi trovate 1 / 1 parole diverse 6 (vere 2) tentativi 1
-R4_R2 OK frasi trovate 1 / 1 parole diverse 2 (vere 1) tentativi 1
-SC4_4_R2 OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
-RF2_R2 OK frasi trovate 1 / 1 parole diverse 2 (vere 2) tentativi 1
-COMPITI OK frasi trovate 1 / 1 parole diverse 18 (vere 3) tentativi 1
+M2_03 OK frasi trovate 1 / 1 parole diverse 1 (vere 0) tentativi 1
+M5_03 OK frasi trovate 1 / 1 parole diverse 1 (vere 1) tentativi 1
+M6_01 OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
+AN2b_R2 OK frasi trovate 1 / 1 parole diverse 1 (vere 1) tentativi 1
+SC6_2_R2 OK frasi trovate 1 / 1 parole diverse 1 (vere 1) tentativi 1
+SC6_2_R2 DA CONTROLLARE durata fuori misura
