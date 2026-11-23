@@ -1,7 +1,7 @@
 {
  "tag": "storia-arte-V-lez12",
  "parti": {},
- "manca": "voci Kore non arrivate",
+ "manca": "voci Kore non arrivate; scadenza 12:00 UTC a rischio",
  "serve_master": [
   {
    "quando": "22/11 23:09",
@@ -101,7 +101,11 @@
   {
    "quando": "23/11 09:46",
    "testo": "23/11 09:47 UTC: montaggio con voci provvisorie pronto; voci non ancora sul ramo"
+  },
+  {
+   "quando": "23/11 10:02",
+   "testo": "23/11 10:03 UTC: montaggio con voci provvisorie pronto; voci non ancora sul ramo"
   }
  ],
- "aggiornato": "2026-11-23 09:46:40"
+ "aggiornato": "2026-11-23 10:02:49"
 }
