@@ -223,7 +223,7 @@ def notice_png():
     p=png('notice',h,omit=True);flush();return p
 def FINALE():
     p=notice_png();out=f'{B}/k/FINALE.mkv'
-    sh(['ffmpeg','-v','error','-y','-i','/home/user/Lezioni/kit/sigle/Sigla_finale_5s_con_avviso_diritti.mp4','-loop','1','-framerate','30','-t','5','-i',p,'-filter_complex',"[1:v]format=rgba,fade=in:st=1.0:d=0.5:alpha=1[n];[0:v][n]overlay=0:0:format=auto,format=yuv420p[v]",'-map','[v]','-map','0:a','-frames:v','150','-r','30','-c:v','libx264','-preset','veryfast','-crf','14','-pix_fmt','yuv420p','-c:a','pcm_s16le','-ar','48000',out]);return out
+    sh(['ffmpeg','-v','error','-y','-i','/home/user/Lezioni/kit/sigle/Sigla_finale_5s_con_avviso_diritti.mp4','-loop','1','-framerate','30','-t','5','-i',p,'-filter_complex',"[0:v]drawbox=x=170:y=850:w=1580:h=140:color=black:t=fill[b];[1:v]format=rgba,fade=in:st=1.0:d=0.5:alpha=1[n];[b][n]overlay=0:0:format=auto,format=yuv420p[v]",'-map','[v]','-map','0:a','-frames:v','150','-r','30','-c:v','libx264','-preset','veryfast','-crf','14','-pix_fmt','yuv420p','-c:a','pcm_s16le','-ar','48000',out]);return out
 def SIGLA():
     out=f'{B}/k/SIGLA.mkv'
     sh(['ffmpeg','-v','error','-y','-i','/home/user/Lezioni/kit/sigle/Sigla_Storia_15s.mp4','-frames:v','450','-r','30','-c:v','libx264','-preset','veryfast','-crf','14','-pix_fmt','yuv420p','-c:a','pcm_s16le','-ar','48000',out]);return out

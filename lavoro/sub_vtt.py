@@ -3,7 +3,7 @@ import sys, re, json
 sys.path.insert(0,'/home/user/Lezioni/lavoro')
 import piani, kore
 from trasc_util import D
-CORR=[(r'\b(Dwissen|Dewis|Dis del 1924|Dawis|piano di Wis|pian di Wis|piano Dis|Dawis Dis|Deus)\b','Dawes'),
+CORR=[(r'30 gennaio 1923','30 gennaio 1933'),(r'\b(Dwissen|Dewis|Dis del 1924|Dawis|piano di Wis|pian di Wis|piano Dis|Dawis Dis|Deus)\b','Dawes'),
  (r'\b(Brian Kellogg|Brian Kellog|Bianchello|Brian)\b','Briand-Kellogg'),(r'\bBriunini\b','Brüning'),(r'\bBröning\b','Brüning'),
  (r'\b(Mind Kampf|Minecraft|Mainkamp|Meinkampf|Mank|Mind|Mein Kampf)\b','Mein Kampf'),(r'\b(pucci|puccio|Pucci|puccio)\b','putsch'),
  (r'\b(Rome|Rom|Roma)\b(?=,? (guidate|dell|dei|era|comand|il |che|è|fondat|fedel|da far|e anche|sparire|\.))','Röhm'),
