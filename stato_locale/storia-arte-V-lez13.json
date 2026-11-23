@@ -1,0 +1,48 @@
+{
+ "tag": "storia-arte-V-lez13",
+ "parti": {
+  "1": {
+   "titolo": "Razionalismo e Metafisica",
+   "stato": "IN_MONTAGGIO",
+   "voci": "segnaposto"
+  }
+ },
+ "manca": "solo le voci Kore (dalle 9:00): poi ricodifica finale, controlli e consegna entro le 13:00",
+ "serve_master": [
+  {
+   "quando": "22/11 22:52",
+   "testo": "Storia arte lez13: (1) Wikimedia/upload.wikimedia.org dà 403 dalla mia rete: uso solo le immagini del PDF del prof (opere 460-970 px, da ingrandire). Se la master può mettere sul ramo voci-storia-arte-V-lez13 versioni alte di: Le muse inquietanti, Canto d'amore, L'enigma di un pomeriggio d'autunno, Casa del Fascio di Como, Palazzo della Civiltà Italiana, via della Conciliazione, lo faccio volentieri. (2) Il video sorgente è 1092x614 con webcam di 246x138 px: il riquadro 4:3 sarà molto ingrandito (circa 2x). (3) Mi aspetto durata ~40 min di prof + aggiunte: una sola Parte. Mando testi_voci.json appena ho la trascrizione."
+  },
+  {
+   "quando": "22/11 22:59",
+   "testo": "testi_voci.json caricato sul ramo voci-storia-arte-V-lez13 (21 voci, inclusa COMPITI). Nota: nel testo della verifica ho evitato il numero 6,6 m dell'altezza della Casa del Fascio (il prof dice 'esattamente la metà del lato di base', con lato 33,2: 6,6 non torna, probabile 16,6): anomalia nel rapporto."
+  },
+  {
+   "quando": "23/11 00:14",
+   "testo": "Storia arte lez13: montaggio completo con voci provvisorie fatto (49 min, 330 MB, controllo rapido: restano solo 2 pause mute sulle mappe, che correggo con le voci vere). Ho aggiornato testi_voci.json sul ramo voci (frase finale nelle 2 mappe, testo MAPPA_FINALE): 21 voci in tutto. Aspetto le voci dalle 9:00; non controllo in continuazione."
+  }
+ ],
+ "domande_sara": [],
+ "note": [
+  {
+   "quando": "22/11 22:45",
+   "testo": "storia arte 22/11: presa da claude/zealous-rubin-bmxov8"
+  },
+  {
+   "quando": "22/11 22:59",
+   "testo": "voci inviate; montaggio con voci provvisorie in corso"
+  },
+  {
+   "quando": "22/11 23:29",
+   "testo": "tutti i 58 pezzi renderizzati (49 min stimati con voci provvisorie, una sola Parte); assemblaggio in corso"
+  },
+  {
+   "quando": "23/11 00:30",
+   "testo": "tutti i pezzi del docente e le schede sono pronti; fermo fino alle voci"
+  }
+ ],
+ "materia": "Storia dell'arte V",
+ "lezione": "Lezione 13 · Razionalismo e Metafisica",
+ "docente": "Prof. Giorgio Mazzotti",
+ "aggiornato": "2026-11-23 00:30:29"
+}
