@@ -492,6 +492,10 @@
   {
    "quando": "23/11 09:29",
    "testo": "Consegna lez12 fatta (2 Parti: 41,2 + 30,0 min). Voci Kore: A2 leggeva le istruzioni di stile (tagliate), A1/A6 frasi iniziali ripetute (tagliate), I1 con 2 frasi in più (tenuta la prima), I3_BENVENUTO2 mancante (riuso I1). Non ho ascoltato le voci: controlla pronuncia di Piłsudski, Estado Novo, Manchukuo, Léon Blum, Croix de Feu."
+  },
+  {
+   "quando": "23/11 10:42",
+   "testo": "Lez12 (23/11 11:45 IT): applico la nuova regola compiti (§3.4). Mi serve UNA voce nuova, nome C3_COMPITI_CHIUSURA, testo in testi_voci.json sul ramo voci-storia-V-lez12: «Svolgi i compiti qui sotto e premi Consegna: arrivano al docente nel tuo quaderno dei compiti.» (le altre voci restano com'erano). Appena arriva rifaccio la scheda compiti (bordo giallo, voce C2 + chiusura), riassemblo la Parte 2, rilancio controllo_rapido e riconsegno. compiti.json ora nel formato {titolo, esercizi:[{testo}]}. Resto attiva e guardo DALLA_MASTER ogni 20 minuti fino a APPROVATA."
   }
  ],
  "domande_sara": [],
@@ -523,5 +527,5 @@
  ],
  "materia": "Storia",
  "lezione": "12",
- "aggiornato": "2026-11-23 09:29:53"
+ "aggiornato": "2026-11-23 10:42:50"
 }
