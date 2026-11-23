@@ -50,8 +50,8 @@ def D0_piece():
 def parte1():
     seq=[];kI=json.load(open('/tmp/w/b/kI.json'))['kI']
     seq+=[('SG',sigla_piece(KIT+'sigle/Sigla_Storia_arte_15s.mp4','SG')),('CV',cover_piece()),('D0',D0_piece()),('AR',args_piece())]
-    sc=dict(scene_pieces('D',['D1a','D2a','D2b','D2c','D3a','D3b','D3c','D3d','D3e','D3f']))
-    groups=[(1,['D1a']),(2,['D2a','D2b','D2c']),(3,['D3a','D3b','D3c','D3d','D3e','D3f'])]
+    sc=dict(scene_pieces('D',['D1a','D2a','D2b','D2c','D3a','D3b','D3c','D3c2','D3d','D3e','D3f']))
+    groups=[(1,['D1a']),(2,['D2a','D2b','D2c']),(3,['D3a','D3b','D3c','D3c2','D3d','D3e','D3f'])]
     for k,ds in groups:
         seq.append((f'T{k}',title_piece(k)))
         for d in ds:seq.append((d,sc[d]))
@@ -60,8 +60,8 @@ def parte1():
     return seq
 def parte2():
     seq=[('SG',sigla_piece(KIT+'sigle/Sigla_Storia_arte_15s.mp4','SG')),('SP',ap('SPIE'))]
-    sc=dict(scene_pieces('D',['D4a','D4b','D4c','D4d','D4e','D4f','D5a','D5b','D5c','D5d','D5e','D5f','D5g']))
-    for k,ds in [(4,['D4a','D4b','D4c','D4d','D4e','D4f']),(5,['D5a','D5b','D5c','D5d','D5e','D5f','D5g'])]:
+    sc=dict(scene_pieces('D',['D4a','D4b','D4b2','D4b3','D4c','D4d','D4e','D4f','D5a','D5b','D5c','D5d','D5e','D5f','D5f2','D5f3','D5g']))
+    for k,ds in [(4,['D4a','D4b','D4b2','D4b3','D4c','D4d','D4e','D4f']),(5,['D5a','D5b','D5c','D5d','D5e','D5f','D5f2','D5f3','D5g'])]:
         seq.append((f'T{k}',title_piece(k)))
         for d in ds:seq.append((d,sc[d]))
         seq.append((f'AP{k}',ap(f'AP{k}')))

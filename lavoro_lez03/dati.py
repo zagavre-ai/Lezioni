@@ -44,6 +44,7 @@ DID={'crystal':'Joseph Paxton, Crystal Palace a Londra, 1851 (distrutto nel 1937
  'atelier':"Gustave Courbet, L'atelier del pittore.",'vagone':'Honoré Daumier, Il vagone di terza classe, 1863-65; olio su tela, 65 per 90 centimetri. Ottawa (Canada), National Gallery of Canada.',
  'rotonda':'Giovanni Fattori, La rotonda dei bagni Palmieri, 1866; olio su tavola, 12 per 35 centimetri. Firenze, Galleria d\'arte moderna.',
  'invedetta':'Giovanni Fattori, In vedetta, 1871 circa; olio su tela, 37 per 56 centimetri. Collezione privata.',
+ 'brighton':'John Nash, Brighton Pavilion, dal 1815. Brighton.','angelus':"Jean-François Millet, L'Angelus, 1857-59.",'pergolato':'Silvestro Lega, Il pergolato, 1868.','agitate':'Telemaco Signorini, La sala delle agitate al Bonifazio di Firenze, 1865.',
  'toeletta':'Telemaco Signorini, La toeletta del mattino, 1898; olio su tela, 120 per 175 centimetri. Collezione privata.'}
 if __name__=='__main__':
     for p in LAB:

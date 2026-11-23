@@ -23,10 +23,10 @@ def _list(states,total_frames,path):
         f.write(f"file '{states[-1][0]}'\n")
     return states
 def key_of(*a):return hashlib.md5(json.dumps(a,default=str).encode()).hexdigest()[:14]
-CAM='crop=180:135:856:345,scale=412:309:flags=lanczos,unsharp=5:5:0.5:3:3:0.0,eq=contrast=1.03:saturation=1.04,fps=30,setsar=1'
+CAM='crop=180:135:856:345,scale=412:309:flags=lanczos,unsharp=3:3:0.4:3:3:0.0,eq=contrast=1.03:saturation=1.04,fps=30,setsar=1'
 import numpy as np
 CAMW,CAMH=412,309
-CAMV='crop=180:135:856:345,scale=412:309:flags=lanczos,unsharp=5:5:0.5:3:3:0.0,eq=contrast=1.03:saturation=1.04,fps=30,setsar=1'
+CAMV='crop=180:135:856:345,scale=412:309:flags=lanczos,unsharp=3:3:0.4:3:3:0.0,eq=contrast=1.03:saturation=1.04,fps=30,setsar=1'
 def _rd(p,n):
     b=bytearray()
     while len(b)<n:
@@ -36,7 +36,7 @@ def _rd(p,n):
     return bytes(b)
 def _enc(out_v,N):
     return subprocess.Popen(['ffmpeg','-v','error','-y','-f','rawvideo','-pix_fmt','rgb24','-s','1920x1080','-r','30','-i','-','-frames:v',str(N),
-        '-c:v','libx264','-preset','veryfast','-crf','21','-pix_fmt','yuv420p','-r','30','-an',out_v],stdin=subprocess.PIPE)
+        '-c:v','libx264','-preset','veryfast','-crf','20','-pix_fmt','yuv420p','-r','30','-an',out_v],stdin=subprocess.PIPE)
 _png_cache={}
 def load_png(p):
     if p not in _png_cache:
@@ -46,7 +46,7 @@ def load_png(p):
 def doc_piece(name,src,subs,states,tag=''):
     """pezzo con il prof: subs=[(x,y)] intervalli sorgente, states=[(png,frames)] in tempo d'uscita (il riquadro del prof si sovrappone)"""
     frames=[nfr(y-x) for x,y in subs];N=sum(frames)
-    k=key_of('doc3',src,subs,[(p,f) for p,f in states],tag)
+    k=key_of('doc4',src,subs,[(p,f) for p,f in states],tag)
     v=f'{OUT}/pezzi/{name}_{k}.mp4';a=f'{OUT}/pezzi/{name}_{k}.wav'
     if os.path.exists(v) and os.path.exists(a):return dict(v=v,a=a,n=N,first=states[0][0],last=states[-1][0],name=name,src=src,subs=subs)
     s=sum(f for _,f in states)

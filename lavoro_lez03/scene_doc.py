@@ -3,11 +3,14 @@ import sys;sys.path.insert(0,'/home/user/Lezioni/lavoro_lez03')
 from sorgente import *
 import dati,lib,montaggio as M
 SRC='/tmp/w/src/LEZIONE 3 IL REALISMO.mp4'
-def K(t,**kw):return boundary_near(t,**kw)
-IMGKW={'crystal':4,'parigi':5,'galleria':7,'opera':9,'pedrocchino':10,'mole':10,'spigolatrici':13,'spaccapietre':14,'atelier':15,'vagone':17,'rotonda':18,'invedetta':19,'toeletta':21}
-TITOLI_IMG={'crystal':dati.TIT[3],'parigi':dati.TIT[3],'galleria':dati.TIT[6],'opera':dati.TIT[8],'pedrocchino':dati.TIT[8],'mole':dati.TIT[8],
+def K(t,**kw):
+    for k,x in enumerate(SENT):
+        if abs(x[0]-t)<0.05:return k
+    return boundary_near(t,**kw)
+IMGKW={'brighton':100,'angelus':101,'pergolato':102,'agitate':103,'crystal':4,'parigi':5,'galleria':7,'opera':9,'pedrocchino':10,'mole':10,'spigolatrici':13,'spaccapietre':14,'atelier':15,'vagone':17,'rotonda':18,'invedetta':19,'toeletta':21}
+TITOLI_IMG={'brighton':dati.TIT[8],'angelus':dati.TIT[12],'pergolato':dati.TIT[20],'agitate':dati.TIT[20],'crystal':dati.TIT[3],'parigi':dati.TIT[3],'galleria':dati.TIT[6],'opera':dati.TIT[8],'pedrocchino':dati.TIT[8],'mole':dati.TIT[8],
  'spigolatrici':dati.TIT[12],'spaccapietre':dati.TIT[12],'atelier':dati.TIT[12],'vagone':dati.TIT[16],'rotonda':dati.TIT[18],'invedetta':dati.TIT[18],'toeletta':dati.TIT[20]}
-VISTE={'crystal':[None,(0.1,0.3,0.95,0.85)],'spigolatrici':[None,(0.0,0.12,0.8,0.95)],'toeletta':[None,(0,0,0.6,1),(0.4,0,1,1)],
+VISTE={'brighton':[None],'angelus':[None],'pergolato':[None],'agitate':[None],'crystal':[None,(0.1,0.3,0.95,0.85)],'spigolatrici':[None,(0.0,0.12,0.8,0.95)],'toeletta':[None,(0,0,0.6,1),(0.4,0,1,1)],
  'opera':[None,(0.3,0.0,1,0.62),(0,0.35,0.8,1)],'mole':[None,(0.2,0,0.8,0.5),(0,0.45,1,1)],'spaccapietre':[None,(0,0.1,0.55,1),(0.45,0.0,1,0.9)],
  'atelier':[None,(0.15,0.2,0.75,1)],'parigi':[None,(0.25,0.25,0.75,0.8)],'vagone':[None],'rotonda':[None],'invedetta':[None],'galleria':[None],'pedrocchino':[None]}
 WIN={2:[[0,1,2],[3,4]],3:[[0,1,2],[3,4]],6:[[0,1,2],[3,4]],8:[[0,1,2],[3,4]],11:[[0,1,2],[3,4]],12:[[0,1,2],[3,4]],16:[[0,1],[2,3]],18:[[0,1]],20:[[0,1,2]]}
@@ -15,9 +18,9 @@ WIN={2:[[0,1,2],[3,4]],3:[[0,1,2],[3,4]],6:[[0,1,2],[3,4]],8:[[0,1,2],[3,4]],11:
 SCENE=[
  ('D1a','txt',2,None),
  ('D2a','txt',3,394),('D2b','img','crystal',675),('D2c','img','parigi',861),
- ('D3a','txt',6,1031),('D3b','img','galleria',1341),('D3c','txt',8,1406),('D3d','img','opera',1711),('D3e','img','pedrocchino',2018),('D3f','img','mole',2065),
- ('D4a','txt',11,2278),('D4b','txt',12,2489),('D4c','img','spigolatrici',2541),('D4d','txt',12,2724),('D4e','img','spaccapietre',2789),('D4f','img','atelier',2949),
- ('D5a','txt',16,3099),('D5b','img','vagone',3186),('D5c','txt',18,3279),('D5d','img','rotonda',3288),('D5e','img','invedetta',3374),('D5f','txt',20,3455),('D5g','img','toeletta',3538)]
+ ('D3a','txt',6,1031),('D3b','img','galleria',1341),('D3c','txt',8,1406),('D3c2','img','brighton',1660.9),('D3d','img','opera',1711),('D3e','img','pedrocchino',2018),('D3f','img','mole',2065),
+ ('D4a','txt',11,2278),('D4b','txt',12,2489),('D4b2','img','angelus',2508.0),('D4b3','txt',12,2518.3),('D4c','img','spigolatrici',2541),('D4d','txt',12,2724),('D4e','img','spaccapietre',2789),('D4f','img','atelier',2949),
+ ('D5a','txt',16,3099),('D5b','img','vagone',3186),('D5c','txt',18,3279),('D5d','img','rotonda',3288),('D5e','img','invedetta',3374),('D5f','txt',20,3455),('D5f2','img','pergolato',3513.4),('D5f3','img','agitate',3522.2),('D5g','img','toeletta',3538)]
 def piano_scene(k_intro=None):
     """lista di dict: nome, tipo, id, k0, k1 (indici di frase)"""
     ks=[]
