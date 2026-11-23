@@ -2,7 +2,7 @@
  "tag": "letteratura-V-lez18",
  "parti": {
   "1": {
-   "stato": "IN_LAVORO",
+   "stato": "IN_MONTAGGIO",
    "video": "Letteratura_Lez18_Parte1_1080p.mp4",
    "durata_s": 3031.1,
    "durata": "50:31.1",
@@ -111,7 +111,11 @@
   {
    "quando": "23/11 13:07",
    "testo": "23/11 riparto: correzioni respinta master (quiz/titoli blu animato, schede mute, finale con sigla diritti, pause oltre 2,5 s, taglio 9:01-9:10). Controllo rapido in corso."
+  },
+  {
+   "quando": "23/11 13:52",
+   "testo": "REVISIONATA correzioni 22/11 fatte (riconsegna 23/11): schede titolo/quiz/ripasso/verifica/compiti in blu scuro animato, nessuna scheda muta (sottofondo), sigla finale kit + intro Compiti, taglio parlato sul montaggio 9:01-9:10. controllo_rapido ESITO OK, durata 49:57,9, -16,1 LUFS. Foglio e json sul ramo."
   }
  ],
- "aggiornato": "2026-11-23 13:07:44"
+ "aggiornato": "2026-11-23 13:52:58"
 }
