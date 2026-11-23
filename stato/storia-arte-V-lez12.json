@@ -1,7 +1,7 @@
 {
  "tag": "storia-arte-V-lez12",
  "parti": {},
- "manca": "attendo voci Kore",
+ "manca": "voci Kore non arrivate",
  "serve_master": [
   {
    "quando": "22/11 23:09",
@@ -10,6 +10,10 @@
   {
    "quando": "23/11 08:03",
    "testo": "lez12: le voci Kore non sono ancora sul ramo voci-storia-arte-V-lez12 (testi_voci.json, 22 voci incluso COMPITI). Dopo l'arrivo mi servono circa 2 ore per controllo, rimontaggio, controlli e consegna: se arrivano dopo le 9:30 UTC (11:30 italiane) rischio di non chiudere entro le 13:00."
+  },
+  {
+   "quando": "23/11 09:30",
+   "testo": "lez12: sono le 11:30 italiane e le 22 voci Kore di scambio/storia-arte-V-lez12/testi_voci.json non sono ancora su voci-storia-arte-V-lez12 (nessun vox/). Il video è pronto con voci provvisorie (60 min, controllo_rapido OK): non lo consegno così. Servono circa 2 ore dall'arrivo delle voci: la consegna alle 13:00 è a rischio. Se la quota non basta per tutte, le priorità sono: COMPITI, V0_BENVENUTO, AN1A..AN4B, PILL1..4, M0..M6, GLOSS, RF. Dimmi come procedere o se la scadenza si sposta."
   }
  ],
  "domande_sara": [],
@@ -89,7 +93,11 @@
   {
    "quando": "23/11 09:08",
    "testo": "23/11 09:08 UTC: montaggio con voci provvisorie pronto; voci non ancora sul ramo"
+  },
+  {
+   "quando": "23/11 09:30",
+   "testo": "23/11 09:30 UTC: montaggio completo con voci provvisorie, pronto a rimontare in circa 2 ore dall'arrivo delle voci"
   }
  ],
- "aggiornato": "2026-11-23 09:08:15"
+ "aggiornato": "2026-11-23 09:30:06"
 }
