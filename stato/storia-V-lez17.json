@@ -715,8 +715,12 @@
   {
    "quando": "23/11 11:46",
    "testo": "correzioni 22/11 fatte: consegnate le 3 Parti su revisione-storia-V-lez17 (controllo rapido OK x3, foglio e json, rapporto con limiti dichiarati). Non corretto/da decidere: card accesa a lungo, sincronia approssimata, sbavature grafiche in P3 (etichetta/pillola), sigle su schede scure vecchie, voci AP7 e SPG2_3 e nomi stranieri da riascoltare, P2/P3 sotto 50 min. Consegna in ritardo (voci arrivate alle 10:30 UTC)."
+  },
+  {
+   "quando": "23/11 11:46",
+   "testo": "stato complessivo REVISIONATA (3 Parti)"
   }
  ],
- "aggiornato": "2026-11-23 11:46:10",
- "stato": "IN_REVISIONE"
+ "aggiornato": "2026-11-23 11:46:16",
+ "stato": "REVISIONATA"
 }
