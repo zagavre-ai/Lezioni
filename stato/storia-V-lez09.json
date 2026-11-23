@@ -108,7 +108,11 @@
   {
    "quando": "23/11 10:49",
    "testo": "Riparto con le correzioni: schede ripasso blu scuro, immagini del prof ingrandite e migliorate (erano piccole), niente schede mute oltre 2,5 s (mappe, verifica), compiti con voce Kore. Ho aggiunto COMPITI ai testi voci (ramo voci-storia-V-lez09): serve la voce. Ricostruisco i pezzi, poi controllo_rapido e consegna foglio+json. Domanda: per la verifica finale (10 domande senza voce) uso un suono di quiz a ogni scheda per non avere silenzi: va bene?"
+  },
+  {
+   "quando": "23/11 11:33",
+   "testo": "23/11 11:35: la macchina si è riavviata e ha interrotto la ricostruzione; l'ho rilanciata (schede ripasso blu scuro, immagini ingrandite, niente schede mute, titolo scheda con «Lezione 9»). Poi controllo_rapido, foglio e json."
   }
  ],
- "aggiornato": "2026-11-23 10:49:46"
+ "aggiornato": "2026-11-23 11:33:40"
 }
