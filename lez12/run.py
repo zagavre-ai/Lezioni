@@ -158,7 +158,7 @@ def kfile(f, name):
 def build(name, nxt=None):
     """restituisce (file, durata)"""
     nextprof = nxt is not None and nxt.startswith('D')
-    if name == 'SIG': return kfile('/home/user/Lezioni/kit/sigle/Sigla_Storia_15s.mp4', 'SIG')
+    if name == 'SIG': return kfile('/home/user/Lezioni/kit/sigle/Sigla_Storia_arte_15s.mp4', 'SIG')
     if name == 'SF': return kfile('/home/user/Lezioni/kit/sigle/Sigla_finale_5s_con_avviso_diritti.mp4', 'SF')
     if name == 'COVER':
         return kore('COVER', 'V0_BENVENUTO', None, lambda k: S.png_cover(False), start_j='trans', end_j='trans', hold=1.2, v0=1.9)
