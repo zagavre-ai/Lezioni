@@ -42,6 +42,10 @@
   {
    "quando": "23/11 10:16",
    "testo": "Ore 11:15: voci lez18 non arrivate, mi fermo (nessun altro controllo). Quando le caricate in scambio/storia-arte-V-lez18/vox/ (voci-storia-arte-V-lez18) scrivete 'VOCI PRONTE lez18' in DALLA_MASTER: riprendo da li' e servono ~1h30 per consegnare. Pronti: montaggio completo con voci provvisorie (56:35), dispensa, PDF mappe, quiz/verifica/compiti json. Nessuna opera extra da procurare: uso solo le immagini del PDF del prof."
+  },
+  {
+   "quando": "23/11 11:45",
+   "testo": "12:45: lez18 NON consegnabile alle 13:00: le voci Kore non sono sul ramo voci-storia-arte-V-lez18 (solo testi_voci.json) e non ci sono correzioni con i minuti. Tutto il resto e' pronto (montaggio con voci provvisorie, dispensa, PDF mappe, json). Appena le voci arrivano servono ~1h30. Resto attiva e controllo ogni 20 minuti."
   }
  ],
  "domande_sara": [],
@@ -58,5 +62,5 @@
  "materia": "Storia dell'arte V",
  "lezione": "Lezione 18 · Postmodernità e globalizzazione",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-23 10:16:00"
+ "aggiornato": "2026-11-23 11:45:53"
 }
