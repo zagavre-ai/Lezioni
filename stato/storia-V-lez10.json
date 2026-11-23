@@ -18,6 +18,10 @@
   {
    "quando": "23/11 04:03",
    "testo": "STATO 04:25 UTC. Controllo severo sulle Parti con voci provvisorie: restano solo pause mute dovute alle voci provvisorie (schermate ferme, copertina, titoli ora a posto). Schede quiz accorciate a 4,2 s per evitare pause mute. Dispensa e mappe PDF rifatti. Compiti con voce unica COMPITI. Mi fermo fino alle voci (ore 9 italiane), poi montaggio finale, controllo_rapido e agente separato."
+  },
+  {
+   "quando": "23/11 08:25",
+   "testo": "08:30 UTC. Ricevute 7 voci (COMPITI, SPG2, VER, MAP2N, SC3_1_R2, SC5_1_R2, SC7_1_R2): controllate, bordi sotto 0,03, testo ok. MANCANO 7 voci dal mio testi_voci.json: BENV2, MAP1N, MAP3N, P4_R2, SC4_5_R2, SC6_5_R2, RF1_R2. Senza queste non posso consegnare alle 11:00 italiane. Montaggio finale richiede circa 45 minuti: devo avere le voci entro le 09:00 UTC (10:00 italiane). Intanto monto il resto."
   }
  ],
  "domande_sara": [],
@@ -37,5 +41,5 @@
  ],
  "materia": "Storia V",
  "lezione": "Lezione 10 · La Germania da Weimar al nazismo",
- "aggiornato": "2026-11-23 04:03:22"
+ "aggiornato": "2026-11-23 08:25:01"
 }
