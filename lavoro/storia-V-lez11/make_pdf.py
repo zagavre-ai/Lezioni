@@ -21,7 +21,7 @@ for (key,w),num in items:
     if key=='FOTO':
         r.shot(foto_html(num,False),fn);pages.append((fn,['01 · L\'ascesa di Stalin','Iosif Stalin']));continue
     p=PAGES[key]
-    h,_=frame(p['kick'],p['title'],p['cards'],list(w),None,[],None,num,prof=False,wide=True,fs=40 if key.startswith('p') else 46)
+    h,_=frame(p['kick'],p['title'],p['cards'],list(w),None,[],None,num,prof=False,wide=True,fs=40 if key.startswith('p') else 46,dark=key.startswith('SC'))
     r.shot(h,fn)
     txt=[p['kick'],re.sub('<[^>]+>','',p['title'])]+[p['cards'][i-1] for i in w]
     pages.append((fn,txt))

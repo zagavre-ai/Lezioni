@@ -18,6 +18,7 @@ for g in ('GL1','GL2'):
 import json as _j
 CP=_j.load(open(W+'/rev/revisione-storia-V-lez11/compiti.json'))['esercizi']
 def cg(t): return t.replace('PCUS','PCUS (Partito Comunista dell\'Unione Sovietica)')
+PAGES['CP3']=dict(prof=False,kick='Compiti',title='Ora tocca a te',cards=['Svolgi i compiti qui sotto e premi Consegna: arrivano al docente nel tuo quaderno dei compiti.'],kws=[])
 PAGES['CP1']=dict(prof=False,kick='Compiti',title='Ora tocca a te',cards=[f"Esercizio {e['n']}: {cg(e['testo'])}" for e in CP[:2]],kws=[])
 PAGES['CP2']=dict(prof=False,kick='Compiti',title='Ora tocca a te',cards=[f"Esercizio {e['n']}: {cg(e['testo'])}" for e in CP[2:]],kws=[])
 GLS=[('NEP','NEP (Nuova politica economica)'),('Gulag','Gulag (campi di lavoro forzato)'),('Comintern','Comintern (Internazionale comunista)'),('Komsomol','Komsomol (organizzazione giovanile comunista)'),('kolchoz','kolchoz (cooperativa agricola)'),('sovchoz','sovchoz (azienda agricola pubblica)')]
@@ -57,7 +58,7 @@ def plan():
         key=f'SC{t}';evs,end=ev_SC(t);ev=[(0,None)]+[(a,i) for a,i,nm,d in evs];VC[key]=(ev,windows_vc(key,ev))
     for g in ('GL1','GL2'):
         tf=tempi_frasi(g,TXT[g]);ev=[(0,None)]+[(a,i) for i,(a,b,f) in enumerate(tf[1:],1)];VC[g]=(ev,windows_vc(g,ev))
-    for c in ('CP1','CP2'):
+    for c in ('CP1','CP2','CP3'):
         ev=[(0,None)];VC[c]=(ev,windows_vc(c,ev))
     pn={};n=[1]
     def reg(key,w):
@@ -69,7 +70,7 @@ def plan():
         for k in range(3*t-2,3*t+1):
             for w in VC[f'AN{k}'][1]: reg(f'AN{k}',w)
         for w in VC[f'SC{t}'][1]: reg(f'SC{t}',w)
-    for g in ('GL1','GL2','CP1','CP2'):
+    for g in ('GL1','GL2','CP1','CP2','CP3'):
         for w in VC[g][1]: reg(g,w)
     return wins,VC,pn
 def vc_seq(key,ev,wins,pn,t0,t_end):
@@ -81,7 +82,7 @@ def vc_seq(key,ev,wins,pn,t0,t_end):
         p=pn[(key,tuple(w))];P=PAGES[key]
         png=f'{B}/st/{key}_{"".join(map(str,w))}_{act}_{p}.png'
         if not os.path.exists(png):
-            h,_=frame(P['kick'],P['title'],P['cards'],w,act,[],None,p,prof=False,wide=True,fs=46);r.shot(h,png)
+            h,_=frame(P['kick'],P['title'],P['cards'],w,act,[],None,p,prof=False,wide=True,fs=46,dark=key.startswith('SC'));r.shot(h,png)
         seq.append([s,e,png])
     return seq
 def enc_seq(seq,dur,out):

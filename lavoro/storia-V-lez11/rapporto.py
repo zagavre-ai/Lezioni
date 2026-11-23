@@ -6,12 +6,16 @@ OUT=B+'/consegna/RAPPORTO_REVISIONE.md'
 tl=json.load(open(B+'/timeline_Parte1_full.json'))['tl']
 ver=open(B+'/verifica.txt').read() if os.path.exists(B+'/verifica.txt') else '(controllo non eseguito)'
 agente=open(B+'/agente.txt').read() if os.path.exists(B+'/agente.txt') else '(controllo dell\'agente separato non ancora eseguito)'
-NEWV=['BENV1_R2','MP1','MP23','MP4','COMP1','COMP2']
-miss=[n for n in NEWV if not os.path.exists(f'{W}/vc/scambio/storia-V-lez11/vox/{n}.wav')]
-if miss:
-    voci=("**ATTENZIONE: questo video NON è definitivo.** Le voci "+', '.join(miss)+" non sono ancora arrivate dalla master: nel video ci sono silenzi della durata stimata al posto del benvenuto in copertina (0:15-0:32), delle 3 mappe del prof (la sincronia ramo per ramo è stimata sul testo) e della lettura dei compiti. Per questo lo stato è IN_MONTAGGIO e non REVISIONATA. Appena arrivano si ricodifica una volta sola (circa 40 minuti). Le altre voci (AN, SC, R, GL, RIEP, FIN, COMPI) sono le Kore già generate dalla master. Le voci R3, R4, SC6_1..SC6_4 hanno i bordi non puliti (misura dell'agente separato: ampiezza fino a 0,54 nei primi/ultimi 50 ms): richieste come _R2; nel montaggio ogni voce ha comunque dissolvenza di 30 ms.")
-else:
-    voci="Tutte le voci nuove sono arrivate e sono state montate (BENV1_R2, MP1, MP23, MP4, COMP1, COMP2)."
+import os as _o
+VX=f'{W}/vc/scambio/storia-V-lez11/vox/'
+c3=_o.path.exists(VX+'COMP3.wav')
+mp4r=_o.path.exists(VX+'MP4_R2.wav');c1r=_o.path.exists(VX+'COMP1_R2.wav')
+voci=("Voci nuove arrivate dalla master e montate: BENV1_R2 (benvenuto senza nome), MP1, MP23, MP4, COMP1, COMP2 e le rigenerate R3_R2, R4_R2, SC6_1_R2…SC6_4_R2 (bordi). Trascritte e confrontate con il testo (similarità 0,75–1,0; le differenze sono nomi stranieri sbagliati dal riconoscimento automatico, non ascoltati).\n"
+ "- **MP4 (prima versione) difettosa**: leggeva ad alta voce le istruzioni di stile («Dizione italiana cristallina? Timbro luminoso e accogliente…») e ripete la domanda. "+("Sostituita con la MP4_R2 rigenerata dalla master (trascritta: pulita)." if mp4r else "Montata solo la parte corretta (da 16,95 s), richiesta MP4_R2.")+"\n"
+ "- **COMP1 (prima versione) difettosa**: ripeteva l'esercizio 1 e legge l'esercizio 2 con l'anno sbagliato (1924 invece di 1929) prima di ripeterlo giusto. "+("Sostituita con la COMP1_R2 rigenerata (trascritta: pulita)." if c1r else "Montate le parti corrette.")+"\n"
+ +("- COMP3 (chiusura dei compiti «Svolgi i compiti qui sotto e premi Consegna…») arrivata e montata.\n" if c3 else "- **COMP3 NON arrivata**: la frase di chiusura dei compiti (voce e schermo) è montata con una tenuta muta di 7 s al posto della voce (scheda muta oltre 2,5 s: da sostituire appena arriva).\n")
+ +"- I compiti sono letti dalle voci COMP1 e COMP2 (parole esatte del prof) e si accendono uno alla volta con il bordo giallo (regola del 22/11). Il piano della master prevedeva una voce sola COMPITI: avevo già richiesto COMP1 e COMP2 prima del messaggio.\n"
+ "- Le schede Quiz e Verifica dicono «Rispondi · premi Controlla · poi Continua» (regola 22/11 22:30).")
 sev=open(B+'/severo.txt').read() if os.path.exists(B+'/severo.txt') else '(non eseguito)'
 def mm(s): return f'{int(s//60)}:{s%60:04.1f}'
 NAMES={'S0':'Sigla Storia (kit, 15 s)','C0':'Copertina + benvenuto (voce Kore, senza riquadro del docente)','D0':'Copertina + introduzione del docente (57,6 s, riquadro solo mentre parla; foto di Iosif Stalin a 54,3 s)','GL':'Glossario animato (GL1 + GL2, 11 termini)','RF':'Ripasso finale argomento per argomento (RIEP1)','FI':'Chiusura (FIN1)','VF':'Scheda Verifica di sbarramento (80%, test Excel del prof, 10 domande)','SF':'Sigla finale con avviso dei diritti (kit)','CI':'Intro «Compiti» (jingle)','CS':'Compiti del docente (4 esercizi, 2 schermate, voce COMP1/COMP2)'}
@@ -95,7 +99,6 @@ Dissolvenza di 0,4 s (0,8 s sigla→copertina) e `trans.wav` a ogni cambio di pe
 
 ## Scelte da confermare
 - Nel rientro del prof sui «risultati industriali» (argomento 3, 765–871 s dell'originale) la schermata mostra le card 2 (attenuata) e 3 (accesa) della pagina «La grande svolta»: la card 2 era già comparsa nell'argomento 2 («già visto» del disciplinare BES), ma mostrare la sola card 3 per 105 s avrebbe violato la regola «card sola». Scelta da confermare.
-- Le schede Quiz mantengono il testo del modello approvato «Rispondi · premi Check · poi Continua» (nomi dei pulsanti).
 - La sigla Storia di 15 s del kit contiene la scritta «[FATTI · CAUSE · CONSEGUENZE]» in carattere mono: è il file del kit, non modificato.
 - Il quiz e la verifica sono quelli già approvati (JSON), con «URSS» sostituito da «Unione Sovietica».
 

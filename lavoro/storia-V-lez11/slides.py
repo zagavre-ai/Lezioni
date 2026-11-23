@@ -36,6 +36,11 @@ html,body{width:1920px;height:1080px;background:#fff;overflow:hidden;font-family
 #kw .k.on{background:#FFE600;color:#0B1530}
 #kw div.r{display:block}
 """
+LOGO_W=base64.b64encode(open(B+'/Telesio_logo_bianco.svg','rb').read()).decode()
+DARK='''<style>html,body{background:radial-gradient(1400px 900px at 30% 20%,#13224A 0%,#0A1330 55%,#060A1B 100%)!important;color:#F3F5FA}
+#hl,#fl{background:rgba(255,255,255,.16)!important}#kick,#ft,#pg{color:#E3A95C!important}#ttl{color:#fff!important}#bar{background:#E3A95C!important}
+.card{background:rgba(255,255,255,.08)!important;border:2px solid rgba(255,255,255,.2)!important;color:#F3F5FA;box-shadow:0 18px 40px rgba(0,0,0,.35)!important}
+.card .n{background:rgba(255,255,255,.2)!important;color:#fff!important}.card.on{border:5px solid #FFE600!important;background:rgba(255,255,255,.14)!important}.card.on .n{background:#FFE600!important;color:#0B1530!important}</style>'''
 class R:
     def __init__(s):
         s.p=sync_playwright().start()
@@ -50,10 +55,10 @@ def cardhtml(i,txt,state,num=None):
     lab,_,rest=txt.partition(':')
     t=f'<b>{lab}:</b>{rest}' if rest else txt
     return f'<div class="card {state}" id="c{i}"><span class=n>{num or i}</span>{t}</div>'
-def frame(kick,title,cards,win,active,kws,kwa,pagen,prof=True,materia='STORIA V',top=None,wide=False,fs=40):
+def frame(kick,title,cards,win,active,kws,kwa,pagen,prof=True,materia='STORIA V',top=None,wide=False,fs=40,dark=False):
     """cards: lista testi; win: indici (1-based) mostrati; active: indice o None"""
     cy=0
-    h=f'<img id=logo src="data:image/svg+xml;base64,{LOGO}"><div id=hl></div><div id=kick>{html.escape(kick)}</div><div id=flow{' style="width:1760px"' if wide else ''}><div id=ttl{' style="width:1760px"' if wide else ''}>{title}</div><div id=bar></div>'
+    h=(DARK if dark else '')+f'<img id=logo src="data:image/svg+xml;base64,{LOGO_W if dark else LOGO}"><div id=hl></div><div id=kick>{html.escape(kick)}</div><div id=flow{' style="width:1760px"' if wide else ''}><div id=ttl{' style="width:1760px"' if wide else ''}>{title}</div><div id=bar></div>'
     h+=f'<div id=cards style="{"width:1760px;" if wide else ""}font-size:{fs}px">'
     for pos,i in enumerate(win,1):
         st='on' if i==active else ('dim' if active else '')

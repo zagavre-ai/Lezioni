@@ -42,12 +42,22 @@ if not done(n):
     m=Mix(tot)
     for a,g in places: m.voice(a,g)
     m.save(CL+n+'.wav');mark(n)
-# compiti (due pagine, voce COMP1/COMP2)
+# compiti: voce COMP1, COMP2, COMP3 (chiusura); ogni esercizio si accende quando la voce lo legge
 n='COMPITI_SL'
 if not done(n):
+    import subprocess as sp
+    if vpath('COMP3') is None:
+        sp.run(['ffmpeg','-y','-v','error','-f','lavfi','-i','anullsrc=r=24000:cl=mono','-t','7.0',B+'/vox_prov/COMP3.wav'],check=True)
     seq=[];o=0;pl=[]
-    for c,v in (('CP1','COMP1'),('CP2','COMP2')):
-        d=dur(vpath(v))+1.4;ev,wl=VC[c];seq+=vc_seq(c,ev,wl,pn,o,o+d);pl.append((o+0.6,v));o+=d
-    tot=nfr(o)/30;enc_seq(seq,tot,CL+n+'.mkv');m=Mix(tot)
-    for a,v in pl: m.voice(a,v)
-    m.save(CL+n+'.wav');mark(n)
+    for c,v,first in (('CP1','COMP1',1),('CP2','COMP2',3),('CP3','COMP3',1)):
+        d=dur(vpath(v))+1.2;w0=VC[c][1][0]
+        if c=='CP3': ev=[(0,None),(0.6,1)]
+        else:
+            tf=tempi_frasi(v,TXT[v]);ev=[(0,None)]+[(0.6+a,first+i) for i,(a,b_,f) in enumerate(tf)]
+        wl=[w0]*len(ev)
+        # indice attivo relativo alla pagina: CP1 -> 1,2 ; CP2 -> 3,4 -> nella pagina 1,2
+        seq+=vc_seq(c,[(t,(None if a is None else (a if c!='CP2' else a-2))) for t,a in ev],wl,pn,o,o+d);pl.append((o+0.6,v));o+=d
+    tot=nfr(o)/30;enc_seq(seq,tot,CL+n+'.mkv');m_=Mix(tot)
+    for a,v in pl: m_.voice(a,v)
+    if 'vox_prov' in vpath('COMP3'): m_.jingle(o-8.2+0.5,'finale',-3.0)
+    m_.save(CL+n+'.wav');mark(n)

@@ -38,7 +38,7 @@ def mapclip(name,mp,voice):
     subprocess.run(['ffmpeg','-y','-v','error','-i',src,'-vf','fps=30,format=yuv420p','-frames:v',str(n),'-c:v','libx264','-preset','veryfast','-crf','16',out],check=True)
     m=Mix(n/30);m.voice(1.0,voice)
     import json as _j
-    ev=_j.load(open(f'{B}/mp/{mp}.json'))['end_voice'];m.jingle(ev+0.5,'titolo',-4.0)
+    ev=_j.load(open(f'{B}/mp/{mp}.json'))['end_voice'];m.jingle(ev+1.2,'titolo',-3.0)
     m.save(CL+name+'.wav');open(out+'.ok','w').write('1')
 def clen(name): return float(subprocess.run(['ffprobe','-v','error','-show_entries','format=duration','-of','csv=p=0',CL+name+'.mkv'],capture_output=True,text=True).stdout)
 def order():
