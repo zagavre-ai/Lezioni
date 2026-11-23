@@ -14,6 +14,10 @@
   {
    "quando": "23/11 00:07",
    "testo": "STATO 00:10 UTC. Controllo severo su entrambe le Parti: RESPINTA (schermate ferme per pagina, copertina 260 s, pause da voci provvisorie). Corretto: pagina nuova a ogni stato, introduzione sulla copertina portata a 157 s, compiti con voce unica COMPITI (aggiunta a testi_voci.json). Ricostruzione in corso. Aspetto le voci domattina, poi montaggio finale, controllo_rapido e agente separato. Parte 1 dura 62 min."
+  },
+  {
+   "quando": "23/11 04:03",
+   "testo": "STATO 04:25 UTC. Controllo severo sulle Parti con voci provvisorie: restano solo pause mute dovute alle voci provvisorie (schermate ferme, copertina, titoli ora a posto). Schede quiz accorciate a 4,2 s per evitare pause mute. Dispensa e mappe PDF rifatti. Compiti con voce unica COMPITI. Mi fermo fino alle voci (ore 9 italiane), poi montaggio finale, controllo_rapido e agente separato."
   }
  ],
  "domande_sara": [],
@@ -33,5 +37,5 @@
  ],
  "materia": "Storia V",
  "lezione": "Lezione 10 · La Germania da Weimar al nazismo",
- "aggiornato": "2026-11-23 00:07:29"
+ "aggiornato": "2026-11-23 04:03:22"
 }
