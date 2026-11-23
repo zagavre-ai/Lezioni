@@ -3,32 +3,16 @@
  "parti": {
   "1": {
    "stato": "REVISIONATA"
-  },
-  "2": {
-   "stato": "REVISIONATA"
   }
  },
  "manca": "",
- "serve_master": [
-  {
-   "quando": "22/11 19:35",
-   "testo": "Sistemare le 2 card sole P1 e le pause lunghe; riconfermare ESITO OK"
-  },
-  {
-   "quando": "22/11 19:35",
-   "testo": "Sistemare le 2 card sole P1 e le pause lunghe; riconfermare ESITO OK"
-  }
- ],
+ "serve_master": [],
  "domande_sara": [],
  "note": [
   {
-   "quando": "22/11 19:35",
-   "testo": "correzioni 22/11 consegnate sul ramo: P1 49:43, P2 55:00, vtt/schede/PDF nuovi. Controllo severo RESPINTA: P1 2 card sole (24:50, 31:10) + 12 pause>2,5s; P2 pause 7 + falsi positivi OCR su pagine libro. Non risolti: vedi RAPPORTO_REVISIONE.md"
-  },
-  {
-   "quando": "22/11 19:35",
-   "testo": "correzioni 22/11 consegnate sul ramo: P1 49:43, P2 55:00, vtt/schede/PDF nuovi. Controllo severo RESPINTA: P1 2 card sole (24:50, 31:10) + 12 pause>2,5s; P2 pause 7 + falsi positivi OCR su pagine libro. Non risolti: vedi RAPPORTO_REVISIONE.md"
+   "quando": "23/11 12:54",
+   "testo": "correzioni 22/11 fatte + correzioni 23/11: schede a tutto schermo, piè di pagina senza nome (tranne 6 fotogrammi P1), pause mute tolte, verifica finale P2 reinserita. Durate misurate: P1 49:22, P2 54:38. Foglio e json del controllo rapido sul ramo. Mancano: voce Kore COMPITI (testo caricato sul ramo voci, non ancora arrivata)."
   }
  ],
- "aggiornato": "2026-11-22 19:35:19"
+ "aggiornato": "2026-11-23 12:54:42"
 }
