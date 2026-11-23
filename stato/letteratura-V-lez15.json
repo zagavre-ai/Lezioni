@@ -5,47 +5,22 @@
    "stato": "IN_REVISIONE",
    "voci": "kore",
    "video": "Letteratura_Lez15_Parte1_1080p.mp4",
-   "durata_s": 3177.7,
-   "durata": "52:57.7",
-   "fotogrammi": 95331,
-   "fotogrammi_attesi": 95331,
-   "peso_MB": 315.1,
+   "durata_s": 3180.6,
+   "durata": "53:00.6",
+   "fotogrammi": 95417,
+   "fotogrammi_attesi": 95417,
+   "peso_MB": 311.0,
    "vtt": "Letteratura_Lez15_Parte1.vtt"
   }
  },
  "manca": "",
- "serve_master": [
-  {
-   "quando": "22/11 19:31",
-   "testo": "lezione 15: consegnata oltre le 19:30 con difetti noti nel rapporto; posso fare un ultimo giro di ~40 min (toglie il fade sul prof, riallinea 4 card): dimmi se lo vuoi"
-  }
- ],
+ "serve_master": [],
  "domande_sara": [],
  "note": [
   {
-   "quando": "22/11 16:36",
-   "testo": "correzioni 22/11: presa da revisione-letteratura-V-lez15 (macchina ancora viva). Consegna prevista entro 19:30 UTC"
-  },
-  {
-   "quando": "22/11 16:56",
-   "testo": "30 min: slide ridisegnate (40 px, max 2 card intere, mappa BES del prof), codifica in corso; voci compiti richieste alla master; consegna prevista 19:30 UTC"
-  },
-  {
-   "quando": "22/11 17:46",
-   "testo": "60 min: video rimontato con nuove slide e mappa BES (assemblato); attendo voci CP3 e CP5 (compiti) dalla master; poi sottotitoli, PDF, controllo severo, consegna. Prevista 19:00-19:30 UTC"
-  },
-  {
-   "quando": "22/11 18:23",
-   "testo": "80 min: video assemblato (52:57), PDF dispensa e mappe fatti, voci compiti ok; in corso controllo severo e rapporto; consegna prevista 19:15 UTC"
-  },
-  {
-   "quando": "22/11 19:11",
-   "testo": "100 min: ricodifica finale in corso (numeri card piu' leggibili, pause riempite); poi controlli e consegna; prevista 19:35 UTC (5 min oltre scadenza per il ricontrollo)"
-  },
-  {
-   "quando": "22/11 19:31",
-   "testo": "correzioni 22/11 consegnate sul ramo revisione ma NON pulite: controllo severo RESPINTA (4 tratti 'card sola', falsi positivi OCR) + difetti dell'agente indipendente (lampi del riquadro prof, 4 sync card). Servono ~40 min: vedi RAPPORTO §7"
+   "quando": "23/11 11:24",
+   "testo": "23/11: correzioni master consegnate sul ramo revisione (con voce COMPITI provvisoria: 1 pausa muta a 52:54 finche' non arriva la voce). In attesa della voce COMPITI e di APPROVATA"
   }
  ],
- "aggiornato": "2026-11-22 19:31:21"
+ "aggiornato": "2026-11-23 11:24:59"
 }
