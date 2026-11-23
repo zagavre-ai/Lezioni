@@ -1,0 +1,222 @@
+{
+ "Q1": {
+  "title": "Quiz 1 · L'Italia fascista e il controllo delle arti",
+  "items": [
+   {
+    "p": "In quale anno Mussolini fonda i Fasci italiani di combattimento?",
+    "a": "1919",
+    "w": [
+     "1912",
+     "1922",
+     "1925"
+    ],
+    "ref": "I Fasci italiani di combattimento sono fondati da Benito Mussolini nel 1919."
+   },
+   {
+    "p": "Quale evento del 1922 porta il re a incaricare Mussolini di formare il governo?",
+    "a": "La Marcia su Roma",
+    "w": [
+     "Il Biennio rosso",
+     "L'assassinio di Matteotti",
+     "I Patti Lateranensi"
+    ],
+    "ref": "In seguito alla Marcia su Roma dell'ottobre 1922 il re incarica Mussolini di formare il governo."
+   },
+   {
+    "p": "Che cosa accade all'inizio del 1925?",
+    "a": "Mussolini si proclama Duce e sopprime le libertà di stampa e di associazione",
+    "w": [
+     "Nasce il Partito Comunista Italiano",
+     "Mussolini lascia il governo",
+     "Si firmano i Patti Lateranensi"
+    ],
+    "ref": "Nel 1925 Mussolini si proclama Duce, sopprimendo le libertà di stampa e di associazione."
+   },
+   {
+    "p": "Che cosa sono gli «sventramenti»?",
+    "a": "Demolizioni di quartieri storici medievali o barocchi per aprire nuove strade",
+    "w": [
+     "Restauri dei monumenti antichi",
+     "Nuovi quartieri di campagna",
+     "Mostre d'arte del regime"
+    ],
+    "ref": "Sventramenti: operazioni di demolizione dei tessuti storici medievali o barocchi."
+   },
+   {
+    "p": "Quale piazza di Brescia fu progettata da Marcello Piacentini tra il 1927 e il 1932?",
+    "a": "Piazza della Vittoria",
+    "w": [
+     "Piazza della Loggia",
+     "Piazza San Pietro",
+     "Piazza del Popolo"
+    ],
+    "ref": "Piazza della Vittoria, a Brescia, è stata realizzata tra il 1927 e il 1932."
+   }
+  ]
+ },
+ "Q2": {
+  "title": "Quiz 2 · L'architettura tra tradizione classica e Razionalismo",
+  "items": [
+   {
+    "p": "Chi progetta la Casa del Fascio di Como?",
+    "a": "Giuseppe Terragni",
+    "w": [
+     "Marcello Piacentini",
+     "Giovanni Muzio",
+     "Mario Sironi"
+    ],
+    "ref": "Giuseppe Terragni progetta la Casa del Fascio di Como, tra il 1932 e il 1936."
+   },
+   {
+    "p": "Che forma ha la pianta della Casa del Fascio di Como?",
+    "a": "Un quadrato perfetto",
+    "w": [
+     "Un cerchio",
+     "Un rettangolo molto allungato",
+     "Una croce"
+    ],
+    "ref": "La pianta dell'edificio è un quadrato perfetto."
+   },
+   {
+    "p": "Che cosa significa la sigla EUR?",
+    "a": "Esposizione Universale di Roma",
+    "w": [
+     "Esposizione Urbana Romana",
+     "Edificio Unico Razionalista",
+     "Ente Urbanistico di Roma"
+    ],
+    "ref": "EUR: Esposizione Universale di Roma, detta anche E42."
+   },
+   {
+    "p": "Con quale soprannome è noto il Palazzo della Civiltà Italiana?",
+    "a": "Colosseo quadrato",
+    "w": [
+     "Casa del Fascio",
+     "Ca' Brutta",
+     "Palazzo del Duce"
+    ],
+    "ref": "Il palazzo è noto come «Colosseo quadrato»."
+   },
+   {
+    "p": "Quale architetto, architetto di punta del regime, unisce il rigore razionalista alla monumentalità?",
+    "a": "Marcello Piacentini",
+    "w": [
+     "Giuseppe Terragni",
+     "Giovanni Muzio",
+     "Giovanni Guerrini"
+    ],
+    "ref": "Piacentini coniuga il rigore geometrico del razionalismo con la grandiosità monumentale."
+   }
+  ]
+ },
+ "Q3": {
+  "title": "Quiz 3 · Il ritorno all'ordine e la Metafisica",
+  "items": [
+   {
+    "p": "Chi è l'ideatore della pittura metafisica?",
+    "a": "Giorgio de Chirico",
+    "w": [
+     "Carlo Carrà",
+     "Mario Sironi",
+     "Felice Casorati"
+    ],
+    "ref": "Giorgio de Chirico è l'ideatore della pittura metafisica."
+   },
+   {
+    "p": "In quale città si sviluppa la pittura metafisica dal 1917?",
+    "a": "Ferrara",
+    "w": [
+     "Milano",
+     "Torino",
+     "Roma"
+    ],
+    "ref": "La pittura metafisica si sviluppa a Ferrara dal 1917."
+   },
+   {
+    "p": "Quale oggetto color mattone è inchiodato al muro in «Canto d'amore»?",
+    "a": "Un guanto di gomma",
+    "w": [
+     "Una squadra da disegno",
+     "Un manichino da sarto",
+     "Una palla verde"
+    ],
+    "ref": "In «Canto d'amore» c'è un grande guanto di gomma color mattone inchiodato al muro."
+   },
+   {
+    "p": "Quale caratteristica appartiene alla pittura metafisica?",
+    "a": "Scene sospese, prive di tempo, con ombre lunghe",
+    "w": [
+     "Pennellate rapide e colori puri",
+     "Soggetti dinamici e velocissimi",
+     "Scomposizione cubista delle forme"
+    ],
+    "ref": "Scene sospese, prive di tempo, con prospettive deformate e ombre lunghe."
+   },
+   {
+    "p": "A quale approdo artistico arriva Carlo Carrà dopo il Futurismo?",
+    "a": "A un personale «realismo mitico»",
+    "w": [
+     "All'Impressionismo",
+     "Al Dadaismo",
+     "Alla pittura murale monumentale"
+    ],
+    "ref": "Carrà passa dal Futurismo alla Metafisica, approdando a un personale «realismo mitico»."
+   }
+  ]
+ },
+ "Q4": {
+  "title": "Quiz 4 · Il Novecento italiano e l'opposizione",
+  "items": [
+   {
+    "p": "In quale anno nasce a Milano il gruppo del Novecento Italiano?",
+    "a": "1922",
+    "w": [
+     "1910",
+     "1919",
+     "1925"
+    ],
+    "ref": "Il Gruppo del Novecento è fondato a Milano nel 1922."
+   },
+   {
+    "p": "Quale critica d'arte guida il Gruppo del Novecento?",
+    "a": "Margherita Sarfatti",
+    "w": [
+     "Maria Gironi",
+     "Silvana Cenni",
+     "Alberto Savinio"
+    ],
+    "ref": "Il gruppo è guidato dalla critica d'arte Margherita Sarfatti."
+   },
+   {
+    "p": "Chi dipinge le cupe periferie urbane e le solitudini delle città moderne?",
+    "a": "Mario Sironi",
+    "w": [
+     "Arturo Martini",
+     "Giorgio Morandi",
+     "Felice Casorati"
+    ],
+    "ref": "Sironi traduce lo spirito del tempo in paesaggi urbani cupi e monumentali."
+   },
+   {
+    "p": "Quale movimento milanese, fondato da Ernesto Treccani, va contro la mentalità fascista?",
+    "a": "Corrente",
+    "w": [
+     "Futurismo",
+     "Novecento",
+     "Scuola di via Cavour"
+    ],
+    "ref": "A Milano si forma il movimento Corrente, fondato da Ernesto Treccani."
+   },
+   {
+    "p": "Che cos'è la scuola di via Cavour?",
+    "a": "Un gruppo di Roma contrario alla retorica monumentale del fascismo",
+    "w": [
+     "Una scuola di architettura di Milano",
+     "Un gruppo di pittori di Torino",
+     "Il gruppo di Margherita Sarfatti"
+    ],
+    "ref": "A Roma si sviluppa la scuola di via Cavour, contraria alla retorica monumentale del fascismo."
+   }
+  ]
+ }
+}

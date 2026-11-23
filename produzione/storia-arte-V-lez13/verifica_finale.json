@@ -1,0 +1,96 @@
+{
+ "titolo": "Verifica finale · Storia dell'arte V · Razionalismo e Metafisica",
+ "soglia": 0.8,
+ "domande": [
+  {
+   "p": "In quale anno sono stati fondati i Fasci italiani di combattimento da Benito Mussolini?",
+   "a": "1919",
+   "w": [
+    "1921",
+    "1922",
+    "1925"
+   ]
+  },
+  {
+   "p": "Quale deputato socialista venne assassinato dai fascisti nel giugno del 1924, precedendo la svolta autoritaria del regime?",
+   "a": "Giacomo Matteotti",
+   "w": [
+    "Antonio Gramsci",
+    "Ernesto Treccani",
+    "Felice Casorati"
+   ]
+  },
+  {
+   "p": "Dove e in quale anno si è sviluppata inizialmente la pittura metafisica grazie all'incontro tra Giorgio de Chirico e Carlo Carrà?",
+   "a": "A Ferrara nel 1917",
+   "w": [
+    "A Milano nel 1922",
+    "A Firenze nel 1910",
+    "A Monaco di Baviera nel 1907"
+   ]
+  },
+  {
+   "p": "Quale opera viene considerata dal testo come la prima composizione propriamente metafisica di Giorgio de Chirico?",
+   "a": "L'enigma di un pomeriggio d'autunno (1910)",
+   "w": [
+    "Le muse inquietanti (1918)",
+    "Canto d'amore (1914)",
+    "Il ritorno al mestiere (1919)"
+   ]
+  },
+  {
+   "p": "Quale insolito oggetto color mattone appare inchiodato in primo piano nel celebre dipinto \"Canto d'amore\" di De Chirico?",
+   "a": "Un guanto di gomma",
+   "w": [
+    "Una squadra da disegno",
+    "Un manichino da sarto",
+    "Una palla verde"
+   ]
+  },
+  {
+   "p": "Chi ha redatto nel 1933 il \"Manifesto della pittura murale\", sostenendo che lo stile dovesse essere antico e monumentale?",
+   "a": "Mario Sironi",
+   "w": [
+    "Giorgio Morandi",
+    "Arturo Martini",
+    "Giovanni Muzio"
+   ]
+  },
+  {
+   "p": "Per iniziativa di quale importante critica d'arte nacque a Milano, alla fine del 1922, il gruppo del \"Novecento Italiano\"?",
+   "a": "Margherita Sarfatti",
+   "w": [
+    "Silvana Cenni",
+    "Alberto Savinio",
+    "Maria Gironi"
+   ]
+  },
+  {
+   "p": "Quale famoso complesso di abitazioni milanese, progettato da Giovanni Muzio tra il 1919 e il 1922, ricevette l'ironico soprannome di \"Ca' Brutta\"?",
+   "a": "Il complesso di via Principe Umberto",
+   "w": [
+    "La Casa del Fascio",
+    "La Stazione di Santa Maria Novella",
+    "Il Palazzo della Civiltà Italiana"
+   ]
+  },
+  {
+   "p": "Chi è l'autore della drammatica tela \"Crocifissione\" (1941), espressione dell'opposizione degli intellettuali alla tragedia della guerra?",
+   "a": "Renato Guttuso",
+   "w": [
+    "Giacomo Manzù",
+    "Felice Casorati",
+    "Carlo Carrà"
+   ]
+  },
+  {
+   "p": "Quale architetto ha progettato la Casa del Fascio di Como tra il 1932 e il 1936, capolavoro del Razionalismo Italiano?",
+   "a": "Giuseppe Terragni",
+   "w": [
+    "Marcello Piacentini",
+    "Giovanni Guerrini",
+    "Ernesto Bruno La Padula"
+   ]
+  }
+ ]
+}
