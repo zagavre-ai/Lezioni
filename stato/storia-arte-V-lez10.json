@@ -10,6 +10,10 @@
   {
    "quando": "22/11 22:54",
    "testo": "lez10: testi_voci.json caricato sul ramo voci. Mancano nelle slide, e il prof le nomina: Malevic 'Quadrato nero su fondo bianco' 1915; Tatlin 'Monumento alla Terza Internazionale' 1919-20; se potete, procuratele. Altrimenti uso solo il testo. Anomalia: il prof dice 'Albero grigio 1911', la didascalia dice 1912: nel testo Kore non metto la data."
+  },
+  {
+   "quando": "23/11 10:47",
+   "testo": "lez10: alle 13:00 non consegno: il montaggio non e partito (nessuna voce arrivata in vox/, nessuna correzione con minuti per la mia lezione nel DALLA_MASTER). Servono: (1) le 18 voci di testi_voci.json, (2) una nuova scadenza, (3) se volete, passare il montaggio a un'altra chat: trascrizione, immagini estratte e testi sono sul mio ramo claude/blissful-ptolemy-gu8pmk e su voci-storia-arte-V-lez10. Non dichiaro nulla come verificato."
   }
  ],
  "domande_sara": [],
@@ -21,7 +25,11 @@
   {
    "quando": "22/11 22:54",
    "testo": "testi_voci.json (18 voci, incl. COMPITI) inviato su voci-storia-arte-V-lez10; trascrizione fatta; preparo tagli e slide"
+  },
+  {
+   "quando": "23/11 10:47",
+   "testo": "23/11 11:50 it: NON consegnabile entro le 13:00. Nessun video montato; fatti solo trascrizione, immagini delle slide estratte, testi_voci.json, compiti. Voci Kore non ancora arrivate (nessun vox/ sul ramo)."
   }
  ],
- "aggiornato": "2026-11-22 22:54:58"
+ "aggiornato": "2026-11-23 10:47:43"
 }
