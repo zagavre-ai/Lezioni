@@ -61,7 +61,11 @@
   {
    "quando": "23/11 03:49",
    "testo": "Ultimo giro di ricostruzione dei pezzi del prof (pagine ogni ~60 s di stessa card). Poi controlli, rapporto, controllo separato, consegna."
+  },
+  {
+   "quando": "23/11 04:48",
+   "testo": "Pezzi del prof e due Parti ricostruiti: nessuna schermata identica o pagina ferma oltre 3 min (controllo severo). Restano: voci Kore nuove (ancora 141 file sul ramo), poi ricodifica con limitatore picco (-1 dBTP), rapporto, controllo separato, consegna."
   }
  ],
- "aggiornato": "2026-11-23 03:49:36"
+ "aggiornato": "2026-11-23 04:48:01"
 }
