@@ -2,7 +2,7 @@
  "tag": "letteratura-V-lez18",
  "parti": {
   "1": {
-   "stato": "IN_MONTAGGIO",
+   "stato": "IN_LAVORO",
    "video": "Letteratura_Lez18_Parte1_1080p.mp4",
    "durata_s": 3031.1,
    "durata": "50:31.1",
@@ -107,7 +107,11 @@
   {
    "quando": "22/11 19:19",
    "testo": "19:19 UTC REVISIONATA correzioni 22/11 fatte, durata 50:31,1 (90934 fotogrammi). ATTENZIONE: controllo_severo.py NON arrivato a esito (>40 min su questa macchina); fatto controllo con agente indipendente, difetti corretti e residui elencati in RAPPORTO §2 (residuo montaggio del prof a 9:01, tratti lunghi senza card accesa, schede su fondo bianco, VER->SFIN tagli secchi). Quiz 3,4,5 cambiano secondo (rapporto §5)."
+  },
+  {
+   "quando": "23/11 13:07",
+   "testo": "23/11 riparto: correzioni respinta master (quiz/titoli blu animato, schede mute, finale con sigla diritti, pause oltre 2,5 s, taglio 9:01-9:10). Controllo rapido in corso."
   }
  ],
- "aggiornato": "2026-11-22 19:19:17"
+ "aggiornato": "2026-11-23 13:07:44"
 }
