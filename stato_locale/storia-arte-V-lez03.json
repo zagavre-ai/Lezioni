@@ -7,7 +7,7 @@
    "voci": "segnaposto"
   }
  },
- "manca": "",
+ "manca": "9 voci Kore; poi montaggio finale, controllo rapido OK, sottotitoli, rapporto con tabella dei tagli, video a pezzi (attenzione alla quota del repository)",
  "serve_master": [
   {
    "quando": "22/11 22:48",
@@ -83,10 +83,14 @@
   {
    "quando": "23/11 11:32",
    "testo": "12:35 it: voci nuove ancora solo AP2, AP4, ARG. Rimonto le due Parti con le voci provvisorie per mandare il foglio dei fotogrammi alla master; la consegna finale resta bloccata dalle 9 voci mancanti."
+  },
+  {
+   "quando": "23/11 12:09",
+   "testo": "FERMA IN ATTESA DELLE VOCI: mancano AP1, AP3, AP5, SPIE, MAPFR, MAPIT, VER, COMPITI, MAPFIN. Pronto: pezzi del prof (sincronia 0,022 s, timbro invariato), opere nuove, Parte1 44' (352 MB) e Parte2 35' (301 MB) con voci provvisorie, dispensa e PDF mappe, compiti/quiz/verifica json; foglio e json del controllo rapido sul ramo revisione-storia-arte-V-lez03 (bozza). Quando le voci arrivano: python3 lavoro_lez03/prendi_voci.py, finale.py 1 e 2 (~25 min), controllo_rapido, sottotitoli, rapporto, consegna."
   }
  ],
  "materia": "Storia dell'arte V",
  "lezione": "Lezione 3 · Il Realismo",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-23 11:32:58"
+ "aggiornato": "2026-11-23 12:09:34"
 }
