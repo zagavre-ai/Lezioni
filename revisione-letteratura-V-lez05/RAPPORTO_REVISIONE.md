@@ -1,6 +1,12 @@
 # RAPPORTO REVISIONE · Letteratura V · Lezione 5 · Giovanni Verga — correzioni 22/11/2026
 Etichette: **M** misurato · **S** stima · **NV** non verificato. Video a pezzi `.parte_00…04` + `.sha256` (sha256 dei pezzi ricomposti verificato: M).
 
+
+## 0. Aggiornamento 23/11 (ultima consegna)
+- `controllo_rapido.py`: **ESITO OK**, nessun errore (59,33 min, −16,4 LUFS, −1,4 dBTP, 381 MB); foglio dei fotogrammi guardato e consegnato (`foglio_fotogrammi_Letteratura_Lez5.jpg`, `controllo_rapido_Letteratura_Lez5.json`).
+- Corretto: piè di pagina **senza nome del docente** in tutte le slide, dispensa e mappa (il nome è solo nella fascia gialla); **schede blu a tutto schermo** (argomento, ripasso, quiz, fine, compiti); testo «Rispondi · premi Controlla · poi Continua» su quiz e verifica; **QR e bottoni dell'editore tolti** dalle fettine (prima per un errore di percorso non venivano tolti); **bordo giallo** ricalcolato sulle parole della trascrizione (prima occorrenza della parola-guida della card, non a stima: molti punti ora corretti, ma resta un abbinamento lessicale da verificare); pagine lunghe divise con «Parole chiave» nell'area sinistra.
+- **NON fatto**: voce Kore dei **COMPITI** (testo `COMPITI` inviato sul ramo voci, la voce non è ancora arrivata: la scheda dei compiti resta senza voce, 5 s); glossario su due pagine; mappa a gruppi di riquadri.
+
 ## 1. Cosa ho cambiato
 - **Testo a 40 px**, interlinea 60 px, in tutte le card (slide del prof, ripassi, riepilogo); glossario a 36 px. Misurato dal controllo indipendente: riga alta 37 px, interlinea 60 (M).
 - **Slide del prof a finestre**: al massimo 2 card per slide del prof, 3 nei ripassi; ogni card è una frase intera con iniziale maiuscola, nessun «…» (controllo indipendente su 42 fotogrammi: OK).
