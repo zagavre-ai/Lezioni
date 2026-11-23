@@ -3,7 +3,10 @@ sys.path.insert(0, '/home/user/Lezioni/lavoro/storia-V-lez12')
 import inserti as I, montaggio as M, voce, contenuti as C
 OUT = M.OUT
 def fatto(n): return os.path.exists(f'{OUT}/{n}/v.mp4') and os.path.exists(f'{OUT}/{n}/ok')
+_idx = [0]
 def run(n, f, *a):
+    _idx[0] += 1
+    if int(os.environ.get('NPROC', '1')) > 1 and _idx[0] % int(os.environ['NPROC']) != int(os.environ.get('PARTE', '0')): return
     if fatto(n) and '--forza' not in sys.argv: return
     t = time.time(); f(*a); open(f'{OUT}/{n}/ok', 'w').write('ok'); print(n, round(time.time() - t), flush=True)
 KIT = M.KIT
