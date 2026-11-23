@@ -2,10 +2,10 @@
  "tag": "storia-V-lez21",
  "parti": {
   "1": {
-   "stato": "IN_MONTAGGIO"
+   "stato": "FERMA"
   }
  },
- "manca": "",
+ "manca": "voci Kore nuove (COMPITI, mappe MA*/MB*, BEN1_R4, BEN2_R4, SP_*, MF_0, FZ1_R3 e le _R2)",
  "serve_master": [
   {
    "quando": "22/11 18:39",
@@ -34,6 +34,10 @@
   {
    "quando": "23/11 08:07",
    "testo": "08:07 UTC: lez 21 pronta con voci provvisorie, aspetto solo le voci Kore (lista in testi_voci.json su voci-storia-V-lez21). Dopo l'arrivo servono circa 75 minuti (schede con voce, codifica, sottotitoli, controllo rapido): per consegnare entro le 11:00 italiane (10:00 UTC) le voci devono arrivare entro le 8:30 UTC (9:30 italiane). Priorita': BEN1_R4, BEN2_R4, COMPITI, SP_0-SP_3, MA*/MB* (mappe), FZ1_R3, MF_0, poi le _R2. Se qualche voce non arriva monto con quella vecchia o provvisoria e lo scrivo nel rapporto."
+  },
+  {
+   "quando": "23/11 09:11",
+   "testo": "09:11 UTC (10:11 italiane): lez 21 PRONTA salvo le voci Kore, che non sono ancora su voci-storia-V-lez21 (95 wav, tutti vecchi). Non consegno con le voci provvisorie robotiche. Appena arrivano lancio rebuild_voci.sh (circa 75 minuti: schede con voce, codifica, sottotitoli, controllo rapido) e consegno su revisione-storia-V-lez21. Scrivi sul ramo voci-storia-V-lez21 quando le voci sono pronte: mi risvegliera' il vostro messaggio."
   }
  ],
  "domande_sara": [],
@@ -65,10 +69,14 @@
   {
    "quando": "23/11 04:10",
    "testo": "04:20 UTC: lavoro senza voci FINITO. Parti con voci provvisorie: P1 42:43 (237 MB), P2 52:00 (333 MB), -16 LUFS, controllo severo e controllo rapido OK tranne durata P1 (<45 min, materiale solo del prof) e una pausa muta nella mappa finale (corretta). Dispense e PDF mappe pronti. Mi fermo fino alle voci Kore (9:00 italiane): poi sostituisco le voci, ricodifico e consegno entro le 11:00."
+  },
+  {
+   "quando": "23/11 09:11",
+   "testo": "FERMA in attesa voci Kore. Tutto il resto fatto: Parti P1 42:43 / P2 52:00 con voci provvisorie, controllo rapido OK, dispense e PDF mappe pronti."
   }
  ],
  "materia": "Storia V",
  "lezione": "Lezione 21 · Il mondo dal 2001 ad oggi",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-23 08:07:11"
+ "aggiornato": "2026-11-23 09:11:12"
 }
