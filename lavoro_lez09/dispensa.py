@@ -2,6 +2,7 @@
 import sys,os,json,re
 sys.path.insert(0,os.path.dirname(os.path.abspath(__file__)))
 from lezione import *
+from assemble import spiegone_states
 from prof import seq_pagine,build,build_riep
 from PIL import Image
 from reportlab.pdfgen import canvas

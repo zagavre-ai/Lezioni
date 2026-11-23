@@ -4,7 +4,7 @@ sys.path.insert(0,os.path.dirname(os.path.abspath(__file__)))
 from spec import SEG,mmss
 from cifre import cifre
 W='/home/user/Lezioni/w/lav/out'
-TESTI={x['nome']:x['testo'] for x in json.load(open('/home/user/Lezioni/scambio/storia-V-lez09/testi_voci.json'))}
+TESTI={x['nome']:x['testo'] for x in json.load(open('/home/user/Lezioni/w/wt_voci/scambio/storia-V-lez09/testi_voci.json'))}
 FIX=[(r'\blegge a? ?cerb[oa]\b','legge Acerbo'),(r'\b(?:a|i)?[yY]ar\b','EIAR'),(r'\bAdisabba\b','Addis Abeba'),(r'\bGentili\b','Gentile'),(r'\briforma gentile\b','riforma Gentile'),(r'\bbalille\b','Balilla'),
  (r'\bbalilla\b','Balilla'),(r'\bo ND\b','OND'),(r'\bovra\b','OVRA'),(r'\bIMS e inail\b','INPS e INAIL'),(r'\bInps\b','INPS'),(r'\bIri\b','IRI'),(r'\bgif\b','GIL'),(r'\bNemmi\b','Nenni'),
  (r'\bTranensi\b','Lateranensi'),(r'\bda Tranensi\b','Lateranensi'),(r'\bMincul ?[Pp]op\b','MinCulPop'),(r'\bminculpop\b','MinCulPop'),(r'\bitleriana\b','hitleriana'),(r'\bAlessa Lassie\b','Hailé Selassié'),
@@ -58,7 +58,7 @@ def main(parte):
             for st,vn in ev:
                 import subprocess
                 wp=None
-                for dd in ('/home/user/Lezioni/scambio/storia-V-lez09/vox','/home/user/Lezioni/w/vox_old',W+'/vox_prov'):
+                for dd in ('/home/user/Lezioni/w/wt_voci/scambio/storia-V-lez09/vox','/home/user/Lezioni/w/vox_old',W+'/vox_prov'):
                     if os.path.exists(f'{dd}/{vn}.wav'):wp=f'{dd}/{vn}.wav';break
                 du=float(subprocess.run(['ffprobe','-v','error','-show_entries','format=duration','-of','csv=p=0',wp],capture_output=True,text=True).stdout)
                 for x,y,c in cues_voice(s+st,s+st+du,cifre(TESTI[vn])):C.append((x,y,c))

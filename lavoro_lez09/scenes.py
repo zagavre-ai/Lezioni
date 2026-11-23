@@ -4,7 +4,7 @@ sys.path.insert(0,os.path.dirname(os.path.abspath(__file__)))
 from prof import *
 from PIL import Image
 from cifre import cifre
-REPO='/home/user/Lezioni'
+REPO='/home/user/Lezioni/w/wt_voci'
 VOXDIRS=[REPO+'/scambio/storia-V-lez09/vox','/home/user/Lezioni/w/vox_old']
 TESTI={x['nome']:x['testo'] for x in json.load(open(REPO+'/scambio/storia-V-lez09/testi_voci.json'))}
 PROV=W+'/vox_prov';os.makedirs(PROV,exist_ok=True)

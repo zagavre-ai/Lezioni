@@ -5,7 +5,7 @@ from spec import *
 import grafica as G
 SRC='/home/user/Lezioni/w/orig/lez9.mp4'
 W='/home/user/Lezioni/w/lav/out';os.makedirs(W,exist_ok=True)
-MAXGAP=150.0
+MAXGAP=100.0
 def silenzi():
     f=W+'/silenzi.json'
     if os.path.exists(f):return json.load(open(f))
@@ -125,14 +125,14 @@ def seq_pagine(d,pag0):
     st=list(d['stati'])
     if st[0][0]>0.5:st=[[0.0,st[0][1],None,False]]+st
     ev=[(s[0],0,s) for s in st]+[(a,1,(a,fn,b)) for a,b,fn in d['imm']]
-    ev.sort(key=lambda e:(e[0],e[1]));out=[];pag=pag0;last=None;cur_ks=None
+    ev.sort(key=lambda e:(e[0],e[1]));out=[];pag=pag0;last=None;cur_ks=None;ps=-999
     for t,k,x in ev:
         if k==1:
-            pag+=1;out.append((t,'img',None,None,x[1],x[2],pag))
+            pag+=1;ps=t;out.append((t,'img',None,None,x[1],x[2],pag))
         else:
             _,win,on,focus=x;ks=tuple(win)
-            if focus:out.append((t,'focus',ks,on,None,None,pag if last==ks else pag));continue
-            if ks!=last:pag+=1;last=ks
+            if focus:pag+=1;ps=t;last=None;out.append((t,'focus',ks,on,None,None,pag));continue
+            if ks!=last or t-ps>60:pag+=1;last=ks;ps=t
             out.append((t,'win',ks,on,None,None,pag))
     return out,pag
 def render_stati(d,pag0,dirp):
