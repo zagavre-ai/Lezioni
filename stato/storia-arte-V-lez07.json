@@ -3,10 +3,11 @@
  "parti": {
   "1": {
    "titolo": "Le Avanguardie",
-   "stato": "IN_MONTAGGIO"
+   "stato": "IN_MONTAGGIO",
+   "voci": "segnaposto"
   }
  },
- "manca": "",
+ "manca": "voci Kore nuove, ricodifica finale, controlli, consegna",
  "serve_master": [
   {
    "quando": "22/11 22:47",
@@ -30,10 +31,14 @@
   {
    "quando": "22/11 22:55",
    "testo": "lez07: caricate su voci-storia-arte-V-lez07 le voci NUOVE (P1-P7 pillole, MAP_FAUVES, MAP_CUBISMO, MAP_FINALE, COMPITI) accanto alle 18 vecchie già con wav (INTRO, S1-S7, R1-R7, GL, RF, FIN). Le mappe finale/Fauves/Cubismo sono del prof (titolo-domanda scritto da me, lo dichiaro nel rapporto). Dubbio per master: la mappa finale del prof cita Futurismo, Astrattismo, Dadaismo, Surrealismo, Metafisica (lezioni successive): la tengo com'è, è la mappa del prof."
+  },
+  {
+   "quando": "23/11 01:18",
+   "testo": "lez07 storia arte 22/11: pronta, attende voci Kore nuove (P1-P7, MAP_FAUVES, MAP_CUBISMO, MAP_FINALE, COMPITI, RF_R2, S7_R2). Video provvisorio montato: 53,4 min, 285 MB, -16,4 LUFS, controllo rapido ok tranne pause mute dei segnaposto. Appena arrivano le voci: ricostruzione, sottotitoli, controlli, consegna entro le 13:00."
   }
  ],
  "materia": "Storia dell'Arte V",
  "lezione": "Le Avanguardie",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-22 23:48:06"
+ "aggiornato": "2026-11-23 01:18:32"
 }
