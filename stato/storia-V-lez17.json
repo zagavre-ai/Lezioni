@@ -1,7 +1,7 @@
 {
  "tag": "storia-V-lez17",
  "parti": {},
- "manca": "VOCI KORE NUOVE (30 testi su voci-storia-V-lez17): senza di esse non consegno. Tutto il resto e' montato con voci provvisorie.",
+ "manca": "controllo rapido P2/P3, sottotitoli sul video finale, dispensa/PDF mappe finali, rapporto, push su revisione-storia-V-lez17",
  "serve_master": [
   {
    "quando": "22/11 18:41",
@@ -53,8 +53,12 @@
   {
    "quando": "22/11 19:07",
    "testo": "stato 30 min: trascrizione fatta, mappe BES pronte, slide a 40 px pronte, codifica pezzi prof in corso, voci provvisorie montate"
+  },
+  {
+   "quando": "23/11 10:06",
+   "testo": "10:10 UTC: voci Kore ricevute e controllate (31 voci, bordi <0,003, trascrizione ok; da riascoltare nomi stranieri in AP7 e SPG2_3). Parti 1-3 montate con le voci vere. Controllo rapido P1: unico errore pausa muta 3,1 s su mappa (corretto, rimonto audio). In corso: controllo rapido P2/P3, sottotitoli, dispensa, rapporto. Consegna in ritardo rispetto alle 10:00 UTC: stimo 60-80 minuti."
   }
  ],
- "aggiornato": "2026-11-23 08:50:49",
+ "aggiornato": "2026-11-23 10:06:40",
  "stato": "IN_REVISIONE"
 }
