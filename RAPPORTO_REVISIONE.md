@@ -20,7 +20,8 @@ Ramo `revisione-letteratura-V-lez04` · versione del 23/11 (dopo le due correzio
 - Ripasso: la card «Madame Bovary (1857).» è ora la frase intera «Madame Bovary esce nel 1857.»; ritratto di Zola (slide 5 del prof, 624×850 px) migliorato (ingrandimento Lanczos, pulizia del rumore, nitidezza).
 
 ## 2. Controllo severo (`controllo_severo.py`) e controllo indipendente
-in corso al momento della consegna: vedi file severo_esito.txt se presente
+**`controllo_severo.py` sul video corretto del 23/11: ESITO OK, zero errori** (file `severo_esito.json`), lanciato con 1 fotogramma ogni 60 s (con 10 s il programma non finisce in tempi ragionevoli su questa macchina). Nessuna slide con lo stesso titolo oltre 3 minuti, nessuna schermata identica oltre 3 minuti, nessuna «…», nessuna card sola oltre 60 s, −16,6 LUFS, nessuna pausa oltre 2,5 s; copertina 120 s secondo il campionamento a 60 s (reale 51 s). **`controllo_rapido.py`: ESITO OK.** Non verificato col passo da 10 s: card con iniziale minuscola e card spezzate sono controllate solo sui campioni. Pagina contigua più lunga calcolata sulla timeline: 170 s.
+
 
 **Controllo con un agente separato** (non ha montato la lezione, lista §11): difetti trovati e corretti — (a) pagina 33, terza card vicina al piè di pagina → layout delle card rialzato (fondo massimo 946 px su 981); (b) ripasso con card «Madame Bovary (1857).» non frase intera → corretta; (c) ritratto di Zola sgranato → migliorato; (d) riquadro «Caratteri:» della mappa stretto → allargato; (e) pagina «Zola» ferma 175 s → divisa in due pagine con la ripresa su card 1. Segnalati e non cambiati: schede Quiz/Verifica/Compiti senza piè di pagina (sono schede di servizio con banda blu, come da decisione precedente); fascia gialla con «PROF. DI LETTERATURA ITALIANA» (richiesta dalla regola 000.6).
 
