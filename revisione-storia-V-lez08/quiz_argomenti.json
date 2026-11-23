@@ -1,6 +1,6 @@
 {
  "Q1": {
-  "title": "Quiz 1 · Il Biennio rosso e la crisi del dopoguerra",
+  "title": "Quiz 1 · Il contesto del dopoguerra e il Biennio rosso",
   "items": [
    {
     "p": "Perché il periodo 1919-1920 è chiamato «Biennio rosso»?",
@@ -165,7 +165,7 @@
   ]
  },
  "Q4": {
-  "title": "Quiz 4 · Giolitti, Rapallo e la nascita del PNF",
+  "title": "Quiz 4 · Il ritorno di Giolitti e le elezioni del 1921",
   "items": [
    {
     "p": "Che cosa stabilisce il trattato di Rapallo (novembre 1920)?",
@@ -220,7 +220,7 @@
   ]
  },
  "Q5": {
-  "title": "Quiz 5 · La Marcia su Roma",
+  "title": "Quiz 5 · La Marcia su Roma e la conquista del potere",
   "items": [
    {
     "p": "Chi forma il quadrumvirato della Marcia su Roma?",
@@ -275,7 +275,7 @@
   ]
  },
  "Q6": {
-  "title": "Quiz 6 · Il primo governo Mussolini",
+  "title": "Quiz 6 · Il primo governo fascista e la svolta autoritaria",
   "items": [
    {
     "p": "Quali ministeri tiene per sé Mussolini?",
@@ -318,21 +318,6 @@
     "e": "La Milizia è fedele a un leader e a un partito, non allo Stato."
    },
    {
-    "p": "Che periodo gli storici chiamano «triennio di consolidamento»?",
-    "a": "Gli anni 1922-1925",
-    "w": [
-     "Gli anni 1919-1922",
-     "Gli anni 1925-1928",
-     "Gli anni 1914-1917"
-    ],
-    "e": "In questa fase il Parlamento è ancora elettivo e pluripartitico, ma si costruisce il regime."
-   }
-  ]
- },
- "Q7": {
-  "title": "Quiz 7 · Legge Acerbo, delitto Matteotti e dittatura",
-  "items": [
-   {
     "p": "Che cosa prevede la legge Acerbo?",
     "a": "Due terzi dei seggi alla lista che ottiene almeno il 25% dei voti",
     "w": [
@@ -341,7 +326,12 @@
      "La fine del Parlamento"
     ],
     "e": "È una riforma fortemente maggioritaria, approvata nel novembre 1923."
-   },
+   }
+  ]
+ },
+ "Q7": {
+  "title": "Quiz 7 · Il delitto Matteotti e il passaggio alla dittatura",
+  "items": [
    {
     "p": "Quanto ottiene il Listone alle elezioni del 6 aprile 1924?",
     "a": "Il 65% dei voti",
@@ -381,6 +371,16 @@
      "Scioglie i fasci"
     ],
     "e": "Seguono le leggi fascistissime, 1925-1927, che trasformano l'Italia in una dittatura."
+   },
+   {
+    "p": "Che cosa accade a Giacomo Matteotti il 10 giugno 1924?",
+    "a": "Viene rapito a Roma e ucciso da un gruppo di squadristi",
+    "w": [
+     "Viene arrestato dalla polizia per aver offeso il re",
+     "Diventa presidente del Consiglio al posto di Mussolini",
+     "Lascia l'Italia per fondare il Partito Comunista d'Italia"
+    ],
+    "e": "Il 10 giugno 1924 Matteotti viene rapito a Roma e ucciso da squadristi: l'opinione pubblica è sconvolta e il governo entra in crisi."
    }
   ]
  }

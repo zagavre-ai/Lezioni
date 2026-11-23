@@ -1,30 +1,30 @@
 {
  "materia": "Storia",
  "titolo": "Il dopoguerra italiano (1919-1925) e il fascismo · Parte 1",
- "durata_s": 3168.17,
+ "durata_s": 3096.15,
  "argomenti": [
   {
    "n": 1,
-   "titolo": "Il Biennio rosso e la crisi del dopoguerra",
-   "inizio_s": 276.766,
-   "quiz_s": 1164.132
+   "titolo": "Il contesto del dopoguerra e il Biennio rosso",
+   "inizio_s": 246.352,
+   "quiz_s": 1156.266
   },
   {
    "n": 2,
    "titolo": "Vittoria mutilata, Fiume e le elezioni del 1919",
-   "inizio_s": 1170.432,
-   "quiz_s": 2149.4
+   "inizio_s": 1160.866,
+   "quiz_s": 2136.246
   },
   {
    "n": 3,
    "titolo": "La nascita del fascismo e lo squadrismo",
-   "inizio_s": 2155.7,
-   "quiz_s": 3092.299
+   "inizio_s": 2140.846,
+   "quiz_s": 3086.527
   }
  ],
  "quiz": {
   "Q1": {
-   "title": "Quiz 1 · Il Biennio rosso e la crisi del dopoguerra",
+   "title": "Quiz 1 · Il contesto del dopoguerra e il Biennio rosso",
    "items": [
     {
      "p": "Perché il periodo 1919-1920 è chiamato «Biennio rosso»?",
