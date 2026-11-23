@@ -69,7 +69,7 @@ def prep_voce(nome,out):
 # ---------------- pezzi ----------------
 def T_n(n): return pezzo_blu(f'T{n}',f'ARGOMENTO {n}',TIT[n],None,[(SND+'titolo.wav',0.2,1.0)],4.0)
 def Q_n(n):
-    return pezzo_blu(f'Q{n}','QUIZ',f'Quiz · {TIT[n]}',"5 domande · per continuare serve almeno l'80%",[(SND+'quiz.wav',0.5,1.0)],5.0)
+    return pezzo_blu(f'Q{n}','QUIZ',f'Quiz · {TIT[n]}',"5 domande · per continuare serve almeno l'80%",[(SND+'quiz.wav',0.5,1.0)],4.2)
 def PI_n(n):
     nm='P4_R2' if n==4 else f'P{n}';w,d,_=prep_voce(nm,f'{B}/k/{nm}_n.wav')
     return pezzo_blu(f'PI{n}','RIPASSO',TIT[n],'Guarda lo schema e ripeti ad alta voce',[(SND+'repaso.wav',0.0,0.55),(w,1.2,1.0)],max(3.4,1.2+d+0.7))
