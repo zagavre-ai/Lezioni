@@ -190,7 +190,10 @@ Il controllo lo fa **un agente separato**, che non ha montato la lezione. I dife
 - **Solo dopo «APPROVATA» della master la chat si ferma.** Non riaprire chat per la stessa lezione: una lezione, una chat.
 
 ## 12. Il controllo della master
-Dopo la consegna la master ricontrolla **tutte** le regole di questo documento. Se anche una sola non è rispettata, la lezione torna alla chat con l'elenco dei difetti e il minuto.
+Dopo la consegna la master ricontrolla le regole di questo documento. **Da Sara, 23/11: il controllo resta, ma è elastico.**
+- **Difetti BLOCCANTI** (la lezione torna indietro): parole del docente tagliate o cambiate; audio rovinato o fuori volume; modello vecchio (prof nel tondo, fondo grigio); testo illeggibile (sotto 30 px) o mappe illeggibili; schede mute oltre 5 s; quiz, verifica o compiti mancanti o sbagliati; immagine di un'altra opera o di un altro argomento; nome del docente detto dalla voce Kore.
+- **Difetti NON bloccanti** (la master **pubblica subito** e li manda alla chat come migliorie): nome del docente nel piè di pagina; pause di 2,5–5 s; una card sola oltre 60 s; schermata uguale oltre 3 minuti; scheda di ripasso bianca; immagine piccola; foglio dei fotogrammi o json mancanti.
+- **Quando una lezione torna indietro, la chat NON ricomincia da capo:** corregge solo i punti elencati, ricodifica e riconsegna. Mai rifare il montaggio intero per un difetto locale.
 
 ## 13. Tempi (vincolanti)
 - **Ogni lezione si consegna entro 2 ore e mezza** da quando la chat la prende (stato `IN_REVISIONE`).
