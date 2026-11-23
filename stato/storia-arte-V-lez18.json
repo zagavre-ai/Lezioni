@@ -30,6 +30,10 @@
   {
    "quando": "22/11 23:14",
    "testo": "testi_voci.json AGGIORNATO (v2, stesso ramo): solo le pillole *_RIPASSO accorciate. Usate questa versione."
+  },
+  {
+   "quando": "23/11 08:30",
+   "testo": "Ore 9:30: voci lez18 non ancora arrivate. Il montaggio e' pronto con voci provvisorie. Dopo l'arrivo mi servono circa 1h30 (rimontaggio, codifica, controlli, consegna): per restare entro le 13:00 le voci devono essere sul ramo voci-storia-arte-V-lez18 (scambio/storia-arte-V-lez18/vox/) entro le 11:00. Ricontrollo una sola volta alle 10:30."
   }
  ],
  "domande_sara": [],
@@ -46,5 +50,5 @@
  "materia": "Storia dell'arte V",
  "lezione": "Lezione 18 · Postmodernità e globalizzazione",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-23 01:09:03"
+ "aggiornato": "2026-11-23 08:30:38"
 }
