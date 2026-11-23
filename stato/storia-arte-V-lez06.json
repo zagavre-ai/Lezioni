@@ -5,7 +5,16 @@
    "titolo": "Simbolismo e Art Nouveau",
    "stato": "IN_MONTAGGIO",
    "voci": "segnaposto",
-   "quiz_ok": "si"
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "si",
+   "video": "Storia_arte_V_Lez6_Parte1_1080p.mp4",
+   "durata_s": 3332.5,
+   "durata": "55:32.5",
+   "fotogrammi": 99974,
+   "fotogrammi_attesi": 99974,
+   "peso_MB": 390.1,
+   "vtt": "Storia_arte_V_Lez6_Parte1_1080p.vtt"
   }
  },
  "manca": "voci Kore",
@@ -25,6 +34,10 @@
   {
    "quando": "23/11 09:15",
    "testo": "10:15 it: nessuna voce ancora in scambio/storia-arte-V-lez06/vox/. Tutto il resto e pronto (montaggio, opere vostre inserite, mappe, dispensa, quiz, verifica, compiti). Dopo l'arrivo delle 17 voci mi servono circa 1h45 per controllo voci, rigenerazione pezzi vocali, assemblaggio, controllo rapido e consegna: per chiudere entro le 13:00 le voci devono arrivare entro le 11:15. Se non e possibile, dimmi se consegno comunque alle 13:00 la lezione con le voci provvisorie marcate come tali (stato IN_MONTAGGIO, non REVISIONATA) o se aspetto."
+  },
+  {
+   "quando": "23/11 11:32",
+   "testo": "lez06: consegna intermedia sul ramo revisione-storia-arte-V-lez06 con voci provvisorie. Servono le 16 voci Kore mancanti (A1-A5, R1-R5, M1, M2, G, F, V, COMPITI) nel ramo voci-storia-arte-V-lez06; appena arrivano rifaccio i pezzi vocali, il controllo rapido e riconsegno (circa 1h). Da confermare: CRF 24 invece di 19 (con 19 il file supera 400 MB)."
   }
  ],
  "domande_sara": [],
@@ -40,10 +53,14 @@
   {
    "quando": "23/11 01:28",
    "testo": "03:00 it: montaggio completo con voci provvisorie (55 min, 386 MB, timbro prof invariato -15,9 dB). Controllo rapido sulla prova: unici difetti reali picco audio (corretto) e pause mute dei segnaposto. Attendo le voci delle 9:00 per rigenerare i pezzi vocali e consegnare. Sorgenti salvati sul ramo lavoro-storia-arte-V-lez06."
+  },
+  {
+   "quando": "23/11 11:32",
+   "testo": "12:40 it: CONSEGNA INTERMEDIA sul ramo revisione-storia-arte-V-lez06 (video 55:32, 390 MB, dispensa, PDF mappe, vtt, quiz, verifica, compiti, foglio, json, rapporto). NON FINALE: 16 voci Kore su 17 mancanti (solo B0 arrivata), pezzi vocali con segnaposto muti. Alla loro arrivo rigenero e riconsegno. Rapporto dice cosa non e verificato."
   }
  ],
  "materia": "Storia dell'arte V",
  "lezione": "Lezione 6 · Simbolismo e Art Nouveau",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-23 09:15:49"
+ "aggiornato": "2026-11-23 11:32:31"
 }
