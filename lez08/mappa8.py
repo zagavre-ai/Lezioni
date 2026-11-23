@@ -80,7 +80,7 @@ def build_video():
     for i in range(len(S)): S[i][3]=(S[i+1][2]-S[i][2]) if i+1<len(S) else 2.5
     total=V0+tot+4.0
     open(f'{B}/mappa8.html','w').write(html())
-    out=f'{B}/p_mappa.mkv'; mix_audio([(wav,V0,1.0)],total,f'{B}/a_mappa.wav'); json.dump(S,open(f'{B}/mappa8_steps.json','w'))
+    out=f'{B}/p_mappa.mkv'; mix_audio([(wav,V0,1.0),(f'{SU}/repaso.wav',V0+tot+0.2,0.8)],total,f'{B}/a_mappa.wav'); json.dump(S,open(f'{B}/mappa8_steps.json','w'))
     json.dump({'parts':[(os.path.basename(wav),V0)],'total':total},open(f'{B}/meta_mappa.json','w'))
     r=subprocess.run(['node',f'{HERE}/mapframes.js',f'{B}/mappa8.html',f'{B}/mappa8_steps.json',str(total),f'{B}/a_mappa.wav',out,f'{B}/mappa8_finale.png'])
     if r.returncode: raise SystemExit('mappa fallita')
