@@ -81,3 +81,6 @@ Un agente separato (che non ha montato la lezione) ha guardato 101 fotogrammi (1
 | durata | 3173,47 | 3015.30 |
 
 Nota: il ramo conteneva un commit della master «pillole inserite, tempi e sottotitoli aggiornati» sul vecchio video: questa consegna lo sostituisce (video, timeline, scheda e sottotitoli nuovi).
+
+## 8. Correzione del 23/11 14:10 (schede mute > 5 s)
+Aggiunti i jingle del kit alle schede finali: `quiz.wav` sulla Verifica, `finale.wav` sulla sigla finale, `repaso.wav` sui Compiti. Silenzi più lunghi rimasti (silencedetect −45 dB): 4,6 s, 3,5 s e 3,9 s: nessuno oltre 5 s (misurato). Solo audio cambiato: video, tempi, sottotitoli e scheda invariati.
