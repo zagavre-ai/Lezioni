@@ -266,5 +266,25 @@
  {
   "nome": "VER",
   "testo": "Verifica finale: dieci domande. Per superarla serve almeno l'ottanta per cento."
+ },
+ {
+  "nome": "SP0",
+  "testo": "Ripasso della prima parte: rivediamo insieme gli argomenti che abbiamo visto."
+ },
+ {
+  "nome": "SP1",
+  "testo": "Primo argomento. Il Romanticismo nasce in Europa tra la fine del diciottesimo e la prima metà del diciannovesimo secolo, in reazione all'Illuminismo e al Neoclassicismo. L'artista è un genio libero, teso verso l'infinito. Davanti alla natura prova il sublime: stupore, fascino e smarrimento. Il pittoresco esalta la natura spontanea e selvaggia, e il Medioevo diventa un'epoca ideale, culla delle identità nazionali."
+ },
+ {
+  "nome": "SP2",
+  "testo": "Secondo argomento. Francisco Goya, pittore di corte per Carlo quarto, unisce la realtà popolare a una profonda dimensione interiore. Con il Tre maggio milleottocentootto denuncia la violenza dell'invasione napoleonica, e con Il sonno della ragione genera mostri esplora il lato oscuro della ragione. Johann Heinrich Füssli, attivo a Londra, dipinge figure allungate e visioni fantastiche: il suo capolavoro è L'incubo."
+ },
+ {
+  "nome": "SP3",
+  "testo": "Terzo argomento. Caspar David Friedrich cerca l'infinito: il Viandante sul mare di nebbia e il Mare di ghiaccio mostrano il sublime. John Constable dipinge il vero, anche all'aria aperta. William Turner è il maestro della luce e del colore, e mostra la violenza distruttrice degli elementi o la suggestione del tramonto."
+ },
+ {
+  "nome": "SP4",
+  "testo": "Quarto argomento. In Francia Théodore Géricault dipinge La zattera della Medusa, una piramide umana tra disperazione e speranza, e i ritratti degli alienati. Eugène Delacroix celebra le giornate rivoluzionarie del milleottocentotrenta con La Libertà che guida il popolo. In Italia Francesco Hayez usa la pittura storica per diffondere ideali patriottici, e Il bacio ne è l'icona."
  }
 ]
