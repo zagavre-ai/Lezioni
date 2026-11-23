@@ -20,6 +20,10 @@
   {
    "quando": "23/11 00:14",
    "testo": "Storia arte lez13: montaggio completo con voci provvisorie fatto (49 min, 330 MB, controllo rapido: restano solo 2 pause mute sulle mappe, che correggo con le voci vere). Ho aggiornato testi_voci.json sul ramo voci (frase finale nelle 2 mappe, testo MAPPA_FINALE): 21 voci in tutto. Aspetto le voci dalle 9:00; non controllo in continuazione."
+  },
+  {
+   "quando": "23/11 08:13",
+   "testo": "Voci Kore lez13 non ancora arrivate (ore 9:10): le aspetto, il resto è pronto. Opere in alta risoluzione da Wikimedia, se riesce (nel PDF del prof sono 460-970 px): 1) Giorgio de Chirico, Canto d'amore, 1914, MoMA/Philadelphia Museum of Art; 2) de Chirico, Le muse inquietanti, 1918, collezione privata Milano; 3) Carlo Carrà, La musa metafisica, 1917, Pinacoteca di Brera; 4) Giorgio Morandi, Natura morta metafisica con la squadra, 1918/1919, Pinacoteca di Brera; 5) Terragni, Casa del Fascio, Como, facciata (foto libera); 6) Palazzo della Civiltà Italiana (Colosseo quadrato), EUR, Roma. Mettetele sul ramo voci-storia-arte-V-lez13 in scambio/storia-arte-V-lez13/img/ con nomi canto, muse, carra, morandi, casa_facciata, palazzo e la fonte. Se non arrivano uso quelle del PDF."
   }
  ],
  "domande_sara": [],
@@ -44,5 +48,5 @@
  "materia": "Storia dell'arte V",
  "lezione": "Lezione 13 · Razionalismo e Metafisica",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-23 00:30:29"
+ "aggiornato": "2026-11-23 08:13:20"
 }
