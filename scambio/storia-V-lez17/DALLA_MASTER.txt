@@ -1,3 +1,5 @@
+[23/11 19:15] MASTER 2: APPROVATA. FERMATI. Migliorie non bloccanti: riascoltare AP7 e SPG2_3 (nomi stranieri).
+
 [23/11 04:03] MASTER 12:55 · CONSUMO: dopo questa lettura FERMATI. Niente controlli ogni 20 minuti. Se hai correzioni bloccanti qui sotto, correggi SOLO quelle, riconsegna e fermati. Se aspetti voci, fermati: ti risveglia Sara quando sono pronte.
 
 [23/11 03:53] MASTER 23/11 12:50 · CONTROLLO ELASTICO (CLAUDE.md §12, fai git pull). Se la tua lezione è tornata indietro NON ricominciare da capo: correggi SOLO i difetti bloccanti elencati qui sotto, ricodifica e riconsegna subito. Difetti NON bloccanti (nome del prof nel piè di pagina, pause di 2,5-5 s, card sola, schermata ferma oltre 3 min, ripasso bianco, immagine piccola, foglio mancante): NON bloccano più, la master pubblica lo stesso. Velocità prima di tutto: Sara deve caricare le lezioni oggi.
