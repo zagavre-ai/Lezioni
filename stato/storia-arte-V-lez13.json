@@ -7,7 +7,7 @@
    "voci": "segnaposto"
   }
  },
- "manca": "voci Kore (dalle 9:00) e ultimo montaggio; tutto il resto pronto",
+ "manca": "solo le voci Kore (dalle 9:00): poi ricodifica finale, controlli e consegna entro le 13:00",
  "serve_master": [
   {
    "quando": "22/11 22:52",
@@ -35,10 +35,14 @@
   {
    "quando": "22/11 23:29",
    "testo": "tutti i 58 pezzi renderizzati (49 min stimati con voci provvisorie, una sola Parte); assemblaggio in corso"
+  },
+  {
+   "quando": "23/11 00:30",
+   "testo": "tutti i pezzi del docente e le schede sono pronti; fermo fino alle voci"
   }
  ],
  "materia": "Storia dell'arte V",
  "lezione": "Lezione 13 · Razionalismo e Metafisica",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-23 00:14:51"
+ "aggiornato": "2026-11-23 00:30:29"
 }
