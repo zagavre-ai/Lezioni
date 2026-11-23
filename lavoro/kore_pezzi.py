@@ -190,16 +190,26 @@ def VER():
 def CINTRO():
     w,d,_=prep_voce('CINTRO',f'{B}/k/CINTRO_n.wav')
     return pezzo_blu('CINTRO','FINE LEZIONE','Compiti',None,[(SND+'titolo.wav',0.2,1.0),(w,0.8,1.0)],3.5)
-COMP=[('C1',"Quali accordi internazionali e quali indicatori economici caratterizzarono il periodo di ripresa e stabilizzazione della Repubblica di Weimar nella seconda metà degli anni Venti?"),
- ('C2',"Quali conseguenze sociali ed economiche ebbe il crollo di Wall Street del 1929 sulla Germania e in che modo favorì l'ascesa politica di Adolf Hitler e del Partito Nazista fino alla nomina a Cancelliere?"),
- ('C3',"Attraverso quali passaggi legislativi ed episodi di violenza politica Hitler trasformò la Germania in uno Stato totalitario tra il 1933 e il 1934?"),
- ('C4','In cosa consistette il processo di "nazificazione" della società tedesca e quali provvedimenti caratterizzarono le politiche razziste, antisemite ed economiche del regime?')]
-def COMPITO(k):
-    nm,testo=COMP[k-1];w,d,_=prep_voce(nm,f'{B}/k/{nm}_n.wav')
-    cards=[dict(lead=f'Compito {k}',testo=f'Compito {k}: '+testo)]
-    h,_=tlib.scheda_cards('COMPITI',f'Compito {k} di 4',PN[f'COMPITO{k}'],cards,0,'')
-    p=png(f'comp{k}',h);flush()
-    return scena(f'COMPITO{k}',[(0.0,p)],w,d+max(3.0,len(testo)/14),f'{B}/k/COMPITO{k}.mkv',lead=0.7,tail=1.0)
+COMP=["Quali accordi internazionali e quali indicatori economici caratterizzarono il periodo di ripresa e stabilizzazione della Repubblica di Weimar nella seconda metà degli anni Venti?",
+ "Quali conseguenze sociali ed economiche ebbe il crollo di Wall Street del 1929 sulla Germania e in che modo favorì l'ascesa politica di Adolf Hitler e del Partito Nazista fino alla nomina a cancelliere?",
+ "Attraverso quali passaggi legislativi ed episodi di violenza politica Hitler trasformò la Germania in uno Stato totalitario tra il 1933 e il 1934?",
+ 'In cosa consistette il processo di "nazificazione" della società tedesca e quali provvedimenti caratterizzarono le politiche razziste, antisemite ed economiche del regime?']
+CHIUSURA="Svolgi i compiti qui sotto e premi Consegna: arrivano al docente nel tuo quaderno dei compiti."
+NUM=['uno','due','tre','quattro']
+def COMPITI():
+    """una sola voce COMPITI: legge i quattro compiti in fila e la frase finale; ogni compito sulla sua scheda, card gialla mentre si legge"""
+    w,d,_=prep_voce('COMPITI',f'{B}/k/COMPITI_n.wav')
+    unita=[f'Compito {NUM[k]}. '+COMP[k] for k in range(4)]+[CHIUSURA]
+    starts,dd=tempi_unita('COMPITI',unita)
+    stati=[]
+    for k in range(4):
+        cards=[dict(lead=f'Compito {k+1}',testo=f'Compito {k+1}: '+COMP[k])]
+        if k==3: cards.append(dict(lead='Consegna',testo=CHIUSURA))
+        h,_=tlib.scheda_cards('COMPITI',f'Compito {k+1} di 4',PN[f'COMPITO{k+1}'],cards,0,'')
+        stati.append((starts[k],png(f'comp{k+1}',h)))
+    h,_=tlib.scheda_cards('COMPITI','Compito 4 di 4',PN['COMPITO4'],[dict(lead='Compito 4',testo='Compito 4: '+COMP[3]),dict(lead='Consegna',testo=CHIUSURA)],1,'')
+    stati.append((starts[4],png('comp5',h)));flush()
+    return scena('COMPITI',stati,w,d+1.0,f'{B}/k/COMPITI.mkv',lead=0.7,tail=1.0)
 def notice_png():
     t="© Centro Studi Telesio. Tutti i contenuti riprodotti in questa videolezione (testi, grafiche, animazioni, voci e registrazioni) sono di proprietà del Centro Studi Telesio. È vietata la riproduzione, anche parziale, senza autorizzazione scritta."
     h=f'<!doctype html><html><head><meta charset="utf-8"><style>{tlib.BASE_CSS}html,body{{background:transparent!important}}.n{{position:absolute;left:260px;width:1400px;bottom:70px;text-align:center;font:700 24px/1.4 Fig;color:#fff}}</style></head><body><div class="n">{t}</div></body></html>'
@@ -220,7 +230,7 @@ for n in range(1,9):
 for k in (1,2,3): ALL[f'MAP{k}']=lambda k=k:MAP_n(k)
 for p in (1,2): ALL[f'GL{p}']=lambda p=p:GL_n(p);ALL[f'RIEP{p}']=lambda p=p:RIEP_n(p);ALL[f'COVERV{p}']=lambda p=p:COVERV(p);ALL[f'FIN{p}']=lambda p=p:FIN_blu(p)
 ALL.update(SPG2=SPG2,VER=VER,CINTRO=CINTRO,FINALE=FINALE,SIGLA=SIGLA)
-for k in (1,2,3,4): ALL[f'COMPITO{k}']=lambda k=k:COMPITO(k)
+ALL['COMPITI']=COMPITI
 if __name__=='__main__':
     nomi=sys.argv[1:] or list(ALL)
     manifest_p=f'{B}/k/manifest.json';man=json.load(open(manifest_p)) if os.path.exists(manifest_p) else {}

@@ -13,7 +13,7 @@ def tname(n):   # nome nella timeline
     if n.startswith('A') and n[1:].isdigit(): return 'D'+n[1:]
     return n
 SEQ={1:['SIGLA','COVERV1','D0','DI']+sum([[f'T{n}',f'A{n}',f'AP{n}']+(['MAP1'] if n==4 else [])+[f'PI{n}',f'PS{n}',f'Q{n}'] for n in (1,2,3,4)],[])+['GL1','RIEP1','FIN1','FINALE'],
-     2:['SIGLA','COVERV2','SPG2']+sum([[f'T{n}',f'A{n}',f'AP{n}']+(['MAP2'] if n==5 else ['MAP3'] if n==7 else [])+[f'PI{n}',f'PS{n}',f'Q{n}'] for n in (5,6,7,8)],[])+['GL2','RIEP2','FIN2','VER','FINALE','CINTRO','COMPITO1','COMPITO2','COMPITO3','COMPITO4']}
+     2:['SIGLA','COVERV2','SPG2']+sum([[f'T{n}',f'A{n}',f'AP{n}']+(['MAP2'] if n==5 else ['MAP3'] if n==7 else [])+[f'PI{n}',f'PS{n}',f'Q{n}'] for n in (5,6,7,8)],[])+['GL2','RIEP2','FIN2','VER','FINALE','CINTRO','COMPITI']}
 def frame(src,out,last):
     if os.path.exists(out) and os.path.getmtime(out)>os.path.getmtime(src): return out
     if last: sh(['ffmpeg','-v','error','-y','-sseof','-0.12','-i',src,'-frames:v','1','-update','1',out])

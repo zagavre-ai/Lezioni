@@ -143,7 +143,7 @@ def copertina(titolo,args,cam,parte=None):
     body+=f'<div class="fl"></div><div class="ft">STORIA</div><div class="pg">Pagina 1</div>'+prof_col(None,cam)
     return page(body,COVER_CSS)
 def di_cosa_parliamo(args,pagina,cam=True):
-    body=head('STORIA · VIDEOLEZIONE','Di cosa parliamo',pagina)
+    body=head('STORIA','Di cosa parliamo',pagina)
     body+=f'<div class="box" style="top:300px"><h5>ARGOMENTI</h5>{lista_argomenti(args)}</div>'+prof_col(None,cam)
     return page(body,COVER_CSS)
 IMG_CSS='''

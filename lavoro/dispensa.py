@@ -32,13 +32,9 @@ def pagine_dispensa(parte):
             if k.startswith('i'):
                 if k not in seen: seen.append(k);pg.append((f'/tmp/w/sl/{k}.html',True))
                 continue
-            win=k.rsplit('_',2)[0]
-            if win in seen: continue
-            seen.append(win)
-            # stato senza evidenza con la card accesa più vicina
-            cand=[x for x in glob.glob(f'/tmp/w/sl/{win}_*_None.html')]
-            cand=sorted(cand)[0] if cand else f'/tmp/w/sl/{k}.html'
-            pg.append((cand,True))
+            if k in seen: continue
+            seen.append(k)
+            pg.append((f'/tmp/w/sl/{k}.html',True))
         for pre in (f'AP{n}',f'PS{n}'):
             h=kh(pre)
             if h: pg.append((h,False))

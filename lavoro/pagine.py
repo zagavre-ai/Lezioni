@@ -8,7 +8,7 @@ def windows(n):
     seen=[]
     for t,s in stati_arg(n,t0,t1):
         if s[0]=='i': k=f'i{n}_{s[1]}'
-        else: k=spec_key(n,s).rsplit('_',2)[0]
+        else: k=spec_key(n,s)
         if k not in seen: seen.append(k)
     return seen
 def numera():
