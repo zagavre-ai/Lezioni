@@ -85,7 +85,11 @@
   {
    "quando": "23/11 07:47",
    "testo": "Ore 07:47 UTC: voci Kore nuove ancora non arrivate (141 file). Intanto ricodifico le due Parti con il limitatore del picco (-1 dBTP); se alle 08:30 mancano ancora, chiedo alla master se consegnare con voci provvisorie."
+  },
+  {
+   "quando": "23/11 08:27",
+   "testo": "Voci Kore arrivate (43 nuove). Controllate: bordi sotto 0,03 su tutte; trascritte e confrontate: tutte coincidono tranne 3 frasi di mappa dove la trascrizione non sente la prima parola breve (M3_6 «Adotta l'autarchia», M1b_5 «E il confino», M4_6 «Porta a leggi…»): durata compatibile, da riascoltare. Ora ricodifica Parti 1 e 2."
   }
  ],
- "aggiornato": "2026-11-23 07:47:13"
+ "aggiornato": "2026-11-23 08:27:13"
 }
