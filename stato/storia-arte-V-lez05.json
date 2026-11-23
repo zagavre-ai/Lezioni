@@ -2,26 +2,17 @@
  "tag": "storia-arte-V-lez05",
  "parti": {
   "1": {
-   "titolo": "Oltre l'Impressionismo",
    "stato": "IN_MONTAGGIO"
   }
  },
- "manca": "trascrizione in corso; poi tagli, slide, mappa, approfondimenti, quiz, voci, montaggio",
+ "manca": "montaggio non ancora fatto: nessun video da controllare. Fatto: download, trascrizione. Prossimo: piano tagli, elenco opere, testi_voci con COMPITI, montaggio con voci provvisorie",
  "serve_master": [
   {
-   "quando": "22/11 22:49",
-   "testo": "lez05: (1) Wikimedia Commons non raggiungibile da questa rete (403): le opere le prendo solo dal PDF del prof (max ~1000 px) e le miglioro; va bene o puoi fornirne altre? (2) Manca una sigla 'Storia dell'arte' in kit/sigle: uso Sigla_Storia_15s.mp4, confermi? (3) Mappa del prof: titolo 'POST IMPRESSIONISMO', 4 artisti (Cézanne, Gauguin, van Gogh, Toulouse-Lautrec) ma la lezione tratta anche Seurat, Rodin, Rosso: la ridisegno identica, con le sue parole."
+   "quando": "23/11 10:45",
+   "testo": "lez05: NON consegnabile oggi nei tempi se non si divide il lavoro: serve una chat in piu' per mappa+dispense, oppure conferma che prosegua da sola. Non ho ancora video da controllare: le correzioni con i minuti per lez05 non ci sono in DALLA_MASTER. Elenco opere da procurare in alta risoluzione segue."
   }
  ],
  "domande_sara": [],
- "note": [
-  {
-   "quando": "22/11 22:43",
-   "testo": "storia arte 22/11: presa da claude/zen-noether-wfbn6w"
-  }
- ],
- "materia": "Storia dell'Arte V",
- "lezione": "Oltre l'Impressionismo",
- "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-22 22:49:31"
+ "note": [],
+ "aggiornato": "2026-11-23 10:45:37"
 }
