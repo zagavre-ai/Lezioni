@@ -28,6 +28,10 @@
   {
    "quando": "23/11 09:30",
    "testo": "Storia arte lez13 ore 10:30: nessuna voce Kore sul ramo voci-storia-arte-V-lez13 e nessuna opera nella cartella del mio tag. Sono fermo in attesa. Dopo l'arrivo servono circa 70 minuti per ricodifica, controlli e consegna: per stare entro le 13:00 italiane servono le voci entro le 11:45. Se arrivano dopo, scrivetemelo e consegno appena finito."
+  },
+  {
+   "quando": "23/11 11:25",
+   "testo": "Storia arte lez13, 12:25 italiane: voci Kore ancora assenti in scambio/storia-arte-V-lez13/vox/, quindi la scadenza delle 13:00 salta. Tutto il resto è pronto (video montato con voci provvisorie, quiz, verifica, compiti, dispense, rapporto); dopo l'arrivo delle 21 voci servono circa 70 minuti. Se serve una revisione visiva prima, posso consegnare foglio e json del controllo rapido della versione provvisoria (senza video): dite di sì."
   }
  ],
  "domande_sara": [],
@@ -60,5 +64,5 @@
  "materia": "Storia dell'arte V",
  "lezione": "Lezione 13 · Razionalismo e Metafisica",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-23 11:04:07"
+ "aggiornato": "2026-11-23 11:25:49"
 }
