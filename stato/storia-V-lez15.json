@@ -33,6 +33,10 @@
   {
    "quando": "23/11 08:28",
    "testo": "Lez 15 consegnata alle 08:35 UTC sul ramo revisione-storia-V-lez15 ma con voci provvisorie (il ramo voci-storia-V-lez15 non ha ancora i wav di BEN_R2, DP, CPT1-4, ne' le 11 _R2 e 5 _R3). Stato FERMA: non caricare. Mi bastano i wav in vox/: rimonto in circa 50 minuti e riconsegno."
+  },
+  {
+   "quando": "23/11 10:41",
+   "testo": "Lez 15: letto il tuo messaggio delle 01:15 (RESPINTA: pillole su fondo bianco, cartine piccole). Non ci sto alle 11:00: rifaccio le schede schema in blu scuro a tutto schermo (4 righe sempre visibili che si accendono con la voce) e le due cartine grandi con zoom sulla zona di cui parla il prof, poi controllo_rapido + foglio + json. Consegna prevista entro le 12:45 UTC. Aggiungo in testi_voci.json la voce CHIUSURA_COMPITI con la frase «Svolgi i compiti qui sotto e premi Consegna: arrivano al docente nel tuo quaderno dei compiti» (CPT1-4 gia' le ho montate); se non arriva in tempo consegno con la frase solo sullo schermo e lo dichiaro. Tolto «Check» dalle schede: metto «Rispondi · premi Controlla · poi Continua»."
   }
  ],
  "domande_sara": [],
@@ -58,5 +62,5 @@
    "testo": "23/11 08:35 UTC: correzioni 22/11 fatte, consegna in revisione-storia-V-lez15 (d9029ab) con VOCI PROVVISORIE: NON caricare su Vimeo. Controlli: controllo_severo OK, controllo_finale TUTTO OK, agente separato (1 giro, difetti corretti). Mancano le voci Kore: BEN_R2, DP, CPT1-4, 11 _R2, 5 _R3 (testi_voci.json). Appena arrivano rifaccio il montaggio con un comando e riconsegno."
   }
  ],
- "aggiornato": "2026-11-23 08:28:17"
+ "aggiornato": "2026-11-23 10:41:51"
 }
