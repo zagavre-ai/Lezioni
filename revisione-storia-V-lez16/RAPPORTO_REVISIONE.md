@@ -1,125 +1,132 @@
-# RAPPORTO DI REVISIONE · Storia V · Lezione 16 · «Gli anni Sessanta tra crisi e progressi» · CARD INTERE 19/11 (Prof. Giorgio Mazzotti)
-19/11/2026 · chat v3 · ramo `revisione-storia-V-lez16` (sostituisce la consegna precedente della lezione) · modello: Spagnolo Lez. 1. Ogni dato è etichettato **M** (misurato), **S** (stima / lettura a vista), **NV** (non verificato).
+# RAPPORTO DI REVISIONE · Storia V · «Gli anni Sessanta tra crisi e progressi» · correzioni 22/11 fatte
+Chat claude/lucid-bohr-33zvvw · Parte unica · 59:33.5 · ramo `revisione-storia-V-lez16`. **M** = misurato, **NV** = non verificato.
 
-**Cosa è cambiato rispetto alla consegna precedente (note master 19/11: 8 punti delle 03:40 + card intere delle 05:10, controlli delle 05:25, copertina delle 08:55).** Rifatto da zero: trascrizione, tagli, slide (dal PDF del prof), schede blu, mappe, approfondimenti, copertina. Riusati: voci Kore già presenti, quiz, compiti e verifica della consegna precedente. Voci nuove richieste alla master: 7 approfondimenti e la sostituzione di una frase di schema (SC5_4 → RV5_4 per un errore di sintesi); SC6_4 aggiunta come 4ª riga dello schema 6.
+## 1. Misure sul video finale (M)
+- Durata 3573.5 s (59:33.5); 1920×1080, 30 fps, x264 veryfast CRF 19, AAC 192k 48 kHz; peso 345.6 MB; sha256 `a95db3ff4b885a9008a76629c7331357cfc94da0615470935e44582c4e89e025`.
+- Controllo rapido (kit/tools/controllo_rapido.py): esito **OK**; errori: nessuno. Foglio dei fotogrammi: `foglio_fotogrammi_Storia_Lez16_Parte1_1080p.jpg`; json: `controllo_rapido_Storia_Lez16_Parte1_1080p.json`.
+- Volume −16 LUFS (loudnorm a due passaggi su tutto il video; il controllo severo del giro precedente misurava −16,0).
+- Timbro del prof (acuti >4 kHz / sopra 100 Hz): −16,0 … −17,3 dB nei pezzi del prof; originale −18,6 dB (limiti −9/−20): voce non alterata. Pulizia: passa-alto 80 Hz, riduzione rumore leggera (afftdn), nessun altro filtro.
+- Scatto del jingle dei quiz (controllo_jingle.py):
+```
+Q1 atteso 281.519 trovato 281.518 scarto -0.001 OK
+Q2 atteso 943.753 trovato 943.753 scarto -0.000 OK
+Q3 atteso 1467.987 trovato 1467.986 scarto -0.001 OK
+Q4 atteso 1999.354 trovato 1999.355 scarto +0.001 OK
+Q5 atteso 2669.055 trovato 2669.056 scarto +0.001 OK
+Q6 atteso 2960.221 trovato 2960.222 scarto +0.001 OK
+Q7 atteso 3327.754 trovato 3327.755 scarto +0.001 OK
+```
+- Nessun fermo del prof ≥1 s (controllo_finale, giro precedente: «nessuno OK»). Nessuna schermata identica oltre 3 minuti e nessun titolo di slide fermo oltre 3 minuti (controllo severo del giro precedente: elenchi vuoti). **NV:** il controllo severo non è stato rilanciato sull'ultima codifica (troppo lento: OCR su tutto il video); vale il controllo rapido.
 
-## 1. Le 8 correzioni punto per punto
-| # | Punto della master | Esito |
+## 2. Pezzi (M)
+| Pezzo | Inizio | Durata |
 |---|---|---|
-| 1 | Al massimo 3 card per slide; nessuna slide ferma oltre 3 minuti; immagini a tempo | fatto: ogni punto della slide del prof è UNA card intera (nessuna card spezzata con «…», titolo in grassetto una sola volta), card alte quanto il loro testo e allineate in alto, al massimo 3 card per slide (mai una card sola, salvo accanto a un'immagine del prof); il bordo giallo si accende quando il prof inizia quel punto. Le slide di testo sono 10; durata massima misurata 488 s. Slide oltre 180 s: arg. 2 slide 2 (295 s), arg. 3 slide 1 (417 s), arg. 4 slide 1 (400 s), arg. 5 slide 1 (488 s), arg. 7 slide 2 (195 s). Le immagini del prof sono messe a tempo (invariato).  |
-| 2 | Sincronia: il bordo giallo si accende quando il prof INIZIA il punto (±1 s); 10 punti a caso | fatto in modo diverso dal calcolo automatico di prima: l'inizio di ogni card è stato scelto leggendo la trascrizione (frase per frase) da revisori; tabella dei 10 punti qui sotto. Alcune card non hanno corrispondenza nel parlato (vedi sezione 4). |
-| 3 | Mappe ridisegnate con `kit/tools/mappa.py`, intere, nodi a tempo con la voce Kore | fatto: le 3 mappe del prof (Gli Stati Uniti, L'Unione Sovietica, In Medio Oriente) sono ridisegnate (centro + rami, nodi con la voce Kore a tempo); dopo gli argomenti 5, 6 e 6. |
-| 4 | Almeno un approfondimento animato (4c) per argomento, 40–60 s, voce Kore | fatto: 7 approfondimenti (uno per argomento) con voce Kore nuova (7 voci richieste alla master), durata dei pezzi AP1 51,0; AP2 59,4; AP3 53,3; AP4 53,2; AP5 49,4; AP6 49,3; AP7 51,7 (compresi 0,9 s iniziali e 1,2 s finali di pausa), card a tempo con la voce; i testi sono stati scritti da un revisore automatico dal parlato del prof (da far confermare, sezione 5). |
-| 5 | Schema di ripasso: 4–6 righe | già a norma: 4–6 righe per argomento. |
-| 6 | `trans.wav` + dissolvenza a ogni cambio di pezzo | a norma (tutti i pezzi, anche prof → approfondimento → mappa → pillola); dissolvenza 0,5 s dal fotogramma precedente. Dentro il pezzo del prof il cambio di slide è un taglio netto (NV: non ho aggiunto dissolvenze fra slide dello stesso pezzo). |
-| 7 | Copertina: titolo esatto; card ARGOMENTI non sovrapposta | a norma: «Gli anni Sessanta tra crisi e progressi» su 2 righe a sinistra del riquadro del prof; la card ARGOMENTI sotto il titolo (vista a occhio sul fotogramma). |
-| 8 | Avviso diritti: in basso al centro, bianco 24 px senza riquadro, mai sopra il piè di pagina della copertina | fatto: sulla sigla (nera) negli ultimi 2 s, testo bianco 24 px senza riquadro; tolto dalla copertina bianca (il testo bianco non si vede su bianco). |
+| SIGLA | 0:00.0 | 15.0 s |
+| COVERV | 0:15.0 | 13.1 s |
+| D0 | 0:28.1 | 130.9 s |
+| ARGS | 2:39.0 | 29.4 s |
+| T1 | 3:08.4 | 4.0 s |
+| D1 | 3:12.4 | 16.8 s |
+| AP1 | 3:29.2 | 44.4 s |
+| PI1 | 4:13.6 | 7.3 s |
+| PS1 | 4:20.9 | 20.1 s |
+| Q1 | 4:41.0 | 5.0 s |
+| T2 | 4:46.0 | 4.0 s |
+| D2a | 4:50.0 | 337.8 s |
+| AP2A | 10:27.8 | 47.1 s |
+| D2b | 11:14.9 | 184.6 s |
+| AP2 | 14:19.5 | 59.2 s |
+| PI2 | 15:18.6 | 7.0 s |
+| PS2 | 15:25.6 | 17.7 s |
+| Q2 | 15:43.3 | 5.0 s |
+| T3 | 15:48.3 | 4.0 s |
+| D3a | 15:52.3 | 198.4 s |
+| AP3A | 19:10.6 | 33.1 s |
+| D3b | 19:43.8 | 204.8 s |
+| AP3 | 23:08.5 | 53.3 s |
+| PI3 | 24:01.8 | 7.3 s |
+| PS3 | 24:09.1 | 18.4 s |
+| Q3 | 24:27.5 | 5.0 s |
+| T4 | 24:32.5 | 4.0 s |
+| D4 | 24:36.5 | 443.6 s |
+| AP4 | 32:00.1 | 52.6 s |
+| PI4 | 32:52.7 | 7.1 s |
+| PS4 | 32:59.8 | 19.1 s |
+| Q4 | 33:18.9 | 5.0 s |
+| T5 | 33:23.9 | 4.0 s |
+| D5a | 33:27.9 | 259.6 s |
+| AP5A | 37:47.5 | 47.7 s |
+| D5b | 38:35.2 | 276.7 s |
+| AP5 | 43:11.9 | 49.2 s |
+| PI5 | 44:01.1 | 7.1 s |
+| PS5 | 44:08.2 | 20.4 s |
+| Q5 | 44:28.6 | 5.0 s |
+| T6 | 44:33.6 | 4.0 s |
+| D6 | 44:37.6 | 133.7 s |
+| AP6 | 46:51.3 | 49.2 s |
+| MAP2 | 47:40.5 | 36.3 s |
+| MAP3 | 48:16.8 | 31.2 s |
+| PI6 | 48:48.1 | 9.6 s |
+| PS6 | 48:57.6 | 22.1 s |
+| Q6 | 49:19.7 | 5.0 s |
+| T7 | 49:24.7 | 4.0 s |
+| D7 | 49:28.7 | 237.3 s |
+| AP7 | 53:26.1 | 51.1 s |
+| MAP1 | 54:17.1 | 41.9 s |
+| PI7 | 54:59.0 | 7.6 s |
+| PS7 | 55:06.6 | 20.6 s |
+| Q7 | 55:27.3 | 5.0 s |
+| GL | 55:32.3 | 34.6 s |
+| RIEP | 56:06.8 | 126.5 s |
+| VER | 58:13.4 | 8.8 s |
+| FINALE | 58:22.1 | 5.0 s |
+| COMPI | 58:27.1 | 3.5 s |
+| CO | 58:30.6 | 62.9 s |
 
-### Sincronia: 10 punti a caso (M)
-| Dove | Argomento | Card accesa | Frase del prof che inizia in quel punto (trascrizione) | Scarto dall'inizio della frase |
+## 3. Fine di ogni pezzo del prof (tagli nelle pause, 0,15–0,17 s prima della frase che segue)
+| Pezzo | Minuto nel video | Ultime parole | Frase finita | Pausa prima della frase seguente (s) |
 |---|---|---|---|---|
-| Parte 1 · 5:04.47 | arg. 2 | «programma politico basato sul progresso economico, scie…» | «e di una complessa ridefinizione degli equilibri internazionali. Passerei i…» | -0.2 s |
-| Parte 1 · 7:11.27 | arg. 2 | «Kennedy sostiene la lotta contro la segregazione razzia…» | «La questione dei neri, che non sono più schiavi, ma cento anni dopo aver fi…» | +0.0 s |
-| Parte 1 · 26:32.70 | arg. 4 | «Kennedy lancia il progetto lunare; il 20 luglio 1969 la…» | «Prima di tutto questo c'era anche il primo cane, per capire se poteva sopra…» | -0.0 s |
-| Parte 1 · 32:00.63 | arg. 5 | «eretto nell'agosto 1961 dalla Germania Est per fermare …» | «Bene, quindi capite che la presidenza Kennedy non è solo la presidenza del …» | -0.2 s |
-| Parte 1 · 37:20.48 | arg. 5 | «massimo punto di tensione globale causato dall'installa…» | «Poi, infatti, c'è la crisi dei missili di Cuba del 1962.…» | +0.0 s |
-| Parte 1 · 38:02.38 | arg. 5 | «intervento militare massiccio degli Stati Uniti contro …» | «Però c'è il problema, come potete vedere dalla cartina, del Vietnam. Mai ri…» | -0.0 s |
-| Parte 1 · 39:50.18 | arg. 5 | «intervento militare massiccio degli Stati Uniti contro …» | «La guerra dura.…» | +1.2 s |
-| Parte 1 · 44:34.85 | arg. 6 | «tentativo della Cecoslovacchia di creare un "socialismo…» | «E infatti sarà proprio con Brežnev. Con Chruščëv abbiamo visto i moti d'Ung…» | +0.0 s |
-| Parte 1 · 49:07.33 | arg. 7 | «nascita del movimento hippy, rifiuto del materialismo e…» | «e sono contrari alla politica dei loro padri, per così dire, alla politica …» | -0.0 s |
-| Parte 1 · 51:20.63 | arg. 7 | «sul piano strettamente politico ottiene poche vittorie …» | «di rottura, ma anche... cioè, di rottura positiva e di inaugurazione di un …» | -0.0 s |
+| D0 | 2:39.0 | «adesso stiamo vedendo, grosso modo, le dinamiche mondiali.» | sì | 1.81 |
+| D1 | 3:29.2 | «frutti, l'età del benessere e le trasformazioni sociali.» | sì | 0.6 |
+| D2a | 10:27.8 | «e il paese della democrazia più piena, d'accordo?» | sì | 1.26 |
+| D2b | 14:19.5 | «aspettava veramente al Varco, lo attendeva al Varco» | NO | 1.53 |
+| D3a | 19:10.6 | «e forse anche di una presidenza democratica. Vediamo.» | sì | 1.47 |
+| D3b | 23:08.5 | «bianco, potremmo chiamarlo con i termini di oggi.» | sì | 0.76 |
+| D4 | 32:00.1 | «anche la memoria di Kennedy che l'aveva annunciata.» | sì | 0.51 |
+| D5a | 37:47.5 | «ci torneremo su questo.» | sì | 0.17 |
+| D5b | 43:11.9 | «anche di vincere, però, la guerra in Vietnam.» | sì | 1.09 |
+| D6 | 46:51.3 | «delle nazioni arabe che hanno dichiarato lui guerra.» | sì | 0.16 |
+| D7 | 53:26.1 | «lotate di estrema sinistra e di estrema destra.» | sì | fine lezione |
 
-L'accensione coincide con l'inizio di una frase del prof per costruzione (M: scarto dall'inizio della frase). Che la frase sia davvero quella della card l'hanno giudicato i revisori leggendo la trascrizione: io non l'ho riverificato punto per punto (NV).
+(D2b: la frase «lo attendeva al Varco» è conclusa; la trascrizione automatica non ha il punto.)
 
-## 2. Misure sul video nuovo (M)
+## 4. Cosa è stato rifatto (correzioni 22/11)
+1. **Mappe del prof** (3: Stati Uniti, Unione Sovietica, Medio Oriente) ridisegnate nel modello BES con legenda, costruite ramo per ramo con la voce Kore, 4 s di mappa intera con un suono morbido. Nessuna mappa inventata, nessuna mappa finale. Il PDF dice 3 mappe e le ho messe: Unione Sovietica e Medio Oriente dopo l'argomento 6, Stati Uniti dopo l'argomento 7 (è la mappa che parla anche del 1968). **Titolo della mappa del Medio Oriente scritto da me con le parole del prof** («Cosa accade in Medio Oriente negli anni Sessanta?»): il PDF del prof non ha la domanda. Il connettore «lo» davanti a «Egitto» e «Stato di Israele» sembra un refuso del prof: lasciato come sta.
+2. **Slide del prof**: card a 40 px, interlinea 1,5 (56–60 px), al massimo 3 per slide, ognuna una frase intera (etichetta in grassetto + testo, senza «…»); bordo giallo e pallino quando il prof comincia il punto; altre card attenuate; riquadro 4:3 412×309 a x=1428, y=148 con ombra grigia e fascia gialla (il nome compare solo lì). Sotto-slide «a finestra» e numero di pagina diverso a ogni finestra: nessuna finestra oltre 3 minuti.
+3. **Introduzione animata** (copertina + «Di cosa parliamo»): senza riquadro del prof. Voci Kore senza il nome del prof (benvenuto, indice, mappe, AP1 rifatti).
+4. **Copertina** con il titolo esatto; intro del prof 130,9 s (<3 minuti).
+5. **Una sola Parte** (59:33): nessuno spiegone.
+6. **Approfondimenti**: 7 (uno per argomento, voci già presenti) + 3 nuovi dove il prof resta a lungo sullo stesso concetto (segregazione, passaggio dei poteri dopo Dallas, contenimento del comunismo). Testi dal parlato del prof.
+7. **Ripassi** (pillola + schema) in blu scuro a tutto schermo, righe che si accendono con la voce; riepilogo finale blu; compiti letti dalla voce unica COMPITI_R2 con la riga finale sullo schermo; verifica di sbarramento (scheda con scatto a +0,5 s) e sigla finale del kit.
+8. **Immagini del prof** (4: Kennedy→arg. 2, carta del Vietnam→arg. 5, carrarmati a Praga→arg. 6, carta della guerra dei Sei giorni→arg. 6) ingrandite 4× con EDSR (OpenCV dnn_superres) + nitidezza: è un ingrandimento, non nuovi dettagli (NV: il ritratto di Kennedy non è confrontato a occhio con l'originale).
+9. **Dispensa A4** (pagine come da `pages.json`) = pagine del video, con strato di testo invisibile; copertina solo materia e titolo; piè di pagina «STORIA V» e «Pagina N». **PDF mappe** a parte con copertina «MAPPE».
+10. **Audio**: tagli del prof agganciati ai fotogrammi (sincronia labbra/voce per costruzione: audio e video dallo stesso intervallo dell'originale, NV misura a 0,04 s non fatta); pause oltre 2,5 s accorciate a circa 1 s.
+11. **Sottotitoli** `.vtt` (spenti all'avvio): trascrizione del prof corretta da agenti sulle slide e sulle mappe, più i testi delle voci Kore; tempi dalla trascrizione (NV: non riletti per intero dalla master).
 
-### Parte 1
-```
-durata 3311.44 s = 55:11.44 | fotogrammi 99343 (durata*30=99343) = somma dei pezzi 99343 | peso 285.1 MB | 1920x1080
-LUFS -15.2  TP -1.9 dBFS
-Q1 atteso 295.967 trovato 295.968 scarto +0.001 OK
-Q2 atteso 901.433 trovato 901.435 scarto +0.002 OK
-Q3 atteso 1414.800 trovato 1414.803 scarto +0.003 OK
-Q4 atteso 1912.133 trovato 1912.136 scarto +0.003 OK
-Q5 atteso 2612.500 trovato 2612.501 scarto +0.001 OK
-Q6 atteso 2902.433 trovato 2902.434 scarto +0.001 OK
-Q7 atteso 3238.133 trovato 3238.135 scarto +0.002 OK
-```
-Silenzi > 3 s (−45 dB): 0.
-Fermi del prof ≥ 1 s: nessuno.
-Fotogramma Quiz ai `quiz_s`: Q1 295.47s OK, Q2 900.93s OK, Q3 1414.30s OK, Q4 1911.63s OK, Q5 2612.00s OK, Q6 2901.93s OK, Q7 3237.63s OK.
-sha256 (ricomposto dalle parti): `9f048dea94205148361c8579d364e5f00948505d7e70040003c65ad46dfce19b  Storia_Lez16_Parte1_1080p.mp4`
+## 5. Tabella immagini del prof → argomento (uno solo)
+Kennedy (discorso) → 2 · carta del Vietnam → 5 · carrarmati a Praga → 6 · carta della guerra dei Sei giorni → 6. Le pagine di solo testo: pagina «benessere» → 1, «Kennedy» → 2, «Johnson» → 3, «spazio» → 4, «attrito» → 5, «blocco sovietico» → 6, «Sessantotto» → 7.
 
-Formato: 1920×1080, 30 fps, x264 veryfast CRF 25, AAC 192 kbps 48 kHz; parlato del prof dall'originale con la catena del kit; voci Kore a −16 LUFS. **Le Parti durano meno dei 50 minuti** (materiale del prof).
+## 6. Refusi e anomalie nel materiale del prof
+- **Slide del prof**: nessun refuso trovato. Unica modifica: le virgolette "..." diventano «...» («baby boom», «frontiera», «socialismo dal volto umano»).
+- **Parlato** (riportato come lo dice, niente calcoli): il prof dice «la sua amministrazione, 1960, in teoria 1964» (la slide dice 1961-1963); «porteremo l'uomo sulla luna entro la fine del secolo, del decennio»; per Chruščëv «53, 62, d'accordo? 64» (la slide e la mappa dicono 1953 e 1964: il «62» non torna); la crisi dei missili di Cuba la dice «del sessantue» (1961) mentre la slide dice 1962. La master li porti a Sara.
+- **Mappa 3**: manca la domanda-titolo; connettore «lo» probabile refuso (vedi §4).
+- Il prof tratta la prima slide (benessere) in soli 16 s: le card «Mutamento demografico», «Welfare State» e «Ruolo delle donne» non sono dette a voce; restano visibili e le spiega l'approfondimento 1 (voce Kore, dalle sue slide).
+- La card «Politica estera» della slide Kennedy è accesa dove il prof parla di sfida con i sovietici (corsa allo spazio, intorno a 8:08 del video) e non è mai detta come tale.
 
-## 3. Tabella dei pezzi (sezione C della scheda tecnica) (M)
+## 7. Voci Kore (M/NV)
+- 17 voci nuove/rifatte ricevute il 23/11: bordi (ultimi 50 ms) sotto 0,03 su tutte **tranne COMPITI_R2 (0,06)**: nel montaggio ha dissolvenza di 40 ms; chiesta COMPITI_R3 alla master. Trascrizione e confronto: similarità 0,84–1,0 con i testi (differenze = errori di riconoscimento su Chruščëv/Brežnev/numeri). **NV:** non ho ascoltato le voci; GL1_R2 e MD2_R2 sono «DA CONTROLLARE» nell'ESITI della master (pronuncia di nomi russi).
+- Le altre voci (AP2–AP7, R, SC, P, FIN, COMPI) sono quelle della consegna precedente: per R2, R3, R5, P6, GL1, RV5_4 (bordo ≥0,03 nel file grezzo) sono state sostituite dalle versioni _R2.
 
-**Parte 1**
-
-| Pezzo | Presente | Inizio | Durata |
-|---|---|---|---|
-| 1 · Sigla `SIGLA` | sì | 0:00.00 | 15.0 s |
-| 3 · Copertina + benvenuto (voce Kore) `COVERV` | sì | 0:15.00 | 13.7 s |
-| 3 · Introduzione del prof (copertina con riquadro) `D0` | sì | 0:28.73 | 132.0 s |
-| 4a · Titolo argomento `T1` | sì | 2:40.73 | 4.0 s |
-| 4b · Docente + slide `A1` | sì | 2:44.73 | 40.7 s |
-| 4c · Approfondimento animato (voce Kore) `AP1` | sì | 3:25.43 | 51.0 s |
-| 4e · Pillola di ripasso (introduzione blu) `PI1` | sì | 4:16.40 | 10.0 s |
-| 4f · Pillola di ripasso (schema guidato bianco) `PS1` | sì | 4:26.37 | 29.1 s |
-| 4g · Scheda Quiz `Q1` | sì | 4:55.47 | 5.0 s |
-| 4a · Titolo argomento `T2` | sì | 5:00.47 | 4.0 s |
-| 4b · Docente + slide `A2` | sì | 5:04.47 | 502.3 s |
-| 4c · Approfondimento animato (voce Kore) `AP2` | sì | 13:26.77 | 59.4 s |
-| 4e · Pillola di ripasso (introduzione blu) `PI2` | sì | 14:26.20 | 10.2 s |
-| 4f · Pillola di ripasso (schema guidato bianco) `PS2` | sì | 14:36.40 | 24.5 s |
-| 4g · Scheda Quiz `Q2` | sì | 15:00.93 | 5.0 s |
-| 4a · Titolo argomento `T3` | sì | 15:05.93 | 4.0 s |
-| 4b · Docente + slide `A3` | sì | 15:09.93 | 417.1 s |
-| 4c · Approfondimento animato (voce Kore) `AP3` | sì | 22:07.03 | 53.3 s |
-| 4e · Pillola di ripasso (introduzione blu) `PI3` | sì | 23:00.33 | 10.3 s |
-| 4f · Pillola di ripasso (schema guidato bianco) `PS3` | sì | 23:10.63 | 23.7 s |
-| 4g · Scheda Quiz `Q3` | sì | 23:34.30 | 5.0 s |
-| 4a · Titolo argomento `T4` | sì | 23:39.30 | 4.0 s |
-| 4b · Docente + slide `A4` | sì | 23:43.30 | 400.4 s |
-| 4c · Approfondimento animato (voce Kore) `AP4` | sì | 30:23.67 | 53.2 s |
-| 4e · Pillola di ripasso (introduzione blu) `PI4` | sì | 31:16.83 | 9.8 s |
-| 4f · Pillola di ripasso (schema guidato bianco) `PS4` | sì | 31:26.63 | 25.0 s |
-| 4g · Scheda Quiz `Q4` | sì | 31:51.63 | 5.0 s |
-| 4a · Titolo argomento `T5` | sì | 31:56.63 | 4.0 s |
-| 4b · Docente + slide `A5` | sì | 32:00.63 | 566.3 s |
-| 4c · Approfondimento animato (voce Kore) `AP5` | sì | 41:26.90 | 49.4 s |
-| 4d · Mappa del prof (voce Kore) `MAP1` | sì | 42:16.33 | 38.6 s |
-| 4e · Pillola di ripasso (introduzione blu) `PI5` | sì | 42:54.90 | 10.1 s |
-| 4f · Pillola di ripasso (schema guidato bianco) `PS5` | sì | 43:04.97 | 27.0 s |
-| 4g · Scheda Quiz `Q5` | sì | 43:32.00 | 5.0 s |
-| 4a · Titolo argomento `T6` | sì | 43:37.00 | 4.0 s |
-| 4b · Docente + slide `A6` | sì | 43:41.00 | 134.1 s |
-| 4c · Approfondimento animato (voce Kore) `AP6` | sì | 45:55.07 | 49.3 s |
-| 4d · Mappa del prof (voce Kore) `MAP2` | sì | 46:44.37 | 32.2 s |
-| 4d · Mappa del prof (voce Kore) `MAP3` | sì | 47:16.53 | 24.9 s |
-| 4e · Pillola di ripasso (introduzione blu) `PI6` | sì | 47:41.40 | 12.4 s |
-| 4f · Pillola di ripasso (schema guidato bianco) `PS6` | sì | 47:53.77 | 28.2 s |
-| 4g · Scheda Quiz `Q6` | sì | 48:21.93 | 5.0 s |
-| 4a · Titolo argomento `T7` | sì | 48:26.93 | 4.0 s |
-| 4b · Docente + slide `A7` | sì | 48:30.93 | 238.0 s |
-| 4c · Approfondimento animato (voce Kore) `AP7` | sì | 52:28.97 | 51.7 s |
-| 4e · Pillola di ripasso (introduzione blu) `PI7` | sì | 53:20.70 | 10.7 s |
-| 4f · Pillola di ripasso (schema guidato bianco) `PS7` | sì | 53:31.40 | 26.2 s |
-| 4g · Scheda Quiz `Q7` | sì | 53:57.63 | 5.0 s |
-| 5 · Glossario `GL` | sì | 54:02.63 | 35.6 s |
-| 6 · Riepilogo finale `RIEP` | sì | 54:38.20 | 28.2 s |
-| 7 · Finale `FINALE` | sì | 55:06.43 | 5.0 s |
-
-## 4. Cose che non tornano nel parlato / limiti
-- **Durata (M):** la lezione è in una sola Parte da 55 minuti (vedi sezione 2), dentro i 50–60 minuti della regola.
-- **Slide ferme oltre i 3 minuti (M): molte.** Con le card intere un argomento in cui il prof parla a lungo su pochi punti resta sulla stessa slide (elenco al punto 1; per es. arg. 5: 566 s su 3 punti, arg. 3: 417 s, arg. 4: 400 s). Non c'è altro modo di accorciarle senza spezzare le card o inventare contenuti. Le 4 pagine immagine del PDF (Kennedy, mappa del Vietnam, carri armati a Praga, mappa della guerra dei Sei giorni) sono messe a tempo dove il prof le mostra.
-- **Introduzione (M):** il prof parla 132 s sopra la copertina (meno di 3 minuti): nessuna slide «Di cosa parliamo».
-- **Copertina:** titolo su 2 righe a sinistra del riquadro del prof; la card ARGOMENTI scende sotto il titolo (8 argomenti: carattere più piccolo).
-- **Argomento 1 (M):** il prof lo liquida in 41 s con 5 punti: le card si accendono ogni 6–12 s su frasi vicine; welfare, baby boom e ruolo delle donne non sono trattati a voce. Arg. 2: politica estera non trattata (card agganciata a «sfida con i sovietici»); arg. 7: hippy dopo il femminismo (card 2 agganciata in modo debole).
-- Webcam del prof 184×138 ingrandita 2,2× (morbida); testa vicina al bordo alto già nell'originale (S).
-
-## 5. DA CONFERMARE COL PROF / cosa NON ho verificato (NV)
-- Gli **approfondimenti** (testi scritti da un revisore automatico dal parlato del prof) vanno riletti dal prof o dalla master. Fatti da controllare: missili NATO in Turchia, «Piano Marshall» (arg. 1), Tereskova 1963 (arg. 4), città dei disordini urbani (arg. 3).
-- Voci: tutte Kore (ramo `voci-storia-V-lez16`). Controllo automatico trascrizione/testo sulle 8 voci nuove (90–98% delle parole); non le ho riascoltate a orecchio (NV).
-- Sottotitoli: parlato del prof corretto a blocchi da revisori automatici (consegna precedente), non riletti per intero; tempi ±0,3 s non misurati (NV). Le voci Kore sono nei sottotitoli.
-- PDF slide: stesse immagini del video (S); confronto pagina per pagina con i fotogrammi non fatto (NV). Quiz di argomento riusati (da approvare dalla master).
+## 8. Cosa NON è stato verificato (NV)
+- Controllo dell'agente separato del §11: **non fatto** (tempo: voci arrivate alle 09:20 UTC).
+- Controllo severo (OCR): il giro sulla versione precedente ha dato RESPINTA per una sola card sola oltre 60 s (corretta schiarendo le card spente) e per pause mute (voci provvisorie e fine delle mappe, corrette) e non è stato rilanciato sull'ultima codifica; controllo ascoltato delle voci; sincronia labbra/voce misurata a 0,04 s; ritratto di Kennedy ingrandito confrontato a occhio; sottotitoli riletti per intero; dispensa confrontata pagina per pagina col video (generata dagli stessi sorgenti HTML, NV pagine con card spente: tutte le card sono mostrate senza bordo giallo).

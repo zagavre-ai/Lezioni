@@ -1,49 +1,49 @@
 {
  "materia": "Storia V",
- "titolo": "Storia V · Lezione 20 · Gli anni Novanta, il mondo post-bipolare · Parte 1",
- "durata_s": 3311.433,
+ "titolo": "Storia V · Gli anni Sessanta tra crisi e progressi · Parte 1",
+ "durata_s": 3573.5,
  "argomenti": [
   {
    "n": 1,
    "titolo": "L'età del benessere",
-   "inizio_s": 160.733,
-   "quiz_s": 295.467
+   "inizio_s": 188.418,
+   "quiz_s": 281.018
   },
   {
    "n": 2,
    "titolo": "Kennedy e la Nuova Frontiera",
-   "inizio_s": 300.467,
-   "quiz_s": 900.933
+   "inizio_s": 286.018,
+   "quiz_s": 943.252
   },
   {
    "n": 3,
    "titolo": "Johnson e la Great Society",
-   "inizio_s": 905.933,
-   "quiz_s": 1414.3
+   "inizio_s": 948.252,
+   "quiz_s": 1467.484
   },
   {
    "n": 4,
    "titolo": "La corsa allo spazio",
-   "inizio_s": 1419.3,
-   "quiz_s": 1911.633
+   "inizio_s": 1472.484,
+   "quiz_s": 1998.851
   },
   {
    "n": 5,
    "titolo": "I punti di attrito della guerra fredda",
-   "inizio_s": 1916.633,
-   "quiz_s": 2612.0
+   "inizio_s": 2003.851,
+   "quiz_s": 2668.552
   },
   {
    "n": 6,
    "titolo": "Il blocco sovietico da Chruščëv a Brežnev",
-   "inizio_s": 2617.0,
-   "quiz_s": 2901.933
+   "inizio_s": 2673.552,
+   "quiz_s": 2959.718
   },
   {
    "n": 7,
    "titolo": "Il Sessantotto: una protesta globale",
-   "inizio_s": 2906.933,
-   "quiz_s": 3237.633
+   "inizio_s": 2964.718,
+   "quiz_s": 3327.251
   }
  ],
  "quiz": {
@@ -432,5 +432,9 @@
     }
    ]
   }
- }
+ },
+ "t_verifica": 3493.351,
+ "t_compiti": 3507.131,
+ "verifica_json": "verifica_finale.json",
+ "compiti_json": "compiti.json"
 }
