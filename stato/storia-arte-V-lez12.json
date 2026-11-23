@@ -1,7 +1,7 @@
 {
  "tag": "storia-arte-V-lez12",
  "parti": {},
- "manca": "attendo le voci Kore (dalle 9:00): al loro arrivo le controllo, rifaccio le 17 schede con voce, codifico, controllo, consegno",
+ "manca": "attendo voci Kore (dalle 9:00 italiane)",
  "serve_master": [
   {
    "quando": "22/11 23:09",
@@ -25,7 +25,11 @@
   {
    "quando": "23/11 01:43",
    "testo": "23/11 02:50: montaggio completo con voci provvisorie 60,2 min; controllo_rapido ESITO OK; sincronia 0,02 s; quiz a 0,0 s; timbro -15,6/-17,3 dB. Dispense e PDF mappe pronti."
+  },
+  {
+   "quando": "23/11 02:15",
+   "testo": "23/11 02:15 UTC: montaggio completo con voci provvisorie, sigla Storia dell'arte applicata; nessuna voce ancora sul ramo"
   }
  ],
- "aggiornato": "2026-11-23 01:43:21"
+ "aggiornato": "2026-11-23 02:15:04"
 }
