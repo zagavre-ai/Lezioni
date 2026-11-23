@@ -1,0 +1,16 @@
+I2_ARGOMENTI OK frasi trovate 1 / 1 parole diverse 2 (vere 0) tentativi 1
+A2_APPROF DA CONTROLLARE frasi trovate 1 / 1 parole diverse 10 (vere 35) REGIA LETTA tentativi 1
+A4_APPROF OK frasi trovate 1 / 1 parole diverse 7 (vere 4) tentativi 1
+A6_APPROF DA CONTROLLARE frasi trovate 1 / 1 parole diverse 8 (vere 11) tentativi 1
+P2_PILLOLA DA CONTROLLARE frasi trovate 1 / 1 parole diverse 6 (vere 5) tentativi 1
+P4_PILLOLA OK frasi trovate 1 / 1 parole diverse 4 (vere 2) tentativi 1
+P6_PILLOLA OK frasi trovate 1 / 1 parole diverse 7 (vere 4) tentativi 1
+M4_MAPPA OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
+G1_GLOSSARIO DA CONTROLLARE frasi trovate 1 / 1 parole diverse 9 (vere 8) tentativi 1
+F1_MAPPE_FINALE OK frasi trovate 1 / 1 parole diverse 1 (vere 1) tentativi 1
+C1_COMPITI_INTRO OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
+S1_SPIEGONE OK frasi trovate 1 / 1 parole diverse 15 (vere 6) tentativi 1
+A2_APPROF DA CONTROLLARE durata fuori misura
+P2_PILLOLA DA CONTROLLARE durata fuori misura
+P4_PILLOLA DA CONTROLLARE durata fuori misura
+P6_PILLOLA DA CONTROLLARE durata fuori misura
