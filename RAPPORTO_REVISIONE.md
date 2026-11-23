@@ -1,179 +1,111 @@
-# RAPPORTO · Storia V · Lezione 15 · La decolonizzazione (1945-1975)
+# RAPPORTO · Storia V · Lezione 15 · La decolonizzazione (1945-1975) · correzioni 22/11
 
-**Stato: rifatta da zero e poi corretta con le note della master del 19/11 (03:40, 05:10, 05:25)**, in 1 Parte unica, sul video originale del prof. Giorgio Mazzotti (2540,0 s). Voci Kore e quiz (10×5) già approvati nel ramo `voci-storia-V-lez15`; le 20 voci nuove degli approfondimenti (AN1–AN20) le ha fatte la master: 19 con esito OK, **AN8 «DA CONTROLLARE»** (6 parole diverse secondo l'ASR della master: non riascoltata). Ogni affermazione è marcata [misurato], [per costruzione], [stima] o [non verificato].
+Una sola Parte, sul video originale del prof (2540,2 s). Ogni affermazione è marcata [misurato], [per costruzione] o [non verificato].
 
-## 1 · Misure sul video
-
-| | Parte unica (argomenti 1–10) |
-|---|---|
-| Durata | 62:46.0 (3766.0 s) [misurato] |
-| Fotogrammi / 30 fps | 112980 = durata×30 [misurato] |
-| Formato | 1920×1080, x264, AAC 192k 48 kHz stereo [misurato] |
-| Peso | 389.1 MB [misurato] |
-| Loudness integrata (file finale, ebur128) | -16,7 LUFS [misurato] |
-| Picco (true peak, file finale) | -4,1 dBFS [misurato] (limite −1) |
-| Parlato del prof (mediana dei pezzi) | -16,4 LUFS [misurato] |
-| Scatto `quiz.wav` | OK +0.005; OK +0.005; OK +0.005; OK +0.005; OK +0.005; OK +0.005; OK +0.005; OK +0.005; OK +0.005; OK +0.005 [misurato, controllo_jingle.py] |
-| Fermi immagine del prof ≥ 1 s | vedi uscita del controllo [misurato] |
-| Sfasamento audio/labbra | **non misurato in modo affidabile** (la correlazione viso/audio è troppo debole perché il prof gesticola); audio e video del prof escono dallo stesso istante dell'originale [per costruzione] |
-| sha256 | vedi `.sha256`; ricomponendo i `.parte_NN` coincide [misurato] |
-
-Uscita integrale di `controllo_finale.py`:
-
+## 1 · Misure sul video finale
 ```
-durata 62:46.0 (3766.0 s) | fotogrammi 112980 (attesi 112980) OK | peso 389.1 MB (371.1 MiB) OK | 1920x1080 OK
+durata 61:38.6 (3698.6 s) | fotogrammi 110958 (attesi 110958) OK | peso 331.3 MB (316.0 MiB) OK | 1920x1080 OK
 quiz 10 scatto 0,0 s: OK
 fermi immagine nei pezzi del docente: nessuno OK
-volume del parlato (mediana dei pezzi del docente): -16.4 LUFS OK
-sottotitoli: 797 blocchi, sovrapposti 0, oltre la fine 0, attacco sulla voce entro 0,3 s: 89% di 18 verificabili OK
-foglio di miniature: out/Storia_Lez15_Parte1_1080p.mp4.miniature.jpg
+volume del parlato (mediana dei pezzi del docente): -15.2 LUFS OK
+sottotitoli: 862 blocchi, sovrapposti 0, oltre la fine 0, attacco sulla voce entro 0,3 s: 100% di 10 verificabili OK
+foglio di miniature: Storia_Lez15_Parte1_1080p.mp4.miniature.jpg
 ESITO: TUTTO OK
+
 ```
 
-**Sottotitoli, attacco sulla voce (soglia 80%)**: **89%** di 18 blocchi verificabili (OK) [misurato]. Dove lo strumento non dà OK, i blocchi fuori soglia vanno guardati uno per uno: ho guardato i 6 blocchi fuori soglia (circa 2:50, 6:59, 15:20, 30:30, 41:22, 42:31): in 5 l'energia del parlato parte entro 0,0–0,2 s dall'inizio del blocco e lo strumento trova prima un breve rumore (respiro o coda della parola precedente) 0,7–0,8 s prima; nel blocco a 30:30 l'attacco del parlato è 0,34 s dopo l'inizio del blocco [misurato sull'energia, non riascoltati]. Il verdetto automatico resta DA SISTEMARE.
+## 2 · Tabella dei tagli del prof (fine di ogni pezzo, sulla trascrizione)
 
-## 1b · Correzioni della master (19/11)
-
-| # | Punto | Cosa ho fatto | Misura |
+| Pezzo | Fine (min) | Ultime parole | Frase finita |
 |---|---|---|---|
-| 1 | Max 3 card per slide, slide mai ferme oltre 3 min; card = punto intero della slide del prof, mai spezzata con «…»; mai una card sola senza immagine | Le 20 pagine hanno 2 o 3 card (max 2); le card sono i punti interi del PDF del prof (titolo in grassetto una volta sola); le pagine da 4 card sono ridistribuite 2+2 e il punto che restava solo (pagina 7→8) è unito alla pagina dopo; il prof è diviso in 18 tratti con approfondimenti in mezzo; dove una card dura a lungo la stessa card passa a pagina intera in corpo grande (0 stati) | pagina ferma più lunga: **175 s** (argomento 7, minuto 28:42 dell'originale) [misurato sul piano dei cue]; limite 180 s |
-| 2 | Sincronia bordo giallo ↔ prof | Cue presi dalla trascrizione (segmenti con i tempi) | non rimisurato a campione su 10 punti in questa versione: i cue sono quelli della consegna precedente, già allineati alla trascrizione [non verificato in questa versione] |
-| 3 | Mappe | Per la lezione 15 non esiste il PDF «MAPPE LEZIONE 15» (indice della master): nessuna mappa del prof da ridisegnare; non ho inventato mappe | 0 mappe [per costruzione] |
-| 4 | Approfondimenti animati | Per ogni argomento 2 approfondimenti con le voci Kore già approvate (`AN1`–`AN10`), frasi della voce a tempo, solo materiale della lezione | durata per argomento: arg. 1 42 s; arg. 2 40 s; arg. 3 40 s; arg. 4 46 s; arg. 5 43 s; arg. 6 49 s; arg. 7 51 s; arg. 8 51 s; arg. 9 43 s [misurato]; richiesto 40–60 s: fuori intervallo gli argomenti nessuno |
-| 5 | Schema di ripasso 4–6 righe | Già a norma (4 righe, voci SC già approvate) | righe per argomento: 1:4, 2:4, 3:4, 4:4, 5:4, 6:4, 7:4, 8:4, 9:4, 10:4 [misurato] |
-| 6 | Transizioni | `trans.wav` + dissolvenza 0,4 s a ogni confine tra pezzi | 85 confini, nessun taglio secco [per costruzione] |
-| 7 | Copertina | Titolo esatto della slide del prof: «LA DECOLONIZZAZIONE (1945 – 1975)» su 2 righe a sinistra del riquadro del prof | verificato sul fotogramma [misurato] |
-| 8 | Avviso diritti | Solo nel finale, in basso al centro, testo bianco 24 px senza riquadro; tolto dalla copertina | verificato sul fotogramma del finale [misurato] |
-| 9 | Introduzione del prof sulla copertina max 3 min | Il prof parla sulla copertina da 0:00,6 a 1:50 | 109 s [misurato] |
-| 10 | `timeline` e `scheda_pubblicazione` rigenerate sul video corretto | Rigenerate dopo l'ultimo montaggio | durata_s = durata del video [misurato] |
+| intro | 2:12.6 | loro. Per le loro. Per il loro smantellamento. | sì |
+| prof1_1 | 6:00.3 | Gli Stati Uniti, idem, in funzione però anti-imperiale. | sì |
+| prof1_2 | 8:29.2 | francese e britannica su questo no? | sì |
+| prof2_1 | 12:22.4 | di essere colonizzate e neanche farlo apposta, indirettamente. | sì |
+| prof2_2 | 13:08.3 | indipendente rispetto ai due blocchi | sì (verificato a mano: la frase è conclusa) |
+| prof3_1 | 16:40.2 | forzate di milioni di persone e violenti scontri. | sì |
+| prof3_2 | 18:06.7 | che nascono dopo essere stati colonie. | sì |
+| prof4_1 | 20:30.9 | pacifico, d'accordo? C'è una vera e propria tensione. | sì |
+| prof4_2 | 23:26.0 | Va bene. | sì |
+| prof5_1 | 25:48.8 | dalla Tunisia, e qui la Francia dovette cedere. | sì |
+| prof5_2 | 27:25.3 | che non voleva garantire questa situazione. | sì |
+| prof5_3 | 29:12.6 | ancora, parleremo ancora di Get Davi. Teniamolo presente. | sì |
+| prof6_1 | 31:25.6 | Congo, Belga, poi Zaire, diversi nomi sono cambiati. | sì |
+| prof6_2 | 32:58.2 | quindi insomma lì ci sarà poi un'ulteriore tensione. | sì |
+| prof7_1 | 36:54.9 | fine il Sudafrica ottenne l'indipendenza dalla partite, d'accordo? | sì |
+| prof7_2 | 38:42.5 | era impero coloniale francese, insieme poi al Madagascar. | sì |
+| prof7_3 | 40:47.1 | separazione e c'è anche una guerra civile, d'accordo? | sì |
+| prof7_4 | 42:12.3 | l'impero coloniale portoghese. Angola e Mozambico ottennero l'indipendenza. | sì |
+| prof8_1 | 45:26.3 | tener conto di queste decisioni dei piani alti. | sì |
+| prof8_2 | 47:58.7 | e al problema dei profughi palestinesi. | sì |
+| prof9_1 | 51:21.5 | Comunque. | sì |
+| prof9_2 | 53:13.1 | e provocherà appunto la guerra per questo motivo. | sì |
+| prof10_1 | 55:28.3 | esistenti, insomma, diedero vita al fenomeno del neocolonialismo. | sì |
+| prof10_2 | 57:07.8 | il controllo mondiale | sì (verificato a mano: la frase è conclusa) |
 
-## 2 · Tabella dei pezzi (sezione C della scheda tecnica)
+## 3 · Bordo giallo delle card: 10 punti contro la trascrizione
 
-| Pezzo | Presente | Minuto | Durata misurata |
+| Argomento | Card accesa | Minuto nel video | Frase del prof a quel punto |
 |---|---|---|---|
-| 1 · Sigla | sì | 0:00.0 | 15.0 s |
-| 3 · Copertina + voce di benvenuto | sì | 0:13.6 | 23.2 s |
-| 3 · Introduzione del prof sulla copertina | sì | 0:36.4 | 110.2 s |
-| 4a · Titolo argomento 1 | sì | 2:26.2 | 4.0 s |
-| 4b · Prof + slide argomento 1 (tratto 1) | sì | 2:29.8 | 164.3 s |
-| 4c · Approfondimento animato argomento 1 · voce Kore | sì | 5:13.7 | 19.3 s |
-| 4b · Prof + slide argomento 1 (tratto 2) | sì | 5:32.7 | 157.9 s |
-| 4c · Approfondimento animato argomento 1 · voce Kore | sì | 8:10.1 | 22.4 s |
-| 4e · Pillola di ripasso argomento 1 | sì | 8:32.1 | 12.7 s |
-| 4f · Schema guidato argomento 1 | sì | 8:44.4 | 45.3 s |
-| 4g · Scheda Quiz 1 | sì | 9:29.3 | 5.0 s |
-| 4a · Titolo argomento 2 | sì | 9:33.9 | 4.0 s |
-| 4b · Prof + slide argomento 2 (tratto 1) | sì | 9:37.5 | 129.2 s |
-| 4c · Approfondimento animato argomento 2 · voce Kore | sì | 11:46.3 | 20.1 s |
-| 4b · Prof + slide argomento 2 (tratto 2) | sì | 12:06.0 | 60.5 s |
-| 4c · Approfondimento animato argomento 2 · voce Kore | sì | 13:06.1 | 20.1 s |
-| 4e · Pillola di ripasso argomento 2 | sì | 13:25.9 | 11.5 s |
-| 4f · Schema guidato argomento 2 | sì | 13:36.9 | 44.1 s |
-| 4g · Scheda Quiz 2 | sì | 14:20.7 | 5.0 s |
-| 4a · Titolo argomento 3 | sì | 14:25.3 | 4.0 s |
-| 4b · Prof + slide argomento 3 (tratto 1) | sì | 14:28.9 | 87.1 s |
-| 4c · Approfondimento animato argomento 3 · voce Kore | sì | 15:55.6 | 23.9 s |
-| 4b · Prof + slide argomento 3 (tratto 2) | sì | 16:19.1 | 122.9 s |
-| 4c · Approfondimento animato argomento 3 · voce Kore | sì | 18:21.5 | 16.5 s |
-| 4e · Pillola di ripasso argomento 3 | sì | 18:37.6 | 9.5 s |
-| 4f · Schema guidato argomento 3 | sì | 18:46.7 | 36.3 s |
-| 4g · Scheda Quiz 3 | sì | 19:22.5 | 5.0 s |
-| 4a · Titolo argomento 4 | sì | 19:27.1 | 4.0 s |
-| 4b · Prof + slide argomento 4 (tratto 1) | sì | 19:30.7 | 89.9 s |
-| 4c · Approfondimento animato argomento 4 · voce Kore | sì | 21:00.2 | 24.8 s |
-| 4b · Prof + slide argomento 4 (tratto 2) | sì | 21:24.6 | 152.8 s |
-| 4c · Approfondimento animato argomento 4 · voce Kore | sì | 23:57.0 | 21.2 s |
-| 4e · Pillola di ripasso argomento 4 | sì | 24:17.8 | 9.4 s |
-| 4f · Schema guidato argomento 4 | sì | 24:26.8 | 44.7 s |
-| 4g · Scheda Quiz 4 | sì | 25:11.1 | 5.0 s |
-| 4a · Titolo argomento 5 | sì | 25:15.7 | 4.0 s |
-| 4b · Prof + slide argomento 5 (tratto 1) | sì | 25:19.3 | 47.0 s |
-| 4c · Approfondimento animato argomento 5 · voce Kore | sì | 26:05.9 | 23.7 s |
-| 4b · Prof + slide argomento 5 (tratto 2) | sì | 26:29.2 | 102.0 s |
-| 4c · Approfondimento animato argomento 5 · voce Kore | sì | 28:10.9 | 19.5 s |
-| 4e · Pillola di ripasso argomento 5 | sì | 28:30.0 | 9.9 s |
-| 4f · Schema guidato argomento 5 | sì | 28:39.4 | 43.4 s |
-| 4g · Scheda Quiz 5 | sì | 29:22.5 | 5.0 s |
-| 4a · Titolo argomento 6 | sì | 29:27.1 | 4.0 s |
-| 4b · Prof + slide argomento 6 (tratto 1) | sì | 29:30.7 | 92.7 s |
-| 4c · Approfondimento animato argomento 6 · voce Kore | sì | 31:02.9 | 23.8 s |
-| 4b · Prof + slide argomento 6 (tratto 2) | sì | 31:26.3 | 243.4 s |
-| 4c · Approfondimento animato argomento 6 · voce Kore | sì | 35:29.3 | 25.7 s |
-| 4e · Pillola di ripasso argomento 6 | sì | 35:54.6 | 9.9 s |
-| 4f · Schema guidato argomento 6 | sì | 36:04.1 | 47.5 s |
-| 4g · Scheda Quiz 6 | sì | 36:51.2 | 5.0 s |
-| 4a · Titolo argomento 7 | sì | 36:55.8 | 4.0 s |
-| 4b · Prof + slide argomento 7 (tratto 1) | sì | 36:59.4 | 85.7 s |
-| 4c · Approfondimento animato argomento 7 · voce Kore | sì | 38:24.7 | 27.0 s |
-| 4b · Prof + slide argomento 7 (tratto 2) | sì | 38:51.3 | 263.2 s |
-| 4c · Approfondimento animato argomento 7 · voce Kore | sì | 43:14.1 | 23.7 s |
-| 4e · Pillola di ripasso argomento 7 | sì | 43:37.4 | 10.6 s |
-| 4f · Schema guidato argomento 7 | sì | 43:47.6 | 42.4 s |
-| 4g · Scheda Quiz 7 | sì | 44:29.6 | 5.0 s |
-| 4a · Titolo argomento 8 | sì | 44:34.2 | 4.0 s |
-| 4b · Prof + slide argomento 8 (tratto 1) | sì | 44:37.8 | 151.6 s |
-| 4c · Approfondimento animato argomento 8 · voce Kore | sì | 47:09.0 | 27.4 s |
-| 4b · Prof + slide argomento 8 (tratto 2) | sì | 47:36.1 | 128.2 s |
-| 4c · Approfondimento animato argomento 8 · voce Kore | sì | 49:43.9 | 23.5 s |
-| 4e · Pillola di ripasso argomento 8 | sì | 50:07.0 | 10.9 s |
-| 4f · Schema guidato argomento 8 | sì | 50:17.5 | 44.1 s |
-| 4g · Scheda Quiz 8 | sì | 51:01.2 | 5.0 s |
-| 4a · Titolo argomento 9 | sì | 51:05.8 | 4.0 s |
-| 4b · Prof + slide argomento 9 (tratto 1) | sì | 51:09.4 | 90.4 s |
-| 4c · Approfondimento animato argomento 9 · voce Kore | sì | 52:39.4 | 24.1 s |
-| 4b · Prof + slide argomento 9 (tratto 2) | sì | 53:03.1 | 129.6 s |
-| 4c · Approfondimento animato argomento 9 · voce Kore | sì | 55:12.3 | 19.3 s |
-| 4e · Pillola di ripasso argomento 9 | sì | 55:31.2 | 10.8 s |
-| 4f · Schema guidato argomento 9 | sì | 55:41.6 | 40.9 s |
-| 4g · Scheda Quiz 9 | sì | 56:22.1 | 5.0 s |
-| t10 | sì | 56:26.7 | 4.0 s |
-| prof10_0 | sì | 56:30.3 | 65.0 s |
-| an10_0 | sì | 57:34.8 | 25.1 s |
-| prof10_1 | sì | 57:59.5 | 82.5 s |
-| an10_1 | sì | 59:21.7 | 23.8 s |
-| r10 | sì | 59:45.1 | 9.8 s |
-| sch10 | sì | 59:54.5 | 44.7 s |
-| q10 | sì | 60:38.8 | 5.0 s |
-| 5 · Glossario | sì | 60:43.4 | 92.9 s |
-| 6 · Riepilogo finale + saluto | sì | 62:15.9 | 25.5 s |
-| 7 · Finale 5 s (avviso diritti) | sì | 62:41.0 | 5.0 s |
+| 1 | 1 | 4:03.10 | Allora, le premesse. |
+| 1 | 3 | 4:39.30 | coloniale, no? |
+| 1 | 2 | 5:48.50 | agrari o anche industriali, in quelle zone, ma adesso queste zone si devono queste colonie |
+| 1 | 4 | 6:26.82 | Bene, quindi, insomma, tutto questo contribuisce sicuramente. Prima arrivare alla conferen |
+| 2 | 3 | 11:58.15 | Perciò la conferenza, insomma, condannò il colonialismo e l'imperialismo, in ogni sua form |
+| 2 | 2 | 12:42.11 | Da questo incontro nacque il movimento dei paesi non allineati, che cercava una terza via  |
+| 3 | 3 | 16:34.70 | o gli induisti, causando quindi migrazioni forzate di milioni di persone e violenti scontr |
+| 4 | 1 | 19:50.59 | Non è indolore, d'accordo? Non è indolore tutto questo. |
+| 6 | 3 | 30:18.58 | Molte colonie francesi e britanniche come il Ghana, che è britannico, nel 57 la Guinea, ne |
+| 8 | 4 | 46:28.95 | Questa risoluzione non è stata accettata, come vuol dire, non hanno tenuto conto delle ric |
 
-`trans.wav` + dissolvenza (0,4 s; 1,4 s dopo la sigla) a ogni confine tra pezzi [per costruzione]; `titolo.wav`, `repaso.wav`, `quiz.wav` (+0,5 s), `finale.wav` [per costruzione; il solo scatto del quiz è misurato].
 
-## 3 · Confronto con Spagnolo Lez. 1
+**Controllo severo della master (`controllo_severo.py`), esito: OK** [misurato]. Copertina con titolo intero; schermate identiche oltre 3 min: 0; slide con lo stesso titolo oltre 3 min: 0; card sole oltre 60 s: 0; pause oltre 2,5 s: 0; loudness -16.0 LUFS; tono della voce (6 campioni, Hz): [160, 148, 152, 148, 156, 148].
 
-Immagini: `confronto_Spagnolo.jpg`, `foglio.png` (tutti i pezzi), `controllo_minuti_Parte1.jpg` (un fotogramma ogni 30 s). Schede blu fatte SOLO con `schede_spagnolo.py` a scala 1.0 [misurato]; la didascalia della pillola è il testo della voce Kore parola per parola [per costruzione].
+## 4 · Voci Kore
+**ATTENZIONE: nel video ci sono ancora voci PROVVISORIE** (un tono al posto di BEN_R2 «benvenuto», DP «Di cosa parliamo» e CPT1-4 «compiti»), e per le 11 voci da rifare e le 5 con le sigle rispiegate sono usate quelle vecchie. La lezione NON è definitiva finché la master non manda le voci: le richieste sono nel ramo `voci-storia-V-lez15` (testi_voci.json: BEN_R2, DP, CPT1-CPT4, PI3_R2, SC6_1_R2, SC10_1_R2, GL1_R2, GL3_R2, GL4_R2, GL7_R2, AN5_R2, AN7_R2, AN8_R2, AN9_R2, SC7_2_R3, SC8_2_R3, SC10_4_R3, AN15_R3, AN20_R3). Appena arrivano si rifà il montaggio (un solo comando).
+- Controllo fatto sulle 115 voci esistenti (trascrizione e confronto parola per parola [misurato]): differenze solo di numeri scritti in cifre dall'ASR; voci da rifare perché sbagliate o con bordo finale ≥ 0,03: **GL1** (il file era il glossario intero di 33 s), **SC6_1, AN7, AN8, AN9** (troncate, ampiezza finale 0,10-0,23), PI3, SC10_1, GL3, GL4, GL7, AN5 (0,03-0,07). AN8 anche «DA CONTROLLARE» dalla master.
+- Ogni voce nel montaggio: silenzio di testa/coda tolto, dissolvenza 30 ms, −16 LUFS.
+- Pronuncia dei nomi stranieri (Dien Bien Phu, Vietminh, Nkrumah, Mau Mau, Ceylon…): non ascoltata [non verificato]; l'ASR legge «Dien Bien Phu» come «bian fu» in AN8.
 
-## 4 · Chip e nomi
+## 5 · Cosa è stato rifatto (correzioni 22/11)
+1. **Slide del prof**: card a 40 px, interlinea 1,5, finestre da 3 card (4 card del prof → due sotto-slide «a finestra» che si sovrappongono; argomento 10: finestre da 2 card perché le sigle espanse non entrano); card intere dal PDF del prof; bordo giallo + pallino all'inizio della frase (cue ricavati a mano dalla trascrizione). Fondo bianco, riquadro 4:3 (412×309 a x=1428, y=148), fascia gialla col nome solo lì; piè di pagina senza il nome del docente.
+2. **Copertina** animata senza riquadro del prof (titolo esatto «La decolonizzazione (1945-1975)» + voce di benvenuto), poi introduzione del prof sulla copertina (106,7 s) col riquadro che compare quando parla, poi slide animata «Di cosa parliamo» senza riquadro.
+3. **Nome del docente** mai detto né scritto nelle animazioni (BEN rifatta come BEN_R2).
+4. **Mappe: nessuna.** Per la lezione 15 il PDF «MAPPE LEZIONE 15» non esiste (indice master); come da risposta della master non ne ho inventate: ogni argomento chiude con pillola di ripasso e schema; niente PDF delle mappe.
+5. **Verifica di sbarramento** (scheda con jingle a +0,5 s, 10 domande dal test Excel del prof) e **Compiti** (intro 3,5 s + 4 compiti del prof letti e mostrati, 2 per schermata) ora sono dentro il video, dopo la sigla finale per i compiti. I compiti vengono dal file «LEZIONE 15.pdf» dello zip dei compiti (testo identico) [misurato].
+6. **Audio del prof** rifatto dall'originale: passa-alto 70 Hz, riduzione del rumore leggera, normalizzazione dinamica a −17,1 LUFS, poi mix a −16,0 LUFS; timbro (media >4 kHz meno media >100 Hz) −17,0 dB nel video contro −17,5 dB dell'originale [misurato] (limite −9…−20). Pause del prof oltre 2,5 s accorciate a circa 1 s; tolte le ripetizioni e i riempitivi: «Per il loro. Per le loro.», «L'Indonesia appunto», «Um» ×4, «Perché ehm», «Come dire ehm», «Mm» ×2. Tagli del parlato a fotogramma intero con dissolvenze di 10 ms.
+7. **Riordino delle digressioni** (niente «già visto»): nel video originale il prof, parlando dell'Africa subsahariana, salta alle colonie portoghesi e poi al Maghreb/Gheddafi (pagine 10 e 8 del suo PDF). Le parole sono intere e nello stesso ordine, ma i due blocchi sono stati spostati: il Maghreb con la foto di Gheddafi in fondo all'argomento 5, le colonie portoghesi in fondo all'argomento 7. Così ogni slide e immagine del prof compare in un solo argomento.
+8. **Sigle rispiegate sullo schermo** (BES): ONU, USA, URSS, FLN, ANC, FMI, NATO, UNESCO espanse tra parentesi in card, schemi, glossario, approfondimenti, chip dei titoli e quiz. A voce le ho spiegate nelle nostre voci (SC7_2, SC8_2, SC10_4, AN15, AN20 → versioni _R3). **Il prof a voce non le spiega e non si tocca**: nei tratti del docente la spiegazione è solo sullo schermo.
+9. **Approfondimenti**: 2 per argomento (voci Kore, solo materiale del prof); per argomento 40-48 s con le pause di lettura. Sono slide di testo che si accendono con la voce, senza immagini: dichiarato.
+10. **Quiz**: 10 schede da 5 domande, scatto a +0,5 s misurato +0,003 s su tutte; titolo dell'argomento ridotto per non toccare il pulsante; tolto «Check» dalle istruzioni.
+11. **Sottotitoli** sul video finale: 862 blocchi, inizio agganciato all'attacco reale della voce; corretti a regole: Siria, URSS, ONU, Vietminh, Indonesia, guerra civile, Re Idris I, Gandhi, Nehru, Bandung, Dien Bien Phu, Gheddafi, Mandela, apartheid, Ceylon, Ghana, ecc. Non riscritto il parlato: restano forme del parlato e qualche errore dell'ASR in frasi dubbie (es. «un'esplosione belli», «messo nel suo Mandela si»), non corretti per non inventare.
+12. **Dispensa** A4 orizzontale, 62 pagine: stesse slide del video, stessa numerazione, a tutta larghezza, con strato di testo invisibile (modo di rendering 3) in ogni pagina; copertina con sola materia e titolo; piè di pagina «STORIA V» e numero; nessun nome del docente. Senza riquadro del docente né parole chiave. Non c'è il PDF delle mappe (nessuna mappa).
 
-- Chip sotto il titolo blu: 1: «Autodeterminazione · ONU · Superpotenze»; 2: «Bandung · Non allineati · Dieci principi»; 3: «Gandhi · Nehru · Kashmir»; 4: «Indonesia · Vietminh · Dien Bien Phu»; 5: «Libia · Algeria · FLN»; 6: «Ghana · Mau Mau · Congo»; 7: «Apartheid · ANC · Mandela»; 8: «Israele · Risoluzione 181 · Ben Gurion»; 9: «Nasser · Suez · Assuan»; 10: «Terzo mondo · Neocolonialismo · FMI».
-- Nomi coerenti in titolo, pillola, schema, quiz e riepilogo [misurato sul foglio].
+## 6 · Controllo dell'agente separato (primo giro, sul video precedente) e correzioni
+| Difetto trovato | Stato |
+|---|---|
+| Slide/immagini del prof in due argomenti (pagine 32 e 33 dentro l'argomento 6) | corretto: riordino digressioni (punto 7) |
+| Taglio a metà frase argomento 3 («…con gli hindu» / «o gli induisti…») | corretto: taglio dopo «…violenti scontri» |
+| Glossario che esce dalla slide | corretto: righe più basse, tutte dentro |
+| Sigle non rispiegate | corretto sullo schermo; voci _R3 richieste; **resta aperto a voce nei tratti del prof** |
+| Approfondimenti sotto i 40 s per argomento | corretto con pause di lettura (non con nuovo contenuto) |
+| Titolo quiz sul pulsante; titolo «Verifica» doppio; parola «Check» | corretti |
+| Errori nei sottotitoli, «Um», ripetizioni | corretti (vedi punti 6 e 11) |
+| Card accesa 1,75 s prima a 346 s | corretto (cue spostato a 283,4 s sorgente) |
+| GL4 con anno in cifre nel testo per la voce | corretto (GL4_R2 in lettere) |
+| «Scheda nera GRAZIE PER L'ATTENZIONE» dopo i compiti | è la sigla finale ufficiale del kit con l'avviso dei diritti: **da confermare dalla master** |
+| QR «Atlante interattivo» e cerchietto bianco nelle mappe del prof | **non corretto**: sono nell'immagine sorgente del prof (non si modifica) |
 
-## 5 · Problemi trovati e correzioni
+## 7 · Immagini e refusi
+- Tutte le immagini sono quelle del PDF del prof (pagine 6, 8, 11, 13, 15), **nessuna scaricata dal web**. Le sorgenti sono piccole (246×377, 330×387, 396×446, 777×610, 882×766, 1037×637): ingrandite 2× con Lanczos e nitidezza (la foto di Gheddafi, 330×387, ugualmente): leggibili ma morbide [giudizio visivo]. Non si può fare di più senza altre sorgenti.
+- Refusi: confrontando le card con il PDF del prof non ci sono differenze di testo [misurato dall'agente separato: 0 differenze]; non ho trovato refusi da correggere nelle slide. Anomalie di numeri o contenuti: non analizzati oltre il confronto card/PDF [non verificato]; le slide sono riportate come le scrive il prof.
 
-| Dove | Tipo | Com'era | Correzione |
-|---|---|---|---|
-| Copertina | visivo | Da verificare il titolo e il riquadro del prof | Titolo su 2 righe a sinistra del riquadro |
-| Slide del prof | visivo | Una pagina ferma fino a 6 minuti, una card sola su slide | Tratti + approfondimenti + pagine a 2–3 card (vedi 1b) |
-| Mappe | visivo | Ritaglio dell'immagine del prof a fasce | Ridisegnate con `mappa.py` |
-| Tutto | altro | Lezione fatta da un'altra chat (pipeline diversa): ricostruita con la mia, riusando voci e quiz | Audio, webcam, trascrizione rifatti dall'originale; nessun effetto sul risultato |
+## 8 · Tempi dei pezzi e struttura
+Durata 61:38 (una sola Parte, sotto i 65 min: nessuno spiegone). Struttura: sigla, copertina, intro del prof, «Di cosa parliamo», per ogni argomento: titolo con jingle, prof + slide (2 o 3 tratti), 2 approfondimenti Kore, pillola, schema a 4 righe, quiz; poi glossario, riepilogo, verifica, sigla finale, Compiti.
 
-## 6 · DA CONFERMARE COL PROF
-
-1. Nessun punto aperto con certezza: i testi a schermo (card, schemi, approfondimenti) vengono tutti dalle slide del prof. Nelle slide non compaiono alcuni passaggi del parlato (ad esempio Gheddafi e la deriva dittatoriale, o la Liberia fondata da schiavi liberati): non li ho usati a schermo.
-
-## 7 · Cosa NON ho verificato
-
-- I sottotitoli sono corretti solo con regole su nomi, termini e numeri (le stesse della consegna precedente di questa lezione), **non** riascoltati e **non** riletti uno per uno: restano errori del riconoscimento [non verificato].
-- Sincronia del bordo giallo: i punti di cambio card li ho scelti leggendo la trascrizione (tempi parola per parola) e la timeline delle pagine mostrate dal prof (confronto fotogrammi/pagine, 1 fotogramma ogni 2 s); non ricontrollata a campione sull'audio [non verificato].
-- Sfasamento audio/labbra non misurato in modo affidabile [non verificato].
-- Webcam del prof: 184×138 px ingrandita a 410×308: **morbida** (limite dell'originale).
-- Non ho verificato la correttezza storica di quanto dice il prof oltre al punto 6.
-
-## 8 · Come ho verificato
-
-Trascrizione con `trascrivi.py`; allineamento delle card al parlato sui tempi della trascrizione; audio del prof dall'originale con la catena del kit; misure con `controllo_finale.py`, `controllo_jingle.py`, `ebur128` sul file finale; foglio dei pezzi e fotogrammi ogni 30 s guardati a occhio.
-
-## 9 · Tempi nel video nuovo (per la pagina)
-
-**Parte unica** (durata 3766.0 s): arg. 1 «Le premesse della decolonizzazione»: inizio 146.233 s, quiz 569.267 s; arg. 2 «La Conferenza di Bandung e la Guerra fredda»: inizio 573.867 s, quiz 860.667 s; arg. 3 «La decolonizzazione in Asia: India e Pakistan»: inizio 865.267 s, quiz 1162.533 s; arg. 4 «Altre indipendenze in Asia e l'Indocina»: inizio 1167.133 s, quiz 1511.067 s; arg. 5 «La decolonizzazione nell'Africa del Nord»: inizio 1515.667 s, quiz 1762.467 s; arg. 6 «L'Africa subsahariana e il Corno d'Africa»: inizio 1767.067 s, quiz 2211.2 s; arg. 7 «Apartheid e conflitti nell'Africa meridionale»: inizio 2215.8 s, quiz 2669.6 s; arg. 8 «Il Medio Oriente e la nascita di Israele»: inizio 2674.2 s, quiz 3061.2 s; arg. 9 «L'Egitto di Nasser e la crisi di Suez»: inizio 3065.8 s, quiz 3382.067 s; arg. 10 «Il mondo post-coloniale e il neocolonialismo»: inizio 3386.667 s, quiz 3638.8 s
+## 9 · Non verificato
+- Sincronismo labbra/voce a 0,04 s: audio e video del prof escono dallo stesso istante sorgente, a fotogramma intero [per costruzione]; non misurato col viso (la correlazione movimento/voce non dà picchi).
+- Pronuncia dei nomi stranieri nelle voci; ascolto delle voci narranti.
+- Funzionamento dell'80% dei quiz sulla piattaforma.
+- File originali del prof non modificati [per costruzione: lavoro solo su copie].
+- Che trans.wav sia presente a ogni cambio: per costruzione sì (mix); la correlazione automatica dell'agente non l'ha trovato.

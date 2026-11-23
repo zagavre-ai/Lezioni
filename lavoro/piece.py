@@ -22,8 +22,8 @@ def prof_piece(a,dur,states,out,src=W+'/dl/v.mp4',w=W):
     with open(lst,'w') as f:
         for p,fr in states:
             for x in seg_files(p,fr):f.write(f"file '{x}'\n")
-    fc=("[0:v]format=yuv420p[bg];[1:v]crop=181:136:856:344,scale=412:310:flags=lanczos,hqdn3d=1.5:1.5:3:3,eq=contrast=1.04:saturation=1.03,cas=0.35,format=yuva420p[p];"
+    fc=("[0:v]format=yuv420p[bg];[1:v]crop=181:136:856:344,scale=412:309:flags=lanczos,hqdn3d=1.5:1.5:3:3,eq=contrast=1.04:saturation=1.03,cas=0.35,format=yuva420p[p];"
         "[2:v]format=gray[m];[p][m]alphamerge[pa];[bg][pa]overlay=1428:148:format=auto,format=yuv420p[v]")
     cmd=['ffmpeg','-y','-v','error','-f','concat','-safe','0','-i',lst,'-ss',f'{a:.3f}','-t',f'{dur+0.5:.3f}','-i',src,'-loop','1','-framerate','30','-t',f'{dur+0.5:.3f}','-i',w+'/mask.png',
-         '-filter_complex',fc,'-map','[v]','-frames:v',str(N),'-c:v','libx264','-preset','veryfast','-crf','23','-r','30','-g','60','-force_key_frames',f'0.4,{dur-0.4:.3f}','-pix_fmt','yuv420p','-an',out]
+         '-filter_complex',fc,'-map','[v]','-frames:v',str(N),'-c:v','libx264','-preset','veryfast','-crf','14','-r','30','-g','60','-force_key_frames',f'0.4,{dur-0.4:.3f}','-pix_fmt','yuv420p','-an',out]
     subprocess.run(cmd,check=True)

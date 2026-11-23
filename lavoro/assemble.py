@@ -4,7 +4,7 @@ import sys, os, json, subprocess, re, math, shutil
 import numpy as np
 sys.path.insert(0, '/tmp/claude-0/l15')
 from dati import *
-from plan_prof import ANCORE
+from plan2 import ANCORE
 W = '/tmp/claude-0/l15'
 KIT = '/home/user/Lezioni/kit'
 SND = W + '/kit/Telesio_kit_produzione_v1/home/claude/v5/snd'

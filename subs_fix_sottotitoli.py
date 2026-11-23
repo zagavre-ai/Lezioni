@@ -1,6 +1,0 @@
-# Correzioni ai sottotitoli · Storia V lez. 15: solo errori certi (nomi, termini, numeri); il parlato non è riscritto.
-import re
-DROP_IDX = {192, 33, 98, 193, 386, 48, 247, 217, 222, 62}
-GLOBAL = [('\\bSeylon\\b', 'Ceylon'), ('\\bGana\\b', 'Ghana'), ('\\bBandum\\b', 'Bandung'), ('\\bYen Bien plus\\b', 'Dien Bien Phu'), ('\\bJaharlal Neru\\b', 'Jawaharlal Nehru'), ('\\bGamad Hab\\b', 'Gamal Abd'), ('\\bHel nascer\\b', 'el-Nasser'), ('\\bLindocina\\b', "L'Indocina"), ('\\bGeddafi\\b', 'Gheddafi'), ('\\bGet Davi\\b', 'Gheddafi'), ('\\bmandella\\b', 'Mandela'), ('\\bgandy\\b', 'Gandhi'), ('\\bsessante\\b', 'sessanta'), ('\\bpenisola del Sine\\b', 'penisola del Sinai'), ('\\bLause Camposo\\b', 'Laos e Cambogia'), ('\\bdalla partite\\b', "dall'apartheid"), ('\\bappartare\\b', "l'apartheid"), ('\\bscopiò\\b', 'scoppiò'), ('\\bscopia\\b', 'scoppia'), ('\\bscopi\\b', 'scoppiò'), ('\\bandioriente\\b', 'andiamo in Medio Oriente'), ('\\bintreciano\\b', 'intrecciano'), ('\\bintracciò\\b', 'intrecciò'), ('\\bmillenovecentosessantove\\b', '1969'), ('\\bduemilaundici\\b', '2011'), ('\\bmillenovecentoquarantacinque\\b', '1945'), ('\\bmillenovecentosettantacinque\\b', '1975'), ('\\bmille novecentocinquantadue\\b', '1952'), ('\\bdeconalizzazione\\b', 'decolonizzazione'), ('\\bindipendendenze\\b', 'indipendenze'), ('\\bsubsahriana\\b', 'subsahariana')]
-OVR = {}
-DUBBI = []

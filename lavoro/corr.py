@@ -2,6 +2,10 @@
 # Correzioni ai sottotitoli (solo errori certi del riconoscimento: nomi propri, termini, numeri). Il parlato non viene riscritto.
 import re, json
 RULES = [
+ (r"\bUSA e Urs\b", "USA e URSS"), (r"\bUrs\b", "URSS"), (r"\bSaria\b", "Siria"), (r"\bl'indonesia\b", "l'Indonesia"), (r"\bViet Minh\b", "Vietminh"),
+ (r"\bDire Idris I\b", "Re Idris I"), (r"\bguerra in civile\b", "guerra civile"), (r"\bil canali di Suez istanzialmente\b", "il canale di Suez sostanzialmente"),
+ (r"\bl'onu\b", "l'ONU"), (r"\bonu\b", "ONU"), (r"\bONU\b", "ONU"),
+ (r"\bUm\b[,.]?\s*", ""),
  (r"\bSeylon\b", "Ceylon"), (r"\bGana\b", "Ghana"), (r"\bBandum\b", "Bandung"), (r"\bYen Bien plus\b", "Dien Bien Phu"),
  (r"\bJaharlal Neru\b", "Jawaharlal Nehru"), (r"\bGamad Hab\b", "Gamal Abd"), (r"\bHel nascer\b", "el-Nasser"),
  (r"\bLindocina\b", "L'Indocina"), (r"\bGeddafi\b", "Gheddafi"), (r"\bGet Davi\b", "Gheddafi"), (r"\bmandella\b", "Mandela"),

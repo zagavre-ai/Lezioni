@@ -8,7 +8,7 @@ PDF_SLIDE = '/tmp/claude-0/l15/src/slide/SLIDE/LEZIONE 15.pdf'
 TRASCR = '/tmp/claude-0/l15/tr/lez15.json'
 NC = 4   # card per argomento
 ARG = [
- dict(n=1, titolo="Le premesse della decolonizzazione", nome="Le premesse della decolonizzazione", chip="Autodeterminazione · ONU · Superpotenze", pag=[2],
+ dict(n=1, titolo="Le premesse della decolonizzazione", nome="Le premesse della decolonizzazione", chip="Autodeterminazione · Nazioni Unite · Superpotenze", pag=[2],
       schema=[("Indebolimento europeo", "Primo: la Seconda guerra mondiale segna la fine del primato politico ed economico delle potenze europee."),
               ("Ruolo delle superpotenze", "Secondo: Stati Uniti e Unione Sovietica sono contrari al colonialismo tradizionale."),
               ("Consapevolezza nazionale", "Terzo: crescono i movimenti indipendentisti guidati da leader che hanno studiato in Europa."),
@@ -28,7 +28,7 @@ ARG = [
               ("Indonesia olandese", "Secondo: la resistenza locale porta alla Repubblica nel millenovecentoquarantanove."),
               ("Indocina francese", "Terzo: la Francia è sconfitta dal Vietminh a Dien Bien Phu nel millenovecentocinquantaquattro."),
               ("Divisione del Vietnam", "Quarto: gli accordi di Ginevra dividono il Vietnam in Nord comunista e Sud filoccidentale.")]),
- dict(n=5, titolo="La decolonizzazione nell'Africa del Nord", nome="L'Africa del Nord", chip="Libia · Algeria · FLN", pag=[7, 8],
+ dict(n=5, titolo="La decolonizzazione nell'Africa del Nord", nome="L'Africa del Nord", chip="Libia · Algeria · Fronte di Liberazione", pag=[7, 8],
       schema=[("Libia", "Primo: la Libia, colonia italiana, è indipendente dal millenovecentocinquantuno e diventa Repubblica con Gheddafi nel millenovecentosessantanove."),
               ("Marocco e Tunisia", "Secondo: ottengono l'indipendenza dalla Francia nel millenovecentocinquantasei."),
               ("Guerra d'Algeria", "Terzo: la Francia considera l'Algeria territorio nazionale e combatte il Fronte di Liberazione Nazionale."),
@@ -38,7 +38,7 @@ ARG = [
               ("Indipendenze britanniche", "Secondo: il Ghana si emancipa pacificamente nel millenovecentocinquantasette, mentre in Kenya ci sono le violenze dei Mau Mau."),
               ("Colonie francesi", "Terzo: nel millenovecentosessanta quasi tutte le colonie dell'Africa occidentale diventano indipendenti in modo pacifico."),
               ("Caso del Congo", "Quarto: il Belgio si ritira all'improvviso e il Paese cade nel caos, tra secessione del Katanga e guerra civile.")]),
- dict(n=7, titolo="Apartheid e conflitti nell'Africa meridionale", nome="Apartheid e Africa meridionale", chip="Apartheid · ANC · Mandela", pag=[10, 11],
+ dict(n=7, titolo="Apartheid e conflitti nell'Africa meridionale", nome="Apartheid e Africa meridionale", chip="Apartheid · African National Congress · Mandela", pag=[10, 11],
       schema=[("Apartheid", "Primo: in Sudafrica nel millenovecentoquarantotto nasce l'apartheid, segregazione razziale della minoranza bianca."),
               ("Resistenza sudafricana", "Secondo: l'ANC, guidato anche da Nelson Mandela, combatte le leggi razziali."),
               ("Rhodesia", "Terzo: la minoranza bianca proclama un'indipendenza unilaterale e scatena una guerriglia."),
@@ -53,7 +53,7 @@ ARG = [
               ("Canale di Suez", "Secondo: nel millenovecentocinquantasei Nasser nazionalizza il canale per finanziare la diga di Assuan."),
               ("Crisi internazionale", "Terzo: Francia, Regno Unito e Israele attaccano l'Egitto."),
               ("Superpotenze", "Quarto: Stati Uniti e Unione Sovietica impongono il ritiro, e Nasser ne esce rafforzato.")]),
- dict(n=10, titolo="Il mondo post-coloniale e il neocolonialismo", nome="Il neocolonialismo", chip="Terzo mondo · Neocolonialismo · FMI", pag=[16],
+ dict(n=10, titolo="Il mondo post-coloniale e il neocolonialismo", nome="Il neocolonialismo", chip="Terzo mondo · Neocolonialismo · Fondo Monetario", pag=[16],
       schema=[("Terzo mondo", "Primo: l'espressione è di Alfred Sauvy e indica i Paesi di nuova indipendenza, poveri e arretrati."),
               ("Neocolonialismo", "Secondo: i nuovi Stati restano economicamente subordinati a multinazionali e mercati occidentali."),
               ("Dipendenza finanziaria", "Terzo: istituzioni come il Fondo Monetario Internazionale impongono misure che favoriscono i Paesi industrializzati."),

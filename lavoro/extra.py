@@ -5,12 +5,17 @@ sys.path.insert(0, '/tmp/claude-0/l15')
 from dati import *
 import slides as SL
 from piece import seg_video, seg_files, W
-VOX = os.environ.get('VOXDIR', W + '/vox')          # i wav delle voci (dal ramo voci-storia-V-lez04)
+VOX = os.environ.get('VOXDIR', W + '/vox48')
 FPS = 30
 VOX48 = os.environ.get('VOX48', W + '/vox48')
 
+def vname(name):
+    for suf in ('_R3', '_R2'):
+        if os.path.exists(f'{VOX}/{name}{suf}.wav'): return name + suf
+    return name
+
 def vdur(name):
-    f = f'{VOX}/{name}.wav'
+    f = f'{VOX}/{vname(name)}.wav'
     r = subprocess.run(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', f], capture_output=True, text=True)
     return float(r.stdout.strip())
 

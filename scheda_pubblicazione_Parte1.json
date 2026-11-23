@@ -1,178 +1,177 @@
 {
  "materia": "Storia",
- "titolo": "Storia V · Lezione 15 · La decolonizzazione (1945-1975)",
- "parte": 1,
- "durata_s": 3766.0,
+ "titolo": "Storia V · La decolonizzazione (1945-1975)",
+ "durata_s": 3698.57,
  "argomenti": [
   {
    "n": 1,
    "titolo": "Le premesse della decolonizzazione",
-   "inizio_s": 146.233,
-   "quiz_s": 569.267
+   "inizio_s": 169.567,
+   "quiz_s": 574.2
   },
   {
    "n": 2,
-   "titolo": "La Conferenza di Bandung e la Guerra fredda",
-   "inizio_s": 573.867,
-   "quiz_s": 860.667
+   "titolo": "Bandung e la Guerra fredda",
+   "inizio_s": 578.4,
+   "quiz_s": 848.433
   },
   {
    "n": 3,
-   "titolo": "La decolonizzazione in Asia: India e Pakistan",
-   "inizio_s": 865.267,
-   "quiz_s": 1162.533
+   "titolo": "India e Pakistan",
+   "inizio_s": 852.633,
+   "quiz_s": 1135.033
   },
   {
    "n": 4,
-   "titolo": "Altre indipendenze in Asia e l'Indocina",
-   "inizio_s": 1167.133,
-   "quiz_s": 1511.067
+   "titolo": "Asia e Indocina",
+   "inizio_s": 1139.233,
+   "quiz_s": 1467.0
   },
   {
    "n": 5,
-   "titolo": "La decolonizzazione nell'Africa del Nord",
-   "inizio_s": 1515.667,
-   "quiz_s": 1762.467
+   "titolo": "L'Africa del Nord",
+   "inizio_s": 1471.2,
+   "quiz_s": 1791.633
   },
   {
    "n": 6,
-   "titolo": "L'Africa subsahariana e il Corno d'Africa",
-   "inizio_s": 1767.067,
-   "quiz_s": 2211.2
+   "titolo": "Africa subsahariana",
+   "inizio_s": 1795.833,
+   "quiz_s": 2047.0
   },
   {
    "n": 7,
-   "titolo": "Apartheid e conflitti nell'Africa meridionale",
-   "inizio_s": 2215.8,
-   "quiz_s": 2669.6
+   "titolo": "Apartheid e Africa meridionale",
+   "inizio_s": 2051.2,
+   "quiz_s": 2569.867
   },
   {
    "n": 8,
-   "titolo": "Il Medio Oriente e la nascita di Israele",
-   "inizio_s": 2674.2,
-   "quiz_s": 3061.2
+   "titolo": "Il Medio Oriente e Israele",
+   "inizio_s": 2574.067,
+   "quiz_s": 2942.367
   },
   {
    "n": 9,
-   "titolo": "L'Egitto di Nasser e la crisi di Suez",
-   "inizio_s": 3065.8,
-   "quiz_s": 3382.067
+   "titolo": "Nasser e la crisi di Suez",
+   "inizio_s": 2946.567,
+   "quiz_s": 3250.333
   },
   {
    "n": 10,
-   "titolo": "Il mondo post-coloniale e il neocolonialismo",
-   "inizio_s": 3386.667,
-   "quiz_s": 3638.8
+   "titolo": "Il neocolonialismo",
+   "inizio_s": 3254.533,
+   "quiz_s": 3492.567
   }
  ],
  "quiz": {
   "Q1": {
-   "title": "Quiz 1 · Le premesse",
+   "title": "Quiz 1 · Le premesse della decolonizzazione",
    "items": [
     {
      "p": "Che cosa segna la Seconda guerra mondiale per le potenze europee?",
      "a": "La fine del loro primato politico ed economico",
      "w": [
-      "L'inizio di un nuovo impero",
-      "Un aumento del loro potere",
-      "La fine della Guerra fredda"
+      "L'inizio della loro espansione coloniale",
+      "Il rafforzamento degli imperi",
+      "La nascita della Società delle Nazioni"
      ],
-     "e": "La Seconda guerra mondiale segna la fine del primato politico ed economico delle potenze europee."
+     "e": "L'indebolimento europeo è la prima premessa della decolonizzazione."
     },
     {
-     "p": "Quale posizione prendono USA e URSS sul colonialismo tradizionale?",
-     "a": "Si dichiarano contrari, per motivi ideologici e strategici",
+     "p": "Qual è la posizione di Stati Uniti e Unione Sovietica verso il colonialismo tradizionale?",
+     "a": "Sono contrari, per motivi ideologici e strategici",
      "w": [
-      "Lo sostengono apertamente",
-      "Lo ignorano",
-      "Lo difendono con le armi"
+      "Lo sostengono entrambi",
+      "Gli USA (Stati Uniti d'America) lo sostengono e l'URSS (Unione Sovietica) lo combatte",
+      "Restano neutrali"
      ],
-     "e": "Stati Uniti e Unione Sovietica si dichiarano contrari al colonialismo tradizionale per motivi ideologici e strategici."
+     "e": "Le due superpotenze si dichiarano contrarie al colonialismo tradizionale."
     },
     {
      "p": "Da chi sono guidati i movimenti indipendentisti?",
      "a": "Da leader locali che hanno studiato in Europa",
      "w": [
-      "Da funzionari coloniali europei",
-      "Da generali sovietici",
-      "Da missionari"
+      "Dai governatori coloniali",
+      "Dai missionari europei",
+      "Dai militari delle potenze europee"
      ],
-     "e": "Crescono movimenti indipendentisti guidati da leader locali che hanno studiato in Europa."
+     "e": "Cresce la consapevolezza nazionale."
     },
     {
-     "p": "Dove è inserito il principio di autodeterminazione?",
-     "a": "Nella Carta delle Nazioni Unite del 1945",
+     "p": "Dove è inserito il principio di autodeterminazione dei popoli?",
+     "a": "Nella Carta delle Nazioni Unite (1945)",
      "w": [
-      "Nel trattato di Versailles",
-      "Nella Costituzione italiana",
-      "Negli accordi di Ginevra"
+      "Nel Trattato di Versailles",
+      "Nella Conferenza di Bandung",
+      "Nel Patto Atlantico"
      ],
-     "e": "Il principio, inserito nella Carta dell'ONU (1945), rende il colonialismo incompatibile con la legalità internazionale."
+     "e": "Rende il colonialismo incompatibile con la legalità internazionale."
     },
     {
-     "p": "Quale effetto ha il principio di autodeterminazione?",
-     "a": "Rende il colonialismo incompatibile con la legalità internazionale",
+     "p": "Quale conseguenza ha il principio di autodeterminazione?",
+     "a": "Il colonialismo diventa incompatibile con la legalità internazionale",
      "w": [
-      "Lo rende obbligatorio",
-      "Non ha alcun effetto",
-      "Divide i Paesi in due blocchi"
+      "Le colonie devono pagare un tributo",
+      "Gli imperi coloniali vengono rafforzati",
+      "Le colonie sono vietate solo in Africa"
      ],
-     "e": "Il principio di autodeterminazione rende il colonialismo incompatibile con la legalità internazionale."
+     "e": "Il principio è nella Carta dell'ONU (Organizzazione delle Nazioni Unite)."
     }
    ]
   },
   "Q2": {
-   "title": "Quiz 2 · Bandung e i non allineati",
+   "title": "Quiz 2 · Bandung e la Guerra fredda",
    "items": [
     {
-     "p": "Quanti Stati afroasiatici partecipano alla Conferenza di Bandung?",
-     "a": "29",
+     "p": "Quando si tiene la Conferenza di Bandung?",
+     "a": "Nel 1955",
      "w": [
-      "9",
-      "90",
-      "290"
+      "Nel 1945",
+      "Nel 1962",
+      "Nel 1975"
      ],
-     "e": "Alla Conferenza di Bandung (1955) si riuniscono 29 Stati afroasiatici."
+     "e": "Vi partecipano 29 Stati afroasiatici."
     },
     {
-     "p": "In quale anno si tiene la Conferenza di Bandung?",
-     "a": "Il 1955",
-     "w": [
-      "Il 1945",
-      "Il 1975",
-      "Il 1939"
-     ],
-     "e": "La Conferenza di Bandung è del 1955."
-    },
-    {
-     "p": "Che cosa condannano i partecipanti di Bandung?",
+     "p": "Che cosa condannano i 29 Stati riuniti a Bandung?",
      "a": "Il colonialismo e il razzismo",
      "w": [
-      "Il commercio",
-      "L'ONU",
-      "Le religioni"
+      "Solo il comunismo",
+      "Solo il capitalismo",
+      "L'ONU (Organizzazione delle Nazioni Unite)"
      ],
-     "e": "I 29 Stati si riuniscono per condannare il colonialismo e il razzismo."
+     "e": "Condannano colonialismo e razzismo."
     },
     {
-     "p": "Che cosa vogliono i non allineati?",
-     "a": "Non schierarsi con nessuno dei due blocchi",
+     "p": "Che cosa nasce dalla volontà di non schierarsi con nessuno dei due blocchi?",
+     "a": "Il movimento dei non allineati",
      "w": [
-      "Entrare nella NATO",
-      "Entrare nel Patto di Varsavia",
-      "Tornare coloni"
+      "La NATO (Organizzazione del Trattato dell'Atlantico del Nord)",
+      "Il Patto di Varsavia",
+      "La Comunità europea"
      ],
-     "e": "Nasce la volontà di non schierarsi con nessuno dei due blocchi della Guerra fredda."
+     "e": "I non allineati rifiutano i blocchi della Guerra fredda."
     },
     {
-     "p": "Che cosa fanno USA e URSS verso i nuovi Stati?",
-     "a": "Cercano di attirarli con aiuti finanziari e militari",
+     "p": "Su che cosa si fondano i dieci principi di Bandung?",
+     "a": "Diritti umani, sovranità e uguaglianza tra le nazioni",
+     "w": [
+      "Alleanza militare con l'URSS (Unione Sovietica)",
+      "Libero scambio con gli USA (Stati Uniti d'America)",
+      "Spartizione delle colonie"
+     ],
+     "e": "Sono linee guida approvate dai partecipanti."
+    },
+    {
+     "p": "Che cosa fanno USA (Stati Uniti d'America) e URSS (Unione Sovietica) verso i nuovi Stati?",
+     "a": "Offrono aiuti finanziari e militari per attirarli nella propria sfera",
      "w": [
       "Li ignorano",
-      "Li invadono tutti",
-      "Li riconoscono all'unanimità"
+      "Li annettono",
+      "Impongono sanzioni a tutti"
      ],
-     "e": "USA e URSS cercano di attirare i nuovi Stati nella propria sfera di influenza offrendo aiuti finanziari e militari."
+     "e": "Sono le pressioni della Guerra fredda."
     }
    ]
   },
@@ -180,109 +179,109 @@
    "title": "Quiz 3 · India e Pakistan",
    "items": [
     {
-     "p": "Quando il Regno Unito concede l'indipendenza all'India?",
+     "p": "In quale anno il Regno Unito concede l'indipendenza all'India?",
      "a": "Nel 1947",
      "w": [
-      "Nel 1917",
-      "Nel 1967",
-      "Nel 1957"
+      "Nel 1939",
+      "Nel 1955",
+      "Nel 1962"
      ],
-     "e": "Il Regno Unito concede l'indipendenza all'India nel 1947."
+     "e": "Pesa la forza del movimento nazionalista."
     },
     {
      "p": "Da chi è guidato il movimento nazionalista indiano?",
      "a": "Da Gandhi e Nehru",
      "w": [
-      "Da Churchill e Attlee",
-      "Da Mao e Ho Chi Minh",
-      "Da Nasser e Nkrumah"
+      "Da Nasser e Nkrumah",
+      "Da Mandela e Ben Gurion",
+      "Da Gheddafi e Sukarno"
      ],
-     "e": "Il movimento nazionalista è guidato da Gandhi e Nehru."
+     "e": "Il ritiro britannico segue la loro azione."
     },
     {
      "p": "Quali Stati nascono dalla spartizione?",
      "a": "L'Unione Indiana e il Pakistan",
      "w": [
-      "L'India e il Ceylon",
-      "Il Pakistan e la Cina",
-      "L'Iran e l'Iraq"
+      "India e Indonesia",
+      "Pakistan e Bangladesh",
+      "India e Ceylon"
      ],
-     "e": "La spartizione porta alla nascita di due Stati separati: l'Unione Indiana e il Pakistan."
+     "e": "Maggioranza indù e minoranza musulmana non trovano un accordo."
     },
     {
-     "p": "Quante persone sono costrette a spostarsi?",
-     "a": "Circa quindici milioni",
+     "p": "Quante persone sono costrette a spostarsi, circa?",
+     "a": "Quindici milioni",
      "w": [
-      "Circa 150 mila",
-      "Circa 150 milioni",
-      "Circa mille"
+      "Cinquecentomila",
+      "Un milione",
+      "Cento milioni"
      ],
-     "e": "La divisione causa violenze religiose e lo spostamento forzato di circa quindici milioni di persone."
+     "e": "È il dramma umanitario della spartizione."
     },
     {
-     "p": "Quale area contesa provoca un conflitto armato tra India e Pakistan?",
-     "a": "Il Kashmir",
+     "p": "Quale conflitto scoppia subito tra India e Pakistan?",
+     "a": "La guerra del Kashmir",
      "w": [
-      "Il Ceylon",
-      "Il Tibet",
-      "La Malesia"
+      "La guerra di Suez",
+      "La guerra d'Algeria",
+      "La guerra del Vietnam"
      ],
-     "e": "Il Kashmir genera un conflitto armato immediato tra le due nuove nazioni."
+     "e": "L'area è contesa."
     }
    ]
   },
   "Q4": {
-   "title": "Quiz 4 · Altre indipendenze in Asia",
+   "title": "Quiz 4 · Asia e Indocina",
    "items": [
     {
-     "p": "Quale Paese ottiene l'indipendenza nel 1948 in modo prevalentemente pacifico?",
-     "a": "Ceylon (Sri Lanka)",
+     "p": "Quali colonie inglesi ottengono l'indipendenza in modo prevalentemente pacifico?",
+     "a": "Ceylon (1948) e Malesia (1957)",
      "w": [
-      "L'Indonesia",
-      "Il Vietnam",
-      "L'Algeria"
+      "Kenya e Ghana",
+      "India e Pakistan",
+      "Algeria e Tunisia"
      ],
-     "e": "Ceylon (Sri Lanka) nel 1948 e la Malesia nel 1957 ottengono l'indipendenza in modo prevalentemente pacifico."
+     "e": "Sono colonie inglesi dell'Asia."
     },
     {
-     "p": "Quale Paese europeo cerca di riprendere il controllo dell'Indonesia?",
-     "a": "L'Olanda",
+     "p": "Quando nasce la Repubblica indonesiana?",
+     "a": "Nel 1949",
      "w": [
-      "La Francia",
-      "Il Belgio",
-      "L'Italia"
+      "Nel 1945",
+      "Nel 1954",
+      "Nel 1960"
      ],
-     "e": "L'Olanda tenta di riprendere il controllo, ma la resistenza porta alla Repubblica nel 1949."
+     "e": "L'Olanda tenta di riprendere il controllo ma la resistenza locale vince."
     },
     {
-     "p": "Con quale movimento si scontra la Francia in Indocina?",
-     "a": "Il Vietminh comunista",
+     "p": "Quale sconfitta subisce la Francia nel 1954?",
+     "a": "Dien Bien Phu, contro il Vietminh",
      "w": [
-      "Il Guomintang",
-      "L'ANC",
-      "Il FLN"
+      "Suez, contro l'Egitto",
+      "Algeri, contro il FLN (Fronte di Liberazione Nazionale)",
+      "Katanga, contro i ribelli"
      ],
-     "e": "La dura guerra contro il movimento comunista Vietminh culmina nella sconfitta francese a Dien Bien Phu."
-    },
-    {
-     "p": "Dove si colloca la sconfitta francese del 1954?",
-     "a": "A Dien Bien Phu",
-     "w": [
-      "Ad Algeri",
-      "A Suez",
-      "A Bandung"
-     ],
-     "e": "La sconfitta francese avviene a Dien Bien Phu nel 1954."
+     "e": "Il Vietminh è il movimento comunista dell'Indocina."
     },
     {
      "p": "Che cosa decidono gli accordi di Ginevra?",
      "a": "La divisione temporanea del Vietnam in due Stati",
      "w": [
-      "L'unificazione del Vietnam",
-      "La fine della guerra civile in Cina",
-      "L'indipendenza dell'India"
+      "L'indipendenza dell'Algeria",
+      "La nascita di Israele",
+      "La spartizione dell'India"
      ],
-     "e": "Gli accordi di Ginevra dividono temporaneamente il Paese in due Stati, Nord comunista e Sud filoccidentale."
+     "e": "Nord comunista e Sud filoccidentale."
+    },
+    {
+     "p": "Com'è il Vietnam del Sud dopo Ginevra?",
+     "a": "Filoccidentale",
+     "w": [
+      "Comunista",
+      "Neutrale",
+      "Colonia olandese"
+     ],
+     "e": "Il Nord è comunista."
     }
    ]
   },
@@ -290,109 +289,109 @@
    "title": "Quiz 5 · L'Africa del Nord",
    "items": [
     {
-     "p": "Quale colonia italiana dichiara l'indipendenza nel 1951?",
-     "a": "La Libia",
+     "p": "Quando la Libia dichiara l'indipendenza?",
+     "a": "Nel 1951",
      "w": [
-      "L'Algeria",
-      "L'Egitto",
-      "Il Marocco"
+      "Nel 1945",
+      "Nel 1969",
+      "Nel 1975"
      ],
-     "e": "La Libia, colonia italiana, dichiara l'indipendenza nel 1951 sotto una monarchia costituzionale."
+     "e": "Era una colonia italiana."
+    },
+    {
+     "p": "Chi trasforma la Libia in Repubblica nel 1969?",
+     "a": "Gheddafi",
+     "w": [
+      "Nasser",
+      "Ben Gurion",
+      "Nkrumah"
+     ],
+     "e": "Prima era una monarchia costituzionale."
     },
     {
      "p": "Quando Marocco e Tunisia ottengono l'indipendenza dalla Francia?",
      "a": "Nel 1956",
      "w": [
-      "Nel 1932",
+      "Nel 1947",
       "Nel 1962",
       "Nel 1975"
      ],
-     "e": "Marocco e Tunisia ottengono l'indipendenza dalla Francia nel 1956."
+     "e": "In modo prevalentemente pacifico."
     },
     {
-     "p": "Come considera la Francia l'Algeria?",
-     "a": "Come territorio nazionale",
+     "p": "Perché la Francia combatte in Algeria?",
+     "a": "Considera l'Algeria territorio nazionale",
      "w": [
-      "Come un Paese alleato",
-      "Come una colonia da cedere",
-      "Come un protettorato inglese"
+      "Per difendere un alleato",
+      "Per ottenere il petrolio libico",
+      "Per aiutare il FLN (Fronte di Liberazione Nazionale)"
      ],
-     "e": "La Francia considera l'Algeria territorio nazionale e si oppone al FLN."
-    },
-    {
-     "p": "Che cosa è il FLN?",
-     "a": "Il Fronte di Liberazione Nazionale algerino",
-     "w": [
-      "Un partito francese",
-      "Un'alleanza militare",
-      "Una moneta"
-     ],
-     "e": "Il Fronte di Liberazione Nazionale combatte per l'indipendenza algerina."
+     "e": "Si oppone al Fronte di Liberazione Nazionale."
     },
     {
      "p": "Quando nasce la Repubblica algerina?",
      "a": "Nel 1962",
      "w": [
-      "Nel 1945",
       "Nel 1951",
+      "Nel 1956",
       "Nel 1975"
      ],
-     "e": "Nel 1962 gli accordi sanciscono la nascita della Repubblica algerina."
+     "e": "Dopo un conflitto sanguinoso e una crisi politica in Francia."
     }
    ]
   },
   "Q6": {
-   "title": "Quiz 6 · L'Africa subsahariana",
+   "title": "Quiz 6 · Africa subsahariana",
    "items": [
     {
-     "p": "Quale Paese britannico è il primo a emanciparsi pacificamente, nel 1957?",
-     "a": "Il Ghana, con Nkrumah",
+     "p": "Che cosa accade all'Etiopia dopo l'occupazione italiana?",
+     "a": "Torna indipendente e le viene aggregata l'Eritrea",
      "w": [
-      "Il Kenya",
-      "La Nigeria",
-      "L'Etiopia"
+      "Diventa colonia britannica",
+      "Si divide in due Stati",
+      "Diventa Repubblica nel 1945"
      ],
-     "e": "Il Ghana è il primo a emanciparsi pacificamente (1957) con Nkrumah."
+     "e": "La Somalia diventa indipendente nel 1960."
     },
     {
-     "p": "Che cosa segna il processo di indipendenza in Kenya?",
-     "a": "Le violenze dei Mau Mau",
+     "p": "Quale Paese è il primo a emanciparsi pacificamente tra le colonie britanniche?",
+     "a": "Il Ghana (1957), con Nkrumah",
      "w": [
-      "Un accordo pacifico",
-      "Un referendum",
-      "Il ritiro improvviso del Belgio"
+      "Il Kenya",
+      "Il Congo",
+      "L'Angola"
      ],
      "e": "In Kenya il processo è segnato dalle violenze dei Mau Mau."
     },
     {
-     "p": "Come ottengono l'indipendenza le colonie francesi dell'Africa occidentale nel 1960?",
-     "a": "In modo pacifico e concordato",
+     "p": "Che cosa succede alle colonie francesi dell'Africa occidentale nel 1960?",
+     "a": "Quasi tutte diventano indipendenti in modo pacifico e concordato",
      "w": [
-      "Con una guerra comune",
-      "Con un colpo di Stato",
-      "Con l'aiuto dell'URSS"
+      "Restano francesi",
+      "Combattono lunghe guerre",
+      "Passano al Belgio"
      ],
-     "e": "Nel 1960 quasi tutte le colonie francesi dell'Africa occidentale ottengono l'indipendenza in modo pacifico e concordato."
+     "e": "È l'«anno dell'Africa»."
     },
     {
-     "p": "Che cosa accade nel Congo dopo il ritiro del Belgio?",
-     "a": "Il Paese cade nel caos, tra secessione del Katanga e guerra civile",
+     "p": "Come si ritira il Belgio dal Congo?",
+     "a": "All'improvviso, nel 1960",
      "w": [
-      "Diventa subito stabile",
-      "Entra nel Commonwealth",
-      "Viene annesso alla Francia"
+      "Dopo dieci anni di trattative",
+      "Con un referendum",
+      "Dopo una guerra vinta dal Congo"
      ],
-     "e": "Il Belgio si ritira improvvisamente nel 1960, lasciando il Paese nel caos."
+     "e": "Il Paese resta nel caos."
     },
     {
-     "p": "Quale Stato del Corno d'Africa diventa indipendente nel 1960?",
-     "a": "La Somalia",
+     "p": "Che cosa segna il Congo dopo il 1960?",
+     "a": "La secessione del Katanga e la guerra civile",
      "w": [
-      "L'Etiopia",
-      "L'Eritrea",
-      "Il Sudafrica"
+      "Un governo stabile",
+      "L'unione con l'Angola",
+      "L'apartheid"
      ],
-     "e": "La Somalia diventa indipendente nel 1960."
+     "e": "Il Paese si frammenta."
     }
    ]
   },
@@ -400,54 +399,54 @@
    "title": "Quiz 7 · Apartheid e Africa meridionale",
    "items": [
     {
-     "p": "Che cosa istituisce il Sudafrica nel 1948?",
-     "a": "L'apartheid",
+     "p": "Che cosa instaura il Sudafrica nel 1948?",
+     "a": "L'apartheid, segregazione razziale a danno della maggioranza nera",
      "w": [
-      "La democrazia piena",
-      "Il federalismo",
-      "Il socialismo"
+      "La democrazia",
+      "Il comunismo",
+      "Il federalismo"
      ],
-     "e": "Il Sudafrica instaura l'apartheid (1948), un sistema di segregazione razziale della minoranza bianca ai danni della maggioranza nera."
+     "e": "L'indipendenza non porta la democrazia."
     },
     {
-     "p": "Chi è tra i leader dell'ANC arrestato nel 1962?",
-     "a": "Nelson Mandela",
+     "p": "Chi combatte le leggi razziali in Sudafrica?",
+     "a": "L'ANC (African National Congress), guidato anche da Nelson Mandela",
      "w": [
-      "Kwame Nkrumah",
-      "Patrice Lumumba",
-      "Gamal Abd el-Nasser"
+      "Il FLN (Fronte di Liberazione Nazionale)",
+      "Il Vietminh",
+      "I Mau Mau"
      ],
-     "e": "L'ANC, guidato anche da Nelson Mandela (arrestato nel 1962), combatte contro le leggi razziali."
+     "e": "Mandela è arrestato nel 1962."
     },
     {
-     "p": "Che cosa proclama la minoranza bianca in Rhodesia?",
-     "a": "Un'indipendenza unilaterale",
+     "p": "Che cosa fa la minoranza bianca in Rhodesia?",
+     "a": "Proclama un'indipendenza unilaterale per mantenere il potere",
      "w": [
-      "La repubblica popolare",
-      "L'unione con il Sudafrica",
-      "La resa"
+      "Concede il voto ai neri",
+      "Si ritira nel Sudafrica",
+      "Passa il potere all'ONU (Organizzazione delle Nazioni Unite)"
      ],
-     "e": "La minoranza bianca proclama un'indipendenza unilaterale per mantenere il potere, scatenando una lunga guerriglia."
+     "e": "Scoppia una guerriglia interna."
     },
     {
-     "p": "Quando Angola e Mozambico ottengono l'indipendenza?",
+     "p": "Quando Angola e Mozambico diventano indipendenti?",
      "a": "Nel 1975",
      "w": [
-      "Nel 1945",
+      "Nel 1951",
       "Nel 1960",
-      "Nel 1990"
+      "Nel 1962"
      ],
-     "e": "Angola e Mozambico ottengono l'indipendenza solo nel 1975."
+     "e": "Dopo una lunga guerra di liberazione."
     },
     {
-     "p": "Quale regime governa il Portogallo durante la guerra di liberazione?",
-     "a": "Un regime dittatoriale",
+     "p": "Contro quale regime combattono le colonie portoghesi?",
+     "a": "La dittatura di Lisbona",
      "w": [
-      "Una democrazia parlamentare",
-      "Una repubblica popolare",
-      "Una monarchia costituzionale"
+      "Il governo di Londra",
+      "Il governo di Parigi",
+      "L'impero ottomano"
      ],
-     "e": "La guerra di liberazione è contro il regime dittatoriale di Lisbona."
+     "e": "Angola e Mozambico sono colonie portoghesi."
     }
    ]
   },
@@ -455,109 +454,109 @@
    "title": "Quiz 8 · Il Medio Oriente e Israele",
    "items": [
     {
-     "p": "Quale Stato sovrano nasce dopo la fine dei mandati?",
-     "a": "Il Libano",
+     "p": "Chi aveva ricevuto i mandati sul Medio Oriente dalla Società delle Nazioni?",
+     "a": "Gran Bretagna e Francia",
      "w": [
-      "Il Sudafrica",
-      "Il Ghana",
-      "La Libia"
+      "Stati Uniti e URSS (Unione Sovietica)",
+      "Italia e Germania",
+      "Olanda e Belgio"
      ],
-     "e": "Nel dopoguerra nascono Stati sovrani come Libano, Siria e Transgiordania."
+     "e": "Dopo la guerra finiscono i mandati."
     },
     {
-     "p": "Che cosa approva l'ONU nel 1947 per la Palestina?",
-     "a": "La Risoluzione 181, che divide la regione in uno Stato ebraico e uno arabo",
+     "p": "Quali Stati sovrani nascono dalla fine dei mandati?",
+     "a": "Libano, Siria e Transgiordania",
      "w": [
-      "L'annessione alla Giordania",
-      "L'indipendenza immediata",
-      "Il ritorno del mandato britannico"
+      "Israele ed Egitto",
+      "Iraq e Iran",
+      "Libia e Tunisia"
      ],
-     "e": "L'ONU approva la Risoluzione 181 (1947) per dividere la regione in uno Stato ebraico e uno arabo."
+     "e": "Nascono nel dopoguerra."
+    },
+    {
+     "p": "Che cosa stabilisce la Risoluzione 181 dell'ONU (Organizzazione delle Nazioni Unite) (1947)?",
+     "a": "La divisione della Palestina in uno Stato ebraico e uno arabo",
+     "w": [
+      "L'annessione all'Egitto",
+      "La nascita della Siria",
+      "Il ritiro dell'URSS (Unione Sovietica)"
+     ],
+     "e": "La Gran Bretagna rinuncia al mandato."
     },
     {
      "p": "Chi proclama lo Stato di Israele nel 1948?",
      "a": "David Ben Gurion",
      "w": [
-      "Gamal Abd el-Nasser",
-      "Mustafa Kemal",
-      "Nelson Mandela"
+      "Gamal Nasser",
+      "Nelson Mandela",
+      "Mohandas Gandhi"
      ],
-     "e": "Nel 1948 David Ben Gurion proclama lo Stato ebraico, non accettato dai Paesi arabi confinanti."
+     "e": "I Paesi arabi confinanti non lo accettano."
     },
     {
-     "p": "Come si conclude la prima guerra arabo-israeliana?",
-     "a": "Con la vittoria di Israele",
+     "p": "Come finisce la prima guerra arabo-israeliana?",
+     "a": "Con la vittoria di Israele e la fuga di centinaia di migliaia di profughi palestinesi",
      "w": [
-      "Con la vittoria degli Stati arabi",
-      "Con un armistizio senza cambiamenti",
-      "Con l'intervento dell'URSS"
+      "Con la vittoria araba",
+      "Con la divisione di Gerusalemme",
+      "Con l'intervento dell'ONU (Organizzazione delle Nazioni Unite)"
      ],
-     "e": "Il conflitto si conclude con la vittoria di Israele, che espande i suoi confini."
-    },
-    {
-     "p": "Quale conseguenza umana ha la guerra?",
-     "a": "La fuga di centinaia di migliaia di profughi palestinesi",
-     "w": [
-      "Il ritorno dei profughi",
-      "Un grande boom economico",
-      "La fine dei confini"
-     ],
-     "e": "Si ha la fuga in massa di centinaia di migliaia di profughi palestinesi."
+     "e": "Israele espande i suoi confini."
     }
    ]
   },
   "Q9": {
-   "title": "Quiz 9 · L'Egitto di Nasser e Suez",
+   "title": "Quiz 9 · Nasser e la crisi di Suez",
    "items": [
     {
-     "p": "Chi prende il potere in Egitto nel 1952?",
-     "a": "L'ufficiale Gamal Abd el-Nasser",
+     "p": "Che cosa accade in Egitto nel 1952?",
+     "a": "L'ufficiale Nasser prende il potere",
      "w": [
-      "Il re Faruk",
-      "Ben Gurion",
-      "Muammar Gheddafi"
+      "Nasce la monarchia",
+      "Gli inglesi tornano al governo",
+      "Si proclama Israele"
      ],
-     "e": "L'ufficiale Nasser prende il potere nel 1952, promuovendo il nazionalismo arabo e riforme sociali."
+     "e": "Nasser promuove nazionalismo arabo e riforme sociali."
     },
     {
-     "p": "Che cosa nazionalizza Nasser nel 1956?",
-     "a": "Il Canale di Suez",
+     "p": "Perché Nasser nazionalizza il Canale di Suez nel 1956?",
+     "a": "Per finanziare la diga di Assuan",
      "w": [
-      "Le miniere del Congo",
-      "Il Nilo",
-      "Il petrolio iracheno"
+      "Per vendere il canale agli USA (Stati Uniti d'America)",
+      "Per chiuderlo alle navi",
+      "Per pagare i debiti con l'URSS (Unione Sovietica)"
      ],
-     "e": "Nasser nazionalizza il Canale di Suez, fino ad allora controllato da Francia e Regno Unito."
+     "e": "Il canale era controllato da Francia e Regno Unito."
     },
     {
-     "p": "Per finanziare quale opera Nasser nazionalizza il canale?",
-     "a": "La diga di Assuan",
-     "w": [
-      "Il canale di Panama",
-      "Il Cairo",
-      "Una nuova capitale"
-     ],
-     "e": "Nasser riscatta il canale per finanziare la diga di Assuan."
-    },
-    {
-     "p": "Quali Paesi attaccano l'Egitto durante la crisi di Suez?",
+     "p": "Chi attacca militarmente l'Egitto?",
      "a": "Francia, Regno Unito e Israele",
      "w": [
-      "USA e URSS",
-      "Libia e Algeria",
-      "Italia e Spagna"
+      "USA (Stati Uniti d'America) e URSS (Unione Sovietica)",
+      "Libia e Tunisia",
+      "India e Pakistan"
      ],
-     "e": "Francia, Regno Unito e Israele attaccano militarmente l'Egitto."
+     "e": "È la crisi internazionale di Suez."
     },
     {
-     "p": "Che cosa impongono USA e URSS?",
-     "a": "Il ritiro degli aggressori",
+     "p": "Che cosa impongono USA (Stati Uniti d'America) e URSS (Unione Sovietica) agli aggressori?",
+     "a": "Il ritiro",
      "w": [
-      "Una nuova guerra",
-      "La caduta di Nasser",
-      "Il ritorno del canale a Francia e Regno Unito"
+      "Una nuova spartizione",
+      "Un'occupazione dell'Egitto",
+      "Sanzioni all'Egitto"
      ],
-     "e": "USA e URSS impongono il ritiro, decretando il successo politico di Nasser e la fine del vecchio imperialismo europeo."
+     "e": "Le superpotenze intervengono."
+    },
+    {
+     "p": "Che cosa segna l'esito della crisi di Suez?",
+     "a": "Il successo politico di Nasser e la fine del vecchio imperialismo europeo",
+     "w": [
+      "La caduta di Nasser",
+      "La vittoria di Francia e Regno Unito",
+      "La nascita del Pakistan"
+     ],
+     "e": "È una svolta."
     }
    ]
   },
@@ -565,56 +564,58 @@
    "title": "Quiz 10 · Il neocolonialismo",
    "items": [
     {
-     "p": "Chi conia l'espressione «Terzo mondo»?",
+     "p": "Chi ha coniato l'espressione «Terzo mondo»?",
      "a": "L'economista Alfred Sauvy",
      "w": [
-      "Il presidente Nasser",
-      "Il leader Nkrumah",
-      "Il politico Nehru"
+      "Il presidente Wilson",
+      "Il leader Nasser",
+      "Il segretario ONU (Organizzazione delle Nazioni Unite)"
      ],
-     "e": "L'espressione «Terzo mondo» è coniata dall'economista Alfred Sauvy."
+     "e": "Indica i Paesi di nuova indipendenza."
     },
     {
-     "p": "Che cosa indica «Terzo mondo»?",
-     "a": "I Paesi di nuova indipendenza, poveri e arretrati",
+     "p": "Che cosa accomuna i Paesi del Terzo mondo?",
+     "a": "Povertà e arretratezza economica",
      "w": [
-      "I Paesi del blocco occidentale",
-      "Le superpotenze",
-      "I Paesi dell'Europa"
+      "Un forte sviluppo industriale",
+      "Lo stesso regime politico",
+      "L'appartenenza alla NATO (Organizzazione del Trattato dell'Atlantico del Nord)"
      ],
-     "e": "Indica i Paesi di nuova indipendenza, accomunati da povertà e arretratezza economica."
+     "e": "Sono Paesi di nuova indipendenza."
     },
     {
-     "p": "Che cosa significa neocolonialismo?",
-     "a": "Dipendenza economica dei nuovi Stati da multinazionali e mercati occidentali",
+     "p": "Che cos'è il neocolonialismo?",
+     "a": "La subordinazione economica a multinazionali e mercati occidentali dopo l'indipendenza politica",
      "w": [
-      "Il ritorno degli eserciti coloniali",
-      "La fine di ogni dipendenza",
-      "Una nuova indipendenza"
+      "La conquista di nuove colonie",
+      "Il ritorno dei governatori",
+      "Un patto militare"
      ],
-     "e": "Pur indipendenti politicamente, i nuovi Stati restano economicamente subordinati."
+     "e": "Vendono materie prime ai mercati occidentali."
     },
     {
      "p": "Quale istituzione impone misure economiche che favoriscono i Paesi industrializzati?",
      "a": "Il Fondo Monetario Internazionale",
      "w": [
-      "L'UNESCO",
-      "La NATO",
-      "La Lega Araba"
+      "La Società delle Nazioni",
+      "La NATO (Organizzazione del Trattato dell'Atlantico del Nord)",
+      "La Conferenza di Bandung"
      ],
-     "e": "Istituzioni come il Fondo Monetario Internazionale impongono misure che spesso favoriscono i Paesi industrializzati."
+     "e": "È la dipendenza finanziaria."
     },
     {
-     "p": "Che fine fa il progetto di un nuovo ordine economico internazionale?",
-     "a": "È discusso all'ONU ma ostacolato dai Paesi occidentali",
+     "p": "Che cos'è il Nuovo ordine economico internazionale?",
+     "a": "Un progetto di riforma più equa discusso all'ONU (Organizzazione delle Nazioni Unite) negli anni Settanta",
      "w": [
-      "È approvato all'unanimità",
-      "È realizzato dalla NATO",
-      "Viene dimenticato subito dall'ONU"
+      "Un'alleanza militare",
+      "Un trattato coloniale",
+      "Un piano del FMI (Fondo Monetario Internazionale)"
      ],
-     "e": "Il progetto, discusso all'ONU negli anni Settanta, è ostacolato dai Paesi occidentali."
+     "e": "Fu ostacolato dai Paesi occidentali."
     }
    ]
   }
- }
+ },
+ "t_verifica": 3609.6,
+ "t_compiti": 3618.4
 }
