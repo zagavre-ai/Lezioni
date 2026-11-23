@@ -26,6 +26,10 @@
   {
    "quando": "22/11 19:48",
    "testo": "Cambio struttura lez 21 per le durate: Parte 1 = argomenti 1-3 (circa 41 min), Parte 2 = argomenti 4-7 + fine (circa 54 min). Voci da usare: BEN1_R4, BEN2_R4, FZ1_R3 (NON BEN1_R2/R3, BEN2_R2/R3, FZ1_R2); SP_0 e SP_4 aggiornati; SP_4B non serve piu'."
+  },
+  {
+   "quando": "23/11 02:31",
+   "testo": "Aggiunto COMPITI su voci-storia-V-lez21 (una voce: i 4 compiti del prof in fila + frase finale; CP_1..CP_4 non servono piu'). Voci gia' richieste in totale: vedi testi_voci.json; PI1_R2 ora spiega USA. Rifaccio il montaggio con le voci provvisorie e mi fermo fino alle 9:00."
   }
  ],
  "domande_sara": [],
@@ -58,5 +62,5 @@
  "materia": "Storia V",
  "lezione": "Lezione 21 · Il mondo dal 2001 ad oggi",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-23 01:05:21"
+ "aggiornato": "2026-11-23 02:31:36"
 }
