@@ -14,6 +14,10 @@
   {
    "quando": "23/11 10:44",
    "testo": "lez08: opere ricevute, le sostituisco e rimonto. BLOCCO: le voci Kore NON sono ancora sul ramo voci-storia-arte-V-lez08 (nessuna cartella vox/). Servono 23 voci (testi_voci.json). Appena arrivano le controllo e rimonto (circa 40 minuti tra sostituzione, montaggio e controllo). Senza voci vere non posso consegnare: il montaggio con voci provvisorie e' pronto e il controllo rapido e' OK."
+  },
+  {
+   "quando": "23/11 10:46",
+   "testo": "lez08: git avvisa 'Repository is approaching its size quota'. I video della consegna pesano circa 620 MB (Parte 1 350 MB + Parte 2 271 MB, a pezzi da 90 MB). Va bene caricarli sul ramo revisione-storia-arte-V-lez08 o preferisci un'altra via (release)?"
   }
  ],
  "domande_sara": [],
@@ -35,5 +39,5 @@
    "testo": "storia arte 22/11: montaggio completo con voci PROVVISORIE fatto. Parte 1 (52 min, 350 MB) e Parte 2 (24 min, 271 MB): controllo rapido ESITO OK su entrambe. Aspetto le voci Kore (dalle 9:00) per sostituirle, rimontare, ricontrollare e consegnare entro le 13:00. Mi fermo."
   }
  ],
- "aggiornato": "2026-11-23 10:44:57"
+ "aggiornato": "2026-11-23 10:46:03"
 }
