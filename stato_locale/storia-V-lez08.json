@@ -1,6 +1,27 @@
 {
  "tag": "storia-V-lez08",
- "parti": {},
+ "parti": {
+  "1": {
+   "stato": "REVISIONATA",
+   "voci": "kore",
+   "video": "Storia_Lez8_Parte1_1080p.mp4",
+   "durata_s": 3096.1,
+   "durata": "51:36.1",
+   "fotogrammi": 92884,
+   "fotogrammi_attesi": 92884,
+   "peso_MB": 326.2
+  },
+  "2": {
+   "stato": "REVISIONATA",
+   "voci": "kore",
+   "video": "Storia_Lez8_Parte2_1080p.mp4",
+   "durata_s": 3607.3,
+   "durata": "60:07.3",
+   "fotogrammi": 108218,
+   "fotogrammi_attesi": 108219,
+   "peso_MB": 355.3
+  }
+ },
  "manca": "",
  "serve_master": [
   {
@@ -10,6 +31,10 @@
   {
    "quando": "22/11 19:13",
    "testo": "Quiz lez08: per coerenza con le slide del prof (la Legge Acerbo è nella slide del primo governo) ho spostato la domanda sulla Legge Acerbo da Q7 a Q6 (tolta 'triennio di consolidamento') e aggiunto in Q7 una domanda nuova sul 10 giugno 1924 (rapimento e uccisione di Matteotti). Serve la tua approvazione sulla domanda nuova; il file è quiz_argomenti.json sul ramo claude/kind-brahmagupta-edbvi2 in lavoro/storia-V-lez08."
+  },
+  {
+   "quando": "23/11 09:23",
+   "testo": "Lez08 consegnata su revisione-storia-V-lez08 CON DIFETTI NOTI (elenco nel rapporto, sez. 9). Rispettate: slide <=150 s, mappe del prof BES, spiegone P2, voci Kore nuove, -16 LUFS, 51:36 e 60:07. Da correggere: cifre al posto delle lettere sullo schermo nelle schede animate, sigle in R6, colonna Parole chiave tagliata in P2, foto/caption, approfondimenti spogli, sottotitoli. Dimmi se rifaccio ora."
   }
  ],
  "domande_sara": [],
@@ -45,7 +70,11 @@
   {
    "quando": "22/11 23:47",
    "testo": "23:50 UTC: Parti 1 e 2 rifatte e codificate (51:07 e 59:24, -15,9/-16,0 LUFS, 320/347 MB). controllo_severo: slide oltre 3 min e schermate identiche = 0. Restano solo pause >2,5 s (sono le voci Kore provvisorie in silenzio) e 'titolo copertina: italiano' (falso positivo OCR: la copertina è giusta; nella Parte 2 non c'è copertina per regola). Appena arrivano le voci: sostituzione, ricodifica, sottotitoli, dispensa, controllo agente separato, consegna."
+  },
+  {
+   "quando": "23/11 09:23",
+   "testo": "CONSEGNA CON DIFETTI NOTI (vedi RAPPORTO_REVISIONE.md sez. 9): numeri in lettere sullo schermo nelle schede animate, PNF/MVSN non rispiegate in R6, Parole chiave tagliate in alcune slide P2, foto vicine al piede, approfondimenti spogli; sottotitoli da rileggere; quiz Q7 nuovo da approvare. Non e' la dicitura 'correzioni 22/11 fatte': decide la master."
   }
  ],
- "aggiornato": "2026-11-22 23:47:34"
+ "aggiornato": "2026-11-23 09:23:51"
 }
