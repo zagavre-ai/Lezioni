@@ -10,6 +10,10 @@
   {
    "quando": "22/11 20:18",
    "testo": "Voci: il testi_voci.json sul ramo voci-storia-V-lez12 è aggiornato adesso (vedi sotto); fa fede la versione che aggiorno in giornata. Domanda: P1 41,5 min e P2 30 min vanno bene (sotto 45 min per mancanza di materiale)?"
+  },
+  {
+   "quando": "23/11 08:12",
+   "testo": "STORIA V LEZ12 (23/11 09:12 IT): lavoro pronto, mancano SOLO le voci Kore. Servono 24 voci nuove sul ramo voci-storia-V-lez12 in scambio/storia-V-lez12/vox/NOME.wav, testi in testi_voci.json (nomi: I1_BENVENUTO, I2_ARGOMENTI, I3_BENVENUTO2, A1..A6_APPROF, P1..P6_PILLOLA, M2_MAPPA, M4_MAPPA, M6_MAPPA, G1_GLOSSARIO, R1_RIPASSO_FINALE, F1_MAPPE_FINALE, V1_VERIFICA, C1_COMPITI_INTRO, C2_COMPITI, S1_SPIEGONE; ignorare le 103 vecchie AN/MAP/R/SC/P ecc.). Dopo l'arrivo servono circa 60-70 min per ricostruire e consegnare: per stare nelle 11:00 IT le voci devono arrivare entro le 09:45 IT. Priorità se ne mancano: A1-A6, P1-P6, M2/M4/M6, I1, I2, S1, G1, R1, F1, V1, C2. Mi fermo; riprendo quando le voci compaiono (mi sveglio alle 09:45 IT)."
   }
  ],
  "domande_sara": [],
@@ -37,5 +41,5 @@
  ],
  "materia": "Storia",
  "lezione": "12",
- "aggiornato": "2026-11-23 06:30:49"
+ "aggiornato": "2026-11-23 08:12:47"
 }
