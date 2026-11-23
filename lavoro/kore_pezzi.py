@@ -81,6 +81,11 @@ def righe_schema(n):
         if nm+'_R2' in TESTI: nm+='_R2'
         out.append(nm)
     return out
+def scena_blu(nome,stati,audio,tot,out,**kw):
+    """scena con fondo blu scuro animato: il colore piatto del fondo delle schede viene sostituito dal gradiente in movimento"""
+    tmp=out[:-4]+'_flat.mkv';D=scena(nome,stati,audio,tot,tmp,**kw)
+    g=gradient(D+0.1,f'{B}/k/grad_{int(D*30)}.mp4')
+    sh(['ffmpeg','-v','error','-y','-i',g,'-i',tmp,'-filter_complex',"[1:v]format=rgba,colorkey=0x12275A:0.06:0.0[k];[0:v][k]overlay=0:0:format=auto,format=yuv420p,trim=0:%.3f[v]"%D,'-map','[v]','-map','1:a','-frames:v',str(round(D*30)),'-r','30','-c:v','libx264','-preset','veryfast','-crf','14','-pix_fmt','yuv420p','-c:a','pcm_s16le','-ar','48000',out]);os.remove(tmp);return D
 def PS_n(n):
     nomi=righe_schema(n);gap=0.7
     # normalizza ogni riga
@@ -95,21 +100,22 @@ def PS_n(n):
     for c in cards:
         if ':' in c['testo'][:40]: c['lead']=c['testo'].split(':')[0]+':'
     stati=[]
-    h,_=tlib.scheda_cards(f'RIPASSO · {n}',TIT[n],PN[f'PS{n}'],cards,None,'');stati.append((0.0,png(f'PS{n}_x',h)))
+    h,_=tlib.scheda_cards(f'RIPASSO · {n}',TIT[n],PN[f'PS{n}'],cards,None,'');h=tlib.scuro(h);stati.append((0.0,png(f'PS{n}_x',h)))
     for i in range(len(cards)):
-        h,_=tlib.scheda_cards(f'RIPASSO · {n}',TIT[n],PN[f'PS{n}'],cards,i,'');stati.append((starts[i],png(f'PS{n}_{i}',h)))
+        h,_=tlib.scheda_cards(f'RIPASSO · {n}',TIT[n],PN[f'PS{n}'],cards,i,'');h=tlib.scuro(h);stati.append((starts[i],png(f'PS{n}_{i}',h)))
     flush()
-    return scena(f'PS{n}',stati,a,tot+1.0,f'{B}/k/PS{n}.mkv',lead=0.5,tail=0.9)
-def unita_card_scene(nome,voce,label,titolo,cards,units_all,side_fn=None,tot_extra=0.8,skip=0,pag=None):
+    return scena_blu(f'PS{n}',stati,a,tot+1.0,f'{B}/k/PS{n}.mkv',lead=0.5,tail=0.9)
+def unita_card_scene(nome,voce,label,titolo,cards,units_all,side_fn=None,tot_extra=0.8,skip=0,pag=None,scuro=False):
     """scena generica: cards lit con la voce; units_for_cards = testi delle unità lette (stessa lunghezza di cards)"""
     w,d,real=prep_voce(voce,f'{B}/k/{voce}_n.wav')
     # tempi: unità = frasi in lettura; tempi_unita lavora sulla voce originale (stessa durata)
     starts,dd=tempi_unita(voce,units_all)
-    stati=[];h,_=tlib.scheda_cards(label,titolo,pag,cards,None,side_fn(None) if side_fn else '');stati.append((0.0,png(nome+'_x',h)))
+    S=tlib.scuro if scuro else (lambda x:x)
+    stati=[];h,_=tlib.scheda_cards(label,titolo,pag,cards,None,side_fn(None) if side_fn else '');stati.append((0.0,png(nome+'_x',S(h))))
     for i in range(len(cards)):
-        h,_=tlib.scheda_cards(label,titolo,pag,cards,i,side_fn(i) if side_fn else '');stati.append((starts[i+skip],png(f'{nome}_{i}',h)))
+        h,_=tlib.scheda_cards(label,titolo,pag,cards,i,side_fn(i) if side_fn else '');stati.append((starts[i+skip],png(f'{nome}_{i}',S(h))))
     flush()
-    return scena(nome,stati,w,dd+tot_extra,f'{B}/k/{nome}.mkv',lead=0.6,tail=0.9)
+    return (scena_blu if scuro else scena)(nome,stati,w,dd+tot_extra,f'{B}/k/{nome}.mkv',lead=0.6,tail=0.9)
 AP_SIDE={3:('stemma','Lo stemma nazista'),5:('poster','Un poster di propaganda nazista'),7:('goebbels','Joseph Goebbels')}
 def AP_n(n):
     t=TESTI[f'AP{n}'];fs=frasi(t);q=fs[0];corpo=fs[1:]
@@ -136,7 +142,7 @@ def RIEP_n(parte):
     for f in corpo:
         lead=f.split(':')[0]+':' if re.match(r'^(Primo|Secondo|Terzo|Quarto):',f) else None
         cards.append(dict(lead=lead,testo=digits(f)))
-    return unita_card_scene(f'RIEP{parte}',nm,'RIPASSO FINALE','Ripasso finale',cards,fs,None,skip=1,pag=PN[f'RIEP{parte}'])
+    return unita_card_scene(f'RIEP{parte}',nm,'RIPASSO FINALE','Ripasso finale',cards,fs,None,skip=1,pag=PN[f'RIEP{parte}'],scuro=True)
 def COVERV(parte):
     args=[(a['n'],a['titolo']) for a in S.ARG if a['n'] in (S.PARTE1 if parte==1 else S.PARTE2)]
     p=png(f'cover{parte}',tlib.copertina('La Germania da Weimar al nazismo',args,False,parte if parte==2 else None))
@@ -171,14 +177,14 @@ def SPG2():
         t=corpo[i]
         if 'NSDAP' in t or 'nazionalsocialista' in t: return tlib.side_img(IMGS['stemma'],'Lo stemma nazista')
         return ''
-    h,_=tlib.scheda_cards('RIPASSO DELLA PARTE PRECEDENTE','Che cosa abbiamo visto',PN["('spg', 2)"],cards,None,'');st.append((0.0,png('spg_x',h)))
+    h,_=tlib.scheda_cards('RIPASSO DELLA PARTE PRECEDENTE','Che cosa abbiamo visto',PN["('spg', 2)"],cards,None,'');h=tlib.scuro(h);st.append((0.0,png('spg_x',h)))
     for i in range(len(cards)):
         if i in imap:
             st.append((starts[i+1],png('spg_map',mappe.stato_html('M1',None,True))))
         else:
-            h,_=tlib.scheda_cards('RIPASSO DELLA PARTE PRECEDENTE','Che cosa abbiamo visto',PN["('spg', 2)"],cards,i,side(i));st.append((starts[i+1],png(f'spg_{i}',h)))
+            h,_=tlib.scheda_cards('RIPASSO DELLA PARTE PRECEDENTE','Che cosa abbiamo visto',PN["('spg', 2)"],cards,i,side(i));h=tlib.scuro(h);st.append((starts[i+1],png(f'spg_{i}',h)))
     flush()
-    return scena(nm,st,w,dd+0.8,f'{B}/k/{nm}.mkv',lead=0.6,tail=0.9)
+    return scena_blu(nm,st,w,dd+0.8,f'{B}/k/{nm}.mkv',lead=0.6,tail=0.9)
 def FIN_blu(parte):
     nm='FIN1' if parte==1 else 'FIN2';w,d,_=prep_voce(nm,f'{B}/k/{nm}_n.wav')
     lab='FINE DELLA PARTE' if parte==1 else 'FINE DELLA LEZIONE'

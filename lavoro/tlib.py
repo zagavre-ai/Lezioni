@@ -203,3 +203,18 @@ def copertina_semplice(titolo,extra=None):
     if extra: body+=f'<div class="lab" style="top:186px;color:#0B1530;font-size:40px;letter-spacing:.3em">{extra}</div>'
     body+=f'<div class="big" style="top:300px">{esc(titolo)}</div><div class="und" style="top:540px"></div><div class="fl"></div><div class="ft">STORIA</div><div class="pg">Pagina 1</div>'
     return page(body,COVER_CSS)
+
+BLU_BG='#12275A'
+SCURO_CSS=f"""<style>
+html,body{{background:{BLU_BG}!important}}
+.hl,.fl{{background:rgba(255,255,255,.25)!important}}
+.lab{{color:#FFE600!important}} .tit{{color:#fff!important}} .ft,.pg{{color:#DCE6F7!important}}
+.logo{{filter:brightness(0) invert(1)}}
+.card{{background:rgba(255,255,255,.09)!important;border:2px solid rgba(255,255,255,.28)!important;color:#fff!important;box-shadow:none!important;opacity:1!important}}
+.card .dm,.card{{color:#fff}}
+.card.on{{background:rgba(255,230,0,.16)!important;border:6px solid #FFE600!important}}
+.card.on::before{{box-shadow:0 0 0 3px {BLU_BG},0 0 0 5px #fff!important}}
+.card:not(.on){{color:rgba(255,255,255,.62)!important}}
+mark{{background:#FFE600!important;color:#0B1530!important}}
+</style>"""
+def scuro(html): return html.replace('</head>',SCURO_CSS+'</head>')
