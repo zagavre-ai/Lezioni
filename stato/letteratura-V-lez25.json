@@ -2,22 +2,22 @@
  "tag": "letteratura-V-lez25",
  "parti": {
   "1": {
-   "stato": "IN_REVISIONE",
+   "stato": "PRONTA",
    "voci": "kore",
    "quiz_ok": "si",
    "fermi_ok": "si",
    "sub_ok": "si",
    "video": "Letteratura_Lez25_Parte1_1080p.mp4",
-   "durata_s": 2320.8,
-   "durata": "38:40.8",
-   "fotogrammi": 69625,
-   "fotogrammi_attesi": 69625,
-   "peso_MB": 145.7,
+   "durata_s": 2378.4,
+   "durata": "39:38.4",
+   "fotogrammi": 71353,
+   "fotogrammi_attesi": 71353,
+   "peso_MB": 160.3,
    "vtt": "Letteratura_Lez25_Parte1.vtt",
    "scheda": {
     "materia": "Letteratura italiana (V)",
     "titolo": "Letteratura V · Lezione 25 · Pier Paolo Pasolini",
-    "durata_s": 2320.83,
+    "durata_s": 2378.43,
     "argomenti": [
      {
       "n": 1,
@@ -503,10 +503,14 @@
   {
    "quando": "23/11 10:53",
    "testo": "23/11 10:55 UTC: ripreso. Correzioni master: schede ripasso/approfondimento/riepilogo/titoli/quiz in blu scuro, approfondimenti con tutte le card visibili, mappa in 3 schermate a 40 px, chip «premi Controlla», compiti con voce COMPITI (testo inviato, attendo la voce). Rimontaggio in corso."
+  },
+  {
+   "quando": "23/11 11:33",
+   "testo": "23/11 correzioni 22/11 fatte (REVISIONATA a parte la voce COMPITI): consegna sul ramo con foglio e json di controllo_rapido; unico errore: pausa muta della scheda compiti finché non arriva la voce COMPITI."
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 25 · Pasolini",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-23 10:53:57"
+ "aggiornato": "2026-11-23 11:33:24"
 }
