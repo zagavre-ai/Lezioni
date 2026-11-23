@@ -1,0 +1,147 @@
+{
+ "tag": "storia-V-lez20",
+ "parti": {
+  "1": {
+   "stato": "IN_MONTAGGIO",
+   "voci": "segnaposto",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "no",
+   "video": "Storia_Lez20_Parte1_1080p.mp4",
+   "durata_s": 3249.9,
+   "durata": "54:09.9",
+   "fotogrammi": 97496,
+   "fotogrammi_attesi": 97496,
+   "peso_MB": 326.9,
+   "vtt": "Storia_Lez20_Parte1.vtt"
+  },
+  "2": {
+   "stato": "IN_MONTAGGIO",
+   "voci": "segnaposto",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "no",
+   "video": "Storia_Lez20_Parte2_1080p.mp4",
+   "durata_s": 1746.1,
+   "durata": "29:06.1",
+   "fotogrammi": 52384,
+   "fotogrammi_attesi": 52384,
+   "peso_MB": 150.8,
+   "vtt": "Storia_Lez20_Parte2.vtt"
+  }
+ },
+ "manca": "",
+ "serve_master": [
+  {
+   "quando": "22/11 18:39",
+   "testo": "Storia V lez20. DECISIONI MIE, dimmi se sbagliate: (1) il prof fa 56,5 min; con ripasso, mappa, quiz, glossario, verifica e compiti vengono circa 75 min: faccio DUE Parti, taglio a fine argomento 5; Parte 2 apre con lo spiegone (riuso le voci R1-R5 gia' fatte + 1 voce nuova). Parte 2 sara' sotto i 50 min (materiale del prof). (2) Il prof ha mappe solo per gli argomenti 3,4,5,8 (4 pagine PDF). Per 1,2,6,7 e per la mappa finale seguo CLAUDE.md §6: mappa con le SUE parole, dichiarata nel rapporto; il prompt dice di non inventarle: se preferisci niente mappa per quegli argomenti, scrivilo in DALLA_MASTER. (3) Voci nuove che mi servono: INTRO1_N (benvenuto senza il nome del prof, testo come INTRO1 senza 'del professor Giorgio Mazzotti') e SP0 (apertura spiegone Parte 2); le altre sono quelle gia' in vox/. Mando testi_voci_22-11.json sul ramo voci. (4) Refusi del prof da correggere: 'Elcin'->Eltsin, 'ex rft'->ex RFT/Germania Ovest, 'lugoslavia' (mappa)->Iugoslavia, 'indipendenza' (mappa)."
+  },
+  {
+   "quando": "22/11 19:06",
+   "testo": "Voci da generare (ramo voci-storia-V-lez20, file scambio/storia-V-lez20/testi_voci_22-11.json): INTRO1_N, SP0, FINP1, PS2_4, PS3_4, COMP1, COMP2, COMP3, COMP4. Tutte le altre voci gia' in vox/ le riuso dopo averle riascoltate/trascritte. Aggiornamento al piano: taglio Parti a fine argomento 4 (Parte 1 circa 55 min, Parte 2 circa 38 min)."
+  },
+  {
+   "quando": "22/11 20:37",
+   "testo": "Fatto: le 9 voci nuove (INTRO1_N, SP0, FINP1, PS2_4, PS3_4, COMP1-4) sono ora dentro testi_voci.json sul ramo voci-storia-V-lez20 (file separato rimosso). Mappe: gia' solo le 4 del prof, niente mappe inventate ne' finale. Piè di pagina senza nome del docente."
+  },
+  {
+   "quando": "23/11 09:21",
+   "testo": "storia-V-lez20: manca solo la generazione delle 6 voci nuove (INTRO1_N, SP0, FINP1, PS2_4, PS3_4, COMPITI) in scambio/storia-V-lez20/testi_voci.json sul ramo voci-storia-V-lez20. Tutto il resto e' sul ramo revisione (v3). Quando le voci sono caricate scrivi in DALLA_MASTER e riprendo."
+  }
+ ],
+ "domande_sara": [],
+ "note": [
+  {
+   "quando": "22/11 18:36",
+   "testo": "correzioni 22/11: presa da claude/keen-hypatia-d76anw"
+  },
+  {
+   "quando": "22/11 18:39",
+   "testo": "22/11 18:50 UTC: scaricati originale (56,5 min), slide, mappe, test. Trascrizione in corso. Ricostruisco da zero il montaggio (script della consegna precedente non nel repo)."
+  },
+  {
+   "quando": "22/11 19:06",
+   "testo": "22/11 19:10 UTC: montaggio ricostruito: pezzi del prof, mappe del prof ridisegnate (4), mappe con parole del prof (1,2,6,7,finale), pillole, quiz. Piano: 2 Parti, taglio a fine argomento 4. Voci nuove richieste sul ramo voci: SP0, FINP1, PS2_4, PS3_4, COMP1-4, INTRO1_N."
+  },
+  {
+   "quando": "22/11 19:32",
+   "testo": "22/11 19:33 UTC: Parte 1 in codifica pezzo per pezzo (24 pezzi su ~50 fatti). Poi Parte 2, dispensa, mappe PDF, sottotitoli, controlli. Seguo la tua nota: solo mappe del prof (4), niente mappe inventate/finale."
+  },
+  {
+   "quando": "22/11 20:21",
+   "testo": "22/11 20:20 UTC: Parte 1 (54:15, 330 MB, -16,3 LUFS) e Parte 2 (29:32, 153 MB, -16,1 LUFS) montate con voci provvisorie solo dove mancano (INTRO1_N, SP0, FINP1, PS2_4, PS3_4, COMP1-4). Quiz a 0,0 s OK, fermi docente nessuno. Ora controllo severo + agente separato + dispensa/PDF mappe/rapporto."
+  },
+  {
+   "quando": "22/11 22:07",
+   "testo": "22/11 22:10 UTC: consegna PROVVISORIA caricata su revisione-storia-V-lez20 (Parte 1 54:10, Parte 2 29:26; controllo severo senza errori di struttura; restano solo le voci nuove da inserire: INTRO1_N, SP0, FINP1, PS2_4, PS3_4, COMP1-4). Rifaccio i pezzi appena arrivano le voci e consegno entro le 10:00 UTC."
+  },
+  {
+   "quando": "22/11 22:50",
+   "testo": "22/11 23:20 UTC: consegna provvisoria v2 su revisione-storia-V-lez20 con le correzioni dell'agente separato (spiegone solo arg. 1-4, niente fotogramma nero, avviso non doppio, sigle spiegate, sottotitoli intro). Attendo le 9 voci."
+  },
+  {
+   "quando": "22/11 23:50",
+   "testo": "22/11 23:55 UTC: tutto montato e consegnato in versione provvisoria; in attesa delle 9 voci nuove (le inserisco appena arrivano, circa 30 minuti di lavoro)."
+  },
+  {
+   "quando": "23/11 00:29",
+   "testo": "23/11 00:30 UTC: in attesa delle 9 voci; consegna provvisoria gia' su revisione-storia-V-lez20."
+  },
+  {
+   "quando": "23/11 01:07",
+   "testo": "23/11 01:08 UTC: in attesa delle 9 voci."
+  },
+  {
+   "quando": "23/11 01:45",
+   "testo": "23/11 01:46 UTC: in attesa delle 9 voci."
+  },
+  {
+   "quando": "23/11 02:23",
+   "testo": "23/11 02:24 UTC: in attesa delle 9 voci."
+  },
+  {
+   "quando": "23/11 03:02",
+   "testo": "23/11 03:03 UTC: in attesa delle 9 voci."
+  },
+  {
+   "quando": "23/11 03:40",
+   "testo": "23/11 03:41 UTC: in attesa delle 9 voci."
+  },
+  {
+   "quando": "23/11 04:08",
+   "testo": "23/11 04:20 UTC: in attesa delle 9 voci."
+  },
+  {
+   "quando": "23/11 04:47",
+   "testo": "23/11 04:50 UTC: in attesa delle 9 voci."
+  },
+  {
+   "quando": "23/11 05:25",
+   "testo": "23/11 05:30 UTC: in attesa delle 9 voci."
+  },
+  {
+   "quando": "23/11 06:03",
+   "testo": "23/11 06:10 UTC: in attesa delle 9 voci."
+  },
+  {
+   "quando": "23/11 06:42",
+   "testo": "23/11 06:45 UTC: in attesa delle 9 voci."
+  },
+  {
+   "quando": "23/11 07:10",
+   "testo": "23/11 07:11 UTC: in attesa delle 9 voci; pronto a inserirle (circa 35 min di lavoro)."
+  },
+  {
+   "quando": "23/11 07:58",
+   "testo": "23/11 08:00 UTC: voci ancora non arrivate. Se non arrivano entro le 09:15 UTC lascio la consegna in stato provvisorio e lo dico chiaramente."
+  },
+  {
+   "quando": "23/11 09:21",
+   "testo": "23/11 09:25 UTC: consegna v3 su revisione-storia-V-lez20 (commit 2db8e95): Parte 1 54:10, Parte 2 29:06, foglio fotogrammi + json controllo_rapido per Parte. Restano SOLO pause mute dovute a voci mancanti: INTRO1_N (ora provvisoria con il nome del prof), SP0, FINP1, PS2_4, PS3_4, COMPITI (una sola voce, nel testi_voci.json). NON e' REVISIONATA finche' non arrivano. Appena ci sono le voci, scrivimi un messaggio in DALLA_MASTER: le inserisco (circa 25 min) e rilancio i controlli. Mi fermo qui."
+  }
+ ],
+ "materia": "Storia V",
+ "lezione": "Lezione 20 · Gli anni Novanta: il mondo post-bipolare",
+ "docente": "Prof. Giorgio Mazzotti",
+ "aggiornato": "2026-11-23 09:21:18"
+}
