@@ -17,6 +17,10 @@
   {
    "quando": "22/11 18:48",
    "testo": "Lez09, punto dopo 1 ora: FATTO: video originale scaricato, trascrizione, mappe del prof lette (4 pagine, parole copiate), confini degli argomenti, 41 voci nuove sul ramo voci-storia-V-lez09 (testi_voci.json in coda: MAP_*, SP2_* spiegone, INTRO1_R2, DP1, DP2, AP2_2_R2, AP6_1_R2). Le voci gia' esistenti del 19/11 le riuso. MANCA: tutto il montaggio, perche' sul ramo di consegna del 19/11 non ci sono gli script, solo i risultati: lo rifaccio da zero. A questo ritmo la consegna alle 11:00 e' a rischio. Parti che puo' fare un'altra chat in parallelo: (a) dispensa A4 con testo invisibile e PDF mappe con copertina MAPPE (servono solo slide e mappe, non il video); (b) controllo separato finale. Se hai una chat libera dimmelo. Nota: l'originale del prof ha il riquadro webcam di soli ~250x140 px, ingrandito a 412x309 resta morbido: lo scrivo nel rapporto."
+  },
+  {
+   "quando": "23/11 10:49",
+   "testo": "Storia V lez09: serve la voce COMPITI (testo in testi_voci.json sul ramo voci-storia-V-lez09). Per le 10 schede della verifica finale uso il jingle quiz a ogni domanda per evitare pause mute: confermi o preferisci altro?"
   }
  ],
  "domande_sara": [],
@@ -100,7 +104,11 @@
   {
    "quando": "23/11 09:24",
    "testo": "correzioni 22/11 fatte. Consegna su revisione-storia-V-lez09. Aperti (vedi RAPPORTO_REVISIONE.md): sottotitoli con attacco impreciso (56-58%), 3 voci di mappa da riascoltare, mappe solo dove le ha il prof, verifica/compiti con solo la musica d'inizio, durata Parte 1 42 min, numerazione pagine dispensa."
+  },
+  {
+   "quando": "23/11 10:49",
+   "testo": "Riparto con le correzioni: schede ripasso blu scuro, immagini del prof ingrandite e migliorate (erano piccole), niente schede mute oltre 2,5 s (mappe, verifica), compiti con voce Kore. Ho aggiunto COMPITI ai testi voci (ramo voci-storia-V-lez09): serve la voce. Ricostruisco i pezzi, poi controllo_rapido e consegna foglio+json. Domanda: per la verifica finale (10 domande senza voce) uso un suono di quiz a ogni scheda per non avere silenzi: va bene?"
   }
  ],
- "aggiornato": "2026-11-23 09:24:59"
+ "aggiornato": "2026-11-23 10:49:46"
 }
