@@ -1,13 +1,13 @@
 {
  "materia": "Letteratura italiana (V)",
  "titolo": "Letteratura V · Lezione 13 · Italo Svevo · Parte 2",
- "durata_s": 3299.8,
+ "durata_s": 3278.4,
  "argomenti": [
   {
    "n": 4,
    "titolo": "Testi da La coscienza di Zeno",
    "inizio_s": 60.433,
-   "quiz_s": 3080.1,
+   "quiz_s": 3076.333,
    "inizio_s_vecchio": 17.982,
    "quiz_s_vecchio": 3059.716
   }
@@ -69,39 +69,39 @@
    ]
   }
  },
- "t_verifica": 3270.567,
- "t_compiti": 3288.667,
+ "t_verifica": 3259.533,
+ "t_compiti": 3274.9,
  "approfondimenti": [
   {
    "nome": "AN1",
-   "inizio_s": 185.033
+   "inizio_s": 183.367
   },
   {
    "nome": "AN2",
-   "inizio_s": 2886.233
+   "inizio_s": 2884.567
   },
   {
    "nome": "AN3",
-   "inizio_s": 2950.0
+   "inizio_s": 2948.333
   },
   {
    "nome": "AN1b",
-   "inizio_s": 527.9
+   "inizio_s": 526.233
   },
   {
    "nome": "AN2b",
-   "inizio_s": 1873.567
+   "inizio_s": 1871.9
   },
   {
    "nome": "AN3b",
-   "inizio_s": 2975.267
+   "inizio_s": 2973.6
   },
   {
    "nome": "AN4b",
-   "inizio_s": 2724.1
+   "inizio_s": 2722.433
   }
  ],
  "descrizione": "Lezione di Letteratura italiana V del prof. Giorgio Mazzotti su Italo Svevo, seconda parte: lettura e commento di testi da La coscienza di Zeno (Il fumo, La morte del padre, La salute «malata» di Augusta, Un affare commerciale disastroso, La profezia di un'apocalisse cosmica).",
  "mappa_s": null,
- "t_glossario": 3201.1
+ "t_glossario": 3192.167
 }

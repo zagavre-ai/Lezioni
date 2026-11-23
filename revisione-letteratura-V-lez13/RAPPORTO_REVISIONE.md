@@ -50,3 +50,14 @@ Parte 2: argomento 4 18,0→60,4 · quiz 4 3059,7→3080,1 · verifica finale �
 
 ## Dispense PDF
 - Rigenerate dal video finale (A4, strato di testo invisibile): `Letteratura_Lez13_slide.pdf` (120 pagine) e `Letteratura_Lez13_mappe.pdf` (2 pagine: copertina «MAPPE» + mappa) generate dal video finale (pagine a 150 dpi, testo OCR invisibile in italiano). Non ho controllato visivamente tutte le pagine.
+
+## Aggiornamento 23/11 (controllo elastico)
+Rifatta solo una ricodifica finale di entrambe le Parti (stesse immagini, stesso audio) per correggere i difetti segnalati dalla master il 22/11:
+- **Schede quiz / verifica finale / compiti** ora a tutto schermo (fondo blu scuro, niente fasce), etichette e pillola in Figtree Bold (non più DM Mono); «[SCHEMA DI RIPASSO]» e «[RIPASSO FINALE]» in Figtree Bold senza parentesi quadre.
+- **Piè di pagina**: tolto «Prof. Giorgio Mazzotti» dalle slide (resta «LETTERATURA ITALIANA V · Pagina N»). **Non risolto in 6 fotogrammi della P1** (6:15, 34:15–35:15) dove l'ultima card gialla tocca il piè di pagina e il filtro non l'ha rilevato; il nome è ancora lì (difetto non bloccante per la master). Dispensa e PDF mappe sono senza nome.
+- **Pause mute**: tutte le pause oltre 2 s sono state accorciate (tagli su audio e video insieme): P1 −20,5 s (13 tagli), P2 −26,4 s (9 tagli). Controllo rapido: nessuna pausa mute oltre 2,5 s.
+- **Verifica finale (P2)**: la scheda muta era stata cancellata dal taglio; reinserita (5 s con il jingle quiz del kit) subito prima di «Fine della lezione».
+- **Durate nuove**: P1 2962,5 s (49:22), P2 3278,4 s (54:38). Rigenerati vtt, timeline, schede, quiz_argomenti e verifica_finale con i secondi nuovi.
+- **Controllo rapido** (`controllo_rapido_*.json`, `foglio_fotogrammi_*.jpg`): P1 ESITO «DA CORREGGERE» solo per il nome nel piè di pagina in 6 fotogrammi; P2 «DA CORREGGERE» solo per «schermata identica oltre 3 minuti 17:45» (falso allarme probabile: sono pagine del libro con le righe che scorrono, il controllo severo con OCR non le segnalava). Volume −16,5 / −16,2 LUFS, picchi −2,4 / −2,1 dBTP. Il foglio è stato guardato per P1 su alcuni fotogrammi, non tutti.
+- **Compiti con voce Kore**: aggiunto il testo COMPITI a `testi_voci.json` (ramo `voci-letteratura-V-lez13`); la voce non è ancora arrivata, quindi la scheda compiti in fondo resta muta (il compito viene letto dal docente nella pagina). Quando arriva, la scena è pronta (`compiti45.py`) ma serve una nuova ricodifica della P2.
+- Le dispense PDF sono quelle del 22/11 (stesse pagine; i secondi cambiano ma non le immagini).
