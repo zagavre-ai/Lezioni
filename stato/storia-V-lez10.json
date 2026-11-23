@@ -10,6 +10,10 @@
   {
    "quando": "22/11 19:03",
    "testo": "storia-V-lez10: voci nuove inviate su voci-storia-V-lez10 (testi_voci.json, 17 voci nuove in coda alle 95 esistenti): BENV2, SPG2 (spiegone Parte 2), MAP1N/2N/3N (mappe del prof), VER, C1-C4 (compiti), e 7 rifacimenti con le sigle rispiegate (P4_R2, SC3_1_R2, SC4_5_R2, SC5_1_R2, SC6_5_R2, SC7_1_R2, RF1_R2). Le altre voci vecchie (BENV, AP1-8, P*, SC*, GL*, RF2, FIN*, CINTRO) le riuso dopo averle riverificate. Mappa 3: il prof non ha la domanda: titolo mio «Come funziona il regime nazista?» (lo dichiaro nel rapporto). Confine Parti: dopo l'argomento 4 (Parte 1 ~63 min, Parte 2 ~55 min)."
+  },
+  {
+   "quando": "23/11 00:07",
+   "testo": "STATO 00:10 UTC. Controllo severo su entrambe le Parti: RESPINTA (schermate ferme per pagina, copertina 260 s, pause da voci provvisorie). Corretto: pagina nuova a ogni stato, introduzione sulla copertina portata a 157 s, compiti con voce unica COMPITI (aggiunta a testi_voci.json). Ricostruzione in corso. Aspetto le voci domattina, poi montaggio finale, controllo_rapido e agente separato. Parte 1 dura 62 min."
   }
  ],
  "domande_sara": [],
@@ -29,5 +33,5 @@
  ],
  "materia": "Storia V",
  "lezione": "Lezione 10 · La Germania da Weimar al nazismo",
- "aggiornato": "2026-11-22 19:31:58"
+ "aggiornato": "2026-11-23 00:07:29"
 }
