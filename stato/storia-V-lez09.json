@@ -81,7 +81,11 @@
   {
    "quando": "23/11 07:15",
    "testo": "Ancora nessuna voce Kore nuova (141 file, ore 07:15 UTC). Tutto il resto pronto."
+  },
+  {
+   "quando": "23/11 07:47",
+   "testo": "Ore 07:47 UTC: voci Kore nuove ancora non arrivate (141 file). Intanto ricodifico le due Parti con il limitatore del picco (-1 dBTP); se alle 08:30 mancano ancora, chiedo alla master se consegnare con voci provvisorie."
   }
  ],
- "aggiornato": "2026-11-23 07:15:02"
+ "aggiornato": "2026-11-23 07:47:13"
 }
