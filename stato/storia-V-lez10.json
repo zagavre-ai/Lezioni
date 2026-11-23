@@ -3,6 +3,9 @@
  "parti": {
   "1": {
    "stato": "REVISIONATA"
+  },
+  "2": {
+   "stato": "REVISIONATA"
   }
  },
  "manca": "in corso: codifica dei 10 pezzi del prof (circa 96 min, 2 lavori in parallelo) e dei pezzi Kore con voci provvisorie. Poi: assemblaggio Parte 1 (~62 min) e Parte 2 (~56 min), controlli, dispensa, sottotitoli. Voci reali: appena arrivano le sostituisco.",
@@ -57,9 +60,13 @@
   {
    "quando": "23/11 12:17",
    "testo": "correzioni 22/11 fatte. Ramo revisione-storia-V-lez10. controllo_rapido OK e controllo_severo OK su entrambe le Parti. Residui dichiarati nel RAPPORTO_REVISIONE.md sez. 9 (card solo intestazione, Parte 1 a 62 min, 3 mappe del prof)."
+  },
+  {
+   "quando": "23/11 12:17",
+   "testo": "correzioni 22/11 fatte. Ramo revisione-storia-V-lez10. controllo_rapido OK e controllo_severo OK su entrambe le Parti. Residui dichiarati nel RAPPORTO_REVISIONE.md sez. 9 (card solo intestazione, Parte 1 a 62 min, 3 mappe del prof)."
   }
  ],
  "materia": "Storia V",
  "lezione": "Lezione 10 · La Germania da Weimar al nazismo",
- "aggiornato": "2026-11-23 12:17:51"
+ "aggiornato": "2026-11-23 12:17:54"
 }
