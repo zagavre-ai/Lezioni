@@ -1,0 +1,403 @@
+{
+ "materia": "Storia dell'arte (V)",
+ "titolo": "Storia dell'arte V · Lezione 18 · Postmodernità e globalizzazione",
+ "durata_s": 3395.35,
+ "argomenti": [
+  {
+   "n": 1,
+   "titolo": "Il contesto globale e la condizione postmoderna",
+   "inizio_s": 113.019,
+   "quiz_s": 382.597
+  },
+  {
+   "n": 2,
+   "titolo": "Il postmoderno nelle arti figurative e la dimensione globale",
+   "inizio_s": 386.897,
+   "quiz_s": 1046.697
+  },
+  {
+   "n": 3,
+   "titolo": "Il ritorno alla pittura in Germania e in Italia",
+   "inizio_s": 1050.997,
+   "quiz_s": 1331.633
+  },
+  {
+   "n": 4,
+   "titolo": "Graffiti e Street Art",
+   "inizio_s": 1335.933,
+   "quiz_s": 1569.519
+  },
+  {
+   "n": 5,
+   "titolo": "Fotografia, Video Art e nuovi media",
+   "inizio_s": 1573.819,
+   "quiz_s": 2168.653
+  },
+  {
+   "n": 6,
+   "titolo": "L'artista nella società globale: le Artistar",
+   "inizio_s": 2172.953,
+   "quiz_s": 2650.659
+  },
+  {
+   "n": 7,
+   "titolo": "Le ultime tendenze dell'architettura contemporanea",
+   "inizio_s": 2654.959,
+   "quiz_s": 3110.008
+  }
+ ],
+ "quiz": {
+  "Q1": {
+   "title": "Quiz 1 · Il contesto globale e la condizione postmoderna",
+   "items": [
+    {
+     "p": "Chi ha teorizzato la condizione postmoderna nel 1979?",
+     "a": "Jean-François Lyotard",
+     "w": [
+      "Achille Bonito Oliva",
+      "Gerhard Richter",
+      "Keith Haring"
+     ]
+    },
+    {
+     "p": "Quale evento del 1989 segna la fine del mondo bipolare?",
+     "a": "La caduta del muro di Berlino",
+     "w": [
+      "L'attacco alle Torri Gemelle",
+      "La nascita della Transavanguardia",
+      "Il saggio di Lyotard"
+     ]
+    },
+    {
+     "p": "In quale anno si scioglie l'Unione Sovietica?",
+     "a": "1991",
+     "w": [
+      "1979",
+      "1989",
+      "2001"
+     ]
+    },
+    {
+     "p": "Che cosa sostituisce il rigore delle avanguardie nell'arte postmoderna?",
+     "a": "Il disincanto e l'ibridazione degli stili",
+     "w": [
+      "Il rigore assiomatico e ideologico",
+      "La fiducia nel progresso lineare",
+      "Le grandi narrazioni"
+     ]
+    },
+    {
+     "p": "Che cos'è la società postindustriale?",
+     "a": "Una società in cui servizi e scambio di dati digitali prevalgono sulla manifattura",
+     "w": [
+      "Una società basata sull'agricoltura",
+      "Una società basata sulla produzione industriale in serie",
+      "Una società senza tecnologia"
+     ]
+    }
+   ]
+  },
+  "Q2": {
+   "title": "Quiz 2 · Il postmoderno nelle arti figurative e la dimensione globale",
+   "items": [
+    {
+     "p": "Quale opera di Sherrie Levine riprende un'opera di Marcel Duchamp?",
+     "a": "Fountain (After Marcel Duchamp)",
+     "w": [
+      "Untitled (Boy)",
+      "Self",
+      "Spring"
+     ]
+    },
+    {
+     "p": "In quale materiale Sherrie Levine fonde la sua Fountain?",
+     "a": "Bronzo lucido",
+     "w": [
+      "Marmo bianco",
+      "Resina",
+      "Acciaio inossidabile"
+     ]
+    },
+    {
+     "p": "Chi ha realizzato Self, nel 1991, con il proprio sangue?",
+     "a": "Marc Quinn",
+     "w": [
+      "Ron Mueck",
+      "Jake e Dinos Chapman",
+      "Fang Lijun"
+     ]
+    },
+    {
+     "p": "Quale mostra di Parigi, nel 1989, ha messo in dialogo arte occidentale e non occidentale?",
+     "a": "Les Magiciens de la terre",
+     "w": [
+      "Sensation",
+      "Made in Heaven",
+      "Women of Allah"
+     ]
+    },
+    {
+     "p": "Che cosa ricostruisce Yinka Shonibare in Scramble for Africa?",
+     "a": "La conferenza di Berlino del 1884-1885, in cui le potenze europee si spartirono l'Africa",
+     "w": [
+      "La caduta del muro di Berlino",
+      "La mostra di Parigi del 1989",
+      "I fatti di Piazza Tienanmen"
+     ]
+    }
+   ]
+  },
+  "Q3": {
+   "title": "Quiz 3 · Il ritorno alla pittura in Germania e in Italia",
+   "items": [
+    {
+     "p": "Quale artista tedesco è noto per i dipinti «capovolti»?",
+     "a": "Georg Baselitz",
+     "w": [
+      "Anselm Kiefer",
+      "Gerhard Richter",
+      "Sandro Chia"
+     ]
+    },
+    {
+     "p": "Chi ha teorizzato la Transavanguardia?",
+     "a": "Achille Bonito Oliva",
+     "w": [
+      "Jean-François Lyotard",
+      "Francesco Clemente",
+      "Mimmo Paladino"
+     ]
+    },
+    {
+     "p": "Quale atteggiamento caratterizza la Transavanguardia?",
+     "a": "Nomade ed eclettico",
+     "w": [
+      "Rigoroso e concettuale",
+      "Minimalista",
+      "Dogmatico"
+     ]
+    },
+    {
+     "p": "Quale opera è di Mimmo Paladino?",
+     "a": "La verità del fornaio in carrozza",
+     "w": [
+      "Gioco di mano",
+      "Il cerchio di Milarepa",
+      "Fountain"
+     ]
+    },
+    {
+     "p": "Chi è Milarepa, a cui fa riferimento Francesco Clemente?",
+     "a": "Un asceta e poeta buddista tibetano",
+     "w": [
+      "Un filosofo tedesco",
+      "Un critico d'arte italiano",
+      "Un pittore cinese"
+     ]
+    }
+   ]
+  },
+  "Q4": {
+   "title": "Quiz 4 · Graffiti e Street Art",
+   "items": [
+    {
+     "p": "Dove nasce il movimento della graffiti art?",
+     "a": "A New York",
+     "w": [
+      "A Pisa",
+      "A Parigi",
+      "A Berlino"
+     ]
+    },
+    {
+     "p": "Dove si trova il murale Tuttomondo di Keith Haring?",
+     "a": "A Pisa, sulla parete della chiesa di Sant'Antonio",
+     "w": [
+      "A Milano",
+      "A Firenze",
+      "A Roma"
+     ]
+    },
+    {
+     "p": "Quante figure antropomorfe inserisce Haring nel Tuttomondo?",
+     "a": "Trenta",
+     "w": [
+      "Dieci",
+      "Quattordici",
+      "Centosessantotto"
+     ]
+    },
+    {
+     "p": "Che cosa rappresenta il Radiant Baby, il bambino radiante?",
+     "a": "L'innocenza pura e la speranza per il futuro",
+     "w": [
+      "La violenza della metropoli",
+      "Il potere economico",
+      "La memoria storica"
+     ]
+    },
+    {
+     "p": "Quale tecnica usa Banksy per le sue opere?",
+     "a": "Lo stencil",
+     "w": [
+      "L'affresco",
+      "L'incisione",
+      "Il mosaico"
+     ]
+    }
+   ]
+  },
+  "Q5": {
+   "title": "Quiz 5 · Fotografia, Video Art e nuovi media",
+   "items": [
+    {
+     "p": "Che cosa fotografa Andreas Gursky in Amazon?",
+     "a": "L'interno di un centro di distribuzione merci",
+     "w": [
+      "Un ritratto in bianco e nero",
+      "Una città di notte",
+      "Un paesaggio naturale"
+     ]
+    },
+    {
+     "p": "Quale artista decostruisce gli stereotipi di genere con la serie Untitled Film Stills?",
+     "a": "Cindy Sherman",
+     "w": [
+      "Shirin Neshat",
+      "Andreas Gursky",
+      "Bill Viola"
+     ]
+    },
+    {
+     "p": "Con quale scrittura sono ricoperte la pelle del volto nel ritratto di Shirin Neshat?",
+     "a": "Calligrafia farsi, con poesie persiane",
+     "w": [
+      "Caratteri latini",
+      "Geroglifici",
+      "Graffiti"
+     ]
+    },
+    {
+     "p": "Chi ha creato l'installazione video Anthro/Socio, con la testa rotante?",
+     "a": "Bruce Nauman",
+     "w": [
+      "Bill Viola",
+      "Matthew Barney",
+      "Andreas Gursky"
+     ]
+    },
+    {
+     "p": "Quale artista usa lo slow motion per mostrare un uomo che si tuffa e affonda lentamente?",
+     "a": "Bill Viola",
+     "w": [
+      "Bruce Nauman",
+      "Matthew Barney",
+      "Cindy Sherman"
+     ]
+    }
+   ]
+  },
+  "Q6": {
+   "title": "Quiz 6 · L'artista nella società globale: le Artistar",
+   "items": [
+    {
+     "p": "Come si chiamano gli artisti diventati celebrità globali?",
+     "a": "Artistar",
+     "w": [
+      "Archistar",
+      "Avanguardie",
+      "Appropriazionisti"
+     ]
+    },
+    {
+     "p": "Di quale materiale è fatta L.O.V.E. di Maurizio Cattelan?",
+     "a": "Marmo bianco di Carrara",
+     "w": [
+      "Bronzo lucido",
+      "Acciaio inossidabile",
+      "Cera"
+     ]
+    },
+    {
+     "p": "Che cos'è Balloon Dog di Jeff Koons?",
+     "a": "Un cagnolino di palloncini in acciaio inossidabile con vernice magenta specchiante",
+     "w": [
+      "Un busto in marmo bianco",
+      "Un dipinto a olio",
+      "Un'installazione video"
+     ]
+    },
+    {
+     "p": "Come chiamano affettuosamente Cloud Gate i cittadini di Chicago?",
+     "a": "The Bean, il fagiolo",
+     "w": [
+      "The Dog",
+      "The Cloud",
+      "The Mirror"
+     ]
+    },
+    {
+     "p": "Chi raffigura La nona ora di Maurizio Cattelan?",
+     "a": "Papa Giovanni Paolo II",
+     "w": [
+      "Un presidente",
+      "Un re",
+      "Un artista"
+     ]
+    }
+   ]
+  },
+  "Q7": {
+   "title": "Quiz 7 · Le ultime tendenze dell'architettura contemporanea",
+   "items": [
+    {
+     "p": "Chi ha progettato il Centre Georges Pompidou di Parigi?",
+     "a": "Renzo Piano e Richard Rogers",
+     "w": [
+      "Frank O. Gehry",
+      "Zaha Hadid",
+      "Daniel Libeskind"
+     ]
+    },
+    {
+     "p": "Di quale colore sono le tubature dell'acqua nel Pompidou?",
+     "a": "Verde",
+     "w": [
+      "Blu",
+      "Giallo",
+      "Rosso"
+     ]
+    },
+    {
+     "p": "Quale materiale riveste il Museo Guggenheim di Bilbao?",
+     "a": "Lamine di titanio",
+     "w": [
+      "Marmo bianco",
+      "Mattoni",
+      "Vetro e cemento"
+     ]
+    },
+    {
+     "p": "Che cos'è l'effetto Bilbao?",
+     "a": "Una grande architettura che riqualifica una città industriale in declino",
+     "w": [
+      "Un software di progettazione",
+      "Un colore delle lamine",
+      "Un movimento artistico"
+     ]
+    },
+    {
+     "p": "Chi ha progettato il MAXXI di Roma?",
+     "a": "Zaha Hadid",
+     "w": [
+      "Renzo Piano",
+      "Frank O. Gehry",
+      "Daniel Libeskind"
+     ]
+    }
+   ]
+  }
+ },
+ "t_verifica": 3275.708,
+ "t_compiti": 3290.221
+}

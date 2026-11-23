@@ -1,0 +1,106 @@
+{
+ "titolo": "Storia dell'arte V · Verifica finale",
+ "soglia": 0.8,
+ "domande": [
+  {
+   "n": 1,
+   "p": "Chi è l'autore del saggio del 1979 intitolato \"La condizione postmoderna\"?",
+   "a": "Jean-François Lyotard",
+   "w": [
+    "Robert Venturi",
+    "Achille Bonito Oliva",
+    "Michail Gorbačëv"
+   ]
+  },
+  {
+   "n": 2,
+   "p": "Quale artista tedesco è noto per aver iniziato a dipingere i suoi soggetti \"a testa in giù\" a partire dal 1969?",
+   "a": "Georg Baselitz",
+   "w": [
+    "Anselm Kiefer",
+    "Gerhard Richter",
+    "Sandro Chia"
+   ]
+  },
+  {
+   "n": 3,
+   "p": "Quale critico d'arte ha teorizzato e promosso nel 1979 il movimento italiano della Transavanguardia?",
+   "a": "Achille Bonito Oliva",
+   "w": [
+    "Charles Saatchi",
+    "Jean-François Lyotard",
+    "Robert Venturi"
+   ]
+  },
+  {
+   "n": 4,
+   "p": "In quale città italiana si trova il grande murale \"Tuttomondo\" realizzato da Keith Haring nel 1989?",
+   "a": "Pisa",
+   "w": [
+    "Milano",
+    "Roma",
+    "Firenze"
+   ]
+  },
+  {
+   "n": 5,
+   "p": "Quale celebre opera della Video Art, che mostra una statua orientale davanti a uno schermo televisivo, è stata creata da Nam June Paik nel 1974?",
+   "a": "TV Buddha",
+   "w": [
+    "Anthro/Socio",
+    "Cremaster",
+    "The Greeting"
+   ]
+  },
+  {
+   "n": 6,
+   "p": "Qual è il titolo della famosa opera di Damien Hirst del 1991 costituita da uno squalo tigre conservato in una teca di formaldeide?",
+   "a": "The Physical Impossibility of Death in the Mind of Someone Living",
+   "w": [
+    "For the Love of God",
+    "My Bed",
+    "Sensation"
+   ]
+  },
+  {
+   "n": 7,
+   "p": "In quale città statunitense si trova la monumentale scultura specchiante \"Cloud Gate\" realizzata da Anish Kapoor?",
+   "a": "Chicago",
+   "w": [
+    "New York",
+    "New Orleans",
+    "Santa Monica"
+   ]
+  },
+  {
+   "n": 8,
+   "p": "Quale scultura provocatoria di Maurizio Cattelan, raffigurante un dito medio alzato, è stata collocata a Milano nel 2010 davanti a Palazzo Mezzanotte?",
+   "a": "L.O.V.E.",
+   "w": [
+    "La nona ora",
+    "Sunflower Seeds",
+    "Balloon Dog"
+   ]
+  },
+  {
+   "n": 9,
+   "p": "Quale importante struttura parigina è stata progettata nel 1977 da Renzo Piano insieme a Richard Rogers, diventando un manifesto dell'architettura High Tech?",
+   "a": "Il Centro Georges Pompidou",
+   "w": [
+    "Il Museo Guggenheim",
+    "Il MAXXI",
+    "Il Museo Ebraico"
+   ]
+  },
+  {
+   "n": 10,
+   "p": "A quale celebre archistar si deve la progettazione del Museo Guggenheim di Bilbao inaugurato nel 1997?",
+   "a": "Frank O. Gehry",
+   "w": [
+    "Renzo Piano",
+    "Daniel Libeskind",
+    "Zaha Hadid"
+   ]
+  }
+ ]
+}
