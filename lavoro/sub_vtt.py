@@ -54,6 +54,22 @@ def build(parte,tlpath,out):
                 for x0,x1,tx in spezza(sub,t_out0+acc+(a2-s0),t_out0+acc+(b2-s0)):
                     cues.append((x0,x1,tx))
             acc+=s1-s0
+    # voci Kore: un blocco per ogni pezzo con voce, dal suo attacco (lead) per la durata della voce
+    def kcue(piece,voci,lead,gap=0.0):
+        if piece not in TL: return
+        t=TL[piece][0]+lead
+        for v in voci:
+            d=kore.vdur(v);txt=kore.digits(re.sub(r'\s+',' ',kore.TESTI[v]).strip())
+            txt=pulisci(txt)
+            for x0,x1,tx in spezza(txt,t,t+d): cues.append((x0,x1,tx))
+            t+=d+gap
+    for n in range(1,9):
+        kcue(f'AP{n}',[f'AP{n}'],0.6);kcue(f'PI{n}',['P4_R2' if n==4 else f'P{n}'],1.2)
+        kcue(f'PS{n}',[(f'SC{n}_{k}_R2' if f'SC{n}_{k}_R2' in kore.TESTI else f'SC{n}_{k}') for k in range(1,{1:5,2:4,3:5,4:5,5:4,6:5,7:6,8:4}[n]+1)],0.5,0.7)
+    kcue('COVERV1',['BENV'],0.7);kcue('COVERV2',['BENV2'],0.7);kcue('SPG2',['SPG2'],0.6)
+    for k in (1,2,3): kcue(f'MAP{k}',[f'MAP{k}N'],0.6)
+    kcue('GL1',['GL1'],0.6);kcue('GL2',['GL2'],0.6);kcue('RIEP1',['RF1_R2'],0.6);kcue('RIEP2',['RF2'],0.6)
+    kcue('FIN1',['FIN1'],0.8);kcue('FIN2',['FIN2'],0.8);kcue('VER',['VER'],1.0);kcue('CINTRO',['CINTRO'],0.8);kcue('COMPITI',['COMPITI'],0.7)
     cues.sort()
     # niente sovrapposizioni
     for i in range(len(cues)-1):
