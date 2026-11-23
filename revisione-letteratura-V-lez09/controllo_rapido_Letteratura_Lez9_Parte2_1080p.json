@@ -1,0 +1,34 @@
+{
+ "video": "Letteratura_Lez9_Parte2_1080p.mp4",
+ "durata_min": 55.62,
+ "formato": "1920x1080 30/1",
+ "peso_MB": 210,
+ "LUFS": -16.1,
+ "picco_dBTP": -2.1,
+ "pause_mute": [
+  "0:26 (2.7 s)",
+  "3:44 (6.2 s)",
+  "4:14 (5.9 s)",
+  "4:45 (5.6 s)",
+  "19:20 (3.0 s)",
+  "33:26 (3.0 s)",
+  "48:25 (3.0 s)",
+  "48:29 (2.7 s)",
+  "54:12 (3.0 s)",
+  "55:20 (3.7 s)",
+  "55:29 (3.0 s)",
+  "55:32 (4.5 s)"
+ ],
+ "nome_docente_nel_pie_di_pagina": [],
+ "schede_con_fasce": [],
+ "schermate_ferme_oltre_3_min": [],
+ "titolo_in_copertina": "2/2 parole",
+ "foglio": "foglio_fotogrammi_Letteratura_Lez9_Parte2_1080p.jpg",
+ "ERRORI": [
+  "12 pause mute oltre 2,5 s: 0:26 (2.7 s), 3:44 (6.2 s), 4:14 (5.9 s), 4:45 (5.6 s), 19:20 (3.0 s), 33:26 (3.0 s), 48:25 (3.0 s), 48:29 (2.7 s), 54:12 (3.0 s), 55:20 (3.7 s), 55:29 (3.0 s), 55:32 (4.5 s)"
+ ],
+ "DA_GUARDARE": [
+  "Apri il foglio dei fotogrammi e controlla con gli occhi: fondo bianco; schede di titolo/quiz/ripasso in BLU SCURO a tutto schermo; card a 40 px e intere; nessun nome del docente fuori dalla fascia gialla; riquadro del docente giusto (Mazzotti 4:3, Caputi tondo); copertina con il titolo esatto; mappe del prof con la legenda BES; in fondo sigla finale con l'avviso dei diritti e intro «Compiti»."
+ ],
+ "ESITO": "DA CORREGGERE"
+}
