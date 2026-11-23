@@ -203,11 +203,11 @@ def COMPITI():
     starts,dd=tempi_unita('COMPITI',unita)
     stati=[]
     for k in range(4):
-        cards=[dict(lead=f'Compito {k+1}',testo=f'Compito {k+1}: '+COMP[k])]
+        cards=[dict(lead=f'Compito {k+1}:',testo=f'Compito {k+1}: '+COMP[k])]
         if k==3: cards.append(dict(lead='Consegna',testo=CHIUSURA))
         h,_=tlib.scheda_cards('COMPITI',f'Compito {k+1} di 4',PN[f'COMPITO{k+1}'],cards,0,'')
         stati.append((starts[k],png(f'comp{k+1}',h)))
-    h,_=tlib.scheda_cards('COMPITI','Compito 4 di 4',PN['COMPITO4'],[dict(lead='Compito 4',testo='Compito 4: '+COMP[3]),dict(lead='Consegna',testo=CHIUSURA)],1,'')
+    h,_=tlib.scheda_cards('COMPITI','Compito 4 di 4',PN['COMPITO4'],[dict(lead='Compito 4:',testo='Compito 4: '+COMP[3]),dict(lead='Consegna',testo=CHIUSURA)],1,'')
     stati.append((starts[4],png('comp5',h)));flush()
     return scena('COMPITI',stati,w,d+1.0,f'{B}/k/COMPITI.mkv',lead=0.7,tail=1.0)
 def notice_png():

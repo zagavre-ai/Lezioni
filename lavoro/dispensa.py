@@ -19,7 +19,13 @@ def fix_footer(h,n):
 def pagine_dispensa(parte):
     """lista di (html_path, usa_webcam) nell'ordine del video"""
     pg=[]
-    kh=lambda pre:max(glob.glob(f'/tmp/w/kh/{pre}_[0-9]*_*.html'),key=lambda p:int(re.search(rf'{pre}_(\d+)_',p).group(1))) if glob.glob(f'/tmp/w/kh/{pre}_[0-9]*_*.html') else None
+    def kh(pre):
+        g=[x for x in glob.glob(f'/tmp/w/kh/{pre}_*.html')]
+        num=[(int(m.group(1)),x) for x in g for m in [re.fullmatch(rf'{re.escape(pre)}_(\d+)_[0-9a-f]{{10}}\.html',os.path.basename(x))] if m]
+        if num:
+            top=max(n for n,_ in num);return max([x for n,x in num if n==top],key=os.path.getmtime)
+        g=[x for x in g if re.fullmatch(rf'{re.escape(pre)}_[0-9a-f]{{10}}\.html',os.path.basename(x))]
+        return max(g,key=os.path.getmtime) if g else None
     J=json.load(open('/tmp/w/stati.json'))['stati']
     args=S.PARTE1 if parte==1 else S.PARTE2
     if parte==1:
@@ -41,8 +47,8 @@ def pagine_dispensa(parte):
     pg.append((kh(f'GL{parte}'),False));pg.append((kh(f'RIEP{parte}'),False))
     if parte==2:
         for k in (1,2,3,4):
-            h=glob.glob(f'/tmp/w/kh/comp{k}_*.html')
-            if h: pg.append((h[0],False))
+            h=kh(f'comp{k}')
+            if h: pg.append((h,False))
     return [p for p in pg if p[0]]
 def componi(parte):
     from mont import maschera
