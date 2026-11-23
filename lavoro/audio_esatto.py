@@ -12,7 +12,7 @@ def fatto(lista,out_m4a):
         parts.append(x)
     y=np.concatenate(parts);tmp=out_m4a+'.raw'
     y.tofile(tmp)
-    sh(['ffmpeg','-v','error','-y','-f','f32le','-ar','48000','-ac','1','-i',tmp,'-c:a','aac','-b:a','192k','-ar','48000',out_m4a]);os.remove(tmp)
+    sh(['ffmpeg','-v','error','-y','-f','f32le','-ar','48000','-ac','1','-i',tmp,'-af','alimiter=limit=0.7:attack=3:release=50:level=disabled','-c:a','aac','-b:a','192k','-ar','48000',out_m4a]);os.remove(tmp)
     return len(y)/48000
 if __name__=='__main__':
     print(fatto(sys.argv[1],sys.argv[2]))
