@@ -16,8 +16,11 @@ TXT = {**OLD, **AP}
 KWS = {1: ['deficit pubblico', 'inflazione', 'Biennio rosso'], 2: ['Fiume', 'vittoria mutilata', 'voto proporzionale'], 3: ['Fasci di combattimento', 'squadrismo', 'camicia nera'],
        4: ['Blocchi Nazionali', 'Trattato di Rapallo', 'Partito Nazionale Fascista'], 5: ['Marcia su Roma', 'stato d\'assedio', 'incarico a Mussolini'], 6: ['discorso del bivacco', 'Gran consiglio', 'Legge Acerbo'], 7: ['Matteotti', 'Aventino', 'dittatura']}
 PILL = {1: [1], 2: [3, 2], 3: [4], 4: [5], 5: [6], 6: [7], 7: [8]}      # argomento -> insiemi di voci PI/SC
+IMGAP = {'AP1': CACHE + '/img_p3-001.jpg.png', 'AP2': CACHE + '/img_p6-001.jpg.png', 'AP4': CACHE + '/img_p8-001.jpg.png', 'AP5': CACHE + '/img_p10-001.jpg.png', 'AP7': CACHE + '/img_p14-001.jpg.png', 'AP8': CACHE + '/img_p16-001.jpg.png'}
 APN = {1: ['AP1'], 2: ['AP2', 'AP3'], 3: ['AP4'], 4: ['AP5'], 5: ['AP6'], 6: ['AP7'], 7: ['AP8']}
 MAPA = {2: ('M1', 1), 4: ('M2', 2), 7: ('M3', 3)}                        # argomento -> (mappa, numero): solo le 3 mappe del prof
+from build_prof import img_pronta
+for _n in ['p3-001.jpg','p6-001.jpg','p8-001.jpg','p10-001.jpg','p14-001.jpg','p16-001.jpg']: img_pronta(_n)
 def pz(nome, f, *a, **k):
     p = f'{O}/{nome}.mkv'
     if not os.path.exists(p) or os.environ.get('RIFAI') == nome:
@@ -76,9 +79,12 @@ def parte(n):
             if ivm and abs(a - ivm[-1][1]) < 1e-6: ivm[-1][1] = b
             else: ivm.append([a, b])
         cut = sum(b - a for a, b in PIANO['D0']['iv'])
-        pa = f'{O}/cover_box.png'; covers.cover(True).save(pa); pb = f'{O}/argomenti.png'; covers.argomenti(2).save(pb)
+        stc = []
+        for k in range(7):
+            pk = f'{O}/cover_box_{k}.png'; covers.cover(True, hl=k).save(pk); stc.append((k * (cut / 7.0), pk))
+        pa = stc[0][1]; pb = f'{O}/argomenti.png'; covers.argomenti(2).save(pb)
         p = f'{O}/D0.mkv'
-        if not os.path.exists(p): monta_prof('D0', ivm, [(0.0, pa), (cut, pb)], p)
+        if not os.path.exists(p): monta_prof('D0', ivm, stc + [(cut, pb)], p)
         aggiungi(L_, 'D0', p)
         pag = 3
     else:
@@ -89,7 +95,7 @@ def parte(n):
         p, _ = pz(f'T{a}', kore.scheda_titolo, a, covers.ARG[a - 1], KWS[a]); aggiungi(L_, f'T{a}', p)
         aggiungi(L_, f'D{a}', f'{O}/D{a}.mkv')
         for j, nm in enumerate(APN[a]):
-            p, r = pz(nm, kore.approfondimento, nm, TXT[nm], 20 + a); aggiungi(L_, 'AN' + nm[2:], p, voce_reale(nm))
+            p, r = pz(nm, kore.approfondimento, nm, TXT[nm], 20 + a, 'APPROFONDIMENTO', IMGAP.get(nm)); aggiungi(L_, 'AN' + nm[2:], p, voce_reale(nm))
         if a in MAPA:
             key, k = MAPA[a]; p, r = pz(f'MAP{k}', lambda out: mappa_pezzo(key, out)); aggiungi(L_, f'MAP{k}', p, voce_reale(getattr(M, key)['voce']))
         for s in PILL[a]:
@@ -117,9 +123,8 @@ def parte(n):
         comp = json.load(open('/tmp/w/work/compiti.json'))['compiti']
         dq = [c['testo'] for c in comp]; pg = f'{O}/compiti.png'; covers.compiti_png(dq, 62).save(pg)
         # scheda compiti: 60 s con scorrimento lento (non resta mai ferma: le domande si accendono una alla volta)
-        p = f'{O}/CMP.mkv'
-        if not os.path.exists(p): compiti_pezzo(p, dq)
-        aggiungi(L_, 'CMP', p)
+        cv = json.load(open('/tmp/w/work/compiti_voce.json'))
+        p, r = pz('CMP', kore.compiti_scheda, dq, 'COMPITI', cv['COMPITI'], [cv['parti'][str(i)] for i in range(1, 5)], 62); aggiungi(L_, 'CMP', p, voce_reale('COMPITI'))
     return L_
 def voce_reale(nome): return os.path.exists(kore.VOX + nome + '.wav')
 def spiegone_real(): return voce_reale('SPIEGONE_P2')

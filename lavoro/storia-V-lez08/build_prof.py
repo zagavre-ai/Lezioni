@@ -49,7 +49,7 @@ def alternative(si,ci):
 def img_pronta(nome):
     p=f'{CACHE}/img_{nome}.png'
     if not os.path.exists(p):
-        im=Image.open(f'{W}/pimg/{nome}').convert('RGB'); sc=max(1,min(1300/im.width,640/im.height))
+        im=Image.open(f'{W}/pimg/{nome}').convert('RGB'); sc=max(1,min(1300/im.width,600/im.height))
         im=im.resize((int(im.width*sc),int(im.height*sc)),Image.LANCZOS).filter(ImageFilter.UnsharpMask(radius=2,percent=90,threshold=2))
         im.save(p)
     return p
@@ -57,7 +57,7 @@ def render(si,top,win,attiva,pag,img=None):
     im=L.slide(TIT[si],f'{top:02d} · {NOMI[top]}',[cardtext(si,i) for i in win],(win.index(attiva) if attiva is not None else None),pag,KW[si],size=(48 if len(win)==1 else 40)) if img is None else None
     if img is not None:
         im=L.slide(TIT[si],f'{top:02d} · {NOMI[top]}',[],None,pag,KW[si])
-        pi=Image.open(img_pronta(img)); x=80+(1300-pi.width)//2; y=350+(625-pi.height)//2
+        pi=Image.open(img_pronta(img)); x=80+(1300-pi.width)//2; y=340+(610-pi.height)//2
         sh=Image.new('RGBA',im.size,(0,0,0,0)); ImageDraw.Draw(sh).rectangle((x,y+8,x+pi.width,y+pi.height+8),fill=(90,100,120,70)); sh=sh.filter(ImageFilter.GaussianBlur(14))
         im=Image.alpha_composite(im.convert('RGBA'),sh).convert('RGB'); im.paste(pi,(x,y))
     return im

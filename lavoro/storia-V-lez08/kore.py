@@ -5,6 +5,7 @@ import numpy as np
 from PIL import Image, ImageDraw, ImageFilter
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import lib_slide as L
+from cifre import cifre, sigle
 from profpiece import scrivi_wav, CACHE, W
 KIT = '/home/user/Lezioni/kit/suoni/'
 VOX = '/tmp/w/work/vox/'      # voci Kore (reali) ricevute dalla master
@@ -73,6 +74,16 @@ def cartella(testo, w, size=36, lh=1.45, attiva=False, fondo=None, col=None, num
     c = col or (BLU if attiva else (92, 102, 128))
     for i, r in enumerate(righe): d.text((pad + 58, pad + 18 + int(i * size * lh)), r, font=f, fill=c)
     return l, h
+def cartella_blu(testo, w, size=38, lh=1.4, attiva=False):
+    f = F('Figtree-Medium.ttf', size); d0 = ImageDraw.Draw(Image.new('RGB', (4, 4)))
+    righe = L.wrap(d0, testo, f, w - 90); h = int(len(righe) * size * lh) + 36; pad = 20
+    l = Image.new('RGBA', (w + 2 * pad, h + 2 * pad), (0, 0, 0, 0)); d = ImageDraw.Draw(l)
+    if attiva:
+        d.rounded_rectangle((pad, pad, pad + w, pad + h), 18, fill=(255, 251, 214), outline=GIA, width=6); d.ellipse((pad + 22, pad + 24, pad + 40, pad + 42), fill=GIA, outline=(200, 170, 0), width=2); col = BLU
+    else:
+        d.rounded_rectangle((pad, pad, pad + w, pad + h), 18, fill=(255, 255, 255, 30), outline=(150, 175, 225, 140), width=2); col = (225, 233, 250)
+    for i, r in enumerate(righe): d.text((pad + 62, pad + 16 + int(i * size * lh)), r, font=f, fill=col)
+    return l, h
 def base_bianca(kicker, titolo, pag, tsize=58):
     im = L.cornice(pag=pag, riquadro=False); d = ImageDraw.Draw(im)
     d.text((80, 144), kicker.upper(), font=F('Figtree-ExtraBold.ttf', 26), fill=TEL)
@@ -101,12 +112,13 @@ def scheda_titolo(out, n, titolo, kws, pag=None):
         return im
     return scrivi(out, dur, p, mix(dur, [(suono('titolo.wav'), 0, 1.0)]))
 def scheda_quiz(out, titolo, verifica=False):
-    dur = 4.6
+    dur = 4.3
     def p(t):
         im = blu(t).convert('RGBA'); d = ImageDraw.Draw(im); a = ease(t / .5)
         d.text((960, 340), 'VERIFICA FINALE' if verifica else 'QUIZ', font=F('BricolageGrotesque-ExtraBold.ttf', 120), fill=BIA, anchor='mm')
         d.text((960, 470), titolo, font=F('Figtree-Bold.ttf', 44), fill=GIA, anchor='mm')
         d.text((960, 600), ('Dieci domande · per continuare serve almeno l\'80%' if verifica else 'Cinque domande · per continuare serve almeno l\'80%'), font=F('Figtree-Medium.ttf', 40), fill=BIA, anchor='mm')
+        d.text((960, 690), 'Rispondi · premi Controlla · poi Continua', font=F('Figtree-Bold.ttf', 38), fill=GIA, anchor='mm')
         return im
     return scrivi(out, dur, p, mix(dur, [(suono('quiz.wav'), 0.5, 1.0)]))
 def scheda_compiti_intro(out):
@@ -201,16 +213,19 @@ def mappa(out, titolo, nodi, archi, voce_nome, testo_voce, ancore, tempi_stima=N
     if out: scrivi(out, dur, painter, aud)
     return dur, real
 # ---------------- approfondimento ----------------
-def approfondimento(out, nome, testo, pag, kicker='APPROFONDIMENTO'):
+def approfondimento(out, nome, testo, pag, kicker='APPROFONDIMENTO', immagine=None):
     v, real = voce(nome, testo); dv = len(v) / SW; dur = 1.2 + dv + 0.7
-    fr = [s.strip() for s in re.split(r'(?<=[.?!])\s+', testo) if s.strip()]
+    fr = [sigle(cifre(s.strip())) for s in re.split(r'(?<=[.?!])\s+', testo) if s.strip()]
     titolo = fr[0]; corpo = fr[1:]
     # tempi: proporzionali ai caratteri (voce provvisoria) — con voce reale si sostituiscono con le ancore trascritte
     tot = sum(len(s) for s in fr); t0 = 1.2; tf = []
     acc = 0
     for s in fr: tf.append(t0 + dv * acc / tot); acc += len(s)
-    wcol = 830; cards = []; y = [0, 0]
+    wcol = 780 if immagine else 830; cards = []; y = [0, 0]
     base, y0 = base_bianca(kicker, titolo, pag)
+    pim = None
+    if immagine:
+        pim = Image.open(immagine).convert('RGB'); sc = min(900 / pim.width, 640 / pim.height); pim = pim.resize((int(pim.width * sc), int(pim.height * sc)), Image.LANCZOS).convert('RGBA')
     lay = []
     for i, s in enumerate(corpo):
         col = i % 2; l, h = cartella(s, wcol, 38, 1.4)
@@ -218,7 +233,9 @@ def approfondimento(out, nome, testo, pag, kicker='APPROFONDIMENTO'):
     # posizionamento a due colonne
     pos = []; yc = [y0 + 10, y0 + 10]
     for i, (l, la, col, h) in enumerate(lay):
-        c = 0 if yc[0] <= yc[1] else 1; pos.append((80 - 30 + c * 870, yc[c])); yc[c] += h + 70 - 30
+        if immagine: pos.append((50, y0 + 10 + (i % 2) * 300))
+        else:
+            c = 0 if yc[0] <= yc[1] else 1; pos.append((80 - 30 + c * 870, yc[c])); yc[c] += h + 70 - 30
     def painter(t):
         im = base.copy(); d = ImageDraw.Draw(im)
         d.rounded_rectangle((80, 1060, 80 + (1760) * min(1, max(0, (t - 1.2) / dv)), 1066), 3, fill=GIA) if False else None
@@ -227,7 +244,9 @@ def approfondimento(out, nome, testo, pag, kicker='APPROFONDIMENTO'):
             if tf[i + 1] <= t: att = i
         for i, (l, la, col, h) in enumerate(lay):
             p = ease((t - tf[i + 1]) / 0.5)
+            if immagine and not (att - 1 <= i <= att): continue
             if p > 0: rise(im, la if i == att else l, pos[i][0], pos[i][1], p, 30)
+        if pim is not None: rise(im, pim, 960 + (880 - pim.width) // 2, y0 + 20, ease((t - tf[1]) / 0.8), 30)
         pr = min(1, max(0, (t - 1.2) / dv)); d = ImageDraw.Draw(im)
         d.rounded_rectangle((80, 960, 1840, 966), 3, fill=(226, 230, 238)); d.rounded_rectangle((80, 960, 80 + 1760 * pr, 966), 3, fill=GIA)
         return im
@@ -241,21 +260,21 @@ def pillola(out, n, titolo, pi_nome, pi_testo, righe_nomi, righe_testi, pag):
     t_intro = 0.6 + dvp + 1.0
     starts = []; t = t_intro + 0.8
     for v, r in vs: starts.append(t); t += len(v) / SW + 0.5
-    dur = t + 0.7
-    base, y0 = base_bianca('Ripasso', titolo, pag)
-    lays = []; y = y0 + 20
+    dur = t + 0.3
+    lays = []; y = 250
     pos = []
     for tx in righe_testi:
-        tx2 = re.sub(r'^(Primo|Secondo|Terzo|Quarto|Quinto|Sesto):\s*', '', tx); tx2 = tx2[0].upper() + tx2[1:]
-        l, h = cartella(tx2, 1700, 38, 1.4); la = cartella(tx2, 1700, 38, 1.4, attiva=True)[0]
-        lays.append((l, la)); pos.append((50, y)); y += h + 14
+        tx2 = re.sub(r'^(Primo|Secondo|Terzo|Quarto|Quinto|Sesto):\s*', '', tx); tx2 = tx2[0].upper() + tx2[1:]; tx2 = sigle(cifre(tx2))
+        l, h = cartella_blu(tx2, 1700, 38, 1.4); la = cartella_blu(tx2, 1700, 38, 1.4, attiva=True)[0]
+        lays.append((l, la)); pos.append((50, y)); y += h + 8
     def painter(t):
         if t < t_intro:
             im = blu(t).convert('RGBA'); d = ImageDraw.Draw(im)
             d.text((960, 430), 'RIPASSO', font=F('BricolageGrotesque-ExtraBold.ttf', 110), fill=BIA, anchor='mm')
             d.text((960, 570), titolo, font=F('Figtree-Bold.ttf', 46), fill=GIA, anchor='mm')
             return im
-        im = base.copy(); att = -1
+        im = blu(t).convert('RGBA'); dd = ImageDraw.Draw(im); att = -1
+        dd.text((80, 120), 'RIPASSO', font=F('Figtree-ExtraBold.ttf', 28), fill=GIA); dd.text((80, 160), titolo, font=F('BricolageGrotesque-ExtraBold.ttf', 52), fill=BIA)
         for i, s in enumerate(starts):
             if s <= t < s + len(vs[i][0]) / SW + 0.5: att = i
         for i, s in enumerate(starts):
@@ -290,13 +309,13 @@ def glossario(out, termini, voce_intro_testo, pag):
 # ---------------- riepilogo finale ----------------
 def riepilogo(out, voce_nome, voce_testo, items, pag, kicker='Ripasso finale'):
     v, real = voce(voce_nome, voce_testo); dv = len(v) / SW; dur = 1.2 + dv + 0.7
-    base, y0 = base_bianca(kicker, 'Riepilogo della lezione', pag)
-    lays = []; pos = []; y = y0 + 10
+    lays = []; pos = []; y = 260
     for i, (tx, anc) in enumerate(items):
-        l, h = cartella(tx, 1700, 36, 1.35); la = cartella(tx, 1700, 36, 1.35, attiva=True)[0]; lays.append((l, la)); pos.append((50, y)); y += h + 6
+        l, h = cartella_blu(tx, 1700, 36, 1.35); la = cartella_blu(tx, 1700, 36, 1.35, attiva=True)[0]; lays.append((l, la)); pos.append((50, y)); y += h + 4
     tf = [1.2 + a for tx, a in items]
     def painter(t):
-        im = base.copy(); att = -1
+        im = blu(t).convert('RGBA'); dd = ImageDraw.Draw(im); att = -1
+        dd.text((80, 120), kicker.upper(), font=F('Figtree-ExtraBold.ttf', 28), fill=GIA); dd.text((80, 160), 'Riepilogo della lezione', font=F('BricolageGrotesque-ExtraBold.ttf', 56), fill=BIA)
         for i in range(len(items)):
             if tf[i] <= t: att = i
         for i in range(len(items)):
@@ -314,4 +333,29 @@ def immagini_fisse(out, pngs, durs, voce_nome, voce_testo, titolo_fisso=None):
             if t < acc + d: return im
             acc += d
         return ims[-1]
+    scrivi(out, dur, painter, mix(dur, [(suono('trans.wav'), 0, .5), (v, 1.2, 1.0)])); return dur, real
+
+def compiti_scheda(out, domande, voce_nome, voce_testo, parti, pag):
+    """compiti del docente letti dalla voce Kore: compaiono uno alla volta con il bordo giallo; riga finale a voce e sullo schermo"""
+    v, real = voce(voce_nome, voce_testo); dv = len(v) / SW; dur = 1.2 + dv + 1.2
+    fine = 'Svolgi i compiti qui sotto e premi Consegna: arrivano al docente nel tuo quaderno dei compiti.'
+    tot = sum(len(p) for p in parti) + len(fine); acc = 0; tf = []
+    for p in parti + [fine]: tf.append(1.2 + dv * acc / tot); acc += len(p)
+    lays = []; pos = []; y = 250
+    for i, q in enumerate(domande):
+        txt = sigle(cifre(q)) if False else q
+        txt = txt.replace('MVSN', 'MVSN (Milizia volontaria per la sicurezza nazionale)')
+        l, h = cartella_blu(f'{i + 1}. ' + txt, 1740, 34, 1.3); la = cartella_blu(f'{i + 1}. ' + txt, 1740, 34, 1.3, attiva=True)[0]
+        lays.append((l, la)); pos.append((40, y)); y += h + 2
+    lf, hf = cartella_blu(fine, 1740, 34, 1.3); lfa = cartella_blu(fine, 1740, 34, 1.3, attiva=True)[0]
+    def painter(t):
+        im = blu(t).convert('RGBA'); dd = ImageDraw.Draw(im)
+        dd.text((80, 120), 'COMPITI', font=F('Figtree-ExtraBold.ttf', 28), fill=GIA); dd.text((80, 160), 'Rispondi con parole tue', font=F('BricolageGrotesque-ExtraBold.ttf', 56), fill=BIA)
+        att = max([i for i in range(len(tf)) if tf[i] <= t] or [-1])
+        for i in range(len(domande)):
+            p = ease((t - tf[i] + 0.2) / 0.5)
+            if p > 0: rise(im, lays[i][1 if att == i else 0], pos[i][0], pos[i][1], p, 25)
+        p = ease((t - tf[-1] + 0.2) / 0.5)
+        if p > 0: rise(im, lfa if att == len(domande) else lf, 40, 960 - hf, p, 25)
+        return im
     scrivi(out, dur, painter, mix(dur, [(suono('trans.wav'), 0, .5), (v, 1.2, 1.0)])); return dur, real

@@ -9,7 +9,7 @@ TITOLO = 'Il dopoguerra italiano (1919-1925) e il fascismo'
 ARG = ['Il contesto del dopoguerra e il Biennio rosso', 'Vittoria mutilata, Fiume e le elezioni del 1919', 'La nascita del fascismo e lo squadrismo',
        'Il ritorno di Giolitti e le elezioni del 1921', 'La Marcia su Roma e la conquista del potere', 'Il primo governo fascista e la svolta autoritaria',
        'Il delitto Matteotti e il passaggio alla dittatura']
-def cover(riquadro, pag=1, n_arg=7, parte=1):
+def cover(riquadro, pag=1, n_arg=7, parte=1, hl=None):
     im = L.cornice(pag=pag, riquadro=riquadro); d = ImageDraw.Draw(im)
     d.text((80, 168), 'STORIA · VIDEOLEZIONE', font=F('Figtree-ExtraBold.ttf', 30), fill=TEL)
     ft = F('BricolageGrotesque-ExtraBold.ttf', 78); righe = L.wrap(d, TITOLO, ft, 1300); y = 215
@@ -21,6 +21,7 @@ def cover(riquadro, pag=1, n_arg=7, parte=1):
     d.text((115, y + 22), 'ARGOMENTI', font=F('Figtree-ExtraBold.ttf', 26), fill=TEL)
     for i, a in enumerate(ARG[:n_arg]):
         yy = y + 70 + 48 * i
+        if hl is not None and i == hl: d.rounded_rectangle((100, yy - 4, 1360, yy + 44), 10, fill=(255, 241, 150))
         d.ellipse((118, yy + 10, 134, yy + 26), fill=TEL); d.text((152, yy), a, font=F('Figtree-Medium.ttf', 32), fill=BLU)
     return im.convert('RGB')
 def argomenti(pag=2):

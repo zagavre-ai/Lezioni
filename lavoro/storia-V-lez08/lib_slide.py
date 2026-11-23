@@ -71,9 +71,13 @@ def slide(titolo, kicker, cards, attiva, pag, parole=None, riquadro=True, size=4
     if y > 975: raise SystemExit(f'slide troppo piena: y={y} {titolo}')
     if parole:
         d = ImageDraw.Draw(im); d.text((1428, 620), 'PAROLE CHIAVE', font=font('Figtree-ExtraBold.ttf', 24), fill=TEL)
-        yy = 664
+        yy = 660; fp = font('Figtree-Bold.ttf', 26)
         for p in parole[:5]:
-            d.rounded_rectangle((1428, yy, 1840, yy + 48), 10, fill=(255, 247, 150)); d.text((1446, yy + 8), p, font=font('Figtree-Bold.ttf', 28), fill=BLU); yy += 60
+            righe = wrap(d, p, fp, 412 - 36); h = 20 + 32 * len(righe)
+            if yy + h > 965: break
+            d.rounded_rectangle((1428, yy, 1840, yy + h), 10, fill=(255, 247, 150))
+            for k, r in enumerate(righe): d.text((1446, yy + 10 + 32 * k), r, font=fp, fill=BLU)
+            yy += h + 10
     return im.convert('RGB')
 if __name__ == '__main__':
     t = ['Un Paese impoverito dal conflitto: al termine della Grande Guerra, l\'Italia si ritrova in una profonda crisi economica, caratterizzata da un altissimo deficit pubblico e da una violenta inflazione che dimezza il potere d\'acquisto dei salari.',
