@@ -39,7 +39,8 @@ def page_html(num,key,mappe=False):
             l,_,r=s.partition(':');terms.append(dict(l=l.strip(),t=screen(r.strip())))
         return wslide('Glossario','Le parole chiave della lezione',terms[key[1]*3:key[1]*3+3],None,num)
     if t=='co':
-        C=[dict(t=c) for c in COMPITI];return wslide('Compiti del prof','Compiti',C[key[1]*2:key[1]*2+2],None,num,extra_css=".card{line-height:56px}")
+        from nuove_voci import C as CC,CHIUSA
+        C=[dict(t=c) for c in CC]+[dict(t=CHIUSA)];return wslide('Compiti','Compiti',C[key[1]*2:key[1]*2+2],None,num,extra_css=".card{line-height:56px}")
     raise KeyError(key)
 if __name__=='__main__':
     jobs=[];pages=[]

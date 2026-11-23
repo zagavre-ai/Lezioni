@@ -131,17 +131,21 @@ def p_compiti():
     vn='COMPI';txt=TEXTS[vn];w,vd,prov=prepare(vn,txt)
     st=[(0,png(blu_text('E ORA TOCCA A TE','Compiti'),'comp',True))];flush()
     o,d=blue_piece('COMPI',st,3.5,[(0.0,SND+'titolo.wav')],[(0.5,w)],key_voice(vn));reg('COMPI',o,d,prov);vc_one('COMPI',0.5,vd,txt)
-    cs=json.load(open(W+'/compiti.json'))['compiti'] if os.path.exists(W+'/compiti.json') else None
-    C=[dict(t=c) for c in COMPITI]
-    ws=[];t=LEAD;states=[];aud=[];pa=False;ks=[];vco=[]
+    from nuove_voci import C as CC,CHIUSA
+    vn='COMPITI_R2';txt=TEXTS[vn];S_=sentences(txt);w,vd,prov=prepare(vn,txt);st_,vd,prov=starts(vn,txt,S_)
+    assert len(S_)==9,len(S_)
     css=".card{line-height:56px}"
-    for i in range(4):
-        vn=vname(f'CO{i+1}');txt=TEXTS[vn];w,vd,prov=prepare(vn,txt);pa|=prov;ks.append(vn)
-        wi=i//2;pg=numbering(('co',wi));shown=C[wi*2:i+1]
-        states.append((t,png(wslide('Compiti del prof','Compiti',shown,len(shown)-1,pg,extra_css=css),'co')));aud.append((t,w));vco.append((t,vd,txt));t+=vd+0.8
-    states=[(0,png(wslide('Compiti del prof','Compiti',[],None,numbering(('co',0))),'co'))]+states
-    white_piece('CO',states,aud,t+TAIL,key_voice(*ks),pa)
-    for tt_,vd_,tx_ in vco:vc_one('CO',tt_,vd_,tx_)
+    cards=[dict(t=c) for c in CC]+[dict(t=CHIUSA)]
+    pg0=numbering(('co',0));pg1=numbering(('co',1));pg2=numbering(('co',2))
+    wins=[(pg0,cards[0:2],0),(pg0,cards[0:2],1),(pg1,cards[2:4],0),(pg1,cards[2:4],1),(pg2,cards[4:5],0)]
+    states=[(0,png(wslide('Compiti','Compiti',[],None,pg0),'co'))]
+    for k,(pg,cs_,lit) in enumerate(wins):
+        si=[1,3,5,7,8][k]   # frase con cui il compito/riga comincia (la domanda)
+        states.append((LEAD+st_[si-1 if k<4 else 8],png(wslide('Compiti','Compiti',cs_,lit,pg,extra_css=css),'co')))
+    states=[states[0]]+[(t,p) for t,p in states[1:]]
+    D=LEAD+vd+TAIL
+    white_piece('CO',states,[(LEAD,w)],D,key_voice(vn),prov)
+    vc_sent('CO',LEAD,S_,st_,vd)
 COMPITI=["Quali fattori economici favorirono l'età del benessere nei paesi occidentali durante gli anni Sessanta e quali furono le principali trasformazioni sociali e demografiche che ne derivarono?",
 "Quali furono gli obiettivi principali del programma della «Nuova Frontiera» di John F. Kennedy e quali leggi fondamentali vennero approvate durante la presidenza di Lyndon Johnson per tutelare i diritti civili della popolazione afroamericana?",
 "Quali furono i principali momenti di tensione della guerra fredda nel corso degli anni Sessanta e come si sviluppò il confronto tra Stati Uniti e Unione Sovietica nella corsa allo spazio?",

@@ -15,7 +15,8 @@ C=["Quali fattori economici favorirono l'età del benessere nei paesi occidental
 "Quali furono gli obiettivi principali del programma della «Nuova Frontiera» di John F. Kennedy e quali leggi fondamentali vennero approvate durante la presidenza di Lyndon Johnson per tutelare i diritti civili della popolazione afroamericana?",
 "Quali furono i principali momenti di tensione della guerra fredda nel corso degli anni Sessanta e come si sviluppò il confronto tra Stati Uniti e Unione Sovietica nella corsa allo spazio?",
 "Contro quali aspetti della società insorsero i movimenti di contestazione del Sessantotto, quali furono le principali rivendicazioni del movimento femminista e quale fu il bilancio storico di queste proteste?"]
-for i,c in enumerate(C,1):a(f"CO{i}",f"Compito {['uno','due','tre','quattro'][i-1]}. "+c)
+CHIUSA="Svolgi i compiti qui sotto e premi Consegna: arrivano al docente nel tuo quaderno dei compiti."
+a("COMPITI_R2"," ".join(f"Compito {['uno','due','tre','quattro'][i]}. {c}" for i,c in enumerate(C))+" "+CHIUSA)
 # rifacimenti per bordo non pulito (ultimi 50 ms >= 0,03 nel file grezzo): stesso testo, nome _R2
 RIF=['GL1','R2','R3','R5','P6','RV5_4']
 def rifacimenti(old):

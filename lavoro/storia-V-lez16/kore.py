@@ -15,7 +15,9 @@ def vname(base):
     """voci rifatte: se esiste la versione _R2 si usa quella; senza nome del prof: _R2 anche provvisoria; le altre l'originale"""
     if real(base+'_R2'):return base+'_R2'
     return base+'_R2' if base in REDONE else base
-def sentences(t):return [s.strip() for s in re.split(r'(?<=[.?!])\s+',t) if s.strip()]
+def sentences(t):
+    t=t.replace('F. K','F.§K')
+    return [s.strip().replace('§',' ') for s in re.split(r'(?<=[.?!])\s+',t) if s.strip()]
 def screen(t):return num_words(t)
 # ------------ composizione di un pezzo ------------
 def compose(nome,states,audios,D,prev_png,blue=False,sfx=None):

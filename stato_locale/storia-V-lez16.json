@@ -26,6 +26,10 @@
   {
    "quando": "22/11 21:55",
    "testo": "Voci: oltre alle 14 nuove ho aggiunto in testi_voci.json 6 rifacimenti con lo stesso testo, perche' il file grezzo ha l'ultimo 50 ms sopra 0,03 (voce forse troncata): GL1_R2, R2_R2, R3_R2, R5_R2, P6_R2, RV5_4_R2. MD3_R2: testo cambiato in 'L'Egitto' (prima 'Lo Egitto'). Quando arrivano le voci (da domattina) le monto e consegno entro le 10:00 UTC. Il montaggio completo con voci provvisorie e' gia' fatto: 59:21, quiz OK, nessun fermo, schermate mai identiche oltre 3 min."
+  },
+  {
+   "quando": "23/11 08:21",
+   "testo": "Lez16, urgente: sono le 08:25 UTC e la consegna e' alle 10:00 UTC; le mie voci non ci sono ancora su voci-storia-V-lez16/vox. Servono (tutte nuove): BENV1_R2, DCP1, AP1_R2, AP2A, AP3A, AP5A, MD1_R2, MD2_R2, MD3_R2, VER1, GL1_R2, R2_R2, R3_R2, R5_R2, P6_R2, RV5_4_R2, e COMPITI_R2 (la voce unica dei compiti secondo la regola 22/11: ho tolto CO1-CO4; il nome e' COMPITI_R2 perche' COMPITI.wav esiste gia' ed e' l'intro di 3 s). Se non possono arrivare tutte entro le 09:00 UTC, dimmi quali hanno la precedenza: monto subito le altre con le voci gia' presenti."
   }
  ],
  "domande_sara": [],
@@ -77,7 +81,11 @@
   {
    "quando": "23/11 06:13",
    "testo": "23/11 06:20 UTC: montaggio pronto con voci provvisorie (59:21); applicate le richieste master del 22/11 21:14 (ripassi blu a tutto schermo, suono sulle mappe, compiti letti). Ferma in attesa delle voci (promemoria 08:20 UTC), poi codifica finale, controllo rapido e consegna entro le 10:00 UTC"
+  },
+  {
+   "quando": "23/11 08:21",
+   "testo": "voci attese; COMPITI_R2 unica"
   }
  ],
- "aggiornato": "2026-11-23 06:13:29"
+ "aggiornato": "2026-11-23 08:21:52"
 }
