@@ -19,7 +19,7 @@ ARG = {
  5: dict(titolo="Le riforme sociali e scolastiche", a=330, b=401, kw=["riposo settimanale", "Istituto Nazionale Assicurazioni", "legge Orlando", "legge Daneo-Credaro"]),
  6: dict(titolo="Il suffragio universale maschile e il Patto Gentiloni", a=402, b=481, kw=["suffragio universale maschile", "indennità parlamentare", "Patto Gentiloni", "divorzio"]),
  7: dict(titolo="Le riforme mancate: le donne in lotta", a=482, b=499, kw=["Anna Kuliscioff", "Lucciola", "delitto d'onore", "ospedali psichiatrici"]),
- 8: dict(titolo="Il decollo industriale italiano", a=500, b=564, kw=["protezionismo", "banca mista", "Ansaldo", "Fiat", "Montecatini"]),
+ 8: dict(titolo="Il decollo industriale italiano", a=500, b=564, kw=["protezionismo", "banca mista", "Ansaldo", "Fiat, automobili di Torino", "Montecatini"]),
  9: dict(titolo="Il divario Nord-Sud e l'emigrazione", a=565, b=615, kw=["triangolo industriale", "Mezzogiorno", "Salvemini", "9 milioni di emigrati"]),
  10: dict(titolo="La politica coloniale e la guerra in Libia", a=616, b=669, kw=["Libia", "Pascoli", "Tripolitania e Cirenaica", "trattato di Losanna", "Dodecaneso"]),
  11: dict(titolo="La caduta di Giolitti e la «settimana rossa»", a=670, b=726, kw=["Mussolini", "Salandra", "Patto Gentiloni", "settimana rossa", "Ancona"]),
@@ -106,6 +106,8 @@ def digits(text):
     for a, b in [("Umberto Primo", "Umberto I"), ("Vittorio Emanuele Terzo", "Vittorio Emanuele III"), ("Pio Decimo", "Pio X"), ("Pio Nono", "Pio IX"),
                  ("Leone Tredicesimo", "Leone XIII"), ("Giovanni Primo", "Giovanni I")]:
         t = t.replace(a, b)
+    for a, b in [(r'\bPSI\b(?! \()', 'PSI, cioè Partito Socialista Italiano,'), (r'\bINA\b(?! \()', 'INA, cioè Istituto Nazionale Assicurazioni,'), (r'\bFiat\b(?! \()', 'Fiat, cioè Fabbrica Italiana Automobili Torino,')]:
+        t = re.sub(a, b, t, count=1)
     return t
 if __name__ == '__main__':
     for x in ["milleottocentottantasette", "millenovecentododici", "trent'anni", "ventuno", "nove milioni", "dodici", "ottanta", "millenovecento", "millenovecentotre", "ventotto", "novantasei", "Primo"]:

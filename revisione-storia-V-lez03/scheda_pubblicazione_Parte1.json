@@ -1,37 +1,37 @@
 {
  "materia": "Storia V",
- "titolo": "Storia V · Lezione 3 · L'Italia di Giolitti · Parte 1",
- "durata_s": 3103.13,
+ "titolo": "Storia V · L'Italia di Giolitti · Parte 1",
+ "durata_s": 3115.03,
  "argomenti": [
   {
    "n": 1,
    "titolo": "Crisi di fine secolo e svolta liberale",
-   "inizio_s": 194.5,
-   "quiz_s": 1350.467
+   "inizio_s": 199.633,
+   "quiz_s": 1355.6
   },
   {
    "n": 2,
    "titolo": "La nuova linea politica di Giolitti",
-   "inizio_s": 1354.967,
-   "quiz_s": 1759.2
+   "inizio_s": 1360.1,
+   "quiz_s": 1771.1
   },
   {
    "n": 3,
    "titolo": "I socialisti e lo sciopero del 1904",
-   "inizio_s": 1763.7,
-   "quiz_s": 2138.067
+   "inizio_s": 1775.6,
+   "quiz_s": 2149.967
   },
   {
    "n": 4,
    "titolo": "I cattolici e il trasformismo",
-   "inizio_s": 2142.567,
-   "quiz_s": 2467.733
+   "inizio_s": 2154.467,
+   "quiz_s": 2479.633
   },
   {
    "n": 5,
    "titolo": "Le riforme sociali e scolastiche",
-   "inizio_s": 2472.233,
-   "quiz_s": 2995.1
+   "inizio_s": 2484.133,
+   "quiz_s": 3007.0
   }
  ],
  "quiz": {

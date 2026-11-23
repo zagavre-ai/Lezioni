@@ -35,6 +35,23 @@ if which in ('1', '2'):
             arr = shot(image_slide_html(pg['label'], esc(ttl), p_, cap, pg['page'], pg['kw'], cam=False))
             tx = [pg['label'], ttl, re.sub('<[^>]+>', ' ', cap)]
         add_page(c, arr, tx)
+        # dopo l'ultima pagina di un argomento: schema di ripasso
+        last = [q for q in pages if q['arg'] == pg['arg']][-1]
+        if pg is last:
+            a = pg['arg']; ln = []; k = 1
+            while f'PS{a}_{k}' in TESTI: ln.append(D.digits(TESTI[f'PS{a}_{k}'])); k += 1
+            for i in range(0, len(ln), 4):
+                part = ln[i:i + 4]
+                add_page(c, shot(frame_wide('RIPASSO', D.ARG[a]['titolo'], part, None)), ['RIPASSO', D.ARG[a]['titolo']] + part)
+    nm = ('GL1', 'RF1') if which == '1' else ('GL2', 'RF2')
+    for v, lab, ttl in ((nm[0], 'GLOSSARIO', 'Le parole chiave'), (nm[1], 'RIPASSO FINALE', 'Ripasso finale')):
+        ss = splitsent(TESTI[v])[1:]
+        for i in range(0, len(ss), 3):
+            add_page(c, shot(frame_wide(lab, ttl, ss[i:i + 3], None)), [lab, ttl] + ss[i:i + 3])
+    if which == '2':
+        ex = [f"Compito {i + 1}: " + e['testo'] for i, e in enumerate(COMPITI['esercizi'])]
+        for i in range(0, len(ex), 2):
+            add_page(c, shot(frame_wide('COMPITI', 'Compiti del professore', ex[i:i + 2], None)), ['COMPITI'] + ex[i:i + 2])
     c.save(); print('dispensa', len(pages) + 1, 'pagine')
 else:   # PDF delle mappe: copertina + MAPPE
     c = canvas.Canvas(sys.argv[2], pagesize=(PW, PH)); c.setTitle("Storia V · L'Italia di Giolitti · Mappe"); c.setAuthor('Centro Studi Telesio')

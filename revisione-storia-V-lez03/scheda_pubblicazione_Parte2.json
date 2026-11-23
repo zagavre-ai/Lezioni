@@ -1,43 +1,43 @@
 {
  "materia": "Storia V",
- "titolo": "Storia V · Lezione 3 · L'Italia di Giolitti · Parte 2",
- "durata_s": 3188.67,
+ "titolo": "Storia V · L'Italia di Giolitti · Parte 2",
+ "durata_s": 3211.4,
  "argomenti": [
   {
    "n": 6,
    "titolo": "Suffragio universale e Patto Gentiloni",
-   "inizio_s": 156.9,
-   "quiz_s": 750.633
+   "inizio_s": 161.467,
+   "quiz_s": 755.2
   },
   {
    "n": 7,
    "titolo": "Le riforme mancate: le donne in lotta",
-   "inizio_s": 755.133,
-   "quiz_s": 999.4
+   "inizio_s": 759.7,
+   "quiz_s": 1003.967
   },
   {
    "n": 8,
    "titolo": "Il decollo industriale italiano",
-   "inizio_s": 1003.9,
-   "quiz_s": 1546.833
+   "inizio_s": 1008.467,
+   "quiz_s": 1551.4
   },
   {
    "n": 9,
    "titolo": "Il divario Nord-Sud e l'emigrazione",
-   "inizio_s": 1551.333,
-   "quiz_s": 2046.633
+   "inizio_s": 1555.9,
+   "quiz_s": 2056.0
   },
   {
    "n": 10,
    "titolo": "Politica coloniale e guerra in Libia",
-   "inizio_s": 2051.133,
-   "quiz_s": 2562.533
+   "inizio_s": 2060.5,
+   "quiz_s": 2571.9
   },
   {
    "n": 11,
    "titolo": "Caduta di Giolitti e settimana rossa",
-   "inizio_s": 2567.033,
-   "quiz_s": 3023.5
+   "inizio_s": 2576.4,
+   "quiz_s": 3040.0
   }
  ],
  "quiz": {

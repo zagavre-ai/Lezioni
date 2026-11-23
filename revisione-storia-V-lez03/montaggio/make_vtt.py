@@ -2,7 +2,7 @@ import sys, json, re
 part = sys.argv[1]; out = sys.argv[2]
 subs = json.load(open(f'/home/user/w3/subs_Parte{part}.json'))
 FILL = re.compile(r'^(um+|uh+|hm+|hola\.?|and|in debt\.?|it\'s|the|they|i said it\'s meant\.?|solo que\.\.\.|s come|ecco\.?|d\'accordo\??)$', re.I)
-CORR = [(r'\bGi[eo]l[ie]tt?i\b|\bGioli?te\b|\bGioletti\b|\bGielitti\b|\bGioritti\b|\bGiuriti\b|\bGiuniti\b|\bGiolite\b|\bCiolitti\b|\bGioliti\b|\bgiolitti\b|\bGiorgi ti\b', 'Giolitti'),
+CORR = [(r'\bDoga\b', 'Dogali'), (r'\bGioetti\b', 'Giolitti'), (r'\bPretto subito\b', 'Premetto subito'), (r'\bFalc\b\.?', 'Falck'), (r'\bsalvemini lo che ho\b', 'Salvemini, lo ha'), (r'\bGi[eo]l[ie]tt?i\b|\bGioli?te\b|\bGioletti\b|\bGielitti\b|\bGioritti\b|\bGiuriti\b|\bGiuniti\b|\bGiolite\b|\bCiolitti\b|\bGioliti\b|\bgiolitti\b|\bGiorgi ti\b', 'Giolitti'),
         (r'\bCrispy\b', 'Crispi'), (r'\bBava Peccaris\b|\bBava Beccari\b|\bBeccaris\b', 'Bava Beccaris'), (r'\bBava Bava Beccaris\b', 'Bava Beccaris'),
         (r'\bGian?ardelli\b|\bZanardeli\b', 'Zanardelli'), (r'\bDi Rudini\b|\bDi Rudinì\b', 'Di Rudinì'), (r'\bPerlu\b|\bPellù\b|\bPelù\b|\bPerlù\b', 'Pelloux'),
         (r'\bKulisov\b', 'Kuliscioff'), (r'\bSalve Vini\b|\bGatano\b', 'Salvemini'), (r'\bAdu\b', 'Adua'), (r'\bOgali\b', 'Dogali'),

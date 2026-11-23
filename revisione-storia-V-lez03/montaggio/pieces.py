@@ -333,10 +333,12 @@ def seg_teacher(a, b, states_src, name, cam=True, nocam_until=None):
         k = int(round((rb - ra) * FPS)); seg = x[int(round(ra * SR)): int(round(ra * SR)) + k * SPF].copy()
         parts.append(seg)
     aud = np.concatenate(parts)
-    # muto i bordi fuori dal parlato
-    m0 = int(max(0, first - 0.03) * SR); aud[:m0] = 0
-    m1 = int((last + 0.04) * SR); aud[m1:] = 0
-    aud[m0:m0 + int(0.03 * SR)] *= np.linspace(0, 1, int(0.03 * SR), dtype=np.float32)[:len(aud[m0:m0 + int(0.03 * SR)])]
+    # muto solo i bordi lontani dal parlato (margini larghi per non toccare le parole)
+    m0 = int(max(0, first - min(0.18, ph - 0.03)) * SR); aud[:m0] = 0
+    m1 = int((last + min(0.30, pt - 0.02)) * SR); aud[m1:] = 0
+    nf = int(0.02 * SR)
+    if m0 + nf <= len(aud): aud[m0:m0 + nf] *= np.linspace(0, 1, nf, dtype=np.float32)
+    if m1 - nf >= 0 and m1 <= len(aud): aud[m1 - nf:m1] *= np.linspace(1, 0, nf, dtype=np.float32)
     sg = Seg(n, aud, frame, name=name, first_word=first, last_word=last, kind='prof')
     sg.pad_head = first; sg.pad_tail = n / FPS - last
     sg.src = (S[a]['inizio'], S[b]['fine']); sg.a = a; sg.b = b
@@ -477,7 +479,7 @@ def seg_map(m, part_label='MAPPA DEL PROFESSORE'):
         parts.append((t, x)); t += len(x) / SR + 0.7
     end_voice = t - 0.7
     states.append((end_voice + 0.4, shot(maps.map_html(M, len(M['nodes']), None))))
-    total = end_voice + 0.4 + 4.0 + 0.4
+    total = end_voice + 0.4 + 4.5 + 0.4
     n = dur_frames(total)
     # sottofondo leggerissimo durante la mappa intera ferma (niente silenzio oltre 2,5 s)
     hold = total - end_voice - 0.5; tt = np.arange(int(hold * SR)) / SR
@@ -542,6 +544,8 @@ def seg_compiti():
 
 # ---------------- spiegone ----------------
 def spiegone_html(title, img, sents, lit):
+    if img and 'map' in img:
+        return f'<!doctype html><html><head><meta charset="utf-8"><style>html,body{{margin:0;background:#fff}}</style></head><body><img src="{b64img(img)}" style="width:1920px;height:1080px"></body></html>'
     cards = ''
     for i, t in enumerate(sents):
         cls = 'card on' if i == lit else 'card'
