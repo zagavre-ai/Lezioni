@@ -85,7 +85,11 @@
   {
    "quando": "23/11 03:26",
    "testo": "03:30 UTC: Parte 1 (50,0 min, 378 MB) e Parte 2 (58,5 min, 371 MB) rifatte dopo il secondo controllo separato: controllo_severo OK su entrambe (prima della rifusione finale), -16,3/-16,4 LUFS. Terzo controllo in corso. Aspetto le voci Kore (dalle 9:00 italiane) per rimontare e consegnare."
+  },
+  {
+   "quando": "23/11 04:59",
+   "testo": "04:55 UTC: rifatte Parte 1 (50,1 min) e 2 (58,8 min) dopo il terzo controllo separato (card riallineate all'inizio della frase, sottotitoli corretti, sigle spiegate, foto del prof). Quarto controllo in corso. Voci nuove non ancora arrivate nel ramo voci."
   }
  ],
- "aggiornato": "2026-11-23 03:26:02"
+ "aggiornato": "2026-11-23 04:59:23"
 }
