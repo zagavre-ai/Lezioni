@@ -1,0 +1,96 @@
+{
+ "titolo": "Verifica finale · Il Neoclassicismo",
+ "soglia": 80,
+ "domande": [
+  {
+   "p": "Qual era lo scopo principale del \"Grand Tour\" intrapreso dai giovani aristocratici europei?",
+   "a": "Completare la propria educazione studiando l'antichità, l'arte e la storia in Italia",
+   "w": [
+    "Avviare nuove rotte commerciali e stipulare trattati diplomatici.",
+    "Sfidare i cartografi locali nella mappatura delle coste mediterranee.",
+    "Esportare le innovazioni della rivoluzione industriale nei paesi del sud."
+   ]
+  },
+  {
+   "p": "Quale città italiana era considerata il centro di irraggiamento principale del Neoclassicismo?",
+   "a": "Roma",
+   "w": [
+    "Milano",
+    "Venezia",
+    "Firenze"
+   ]
+  },
+  {
+   "p": "Quale istituzione pubblica nacque a Parigi nel 1793 per rendere le collezioni d'arte accessibili a tutti i cittadini?",
+   "a": "Il Museo del Louvre",
+   "w": [
+    "Il British Museum",
+    "Il Museo Centrale delle Arti della Repubblica",
+    "L'Accademia di Belle Arti"
+   ]
+  },
+  {
+   "p": "Chi è l'autore delle celebri incisioni intitolate \"Vedute fantastiche di Roma\" e delle scenografie visionarie delle \"Prigioni\"?",
+   "a": "Giovanni Battista Piranesi",
+   "w": [
+    "Robert Hubert",
+    "Jacques-Louis David",
+    "Giuseppe Piermarini"
+   ]
+  },
+  {
+   "p": "Quale importante edificio parigino, progettato da Jacques-Germain Soufflot, nacque come cantiere-laboratorio sotto Luigi XV ed è noto per la sua maestosa cupola?",
+   "a": "La Chiesa di Sainte-Geneviève (Panthéon)",
+   "w": [
+    "Il Palazzo dell'Assemblea Nazionale",
+    "La Scuola Nazionale di Ponti e Strade",
+    "L'Hôtel des Invalides"
+   ]
+  },
+  {
+   "p": "Chi ha progettato il Teatro alla Scala di Milano, inaugurato nel 1778, unendo funzionalità e sobria eleganza?",
+   "a": "Giuseppe Piermarini",
+   "w": [
+    "Andrea Palladio",
+    "Étienne-Louis Boullée",
+    "Robert Adam"
+   ]
+  },
+  {
+   "p": "Secondo il teorico Johann Joachim Winckelmann, quale caratteristica fondamentale doveva possedere la vera opera d'arte?",
+   "a": "Nobile semplicità e quieta grandezza",
+   "w": [
+    "Spontaneità emotiva e contrasti cromatici violenti.",
+    "Decorazione bizzarra e asimmetria delle forme.",
+    "Fedele riproduzione scientifica della realtà quotidiana."
+   ]
+  },
+  {
+   "p": "Quale espediente tecnico-strutturale ha ideato Antonio Canova per la scultura di Paolina Borghese come Venere Vincitrice?",
+   "a": "Un meccanismo all'interno del basamento che permetteva alla statua di ruotare",
+   "w": [
+    "Un nucleo in ferro per alleggerire il peso del marmo di Carrara",
+    "Un'applicazione di cera colorata per rendere la pelle identica al vero",
+    "Un sistema di specchi integrato nella stanza per raddoppiare i punti di vista"
+   ]
+  },
+  {
+   "p": "Quale dipinto di Jacques-Louis David è considerato l'opera simbolo del Neoclassicismo per i suoi valori di virtù civica e fedeltà alla patria?",
+   "a": "Il giuramento degli Orazi",
+   "w": [
+    "Il giuramento della Pallacorda",
+    "La Morte di Marat",
+    "Bonaparte valica il Gran San Bernardo"
+   ]
+  },
+  {
+   "p": "In quale celebre opera di Jean-Auguste-Dominique Ingres emerge il fascino per l'Oriente ottomano, pur mantenendo una rigorosa linea neoclassica?",
+   "a": "La grande odalisca",
+   "w": [
+    "Il sogno di Ossian",
+    "Giove e Teti",
+    "La Fornarina"
+   ]
+  }
+ ]
+}

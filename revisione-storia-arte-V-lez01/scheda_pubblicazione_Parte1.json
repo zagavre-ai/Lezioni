@@ -1,25 +1,25 @@
 {
  "materia": "Storia dell'Arte V",
- "titolo": "Il Neoclassicismo · Parte 1",
- "durata_s": 2355.6,
+ "titolo": "Storia dell'arte V · Lezione 1 · Il Neoclassicismo · Parte 1",
+ "durata_s": 2412.3,
  "argomenti": [
   {
    "n": 1,
    "titolo": "Le origini: Grand Tour, musei e moda",
-   "inizio_s": 355.267,
-   "quiz_s": 1172.033
+   "inizio_s": 194.4,
+   "quiz_s": 1199.833
   },
   {
    "n": 2,
    "titolo": "Architettura: Piranesi e i visionari francesi",
-   "inizio_s": 1177.033,
-   "quiz_s": 1698.0
+   "inizio_s": 1204.833,
+   "quiz_s": 1730.633
   },
   {
    "n": 3,
    "titolo": "L'architettura in Italia e in Europa",
-   "inizio_s": 1703.0,
-   "quiz_s": 2350.567
+   "inizio_s": 1735.633,
+   "quiz_s": 2407.3
   }
  ],
  "quiz": {
