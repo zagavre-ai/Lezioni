@@ -4,11 +4,11 @@ Una sola Parte, sul video originale del prof (2540,2 s). Ogni affermazione è ma
 
 ## 1 · Misure sul video finale
 ```
-durata 61:38.6 (3698.6 s) | fotogrammi 110958 (attesi 110958) OK | peso 331.3 MB (316.0 MiB) OK | 1920x1080 OK
+durata 62:03.1 (3723.1 s) | fotogrammi 111694 (attesi 111694) OK | peso 331.6 MB (316.3 MiB) OK | 1920x1080 OK
 quiz 10 scatto 0,0 s: OK
 fermi immagine nei pezzi del docente: nessuno OK
 volume del parlato (mediana dei pezzi del docente): -15.2 LUFS OK
-sottotitoli: 862 blocchi, sovrapposti 0, oltre la fine 0, attacco sulla voce entro 0,3 s: 100% di 10 verificabili OK
+sottotitoli: 861 blocchi, sovrapposti 0, oltre la fine 0, attacco sulla voce entro 0,3 s: 100% di 15 verificabili OK
 foglio di miniature: Storia_Lez15_Parte1_1080p.mp4.miniature.jpg
 ESITO: TUTTO OK
 
@@ -19,50 +19,50 @@ ESITO: TUTTO OK
 | Pezzo | Fine (min) | Ultime parole | Frase finita |
 |---|---|---|---|
 | intro | 2:12.6 | loro. Per le loro. Per il loro smantellamento. | sì |
-| prof1_1 | 6:00.3 | Gli Stati Uniti, idem, in funzione però anti-imperiale. | sì |
-| prof1_2 | 8:29.2 | francese e britannica su questo no? | sì |
-| prof2_1 | 12:22.4 | di essere colonizzate e neanche farlo apposta, indirettamente. | sì |
-| prof2_2 | 13:08.3 | indipendente rispetto ai due blocchi | sì (verificato a mano: la frase è conclusa) |
-| prof3_1 | 16:40.2 | forzate di milioni di persone e violenti scontri. | sì |
-| prof3_2 | 18:06.7 | che nascono dopo essere stati colonie. | sì |
-| prof4_1 | 20:30.9 | pacifico, d'accordo? C'è una vera e propria tensione. | sì |
-| prof4_2 | 23:26.0 | Va bene. | sì |
-| prof5_1 | 25:48.8 | dalla Tunisia, e qui la Francia dovette cedere. | sì |
-| prof5_2 | 27:25.3 | che non voleva garantire questa situazione. | sì |
-| prof5_3 | 29:12.6 | ancora, parleremo ancora di Get Davi. Teniamolo presente. | sì |
-| prof6_1 | 31:25.6 | Congo, Belga, poi Zaire, diversi nomi sono cambiati. | sì |
-| prof6_2 | 32:58.2 | quindi insomma lì ci sarà poi un'ulteriore tensione. | sì |
-| prof7_1 | 36:54.9 | fine il Sudafrica ottenne l'indipendenza dalla partite, d'accordo? | sì |
-| prof7_2 | 38:42.5 | era impero coloniale francese, insieme poi al Madagascar. | sì |
-| prof7_3 | 40:47.1 | separazione e c'è anche una guerra civile, d'accordo? | sì |
-| prof7_4 | 42:12.3 | l'impero coloniale portoghese. Angola e Mozambico ottennero l'indipendenza. | sì |
-| prof8_1 | 45:26.3 | tener conto di queste decisioni dei piani alti. | sì |
-| prof8_2 | 47:58.7 | e al problema dei profughi palestinesi. | sì |
-| prof9_1 | 51:21.5 | Comunque. | sì |
-| prof9_2 | 53:13.1 | e provocherà appunto la guerra per questo motivo. | sì |
-| prof10_1 | 55:28.3 | esistenti, insomma, diedero vita al fenomeno del neocolonialismo. | sì |
-| prof10_2 | 57:07.8 | il controllo mondiale | sì (verificato a mano: la frase è conclusa) |
+| prof1_1 | 6:03.0 | Gli Stati Uniti, idem, in funzione però anti-imperiale. | sì |
+| prof1_2 | 8:31.9 | francese e britannica su questo no? | sì |
+| prof2_1 | 12:25.1 | di essere colonizzate e neanche farlo apposta, indirettamente. | sì |
+| prof2_2 | 13:11.0 | indipendente rispetto ai due blocchi | sì (verificato a mano: la frase è conclusa) |
+| prof3_1 | 16:42.9 | forzate di milioni di persone e violenti scontri. | sì |
+| prof3_2 | 18:12.3 | che nascono dopo essere stati colonie. | sì |
+| prof4_1 | 20:37.9 | pacifico, d'accordo? C'è una vera e propria tensione. | sì |
+| prof4_2 | 23:36.7 | Va bene. | sì |
+| prof5_1 | 26:02.8 | dalla Tunisia, e qui la Francia dovette cedere. | sì |
+| prof5_2 | 27:43.4 | che non voleva garantire questa situazione. | sì |
+| prof5_3 | 29:30.7 | ancora, parleremo ancora di Get Davi. Teniamolo presente. | sì |
+| prof6_1 | 31:43.7 | Congo, Belga, poi Zaire, diversi nomi sono cambiati. | sì |
+| prof6_2 | 33:16.3 | quindi insomma lì ci sarà poi un'ulteriore tensione. | sì |
+| prof7_1 | 37:15.5 | fine il Sudafrica ottenne l'indipendenza dalla partite, d'accordo? | sì |
+| prof7_2 | 39:03.1 | era impero coloniale francese, insieme poi al Madagascar. | sì |
+| prof7_3 | 41:07.7 | separazione e c'è anche una guerra civile, d'accordo? | sì |
+| prof7_4 | 42:32.8 | l'impero coloniale portoghese. Angola e Mozambico ottennero l'indipendenza. | sì |
+| prof8_1 | 45:52.2 | tener conto di queste decisioni dei piani alti. | sì |
+| prof8_2 | 48:31.3 | e al problema dei profughi palestinesi. | sì |
+| prof9_1 | 51:59.1 | Comunque. | sì |
+| prof9_2 | 53:50.7 | e provocherà appunto la guerra per questo motivo. | sì |
+| prof10_1 | 56:05.9 | esistenti, insomma, diedero vita al fenomeno del neocolonialismo. | sì |
+| prof10_2 | 57:45.4 | il controllo mondiale | sì (verificato a mano: la frase è conclusa) |
 
 ## 3 · Bordo giallo delle card: 10 punti contro la trascrizione
 
 | Argomento | Card accesa | Minuto nel video | Frase del prof a quel punto |
 |---|---|---|---|
-| 1 | 1 | 4:03.10 | Allora, le premesse. |
-| 1 | 3 | 4:39.30 | coloniale, no? |
-| 1 | 2 | 5:48.50 | agrari o anche industriali, in quelle zone, ma adesso queste zone si devono queste colonie |
-| 1 | 4 | 6:26.82 | Bene, quindi, insomma, tutto questo contribuisce sicuramente. Prima arrivare alla conferen |
-| 2 | 3 | 11:58.15 | Perciò la conferenza, insomma, condannò il colonialismo e l'imperialismo, in ogni sua form |
-| 2 | 2 | 12:42.11 | Da questo incontro nacque il movimento dei paesi non allineati, che cercava una terza via  |
-| 3 | 3 | 16:34.70 | o gli induisti, causando quindi migrazioni forzate di milioni di persone e violenti scontr |
-| 4 | 1 | 19:50.59 | Non è indolore, d'accordo? Non è indolore tutto questo. |
-| 6 | 3 | 30:18.58 | Molte colonie francesi e britanniche come il Ghana, che è britannico, nel 57 la Guinea, ne |
-| 8 | 4 | 46:28.95 | Questa risoluzione non è stata accettata, come vuol dire, non hanno tenuto conto delle ric |
+| 1 | 1 | 4:05.83 | Allora, le premesse. |
+| 1 | 3 | 4:42.03 | coloniale, no? |
+| 1 | 2 | 5:51.23 | agrari o anche industriali, in quelle zone, ma adesso queste zone si devono queste colonie |
+| 1 | 4 | 6:29.55 | Bene, quindi, insomma, tutto questo contribuisce sicuramente. Prima arrivare alla conferen |
+| 2 | 3 | 12:00.88 | Perciò la conferenza, insomma, condannò il colonialismo e l'imperialismo, in ogni sua form |
+| 2 | 2 | 12:44.85 | Da questo incontro nacque il movimento dei paesi non allineati, che cercava una terza via  |
+| 3 | 3 | 16:37.44 | o gli induisti, causando quindi migrazioni forzate di milioni di persone e violenti scontr |
+| 4 | 1 | 19:57.65 | Non è indolore, d'accordo? Non è indolore tutto questo. |
+| 6 | 3 | 30:36.72 | Molte colonie francesi e britanniche come il Ghana, che è britannico, nel 57 la Guinea, ne |
+| 8 | 4 | 47:01.52 | Questa risoluzione non è stata accettata, come vuol dire, non hanno tenuto conto delle ric |
 
 
-**Controllo severo della master (`controllo_severo.py`), esito: OK** [misurato]. Copertina con titolo intero; schermate identiche oltre 3 min: 0; slide con lo stesso titolo oltre 3 min: 0; card sole oltre 60 s: 0; pause oltre 2,5 s: 0; loudness -16.0 LUFS; tono della voce (6 campioni, Hz): [160, 148, 152, 148, 156, 148].
+**Controllo severo della master (`controllo_severo.py`), esito: OK** [misurato]. Copertina con titolo intero; schermate identiche oltre 3 min: 0; slide con lo stesso titolo oltre 3 min: 0; card sole oltre 60 s: 0; pause oltre 2,5 s: 0; loudness -16.0 LUFS; tono della voce (6 campioni, Hz): [164, 148, 148, 152, 156, 145].
 
 ## 4 · Voci Kore
-**ATTENZIONE: nel video ci sono ancora voci PROVVISORIE** (un tono al posto di BEN_R2 «benvenuto», DP «Di cosa parliamo» e CPT1-4 «compiti»), e per le 11 voci da rifare e le 5 con le sigle rispiegate sono usate quelle vecchie. La lezione NON è definitiva finché la master non manda le voci: le richieste sono nel ramo `voci-storia-V-lez15` (testi_voci.json: BEN_R2, DP, CPT1-CPT4, PI3_R2, SC6_1_R2, SC10_1_R2, GL1_R2, GL3_R2, GL4_R2, GL7_R2, AN5_R2, AN7_R2, AN8_R2, AN9_R2, SC7_2_R3, SC8_2_R3, SC10_4_R3, AN15_R3, AN20_R3). Appena arrivano si rifà il montaggio (un solo comando).
+Voci Kore **definitive** controllate (trascritte e confrontate, bordi misurati).
 - Controllo fatto sulle 115 voci esistenti (trascrizione e confronto parola per parola [misurato]): differenze solo di numeri scritti in cifre dall'ASR; voci da rifare perché sbagliate o con bordo finale ≥ 0,03: **GL1** (il file era il glossario intero di 33 s), **SC6_1, AN7, AN8, AN9** (troncate, ampiezza finale 0,10-0,23), PI3, SC10_1, GL3, GL4, GL7, AN5 (0,03-0,07). AN8 anche «DA CONTROLLARE» dalla master.
 - Ogni voce nel montaggio: silenzio di testa/coda tolto, dissolvenza 30 ms, −16 LUFS.
 - Pronuncia dei nomi stranieri (Dien Bien Phu, Vietminh, Nkrumah, Mau Mau, Ceylon…): non ascoltata [non verificato]; l'ASR legge «Dien Bien Phu» come «bian fu» in AN8.

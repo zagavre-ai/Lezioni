@@ -1,67 +1,67 @@
 {
  "materia": "Storia",
  "titolo": "Storia V · La decolonizzazione (1945-1975)",
- "durata_s": 3698.57,
+ "durata_s": 3723.1,
  "argomenti": [
   {
    "n": 1,
    "titolo": "Le premesse della decolonizzazione",
-   "inizio_s": 169.567,
-   "quiz_s": 574.2
+   "inizio_s": 172.3,
+   "quiz_s": 576.933
   },
   {
    "n": 2,
    "titolo": "Bandung e la Guerra fredda",
-   "inizio_s": 578.4,
-   "quiz_s": 848.433
+   "inizio_s": 581.133,
+   "quiz_s": 851.167
   },
   {
    "n": 3,
    "titolo": "India e Pakistan",
-   "inizio_s": 852.633,
-   "quiz_s": 1135.033
+   "inizio_s": 855.367,
+   "quiz_s": 1142.1
   },
   {
    "n": 4,
    "titolo": "Asia e Indocina",
-   "inizio_s": 1139.233,
-   "quiz_s": 1467.0
+   "inizio_s": 1146.3,
+   "quiz_s": 1481.033
   },
   {
    "n": 5,
    "titolo": "L'Africa del Nord",
-   "inizio_s": 1471.2,
-   "quiz_s": 1791.633
+   "inizio_s": 1485.233,
+   "quiz_s": 1809.767
   },
   {
    "n": 6,
    "titolo": "Africa subsahariana",
-   "inizio_s": 1795.833,
-   "quiz_s": 2047.0
+   "inizio_s": 1813.967,
+   "quiz_s": 2067.567
   },
   {
    "n": 7,
    "titolo": "Apartheid e Africa meridionale",
-   "inizio_s": 2051.2,
-   "quiz_s": 2569.867
+   "inizio_s": 2071.767,
+   "quiz_s": 2595.733
   },
   {
    "n": 8,
    "titolo": "Il Medio Oriente e Israele",
-   "inizio_s": 2574.067,
-   "quiz_s": 2942.367
+   "inizio_s": 2599.933,
+   "quiz_s": 2979.933
   },
   {
    "n": 9,
    "titolo": "Nasser e la crisi di Suez",
-   "inizio_s": 2946.567,
-   "quiz_s": 3250.333
+   "inizio_s": 2984.133,
+   "quiz_s": 3287.9
   },
   {
    "n": 10,
    "titolo": "Il neocolonialismo",
-   "inizio_s": 3254.533,
-   "quiz_s": 3492.567
+   "inizio_s": 3292.1,
+   "quiz_s": 3539.533
   }
  ],
  "quiz": {
@@ -616,6 +616,6 @@
    ]
   }
  },
- "t_verifica": 3609.6,
- "t_compiti": 3618.4
+ "t_verifica": 3635.23,
+ "t_compiti": 3644.03
 }
