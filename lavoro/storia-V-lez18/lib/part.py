@@ -111,10 +111,10 @@ class Part:
 
 SIGLE=[('DC','Democrazia Cristiana'),('PCI','Partito comunista italiano'),('PSI','Partito socialista italiano'),('MSI','Movimento sociale italiano'),('NATO',"Organizzazione del Trattato dell'Atlantico del Nord"),('URSS','Unione Sovietica'),('CECA',"Comunità europea del carbone e dell'acciaio"),('Ceca',"Comunità europea del carbone e dell'acciaio"),('ENEL','ente energetico nazionale'),('Enel','ente energetico nazionale'),('CEE','Comunità economica europea'),('Cee','Comunità economica europea'),('CLN','Comitato di liberazione nazionale'),('PIL','prodotto interno lordo')]
 def xs(t):
-    for a,b in SIGLE:t=re.sub(r'\b'+a+r'\b(?!\s*\()(?!,? cioè)',f'{a} ({b})',t)
+    for a,b in SIGLE:t=re.sub(r'(?<!\()\b'+a+r'\b(?!\))(?!\s*\()(?!,? cioè)',f'{a} ({b})',t)
     return t
 
-def bed(dur,level=0.035):
+def bed(dur,level=0.05):
     n=int(dur*SR);t=np.arange(n)/SR
     pad=(np.sin(2*np.pi*220*t)+0.8*np.sin(2*np.pi*277.18*t)+0.6*np.sin(2*np.pi*329.63*t)+0.4*np.sin(2*np.pi*110*t))*(0.75+0.25*np.sin(2*np.pi*0.17*t))
     f=int(SR*0.6);env=np.ones(n);env[:f]=np.linspace(0,1,f);env[-f:]=np.linspace(1,0,f)

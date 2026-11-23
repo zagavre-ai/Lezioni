@@ -99,8 +99,8 @@ def img_slide(label,title,page,imgpath,cards,active,out,kw=None,kw_on=(),cam=Tru
     """immagine a sinistra (560 px) e fino a 2 card a destra (36 px)"""
     b64=base64.b64encode(open(imgpath,'rb').read()).decode()
     ext=imgpath.rsplit('.',1)[-1]
-    body=f'<img src="data:image/{ext};base64,{b64}" style="position:absolute;left:0;top:0;max-width:640px;max-height:600px;border-radius:16px;box-shadow:0 10px 30px rgba(60,70,90,.18)">'
-    body+='<div style="position:absolute;left:670px;top:0;width:635px">'+''.join(card_html(i+1,c,i==active) for i,c in enumerate(cards))+'</div>'
+    body=f'<img src="data:image/{ext};base64,{b64}" style="position:absolute;left:0;top:0;max-width:700px;max-height:640px;border-radius:16px;box-shadow:0 10px 30px rgba(60,70,90,.18)">'
+    body+='<div style="position:absolute;left:740px;top:0;width:565px">'+''.join(card_html(i+1,c,i==active) for i,c in enumerate(cards))+'</div>'
     b=frame(label,title,page)+'<div class=bar id=bar></div><div class=col id=col>'+body+'</div>'
     if cam:b+=cam_block(kw,kw_on)
     return shot(b,out,'#col .card{font-size:36px;line-height:1.4;padding:12px 56px 12px 84px}#col .card .num{left:18px;width:44px;height:44px;font-size:24px}#col .card.on{padding:9px 53px 9px 81px}'+extra2)
@@ -127,3 +127,13 @@ def table_png(label,title,page,rows,lit,out,head=("PUNTO","IN BREVE")):
     body+='</div>'
     b=frame(label,title,page)+'<div class=bar id=bar></div><div class=col id=col style="width:1760px">'+body+'</div>'
     return shot(b,out)
+
+def img_slide_wide(label,page,imgpath,card,out,kw=None,kw_on=(),cam=True,extra2=''):
+    """immagine grande (960x570) in alto a sinistra e una card sotto; niente titolo"""
+    b64=base64.b64encode(open(imgpath,'rb').read()).decode();ext=imgpath.rsplit('.',1)[-1]
+    h=f'<img id=logo src="data:image/svg+xml;base64,{LOGO}"><div class=hl style="top:124px"></div><div class=lab>{H.escape(label)}</div>'
+    h+=f'<img src="data:image/{ext};base64,{b64}" style="position:absolute;left:80px;top:196px;max-width:960px;max-height:570px;border-radius:16px;box-shadow:0 10px 30px rgba(60,70,90,.18)">'
+    h+=f'<div class=col id=col style="top:778px;width:1305px">{card_html(1,card,True)}</div>'
+    h+=f'<div class=hl style="top:981px"></div><div class=foot style="left:80px">STORIA</div><div class=foot style="right:80px">Pagina {page}</div>'
+    if cam:h+=cam_block(kw,kw_on)
+    return shot(h,out,'#col .card{font-size:36px;line-height:1.4}'+extra2)

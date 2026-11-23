@@ -17,7 +17,8 @@ def render_scene(states,cam=None,prev=None,xin=12,xs=8,name='s',camfade=True):
     """states=[(png,frames)], cam=t0 sorgente (s) o None, prev=png per la dissolvenza iniziale. Ritorna (mp4, ultimo_png, nframes)"""
     n=sum(f for _,f in states)
     ka=[name,[((os.path.dirname(p)+fh(p.split('@')[0]%1)) if '%' in p else fh(p),f) for p,f in states],cam,camfade,fh(prev) if prev else None,xin,xs]
-    if CRF!='19':ka.insert(1,CRF)
+    dark=any('%' in p for p,_ in states);crf=str(int(CRF)+3) if dark else CRF
+    if crf!='19':ka.insert(1,crf)
     key=h8(*ka)
     out=f'{CL}/{key}.mp4';last=f'{CL}/{key}.png'
     if os.path.exists(out) and os.path.exists(last):return out,last,n
@@ -49,6 +50,6 @@ def render_scene(states,cam=None,prev=None,xin=12,xs=8,name='s',camfade=True):
         FADE='fade=t=in:st=0:d=0.3:alpha=1' if camfade else 'null'
         flt.append(f'[{k}:v]{CAMF},{FADE}[c];[{k+1}:v]format=gray[m];[c][m]alphamerge[cm];[{cur}]format=rgba[b];[b][cm]overlay=1428:148:shortest=1,format=yuv420p[o]')
         cur='o'
-    run(['ffmpeg','-y','-loglevel','error']+inp+['-filter_complex',';'.join(flt),'-map',f'[{cur}]','-frames:v',str(n)]+ENC+[out+'.t.mp4']);os.rename(out+'.t.mp4',out)
+    run(['ffmpeg','-y','-loglevel','error']+inp+['-filter_complex',';'.join(flt),'-map',f'[{cur}]','-frames:v',str(n)]+[x if x!=CRF or ENC[ENC.index(x)-1]!='-crf' else crf for x in ENC]+[out+'.t.mp4']);os.rename(out+'.t.mp4',out)
     run(['ffmpeg','-y','-loglevel','error','-sseof','-0.1','-i',out,'-update','1','-frames:v','1',last])
     return out,last,n

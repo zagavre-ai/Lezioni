@@ -6,7 +6,7 @@
   "Centrosinistra",
   "Scuola media unica",
   "ENEL (ente energetico nazionale)",
-  "Papa Giovanni ventitreesimo",
+  "Papa Giovanni XXIII",
   "Piano Solo (1964)"
  ],
  "finestre": [
@@ -181,11 +181,11 @@
    "card": [
     {
      "t": 3938.53,
-     "testo": "Con la presidenza Kennedy negli Stati Uniti e Khrushchev si avvia il dialogo, anche se nel 1962 c'è la crisi di Cuba."
+     "testo": "Con la presidenza Kennedy negli Stati Uniti e Chruščëv si avvia il dialogo, anche se nel 1962 c'è la crisi di Cuba."
     },
     {
      "t": 3947.97,
-     "testo": "C'è anche il pontificato di papa Giovanni ventitreesimo, il papa bergamasco, che aveva inaugurato una svolta epocale."
+     "testo": "C'è anche il pontificato di papa Giovanni XXIII, il papa bergamasco, che aveva inaugurato una svolta epocale."
     },
     {
      "t": 3969.02,
@@ -202,7 +202,7 @@
    "card": [
     {
      "t": 3979.27,
-     "testo": "Giovanni ventitreesimo sarà il papa che inaugurerà il Concilio Vaticano II."
+     "testo": "Giovanni XXIII sarà il papa che inaugurerà il Concilio Vaticano II."
     },
     {
      "t": 3990.89,
@@ -219,7 +219,7 @@
    "card": [
     {
      "t": 4003.19,
-     "testo": "Giovanni ventitreesimo, molto lungimirante, fu poi attaccato dai conservatori, che lo accusarono di essere stato lo zerbino delle sinistre."
+     "testo": "Giovanni XXIII, molto lungimirante, fu poi attaccato dai conservatori, che lo accusarono di essere stato lo zerbino delle sinistre."
     },
     {
      "t": 4027.21,
@@ -236,7 +236,7 @@
    "card": [
     {
      "t": 4047.14,
-     "testo": "Anche la Chiesa di Giovanni ventitreesimo è importante in questo discorso, perché inaugura l'apertura a sinistra."
+     "testo": "Anche la Chiesa di Giovanni XXIII è importante in questo discorso, perché inaugura l'apertura a sinistra."
     },
     {
      "t": 4056.98,
@@ -326,5 +326,5 @@
   }
  ],
  "pausa_A6": 3917.19,
- "note": "Confini: arg6 comincia a 3549.5 (la frase 'Che rinuncia in parallelo...' 3549.7-3573 continua dall'arg5: fine frase 3549.31); la prima card (3549.7) fonde 3549.7+3554.5+3560.49 ('rinuncia... nell'ottica di qualificarsi come forza di governo'), parole del prof. Contenuto finisce a 4273.54 (fine di 'di estrema sinistra e di estrema destra.', ultima frase, 4270.79-4273.54); il video dura 4274: NON ci sono saluti ne' chiusura detti dal prof (trasc. finisce a 4273.54 senza 'grazie/arrivederci'); secondo finale esatto del contenuto = 4273.54 (t1 messo a 4274.0). Anomalie: 'Pietronelli sarà ministro di Moro' (3757.96) = Pietro Nenni, non usato in card; 'Muore e morto anche Stalin' (3777.19) e' fuori cronologia (Stalin m. 1953) e non usato; 'Crusoff'=Khrushchev, scritto cosi'; 'ripresa nel sessantinque' ASR, letto come 1965; ENEL: il prof dice 'ente energetico nazionale' (in realta' Ente nazionale per l'energia elettrica), come dice lui; 'obbligo scolastico fino a 14 anni gia' previsto da Gentile' come dice lui; 'Giovanni ventitreesimo ... Concilio Vaticano II dal Medioevo/Lutero' frase confusa, non usata; 'le sinistre... ha spaventato Moro' ecc. in 4123.7 'fosse un tentativo di inventare un colpo di Stato' parole sue; 'De Lorenzo diventa parlamentare nel Movimento Sociale Italiano' (in card tolto 'partito piu' chiaramente fascista'); 'il Piano Solo architettato nel 1964' (in realta' 1964 rivelato 1967) come dice lui. 4174.7: tolto 'magistratura' per lunghezza. Card 3938.53 fonde 'Kennedy negli Stati Uniti e Khrushchev' con 'in Unione Sovietica' (riformulata per brevita', senza aggiunte). Sigla 'DC' sempre espansa; PIL spiegato; USA/URSS gia' espresse per esteso. pausa_A6=3917.19: fine di 'Ma e' anche l'onda lunga del Piano Marshall ... moderata della DC.' (50.7% dell'argomento)."
+ "note": "Confini: arg6 comincia a 3549.5 (la frase 'Che rinuncia in parallelo...' 3549.7-3573 continua dall'arg5: fine frase 3549.31); la prima card (3549.7) fonde 3549.7+3554.5+3560.49 ('rinuncia... nell'ottica di qualificarsi come forza di governo'), parole del prof. Contenuto finisce a 4273.54 (fine di 'di estrema sinistra e di estrema destra.', ultima frase, 4270.79-4273.54); il video dura 4274: NON ci sono saluti ne' chiusura detti dal prof (trasc. finisce a 4273.54 senza 'grazie/arrivederci'); secondo finale esatto del contenuto = 4273.54 (t1 messo a 4274.0). Anomalie: 'Pietronelli sarà ministro di Moro' (3757.96) = Pietro Nenni, non usato in card; 'Muore e morto anche Stalin' (3777.19) e' fuori cronologia (Stalin m. 1953) e non usato; 'Crusoff'=Chruščëv, scritto cosi'; 'ripresa nel sessantinque' ASR, letto come 1965; ENEL: il prof dice 'ente energetico nazionale' (in realta' Ente nazionale per l'energia elettrica), come dice lui; 'obbligo scolastico fino a 14 anni gia' previsto da Gentile' come dice lui; 'Giovanni XXIII ... Concilio Vaticano II dal Medioevo/Lutero' frase confusa, non usata; 'le sinistre... ha spaventato Moro' ecc. in 4123.7 'fosse un tentativo di inventare un colpo di Stato' parole sue; 'De Lorenzo diventa parlamentare nel Movimento Sociale Italiano' (in card tolto 'partito piu' chiaramente fascista'); 'il Piano Solo architettato nel 1964' (in realta' 1964 rivelato 1967) come dice lui. 4174.7: tolto 'magistratura' per lunghezza. Card 3938.53 fonde 'Kennedy negli Stati Uniti e Chruščëv' con 'in Unione Sovietica' (riformulata per brevita', senza aggiunte). Sigla 'DC' sempre espansa; PIL spiegato; USA/URSS gia' espresse per esteso. pausa_A6=3917.19: fine di 'Ma e' anche l'onda lunga del Piano Marshall ... moderata della DC.' (50.7% dell'argomento)."
 }

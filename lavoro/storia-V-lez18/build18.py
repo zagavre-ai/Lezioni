@@ -33,7 +33,7 @@ INTRO_S=CS(0.55);INTRO_E=CE(184.13)
 A3E=round((2096.58-0.15)*30)/30   # fine arg3: dopo «Quindi c'è la fiducia.»
 END=4273.9
 AN_LIST={1:[(CE(484.81),CS(484.81),'AN1a'),(CE(664.1),CS(664.1),'AN1b')],2:[(CE(1355.8),CS(1355.8),'AN2a'),(CE(1630.8),CS(1630.8),'AN2b')],3:[],4:[(CE(2483.05),CS(2483.05),'AN4a')],5:[(CE(3330.85),CS(3330.85),'AN5b')],6:[(CE(4047.14),CS(4047.14),'AN6a')]}
-ARG_RANGE={1:(CS(187.72),CE(880.9)),2:(CS(880.9),CE(2030.4)),3:(CS(2030.4),A3E),4:(CS(2098.47),CE(2985.35)),5:(CS(2985.35),CE(3584.13)),6:(CS(3584.13),END)}
+ARG_RANGE={1:(CS(187.72),CE(880.9)),2:(CS(880.9),CE(2030.4)),3:(CS(2034.6),A3E),4:(CS(2098.47),CE(2985.35)),5:(CS(2985.35),CE(3584.13)),6:(CS(3584.13),END)}
 A1S=ARG_RANGE[1][0]
 def fi(t):return int(round(t*FPS))
 def lead_voice(part,name,states_fn,voice,lead=0.7,tail=0.7,**kw):
@@ -67,9 +67,10 @@ def prof_piece(part,name,wins,kw,label,title,img0=None,camfade=True):
         img=w.get('img',img0)
         def png(act,pg=pg,cards=cards,k=k,w=w,img=img):
             key=f'{name}_{k}_{act}'
+            if img and w.get('imgmode')=='wide':return img_slide_wide(label,pg,img,cards[0],f'{W}/st/{key}.png',kw,w.get('kw_on',()),True) if cards else img_slide_wide(label,pg,img,'',f'{W}/st/{key}.png',kw,w.get('kw_on',()),True)
             if img:return img_slide(label,title,pg,img,cards,act,f'{W}/st/{key}.png',kw,w.get('kw_on',()),True)
             return slide_cards(label,title,cards,act,pg,kw,w.get('kw_on',()),True,f'{W}/st/{key}.png')
-        part.slides.append(dict(png=png(-1),cards=cards,page=pg,title=title,label=label,img=img))
+        part.slides.append(dict(png=png(-1),cards=cards,page=pg,title=title,label=label,img=img,wide=(w.get('imgmode')=='wide')))
         bs=[fi(c['t']) for c in cs]
         states=[]
         if not cs:states=[(png(-1),n)]
@@ -113,18 +114,19 @@ def group_sent(S,maxc=330,maxn=3):
         cur.append(i)
     if cur:g.append(cur)
     return g
-def voice_cards_scene(part,name,vname,label,title,pill=None,img=None,per=3,extra_aud=(),hold=None,mapimg=None):
+def voice_cards_scene(part,name,vname,label,title,pill=None,img=None,per=3,extra_aud=(),hold=None,mapimg=None,wide=False):
     """scheda bianca con le frasi della voce come card che si accendono"""
     S=sents(vname);st=sent_times(vname);vd=vdur(vname)
-    total=fi(LEAD+vd+TAIL);G=group_sent(S,maxn=per if not img else 2)
+    total=fi(LEAD+vd+TAIL);G=group_sent(S,maxn=1 if wide else (per if not img else 2))
     items=[];gmark=[]
     for g in G:
         part.page+=1;pg=part.page;cards=[xs(disp(S[j])) for j in g];gmark.append((len(part.slides),LEAD+st[g[0]] if g[0] else 0.0))
         for k,j in enumerate(g):
-            if img:p=img_slide(label,title,pg,img,cards,k,f'{W}/st/{name}_{j}.png',None,(),False)
+            if img and wide:p=img_slide_wide(label,pg,img,cards[0],f'{W}/st/{name}_{j}.png',None,(),False)
+            elif img:p=img_slide(label,title,pg,img,cards,k,f'{W}/st/{name}_{j}.png',None,(),False)
             else:p=slide_cards(label,title,cards,k,pg,None,(),False,f'{W}/st/{name}_{j}.png')
             items.append((p,LEAD+st[j] if j else 0.0))
-        part.slides.append(dict(png=slide_cards(label,title,cards,-1,pg,None,(),False,f'{W}/st/{name}_g{g[0]}.png') if not img else img_slide(label,title,pg,img,cards,-1,f'{W}/st/{name}_g{g[0]}.png',None,(),False),cards=cards,page=pg,title=title,label=label,img=img))
+        part.slides.append(dict(png=slide_cards(label,title,cards,-1,pg,None,(),False,f'{W}/st/{name}_g{g[0]}.png') if not img else (img_slide_wide(label,pg,img,cards[0],f'{W}/st/{name}_g{g[0]}.png',None,(),False) if wide else img_slide(label,title,pg,img,cards,-1,f'{W}/st/{name}_g{g[0]}.png',None,(),False)),cards=cards,page=pg,title=title,label=label,img=img,wide=wide))
     if mapimg:
         mk,fr_=mapimg;tm=LEAD+st[fr_];drop=[i for i,t in gmark if t>=tm-0.01]
         for i in sorted(drop,reverse=True):del part.slides[i]
@@ -134,7 +136,7 @@ def voice_cards_scene(part,name,vname,label,title,pill=None,img=None,per=3,extra
     part.sub.append((name,vname,LEAD))
 def sc_an(part,n,voice,tag):
     a=ARG[n];img=W+'/img/hd_carta.png' if n==4 else None
-    voice_cards_scene(part,f'AN{n}{tag}',voice,f'Approfondimento · {a["nome"]}',a['nome'],img=img)
+    voice_cards_scene(part,f'AN{n}{tag}',voice,f'Approfondimento · {a["nome"]}',a['nome'],img=img,wide=bool(img))
 def sc_map(part,n,key,vnames):
     order=ORDER[key];vd=[vdur(v) for v in vnames];GAP=0.3
     part.page+=1;pg=part.page
@@ -156,14 +158,14 @@ def sc_pill(part,n):
     caps=[[round(off+st[i],2),round(off+(st[i+1] if i+1<len(S) else vd),2),xs(disp(S[i]))] for i in range(len(S))]
     spec={"type":"repaso","kicker":"Pillola di storia","big":"RIPASSO","topic":a['nome'],"tfs":tfs(a['nome']),"caps":caps,"dur":round(off+vd+0.9,2)}
     dark_scene(part,f'R{n}',spec,[(0,jingle('repaso'),0.8),vaud(R,off)],fps=15)
-    # schema di ripasso: tabella con righe che si accendono
-    P=a['P'];SCn=[f'{a["SC"]}_{k}' for k in range(1,5)]
-    part.page+=1;pg=part.page;rows=SCH[n];t=LEAD;items=[];aud=[]
-    items.append((table_png('Schema di ripasso',a['nome'],pg,rows,-1,f'{W}/st/sch{n}_x.png'),0.0));aud.append(vaud(P,t));t+=vdur(P)+0.4
+    # schema di ripasso: scheda blu scura (come la pillola), una riga alla volta accesa con la voce
+    P=a['P'];SCn=[f'{a["SC"]}_{k}' for k in range(1,5)];rows=SCH[n];off=0.9;t=off;caps=[];aud=[]
+    caps.append([round(t,2),round(t+vdur(P),2),xs(disp(sents(P)[0] if False else TXT[P]))]);aud.append(vaud(P,t));t+=vdur(P)+0.35
     for k,v in enumerate(SCn):
-        items.append((table_png('Schema di ripasso',a['nome'],pg,rows,k,f'{W}/st/sch{n}_{k}.png'),t));aud.append(vaud(v,t));t+=vdur(v)+0.4
-    total=fi(t+0.6)
-    part.scene(f'S{n}',fill(items,total),aud=aud,kind='kore')
+        caps.append([round(t,2),round(t+vdur(v),2),f'{rows[k][0]}: {rows[k][1]}']);aud.append(vaud(v,t));t+=vdur(v)+0.35
+    spec={"type":"repaso","kicker":"Schema di ripasso","big":"RIPASSO","topic":a['nome'],"tfs":tfs(a['nome']),"caps":caps,"dur":round(t+0.6,2)}
+    dark_scene(part,f'S{n}',spec,aud,fps=15)
+    part.page+=1;pg=part.page
     part.slides.append(dict(png=table_png('Schema di ripasso',a['nome'],pg,rows,-1,f'{W}/st/sch{n}_x.png'),cards=[f'{x}: {y}' for x,y in rows],page=pg,title=a['nome'],label='Schema di ripasso',table=True))
 def qlist(items,label,n,part,names,start_q):
     pass
@@ -225,7 +227,7 @@ def insert_img(wins,a,b,img):
     for i,w in enumerate(wins):
         if w['t0']<=a<w['t1']:
             cs=w['card'];before=[c for c in cs if c['t']<a];act=before[-1] if before else (cs[0] if cs else None)
-            L=dict(w,t1=a,card=before);M=dict(w,t0=a,t1=min(b,w['t1']),card=[dict(act,t=a)] if act else [],img=img)
+            L=dict(w,t1=a,card=before);inside=[c for c in cs if a<=c['t']<b];M=dict(w,t0=a,t1=min(b,w['t1']),card=inside if inside else ([dict(act,t=a)] if act else []),img=img)
             R=dict(w,t0=min(b,w['t1']),card=[c for c in cs if c['t']>=b])
             new=([L] if a-w['t0']>=1.0 else [])+[M]+([R] if R['t1']-R['t0']>=1.0 else [])
             wins[i:i+1]=new;return
@@ -237,8 +239,8 @@ def do_arg(part,n,first_in_part=False):
     if n==4:
         pre=[w for w in wins if w['t1']<=2207.8];car=[w for w in wins if 2207.8<=w['t0']<2476.0]
         post=[w for w in wins if w['t0']>=2476.0]
-        cw=regroup_img(car,2)
-        for w in cw:w['img']=W+'/img/hd_carta.png';w['kw_on']=[2]
+        cw=regroup_img(car,1)
+        for w in cw:w['img']=W+'/img/hd_carta.png';w['kw_on']=[2];w['imgmode']='wide'
         cw[-1]['t1']=ce1
         post[0]['t0']=cs1;post[0]['card']=[c for c in post[0]['card'] if c['t']>=cs1-0.01]
         ina=dict(t0=2926.6,t1=pe,kw_on=[3],img=W+'/img/hd_inacasa.png',card=[dict(t=2928.9,testo="Il Piano INA-Casa, cioè il piano per far costruire case, serve a ripartire l'Italia e a costruire le case distrutte dalla guerra."),dict(t=2940.8,testo="Il piano aiuta le famiglie a trovare casa e a uscire da situazioni di fortuna, come grotte, cantine, solai e abitazioni distrutte.")])
@@ -326,12 +328,19 @@ def part2():
     spec={"type":"repaso","kicker":"Dopo la videolezione","big":"COMPITI","topic":"Esercitazione","tfs":84,"caps":[],"dur":3.5}
     dark_scene(P,'CINTRO',spec,[(0.1,jingle('titolo'),0.9)])
     comp=[x.strip() for x in re.split(r'\n(?=\d\))',open(W+'/compiti.txt').read().strip())]
-    for i,c in enumerate(comp):
+    comp=[re.sub(r'\s+',' ',re.sub(r'^\d\)\s*','',c)) for c in comp]
+    S=sents('COMPITI');st=sent_times('COMPITI');vd=vdur('COMPITI');total=fi(LEAD+vd+TAIL);items=[]
+    for k,c in enumerate(comp):
         P.page+=1
-        c=re.sub(r'^\d\)\s*','',c).replace('\n',' ')
-        p=label_slide(f'Compiti · {i+1} di {len(comp)}','Compiti',P.page,f'<div class="card on" style="font-size:38px;line-height:1.5;padding:30px 40px;width:1760px">{H.escape(c)}</div>',f'{W}/st/comp{i}.png',extra='#col{width:1760px}')
-        P.scene(f'COMP{i+1}',[(p,fi(max(20,0.07*len(c))))],aud=[(0,bed(fi(max(20,0.07*len(c)))/FPS),1.0)],kind='kore')
+        p=label_slide(f'Compiti · {k+1} di {len(comp)}','Compiti',P.page,f'<div class="card on" style="font-size:38px;line-height:1.5;padding:30px 66px 30px 40px;width:1760px">{H.escape(c)}</div>',f'{W}/st/comp{k}.png',extra='#col{width:1760px}')
+        items.append((p,0.0 if k==0 else LEAD+st[2*k]))
         P.slides.append(dict(png=p,cards=[c],page=P.page,title='Compiti',label='Compiti'))
+    P.page+=1
+    fin='Svolgi i compiti qui sotto e premi Consegna: arrivano al docente nel tuo quaderno dei compiti.'
+    p=label_slide('Compiti','Compiti',P.page,f'<div class="card on" style="font-size:40px;line-height:1.5;padding:30px 66px 30px 40px;width:1760px">{H.escape(fin)}</div>',f'{W}/st/comp_fin.png',extra='#col{width:1760px}')
+    items.append((p,LEAD+st[len(S)-1]));P.slides.append(dict(png=p,cards=[fin],page=P.page,title='Compiti',label='Compiti'))
+    P.scene('COMP',fill(items,total),aud=[vaud('COMPITI',LEAD)],kind='kore')
+    P.sub.append(('COMP','COMPITI',LEAD))
     return P
 if __name__=='__main__':
     w=sys.argv[1]

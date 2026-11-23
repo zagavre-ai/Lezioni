@@ -24,7 +24,14 @@ for t in _texts:
         if tk[0].isupper() and i>0 and len(tk)>=4:_names.add(tk)
 _names-= {n for n in _names if n.lower() in {x for x in _vocab if x[0:1] and False}}
 _namel={n.lower():n for n in _names}
-NF=[("Gaspi","Gasperi"),("Pemirio","Palmiro"),("Cidele","Alcide"),("Isria","Istria"),("Naudi al Curinale","Einaudi al Quirinale"),("Molore Terzo","Vittorio Emanuele Terzo"),("catrizzare","cicatrizzare"),("anessanta","anni Cinquanta"),("faleva sulla DC","fa leva sulla DC"),("Giorgio Meloni","Giorgia Meloni"),("Aldomoro","Aldo Moro"),("bubo economico","boom economico"),("Fan Fanni","Fanfani"),("Cide De Gasperi","Alcide De Gasperi"),("Fanfanni","Fanfani")]
+NF=[("parry","Parri"),("La Russia","La Russa"),("la Dice e","la DC e"),("piano Mars ","piano Marshall "),("al domoro","a Moro"),("domoro","Moro"),("Nel deiotti","Nilde Iotti"),("deiotti","Iotti"),("fasisti","fascisti"),("fascissi","fascisti"),("biagno rosso","biennio rosso"),("luminato dal re","nominato dal re"),("Vittorio Vittorio","Vittorio"),("Khrushchev","Chruščëv"),("Crush of","Chruščëv"),("Gaspi","Gasperi"),("Pemirio","Palmiro"),("Cidele","Alcide"),("Isria","Istria"),("Naudi al Curinale","Einaudi al Quirinale"),("Molore Terzo","Vittorio Emanuele Terzo"),("catrizzare","cicatrizzare"),("anessanta","anni Cinquanta"),("faleva sulla DC","fa leva sulla DC"),("Giorgio Meloni","Giorgia Meloni"),("Aldomoro","Aldo Moro"),("bubo economico","boom economico"),("Fan Fanni","Fanfani"),("Cide De Gasperi","Alcide De Gasperi"),("Fanfanni","Fanfani")]
+import re as _re
+def _caps(t):
+    for n in ['togliatti','de gasperi','nenni','einaudi','fanfani','moro','pella','scelba','parri','mussolini','giolitti','parigi','marshall','bonomi','saragat','craxi','berlinguer','segni','tambroni','gronchi']:
+        t=_re.sub(r'\b'+n+r'\b',lambda m:' '.join(x.capitalize() for x in m.group(0).split()),t,flags=_re.I) if n!='de gasperi' else _re.sub(r'\bde gasperi\b','De Gasperi',t,flags=_re.I)
+    for s in ['NATO','CECA','CEE','ENEL','MSI','PCI','PSI','URSS','CLN','DC']:
+        t=_re.sub(r'\b'+s+r'\b',s,t,flags=_re.I) if s in ('NATO','CECA','ENEL','URSS','CLN') else t
+    return t
 def fuzzy(t):
     for a,b in NF:t=t.replace(a,b)
     def f(m):
@@ -35,7 +42,7 @@ def fuzzy(t):
     return re.sub(r"[A-Za-zÀ-ÿ]+",f,t)
 def clean(t):
     for a,b in FIX:t=t.replace(a,b)
-    t=re.sub(r'\bMS\b','MSI',t);t=re.sub(r'\bPC\b','PCI',t);t=fuzzy(t)
+    t=re.sub(r'\bMS\b','MSI',t);t=re.sub(r'\bPC\b','PCI',t);t=_caps(fuzzy(t))
     return re.sub(r'\s+',' ',t).strip()
 def ts(t):
     h=int(t//3600);m=int(t%3600//60);s=t%60;return '%02d:%02d:%06.3f'%(h,m,s)

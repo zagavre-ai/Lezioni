@@ -19,7 +19,8 @@ def page(c,png,texts,n=None):
     c.drawImage(ImageReader(png),0,y,iw,ih)
     t=c.beginText(24,PH-30);t.setTextRenderMode(3);t.setFont('Helvetica',8)
     for x in texts:
-        for ln in [x[i:i+150] for i in range(0,len(x),150)]:
+        import textwrap
+        for ln in textwrap.wrap(x,150):
             try:t.textLine(ln.encode('latin-1','replace').decode('latin-1'))
             except Exception:pass
     c.drawText(t);c.showPage()
@@ -32,7 +33,8 @@ def main():
         for i,s in enumerate(S):
             png=s['png'];txt=[s.get('title',''),s.get('label','')]+list(s.get('cards',[]))
             if s.get('cards') and not s.get('quiz') and not s.get('table') and not s.get('map') and not s.get('mapref'):
-                if s.get('img'):png=img_slide(s['label'],s['title'],s['page'],s['img'],s['cards'],-1,f'{W}/st/dp_{w}_{i}.png',None,(),False,'.card{opacity:1}')
+                if s.get('img') and s.get('wide'):png=img_slide_wide(s['label'],s['page'],s['img'],s['cards'][0] if s['cards'] else '',f'{W}/st/dp_{w}_{i}.png',None,(),False)
+                elif s.get('img'):png=img_slide(s['label'],s['title'],s['page'],s['img'],s['cards'],-1,f'{W}/st/dp_{w}_{i}.png',None,(),False,'.card{opacity:1}')
                 else:png=slide_cards(s['label'],s['title'],s['cards'],-1,s['page'],None,(),False,f'{W}/st/dp_{w}_{i}.png','.card{opacity:1}')
             if s.get('map'):
                 from maps import MAPS
