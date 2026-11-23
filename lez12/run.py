@@ -153,7 +153,7 @@ def card_scene(name, eyebrow, title, sub, jingle, D, jat=0.0, gain=-3):
 def kfile(f, name):
     o = E.B + name + '.mov'
     if not os.path.exists(o):
-        n = round(E.dur(f) * 30); E.run(['ffmpeg', '-y', '-v', 'error', '-i', f, '-vf', 'scale=1920:1080,fps=30,format=yuv420p', '-af', f'aresample=48000,aformat=channel_layouts=stereo,apad=whole_len={n*1600},atrim=end_sample={n*1600}', '-frames:v', str(n), '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '14', '-c:a', 'pcm_s16le', o])
+        n = round(E.dur(f) * 30); E.run(['ffmpeg', '-y', '-v', 'error', '-i', f, '-vf', 'scale=1920:1080,fps=30,format=yuv420p', '-af', f'aresample=48000,aformat=channel_layouts=stereo,asetpts=N/SR/TB,apad=whole_len={n*1600},atrim=end_sample={n*1600}', '-frames:v', str(n), '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '14', '-c:a', 'pcm_s16le', o])
     return o, E.dur(o)
 def build(name, nxt=None):
     """restituisce (file, durata)"""
@@ -176,6 +176,7 @@ def build(name, nxt=None):
     if name == 'MAPPA': return scene_mappa()
     if name == 'GLOSS': return kore('GLOSS', 'GLOSS', [m for _, _, m in GL], render_gloss, 'trans', None)
     if name == 'RF': return kore('RF', 'RF', [m for _, _, m in RF], render_rf, 'trans', None)
+    if name == 'MAPFIN': return kore('MAPFIN', 'MF', None, lambda k: cache(f'{PNG}map_full.png', lambda o: render_map(99, o)), 'trans', None, hold=1.5, bg='white')
     if name == 'COMPITI':
         return kore('COMPITI', 'COMPITI', ['Compito uno', 'Compito due', 'Compito tre', 'Compito quattro', 'Svolgi i compiti'], render_comp, None, None, hold=2.0, v0=0.6)
     raise KeyError(name)

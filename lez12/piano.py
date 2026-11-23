@@ -115,4 +115,4 @@ SEQ = ['SIG', 'COVER', 'D0',
   'T2', 'D2a', 'AN2A', 'D2b', 'AN2B', 'D2c', 'MAPPA', 'PILL2', 'Q2',
   'T3', 'D3a', 'AN3A', 'D3b', 'PILL3', 'Q3',
   'T4', 'D4a', 'AN4A', 'D4b', 'AN4B', 'D4c', 'PILL4', 'Q4',
-  'GLOSS', 'RF', 'VF', 'SF', 'CI', 'COMPITI']
+  'GLOSS', 'RF', 'MAPFIN', 'VF', 'SF', 'CI', 'COMPITI']
