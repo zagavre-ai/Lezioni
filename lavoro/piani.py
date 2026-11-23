@@ -6,7 +6,7 @@ from cuts import taglio, comprimi, g, onset, RMS
 from trasc_util import mmss, find
 ARGS={a['n']:a for a in S.ARG}
 # confini tra pezzi del prof (tempo ASR dell'inizio della frase che segue)
-B={'intro_fine':157.5,'a1':239.88,'a2':1039.13,'a3':1676.09,'a4':2462.37,'a5':3169.78,'a6':3784.93,'a7':4550.69,'a8':5355.72}
+B={'intro_fine':157.5,'a1':239.88,'a2':1039.13,'a3':1674.1,'a4':2462.37,'a5':3169.78,'a6':3784.93,'a7':4550.69,'a8':5355.72}
 MID={}   # nessun approfondimento a metà argomento: le schermate lunghe si spezzano con le evidenze
 END=5786.18
 def taglio_pt(t):
