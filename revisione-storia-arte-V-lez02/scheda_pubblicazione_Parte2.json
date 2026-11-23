@@ -1,0 +1,70 @@
+{
+ "materia": "Storia dell'arte V",
+ "titolo": "Storia dell'arte V · Lezione 2 · Il Romanticismo · Parte 2",
+ "durata_s": 860.57,
+ "argomenti": [
+  {
+   "n": 5,
+   "titolo": "Preraffaelliti, Arts and Crafts e Neogotico",
+   "inizio_s": 125.7,
+   "quiz_s": 615.733
+  }
+ ],
+ "quiz": {
+  "Q5": {
+   "title": "Quiz 5 · Preraffaelliti, Arts and Crafts e Neogotico",
+   "items": [
+    {
+     "p": "Che cosa propone la Confraternita preraffaellita?",
+     "a": "Un ritorno alla moralità, alla purezza e alla bellezza dell'arte medievale e del primo Rinascimento",
+     "w": [
+      "Il ritorno ai modelli di Raffaello",
+      "L'esaltazione dell'industria",
+      "La pittura di paesaggio all'aria aperta"
+     ],
+     "e": "è nata in Inghilterra."
+    },
+    {
+     "p": "Chi sono due esponenti principali dei Preraffaelliti?",
+     "a": "Dante Gabriel Rossetti e Edward Burne-Jones",
+     "w": [
+      "Eugène Delacroix e Théodore Géricault",
+      "Charles Barry e Welby Pugin",
+      "John Constable e William Turner"
+     ],
+     "e": "pittura simbolica e sensuale, bellezza e mistero letterario."
+    },
+    {
+     "p": "Che cosa rivaluta il movimento Arts and Crafts di William Morris?",
+     "a": "L'artigianato artistico e il lavoro manuale contro la standardizzazione industriale",
+     "w": [
+      "La produzione industriale in serie",
+      "La pittura storica",
+      "Il restauro dei monumenti"
+     ],
+     "e": "l'arte entra negli oggetti quotidiani."
+    },
+    {
+     "p": "Che cosa diventa il Neogotico in Inghilterra?",
+     "a": "Lo stile nazionale, visibile nella ricostruzione del Palazzo di Westminster",
+     "w": [
+      "Uno stile abbandonato",
+      "Lo stile dei giardini all'italiana",
+      "Lo stile della pittura di storia"
+     ],
+     "e": "Barry e Pugin ricostruiscono il Parlamento di Londra."
+    },
+    {
+     "p": "Chi guida in Francia il restauro di Notre-Dame di Parigi?",
+     "a": "Eugène Viollet-le-Duc",
+     "w": [
+      "Charles Barry",
+      "William Morris",
+      "Eugène Delacroix"
+     ],
+     "e": "unisce storicità, razionalità costruttiva e ferro."
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,277 @@
+{
+ "Q1": {
+  "title": "Quiz 1 · La nuova sensibilità romantica e il sublime",
+  "items": [
+   {
+    "p": "In reazione a che cosa si pone il Romanticismo?",
+    "a": "All'Illuminismo (razionalità) e al Neoclassicismo",
+    "w": [
+     "Al Barocco e al Rococò",
+     "Al Realismo e all'Impressionismo",
+     "Al Medioevo e al Gotico"
+    ],
+    "e": "il Romanticismo rifiuta la razionalità e il ritorno all'antico."
+   },
+   {
+    "p": "Che cos'è il sublime naturale?",
+    "a": "Un sentimento che unisce stupore, fascino e smarrimento davanti alla potenza della natura",
+    "w": [
+     "Il gusto per i giardini geometrici e ordinati",
+     "La ricerca della perfezione dei modelli greci",
+     "La rappresentazione realistica della vita quotidiana"
+    ],
+    "e": "è la vertigine di fronte a una natura immensa e misteriosa."
+   },
+   {
+    "p": "Come viene visto l'artista nel Romanticismo?",
+    "a": "Come un genio: un creatore libero, guidato dall'ispirazione",
+    "w": [
+     "Come un artigiano che segue regole fisse",
+     "Come un imitatore dei modelli antichi",
+     "Come un copista della realtà"
+    ],
+    "e": "il genio è teso verso l'infinito."
+   },
+   {
+    "p": "Che cosa esalta il pittoresco?",
+    "a": "La spontaneità, la varietà e l'aspetto selvaggio della natura",
+    "w": [
+     "La geometria classica delle forme",
+     "La simmetria dei giardini alla francese",
+     "La razionalità dei progetti architettonici"
+    ],
+    "e": "da qui nasce il giardino all'inglese, progettato per sembrare spontaneo."
+   },
+   {
+    "p": "Perché il Medioevo viene rivalutato dai romantici?",
+    "a": "È visto come un'epoca ideale di profonda religiosità e culla delle identità dei popoli europei",
+    "w": [
+     "Perché fu il periodo del massimo sviluppo della razionalità",
+     "Perché fu un'epoca di pura imitazione dell'antico",
+     "Perché fu l'età delle rivoluzioni industriali"
+    ],
+    "e": "il revival medievale influenza pittura e architettura."
+   }
+  ]
+ },
+ "Q2": {
+  "title": "Quiz 2 · Goya e Füssli: realtà e visione",
+  "items": [
+   {
+    "p": "Per quale re Goya fu pittore di corte?",
+    "a": "Carlo IV (quarto)",
+    "w": [
+     "Napoleone Bonaparte",
+     "Luigi XVIII",
+     "Filippo II"
+    ],
+    "e": "Goya era pittore di corte in Spagna."
+   },
+   {
+    "p": "Quale opera di Goya denuncia gli orrori dell'invasione napoleonica?",
+    "a": "Il 3 maggio 1808",
+    "w": [
+     "La Maja desnuda",
+     "La Maja vestida",
+     "La famiglia di Carlo IV"
+    ],
+    "e": "denuncia la violenza della guerra e anticipa la pittura moderna."
+   },
+   {
+    "p": "Che cosa mostrano le «pitture nere» di Goya?",
+    "a": "Il lato oscuro della ragione: violenza umana e follia",
+    "w": [
+     "Paesaggi sereni della campagna",
+     "Ritratti ufficiali della corte",
+     "Scene gioiose di vita popolare"
+    ],
+    "e": "esplorano la violenza e la follia."
+   },
+   {
+    "p": "Dove è attivo Johann Heinrich Füssli, svizzero di nascita?",
+    "a": "A Londra",
+    "w": [
+     "A Parigi",
+     "A Madrid",
+     "A Roma"
+    ],
+    "e": "Füssli è un precursore della sensibilità romantica."
+   },
+   {
+    "p": "Quale opera di Füssli unisce dramma e ironia in una dimensione onirica?",
+    "a": "Il sonno dell'artista, o L'incubo",
+    "w": [
+     "Il viandante sul mare di nebbia",
+     "La zattera della Medusa",
+     "Il sonno della ragione genera mostri"
+    ],
+    "e": "Il sonno della ragione genera mostri è di Goya."
+   }
+  ]
+ },
+ "Q3": {
+  "title": "Quiz 3 · Friedrich, Constable e Turner: il paesaggio",
+  "items": [
+   {
+    "p": "In quale opera di Friedrich la figura di spalle invita a contemplare l'infinito?",
+    "a": "Il viandante sul mare di nebbia",
+    "w": [
+     "La Libertà che guida il popolo",
+     "Il bacio",
+     "Tramonto sul lago"
+    ],
+    "e": "è l'icona del Romanticismo."
+   },
+   {
+    "p": "Che cosa rappresenta Il mare di ghiaccio di Friedrich?",
+    "a": "Il sublime naturale catastrofico: la fragilità umana soccombe alla natura",
+    "w": [
+     "Una serena campagna inglese",
+     "Un giardino all'inglese",
+     "Una scena di battaglia"
+    ],
+    "e": "mostra la forza della natura."
+   },
+   {
+    "p": "Su che cosa si basa la pittura di John Constable?",
+    "a": "Sull'osservazione diretta del vero, anche en plein air (all'aria aperta)",
+    "w": [
+     "Sull'immaginazione di mondi fantastici",
+     "Sulla copia dei maestri del passato",
+     "Sulla geometria classica"
+    ],
+    "e": "coglie la serenità e la nostalgia della campagna inglese."
+   },
+   {
+    "p": "Di che cosa è maestro William Turner?",
+    "a": "Della luce e del colore",
+    "w": [
+     "Della prospettiva rinascimentale",
+     "Del disegno accademico",
+     "Della scultura monumentale"
+    ],
+    "e": "dipinge paesaggi dinamici e immaginifici."
+   },
+   {
+    "p": "Quale aspetto della natura mostrano le opere di Turner?",
+    "a": "La violenza distruttrice (incendi, tempeste) o la suggestione del tramonto",
+    "w": [
+     "La calma di una natura addomesticata",
+     "L'ordine dei giardini geometrici",
+     "La serenità di una campagna quieta"
+    ],
+    "e": "è la forza degli elementi."
+   }
+  ]
+ },
+ "Q4": {
+  "title": "Quiz 4 · Il Romanticismo francese e italiano",
+  "items": [
+   {
+    "p": "Che cosa raffigura La zattera della Medusa di Géricault?",
+    "a": "Un fatto di cronaca contemporanea: una piramide umana tra disperazione e speranza",
+    "w": [
+     "Una battaglia della Rivoluzione",
+     "Un episodio della Bibbia",
+     "Un paesaggio in tempesta senza figure"
+    ],
+    "e": "è un capolavoro drammatico."
+   },
+   {
+    "p": "Quale tema affrontano i ritratti degli alienati di Géricault?",
+    "a": "La sofferenza mentale e la follia umana",
+    "w": [
+     "Il fascino dell'Oriente",
+     "Le giornate rivoluzionarie",
+     "La festa popolare"
+    ],
+    "e": "sono un'indagine realistica e psicologica."
+   },
+   {
+    "p": "Quali eventi celebra La Libertà che guida il popolo di Delacroix?",
+    "a": "Le giornate rivoluzionarie parigine del 1830",
+    "w": [
+     "L'invasione napoleonica della Spagna",
+     "Il Risorgimento italiano",
+     "Il naufragio di una nave francese"
+    ],
+    "e": "unisce realismo crudo e allegoria ideale."
+   },
+   {
+    "p": "Come usa Hayez la pittura storica?",
+    "a": "Usa episodi del passato come metafora per diffondere ideali patriottici risorgimentali",
+    "w": [
+     "Per illustrare con realismo la vita quotidiana",
+     "Per rappresentare paesaggi sublimi",
+     "Per riprodurre i modelli neoclassici"
+    ],
+    "e": "è il principale protagonista del Romanticismo italiano."
+   },
+   {
+    "p": "Di che cosa è icona Il bacio di Hayez?",
+    "a": "Dell'amore patriottico e del sentimento romantico in Italia",
+    "w": [
+     "Della Rivoluzione francese",
+     "Della razionalità illuminista",
+     "Della nostalgia della campagna inglese"
+    ],
+    "e": "esprime sentimenti appassionati e valori politici attuali."
+   }
+  ]
+ },
+ "Q5": {
+  "title": "Quiz 5 · Preraffaelliti, Arts and Crafts e Neogotico",
+  "items": [
+   {
+    "p": "Che cosa propone la Confraternita preraffaellita?",
+    "a": "Un ritorno alla moralità, alla purezza e alla bellezza dell'arte medievale e del primo Rinascimento",
+    "w": [
+     "Il ritorno ai modelli di Raffaello",
+     "L'esaltazione dell'industria",
+     "La pittura di paesaggio all'aria aperta"
+    ],
+    "e": "è nata in Inghilterra."
+   },
+   {
+    "p": "Chi sono due esponenti principali dei Preraffaelliti?",
+    "a": "Dante Gabriel Rossetti e Edward Burne-Jones",
+    "w": [
+     "Eugène Delacroix e Théodore Géricault",
+     "Charles Barry e Welby Pugin",
+     "John Constable e William Turner"
+    ],
+    "e": "pittura simbolica e sensuale, bellezza e mistero letterario."
+   },
+   {
+    "p": "Che cosa rivaluta il movimento Arts and Crafts di William Morris?",
+    "a": "L'artigianato artistico e il lavoro manuale contro la standardizzazione industriale",
+    "w": [
+     "La produzione industriale in serie",
+     "La pittura storica",
+     "Il restauro dei monumenti"
+    ],
+    "e": "l'arte entra negli oggetti quotidiani."
+   },
+   {
+    "p": "Che cosa diventa il Neogotico in Inghilterra?",
+    "a": "Lo stile nazionale, visibile nella ricostruzione del Palazzo di Westminster",
+    "w": [
+     "Uno stile abbandonato",
+     "Lo stile dei giardini all'italiana",
+     "Lo stile della pittura di storia"
+    ],
+    "e": "Barry e Pugin ricostruiscono il Parlamento di Londra."
+   },
+   {
+    "p": "Chi guida in Francia il restauro di Notre-Dame di Parigi?",
+    "a": "Eugène Viollet-le-Duc",
+    "w": [
+     "Charles Barry",
+     "William Morris",
+     "Eugène Delacroix"
+    ],
+    "e": "unisce storicità, razionalità costruttiva e ferro."
+   }
+  ]
+ }
+}
