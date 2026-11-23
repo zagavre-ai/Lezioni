@@ -21,6 +21,10 @@
   {
    "quando": "22/11 16:37",
    "testo": "22/11 16:37 UTC: la chat che aveva fatto la lezione 12 il 17/11 (ramo revisione-letteratura-V-lez12) e' ripartita col messaggio del 22/11, ma lo stato lez12 ha gia' la nota 'correzioni 22/11: presa da revisione-letteratura-V-lez12 (+ ramo -bis 56:14)' delle 16:35. Come da istruzioni NON la tocco e NON cambio lo stato. Se invece vuoi che la faccia io (ho ancora intatta la pipeline di montaggio del 17/11: slide HTML, prof 4:3, audio, jingle), scrivimi qui: servono circa 2h30 e consegno entro le 19:30 UTC; altrimenti dimmi quale altra lezione prendere."
+  },
+  {
+   "quando": "23/11 11:43",
+   "testo": "23/11 11:43 UTC · seconda chat lez12 (quella del messaggio 22/11 17:00): NON ho toccato lo stato lez12 (resta REVISIONATA, dell'altra chat). Non ho eseguito l'aiuto alla lez14: il push dei testi voce M14_1-M14_33 su voci-letteratura-V-lez14 e la consegna su lavoro-letteratura-V-lez14-aiuto sono stati bloccati dai permessi della mia sessione. Pronti in locale: testi M14 (33 voci, anni in lettere), mappa di Pirandello trascritta nodo per nodo (circa 40 riquadri: propongo 4 schermate ramo per ramo + mappa intera finale ferma 4 s, perche' a 34 px non sta in una pagina), programma dispense A4 con testo invisibile. Il mio lavoro lez12 e' su revisione-letteratura-V-lez12-bis (versione 17/11, senza correzioni 22/11). Serve: dite se devo rifare io la lez14 aiuto (e sbloccate i permessi) oppure se mi fermo."
   }
  ],
  "domande_sara": [],
@@ -62,5 +66,5 @@
    "testo": "controllo stato prima di prenotare"
   }
  ],
- "aggiornato": "2026-11-22 16:37:44"
+ "aggiornato": "2026-11-23 11:43:14"
 }
