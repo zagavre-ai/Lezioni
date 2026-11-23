@@ -16,18 +16,25 @@ def prof_audio(t0,t1):
     a=PM[int(round(t0*SR)):int(round(t1*SR))].copy()
     return a
 PGAIN=float(open(W+'/a/pgain').read()) if os.path.exists(W+'/a/pgain') else 1.0
-CUTS={}
-def C(key,T,rule=0.15):
-    if key not in CUTS:
-        CUTS[key]=round((T-rule)*30)/30
-    return CUTS[key]
-# punti di taglio (inizio frase - 0,15 s, verificati: pausa < -40 dB)
-INTRO_S=C('intro',0.55);A1S=C('a1',187.72);A2S=C('a2',880.9);A3S=C('a3',2030.4);A4S=C('a4',2098.47);A5S=C('a5',2978.98);A6S=C('a6',3549.5)
+from cuts import prev_end
+OVR={}
+def CS(T):
+    if T in OVR:return round(OVR[T]*30)/30
+    return round((T-0.15)*30)/30
+def CE(T):
+    if T in OVR:return round(OVR[T]*30)/30
+    pe=prev_end(T)
+    for c in (min(T-0.15,pe+0.7),T-0.15):
+        c=round(c*30)/30
+        if float(level(c,WAV))<-42:return c
+    from taglio import snap
+    return round(snap(T,WAV,0.6,0.0)*30)/30
+INTRO_S=CS(0.55);INTRO_E=CE(184.13)
 A3E=round((2096.58-0.15)*30)/30   # fine arg3: dopo «Quindi c'è la fiducia.»
 END=4273.9
-AN_LIST={1:[(C('an1',484.81),'AN1a'),(C('an1b',664.1),'AN1b')],2:[(C('an2',1355.8),'AN2a'),(C('an2b',1630.8),'AN2b')],3:[(C('an3',2067.8),'AN3a')],4:[(C('an4',2483.05),'AN4a')],5:[(C('an5',3234.4),'AN5b')],6:[(C('an6',3979.27),'AN6a')]}
-AN_CUT={n:v[0][0] for n,v in AN_LIST.items()}
-ARG_RANGE={1:(A1S,A2S),2:(A2S,A3S),3:(A3S,A3E),4:(A4S,A5S),5:(A5S,A6S),6:(A6S,END)}
+AN_LIST={1:[(CE(484.81),CS(484.81),'AN1a'),(CE(664.1),CS(664.1),'AN1b')],2:[(CE(1355.8),CS(1355.8),'AN2a'),(CE(1630.8),CS(1630.8),'AN2b')],3:[(CE(2067.8),CS(2067.8),'AN3a')],4:[(CE(2483.05),CS(2483.05),'AN4a')],5:[(CE(3330.85),CS(3330.85),'AN5b')],6:[(CE(4047.14),CS(4047.14),'AN6a')]}
+ARG_RANGE={1:(CS(187.72),CE(880.9)),2:(CS(880.9),CE(2030.4)),3:(CS(2030.4),A3E),4:(CS(2098.47),CE(2985.35)),5:(CS(2985.35),CE(3584.13)),6:(CS(3584.13),END)}
+A1S=ARG_RANGE[1][0]
 def fi(t):return int(round(t*FPS))
 def lead_voice(part,name,states_fn,voice,lead=0.7,tail=0.7,**kw):
     pass
@@ -110,16 +117,18 @@ def voice_cards_scene(part,name,vname,label,title,pill=None,img=None,per=3,extra
     """scheda bianca con le frasi della voce come card che si accendono"""
     S=sents(vname);st=sent_times(vname);vd=vdur(vname)
     total=fi(LEAD+vd+TAIL);G=group_sent(S,maxn=per if not img else 2)
-    items=[]
+    items=[];gmark=[]
     for g in G:
-        part.page+=1;pg=part.page;cards=[disp(S[j]) for j in g]
+        part.page+=1;pg=part.page;cards=[xs(disp(S[j])) for j in g];gmark.append((len(part.slides),LEAD+st[g[0]] if g[0] else 0.0))
         for k,j in enumerate(g):
             if img:p=img_slide(label,title,pg,img,cards,k,f'{W}/st/{name}_{j}.png',None,(),False)
             else:p=slide_cards(label,title,cards,k,pg,None,(),False,f'{W}/st/{name}_{j}.png')
             items.append((p,LEAD+st[j] if j else 0.0))
         part.slides.append(dict(png=slide_cards(label,title,cards,-1,pg,None,(),False,f'{W}/st/{name}_g{g[0]}.png') if not img else img_slide(label,title,pg,img,cards,-1,f'{W}/st/{name}_g{g[0]}.png',None,(),False),cards=cards,page=pg,title=title,label=label,img=img))
     if mapimg:
-        mp,fr_=mapimg;items=[(p,t) for (p,t) in items if t<LEAD+st[fr_]-0.01];items.append((mp,LEAD+st[fr_]));part.page+=1
+        mk,fr_=mapimg;tm=LEAD+st[fr_];drop=[i for i,t in gmark if t>=tm-0.01]
+        for i in sorted(drop,reverse=True):del part.slides[i]
+        part.page-=len(drop);part.page+=1;mp=map_step(mk,len(ORDER[mk])+1,f'{W}/st/mapsp_{mk}_{part.page}.png',part.page);items=[(p,t) for (p,t) in items if t<tm-0.01];items.append((mp,tm))
         part.slides.append(dict(png=mp,cards=[],page=part.page,title='Mappa',label='Mappa',mapref=True))
     part.scene(name,fill(items,total),aud=[vaud(vname,LEAD)]+list(extra_aud),kind='kore')
     part.sub.append((name,vname,LEAD))
@@ -144,7 +153,7 @@ def sc_map(part,n,key,vnames):
     part.sub.append((f'MAP{n}',vnames,LEAD))
 def sc_pill(part,n):
     a=ARG[n];R=a['R'];vd=vdur(R);S=sents(R);st=sent_times(R);off=1.6
-    caps=[[round(off+st[i],2),round(off+(st[i+1] if i+1<len(S) else vd),2),disp(S[i])] for i in range(len(S))]
+    caps=[[round(off+st[i],2),round(off+(st[i+1] if i+1<len(S) else vd),2),xs(disp(S[i]))] for i in range(len(S))]
     spec={"type":"repaso","kicker":"Pillola di storia","big":"RIPASSO","topic":a['nome'],"tfs":tfs(a['nome']),"caps":caps,"dur":round(off+vd+0.9,2)}
     dark_scene(part,f'R{n}',spec,[(0,jingle('repaso'),0.8),vaud(R,off)],fps=15)
     # schema di ripasso: tabella con righe che si accendono
@@ -162,7 +171,7 @@ def sc_quiz_body(part,tag,label,items,qn,think_scale=1.0):
     L=len(items)
     for i,it in enumerate(items):
         it=dict(it);ex=lambda s:s.replace('PCI','PCI (Partito comunista italiano)') if tag=='7' else s
-        it['p']=ex(it['p']);it['a']=ex(it['a']);it['w']=[ex(x) for x in it['w']]
+        it['p']=ex(it['p']);it['a']=ex(it['a']);it['w']=[ex(x) for x in it['w']];it['e']=ex(it.get('e',''))
         opts=[it['a']]+list(it['w']);k=(i+len(it['p']))%4
         order=opts[1:];order.insert(k,opts[0])
         part.page+=1;pg=part.page
@@ -170,12 +179,12 @@ def sc_quiz_body(part,tag,label,items,qn,think_scale=1.0):
         think=max(12.0,min(26.0,8+0.045*chars))*think_scale;rev=max(8.0,min(14.0,5+0.04*len(it.get('e',''))))
         q1=quiz_png(label,i+1,L,it['p'],order,k,False,'',pg,f'{W}/st/{tag}_{i}_q.png')
         q2=quiz_png(label,i+1,L,it['p'],order,k,True,it.get('e',''),pg,f'{W}/st/{tag}_{i}_r.png')
-        part.scene(f'D{tag}_{i+1}',[(q1,fi(think)),(q2,fi(rev))],kind='kore')
+        part.scene(f'D{tag}_{i+1}',[(q1,fi(think)),(q2,fi(rev))],aud=[(0,bed(fi(think)/FPS+fi(rev)/FPS),1.0)],kind='kore')
         part.slides.append(dict(png=q1,cards=[it['p']]+order,page=pg,title=label,label=label,quiz=True))
         part.qa.append((tag,i+1,it['p'],order,k,it.get('e','')))
 def sc_gloss(part,gi,vname):
     S=sents(vname);st=sent_times(vname);vd=vdur(vname);total=fi(LEAD+vd+TAIL)
-    terms=[disp(x) for x in S[2:]];groups=[list(range(0,min(3,len(terms)))),list(range(3,len(terms)))]
+    terms=[xs(disp(x)) for x in S[2:]];groups=[list(range(0,min(3,len(terms)))),list(range(3,len(terms)))]
     items=[];pgs={}
     for gk,g in enumerate(groups):
         if not g:continue
@@ -213,26 +222,29 @@ def mp4_scene(part,name,mp4,gain=1.0,dissolve=True):
     part.tl.append([name,round(t0,3),round(n/FPS,3)]);part.items.append(out);part.n+=n;part.prev=last;part.kind='sigla'
 
 def do_arg(part,n,first_in_part=False):
-    a=ARG[n];d=load_cards(n);ps,pe=ARG_RANGE[n];cutt=AN_CUT[n];kw=d['kw']
+    a=ARG[n];d=load_cards(n);ps,pe=ARG_RANGE[n];kw=d['kw']
     label=f'{n:02d} · {a["nome"]}';title=a['prof']
     wins=[dict(w) for w in d['finestre']]
+    ce1,cs1=AN_LIST[n][0][0],AN_LIST[n][0][1]
     if n==4:
-        # tratto della carta (2207.8-2483.05): finestre con immagine, 2 card; e piano INA-Casa alla fine
-        pre=[w for w in wins if w['t1']<=2207.8];car=[w for w in wins if 2207.8<=w['t0']<2476.8]
-        post=[w for w in wins if w['t0']>=2476.71]
+        pre=[w for w in wins if w['t1']<=2207.8];car=[w for w in wins if 2207.8<=w['t0']<2476.0]
+        post=[w for w in wins if w['t0']>=2476.0]
         cw=regroup_img(car,2)
         for w in cw:w['img']=W+'/img/hd_carta.png';w['kw_on']=[2]
-        cw[-1]['t1']=cutt  # la carta finisce al punto di taglio
-        post[0]['t0']=cutt
-        post[0]['card']=[c for c in post[0]['card'] if c['t']>=cutt-0.01]
+        cw[-1]['t1']=ce1
+        post[0]['t0']=cs1;post[0]['card']=[c for c in post[0]['card'] if c['t']>=cs1-0.01]
         ina=dict(t0=2926.6,t1=pe,kw_on=[3],img=W+'/img/hd_inacasa.png',card=[dict(t=2928.9,testo="Il Piano INA-Casa, cioè il piano per far costruire case, serve a ripartire l'Italia e a costruire le case distrutte dalla guerra."),dict(t=2940.8,testo="Il piano aiuta le famiglie a trovare casa e a uscire da situazioni di fortuna, come grotte, cantine, solai e abitazioni distrutte.")])
         wins=pre+cw+post+[ina]
+    if n==5:
+        d6=load_cards(6);tail=[c for w in d6['finestre'] for c in w['card'] if 3549.5<=c['t']<pe]
+        wins.append(dict(t0=3549.5,t1=pe,kw_on=[],card=tail))
     sc_title(part,n)
-    pts=[ps]+[c for c,_ in AN_LIST[n]]+[pe]
-    for i,(c,v) in enumerate(AN_LIST[n]+[(None,None)]):
-        seg=clip_windows(wins,pts[i],pts[i+1])
+    L=AN_LIST[n]
+    starts=[ps]+[x[1] for x in L];ends=[x[0] for x in L]+[pe]
+    for i in range(len(L)+1):
+        seg=clip_windows(wins,starts[i],ends[i])
         prof_piece(part,f'P{n}{"abc"[i]}',seg,kw,label,title)
-        if v:sc_an(part,n,v,'' if i==0 else 'b')
+        if i<len(L):sc_an(part,n,L[i][2],'' if i==0 else 'b')
     if n in MAPSET:
         key,vn=MAPSET[n];sc_map(part,n,key,vn)
     sc_pill(part,n)
@@ -250,7 +262,7 @@ def cover_part(part,args_idx,welcome,sigla_name):
     part.scene('CO',fill(items,total),aud=[vaud(welcome,LEAD)],kind='kore',wmode='before')
     part.sub.append(('CO',welcome,LEAD))
 def sc_spiegone(part,k,vname,mapfull=None):
-    a=ARG[k];mi=(map_step('A',len(ORDER['A'])+1,f'{W}/st/mapA_sp.png',part.page+99),1) if k==2 else None
+    a=ARG[k];mi=('A',1) if k==2 else None
     voice_cards_scene(part,f'SP{k}',vname,f'Ripasso · {a["nome"]}',a['nome'],mapimg=mi)
 
 import pyloudnorm as pyln
@@ -266,7 +278,7 @@ def finalize(part,outname,subtitle=None):
     print('mix LUFS prima',round(L,2),'gain',round(g,3))
     wav=f'{W}/out/{outname}.f32';mix.astype(np.float32).tofile(wav)
     aac=f'{W}/out/{outname}.m4a'
-    run(['ffmpeg','-y','-loglevel','error','-f','f32le','-ar','48000','-ac','2','-i',wav,'-af','alimiter=limit=0.84:level=disabled','-c:a','aac','-b:a','192k','-ar','48000',aac])
+    run(['ffmpeg','-y','-loglevel','error','-f','f32le','-ar','48000','-ac','2','-i',wav,'-af','alimiter=limit=0.8:level=disabled','-c:a','aac','-b:a','192k','-ar','48000',aac])
     final=f'{W}/out/{outname}_1080p.mp4'
     run(['ffmpeg','-y','-loglevel','error','-i',vid,'-i',aac,'-c:v','copy','-c:a','copy','-t',f'{total:.4f}','-movflags','+faststart',final])
     json.dump(part.tl,open(f'{W}/out/timeline_{outname}.json','w'),ensure_ascii=False)
@@ -276,12 +288,13 @@ def part1():
     P=Part('1')
     names=[ARG[i]['nome'] for i in (1,2,3)]
     cover_part(P,[1,2,3],'INTRO1_R2','Sigla_Storia_15s.mp4')
-    SW=C('intro_sw',112.97)
+    SW=CS(112.97)
     pc=cover_png(names,f'{W}/st/cov_prof.png',True,-1);pa=argomenti_png(names,f'{W}/st/argomenti1.png',2,True)
-    a=fi(INTRO_S);m=fi(SW);b=fi(A1S);T0=a/FPS;T1=b/FPS
+    a=fi(INTRO_S);m=fi(SW);b=fi(INTRO_E);T0=a/FPS;T1=b/FPS
     P.pm.append(('IN1',T0,T1))
     P.scene('IN1',[(pc,m-a)],cam=a/FPS,aud=[(0,fade(prof_audio(T0,T1)*PGAIN,15),1.0)],kind='prof')
     P.scene('IN2',[(pa,b-m)],cam=m/FPS,kind='prof',whoosh_=False,camfade=False,xin=9)
+    P.slides.append(dict(png=pa,cards=names,page=2,title='Di cosa parliamo',label='Di cosa parliamo',noprint=True))
     P.page=2
     for n in (1,2,3):do_arg(P,n)
     sc_gloss(P,1,'GL1')
@@ -292,7 +305,6 @@ def part2():
     P=Part('2')
     cover_part(P,[4,5,6],'INTRO2_R2','Sigla_Storia_15s.mp4')
     for k in (1,2,3):sc_spiegone(P,k,f'SP2_{k}')
-    P.page=1
     for n in (4,5,6):do_arg(P,n)
     sc_gloss(P,2,'GL2')
     sc_final(P,2,(4,5,6),['RF2','FIN2'])
@@ -307,7 +319,7 @@ def part2():
         P.page+=1
         c=re.sub(r'^\d\)\s*','',c).replace('\n',' ')
         p=label_slide(f'Compiti · {i+1} di {len(comp)}','Compiti',P.page,f'<div class="card on" style="font-size:38px;line-height:1.5;padding:30px 40px;width:1760px">{H.escape(c)}</div>',f'{W}/st/comp{i}.png',extra='#col{width:1760px}')
-        P.scene(f'COMP{i+1}',[(p,fi(max(20,0.07*len(c))))],kind='kore')
+        P.scene(f'COMP{i+1}',[(p,fi(max(20,0.07*len(c))))],aud=[(0,bed(fi(max(20,0.07*len(c)))/FPS),1.0)],kind='kore')
         P.slides.append(dict(png=p,cards=[c],page=P.page,title='Compiti',label='Compiti'))
     return P
 if __name__=='__main__':

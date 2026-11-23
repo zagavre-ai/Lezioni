@@ -16,7 +16,7 @@ CAMF=("crop=184:138:874:343,scale=412:309:flags=lanczos,eq=contrast=1.04:saturat
 def render_scene(states,cam=None,prev=None,xin=12,xs=8,name='s',camfade=True):
     """states=[(png,frames)], cam=t0 sorgente (s) o None, prev=png per la dissolvenza iniziale. Ritorna (mp4, ultimo_png, nframes)"""
     n=sum(f for _,f in states)
-    ka=[name,[(fh(p.split('@')[0]%1) if '%' in p else fh(p),f) for p,f in states],cam,camfade,fh(prev) if prev else None,xin,xs]
+    ka=[name,[((os.path.dirname(p)+fh(p.split('@')[0]%1)) if '%' in p else fh(p),f) for p,f in states],cam,camfade,fh(prev) if prev else None,xin,xs]
     if CRF!='19':ka.insert(1,CRF)
     key=h8(*ka)
     out=f'{CL}/{key}.mp4';last=f'{CL}/{key}.png'

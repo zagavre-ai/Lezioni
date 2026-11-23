@@ -24,23 +24,23 @@ def page(c,png,texts,n=None):
             except Exception:pass
     c.drawText(t);c.showPage()
 def main():
-    c=canvas.Canvas(W+'/out/Storia_Lez18_dispensa.pdf',pagesize=(PW,PH));c.setTitle("Storia · L'Italia repubblicana · dispensa")
-    page(c,cover(W+'/st/disp_cover.png'),["Storia","L'Italia repubblicana"])
-    maps=[]
     for w in ('1','2'):
+        maps=[]
+        c=canvas.Canvas(f'{W}/out/Storia_Lez18_Parte{w}_slide.pdf',pagesize=(PW,PH));c.setTitle(f"Storia · L'Italia repubblicana · dispensa Parte {w}")
+        page(c,cover(W+'/st/disp_cover.png'),["Storia","L'Italia repubblicana"])
         S=json.load(open(f'{W}/out/slides_parte{w}.json'))
         for i,s in enumerate(S):
             png=s['png'];txt=[s.get('title',''),s.get('label','')]+list(s.get('cards',[]))
-            if s.get('cards') and not s.get('quiz') and not s.get('table') and not s.get('map'):
+            if s.get('cards') and not s.get('quiz') and not s.get('table') and not s.get('map') and not s.get('mapref'):
                 if s.get('img'):png=img_slide(s['label'],s['title'],s['page'],s['img'],s['cards'],-1,f'{W}/st/dp_{w}_{i}.png',None,(),False,'.card{opacity:1}')
                 else:png=slide_cards(s['label'],s['title'],s['cards'],-1,s['page'],None,(),False,f'{W}/st/dp_{w}_{i}.png','.card{opacity:1}')
             if s.get('map'):
                 from maps import MAPS
                 txt+=[MAPS[s['map']]['title']]+[b[4] for b in MAPS[s['map']]['boxes']];maps.append((png,dict(s,title=MAPS[s['map']]['title'])))
             page(c,png,txt)
-    c.save()
-    m=canvas.Canvas(W+'/out/Storia_Lez18_mappe.pdf',pagesize=(PW,PH));m.setTitle("Storia · L'Italia repubblicana · mappe")
-    page(m,cover(W+'/st/map_cover.png',True),["MAPPE","Storia","L'Italia repubblicana"])
-    for png,s in maps:page(m,png,['Mappa',s.get('title','')])
-    m.save();print('ok',len(maps),'mappe')
+        c.save()
+        m=canvas.Canvas(f'{W}/out/Storia_Lez18_Parte{w}_mappe.pdf',pagesize=(PW,PH));m.setTitle("Storia · L'Italia repubblicana · mappe")
+        page(m,cover(W+'/st/map_cover.png',True),["MAPPE","Storia","L'Italia repubblicana"])
+        for png,s in maps:page(m,png,['Mappa',s.get('title','')])
+        m.save();print('ok parte',w,len(maps),'mappe')
 if __name__=='__main__':main()

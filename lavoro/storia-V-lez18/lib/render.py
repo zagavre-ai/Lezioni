@@ -17,8 +17,8 @@ body{width:1920px;height:1080px;background:#fff;overflow:hidden;font-family:'FG'
 .bar{position:absolute;left:80px;width:85px;height:6px;border-radius:4px;background:#2060AF}
 .foot{position:absolute;top:998px;font-weight:700;font-size:22px;letter-spacing:.14em;color:#2060AF;white-space:nowrap}
 .col{position:absolute;left:80px;width:1305px}
-.card{position:relative;background:#fff;border:2px solid #D5DCE8;border-radius:22px;box-shadow:0 10px 30px rgba(60,70,90,.10);padding:12px 28px 12px 100px;font-size:40px;line-height:1.46;font-weight:500;margin-bottom:14px;opacity:.62}
-.card.on{opacity:1;border:5px solid #FFE600;box-shadow:0 0 0 6px rgba(255,230,0,.28),0 12px 30px rgba(60,70,90,.14);padding:9px 25px 9px 97px}
+.card{position:relative;background:#fff;border:2px solid #D5DCE8;border-radius:22px;box-shadow:0 10px 30px rgba(60,70,90,.10);padding:12px 66px 12px 100px;font-size:40px;line-height:1.46;font-weight:500;margin-bottom:14px;opacity:.62}
+.card.on{opacity:1;border:5px solid #FFE600;box-shadow:0 0 0 6px rgba(255,230,0,.28),0 12px 30px rgba(60,70,90,.14);padding:9px 63px 9px 97px}
 .card .num{position:absolute;left:26px;top:20px;width:50px;height:50px;border-radius:50%;background:#E3E8F0;color:#3b4766;font-weight:800;font-size:28px;display:flex;align-items:center;justify-content:center;line-height:1}
 .card.on .num{background:#FFE600;color:#0B1530}
 .card.on::after{content:'';position:absolute;right:22px;top:22px;width:20px;height:20px;border-radius:50%;background:#FFE600;box-shadow:0 0 0 4px rgba(255,230,0,.35)}
@@ -99,11 +99,11 @@ def img_slide(label,title,page,imgpath,cards,active,out,kw=None,kw_on=(),cam=Tru
     """immagine a sinistra (560 px) e fino a 2 card a destra (36 px)"""
     b64=base64.b64encode(open(imgpath,'rb').read()).decode()
     ext=imgpath.rsplit('.',1)[-1]
-    body=f'<img src="data:image/{ext};base64,{b64}" style="position:absolute;left:0;top:0;width:600px;border-radius:16px;box-shadow:0 10px 30px rgba(60,70,90,.18)">'
-    body+='<div style="position:absolute;left:640px;top:0;width:665px">'+''.join(card_html(i+1,c,i==active) for i,c in enumerate(cards))+'</div>'
+    body=f'<img src="data:image/{ext};base64,{b64}" style="position:absolute;left:0;top:0;max-width:640px;max-height:600px;border-radius:16px;box-shadow:0 10px 30px rgba(60,70,90,.18)">'
+    body+='<div style="position:absolute;left:670px;top:0;width:635px">'+''.join(card_html(i+1,c,i==active) for i,c in enumerate(cards))+'</div>'
     b=frame(label,title,page)+'<div class=bar id=bar></div><div class=col id=col>'+body+'</div>'
     if cam:b+=cam_block(kw,kw_on)
-    return shot(b,out,'#col .card{font-size:36px;line-height:1.4;padding:12px 20px 12px 84px}#col .card .num{left:18px;width:44px;height:44px;font-size:24px}#col .card.on{padding:9px 17px 9px 81px}'+extra2)
+    return shot(b,out,'#col .card{font-size:36px;line-height:1.4;padding:12px 56px 12px 84px}#col .card .num{left:18px;width:44px;height:44px;font-size:24px}#col .card.on{padding:9px 53px 9px 81px}'+extra2)
 
 def quiz_png(label,qi,qn,q,opts,correct,reveal,expl,page,out):
     """opts: 4 testi nell'ordine mostrato; correct: indice; reveal: bool"""

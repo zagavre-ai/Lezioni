@@ -48,6 +48,7 @@ def disp(t):
     t=re.sub(r'\b([A-Za-zà-ÿ]+) per cento',_pc,t)
     t=converti(t)
     t=re.sub(r"[A-Za-zÀ-ÿ]+",lambda m:str(_w2n(m.group(0))) if (len(m.group(0))>=5 and _w2n(m.group(0))) else m.group(0),t)
+    t=re.sub(r'(19\d\d), (\d\d)\b',r'\1-19\2',t)
     return t
 def sents(name):
     return [s for s in re.split(r'(?<=[.!?])\s+',TXT[name]) if s.strip()]
@@ -107,3 +108,15 @@ class Part:
             if i<0:a=a[-i:];i=0
             out[i:i+len(a)]+=a[:len(out)-i]
         return out[:int(total*SR)]
+
+SIGLE=[('DC','Democrazia Cristiana'),('PCI','Partito comunista italiano'),('PSI','Partito socialista italiano'),('MSI','Movimento sociale italiano'),('NATO',"Organizzazione del Trattato dell'Atlantico del Nord"),('URSS','Unione Sovietica'),('CECA',"Comunità europea del carbone e dell'acciaio"),('Ceca',"Comunità europea del carbone e dell'acciaio"),('ENEL','ente energetico nazionale'),('Enel','ente energetico nazionale'),('CEE','Comunità economica europea'),('Cee','Comunità economica europea'),('CLN','Comitato di liberazione nazionale'),('PIL','prodotto interno lordo')]
+def xs(t):
+    for a,b in SIGLE:t=re.sub(r'\b'+a+r'\b(?!\s*\()(?!,? cioè)',f'{a} ({b})',t)
+    return t
+
+def bed(dur,level=0.035):
+    n=int(dur*SR);t=np.arange(n)/SR
+    pad=(np.sin(2*np.pi*220*t)+0.8*np.sin(2*np.pi*277.18*t)+0.6*np.sin(2*np.pi*329.63*t)+0.4*np.sin(2*np.pi*110*t))*(0.75+0.25*np.sin(2*np.pi*0.17*t))
+    f=int(SR*0.6);env=np.ones(n);env[:f]=np.linspace(0,1,f);env[-f:]=np.linspace(1,0,f)
+    a=(pad*env*level/2.2).astype(np.float32)
+    return np.stack([a,a],1)
