@@ -86,7 +86,7 @@ def p_map(k):
         shown.add(nd);states.append((LEAD+st_[i+1],png(map_html(m,set(shown),nd,pg),'map')))
     t_end=LEAD+vd+0.4;states.append((t_end,png(map_html(m,set(shown),None,pg),'map')))
     D=t_end+4.0
-    white_piece(f'MAP{k}',states,[(LEAD,w)],D,key_voice(vn),prov,sfx=[(t_end,SND+'titolo.wav')]);vc_sent(f'MAP{k}',LEAD,S_,st_,vd)
+    white_piece(f'MAP{k}',states,[(LEAD,w)],D,key_voice(vn),prov,sfx=[(t_end-0.3,W+'/snd2/fin_q.wav')]);vc_sent(f'MAP{k}',LEAD,S_,st_,vd)
 def p_cover(teacher=False):
     pg=numbering('cover');vn=vname('BENV1');txt=TEXTS[vn];w,vd,prov=prepare(vn,txt)
     states=[(0,png(cover(["Gli anni Sessanta","tra crisi e progressi"],[x['nome'] for x in ARGS],False,pg),'cover_n'))]
