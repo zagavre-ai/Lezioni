@@ -30,6 +30,10 @@
   {
    "quando": "23/11 00:46",
    "testo": "Stato 00:50 UTC: video Parte1 codificato (53,4 min, 293 MB, -16,2 LUFS, picco -1,4). controllo_rapido: unico errore = 9 pause mute oltre 2,5 s, tutte su schede con voce provvisoria in silenzio (benvenuto, argomenti, 3 mappe, schema, AN6_R2, compiti). Appena arrivano le voci Kore (BENV1_R2, DIC1, M*, SC5_3_R2, AN6_R2, CP1/CP2) rifaccio quelle schede, ricodifico e rilancio il controllo. Intanto preparo dispensa, mappe, sottotitoli, rapporto."
+  },
+  {
+   "quando": "23/11 10:46",
+   "testo": "10:50 UTC: ho scaricato le voci Kore (BENV1_R2, DIC1, M*, MF*, SC5_3_R2, AN6_R2, CP1, CP2). Rifaccio le schede, riassemblo, ricodifico, rilancio controllo_rapido e consegno. Sono oltre le 10:00 UTC: consegna prevista entro ~1 h 30."
   }
  ],
  "domande_sara": [],
@@ -97,5 +101,5 @@
  ],
  "materia": "storia-V",
  "lezione": "7",
- "aggiornato": "2026-11-23 00:46:11"
+ "aggiornato": "2026-11-23 10:46:07"
 }
