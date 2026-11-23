@@ -57,6 +57,10 @@
   {
    "quando": "22/11 20:03",
    "testo": "Altre voci con bordo troncato (ampiezza 0,36-0,76 negli ultimi 10 ms): PR74, PR64, PR44, PR46: aggiunte come _R2 sul ramo voci. Da riascoltare: PR22, PR14, PR15, PR16, PR21, PR33, PR42. Sigle non spiegate a voce (sullo schermo si': decidi se rigenerare): PR11, PR34, PR43, PR44, PR45, PR46, PR64, PIA1, RF1, RF2, GL2."
+  },
+  {
+   "quando": "23/11 01:17",
+   "testo": "Storia V lez14: Parti 1 e 2 montate (48 min ciascuna, solo materiale del prof). Aggiunta voce COMPITI su voci-storia-V-lez14. Ora controllo rapido; aspetto le voci (MB1-3, W1_R2, W2_R2, AN7_R2, AN8_R2, PR*_R2, COMPITI) per rifare mappe, benvenuti, compiti e consegnare."
   }
  ],
  "domande_sara": [],
@@ -97,5 +101,5 @@
  "materia": "Storia V",
  "lezione": "Lezione 14",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-22 21:57:39"
+ "aggiornato": "2026-11-23 01:17:43"
 }
