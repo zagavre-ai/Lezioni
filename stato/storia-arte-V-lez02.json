@@ -11,6 +11,17 @@
    "fotogrammi_attesi": 109464,
    "peso_MB": 337.5,
    "vtt": "Storia_arte_V_Lez2_Parte1.vtt"
+  },
+  "2": {
+   "stato": "IN_REVISIONE",
+   "voci": "segnaposto",
+   "video": "Storia_arte_V_Lez2_Parte2_1080p.mp4",
+   "durata_s": 860.6,
+   "durata": "14:20.6",
+   "fotogrammi": 25817,
+   "fotogrammi_attesi": 25817,
+   "peso_MB": 92.0,
+   "vtt": "Storia_arte_V_Lez2_Parte2.vtt"
   }
  },
  "manca": "voci Kore (non arrivate alle 11:00), compiti (PDF sbagliato), 2 opere Commons",
@@ -62,5 +73,5 @@
  "materia": "Storia dell'arte V",
  "lezione": "Lezione 2 · Il Romanticismo",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-23 12:02:26"
+ "aggiornato": "2026-11-23 12:02:28"
 }
