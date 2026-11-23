@@ -7,20 +7,20 @@ from anim import *
 TITOLO_MAPPA="Che cos'è l'Espressionismo?"
 # id: (classe, x,y,w,h, testo)   classi: l1 pesca, cel celeste, pag paglierino, men menta, lil lilla ; 'lbl' ovale
 BOX={
- 'C':('l1',760,100,400,96,"ESPRESSIONISMO"),
+ 'C':('l1',700,100,520,96,"ESPRESSIONISMO"),
  'cose':('pag',535,140,150,70,"cos'è"),
  'def':('cel',20,95,480,180,"un movimento artistico europeo nato in Germania nel 1905"),
- 'prec':('pag',380,340,230,70,"precursori"),
- 'vg':('men',20,300,310,58,"Vincent Van Gogh"),'mu':('men',20,368,310,58,"Edvard Munch"),'ga':('men',20,436,310,58,"Paul Gauguin"),
+ 'prec':('pag',410,345,230,70,"precursori"),
+ 'vg':('men',20,296,350,60,"Vincent Van Gogh"),'mu':('men',20,364,350,60,"Edvard Munch"),'ga':('men',20,432,350,60,"Paul Gauguin"),
  'stile':('pag',1250,115,140,70,"stile"),
  's1':('pag',1420,95,480,100,"deformazioni di volti, figure violente"),
  's2':('pag',1420,205,480,100,"colori forti e contrastati; marcata linea di contorno"),
  'art':('pag',1160,350,290,110,"gli artisti rappresentano"),
  'a1':('lil',1500,335,400,70,"il proprio stato d'animo"),'a2':('lil',1500,420,400,70,"il dramma esistenziale"),
  'mov':('pag',855,300,210,70,"movimenti"),
- 'db':('pag',20,510,360,100,"Die Brücke (Il Ponte)"),'dbd':('cel',20,622,360,80,"1905, a Dresda"),
- 'dbn':('men',20,714,360,150,"Kirchner, Schmidt-Rottluff, Heckel"),'dbp':('lil',20,876,360,160,"un ponte simbolico tra l'artista e il mondo, l'arte verso nuovi mondi espressivi"),
- 'man':('pag',410,510,610,530,"<b>manifesto</b><br>1. rifiuto dell'arte elegante<br>2. rappresentazione libera di idee, stati d'animo<br>3. immagini aggressive<br>4. figure deformate<br>5. rifiuto della prospettiva e del chiaroscuro<br>6. colori forti<br>7. linee spigolose"),
+ 'db':('pag',20,505,380,96,"Die Brücke (Il Ponte)"),'dbd':('cel',20,610,380,70,"1905, a Dresda"),
+ 'dbn':('men',20,690,380,140,"Kirchner, Schmidt-Rottluff, Heckel"),'dbp':('lil',20,840,380,200,"un ponte simbolico tra l'artista e il mondo, l'arte verso nuovi mondi espressivi"),
+ 'man':('pag',420,505,610,535,"<b>manifesto</b><br>1. rifiuto dell'arte elegante<br>2. rappresentazione libera di idee, stati d'animo<br>3. immagini aggressive<br>4. figure deformate<br>5. rifiuto della prospettiva e del chiaroscuro<br>6. colori forti<br>7. linee spigolose"),
  'cav':('pag',1050,510,420,100,"Il Cavaliere Azzurro (1911)"),
  'cavd':('lil',1050,622,420,200,"ricercano una espressione spirituale attraverso il colore e la forma"),
  'cavn':('men',1050,834,420,200,"Kandinskij<br>Marc<br>Klee<br>Macke"),
@@ -43,7 +43,7 @@ html,body{margin:0;width:1920px;height:1080px;background:#fff;overflow:hidden}
 #f{position:absolute;left:20px;bottom:6px;font:700 22px FigB;color:#2060AF;letter-spacing:.14em}
 .b{position:absolute;box-sizing:border-box;display:flex;align-items:center;justify-content:center;text-align:center;padding:8px 14px;border-radius:14px;font:600 36px/1.2 Fig;color:#0B1530;opacity:0}
 .b.left{text-align:left;justify-content:flex-start}
-.l1{background:#FFDCC6;border:5px solid #C2410C;font:800 50px Bri}.cel{background:#DCEEFB;border:4px solid #1D4ED8}.lil{background:#EBE3F7;border:4px solid #6D28D9}
+.l1{background:#FFDCC6;border:5px solid #C2410C;font:800 44px Bri}.cel{background:#DCEEFB;border:4px solid #1D4ED8}.lil{background:#EBE3F7;border:4px solid #6D28D9}
 .pag{background:#FFF3BF;border:4px solid #A16207}.men{background:#DDF3E4;border:4px solid #15803D}
 .b b{font-weight:800}
 #leg{position:absolute;right:20px;top:14px;display:flex;gap:12px;font:600 18px Fig;color:#0B1530}#leg span{display:flex;align-items:center;gap:6px}#leg i{display:inline-block;width:22px;height:16px;border-radius:4px;border:3px solid}
