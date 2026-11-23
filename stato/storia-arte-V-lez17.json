@@ -5,7 +5,7 @@
    "stato": "IN_MONTAGGIO"
   }
  },
- "manca": "",
+ "manca": "montaggio non fatto: attendo voci Kore (vox/) e opere; testi_voci.json e trascrizione pronti",
  "serve_master": [
   {
    "quando": "22/11 22:50",
@@ -25,10 +25,14 @@
   {
    "quando": "22/11 22:52",
    "testo": "trascrizione fatta (305 segmenti); in attesa risposta su immagini opere"
+  },
+  {
+   "quando": "23/11 12:09",
+   "testo": "come da master 12:55: mi fermo, nessun controllo periodico. Sara mi risveglia quando le voci sono pronte"
   }
  ],
  "materia": "Storia dell'arte V",
  "lezione": "Lezione 17 · Arte concettuale",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-23 10:46:40"
+ "aggiornato": "2026-11-23 12:09:03"
 }
