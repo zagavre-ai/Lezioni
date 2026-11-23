@@ -1,7 +1,7 @@
 {
  "tag": "storia-arte-V-lez12",
  "parti": {},
- "manca": "scene del docente e schede in montaggio; poi codifica, controlli, voci Kore (domattina)",
+ "manca": "rifacimento finale con correzioni (volume, sfasamento audio 30 ms, schermate uguali, pause mute); poi voci Kore (dalle 9:00), codifica, controlli, agente separato",
  "serve_master": [
   {
    "quando": "22/11 23:09",
@@ -17,7 +17,11 @@
   {
    "quando": "22/11 23:30",
    "testo": "22/11 23:40: materiali pronti, trascrizione fatta, 4 argomenti, dispensa e PDF mappe generati, montaggio in corso"
+  },
+  {
+   "quando": "23/11 00:40",
+   "testo": "23/11 00:55: prima codifica di prova 60,2 min / 324 MB; controllo rapido ha trovato 4 difetti, tutti già corretti nel montaggio in corso"
   }
  ],
- "aggiornato": "2026-11-22 23:30:58"
+ "aggiornato": "2026-11-23 00:40:26"
 }
