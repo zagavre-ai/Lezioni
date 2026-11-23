@@ -2,7 +2,7 @@
  "tag": "letteratura-V-lez04",
  "parti": {
   "1": {
-   "stato": "REVISIONATA",
+   "stato": "IN_REVISIONE",
    "titolo": "Naturalismo e Verismo",
    "voci": "kore",
    "quiz_ok": "si",
@@ -137,7 +137,11 @@
   {
    "quando": "22/11 20:21",
    "testo": "correzioni 22/11 fatte: controllo severo OK zero errori (passo 60 s), consegna sul ramo revisione-letteratura-V-lez04; pillole blu 14 s del 17/11 non incluse"
+  },
+  {
+   "quando": "23/11 10:51",
+   "testo": "23/11: letto DALLA_MASTER; correggo (1) piè di pagina senza nome del docente in video, dispensa e mappe, (2) pagina 16 Zola: D2 diviso a fine frase con l'approfondimento Goncourt nel mezzo e finestre a/b; poi controllo_rapido e consegna; prevista in ~60 min"
   }
  ],
- "aggiornato": "2026-11-22 20:21:53"
+ "aggiornato": "2026-11-23 10:51:25"
 }
