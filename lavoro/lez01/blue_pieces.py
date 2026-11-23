@@ -55,7 +55,7 @@ def quiz_card(n,tit):
     d.text((960,720),'Per continuare serve almeno l\'80%',font=fig(40,True),fill=(255,255,255),anchor='mm')
     p=png(im,f'Q{n}')
     v,D=video_stati(f'Q{n}',[(p,5.0)],bg=True)
-    a=audio_pezzo(f'Q{n}',D,[(SND+'trans.wav',0,-12,0,0.45,0),(SND+'quiz.wav',0.5,0,0,None,0)])
+    a=audio_pezzo(f'Q{n}',D,[(SND+'trans.wav',0,-12,0,0.45,0),(SND+'quiz.wav',0.5,0,0,None,0),(SND+'trans.wav',2.7,-14,0,2.0,0)])
     return v,a,D
 def pillola(n,tit):
     righe=piano_righe(n);vn=f'R{n}';vtxt=voci.VOCI[vn]
@@ -179,6 +179,7 @@ def ripasso_finale():
         d.text((960,150),'RIPASSO FINALE',font=fig(34,True),fill=GIALLO,anchor='mm')
         for i in range(5):
             x=700+i*130;d.ellipse((x,205,x+26,231),fill=GIALLO if i==k else (255,255,255,90))
+        if k<0:return im
         t,x=R[k];d.text((960,310),f'{k+1}. {t}',font=brico(56),fill=(255,255,255),anchor='mm')
         blu.card_blu(im,180,400,1560,x,'on',46)
         return im
@@ -203,8 +204,10 @@ def spiegone():
         for s_ in [s.strip() for s in re.split(r'(?<=[.!?])\s+',x) if s.strip()]:
             pos.append(acc/len(txt));acc+=len(voci.per_voce(s_))+1
     def layer(k):
-        i,s_=items[k];im=blu.layer();blu.intestazione(im);d=ImageDraw.Draw(im)
+        im=blu.layer();blu.intestazione(im);d=ImageDraw.Draw(im)
         d.text((80,160),'RIPASSO DELLA PARTE PRECEDENTE',font=fig(30,True),fill=GIALLO,anchor='lm')
+        if k<0:return im
+        i,s_=items[k]
         t=voci.SPS[i][0]
         for j,l in enumerate(wrap(d,f'{i+1}. {t}',brico(50),920)):d.text((80,215+j*58),l,font=brico(50),fill=(255,255,255))
         # frasi dell'argomento fino a k
@@ -253,7 +256,7 @@ def verifica_card():
     d.text((960,610),'Il Neoclassicismo',font=fig(46),fill=(205,222,250),anchor='mm')
     d.text((960,720),"Per proseguire serve almeno l'80%",font=fig(40,True),fill=(255,255,255),anchor='mm')
     p=png(im,'VER');v,D=video_stati('VER',[(p,5.0)],bg=True)
-    a=audio_pezzo('VER',D,[(SND+'trans.wav',0,-12,0,0.45,0),(SND+'quiz.wav',0.5,0,0,None,0)]);return v,a,D
+    a=audio_pezzo('VER',D,[(SND+'trans.wav',0,-12,0,0.45,0),(SND+'quiz.wav',0.5,0,0,None,0),(SND+'trans.wav',2.7,-14,0,2.0,0)]);return v,a,D
 def compiti_intro():
     im=blu.layer();blu.intestazione(im);d=ImageDraw.Draw(im)
     d.text((960,430),'COMPITI',font=brico(170),fill=(255,255,255),anchor='mm')
@@ -266,6 +269,7 @@ def compiti():
     def layer(k):
         im=blu.layer();blu.intestazione(im);d=ImageDraw.Draw(im)
         d.text((960,150),'COMPITI',font=fig(34,True),fill=GIALLO,anchor='mm')
+        if k<0:return im
         if k<4:
             d.text((960,225),f'Compito {k+1} di 4',font=brico(60),fill=(255,255,255),anchor='mm')
             blu.card_blu(im,180,310,1560,C[k],'on',40)

@@ -13,7 +13,7 @@ def sh(cmd,**k):
 def fr(d):return max(1,int(round(d*FPS)))
 def snap(d):return fr(d)/FPS
 def dur_wav(p):return float(sh(['ffprobe','-v','error','-show_entries','format=duration','-of','csv=p=0',p]).stdout)
-ENC=['-c:v','libx264','-preset','veryfast','-crf','19','-g','60','-pix_fmt','yuv420p','-r','30','-an']
+ENC=['-c:v','libx264','-preset','veryfast','-crf','21','-g','60','-pix_fmt','yuv420p','-r','30','-an']
 def _lista(states,name):
     """states: [(png_path,durata_s)] -> file lista concat con durate multiple di 1/30"""
     p=ST+name+'.txt';tot=0;n=0
