@@ -1,0 +1,103 @@
+{
+ "tag": "storia-V-lez18",
+ "parti": {
+  "1": {
+   "stato": "IN_MONTAGGIO"
+  }
+ },
+ "manca": "Parte 2, dispensa, PDF mappe, sottotitoli, controlli, voci Kore nuove",
+ "serve_master": [
+  {
+   "quando": "20/11 17:12",
+   "testo": "lez18: aggiunte 33 voci nuove (P1-6, SC*, MA1-3) in testi_voci.json, ramo voci-storia-V-lez18. Servono per montare."
+  },
+  {
+   "quando": "20/11 17:33",
+   "testo": "lez18 liberata (non montata): vedi ramo lavoro-storia-V-lez18, LEGGIMI_PASSAGGIO.md. Chi la prende parte da trascrizione e script pronti."
+  },
+  {
+   "quando": "22/11 18:40",
+   "testo": "lez18 (Storia V): 1) Inviate 27 voci nuove in voci-storia-V-lez18/testi_voci.json: INTRO1_R2 e INTRO2_R2 (senza nome del prof; INTRO1 e INTRO2 vecchie da non usare), SP2_1-3 (spiegone Parte 2), M2_*/M5_*/M6_* (mappe del prof ramo per ramo, una voce per riquadro). 2) Le mappe del prof sono 3 (args 2, 5, 6). Per args 1, 3, 4 il prof non ha mappa: confermi che NON si inventano (come da prompt) e che la 'mappa finale della lezione' si omette? Procedo cosi' salvo tua risposta. 3) Nota: esiste una vecchia consegna 16/11 (ramo consegna-storia-V-lez18, Parti da 48 e 47 min, grafica vecchia): la ignoro e rifaccio da zero come da Sara. 4) Uso voci Kore gia' presenti (AN*, P*, SC*, R*, GL*, RF*, FIN*) dopo controllo; provvisorie per le nuove."
+  },
+  {
+   "quando": "22/11 20:50",
+   "testo": "lez18: controllo delle voci Kore GIA' presenti in voci-storia-V-lez18 (trascrizione Parakeet): troncate in fondo AN2a (ampiezza finale 0,57, 'De Gasperi' tagliato), AN2b, AN6a ('Moro' mancante), R6. Aggiunte come AN2a_R2, AN2b_R2, AN6a_R2, R6_R2 in testi_voci.json (stesso testo). Le altre voci vecchie risultano intere. Parte 1 montata (50,2 min), Parte 2 in codifica."
+  },
+  {
+   "quando": "22/11 21:21",
+   "testo": "lez18: voci Kore GIA' presenti con sigle non spiegate (regola BES): CECA in R4, AN4c, SC4_4; NATO in AN4c; DC in R6; ENEL in R6, AN6b, RF2, SC6_2. Aggiunte le versioni _R2 con la sigla spiegata (testi in testi_voci.json). ATTENZIONE: per ENEL ho usato 'ente energetico nazionale' come lo dice il prof (nel nome vero e' 'Ente nazionale per l'energia elettrica'): da confermare. Totale voci da generare per me: 40 (30 nuove + 10 _R2). Elenco: voci_da_generare.json nel mio ramo di lavoro."
+  },
+  {
+   "quando": "23/11 08:16",
+   "testo": "lez18: voci da generare per me = 41 (elenco con testi: testi_voci.json nel ramo voci-storia-V-lez18, anche voci_da_generare.json nel mio ramo di lavoro): INTRO1_R2, INTRO2_R2, SP2_1-3, M2_01-08, M5_01-10, M6_01-07, COMPITI (nuova, compiti in fila come da tua regola) + rifacimenti _R2: AN2a, AN2b, AN6a, R6 (troncate in fondo) e R4, AN4c, SC4_4, AN6b, RF2, SC6_2 (sigle da spiegare). Alla consegna servira' che la master decida: P5b finisce con «…riforme sociali. Come.» e la risposta «La scuola media unica?» sta in P6a (pausa troppo corta per tagliare in mezzo)."
+  }
+ ],
+ "domande_sara": [],
+ "note": [
+  {
+   "quando": "18/11 23:41",
+   "testo": "IN_REVISIONE chat v3: presa da claude/pensive-pascal-5ugbfg (dopo lez 11)"
+  },
+  {
+   "quando": "19/11 02:20",
+   "testo": "liberata 19/11: ripresa correzioni (chat v3 non ha iniziato la 18)"
+  },
+  {
+   "quando": "19/11 19:00",
+   "testo": "IN_REVISIONE chat v3 19/11 12:30: presa da claude/pensive-pascal-5ugbfg (rifacimento da zero; materiali in scarico)"
+  },
+  {
+   "quando": "20/11 15:58",
+   "testo": "20/11 ripresa: letti messaggi master (05:10 card intere/card sola solo con immagine, 05:25 intro max 3 min + timeline rigenerate). Prima verifico e correggo la lez 5 (card sole su slide: argomenti 2,3,4,6), poi riprendo la 18"
+  },
+  {
+   "quando": "20/11 16:29",
+   "testo": "20/11 16:29: rifaccio le slide della lez 5 (card 2-3 per slide, card sola solo con carta); poi riprendo la 18"
+  },
+  {
+   "quando": "20/11 17:12",
+   "testo": "17:12 voci inviate; scaricati materiali, trascrizione prof in corso"
+  },
+  {
+   "quando": "20/11 17:33",
+   "testo": "17:33 20/11: lez 18 NON montata, la libero con materiali di passaggio nel ramo lavoro-storia-V-lez18 (trascrizione, cambi slide, script, piano). Serve scrivere ~50-60 sotto-card dalle parole del prof: gli argomenti durano 10-19 min con una sola slide da 3 card. Voci nuove P1-6, SC*, MA1-3 già in voci-storia-V-lez18. Lez 5 e 11 consegnate."
+  },
+  {
+   "quando": "22/11 18:35",
+   "testo": "correzioni 22/11: presa da claude/awesome-einstein-j8pcjt (rifacimento da zero dai materiali di lavoro-storia-V-lez18)"
+  },
+  {
+   "quando": "22/11 18:50",
+   "testo": "22/11 18:xx: materiali scaricati, card scritte per 6 argomenti, motore di montaggio e mappe BES pronti; ora montaggio Parte 1 e 2 con voci provvisorie"
+  },
+  {
+   "quando": "22/11 19:05",
+   "testo": "19:10 UTC: Parte 1 in codifica (prof con card/sotto-slide, mappe BES, schede blu del modello); Parte 2 dopo. Voci nuove provvisorie (espeak) in attesa delle Kore."
+  },
+  {
+   "quando": "22/11 21:24",
+   "testo": "21:00 UTC: Parte 1 montata (50,2 min, 374 MB) e Parte 2 (58,9 min) montate con voci provvisorie; rifaccio Parte 2 a CRF 21 (peso > 400 MB), poi controlli (controllo_severo, agente separato), dispensa, PDF mappe, sottotitoli. Mappe: solo le 3 del prof (arg 2, 5, 6) come da risposta master."
+  },
+  {
+   "quando": "22/11 22:47",
+   "testo": "23:00 UTC: primo controllo separato fatto (4 bloccanti, tutti corretti: card in ritardo arg4, tagli a meta' frase, glossario/AN, sigle, pagine). Rifaccio Parte 1 e 2 (circa 75 min), poi nuovo controllo. Voci Kore nuove: in attesa."
+  },
+  {
+   "quando": "23/11 01:22",
+   "testo": "01:25 UTC: Parte 1 (50,0 min, 378 MB) e Parte 2 (58,5 min, 371 MB) rifatte dopo i due controlli separati; restano in attesa delle voci Kore (40 da generare, vedi voci_da_generare.json) e del controllo_severo finale. Nota: nel repo c'e' un ramo temporaneo 'tmp-test-lez18' (prova di push, 90 MB): non riesco a cancellarlo, lo puoi cancellare tu."
+  },
+  {
+   "quando": "23/11 03:26",
+   "testo": "03:30 UTC: Parte 1 (50,0 min, 378 MB) e Parte 2 (58,5 min, 371 MB) rifatte dopo il secondo controllo separato: controllo_severo OK su entrambe (prima della rifusione finale), -16,3/-16,4 LUFS. Terzo controllo in corso. Aspetto le voci Kore (dalle 9:00 italiane) per rimontare e consegnare."
+  },
+  {
+   "quando": "23/11 04:59",
+   "testo": "04:55 UTC: rifatte Parte 1 (50,1 min) e 2 (58,8 min) dopo il terzo controllo separato (card riallineate all'inizio della frase, sottotitoli corretti, sigle spiegate, foto del prof). Quarto controllo in corso. Voci nuove non ancora arrivate nel ramo voci."
+  },
+  {
+   "quando": "23/11 08:16",
+   "testo": "08:20 UTC: lavoro senza voci FINITO. Parte 1 (50,0 min, 368 MB) e Parte 2 (58,9 min, 369 MB) montate con voci provvisorie; controllo_severo OK (prima delle ultime modifiche), controllo_rapido.py ESITO OK su entrambe; 4 controlli separati fatti. Applicate le tue regole di stasera: schede ripasso/schema blu scure, carta del confine grande, nessuna scheda muta (sottofondo), compiti con voce COMPITI. Mi fermo fino alle voci: appena arrivano rimonto e consegno su revisione-storia-V-lez18."
+  }
+ ],
+ "aggiornato": "2026-11-23 08:16:07"
+}
