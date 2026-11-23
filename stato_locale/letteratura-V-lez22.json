@@ -8,7 +8,7 @@
    "durata": "48:47.1",
    "fotogrammi": 87812,
    "fotogrammi_attesi": 87812,
-   "peso_MB": 281.4,
+   "peso_MB": 279.2,
    "vtt": "Letteratura_Lez22_Parte1.vtt",
    "scheda": {
     "materia": "Letteratura italiana (V)",
@@ -508,7 +508,11 @@
   {
    "quando": "23/11 10:51",
    "testo": "23/11 correzioni master: FATTO: piè di pagina senza nome del docente (video, dispensa, mappe); schede quiz/verifica 'Rispondi · premi Controlla · poi Continua'; voce COMPITI aggiunta a testi_voci.json. IN CORSO: ricodifica D1-D5, Quiz, Verifica (circa 25 min), poi assemblaggio, controllo_rapido.py, foglio e json. MANCA: montare i compiti con la voce quando arriva (provvisoria: scheda con jingle)."
+  },
+  {
+   "quando": "23/11 11:22",
+   "testo": "23/11 correzioni master fatte: piè di pagina senza nome (video, dispensa, mappe), Controlla, controllo_rapido ESITO OK (foglio e json sul ramo). RESTA: voce COMPITI (richiesta, testo in testi_voci.json): quando arriva rimonto la scheda compiti (solo CMP, circa 15 min). Mi fermo fino al prossimo cambio di fase (regola consumo)."
   }
  ],
- "aggiornato": "2026-11-23 10:51:34"
+ "aggiornato": "2026-11-23 11:22:40"
 }
