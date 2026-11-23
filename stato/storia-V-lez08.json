@@ -1,6 +1,17 @@
 {
  "tag": "storia-V-lez08",
- "parti": {},
+ "parti": {
+  "1": {
+   "stato": "REVISIONATA",
+   "voci": "kore",
+   "video": "Storia_Lez8_Parte1_1080p.mp4",
+   "durata_s": 3096.1,
+   "durata": "51:36.1",
+   "fotogrammi": 92884,
+   "fotogrammi_attesi": 92884,
+   "peso_MB": 326.2
+  }
+ },
  "manca": "",
  "serve_master": [
   {
@@ -45,7 +56,11 @@
   {
    "quando": "22/11 23:47",
    "testo": "23:50 UTC: Parti 1 e 2 rifatte e codificate (51:07 e 59:24, -15,9/-16,0 LUFS, 320/347 MB). controllo_severo: slide oltre 3 min e schermate identiche = 0. Restano solo pause >2,5 s (sono le voci Kore provvisorie in silenzio) e 'titolo copertina: italiano' (falso positivo OCR: la copertina è giusta; nella Parte 2 non c'è copertina per regola). Appena arrivano le voci: sostituzione, ricodifica, sottotitoli, dispensa, controllo agente separato, consegna."
+  },
+  {
+   "quando": "23/11 09:23",
+   "testo": "CONSEGNA CON DIFETTI NOTI (vedi RAPPORTO_REVISIONE.md sez. 9): numeri in lettere sullo schermo nelle schede animate, PNF/MVSN non rispiegate in R6, Parole chiave tagliate in alcune slide P2, foto vicine al piede, approfondimenti spogli; sottotitoli da rileggere; quiz Q7 nuovo da approvare. Non e' la dicitura 'correzioni 22/11 fatte': decide la master."
   }
  ],
- "aggiornato": "2026-11-22 23:47:34"
+ "aggiornato": "2026-11-23 09:23:48"
 }
