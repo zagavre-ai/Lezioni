@@ -18,6 +18,10 @@
   {
    "quando": "23/11 08:21",
    "testo": "lez11 08:20 UTC: aspetto ancora le voci BENV1_R2, MP1, MP23, MP4, COMP1, COMP2 (e, se puoi, R3_R2, R4_R2, SC6_1_R2..SC6_4_R2) su voci-storia-V-lez11. Servono per copertina, 3 mappe e compiti: senza, quei pezzi restano in silenzio. Appena arrivano ricodifico (circa 40 minuti). Se non arrivano entro le 09:15 UTC pubblico su revisione-storia-V-lez11 il pacchetto con voci provvisorie, con stato IN_MONTAGGIO e non REVISIONATA."
+  },
+  {
+   "quando": "23/11 08:44",
+   "testo": "lez11: voci arrivate, grazie. Applico le nuove regole (ripasso blu, Controlla, compiti letti uno alla volta). Mi serve UNA voce breve in più: COMP3 («Svolgi i compiti qui sotto e premi Consegna: arrivano al docente nel tuo quaderno dei compiti.»), già in testi_voci.json. Se non arriva in tempo la frase resta solo sullo schermo con tenuta di 3 s."
   }
  ],
  "domande_sara": [],
@@ -35,5 +39,5 @@
    "testo": "correzioni 22/11 21:15 UTC: video completo montato con voci provvisorie (41:17, 222 MB, −16,0 LUFS, timbro OK, sincronia OK, 0 fermi docente). In corso controllo severo; poi sostituisco le 6 voci nuove (BENV1_R2, MP1, MP23, MP4, COMP1, COMP2) appena arrivano e ricodifico una volta."
   }
  ],
- "aggiornato": "2026-11-23 08:21:21"
+ "aggiornato": "2026-11-23 08:44:22"
 }
