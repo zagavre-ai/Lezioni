@@ -97,3 +97,11 @@ Gli approfondimenti e i ripassi Kore sono a 40 px (non a 30) e a tre card per pa
 - Il controllo del §11 da parte di un agente separato: vedi §3.
 - La foto di Gozzano è a bassa risoluzione (§6).
 - Confronto pagina PDF ↔ fotogramma: le pagine sono le stesse immagini del video (stato senza evidenziazione) — **S**.
+
+## 10. Correzioni 23/11 (DALLA_MASTER: consegna 19:28 respinta)
+- **Piè di pagina**: tolto «Prof. Giorgio Mazzotti» da TUTTE le slide del video (restano «LETTERATURA ITALIANA V» e «Pagina N», come dispensa e mappe); il nome sta solo nella fascia gialla. Misurato sul foglio dei fotogrammi.
+- **Pausa muta a 50:27 (Verifica)**: scheda accorciata a 3,9 s con `trans.wav` a +2,4 s; **nessuna pausa oltre 2,5 s** (`controllo_rapido.py`: **ESITO OK**, nessun errore).
+- **Quiz e Verifica**: «premi Controlla» al posto di «premi Check».
+- **Compiti**: ora una card alla volta con bordo giallo, più la riga «Svolgi i compiti qui sotto e premi Consegna…». La voce unica `COMPITI` e le rifatte `P1_AN11b_R2`, `P1_AN5b_R2`, `RF_R2`, `GL_R2` (inizio/fine troncati nella trascrizione) sono **richieste nel ramo voci**: nel video ci sono ancora le voci provvisorie (4 voci R6_COMP1–4 in fila). Appena arrivano le sostituisco e riconsegno. `M6_R2` («Ecco le caratteristiche») è già nel video.
+- Falsi allarmi indicati dalla master («card sola» a 2:45 ecc.): non toccati.
+- Allegati: `foglio_fotogrammi_*.jpg` e `controllo_rapido_*.json`.

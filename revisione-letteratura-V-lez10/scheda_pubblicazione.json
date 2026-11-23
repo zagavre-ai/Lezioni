@@ -1,7 +1,7 @@
 {
  "materia": "Letteratura italiana (V)",
  "titolo": "Letteratura V · Lezione 10 · Il primo Novecento e la lirica italiana",
- "durata_s": 3099.8,
+ "durata_s": 3103.8,
  "argomenti": [
   {
    "n": 1,
@@ -29,7 +29,7 @@
   }
  ],
  "t_verifica": 3025.233,
- "t_compiti": 3034.633,
+ "t_compiti": 3034.133,
  "quiz": {
   "Q1": {
    "title": "Quiz 1 · L'Età giolittiana e la Grande Guerra",
