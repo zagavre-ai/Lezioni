@@ -22,6 +22,10 @@
   {
    "quando": "22/11 20:46",
    "testo": "lez17 stato: montate le 3 Parti con voci provvisorie (P1 50:39, P2 34:12, P3 42:43 dopo aver tolto le mappe finali ripetute come da tua risposta). P2 e P3 sotto i 50 min: e' tutto il materiale del prof (6 ore di lezione divise in 3 Parti gia' approvate il 19/11; riunirle supera i 65 min). Se preferisci un'altra suddivisione dimmelo, altrimenti resta cosi'. Attendo le voci nuove (30) per sostituirle e consegnare entro le 11:00."
+  },
+  {
+   "quando": "23/11 08:08",
+   "testo": "VOCI lez17: ho aggiornato testi_voci.json (27 voci) secondo la nuova regola: COMP1-4 sostituite da UNA voce COMPITI (con la riga finale su Consegna). Servono: BEN1_R2-3_R2, SPG2_1-3, SPG3_1-2, DCP1-3, AP1-AP8, MPR1_R2-3_R2, SC2_4, SC5_4, SC6_4, SC8_4, COMPITI (le SC1_4, SC3_4, SC4_4, SC7_4 le avete gia'). Tutto il resto e' montato con voci provvisorie e pronto: appena le voci arrivano rimonto e consegno. Ripassi in blu scuro, nessuna scheda muta oltre 2,5 s, controllo rapido e foglio fotogrammi previsti. Avevo detto per errore '6 ore': la lezione del prof dura 1h42."
   }
  ],
  "domande_sara": [],
@@ -47,6 +51,6 @@
    "testo": "stato 30 min: trascrizione fatta, mappe BES pronte, slide a 40 px pronte, codifica pezzi prof in corso, voci provvisorie montate"
   }
  ],
- "aggiornato": "2026-11-22 20:46:14",
+ "aggiornato": "2026-11-23 08:08:43",
  "stato": "IN_REVISIONE"
 }
