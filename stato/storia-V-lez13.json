@@ -37,7 +37,11 @@
   {
    "quando": "22/11 22:36",
    "testo": "22/11 22:40 UTC: tutte e 3 le Parti montate con voci provvisorie (P1 48:54, P2 52:16, P3 56:03; P1 sotto i 50 min: solo materiale del prof). Fatto: parlato pulito del prof con timbro intatto, 11 argomenti a finestre (card intere, max 3), mappe del prof ramo per ramo, schede, approfondimenti, glossario, spiegoni, verifica, compiti. In corso: controllo severo, dispense, sottotitoli, codifica finale (CRF più alto: oltre 400 MB a CRF 19). Dipende dalle voci: arrivando alle 9:00 italiane resta poco margine: se avanzano, prima le voci MPB1-6, BEN2-3, RIP2C-3C, VER13, COMP13, MPBF1-3."
+  },
+  {
+   "quando": "23/11 12:04",
+   "testo": "23/11 12:10 UTC: Parti 1-3 montate con tutte le voci arrivate. Le voci MPB1, MPB4, VER13, RF3_R2 avevano letto la regia: ho usato la seconda ripresa pulita già contenuta nello stesso file (tagliata nel silenzio, trascrizione confrontata: 0 differenze). R9_R2 (ps09) resta con la voce R9 precedente (CLN spiegato sullo schermo). COMPFINE non arrivata: la riga finale dei compiti è a schermo con il jingle. Controllo rapido Parte 1: peso 346 MB, LUFS -16,1; corretti picco (-0,6 → limitatore) e pausa muta 3:06 (scheda «Di cosa parliamo» accorciata). Ricodifica finale in corso, poi foglio e json per ogni Parte, sottotitoli, dispense e consegna."
   }
  ],
- "aggiornato": "2026-11-23 10:48:57"
+ "aggiornato": "2026-11-23 12:04:15"
 }
