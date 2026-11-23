@@ -4,11 +4,11 @@
   "1": {
    "stato": "REVISIONATA",
    "video": "Letteratura_Lez10_Parte1_1080p.mp4",
-   "durata_s": 3099.8,
-   "durata": "51:39.8",
-   "fotogrammi": 92994,
-   "fotogrammi_attesi": 92994,
-   "peso_MB": 347.2,
+   "durata_s": 3103.8,
+   "durata": "51:43.8",
+   "fotogrammi": 93114,
+   "fotogrammi_attesi": 93114,
+   "peso_MB": 343.3,
    "vtt": "Letteratura_Lez10_Parte1.vtt"
   }
  },
@@ -68,10 +68,14 @@
   {
    "quando": "22/11 19:28",
    "testo": "correzioni 22/11 fatte (con riserve) · 51:39,8 · 92994 fotogrammi · -16,0 LUFS · picco -2,0 dBTP · quiz +0,003 s · max 3 card, 40 px, nessuna schermata identica oltre 150 s, mappa BES ramo per ramo, verifica+compiti nel video · controllo_severo NON completato (OCR troppo lento): da rilanciare · da riascoltare voci AN11b/AN5b/AN8/RF/AN3b/GL · vedi RAPPORTO_REVISIONE.md §3"
+  },
+  {
+   "quando": "23/11 11:35",
+   "testo": "23/11 11:35 UTC riconsegna: piè di pagina senza nome docente, pausa verifica corretta, Controlla, compiti uno alla volta; controllo_rapido ESITO OK, foglio+json sul ramo. In attesa delle voci COMPITI e R2 (AN11b, AN5b, RF, GL): le sostituisco e riconsegno appena arrivano"
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 10 · Il primo Novecento e la lirica italiana",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-22 19:28:30"
+ "aggiornato": "2026-11-23 11:35:05"
 }
