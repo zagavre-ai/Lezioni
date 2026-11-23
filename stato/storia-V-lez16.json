@@ -3,14 +3,510 @@
  "parti": {
   "1": {
    "titolo": "Gli anni Sessanta tra crisi e progressi",
-   "stato": "IN_MONTAGGIO",
-   "voci": "segnaposto",
+   "stato": "REVISIONATA",
+   "voci": "kore",
    "video": "Storia_Lez16_Parte1_1080p.mp4",
-   "durata_s": 3560.8,
-   "durata": "59:20.8",
-   "fotogrammi": 106823,
-   "fotogrammi_attesi": 106823,
-   "peso_MB": 287.4
+   "durata_s": 3573.5,
+   "durata": "59:33.5",
+   "fotogrammi": 107205,
+   "fotogrammi_attesi": 107205,
+   "peso_MB": 345.6,
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "si",
+   "vtt": "Storia_Lez16_Parte1.vtt",
+   "scheda": {
+    "materia": "Storia V",
+    "titolo": "Storia V · Gli anni Sessanta tra crisi e progressi · Parte 1",
+    "durata_s": 3573.5,
+    "argomenti": [
+     {
+      "n": 1,
+      "titolo": "L'età del benessere",
+      "inizio_s": 188.418,
+      "quiz_s": 281.018
+     },
+     {
+      "n": 2,
+      "titolo": "Kennedy e la Nuova Frontiera",
+      "inizio_s": 286.018,
+      "quiz_s": 943.252
+     },
+     {
+      "n": 3,
+      "titolo": "Johnson e la Great Society",
+      "inizio_s": 948.252,
+      "quiz_s": 1467.484
+     },
+     {
+      "n": 4,
+      "titolo": "La corsa allo spazio",
+      "inizio_s": 1472.484,
+      "quiz_s": 1998.851
+     },
+     {
+      "n": 5,
+      "titolo": "I punti di attrito della guerra fredda",
+      "inizio_s": 2003.851,
+      "quiz_s": 2668.552
+     },
+     {
+      "n": 6,
+      "titolo": "Il blocco sovietico da Chruščëv a Brežnev",
+      "inizio_s": 2673.552,
+      "quiz_s": 2959.718
+     },
+     {
+      "n": 7,
+      "titolo": "Il Sessantotto: una protesta globale",
+      "inizio_s": 2964.718,
+      "quiz_s": 3327.251
+     }
+    ],
+    "quiz": {
+     "Q1": {
+      "title": "Quiz 1 · L'età del benessere",
+      "items": [
+       {
+        "p": "Che cosa trasforma la vita quotidiana in Occidente negli anni Sessanta?",
+        "a": "Il capitalismo avanzato e i consumi di massa",
+        "w": [
+         "La crisi del petrolio",
+         "La guerra civile",
+         "Il ritorno all'agricoltura"
+        ],
+        "e": "Il capitalismo avanzato e i consumi di massa cambiano la vita quotidiana."
+       },
+       {
+        "p": "Quale di questi è un fattore della crescita economica?",
+        "a": "Il basso costo delle materie prime, come il petrolio",
+        "w": [
+         "L'aumento delle tasse",
+         "La chiusura dei commerci",
+         "La fine della tecnologia"
+        ],
+        "e": "Petrolio a basso costo, innovazioni tecnologiche e accordi di Bretton Woods favoriscono la crescita."
+       },
+       {
+        "p": "Che cos'è il «baby boom»?",
+        "a": "Un forte aumento delle nascite",
+        "w": [
+         "Un tipo di bomba",
+         "Una crisi economica",
+         "Un nuovo ballo"
+        ],
+        "e": "Si registra il baby boom e aumentano le aspettative di vita."
+       },
+       {
+        "p": "Che cosa garantisce il Welfare State?",
+        "a": "Servizi come istruzione e sanità pubblica",
+        "w": [
+         "Solo servizi privati a pagamento",
+         "Il servizio militare",
+         "La censura della stampa"
+        ],
+        "e": "Si diffondono servizi fondamentali gratuiti o accessibili."
+       },
+       {
+        "p": "Come cambia il ruolo delle donne?",
+        "a": "Entrano nel lavoro qualificato e partecipano di più alla politica",
+        "w": [
+         "Perdono il diritto di voto",
+         "Escono dal mondo del lavoro",
+         "Non possono più studiare"
+        ],
+        "e": "Si avvia un progressivo inserimento delle donne nel lavoro qualificato."
+       }
+      ]
+     },
+     "Q2": {
+      "title": "Quiz 2 · Kennedy e la Nuova Frontiera",
+      "items": [
+       {
+        "p": "Come si chiama il programma politico di Kennedy?",
+        "a": "Nuova Frontiera",
+        "w": [
+         "New Deal",
+         "Great Society",
+         "America First"
+        ],
+        "e": "La Nuova Frontiera punta sul progresso economico, scientifico e sociale e sui diritti civili."
+       },
+       {
+        "p": "Quale lotta sostiene Kennedy in politica interna?",
+        "a": "Quella contro la segregazione razziale",
+        "w": [
+         "Quella contro il voto alle donne",
+         "Quella contro la scuola pubblica",
+         "Quella contro i sindacati"
+        ],
+        "e": "Kennedy sostiene la lotta per i diritti civili degli afroamericani."
+       },
+       {
+        "p": "Quale figura è un simbolo della lotta contro la segregazione?",
+        "a": "Rosa Parks",
+        "w": [
+         "Neil Armstrong",
+         "Jurij Gagarin",
+         "Lyndon Johnson"
+        ],
+        "e": "Rosa Parks e Martin Luther King simboleggiano la lotta per i diritti civili."
+       },
+       {
+        "p": "Dove viene assassinato Kennedy?",
+        "a": "A Dallas",
+        "w": [
+         "A Washington",
+         "A New York",
+         "A Berlino"
+        ],
+        "e": "Kennedy viene assassinato a Dallas il 22 novembre 1963."
+       },
+       {
+        "p": "Qual è la linea di Kennedy in politica estera?",
+        "a": "Rilanciare la sfida al blocco comunista",
+        "w": [
+         "Allearsi con l'URSS",
+         "Ritirarsi da ogni conflitto",
+         "Uscire dalla NATO"
+        ],
+        "e": "Kennedy rilancia la sfida al blocco comunista nel contesto della guerra fredda."
+       }
+      ]
+     },
+     "Q3": {
+      "title": "Quiz 3 · Johnson e la Great Society",
+      "items": [
+       {
+        "p": "Come si chiama il programma di riforme di Johnson?",
+        "a": "Great Society",
+        "w": [
+         "Nuova Frontiera",
+         "Welfare State",
+         "New Deal"
+        ],
+        "e": "Johnson prosegue la linea di Kennedy con riforme contro povertà e ingiustizia razziale."
+       },
+       {
+        "p": "Che cosa stabilisce il Civil Rights Act del 1964?",
+        "a": "Il divieto della segregazione",
+        "w": [
+         "Il voto alle donne",
+         "La corsa allo spazio",
+         "La fine della guerra del Vietnam"
+        ],
+        "e": "Il Civil Rights Act combatte la segregazione razziale."
+       },
+       {
+        "p": "Che cosa garantisce il Voting Rights Act del 1965?",
+        "a": "Il diritto di voto agli afroamericani",
+        "w": [
+         "Il diritto di sciopero",
+         "La sanità gratuita",
+         "Il servizio militare"
+        ],
+        "e": "Il Voting Rights Act garantisce il diritto di voto agli afroamericani."
+       },
+       {
+        "p": "Chi viene assassinato nel 1968?",
+        "a": "Martin Luther King",
+        "w": [
+         "John F. Kennedy",
+         "Lyndon Johnson",
+         "Rosa Parks"
+        ],
+        "e": "Nonostante le leggi, crescono gli scontri e nel 1968 viene ucciso il reverendo King."
+       },
+       {
+        "p": "Che cosa succede nelle città americane nonostante le nuove leggi?",
+        "a": "Aumentano gli scontri",
+        "w": [
+         "Scompare la povertà",
+         "Finisce la guerra fredda",
+         "Si chiudono le fabbriche"
+        ],
+        "e": "Le tensioni interne restano forti."
+       }
+      ]
+     },
+     "Q4": {
+      "title": "Quiz 4 · La corsa allo spazio",
+      "items": [
+       {
+        "p": "Che cosa lanciano i sovietici nel 1957?",
+        "a": "Lo Sputnik, il primo satellite artificiale",
+        "w": [
+         "La prima navicella sulla Luna",
+         "La prima stazione spaziale",
+         "Il primo razzo americano"
+        ],
+        "e": "Lo Sputnik è il primo satellite artificiale."
+       },
+       {
+        "p": "Chi è il primo uomo nello spazio?",
+        "a": "Jurij Gagarin",
+        "w": [
+         "Neil Armstrong",
+         "John Kennedy",
+         "Nikita Chruščëv"
+        ],
+        "e": "Nel 1961 Gagarin è il primo uomo nello spazio."
+       },
+       {
+        "p": "Quale missione porta il primo uomo sulla Luna?",
+        "a": "Apollo 11",
+        "w": [
+         "Sputnik",
+         "Vostok 1",
+         "Mercury 7"
+        ],
+        "e": "Il 20 luglio 1969 l'Apollo 11 porta Neil Armstrong sulla Luna."
+       },
+       {
+        "p": "Chi lancia il progetto lunare americano?",
+        "a": "Kennedy",
+        "w": [
+         "Johnson",
+         "Brežnev",
+         "Chruščëv"
+        ],
+        "e": "Kennedy lancia il progetto lunare come riscatto americano."
+       },
+       {
+        "p": "Perché USA e URSS gareggiano nello spazio?",
+        "a": "Per dimostrare la propria superiorità tecnologica e ideologica",
+        "w": [
+         "Per cercare petrolio",
+         "Per collaborare in pace",
+         "Per motivi turistici"
+        ],
+        "e": "Lo spazio è il terreno di scommessa della guerra fredda."
+       }
+      ]
+     },
+     "Q5": {
+      "title": "Quiz 5 · I punti di attrito della guerra fredda",
+      "items": [
+       {
+        "p": "Quando viene eretto il Muro di Berlino?",
+        "a": "Nell'agosto 1961",
+        "w": [
+         "Nel 1945",
+         "Nel 1957",
+         "Nel 1968"
+        ],
+        "e": "La Germania Est lo costruisce nell'agosto 1961."
+       },
+       {
+        "p": "Perché viene costruito il Muro di Berlino?",
+        "a": "Per fermare la fuga della popolazione verso l'Occidente",
+        "w": [
+         "Per difendersi dagli Stati Uniti",
+         "Per celebrare la vittoria",
+         "Per dividere Berlino tra Francia e Regno Unito"
+        ],
+        "e": "Il Muro ferma l'esodo continuo dalla Germania Est."
+       },
+       {
+        "p": "Che cosa provoca la crisi di Cuba del 1962?",
+        "a": "L'installazione di missili sovietici sull'isola",
+        "w": [
+         "Un attacco cubano agli USA",
+         "La caduta del Muro",
+         "Lo sbarco sulla Luna"
+        ],
+        "e": "È il massimo punto di tensione globale della guerra fredda."
+       },
+       {
+        "p": "Contro chi combattono gli Stati Uniti in Vietnam?",
+        "a": "Le forze comuniste del Nord",
+        "w": [
+         "L'esercito cinese in Corea",
+         "I sovietici a Berlino",
+         "I cubani"
+        ],
+        "e": "Gli USA intervengono massicciamente contro le forze comuniste del Nord Vietnam."
+       },
+       {
+        "p": "Come reagisce l'opinione pubblica mondiale alla guerra del Vietnam?",
+        "a": "Con una fortissima opposizione",
+        "w": [
+         "Con entusiasmo",
+         "Con indifferenza",
+         "Con un sostegno unanime"
+        ],
+        "e": "La guerra genera proteste in tutto il mondo."
+       }
+      ]
+     },
+     "Q6": {
+      "title": "Quiz 6 · Il blocco sovietico da Chruščëv a Brežnev",
+      "items": [
+       {
+        "p": "Che cosa avvia Chruščëv?",
+        "a": "La destalinizzazione",
+        "w": [
+         "La Primavera di Praga",
+         "I piani quinquennali",
+         "La corsa alla Luna"
+        ],
+        "e": "Chruščëv avvia la destalinizzazione, ma mantiene il controllo sul blocco orientale."
+       },
+       {
+        "p": "Che cosa caratterizza l'URSS di Brežnev?",
+        "a": "Un rigido centralismo e la repressione delle riforme",
+        "w": [
+         "La libertà di stampa",
+         "Elezioni libere",
+         "Lo scioglimento del Patto di Varsavia"
+        ],
+        "e": "Con Brežnev si torna a un rigido centralismo."
+       },
+       {
+        "p": "Che cosa cerca la Primavera di Praga del 1968?",
+        "a": "Un «socialismo dal volto umano»",
+        "w": [
+         "L'annessione alla Germania Ovest",
+         "Il ritorno della monarchia",
+         "L'ingresso nella NATO"
+        ],
+        "e": "La Cecoslovacchia tenta di riformare il socialismo."
+       },
+       {
+        "p": "Chi reprime la Primavera di Praga?",
+        "a": "Le truppe del Patto di Varsavia",
+        "w": [
+         "L'esercito americano",
+         "La NATO",
+         "L'ONU"
+        ],
+        "e": "L'intervento armato del Patto di Varsavia reprime duramente le riforme."
+       },
+       {
+        "p": "Che cos'è la dottrina Brežnev?",
+        "a": "Il controllo armato sui paesi del blocco sovietico",
+        "w": [
+         "Un piano economico",
+         "Un programma spaziale",
+         "Un trattato di pace con gli USA"
+        ],
+        "e": "Sotto Brežnev i tentativi di riforma vengono repressi."
+       }
+      ]
+     },
+     "Q7": {
+      "title": "Quiz 7 · Il Sessantotto: una protesta globale",
+      "items": [
+       {
+        "p": "Contro che cosa protestano studenti e intellettuali nel Sessantotto?",
+        "a": "Capitalismo, autoritarismo della scuola e guerra del Vietnam",
+        "w": [
+         "Il voto alle donne",
+         "La corsa allo spazio",
+         "Il Welfare State"
+        ],
+        "e": "La contestazione giovanile si rivolge contro il sistema e contro la guerra."
+       },
+       {
+        "p": "Che cosa rifiuta il movimento hippy?",
+        "a": "Il materialismo",
+        "w": [
+         "La musica",
+         "La pace",
+         "La natura"
+        ],
+        "e": "Gli hippy sperimentano modelli alternativi di vita e di convivenza."
+       },
+       {
+        "p": "Per che cosa si mobilitano le femministe?",
+        "a": "Parità di genere, contraccezione e aborto legale",
+        "w": [
+         "Il ritorno alla famiglia patriarcale",
+         "La guerra del Vietnam",
+         "Il servizio militare"
+        ],
+        "e": "Il femminismo critica la famiglia patriarcale e chiede nuovi diritti."
+       },
+       {
+        "p": "Che risultati politici immediati ottiene il Sessantotto?",
+        "a": "Poche vittorie immediate",
+        "w": [
+         "La fine della guerra fredda",
+         "La caduta di tutti i governi",
+         "L'abolizione del capitalismo"
+        ],
+        "e": "Sul piano politico ottiene poco nell'immediato."
+       },
+       {
+        "p": "Che cosa cambia profondamente il Sessantotto?",
+        "a": "La cultura, i costumi e la morale",
+        "w": [
+         "I confini degli Stati",
+         "La moneta",
+         "Il sistema elettorale americano"
+        ],
+        "e": "Il Sessantotto trasforma radicalmente la cultura delle società occidentali."
+       }
+      ]
+     }
+    },
+    "t_verifica": 3493.351,
+    "t_compiti": 3507.131,
+    "verifica_json": "verifica_finale.json",
+    "compiti_json": "compiti.json"
+   },
+   "timeline": [
+    [
+     "T1",
+     188.418,
+     4.0
+    ],
+    [
+     "Q1",
+     281.019,
+     5.0
+    ],
+    [
+     "T2",
+     286.019,
+     4.0
+    ],
+    [
+     "T3",
+     948.253,
+     4.0
+    ],
+    [
+     "T4",
+     1472.487,
+     4.0
+    ],
+    [
+     "T5",
+     2003.854,
+     4.0
+    ],
+    [
+     "T6",
+     2673.555,
+     4.0
+    ],
+    [
+     "T7",
+     2964.721,
+     4.0
+    ],
+    [
+     "GL",
+     3332.254,
+     34.567
+    ],
+    [
+     "FINALE",
+     3502.121,
+     5.013
+    ]
+   ]
   }
  },
  "manca": "voci nuove, codifica finale, controllo rapido, rapporto, consegna",
@@ -38,6 +534,10 @@
   {
    "quando": "23/11 09:54",
    "testo": "Lez16: sono alle ultime correzioni (controllo rapido: 3 pause mute di 2,7 s a fine mappa, le sto riempiendo con un suono). Rifaccio codifica e controllo: consegno sul ramo revisione-storia-V-lez16 con circa 20-25 minuti di ritardo sulle 10:00 UTC (circa 10:25). Tutto il resto e' a posto: voci vere montate, quiz a 0,0 s, timbro prof -16 dB, 59:33."
+  },
+  {
+   "quando": "23/11 10:24",
+   "testo": "Lez16 consegnata sul ramo revisione-storia-V-lez16 (alle ~10:25 UTC, in ritardo di circa 25 min). Controllo rapido OK. Nel RAPPORTO sezione 8 e' scritto cosa NON ho verificato: agente separato del §11 non fatto, voci non ascoltate, COMPITI_R2 con coda 0,06 (se arriva COMPITI_R3 rifaccio solo la codifica)."
   }
  ],
  "domande_sara": [],
@@ -101,7 +601,11 @@
   {
    "quando": "23/11 09:54",
    "testo": "ultima correzione mappe, consegna ~10:25 UTC"
+  },
+  {
+   "quando": "23/11 10:24",
+   "testo": "correzioni 22/11 fatte (Parte unica 59:33, controllo rapido OK). NON FATTI: controllo dell'agente separato, ascolto voci (GL1_R2 e MD2_R2 da controllare), COMPITI_R2 con bordo 0,06 (chiesta COMPITI_R3), controllo severo OCR sull'ultima codifica; vedi RAPPORTO sezione 8"
   }
  ],
- "aggiornato": "2026-11-23 09:54:16"
+ "aggiornato": "2026-11-23 10:24:23"
 }
