@@ -143,3 +143,12 @@ Esito generale: NON CONSEGNABILE (difetti in fondo). severo2.txt (18:59): ESITO 
 - **Refusi della mappa del prof:** «II Guerra Mondiale» (numero romano scritto con due «I» nel suo file); l'ho lasciato com'è nella mappa.
 
 - `controllo_minuti.jpg` (contact sheet) **non rigenerato** per mancanza di tempo: nessun file stantio in consegna.
+
+
+## 7. Aggiornamento del 23/11 (correzioni della master)
+- **Piè di pagina**: tolto «Prof. Giorgio Mazzotti» da **tutte** le slide (anche quelle col prof, dalla copertina in poi), dalla dispensa e dal PDF delle mappe: restano «LETTERATURA ITALIANA V» e «Pagina N». Il nome sta solo nella fascia gialla.
+- **Schede Quiz e Verifica finale**: «Rispondi · premi Controlla · poi Continua».
+- **Controllo rapido** (`controllo_rapido.py`): **ESITO OK**, nessun errore (−16,3 LUFS, picco −1,8 dBTP, nessuna pausa muta > 2,5 s, 266 MB). Foglio dei fotogrammi guardato: piè di pagina senza nome, nessuna scheda con fasce, nessun DM Mono, card a 40 px, mappa a 34 px. File: `foglio_fotogrammi_*.jpg` e `controllo_rapido_*.json`.
+- **Compiti letti dalla voce Kore (nuova regola)**: aggiunta la voce `COMPITI` (126 parole, i 4 compiti del prof con le sue parole + la frase finale) a `testi_voci.json`; **la voce non è ancora arrivata**, quindi in questa consegna la scheda dei compiti ha ancora il jingle ma **non la voce**: va rimontata appena arriva (il montaggio è già pronto: un compito alla volta con il bordo giallo).
+- Audio ricodificato con `-aac_coder fast` (la codifica standard dava un picco di +2,0 dBTP a 45:05).
+- Non ho rifatto i 4 punti della card in ritardo di 1–1,4 s segnalati dall'agente.
