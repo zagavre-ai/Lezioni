@@ -26,6 +26,10 @@
   {
    "quando": "22/11 21:21",
    "testo": "lez18: voci Kore GIA' presenti con sigle non spiegate (regola BES): CECA in R4, AN4c, SC4_4; NATO in AN4c; DC in R6; ENEL in R6, AN6b, RF2, SC6_2. Aggiunte le versioni _R2 con la sigla spiegata (testi in testi_voci.json). ATTENZIONE: per ENEL ho usato 'ente energetico nazionale' come lo dice il prof (nel nome vero e' 'Ente nazionale per l'energia elettrica'): da confermare. Totale voci da generare per me: 40 (30 nuove + 10 _R2). Elenco: voci_da_generare.json nel mio ramo di lavoro."
+  },
+  {
+   "quando": "23/11 08:16",
+   "testo": "lez18: voci da generare per me = 41 (elenco con testi: testi_voci.json nel ramo voci-storia-V-lez18, anche voci_da_generare.json nel mio ramo di lavoro): INTRO1_R2, INTRO2_R2, SP2_1-3, M2_01-08, M5_01-10, M6_01-07, COMPITI (nuova, compiti in fila come da tua regola) + rifacimenti _R2: AN2a, AN2b, AN6a, R6 (troncate in fondo) e R4, AN4c, SC4_4, AN6b, RF2, SC6_2 (sigle da spiegare). Alla consegna servira' che la master decida: P5b finisce con «…riforme sociali. Come.» e la risposta «La scuola media unica?» sta in P6a (pausa troppo corta per tagliare in mezzo)."
   }
  ],
  "domande_sara": [],
@@ -89,7 +93,11 @@
   {
    "quando": "23/11 04:59",
    "testo": "04:55 UTC: rifatte Parte 1 (50,1 min) e 2 (58,8 min) dopo il terzo controllo separato (card riallineate all'inizio della frase, sottotitoli corretti, sigle spiegate, foto del prof). Quarto controllo in corso. Voci nuove non ancora arrivate nel ramo voci."
+  },
+  {
+   "quando": "23/11 08:16",
+   "testo": "08:20 UTC: lavoro senza voci FINITO. Parte 1 (50,0 min, 368 MB) e Parte 2 (58,9 min, 369 MB) montate con voci provvisorie; controllo_severo OK (prima delle ultime modifiche), controllo_rapido.py ESITO OK su entrambe; 4 controlli separati fatti. Applicate le tue regole di stasera: schede ripasso/schema blu scure, carta del confine grande, nessuna scheda muta (sottofondo), compiti con voce COMPITI. Mi fermo fino alle voci: appena arrivano rimonto e consegno su revisione-storia-V-lez18."
   }
  ],
- "aggiornato": "2026-11-23 04:59:23"
+ "aggiornato": "2026-11-23 08:16:07"
 }
