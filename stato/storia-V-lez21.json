@@ -2,7 +2,18 @@
  "tag": "storia-V-lez21",
  "parti": {
   "1": {
-   "stato": "FERMA"
+   "stato": "REVISIONATA",
+   "voci": "kore",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "si",
+   "video": "Storia_Lez21_Parte1_1080p.mp4",
+   "durata_s": 2580.4,
+   "durata": "43:00.4",
+   "fotogrammi": 77412,
+   "fotogrammi_attesi": 77413,
+   "peso_MB": 238.4,
+   "vtt": "Storia_Lez21_Parte1.vtt"
   }
  },
  "manca": "voci Kore nuove (COMPITI, mappe MA*/MB*, BEN1_R4, BEN2_R4, SP_*, MF_0, FZ1_R3 e le _R2)",
@@ -77,10 +88,14 @@
   {
    "quando": "23/11 09:11",
    "testo": "FERMA in attesa voci Kore. Tutto il resto fatto: Parti P1 42:43 / P2 52:00 con voci provvisorie, controllo rapido OK, dispense e PDF mappe pronti."
+  },
+  {
+   "quando": "23/11 13:04",
+   "testo": "correzioni 22/11 fatte (Parte 1). Controllo rapido OK. Voci Kore non ancora arrivate: BEN1_R4, BEN2_R4, COMPITI, FZ1_R3, LG1_R2, SC7_2_R2, PI1_R2 (nel video provvisorie o vecchie); MA3_4 e MA2_6 difettose (provvisorie). Dettagli nel rapporto, sezione 7 bis."
   }
  ],
  "materia": "Storia V",
  "lezione": "Lezione 21 · Il mondo dal 2001 ad oggi",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-23 10:45:43"
+ "aggiornato": "2026-11-23 13:04:09"
 }
