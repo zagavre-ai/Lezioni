@@ -1,0 +1,221 @@
+{
+ "file": "Storia_Lez18_Parte2_1080p.mp4",
+ "durata_min": 60.43,
+ "copertina_trovata": true,
+ "copertina_parole_mancanti": [],
+ "copertina_titolo_presente": true,
+ "copertina_da_s": 20.0,
+ "copertina_durata_s": 10,
+ "slide_stesso_titolo_oltre_3min": [],
+ "schermata_identica_oltre_3min": [],
+ "card_con_puntini": [],
+ "card_iniziale_minuscola": [
+  [
+   "2:45",
+   [
+    "parte"
+   ]
+  ],
+  [
+   "2:55",
+   [
+    "parte"
+   ]
+  ],
+  [
+   "3:05",
+   [
+    "di",
+    "parte"
+   ]
+  ],
+  [
+   "3:15",
+   [
+    "parte"
+   ]
+  ],
+  [
+   "3:25",
+   [
+    "parte"
+   ]
+  ],
+  [
+   "3:35",
+   [
+    "parte"
+   ]
+  ],
+  [
+   "3:45",
+   [
+    "di",
+    "parte"
+   ]
+  ],
+  [
+   "11:05",
+   [
+    "del"
+   ]
+  ],
+  [
+   "11:15",
+   [
+    "del"
+   ]
+  ],
+  [
+   "11:25",
+   [
+    "del"
+   ]
+  ],
+  [
+   "11:35",
+   [
+    "del"
+   ]
+  ],
+  [
+   "11:45",
+   [
+    "del"
+   ]
+  ],
+  [
+   "11:55",
+   [
+    "del"
+   ]
+  ],
+  [
+   "12:05",
+   [
+    "del"
+   ]
+  ],
+  [
+   "12:15",
+   [
+    "del"
+   ]
+  ],
+  [
+   "12:25",
+   [
+    "attentato",
+    "jbanomenttedeltnguerPeniviteazia"
+   ]
+  ],
+  [
+   "12:35",
+   [
+    "un"
+   ]
+  ],
+  [
+   "12:45",
+   [
+    "un"
+   ]
+  ],
+  [
+   "13:45",
+   [
+    "governi"
+   ]
+  ],
+  [
+   "13:55",
+   [
+    "governi"
+   ]
+  ],
+  [
+   "14:55",
+   [
+    "estera"
+   ]
+  ],
+  [
+   "15:05",
+   [
+    "estera"
+   ]
+  ],
+  [
+   "22:45",
+   [
+    "prevede"
+   ]
+  ],
+  [
+   "22:55",
+   [
+    "prevede",
+    "prevede"
+   ]
+  ],
+  [
+   "23:15",
+   [
+    "prevede"
+   ]
+  ],
+  [
+   "23:25",
+   [
+    "prevede"
+   ]
+  ],
+  [
+   "23:55",
+   [
+    "vogliono"
+   ]
+  ],
+  [
+   "24:05",
+   [
+    "vogliono"
+   ]
+  ],
+  [
+   "24:15",
+   [
+    "vogliono"
+   ]
+  ],
+  [
+   "24:25",
+   [
+    "vogliono"
+   ]
+  ]
+ ],
+ "una_card_sola_oltre_60s": [],
+ "lufs": -16.4,
+ "silenzi_oltre_3s": 0,
+ "durata_ok": true,
+ "voce_tono_hz": [
+  168,
+  148,
+  160,
+  148,
+  156
+ ],
+ "voce_chiarezza_hz": [
+  1382,
+  1423,
+  1404,
+  1193,
+  1341
+ ],
+ "DA_GUARDARE": [
+  "possibili card con iniziale minuscola: 2:45, 2:55, 3:05, 3:15, 3:25, 3:35, 3:45, 11:05, 11:15, 11:25"
+ ],
+ "ERRORI": [],
+ "ESITO": "OK"
+}

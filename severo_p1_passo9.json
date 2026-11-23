@@ -1,0 +1,219 @@
+{
+ "file": "Storia_Lez18_Parte1_1080p.mp4",
+ "durata_min": 50.22,
+ "copertina_trovata": true,
+ "copertina_parole_mancanti": [],
+ "copertina_titolo_presente": true,
+ "copertina_da_s": 18.0,
+ "copertina_durata_s": 135,
+ "slide_stesso_titolo_oltre_3min": [],
+ "schermata_identica_oltre_3min": [],
+ "card_con_puntini": [],
+ "card_iniziale_minuscola": [
+  [
+   "0:31",
+   [
+    "della"
+   ]
+  ],
+  [
+   "0:49",
+   [
+    "della"
+   ]
+  ],
+  [
+   "1:07",
+   [
+    "della"
+   ]
+  ],
+  [
+   "1:25",
+   [
+    "della"
+   ]
+  ],
+  [
+   "1:34",
+   [
+    "della"
+   ]
+  ],
+  [
+   "1:43",
+   [
+    "della"
+   ]
+  ],
+  [
+   "1:52",
+   [
+    "della"
+   ]
+  ],
+  [
+   "2:01",
+   [
+    "della"
+   ]
+  ],
+  [
+   "2:10",
+   [
+    "della"
+   ]
+  ],
+  [
+   "2:19",
+   [
+    "della"
+   ]
+  ],
+  [
+   "2:28",
+   [
+    "della"
+   ]
+  ],
+  [
+   "3:58",
+   [
+    "della"
+   ]
+  ],
+  [
+   "4:07",
+   [
+    "della"
+   ]
+  ],
+  [
+   "4:25",
+   [
+    "della"
+   ]
+  ],
+  [
+   "4:43",
+   [
+    "della"
+   ]
+  ],
+  [
+   "5:01",
+   [
+    "della"
+   ]
+  ],
+  [
+   "5:10",
+   [
+    "della"
+   ]
+  ],
+  [
+   "5:19",
+   [
+    "della"
+   ]
+  ],
+  [
+   "5:37",
+   [
+    "della"
+   ]
+  ],
+  [
+   "5:46",
+   [
+    "della"
+   ]
+  ],
+  [
+   "6:04",
+   [
+    "della"
+   ]
+  ],
+  [
+   "6:13",
+   [
+    "sono",
+    "circa"
+   ]
+  ],
+  [
+   "6:22",
+   [
+    "circa"
+   ]
+  ],
+  [
+   "6:31",
+   [
+    "sono",
+    "circa"
+   ]
+  ],
+  [
+   "6:40",
+   [
+    "circa"
+   ]
+  ],
+  [
+   "7:25",
+   [
+    "circa"
+   ]
+  ],
+  [
+   "7:34",
+   [
+    "circa"
+   ]
+  ],
+  [
+   "7:43",
+   [
+    "é"
+   ]
+  ],
+  [
+   "7:52",
+   [
+    "é"
+   ]
+  ],
+  [
+   "8:01",
+   [
+    "é"
+   ]
+  ]
+ ],
+ "una_card_sola_oltre_60s": [],
+ "lufs": -16.3,
+ "silenzi_oltre_3s": 0,
+ "durata_ok": true,
+ "voce_tono_hz": [
+  148,
+  164,
+  148,
+  148,
+  156
+ ],
+ "voce_chiarezza_hz": [
+  1297,
+  1472,
+  1309,
+  1404,
+  1350
+ ],
+ "DA_GUARDARE": [
+  "possibili card con iniziale minuscola: 0:31, 0:49, 1:07, 1:25, 1:34, 1:43, 1:52, 2:01, 2:10, 2:19"
+ ],
+ "ERRORI": [],
+ "ESITO": "OK"
+}

@@ -1,0 +1,231 @@
+{
+ "file": "Storia_Lez18_Parte1_1080p.mp4",
+ "durata_min": 50.22,
+ "copertina_trovata": true,
+ "copertina_parole_mancanti": [],
+ "copertina_titolo_presente": true,
+ "copertina_da_s": 20.0,
+ "copertina_durata_s": 130,
+ "slide_stesso_titolo_oltre_3min": [
+  [
+   "3:40",
+   "13.0 min",
+   "Un Paese da ricostruire (il Se"
+  ]
+ ],
+ "schermata_identica_oltre_3min": [],
+ "card_con_puntini": [
+  [
+   "41:55",
+   "enrLler AA A ri RiIRiAece Tr"
+  ]
+ ],
+ "card_iniziale_minuscola": [
+  [
+   "0:35",
+   [
+    "della"
+   ]
+  ],
+  [
+   "0:45",
+   [
+    "della"
+   ]
+  ],
+  [
+   "0:55",
+   [
+    "della"
+   ]
+  ],
+  [
+   "1:05",
+   [
+    "della"
+   ]
+  ],
+  [
+   "1:15",
+   [
+    "della"
+   ]
+  ],
+  [
+   "1:25",
+   [
+    "della"
+   ]
+  ],
+  [
+   "1:35",
+   [
+    "della"
+   ]
+  ],
+  [
+   "1:45",
+   [
+    "della"
+   ]
+  ],
+  [
+   "1:55",
+   [
+    "della"
+   ]
+  ],
+  [
+   "2:05",
+   [
+    "della"
+   ]
+  ],
+  [
+   "2:25",
+   [
+    "della"
+   ]
+  ],
+  [
+   "3:55",
+   [
+    "della"
+   ]
+  ],
+  [
+   "4:15",
+   [
+    "della"
+   ]
+  ],
+  [
+   "4:25",
+   [
+    "della"
+   ]
+  ],
+  [
+   "4:35",
+   [
+    "della"
+   ]
+  ],
+  [
+   "4:45",
+   [
+    "della"
+   ]
+  ],
+  [
+   "4:55",
+   [
+    "della"
+   ]
+  ],
+  [
+   "5:25",
+   [
+    "della"
+   ]
+  ],
+  [
+   "5:35",
+   [
+    "della"
+   ]
+  ],
+  [
+   "5:45",
+   [
+    "della"
+   ]
+  ],
+  [
+   "5:55",
+   [
+    "della"
+   ]
+  ],
+  [
+   "6:05",
+   [
+    "della"
+   ]
+  ],
+  [
+   "6:15",
+   [
+    "circa"
+   ]
+  ],
+  [
+   "6:25",
+   [
+    "circa"
+   ]
+  ],
+  [
+   "6:35",
+   [
+    "circa"
+   ]
+  ],
+  [
+   "7:25",
+   [
+    "circa"
+   ]
+  ],
+  [
+   "7:35",
+   [
+    "circa"
+   ]
+  ],
+  [
+   "7:45",
+   [
+    "é"
+   ]
+  ],
+  [
+   "7:55",
+   [
+    "é"
+   ]
+  ],
+  [
+   "8:05",
+   [
+    "é"
+   ]
+  ]
+ ],
+ "una_card_sola_oltre_60s": [],
+ "lufs": -16.3,
+ "silenzi_oltre_3s": 0,
+ "durata_ok": true,
+ "voce_tono_hz": [
+  148,
+  164,
+  148,
+  148,
+  156
+ ],
+ "voce_chiarezza_hz": [
+  1297,
+  1472,
+  1309,
+  1404,
+  1350
+ ],
+ "DA_GUARDARE": [
+  "possibili card con iniziale minuscola: 0:35, 0:45, 0:55, 1:05, 1:15, 1:25, 1:35, 1:45, 1:55, 2:05"
+ ],
+ "ERRORI": [
+  "1 slide oltre 3 min (max 13.0)",
+  "«…» in 1 campioni"
+ ],
+ "ESITO": "RESPINTA"
+}
