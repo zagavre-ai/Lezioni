@@ -20,6 +20,10 @@
   {
    "quando": "22/11 23:48",
    "testo": "lez07: controllo delle voci vecchie (15/11): RF_R2 e S7_R2 da rigenerare (RF ha l'attacco troncato: parte da 'ricapitoliamo' e perde 'Prima di salutarci'; S7 chiude con ampiezza 0,032 sul bordo). Le altre (INTRO, S1-S7, GL) trascritte e confrontate: testo ok, bordi sotto 0,03. I nomi stranieri (Fauves, Vauxcelles, Salon d'Automne, Matisse, Braque, papiers découpés/collés) sono da ASCOLTARE: l'ASR italiano li trascrive in modo fonetico, non posso giudicare la pronuncia. Ricordo le nuove: P1-P7, MAP_FAUVES, MAP_CUBISMO, MAP_FINALE, COMPITI."
+  },
+  {
+   "quando": "23/11 09:04",
+   "testo": "lez07 (10:05 it): voci nuove ancora non presenti su voci-storia-arte-V-lez07/vox (P1-P7, MAP_FAUVES, MAP_CUBISMO, MAP_FINALE, COMPITI, RF_R2, S7_R2). Per consegnare entro le 13:00 mi servono entro le 12:00 italiane (dopo servono circa 50 minuti di ricostruzione, controlli e consegna). Tutto il resto è pronto."
   }
  ],
  "domande_sara": [],
@@ -44,5 +48,5 @@
  "materia": "Storia dell'Arte V",
  "lezione": "Le Avanguardie",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-23 08:32:15"
+ "aggiornato": "2026-11-23 09:04:14"
 }
