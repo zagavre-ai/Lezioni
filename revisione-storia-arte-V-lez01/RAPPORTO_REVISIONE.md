@@ -65,3 +65,6 @@ La mappa del docente (`MAPPE LEZIONE 1.pdf`) è **unica** e non ha la domanda co
 ## Cosa è stato verificato e cosa NO
 Verificato con strumenti: formato, durata, peso, volume, picco, pause mute, schermate identiche, scatto jingle quiz, bordi delle 10 voci Kore ricevute (ampiezza negli ultimi/primi 50 ms ≤ 0,007), trascrizione e confronto con il testo atteso (differenze solo di resa ASR su nomi e anni scritti in cifre).
 **NON verificato:** sincronia labbra-voce misurata con strumento (i pezzi del docente sono tagliati con lo stesso istante su video e audio, quindi scarto 0 per costruzione, ma non misurato con `verifica_sync`); pronuncia dei nomi stranieri nelle voci (non ascoltata: solo trascrizione automatica); card/bordo giallo controllati con la trascrizione solo a campione; la Parte 2 (non consegnata); voci SP, GL, RF, MF, COMPITI, R4, R5; sostituzione delle opere in alta risoluzione.
+
+## Esito del controllo dell'agente separato (Parte 1) e correzioni
+Difetti trovati e corretti: sottotitoli delle voci Kore con gli anni in lettere (ora in cifre); materia scritta in due modi nella scheda (ora «Storia dell'arte V»). Residui: il foglio fotogrammi non fotografa la scheda di copertina (13 s) né la sigla; la dispensa della Parte 1 ha la pagina «Gli argomenti» con tutti e 5 gli argomenti perché è identica al video; la Parte 1 dura 40 minuti (sotto i 50).
