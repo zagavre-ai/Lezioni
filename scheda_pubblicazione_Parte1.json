@@ -1,25 +1,25 @@
 {
- "materia": "Storia",
- "titolo": "Storia V · Lezione 17 · Le fasi conclusive della Guerra fredda (1969-1991) · Parte 1",
- "durata_s": 2935.7,
+ "materia": "Storia V",
+ "titolo": "Le fasi conclusive della guerra fredda (1969-1991) · Parte 1",
+ "durata_s": 3023.93,
  "argomenti": [
   {
    "n": 1,
    "titolo": "La crisi economica degli anni Settanta",
-   "inizio_s": 201.467,
-   "quiz_s": 1450.167
+   "inizio_s": 183.533,
+   "quiz_s": 1511.6
   },
   {
    "n": 2,
    "titolo": "Tensioni e accordi in Medio Oriente",
-   "inizio_s": 1454.767,
-   "quiz_s": 2086.5
+   "inizio_s": 1515.4,
+   "quiz_s": 2175.7
   },
   {
    "n": 3,
    "titolo": "Iran e guerra con l'Iraq",
-   "inizio_s": 2091.1,
-   "quiz_s": 2884.567
+   "inizio_s": 2179.5,
+   "quiz_s": 2975.7
   }
  ],
  "quiz": {
