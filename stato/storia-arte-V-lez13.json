@@ -7,7 +7,7 @@
    "voci": "segnaposto"
   }
  },
- "manca": "assemblaggio finale video (voci provvisorie), sottotitoli, dispensa, controlli; poi sostituzione voci Kore dalle 9:00",
+ "manca": "voci Kore (dalle 9:00) e ultimo montaggio; tutto il resto pronto",
  "serve_master": [
   {
    "quando": "22/11 22:52",
@@ -16,6 +16,10 @@
   {
    "quando": "22/11 22:59",
    "testo": "testi_voci.json caricato sul ramo voci-storia-arte-V-lez13 (21 voci, inclusa COMPITI). Nota: nel testo della verifica ho evitato il numero 6,6 m dell'altezza della Casa del Fascio (il prof dice 'esattamente la metà del lato di base', con lato 33,2: 6,6 non torna, probabile 16,6): anomalia nel rapporto."
+  },
+  {
+   "quando": "23/11 00:14",
+   "testo": "Storia arte lez13: montaggio completo con voci provvisorie fatto (49 min, 330 MB, controllo rapido: restano solo 2 pause mute sulle mappe, che correggo con le voci vere). Ho aggiornato testi_voci.json sul ramo voci (frase finale nelle 2 mappe, testo MAPPA_FINALE): 21 voci in tutto. Aspetto le voci dalle 9:00; non controllo in continuazione."
   }
  ],
  "domande_sara": [],
@@ -36,5 +40,5 @@
  "materia": "Storia dell'arte V",
  "lezione": "Lezione 13 · Razionalismo e Metafisica",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-22 23:29:29"
+ "aggiornato": "2026-11-23 00:14:51"
 }
