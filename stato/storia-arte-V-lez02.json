@@ -68,10 +68,14 @@
   {
    "quando": "23/11 12:02",
    "testo": "consegna PROVVISORIA su revisione-storia-arte-V-lez02: foglio+json controllo rapido (ESITO OK entrambe le Parti), dispense, vtt, rapporto. Video a pezzi NON ancora caricati (13/72 voci Kore reali, compiti mancanti): li carico alla consegna finale."
+  },
+  {
+   "quando": "23/11 12:23",
+   "testo": "12:25 UTC: letto DALLA_MASTER (FERMATI). Nessuna correzione bloccante per lez02. In attesa delle voci Kore (13/72) e dei compiti: mi riattiva Sara. Consegna provvisoria già sul ramo revisione-storia-arte-V-lez02 (video a pezzi da caricare alla consegna finale)."
   }
  ],
  "materia": "Storia dell'arte V",
  "lezione": "Lezione 2 · Il Romanticismo",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-23 12:02:28"
+ "aggiornato": "2026-11-23 12:23:49"
 }
