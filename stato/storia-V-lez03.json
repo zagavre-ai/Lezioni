@@ -12,7 +12,7 @@
    "durata": "51:55.0",
    "fotogrammi": 93451,
    "fotogrammi_attesi": 93451,
-   "peso_MB": 360.2,
+   "peso_MB": 368.7,
    "vtt": "Storia_Lez3_Parte1.vtt",
    "scheda": {
     "materia": "Storia V",
@@ -412,7 +412,7 @@
    "durata": "53:31.4",
    "fotogrammi": 96342,
    "fotogrammi_attesi": 96342,
-   "peso_MB": 369.0,
+   "peso_MB": 378.4,
    "vtt": "Storia_Lez3_Parte2.vtt",
    "scheda": {
     "materia": "Storia V",
@@ -994,10 +994,14 @@
   {
    "quando": "23/11 04:25",
    "testo": "correzioni 22/11 fatte. Consegna su revisione-storia-V-lez03 (1ecb8d2): P1 51:55, P2 53:31, controllo_severo OK, -16,1/-16,2 LUFS, timbro -18,6/-19,2 dB, quiz 0,0 s, voci nuove Kore montate e controllate, controllo separato fatto. Residui nel rapporto: 4 voci Kore con sigla non spiegata a voce (AN21 PSI, R5 INA, AN16/R8 Fiat), sottotitoli automatici non riletti, avviso diritti ~3 s."
+  },
+  {
+   "quando": "23/11 09:34",
+   "testo": "correzioni 22/11 fatte. Riconsegna 23/11 09:34 UTC su revisione-storia-V-lez03 (6057d83): schede RIPASSO in blu scuro a tutto schermo con righe a tempo; infografica migratoria grande e a zone; controllo_rapido OK su P1 e P2 (foglio e json in controllo_rapido/); controllo_severo OK su P2, su P1 un falso positivo OCR a 22:25 (verificato a vista). Residui nel rapporto: 4 voci Kore senza sigla spiegata a voce (AN21, R5, AN16, R8)."
   }
  ],
  "materia": "Storia V",
  "lezione": "Lezione 3 · L'Italia di Giolitti",
- "aggiornato": "2026-11-23 04:25:29",
+ "aggiornato": "2026-11-23 09:34:28",
  "docente": "Prof. Giorgio Mazzotti"
 }
