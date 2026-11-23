@@ -28,6 +28,10 @@
   {
    "quando": "23/11 08:15",
    "testo": "Peso: la Parte 1 a CRF 19 viene 431 MB (oltre i 400). Uso CRF 20 (stima 395 MB) come dice kit/REGOLE.md; se preferite CRF 19 con meno nitidezza sulla webcam ditemelo. Voci: aspetto le 11 nuove + MAPFIN (nuova, 14 parole: «Ecco le due mappe della lezione: il Realismo in Francia e il Realismo in Italia.»). Mi serve MAPFIN oltre ai testi già mandati."
+  },
+  {
+   "quando": "23/11 09:51",
+   "testo": "URGENTE lez03: sul ramo voci-storia-arte-V-lez03 ci sono ancora solo le voci vecchie. Mancano 12: AP1, AP2, AP3, AP4, AP5, ARG, SPIE, MAPFR, MAPIT, VER, COMPITI, MAPFIN. Il montaggio finale delle due Parti (voci, controlli, sottotitoli, rapporto) richiede circa 1 ora e mezza dopo l'arrivo: per consegnare entro le 13:00 italiane servono entro le 11:30. Tutto il resto è pronto."
   }
  ],
  "domande_sara": [],
@@ -59,10 +63,14 @@
   {
    "quando": "23/11 08:15",
    "testo": "09:20: opere della master integrate (Brighton Pavilion, Angelus, Pergolato, Sala delle agitate, 4 opere grandi, 4 immagini delle mappe); rifaccio i pezzi del prof (~30 min). Aspetto le voci: appena ci sono le sostituisco e riassemblo (circa 1 h), poi controlli e consegna."
+  },
+  {
+   "quando": "23/11 09:51",
+   "testo": "10:50 it: voci nuove ancora non arrivate"
   }
  ],
  "materia": "Storia dell'arte V",
  "lezione": "Lezione 3 · Il Realismo",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-23 08:15:01"
+ "aggiornato": "2026-11-23 09:51:30"
 }
