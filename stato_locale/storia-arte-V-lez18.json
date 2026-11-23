@@ -13,7 +13,7 @@
    "peso_MB": 248.8
   }
  },
- "manca": "solo le voci Kore (dalle 9:00): poi trascrizione, rimontaggio delle schede (circa 40 min), codifica, controllo rapido, sottotitoli, rapporto, consegna",
+ "manca": "voci Kore (non arrivate alle 11:15); tutto il resto e' pronto",
  "serve_master": [
   {
    "quando": "22/11 22:52",
@@ -38,6 +38,10 @@
   {
    "quando": "23/11 09:31",
    "testo": "Ore 10:30: voci lez18 ancora non arrivate (nel ramo voci-storia-arte-V-lez18 solo testi_voci.json). Montaggio pronto, mi servono ~1h30 dopo l'arrivo. Se arrivano dopo le 11:30 la consegna entro le 13:00 non e' garantita: ditemi se preferite la consegna con voci provvisorie (non conforme) oppure uno slittamento. Ultimo controllo alle 11:15."
+  },
+  {
+   "quando": "23/11 10:16",
+   "testo": "Ore 11:15: voci lez18 non arrivate, mi fermo (nessun altro controllo). Quando le caricate in scambio/storia-arte-V-lez18/vox/ (voci-storia-arte-V-lez18) scrivete 'VOCI PRONTE lez18' in DALLA_MASTER: riprendo da li' e servono ~1h30 per consegnare. Pronti: montaggio completo con voci provvisorie (56:35), dispensa, PDF mappe, quiz/verifica/compiti json. Nessuna opera extra da procurare: uso solo le immagini del PDF del prof."
   }
  ],
  "domande_sara": [],
@@ -54,5 +58,5 @@
  "materia": "Storia dell'arte V",
  "lezione": "Lezione 18 · Postmodernità e globalizzazione",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-23 09:31:02"
+ "aggiornato": "2026-11-23 10:16:00"
 }
