@@ -1,44 +1,43 @@
 {
  "materia": "Storia V",
- "titolo": "Storia V · Lezione 11 · L'URSS di Stalin (1924-1939)",
- "descrizione": "Videolezione del prof. Giorgio Mazzotti sull'URSS di Stalin: dall'ascesa al potere alla grande svolta industriale, dalla collettivizzazione al Grande Terrore, fino al patto Molotov-Ribbentrop.",
- "durata_s": 2428.9,
+ "titolo": "Storia V · L'URSS di Stalin (1924-1939)",
+ "durata_s": 2494.39,
  "argomenti": [
   {
    "n": 1,
    "titolo": "L'ascesa di Stalin",
-   "inizio_s": 87.333,
-   "quiz_s": 535.033
+   "inizio_s": 87.233,
+   "quiz_s": 531.364
   },
   {
    "n": 2,
    "titolo": "La grande svolta e i piani quinquennali",
-   "inizio_s": 540.033,
-   "quiz_s": 769.9
+   "inizio_s": 535.664,
+   "quiz_s": 757.563
   },
   {
    "n": 3,
    "titolo": "La collettivizzazione e la carestia",
-   "inizio_s": 774.9,
-   "quiz_s": 1316.267
+   "inizio_s": 761.863,
+   "quiz_s": 1303.061
   },
   {
    "n": 4,
    "titolo": "Il totalitarismo e il Grande Terrore",
-   "inizio_s": 1321.267,
-   "quiz_s": 1605.867
+   "inizio_s": 1307.361,
+   "quiz_s": 1597.192
   },
   {
    "n": 5,
    "titolo": "La società staliniana",
-   "inizio_s": 1610.867,
-   "quiz_s": 1847.9
+   "inizio_s": 1601.492,
+   "quiz_s": 1820.391
   },
   {
    "n": 6,
-   "titolo": "La politica estera dell'URSS",
-   "inizio_s": 1852.9,
-   "quiz_s": 2324.233
+   "titolo": "La politica estera e le relazioni internazionali",
+   "inizio_s": 1824.691,
+   "quiz_s": 2288.489
   }
  ],
  "quiz": {
@@ -80,11 +79,11 @@
     },
     {
      "p": "Che cosa significa «socialismo in un solo paese»?",
-     "a": "Consolidare la rivoluzione in URSS prima di esportarla",
+     "a": "Consolidare la rivoluzione in Unione Sovietica prima di esportarla",
      "w": [
       "Esportare subito la rivoluzione in tutto il mondo",
       "Abolire il socialismo",
-      "Unire l'URSS alla Germania"
+      "Unire l'Unione Sovietica alla Germania"
      ],
      "e": "È la teoria con cui Stalin si inserisce nello scontro tra le correnti del partito.",
      "ref": "È la teoria con cui Stalin si inserisce nello scontro tra le correnti del partito."
@@ -113,8 +112,8 @@
       "Nel 1924",
       "Nel 1939"
      ],
-     "e": "Nel 1929 inizia la trasformazione dell'URSS da paese agricolo a potenza industriale.",
-     "ref": "Nel 1929 inizia la trasformazione dell'URSS da paese agricolo a potenza industriale."
+     "e": "Nel 1929 inizia la trasformazione dell'Unione Sovietica da paese agricolo a potenza industriale.",
+     "ref": "Nel 1929 inizia la trasformazione dell'Unione Sovietica da paese agricolo a potenza industriale."
     },
     {
      "p": "Che cosa sono i piani quinquennali?",
@@ -343,10 +342,10 @@
    ]
   },
   "Q6": {
-   "title": "Quiz 6 · La politica estera dell'URSS",
+   "title": "Quiz 6 · La politica estera e le relazioni internazionali",
    "items": [
     {
-     "p": "In che anno l'URSS entra nella Società delle Nazioni?",
+     "p": "In che anno l'Unione Sovietica entra nella Società delle Nazioni?",
      "a": "Nel 1934",
      "w": [
       "Nel 1919",
@@ -379,7 +378,7 @@
      "ref": "Il Fronte unito sostiene la Repubblica nella guerra civile spagnola."
     },
     {
-     "p": "Che cosa firma l'URSS nell'agosto 1939?",
+     "p": "Che cosa firma l'Unione Sovietica nell'agosto 1939?",
      "a": "Un patto di non aggressione con la Germania nazista",
      "w": [
       "Un'alleanza con la Francia",
@@ -397,8 +396,8 @@
       "La liberazione dei Gulag",
       "La fine dei piani quinquennali"
      ],
-     "e": "Un protocollo segreto divide l'Europa orientale tra URSS e Germania.",
-     "ref": "Un protocollo segreto divide l'Europa orientale tra URSS e Germania."
+     "e": "Un protocollo segreto divide l'Europa orientale tra Unione Sovietica e Germania.",
+     "ref": "Un protocollo segreto divide l'Europa orientale tra Unione Sovietica e Germania."
     }
    ]
   }

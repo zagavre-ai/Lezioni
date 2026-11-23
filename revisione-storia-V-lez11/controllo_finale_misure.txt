@@ -1,0 +1,38 @@
+## Misure sul file finale
+- durata 41:34.4 (2494.4 s) [misurato]
+- fotogrammi 74829, attesi 74832 (durata × 30) → OK [misurato]
+- peso 229.0 MB → OK [misurato]
+- formato 1920x1080 30/1
+- volume integrato -16.0 LUFS (obiettivo −16 ±1); picco reale -1.0 dBTP (limite −1) [misurato]
+- silenzi oltre 2,5 s (−45 dB): 0 [] [misurato]
+- timbre (acuti >4 kHz meno volume >100 Hz): finale min -18.1 max -15.0 dB; originale -17.4 dB; ammesso −20…−9 → OK [misurato]
+
+## Sincronia labbra/voce (audio e video finale confrontati con l'originale)
+| pezzo | scarto audio (s) | scarto video (s) | labbra−voce (s) |
+|---|---|---|---|
+| D0 | -0.000 | +0.00 (passo 0,1 s) | -0.00 |
+| D1 | -0.000 | +0.00 (passo 0,1 s) | -0.00 |
+| D2 | -0.001 | +0.00 (passo 0,1 s) | -0.00 |
+| D3 | -0.000 | +0.00 (passo 0,1 s) | -0.00 |
+| D4 | -0.000 | +0.00 (passo 0,1 s) | -0.00 |
+| D5 | -0.000 | +0.00 (passo 0,1 s) | -0.00 |
+| D6a | -0.000 | +0.00 (passo 0,1 s) | -0.00 |
+| D6b | -0.000 | +0.00 (passo 0,1 s) | -0.00 |
+| D6c | -0.001 | +0.00 (passo 0,1 s) | -0.00 |
+(il video è tagliato dallo stesso file e agli stessi tempi dell'audio: lo scarto atteso è 0 entro 1 fotogramma = 0,033 s)
+
+## Fermi immagine nei pezzi del docente (freezedetect sul riquadro, ≥ 1 s)
+nessuno [misurato]
+
+## Fine di ogni pezzo del docente
+| pezzo | minuto video (fine) | ultime parole (orig.) | frase finita |
+|---|---|---|---|
+| D0 | 1:27.6 | …stalinizzazione dell'Unione Sovietica. Questo è appunto Yosef. Stalin. | sì |
+| D1 | 6:30.6 | …assoluto del partito. Certo, ma anche dello Stato. | sì |
+| D2 | 10:53.6 | …giganti e costi umani. e anche finanziari altissimi. | sì |
+| D3 | 19:28.0 | …così, molti proseliti anche su questo. Ora Mm. | sì |
+| D4 | 24:19.7 | …tutto, che fu un'operazione studiata a tavolino, propagandistica. | sì |
+| D5 | 28:47.9 | …espansione, però... di rafforzamento dell'Unione Sovietica, perché no? | sì |
+| D6a | 33:25.1 | …lo stesso d'accordo per prepararsi a un'eventuale guerra. | sì |
+| D6b | 34:56.3 | …Hitler, ne abbiamo già cennato nella precedente lezione. | sì |
+| D6c | 37:25.4 | …assoluti del mondo all'indomani del secondo conflitto mondiale. | sì |
