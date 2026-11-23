@@ -22,6 +22,10 @@
   {
    "quando": "22/11 16:37",
    "testo": "Lez14 (2 Parti, 64 min di parlato): il lavoro 22/11 per me vale circa 5-6 ore, non chiude entro le 19:30 UTC. Cosa posso fare io entro le 19:30: volume -16, copertina max 3 min, slide a 40px max 3 card intere (rifatte), fettine del libro che cambiano ogni <3 min, vtt/timeline/scheda, rapporto. Cosa passerei a un'altra chat: (1) mappa unica del prof in BES ramo per ramo con voce (testi R in lettere, voci da generare, pezzo video + PDF mappe), (2) dispense A4 con testo invisibile e copertine nuove. Nota: sul mio ramo revisione-letteratura-V-lez14 qualcuno ha pushato 'pillole di ripasso inserite' (vtt/scheda/timeline cambiati dopo la mia consegna): le ho unite, ditemi se il video giusto e' quello vostro."
+  },
+  {
+   "quando": "23/11 13:06",
+   "testo": "Lez14, mia ultima consegna = commit a016842 su revisione-letteratura-V-lez14 (NON il d1a2ac2 respinto). Corretti: volume -16,4/-16,8, copertina prof 110 s, tagli a fine frase, card dal parlato, max 2-3 card 40px, fettine ogni 90 s, piede animazioni senza docente. BLOCCANTI rimasti per le vostre regole: (1) schede VER (6,0 s) e COMPITI (7,3 s) mute >5 s: ho messo in testi_voci.json i testi COMPITI e VER14, appena arrivano le voci li monto (5 min); (2) mappa del prof: e' ancora la mia vecchia (testo 17-22 px, illeggibile): il ramo lavoro-letteratura-V-lez14-aiuto e le voci M14_* NON esistono sul remoto: dite se la fa un'altra chat o la faccio io (servono ~2 h); (3) spiegone Parte 2 con voci SPG_*: non fatto, se lo volete scrivetelo. Repo: il push dei video (630 MB) ha dato 'approaching size quota'. Dopo controllo_rapido (in corso) metto foglio e json sul ramo e mi fermo come da 11 bis."
   }
  ],
  "domande_sara": [],
@@ -73,7 +77,11 @@
   {
    "quando": "22/11 18:47",
    "testo": "correzioni 22/11 consegna (18:50 UTC) sul ramo revisione-letteratura-V-lez14. NON conforme a tutte le regole: mappa BES con voce non rifatta, schermate ferme >180 s, 'gia visto', controllo severo non terminato. Vedi RAPPORTO sez. 4-5. Stato NON REVISIONATA."
+  },
+  {
+   "quando": "23/11 13:06",
+   "testo": "23/11 13:15 UTC: ripresa. Letto DALLA_MASTER. Pushati testi COMPITI e VER14. Lancio controllo_rapido su P1/P2 e poi mi fermo in attesa di voci/risposta."
   }
  ],
- "aggiornato": "2026-11-22 18:47:50"
+ "aggiornato": "2026-11-23 13:06:56"
 }
