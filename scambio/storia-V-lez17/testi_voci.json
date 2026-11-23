@@ -80,22 +80,6 @@
   "testo": "Quarto: la repressione di Piazza Tienanmen provoca una ferma condanna internazionale."
  },
  {
-  "nome": "COMP1",
-  "testo": "Ora i compiti. Primo compito. Quali sono le cause e le conseguenze della fine degli accordi di Bretton Woods, nel millenovecentosettantuno, e dello shock petrolifero del millenovecentosettantatré, sull'economia occidentale?"
- },
- {
-  "nome": "COMP2",
-  "testo": "Secondo compito. Quali eventi segnano le relazioni tra Stati Uniti e Unione Sovietica dagli anni Settanta agli anni Ottanta, passando dalla fase della distensione alla linea dura adottata da Ronald Reagan?"
- },
- {
-  "nome": "COMP3",
-  "testo": "Terzo compito. Che cosa prevedono le riforme della Perestrojka e della Glasnost, avviate da Michail Gorbačev, e in che modo portano alla caduta dei regimi comunisti nell'Europa orientale e alla dissoluzione dell'Unione Sovietica nel millenovecentonovantuno?"
- },
- {
-  "nome": "COMP4",
-  "testo": "Quarto compito. In che modo la svolta economica avviata da Deng Xiaoping in Cina alla fine degli anni Settanta si differenzia dalle riforme sovietiche, e quali eventi portano alla protesta e alla repressione di Piazza Tienanmen nel millenovecentottantanove?"
- },
- {
   "nome": "MPR1_R2",
   "testo": "Quali sono le cause e le conseguenze della crisi degli anni Settanta? Ecco la mappa. La guerra del Kippur, millenovecentosettantatré, viene combattuta da Egitto e Siria contro Israele. La guerra del Kippur causa l'aumento del prezzo del petrolio, che causa il calo della produzione, la disoccupazione e l'inflazione."
  },
@@ -118,5 +102,9 @@
  {
   "nome": "DCP3",
   "testo": "Di cosa parliamo in questa terza parte. Primo: l'Europa occidentale tra crisi e integrazione. Secondo: il crollo dell'Unione Sovietica. Terzo: la svolta della Cina."
+ },
+ {
+  "nome": "COMPITI",
+  "testo": "Ora i compiti. Primo compito. Quali sono le cause e le conseguenze della fine degli accordi di Bretton Woods, nel millenovecentosettantuno, e dello shock petrolifero del millenovecentosettantatré, sull'economia occidentale? Secondo compito. Quali eventi segnano le relazioni tra Stati Uniti e Unione Sovietica dagli anni Settanta agli anni Ottanta, passando dalla fase della distensione alla linea dura adottata da Ronald Reagan? Terzo compito. Che cosa prevedono le riforme della Perestrojka e della Glasnost, avviate da Michail Gorbačev, e in che modo portano alla caduta dei regimi comunisti nell'Europa orientale e alla dissoluzione dell'Unione Sovietica nel millenovecentonovantuno? Quarto compito. In che modo la svolta economica avviata da Deng Xiaoping in Cina alla fine degli anni Settanta si differenzia dalle riforme sovietiche, e quali eventi portano alla protesta e alla repressione di Piazza Tienanmen nel millenovecentottantanove? Svolgi i compiti qui sotto e premi Consegna: arrivano al docente nel tuo quaderno dei compiti."
  }
 ]
