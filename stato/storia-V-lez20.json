@@ -126,10 +126,14 @@
   {
    "quando": "23/11 07:10",
    "testo": "23/11 07:11 UTC: in attesa delle 9 voci; pronto a inserirle (circa 35 min di lavoro)."
+  },
+  {
+   "quando": "23/11 07:58",
+   "testo": "23/11 08:00 UTC: voci ancora non arrivate. Se non arrivano entro le 09:15 UTC lascio la consegna in stato provvisorio e lo dico chiaramente."
   }
  ],
  "materia": "Storia V",
  "lezione": "Lezione 20 · Gli anni Novanta: il mondo post-bipolare",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-23 07:10:29"
+ "aggiornato": "2026-11-23 07:58:45"
 }
