@@ -3,6 +3,9 @@
  "parti": {
   "1": {
    "stato": "REVISIONATA"
+  },
+  "2": {
+   "stato": "REVISIONATA"
   }
  },
  "manca": "",
@@ -12,7 +15,11 @@
   {
    "quando": "23/11 12:54",
    "testo": "correzioni 22/11 fatte + correzioni 23/11: schede a tutto schermo, piè di pagina senza nome (tranne 6 fotogrammi P1), pause mute tolte, verifica finale P2 reinserita. Durate misurate: P1 49:22, P2 54:38. Foglio e json del controllo rapido sul ramo. Mancano: voce Kore COMPITI (testo caricato sul ramo voci, non ancora arrivata)."
+  },
+  {
+   "quando": "23/11 12:54",
+   "testo": "correzioni 22/11 fatte + correzioni 23/11: schede a tutto schermo, piè di pagina senza nome (tranne 6 fotogrammi P1), pause mute tolte, verifica finale P2 reinserita. Durate misurate: P1 49:22, P2 54:38. Foglio e json del controllo rapido sul ramo. Mancano: voce Kore COMPITI (testo caricato sul ramo voci, non ancora arrivata)."
   }
  ],
- "aggiornato": "2026-11-23 12:54:42"
+ "aggiornato": "2026-11-23 12:54:45"
 }
