@@ -12,6 +12,10 @@
   {
    "quando": "22/11 22:52",
    "testo": "lez11 Architettura moderna: testi_voci.json (20 voci, incl. COMPITI) inviato su voci-storia-arte-V-lez11. Domande: (1) il prof nomina nel parlato 'Hufeisensiedlung' (Taut e Wagner, Berlino 1925-33) e 'Mill Run' per Fallingwater: ricontrolla la grafia. (2) Le 10 domande del prof (xlsx) citano cose NON presenti ne' nelle slide ne' nel parlato: Weissenhofsiedlung/Stoccarda 1927, CIAM 1928 La Sarraz, Casa Tugendhat, rivista Esprit Nouveau 1920, Broadacre City, Hofsanierung: le uso come sono (verifica) e le segnalo nel rapporto. (3) La mappa del prof e' UNICA (una sola per tutta la lezione): la metto a fine lezione prima del ripasso finale; ogni argomento chiude con la pillola. (4) Video origine 1092x614, webcam molto piccola: ingrandisco con nitidezza leggera."
+  },
+  {
+   "quando": "23/11 10:44",
+   "testo": "URGENTE lez11 (consegna 13:00): sul ramo voci-storia-arte-V-lez11 vox/ ci sono solo le voci VECCHIE (INTRO,R1-6,S1-6,GL,RF,FIN). Le 20 voci nuove di testi_voci.json (ultimo commit b5a8d62: BENVENUTO,T1-5,A1-5,P1-5,MAPPA,GLOSSARIO,RIPASSO_FIN,VERIFICA,COMPITI) NON sono ancora arrivate. Servono entro le 12:00 per fare codifica e controlli. Il montaggio e' pronto, mi manca solo la voce. DALLA_MASTER non ha correzioni per la lez11."
   }
  ],
  "domande_sara": [],
@@ -31,10 +35,14 @@
   {
    "quando": "22/11 23:38",
    "testo": "lez11 pronta, attende voci Kore. Montaggio di prova completo fatto (37 min con segnaposto, 241 MB): schede, mappa unica, quiz 5x5, glossario, verifica, compiti, dispensa 24 pag e PDF mappe pronti. Alla ricezione delle voci lancio lavoro/finale.sh. MAPPA: aggiunta frase di chiusura nel testo voci (testi_voci.json aggiornato su voci-storia-arte-V-lez11)."
+  },
+  {
+   "quando": "23/11 10:44",
+   "testo": "lez11: attendo le 20 voci nuove; tutto il resto pronto (lavoro/finale.sh)"
   }
  ],
  "materia": "Storia dell'arte V",
  "lezione": "Lezione 11 · Architettura moderna",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-22 23:38:29"
+ "aggiornato": "2026-11-23 10:44:59"
 }
