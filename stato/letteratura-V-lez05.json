@@ -144,7 +144,11 @@
   {
    "quando": "23/11 11:31",
    "testo": "23/11 11:35 UTC: controllo rapido = OK sulla versione intermedia (foglio guardato: restano QR in T5 e parole chiave sovrapposte alle card alte). Ricodifico ancora (~35 min) con QR tolti e parole chiave piu' in basso; voce COMPITI non ancora arrivata (la integro dopo, solo coda del video)"
+  },
+  {
+   "quando": "23/11 12:05",
+   "testo": "23/11 12:10 UTC: trovato che i QR non venivano tolti (errore mio nei percorsi): ricodifica finale in corso, ~35 min, poi consegna e mi fermo"
   }
  ],
- "aggiornato": "2026-11-23 11:31:59"
+ "aggiornato": "2026-11-23 12:05:12"
 }
