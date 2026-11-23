@@ -2,11 +2,17 @@
  "tag": "storia-V-lez15",
  "parti": {
   "1": {
-   "stato": "IN_MONTAGGIO",
-   "voci": "segnaposto"
+   "stato": "FERMA",
+   "voci": "segnaposto",
+   "video": "Storia_Lez15_Parte1_1080p.mp4",
+   "durata_s": 3698.6,
+   "durata": "61:38.6",
+   "fotogrammi": 110958,
+   "fotogrammi_attesi": 110958,
+   "peso_MB": 331.3
   }
  },
- "manca": "voci BEN_R2, DP, CPT1-4 e 11 _R2; poi rimontaggio, controlli, rapporto, consegna",
+ "manca": "voci Kore (BEN_R2, DP, CPT1-4, 11 _R2, 5 _R3); poi rimontaggio, secondo giro dell'agente separato, riconsegna",
  "serve_master": [
   {
    "quando": "22/11 18:35",
@@ -23,6 +29,10 @@
   {
    "quando": "22/11 22:19",
    "testo": "Lez 15: aggiunte in testi_voci.json 5 voci _R3 (SC7_2, SC8_2, SC10_4, AN15, AN20) con le sigle ANC/ONU rispiegate a voce (regola BES), e GL4_R2 con l'anno in lettere. Totale voci da fare per me: BEN_R2, DP, CPT1-4, 11 _R2, 5 _R3. Le sigle delle slide del prof (USA, URSS, ONU, FLN, ANC) le espando sullo schermo tra parentesi; il prof a voce non le spiega e non si tocca: lo scrivo nel rapporto."
+  },
+  {
+   "quando": "23/11 08:28",
+   "testo": "Lez 15 consegnata alle 08:35 UTC sul ramo revisione-storia-V-lez15 ma con voci provvisorie (il ramo voci-storia-V-lez15 non ha ancora i wav di BEN_R2, DP, CPT1-4, ne' le 11 _R2 e 5 _R3). Stato FERMA: non caricare. Mi bastano i wav in vox/: rimonto in circa 50 minuti e riconsegno."
   }
  ],
  "domande_sara": [],
@@ -42,7 +52,11 @@
   {
    "quando": "22/11 23:20",
    "testo": "23/11 00:00 UTC: video rifatto dopo controllo separato (digressioni rimesse nel loro argomento, taglio arg.3, sigle rispiegate sullo schermo, glossario, esitazioni tolte, sottotitoli): 61:38, controllo_severo OK, controllo_finale TUTTO OK. In attesa delle voci Kore (BEN_R2, DP, CPT1-4, 11 _R2, 5 _R3) per il montaggio definitivo e la consegna."
+  },
+  {
+   "quando": "23/11 08:28",
+   "testo": "23/11 08:35 UTC: correzioni 22/11 fatte, consegna in revisione-storia-V-lez15 (d9029ab) con VOCI PROVVISORIE: NON caricare su Vimeo. Controlli: controllo_severo OK, controllo_finale TUTTO OK, agente separato (1 giro, difetti corretti). Mancano le voci Kore: BEN_R2, DP, CPT1-4, 11 _R2, 5 _R3 (testi_voci.json). Appena arrivano rifaccio il montaggio con un comando e riconsegno."
   }
  ],
- "aggiornato": "2026-11-22 23:20:11"
+ "aggiornato": "2026-11-23 08:28:17"
 }
