@@ -49,10 +49,14 @@
   {
    "quando": "22/11 21:23",
    "testo": "21:30 UTC: Parti montate con voci provvisorie (P1 43 min 237 MB, P2 50 min 332 MB, -16 LUFS). In corso: sottotitoli e controllo severo. Alle voci Kore (08:00 UTC) rifaccio le schede con voce e ricodifico."
+  },
+  {
+   "quando": "23/11 01:05",
+   "testo": "01:05 UTC: risolti difetti del controllo severo (slide a finestra ora cambiano ogni <3 min, ticchettio nei quiz, code silenziose accorciate). Rifaccio le due Parti con voci provvisorie; alle voci Kore (08:00 UTC) ricodifico. Nota durate: Parte 1 circa 43 min, Parte 2 circa 50 min."
   }
  ],
  "materia": "Storia V",
  "lezione": "Lezione 21 · Il mondo dal 2001 ad oggi",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-22 21:23:49"
+ "aggiornato": "2026-11-23 01:05:21"
 }
