@@ -2,6 +2,21 @@
 **Correzioni del 22/11/2026** (secondo giro, sopra la consegna del 17/11). Video: `Letteratura_Lez18_Parte1_1080p.mp4` (a pezzi `.parte_NN`, sha256 nel file `.sha256`).
 Etichette: **misurato** = con uno strumento; **stima** = dedotto; **non verificato** = non potuto.
 
+## 0. Correzioni del 23/11 (dopo la risposta della master delle 21:50 UTC del 22/11)
+| Difetto indicato dalla master | Cosa ho fatto | Verifica |
+|---|---|---|
+| 1) Schede quiz bianche; a 7:09 scheda quiz sovrapposta al ripasso | Schede **titolo argomento, quiz, ripasso/approfondimento/glossario/riepilogo (cartello d'apertura), verifica finale e compiti in blu scuro a tutto schermo con fondo animato** (sfondo che scorre, testo che compare in dissolvenza, barre giallo/blu sopra e sotto). Il quiz non si sovrappone più al ripasso | foglio fotogrammi (13:31, 28:06, ecc.) |
+| 2) Schede mute 8–12 s dopo lo scatto | Schede quiz e titolo **4,0 s** (jingle + fermata); dove restava silenzio sotto la voce/schede/mappa ho messo un **sottofondo morbido** (58 punti) | `controllo_rapido.py`: **pause mute = nessuna** |
+| 3) Fine: «Grazie per l'attenzione» bianca e muta | **Tolta**. Ora: verifica finale (blu, jingle) → **sigla finale del kit con avviso diritti** (`Sigla_finale_5s_con_avviso_diritti.mp4`) → intro «Compiti» in blu con jingle → compiti | timeline |
+| 4) Pause oltre 2,5 s (1:56, 13:46, 13:51, 33:49, 33:53, 38:10, 46:36, 47:05, 47:57) | Erano tutte **sulle schede e sulla mappa** (non nel parlato del prof): ora c'è sempre suono. Le pause della mappa restano 4 s, con il sottofondo | `controllo_rapido.py` |
+| 5) Parlato «sul montaggio» a 9:01–9:10 | **Tagliato** da orig. 347,8 a 361,0 s (da «Allora. Ripetiamo le slide…» a «…costruire montaggio.»), fra due frasi; tolto anche dai sottotitoli | trascrizione; sync −0,015 s |
+| Testo «Check» sulle schede | Scritto «Rispondi · premi Controlla · poi Continua» | |
+
+**Controllo rapido finale (`kit/tools/controllo_rapido.py`): ESITO OK** — 1920×1080 30 fps, −16,1 LUFS, picco −1,3 dBTP, nessuna pausa muta oltre 2,5 s, nessuna scheda con fasce, nessun nome del docente nel piè, nessuna schermata ferma oltre 3 min. Foglio e json accanto al video: `foglio_fotogrammi_*.jpg`, `controllo_rapido_*.json` (li ho guardati: schede blu a tutto schermo, card intere, mappa con legenda). Jingle quiz a 0,000 s su tutti e 6; sincronia labbra −0,015 s su D0–D6; fotogrammi 89 938 = durata × 30.
+
+**Non fatto in questo giro:** ascolto umano delle voci; `controllo_severo.py` completo (lo lancia la master); tratti lunghi del prof senza card accesa (§6 vecchio); schede PDF blu come immagine (testo non selezionabile).
+
+
 ## 1. Cosa ho cambiato in questo giro
 | Punto | Prima (17/11) | Ora (22/11) |
 |---|---|---|
@@ -12,8 +27,8 @@ Etichette: **misurato** = con uno strumento; **stima** = dedotto; **non verifica
 | Pause del prof > 2,5 s | 6 pause da 2,5 a 4,3 s | accorciate a ~1 s (tagli solo fra due frasi): 347,8; 560,0; 625,8; 769,3; 1011,1; 1215,9 s dell'originale (−13,0 s in tutto) |
 | «Già visto» | la slide «Satura» tornava nell'argomento 6 | ogni slide del prof compare in **un solo argomento**: «La storia» (orig. 27:49) si vede sulla slide dell'argomento 6 |
 | Piè di pagina / nome del prof | «…· Prof. Giorgio Mazzotti» | solo «LETTERATURA ITALIANA V» e «Pagina N» (il nome compare solo nella fascia gialla) |
-| Dispensa | slide su A4 con piè col nome | **110 pagine** A4 orizzontale = ogni slide del video senza riquadro e fascia; testo vero selezionabile; copertina solo materia e titolo; PDF mappe a parte con copertina «MAPPE» |
-| Durata | 53:39,5 | 50:31,1: ≥ 50 min non richiesto per lezioni con solo materiale del prof (regola 3.6); i secondi dei quiz cambiano (§5) |
+| Dispensa | slide su A4 con piè col nome | **109 pagine** A4 orizzontale = ogni slide del video senza riquadro e fascia; testo vero selezionabile; copertina solo materia e titolo; PDF mappe a parte con copertina «MAPPE» |
+| Durata | 53:39,5 | 49:57,9 (era 50:31,1 prima delle correzioni del 23/11): ≥ 50 min non richiesto per lezioni con solo materiale del prof (regola 3.6); i secondi dei quiz cambiano (§5) |
 
 ## 2. Esito del controllo severo (`controllo_severo.py`)
 **Il `controllo_severo.py` NON è arrivato a esito su questa versione finale**: sulla versione precedente ha girato oltre 40 minuti (tesseract su 600 fotogrammi) senza finire e l'ho interrotto alla scadenza; **esito non ottenuto, non OK**. Al suo posto ho fatto fare a un **agente indipendente** la lista del §11 (misure sul video e sul PDF). Difetti che ha trovato e che **ho corretto** in questa versione: taglio di D0 a metà frase («…beh…» ora la frase è intera); 4 card accese in ritardo (Il correlativo oggettivo, Il testo di *Spesso il male*, L'angoscia della memoria, Il rifiuto delle ideologie); refusi nei sottotitoli (virandello, Vieux, Mollussi, redità, scapro, buffere d'altro, diallettali, Exenia, viggente); volume del prof (era a −14…−15 LUFS, ora −16,1 in tutto) e delle voci (−17…−18, alzate); bordi della voce della mappa (dissolvenze di 30 ms); testo della mappa (ora 38–54 px, prima 30–36); riquadri della mappa in anticipo sulla voce; copertina della dispensa (solo materia e titolo); schede VER/CI1/COMP/FIN1 senza suono (ora `trans.wav`) e CI1 accorciata a 3,6 s.
@@ -35,31 +50,31 @@ Etichette: **misurato** = con uno strumento; **stima** = dedotto; **non verifica
 | Jingle quiz (`controllo_jingle.py`) | Q1…Q6 scarto **0,000 s** OK (**misurato**) |
 | Sincronia labbra/voce | audio contro originale, D0…D6: scarto **−0,015 s** (≤ 0,04; **misurato**); il video del prof è tagliato con la stessa mappa delle pause (un primo montaggio perdeva 1 fotogramma per taglio: **trovato e corretto**, differenza fotogramma/originale a 0 nei 3 punti controllati) |
 | Fermi immagine del prof | `freezedetect` (versione precedente dello stesso montaggio): nessuno dentro i pezzi del prof (**misurato**); riquadro assente da copertina con voce e da «Di cosa parliamo» |
-| PDF | slide **110 pagine** A4 orizzontale = slide del video (copertina senza card ARGOMENTI); mappe: copertina «MAPPE» + 3 schermate (**misurato**) |
+| PDF | slide **109 pagine** A4 orizzontale = slide del video (copertina senza card ARGOMENTI); mappe: copertina «MAPPE» + 3 schermate (**misurato**) |
 
 ## 4. Fine e inizio di ogni pezzo del prof
 | Pezzo | Minuto nuovo | Prime parole | Ultime parole | Frase finita |
 |---|---|---|---|---|
-| D0 | 0:45.0–1:56.8 (orig. 0:00.1–1:09.6) | «Buongiorno e benvenuti alla lezione su Eugenio» | «ma vedrete. In ogni caso. Eugenio Montale, beh...» | sì |
-| D1 | 2:01.8–4:57.1 (orig. 1:11.9–4:07.3) | «Eugenio Montale, beh... Direi che è appunto una sua» | «e muore nel 1981, attraverso veramente. in novecento.» | sì |
-| D2 | 7:19.1–11:16.6 (orig. 4:07.3–8:06.9) | «Vediamo la prima raccolta, la più importante,» | «ciò che non siamo, ciò che non vogliamo.» | sì |
-| D3 | 13:54.7–25:48.8 (orig. 8:06.9–20:10.0) | «Bene, e allora come propone giustamente il» | «nostra condizione, se no addirittura ci potrebbe attaccare.» | sì |
-| D4 | 29:22.9–31:51.8 (orig. 20:10.0–22:40.7) | «Seconda raccolta, le occasioni. Allora. Mm. Beh,» | «immobile e privo di un varco di salvezza.» | sì |
-| D5 | 33:57.4–36:29.3 (orig. 22:40.7–25:12.7) | «Poi viene ve ne un'altra di raccolta,» | «i linguaggi alienanti. della moderna società di consumo.» | sì |
-| D6 | 39:30.0–43:43.1 (orig. 25:12.7–29:25.7) | «All'interno di quest'opera la sezione Xenia, oksenia,» | «diciamolo, in sede scolastica. Di solito. sono richieste.» | sì |
+| D0 | 0:45.0–1:54.4 (orig. 0:00.1–1:09.6) | «Buongiorno e benvenuti alla lezione su Eugenio» | «ma vedrete. In ogni caso. Eugenio Montale, beh...» | sì |
+| D1 | 1:58.4–4:56.1 (orig. 1:11.9–4:07.3) | «Eugenio Montale, beh... Direi che è appunto una sua» | «e muore nel 1981, attraverso veramente. in novecento.» | sì |
+| D2 | 7:15.8–11:02.2 (orig. 4:07.3–8:06.9) | «Vediamo la prima raccolta, la più importante,» | «ciò che non siamo, ciò che non vogliamo.» | sì |
+| D3 | 13:38.0–25:32.1 (orig. 8:06.9–20:10.0) | «Bene, e allora come propone giustamente il» | «nostra condizione, se no addirittura ci potrebbe attaccare.» | sì |
+| D4 | 29:03.9–31:32.8 (orig. 20:10.0–22:40.7) | «Seconda raccolta, le occasioni. Allora. Mm. Beh,» | «immobile e privo di un varco di salvezza.» | sì |
+| D5 | 33:36.1–36:08.0 (orig. 22:40.7–25:12.7) | «Poi viene ve ne un'altra di raccolta,» | «i linguaggi alienanti. della moderna società di consumo.» | sì |
+| D6 | 39:06.4–43:19.5 (orig. 25:12.7–29:25.7) | «All'interno di quest'opera la sezione Xenia, oksenia,» | «diciamolo, in sede scolastica. Di solito. sono richieste.» | sì |
 
 
 ## 5. Quiz, verifica e compiti: secondi vecchio → nuovo (misurato)
 | Elemento | Vecchio | Nuovo |
 |---|---|---|
-| Quiz 1 | 7:53 (473.1 s) | 7:08 (428.8 s) |
-| Quiz 2 | 15:12 (912.6 s) | 13:44 (824.4 s) |
-| Quiz 3 | 28:17 (1697.5 s) | 29:12 (1752.6 s) |
-| Quiz 4 | 34:20 (2060.2 s) | 33:47 (2027.1 s) |
-| Quiz 5 | 42:24 (2544.8 s) | 39:19 (2359.7 s) |
-| Quiz 6 | 50:17 (3017.8 s) | 45:47 (2747.9 s) |
-| Verifica finale | 53:14 (3194.9 s) | 50:08 (3008.0 s) |
-| Compiti | 53:33 (3213.2 s) | 50:24 (3024.8 s) |
+| Quiz 1 | 7:53 (473.1 s) | 7:07 (427.8 s) |
+| Quiz 2 | 15:12 (912.6 s) | 13:30 (810.0 s) |
+| Quiz 3 | 28:17 (1697.5 s) | 28:55 (1735.9 s) |
+| Quiz 4 | 34:20 (2060.2 s) | 33:28 (2008.1 s) |
+| Quiz 5 | 42:24 (2544.8 s) | 38:58 (2338.4 s) |
+| Quiz 6 | 50:17 (3017.8 s) | 45:24 (2724.3 s) |
+| Verifica finale | 53:14 (3194.9 s) | 49:34 (2974.8 s) |
+| Compiti | 53:33 (3213.2 s) | 49:51 (2991.6 s) |
 
 Aggiornati `scheda_pubblicazione_Parte1.json`, `timeline_Parte1.json`, `testo_youtube.txt`. **La pagina del video va riallineata ai secondi nuovi.**
 

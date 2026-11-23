@@ -1,43 +1,43 @@
 {
  "materia": "Letteratura italiana (V)",
  "titolo": "Letteratura V · Lezione 18 · Eugenio Montale",
- "durata_s": 3031.133,
+ "durata_s": 2997.933,
  "argomenti": [
   {
    "n": 1,
    "titolo": "La vita",
    "inizio_s": 114.4,
-   "quiz_s": 428.833
+   "quiz_s": 427.833
   },
   {
    "n": 2,
    "titolo": "Ossi di seppia e la poetica",
-   "inizio_s": 434.133,
-   "quiz_s": 824.433
+   "inizio_s": 431.833,
+   "quiz_s": 810.033
   },
   {
    "n": 3,
    "titolo": "I testi degli Ossi",
-   "inizio_s": 829.733,
-   "quiz_s": 1752.6
+   "inizio_s": 814.033,
+   "quiz_s": 1735.9
   },
   {
    "n": 4,
    "titolo": "Le occasioni",
-   "inizio_s": 1757.9,
-   "quiz_s": 2027.067
+   "inizio_s": 1739.9,
+   "quiz_s": 2008.067
   },
   {
    "n": 5,
    "titolo": "La bufera e altro e Satura",
-   "inizio_s": 2032.367,
-   "quiz_s": 2359.733
+   "inizio_s": 2012.067,
+   "quiz_s": 2338.433
   },
   {
    "n": 6,
    "titolo": "La figura della moglie",
-   "inizio_s": 2365.033,
-   "quiz_s": 2747.933
+   "inizio_s": 2342.433,
+   "quiz_s": 2724.333
   }
  ],
  "quiz": {
@@ -372,88 +372,88 @@
    ]
   }
  },
- "t_verifica": 3008.033,
- "t_compiti": 3024.833,
+ "t_verifica": 2974.833,
+ "t_compiti": 2991.633,
  "approfondimenti": [
   {
    "id": "AP1a",
    "titolo": "La vita di Montale in tappe",
-   "inizio_s": 297.1
+   "inizio_s": 296.1
   },
   {
    "id": "AP1b",
    "titolo": "Montale e gli altri autori",
-   "inizio_s": 342.4
+   "inizio_s": 341.4
   },
   {
    "id": "AP2a",
    "titolo": "Ossi di seppia",
-   "inizio_s": 676.633
+   "inizio_s": 662.233
   },
   {
    "id": "AP2b",
    "titolo": "La poetica degli oggetti",
-   "inizio_s": 714.6
+   "inizio_s": 700.2
   },
   {
    "id": "AP2c",
    "titolo": "Il correlativo oggettivo",
-   "inizio_s": 754.167
+   "inizio_s": 739.767
   },
   {
    "id": "AP3a",
    "titolo": "I limoni",
-   "inizio_s": 1548.8
+   "inizio_s": 1532.1
   },
   {
    "id": "AP3b",
    "titolo": "Meriggiare pallido e assorto",
-   "inizio_s": 1601.633
+   "inizio_s": 1584.933
   },
   {
    "id": "AP3c",
    "titolo": "Spesso il male di vivere ho incontrato",
-   "inizio_s": 1656.167
+   "inizio_s": 1639.467
   },
   {
    "id": "AP4a",
    "titolo": "Le occasioni",
-   "inizio_s": 1911.767
+   "inizio_s": 1892.767
   },
   {
    "id": "AP4b",
    "titolo": "Due testi de Le occasioni",
-   "inizio_s": 1955.167
+   "inizio_s": 1936.167
   },
   {
    "id": "AP5a",
    "titolo": "La bufera e altro",
-   "inizio_s": 2189.333
+   "inizio_s": 2168.033
   },
   {
    "id": "AP5b",
    "titolo": "Satura",
-   "inizio_s": 2253.133
+   "inizio_s": 2231.833
   },
   {
    "id": "AP5c",
    "titolo": "Tre raccolte a confronto",
-   "inizio_s": 2292.467
+   "inizio_s": 2271.167
   },
   {
    "id": "AP6a",
    "titolo": "Ho sceso, dandoti il braccio",
-   "inizio_s": 2623.067
+   "inizio_s": 2599.467
   },
   {
    "id": "AP6b",
    "titolo": "La storia",
-   "inizio_s": 2677.1
+   "inizio_s": 2653.5
   },
   {
    "id": "MAP",
    "titolo": "La mappa del professore (3 schermate)",
-   "inizio_s": 2751.933
+   "inizio_s": 2728.333
   }
  ]
 }
