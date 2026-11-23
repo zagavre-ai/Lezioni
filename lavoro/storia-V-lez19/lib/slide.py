@@ -22,7 +22,7 @@ def right_col(keys,name='Giorgio Mazzotti',mat='PROF. DI STORIA',cam=True):
         li=''.join(f'<div style="margin:0 0 10px;padding-left:34px;position:relative;font:600 29px/1.25 Figtree"><i style="position:absolute;left:6px;top:11px;width:13px;height:13px;border-radius:50%;background:#2060AF"></i>{k}</div>' for k in keys[:5])
         s+=(f'<div class=abs style="left:{x}px;top:{y+h+150}px;width:{w}px;"><div style="font:700 22px Figtree;letter-spacing:.16em;color:#2060AF;margin-bottom:12px">PAROLE CHIAVE</div>{li}</div>')
     return s
-def card_html(txt,state):
+def card_html(txt,state,fs=40):
     # state: 'on' | 'off'
     if state=='on':
         st='border:6px solid #FFE600;background:#fff;box-shadow:0 10px 26px rgba(60,72,100,.20);'
@@ -32,7 +32,7 @@ def card_html(txt,state):
         st='border:6px solid #D5DCE8;background:#fff;box-shadow:0 6px 16px rgba(60,72,100,.12);';dot='';op=1
     else:
         st='border:6px solid #D5DCE8;background:#fff;box-shadow:0 6px 16px rgba(60,72,100,.10);';dot='';op=.5
-    return f'<div class=card style="position:relative;box-sizing:border-box;width:1305px;padding:20px 28px;border-radius:20px;{st}opacity:{op};font:400 40px/1.5 Figtree;margin-bottom:18px">{dot}{txt}</div>'
+    return f'<div class=card style="position:relative;box-sizing:border-box;width:1305px;padding:20px 28px;border-radius:20px;{st}opacity:{op};font:400 {fs}px/1.5 Figtree;margin-bottom:18px">{dot}{txt}</div>'
 def measure(b,paras):
     b.pg.set_content('<!doctype html><html><head><meta charset=utf-8><style>'+BASE+'</style></head><body>'+''.join(card_html(spiega(p),'off') for p in paras)+'</body></html>')
     b.pg.wait_for_timeout(100)
@@ -55,3 +55,10 @@ def slide_html(titolo,kicker,pagina,paras,active,win,keys,materia='STORIA V',cam
 def avail_for(titolo):
     ncap=1 if len(titolo)<46 else 2
     return 972-(198+ncap*70+22)
+
+def zoom_html(titolo,kicker,pagina,para,keys,materia='STORIA V'):
+    ncap=1 if len(titolo)<46 else 2;top=198+ncap*70
+    return (chrome(materia,pagina,kicker)+
+        f'<div class=abs style="left:80px;top:190px;width:1305px;font:800 56px/1.15 \'Bricolage Grotesque\';color:#0B1530">{titolo}</div>'
+        f'<div class=abs style="left:80px;top:{top-8}px;width:86px;height:8px;border-radius:4px;background:#2060AF"></div>'
+        f'<div class=abs style="left:80px;top:{top+30}px">{card_html(spiega(para),"on",fs=50)}</div>'+right_col(keys))

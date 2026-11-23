@@ -16,20 +16,23 @@ def page(c,png,testo):
     for line in re.findall(r'.{1,150}(?:\s|$)',testo): t.textLine(line.strip())
     c.drawText(t);c.showPage()
 def render_pages():
-    P=json.load(open(W+'/slide.json'));pages=[]
+    P=json.load(open(W+'/slide.json'));pages=[];prevkey=None
     os.makedirs(O+'disp',exist_ok=True)
     with B() as b:
         def shot(h,name,txt):
             png=O+'disp/'+name+'.png';b.shot(h,png);pages.append((png,txt))
         shot(cover_html(False,pg=1),'cover',f'STORIA V · VIDEOLEZIONE. {plain(TIT_LEZ)}. Argomenti: '+'. '.join(viste.ARGT[i] for i in range(1,9)))
         for i,items in enumerate([[1,2,3],[4,5,6],[7,8]]):
-            shot(argomenti_html(items,2+i),f'arg{i}','Di cosa parliamo. '+'. '.join(viste.ARGT[k] for k in items))
+            shot(argomenti_html(items,2+i,cam=False),f'arg{i}','Di cosa parliamo. '+'. '.join(viste.ARGT[k] for k in items))
         for tl in ('timeline_P1.json','timeline_P2.json'):
             T=json.load(open(W+'/'+tl))
             for it in T:
                 if it['tipo']!='prof': continue
                 j=json.load(open(f'{OUT}/{it["id"]}.json'))
                 for m in j['meta']:
+                    key=(m['kind'],m.get('page'),tuple(m.get('win',[])),m.get('key'))
+                    if key==prevkey: continue
+                    prevkey=key
                     if m['kind']=='img':
                         tit,cap,_=viste.IMG[m['key']];txt=f'{tit}. {cap}'
                         shot(viste.html_img(m['key'],m['argn'],m['pg'],cam=False),f'p{m["pg"]}',txt)

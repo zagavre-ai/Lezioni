@@ -14,6 +14,7 @@ def words():
                 cur=[t,w.strip()]
             else: cur[1]+=w
         if cur: out.append(cur)
+    out=[w for w in out if not re.fullmatch(r'(?i)(mm+|um|uh|ehm|eh|ah)[.,…]*',w[1])]
     for i in range(len(out)-1):
         if out[i][1]=='prima.' and out[i+1][1].lower().startswith('republika'): out[i][1]='prima'
     return out
@@ -42,6 +43,18 @@ def onset_fn(video):
             c=n
         return min(max(c,t-0.5),t+0.8)
     return fix
+def kore(tl):
+    import re as _r
+    TV={x['nome']:x['testo'] for x in json.load(open('/home/claude/voci/scambio/storia-V-lez19/testi_voci.json'))}
+    from testo import cifre
+    VD=json.load(open(W+'/vox_dur.json'));c=[]
+    for it in tl:
+        for nm,t in it.get('voci',[]):
+            if nm not in TV: continue
+            fr=[x for x in _r.split(r'(?<=[.!?])\s+',cifre(TV[nm]).strip()) if x];tot=sum(len(x) for x in fr);a=it['inizio']+t
+            for x in fr:
+                d=VD[nm]*len(x)/tot;c.append([a,a+d-0.05,x]);a+=d
+    return c
 def vtt(tl,pdir,out,video=None):
     WD=words();cues=[];onset=onset_fn(video) if video else (lambda t:t)
     for it in tl:
@@ -63,7 +76,7 @@ def vtt(tl,pdir,out,video=None):
                 if t-cur[-1][0]>0.9 or len(txt)>80 or t-cur[0][0]>6 or (cur[-1][1][-1:] in '.?!' and len(txt)>28): flush()
             cur.append((t,w))
         flush()
-    cues.sort()
+    cues+=[[onset(c[0]),c[1],c[2]] for c in kore(tl)];cues.sort()
     for i in range(len(cues)-1):
         if cues[i][1]>cues[i+1][0]-0.03: cues[i][1]=cues[i+1][0]-0.03
     with open(out,'w') as f:

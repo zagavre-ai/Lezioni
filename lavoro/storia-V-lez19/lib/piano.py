@@ -19,10 +19,10 @@ def cover_html(box,anim=False,pg=1):
        f'<div class=abs style="left:80px;right:80px;top:980px;height:1px;background:#D5DCE8"></div><div class=abs style="left:80px;top:1000px;font:700 22px Figtree;letter-spacing:.14em;color:#2060AF">STORIA V</div><div class=abs style="right:80px;top:1000px;font:700 22px Figtree;letter-spacing:.1em;color:#2060AF">Pagina {pg}</div>')
     if box: h+=right_col([])
     return h
-def argomenti_html(items,pg):
+def argomenti_html(items,pg,cam=True):
     cards=''.join(card_html(f'<b>{i}</b> · {viste.ARGT[i]}','off').replace('opacity:0.5','opacity:1') for i in items)
-    return (chrome('STORIA V',pg,'STORIA V · VIDEOLEZIONE')+f'<div class=abs style="left:80px;top:190px;font:800 56px/1.15 \'Bricolage Grotesque\'">Di cosa parliamo</div>'
-        f'<div class=abs style="left:80px;top:282px;width:86px;height:8px;border-radius:4px;background:#2060AF"></div><div class=abs style="left:80px;top:316px">{cards}</div>'+right_col([]))
+    return (chrome('STORIA V',pg,'STORIA V · DI COSA PARLIAMO')+f'<div class=abs style="left:80px;top:190px;font:800 56px/1.15 \'Bricolage Grotesque\'">Di cosa parliamo</div>'
+        f'<div class=abs style="left:80px;top:282px;width:86px;height:8px;border-radius:4px;background:#2060AF"></div><div class=abs style="left:80px;top:316px">{cards}</div>'+right_col([],cam=cam))
 def compiti_html(tit,testo,pg):
     return (chrome('STORIA V',pg,'COMPITI')+f'<div class=abs style="left:80px;top:190px;font:800 56px/1.15 \'Bricolage Grotesque\'">{tit}</div><div class=abs style="left:80px;top:282px;width:86px;height:8px;border-radius:4px;background:#2060AF"></div>'
         f'<div class=abs style="left:80px;top:326px;width:1760px;box-sizing:border-box;padding:28px 36px;border-radius:20px;border:6px solid #FFE600;background:#fff;box-shadow:0 10px 26px rgba(60,72,100,.2);font:400 40px/1.5 Figtree">{testo}</div>')
@@ -42,7 +42,8 @@ class Run:
     def scena(s,pid,f_ev,tipo,last=False,**k):
         f,ev=f_ev
         if not s.built(pid): scena(pid,f,ev,s.prev,last);s.mark(pid)
-        s.add(pid,dur(f'{OUT}/{pid}.mkv'),tipo,**k)
+        voci=[(os.path.basename(p_)[:-4],round(t_,2)) for p_,t_,g_ in f_ev[1] if '/voxn/' in p_ and not os.path.basename(p_).startswith('_')]
+        s.add(pid,dur(f'{OUT}/{pid}.mkv'),tipo,voci=voci,**k)
     def prof(s,pid,a,b,cues,imgs,argn,cards_of,tipo='prof',drop=(),statesfn=None,last=False):
         R=ranges(a,b)
         if drop:

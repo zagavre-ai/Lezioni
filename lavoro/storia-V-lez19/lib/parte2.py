@@ -13,9 +13,10 @@ def s_spiegone():
         tm=tempi_frasi(fr,t+0.3,d-0.3);ev.append((VX+v+'.wav',t,0));t1=t+d+0.6
         f=foto[k];w=1100 if f else 1640
         html+=T(t-0.1,f'{k} · {viste.ARGT[k]}',"position:absolute;left:140px;top:200px;width:1640px;font:800 56px/1.1 'Bricolage Grotesque'",extra=f'data-out="{t1-0.2:.2f}"')
-        n=len(fr);hh=min(150,int(600/n)-14);y=340
+        html+=f'<div style="position:absolute;left:140px;top:340px;width:{w}px;display:flex;flex-direction:column;gap:14px">'
         for x,(a,b) in zip(fr,tm):
-            html+=(f'<div data-t0="{a-0.1:.2f}" data-t1="{b+0.2:.2f}" data-out="{t1-0.2:.2f}" style="opacity:0;position:absolute;left:140px;top:{y}px;width:{w}px;box-sizing:border-box;padding:12px 28px;border-radius:16px;background:rgba(255,255,255,.08);border-left:10px solid #FFE600;font:600 38px/1.3 Figtree">{x}</div>');y+=hh+14
+            html+=(f'<div data-t0="{a-0.1:.2f}" data-t1="{b+0.2:.2f}" data-out="{t1-0.2:.2f}" style="opacity:0;box-sizing:border-box;padding:12px 28px;border-radius:16px;background:rgba(255,255,255,.08);border-left:10px solid #FFE600;font:600 38px/1.3 Figtree">{x}</div>')
+        html+='</div>'
         if f and f.startswith('MAP'): html+=T(t,f'<img src="file://{O}map{f[3]}.png" style="width:560px;border-radius:12px;box-shadow:0 14px 34px rgba(0,0,0,.4)">','position:absolute;left:1260px;top:340px;width:560px',extra=f'data-out="{t1-0.2:.2f}"')
         elif f: html+=T(t,f'<img src="file:///home/claude/w19/foto/{f}.png" style="max-width:520px;max-height:620px;border-radius:14px;box-shadow:0 14px 34px rgba(0,0,0,.4)">','position:absolute;left:1280px;top:340px;width:520px',extra=f'data-out="{t1-0.2:.2f}"')
         t=t1+0.3
@@ -46,7 +47,7 @@ def run2():
            ('AN','an6_9',[('AN9','craxi',None)]),
            ('P','a6d',519,583,[(519,12,3),(544,10,0),(545,10,2),(546,12,2),(566,10,2),(568,10,3)],[],C6,{523,524})])
     arg(7,[('P','a7a',584,647,[(584,14,0),(609,14,1),(635,14,3)],[(623,625,'dipietro')],C7),
-           ('AN','an7_10_11',[('AN10','capaci',None),('AN11','dipietro',None)]),
+           ('AN','an7_10_11',[('AN10','capaci',None),('AN11',None,None)]),
            ('P','a7b',648,682,[(648,14,3),(670,14,2)],[(670,677,'capaci')],C7)],mapk=3)
     arg(8,[('P','a8a',683,707,[(683,17,0),(692,17,1),(694,17,2)],[],C8),
            ('AN','an8_12_22',[('AN12',None,None),('AN22',None,None)]),

@@ -18,10 +18,10 @@ def run1():
         with B() as b:
             b.shot(cover_html(True,pg=1),cv)
             for i,items in enumerate([[1,2,3],[4,5,6],[7,8]]): b.shot(argomenti_html(items,2+i),pa[i])
-        r.prof('intro_cover',0,37,[],[],0,{},tipo='intro',statesfn=lambda R:[(0,cv)])
+        r.prof('intro_cover',0,30,[],[],0,{},tipo='intro',statesfn=lambda R:[(0,cv)])
         def st_args(R):
             D=dur_r(R);return [(0,pa[0]),(D/3,pa[1]),(2*D/3,pa[2])]
-        r.prof('intro_args',38,58,[],[],0,{},tipo='intro',statesfn=st_args)
+        r.prof('intro_args',31,58,[],[],0,{},tipo='intro',statesfn=st_args)
         r.pg=4
         def arg(n,pezzi,mapk=None):
             r.scena(f't{n}',s_titolo(n),'titolo',arg=n)
@@ -47,7 +47,7 @@ def run1():
                ('P','a3c',260,290,[(260,4,2),(270,4,1)],[],C4),
                ('AN','an3_19',[('AN19',None,None)]),
                ('P','a3d',291,309,[(291,4,3)],[],C4),
-               ('AN','an3_16',[('AN16','moro_br',None)]),
+               ('AN','an3_16',[('AN16',None,None)]),
                ('P','a3e',310,329,[(310,4,3)],[],C4)],mapk=1)
         arg(4,[('P','a4a',330,352,[(330,6,0),(332,6,1),(337,6,2),(342,6,3)],[(333,334,'moro_br')],C6),
                ('AN','an4_4_21',[('AN4','moro_br',None),('AN21',None,None)]),

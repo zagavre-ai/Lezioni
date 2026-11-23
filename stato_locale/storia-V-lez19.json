@@ -26,6 +26,10 @@
   {
    "quando": "22/11 22:09",
    "testo": "Lez19, 2 domande (non mi blocco, procedo cosi' salvo tua risposta): 1) VERIFICA DI SBARRAMENTO: nel video c'e' la scheda 'Verifica finale' (6 s, jingle quiz.wav a +0,5 s, 'serve almeno l'80%') con le 10 domande del test Excel del prof in verifica_finale.json/xlsx per la piattaforma, come i quiz degli argomenti. Se le vuoi mostrate domanda per domanda dentro il video, dimmelo. 2) MAPPA FINALE DELLA LEZIONE: con la tua regola 'solo mappe del prof' non l'ho fatta (le 3 mappe del prof sono negli arg. 3, 4, 7). Il ripasso finale e' argomento per argomento. Nota: le voci provvisorie sono silenziose; appena arrivano controllo e sostituisco."
+  },
+  {
+   "quando": "23/11 08:13",
+   "testo": "Lez19 ore 08:15 UTC: lavoro senza voci FINITO e fermo (P1 52:04, P2 50:56 montate; controllo severo: niente schermate ferme/card sole/puntini, voce non alterata; restano solo le pause mute delle voci provvisorie). Aggiunte a testi_voci.json le voci mancanti: COMPITI (nuova regola), oltre a BENV1_R2, RIP2A, A2N, MP1_*, MP2_*, MP3_*. Appena arrivano: verifica voci, sostituzione, ricodifica, controllo_rapido + foglio fotogrammi, consegna. Non controllo a ciclo: riprendo alle 09:00 UTC. Domanda: nelle schede quiz/verifica scrivo 'Rispondi · premi Controlla · poi Continua' come da tua nota, lo faccio alla ricostruzione."
   }
  ],
  "domande_sara": [],
@@ -77,5 +81,5 @@
  ],
  "materia": "storia-V",
  "lezione": "19",
- "aggiornato": "2026-11-22 22:09:56"
+ "aggiornato": "2026-11-23 08:13:20"
 }

@@ -50,11 +50,12 @@ def s_an(pid,parti):
         tm=tempi_frasi(fr,t+ (d*len(frasi(TV[v])[0])/len(TV[v])),d-(d*len(frasi(TV[v])[0])/len(TV[v])))
         ev.append((VX+v+'.wav',t,0))
         t0=t;t1=t+d+0.6
-        n=len(fr);foto=None if foto=='none' else foto;hh=min(150,int(600/n)-14);y=340;w=1100 if foto else 1640
+        foto=None if foto=='none' else foto;w=1100 if foto else 1640
         html+=T(t0-0.1,tt,"position:absolute;left:140px;top:200px;width:1640px;font:800 62px/1.1 'Bricolage Grotesque'",extra=f'data-out="{t1-0.2:.2f}"')
+        html+=f'<div style="position:absolute;left:140px;top:340px;width:{w}px;display:flex;flex-direction:column;gap:14px">'
         for f_,(a,b) in zip(fr,tm):
-            html+=(f'<div data-t0="{a-0.1:.2f}" data-t1="{b+0.2:.2f}" data-out="{t1-0.2:.2f}" style="opacity:0;position:absolute;left:140px;top:{y}px;width:{w}px;box-sizing:border-box;padding:12px 28px;border-radius:16px;background:rgba(255,255,255,.08);border-left:10px solid #FFE600;font:600 38px/1.3 Figtree">{f_}</div>')
-            y+=hh+14
+            html+=(f'<div data-t0="{a-0.1:.2f}" data-t1="{b+0.2:.2f}" data-out="{t1-0.2:.2f}" style="opacity:0;box-sizing:border-box;padding:12px 28px;border-radius:16px;background:rgba(255,255,255,.08);border-left:10px solid #FFE600;font:600 38px/1.3 Figtree">{f_}</div>')
+        html+='</div>'
         if foto and foto!='none': html+=T(t0,f'<img src="file:///home/claude/w19/foto/{foto}.png" style="max-width:520px;max-height:620px;border-radius:14px;box-shadow:0 14px 34px rgba(0,0,0,.4)">','position:absolute;left:1280px;top:340px;width:520px',extra=f'data-out="{t1-0.2:.2f}"')
         t=t1+0.3
     dur=round(t+0.6,2)

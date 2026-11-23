@@ -78,22 +78,22 @@ class Stati:
             t_end=pts[i+1][0] if i+1<len(pts) else R[-1][1]
             full.append((t,v))
             k=1
-            while rel(R,t_end)-rel(R,t)>150*(k+0.0) and True:
+            while rel(R,t_end)-rel(R,t)>100*(k+0.0) and True:
                 # punto intermedio ogni 150 s di tempo montato
                 tt2=t
                 # trova il tempo originale che corrisponde a +150k s
-                target=rel(R,t)+150*k
+                target=rel(R,t)+100*k
                 # inverti rel
                 acc=0;to=None
                 for x,y in R:
                     if acc+(y-x)>=target: to=x+(target-acc);break
                     acc+=y-x
                 if to is None or to>=t_end-8: break
-                full.append((to,v,'sub'));k+=1
+                full.append((to,v,'sub',k));k+=1
         full.sort(key=lambda z:z[0])
         res=[];lastslide=None
         for item in full:
-            t,v=item[0],item[1];sub=len(item)>2
+            t,v=item[0],item[1];sub=len(item)>2;kz=item[3] if sub else 0
             if v[0]=='img':
                 slide=('img',v[1]);new=(slide!=lastslide) or sub
                 if new: s.pg+=1
@@ -111,6 +111,9 @@ class Stati:
                 w=window(hh,card,av);newwin=True;s.win[pg]=w
             slide=('card',pg,tuple(w));new=(slide!=lastslide) or sub
             if new: s.pg+=1
+            if sub and kz%2==1:
+                png=f'/home/claude/w19/out/{pid}_{len(res):02d}.png'
+                s.b.shot(zoom_html(titolo,kicker(argn),s.pg,paras[card],kws(pg,cs)),png);res.append((rel(R,t),png));continue
             png=f'/home/claude/w19/out/{pid}_{len(res):02d}.png'
             s.b.shot(slide_html(titolo,kicker(argn),s.pg,paras,card,w,kws(pg,cs)),png)
             if not s.meta or s.meta[-1]['pg']!=s.pg: s.meta.append(dict(pg=s.pg,kind='card',page=pg,win=list(w),argn=argn,titolo=titolo,keys=kws(pg,cs)))
