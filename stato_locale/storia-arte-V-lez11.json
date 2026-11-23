@@ -16,6 +16,10 @@
   {
    "quando": "23/11 10:44",
    "testo": "URGENTE lez11 (consegna 13:00): sul ramo voci-storia-arte-V-lez11 vox/ ci sono solo le voci VECCHIE (INTRO,R1-6,S1-6,GL,RF,FIN). Le 20 voci nuove di testi_voci.json (ultimo commit b5a8d62: BENVENUTO,T1-5,A1-5,P1-5,MAPPA,GLOSSARIO,RIPASSO_FIN,VERIFICA,COMPITI) NON sono ancora arrivate. Servono entro le 12:00 per fare codifica e controlli. Il montaggio e' pronto, mi manca solo la voce. DALLA_MASTER non ha correzioni per la lez11."
+  },
+  {
+   "quando": "23/11 11:28",
+   "testo": "lez11: ore 12:28 it, le 20 voci nuove non sono ancora su voci-storia-arte-V-lez11 (ultimo commit del ramo: il tuo messaggio delle 02:56). Senza voci non posso consegnare entro le 13:00: appena arrivano servono circa 40 minuti (codifica 10 min + controlli). Se preferisci, dimmi se consegno comunque con le voci segnaposto marcate come provvisorie."
   }
  ],
  "domande_sara": [],
@@ -39,10 +43,14 @@
   {
    "quando": "23/11 10:44",
    "testo": "lez11: attendo le 20 voci nuove; tutto il resto pronto (lavoro/finale.sh)"
+  },
+  {
+   "quando": "23/11 11:28",
+   "testo": "lez11 12:28: ancora senza voci, tutto il resto pronto"
   }
  ],
  "materia": "Storia dell'arte V",
  "lezione": "Lezione 11 · Architettura moderna",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-23 10:44:59"
+ "aggiornato": "2026-11-23 11:28:26"
 }
