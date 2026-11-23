@@ -48,21 +48,19 @@ def build_scene(sc,render=True):
     if sc['tipo']=='txt':
         p=sc['id'];cards=dati.cards(p);W_=WIN[p]
         ct=[c[1][0] for c in cards]
-        tm=align_cards(ct,a,b)
-        # card non trovate: distribuite in proporzione
-        ts=[]
-        for i,(t,s) in enumerate(tm):
-            ts.append(t if (t is not None and s>0.35) else None)
-        # monotonia e riempimento
-        last=a
+        if sc['nome']=='D5c':tm=[(a,1.0),(a+4.3,1.0)]
+        else:
+            subset={'D4b':[0,1],'D4b3':[2],'D4d':[2,3,4],'D5f':[0,1]}.get(sc['nome'],list(range(len(ct))))
+            tms=align_dp([ct[i] for i in subset],sc['k0'],sc['k1'])
+            tm=[(None,0)]*len(ct)
+            for i,x in zip(subset,tms):tm[i]=x
+        ts=[t for t,sc_ in tm]
         for i in range(len(ts)):
-            if ts[i] is None or ts[i]<last:
-                nxt=next((x for x in ts[i+1:] if x is not None and x>last),b)
-                ts[i]=last+(nxt-last)*0.5 if i>0 else last
-            last=ts[i]
+            if ts[i] is None:ts[i]=(ts[i-1] if i>0 and ts[i-1] else a)
+        for i in range(1,len(ts)):
+            if ts[i]<=ts[i-1]:ts[i]=ts[i-1]+0.5
         # nelle scene corte con poche card interessate: solo le card che cadono nella scena
-        sel=[i for i in range(len(cards)) if ts[i]<b-1.0 and (i==0 or ts[i]>a+0.2)]
-        if sc['nome'] in('D4d',):sel=[2,3,4] if False else [i for i in range(2,5)]
+        sel=[i for i in range(len(cards)) if tm[i][0] is not None and ts[i]<b-1.0]
         ev=[(a,sel[0],None)]+[(ts[i],i,i) for i in sel]
         # finestre
         def win_of(i):
@@ -74,12 +72,26 @@ def build_scene(sc,render=True):
         seq[0]=(a,seq[0][1],None)
         # se la prima card parte entro 1,5 s dall'inizio non serve lo stato senza accesa
         if len(seq)>1 and seq[1][0]-a<1.5:seq=seq[1:];seq[0]=(a,seq[0][1],seq[0][2])
+        acc={}
         for si,(t,wi,act) in enumerate(seq):
             pg=page_of(('t',p,wi));meta['pagine'].append(pg)
             wc=[cards[i] for i in W_[wi]]
-            img=lib.slide_cards(pg,dati.TIT[p],wc,None if act is None else W_[wi].index(act),dati.KW[p])
             t2=seq[si+1][0] if si+1<len(seq) else b
-            states.append((M.save_png(img),max(1,out_frame(subs,t2)-out_frame(subs,t))))
+            fr_=max(1,out_frame(subs,t2)-out_frame(subs,t))
+            done=acc.get(wi,0)
+            # una finestra non resta più di 130 s: poi la card in corso si vede da sola, grande
+            if done>=130*30 or done+fr_>150*30:
+                ac=act if act is not None else W_[wi][0]
+                first=max(0,min(fr_,130*30-done)) if done<130*30 else 0
+                if first>0:
+                    img=lib.slide_cards(pg,dati.TIT[p],wc,None if act is None else W_[wi].index(act),dati.KW[p])
+                    states.append((M.save_png(img),first))
+                img=lib.slide_focus(pg,dati.TIT[p],cards[ac],dati.KW[p])
+                states.append((M.save_png(img),fr_-first))
+            else:
+                img=lib.slide_cards(pg,dati.TIT[p],wc,None if act is None else W_[wi].index(act),dati.KW[p])
+                states.append((M.save_png(img),fr_))
+            acc[wi]=done+fr_
         meta['card_t']=[(i,round(ts[i],2)) for i in sel]
     else:
         im=sc['id'];vs=VISTE[im];D=b-a

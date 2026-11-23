@@ -139,3 +139,10 @@ def slide_image(page,titolo,imgname,didasc,kws,view=None,label=None):
         wl=wrap_plain(d,didasc,F('m',28),1280)
         for i,l in enumerate(wl):d.text((80,iy+im.size[1]+14+i*36),l,font=F('m',28),fill=(70,80,105))
     return img
+
+def slide_focus(page,titolo,card,kws):
+    """la card in corso da sola, grande (per non lasciare la stessa schermata troppo a lungo)"""
+    img=base(page);cam_frame(img);keywords(img,kws)
+    y=title(img,titolo,y=120)+40
+    draw_card(img,80,y+20,1280,card,'acceso',size=48)
+    return img

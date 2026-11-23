@@ -2,7 +2,7 @@
 import json,numpy as np,re,difflib
 W=json.load(open('/tmp/w/b/words.json'))   # [t0,t1,parola,fine_frase]
 DB=np.load('/tmp/w/b/env_db.npy')            # un valore ogni 10 ms
-SIL=-42.0
+SIL=-40.0
 def speech_end(t,limit):
     """fine reale della parola: dal tempo t avanti finché l'ampiezza resta sotto SIL per 80 ms"""
     i=int(t*100);lim=int(limit*100)
@@ -43,7 +43,7 @@ def piece_range(k0,k1):
     if k1<len(SENT):b=min(b,SENT[k1][0]-0.10)
     return a,b
 def frames(t):return round(t*30)/30
-def silenzi_lunghi(a,b,soglia=2.5):
+def silenzi_lunghi(a,b,soglia=1.9):
     """intervalli di silenzio > soglia dentro [a,b]"""
     out=[];i=int(a*100);e=int(b*100);st=None
     for k in range(i,e):
@@ -87,3 +87,27 @@ if __name__=='__main__':
     print(len(SENT),SENT[0],SENT[-1])
     for t in (178,394,634,675,1031,1281,1342,1566,1708,2018,2278,2481,2781,3099,3185,3279,3374,3455,3538):
         k=boundary_near(t);print(t,'->',k,'%.1f'%SENT[k][0],' '.join(w[2] for w in W[SENT[k][2]:SENT[k][2]+8]))
+
+def align_dp(cards_text,k0,k1):
+    """assegna ogni card (in ordine) alla frase in cui il prof ne comincia il discorso: programmazione dinamica su punteggi di parole in comune"""
+    toks=[[norm(W[j][2]) for j in range(SENT[k][2],SENT[k][3]+1)] for k in range(k0,k1)]
+    n=len(toks);m=len(cards_text)
+    def sc(c,i):
+        words=cards_text[c].split()
+        ct=[(norm(x),(2.0 if j<4 else 1.0)) for j,x in enumerate(words) if len(norm(x))>4]
+        if not ct:return 0
+        win=toks[i]+(toks[i+1] if i+1<n else [])
+        hit=sum(w for a,w in ct if any(a==b or difflib.SequenceMatcher(None,a,b).ratio()>0.8 for b in win))
+        return hit/sum(w for a,w in ct)
+    S=[[sc(c,i)+0.12*(1-abs(i/max(1,n-1)-(c+0.3)/m)) for i in range(n)] for c in range(m)]
+    NEG=-1e9;D=[[NEG]*n for _ in range(m)];B=[[0]*n for _ in range(m)]
+    for i in range(n):D[0][i]=S[0][i]
+    for c in range(1,m):
+        best=NEG;bi=0
+        for i in range(n):
+            if i>0 and D[c-1][i-1]>best:best=D[c-1][i-1];bi=i-1
+            if best>NEG:D[c][i]=best+S[c][i];B[c][i]=bi
+    i=max(range(n),key=lambda x:D[m-1][x]);res=[i]
+    for c in range(m-1,0,-1):i=B[c][i];res.append(i)
+    res.reverse()
+    return [(SENT[k0+i][0],S[c][i]) for c,i in enumerate(res)]
