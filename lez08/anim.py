@@ -184,6 +184,12 @@ def concat_voci(nome,parti,gap=0.45):
     fc=';'.join(fl)+';'+''.join(f'[x{k}]' for k in range(len(ws)))+f'concat=n={len(ws)}:v=0:a=1[o]'
     r=sh(['ffmpeg','-v','error','-y']+ins+['-filter_complex',fc,'-map','[o]','-c:a','pcm_s16le',out])
     if r.returncode: raise SystemExit(r.stderr)
+    merged=None
+    jf=[f'{VOX}/{p}.json' for p in parti]
+    if all(os.path.exists(x) for x in jf) and all(os.path.exists(f'/home/user/Lezioni/scambio/storia-arte-V-lez08/vox/{p}.wav') for p in parti):
+        merged=[]
+        for x,o in zip(jf,offs): merged+=[(tt+o,w) for tt,w in json.load(open(x))]
+    CONC[nome]=(out,t,merged)
     return out,t,offs
 _voce_orig=voce
 def voce(nome):
@@ -192,7 +198,7 @@ def voce(nome):
 CONC={}
 def registra_concat(nome,parti):
     CONC[nome]=None; CONC.pop(nome)
-    r=concat_voci(nome,parti); CONC[nome]=(r[0],r[1],None); return r
+    return concat_voci(nome,parti)
 # ---------- introduzione animata: copertina + presentazione degli argomenti (niente riquadro del prof) ----------
 def intro_anim(_=0):
     nome='A0_COPERTINA'; wav,d,_=voce(nome); V0=0.9

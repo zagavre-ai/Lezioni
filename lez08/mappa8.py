@@ -71,7 +71,7 @@ window.render=function(S,t){ // S=[[ [box],[edges],start,dur ]]
     return f'<!doctype html><html><head><meta charset="utf-8"><style>{CSSM}</style></head><body><div id="k">{TITOLO_MAPPA}</div>{leg}<div id="f">STORIA DELL\'ARTE V</div><svg width="1920" height="1080"><defs><marker id="ah" markerUnits="userSpaceOnUse" markerWidth="34" markerHeight="34" refX="30" refY="17" orient="auto"><path d="M0,3 L32,17 L0,31 z" fill="#0B1530"/></marker></defs>{ed}</svg>{bx}<script>{js}</script></body></html>'
 def build_video():
     wav,tot,offs=concat_voci('M_MAPPA',['M_MAPPA_1','M_MAPPA_2','M_MAPPA_3','M_MAPPA_4'],0.6)
-    CONC['M_MAPPA']=(wav,tot,None); V0=0.8
+    V0=0.8
     S=[]; groups={}
     for v,m,bs,es in STEPS: groups.setdefault(v,[]).append((m,bs,es))
     for v in (1,2,3,4):
