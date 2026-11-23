@@ -183,11 +183,11 @@ Il controllo lo fa **un agente separato**, che non ha montato la lezione. I dife
 - [ ] Il rapporto dice cosa è stato verificato e **cosa no**.
 
 ## 11 bis. Consumo (Sara, 22/11: in due giorni metà del limite settimanale)
-- **Niente cicli di attesa.** Quando aspetti voci o risposte, scrivi lo stato e **fermati**: non controllare ogni pochi minuti. `DALLA_MASTER.txt` si guarda solo a ogni cambio di fase.
+- **Mai fermarsi prima dell'approvazione (Sara, 23/11).** Una chat che si ferma non legge più i messaggi della master: il 22/11 le correzioni di 20 lezioni sono rimaste senza risposta tutta la notte. Quando aspetti voci, risposte o il verdetto della master, **resta attiva** e guarda `DALLA_MASTER.txt` **ogni 20 minuti** (una sola lettura, con `git fetch` e `git show`, niente altro), finché la master non scrive «APPROVATA». Appena trovi correzioni o voci nuove, riparti subito.
 - **L'agente separato del §11 è leggero:** lavora sul foglio dei fotogrammi, sul json del controllo rapido e sui file della consegna. Non riscarica il video e non rifà il montaggio.
 - **Non leggere file grandi interi** (trascrizioni, json lunghi, log): usa `head`, `grep`, `tail`. Non aprire fotogrammi uno per uno: guarda il foglio.
 - **Fai le cose giuste la prima volta:** ogni riconsegna costa quanto mezza lezione. Prima di consegnare, l'elenco del §11.
-- **Dopo la consegna approvata dalla master, la chat si ferma.** Non riaprire chat per la stessa lezione: una lezione, una chat.
+- **Solo dopo «APPROVATA» della master la chat si ferma.** Non riaprire chat per la stessa lezione: una lezione, una chat.
 
 ## 12. Il controllo della master
 Dopo la consegna la master ricontrolla **tutte** le regole di questo documento. Se anche una sola non è rispettata, la lezione torna alla chat con l'elenco dei difetti e il minuto.
