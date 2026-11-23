@@ -6,9 +6,9 @@
  "domande_sara": [],
  "note": [
   {
-   "quando": "23/11 10:44",
-   "testo": "23/11 10:50 UTC: ripresa con DALLA_MASTER: R2 (RAI) e COMPITI aggiunte a testi_voci.json (push). Rifaccio: piè di pagina senza nome docente (video+PDF), sigla kit 15 s, schede blu scuro (titolo/quiz/ripasso/riepilogo), compiti a voce, controllo_rapido. Resto attiva e guardo DALLA_MASTER ogni 20 min."
+   "quando": "23/11 10:49",
+   "testo": "23/11 11:05 UTC: grafica schede blu scuro animate, piè di pagina senza nome, sigla kit 15 s, compiti slide: build in corso. Attendo R2 e COMPITI per chiudere i tempi. Controllo DALLA_MASTER ogni 20 min."
   }
  ],
- "aggiornato": "2026-11-23 10:44:49"
+ "aggiornato": "2026-11-23 10:49:44"
 }
