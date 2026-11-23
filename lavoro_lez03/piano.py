@@ -10,6 +10,10 @@ SUON=KIT+'suoni/'
 ARGS=['Le nuove sfide del progresso e il racconto della realtà',"L'architettura del ferro, del vetro e l'urbanistica","L'Italia che cambia e l'architettura dell'Eclettismo",
       'La Scuola di Barbizon, Jean-François Millet e Gustave Courbet','Honoré Daumier e i Macchiaioli']
 TITOLO='Il Realismo'
+NUM={'milleottocentotrenta':'1830','milleottocentottanta':'1880','milleottocentocinquantuno':'1851','milleottocentocinquantatré':'1853','milleottocento':'1800','Emanuele Secondo':'Emanuele II'}
+def schermo(t):
+    for a,b in NUM.items():t=t.replace(a,b)
+    return t
 def spl(t):return [x.strip() for x in re.split(r'(?<=[.!?])\s+',t) if x.strip()]
 def fr(s):return M.nfr(s)
 # ------------------------------------------------ schermate bianche
@@ -71,7 +75,7 @@ def compito(k,n,testo,fine=None):
 def st(img,sec):return (M.save_png(img),fr(sec))
 def title_piece(k):
     img=scheda_titolo(f'Argomento {k} di 5',ARGS[k-1])
-    return M.still_piece(f'T{k}',[st(img,4.0)],[(SUON+'titolo.wav',0.2,0.9)],bg=make_bg())
+    return M.still_piece(f'T{k}',[st(img,3.3)],[(SUON+'titolo.wav',0.2,0.9)],bg=make_bg())
 def quiz_piece(k):
     t=['Le nuove sfide del progresso','Ferro, vetro e urbanistica',"L'Italia che cambia e l'Eclettismo",'Barbizon, Millet e Courbet','Daumier e i Macchiaioli'][k-1]
     return M.still_piece(f'Q{k}',[st(quiz_card(k,t),4.0)],[(SUON+'quiz.wav',0.5,0.9)],bg=make_bg())
@@ -90,7 +94,7 @@ def pill_piece(k,header=None,nome=None,intro=None,prefix='P',jingle='repaso.wav'
         iv,idur,_=voce(intro);ev.append((iv,t0,1.0));t0+=idur+0.35
     ev.append((pv,t0,1.0))
     total=t0+pd+1.6
-    hdr=header or ARGS[k-1]
+    hdr=header or ARGS[k-1];righe=[schermo(r) for r in righe]
     states=[];prev=0.0
     # stati: nessuna riga accesa fino alla prima frase, poi una alla volta
     starts=[0.0]+[t0+t for t in tm]+[total]
@@ -100,7 +104,7 @@ def pill_piece(k,header=None,nome=None,intro=None,prefix='P',jingle='repaso.wav'
         states.append(st(img,max(0.2,starts[i+1]-starts[i]) if i>0 else max(0.2,starts[1]-0.0)))
     return M.still_piece(f'{prefix}{k}',states,ev,bg=make_bg())
 def ripasso_finale():
-    tit,righe=pill_lines('RF');pv,pd,_=voce('RF');tm=frasi_tempi('RF',righe)
+    tit,righe=pill_lines('RF');pv,pd,_=voce('RF');tm=frasi_tempi('RF',righe);righe=[schermo(r) for r in righe]
     t0=0.5;total=t0+pd+1.6;starts=[0.0]+[t0+t for t in tm]+[total]
     states=[st(pillola('Ripasso finale',[],-1,'RIPASSO'),starts[1])]
     for i in range(len(righe)):states.append(st(pillola('Ripasso finale',righe,i,'RIPASSO'),starts[i+2]-starts[i+1]))
