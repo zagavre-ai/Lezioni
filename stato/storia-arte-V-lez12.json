@@ -14,6 +14,10 @@
   {
    "quando": "23/11 09:30",
    "testo": "lez12: sono le 11:30 italiane e le 22 voci Kore di scambio/storia-arte-V-lez12/testi_voci.json non sono ancora su voci-storia-arte-V-lez12 (nessun vox/). Il video è pronto con voci provvisorie (60 min, controllo_rapido OK): non lo consegno così. Servono circa 2 ore dall'arrivo delle voci: la consegna alle 13:00 è a rischio. Se la quota non basta per tutte, le priorità sono: COMPITI, V0_BENVENUTO, AN1A..AN4B, PILL1..4, M0..M6, GLOSS, RF. Dimmi come procedere o se la scadenza si sposta."
+  },
+  {
+   "quando": "23/11 11:16",
+   "testo": "lez12: letto il tuo messaggio. Ho aggiunto a testi_voci.json la voce MF (mappa del Dadaismo intera nel ripasso finale, 4 s ferma con la voce): 23 voci in tutto. Le voci Kore non sono ancora sul ramo (nessun vox/). Intanto consegno foglio e json della versione con voci provvisorie (ESITO OK)."
   }
  ],
  "domande_sara": [],
@@ -111,5 +115,5 @@
    "testo": "23/11 10:19 UTC: montaggio con voci provvisorie pronto; voci non ancora sul ramo"
   }
  ],
- "aggiornato": "2026-11-23 10:19:15"
+ "aggiornato": "2026-11-23 11:16:11"
 }
