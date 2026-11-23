@@ -499,22 +499,6 @@
   "testo": "Ora la verifica finale. Rispondi a tutte le domande: per superarla serve almeno l'ottanta per cento di risposte giuste."
  },
  {
-  "nome": "C1",
-  "testo": "Compito numero uno. Quali accordi internazionali e quali indicatori economici caratterizzarono il periodo di ripresa e stabilizzazione della Repubblica di Weimar nella seconda metà degli anni Venti?"
- },
- {
-  "nome": "C2",
-  "testo": "Compito numero due. Quali conseguenze sociali ed economiche ebbe il crollo di Wall Street del millenovecentoventinove sulla Germania, e in che modo favorì l'ascesa politica di Adolf Hitler e del Partito Nazista fino alla nomina a Cancelliere?"
- },
- {
-  "nome": "C3",
-  "testo": "Compito numero tre. Attraverso quali passaggi legislativi ed episodi di violenza politica Hitler trasformò la Germania in uno Stato totalitario tra il millenovecentotrentatré e il millenovecentotrentaquattro?"
- },
- {
-  "nome": "C4",
-  "testo": "Compito numero quattro. In che cosa consistette il processo di nazificazione della società tedesca, e quali provvedimenti caratterizzarono le politiche razziste, antisemite ed economiche del regime?"
- },
- {
   "nome": "P4_R2",
   "testo": "Ripassiamo insieme Hitler, le SA, cioè le squadre d'assalto, e il putsch di Monaco. Guarda lo schema e ripeti ad alta voce."
  },
@@ -541,5 +525,9 @@
  {
   "nome": "RF1_R2",
   "testo": "Ricapitoliamo la prima parte. Primo: la Repubblica di Weimar e gli anni Venti. Secondo: la crisi del millenovecentoventinove. Terzo: il partito nazista e la sua ideologia. Quarto: Hitler, le SA, cioè le squadre d'assalto, e il putsch di Monaco. Nella seconda parte vedremo come Hitler arriva al potere."
+ },
+ {
+  "nome": "COMPITI",
+  "testo": "Compito uno. Quali accordi internazionali e quali indicatori economici caratterizzarono il periodo di ripresa e stabilizzazione della Repubblica di Weimar nella seconda metà degli anni Venti? Compito due. Quali conseguenze sociali ed economiche ebbe il crollo di Wall Street del millenovecentoventinove sulla Germania e in che modo favorì l'ascesa politica di Adolf Hitler e del Partito Nazista fino alla nomina a cancelliere? Compito tre. Attraverso quali passaggi legislativi ed episodi di violenza politica Hitler trasformò la Germania in uno Stato totalitario tra il millenovecentotrentatré e il millenovecentotrentaquattro? Compito quattro. In cosa consistette il processo di \"nazificazione\" della società tedesca e quali provvedimenti caratterizzarono le politiche razziste, antisemite ed economiche del regime? Svolgi i compiti qui sotto e premi Consegna: arrivano al docente nel tuo quaderno dei compiti."
  }
 ]
