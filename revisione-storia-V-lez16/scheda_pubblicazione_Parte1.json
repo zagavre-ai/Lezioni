@@ -1,7 +1,7 @@
 {
  "materia": "Storia V",
  "titolo": "Storia V · Gli anni Sessanta tra crisi e progressi · Parte 1",
- "durata_s": 3573.5,
+ "durata_s": 3582.43,
  "argomenti": [
   {
    "n": 1,
@@ -433,8 +433,8 @@
    ]
   }
  },
- "t_verifica": 3493.351,
- "t_compiti": 3507.131,
+ "t_verifica": 3493.353,
+ "t_compiti": 3507.133,
  "verifica_json": "verifica_finale.json",
  "compiti_json": "compiti.json"
 }

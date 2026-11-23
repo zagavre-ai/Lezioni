@@ -1,8 +1,8 @@
 # RAPPORTO DI REVISIONE · Storia V · «Gli anni Sessanta tra crisi e progressi» · correzioni 22/11 fatte
-Chat claude/lucid-bohr-33zvvw · Parte unica · 59:33.5 · ramo `revisione-storia-V-lez16`. **M** = misurato, **NV** = non verificato.
+Chat claude/lucid-bohr-33zvvw · Parte unica · 59:42.4 · ramo `revisione-storia-V-lez16`. **M** = misurato, **NV** = non verificato.
 
 ## 1. Misure sul video finale (M)
-- Durata 3573.5 s (59:33.5); 1920×1080, 30 fps, x264 veryfast CRF 19, AAC 192k 48 kHz; peso 345.6 MB; sha256 `a95db3ff4b885a9008a76629c7331357cfc94da0615470935e44582c4e89e025`.
+- Durata 3582.4 s (59:42.4); 1920×1080, 30 fps, x264 veryfast CRF 19, AAC 192k 48 kHz; peso 345.9 MB; sha256 `3d7cb15028a9fc158b21188edd764fdfa4947589b3816d0e774081b25686dcec`.
 - Controllo rapido (kit/tools/controllo_rapido.py): esito **OK**; errori: nessuno. Foglio dei fotogrammi: `foglio_fotogrammi_Storia_Lez16_Parte1_1080p.jpg`; json: `controllo_rapido_Storia_Lez16_Parte1_1080p.json`.
 - Volume −16 LUFS (loudnorm a due passaggi su tutto il video; il controllo severo del giro precedente misurava −16,0).
 - Timbro del prof (acuti >4 kHz / sopra 100 Hz): −16,0 … −17,3 dB nei pezzi del prof; originale −18,6 dB (limiti −9/−20): voce non alterata. Pulizia: passa-alto 80 Hz, riduzione rumore leggera (afftdn), nessun altro filtro.
@@ -10,11 +10,11 @@ Chat claude/lucid-bohr-33zvvw · Parte unica · 59:33.5 · ramo `revisione-stori
 ```
 Q1 atteso 281.519 trovato 281.518 scarto -0.001 OK
 Q2 atteso 943.753 trovato 943.753 scarto -0.000 OK
-Q3 atteso 1467.987 trovato 1467.986 scarto -0.001 OK
-Q4 atteso 1999.354 trovato 1999.355 scarto +0.001 OK
-Q5 atteso 2669.055 trovato 2669.056 scarto +0.001 OK
+Q3 atteso 1467.986 trovato 1467.986 scarto +0.000 OK
+Q4 atteso 1999.353 trovato 1999.355 scarto +0.002 OK
+Q5 atteso 2669.054 trovato 2669.057 scarto +0.003 OK
 Q6 atteso 2960.221 trovato 2960.222 scarto +0.001 OK
-Q7 atteso 3327.754 trovato 3327.755 scarto +0.001 OK
+Q7 atteso 3327.753 trovato 3327.755 scarto +0.002 OK
 ```
 - Nessun fermo del prof ≥1 s (controllo_finale, giro precedente: «nessuno OK»). Nessuna schermata identica oltre 3 minuti e nessun titolo di slide fermo oltre 3 minuti (controllo severo del giro precedente: elenchi vuoti). **NV:** il controllo severo non è stato rilanciato sull'ultima codifica (troppo lento: OCR su tutto il video); vale il controllo rapido.
 
@@ -81,7 +81,7 @@ Q7 atteso 3327.754 trovato 3327.755 scarto +0.001 OK
 | VER | 58:13.4 | 8.8 s |
 | FINALE | 58:22.1 | 5.0 s |
 | COMPI | 58:27.1 | 3.5 s |
-| CO | 58:30.6 | 62.9 s |
+| CO | 58:30.6 | 71.8 s |
 
 ## 3. Fine di ogni pezzo del prof (tagli nelle pause, 0,15–0,17 s prima della frase che segue)
 | Pezzo | Minuto nel video | Ultime parole | Frase finita | Pausa prima della frase seguente (s) |
@@ -107,7 +107,7 @@ Q7 atteso 3327.754 trovato 3327.755 scarto +0.001 OK
 4. **Copertina** con il titolo esatto; intro del prof 130,9 s (<3 minuti).
 5. **Una sola Parte** (59:33): nessuno spiegone.
 6. **Approfondimenti**: 7 (uno per argomento, voci già presenti) + 3 nuovi dove il prof resta a lungo sullo stesso concetto (segregazione, passaggio dei poteri dopo Dallas, contenimento del comunismo). Testi dal parlato del prof.
-7. **Ripassi** (pillola + schema) in blu scuro a tutto schermo, righe che si accendono con la voce; riepilogo finale blu; compiti letti dalla voce unica COMPITI_R2 con la riga finale sullo schermo; verifica di sbarramento (scheda con scatto a +0,5 s) e sigla finale del kit.
+7. **Ripassi** (pillola + schema) in blu scuro a tutto schermo, righe che si accendono con la voce; riepilogo finale blu; compiti letti dalla voce unica COMPITI_R3 con la riga finale sullo schermo; verifica di sbarramento (scheda con scatto a +0,5 s) e sigla finale del kit.
 8. **Immagini del prof** (4: Kennedy→arg. 2, carta del Vietnam→arg. 5, carrarmati a Praga→arg. 6, carta della guerra dei Sei giorni→arg. 6) ingrandite 4× con EDSR (OpenCV dnn_superres) + nitidezza: è un ingrandimento, non nuovi dettagli (NV: il ritratto di Kennedy non è confrontato a occhio con l'originale).
 9. **Dispensa A4** (pagine come da `pages.json`) = pagine del video, con strato di testo invisibile; copertina solo materia e titolo; piè di pagina «STORIA V» e «Pagina N». **PDF mappe** a parte con copertina «MAPPE».
 10. **Audio**: tagli del prof agganciati ai fotogrammi (sincronia labbra/voce per costruzione: audio e video dallo stesso intervallo dell'originale, NV misura a 0,04 s non fatta); pause oltre 2,5 s accorciate a circa 1 s.
@@ -124,7 +124,7 @@ Kennedy (discorso) → 2 · carta del Vietnam → 5 · carrarmati a Praga → 6 
 - La card «Politica estera» della slide Kennedy è accesa dove il prof parla di sfida con i sovietici (corsa allo spazio, intorno a 8:08 del video) e non è mai detta come tale.
 
 ## 7. Voci Kore (M/NV)
-- 17 voci nuove/rifatte ricevute il 23/11: bordi (ultimi 50 ms) sotto 0,03 su tutte **tranne COMPITI_R2 (0,06)**: nel montaggio ha dissolvenza di 40 ms; chiesta COMPITI_R3 alla master. Trascrizione e confronto: similarità 0,84–1,0 con i testi (differenze = errori di riconoscimento su Chruščëv/Brežnev/numeri). **NV:** non ho ascoltato le voci; GL1_R2 e MD2_R2 sono «DA CONTROLLARE» nell'ESITI della master (pronuncia di nomi russi).
+- 18 voci nuove/rifatte ricevute il 23/11: bordi (ultimi 50 ms) sotto 0,03 su tutte. COMPITI_R2 aveva 0,06: sostituita con **COMPITI_R3** (0,000), ora nel video. Trascrizione e confronto: similarità 0,84–1,0 con i testi (differenze = errori di riconoscimento su Chruščëv/Brežnev/numeri). **NV:** non ho ascoltato le voci; GL1_R2 e MD2_R2 sono «DA CONTROLLARE» nell'ESITI della master (pronuncia di nomi russi).
 - Le altre voci (AP2–AP7, R, SC, P, FIN, COMPI) sono quelle della consegna precedente: per R2, R3, R5, P6, GL1, RV5_4 (bordo ≥0,03 nel file grezzo) sono state sostituite dalle versioni _R2.
 
 ## 8. Cosa NON è stato verificato (NV)
