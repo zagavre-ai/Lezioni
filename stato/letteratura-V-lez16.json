@@ -2,7 +2,7 @@
  "tag": "letteratura-V-lez16",
  "parti": {
   "1": {
-   "stato": "REVISIONATA",
+   "stato": "IN_REVISIONE",
    "titolo": "Umberto Saba",
    "voci": "kore",
    "quiz_ok": "si",
@@ -426,10 +426,14 @@
   {
    "quando": "22/11 19:43",
    "testo": "correzioni 22/11 fatte (consegna alle 19:45 UTC, 15 minuti dopo la scadenza). Durata 53:58,4, 97152 fotogrammi, 199,7 MB. Quiz a 904,2 / 1599,07 / 2671,23 / 2938,47 s (jingle a 0,0 s). Controllo severo con OCR NON completato; controllo fatto da un agente separato, difetti residui elencati nel rapporto (transizioni tra approfondimenti, silenzi 2,6-2,9 s, titolo T6 nelle fettine del video, testo mappe 3 e 4 sotto 34 px, voci non ascoltate)."
+  },
+  {
+   "quando": "23/11 10:51",
+   "testo": "23/11 10:55 UTC. Ripartita sulle correzioni della master (card sola, mappe 34 px e tenuta 4 s, sigla finale + intro Compiti letti da Kore, pause da accorciare). Voce COMPITI richiesta sul ramo voci. Consegna prevista circa 13:00 UTC."
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 16 · Umberto Saba",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-22 19:43:38"
+ "aggiornato": "2026-11-23 10:51:27"
 }
