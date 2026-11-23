@@ -112,7 +112,15 @@
   {
    "quando": "23/11 11:33",
    "testo": "23/11 11:35: la macchina si è riavviata e ha interrotto la ricostruzione; l'ho rilanciata (schede ripasso blu scuro, immagini ingrandite, niente schede mute, titolo scheda con «Lezione 9»). Poi controllo_rapido, foglio e json."
+  },
+  {
+   "quando": "23/11 12:37",
+   "testo": "Corretto il titolo delle schede di pubblicazione Parte 1 e 2 («Storia V · Lezione 9 · L'Italia del regime fascista (1925-1938) · Parte N»), sul ramo revisione. Foglio e json di controllo_rapido in arrivo (il controllo è lento per il carico)."
+  },
+  {
+   "quando": "23/11 12:37",
+   "testo": "Titolo delle schede di pubblicazione corretto (Storia V · Lezione 9 · L'Italia del regime fascista (1925-1938) · Parte N) e pubblicato sul ramo revisione. Foglio e json di controllo_rapido in arrivo appena finisce il controllo (lento per il carico; il disco si era riempito, liberato)."
   }
  ],
- "aggiornato": "2026-11-23 11:33:40"
+ "aggiornato": "2026-11-23 12:37:58"
 }
