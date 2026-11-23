@@ -2,7 +2,7 @@
  "tag": "letteratura-V-lez06",
  "parti": {
   "1": {
-   "stato": "REVISIONATA",
+   "stato": "IN_REVISIONE",
    "voci": "kore",
    "quiz_ok": "si",
    "fermi_ok": "si",
@@ -108,7 +108,11 @@
   {
    "quando": "22/11 20:47",
    "testo": "correzioni 22/11 fatte (riconsegna 20:50 UTC, oltre la scadenza delle 19:30): ramo revisione-letteratura-V-lez06, video 50:14. controllo_severo.py: RESPINTA solo per 1 tratto 'card sola' a 42:30 (300 s) che a occhio non esiste (2-3 card visibili): probabile falso positivo dell'OCR sul numero della card attenuata; non dichiaro OK. se serve azzerarlo: ingrandire il numero nelle card attenuate, ricodifica circa 35 min. agente separato 10/11 OK (unico difetto = falso positivo). R14 al posto di R12."
+  },
+  {
+   "quando": "23/11 10:50",
+   "testo": "23/11: riparto dalle correzioni della master: piè di pagina senza nome (anche prof), voce COMPITI (richiesta inviata), testo Controlla sulle schede, controllo_rapido. ricodifica ~40 min"
   }
  ],
- "aggiornato": "2026-11-22 20:47:20"
+ "aggiornato": "2026-11-23 10:50:20"
 }
