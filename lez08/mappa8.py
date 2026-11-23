@@ -19,7 +19,7 @@ BOX={
  'a1':('lil',1500,335,400,70,"il proprio stato d'animo"),'a2':('lil',1500,420,400,70,"il dramma esistenziale"),
  'mov':('pag',855,300,210,70,"movimenti"),
  'db':('pag',20,505,380,96,"Die Brücke (Il Ponte)"),'dbd':('cel',20,610,380,70,"1905, a Dresda"),
- 'dbn':('men',20,690,380,140,"Kirchner, Schmidt-Rottluff, Heckel"),'dbp':('lil',20,840,380,200,"un ponte simbolico tra l'artista e il mondo, l'arte verso nuovi mondi espressivi"),
+ 'dbn':('men',20,690,380,140,"Kirchner, Schmidt-Rottluff, Heckel"),'dbp':('lil',20,840,380,205,"un ponte simbolico tra l'artista e il mondo, l'arte verso nuovi mondi espressivi"),
  'man':('pag',420,505,610,535,"<b>manifesto</b><br>1. rifiuto dell'arte elegante<br>2. rappresentazione libera di idee, stati d'animo<br>3. immagini aggressive<br>4. figure deformate<br>5. rifiuto della prospettiva e del chiaroscuro<br>6. colori forti<br>7. linee spigolose"),
  'cav':('pag',1050,510,420,100,"Il Cavaliere Azzurro (1911)"),
  'cavd':('lil',1050,622,420,200,"ricercano una espressione spirituale attraverso il colore e la forma"),
@@ -51,7 +51,7 @@ html,body{margin:0;width:1920px;height:1080px;background:#fff;overflow:hidden}
 svg{position:absolute;left:0;top:0}
 '''
 def html():
-    bx=''.join(f'<div class="b {c}{" left" if "<br>" in t and i=="man" else ""}" id="B_{i}" style="left:{x}px;top:{y}px;width:{w}px;height:{h}px">{t}</div>' for i,(c,x,y,w,h,t) in BOX.items())
+    bx=''.join(f'<div class="b {c}{" left" if i=="man" else ""}" id="B_{i}" style="left:{x}px;top:{y}px;width:{w}px;height:{h}px{";font-size:34px;line-height:1.16" if i in ("dbp","man") else ""}"><div>{t}</div></div>' for i,(c,x,y,w,h,t) in BOX.items())
     ed=''.join(f'<line id="{k}" stroke="#0B1530" stroke-width="7" marker-end="url(#ah)" opacity="0"/>' for k in EDGES)
     js='''const BOX=%s,EDG=%s;
 function anchor(a,b){const A=BOX[a],B=BOX[b];const ax=A[1]+A[3]/2,ay=A[2]+A[4]/2,bx=B[1]+B[3]/2,by=B[2]+B[4]/2;
