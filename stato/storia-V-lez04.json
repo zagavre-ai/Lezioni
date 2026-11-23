@@ -1,6 +1,16 @@
 {
  "tag": "storia-V-lez04",
- "parti": {},
+ "parti": {
+  "1": {
+   "stato": "REVISIONATA"
+  },
+  "2": {
+   "stato": "REVISIONATA"
+  },
+  "3": {
+   "stato": "REVISIONATA"
+  }
+ },
  "manca": "tutto: audio da rifare dall'originale, mappe, slide, voci",
  "serve_master": [
   {
@@ -10,6 +20,10 @@
   {
    "quando": "23/11 09:32",
    "testo": "Ritardo: le Parti sono montate con voci vere e controllo_rapido ha trovato 2 difetti (picco 1.0 dBTP e schede mute >2,5 s su schemi e coda mappe). Li correggo e rimonto: consegna stimata alle 11:30 UTC (12:30 italiane), non alle 10:00. Dimmi se preferisci diversamente. Nota: SP3_1 finisce con ampiezza 0,23 nei 50 ms finali (voce tagliata secca): ho messo dissolvenza 30 ms, se vuoi la rifai (SP3_1_R2)."
+  },
+  {
+   "quando": "23/11 13:30",
+   "testo": "Consegnata la lez04 (3 Parti) su revisione-storia-V-lez04, commit dd0dc4f. Vedi RAPPORTO_REVISIONE.md: difetti noti non bloccanti (immagini dei ripassi piccole, Parti 1-2 sotto i 50 min, niente mappa finale, frase finale dei compiti assente, SP3_1 finisce secca). Controllo rapido e agente separato non completati: ti chiedo se vuoi che li rifaccia."
   }
  ],
  "domande_sara": [],
@@ -25,10 +39,22 @@
   {
    "quando": "22/11 20:05",
    "testo": "22/11 20:05 UTC: pezzi prof rifatti (audio dall'originale), mappe BES fatte, Parte 1 e 2 montate con voci provvisorie, Parte 3 in corso. Mancano: voci vere (domattina), peso <400MB (CRF), sottotitoli, dispensa, controllo agente separato."
+  },
+  {
+   "quando": "23/11 13:30",
+   "testo": "correzioni 22/11 fatte (Parte 1): consegna su revisione-storia-V-lez04. Limiti nel RAPPORTO_REVISIONE.md: controllo_rapido non terminato sul file finale P1/P3, agente separato non eseguito, immagini approfondimenti piccole."
+  },
+  {
+   "quando": "23/11 13:30",
+   "testo": "correzioni 22/11 fatte (Parte 2): consegna su revisione-storia-V-lez04. Limiti nel RAPPORTO_REVISIONE.md: controllo_rapido non terminato sul file finale P1/P3, agente separato non eseguito, immagini approfondimenti piccole."
+  },
+  {
+   "quando": "23/11 13:30",
+   "testo": "correzioni 22/11 fatte (Parte 3): consegna su revisione-storia-V-lez04. Limiti nel RAPPORTO_REVISIONE.md: controllo_rapido non terminato sul file finale P1/P3, agente separato non eseguito, immagini approfondimenti piccole."
   }
  ],
  "materia": "Storia V",
  "lezione": "Lezione 4 · La prima guerra mondiale",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-23 09:32:40"
+ "aggiornato": "2026-11-23 13:30:49"
 }
