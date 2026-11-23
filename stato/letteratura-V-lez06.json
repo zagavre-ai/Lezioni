@@ -112,7 +112,11 @@
   {
    "quando": "23/11 10:50",
    "testo": "23/11: riparto dalle correzioni della master: piè di pagina senza nome (anche prof), voce COMPITI (richiesta inviata), testo Controlla sulle schede, controllo_rapido. ricodifica ~40 min"
+  },
+  {
+   "quando": "23/11 11:22",
+   "testo": "23/11 11:25 UTC: fatto: piè senza nome ovunque, schede titolo/quiz/ripasso/riepilogo/verifica/compiti in blu scuro, testo 'premi Controlla', controllo_rapido OK sulla versione precedente. manca: voce COMPITI (richiesta, non ancora arrivata) per montare la scheda dei compiti letta; poi rimontaggio (12 min), controllo_rapido, riconsegna"
   }
  ],
- "aggiornato": "2026-11-23 10:50:20"
+ "aggiornato": "2026-11-23 11:22:06"
 }
