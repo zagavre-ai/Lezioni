@@ -5,14 +5,14 @@
    "stato": "REVISIONATA",
    "voci": "kore",
    "quiz_ok": "si",
-   "fermi_ok": "no",
+   "fermi_ok": "si",
    "sub_ok": "no",
    "video": "Letteratura_Lez7_Parte1_1080p.mp4",
-   "durata_s": 3094.3,
-   "durata": "51:34.3",
-   "fotogrammi": 92829,
-   "fotogrammi_attesi": 92829,
-   "peso_MB": 188.4,
+   "durata_s": 3038.0,
+   "durata": "50:38.0",
+   "fotogrammi": 91141,
+   "fotogrammi_attesi": 91141,
+   "peso_MB": 181.9,
    "vtt": "Letteratura_Lez7_Parte1.vtt"
   }
  },
@@ -88,10 +88,18 @@
   {
    "quando": "22/11 19:19",
    "testo": "correzioni 22/11 fatte (19:25 UTC): controllo severo NON completato; restano silenzi >2,5 s e compiti senza voce, vedi rapporto"
+  },
+  {
+   "quando": "23/11 10:52",
+   "testo": "10:52 UTC: correzioni 23/11 in corso: tolgo le pause mute (schede accorciate), compiti con voce COMPITI (testo pushato, in attesa della voce), Controlla al posto di Check; poi controllo_rapido"
+  },
+  {
+   "quando": "23/11 11:37",
+   "testo": "11:37 UTC: consegnata, controllo_rapido OK salvo i compiti (pausa muta 73 s): attendo la voce COMPITI"
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 7",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-22 19:19:15"
+ "aggiornato": "2026-11-23 11:37:12"
 }
