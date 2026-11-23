@@ -1,8 +1,4 @@
-M2_05 OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
-M5_01 OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
-M5_05 OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
-M5_09 OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
-M6_03 OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
-M6_07 OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
-R6_R2 OK frasi trovate 1 / 1 parole diverse 5 (vere 4) tentativi 1
-AN6b_R2 OK frasi trovate 1 / 1 parole diverse 6 (vere 5) tentativi 1
+M2_07 OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
+M5_07 OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
+M6_05 OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
+AN4c_R2 OK frasi trovate 1 / 1 parole diverse 3 (vere 4) tentativi 1
