@@ -507,10 +507,14 @@
   {
    "quando": "23/11 11:33",
    "testo": "23/11 correzioni 22/11 fatte (REVISIONATA a parte la voce COMPITI): consegna sul ramo con foglio e json di controllo_rapido; unico errore: pausa muta della scheda compiti finché non arriva la voce COMPITI."
+  },
+  {
+   "quando": "23/11 11:48",
+   "testo": "23/11 11:50 UTC: letto il controllo elastico delle 12:50: nessun difetto bloccante per la lez25 (resta solo la scheda compiti senza voce, non bloccante). Consegna sul ramo invariata. Quando arriva la voce COMPITI rimonto solo quel pezzo."
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 25 · Pasolini",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-23 11:33:24"
+ "aggiornato": "2026-11-23 11:48:02"
 }
