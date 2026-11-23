@@ -1,6 +1,660 @@
 {
  "tag": "storia-V-lez17",
- "parti": {},
+ "parti": {
+  "1": {
+   "stato": "REVISIONATA",
+   "voci": "kore",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "si",
+   "video": "Storia_Lez17_Parte1_1080p.mp4",
+   "durata_s": 3023.9,
+   "durata": "50:23.9",
+   "fotogrammi": 90718,
+   "fotogrammi_attesi": 90718,
+   "peso_MB": 344.6,
+   "vtt": "Storia_Lez17_Parte1.vtt",
+   "scheda": {
+    "materia": "Storia V",
+    "titolo": "Le fasi conclusive della guerra fredda (1969-1991) · Parte 1",
+    "durata_s": 3023.93,
+    "argomenti": [
+     {
+      "n": 1,
+      "titolo": "La crisi economica degli anni Settanta",
+      "inizio_s": 183.533,
+      "quiz_s": 1511.6
+     },
+     {
+      "n": 2,
+      "titolo": "Tensioni e accordi in Medio Oriente",
+      "inizio_s": 1515.4,
+      "quiz_s": 2175.7
+     },
+     {
+      "n": 3,
+      "titolo": "Iran e guerra con l'Iraq",
+      "inizio_s": 2179.5,
+      "quiz_s": 2975.7
+     }
+    ],
+    "quiz": {
+     "Q1": {
+      "title": "Quiz 1 · La crisi economica degli anni Settanta",
+      "items": [
+       {
+        "p": "Che cosa decide Nixon nell'agosto 1971?",
+        "a": "Sospende la convertibilità del dollaro in oro",
+        "w": [
+         "Svaluta il dollaro del 50%",
+         "Chiude le frontiere alle importazioni",
+         "Aumenta le spese per il Vietnam"
+        ],
+        "e": "Finisce così il sistema di cambi fissi stabili di Bretton Woods."
+       },
+       {
+        "p": "Quali sono tra le cause del forte deficit americano ereditato da Nixon?",
+        "a": "Le spese per la guerra in Vietnam e per i programmi di assistenza sociale",
+        "w": [
+         "Le spese per la corsa allo spazio",
+         "Il pagamento dei debiti di guerra alla Germania",
+         "La fine del commercio con la Cina"
+        ],
+        "e": "Il deficit è del 1969."
+       },
+       {
+        "p": "Chi attacca Israele nella guerra del Kippur del 1973?",
+        "a": "Egitto e Siria",
+        "w": [
+         "Iran e Iraq",
+         "Libano e Giordania",
+         "Arabia Saudita e Libia"
+        ],
+        "e": "L'attacco avviene nel giorno del Kippur."
+       },
+       {
+        "p": "Che cosa fanno i paesi arabi dell'OPEC dopo l'intervento americano?",
+        "a": "Riducono l'offerta e quadruplicano il prezzo del petrolio",
+        "w": [
+         "Dimezzano il prezzo del petrolio",
+         "Nazionalizzano le banche occidentali",
+         "Bloccano il canale di Suez per sempre"
+        ],
+        "e": "È una ritorsione contro l'Occidente."
+       },
+       {
+        "p": "Che cosa si intende per «stagflazione»?",
+        "a": "Inflazione e recessione insieme",
+        "w": [
+         "Crescita senza inflazione",
+         "Deflazione e piena occupazione",
+         "Stagnazione demografica"
+        ],
+        "e": "È l'effetto della fine dell'energia a basso costo."
+       }
+      ]
+     },
+     "Q2": {
+      "title": "Quiz 2 · Tensioni e accordi in Medio Oriente",
+      "items": [
+       {
+        "p": "Quali accordi firmano Sadat e Begin nel 1978?",
+        "a": "Gli accordi di Camp David",
+        "w": [
+         "Gli accordi di Oslo",
+         "Gli accordi di Helsinki",
+         "Il trattato di Versailles"
+        ],
+        "e": "Avvengono grazie alla diplomazia americana."
+       },
+       {
+        "p": "Che cosa accade a Sadat dopo gli accordi?",
+        "a": "È isolato dal mondo arabo e assassinato nel 1981",
+        "w": [
+         "Diventa presidente d'Israele",
+         "Riceve l'appoggio di tutti i paesi arabi",
+         "Si dimette nel 1979"
+        ],
+        "e": "L'Egitto è il primo paese arabo a riconoscere Israele."
+       },
+       {
+        "p": "Quando scoppia la guerra civile in Libano?",
+        "a": "Nel 1975",
+        "w": [
+         "Nel 1967",
+         "Nel 1982",
+         "Nel 1990"
+        ],
+        "e": "Oppone la minoranza cristiana e i profughi palestinesi."
+       },
+       {
+        "p": "Perché Israele invade il Libano nel 1982?",
+        "a": "Per cacciare l'OLP",
+        "w": [
+         "Per liberare gli ostaggi",
+         "Per prendere il canale di Suez",
+         "Per aiutare la Siria"
+        ],
+        "e": "Si verificano i massacri di Sabra e Chatila."
+       },
+       {
+        "p": "Che cosa è l'Intifada del 1987?",
+        "a": "Una rivolta popolare spontanea dei palestinesi nei territori occupati",
+        "w": [
+         "Una guerra tra Egitto e Siria",
+         "Un colpo di Stato in Libano",
+         "Un trattato di pace"
+        ],
+        "e": "Nei territori occupati cresce il peso di Hamas."
+       }
+      ]
+     },
+     "Q3": {
+      "title": "Quiz 3 · Iran e guerra con l'Iraq",
+      "items": [
+       {
+        "p": "Quando cade il regime dello Shah in Iran?",
+        "a": "Nel 1979",
+        "w": [
+         "Nel 1971",
+         "Nel 1980",
+         "Nel 1989"
+        ],
+        "e": "Lo travolge una rivoluzione popolare."
+       },
+       {
+        "p": "Chi assume il potere in Iran dopo lo Shah?",
+        "a": "L'Ayatollah Khomeini",
+        "w": [
+         "Saddam Hussein",
+         "Mao Zedong",
+         "Sadat"
+        ],
+        "e": "Fonda una teocrazia."
+       },
+       {
+        "p": "Su che cosa si basa la Repubblica Islamica?",
+        "a": "Sulla sharia e su un forte sentimento anti-occidentale",
+        "w": [
+         "Sulla monarchia ereditaria",
+         "Sul libero mercato",
+         "Sul partito unico comunista"
+        ],
+        "e": "È fortemente anti-americana."
+       },
+       {
+        "p": "Che cosa accade nella crisi degli ostaggi?",
+        "a": "Gli studenti assaltano l'ambasciata USA a Teheran e tengono in ostaggio il personale per oltre un anno",
+        "w": [
+         "L'esercito iraniano invade il Kuwait",
+         "Gli Stati Uniti bombardano Teheran",
+         "Un aereo americano viene dirottato"
+        ],
+        "e": "Avviene nel novembre 1979."
+       },
+       {
+        "p": "Come si conclude la guerra Iran-Iraq (1980-1988)?",
+        "a": "Dopo otto anni, con quasi due milioni di morti e nessun vincitore",
+        "w": [
+         "Con la vittoria dell'Iraq",
+         "Con la vittoria dell'Iran",
+         "Con l'intervento dell'URSS"
+        ],
+        "e": "Saddam Hussein l'aveva iniziata attaccando l'Iran."
+       }
+      ]
+     }
+    }
+   },
+   "timeline": [
+    [
+     "T1",
+     183.533,
+     3.2
+    ],
+    [
+     "Q1",
+     1511.6,
+     4.2
+    ],
+    [
+     "T2",
+     1515.4,
+     3.2
+    ],
+    [
+     "T3",
+     2179.5,
+     3.2
+    ],
+    [
+     "GL",
+     2979.5,
+     28.2
+    ],
+    [
+     "RF",
+     3007.3,
+     12.033
+    ],
+    [
+     "FI",
+     3018.933,
+     5.0
+    ]
+   ]
+  },
+  "2": {
+   "stato": "REVISIONATA",
+   "voci": "kore",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "si",
+   "video": "Storia_Lez17_Parte2_1080p.mp4",
+   "durata_s": 2046.6,
+   "durata": "34:06.6",
+   "fotogrammi": 61397,
+   "fotogrammi_attesi": 61397,
+   "peso_MB": 234.7,
+   "vtt": "Storia_Lez17_Parte2.vtt",
+   "scheda": {
+    "materia": "Storia V",
+    "titolo": "Le fasi conclusive della guerra fredda (1969-1991) · Parte 2",
+    "durata_s": 2046.57,
+    "argomenti": [
+     {
+      "n": 4,
+      "titolo": "Da Nixon a Reagan",
+      "inizio_s": 126.033,
+      "quiz_s": 1367.7
+     },
+     {
+      "n": 5,
+      "titolo": "America Latina",
+      "inizio_s": 1371.5,
+      "quiz_s": 2006.7
+     }
+    ],
+    "quiz": {
+     "Q4": {
+      "title": "Quiz 4 · Da Nixon a Reagan",
+      "items": [
+       {
+        "p": "Quale paese apre relazioni diplomatiche con gli USA di Nixon nel 1972?",
+        "a": "La Cina comunista di Mao",
+        "w": [
+         "L'Unione Sovietica",
+         "Cuba",
+         "Il Vietnam del Nord"
+        ],
+        "e": "Serve a isolare l'URSS."
+       },
+       {
+        "p": "Che cosa sono i trattati SALT 1 (1972)?",
+        "a": "Accordi per limitare gli armamenti nucleari",
+        "w": [
+         "Accordi commerciali",
+         "Trattati di alleanza militare",
+         "Accordi sui diritti umani"
+        ],
+        "e": "Fanno parte della distensione."
+       },
+       {
+        "p": "Che cosa stabiliscono gli accordi di Helsinki del 1975?",
+        "a": "Stabilizzano i confini europei e impegnano i blocchi al rispetto dei diritti umani",
+        "w": [
+         "Fondano la NATO",
+         "Dividono la Germania",
+         "Aboliscono le armi nucleari"
+        ],
+        "e": "Sono un punto alto della distensione."
+       },
+       {
+        "p": "Quale scandalo porta Nixon alle dimissioni nel 1974?",
+        "a": "Il Watergate",
+        "w": [
+         "Il caso Dreyfus",
+         "Lo scandalo Lockheed",
+         "La crisi dei missili"
+        ],
+        "e": "Gli succede Gerald Ford e poi Jimmy Carter."
+       },
+       {
+        "p": "Che cosa fa Reagan dal 1981?",
+        "a": "Adotta una linea dura contro l'URSS e rilancia le spese militari",
+        "w": [
+         "Apre alla Cina",
+         "Ritira le truppe dall'Europa",
+         "Firma l'accordo di Camp David"
+        ],
+        "e": "L'URSS è definita «impero del male»; c'è anche lo scudo spaziale."
+       }
+      ]
+     },
+     "Q5": {
+      "title": "Quiz 5 · America Latina",
+      "items": [
+       {
+        "p": "Chi viene eletto in Cile nel 1970?",
+        "a": "Il socialista Salvador Allende",
+        "w": [
+         "Augusto Pinochet",
+         "Fidel Castro",
+         "Juan Perón"
+        ],
+        "e": "Avvia riforme e nazionalizzazioni."
+       },
+       {
+        "p": "Che cosa accade in Cile nel settembre 1973?",
+        "a": "Un golpe militare del generale Pinochet abbatte il governo",
+        "w": [
+         "Allende viene rieletto",
+         "Il Cile entra in guerra con l'Argentina",
+         "Il Cile diventa una monarchia"
+        ],
+        "e": "Pinochet impone una dittatura feroce fino al 1988."
+       },
+       {
+        "p": "Che cosa sono i «desaparecidos»?",
+        "a": "Oppositori politici scomparsi nel nulla sotto la giunta militare argentina",
+        "w": [
+         "Soldati caduti nelle Falkland",
+         "Esuli cileni in Europa",
+         "Leader sindacali eletti"
+        ],
+        "e": "Il periodo è 1976-1983."
+       },
+       {
+        "p": "Che cosa chiedono le «Madri di Plaza de Mayo»?",
+        "a": "Verità sui propri figli scomparsi",
+        "w": [
+         "Il ritorno dei militari",
+         "Più tasse sui ricchi",
+         "L'indipendenza delle Falkland"
+        ],
+        "e": "Manifestano coraggiosamente."
+       },
+       {
+        "p": "Che cosa accelera il crollo dei regimi militari sudamericani?",
+        "a": "La crisi economica e la sconfitta argentina nella guerra delle Falkland (1982)",
+        "w": [
+         "La vittoria nelle Falkland",
+         "L'invasione sovietica",
+         "Il Piano Marshall"
+        ],
+        "e": "Segue il ritorno della democrazia."
+       }
+      ]
+     }
+    }
+   },
+   "timeline": [
+    [
+     "T4",
+     126.033,
+     3.2
+    ],
+    [
+     "T5",
+     1371.5,
+     3.2
+    ],
+    [
+     "GL",
+     2010.5,
+     18.8
+    ],
+    [
+     "RF",
+     2028.9,
+     13.067
+    ],
+    [
+     "FI",
+     2041.567,
+     5.0
+    ]
+   ]
+  },
+  "3": {
+   "stato": "REVISIONATA",
+   "voci": "kore",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "si",
+   "video": "Storia_Lez17_Parte3_1080p.mp4",
+   "durata_s": 2514.4,
+   "durata": "41:54.4",
+   "fotogrammi": 75431,
+   "fotogrammi_attesi": 75431,
+   "peso_MB": 292.6,
+   "vtt": "Storia_Lez17_Parte3.vtt",
+   "scheda": {
+    "materia": "Storia V",
+    "titolo": "Le fasi conclusive della guerra fredda (1969-1991) · Parte 3",
+    "durata_s": 2514.37,
+    "argomenti": [
+     {
+      "n": 6,
+      "titolo": "Europa occidentale",
+      "inizio_s": 98.467,
+      "quiz_s": 688.7
+     },
+     {
+      "n": 7,
+      "titolo": "Il crollo dell'URSS",
+      "inizio_s": 692.5,
+      "quiz_s": 1982.2
+     },
+     {
+      "n": 8,
+      "titolo": "La svolta della Cina",
+      "inizio_s": 1986.0,
+      "quiz_s": 2384.467
+     }
+    ],
+    "quiz": {
+     "Q6": {
+      "title": "Quiz 6 · Europa occidentale",
+      "items": [
+       {
+        "p": "Che cosa provocano gli shock petroliferi nell'Europa occidentale?",
+        "a": "Inflazione, disoccupazione e conflitti sindacali",
+        "w": [
+         "Crescita record",
+         "Fine della disoccupazione",
+         "Calo dei prezzi"
+        ],
+        "e": "Colpiscono duramente le industrie."
+       },
+       {
+        "p": "Quando viene eletta Margaret Thatcher?",
+        "a": "Nel 1979",
+        "w": [
+         "Nel 1973",
+         "Nel 1981",
+         "Nel 1990"
+        ],
+        "e": "È detta la «Lady di ferro»."
+       },
+       {
+        "p": "Che politica avvia Thatcher?",
+        "a": "Neoliberista: privatizzazioni, tagli allo stato sociale e lotta ai sindacati",
+        "w": [
+         "Statalista: nazionalizzazioni",
+         "Socialista: più spesa sociale",
+         "Isolazionista"
+        ],
+        "e": "È una risposta alla crisi."
+       },
+       {
+        "p": "Quali paesi entrano nella CEE nel 1973?",
+        "a": "Regno Unito, Irlanda e Danimarca",
+        "w": [
+         "Grecia, Spagna e Portogallo",
+         "Austria, Svezia e Finlandia",
+         "Polonia, Ungheria e Romania"
+        ],
+        "e": "Grecia, Spagna e Portogallo entrano negli anni Ottanta."
+       },
+       {
+        "p": "Che cosa accade nel 1979 nelle istituzioni europee?",
+        "a": "Si tengono le prime elezioni a suffragio universale del Parlamento europeo",
+        "w": [
+         "Nasce l'euro",
+         "Si fonda la NATO",
+         "Cade il Muro di Berlino"
+        ],
+        "e": "L'integrazione prosegue nonostante la crisi."
+       }
+      ]
+     },
+     "Q7": {
+      "title": "Quiz 7 · Il crollo dell'URSS",
+      "items": [
+       {
+        "p": "Quale evento logora le risorse dell'URSS di Brežnev?",
+        "a": "L'invasione dell'Afghanistan (1979)",
+        "w": [
+         "La guerra in Corea",
+         "La crisi di Cuba",
+         "L'invasione dell'Ungheria"
+        ],
+        "e": "L'URSS vive una lunga stagnazione economica."
+       },
+       {
+        "p": "Che cosa significano Perestrojka e Glasnost?",
+        "a": "Ristrutturazione economica e trasparenza",
+        "w": [
+         "Disarmo e alleanza",
+         "Repressione e censura",
+         "Nazionalizzazione e collettivizzazione"
+        ],
+        "e": "Le lancia Gorbačev nel 1985."
+       },
+       {
+        "p": "Che cosa decide Gorbačev verso i paesi dell'Est europeo?",
+        "a": "Rinuncia a intervenire militarmente",
+        "w": [
+         "Invia i carri armati",
+         "Rafforza il Patto di Varsavia",
+         "Li annette all'URSS"
+        ],
+        "e": "Nel 1989 crollano i regimi comunisti."
+       },
+       {
+        "p": "Quando cade il Muro di Berlino?",
+        "a": "Il 9 novembre 1989",
+        "w": [
+         "Il 13 agosto 1961",
+         "Il 3 ottobre 1990",
+         "Il 25 dicembre 1991"
+        ],
+        "e": "Porta alla riunificazione tedesca del 1990."
+       },
+       {
+        "p": "Che cosa nasce dopo la dissoluzione dell'URSS?",
+        "a": "La CSI, Comunità degli Stati Indipendenti",
+        "w": [
+         "Il Patto di Varsavia",
+         "La NATO",
+         "L'Unione Europea"
+        ],
+        "e": "Succede nel dicembre 1991, e Gorbačev si dimette."
+       }
+      ]
+     },
+     "Q8": {
+      "title": "Quiz 8 · La svolta della Cina",
+      "items": [
+       {
+        "p": "Come si chiamano le riforme di Deng Xiaoping?",
+        "a": "Quattro modernizzazioni",
+        "w": [
+         "Cento fiori",
+         "Grande balzo in avanti",
+         "Rivoluzione culturale"
+        ],
+        "e": "Aprono la Cina al capitalismo."
+       },
+       {
+        "p": "Che cosa permettono le riforme di Deng?",
+        "a": "Proprietà privata e investimenti esteri, con una crescita vertiginosa",
+        "w": [
+         "Il multipartitismo",
+         "La fine del Partito Comunista",
+         "La collettivizzazione delle terre"
+        ],
+        "e": "L'economia cresce in modo vertiginoso."
+       },
+       {
+        "p": "Che cosa non accompagna l'apertura economica cinese?",
+        "a": "Riforme democratiche: il Partito Comunista mantiene il controllo assoluto",
+        "w": [
+         "Nessuna riforma economica",
+         "Elezioni libere",
+         "Libertà di stampa"
+        ],
+        "e": "È la mancata apertura politica."
+       },
+       {
+        "p": "Che cosa chiedono studenti e cittadini a Pechino nella primavera 1989?",
+        "a": "Democrazia e libertà politiche",
+        "w": [
+         "Il ritorno di Mao",
+         "L'uscita dall'ONU",
+         "Più armamenti"
+        ],
+        "e": "Manifestano in Piazza Tienanmen."
+       },
+       {
+        "p": "Come reagisce il governo cinese a giugno?",
+        "a": "Reprime la protesta nel sangue con i carri armati",
+        "w": [
+         "Concede libere elezioni",
+         "Si dimette",
+         "Apre un dialogo con gli studenti"
+        ],
+        "e": "Provoca una ferma condanna internazionale."
+       }
+      ]
+     }
+    }
+   },
+   "timeline": [
+    [
+     "T6",
+     98.467,
+     3.2
+    ],
+    [
+     "T7",
+     692.5,
+     3.2
+    ],
+    [
+     "T8",
+     1986.0,
+     3.2
+    ],
+    [
+     "GL",
+     2388.267,
+     28.767
+    ],
+    [
+     "RF",
+     2416.633,
+     14.633
+    ],
+    [
+     "FI",
+     2434.667,
+     5.0
+    ]
+   ]
+  }
+ },
  "manca": "controllo rapido P2/P3, sottotitoli sul video finale, dispensa/PDF mappe finali, rapporto, push su revisione-storia-V-lez17",
  "serve_master": [
   {
@@ -57,8 +711,12 @@
   {
    "quando": "23/11 10:06",
    "testo": "10:10 UTC: voci Kore ricevute e controllate (31 voci, bordi <0,003, trascrizione ok; da riascoltare nomi stranieri in AP7 e SPG2_3). Parti 1-3 montate con le voci vere. Controllo rapido P1: unico errore pausa muta 3,1 s su mappa (corretto, rimonto audio). In corso: controllo rapido P2/P3, sottotitoli, dispensa, rapporto. Consegna in ritardo rispetto alle 10:00 UTC: stimo 60-80 minuti."
+  },
+  {
+   "quando": "23/11 11:46",
+   "testo": "correzioni 22/11 fatte: consegnate le 3 Parti su revisione-storia-V-lez17 (controllo rapido OK x3, foglio e json, rapporto con limiti dichiarati). Non corretto/da decidere: card accesa a lungo, sincronia approssimata, sbavature grafiche in P3 (etichetta/pillola), sigle su schede scure vecchie, voci AP7 e SPG2_3 e nomi stranieri da riascoltare, P2/P3 sotto 50 min. Consegna in ritardo (voci arrivate alle 10:30 UTC)."
   }
  ],
- "aggiornato": "2026-11-23 10:06:40",
+ "aggiornato": "2026-11-23 11:46:10",
  "stato": "IN_REVISIONE"
 }
