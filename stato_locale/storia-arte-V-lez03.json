@@ -32,6 +32,10 @@
   {
    "quando": "23/11 09:51",
    "testo": "URGENTE lez03: sul ramo voci-storia-arte-V-lez03 ci sono ancora solo le voci vecchie. Mancano 12: AP1, AP2, AP3, AP4, AP5, ARG, SPIE, MAPFR, MAPIT, VER, COMPITI, MAPFIN. Il montaggio finale delle due Parti (voci, controlli, sottotitoli, rapporto) richiede circa 1 ora e mezza dopo l'arrivo: per consegnare entro le 13:00 italiane servono entro le 11:30. Tutto il resto è pronto."
+  },
+  {
+   "quando": "23/11 10:58",
+   "testo": "lez03 non posso consegnare finché mancano 9 voci: AP1, AP3, AP5, SPIE, MAPFR, MAPIT, VER, COMPITI, MAPFIN (arrivate solo AP2, AP4, ARG). Con le voci il montaggio finale richiede circa 40 minuti. In più: GitHub segnala che il repository è vicino alla quota: i video a pezzi da 90 MB (circa 720 MB in totale per le due Parti) potrebbero non entrare sul ramo revisione. Se il push fallisce come li consegno (release?)."
   }
  ],
  "domande_sara": [],
@@ -67,10 +71,14 @@
   {
    "quando": "23/11 09:51",
    "testo": "10:50 it: voci nuove ancora non arrivate"
+  },
+  {
+   "quando": "23/11 10:58",
+   "testo": "11:00 UTC: Parte1 44' (354 MB), Parte2 35' assemblate; controllo rapido Parte1: restano solo pause mute delle voci provvisorie e schermate lunghe (corrette, rimonto). Voci arrivate: AP2, AP4, ARG."
   }
  ],
  "materia": "Storia dell'arte V",
  "lezione": "Lezione 3 · Il Realismo",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-23 09:51:30"
+ "aggiornato": "2026-11-23 10:58:51"
 }
