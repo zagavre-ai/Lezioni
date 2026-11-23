@@ -1,0 +1,44 @@
+{
+ "video": "Storia_arte_V_Lez6_Parte1_1080p.mp4",
+ "durata_min": 55.54,
+ "formato": "1920x1080 30/1",
+ "peso_MB": 372,
+ "LUFS": -16.3,
+ "picco_dBTP": -0.5,
+ "pause_mute": [
+  "10:04 (40.0 s)",
+  "10:46 (15.6 s)",
+  "11:04 (2.5 s)",
+  "19:19 (45.0 s)",
+  "20:06 (22.5 s)",
+  "20:31 (2.5 s)",
+  "30:19 (48.1 s)",
+  "31:09 (20.2 s)",
+  "31:31 (2.5 s)",
+  "40:09 (44.6 s)",
+  "40:55 (22.1 s)",
+  "41:20 (2.5 s)",
+  "46:57 (38.8 s)",
+  "47:37 (19.8 s)",
+  "47:59 (2.5 s)",
+  "48:02 (63.5 s)",
+  "49:08 (42.1 s)",
+  "49:50 (141.2 s)",
+  "52:12 (97.8 s)",
+  "53:51 (9.8 s)",
+  "54:09 (82.9 s)"
+ ],
+ "nome_docente_nel_pie_di_pagina": [],
+ "schede_con_fasce": [],
+ "schermate_ferme_oltre_3_min": [],
+ "titolo_in_copertina": "3/3 parole",
+ "foglio": "foglio_fotogrammi_Storia_arte_V_Lez6_Parte1_1080p.jpg",
+ "ERRORI": [
+  "picco -0.5 dBTP (massimo -1)",
+  "21 pause mute oltre 2,5 s: 10:04 (40.0 s), 10:46 (15.6 s), 11:04 (2.5 s), 19:19 (45.0 s), 20:06 (22.5 s), 20:31 (2.5 s), 30:19 (48.1 s), 31:09 (20.2 s), 31:31 (2.5 s), 40:09 (44.6 s), 40:55 (22.1 s), 41:20 (2.5 s), 46:57 (38.8 s), 47:37 (19.8 s), 47:59 (2.5 s), 48:02 (63.5 s), 49:08 (42.1 s), 49:50 (141.2 s), 52:12 (97.8 s), 53:51 (9.8 s), 54:09 (82.9 s)"
+ ],
+ "DA_GUARDARE": [
+  "Apri il foglio dei fotogrammi e controlla con gli occhi: fondo bianco; schede di titolo/quiz/ripasso in BLU SCURO a tutto schermo; card a 40 px e intere; nessun nome del docente fuori dalla fascia gialla; riquadro del docente giusto (Mazzotti 4:3, Caputi tondo); copertina con il titolo esatto; mappe del prof con la legenda BES; in fondo sigla finale con l'avviso dei diritti e intro «Compiti»."
+ ],
+ "ESITO": "DA CORREGGERE"
+}
