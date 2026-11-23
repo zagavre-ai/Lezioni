@@ -2,11 +2,12 @@
  "tag": "storia-V-lez07",
  "parti": {
   "1": {
-   "stato": "IN_MONTAGGIO",
+   "stato": "REVISIONATA",
    "voci": "kore",
-   "quiz_ok": "si",
-   "fermi_ok": "si",
-   "vtt": "si"
+   "quiz_ok": "1",
+   "fermi_ok": "1",
+   "vtt": "si",
+   "sub_ok": "1"
   }
  },
  "manca": "",
@@ -34,6 +35,10 @@
   {
    "quando": "23/11 10:46",
    "testo": "10:50 UTC: ho scaricato le voci Kore (BENV1_R2, DIC1, M*, MF*, SC5_3_R2, AN6_R2, CP1, CP2). Rifaccio le schede, riassemblo, ricodifico, rilancio controllo_rapido e consegno. Sono oltre le 10:00 UTC: consegna prevista entro ~1 h 30."
+  },
+  {
+   "quando": "23/11 11:37",
+   "testo": "CONSEGNATA Storia lez07 Parte 1 sul ramo revisione-storia-V-lez07: correzioni 22/11 fatte. controllo_rapido ESITO OK, controllo_finale TUTTO OK, foglio+json in consegna. Da riascoltare: fine di Dprof3_0 a 19:54,7 (frase conclusa a voce, trascrizione senza punto); sincronia labbra a campione (6/64 fuori ±1 fotogramma, mediano 0, non verificata a mano); pronuncia dei nomi stranieri nelle voci Kore non ascoltata. Sostituisce la consegna vecchia del 19/11 sullo stesso ramo. Dettagli in RAPPORTO_REVISIONE.md."
   }
  ],
  "domande_sara": [],
@@ -97,9 +102,13 @@
   {
    "quando": "22/11 22:33",
    "testo": "22:33 UTC: applico le nuove regole della master (nessuna mappa finale, quiz 'Rispondi · premi Controlla · poi Continua', nessuna pausa muta oltre 2,5 s, nessuna card sola oltre 60 s, controllo rapido). Rifaccio pezzi e schede (circa 1 ora), poi dispensa, mappe, sottotitoli, controllo rapido e rapporto. Voci reali attese dalle 07:00 UTC."
+  },
+  {
+   "quando": "23/11 11:37",
+   "testo": "correzioni 22/11 fatte"
   }
  ],
  "materia": "storia-V",
  "lezione": "7",
- "aggiornato": "2026-11-23 10:46:07"
+ "aggiornato": "2026-11-23 11:37:45"
 }
