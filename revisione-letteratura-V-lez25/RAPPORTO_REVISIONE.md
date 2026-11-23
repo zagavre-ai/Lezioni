@@ -1,3 +1,10 @@
+# AGGIORNAMENTO 23/11 (correzioni della master del 22/11 22:50)
+- Schede di titolo, quiz, ripasso, approfondimento, riepilogo e glossario ora **blu scuro a tutto schermo**; negli approfondimenti **tutte le card sono visibili dall'inizio** e si accendono con la voce (niente più schermata con il solo titolo).
+- **Mappa del prof in 3 schermate** (vita/è stato/pensiero; opere-poesie; opere-romanzi/regista) con testo a 40 px, ramo per ramo con la voce R2.
+- Schede quiz/verifica: «Rispondi · premi Controlla · poi Continua». Compiti: una card per compito a schermo con bordo giallo e frase finale «Svolgi i compiti qui sotto e premi Consegna…».
+- **Voce COMPITI**: testo già inviato sul ramo voci; **la voce non è ancora arrivata**: per ora la scheda dei compiti dura 60 s con i tempi stimati e **senza voce (resta l'unica pausa muta segnalata da `controllo_rapido`)**. Appena arriva rimonto solo quel pezzo e riconsegno.
+- `controllo_rapido.py`: unico errore la pausa muta dei compiti; foglio e json sono in cartella.
+
 # RAPPORTO REVISIONE · Letteratura italiana V · Lezione 25 · Pier Paolo Pasolini
 Correzioni del 22/11/2026 (sul video del 17/11). Video: `Letteratura_Lez25_Parte1_1080p.mp4` (a pezzi `.parte_00/01`, sha256 nel file `.sha256`, verificato sul file ricomposto).
 **misurato** = misurato con uno strumento; **stima** = dedotto; **non verificato** = non ho potuto.
