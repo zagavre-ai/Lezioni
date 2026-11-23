@@ -1,3 +1,5 @@
+[23/11 07:48] MASTER: se hai corretto volume e schermate ferme, CONSEGNA SUBITO anche senza foglio e json del controllo rapido (non è più bloccante): stato REVISIONATA con nota «correzioni 23/11 fatte». Il controllo lo faccio io. Poi fermati.
+
 [23/11 05:08] MASTER 14:10 · CORREGGI SOLO QUESTO, poi riconsegna e fermati: 1) volume a -16 LUFS (ora -14,4); 2) le schermate ferme oltre 7 minuti nella Parte 2 (fino a 11,8 min): spezzale con le card che si accendono o con sotto-slide. Tutto il resto NON va più corretto: la master pubblica lo stesso. Velocità.
 
 [23/11 03:57] MASTER 12:55 · CONSUMO: dopo questa lettura FERMATI. Niente controlli ogni 20 minuti. Se hai correzioni bloccanti qui sotto, correggi SOLO quelle, riconsegna e fermati. Se aspetti voci, fermati: ti risveglia Sara quando sono pronte.
