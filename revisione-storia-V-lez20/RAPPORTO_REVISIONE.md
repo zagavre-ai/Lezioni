@@ -1,44 +1,44 @@
 # RAPPORTO DI REVISIONE · Storia · «Gli anni Novanta: il mondo post-bipolare» · CORREZIONI 22/11
-Chat `claude/keen-hypatia-d76anw` · ramo di consegna `revisione-storia-V-lez20` · 23/11/2026 09:14 UTC.
+Chat `claude/keen-hypatia-d76anw` · ramo di consegna `revisione-storia-V-lez20` · 23/11/2026 13:20 UTC.
 Ogni dato è etichettato **M** (misurato), **S** (a vista / stima) o **NV** (non verificato).
 
 ## 0. Cosa è stato fatto e cosa no (in breve)
 - Lezione **rimontata da zero** dall'originale del prof (release `mazzotti-storia-V`, zip 004): il montaggio precedente non era ricostruibile. Slide, mappe, quiz, pillole, quiz, glossario, ripasso finale, verifica, sigle e compiti sono nuovi.
-- **Due Parti**, tagliate a fine argomento 4 (decisione approvata dalla master): Parte 1 = 54:09, Parte 2 = 29:06. La Parte 2 è sotto i 50 minuti perché il materiale del prof è breve (CLAUDE.md §3.6: «va bene, non si allunga»).
-- **Voci provvisorie ancora presenti:** vedi §3. Finché non arrivano e non sono sostituite **questa consegna non è definitiva**.
+- **Due Parti**, tagliate a fine argomento 4 (decisione approvata dalla master): Parte 1 = 54:19, Parte 2 = 29:25. La Parte 2 è sotto i 50 minuti perché il materiale del prof è breve (CLAUDE.md §3.6: «va bene, non si allunga»).
+- **Voci:** tutte le voci nuove (INTRO1_N, SP0, FINP1, PS2_4, PS3_4, COMPITI) sono arrivate e montate (23/11 ~10:45 UTC): nessuna voce provvisoria. Controllo rapido della master: **ESITO OK** su entrambe le Parti (foglio e json accanto ai video).
 
 ## 1. Misure sui video finali (M)
 | | Parte 1 | Parte 2 |
 |---|---|---|
 | File | `Storia_Lez20_Parte1_1080p.mp4` | `Storia_Lez20_Parte2_1080p.mp4` |
-| Durata | 54:09 (3249.87 s) | 29:06 (1746.13 s) |
-| Fotogrammi / durata×30 | 97496 / 97496 | 52384 / 52384 |
-| Peso | 327.3 MB | 150.8 MB |
+| Durata | 54:19 (3259.30 s) | 29:25 (1765.93 s) |
+| Fotogrammi / durata×30 | 97779 / 97779 | 52978 / 52978 |
+| Peso | 328.7 MB | 154.2 MB |
 | Formato | 1920×1080, 30 fps, x264 veryfast (CRF 19 le schede, CRF 22 i pezzi del prof, per stare sotto 400 MB), AAC 192k 48 kHz | idem |
-| Volume | -16.3 LUFS, picco -3.2 dBFS | -16.1 LUFS, picco -2.7 dBFS |
-| sha256 | `ae684d8596abb01c49877bdf5bf431e4a4622cfbb181761ab0631dac8354c31c` | `e86051e269c3551a79200cbc2d5558a4ee5403f8b665ceb99131d0580ab7dd3f` |
+| Volume | -16.3 LUFS, picco -3.2 dBFS | -16.1 LUFS, picco -2.6 dBFS |
+| sha256 | `99bf5d88fcf5b097d749d85f1ec576992a4b3e1affdb2209eb6e589e40a48703` | `0c91cb7afbe1e26bb5e4a74810e0cc2bc9d1438ed905b21817e10492fc2f469c` |
 
 Audio: una sola codifica AAC sull'intero programma (audio rifatto in un passaggio dai pezzi non compressi, così non ci sono scarti di durata). Video: ogni pezzo codificato una volta, uniti senza ricodifica.
 
 ### Controlli automatici
 - `controllo_finale.py` Parte 1:
 ```
-durata 54:09.9 (3249.9 s) | fotogrammi 97496 (attesi 97496) OK | peso 327.3 MB (312.1 MiB) OK | 1920x1080 OK
+durata 54:19.3 (3259.3 s) | fotogrammi 97779 (attesi 97779) OK | peso 328.7 MB (313.5 MiB) OK | 1920x1080 OK
 quiz 4 scatto 0,0 s: OK
 fermi immagine nei pezzi del docente: nessuno OK
 volume del parlato (mediana dei pezzi del docente): -16.4 LUFS OK
-sottotitoli: 908 blocchi, sovrapposti 0, oltre la fine 0, attacco sulla voce entro 0,3 s: 37% di 19 verificabili DA GUARDARE
+sottotitoli: 908 blocchi, sovrapposti 0, oltre la fine 0, attacco sulla voce entro 0,3 s: 40% di 20 verificabili DA GUARDARE
 foglio di miniature: out/Storia_Lez20_Parte1_1080p.mp4.miniature.jpg
 ESITO: DA SISTEMARE: sottotitoli
 
 ```
 - `controllo_finale.py` Parte 2:
 ```
-durata 29:06.1 (1746.1 s) | fotogrammi 52384 (attesi 52384) OK | peso 150.8 MB (143.8 MiB) OK | 1920x1080 OK
+durata 29:25.9 (1765.9 s) | fotogrammi 52978 (attesi 52978) OK | peso 154.2 MB (147.1 MiB) OK | 1920x1080 OK
 quiz 4 scatto 0,0 s: OK
 fermi immagine nei pezzi del docente: nessuno OK
 volume del parlato (mediana dei pezzi del docente): -15.8 LUFS OK
-sottotitoli: 445 blocchi, sovrapposti 0, oltre la fine 0, attacco sulla voce entro 0,3 s: 29% di 14 verificabili DA GUARDARE
+sottotitoli: 445 blocchi, sovrapposti 0, oltre la fine 0, attacco sulla voce entro 0,3 s: 31% di 13 verificabili DA GUARDARE
 foglio di miniature: out/Storia_Lez20_Parte2_1080p.mp4.miniature.jpg
 ESITO: DA SISTEMARE: sottotitoli
 
@@ -66,12 +66,7 @@ ESITO: DA SISTEMARE: sottotitoli
 
 ## 3. Voci
 - **Voci provvisorie presenti in questa consegna:**
-- `INTRO1_N`: INTRO1 (dice il nome del prof)
-- `PS2_4`: Dopo la Guerra del Golfo Bush Senior non depone Saddam Hussein: per molti conservatori americani è stato troppo leggero, e non viene rielett
-- `PS3_4`: In Kosovo la NATO interviene anche senza il permesso dell'ONU; alla fine Milosevic viene arrestato e portato davanti alla Corte penale inter
-- `FINP1`: La prima parte finisce qui. Nella parte successiva trovi gli ultimi argomenti, il glossario, la verifica finale e i compiti.
-- `SP0`: Prima di continuare, facciamo un ripasso di tutto quello che abbiamo visto nella parte precedente, argomento per argomento.
-- `COMPITI`: Compiti. Esercizio uno. Analizza le conseguenze geopolitiche ed economiche del crollo dell'Unione Sovietica nel millenov…
+- nessuna: tutte le voci sono quelle definitive.
 - Voci Kore già esistenti riusate (85 file dal ramo `voci-storia-V-lez20`): ognuna **trascritta** (Parakeet) e **confrontata parola per parola** con il suo testo (numeri in lettere convertiti), **bordi** misurati (ampiezza negli ultimi 50 ms < 0,03) e ogni voce portata a −16 LUFS con dissolvenze di 30–35 ms (M). Esito: tutte entro il 90 % di corrispondenza e bordi < 0,03 tranne voci **non usate** (GL1, INTRO1 in sostituzione, MAP*, MAPF1, che nel montaggio non compaiono) e differenze di sola grafia del riconoscitore (centrodestra / centro destra, Jugoslavia / Iugoslavia, Qaida / Qaeda). Da riascoltare a mano: `PS5_3` (il riconoscitore non ha trovato l'ultima parola «inedito»: possibile taglio, **NV**).
 - **Pronuncia dei nomi stranieri e latini: NV** (non posso ascoltare). Da far controllare: Fukuyama, Eltsin, Tienanmen, Srebrenica, Maastricht, Al-Qaeda, Milošević, Dayton, Seattle.
 - Testi: solo dal materiale del prof. Controllati contro la trascrizione: i fatti degli approfondimenti (Dayton 1995, Montenegro 2006, Kosovo 2008, Tangentopoli, Putin) sono tutti nel parlato del prof (S).
@@ -85,48 +80,48 @@ ESITO: DA SISTEMARE: sottotitoli
 | Pezzo | Inizio | Durata (s) |
 |---|---|---|
 | SIGLA1 | 0:00 | 15.0 |
-| COVER | 0:15 | 29.8 |
-| D0 | 0:44 | 142.5 |
-| D1 | 3:07 | 92.0 |
-| T1 | 4:39 | 3.4 |
-| DA1a | 4:42 | 360.5 |
-| AN1a | 10:43 | 31.2 |
-| DA1b | 11:14 | 738.7 |
-| AP1 | 23:33 | 61.5 |
-| PI1 | 24:34 | 39.4 |
-| Q1 | 25:14 | 4.2 |
-| T2 | 25:18 | 3.4 |
-| DA2 | 25:21 | 327.7 |
-| AP2 | 30:49 | 60.0 |
-| PI2 | 31:49 | 40.6 |
-| Q2 | 32:29 | 4.2 |
-| T3 | 32:34 | 3.4 |
-| DA3a | 32:37 | 365.8 |
-| AP3 | 38:43 | 57.9 |
-| DA3b | 39:41 | 105.7 |
-| AN3a | 41:26 | 36.3 |
-| MAP3 | 42:03 | 28.6 |
-| PI3 | 42:31 | 41.6 |
-| Q3 | 43:13 | 4.2 |
-| T4 | 43:17 | 3.4 |
-| DA4 | 43:21 | 505.4 |
-| AP4 | 51:46 | 52.6 |
-| MAP4 | 52:38 | 30.1 |
-| PI4 | 53:09 | 41.9 |
-| Q4 | 53:50 | 4.2 |
-| FINP1 | 53:55 | 9.8 |
-| SIGF1 | 54:04 | 5.0 |
+| COVER | 0:15 | 32.4 |
+| D0 | 0:47 | 142.5 |
+| D1 | 3:09 | 92.0 |
+| T1 | 4:41 | 3.4 |
+| DA1a | 4:45 | 360.5 |
+| AN1a | 10:45 | 31.2 |
+| DA1b | 11:16 | 738.7 |
+| AP1 | 23:35 | 61.5 |
+| PI1 | 24:37 | 39.4 |
+| Q1 | 25:16 | 4.2 |
+| T2 | 25:20 | 3.4 |
+| DA2 | 25:24 | 327.7 |
+| AP2 | 30:51 | 60.0 |
+| PI2 | 31:51 | 42.8 |
+| Q2 | 32:34 | 4.2 |
+| T3 | 32:38 | 3.4 |
+| DA3a | 32:42 | 365.8 |
+| AP3 | 38:48 | 57.9 |
+| DA3b | 39:45 | 105.7 |
+| AN3a | 41:31 | 36.3 |
+| MAP3 | 42:07 | 28.6 |
+| PI3 | 42:36 | 44.6 |
+| Q3 | 43:21 | 4.2 |
+| T4 | 43:25 | 3.4 |
+| DA4 | 43:28 | 505.4 |
+| AP4 | 51:54 | 52.6 |
+| MAP4 | 52:46 | 30.1 |
+| PI4 | 53:16 | 41.9 |
+| Q4 | 53:58 | 4.2 |
+| FINP1 | 54:02 | 11.5 |
+| SIGF1 | 54:14 | 5.0 |
 
 **Parte 2**
 
 | Pezzo | Inizio | Durata (s) |
 |---|---|---|
 | SIGLA2 | 0:00 | 15.0 |
-| SP0 | 0:15 | 9.0 |
+| SP0 | 0:15 | 9.2 |
 | SP1 | 0:24 | 32.1 |
 | SP2 | 0:56 | 26.9 |
 | SP3 | 1:23 | 25.9 |
-| SP4 | 1:48 | 28.2 |
+| SP4 | 1:49 | 28.2 |
 | T5 | 2:17 | 3.4 |
 | DA5 | 2:20 | 285.0 |
 | AP5 | 7:05 | 47.9 |
@@ -138,32 +133,32 @@ ESITO: DA SISTEMARE: sottotitoli
 | AP6 | 12:19 | 48.2 |
 | PI6 | 13:07 | 45.4 |
 | Q6 | 13:52 | 4.2 |
-| T7 | 13:56 | 3.4 |
+| T7 | 13:57 | 3.4 |
 | DA7 | 14:00 | 125.2 |
 | AP7 | 16:05 | 52.5 |
 | PI7 | 16:58 | 35.2 |
 | Q7 | 17:33 | 4.2 |
 | T8 | 17:37 | 3.4 |
-| DA8 | 17:40 | 158.9 |
+| DA8 | 17:41 | 158.9 |
 | AP8 | 20:19 | 53.8 |
 | MAP8 | 21:13 | 32.9 |
 | PI8 | 21:46 | 39.9 |
 | Q8 | 22:26 | 4.2 |
 | GLOSS | 22:30 | 43.2 |
 | RF1 | 23:13 | 32.0 |
-| RF2 | 23:45 | 26.8 |
+| RF2 | 23:46 | 26.8 |
 | RF3 | 24:12 | 25.8 |
 | RF4 | 24:38 | 28.1 |
 | RF5 | 25:06 | 28.2 |
 | RF6 | 25:34 | 28.1 |
-| RF7 | 26:02 | 23.6 |
+| RF7 | 26:03 | 23.6 |
 | RF8 | 26:26 | 22.4 |
-| RFIN | 26:48 | 29.7 |
+| RFIN | 26:49 | 29.7 |
 | FIN | 27:18 | 10.1 |
 | VERIFICA | 27:28 | 8.4 |
 | SIGF2 | 27:37 | 5.0 |
 | COMPITI | 27:42 | 3.5 |
-| COMPITI_V | 27:45 | 80.5 |
+| COMPITI_V | 27:45 | 100.1 |
 
 
 ## 5. Refusi e anomalie nel materiale del prof
@@ -186,42 +181,42 @@ Corretti nelle nostre slide/dispensa (i file originali non sono toccati):
 
 | Pezzo | Fine (minuto) | Ultime 8 parole (trascrizione) | Frase finita |
 |---|---|---|---|
-| A1a | 10:42 | …siamo all'indomani del del dicembre novantuno. | sì |
-| A1b | 23:32 | …vincitori invece della guerra fredda, gli Stati Uniti. | sì |
-| A2 | 30:48 | …Uniti interverranno anche, non solo gli Stati Uniti. | sì |
-| A3a | 38:42 | …stato sovrano, e quindi non è proprio corretto. | sì |
-| A3b | 41:26 | …ritorna alla prima guerra mondiale, se ci pensiamo. | sì |
-| A4 | 51:45 | …Però, ecco, come dire, sono ancora questioni aperte. | sì |
+| A1a | 10:45 | …siamo all'indomani del del dicembre novantuno. | sì |
+| A1b | 23:35 | …vincitori invece della guerra fredda, gli Stati Uniti. | sì |
+| A2 | 30:51 | …Uniti interverranno anche, non solo gli Stati Uniti. | sì |
+| A3a | 38:47 | …stato sovrano, e quindi non è proprio corretto. | sì |
+| A3b | 41:30 | …ritorna alla prima guerra mondiale, se ci pensiamo. | sì |
+| A4 | 51:53 | …Però, ecco, come dire, sono ancora questioni aperte. | sì |
 
 #### Parte 1: accensione delle card (tutti i punti)
 
 | Video | Pezzo | Card | Frase del prof vicina | Scarto da inizio frase |
 |---|---|---|---|---|
-| 4:43 | A1a | 1 | In modo tale poi da concludere il crollo dell'Unione Sovietica, riflet | +0.0 s |
-| 5:41 | A1a | 2 | Questo mutamento epocale portò inizialmente alcuni intellettuali, come | -0.0 s |
-| 8:56 | A1a | 3 | Spinte autonomistiche e anche secessionistiche, e nuove aree di instab | +0.0 s |
-| 11:15 | A1b | 3 | Che cosa fare? | -0.0 s |
-| 18:04 | A1b | 4 | scusate, l'ex agente segreto dei servizi segreti sovietici che Gebe. | +0.0 s |
-| 19:44 | A1b | 4 | Questa è la situazione in Russia. Ma la situazione gli anni 90 russi s | -0.0 s |
-| 25:22 | A2 | 1 | Allora, mentre l'ex spazio sovietico si frammentava, lo scenario inter | -0.0 s |
-| 25:41 | A2 | 2 | Sotto la presidenza di George. | -0.0 s |
-| 27:49 | A2 | 2 | Ma intervento armato no? Quando si tratta del Kuit, invece, gli Stati  | +0.0 s |
-| 29:30 | A2 | 3 | Bene, la presidenza Clinton | +0.0 s |
-| 32:38 | A3a | 1 | Cerchiamo di capire. Contemporaneamente, l'Europa si è trovata a gesti | -0.0 s |
-| 34:09 | A3a | 2 | E allora comincia una guerra che per certi aspetti è civile, una guerr | +0.2 s |
-| 36:50 | A3a | 3 | Dopo numerose risoluzioni e dibattite all'ONU, | -0.0 s |
-| 43:21 | A4 | 1 | Europa occidentale, ecco, nel resto del continente europeo gli anni no | +0.0 s |
-| 44:02 | A4 | 3 | Problemi che anche la Russia sperimenta e non solo la Russia, economia | -0.1 s |
-| 45:17 | A4 | 2 | Il cammino verso l'integrazione europea ha compiuto un passo decisivo  | +0.0 s |
-| 47:41 | A4 | 4 | Anche se molti stati passati poi all'estrema destra come l'Ungheria pe | -0.4 s |
+| 4:46 | A1a | 1 | In modo tale poi da concludere il crollo dell'Unione Sovietica, riflet | +0.0 s |
+| 5:43 | A1a | 2 | Questo mutamento epocale portò inizialmente alcuni intellettuali, come | -0.0 s |
+| 8:59 | A1a | 3 | Spinte autonomistiche e anche secessionistiche, e nuove aree di instab | +0.0 s |
+| 11:17 | A1b | 3 | Che cosa fare? | -0.0 s |
+| 18:06 | A1b | 4 | scusate, l'ex agente segreto dei servizi segreti sovietici che Gebe. | +0.0 s |
+| 19:46 | A1b | 4 | Questa è la situazione in Russia. Ma la situazione gli anni 90 russi s | -0.0 s |
+| 25:25 | A2 | 1 | Allora, mentre l'ex spazio sovietico si frammentava, lo scenario inter | -0.0 s |
+| 25:44 | A2 | 2 | Sotto la presidenza di George. | -0.0 s |
+| 27:51 | A2 | 2 | Ma intervento armato no? Quando si tratta del Kuit, invece, gli Stati  | +0.0 s |
+| 29:32 | A2 | 3 | Bene, la presidenza Clinton | +0.0 s |
+| 32:43 | A3a | 1 | Cerchiamo di capire. Contemporaneamente, l'Europa si è trovata a gesti | -0.0 s |
+| 34:14 | A3a | 2 | E allora comincia una guerra che per certi aspetti è civile, una guerr | +0.2 s |
+| 36:55 | A3a | 3 | Dopo numerose risoluzioni e dibattite all'ONU, | -0.0 s |
+| 43:29 | A4 | 1 | Europa occidentale, ecco, nel resto del continente europeo gli anni no | +0.0 s |
+| 44:10 | A4 | 3 | Problemi che anche la Russia sperimenta e non solo la Russia, economia | -0.1 s |
+| 45:25 | A4 | 2 | Il cammino verso l'integrazione europea ha compiuto un passo decisivo  | +0.0 s |
+| 47:49 | A4 | 4 | Anche se molti stati passati poi all'estrema destra come l'Ungheria pe | -0.4 s |
 
 #### Parte 2: fine di ogni pezzo del docente
 
 | Pezzo | Fine (minuto) | Ultime 8 parole (trascrizione) | Frase finita |
 |---|---|---|---|
-| A5 | 7:04 | …dal dai governi di coalizione nazionale. | sì |
+| A5 | 7:05 | …dal dai governi di coalizione nazionale. | sì |
 | A6 | 12:18 | …ad attaccare poi i simboli dell'Occidente. | sì |
-| A7 | 16:04 | …a lui e in alcuni casi lo supera. | sì |
+| A7 | 16:05 | …a lui e in alcuni casi lo supera. | sì |
 | A8 | 20:19 | …nel mondo dal 2000 in poi. | sì |
 
 #### Parte 2: accensione delle card (tutti i punti)
@@ -242,7 +237,7 @@ Corretti nelle nostre slide/dispensa (i file originali non sono toccati):
 | 14:44 | A7 | 2 | Accanto alla Cina le cosiddette Tigri asiatiche, come la Corea del Sud | -0.0 s |
 | 15:01 | A7 | 4 | Anche l'India, se per questo è registrato un forte boom economico. Tra | -0.0 s |
 | 15:34 | A7 | 3 | Tutte le nazioni sovrane. Il Giappone ha attraversato al contrario un  | +0.0 s |
-| 17:41 | A8 | 1 | Ed è il caso, appunto, di parlare della globalizzazione. Tutti questi  | -0.0 s |
+| 17:42 | A8 | 1 | Ed è il caso, appunto, di parlare della globalizzazione. Tutti questi  | -0.0 s |
 | 17:58 | A8 | 2 | Nel bene e nel male, questo fenomeno è stato straordinariamente accele | +0.5 s |
 | 18:18 | A8 | 3 | dall'altro ha sollevato forti critiche e resistenze. | +0.2 s |
 | 19:08 | A8 | 4 | Il 2000 si è aperto dunque con un pianeta globalizzato, segnato da una | +0.0 s |
@@ -250,11 +245,11 @@ Corretti nelle nostre slide/dispensa (i file originali non sono toccati):
 **Tabella immagine del prof → argomento (uno solo)**
 | Immagine (PDF slide) | Argomento in cui compare | Minuto video | Qualità |
 |---|---|---|---|
-| Carta «Dove si trova la Cecenia» (542×675) | 1 | 19:30 (Parte 1) | originale, nitida (S) |
-| Carta «Dove si trova il Kuwait» (253×333) | 2 | 27:06 (Parte 1) | **piccola**: ingrandita 2,2× con Lanczos e nitidezza leggera (S) |
-| Carta «L'ex Iugoslavia 1991-2008» (1231×748) | 3 | 39:42 (Parte 1) | originale, nitida (S) |
-| Carta «Le tappe dell'integrazione europea» (783×655) | 4 | 48:58 (Parte 1) | originale (S) |
-| Ritratti Berlusconi (298×367) e Prodi (216×487) | 5 | 6:12 (Parte 2) | **piccoli**: ingranditi 1,4–1,8× con Lanczos e nitidezza leggera, tratti invariati (S) |
+| Carta «Dove si trova la Cecenia» (542×675) | 1 | 19:33 (Parte 1) | originale, nitida (S) |
+| Carta «Dove si trova il Kuwait» (253×333) | 2 | 27:09 (Parte 1) | **piccola**: ingrandita 2,2× con Lanczos e nitidezza leggera (S) |
+| Carta «L'ex Iugoslavia 1991-2008» (1231×748) | 3 | 39:46 (Parte 1) | originale, nitida (S) |
+| Carta «Le tappe dell'integrazione europea» (783×655) | 4 | 49:06 (Parte 1) | originale (S) |
+| Ritratti Berlusconi (298×367) e Prodi (216×487) | 5 | 6:13 (Parte 2) | **piccoli**: ingranditi 1,4–1,8× con Lanczos e nitidezza leggera, tratti invariati (S) |
 Le immagini sono quelle del PDF del prof alla massima risoluzione disponibile; non scaricato nulla dal web. Il prof fa vedere la carta del Kuwait solo per 3,5 s: l'ho tenuta mentre parla del Kuwait (la mostro dove lo cita).
 
 ## 7. Controllo dell'agente separato

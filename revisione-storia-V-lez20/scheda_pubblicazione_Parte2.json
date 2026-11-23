@@ -1,31 +1,31 @@
 {
  "materia": "Storia",
  "titolo": "Gli anni Novanta: il mondo post-bipolare · Parte 2",
- "durata_s": 1746.13,
+ "durata_s": 1765.93,
  "argomenti": [
   {
    "n": 5,
    "titolo": "L'Italia nella Seconda Repubblica",
-   "inizio_s": 137.2,
-   "quiz_s": 548.1
+   "inizio_s": 137.433,
+   "quiz_s": 548.333
   },
   {
    "n": 6,
    "titolo": "Medio Oriente, Africa e America Latina",
-   "inizio_s": 552.3,
-   "quiz_s": 832.733
+   "inizio_s": 552.533,
+   "quiz_s": 832.967
   },
   {
    "n": 7,
    "titolo": "I nuovi protagonisti in Asia",
-   "inizio_s": 836.933,
-   "quiz_s": 1053.233
+   "inizio_s": 837.167,
+   "quiz_s": 1053.467
   },
   {
    "n": 8,
    "titolo": "La globalizzazione",
-   "inizio_s": 1057.433,
-   "quiz_s": 1346.333
+   "inizio_s": 1057.667,
+   "quiz_s": 1346.567
   }
  ],
  "quiz": {
