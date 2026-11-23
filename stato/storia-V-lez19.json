@@ -30,6 +30,10 @@
   {
    "quando": "23/11 08:13",
    "testo": "Lez19 ore 08:15 UTC: lavoro senza voci FINITO e fermo (P1 52:04, P2 50:56 montate; controllo severo: niente schermate ferme/card sole/puntini, voce non alterata; restano solo le pause mute delle voci provvisorie). Aggiunte a testi_voci.json le voci mancanti: COMPITI (nuova regola), oltre a BENV1_R2, RIP2A, A2N, MP1_*, MP2_*, MP3_*. Appena arrivano: verifica voci, sostituzione, ricodifica, controllo_rapido + foglio fotogrammi, consegna. Non controllo a ciclo: riprendo alle 09:00 UTC. Domanda: nelle schede quiz/verifica scrivo 'Rispondi · premi Controlla · poi Continua' come da tua nota, lo faccio alla ricostruzione."
+  },
+  {
+   "quando": "23/11 09:00",
+   "testo": "Lez19 ore 09:00 UTC (10:00 italiane): su voci-storia-V-lez19 NON ci sono ancora le voci nuove (BENV1_R2, RIP2A, A2N, MP1_0-5, MP2_0-3, MP3_0-3, COMPITI). Tutto il resto e' pronto e fermo. Per la consegna entro le 11:00 italiane servono almeno 60-90 minuti dopo l'arrivo delle voci (ricostruzione scene, assemblaggio, controllo_rapido). Se non arrivano entro le 10:00 UTC la scadenza salta: dimmi se preferisci priorita' alle sole voci che bloccano (BENV1_R2, MP*, COMPITI). Non consegno con voci mute."
   }
  ],
  "domande_sara": [],
@@ -81,5 +85,5 @@
  ],
  "materia": "storia-V",
  "lezione": "19",
- "aggiornato": "2026-11-23 08:13:20"
+ "aggiornato": "2026-11-23 09:00:55"
 }
