@@ -24,6 +24,10 @@
   {
    "quando": "23/11 00:10",
    "testo": "Opere per lez03 con museo (come chiesto): Jean-François Millet, L'Angelus, 1857-59, Musée d'Orsay; Honoré Daumier, La lavandaia, 1863 circa, Musée d'Orsay; Silvestro Lega, Il pergolato, 1868, Pinacoteca di Brera (Milano); Silvestro Lega, Lo stornello, 1867; Telemaco Signorini, La sala delle agitate al Bonifazio di Firenze, 1865; Odoardo Borrani, Le cucitrici di camicie rosse (il prof scrive 1854); Giovanni Fattori, Libecciata, 1880 circa; Nino Sernesi, Tetti al sole, 1860; John Nash, Royal Pavilion (Brighton Pavilion), Brighton, 1815-23. Dove non so il museo scrivo solo l'opera: cercate voi la fonte. Migliorie facoltative: Millet Le spigolatrici (Orsay), Courbet L'atelier del pittore (Orsay) e Gli spaccapietre (1849, distrutto, ex Dresda), Daumier Il vagone di terza classe (National Gallery of Canada). Durata: totale 79 minuti, quindi due Parti (44 e 35 con voci provvisorie): dopo le voci vere cambiano di poco."
+  },
+  {
+   "quando": "23/11 08:15",
+   "testo": "Peso: la Parte 1 a CRF 19 viene 431 MB (oltre i 400). Uso CRF 20 (stima 395 MB) come dice kit/REGOLE.md; se preferite CRF 19 con meno nitidezza sulla webcam ditemelo. Voci: aspetto le 11 nuove + MAPFIN (nuova, 14 parole: «Ecco le due mappe della lezione: il Realismo in Francia e il Realismo in Italia.»). Mi serve MAPFIN oltre ai testi già mandati."
   }
  ],
  "domande_sara": [],
@@ -51,10 +55,14 @@
   {
    "quando": "23/11 00:10",
    "testo": "Parte1 44' e Parte2 35' assemblate con voci provvisorie (totale 79'); rifaccio i pezzi a CRF 21 (peso) e con il ritardo del filtro corretto; poi mi fermo fino alle voci delle 9:00"
+  },
+  {
+   "quando": "23/11 08:15",
+   "testo": "09:20: opere della master integrate (Brighton Pavilion, Angelus, Pergolato, Sala delle agitate, 4 opere grandi, 4 immagini delle mappe); rifaccio i pezzi del prof (~30 min). Aspetto le voci: appena ci sono le sostituisco e riassemblo (circa 1 h), poi controlli e consegna."
   }
  ],
  "materia": "Storia dell'arte V",
  "lezione": "Lezione 3 · Il Realismo",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-23 00:10:19"
+ "aggiornato": "2026-11-23 08:15:01"
 }
