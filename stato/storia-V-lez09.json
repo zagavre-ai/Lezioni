@@ -65,7 +65,11 @@
   {
    "quando": "23/11 04:48",
    "testo": "Pezzi del prof e due Parti ricostruiti: nessuna schermata identica o pagina ferma oltre 3 min (controllo severo). Restano: voci Kore nuove (ancora 141 file sul ramo), poi ricodifica con limitatore picco (-1 dBTP), rapporto, controllo separato, consegna."
+  },
+  {
+   "quando": "23/11 05:36",
+   "testo": "Tutto pronto tranne le voci Kore nuove (sul ramo voci-storia-V-lez09 ci sono ancora 141 file). Appena arrivano: controllo voci, ricodifica, rapporto, controllo separato, consegna entro le 10:00 UTC."
   }
  ],
- "aggiornato": "2026-11-23 04:48:01"
+ "aggiornato": "2026-11-23 05:36:03"
 }
