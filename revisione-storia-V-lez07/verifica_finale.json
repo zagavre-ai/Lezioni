@@ -1,0 +1,106 @@
+{
+ "titolo": "Verifica finale · Storia · Gli Stati Uniti: dal boom economico al New Deal",
+ "soglia_percento": 80,
+ "domande": [
+  {
+   "n": 1,
+   "p": "Nell'arco di dieci anni, durante il boom economico degli anni Venti, di quanto aumentò il reddito nazionale degli Stati Uniti?",
+   "a": "Di oltre il 50%",
+   "w": [
+    "Di circa il 10%",
+    "Raddoppiò esattamente del 100%",
+    "Diminuì del 5% a causa dei debiti di guerra europei"
+   ]
+  },
+  {
+   "n": 2,
+   "p": "Quali erano le caratteristiche distintive delle giovani donne anticonformiste degli anni Venti note come \"flappers\"?",
+   "a": "Sfoggiavano capelli corti a caschetto, trucco marcato, gonne sopra il ginocchio e assumevano comportamenti considerati audaci come fumare in pubblico e guidare l'automobile",
+   "w": [
+    "Indossavano esclusivamente abiti tradizionali lunghi fino alle caviglie e rifiutavano l'uso del trucco",
+    "Erano donne appartenenti unicamente alle classi rurali più povere che lottavano contro l'industrializzazione",
+    "Rifiutavano di frequentare i cinema, i locali pubblici e i balli sulle note del jazz"
+   ]
+  },
+  {
+   "n": 3,
+   "p": "Quale fu la causa principale della crisi agricola che colpì il mondo rurale americano nel primo dopoguerra?",
+   "a": "La ripresa delle attività produttive europee che determinò una drastica riduzione delle esportazioni statunitensi e il conseguente calo dei prezzi",
+   "w": [
+    "Una serie di violenti terremoti che distrusse le principali infrastrutture stradali delle campagne",
+    "Il divieto assoluto imposto dal governo di utilizzare macchinari industriali e fertilizzanti nei campi",
+    "L'improvvisa mancanza di manodopera dovuta alla migrazione di massa dei contadini verso l'Europa"
+   ]
+  },
+  {
+   "n": 4,
+   "p": "Quale linea di politica economica e commerciale caratterizzò il \"decennio repubblicano\" dei presidenti Harding e Coolidge?",
+   "a": "Una linea isolazionista in politica estera unita all'adozione di misure protezionistiche, come l'applicazione di forti tariffe doganali",
+   "w": [
+    "Una politica basata sul totale libero scambio globale e sulla completa eliminazione dei dazi doganali",
+    "L'adesione immediata e il sostegno attivo ai progetti della Società delle Nazioni",
+    "Una politica fortemente statalista che prevedeva il controllo pubblico e la nazionalizzazione di tutte le grandi industrie"
+   ]
+  },
+  {
+   "n": 5,
+   "p": "Chi erano Nicola Sacco e Bartolomeo Vanzetti, condannati a morte sulla sedia elettrica nel 1927?",
+   "a": "Due anarchici italiani accusati ingiustamente di omicidio a causa del clima di xenofobia e della cosiddetta \"paura rossa\"",
+   "w": [
+    "Due famosi banchieri di Wall Street responsabili della creazione della bolla speculativa",
+    "Due leader storici del Ku Klux Klan arrestati e processati nella città di Atlanta",
+    "Due celebri registi cinematografici di Hollywood che introdussero il cinema sonoro"
+   ]
+  },
+  {
+   "n": 6,
+   "p": "Quale conseguenza paradossale ebbe l'introduzione delle leggi sul proibizionismo nel 1919 negli Stati Uniti?",
+   "a": "Incentivò lo sviluppo della criminalità organizzata e della mafia italo-americana, dedita alla distillazione e allo spaccio clandestino di alcolici",
+   "w": [
+    "Eliminò in modo definitivo e totale il consumo e la vendita di alcolici sul territorio nazionale",
+    "Portò a un immediato arricchimento delle classi rurali e all'azzeramento della disoccupazione giovanile",
+    "Provocò la chiusura immediata delle sale da ballo dove si praticava il charleston"
+   ]
+  },
+  {
+   "n": 7,
+   "p": "In quali esatte date si verificarono i drammatici eventi finanziari del crollo della borsa di New York, passati alla storia come il \"giovedì\" e il \"martedì\" neri?",
+   "a": "Il 24 e il 29 ottobre del 1929",
+   "w": [
+    "Il 14 e il 18 settembre del 1928",
+    "Il 4 e il 9 dicembre del 1932",
+    "Il 23 e il 27 agosto del 1927"
+   ]
+  },
+  {
+   "n": 8,
+   "p": "In che modo il presidente Herbert Hoover cercò inizialmente di affrontare la grave crisi economica della Grande depressione?",
+   "a": "Concentrandosi sul pareggio di bilancio attraverso cospicui tagli alla spesa pubblica, riduzione degli stipendi statali e introduzione di nuove tasse",
+   "w": [
+    "Svalutando immediatamente il dollaro del 40% e istituendo un sistema previdenziale obbligatorio per i disoccupati",
+    "Nazionalizzando il sistema bancario e vietando qualsiasi forma di speculazione finanziaria",
+    "Concedendo sussidi a fondo perduto a tutte le famiglie colpite dalla crisi rurale nel Midwest"
+   ]
+  },
+  {
+   "n": 9,
+   "p": "Su quale principio si basava la politica economica del New Deal introdotta dal presidente Franklin Delano Roosevelt e ispirata alle idee dell'economista John Maynard Keynes?",
+   "a": "Su un programma di spesa pubblica basato su grandi lavori pubblici e incentivi al consumo per aumentare il potere d'acquisto della popolazione",
+   "w": [
+    "Sulla totale astensione dello Stato dalle vicende economiche, lasciando che il mercato si autoregolasse in modo cieco",
+    "Sulla confisca dei beni dei grandi patrimoni industriali per abolire definitivamente la proprietà privata",
+    "Sull'introduzione di politiche di austerità ancora più severe di quelle adottate dall'amministrazione precedente"
+   ]
+  },
+  {
+   "n": 10,
+   "p": "Che cosa erano le cosiddette \"chiacchiere al caminetto\" (o \"discorsi al caminetto\") nella strategia comunicativa di Roosevelt?",
+   "a": "Appuntamenti radiofonici settimanali con cui il presidente si rivolgeva direttamente ai cittadini con uno stile rassicurante e amichevole per spiegare le riforme",
+   "w": [
+    "Riunioni segrete tenute alla Casa Bianca esclusivamente con i rappresentanti sindacali delle grandi industrie",
+    "Opuscoli informativi e manifesti distribuiti capillarmente per strada dai sostenitori della campagna dell'aquila azzurra",
+    "Discorsi ufficiali tenuti davanti al Congresso per annunciare l'ingresso degli Stati Uniti nella Seconda guerra mondiale"
+   ]
+  }
+ ]
+}
