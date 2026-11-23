@@ -2,13 +2,13 @@
  "tag": "letteratura-V-lez05",
  "parti": {
   "1": {
-   "stato": "IN_REVISIONE",
-   "video": "final5.mp4",
+   "stato": "REVISIONATA",
+   "video": "final8.mp4",
    "durata_s": 3559.9,
    "durata": "59:19.9",
    "fotogrammi": 106796,
    "fotogrammi_attesi": 106796,
-   "peso_MB": 399.9,
+   "peso_MB": 399.4,
    "vtt": "Letteratura_Lez5_Parte1.vtt"
   }
  },
@@ -148,7 +148,11 @@
   {
    "quando": "23/11 12:05",
    "testo": "23/11 12:10 UTC: trovato che i QR non venivano tolti (errore mio nei percorsi): ricodifica finale in corso, ~35 min, poi consegna e mi fermo"
+  },
+  {
+   "quando": "23/11 12:39",
+   "testo": "23/11 12:40 UTC: correzioni 22/11 e 23/11 fatte. controllo_rapido OK, foglio e json sul ramo. Mancano: voce COMPITI (testo inviato, attendo le voci; ti risveglia Sara), glossario su 2 pagine. Mi fermo."
   }
  ],
- "aggiornato": "2026-11-23 12:05:12"
+ "aggiornato": "2026-11-23 12:39:45"
 }
