@@ -15,6 +15,10 @@
   {
    "quando": "22/11 23:01",
    "testo": "storia arte lez01: testi_voci.json caricato con nomi NC_* (i vecchi R1..S6 sul ramo sono della versione vecchia: NON usarli). Nel testo MF (mappa) uso le sigle della mappa del prof espanse: G. Piermarini=Giuseppe, L. Cagnola=Luigi, L. Pollack=Leopoldo: da ricontrollare. La mappa del prof e' unica (arte Neoclassicismo) e non ha la domanda come titolo: uso «Che cos'e' il Neoclassicismo?»."
+  },
+  {
+   "quando": "23/11 08:07",
+   "testo": "storia arte lez01: voci non ancora arrivate (ore 9:07 it). Opere in alta risoluzione (come offerto): le immagini del PDF del prof sono 400-1000 px. Elenco: 1) Jakob Philipp Hackert, Goethe visita il Colosseo a Roma, 1790; 2) Etienne-Louis Boullee, Cenotafio di Newton, 1784 (BnF); 3) Pantheon (Sainte-Genevieve) di Soufflot, Parigi, facciata; 4) Piermarini, Palazzo Reale di Milano; 5) Piermarini, Teatro alla Scala, facciata; 6) Robert Adam, Kedleston Hall (fronte), Marble Hall e Saloon; 7) Langhans, Porta di Brandeburgo, Berlino; 8) Leo von Klenze, Walhalla, Ratisbona (esterno e interno); 9) Angelica Kauffmann, Ritratto di Winckelmann, 1764 (Kunsthaus Zurigo); 10) Canova, Amore e Psiche, 1787-93 (Louvre); 11) Canova, Paolina Borghese come Venere vincitrice, 1804-08 (Galleria Borghese); 12) Canova, Le tre Grazie (Ermitage o V&A); 13) Canova, Monumento funebre a Maria Cristina d'Austria, 1798-1805 (Vienna); 14) J.-L. David, Il giuramento degli Orazi, 1784 (Louvre); 15) David, Il giuramento della Pallacorda, disegno 1791 (Versailles); 16) David, Morte di Marat, 1793 (Bruxelles); 17) David, Napoleone valica il Gran San Bernardo, 1800 (Malmaison); 18) Ingres, Giove e Teti, 1811 (Aix-en-Provence, Musee Granet); 19) Ingres, La grande odalisca, 1814 (Louvre). Se arrivano entro le 10:30 it li uso (rifaccio le slide); altrimenti consegno con le immagini del PDF del prof migliorate. Aspetto le voci e mi fermo."
   }
  ],
  "domande_sara": [],
@@ -39,5 +43,5 @@
  "materia": "Storia dell'arte V",
  "lezione": "Lezione 1 · Il Neoclassicismo",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-23 02:04:47"
+ "aggiornato": "2026-11-23 08:07:22"
 }
