@@ -504,7 +504,11 @@
   {
    "quando": "22/11 19:31",
    "testo": "correzioni 22/11 fatte: 48:47,1 (87812 fotogrammi), 281 MB, -16,3 LUFS, picco -1,8 dBTP; controllo severo ESITO OK; sync prof 0,0001 s/0 fotogrammi; mappa unica BES ramo per ramo; slide 40 px max 3 card. Non ascoltato; card in ritardo 1-1,4 s in 4 punti non corretti (vedi rapporto)."
+  },
+  {
+   "quando": "23/11 10:51",
+   "testo": "23/11 correzioni master: FATTO: piè di pagina senza nome del docente (video, dispensa, mappe); schede quiz/verifica 'Rispondi · premi Controlla · poi Continua'; voce COMPITI aggiunta a testi_voci.json. IN CORSO: ricodifica D1-D5, Quiz, Verifica (circa 25 min), poi assemblaggio, controllo_rapido.py, foglio e json. MANCA: montare i compiti con la voce quando arriva (provvisoria: scheda con jingle)."
   }
  ],
- "aggiornato": "2026-11-22 19:31:55"
+ "aggiornato": "2026-11-23 10:51:34"
 }
