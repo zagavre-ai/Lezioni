@@ -1,11 +1,15 @@
 {
  "tag": "storia-arte-V-lez04",
  "parti": {},
- "manca": "",
+ "manca": "Montaggio non iniziato: manca trascrizione completa (processo in background ucciso due volte a 45/79 min), tagli, slide, mappe, quiz, voci, dispense, video.",
  "serve_master": [
   {
    "quando": "22/11 22:46",
    "testo": "Storia arte lez04: (1) Wikimedia Commons bloccata dalla rete della chat: uso solo le immagini del PDF del prof; se servono opere in piu' (Monet, Renoir, Degas, Manet in alta risoluzione) dite se la master puo' fornirle. (2) La lezione dura 78,8 min: prevedo 2 Parti con spiegone in apertura della Parte 2 (testi_voci.json in arrivo). (3) Non ho gli strumenti di montaggio del modello Letteratura lez19 nel repository: li ricostruisco io; se c'e' un ramo con gli script approvati, indicatemelo."
+  },
+  {
+   "quando": "23/11 10:45",
+   "testo": "STORIA ARTE LEZ04 NON CONSEGNABILE ENTRO LE 13:00 (ore 11:50 it). Fatto: materiale scaricato (video 78,8 min 1092x614, slide 25 pag, mappe, verifica xlsx, compiti), prenotazione, sigla. Non fatto: trascrizione (si e' interrotta due volte), tagli, montaggio, mappe, quiz, dispense, testi_voci.json. Chiedo di riassegnare la lezione a un'altra chat o dare un nuovo termine; posso passare subito materiali e note. Nessun video falso consegnato."
   }
  ],
  "domande_sara": [],
@@ -30,5 +34,5 @@
  "materia": "Storia dell'arte V",
  "lezione": "Lezione 4 · L'Impressionismo",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-22 23:24:45"
+ "aggiornato": "2026-11-23 10:45:12"
 }
