@@ -22,11 +22,11 @@
    "fermi_ok": "si",
    "sub_ok": "no",
    "video": "Storia_Lez20_Parte2_1080p.mp4",
-   "durata_s": 1765.7,
-   "durata": "29:25.7",
-   "fotogrammi": 52972,
-   "fotogrammi_attesi": 52972,
-   "peso_MB": 152.8,
+   "durata_s": 1746.1,
+   "durata": "29:06.1",
+   "fotogrammi": 52384,
+   "fotogrammi_attesi": 52384,
+   "peso_MB": 150.8,
    "vtt": "Storia_Lez20_Parte2.vtt"
   }
  },
@@ -143,5 +143,5 @@
  "materia": "Storia V",
  "lezione": "Lezione 20 · Gli anni Novanta: il mondo post-bipolare",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-23 09:21:15"
+ "aggiornato": "2026-11-23 09:21:18"
 }
