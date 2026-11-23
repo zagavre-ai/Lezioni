@@ -867,28 +867,37 @@ def p_CINTRO():
 
 
 def p_COMP():
+    """compiti del docente LETTI dalla voce Kore COMPITI (unica voce), uno alla volta con il bordo giallo"""
     es = COMPITI['esercizi']
+    nome = 'COMPITI'
+    num = ['Primo', 'Secondo', 'Terzo', 'Quarto']
+    FIN = 'Svolgi i compiti qui sotto e premi Consegna: arrivano al docente nel tuo quaderno dei compiti.'
+    txt = [re.sub(r'"([^"]*)"', r'\1', e['testo']) for e in es]
+    unita = ['Ora tocca a te. Ecco i compiti.'] + [f'{num[i]} compito. ' + txt[i].replace('1949', 'millenovecentoquarantanove') for i in range(len(es))] + [FIN]
+    ts = tempi_unita(nome, unita)
+    f, d, pv = voce(nome)
+    T0 = 0.6
+    tt = [T0 + t for t in ts] + [T0 + d + 0.3]
     sc = Scene()
     head, top = head_bianco('ORA TOCCA A TE', 'Compiti', pag=None)
-    per = 15.0
-    gruppi = [es[i:i + 2] for i in range(0, len(es), 2)]
     pagine = ''
-    t0 = 1.0
-    for gi, g in enumerate(gruppi):
-        rows = ''
-        fine_g = t0 + len(g) * per + 0.5
-        for q, e in enumerate(g):
-            tx = re.sub(r'"([^"]*)"', r'«\1»', e['testo'])
-            on = t0 + 0.6 + q * per
-            off = on + per
-            rows += sc.add(f'<div class="num">{e["n"]}</div><div class="txt" style="font:500 40px/54px Fig">{esc(tx)}' + (f'<div style="margin-top:6px">{chips(sigle_in(tx))}</div>' if sigle_in(tx) else '') + '</div>', 'row',
-                           'font-size:40px;align-items:flex-start;margin-bottom:22px;padding:18px 34px', i=t0 + 0.1 + 0.4 * q, d=0.5, fx='up', lit=[(on, off)], dim=0.8,
-                           o=(fine_g - 0.4) if gi < len(gruppi) - 1 else None, od=0.3)
-        pagine += f'<div style="position:absolute;left:80px;width:1760px;top:{top + 24}px">{rows}</div>'
-        t0 = fine_g
+    for i, e in enumerate(es):
+        tx = re.sub(r'"([^"]*)"', r'«\1»', e['testo'])
+        t_on = tt[i + 1] - 0.15
+        t_off = tt[i + 2] - 0.15
+        # schermata i: visibile da t_on - 0.4 fino alla successiva
+        vis_on = (tt[i + 1] - 0.6) if i else 0.2
+        vis_off = (tt[i + 2] - 0.55) if i < len(es) - 1 else None
+        row = sc.add(f'<div class="num">{e["n"]}</div><div class="txt" style="font:500 40px/54px Fig">{esc(tx)}' + (f'<div style="margin-top:6px">{chips(sigle_in(tx))}</div>' if sigle_in(tx) else '') + '</div>', 'row',
+                     'font-size:40px;align-items:flex-start;margin-bottom:22px;padding:18px 34px', i=vis_on, d=0.45, fx='up', lit=[(t_on, t_off)], dim=0.8, o=vis_off, od=0.3)
+        extra_row = ''
+        if i == len(es) - 1:
+            extra_row = sc.add(f'<div class="txt" style="font:700 40px/54px Fig;color:#2060AF">{esc(FIN)}</div>', 'row', 'font-size:40px;margin-bottom:22px;padding:18px 34px',
+                               i=tt[len(es) + 1] - 0.4, d=0.45, fx='up', lit=[(tt[len(es) + 1] - 0.15, tt[-1])], dim=0.8)
+        pagine += f'<div style="position:absolute;left:80px;width:1760px;top:{top + 24}px">{row}{extra_row}</div>'
     body = head + pagine
-    T = t0 + 0.2
-    costruisci('COMP', T, pagina(sc, body), sc, jingoli=[('repaso', 0.0)], note='compiti del docente (compiti.json), 4 esercizi in 2 schermate, ognuno acceso 15 s')
+    T = tt[-1] + 0.4
+    costruisci('COMP', T, pagina(sc, body), sc, voci=[(nome, T0)], note='compiti del docente letti dalla voce COMPITI, uno alla volta con bordo giallo' + (' (VOCE PROVVISORIA)' if pv else ''))
 
 
 def main():
