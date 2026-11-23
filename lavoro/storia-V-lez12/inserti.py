@@ -328,7 +328,7 @@ def cover_benvenuto():
 
 def cover_benvenuto2():
     v = voce.get('I3_BENVENUTO2')
-    return compone('cover_ben2', max(11.0, 0.6 + v['durata'] + 2.4), cover_png(False), [], [(v['wav'], 0.6, 1.0, v['durata']), (snd('titolo'), 0.6 + v['durata'] + 0.2, 0.8)], anim_luce=False)
+    return compone('cover_ben2', max(11.0, 0.6 + v['durata'] + 4.2), cover_png(False), [], [(v['wav'], 0.6, 1.0, v['durata']), (snd('titolo'), 0.6 + v['durata'] + 0.2, 0.8), (snd('repaso'), 0.6 + v['durata'] + 2.0, 0.4)], anim_luce=False)
 
 def argomenti_scheda():
     v = voce.get('I2_ARGOMENTI'); assert len(v['frasi']) == 8; T0 = 0.6

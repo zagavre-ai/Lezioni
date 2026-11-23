@@ -3,7 +3,8 @@ import json, sys, re, os, glob, hashlib
 sys.path.insert(0, '/home/user/Lezioni/lavoro/storia-V-lez12')
 import vtt as V, contenuti as C
 W = '/home/user/w12'
-def mm(t): return f"{int(t//60)}:{t%60:04.1f}"
+def mm(t):
+    t = round(t, 1); return f"{int(t//60)}:{t%60:04.1f}"
 def tab_fine():
     out = []
     for n in (1, 2):

@@ -12,12 +12,13 @@ def parole_intere(seg):
         else: out[-1][1] += w
     return [(t, w) for t, w in out if w]
 for _s in ASR: _s['parole'] = parole_intere(_s)
-CORR = [(r'\b(Moslim|Mosli|Mosle\w*|Moseley)\b', 'Mosley'), (r'\b[Pp]e?a?s[ei]?ment\w*|\b[Pp]iscant\w*|\b[Pp]isment\w*', 'appeasement'), (r'\b(Mc ?Donald|McDonald)\b', 'MacDonald'),
+CORR = [(r'\bitlerana\b', 'hitleriana'), (r'\bBelakm\b', 'Béla Kun'), (r'\bmillove(cento|cen)\w*', lambda m: 'millenovecento'), (r'Miguel I de Rivera', 'Miguel Primo de Rivera'), (r'conflitto di laghi', 'conflitto si allarghi'), (r'anni trenta', 'anni Trenta'), (r'\b30\b(?= prima)', 'Trenta'), (r'\b(Moslim|Mosli|Mosle\w*|Moseley)\b', 'Mosley'), (r'\b[Pp]e?a?s[ei]?ment\w*|\b[Pp]iscant\w*|\b[Pp]isment\w*', 'appeasement'), (r'\b(Mc ?Donald|McDonald)\b', 'MacDonald'),
         (r'\b[Pp]izzski|\b[Pp]ilsudski\b', 'Piłsudski'), (r'\bItler\w*', 'Hitler'), (r'\b[Gg]uernica\b|\b[Gg]ernica\b', 'Guernica'), (r'\bGoming ?[Dd]an\b', 'Guomindang'),
         (r'\bAnchul?us\b|\bAnschl?us\w*', 'Anschluss'), (r'\bFjurer\b', 'Führer'), (r'\bPatto d.?acciaio\b', "Patto d'acciaio"), (r'\bMolotov[ -]?[Rr]i?b+e?ntrop\b', 'Molotov-Ribbentrop'),
         (r'\bLebensraum\b|\bebesraum\b', 'Lebensraum'), (r'\bmuss?olini\w*|\bmusuliniana\b', 'Mussolini'), (r'\bWeist Mister\b|\bWestminster\b', 'Westminster'), (r'\bBlum\b|\bBlun\b', 'Blum')]
 def pulisci(t):
     for a, b in CORR: t = re.sub(a, b, t)
+    t = t.replace('millenovecento ', 'millenovecento')
     return t
 def ts(t):
     h = int(t // 3600); m = int(t % 3600 // 60); s = t % 60
