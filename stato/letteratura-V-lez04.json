@@ -2,7 +2,7 @@
  "tag": "letteratura-V-lez04",
  "parti": {
   "1": {
-   "stato": "IN_REVISIONE",
+   "stato": "REVISIONATA",
    "titolo": "Naturalismo e Verismo",
    "voci": "kore",
    "quiz_ok": "si",
@@ -13,7 +13,7 @@
    "durata": "48:53.2",
    "fotogrammi": 87995,
    "fotogrammi_attesi": 87995,
-   "peso_MB": 200.6,
+   "peso_MB": 199.7,
    "vtt": "Letteratura_Lez4_Parte1.vtt"
   }
  },
@@ -141,7 +141,11 @@
   {
    "quando": "23/11 10:51",
    "testo": "23/11: letto DALLA_MASTER; correggo (1) piè di pagina senza nome del docente in video, dispensa e mappe, (2) pagina 16 Zola: D2 diviso a fine frase con l'approfondimento Goncourt nel mezzo e finestre a/b; poi controllo_rapido e consegna; prevista in ~60 min"
+  },
+  {
+   "quando": "23/11 11:56",
+   "testo": "correzioni 22/11 fatte (23/11): piè di pagina senza nome del docente in video, dispensa e mappe; pagina Zola divisa con l'approfondimento Goncourt a fine frase; controllo_rapido OK, controllo severo OK; foglio e json sul ramo"
   }
  ],
- "aggiornato": "2026-11-23 10:51:25"
+ "aggiornato": "2026-11-23 11:56:51"
 }
