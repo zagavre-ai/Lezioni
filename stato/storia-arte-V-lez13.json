@@ -47,10 +47,14 @@
   {
    "quando": "23/11 00:30",
    "testo": "tutti i pezzi del docente e le schede sono pronti; fermo fino alle voci"
+  },
+  {
+   "quando": "23/11 10:42",
+   "testo": "10:45 UTC: voci Kore non ancora sul ramo; pronto a ripartire, controllo DALLA_MASTER ogni 20 minuti"
   }
  ],
  "materia": "Storia dell'arte V",
  "lezione": "Lezione 13 · Razionalismo e Metafisica",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-23 09:30:57"
+ "aggiornato": "2026-11-23 10:42:17"
 }
