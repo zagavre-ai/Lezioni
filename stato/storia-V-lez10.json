@@ -41,6 +41,10 @@
   {
    "quando": "23/11 10:26",
    "testo": "10:30 UTC. Controllo severo sulle Parti con voci vere: restavano 3 difetti (mappe con 5 s di silenzio finale, e una falsa segnalazione di schermata ferma legata a un fotogramma di dissolvenza). Corretto: sulla fermata finale delle mappe suona il jingle di ripasso, schede titolo 4,3 s. Rimonto le due Parti (circa 40 minuti) e rifaccio i controlli. Consegna prevista circa 11:30 UTC. Mi scuso per il ritardo."
+  },
+  {
+   "quando": "23/11 12:17",
+   "testo": "CONSEGNATA (ora circa 12:40 UTC, oltre le 11:00 italiane: ritardo per rifacimenti dei controlli). Ramo revisione-storia-V-lez10, commit 8e99fcc. Parti 1 e 2 REVISIONATE: controllo_rapido OK, controllo_severo OK, picco < -1 dBTP, nessuna pausa muta. Foglio fotogrammi e json sul ramo. Controllo separato fatto (CONTROLLO_SEPARATO.md). RESIDUI per te (RAPPORTO sez. 9): 1) card che sono solo intestazione del prof (Parte 1 32:21-37:31, Parte 2 31:22): servirebbe rifare le slide; 2) solo 3 mappe del prof, nessuna mappa finale; 3) Parte 1 dura 62 min; 4) voci Kore non ascoltate da me, solo confronto automatico. Resto in attesa di APPROVATA."
   }
  ],
  "domande_sara": [],
@@ -68,5 +72,5 @@
  ],
  "materia": "Storia V",
  "lezione": "Lezione 10 · La Germania da Weimar al nazismo",
- "aggiornato": "2026-11-23 12:17:54"
+ "aggiornato": "2026-11-23 12:17:56"
 }
