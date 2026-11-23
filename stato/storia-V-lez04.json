@@ -6,6 +6,10 @@
   {
    "quando": "22/11 18:29",
    "testo": "Voci: caricato testi_voci.json (22 voci nuove: B4_1-3 benvenuto senza nome, SP2_0-3 e SP3_0-3 spiegoni, AP1-AP11 approfondimenti) sul ramo voci-storia-V-lez04. Le voci del 18/11 (MAP1-6, PI, SC, GL, F3_x) si riusano; B3_x/BEN/FIN/MAPN non servono più. DOMANDE: (1) 5 argomenti su 11 non hanno mappa del prof (2,4,7,8,11): le tolgo e non invento, giusto? La mappa finale della lezione la faccio unendo SOLO le 6 mappe del prof in una panoramica, ok? (2) Durata: circa 125 min di prof + schede = 3 Parti da circa 44 min (sotto i 50): le tengo a 3 Parti da 44-48 min, ok? Procedo così se non rispondi."
+  },
+  {
+   "quando": "23/11 09:32",
+   "testo": "Ritardo: le Parti sono montate con voci vere e controllo_rapido ha trovato 2 difetti (picco 1.0 dBTP e schede mute >2,5 s su schemi e coda mappe). Li correggo e rimonto: consegna stimata alle 11:30 UTC (12:30 italiane), non alle 10:00. Dimmi se preferisci diversamente. Nota: SP3_1 finisce con ampiezza 0,23 nei 50 ms finali (voce tagliata secca): ho messo dissolvenza 30 ms, se vuoi la rifai (SP3_1_R2)."
   }
  ],
  "domande_sara": [],
@@ -26,5 +30,5 @@
  "materia": "Storia V",
  "lezione": "Lezione 4 · La prima guerra mondiale",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-22 20:05:07"
+ "aggiornato": "2026-11-23 09:32:40"
 }
