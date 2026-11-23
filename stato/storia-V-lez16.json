@@ -13,7 +13,7 @@
    "peso_MB": 287.4
   }
  },
- "manca": "sostituire voci provvisorie, codifica finale, sottotitoli sul video finale, controllo agente separato, rapporto",
+ "manca": "voci nuove, codifica finale, controllo rapido, rapporto, consegna",
  "serve_master": [
   {
    "quando": "22/11 18:43",
@@ -73,7 +73,11 @@
   {
    "quando": "22/11 21:55",
    "testo": "voci: aggiunti 6 rifacimenti"
+  },
+  {
+   "quando": "23/11 06:13",
+   "testo": "23/11 06:20 UTC: montaggio pronto con voci provvisorie (59:21); applicate le richieste master del 22/11 21:14 (ripassi blu a tutto schermo, suono sulle mappe, compiti letti). Ferma in attesa delle voci (promemoria 08:20 UTC), poi codifica finale, controllo rapido e consegna entro le 10:00 UTC"
   }
  ],
- "aggiornato": "2026-11-22 21:55:51"
+ "aggiornato": "2026-11-23 06:13:29"
 }
