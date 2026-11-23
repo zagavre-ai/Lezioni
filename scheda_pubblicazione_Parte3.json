@@ -1,25 +1,25 @@
 {
- "materia": "Storia",
- "titolo": "Storia V · Lezione 17 · Le fasi conclusive della Guerra fredda (1969-1991) · Parte 3",
- "durata_s": 2232.5,
+ "materia": "Storia V",
+ "titolo": "Le fasi conclusive della guerra fredda (1969-1991) · Parte 3",
+ "durata_s": 2514.37,
  "argomenti": [
   {
    "n": 6,
    "titolo": "Europa occidentale",
-   "inizio_s": 29.4,
-   "quiz_s": 554.933
+   "inizio_s": 98.467,
+   "quiz_s": 688.7
   },
   {
    "n": 7,
    "titolo": "Il crollo dell'URSS",
-   "inizio_s": 559.533,
-   "quiz_s": 1789.0
+   "inizio_s": 692.5,
+   "quiz_s": 1982.2
   },
   {
    "n": 8,
    "titolo": "La svolta della Cina",
-   "inizio_s": 1793.6,
-   "quiz_s": 2178.2
+   "inizio_s": 1986.0,
+   "quiz_s": 2384.467
   }
  ],
  "quiz": {
@@ -188,7 +188,5 @@
     }
    ]
   }
- },
- "t_verifica": 2227.5,
- "t_compiti": 2227.5
+ }
 }
