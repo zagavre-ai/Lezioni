@@ -1,0 +1,277 @@
+{
+ "Q1": {
+  "title": "Quiz 1 · Il Simbolismo e l'Art Nouveau",
+  "items": [
+   {
+    "p": "Contro che cosa reagisce il Simbolismo?",
+    "a": "Contro il materialismo positivista della società e della scienza",
+    "w": [
+     "Contro l'arte classica greca e romana",
+     "Contro la pittura a olio su tela",
+     "Contro la nascita del cinema"
+    ],
+    "ref": "Il Simbolismo si definisce come una reazione idealista, spiritualista e anti-razionalista contro il materialismo della società e della scienza."
+   },
+   {
+    "p": "Quali poeti della letteratura decadente sono legati al Simbolismo?",
+    "a": "Baudelaire, Verlaine e Mallarmé",
+    "w": [
+     "Leopardi, Foscolo e Manzoni",
+     "Dante, Petrarca e Boccaccio",
+     "Pascoli, Carducci e Verga"
+    ],
+    "ref": "Il movimento è strettamente unito alla letteratura decadente di Baudelaire, Verlaine e Mallarmé."
+   },
+   {
+    "p": "Che cosa significa «opera d'arte totale»?",
+    "a": "Un progetto unitario che coordina la struttura, gli arredi e i decori",
+    "w": [
+     "Un dipinto che occupa un'intera parete",
+     "Un'opera prodotta in grande serie dalle fabbriche",
+     "Una scultura ricavata da un unico blocco di marmo"
+    ],
+    "ref": "Architetti e progettisti integrano i materiali industriali in un progetto unitario che coordina la struttura, gli arredi e i decori."
+   },
+   {
+    "p": "Che cosa vuole riscattare l'Art Nouveau?",
+    "a": "Ogni aspetto della vita quotidiana, opponendosi alla bruttezza dei prodotti industriali di massa",
+    "w": [
+     "Soltanto la pittura da cavalletto",
+     "Il ritorno agli stili del Medioevo",
+     "Solo l'architettura dei grandi palazzi pubblici"
+    ],
+    "ref": "L'Art Nouveau nasce per qualificare esteticamente ogni aspetto della vita moderna."
+   },
+   {
+    "p": "Quale esempio di interno Art Nouveau a Parigi è citato nella lezione?",
+    "a": "La Brasserie Bouillon Julien, inaugurata nel 1906",
+    "w": [
+     "Casa Tassel, costruita nel 1893",
+     "Il Palazzo della Secessione, del 1898",
+     "Il Prudential Building, del 1896"
+    ],
+    "ref": "La Brasserie Bouillon Julien, a Parigi, aperta nel 1906, ha arredi e decori Art Nouveau frutto della collaborazione tra architetti, ebanisti e artigiani."
+   }
+  ]
+ },
+ "Q2": {
+  "title": "Quiz 2 · La stagione in Francia e in Belgio",
+  "items": [
+   {
+    "p": "Quale pittore dipinge «L'apparizione» (1874-76), con Salomè e la testa di Giovanni Battista?",
+    "a": "Gustave Moreau",
+    "w": [
+     "Odilon Redon",
+     "Pierre Puvis de Chavannes",
+     "Hector Guimard"
+    ],
+    "ref": "Gustave Moreau, L'apparizione, 1874-76, olio su tela, Parigi, Musée Gustave Moreau."
+   },
+   {
+    "p": "Che cosa progetta Hector Guimard per l'esposizione universale del 1900?",
+    "a": "Gli ingressi della metropolitana di Parigi",
+    "w": [
+     "La Brasserie Bouillon Julien",
+     "Casa Tassel",
+     "Il Palazzo della Secessione"
+    ],
+    "ref": "Guimard progetta le celebri pensiline della metropolitana di Parigi in occasione dell'esposizione universale del 1900."
+   },
+   {
+    "p": "Come sono realizzate le pensiline di Guimard?",
+    "a": "Con elementi prefabbricati in ghisa dipinti di verde, dalle forme organiche di steli e corolle",
+    "w": [
+     "Con blocchi di marmo bianco e profili di bronzo",
+     "Con archi parabolici in pietra sbozzata",
+     "Con pareti di vetro prive di decorazione"
+    ],
+    "ref": "Guimard utilizza elementi prefabbricati in ghisa, dipinti di verde, modellati secondo forme organiche che imitano steli, boccioli e corolle floreali."
+   },
+   {
+    "p": "Quale edificio di Victor Horta, del 1893, è il manifesto dell'architettura d'avanguardia?",
+    "a": "Casa Tassel, a Bruxelles",
+    "w": [
+     "Palazzo Stoclet",
+     "Casa Batlló",
+     "La Scuola d'arte di Glasgow"
+    ],
+    "ref": "Casa Tassel è costruita a Bruxelles nel 1893, su un lotto stretto e profondo."
+   },
+   {
+    "p": "Qual è la novità dello scalone di Casa Tassel?",
+    "a": "Una colonna in ghisa, per la prima volta in un ambiente domestico borghese",
+    "w": [
+     "Una scala interamente in marmo bianco",
+     "Un ascensore elettrico di sicurezza",
+     "Un soffitto dorato a mosaico bizantino"
+    ],
+    "ref": "Una slanciata colonna in ghisa funge da unico appoggio per la rampa curvilinea dello scalone."
+   }
+  ]
+ },
+ "Q3": {
+  "title": "Quiz 3 · Vienna e la Secessione di Gustav Klimt",
+  "items": [
+   {
+    "p": "In che anno nasce la Secessione viennese e chi la guida?",
+    "a": "Nel 1897, guidata da Gustav Klimt",
+    "w": [
+     "Nel 1883, guidata da Antoni Gaudí",
+     "Nel 1903, guidata da Adolf Loos",
+     "Nel 1871, guidata da Louis Sullivan"
+    ],
+    "ref": "A Vienna la frattura con l'arte ufficiale si consuma nel 1897, quando un gruppo di artisti guidati da Gustav Klimt fonda la Secessione."
+   },
+   {
+    "p": "Chi progetta il Palazzo della Secessione?",
+    "a": "Joseph Maria Olbrich",
+    "w": [
+     "Josef Hoffmann",
+     "Adolf Loos",
+     "Charles Rennie Mackintosh"
+    ],
+    "ref": "Il Palazzo della Secessione è progettato da Joseph Maria Olbrich come spazio espositivo indipendente dalle istituzioni tradizionali."
+   },
+   {
+    "p": "Che cosa sono le Wiener Werkstätte (Officine viennesi)?",
+    "a": "Laboratori fondati nel 1903 da Hoffmann e Moser per produrre arredi, gioielli e oggetti d'uso",
+    "w": [
+     "Una rivista fondata da Klimt nel 1897",
+     "La Scuola d'arte di Glasgow di Mackintosh",
+     "Un gruppo di pittori divisionisti italiani"
+    ],
+    "ref": "Nel 1903 Josef Hoffmann e Koloman Moser fondano le Officine viennesi per produrre arredi, gioielli e oggetti d'uso quotidiano."
+   },
+   {
+    "p": "Che cosa sostiene Adolf Loos?",
+    "a": "Che l'ornamento sia un inutile spreco di forza lavoro e denaro",
+    "w": [
+     "Che ogni edificio debba essere ricoperto di motivi floreali",
+     "Che la forma debba seguire la funzione, con decorazioni in terracotta",
+     "Che gli oggetti debbano essere prodotti solo a mano"
+    ],
+    "ref": "Loos sostiene che l'ornamento sia un inutile spreco di forza lavoro e denaro."
+   },
+   {
+    "p": "Che cosa mostra «Il bacio» (1907-08) di Klimt?",
+    "a": "Due amanti fusi in un unico blocco decorativo su un fondo oro di memoria bizantina",
+    "w": [
+     "Giuditta che decapita il generale Oloferne",
+     "Un corteo di musicisti in onore di Beethoven",
+     "Salomè con la testa di Giovanni Battista"
+    ],
+    "ref": "Su un lucente fondo oro di memoria bizantina si stagliano i corpi dei due amanti, fusi in un unico blocco decorativo."
+   }
+  ]
+ },
+ "Q4": {
+  "title": "Quiz 4 · Estetismo inglese, Glasgow e Modernismo catalano",
+  "items": [
+   {
+    "p": "A che cosa si ispira lo stile di Aubrey Beardsley?",
+    "a": "Alle stampe giapponesi, con linee sinuose e campiture piatte in bianco e nero",
+    "w": [
+     "Agli affreschi di Michelangelo",
+     "Ai vetri colorati delle cattedrali gotiche",
+     "Agli arazzi tardo medievali"
+    ],
+    "ref": "Beardsley realizza disegni bidimensionali ad inchiostro in bianco e nero, che uniscono linee sinuose a campiture piatte, influenzati dalle stampe giapponesi."
+   },
+   {
+    "p": "Chi guida il gruppo dei Quattro di Glasgow?",
+    "a": "Charles Rennie Mackintosh",
+    "w": [
+     "William Morris",
+     "Aubrey Beardsley",
+     "Antoni Gaudí"
+    ],
+    "ref": "In Scozia si afferma il gruppo dei Quattro di Glasgow, guidato dall'architetto e designer Charles Rennie Mackintosh."
+   },
+   {
+    "p": "Che cosa caratterizza la Scuola d'arte di Glasgow?",
+    "a": "Ampie facciate vetrate e una biblioteca a doppia altezza in legno",
+    "w": [
+     "Una cupola traforata in rame dorato",
+     "Una facciata rivestita di scaglie di ceramica colorata",
+     "Una colonna in ghisa al centro di uno scalone"
+    ],
+    "ref": "Le ampie facciate vetrate garantiscono luminosità; spicca la biblioteca a doppia altezza, in cui il legno ha funzione strutturale e decorativa."
+   },
+   {
+    "p": "In che anno Gaudí assume la direzione della Sagrada Família?",
+    "a": "Nel 1883",
+    "w": [
+     "Nel 1896",
+     "Nel 1902",
+     "Nel 1871"
+    ],
+    "ref": "Gaudí assume la direzione del cantiere nel 1883."
+   },
+   {
+    "p": "Come si presenta Casa Milà, detta La Pedrera?",
+    "a": "Con una facciata ondulatoria in pietra sbozzata, che evoca una cava rocciosa",
+    "w": [
+     "Con un tetto che simula il dorso squamato del drago di San Giorgio",
+     "Con una facciata interamente rettilinea e priva di decorazioni",
+     "Con una cupola di foglie di alloro in bronzo"
+    ],
+    "ref": "La Pedrera ha una monumentale facciata in pietra sbozzata che evoca l'aspetto di una cava rocciosa."
+   }
+  ]
+ },
+ "Q5": {
+  "title": "Quiz 5 · Il Liberty in Italia e la Scuola di Chicago",
+  "items": [
+   {
+    "p": "Quale pittore divisionista italiano unisce la tecnica divisionista a visioni simboliste sulla maternità?",
+    "a": "Giovanni Segantini",
+    "w": [
+     "Ernesto Basile",
+     "Giuseppe Sommaruga",
+     "Pietro Fenoglio"
+    ],
+    "ref": "Nel campo della pittura, Segantini unisce la tecnica divisionista a visioni simboliste, legate alla natura e alla maternità."
+   },
+   {
+    "p": "Dove sorge la Palazzina Fenoglio-Lafleur e in che anno è costruita?",
+    "a": "A Torino, nel 1902",
+    "w": [
+     "A Milano, nel 1896",
+     "A Palermo, nel 1898",
+     "A Buffalo, nel 1896"
+    ],
+    "ref": "Pietro Fenoglio costruisce la Palazzina per la propria famiglia a Torino, in occasione delle esposizioni internazionali del 1902."
+   },
+   {
+    "p": "Quale architetto progetta Palazzo Castiglioni a Milano?",
+    "a": "Giuseppe Sommaruga",
+    "w": [
+     "Ernesto Basile",
+     "Pietro Fenoglio",
+     "Louis Sullivan"
+    ],
+    "ref": "A Milano Giuseppe Sommaruga progetta Palazzo Castiglioni con decorazioni monumentali in stucco e ferro battuto."
+   },
+   {
+    "p": "Che cosa rende possibile il grattacielo della Scuola di Chicago?",
+    "a": "La gabbia metallica in ferro e cemento e l'ascensore di sicurezza",
+    "w": [
+     "Muri portanti in pietra molto spessi",
+     "Strutture interamente in legno",
+     "Edifici bassi e molto decorati"
+    ],
+    "ref": "Il grattacielo sfrutta la gabbia metallica strutturale in ferro e cemento e l'invenzione dell'ascensore di sicurezza."
+   },
+   {
+    "p": "Qual è il principio teorico di Louis Sullivan?",
+    "a": "La forma di un edificio deve scaturire dalla sua funzione d'uso",
+    "w": [
+     "L'ornamento è un inutile spreco di forza lavoro e denaro",
+     "Ogni edificio deve imitare le forme della natura",
+     "Le strutture metalliche vanno nascoste da pesanti rivestimenti"
+    ],
+    "ref": "Sullivan formula lo storico principio funzionalista: la forma di un edificio deve scaturire direttamente dalla sua funzione d'uso."
+   }
+  ]
+ }
+}

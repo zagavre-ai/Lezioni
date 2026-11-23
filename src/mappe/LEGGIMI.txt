@@ -1,0 +1,14 @@
+MAPPE BES lez06 (Storia dell'arte V · Simbolismo e Art Nouveau)
+Rigenerare tutto:      python3 /tmp/w/build/mappe/build_maps.py all [--pagina N]
+Una sola mappa:        python3 build_maps.py M1|M2 [--pagina N] [--solo png|pdf|video|html]
+Uscite:                /tmp/w/build/pieces/MAPPA_M1.mp4, MAPPA_M2.mp4 (1920x1080, 30 fps, x264 crf19, AAC 48k stereo)
+                       /tmp/w/build/pieces/MAPPA_M1_finale.png, MAPPA_M2_finale.png  (mappa intera, fotogramma finale)
+                       /tmp/w/build/pdf/mappa_M1.pdf, mappa_M2.pdf (A4 orizzontale, vettoriale, testo vero)
+Voce:                  timing.voice_path('M1_MAPPA'/'M2_MAPPA'): se esiste /tmp/w/vox/NOME.wav (voce Kore vera) usa quella
+                       (trascritta con trascrivi.py e allineata con timing.align), altrimenti il segnaposto in /tmp/w/vox_prov.
+                       Dopo aver messo le voci vere basta rilanciare build_maps.py: la durata e i tempi dei riquadri si ricalcolano.
+Definizione mappe:     defs.py (riquadri, frecce, passi con la frase `cue` che la voce dice). Template: tpl.html. Rendering: render.js (Playwright/Chromium).
+Immagini:              prep_img.py -> img/*.jpg (usa le versioni EDSR 4x di /tmp/w/up se presenti)
+Struttura video:       0 - primo riquadro: titolo-domanda grande; poi un riquadro per volta con la sua freccia, riquadro in corso con alone giallo;
+                       camera che inquadra il ramo (testo >= 36 px sullo schermo); zoom-out che finisce alla fine della voce;
+                       mappa intera ferma 4,0 s; durata totale = voce + 4,0 s. Nessun jingle: lo aggiunge il montaggio.

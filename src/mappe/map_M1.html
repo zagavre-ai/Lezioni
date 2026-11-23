@@ -1,0 +1,155 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:Fig;font-weight:400;src:url(file:///root/.fonts/Figtree-Regular.ttf)}
+@font-face{font-family:Fig;font-weight:600;src:url(file:///root/.fonts/Figtree-SemiBold.ttf)}
+@font-face{font-family:Fig;font-weight:700;src:url(file:///root/.fonts/Figtree-Bold.ttf)}
+@font-face{font-family:Bri;font-weight:800;src:url(file:///root/.fonts/BricolageGrotesque-ExtraBold.ttf)}
+html,body{margin:0;padding:0;background:#fff;overflow:hidden}
+#page{position:relative;width:1920px;height:1080px;background:#fff;overflow:hidden;font-family:Fig,sans-serif;color:#0B1530}
+#kick{position:absolute;left:60px;top:22px;font:700 22px Fig;letter-spacing:.14em;color:#2060AF}
+#ttl{position:absolute;left:60px;top:48px;font:800 54px Bri;color:#2060AF;white-space:nowrap}
+#line{position:absolute;left:60px;right:60px;top:122px;height:2px;background:#CBD5E1}
+#leg{position:absolute;right:60px;top:30px;display:flex;gap:14px;font:600 18px Fig;color:#0B1530}
+#leg span{display:flex;align-items:center;gap:6px}
+#leg i{display:inline-block;width:22px;height:16px;border-radius:4px;border:3px solid}
+#foot{position:absolute;left:60px;right:60px;bottom:18px;display:flex;justify-content:space-between;font:700 20px Fig;letter-spacing:.06em;color:#2060AF}
+#fline{position:absolute;left:60px;right:60px;bottom:52px;height:2px;background:#CBD5E1}
+#view{position:absolute;left:0;top:126px;width:1920px;height:900px;overflow:hidden}
+#cam{position:absolute;left:0;top:0;transform-origin:0 0;will-change:transform}
+#cv{position:relative}
+.b{position:absolute;box-sizing:border-box;padding:14px 24px;border-radius:16px;font:600 36px/1.32 Fig;text-align:center;opacity:0;border-width:5px;border-style:solid}
+.b b{font-weight:700}
+.b small{display:block;font:600 34px Fig;margin-top:6px}
+.b ul{margin:6px 0 0;padding:0;list-style:none;text-align:left}
+.b li{position:relative;padding-left:30px;margin:4px 0}
+.b li:before{content:"";position:absolute;left:4px;top:.55em;width:12px;height:12px;border-radius:50%;background:currentColor;opacity:.55}
+.b.hasul{text-align:left}
+.c{background:#FFDCC6;border-color:#C2410C;font:800 52px/1.15 Bri;border-radius:20px;border-width:6px;padding:18px 28px}
+.c small{font:600 38px Fig}
+.d{background:#DCEEFB;border-color:#1D4ED8}
+.k{background:#FFF3BF;border-color:#A16207}
+.e{background:#DDF3E4;border-color:#15803D}
+.q{background:#EBE3F7;border-color:#6D28D9}
+.b.im{padding:14px}
+.b.im img{display:block;width:100%;border-radius:8px;margin-bottom:10px}
+.b.im .cp{font-size:34px;line-height:1.25;text-align:center}
+.hl{box-shadow:0 0 0 10px #FFE600,0 10px 24px rgba(11,21,48,.18)}
+#sv{position:absolute;left:0;top:0;overflow:visible}
+.al{position:absolute;opacity:0;font:700 34px/1.2 Fig;background:#fff;padding:2px 10px;color:#0B1530;white-space:nowrap;border-radius:8px}
+#intro{position:absolute;left:0;top:126px;width:1920px;height:900px;display:flex;align-items:center;justify-content:center;font:800 96px/1.1 Bri;color:#2060AF;text-align:center;padding:0 120px;box-sizing:border-box;opacity:0}
+body.pdf #page{width:1123px;height:794px}
+body.pdf #kick{left:34px;top:12px;font-size:13px}
+body.pdf #ttl{left:34px;top:28px;font-size:34px}
+body.pdf #leg{right:34px;top:20px;font-size:11px;gap:8px}
+body.pdf #leg i{width:14px;height:10px;border-width:2px}
+body.pdf #line{left:34px;right:34px;top:76px}
+body.pdf #view{top:82px;width:1123px;height:664px}
+body.pdf #fline{left:34px;right:34px;bottom:40px}
+body.pdf #foot{left:34px;right:34px;bottom:14px;font-size:12px}
+</style></head><body>
+<div id="page">
+ <div id="kick">MAPPA DEL PROFESSORE</div><div id="ttl"></div>
+ <div id="leg"><span><i style="background:#FFDCC6;border-color:#C2410C"></i>concetto centrale</span><span><i style="background:#DCEEFB;border-color:#1D4ED8"></i>date e sequenze</span><span><i style="background:#FFF3BF;border-color:#A16207"></i>parole chiave</span><span><i style="background:#DDF3E4;border-color:#15803D"></i>esempi e opere</span><span><i style="background:#EBE3F7;border-color:#6D28D9"></i>conseguenze</span></div>
+ <div id="line"></div>
+ <div id="view"><div id="cam"><div id="cv"><svg id="sv"><defs><marker id="ah" markerUnits="userSpaceOnUse" markerWidth="44" markerHeight="44" refX="30" refY="22" orient="auto"><path d="M0,4 L40,22 L0,40 z" fill="#0B1530"/></marker></defs></svg></div></div></div>
+ <div id="intro"></div>
+ <div id="fline"></div><div id="foot"><span>STORIA DELL'ARTE V</span><span id="pg"></span></div>
+</div>
+<script>
+const D={"W": 5150, "H": 2700, "titolo": "Che cos'è l'Art Nouveau?", "pagina": 1, "boxes": [{"id": "AN", "x": 2150, "y": 60, "w": 600, "cls": "c", "html": "Art Nouveau<small>1890-1910</small>"}, {"id": "pres", "x": 100, "y": 60, "w": 380, "cls": "k", "html": "<b>i presupposti</b>"}, {"id": "L1", "x": 100, "y": 210, "w": 900, "cls": "d", "html": "l'industrializzazione mette in crisi l'artigianato"}, {"id": "L2", "x": 100, "y": 430, "w": 900, "cls": "d", "html": "la massificazione della produzione industriale europea interessa numerosi settori produttivi"}, {"id": "k1", "x": 1130, "y": 300, "w": 420, "cls": "k", "html": "<b>siderurgia leggera</b>"}, {"id": "k2", "x": 1130, "y": 410, "w": 420, "cls": "k", "html": "<b>vetreria</b>"}, {"id": "k3", "x": 1130, "y": 520, "w": 420, "cls": "k", "html": "<b>falegnameria</b>"}, {"id": "k4", "x": 1130, "y": 630, "w": 420, "cls": "k", "html": "<b>ceramica</b>"}, {"id": "k5", "x": 1130, "y": 740, "w": 420, "cls": "k", "html": "<b>cartellonistica</b>"}, {"id": "L3", "x": 100, "y": 700, "w": 900, "cls": "q", "html": "<u>gli oggetti industriali sono tutti uguali</u> e perdono personalità"}, {"id": "L4", "x": 100, "y": 920, "w": 900, "cls": "q", "html": "la quantità e la conseguente economicità <b>hanno sopraffatto la qualità</b>"}, {"id": "L5", "x": 100, "y": 1140, "w": 900, "cls": "d", "html": "in risposta a tutto ciò nel 1888 <b>Morris</b> fondò la"}, {"id": "L6", "x": 100, "y": 1360, "w": 900, "cls": "k", "html": "<b>Arts and Crafts Exhibition Society</b>"}, {"id": "L7", "x": 100, "y": 1580, "w": 900, "cls": "q", "html": "un'associazione di arti e mestieri che si prefiggeva di <b>conciliare la produzione industriale con l'arte</b>"}, {"id": "L8", "x": 100, "y": 1850, "w": 900, "cls": "q", "html": "ogni oggetto, pur se di serie e di basso costo, avesse un bel disegno e godesse di un certo pregio artistico"}, {"id": "seg", "x": 2000, "y": 380, "w": 900, "cls": "d", "html": "i seguaci dell'Art Nouveau ritenevano che le opere d'arte dovessero essere sia belle che funzionali"}, {"id": "feat", "x": 2000, "y": 680, "w": 900, "cls": "k", "html": "<ul><li>linea curva, dinamica, sinuosa</li><li>stesura colore uniforme</li><li>decorativismo</li><li>motivi floreali e animali</li><li>figure femminili - eleganza</li><li>nuove tecniche costruttive (cemento armato, ferro, ghisa)</li></ul>"}, {"id": "coinv", "x": 2000, "y": 1200, "w": 900, "cls": "k", "html": "coinvolge <b>ogni settore della vita quotidiana</b>, non solo il mondo dell'arte"}, {"id": "s1", "x": 1500, "y": 1470, "w": 260, "cls": "k", "html": "<b>vetreria</b>"}, {"id": "s2", "x": 1800, "y": 1470, "w": 300, "cls": "k", "html": "<b>arredamento d'interni</b>"}, {"id": "s3", "x": 2140, "y": 1470, "w": 330, "cls": "k", "html": "<b>architettura</b>"}, {"id": "s4", "x": 2510, "y": 1470, "w": 300, "cls": "k", "html": "<b>pubblicità</b>"}, {"id": "s5", "x": 2850, "y": 1470, "w": 250, "cls": "k", "html": "<b>pittura</b>"}, {"id": "s6", "x": 3140, "y": 1470, "w": 250, "cls": "k", "html": "<b>tessile</b>"}, {"id": "ar", "x": 2040, "y": 1700, "w": 450, "cls": "e", "html": "Horta in Belgio<br>Gaudí in Spagna"}, {"id": "im_ar", "x": 2110, "y": 1900, "w": 310, "cls": "e", "html": "", "img": "sagrada"}, {"id": "pb", "x": 2540, "y": 1700, "w": 390, "cls": "e", "html": "Toulouse Lautrec"}, {"id": "im_pb", "x": 2580, "y": 1900, "w": 300, "cls": "e", "html": "", "img": "toulouse"}, {"id": "pt", "x": 2960, "y": 1700, "w": 340, "cls": "e", "html": "Alphonse Mucha"}, {"id": "im_pt", "x": 3000, "y": 1900, "w": 260, "cls": "e", "html": "", "img": "mucha"}, {"id": "tx", "x": 3330, "y": 1700, "w": 250, "cls": "e", "html": "Morris"}, {"id": "im_tx", "x": 3330, "y": 1900, "w": 260, "cls": "e", "html": "", "img": "morris"}, {"id": "mov", "x": 3750, "y": 60, "w": 660, "cls": "k", "html": "movimento artistico-filosofico"}, {"id": "fr", "x": 4560, "y": 60, "w": 460, "cls": "k", "html": "nasce in <b>Francia</b>"}, {"id": "paesi", "x": 3900, "y": 260, "w": 1100, "cls": "d", "html": "<b>In ogni Paese d'Europa si sviluppa in modo diverso</b>, al fine di meglio interpretare quel desiderio di novità che è insito <u>nel suo stesso nome</u>."}, {"id": "pa1", "x": 4040, "y": 560, "w": 250, "cls": "d", "html": "Germania"}, {"id": "pn1", "x": 3650, "y": 560, "w": 300, "cls": "k", "html": "<b>Jugendstil</b>"}, {"id": "pa2", "x": 4040, "y": 670, "w": 250, "cls": "d", "html": "Belgio"}, {"id": "pn2", "x": 3650, "y": 670, "w": 300, "cls": "k", "html": "<b>Style Horta</b>"}, {"id": "pa3", "x": 4040, "y": 780, "w": 250, "cls": "d", "html": "Italia"}, {"id": "pn3", "x": 3650, "y": 780, "w": 300, "cls": "k", "html": "<b>Stile Liberty</b>"}, {"id": "pa4", "x": 4040, "y": 890, "w": 250, "cls": "d", "html": "Spagna"}, {"id": "pn4", "x": 3650, "y": 890, "w": 300, "cls": "k", "html": "<b>Arte Jóven</b>"}, {"id": "pa5", "x": 4040, "y": 1000, "w": 250, "cls": "d", "html": "Inghilterra"}, {"id": "pn5", "x": 3650, "y": 1000, "w": 300, "cls": "k", "html": "<b>Modern Style</b>"}, {"id": "pa6", "x": 4550, "y": 560, "w": 440, "cls": "d", "html": "Austria e Ungheria"}, {"id": "pn6", "x": 4550, "y": 720, "w": 440, "cls": "k", "html": "<b>Secessione viennese</b>"}, {"id": "culla", "x": 4450, "y": 900, "w": 620, "cls": "q", "html": "vera e propria culla della cultura e del gusto Art Nouveau"}, {"id": "av", "x": 4450, "y": 1100, "w": 620, "cls": "d", "html": "per 2 avvenimenti che rinnovano la vita culturale viennese"}, {"id": "kg", "x": 3750, "y": 1400, "w": 560, "cls": "k", "html": "<b>Kunstgewerbeschule</b><br>la Scuola d'arte e mestieri"}, {"id": "kg2", "x": 3750, "y": 1700, "w": 560, "cls": "q", "html": "che crea nuove figure professionali, con maggiore competenza in campo progettuale e creativo"}, {"id": "sc", "x": 4500, "y": 1400, "w": 560, "cls": "k", "html": "<b>Secession</b><br>associazione di pittori e scultori"}, {"id": "sc2", "x": 4500, "y": 1700, "w": 560, "cls": "d", "html": "un gruppo di artisti <u>guidati da Gustav Klimt</u> si distacca dall'ambiente intellettuale ancora vicino al gusto eclettico e accademico"}, {"id": "pal", "x": 4500, "y": 2110, "w": 560, "cls": "d", "html": "viene costruito il <b>Palazzo della Secessione</b>"}, {"id": "pal2", "x": 4500, "y": 2380, "w": 560, "cls": "q", "html": "uno spazio espositivo alternativo a quelli dell'accademia"}], "arrows": [{"f": "AN", "t": "pres", "l": null, "o": null}, {"f": "pres", "t": "L1", "l": null, "o": null}, {"f": "L1", "t": "L2", "l": null, "o": null}, {"f": "L2", "t": "k1", "l": null, "o": "rl"}, {"f": "L2", "t": "k2", "l": null, "o": "rl"}, {"f": "L2", "t": "k3", "l": null, "o": "rl"}, {"f": "L2", "t": "k4", "l": null, "o": "rl"}, {"f": "L2", "t": "k5", "l": null, "o": "rl"}, {"f": "L2", "t": "L3", "l": null, "o": null}, {"f": "L3", "t": "L4", "l": null, "o": null}, {"f": "L4", "t": "L5", "l": null, "o": null}, {"f": "L5", "t": "L6", "l": null, "o": null}, {"f": "L6", "t": "L7", "l": null, "o": null}, {"f": "L7", "t": "L8", "l": "affinché", "o": null}, {"f": "L6", "t": "seg", "l": "In linea con questo movimento", "o": "rl"}, {"f": "AN", "t": "seg", "l": "caratteristiche", "o": null}, {"f": "seg", "t": "feat", "l": null, "o": null}, {"f": "feat", "t": "coinv", "l": "l'Art Nouveau", "o": null}, {"f": "coinv", "t": "s1", "l": null, "o": null}, {"f": "coinv", "t": "s2", "l": null, "o": null}, {"f": "coinv", "t": "s3", "l": null, "o": null}, {"f": "coinv", "t": "s4", "l": null, "o": null}, {"f": "coinv", "t": "s5", "l": null, "o": null}, {"f": "coinv", "t": "s6", "l": null, "o": null}, {"f": "s3", "t": "ar", "l": "maggiori architetti", "o": null}, {"f": "ar", "t": "im_ar", "l": null, "o": null}, {"f": "s4", "t": "pb", "l": "maggior cartellonista", "o": null}, {"f": "pb", "t": "im_pb", "l": null, "o": null}, {"f": "s5", "t": "pt", "l": "maggior pittore", "o": null}, {"f": "pt", "t": "im_pt", "l": null, "o": null}, {"f": "s6", "t": "tx", "l": null, "o": null}, {"f": "tx", "t": "im_tx", "l": null, "o": null}, {"f": "AN", "t": "mov", "l": null, "o": null}, {"f": "mov", "t": "fr", "l": "che", "o": null}, {"f": "fr", "t": "paesi", "l": "ma", "o": null}, {"f": "paesi", "t": "pa1", "l": null, "o": "br"}, {"f": "pa1", "t": "pn1", "l": null, "o": "lr"}, {"f": "paesi", "t": "pa2", "l": null, "o": "br"}, {"f": "pa2", "t": "pn2", "l": null, "o": "lr"}, {"f": "paesi", "t": "pa3", "l": null, "o": "br"}, {"f": "pa3", "t": "pn3", "l": null, "o": "lr"}, {"f": "paesi", "t": "pa4", "l": null, "o": "br"}, {"f": "pa4", "t": "pn4", "l": null, "o": "lr"}, {"f": "paesi", "t": "pa5", "l": null, "o": "br"}, {"f": "pa5", "t": "pn5", "l": null, "o": "lr"}, {"f": "paesi", "t": "pa6", "l": null, "o": null}, {"f": "pa6", "t": "pn6", "l": null, "o": null}, {"f": "pn6", "t": "culla", "l": null, "o": null}, {"f": "culla", "t": "av", "l": null, "o": null}, {"f": "av", "t": "kg", "l": "la creazione della", "o": null}, {"f": "kg", "t": "kg2", "l": null, "o": null}, {"f": "av", "t": "sc", "l": "la nascita della", "o": null}, {"f": "sc", "t": "sc2", "l": null, "o": null}, {"f": "sc2", "t": "pal", "l": "Tra il 1898 e il 1899", "o": null}, {"f": "pal", "t": "pal2", "l": null, "o": null}], "steps": [{"t0": 2.6, "t1": 6.13, "boxes": ["AN"], "arrows": [], "hl": [], "cam": []}, {"t0": 5.98, "t1": 8.09, "boxes": ["mov"], "arrows": [["AN", "mov"]], "hl": [], "cam": []}, {"t0": 7.94, "t1": 9.27, "boxes": ["fr"], "arrows": [["mov", "fr"]], "hl": [], "cam": []}, {"t0": 9.12, "t1": 16.83, "boxes": ["paesi"], "arrows": [["fr", "paesi"]], "hl": [], "cam": []}, {"t0": 16.68, "t1": 17.95, "boxes": ["pa1", "pn1"], "arrows": [["paesi", "pa1"], ["pa1", "pn1"]], "hl": [], "cam": []}, {"t0": 17.8, "t1": 19.01, "boxes": ["pa2", "pn2"], "arrows": [["paesi", "pa2"], ["pa2", "pn2"]], "hl": [], "cam": []}, {"t0": 18.86, "t1": 20.18, "boxes": ["pa3", "pn3"], "arrows": [["paesi", "pa3"], ["pa3", "pn3"]], "hl": [], "cam": []}, {"t0": 20.03, "t1": 21.19, "boxes": ["pa4", "pn4"], "arrows": [["paesi", "pa4"], ["pa4", "pn4"]], "hl": [], "cam": []}, {"t0": 21.04, "t1": 22.59, "boxes": ["pa5", "pn5"], "arrows": [["paesi", "pa5"], ["pa5", "pn5"]], "hl": [], "cam": []}, {"t0": 22.44, "t1": 24.77, "boxes": ["pa6", "pn6"], "arrows": [["paesi", "pa6"], ["pa6", "pn6"]], "hl": [], "cam": []}, {"t0": 24.62, "t1": 28.75, "boxes": ["culla"], "arrows": [["pn6", "culla"]], "hl": [], "cam": []}, {"t0": 28.6, "t1": 32.16, "boxes": ["av"], "arrows": [["culla", "av"]], "hl": [], "cam": []}, {"t0": 32.01, "t1": 35.8, "boxes": ["kg"], "arrows": [["av", "kg"]], "hl": [], "cam": []}, {"t0": 35.65, "t1": 40.95, "boxes": ["kg2"], "arrows": [["kg", "kg2"]], "hl": [], "cam": []}, {"t0": 40.8, "t1": 44.54, "boxes": ["sc"], "arrows": [["av", "sc"]], "hl": [], "cam": []}, {"t0": 44.39, "t1": 51.81, "boxes": ["sc2"], "arrows": [["sc", "sc2"]], "hl": [], "cam": []}, {"t0": 51.66, "t1": 57.8, "boxes": ["pal"], "arrows": [["sc2", "pal"]], "hl": [], "cam": []}, {"t0": 57.65, "t1": 60.99, "boxes": ["pal2"], "arrows": [["pal", "pal2"]], "hl": [], "cam": []}, {"t0": 60.84, "t1": 67.54, "boxes": ["seg"], "arrows": [["AN", "seg"]], "hl": [], "cam": []}, {"t0": 67.39, "t1": 78.51, "boxes": ["feat"], "arrows": [["seg", "feat"]], "hl": [], "cam": []}, {"t0": 78.36, "t1": 83.27, "boxes": ["coinv"], "arrows": [["feat", "coinv"]], "hl": [], "cam": []}, {"t0": 83.12, "t1": 83.94, "boxes": ["s1"], "arrows": [["coinv", "s1"]], "hl": [], "cam": []}, {"t0": 83.79, "t1": 85.18, "boxes": ["s2"], "arrows": [["coinv", "s2"]], "hl": [], "cam": []}, {"t0": 85.03, "t1": 89.32, "boxes": ["s3", "ar", "im_ar"], "arrows": [["coinv", "s3"], ["s3", "ar"], ["ar", "im_ar"]], "hl": ["s3", "ar"], "cam": []}, {"t0": 89.17, "t1": 92.62, "boxes": ["s4", "pb", "im_pb"], "arrows": [["coinv", "s4"], ["s4", "pb"], ["pb", "im_pb"]], "hl": ["s4", "pb"], "cam": []}, {"t0": 92.47, "t1": 95.36, "boxes": ["s5", "pt", "im_pt"], "arrows": [["coinv", "s5"], ["s5", "pt"], ["pt", "im_pt"]], "hl": ["s5", "pt"], "cam": []}, {"t0": 95.21, "t1": 96.6, "boxes": ["s6", "tx", "im_tx"], "arrows": [["coinv", "s6"], ["s6", "tx"], ["tx", "im_tx"]], "hl": ["s6", "tx"], "cam": []}, {"t0": 96.45, "t1": 100.12, "boxes": ["pres", "L1"], "arrows": [["AN", "pres"], ["pres", "L1"]], "hl": ["L1"], "cam": []}, {"t0": 99.97, "t1": 105.33, "boxes": ["L2"], "arrows": [["L1", "L2"]], "hl": [], "cam": []}, {"t0": 105.18, "t1": 106.39, "boxes": ["k1"], "arrows": [["L2", "k1"]], "hl": [], "cam": []}, {"t0": 106.24, "t1": 106.9, "boxes": ["k2"], "arrows": [["L2", "k2"]], "hl": [], "cam": []}, {"t0": 106.75, "t1": 107.62, "boxes": ["k3"], "arrows": [["L2", "k3"]], "hl": [], "cam": []}, {"t0": 107.47, "t1": 108.13, "boxes": ["k4"], "arrows": [["L2", "k4"]], "hl": [], "cam": []}, {"t0": 107.98, "t1": 109.02, "boxes": ["k5"], "arrows": [["L2", "k5"]], "hl": [], "cam": []}, {"t0": 108.87, "t1": 112.61, "boxes": ["L3"], "arrows": [["L2", "L3"]], "hl": [], "cam": []}, {"t0": 112.46, "t1": 116.52, "boxes": ["L4"], "arrows": [["L3", "L4"]], "hl": [], "cam": []}, {"t0": 116.37, "t1": 120.33, "boxes": ["L5"], "arrows": [["L4", "L5"]], "hl": [], "cam": []}, {"t0": 120.18, "t1": 122.29, "boxes": ["L6"], "arrows": [["L5", "L6"]], "hl": [], "cam": []}, {"t0": 122.14, "t1": 128.0, "boxes": ["L7"], "arrows": [["L6", "L7"]], "hl": [], "cam": []}, {"t0": 127.85, "t1": 134.49, "boxes": ["L8"], "arrows": [["L7", "L8"]], "hl": [], "cam": []}, {"t0": 134.34, "t1": 138.10766666666666, "boxes": [], "arrows": [["L6", "seg"]], "hl": ["seg"], "cam": []}], "end": 142.11, "zoomT": 136.51, "zoomEnd": 138.11};           // {W,H,titolo,pagina,boxes,arrows,steps:[{t0,t1,boxes,arrows,hl,cam}],end,zoomT}
+const MODE=new URLSearchParams(location.search).get('mode')||'video';
+const cv=document.getElementById('cv'), cam=document.getElementById('cam'), sv=document.getElementById('sv');
+document.getElementById('ttl').textContent=D.titolo; document.getElementById('pg').textContent='Pagina '+D.pagina;
+document.getElementById('intro').textContent=D.titolo;
+cv.style.width=D.W+'px'; cv.style.height=D.H+'px'; sv.setAttribute('width',D.W); sv.setAttribute('height',D.H);
+const els={};
+for(const b of D.boxes){const e=document.createElement('div');e.className='b '+b.cls+(b.img?' im':'')+(b.html.includes('<ul>')&&!b.img?' hasul':'');
+  e.style.left=b.x+'px';e.style.top=b.y+'px';e.style.width=b.w+'px';
+  e.innerHTML=b.img?`<img src="img/${b.img}.jpg"><div class="cp">${b.html}</div>`:b.html;cv.appendChild(e);els[b.id]=e;}
+const R={};            // rettangoli
+function rects(){for(const id in els){const e=els[id];R[id]={x:e.offsetLeft,y:e.offsetTop,w:e.offsetWidth,h:e.offsetHeight};}}
+function clip(r,cx,cy,dx,dy,gap){ // punto sul bordo del rettangolo r lungo la direzione (dx,dy) dal centro
+  const hw=r.w/2+gap,hh=r.h/2+gap;let t=Math.min(hw/Math.abs(dx||1e-9),hh/Math.abs(dy||1e-9));return [cx+dx*t,cy+dy*t];}
+function side(r,s,gap){const m={t:[r.x+r.w/2,r.y-gap],b:[r.x+r.w/2,r.y+r.h+gap],l:[r.x-gap,r.y+r.h/2],r:[r.x+r.w+gap,r.y+r.h/2]};return m[s];}
+const AR={};           // frecce: id -> {line,label,len}
+function layout(){
+  rects();
+  for(const a of D.arrows){
+    const A=R[a.f],Bq=R[a.t];let p1,p2;
+    const ca=[A.x+A.w/2,A.y+A.h/2],cb=[Bq.x+Bq.w/2,Bq.y+Bq.h/2];
+    if(a.o&&a.o.length==2){p1=side(A,a.o[0],8);p2=side(Bq,a.o[1],10);}
+    else{const dx=cb[0]-ca[0],dy=cb[1]-ca[1];p1=clip(A,ca[0],ca[1],dx,dy,8);p2=clip(Bq,cb[0],cb[1],-dx,-dy,10);}
+    const l=document.createElementNS('http://www.w3.org/2000/svg','line');
+    l.setAttribute('x1',p1[0]);l.setAttribute('y1',p1[1]);l.setAttribute('x2',p2[0]);l.setAttribute('y2',p2[1]);
+    l.setAttribute('stroke','#0B1530');l.setAttribute('stroke-width','7');l.setAttribute('marker-end','url(#ah)');l.style.opacity=0;
+    const len=Math.hypot(p2[0]-p1[0],p2[1]-p1[1]);l.setAttribute('stroke-dasharray',len+' '+len);sv.appendChild(l);
+    let lab=null;if(a.l){lab=document.createElement('div');lab.className='al';lab.innerHTML=a.l;cv.appendChild(lab);
+      lab.style.left=((p1[0]+p2[0])/2-lab.offsetWidth/2)+'px';lab.style.top=((p1[1]+p2[1])/2-lab.offsetHeight/2)+'px';}
+    AR[a.f+'>'+a.t]={line:l,label:lab,len:len};
+  }
+}
+function ease(x){x=Math.max(0,Math.min(1,x));return x<.5?4*x*x*x:1-Math.pow(-2*x+2,3)/2;}
+function easeO(x){x=Math.max(0,Math.min(1,x));return 1-Math.pow(1-x,3);}
+// ------- camera
+let VW=1920,VH=900;
+if(MODE==='pdf'){document.body.classList.add('pdf');VW=1123;VH=664;}
+function union(ids){let x0=1e9,y0=1e9,x1=-1e9,y1=-1e9;for(const i of ids){const r=R[i];if(!r)continue;x0=Math.min(x0,r.x);y0=Math.min(y0,r.y);x1=Math.max(x1,r.x+r.w);y1=Math.max(y1,r.y+r.h);}return [x0,y0,x1,y1];}
+function fit(ids,smin,smax,pad){const u=union(ids);const w=u[2]-u[0]+pad,h=u[3]-u[1]+pad;let s=Math.min(VW/w,VH/h);s=Math.max(smin,Math.min(smax,s));return [(u[0]+u[2])/2,(u[1]+u[3])/2,s];}
+let OVER=null;
+function setupCam(){
+  const s=Math.min((VW-(MODE==='pdf'?50:80))/D.W,(VH-(MODE==='pdf'?20:30))/D.H);OVER=[D.W/2,D.H/2,s];
+  for(const st of D.steps){
+    const ids=st.cam&&st.cam.length?st.cam:st.boxes;
+    let c=fit(ids,1.0,1.3,160);   // inquadra il riquadro in lettura (con la sua origine se entra)
+    const src=[];for(const a of st.arrows){const f=a[0];src.push(f);}
+    const c2=fit(ids.concat(src),1.0,1.3,200);
+    const u=union(ids.concat(src));if((u[2]-u[0])<VW*0.92/1.0&&(u[3]-u[1])<VH*0.88)c=c2;
+    st.c=c;
+  }
+}
+function camAt(t){
+  const S=D.steps;let prev=OVER[0]?[D.W/2,D.H/2,1.0]:null;let cur=null,i=-1;
+  for(let k=0;k<S.length;k++){if(t>=S[k].t0-0.4)i=k;}
+  // zoom finale
+  if(t>=D.zoomT){const e=easeO((t-D.zoomT)/(D.zoomEnd-D.zoomT));const a=S[S.length-1].c;return [a[0]+(OVER[0]-a[0])*e,a[1]+(OVER[1]-a[1])*e,a[2]+(OVER[2]-a[2])*e];}
+  if(i<0)return S[0].c;
+  const to=S[i].c;const from=i>0?S[i-1].c:to;
+  const tt=(t-(S[i].t0-0.4))/1.3;const e=ease(tt);
+  const dur=Math.max(1,(S[i].t1-S[i].t0));const dr=1+0.035*Math.min(1,Math.max(0,(t-S[i].t0)/dur));
+  return [from[0]+(to[0]-from[0])*e,from[1]+(to[1]-from[1])*e,(from[2]+(to[2]-from[2])*e)*dr];
+}
+function render(t){
+  let sig='';
+  const showIntro=t<(D.steps[0].t0-0.1);
+  const io=document.getElementById('intro');
+  let ip=showIntro?1:Math.max(0,1-(t-(D.steps[0].t0-0.1))/0.5);ip=Math.round(ip*50)/50;io.style.opacity=ip;sig+=ip+'|';
+  const hl=new Set();
+  for(const st of D.steps){
+    for(const a of st.arrows){const o=AR[a[0]+'>'+a[1]];const p=easeO((t-(st.t0-0.05))/0.55);const v=Math.round(p*50)/50;
+      o.line.style.opacity=v;o.line.setAttribute('stroke-dashoffset',Math.round(o.len*(1-p)));o.line.setAttribute('marker-end',v>=1?'url(#ah)':'none');if(o.label)o.label.style.opacity=v;sig+=v+',';}
+    for(const b of st.boxes){const p=easeO((t-(st.t0+0.15))/0.5);const v=Math.round(p*50)/50;const e=els[b];e.style.opacity=v;e.style.transform='translateY('+Math.round(16*(1-p))+'px)';sig+=v+',';}
+    if(t>=st.t0+0.1&&t<st.t1+0.25){for(const h of (st.hl&&st.hl.length?st.hl:st.boxes))hl.add(h);}
+  }
+  for(const id in els){const on=hl.has(id);els[id].classList.toggle('hl',on);sig+=on?1:0;}
+  const c=camAt(t);const s=c[2];
+  const tx=Math.round((VW/2-c[0]*s)*10)/10,ty=Math.round((VH/2-c[1]*s)*10)/10,ss=Math.round(s*1000)/1000;
+  cam.style.transform=`translate(${tx}px,${ty}px) scale(${ss})`;
+  return sig+tx+','+ty+','+ss;
+}
+async function init(){
+  await document.fonts.ready;
+  await Promise.all([...document.images].map(i=>i.complete?1:new Promise(r=>{i.onload=i.onerror=r;})));
+  layout();
+  setupCam();
+  window.READY=true;
+}
+function showAll(){ // mappa intera (PNG finale)
+  for(const id in els){els[id].style.opacity=1;els[id].style.transform='none';els[id].classList.remove('hl');}
+  for(const k in AR){AR[k].line.style.opacity=1;AR[k].line.setAttribute('stroke-dashoffset',0);AR[k].line.setAttribute('marker-end','url(#ah)');if(AR[k].label)AR[k].label.style.opacity=1;}
+  document.getElementById('intro').style.opacity=0;
+  cam.style.transform=`translate(${VW/2-OVER[0]*OVER[2]}px,${VH/2-OVER[1]*OVER[2]}px) scale(${OVER[2]})`;
+}
+function overlaps(){const o=[];const ids=Object.keys(R);for(let i=0;i<ids.length;i++)for(let j=i+1;j<ids.length;j++){const a=R[ids[i]],b=R[ids[j]];
+  if(a.x<b.x+b.w+16&&b.x<a.x+a.w+16&&a.y<b.y+b.h+16&&b.y<a.y+a.h+16)o.push(ids[i]+'/'+ids[j]);}return o;}
+function rectsOut(){return JSON.stringify(R);}
+init();
+</script></body></html>

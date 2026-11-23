@@ -1,0 +1,96 @@
+{
+ "title": "Verifica finale · Simbolismo e Art Nouveau",
+ "soglia": 80,
+ "items": [
+  {
+   "p": "Quale edificio, progettato da Victor Horta a Bruxelles, è considerato il primo vero manifesto della nuova architettura dell'Art Nouveau?",
+   "a": "Una casa privata caratterizzata dalla fusione tra architettura e ornamento, come Casa Tassel.",
+   "w": [
+    "Un palazzo pubblico in stile neogotico destinato a ospitare uffici governativi.",
+    "Un grattacielo commerciale interamente costruito con una gabbia metallica.",
+    "Un padiglione espositivo provvisorio con una cupola traforata in bronzo."
+   ]
+  },
+  {
+   "p": "Chi è l'autore della celebre opera pittorica \"Il bacio\" (1907-08), in cui i corpi dei due amanti sono quasi interamente smaterializzati da motivi decorativi dorati?",
+   "a": "Gustav Klimt.",
+   "w": [
+    "Odilon Redon.",
+    "Giovanni Segantini.",
+    "Aubrey Beardsley."
+   ]
+  },
+  {
+   "p": "Chi sono i fondatori delle Officine viennesi (Wiener Werkstätte), nate nel 1903 con l'intento di produrre oggetti d'uso ispirati alle Arts and Crafts ma con l'ausilio di macchinari industriali?",
+   "a": "Josef Hoffmann e Koloman Moser.",
+   "w": [
+    "Victor Horta e Émile Gallé.",
+    "Antoni Gaudí e Lluís Domènech.",
+    "Adolf Loos e Otto Wagner."
+   ]
+  },
+  {
+   "p": "Quale importante rivista ufficiale è stata fondata dal gruppo della Secessione viennese nel 1898 per diffondere l'idea di collaborazione tra le diverse discipline artistiche?",
+   "a": "Ver Sacrum.",
+   "w": [
+    "La Revue Blanche.",
+    "The Studio.",
+    "Emporium."
+   ]
+  },
+  {
+   "p": "A Barcellona, quale architetto ha espresso il genio del Modernismo catalano attraverso la progettazione della monumentale e infinita basilica della Sagrada Família?",
+   "a": "Antoni Gaudí.",
+   "w": [
+    "Hector Guimard.",
+    "Charles Rennie Mackintosh.",
+    "Louis Sullivan."
+   ]
+  },
+  {
+   "p": "Quale pittore divisionista italiano è celebre per la sua \"visione mitica della maternità\", espressa in opere come \"Le due madri\"?",
+   "a": "Giovanni Segantini.",
+   "w": [
+    "Gaetano Previati.",
+    "Giuseppe Sommaruga.",
+    "Ernesto Basile."
+   ]
+  },
+  {
+   "p": "Quale edificio di Bruxelles, progettato da Josef Hoffmann per l'ingegnere Adolphe Stoclet, rappresenta un perfetto esempio di \"opera d'arte totale da abitare\"?",
+   "a": "Palazzo Stoclet.",
+   "w": [
+    "Casa Milà.",
+    "Casa del Popolo.",
+    "Villa Steiner."
+   ]
+  },
+  {
+   "p": "Quale artista inglese del Decadentismo è noto per le sue illustrazioni ambigue in bianco e nero, caratterizzate da una linea sinuosa e influenzate dalle stampe giapponesi?",
+   "a": "Aubrey Beardsley.",
+   "w": [
+    "Fernand Khnopff.",
+    "Pierre Puvis de Chavannes.",
+    "Odilon Redon."
+   ]
+  },
+  {
+   "p": "In cosa consiste il celebre \"Fregio di Beethoven\" dipinto da Gustav Klimt all'interno del Palazzo della Secessione?",
+   "a": "In una narrazione visiva che rappresenta il percorso dell'umanità verso la salvezza e la redenzione attraverso la musica.",
+   "w": [
+    "In una serie di ritratti naturalistici dedicati ai principali musicisti e compositori austriaci dell'Ottocento.",
+    "In un mosaico astratto a motivi geometrici bianchi e neri arricchito da pietre dure.",
+    "In una decorazione floreale in ferro battuto che si sviluppa lungo lo scalone d'ingresso."
+   ]
+  },
+  {
+   "p": "Quale fondamentale principio teorico esprimeva l'architetto Louis Sullivan per definire l'estetica e la struttura dei grattacieli della Scuola di Chicago?",
+   "a": "La forma di un edificio deve sempre seguire e derivare dalla sua specifica funzione.",
+   "w": [
+    "L'ornamento sulle facciate esterne rappresenta un delitto e una inutile distorsione economica.",
+    "L'architettura urbana deve rinunciare alle finestre e affidarsi unicamente alla luce artificiale.",
+    "Le strutture metalliche devono essere nascoste da pesanti rivestimenti in stile neogotico."
+   ]
+  }
+ ]
+}
