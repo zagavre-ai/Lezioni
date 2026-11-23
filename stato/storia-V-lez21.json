@@ -30,6 +30,10 @@
   {
    "quando": "23/11 02:31",
    "testo": "Aggiunto COMPITI su voci-storia-V-lez21 (una voce: i 4 compiti del prof in fila + frase finale; CP_1..CP_4 non servono piu'). Voci gia' richieste in totale: vedi testi_voci.json; PI1_R2 ora spiega USA. Rifaccio il montaggio con le voci provvisorie e mi fermo fino alle 9:00."
+  },
+  {
+   "quando": "23/11 08:07",
+   "testo": "08:07 UTC: lez 21 pronta con voci provvisorie, aspetto solo le voci Kore (lista in testi_voci.json su voci-storia-V-lez21). Dopo l'arrivo servono circa 75 minuti (schede con voce, codifica, sottotitoli, controllo rapido): per consegnare entro le 11:00 italiane (10:00 UTC) le voci devono arrivare entro le 8:30 UTC (9:30 italiane). Priorita': BEN1_R4, BEN2_R4, COMPITI, SP_0-SP_3, MA*/MB* (mappe), FZ1_R3, MF_0, poi le _R2. Se qualche voce non arriva monto con quella vecchia o provvisoria e lo scrivo nel rapporto."
   }
  ],
  "domande_sara": [],
@@ -66,5 +70,5 @@
  "materia": "Storia V",
  "lezione": "Lezione 21 · Il mondo dal 2001 ad oggi",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-23 04:10:38"
+ "aggiornato": "2026-11-23 08:07:11"
 }
