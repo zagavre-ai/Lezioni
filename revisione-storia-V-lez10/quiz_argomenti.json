@@ -223,7 +223,7 @@
   "title": "Quiz 5 · Dalle elezioni alla nomina di Hitler",
   "items": [
    {
-    "p": "Che cosa sono le SS?",
+    "p": "Che cosa sono le SS, le squadre armate legate a Hitler?",
     "a": "Le squadre di protezione, fedeli a Hitler",
     "w": [
      "Le milizie del partito comunista",
@@ -309,7 +309,7 @@
    },
    {
     "p": "Che cos'è la notte dei lunghi coltelli (1934)?",
-    "a": "La purga con cui le SS uccidono Röhm e i vertici delle SA",
+    "a": "La purga con cui le SS, cioè le squadre di protezione, uccidono Röhm e i vertici delle SA, cioè le squadre d'assalto",
     "w": [
      "Un pogrom contro gli ebrei",
      "Un incendio",
@@ -412,7 +412,7 @@
     "a": "Privano gli ebrei della cittadinanza e vietano matrimoni interrazziali",
     "w": [
      "Aboliscono la monarchia",
-     "Creano le SS",
+     "Creano le SS, cioè le squadre di protezione",
      "Autorizzano il riarmo"
     ],
     "e": "Gli ebrei sono esclusi da scuole, università, impieghi pubblici e professioni."
@@ -422,7 +422,7 @@
     "a": "Il pogrom del 9-10 novembre 1938 contro gli ebrei",
     "w": [
      "L'incendio del Reichstag",
-     "La purga delle SA",
+     "La purga delle SA, cioè le squadre d'assalto",
      "Il discorso di Hitler"
     ],
     "e": "Furono devastate sinagoghe, negozi e case, con circa 20.000 deportati."

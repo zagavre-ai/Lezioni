@@ -1,31 +1,31 @@
 {
- "materia": "Storia V",
- "titolo": "Storia V · Lezione 10 · La Germania da Weimar al nazismo · Parte 2",
- "durata_s": 3151.2,
+ "materia": "Storia",
+ "titolo": "La Germania da Weimar al nazismo · Parte 2",
+ "durata_s": 3345.97,
  "argomenti": [
   {
    "n": 5,
    "titolo": "Dalle elezioni alla nomina di Hitler",
-   "inizio_s": 36.2,
-   "quiz_s": 730.2
+   "inizio_s": 105.5,
+   "quiz_s": 842.367
   },
   {
    "n": 6,
    "titolo": "La costruzione dello Stato totalitario",
-   "inizio_s": 735.2,
-   "quiz_s": 1598.333
+   "inizio_s": 847.167,
+   "quiz_s": 1707.833
   },
   {
    "n": 7,
    "titolo": "Controllo della società ed economia",
-   "inizio_s": 1603.333,
-   "quiz_s": 2530.567
+   "inizio_s": 1712.633,
+   "quiz_s": 2648.333
   },
   {
    "n": 8,
    "titolo": "La politica razzista e antisemita",
-   "inizio_s": 2535.567,
-   "quiz_s": 3061.467
+   "inizio_s": 2653.133,
+   "quiz_s": 3175.967
   }
  ],
  "quiz": {
@@ -33,7 +33,7 @@
    "title": "Quiz 5 · Dalle elezioni alla nomina di Hitler",
    "items": [
     {
-     "p": "Che cosa sono le SS?",
+     "p": "Che cosa sono le SS, le squadre armate legate a Hitler?",
      "a": "Le squadre di protezione, fedeli a Hitler",
      "w": [
       "Le milizie del partito comunista",
@@ -119,7 +119,7 @@
     },
     {
      "p": "Che cos'è la notte dei lunghi coltelli (1934)?",
-     "a": "La purga con cui le SS uccidono Röhm e i vertici delle SA",
+     "a": "La purga con cui le SS, cioè le squadre di protezione, uccidono Röhm e i vertici delle SA, cioè le squadre d'assalto",
      "w": [
       "Un pogrom contro gli ebrei",
       "Un incendio",
@@ -222,7 +222,7 @@
      "a": "Privano gli ebrei della cittadinanza e vietano matrimoni interrazziali",
      "w": [
       "Aboliscono la monarchia",
-      "Creano le SS",
+      "Creano le SS, cioè le squadre di protezione",
       "Autorizzano il riarmo"
      ],
      "e": "Gli ebrei sono esclusi da scuole, università, impieghi pubblici e professioni."
@@ -232,7 +232,7 @@
      "a": "Il pogrom del 9-10 novembre 1938 contro gli ebrei",
      "w": [
       "L'incendio del Reichstag",
-      "La purga delle SA",
+      "La purga delle SA, cioè le squadre d'assalto",
       "Il discorso di Hitler"
      ],
      "e": "Furono devastate sinagoghe, negozi e case, con circa 20.000 deportati."

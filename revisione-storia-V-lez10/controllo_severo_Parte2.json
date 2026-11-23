@@ -1,0 +1,36 @@
+{
+ "file": "Storia_Lez10_Parte2_1080p.mp4",
+ "durata_min": 55.77,
+ "copertina_trovata": true,
+ "copertina_parole_mancanti": [],
+ "copertina_titolo_presente": true,
+ "copertina_da_s": 20.0,
+ "copertina_durata_s": 10,
+ "slide_stesso_titolo_oltre_3min": [],
+ "schermata_identica_oltre_3min": [],
+ "card_con_puntini": [],
+ "card_iniziale_minuscola": [],
+ "una_card_sola_oltre_60s": [],
+ "lufs": -16.7,
+ "silenzi_oltre_3s": 0,
+ "durata_ok": true,
+ "voce_tono_hz": [
+  156,
+  156,
+  145,
+  152,
+  156,
+  152
+ ],
+ "voce_chiarezza_hz": [
+  1367,
+  1408,
+  1228,
+  1435,
+  1337,
+  1327
+ ],
+ "DA_GUARDARE": [],
+ "ERRORI": [],
+ "ESITO": "OK"
+}
