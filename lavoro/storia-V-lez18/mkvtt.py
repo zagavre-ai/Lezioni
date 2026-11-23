@@ -24,7 +24,7 @@ for t in _texts:
         if tk[0].isupper() and i>0 and len(tk)>=4:_names.add(tk)
 _names-= {n for n in _names if n.lower() in {x for x in _vocab if x[0:1] and False}}
 _namel={n.lower():n for n in _names}
-NF=[("Giorgio Meloni","Giorgia Meloni"),("Aldomoro","Aldo Moro"),("bubo economico","boom economico"),("Fan Fanni","Fanfani"),("Cide De Gasperi","Alcide De Gasperi"),("Fanfanni","Fanfani")]
+NF=[("Gaspi","Gasperi"),("Pemirio","Palmiro"),("Cidele","Alcide"),("Isria","Istria"),("Naudi al Curinale","Einaudi al Quirinale"),("Molore Terzo","Vittorio Emanuele Terzo"),("catrizzare","cicatrizzare"),("anessanta","anni Cinquanta"),("faleva sulla DC","fa leva sulla DC"),("Giorgio Meloni","Giorgia Meloni"),("Aldomoro","Aldo Moro"),("bubo economico","boom economico"),("Fan Fanni","Fanfani"),("Cide De Gasperi","Alcide De Gasperi"),("Fanfanni","Fanfani")]
 def fuzzy(t):
     for a,b in NF:t=t.replace(a,b)
     def f(m):
@@ -45,10 +45,22 @@ cues=[]
 # pezzi del prof
 sys.argv=['x'];from build18 import fi
 pieces=[(a,b,c) for a,b,c in json.load(open(f'{W}/out/pm_parte{w}.json'))]
+CARD=[]
+for n_ in range(1,7):
+    d_=json.load(open(f'{W}/cards/arg{n_}.json'))
+    for fin in d_['finestre']:
+        cs_=fin['card']
+        for j_,c in enumerate(cs_):
+            nxt=cs_[j_+1]['t'] if j_+1<len(cs_) else fin['t1']
+            CARD.append((c['t'],min(nxt,c['t']+len(c['testo'])*0.075+0.6),c['testo']))
+CARD.append((2928.9,2940.0,"Il Piano INA-Casa, cioè il piano per far costruire case, serve a ripartire l'Italia e a costruire le case distrutte dalla guerra."))
+CARD.append((2940.8,2958.0,"Il piano aiuta le famiglie a trovare casa e a uscire da situazioni di fortuna, come grotte, cantine, solai e abitazioni distrutte."))
 for name,ps,pe in pieces:
     vt0=T[name][0];T0=fi(ps)/30
     for s in SEG:
         if s['inizio']>=T0-0.01 and s['fine']<=pe+0.3:
+            mid=(s['inizio']+s['fine'])/2
+            if any(a<=mid<b for a,b,_ in CARD):continue
             t=clean(s['testo'])
             if len(t)<2:continue
             st_=s['inizio']
@@ -56,6 +68,9 @@ for name,ps,pe in pieces:
             if len(seg) and seg[:int(0.5*16000)].mean()<THR*0.5:
                 on=int(_np.argmax(seg>THR));st_=i0/16000+on/16000
             cues.append((vt0+st_-T0,vt0+max(s['fine'],st_+0.8)-T0,t))
+    for a,b,tx in CARD:
+        if a>=T0-0.01 and b<=pe+0.3:
+            cues.append((vt0+a-T0,vt0+b-T0,xs(disp(tx)) if False else tx))
 # voci Kore
 for t0,name in vl:
     S=sents(name);st=sent_times(name);vd=vdur(name)

@@ -32,7 +32,7 @@ def CE(T):
 INTRO_S=CS(0.55);INTRO_E=CE(184.13)
 A3E=round((2096.58-0.15)*30)/30   # fine arg3: dopo «Quindi c'è la fiducia.»
 END=4273.9
-AN_LIST={1:[(CE(484.81),CS(484.81),'AN1a'),(CE(664.1),CS(664.1),'AN1b')],2:[(CE(1355.8),CS(1355.8),'AN2a'),(CE(1630.8),CS(1630.8),'AN2b')],3:[(CE(2067.8),CS(2067.8),'AN3a')],4:[(CE(2483.05),CS(2483.05),'AN4a')],5:[(CE(3330.85),CS(3330.85),'AN5b')],6:[(CE(4047.14),CS(4047.14),'AN6a')]}
+AN_LIST={1:[(CE(484.81),CS(484.81),'AN1a'),(CE(664.1),CS(664.1),'AN1b')],2:[(CE(1355.8),CS(1355.8),'AN2a'),(CE(1630.8),CS(1630.8),'AN2b')],3:[],4:[(CE(2483.05),CS(2483.05),'AN4a')],5:[(CE(3330.85),CS(3330.85),'AN5b')],6:[(CE(4047.14),CS(4047.14),'AN6a')]}
 ARG_RANGE={1:(CS(187.72),CE(880.9)),2:(CS(880.9),CE(2030.4)),3:(CS(2030.4),A3E),4:(CS(2098.47),CE(2985.35)),5:(CS(2985.35),CE(3584.13)),6:(CS(3584.13),END)}
 A1S=ARG_RANGE[1][0]
 def fi(t):return int(round(t*FPS))
@@ -170,7 +170,7 @@ def qlist(items,label,n,part,names,start_q):
 def sc_quiz_body(part,tag,label,items,qn,think_scale=1.0):
     L=len(items)
     for i,it in enumerate(items):
-        it=dict(it);ex=lambda s:s.replace('PCI','PCI (Partito comunista italiano)') if tag=='7' else s
+        it=dict(it);ex=xs
         it['p']=ex(it['p']);it['a']=ex(it['a']);it['w']=[ex(x) for x in it['w']];it['e']=ex(it.get('e',''))
         opts=[it['a']]+list(it['w']);k=(i+len(it['p']))%4
         order=opts[1:];order.insert(k,opts[0])
@@ -221,11 +221,19 @@ def mp4_scene(part,name,mp4,gain=1.0,dissolve=True):
     if part.items and dissolve:part.ev.append((t0-0.8,whoosh(),1.0)) if part.kind!='prof' else None
     part.tl.append([name,round(t0,3),round(n/FPS,3)]);part.items.append(out);part.n+=n;part.prev=last;part.kind='sigla'
 
+def insert_img(wins,a,b,img):
+    for i,w in enumerate(wins):
+        if w['t0']<=a<w['t1']:
+            cs=w['card'];before=[c for c in cs if c['t']<a];act=before[-1] if before else (cs[0] if cs else None)
+            L=dict(w,t1=a,card=before);M=dict(w,t0=a,t1=min(b,w['t1']),card=[dict(act,t=a)] if act else [],img=img)
+            R=dict(w,t0=min(b,w['t1']),card=[c for c in cs if c['t']>=b])
+            new=([L] if a-w['t0']>=1.0 else [])+[M]+([R] if R['t1']-R['t0']>=1.0 else [])
+            wins[i:i+1]=new;return
 def do_arg(part,n,first_in_part=False):
     a=ARG[n];d=load_cards(n);ps,pe=ARG_RANGE[n];kw=d['kw']
     label=f'{n:02d} · {a["nome"]}';title=a['prof']
     wins=[dict(w) for w in d['finestre']]
-    ce1,cs1=AN_LIST[n][0][0],AN_LIST[n][0][1]
+    ce1,cs1=(AN_LIST[n][0][0],AN_LIST[n][0][1]) if AN_LIST[n] else (None,None)
     if n==4:
         pre=[w for w in wins if w['t1']<=2207.8];car=[w for w in wins if 2207.8<=w['t0']<2476.0]
         post=[w for w in wins if w['t0']>=2476.0]
@@ -238,6 +246,8 @@ def do_arg(part,n,first_in_part=False):
     if n==5:
         d6=load_cards(6);tail=[c for w in d6['finestre'] for c in w['card'] if 3549.5<=c['t']<pe]
         wins.append(dict(t0=3549.5,t1=pe,kw_on=[],card=tail))
+    if n==1:insert_img(wins,848.0,854.6,W+'/img/hd_degasperi.png')
+    if n==6:insert_img(wins,3815.0,3816.45,W+'/img/hd_fanfanimoro.png');insert_img(wins,3816.45,3824.6,W+'/img/hd_fanfanimoro.png')
     sc_title(part,n)
     L=AN_LIST[n]
     starts=[ps]+[x[1] for x in L];ends=[x[0] for x in L]+[pe]
@@ -245,6 +255,7 @@ def do_arg(part,n,first_in_part=False):
         seg=clip_windows(wins,starts[i],ends[i])
         prof_piece(part,f'P{n}{"abc"[i]}',seg,kw,label,title)
         if i<len(L):sc_an(part,n,L[i][2],'' if i==0 else 'b')
+    if n==3:sc_an(part,3,'AN3a','')
     if n in MAPSET:
         key,vn=MAPSET[n];sc_map(part,n,key,vn)
     sc_pill(part,n)
