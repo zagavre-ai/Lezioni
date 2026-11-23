@@ -1,37 +1,37 @@
 {
  "materia": "Storia V",
- "titolo": "Storia V · Lezione 9 · L'Italia del regime fascista · Parte 1",
- "durata_s": 2576.9,
+ "titolo": "L’Italia del regime fascista (1925-1938) · Parte 1",
+ "durata_s": 2528.9,
  "argomenti": [
   {
    "n": 1,
    "titolo": "La svolta autoritaria",
-   "inizio_s": 146.633,
-   "quiz_s": 448.333
+   "inizio_s": 159.133,
+   "quiz_s": 446.967
   },
   {
    "n": 2,
    "titolo": "Lo Stato fascistizzato",
-   "inizio_s": 453.333,
-   "quiz_s": 1155.433
+   "inizio_s": 451.033,
+   "quiz_s": 1178.633
   },
   {
    "n": 3,
    "titolo": "Il consolidamento del potere",
-   "inizio_s": 1160.433,
-   "quiz_s": 1757.433
+   "inizio_s": 1182.7,
+   "quiz_s": 1737.433
   },
   {
    "n": 4,
    "titolo": "La gioventù fascista",
-   "inizio_s": 1762.433,
-   "quiz_s": 2167.5
+   "inizio_s": 1741.5,
+   "quiz_s": 2135.233
   },
   {
    "n": 5,
    "titolo": "La riforma Gentile",
-   "inizio_s": 2172.5,
-   "quiz_s": 2501.967
+   "inizio_s": 2139.3,
+   "quiz_s": 2455.933
   }
  ],
  "quiz": {
