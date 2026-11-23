@@ -6,7 +6,7 @@
    "voci": "segnaposto"
   }
  },
- "manca": "voci Kore (dalle 9:00), risposta sui compiti, 2 opere da Commons (Füssli L'incubo, Turner Slave Ship). Montaggio completo con voci provvisorie già fatto: Parte 1 circa 60 min (copertina, argomenti 1-4), Parte 2 circa 14 min (spiegone + argomento 5 + fine). Rifaccio i pezzi del prof con correzioni di layout e poi aspetto le voci.",
+ "manca": "voci Kore (non arrivate alle 11:00), compiti (PDF sbagliato), 2 opere Commons",
  "serve_master": [
   {
    "quando": "22/11 22:47",
@@ -38,10 +38,14 @@
   {
    "quando": "23/11 01:30",
    "testo": "storia arte 22/11: montaggio provvisorio pronto, peso 338+93 MB, controllo rapido: solo picco audio da correggere (fatto). Divisione in 2 Parti proposta: totale 72 min > 65."
+  },
+  {
+   "quando": "23/11 10:00",
+   "testo": "11:00: ancora nessuna voce. Pronto per ripartire appena arrivano: servono ~90 min. Ricontrollo alle 11:45."
   }
  ],
  "materia": "Storia dell'arte V",
  "lezione": "Lezione 2 · Il Romanticismo",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-23 09:00:37"
+ "aggiornato": "2026-11-23 10:00:43"
 }
