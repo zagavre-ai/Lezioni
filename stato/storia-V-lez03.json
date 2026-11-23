@@ -911,6 +911,10 @@
   {
    "quando": "23/11 01:08",
    "testo": "Per le sigle sempre rispiegate a voce: AN21 dice PSI, R5 dice INA, AN16 e R8 dicono Fiat senza spiegarle. Servono versioni nuove di queste 4 voci (stesso testo con la sigla spiegata). Dimmi se le rifai tu o le tengo cosi'."
+  },
+  {
+   "quando": "23/11 10:42",
+   "testo": "Ripartita. Aggiunta in testi_voci.json la voce COMPITI (compiti del prof in fila + riga finale «Svolgi i compiti qui sotto e premi Consegna…»), come da regola Sara 22/11. Serve generarla. Intanto sistemo le schede Quiz/Verifica («Rispondi · premi Controlla · poi Continua»). Resto attiva e guardo DALLA_MASTER ogni 20 minuti."
   }
  ],
  "domande_sara": [],
@@ -1002,6 +1006,6 @@
  ],
  "materia": "Storia V",
  "lezione": "Lezione 3 · L'Italia di Giolitti",
- "aggiornato": "2026-11-23 09:34:28",
+ "aggiornato": "2026-11-23 10:42:05",
  "docente": "Prof. Giorgio Mazzotti"
 }
