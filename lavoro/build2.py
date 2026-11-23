@@ -80,7 +80,7 @@ def main():
         if os.path.exists(f'{W}/slpng/{nm}.png') and not os.environ.get('RIFAI'): continue
         if k[0] == 'cover': items.append((nm, sl2.cover(True)))
         elif k[0] == 'txt': items.append((nm, sl2.txt_slide(k[1], k[2], k[3], cp, page[('txt', k[1], k[2])])))
-        elif k[0] == 'img': items.append((nm, sl2.img_slide(k[2], [f'{W}/img/up_{f[3:]}' if False else f'{W}/img/{f}' for f in IMGFILES[k[1]]], page[('img', k[1])])))
+        elif k[0] == 'img': items.append((nm, sl2.img_slide(k[2], [f'{W}/img/z_{k[1]}_{k[3]}.png'], page[('img', k[1])])))
     sl2.render(items, W + '/slpng')
     for name, a, b, T, subs, runs in data:
         out = f'{W}/pieces/{name}.mp4'

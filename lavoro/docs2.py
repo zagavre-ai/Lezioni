@@ -65,7 +65,7 @@ def kore_cues():
     voice_cues('riepilogo', 0.8, 'FIN', cues)
     for g in (1, 2):
         i = json.load(open(f'{W}/info/CPS{g}.json'))
-        for (off, kind, path), nm in zip(i['audio'], [f'CPT{2 * g - 1}', f'CPT{2 * g}']): voice_cues(f'compito{g}', off, nm, cues)
+        for (off, kind, path), nm in zip(i['audio'], [f'CPT{2 * g - 1}', f'CPT{2 * g}', 'CHIUSURA_COMPITI']): voice_cues(f'compito{g}', off, nm, cues)
     return cues
 
 def snap_onsets(cues):

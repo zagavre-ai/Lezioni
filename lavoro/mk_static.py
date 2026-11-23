@@ -97,7 +97,7 @@ def build_schema():
         piece = f'S{pos}'
         if done(piece, sig): continue
         pg = PAGES[('schema', n)]
-        items = [(f'sch{n}_{k}', sl2.schema(n, k, pg)) for k in range(NC)] + [(f'sch{n}_x', sl2.schema(n, 99, pg)), (f'sch{n}_e', sl2.schema(n, -1, pg))]
+        items = [(f'sch{n}_{k}', sl2.schema(n, k, pg)) for k in range(NC)] + [(f'sch{n}_x', sl2.schema(n, 99, pg)), (f'sch{n}_e', sl2.schema(n, 99, pg))]
         sl2.render(items, W + '/slpng')
         t = 0.6; starts_ = []; audio = []
         for k in range(NC): audio.append((t, 'wav', vf(names[k]))); starts_.append(t); t += ds[k] + 0.9
@@ -124,14 +124,20 @@ def build_gloss():
 
 def build_compiti():
     comp = [c['testo'] for c in json.load(open(W + '/compiti.json'))['compiti']]
+    chius = os.path.exists(f'{VOX48}/CHIUSURA_COMPITI.wav')
     for g in (1, 2):
-        names = [f'CPT{2 * g - 1}', f'CPT{2 * g}']; ds = [vdur(x) for x in names]; sig = [round(x, 2) for x in ds]; piece = f'CPS{g}'
+        names = [f'CPT{2 * g - 1}', f'CPT{2 * g}'] + (['CHIUSURA_COMPITI'] if (g == 2 and chius) else []); ds = [vdur(x) for x in names]; sig = [round(x, 2) for x in ds] + [chius]; piece = f'CPS{g}'
         if done(piece, sig): continue
         pg = PAGES[('cmp', g)]; k0 = 2 * g - 1; tt = comp[k0 - 1:k0 + 1]
-        sl2.render([(f'cps{g}_{i}', sl2.compiti2(k0, tt, i, pg)) for i in (-1, 0, 1)], W + '/slpng')
+        items = [(f'cps{g}_a', sl2.compiti2(k0, tt, 0, pg, shown=1)), (f'cps{g}_b', sl2.compiti2(k0, tt, 1, pg, shown=2))]
+        if len(names) == 3: items.append((f'cps{g}_c', sl2.compiti2(k0, tt, -1, pg, shown=2, chiusura=True)))
+        sl2.render(items, W + '/slpng')
         t = 0.5; ev = []; audio = []
-        for i in range(2): audio.append((t, 'wav', vf(names[i]))); ev.append(t); t += ds[i] + 0.9
-        N = fr(t - 0.9 + 1.2); st = [(f'{W}/slpng/cps{g}_-1.png', fr(ev[0] - 0.1)), (f'{W}/slpng/cps{g}_0.png', fr(ev[1] - 0.1) - fr(ev[0] - 0.1)), (f'{W}/slpng/cps{g}_1.png', N - fr(ev[1] - 0.1))]
+        for i in range(len(names)): audio.append((t, 'wav', vf(names[i]))); ev.append(t); t += ds[i] + 0.9
+        N = fr(t - 0.9 + 1.2); st = [(f'{W}/slpng/cps{g}_a.png', fr(ev[1] - 0.1))]
+        if len(names) == 3:
+            st.append((f'{W}/slpng/cps{g}_b.png', fr(ev[2] - 0.1) - st[0][1])); st.append((f'{W}/slpng/cps{g}_c.png', N - fr(ev[2] - 0.1)))
+        else: st.append((f'{W}/slpng/cps{g}_b.png', N - st[0][1]))
         static_piece(st, f'{W}/pieces/{piece}.mp4'); save(piece, N, audio, dict(sig=sig))
 
 if __name__ == '__main__':

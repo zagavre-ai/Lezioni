@@ -1,7 +1,7 @@
-durata 62:03.1 (3723.1 s) | fotogrammi 111694 (attesi 111694) OK | peso 331.6 MB (316.3 MiB) OK | 1920x1080 OK
+durata 62:10.8 (3730.8 s) | fotogrammi 111925 (attesi 111925) OK | peso 337.9 MB (322.3 MiB) OK | 1920x1080 OK
 quiz 10 scatto 0,0 s: OK
 fermi immagine nei pezzi del docente: nessuno OK
 volume del parlato (mediana dei pezzi del docente): -15.2 LUFS OK
-sottotitoli: 861 blocchi, sovrapposti 0, oltre la fine 0, attacco sulla voce entro 0,3 s: 100% di 15 verificabili OK
+sottotitoli: 863 blocchi, sovrapposti 0, oltre la fine 0, attacco sulla voce entro 0,3 s: 100% di 16 verificabili OK
 foglio di miniature: Storia_Lez15_Parte1_1080p.mp4.miniature.jpg
 ESITO: TUTTO OK

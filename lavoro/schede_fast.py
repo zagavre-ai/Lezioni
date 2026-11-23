@@ -65,7 +65,7 @@ window.init=function(sp){SP=sp;
   <div class="abs kick" id=kk style="left:160px;top:300px;color:#5BD6F0">${[...'Pausa del video · Quiz'].map(c=>`<span>${c==' '?'&nbsp;':c}</span>`).join('')}</div>
   <div class=abs id=tt style="left:160px;top:370px"><div class=mask><div class="ttl ln" data-i=0 style="font-size:150px">${sp.act}</div></div><div class=mask><div class="ttl ln" data-i=1 style="font-size:${sp.tfs||84}px;color:#E3A95C;margin-top:10px">${sp.topic}</div></div></div>
   <div class="abs glass" id=ch style="left:160px;top:760px;padding:26px 44px;font-weight:700;font-size:40px">${sp.pts}</div>
-  <div class="abs" id=hint style="left:160px;top:900px;font-weight:500;font-size:34px;color:rgba(243,245,250,.8)">Rispondi alle domande · poi premi <b class=cy>Continua</b></div>
+  <div class="abs" id=hint style="left:160px;top:900px;font-weight:500;font-size:34px;color:rgba(243,245,250,.8)">Rispondi · premi <b class=cy>Controlla</b> · poi <b class=cy>Continua</b></div>
   <div class=abs id=ring style="left:1380px;top:420px;width:240px;height:240px"></div><div id=dots></div>`);
   $('dots').innerHTML=Array.from({length:22},(_,i)=>`<i class=abs data-d=${i} style="left:${1000+(i*83)%800}px;top:1080px;width:${8+(i%4)*4}px;height:${8+(i%4)*4}px;border-radius:50%;background:${['#5BD6F0','#E3A95C','#fff'][i%3]};opacity:0"></i>`).join('');
   $('ring').innerHTML=`<div class=abs style="inset:0;border-radius:50%;border:4px solid #5BD6F0"></div><div class=abs style="inset:60px;border-radius:50%;background:#5BD6F0;display:flex;align-items:center;justify-content:center"><div style="margin-left:10px;border-left:44px solid #0B1530;border-top:28px solid transparent;border-bottom:28px solid transparent"></div></div>`;

@@ -4,11 +4,11 @@ Una sola Parte, sul video originale del prof (2540,2 s). Ogni affermazione è ma
 
 ## 1 · Misure sul video finale
 ```
-durata 62:03.1 (3723.1 s) | fotogrammi 111694 (attesi 111694) OK | peso 331.6 MB (316.3 MiB) OK | 1920x1080 OK
+durata 62:10.8 (3730.8 s) | fotogrammi 111925 (attesi 111925) OK | peso 337.9 MB (322.3 MiB) OK | 1920x1080 OK
 quiz 10 scatto 0,0 s: OK
 fermi immagine nei pezzi del docente: nessuno OK
 volume del parlato (mediana dei pezzi del docente): -15.2 LUFS OK
-sottotitoli: 861 blocchi, sovrapposti 0, oltre la fine 0, attacco sulla voce entro 0,3 s: 100% di 15 verificabili OK
+sottotitoli: 863 blocchi, sovrapposti 0, oltre la fine 0, attacco sulla voce entro 0,3 s: 100% di 16 verificabili OK
 foglio di miniature: Storia_Lez15_Parte1_1080p.mp4.miniature.jpg
 ESITO: TUTTO OK
 
@@ -62,10 +62,17 @@ ESITO: TUTTO OK
 **Controllo severo della master (`controllo_severo.py`), esito: OK** [misurato]. Copertina con titolo intero; schermate identiche oltre 3 min: 0; slide con lo stesso titolo oltre 3 min: 0; card sole oltre 60 s: 0; pause oltre 2,5 s: 0; loudness -16.0 LUFS; tono della voce (6 campioni, Hz): [164, 148, 148, 152, 156, 145].
 
 ## 4 · Voci Kore
-Voci Kore **definitive** controllate (trascritte e confrontate, bordi misurati).
+Voci Kore definitive controllate (trascritte e confrontate, bordi misurati). **Unica provvisoria: CHIUSURA_COMPITI** («Svolgi i compiti qui sotto e premi Consegna: arrivano al docente nel tuo quaderno dei compiti»), richiesta alla master il 23/11 dopo la nuova regola: nel video c'è un tono al suo posto, la frase è già sullo schermo.
 - Controllo fatto sulle 115 voci esistenti (trascrizione e confronto parola per parola [misurato]): differenze solo di numeri scritti in cifre dall'ASR; voci da rifare perché sbagliate o con bordo finale ≥ 0,03: **GL1** (il file era il glossario intero di 33 s), **SC6_1, AN7, AN8, AN9** (troncate, ampiezza finale 0,10-0,23), PI3, SC10_1, GL3, GL4, GL7, AN5 (0,03-0,07). AN8 anche «DA CONTROLLARE» dalla master.
 - Ogni voce nel montaggio: silenzio di testa/coda tolto, dissolvenza 30 ms, −16 LUFS.
 - Pronuncia dei nomi stranieri (Dien Bien Phu, Vietminh, Nkrumah, Mau Mau, Ceylon…): non ascoltata [non verificato]; l'ASR legge «Dien Bien Phu» come «bian fu» in AN8.
+
+## 4b · Correzioni della master del 23/11 01:15 (RESPINTA, rifatto)
+1. **Pillole di ripasso**: ora a tutto schermo in blu scuro (come la scheda RIPASSO), 4 righe sempre visibili che si accendono in giallo con la voce (prima: tabella su fondo bianco con una riga sola nei campioni a 42:22 e 57:47) [misurato: controllo_rapido OK, foglio guardato].
+2. **Cartine del prof grandi**: «La decolonizzazione dell'Africa» (pagina 11 del PDF) e «L'inizio della questione palestinese» (pagina 13) ora a tutta altezza nell'area slide (area 1316×716 px invece di 1290×630), dal file del prof (non c'è sorgente migliore nel PDF); per l'Africa lo zoom si sposta in 6 zone seguendo ciò che dice il prof (Liberia, Africa francese, britannica, italiana, portoghese, intera). Tolti il QR «Atlante interattivo» (non funzionante) e il cerchietto sul bordo sinistro. Sorgenti piccole (777×610 e 1037×637): ingrandite, leggibili ma morbide.
+3. «Check» → «Rispondi · premi Controlla · poi Continua» sulle schede quiz e verifica.
+4. Compiti: compaiono uno alla volta con bordo giallo mentre la voce li legge; in fondo la frase «Svolgi i compiti qui sotto e premi Consegna…» (voce provvisoria).
+5. `controllo_rapido.py`: ESITO OK; foglio e json sul ramo (`foglio_fotogrammi_…jpg`, `controllo_rapido_….json`); foglio guardato.
 
 ## 5 · Cosa è stato rifatto (correzioni 22/11)
 1. **Slide del prof**: card a 40 px, interlinea 1,5, finestre da 3 card (4 card del prof → due sotto-slide «a finestra» che si sovrappongono; argomento 10: finestre da 2 card perché le sigle espanse non entrano); card intere dal PDF del prof; bordo giallo + pallino all'inizio della frase (cue ricavati a mano dalla trascrizione). Fondo bianco, riquadro 4:3 (412×309 a x=1428, y=148), fascia gialla col nome solo lì; piè di pagina senza il nome del docente.

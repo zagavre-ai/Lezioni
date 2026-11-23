@@ -67,6 +67,13 @@ def plan():
     for T in topics: T['cards'] = cue_track(T['n'])
     return segs, topics, intro, pageidx, dmin, isimg
 
+ZOOM = {11: [(1722.0, 0), (1738.0, 1), (1765.0, 2), (1793.0, 3), (1815.0, 4), (1837.0, 5), (1878.0, 0)], 13: [(2102.0, 0)]}
+def zoom_idx(pg, t):
+    z = 0
+    for a, k in ZOOM.get(pg, []):
+        if t >= a: z = k
+    return z
+
 def state_at(t, T, pageidx, isimg):
     """chiave slide al secondo sorgente t dentro l'argomento T: ('txt', n, finestra, card) oppure ('img', pagina, argomento)"""
     for a, b, n2, c2 in OVERRIDE.get(T['n'], []):
@@ -74,7 +81,7 @@ def state_at(t, T, pageidx, isimg):
     ts = int(min(max(t, 0), len(pageidx) - 1)); w = isimg[max(0, ts - 2):ts + 3]
     if w.sum() >= 3:
         pg = int(np.bincount(pageidx[max(0, ts - 2):ts + 3][w]).argmax())
-        return ('img', pg, IMG_TOPIC.get(pg, T['n']))
+        return ('img', pg, IMG_TOPIC.get(pg, T['n']), zoom_idx(pg, t))
     c = -1; w = 0
     for tt, k, ww in T['cards']:
         if tt <= t: c = k; w = ww

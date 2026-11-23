@@ -21,13 +21,13 @@ def build_pages():
         if key == ('cover',): continue
         if key == ('agenda',): h = sl2.agenda(-1, pg)
         elif key[0] == 'txt': h = sl2.txt_slide(key[1], key[2], -1, cp, pg, prof=False)
-        elif key[0] == 'img': h = sl2.img_slide(IMG_TOPIC[key[1]], [f'{W}/img/{f}' for f in IMGFILES[key[1]]], pg, prof=False)
+        elif key[0] == 'img': h = sl2.img_slide(IMG_TOPIC[key[1]], [f'{W}/img/z_{key[1]}_0.png'], pg, prof=False)
         elif key[0] == 'an':
             an = key[1]; n = next(n for n in GLOBAL_ORDER if an in AN_OF[n]); ss = MS.sents(MS.TXT[f'AN{an}'])
             lab = f"{GLOBAL_ORDER.index(n) + 1:02d} · {ARG[n - 1]['nome']} · APPROFONDIMENTO"; h = sl2.an_slide(lab, ss[0].rstrip('.'), ss[1:], -1, len(ss) - 1, pg)
         elif key[0] == 'schema': h = sl2.schema(key[1], 99, pg)
         elif key[0] == 'gloss': h = sl2.gloss(-1, pg)
-        elif key[0] == 'cmp': k0 = 2 * key[1] - 1; h = sl2.compiti2(k0, [c['testo'] for c in json.load(open(W + '/compiti.json'))['compiti']][k0 - 1:k0 + 1], -1, pg)
+        elif key[0] == 'cmp': k0 = 2 * key[1] - 1; h = sl2.compiti2(k0, [c['testo'] for c in json.load(open(W + '/compiti.json'))['compiti']][k0 - 1:k0 + 1], -1, pg, chiusura=(key[1] == 2))
         else: continue
         out.append((pg, str(key), h))
     return out

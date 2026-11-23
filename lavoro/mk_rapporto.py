@@ -7,7 +7,7 @@ cs = ''
 if os.path.exists(OUT + '/cs_final.txt'):
     t = open(OUT + '/cs_final.txt').read(); j = json.loads(t[t.index('{'):])
     cs = '\n**Controllo severo della master (`controllo_severo.py`), esito: %s** [misurato]. Copertina %s; schermate identiche oltre 3 min: %s; slide con lo stesso titolo oltre 3 min: %s; card sole oltre 60 s: %s; pause oltre 2,5 s: %s; loudness %s LUFS; tono della voce (6 campioni, Hz): %s.\n' % (j['ESITO'], 'con titolo intero' if j['copertina_titolo_presente'] else 'NON OK', len(j['schermata_identica_oltre_3min']), len(j['slide_stesso_titolo_oltre_3min']), len(j['una_card_sola_oltre_60s']), j['silenzi_oltre_3s'], j['lufs'], j['voce_tono_hz'])
-voci = ('Voci Kore **definitive** controllate (trascritte e confrontate, bordi misurati).' if V == 'vere' else
+voci = ('Voci Kore definitive controllate (trascritte e confrontate, bordi misurati). **Unica provvisoria: CHIUSURA_COMPITI** («Svolgi i compiti qui sotto e premi Consegna: arrivano al docente nel tuo quaderno dei compiti»), richiesta alla master il 23/11 dopo la nuova regola: nel video c\'è un tono al suo posto, la frase è già sullo schermo.' if V == 'vere' else
         '**ATTENZIONE: nel video ci sono ancora voci PROVVISORIE** (un tono al posto di BEN_R2 «benvenuto», DP «Di cosa parliamo» e CPT1-4 «compiti»), e per le 11 voci da rifare e le 5 con le sigle rispiegate sono usate quelle vecchie. La lezione NON è definitiva finché la master non manda le voci: le richieste sono nel ramo `voci-storia-V-lez15` (testi_voci.json: BEN_R2, DP, CPT1-CPT4, PI3_R2, SC6_1_R2, SC10_1_R2, GL1_R2, GL3_R2, GL4_R2, GL7_R2, AN5_R2, AN7_R2, AN8_R2, AN9_R2, SC7_2_R3, SC8_2_R3, SC10_4_R3, AN15_R3, AN20_R3). Appena arrivano si rifà il montaggio (un solo comando).')
 man = f'''
 {cs}
@@ -16,6 +16,13 @@ man = f'''
 - Controllo fatto sulle 115 voci esistenti (trascrizione e confronto parola per parola [misurato]): differenze solo di numeri scritti in cifre dall'ASR; voci da rifare perché sbagliate o con bordo finale ≥ 0,03: **GL1** (il file era il glossario intero di 33 s), **SC6_1, AN7, AN8, AN9** (troncate, ampiezza finale 0,10-0,23), PI3, SC10_1, GL3, GL4, GL7, AN5 (0,03-0,07). AN8 anche «DA CONTROLLARE» dalla master.
 - Ogni voce nel montaggio: silenzio di testa/coda tolto, dissolvenza 30 ms, −16 LUFS.
 - Pronuncia dei nomi stranieri (Dien Bien Phu, Vietminh, Nkrumah, Mau Mau, Ceylon…): non ascoltata [non verificato]; l'ASR legge «Dien Bien Phu» come «bian fu» in AN8.
+
+## 4b · Correzioni della master del 23/11 01:15 (RESPINTA, rifatto)
+1. **Pillole di ripasso**: ora a tutto schermo in blu scuro (come la scheda RIPASSO), 4 righe sempre visibili che si accendono in giallo con la voce (prima: tabella su fondo bianco con una riga sola nei campioni a 42:22 e 57:47) [misurato: controllo_rapido OK, foglio guardato].
+2. **Cartine del prof grandi**: «La decolonizzazione dell'Africa» (pagina 11 del PDF) e «L'inizio della questione palestinese» (pagina 13) ora a tutta altezza nell'area slide (area 1316×716 px invece di 1290×630), dal file del prof (non c'è sorgente migliore nel PDF); per l'Africa lo zoom si sposta in 6 zone seguendo ciò che dice il prof (Liberia, Africa francese, britannica, italiana, portoghese, intera). Tolti il QR «Atlante interattivo» (non funzionante) e il cerchietto sul bordo sinistro. Sorgenti piccole (777×610 e 1037×637): ingrandite, leggibili ma morbide.
+3. «Check» → «Rispondi · premi Controlla · poi Continua» sulle schede quiz e verifica.
+4. Compiti: compaiono uno alla volta con bordo giallo mentre la voce li legge; in fondo la frase «Svolgi i compiti qui sotto e premi Consegna…» (voce provvisoria).
+5. `controllo_rapido.py`: ESITO OK; foglio e json sul ramo (`foglio_fotogrammi_…jpg`, `controllo_rapido_….json`); foglio guardato.
 
 ## 5 · Cosa è stato rifatto (correzioni 22/11)
 1. **Slide del prof**: card a 40 px, interlinea 1,5, finestre da 3 card (4 card del prof → due sotto-slide «a finestra» che si sovrappongono; argomento 10: finestre da 2 card perché le sigle espanse non entrano); card intere dal PDF del prof; bordo giallo + pallino all'inizio della frase (cue ricavati a mano dalla trascrizione). Fondo bianco, riquadro 4:3 (412×309 a x=1428, y=148), fascia gialla col nome solo lì; piè di pagina senza il nome del docente.

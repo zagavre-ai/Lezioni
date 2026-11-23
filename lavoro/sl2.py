@@ -8,6 +8,7 @@ W = '/tmp/claude-0/l15'
 FD = '/home/user/Lezioni/scambio/strumenti/font'
 CHROME = '/opt/pw-browsers/chromium-1243/chrome-linux64/chrome'
 LOGO = base64.b64encode(open(W + '/logo_blu.svg', 'rb').read()).decode()
+LOGO_W = base64.b64encode(open(W + '/Telesio_logo_bianco.svg', 'rb').read()).decode()
 MATERIA = 'Storia V'
 CSS = """
 @font-face{font-family:'BG';font-weight:800;src:url('file://%(f)s/BricolageGrotesque-ExtraBold.ttf')}
@@ -38,8 +39,8 @@ body{width:1920px;height:1080px;background:#fff;font-family:'FG';color:#0B1530;p
 .pk h4{font-weight:800;font-size:24px;letter-spacing:.2em;color:#2060AF;margin-bottom:10px}
 .pk div{font-weight:700;font-size:28px;line-height:1.25;padding:5px 10px;border-radius:10px;color:#0B1530;margin-bottom:2px}
 .pk div.on{background:#FFE600}
-.imgbox{margin-top:24px;width:1300px;height:700px;border-radius:20px;border:3px solid #E3E7EF;display:flex;align-items:center;justify-content:center;gap:24px;background:#fff;box-shadow:0 14px 40px rgba(30,40,70,.10);padding:14px}
-.imgbox img{max-height:670px;object-fit:contain}
+.imgbox{margin-top:12px;width:1320px;height:742px;border-radius:20px;border:3px solid #E3E7EF;display:flex;align-items:center;justify-content:center;gap:24px;background:#fff;box-shadow:0 14px 40px rgba(30,40,70,.10);padding:14px}
+.imgbox img{max-width:1316px;max-height:726px}
 .pill{position:absolute;left:80px;top:134px;background:#FFE600;border-radius:30px;padding:8px 26px;font-weight:800;font-size:26px;letter-spacing:.2em;color:#0B1530}
 .tbl{position:absolute;left:80px;top:330px;width:1760px;border-radius:20px;overflow:hidden;border:3px solid #E3E7EF;box-shadow:0 14px 40px rgba(30,40,70,.10)}
 .th{display:flex;background:#0B1530;color:#fff;font-weight:800;font-size:28px;letter-spacing:.14em;padding:18px 30px}
@@ -139,12 +140,29 @@ def agenda(active, page=2):
     return frame('', body, page, prof=False, pill='DI COSA PARLIAMO')
 
 def schema(n, active, page):
+    """pillola di ripasso: scheda in blu scuro a tutto schermo, 4 righe sempre visibili che si accendono con la voce"""
     a = ARG[n - 1]; rows = ''
     for i, (kw, fr) in enumerate(a['schema']):
         txt = re.sub(r'^(Primo|Secondo|Terzo|Quarto|Quinto): ', '', fr); txt = txt[0].upper() + txt[1:]
-        rows += f"<div class='tr {'on' if i == active else ''}' style='opacity:{1 if i <= active else 0}'><span>{esc(kw)}</span><span>{esc(DISP(txt))}</span></div>"
-    body = f"<div class=main style='top:176px'><div class=ttl>{esc(a['titolo'])}</div></div><div class=tbl><div class=th><span>PAROLA CHIAVE</span><span>DA RICORDARE</span></div>{rows}</div>"
-    return frame('', body, page, prof=False, pill='PILLOLA DI STORIA')
+        rows += f"<div class='sr {'on' if i == active else ''}'><b>{esc(kw)}</b><span>{esc(DISP(txt))}</span></div>"
+    css = """<style>
+body{background:#070C1F}
+#bg{position:absolute;inset:0;background:radial-gradient(1400px 900px at 30% 20%,#13224A 0%,#0A1330 55%,#060A1B 100%)}
+.hl,.fl{display:none}
+.pill{background:#E3A95C;color:#0B1530}
+.dttl{position:absolute;left:80px;top:190px;width:1760px;font-family:'BG';font-weight:800;font-size:64px;color:#fff;line-height:1.05}
+.sg{position:absolute;left:80px;top:300px;width:1760px}
+.sr{display:flex;align-items:center;gap:36px;border:3px solid rgba(255,255,255,.22);border-radius:24px;background:rgba(255,255,255,.07);min-height:146px;margin-bottom:18px;padding:12px 36px;color:#fff;font-size:38px;line-height:1.3;font-weight:500}
+.sr b{flex:0 0 520px;font-weight:800;font-size:42px;color:#E3A95C}
+.sr.on{background:#FFE600;border-color:#FFE600;color:#0B1530}.sr.on b{color:#0B1530}
+.foot{color:#9DB7E6}
+</style>"""
+    h = f"<html><head><meta charset=utf-8><style>{CSS}</style>{css}</head><body><div id=bg></div>"
+    h += f"<img id=logo src='data:image/svg+xml;base64,{LOGO_W}'>"
+    h += "<div class=pill>PILLOLA DI STORIA</div>"
+    h += f"<div class=dttl>{esc(a['titolo'])}</div><div class=sg>{rows}</div>"
+    h += f"<div class=foot style='left:80px'>{MATERIA}</div><div class=foot style='right:80px'>Pagina {page}</div></body></html>"
+    return h
 
 UN = {'': 0, 'uno': 1, 'un': 1, 'due': 2, 'tre': 3, 'quattro': 4, 'cinque': 5, 'sei': 6, 'sette': 7, 'otto': 8, 'nove': 9, 'dieci': 10, 'undici': 11, 'dodici': 12, 'tredici': 13,
       'quattordici': 14, 'quindici': 15, 'sedici': 16, 'diciassette': 17, 'diciotto': 18, 'diciannove': 19}
@@ -204,11 +222,15 @@ def cover_dispensa():
     h += f"<div class=foot style='left:80px'>{MATERIA}</div><div class=foot style='right:80px'>Pagina 1</div>"
     return h + "</body></html>"
 
-def compiti2(k0, testi, active, page):
-    """due compiti per schermata, testo 40 px: ogni compito e' una card che si accende con la voce"""
+def compiti2(k0, testi, active, page, shown=None, chiusura=False):
+    """compiti: compaiono uno alla volta, card con bordo giallo mentre la voce li legge"""
+    shown = len(testi) if shown is None else shown
     cards = ''
     for i, t in enumerate(testi):
+        if i >= shown: break
         cls = 'on' if i == active else 'dim' if active >= 0 else ''
         cards += f"<div class='card {cls}' style='width:1760px'><div class=num>{k0 + i}</div><div>{esc(t)}</div></div>"
+    if chiusura:
+        cards += "<div class='card on' style='width:1760px;margin-top:22px'><div class=num>&#10003;</div><div>Svolgi i compiti qui sotto e premi Consegna: arrivano al docente nel tuo quaderno dei compiti.</div></div>"
     body = f"<div class=main style='width:1760px'><div class=ttl>Compiti</div><div class=cards>{cards}</div></div>"
     return frame('COMPITI DEL DOCENTE', body, page, prof=False)
