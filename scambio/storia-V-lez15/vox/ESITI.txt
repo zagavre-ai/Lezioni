@@ -1,20 +1,12 @@
-AN1 OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
-AN2 OK frasi trovate 1 / 1 parole diverse 1 (vere 0) tentativi 1
-AN3 OK frasi trovate 1 / 1 parole diverse 2 (vere 0) tentativi 1
-AN4 OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
-AN5 OK frasi trovate 1 / 1 parole diverse 3 (vere 2) tentativi 1
-AN6 OK frasi trovate 1 / 1 parole diverse 3 (vere 3) tentativi 1
-AN7 OK frasi trovate 1 / 1 parole diverse 3 (vere 0) tentativi 1
-AN8 DA CONTROLLARE frasi trovate 1 / 1 parole diverse 6 (vere 6) tentativi 1
-AN9 OK frasi trovate 1 / 1 parole diverse 4 (vere 2) tentativi 1
-AN10 OK frasi trovate 1 / 1 parole diverse 1 (vere 0) tentativi 1
-AN11 OK frasi trovate 1 / 1 parole diverse 4 (vere 2) tentativi 1
-AN12 OK frasi trovate 1 / 1 parole diverse 2 (vere 1) tentativi 1
-AN13 OK frasi trovate 1 / 1 parole diverse 3 (vere 1) tentativi 1
-AN14 OK frasi trovate 1 / 1 parole diverse 3 (vere 2) tentativi 1
-AN15 OK frasi trovate 1 / 1 parole diverse 2 (vere 0) tentativi 1
-AN16 OK frasi trovate 1 / 1 parole diverse 2 (vere 1) tentativi 1
-AN17 OK frasi trovate 1 / 1 parole diverse 5 (vere 3) tentativi 1
-AN18 OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
-AN19 OK frasi trovate 1 / 1 parole diverse 2 (vere 3) tentativi 1
-AN20 OK frasi trovate 1 / 1 parole diverse 1 (vere 0) tentativi 1
+BEN_R2 OK frasi trovate 1 / 1 parole diverse 2 (vere 0) tentativi 1
+CPT1 OK frasi trovate 1 / 1 parole diverse 3 (vere 2) tentativi 1
+CPT3 OK frasi trovate 1 / 1 parole diverse 1 (vere 0) tentativi 1
+PI3_R2 OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
+SC10_1_R2 OK frasi trovate 1 / 1 parole diverse 1 (vere 1) tentativi 1
+GL3_R2 OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
+GL7_R2 OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
+AN7_R2 OK frasi trovate 1 / 1 parole diverse 5 (vere 3) tentativi 1
+AN9_R2 OK frasi trovate 1 / 1 parole diverse 3 (vere 0) tentativi 1
+SC8_2_R3 OK frasi trovate 1 / 1 parole diverse 2 (vere 0) tentativi 1
+AN15_R3 OK frasi trovate 1 / 1 parole diverse 4 (vere 3) tentativi 1
+AN9_R2 DA CONTROLLARE durata fuori misura
