@@ -1,29 +1,29 @@
 # RAPPORTO DI REVISIONE · Storia · «Gli anni Novanta: il mondo post-bipolare» · CORREZIONI 22/11
-Chat `claude/keen-hypatia-d76anw` · ramo di consegna `revisione-storia-V-lez20` · 22/11/2026 22:49 UTC.
+Chat `claude/keen-hypatia-d76anw` · ramo di consegna `revisione-storia-V-lez20` · 23/11/2026 09:14 UTC.
 Ogni dato è etichettato **M** (misurato), **S** (a vista / stima) o **NV** (non verificato).
 
 ## 0. Cosa è stato fatto e cosa no (in breve)
 - Lezione **rimontata da zero** dall'originale del prof (release `mazzotti-storia-V`, zip 004): il montaggio precedente non era ricostruibile. Slide, mappe, quiz, pillole, quiz, glossario, ripasso finale, verifica, sigle e compiti sono nuovi.
-- **Due Parti**, tagliate a fine argomento 4 (decisione approvata dalla master): Parte 1 = 54:09, Parte 2 = 28:59. La Parte 2 è sotto i 50 minuti perché il materiale del prof è breve (CLAUDE.md §3.6: «va bene, non si allunga»).
+- **Due Parti**, tagliate a fine argomento 4 (decisione approvata dalla master): Parte 1 = 54:09, Parte 2 = 29:06. La Parte 2 è sotto i 50 minuti perché il materiale del prof è breve (CLAUDE.md §3.6: «va bene, non si allunga»).
 - **Voci provvisorie ancora presenti:** vedi §3. Finché non arrivano e non sono sostituite **questa consegna non è definitiva**.
 
 ## 1. Misure sui video finali (M)
 | | Parte 1 | Parte 2 |
 |---|---|---|
 | File | `Storia_Lez20_Parte1_1080p.mp4` | `Storia_Lez20_Parte2_1080p.mp4` |
-| Durata | 54:09 (3249.87 s) | 28:59 (1739.43 s) |
-| Fotogrammi / durata×30 | 97496 / 97496 | 52183 / 52183 |
-| Peso | 327.2 MB | 150.6 MB |
+| Durata | 54:09 (3249.87 s) | 29:06 (1746.13 s) |
+| Fotogrammi / durata×30 | 97496 / 97496 | 52384 / 52384 |
+| Peso | 327.3 MB | 150.8 MB |
 | Formato | 1920×1080, 30 fps, x264 veryfast (CRF 19 le schede, CRF 22 i pezzi del prof, per stare sotto 400 MB), AAC 192k 48 kHz | idem |
 | Volume | -16.3 LUFS, picco -3.2 dBFS | -16.1 LUFS, picco -2.7 dBFS |
-| sha256 | `de17ac02db6b96444398074f4579a590fc09d032531032fe576cf0341f5219d3` | `7e20a5ccb3ed30b07f399918c8452ba307c80319e72bf9c1840624bde5233d99` |
+| sha256 | `ae684d8596abb01c49877bdf5bf431e4a4622cfbb181761ab0631dac8354c31c` | `e86051e269c3551a79200cbc2d5558a4ee5403f8b665ceb99131d0580ab7dd3f` |
 
 Audio: una sola codifica AAC sull'intero programma (audio rifatto in un passaggio dai pezzi non compressi, così non ci sono scarti di durata). Video: ogni pezzo codificato una volta, uniti senza ricodifica.
 
 ### Controlli automatici
 - `controllo_finale.py` Parte 1:
 ```
-durata 54:09.9 (3249.9 s) | fotogrammi 97496 (attesi 97496) OK | peso 327.2 MB (312.0 MiB) OK | 1920x1080 OK
+durata 54:09.9 (3249.9 s) | fotogrammi 97496 (attesi 97496) OK | peso 327.3 MB (312.1 MiB) OK | 1920x1080 OK
 quiz 4 scatto 0,0 s: OK
 fermi immagine nei pezzi del docente: nessuno OK
 volume del parlato (mediana dei pezzi del docente): -16.4 LUFS OK
@@ -34,11 +34,11 @@ ESITO: DA SISTEMARE: sottotitoli
 ```
 - `controllo_finale.py` Parte 2:
 ```
-durata 28:59.4 (1739.4 s) | fotogrammi 52183 (attesi 52183) OK | peso 150.6 MB (143.7 MiB) OK | 1920x1080 OK
+durata 29:06.1 (1746.1 s) | fotogrammi 52384 (attesi 52384) OK | peso 150.8 MB (143.8 MiB) OK | 1920x1080 OK
 quiz 4 scatto 0,0 s: OK
 fermi immagine nei pezzi del docente: nessuno OK
 volume del parlato (mediana dei pezzi del docente): -15.8 LUFS OK
-sottotitoli: 424 blocchi, sovrapposti 0, oltre la fine 0, attacco sulla voce entro 0,3 s: 44% di 18 verificabili DA GUARDARE
+sottotitoli: 445 blocchi, sovrapposti 0, oltre la fine 0, attacco sulla voce entro 0,3 s: 29% di 14 verificabili DA GUARDARE
 foglio di miniature: out/Storia_Lez20_Parte2_1080p.mp4.miniature.jpg
 ESITO: DA SISTEMARE: sottotitoli
 
@@ -71,10 +71,7 @@ ESITO: DA SISTEMARE: sottotitoli
 - `PS3_4`: In Kosovo la NATO interviene anche senza il permesso dell'ONU; alla fine Milosevic viene arrestato e portato davanti alla Corte penale inter
 - `FINP1`: La prima parte finisce qui. Nella parte successiva trovi gli ultimi argomenti, il glossario, la verifica finale e i compiti.
 - `SP0`: Prima di continuare, facciamo un ripasso di tutto quello che abbiamo visto nella parte precedente, argomento per argomento.
-- `COMP1`: Analizza le conseguenze geopolitiche ed economiche del crollo dell'Unione Sovietica nel 1991, spiegando la tesi della "fine della storia" di
-- `COMP2`: Ricostruisci le cause e le principali fasi delle guerre nella ex Iugoslavia negli anni Novanta, soffermandoti sul conflitto in Bosnia Erzego
-- `COMP3`: Descrivi le principali trasformazioni politiche ed economiche dell'Europa e dell'Italia negli anni Novanta, illustrando la riunificazione te
-- `COMP4`: Esamina le dinamiche della globalizzazione e i nuovi equilibri economici in Asia alla fine del XX secolo, analizzando il modello cinese del 
+- `COMPITI`: Compiti. Esercizio uno. Analizza le conseguenze geopolitiche ed economiche del crollo dell'Unione Sovietica nel millenov…
 - Voci Kore già esistenti riusate (85 file dal ramo `voci-storia-V-lez20`): ognuna **trascritta** (Parakeet) e **confrontata parola per parola** con il suo testo (numeri in lettere convertiti), **bordi** misurati (ampiezza negli ultimi 50 ms < 0,03) e ogni voce portata a −16 LUFS con dissolvenze di 30–35 ms (M). Esito: tutte entro il 90 % di corrispondenza e bordi < 0,03 tranne voci **non usate** (GL1, INTRO1 in sostituzione, MAP*, MAPF1, che nel montaggio non compaiono) e differenze di sola grafia del riconoscitore (centrodestra / centro destra, Jugoslavia / Iugoslavia, Qaida / Qaeda). Da riascoltare a mano: `PS5_3` (il riconoscitore non ha trovato l'ultima parola «inedito»: possibile taglio, **NV**).
 - **Pronuncia dei nomi stranieri e latini: NV** (non posso ascoltare). Da far controllare: Fukuyama, Eltsin, Tienanmen, Srebrenica, Maastricht, Al-Qaeda, Milošević, Dayton, Seattle.
 - Testi: solo dal materiale del prof. Controllati contro la trascrizione: i fatti degli approfondimenti (Dayton 1995, Montenegro 2006, Kosovo 2008, Tangentopoli, Putin) sono tutti nel parlato del prof (S).
@@ -163,13 +160,10 @@ ESITO: DA SISTEMARE: sottotitoli
 | RF8 | 26:26 | 22.4 |
 | RFIN | 26:48 | 29.7 |
 | FIN | 27:18 | 10.1 |
-| VERIFICA | 27:28 | 4.6 |
-| SIGF2 | 27:33 | 5.0 |
-| COMPITI | 27:38 | 3.5 |
-| COMP1 | 27:41 | 19.8 |
-| COMP2 | 28:01 | 21.4 |
-| COMP3 | 28:23 | 17.4 |
-| COMP4 | 28:40 | 19.0 |
+| VERIFICA | 27:28 | 8.4 |
+| SIGF2 | 27:37 | 5.0 |
+| COMPITI | 27:42 | 3.5 |
+| COMPITI_V | 27:45 | 80.5 |
 
 
 ## 5. Refusi e anomalie nel materiale del prof
@@ -284,4 +278,4 @@ Non verificabili dall'agente: sincronia labbra, bordi delle voci, pronuncia dei 
 - Immagini piccole del prof: vedi §6.
 - «Ripetizioni e incespicamenti» del prof: tolte solo le pause; non ho tagliato interiezioni ed esitazioni dentro le frasi (per non rischiare tagli a metà frase).
 - Quiz, test e compiti: testi dei JSON precedenti (quiz 8×5, verifica da 10 domande dal file Excel del prof, compiti 4 esercizi), con i refusi corretti; la verifica nel video è una scheda con jingle (come i quiz) e le domande sono in `verifica_finale.json`: se la master vuole le domande lette nel video, va deciso.
-- Compiti nel video: schede con il testo del prof e voce (provvisoria finché non arrivano `COMP1–4`).
+- Compiti nel video: schede con il testo del prof e voce (provvisoria finché non arrivano `COMPITI`).

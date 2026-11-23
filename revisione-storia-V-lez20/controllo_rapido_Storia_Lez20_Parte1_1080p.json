@@ -1,0 +1,25 @@
+{
+ "video": "Storia_Lez20_Parte1_1080p.mp4",
+ "durata_min": 54.16,
+ "formato": "1920x1080 30/1",
+ "peso_MB": 312,
+ "LUFS": -16.3,
+ "picco_dBTP": -3.2,
+ "pause_mute": [
+  "32:18 (11.6 s)",
+  "43:02 (11.2 s)",
+  "53:55 (9.5 s)"
+ ],
+ "nome_docente_nel_pie_di_pagina": [],
+ "schede_con_fasce": [],
+ "schermate_ferme_oltre_3_min": [],
+ "titolo_in_copertina": "6/6 parole",
+ "foglio": "foglio_fotogrammi_Storia_Lez20_Parte1_1080p.jpg",
+ "ERRORI": [
+  "3 pause mute oltre 2,5 s: 32:18 (11.6 s), 43:02 (11.2 s), 53:55 (9.5 s)"
+ ],
+ "DA_GUARDARE": [
+  "Apri il foglio dei fotogrammi e controlla con gli occhi: fondo bianco; schede di titolo/quiz/ripasso in BLU SCURO a tutto schermo; card a 40 px e intere; nessun nome del docente fuori dalla fascia gialla; riquadro del docente giusto (Mazzotti 4:3, Caputi tondo); copertina con il titolo esatto; mappe del prof con la legenda BES; in fondo sigla finale con l'avviso dei diritti e intro «Compiti»."
+ ],
+ "ESITO": "DA CORREGGERE"
+}
