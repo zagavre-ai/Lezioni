@@ -9,11 +9,11 @@
    "sub_ok": "si",
    "vtt": "Storia_Lez5_Parte1.vtt",
    "video": "Storia_Lez5_Parte1_1080p.mp4",
-   "durata_s": 2673.2,
-   "durata": "44:33.2",
-   "fotogrammi": 80196,
-   "fotogrammi_attesi": 80196,
-   "peso_MB": 322.3,
+   "durata_s": 2748.2,
+   "durata": "45:48.2",
+   "fotogrammi": 82447,
+   "fotogrammi_attesi": 82447,
+   "peso_MB": 263.3,
    "scheda": {
     "materia": "Storia V",
     "titolo": "Storia V · Lezione 5 · La Rivoluzione russa e la nascita dell'URSS (1917-1922) · Parte 1",
@@ -297,11 +297,11 @@
    "sub_ok": "si",
    "vtt": "Storia_Lez5_Parte2.vtt",
    "video": "Storia_Lez5_Parte2_1080p.mp4",
-   "durata_s": 2100.4,
-   "durata": "35:00.4",
-   "fotogrammi": 63011,
-   "fotogrammi_attesi": 63011,
-   "peso_MB": 271.1,
+   "durata_s": 2146.1,
+   "durata": "35:46.1",
+   "fotogrammi": 64382,
+   "fotogrammi_attesi": 64382,
+   "peso_MB": 209.6,
    "scheda": {
     "materia": "Storia V",
     "titolo": "Storia V · Lezione 5 · La Rivoluzione russa e la nascita dell'URSS (1917-1922) · Parte 2",
@@ -716,9 +716,17 @@
   {
    "quando": "23/11 07:31",
    "testo": "23/11 07:35 UTC: pronto tutto il montaggio con voci provvisorie. Arrivate 10 voci su 18. Mancano GL2_R2 FIN1_R2 MP1 MP2 MP3 MP4 VER1 e la voce COMPITI (nuova regola: testo CO1 + frase finale, caricata su voci-storia-V-lez05). Appena ci sono rifaccio i pezzi, riassemblo e consegno. Mi fermo fino alle 08:20 UTC."
+  },
+  {
+   "quando": "23/11 09:47",
+   "testo": "correzioni 22/11 fatte: P1 45:48 OK severo+rapido"
+  },
+  {
+   "quando": "23/11 09:47",
+   "testo": "correzioni 22/11 fatte: P2 35:46; unico errore del controllo severo = durata (78 min totali, 2 Parti come da master); rapido OK. Non ascoltate: pronuncia Ceka/Brest-Litovsk/Trockij; sottotitoli del prof con dizionario di correzioni"
   }
  ],
  "materia": "storia-V",
  "lezione": "5",
- "aggiornato": "2026-11-23 07:31:25"
+ "aggiornato": "2026-11-23 09:47:28"
 }
