@@ -295,15 +295,19 @@ def compiti_intro():
     return compone('compiti_intro', 3.5, base_scura(), els, [(snd('titolo'), 0.0, 1.0)])
 
 def compiti():
-    v = voce.get('C2_COMPITI'); assert len(v['frasi']) == 8, len(v['frasi']); T0 = 0.8
+    v = voce.get('C2_COMPITI'); v3 = voce.get('C3_COMPITI_CHIUSURA'); assert len(v['frasi']) == 8, len(v['frasi']); T0 = 0.8
     els = []
     lab, _, _ = el('CO_lab', '<div class="d-lab">Compiti</div>')
     els.append(dict(png=lab, x=100, y=140, t0=0.1, d=0.4))
     for i, txt in enumerate(C.COMPITI):
-        card, _, h = el(f'CO_c{i}', f'<div style="width:1700px;background:rgba(255,255,255,.10);border-left:14px solid {rend.GIALLO};border-radius:18px;padding:22px 36px"><div style="font:800 40px Figtree;color:{rend.GIALLO};margin-bottom:6px">Compito {i+1}</div><div style="font:500 40px/1.45 Figtree;color:#fff">{E(txt)}</div></div>')
+        card, _, h = el(f'CO_c{i}', f'<div style="width:1700px;background:rgba(255,255,255,.10);border:8px solid {rend.GIALLO};border-radius:18px;padding:22px 36px"><div style="font:800 40px Figtree;color:{rend.GIALLO};margin-bottom:6px">Compito {i+1}</div><div style="font:500 40px/1.45 Figtree;color:#fff">{E(txt)}</div></div>')
         t0 = T0 + v['tempi'][2 * i][0] - 0.2; t1 = T0 + v['tempi'][2 * i + 1][1] + 0.4
-        els.append(dict(png=card, x=100, y=210, t0=t0, d=0.5, slide=30, t1=t1 if i < 3 else None))
-    return compone('compiti', T0 + v['durata'] + 1.0, base_scura(), els, [(v['wav'], T0, 1.0, v['durata'])])
+        els.append(dict(png=card, x=100, y=200, t0=t0, d=0.5, slide=30, t1=t1 if i < 3 else None))
+    tc = T0 + v['durata'] + 0.7
+    ch, _, hh = el('CO_ch', f'<div style="width:1700px;background:{rend.GIALLO};border-radius:18px;padding:26px 36px;font:700 44px/1.35 Figtree;color:#0B1530">Svolgi i compiti qui sotto e premi Consegna: arrivano al docente nel tuo quaderno dei compiti.</div>')
+    els.append(dict(png=ch, x=100, y=640, t0=tc - 0.1, d=0.5, slide=30))
+    dur = tc + v3['durata'] + 1.0
+    return compone('compiti', dur, base_scura(), els, [(v['wav'], T0, 1.0, v['durata']), (v3['wav'], tc, 1.0, v3['durata'])])
 
 # ---------- copertina + argomenti ----------
 def cover_html(con_prof, lit=None):

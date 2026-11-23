@@ -19,7 +19,7 @@ ws = openpyxl.load_workbook(f'{W}/in/DOMANDE LEZIONE 12.xlsx').active; dom = []
 for i, r in enumerate(list(ws.iter_rows(values_only=True))[1:], 1):
     if r[0]: dom.append({'n': i, 'p': r[0].strip(), 'a': r[1].strip(), 'w': [x.strip() for x in r[2:5]]})
 json.dump({'titolo': "Storia V · Lezione 12 · Verifica finale", 'soglia_percento': 80, 'domande': dom}, open(f'{R}/verifica_finale.json', 'w'), ensure_ascii=False, indent=1)
-json.dump({'titolo': 'Compiti · Storia V · Lezione 12', 'stato': 'compiti del prof (file «LEZIONE 12.pdf», release mazzotti-storia-V), testo invariato', 'compiti': [{'n': i + 1, 'tipo': 'risposta_aperta', 'testo': t} for i, t in enumerate(C.COMPITI)]}, open(f'{R}/compiti.json', 'w'), ensure_ascii=False, indent=1)
+json.dump({'titolo': 'Compiti · Storia V · Lezione 12', 'esercizi': [{'testo': t} for t in C.COMPITI]}, open(f'{R}/compiti.json', 'w'), ensure_ascii=False, indent=1)
 for n in (1, 2):
     tl = json.load(open(f'{W}/asm{n}/timeline.json'))['pezzi']
     json.dump([[nome(a), b, c] for a, b, c, d in tl], open(f'{R}/timeline_Parte{n}.json', 'w'))
