@@ -8,7 +8,7 @@
 #   python3 tools/stato.py TAG --invia      (carica su GitHub; si può aggiungere a qualsiasi chiamata)
 # Durata, fotogrammi e peso del video li MISURA da solo (ffprobe): non si scrivono a mano.
 import sys,os,json,argparse,subprocess,time,shutil
-REPO='/home/claude/lezioni'
+REPO=os.environ.get('REPO') or subprocess.run(['git','-C',os.path.dirname(os.path.abspath(__file__)),'rev-parse','--show-toplevel'],capture_output=True,text=True).stdout.strip() or '/home/claude/lezioni'  # 22/11: la cartella del repository dove sta lo strumento
 a=argparse.ArgumentParser();a.add_argument('tag')
 for k in ['materia','lezione','docente','parte','titolo','stato','video','vtt','voci','quiz_ok','fermi_ok','sub_ok','manca','serve_master','domanda_sara','nota','scheda','timeline']:a.add_argument('--'+k)
 a.add_argument('--invia',action='store_true');o=a.parse_args()
