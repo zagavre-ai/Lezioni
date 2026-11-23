@@ -53,3 +53,14 @@ I tagli cadono nelle pause (0,15 s prima della frase che segue). Il pezzo 2 term
 ## 8 · Non verificato / residui
 Taglio a metà frase e sincronismo labbra (≤0,04 s) non misurati a mano (sincronismo garantito dalla costruzione: stessi intervalli su audio e video); ascolto delle voci Kore; sottotitoli da rileggere; code di 2,6 s tra pillola e quiz; immagini del prof (278–770 px) ingrandite con Lanczos e nitidezza, restano a bassa definizione intrinseca; **mappa 3 senza titolo originale**; sigla «Storia» del kit usata senza modifiche.
 Controllo dell'agente separato: vedi sezione 9.
+
+## 9 · Controllo dell'agente separato (misurato su campioni) — ESITO: NON CONSEGNABILE senza correzioni
+Difetti **confermati, non corretti** (tempo scaduto):
+1. **Numeri in lettere sullo schermo** nelle schede animate (approfondimenti AN e pillole R: «millenovecentoventidue» ecc.). Per regola sullo schermo vanno le cifre (le lettere restano solo nel testo della voce). Es.: AN2 ~1965 s e R6 ~2720 s (Parte 2).
+2. **Sigle PNF e MVSN non rispiegate sullo schermo nella pillola R6** (Parte 2, ~2683–2740 s); nelle slide D4 e D6 sono spiegate nelle «Parole chiave».
+3. **Colonna «Parole chiave» tagliata sul bordo** in alcune slide della Parte 2 (es. «MVSN = Milizia volontaria per la sicu…» a ~2100 s).
+4. **Foto del prof** (Guardie rosse, D1 ~1000 s; foto nello spiegone) troppo vicine/sovrapposte al piè di pagina; didascalie piccole.
+5. **Approfondimenti** con schermo quasi vuoto: solo card in alto, nessuna immagine di supporto.
+6. D1 ~760–790 s: card «mito bolscevico» accesa mentre il prof parla ancora delle tensioni operaie (sfasamento possibile di 20–100 s; i tempi delle card sono stati assegnati a mano sulla trascrizione automatica).
+Esiti dell'agente non confermati da me: «Pagina N» in tutte le schede = previsto dal modello Spagnolo (piè di pagina con numero); «fondo non bianco puro» = sfondo (255,255,255) nel disegno, 253 dopo la codifica video.
+**Non verificati dall'agente:** tagli a metà frase, sincronia labbra, timbro, volume, glossario, sottotitoli, 4 s di mappa ferma, scatto del jingle (da me misurato: ≤0,013 s).
