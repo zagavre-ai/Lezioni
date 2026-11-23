@@ -1,7 +1,7 @@
 {
  "tag": "storia-V-lez17",
  "parti": {},
- "manca": "in corso: pezzi del prof a 40 px (in codifica), approfondimenti, ripassi, mappe BES; poi montaggio, audio, controlli, dispensa. Voci Kore nuove attese domattina",
+ "manca": "VOCI KORE NUOVE (30 testi su voci-storia-V-lez17): senza di esse non consegno. Tutto il resto e' montato con voci provvisorie.",
  "serve_master": [
   {
    "quando": "22/11 18:41",
@@ -26,6 +26,10 @@
   {
    "quando": "23/11 08:08",
    "testo": "VOCI lez17: ho aggiornato testi_voci.json (27 voci) secondo la nuova regola: COMP1-4 sostituite da UNA voce COMPITI (con la riga finale su Consegna). Servono: BEN1_R2-3_R2, SPG2_1-3, SPG3_1-2, DCP1-3, AP1-AP8, MPR1_R2-3_R2, SC2_4, SC5_4, SC6_4, SC8_4, COMPITI (le SC1_4, SC3_4, SC4_4, SC7_4 le avete gia'). Tutto il resto e' montato con voci provvisorie e pronto: appena le voci arrivano rimonto e consegno. Ripassi in blu scuro, nessuna scheda muta oltre 2,5 s, controllo rapido e foglio fotogrammi previsti. Avevo detto per errore '6 ore': la lezione del prof dura 1h42."
+  },
+  {
+   "quando": "23/11 08:50",
+   "testo": "08:50 UTC: le voci Kore nuove di lez17 non sono ancora sul ramo voci-storia-V-lez17 (servono BEN*_R2, SPG2_*, SPG3_*, DCP*, AP1-8, MPR*_R2, SC2_4 SC5_4 SC6_4 SC8_4, COMPITI). Dopo che arrivano mi servono circa 90 minuti (rimontaggio 3 Parti, controllo rapido, sottotitoli, dispensa, consegna): la scadenza delle 10:00 UTC regge solo se arrivano subito. Appena sono sul ramo parto."
   }
  ],
  "domande_sara": [],
@@ -51,6 +55,6 @@
    "testo": "stato 30 min: trascrizione fatta, mappe BES pronte, slide a 40 px pronte, codifica pezzi prof in corso, voci provvisorie montate"
   }
  ],
- "aggiornato": "2026-11-23 08:08:43",
+ "aggiornato": "2026-11-23 08:50:49",
  "stato": "IN_REVISIONE"
 }
