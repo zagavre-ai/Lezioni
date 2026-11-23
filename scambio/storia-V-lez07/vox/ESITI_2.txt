@@ -1,0 +1,15 @@
+DIC1 OK frasi trovate 1 / 1 parole diverse 3 (vere 0) tentativi 1
+M1_1 OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
+M1_3 OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
+M1_5 OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
+M2_0 OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
+M2_2 OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
+M2_4 OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
+M3_0 OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
+M3_2 OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
+M3_4 OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
+MF_1 OK frasi trovate 1 / 1 parole diverse 2 (vere 2) tentativi 1
+SC5_3_R2 OK frasi trovate 1 / 1 parole diverse 0 (vere 1) tentativi 1
+AN6_R2 OK frasi trovate 1 / 1 parole diverse 2 (vere 0) tentativi 1
+CP2 OK frasi trovate 1 / 1 parole diverse 1 (vere 2) tentativi 1
+SC5_3_R2 DA CONTROLLARE durata fuori misura
