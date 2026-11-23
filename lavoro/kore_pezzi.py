@@ -67,7 +67,7 @@ def prep_voce(nome,out):
     w,real=vox(nome);g=loud_gain(w) if real else 0.0;d=dur(w)
     sh(['ffmpeg','-v','error','-y','-i',w,'-af',f'volume={g}dB,afade=t=in:st=0:d=0.03,afade=t=out:st={max(0,d-0.04):.3f}:d=0.04','-ar','24000','-c:a','pcm_s16le',out]);return out,d,real
 # ---------------- pezzi ----------------
-def T_n(n): return pezzo_blu(f'T{n}',f'ARGOMENTO {n}',TIT[n],None,[(SND+'titolo.wav',0.2,1.0)],4.0)
+def T_n(n): return pezzo_blu(f'T{n}',f'ARGOMENTO {n}',TIT[n],None,[(SND+'titolo.wav',0.2,1.0)],4.3)
 def Q_n(n):
     return pezzo_blu(f'Q{n}','QUIZ',f'Quiz · {TIT[n]}',"5 domande · per continuare serve almeno l'80%",[(SND+'quiz.wav',0.5,1.0)],4.2)
 def PI_n(n):
@@ -165,7 +165,8 @@ def MAP_n(k):
     fin=png(f'map{k}_fin',mappe.stato_html(nm,None,True))
     tfin=dd+0.5;stati.append((tfin,fin))
     flush()
-    return scena(f'MAP{k}',stati,w,tfin+4.0,f'{B}/k/MAP{k}.mkv',lead=0.6,tail=0.5)
+    wm=mix_audio([(w,0.0,1.0),(SND+'repaso.wav',tfin,0.45)],tfin+4.0,f'{B}/k/MAP{k}_mix.wav')
+    return scena(f'MAP{k}',stati,wm,tfin+4.0,f'{B}/k/MAP{k}.mkv',lead=0.6,tail=0.5)
 def SPG2():
     nm='SPG2';fs=frasi(TESTI[nm]);corpo=fs[1:]
     cards=[dict(lead=(f.split(':')[0]+':') if re.match(r'^(Primo|Secondo|Terzo|Quarto) argomento:',f) else None,testo=digits(f)) for f in corpo]
