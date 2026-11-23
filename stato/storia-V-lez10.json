@@ -30,6 +30,10 @@
   {
    "quando": "23/11 09:58",
    "testo": "10:00 UTC. Montaggio finale delle due Parti con le voci Kore vere pronto (Parte 1 e Parte 2). Ora controllo severo, controllo rapido e agente separato; consegna prevista entro 10:45 UTC."
+  },
+  {
+   "quando": "23/11 10:26",
+   "testo": "10:30 UTC. Controllo severo sulle Parti con voci vere: restavano 3 difetti (mappe con 5 s di silenzio finale, e una falsa segnalazione di schermata ferma legata a un fotogramma di dissolvenza). Corretto: sulla fermata finale delle mappe suona il jingle di ripasso, schede titolo 4,3 s. Rimonto le due Parti (circa 40 minuti) e rifaccio i controlli. Consegna prevista circa 11:30 UTC. Mi scuso per il ritardo."
   }
  ],
  "domande_sara": [],
@@ -49,5 +53,5 @@
  ],
  "materia": "Storia V",
  "lezione": "Lezione 10 · La Germania da Weimar al nazismo",
- "aggiornato": "2026-11-23 09:58:25"
+ "aggiornato": "2026-11-23 10:26:25"
 }
