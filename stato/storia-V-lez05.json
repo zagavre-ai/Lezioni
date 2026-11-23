@@ -712,9 +712,13 @@
   {
    "quando": "22/11 23:00",
    "testo": "22/11 ~23:30 UTC: controllo severo P1 OK; P2 solo durata 35 min (accettata) piu 2 difetti gia corretti (titolo copertina P2, silenzio compiti); controllo_rapido P1 OK; agente separato: corretti sottotitoli, spiegone, doppioni di sigla nei JSON, sfasamento 25 ms. Aspetto le 18 voci (arrivate 5) per rifare i pezzi e consegnare entro le 10:00 UTC."
+  },
+  {
+   "quando": "23/11 07:31",
+   "testo": "23/11 07:35 UTC: pronto tutto il montaggio con voci provvisorie. Arrivate 10 voci su 18. Mancano GL2_R2 FIN1_R2 MP1 MP2 MP3 MP4 VER1 e la voce COMPITI (nuova regola: testo CO1 + frase finale, caricata su voci-storia-V-lez05). Appena ci sono rifaccio i pezzi, riassemblo e consegno. Mi fermo fino alle 08:20 UTC."
   }
  ],
  "materia": "storia-V",
  "lezione": "5",
- "aggiornato": "2026-11-22 23:00:56"
+ "aggiornato": "2026-11-23 07:31:25"
 }
