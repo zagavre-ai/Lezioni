@@ -516,7 +516,11 @@
  },
  {
   "nome": "I1_BENVENUTO",
-  "testo": "Benvenuti alla videolezione di Storia: L'Europa e il mondo negli anni Trenta. Prima della Seconda guerra mondiale, il mondo cambia in fretta. Cominciamo."
+  "testo": "Benvenuti alla videolezione di Storia: L'Europa e il mondo negli anni Trenta."
+ },
+ {
+  "nome": "I3_BENVENUTO2",
+  "testo": "Benvenuti alla videolezione di Storia: L'Europa e il mondo negli anni Trenta."
  },
  {
   "nome": "I2_ARGOMENTI",
@@ -605,6 +609,10 @@
  {
   "nome": "C2_COMPITI",
   "testo": "Primo compito. Confronta la situazione politica ed economica di Gran Bretagna e Francia tra le due guerre, soffermandoti sulle rispettive risposte alla crisi, sull'evoluzione dei rapporti coloniali inglesi con la nascita del Commonwealth e sulle riforme introdotte in Francia dal Fronte Popolare nel millenovecentotrentasei. Secondo compito. Descrivi l'espansionismo militare del Giappone negli anni Trenta in Asia, spiegando le tappe dell'occupazione della Cina e illustrando come si sviluppa parallelamente la guerra civile cinese tra i nazionalisti di Chiang Kai-shek e i comunisti di Mao Zedong fino alla Lunga marcia. Terzo compito. Ricostruisci le cause, le fasi principali e l'esito della guerra civile spagnola, dal millenovecentotrentasei al millenovecentotrentanove, spiegando perché il conflitto assume una dimensione internazionale e quale posizione assumono le diverse potenze europee rispetto agli schieramenti in campo. Quarto compito. Analizza il percorso che porta l'Europa verso la Seconda guerra mondiale tra il millenovecentotrentatré e il millenovecentotrentanove, illustrando la politica revisionista ed espansionistica di Hitler, il fallimento dell'Appeasement di Francia e Gran Bretagna e il ruolo svolto dalle alleanze diplomatiche come il Patto d'acciaio e il Patto Molotov-Ribbentrop."
+ },
+ {
+  "nome": "C3_COMPITI_CHIUSURA",
+  "testo": "Svolgi i compiti qui sotto e premi Consegna: arrivano al docente nel tuo quaderno dei compiti."
  },
  {
   "nome": "S1_SPIEGONE",
