@@ -35,12 +35,13 @@ EV = {
  6: [('card', 2155.0, 0), ('card', 2385.1, 1), ('card', 2497.1, 2), ('card', 2517.4, 3), ('mid', 2312.4, 'AN11')],
  7: [('card', 2646.0, 0), ('card', 2652.0, 1), ('card', 2669.9, 2), ('card', 2700.7, 3), ('mid', 2668.0, 'AN13')],
  8: [('card', 2815.0, 0), ('card', 2846.3, 1), ('card', 2871.8, 2), ('card', 2884.6, 3), ('card', 3107.5, 4), ('mid', 2960, 'AN16'), ('mid', 3081, 'AN15')],
- 9: [('card', 3161.9, 0), ('card', 3189.6, 1), ('card', 3252.3, 2), ('card', 3336.6, 4), ('img', 3343.1, 3375.8, 'emigrazione'), ('card', 3376.1, 3), ('card', 3440.3, 4), ('mid', 3252, 'AN17')],
+ 9: [('card', 3161.9, 0), ('card', 3189.6, 1), ('card', 3252.3, 2), ('card', 3336.6, 4), ('img', 3343.1, 3352.0, 'emigrazione'), ('img', 3352.0, 3364.0, 'emi_sx'), ('img', 3364.0, 3375.8, 'emi_dx'), ('card', 3376.1, 3), ('card', 3440.3, 4), ('mid', 3252, 'AN17')],
  10: [('card', 3487.2, 0), ('card', 3678.8, 2), ('card', 3697.3, 1), ('card', 3721.8, 3), ('card', 3729.8, 4), ('mid', 3593.4, 'AN19'), ('mid', 3696.2, 'AN20'), ('img', 3789.8, 3801.9, 'libia')],
  11: [('card', 3837.3, 0), ('card', 3959.5, 1), ('card', 3963.1, 2), ('card', 4003.2, 3), ('mid', 3906.2, 'AN21')],
 }
 END_AP = {1: None, 2: 'AN4', 3: 'AN6', 4: 'AN8', 5: 'AN10', 6: 'AN12', 7: 'AN14', 8: None, 9: 'AN18', 10: None, 11: 'AN22'}
 # mappe del prof: dopo quale argomento
+BIG = {'emigrazione', 'emi_sx', 'emi_dx'}
 MAPPE = {2: 1, 9: 2, 11: 3}
 IMG = {
  'regicidio': ('/home/user/w3/img/regicidio_hd.png', 'Il regicidio di Monza', "Il regicidio di Monza: nel 1900 l'anarchico Gaetano Bresci uccide re Umberto I."),
@@ -48,6 +49,8 @@ IMG = {
  'turati': ('/home/user/w3/img/turati_hd.png', 'Filippo Turati', "<b>Il leader dei socialisti moderati</b><br>Un ritratto fotografico di Filippo Turati."),
  'murri': ('/home/user/w3/img/murri_hd.png', 'Romolo Murri', "<b>Romolo Murri</b><br>Il democratico-cristiano Romolo Murri in una fotografia degli anni Dieci."),
  'emigrazione': ('/home/user/w3/img/emigrazione_hd.png', 'I flussi migratori italiani', "<b>Infografica</b><br>I flussi migratori italiani nel primo Novecento."),
+ 'emi_sx': ('/home/user/w3/img/emi_sx_hd.png', 'I flussi migratori italiani', ''),
+ 'emi_dx': ('/home/user/w3/img/emi_dx_hd.png', 'I flussi migratori italiani', ''),
  'libia': ('/home/user/w3/img/libia_hd.png', 'La guerra di Libia (1911-1912)', "<b>Leggere la carta</b><br>La guerra di Libia (1911-1912)."),
 }
 

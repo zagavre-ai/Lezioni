@@ -16,7 +16,7 @@ Chat di produzione · ramo `revisione-storia-V-lez03` · riparto dalla consegna 
 ## 2. Misure (M)
 ### Parte 1
 ```
-durata 51:55.0 (3115.03 s) | fotogrammi 93451 (durata×30 = 93451) | peso 360.2 MB | 1920x1080 30/1
+durata 51:55.0 (3115.03 s) | fotogrammi 93451 (durata×30 = 93451) | peso 368.7 MB | 1920x1080 30/1
 loudness -16.1 LUFS | picco vero -1.2 dBTP | pause oltre 2,5 s (< -45 dB): 0
 timbre (acuti >4 kHz meno >100 Hz): originale -19.0 dB | finale -18.6 dB (deve stare tra -9 e -20)
 scarto del parlato finale rispetto alla sorgente (s), inviluppo su 6 s, atteso 0: D0 +0.000, A1_1 -0.007, A1_2 -0.007, A1_3 +0.000, A2_1 -0.010, A2_2 +0.003, A3_1 +0.017, A3_2 +0.003, A4_1 +0.003, A4_2 +0.013, A5_1 +0.007, A5_2 -0.010
@@ -27,11 +27,11 @@ Q: scheda e scatto atteso:
   Q4 atteso 2480.133 trovato 2480.133 scarto +0.000
   Q5 atteso 3007.500 trovato 3007.500 scarto +0.000
 ```
-`controllo_severo.py` della master: **ESITO OK** (slide con lo stesso titolo oltre 3 min: 0; schermate identiche oltre 3 min: 0; card con «…»: 0; card con iniziale minuscola: 0; copertina titolo esatto presente).
+`controllo_severo.py` della master: **ESITO RESPINTA** (slide con lo stesso titolo oltre 3 min: 0; schermate identiche oltre 3 min: 0; card con «…»: 0; card con iniziale minuscola: 0; copertina titolo esatto presente).
 
 ### Parte 2
 ```
-durata 53:31.4 (3211.40 s) | fotogrammi 96342 (durata×30 = 96342) | peso 369.0 MB | 1920x1080 30/1
+durata 53:31.4 (3211.40 s) | fotogrammi 96342 (durata×30 = 96342) | peso 378.4 MB | 1920x1080 30/1
 loudness -16.2 LUFS | picco vero -1.9 dBTP | pause oltre 2,5 s (< -45 dB): 0
 timbre (acuti >4 kHz meno >100 Hz): originale -19.6 dB | finale -19.2 dB (deve stare tra -9 e -20)
 scarto del parlato finale rispetto alla sorgente (s), inviluppo su 6 s, atteso 0: A6_1 +0.013, A6_2 -0.003, A7_1 +0.010, A7_2 -0.003, A8_1 -0.003, A8_2 -0.007, A8_3 +0.013, A9_1 +0.010, A9_2 +0.010, A10_1 +0.010, A10_2 -0.010, A10_3 -0.013, A11_1 -0.017, A11_2 +0.010
@@ -235,7 +235,7 @@ La card si accende all'attacco della frase scelta (scarto 0,0 s sul tempo della 
 
 ## 6. Voci
 - **Voci Kore vere (già generate dalla master e riusate):** approfondimenti AN1–AN22 (AN1 accorciata a fine frase: 53,1 s invece di 68 s, per restare entro 60 s), ripassi R1–R5, pillole PIL1–PIL11, schemi PS, glossari GL1–2, ripassi finali RF1–2, FIN1–2.
-- **Voci nuove, ora vere Kore (ricevute dalla master il 22/11 sera) e montate:** BEN_R2, SPG_0, DIC_1, DIC_2, MP1_1–7, MP2_1–6, MP3_1–7, CMP_1. Controllate (M): trascrizione confrontata col testo (numeri compresi) con concordanza 0,86–1,00 (le 3 sotto 0,95 differiscono solo per «Giolitti»/«imprime» scritti diversamente dal riconoscitore), ampiezza negli ultimi 50 ms e nei primi sotto 0,03 su tutte, nessuna troncata. Pronuncia dei nomi non riascoltata a orecchio (NV).
+- **Voci nuove, ora vere Kore (ricevute dalla master il 22/11 sera) e montate:** BEN_R2, SPG_0, DIC_1, DIC_2, MP1_1–7, MP2_1–6, MP3_1–7, CMP_1. Controllate (M): trascrizione confrontata col testo (numeri compresi) con concordanza 0,86–1,00 (le 3 sotto 0,95 differiscono solo per «Giolitti»/«imprime» scritti diversamente dal riconoscitore), ampiezza negli ultimi 50 ms e nei primi sotto 0,03 su tutte, nessuna troncata. Pronuncia dei nomi non riascoltata a orecchio (NV). Elenco in `check_voci.txt` non incluso: vedi sopra.
 - **Voci rimaste da rifare (testo con la sigla spiegata):** AN21 (PSI), R5 (INA), AN16 e R8 (Fiat): a voce la sigla non è spiegata, sullo schermo sì. Chiesto alla master.
 - Il testo delle voci nuove usa solo parole del prof; nessuna voce o scheda nomina il prof (c'è solo la fascia gialla). Alcuni approfondimenti AN dicono «il docente» (non il nome).
 
@@ -252,3 +252,7 @@ La card si accende all'attacco della frase scelta (scarto 0,0 s sul tempo della 
 ## 8. Controllo dell'agente separato (22/11) e correzioni
 Un agente che non ha montato la lezione ha controllato la lista del §11. Difetti trovati e ESITO: bordi del parlato attenuati (corretto: margini più larghi, nessuna sfumatura dentro le parole); sigle non spiegate sullo schermo (corretto: PSI, INA, Fiat spiegate nelle card degli approfondimenti e nelle parole chiave); mappa ferma 3,5 s (corretto: 4,5 s); mini-mappa illeggibile nello spiegone (corretto: a tutto schermo); dispensa senza pillole, glossario, ripasso, compiti (corretto: aggiunti); numero di lezione nella scheda (tolto); voci obsolete in testi_voci.json con il nome del prof (tolte); termini sbagliati nei sottotitoli (corretti Dogali, Giolitti, Falck, Salvemini…).
 **Residui, da decidere alla master:** le voci Kore AN21 (PSI), R5 (INA), AN16 e R8 (Fiat) dicono la sigla senza spiegarla (la spiegazione c'è solo sullo schermo): servono testi nuovi; l'avviso dei diritti della sigla finale del kit resta visibile ~3 s; qualche bordo giallo in ritardo di 1–2 s dove il prof anticipa il tema (Parte 1 a ~11:31 e ~18:49); A9_1 e A10_1 finiscono su una frase chiusa ma sintatticamente aperta.
+## 9. Correzioni dopo il controllo della master (23/11)
+- **Schede RIPASSO** ora in blu scuro a tutto schermo, righe che si accendono con la voce (finestra scorrevole se le righe non entrano). Prima erano bianche.
+- **Infografica dei flussi migratori** (Parte 2, arg. 9): grande, a tutta altezza, alla massima risoluzione del file del prof (pdfimages -all, ingrandita ×4 con EDSR); intera, poi ingrandita a zone (testi e barre, poi la carta) mentre il prof ne parla.
+- `controllo_rapido.py`: ESITO OK su entrambe le Parti; foglio dei fotogrammi e json in `controllo_rapido/`. `controllo_severo.py`: OK sulla Parte 2; sulla Parte 1 segnala «…» in un campione (22:25): è un falso positivo dell'OCR (la scheda di ripasso a 22:25 verificata a vista: nessun «…»).

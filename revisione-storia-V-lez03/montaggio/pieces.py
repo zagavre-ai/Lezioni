@@ -130,7 +130,7 @@ def slide_state(label, title, cards, lit, page, kw, cam=True):
 
 def image_state(label, key, page, kw, cam=True):
     p, ttl, cap = D.IMG[key]
-    return shot(image_slide_html(label, esc(ttl), p, cap, page, kw, cam=cam))
+    return shot(image_slide_html(label, esc(ttl), p, cap, page, kw, cam=cam, big=key in D.BIG))
 
 # ---------------- sfondi scuri animati ----------------
 _glow = None
@@ -404,6 +404,7 @@ def arg_pages(arg, page0):
                 active_img = None
                 if not any(0 <= tt - t < 1.0 for tt, kk, dd in evs if kk == 'card'): add(t, cur)
         sg = seg_teacher(ba, bb, states, f'A{arg}' + (f'_{bi + 1}' if len(blocks) > 1 else ''))
+        if arg == 9: sg.key = 'emi2'
         items.append(('prof', sg))
         page = pg
         if bi < len(mids): items.append(('mid', mids[bi][1]))
@@ -450,6 +451,23 @@ def seg_pillola_intro(arg):
     lay = dark_text('PILLOLA DI RIPASSO', esc(D.ARG[arg]['titolo']), 'Guarda lo schema e ripeti ad alta voce')
     return Seg(n, mix(n, [(lead, jin), (vstart, x)]), dark_frame_fn([(0.5, lay)]), name=f'PI{arg}', first_word=lead, last_word=vstart + dur)
 
+def dark_lines(label, title, lines, lit):
+    while True:
+        h = _dark_lines_html(label, title, lines, lit)
+        bot = measure(h, "(()=>{const w=document.querySelector('.wrap');return w?w.getBoundingClientRect().bottom:0})()")
+        if bot <= 1030 or len(lines) <= 1: break
+        lines = lines[1:]; lit = None if lit is None else max(0, lit - 1)
+    return shot_rgba(h)
+
+def _dark_lines_html(label, title, lines, lit):
+    css = DARK_T + """.dt{font-size:60px !important;top:185px !important}.dfoot,.dlogo{display:none}.wrap{position:absolute;left:120px;top:300px;width:1680px;display:flex;flex-direction:column;gap:16px}.ln{position:relative;width:1680px;border:3px solid rgba(255,255,255,.25);border-radius:18px;padding:14px 30px 14px 56px;font:500 40px/1.35 Fig;color:#fff;background:rgba(255,255,255,.08);opacity:.55}
+.ln.on{opacity:1;border:6px solid #FFE600;background:rgba(255,255,255,.16);padding:11px 27px 11px 53px}.ln i{position:absolute;left:20px;top:26px;width:18px;height:18px;border-radius:50%;background:#9FB6E0}.ln.on i{background:#FFE600}"""
+    # altezze stimate: 2 righe per riga lunga
+    body = '<div class="wrap">' + ''.join(f'<div class="ln{" on" if k == lit else ""}"><i></i>{esc(t)}</div>' for k, t in enumerate(lines)) + '</div>'
+    h = f'<!doctype html><html><head><meta charset="utf-8"><style>{css}</style></head><body><div class="dl">{esc(label)}</div><div class="dt">{esc(title)}</div>{body}' \
+        f'<div class="dfoot">{MATERIA}</div><div class="dlogo">{tpl.LOGO_W}</div></body></html>'
+    return h
+
 def seg_pillola_schema(arg):
     k = 1; vs = []
     while True:
@@ -459,15 +477,13 @@ def seg_pillola_schema(arg):
     lead = 0.9; t = lead; parts = []; times = []; sents = []
     for nm in vs:
         x, kore = voice(nm); times.append(t); parts.append((t, x)); sents.append(D.digits(TESTI[nm])); t += len(x) / SR + 0.55
-    total = t + 0.6
-    n = dur_frames(total)
-    states = [(0.0, shot(frame_wide('RIPASSO', D.ARG[arg]['titolo'], [], None)))]
+    n = dur_frames(t + 0.6)
+    layers = [(0.0, dark_lines('RIPASSO', D.ARG[arg]['titolo'], [], None))]
     for k in range(len(vs)):
-        shown = sents[:k + 1]
-        # fino a 6 righe, finestra se troppo alte
-        while height_of_wide('RIPASSO', D.ARG[arg]['titolo'], shown)[1] - height_of_wide('RIPASSO', D.ARG[arg]['titolo'], shown)[0] > 650 and len(shown) > 1: shown = shown[1:]
-        states.append((times[k], shot(frame_wide('RIPASSO', D.ARG[arg]['titolo'], shown, len(shown) - 1))))
-    return Seg(n, mix(n, parts), states_frame(states, 0.3), name=f'PS{arg}', first_word=lead, last_word=t - 0.55)
+        layers.append((times[k], dark_lines('RIPASSO', D.ARG[arg]['titolo'], sents[:k + 1], k)))
+    sg = Seg(n, mix(n, parts), dark_frame_fn(layers), name=f'PS{arg}', first_word=lead, last_word=t - 0.55)
+    sg.key = 'dark2'
+    return sg
 
 def seg_map(m, part_label='MAPPA DEL PROFESSORE'):
     import maps

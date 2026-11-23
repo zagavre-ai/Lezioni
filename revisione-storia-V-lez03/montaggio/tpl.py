@@ -77,7 +77,10 @@ def height_of(label, title, cards):
     h = frame(label, title, cards_html(cards, None, cards_top(label, title)), 0)
     return measure(h, "(()=>{const c=document.querySelector('.cards');const r=c.getBoundingClientRect();return [r.top, r.bottom]})()")
 
-def image_slide_html(label, title, img, caption, page, kw=None, cam=True):
+def image_slide_html(label, title, img, caption, page, kw=None, cam=True, big=False):
+    if big:
+        body = f'<div style="position:absolute;left:80px;top:290px;width:1306px;height:670px;display:flex;align-items:center;justify-content:center"><img src="{b64img(img)}" style="max-height:660px;max-width:1300px;border-radius:10px;border:3px solid #D5DEEC"></div>'
+        return frame(label, title, body, page, cam=cam, kw=kw)
     body = f'<div style="position:absolute;left:80px;top:300px;width:1306px;height:640px;display:flex;gap:40px;align-items:center;justify-content:center">' \
            f'<div style="border:3px solid #D5DEEC;border-radius:20px;padding:14px;background:#fff;box-shadow:0 10px 26px rgba(70,85,110,.13)"><img src="{b64img(img)}" style="display:block;max-height:560px;max-width:760px;border-radius:10px"></div>' \
            f'<div style="flex:1;font:500 36px/1.45 Fig;color:#0B1530">{caption}</div></div>'
