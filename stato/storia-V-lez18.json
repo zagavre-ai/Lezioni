@@ -77,7 +77,11 @@
   {
    "quando": "22/11 22:47",
    "testo": "23:00 UTC: primo controllo separato fatto (4 bloccanti, tutti corretti: card in ritardo arg4, tagli a meta' frase, glossario/AN, sigle, pagine). Rifaccio Parte 1 e 2 (circa 75 min), poi nuovo controllo. Voci Kore nuove: in attesa."
+  },
+  {
+   "quando": "23/11 01:22",
+   "testo": "01:25 UTC: Parte 1 (50,0 min, 378 MB) e Parte 2 (58,5 min, 371 MB) rifatte dopo i due controlli separati; restano in attesa delle voci Kore (40 da generare, vedi voci_da_generare.json) e del controllo_severo finale. Nota: nel repo c'e' un ramo temporaneo 'tmp-test-lez18' (prova di push, 90 MB): non riesco a cancellarlo, lo puoi cancellare tu."
   }
  ],
- "aggiornato": "2026-11-22 22:47:56"
+ "aggiornato": "2026-11-23 01:22:30"
 }
