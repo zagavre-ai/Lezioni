@@ -1,0 +1,31 @@
+{
+ "tag": "storia-arte-V-lez12",
+ "parti": {},
+ "manca": "attendo le voci Kore (dalle 9:00): al loro arrivo le controllo, rifaccio le 17 schede con voce, codifico, controllo, consegno",
+ "serve_master": [
+  {
+   "quando": "22/11 23:09",
+   "testo": "Lez12: testi_voci.json (22 voci) pushato su voci-storia-arte-V-lez12, include COMPITI. Domande non bloccanti: (1) sigla di Storia dell'arte: uso kit/sigle/Sigla_Storia_15s.mp4, ok? (2) Il prof ha UNA sola mappa (Dadaismo): la metto dopo l'argomento 2 e la mappa finale della lezione sarebbe la stessa: la rifaccio solo come schermata fissa 4 s nel ripasso finale, ok? (3) Titolo-domanda della mappa scritto da me con le parole del prof: «Che cos'è il Dadaismo?». Nota: l'audio del prof non ha pause oltre 2,5 s; 49,5 min, quindi con le aggiunte punto a una sola Parte sotto 65 min."
+  }
+ ],
+ "domande_sara": [],
+ "note": [
+  {
+   "quando": "22/11 22:47",
+   "testo": "storia arte 22/11: presa da claude/elegant-shannon-iof7o7"
+  },
+  {
+   "quando": "22/11 23:30",
+   "testo": "22/11 23:40: materiali pronti, trascrizione fatta, 4 argomenti, dispensa e PDF mappe generati, montaggio in corso"
+  },
+  {
+   "quando": "23/11 00:40",
+   "testo": "23/11 00:55: prima codifica di prova 60,2 min / 324 MB; controllo rapido ha trovato 4 difetti, tutti già corretti nel montaggio in corso"
+  },
+  {
+   "quando": "23/11 01:43",
+   "testo": "23/11 02:50: montaggio completo con voci provvisorie 60,2 min; controllo_rapido ESITO OK; sincronia 0,02 s; quiz a 0,0 s; timbro -15,6/-17,3 dB. Dispense e PDF mappe pronti."
+  }
+ ],
+ "aggiornato": "2026-11-23 01:43:21"
+}
