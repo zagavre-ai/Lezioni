@@ -1,0 +1,495 @@
+[
+ {
+  "nome": "B4_1",
+  "rapporto": 0.976,
+  "diff": [
+   [
+    "millenovecentoquattordici",
+    "1914"
+   ]
+  ],
+  "fine_ampiezza": 0.0007,
+  "inizio_ampiezza": 0.0029
+ },
+ {
+  "nome": "B4_2",
+  "rapporto": 0.971,
+  "diff": [
+   [
+    "millenovecentoquindici",
+    "millovecentoquindici"
+   ]
+  ],
+  "fine_ampiezza": 0.001,
+  "inizio_ampiezza": 0.0007
+ },
+ {
+  "nome": "B4_3",
+  "rapporto": 0.946,
+  "diff": [
+   [
+    "millenovecentodiciassette",
+    "1917"
+   ],
+   [
+    "millenovecentodiciotto",
+    "1918"
+   ]
+  ],
+  "fine_ampiezza": 0.0019,
+  "inizio_ampiezza": 0.0005
+ },
+ {
+  "nome": "SP2_0",
+  "rapporto": 1.0,
+  "diff": [],
+  "fine_ampiezza": 0.0009,
+  "inizio_ampiezza": 0.0007
+ },
+ {
+  "nome": "SP2_1",
+  "rapporto": 0.958,
+  "diff": [
+   [
+    "l",
+    ""
+   ],
+   [
+    "secondo",
+    "ii"
+   ],
+   [
+    "revanchismo",
+    "revancismo"
+   ],
+   [
+    "milleottocentosettanta",
+    "1870"
+   ]
+  ],
+  "fine_ampiezza": 0.0115,
+  "inizio_ampiezza": 0.0005
+ },
+ {
+  "nome": "SP2_2",
+  "rapporto": 0.925,
+  "diff": [
+   [
+    "millenovecentocinque",
+    "1905"
+   ],
+   [
+    "millenovecentoundici",
+    "1911"
+   ],
+   [
+    "millenovecentotto",
+    "1908"
+   ],
+   [
+    "millenovecentododici",
+    "1912"
+   ],
+   [
+    "millenovecentotredici",
+    "1913"
+   ]
+  ],
+  "fine_ampiezza": 0.0095,
+  "inizio_ampiezza": 0.0019
+ },
+ {
+  "nome": "SP2_3",
+  "rapporto": 0.949,
+  "diff": [
+   [
+    "millenovecentoquattordici",
+    "1914"
+   ],
+   [
+    "ventotto",
+    "28"
+   ],
+   [
+    "ventotto",
+    "28"
+   ],
+   [
+    "e",
+    ""
+   ]
+  ],
+  "fine_ampiezza": 0.0003,
+  "inizio_ampiezza": 0.0011
+ },
+ {
+  "nome": "SP3_0",
+  "rapporto": 0.917,
+  "diff": [
+   [
+    "ripassiamo",
+    "repassiamo"
+   ]
+  ],
+  "fine_ampiezza": 0.0005,
+  "inizio_ampiezza": 0.0009
+ },
+ {
+  "nome": "SP3_1",
+  "rapporto": 0.963,
+  "diff": [
+   [
+    "schlieffen",
+    "schliefen"
+   ],
+   [
+    "ottocento chilometri",
+    "800 km"
+   ]
+  ],
+  "fine_ampiezza": 0.2332,
+  "inizio_ampiezza": 0.0022
+ },
+ {
+  "nome": "SP3_2",
+  "rapporto": 0.94,
+  "diff": [
+   [
+    "millenovecentoquindici",
+    "1915"
+   ],
+   [
+    "millenovecentoquattordici",
+    "millovequattordici"
+   ],
+   [
+    "maggioranza",
+    "maggiorenza"
+   ],
+   [
+    "ventiquattro",
+    "24"
+   ]
+  ],
+  "fine_ampiezza": 0.0007,
+  "inizio_ampiezza": 0.0028
+ },
+ {
+  "nome": "SP3_3",
+  "rapporto": 0.964,
+  "diff": [
+   [
+    "del lusitania",
+    "dell usitania"
+   ],
+   [
+    "millenovecentoquindici",
+    "1915"
+   ]
+  ],
+  "fine_ampiezza": 0.0002,
+  "inizio_ampiezza": 0.0013
+ },
+ {
+  "nome": "AP1",
+  "rapporto": 0.977,
+  "diff": [
+   [
+    "secondo",
+    "ii"
+   ],
+   [
+    "tirpitz",
+    "tirpiz"
+   ]
+  ],
+  "fine_ampiezza": 0.0098,
+  "inizio_ampiezza": 0.002
+ },
+ {
+  "nome": "AP2",
+  "rapporto": 0.947,
+  "diff": [
+   [
+    "millenovecentotto",
+    "1908"
+   ],
+   [
+    "giovani turchi",
+    "giovchi"
+   ],
+   [
+    "ungheria",
+    "ungeria"
+   ],
+   [
+    "millenovecentododici",
+    "1912"
+   ],
+   [
+    "millenovecentotredici",
+    "1913"
+   ]
+  ],
+  "fine_ampiezza": 0.0014,
+  "inizio_ampiezza": 0.0003
+ },
+ {
+  "nome": "AP3",
+  "rapporto": 0.922,
+  "diff": [
+   [
+    "ventotto",
+    "28"
+   ],
+   [
+    "millenovecentoquattordici",
+    "1914"
+   ],
+   [
+    "gavrilo",
+    "gavrillo"
+   ],
+   [
+    "mano nera",
+    "ma non era"
+   ],
+   [
+    "austria",
+    "a"
+   ],
+   [
+    "ventotto",
+    "28"
+   ]
+  ],
+  "fine_ampiezza": 0.0036,
+  "inizio_ampiezza": 0.0031
+ },
+ {
+  "nome": "AP4",
+  "rapporto": 0.964,
+  "diff": [
+   [
+    "ottocento chilometri",
+    "800 km"
+   ],
+   [
+    "sotto",
+    ""
+   ]
+  ],
+  "fine_ampiezza": 0.001,
+  "inizio_ampiezza": 0.001
+ },
+ {
+  "nome": "AP5",
+  "rapporto": 0.98,
+  "diff": [
+   [
+    "millenovecentoquattordici",
+    "1914"
+   ],
+   [
+    "millenovecentoquindici",
+    "1915"
+   ]
+  ],
+  "fine_ampiezza": 0.0037,
+  "inizio_ampiezza": 0.0003
+ },
+ {
+  "nome": "AP6",
+  "rapporto": 0.919,
+  "diff": [
+   [
+    "millenovecentosedici",
+    "1916"
+   ],
+   [
+    "strafexpedition",
+    "straff expedition"
+   ],
+   [
+    "ottocentomila",
+    "800 000"
+   ],
+   [
+    "alleggerire",
+    "allegerire"
+   ],
+   [
+    "verdun",
+    "verdan"
+   ],
+   [
+    "somme",
+    "somma"
+   ]
+  ],
+  "fine_ampiezza": 0.0005,
+  "inizio_ampiezza": 0.0016
+ },
+ {
+  "nome": "AP7",
+  "rapporto": 1.0,
+  "diff": [],
+  "fine_ampiezza": 0.0001,
+  "inizio_ampiezza": 0.001
+ },
+ {
+  "nome": "AP8",
+  "rapporto": 0.989,
+  "diff": [
+   [
+    "millenovecentodiciassette",
+    "1917"
+   ]
+  ],
+  "fine_ampiezza": 0.0018,
+  "inizio_ampiezza": 0.0006
+ },
+ {
+  "nome": "AP9",
+  "rapporto": 0.957,
+  "diff": [
+   [
+    "millenovecentodiciotto",
+    "1918"
+   ],
+   [
+    "ventiquattro",
+    "24"
+   ],
+   [
+    "compiegne",
+    "compienne"
+   ],
+   [
+    "secondo",
+    "ii"
+   ]
+  ],
+  "fine_ampiezza": 0.0008,
+  "inizio_ampiezza": 0.0005
+ },
+ {
+  "nome": "AP10",
+  "rapporto": 0.987,
+  "diff": [
+   [
+    "millenovecentodiciannove",
+    "1919"
+   ]
+  ],
+  "fine_ampiezza": 0.0003,
+  "inizio_ampiezza": 0.0037
+ },
+ {
+  "nome": "AP11",
+  "rapporto": 0.926,
+  "diff": [
+   [
+    "diciassette",
+    "17"
+   ],
+   [
+    "venti",
+    "2"
+   ],
+   [
+    "quarant",
+    "40"
+   ],
+   [
+    "millenovecentodiciotto",
+    "1918"
+   ],
+   [
+    "millenovecentodiciannove",
+    "1919"
+   ],
+   [
+    "quaranta",
+    "40"
+   ],
+   [
+    "quaranta",
+    "40"
+   ]
+  ],
+  "fine_ampiezza": 0.0047,
+  "inizio_ampiezza": 0.0004
+ },
+ {
+  "nome": "VER_0",
+  "rapporto": 0.92,
+  "diff": [
+   [
+    "ottanta per cento",
+    "80"
+   ]
+  ],
+  "fine_ampiezza": 0.0007,
+  "inizio_ampiezza": 0.001
+ },
+ {
+  "nome": "CP_0",
+  "rapporto": 1.0,
+  "diff": [],
+  "fine_ampiezza": 0.0007,
+  "inizio_ampiezza": 0.0022
+ },
+ {
+  "nome": "CP_1",
+  "rapporto": 0.947,
+  "diff": [
+   [
+    "e perche",
+    "che"
+   ]
+  ],
+  "fine_ampiezza": 0.0005,
+  "inizio_ampiezza": 0.0033
+ },
+ {
+  "nome": "CP_2",
+  "rapporto": 0.95,
+  "diff": [
+   [
+    "millenovecentoquattordici",
+    "1914"
+   ],
+   [
+    "millenovecentoquindici",
+    "1915"
+   ]
+  ],
+  "fine_ampiezza": 0.0007,
+  "inizio_ampiezza": 0.0002
+ },
+ {
+  "nome": "CP_3",
+  "rapporto": 0.971,
+  "diff": [
+   [
+    "millenovecentodiciassette",
+    "1917"
+   ]
+  ],
+  "fine_ampiezza": 0.0006,
+  "inizio_ampiezza": 0.0015
+ },
+ {
+  "nome": "CP_4",
+  "rapporto": 0.985,
+  "diff": [
+   [
+    "quarta",
+    ""
+   ]
+  ],
+  "fine_ampiezza": 0.0016,
+  "inizio_ampiezza": 0.0007
+ }
+]

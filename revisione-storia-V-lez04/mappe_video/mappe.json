@@ -1,0 +1,1490 @@
+{
+ "1": {
+  "titolo": "Quali sono le premesse della Prima guerra mondiale?",
+  "voce": "MAP1",
+  "nodi": [
+   {
+    "id": "B0",
+    "testo": "L'EUROPA DELL'INIZIO DEL NOVECENTO",
+    "c": "p",
+    "cx": 1250,
+    "y": 175
+   },
+   {
+    "id": "B1",
+    "testo": "alleanze contrapposte",
+    "c": "g",
+    "cx": 350,
+    "y": 530
+   },
+   {
+    "id": "B2",
+    "testo": "Triplice alleanza",
+    "c": "m",
+    "rel": [
+     "B1",
+     85
+    ],
+    "y": 690
+   },
+   {
+    "id": "B3",
+    "testo": "Triplice intesa",
+    "c": "m",
+    "rel": [
+     "B1",
+     85
+    ],
+    "y": 815
+   },
+   {
+    "id": "B4",
+    "testo": "Guglielmo II di Germania",
+    "c": "g",
+    "cx": 950,
+    "y": 530
+   },
+   {
+    "id": "B5",
+    "testo": "una politica estera\ne coloniale aggressiva",
+    "c": "l",
+    "cx": 950,
+    "y": 830
+   },
+   {
+    "id": "B6",
+    "testo": "la crisi dell'Impero\nottomano",
+    "c": "g",
+    "cx": 1560,
+    "y": 530
+   },
+   {
+    "id": "B7",
+    "testo": "la concorrenza tra\nAustria-Ungheria e Russia",
+    "c": "l",
+    "cx": 1560,
+    "y": 830
+   }
+  ],
+  "archi": [
+   {
+    "id": "E1",
+    "tipo": "bus",
+    "da": "B0",
+    "a": "B1",
+    "et": "è divisa in",
+    "lp": {
+     "path": 0,
+     "seg": 2
+    },
+    "busy": 335
+   },
+   {
+    "id": "E2",
+    "tipo": "bus",
+    "da": "B0",
+    "a": "B4",
+    "et": "è destabilizzata da",
+    "lp": {
+     "path": 0,
+     "seg": 0,
+     "t": 0.62,
+     "pos": "c"
+    },
+    "busy": 440
+   },
+   {
+    "id": "E3",
+    "tipo": "bus",
+    "da": "B0",
+    "a": "B6",
+    "busy": 440
+   },
+   {
+    "id": "Es2",
+    "tipo": "lato",
+    "da": "B1",
+    "a": "B2"
+   },
+   {
+    "id": "Es3",
+    "tipo": "lato",
+    "da": "B1",
+    "a": "B3"
+   },
+   {
+    "id": "E4",
+    "tipo": "v",
+    "da": "B4",
+    "a": "B5",
+    "et": "che adotta",
+    "lp": {
+     "path": 0,
+     "seg": 0
+    }
+   },
+   {
+    "id": "E5",
+    "tipo": "v",
+    "da": "B6",
+    "a": "B7",
+    "et": "che causa",
+    "lp": {
+     "path": 0,
+     "seg": 0
+    }
+   }
+  ],
+  "passi": [
+   {
+    "t0": 4.81,
+    "t1": 6.87,
+    "testo": "l'Europa dell'inizio del Novecento",
+    "mostra": [
+     "B0"
+    ],
+    "archi": [],
+    "accendi": "B0",
+    "entra_video": 1.0
+   },
+   {
+    "t0": 7.686,
+    "t1": 8.45,
+    "testo": "Si divide in",
+    "mostra": [],
+    "archi": [
+     "E1"
+    ],
+    "accendi": null
+   },
+   {
+    "t0": 8.45,
+    "t1": 9.79,
+    "testo": "alleanze contrapposte",
+    "mostra": [
+     "B1"
+    ],
+    "archi": [],
+    "accendi": "B1"
+   },
+   {
+    "t0": 10.14,
+    "t1": 11.48,
+    "testo": "la Triplice Alleanza",
+    "mostra": [
+     "B2"
+    ],
+    "archi": [
+     "Es2"
+    ],
+    "accendi": "B2"
+   },
+   {
+    "t0": 11.584,
+    "t1": 12.81,
+    "testo": "e la Triplice Intesa",
+    "mostra": [
+     "B3"
+    ],
+    "archi": [
+     "Es3"
+    ],
+    "accendi": "B3"
+   },
+   {
+    "t0": 13.176,
+    "t1": 14.55,
+    "testo": "È destabilizzata da",
+    "mostra": [],
+    "archi": [
+     "E2"
+    ],
+    "accendi": null
+   },
+   {
+    "t0": 14.55,
+    "t1": 16.376,
+    "testo": "Guglielmo secondo di Germania",
+    "mostra": [
+     "B4"
+    ],
+    "archi": [],
+    "accendi": "B4"
+   },
+   {
+    "t0": 16.674,
+    "t1": 17.3,
+    "testo": "che adotta",
+    "mostra": [],
+    "archi": [
+     "E4"
+    ],
+    "accendi": null
+   },
+   {
+    "t0": 17.3,
+    "t1": 19.79,
+    "testo": "una politica estera e coloniale aggressiva",
+    "mostra": [
+     "B5"
+    ],
+    "archi": [],
+    "accendi": "B5"
+   },
+   {
+    "t0": 20.59,
+    "t1": 22.58,
+    "testo": "E dalla crisi dell'Impero ottomano",
+    "mostra": [
+     "B6"
+    ],
+    "archi": [
+     "E3"
+    ],
+    "accendi": "B6"
+   },
+   {
+    "t0": 22.942,
+    "t1": 23.45,
+    "testo": "che causa",
+    "mostra": [],
+    "archi": [
+     "E5"
+    ],
+    "accendi": null
+   },
+   {
+    "t0": 23.45,
+    "t1": 26.19,
+    "testo": "la concorrenza tra Austria-Ungheria e Russia",
+    "mostra": [
+     "B7"
+    ],
+    "archi": [],
+    "accendi": "B7"
+   }
+  ]
+ },
+ "2": {
+  "titolo": "Come ha inizio la Prima guerra mondiale?",
+  "voce": "MAP2",
+  "nodi": [
+   {
+    "id": "B0",
+    "testo": "L'ATTENTATO DI SARAJEVO",
+    "c": "p",
+    "cx": 960,
+    "y": 175
+   },
+   {
+    "id": "B1",
+    "testo": "le alleanze contrapposte",
+    "c": "g",
+    "cx": 960,
+    "y": 385
+   },
+   {
+    "id": "B2",
+    "testo": "l'attacco tedesco alla Francia",
+    "c": "m",
+    "cx": 500,
+    "y": 630
+   },
+   {
+    "id": "B3",
+    "testo": "le battaglie di Tannenberg,\ndei laghi Masuri e di Leopoli",
+    "c": "m",
+    "cx": 1420,
+    "y": 630
+   },
+   {
+    "id": "B4",
+    "testo": "la guerra di posizione nelle trincee",
+    "c": "l",
+    "cx": 960,
+    "y": 925
+   }
+  ],
+  "archi": [
+   {
+    "id": "E1",
+    "tipo": "v",
+    "da": "B0",
+    "a": "B1",
+    "et": "fa scattare",
+    "lp": {
+     "pos": "r"
+    }
+   },
+   {
+    "id": "E2",
+    "tipo": "bus",
+    "da": "B1",
+    "a": "B2",
+    "et": "con",
+    "lp": {
+     "path": 0,
+     "seg": 0,
+     "pos": "r"
+    },
+    "busy": 550
+   },
+   {
+    "id": "E3",
+    "tipo": "bus",
+    "da": "B1",
+    "a": "B3",
+    "busy": 550
+   },
+   {
+    "id": "E4",
+    "tipo": "unisci",
+    "da": [
+     "B2",
+     "B3"
+    ],
+    "a": "B4",
+    "et": "cui segue",
+    "lp": {
+     "path": 2,
+     "seg": 0,
+     "pos": "r"
+    },
+    "busy": 815
+   }
+  ],
+  "passi": [
+   {
+    "t0": 3.208,
+    "t1": 4.41,
+    "testo": "L'attentato di Sarajevo",
+    "mostra": [
+     "B0"
+    ],
+    "archi": [],
+    "accendi": "B0",
+    "entra_video": 1.0
+   },
+   {
+    "t0": 4.41,
+    "t1": 5.03,
+    "testo": "fa scattare",
+    "mostra": [],
+    "archi": [
+     "E1"
+    ],
+    "accendi": null
+   },
+   {
+    "t0": 5.03,
+    "t1": 6.6,
+    "testo": "le alleanze contrapposte",
+    "mostra": [
+     "B1"
+    ],
+    "archi": [],
+    "accendi": "B1"
+   },
+   {
+    "t0": 6.92,
+    "t1": 7.92,
+    "testo": "Seguono",
+    "mostra": [],
+    "archi": [
+     "E2",
+     "E3"
+    ],
+    "accendi": null
+   },
+   {
+    "t0": 7.92,
+    "t1": 9.207,
+    "testo": "l'attacco tedesco alla Francia",
+    "mostra": [
+     "B2"
+    ],
+    "archi": [],
+    "accendi": "B2"
+   },
+   {
+    "t0": 9.44,
+    "t1": 12.139,
+    "testo": "e le battaglie di Tannenberg e dei laghi Masuri",
+    "mostra": [
+     "B3"
+    ],
+    "archi": [],
+    "accendi": "B3"
+   },
+   {
+    "t0": 12.64,
+    "t1": 13.016,
+    "testo": "Poi",
+    "mostra": [],
+    "archi": [
+     "E4"
+    ],
+    "accendi": null
+   },
+   {
+    "t0": 13.016,
+    "t1": 15.189,
+    "testo": "la guerra di posizione nelle trincee",
+    "mostra": [
+     "B4"
+    ],
+    "archi": [],
+    "accendi": "B4"
+   }
+  ]
+ },
+ "3": {
+  "titolo": "Come si giunge all'intervento dell'Italia?",
+  "voce": "MAP3",
+  "nodi": [
+   {
+    "id": "B0",
+    "testo": "L'ITALIA",
+    "c": "p",
+    "cx": 960,
+    "y": 175
+   },
+   {
+    "id": "B1",
+    "testo": "interventisti",
+    "c": "g",
+    "cx": 551,
+    "y": 440
+   },
+   {
+    "id": "B2",
+    "testo": "neutralisti",
+    "c": "g",
+    "cx": 1320,
+    "y": 440
+   },
+   {
+    "id": "B3",
+    "testo": "liberali conservatori",
+    "c": "g",
+    "cx": 313,
+    "y": 660
+   },
+   {
+    "id": "B4",
+    "testo": "il Patto di Londra",
+    "c": "m",
+    "cx": 313,
+    "y": 860
+   },
+   {
+    "id": "B5",
+    "testo": "nazionalisti",
+    "c": "g",
+    "cx": 790,
+    "y": 660
+   },
+   {
+    "id": "B6",
+    "testo": "manifestazioni per\nl'intervento",
+    "c": "m",
+    "cx": 790,
+    "y": 860
+   },
+   {
+    "id": "B7",
+    "testo": "liberali progressisti",
+    "c": "g",
+    "left": 1265,
+    "y": 590
+   },
+   {
+    "id": "B8",
+    "testo": "socialisti",
+    "c": "g",
+    "left": 1265,
+    "y": 720
+   }
+  ],
+  "archi": [
+   {
+    "id": "E1",
+    "tipo": "bus",
+    "da": "B0",
+    "a": "B1",
+    "et": "è divisa tra",
+    "lp": {
+     "path": 0,
+     "seg": 0,
+     "pos": "r"
+    },
+    "busy": 340
+   },
+   {
+    "id": "E2",
+    "tipo": "bus",
+    "da": "B0",
+    "a": "B2",
+    "busy": 340
+   },
+   {
+    "id": "E3",
+    "tipo": "bus",
+    "da": "B1",
+    "a": "B3",
+    "et": "che sono",
+    "lp": {
+     "path": 0,
+     "seg": 0,
+     "pos": "r"
+    },
+    "busy": 600
+   },
+   {
+    "id": "E5",
+    "tipo": "bus",
+    "da": "B1",
+    "a": "B5",
+    "busy": 600
+   },
+   {
+    "id": "E4",
+    "tipo": "v",
+    "da": "B3",
+    "a": "B4",
+    "et": "che firmano",
+    "lp": {
+     "path": 0,
+     "seg": 0
+    }
+   },
+   {
+    "id": "E6",
+    "tipo": "v",
+    "da": "B5",
+    "a": "B6",
+    "et": "che organizzano",
+    "lp": {
+     "path": 0,
+     "seg": 0
+    }
+   },
+   {
+    "id": "E7",
+    "tipo": "lato",
+    "da": "B2",
+    "a": "B7"
+   },
+   {
+    "id": "E8",
+    "tipo": "lato",
+    "da": "B2",
+    "a": "B8"
+   }
+  ],
+  "passi": [
+   {
+    "t0": 3.62,
+    "t1": 4.26,
+    "testo": "L'Italia",
+    "mostra": [
+     "B0"
+    ],
+    "archi": [],
+    "accendi": "B0",
+    "entra_video": 1.0
+   },
+   {
+    "t0": 4.26,
+    "t1": 5.06,
+    "testo": "è divisa tra",
+    "mostra": [],
+    "archi": [
+     "E1"
+    ],
+    "accendi": null
+   },
+   {
+    "t0": 5.06,
+    "t1": 5.855,
+    "testo": "interventisti",
+    "mostra": [
+     "B1"
+    ],
+    "archi": [],
+    "accendi": "B1"
+   },
+   {
+    "t0": 5.93,
+    "t1": 6.66,
+    "testo": "e neutralisti",
+    "mostra": [
+     "B2"
+    ],
+    "archi": [
+     "E2"
+    ],
+    "accendi": "B2"
+   },
+   {
+    "t0": 7.47,
+    "t1": 8.75,
+    "testo": "Gli interventisti sono",
+    "mostra": [],
+    "archi": [
+     "E3"
+    ],
+    "accendi": "B1"
+   },
+   {
+    "t0": 9.089,
+    "t1": 10.418,
+    "testo": "liberali conservatori",
+    "mostra": [
+     "B3"
+    ],
+    "archi": [],
+    "accendi": "B3"
+   },
+   {
+    "t0": 10.668,
+    "t1": 11.3,
+    "testo": "che firmano",
+    "mostra": [],
+    "archi": [
+     "E4"
+    ],
+    "accendi": null
+   },
+   {
+    "t0": 11.3,
+    "t1": 12.183,
+    "testo": "il Patto di Londra",
+    "mostra": [
+     "B4"
+    ],
+    "archi": [],
+    "accendi": "B4"
+   },
+   {
+    "t0": 12.75,
+    "t1": 13.691,
+    "testo": "e nazionalisti",
+    "mostra": [
+     "B5"
+    ],
+    "archi": [
+     "E5"
+    ],
+    "accendi": "B5"
+   },
+   {
+    "t0": 14.07,
+    "t1": 14.75,
+    "testo": "che organizzano",
+    "mostra": [],
+    "archi": [
+     "E6"
+    ],
+    "accendi": null
+   },
+   {
+    "t0": 14.75,
+    "t1": 16.372,
+    "testo": "manifestazioni per l'intervento",
+    "mostra": [
+     "B6"
+    ],
+    "archi": [],
+    "accendi": "B6"
+   },
+   {
+    "t0": 17.08,
+    "t1": 18.25,
+    "testo": "I neutralisti sono",
+    "mostra": [],
+    "archi": [],
+    "accendi": "B2"
+   },
+   {
+    "t0": 18.25,
+    "t1": 19.354,
+    "testo": "liberali progressisti",
+    "mostra": [
+     "B7"
+    ],
+    "archi": [
+     "E7"
+    ],
+    "accendi": "B7"
+   },
+   {
+    "t0": 19.667,
+    "t1": 20.43,
+    "testo": "e socialisti",
+    "mostra": [
+     "B8"
+    ],
+    "archi": [
+     "E8"
+    ],
+    "accendi": "B8"
+   }
+  ]
+ },
+ "4": {
+  "titolo": "Come si svolge la guerra tra il 1916 e il 1917?",
+  "voce": "MAP4",
+  "nodi": [
+   {
+    "id": "B0",
+    "testo": "LA PRIMA GUERRA MONDIALE",
+    "c": "p",
+    "cx": 975,
+    "y": 175
+   },
+   {
+    "id": "B1",
+    "testo": "guerra globale",
+    "c": "g",
+    "left": 130,
+    "y": 460
+   },
+   {
+    "id": "B2",
+    "testo": "guerra totale",
+    "c": "g",
+    "left": 130,
+    "y": 580
+   },
+   {
+    "id": "B3",
+    "testo": "1916",
+    "c": "c",
+    "cx": 730,
+    "y": 480,
+    "w": 446
+   },
+   {
+    "id": "B4",
+    "testo": "gigantesche e inutili battaglie",
+    "c": "m",
+    "cx": 730,
+    "y": 730
+   },
+   {
+    "id": "B5",
+    "testo": "1917",
+    "c": "c",
+    "cx": 1220,
+    "y": 480,
+    "w": 380
+   },
+   {
+    "id": "B6",
+    "testo": "il ritiro della Russia",
+    "c": "m",
+    "left": 1115,
+    "y": 620
+   },
+   {
+    "id": "B7",
+    "testo": "l'intervento degli Stati Uniti",
+    "c": "m",
+    "left": 1115,
+    "y": 750
+   },
+   {
+    "id": "B8",
+    "testo": "la sconfitta italiana a Caporetto",
+    "c": "m",
+    "left": 1115,
+    "y": 880
+   }
+  ],
+  "archi": [
+   {
+    "id": "E1",
+    "tipo": "lato",
+    "da": "B0",
+    "a": "B1",
+    "et": "è una",
+    "lp": {
+     "path": 0,
+     "seg": 2,
+     "pos": "r",
+     "t": 0.3
+    },
+    "busy": 335,
+    "sx": 90
+   },
+   {
+    "id": "E2",
+    "tipo": "lato",
+    "da": "B0",
+    "a": "B2",
+    "busy": 335,
+    "sx": 90
+   },
+   {
+    "id": "E3",
+    "tipo": "bus",
+    "da": "B0",
+    "a": "B3",
+    "et": "nel",
+    "lp": {
+     "path": 0,
+     "seg": 0,
+     "pos": "r",
+     "t": 0.75
+    },
+    "busy": 400
+   },
+   {
+    "id": "E4",
+    "tipo": "v",
+    "da": "B3",
+    "a": "B4",
+    "et": "vede",
+    "lp": {
+     "path": 0,
+     "seg": 0
+    }
+   },
+   {
+    "id": "E5",
+    "tipo": "bus",
+    "da": "B0",
+    "a": "B5",
+    "busy": 400
+   },
+   {
+    "id": "E6",
+    "tipo": "lato",
+    "da": "B5",
+    "a": "B6",
+    "et": "vede",
+    "lp": {
+     "path": 0,
+     "seg": 0,
+     "pos": "r",
+     "t": 0.28
+    },
+    "sx": 1070
+   },
+   {
+    "id": "E7",
+    "tipo": "lato",
+    "da": "B5",
+    "a": "B7",
+    "sx": 1070
+   },
+   {
+    "id": "E8",
+    "tipo": "lato",
+    "da": "B5",
+    "a": "B8",
+    "sx": 1070
+   }
+  ],
+  "passi": [
+   {
+    "t0": 6.12,
+    "t1": 7.2,
+    "testo": "La Prima guerra mondiale",
+    "mostra": [
+     "B0"
+    ],
+    "archi": [],
+    "accendi": "B0",
+    "entra_video": 1.0
+   },
+   {
+    "t0": 7.2,
+    "t1": 7.7,
+    "testo": "è una",
+    "mostra": [],
+    "archi": [
+     "E1"
+    ],
+    "accendi": null
+   },
+   {
+    "t0": 7.7,
+    "t1": 8.647,
+    "testo": "guerra globale",
+    "mostra": [
+     "B1"
+    ],
+    "archi": [],
+    "accendi": "B1"
+   },
+   {
+    "t0": 8.73,
+    "t1": 9.169,
+    "testo": "e totale",
+    "mostra": [
+     "B2"
+    ],
+    "archi": [
+     "E2"
+    ],
+    "accendi": "B2"
+   },
+   {
+    "t0": 9.82,
+    "t1": 9.99,
+    "testo": "Nel",
+    "mostra": [],
+    "archi": [
+     "E3"
+    ],
+    "accendi": null
+   },
+   {
+    "t0": 9.99,
+    "t1": 11.49,
+    "testo": "millenovecentosedici",
+    "mostra": [
+     "B3"
+    ],
+    "archi": [],
+    "accendi": "B3"
+   },
+   {
+    "t0": 11.49,
+    "t1": 11.85,
+    "testo": "vede",
+    "mostra": [],
+    "archi": [
+     "E4"
+    ],
+    "accendi": null
+   },
+   {
+    "t0": 11.85,
+    "t1": 13.828,
+    "testo": "gigantesche e inutili battaglie",
+    "mostra": [
+     "B4"
+    ],
+    "archi": [],
+    "accendi": "B4"
+   },
+   {
+    "t0": 14.108,
+    "t1": 15.76,
+    "testo": "Nel millenovecentodiciassette",
+    "mostra": [
+     "B5"
+    ],
+    "archi": [
+     "E5"
+    ],
+    "accendi": "B5"
+   },
+   {
+    "t0": 16.0,
+    "t1": 16.3,
+    "testo": "vede",
+    "mostra": [],
+    "archi": [
+     "E6"
+    ],
+    "accendi": null
+   },
+   {
+    "t0": 16.3,
+    "t1": 17.546,
+    "testo": "il ritiro della Russia",
+    "mostra": [
+     "B6"
+    ],
+    "archi": [],
+    "accendi": "B6"
+   },
+   {
+    "t0": 17.756,
+    "t1": 19.234,
+    "testo": "l'intervento degli Stati Uniti",
+    "mostra": [
+     "B7"
+    ],
+    "archi": [
+     "E7"
+    ],
+    "accendi": "B7"
+   },
+   {
+    "t0": 19.585,
+    "t1": 21.357,
+    "testo": "e la sconfitta italiana a Caporetto",
+    "mostra": [
+     "B8"
+    ],
+    "archi": [
+     "E8"
+    ],
+    "accendi": "B8"
+   }
+  ]
+ },
+ "5": {
+  "titolo": "Come si giunge alla vittoria dell'Intesa?",
+  "voce": "MAP5",
+  "nodi": [
+   {
+    "id": "B0",
+    "testo": "L'ANNO 1918",
+    "c": "p",
+    "cx": 1270,
+    "y": 175
+   },
+   {
+    "id": "B1",
+    "testo": "una grande offensiva\ntedesca",
+    "c": "m",
+    "cx": 340,
+    "y": 540
+   },
+   {
+    "id": "B2",
+    "testo": "l'Intesa con la battaglia\ndi Amiens",
+    "c": "m",
+    "cx": 340,
+    "y": 800
+   },
+   {
+    "id": "B3",
+    "testo": "la sconfitta austriaca\nsul fronte italiano",
+    "c": "g",
+    "cx": 960,
+    "y": 540
+   },
+   {
+    "id": "B4",
+    "testo": "l'armistizio\n(4 novembre 1918)",
+    "c": "c",
+    "cx": 960,
+    "y": 800
+   },
+   {
+    "id": "B5",
+    "testo": "la rivoluzione\nin Germania",
+    "c": "g",
+    "cx": 1580,
+    "y": 540
+   },
+   {
+    "id": "B6",
+    "testo": "l'armistizio\n(11 novembre 1918)",
+    "c": "c",
+    "cx": 1580,
+    "y": 800
+   }
+  ],
+  "archi": [
+   {
+    "id": "E1",
+    "tipo": "bus",
+    "da": "B0",
+    "a": "B1",
+    "et": "inizia con",
+    "lp": {
+     "path": 0,
+     "seg": 2
+    },
+    "busy": 335
+   },
+   {
+    "id": "E2",
+    "tipo": "v",
+    "da": "B1",
+    "a": "B2",
+    "et": "alla quale risponde",
+    "lp": {
+     "path": 0,
+     "seg": 0
+    }
+   },
+   {
+    "id": "E3",
+    "tipo": "bus",
+    "da": "B0",
+    "a": "B3",
+    "et": "vede",
+    "lp": {
+     "path": 0,
+     "seg": 0,
+     "pos": "r",
+     "t": 0.65
+    },
+    "busy": 440
+   },
+   {
+    "id": "E4",
+    "tipo": "v",
+    "da": "B3",
+    "a": "B4",
+    "et": "cui segue",
+    "lp": {
+     "path": 0,
+     "seg": 0
+    }
+   },
+   {
+    "id": "E5",
+    "tipo": "bus",
+    "da": "B0",
+    "a": "B5",
+    "busy": 440
+   },
+   {
+    "id": "E6",
+    "tipo": "v",
+    "da": "B5",
+    "a": "B6",
+    "et": "che porta a",
+    "lp": {
+     "path": 0,
+     "seg": 0
+    }
+   }
+  ],
+  "passi": [
+   {
+    "t0": 3.4,
+    "t1": 4.97,
+    "testo": "L'anno millenovecentodiciotto",
+    "mostra": [
+     "B0"
+    ],
+    "archi": [],
+    "accendi": "B0",
+    "entra_video": 1.0
+   },
+   {
+    "t0": 5.32,
+    "t1": 5.97,
+    "testo": "inizia con",
+    "mostra": [],
+    "archi": [
+     "E1"
+    ],
+    "accendi": null
+   },
+   {
+    "t0": 5.97,
+    "t1": 7.531,
+    "testo": "una grande offensiva tedesca",
+    "mostra": [
+     "B1"
+    ],
+    "archi": [],
+    "accendi": "B1"
+   },
+   {
+    "t0": 7.82,
+    "t1": 8.15,
+    "testo": "a cui",
+    "mostra": [],
+    "archi": [
+     "E2"
+    ],
+    "accendi": null
+   },
+   {
+    "t0": 8.15,
+    "t1": 10.298,
+    "testo": "l'Intesa risponde con la battaglia di Amiens",
+    "mostra": [
+     "B2"
+    ],
+    "archi": [],
+    "accendi": "B2"
+   },
+   {
+    "t0": 11.06,
+    "t1": 11.35,
+    "testo": "Vede",
+    "mostra": [],
+    "archi": [
+     "E3"
+    ],
+    "accendi": null
+   },
+   {
+    "t0": 11.35,
+    "t1": 13.547,
+    "testo": "la sconfitta austriaca sul fronte italiano",
+    "mostra": [
+     "B3"
+    ],
+    "archi": [],
+    "accendi": "B3"
+   },
+   {
+    "t0": 13.88,
+    "t1": 14.5,
+    "testo": "a cui segue",
+    "mostra": [],
+    "archi": [
+     "E4"
+    ],
+    "accendi": null
+   },
+   {
+    "t0": 14.5,
+    "t1": 16.098,
+    "testo": "l'armistizio del quattro novembre",
+    "mostra": [
+     "B4"
+    ],
+    "archi": [],
+    "accendi": "B4"
+   },
+   {
+    "t0": 16.48,
+    "t1": 18.309,
+    "testo": "E la rivoluzione in Germania",
+    "mostra": [
+     "B5"
+    ],
+    "archi": [
+     "E5"
+    ],
+    "accendi": "B5"
+   },
+   {
+    "t0": 18.67,
+    "t1": 19.45,
+    "testo": "che porta",
+    "mostra": [],
+    "archi": [
+     "E6"
+    ],
+    "accendi": null
+   },
+   {
+    "t0": 19.45,
+    "t1": 20.834,
+    "testo": "all'armistizio dell'undici novembre",
+    "mostra": [
+     "B6"
+    ],
+    "archi": [],
+    "accendi": "B6"
+   }
+  ]
+ },
+ "6": {
+  "titolo": "Come vengono definite le condizioni della pace?",
+  "voce": "MAP6",
+  "nodi": [
+   {
+    "id": "B0",
+    "testo": "LA CONFERENZA DI PACE DI PARIGI",
+    "c": "p",
+    "cx": 1045,
+    "y": 175
+   },
+   {
+    "id": "B1",
+    "testo": "i Quattordici punti\ndi Wilson",
+    "c": "g",
+    "cx": 589,
+    "y": 470
+   },
+   {
+    "id": "B2",
+    "testo": "l'autodeterminazione\ndei popoli",
+    "c": "l",
+    "cx": 305,
+    "y": 780
+   },
+   {
+    "id": "B3",
+    "testo": "la nascita di una Società\ndelle Nazioni",
+    "c": "l",
+    "cx": 873,
+    "y": 780
+   },
+   {
+    "id": "B4",
+    "testo": "Francia e Regno Unito",
+    "c": "g",
+    "cx": 1500,
+    "y": 470
+   },
+   {
+    "id": "B5",
+    "testo": "una pace punitiva\nper la Germania",
+    "c": "l",
+    "cx": 1500,
+    "y": 780
+   }
+  ],
+  "archi": [
+   {
+    "id": "E1",
+    "tipo": "bus",
+    "da": "B0",
+    "a": "B1",
+    "et": "è ispirata da",
+    "lp": {
+     "path": 0,
+     "seg": 2
+    },
+    "busy": 335
+   },
+   {
+    "id": "E2",
+    "tipo": "bus",
+    "da": "B1",
+    "a": "B2",
+    "et": "che sostengono",
+    "lp": {
+     "path": 0,
+     "seg": 0,
+     "pos": "r"
+    },
+    "busy": 690
+   },
+   {
+    "id": "E3",
+    "tipo": "bus",
+    "da": "B1",
+    "a": "B3",
+    "busy": 690
+   },
+   {
+    "id": "E4",
+    "tipo": "bus",
+    "da": "B0",
+    "a": "B4",
+    "et": "è condizionata da",
+    "lp": {
+     "path": 0,
+     "seg": 2
+    },
+    "busy": 335
+   },
+   {
+    "id": "E5",
+    "tipo": "v",
+    "da": "B4",
+    "a": "B5",
+    "et": "che vogliono",
+    "lp": {
+     "path": 0,
+     "seg": 0
+    }
+   }
+  ],
+  "passi": [
+   {
+    "t0": 3.76,
+    "t1": 5.52,
+    "testo": "La Conferenza di pace di Parigi",
+    "mostra": [
+     "B0"
+    ],
+    "archi": [],
+    "accendi": "B0",
+    "entra_video": 1.0
+   },
+   {
+    "t0": 5.52,
+    "t1": 6.4,
+    "testo": "è ispirata dai",
+    "mostra": [],
+    "archi": [
+     "E1"
+    ],
+    "accendi": null
+   },
+   {
+    "t0": 6.4,
+    "t1": 7.942,
+    "testo": "Quattordici punti di Wilson",
+    "mostra": [
+     "B1"
+    ],
+    "archi": [],
+    "accendi": "B1"
+   },
+   {
+    "t0": 8.11,
+    "t1": 8.84,
+    "testo": "che sostengono",
+    "mostra": [],
+    "archi": [
+     "E2"
+    ],
+    "accendi": null
+   },
+   {
+    "t0": 8.84,
+    "t1": 10.5,
+    "testo": "l'autodeterminazione dei popoli",
+    "mostra": [
+     "B2"
+    ],
+    "archi": [],
+    "accendi": "B2"
+   },
+   {
+    "t0": 10.5,
+    "t1": 12.62,
+    "testo": "e la nascita di una Società delle Nazioni",
+    "mostra": [
+     "B3"
+    ],
+    "archi": [
+     "E3"
+    ],
+    "accendi": "B3"
+   },
+   {
+    "t0": 13.04,
+    "t1": 13.9,
+    "testo": "È condizionata da",
+    "mostra": [],
+    "archi": [
+     "E4"
+    ],
+    "accendi": null
+   },
+   {
+    "t0": 13.9,
+    "t1": 14.891,
+    "testo": "Francia e Regno Unito",
+    "mostra": [
+     "B4"
+    ],
+    "archi": [],
+    "accendi": "B4"
+   },
+   {
+    "t0": 15.17,
+    "t1": 15.75,
+    "testo": "che vogliono",
+    "mostra": [],
+    "archi": [
+     "E5"
+    ],
+    "accendi": null
+   },
+   {
+    "t0": 15.75,
+    "t1": 17.692,
+    "testo": "una pace punitiva per la Germania",
+    "mostra": [
+     "B5"
+    ],
+    "archi": [],
+    "accendi": "B5"
+   }
+  ]
+ }
+}

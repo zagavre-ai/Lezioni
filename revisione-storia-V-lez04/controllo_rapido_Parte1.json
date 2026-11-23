@@ -1,0 +1,21 @@
+{
+ "video": "Storia_Lez4_Parte1_fin3.mp4",
+ "durata_min": 45.42,
+ "formato": "1920x1080 30/1",
+ "peso_MB": 281,
+ "LUFS": -16.9,
+ "picco_dBTP": -0.6,
+ "pause_mute": [],
+ "nome_docente_nel_pie_di_pagina": [],
+ "schede_con_fasce": [],
+ "schermate_ferme_oltre_3_min": [],
+ "titolo_in_copertina": "3/3 parole",
+ "foglio": "foglio_fotogrammi_Storia_Lez4_Parte1_fin3.jpg",
+ "ERRORI": [
+  "picco -0.6 dBTP (massimo -1)"
+ ],
+ "DA_GUARDARE": [
+  "Apri il foglio dei fotogrammi e controlla con gli occhi: fondo bianco; schede di titolo/quiz/ripasso in BLU SCURO a tutto schermo; card a 40 px e intere; nessun nome del docente fuori dalla fascia gialla; riquadro del docente giusto (Mazzotti 4:3, Caputi tondo); copertina con il titolo esatto; mappe del prof con la legenda BES; in fondo sigla finale con l'avviso dei diritti e intro «Compiti»."
+ ],
+ "ESITO": "DA CORREGGERE"
+}

@@ -1,25 +1,25 @@
 {
  "materia": "Storia",
  "titolo": "Storia V · Lezione 4 · La Prima guerra mondiale · Parte 1",
- "durata_s": 2628.07,
+ "durata_s": 2724.93,
  "argomenti": [
   {
    "n": 1,
    "titolo": "L'Europa all'inizio del Novecento",
-   "inizio_s": 249.667,
-   "quiz_s": 833.467
+   "inizio_s": 252.6,
+   "quiz_s": 873.233
   },
   {
    "n": 2,
    "titolo": "Le crisi coloniali e i Balcani",
-   "inizio_s": 838.067,
-   "quiz_s": 1503.867
+   "inizio_s": 877.733,
+   "quiz_s": 1553.767
   },
   {
    "n": 3,
    "titolo": "1914: il casus belli",
-   "inizio_s": 1508.467,
-   "quiz_s": 2564.467
+   "inizio_s": 1558.267,
+   "quiz_s": 2661.467
   }
  ],
  "quiz": {

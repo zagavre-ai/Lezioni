@@ -1,37 +1,37 @@
 {
  "materia": "Storia",
  "titolo": "Storia V · Lezione 4 · La Prima guerra mondiale · Parte 3",
- "durata_s": 2659.87,
+ "durata_s": 3028.3,
  "argomenti": [
   {
    "n": 7,
    "titolo": "Le battaglie di logoramento",
-   "inizio_s": 39.8,
-   "quiz_s": 874.733
+   "inizio_s": 159.067,
+   "quiz_s": 1040.567
   },
   {
    "n": 8,
    "titolo": "1917: crisi e svolta",
-   "inizio_s": 879.333,
-   "quiz_s": 1534.733
+   "inizio_s": 1045.067,
+   "quiz_s": 1712.867
   },
   {
    "n": 9,
    "titolo": "1918: la fine degli imperi",
-   "inizio_s": 1539.333,
-   "quiz_s": 2011.5
+   "inizio_s": 1717.367,
+   "quiz_s": 2238.367
   },
   {
    "n": 10,
    "titolo": "Il bilancio del conflitto",
-   "inizio_s": 2016.1,
-   "quiz_s": 2194.667
+   "inizio_s": 2242.867,
+   "quiz_s": 2439.167
   },
   {
    "n": 11,
    "titolo": "I trattati di pace",
-   "inizio_s": 2199.267,
-   "quiz_s": 2597.767
+   "inizio_s": 2443.667,
+   "quiz_s": 2882.733
   }
  ],
  "quiz": {
@@ -311,6 +311,6 @@
    ]
   }
  },
- "t_verifica": 2654.87,
- "t_compiti": 2654.87
+ "t_verifica": 2936.93,
+ "t_compiti": 2949.13
 }
