@@ -1,9 +1,3 @@
-AP1 OK frasi trovate 1 / 1 parole diverse 10 (vere 3) tentativi 1
-AP2 OK frasi trovate 1 / 1 parole diverse 6 (vere 3) tentativi 1
-AP3 OK frasi trovate 1 / 1 parole diverse 12 (vere 8) tentativi 1
-AP4 OK frasi trovate 1 / 1 parole diverse 11 (vere 4) tentativi 1
-AP5 OK frasi trovate 1 / 1 parole diverse 8 (vere 3) tentativi 1
-AP6 OK frasi trovate 1 / 1 parole diverse 9 (vere 6) tentativi 1
-AP7 OK frasi trovate 1 / 1 parole diverse 4 (vere 3) tentativi 1
-AP8 OK frasi trovate 1 / 1 parole diverse 5 (vere 3) tentativi 1
-RGL1 OK frasi trovate 1 / 1 parole diverse 4 (vere 4) tentativi 1
+INTRO1_N OK frasi trovate 1 / 1 parole diverse 4 (vere 3) tentativi 1
+FINP1 OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
+PS3_4 OK frasi trovate 1 / 1 parole diverse 1 (vere 1) tentativi 1
