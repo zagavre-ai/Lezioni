@@ -88,10 +88,14 @@
   {
    "quando": "22/11 19:28",
    "testo": "correzioni 22/11 fatte. Durata misurata 64:46,7 (3886,7 s), 306 MB, -16,7 LUFS, picco -1,6 dBTP. 4 parti + sha256 sul ramo. severo: solo «…» delle note del libro (Pianto antico). Checklist 11 indipendente in CHECKLIST_11.md: aperte copertina con sottotitolo e piè con nome prof nel video."
+  },
+  {
+   "quando": "23/11 11:01",
+   "testo": "23/11: corretto piè (nome docente tolto), schede quiz «Controlla», pausa 47:34. Aggiunta voce COMPITI a testi_voci.json (ramo voci-): aspetto COMPITI.wav per montare i compiti letti da Kore, poi controllo_rapido e riconsegna."
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 3 · Carducci",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-22 19:28:46"
+ "aggiornato": "2026-11-23 11:01:12"
 }
