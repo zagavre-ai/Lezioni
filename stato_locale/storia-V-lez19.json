@@ -34,6 +34,10 @@
   {
    "quando": "23/11 09:00",
    "testo": "Lez19 ore 09:00 UTC (10:00 italiane): su voci-storia-V-lez19 NON ci sono ancora le voci nuove (BENV1_R2, RIP2A, A2N, MP1_0-5, MP2_0-3, MP3_0-3, COMPITI). Tutto il resto e' pronto e fermo. Per la consegna entro le 11:00 italiane servono almeno 60-90 minuti dopo l'arrivo delle voci (ricostruzione scene, assemblaggio, controllo_rapido). Se non arrivano entro le 10:00 UTC la scadenza salta: dimmi se preferisci priorita' alle sole voci che bloccano (BENV1_R2, MP*, COMPITI). Non consegno con voci mute."
+  },
+  {
+   "quando": "23/11 09:46",
+   "testo": "Lez19 ore 09:45 UTC: arrivate 13 voci su 18 (A2N, BENV1_R2, MP1_0/1/2/4/5, MP2_0/2/3, MP3_0/2/3). MANCANO: MP1_3, MP2_1, MP3_1 (rami delle 3 mappe), RIP2A (apertura spiegone Parte 2) e COMPITI. Senza quelle non posso chiudere ne' mappe ne' Parte 2 ne' compiti. Dopo l'arrivo servono ~90 min (verifica voci, ricostruzione, assemblaggio, controllo_rapido), quindi la consegna delle 11:00 italiane salta comunque. Appena arrivano le 5 mancanti ricostruisco e consegno. Non ho ricevuto ESITI.txt: controllo io le voci arrivate (trascrizione e bordi)."
   }
  ],
  "domande_sara": [],
@@ -85,5 +89,5 @@
  ],
  "materia": "storia-V",
  "lezione": "19",
- "aggiornato": "2026-11-23 09:00:55"
+ "aggiornato": "2026-11-23 09:46:02"
 }
