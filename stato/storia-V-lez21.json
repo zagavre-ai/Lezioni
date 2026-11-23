@@ -38,6 +38,10 @@
   {
    "quando": "23/11 09:11",
    "testo": "09:11 UTC (10:11 italiane): lez 21 PRONTA salvo le voci Kore, che non sono ancora su voci-storia-V-lez21 (95 wav, tutti vecchi). Non consegno con le voci provvisorie robotiche. Appena arrivano lancio rebuild_voci.sh (circa 75 minuti: schede con voce, codifica, sottotitoli, controllo rapido) e consegno su revisione-storia-V-lez21. Scrivi sul ramo voci-storia-V-lez21 quando le voci sono pronte: mi risvegliera' il vostro messaggio."
+  },
+  {
+   "quando": "23/11 10:45",
+   "testo": "Voci lez 21 controllate con trascrizione: DA RIFARE MA3_4 (dice «lo Stato italiano» e poi LEGGE le istruzioni di stile: «cristallina, timbro luminoso...»), MA2_6 (pronuncia russa, «Судафрика»), MA2_1 (Brasile: pronuncia dubbia), MB4_0 (la trascrizione sente solo «Italia» dopo «Riparti dai paesi in difficoltà maggiore»: controllare), MA4_2 (Portogallo → «Portallo»?). Mancano ancora: COMPITI, BEN1_R4, BEN2_R4, FZ1_R3, LG1_R2, SC7_2_R2, PI1_R2. Monto ora con quelle che ci sono; per le difettose uso la provvisoria e lo scrivo nel rapporto."
   }
  ],
  "domande_sara": [],
@@ -78,5 +82,5 @@
  "materia": "Storia V",
  "lezione": "Lezione 21 · Il mondo dal 2001 ad oggi",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-23 09:11:12"
+ "aggiornato": "2026-11-23 10:45:43"
 }
