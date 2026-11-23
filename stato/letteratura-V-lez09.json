@@ -33,6 +33,10 @@
   {
    "quando": "22/11 18:37",
    "testo": "Rischio ritardo: restano ~50 min; consegno comunque entro 19:30 UTC con i limiti nel rapporto"
+  },
+  {
+   "quando": "23/11 11:11",
+   "testo": "Per chiudere serve ricostruzione completa (cache slide con nome nel piè, schede quiz blu, pause): ~2 ore di calcolo. Procedo? Altrimenti dimmi cosa tenere."
   }
  ],
  "domande_sara": [],
@@ -100,7 +104,11 @@
   {
    "quando": "22/11 19:22",
    "testo": "correzioni 22/11 fatte. P1 53:28, P2 55:37. Controllo severo NON OK (pause quiz/prof, elenco 24px): vedi RAPPORTO"
+  },
+  {
+   "quando": "23/11 11:11",
+   "testo": "controllo_rapido: pause mute P1 9, P2 12 (ESITO DA CORREGGERE). Foglio+json+nomi _ParteN consegnati sul ramo. Restano: schede quiz/ripasso in blu scuro, pause, piè di pagina rigenerato"
   }
  ],
- "aggiornato": "2026-11-22 19:22:44"
+ "aggiornato": "2026-11-23 11:11:11"
 }
