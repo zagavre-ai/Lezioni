@@ -16,7 +16,7 @@ BOX={
  's1':('pag',1420,95,480,100,"deformazioni di volti, figure violente"),
  's2':('pag',1420,205,480,100,"colori forti e contrastati; marcata linea di contorno"),
  'art':('pag',1160,350,290,110,"gli artisti rappresentano"),
- 'a1':('lil',1500,335,400,70,"il proprio stato d'animo"),'a2':('lil',1500,420,400,70,"il dramma esistenziale"),
+ 'a1':('lil',1500,322,400,92,"il proprio stato d'animo"),'a2':('lil',1500,426,400,70,"il dramma esistenziale"),
  'mov':('pag',855,300,210,70,"movimenti"),
  'db':('pag',20,505,380,96,"Die Brücke (Il Ponte)"),'dbd':('cel',20,610,380,70,"1905, a Dresda"),
  'dbn':('men',20,690,380,140,"Kirchner, Schmidt-Rottluff, Heckel"),'dbp':('lil',20,840,380,205,"un ponte simbolico tra l'artista e il mondo, l'arte verso nuovi mondi espressivi"),
