@@ -35,7 +35,7 @@ KW={2:['Realismo','1830–1880','Denuncia sociale','Balzac, Flaubert, Zola'],
  13:['Jean-François Millet','Le spigolatrici','Silenziosa dignità'],14:['Gustave Courbet','Gli spaccapietre','Denuncia sociale'],
  15:["L'atelier del pittore",'Allegoria reale','Gustave Courbet'],16:['Honoré Daumier','Caricature','Macchiaioli','Macchia'],
  17:['Honoré Daumier','Il vagone di terza classe'],18:['Giovanni Fattori','La rotonda dei bagni Palmieri'],
- 19:['Giovanni Fattori','In vedetta'],20:['Silvestro Lega','Il pergolato','Telemaco Signorini'],21:['Telemaco Signorini','La toeletta del mattino']}
+ 19:['Giovanni Fattori','In vedetta'],20:['Silvestro Lega','Il pergolato','Telemaco Signorini'],21:['Telemaco Signorini','La toeletta del mattino'],100:['Brighton Pavilion','John Nash','Stile indiano, moresco e gotico'],101:['Jean-François Millet',"L'Angelus"],102:['Silvestro Lega','Il pergolato'],103:['Telemaco Signorini','La sala delle agitate']}
 DID={'crystal':'Joseph Paxton, Crystal Palace a Londra, 1851 (distrutto nel 1937).','parigi':'Parigi, veduta aerea.',
  'galleria':'Giuseppe Mengoni, Galleria Vittorio Emanuele II, 1863-77. Milano.','opera':"Charles Garnier, Teatro dell'Opéra, 1861-77. Parigi, veduta aerea.",
  'pedrocchino':'Giuseppe Jappelli, Pasticceria detta Il Pedrocchino (1831-42) e Caffè Pedrocchi (dal 1817; facciata meridionale). Padova.',
