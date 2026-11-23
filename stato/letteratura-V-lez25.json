@@ -2,7 +2,7 @@
  "tag": "letteratura-V-lez25",
  "parti": {
   "1": {
-   "stato": "PRONTA",
+   "stato": "IN_REVISIONE",
    "voci": "kore",
    "quiz_ok": "si",
    "fermi_ok": "si",
@@ -499,10 +499,14 @@
   {
    "quando": "22/11 19:20",
    "testo": "19:20 UTC correzioni 22/11 fatte, consegnate sul ramo revisione-letteratura-V-lez25 (38:40, 69625 fot., -16,6 LUFS, jingle 0,000 s, sync -0,013 s). Controllo severo ancora in corso al momento della consegna: durata sotto i 45 min (materiale del prof 20 min). Unione con le pillole della master: tenuta la nuova versione."
+  },
+  {
+   "quando": "23/11 10:53",
+   "testo": "23/11 10:55 UTC: ripreso. Correzioni master: schede ripasso/approfondimento/riepilogo/titoli/quiz in blu scuro, approfondimenti con tutte le card visibili, mappa in 3 schermate a 40 px, chip «premi Controlla», compiti con voce COMPITI (testo inviato, attendo la voce). Rimontaggio in corso."
   }
  ],
  "materia": "Letteratura italiana V",
  "lezione": "Lezione 25 · Pasolini",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-22 19:20:11"
+ "aggiornato": "2026-11-23 10:53:57"
 }
