@@ -6,6 +6,10 @@
   {
    "quando": "22/11 22:49",
    "testo": "Lez09 Futurismo: (1) nella release non c'è il PDF delle slide con le opere: 'LEZIONE 9.pdf' contiene solo i compiti. Le opere (Boccioni, Balla, Carrà, Severini, Depero, Sant'Elia, Pellizza, Segantini) esistono solo dentro il video del prof, che è 1092x614: sgranate se ingrandite. (2) Wikimedia Commons dalla mia rete è bloccata (403). Mi serve una di queste: il PDF/PowerPoint originale del prof con le immagini, oppure le immagini ad alta risoluzione caricate sul mio ramo, oppure l'ok a migliorare (ingrandimento di qualità) i fotogrammi del video. Intanto monto con i fotogrammi migliorati e segno il limite nel rapporto."
+  },
+  {
+   "quando": "23/11 10:46",
+   "testo": "Lez09: (1) testi_voci.json inviato (19 voci). (2) Opere da procurare in alta risoluzione (autori PD): Boccioni, La città che sale 1910-11 (MoMA); Boccioni, Stati d'animo: Gli addii / Quelli che vanno / Quelli che restano, 1911, prima e seconda versione; Boccioni, Materia 1912; Boccioni, Forme uniche della continuità nello spazio 1913; Boccioni, Sviluppo di una bottiglia nello spazio 1912; Pellizza da Volpedo, Il Quarto Stato 1901 e Lo specchio della vita 1895-98; Segantini, Le due madri; Sant'Elia, Studio per la Città Nuova 1914; Russolo, Dinamismo di un'automobile 1912-13 (Pompidou). Balla, Carrà, Severini, Depero, Dottori: protetti, restano le immagini del prof migliorate."
   }
  ],
  "domande_sara": [],
@@ -21,9 +25,13 @@
   {
    "quando": "22/11 22:56",
    "testo": "22/11 23:30: materiali completi (video, slide PDF, mappe, domande), trascrizione fatta, cambi slide rilevati. Prossimo: slide 1080p, taglio del prof, voci provvisorie"
+  },
+  {
+   "quando": "23/11 10:46",
+   "testo": "testi_voci.json (19 voci, incl. COMPITI) inviato su voci-storia-arte-V-lez09; monto con voci provvisorie"
   }
  ],
- "aggiornato": "2026-11-22 22:56:01",
+ "aggiornato": "2026-11-23 10:46:48",
  "materia": "Storia dell'arte V",
  "lezione": "9",
  "docente": "Giorgio Mazzotti"
