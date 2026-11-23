@@ -46,7 +46,7 @@ Valgono per **tutte le materie e tutte le lezioni**. Non si discutono e non si c
    - mappa finale della lezione;
    - **verifica di sbarramento** con il test Excel del docente, soglia 80%, sempre dentro il video;
    - sigla finale con l'avviso dei diritti, in basso al centro, bianco, 24 px;
-   - intro «Compiti» di circa 3,5 s con jingle, poi i **compiti del docente** dentro il video.
+   - intro «Compiti» di circa 3,5 s con jingle, poi i **compiti del docente** dentro il video, **letti dalla voce Kore** con le parole esatte del docente mentre compaiono sullo schermo, uno alla volta con il bordo giallo (Sara, 22/11). Per risparmiare voci: **una sola voce** `COMPITI` con tutti i compiti in fila, e i tempi di ogni compito presi dalla sua trascrizione. Mai il nome del docente nella voce. Alla fine una riga a voce e sullo schermo: «Svolgi i compiti qui sotto e premi Consegna: arrivano al docente nel tuo quaderno dei compiti».
 5. **Transizioni:** `trans.wav` più una dissolvenza di 0,3–1 s a **ogni** cambio di pezzo. Mai un taglio secco, mai una scheda in silenzio.
 6. **Durata:**
    - ogni Parte dura 50–60 minuti; fino a circa 65 resta una sola Parte;
@@ -94,7 +94,8 @@ Valgono per **tutte le materie e tutte le lezioni**. Non si discutono e non si c
   - lilla: conseguenze.
 - Riempimenti pastello, testo blu notte, bordi pieni colorati, frecce blu notte. Testo in maiuscolo e minuscolo, 34–50 px.
 - **Nel video si costruisce ramo per ramo:** un riquadro alla volta, con la sua freccia, mentre la voce lo legge, e il riquadro acceso in giallo finché la voce parla. Alla fine la mappa intera resta ferma 4 secondi.
-- Se il docente non ha una mappa per un argomento, la mappa si costruisce **con le sue parole** e lo si dichiara nel rapporto.
+- **Si usano solo le mappe del docente.** Se per un argomento il docente non ha fatto una mappa, non si inventa: quell'argomento si chiude con la pillola di ripasso.
+- Se una mappa del docente non ha la domanda come titolo, la chat ne scrive una con le parole del docente e lo dichiara nel rapporto.
 
 ## 7. Voci narranti
 - **Tutto quello che creiamo noi** (animazioni, inserti, grafiche, piccoli video, mappe, ripassi, glossario) **ha la nostra voce Kore**, mai la voce del docente. La genera **solo la master**: le chat mandano `testi_voci.json` sul ramo `voci-<tag>`. Mai chiavi nelle chat.
@@ -135,8 +136,13 @@ Valgono per **tutte le materie e tutte le lezioni**. Non si discutono e non si c
   - video a pezzi da 90 MB con sha256;
   - `.vtt`;
   - `timeline_ParteN.json` e `scheda_pubblicazione_ParteN.json` rigenerati sul video **finale**;
+  - `compiti.json` con i compiti del docente (`{"titolo": …, "esercizi": [{"testo": …}]}`): nella pagina della lezione gli alunni li svolgono e li consegnano nel quaderno dei compiti, dove il docente li corregge;
+  - il foglio dei fotogrammi e il json del controllo rapido (§11);
   - `RAPPORTO_REVISIONE.md` con le misure.
   - Lo stato diventa `REVISIONATA`. La master controlla e carica su Vimeo.
+- **Una lezione, una chat, un ramo di consegna.** Si lavora solo sulla lezione prenotata con `stato.py`. Se trovi un'altra chat sulla stessa lezione, fermati e scrivilo alla master: mai due versioni della stessa lezione.
+- **Si riparte sempre dal modello approvato** (grafica e strumenti della lezione 19 di Letteratura V), mai da una versione vecchia della propria lezione: delle versioni vecchie si riusano solo trascrizione, tagli, voci giuste e quiz.
+- **Un controllo che non finisce non è un esito.** Nel rapporto si scrive solo «OK» per un controllo arrivato in fondo; se il controllo severo è troppo lento, vale il controllo rapido (§11).
 - **Repository pubblico:**
   - mai dati di alunni, mai chiavi o password;
   - commit senza firma;
@@ -144,6 +150,18 @@ Valgono per **tutte le materie e tutte le lezioni**. Non si discutono e non si c
 
 ## 11. Controlli obbligatori prima di consegnare (se uno non torna, non si consegna)
 Il controllo lo fa **un agente separato**, che non ha montato la lezione. I difetti si correggono e il controllo si ripete finché non ne resta nessuno.
+
+**Prima di tutto (22/11, obbligatorio):** su ogni Parte finale lancia `python3 kit/tools/controllo_rapido.py VIDEO.mp4 "Titolo esatto"`. Ci mette circa 5 minuti. Deve dare **ESITO OK**. Poi **apri e guarda** il `foglio_fotogrammi_*.jpg` che produce: 24 fotogrammi con il minuto, più quelli delle pause mute. Consegna il foglio e il json sul ramo revisione, accanto al video.
+
+**Cosa si deve vedere sul foglio** (il 22/11 sono state respinte 20 lezioni su 23 per queste cose):
+- piè di pagina: **solo la materia e «Pagina N»**, mai «Prof.» né il nome del docente; il nome compare solo nella fascia gialla;
+- schede di titolo, quiz, ripasso e riepilogo in **blu scuro a tutto schermo**: niente fasce sopra e sotto, niente schede bianche;
+- etichette in Figtree Bold, mai il carattere da macchina da scrivere (DM Mono), niente parentesi quadre;
+- riquadro del docente giusto: Mazzotti 4:3 con la fascia gialla, Caputi nel tondo;
+- **nessuna pausa muta oltre 2,5 s**, neanche sulle schede dei quiz e sulle mappe: la mappa intera resta ferma 4 s, non di più;
+- in fondo la sigla finale del kit con l'avviso dei diritti, poi l'intro «Compiti» con il jingle; mai un «Grazie per l'attenzione» muto;
+- card intere a 40 px, mai una card sola oltre 60 s, nessuna schermata uguale oltre 3 minuti;
+- scritte delle mappe almeno 34 px.
 
 - [ ] Nessun taglio a metà frase del docente (tabella inizio e fine di ogni pezzo).
 - [ ] Voce del docente non alterata: timbro tra −9 e −20 dB in ogni Parte, confrontato con l'originale.
@@ -163,6 +181,13 @@ Il controllo lo fa **un agente separato**, che non ha montato la lezione. I dife
 - [ ] Dispensa e PDF delle mappe: copertina con solo materia e titolo (più «MAPPE» per le mappe), niente nome del docente.
 - [ ] Dispensa identica al video, con il testo invisibile; sottotitoli fatti sul video finale.
 - [ ] Il rapporto dice cosa è stato verificato e **cosa no**.
+
+## 11 bis. Consumo (Sara, 22/11: in due giorni metà del limite settimanale)
+- **Niente cicli di attesa.** Quando aspetti voci o risposte, scrivi lo stato e **fermati**: non controllare ogni pochi minuti. `DALLA_MASTER.txt` si guarda solo a ogni cambio di fase.
+- **L'agente separato del §11 è leggero:** lavora sul foglio dei fotogrammi, sul json del controllo rapido e sui file della consegna. Non riscarica il video e non rifà il montaggio.
+- **Non leggere file grandi interi** (trascrizioni, json lunghi, log): usa `head`, `grep`, `tail`. Non aprire fotogrammi uno per uno: guarda il foglio.
+- **Fai le cose giuste la prima volta:** ogni riconsegna costa quanto mezza lezione. Prima di consegnare, l'elenco del §11.
+- **Dopo la consegna approvata dalla master, la chat si ferma.** Non riaprire chat per la stessa lezione: una lezione, una chat.
 
 ## 12. Il controllo della master
 Dopo la consegna la master ricontrolla **tutte** le regole di questo documento. Se anche una sola non è rispettata, la lezione torna alla chat con l'elenco dei difetti e il minuto.
