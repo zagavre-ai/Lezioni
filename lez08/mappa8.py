@@ -2,6 +2,7 @@
 import sys, os, json, subprocess
 sys.path.insert(0,os.path.dirname(os.path.abspath(__file__)))
 import anim
+HERE=os.path.dirname(os.path.abspath(__file__))
 from anim import *
 TITOLO_MAPPA="Che cos'è l'Espressionismo?"
 # id: (classe, x,y,w,h, testo)   classi: l1 pesca, cel celeste, pag paglierino, men menta, lil lilla ; 'lbl' ovale
@@ -69,32 +70,19 @@ window.render=function(S,t){ // S=[[ [box],[edges],start,dur ]]
     leg='<div id="leg"><span><i style="background:#FFDCC6;border-color:#C2410C"></i>concetto centrale</span><span><i style="background:#DCEEFB;border-color:#1D4ED8"></i>date e sequenze</span><span><i style="background:#FFF3BF;border-color:#A16207"></i>parole chiave</span><span><i style="background:#DDF3E4;border-color:#15803D"></i>esempi e opere</span><span><i style="background:#EBE3F7;border-color:#6D28D9"></i>conseguenze</span></div>'
     return f'<!doctype html><html><head><meta charset="utf-8"><style>{CSSM}</style></head><body><div id="k">{TITOLO_MAPPA}</div>{leg}<div id="f">STORIA DELL\'ARTE V</div><svg width="1920" height="1080"><defs><marker id="ah" markerUnits="userSpaceOnUse" markerWidth="34" markerHeight="34" refX="30" refY="17" orient="auto"><path d="M0,3 L32,17 L0,31 z" fill="#0B1530"/></marker></defs>{ed}</svg>{bx}<script>{js}</script></body></html>'
 def build_video():
-    from playwright.sync_api import sync_playwright
-    wav,tot,offs=registra_concat('M_MAPPA',['M_MAPPA_1','M_MAPPA_2','M_MAPPA_3','M_MAPPA_4'],) if False else concat_voci('M_MAPPA',['M_MAPPA_1','M_MAPPA_2','M_MAPPA_3','M_MAPPA_4'],0.6)
-    CONC['M_MAPPA']=(wav,tot,None)
-    V0=0.8
-    # tempi dei marcatori, voce per voce
+    wav,tot,offs=concat_voci('M_MAPPA',['M_MAPPA_1','M_MAPPA_2','M_MAPPA_3','M_MAPPA_4'],0.6)
+    CONC['M_MAPPA']=(wav,tot,None); V0=0.8
     S=[]; groups={}
     for v,m,bs,es in STEPS: groups.setdefault(v,[]).append((m,bs,es))
     for v in (1,2,3,4):
-        nome=f'M_MAPPA_{v}'; T=tempi_marcatori(nome,[g[0] for g in groups[v]])
+        T=tempi_marcatori(f'M_MAPPA_{v}',[g[0] for g in groups[v]])
         for (m,bs,es),t in zip(groups[v],T): S.append([bs,es,V0+offs[v-1]+t,0])
     for i in range(len(S)): S[i][3]=(S[i+1][2]-S[i][2]) if i+1<len(S) else 2.5
-    total=V0+tot+4.0; n=int(total*30)
+    total=V0+tot+4.0
     open(f'{B}/mappa8.html','w').write(html())
-    out=f'{B}/p_mappa.mkv'; mix_audio([(wav,V0,1.0)],total,f'{B}/a_mappa.wav')
-    ff=subprocess.Popen(['ffmpeg','-v','error','-y','-f','image2pipe','-framerate','30','-i','-','-i',f'{B}/a_mappa.wav','-map','0:v','-map','1:a','-c:v','libx264','-preset','veryfast','-crf','18','-pix_fmt','yuv420p','-c:a','pcm_s16le','-shortest',out],stdin=subprocess.PIPE)
-    with sync_playwright() as p:
-        br=p.chromium.launch(); pg=br.new_page(viewport={'width':1920,'height':1080}); pg.goto(f'file://{B}/mappa8.html'); pg.wait_for_timeout(500)
-        last=None; lastkey=None
-        for i in range(n):
-            t=i/30; key=None
-            # fotogramma da rifare solo se qualcosa si muove
-            moving=any(abs(t-(s[2]))<0.7 or abs(t-s[2]-s[3])<0.7 for s in S)
-            if moving or last is None:
-                pg.evaluate(f"render({json.dumps(S)},{t})"); last=pg.screenshot(type='png')
-            ff.stdin.write(last)
-            if i==n-1: open(f'{B}/mappa8_finale.png','wb').write(last)
-        br.close()
-    ff.stdin.close(); ff.wait(); json.dump(S,open(f'{B}/mappa8_steps.json','w')); return out
+    out=f'{B}/p_mappa.mkv'; mix_audio([(wav,V0,1.0)],total,f'{B}/a_mappa.wav'); json.dump(S,open(f'{B}/mappa8_steps.json','w'))
+    json.dump({'parts':[(os.path.basename(wav),V0)],'total':total},open(f'{B}/meta_mappa.json','w'))
+    r=subprocess.run(['node',f'{HERE}/mapframes.js',f'{B}/mappa8.html',f'{B}/mappa8_steps.json',str(total),f'{B}/a_mappa.wav',out,f'{B}/mappa8_finale.png'])
+    if r.returncode: raise SystemExit('mappa fallita')
+    return out
 if __name__=='__main__': print(build_video())
