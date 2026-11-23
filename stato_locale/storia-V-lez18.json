@@ -30,6 +30,10 @@
   {
    "quando": "23/11 08:16",
    "testo": "lez18: voci da generare per me = 41 (elenco con testi: testi_voci.json nel ramo voci-storia-V-lez18, anche voci_da_generare.json nel mio ramo di lavoro): INTRO1_R2, INTRO2_R2, SP2_1-3, M2_01-08, M5_01-10, M6_01-07, COMPITI (nuova, compiti in fila come da tua regola) + rifacimenti _R2: AN2a, AN2b, AN6a, R6 (troncate in fondo) e R4, AN4c, SC4_4, AN6b, RF2, SC6_2 (sigle da spiegare). Alla consegna servira' che la master decida: P5b finisce con «…riforme sociali. Come.» e la risposta «La scuola media unica?» sta in P6a (pausa troppo corta per tagliare in mezzo)."
+  },
+  {
+   "quando": "23/11 09:10",
+   "testo": "lez18 09:10 UTC: le voci Kore non sono ancora nel ramo voci-storia-V-lez18 (73 file vecchi, nessuna nuova: INTRO1_R2, SP2, M2/M5/M6, COMPITI, rifacimenti _R2). Tutto il resto e' pronto (Parte 1 e 2 montate, controllo_rapido OK). Dopo l'arrivo delle voci servono circa 80 minuti per rimontare, controllare e consegnare: la scadenza delle 10:00 UTC non e' piu' raggiungibile con le voci vere. NON consegno con voci provvisorie. Mandami per prime le voci nell'ordine: INTRO1_R2, INTRO2_R2, SP2_*, COMPITI, M2_*, M5_*, M6_*, poi i rifacimenti _R2; dimmi se preferisci che consegni comunque con le provvisorie."
   }
  ],
  "domande_sara": [],
@@ -99,5 +103,5 @@
    "testo": "08:20 UTC: lavoro senza voci FINITO. Parte 1 (50,0 min, 368 MB) e Parte 2 (58,9 min, 369 MB) montate con voci provvisorie; controllo_severo OK (prima delle ultime modifiche), controllo_rapido.py ESITO OK su entrambe; 4 controlli separati fatti. Applicate le tue regole di stasera: schede ripasso/schema blu scure, carta del confine grande, nessuna scheda muta (sottofondo), compiti con voce COMPITI. Mi fermo fino alle voci: appena arrivano rimonto e consegno su revisione-storia-V-lez18."
   }
  ],
- "aggiornato": "2026-11-23 08:16:07"
+ "aggiornato": "2026-11-23 09:10:31"
 }
