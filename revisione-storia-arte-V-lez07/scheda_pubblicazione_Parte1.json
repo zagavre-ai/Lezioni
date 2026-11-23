@@ -1,0 +1,439 @@
+{
+ "materia": "Storia dell'Arte V",
+ "titolo": "Storia dell'arte V · Lezione 7 · Le Avanguardie",
+ "durata_s": 3201.77,
+ "argomenti": [
+  {
+   "n": 1,
+   "titolo": "Il nuovo volto di Parigi e le Avanguardie",
+   "inizio_s": 45.7,
+   "quiz_s": 529.7
+  },
+  {
+   "n": 2,
+   "titolo": "Matisse e i Fauves",
+   "inizio_s": 535.2,
+   "quiz_s": 1046.067
+  },
+  {
+   "n": 3,
+   "titolo": "L'evoluzione di Matisse",
+   "inizio_s": 1051.567,
+   "quiz_s": 1363.167
+  },
+  {
+   "n": 4,
+   "titolo": "Picasso, Braque e il Cubismo",
+   "inizio_s": 1368.667,
+   "quiz_s": 1756.767
+  },
+  {
+   "n": 5,
+   "titolo": "Le fasi del Cubismo",
+   "inizio_s": 1762.267,
+   "quiz_s": 2229.767
+  },
+  {
+   "n": 6,
+   "titolo": "Cubismo dei Salons, Orfismo e scultura",
+   "inizio_s": 2235.267,
+   "quiz_s": 2486.733
+  },
+  {
+   "n": 7,
+   "titolo": "Rousseau, Chagall e Modigliani",
+   "inizio_s": 2492.233,
+   "quiz_s": 2976.233
+  }
+ ],
+ "quiz": {
+  "Q1": {
+   "title": "Quiz 1 · Il nuovo volto di Parigi e le Avanguardie",
+   "items": [
+    {
+     "p": "Da quale termine francese deriva il concetto di avanguardia?",
+     "a": "Avant-garde, usato nel gergo militare per le truppe d'avanscoperta",
+     "w": [
+      "Salon, usato per le grandi mostre",
+      "Atelier, usato per lo studio dell'artista",
+      "Belle Époque, usato per l'epoca d'oro"
+     ],
+     "ref": "Il termine passa dal gergo militare alla cultura, a fine Ottocento, per indicare movimenti di rottura radicale."
+    },
+    {
+     "p": "Contro che cosa si scagliano gli artisti d'avanguardia?",
+     "a": "Contro i canoni rigidi delle accademie e il gusto della borghesia dominante",
+     "w": [
+      "Contro l'uso del colore",
+      "Contro la fotografia",
+      "Contro i musei pubblici"
+     ],
+     "ref": "Si oppongono apertamente ai canoni delle accademie d'arte e al gusto estetico della borghesia."
+    },
+    {
+     "p": "Da quali correnti partono i pionieri delle Avanguardie?",
+     "a": "Dal Postimpressionismo e dal Simbolismo",
+     "w": [
+      "Dal Neoclassicismo e dal Romanticismo",
+      "Dal Realismo e dai Macchiaioli",
+      "Dal Barocco e dal Rococò"
+     ],
+     "ref": "Cercano una nuova spontaneità espressiva partendo da Postimpressionismo e Simbolismo."
+    },
+    {
+     "p": "Quale fascino subiscono questi artisti?",
+     "a": "Quello del primitivismo dell'Africa e dell'Asia",
+     "w": [
+      "Quello dell'arte greca classica",
+      "Quello dell'arte gotica",
+      "Quello dell'arte rinascimentale"
+     ],
+     "ref": "Subiscono il fascino del primitivismo dell'Africa e dell'Asia."
+    },
+    {
+     "p": "Che cos'è Parigi nel 1900?",
+     "a": "La capitale della Belle Époque e il fulcro dell'arte mondiale",
+     "w": [
+      "Una città marginale",
+      "Una città dominata dall'Impero asburgico",
+      "Un centro solo industriale senza arte"
+     ],
+     "ref": "Parigi vive anche una rivoluzione scientifica e industriale, con Marie Curie, Renault e Michelin."
+    }
+   ]
+  },
+  "Q2": {
+   "title": "Quiz 2 · Matisse e i Fauves",
+   "items": [
+    {
+     "p": "Dove espone nel 1905 il gruppo di artisti che scatena le polemiche?",
+     "a": "Al Salon d'Automne di Parigi",
+     "w": [
+      "All'Esposizione universale di Londra",
+      "Alla Biennale di Venezia",
+      "Al Salon dei Rifiutati"
+     ],
+     "ref": "Il gruppo espone al Salon d'Automne e provoca polemiche per la violenza cromatica."
+    },
+    {
+     "p": "Da quale esclamazione del critico Louis Vauxcelles nasce il termine Fauves?",
+     "a": "«Donatello in mezzo alle belve!»",
+     "w": [
+      "«Il colore è una festa!»",
+      "«Un incendio di colori!»",
+      "«Arte per tutti!»"
+     ],
+     "ref": "Vauxcelles vede le opere accostate a una statua accademica; Fauves significa «belve»."
+    },
+    {
+     "p": "Che cosa abolisce la pittura dei Fauves?",
+     "a": "La prospettiva tradizionale e il chiaroscuro",
+     "w": [
+      "Il colore",
+      "Le figure umane",
+      "Il paesaggio"
+     ],
+     "ref": "Preferiscono una rappresentazione bidimensionale."
+    },
+    {
+     "p": "Quale capolavoro di Matisse è del 1905-06?",
+     "a": "La felicità di vivere",
+     "w": [
+      "La danza",
+      "Les Demoiselles d'Avignon",
+      "La vita"
+     ],
+     "ref": "Figure nude si muovono in un paesaggio mitico, con linee sinuose e colori antinaturalistici."
+    },
+    {
+     "p": "Quale artista dei Fauves usa accostamenti cromatici stridenti e punti di vista audaci?",
+     "a": "André Derain",
+     "w": [
+      "Marc Chagall",
+      "Georges Braque",
+      "Henri Rousseau"
+     ],
+     "ref": "Spiccano anche Maurice de Vlaminck, di forte carica emotiva, e Derain."
+    }
+   ]
+  },
+  "Q3": {
+   "title": "Quiz 3 · L'evoluzione di Matisse",
+   "items": [
+    {
+     "p": "Che cosa scrive Matisse nel 1908?",
+     "a": "Che l'arte non deve imitare la realtà ma esprimere il sentimento intimo del pittore",
+     "w": [
+      "Che l'arte deve copiare la natura",
+      "Che il colore va abolito",
+      "Che la pittura è solo decorazione"
+     ],
+     "ref": "È il suo manifesto teorico."
+    },
+    {
+     "p": "Chi commissiona La Danza?",
+     "a": "Il collezionista Shchukin",
+     "w": [
+      "Il critico Vauxcelles",
+      "Il re di Francia",
+      "Il museo del Louvre"
+     ],
+     "ref": "La tela è del 1909-10."
+    },
+    {
+     "p": "Come sono rappresentati i corpi nella Danza?",
+     "a": "Cinque corpi nudi stilizzati che danzano in cerchio su fondo blu e verde",
+     "w": [
+      "Tre figure vestite in un interno",
+      "Un paesaggio senza figure",
+      "Dieci figure in prospettiva"
+     ],
+     "ref": "Il risultato è un dinamismo spaziale privo di profondità."
+    },
+    {
+     "p": "Quale esperienza influenza la pittura decorativa e luminosa di Matisse?",
+     "a": "I viaggi in Nord Africa",
+     "w": [
+      "I viaggi in America",
+      "Gli studi di scienze",
+      "La vita in campagna"
+     ],
+     "ref": "Celebre il ciclo delle odalische e gli interni dai pattern complessi."
+    },
+    {
+     "p": "Che cosa sono i papiers découpés?",
+     "a": "Carte colorate ritagliate a forbice per creare forme sintetiche pure",
+     "w": [
+      "Collage di giornali",
+      "Disegni a carboncino",
+      "Incisioni su legno"
+     ],
+     "ref": "Matisse li inventa negli ultimi anni, impossibilitato a dipingere in modo tradizionale."
+    }
+   ]
+  },
+  "Q4": {
+   "title": "Quiz 4 · Picasso, Braque e il Cubismo",
+   "items": [
+    {
+     "p": "Quali sono i due periodi di Picasso a Parigi prima del Cubismo?",
+     "a": "Il periodo blu e il periodo rosa",
+     "w": [
+      "Il periodo verde e quello giallo",
+      "Il periodo africano e quello classico",
+      "Il periodo analitico e quello sintetico"
+     ],
+     "ref": "Il blu è cupo, sulla miseria; il rosa è legato al circo."
+    },
+    {
+     "p": "Quale opera del 1907 segna l'atto di nascita del Cubismo?",
+     "a": "Les Demoiselles d'Avignon",
+     "w": [
+      "La felicità di vivere",
+      "La Danza",
+      "Lusso, calma e voluttà"
+     ],
+     "ref": "Cinque figure femminili sono scomposte in piani geometrici taglienti."
+    },
+    {
+     "p": "Da che cosa sono ricalcati i volti delle figure di destra?",
+     "a": "Dalle maschere africane",
+     "w": [
+      "Dai ritratti rinascimentali",
+      "Dalle statue greche",
+      "Dalle icone russe"
+     ],
+     "ref": "Simbolo di una forza espressiva primordiale e antiaccademica."
+    },
+    {
+     "p": "Con quale artista collabora Picasso dal 1908?",
+     "a": "Georges Braque",
+     "w": [
+      "Henri Matisse",
+      "André Derain",
+      "Robert Delaunay"
+     ],
+     "ref": "I loro quadri diventano quasi indistinguibili."
+    },
+    {
+     "p": "Che cosa fa il Cubismo dello spazio tradizionale?",
+     "a": "Lo stravolge, scomponendo la realtà",
+     "w": [
+      "Lo conferma",
+      "Lo riduce al solo colore",
+      "Lo rende prospettico"
+     ],
+     "ref": "Lavorano insieme alla scomposizione della realtà."
+    }
+   ]
+  },
+  "Q5": {
+   "title": "Quiz 5 · Le fasi del Cubismo",
+   "items": [
+    {
+     "p": "Che cosa caratterizza il Protocubismo (1907-09)?",
+     "a": "Oggetti e paesaggi ridotti a volumi geometrici puri",
+     "w": [
+      "Collage di giornali",
+      "Colori vivaci e luminosi",
+      "Soggetti religiosi"
+     ],
+     "ref": "Cubi, cilindri e sfere."
+    },
+    {
+     "p": "Come sono gli oggetti nel Cubismo Analitico?",
+     "a": "Frammentati e visti da più punti di vista insieme",
+     "w": [
+      "Ricomposti in forme semplici",
+      "Dipinti con colori brillanti",
+      "Ritagliati da giornali"
+     ],
+     "ref": "Spazio e oggetto si fondono sulla tela."
+    },
+    {
+     "p": "Quale tavolozza usa il Cubismo Analitico?",
+     "a": "Monocroma: grigi, ocra, marroni e neri",
+     "w": [
+      "Rosso e blu puri",
+      "Colori fluorescenti",
+      "Solo bianco e oro"
+     ],
+     "ref": "Per non distrarre dalla scomposizione delle forme."
+    },
+    {
+     "p": "Che cosa fanno gli artisti nel Cubismo Sintetico (1912-14)?",
+     "a": "Ricompongono l'oggetto in forme leggibili e recuperano il colore",
+     "w": [
+      "Abbandonano la forma",
+      "Tornano alla prospettiva",
+      "Dipingono solo paesaggi"
+     ],
+     "ref": "Una gamma cromatica più vivace."
+    },
+    {
+     "p": "Che cosa sono i papiers collés?",
+     "a": "Pezzi reali incollati nel quadro, come ritagli di giornale e spartiti",
+     "w": [
+      "Disegni a matita",
+      "Carte dipinte a mano",
+      "Incisioni"
+     ],
+     "ref": "Annullano il confine tra realtà e finzione."
+    }
+   ]
+  },
+  "Q6": {
+   "title": "Quiz 6 · Cubismo dei Salons, Orfismo e scultura",
+   "items": [
+    {
+     "p": "Quali artisti diffondono il Cubismo nelle grandi mostre pubbliche?",
+     "a": "Léger e Gris",
+     "w": [
+      "Rousseau e Chagall",
+      "Matisse e Derain",
+      "Delaunay e Brancusi"
+     ],
+     "ref": "È il Cubismo dei Salons."
+    },
+    {
+     "p": "Che cosa studia Robert Delaunay con l'Orfismo?",
+     "a": "La luce pura, con contrasti simultanei di colore",
+     "w": [
+      "Il chiaroscuro",
+      "La prospettiva",
+      "Il disegno anatomico"
+     ],
+     "ref": "Si distacca dal rigore geometrico."
+    },
+    {
+     "p": "Quale elemento introduce la scultura cubista?",
+     "a": "Il vuoto come elemento plastico",
+     "w": [
+      "Il solo marmo",
+      "La policromia",
+      "Il rilievo narrativo"
+     ],
+     "ref": "Trasferisce la scomposizione dei piani nello spazio."
+    },
+    {
+     "p": "Che cosa sono gli assemblages di Picasso?",
+     "a": "Sculture di materiali poveri come legno, cartone e corda",
+     "w": [
+      "Dipinti a olio",
+      "Incisioni",
+      "Mosaici"
+     ],
+     "ref": "Creano oggetti tridimensionali complessi."
+    },
+    {
+     "p": "Che cosa persegue Brancusi?",
+     "a": "Un primitivismo radicale verso la forma pura e originaria",
+     "w": [
+      "Un realismo minuzioso",
+      "Il colore puro",
+      "La scomposizione dei piani"
+     ],
+     "ref": "Elimina ogni dettaglio superfluo."
+    }
+   ]
+  },
+  "Q7": {
+   "title": "Quiz 7 · Rousseau, Chagall e Modigliani",
+   "items": [
+    {
+     "p": "Che cosa accomuna i «solitari di Montparnasse»?",
+     "a": "Non aderiscono a nessun manifesto teorico",
+     "w": [
+      "Dipingono tutti paesaggi",
+      "Sono tutti scultori",
+      "Sono allievi di Matisse"
+     ],
+     "ref": "Portano avanti percorsi individuali e unici."
+    },
+    {
+     "p": "Come viene soprannominato Henri Rousseau?",
+     "a": "Il Doganiere",
+     "w": [
+      "Il Pittore",
+      "Il Solitario",
+      "Il Cubista"
+     ],
+     "ref": "Autodidatta, crea una pittura naïf dal fascino fiabesco."
+    },
+    {
+     "p": "Quale stile ha la pittura di Rousseau?",
+     "a": "Bidimensionale, con dettagli minuziosi e atmosfere sognanti",
+     "w": [
+      "Geometrico e monocromo",
+      "Astratto",
+      "Cupo e realistico"
+     ],
+     "ref": "Un fascino fiabesco e primordiale."
+    },
+    {
+     "p": "Che cosa unisce Marc Chagall alla scomposizione cubista e al colore fauve?",
+     "a": "Leggende e tradizioni ebraiche della sua infanzia in Russia",
+     "w": [
+      "Il mito greco",
+      "La tecnologia",
+      "La pubblicità"
+     ],
+     "ref": "Immagini oniriche e poetiche."
+    },
+    {
+     "p": "Che cosa caratterizza i ritratti di Modigliani?",
+     "a": "Silhouette allungate e occhi enigmatici privi di pupilla",
+     "w": [
+      "Volti scomposti",
+      "Colori fluorescenti",
+      "Pose di profilo realistiche"
+     ],
+     "ref": "Uno stile incentrato sulla purezza della linea."
+    }
+   ]
+  }
+ },
+ "t_verifica": 3111.767,
+ "t_compiti": 3123.167,
+ "t_sigla_finale": 3117.267
+}

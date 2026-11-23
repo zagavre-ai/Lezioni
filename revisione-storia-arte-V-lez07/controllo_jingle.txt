@@ -1,0 +1,7 @@
+Q1 atteso 530.200 trovato 530.212 scarto +0.012 OK
+Q2 atteso 1046.567 trovato 1046.579 scarto +0.012 OK
+Q3 atteso 1363.667 trovato 1363.679 scarto +0.012 OK
+Q4 atteso 1757.267 trovato 1757.279 scarto +0.012 OK
+Q5 atteso 2230.267 trovato 2230.279 scarto +0.012 OK
+Q6 atteso 2487.233 trovato 2487.245 scarto +0.012 OK
+Q7 atteso 2976.733 trovato 2976.745 scarto +0.012 OK

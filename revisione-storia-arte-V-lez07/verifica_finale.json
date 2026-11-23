@@ -1,0 +1,106 @@
+{
+ "title": "Verifica finale · Le Avanguardie",
+ "soglia": 0.8,
+ "items": [
+  {
+   "p": "Da quale ambito deriva originariamente il termine \"Avanguardia\"?",
+   "a": "Dal gergo militare, dove definiva le truppe d'avanscoperta.",
+   "w": [
+    "Dal linguaggio politico rivoluzionario di metà Ottocento.",
+    "Dal mondo dell'industria e dello sviluppo tecnologico.",
+    "Dal gergo teatrale parigino dei primi del Novecento."
+   ],
+   "ref": ""
+  },
+  {
+   "p": "Quale scienziata polacca viveva e lavorava a Parigi all'inizio del secolo, ottenendo il premio Nobel nel 1903?",
+   "a": "Marie Curie.",
+   "w": [
+    "Gertrude Stein.",
+    "Berthe Morisot.",
+    "Jeanne Hébuterne."
+   ],
+   "ref": ""
+  },
+  {
+   "p": "Da quale opera letteraria Henri Matisse trasse il titolo per il suo dipinto \"Lusso, calma e voluttà\"?",
+   "a": "Da un verso contenuto nei \"Fiori del male\" di Charles Baudelaire.",
+   "w": [
+    "Da una poesia simbolista di Stephane Mallarmé.",
+    "Da un testo d'avanguardia scritto da Guillaume Apollinaire.",
+    "Da un dramma teatrale di Jean Cocteau."
+   ],
+   "ref": ""
+  },
+  {
+   "p": "Chi fu il critico d'arte che coniò ironicamente il termine \"fauves\" (belve) al Salon d'Automne del 1905?",
+   "a": "Louis Vauxcelles.",
+   "w": [
+    "Guillaume Apollinaire.",
+    "Ambroise Vollard.",
+    "Paul Durand-Ruel."
+   ],
+   "ref": ""
+  },
+  {
+   "p": "Quali sono le caratteristiche cromatiche e i soggetti della celebre opera \"La danza\" (1909-10) di Matisse?",
+   "a": "Cinque figure nude che volteggiano in cerchio su uno sfondo verde e blu cielo.",
+   "w": [
+    "Sette ballerine vestite di rosso all'interno di una stanza con pareti completamente blu.",
+    "Tre suonatori di chitarra circondati da arredi e oggetti domestici di colore rosso saturo.",
+    "Un gruppo di bagnanti maschili disposti lungo un fiume dai toni pastello."
+   ],
+   "ref": ""
+  },
+  {
+   "p": "Quale dipinto di Pablo Picasso del 1907 è considerato l'opera d'origine del Cubismo?",
+   "a": "Les Demoiselles d'Avignon.",
+   "w": [
+    "La vita.",
+    "Ritratto di Ambroise Vollard.",
+    "Acrobata e giovane equilibrista."
+   ],
+   "ref": ""
+  },
+  {
+   "p": "A quale celebre periodo artistico di Picasso appartiene il quadro \"La vita\" del 1903?",
+   "a": "Al periodo blu.",
+   "w": [
+    "Al periodo rosa.",
+    "Al Cubismo analitico.",
+    "Al Cubismo sintetico."
+   ],
+   "ref": ""
+  },
+  {
+   "p": "Quali manufatti culturali esercitarono una forte influenza su Picasso per lo sviluppo delle forme geometriche e della scultura cubista?",
+   "a": "Le maschere africane e la scultura romana catalana antica.",
+   "w": [
+    "Le stampe giapponesi e i manufatti coloniali dell'Oceania.",
+    "I vasi della Grecia classica e i mosaici bizantini.",
+    "I bassorilievi medievali e le icone sacre russe."
+   ],
+   "ref": ""
+  },
+  {
+   "p": "In quale arco temporale si colloca lo sviluppo del cosiddetto \"Cubismo analitico\"?",
+   "a": "Tra il 1909 e il 1912.",
+   "w": [
+    "Tra il 1901 e il 1904.",
+    "Tra il 1905 e il 1908.",
+    "Tra il 1912 e il 1914."
+   ],
+   "ref": ""
+  },
+  {
+   "p": "Quale opera del 1912 segna l'introduzione della tecnica del collage nella pittura di Picasso, grazie all'inserimento di una tela cerata stampata?",
+   "a": "Natura morta con sedia impagliata.",
+   "w": [
+    "Ritratto di Gertrude Stein.",
+    "Il violino, bicchiere, pipa e calamaio.",
+    "Case a l'Estaque."
+   ],
+   "ref": ""
+  }
+ ]
+}
