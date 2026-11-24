@@ -1,0 +1,112 @@
+[
+ {
+  "p": "Quale evento del settembre 2001 viene considerato una delle principali date periodizzanti dell'età contemporanea?",
+  "a": "Il crollo delle Torri Gemelle a New York e l'attacco al Pentagono causati da terroristi islamici",
+  "w": [
+   "L'inizio della seconda guerra del Golfo per abbattere il regime iracheno",
+   "L'annessione della penisola di Crimea da parte della Russia",
+   "L'esplosione delle proteste civili delle \"primavere arabe\" in Nord Africa"
+  ],
+  "e": "",
+  "n": ""
+ },
+ {
+  "p": "Quale motivazione spinse l'amministrazione americana guidata da George W. Bush a decidere l'invasione dell'Iraq nel 2003?",
+  "a": "Il forte sospetto che il regime di Saddam Hussein possedesse armi di distruzione di massa",
+  "w": [
+   "La necessità di arginare l'espansione economica globale della Cina",
+   "La richiesta di aiuti militari avanzata dai movimenti civili delle primavere arabe",
+   "La volontà di bloccare le rotte migratorie verso i paesi dell'Europa occidentale"
+  ],
+  "e": "",
+  "n": ""
+ },
+ {
+  "p": "Quale importante accordo internazionale sul clima è stato sottoscritto nel 2015 durante il secondo mandato di Barack Obama?",
+  "a": "L'Accordo di Parigi",
+  "w": [
+   "Il Trattato salva Stati europeo (MES)",
+   "Il Piano nazionale di ripresa e resilienza (PNRR)",
+   "L'Accordo per il commercio multilaterale con i paesi BRICS"
+  ],
+  "e": "",
+  "n": "Sigle: MES = Meccanismo europeo di stabilità; PNRR = Piano nazionale di ripresa e resilienza; BRICS = Brasile, Russia, India, Cina, Sudafrica"
+ },
+ {
+  "p": "Quali sono le principali caratteristiche del programma politico promosso da Donald Trump durante la sua presidenza?",
+  "a": "Le politiche sovraniste riassunte nello slogan \"Make America Great Again\" e misure economiche protezioniste",
+  "w": [
+   "Un forte piano riformista finalizzato a introdurre la parità di genere e la tutela dell'ambiente",
+   "Un programma progressista concentrato sulla lotta al terrorismo e la riduzione dei dazi doganali",
+   "L'espansione delle relazioni diplomatiche con la Cina e il potenziamento dei trattati multilaterali"
+  ],
+  "e": "",
+  "n": ""
+ },
+ {
+  "p": "Che cosa rappresenta l'acronimo BRICS nel contesto di un mondo multipolare?",
+  "a": "Un gruppo di paesi emergenti composto da Brasile, Russia, India, Cina e Sudafrica",
+  "w": [
+   "Un'organizzazione internazionale per la gestione delle emergenze climatiche globali",
+   "Un'alleanza militare occidentale guidata dagli Stati Uniti per difendere l'Europa",
+   "Il sistema europeo per il controllo dei flussi migratori nel Mar Mediterraneo"
+  ],
+  "e": "",
+  "n": "Sigle: BRICS = Brasile, Russia, India, Cina, Sudafrica"
+ },
+ {
+  "p": "In quale paese ha avuto inizio la \"Rivoluzione dei gelsomini\", considerata l'evento d'apertura delle primavere arabe?",
+  "a": "In Tunisia",
+  "w": [
+   "In Egitto",
+   "In Libia",
+   "In Siria"
+  ],
+  "e": "",
+  "n": ""
+ },
+ {
+  "p": "Quale evento ha segnato l'inizio della crisi politica nel Donbass e delle tensioni tra Russia e Ucraina nel 2014?",
+  "a": "L'annessione della penisola di Crimea da parte della Russia di Vladimir Putin",
+  "w": [
+   "L'invasione su larga scala dell'Ucraina ordinata dal governo russo nel 2022",
+   "L'ascesa al potere del presidente turco Recep Tayyip Erdoğan",
+   "Il crollo finanziario innescato dalla bolla speculativa immobiliare"
+  ],
+  "e": "",
+  "n": ""
+ },
+ {
+  "p": "Quale paese europeo ha approvato l'uscita dall'Unione Europea (Brexit) tramite un referendum svoltosi nel 2016?",
+  "a": "Il Regno Unito",
+  "w": [
+   "La Francia",
+   "La Germania",
+   "L'Italia"
+  ],
+  "e": "",
+  "n": ""
+ },
+ {
+  "p": "Quale priorità ha dovuto affrontare il governo guidato da Giorgia Meloni dopo le elezioni italiane del 2022?",
+  "a": "La gestione dei finanziamenti europei del PNRR per la transizione ecologica e digitale e il supporto all'Ucraina",
+  "w": [
+   "La gestione dei referendum popolari per l'introduzione delle riforme del mercato del lavoro",
+   "L'istituzione del Fondo salva Stati europeo (MES) per contrastare la crisi dei debiti sovrani",
+   "La firma dell'accordo internazionale \"Next Generation EU\" insieme al presidente Draghi"
+  ],
+  "e": "",
+  "n": "Sigle: MES = Meccanismo europeo di stabilità; PNRR = Piano nazionale di ripresa e resilienza"
+ },
+ {
+  "p": "Quale documento internazionale fissa gli obiettivi globali per il contrasto alla crisi climatica entro la fine del decennio?",
+  "a": "L'Agenda 2030 delle Nazioni Unite",
+  "w": [
+   "Il Trattato di Dublino per i flussi migratori",
+   "Il programma economico dei paesi del BRICS",
+   "Il protocollo d'intesa italo-albanese per l'accoglienza dei richiedenti asilo"
+  ],
+  "e": "",
+  "n": "Sigle: BRICS = Brasile, Russia, India, Cina, Sudafrica"
+ }
+]

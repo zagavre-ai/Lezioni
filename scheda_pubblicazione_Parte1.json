@@ -1,0 +1,192 @@
+{
+ "materia": "Storia V",
+ "titolo": "Il mondo dal 2001 ad oggi · Parte 1",
+ "durata_s": 2582.83,
+ "argomenti": [
+  {
+   "n": 1,
+   "titolo": "Gli USA (Stati Uniti d'America) dopo l'11 settembre",
+   "inizio_s": 145.45,
+   "quiz_s": 987.281
+  },
+  {
+   "n": 2,
+   "titolo": "Medio Oriente e Nord Africa",
+   "inizio_s": 1064.114,
+   "quiz_s": 1489.379
+  },
+  {
+   "n": 3,
+   "titolo": "La crisi economica, Obama e Trump",
+   "inizio_s": 1566.212,
+   "quiz_s": 2477.275
+  }
+ ],
+ "quiz": {
+  "Q1": {
+   "title": "Quiz 1 · Gli USA (Stati Uniti d'America) dopo l'11 settembre",
+   "items": [
+    {
+     "p": "Che cosa colpiscono gli attentati dell'11 settembre 2001?",
+     "a": "Le Torri Gemelle e il Pentagono",
+     "w": [
+      "La Casa Bianca e il Congresso",
+      "Il porto di Pearl Harbor",
+      "La sede dell'ONU a Ginevra"
+     ],
+     "e": "Gli attentati di Al-Qaeda colpiscono le Torri Gemelle e il Pentagono."
+    },
+    {
+     "p": "Quale organizzazione terroristica compie gli attentati dell'11 settembre?",
+     "a": "Al-Qaeda",
+     "w": [
+      "Hamas",
+      "L'ISIS",
+      "Le Brigate Rosse"
+     ],
+     "e": "Gli attentati sono opera dell'organizzazione terroristica Al-Qaeda."
+    },
+    {
+     "p": "Come viene chiamato il periodo che si apre dopo l'11 settembre?",
+     "a": "L'«era dell'angoscia»",
+     "w": [
+      "L'«età dell'oro»",
+      "La «belle époque»",
+      "Il «secolo breve»"
+     ],
+     "e": "Gli attentati segnano l'inizio dell'«era dell'angoscia»."
+    },
+    {
+     "p": "Contro chi si rivolge per prima la «guerra al terrore» di George W. Bush?",
+     "a": "Il terrorismo e il regime talebano in Afghanistan",
+     "w": [
+      "La Cina",
+      "La Russia di Putin",
+      "L'Unione Europea"
+     ],
+     "e": "Bush lancia una campagna militare globale contro il terrorismo e il regime talebano in Afghanistan."
+    },
+    {
+     "p": "Con quale obiettivo gli USA attaccano l'Iraq nel 2003?",
+     "a": "Distruggere presunte armi di distruzione di massa",
+     "w": [
+      "Fermare le primavere arabe",
+      "Difendere Israele da Hamas",
+      "Combattere la crisi dei subprime"
+     ],
+     "e": "L'obiettivo dichiarato era distruggere armi di distruzione di massa: si rivelò poi infondato."
+    }
+   ]
+  },
+  "Q2": {
+   "title": "Quiz 2 · Medio Oriente e Nord Africa",
+   "items": [
+    {
+     "p": "Quale movimento islamista aggrava il conflitto nella Striscia di Gaza?",
+     "a": "Hamas",
+     "w": [
+      "Al-Qaeda",
+      "I talebani",
+      "La Fratellanza dei BRICS"
+     ],
+     "e": "La regione resta instabile anche per l'ascesa del movimento islamista di Hamas."
+    },
+    {
+     "p": "Che cosa sono le «primavere arabe» del 2010-2011?",
+     "a": "Proteste popolari contro i regimi autoritari",
+     "w": [
+      "Accordi di pace tra Israele e Palestina",
+      "Elezioni in Turchia",
+      "Una crisi economica in Europa"
+     ],
+     "e": "Sono proteste in Tunisia, Egitto e Libia per la libertà e migliori condizioni economiche."
+    },
+    {
+     "p": "In quali paesi scoppiano sanguinose guerre civili dopo il crollo dei vecchi regimi?",
+     "a": "Libia e Siria",
+     "w": [
+      "Egitto e Turchia",
+      "Iran e Iraq",
+      "Tunisia e Marocco"
+     ],
+     "e": "Le guerre civili in Libia e Siria favoriscono l'ascesa dello Stato Islamico."
+    },
+    {
+     "p": "Che cos'è l'ISIS?",
+     "a": "Il gruppo terroristico dello Stato Islamico",
+     "w": [
+      "Un'organizzazione per i diritti umani",
+      "Un'alleanza di paesi emergenti",
+      "Un partito turco"
+     ],
+     "e": "L'ISIS cresce approfittando dell'instabilità delle guerre civili."
+    },
+    {
+     "p": "Come cambia la Turchia di Erdoğan?",
+     "a": "In senso autoritario e nazionalista",
+     "w": [
+      "Entra nell'Unione Europea",
+      "Diventa una monarchia",
+      "Abolisce l'esercito"
+     ],
+     "e": "La Turchia si allontana progressivamente dai valori europei."
+    }
+   ]
+  },
+  "Q3": {
+   "title": "Quiz 3 · La crisi economica, Obama e Trump",
+   "items": [
+    {
+     "p": "Quale crisi provoca una recessione globale tra il 2007 e il 2008?",
+     "a": "La crisi dei mutui subprime",
+     "w": [
+      "La crisi del petrolio",
+      "La crisi dei missili",
+      "La crisi di Wall Street del 1929"
+     ],
+     "e": "I costi delle guerre e lo scoppio della crisi dei mutui subprime provocano una grave recessione."
+    },
+    {
+     "p": "Per che cosa è ricordato Barack Obama?",
+     "a": "È il primo presidente afroamericano e promuove la riforma della sanità",
+     "w": [
+      "Ha lanciato la guerra al terrore",
+      "Ha fatto uscire gli USA dalla NATO",
+      "Ha introdotto lo slogan America First"
+     ],
+     "e": "Obama promuove riforme sociali e una politica estera di dialogo e disimpegno militare."
+    },
+    {
+     "p": "Qual è lo slogan della presidenza di Donald Trump?",
+     "a": "«America First»",
+     "w": [
+      "«Yes we can»",
+      "«New Deal»",
+      "«Guerra al terrore»"
+     ],
+     "e": "Lo slogan «America First» porta a protezionismo e contrasto all'immigrazione."
+    },
+    {
+     "p": "Che cosa succede a Capitol Hill il 6 gennaio 2021?",
+     "a": "Un assalto alla sede del Congresso",
+     "w": [
+      "L'elezione di Obama",
+      "La firma degli Accordi di Parigi",
+      "Un attentato di Al-Qaeda"
+     ],
+     "e": "L'assalto a Capitol Hill segna la fine della presidenza Trump."
+    },
+    {
+     "p": "Quale movimento di protesta segna la fine della presidenza Trump?",
+     "a": "Black Lives Matter",
+     "w": [
+      "Le primavere arabe",
+      "Il Sessantotto",
+      "Il movimento sovranista"
+     ],
+     "e": "La fine della presidenza è segnata dalle proteste di Black Lives Matter e dalla pandemia."
+    }
+   ]
+  }
+ }
+}

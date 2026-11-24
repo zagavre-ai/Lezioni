@@ -1,0 +1,253 @@
+{
+ "materia": "Storia V",
+ "titolo": "Il mondo dal 2001 ad oggi · Parte 2",
+ "durata_s": 3130.03,
+ "argomenti": [
+  {
+   "n": 4,
+   "titolo": "Un mondo multipolare",
+   "inizio_s": 178.949,
+   "quiz_s": 923.046
+  },
+  {
+   "n": 5,
+   "titolo": "L'Europa tra crisi e secessioni",
+   "inizio_s": 999.879,
+   "quiz_s": 1228.811
+  },
+  {
+   "n": 6,
+   "titolo": "L'Italia nel XXI secolo",
+   "inizio_s": 1305.644,
+   "quiz_s": 2141.84
+  },
+  {
+   "n": 7,
+   "titolo": "Le questioni aperte dell'attualità",
+   "inizio_s": 2218.673,
+   "quiz_s": 2575.439
+  }
+ ],
+ "quiz": {
+  "Q4": {
+   "title": "Quiz 4 · Un mondo multipolare",
+   "items": [
+    {
+     "p": "Quali paesi formano i BRICS?",
+     "a": "Brasile, Russia, India, Cina e Sudafrica",
+     "w": [
+      "Belgio, Romania, Italia, Canada, Spagna",
+      "Bolivia, Regno Unito, Iran, Cile, Svezia",
+      "Brasile, Regno Unito, Israele, Cuba, Siria"
+     ],
+     "e": "I BRICS si uniscono per contestare l'egemonia degli Stati Uniti."
+    },
+    {
+     "p": "Come si afferma la Cina nel XXI secolo?",
+     "a": "Come superpotenza globale, anche con la «Nuova via della seta»",
+     "w": [
+      "Come colonia europea",
+      "Come paese in guerra civile",
+      "Come alleata della NATO"
+     ],
+     "e": "La crescita vertiginosa e i grandi progetti infrastrutturali rendono la Cina una superpotenza."
+    },
+    {
+     "p": "Che cosa caratterizza la Russia di Putin?",
+     "a": "Un regime autoritario e una politica estera aggressiva",
+     "w": [
+      "Una democrazia liberale",
+      "La neutralità assoluta",
+      "L'ingresso nell'Unione Europea"
+     ],
+     "e": "Putin reprime il dissenso e contrasta l'espansione della NATO."
+    },
+    {
+     "p": "Quale caso è citato come esempio di repressione del dissenso in Russia?",
+     "a": "Il caso di Anna Politkovskaja",
+     "w": [
+      "Il caso Moro",
+      "Il caso Sacco e Vanzetti",
+      "Il caso di Capitol Hill"
+     ],
+     "e": "La giornalista Anna Politkovskaja è un simbolo della repressione del dissenso."
+    },
+    {
+     "p": "Che problema hanno India, Brasile e Sudafrica nonostante lo sviluppo?",
+     "a": "Profonde disuguaglianze sociali",
+     "w": [
+      "Un calo della popolazione",
+      "L'assenza di industrie",
+      "La guerra con gli Stati Uniti"
+     ],
+     "e": "Sono paesi emergenti in crescita, ma segnati da disuguaglianze e tensioni interne."
+    }
+   ]
+  },
+  "Q5": {
+   "title": "Quiz 5 · L'Europa tra crisi e secessioni",
+   "items": [
+    {
+     "p": "Quale paese europeo è colpito più duramente dalla crisi del 2008?",
+     "a": "La Grecia",
+     "w": [
+      "La Germania",
+      "La Svezia",
+      "La Svizzera"
+     ],
+     "e": "La crisi colpisce duramente i paesi europei, in particolare la Grecia."
+    },
+    {
+     "p": "Che cos'è l'euroscetticismo?",
+     "a": "La sfiducia dei cittadini verso le istituzioni europee",
+     "w": [
+      "La fiducia nell'euro",
+      "Un trattato europeo",
+      "Un partito tedesco"
+     ],
+     "e": "La sfiducia alimenta partiti sovranisti e nazionalisti."
+    },
+    {
+     "p": "In che anno un referendum decide l'uscita del Regno Unito dall'Unione Europea?",
+     "a": "Nel 2016",
+     "w": [
+      "Nel 2008",
+      "Nel 2011",
+      "Nel 2022"
+     ],
+     "e": "Nel 2016 il referendum decreta la Brexit, formalizzata nel 2020."
+    },
+    {
+     "p": "Che cosa porta la crisi del 2008 nei paesi europei?",
+     "a": "Severe politiche di austerità",
+     "w": [
+      "Una forte crescita economica",
+      "La nascita dell'euro",
+      "L'uscita della Grecia dalla NATO"
+     ],
+     "e": "La crisi del 2008 colpisce duramente i paesi europei, portando a severe politiche di austerità."
+    },
+    {
+     "p": "Quale cancelliera guida la Germania per anni?",
+     "a": "Angela Merkel",
+     "w": [
+      "Emmanuel Macron",
+      "Giorgia Meloni",
+      "Anna Politkovskaja"
+     ],
+     "e": "La Germania è guidata per anni dalla stabilità di Angela Merkel."
+    }
+   ]
+  },
+  "Q6": {
+   "title": "Quiz 6 · L'Italia nel XXI secolo",
+   "items": [
+    {
+     "p": "Quale governo tecnico nasce in Italia per affrontare la crisi?",
+     "a": "Il governo di Mario Monti",
+     "w": [
+      "Il governo Meloni",
+      "Il governo Berlusconi",
+      "Il governo Prodi"
+     ],
+     "e": "Per affrontare la crisi nascono governi tecnici, come quello di Mario Monti."
+    },
+    {
+     "p": "Chi è la prima donna Presidente del Consiglio in Italia?",
+     "a": "Giorgia Meloni",
+     "w": [
+      "Angela Merkel",
+      "Anna Politkovskaja",
+      "Nilde Iotti"
+     ],
+     "e": "Nel 2022 vince il centrodestra guidato da Giorgia Meloni."
+    },
+    {
+     "p": "Quali governi si alternano in Italia nei primi anni Duemila?",
+     "a": "Centrodestra di Berlusconi e centrosinistra di Prodi",
+     "w": [
+      "Solo governi tecnici",
+      "Governi militari",
+      "Governi di unità nazionale"
+     ],
+     "e": "I primi anni Duemila sono segnati dal bipolarismo e dall'alternanza tra centrodestra e centrosinistra."
+    },
+    {
+     "p": "Quali forze politiche si impongono alle elezioni del 2018?",
+     "a": "Il Movimento 5 Stelle e la Lega",
+     "w": [
+      "Il governo Monti e il governo Letta",
+      "Solo Fratelli d'Italia",
+      "Il centrosinistra di Prodi"
+     ],
+     "e": "Alle elezioni del 2018 si impongono il Movimento 5 Stelle e la Lega, intercettando il forte dissenso popolare."
+    },
+    {
+     "p": "Quale governo di unità nazionale guida l'Italia durante la pandemia, dopo il secondo governo Conte?",
+     "a": "Il governo Draghi",
+     "w": [
+      "Il governo Renzi",
+      "Il governo Monti",
+      "Il governo Meloni"
+     ],
+     "e": "Durante la pandemia si formano governi di coalizione allargata, tra cui il secondo governo Conte e il governo Draghi."
+    }
+   ]
+  },
+  "Q7": {
+   "title": "Quiz 7 · Le questioni aperte dell'attualità",
+   "items": [
+    {
+     "p": "Come viene superata la crisi sanitaria del Covid-19?",
+     "a": "Con le campagne vaccinali e i fondi del Next Generation EU",
+     "w": [
+      "Con la chiusura definitiva delle frontiere",
+      "Con l'uscita dall'Unione Europea",
+      "Senza alcuna misura"
+     ],
+     "e": "La pandemia è gestita con lockdown e risolta con i vaccini e i fondi europei."
+    },
+    {
+     "p": "Che cosa fa la Russia nel 2014?",
+     "a": "Annette la Crimea",
+     "w": [
+      "Entra nella NATO",
+      "Firma gli Accordi di Parigi",
+      "Invade la Polonia"
+     ],
+     "e": "Nel 2014 la Russia annette la Crimea; nel 2022 invade l'Ucraina."
+    },
+    {
+     "p": "Quando l'esercito russo invade l'Ucraina su larga scala?",
+     "a": "Nel febbraio 2022",
+     "w": [
+      "Nel 2001",
+      "Nel 2014",
+      "Nel 2020"
+     ],
+     "e": "L'invasione rompe l'equilibrio della sicurezza europea."
+    },
+    {
+     "p": "Con quali strumenti la comunità internazionale risponde alla crisi climatica?",
+     "a": "Gli Accordi di Parigi e l'Agenda 2030",
+     "w": [
+      "Il Next Generation EU e la Brexit",
+      "La Nuova via della seta",
+      "Il Pentapartito"
+     ],
+     "e": "Gli accordi promuovono lo sviluppo sostenibile."
+    },
+    {
+     "p": "Perché l'Italia è al centro della questione migratoria?",
+     "a": "È uno dei principali paesi di approdo verso l'Europa",
+     "w": [
+      "Non accoglie migranti",
+      "È fuori dall'Europa",
+      "Ha chiuso tutti i porti dal 2001"
+     ],
+     "e": "Conflitti, povertà e clima intensificano i flussi verso l'Europa, e l'Italia è un paese di approdo."
+    }
+   ]
+  }
+ }
+}
