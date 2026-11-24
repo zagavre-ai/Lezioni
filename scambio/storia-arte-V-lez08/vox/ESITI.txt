@@ -1,0 +1,28 @@
+A0_COPERTINA DA CONTROLLARE frasi trovate 1 / 1 parole diverse 12 (vere 11) tentativi 1
+A1_APPROF OK frasi trovate 1 / 1 parole diverse 4 (vere 1) tentativi 1
+A1_PILLOLA OK frasi trovate 1 / 1 parole diverse 4 (vere 2) tentativi 1
+A2_APPROF OK frasi trovate 1 / 1 parole diverse 5 (vere 2) tentativi 1
+A2_PILLOLA OK frasi trovate 1 / 1 parole diverse 2 (vere 2) tentativi 1
+A3_APPROF OK frasi trovate 1 / 1 parole diverse 8 (vere 6) tentativi 1
+A3_PILLOLA OK frasi trovate 1 / 1 parole diverse 4 (vere 2) tentativi 1
+A4_APPROF OK frasi trovate 1 / 1 parole diverse 6 (vere 4) tentativi 1
+A4_PILLOLA DA CONTROLLARE frasi trovate 1 / 1 parole diverse 7 (vere 6) tentativi 1
+A5_APPROF OK frasi trovate 1 / 1 parole diverse 9 (vere 7) tentativi 1
+A5_PILLOLA DA CONTROLLARE frasi trovate 1 / 1 parole diverse 7 (vere 32) tentativi 1
+A6_APPROF DA CONTROLLARE frasi trovate 1 / 1 parole diverse 7 (vere 36) REGIA LETTA tentativi 1
+A6_PILLOLA DA CONTROLLARE frasi trovate 1 / 1 parole diverse 7 (vere 7) tentativi 1
+S_SPIEGONE_1 OK frasi trovate 1 / 1 parole diverse 4 (vere 2) tentativi 1
+S_SPIEGONE_2 DA CONTROLLARE frasi trovate 1 / 1 parole diverse 8 (vere 7) tentativi 1
+G_GLOSSARIO_1 OK frasi trovate 1 / 1 parole diverse 2 (vere 2) tentativi 1
+G_GLOSSARIO_2 OK frasi trovate 1 / 1 parole diverse 4 (vere 2) tentativi 1
+R_RIPASSO_FINALE OK frasi trovate 1 / 1 parole diverse 3 (vere 3) tentativi 1
+M_MAPPA_1 OK frasi trovate 1 / 1 parole diverse 3 (vere 2) tentativi 1
+M_MAPPA_2 OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
+M_MAPPA_3 DA CONTROLLARE frasi trovate 1 / 1 parole diverse 5 (vere 5) tentativi 1
+M_MAPPA_4 DA CONTROLLARE frasi trovate 1 / 1 parole diverse 8 (vere 5) tentativi 1
+COMPITI DA CONTROLLARE frasi trovate 1 / 1 parole diverse 16 (vere 17) tentativi 1
+A3_PILLOLA DA CONTROLLARE durata fuori misura
+A5_PILLOLA DA CONTROLLARE durata fuori misura
+A6_APPROF DA CONTROLLARE durata fuori misura
+M_MAPPA_3 DA CONTROLLARE durata fuori misura
+M_MAPPA_4 DA CONTROLLARE durata fuori misura
