@@ -1,15 +1,6 @@
-AN18_R2 OK frasi trovate 1 / 1 parole diverse 6 (vere 8) tentativi 1
-R9_R2 DA CONTROLLARE frasi trovate 1 / 1 parole diverse 2 (vere 29) REGIA LETTA tentativi 1
-MPB1 OK frasi trovate 1 / 1 parole diverse 1 (vere 0) tentativi 1
-MPB3 OK frasi trovate 1 / 1 parole diverse 1 (vere 1) tentativi 1
-MPB5 OK frasi trovate 1 / 1 parole diverse 4 (vere 0) tentativi 1
-BEN2 OK frasi trovate 1 / 1 parole diverse 3 (vere 2) tentativi 1
-RIP2C OK frasi trovate 1 / 1 parole diverse 8 (vere 4) tentativi 1
-VER13 DA CONTROLLARE frasi trovate 1 / 1 parole diverse 3 (vere 29) REGIA LETTA tentativi 1
-MPBF1 OK frasi trovate 1 / 1 parole diverse 1 (vere 1) tentativi 1
-MPBF3 OK frasi trovate 1 / 1 parole diverse 7 (vere 2) tentativi 1
-AN6_R2 OK frasi trovate 1 / 1 parole diverse 2 (vere 2) tentativi 1
-R3_R2 OK frasi trovate 1 / 1 parole diverse 1 (vere 1) tentativi 1
-R6_R2 DA CONTROLLARE frasi trovate 1 / 1 parole diverse 12 (vere 7) tentativi 1
-MPB1 DA CONTROLLARE durata fuori misura
-VER13 DA CONTROLLARE durata fuori misura
+R9_R3 OK frasi trovate 1 / 1 parole diverse 5 (vere 5) tentativi 1
+MPB1_R2 OK frasi trovate 1 / 1 parole diverse 1 (vere 1) tentativi 1
+MPB4_R2 OK frasi trovate 1 / 1 parole diverse 4 (vere 3) tentativi 1
+VER13_R2 OK frasi trovate 1 / 1 parole diverse 3 (vere 0) tentativi 1
+RF3_R3 DA CONTROLLARE frasi trovate 1 / 1 parole diverse 13 (vere 7) tentativi 1
+COMPFINE OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
