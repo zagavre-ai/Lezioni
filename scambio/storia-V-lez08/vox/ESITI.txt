@@ -1,6 +1,1 @@
-BEN_R2 OK frasi trovate 1 / 1 parole diverse 3 (vere 2) tentativi 1
-CINTRO_R2 OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
-AP1 OK frasi trovate 1 / 1 parole diverse 5 (vere 4) tentativi 1
-AP3 OK frasi trovate 1 / 1 parole diverse 3 (vere 1) tentativi 1
-AP5 OK frasi trovate 1 / 1 parole diverse 8 (vere 3) tentativi 1
-AP7 OK frasi trovate 1 / 1 parole diverse 7 (vere 1) tentativi 1
+COMPITI OK frasi trovate 1 / 1 parole diverse 7 (vere 5) tentativi 1
