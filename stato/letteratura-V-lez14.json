@@ -11,6 +11,16 @@
    "fotogrammi_attesi": 82362,
    "peso_MB": 307.3,
    "vtt": "Letteratura_Lez14_Parte1.vtt"
+  },
+  "2": {
+   "titolo": "Pirandello · Parte 2",
+   "stato": "REVISIONATA",
+   "video": "finale.mp4",
+   "durata_s": 2823.4,
+   "durata": "47:03.4",
+   "fotogrammi": 84702,
+   "fotogrammi_attesi": 84702,
+   "peso_MB": 326.3
   }
  },
  "manca": "controllo severo, slide a 40px/max 3 card, mappa BES con voce, fettine che cambiano, volume -16, dispense con testo invisibile",
@@ -85,7 +95,11 @@
   {
    "quando": "23/11 14:37",
    "testo": "23/11 14:40 UTC: controllo_rapido non terminato dopo >1 ora su 2 Parti in parallelo (troppo lento in questo ambiente): fermato, nessun foglio/json (difetto NON bloccante). Fermi in attesa: (1) voci COMPITI e VER14 per schede mute VER 6,0 s e COMPITI 7,3 s; (2) risposta sulla mappa (ramo aiuto/voci M14_* assenti) e sullo spiegone. Ultima consegna valida: commit a016842 su revisione-letteratura-V-lez14. Mi fermo come da 11 bis."
+  },
+  {
+   "quando": "24/11 08:19",
+   "testo": "24/11: correzioni 23/11 fatte. Consegna sul ramo revisione-letteratura-V-lez14 (commit 46f5c6d): voci COMPITI e VER14 montate (schede non mute), volume -16,4/-16,8, jingle quiz OK, tempi rigenerati (P1 45:45, P2 47:03). RISERVE: mappa del prof ancora la vecchia (illeggibile, BES non fatta: il ramo aiuto non e' mai comparso), spiegone Parte 2 non fatto, controllo_rapido non terminato (troppo lento qui). Mi fermo."
   }
  ],
- "aggiornato": "2026-11-23 14:37:11"
+ "aggiornato": "2026-11-24 08:19:21"
 }
