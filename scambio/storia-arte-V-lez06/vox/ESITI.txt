@@ -1,1 +1,16 @@
-
+A1_APPROF OK frasi trovate 1 / 1 parole diverse 4 (vere 4) tentativi 1
+A2_APPROF OK frasi trovate 1 / 1 parole diverse 4 (vere 3) tentativi 1
+A3_APPROF OK frasi trovate 1 / 1 parole diverse 6 (vere 4) tentativi 1
+A4_APPROF OK frasi trovate 1 / 1 parole diverse 6 (vere 6) tentativi 1
+A5_APPROF OK frasi trovate 1 / 1 parole diverse 7 (vere 7) tentativi 1
+R1_RIPASSO OK frasi trovate 1 / 1 parole diverse 2 (vere 2) tentativi 1
+R2_RIPASSO OK frasi trovate 1 / 1 parole diverse 4 (vere 4) tentativi 1
+R3_RIPASSO OK frasi trovate 1 / 1 parole diverse 5 (vere 3) tentativi 1
+R4_RIPASSO DA CONTROLLARE frasi trovate 1 / 1 parole diverse 8 (vere 8) tentativi 1
+R5_RIPASSO OK frasi trovate 1 / 1 parole diverse 3 (vere 4) tentativi 1
+M1_MAPPA OK frasi trovate 1 / 1 parole diverse 19 (vere 9) tentativi 1
+M2_MAPPA OK frasi trovate 1 / 1 parole diverse 38 (vere 16) tentativi 1
+G_GLOSSARIO OK frasi trovate 1 / 1 parole diverse 4 (vere 3) tentativi 1
+F_RIPASSO_FINALE DA CONTROLLARE frasi trovate 1 / 1 parole diverse 11 (vere 10) tentativi 1
+V_VERIFICA OK frasi trovate 1 / 1 parole diverse 6 (vere 0) tentativi 1
+COMPITI OK frasi trovate 1 / 1 parole diverse 14 (vere 11) tentativi 1
