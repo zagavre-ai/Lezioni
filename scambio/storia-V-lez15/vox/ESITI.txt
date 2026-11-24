@@ -1,12 +1,1 @@
-BEN_R2 OK frasi trovate 1 / 1 parole diverse 2 (vere 0) tentativi 1
-CPT1 OK frasi trovate 1 / 1 parole diverse 3 (vere 2) tentativi 1
-CPT3 OK frasi trovate 1 / 1 parole diverse 1 (vere 0) tentativi 1
-PI3_R2 OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
-SC10_1_R2 OK frasi trovate 1 / 1 parole diverse 1 (vere 1) tentativi 1
-GL3_R2 OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
-GL7_R2 OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
-AN7_R2 OK frasi trovate 1 / 1 parole diverse 5 (vere 3) tentativi 1
-AN9_R2 OK frasi trovate 1 / 1 parole diverse 3 (vere 0) tentativi 1
-SC8_2_R3 OK frasi trovate 1 / 1 parole diverse 2 (vere 0) tentativi 1
-AN15_R3 OK frasi trovate 1 / 1 parole diverse 4 (vere 3) tentativi 1
-AN9_R2 DA CONTROLLARE durata fuori misura
+CHIUSURA_COMPITI OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
