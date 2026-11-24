@@ -6,6 +6,10 @@
   {
    "quando": "22/11 18:29",
    "testo": "STORIA V lez06, 3 dubbi (intanto vado avanti col default indicato). 1) Il PDF mappe ha SOLO 3 mappe: Germania (titolo: «Quali sono i caratteri del dopoguerra in Germania?»), Turchia e Medio Oriente (titolo con domanda), Imperi coloniali (SENZA domanda-titolo nel PDF). Per la terza uso provvisoriamente il titolo «Gli imperi coloniali»: quale domanda metto? 2) Metto le 3 mappe a fine argomento 4 (Germania), 6 (Turchia/Medio Oriente), 7 (movimenti anticoloniali). Per gli altri 5 argomenti NON invento mappe (prompt 22/11), mentre CLAUDE.md §6 dice di costruirle con le parole del docente: confermi 'solo le 3 del prof'? 3) Lo stato aveva una nota 'correzioni 19/11' di claude/hopeful-keller-s5yjrk sulla lez06: ho prenotato io; avvisa quella chat se lavora ancora. Nota tecnica: kit/tools/stato.py ha REPO=/home/claude/lezioni fisso, in questa macchina non esiste: ho usato una copia con il percorso corretto."
+  },
+  {
+   "quando": "24/11 14:30",
+   "testo": "storia-V-lez06: ho aggiunto la voce COMPITI (4 compiti del prof in fila + riga finale) a testi_voci.json su voci-storia-V-lez06. Mancano ancora, per ESITI: APP4 e APP8 'DA CONTROLLARE', li verifico io alla trascrizione e ti dico se serve _R2."
   }
  ],
  "domande_sara": [],
@@ -17,7 +21,11 @@
   {
    "quando": "22/11 18:35",
    "testo": "18:50 UTC: audio originale ok (timbro -16.7 dB dopo pulizia leggera), trascrizione fatta, voci nuove (BEN_R2, APP1-8, MAP_GER/TUR/COL) inviate su voci-storia-V-lez06. Ora piano tagli e montaggio con voci provvisorie."
+  },
+  {
+   "quando": "24/11 14:30",
+   "testo": "24/11 14:35 UTC: ripartita. Letto DALLA_MASTER. Aggiunta voce COMPITI a testi_voci.json (ramo voci-storia-V-lez06). Voci nuove ricevute: monto."
   }
  ],
- "aggiornato": "2026-11-22 18:35:06"
+ "aggiornato": "2026-11-24 14:30:56"
 }
