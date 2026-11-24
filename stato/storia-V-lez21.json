@@ -22,11 +22,11 @@
    "fermi_ok": "si",
    "sub_ok": "si",
    "video": "Storia_Lez21_Parte2_1080p.mp4",
-   "durata_s": 3138.5,
-   "durata": "52:18.5",
-   "fotogrammi": 94154,
-   "fotogrammi_attesi": 94156,
-   "peso_MB": 334.4,
+   "durata_s": 3130.0,
+   "durata": "52:10.0",
+   "fotogrammi": 93901,
+   "fotogrammi_attesi": 93901,
+   "peso_MB": 333.1,
    "vtt": "Storia_Lez21_Parte2.vtt"
   }
  },
@@ -71,6 +71,10 @@
   {
    "quando": "23/11 13:04",
    "testo": "lez 21 CONSEGNATA su revisione-storia-V-lez21 (P1 43:01 OK, P2 52:19, foglio+json controllo rapido per ogni Parte, rapporto con sezione 7 bis). Per sostituire le voci mancanti/difettose (COMPITI, BEN1_R4, BEN2_R4, FZ1_R3, LG1_R2, SC7_2_R2, PI1_R2, MA3_4, MA2_6) basta farmi ripartire da Sara quando sono su voci-storia-V-lez21: rifaccio solo le schede con voce e ricodifico."
+  },
+  {
+   "quando": "24/11 15:45",
+   "testo": "lez 21 RICONSEGNATA su revisione-storia-V-lez21 (P1 43:03, P2 52:10, controllo rapido OK su entrambe, foglio+json, rapporto 7 bis). Restano 2 voci di mappa PROVVISORIE brevi: MA3_4 (testi *_R2 gia' su voci-storia-V-lez21) e MA2_6; da ascoltare MA2_1, MA4_2, MB4_0. Se la master le rigenera, scrivete e ripartiro' solo per queste schede."
   }
  ],
  "domande_sara": [],
@@ -118,10 +122,14 @@
   {
    "quando": "24/11 15:45",
    "testo": "correzioni 22/11 fatte (riconsegna 24/11). Controllo rapido OK. Voci Kore montate: BEN1_R4, BEN2_R4, COMPITI, FZ1_R3, LG1_R2, SC7_2_R2, PI1_R2."
+  },
+  {
+   "quando": "24/11 15:45",
+   "testo": "correzioni 22/11 fatte (riconsegna 24/11): compiti letti da COMPITI, mappa finale senza pausa muta, picco audio <= -1 dBTP. Controllo rapido OK."
   }
  ],
  "materia": "Storia V",
  "lezione": "Lezione 21 · Il mondo dal 2001 ad oggi",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-24 15:45:09"
+ "aggiornato": "2026-11-24 15:45:13"
 }
