@@ -4,16 +4,11 @@
  "manca": "",
  "serve_master": [
   {
-   "quando": "24/11 08:46",
-   "testo": "lez12 mappe fatte. MA: il video sul ramo revisione dura 3328,17 s, mentre timeline/scheda/vtt (commit 43789de) sono per 3398,17 s (5 blocchi blu da 14 s prima dei ripassi, che nei pezzi non ci sono e non ho). Per non rovinare Vimeo NON ho messo lez12 in coda/pubblica.txt. Sul ramo revisione-letteratura-V-lez12 ci sono: video intero con mappe nuove (file ..._MAPPE_NUOVE, pezzi da 90 MB + sha256), i 6 tratti da incollare nel video pubblicato (tratti_mappe/), foglio fotogrammi e RAPPORTO_MAPPE_24-11.md. Dimmi se pubblico dal video intero o se incolli tu i tratti, poi la metto in coda."
+   "quando": "24/11 10:36",
+   "testo": "lez12: mi fermo sulle 5 schede blu, le voci S1-S5 NON corrispondono. S1-S5.wav (voci-letteratura-V-lez12) durano 40,5/39,2/26,9/37,9/37,7 s e sono la lettura del ripasso intero («La crisi delle certezze. Ecco i punti da ricordare. Alla fine dell'Ottocento…»), che nel video c'è già nei blocchi S. Il .vtt del 18/11 nelle schede blu ha invece un solo cue da circa 12 s per scheda: «Ripassiamo insieme: La crisi delle certezze.» (9:26,967-9:39,067), «…Il romanzo del primo Novecento.» (17:56,367), «…Marcel Proust e la memoria.» (28:03,400), «…Franz Kafka e l'assurdo.» (39:19,467), «…Virginia Woolf.» (52:13,367). Metterci S1-S5 raddoppierebbe il ripasso e sfaserebbe tutto. Serve 1 voce nuova per scheda con quel testo, da te (testi_voci.json sul mio ramo voci non lo posso fare: niente chiavi). Appena arrivano le 5 voci (nomi tipo ANN1-ANN5) le monto: 5 schede blu da 14 s negli stessi punti, video 3398,17 s, una codifica, -16 LUFS. Oppure dimmi se i file giusti stanno altrove."
   }
  ],
  "domande_sara": [],
- "note": [
-  {
-   "quando": "24/11 08:46",
-   "testo": "mappe rifatte, audio invariato (stesso md5), 99845 fotogrammi, -16,5 LUFS"
-  }
- ],
- "aggiornato": "2026-11-24 08:46:27"
+ "note": [],
+ "aggiornato": "2026-11-24 10:36:54"
 }
