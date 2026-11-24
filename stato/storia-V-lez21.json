@@ -8,11 +8,11 @@
    "fermi_ok": "si",
    "sub_ok": "si",
    "video": "Storia_Lez21_Parte1_1080p.mp4",
-   "durata_s": 2580.4,
-   "durata": "43:00.4",
-   "fotogrammi": 77412,
-   "fotogrammi_attesi": 77413,
-   "peso_MB": 238.4,
+   "durata_s": 2582.8,
+   "durata": "43:02.8",
+   "fotogrammi": 77485,
+   "fotogrammi_attesi": 77485,
+   "peso_MB": 238.8,
    "vtt": "Storia_Lez21_Parte1.vtt"
   },
   "2": {
@@ -114,10 +114,14 @@
   {
    "quando": "23/11 13:04",
    "testo": "correzioni 22/11 fatte (Parte 2). Controllo rapido: 1 pausa muta 3,1 s a 47:25 (non bloccante). Parte 1 dura 43 min, Parte 2 52 min (solo materiale del prof)."
+  },
+  {
+   "quando": "24/11 15:45",
+   "testo": "correzioni 22/11 fatte (riconsegna 24/11). Controllo rapido OK. Voci Kore montate: BEN1_R4, BEN2_R4, COMPITI, FZ1_R3, LG1_R2, SC7_2_R2, PI1_R2."
   }
  ],
  "materia": "Storia V",
  "lezione": "Lezione 21 · Il mondo dal 2001 ad oggi",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-23 13:04:12"
+ "aggiornato": "2026-11-24 15:45:09"
 }
