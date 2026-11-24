@@ -1,6 +1,11 @@
 {
  "tag": "storia-V-lez06",
- "parti": {},
+ "parti": {
+  "1": {
+   "stato": "IN_MONTAGGIO",
+   "voci": "kore"
+  }
+ },
  "manca": "",
  "serve_master": [
   {
@@ -25,7 +30,11 @@
   {
    "quando": "24/11 14:30",
    "testo": "24/11 14:35 UTC: ripartita. Letto DALLA_MASTER. Aggiunta voce COMPITI a testi_voci.json (ramo voci-storia-V-lez06). Voci nuove ricevute: monto."
+  },
+  {
+   "quando": "24/11 14:55",
+   "testo": "24/11 15:10 UTC: voci Kore tutte arrivate (BEN_R2, APP1-8, MAP x3, COMPITI) e controllate con la trascrizione (numeri e date giuste). Pezzi del prof rifatti dall'originale con audio pulito leggero (timbro -17,2 dB, -16,5 LUFS). In corso: pezzi del prof, schede, mappe BES (solo le 3 del prof), poi codifica, dispensa, controlli. Scadenza 11:00 del 23/11 gia' passata: consegno appena finito."
   }
  ],
- "aggiornato": "2026-11-24 14:30:56"
+ "aggiornato": "2026-11-24 14:55:29"
 }
