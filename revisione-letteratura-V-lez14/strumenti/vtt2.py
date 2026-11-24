@@ -12,6 +12,9 @@ for name,ns,dur,os_ in NT:
         s0=PLN[name]['s0']
         for t,w in O:
             if s0<=t<s0+dur: W.append((ns+t-s0,w))
+    elif name in ('VER','COMP') and P==2:
+        nm,off={'VER':('VER14',3.0),'COMP':('COMPITI',0.6)}[name]
+        for t,w in words_of(nm): W.append((ns+off+t,w))
     elif name=='R1':
         if os.path.exists('/tmp/w14/tr/R1.json'):
             for t,w in words_of('R1'): W.append((ns+0.4+t,w))

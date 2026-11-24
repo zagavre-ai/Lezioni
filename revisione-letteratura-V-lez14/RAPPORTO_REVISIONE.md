@@ -1,3 +1,23 @@
+# AGGIORNAMENTO 24/11 (consegna finale su richiesta della master)
+**Cosa ho fatto ora:** montate le voci Kore **COMPITI** (74,6 s) e **VER14** (9,1 s) arrivate dalla master. I 4 compiti del prof compaiono **uno alla volta con il bordo giallo** mentre la voce li legge con le sue parole; chiusura «Svolgi i compiti qui sotto e premi Consegna…». La scheda Verifica ha ora la voce («premi Controlla, poi Continua»). Le due schede non sono più mute oltre 5 s (misurato).
+**Misure sul video nuovo (misurato):**
+| | Parte 1 | Parte 2 |
+|---|---|---|
+| Durata | 45:45 (2745,4 s) | **47:03 (2823,4 s)** — più lunga di 77 s per le voci Verifica e Compiti |
+| Volume | −16,4 LUFS · picco −2,9 dBTP | −16,8 LUFS · picco −2,3 dBTP |
+| Jingle Quiz a 0,0 s | Q1–Q4 OK | Q1–Q6 OK |
+| Silenzi > 2,5 s | S2, S4 (coda pillola, 2,5–2,8 s) | 4,2 s all'inizio della scheda Verifica (la voce parte a +3 s): non bloccante |
+| Schermate identiche (area slide, misura grossolana) | massimo 368 s (6,1 min) a 20:42; poi 274 s a 9:54; 268 s a 29:54; 180 s a 39:00 | **una sola > 120 s: 180 s a 5:18**. Nessuna oltre 7 minuti |
+| Peso | 307 MB | 326 MB |
+Tempi di scheda, quiz, verifica e compiti **rigenerati** (`scheda_pubblicazione_parte*.json`, `timeline_parte*.json`, `.vtt`).
+**Ancora NON a posto (non bloccanti o fuori dal mio tempo):**
+- **Mappa del prof**: ancora la mia versione del 17/11 (testo 17–22 px, non BES, non ramo per ramo). Il ramo di aiuto con la mappa e le voci `M14_*` non sono mai comparsi sul remoto. **Resta bloccante per le regole §12 (mappe illegibili).**
+- **Spiegone** all'inizio della Parte 2: non fatto.
+- **controllo_rapido.py**: non terminato in questo ambiente (oltre un'ora): niente foglio né json. Il controllo lo fa la master.
+- PDF delle slide: non include le nuove pagine dei compiti.
+- Schermate identiche in P1 oltre 3 minuti (4 tratti), voce R1 con anni in cifre, pronuncia delle voci COMPITI/VER14/R1 **non ascoltata** (il riconoscimento ha scritto «Ciaola» per «Ciàula»).
+
+---
 # RAPPORTO REVISIONE · Letteratura V · Lezione 14 · CORREZIONI 22/11 (seconda consegna)
 **Stato: NON conforme a tutte le regole del 22/11.** Fatto quello che segue, **non fatto** quello in sezione 4. Etichette: **misurato** / **stima** / **non verificato**.
 

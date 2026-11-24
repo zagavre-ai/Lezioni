@@ -40,8 +40,8 @@ def mixjingle(g,kind,gapf):
     return np.clip(out,-32768,32767).astype(np.int16)
 def addpiece(name,vfile,nfr,audio,gapf,gapaud,oldname,oldstart):
     global cur,prevf
-    audio=np.clip(audio.astype(float)*(1.084 if oldname in PLN else 0.75),-32768,32767).astype(np.int16)
-    gapaud=np.clip(gapaud.astype(float)*0.75,-32768,32767).astype(np.int16)
+    audio=np.clip(audio.astype(float)*(0.785 if oldname in PLN else 0.85),-32768,32767).astype(np.int16)
+    gapaud=np.clip(gapaud.astype(float)*0.85,-32768,32767).astype(np.int16)
     if prevf is not None and gapf>0:
         a=edge(prevf,'last');b=edge(vfile,'first');o=f'{W}/dis_{len(seq)}.mp4';D=gapf/30
         sh(['ffmpeg','-v','error','-y','-loop','1','-framerate','30','-t',f'{D+0.1:.3f}','-i',a,'-loop','1','-framerate','30','-t',f'{D+0.1:.3f}','-i',b,'-filter_complex',f'[0][1]xfade=transition=fade:duration={D:.4f}:offset=0,format=yuv420p','-frames:v',str(gapf),*ENC,o])
@@ -71,6 +71,9 @@ for i,(n,f0,f1) in enumerate(old):
         vf=f'{W}/R1.mp4'
         if not os.path.exists(vf): sh(['ffmpeg','-v','error','-y','-loop','1','-framerate','30','-t',f'{nf/30:.3f}','-i','/tmp/w14/build/png/mappa_prof.png','-frames:v',str(nf),*ENC,vf])
         addpiece('R1',vf,nf,R,gapf,gapaud,'R1',0)
+    elif P==2 and os.path.exists('/tmp/w14/vc/meta.json') and n in json.load(open('/tmp/w14/vc/meta.json')):
+        M=json.load(open('/tmp/w14/vc/meta.json'))[n];w3=wave.open(M['wav']);aa=np.frombuffer(w3.readframes(w3.getnframes()),np.int16).reshape(-1,2);w3.close()
+        addpiece(n,f'/tmp/w14/new2/{n}.mp4',M['frames'],aa,gapf,gapaud,n,TL[i][1])
     else:
         newf=f'/tmp/w14/new{P}/{n}.mp4'
         if n.startswith('INTRO'): newf=f'/tmp/w14/new{P}/INTRO1_np.mp4'
