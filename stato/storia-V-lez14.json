@@ -61,6 +61,10 @@
   {
    "quando": "23/11 01:17",
    "testo": "Storia V lez14: Parti 1 e 2 montate (48 min ciascuna, solo materiale del prof). Aggiunta voce COMPITI su voci-storia-V-lez14. Ora controllo rapido; aspetto le voci (MB1-3, W1_R2, W2_R2, AN7_R2, AN8_R2, PR*_R2, COMPITI) per rifare mappe, benvenuti, compiti e consegnare."
+  },
+  {
+   "quando": "24/11 14:22",
+   "testo": "Voci su voci-storia-V-lez14 (testi_voci.json): MB1-3, W1_R2, W2_R2 (la voce W2_R2 dura 70 s: dopo la frase giusta legge altro, io la taglio a 14,3 s), AN7_R2, AN8_R2, PR*_R2, COMPITI sono GIA arrivate e montate. Nuove con sigle rispiegate, nomi _R3: PR11 PR34 PR43 PR44 PR45 PR46 PR64 PIA1 RF1 RF2 GL2. Parte 2 pronta; Parte 1 si rimonta ora (corretto un taglio a meta frase al min 16:59). Consegno appena rifatte."
   }
  ],
  "domande_sara": [],
@@ -101,5 +105,5 @@
  "materia": "Storia V",
  "lezione": "Lezione 14",
  "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-23 01:17:43"
+ "aggiornato": "2026-11-24 14:22:02"
 }
