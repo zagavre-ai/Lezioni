@@ -148,13 +148,13 @@ if(MP4){var v=document.createElement('video');v.id='vid';v.src=MP4;v.playsInline
 }
 /* ---- tappe ---- */
 var STOPS=CFG.stops;/* [{t:521.4,q:'Q1',top:59.7}] */
-function passed(q){return !!S.pass[q]}
+var CTRL=new URLSearchParams(location.search).get('controllo')==='1';function passed(q){return !!S.pass[q]||(CTRL&&q!=='VF')}
 function limit(){for(var i=0;i<STOPS.length;i++)if(!passed(STOPS[i].q))return STOPS[i].t;return Infinity}
 function fmt(t){t=Math.max(0,Math.floor(t||0));return Math.floor(t/60)+':'+('0'+t%60).slice(-2)}
 var open=null,lastT=0,started=false;
 function resume(){var t=Math.min(S.t||0,S.max||0);if(S.end){t=P.dur-1}if(t>3){P.seek(Math.max(0,t-1));lastT=t-1}}
 var DEMO=new URLSearchParams(location.search).get('prova')==='1';
-function cap(){return DEMO?limit():Math.min(limit(),S.max||0)}
+function cap(){return (DEMO||CTRL)?limit():Math.min(limit(),S.max||0)}
 function go(t){if(open)return;var c=cap();if(t>c)t=Math.max(0,c-0.3);P.seek(t);lastT=t}
 function play(){if(open)return;$('big').style.display='none';$('poster').classList.remove('on');started=true;P.play()}
 function toggle(){if(open)return;if(P.paused)play();else P.pause()}
