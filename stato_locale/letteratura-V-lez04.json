@@ -2,7 +2,7 @@
  "tag": "letteratura-V-lez04",
  "parti": {
   "1": {
-   "stato": "IN_REVISIONE"
+   "stato": "REVISIONATA"
   }
  },
  "manca": "",
@@ -21,7 +21,11 @@
   {
    "quando": "25/11 15:33",
    "testo": "correzione finale dal riepilogo: rimonto riepilogo, ordine, compiti"
+  },
+  {
+   "quando": "25/11 21:27",
+   "testo": "Letteratura 4 pronta. Finale rimontato 25/11 21:26 UTC, controllo_rapido ESITO OK, file Letteratura_Lez4_Parte1_1080p.mp4 sul ramo revisione-letteratura-V-lez04"
   }
  ],
- "aggiornato": "2026-11-25 15:34:13"
+ "aggiornato": "2026-11-25 21:27:33"
 }
