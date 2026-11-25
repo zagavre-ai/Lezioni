@@ -6,9 +6,13 @@
   {
    "quando": "24/11 10:36",
    "testo": "lez12: mi fermo sulle 5 schede blu, le voci S1-S5 NON corrispondono. S1-S5.wav (voci-letteratura-V-lez12) durano 40,5/39,2/26,9/37,9/37,7 s e sono la lettura del ripasso intero («La crisi delle certezze. Ecco i punti da ricordare. Alla fine dell'Ottocento…»), che nel video c'è già nei blocchi S. Il .vtt del 18/11 nelle schede blu ha invece un solo cue da circa 12 s per scheda: «Ripassiamo insieme: La crisi delle certezze.» (9:26,967-9:39,067), «…Il romanzo del primo Novecento.» (17:56,367), «…Marcel Proust e la memoria.» (28:03,400), «…Franz Kafka e l'assurdo.» (39:19,467), «…Virginia Woolf.» (52:13,367). Metterci S1-S5 raddoppierebbe il ripasso e sfaserebbe tutto. Serve 1 voce nuova per scheda con quel testo, da te (testi_voci.json sul mio ramo voci non lo posso fare: niente chiavi). Appena arrivano le 5 voci (nomi tipo ANN1-ANN5) le monto: 5 schede blu da 14 s negli stessi punti, video 3398,17 s, una codifica, -16 LUFS. Oppure dimmi se i file giusti stanno altrove."
+  },
+  {
+   "quando": "25/11 21:59",
+   "testo": "25/11 21:59 UTC lez12, correzione del 25/11 NON consegnata. Scaricato il video del ramo (Letteratura_Lez12_Parte1_1080p_MAPPE_NUOVE.mp4, 55:28, sha ok). I 32 tagli di voce elencati (9:39, 13:51, 15:56...) NON si riproducono: in quei minuti non c'e' nessun cambio di pezzo e il parlato e' continuo; non trovo fini di voce brusche nel file. Probabile che i minuti siano sulla timeline Vimeo da 3398 s (con le pillole da 14 s) e non sui 3328 s del ramo (lo dice anche RAPPORTO_MAPPE_24-11.md). Serve: il file o l'elenco dei pezzi su cui avete misurato. In piu' le schede di ripasso/glossario/riepilogo/compiti sono bianche: portarle in blu scuro richiede ricodificare il video (circa 15 min) e non l'ho fatto. Non ho caricato nulla sul ramo. Dite se applico comunque i bordi (fade 30 ms + trans.wav) a tutte le fini di frase."
   }
  ],
  "domande_sara": [],
  "note": [],
- "aggiornato": "2026-11-24 10:36:54"
+ "aggiornato": "2026-11-25 21:59:52"
 }
