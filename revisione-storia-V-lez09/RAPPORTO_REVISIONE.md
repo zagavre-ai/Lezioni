@@ -98,3 +98,30 @@ Misurati OK: fotogrammi = durata × 30, 1920×1080, peso, volume, picco, webcam 
 Difetti trovati e **non** risolti entro la scadenza: mappe solo per 4 argomenti su 10 (le altre non esistono nel materiale del prof); sottotitoli con attacco impreciso; silenzio in verifica e compiti; foto Balilla tagliata nello spiegone; numerazione pagine della dispensa. Difetto corretto: copertina della dispensa Parte 2 (era assente).
 
 Non verificati dall’agente: timbro e labbra (le misure di timbro sono sopra), «ogni sigla rispiegata», «niente già visto», risoluzione di ogni immagine, pronuncia dei nomi stranieri, contenuto delle 10 domande rispetto al test del prof.
+
+
+## Correzione del 25/11/2026 — voce COMPITI nella Parte 2 (Claude 2, master di riserva)
+**File nuovo: `Storia_Lez9_Parte2_1080p.mp4`** — creato il 25/11/2026 ore 20:34 (ora italiana). sha256 `6a28777e057135b41555fe981efc2993502e6a80044c7d88b5d0e81b7c71d68e`, 3 pezzi da 90 MB (`Storia_Lez9_Parte2_1080p.mp4.parte_00` …). Sostituisce il file con lo stesso nome consegnato il 23/11 (sha256 precedente nel ramo, cronologia git).
+Su Vimeo lo sostituisce la master, con lo stesso link.
+
+### Cosa ho cambiato (solo questo)
+- Nella Parte 2 i compiti erano **muti** a 49:57 (49:57–50:38, 41 s di silenzio). Ho inserito la voce Kore `COMPITI.wav` (70.7 s, dalla master, 24/11: `scambio/storia-V-lez09/vox/COMPITI.wav`). **Non ho scritto né cambiato il testo.**
+- Sullo schermo i compiti compaiono **uno alla volta con il bordo giallo**, accesi quando la voce comincia il compito (tempi dalla trascrizione della voce, fatta con ASR). Le parole sono quelle del docente (`compiti.json`, invariato). Alla fine una riga a voce e sullo schermo: «Svolgi i compiti qui sotto e premi Consegna: arrivano al docente nel tuo quaderno dei compiti».
+- Voce: +1,6/+1,7 dB per portarla al livello delle altre voci Kore del video; dissolvenza di 30 ms all'inizio e alla fine; bordi sotto 0,002.
+- Tutto il resto del video è **copiato senza ricodificare** fino al punto dei compiti (2993,17 s); il pezzo nuovo è ricodificato con gli stessi parametri (x264 veryfast CRF 19, AAC 192k 48 kHz, 1920×1080, 30 fps). Fotogrammi del pezzo prima dei compiti ricodificati: 3 secondi di sigla finale (dall'originale).
+
+### Durata: CAMBIA (non è identica)
+Prima 3038,77 s (50:38); ora **3067.84 s** (+29.1 s). La voce è più lunga della scheda muta: non ho potuto accorciare una pausa vicina senza spostare il quiz o la verifica. I **tempi dei quiz e della verifica non sono cambiati** (stanno prima). Aggiornati: `timeline_Parte2.json` (ultimo pezzo), `scheda_pubblicazione_Parte2.json` (`durata_s`), `.vtt` (aggiunti i sottotitoli dei compiti). **Va aggiornata la durata nella pagina** (`var CFG={… "dur": …}` = 3067.84) quando la master sostituisce il video: non ho toccato `gh-pages`.
+
+### Controlli (misurato)
+- Controllo rapido: ESITO **DA CORREGGERE** — volume -16.2 LUFS, picco -1.4 dBTP, peso 240 MB, formato 1920x1080 30/1, fotogrammi = durata × 30 (ok). Compiti: non più mute (verificato con la misura delle pause).
+- Piè di pagina senza nome del docente, nessuna scheda con fasce, nessuna schermata ferma oltre 3 minuti.
+- Foglio dei fotogrammi guardato (ultimo fotogramma: compito 1 con bordo giallo).
+- **Pause mute rimaste (c'erano già, non sono i compiti):** 8:41 (5.3 s), 23:58 (5.2 s), 39:53 (5.3 s), 48:19 (92.4 s). Non le ho toccate: spostano il quiz o la verifica. Per la 09 il tratto di 92 s è la verifica a schermo senza voce: decide Sara.
+- Il riquadro del docente non è coinvolto (nessuna parola del docente toccata).
+
+### Non verificato
+- Ascolto della voce da parte di una persona (pronuncia dei nomi: d'Annunzio, Rapallo, Matteotti, Acerbo, Etiopia): non ascoltata.
+- Sottotitoli dei compiti: tempi proporzionali tra le parole, non parola per parola.
+- Confronto con il ramo `consegna-storia-V-lez09`: non fatto.
+- Nel `compiti.json` della 08 il titolo contiene «Lezione 8» (numero di lezione): non toccato, da decidere.
