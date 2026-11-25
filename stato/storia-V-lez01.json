@@ -1,29 +1,14 @@
 {
  "tag": "storia-V-lez01",
- "parti": {
-  "1": {
-   "stato": "IN_MONTAGGIO"
-  }
- },
- "manca": "VIDEO ORIGINALE DEL PROF MANCANTE: la release storia-V-lez01 citata nell'indice non esiste (404) e lo zip 002 contiene altre lezioni",
- "serve_master": [
-  {
-   "quando": "18/11 19:50",
-   "testo": "Caricare il video originale delle lezioni 1 e 2 (LEZIONE.1.IL.NOVECENTO.IL.SECOLO.DELLE.MASSE.mp4 e LEZIONE.2...): la release storia-V-lez01/02 non esiste"
-  }
- ],
+ "parti": {},
+ "manca": "",
+ "serve_master": [],
  "domande_sara": [],
  "note": [
   {
-   "quando": "18/11 19:47",
-   "testo": "PRENOTATA 18/11 19:50 · chat v3 rifacimento da zero (sessione lez12)"
-  },
-  {
-   "quando": "18/11 19:50",
-   "testo": "RILASCIATA 18/11 19:55 (sessione lez12): impossibile rifarla da zero senza il video originale; stessa cosa per lez02"
+   "quando": "25/11 10:18",
+   "testo": "presa da chat nuova 25/11"
   }
  ],
- "materia": "storia-V",
- "lezione": "1",
- "aggiornato": "2026-11-18 19:50:10"
+ "aggiornato": "2026-11-25 10:18:41"
 }
