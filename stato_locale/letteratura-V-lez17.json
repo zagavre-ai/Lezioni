@@ -1,6 +1,17 @@
 {
  "tag": "letteratura-V-lez17",
- "parti": {},
+ "parti": {
+  "1": {
+   "stato": "REVISIONATA",
+   "video": "Letteratura_Lez17_Parte1_1080p.mp4",
+   "durata_s": 3258.5,
+   "durata": "54:18.5",
+   "fotogrammi": 97755,
+   "fotogrammi_attesi": 97755,
+   "peso_MB": 383.0,
+   "vtt": "Letteratura_Lez17_Parte1.vtt"
+  }
+ },
  "manca": "",
  "serve_master": [
   {
@@ -13,7 +24,11 @@
   {
    "quando": "25/11 16:28",
    "testo": "Correzione urgente: mappa 50:55 rifatta e montata (pronta). Compiti 53:20: montaggio pronto, manca SOLO vox/COMPITI.wav (testo già in testi_voci.json, ramo voci-letteratura-V-lez17). Non arrivata in 45 min. Appena arriva: montaggio, controllo_rapido, consegna. Mi fermo."
+  },
+  {
+   "quando": "25/11 21:25",
+   "testo": "Letteratura 17 pronta. Correzione urgente 25/11 consegnata su revisione-letteratura-V-lez17 (commit d744788): mappa 50:55 intera, compiti letti con voce COMPITI in blu scuro. controllo_rapido: unico errore il piè di pagina col nome del prof, già presente e non toccato (vedi rapporto)."
   }
  ],
- "aggiornato": "2026-11-25 16:28:13"
+ "aggiornato": "2026-11-25 21:25:54"
 }
