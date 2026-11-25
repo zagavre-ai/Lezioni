@@ -6,6 +6,10 @@
   {
    "quando": "25/11 10:25",
    "testo": "Chat nuova su storia-V-lez02, ferma prima del montaggio. 1) Mi mancano gli strumenti di montaggio del modello Letteratura V lez19: nei rami revisione-/consegna-letteratura-V-lez19 ci sono solo i file consegnati (video a pezzi, vtt, quiz, dispensa), non gli script che disegnano schede, slide, quiz, mappe e riquadro 4:3. In kit/tools ci sono solo trascrivi, taglio, mappa, rettangolo, finale_a_pezzi e controlli. Dove sono? Altrimenti dovrei scriverli da zero e non chiudo in 2 ore e mezza. 2) Il video del docente dura 69,9 min (due Parti) ed e' solo 1092x614: la webcam e' circa 113x77 px, ingrandita a 412x309 sara' sgranata. Va bene? 3) Le 61 voci Kore in vox/ sono della struttura vecchia a 2 Parti (RIP2 spiegone, AN, MAP, CM, GL, RF, FIN): le riuso cosi' o servono voci nuove (introduzione senza nome, compiti COMPITI)? Il video e le slide, mappe, test e compiti del docente li ho scaricati. Aspetto risposta, poi riparto."
+  },
+  {
+   "quando": "25/11 12:27",
+   "testo": "Voci nuove richieste in testi_voci.json sul ramo voci-storia-V-lez02: BENV1 (benvenuto senza nome e numero), COMPITI (una voce, parole esatte del PDF), MAPD1, MAPD2, MAPD3 (le 3 mappe del docente, ramo per ramo; la mappa 3 non ha la domanda nel titolo, ne scrivo una con le sue parole). NON uso le mappe CM1-CM9/CMF (inventate da noi, vietate dal CLAUDE.md §6) ne MAP1-3 vecchie. Struttura: Parte 1 = argomenti 1-3, Parte 2 = argomenti 4-9. Intanto monto il resto."
   }
  ],
  "domande_sara": [],
@@ -17,7 +21,11 @@
   {
    "quando": "25/11 10:25",
    "testo": "25/11: ferma in attesa della master (strumenti di montaggio lez19, risoluzione video, voci). Materiali scaricati."
+  },
+  {
+   "quando": "25/11 12:25",
+   "testo": "25/11 12:40 ripartita: scarico gli strumenti da revisione-storia-V-lez01"
   }
  ],
- "aggiornato": "2026-11-25 10:25:34"
+ "aggiornato": "2026-11-25 12:27:59"
 }
