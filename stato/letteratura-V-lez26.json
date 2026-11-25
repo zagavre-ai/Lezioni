@@ -1,102 +1,14 @@
 {
  "tag": "letteratura-V-lez26",
- "parti": {
-  "1": {
-   "stato": "REVISIONATA",
-   "voci": "kore",
-   "quiz_ok": "si",
-   "fermi_ok": "si",
-   "sub_ok": "si",
-   "video": "Letteratura_Lez26_Parte1_1080p.mp4",
-   "durata_s": 3182.9,
-   "durata": "53:02.9",
-   "fotogrammi": 95486,
-   "fotogrammi_attesi": 95486,
-   "peso_MB": 199.1,
-   "vtt": "Letteratura_Lez26_Parte1.vtt"
-  }
- },
+ "parti": {},
  "manca": "",
  "serve_master": [
   {
-   "quando": "22/11 17:02",
-   "testo": "lez26: servono le voci MP1-MP10 e CP1-CP4 (testi_voci.json, ramo voci-letteratura-V-lez26): senza non posso chiudere. Per favore generare presto."
-  },
-  {
-   "quando": "22/11 17:42",
-   "testo": "URGENTE lez26 17:43 UTC: dopo 1 ora le voci MP1-MP10 e CP1-CP4 (commit 9ac5357 su voci-letteratura-V-lez26, scambio/letteratura-V-lez26/testi_voci.json) non sono ancora in vox/. Tutto il resto è pronto: appena arrivano servono ~40 min. Senza voci entro le 18:30 non rispetto le 19:30."
+   "quando": "25/11 17:44",
+   "testo": "Lez26 correzione voci: nel video consegnato i minuti che mi hai dato (11:12, 19:52... 49:38) NON corrispondono: le voci S1-S5 e R2-R3 sono intere (misurato, ritrovate nel video a 10:04, 18:46, 30:04, 38:13, 46:21). Difetti veri: (1) R4 (38:08) aveva in coda un pezzo di 'Ripassiamo' tagliato: tolto dal video, messa trans.wav; (2) R5 (46:17) parte senza 'Ripassiamo' (la parola era finita in coda a R4). Ho scritto R5_R2 in testi_voci.json sul ramo voci-letteratura-V-lez26: serve la voce 'Ripassiamo il metaromanzo e le ultime opere.' Quando arriva la monto e consegno. Se il tuo controllo ha letto un'altra versione del video, mandami i minuti sul video del ramo revisione."
   }
  ],
  "domande_sara": [],
- "note": [
-  {
-   "quando": "16/11 19:49",
-   "testo": "lez26: verifica A+B+C+D fatta; correzione in codifica (grafica Spagnolo, riquadro 4:3, mappe del prof, vtt, PDF)"
-  },
-  {
-   "quando": "16/11 20:19",
-   "testo": "REVISIONATA: ramo revisione-letteratura-V-lez26, vedi RAPPORTO_REVISIONE.md (punti da chiarire col prof + 3 ascolti)"
-  },
-  {
-   "quando": "16/11 23:38",
-   "testo": "riconsegna 16/11: slide non vuote, Figtree Bold, picco -1,5 dBTP"
-  },
-  {
-   "quando": "17/11 07:30",
-   "testo": "17/11: ripresa per aggiornamenti 01:20/01:25/01:30/08:15 (jingle, fine pezzi prof, ombre/card gialla, fermi, trans, sync). CONSEGNA PREVISTA: entro 1 ora dalle 07:30 UTC; aggiornamento ogni 20 min"
-  },
-  {
-   "quando": "17/11 07:33",
-   "testo": "17/11 +20 min: fatti prova fermi (0 fermi), sync misurata (max 2,8 ms audio), fine pezzi prof ok, inizio pezzo 4 tagliato (al vino) corretto; in codifica video con card gialla/ombre grigie/trans.wav; consegna prevista entro 50 min"
-  },
-  {
-   "quando": "17/11 08:03",
-   "testo": "17/11 riconsegna: jingle quiz ok (scarto <=0,004), trans.wav, card gialla/ombre grigie, 0 fermi prof, sync max 3 ms, picco -1,5 dBTP; 94591 fotogrammi"
-  },
-  {
-   "quando": "17/11 17:20",
-   "testo": "17:20 UTC: letti aggiornamenti; Aracoeli non presente in lez26. Resta: togliere 2 silenzi >3 s (3,5 e 3,9 s, regola 00:40) e riconsegnare. CONSEGNA PREVISTA entro 45 min; aggiorno ogni 20 min"
-  },
-  {
-   "quando": "17/11 17:30",
-   "testo": "17:30 UTC +10 min: codifica in corso (taglio 2 silenzi >3 s); consegna prevista tra ~20 min"
-  },
-  {
-   "quando": "17/11 17:51",
-   "testo": "17:51 UTC riconsegna: silenzi >3 s tolti, scheda aggiornata (durata 3151,7 s, 94552 fotogrammi)"
-  },
-  {
-   "quando": "22/11 16:33",
-   "testo": "correzioni 22/11: presa da revisione-letteratura-V-lez26 (16:35 UTC); consegna prevista entro 19:30 UTC"
-  },
-  {
-   "quando": "22/11 16:36",
-   "testo": "correzioni 22/11 16:40 UTC: pushate voci nuove MP1-MP10 (mappa unica del prof) e CP1-CP4 (compiti) su voci-letteratura-V-lez26: master, genera per favore. Intanto rifaccio slide a 40 px, card intere, pagine <=3 min, verifica+compiti nel video."
-  },
-  {
-   "quando": "22/11 17:02",
-   "testo": "17:03 UTC: slide 40px/card intere/pagine<3min, mappa BES unica, verifica+compiti nel video: pronti e provati su montaggio senza audio. ATTENDO le voci MP1-MP10 e CP1-CP4 (pushate 16:40 su voci-letteratura-V-lez26) per montare audio e codificare (~40 min dopo). Consegna prevista 19:00 UTC se le voci arrivano entro le 17:45."
-  },
-  {
-   "quando": "22/11 17:22",
-   "testo": "17:23 UTC: tutto pronto tranne le voci MP1-MP10/CP1-CP4 (ancora non generate). Appena arrivano: audio+codifica ~40 min."
-  },
-  {
-   "quando": "22/11 18:14",
-   "testo": "18:15 UTC: voci arrivate e controllate (trascritte); montaggio finale in codifica, fine prevista ~18:50; poi controllo severo + agente separato + rapporto; consegna prevista 19:15 UTC"
-  },
-  {
-   "quando": "22/11 18:44",
-   "testo": "18:46 UTC: montaggio finale quasi pronto (assemblo coda: mappa, glossario, verifica, compiti, finale). Poi controllo severo, agente separato, rapporto: consegna prevista 19:20 UTC"
-  },
-  {
-   "quando": "22/11 19:00",
-   "testo": "19:01 UTC: consegna intermedia pushata (video 53:03, 95486 fotogrammi); attendo controllo severo e controllo agente separato, poi REVISIONATA"
-  },
-  {
-   "quando": "22/11 19:10",
-   "testo": "correzioni 22/11 fatte (19:20 UTC): mappa unica BES, 40px, card intere, verifica+compiti nel video; controllo severo non concluso (vedi rapporto), controllo agente separato fatto; punti da ascoltare: MP1, CP4"
-  }
- ],
- "aggiornato": "2026-11-22 19:10:48"
+ "note": [],
+ "aggiornato": "2026-11-25 17:44:51"
 }
