@@ -1,19 +1,23 @@
 {
  "tag": "letteratura-V-lez16",
- "parti": {},
- "manca": "voce Kore COMPITI dalla master",
+ "parti": {
+  "1": {
+   "stato": "REVISIONATA"
+  }
+ },
+ "manca": "",
  "serve_master": [
   {
-   "quando": "23/11 12:21",
-   "testo": "Serve COMPITI.wav (testo in testi_voci.json) per la lez16"
+   "quando": "25/11 15:49",
+   "testo": "URGENTE Lett.16: mappa rifatta (unica, 34 px, ramo per ramo). MA nel video il riquadro del prof manca mentre parla in 10:35-15:00, 21:23-26:43, 37:46-44:34 e nelle slide fino a 48:50 (slide a tutta larghezza con la voce del prof). Non ho il video originale del prof qui: serve la sorgente (release) per rimontarlo. Dimmi se la fornisci."
   }
  ],
  "domande_sara": [],
  "note": [
   {
-   "quando": "23/11 12:21",
-   "testo": "correzioni 22/11 fatte; consegna 23/11 12:30 UTC su revisione-letteratura-V-lez16 (video 55:05, foglio+json). Unico difetto controllo_rapido: lettura compiti muta 94,7 s a 53:30 (manca la voce COMPITI della master; poi rigenero la sola coda)"
+   "quando": "25/11 16:04",
+   "testo": "25/11 mappa unica 34px rifatta, ricodificato. Riquadro prof assente in alcuni tratti: serve il video originale (vedi serve_master)"
   }
  ],
- "aggiornato": "2026-11-23 12:21:28"
+ "aggiornato": "2026-11-25 16:04:45"
 }
