@@ -150,7 +150,7 @@ def p_map(name,mid,voice,hold=4.0,lead=1.0):
         fr.append((draw_map(m,L,list(shown),nid),max(0.05,e-s)))
     fr.append((draw_map(m,L,list(shown),None),hold))
     tot=sum(d for _,d in fr)
-    audio=[(TRANS,0.0,-8,'fx'),(vpath(voice),lead,vgain(vpath(voice)),'voice'),(TRANS,lead+vdur+0.6,-8,'fx')]
+    audio=[(TRANS,0.0,-8,'fx'),(vpath(voice),lead,vgain(vpath(voice)),'voice'),(TRANS,lead+vdur+0.2,-8,'fx'),(TRANS,lead+vdur+2.0,-10,'fx')]
     pc=piece(name,fr,total,audio);pc['cues']=[(lead+al[0][0],lead+al[0][1],m['title'])]+[(lead+al[i+1][0],lead+al[i+1][1],L[n]['text'].capitalize() if n=='c' else L[n]['text']) for i,n in enumerate(m['order'])]
     return pc,ratio,draw_map(m,L,list(m['order']),None)
 def p_media(name,src,kind='sigla'):
