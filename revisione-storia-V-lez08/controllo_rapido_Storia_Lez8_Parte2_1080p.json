@@ -1,0 +1,26 @@
+{
+ "video": "Storia_Lez8_Parte2_1080p.mp4",
+ "durata_min": 60.2,
+ "formato": "1920x1080 30/1",
+ "peso_MB": 340,
+ "LUFS": -16.0,
+ "picco_dBTP": -1.0,
+ "pause_mute": [
+  "29:01 (2.5 s)",
+  "58:35 (4.4 s)",
+  "58:41 (2.7 s)"
+ ],
+ "nome_docente_nel_pie_di_pagina": [],
+ "schede_con_fasce": [],
+ "schermate_ferme_oltre_3_min": [],
+ "titolo_in_copertina": "2/5 parole",
+ "foglio": "foglio_fotogrammi_Storia_Lez8_Parte2_1080p.jpg",
+ "ERRORI": [
+  "3 pause mute oltre 2,5 s: 29:01 (2.5 s), 58:35 (4.4 s), 58:41 (2.7 s)"
+ ],
+ "DA_GUARDARE": [
+  "titolo «Il dopoguerra italiano (1919-1925) e il fascismo» non letto bene in copertina: guardalo sul foglio",
+  "Apri il foglio dei fotogrammi e controlla con gli occhi: fondo bianco; schede di titolo/quiz/ripasso in BLU SCURO a tutto schermo; card a 40 px e intere; nessun nome del docente fuori dalla fascia gialla; riquadro del docente giusto (Mazzotti 4:3, Caputi tondo); copertina con il titolo esatto; mappe del prof con la legenda BES; in fondo sigla finale con l'avviso dei diritti e intro «Compiti»."
+ ],
+ "ESITO": "DA CORREGGERE"
+}
