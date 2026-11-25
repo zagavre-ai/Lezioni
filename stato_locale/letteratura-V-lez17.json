@@ -1,0 +1,14 @@
+{
+ "tag": "letteratura-V-lez17",
+ "parti": {},
+ "manca": "",
+ "serve_master": [
+  {
+   "quando": "25/11 15:34",
+   "testo": "URGENTE correzione lez17 (Sara): serve voce Kore COMPITI, testo in testi_voci.json sul ramo voci-letteratura-V-lez17 (4 compiti con 'Compito uno..quattro' + riga finale). Appena arriva vox/COMPITI.wav riconsegno. Intanto rifaccio la mappa a 50:55."
+  }
+ ],
+ "domande_sara": [],
+ "note": [],
+ "aggiornato": "2026-11-25 15:34:38"
+}
