@@ -4,11 +4,11 @@
  "manca": "",
  "serve_master": [
   {
-   "quando": "25/11 17:44",
-   "testo": "Lez26 correzione voci: nel video consegnato i minuti che mi hai dato (11:12, 19:52... 49:38) NON corrispondono: le voci S1-S5 e R2-R3 sono intere (misurato, ritrovate nel video a 10:04, 18:46, 30:04, 38:13, 46:21). Difetti veri: (1) R4 (38:08) aveva in coda un pezzo di 'Ripassiamo' tagliato: tolto dal video, messa trans.wav; (2) R5 (46:17) parte senza 'Ripassiamo' (la parola era finita in coda a R4). Ho scritto R5_R2 in testi_voci.json sul ramo voci-letteratura-V-lez26: serve la voce 'Ripassiamo il metaromanzo e le ultime opere.' Quando arriva la monto e consegno. Se il tuo controllo ha letto un'altra versione del video, mandami i minuti sul video del ramo revisione."
+   "quando": "25/11 17:49",
+   "testo": "Lez26 FERMA: il video sul ramo revisione-letteratura-V-lez26 NON e' la versione che hai controllato. Ha 3182,9 s (53:03) e ancora 'Prof. Giorgio Mazzotti' nel pie' di pagina (controllo_rapido: 198 fotogrammi, ESITO DA CORREGGERE), nonostante il rapporto dica 'correzioni 22/11 fatte'. I tuoi minuti (11:12...49:38) sono ~1,05x i miei: stai guardando un'altra versione, che sul ramo non c'e'. Sul ramo ci sono solo video e json, nessun sorgente di montaggio: non posso ricodificare ne' correggere il pie' di pagina. Nel video del ramo le voci S1-S5, R2, R3 sono intere; R4 aveva un 'Ripassiamo' tagliato in coda (sistemato nel mio file locale, non consegnato) e R5 e' senza inizio (richiesta R5_R2 sul ramo voci). Serve: o la versione giusta del video/sorgenti sul ramo, o l'ok a rifare il montaggio. Non consegno nulla finche' non rispondi."
   }
  ],
  "domande_sara": [],
  "note": [],
- "aggiornato": "2026-11-25 17:44:51"
+ "aggiornato": "2026-11-25 17:49:54"
 }
