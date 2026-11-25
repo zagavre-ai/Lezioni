@@ -2,15 +2,7 @@
  "tag": "letteratura-V-lez15",
  "parti": {
   "1": {
-   "stato": "IN_REVISIONE",
-   "voci": "kore",
-   "video": "Letteratura_Lez15_Parte1_1080p.mp4",
-   "durata_s": 3180.6,
-   "durata": "53:00.6",
-   "fotogrammi": 95417,
-   "fotogrammi_attesi": 95417,
-   "peso_MB": 311.0,
-   "vtt": "Letteratura_Lez15_Parte1.vtt"
+   "stato": "REVISIONATA"
   }
  },
  "manca": "",
@@ -18,9 +10,9 @@
  "domande_sara": [],
  "note": [
   {
-   "quando": "23/11 11:24",
-   "testo": "23/11: correzioni master consegnate sul ramo revisione (con voce COMPITI provvisoria: 1 pausa muta a 52:54 finche' non arriva la voce). In attesa della voce COMPITI e di APPROVATA"
+   "quando": "25/11 16:07",
+   "testo": "Letteratura 15 pronta: corretti i lampi bianchi su ripassi e riepilogo, controllo rapido OK"
   }
  ],
- "aggiornato": "2026-11-23 11:24:59"
+ "aggiornato": "2026-11-25 16:07:08"
 }
