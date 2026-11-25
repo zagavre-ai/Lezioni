@@ -1,14 +1,18 @@
 {
  "tag": "letteratura-V-lez07",
- "parti": {},
+ "parti": {
+  "1": {
+   "stato": "REVISIONATA"
+  }
+ },
  "manca": "",
  "serve_master": [],
  "domande_sara": [],
  "note": [
   {
-   "quando": "25/11 16:37",
-   "testo": "Claude 2: correzione punti elenco"
+   "quando": "25/11 18:37",
+   "testo": "Correzione 25/11: voci intere ai 24 passaggi, dissolvenze+trans, tolta frase finale. Resta solo pausa muta compiti (manca voce COMPITI)"
   }
  ],
- "aggiornato": "2026-11-25 16:37:24"
+ "aggiornato": "2026-11-25 18:37:59"
 }
