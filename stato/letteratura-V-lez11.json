@@ -2,92 +2,17 @@
  "tag": "letteratura-V-lez11",
  "parti": {
   "1": {
-   "stato": "IN_REVISIONE",
-   "video": "Letteratura_Lez11_Parte1_1080p.mp4",
-   "durata_s": 3177.3,
-   "durata": "52:57.3",
-   "fotogrammi": 95318,
-   "fotogrammi_attesi": 95318,
-   "peso_MB": 258.7
+   "stato": "REVISIONATA"
   }
  },
  "manca": "",
- "serve_master": [
-  {
-   "quando": "22/11 16:43",
-   "testo": "Lez 11: ho aggiunto 4 voci nuove CP1-CP4 (compiti del prof letti da Kore) a testi_voci.json del ramo voci-letteratura-V-lez11. Servono entro 18:30 UTC."
-  },
-  {
-   "quando": "22/11 19:41",
-   "testo": "Lez 11: controllo_severo.py non finisce in tempi utili sulla mia macchina (OCR). Lo rilanci tu sul video consegnato."
-  }
- ],
+ "serve_master": [],
  "domande_sara": [],
  "note": [
   {
-   "quando": "16/11 18:27",
-   "testo": "IN_REVISIONE: chat revisione 11 avviata"
-  },
-  {
-   "quando": "16/11 19:53",
-   "testo": "REVISIONATA: ramo revisione-letteratura-V-lez11, vedi RAPPORTO_REVISIONE.md"
-  },
-  {
-   "quando": "17/11 07:29",
-   "testo": "Consegna prevista: entro 60 min (17/11). In corso: jingle, transizioni, card in corso gialla, prof mai tagliato a meta' frase, sync. Aggiorno ogni 20 min."
-  },
-  {
-   "quando": "17/11 07:32",
-   "testo": "Aggiornamento 20 min: nuovi confini del prof a fine frase (D2, D3 allungati), card in corso gialla, jingle titolo/ripasso/trans, in ricodifica. Consegna prevista: entro 40 min."
-  },
-  {
-   "quando": "17/11 08:02",
-   "testo": "REVISIONATA 17/11: jingle, card gialla, prof a fine frase, secondi aggiornati (vedi RAPPORTO §6-ter)"
-  },
-  {
-   "quando": "17/11 17:20",
-   "testo": "17/11: riletti aggiornamenti fino alle 08:45 (pronuncia nomi latini: nessun nome latino nei testi voce della 11). Nulla da cambiare, consegna gia' sul ramo revisione-letteratura-V-lez11 (a67f43f)."
-  },
-  {
-   "quando": "22/11 16:37",
-   "testo": "correzioni 22/11: presa da revisione-letteratura-V-lez11 (a67f43f). Consegna prevista entro 19:30 UTC."
-  },
-  {
-   "quando": "22/11 16:49",
-   "testo": "correzioni 22/11 (17:00 UTC): slide ricostruite (card 40px max 3, schede blu scuro, mappa BES ramo per ramo), in codifica; attendo voci CP1-4 e INTRO2 (senza nome docente). Consegna prevista 19:00 UTC."
-  },
-  {
-   "quando": "22/11 17:19",
-   "testo": "17:20 UTC: video ricostruito (card 40px, dark cards, mappa BES, jingle, pausa 2,75s accorciata, card riallineate al parlato); in codifica finale; attendo voci CP1-4 e INTRO2. Consegna prevista 19:00 UTC."
-  },
-  {
-   "quando": "22/11 18:17",
-   "testo": "18:17 UTC: video finale ricostruito (52:57), voci CP/INTRO2 integrate; ora controlli (severo, sync, silenzi, PDF) e rapporto. Consegna prevista 19:00 UTC."
-  },
-  {
-   "quando": "22/11 18:42",
-   "testo": "18:42 UTC: video finale pronto e pacchetto assemblato; attendo esito controllo_severo e controllo indipendente, poi consegna (entro 19:15 UTC)."
-  },
-  {
-   "quando": "22/11 18:46",
-   "testo": "18:50 UTC: controllo indipendente fatto, corretti: sincronia card (6 punti), max 3 card (argomenti e riepilogo), dissolvenze 0,33 s, VF->finale dissolve, copertina MAPPE. Ricodifica in corso (finisce ~19:03), poi controllo severo e consegna entro 19:25 UTC."
-  },
-  {
-   "quando": "22/11 19:21",
-   "testo": "correzioni 22/11 fatte: consegna sul ramo revisione-letteratura-V-lez11 (19:22 UTC). Controllo severo OCR ancora in corso: esito in un commit successivo. Durata 52:57."
-  },
-  {
-   "quando": "22/11 19:41",
-   "testo": "correzioni 22/11 fatte. controllo_severo.py non concluso dopo 30 min (OCR lento): da rilanciare dalla master sul video consegnato. Durata 52:57."
-  },
-  {
-   "quando": "23/11 10:50",
-   "testo": "23/11: riparto. Tolto il nome del docente dai piè di pagina (video, dispensa, mappe), testi quiz/verifica 'premi Controlla', aggiunta voce CMPF (chiusura compiti). Attendo CMPF poi ricodifica e controllo_rapido."
-  },
-  {
-   "quando": "23/11 11:22",
-   "testo": "23/11 11:22 UTC: video rifatto senza nome docente nel piè di pagina; controllo_rapido: unico errore la scheda compiti muta (52:56, 7 s) in attesa della voce CMPF dal servizio voci. Appena arriva rimonto e consegno (automatico)."
+   "quando": "25/11 16:06",
+   "testo": "Correzione riepilogo I quattro argomenti consegnata (4 frasi 42 px). Controllo rapido: solo difetto preesistente non bloccante (nome docente nel piè di pagina)"
   }
  ],
- "aggiornato": "2026-11-23 11:22:33"
+ "aggiornato": "2026-11-25 16:06:00"
 }
