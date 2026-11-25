@@ -2,150 +2,22 @@
  "tag": "letteratura-V-lez04",
  "parti": {
   "1": {
-   "stato": "REVISIONATA",
-   "titolo": "Naturalismo e Verismo",
-   "voci": "kore",
-   "quiz_ok": "si",
-   "fermi_ok": "si",
-   "sub_ok": "si",
-   "video": "Letteratura_Lez4_Parte1_1080p.mp4",
-   "durata_s": 2933.2,
-   "durata": "48:53.2",
-   "fotogrammi": 87995,
-   "fotogrammi_attesi": 87995,
-   "peso_MB": 199.7,
-   "vtt": "Letteratura_Lez4_Parte1.vtt"
+   "stato": "IN_REVISIONE"
   }
  },
- "manca": "ripresa: controllo finale sottotitoli e ritocchi; consegna prevista entro 60 minuti",
+ "manca": "",
  "serve_master": [
   {
-   "quando": "16/11 23:33",
-   "testo": "voci R1-R5 in testi_voci.json (ramo voci-letteratura-V-lez04): mappa del prof e 4 schemi al posto delle mappe inventate"
-  },
-  {
-   "quando": "17/11 08:32",
-   "testo": "rigenerare pagina interattiva con i nuovi secondi (timeline.json / scheda_pubblicazione.json); sostituire su Vimeo sullo stesso link"
-  },
-  {
-   "quando": "17/11 17:25",
-   "testo": "rigenerare la pagina con i nuovi secondi (timeline.json); sostituire su Vimeo sullo stesso link"
-  },
-  {
-   "quando": "22/11 16:38",
-   "testo": "voci M1-M9 su voci-letteratura-V-lez04 (testi_voci.json): servono entro ~30 min"
-  },
-  {
-   "quando": "22/11 19:22",
-   "testo": "pillole di ripasso blu (come commit 4094bc7) da reinserire dalla master; timeline.json/scheda aggiornati ai nuovi secondi; sostituire su Vimeo stesso link"
+   "quando": "25/11 15:33",
+   "testo": "Lez04 Letteratura: ho messo in testi_voci.json (ramo voci-letteratura-V-lez04) la voce COMPITI con i 4 compiti del prof in fila e la riga finale. Mi serve per leggere i compiti con Kore. Appena arriva rimonto e riconsegno."
   }
  ],
  "domande_sara": [],
  "note": [
   {
-   "quando": "16/11 18:11",
-   "testo": "chat revisione 4"
-  },
-  {
-   "quando": "16/11 23:22",
-   "testo": "consegna prevista 06:30 (ora italiana). Trascrizione in corso, poi piano di montaggio"
-  },
-  {
-   "quando": "16/11 23:26",
-   "testo": "ricomposto video e sha256 OK; trascrizione 20/54 min; generatore slide modello Spagnolo pronto; consegna prevista 06:30 (ora italiana)"
-  },
-  {
-   "quando": "16/11 23:33",
-   "testo": "trascrizione finita; piano montaggio fatto; voci R1-R5 inviate; montaggio in corso; consegna prevista 06:30 (ora italiana)"
-  },
-  {
-   "quando": "16/11 23:41",
-   "testo": "montaggio nel modello Spagnolo in corso (pezzi in costruzione); consegna prevista 06:30 (ora italiana)"
-  },
-  {
-   "quando": "16/11 23:47",
-   "testo": "pezzi montati 16/38 (modello Spagnolo); sottotitoli corretti; voci R1-R5 ricevute e allineate; consegna prevista 06:30 (ora italiana)"
-  },
-  {
-   "quando": "17/11 00:22",
-   "testo": "video nuovo codificato (96787 fotogrammi, 195 MB, -16,6 LUFS, picco -1,1 dBTP); corretto scarto audio 0,06 s sui quiz; poi rapporto e consegna; consegna prevista 06:30 (ora italiana)"
-  },
-  {
-   "quando": "17/11 07:27",
-   "testo": "ripresa: letti aggiornamenti 01:20/01:25/01:30/08:15; video nuovo gia' codificato, ora adeguo jingle/transizioni/ombre e consegno"
-  },
-  {
-   "quando": "17/11 07:30",
-   "testo": "rifacimento v2 in corso: via schemi nostri, jingle, dissolvenze, card gialla; consegna prevista 09:30 (ora italiana)"
-  },
-  {
-   "quando": "17/11 08:07",
-   "testo": "v2: 34 pezzi montati (tutti i frame ok), codifica finale in corso; poi controlli e push"
-  },
-  {
-   "quando": "17/11 08:32",
-   "testo": "REVISIONATA v2 sul ramo revisione-letteratura-V-lez04: 49:08,8, 88463 fotogrammi, -16,6 LUFS, picco -1,9 dBTP, jingle quiz OK, sync -0,02 s. Durata sotto 50 min e secondi quiz/verifica/compiti cambiati: scheda e timeline aggiornate. Sottotitoli da guardare (attacco 70%). Vedi RAPPORTO_REVISIONE.md"
-  },
-  {
-   "quando": "17/11 17:18",
-   "testo": "ripresa lavoro: letti aggiornamenti fino alle 10:19; unico punto aperto: sync sottotitoli 70% e etichetta mappa a sinistra"
-  },
-  {
-   "quando": "17/11 17:25",
-   "testo": "REVISIONATA v2.1 (ramo revisione-letteratura-V-lez04, commit 5b7b4d3): sottotitoli riallineati, mappa con etichetta a sinistra. Video invariato: 49:08,8, -16,6 LUFS, picco -1,9 dBTP. Letti aggiornamenti fino alle 10:19: nessuno altro punto per la lezione 4. Vedi RAPPORTO_REVISIONE.md"
-  },
-  {
-   "quando": "22/11 16:35",
-   "testo": "correzioni 22/11: presa da revisione-letteratura-V-lez04 (5b7b4d3); consegna prevista 19:15 UTC"
-  },
-  {
-   "quando": "22/11 16:38",
-   "testo": "correzioni 22/11: inviate voci M1-M9 (mappa ramo per ramo); rifacimento slide 40px e pagine; consegna prevista 19:15 UTC"
-  },
-  {
-   "quando": "22/11 16:41",
-   "testo": "correzioni 22/11: slide rifatte a 40 px con finestre da max 3 card e pagine <=3 min; mappa BES pronta (attendo voci M1-M9 e I2); montaggio pezzi in corso; consegna prevista 19:15 UTC"
-  },
-  {
-   "quando": "22/11 17:03",
-   "testo": "correzioni 22/11: voci M1-M9 e I2 ricevute e trascritte (bordi OK, anno 1870 letto bene); pezzi in montaggio 23/34; mappa BES in rendering; consegna prevista 19:15 UTC"
-  },
-  {
-   "quando": "22/11 17:07",
-   "testo": "correzioni 22/11: 33/34 pezzi pronti, mappa ramo per ramo e voce intro nuova montate; rifaccio D3 (~10 min), poi codifica, controllo severo e consegna; consegna prevista 19:00 UTC"
-  },
-  {
-   "quando": "22/11 17:34",
-   "testo": "correzioni 22/11: tutti i pezzi pronti; ricodifica finale in corso (accorciate schede e coda intro per pause >2,5 s); poi controllo severo e consegna; prevista 18:30 UTC"
-  },
-  {
-   "quando": "22/11 17:57",
-   "testo": "correzioni 22/11: video finale pronto (48:53, -16,6 LUFS, picco -2,1, jingle OK, sync -0,02 s); in corso controllo severo e controllo di un agente separato; poi push; prevista 18:30 UTC"
-  },
-  {
-   "quando": "22/11 19:01",
-   "testo": "correzioni 22/11: video finale v4 codificato (48:53, -16,6 LUFS, picco -2,1, jingle OK, sync -0,02 s, nessuna pausa >2,5 s); controllo severo in corso; poi push; prevista 19:00 UTC"
-  },
-  {
-   "quando": "22/11 19:05",
-   "testo": "correzioni 22/11: consegnato v4 sul ramo; aggiungo schede blu animate come Spagnolo (titolo, quiz, verifica, compiti, riepilogo); ricodifica in corso, nuova consegna prevista 19:30 UTC"
-  },
-  {
-   "quando": "22/11 19:22",
-   "testo": "correzioni 22/11 fatte: consegna v5 sul ramo revisione-letteratura-V-lez04 (48:53, 87995 fotogrammi, -16,6 LUFS, picco -2,1, jingle quiz OK, sync -0,02 s, pagina max 165 s, nessuna pausa >2,5 s). Controllo severo ufficiale NON ancora finito (lo lancio ora); pillole blu 14 s del 17/11 non incluse. Vedi RAPPORTO_REVISIONE.md"
-  },
-  {
-   "quando": "22/11 20:21",
-   "testo": "correzioni 22/11 fatte: controllo severo OK zero errori (passo 60 s), consegna sul ramo revisione-letteratura-V-lez04; pillole blu 14 s del 17/11 non incluse"
-  },
-  {
-   "quando": "23/11 10:51",
-   "testo": "23/11: letto DALLA_MASTER; correggo (1) piè di pagina senza nome del docente in video, dispensa e mappe, (2) pagina 16 Zola: D2 diviso a fine frase con l'approfondimento Goncourt nel mezzo e finestre a/b; poi controllo_rapido e consegna; prevista in ~60 min"
-  },
-  {
-   "quando": "23/11 11:56",
-   "testo": "correzioni 22/11 fatte (23/11): piè di pagina senza nome del docente in video, dispensa e mappe; pagina Zola divisa con l'approfondimento Goncourt a fine frase; controllo_rapido OK, controllo severo OK; foglio e json sul ramo"
+   "quando": "25/11 15:33",
+   "testo": "correzione finale dal riepilogo: rimonto riepilogo, ordine, compiti"
   }
  ],
- "aggiornato": "2026-11-23 11:56:51"
+ "aggiornato": "2026-11-25 15:33:07"
 }
