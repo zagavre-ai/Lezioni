@@ -86,3 +86,8 @@ Voci della lista che l'agente **ha confermato OK** al primo giro: nessun taglio 
 - **M** Movimento del riquadro confrontato con la webcam dell'originale (release `mazzotti-letteratura-V`, `Letteratura_Lez19.mp4`, 1775,13 s = somma dei 4 pezzi): correlazione 0,88 (D1), 0,72 (D2), 0,83 (D3); le finestre basse stanno ai bordi dei pezzi e dove il docente sta fermo. Nessun tratto senza docente.
 - **M** `controllo_rapido.py`: ESITO OK (foglio e json in questa cartella).
 - **NV** Non ho potuto vedere la copia vista da chi ha segnalato il difetto (Vimeo, altro lettore, altra versione del 17/11). Se il riquadro appare vuoto là, il file caricato non è questo: confrontare l'sha256.
+
+## 13. Controllo del 25/11/2026 sera · riquadro del docente (messaggio master 12:29)
+- File controllato: **`Letteratura_Lez19_Parte1_1080p.mp4`** (4 pezzi `.parte_00…03`, sha256 `0c7c89ce…ef36c`, caricato sul ramo il 22/11/2026 18:37 UTC, invariato). **Nessun file nuovo**: non c'era niente da correggere.
+- **M** Fotogramma del riquadro ogni 30 s su tutti i pezzi D0–D3: **61 su 61 con il docente presente** (foglio `riquadro_docente_ogni30s.png`). Controllati anche 5:46, 13:16, 23:33, 36:53: presente.
+- **S** Dal foglio dei fotogrammi: schede di ripasso (19:55, 47:11) e glossario (49:17) sono **bianche**, non blu scuro. Non le ho rifatte: il generatore delle schede non è nel repository, solo il video finito. Difetto non bloccante (§12).
