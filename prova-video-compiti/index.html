@@ -283,7 +283,7 @@ function draw(){var ul=$('steps');ul.innerHTML='';
   if(ok&&!tp.fin){var r=document.createElement('button');r.textContent='Rifai';r.onclick=function(){openQ(tp.q,CFG.stops.findIndex(function(s){return s.q===tp.q}))};li.appendChild(r)}
   ul.appendChild(li)});
  var lc=document.createElement('li');if(S.cons)lc.className='ok';lc.innerHTML='<span>Compiti (dopo la sigla)</span><i>'+(S.cons?'consegnati':'dopo il video')+'</i>';var bc=document.createElement('button');bc.textContent='Apri';bc.disabled=!S.end;bc.onclick=function(){if(!open)openC()};lc.appendChild(bc);ul.appendChild(lc);
- var tk=$('ticks');tk.innerHTML='';if(P.dur)STOPS.forEach(function(s){var e=document.createElement('span');e.className='tick'+(passed(s.q)?' done':'');e.style.left=(s.t/P.dur*100)+'%';tk.appendChild(e)})}
+ var tk=$('ticks');tk.innerHTML='';if(P.dur)STOPS.forEach(function(s){var e=document.createElement('span');e.className='tick'+(passed(s.q)?' done':'');e.style.left=(Math.min(s.t,P.dur)/P.dur*100)+'%';if(s.t>P.dur)e.style.display='none';tk.appendChild(e)})}
 $('rst').onclick=function(){if(CFG.poster)$('poster').classList.add('on');S={pass:{},t:196,max:196};save();closeQ();P.pause();P.seek(195);lastT=195;$('big').style.display='grid';draw()};
 if(CFG.poster){$('poster').style.backgroundImage='url('+CFG.poster+')';$('poster').classList.add('on')}
 draw();
