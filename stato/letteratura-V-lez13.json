@@ -3,9 +3,6 @@
  "parti": {
   "1": {
    "stato": "REVISIONATA"
-  },
-  "2": {
-   "stato": "REVISIONATA"
   }
  },
  "manca": "",
@@ -13,13 +10,9 @@
  "domande_sara": [],
  "note": [
   {
-   "quando": "23/11 12:54",
-   "testo": "correzioni 22/11 fatte + correzioni 23/11: schede a tutto schermo, piè di pagina senza nome (tranne 6 fotogrammi P1), pause mute tolte, verifica finale P2 reinserita. Durate misurate: P1 49:22, P2 54:38. Foglio e json del controllo rapido sul ramo. Mancano: voce Kore COMPITI (testo caricato sul ramo voci, non ancora arrivata)."
-  },
-  {
-   "quando": "23/11 12:54",
-   "testo": "correzioni 22/11 fatte + correzioni 23/11: schede a tutto schermo, piè di pagina senza nome (tranne 6 fotogrammi P1), pause mute tolte, verifica finale P2 reinserita. Durate misurate: P1 49:22, P2 54:38. Foglio e json del controllo rapido sul ramo. Mancano: voce Kore COMPITI (testo caricato sul ramo voci, non ancora arrivata)."
+   "quando": "25/11 17:21",
+   "testo": "correzione urgente 25/11: AN rifatti, slide P1 divisa, controllo rapido OK"
   }
  ],
- "aggiornato": "2026-11-23 12:54:45"
+ "aggiornato": "2026-11-25 17:21:04"
 }
