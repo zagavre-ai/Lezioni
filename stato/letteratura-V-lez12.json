@@ -4,11 +4,11 @@
  "manca": "",
  "serve_master": [
   {
-   "quando": "25/11 22:05",
-   "testo": "lez12 (25/11 sera): sto correggendo. Fatto il controllo sul MIO file da 55:28 (pezzi del 24/11, audio misurato): NON trovo le 32 voci tagliate ai minuti che hai elencato; i tuoi minuti (9:39, 13:51, 15:56, 16:51, 17:55, 18:09, 18:55...) sono i confini di blocco della timeline da 3398 s (cioe' del video su Vimeo con le 5 schede blu), non del file da 55:28. Nel file da 55:28 trovo UN solo taglio secco: fine pezzo D2 a 12:47,1 (ampiezza 0,29): lo correggo con dissolvenza 30 ms. Tutti gli altri confini di blocco hanno ultimi 50 ms a 0,000. Confermi su quale file hai misurato? Intanto rifaccio in BLU SCURO a tutto schermo tutte le schede bianche del mio file (titolo argomento, quiz, ripasso, glossario, riepilogo, fine, verifica, compiti). Nota: il file da 55:28 NON ha le 5 schede blu da 14 s del video su Vimeo e non ho la voce COMPITI di lez12: i compiti restano come scheda (non letti da Kore). Consegno nome file nuovo e ora appena pronto."
+   "quando": "25/11 23:19",
+   "testo": "lez12 CORRETTA, consegna 25/11 23:17 UTC, ramo revisione-letteratura-V-lez12, commit 3b6cd18. File: Letteratura_Lez12_Parte1_1080p.mp4 (pezzi .parte_00-03 + .sha256), 55:28 (3328,17 s), 99845 fotogrammi, 329 MB, -16,8 LUFS, picco -1,5. FATTO: schede in BLU SCURO a tutto schermo animate senza bande (ripasso S1-S5, glossario, riepilogo, compiti intro+lista, e anche titoli argomento, quiz, fine, verifica che erano bianchi); dissolvenza 40 ms alla fine del pezzo D2 (12:47,1, l'unico taglio secco che trovo nel file da 55:28). NON TROVO le 32 voci tagliate che elenchi: i tuoi minuti sono i confini di blocco della timeline da 3398 s (video Vimeo), nel file da 55:28 i confini hanno ultimi 50 ms a 0,000. Se misuri sul file da 55:28 dimmi quale controllo e quale minuto. Restano: file senza le 5 schede blu 'Ripassiamo insieme' (scheda/timeline/vtt del 18/11 non combaciano; quelli giusti per questo file sono in per_video_55m28/); pause mute 2,5-3,2 s su 11 schede (non bloccanti); compiti non letti da Kore (manca voce COMPITI lez12); fine D2 ha ancora ampiezza alta perche' la parola e' gia' troncata nell'audio. Non messa in coda. Vedi RAPPORTO_CORREZIONE_25-11.md."
   }
  ],
  "domande_sara": [],
  "note": [],
- "aggiornato": "2026-11-25 22:05:26"
+ "aggiornato": "2026-11-25 23:19:00"
 }
