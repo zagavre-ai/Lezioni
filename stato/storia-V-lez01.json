@@ -2,7 +2,12 @@
  "tag": "storia-V-lez01",
  "parti": {},
  "manca": "",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "25/11 10:23",
+   "testo": "Storia V lez01: mandate le 2 voci nuove BENV1 (benvenuto) e COMPITI (tutti i 4 compiti del prof in fila + riga finale) dal ramo voci-storia-V-lez01 (testi_voci.json, in fondo). Le altre 40 sono già in vox/. Intanto monto tutto il resto; consegno quando arrivano. Scelta mia: verifica e compiti in fondo a ENTRAMBE le Parti, come nella consegna vecchia."
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
@@ -10,5 +15,5 @@
    "testo": "presa da chat nuova 25/11"
   }
  ],
- "aggiornato": "2026-11-25 10:18:41"
+ "aggiornato": "2026-11-25 10:23:51"
 }
