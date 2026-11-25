@@ -206,7 +206,8 @@ function openC(){if(!CT.ap.length)return;open='C';cur={q:'C',idx:-1};P.pause();
  var QURL='https://tsguzxawpywxrydazhrc.supabase.co/functions/v1/quaderno';
  function cod(){try{return localStorage.getItem('quaderno_codice')||''}catch(e){return ''}}
  function bozza(){try{return JSON.parse(localStorage.getItem(BK)||'[]')}catch(e){return []}}
- function api(az,d,c){return fetch(QURL,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(Object.assign({codice:c,azione:az,tag:LEZ},d||{}))}).then(function(r){return r.json().then(function(j){if(!r.ok)throw new Error(j.errore||('errore '+r.status));return j})})}
+ function esiti(){/* 25/11: esiti di quiz e verifica mandati nel quaderno con la consegna dei compiti */var base=CFG.id.replace(/-p\d+$/,''),out=[],np=0;for(var p=1;p<=4;p++){var o=null;try{o=JSON.parse(localStorage.getItem('telesio_'+base+'-p'+p)||'null')}catch(e){}if(!o)continue;var ps=o.pass||{},tr=o.tries||{},ks=Object.keys(ps);Object.keys(tr).forEach(function(q){if(ks.indexOf(q)<0)ks.push(q)});if(!ks.length)continue;np++;ks.sort(function(a,b){return ((a==='VF')-(b==='VF'))||(parseInt(a.slice(1))-parseInt(b.slice(1)))});var r=ks.map(function(q){var x=ps[q],t=tr[q]||1,nm=q==='VF'?'Verifica finale':'Quiz '+q.slice(1);return x?nm+' '+x.ok+'/'+x.n+' ('+Math.round(x.ok/x.n*100)+'%)'+(t>1?', '+t+' tentativi':', 1 tentativo'):nm+' non superato ('+t+(t>1?' tentativi':' tentativo')+')'});out.push('Parte '+p+': '+r.join(' · '))}if(!out.length)return null;return 'Esiti della videolezione registrati su questo dispositivo: '+(np>1||/-p[2-9]$/.test(CFG.id)?out.join(' | '):out.join(' | ').replace(/^Parte \d+: /,''))}
+function api(az,d,c){return fetch(QURL,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(Object.assign({codice:c,azione:az,tag:LEZ},d||{}))}).then(function(r){return r.json().then(function(j){if(!r.ok)throw new Error(j.errore||('errore '+r.status));return j})})}
  function cresci(t){t.style.height='auto';t.style.height=(t.scrollHeight+4)+'px'}
  function scrivi(d){var B=bozza(),h='';var dom=(d&&d.esercizi&&d.esercizi.length)?d.esercizi:CT.ap;var ro=d&&(d.stato==='consegnato'||d.stato==='corretto'||d.stato==='verificato'||d.stato==='segnalato');
   if(d&&d.stato==='consegnato')h+='<div class="qi"><div class="p">Compiti consegnati'+(d.consegnato_il?' il '+new Date(d.consegnato_il).toLocaleString('it-IT'):'')+'.</div><div>Il docente li correggerà: voto e commenti li trovi nel tuo quaderno dei compiti.</div></div>';
@@ -226,7 +227,7 @@ function openC(){if(!CT.ap.length)return;open='C';cur={q:'C',idx:-1};P.pause();
    if(c.length<6){$('qm').textContent='Scrivi il tuo codice (lo stesso del registro).';$('czc').focus();return}
    if(R.some(function(x){return !x.trim()})&&!$('qv').dataset.ok){$('qv').dataset.ok=1;$('qm').textContent='Alcune domande sono senza risposta. Se vuoi consegnare lo stesso, premi di nuovo «Consegna».';return}
    $('qv').disabled=true;$('qm').textContent='Invio in corso…';
-   api('lezione_consegna',{risposte:R},c).then(function(){try{localStorage.setItem('quaderno_codice',c);localStorage.removeItem(BK)}catch(e){}S.cons={quando:new Date().toLocaleString('it-IT')};save();draw();$('qv').disabled=false;delete $('qv').dataset.ok;
+   api('lezione_consegna',{risposte:R,nota:esiti()},c).then(function(){try{localStorage.setItem('quaderno_codice',c);localStorage.removeItem(BK)}catch(e){}S.cons={quando:new Date().toLocaleString('it-IT')};save();draw();$('qv').disabled=false;delete $('qv').dataset.ok;
      return api('lezione_stato',{},c).then(function(d){scrivi(d);$('qm').textContent='Compiti consegnati. Il docente li trova nel quaderno dei compiti e li correggerà.'})})
    .catch(function(e){$('qv').disabled=false;$('qm').textContent=(e.message==='Codice non valido'?'Codice non valido: controlla di averlo scritto bene.':'Non è partito: '+e.message+'. Controlla la connessione e riprova.')})}}
  scrivi(null);var c0=cod();if(c0)api('lezione_stato',{},c0).then(function(d){if(open==='C')scrivi(d)}).catch(function(){})}
@@ -269,7 +270,7 @@ function check(){var Z=QZ[cur.q],ok=0,miss=0;
   if(!c){miss++;return}if(c.value===it.a){ok++;e.classList.add('good')}else e.classList.add('bad')});
  if(miss){$('qm').textContent='Rispondi a tutte le domande (ne mancano '+miss+').';Z.items.forEach(function(it,k){if(!document.querySelector('input[name=r'+k+']:checked'))$('qi'+k).classList.add('bad')});return}
  var n=Z.items.length,pc=Math.round(ok/n*100);
- if(ok/n>=CFG.soglia-1e-9){S.pass[cur.q]={ok:ok,n:n,d:new Date().toISOString()};save();draw();
+ S.tries=S.tries||{};S.tries[cur.q]=(S.tries[cur.q]||0)+1;save();if(ok/n>=CFG.soglia-1e-9){S.pass[cur.q]={ok:ok,n:n,d:new Date().toISOString()};save();draw();
   if(cur.idx<0){$('qm').textContent='Test superato: '+ok+' su '+n+' ('+pc+'%). Puoi accedere alla lezione successiva.';$('qv').textContent='Chiudi';$('qv').onclick=closeQ;$('qr').style.display='none'}
   else{$('qm').textContent='Superato: '+ok+' su '+n+' ('+pc+'%).';$('qv').textContent='Continua';$('qv').className='btn go';$('qv').onclick=function(){closeQ();play()}}}
  else{$('qm').textContent=ok+' su '+n+' ('+pc+'%): serve almeno l\'80%. Leggi i suggerimenti e riprova.';$('qv').textContent='Riprova';$('qv').onclick=function(){openQ(cur.q,cur.idx)}}}
