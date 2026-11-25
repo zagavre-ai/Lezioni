@@ -2,19 +2,13 @@
  "tag": "storia-V-lez02",
  "parti": {},
  "manca": "",
- "serve_master": [
-  {
-   "quando": "19/11 19:01",
-   "testo": "Lezione 3 di Storia V consegnata sul ramo revisione-storia-V-lez03 (Parte 1 52:49, Parte 2 51:21): da controllare e caricare. Ho avviato la lezione 2 (storia-V-lez02). Le voci nuove della 3 sono arrivate dopo circa 3 h 40: per la 2 le richiedo tutte insieme appena pronto il testo, serve una generazione piu' rapida."
-  }
- ],
+ "serve_master": [],
  "domande_sara": [],
  "note": [
   {
-   "quando": "18/11 21:16",
-   "testo": "chat v3: rifacimento lezione 2 avviato (dopo consegna lez 3)"
+   "quando": "25/11 10:18",
+   "testo": "presa da chat nuova 25/11, la chat vecchia non si trova più"
   }
  ],
- "materia": "Storia V",
- "aggiornato": "2026-11-19 19:01:18"
+ "aggiornato": "2026-11-25 10:18:53"
 }
