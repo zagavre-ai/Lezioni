@@ -1,6 +1,10 @@
 {
  "tag": "storia-V-lez09",
- "parti": {},
+ "parti": {
+  "2": {
+   "stato": "REVISIONATA"
+  }
+ },
  "manca": "",
  "serve_master": [],
  "domande_sara": [],
@@ -8,7 +12,11 @@
   {
    "quando": "25/11 18:56",
    "testo": "Claude 2: inserisco voce COMPITI (parte 2)"
+  },
+  {
+   "quando": "25/11 19:36",
+   "testo": "25/11 20:34 Claude 2: voce COMPITI inserita in P2 (video nuovo 3067,84 s, +29,1 s). Pagina: dur da aggiornare. Vedi RAPPORTO_REVISIONE.md"
   }
  ],
- "aggiornato": "2026-11-25 18:56:42"
+ "aggiornato": "2026-11-25 19:36:52"
 }
