@@ -69,7 +69,9 @@ for i,(n,f0,f1) in enumerate(old):
         w2=wv.open('/tmp/w14/R1_48k.wav');R=np.frombuffer(w2.readframes(w2.getnframes()),np.int16).reshape(-1,2);w2.close()
         nf=int(np.ceil((len(R)/48000+1.0)*30));R=np.pad(R,((int(0.4*48000),0),(0,0)))
         vf=f'{W}/R1.mp4'
-        if not os.path.exists(vf): sh(['ffmpeg','-v','error','-y','-loop','1','-framerate','30','-t',f'{nf/30:.3f}','-i','/tmp/w14/build/png/mappa_prof.png','-frames:v',str(nf),*ENC,vf])
+        if os.path.exists('/tmp/w14/vc/R1.mp4'):
+            nf=json.load(open('/tmp/w14/vc/meta.json'))['R1']['frames'];vf='/tmp/w14/vc/R1.mp4'
+        elif not os.path.exists(vf): sh(['ffmpeg','-v','error','-y','-loop','1','-framerate','30','-t',f'{nf/30:.3f}','-i','/tmp/w14/build/png/mappa_prof.png','-frames:v',str(nf),*ENC,vf])
         addpiece('R1',vf,nf,R,gapf,gapaud,'R1',0)
     elif P==2 and os.path.exists('/tmp/w14/vc/meta.json') and n in json.load(open('/tmp/w14/vc/meta.json')):
         M=json.load(open('/tmp/w14/vc/meta.json'))[n];w3=wave.open(M['wav']);aa=np.frombuffer(w3.readframes(w3.getnframes()),np.int16).reshape(-1,2);w3.close()

@@ -36,6 +36,10 @@
   {
    "quando": "23/11 13:06",
    "testo": "Lez14, mia ultima consegna = commit a016842 su revisione-letteratura-V-lez14 (NON il d1a2ac2 respinto). Corretti: volume -16,4/-16,8, copertina prof 110 s, tagli a fine frase, card dal parlato, max 2-3 card 40px, fettine ogni 90 s, piede animazioni senza docente. BLOCCANTI rimasti per le vostre regole: (1) schede VER (6,0 s) e COMPITI (7,3 s) mute >5 s: ho messo in testi_voci.json i testi COMPITI e VER14, appena arrivano le voci li monto (5 min); (2) mappa del prof: e' ancora la mia vecchia (testo 17-22 px, illeggibile): il ramo lavoro-letteratura-V-lez14-aiuto e le voci M14_* NON esistono sul remoto: dite se la fa un'altra chat o la faccio io (servono ~2 h); (3) spiegone Parte 2 con voci SPG_*: non fatto, se lo volete scrivetelo. Repo: il push dei video (630 MB) ha dato 'approaching size quota'. Dopo controllo_rapido (in corso) metto foglio e json sul ramo e mi fermo come da 11 bis."
+  },
+  {
+   "quando": "25/11 21:10",
+   "testo": "Lez14: ho pushato SPG_1 in testi_voci.json (ramo voci-letteratura-V-lez14): serve la voce al piu' presto (entro ~22:00 UTC). Il resto lo faccio senza voce."
   }
  ],
  "domande_sara": [],
@@ -99,7 +103,11 @@
   {
    "quando": "24/11 08:19",
    "testo": "24/11: correzioni 23/11 fatte. Consegna sul ramo revisione-letteratura-V-lez14 (commit 46f5c6d): voci COMPITI e VER14 montate (schede non mute), volume -16,4/-16,8, jingle quiz OK, tempi rigenerati (P1 45:45, P2 47:03). RISERVE: mappa del prof ancora la vecchia (illeggibile, BES non fatta: il ramo aiuto non e' mai comparso), spiegone Parte 2 non fatto, controllo_rapido non terminato (troppo lento qui). Mi fermo."
+  },
+  {
+   "quando": "25/11 21:10",
+   "testo": "25/11 21:10 UTC: ripresa URGENTE. Faccio: P1 slide arg.2 (21:10-26:10), P2 spiegone (testo SPG_1 pushato: voce in arrivo), mappa in 3 schermate >=34px, compiti senza riquadro e in blu scuro, schede ripasso/glossario/riepilogo in blu scuro, pagine novelle piu' grandi. Consegna entro 22:40 UTC. Se la voce SPG_1 tarda, consegno senza spiegone e lo scrivo."
   }
  ],
- "aggiornato": "2026-11-24 08:19:21"
+ "aggiornato": "2026-11-25 21:10:40"
 }

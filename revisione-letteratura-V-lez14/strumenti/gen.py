@@ -2,7 +2,7 @@
 import html as H,re,os,base64
 B=os.path.dirname(os.path.abspath(__file__))
 LOGO='file://'+B+'/logo_blu.svg'; LOGOW='file://'+B+'/logo_bianco.svg'
-MAT='LETTERATURA ITALIANA V'; PROF='Prof. Giorgio Mazzotti'; PROFON=True
+MAT='LETTERATURA ITALIANA V'; PROF='Prof. Giorgio Mazzotti'; PROFON=True; DARK=False
 CSS="""
 @font-face{font-family:Bric;font-weight:800;src:url(file://%s/fonts/BricolageGrotesque-ExtraBold.ttf)}
 @font-face{font-family:Fig;font-weight:400;src:url(file://%s/fonts/Figtree-Regular.ttf)}
@@ -25,9 +25,13 @@ body{width:1920px;height:1080px;background:#fff;position:relative;overflow:hidde
 .band .n{font:800 36px/1.1 Bric;color:#0B1530;letter-spacing:-.3px}
 .band .r{font:700 21px/1.2 Fig;color:#0B1530;text-transform:uppercase;margin-top:6px;letter-spacing:.5px}
 """%((B,)*4)
+DARKCSS='''body{background:#0B1530;color:#fff}.tit{color:#fff}.lab{color:#FFE600}.hl{background:rgba(255,255,255,.22)}.foot{color:#9CC3FF}
+.card{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.22);box-shadow:none;color:#fff}.card b{color:#9CC3FF}.bar{background:#FFE600}
+.nc .n{background:rgba(255,255,255,.16);color:#fff}.nc.on{border:3px solid #FFE600}.nc.on .n{background:#FFE600;color:#0B1530}'''
 def page(body,pag=None,prof=True,foot=True,logo=True,extra=''):
+    if DARK: extra+=DARKCSS
     s='<!doctype html><html><head><meta charset="utf-8"><style>'+CSS+extra+'</style></head><body>'
-    if logo: s+=f'<img class="logo" src="{LOGO}"><div class="hl" style="top:124px"></div>'
+    if logo: s+=f'<img class="logo" src="{LOGOW if DARK else LOGO}"><div class="hl" style="top:124px"></div>'
     s+=body
     if prof: s+='<div class="box"></div><div class="band"><div class="n">Giorgio Mazzotti</div><div class="r">Prof. di Letteratura italiana</div></div>'
     if foot:

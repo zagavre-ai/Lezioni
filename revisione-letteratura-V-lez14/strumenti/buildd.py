@@ -27,16 +27,16 @@ def ensure_png(key,P,pages):
     elif kind=='cards':
         s=key['s'];tx=T[str(s)];its=tx[2:-1];p=key.get('part',0)
         sub=its[0:2] if p==0 else its[2:3];off=0 if p==0 else 2
-        h=gen.cards(key['lab'],tx[1],sub,key['c']-off,pag=key['pag'],start=off)
+        h=gen.cards(key['lab'],tx[1],sub,None if key['c'] is None else key['c']-off,pag=key['pag'],start=off)
     elif kind=='foto':
         h=gen.page(f'<div style="position:absolute;left:80px;top:146px"><div class="lab">{gen.E(key["lab"])}</div><div class="tit" style="margin-top:34px">Luigi Pirandello</div><div class="bar"></div></div><div class="card" style="position:absolute;left:80px;top:420px;width:380px;height:520px;padding:0;overflow:hidden"><img src="file:///tmp/w14/slide2_crop.jpg" style="width:100%;height:100%;object-fit:cover;object-position:top"></div>',key['pag'])
     if kind=='libro':
         import libro
         from PIL import Image
         sl=libro.SL[key['n']][key['i']];im=Image.open(f"/tmp/w14/ingr/Lez14/screen/Lez14_p{sl['p']}.png").convert('RGB')
-        cr=im.crop((sl['x0'],sl['y0'],sl['x1'],sl['y1']));k=min(1280/cr.width,690/cr.height);cr=cr.resize((int(cr.width*k),int(cr.height*k)),Image.LANCZOS)
+        cr=im.crop((sl['x0'],sl['y0'],sl['x1'],sl['y1']));k=min(1300/cr.width,725/cr.height);cr=cr.resize((int(cr.width*k),int(cr.height*k)),Image.LANCZOS)
         fn=f'/tmp/w14/build/libro_{nm}.jpg';cr.save(fn,quality=93)
-        h=gen.page(f'<div style="position:absolute;left:80px;top:146px;width:1305px"><div class="lab">{gen.E(key["lab"])}</div></div><div style="position:absolute;left:80px;top:230px;width:fit-content;max-width:1305px;border:5px solid #FFE600;border-radius:22px;padding:12px;background:#fff;box-shadow:0 14px 40px rgba(11,21,48,.08)"><img src="file://{fn}" style="display:block;border-radius:12px"></div>',key['pag'])
+        h=gen.page(f'<div style="position:absolute;left:80px;top:146px;width:1305px"><div class="lab">{gen.E(key["lab"])}</div></div><div style="position:absolute;left:80px;top:230px;width:fit-content;max-width:1305px;border:5px solid #FFE600;border-radius:22px;padding:6px;background:#fff;box-shadow:0 14px 40px rgba(11,21,48,.08)"><img src="file://{fn}" style="display:block;border-radius:12px"></div>',key['pag'])
     open(hp,'w',encoding='utf-8').write(h)
     return nm
 def compose(P,name,fin_start,dur,off,s0,f0,f1,pages,trim_s,out):

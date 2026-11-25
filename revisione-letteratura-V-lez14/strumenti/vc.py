@@ -1,7 +1,7 @@
 import json,sys,os,subprocess,wave,numpy as np
 sys.path.insert(0,'/tmp/w14/build');sys.path.insert(0,'/tmp/w14')
 import gen
-gen.PROFON=False
+gen.PROFON=False;gen.DARK=True
 E=gen.E
 ENC=['-c:v','libx264','-preset','veryfast','-crf','19','-pix_fmt','yuv420p','-r','30','-an','-x264-params','keyint=60:scenecut=0','-threads','2']
 def rd(f):
@@ -26,7 +26,7 @@ def page_html(k):
     elif k==5:
         body+='<div class="card nc on" style="font-size:40px;line-height:1.5;padding-top:24px;padding-bottom:24px"><div class="n">✓</div><div>Svolgi i compiti qui sotto e premi Consegna: arrivano al docente nel tuo quaderno dei compiti.</div></div>'
     body+='</div></div>'
-    return gen.page(body,32)
+    return gen.page(body,32,prof=False)
 for k in range(6): gen.scrivi(f'compiti_{k}',page_html(k))
 subprocess.run(['node','/tmp/w14/build/render.js','/tmp/w14/build/html','/tmp/w14/build/png'],check=True)
 bounds=[0]+[round((OFF+x)*30) for x in st]+[round((OFF+fin)*30),n_comp]

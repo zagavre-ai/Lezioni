@@ -39,7 +39,7 @@ def build(P,name,vname,kind):
     return eyebrow,title,items,t,d
 if __name__=='__main__':
     ENC=['-c:v','libx264','-preset','veryfast','-crf','19','-pix_fmt','yuv420p','-r','30','-an','-x264-params','keyint=60:scenecut=0','-threads','2']
-    gen.PROFON=False;PAG={1:12,2:12};made=[];PAGE_NEXT={}
+    gen.PROFON=False;gen.DARK=True;PAG={1:12,2:12};made=[];PAGE_NEXT={}
     for P in (1,2):
         TL=json.load(open(f'/tmp/w14/tl{P}.json'));os.makedirs(f'/tmp/w14/new{P}',exist_ok=True)
         pg=PAG[P]
