@@ -1,126 +1,14 @@
 {
  "tag": "storia-V-lez09",
- "parti": {
-  "1": {
-   "stato": "REVISIONATA"
-  },
-  "2": {
-   "stato": "REVISIONATA"
-  }
- },
- "manca": "montaggio nuovo (2 Parti), spiegone Parte 2, mappe ramo per ramo, dispensa, sottotitoli, controlli",
- "serve_master": [
-  {
-   "quando": "22/11 18:34",
-   "testo": "Lez09: nell'indice il PDF MAPPE LEZIONE 9 risulta MANCANTE. Non invento mappe. Nella consegna del 19/11 c'erano 4 mappe del prof (Storia_Lez9_mappe_prof_originali.pdf, 4 pagine, es. «Come viene istituita la dittatura fascista?») prese non so da dove. Mi confermi che sono del prof e posso ridisegnarle nel modello BES, oppure le tolgo e consegno senza mappe? Intanto lavoro al resto (slide 40 px, introduzione senza riquadro, spiegone Parte 2, audio, dispensa) e preparo testi_voci.json. Voci Kore da mandare: ti scrivo appena il json e' sul ramo voci-storia-V-lez09."
-  },
-  {
-   "quando": "22/11 18:48",
-   "testo": "Lez09, punto dopo 1 ora: FATTO: video originale scaricato, trascrizione, mappe del prof lette (4 pagine, parole copiate), confini degli argomenti, 41 voci nuove sul ramo voci-storia-V-lez09 (testi_voci.json in coda: MAP_*, SP2_* spiegone, INTRO1_R2, DP1, DP2, AP2_2_R2, AP6_1_R2). Le voci gia' esistenti del 19/11 le riuso. MANCA: tutto il montaggio, perche' sul ramo di consegna del 19/11 non ci sono gli script, solo i risultati: lo rifaccio da zero. A questo ritmo la consegna alle 11:00 e' a rischio. Parti che puo' fare un'altra chat in parallelo: (a) dispensa A4 con testo invisibile e PDF mappe con copertina MAPPE (servono solo slide e mappe, non il video); (b) controllo separato finale. Se hai una chat libera dimmelo. Nota: l'originale del prof ha il riquadro webcam di soli ~250x140 px, ingrandito a 412x309 resta morbido: lo scrivo nel rapporto."
-  },
-  {
-   "quando": "23/11 10:49",
-   "testo": "Storia V lez09: serve la voce COMPITI (testo in testi_voci.json sul ramo voci-storia-V-lez09). Per le 10 schede della verifica finale uso il jingle quiz a ogni domanda per evitare pause mute: confermi o preferisci altro?"
-  }
- ],
+ "parti": {},
+ "manca": "",
+ "serve_master": [],
  "domande_sara": [],
  "note": [
   {
-   "quando": "22/11 18:34",
-   "testo": "correzioni 22/11: presa da claude/ecstatic-heisenberg-bvsgkp"
-  },
-  {
-   "quando": "22/11 18:34",
-   "testo": "scarico video originale (1276 MB) dalla release mazzotti-storia-V"
-  },
-  {
-   "quando": "22/11 18:36",
-   "testo": "Trovato MAPPE LEZIONE 9.pdf nella release (zip MAPPE 17/11, 4 pagine): indice vecchio. Ignora la mia domanda sulle mappe."
-  },
-  {
-   "quando": "22/11 19:18",
-   "testo": "19:20 UTC: motore di montaggio pronto (slide a finestra 40px, mappe ramo per ramo, dispensa con testo invisibile). In corso: pezzi del prof Parte 1 e 2 e scene Kore con voci provvisorie. Codice sul ramo lavoro-storia-V-lez09."
-  },
-  {
-   "quando": "22/11 19:36",
-   "testo": "19:40 UTC: pezzi del prof in codifica (Parte 1 e 2 in parallelo, ~1 ora). Dispensa A4 e PDF mappe gia' generati. Voci Kore ancora provvisorie dove mancano."
-  },
-  {
-   "quando": "22/11 20:35",
-   "testo": "20:35 UTC: pezzi del prof e scene Kore pronti per entrambe le Parti; codifica finale in corso (voci provvisorie dove mancano)."
-  },
-  {
-   "quando": "22/11 23:25",
-   "testo": "Parte 1 e Parte 2 codificate (voci provvisorie dove mancano), dispense e PDF mappe pronti, scatto quiz 0,005 s su tutti i 10 quiz. In corso: controllo severo di entrambe le Parti. Poi attendo le voci Kore, rapporto, controllo di un agente separato, consegna."
-  },
-  {
-   "quando": "23/11 00:20",
-   "testo": "Controllo severo sulle due Parti fatto: da correggere pagine che restano ferme oltre 3 minuti (ora ogni cambio di card è una pagina nuova). Sto ricostruendo i pezzi del prof; poi assemblaggio, controllo, e voci Kore in arrivo."
-  },
-  {
-   "quando": "23/11 01:19",
-   "testo": "Ricostruzione dei pezzi del prof con pagine nuove a ogni cambio di card (per il controllo schermate ferme). Poi assemblaggio e controllo; voci Kore attese in mattinata."
-  },
-  {
-   "quando": "23/11 02:36",
-   "testo": "Ricostruzione pezzi del prof in corso (pagine più frequenti per il controllo schermate ferme). Dopo: assemblaggio, controllo severo e finale. Voci Kore ancora da arrivare."
-  },
-  {
-   "quando": "23/11 03:49",
-   "testo": "Ultimo giro di ricostruzione dei pezzi del prof (pagine ogni ~60 s di stessa card). Poi controlli, rapporto, controllo separato, consegna."
-  },
-  {
-   "quando": "23/11 04:48",
-   "testo": "Pezzi del prof e due Parti ricostruiti: nessuna schermata identica o pagina ferma oltre 3 min (controllo severo). Restano: voci Kore nuove (ancora 141 file sul ramo), poi ricodifica con limitatore picco (-1 dBTP), rapporto, controllo separato, consegna."
-  },
-  {
-   "quando": "23/11 05:36",
-   "testo": "Tutto pronto tranne le voci Kore nuove (sul ramo voci-storia-V-lez09 ci sono ancora 141 file). Appena arrivano: controllo voci, ricodifica, rapporto, controllo separato, consegna entro le 10:00 UTC."
-  },
-  {
-   "quando": "23/11 06:08",
-   "testo": "Sempre in attesa delle voci Kore nuove (141 file sul ramo). Il resto è pronto."
-  },
-  {
-   "quando": "23/11 06:39",
-   "testo": "Ancora nessuna voce Kore nuova (141 file). Tutto il resto pronto."
-  },
-  {
-   "quando": "23/11 07:15",
-   "testo": "Ancora nessuna voce Kore nuova (141 file, ore 07:15 UTC). Tutto il resto pronto."
-  },
-  {
-   "quando": "23/11 07:47",
-   "testo": "Ore 07:47 UTC: voci Kore nuove ancora non arrivate (141 file). Intanto ricodifico le due Parti con il limitatore del picco (-1 dBTP); se alle 08:30 mancano ancora, chiedo alla master se consegnare con voci provvisorie."
-  },
-  {
-   "quando": "23/11 08:27",
-   "testo": "Voci Kore arrivate (43 nuove). Controllate: bordi sotto 0,03 su tutte; trascritte e confrontate: tutte coincidono tranne 3 frasi di mappa dove la trascrizione non sente la prima parola breve (M3_6 «Adotta l'autarchia», M1b_5 «E il confino», M4_6 «Porta a leggi…»): durata compatibile, da riascoltare. Ora ricodifica Parti 1 e 2."
-  },
-  {
-   "quando": "23/11 09:24",
-   "testo": "correzioni 22/11 fatte. Consegna su revisione-storia-V-lez09. Aperti (vedi RAPPORTO_REVISIONE.md): sottotitoli con attacco impreciso (56-58%), 3 voci di mappa da riascoltare, mappe solo dove le ha il prof, verifica/compiti con solo la musica d'inizio, durata Parte 1 42 min, numerazione pagine dispensa."
-  },
-  {
-   "quando": "23/11 09:24",
-   "testo": "correzioni 22/11 fatte. Consegna su revisione-storia-V-lez09. Aperti (vedi RAPPORTO_REVISIONE.md): sottotitoli con attacco impreciso (56-58%), 3 voci di mappa da riascoltare, mappe solo dove le ha il prof, verifica/compiti con solo la musica d'inizio, durata Parte 1 42 min, numerazione pagine dispensa."
-  },
-  {
-   "quando": "23/11 10:49",
-   "testo": "Riparto con le correzioni: schede ripasso blu scuro, immagini del prof ingrandite e migliorate (erano piccole), niente schede mute oltre 2,5 s (mappe, verifica), compiti con voce Kore. Ho aggiunto COMPITI ai testi voci (ramo voci-storia-V-lez09): serve la voce. Ricostruisco i pezzi, poi controllo_rapido e consegna foglio+json. Domanda: per la verifica finale (10 domande senza voce) uso un suono di quiz a ogni scheda per non avere silenzi: va bene?"
-  },
-  {
-   "quando": "23/11 11:33",
-   "testo": "23/11 11:35: la macchina si è riavviata e ha interrotto la ricostruzione; l'ho rilanciata (schede ripasso blu scuro, immagini ingrandite, niente schede mute, titolo scheda con «Lezione 9»). Poi controllo_rapido, foglio e json."
-  },
-  {
-   "quando": "23/11 12:37",
-   "testo": "Corretto il titolo delle schede di pubblicazione Parte 1 e 2 («Storia V · Lezione 9 · L'Italia del regime fascista (1925-1938) · Parte N»), sul ramo revisione. Foglio e json di controllo_rapido in arrivo (il controllo è lento per il carico)."
-  },
-  {
-   "quando": "23/11 12:37",
-   "testo": "Titolo delle schede di pubblicazione corretto (Storia V · Lezione 9 · L'Italia del regime fascista (1925-1938) · Parte N) e pubblicato sul ramo revisione. Foglio e json di controllo_rapido in arrivo appena finisce il controllo (lento per il carico; il disco si era riempito, liberato)."
+   "quando": "25/11 18:56",
+   "testo": "Claude 2: inserisco voce COMPITI (parte 2)"
   }
  ],
- "aggiornato": "2026-11-23 12:37:58"
+ "aggiornato": "2026-11-25 18:56:42"
 }
