@@ -176,8 +176,8 @@ function tick(){if(!P.ready)return;var t=P.t(),now=Date.now(),dt=lastW?(now-last
  /* margine in base al tempo reale passato: regge anche quando il browser rallenta i controlli (scheda in secondo piano) */
  var tol=Math.max(2.5,dt*1.5+1.5);
  if(!open){var L=limit();
-  var M=DEMO?1e9:(S.max||0);if(!P.paused&&t>M&&t-M<tol)S.max=M=Math.min(t,L);
-  if(!DEMO&&t>M+tol+1){var c=Math.max(0,M-0.3);P.seek(c);t=c}
+  var M=(DEMO||CTRL)?1e9:(S.max||0);if(!P.paused&&t>M&&t-M<tol)S.max=M=Math.min(t,L);
+  if(!(DEMO||CTRL)&&t>M+tol+1){var c=Math.max(0,M-0.3);P.seek(c);t=c}
   for(var i=0;i<STOPS.length;i++){var s=STOPS[i];if(!passed(s.q)){if(t>=s.t-0.05){P.pause();if(t>s.t+0.5)P.seek(s.t);openQ(s.q,i)}break}}
   if(!P.paused){S.t=t;if(Math.random()<.2)save()}}
  var wasP=document.documentElement.classList.contains('paused'),isP=!!(P.paused&&!open);if(wasP&&!isP&&!open){var de=document.documentElement;de.classList.add('pzhold');clearTimeout(window.__pzT);window.__pzT=setTimeout(function(){de.classList.remove('pzhold')},4000)}document.documentElement.classList.toggle('paused',isP);lastT=t;$('sk').value=P.dur?Math.round(t/P.dur*1000):0;$('tm').textContent=fmt(t)+' / '+fmt(P.dur);$('pp').textContent=P.paused?'Play':'Pausa';subs(t)}
