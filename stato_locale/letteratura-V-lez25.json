@@ -1,0 +1,23 @@
+{
+ "tag": "letteratura-V-lez25",
+ "parti": {
+  "1": {
+   "stato": "IN_MONTAGGIO"
+  }
+ },
+ "manca": "",
+ "serve_master": [
+  {
+   "quando": "25/11 22:08",
+   "testo": "Manca COMPITI.wav sul ramo voci (testo gia in testi_voci.json): la scheda Compiti e muta 60 s, unico errore del controllo rapido. Quando arriva rimonto solo quel pezzo."
+  }
+ ],
+ "domande_sara": [],
+ "note": [
+  {
+   "quando": "25/11 22:08",
+   "testo": "25/11 23:07 correzione consegnata su revisione-letteratura-V-lez25: file Letteratura_Lez25_Parte1_1080p.mp4 (2 pezzi, sha256 a45480b3). Fatti: frase del prof intera a 27:28 (le frasi dell'Argomento 6 spostate sulla slide giusta), ordine 5/6 a 30:13, mappa OPERE completa ramo per ramo a 34 px, PDF e sottotitoli aggiornati. Nuovi secondi: Q5 1810,2; arg 6 1813,8; dal 30:41 tutto uguale."
+  }
+ ],
+ "aggiornato": "2026-11-25 22:08:59"
+}
