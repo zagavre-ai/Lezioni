@@ -9,6 +9,11 @@
   }
  ],
  "domande_sara": [],
- "note": [],
- "aggiornato": "2026-11-25 15:34:38"
+ "note": [
+  {
+   "quando": "25/11 16:28",
+   "testo": "Correzione urgente: mappa 50:55 rifatta e montata (pronta). Compiti 53:20: montaggio pronto, manca SOLO vox/COMPITI.wav (testo già in testi_voci.json, ramo voci-letteratura-V-lez17). Non arrivata in 45 min. Appena arriva: montaggio, controllo_rapido, consegna. Mi fermo."
+  }
+ ],
+ "aggiornato": "2026-11-25 16:28:13"
 }
