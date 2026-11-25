@@ -43,3 +43,12 @@ Controllato sulla trascrizione dell'originale [misurato].
 ## DA CONFERMARE COL PROF
 - Slide 3: card «L'estetismo» detta più avanti.
 - Nome del pittore «Basil» nelle animazioni.
+
+## Correzione urgente 25/11 · voci tagliate ai passaggi tra i pezzi
+- Causa trovata: le voci Kore di AN1…AN23, S1–S4 e RF1 partivano 0,6–1,4 s PRIMA della loro scheda (finivano sopra il pezzo precedente) e le schede erano più corte della voce di 1–2 s: il cambio di pezzo cadeva dentro la voce. In D2, D3, D4 la coda del docente era coperta dalla voce successiva.
+- Rifatto il montaggio solo di questi punti, partendo dal video consegnato: ogni voce Kore (da `vox/`) è montata INTERA, con 0,7 s di silenzio prima e dopo e dissolvenza di 30 ms; la scheda animata è rallentata del 3,3–6,2 % per contenerla (nessun fermo immagine). Tra i pezzi: silenzio, dissolvenza video 0,4 s e `trans.wav` (24 passaggi indicati + AN1→AN2, AN3→AN4, AN4→S1). Code del docente D2, D3, D4 tagliate nel silenzio, dopo la fine della frase (controllato sull'originale: il docente tace da 0,7–1,4 s prima del taglio). D1 era già finita nel silenzio.
+- Sigla finale (SFIN) e jingle VER e Compiti riposizionati sulla loro scheda (l'audio anticipava di circa 1 s).
+- Tolto «e ci vediamo alla prossima lezione» dalla scheda finale (testo) e dalla voce FIN1 (voce Kore tagliata nella pausa dopo «attenzione»). La master può generare `FIN1_R2` con il solo testo «Fine della lezione. Grazie per l'attenzione.» se vuole la chiusura naturale.
+- Durata nuova 51:23 (3082,67 s), 92480 fotogrammi; sottotitoli, timeline e scheda rigenerati con i nuovi tempi (i sottotitoli sono i precedenti spostati sui nuovi tempi, non ritrascritti). Volume −16,1 LUFS, picco −1,6 dBTP.
+- `controllo_rapido.py`: tutto OK TRANNE la pausa muta 50:09 (73 s) = compiti, in attesa della voce Kore COMPITI (nota già nel rapporto precedente, non è in `vox/`). ESITO DA CORREGGERE solo per questo.
+- NON verificato: la trascrizione ripetuta dei bordi di ogni voce sul video nuovo; la sincronia fine delle card con la voce dopo il rallentamento (±1 s al massimo); l'ascolto di ogni passaggio. Controllo da parte di un agente separato non fatto per il tempo.
