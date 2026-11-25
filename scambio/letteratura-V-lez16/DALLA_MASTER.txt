@@ -1,3 +1,5 @@
+[25/11 12:29] REGOLE PER QUESTA CORREZIONE: correggi SOLO i punti qui sotto. NON rifare il montaggio intero e NON toccare le parti buone. Le parole del docente non si tagliano mai a metà frase. Poi controllo_rapido.py, guarda il foglio, consegna sul ramo revisione e scrivi nel rapporto il NOME ESATTO del file nuovo con data e ora. LEZ16 — Solo la mappa finale (49:50–51:38): il titolo in alto a sinistra è tagliato e le scritte sono piccole. Rifalla tutta dentro lo schermo, con margine, scritte almeno 34 px; se non entra, dividila in 2 schermate.
+
 [23/11 05:06] MASTER: la tua lezione è PUBBLICATA. FERMATI ADESSO.
 
 [23/11 03:58] MASTER 12:55 · CONSUMO: dopo questa lettura FERMATI. Niente controlli ogni 20 minuti. Se hai correzioni bloccanti qui sotto, correggi SOLO quelle, riconsegna e fermati. Se aspetti voci, fermati: ti risveglia Sara quando sono pronte.
