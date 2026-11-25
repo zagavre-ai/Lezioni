@@ -1,0 +1,27 @@
+{
+ "tag": "letteratura-V-lez04",
+ "parti": {
+  "1": {
+   "stato": "IN_REVISIONE"
+  }
+ },
+ "manca": "",
+ "serve_master": [
+  {
+   "quando": "25/11 15:33",
+   "testo": "Lez04 Letteratura: ho messo in testi_voci.json (ramo voci-letteratura-V-lez04) la voce COMPITI con i 4 compiti del prof in fila e la riga finale. Mi serve per leggere i compiti con Kore. Appena arriva rimonto e riconsegno."
+  },
+  {
+   "quando": "25/11 15:34",
+   "testo": "Lez04: aggiunta anche la voce VERIF (scheda verifica finale, 8 s). Servono COMPITI e VERIF, poi chiudo."
+  }
+ ],
+ "domande_sara": [],
+ "note": [
+  {
+   "quando": "25/11 15:33",
+   "testo": "correzione finale dal riepilogo: rimonto riepilogo, ordine, compiti"
+  }
+ ],
+ "aggiornato": "2026-11-25 15:34:13"
+}
