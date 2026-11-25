@@ -1,7 +1,7 @@
 {
  "materia": "Letteratura italiana (V)",
  "titolo": "Letteratura V · Lezione 4 · Naturalismo e Verismo",
- "durata_s": 2933.17,
+ "durata_s": 2993.2,
  "argomenti": [
   {
    "n": 1,
@@ -249,55 +249,5 @@
     }
    ]
   }
- },
- "t_verifica": 2913.333,
- "t_compiti": 2929.667,
- "approfondimenti": [
-  {
-   "id": "AN01",
-   "titolo": "Il contesto: Positivismo e Taine",
-   "inizio_s": 539.8
-  },
-  {
-   "id": "AN02",
-   "titolo": "I precursori: Balzac e Flaubert",
-   "inizio_s": 629.1
-  },
-  {
-   "id": "AN04",
-   "titolo": "Zola: il romanzo sperimentale",
-   "inizio_s": 1271.5
-  },
-  {
-   "id": "AN05",
-   "titolo": "Intorno a Zola",
-   "inizio_s": 1078.667
-  },
-  {
-   "id": "AN07",
-   "titolo": "Dalla Francia all'Italia",
-   "inizio_s": 2048.5
-  },
-  {
-   "id": "AN08",
-   "titolo": "La poetica di Capuana",
-   "inizio_s": 2143.9
-  },
-  {
-   "id": "AN09",
-   "titolo": "Capuana, Serao, Aleramo: le opere",
-   "inizio_s": 2205.7
-  },
-  {
-   "id": "AN10",
-   "titolo": "La mappa del Verismo (mappa del professore)",
-   "inizio_s": 2285.167
-  },
-  {
-   "id": "AN11",
-   "titolo": "Flaubert e Madame Bovary",
-   "inizio_s": 2717.567
-  }
- ],
- "descrizione": "Il Naturalismo francese (Positivismo, Taine, Balzac e Flaubert, Zola e Il romanzo sperimentale) e il Verismo italiano (Capuana, Verga, Serao, Aleramo). Spiegazione del prof. Giorgio Mazzotti con slide, approfondimenti, schemi, quiz di verifica per argomento, glossario e riepilogo."
+ }
 }

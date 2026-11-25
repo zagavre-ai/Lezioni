@@ -1,3 +1,16 @@
+# RAPPORTO · Letteratura V lez 4 · CORREZIONE DEL FINALE (25/11/2026 21:26 UTC)
+**File nuovo:** `Letteratura_Lez4_Parte1_1080p.mp4` (a pezzi `.parte_00`–`.parte_02`, sha256 `90d414c4cdeb7a156bbe3854c2a9a4d3ac664d3c8a9adb004985c5d367976b2b`), ricodificato il 25/11/2026 alle 21:26 UTC. Durata 49:53,2 (2993,2 s), 89796 fotogrammi = durata × 30, 202 MB, 1920×1080.
+Rimontato SOLO il finale da 47:59 (inizio del riepilogo, 2879,6 s); testa del video **copiata senza ricodificare** (taglio su fotogramma chiave, nessuna parola del prof toccata, sottotitoli `.vtt` invariati).
+1. **Riepilogo** rifatto a tutto schermo, blu scuro, testo 40 px: titolo + 4 card intere, ognuna si accende (bordo e pallino gialli) quando la voce comincia la frase; sparita la riga «Prossima lezione: Giovanni Verga», **tagliata anche dall'audio** (voce RF1 tagliata a 28,2 s, nel silenzio dopo «…discorso indiretto libero.»).
+2. **Ordine del finale:** glossario → riepilogo → verifica → sigla finale con avviso diritti → intro «Compiti» (3,6 s con jingle) → compiti letti dalla voce Kore (`COMPITI`, un compito alla volta con bordo giallo, riga finale «Svolgi i compiti qui sotto e premi Consegna…» a voce e sullo schermo). Scheda verifica con la voce `VERIF`.
+3. **Tolta** la scheda bianca muta «Grazie per l'attenzione».
+4. **Transizioni:** dissolvenza di 0,4 s + `trans.wav` a ogni cambio; nessuna scheda breve (riepilogo 30,4 s, verifica 13 s, intro Compiti 3,6 s, compiti 63 s). Nessuna «banda blu»/onda a barre.
+5. **Mappa finale: NON aggiunta.** Il prof ha una sola mappa («Il Verismo»), già costruita nell'argomento 3; ripeterla sarebbe «già visto». Se la master la vuole lo dica.
+6. `timeline_Parte1.json` e `scheda_pubblicazione_Parte1.json` (e le copie senza «Parte1») rigenerati sul video finale.
+7. **controllo_rapido.py: ESITO OK** (nessun errore, pause mute: nessuna, −16,7 LUFS, picco −2,1 dBTP). Foglio guardato a vista: coda blu, nessun nome del prof nel piè di pagina. Un primo giro dava picco −0,9 dBTP: corretto con un limitatore sull'audio, poi rifatto il controllo.
+**Non verificato:** nessun ascolto umano delle voci `COMPITI` e `VERIF`. La trascrizione automatica legge «Flabert», «The Rougon Makar», «1 domande» (per «dieci») e «Spondi?»: probabili errori del riconoscitore, da controllare all'orecchio. Controllo con agente separato non rifatto (correzione locale). Resta com'era la scheda di ripasso bianca a 46:46 (non toccata, fuori dai punti richiesti).
+
+---
 # RAPPORTO DI REVISIONE · Letteratura italiana V · Lezione 4 «Naturalismo e Verismo» — correzioni 22/11
 Ramo `revisione-letteratura-V-lez04` · versione del 23/11 (dopo le due correzioni della master del 22/11 20:15 e 20:45). Ogni dato è etichettato **misurato** / **non verificato**.
 
