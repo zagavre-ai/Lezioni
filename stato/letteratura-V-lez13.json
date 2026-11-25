@@ -3,6 +3,9 @@
  "parti": {
   "1": {
    "stato": "REVISIONATA"
+  },
+  "2": {
+   "stato": "REVISIONATA"
   }
  },
  "manca": "",
@@ -12,7 +15,11 @@
   {
    "quando": "25/11 17:21",
    "testo": "correzione urgente 25/11: AN rifatti, slide P1 divisa, controllo rapido OK"
+  },
+  {
+   "quando": "25/11 17:21",
+   "testo": "correzione urgente 25/11: AN rifatti, slide P1 divisa, controllo rapido OK"
   }
  ],
- "aggiornato": "2026-11-25 17:21:04"
+ "aggiornato": "2026-11-25 17:21:07"
 }
