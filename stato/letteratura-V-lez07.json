@@ -1,105 +1,14 @@
 {
  "tag": "letteratura-V-lez07",
- "parti": {
-  "1": {
-   "stato": "REVISIONATA",
-   "voci": "kore",
-   "quiz_ok": "si",
-   "fermi_ok": "si",
-   "sub_ok": "no",
-   "video": "Letteratura_Lez7_Parte1_1080p.mp4",
-   "durata_s": 3038.0,
-   "durata": "50:38.0",
-   "fotogrammi": 91141,
-   "fotogrammi_attesi": 91141,
-   "peso_MB": 181.9,
-   "vtt": "Letteratura_Lez7_Parte1.vtt"
-  }
- },
+ "parti": {},
  "manca": "",
- "serve_master": [
-  {
-   "quando": "22/11 17:05",
-   "testo": "lez 7: in attesa delle voci P1..P10 (mappa del prof letta ramo per ramo, testi_voci.json sul ramo voci-letteratura-V-lez07, pushate 16:37 UTC). Tutto il resto del montaggio e' pronto; appena arrivano chiudo (circa 30 min)."
-  }
- ],
+ "serve_master": [],
  "domande_sara": [],
  "note": [
   {
-   "quando": "16/11 18:17",
-   "testo": "chat revisione 7"
-  },
-  {
-   "quando": "16/11 23:23",
-   "testo": "consegna prevista 06:30 (ora italiana, 17/11) - stima"
-  },
-  {
-   "quando": "16/11 23:26",
-   "testo": "20min: R5,R11,R19,R24,RF inviate (mappe del prof); trascrizione in corso; consegna prevista 06:30"
-  },
-  {
-   "quando": "16/11 23:36",
-   "testo": "00:40 IT: grafica Spagnolo pronta (slide col prof, animazioni, copertine); ora montaggio. Consegna prevista 06:30 (ora italiana)"
-  },
-  {
-   "quando": "16/11 23:48",
-   "testo": "00:55 IT: montaggio in corso (pezzi grafici pronti, audio del prof rifatto dall'originale, tagli delle ripetizioni al passaggio D3/D4). Consegna prevista 06:30 (ora italiana)"
-  },
-  {
-   "quando": "16/11 23:57",
-   "testo": "00:57 IT: pezzi del video in codifica (D1,D2 ok; D3/D4 a blocchi per memoria); VTT, PDF slide/mappe, verifica, compiti pronti; in attesa voci M5/M11/M19/M24/MF (mappe del prof, testi piu' lunghi). Consegna prevista 06:30 (ora italiana)"
-  },
-  {
-   "quando": "17/11 00:12",
-   "testo": "01:12 IT: pezzi D1-D4 (prof con riquadro 4:3 e fascia) e animazioni pronti; ricodifica finale in corso; attese 2 voci (M5b, M19b). Consegna prevista 06:30 (ora italiana)"
-  },
-  {
-   "quando": "17/11 07:29",
-   "testo": "08:29 IT: consegna prevista 09:30 (ora italiana). Applico regole 00:40-08:15: pezzi del prof a fine frase, card gialla, ombre grigie, niente fermo immagine, jingle, sincronia"
-  },
-  {
-   "quando": "17/11 08:33",
-   "testo": "09:33 IT: REVISIONATA su revisione-letteratura-V-lez07. Restano 5 silenzi >3 s (vedi rapporto §5); sottotitoli non riascoltati"
-  },
-  {
-   "quando": "17/11 17:18",
-   "testo": "18:18 IT: correggo titolo slide pag. 19 (a capo, a sinistra del riquadro); ricodifica pezzo D3; consegna prevista entro 19:00 (ora italiana)"
-  },
-  {
-   "quando": "17/11 17:34",
-   "testo": "18:34 IT: titolo pag. 19 corretto e riconsegnato su revisione-letteratura-V-lez07"
-  },
-  {
-   "quando": "22/11 16:35",
-   "testo": "correzioni 22/11: presa da revisione-letteratura-V-lez07; consegna prevista 19:15 UTC (20:15 IT)"
-  },
-  {
-   "quando": "22/11 16:42",
-   "testo": "16:42 UTC: rifatte slide (max 3 card, testo 40 px, nessun titolo >180 s), una sola mappa del prof in colori BES (voci P1-P10 chieste alla master), via 4 mappe nostre; codifica in corso. Consegna prevista 19:15 UTC"
-  },
-  {
-   "quando": "22/11 17:49",
-   "testo": "17:49 UTC: video nuovo 51:12 (-16,3 LUFS, picco -1,4); in corso controllo severo e rapporto; consegna prevista 19:00 UTC"
-  },
-  {
-   "quando": "22/11 18:20",
-   "testo": "18:20 UTC: dopo controllo indipendente correggo: ritratti non sotto il riquadro, compiti dentro il video, nome docente non nei piè di pagina, card non sole; ricodifica in corso; consegna prevista 19:20 UTC"
-  },
-  {
-   "quando": "22/11 19:19",
-   "testo": "correzioni 22/11 fatte (19:25 UTC): controllo severo NON completato; restano silenzi >2,5 s e compiti senza voce, vedi rapporto"
-  },
-  {
-   "quando": "23/11 10:52",
-   "testo": "10:52 UTC: correzioni 23/11 in corso: tolgo le pause mute (schede accorciate), compiti con voce COMPITI (testo pushato, in attesa della voce), Controlla al posto di Check; poi controllo_rapido"
-  },
-  {
-   "quando": "23/11 11:37",
-   "testo": "11:37 UTC: consegnata, controllo_rapido OK salvo i compiti (pausa muta 73 s): attendo la voce COMPITI"
+   "quando": "25/11 16:37",
+   "testo": "Claude 2: correzione punti elenco"
   }
  ],
- "materia": "Letteratura italiana V",
- "lezione": "Lezione 7",
- "docente": "Prof. Giorgio Mazzotti",
- "aggiornato": "2026-11-23 11:37:12"
+ "aggiornato": "2026-11-25 16:37:24"
 }
