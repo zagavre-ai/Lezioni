@@ -6,7 +6,12 @@
   }
  },
  "manca": "",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "25/11 21:08",
+   "testo": "Lez7 riconsegnata (file Letteratura_Lez7_Parte1_1080p.mp4, 25/11 18:34 UTC). Mancano 2 voci Kore: AN23_R2 (AN23.wav troncata nel file, ultimi 50 ms a 0,12; testo gia in testi_voci.json su voci-letteratura-V-lez07) e COMPITI (pausa muta 73 s a 50:09). Opzionale FIN1_R2: 'Fine della lezione. Grazie per l'attenzione.'"
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
@@ -14,5 +19,5 @@
    "testo": "Correzione 25/11: voci intere ai 24 passaggi, dissolvenze+trans, tolta frase finale. Resta solo pausa muta compiti (manca voce COMPITI)"
   }
  ],
- "aggiornato": "2026-11-25 18:37:59"
+ "aggiornato": "2026-11-25 21:08:34"
 }
