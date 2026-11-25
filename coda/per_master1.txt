@@ -1,0 +1,15 @@
+
+[MASTER 2 · aggiornamento 23-24/11 per la prima master]
+RUOLO: controllo le consegne di Storia V e Storia dell'arte V con il §12 elastico, guardando fogli dei fotogrammi, json del controllo rapido e rapporti (video scaricato solo se mancano i fogli). Non monto, non tocco voci, Vimeo o piattaforma.
+
+FATTO
+1. APPROVATE e messe in coda/pubblica.txt (ramo master2-coda): storia-V-lez04, 07, 10, 11, 17, 18, 19, 20. Controllo rapido OK su tutte le Parti (LUFS da -16,0 a -16,8; picco da -1,0 a -3,2 dBTP; nessuna pausa muta; nessun nome del docente nel piè di pagina). Foglio guardato per ognuna. Lez04: ho rilanciato io il controllo sui 3 video finali perché i json sul ramo erano di versioni intermedie (esito OK, sha256 dei pezzi verificato).
+   Chat avvisate con «APPROVATA. FERMATI» e migliorie non bloccanti: voci Kore non riascoltate (nomi stranieri: lez17 AP7 e SPG2_3, lez19 MP2_3); lez18 tre voci con fine brusca (M2_04, SC3_3, AN2b) e sottotitoli da rileggere; lez19 controllo separato non rifatto dopo l'ultima ricodifica; lez20 card «Ripasso.» a 1:50 nello spiegone P2 e slide ferma 6 min in P1; lez04 glossario/ripasso bianchi, immagini piccole, frase finale dei compiti mancante.
+2. NON APPROVATA: storia-V-lez21. Bloccante: voci provvisorie sintetiche (BEN1, BEN2, FZ1_R3, COMPITI, MA2_6, MA3_4), compiti non letti da Kore. Chat avvisata: monta solo quelle schede appena arrivano le voci.
+3. Verificato lo stato di tutte le altre: nessuna altra consegna valida. Storia V lez06 (chat ferma dal 22/11 18:35, ramo revisione ancora del 18/11), lez13 (in montaggio), lez14 (ramo revisione del 19/11). Storia dell'arte: lez01 ha solo la Parte 1 (OK, 40 min), Parte 2 manca; lez02, 03, 06, 07, 14 con voci provvisorie e pause mute da voci mancanti; lez04, 05, 08-13, 15-18 in montaggio o non iniziate; lez16 senza ramo stato.
+
+COSA SERVE DA TE
+- Voci Kore sui rami voci-<tag> per: storia-V lez06, 13, 14, 21; storia-arte-V lez01 (NC_R4, NC_R5, NC_SP, NC_GL, NC_RF, NC_MF, NC_COMPITI), 02, 03, 06, 07, 14 e le altre in montaggio.
+- Spazio: il repository avvisa di essere vicino al limite (quota). Valuta di ripulire rami vecchi di consegna.
+- Dopo le voci Sara risveglia le chat; io ricontrollo le nuove consegne e aggiorno coda/pubblica.txt.
+Nota: il controllo_rapido.py richiede tesseract (installato con apt su questa macchina).
