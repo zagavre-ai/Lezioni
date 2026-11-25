@@ -6,7 +6,12 @@
   }
  },
  "manca": "",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "25/11 21:16",
+   "testo": "LEZ19: il riquadro del docente NON è vuoto nel file sul ramo revisione (Letteratura_Lez19_Parte1_1080p.mp4, sha256 0c7c89ce…ef36c, del 22/11 18:37 UTC). Fotogramma ogni 30 s su tutti i pezzi D: 61 su 61 con il docente; presente anche a 5:46, 13:16, 23:33, 36:53 (foglio riquadro_docente_ogni30s.png sul ramo). Probabile che Sara guardi un'altra copia (Vimeo o versione del 17/11): confrontare l'sha256 del file caricato. Nessun file nuovo consegnato. Restano bianche (non bloccante) le schede di ripasso e il glossario: per farle blu scuro serve il generatore delle schede, qui non c'è. Dimmi se vuoi che le rifaccia e da dove parto."
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
@@ -14,5 +19,5 @@
    "testo": "25/11: riquadro docente controllato su tutta la lezione, nessun tratto vuoto; video invariato; controllo rapido ESITO OK"
   }
  ],
- "aggiornato": "2026-11-25 15:45:10"
+ "aggiornato": "2026-11-25 21:16:00"
 }
