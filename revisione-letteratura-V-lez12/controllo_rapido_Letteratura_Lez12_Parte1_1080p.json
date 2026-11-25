@@ -1,0 +1,55 @@
+{
+ "video": "Letteratura_Lez12_Parte1_1080p.mp4",
+ "durata_min": 55.47,
+ "formato": "1920x1080 30/1",
+ "peso_MB": 329,
+ "LUFS": -16.8,
+ "picco_dBTP": -1.5,
+ "pause_mute": [
+  "2:24 (3.1 s)",
+  "10:19 (3.1 s)",
+  "18:33 (3.0 s)",
+  "27:31 (2.5 s)",
+  "28:14 (3.1 s)",
+  "34:49 (2.5 s)",
+  "36:46 (2.7 s)",
+  "37:44 (2.8 s)",
+  "39:27 (3.0 s)",
+  "51:13 (2.5 s)",
+  "52:03 (2.6 s)"
+ ],
+ "nome_docente_nel_pie_di_pagina": [
+  "0:15",
+  "0:30",
+  "0:45",
+  "1:00",
+  "1:15",
+  "1:30",
+  "1:45",
+  "2:00",
+  "2:15",
+  "2:30",
+  "2:45",
+  "3:00",
+  "3:15",
+  "3:30",
+  "3:45",
+  "4:00",
+  "4:15",
+  "4:30",
+  "4:45",
+  "5:00"
+ ],
+ "schede_con_fasce": [],
+ "schermate_ferme_oltre_3_min": [],
+ "titolo_in_copertina": "5/5 parole",
+ "foglio": "foglio_fotogrammi_Letteratura_Lez12_Parte1_1080p.jpg",
+ "ERRORI": [
+  "11 pause mute oltre 2,5 s: 2:24 (3.1 s), 10:19 (3.1 s), 18:33 (3.0 s), 27:31 (2.5 s), 28:14 (3.1 s), 34:49 (2.5 s), 36:46 (2.7 s), 37:44 (2.8 s), 39:27 (3.0 s), 51:13 (2.5 s), 52:03 (2.6 s)",
+  "nome del docente nel piè di pagina (196 fotogrammi, es. 0:15, 0:30, 0:45, 1:00)"
+ ],
+ "DA_GUARDARE": [
+  "Apri il foglio dei fotogrammi e controlla con gli occhi: fondo bianco; schede di titolo/quiz/ripasso in BLU SCURO a tutto schermo; card a 40 px e intere; nessun nome del docente fuori dalla fascia gialla; riquadro del docente giusto (Mazzotti 4:3, Caputi tondo); copertina con il titolo esatto; mappe del prof con la legenda BES; in fondo sigla finale con l'avviso dei diritti e intro «Compiti»."
+ ],
+ "ESITO": "DA CORREGGERE"
+}
