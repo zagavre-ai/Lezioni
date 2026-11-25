@@ -3,24 +3,24 @@
  "parti": {
   "1": {
    "titolo": "Pirandello · Parte 1",
-   "stato": "IN_MONTAGGIO",
+   "stato": "REVISIONATA",
    "video": "finale.mp4",
    "durata_s": 2745.4,
    "durata": "45:45.4",
    "fotogrammi": 82362,
    "fotogrammi_attesi": 82362,
-   "peso_MB": 307.3,
+   "peso_MB": 305.8,
    "vtt": "Letteratura_Lez14_Parte1.vtt"
   },
   "2": {
    "titolo": "Pirandello · Parte 2",
    "stato": "REVISIONATA",
    "video": "finale.mp4",
-   "durata_s": 2823.4,
-   "durata": "47:03.4",
-   "fotogrammi": 84702,
-   "fotogrammi_attesi": 84702,
-   "peso_MB": 326.3
+   "durata_s": 2826.9,
+   "durata": "47:06.9",
+   "fotogrammi": 84808,
+   "fotogrammi_attesi": 84808,
+   "peso_MB": 315.5
   }
  },
  "manca": "controllo severo, slide a 40px/max 3 card, mappa BES con voce, fettine che cambiano, volume -16, dispense con testo invisibile",
@@ -40,6 +40,10 @@
   {
    "quando": "25/11 21:10",
    "testo": "Lez14: ho pushato SPG_1 in testi_voci.json (ramo voci-letteratura-V-lez14): serve la voce al piu' presto (entro ~22:00 UTC). Il resto lo faccio senza voce."
+  },
+  {
+   "quando": "25/11 22:01",
+   "testo": "Lez14: SPIEGONE Parte 2 NON montato: la voce SPG_1 (testo pushato 21:10 UTC, commit 4157c63 su voci-letteratura-V-lez14) non e' arrivata entro le 22:00 UTC. Il montaggio e' pronto (strumenti/spg25.py): quando c'e' SPG_1.wav mi serve un messaggio di Sara e rimonto in ~25 min."
   }
  ],
  "domande_sara": [],
@@ -107,7 +111,11 @@
   {
    "quando": "25/11 21:10",
    "testo": "25/11 21:10 UTC: ripresa URGENTE. Faccio: P1 slide arg.2 (21:10-26:10), P2 spiegone (testo SPG_1 pushato: voce in arrivo), mappa in 3 schermate >=34px, compiti senza riquadro e in blu scuro, schede ripasso/glossario/riepilogo in blu scuro, pagine novelle piu' grandi. Consegna entro 22:40 UTC. Se la voce SPG_1 tarda, consegno senza spiegone e lo scrivo."
+  },
+  {
+   "quando": "25/11 22:01",
+   "testo": "25/11 22:00 UTC: correzioni urgenti consegnate (commit c42093e su revisione-letteratura-V-lez14). File: Letteratura_Lez14_Parte1_1080p.mp4 (sha256 657fceb7...) e Parte2 (sha256 f33643fd...). Fatto: slide arg.2 P1, mappa in 3 schermate BES con voce, compiti senza riquadro in blu scuro, schede ripasso/glossario/riepilogo blu scuro, novelle senza note e piu' grandi. NON fatto: spiegone (manca la voce SPG_1), controllo_rapido (troppo lento qui). Dettagli nel RAPPORTO. Mi fermo."
   }
  ],
- "aggiornato": "2026-11-25 21:10:40"
+ "aggiornato": "2026-11-25 22:01:03"
 }
