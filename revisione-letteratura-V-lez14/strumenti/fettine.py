@@ -11,7 +11,7 @@ def lines(p):
     L.sort();return L
 def slices(p,maxh=620):
     im=Image.open(f'/tmp/w14/ingr/Lez14/screen/Lez14_p{p}.png');W,H=im.size
-    L=[l for l in lines(p) if 150<l[0]<H-130 and (l[3]-l[2])>200]   # via intestazione e piede
+    L=[l for l in lines(p) if 150<l[0]<H-130 and (l[3]-l[2])>200 and (l[1]-l[0])>=36]   # via intestazione e piede
     # righe della colonna principale: cerco i salti verticali piu grandi
     out=[];cur=[]
     for l in L:
@@ -22,6 +22,7 @@ def slices(p,maxh=620):
     for c in out:
         y0=max(0,min(l[0] for l in c)-14);y1=min(H,max(l[1] for l in c)+14)
         xs=[(l[2],l[3]) for l in c if l[3]-l[2]>300]
+        if not xs: continue
         x0=min(a for a,b in xs)-30;x1=max(b for a,b in xs)+30
         if p>=533 and len(S)+len(out)>=0: pass
         S.append({'p':p,'y0':int(y0),'y1':int(y1),'x0':int(max(0,x0)),'x1':int(min(W,x1)),'testo':' '.join(l[4] for l in c)})

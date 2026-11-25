@@ -17,7 +17,7 @@ for n in REDO:
         if P==2 and s==48: s=1
         if s==1: key={'k':'cover','P':P}
         elif s==2: key={'k':'foto','lab':buildd.label(P,2,a),'pag':pg('2')}
-        elif s in('C','B'): key={'k':'libro','v':2,'n':s,'i':c,'lab':buildd.label(P,s,a),'pag':pg(s)}
+        elif s in('C','B'): key={'k':'libro','v':3,'n':s,'i':c,'lab':buildd.label(P,s,a),'pag':pg(s)}
         else:
             part=0 if c in (None,0,1) else 1
             key={'k':'cards','s':s,'c':c,'part':part,'lab':buildd.label(P,s,a),'pag':pg(f'{s}_{part}')}

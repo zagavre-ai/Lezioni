@@ -73,6 +73,11 @@ for i,(n,f0,f1) in enumerate(old):
             nf=json.load(open('/tmp/w14/vc/meta.json'))['R1']['frames'];vf='/tmp/w14/vc/R1.mp4'
         elif not os.path.exists(vf): sh(['ffmpeg','-v','error','-y','-loop','1','-framerate','30','-t',f'{nf/30:.3f}','-i','/tmp/w14/build/png/mappa_prof.png','-frames:v',str(nf),*ENC,vf])
         addpiece('R1',vf,nf,R,gapf,gapaud,'R1',0)
+    elif P==2 and n=='INTRO1' and 'SPG' in json.load(open('/tmp/w14/vc/meta.json')) and not os.path.exists(f'{W}/spgdone'):
+        M=json.load(open('/tmp/w14/vc/meta.json'))['SPG'];w3=wave.open(M['wav']);aa=np.frombuffer(w3.readframes(w3.getnframes()),np.int16).reshape(-1,2);w3.close()
+        addpiece('SPG','/tmp/w14/vc/SPG.mp4',M['frames'],aa,gapf,gapaud,'SPG',0)
+        open(f'{W}/spgdone','w').close()
+        newf=f'/tmp/w14/new{P}/INTRO1_np.mp4';addpiece(n,newf,f1-f0,A[f0*1600:f1*1600],gapf,gapaud,n,TL[i][1])
     elif P==2 and os.path.exists('/tmp/w14/vc/meta.json') and n in json.load(open('/tmp/w14/vc/meta.json')):
         M=json.load(open('/tmp/w14/vc/meta.json'))[n];w3=wave.open(M['wav']);aa=np.frombuffer(w3.readframes(w3.getnframes()),np.int16).reshape(-1,2);w3.close()
         addpiece(n,f'/tmp/w14/new2/{n}.mp4',M['frames'],aa,gapf,gapaud,n,TL[i][1])

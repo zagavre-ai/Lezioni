@@ -1,3 +1,28 @@
+# CORREZIONE URGENTE 25/11/2026 (consegna ~22:00 UTC)
+**File nuovi (nomi esatti, a pezzi da 90 MB con sha256):**
+- `Letteratura_Lez14_Parte1_1080p.mp4` (sha256 `657fceb7e9bffd1bc321e260506a8f68939b0b0127c7ca75c7c74f4457b6120d`)
+- `Letteratura_Lez14_Parte2_1080p.mp4` (sha256 `f33643fd910be10c8a15e70e4b9eca902b1974d33aa694b84a857d2dcba9d26f`)
+- `Letteratura_Lez14_mappe.pdf` (copertina «MAPPE» + 3 schermate della mappa + mappa intera), `.vtt`, `scheda_pubblicazione_parte*.json`, `timeline_parte*.json` rigenerati.
+
+**Punti della master:**
+1. **Parte 1, argomento 2 (da 21:10 a 26:10 circa):** ora la slide è quella del prof che corrisponde a quello che dice: la card «3 · L'umorismo come chiave» (invece delle card 1–2 della crisi). Resta un'unica card per tutto il tratto (non bloccante).
+2. **Parte 2, spiegone della Parte 1: NON FATTO.** Ho mandato il testo `SPG_1` in `testi_voci.json` (ramo `voci-letteratura-V-lez14`, commit `4157c63`) alle 21:10 UTC, ma la voce **non era arrivata alle 22:00 UTC**. Il montaggio dello spiegone (4 slide di ripasso scure, una per argomento, con le card che si accendono dalla voce) è **già pronto** (`strumenti/spg25.py`): appena c'è `SPG_1.wav` si monta in circa 25 minuti.
+3. **Mappa finale (41:29 → 43:35 nel video):** divisa in **3 schermate** (vita · introduzione e tematiche · opere), colori BES con legenda, riquadri che compaiono uno alla volta mentre la voce li legge con anello giallo, poi mappa intera ferma 4 s. **Testo delle caselle 30–34 px: non tutte ≥ 34 px** (le sotto-caselle sono a 30 px). La voce è la R1 (anni detti in cifre; non rifatta).
+4. **Compiti:** senza riquadro del prof, in **blu scuro a tutto schermo**, uno alla volta con bordo giallo mentre la voce Kore li legge (pagina 35).
+5. **Pagine delle novelle:** le fettine ora prendono **solo il testo del brano** (escluse le note a piè di pagina, che avevano testo minuscolo); passo di riga ≈ 40 px. **Limite:** in alcuni punti la prima o l'ultima riga della fettina è tagliata a metà.
+6. **Schede in blu scuro a tutto schermo** (ripasso, glossario, riepilogo, compiti), senza «bande blu», piè di pagina senza nome del docente.
+
+**Misure sul video nuovo (misurato):**
+| | Parte 1 | Parte 2 |
+|---|---|---|
+| Durata | 45:45 (82 362 fotogrammi) | 47:07 (84 808 fotogrammi) |
+| Volume | −16,4 LUFS · picco −2,9 dBTP | −16,8 LUFS · picco −2,3 dBTP |
+| Jingle Quiz a 0,0 s | Q1–Q4 OK | Q1–Q6 OK |
+| Silenzi > 2,5 s | 2,8 s e 2,55 s a fine pillola S2/S4 | 4,4 s dopo la mappa (mappa intera ferma) e 4,2 s a inizio Verifica: nessuno oltre 5 s |
+| Peso | 306 MB | 315 MB |
+**Non fatto / non verificato:** `controllo_rapido.py` non terminato in questo ambiente (oltre un'ora per Parte): niente foglio né json; ho guardato a vista 6 fotogrammi (argomento 2 P1, compiti, mappa, due pagine di novelle, schema di ripasso scuro). Il PDF delle slide non contiene le nuove pagine (compiti, mappa). Le voci COMPITI, VER14 e R1 non sono state ascoltate. 4 tratti di schermata identica oltre 3 minuti in Parte 1 (non bloccanti).
+
+---
 # AGGIORNAMENTO 24/11 (consegna finale su richiesta della master)
 **Cosa ho fatto ora:** montate le voci Kore **COMPITI** (74,6 s) e **VER14** (9,1 s) arrivate dalla master. I 4 compiti del prof compaiono **uno alla volta con il bordo giallo** mentre la voce li legge con le sue parole; chiusura «Svolgi i compiti qui sotto e premi Consegna…». La scheda Verifica ha ora la voce («premi Controlla, poi Continua»). Le due schede non sono più mute oltre 5 s (misurato).
 **Misure sul video nuovo (misurato):**

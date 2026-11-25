@@ -8,7 +8,7 @@ COL={'c':('#FFDCC6','#C2410C'),'cel':('#DCEEFB','#1D4ED8'),'pag':('#FFF3BF','#A1
 LEG='<div style="position:absolute;right:60px;top:24px;display:flex;gap:16px;font:600 20px Fig;color:#0B1530">'+''.join(f'<span style="display:flex;align-items:center;gap:6px"><i style="display:inline-block;width:24px;height:18px;background:{COL[k][0]};border:3px solid {COL[k][1]};border-radius:4px"></i>{t}</span>' for k,t in (('c','concetto centrale'),('cel','date e sequenze'),('pag','parole chiave'),('men','esempi e opere'),('lil','conseguenze')))+'</div>'
 def box(x,y,w,h,t,k,fs=34,active=False,big=False):
     f,b=COL[k];ring='box-shadow:0 0 0 7px #FFE600;' if active else ''
-    return f'<div style="position:absolute;left:{x}px;top:{y}px;width:{w}px;height:{h}px;box-sizing:border-box;display:flex;align-items:center;justify-content:center;text-align:center;padding:8px 18px;border-radius:16px;background:{f};border:5px solid {b};color:#0B1530;font:{"800 52px Bric" if big else f"600 {fs}px/1.3 Fig"};{ring}">{t}</div>'
+    return f'<div style="position:absolute;left:{x}px;top:{y}px;width:{w}px;height:{h}px;box-sizing:border-box;display:flex;align-items:center;justify-content:center;text-align:center;padding:8px 18px;border-radius:16px;background:{f};border:5px solid {b};color:#0B1530;font:{"800 52px Bric" if big else f"600 {fs}px/1.3 Fig"};{ring}"><span>{t}</span></div>'
 def line(x1,y1,x2,y2): return f'<path d="M{x1},{y1} C{(x1+x2)/2},{y1} {(x1+x2)/2},{y2} {x2},{y2}" stroke="#0B1530" stroke-width="4" fill="none" opacity=".7"/>'
 def screen(items,k,pag):
     """items: lista (tempo,[html box],linea) ; mostra i primi k, ultimo con anello giallo"""
@@ -42,7 +42,7 @@ SB.append((74.7,(760,780,520,130,"i suoi personaggi soffrono la solitudine e l'i
 SC=[(0.0,(60,470,360,150,'LUIGI PIRANDELLO','c',34),None)]
 SC.append((80.0,(470,470,170,64,'opere','pag',34),line(420,545,470,502)))
 SC.append((81.8,(700,130,460,64,'novelle','pag',32),line(640,502,700,162)))
-SC.append((82.6,(700,205,460,110,'Novelle per un anno <b>(dal 1894)</b>','men',32),line(1160,162,1160,260)))
+SC.append((82.6,(700,205,460,110,'Novelle per un anno <b>(dal 1894)</b>','men',32),None))
 SC.append((85.9,(700,360,460,64,'romanzi','pag',32),line(640,502,700,392)))
 SC.append((86.8,(700,435,460,72,"L'esclusa <b>1901</b>",'men',32),None))
 SC.append((89.5,(700,520,460,72,'Il fu Mattia Pascal <b>1904</b>','men',32),None))
@@ -54,7 +54,7 @@ SC.append((116.5,(700,780,460,64,'saggi','pag',32),line(640,502,700,812)))
 SC.append((117.2,(700,860,460,72,"L'umorismo <b>1908</b>",'men',32),None))
 SCREENS=[(SA,0.0,50.2,32),(SB,50.2,79.8,33),(SC,79.8,121.0,34)]
 OFF=0.4;LEN=120.44;EXTRA=4.0
-nf=round((OFF+LEN+1.0+EXTRA)*30)
+nf=round((OFF+LEN+0.15+EXTRA)*30)
 parts=[];states=[]
 def add(nm,t0,t1): states.append((nm,t0,t1))
 for si,(S,a,b,pag) in enumerate(SCREENS):
@@ -65,7 +65,7 @@ for si,(S,a,b,pag) in enumerate(SCREENS):
         add(f'map25_{si}_{k}',t0,t1)
 subprocess.run(['node','/tmp/w14/build/render.js','/tmp/w14/build/html','/tmp/w14/build/png'],check=True)
 # schermata finale intera 4 s: vecchia mappa intera
-fin_start=OFF+LEN+1.0
+fin_start=OFF+LEN+0.15
 segs=[]
 for i,(nm,t0,t1) in enumerate(states):
     f0=round((OFF+t0)*30);f1=round((OFF+t1)*30)
