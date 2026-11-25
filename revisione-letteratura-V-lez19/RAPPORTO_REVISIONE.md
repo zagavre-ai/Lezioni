@@ -79,3 +79,10 @@ Voci della lista che l'agente **ha confermato OK** al primo giro: nessun taglio 
 
 ## 11. File consegnati
 `Letteratura_Lez19_Parte1_1080p.mp4.parte_00…03` + `.sha256`, `Letteratura_Lez19_Parte1.vtt` (455 cue), `Letteratura_Lez19_slide.pdf`, `Letteratura_Lez19_mappe.pdf`, `timeline.json`, `scheda_pubblicazione.json`, `quiz_argomenti.json`, `Quiz_Letteratura_Lez19.txt`, `Test_Letteratura_Lez19.xlsx` (= Excel del prof), `verifica_finale.json`, `compiti.json` (4 compiti del prof), `testo_youtube.txt`, `controllo_minuti.jpg`, questo rapporto. Voci nuove: nessuna.
+
+## 12. Controllo del 25/11/2026 · riquadro del docente (segnalati 5:46, 13:16, 23:33, 36:53)
+- **Video non modificato** (stesso sha256 della consegna del 22/11, durata 3020,77 s invariata). Non ho ricodificato perché **il difetto non è presente nel file consegnato**.
+- **M** Riquadro (412×309 a x=1428, y=148) analizzato a 4 fotogrammi al secondo su tutti i pezzi D0–D3 del docente: mai vuoto (deviazione standard minima 8–23 solo sul primo fotogramma di ogni pezzo, dissolvenza). Ai minuti 5:46, 13:16, 23:33, 36:53 (±6 s, un fotogramma ogni 2 s) il docente è visibile e parla.
+- **M** Movimento del riquadro confrontato con la webcam dell'originale (release `mazzotti-letteratura-V`, `Letteratura_Lez19.mp4`, 1775,13 s = somma dei 4 pezzi): correlazione 0,88 (D1), 0,72 (D2), 0,83 (D3); le finestre basse stanno ai bordi dei pezzi e dove il docente sta fermo. Nessun tratto senza docente.
+- **M** `controllo_rapido.py`: ESITO OK (foglio e json in questa cartella).
+- **NV** Non ho potuto vedere la copia vista da chi ha segnalato il difetto (Vimeo, altro lettore, altra versione del 17/11). Se il riquadro appare vuoto là, il file caricato non è questo: confrontare l'sha256.
