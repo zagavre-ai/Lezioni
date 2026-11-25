@@ -82,3 +82,19 @@ Vedi `CONTROLLO_SEPARATO.md` (agente che non ha montato la lezione; ha lavorato 
 
 ## 8. File di questa consegna
 Video a pezzi da 90 MB con `.sha256` (per ricomporre: `cat Storia_Lez10_ParteN_1080p.mp4.part* > Storia_Lez10_ParteN_1080p.mp4`), `.vtt`, `timeline_ParteN.json`, `scheda_pubblicazione_ParteN.json`, `quiz_argomenti.json`, `verifica_finale.json`, `Verifica_finale_Storia_Lez10.xlsx`, `compiti.json`, dispensa `Storia_Lez10_ParteN_slide.pdf` (A4 orizzontale, una slide per pagina con strato di testo invisibile, stessa numerazione del video), `Storia_Lez10_mappe.pdf`, `foglio_fotogrammi_*.jpg` e `controllo_rapido_*.json`, `controllo_severo_Parte*.json`, `tabella_tagli.md`.
+
+## Correzione del 25/11/2026 ore 20:59 — controllo dei tagli di voce (Claude 2, master di riserva)
+**File nuovi:** `Storia_Lez10_Parte1_1080p.mp4` (sha256 `592f28af44dde88b0ecf53077980b864e31e9b0e7acd9ac593e5cc592a9412c3`) e `Storia_Lez10_Parte2_1080p.mp4` (sha256 `4eba14820500bbf9623fe2f13ebb1b9c72318fd9419037f2bd7156516907fe60`), creati il 25/11/2026 ore 20:59 (ora italiana), a pezzi da 90 MB. Sostituiscono i file con lo stesso nome del 23/11 (sha256 precedenti: P1 `2c39df4f3653cf10…`, P2 `685d4eff6f82ac4b…`). Su Vimeo li sostituisce la master, con lo stesso link.
+
+### Cosa ho trovato (misurato)
+Il controllo del 25/11 segnalava due fini di pezzo del docente con la voce ancora forte. Ho misurato il livello a passi di 10 ms e trascritto le ultime parole:
+- **Parte 1, 45:14 (fine del pezzo D3):** la frase «…ma andiamo avanti.» è intera. Dopo restava un frammento di 0,35 s a −11 dB (la parola «Allora», che apriva la frase successiva) tagliato di netto a livello pieno. **Silenziato quel frammento** (da 2713,99 s a 2714,40 s, in una pausa a −60 dB). Tolto anche il cue «Allora.» dal .vtt. Nessuna parola intera del docente è stata tolta.
+- **Parte 2, 51:28 (fine del pezzo D8):** la frase «…la seconda guerra mondiale.» è intera; finiva di colpo a −18 dB (scatto). Aggiunta una dissolvenza di 25 ms sull'ultimo tratto. Nessuna parola toccata.
+
+### Come
+Il video è copiato **senza ricodificare** (stessi fotogrammi: P1 111803, P2 100379). Solo la traccia audio è stata ricodificata una volta (AAC 192k, 48 kHz, mono come l'originale). **Durata identica** (P1 3726,77 s, P2 3345,97 s): timeline, scheda, quiz e verifica non cambiano; la pagina non va toccata.
+
+### Controlli (misurato)
+Controllo rapido: P1 ESITO **OK** (−16,8 LUFS, picco −2,0 dBTP, 362 MB); P2 ESITO **OK** (−16,7 LUFS, picco −2,3 dBTP, 328 MB). Foglio dei fotogrammi e json aggiornati. Video identico a prima (copiato), quindi il foglio del 23/11 vale ancora per le immagini.
+**Non verificato:** ascolto da parte di una persona del punto a 45:14 (che l'audio resti naturale senza «Allora»); la bocca del docente mostra la parola per 0,35 s senza voce.
+**Altro:** la soglia di −30 dB sugli ultimi 0,15 s dà falsi allarmi sui cambi di slide dentro uno stesso pezzo (la voce continua). I tagli veri si riconoscono perché il livello scende di colpo a silenzio digitale.
