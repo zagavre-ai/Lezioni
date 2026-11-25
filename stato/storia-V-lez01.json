@@ -3,6 +3,9 @@
  "parti": {
   "1": {
    "stato": "IN_MONTAGGIO"
+  },
+  "2": {
+   "stato": "IN_MONTAGGIO"
   }
  },
  "manca": "",
@@ -29,7 +32,11 @@
   {
    "quando": "25/11 12:15",
    "testo": "Pronti tutti i pezzi montabili (pezzi del prof, titoli, quiz, ripassi, glossario, 6 approfondimenti, sigle). Mancano solo le 10 voci nuove chieste alla master (BENV1, COMPITI, MAPPA1-3, AN10-12, R8_R2, AN4_R2): senza non chiudo. Mi fermo in attesa che Sara mi risvegli."
+  },
+  {
+   "quando": "25/11 12:15",
+   "testo": "Come Parte 1: attendo le voci."
   }
  ],
- "aggiornato": "2026-11-25 12:15:10"
+ "aggiornato": "2026-11-25 12:15:12"
 }
