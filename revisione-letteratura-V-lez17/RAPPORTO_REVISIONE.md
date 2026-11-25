@@ -91,3 +91,14 @@ Tempi nel video nuovo; parole dalla trascrizione (Parakeet, con refusi). Ogni pe
 - **Mappe vettoriali:** il PDF delle mappe è vettoriale (testo vero); nel video la mappa è a 1080p, non vettoriale (normale per un video).
 - **Spiegone / più Parti:** non applicabile (una sola Parte, 53:23).
 - **Rete fissa dei timecode** dei sottotitoli sulle voci: stima ±0,3 s.
+
+# CORREZIONE URGENTE 25/11/2026 (25/11/2026 21:24 UTC)
+**File nuovo: `Letteratura_Lez17_Parte1_1080p.mp4`** (a pezzi `.parte_00…04`, sha256 nel file `.sha256`), consegnato il 25/11/2026 21:24 UTC. Durata 54:18,5 (3258,5 s, 97 755 fotogrammi = durata × 30), 365 MB, −16,9 LUFS, picco −2,0 dBTP.
+Corretti SOLO i due punti richiesti; il resto del video è copiato senza ricodifica (stessi pezzi del prof, nessun taglio).
+1. **Mappa finale (50:55)**: ridisegnata intera nello schermo con margine (50 px), stessa struttura e parole del prof, colori BES con legenda in alto (34 px), tutte le scritte a 34 px, costruita ramo per ramo (28 passi) con la voce `MAP1` esistente, riquadro attivo giallo, mappa intera ferma 4 s. Tempi dei rami stimati dalla voce (±0,3 s, non verificati all'ascolto). Audio della scena invariato.
+2. **Compiti (53:20)**: voce Kore `COMPITI` della master, un compito alla volta (testo 44 px, bordo giallo), poi la riga finale «Svolgi i compiti qui sotto e premi Consegna…» a voce e sullo schermo. Schede «Compiti» e «Per casa» in BLU SCURO a tutto schermo, senza nome del docente nel piè di pagina e senza bande. Durata della scena: 5 s → 60,9 s; il video si allunga di 56 s solo in fondo.
+Quiz, verifica, sigle: tempi invariati (Quiz1–6, Mappa 2994,27, Verifica 3178,1, Compiti 3197,6). Rigenerati: `.vtt` (aggiunti 12 cue dei compiti), `timeline.json`, `scheda_pubblicazione.json` (durata 3258,5).
+## Controllo rapido
+`controllo_rapido.py`: ESITO **DA CORREGGERE** per un solo punto, **già presente nella consegna approvata e fuori dalla richiesta**: il piè di pagina delle slide dice ancora «Prof. Giorgio Mazzotti» (difetto non bloccante, §12). Non l'ho toccato perché la master ha chiesto di correggere solo i due punti. Pause mute: 0; schede con fasce: 0; schermate ferme >3 min: 0; titolo in copertina 3/3. Foglio dei fotogrammi guardato: il resto della lezione è quello già approvato (card 28 px e schede bianche come prima, non toccate).
+## Non verificato
+Ascolto umano della voce COMPITI e dei tempi della mappa; PDF delle mappe e delle slide NON rigenerati (la mappa nel PDF era già intera).
