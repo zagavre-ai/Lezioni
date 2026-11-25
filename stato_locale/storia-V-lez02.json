@@ -1,6 +1,10 @@
 {
  "tag": "storia-V-lez02",
- "parti": {},
+ "parti": {
+  "1": {
+   "stato": "IN_MONTAGGIO"
+  }
+ },
  "manca": "",
  "serve_master": [
   {
@@ -25,7 +29,11 @@
   {
    "quando": "25/11 12:25",
    "testo": "25/11 12:40 ripartita: scarico gli strumenti da revisione-storia-V-lez01"
+  },
+  {
+   "quando": "25/11 13:12",
+   "testo": "25/11 13:15: montati tutti i pezzi (docente, approfondimenti, ripassi, quiz, glossario, verifica); dispensa e PDF mappe fatti. Mancano SOLO le voci nuove BENV1, COMPITI, MAPD1-3 (richieste in testi_voci.json): quando arrivano monto copertina, 3 mappe, compiti e codifico."
   }
  ],
- "aggiornato": "2026-11-25 12:27:59"
+ "aggiornato": "2026-11-25 13:12:54"
 }
