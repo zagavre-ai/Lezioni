@@ -1,0 +1,14 @@
+{
+ "tag": "letteratura-V-lez26",
+ "parti": {},
+ "manca": "",
+ "serve_master": [
+  {
+   "quando": "25/11 21:10",
+   "testo": "Lez26 FERMA, non consegno. I minuti delle correzioni (11:12...49:38) non corrispondono al video sul ramo revisione (53:03; quiz a 10:34, 19:27, 30:47, 39:01, 47:08; i tuoi sono 1-2,5 min piu' avanti): e' un'altra versione, quella che hai controllato non e' sul ramo. Sul ramo ci sono solo il video finale e i json, nessun sorgente di montaggio (non c'e' nemmeno nelle release). Senza sorgenti non posso rendere in blu a tutto schermo ripassi/glossario/riepilogo/compiti ne' ritagliare voci ai cambi pezzo sul video finale senza rifare il montaggio. R5_R2 e' sul ramo voci, pronta. Serve: la versione/i sorgenti corretti sul ramo revisione, oppure l'ok esplicito a rifare il montaggio dalle trascrizioni e dai materiali (piu' di 1h30)."
+  }
+ ],
+ "domande_sara": [],
+ "note": [],
+ "aggiornato": "2026-11-25 21:10:19"
+}
