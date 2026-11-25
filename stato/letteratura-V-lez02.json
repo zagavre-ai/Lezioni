@@ -2,7 +2,7 @@
  "tag": "letteratura-V-lez02",
  "parti": {
   "1": {
-   "stato": "IN_CODIFICA"
+   "stato": "REVISIONATA"
   }
  },
  "manca": "",
@@ -12,7 +12,11 @@
   {
    "quando": "25/11 15:40",
    "testo": "Correzione urgente: mappa ridisegnata e immagine Praga sostituita; ricodifica in corso"
+  },
+  {
+   "quando": "25/11 16:00",
+   "testo": "Correzione 25/11: mappa ridisegnata (34 px, BES, 2 schermate, voci RN esistenti) e immagine Praga HD intera. Durata e tempi invariati. Controllo rapido: unico errore preesistente non bloccante, nome docente nel piè di pagina delle slide; vedi RAPPORTO §8"
   }
  ],
- "aggiornato": "2026-11-25 15:40:19"
+ "aggiornato": "2026-11-25 16:00:08"
 }
