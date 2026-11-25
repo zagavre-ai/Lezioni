@@ -52,3 +52,8 @@ Controllato sulla trascrizione dell'originale [misurato].
 - Durata nuova 51:23 (3082,67 s), 92480 fotogrammi; sottotitoli, timeline e scheda rigenerati con i nuovi tempi (i sottotitoli sono i precedenti spostati sui nuovi tempi, non ritrascritti). Volume −16,1 LUFS, picco −1,6 dBTP.
 - `controllo_rapido.py`: tutto OK TRANNE la pausa muta 50:09 (73 s) = compiti, in attesa della voce Kore COMPITI (nota già nel rapporto precedente, non è in `vox/`). ESITO DA CORREGGERE solo per questo.
 - NON verificato: la trascrizione ripetuta dei bordi di ogni voce sul video nuovo; la sincronia fine delle card con la voce dopo il rallentamento (±1 s al massimo); l'ascolto di ogni passaggio. Controllo da parte di un agente separato non fatto per il tempo.
+
+## File consegnato (25/11/2026)
+- **Nome esatto:** `Letteratura_Lez7_Parte1_1080p.mp4` (in due pezzi `.parte_00`, `.parte_01`, sha256 nel file `.sha256`), codificato il 25/11/2026 alle 18:34 UTC (20:34 in Italia), 3082,67 s, 170 MB.
+- **Bordi delle voci** (ultimi 50 ms, misurati sul video finale, 25 voci): tutte sotto 0,03 tranne **AN23 = 0,118**. Causa: la voce `AN23.wav` è troncata nel file stesso (finisce su «…a voce alta» con il parlato ancora attivo). Ho scritto `AN23_R2` in `testi_voci.json` sul ramo `voci-letteratura-V-lez07`: appena la master la genera, la rimonto (un solo punto, 45:16).
+- Le schede di ripasso, glossario, riepilogo e compiti NON sono state rifatte (nessuna «banda blu» aggiunta o toccata); ho modificato solo il testo della scheda finale.
