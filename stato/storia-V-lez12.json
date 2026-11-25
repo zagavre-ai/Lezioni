@@ -309,16 +309,16 @@
    "fermi_ok": "si",
    "sub_ok": "si",
    "video": "Storia_Lez12_Parte2_1080p.mp4",
-   "durata_s": 1797.8,
-   "durata": "29:57.8",
-   "fotogrammi": 53934,
-   "fotogrammi_attesi": 53934,
-   "peso_MB": 264.7,
+   "durata_s": 1805.2,
+   "durata": "30:05.2",
+   "fotogrammi": 54157,
+   "fotogrammi_attesi": 54157,
+   "peso_MB": 265.8,
    "vtt": "Storia_Lez12_Parte2.vtt",
    "scheda": {
     "materia": "Storia",
     "titolo": "Storia V · Lezione 12 · L'Europa e il mondo negli anni Trenta · Parte 2",
-    "durata_s": 1797.8,
+    "durata_s": 1805.23,
     "argomenti": [
      {
       "n": 5,
@@ -523,9 +523,13 @@
   {
    "quando": "23/11 09:29",
    "testo": "correzioni 22/11 fatte. Consegna su revisione-storia-V-lez12 (commit 6677d5c). Controllo rapido OK su P1 e P2. Vedi RAPPORTO_REVISIONE.md: da confermare quiz (scritti da me), voce I3 mancante (uso I1), ascolto voci e pronuncia nomi stranieri (NV), difetti noti non corretti dall'agente separato."
+  },
+  {
+   "quando": "25/11 10:27",
+   "testo": "25/11: montate I3_BENVENUTO2 e C3_COMPITI_CHIUSURA, Parte 2 rifatta, controllo_rapido OK su P1 e P2, riconsegnata su revisione-storia-V-lez12 (commit 6102d69) con foglio e json. Pronuncia di Piłsudski, Estado Novo, Manchukuo, Léon Blum, Croix de Feu: NON ascoltata (solo trascrizione automatica, vedi rapporto)."
   }
  ],
  "materia": "Storia",
  "lezione": "12",
- "aggiornato": "2026-11-23 10:42:50"
+ "aggiornato": "2026-11-25 10:27:12"
 }
