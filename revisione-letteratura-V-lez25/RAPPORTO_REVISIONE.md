@@ -1,3 +1,37 @@
+# CORREZIONE 25/11/2026 ore 23:07 (Italia) · 22:07 UTC · Letteratura V · Lezione 25
+**File nuovo:** `Letteratura_Lez25_Parte1_1080p.mp4` (a pezzi `.parte_00` e `.parte_01`, sha256 nel file `.sha256`, verificato sul file ricomposto: `a45480b3…2e4`). Preparato il 25/11/2026 alle 23:07 ora italiana. Partito dal video già consegnato, senza rifare il montaggio. Una sola ricodifica (x264 veryfast CRF 19, AAC 192k 48 kHz). Durata invariata: 2378,47 s = 71 354 fotogrammi. Peso 142 MB.
+**misurato** = con uno strumento; **non verificato** = non ho potuto.
+
+## Controllo rapido (misurato, `controllo_rapido.py`, foglio guardato)
+−16,7 LUFS; picco −2,0 dBTP (alla prima codifica era −0,7: aggiunto un limitatore sui soli picchi); 1920×1080 30 fps; nessun nome del docente nel piè di pagina; titolo in copertina 3/3. **Unico errore, già presente prima: scheda «Compiti» muta 60,7 s a 38:37**, perché `COMPITI.wav` non è ancora sul ramo voci (il testo COMPITI c'è già in `testi_voci.json`). **Esito del programma: DA CORREGGERE solo per i compiti muti.** Serve la voce dalla master: poi rimonto solo quel pezzo.
+
+## 1. Taglio del docente a 27:49 — FATTO
+- **Causa vera (misurata con la trascrizione):** le frasi «L'ultima stagione pasoliniana è segnata da una radicale esasperazione della polemica contro la modernità neocapitalistica… Empirismo eretico del 1972 o Scritti corsari del 1975, d'accordo, possiamo andare pure su questi» sono dell'**Argomento 6**. Nel video stavano prima del quiz 5, sopra la slide dell'Argomento 5. Così l'Argomento 5 finiva «a metà» e la parte 6 cominciava con la card 2.
+- **Ora:** il pezzo D5 finisce su una frase intera, **«…quasi da neo-bohémien, se vogliamo.»** (fine frase a 27:28,3; taglio a 27:28,47, 0,15 s prima della frase dopo, nel silenzio: −69 dB). Poi dissolvenza al bianco e `trans.wav`, come prima.
+- Il resto della frase è **spostato** all'inizio del pezzo D6, sulla slide giusta dell'Argomento 6, con la card 1 accesa («La produzione saggistica»). Parole del docente identiche, né tagliate né cambiate, sincronia con le labbra intatta (audio e riquadro presi dallo stesso istante; slide ricostruita intorno al riquadro). Inizio a 30:17,7; fine «…possiamo andare pure su questi.» a 30:40,8; poi «Nelle postume lettere luterane…» a 30:41,7 con la card 2 accesa.
+- Trascrizione sul video nuovo: D5 finisce «…se vogliamo.» (27:28,3) poi l'approfondimento «Vediamo la narrativa di Pasolini…» (27:29,8); D6 comincia «L'ultima stagione pasoliniana è segnata…» (30:17,9) e prosegue fino a «possiamo andare pure su questi.» e «Nelle postume lettere…».
+- Fine/inizio dei pezzi toccati: D5 ultime parole «quasi da neo-bohémien, se vogliamo.» frase finita **sì**; D6 prime parole «L'ultima stagione pasoliniana è segnata…» frase intera **sì**, ultime del blocco spostato «…possiamo andare pure su questi.» **sì**.
+
+## 2. Da 30:34 sovrapposizioni e confusione — SISTEMATO
+- Misurato: nessuna sovrapposizione di voci o jingle (già verificato il 25/11 e riverificato). La confusione era l'**ordine**: le frasi dell'Argomento 6 stavano nell'Argomento 5, dopo di loro quiz 5, titolo «L'ultimo Pasolini» e solo poi la card 2. Ora l'ordine è: ripasso 5 → quiz 5 → titolo Argomento 6 → il docente dice la sua introduzione sulla slide giusta (card 1) → card 2.
+- Nuovi tempi: **Q5 30:10** (prima 30:33), **titolo Argomento 6 30:13,8** (prima 30:36,9), D6 dal 30:16,6. Dal 30:40,8 in poi **tutto identico** (Q6 34:27,4, mappa, glossario, ripasso, verifica, compiti: stessi secondi). Rigenerati `timeline.json`, `scheda_pubblicazione.json`, `testo_youtube.txt` (capitolo 6: 30:13), `.vtt` (595 sottotitoli, ordine controllato).
+- Pausa muta introdotta: 0,9 s prima e circa 1,1 s dopo il blocco spostato (sotto 2,5 s).
+
+## 3. Mappa «OPERE» — FATTA
+- **Una sola mappa, completa, sulla stessa schermata**, come quella del professore: centro «Pier Paolo Pasolini 1922 – 1975» → vita · è stato · pensiero · OPERE → poesie · romanzi · regista cinematografico. Ogni riquadro ha la sua freccia dal ramo padre (anche OPERE è ora collegato al centro). Parole identiche a prima (nessuna parola nuova, compresi «vita dei ragazzi nelle borgate romane» e «.....»).
+- **Testo 34 px** (corpo, misurato nel browser), titoli dei riquadri 38 px, centro 46/36 px. Colori BES con legenda in alto a destra. Caratteri Figtree / Bricolage del kit.
+- **Costruzione ramo per ramo con la voce R2 già esistente** (stessi tempi di prima: centro 34:35,7; vita 34:42; è stato 35:09; pensiero 35:15; OPERE 35:24,5 (35:27 = poesie 35:27); romanzi 35:49,6; regista 36:04). Il riquadro è giallo mentre la voce lo dice. Nessuna voce nuova: **non serve `testi_voci.json`**.
+- Mentre la voce dice «Rivedi la mappa con calma» (36:16–36:19) si accendono in giallo, uno per uno, tutti i riquadri; poi la mappa intera resta ferma 4,5 s (nel video e nello stesso intervallo di prima).
+- **PDF aggiornati:** `Letteratura_Lez25_mappe.pdf` (copertina + mappa intera, testo invisibile) e `Letteratura_Lez25_slide.pdf` (le 3 pagine della mappa, 50–52, sostituite con tre stati della mappa: fino a «pensiero», fino a «romanzi», intera; stesso numero di pagine: 64). Controllato con `pdftotext`.
+
+## Non verificato
+- **Ascolto umano** (giunzioni 27:28, 30:13–30:42, mappa): controllo fatto con trascrizione, misure di ampiezza (−69 dB ai tagli) e fotogrammi.
+- **Agente separato del §11:** non c'è stato (urgenza); ho controllato io, sul foglio dei fotogrammi e sul json.
+- Sottotitoli: i tempi dei blocchi spostati sono ricalcolati con il taglio, non rifatti dalla trascrizione completa.
+- Voce COMPITI mancante (vedi sopra). La mappa intera ferma resta nello stesso tempo di prima.
+
+---
+
 # CORREZIONE URGENTE 25/11 (Letteratura V · lezione 25)
 Partita dal video consegnato (`Letteratura_Lez25_Parte1_1080p.mp4` del 23/11), senza rifare il montaggio. Ricodificato una volta (x264 veryfast CRF 19, AAC 192k 48 kHz). **misurato** = con uno strumento; **non verificato** = non ho potuto.
 
