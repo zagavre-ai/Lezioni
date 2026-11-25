@@ -39,3 +39,16 @@ Mappa: «1905/1906», «stupidi/stupiti»; risposte Excel «Italy» e «L'aria �
 
 ## 5. NON verificato
 Ascolto delle voci Kore (pronuncia); sottotitoli del prof non riletti per intero (ASR + correzioni); tempi di comparsa dei rami della mappa stimati dalle frasi; la mappa è su 3 schermate, non una; trans.wav solo ai Compiti (nessuna dissolvenza fra pezzi oltre 0,4 s di entrata); webcam morbida (ritaglio 184×138); lista §11 completa non spuntata; true-peak non misurato.
+
+---
+# Correzione 25/11 (solo 2 punti, durata e quiz invariati)
+- **Mappa del professore** (P1 51:11, P2 3:51): ridisegnata in vettoriale, tre schermate (La vita + La personalità · La poetica · Le opere), stesse parole e frecce, colori BES con legenda, scritte a 35 px, costruita ramo per ramo agli stessi istanti della voce Kore già montata; ogni schermata ora entra in dissolvenza di 0,4 s già con titolo e ramo (mai più il solo «Giovanni Pascoli»). Piè di pagina «LETTERATURA ITALIANA V · Pagina N» senza «Prof.».
+- **Testo dell'immagine** (P1 31:07 T2, P2 19:57 L'assiuolo): rifatto in carattere a 46–48 px (T2 su 2 schermate, spezzate alla frase; L'assiuolo su 3 schermate, una strofa ciascuna, evidenziata come prima agli stessi istanti). Parole, numeri di nota e numeri di verso del libro identici (riletti sull'originale); a capo diverso nel T2 (senza trattini).
+- Ricodificate solo le finestre toccate (x264 CRF 19), il resto del video e tutto l'audio copiati. **Fotogrammi e durata identici all'originale** (P1 96259 = 3208,633 s; P2 100116 = 3337,200 s), quindi timeline, scheda_pubblicazione, vtt, quiz e verifica **invariati**.
+- Strumenti in `correzione/` (genera.py mappa, testo.py testi, splice.py montaggio).
+
+## controllo_rapido (rifatto su entrambe le Parti): ESITO «DA CORREGGERE» — NON OK
+- Unico errore: pause mute oltre 2,5 s, **le stesse della consegna precedente** (non toccate: richiedono voce nuova o tagli che cambierebbero i tempi). P1: 17:42, 23:01, 23:05, 42:54, 50:09, 51:05, 51:34, 52:06, 53:20. P2: 0:26, 3:44, 4:14, 4:45, 19:20, 33:26, 48:25, 48:29, 54:12, 55:20, 55:29, 55:32.
+- **Quelle dentro la mappa (P1 51:05, 51:34, 52:06; P2 3:44, 4:14, 4:45) sono di 5,6–6,2 s: oltre i 5 s.** Per risolverle serve voce Kore nuova (o accorciare la mappa e rigenerare timeline/scheda/vtt): decide la master.
+- Gli altri controlli (formato 1920×1080 30 fps, LUFS −16,4/−16,1, picco −2,1 dB, piè di pagina, schede, titolo) senza errori. Foglio dei fotogrammi guardato (P2).
+- Non verificato: ascolto; foglio P1 non riaperto; tempi dei rami = quelli del video precedente (stimati dalle frasi); le mappe nel PDF A4 non sono state rifatte.
