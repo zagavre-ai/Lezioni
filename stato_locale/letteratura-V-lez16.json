@@ -1,6 +1,10 @@
 {
  "tag": "letteratura-V-lez16",
- "parti": {},
+ "parti": {
+  "1": {
+   "stato": "REVISIONATA"
+  }
+ },
  "manca": "",
  "serve_master": [
   {
@@ -9,6 +13,11 @@
   }
  ],
  "domande_sara": [],
- "note": [],
- "aggiornato": "2026-11-25 15:49:43"
+ "note": [
+  {
+   "quando": "25/11 16:04",
+   "testo": "25/11 mappa unica 34px rifatta, ricodificato. Riquadro prof assente in alcuni tratti: serve il video originale (vedi serve_master)"
+  }
+ ],
+ "aggiornato": "2026-11-25 16:04:45"
 }
