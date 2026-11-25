@@ -1,0 +1,42 @@
+{
+ "tag": "storia-V-lez01",
+ "parti": {
+  "1": {
+   "stato": "IN_MONTAGGIO"
+  },
+  "2": {
+   "stato": "IN_MONTAGGIO"
+  }
+ },
+ "manca": "",
+ "serve_master": [
+  {
+   "quando": "25/11 10:23",
+   "testo": "Storia V lez01: mandate le 2 voci nuove BENV1 (benvenuto) e COMPITI (tutti i 4 compiti del prof in fila + riga finale) dal ramo voci-storia-V-lez01 (testi_voci.json, in fondo). Le altre 40 sono già in vox/. Intanto monto tutto il resto; consegno quando arrivano. Scelta mia: verifica e compiti in fondo a ENTRAMBE le Parti, come nella consegna vecchia."
+  },
+  {
+   "quando": "25/11 10:32",
+   "testo": "Storia V lez01, CORREZIONE alla richiesta voci: il prof ha SOLO 3 mappe (societa di massa; economia; politica), quindi le voci CM1-CM11 e CMF1-CMF2 (mappe inventate, 14/11) NON le uso (CLAUDE.md §6). Servono invece: MAPPA1, MAPPA2, MAPPA3 (mappe del prof, boxe per boxe), AN10, AN11, AN12 (approfondimenti per argomenti 1, 3, 5, che ne erano senza), BENV1, COMPITI. In tutto 8 voci nuove, testi in fondo a testi_voci.json sul ramo voci-storia-V-lez01. MAPPA3 non ha titolo-domanda nel PDF del prof: ho scritto 'Quali trasformazioni avvengono nella politica all'inizio del secolo?' con le sue parole (lo dichiaro nel rapporto)."
+  },
+  {
+   "quando": "25/11 11:18",
+   "testo": "Storia V lez01: aggiunte altre 2 voci (R8_R2 e AN4_R2) per spiegare la sigla CGL a voce (regola BES). Totale voci nuove da fare: BENV1, COMPITI, MAPPA1, MAPPA2, MAPPA3, AN10, AN11, AN12, R8_R2, AN4_R2 (testi in fondo a testi_voci.json, ramo voci-storia-V-lez01). Tutto il resto del montaggio e pronto; appena arrivano rifinisco e consegno."
+  }
+ ],
+ "domande_sara": [],
+ "note": [
+  {
+   "quando": "25/11 10:18",
+   "testo": "presa da chat nuova 25/11"
+  },
+  {
+   "quando": "25/11 12:15",
+   "testo": "Pronti tutti i pezzi montabili (pezzi del prof, titoli, quiz, ripassi, glossario, 6 approfondimenti, sigle). Mancano solo le 10 voci nuove chieste alla master (BENV1, COMPITI, MAPPA1-3, AN10-12, R8_R2, AN4_R2): senza non chiudo. Mi fermo in attesa che Sara mi risvegli."
+  },
+  {
+   "quando": "25/11 12:15",
+   "testo": "Come Parte 1: attendo le voci."
+  }
+ ],
+ "aggiornato": "2026-11-25 12:15:12"
+}
