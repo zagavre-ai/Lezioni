@@ -1,0 +1,23 @@
+{
+ "tag": "letteratura-V-lez25",
+ "parti": {
+  "1": {
+   "stato": "REVISIONATA"
+  }
+ },
+ "manca": "",
+ "serve_master": [
+  {
+   "quando": "25/11 18:35",
+   "testo": "Lez25 riconsegnata (ramo revisione, commit efb91cc). FATTI: frase del prof intera prima dell'approfondimento a 27:49; tolto 'Ci vediamo alla prossima lezione' da scheda, voce (tagliata dopo 'attenzione'), dispensa e vtt. Durata uguale; cambia solo Q5 (1830,9 -> 1833,33 s), scheda/timeline/vtt rigenerati. NON FATTO: (a) sovrapposizioni da 30:34: misurate voci, jingle e schede, non ne trovo; serve il minuto preciso. (b) mappa OPERE: confermata incompleta (ramo staccato dal centro, mappa intera mai mostrata); intera a una schermata ha scritte sotto 34 px: serve decisione. (c) voce COMPITI non arrivata: compiti muti 60 s, unico errore di controllo_rapido."
+  }
+ ],
+ "domande_sara": [],
+ "note": [
+  {
+   "quando": "25/11 18:35",
+   "testo": "Correzione 25/11: punti 1 e 3 fatti; punto 2 NON risolto (nessuna sovrapposizione misurata; mappa OPERE incompleta, serve decisione). Compiti ancora muti."
+  }
+ ],
+ "aggiornato": "2026-11-25 18:35:39"
+}
