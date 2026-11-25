@@ -1,0 +1,105 @@
+{
+ "titolo": "Storia V · Il Novecento, il secolo delle masse · Verifica finale",
+ "domande": [
+  {
+   "n": 1,
+   "p": "Chi realizzò nel 1886 il primo veicolo dotato di motore a scoppio alimentato a benzina?",
+   "a": "Gottlieb Daimler e Karl Friedrich Benz",
+   "w": [
+    "I fratelli Wilbur e Orville Wright",
+    "Henry Ford",
+    "Nikola Tesla"
+   ]
+  },
+  {
+   "n": 2,
+   "p": "Quale scienziato mise a punto nel 1896 un sistema di comunicazione senza cavi fisici sfruttando le onde elettromagnetiche, segnando la nascita della radio?",
+   "a": "Guglielmo Marconi",
+   "w": [
+    "Antonio Meucci",
+    "Louis Lumière",
+    "Max Planck"
+   ]
+  },
+  {
+   "n": 3,
+   "p": "Quale importante traguardo in campo medico si deve al medico tedesco Robert Koch nel periodo della Belle époque?",
+   "a": "L'individuazione del bacillo della tubercolosi",
+   "w": [
+    "Lo sviluppo del vaccino contro la rabbia",
+    "L'introduzione della tecnica della pastorizzazione",
+    "La scoperta della penicillina"
+   ]
+  },
+  {
+   "n": 4,
+   "p": "In quale anno e in quale settore l'imprenditore Henry Ford applicò per la prima volta la \"catena di montaggio\"?",
+   "a": "Nel 1913 nelle industrie automobilistiche di Detroit",
+   "w": [
+    "Nel 1901 nel settore dell'aviazione commerciale",
+    "Nel 1911 nei cantieri navali britannici",
+    "Nel 1886 nelle fabbriche tessili tedesche"
+   ]
+  },
+  {
+   "n": 5,
+   "p": "Che cos'era l'isola di Ellis Island, attiva a partire dal 1892 nella baia di New York?",
+   "a": "Una struttura federale adibita al controllo e allo smistamento degli immigrati in arrivo",
+   "w": [
+    "Un grande centro industriale per la produzione automobilistica standardizzata",
+    "Un polo fieristico destinato a ospitare le grandi esposizioni universali",
+    "Una stazione sperimentale per lo sviluppo delle telecomunicazioni moderne"
+   ]
+  },
+  {
+   "n": 6,
+   "p": "Quale enciclica fu pubblicata da papa Leone XIII nel 1891 per prendere posizione sulla situazione della classe operaia nel mondo industrializzato?",
+   "a": "Rerum Novarum",
+   "w": [
+    "Pascendi Dominici Gregis",
+    "Quadragesimo Anno",
+    "Non expedit"
+   ]
+  },
+  {
+   "n": 7,
+   "p": "Quale fu il primo Stato al mondo a riconoscere il diritto di voto politico alle donne, nel 1893?",
+   "a": "La Nuova Zelanda",
+   "w": [
+    "Il Regno Unito",
+    "Gli Stati Uniti",
+    "La Finlandia"
+   ]
+  },
+  {
+   "n": 8,
+   "p": "Chi fu la fondatrice dell'Unione sociale e politica delle donne (WSPU) nel 1903 nel Regno Unito, figura centrale del movimento suffragista?",
+   "a": "Emmeline Pankhurst",
+   "w": [
+    "Rosa Luxemburg",
+    "Anna Kuliscioff",
+    "Marie Curie"
+   ]
+  },
+  {
+   "n": 9,
+   "p": "Quale saggio del 1895, scritto da Gustave Le Bon, divenne fondamentale per elaborare le strategie di propaganda descrivendo le masse come impulsive e facilmente manipolabili?",
+   "a": "\"La psicologia delle folle\"",
+   "w": [
+    "\"Saggio sulla disuguaglianza delle razze umane\"",
+    "\"Così parlò Zarathustra\"",
+    "\"L'affermazione della società di massa\""
+   ]
+  },
+  {
+   "n": 10,
+   "p": "Che cosa sono \"I Protocolli dei Savi di Sion\", ampiamente diffusi dalla propaganda antisemita all'inizio del Novecento nell'Impero russo?",
+   "a": "Un clamoroso falso storico creato per fomentare l'odio contro gli ebrei e giustificare le persecuzioni",
+   "w": [
+    "I documenti ufficiali della Seconda Internazionale socialista firmati a Parigi",
+    "Il manifesto politico fondamentale del movimento sionista fondato da Theodor Herzl",
+    "Un accordo segreto di cooperazione economica e commerciale tra i grandi trust industriali russi"
+   ]
+  }
+ ]
+}

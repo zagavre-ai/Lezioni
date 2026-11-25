@@ -1,0 +1,25 @@
+{
+ "titolo": "Compiti · Storia V · Il Novecento, il secolo delle masse",
+ "esercizi": [
+  {
+   "n": 1,
+   "tipo": "aperta",
+   "testo": "Analizza le luci e le ombre della Belle Époque, spiegando da un lato i fattori che alimentarono l'ottimismo della borghesia e dall'altro le profonde contraddizioni sociali e ideologiche che caratterizzarono questo periodo."
+  },
+  {
+   "n": 2,
+   "tipo": "aperta",
+   "testo": "Descrivi le caratteristiche principali del Taylorismo e del Fordismo, illustrando sia i vantaggi economici legati alla produzione di massa sia le conseguenze sociali negative per gli operai e per i consumatori."
+  },
+  {
+   "n": 3,
+   "tipo": "aperta",
+   "testo": "Spiega come si trasforma la partecipazione politica all'inizio del Novecento attraverso la nascita dei partiti di massa e dei sindacati, confrontando la posizione delle diverse correnti del Socialismo con l'intervento della Chiesa cattolica (enciclica Rerum Novarum) e con le lotte dei movimenti suffragisti."
+  },
+  {
+   "n": 4,
+   "tipo": "aperta",
+   "testo": "Analizza la crisi delle certezze positivistiche tra la fine dell'Ottocento e l'inizio del Novecento (citando i contributi della fisica e della psicoanalisi) e spiega in che modo le teorie del Darwinismo sociale e dell'antisemitismo alimentarono il razzismo e il nazionalismo aggressivo in Europa."
+  }
+ ]
+}
