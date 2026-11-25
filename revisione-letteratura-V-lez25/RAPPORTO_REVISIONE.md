@@ -1,3 +1,31 @@
+# CORREZIONE URGENTE 25/11 (Letteratura V · lezione 25)
+Partita dal video consegnato (`Letteratura_Lez25_Parte1_1080p.mp4` del 23/11), senza rifare il montaggio. Ricodificato una volta (x264 veryfast CRF 19, AAC 192k 48 kHz). **misurato** = con uno strumento; **non verificato** = non ho potuto.
+
+## Controllo rapido sul video nuovo (misurato)
+`controllo_rapido.py`: **un solo errore, preesistente: la scheda dei compiti muta (38:37, 60,7 s)**, perché la voce COMPITI non è ancora arrivata sul ramo voci (nessun `COMPITI.wav`). Tutto il resto OK: −16,7 LUFS, picco −1,3 dBTP (alla prima codifica era 0,0: aggiunto limitatore sui soli picchi), 1920×1080 30 fps, 146 MB, nessun nome del docente nel piè di pagina, titolo in copertina 3/3. Foglio dei fotogrammi guardato: giunzioni D5→approfondimento, D6 e scheda finale a posto. **Esito del programma: DA CORREGGERE solo per i compiti muti.**
+
+## 1. Minuto 27:49 · l'approfondimento tagliava il professore — FATTO
+- **Causa (misurata sull'originale):** la frase è «…Scritti corsari del 1975, d'accordo, **possiamo andare pure su questi.**». Il pezzo D5 finiva su «d'accordo,» e «possiamo andare pure su questi» era finito in testa al pezzo D6 (dopo l'approfondimento).
+- **Ora:** il professore finisce la frase («…d'accordo, possiamo andare pure su questi.», verificato con la trascrizione sul video nuovo, 27:42–27:51), poi pausa di 0,45 s, dissolvenza al bianco con `trans.wav`, approfondimento. Le sue parole sono le stesse di prima, non tagliate né cambiate: solo spostate di 2,4 s.
+- Immagine: per i 2,4 s in più il riquadro del professore è preso dal **file originale** (stesso ritaglio e stessa correzione colore del resto; allineamento misurato, correlazione 0,988) sulla slide che c'era.
+- Il pezzo D6 ora riprende alla pausa prima di «Nelle postume lettere…» (30:39,7): dissolvenza dal bianco con la slide già a schermo e la card accesa, il professore parla a 30:41,7 come prima. Pausa muta più lunga introdotta: 1,97 s (< 2,5 s).
+- La durata totale resta uguale (2378,47 s; +1 fotogramma). **Cambia solo il tempo di Q5**: 1830,9 → **1833,33 s** (argomento 5: quiz, T6 e inizio argomento 6: 1834,5 → 1836,93). Q1–Q4, Q6, verifica e compiti: identici. Rigenerati `timeline.json`, `scheda_pubblicazione.json`, `testo_youtube.txt` (capitolo 6: 30:36) e `.vtt`.
+
+## 2. Da 30:34 alla fine · sovrapposizioni — NON TROVATE, mappa NON modificata
+- Ho ascoltato (trascrizione) e misurato tutto il tratto. **Voci:** ho cercato ogni voce Kore (AN14, S6, R2, GL1, RF1, FIN1) nell'audio del video con la correlazione: ognuna parte dopo la fine della precedente, nessuna sovrapposizione fra due voci. **Jingle:** l'energia di titolo, quiz, ripasso e trans finisce prima della fine di ogni scheda (tranne il ripasso, che accompagna l'attacco della voce). **Schede:** guardati i fotogrammi a ogni giunzione: solo le dissolvenze al bianco previste, nessuna scheda sopra un'altra.
+- Se la sovrapposizione è in un minuto preciso, serve il minuto: ci lavoro su quello. **Non verificato:** l'ascolto umano.
+- **Mappa «OPERE» (35:27): confermata incompleta rispetto alla mappa del professore** e non l'ho toccata: nelle 3 schermate (decise dalla master il 22/11 per le scritte a 34 px) il ramo OPERE compare **staccato dal centro** (nessuna freccia da «Pier Paolo Pasolini») e la mappa **intera non compare mai**: l'ultima schermata ferma è solo «romanzi + regista». Il disegno vettoriale e lo script della mappa non sono nel repository, quindi rifarla è un lavoro nuovo: **la intera a una schermata ha scritte sotto i 34 px** (conflitto con la regola della master). **Serve una decisione** (mappa intera a schermo con scritte più piccole nell'ultimo quadro, oppure 4 schermate con il collegamento al centro) e una nuova voce se cambiano i tempi.
+
+## 3. «Ci vediamo alla prossima lezione» — FATTO
+- Tolto dalla scheda finale (testo cancellato su tutti i 198 fotogrammi, controllato sul foglio) e **dalla voce**: «Fine della lezione. Grazie per l'attenzione.» (la voce Kore è stata tagliata dopo «attenzione», con dissolvenza di 80 ms; trascrizione verificata). Per non lasciare una pausa muta di 2,8 s l'audio della scheda è spostato in avanti di 0,9 s (muti: 0,9 s all'inizio e 1,9 s alla fine).
+- Tolto anche dalla **dispensa** (`Letteratura_Lez25_slide.pdf`, pagina 57: immagine e strato di testo invisibile) e dal `.vtt`. Il PDF delle mappe non cambia.
+- Se la master preferisce la voce rigenerata invece del taglio, basta `FIN1_R2` con il testo «Fine della lezione. Grazie per l'attenzione.».
+
+## Non verificato
+Ascolto umano; l'agente separato del §11 non c'è stato (urgenza di 1 ora, superata): ho controllato io sul foglio. La voce COMPITI resta quella di prima (la scheda dei compiti è muta per 60 s, `controllo_rapido` la segnala come l'altra volta se è ancora così).
+
+---
+
 # AGGIORNAMENTO 23/11 (correzioni della master del 22/11 22:50)
 - Schede di titolo, quiz, ripasso, approfondimento, riepilogo e glossario ora **blu scuro a tutto schermo**; negli approfondimenti **tutte le card sono visibili dall'inizio** e si accendono con la voce (niente più schermata con il solo titolo).
 - **Mappa del prof in 3 schermate** (vita/è stato/pensiero; opere-poesie; opere-romanzi/regista) con testo a 40 px, ramo per ramo con la voce R2.

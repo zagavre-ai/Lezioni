@@ -1,7 +1,7 @@
 {
  "materia": "Letteratura italiana (V)",
  "titolo": "Letteratura V · Lezione 25 · Pier Paolo Pasolini",
- "durata_s": 2378.43,
+ "durata_s": 2378.47,
  "argomenti": [
   {
    "n": 1,
@@ -31,12 +31,12 @@
    "n": 5,
    "titolo": "La narrativa e il cinema",
    "inizio_s": 1461.4,
-   "quiz_s": 1830.9
+   "quiz_s": 1833.333
   },
   {
    "n": 6,
    "titolo": "L'ultimo Pasolini",
-   "inizio_s": 1834.5,
+   "inizio_s": 1836.933,
    "quiz_s": 2067.433
   }
  ],
