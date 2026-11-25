@@ -74,3 +74,9 @@ Partiti dai video consegnati; audio copiato senza modifiche (stesse durate: P1 2
 - **Dispensa PDF** (`Letteratura_Lez13_slide.pdf`) **NON rigenerata**: mostra ancora la vecchia slide unica e i vecchi approfondimenti; numeri di pagina del video invariati («Pagina 3» resta su tutte le nuove slide). Da rifare se serve identità dispensa/video.
 - Sottotitoli `.vtt` invariati (audio identico). Nessun controllo indipendente da agente separato (tempo).
 - Tempo oltre l'ora richiesta: la ricodifica e il controllo rapido (OCR) hanno richiesto più del previsto.
+
+## Correzione 25/11 (messaggio master 12:29) · consegna del 25/11/2026 21:40
+**File nuovo: `Letteratura_Lez13_Parte1_1080p.mp4` (a pezzi `.parte_00–02`, sha256 nel file `.sha256`), consegna del 25/11/2026 21:40.** La Parte 2 non è cambiata.
+- **P1 14:02 (842 s):** il riquadro bianco della slide restava sulla scheda scura durante la dissolvenza. Ora le slide nuove del prof si fermano prima della dissolvenza (0,8 s) e ripartono dopo (0,5 s); gli approfondimenti entrano e escono con dissolvenza di 0,3 s. Stessa correzione su tutti gli altri passaggi slide↔approfondimento della P1 (6:22, 10:28, 17:25, 45:… ecc.). Guardati sul foglio e su fotogrammi a 841,5–842,6 s, 673,2–674,1 s, 453,7–454,2 s.
+- Schede di ripasso/glossario/riepilogo/compiti e bande blu: **non rifatte** (non toccate in questa correzione).
+- Controllo rapido P1: **ESITO OK** (−16,5 LUFS, picco −2,4 dBTP, 184 MB, durata invariata 2962,5 s). Restano brevi fantasmi delle vecchie schede (≈0,5 s) nelle dissolvenze originali slide↔approfondimento: non rimossi.
