@@ -62,6 +62,9 @@ def vtt(n, out):
                 if not ws: continue
                 for i, w in enumerate(ws): par.append((t0 + o + a + (b - a) * i / len(ws), w))
                 cues += cues_da_parole(par)
+            if nome == 'compiti' and 'C3_COMPITI_CHIUSURA' in C.VOCI:
+                v3 = voce.get('C3_COMPITI_CHIUSURA'); o3 = o + v['durata'] + 0.7; ws = v3['frasi'][0].split()
+                cues += cues_da_parole([(t0 + o3 + v3['tempi'][0][0] + (v3['tempi'][0][1] - v3['tempi'][0][0]) * i / len(ws), w) for i, w in enumerate(ws)])
     cues.sort()
     with open(out, 'w', encoding='utf8') as f:
         f.write('WEBVTT\n\n')
