@@ -1,80 +1,14 @@
 {
  "tag": "storia-V-lez08",
- "parti": {
-  "1": {
-   "stato": "REVISIONATA",
-   "voci": "kore",
-   "video": "Storia_Lez8_Parte1_1080p.mp4",
-   "durata_s": 3096.1,
-   "durata": "51:36.1",
-   "fotogrammi": 92884,
-   "fotogrammi_attesi": 92884,
-   "peso_MB": 326.2
-  },
-  "2": {
-   "stato": "REVISIONATA",
-   "voci": "kore",
-   "video": "Storia_Lez8_Parte2_1080p.mp4",
-   "durata_s": 3607.3,
-   "durata": "60:07.3",
-   "fotogrammi": 108218,
-   "fotogrammi_attesi": 108219,
-   "peso_MB": 355.3
-  }
- },
+ "parti": {},
  "manca": "",
- "serve_master": [
-  {
-   "quando": "22/11 18:37",
-   "testo": "Storia V lez08: (1) la 3a mappa del PDF del prof (Mussolini: marcia su Roma → incarico di governo) NON ha il titolo-domanda: uso 'Come Mussolini conquista il potere?' o lo lascio senza domanda? Intanto la lascio senza domanda. (2) Il prof ha 3 mappe per 8 argomenti: le metto a fine argomento 3 (Fiume), 4 (nascita fascismo), 8 (Matteotti); le altre senza mappa, non invento. (3) Mi serve la voce nuova BEN (benvenuto senza nome) e SPIEGONE_P2: li mando entro stasera."
-  },
-  {
-   "quando": "22/11 19:13",
-   "testo": "Quiz lez08: per coerenza con le slide del prof (la Legge Acerbo è nella slide del primo governo) ho spostato la domanda sulla Legge Acerbo da Q7 a Q6 (tolta 'triennio di consolidamento') e aggiunto in Q7 una domanda nuova sul 10 giugno 1924 (rapimento e uccisione di Matteotti). Serve la tua approvazione sulla domanda nuova; il file è quiz_argomenti.json sul ramo claude/kind-brahmagupta-edbvi2 in lavoro/storia-V-lez08."
-  },
-  {
-   "quando": "23/11 09:23",
-   "testo": "Lez08 consegnata su revisione-storia-V-lez08 CON DIFETTI NOTI (elenco nel rapporto, sez. 9). Rispettate: slide <=150 s, mappe del prof BES, spiegone P2, voci Kore nuove, -16 LUFS, 51:36 e 60:07. Da correggere: cifre al posto delle lettere sullo schermo nelle schede animate, sigle in R6, colonna Parole chiave tagliata in P2, foto/caption, approfondimenti spogli, sottotitoli. Dimmi se rifaccio ora."
-  }
- ],
+ "serve_master": [],
  "domande_sara": [],
  "note": [
   {
-   "quando": "22/11 18:34",
-   "testo": "correzioni 22/11: presa da claude/kind-brahmagupta-edbvi2"
-  },
-  {
-   "quando": "22/11 18:37",
-   "testo": "Presa. Scaricati video originale (89 min), slide, mappe. Trascrizione in corso; poi testi_voci.json su voci-storia-V-lez08 (nuove: benvenuto senza nome, spiegone Parte 2). Riuso le voci Kore già ricevute (MAP1-3, AN1-14, ecc.)."
-  },
-  {
-   "quando": "22/11 18:50",
-   "testo": "Voci nuove mandate su voci-storia-V-lez08: BEN_R2 (benvenuto senza nome), SPIEGONE_P2, CINTRO_R2, MAP3_R2 (titolo 'Come Mussolini conquista il potere?'). Struttura: 7 argomenti, Parte 1 = argomenti 1-3, Parte 2 = 4-7. Trascrizione fatta, cam 4:3 individuata, ora montaggio con voci provvisorie."
-  },
-  {
-   "quando": "22/11 18:51",
-   "testo": "Mandati anche 8 approfondimenti nuovi AP1-AP8 (40-60 s, solo slide del prof, numeri in lettere): servono per sostituire gli AN vecchi (troppo corti, alcuni con dati non del prof)."
-  },
-  {
-   "quando": "22/11 19:13",
-   "testo": "Pipeline di montaggio pronta e testata (slide a 40 px, riquadro 4:3 con sync esatta, mappe BES ramo per ramo, schede animate). In rendering i pezzi del prof (7 argomenti, 89 min). Poi assemblo Parte 1 e 2 con voci provvisorie dove mancano."
-  },
-  {
-   "quando": "22/11 19:35",
-   "testo": "19:40 UTC: fatti trascrizione, piano tagli (intro 175 s sopra copertina), mappe del prof ridisegnate BES (3), schede animate, 24 pezzi Kore con voci provvisorie dove mancano. In rendering i 7 pezzi del prof (corretto un problema di memoria). Manca: assemblaggio Parti, codifica, controlli, dispensa, sottotitoli; poi sostituzione voci quando arrivano."
-  },
-  {
-   "quando": "22/11 22:20",
-   "testo": "22:40 UTC: Parti 1 e 2 codificate (51:18 e 59:40, -16 LUFS, 321/348 MB) con voci provvisorie. controllo_severo: respinta per slide oltre 3 min e pause: corretto (finestre max 150 s, code piu corte), rifaccio i pezzi del prof (50 min) e riassemblo. Aspetto le voci per sostituirle."
-  },
-  {
-   "quando": "22/11 23:47",
-   "testo": "23:50 UTC: Parti 1 e 2 rifatte e codificate (51:07 e 59:24, -15,9/-16,0 LUFS, 320/347 MB). controllo_severo: slide oltre 3 min e schermate identiche = 0. Restano solo pause >2,5 s (sono le voci Kore provvisorie in silenzio) e 'titolo copertina: italiano' (falso positivo OCR: la copertina è giusta; nella Parte 2 non c'è copertina per regola). Appena arrivano le voci: sostituzione, ricodifica, sottotitoli, dispensa, controllo agente separato, consegna."
-  },
-  {
-   "quando": "23/11 09:23",
-   "testo": "CONSEGNA CON DIFETTI NOTI (vedi RAPPORTO_REVISIONE.md sez. 9): numeri in lettere sullo schermo nelle schede animate, PNF/MVSN non rispiegate in R6, Parole chiave tagliate in alcune slide P2, foto vicine al piede, approfondimenti spogli; sottotitoli da rileggere; quiz Q7 nuovo da approvare. Non e' la dicitura 'correzioni 22/11 fatte': decide la master."
+   "quando": "25/11 18:56",
+   "testo": "Claude 2: inserisco voce COMPITI (parte 2)"
   }
  ],
- "aggiornato": "2026-11-23 09:23:51"
+ "aggiornato": "2026-11-25 18:56:38"
 }
