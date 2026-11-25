@@ -2,10 +2,10 @@
  "tag": "storia-V-lez01",
  "parti": {
   "1": {
-   "stato": "IN_MONTAGGIO"
+   "stato": "REVISIONATA"
   },
   "2": {
-   "stato": "IN_MONTAGGIO"
+   "stato": "REVISIONATA"
   }
  },
  "manca": "",
@@ -36,7 +36,15 @@
   {
    "quando": "25/11 12:15",
    "testo": "Come Parte 1: attendo le voci."
+  },
+  {
+   "quando": "25/11 13:21",
+   "testo": "Parte 1 consegnata su revisione-storia-V-lez01: controllo_rapido ESITO OK, foglio e json, rapporto con limiti (card del prof automatiche, voci non ascoltate)."
+  },
+  {
+   "quando": "25/11 13:21",
+   "testo": "Parte 2 consegnata su revisione-storia-V-lez01: controllo_rapido ESITO OK, foglio e json, rapporto con limiti (card del prof automatiche, voci non ascoltate)."
   }
  ],
- "aggiornato": "2026-11-25 12:15:12"
+ "aggiornato": "2026-11-25 13:21:53"
 }
