@@ -2,122 +2,17 @@
  "tag": "letteratura-V-lez02",
  "parti": {
   "1": {
-   "stato": "REVISIONATA",
-   "voci": "kore",
-   "video": "Letteratura_Lez2_Parte1_1080p.mp4",
-   "durata_s": 3339.4,
-   "durata": "55:39.4",
-   "fotogrammi": 100182,
-   "fotogrammi_attesi": 100182,
-   "peso_MB": 269.3,
-   "vtt": "Letteratura_Lez2_Parte1.vtt"
+   "stato": "IN_CODIFICA"
   }
  },
  "manca": "",
- "serve_master": [
-  {
-   "quando": "16/11 18:19",
-   "testo": "Serve huggingface.co sbloccato (o modello Whisper small) per la trascrizione della revisione lez. 2"
-  },
-  {
-   "quando": "17/11 07:27",
-   "testo": "Voce nuova per la mappa del prof lez. 2: nome RM1 in testi_voci.json del ramo voci-letteratura-V-lez02 (push tra pochi minuti)"
-  },
-  {
-   "quando": "22/11 16:36",
-   "testo": "Voci nuove RN1..RN17 (mappa del prof, una per riquadro) sul ramo voci-letteratura-V-lez02: genera solo quelle. Nota: la mappa del prof ha ~1300 caratteri: a 34 px non entra in una schermata, la divido in due schermate (parte 1: origine/esponenti/poetica; parte 2: principi) salvo tua indicazione contraria"
-  },
-  {
-   "quando": "22/11 16:48",
-   "testo": "Aggiunta voce INTRO2 (benvenuto senza il nome del docente) a testi_voci.json del ramo voci-letteratura-V-lez02, oltre a RN1..RN17: genera INTRO2 e RN1-RN17"
-  },
-  {
-   "quando": "22/11 18:14",
-   "testo": "Il controllo_severo.py e' molto lento qui (OCR su 334 fotogrammi): se potete, accettate anche una verifica con passo 20 s"
-  },
-  {
-   "quando": "22/11 19:10",
-   "testo": "Controllo severo lez.2: 2 residui da riguardare: (1) «…» = ellissi reali della poesia di Praga nelle fettine del libro; (2) 'card sola' sembra una lettura OCR del numero delle card (pagine a 2 card lette come 1): dal manifest nessuna pagina a 1 card >60 s. Rapporto e dati sul ramo revisione-letteratura-V-lez02."
-  }
- ],
+ "serve_master": [],
  "domande_sara": [],
  "note": [
   {
-   "quando": "16/11 18:12",
-   "testo": "chat revisione 2"
-  },
-  {
-   "quando": "16/11 18:19",
-   "testo": "rapporto v1 su revisione-letteratura-V-lez02"
-  },
-  {
-   "quando": "16/11 23:22",
-   "testo": "consegna prevista 06:00 (ora italiana) · 00:22: trascrizione e generatore slide in avvio"
-  },
-  {
-   "quando": "16/11 23:29",
-   "testo": "00:29 trascrizione in corso, allineamento originale, motore slide in scrittura. Consegna prevista 06:00 (ora italiana)"
-  },
-  {
-   "quando": "16/11 23:59",
-   "testo": "00:59: slide nel modello Spagnolo generate (62 pagine), fettine HD pronte, montaggio pezzi in corso. Consegna prevista 06:00 (ora italiana)"
-  },
-  {
-   "quando": "17/11 00:11",
-   "testo": "01:11: codifica dei pezzi in corso (D1-D7 prof 4:3 + slide nuove); PDF slide/mappe, vtt, quiz, compiti pronti. Mappe nel video: la mappa del prof è UNA sola (non una per argomento): DA DECIDERE. Consegna prevista 06:00"
-  },
-  {
-   "quando": "17/11 07:27",
-   "testo": "08:30 (ora italiana): letti gli aggiornamenti 01:20/01:25/01:30/08:15. Consegna prevista 09:35 (ora italiana). In corso: mappa del prof con voce nuova (richiesta alla master), fine pezzi prof a fine frase, dissolvenze, jingle, controlli"
-  },
-  {
-   "quando": "17/11 07:31",
-   "testo": "08:31: rimontaggio con pezzi del prof che finiscono a fine frase (tagli spostati: 380,5->379,53; 499->498,84; 781->780,95; 1223->1223,41; 1324->1324,77; 1816->1820,74), mappe nostre tolte, mappa del prof (voce RM1 richiesta), jingle ripasso e finale aggiunti, dissolvenze. Codifica in corso. Consegna prevista 09:35"
-  },
-  {
-   "quando": "17/11 08:17",
-   "testo": "09:17: trovato nel video vecchio uno sfasamento audio/video progressivo (fino a 1,2 s: jingle Quiz 7 e voci Kore) e corretto rifacendo l'audio dai file originali; ricodifica schede in corso, poi controlli e consegna. Consegna prevista 09:50"
-  },
-  {
-   "quando": "17/11 08:29",
-   "testo": "09:29: REVISIONATA con limiti nel rapporto (silenzi>3s residui 2; frasi del prof spezzate fra D3/D4 e D4/D5; nessun ascolto). Ramo revisione-letteratura-V-lez02. Durata 55:26,8: secondi aggiornati in scheda_pubblicazione.json"
-  },
-  {
-   "quando": "17/11 17:21",
-   "testo": "18:21: ripresa dopo aggiornamenti; correggo le frasi del prof spezzate fra D3/D4 e D4/D5 (tagli a 796,66 e 1226,58 s dell'originale), poi silenzi >3 s e misura sincronia. Consegna prevista tra circa 40 min"
-  },
-  {
-   "quando": "17/11 17:44",
-   "testo": "18:44: consegna v2 su revisione-letteratura-V-lez02: tagli del prof a fine frase, 0 silenzi >3 s, sincronia misurata (audio -20 ms, video 0), jingle Quiz 7/7, secondi aggiornati in scheda"
-  },
-  {
-   "quando": "22/11 16:35",
-   "testo": "correzioni 22/11: presa da revisione-letteratura-V-lez02 (ripresa dalla stessa chat). Consegna prevista 19:00 UTC"
-  },
-  {
-   "quando": "22/11 16:43",
-   "testo": "16:43 UTC: slide rifatte a card (testo 40 px, max 3 card, pagine ≤165 s), mappa del prof in 2 schermate BES (in attesa voci RN1-RN17), codifica D1-D7 in corso. Consegna prevista 19:00 UTC"
-  },
-  {
-   "quando": "22/11 17:00",
-   "testo": "17:00 UTC: 35 pezzi su 49 codificati; mappa del prof in 2 schermate BES con le voci RN1-RN17 (controllate con trascrizione), INTRO2 senza nome del docente. Mancano D4/D7/D6 (lunghi), mappa, mux e controllo severo. Consegna prevista 19:00 UTC"
-  },
-  {
-   "quando": "22/11 18:14",
-   "testo": "18:14 UTC: video v3 montato (55:39, 268 MB); controllo severo in corso (rallentato dall'OCR); poi pacchetto, rapporto e consegna. Consegna prevista 19:15 UTC"
-  },
-  {
-   "quando": "22/11 18:20",
-   "testo": "18:20 UTC: controllo severo: RESPINTA per «card sola» (contrasto numeri card, corretto) e «…» nelle fettine del libro (puntini veri della poesia, falso positivo). Ricodifica D1-D5 e schede, poi nuovo controllo. Consegna prevista 19:15 UTC"
-  },
-  {
-   "quando": "22/11 18:45",
-   "testo": "18:45 UTC: seconda ricodifica delle card (numeri leggibili, 2 card per pagina dove entrano) per il controllo severo; poi mux e nuovo controllo. Consegna prevista 19:20 UTC"
-  },
-  {
-   "quando": "22/11 19:10",
-   "testo": "correzioni 22/11 fatte (19:10 UTC). Controllo severo ancora RESPINTA per 2 voci spiegate nel rapporto: «…» nelle fettine della poesia (puntini veri del libro) e «card sola» (letta dall'OCR sulle pagine a 2 card; dal manifest nessuna pagina a 1 card oltre 54 s). Tutto il resto OK."
+   "quando": "25/11 15:40",
+   "testo": "Correzione urgente: mappa ridisegnata e immagine Praga sostituita; ricodifica in corso"
   }
  ],
- "aggiornato": "2026-11-22 19:10:29"
+ "aggiornato": "2026-11-25 15:40:19"
 }
