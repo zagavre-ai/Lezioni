@@ -1,76 +1,14 @@
 {
  "tag": "storia-V-lez10",
- "parti": {
-  "1": {
-   "stato": "REVISIONATA"
-  },
-  "2": {
-   "stato": "REVISIONATA"
-  }
- },
- "manca": "in corso: codifica dei 10 pezzi del prof (circa 96 min, 2 lavori in parallelo) e dei pezzi Kore con voci provvisorie. Poi: assemblaggio Parte 1 (~62 min) e Parte 2 (~56 min), controlli, dispensa, sottotitoli. Voci reali: appena arrivano le sostituisco.",
- "serve_master": [
-  {
-   "quando": "22/11 18:46",
-   "testo": "Storia V lez10: 1) mappe del prof = solo 3 (partito nazista; come giunge al potere Hitler; regime nazista): le faccio e non invento le altre; la mappa del regime nel PDF non ha titolo-domanda: la lascio senza titolo. 2) «Mappa finale della lezione» (CLAUDE §3.4): con 3 sole mappe del prof, la faccio come ripasso che riprende le 3 mappe finite, senza inventarne: ok? 3) Dalla consegna del 19/11 non ho i file di lavoro: rifaccio tutto dall'originale. Le voci Kore vecchie (BENV, SC*, P*, RI*, GL*, AP*) le riuso solo dopo averle controllate sul parlato del prof."
-  },
-  {
-   "quando": "22/11 19:03",
-   "testo": "storia-V-lez10: voci nuove inviate su voci-storia-V-lez10 (testi_voci.json, 17 voci nuove in coda alle 95 esistenti): BENV2, SPG2 (spiegone Parte 2), MAP1N/2N/3N (mappe del prof), VER, C1-C4 (compiti), e 7 rifacimenti con le sigle rispiegate (P4_R2, SC3_1_R2, SC4_5_R2, SC5_1_R2, SC6_5_R2, SC7_1_R2, RF1_R2). Le altre voci vecchie (BENV, AP1-8, P*, SC*, GL*, RF2, FIN*, CINTRO) le riuso dopo averle riverificate. Mappa 3: il prof non ha la domanda: titolo mio «Come funziona il regime nazista?» (lo dichiaro nel rapporto). Confine Parti: dopo l'argomento 4 (Parte 1 ~63 min, Parte 2 ~55 min)."
-  },
-  {
-   "quando": "23/11 00:07",
-   "testo": "STATO 00:10 UTC. Controllo severo su entrambe le Parti: RESPINTA (schermate ferme per pagina, copertina 260 s, pause da voci provvisorie). Corretto: pagina nuova a ogni stato, introduzione sulla copertina portata a 157 s, compiti con voce unica COMPITI (aggiunta a testi_voci.json). Ricostruzione in corso. Aspetto le voci domattina, poi montaggio finale, controllo_rapido e agente separato. Parte 1 dura 62 min."
-  },
-  {
-   "quando": "23/11 04:03",
-   "testo": "STATO 04:25 UTC. Controllo severo sulle Parti con voci provvisorie: restano solo pause mute dovute alle voci provvisorie (schermate ferme, copertina, titoli ora a posto). Schede quiz accorciate a 4,2 s per evitare pause mute. Dispensa e mappe PDF rifatti. Compiti con voce unica COMPITI. Mi fermo fino alle voci (ore 9 italiane), poi montaggio finale, controllo_rapido e agente separato."
-  },
-  {
-   "quando": "23/11 08:25",
-   "testo": "08:30 UTC. Ricevute 7 voci (COMPITI, SPG2, VER, MAP2N, SC3_1_R2, SC5_1_R2, SC7_1_R2): controllate, bordi sotto 0,03, testo ok. MANCANO 7 voci dal mio testi_voci.json: BENV2, MAP1N, MAP3N, P4_R2, SC4_5_R2, SC6_5_R2, RF1_R2. Senza queste non posso consegnare alle 11:00 italiane. Montaggio finale richiede circa 45 minuti: devo avere le voci entro le 09:00 UTC (10:00 italiane). Intanto monto il resto."
-  },
-  {
-   "quando": "23/11 09:17",
-   "testo": "09:20 UTC. Tutte le voci ricevute e controllate. Un mio processo di montaggio si era fermato: ricostruisco i pezzi Kore (circa 20 minuti), poi montaggio finale delle due Parti (circa 40 minuti), controllo e consegna. Prevedo consegna tra le 10:30 e le 10:45 UTC, cioè un po' oltre le 11:00 italiane. Lo dico ora per tempo."
-  },
-  {
-   "quando": "23/11 09:58",
-   "testo": "10:00 UTC. Montaggio finale delle due Parti con le voci Kore vere pronto (Parte 1 e Parte 2). Ora controllo severo, controllo rapido e agente separato; consegna prevista entro 10:45 UTC."
-  },
-  {
-   "quando": "23/11 10:26",
-   "testo": "10:30 UTC. Controllo severo sulle Parti con voci vere: restavano 3 difetti (mappe con 5 s di silenzio finale, e una falsa segnalazione di schermata ferma legata a un fotogramma di dissolvenza). Corretto: sulla fermata finale delle mappe suona il jingle di ripasso, schede titolo 4,3 s. Rimonto le due Parti (circa 40 minuti) e rifaccio i controlli. Consegna prevista circa 11:30 UTC. Mi scuso per il ritardo."
-  },
-  {
-   "quando": "23/11 12:17",
-   "testo": "CONSEGNATA (ora circa 12:40 UTC, oltre le 11:00 italiane: ritardo per rifacimenti dei controlli). Ramo revisione-storia-V-lez10, commit 8e99fcc. Parti 1 e 2 REVISIONATE: controllo_rapido OK, controllo_severo OK, picco < -1 dBTP, nessuna pausa muta. Foglio fotogrammi e json sul ramo. Controllo separato fatto (CONTROLLO_SEPARATO.md). RESIDUI per te (RAPPORTO sez. 9): 1) card che sono solo intestazione del prof (Parte 1 32:21-37:31, Parte 2 31:22): servirebbe rifare le slide; 2) solo 3 mappe del prof, nessuna mappa finale; 3) Parte 1 dura 62 min; 4) voci Kore non ascoltate da me, solo confronto automatico. Resto in attesa di APPROVATA."
-  }
- ],
+ "parti": {},
+ "manca": "",
+ "serve_master": [],
  "domande_sara": [],
  "note": [
   {
-   "quando": "22/11 18:35",
-   "testo": "correzioni 22/11: presa da claude/focused-newton-wwgce9"
-  },
-  {
-   "quando": "22/11 18:37",
-   "testo": "22/11 18:50 avviata: materiali scaricati, riparto dall'originale (i file di lavoro del 19/11 non ci sono)"
-  },
-  {
-   "quando": "22/11 19:31",
-   "testo": "22/11 ~21:00 italiane: trascrizione e struttura fatte (8 argomenti, evidenze per evitare schermate identiche >3 min misurate con la stessa soglia del controllo severo: max 146 s); slide, mappe BES, schede blu, approfondimenti, schemi pronti; montaggio in corso"
-  },
-  {
-   "quando": "23/11 12:17",
-   "testo": "correzioni 22/11 fatte. Ramo revisione-storia-V-lez10. controllo_rapido OK e controllo_severo OK su entrambe le Parti. Residui dichiarati nel RAPPORTO_REVISIONE.md sez. 9 (card solo intestazione, Parte 1 a 62 min, 3 mappe del prof)."
-  },
-  {
-   "quando": "23/11 12:17",
-   "testo": "correzioni 22/11 fatte. Ramo revisione-storia-V-lez10. controllo_rapido OK e controllo_severo OK su entrambe le Parti. Residui dichiarati nel RAPPORTO_REVISIONE.md sez. 9 (card solo intestazione, Parte 1 a 62 min, 3 mappe del prof)."
+   "quando": "25/11 20:02",
+   "testo": "25/11 Claude 2: tolto frammento 'Allora' a 45:14 (P1) e scatto a 51:28 (P2); durata identica; controllo rapido OK; vedi RAPPORTO_REVISIONE.md"
   }
  ],
- "materia": "Storia V",
- "lezione": "Lezione 10 · La Germania da Weimar al nazismo",
- "aggiornato": "2026-11-23 12:17:56"
+ "aggiornato": "2026-11-25 20:02:02"
 }
