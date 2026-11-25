@@ -1,114 +1,14 @@
 {
  "tag": "letteratura-V-lez09",
- "parti": {
-  "1": {
-   "stato": "IN_REVISIONE",
-   "video": "Letteratura_Lez9_Parte1_1080p.mp4",
-   "durata_s": 3230.6,
-   "durata": "53:50.6",
-   "fotogrammi": 96918,
-   "fotogrammi_attesi": 96918,
-   "peso_MB": 220.8
-  },
-  "2": {
-   "stato": "IN_REVISIONE",
-   "video": "Letteratura_Lez9_Parte2_1080p.mp4",
-   "durata_s": 3216.2,
-   "durata": "53:36.2",
-   "fotogrammi": 96485,
-   "fotogrammi_attesi": 96485,
-   "peso_MB": 262.4
-  }
- },
+ "parti": {},
  "manca": "",
- "serve_master": [
-  {
-   "quando": "22/11 16:55",
-   "testo": "lez09: rigenerare le voci R15, R16, R17 (testi gia' su voci-letteratura-V-lez09): R5/R6/R2 sono troncate (bordi >0,03). Servono entro le 19:00 UTC; intanto monto con le attuali + dissolvenza 30 ms"
-  },
-  {
-   "quando": "22/11 17:01",
-   "testo": "lez09: aggiunte voci R18, R19, R20 (benvenuto P1 senza nome docente, argomenti P2, apertura spiegone P2) oltre a R15-R17: tutte su voci-letteratura-V-lez09, servono entro 19:00 UTC"
-  },
-  {
-   "quando": "22/11 18:37",
-   "testo": "Rischio ritardo: restano ~50 min; consegno comunque entro 19:30 UTC con i limiti nel rapporto"
-  },
-  {
-   "quando": "23/11 11:11",
-   "testo": "Per chiudere serve ricostruzione completa (cache slide con nome nel piè, schede quiz blu, pause): ~2 ore di calcolo. Procedo? Altrimenti dimmi cosa tenere."
-  }
- ],
+ "serve_master": [],
  "domande_sara": [],
  "note": [
   {
-   "quando": "16/11 18:15",
-   "testo": "chat revisione 9"
-  },
-  {
-   "quando": "16/11 23:24",
-   "testo": "consegna prevista 06:24 (ora italiana). Whisper via trascrivi.py in corso, poi verifica A+B+C+D"
-  },
-  {
-   "quando": "16/11 23:37",
-   "testo": "avanzamento: trascrizione P1 a 40/55 min; trovato: originale 69 min = D contigui, offset allineati; pptx prof con fettine HD; mappa prof da rifare (le nostre erano inventate/vuote); template Spagnolo pronti. Consegna prevista invariata"
-  },
-  {
-   "quando": "16/11 23:53",
-   "testo": "rapporto v1 pushato su revisione-letteratura-V-lez09 (2h). Ora: rimontaggio nel modello, stessi fotogrammi"
-  },
-  {
-   "quando": "17/11 00:15",
-   "testo": "20min: piano di rimontaggio pronto (stessi fotogrammi P1 99554 / P2 99290), voci R1-R14 richieste, slide P1 renderizzate, montaggio P1 in corso"
-  },
-  {
-   "quando": "17/11 07:29",
-   "testo": "consegna prevista 09:39 (ora italiana). Letti aggiornamenti 01:20/01:25/01:30/08:15."
-  },
-  {
-   "quando": "17/11 07:53",
-   "testo": "08:55 It: Parte 1 in montaggio (pezzi del prof con riquadro 4:3, slide Spagnolo, fettine HD, mappe del prof); Parte 2 segue. Consegna prevista 09:35 It. Voci R1-R14 chieste, non ancora arrivate"
-  },
-  {
-   "quando": "17/11 08:31",
-   "testo": "09:35 It: Parte 1 montata (96918 fotogrammi, 53:50, voci R1-R14 inserite, mappe del prof), controlli in corso. Parte 2 in codifica. Consegna prevista 10:00 It"
-  },
-  {
-   "quando": "17/11 17:39",
-   "testo": "REVISIONATA con limiti (vedi RAPPORTO §5): P1 53:50,6 / P2 53:36,2; sottotitoli del prof non riletti; transizioni solo dissolvenza da bianco; voci R non ascoltate"
-  },
-  {
-   "quando": "17/11 17:39",
-   "testo": "consegnata sul ramo revisione-letteratura-V-lez09 (rapporto v2)"
-  },
-  {
-   "quando": "22/11 16:37",
-   "testo": "correzioni 22/11: presa da revisione-letteratura-V-lez09 (macchina ancora attiva, w9 integro). Consegna prevista 20:15 It"
-  },
-  {
-   "quando": "22/11 16:37",
-   "testo": "correzioni 22/11: presa"
-  },
-  {
-   "quando": "22/11 16:51",
-   "testo": "18:00 It correzioni 22/11: nuove slide (testo 40 px, max 3 card intere, nessuna slide oltre 3 min con inserti dal parlato del prof), mappa unica del prof nel modello BES (3 schermate, prima del glossario in P1), copertina prof 170 s poi argomenti. Montaggio in corso (P1+P2). Consegna prevista 20:15 It"
-  },
-  {
-   "quando": "22/11 17:41",
-   "testo": "correzioni 22/11: P1 segmenti 32/ok, P2 19; poi audio, mux, controllo severo. Consegna prevista 19:15 UTC (20:15 It)"
-  },
-  {
-   "quando": "22/11 18:37",
-   "testo": "correzioni 22/11: video assemblati; controllo severo prima prova RESPINTA (copertina P1 202s, pause quiz/titoli); correggo copertina e nome nel piede; consegna prevista 19:25 UTC"
-  },
-  {
-   "quando": "22/11 19:22",
-   "testo": "correzioni 22/11 fatte. P1 53:28, P2 55:37. Controllo severo NON OK (pause quiz/prof, elenco 24px): vedi RAPPORTO"
-  },
-  {
-   "quando": "23/11 11:11",
-   "testo": "controllo_rapido: pause mute P1 9, P2 12 (ESITO DA CORREGGERE). Foglio+json+nomi _ParteN consegnati sul ramo. Restano: schede quiz/ripasso in blu scuro, pause, piè di pagina rigenerato"
+   "quando": "25/11 16:35",
+   "testo": "25/11 correzioni fatte: mappa ridisegnata e testi T2/L'assiuolo ingranditi, P1+P2 su revisione-letteratura-V-lez09. controllo_rapido = DA CORREGGERE solo per pause mute (le stesse di prima; 6 nella mappa di 5,6-6,2 s: serve voce o taglio, decide la master)."
   }
  ],
- "aggiornato": "2026-11-23 11:11:11"
+ "aggiornato": "2026-11-25 16:35:02"
 }
