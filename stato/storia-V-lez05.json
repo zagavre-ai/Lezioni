@@ -728,9 +728,13 @@
   {
    "quando": "26/11 20:51",
    "testo": "IN_REVISIONE · Storia V CHAT 2 (26/11 21:00 UTC): presa per i punti dell'elenco DIFETTI (grafica, glossario). Verifico prima di toccare."
+  },
+  {
+   "quando": "26/11 20:51",
+   "testo": "Storia V CHAT 2 (26/11 21:10 UTC): controllata sull'elenco DIFETTI. Glossario non a 1-4 termini: GL1 ne ha 6+ (55 s), GL2 ne ha 7+ (70 s). Grafica già nel modello (fondo bianco, prof 4:3, fascia gialla, ripassi blu a tutto schermo). Nessuna correzione necessaria; il blu più scuro e animato lo fa la master. Non ho toccato il ramo."
   }
  ],
  "materia": "storia-V",
  "lezione": "5",
- "aggiornato": "2026-11-26 20:51:29"
+ "aggiornato": "2026-11-26 20:51:54"
 }
