@@ -63,7 +63,7 @@ Esito dell'ultima esecuzione: vedi la riga finale in `controllo_severo_esito.txt
 - **Non verificato:** ascolto umano delle giunzioni (23:19, 25:51); sync labbra e sottotitoli non rimisurati.
 
 ## 7. Correzioni di Sara del 26/11 (terza versione)
-**File nuovo: `Letteratura_Lez3_Parte1_1080p.mp4` (4 pezzi `.parte_00…03` + `.sha256`), consegnato il 26/11/2026 alle 12:27 UTC.** sha256 `7e0c169ec4704af1ea65c55e9550db826df913ec2dc8eaf79a349639e2c63769`.
+**File nuovo: `Letteratura_Lez3_Parte1_1080p.mp4` (3 pezzi `.parte_00…02` + `.sha256`), consegnato il 26/11/2026 alle 12:27 UTC.** sha256 `7e0c169ec4704af1ea65c55e9550db826df913ec2dc8eaf79a349639e2c63769`.
 **Nuova durata: 3957,9 s = 65:57,9** (118 736 fotogrammi; prima 64:46,7). Oltre i 65 minuti per via dei compiti letti da Kore (76,5 s): decide la master se dividere in due Parti.
 1. **Schema di ripasso 2 (30:10):** tolto «va bene» che il prof diceva sopra la scheda e 2,0 s di scheda muta (taglio nel silenzio −57 dB, 30:12,4–30:14,4). L'ultima frase del prof finisce intera («…tutte le sue fasi e alcuni testi.» a 30:12,1). **Resta:** la scheda blu entra alla stessa posizione di prima, cioè durante «…tutte le sue fasi e alcuni testi» (dissolvenza 30:10,4–30:10,9): per non averla sopra la voce servirebbe il video del prof nel pezzo coperto, che non ho. La scheda non è stata toccata.
 2. **Schema di ripasso 3 (47:01):** la scheda parte 2,4 s prima: tolti i secondi muti del prof (taglio in silenzio digitale, 46:59,2–47:01,6 del video precedente; dissolvenza di 0,2 s tra due fotogrammi del prof fermo). Scheda e sua voce non toccate. Inoltre accorciata di 1,5 s la pausa muta di 2,8 s prima del Quiz 3 (nella scheda, −45 dB).
