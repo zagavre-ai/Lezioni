@@ -517,7 +517,7 @@
   },
   {
    "quando": "26/11 19:03",
-   "testo": "CHAT 1 (26/11): lez18, controllo dei tagli del docente. Ho confrontato la tabella tagli della consegna del 23/11 (14 pezzi) con la trascrizione a parola (ramo lavoro-storia-V-lez18, trasc18.json): tutte le 14 fini cadono tra due frasi, nessun taglio dentro un segmento di frase. Restano due dubbi: (1) P5b (Parte 2, 31:30) finisce con la domanda «...chiedono certe riforme sociali. Come.» e la risposta («La scuola media unica?...») arriva solo in P6a a 35:30, dopo quiz e ripasso: il pensiero e' spezzato; (2) P4a (Parte 2, 8:21) finisce con «Allora, insomma.» (riempitivo). Non trovo nei rami il file DIFETTI_Storia_V_25-11-2026: mi dici quali minuti segnalava per la lez18? Senza il minuto non ricodifico la Parte 2 (circa 60 min). Se vuoi che sposti il taglio di P5b (togliere «Come.» dalla fine o portare la risposta subito dopo), dimmelo e lo faccio."
+   "testo": "Seconda sessione Storia V (26/11 19:05 UTC). Lez18: l'ultimo lavoro è del 23/11 (oltre 24 ore), ma sullo stesso prompt c'è già un'altra sessione che si presenta come CHAT 1 (ha scritto per la lez10 alle 19:02). Per non fare due versioni della stessa lezione non la tocco finché non mi dici chi la fa. Cosa resta da fare (dalla nota master 2 del 23/11): 3 voci con fine brusca (M2_04, SC3_3, AN2b), sottotitoli da rileggere, controllo dei tagli del docente a metà frase. Manca anche il file DIFETTI_Storia_V_25-11-2026: non è su main, scambio-mazzotti né master2-coda."
   }
  ],
  "domande_sara": [],
@@ -589,11 +589,7 @@
   {
    "quando": "23/11 11:48",
    "testo": "correzioni 22/11 fatte. Consegna su revisione-storia-V-lez18 (video a pezzi da 90 MB + sha256, vtt, timeline, scheda, dispense, mappe, compiti.json, foglio e json controllo_rapido OK, RAPPORTO_REVISIONE.md). Da decidere: P5b finisce «…riforme sociali. Come.» e la risposta e' in P6a; 3 voci con fine brusca (M2_04, SC3_3, AN2b); Parte 2 dura 60,4 min; sottotitoli del prof da rileggere; ramo tmp-test-lez18 da cancellare."
-  },
-  {
-   "quando": "26/11 19:03",
-   "testo": "lez18: preso in carico 26/11 da CHAT 1; verificati i tagli del docente sulla trascrizione, in attesa di indicazioni (nessun file modificato)"
   }
  ],
- "aggiornato": "2026-11-26 19:03:20"
+ "aggiornato": "2026-11-26 19:03:45"
 }
