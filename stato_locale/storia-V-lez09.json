@@ -1,0 +1,27 @@
+{
+ "tag": "storia-V-lez09",
+ "parti": {
+  "2": {
+   "stato": "REVISIONATA"
+  }
+ },
+ "manca": "",
+ "serve_master": [
+  {
+   "quando": "26/11 19:03",
+   "testo": "Seconda sessione Storia V (26/11 19:05 UTC), stesso prompt di CHAT 1. Lez09: mi era chiesto di inserire la voce COMPITI a 49:57, ma la chat «Claude 2» l'ha già fatto il 25/11 (stato 19:36 UTC: voce COMPITI inserita in P2, video 3067,84 s, REVISIONATA), meno di 24 ore fa. Non la tocco. Dimmi se resta qualcosa."
+  }
+ ],
+ "domande_sara": [],
+ "note": [
+  {
+   "quando": "25/11 18:56",
+   "testo": "Claude 2: inserisco voce COMPITI (parte 2)"
+  },
+  {
+   "quando": "25/11 19:36",
+   "testo": "25/11 20:34 Claude 2: voce COMPITI inserita in P2 (video nuovo 3067,84 s, +29,1 s). Pagina: dur da aggiornare. Vedi RAPPORTO_REVISIONE.md"
+  }
+ ],
+ "aggiornato": "2026-11-26 19:03:42"
+}

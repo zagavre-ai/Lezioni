@@ -1,0 +1,595 @@
+{
+ "tag": "storia-V-lez18",
+ "parti": {
+  "1": {
+   "stato": "REVISIONATA",
+   "titolo": "L'Italia repubblicana · Parte 1",
+   "voci": "kore",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "si",
+   "video": "Storia_Lez18_Parte1_1080p.mp4",
+   "durata_s": 3013.2,
+   "durata": "50:13.2",
+   "fotogrammi": 90394,
+   "fotogrammi_attesi": 90395,
+   "peso_MB": 367.9,
+   "vtt": "Storia_Lez18_Parte1.vtt",
+   "scheda": {
+    "materia": "Storia",
+    "titolo": "L'Italia repubblicana · Parte 1",
+    "durata_s": 3013.17,
+    "argomenti": [
+     {
+      "n": 1,
+      "titolo": "Un Paese da ricostruire",
+      "inizio_s": 220.933,
+      "quiz_s": 1050.133
+     },
+     {
+      "n": 2,
+      "titolo": "La nascita della Repubblica",
+      "inizio_s": 1189.067,
+      "quiz_s": 2530.9
+     },
+     {
+      "n": 3,
+      "titolo": "La Costituzione",
+      "inizio_s": 2659.067,
+      "quiz_s": 2821.933
+     }
+    ],
+    "quiz": {
+     "Q1": {
+      "title": "Quiz 1 · Un Paese da ricostruire",
+      "items": [
+       {
+        "p": "Che cosa lasciano in Italia i bombardamenti e la guerra?",
+        "a": "Fabbriche e infrastrutture devastate e produzione ferma",
+        "w": [
+         "Un forte aumento della produzione industriale",
+         "Abbondanza di beni di prima necessità",
+         "La fine del mercato nero"
+        ],
+        "e": "L'Italia esce dalla guerra con fabbriche e infrastrutture devastate, produzione ferma e carenza di beni di prima necessità."
+       },
+       {
+        "p": "Che cos'è il mercato nero?",
+        "a": "La vendita di beni a prezzi altissimi, fuori dal controllo dello Stato",
+        "w": [
+         "Un mercato organizzato dagli Alleati",
+         "Una fiera dei prodotti agricoli",
+         "Un sistema di prezzi politici garantito dal governo"
+        ],
+        "e": "Con scarsità di beni e inflazione, il mercato nero fa da padrone e propone i prodotti a prezzi altissimi."
+       },
+       {
+        "p": "Che cosa accade nel Centro-Nord nel clima di violenza del dopoguerra?",
+        "a": "Regolamenti di conti contro gli ex fascisti",
+        "w": [
+         "Occupazioni delle terre dei latifondisti",
+         "Nascita della Cassa per il Mezzogiorno",
+         "Un referendum sulla forma dello Stato"
+        ],
+        "e": "Nel Centro-Nord si verificano regolamenti di conti contro gli ex fascisti."
+       },
+       {
+        "p": "Che cosa accade nel Sud nel clima di violenza del dopoguerra?",
+        "a": "I contadini occupano le terre dei latifondisti",
+        "w": [
+         "Si costruiscono le prime grandi fabbriche",
+         "Si vota per il Patto Atlantico",
+         "Arriva il Piano Marshall"
+        ],
+        "e": "Nel Sud esplodono i disordini legati alle occupazioni delle terre dei latifondisti da parte dei contadini."
+       },
+       {
+        "p": "Che cosa sono le decimazioni delle rappresaglie tedesche?",
+        "a": "Per ogni tedesco morto, dieci italiani fucilati",
+        "w": [
+         "Per ogni italiano morto, dieci tedeschi fucilati",
+         "La deportazione di tutti i civili di un paese",
+         "La confisca dei beni dei partigiani"
+        ],
+        "e": "Le rappresaglie naziste prevedevano di fucilare dieci italiani per ogni tedesco morto."
+       }
+      ]
+     },
+     "Q2": {
+      "title": "Quiz 2 · La nascita della Repubblica",
+      "items": [
+       {
+        "p": "Chi guida la Democrazia Cristiana nel dopoguerra?",
+        "a": "Alcide De Gasperi",
+        "w": [
+         "Palmiro Togliatti",
+         "Pietro Nenni",
+         "Amintore Fanfani"
+        ],
+        "e": "La scena politica vede il protagonismo della DC guidata da Alcide De Gasperi."
+       },
+       {
+        "p": "Che cosa promuove Togliatti come ministro della Giustizia?",
+        "a": "Un'amnistia per i reati politici commessi durante la guerra",
+        "w": [
+         "Un processo ai fascisti sul modello di Norimberga",
+         "La nazionalizzazione dell'energia elettrica",
+         "L'abolizione del referendum"
+        ],
+        "e": "L'amnistia serve alla pacificazione nazionale e alla stabilità dello Stato; per questo in Italia non ci sarà un processo come quello di Norimberga."
+       },
+       {
+        "p": "Quando si svolge il referendum istituzionale?",
+        "a": "Il 2 giugno 1946",
+        "w": [
+         "Il 25 aprile 1945",
+         "Il 1° gennaio 1948",
+         "Il 18 aprile 1948"
+        ],
+        "e": "La svolta istituzionale avviene il 2 giugno 1946 con il referendum."
+       },
+       {
+        "p": "Qual è l'esito del referendum?",
+        "a": "Vince la Repubblica, con circa 12 milioni di voti contro circa 10",
+        "w": [
+         "Vince la Monarchia, con circa 12 milioni di voti contro 10",
+         "Vince la Repubblica, ma all'unanimità",
+         "Il risultato viene annullato"
+        ],
+        "e": "La Repubblica ottiene circa 12 milioni di voti contro i circa 10 milioni della Monarchia."
+       },
+       {
+        "p": "Che cosa c'è di nuovo nel voto del 2 giugno 1946?",
+        "a": "Per la prima volta votano anche le donne",
+        "w": [
+         "Votano solo i capifamiglia",
+         "Si vota soltanto nel Nord",
+         "I partiti scelgono al posto degli elettori"
+        ],
+        "e": "Per la prima volta votano anche le donne, e nasce l'Assemblea Costituente."
+       }
+      ]
+     },
+     "Q3": {
+      "title": "Quiz 3 · La Costituzione",
+      "items": [
+       {
+        "p": "Quante donne ci sono tra i membri dell'Assemblea Costituente?",
+        "a": "21",
+        "w": [
+         "2",
+         "55",
+         "556"
+        ],
+        "e": "Tra i 556 membri dell'Assemblea Costituente ci sono 21 donne, le madri costituenti."
+       },
+       {
+        "p": "Quale di queste è una madre costituente?",
+        "a": "Nilde Iotti",
+        "w": [
+         "Maria Montessori",
+         "Grazia Deledda",
+         "Rita Levi-Montalcini"
+        ],
+        "e": "Tra le madri costituenti ci sono Nilde Iotti, Lina Merlin e Teresa Mattei."
+       },
+       {
+        "p": "Quando entra in vigore la Costituzione?",
+        "a": "Il 1° gennaio 1948",
+        "w": [
+         "Il 2 giugno 1946",
+         "Il 18 aprile 1948",
+         "Il 25 aprile 1945"
+        ],
+        "e": "La Costituzione entra in vigore il 1° gennaio 1948."
+       },
+       {
+        "p": "Come definisce l'Italia la Costituzione?",
+        "a": "Una repubblica democratica fondata sul lavoro",
+        "w": [
+         "Una monarchia costituzionale fondata sul lavoro",
+         "Una repubblica presidenziale fondata sull'industria",
+         "Una repubblica federale fondata sulla religione"
+        ],
+        "e": "La Costituzione definisce l'Italia una repubblica democratica fondata sul lavoro."
+       },
+       {
+        "p": "A chi spetta il potere esecutivo?",
+        "a": "Al Governo",
+        "w": [
+         "Al Parlamento",
+         "Alla Magistratura",
+         "All'Assemblea Costituente"
+        ],
+        "e": "Il potere legislativo spetta al Parlamento, quello esecutivo al Governo, quello giudiziario alla Magistratura."
+       }
+      ]
+     }
+    }
+   },
+   "timeline": [
+    [
+     "T1",
+     220.933,
+     4.0
+    ],
+    [
+     "Q1",
+     1050.133,
+     5.0
+    ],
+    [
+     "T2",
+     1189.067,
+     4.0
+    ],
+    [
+     "T3",
+     2659.067,
+     4.0
+    ],
+    [
+     "GL1",
+     2936.967,
+     33.967
+    ],
+    [
+     "RF1",
+     2970.933,
+     37.233
+    ],
+    [
+     "FI",
+     3008.167,
+     5.0
+    ]
+   ]
+  },
+  "2": {
+   "titolo": "L'Italia repubblicana · Parte 2",
+   "stato": "REVISIONATA",
+   "voci": "kore",
+   "quiz_ok": "si",
+   "fermi_ok": "si",
+   "sub_ok": "si",
+   "video": "Storia_Lez18_Parte2_1080p.mp4",
+   "durata_s": 3625.6,
+   "durata": "60:25.6",
+   "fotogrammi": 108767,
+   "fotogrammi_attesi": 108768,
+   "peso_MB": 374.8,
+   "vtt": "Storia_Lez18_Parte2.vtt",
+   "scheda": {
+    "materia": "Storia",
+    "titolo": "L'Italia repubblicana · Parte 2",
+    "durata_s": 3625.6,
+    "argomenti": [
+     {
+      "n": 4,
+      "titolo": "Il Centrismo (1948-1953)",
+      "inizio_s": 112.867,
+      "quiz_s": 1114.467
+     },
+     {
+      "n": 5,
+      "titolo": "Il miracolo economico",
+      "inizio_s": 1248.067,
+      "quiz_s": 2000.333
+     },
+     {
+      "n": 6,
+      "titolo": "Il Centrosinistra (1953-1963)",
+      "inizio_s": 2126.033,
+      "quiz_s": 2974.9
+     }
+    ],
+    "quiz": {
+     "Q4": {
+      "title": "Quiz 4 · Il Centrismo (1948-1953)",
+      "items": [
+       {
+        "p": "Che cosa perde l'Italia con la pace di Parigi?",
+        "a": "Le colonie, tra cui Libia, Etiopia e Somalia, e altri territori",
+        "w": [
+         "La Sicilia e la Sardegna",
+         "Il Trentino e il Veneto",
+         "Soltanto la flotta"
+        ],
+        "e": "L'Italia perde le colonie e altri territori; a differenza della Germania, però, non viene divisa."
+       },
+       {
+        "p": "Come viene divisa la città di Trieste?",
+        "a": "In una zona A angloamericana e una zona B jugoslava",
+        "w": [
+         "In una zona italiana e una francese",
+         "In una zona sovietica e una americana",
+         "Non viene divisa"
+        ],
+        "e": "Trieste viene divisa in una zona A, angloamericana, che passerà all'Italia, e una zona B, jugoslava."
+       },
+       {
+        "p": "Quale percentuale di voti ottiene la DC nel 1948?",
+        "a": "Circa il 48%",
+        "w": [
+         "Circa il 12%",
+         "Circa il 25%",
+         "Circa il 70%"
+        ],
+        "e": "La DC ottiene circa il 48% dei voti, quasi la maggioranza assoluta."
+       },
+       {
+        "p": "In che cosa consiste la riforma agraria?",
+        "a": "Nella ridistribuzione delle terre ai contadini",
+        "w": [
+         "Nella nazionalizzazione delle fabbriche",
+         "Nell'introduzione della scuola media unica",
+         "Nell'estensione del voto alle donne"
+        ],
+        "e": "La riforma agraria ridistribuisce le terre; nasce anche la Cassa per il Mezzogiorno."
+       },
+       {
+        "p": "Quale scelta di politica estera compie l'Italia?",
+        "a": "L'integrazione nel blocco occidentale: Piano Marshall, Patto Atlantico e CECA",
+        "w": [
+         "L'alleanza con l'Unione Sovietica",
+         "La neutralità assoluta",
+         "L'adesione al blocco orientale"
+        ],
+        "e": "L'Italia sceglie il blocco occidentale, aderendo al Piano Marshall e al Patto Atlantico e partecipando alla nascita della CECA."
+       }
+      ]
+     },
+     "Q5": {
+      "title": "Quiz 5 · Il miracolo economico",
+      "items": [
+       {
+        "p": "Quando si colloca il boom economico italiano?",
+        "a": "Tra gli anni Cinquanta e Sessanta, soprattutto nel quinquennio 1958-1963",
+        "w": [
+         "Tra il 1919 e il 1925",
+         "Tra il 1939 e il 1945",
+         "Dopo il 1989"
+        ],
+        "e": "Tra gli anni '50 e '60 l'Italia vive una crescita industriale eccezionale; il boom vero e proprio è il quinquennio 1958-1963."
+       },
+       {
+        "p": "Quale automobile è il simbolo del boom economico?",
+        "a": "La Fiat 500",
+        "w": [
+         "L'Alfa Romeo Giulia",
+         "La Lancia Aurelia",
+         "La Vespa"
+        ],
+        "e": "La crescita è trainata dall'automobilistico, simboleggiato dalla Fiat 500."
+       },
+       {
+        "p": "Quali settori trainano la crescita industriale?",
+        "a": "Automobilistico, siderurgia e chimica",
+        "w": [
+         "Pesca, artigianato e agricoltura",
+         "Solo il turismo",
+         "Solo l'edilizia"
+        ],
+        "e": "La crescita è trainata dai settori automobilistico, siderurgico e chimico."
+       },
+       {
+        "p": "Quale criticità accentua il boom?",
+        "a": "Il divario economico tra Nord industrializzato e Sud agricolo",
+        "w": [
+         "La riduzione dei consumi",
+         "La chiusura delle fabbriche del Nord",
+         "Il ritorno alla vita rurale"
+        ],
+        "e": "Si accentua il divario tra Nord e Sud e parte una massiccia migrazione interna."
+       },
+       {
+        "p": "Che cosa causa la crescita caotica delle grandi città del Nord?",
+        "a": "Problemi di integrazione, povertà suburbana e speculazione edilizia",
+        "w": [
+         "Il blocco delle nuove costruzioni",
+         "Un calo della popolazione",
+         "La chiusura delle periferie"
+        ],
+        "e": "Le città crescono in modo caotico: integrazione difficile, povertà suburbana e speculazione edilizia (cementificazione)."
+       }
+      ]
+     },
+     "Q6": {
+      "title": "Quiz 6 · Il Centrosinistra (1953-1963)",
+      "items": [
+       {
+        "p": "Chi guida i governi di centrosinistra?",
+        "a": "Amintore Fanfani e Aldo Moro",
+        "w": [
+         "Alcide De Gasperi e Luigi Einaudi",
+         "Palmiro Togliatti e Pietro Nenni",
+         "Ferruccio Parri e Giovanni Giolitti"
+        ],
+        "e": "I governi di centrosinistra sono guidati da Amintore Fanfani e Aldo Moro."
+       },
+       {
+        "p": "Verso quale partito si apre la DC nel centrosinistra?",
+        "a": "Verso il Partito socialista (PSI)",
+        "w": [
+         "Verso il Partito comunista (PCI)",
+         "Verso il Partito monarchico",
+         "Verso il Partito liberale"
+        ],
+        "e": "La DC avvia un'apertura verso i socialisti per allargare la base democratica."
+       },
+       {
+        "p": "Che cosa porta alla nascita dell'ENEL?",
+        "a": "La nazionalizzazione dell'energia elettrica",
+        "w": [
+         "La riforma agraria",
+         "La Cassa per il Mezzogiorno",
+         "La scuola media unica"
+        ],
+        "e": "La nazionalizzazione dell'energia elettrica dà vita all'ENEL."
+       },
+       {
+        "p": "Fino a quale età è obbligatoria la scuola dopo la riforma?",
+        "a": "Fino a 14 anni",
+        "w": [
+         "Fino a 10 anni",
+         "Fino a 16 anni",
+         "Fino a 18 anni"
+        ],
+        "e": "Si introduce la scuola media unica e obbligatoria fino a 14 anni."
+       },
+       {
+        "p": "Che cosa avvia il PCI dopo i fatti d'Ungheria e la morte di Togliatti?",
+        "a": "Un percorso di autonomia dall'Unione Sovietica",
+        "w": [
+         "Lo scioglimento del partito",
+         "L'ingresso nella NATO",
+         "L'alleanza con il MSI"
+        ],
+        "e": "Il PCI cerca una via democratica e costituzionale al comunismo, in autonomia dall'URSS."
+       }
+      ]
+     }
+    }
+   },
+   "timeline": [
+    [
+     "T4",
+     112.867,
+     4.0
+    ],
+    [
+     "T5",
+     1248.067,
+     4.0
+    ],
+    [
+     "T6",
+     2126.033,
+     4.0
+    ],
+    [
+     "GL2",
+     3106.4,
+     32.3
+    ],
+    [
+     "RF2",
+     3138.7,
+     49.8
+    ],
+    [
+     "FI",
+     3507.2,
+     5.0
+    ]
+   ]
+  }
+ },
+ "manca": "Parte 2, dispensa, PDF mappe, sottotitoli, controlli, voci Kore nuove",
+ "serve_master": [
+  {
+   "quando": "20/11 17:12",
+   "testo": "lez18: aggiunte 33 voci nuove (P1-6, SC*, MA1-3) in testi_voci.json, ramo voci-storia-V-lez18. Servono per montare."
+  },
+  {
+   "quando": "20/11 17:33",
+   "testo": "lez18 liberata (non montata): vedi ramo lavoro-storia-V-lez18, LEGGIMI_PASSAGGIO.md. Chi la prende parte da trascrizione e script pronti."
+  },
+  {
+   "quando": "22/11 18:40",
+   "testo": "lez18 (Storia V): 1) Inviate 27 voci nuove in voci-storia-V-lez18/testi_voci.json: INTRO1_R2 e INTRO2_R2 (senza nome del prof; INTRO1 e INTRO2 vecchie da non usare), SP2_1-3 (spiegone Parte 2), M2_*/M5_*/M6_* (mappe del prof ramo per ramo, una voce per riquadro). 2) Le mappe del prof sono 3 (args 2, 5, 6). Per args 1, 3, 4 il prof non ha mappa: confermi che NON si inventano (come da prompt) e che la 'mappa finale della lezione' si omette? Procedo cosi' salvo tua risposta. 3) Nota: esiste una vecchia consegna 16/11 (ramo consegna-storia-V-lez18, Parti da 48 e 47 min, grafica vecchia): la ignoro e rifaccio da zero come da Sara. 4) Uso voci Kore gia' presenti (AN*, P*, SC*, R*, GL*, RF*, FIN*) dopo controllo; provvisorie per le nuove."
+  },
+  {
+   "quando": "22/11 20:50",
+   "testo": "lez18: controllo delle voci Kore GIA' presenti in voci-storia-V-lez18 (trascrizione Parakeet): troncate in fondo AN2a (ampiezza finale 0,57, 'De Gasperi' tagliato), AN2b, AN6a ('Moro' mancante), R6. Aggiunte come AN2a_R2, AN2b_R2, AN6a_R2, R6_R2 in testi_voci.json (stesso testo). Le altre voci vecchie risultano intere. Parte 1 montata (50,2 min), Parte 2 in codifica."
+  },
+  {
+   "quando": "22/11 21:21",
+   "testo": "lez18: voci Kore GIA' presenti con sigle non spiegate (regola BES): CECA in R4, AN4c, SC4_4; NATO in AN4c; DC in R6; ENEL in R6, AN6b, RF2, SC6_2. Aggiunte le versioni _R2 con la sigla spiegata (testi in testi_voci.json). ATTENZIONE: per ENEL ho usato 'ente energetico nazionale' come lo dice il prof (nel nome vero e' 'Ente nazionale per l'energia elettrica'): da confermare. Totale voci da generare per me: 40 (30 nuove + 10 _R2). Elenco: voci_da_generare.json nel mio ramo di lavoro."
+  },
+  {
+   "quando": "23/11 08:16",
+   "testo": "lez18: voci da generare per me = 41 (elenco con testi: testi_voci.json nel ramo voci-storia-V-lez18, anche voci_da_generare.json nel mio ramo di lavoro): INTRO1_R2, INTRO2_R2, SP2_1-3, M2_01-08, M5_01-10, M6_01-07, COMPITI (nuova, compiti in fila come da tua regola) + rifacimenti _R2: AN2a, AN2b, AN6a, R6 (troncate in fondo) e R4, AN4c, SC4_4, AN6b, RF2, SC6_2 (sigle da spiegare). Alla consegna servira' che la master decida: P5b finisce con «…riforme sociali. Come.» e la risposta «La scuola media unica?» sta in P6a (pausa troppo corta per tagliare in mezzo)."
+  },
+  {
+   "quando": "23/11 09:10",
+   "testo": "lez18 09:10 UTC: le voci Kore non sono ancora nel ramo voci-storia-V-lez18 (73 file vecchi, nessuna nuova: INTRO1_R2, SP2, M2/M5/M6, COMPITI, rifacimenti _R2). Tutto il resto e' pronto (Parte 1 e 2 montate, controllo_rapido OK). Dopo l'arrivo delle voci servono circa 80 minuti per rimontare, controllare e consegnare: la scadenza delle 10:00 UTC non e' piu' raggiungibile con le voci vere. NON consegno con voci provvisorie. Mandami per prime le voci nell'ordine: INTRO1_R2, INTRO2_R2, SP2_*, COMPITI, M2_*, M5_*, M6_*, poi i rifacimenti _R2; dimmi se preferisci che consegni comunque con le provvisorie."
+  },
+  {
+   "quando": "26/11 19:03",
+   "testo": "Seconda sessione Storia V (26/11 19:05 UTC). Lez18: l'ultimo lavoro è del 23/11 (oltre 24 ore), ma sullo stesso prompt c'è già un'altra sessione che si presenta come CHAT 1 (ha scritto per la lez10 alle 19:02). Per non fare due versioni della stessa lezione non la tocco finché non mi dici chi la fa. Cosa resta da fare (dalla nota master 2 del 23/11): 3 voci con fine brusca (M2_04, SC3_3, AN2b), sottotitoli da rileggere, controllo dei tagli del docente a metà frase. Manca anche il file DIFETTI_Storia_V_25-11-2026: non è su main, scambio-mazzotti né master2-coda."
+  }
+ ],
+ "domande_sara": [],
+ "note": [
+  {
+   "quando": "18/11 23:41",
+   "testo": "IN_REVISIONE chat v3: presa da claude/pensive-pascal-5ugbfg (dopo lez 11)"
+  },
+  {
+   "quando": "19/11 02:20",
+   "testo": "liberata 19/11: ripresa correzioni (chat v3 non ha iniziato la 18)"
+  },
+  {
+   "quando": "19/11 19:00",
+   "testo": "IN_REVISIONE chat v3 19/11 12:30: presa da claude/pensive-pascal-5ugbfg (rifacimento da zero; materiali in scarico)"
+  },
+  {
+   "quando": "20/11 15:58",
+   "testo": "20/11 ripresa: letti messaggi master (05:10 card intere/card sola solo con immagine, 05:25 intro max 3 min + timeline rigenerate). Prima verifico e correggo la lez 5 (card sole su slide: argomenti 2,3,4,6), poi riprendo la 18"
+  },
+  {
+   "quando": "20/11 16:29",
+   "testo": "20/11 16:29: rifaccio le slide della lez 5 (card 2-3 per slide, card sola solo con carta); poi riprendo la 18"
+  },
+  {
+   "quando": "20/11 17:12",
+   "testo": "17:12 voci inviate; scaricati materiali, trascrizione prof in corso"
+  },
+  {
+   "quando": "20/11 17:33",
+   "testo": "17:33 20/11: lez 18 NON montata, la libero con materiali di passaggio nel ramo lavoro-storia-V-lez18 (trascrizione, cambi slide, script, piano). Serve scrivere ~50-60 sotto-card dalle parole del prof: gli argomenti durano 10-19 min con una sola slide da 3 card. Voci nuove P1-6, SC*, MA1-3 già in voci-storia-V-lez18. Lez 5 e 11 consegnate."
+  },
+  {
+   "quando": "22/11 18:35",
+   "testo": "correzioni 22/11: presa da claude/awesome-einstein-j8pcjt (rifacimento da zero dai materiali di lavoro-storia-V-lez18)"
+  },
+  {
+   "quando": "22/11 18:50",
+   "testo": "22/11 18:xx: materiali scaricati, card scritte per 6 argomenti, motore di montaggio e mappe BES pronti; ora montaggio Parte 1 e 2 con voci provvisorie"
+  },
+  {
+   "quando": "22/11 19:05",
+   "testo": "19:10 UTC: Parte 1 in codifica (prof con card/sotto-slide, mappe BES, schede blu del modello); Parte 2 dopo. Voci nuove provvisorie (espeak) in attesa delle Kore."
+  },
+  {
+   "quando": "22/11 21:24",
+   "testo": "21:00 UTC: Parte 1 montata (50,2 min, 374 MB) e Parte 2 (58,9 min) montate con voci provvisorie; rifaccio Parte 2 a CRF 21 (peso > 400 MB), poi controlli (controllo_severo, agente separato), dispensa, PDF mappe, sottotitoli. Mappe: solo le 3 del prof (arg 2, 5, 6) come da risposta master."
+  },
+  {
+   "quando": "22/11 22:47",
+   "testo": "23:00 UTC: primo controllo separato fatto (4 bloccanti, tutti corretti: card in ritardo arg4, tagli a meta' frase, glossario/AN, sigle, pagine). Rifaccio Parte 1 e 2 (circa 75 min), poi nuovo controllo. Voci Kore nuove: in attesa."
+  },
+  {
+   "quando": "23/11 01:22",
+   "testo": "01:25 UTC: Parte 1 (50,0 min, 378 MB) e Parte 2 (58,5 min, 371 MB) rifatte dopo i due controlli separati; restano in attesa delle voci Kore (40 da generare, vedi voci_da_generare.json) e del controllo_severo finale. Nota: nel repo c'e' un ramo temporaneo 'tmp-test-lez18' (prova di push, 90 MB): non riesco a cancellarlo, lo puoi cancellare tu."
+  },
+  {
+   "quando": "23/11 03:26",
+   "testo": "03:30 UTC: Parte 1 (50,0 min, 378 MB) e Parte 2 (58,5 min, 371 MB) rifatte dopo il secondo controllo separato: controllo_severo OK su entrambe (prima della rifusione finale), -16,3/-16,4 LUFS. Terzo controllo in corso. Aspetto le voci Kore (dalle 9:00 italiane) per rimontare e consegnare."
+  },
+  {
+   "quando": "23/11 04:59",
+   "testo": "04:55 UTC: rifatte Parte 1 (50,1 min) e 2 (58,8 min) dopo il terzo controllo separato (card riallineate all'inizio della frase, sottotitoli corretti, sigle spiegate, foto del prof). Quarto controllo in corso. Voci nuove non ancora arrivate nel ramo voci."
+  },
+  {
+   "quando": "23/11 08:16",
+   "testo": "08:20 UTC: lavoro senza voci FINITO. Parte 1 (50,0 min, 368 MB) e Parte 2 (58,9 min, 369 MB) montate con voci provvisorie; controllo_severo OK (prima delle ultime modifiche), controllo_rapido.py ESITO OK su entrambe; 4 controlli separati fatti. Applicate le tue regole di stasera: schede ripasso/schema blu scure, carta del confine grande, nessuna scheda muta (sottofondo), compiti con voce COMPITI. Mi fermo fino alle voci: appena arrivano rimonto e consegno su revisione-storia-V-lez18."
+  },
+  {
+   "quando": "23/11 11:48",
+   "testo": "correzioni 22/11 fatte. Consegna su revisione-storia-V-lez18 (video a pezzi da 90 MB + sha256, vtt, timeline, scheda, dispense, mappe, compiti.json, foglio e json controllo_rapido OK, RAPPORTO_REVISIONE.md). Da decidere: P5b finisce «…riforme sociali. Come.» e la risposta e' in P6a; 3 voci con fine brusca (M2_04, SC3_3, AN2b); Parte 2 dura 60,4 min; sottotitoli del prof da rileggere; ramo tmp-test-lez18 da cancellare."
+  }
+ ],
+ "aggiornato": "2026-11-26 19:03:45"
+}
