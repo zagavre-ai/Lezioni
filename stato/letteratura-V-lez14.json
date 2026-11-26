@@ -44,6 +44,10 @@
   {
    "quando": "25/11 22:01",
    "testo": "Lez14: SPIEGONE Parte 2 NON montato: la voce SPG_1 (testo pushato 21:10 UTC, commit 4157c63 su voci-letteratura-V-lez14) non e' arrivata entro le 22:00 UTC. Il montaggio e' pronto (strumenti/spg25.py): quando c'e' SPG_1.wav mi serve un messaggio di Sara e rimonto in ~25 min."
+  },
+  {
+   "quando": "26/11 08:40",
+   "testo": "URGENTE (Sara 26/11 mattina: le serve la videolezione). Lez14 e' consegnata sul ramo revisione-letteratura-V-lez14 (commit c42093e, Parte 1 e Parte 2) e si puo' pubblicare cosi'. Manca SOLO lo spiegone della Parte 2: serve la voce SPG_1 (testo gia' in testi_voci.json del ramo voci-letteratura-V-lez14, commit 4157c63). Generatela subito e dite a Sara di avvisarmi: rimonto in ~25 min e riconsegno."
   }
  ],
  "domande_sara": [],
@@ -115,7 +119,11 @@
   {
    "quando": "25/11 22:01",
    "testo": "25/11 22:00 UTC: correzioni urgenti consegnate (commit c42093e su revisione-letteratura-V-lez14). File: Letteratura_Lez14_Parte1_1080p.mp4 (sha256 657fceb7...) e Parte2 (sha256 f33643fd...). Fatto: slide arg.2 P1, mappa in 3 schermate BES con voce, compiti senza riquadro in blu scuro, schede ripasso/glossario/riepilogo blu scuro, novelle senza note e piu' grandi. NON fatto: spiegone (manca la voce SPG_1), controllo_rapido (troppo lento qui). Dettagli nel RAPPORTO. Mi fermo."
+  },
+  {
+   "quando": "26/11 08:40",
+   "testo": "26/11 08:45 UTC: richiesta alla master di generare SPG_1. Consegna attuale pubblicabile senza spiegone."
   }
  ],
- "aggiornato": "2026-11-25 22:01:03"
+ "aggiornato": "2026-11-26 08:40:38"
 }
