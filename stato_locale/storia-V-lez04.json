@@ -1,0 +1,68 @@
+{
+ "tag": "storia-V-lez04",
+ "parti": {
+  "1": {
+   "stato": "REVISIONATA"
+  },
+  "2": {
+   "stato": "REVISIONATA"
+  },
+  "3": {
+   "stato": "REVISIONATA"
+  }
+ },
+ "manca": "tutto: audio da rifare dall'originale, mappe, slide, voci",
+ "serve_master": [
+  {
+   "quando": "22/11 18:29",
+   "testo": "Voci: caricato testi_voci.json (22 voci nuove: B4_1-3 benvenuto senza nome, SP2_0-3 e SP3_0-3 spiegoni, AP1-AP11 approfondimenti) sul ramo voci-storia-V-lez04. Le voci del 18/11 (MAP1-6, PI, SC, GL, F3_x) si riusano; B3_x/BEN/FIN/MAPN non servono più. DOMANDE: (1) 5 argomenti su 11 non hanno mappa del prof (2,4,7,8,11): le tolgo e non invento, giusto? La mappa finale della lezione la faccio unendo SOLO le 6 mappe del prof in una panoramica, ok? (2) Durata: circa 125 min di prof + schede = 3 Parti da circa 44 min (sotto i 50): le tengo a 3 Parti da 44-48 min, ok? Procedo così se non rispondi."
+  },
+  {
+   "quando": "23/11 09:32",
+   "testo": "Ritardo: le Parti sono montate con voci vere e controllo_rapido ha trovato 2 difetti (picco 1.0 dBTP e schede mute >2,5 s su schemi e coda mappe). Li correggo e rimonto: consegna stimata alle 11:30 UTC (12:30 italiane), non alle 10:00. Dimmi se preferisci diversamente. Nota: SP3_1 finisce con ampiezza 0,23 nei 50 ms finali (voce tagliata secca): ho messo dissolvenza 30 ms, se vuoi la rifai (SP3_1_R2)."
+  },
+  {
+   "quando": "23/11 13:30",
+   "testo": "Consegnata la lez04 (3 Parti) su revisione-storia-V-lez04, commit dd0dc4f. Vedi RAPPORTO_REVISIONE.md: difetti noti non bloccanti (immagini dei ripassi piccole, Parti 1-2 sotto i 50 min, niente mappa finale, frase finale dei compiti assente, SP3_1 finisce secca). Controllo rapido e agente separato non completati: ti chiedo se vuoi che li rifaccia."
+  },
+  {
+   "quando": "26/11 19:31",
+   "testo": "STORIA V · CHAT 2 · lez04 Parte 3: le slide a 9:00-12:42 (guerra sui mari, genocidio degli armeni) hanno l'etichetta «06 · La guerra totale» ma stanno nella sezione dell'argomento 07 (titolo7 a 2:39, mappa6 a 16:05, pillola7 a 16:33). Probabile ordine reale del prof. Scegli: A) lascio così (è il suo ordine); B) sposto le slide nell'argomento 06 (rimonto P3, non ho i sorgenti: serve la chat che l'ha montata). Mi fermo su questa lezione finché non rispondi."
+  }
+ ],
+ "domande_sara": [],
+ "note": [
+  {
+   "quando": "22/11 18:24",
+   "testo": "correzioni 22/11: presa da claude/sharp-rubin-yxwz91"
+  },
+  {
+   "quando": "22/11 18:29",
+   "testo": "22/11 18:50 scaricati video originale, slide, mappe; voci inviate; inizio audio dall'originale"
+  },
+  {
+   "quando": "22/11 20:05",
+   "testo": "22/11 20:05 UTC: pezzi prof rifatti (audio dall'originale), mappe BES fatte, Parte 1 e 2 montate con voci provvisorie, Parte 3 in corso. Mancano: voci vere (domattina), peso <400MB (CRF), sottotitoli, dispensa, controllo agente separato."
+  },
+  {
+   "quando": "23/11 13:30",
+   "testo": "correzioni 22/11 fatte (Parte 1): consegna su revisione-storia-V-lez04. Limiti nel RAPPORTO_REVISIONE.md: controllo_rapido non terminato sul file finale P1/P3, agente separato non eseguito, immagini approfondimenti piccole."
+  },
+  {
+   "quando": "23/11 13:30",
+   "testo": "correzioni 22/11 fatte (Parte 2): consegna su revisione-storia-V-lez04. Limiti nel RAPPORTO_REVISIONE.md: controllo_rapido non terminato sul file finale P1/P3, agente separato non eseguito, immagini approfondimenti piccole."
+  },
+  {
+   "quando": "23/11 13:30",
+   "testo": "correzioni 22/11 fatte (Parte 3): consegna su revisione-storia-V-lez04. Limiti nel RAPPORTO_REVISIONE.md: controllo_rapido non terminato sul file finale P1/P3, agente separato non eseguito, immagini approfondimenti piccole."
+  },
+  {
+   "quando": "26/11 19:31",
+   "testo": "Storia V · CHAT 2 (26/11 20:00 UTC): controllata sull'elenco DIFETTI, Parte 3. Vero: a 9:00-12:42 le slide hanno l'etichetta «06 · LA GUERRA TOTALE» dentro la sezione dell'argomento 07 (pagine 6-7: guerra sui mari, genocidio armeni). Non vero: le Parti 2 e 3 si aprono con lo spiegone (spiegone0-3, 139 s): la «card generica» è la sua prima card. Non toccata: l'ordine dipende da come il prof alterna i due argomenti, serve la tua decisione."
+  }
+ ],
+ "materia": "Storia V",
+ "lezione": "Lezione 4 · La prima guerra mondiale",
+ "docente": "Prof. Giorgio Mazzotti",
+ "aggiornato": "2026-11-26 19:31:48"
+}
