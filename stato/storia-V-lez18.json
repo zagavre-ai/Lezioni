@@ -514,6 +514,10 @@
   {
    "quando": "23/11 09:10",
    "testo": "lez18 09:10 UTC: le voci Kore non sono ancora nel ramo voci-storia-V-lez18 (73 file vecchi, nessuna nuova: INTRO1_R2, SP2, M2/M5/M6, COMPITI, rifacimenti _R2). Tutto il resto e' pronto (Parte 1 e 2 montate, controllo_rapido OK). Dopo l'arrivo delle voci servono circa 80 minuti per rimontare, controllare e consegnare: la scadenza delle 10:00 UTC non e' piu' raggiungibile con le voci vere. NON consegno con voci provvisorie. Mandami per prime le voci nell'ordine: INTRO1_R2, INTRO2_R2, SP2_*, COMPITI, M2_*, M5_*, M6_*, poi i rifacimenti _R2; dimmi se preferisci che consegni comunque con le provvisorie."
+  },
+  {
+   "quando": "26/11 19:03",
+   "testo": "CHAT 1 (26/11): lez18, controllo dei tagli del docente. Ho confrontato la tabella tagli della consegna del 23/11 (14 pezzi) con la trascrizione a parola (ramo lavoro-storia-V-lez18, trasc18.json): tutte le 14 fini cadono tra due frasi, nessun taglio dentro un segmento di frase. Restano due dubbi: (1) P5b (Parte 2, 31:30) finisce con la domanda «...chiedono certe riforme sociali. Come.» e la risposta («La scuola media unica?...») arriva solo in P6a a 35:30, dopo quiz e ripasso: il pensiero e' spezzato; (2) P4a (Parte 2, 8:21) finisce con «Allora, insomma.» (riempitivo). Non trovo nei rami il file DIFETTI_Storia_V_25-11-2026: mi dici quali minuti segnalava per la lez18? Senza il minuto non ricodifico la Parte 2 (circa 60 min). Se vuoi che sposti il taglio di P5b (togliere «Come.» dalla fine o portare la risposta subito dopo), dimmelo e lo faccio."
   }
  ],
  "domande_sara": [],
@@ -585,7 +589,11 @@
   {
    "quando": "23/11 11:48",
    "testo": "correzioni 22/11 fatte. Consegna su revisione-storia-V-lez18 (video a pezzi da 90 MB + sha256, vtt, timeline, scheda, dispense, mappe, compiti.json, foglio e json controllo_rapido OK, RAPPORTO_REVISIONE.md). Da decidere: P5b finisce «…riforme sociali. Come.» e la risposta e' in P6a; 3 voci con fine brusca (M2_04, SC3_3, AN2b); Parte 2 dura 60,4 min; sottotitoli del prof da rileggere; ramo tmp-test-lez18 da cancellare."
+  },
+  {
+   "quando": "26/11 19:03",
+   "testo": "lez18: preso in carico 26/11 da CHAT 1; verificati i tagli del docente sulla trascrizione, in attesa di indicazioni (nessun file modificato)"
   }
  ],
- "aggiornato": "2026-11-23 11:48:37"
+ "aggiornato": "2026-11-26 19:03:20"
 }
