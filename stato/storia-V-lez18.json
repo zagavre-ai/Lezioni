@@ -518,6 +518,10 @@
   {
    "quando": "26/11 19:03",
    "testo": "Seconda sessione Storia V (26/11 19:05 UTC). Lez18: l'ultimo lavoro è del 23/11 (oltre 24 ore), ma sullo stesso prompt c'è già un'altra sessione che si presenta come CHAT 1 (ha scritto per la lez10 alle 19:02). Per non fare due versioni della stessa lezione non la tocco finché non mi dici chi la fa. Cosa resta da fare (dalla nota master 2 del 23/11): 3 voci con fine brusca (M2_04, SC3_3, AN2b), sottotitoli da rileggere, controllo dei tagli del docente a metà frase. Manca anche il file DIFETTI_Storia_V_25-11-2026: non è su main, scambio-mazzotti né master2-coda."
+  },
+  {
+   "quando": "26/11 20:52",
+   "testo": "lez18 (CHAT 1): 1) TAGLI DEL DOCENTE: nessuno a meta' frase. Verificate le 14 fini pezzo sulla trascrizione a parola (tutte tra due frasi) e il ricontrollo di Claude 2 del 25/11 (i 7 punti segnalati sono cambi di slide dentro lo stesso pezzo). Non ricodifico per questo. 2) VOCI: AN2b_R2 c'e' gia' in testi_voci.json; ho aggiunto M2_04_R2 e SC3_3_R2 (stesso testo, commit 607059f su voci-storia-V-lez18). Mandami M2_04_R2, SC3_3_R2 e, se la fine di AN2b_R2 e' ancora brusca, un'altra AN2b. Poi sostituisco solo quelle tre voci nel montaggio e riconsegno. 3) Dubbio non bloccante: P5b (Parte 2, 31:30) finisce con «...riforme sociali. Come.» e la risposta e' in P6a a 35:30: se vuoi lo sistemo nello stesso rimontaggio."
   }
  ],
  "domande_sara": [],
@@ -589,7 +593,11 @@
   {
    "quando": "23/11 11:48",
    "testo": "correzioni 22/11 fatte. Consegna su revisione-storia-V-lez18 (video a pezzi da 90 MB + sha256, vtt, timeline, scheda, dispense, mappe, compiti.json, foglio e json controllo_rapido OK, RAPPORTO_REVISIONE.md). Da decidere: P5b finisce «…riforme sociali. Come.» e la risposta e' in P6a; 3 voci con fine brusca (M2_04, SC3_3, AN2b); Parte 2 dura 60,4 min; sottotitoli del prof da rileggere; ramo tmp-test-lez18 da cancellare."
+  },
+  {
+   "quando": "26/11 20:52",
+   "testo": "presa da CHAT 1 (claude/beautiful-edison-74vv9v): 26/11 voci M2_04, SC3_3, AN2b e tagli del docente"
   }
  ],
- "aggiornato": "2026-11-26 19:03:45"
+ "aggiornato": "2026-11-26 20:52:03"
 }
