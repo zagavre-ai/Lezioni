@@ -7,7 +7,13 @@
    "quiz_ok": "1",
    "fermi_ok": "1",
    "vtt": "si",
-   "sub_ok": "1"
+   "sub_ok": "1",
+   "video": "Storia_Lez7_Parte1_1080p.mp4",
+   "durata_s": 3197.4,
+   "durata": "53:17.4",
+   "fotogrammi": 95925,
+   "fotogrammi_attesi": 95923,
+   "peso_MB": 313.9
   }
  },
  "manca": "",
@@ -110,9 +116,13 @@
   {
    "quando": "26/11 20:52",
    "testo": "IN_REVISIONE · Storia V CHAT 2 (26/11 21:20 UTC): presa. Difetto confermato sul video: scheda «Verifica di sbarramento» a 51:42-51:47 (P1), il titolo va su 2 righe e copre il testo. Rifaccio solo quella scheda (4,4 s) e riconsegno."
+  },
+  {
+   "quando": "26/11 21:00",
+   "testo": "26/11 21:50 UTC · Storia V CHAT 2: scheda «Verifica di sbarramento» (51:41-51:49, P1) rifatta senza sovrapposizione; consegnato su revisione-storia-V-lez07. controllo_rapido ESITO OK. Durata 3197,43 s (+0,06 s). Vedi RAPPORTO_REVISIONE.md. Nota: nel commit precedente avevo tolto per errore dei file dal ramo; ripristinati subito (commit 7afe263), ramo completo."
   }
  ],
  "materia": "storia-V",
  "lezione": "7",
- "aggiornato": "2026-11-26 20:52:54"
+ "aggiornato": "2026-11-26 21:00:06"
 }
