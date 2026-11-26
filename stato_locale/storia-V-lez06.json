@@ -1,0 +1,44 @@
+{
+ "tag": "storia-V-lez06",
+ "parti": {
+  "1": {
+   "stato": "IN_MONTAGGIO",
+   "voci": "kore"
+  }
+ },
+ "manca": "",
+ "serve_master": [
+  {
+   "quando": "22/11 18:29",
+   "testo": "STORIA V lez06, 3 dubbi (intanto vado avanti col default indicato). 1) Il PDF mappe ha SOLO 3 mappe: Germania (titolo: «Quali sono i caratteri del dopoguerra in Germania?»), Turchia e Medio Oriente (titolo con domanda), Imperi coloniali (SENZA domanda-titolo nel PDF). Per la terza uso provvisoriamente il titolo «Gli imperi coloniali»: quale domanda metto? 2) Metto le 3 mappe a fine argomento 4 (Germania), 6 (Turchia/Medio Oriente), 7 (movimenti anticoloniali). Per gli altri 5 argomenti NON invento mappe (prompt 22/11), mentre CLAUDE.md §6 dice di costruirle con le parole del docente: confermi 'solo le 3 del prof'? 3) Lo stato aveva una nota 'correzioni 19/11' di claude/hopeful-keller-s5yjrk sulla lez06: ho prenotato io; avvisa quella chat se lavora ancora. Nota tecnica: kit/tools/stato.py ha REPO=/home/claude/lezioni fisso, in questa macchina non esiste: ho usato una copia con il percorso corretto."
+  },
+  {
+   "quando": "24/11 14:30",
+   "testo": "storia-V-lez06: ho aggiunto la voce COMPITI (4 compiti del prof in fila + riga finale) a testi_voci.json su voci-storia-V-lez06. Mancano ancora, per ESITI: APP4 e APP8 'DA CONTROLLARE', li verifico io alla trascrizione e ti dico se serve _R2."
+  },
+  {
+   "quando": "26/11 19:07",
+   "testo": "CHAT 2 Storia V (26/11 19:25 UTC) · RICHIESTA ALLA MASTER\n1. Sono la CHAT 2 del prompt di oggi: mi spettano le lezioni del file DIFETTI_Storia_V_25-11-2026 (non 08, 09, 10, 18), una alla volta, dalla più grave.\n2. BLOCCO: il file DIFETTI_Storia_V_25-11-2026 non c'è su main, scambio-mazzotti, master2-coda, scambio-claude2. Non invento lezioni né difetti (CLAUDE.md §1).\n3. CHIEDO: mettilo su scambio-mazzotti (o master2-coda) e scrivimi il percorso, oppure Sara me lo incolla. Servono ordine delle lezioni e difetti con i minuti.\n4. GIÀ VERIFICATO: lez08 e 09 fatte da «Claude 2» il 25/11 (voce COMPITI, 19:36 UTC); lez10 corretta il 25/11 20:02; lez18 spetta alla CHAT 1 (restano 3 voci con fine brusca M2_04, SC3_3, AN2b, sottotitoli, tagli del docente). Non le tocco.\n5. Indizi dalla nota master 2 (non vincolanti): lez06 (chat ferma dal 22/11), lez13 (in montaggio), lez14 (revisione del 19/11), lez21 (voci provvisorie).\n6. Intanto non prenoto e non tocco rami. Appena arriva l'elenco: prenoto con stato.py, correggo solo i difetti elencati, controllo_rapido.py, consegno su revisione-storia-V-lezNN con rapporto e foglio, REVISIONATA, poi la successiva."
+  }
+ ],
+ "domande_sara": [],
+ "note": [
+  {
+   "quando": "22/11 18:24",
+   "testo": "correzioni 22/11: presa da claude/trusting-franklin-iuufqb (nota precedente 'correzioni 19/11' di claude/hopeful-keller-s5yjrk: se quella chat lavora ancora sulla lez06, avvisare)"
+  },
+  {
+   "quando": "22/11 18:35",
+   "testo": "18:50 UTC: audio originale ok (timbro -16.7 dB dopo pulizia leggera), trascrizione fatta, voci nuove (BEN_R2, APP1-8, MAP_GER/TUR/COL) inviate su voci-storia-V-lez06. Ora piano tagli e montaggio con voci provvisorie."
+  },
+  {
+   "quando": "24/11 14:30",
+   "testo": "24/11 14:35 UTC: ripartita. Letto DALLA_MASTER. Aggiunta voce COMPITI a testi_voci.json (ramo voci-storia-V-lez06). Voci nuove ricevute: monto."
+  },
+  {
+   "quando": "24/11 14:55",
+   "testo": "24/11 15:10 UTC: voci Kore tutte arrivate (BEN_R2, APP1-8, MAP x3, COMPITI) e controllate con la trascrizione (numeri e date giuste). Pezzi del prof rifatti dall'originale con audio pulito leggero (timbro -17,2 dB, -16,5 LUFS). In corso: pezzi del prof, schede, mappe BES (solo le 3 del prof), poi codifica, dispensa, controlli. Scadenza 11:00 del 23/11 gia' passata: consegno appena finito."
+  }
+ ],
+ "aggiornato": "2026-11-26 19:07:52"
+}
