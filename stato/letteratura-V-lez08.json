@@ -1,76 +1,14 @@
 {
  "tag": "letteratura-V-lez08",
- "parti": {
-  "1": {
-   "stato": "IN_MONTAGGIO",
-   "video": "Letteratura_Lez8_Parte1_1080p.mp4",
-   "durata_s": 2336.6,
-   "durata": "38:56.6",
-   "fotogrammi": 70098,
-   "fotogrammi_attesi": 70098,
-   "peso_MB": 212.6,
-   "vtt": "Letteratura_Lez8_Parte1.vtt"
-  },
-  "2": {
-   "stato": "IN_MONTAGGIO",
-   "video": "Letteratura_Lez8_Parte2_1080p.mp4",
-   "durata_s": 2082.7,
-   "durata": "34:42.7",
-   "fotogrammi": 62482,
-   "fotogrammi_attesi": 62482,
-   "peso_MB": 180.6,
-   "vtt": "Letteratura_Lez8_Parte2.vtt"
-  }
- },
+ "parti": {},
  "manca": "",
  "serve_master": [
   {
-   "quando": "22/11 16:37",
-   "testo": "Lez.8 (correzioni 22/11): 3 conflitti di regole da decidere, intanto procedo con il resto. (1) DURATA: il video attuale è 66:54 e il controllo severo accetta 45–65 min; con mappa (+~90 s) e testo a 40 px sale sopra i 70: lo divido in 2 Parti (alla fine dell'argomento 2) o taglio pause/incespicamenti del prof (-5 min)? Intanto non taglio. (2) SCHERMATE >3 MIN: il prof parla 518 s sulla slide 'L'esteta e la vita come opera d'arte', 419 s su 'Il mito del superuomo', 372 s su 'Le opere della fase estetizzante', 246 s su 'La svolta politica': per rispettare il limite servono 7 approfondimenti animati Kore (40-60 s) nei punti di pausa del prof, con voci nuove. Li preparo e mando i testi su voci-letteratura-V-lez08 (M1.. mappa, A1..A7 approfondimenti): se non vuoi gli approfondimenti dimmelo. (3) MAPPA del prof: 25 riquadri (vita 8, poetica 3, personalità 5, opere 9): a 34 px non entrano tutti in una schermata 1920x1080; uso 34 px con riquadri larghi e testo identico, controlla il risultato."
-  },
-  {
-   "quando": "22/11 16:40",
-   "testo": "Voci pronte da generare su voci-letteratura-V-lez08: M1-M5 e A1-A9 (testi_voci.json). Mi servono entro le 18:15 UTC per finire entro 19:30."
-  },
-  {
-   "quando": "22/11 17:12",
-   "testo": "URGENTE voci lez.8 (blocco): servono M1,M2,M3,M4,M5 (mappa), A1,A3,A5,A7 (approfondimenti, solo questi 4 come da tue indicazioni; A2,A4,A6,A8,A9 NON servono), P2 (spiegone Parte 2). Testi in scambio/letteratura-V-lez08/testi_voci.json su voci-letteratura-V-lez08 (pushati alle 16:40-16:45 UTC). Senza queste voci non posso chiudere."
+   "quando": "26/11 08:44",
+   "testo": "STATO lez.8 (chat revisione 8): consegnata il 22/11 sul ramo revisione-letteratura-V-lez08 in 2 Parti (38:57 + 34:43), con vtt, PDF slide e mappe, timeline/schede, RAPPORTO_REVISIONE.md. Controllo severo = RESPINTA: (1) durata <45 min per la divisione in 2 Parti; (2) 1 slide ferma 3,5 min ('La svolta politica e l'azione' p.20, 34:15-37:45): residuo reale, serve un 5° approfondimento; (3) 2 'card sola' (35:37 P1, 4:52 P2) e 6 '...' (versi dei libri) = falsi positivi OCR. Non verificato: ascolto umano, rilettura vtt, sincronia card (~20 su 41 entro 1 s), agente di controllo separato. Aspetto tue istruzioni: vuoi il 5° approfondimento (serve una voce) o accetti il residuo? Stato lasciato IN_MONTAGGIO, non REVISIONATA."
   }
  ],
  "domande_sara": [],
- "note": [
-  {
-   "quando": "22/11 16:34",
-   "testo": "correzioni 22/11: presa da revisione-letteratura-V-lez08. Consegna prevista entro 19:30 UTC."
-  },
-  {
-   "quando": "22/11 16:40",
-   "testo": "22/11 16:45 UTC: slide a 40px (max 2-3 card intere/pagina) pronte; testi voci nuovi pushati su voci-letteratura-V-lez08: M1-M5 (mappa del prof, ramo per ramo) e A1-A9 (approfondimenti animati). Master: genera quando puoi (servono prima possibile, ~14 voci). Ricodifica pezzi prof in corso."
-  },
-  {
-   "quando": "22/11 16:45",
-   "testo": "22/11 17:15: eseguo le indicazioni delle 17:00: 2 Parti (fine arg.2), 4 approfondimenti (A1, A3, A5, A7: pausa del prof, solo dove la card dura >3 min), mappa in 3 schermate. Servono le voci: M1-M5, A1, A3, A5, A7 (gia' pushate) + nuova voce P2 (spiegone Parte 1). Ricodifica prof in corso."
-  },
-  {
-   "quando": "22/11 16:57",
-   "testo": "22/11 +40min: pronti slide 40px a finestre (2 card intere), mappa in 3 schermate, PDF slide (63 pag, con testo) e PDF mappe, S/GL/RF ricomposti; D1b ricodificato, altri pezzi prof in coda (~25 min). In attesa delle voci M1-M5, A1 A3 A5 A7, P2 dalla master (testi_voci.json su voci-letteratura-V-lez08)."
-  },
-  {
-   "quando": "22/11 17:22",
-   "testo": "22/11 +1h: voci ricevute (grazie). Costruiti approfondimenti A1 A3 A5 A7, spiegone P2, mappa in 3 schermate in rendering; pezzi prof: D1a,b,c fatti, D2 D3 D4 D5 D0 in coda (~20 min). Poi montaggio 2 Parti, controllo severo, PDF, rapporto. Consegna prevista entro 19:30 UTC."
-  },
-  {
-   "quando": "22/11 18:00",
-   "testo": "22/11 +1h40: Parte 1 (38:57) e Parte 2 (34:43) montate e muxate; jingle Quiz OK; controllo severo in corso su entrambe; poi PDF, vtt/timeline/scheda, rapporto e push (circa 40 min)."
-  },
-  {
-   "quando": "22/11 18:20",
-   "testo": "22/11 18:25: CONSEGNATE le 2 Parti sul ramo revisione-letteratura-V-lez08 (video a pezzi + sha, vtt, PDF slide e mappe, timeline/schede, RAPPORTO). Manca solo l'esito del controllo severo (in corso, lento) da aggiungere al rapporto; lo stato REVISIONATA lo imposto appena finisce."
-  },
-  {
-   "quando": "22/11 18:50",
-   "testo": "22/11 correzioni fatte: 2 Parti consegnate su revisione-letteratura-V-lez08 (RAPPORTO_REVISIONE.md con esito del controllo severo: RESPINTA per durata <45 min (2 Parti), 1 residuo di 3,5 min sulla slide 'La svolta politica e l'azione' p.20, 2 falsi positivi OCR 'card sola', 6 falsi positivi '...' sui libri). Non ascoltato da un umano; sottotitoli non riletti; card non verificate una per una."
-  }
- ],
- "aggiornato": "2026-11-22 18:50:54"
+ "note": [],
+ "aggiornato": "2026-11-26 08:44:59"
 }
