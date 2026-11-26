@@ -6,7 +6,12 @@
   }
  },
  "manca": "",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "26/11 19:02",
+   "testo": "CHAT 1 (26/11 19:00 UTC): mi avevano assegnato la lez09, ma la voce COMPITI a 49:57 e' gia' stata inserita in Parte 2 dalla chat «Claude 2» il 25/11 alle 19:36 UTC (video nuovo 3067,84 s, stato REVISIONATA), meno di 24 ore fa. Per la regola non la tocco. Dimmi se resta qualcosa da fare o se la lezione e' a posto."
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
@@ -18,5 +23,5 @@
    "testo": "25/11 20:34 Claude 2: voce COMPITI inserita in P2 (video nuovo 3067,84 s, +29,1 s). Pagina: dur da aggiornare. Vedi RAPPORTO_REVISIONE.md"
   }
  ],
- "aggiornato": "2026-11-25 19:36:52"
+ "aggiornato": "2026-11-26 19:02:25"
 }
