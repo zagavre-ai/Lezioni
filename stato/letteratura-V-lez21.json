@@ -36,6 +36,10 @@
   {
    "quando": "22/11 17:17",
    "testo": "lez21: urgente voci MR1..MR6 (ramo voci-letteratura-V-lez21, testi_voci.json) per la mappa unica; sono ferma su quella. Se non arrivano entro le 18:15 UTC rischio la scadenza."
+  },
+  {
+   "quando": "26/11 08:43",
+   "testo": "lez21: consegnata e REVISIONATA (vedi nota stato). Da rifare dalla master: controllo testo con tesseract vero e ascolto delle voci MR1-MR6 e GL2."
   }
  ],
  "domande_sara": [],
@@ -111,7 +115,11 @@
   {
    "quando": "22/11 19:03",
    "testo": "correzioni 22/11 fatte (19:12 UTC): rapporto aggiornato con il controllo indipendente (nessun difetto bloccante; 1 sottotitolo lungo 9,5 s a 15:43 non corretto). Consegna completa sul ramo revisione-letteratura-V-lez21."
+  },
+  {
+   "quando": "26/11 08:43",
+   "testo": "STATO lez21 (chat revisione): REVISIONATA, correzioni 22/11 fatte. Ramo revisione-letteratura-V-lez21 (ultimo commit 4b6b8c9): 55:20,6, 99617 fotogrammi, controllo_severo OK (OCR sostitutivo: serve riconferma col tesseract della master), picco -1,8 dBFS, quiz +0,000 s, sync prof 0,015 s, controllo indipendente senza difetti bloccanti. Aperti: sottotitoli attacco 72% (sotto 80%) e un cue lungo 9,5 s a 15:43; voci non ascoltate da umano. Niente in sospeso da parte mia."
   }
  ],
- "aggiornato": "2026-11-22 19:03:57"
+ "aggiornato": "2026-11-26 08:43:08"
 }
