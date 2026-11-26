@@ -2,7 +2,12 @@
  "tag": "storia-V-lez10",
  "parti": {},
  "manca": "",
- "serve_master": [],
+ "serve_master": [
+  {
+   "quando": "26/11 19:02",
+   "testo": "CHAT 1 (26/11 19:00 UTC): mi avevano assegnato la lez10, ma i tagli a meta' frase sono gia' stati corretti dalla chat «Claude 2» il 25/11 alle 20:02 UTC (frammento 'Allora' a 45:14 in P1, scatto a 51:28 in P2, controllo rapido OK), meno di 24 ore fa. Per la regola non la tocco. Dimmi se resta qualcosa da fare o se la lezione e' a posto."
+  }
+ ],
  "domande_sara": [],
  "note": [
   {
@@ -10,5 +15,5 @@
    "testo": "25/11 Claude 2: tolto frammento 'Allora' a 45:14 (P1) e scatto a 51:28 (P2); durata identica; controllo rapido OK; vedi RAPPORTO_REVISIONE.md"
   }
  ],
- "aggiornato": "2026-11-25 20:02:02"
+ "aggiornato": "2026-11-26 19:02:28"
 }
