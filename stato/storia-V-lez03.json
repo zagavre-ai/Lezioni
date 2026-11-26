@@ -1002,10 +1002,14 @@
   {
    "quando": "23/11 09:34",
    "testo": "correzioni 22/11 fatte. Riconsegna 23/11 09:34 UTC su revisione-storia-V-lez03 (6057d83): schede RIPASSO in blu scuro a tutto schermo con righe a tempo; infografica migratoria grande e a zone; controllo_rapido OK su P1 e P2 (foglio e json in controllo_rapido/); controllo_severo OK su P2, su P1 un falso positivo OCR a 22:25 (verificato a vista). Residui nel rapporto: 4 voci Kore senza sigla spiegata a voce (AN21, R5, AN16, R8)."
+  },
+  {
+   "quando": "26/11 19:31",
+   "testo": "Storia V · CHAT 2 (26/11 20:00 UTC): controllata sull'elenco DIFETTI. Glossario: NON è a un termine (GL1 e GL2 ne hanno circa 8 ciascuno nei testi voce, 51 s e 49 s); le schede nere finali sono la sigla finale di 5 s del kit (FINALE). Nessuna correzione necessaria. Non ho toccato il ramo."
   }
  ],
  "materia": "Storia V",
  "lezione": "Lezione 3 · L'Italia di Giolitti",
- "aggiornato": "2026-11-23 10:42:05",
+ "aggiornato": "2026-11-26 19:31:45",
  "docente": "Prof. Giorgio Mazzotti"
 }
