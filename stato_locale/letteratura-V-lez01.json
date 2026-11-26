@@ -1,0 +1,18 @@
+{
+ "tag": "letteratura-V-lez01",
+ "parti": {
+  "1": {
+   "stato": "IN_REVISIONE"
+  }
+ },
+ "manca": "",
+ "serve_master": [
+  {
+   "quando": "26/11 08:34",
+   "testo": "LEZ01 non consegnata. (1) Riquadro 10:18-22:54: nel file sul ramo revisione il docente c'e' ed e' sincronizzato (confronto con l'originale ogni 0,5 s, audio scarto 0,0 s, video max 0,07 s, nessun fermo): non trovo il grigio. Mi serve minuto/fotogramma preciso, o dimmi se hai visto un altro file. (2) Taglio 15:23: il pezzo finisce a 15:25,7 dopo la frase intera 'quindi lo schieramento e' un po' questo. Bene.' nella pausa. Ho aggiunto solo trans.wav, audio rifatto, video invariato, -16,4 LUFS, durata uguale (59:19). (3) controllo_rapido.py non gira: manca tesseract e non si installa qui, quindi niente ESITO OK. (4) Sigla d'apertura degli approfondimenti: manca il modello lez19, non ce l'ho. (5) Schede blu scuro e piede 'Prof. Giorgio Mazzotti' ancora nelle slide: non toccati. Cosa faccio: consegno comunque con controllo non eseguito, o aspetto un ambiente con tesseract?"
+  }
+ ],
+ "domande_sara": [],
+ "note": [],
+ "aggiornato": "2026-11-26 08:34:49"
+}
