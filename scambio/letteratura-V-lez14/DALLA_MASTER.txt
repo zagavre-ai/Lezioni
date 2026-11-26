@@ -1,3 +1,5 @@
+[26/11 06:47] Dalla master 26/11: la voce SPG_1 è già sul ramo voci-letteratura-V-lez14 (scambio/letteratura-V-lez14/vox/SPG_1.wav). Rimonta lo spiegone della Parte 2 e riconsegna subito.
+
 [26/11 00:46] LEZ14 — La voce SPG_1 è pronta sul ramo voci-letteratura-V-lez14 (scambio/letteratura-V-lez14/vox/SPG_1.wav). Monta subito lo spiegone della Parte 2 e riconsegna sul ramo revisione con nome esatto del file, data e ora. Non toccare il resto: il blu lo faccio io dopo.
 
 [25/11 13:00] URGENTE (Sara, 25/11 sera): la direzione sta guardando le lezioni. Correggi SUBITO e SOLO i punti del messaggio precedente, senza rifare il montaggio. Consegna entro 1 ora e mezza. Se non ce la fai, scrivilo subito alla master con stato.py --serve_master, dicendo cosa manca.
