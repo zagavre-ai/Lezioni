@@ -1,0 +1,7 @@
+durata 53:17.4 (3197.4 s) | fotogrammi 95921 (attesi 95921) OK | peso 312.6 MB (298.2 MiB) OK | 1920x1080 OK
+quiz 5 scatto 0,0 s: OK
+fermi immagine nei pezzi del docente: nessuno OK
+volume del parlato (mediana dei pezzi del docente): -15.5 LUFS OK
+sottotitoli: 856 blocchi, sovrapposti 0, oltre la fine 0, attacco sulla voce entro 0,3 s: 83% di 12 verificabili OK
+foglio di miniature: /home/claude/w/out/Storia_Lez7_Parte1_1080p.mp4.miniature.jpg
+ESITO: TUTTO OK
