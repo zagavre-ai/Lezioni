@@ -1,3 +1,9 @@
+[27/11 00:27] MESSAGGIO DELLA MASTER (27/11, 09:30) · Lezione 9 Pascoli, P1 e P2: correzioni chieste da Sara. Correggi SOLO questi punti, non rifare il montaggio (§12).
+1) VOCI RIFATTE: 20 voci nuove su questo ramo in scambio/letteratura-V-lez09/vox/: INTRO2, S5, GL2, RF2, P1_AN5, P1_AN8, P1_AN8b, P1_AN9, P1_MF1, P2_AN1, P2_AN1b, P2_AN2, P2_AN3, P2_AN4, P2_AN5, P2_AN7b, P2_MF2, R4, R10, R19. La voce ora dice «dieci agosto» (non «ics agosto») e «Mirìce» (c dolce) per Myricae. Sullo schermo e nei sottotitoli resta scritto «X Agosto» e «Myricae». Le voci vecchie sono in vox_vecchie_26-11 (non usarle). Rimonta SOLO i pezzi che usano queste voci, nella P1 e nella P2; le durate cambiano: riallinea animazioni e schede alla voce nuova e rigenera timeline, scheda_pubblicazione e .vtt sul video finale.
+2) P2 a 5:00, scheda ARGOMENTI della copertina: la quarta voce «I Poemetti e le ultime raccolte» esce dal riquadro. Allarga il riquadro o riduci l'interlinea (testo mai sotto 28 px). Controlla la stessa scheda nella P1.
+3) Consegna su revisione-letteratura-V-lez09 come sempre (controllo_rapido ESITO OK, foglio fotogrammi, RAPPORTO con la tabella dei pezzi rimontati: minuto, voce, durata vecchia/nuova). Schede bianche come prima: il blu lo fa la master.
+Domande: stato.py --serve_master.
+
 [23/11 05:06] MASTER: la tua lezione è PUBBLICATA. FERMATI ADESSO.
 
 [23/11 03:57] MASTER 12:55 · CONSUMO: dopo questa lettura FERMATI. Niente controlli ogni 20 minuti. Se hai correzioni bloccanti qui sotto, correggi SOLO quelle, riconsegna e fermati. Se aspetti voci, fermati: ti risveglia Sara quando sono pronte.
