@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<title>Copertina</title>
+<style>
+@font-face { font-family:'Figtree'; font-weight:400; src:url(../kit/caratteri/Figtree-Regular.ttf) format('truetype'); }
+@font-face { font-family:'Figtree'; font-weight:600; src:url(../kit/caratteri/Figtree-SemiBold.ttf) format('truetype'); }
+@font-face { font-family:'Figtree'; font-weight:700; src:url(../kit/caratteri/Figtree-Bold.ttf) format('truetype'); }
+@font-face { font-family:'Figtree'; font-weight:800; src:url(../kit/caratteri/Figtree-ExtraBold.ttf) format('truetype'); }
+@font-face { font-family:'Bricolage'; font-weight:800; src:url(../kit/caratteri/BricolageGrotesque-ExtraBold.ttf) format('truetype'); }
+
+:root{ --notte:#0B1530; --giallo:#FFE600; --tenue:#8FA8CC; }
+*{ box-sizing:border-box; margin:0; padding:0; }
+@page{ size:A4; margin:0; }
+
+html{ background:var(--notte); }
+body{ width:210mm; height:297mm; position:relative; overflow:hidden;
+  font-family:'Figtree',sans-serif; color:#fff; background:var(--notte); }
+
+.fondo{ position:absolute; inset:0;
+  background:url(img/fondo_copertina_b.png) no-repeat; background-size:100% 100%; }
+.velo{ position:absolute; inset:0; opacity:.025;
+  background-image:url(img/stemma.svg); background-size:26mm auto;
+  background-repeat:repeat; background-position:center; }
+
+/* griglia asimmetrica: tutto parte dal margine sinistro */
+.impianto{ position:absolute; inset:0; padding:30mm 18mm 30mm 20mm;
+  display:flex; flex-direction:column; }
+
+.marchio{ width:52mm; display:block; }
+
+/* blocco centrale: icona, barra, claim - allineato a sinistra */
+.stato{ margin-top:auto; margin-bottom:26mm; }
+.stato svg{ display:block; width:21mm; height:21mm; margin-bottom:9mm; }
+.stato .barra{ width:72mm; height:4px; border-radius:3px;
+  background:rgba(255,255,255,.20); }
+.stato .barra i{ display:block; height:100%; width:68%; border-radius:3px; background:#fff; }
+.stato .claim{ margin-top:7mm; font-weight:800; font-size:11.5pt;
+  letter-spacing:2.6px; text-transform:uppercase; color:#fff; }
+
+/* il titolo: parola gigante che esce dal bordo */
+.occhiello{ font-weight:800; font-size:9.5pt; letter-spacing:4.4px;
+  text-transform:uppercase; color:var(--tenue); margin-bottom:5mm; }
+.parola{ width:100%; overflow:hidden; }
+.parola span{ display:inline-block; white-space:nowrap;
+  font-family:'Bricolage',sans-serif; font-weight:800; color:var(--giallo);
+  margin-left:0;
+  font-size:100pt; line-height:.86; letter-spacing:-2px;
+  text-transform:uppercase; }
+</style>
+</head>
+<body>
+
+  <div class="fondo"></div>
+  <div class="velo"></div>
+
+  <div class="impianto">
+
+    <img class="marchio" src="img/logo_bianco.svg" alt="Centro Studi Telesio">
+
+    <div class="stato">
+      <svg viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="100" cy="100" r="94" stroke="rgba(255,255,255,.28)" stroke-width="5"/>
+        <circle cx="100" cy="78" r="27" stroke="#FFFFFF" stroke-width="9"/>
+        <path d="M54 145c6-24 24-37 46-37s40 13 46 37"
+              stroke="#FFFFFF" stroke-width="9" stroke-linecap="round"/>
+      </svg>
+      <div class="barra"><i></i></div>
+      <p class="claim">__CLAIM__</p>
+    </div>
+
+    <p class="occhiello">Direttive operative &middot; Profilo</p>
+    <div class="parola"><span>__PAROLA__</span></div>
+
+  </div>
+
+<script>
+(function(){
+  var cassa = document.querySelector('.parola');
+  var p = cassa.querySelector('span');
+  var utile = cassa.clientWidth;
+  var min = 20, max = 400;
+  for (var i = 0; i < 40; i++) {
+    var m = (min + max) / 2;
+    p.style.fontSize = m + 'pt';
+    if (p.getBoundingClientRect().width > utile) max = m; else min = m;
+  }
+  p.style.fontSize = min.toFixed(2) + 'pt';
+})();
+</script>
+</body>
+</html>
