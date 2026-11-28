@@ -1,0 +1,78 @@
+{
+ "tag": "storia-V-lez15",
+ "parti": {
+  "1": {
+   "stato": "REVISIONATA",
+   "voci": "kore",
+   "video": "Storia_Lez15_Parte1_1080p.mp4",
+   "durata_s": 3730.8,
+   "durata": "62:10.8",
+   "fotogrammi": 111925,
+   "fotogrammi_attesi": 111925,
+   "peso_MB": 337.9
+  }
+ },
+ "manca": "voce CHIUSURA_COMPITI vera",
+ "serve_master": [
+  {
+   "quando": "22/11 18:35",
+   "testo": "Lez 15: nell'indice la mappa del prof per la lezione 15 NON esiste (MAPPE-...zip ha 1-21 tranne la 15). Non invento mappe: la rifaccio senza mappe del prof, a meno che mi arrivi il PDF. Se c'e' un PDF 'MAPPE LEZIONE 15', ditemi dove. Intanto lavoro su slide 40 px, intro senza riquadro, nome docente fuori dalle voci, spiegone non necessario (una sola Parte), audio -16 LUFS."
+  },
+  {
+   "quando": "22/11 18:48",
+   "testo": "Lez 15: voci nuove in voci-storia-V-lez15/scambio/storia-V-lez15/testi_voci.json: BEN_R2 (benvenuto senza nome del prof), DP (Di cosa parliamo), CPT1-CPT4 (lettura dei 4 compiti del prof). Altre voci (eventuali approfondimenti extra) le aggiungo in giornata come _R2/nuovi nomi. Domanda: i compiti nel video li leggo con Kore (CPT1-4): ok?"
+  },
+  {
+   "quando": "22/11 18:54",
+   "testo": "Lez 15 controllo voci: aggiunte _R2 in testi_voci.json per 11 voci da rifare: GL1 (il file e' il glossario intero di 33 s, non la sola riga), SC6_1 e AN7/AN8/AN9 (troncate: ampiezza finale 0,10-0,23), PI3, SC10_1, GL3, GL4, GL7, AN5 (bordo finale 0,03-0,07). Da questa lez tutte le altre (115) trascritte e confrontate: ok. In piu' servono le voci nuove BEN_R2, DP, CPT1-4 gia' inviate."
+  },
+  {
+   "quando": "22/11 22:19",
+   "testo": "Lez 15: aggiunte in testi_voci.json 5 voci _R3 (SC7_2, SC8_2, SC10_4, AN15, AN20) con le sigle ANC/ONU rispiegate a voce (regola BES), e GL4_R2 con l'anno in lettere. Totale voci da fare per me: BEN_R2, DP, CPT1-4, 11 _R2, 5 _R3. Le sigle delle slide del prof (USA, URSS, ONU, FLN, ANC) le espando sullo schermo tra parentesi; il prof a voce non le spiega e non si tocca: lo scrivo nel rapporto."
+  },
+  {
+   "quando": "23/11 08:28",
+   "testo": "Lez 15 consegnata alle 08:35 UTC sul ramo revisione-storia-V-lez15 ma con voci provvisorie (il ramo voci-storia-V-lez15 non ha ancora i wav di BEN_R2, DP, CPT1-4, ne' le 11 _R2 e 5 _R3). Stato FERMA: non caricare. Mi bastano i wav in vox/: rimonto in circa 50 minuti e riconsegno."
+  },
+  {
+   "quando": "23/11 10:41",
+   "testo": "Lez 15: letto il tuo messaggio delle 01:15 (RESPINTA: pillole su fondo bianco, cartine piccole). Non ci sto alle 11:00: rifaccio le schede schema in blu scuro a tutto schermo (4 righe sempre visibili che si accendono con la voce) e le due cartine grandi con zoom sulla zona di cui parla il prof, poi controllo_rapido + foglio + json. Consegna prevista entro le 12:45 UTC. Aggiungo in testi_voci.json la voce CHIUSURA_COMPITI con la frase «Svolgi i compiti qui sotto e premi Consegna: arrivano al docente nel tuo quaderno dei compiti» (CPT1-4 gia' le ho montate); se non arriva in tempo consegno con la frase solo sullo schermo e lo dichiaro. Tolto «Check» dalle schede: metto «Rispondi · premi Controlla · poi Continua»."
+  },
+  {
+   "quando": "28/11 11:08",
+   "testo": "STORIA V · CHAT 2 · lez15 P1 mappa Africa 38:06-41:08 (non bloccante): zoom ritagliati con parole tagliate e 2 inquadrature piccole. Correggere = sostituire il pannello della mappa (sulla Parte già codificata, circa 3 min) con una panoramica fluida sulla carta; la sorgente è solo 777x610 px, quindi più nitida di così non diventa. Scegli: A) lascio com'è (non bloccante); B) faccio la panoramica (circa 1,5 ore). Mi fermo su questa lezione finché non rispondi."
+  }
+ ],
+ "domande_sara": [],
+ "note": [
+  {
+   "quando": "22/11 18:35",
+   "testo": "correzioni 22/11: presa da claude/wizardly-thompson-2cigpw"
+  },
+  {
+   "quando": "22/11 19:06",
+   "testo": "22/11 19:10 UTC: fatto: materiali scaricati, trascrizione, piano tagli su frase finita, slide a finestra 40 px (3 card), voci controllate (11 da rifare, chieste), audio prof da originale -17,1 LUFS timbro -16,9 dB (orig -17,5). In corso: pezzi del prof, schede blu, approfondimenti. Mancano: montaggio, verifica+compiti nel video, sottotitoli, dispensa, controlli, rapporto. Voci nuove attese: BEN_R2, DP, CPT1-4 + 11 _R2."
+  },
+  {
+   "quando": "22/11 21:53",
+   "testo": "22/11 22:00 UTC: video completo 61:16 con voci provvisorie solo per BEN_R2, DP, CPT1-4 (e 11 voci da rifare: usate le vecchie). controllo_severo.py ESITO OK; controllo_finale TUTTO OK (jingle 0,0 s, sottotitoli 100%); dispensa 60 pag con testo invisibile. In corso: controllo agente separato. Appena arrivano le voci rifaccio montaggio e consegno su revisione-storia-V-lez15."
+  },
+  {
+   "quando": "22/11 23:20",
+   "testo": "23/11 00:00 UTC: video rifatto dopo controllo separato (digressioni rimesse nel loro argomento, taglio arg.3, sigle rispiegate sullo schermo, glossario, esitazioni tolte, sottotitoli): 61:38, controllo_severo OK, controllo_finale TUTTO OK. In attesa delle voci Kore (BEN_R2, DP, CPT1-4, 11 _R2, 5 _R3) per il montaggio definitivo e la consegna."
+  },
+  {
+   "quando": "23/11 08:28",
+   "testo": "23/11 08:35 UTC: correzioni 22/11 fatte, consegna in revisione-storia-V-lez15 (d9029ab) con VOCI PROVVISORIE: NON caricare su Vimeo. Controlli: controllo_severo OK, controllo_finale TUTTO OK, agente separato (1 giro, difetti corretti). Mancano le voci Kore: BEN_R2, DP, CPT1-4, 11 _R2, 5 _R3 (testi_voci.json). Appena arrivano rifaccio il montaggio con un comando e riconsegno."
+  },
+  {
+   "quando": "23/11 11:35",
+   "testo": "correzioni 22/11 fatte + risposte alla RESPINTA del 23/11 01:15: pillole in blu scuro a tutto schermo (4 righe), cartine p.11 e p.13 grandi con zoom, Controlla, compiti uno alla volta. Ramo revisione-storia-V-lez15: controllo_rapido OK (foglio e json sul ramo), controllo_finale OK. Unica voce ancora provvisoria: CHIUSURA_COMPITI (tono; frase gia' sullo schermo) — non e' arrivata la voce vera: se la mandi rifaccio il montaggio."
+  },
+  {
+   "quando": "28/11 11:08",
+   "testo": "Storia V CHAT 2 (28/11 11:40 UTC): controllata sull'elenco DIFETTI, Parte 1. Taglio a 41:07 = falso allarme (nessun taglio). Mappe: CONFERMATO a vista. Da 38:06 a 41:08 la carta della decolonizzazione dell'Africa è ritagliata in 4 zoom con parole tagliate ai bordi (a sinistra pezzi della legenda: «nti», «ga, dalla dem.») e due volte compare piccola come un francobollo (38:06 e 40:54). La carta nel PDF del prof è 777x610 pixel: zoomata 3x resta morbida. Non ho toccato il ramo."
+  }
+ ],
+ "aggiornato": "2026-11-28 11:08:56"
+}
