@@ -1,6 +1,2 @@
-M2_03 OK frasi trovate 1 / 1 parole diverse 1 (vere 0) tentativi 1
-M5_03 OK frasi trovate 1 / 1 parole diverse 1 (vere 1) tentativi 1
-M6_01 OK frasi trovate 1 / 1 parole diverse 0 (vere 0) tentativi 1
-AN2b_R2 OK frasi trovate 1 / 1 parole diverse 1 (vere 1) tentativi 1
-SC6_2_R2 OK frasi trovate 1 / 1 parole diverse 1 (vere 1) tentativi 1
-SC6_2_R2 DA CONTROLLARE durata fuori misura
+M2_04_R2 OK frasi trovate 1 / 1 parole diverse 1 (vere 0) tentativi 1
+SC3_3_R2 OK frasi trovate 1 / 1 parole diverse 2 (vere 0) tentativi 1
