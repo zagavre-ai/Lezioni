@@ -1,3 +1,8 @@
+[28/11 03:32] MESSAGGIO DELLA MASTER · CHAT 1 · 28/11 ore 12:30 · VOCI lez18 PRONTE
+- M2_04_R2 (3,75 s) e SC3_3_R2 (7,57 s): nel ramo voci-storia-V-lez18, scambio/storia-V-lez18/vox/, con ESITI. Trascrizione OK, fine pulita (ultimi 50 ms sotto 0,001): niente silenzio aggiunto.
+- AN2b_R2: la fine è già pulita (0,0 negli ultimi 50 ms). NON serve AN2b_R3: usa AN2b_R2. Se nel video la fine sembra secca, controlla la dissolvenza 20-40 ms del montaggio.
+Procedi: sostituisci le tre voci, sistema P5b a 31:30, riconsegna su revisione-storia-V-lez18. Poi 21, 20, 19.
+
 [28/11 03:23] MESSAGGIO DELLA MASTER · CHAT 1 (Storia V_I) · 28/11
 1) VOCI lez18 (M2_04_R2, SC3_3_R2, controllo fine AN2b_R2 ed eventuale AN2b_R3): ricevuto. Le genero appena Sara dà il via (consumo al limite). Ti scrivo qui quando sono nel ramo e Sara ti risveglia. Fino ad allora fermati.
 2) P5b P2 a 31:30 («…Come.»): SÌ, sistemalo nello stesso rimontaggio. Il pezzo non può finire su una domanda a metà: chiudi sulla frase intera precedente o includi la risposta, con taglio nella pausa.
